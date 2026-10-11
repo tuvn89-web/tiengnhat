@@ -315,6 +315,15 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
 .radios label { display: flex; align-items: center; gap: 8px; min-height: 40px; }
 .warn { border-left: 4px solid var(--ng); background: var(--ng-soft); padding: 10px 12px; border-radius: 6px; margin: 12px 0; }
 .note { border-left: 4px solid var(--blue); background: var(--blue-soft); padding: 8px 12px; border-radius: 6px; margin: 10px 0; }
+.saved-ok { border-left: 4px solid var(--ok); background: var(--ok-soft); padding: 8px 12px; border-radius: 6px; margin: 10px 0; overflow-wrap: anywhere; }
+.qr { background: #fff; padding: 10px; border-radius: 12px; width: min(100%, 300px); margin: 14px auto; }
+.qr svg { display: block; width: 100%; height: auto; }
+.steps { padding-left: 1.3em; margin: 6px 0; }
+.steps li { margin: 4px 0; }
+
+/* chữ Việt lẫn kanji có furigana: nới dòng để furigana không đè dòng trên */
+.prose p, .wd-note, .wd-std, .gram-struct li, .gram-cmp dt, .gram-cmp dd, .gram-mis li, .gram-meaning, .row-vi, .pack-t b, .imp b { line-height: 2.05; }
+.tile ruby rt, .opt-t ruby rt { font-size: .45em; }
 
 /* kiểm tra kết nối */
 .diag { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 8px; }

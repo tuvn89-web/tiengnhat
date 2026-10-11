@@ -6,7 +6,7 @@ import { renderQuizSetup, runQuiz, buildQuestions, newLeftToday } from './quiz.j
 import { renderMatchSetup } from './match.js';
 import { renderGrammarList, renderGrammar } from './grammar.js';
 import { renderWordList, renderWordForm } from './words.js';
-import { renderData } from './datapage.js';
+import { renderData, receiveSetup } from './datapage.js';
 import { renderSettings } from './settingspage.js';
 import { syncNow, getSyncCfg, lastSync, lastSyncError } from './sync.js';
 import { emptyState } from './ui.js';
@@ -26,7 +26,7 @@ const NAV = [
   ['#/ghep', 'match', 'Ghép cặp', /^ghep$/],
   ['#/nguphap', 'book', 'Ngữ pháp', /^nguphap/],
   ['#/kho', 'list', 'Kho từ', /^(kho|them|sua)/],
-  ['#/dulieu', 'box', 'Dữ liệu', /^dulieu$/, 'rail'],
+  ['#/dulieu', 'box', 'Dữ liệu', /^(dulieu|nhan)/, 'rail'],
   ['#/caidat', 'gear', 'Cài đặt', /^caidat$/, 'rail'],
 ];
 
@@ -42,6 +42,7 @@ const ROUTES = [
   [/^them$/, v => renderWordForm(v, ctx)],
   [/^sua\/(.+)$/, (v, m) => renderWordForm(v, ctx, decodeURIComponent(m[1]))],
   [/^dulieu$/, v => renderData(v, ctx)],
+  [/^nhan\?c=([A-Za-z0-9_-]+)$/, (v, m) => receiveSetup(v, ctx, m[1])],
   [/^caidat$/, v => renderSettings(v, ctx)],
 ];
 
@@ -131,7 +132,7 @@ async function syncBadge() {
   const b = $('.sync-badge'); if (!b) return;
   const c = await getSyncCfg(), err = await lastSyncError(), ls = await lastSync();
   b.dataset.state = !c.token ? 'off' : err ? 'err' : 'ok';
-  b.title = !c.token ? 'Chưa cài đồng bộ' : err ? `Lỗi đồng bộ: ${err}` : `Đồng bộ lần cuối ${fmtDate(ls)}`;
+  b.title = !c.token ? 'Máy này chưa lưu token đồng bộ' : err ? `Lỗi đồng bộ: ${err}` : `Đồng bộ lần cuối ${fmtDate(ls)}`;
   b.setAttribute('aria-label', b.title);
 }
 const scheduleSync = debounce(async () => { const r = await syncNow(); syncBadge(); if (r.error) toast('Chưa đồng bộ được: ' + r.error); }, 1500);
@@ -177,6 +178,10 @@ async function init() {
   syncBadge();
   if (r.ok && /^#?\/?$/.test(location.hash)) route();
   window.addEventListener('online', scheduleSync);
-  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') syncNow().then(syncBadge); });
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') syncNow().then(syncBadge);
+    // mở lại app từ nền (không tải lại trang) → hỏi xem có bản app mới không
+    else navigator.serviceWorker?.getRegistration().then(r => r?.update()).catch(() => { });
+  });
 }
 init();

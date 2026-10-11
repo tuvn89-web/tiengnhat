@@ -1,4 +1,4 @@
-import { esc, toast } from './util.js';
+import { esc, toast, APP_VERSION, checkUpdate } from './util.js';
 import { S, saveSettings, resetSettings } from './settings.js';
 import { jaVoices, speak, ttsReady, pickVoice } from './tts.js';
 import { chips, bindChips, readChip, field } from './ui.js';
@@ -16,7 +16,7 @@ export function renderSettings(view, ctx) {
       ${field('Cỡ chữ tiếng Nhật', `<input type="range" min="20" max="56" step="2" name="fsJp" value="${S.fsJp}">`)}
       ${field('Cỡ chữ tiếng Việt', `<input type="range" min="14" max="26" step="1" name="fsVi" value="${S.fsVi}">`)}
       <fieldset><legend>Cỡ nút bấm</legend>${chips('btn', [['sm', 'Nhỏ'], ['md', 'Vừa'], ['lg', 'Lớn'], ['xl', 'Rất lớn']], S.btn, false)}</fieldset>
-      <fieldset><legend>Kiểu chữ Nhật</legend>${chips('jpFont', [['gothic', 'Chữ không chân (ゴシック)'], ['mincho', 'Chữ có chân (明朝) — giống giấy tờ']], S.jpFont, false)}</fieldset>
+      <fieldset><legend>Kiểu chữ Nhật</legend>${chips('jpFont', [['gothic', 'Chữ không chân (ゴシック)'], ['mincho', 'Chữ có chân — giống giấy tờ']], S.jpFont, false)}</fieldset>
       <div class="preview label-card">
         <div class="label-head"><span class="label-tag">Xem trước</span><span class="label-lv">N2</span></div>
         <p class="prompt-jp" lang="ja"><ruby>解凍<rt>かいとう</rt></ruby></p>
@@ -28,7 +28,7 @@ export function renderSettings(view, ctx) {
     <section class="card">
       <h2 class="h2">Hiển thị</h2>
       <fieldset><legend>Chế độ chữ mặc định</legend>${chips('script', SCRIPTS, S.script, false)}</fieldset>
-      <label class="check"><input type="checkbox" name="furi" ${S.furi ? 'checked' : ''}> Hiện furigana trong câu ví dụ</label>
+      <p class="muted small">Chữ kanji luôn có furigana nhỏ bên trên. Chỉ hai bài luyện đọc kanji (Kanji → cách đọc, ghép Chữ mềm/cứng – Kanji) mới ẩn furigana.</p>
       <label class="check"><input type="checkbox" name="showHv" ${S.showHv ? 'checked' : ''}> Hiện âm Hán Việt</label>
     </section>
 
@@ -56,7 +56,11 @@ export function renderSettings(view, ctx) {
     <section class="card">
       <h2 class="h2">Máy này</h2>
       ${field('Tên máy (hiện trong lịch sử đồng bộ)', `<input class="input" name="deviceName" value="${esc(S.deviceName)}">`)}
-      <button type="button" class="btn btn-ghost btn-danger" data-act="reset">Đặt lại cài đặt mặc định</button>
+      <p class="small">Phiên bản app: <b>${esc(APP_VERSION)}</b></p>
+      <div class="row-btns wrap">
+        <button type="button" class="btn btn-ghost" data-act="upd">Kiểm tra bản mới</button>
+        <button type="button" class="btn btn-ghost btn-danger" data-act="reset">Đặt lại cài đặt mặc định</button>
+      </div>
     </section>`;
 
   const save = () => saveSettings();
@@ -74,5 +78,10 @@ export function renderSettings(view, ctx) {
     save();
   });
   view.querySelector('[data-act=test]').onclick = () => { if (!speak('作業の前に手を洗ってください。')) toast('Máy chưa có giọng đọc tiếng Nhật.'); };
+  view.querySelector('[data-act=upd]').onclick = async e => {
+    const b = e.currentTarget; b.disabled = true;
+    toast(await checkUpdate());
+    b.disabled = false;
+  };
   view.querySelector('[data-act=reset]').onclick = async () => { await resetSettings(); ctx.go('#/caidat', true); toast('Đã đặt lại.'); };
 }

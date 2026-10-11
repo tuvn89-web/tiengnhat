@@ -1,11 +1,50 @@
-import { esc, toast, download, readFile, fmtDate, icon } from './util.js';
+import { esc, toast, download, readFile, fmtDate, icon, rich, APP_VERSION } from './util.js';
+import qrcode from './vendor/qrcode.js';
 import { D, TOPICS, setPackEnabled, checkPack, importPack, removeImported, activeReports } from './data.js';
-import { field, confirmBox } from './ui.js';
-import { getSyncCfg, setSyncCfg, syncNow, lastSync, lastSyncError, backupJSON, restoreJSON, normalizeCfg, formProblem, diagnose, ownerFromSite } from './sync.js';
+import { field, confirmBox, openSheet } from './ui.js';
+import { getSyncCfg, setSyncCfg, syncNow, lastSync, lastSyncError, backupJSON, restoreJSON, normalizeCfg, formProblem, diagnose, ownerFromSite, maskToken, transferLink, readTransferCode } from './sync.js';
 
 const TYPE = { vocab: 'Từ vựng', grammar: 'Ngữ pháp', phrase: 'Câu thực chiến' };
 
-export async function renderData(view, ctx) {
+// Máy này đang lưu gì — để Cậu Cả tự soát (token che phần giữa)
+function savedHTML(c) {
+  if (!c.token) return '<p class="note small">Máy này <b>chưa lưu token</b> nên chưa đồng bộ. Dán token vào ô Token rồi bấm <b>Đồng bộ ngay</b>, hoặc quét mã QR từ máy đã cài xong.</p>';
+  return `<p class="saved-ok small">Máy này đang lưu: tài khoản <b>${esc(c.owner)}</b>, kho <b>${esc(c.repo)}</b>, token <code>${esc(maskToken(c.token))}</code>.</p>`;
+}
+
+// Mở từ mã QR / đường link của máy kia: #/nhan?c=…
+export async function receiveSetup(view, ctx, code) {
+  history.replaceState(null, '', location.pathname + location.search + '#/dulieu'); // xoá token khỏi thanh địa chỉ
+  const c = readTransferCode(code);
+  if (!c) { toast('Mã cài đặt không đọc được — tạo lại mã trên máy kia.'); return renderData(view, ctx); }
+  const old = await getSyncCfg();
+  if (old.token && old.token !== c.token && !(await confirmBox('Máy này đã lưu một token khác. Thay bằng cài đặt vừa nhận?', 'Thay'))) return renderData(view, ctx);
+  await setSyncCfg(c);
+  return renderData(view, ctx, { received: true });
+}
+
+function shareSheet(cfg) {
+  const link = transferLink(cfg);
+  const qr = qrcode(0, 'M');
+  qr.addData(link);
+  qr.make();
+  const svg = qr.createSvgTag({ cellSize: 4, margin: 4, scalable: true, alt: 'Mã QR cài đặt đồng bộ' });
+  const s = openSheet(`<h2 class="h2">Chuyển cài đặt sang máy khác</h2>
+    <ol class="steps small">
+      <li>Trên điện thoại, mở <b>Camera</b> (hoặc Google Lens) và hướng vào mã này.</li>
+      <li>Bấm vào đường link hiện ra. App mở lên, tự điền cài đặt và đồng bộ.</li>
+    </ol>
+    <div class="qr">${svg}</div>
+    <p class="small muted">Không quét được thì gửi đường link cho chính mình (ví dụ Zalo "Cloud của tôi") rồi mở trên máy kia.</p>
+    <div class="row-btns"><button class="btn btn-ghost" data-a="copy">Sao chép đường link</button></div>
+    <p class="warn small">Mã và đường link có chứa token. Chỉ dùng cho máy của Cậu Cả, không gửi cho người khác.</p>`, { label: 'Chuyển cài đặt sang máy khác' });
+  s.body.querySelector('[data-a=copy]').onclick = async () => {
+    try { await navigator.clipboard.writeText(link); toast('Đã sao chép đường link.'); }
+    catch { window.prompt('Sao chép đường link này:', link); }
+  };
+}
+
+export async function renderData(view, ctx, opts = {}) {
   const cfg = await getSyncCfg();
   const site = ownerFromSite();
   const ls = await lastSync(), le = await lastSyncError();
@@ -14,11 +53,42 @@ export async function renderData(view, ctx) {
   const mine = [...D.user.values()].filter(u => !u._del);
   const packRow = p => `<li class="pack">
       <label class="switch"><input type="checkbox" data-pack="${esc(p.id)}" ${off.has(p.id) ? '' : 'checked'}><span></span></label>
-      <div class="pack-t"><b>${esc(p.title)}</b><span class="muted small">${TYPE[p.type] || p.type}, ${p.count} mục, ${esc(p.level)}${p.src === 'imported' ? ', nhập tay' : ''}</span></div>
+      <div class="pack-t"><b>${rich(p.title)}</b><span class="muted small">${TYPE[p.type] || p.type}, ${p.count} mục, ${esc(p.level)}${p.src === 'imported' ? ', nhập tay' : ''}</span></div>
       ${p.src === 'imported' ? `<button class="btn btn-ghost btn-sm btn-danger" data-rm="${esc(p.id)}">Xoá</button>` : ''}
     </li>`;
   view.innerHTML = `
     <h1 class="h1">Dữ liệu & đồng bộ</h1>
+
+    <section class="card" id="dongbo">
+      <h2 class="h2">Đồng bộ qua GitHub</h2>
+      <p class="muted small">Tiến độ lưu vào một kho riêng tư trên GitHub của Cậu Cả. App tự đồng bộ khi mở, sau mỗi lượt học và khi có mạng trở lại. Cài đặt lưu riêng từng máy: máy đã cài xong thì dùng nút <b>Chuyển sang máy khác</b> để đưa sang máy kia bằng mã QR.</p>
+      <div class="saved" aria-live="polite">${savedHTML(cfg)}</div>
+      <form class="syncf" novalidate>
+        <div class="grid2">
+          ${field('Tên tài khoản GitHub', `<input class="input" name="owner" value="${esc(cfg.owner)}" autocomplete="off" autocapitalize="off" spellcheck="false">`,
+            site ? `Là phần đứng trước .github.io trong địa chỉ app — với app này là <b>${esc(site)}</b>.` : 'Là phần đứng trước .github.io trong địa chỉ app.')}
+          ${field('Tên kho riêng tư', `<input class="input" name="repo" value="${esc(cfg.repo)}" placeholder="tiengnhat-tiendo" autocomplete="off" autocapitalize="off" spellcheck="false">`,
+            'Chỉ ghi tên kho. Dán cả đường link của kho cũng được.')}
+        </div>
+        ${field('Token', `<input class="input mono" name="token" type="password" value="${esc(cfg.token)}" autocomplete="off" autocapitalize="off" spellcheck="false">`, 'Token bắt đầu bằng github_pat_. Lưu trong máy, chỉ gửi tới GitHub.')}
+        <label class="check small"><input type="checkbox" data-act="showtok"> Hiện token để soát</label>
+        <details><summary class="small">Tuỳ chọn thêm</summary>
+          <div class="grid2">
+            ${field('Nhánh', `<input class="input" name="branch" value="${esc(cfg.branch)}">`)}
+            ${field('Tên file', `<input class="input" name="path" value="${esc(cfg.path)}">`)}
+          </div>
+        </details>
+        <div class="row-btns wrap">
+          <button class="btn btn-ghost" type="submit">Lưu cài đặt</button>
+          <button class="btn btn-ghost" type="button" data-act="synccheck">Kiểm tra kết nối</button>
+          <button class="btn btn-primary" type="button" data-act="sync">${icon('sync')} Đồng bộ ngay</button>
+          <button class="btn btn-ghost" type="button" data-act="share">${icon('qr')} Chuyển sang máy khác</button>
+        </div>
+        <ul class="diag" aria-live="polite"></ul>
+        <p class="small sync-st">Lần đồng bộ cuối: ${fmtDate(ls)}${le ? `<br><span class="err">Lỗi lần trước: ${esc(le)}</span>` : ''}</p>
+        <p class="muted small">Phiên bản app: ${esc(APP_VERSION)}</p>
+      </form>
+    </section>
 
     <section class="card">
       <h2 class="h2">Gói dữ liệu</h2>
@@ -51,34 +121,7 @@ export async function renderData(view, ctx) {
       </div>
     </section>
 
-    <section class="card" id="dongbo">
-      <h2 class="h2">Đồng bộ qua GitHub</h2>
-      <p class="muted small">Tiến độ lưu vào một kho riêng tư trên GitHub của Cậu Cả. App tự đồng bộ khi mở, sau mỗi lượt học và khi có mạng trở lại. Cài đặt này lưu riêng từng máy: điện thoại và máy tính đều phải điền một lần.</p>
-      <p class="note small sync-note" ${cfg.token ? 'hidden' : ''}>Máy này chưa có token nên chưa đồng bộ.</p>
-      <form class="syncf" novalidate>
-        <div class="grid2">
-          ${field('Tên tài khoản GitHub', `<input class="input" name="owner" value="${esc(cfg.owner)}" autocomplete="off" autocapitalize="off" spellcheck="false">`,
-            site ? `Là phần đứng trước .github.io trong địa chỉ app — với app này là <b>${esc(site)}</b>.` : 'Là phần đứng trước .github.io trong địa chỉ app.')}
-          ${field('Tên kho riêng tư', `<input class="input" name="repo" value="${esc(cfg.repo)}" placeholder="tiengnhat-tiendo" autocomplete="off" autocapitalize="off" spellcheck="false">`,
-            'Chỉ ghi tên kho. Dán cả đường link của kho cũng được.')}
-        </div>
-        ${field('Token', `<input class="input mono" name="token" type="password" value="${esc(cfg.token)}" autocomplete="off" autocapitalize="off" spellcheck="false">`, 'Token bắt đầu bằng github_pat_. Lưu trong máy, chỉ gửi tới GitHub.')}
-        <label class="check small"><input type="checkbox" data-act="showtok"> Hiện token để soát</label>
-        <details><summary class="small">Tuỳ chọn thêm</summary>
-          <div class="grid2">
-            ${field('Nhánh', `<input class="input" name="branch" value="${esc(cfg.branch)}">`)}
-            ${field('Tên file', `<input class="input" name="path" value="${esc(cfg.path)}">`)}
-          </div>
-        </details>
-        <div class="row-btns wrap">
-          <button class="btn btn-ghost" type="submit">Lưu cài đặt</button>
-          <button class="btn btn-ghost" type="button" data-act="synccheck">Kiểm tra kết nối</button>
-          <button class="btn btn-primary" type="button" data-act="sync">${icon('sync')} Đồng bộ ngay</button>
-        </div>
-        <ul class="diag" aria-live="polite"></ul>
-        <p class="small sync-st">Lần đồng bộ cuối: ${fmtDate(ls)}${le ? `<br><span class="err">Lỗi lần trước: ${esc(le)}</span>` : ''}</p>
-      </form>
-    </section>`;
+`;
 
   // gói: bật/tắt, xoá
   view.querySelector('.packs').addEventListener('change', async e => {
@@ -108,7 +151,7 @@ export async function renderData(view, ctx) {
     }
     const ok = staged.filter(s => !s.errs.length);
     view.querySelector('.import-prev').innerHTML = `<ul class="rows">${staged.map(s => `<li class="imp ${s.errs.length ? 'bad' : ''}">
-        <b>${esc(s.j?.pack?.title || s.name)}</b>
+        <b>${rich(s.j?.pack?.title || s.name)}</b>
         <span class="small">${s.errs.length ? esc(s.errs.slice(0, 6).join('; ')) + (s.errs.length > 6 ? ` … (+${s.errs.length - 6} lỗi)` : '') : `${s.j.items.length} mục, ${TYPE[s.j.pack.type]}${D.packs.some(p => p.id === s.j.pack.id) ? ' — đã có gói cùng tên' : ''}`}</span></li>`).join('')}</ul>
       ${ok.length ? `<fieldset class="radios"><legend class="small">Nếu đã có gói cùng tên</legend>
         <label><input type="radio" name="mode" value="replace" checked> Thay thế gói cũ</label>
@@ -164,9 +207,8 @@ export async function renderData(view, ctx) {
     return c;
   };
   const busyBtns = on => sf.querySelectorAll('button').forEach(x => { x.disabled = on; });
-  const note = view.querySelector('.sync-note');
-  const syncNote = () => { note.hidden = !!el('token').value.trim(); };
-  el('token').addEventListener('input', syncNote);
+  const savedBox = view.querySelector('.saved');
+  const refreshSaved = async () => { savedBox.innerHTML = savedHTML(await getSyncCfg()); };
   const status = async (r) => {
     sf.querySelector('.sync-st').innerHTML = `Lần đồng bộ cuối: ${fmtDate(await lastSync())}${r?.error ? `<br><span class="err">Lỗi: ${esc(r.error)}</span>` : ''}`;
   };
@@ -178,6 +220,7 @@ export async function renderData(view, ctx) {
     await setSyncCfg(c);
     const prob = formProblem(c);
     toast(prob ? `Đã lưu. ${prob}` : 'Đã lưu cài đặt đồng bộ.');
+    refreshSaved();
     ctx.refreshSync?.();
   };
   sf.querySelector('[data-act=synccheck]').onclick = async () => {
@@ -189,6 +232,7 @@ export async function renderData(view, ctx) {
     if (d.fix.owner || d.fix.branch) { await setSyncCfg(d.cfg); for (const k of Object.keys(d.cfg)) el(k).value = d.cfg[k]; }
     showDiag(d.steps);
     busyBtns(false);
+    refreshSaved();
     toast(d.ok ? 'Kết nối ổn. Bấm Đồng bộ ngay.' : 'Có chỗ cần sửa — xem danh sách bên dưới.');
   };
   sf.querySelector('[data-act=sync]').onclick = async () => {
@@ -208,5 +252,19 @@ export async function renderData(view, ctx) {
     }
     ctx.refreshSync?.();
     status(r);
+    refreshSaved();
   };
+  sf.querySelector('[data-act=share]').onclick = async () => {
+    const c = readCfg();
+    const prob = formProblem(c);
+    if (prob) { toast(prob); return; }
+    await setSyncCfg(c);
+    refreshSaved();
+    shareSheet(c);
+  };
+  if (opts.received) {
+    view.querySelector('#dongbo').scrollIntoView({ block: 'start' });
+    toast('Đã nhận cài đặt đồng bộ từ máy kia. Đang đồng bộ…');
+    setTimeout(() => sf.querySelector('[data-act=sync]').click(), 400);
+  }
 }

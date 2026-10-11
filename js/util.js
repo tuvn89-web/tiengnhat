@@ -13,7 +13,11 @@ export function isKanjiCh(ch) {
 }
 export const hasKanji = s => [...(s || '')].some(isKanjiCh);
 
+export const APP_VERSION = 'v3 · 11/10/2026'; // đổi cùng lúc với VERSION trong sw.js
+
 // Cú pháp: 漢字[よみ] — phần gắn cách đọc là chuỗi kanji liền trước "[".  [[...]] = phần ngữ pháp.
+// Dấu [ ] không đứng sau kanji, hoặc bên trong không phải kana, thì giữ nguyên như chữ thường.
+const KANA_ONLY = /^[぀-ヿー・ ]+$/;
 export function parseJP(s) {
   s = s || '';
   const segs = [];
@@ -25,13 +29,13 @@ export function parseJP(s) {
     const ch = s[i];
     if (ch === '[') {
       const j = s.indexOf(']', i + 1);
-      if (j < 0) { buf += s.slice(i); break; }
-      const r = s.slice(i + 1, j);
+      const r = j < 0 ? '' : s.slice(i + 1, j);
       let k = buf.length;
       while (k > 0 && isKanjiCh(buf[k - 1])) k--;
+      if (j < 0 || k === buf.length || !KANA_ONLY.test(r)) { buf += ch; i++; continue; }
       const pre = buf.slice(0, k), base = buf.slice(k);
       if (pre) segs.push({ t: pre, r: null, hl });
-      if (base) segs.push({ t: base, r, hl });
+      segs.push({ t: base, r, hl });
       buf = ''; i = j + 1; continue;
     }
     buf += ch; i++;
@@ -39,6 +43,9 @@ export function parseJP(s) {
   flush();
   return segs;
 }
+// Chữ hỗn hợp Việt–Nhật (ghi chú, giải thích, tên gói…): kanji có [よみ] thì hiện furigana.
+export const rich = s => rubyHTML(s, true);
+export const richParas = s => String(s || '').split(/\n\n+/).map(p => `<p>${rich(p)}</p>`).join('');
 export const plain = s => parseJP(s).map(x => x.t).join('');
 export const reading = s => parseJP(s).map(x => x.r || x.t).join('');
 
@@ -53,10 +60,11 @@ export function rubyHTML(s, furi = true) {
   return out;
 }
 
-// Hiển thị một từ theo chế độ chữ: kana (mềm/cứng) | kanji | furi (kanji + furigana)
+// Hiển thị một từ theo chế độ chữ: kana (mềm/cứng) | furi (kanji + furigana)
+// | bare (kanji trần — CHỈ dùng ở phần kiểm tra Hán–furigana: Kanji → cách đọc, ghép kana – kanji)
 export function wordHTML(it, mode = 'furi') {
   if (mode === 'kana' || !it.kanji) return esc(it.kana);
-  if (mode === 'kanji') return esc(it.kanji);
+  if (mode === 'bare') return esc(it.kanji);
   if (it.kf) return rubyHTML(it.kf, true);
   return `<ruby>${esc(it.kanji)}<rt>${esc(it.kana)}</rt></ruby>`;
 }
@@ -122,6 +130,19 @@ export function beep(ok) {
 }
 export function buzz() { try { navigator.vibrate?.(120); } catch { } }
 
+// Hỏi máy chủ xem có bản app mới không (bản mới tự cài rồi tải lại trang).
+export async function checkUpdate() {
+  if (!('serviceWorker' in navigator)) return 'Trình duyệt này không hỗ trợ tự cập nhật.';
+  if (!navigator.onLine) return 'Đang không có mạng — có mạng rồi thử lại.';
+  try {
+    const reg = await navigator.serviceWorker.getRegistration();
+    if (!reg) return 'App chưa cài chế độ offline — mở lại app khi có mạng.';
+    await reg.update();
+    if (reg.installing || reg.waiting) return 'Đang tải bản mới — app sẽ tự tải lại sau ít giây.';
+    return `Đang dùng bản mới nhất (${APP_VERSION}).`;
+  } catch { return 'Không kiểm tra được — thử lại sau.'; }
+}
+
 export function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
 
 export const ICON = {
@@ -138,5 +159,6 @@ export const ICON = {
   plus: '<path d="M12 5v14M5 12h14"/>',
   sync: '<path d="M20 11a8 8 0 0 0-14.3-4.9L4 8"/><path d="M4 4v4h4"/><path d="M4 13a8 8 0 0 0 14.3 4.9L20 16"/><path d="M20 20v-4h-4"/>',
   flag: '<path d="M5 21V4h11l-2 4 2 4H5"/>',
+  qr: '<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM20 14v1M14 20h1M17 17h4v4h-4"/>',
 };
 export const icon = (n, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICON[n]}</svg>`;

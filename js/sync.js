@@ -62,6 +62,25 @@ export function formProblem(c) {
   if (miss.length) return `Máy này còn thiếu: ${miss.join(', ')}. Mỗi máy (điện thoại, máy tính) phải điền một lần.`;
   return '';
 }
+// Che token khi hiện ra màn hình: github_pat_…abcd
+export const maskToken = t => (!t ? '' : t.length <= 16 ? '…' + t.slice(-4) : `${t.slice(0, 11)}…${t.slice(-4)}`);
+
+// ---------- chuyển cài đặt sang máy khác (mã QR / đường link) ----------
+const b64u = s => { const b = new TextEncoder().encode(s); let x = ''; for (const c of b) x += String.fromCharCode(c); return btoa(x).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''); };
+const unb64u = s => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/')), c => c.charCodeAt(0)));
+export function transferLink(cfg) {
+  const c = normalizeCfg(cfg);
+  const code = b64u(JSON.stringify({ v: 1, o: c.owner, r: c.repo, t: c.token, b: c.branch, p: c.path }));
+  return `${location.origin}${location.pathname}#/nhan?c=${code}`;
+}
+export function readTransferCode(code) {
+  try {
+    const j = JSON.parse(unb64u(code));
+    if (j.v !== 1 || !j.t) return null;
+    return normalizeCfg({ owner: j.o, repo: j.r, token: j.t, branch: j.b, path: j.p });
+  } catch { return null; }
+}
+
 const headers = c => ({ Authorization: `Bearer ${c.token}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' });
 const repoUrl = (o, r) => `${API}/repos/${encodeURIComponent(o)}/${encodeURIComponent(r)}`;
 const same = (a, b) => String(a).toLowerCase() === String(b).toLowerCase();

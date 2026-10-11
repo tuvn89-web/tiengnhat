@@ -7,8 +7,7 @@ export const DEFAULTS = {
   fsVi: 17,           // cỡ chữ tiếng Việt (px)
   btn: 'md',          // sm | md | lg | xl
   jpFont: 'gothic',   // gothic | mincho
-  script: 'furi',     // kana | kanji | furi
-  furi: true,         // furigana trong câu ví dụ
+  script: 'furi',     // kana | furi  (kanji luôn kèm furigana)
   showHv: true,       // hiện âm Hán Việt
   qCount: 20,
   matchRounds: 3,
@@ -27,6 +26,8 @@ const BTN_H = { sm: 44, md: 54, lg: 64, xl: 76 };
 
 export async function loadSettings() {
   Object.assign(S, await kvGet('settings', {}));
+  if (S.script !== 'kana') S.script = 'furi';
+  delete S.furi;
   if (!S.deviceName) S.deviceName = /Android/i.test(navigator.userAgent) ? 'dien-thoai' : 'may-tinh';
   applySettings();
 }

@@ -6,13 +6,14 @@ import { chips, bindChips, readChip, readChips, topicOpts, emptyState } from './
 import { selectItems } from './quiz.js';
 import { kvGet, kvSet } from './db.js';
 
-export const PAIR_TYPES = [['vi-kana', 'Việt – chữ mềm/cứng'], ['vi-kanji', 'Việt – Kanji'], ['kana-kanji', 'Chữ mềm/cứng – Kanji']];
+export const PAIR_TYPES = [['vi-kana', 'Việt – chữ mềm/cứng'], ['vi-kanji', 'Việt – Kanji'], ['kana-kanji', 'Chữ mềm/cứng – Kanji (không furigana)']];
 const PER = 6;
 
 function sides(it, type) {
   if (type === 'vi-kana') return [{ k: normVi(it.vi), h: esc(it.vi) }, { k: it.kana, h: esc(it.kana), jp: 1 }];
-  if (type === 'vi-kanji') return [{ k: normVi(it.vi), h: esc(it.vi) }, { k: it.kanji || it.kana, h: esc(it.kanji || it.kana), jp: 1 }];
-  return [{ k: it.kana, h: esc(it.kana), jp: 1 }, { k: it.kanji, h: esc(it.kanji), jp: 1 }];
+  // Việt – Kanji: kanji có furigana. Chữ mềm/cứng – Kanji là bài luyện đọc kanji nên kanji để trần.
+  if (type === 'vi-kanji') return [{ k: normVi(it.vi), h: esc(it.vi) }, { k: it.kanji || it.kana, h: wordHTML(it, 'furi'), jp: 1 }];
+  return [{ k: it.kana, h: esc(it.kana), jp: 1 }, { k: it.kanji, h: wordHTML(it, 'bare'), jp: 1 }];
 }
 
 // chia thành các màn 6 cặp, trong một màn không có hai ô trùng chữ (tránh hai đáp án cùng đúng)
@@ -92,7 +93,7 @@ export function runMatch(view, rounds, type, ctx) {
   }
   function tile(it, side) {
     const s = sides(it, type)[side];
-    return `<button type="button" class="tile ${s.jp ? 'tile-jp' : ''}" data-id="${esc(it.id)}" data-side="${side ? 'R' : 'L'}" ${s.jp ? 'lang="ja"' : ''}>${s.h}</button>`;
+    return `<button type="button" class="tile ${s.jp ? 'tile-jp' : ''}" data-id="${esc(it.id)}" data-side="${side ? 'R' : 'L'}" ${s.jp ? 'lang="ja"' : ''} ${type === 'kana-kanji' && side ? 'data-bare' : ''}>${s.h}</button>`;
   }
   function onTap(e) {
     const b = e.target.closest('.tile');

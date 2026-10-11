@@ -61,9 +61,16 @@ App → **Dữ liệu** → **Đồng bộ qua GitHub**:
 - Tên kho: `tiengnhat-tiendo` (dán cả đường link của kho cũng được).
 - Token: dán token vừa sao chép. Tích **Hiện token để soát** để thấy đã dán đủ chưa (token bắt đầu bằng `github_pat_`).
 
-Bấm **Kiểm tra kết nối**. Thấy toàn dấu ✓ xanh thì bấm **Đồng bộ ngay**.
+Bấm **Kiểm tra kết nối**. Thấy toàn dấu ✓ xanh thì bấm **Đồng bộ ngay**. Ô xanh lá phía trên sẽ ghi *Máy này đang lưu: tài khoản tuvn89-web, kho tiengnhat-tiendo, token github_pat_…xxxx*. Thấy dòng đó là máy đã lưu đủ.
 
-**Mỗi máy phải điền một lần.** Cài đặt đồng bộ lưu riêng trên từng máy, nên điện thoại và máy tính đều phải dán token. Nếu đã mất token (GitHub chỉ hiện một lần), tạo token mới theo 3.2 rồi dán cho cả hai máy.
+**Máy thứ hai: không cần chép token, dùng mã QR.**
+1. Trên máy đã đồng bộ được (thường là máy tính): **Dữ liệu → Chuyển sang máy khác**. Màn hình hiện một mã QR.
+2. Trên điện thoại: mở **Camera** (hoặc Google Lens), hướng vào mã, bấm đường link hiện ra.
+3. App mở lên, tự điền cài đặt và tự đồng bộ.
+
+Không quét được thì bấm **Sao chép đường link**, gửi cho chính mình qua Zalo "Cloud của tôi", rồi mở link đó trên điện thoại. Mã QR và đường link có chứa token, nên không gửi cho người khác.
+
+Nếu đã mất token (GitHub chỉ hiện một lần), tạo token mới theo 3.2 rồi dán lại trên một máy, sau đó dùng mã QR cho máy kia.
 
 Từ đó app tự đồng bộ khi mở app, sau mỗi lượt học, khi có mạng trở lại và khi thoát app. Học offline cứ học, có mạng app tự gộp. Hai máy cùng học một từ thì lần học sau cùng được giữ.
 
@@ -75,9 +82,11 @@ Bấm **Kiểm tra kết nối**. App kiểm từng bước và hiện danh sác
 - ! vàng: lưu ý, hoặc app đã tự sửa (ví dụ ghi nhầm `tuvn89` → app tự đổi thành `tuvn89-web`).
 - ✕ đỏ: chỗ phải sửa, kèm cách sửa.
 
+Trang **Dữ liệu** không có nút **Kiểm tra kết nối**? Máy đang chạy bản app cũ. Xem mục 6 để lên bản mới.
+
 | App báo | Cách sửa |
 |---|---|
-| Máy này còn thiếu: … | Điền ô còn thiếu. Mỗi máy phải điền một lần. |
+| Máy này chưa lưu token / Máy này còn thiếu: … | Dán token rồi bấm Đồng bộ ngay, hoặc quét mã QR từ máy đã cài xong. |
 | Token đang bị dán vào ô tên kho | Ô tên kho chỉ ghi `tiengnhat-tiendo`; token dán vào ô Token. |
 | Token sai hoặc đã hết hạn | Tạo token mới (3.2) rồi dán lại. |
 | Token thuộc tài khoản A, còn ô tên tài khoản đang ghi B | Kho tiến độ và token phải cùng một tài khoản. Tạo lại kho hoặc token trong tài khoản `tuvn89-web`. |
@@ -111,6 +120,8 @@ Tải các file mới lên kho `tiengnhat`, ghi đè file cũ:
 - **Trên điện thoại** (không kéo được thư mục): bấm vào thư mục `js` → **Add file → Upload files** → chọn các file `.js` → Commit. Làm tương tự với `css`. File ở ngoài cùng (`sw.js`) thì tải lên ở trang chính của kho.
 
 Đợi 1–2 phút rồi mở app khi có mạng. App **tự cập nhật** và tải lại trang, hiện thông báo *Đã cập nhật app lên bản mới*. Nếu đang giữa lượt học, app chờ học xong lượt mới tải lại.
+
+**Kiểm tra máy đang chạy bản nào:** **Cài đặt → Máy này → Phiên bản app** (cũng hiện ở cuối thẻ đồng bộ trong trang Dữ liệu). Chưa thấy số mới thì bấm **Kiểm tra bản mới**. Nếu vẫn chưa lên: trên Android, vuốt tắt hẳn app khỏi danh sách ứng dụng gần đây rồi mở lại.
 
 Người sửa code nhớ tăng `VERSION` trong `sw.js` (ví dụ `tnt-v2` → `tnt-v3`), thì máy mới nhận ra có bản mới.
 

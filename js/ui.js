@@ -1,4 +1,4 @@
-import { esc, rubyHTML, wordHTML, reading, jp, icon, toast, $ } from './util.js';
+import { esc, rubyHTML, wordHTML, reading, jp, icon, toast, $, rich } from './util.js';
 import { TOPICS, POS, REG, D } from './data.js';
 import { S } from './settings.js';
 import { speak, ttsReady } from './tts.js';
@@ -39,7 +39,7 @@ export function bindSay(root) {
 
 export function exampleHTML(ex, { ctx } = {}) {
   return `<div class="ex">
-    <div class="ex-row"><p class="ex-jp" lang="ja">${rubyHTML(ex.jp, S.furi)}</p>${sayBtn(reading(ex.jp))}</div>
+    <div class="ex-row"><p class="ex-jp" lang="ja">${rubyHTML(ex.jp, true)}</p>${sayBtn(reading(ex.jp))}</div>
     <p class="ex-vi">${esc(ex.vi)}${ctx ? ` <span class="tag">${esc(ctx)}</span>` : ''}</p>
   </div>`;
 }
@@ -58,12 +58,12 @@ export function wordDetailHTML(it, { compact = false } = {}) {
     ${it.kanji ? `<p class="wd-kana" lang="ja">${esc(it.kana)}</p>` : ''}
     ${S.showHv && it.hv ? `<p class="wd-hv">Hán Việt: <b>${esc(it.hv)}</b></p>` : ''}
     <p class="wd-vi">${esc(it.vi)}</p>
-    ${it.std ? `<p class="wd-std">Tiếng chuẩn: <span lang="ja">${esc(it.std)}</span></p>` : ''}
+    ${it.std ? `<p class="wd-std">Tiếng chuẩn: <span lang="ja">${rich(it.std)}</span></p>` : ''}
     <p class="wd-meta">${meta.map(esc).join(' / ')}</p>
     ${(it.ex || []).slice(0, compact ? 1 : 9).map(e => exampleHTML(e)).join('')}
-    ${it.note ? `<p class="wd-note">${esc(it.note)}</p>` : ''}
+    ${it.note ? `<p class="wd-note">${rich(it.note)}</p>` : ''}
     ${it.flag ? `<p class="wd-flag">Mục này đang được đánh dấu cần kiểm lại.</p>` : ''}
-    ${D.reports[it.id] && !D.reports[it.id]._del ? `<p class="wd-flag">Cậu Cả đã báo sai mục này${D.reports[it.id].note ? ': ' + esc(D.reports[it.id].note) : ''}.</p>` : ''}
+    ${D.reports[it.id] && !D.reports[it.id]._del ? `<p class="wd-flag">Cậu Cả đã báo sai mục này${D.reports[it.id].note ? ': ' + rich(D.reports[it.id].note) : ''}.</p>` : ''}
   </div>`;
 }
 

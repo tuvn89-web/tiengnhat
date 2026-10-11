@@ -1,87 +1,582 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "thuysan-01",
-    "title": "Thủy sản 01 – Nguyên liệu & bộ phận cá",
-    "type": "vocab",
-    "level": "N4",
-    "topics": ["thuysan"],
-    "version": 1,
-    "created": "2026-10-08",
-    "verified_on": "",
-    "note": "Gói mẫu. Tên cá/hải sản và bộ phận cá là từ chuyên ngành, không có trong JLPT — cấp ghi theo độ khó ước lượng."
+ "schema": 1,
+ "pack": {
+  "id": "thuysan-01",
+  "title": "Thủy sản 01 – Nguyên liệu & bộ phận cá",
+  "type": "vocab",
+  "level": "N4",
+  "topics": [
+   "thuysan"
+  ],
+  "version": 2,
+  "created": "2026-10-08",
+  "verified_on": "",
+  "note": "Gói mẫu. Tên cá/hải sản và bộ phận cá là từ chuyên ngành, không có trong JLPT — cấp ghi theo độ khó ước lượng."
+ },
+ "items": [
+  {
+   "id": "v:魚:さかな",
+   "kana": "さかな",
+   "kanji": "魚",
+   "hv": "NGƯ",
+   "vi": "cá",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Nguyên liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]を冷蔵庫[れいぞうこ]に入[い]れます。",
+     "vi": "Cho cá vào tủ lạnh."
+    }
+   ]
   },
-  "items": [
-    {"id":"v:魚:さかな","kana":"さかな","kanji":"魚","hv":"NGƯ","vi":"cá","pos":"n","level":"N5","topics":["thuysan"],"sub":"Nguyên liệu","reg":"thuong",
-     "ex":[{"jp":"魚[さかな]を冷蔵庫[れいぞうこ]に入[い]れます。","vi":"Cho cá vào tủ lạnh."}]},
-    {"id":"v:サーモン:サーモン","kana":"サーモン","kanji":"","hv":"","vi":"cá hồi","pos":"n","level":"N4","topics":["thuysan"],"sub":"Nguyên liệu","reg":"thuong",
-     "ex":[{"jp":"サーモンの皮[かわ]を引[ひ]きます。","vi":"Lạng da cá hồi."}],
-     "note":"Trong xưởng hay nói サーモン. 鮭 (さけ) cũng là cá hồi."},
-    {"id":"v:マグロ:マグロ","kana":"マグロ","kanji":"","hv":"","vi":"cá ngừ","pos":"n","level":"N4","topics":["thuysan"],"sub":"Nguyên liệu","reg":"thuong",
-     "ex":[{"jp":"マグロを柵[さく]に切[き]ります。","vi":"Cắt cá ngừ thành miếng thăn."}]},
-    {"id":"v:ブリ:ブリ","kana":"ブリ","kanji":"","hv":"","vi":"cá cam (cá buri)","pos":"n","level":"N3","topics":["thuysan"],"sub":"Nguyên liệu","reg":"thuong",
-     "ex":[{"jp":"ブリは冬[ふゆ]がおいしいです。","vi":"Cá cam ngon nhất vào mùa đông."}],
-     "note":"ハマチ là tên gọi cá cam cỡ nhỏ (thường là cá nuôi)."},
-    {"id":"v:ホタテ:ホタテ","kana":"ホタテ","kanji":"","hv":"","vi":"sò điệp","pos":"n","level":"N3","topics":["thuysan"],"sub":"Nguyên liệu","reg":"thuong",
-     "ex":[{"jp":"ホタテの貝柱[かいばしら]を取[と]ります。","vi":"Lấy cồi sò điệp."}],
-     "note":"貝柱 (かいばしら) = cồi (phần thịt tròn)."},
-    {"id":"v:イカ:イカ","kana":"イカ","kanji":"","hv":"","vi":"mực","pos":"n","level":"N4","topics":["thuysan"],"sub":"Nguyên liệu","reg":"thuong",
-     "ex":[{"jp":"イカを細[ほそ]く切[き]ります。","vi":"Thái mực thành sợi nhỏ."}],
-     "confuse":["v:タコ:タコ"]},
-    {"id":"v:タコ:タコ","kana":"タコ","kanji":"","hv":"","vi":"bạch tuộc","pos":"n","level":"N4","topics":["thuysan"],"sub":"Nguyên liệu","reg":"thuong",
-     "ex":[{"jp":"タコの足[あし]を切[き]ります。","vi":"Cắt râu bạch tuộc."}],
-     "confuse":["v:イカ:イカ"]},
-    {"id":"v:エビ:エビ","kana":"エビ","kanji":"","hv":"","vi":"tôm","pos":"n","level":"N4","topics":["thuysan"],"sub":"Nguyên liệu","reg":"thuong",
-     "ex":[{"jp":"エビの殻[から]をむきます。","vi":"Bóc vỏ tôm."}],
-     "note":"Trên nhãn chất gây dị ứng viết えび (hiragana). Tôm là chất gây dị ứng bắt buộc ghi nhãn."},
-    {"id":"v:カニ:カニ","kana":"カニ","kanji":"","hv":"","vi":"cua","pos":"n","level":"N4","topics":["thuysan"],"sub":"Nguyên liệu","reg":"thuong",
-     "ex":[{"jp":"カニはアレルギーの表示[ひょうじ]が必要[ひつよう]です。","vi":"Cua bắt buộc phải ghi nhãn dị ứng."}],
-     "note":"Trên nhãn viết かに (hiragana)."},
-    {"id":"v:牡蠣:かき","kana":"かき","kanji":"牡蠣","hv":"MẪU LỆ","vi":"hàu","pos":"n","level":"N3","topics":["thuysan"],"sub":"Nguyên liệu","reg":"thuong",
-     "ex":[{"jp":"生食用[せいしょくよう]の牡蠣[かき]は特[とく]に注意[ちゅうい]します。","vi":"Hàu ăn sống phải đặc biệt chú ý."}],
-     "note":"Thường viết カキ. Cùng âm かき với 柿 (quả hồng)."},
-    {"id":"v:ウニ:ウニ","kana":"ウニ","kanji":"","hv":"","vi":"nhím biển (cầu gai)","pos":"n","level":"N3","topics":["thuysan"],"sub":"Nguyên liệu","reg":"thuong",
-     "ex":[{"jp":"ウニはとても柔[やわ]らかいです。","vi":"Nhím biển rất mềm."}]},
-    {"id":"v:イクラ:イクラ","kana":"イクラ","kanji":"","hv":"","vi":"trứng cá hồi","pos":"n","level":"N3","topics":["thuysan"],"sub":"Nguyên liệu","reg":"thuong",
-     "ex":[{"jp":"イクラを容器[ようき]に入[い]れます。","vi":"Cho trứng cá hồi vào hộp."}]},
-    {"id":"v:頭:あたま","kana":"あたま","kanji":"頭","hv":"ĐẦU","vi":"đầu","pos":"n","level":"N5","topics":["thuysan"],"sub":"Bộ phận cá","reg":"thuong",
-     "ex":[{"jp":"魚[さかな]の頭[あたま]を落[お]とします。","vi":"Chặt đầu cá."}]},
-    {"id":"v:尾びれ:おびれ","kana":"おびれ","kanji":"尾びれ","kf":"尾[お]びれ","hv":"VĨ","vi":"vây đuôi","pos":"n","level":"N3","topics":["thuysan"],"sub":"Bộ phận cá","reg":"thuong",
-     "ex":[{"jp":"尾[お]びれを切[き]ります。","vi":"Cắt vây đuôi."}]},
-    {"id":"v:皮:かわ","kana":"かわ","kanji":"皮","hv":"BÌ","vi":"da (cá)","pos":"n","level":"N4","topics":["thuysan"],"sub":"Bộ phận cá","reg":"thuong",
-     "ex":[{"jp":"包丁[ほうちょう]で皮[かわ]を引[ひ]きます。","vi":"Lạng da bằng dao."}],
-     "note":"皮を引く = lạng da cá."},
-    {"id":"v:骨:ほね","kana":"ほね","kanji":"骨","hv":"CỐT","vi":"xương","pos":"n","level":"N4","topics":["thuysan"],"sub":"Bộ phận cá","reg":"thuong",
-     "ex":[{"jp":"骨[ほね]が残[のこ]っていないか確認[かくにん]します。","vi":"Kiểm tra xem còn sót xương không."}],
-     "confuse":["v:腹骨:はらぼね","v:中骨:なかぼね"]},
-    {"id":"v:身:み","kana":"み","kanji":"身","hv":"THÂN","vi":"thịt (cá)","pos":"n","level":"N3","topics":["thuysan"],"sub":"Bộ phận cá","reg":"thuong",
-     "ex":[{"jp":"身[み]を傷[きず]つけないでください。","vi":"Đừng làm dập thịt cá."}],
-     "note":"Trong xưởng, 身 là phần thịt cá. Nghĩa gốc: thân mình."},
-    {"id":"v:腹骨:はらぼね","kana":"はらぼね","kanji":"腹骨","hv":"PHÚC CỐT","vi":"xương bụng (xương sườn cá)","pos":"n","level":"N2","topics":["thuysan"],"sub":"Bộ phận cá","reg":"thuong",
-     "ex":[{"jp":"腹骨[はらぼね]をすき取[と]ります。","vi":"Lạng bỏ xương bụng."}],
-     "confuse":["v:中骨:なかぼね","v:骨:ほね"]},
-    {"id":"v:中骨:なかぼね","kana":"なかぼね","kanji":"中骨","hv":"TRUNG CỐT","vi":"xương giữa (xương sống cá)","pos":"n","level":"N2","topics":["thuysan"],"sub":"Bộ phận cá","reg":"thuong",
-     "ex":[{"jp":"三枚[さんまい]おろしで中骨[なかぼね]を外[はず]します。","vi":"Lọc ba phần để tách xương giữa."}],
-     "confuse":["v:腹骨:はらぼね","v:骨:ほね"]},
-    {"id":"v:血合い:ちあい","kana":"ちあい","kanji":"血合い","kf":"血[ち]合[あ]い","hv":"HUYẾT HỢP","vi":"phần thịt sẫm màu (thịt máu)","pos":"n","level":"N1","topics":["thuysan"],"sub":"Bộ phận cá","reg":"thuong",
-     "ex":[{"jp":"マグロの血[ち]合[あ]いを取[と]ります。","vi":"Lạng bỏ phần thịt máu của cá ngừ."}]},
-    {"id":"v:柵:さく","kana":"さく","kanji":"柵","hv":"SÁCH","vi":"miếng thăn cá (khối để thái sashimi)","pos":"n","level":"N1","topics":["thuysan"],"sub":"Bộ phận cá","reg":"thuong",
-     "ex":[{"jp":"サーモンを柵[さく]にします。","vi":"Pha cá hồi thành miếng thăn."}],
-     "confuse":["v:切り身:きりみ","v:刺身:さしみ"],
-     "note":"Nghĩa gốc của 柵 là hàng rào."},
-    {"id":"v:刺身:さしみ","kana":"さしみ","kanji":"刺身","hv":"THÍCH THÂN","vi":"sashimi (cá sống thái lát)","pos":"n","level":"N3","topics":["thuysan"],"sub":"Bộ phận cá","reg":"thuong",
-     "ex":[{"jp":"刺身[さしみ]用[よう]のサーモンです。","vi":"Đây là cá hồi dùng làm sashimi."}],
-     "confuse":["v:切り身:きりみ","v:柵:さく"],
-     "note":"刺 có hai âm Hán Việt: thứ / thích."},
-    {"id":"v:切り身:きりみ","kana":"きりみ","kanji":"切り身","kf":"切[き]り身[み]","hv":"THIẾT THÂN","vi":"miếng cá cắt (phi lê)","pos":"n","level":"N2","topics":["thuysan"],"sub":"Bộ phận cá","reg":"thuong",
-     "ex":[{"jp":"切[き]り身[み]を一[ひと]つずつ計量[けいりょう]します。","vi":"Cân từng miếng cá cắt."}],
-     "confuse":["v:柵:さく","v:刺身:さしみ"]},
-    {"id":"v:内臓:ないぞう","kana":"ないぞう","kanji":"内臓","hv":"NỘI TẠNG","vi":"nội tạng","pos":"n","level":"N2","topics":["thuysan"],"sub":"Bộ phận cá","reg":"thuong",
-     "ex":[{"jp":"内臓[ないぞう]をきれいに取[と]ります。","vi":"Lấy sạch nội tạng."}]},
-    {"id":"v:鱗:うろこ","kana":"うろこ","kanji":"鱗","hv":"LÂN","vi":"vảy cá","pos":"n","level":"N1","topics":["thuysan"],"sub":"Bộ phận cá","reg":"thuong",
-     "ex":[{"jp":"鱗[うろこ]を落[お]とします。","vi":"Đánh vảy."}],
-     "note":"Thường viết うろこ bằng hiragana."},
-    {"id":"v:鮮度:せんど","kana":"せんど","kanji":"鮮度","hv":"TIÊN ĐỘ","vi":"độ tươi","pos":"n","level":"N2","topics":["thuysan"],"sub":"Nguyên liệu","reg":"thuong",
-     "ex":[{"jp":"鮮度[せんど]が落[お]ちないように早[はや]く作業[さぎょう]します。","vi":"Làm nhanh để cá không mất độ tươi."}]}
-  ]
+  {
+   "id": "v:サーモン:サーモン",
+   "kana": "サーモン",
+   "kanji": "",
+   "hv": "",
+   "vi": "cá hồi",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Nguyên liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "サーモンの皮[かわ]を引[ひ]きます。",
+     "vi": "Lạng da cá hồi."
+    }
+   ],
+   "note": "Trong xưởng hay nói サーモン. 鮭[さけ] cũng là cá hồi."
+  },
+  {
+   "id": "v:マグロ:マグロ",
+   "kana": "マグロ",
+   "kanji": "",
+   "hv": "",
+   "vi": "cá ngừ",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Nguyên liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "マグロを柵[さく]に切[き]ります。",
+     "vi": "Cắt cá ngừ thành miếng thăn."
+    }
+   ]
+  },
+  {
+   "id": "v:ブリ:ブリ",
+   "kana": "ブリ",
+   "kanji": "",
+   "hv": "",
+   "vi": "cá cam (cá buri)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Nguyên liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ブリは冬[ふゆ]がおいしいです。",
+     "vi": "Cá cam ngon nhất vào mùa đông."
+    }
+   ],
+   "note": "ハマチ là tên gọi cá cam cỡ nhỏ (thường là cá nuôi)."
+  },
+  {
+   "id": "v:ホタテ:ホタテ",
+   "kana": "ホタテ",
+   "kanji": "",
+   "hv": "",
+   "vi": "sò điệp",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Nguyên liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ホタテの貝柱[かいばしら]を取[と]ります。",
+     "vi": "Lấy cồi sò điệp."
+    }
+   ],
+   "note": "貝柱[かいばしら] = cồi (phần thịt tròn)."
+  },
+  {
+   "id": "v:イカ:イカ",
+   "kana": "イカ",
+   "kanji": "",
+   "hv": "",
+   "vi": "mực",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Nguyên liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "イカを細[ほそ]く切[き]ります。",
+     "vi": "Thái mực thành sợi nhỏ."
+    }
+   ],
+   "confuse": [
+    "v:タコ:タコ"
+   ]
+  },
+  {
+   "id": "v:タコ:タコ",
+   "kana": "タコ",
+   "kanji": "",
+   "hv": "",
+   "vi": "bạch tuộc",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Nguyên liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "タコの足[あし]を切[き]ります。",
+     "vi": "Cắt râu bạch tuộc."
+    }
+   ],
+   "confuse": [
+    "v:イカ:イカ"
+   ]
+  },
+  {
+   "id": "v:エビ:エビ",
+   "kana": "エビ",
+   "kanji": "",
+   "hv": "",
+   "vi": "tôm",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Nguyên liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "エビの殻[から]をむきます。",
+     "vi": "Bóc vỏ tôm."
+    }
+   ],
+   "note": "Trên nhãn chất gây dị ứng viết えび (hiragana). Tôm là chất gây dị ứng bắt buộc ghi nhãn."
+  },
+  {
+   "id": "v:カニ:カニ",
+   "kana": "カニ",
+   "kanji": "",
+   "hv": "",
+   "vi": "cua",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Nguyên liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "カニはアレルギーの表示[ひょうじ]が必要[ひつよう]です。",
+     "vi": "Cua bắt buộc phải ghi nhãn dị ứng."
+    }
+   ],
+   "note": "Trên nhãn viết かに (hiragana)."
+  },
+  {
+   "id": "v:牡蠣:かき",
+   "kana": "かき",
+   "kanji": "牡蠣",
+   "hv": "MẪU LỆ",
+   "vi": "hàu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Nguyên liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "生食用[せいしょくよう]の牡蠣[かき]は特[とく]に注意[ちゅうい]します。",
+     "vi": "Hàu ăn sống phải đặc biệt chú ý."
+    }
+   ],
+   "note": "Thường viết カキ. Cùng âm かき với 柿[かき] (quả hồng)."
+  },
+  {
+   "id": "v:ウニ:ウニ",
+   "kana": "ウニ",
+   "kanji": "",
+   "hv": "",
+   "vi": "nhím biển (cầu gai)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Nguyên liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ウニはとても柔[やわ]らかいです。",
+     "vi": "Nhím biển rất mềm."
+    }
+   ]
+  },
+  {
+   "id": "v:イクラ:イクラ",
+   "kana": "イクラ",
+   "kanji": "",
+   "hv": "",
+   "vi": "trứng cá hồi",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Nguyên liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "イクラを容器[ようき]に入[い]れます。",
+     "vi": "Cho trứng cá hồi vào hộp."
+    }
+   ]
+  },
+  {
+   "id": "v:頭:あたま",
+   "kana": "あたま",
+   "kanji": "頭",
+   "hv": "ĐẦU",
+   "vi": "đầu",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Bộ phận cá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]の頭[あたま]を落[お]とします。",
+     "vi": "Chặt đầu cá."
+    }
+   ]
+  },
+  {
+   "id": "v:尾びれ:おびれ",
+   "kana": "おびれ",
+   "kanji": "尾びれ",
+   "kf": "尾[お]びれ",
+   "hv": "VĨ",
+   "vi": "vây đuôi",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Bộ phận cá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "尾[お]びれを切[き]ります。",
+     "vi": "Cắt vây đuôi."
+    }
+   ]
+  },
+  {
+   "id": "v:皮:かわ",
+   "kana": "かわ",
+   "kanji": "皮",
+   "hv": "BÌ",
+   "vi": "da (cá)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Bộ phận cá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "包丁[ほうちょう]で皮[かわ]を引[ひ]きます。",
+     "vi": "Lạng da bằng dao."
+    }
+   ],
+   "note": "皮[かわ]を引[ひ]く = lạng da cá."
+  },
+  {
+   "id": "v:骨:ほね",
+   "kana": "ほね",
+   "kanji": "骨",
+   "hv": "CỐT",
+   "vi": "xương",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Bộ phận cá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "骨[ほね]が残[のこ]っていないか確認[かくにん]します。",
+     "vi": "Kiểm tra xem còn sót xương không."
+    }
+   ],
+   "confuse": [
+    "v:腹骨:はらぼね",
+    "v:中骨:なかぼね"
+   ]
+  },
+  {
+   "id": "v:身:み",
+   "kana": "み",
+   "kanji": "身",
+   "hv": "THÂN",
+   "vi": "thịt (cá)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Bộ phận cá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "身[み]を傷[きず]つけないでください。",
+     "vi": "Đừng làm dập thịt cá."
+    }
+   ],
+   "note": "Trong xưởng, 身[み] là phần thịt cá. Nghĩa gốc: thân mình."
+  },
+  {
+   "id": "v:腹骨:はらぼね",
+   "kana": "はらぼね",
+   "kanji": "腹骨",
+   "hv": "PHÚC CỐT",
+   "vi": "xương bụng (xương sườn cá)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Bộ phận cá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "腹骨[はらぼね]をすき取[と]ります。",
+     "vi": "Lạng bỏ xương bụng."
+    }
+   ],
+   "confuse": [
+    "v:中骨:なかぼね",
+    "v:骨:ほね"
+   ]
+  },
+  {
+   "id": "v:中骨:なかぼね",
+   "kana": "なかぼね",
+   "kanji": "中骨",
+   "hv": "TRUNG CỐT",
+   "vi": "xương giữa (xương sống cá)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Bộ phận cá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "三枚[さんまい]おろしで中骨[なかぼね]を外[はず]します。",
+     "vi": "Lọc ba phần để tách xương giữa."
+    }
+   ],
+   "confuse": [
+    "v:腹骨:はらぼね",
+    "v:骨:ほね"
+   ]
+  },
+  {
+   "id": "v:血合い:ちあい",
+   "kana": "ちあい",
+   "kanji": "血合い",
+   "kf": "血[ち]合[あ]い",
+   "hv": "HUYẾT HỢP",
+   "vi": "phần thịt sẫm màu (thịt máu)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Bộ phận cá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "マグロの血[ち]合[あ]いを取[と]ります。",
+     "vi": "Lạng bỏ phần thịt máu của cá ngừ."
+    }
+   ]
+  },
+  {
+   "id": "v:柵:さく",
+   "kana": "さく",
+   "kanji": "柵",
+   "hv": "SÁCH",
+   "vi": "miếng thăn cá (khối để thái sashimi)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Bộ phận cá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "サーモンを柵[さく]にします。",
+     "vi": "Pha cá hồi thành miếng thăn."
+    }
+   ],
+   "confuse": [
+    "v:切り身:きりみ",
+    "v:刺身:さしみ"
+   ],
+   "note": "Nghĩa gốc của 柵[さく] là hàng rào."
+  },
+  {
+   "id": "v:刺身:さしみ",
+   "kana": "さしみ",
+   "kanji": "刺身",
+   "hv": "THÍCH THÂN",
+   "vi": "sashimi (cá sống thái lát)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Bộ phận cá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "刺身[さしみ]用[よう]のサーモンです。",
+     "vi": "Đây là cá hồi dùng làm sashimi."
+    }
+   ],
+   "confuse": [
+    "v:切り身:きりみ",
+    "v:柵:さく"
+   ],
+   "note": "Chữ 刺[し] có hai âm Hán Việt: thứ / thích."
+  },
+  {
+   "id": "v:切り身:きりみ",
+   "kana": "きりみ",
+   "kanji": "切り身",
+   "kf": "切[き]り身[み]",
+   "hv": "THIẾT THÂN",
+   "vi": "miếng cá cắt (phi lê)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Bộ phận cá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "切[き]り身[み]を一[ひと]つずつ計量[けいりょう]します。",
+     "vi": "Cân từng miếng cá cắt."
+    }
+   ],
+   "confuse": [
+    "v:柵:さく",
+    "v:刺身:さしみ"
+   ]
+  },
+  {
+   "id": "v:内臓:ないぞう",
+   "kana": "ないぞう",
+   "kanji": "内臓",
+   "hv": "NỘI TẠNG",
+   "vi": "nội tạng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Bộ phận cá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "内臓[ないぞう]をきれいに取[と]ります。",
+     "vi": "Lấy sạch nội tạng."
+    }
+   ]
+  },
+  {
+   "id": "v:鱗:うろこ",
+   "kana": "うろこ",
+   "kanji": "鱗",
+   "hv": "LÂN",
+   "vi": "vảy cá",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Bộ phận cá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "鱗[うろこ]を落[お]とします。",
+     "vi": "Đánh vảy."
+    }
+   ],
+   "note": "Thường viết うろこ bằng hiragana."
+  },
+  {
+   "id": "v:鮮度:せんど",
+   "kana": "せんど",
+   "kanji": "鮮度",
+   "hv": "TIÊN ĐỘ",
+   "vi": "độ tươi",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "thuysan"
+   ],
+   "sub": "Nguyên liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "鮮度[せんど]が落[お]ちないように早[はや]く作業[さぎょう]します。",
+     "vi": "Làm nhanh để cá không mất độ tươi."
+    }
+   ]
+  }
+ ]
 }

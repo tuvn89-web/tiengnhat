@@ -98,7 +98,7 @@ export function renderWordForm(view, ctx, editId) {
     <form class="wform" novalidate>
       ${field('Kana (chữ mềm/cứng) *', `<input class="input" name="kana" lang="ja" value="${esc(v.kana)}" ${it ? 'readonly' : ''} required>`, it ? 'Không đổi được kana và kanji của từ đã có (tiến độ học gắn vào đây). Muốn đổi thì thêm từ mới.' : 'Gõ bằng bàn phím tiếng Nhật, ví dụ かいとう.')}
       ${field('Kanji', `<input class="input" name="kanji" lang="ja" value="${esc(v.kanji)}" ${it ? 'readonly' : ''}>`, 'Bỏ trống nếu từ không có kanji.')}
-      ${field('Kanji có furigana', `<input class="input" name="kf" lang="ja" value="${esc(v.kf || '')}">`, 'Chỉ cần khi kanji lẫn kana. Ghi cách đọc trong ngoặc vuông ngay sau kanji: 洗[あら]う')}
+      ${field('Kanji có furigana', `<input class="input" name="kf" lang="ja" value="${esc(v.kf || '')}">`, 'Chỉ cần khi kanji lẫn kana. Ghi cách đọc trong ngoặc vuông ngay sau kanji: <code data-bare>洗[あら]う</code>')}
       ${field('Âm Hán Việt', `<input class="input" name="hv" value="${esc(v.hv)}">`, 'Viết hoa, mỗi chữ Hán một âm: GIẢI ĐÔNG')}
       <p class="hv-check small"></p>
       ${field('Nghĩa tiếng Việt *', `<input class="input" name="vi" value="${esc(v.vi)}" required>`)}
@@ -112,7 +112,7 @@ export function renderWordForm(view, ctx, editId) {
         ${field('Nhóm nhỏ', `<input class="input" name="sub" value="${esc(v.sub || '')}" placeholder="Ví dụ: Thao tác">`)}
       </div>
       ${field('Dạng tiếng chuẩn (với từ Kansai)', `<input class="input" name="std" lang="ja" value="${esc(v.std || '')}">`)}
-      ${field('Câu ví dụ', `<input class="input" name="exjp" lang="ja" value="${esc(ex.jp)}">`, 'Ghi furigana kiểu 手[て]を洗[あら]います。')}
+      ${field('Câu ví dụ', `<input class="input" name="exjp" lang="ja" value="${esc(ex.jp)}">`, 'Ghi furigana kiểu <code data-bare>手[て]を洗[あら]います。</code> — xem trước hiện ngay bên dưới.')}
       <p class="ex-prev" lang="ja"></p>
       ${field('Dịch câu ví dụ', `<input class="input" name="exvi" value="${esc(ex.vi)}">`)}
       ${field('Ghi chú', `<textarea class="input" name="note" rows="2">${esc(v.note || '')}</textarea>`)}

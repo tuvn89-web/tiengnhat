@@ -6,8 +6,10 @@ import { speak, ttsReady } from './tts.js';
 import { chips, bindChips, readChip, readChips, bindSay, sayBtn, wordDetailHTML, topicOpts, emptyState } from './ui.js';
 import { kvGet, kvSet } from './db.js';
 
-export const DIRS = [['vj', 'Việt → Nhật'], ['jv', 'Nhật → Việt'], ['kr', 'Kanji → cách đọc'], ['au', 'Nghe → nghĩa'], ['mix', 'Trộn']];
-export const SCRIPTS = [['kana', 'Chữ mềm/cứng'], ['kanji', 'Kanji'], ['furi', 'Kanji + furigana']];
+export const DIRS = [['vj', 'Việt → Nhật'], ['jv', 'Nhật → Việt'], ['kr', 'Kanji → cách đọc (không furigana)'], ['au', 'Nghe → nghĩa'], ['mix', 'Trộn']];
+export const SCRIPTS = [['kana', 'Chữ mềm/cứng'], ['furi', 'Kanji + furigana']];
+// Kanji luôn kèm furigana; kanji trần chỉ có ở kiểu "Kanji → cách đọc" và ghép "Chữ mềm/cứng – Kanji".
+export const fixScript = s => (s === 'kana' ? 'kana' : 'furi');
 
 // ---------- chọn từ ----------
 export function selectItems({ levels = [], topics = [], source = 'all', needKanji = false }) {
@@ -91,6 +93,7 @@ export function distractors(it, dir, script, n = 3) {
 export async function renderQuizSetup(view, ctx) {
   const saved = await kvGet('quizSetup', {});
   const o = { dir: 'jv', script: S.script, source: 'due', levels: [], topics: [], count: S.qCount, ...saved };
+  o.script = fixScript(o.script);
   if (!D.vocab.length) { view.innerHTML = emptyState('Chưa có từ vựng nào. Vào Dữ liệu để nhập gói từ.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
   const st = stats(D.vocab);
   view.innerHTML = `
@@ -134,7 +137,7 @@ export async function renderQuizSetup(view, ctx) {
 export function runQuiz(view, qs, o, ctx) {
   if (!qs.length) { toast('Không có câu hỏi nào.'); return; }
   const st = { qs: [...qs], i: 0, total: qs.length, score: 0, wrong: [], again: new Set(), seen: new Set(), lock: false };
-  const script = o.script || S.script;
+  const script = fixScript(o.script || S.script);
   let keyHandler = null;
   const setKeys = h => { if (keyHandler) document.removeEventListener('keydown', keyHandler); keyHandler = h; if (h) document.addEventListener('keydown', h); };
   ctx.onLeave(() => setKeys(null));
@@ -180,7 +183,7 @@ export function runQuiz(view, qs, o, ctx) {
     let prompt, hint;
     if (dir === 'vj') { prompt = `<p class="prompt-vi">${esc(it.vi)}</p>`; hint = 'Chọn từ tiếng Nhật'; }
     else if (dir === 'jv') { prompt = `<div class="prompt-row"><p class="prompt-jp" lang="ja">${wordHTML(it, script)}</p>${sayBtn(it.kana)}</div>`; hint = 'Chọn nghĩa tiếng Việt'; }
-    else if (dir === 'kr') { prompt = `<p class="prompt-jp" lang="ja">${esc(it.kanji)}</p>`; hint = 'Chọn cách đọc'; }
+    else if (dir === 'kr') { prompt = `<p class="prompt-jp" lang="ja" data-bare>${wordHTML(it, 'bare')}</p>`; hint = 'Chọn cách đọc'; }
     else { prompt = `<button type="button" class="say-big" data-say="${esc(it.kana)}" aria-label="Nghe lại">${icon('speaker')}<span>Nghe lại</span></button>`; hint = 'Nghe rồi chọn nghĩa tiếng Việt'; }
     view.innerHTML = `<div class="run">${head()}
       <article class="label-card">${tag(it)}${prompt}<p class="prompt-hint">${hint}</p><div class="stamp" aria-hidden="true"></div></article>
