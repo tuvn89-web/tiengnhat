@@ -3,18 +3,213 @@
  "updated": "2026-10-11",
  "packs": [
   {
-   "id": "jlpt-n5-dongtu-01",
-   "file": "jlpt-n5-dongtu-01.json",
-   "title": "Động từ N5 01 – 25 động từ dùng hằng ngày ở xưởng",
+   "id": "jlpt-n5-01",
+   "file": "jlpt-n5-01.json",
+   "title": "JLPT N5 01 – Con số & cách đếm",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 40,
+   "version": 2,
+   "hash": "b43b07049d"
+  },
+  {
+   "id": "jlpt-n5-02",
+   "file": "jlpt-n5-02.json",
+   "title": "JLPT N5 02 – Giờ, thứ, ngày tháng",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 40,
+   "version": 2,
+   "hash": "6ce5794658"
+  },
+  {
+   "id": "jlpt-n5-03",
+   "file": "jlpt-n5-03.json",
+   "title": "JLPT N5 03 – Hôm nay, tuần này & tần suất",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 41,
+   "version": 2,
+   "hash": "0de4e63f35"
+  },
+  {
+   "id": "jlpt-n5-04",
+   "file": "jlpt-n5-04.json",
+   "title": "JLPT N5 04 – Con người & gia đình",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 41,
+   "version": 2,
+   "hash": "7844a26f56"
+  },
+  {
+   "id": "jlpt-n5-05",
+   "file": "jlpt-n5-05.json",
+   "title": "JLPT N5 05 – Cơ thể, sức khỏe & quần áo",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 35,
+   "version": 2,
+   "hash": "b9d4dd4342"
+  },
+  {
+   "id": "jlpt-n5-06",
+   "file": "jlpt-n5-06.json",
+   "title": "JLPT N5 06 – Nhà cửa & đồ dùng",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 41,
+   "version": 2,
+   "hash": "0657dcd657"
+  },
+  {
+   "id": "jlpt-n5-07",
+   "file": "jlpt-n5-07.json",
+   "title": "JLPT N5 07 – Ăn uống",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 39,
+   "version": 2,
+   "hash": "49a7605ffd"
+  },
+  {
+   "id": "jlpt-n5-08",
+   "file": "jlpt-n5-08.json",
+   "title": "JLPT N5 08 – Nơi chốn, phương hướng & đi lại",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 43,
+   "version": 2,
+   "hash": "bee74cdc53"
+  },
+  {
+   "id": "jlpt-n5-09",
+   "file": "jlpt-n5-09.json",
+   "title": "JLPT N5 09 – Thời tiết, thiên nhiên, học & làm",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 41,
+   "version": 2,
+   "hash": "6e688baa68"
+  },
+  {
+   "id": "jlpt-n5-10",
+   "file": "jlpt-n5-10.json",
+   "title": "JLPT N5 10 – Động từ 1: sinh hoạt hằng ngày",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 40,
+   "version": 2,
+   "hash": "08630cc91a"
+  },
+  {
+   "id": "jlpt-n5-11",
+   "file": "jlpt-n5-11.json",
+   "title": "JLPT N5 11 – Động từ 2: thao tác & đồ vật",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 44,
+   "version": 2,
+   "hash": "997f4ccc77"
+  },
+  {
+   "id": "jlpt-n5-12",
+   "file": "jlpt-n5-12.json",
+   "title": "JLPT N5 12 – Tính từ い: tính chất",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 40,
+   "version": 2,
+   "hash": "3e0886d9b4"
+  },
+  {
+   "id": "jlpt-n5-13",
+   "file": "jlpt-n5-13.json",
+   "title": "JLPT N5 13 – Màu sắc, cảm giác & tính từ な",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 35,
+   "version": 2,
+   "hash": "b37f640ce4"
+  },
+  {
+   "id": "jlpt-n5-14",
+   "file": "jlpt-n5-14.json",
+   "title": "JLPT N5 14 – Từ để hỏi, phó từ & từ nối",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 34,
+   "version": 2,
+   "hash": "6f8e3ad042"
+  },
+  {
+   "id": "jlpt-n5-15",
+   "file": "jlpt-n5-15.json",
+   "title": "JLPT N5 15 – Chào hỏi & câu cửa miệng",
    "type": "vocab",
    "level": "N5",
    "topics": [
     "jlpt",
-    "xuong"
+    "doisong"
    ],
-   "count": 25,
+   "count": 29,
    "version": 2,
-   "hash": "c334659bbf"
+   "hash": "ea407a8ed6"
+  },
+  {
+   "id": "jlpt-n5-16",
+   "file": "jlpt-n5-16.json",
+   "title": "JLPT N5 16 – Việc nhà, phố phường & từ thường gặp",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 34,
+   "version": 2,
+   "hash": "15d3e140e0"
   },
   {
    "id": "kansai-01",
@@ -84,17 +279,186 @@
    "hash": "6a8df9643b"
   },
   {
+   "id": "xuong-01",
+   "file": "xuong-01.json",
+   "title": "Công xưởng 01 – Họp đầu ca, báo cáo, ca kíp, an toàn",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ],
+   "count": 37,
+   "version": 2,
+   "hash": "60c8740516"
+  },
+  {
    "id": "nguphap-n5-01",
    "file": "nguphap-n5-01.json",
-   "title": "Ngữ pháp N5 01 – Nhờ, cấm, xin phép, bắt buộc",
+   "title": "Ngữ pháp N5 01 – Nhờ và nhờ đừng: てください・ないでください",
+   "type": "grammar",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 5,
+   "hash": "0d8c5f83e9"
+  },
+  {
+   "id": "nguphap-n5-02",
+   "file": "nguphap-n5-02.json",
+   "title": "Ngữ pháp N5 02 – Câu danh từ: は・です・か・も・の",
+   "type": "grammar",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 4,
+   "version": 2,
+   "hash": "f665c614b3"
+  },
+  {
+   "id": "nguphap-n5-03",
+   "file": "nguphap-n5-03.json",
+   "title": "Ngữ pháp N5 03 – Chỉ thị: こ・そ・あ・ど",
+   "type": "grammar",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 2,
+   "hash": "999bd70a86"
+  },
+  {
+   "id": "nguphap-n5-04",
+   "file": "nguphap-n5-04.json",
+   "title": "Ngữ pháp N5 04 – Động từ thể ます & から〜まで",
+   "type": "grammar",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 2,
+   "hash": "d79613a84b"
+  },
+  {
+   "id": "nguphap-n5-05",
+   "file": "nguphap-n5-05.json",
+   "title": "Ngữ pháp N5 05 – Trợ từ を・に・へ・で・と",
    "type": "grammar",
    "level": "N5",
    "topics": [
     "jlpt"
    ],
    "count": 5,
-   "version": 4,
-   "hash": "37cd5b10a8"
+   "version": 2,
+   "hash": "37cba4b915"
+  },
+  {
+   "id": "nguphap-n5-06",
+   "file": "nguphap-n5-06.json",
+   "title": "Ngữ pháp N5 06 – Có, thích, hiểu, muốn có (trợ từ が)",
+   "type": "grammar",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 4,
+   "version": 2,
+   "hash": "05b888aa72"
+  },
+  {
+   "id": "nguphap-n5-07",
+   "file": "nguphap-n5-07.json",
+   "title": "Ngữ pháp N5 07 – Muốn làm & rủ rê: たい・ましょう・ませんか",
+   "type": "grammar",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 4,
+   "version": 2,
+   "hash": "238fddfd22"
+  },
+  {
+   "id": "nguphap-n5-08",
+   "file": "nguphap-n5-08.json",
+   "title": "Ngữ pháp N5 08 – Thể て: đang làm, xin phép, cấm",
+   "type": "grammar",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 2,
+   "hash": "cb25b78c4d"
+  },
+  {
+   "id": "nguphap-n5-09",
+   "file": "nguphap-n5-09.json",
+   "title": "Ngữ pháp N5 09 – Thứ tự & thời điểm: て・てから・前[まえ]に・後[あと]で・とき",
+   "type": "grammar",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 5,
+   "version": 2,
+   "hash": "c9001db0c3"
+  },
+  {
+   "id": "nguphap-n5-10",
+   "file": "nguphap-n5-10.json",
+   "title": "Ngữ pháp N5 10 – Đã/chưa, so sánh, biến đổi",
+   "type": "grammar",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 4,
+   "version": 2,
+   "hash": "8950d84e1b"
+  },
+  {
+   "id": "nguphap-n5-11",
+   "file": "nguphap-n5-11.json",
+   "title": "Ngữ pháp N5 11 – Lý do, nhưng, phỏng đoán, kinh nghiệm",
+   "type": "grammar",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 5,
+   "version": 2,
+   "hash": "2bff7927e7"
+  },
+  {
+   "id": "nguphap-n5-12",
+   "file": "nguphap-n5-12.json",
+   "title": "Ngữ pháp N5 12 – Phải làm & không cần làm",
+   "type": "grammar",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 2,
+   "hash": "60bdbf7216"
+  },
+  {
+   "id": "cau-xuong-01",
+   "file": "cau-xuong-01.json",
+   "title": "Câu thực chiến 01 – Nói & nghe trong xưởng",
+   "type": "phrase",
+   "level": "N5",
+   "topics": [
+    "xuong"
+   ],
+   "count": 28,
+   "version": 2,
+   "hash": "1bcd55f8b9"
   },
   {
    "id": "chuhan-01",

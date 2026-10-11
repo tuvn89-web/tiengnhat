@@ -1,0 +1,332 @@
+{
+  "schema": 1,
+  "pack": {
+    "id": "nguphap-n5-07",
+    "title": "Ngữ pháp N5 07 – Muốn làm & rủ rê: たい・ましょう・ませんか",
+    "type": "grammar",
+    "level": "N5",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-11",
+    "verified_on": "",
+    "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức)."
+  },
+  "items": [
+    {
+      "id": "g:〜たい",
+      "pattern": "〜たい",
+      "level": "N5",
+      "meaning": "muốn (làm gì)",
+      "structure": [
+        "V-ます bỏ ます + たいです",
+        "食[た]べます → 食[た]べたいです, 行[い]きます → 行[い]きたいです",
+        "Phủ định: 食[た]べたくないです; quá khứ: 食[た]べたかったです",
+        "N を／が + V-たい"
+      ],
+      "explain": "Lấy động từ thể ます, bỏ ます, thêm たい: 食[た]べます → 食[た]べたい, 行[い]きます → 行[い]きたい, します → したい. Sau khi thêm たい, cả cụm chia như TÍNH TỪ い: たくない (không muốn), たかった (đã muốn), たくなかった. Thêm です cho lịch sự.\n\nTân ngữ dùng を hoặc が đều được: 水[みず]を飲[の]みたい / 水[みず]が飲[の]みたい (が nhấn mạnh hơn vào thứ mình muốn). Giống ほしい, たい chỉ nói mong muốn CỦA MÌNH hoặc hỏi người nghe thân. Kể mong muốn của người thứ ba thì nói 〜たがっています hoặc 〜たいと言[い]っています (N4).\n\nỞ chỗ làm, muốn xin phép hay nhờ việc, người Nhật mở lời bằng 〜たいんですが… rồi ngừng, để người kia hiểu: 明日[あした]、休[やす]みを取[と]りたいんですが… (ngày mai tôi muốn xin nghỉ ạ…). Đây là câu cực kỳ hữu dụng. Mẹo nhớ: たい = \"muốn\".",
+      "casual": "「行[い]きたい」「帰[かえ]りたーい」「食[た]べたくない」. Kansai: 「行[い]きたいわ」「帰[かえ]りたいねん」.",
+      "compare": [
+        {
+          "pattern": "〜がほしい",
+          "diff": "たい đi với động từ (靴[くつ]を買[か]いたい); ほしい đi với danh từ (靴[くつ]がほしい)."
+        },
+        {
+          "pattern": "〜つもりです (N4)",
+          "diff": "たい chỉ là mong muốn; つもり là dự định đã quyết."
+        }
+      ],
+      "mistakes": [
+        "Gắn たい vào thể từ điển: 食[た]べるたい ✗ → 食[た]べたい.",
+        "Kể mong muốn của người khác bằng たい: 田中[たなか]さんは帰[かえ]りたいです ✗ → 田中[たなか]さんは帰[かえ]りたがっています."
+      ],
+      "ex": [
+        {
+          "jp": "水[みず]が[[飲[の]みたいです]]。",
+          "vi": "Tôi muốn uống nước.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "日本[にほん]の映画[えいが]が[[見[み]たいです]]。",
+          "vi": "Tôi muốn xem phim Nhật.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "すみません、トイレに[[行[い]きたいです]]。",
+          "vi": "Xin lỗi, tôi muốn đi vệ sinh.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "今日[きょう]は何[なに]も[[食[た]べたくないです]]。",
+          "vi": "Hôm nay tôi không muốn ăn gì cả.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "早[はや]く仕事[しごと]を[[覚[おぼ]えたいです]]。",
+          "vi": "Tôi muốn sớm thuộc việc.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ビザを[[更新[こうしん]したいです]]。",
+          "vi": "Tôi muốn gia hạn visa.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "夏休[なつやす]みに国[くに]へ[[帰[かえ]りたいです]]。",
+          "vi": "Kỳ nghỉ hè tôi muốn về nước.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "来年[らいねん]は班長[はんちょう]に[[なりたいです]]。",
+          "vi": "Năm sau tôi muốn trở thành tổ trưởng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "課税証明書[かぜいしょうめいしょ]を[[取[と]りたいんですが]]、窓口[まどぐち]はどこですか。",
+          "vi": "Tôi muốn lấy giấy chứng nhận đánh thuế, quầy ở đâu ạ?",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：週末[しゅうまつ]、何[なに]をしたいですか。B：ゆっくり[[寝[ね]たいです]]。",
+          "vi": "A: Cuối tuần bạn muốn làm gì? B: Tôi muốn ngủ thật đã.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:〜ましょう",
+      "pattern": "〜ましょう",
+      "level": "N5",
+      "meaning": "nào cùng …, hãy cùng … (rủ rê, hô hào cùng làm)",
+      "structure": [
+        "V-ます bỏ ます + ましょう",
+        "行[い]きます → 行[い]きましょう",
+        "一緒[いっしょ]に〜ましょう (cùng nhau …)"
+      ],
+      "explain": "ましょう dùng khi người nói muốn CÙNG mọi người làm việc gì: 行[い]きましょう = đi nào, 始[はじ]めましょう = bắt đầu thôi. Câu này có cả người nói trong đó, giống \"chúng ta hãy…\".\n\nỞ buổi họp đầu ca (朝礼[ちょうれい]) hay nghe: 今日[きょう]も安全[あんぜん]に頑張[がんば]りましょう (hôm nay cũng làm việc an toàn nhé). Khi được rủ bằng 〜ませんか, đáp đồng ý bằng ええ、〜ましょう.\n\nTrên áp phích, nội quy, ましょう mang nghĩa nhắc nhở mọi người làm: 手[て]を洗[あら]いましょう (hãy rửa tay), ゴミは分別[ぶんべつ]しましょう (hãy phân loại rác). Mẹo nhớ: ましょう = \"nào, cùng làm\".",
+      "casual": "Thân mật dùng thể ý chí (N4): 「行[い]こう」「食[た]べよう」「やろう」. Kansai: 「行[い]こか」「やろか」「帰[かえ]ろ」.",
+      "compare": [
+        {
+          "pattern": "〜ませんか",
+          "diff": "ませんか hỏi ý, mời nhã nhặn (đi không?); ましょう rủ mạnh, coi như đã quyết (đi nào!)."
+        },
+        {
+          "pattern": "〜ましょうか",
+          "diff": "ましょうか đề nghị làm giúp hoặc hỏi ý 'chúng ta … nhé?'."
+        }
+      ],
+      "mistakes": [
+        "Dùng ましょう để bảo người khác làm một mình — ましょう luôn gồm cả người nói; bảo người khác dùng 〜てください.",
+        "Đáp lời rủ ませんか bằng はい、行[い]きます — đúng nhưng cứng; tự nhiên hơn: ええ、行[い]きましょう."
+      ],
+      "ex": [
+        {
+          "jp": "一緒[いっしょ]に[[行[い]きましょう]]。",
+          "vi": "Cùng đi nào.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "少[すこ]し[[休[やす]みましょう]]。",
+          "vi": "Nghỉ một chút đi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今日[きょう]も安全[あんぜん]に[[頑張[がんば]りましょう]]。",
+          "vi": "Hôm nay cũng làm việc an toàn nhé mọi người.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "駅[えき]で[[会[あ]いましょう]]。",
+          "vi": "Gặp nhau ở ga nhé.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "作業[さぎょう]の前[まえ]に手[て]を[[洗[あら]いましょう]]。",
+          "vi": "Trước khi làm việc hãy rửa tay.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "必要[ひつよう]な書類[しょるい]を先[さき]に[[確認[かくにん]しましょう]]。",
+          "vi": "Mình kiểm tra giấy tờ cần thiết trước đã.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "晩[ばん]ご飯[はん]を[[食[た]べましょう]]。",
+          "vi": "Ăn tối thôi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "もう五時[ごじ]です。[[片付[かたづ]けましょう]]。",
+          "vi": "Năm giờ rồi. Dọn dẹp thôi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "窓口[まどぐち]が開[あ]くまで、ここで[[待[ま]ちましょう]]。",
+          "vi": "Mình đợi ở đây cho đến khi quầy mở nhé.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：お腹[なか]がすきましたね。B：じゃあ、昼[ひる]ご飯[はん]に[[しましょう]]。",
+          "vi": "A: Đói bụng rồi nhỉ. B: Vậy thì ăn trưa thôi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:〜ませんか",
+      "pattern": "〜ませんか",
+      "level": "N5",
+      "meaning": "… không? — mời, rủ một cách nhã nhặn",
+      "structure": [
+        "V-ます bỏ ます + ませんか",
+        "一緒[いっしょ]に行[い]きませんか",
+        "Đồng ý: ええ、いいですね／ええ、〜ましょう",
+        "Từ chối khéo: すみません、ちょっと…"
+      ],
+      "explain": "Hình thức là câu hỏi phủ định, nhưng nghĩa là LỜI MỜI: 一緒[いっしょ]に昼[ひる]ご飯[はん]を食[た]べませんか = cùng ăn trưa không? Lời mời này nhã nhặn vì để người nghe tự quyết.\n\nĐồng ý: ええ、いいですね hoặc ええ、行[い]きましょう. Từ chối khéo theo kiểu Nhật: xin lỗi rồi bỏ lửng, không cần nói hết lý do: すみません、その日[ひ]はちょっと… Nói thẳng いいえ、行[い]きません nghe rất lạnh lùng.\n\nCùng một câu có thể là câu hỏi thường dạng phủ định: お酒[さけ]を飲[の]みませんか có khi là \"anh không uống rượu à?\". Có 一緒[いっしょ]に hoặc ngữ cảnh rủ rê thì gần như chắc chắn là lời mời. Mẹo nhớ: ませんか = \"… không?\" để mời.",
+      "casual": "「行[い]かない？」「食[た]べない？」 (lên giọng). Kansai: 「行[い]かへん？」「飲[の]みに行[い]かへん？」.",
+      "compare": [
+        {
+          "pattern": "〜ましょう",
+          "diff": "ませんか hỏi ý, mời nhẹ nhàng; ましょう rủ mạnh, coi như đã quyết."
+        }
+      ],
+      "mistakes": [
+        "Từ chối thẳng: いいえ、行[い]きません ✗ (lạnh lùng) → すみません、ちょっと…",
+        "Hiểu lời mời 食[た]べませんか thành câu hỏi 'bạn không ăn à?'."
+      ],
+      "ex": [
+        {
+          "jp": "一緒[いっしょ]に昼[ひる]ご飯[はん]を[[食[た]べませんか]]。",
+          "vi": "Cùng ăn trưa không?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "日曜日[にちようび]、映画[えいが]を[[見[み]ませんか]]。",
+          "vi": "Chủ nhật đi xem phim không?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "休憩[きゅうけい]のとき、コーヒーを[[飲[の]みませんか]]。",
+          "vi": "Giờ nghỉ uống cà phê không?",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "今晩[こんばん]、うちへ[[来[き]ませんか]]。",
+          "vi": "Tối nay đến nhà tôi chơi không?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "仕事[しごと]の後[あと]、一緒[いっしょ]に[[帰[かえ]りませんか]]。",
+          "vi": "Tan làm cùng về không?",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "来週[らいしゅう]、一緒[いっしょ]に市役所[しやくしょ]へ[[行[い]きませんか]]。",
+          "vi": "Tuần sau cùng đi ủy ban thành phố không?",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "週末[しゅうまつ]、海[うみ]へ[[行[い]きませんか]]。",
+          "vi": "Cuối tuần đi biển không?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "新人[しんじん]の歓迎会[かんげいかい]に[[参加[さんか]しませんか]]。",
+          "vi": "Anh tham gia tiệc chào người mới không?",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "入管[にゅうかん]の書類[しょるい]、一緒[いっしょ]に[[書[か]きませんか]]。",
+          "vi": "Cùng điền giấy tờ nộp cục xuất nhập cảnh không?",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：今度[こんど]の休[やす]み、神戸[こうべ]で[[会[あ]いませんか]]。B：ええ、いいですね。会[あ]いましょう。",
+          "vi": "A: Ngày nghỉ tới gặp nhau ở Kobe không? B: Ừ, hay đấy. Gặp nhau nhé.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:〜ましょうか",
+      "pattern": "〜ましょうか",
+      "level": "N5",
+      "meaning": "để tôi … nhé? (đề nghị giúp); chúng ta … nhé? (hỏi ý cùng làm)",
+      "structure": [
+        "V-ます bỏ ます + ましょうか",
+        "手伝[てつだ]いましょうか (để tôi giúp nhé?)",
+        "何時[なんじ]に会[あ]いましょうか (mấy giờ mình gặp nhau?)"
+      ],
+      "explain": "Nghĩa thứ nhất: người nói ĐỀ NGHỊ LÀM GIÚP: 荷物[にもつ]を持[も]ちましょうか = để tôi xách hành lý cho nhé? Ở xưởng, chủ động hỏi 手伝[てつだ]いましょうか hay 次[つぎ]は何[なに]をしましょうか được đánh giá rất cao.\n\nNghĩa thứ hai: hỏi ý để CÙNG quyết định, thường có từ để hỏi: どこで会[あ]いましょうか (gặp ở đâu nhỉ?), 何[なに]を食[た]べましょうか (ăn gì nhỉ?).\n\nĐáp lời đề nghị giúp: nhận thì nói ありがとうございます。お願[ねが]いします; không cần thì nói 大丈夫[だいじょうぶ]です、ありがとうございます. Mẹo nhớ: ましょうか = \"để tôi… nhé?\" hoặc \"mình… nhé?\".",
+      "casual": "Thể ý chí + か (N4): 「持[も]とうか？」「手伝[てつだ]おうか？」. Kansai: 「持[も]とか？」「手伝[てつだ]おか？」「何[なん]しよか？」.",
+      "compare": [
+        {
+          "pattern": "〜ましょう",
+          "diff": "ましょう: đã quyết, rủ làm luôn; ましょうか: hỏi lại ý người nghe hoặc đề nghị giúp."
+        }
+      ],
+      "mistakes": [
+        "Dùng 〜たいですか để đề nghị giúp: 手伝[てつだ]いたいですか ✗ (= bạn có muốn giúp không?) → 手伝[てつだ]いましょうか.",
+        "Đáp lời đề nghị giúp chỉ bằng はい — nghe cụt; nói はい、お願[ねが]いします."
+      ],
+      "ex": [
+        {
+          "jp": "窓[まど]を[[開[あ]けましょうか]]。",
+          "vi": "Để tôi mở cửa sổ nhé?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "荷物[にもつ]を[[持[も]ちましょうか]]。",
+          "vi": "Để tôi xách hành lý cho nhé?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "重[おも]いですね。[[手伝[てつだ]いましょうか]]。",
+          "vi": "Nặng nhỉ. Để tôi giúp nhé?",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "どこで[[会[あ]いましょうか]]。",
+          "vi": "Mình gặp nhau ở đâu nhỉ?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この箱[はこ]、冷凍庫[れいとうこ]に[[入[い]れましょうか]]。",
+          "vi": "Thùng này, để tôi cho vào kho đông nhé?",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "申請書[しんせいしょ]は日本語[にほんご]で[[書[か]きましょうか]]。",
+          "vi": "Đơn này tôi viết bằng tiếng Nhật nhé?",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "何[なに]を[[食[た]べましょうか]]。",
+          "vi": "Mình ăn gì nhỉ?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "次[つぎ]は何[なに]を[[しましょうか]]。",
+          "vi": "Tiếp theo tôi làm gì ạ?",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "写真[しゃしん]はここに[[貼[は]りましょうか]]。",
+          "vi": "Ảnh tôi dán vào đây nhé?",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：寒[さむ]いですね。暖房[だんぼう]を[[つけましょうか]]。B：ええ、お願[ねが]いします。",
+          "vi": "A: Lạnh nhỉ. Để tôi bật máy sưởi nhé? B: Vâng, nhờ anh.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    }
+  ]
+}

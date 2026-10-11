@@ -13,7 +13,8 @@ export const adjVi = (form, vi) => (AVI[form] || '{a}').replaceAll('{a}', shortV
 
 export function adjInfo(it) {
   if (!it || it.reg === 'kansai') return null;
-  const mark = it.kf || it.kanji || it.kana;
+  // tính từ な toàn chữ Hán không có kf (暇, 簡単, 大丈夫) → tự ghép furigana từ kana
+  const mark = it.kf || (it.kanji && /^[一-鿿々]+$/.test(it.kanji) ? `${it.kanji}[${it.kana}]` : it.kanji || it.kana);
   if (it.pos === 'adj-i') {
     if (!it.kana.endsWith('い') || !mark.endsWith('い')) return null;
     // いい / かっこいい: chia theo よい (よくない, よかった)

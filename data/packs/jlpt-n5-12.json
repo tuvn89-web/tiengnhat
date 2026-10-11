@@ -1,0 +1,2131 @@
+{
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n5-12",
+    "title": "JLPT N5 12 – Tính từ い: tính chất",
+    "type": "vocab",
+    "level": "N5",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-11",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+  },
+  "items": [
+    {
+      "id": "v:大きい:おおきい",
+      "kana": "おおきい",
+      "kanji": "大きい",
+      "kf": "大[おお]きい",
+      "hv": "ĐẠI",
+      "vi": "to, lớn",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Kích thước",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "大[おお]きい箱[はこ]を持[も]ってきてください。",
+          "vi": "Hãy mang cái hộp to đến đây.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "駅[えき]の前[まえ]に大[おお]きいスーパーがあります。",
+          "vi": "Trước ga có một siêu thị lớn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：このシャツ、ちょっと大[おお]きいですね。B：じゃあ、Mサイズはどうですか。",
+          "vi": "A: Cái áo này hơi rộng nhỉ. B: Vậy cỡ M thì sao?",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:小さい:ちいさい"
+      ],
+      "rel": [
+        {
+          "w": "大[おお]きな",
+          "vi": "to, lớn (chỉ đứng trước danh từ)"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "箱[はこ]",
+          "vi": "thùng"
+        },
+        {
+          "jp": "魚[さかな]",
+          "vi": "con cá"
+        },
+        {
+          "jp": "声[こえ]",
+          "vi": "giọng nói"
+        }
+      ]
+    },
+    {
+      "id": "v:小さい:ちいさい",
+      "kana": "ちいさい",
+      "kanji": "小さい",
+      "kf": "小[ちい]さい",
+      "hv": "TIỂU",
+      "vi": "nhỏ, bé",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Kích thước",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この手袋[てぶくろ]は小[ちい]さいです。",
+          "vi": "Đôi găng tay này nhỏ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "小[ちい]さい子供[こども]がいるので、早[はや]く帰[かえ]ります。",
+          "vi": "Tôi có con nhỏ nên về sớm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：もう少[すこ]し小[ちい]さい箱[はこ]はありますか。B：はい、こちらです。",
+          "vi": "A: Có hộp nhỏ hơn một chút không? B: Có, đây ạ.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:大きい:おおきい"
+      ],
+      "rel": [
+        {
+          "w": "小[ちい]さな",
+          "vi": "nhỏ (chỉ đứng trước danh từ)"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "手袋[てぶくろ]",
+          "vi": "găng tay"
+        },
+        {
+          "jp": "字[じ]",
+          "vi": "chữ"
+        },
+        {
+          "jp": "魚[さかな]",
+          "vi": "con cá"
+        }
+      ]
+    },
+    {
+      "id": "v:高い:たかい",
+      "kana": "たかい",
+      "kanji": "高い",
+      "kf": "高[たか]い",
+      "hv": "CAO",
+      "vi": "cao; đắt",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Giá, độ cao",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]の野菜[やさい]は高[たか]いです。",
+          "vi": "Rau ở Nhật đắt.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "高[たか]い所[ところ]の箱[はこ]は、台[だい]に乗[の]って取[と]ってください。",
+          "vi": "Thùng ở chỗ cao thì hãy đứng lên bục mà lấy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：このかばん、高[たか]かったですか。B：いいえ、セールで安[やす]かったです。",
+          "vi": "A: Cái túi này đắt không? B: Không, mua đợt giảm giá nên rẻ.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Hai nghĩa: đắt (trái nghĩa 安[やす]い) và cao (trái nghĩa 低[ひく]い).",
+      "ant": [
+        "v:安い:やすい",
+        "v:低い:ひくい"
+      ],
+      "rel": [
+        {
+          "w": "高[たか]める",
+          "vi": "nâng cao (tha động từ)"
+        },
+        {
+          "w": "高[たか]まる",
+          "vi": "tăng lên (tự động từ)"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "野菜[やさい]",
+          "vi": "rau"
+        },
+        {
+          "jp": "値段[ねだん]",
+          "vi": "giá"
+        },
+        {
+          "jp": "温度[おんど]",
+          "vi": "nhiệt độ"
+        }
+      ]
+    },
+    {
+      "id": "v:安い:やすい",
+      "kana": "やすい",
+      "kanji": "安い",
+      "kf": "安[やす]い",
+      "hv": "AN",
+      "vi": "rẻ",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Giá, độ cao",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "安[やす]い店[みせ]を知[し]っていますか。",
+          "vi": "Bạn biết cửa hàng nào rẻ không?",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "このスーパーは野菜[やさい]が安[やす]いです。",
+          "vi": "Siêu thị này rau rẻ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "これ、めっちゃ安[やす]いやん！",
+          "vi": "Cái này rẻ quá trời luôn!",
+          "ctx": "kansai"
+        }
+      ],
+      "ant": [
+        "v:高い:たかい"
+      ],
+      "subj": [
+        {
+          "jp": "店[みせ]",
+          "vi": "cửa hàng"
+        },
+        {
+          "jp": "野菜[やさい]",
+          "vi": "rau"
+        },
+        {
+          "jp": "値段[ねだん]",
+          "vi": "giá"
+        }
+      ]
+    },
+    {
+      "id": "v:低い:ひくい",
+      "kana": "ひくい",
+      "kanji": "低い",
+      "kf": "低[ひく]い",
+      "hv": "ĐÊ",
+      "vi": "thấp",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Giá, độ cao",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "温度[おんど]が低[ひく]いです。",
+          "vi": "Nhiệt độ thấp.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "私[わたし]は背[せ]が低[ひく]いです。",
+          "vi": "Tôi thấp.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：この机[つくえ]、ちょっと低[ひく]いですね。B：じゃあ、高[たか]いのに替[か]えましょう。",
+          "vi": "A: Cái bàn này hơi thấp nhỉ. B: Vậy đổi sang cái cao hơn đi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:高い:たかい"
+      ],
+      "subj": [
+        {
+          "jp": "温度[おんど]",
+          "vi": "nhiệt độ"
+        },
+        {
+          "jp": "背[せ]",
+          "vi": "chiều cao"
+        },
+        {
+          "jp": "机[つくえ]",
+          "vi": "cái bàn"
+        }
+      ]
+    },
+    {
+      "id": "v:新しい:あたらしい",
+      "kana": "あたらしい",
+      "kanji": "新しい",
+      "kf": "新[あたら]しい",
+      "hv": "TÂN",
+      "vi": "mới",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新[あたら]しい人[ひと]が入[はい]りました。",
+          "vi": "Có người mới vào làm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "新[あたら]しいスマホを買[か]いました。",
+          "vi": "Tôi đã mua điện thoại mới.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "入管[にゅうかん]で新[あたら]しい在留[ざいりゅう]カードをもらいました。",
+          "vi": "Tôi đã nhận thẻ cư trú mới ở cục xuất nhập cảnh.",
+          "ctx": "thutuc"
+        }
+      ],
+      "ant": [
+        "v:古い:ふるい"
+      ],
+      "rel": [
+        "v:新人:しんじん"
+      ],
+      "subj": [
+        {
+          "jp": "機械[きかい]",
+          "vi": "máy"
+        },
+        {
+          "jp": "人[ひと]",
+          "vi": "người"
+        },
+        {
+          "jp": "長靴[ながぐつ]",
+          "vi": "ủng"
+        }
+      ]
+    },
+    {
+      "id": "v:古い:ふるい",
+      "kana": "ふるい",
+      "kanji": "古い",
+      "kf": "古[ふる]い",
+      "hv": "CỔ",
+      "vi": "cũ",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このアパートは古[ふる]いです。",
+          "vi": "Căn hộ này cũ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "古[ふる]い手袋[てぶくろ]は捨[す]ててください。",
+          "vi": "Găng tay cũ thì hãy vứt đi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：この牛乳[ぎゅうにゅう]、古[ふる]いですよ。B：じゃあ、捨[す]てましょう。",
+          "vi": "A: Sữa này để lâu rồi đấy. B: Vậy vứt đi thôi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Chỉ dùng cho đồ vật; người già không nói 古[ふる]い.",
+      "ant": [
+        "v:新しい:あたらしい"
+      ],
+      "subj": [
+        {
+          "jp": "アパート",
+          "vi": "căn hộ"
+        },
+        {
+          "jp": "手袋[てぶくろ]",
+          "vi": "găng tay"
+        },
+        {
+          "jp": "牛乳[ぎゅうにゅう]",
+          "vi": "sữa"
+        }
+      ]
+    },
+    {
+      "id": "v:いい:いい",
+      "kana": "いい",
+      "kanji": "",
+      "hv": "",
+      "vi": "tốt, được",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この魚[さかな]は鮮度[せんど]がいいです。",
+          "vi": "Cá này tươi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "今日[きょう]は天気[てんき]がいいですね。",
+          "vi": "Hôm nay trời đẹp nhỉ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：どの店[みせ]がいいですか。B：駅[えき]の前[まえ]のラーメン屋[や]がいいですよ。",
+          "vi": "A: Quán nào được nhỉ? B: Quán ramen trước ga ngon đấy.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Chia bất quy tắc: よくない, よかった. Viết đủ là 良[よ]い.",
+      "ant": [
+        "v:悪い:わるい"
+      ],
+      "rel": [
+        {
+          "w": "良[よ]さ",
+          "vi": "cái hay, ưu điểm"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "天気[てんき]",
+          "vi": "thời tiết"
+        },
+        {
+          "jp": "店[みせ]",
+          "vi": "quán"
+        },
+        {
+          "jp": "魚[さかな]",
+          "vi": "cá"
+        }
+      ]
+    },
+    {
+      "id": "v:悪い:わるい",
+      "kana": "わるい",
+      "kanji": "悪い",
+      "kf": "悪[わる]い",
+      "hv": "ÁC",
+      "vi": "xấu, kém, tệ",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "天気[てんき]が悪[わる]いです。",
+          "vi": "Thời tiết xấu.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "気分[きぶん]が悪[わる]い時[とき]は、すぐ班長[はんちょう]に言[い]ってください。",
+          "vi": "Khi thấy trong người không khỏe, hãy báo ngay cho tổ trưởng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：顔色[かおいろ]が悪[わる]いですよ。大丈夫[だいじょうぶ]ですか。B：ちょっと頭[あたま]が痛[いた]いです。",
+          "vi": "A: Sắc mặt bạn kém đấy. Có sao không? B: Tôi hơi đau đầu.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:いい:いい"
+      ],
+      "subj": [
+        {
+          "jp": "天気[てんき]",
+          "vi": "thời tiết"
+        },
+        {
+          "jp": "気分[きぶん]",
+          "vi": "trong người"
+        },
+        {
+          "jp": "顔色[かおいろ]",
+          "vi": "sắc mặt"
+        }
+      ]
+    },
+    {
+      "id": "v:暑い:あつい",
+      "kana": "あつい",
+      "kanji": "暑い",
+      "kf": "暑[あつ]い",
+      "hv": "THỬ",
+      "vi": "nóng (thời tiết)",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhiệt độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]は暑[あつ]いですね。",
+          "vi": "Hôm nay nóng nhỉ.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "夏[なつ]は、工場[こうじょう]の外[そと]がとても暑[あつ]いです。",
+          "vi": "Mùa hè bên ngoài xưởng rất nóng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本[にほん]の夏[なつ]は暑[あつ]くて、湿度[しつど]も高[たか]いです。",
+          "vi": "Mùa hè ở Nhật nóng, độ ẩm cũng cao.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:熱い:あつい"
+      ],
+      "note": "暑[あつ]い = trời nóng; 熱[あつ]い = vật nóng (nước, đồ ăn). Cùng âm あつい.",
+      "ant": [
+        "v:寒い:さむい"
+      ],
+      "subj": [
+        {
+          "jp": "夏[なつ]",
+          "vi": "mùa hè"
+        },
+        {
+          "jp": "部屋[へや]",
+          "vi": "căn phòng"
+        },
+        {
+          "jp": "今日[きょう]",
+          "vi": "hôm nay"
+        }
+      ]
+    },
+    {
+      "id": "v:寒い:さむい",
+      "kana": "さむい",
+      "kanji": "寒い",
+      "kf": "寒[さむ]い",
+      "hv": "HÀN",
+      "vi": "lạnh (thời tiết, không khí)",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhiệt độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "冷凍庫[れいとうこ]の中[なか]は寒[さむ]いです。",
+          "vi": "Trong kho đông lạnh rất lạnh.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "北海道[ほっかいどう]の冬[ふゆ]はとても寒[さむ]いです。",
+          "vi": "Mùa đông ở Hokkaido rất lạnh.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：寒[さむ]くないですか。B：ちょっと寒[さむ]いです。窓[まど]を閉[し]めましょうか。",
+          "vi": "A: Có lạnh không? B: Hơi lạnh. Tôi đóng cửa sổ nhé?",
+          "ctx": "hoithoai"
+        }
+      ],
+      "confuse": [
+        "v:冷たい:つめたい"
+      ],
+      "note": "寒[さむ]い = cả người thấy lạnh; 冷[つめ]たい = chạm vào thấy lạnh.",
+      "ant": [
+        "v:暑い:あつい"
+      ],
+      "subj": [
+        {
+          "jp": "冬[ふゆ]",
+          "vi": "mùa đông"
+        },
+        {
+          "jp": "冷凍庫[れいとうこ]",
+          "vi": "kho đông lạnh"
+        },
+        {
+          "jp": "部屋[へや]",
+          "vi": "căn phòng"
+        }
+      ]
+    },
+    {
+      "id": "v:熱い:あつい",
+      "kana": "あつい",
+      "kanji": "熱い",
+      "kf": "熱[あつ]い",
+      "hv": "NHIỆT",
+      "vi": "nóng (vật, đồ ăn uống)",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhiệt độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "お茶[ちゃ]が熱[あつ]いですから、気[き]をつけてください。",
+          "vi": "Trà nóng nên cẩn thận nhé.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "熱[あつ]いお湯[ゆ]で、まな板[いた]を消毒[しょうどく]します。",
+          "vi": "Khử trùng thớt bằng nước nóng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：あっ、熱[あつ]い！B：大丈夫[だいじょうぶ]ですか。すぐ水[みず]で冷[ひ]やしてください。",
+          "vi": "A: Á, nóng! B: Có sao không? Mau làm mát bằng nước đi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "confuse": [
+        "v:暑い:あつい"
+      ],
+      "ant": [
+        "v:冷たい:つめたい"
+      ],
+      "rel": [
+        "v:熱:ねつ"
+      ],
+      "subj": [
+        {
+          "jp": "お茶[ちゃ]",
+          "vi": "trà"
+        },
+        {
+          "jp": "お湯[ゆ]",
+          "vi": "nước nóng"
+        },
+        {
+          "jp": "スープ",
+          "vi": "canh, súp"
+        }
+      ]
+    },
+    {
+      "id": "v:冷たい:つめたい",
+      "kana": "つめたい",
+      "kanji": "冷たい",
+      "kf": "冷[つめ]たい",
+      "hv": "LÃNH",
+      "vi": "lạnh (khi chạm vào)",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhiệt độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "冷[つめ]たい水[みず]で手[て]を洗[あら]います。",
+          "vi": "Rửa tay bằng nước lạnh.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "暑[あつ]い日[ひ]は、冷[つめ]たいビールがおいしいです。",
+          "vi": "Ngày nóng, bia lạnh thật ngon.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：手[て]が冷[つめ]たいですね。B：冷凍庫[れいとうこ]で仕事[しごと]をしていましたから。",
+          "vi": "A: Tay bạn lạnh quá. B: Vì tôi vừa làm trong kho đông lạnh.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "confuse": [
+        "v:寒い:さむい"
+      ],
+      "ant": [
+        "v:熱い:あつい"
+      ],
+      "rel": [
+        {
+          "w": "冷[ひ]える",
+          "vi": "lạnh đi, nguội (tự động từ)"
+        },
+        {
+          "w": "冷[ひ]やす",
+          "vi": "làm lạnh (tha động từ)"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "水[みず]",
+          "vi": "nước"
+        },
+        {
+          "jp": "手[て]",
+          "vi": "tay"
+        },
+        {
+          "jp": "ビール",
+          "vi": "bia"
+        }
+      ]
+    },
+    {
+      "id": "v:暖かい:あたたかい",
+      "kana": "あたたかい",
+      "kanji": "暖かい",
+      "kf": "暖[あたた]かい",
+      "hv": "NOÃN",
+      "vi": "ấm áp (thời tiết, phòng)",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhiệt độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "部屋[へや]の中[なか]は暖[あたた]かいです。",
+          "vi": "Trong phòng ấm áp.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "四月[しがつ]になって、暖[あたた]かくなりました。",
+          "vi": "Sang tháng tư, trời đã ấm lên.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：今日[きょう]は暖[あたた]かいですね。B：本当[ほんとう]ですね。",
+          "vi": "A: Hôm nay ấm nhỉ. B: Đúng thật.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Đồ ăn, nước ấm viết 温[あたた]かい.",
+      "ant": [
+        "v:涼しい:すずしい",
+        "v:寒い:さむい"
+      ],
+      "rel": [
+        {
+          "w": "暖房[だんぼう]",
+          "vi": "máy sưởi, hệ thống sưởi"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "部屋[へや]",
+          "vi": "căn phòng"
+        },
+        {
+          "jp": "春[はる]",
+          "vi": "mùa xuân"
+        },
+        {
+          "jp": "天気[てんき]",
+          "vi": "thời tiết"
+        }
+      ]
+    },
+    {
+      "id": "v:涼しい:すずしい",
+      "kana": "すずしい",
+      "kanji": "涼しい",
+      "kf": "涼[すず]しい",
+      "hv": "LƯƠNG",
+      "vi": "mát mẻ",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhiệt độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "朝[あさ]は涼[すず]しいです。",
+          "vi": "Buổi sáng mát mẻ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "秋[あき]は涼[すず]しくて、気持[きも]ちがいいです。",
+          "vi": "Mùa thu mát mẻ, dễ chịu.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：この部屋[へや]、涼[すず]しいですね。B：エアコンをつけましたから。",
+          "vi": "A: Phòng này mát nhỉ. B: Vì tôi bật điều hòa rồi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:暖かい:あたたかい"
+      ],
+      "subj": [
+        {
+          "jp": "朝[あさ]",
+          "vi": "buổi sáng"
+        },
+        {
+          "jp": "秋[あき]",
+          "vi": "mùa thu"
+        },
+        {
+          "jp": "風[かぜ]",
+          "vi": "gió"
+        }
+      ]
+    },
+    {
+      "id": "v:難しい:むずかしい",
+      "kana": "むずかしい",
+      "kanji": "難しい",
+      "kf": "難[むずか]しい",
+      "hv": "NAN",
+      "vi": "khó",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この仕事[しごと]は難[むずか]しいです。",
+          "vi": "Công việc này khó.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "漢字[かんじ]は難[むずか]しいですが、面白[おもしろ]いです。",
+          "vi": "Chữ Hán khó nhưng thú vị.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "役所[やくしょ]の書類[しょるい]は、言葉[ことば]が難[むずか]しいです。",
+          "vi": "Giấy tờ hành chính dùng từ khó.",
+          "ctx": "thutuc"
+        }
+      ],
+      "ant": [
+        "v:易しい:やさしい",
+        "v:簡単:かんたん"
+      ],
+      "subj": [
+        {
+          "jp": "仕事[しごと]",
+          "vi": "công việc"
+        },
+        {
+          "jp": "漢字[かんじ]",
+          "vi": "chữ Hán"
+        },
+        {
+          "jp": "書類[しょるい]",
+          "vi": "giấy tờ"
+        }
+      ]
+    },
+    {
+      "id": "v:易しい:やさしい",
+      "kana": "やさしい",
+      "kanji": "易しい",
+      "kf": "易[やさ]しい",
+      "hv": "DỊ",
+      "vi": "dễ",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このテストは易[やさ]しかったです。",
+          "vi": "Bài kiểm tra này dễ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：試験[しけん]はどうでしたか。B：思[おも]ったより易[やさ]しかったです。",
+          "vi": "A: Bài thi thế nào? B: Dễ hơn tôi nghĩ.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "この本[ほん]は、易[やさ]しい日本語[にほんご]で書[か]いてあります。",
+          "vi": "Cuốn sách này viết bằng tiếng Nhật dễ hiểu.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Cùng âm やさしい với 優[やさ]しい (hiền, tốt bụng).",
+      "ant": [
+        "v:難しい:むずかしい"
+      ],
+      "syn": [
+        "v:簡単:かんたん"
+      ],
+      "subj": [
+        {
+          "jp": "問題[もんだい]",
+          "vi": "câu hỏi, bài"
+        },
+        {
+          "jp": "本[ほん]",
+          "vi": "sách"
+        },
+        {
+          "jp": "テスト",
+          "vi": "bài kiểm tra"
+        }
+      ]
+    },
+    {
+      "id": "v:忙しい:いそがしい",
+      "kana": "いそがしい",
+      "kanji": "忙しい",
+      "kf": "忙[いそが]しい",
+      "hv": "MANG",
+      "vi": "bận",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trạng thái",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "年末[ねんまつ]は工場[こうじょう]が忙[いそが]しいです。",
+          "vi": "Cuối năm nhà máy bận.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "最近[さいきん]、忙[いそが]しくて、日本語[にほんご]の勉強[べんきょう]ができません。",
+          "vi": "Dạo này bận quá, không học tiếng Nhật được.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：今[いま]、忙[いそが]しいですか。B：いいえ、大丈夫[だいじょうぶ]ですよ。",
+          "vi": "A: Bây giờ bạn có bận không? B: Không, không sao đâu.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:暇:ひま"
+      ],
+      "subj": [
+        {
+          "jp": "工場[こうじょう]",
+          "vi": "xưởng"
+        },
+        {
+          "jp": "毎日[まいにち]",
+          "vi": "mỗi ngày"
+        },
+        {
+          "jp": "年末[ねんまつ]",
+          "vi": "cuối năm"
+        }
+      ]
+    },
+    {
+      "id": "v:楽しい:たのしい",
+      "kana": "たのしい",
+      "kanji": "楽しい",
+      "kf": "楽[たの]しい",
+      "hv": "LẠC",
+      "vi": "vui",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trạng thái",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]の生活[せいかつ]は楽[たの]しいです。",
+          "vi": "Cuộc sống ở Nhật vui.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "会社[かいしゃ]のバーベキューは楽[たの]しかったです。",
+          "vi": "Buổi tiệc nướng của công ty vui lắm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：旅行[りょこう]はどうでしたか。B：とても楽[たの]しかったです。",
+          "vi": "A: Chuyến du lịch thế nào? B: Rất vui.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "confuse": [
+        "v:面白い:おもしろい"
+      ],
+      "note": "楽[たの]しい = mình thấy vui khi tham gia; 面白[おもしろ]い = thứ gì đó thú vị, buồn cười.",
+      "ant": [
+        {
+          "w": "つまらない",
+          "vi": "chán, nhạt nhẽo"
+        }
+      ],
+      "rel": [
+        {
+          "w": "楽[たの]しみ",
+          "vi": "niềm vui; sự mong chờ"
+        },
+        {
+          "w": "楽[たの]しむ",
+          "vi": "tận hưởng, vui chơi"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "旅行[りょこう]",
+          "vi": "chuyến du lịch"
+        },
+        {
+          "jp": "生活[せいかつ]",
+          "vi": "cuộc sống"
+        },
+        {
+          "jp": "パーティー",
+          "vi": "bữa tiệc"
+        }
+      ]
+    },
+    {
+      "id": "v:面白い:おもしろい",
+      "kana": "おもしろい",
+      "kanji": "面白い",
+      "kf": "面白[おもしろ]い",
+      "hv": "DIỆN BẠCH",
+      "vi": "thú vị, hay; buồn cười",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trạng thái",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この映画[えいが]は面白[おもしろ]いです。",
+          "vi": "Bộ phim này hay.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：この漫画[まんが]、面白[おもしろ]いですよ。B：じゃあ、貸[か]してください。",
+          "vi": "A: Bộ truyện tranh này hay lắm. B: Vậy cho tôi mượn với.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "先輩[せんぱい]の話[はなし]は、いつも面白[おもしろ]いです。",
+          "vi": "Chuyện của đàn anh lúc nào cũng thú vị.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:楽しい:たのしい"
+      ],
+      "ant": [
+        {
+          "w": "つまらない",
+          "vi": "chán, không thú vị"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "映画[えいが]",
+          "vi": "bộ phim"
+        },
+        {
+          "jp": "話[はなし]",
+          "vi": "câu chuyện"
+        },
+        {
+          "jp": "本[ほん]",
+          "vi": "cuốn sách"
+        }
+      ]
+    },
+    {
+      "id": "v:おいしい:おいしい",
+      "kana": "おいしい",
+      "kanji": "",
+      "hv": "",
+      "vi": "ngon",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vị",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このお寿司[すし]はおいしいです。",
+          "vi": "Sushi này ngon.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今朝[けさ]とったカキは、とてもおいしいです。",
+          "vi": "Hàu thu hoạch sáng nay rất ngon.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：日本[にほん]の料理[りょうり]はどうですか。B：とてもおいしいです。",
+          "vi": "A: Món Nhật thế nào? B: Rất ngon.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Chữ Hán: 美味[おい]しい.",
+      "ant": [
+        "v:まずい:まずい"
+      ],
+      "subj": [
+        {
+          "jp": "料理[りょうり]",
+          "vi": "món ăn"
+        },
+        {
+          "jp": "魚[さかな]",
+          "vi": "cá"
+        },
+        {
+          "jp": "寿司[すし]",
+          "vi": "sushi"
+        }
+      ]
+    },
+    {
+      "id": "v:まずい:まずい",
+      "kana": "まずい",
+      "kanji": "",
+      "hv": "",
+      "vi": "dở (vị); không ổn",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vị",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このコーヒーはまずいです。",
+          "vi": "Cà phê này dở.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：あ、まずい！バスに遅[おく]れます。B：急[いそ]ぎましょう。",
+          "vi": "A: Chết rồi! Trễ xe buýt mất. B: Nhanh lên thôi.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "冷蔵庫[れいぞうこ]の温度[おんど]が上[あ]がったら、まずいです。すぐ班長[はんちょう]に言[い]ってください。",
+          "vi": "Nhiệt độ tủ lạnh mà tăng lên thì không ổn. Hãy báo ngay cho tổ trưởng.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Còn nghĩa \"gay rồi, không ổn\": それはまずい.",
+      "ant": [
+        "v:おいしい:おいしい"
+      ],
+      "subj": [
+        {
+          "jp": "コーヒー",
+          "vi": "cà phê"
+        },
+        {
+          "jp": "料理[りょうり]",
+          "vi": "món ăn"
+        }
+      ]
+    },
+    {
+      "id": "v:甘い:あまい",
+      "kana": "あまい",
+      "kanji": "甘い",
+      "kf": "甘[あま]い",
+      "hv": "CAM",
+      "vi": "ngọt",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vị",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このみかんは甘[あま]いです。",
+          "vi": "Quả quýt này ngọt.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "ベトナムのコーヒーは甘[あま]いです。",
+          "vi": "Cà phê Việt Nam ngọt.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：このケーキ、甘[あま]すぎますか。B：いいえ、ちょうどいいです。",
+          "vi": "A: Bánh này có ngọt quá không? B: Không, vừa đúng.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:辛い:からい"
+      ],
+      "rel": [
+        {
+          "w": "甘[あま]み",
+          "vi": "vị ngọt"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "お菓子[かし]",
+          "vi": "bánh kẹo"
+        },
+        {
+          "jp": "コーヒー",
+          "vi": "cà phê"
+        },
+        {
+          "jp": "果物[くだもの]",
+          "vi": "hoa quả"
+        }
+      ]
+    },
+    {
+      "id": "v:辛い:からい",
+      "kana": "からい",
+      "kanji": "辛い",
+      "kf": "辛[から]い",
+      "hv": "TÂN",
+      "vi": "cay; mặn",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vị",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "キムチは辛[から]いです。",
+          "vi": "Kim chi cay.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：辛[から]い料理[りょうり]は大丈夫[だいじょうぶ]ですか。B：はい、大好[だいす]きです。",
+          "vi": "A: Bạn ăn cay được không? B: Được, tôi rất thích.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "このラーメンは少[すこ]し辛[から]いです。",
+          "vi": "Bát ramen này hơi cay.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "辛[から]い còn đọc là 辛[つら]い (khổ sở).",
+      "ant": [
+        "v:甘い:あまい"
+      ],
+      "rel": [
+        {
+          "w": "辛[から]み",
+          "vi": "vị cay"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "料理[りょうり]",
+          "vi": "món ăn"
+        },
+        {
+          "jp": "カレー",
+          "vi": "cà ri"
+        },
+        {
+          "jp": "ラーメン",
+          "vi": "mì ramen"
+        }
+      ]
+    },
+    {
+      "id": "v:長い:ながい",
+      "kana": "ながい",
+      "kanji": "長い",
+      "kf": "長[なが]い",
+      "hv": "TRƯỜNG",
+      "vi": "dài",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Kích thước",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "朝礼[ちょうれい]は長[なが]いです。",
+          "vi": "Buổi họp đầu ca dài.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "妹[いもうと]は髪[かみ]が長[なが]いです。",
+          "vi": "Em gái tôi tóc dài.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "市役所[しやくしょ]で長[なが]い時間[じかん]待[ま]ちました。",
+          "vi": "Tôi đã chờ rất lâu ở tòa thị chính.",
+          "ctx": "thutuc"
+        }
+      ],
+      "ant": [
+        "v:短い:みじかい"
+      ],
+      "rel": [
+        "v:長靴:ながぐつ"
+      ],
+      "subj": [
+        {
+          "jp": "髪[かみ]",
+          "vi": "tóc"
+        },
+        {
+          "jp": "話[はなし]",
+          "vi": "câu chuyện"
+        },
+        {
+          "jp": "時間[じかん]",
+          "vi": "thời gian"
+        }
+      ]
+    },
+    {
+      "id": "v:短い:みじかい",
+      "kana": "みじかい",
+      "kanji": "短い",
+      "kf": "短[みじか]い",
+      "hv": "ĐOẢN",
+      "vi": "ngắn",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Kích thước",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "休[やす]みが短[みじか]いです。",
+          "vi": "Giờ nghỉ ngắn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "夏[なつ]は、短[みじか]いズボンをはきます。",
+          "vi": "Mùa hè tôi mặc quần ngắn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：休憩[きゅうけい]、短[みじか]いですね。B：そうですね。十五分[じゅうごふん]だけです。",
+          "vi": "A: Giờ nghỉ ngắn nhỉ. B: Ừ, chỉ mười lăm phút.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:長い:ながい"
+      ],
+      "subj": [
+        {
+          "jp": "休[やす]み",
+          "vi": "giờ nghỉ"
+        },
+        {
+          "jp": "髪[かみ]",
+          "vi": "tóc"
+        },
+        {
+          "jp": "時間[じかん]",
+          "vi": "thời gian"
+        }
+      ]
+    },
+    {
+      "id": "v:重い:おもい",
+      "kana": "おもい",
+      "kanji": "重い",
+      "kf": "重[おも]い",
+      "hv": "TRỌNG",
+      "vi": "nặng",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Kích thước",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この箱[はこ]は重[おも]いです。",
+          "vi": "Cái hộp này nặng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "買[か]い物[もの]の袋[ふくろ]が重[おも]かったです。",
+          "vi": "Túi đồ đi chợ nặng lắm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：重[おも]いですね。手伝[てつだ]いましょうか。B：ありがとうございます。",
+          "vi": "A: Nặng nhỉ. Để tôi giúp nhé? B: Cảm ơn anh.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:軽い:かるい"
+      ],
+      "rel": [
+        {
+          "w": "重[おも]み",
+          "vi": "sức nặng, trọng lượng"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "箱[はこ]",
+          "vi": "thùng"
+        },
+        {
+          "jp": "荷物[にもつ]",
+          "vi": "hành lý, đồ đạc"
+        },
+        {
+          "jp": "かばん",
+          "vi": "cái túi"
+        }
+      ]
+    },
+    {
+      "id": "v:軽い:かるい",
+      "kana": "かるい",
+      "kanji": "軽い",
+      "kf": "軽[かる]い",
+      "hv": "KHINH",
+      "vi": "nhẹ",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Kích thước",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "空[から]の箱[はこ]は軽[かる]いです。",
+          "vi": "Hộp rỗng thì nhẹ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "このかばんは軽[かる]くて便利[べんり]です。",
+          "vi": "Cái túi này nhẹ và tiện.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：この箱[はこ]、重[おも]いですか。B：いいえ、空[そら]ですから軽[かる]いです。",
+          "vi": "A: Thùng này nặng không? B: Không, rỗng nên nhẹ.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:重い:おもい"
+      ],
+      "subj": [
+        {
+          "jp": "箱[はこ]",
+          "vi": "thùng"
+        },
+        {
+          "jp": "かばん",
+          "vi": "cái túi"
+        },
+        {
+          "jp": "傘[かさ]",
+          "vi": "cái ô"
+        }
+      ]
+    },
+    {
+      "id": "v:早い:はやい",
+      "kana": "はやい",
+      "kanji": "早い",
+      "kf": "早[はや]い",
+      "hv": "TẢO",
+      "vi": "sớm",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tốc độ, thời gian",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "明日[あした]は早[はや]く来[き]てください。",
+          "vi": "Ngày mai hãy đến sớm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本[にほん]の電車[でんしゃ]は、朝[あさ]早[はや]くから動[うご]いています。",
+          "vi": "Tàu điện ở Nhật chạy từ sáng sớm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：もう帰[かえ]りますか。まだ早[はや]いですよ。B：明日[あした]、早番[はやばん]ですから。",
+          "vi": "A: Về rồi à? Còn sớm mà. B: Vì mai tôi làm ca sớm.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "confuse": [
+        "v:速い:はやい"
+      ],
+      "note": "早[はや]い = sớm (thời gian); 速[はや]い = nhanh (tốc độ).",
+      "ant": [
+        "v:遅い:おそい"
+      ],
+      "subj": [
+        {
+          "jp": "朝[あさ]",
+          "vi": "buổi sáng"
+        },
+        {
+          "jp": "時間[じかん]",
+          "vi": "giờ, thời gian"
+        }
+      ]
+    },
+    {
+      "id": "v:速い:はやい",
+      "kana": "はやい",
+      "kanji": "速い",
+      "kf": "速[はや]い",
+      "hv": "TỐC",
+      "vi": "nhanh",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tốc độ, thời gian",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このラインは速[はや]いです。",
+          "vi": "Dây chuyền này chạy nhanh.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "新幹線[しんかんせん]はとても速[はや]いです。",
+          "vi": "Tàu Shinkansen rất nhanh.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：もう少[すこ]しゆっくり話[はな]してください。B：あ、速[はや]かったですか。すみません。",
+          "vi": "A: Nói chậm hơn chút nhé. B: À, tôi nói nhanh quá à? Xin lỗi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "confuse": [
+        "v:早い:はやい"
+      ],
+      "ant": [
+        "v:遅い:おそい"
+      ],
+      "subj": [
+        {
+          "jp": "ライン",
+          "vi": "dây chuyền"
+        },
+        {
+          "jp": "電車[でんしゃ]",
+          "vi": "tàu điện"
+        },
+        {
+          "jp": "仕事[しごと]",
+          "vi": "công việc"
+        }
+      ]
+    },
+    {
+      "id": "v:遅い:おそい",
+      "kana": "おそい",
+      "kanji": "遅い",
+      "kf": "遅[おそ]い",
+      "hv": "TRÌ",
+      "vi": "muộn; chậm",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tốc độ, thời gian",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "バスが遅[おそ]いです。",
+          "vi": "Xe buýt đến muộn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "新人[しんじん]は、まだ仕事[しごと]が遅[おそ]いです。",
+          "vi": "Người mới vẫn còn làm chậm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：遅[おそ]くなって、すみません。B：大丈夫[だいじょうぶ]ですよ。",
+          "vi": "A: Xin lỗi tôi đến muộn. B: Không sao đâu.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Trái nghĩa với cả 早[はや]い và 速[はや]い.",
+      "ant": [
+        "v:早い:はやい",
+        "v:速い:はやい"
+      ],
+      "subj": [
+        {
+          "jp": "バス",
+          "vi": "xe buýt"
+        },
+        {
+          "jp": "仕事[しごと]",
+          "vi": "công việc"
+        },
+        {
+          "jp": "時間[じかん]",
+          "vi": "giờ"
+        }
+      ]
+    },
+    {
+      "id": "v:多い:おおい",
+      "kana": "おおい",
+      "kanji": "多い",
+      "kf": "多[おお]い",
+      "hv": "ĐA",
+      "vi": "nhiều",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Số lượng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]は注文[ちゅうもん]が多[おお]いです。",
+          "vi": "Hôm nay nhiều đơn hàng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "神戸[こうべ]は外国人[がいこくじん]が多[おお]いです。",
+          "vi": "Kobe có nhiều người nước ngoài.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：今日[きょう]は人[ひと]が多[おお]いですね。B：日曜日[にちようび]ですから。",
+          "vi": "A: Hôm nay đông người nhỉ. B: Vì là chủ nhật mà.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Không đứng trực tiếp trước danh từ: nói たくさんの人[ひと], không nói 多[おお]い人[ひと].",
+      "ant": [
+        "v:少ない:すくない"
+      ],
+      "subj": [
+        {
+          "jp": "注文[ちゅうもん]",
+          "vi": "đơn hàng"
+        },
+        {
+          "jp": "人[ひと]",
+          "vi": "người"
+        },
+        {
+          "jp": "仕事[しごと]",
+          "vi": "việc"
+        }
+      ]
+    },
+    {
+      "id": "v:少ない:すくない",
+      "kana": "すくない",
+      "kanji": "少ない",
+      "kf": "少[すく]ない",
+      "hv": "THIẾU",
+      "vi": "ít",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Số lượng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今月[こんげつ]は休[やす]みが少[すく]ないです。",
+          "vi": "Tháng này ít ngày nghỉ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "この町[まち]はバスが少[すく]なくて、不便[ふべん]です。",
+          "vi": "Thị trấn này ít xe buýt nên bất tiện.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：今日[きょう]は注文[ちゅうもん]が少[すく]ないですね。B：雨[あめ]ですからね。",
+          "vi": "A: Hôm nay ít đơn nhỉ. B: Vì trời mưa mà.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:多い:おおい"
+      ],
+      "subj": [
+        {
+          "jp": "休[やす]み",
+          "vi": "ngày nghỉ"
+        },
+        {
+          "jp": "人[ひと]",
+          "vi": "người"
+        },
+        {
+          "jp": "注文[ちゅうもん]",
+          "vi": "đơn hàng"
+        }
+      ]
+    },
+    {
+      "id": "v:近い:ちかい",
+      "kana": "ちかい",
+      "kanji": "近い",
+      "kf": "近[ちか]い",
+      "hv": "CẬN",
+      "vi": "gần",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khoảng cách",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "家[いえ]は会社[かいしゃ]から近[ちか]いです。",
+          "vi": "Nhà tôi gần công ty.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "寮[りょう]は工場[こうじょう]から近[ちか]いので、便利[べんり]です。",
+          "vi": "Ký túc xá gần xưởng nên tiện.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：一番[いちばん]近[ちか]い駅[えき]はどこですか。B：西明石駅[にしあかしえき]です。",
+          "vi": "A: Ga gần nhất là ga nào? B: Ga Nishi-Akashi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:遠い:とおい"
+      ],
+      "subj": [
+        {
+          "jp": "駅[えき]",
+          "vi": "nhà ga"
+        },
+        {
+          "jp": "家[いえ]",
+          "vi": "nhà"
+        },
+        {
+          "jp": "店[みせ]",
+          "vi": "cửa hàng"
+        }
+      ]
+    },
+    {
+      "id": "v:遠い:とおい",
+      "kana": "とおい",
+      "kanji": "遠い",
+      "kf": "遠[とお]い",
+      "hv": "VIỄN",
+      "vi": "xa",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khoảng cách",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "駅[えき]は遠[とお]いですか。",
+          "vi": "Ga có xa không?",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "ベトナムは日本[にほん]から遠[とお]いです。",
+          "vi": "Việt Nam xa Nhật Bản.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "入管[にゅうかん]は遠[とお]いので、朝[あさ]早[はや]く家[いえ]を出[で]ます。",
+          "vi": "Cục xuất nhập cảnh xa nên tôi ra khỏi nhà từ sáng sớm.",
+          "ctx": "thutuc"
+        }
+      ],
+      "ant": [
+        "v:近い:ちかい"
+      ],
+      "subj": [
+        {
+          "jp": "駅[えき]",
+          "vi": "nhà ga"
+        },
+        {
+          "jp": "国[くに]",
+          "vi": "đất nước"
+        },
+        {
+          "jp": "病院[びょういん]",
+          "vi": "bệnh viện"
+        }
+      ]
+    },
+    {
+      "id": "v:強い:つよい",
+      "kana": "つよい",
+      "kanji": "強い",
+      "kf": "強[つよ]い",
+      "hv": "CƯỜNG",
+      "vi": "mạnh, khỏe",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "弟[おとうと]は力[ちから]が強[つよ]いです。",
+          "vi": "Em trai tôi khỏe.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今日[きょう]は風[かぜ]が強[つよ]いです。",
+          "vi": "Hôm nay gió mạnh.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "強[つよ]い洗剤[せんざい]を使[つか]う時[とき]は、手袋[てぶくろ]をしてください。",
+          "vi": "Khi dùng chất tẩy rửa mạnh, hãy đeo găng tay.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        "v:弱い:よわい"
+      ],
+      "rel": [
+        {
+          "w": "強[つよ]める",
+          "vi": "làm mạnh thêm"
+        },
+        {
+          "w": "強[つよ]み",
+          "vi": "điểm mạnh"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "風[かぜ]",
+          "vi": "gió"
+        },
+        {
+          "jp": "力[ちから]",
+          "vi": "sức"
+        },
+        {
+          "jp": "雨[あめ]",
+          "vi": "mưa"
+        }
+      ]
+    },
+    {
+      "id": "v:弱い:よわい",
+      "kana": "よわい",
+      "kanji": "弱い",
+      "kf": "弱[よわ]い",
+      "hv": "NHƯỢC",
+      "vi": "yếu",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "火[ひ]を弱[よわ]くしてください。",
+          "vi": "Hãy vặn nhỏ lửa.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "私[わたし]はお酒[さけ]に弱[よわ]いです。",
+          "vi": "Tôi uống rượu kém.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この箱[はこ]は水[みず]に弱[よわ]いので、気[き]をつけてください。",
+          "vi": "Thùng này dễ hỏng khi gặp nước, hãy cẩn thận.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        "v:強い:つよい"
+      ],
+      "rel": [
+        {
+          "w": "弱[よわ]める",
+          "vi": "làm yếu đi, giảm bớt"
+        },
+        {
+          "w": "弱[よわ]み",
+          "vi": "điểm yếu"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "火[ひ]",
+          "vi": "lửa"
+        },
+        {
+          "jp": "風[かぜ]",
+          "vi": "gió"
+        },
+        {
+          "jp": "力[ちから]",
+          "vi": "sức"
+        }
+      ]
+    },
+    {
+      "id": "v:広い:ひろい",
+      "kana": "ひろい",
+      "kanji": "広い",
+      "kf": "広[ひろ]い",
+      "hv": "QUẢNG",
+      "vi": "rộng",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Kích thước",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新[あたら]しい工場[こうじょう]は広[ひろ]いです。",
+          "vi": "Nhà máy mới rộng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "この部屋[へや]は広[ひろ]くて明[あか]るいです。",
+          "vi": "Căn phòng này rộng và sáng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：新[あたら]しい寮[りょう]はどうですか。B：前[まえ]より広[ひろ]いです。",
+          "vi": "A: Ký túc xá mới thế nào? B: Rộng hơn chỗ cũ.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:狭い:せまい"
+      ],
+      "rel": [
+        {
+          "w": "広[ひろ]げる",
+          "vi": "mở rộng, trải ra"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "部屋[へや]",
+          "vi": "căn phòng"
+        },
+        {
+          "jp": "工場[こうじょう]",
+          "vi": "xưởng"
+        },
+        {
+          "jp": "道[みち]",
+          "vi": "con đường"
+        }
+      ]
+    },
+    {
+      "id": "v:狭い:せまい",
+      "kana": "せまい",
+      "kanji": "狭い",
+      "kf": "狭[せま]い",
+      "hv": "HIỆP",
+      "vi": "chật, hẹp",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Kích thước",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "更衣室[こういしつ]は狭[せま]いです。",
+          "vi": "Phòng thay đồ chật.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "寮[りょう]の部屋[へや]は狭[せま]いですが、きれいです。",
+          "vi": "Phòng ký túc xá chật nhưng sạch.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：この道[みち]は狭[せま]いですから、気[き]をつけてください。B：はい。",
+          "vi": "A: Đường này hẹp, hãy cẩn thận. B: Vâng.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:広い:ひろい"
+      ],
+      "subj": [
+        {
+          "jp": "部屋[へや]",
+          "vi": "căn phòng"
+        },
+        {
+          "jp": "道[みち]",
+          "vi": "con đường"
+        },
+        {
+          "jp": "更衣室[こういしつ]",
+          "vi": "phòng thay đồ"
+        }
+      ]
+    },
+    {
+      "id": "v:明るい:あかるい",
+      "kana": "あかるい",
+      "kanji": "明るい",
+      "kf": "明[あか]るい",
+      "hv": "MINH",
+      "vi": "sáng sủa; vui vẻ (tính cách)",
+      "pos": "adj-i",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この部屋[へや]は明[あか]るいです。",
+          "vi": "Căn phòng này sáng sủa.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：新[あたら]しい班長[はんちょう]はどんな人[ひと]ですか。B：明[あか]るくて、優[やさ]しい人[ひと]です。",
+          "vi": "A: Tổ trưởng mới là người thế nào? B: Vui vẻ và hiền.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "作業場[さぎょうば]は、いつも明[あか]るくしてください。",
+          "vi": "Hãy luôn giữ khu làm việc sáng sủa.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        "v:暗い:くらい"
+      ],
+      "rel": [
+        {
+          "w": "明[あ]かり",
+          "vi": "ánh sáng, ánh đèn"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "部屋[へや]",
+          "vi": "căn phòng"
+        },
+        {
+          "jp": "人[ひと]",
+          "vi": "người"
+        },
+        {
+          "jp": "色[いろ]",
+          "vi": "màu"
+        }
+      ]
+    }
+  ]
+}

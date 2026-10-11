@@ -1,776 +1,326 @@
 {
- "schema": 1,
- "pack": {
-  "id": "nguphap-n5-02",
-  "title": "Ngữ pháp N5 02 – Xin phép, cấm, bắt buộc",
-  "type": "grammar",
-  "level": "N5",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 1,
-  "created": "2026-10-11",
-  "verified_on": "",
-  "note": "Gói mẫu. Bộ ba mẫu đi cặp với nhau trong nội quy xưởng và giấy tờ: được phép / không được / phải. Có sẵn dữ liệu bài tập."
- },
- "items": [
-  {
-   "id": "g:〜てもいいですか",
-   "pattern": "〜てもいいですか",
-   "level": "N5",
-   "meaning": "(Tôi) làm … có được không? — xin phép một cách lịch sự",
-   "structure": [
-    "Động từ thể て + もいいですか",
-    "休[やす]む (nghỉ) → 休[やす]んで → 休[やす]んでもいいですか",
-    "使[つか]う (dùng) → 使[つか]って → 使[つか]ってもいいですか",
-    "Trả lời: はい、いいですよ。/ どうぞ。/ すみません、ちょっと…。/ いいえ、〜ないでください。"
-   ],
-   "explain": "〜てもいいですか dùng để XIN PHÉP: \"Tôi làm … có được không?\". Ở xưởng đây là câu cứu cánh: xin đi vệ sinh, xin nghỉ một chút, xin dùng dụng cụ, xin về sớm. Hỏi trước rồi mới làm là phép lịch sự cơ bản ở chỗ làm Nhật.\n\nCách ghép: lấy thể て của động từ rồi thêm もいいですか. Chia thể て giống hệt mẫu 〜てください: 書[か]く→書[か]いて, 休[やす]む→休[やす]んで, 使[つか]う→使[つか]って, 見[み]る→見[み]て, する→して, 来[く]る→来[き]て. Bỏ か ở cuối thành câu khẳng định 〜てもいいです = \"được phép làm …\" — người trên dùng để cho phép.\n\nNghe câu trả lời: はい、いいですよ hoặc どうぞ = được. Người Nhật ít khi nói thẳng \"không\"; nếu nghe すみません、ちょっと… hay それはちょっと… thì đó là lời từ chối khéo. Khi bị cấm rõ ràng sẽ nghe いいえ、〜ないでください hoặc 〜てはいけません.\n\nMuốn lịch sự hơn với cấp trên, khách hay nhân viên hành chính: 〜てもよろしいですか. Mềm và khiêm nhường hơn nữa: 〜させていただいてもよろしいですか (học ở N4–N3).",
-   "casual": "Bỏ です: 〜てもいい？ (bạn bè). Gọn hơn nữa: 〜ていい？ — 使[つか]っていい？ Kansai: 〜てもええ？ / 〜てええ？ — 使[つか]ってもええ？",
-   "compare": [
-    {
-     "pattern": "〜てもよろしいですか",
-     "diff": "Cùng nghĩa nhưng lịch sự hơn. Dùng với cấp trên, khách, nhân viên 市役所[しやくしょ] hay 入管[にゅうかん]."
-    },
-    {
-     "pattern": "〜てください",
-     "diff": "Nhờ NGƯỜI KHÁC làm. 〜てもいいですか là xin phép cho CHÍNH MÌNH làm."
-    }
-   ],
-   "mistakes": [
-    "Quên chuyển sang thể て: ×休[やす]むもいいですか → đúng: 休[やす]んでもいいですか.",
-    "Nhầm 〜てもいいですか (xin phép cho mình làm) với 〜てください (nhờ người khác làm).",
-    "Nghe それはちょっと… tưởng là đồng ý \"một chút\" — thật ra đó là lời từ chối khéo."
-   ],
-   "ex": [
-    {
-     "jp": "ここに[[座[すわ]ってもいいですか]]。",
-     "vi": "Tôi ngồi đây được không?",
-     "ctx": "doisong",
-     "wrong": [
-      "座[すわ]りてもいいですか",
-      "座[すわ]るもいいですか",
-      "座[すわ]ってください"
-     ]
-    },
-    {
-     "jp": "窓[まど]を[[開[あ]けてもいいですか]]。",
-     "vi": "Tôi mở cửa sổ được không?",
-     "ctx": "doisong",
-     "wrong": [
-      "開[あ]けるもいいですか",
-      "開[あ]けってもいいですか",
-      "開[あ]けないでください"
-     ]
-    },
-    {
-     "jp": "ここで写真[しゃしん]を[[撮[と]ってもいいですか]]。",
-     "vi": "Tôi chụp ảnh ở đây được không?",
-     "ctx": "doisong",
-     "chunks": [
-      "ここで",
-      "写真[しゃしん]を",
-      "撮[と]ってもいいですか"
-     ],
-     "wrong": [
-      "撮[と]りてもいいですか",
-      "撮[と]るてもいいですか",
-      "撮[と]らないでください"
-     ]
-    },
-    {
-     "jp": "すみません、このペンを[[使[つか]ってもいいですか]]。",
-     "vi": "Xin lỗi, tôi dùng cái bút này được không?",
-     "ctx": "doisong",
-     "chunks": [
-      "すみません、",
-      "この",
-      "ペンを",
-      "使[つか]ってもいいですか"
-     ],
-     "wrong": [
-      "使[つか]いてもいいですか",
-      "使[つか]うてもいいですか",
-      "使[つか]わないでください"
-     ]
-    },
-    {
-     "jp": "トイレに[[行[い]ってもいいですか]]。",
-     "vi": "Tôi đi vệ sinh được không?",
-     "ctx": "xuong",
-     "wrong": [
-      "行[い]きてもいいですか",
-      "行[い]いてもいいですか",
-      "行[い]かないでください"
-     ]
-    },
-    {
-     "jp": "五分[ごふん]だけ[[休[やす]んでもいいですか]]。",
-     "vi": "Tôi nghỉ 5 phút thôi có được không?",
-     "ctx": "xuong",
-     "chunks": [
-      "五分[ごふん]",
-      "だけ",
-      "休[やす]んでもいいですか"
-     ],
-     "wrong": [
-      "休[やす]みてもいいですか",
-      "休[やす]んてもいいですか",
-      "休[やす]まないでください"
-     ]
-    },
-    {
-     "jp": "今日[きょう]は早[はや]く[[帰[かえ]ってもいいですか]]。",
-     "vi": "Hôm nay tôi về sớm có được không?",
-     "ctx": "xuong",
-     "chunks": [
-      "今日[きょう]は",
-      "早[はや]く",
-      "帰[かえ]ってもいいですか"
-     ],
-     "wrong": [
-      "帰[かえ]りてもいいですか",
-      "帰[かえ]てもいいですか",
-      "帰[かえ]らないでください"
-     ]
-    },
-    {
-     "jp": "書類[しょるい]は明日[あした][[持[も]ってきてもいいですか]]。",
-     "vi": "Giấy tờ thì ngày mai tôi mang đến có được không?",
-     "ctx": "thutuc",
-     "chunks": [
-      "書類[しょるい]は",
-      "明日[あした]",
-      "持[も]ってきてもいいですか"
-     ],
-     "wrong": [
-      "持[も]ちてきてもいいですか",
-      "持[も]ってくるもいいですか",
-      "持[も]ってこないでください"
-     ]
-    },
-    {
-     "jp": "鉛筆[えんぴつ]で[[書[か]いてもいいですか]]。",
-     "vi": "Viết bằng bút chì có được không?",
-     "ctx": "thutuc",
-     "wrong": [
-      "書[か]きてもいいですか",
-      "書[か]くてもいいですか",
-      "書[か]かないでください"
-     ]
-    },
-    {
-     "jp": "A：この箱[はこ]、[[捨[す]ててもいいですか]]。B：はい、いいですよ。",
-     "vi": "A: Cái hộp này tôi vứt đi được không? B: Vâng, được chứ.",
-     "ctx": "hoithoai",
-     "wrong": [
-      "捨[す]てりてもいいですか",
-      "捨[す]てるもいいですか",
-      "捨[す]てないでください"
-     ]
-    }
-   ],
-   "errs": [
-    {
-     "chunks": [
-      "ここで",
-      "たばこを",
-      "吸[す]うもいいですか"
-     ],
-     "vi": "Tôi hút thuốc ở đây được không?",
-     "bad": 2,
-     "fix": "吸[す]ってもいいですか",
-     "why": "Trước もいいですか phải là thể て: 吸[す]う → 吸[す]って."
-    },
-    {
-     "chunks": [
-      "すみません、",
-      "トイレに",
-      "行[い]きてもいいですか"
-     ],
-     "vi": "Xin lỗi, tôi đi vệ sinh được không?",
-     "bad": 2,
-     "fix": "行[い]ってもいいですか",
-     "why": "行[い]く là ngoại lệ: thể て là 行[い]って (không phải 行[い]いて, càng không phải 行[い]きて)."
-    },
-    {
-     "chunks": [
-      "ここで",
-      "少[すこ]し",
-      "休[やす]んてもいいですか"
-     ],
-     "vi": "Tôi nghỉ ở đây một chút được không?",
-     "bad": 2,
-     "fix": "休[やす]んでもいいですか",
-     "why": "Đuôi む・ぶ・ぬ đổi thành んで (có dấu ゛), không phải んて."
-    }
-   ],
-   "situ": [
-    {
-     "q": "Bạn đau bụng, muốn xin trưởng ca cho đi vệ sinh giữa giờ làm.",
-     "opts": [
-      "すみません、トイレに行[い]ってもいいですか。",
-      "トイレに行[い]ってください。",
-      "トイレに行[い]かないでください。",
-      "トイレに行[い]きます。"
-     ],
-     "ans": 0,
-     "why": "Xin phép cho mình → 〜てもいいですか. 〜てください là bảo người khác đi; 行[い]きます là tự thông báo, không xin phép."
-    },
-    {
-     "q": "Bạn xin dùng máy tính của văn phòng. Người phụ trách đáp: 「それはちょっと…」. Ý họ là gì?",
-     "opts": [
-      "Họ từ chối khéo — không được dùng.",
-      "Họ đồng ý, bảo bạn dùng một chút.",
-      "Họ bảo bạn chờ một chút."
-     ],
-     "ans": 0,
-     "why": "ちょっと… bỏ lửng là cách từ chối khéo rất hay gặp. Đừng hiểu theo nghĩa đen \"một chút\"."
-    }
-   ],
-   "shift": [
-    {
-     "from": "これ、使[つか]ってもいい？",
-     "to": "これを使[つか]ってもいいですか。",
-     "kind": "lichsu",
-     "note": "〜てもいい？ là cách hỏi thân mật với bạn bè. Với cấp trên, người lạ thêm です: 〜てもいいですか.",
-     "wrong": [
-      "これを使[つか]ってください。",
-      "これを使[つか]わないでください。"
-     ]
-    },
-    {
-     "from": "使[つか]ってもええ？",
-     "to": "使[つか]ってもいいですか。",
-     "kind": "kansai",
-     "note": "Kansai: ええ = いい. 〜てもええ？ = 〜てもいい？",
-     "wrong": [
-      "使[つか]ってください。",
-      "使[つか]ってはいけません。"
-     ]
-    }
-   ]
+  "schema": 1,
+  "pack": {
+    "id": "nguphap-n5-02",
+    "title": "Ngữ pháp N5 02 – Câu danh từ: は・です・か・も・の",
+    "type": "grammar",
+    "level": "N5",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-11",
+    "verified_on": "",
+    "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức)."
   },
-  {
-   "id": "g:〜てはいけません",
-   "pattern": "〜てはいけません",
-   "level": "N5",
-   "meaning": "Không được (làm gì) — cấm theo quy định, nội quy",
-   "structure": [
-    "Động từ thể て + はいけません (は đọc là わ)",
-    "入[はい]る (vào) → 入[はい]って → 入[はい]ってはいけません",
-    "吸[す]う (hút) → 吸[す]って → 吸[す]ってはいけません",
-    "Thể thường: 〜てはいけない. Nói nhanh: 〜ちゃいけない / 〜ちゃだめ"
-   ],
-   "explain": "〜てはいけません nghĩa là \"không được (làm)\". Đây là lời CẤM theo quy định, nội quy, luật — mạnh và khách quan hơn 〜ないでください. Trong buổi hướng dẫn an toàn đầu tiên ở xưởng, bạn sẽ nghe mẫu này rất nhiều.\n\nCách ghép: thể て + はいけません (chữ は ở đây đọc là \"wa\"). Dạng thường 〜てはいけない hay thấy trên nội quy viết tay, sổ tay an toàn. Cùng nghĩa còn có 〜てはだめです (khẩu ngữ hơn) và 〜てはならない (văn viết, rất cứng).\n\nNgười Nhật thường không dùng 〜てはいけません với cấp trên hay khách, vì nghe như đang dạy bảo. Với họ, dùng 〜ないでください hoặc nói tránh: ここはちょっと… Ngược lại, cấp trên dùng mẫu này với nhân viên mới là chuyện bình thường.\n\nĐi cặp với câu xin phép: hỏi 〜てもいいですか, nếu nghe いいえ、〜てはいけません là bị từ chối dứt khoát. Nhớ cặp: 〜てもいいです (được phép) ↔ 〜てはいけません (không được phép).",
-   "casual": "Nói nhanh: て+は → ちゃ, で+は → じゃ: 触[さわ]っちゃだめ！ 休[やす]んじゃだめ。 Kansai: 〜たらあかん: 触[さわ]ったらあかん！",
-   "compare": [
+  "items": [
     {
-     "pattern": "〜ないでください",
-     "diff": "Lời nhờ ĐỪNG làm, mềm và lịch sự. 〜てはいけません là quy định, mạnh hơn."
+      "id": "g:〜は〜です",
+      "pattern": "〜は〜です",
+      "level": "N5",
+      "meaning": "A là B (câu khẳng định lịch sự); phủ định: A không phải là B (〜ではありません)",
+      "structure": [
+        "N1 は N2 です",
+        "N1 は N2 ではありません（じゃありません）",
+        "私[わたし]は会社員[かいしゃいん]です → 私[わたし]は学生[がくせい]ではありません"
+      ],
+      "explain": "Đây là khuôn câu đầu tiên và dùng nhiều nhất. は đánh dấu CHỦ ĐỀ — điều mình đang nói tới; phần sau は là thông tin về chủ đề đó. です đặt cuối câu làm câu lịch sự, giống chữ \"là … ạ\" trong tiếng Việt. Dùng được với mọi người: quản đốc, người lạ, nhân viên quầy ở 市役所[しやくしょ].\n\nPhủ định là ではありません. Nói chuyện hằng ngày người Nhật hay nói じゃありません hoặc じゃないです — nghĩa như nhau, chỉ bớt trang trọng. Quá khứ: でした (đã là) và ではありませんでした (đã không phải là).\n\nChú ý cách đọc: trợ từ は viết bằng chữ は (ha) nhưng ĐỌC là \"wa\". Khi chủ đề đã rõ, người Nhật bỏ luôn phần \"A は\": chỉ nói 「アンです。」 khi giới thiệu. Mẹo nhớ: です giống chữ \"ạ\" — thiếu nó, câu nói với người trên nghe cộc lốc.",
+      "casual": "Với bạn bè, đồng nghiệp ngang hàng: thay です bằng だ hoặc bỏ hẳn: 「学生[がくせい]だ」「学生[がくせい]」. Phủ định: じゃない. Kansai: や thay だ (「学生[がくせい]や」), phủ định nghe 「学生[がくせい]ちゃう」「学生[がくせい]ちゃうで」 (ちゃう = 違[ちが]う).",
+      "compare": [
+        {
+          "pattern": "〜が〜です",
+          "diff": "は nêu chủ đề đã biết rồi nói thêm về nó; が nhấn vào phần thông tin mới, hay dùng để trả lời câu hỏi 'ai / cái nào': だれが班[はん]長[ちょう]ですか → 田中[たなか]さんが班[はん]長[ちょう]です."
+        }
+      ],
+      "mistakes": [
+        "Đọc trợ từ は là 'ha' — phải đọc 'wa'.",
+        "Quên です khi nói với cấp trên: 「はい、学生[がくせい]」 nghe cộc lốc → 「はい、学生[がくせい]です」.",
+        "Dùng ではありません cho tính từ い: 高[たか]いではありません ✗ → 高[たか]くないです / 高[たか]くありません."
+      ],
+      "ex": [
+        {
+          "jp": "私[わたし]はアン[[です]]。",
+          "vi": "Tôi là An.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "私[わたし]はベトナム人[じん][[です]]。",
+          "vi": "Tôi là người Việt Nam.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "田中[たなか]さんは班長[はんちょう][[です]]。",
+          "vi": "Anh Tanaka là tổ trưởng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "私[わたし]は学生[がくせい][[ではありません]]。",
+          "vi": "Tôi không phải là sinh viên.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今日[きょう]は休[やす]み[[ではありません]]。",
+          "vi": "Hôm nay không phải là ngày nghỉ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "住所[じゅうしょ]は神戸市[こうべし][[です]]。",
+          "vi": "Địa chỉ là thành phố Kobe.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "明日[あした]は日曜日[にちようび][[じゃありません]]。",
+          "vi": "Ngày mai không phải Chủ nhật.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "このサーモンは生食用[せいしょくよう][[です]]。",
+          "vi": "Cá hồi này là loại dùng để ăn sống.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "在留[ざいりゅう]カードの期限[きげん]は来年[らいねん]の三月[さんがつ][[です]]。",
+          "vi": "Hạn của thẻ cư trú là tháng Ba năm sau.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：失礼[しつれい]ですが、学生[がくせい]さんですか。B：いいえ、学生[がくせい][[じゃありません]]。会社員[かいしゃいん]です。",
+          "vi": "A: Xin lỗi, bạn là sinh viên à? B: Không, tôi không phải sinh viên. Tôi là nhân viên công ty.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
     },
     {
-     "pattern": "〜なければなりません",
-     "diff": "Ngược lại: BẮT BUỘC phải làm. 〜てはいけません là bắt buộc KHÔNG làm."
+      "id": "g:〜か",
+      "pattern": "〜か",
+      "level": "N5",
+      "meaning": "… không? / … à? — thêm vào cuối câu để biến thành câu hỏi",
+      "structure": [
+        "Câu lịch sự + か",
+        "田中[たなか]さんです → 田中[たなか]さんですか",
+        "Từ để hỏi + … + か: 何[なん]ですか, どこですか, いくらですか"
+      ],
+      "explain": "Chỉ cần thêm か vào cuối câu lịch sự là thành câu hỏi, KHÔNG phải đổi trật tự từ như tiếng Anh. Khi nói thì lên giọng ở か. Viết tiếng Nhật thường kết thúc bằng 「。」, không cần dấu chấm hỏi.\n\nCâu hỏi có từ để hỏi (何[なん], どこ, だれ, いつ, いくら, 何時[なんじ]…) cũng thêm か: トイレはどこですか. Câu hỏi có/không thì trả lời はい / いいえ; câu hỏi có từ để hỏi thì trả lời thẳng thông tin, không dùng はい/いいえ. Với câu danh từ, trả lời ngắn: はい、そうです / いいえ、違[ちが]います.\n\nそうですか nói xuống giọng KHÔNG phải câu hỏi mà là \"vậy à\" khi nghe một tin mới. Mẹo nhớ: か giống chữ \"không?\" ở cuối câu tiếng Việt.",
+      "casual": "Thân mật thì bỏ か và chỉ lên giọng: 「行[い]く？」「これ、何[なん]？」「大丈夫[だいじょうぶ]？」. Kansai hay hỏi bằng ん／の: 「どこ行[い]くん？」「これ何[なん]なん？」.",
+      "compare": [
+        {
+          "pattern": "〜ね",
+          "diff": "か là hỏi thật vì mình không biết; ね là mong người kia đồng ý với điều cả hai đều thấy: 寒[さむ]いですね = lạnh nhỉ."
+        }
+      ],
+      "mistakes": [
+        "Trả lời câu hỏi có từ để hỏi bằng はい: 何[なん]ですか → はい ✗; phải nói thông tin: 包丁[ほうちょう]です.",
+        "Thêm か sau だ trong câu thân mật: 学生[がくせい]だか ✗ → 「学生[がくせい]？」 hoặc 「学生[がくせい]ですか」."
+      ],
+      "ex": [
+        {
+          "jp": "これは水[みず]です[[か]]。",
+          "vi": "Đây là nước à?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "トイレはどこです[[か]]。",
+          "vi": "Nhà vệ sinh ở đâu ạ?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "これは何[なん]です[[か]]。",
+          "vi": "Cái này là gì ạ?",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "田中[たなか]さんは日本人[にほんじん]です[[か]]。",
+          "vi": "Anh Tanaka là người Nhật à?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この包丁[ほうちょう]を使[つか]います[[か]]。",
+          "vi": "Có dùng con dao này không ạ?",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "申請書[しんせいしょ]はここに出[だ]します[[か]]。",
+          "vi": "Nộp đơn ở đây phải không ạ?",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "明日[あした]、仕事[しごと]は休[やす]みです[[か]]。",
+          "vi": "Ngày mai được nghỉ làm à?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "冷凍庫[れいとうこ]の温度[おんど]は大丈夫[だいじょうぶ]です[[か]]。",
+          "vi": "Nhiệt độ kho đông lạnh có ổn không?",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "手数料[てすうりょう]はいくらです[[か]]。",
+          "vi": "Lệ phí là bao nhiêu ạ?",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：これは生食用[せいしょくよう]です[[か]]。B：いいえ、加熱用[かねつよう]です。",
+          "vi": "A: Cái này là loại ăn sống à? B: Không, loại để nấu chín.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:〜も",
+      "pattern": "〜も",
+      "level": "N5",
+      "meaning": "cũng — đặt sau danh từ khi điều đó giống điều đã nói trước",
+      "structure": [
+        "N も …",
+        "私[わたし]は学生[がくせい]です。アンさんも学生[がくせい]です。",
+        "N も N も … (cả … lẫn …)",
+        "Từ để hỏi + も + phủ định: 何[なに]も〜ません, だれも〜いません"
+      ],
+      "explain": "も đặt sau danh từ, nghĩa là \"cũng\". も THAY CHỖ cho は, が, を — không viết はも, がも, をも. Với các trợ từ khác thì giữ lại và thêm も phía sau: にも, でも, へも, とも.\n\nN も N も nghĩa là \"cả A lẫn B\": 肉[にく]も魚[さかな]も好[す]きです (thích cả thịt lẫn cá). Câu phủ định thì thành \"cả A lẫn B đều không\": 肉[にく]も魚[さかな]も食[た]べません.\n\nTừ để hỏi + も + câu PHỦ ĐỊNH nghĩa là \"không … gì / ai / đâu cả\": 何[なに]も食[た]べません (không ăn gì cả), だれもいません (không có ai), どこへも行[い]きません (không đi đâu cả). Đây là cách nói rất hay gặp. Mẹo nhớ: thấy も thì nghĩ ngay chữ \"cũng\".",
+      "casual": "Dạng thân mật y hệt, chỉ đổi đuôi câu: 「俺[おれ]も」「私[わたし]も行[い]く」「何[なに]もない」. Kansai: 「わしもや」「何[なに]もあらへん」.",
+      "compare": [
+        {
+          "pattern": "〜は",
+          "diff": "は giới thiệu chủ đề mới; も cho biết điều này GIỐNG điều vừa nói. Tự giới thiệu: 私[わたし]はベトナム人[じん]です; người sau nói: 私[わたし]もベトナム人[じん]です."
+        }
+      ],
+      "mistakes": [
+        "Viết を cùng も: 魚[さかな]をも食[た]べます ✗ → 魚[さかな]も食[た]べます.",
+        "Dùng 何[なに]も trong câu khẳng định: 何[なに]も食[た]べます ✗ — 何[なに]も luôn đi với phủ định; khẳng định dùng 何[なん]でも (cái gì cũng).",
+        "Bỏ mất に/で khi thêm も: 大阪[おおさか]も行[い]きました (nghe được nhưng chưa chuẩn) → 大阪[おおさか]にも行[い]きました."
+      ],
+      "ex": [
+        {
+          "jp": "私[わたし][[も]]ベトナム人[じん]です。",
+          "vi": "Tôi cũng là người Việt Nam.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "明日[あした][[も]]雨[あめ]です。",
+          "vi": "Ngày mai trời cũng mưa.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今日[きょう][[も]]よろしくお願[ねが]いします。",
+          "vi": "Hôm nay cũng mong được mọi người giúp đỡ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "コーヒー[[も]]飲[の]みますか。",
+          "vi": "Bạn cũng uống cà phê chứ?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "マスク[[も]]してください。",
+          "vi": "Hãy đeo cả khẩu trang nữa.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "住民票[じゅうみんひょう][[も]]必要[ひつよう]ですか。",
+          "vi": "Cần cả phiếu cư trú nữa ạ?",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "冷蔵庫[れいぞうこ]に何[なに][[も]]ありません。",
+          "vi": "Trong tủ lạnh không có gì cả.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "休憩室[きゅうけいしつ]にはだれ[[も]]いません。",
+          "vi": "Trong phòng nghỉ không có ai.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "課税証明書[かぜいしょうめいしょ]と、納税証明書[のうぜいしょうめいしょ][[も]]お願[ねが]いします。",
+          "vi": "Cho tôi giấy chứng nhận đánh thuế, và cả giấy chứng nhận nộp thuế nữa.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：昨日[きのう]、何[なに]か食[た]べましたか。B：いいえ、何[なに][[も]]食[た]べませんでした。",
+          "vi": "A: Hôm qua bạn có ăn gì không? B: Không, tôi chẳng ăn gì cả.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:〜の",
+      "pattern": "〜の",
+      "level": "N5",
+      "meaning": "của; (N1 の N2) — nối hai danh từ: sở hữu, thuộc về, loại, vị trí",
+      "structure": [
+        "N1 の N2 (N2 của N1)",
+        "私[わたし]の傘[かさ] = ô của tôi",
+        "日本語[にほんご]の本[ほん] = sách tiếng Nhật",
+        "N の (bỏ danh từ đã rõ): これは私[わたし]のです"
+      ],
+      "explain": "の nối hai danh từ; danh từ ĐỨNG TRƯỚC bổ nghĩa cho danh từ đứng sau. Trật tự ngược với tiếng Việt: 私[わたし]の傘[かさ] = ô của tôi, 会社[かいしゃ]の人[ひと] = người của công ty. Khi dịch, đọc từ phải sang trái.\n\nの không chỉ là \"của\". Nó còn nói nội dung (日本語[にほんご]の本[ほん] = sách tiếng Nhật), nguồn gốc (ベトナムのコーヒー = cà phê Việt Nam), vị trí (机[つくえ]の上[うえ] = trên bàn), thời gian (朝[あさ]の仕事[しごと] = việc buổi sáng), chức vụ đứng trước tên (班[はん]長[ちょう]の田中[たなか]さん = tổ trưởng Tanaka).\n\nKhi danh từ phía sau đã rõ thì bỏ nó đi, giữ lại の: これはだれの傘[かさ]ですか → 私[わたし]のです (của tôi). Có thể nối nhiều の: 会社[かいしゃ]の冷蔵庫[れいぞうこ]の中[なか] (bên trong tủ lạnh của công ty).",
+      "casual": "Cách nối danh từ giống hệt. Riêng ở cuối câu, の thân mật dùng để hỏi: 「行[い]くの？」. Kansai hay nói のん／ん: 「これ誰[だれ]のん？」 (cái này của ai?).",
+      "compare": [
+        {
+          "pattern": "Tính từ な + な + N",
+          "diff": "Danh từ nối danh từ dùng の (日本[にほん]の車[くるま]); tính từ な nối danh từ dùng な (きれいな車[くるま]); tính từ い nối thẳng (大[おお]きい車[くるま]). Không nói きれいの車[くるま], 大[おお]きいの車[くるま]."
+        }
+      ],
+      "mistakes": [
+        "Dịch theo trật tự tiếng Việt: 傘[かさ]の私[わたし] ✗ → 私[わたし]の傘[かさ].",
+        "Chêm の sau tính từ い: 大[おお]きいの箱[はこ] ✗ → 大[おお]きい箱[はこ]."
+      ],
+      "ex": [
+        {
+          "jp": "これは私[わたし][[の]]傘[かさ]です。",
+          "vi": "Đây là ô của tôi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "日本語[にほんご][[の]]先生[せんせい]はやさしいです。",
+          "vi": "Cô giáo tiếng Nhật hiền.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "工場[こうじょう][[の]]入口[いりぐち]で手[て]を洗[あら]います。",
+          "vi": "Rửa tay ở lối vào nhà máy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ベトナム[[の]]コーヒーはおいしいです。",
+          "vi": "Cà phê Việt Nam ngon.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "班長[はんちょう][[の]]田中[たなか]さんに聞[き]いてください。",
+          "vi": "Hãy hỏi tổ trưởng Tanaka.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "在留[ざいりゅう]カード[[の]]コピーをください。",
+          "vi": "Cho tôi bản sao thẻ cư trú.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "この鞄[かばん]はだれ[[の]]ですか。",
+          "vi": "Cái túi này là của ai?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "冷蔵庫[れいぞうこ][[の]]温度[おんど]を見[み]てください。",
+          "vi": "Hãy xem nhiệt độ của tủ mát.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "去年[きょねん][[の]]源泉徴収票[げんせんちょうしゅうひょう]を持[も]ってきてください。",
+          "vi": "Hãy mang phiếu khấu trừ thuế tại nguồn của năm ngoái đến.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：これはだれの手袋[てぶくろ]ですか。B：あ、それは私[わたし][[の]]です。",
+          "vi": "A: Đôi găng này của ai vậy? B: À, của tôi đấy.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
     }
-   ],
-   "mistakes": [
-    "Đọc は trong 〜てはいけません là \"ha\" — đúng phải đọc là \"wa\".",
-    "Quên thể て: ×入[はい]るはいけません → đúng: 入[はい]ってはいけません.",
-    "Dùng với cấp trên, khách: nghe như đang dạy đời. Với họ hãy dùng 〜ないでください."
-   ],
-   "ex": [
-    {
-     "jp": "ここでたばこを[[吸[す]ってはいけません]]。",
-     "vi": "Không được hút thuốc ở đây.",
-     "ctx": "doisong",
-     "chunks": [
-      "ここで",
-      "たばこを",
-      "吸[す]ってはいけません"
-     ],
-     "wrong": [
-      "吸[す]いてはいけません",
-      "吸[す]うはいけません",
-      "吸[す]ってもいいです"
-     ]
-    },
-    {
-     "jp": "赤信号[あかしんごう]で道[みち]を[[渡[わた]ってはいけません]]。",
-     "vi": "Không được băng qua đường khi đèn đỏ.",
-     "ctx": "doisong",
-     "chunks": [
-      "赤信号[あかしんごう]で",
-      "道[みち]を",
-      "渡[わた]ってはいけません"
-     ],
-     "wrong": [
-      "渡[わた]りてはいけません",
-      "渡[わた]るてはいけません",
-      "渡[わた]ってもいいです"
-     ]
-    },
-    {
-     "jp": "夜[よる]、大[おお]きい音[おと]を[[出[だ]してはいけません]]。",
-     "vi": "Ban đêm không được gây tiếng ồn lớn.",
-     "ctx": "doisong",
-     "chunks": [
-      "夜[よる]、",
-      "大[おお]きい",
-      "音[おと]を",
-      "出[だ]してはいけません"
-     ],
-     "wrong": [
-      "出[だ]いてはいけません",
-      "出[だ]すてはいけません",
-      "出[だ]してもいいです"
-     ]
-    },
-    {
-     "jp": "公園[こうえん]でゴミを[[燃[も]やしてはいけません]]。",
-     "vi": "Không được đốt rác ở công viên.",
-     "ctx": "doisong",
-     "chunks": [
-      "公園[こうえん]で",
-      "ゴミを",
-      "燃[も]やしてはいけません"
-     ],
-     "wrong": [
-      "燃[も]やいてはいけません",
-      "燃[も]やすてはいけません",
-      "燃[も]やしてもいいです"
-     ]
-    },
-    {
-     "jp": "作業中[さぎょうちゅう]は携帯電話[けいたいでんわ]を[[使[つか]ってはいけません]]。",
-     "vi": "Trong giờ làm việc không được dùng điện thoại di động.",
-     "ctx": "xuong",
-     "chunks": [
-      "作業中[さぎょうちゅう]は",
-      "携帯電話[けいたいでんわ]を",
-      "使[つか]ってはいけません"
-     ],
-     "wrong": [
-      "使[つか]いてはいけません",
-      "使[つか]うはいけません",
-      "使[つか]ってもいいです"
-     ]
-    },
-    {
-     "jp": "時計[とけい]や指輪[ゆびわ]をつけて[[入[はい]ってはいけません]]。",
-     "vi": "Không được đeo đồng hồ hay nhẫn mà đi vào (khu sản xuất).",
-     "ctx": "xuong",
-     "chunks": [
-      "時計[とけい]や",
-      "指輪[ゆびわ]を",
-      "つけて",
-      "入[はい]ってはいけません"
-     ],
-     "wrong": [
-      "入[はい]りてはいけません",
-      "入[はい]てはいけません",
-      "入[はい]ってもいいです"
-     ]
-    },
-    {
-     "jp": "生食用[せいしょくよう]の魚[さかな]を素手[すで]で[[触[さわ]ってはいけません]]。",
-     "vi": "Không được chạm tay trần vào cá dùng để ăn sống.",
-     "ctx": "xuong",
-     "chunks": [
-      "生食用[せいしょくよう]の",
-      "魚[さかな]を",
-      "素手[すで]で",
-      "触[さわ]ってはいけません"
-     ],
-     "wrong": [
-      "触[さわ]りてはいけません",
-      "触[さわ]るはいけません",
-      "触[さわ]ってもいいです"
-     ]
-    },
-    {
-     "jp": "申請書[しんせいしょ]は鉛筆[えんぴつ]で[[書[か]いてはいけません]]。",
-     "vi": "Mẫu đơn thì không được viết bằng bút chì.",
-     "ctx": "thutuc",
-     "chunks": [
-      "申請書[しんせいしょ]は",
-      "鉛筆[えんぴつ]で",
-      "書[か]いてはいけません"
-     ],
-     "wrong": [
-      "書[か]きてはいけません",
-      "書[か]くはいけません",
-      "書[か]いてもいいです"
-     ]
-    },
-    {
-     "jp": "間違[まちが]えたところを修正液[しゅうせいえき]で[[消[け]してはいけません]]。",
-     "vi": "Chỗ viết sai thì không được xóa bằng bút xóa.",
-     "ctx": "thutuc",
-     "chunks": [
-      "間違[まちが]えたところを",
-      "修正液[しゅうせいえき]で",
-      "消[け]してはいけません"
-     ],
-     "wrong": [
-      "消[け]いてはいけません",
-      "消[け]すはいけません",
-      "消[け]してもいいです"
-     ]
-    },
-    {
-     "jp": "A：ここに車[くるま]を止[と]めてもいいですか。B：いいえ、[[止[と]めてはいけません]]。",
-     "vi": "A: Tôi đỗ xe ở đây được không? B: Không, không được đỗ.",
-     "ctx": "hoithoai",
-     "wrong": [
-      "止[と]めりてはいけません",
-      "止[と]めるはいけません",
-      "止[と]めてもいいです"
-     ]
-    }
-   ],
-   "errs": [
-    {
-     "chunks": [
-      "ここで",
-      "写真[しゃしん]を",
-      "撮[と]るはいけません"
-     ],
-     "vi": "Không được chụp ảnh ở đây.",
-     "bad": 2,
-     "fix": "撮[と]ってはいけません",
-     "why": "Trước はいけません phải là thể て: 撮[と]る → 撮[と]って."
-    },
-    {
-     "chunks": [
-      "作業中[さぎょうちゅう]に",
-      "ガムを",
-      "かみてはいけません"
-     ],
-     "vi": "Trong giờ làm không được nhai kẹo cao su.",
-     "bad": 2,
-     "fix": "かんではいけません",
-     "why": "かむ (nhai) đuôi む → んで: かんで. Không ghép thể ます かみ với て."
-    },
-    {
-     "chunks": [
-      "この",
-      "部屋[へや]に",
-      "入[はい]てはいけません"
-     ],
-     "vi": "Không được vào phòng này.",
-     "bad": 2,
-     "fix": "入[はい]ってはいけません",
-     "why": "入[はい]る là nhóm 1 dù đuôi る: る → って. 入[はい]て là sai."
-    }
-   ],
-   "situ": [
-    {
-     "q": "Trong buổi hướng dẫn an toàn, quản đốc nói quy định chung của xưởng: không được mang đồ ăn vào khu sản xuất. Câu nào đúng kiểu nói quy định?",
-     "opts": [
-      "作業場[さぎょうば]に食[た]べ物[もの]を持[も]ち込[こ]んではいけません。",
-      "作業場[さぎょうば]に食[た]べ物[もの]を持[も]ち込[こ]んでもいいです。",
-      "作業場[さぎょうば]に食[た]べ物[もの]を持[も]ち込[こ]んでください。"
-     ],
-     "ans": 0,
-     "why": "Quy định cấm → 〜てはいけません. 〜てもいいです là cho phép; 〜てください là bảo làm."
-    },
-    {
-     "q": "Khách tham quan xưởng định chụp ảnh khu sản xuất. Bạn là nhân viên, cần ngăn một cách lịch sự với khách.",
-     "opts": [
-      "すみません、写真[しゃしん]は撮[と]らないでください。",
-      "写真[しゃしん]を撮[と]ってはいけません！",
-      "写真[しゃしん]を撮[と]るな！"
-     ],
-     "ans": 0,
-     "why": "Với khách nên dùng 〜ないでください — mềm và lịch sự. 〜てはいけません nghe như dạy bảo; 〜な là quát."
-    }
-   ],
-   "shift": [
-    {
-     "from": "ここで寝[ね]ちゃだめ。",
-     "to": "ここで寝[ね]てはいけません。",
-     "kind": "lichsu",
-     "note": "〜ちゃだめ = 〜てはだめ (nói nhanh, thân mật). Dạng lịch sự, trang trọng: 〜てはいけません.",
-     "wrong": [
-      "ここで寝[ね]てもいいです。",
-      "ここで寝[ね]てください。"
-     ]
-    },
-    {
-     "from": "触[さわ]ったらあかん！",
-     "to": "触[さわ]ってはいけません。",
-     "kind": "kansai",
-     "note": "Kansai: 〜たらあかん = 〜てはいけない (không được …).",
-     "wrong": [
-      "触[さわ]ってもいいです。",
-      "触[さわ]ってください。"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "g:〜なければなりません",
-   "pattern": "〜なければなりません",
-   "level": "N5",
-   "meaning": "Phải (làm gì) — việc bắt buộc, nghĩa vụ",
-   "structure": [
-    "Động từ thể ない, bỏ い + ければなりません",
-    "出[だ]す (nộp) → 出[だ]さない → 出[だ]さなければなりません",
-    "見[み]せる (cho xem) → 見[み]せない → 見[み]せなければなりません",
-    "する → しない → しなければなりません; 来[く]る → 来[こ]ない → 来[こ]なければなりません"
-   ],
-   "explain": "〜なければなりません nghĩa là \"phải (làm)\" — việc bắt buộc theo quy định, luật hoặc hoàn cảnh. Với người lao động 特定技能[とくていぎのう], mẫu này xuất hiện khắp nơi: phải nộp thuế, phải xin gia hạn thẻ cư trú trước khi hết hạn, phải đội mũ trong xưởng, phải rửa tay trước khi vào khu sản xuất.\n\nCách ghép: lấy thể ない, bỏ い cuối, thêm ければなりません. Hiểu theo từng mảnh: なければ = \"nếu không làm\", なりません = \"thì không được\" → \"không làm thì không được\" = phải làm. Dạng thường: 〜なければならない.\n\nCùng nghĩa còn có 〜なければいけません (hay dùng trong lời nói) và 〜ないといけません (khẩu ngữ, rất phổ biến). Trên văn bản hành chính, thông báo của 市役所[しやくしょ] hay 入管[にゅうかん], hay gặp dạng cứng 〜なければならない.\n\nMuốn nói \"không phải làm cũng được\" thì dùng 〜なくてもいいです. Nghe ở cuối câu thấy なきゃ, なくちゃ, ないと bỏ lửng — đó vẫn là \"phải …\", chỉ là nói tắt.",
-   "casual": "Nói nhanh: 〜なきゃ / 〜なくちゃ: もう行[い]かなきゃ。 (Phải đi rồi.) 〜ないと: 早[はや]く出[だ]さないと。 Kansai: 〜なあかん: 行[い]かなあかん。 せなあかん = しなければならない.",
-   "compare": [
-    {
-     "pattern": "〜ないといけません",
-     "diff": "Cùng nghĩa \"phải\", mềm hơn và hay dùng trong lời nói hằng ngày."
-    },
-    {
-     "pattern": "〜なくてもいいです",
-     "diff": "Ngược nghĩa: KHÔNG phải làm cũng được."
-    },
-    {
-     "pattern": "〜てはいけません",
-     "diff": "Không được làm (cấm). Dễ nhầm vì cùng có いけません / なりません ở cuối."
-    }
-   ],
-   "mistakes": [
-    "Ghép thẳng vào thể từ điển: ×出[だ]すなければなりません → đúng: 出[だ]さなければなりません.",
-    "Quên bỏ い của ない: ×出[だ]さないければ → đúng: 出[だ]さなければ.",
-    "Nghe なきゃ / なくちゃ ở cuối câu tưởng câu bị cắt — thật ra đó là \"phải …\"."
-   ],
-   "ex": [
-    {
-     "jp": "毎朝[まいあさ]七時[しちじ]に[[起[お]きなければなりません]]。",
-     "vi": "Mỗi sáng tôi phải dậy lúc 7 giờ.",
-     "ctx": "doisong",
-     "chunks": [
-      "毎朝[まいあさ]",
-      "七時[しちじ]に",
-      "起[お]きなければなりません"
-     ],
-     "wrong": [
-      "起[お]きないければなりません",
-      "起[お]きるなければなりません",
-      "起[お]きてはいけません"
-     ]
-    },
-    {
-     "jp": "燃[も]えるゴミは火曜日[かようび]に[[出[だ]さなければなりません]]。",
-     "vi": "Rác cháy được phải đổ vào thứ Ba.",
-     "ctx": "doisong",
-     "chunks": [
-      "燃[も]えるゴミは",
-      "火曜日[かようび]に",
-      "出[だ]さなければなりません"
-     ],
-     "wrong": [
-      "出[だ]しなければなりません",
-      "出[だ]すなければなりません",
-      "出[だ]さないければなりません"
-     ]
-    },
-    {
-     "jp": "明日[あした]は病院[びょういん]へ[[行[い]かなければなりません]]。",
-     "vi": "Ngày mai tôi phải đi bệnh viện.",
-     "ctx": "doisong",
-     "chunks": [
-      "明日[あした]は",
-      "病院[びょういん]へ",
-      "行[い]かなければなりません"
-     ],
-     "wrong": [
-      "行[い]きなければなりません",
-      "行[い]くなければなりません",
-      "行[い]かないければなりません"
-     ]
-    },
-    {
-     "jp": "部屋[へや]を出[で]る時[とき]は電気[でんき]を[[消[け]さなければなりません]]。",
-     "vi": "Khi ra khỏi phòng phải tắt điện.",
-     "ctx": "doisong",
-     "chunks": [
-      "部屋[へや]を",
-      "出[で]る時[とき]は",
-      "電気[でんき]を",
-      "消[け]さなければなりません"
-     ],
-     "wrong": [
-      "消[け]しなければなりません",
-      "消[け]すなければなりません",
-      "消[け]さないければなりません"
-     ]
-    },
-    {
-     "jp": "工場[こうじょう]に入[はい]る前[まえ]に手[て]を[[洗[あら]わなければなりません]]。",
-     "vi": "Trước khi vào xưởng phải rửa tay.",
-     "ctx": "xuong",
-     "chunks": [
-      "工場[こうじょう]に",
-      "入[はい]る前[まえ]に",
-      "手[て]を",
-      "洗[あら]わなければなりません"
-     ],
-     "wrong": [
-      "洗[あら]あなければなりません",
-      "洗[あら]いなければなりません",
-      "洗[あら]うなければなりません"
-     ]
-    },
-    {
-     "jp": "作業中[さぎょうちゅう]は帽子[ぼうし]を[[かぶらなければなりません]]。",
-     "vi": "Trong giờ làm phải đội mũ.",
-     "ctx": "xuong",
-     "chunks": [
-      "作業中[さぎょうちゅう]は",
-      "帽子[ぼうし]を",
-      "かぶらなければなりません"
-     ],
-     "wrong": [
-      "かぶりなければなりません",
-      "かぶるなければなりません",
-      "かぶってはいけません"
-     ]
-    },
-    {
-     "jp": "一時間[いちじかん]ごとに冷蔵庫[れいぞうこ]の温度[おんど]を[[確認[かくにん]しなければなりません]]。",
-     "vi": "Cứ mỗi tiếng phải kiểm tra nhiệt độ tủ mát.",
-     "ctx": "xuong",
-     "chunks": [
-      "一時間[いちじかん]ごとに",
-      "冷蔵庫[れいぞうこ]の",
-      "温度[おんど]を",
-      "確認[かくにん]しなければなりません"
-     ],
-     "wrong": [
-      "確認[かくにん]すなければなりません",
-      "確認[かくにん]さなければなりません",
-      "確認[かくにん]してはいけません"
-     ]
-    },
-    {
-     "jp": "在留期間[ざいりゅうきかん]が終[お]わる前[まえ]に、更新[こうしん]を[[申請[しんせい]しなければなりません]]。",
-     "vi": "Phải nộp đơn gia hạn trước khi thời hạn lưu trú kết thúc.",
-     "ctx": "thutuc",
-     "chunks": [
-      "在留期間[ざいりゅうきかん]が",
-      "終[お]わる前[まえ]に、",
-      "更新[こうしん]を",
-      "申請[しんせい]しなければなりません"
-     ],
-     "wrong": [
-      "申請[しんせい]すなければなりません",
-      "申請[しんせい]しないければなりません",
-      "申請[しんせい]してはいけません"
-     ]
-    },
-    {
-     "jp": "住民税[じゅうみんぜい]は期限[きげん]までに[[払[はら]わなければなりません]]。",
-     "vi": "Thuế cư trú phải nộp trước hạn.",
-     "ctx": "thutuc",
-     "chunks": [
-      "住民税[じゅうみんぜい]は",
-      "期限[きげん]までに",
-      "払[はら]わなければなりません"
-     ],
-     "wrong": [
-      "払[はら]いなければなりません",
-      "払[はら]あなければなりません",
-      "払[はら]うなければなりません"
-     ]
-    },
-    {
-     "jp": "A：もう帰[かえ]りますか。B：はい、今日[きょう]は早[はや]く[[帰[かえ]らなければなりません]]。",
-     "vi": "A: Anh về rồi à? B: Vâng, hôm nay tôi phải về sớm.",
-     "ctx": "hoithoai",
-     "wrong": [
-      "帰[かえ]りなければなりません",
-      "帰[かえ]なければなりません",
-      "帰[かえ]るなければなりません"
-     ]
-    }
-   ],
-   "errs": [
-    {
-     "chunks": [
-      "毎日[まいにち]",
-      "日本語[にほんご]を",
-      "勉強[べんきょう]するなければなりません"
-     ],
-     "vi": "Mỗi ngày phải học tiếng Nhật.",
-     "bad": 2,
-     "fix": "勉強[べんきょう]しなければなりません",
-     "why": "Ghép với thể ない bỏ い: する → しない → しなければ."
-    },
-    {
-     "chunks": [
-      "毎年[まいとし]",
-      "税金[ぜいきん]を",
-      "払[はら]いなければなりません"
-     ],
-     "vi": "Mỗi năm phải nộp thuế.",
-     "bad": 2,
-     "fix": "払[はら]わなければなりません",
-     "why": "払[はら]う đuôi う → わ: 払[はら]わない → 払[はら]わなければ."
-    },
-    {
-     "chunks": [
-      "明日[あした]までに",
-      "書類[しょるい]を",
-      "出[だ]さないければなりません"
-     ],
-     "vi": "Phải nộp giấy tờ trước ngày mai.",
-     "bad": 2,
-     "fix": "出[だ]さなければなりません",
-     "why": "Phải bỏ い của ない trước khi thêm ければ: 出[だ]さない → 出[だ]さな + ければ."
-    }
-   ],
-   "situ": [
-    {
-     "q": "Nhân viên 市役所[しやくしょ] nói: 「この書類[しょるい]は来週[らいしゅう]までに出[だ]さなければなりません」. Ý là gì?",
-     "opts": [
-      "Bạn bắt buộc phải nộp giấy này trước tuần sau.",
-      "Bạn không cần nộp giấy này.",
-      "Bạn không được nộp giấy này."
-     ],
-     "ans": 0,
-     "why": "〜なければなりません = phải làm (bắt buộc). Đừng nhầm với 〜なくてもいいです (không cần) và 〜てはいけません (không được)."
-    },
-    {
-     "q": "Bạn chào về sớm với đồng nghiệp thân, nói kiểu thân mật \"Tôi phải đi rồi\".",
-     "opts": [
-      "もう行[い]かなきゃ。",
-      "もう行[い]かなくてもいいです。",
-      "もう行[い]ってはいけません。"
-     ],
-     "ans": 0,
-     "why": "Với người thân, 〜なきゃ là dạng nói nhanh của 〜なければ (phải). 〜なくてもいいです là \"không cần\"; 〜てはいけません là cấm."
-    }
-   ],
-   "shift": [
-    {
-     "from": "早[はや]く出[だ]さなきゃ。",
-     "to": "早[はや]く出[だ]さなければなりません。",
-     "kind": "lichsu",
-     "note": "〜なきゃ là dạng nói nhanh của 〜なければ. Khi nói lịch sự thì nói đủ 〜なければなりません.",
-     "wrong": [
-      "早[はや]く出[だ]してはいけません。",
-      "早[はや]く出[だ]さなくてもいいです。"
-     ]
-    },
-    {
-     "from": "もう行[い]かなあかん。",
-     "to": "もう行[い]かなければなりません。",
-     "kind": "kansai",
-     "note": "Kansai: 〜なあかん = 〜なければならない (phải …).",
-     "wrong": [
-      "もう行[い]ってはいけません。",
-      "もう行[い]かなくてもいいです。"
-     ]
-    }
-   ]
-  }
- ]
+  ]
 }

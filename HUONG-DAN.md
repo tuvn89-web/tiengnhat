@@ -138,7 +138,7 @@ data/packs/*.json                         các gói từ vựng / ngữ pháp / 
 icons/                                    biểu tượng app
 ```
 
-## 8. Các phần học (bản v5)
+## 8. Các phần học (bản v6)
 
 Thanh dưới cùng (điện thoại) hoặc cột trái (máy tính): **Trang chủ · Luyện tập · Chữ Hán · Ngữ pháp · Kho từ**. Dữ liệu và Cài đặt ở góc trên.
 
@@ -160,3 +160,19 @@ Thanh dưới cùng (điện thoại) hoặc cột trái (máy tính): **Trang c
 Nếu cùng một gói vừa nhập tay trong app (Dữ liệu → Nhập gói) vừa có trên kho GitHub, app dùng bản có **số phiên bản cao hơn**; bằng nhau thì dùng bản nhập tay. Một từ có ở hai gói khác tên thì bản trên kho được dùng. Trang Dữ liệu liệt kê các gói đang bị bỏ qua và có nút **Xoá các gói nhập tay đã có trên kho**.
 
 Khi skill giao gói mới: luôn thay **cả file `data/manifest.json`** bằng file skill giao (file có mã kiểm tra nội dung từng gói, nhờ vậy máy nào cũng tải đúng bản mới). Không dán thêm dòng vào manifest cũ.
+
+## 10. Bản v6 (11/10/2026): gộp 29 gói N5 vào kho
+
+**Cách tải lên:** giải nén `capnhat-v6.zip`, kéo **toàn bộ nội dung** (thư mục `css`, `js`, `data` và file `sw.js`, `HUONG-DAN.md`) vào kho `tiengnhat` → **Commit changes**. Ghi đè hết, kể cả khi chưa tải bản v5 (gói v6 đã gồm mọi thay đổi của v5).
+
+Sau đó, nếu trong `data/packs` trên GitHub còn file **`jlpt-n5-dongtu-01.json`** thì xoá đi (bấm vào file → dấu ⋯ → **Delete file** → Commit). Không xoá cũng không sao: manifest mới không còn gói này nên app bỏ qua.
+
+**Trên máy đã nhập tay 29 gói từ trước:** mở app khi có mạng. Bản trên kho là phiên bản 2, cao hơn bản nhập tay (phiên bản 1), nên app tự dùng bản trên kho. Vào **Dữ liệu** bấm **Xoá 29 gói nhập tay đã có trên kho** cho gọn. Tiến độ học giữ nguyên (mã từ không đổi).
+
+**Kho sau khi gộp:** 36 gói, 877 mục (781 từ, 44 mẫu ngữ pháp, 24 thẻ chữ Hán, 28 câu thực chiến).
+- 88 động từ N5 đủ cụm hay đi kèm, 3–5 câu ví dụ có nhãn tình huống, cặp tự – tha, kính ngữ; động từ hay gặp có câu theo thể (bị động, sai khiến, khả năng).
+- 71 tính từ N5 có 3 ví dụ, trái nghĩa, từ cùng gốc, danh từ hay đi kèm để app đặt câu luyện tính từ.
+- Danh từ đếm được có cách đếm; câu chào có cách đáp; từ katakana có từ gốc.
+- Mọi chữ Hán trong phần giải thích, ghi chú, lỗi hay gặp đều đã có furigana.
+- Mẫu trùng: 〜てもいいですか, 〜てはいけません về gói `nguphap-n5-08`; 〜なければなりません gộp vào 〜なければならない ở gói `nguphap-n5-12` (giữ nguyên dữ liệu bài tập). Nếu đã học mẫu 〜なければなりません thì mẫu này về lại trạng thái chưa học.
+- Sửa lỗi app: tính từ な viết toàn chữ Hán (暇, 簡単, 大丈夫…) nay có furigana trong bảng các dạng và bài Tính từ trong câu.

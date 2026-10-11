@@ -1,0 +1,324 @@
+{
+  "schema": 1,
+  "pack": {
+    "id": "nguphap-n5-10",
+    "title": "Ngữ pháp N5 10 – Đã/chưa, so sánh, biến đổi",
+    "type": "grammar",
+    "level": "N5",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-11",
+    "verified_on": "",
+    "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Các ví dụ có số liệu thủ tục đúng tới ngày tra 2026-10-08."
+  },
+  "items": [
+    {
+      "id": "g:もう〜ました・まだ〜ていません",
+      "pattern": "もう〜ました・まだ〜ていません",
+      "level": "N5",
+      "meaning": "đã … rồi / vẫn chưa …",
+      "structure": [
+        "もう + V-ました (đã … rồi)",
+        "まだ + V-ていません (vẫn chưa …)",
+        "Hỏi: もう〜ましたか → はい、もう〜ました／いいえ、まだです"
+      ],
+      "explain": "もう + thể ました nói việc ĐÃ XONG: もう食[た]べました (ăn rồi). Câu hỏi: もう昼[ひる]ご飯[はん]を食[た]べましたか (bạn ăn trưa chưa?). Đây là câu hỏi thăm rất hay gặp giữa đồng nghiệp.\n\nTrả lời \"chưa\" KHÔNG dùng 〜ませんでした, mà nói いいえ、まだです hoặc まだ食[た]べていません. Lý do: việc đó vẫn còn có thể làm. 食[た]べませんでした nghĩa là \"(lúc đó) đã không ăn\" — một chuyện đã khép lại. Đây là chỗ người Việt sai nhiều nhất.\n\nもう và まだ còn nghĩa khác. もう + phủ định = \"không … nữa\": もう食[た]べません (không ăn nữa). もう一度[いちど] = \"thêm một lần\". まだ + khẳng định = \"vẫn còn\": まだ仕事[しごと]があります (vẫn còn việc). Mẹo nhớ: もう = \"rồi\", まだ = \"chưa / vẫn\".",
+      "casual": "「もう食[た]べた？」「まだ」「まだ食[た]べてない」. Kansai: 「もう食[た]べたん？」「まだや」「まだ食[た]べてへん」.",
+      "compare": [
+        {
+          "pattern": "〜ませんでした",
+          "diff": "まだ食[た]べていません = chưa ăn (sẽ còn ăn); 食[た]べませんでした = đã không ăn (lúc đó, chuyện xong rồi)."
+        }
+      ],
+      "mistakes": [
+        "Trả lời もう〜ましたか bằng いいえ、〜ませんでした ✗ → いいえ、まだです.",
+        "Bỏ ている: まだ食[た]べません (nghĩa thành 'vẫn chưa định ăn') → まだ食[た]べていません."
+      ],
+      "ex": [
+        {
+          "jp": "[[もう]]昼[ひる]ご飯[はん]を食[た]べました。",
+          "vi": "Tôi ăn trưa rồi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "宿題[しゅくだい]は[[まだしていません]]。",
+          "vi": "Bài tập thì tôi vẫn chưa làm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "検品[けんぴん]は[[もう]]終[お]わりました。",
+          "vi": "Kiểm hàng xong rồi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "子供[こども]は[[もう]]寝[ね]ました。",
+          "vi": "Con tôi ngủ rồi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "三番[さんばん]の箱[はこ]は[[まだ洗[あら]っていません]]。",
+          "vi": "Thùng số ba vẫn chưa rửa.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "在留[ざいりゅう]カードの更新[こうしん]は[[もう]]申請[しんせい]しましたか。",
+          "vi": "Bạn đã nộp đơn gia hạn thẻ cư trú chưa?",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "雨[あめ]は[[まだ止[や]んでいません]]。",
+          "vi": "Mưa vẫn chưa tạnh.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "冷凍庫[れいとうこ]の温度[おんど]は[[もう]]記録[きろく]しましたか。",
+          "vi": "Đã ghi nhiệt độ kho đông vào sổ chưa?",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "課税証明書[かぜいしょうめいしょ]は[[まだもらっていません]]。",
+          "vi": "Tôi vẫn chưa lấy giấy chứng nhận đánh thuế.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：もう昼[ひる]ご飯[はん]を食[た]べましたか。B：いいえ、[[まだ]]です。",
+          "vi": "A: Bạn ăn trưa chưa? B: Chưa, tôi chưa ăn.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:〜より〜のほうが",
+      "pattern": "〜より〜のほうが",
+      "level": "N5",
+      "meaning": "B … hơn A (so sánh hai thứ)",
+      "structure": [
+        "A より B のほうが + tính từ: 電車[でんしゃ]よりバスのほうが安[やす]いです",
+        "A は B より + tính từ: 東京[とうきょう]は神戸[こうべ]より大[おお]きいです",
+        "Hỏi: A と B と、どちらが〜ですか → B のほうが〜です"
+      ],
+      "explain": "より nghĩa là \"so với\", đứng ngay sau cái BỊ đem ra so; のほうが đứng sau cái HƠN. 電車[でんしゃ]よりバスのほうが安[やす]いです = xe buýt rẻ hơn tàu điện. Tính từ giữ nguyên, không cần thêm chữ \"hơn\" như tiếng Việt.\n\nHỏi so sánh hai thứ: A と B と、どちらが〜ですか (A và B, cái nào … hơn?). Trả lời: B のほうが〜です. Nếu bằng nhau: どちらも〜です (cả hai đều …). Chỉ có hai thứ thì dùng どちら, không dùng どれ.\n\nKiểu ngắn hơn: A は B より〜です = A … hơn B: 東京[とうきょう]は神戸[こうべ]より大[おお]きいです. Mẹo nhớ: より = \"so với\", ほう = \"phía\" — \"phía B thì … hơn\".",
+      "casual": "「〜のほうが〜」「どっちが安[やす]い？」. Kansai: 「こっちのほうがええわ」「どっちがええ？」.",
+      "compare": [
+        {
+          "pattern": "〜がいちばん",
+          "diff": "より〜ほうが so sánh HAI thứ; いちばん so sánh ba thứ trở lên (nhất)."
+        }
+      ],
+      "mistakes": [
+        "Hiểu ngược より: バスより安[やす]い = 'rẻ hơn xe buýt' (một thứ khác rẻ hơn), không phải 'xe buýt rẻ hơn'.",
+        "Dùng どれ khi so hai thứ: どれが安[やす]いですか ✗ → どちらが安[やす]いですか."
+      ],
+      "ex": [
+        {
+          "jp": "電車[でんしゃ]よりバス[[のほうが]]安[やす]いです。",
+          "vi": "Xe buýt rẻ hơn tàu điện.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "夏[なつ]より冬[ふゆ][[のほうが]]好[す]きです。",
+          "vi": "Tôi thích mùa đông hơn mùa hè.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "古[ふる]い包丁[ほうちょう]より新[あたら]しい包丁[ほうちょう][[のほうが]]使[つか]いやすいです。",
+          "vi": "Dao mới dễ dùng hơn dao cũ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "東京[とうきょう]は神戸[こうべ][[より]]大[おお]きいです。",
+          "vi": "Tokyo lớn hơn Kobe.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "冷凍[れいとう]マグロより生[なま]マグロ[[のほうが]]高[たか]いです。",
+          "vi": "Cá ngừ tươi đắt hơn cá ngừ đông lạnh.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "窓口[まどぐち]より、オンライン申請[しんせい][[のほうが]]手数料[てすうりょう]が安[やす]いです。",
+          "vi": "Nộp online lệ phí rẻ hơn nộp ở quầy.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "日本語[にほんご]は英語[えいご][[より]]難[むずか]しいです。",
+          "vi": "Tiếng Nhật khó hơn tiếng Anh.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "昼[ひる]のシフトより夜[よる]のシフト[[のほうが]]時給[じきゅう]が高[たか]いです。",
+          "vi": "Ca đêm lương giờ cao hơn ca ngày.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "住民票[じゅうみんひょう]は、市役所[しやくしょ]よりコンビニ[[のほうが]]早[はや]くもらえます。",
+          "vi": "Phiếu cư trú lấy ở cửa hàng tiện lợi nhanh hơn ở ủy ban thành phố.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：ラーメンとうどんと、どちらが好[す]きですか。B：うどん[[のほうが]]好[す]きです。",
+          "vi": "A: Mì ramen và udon, bạn thích món nào hơn? B: Tôi thích udon hơn.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": [],
+      "note": "Ví dụ 6: theo thông báo của Cục Quản lý Xuất nhập cảnh, nộp online được giảm lệ phí (tra ngày 2026-10-08)."
+    },
+    {
+      "id": "g:〜がいちばん",
+      "pattern": "〜がいちばん",
+      "level": "N5",
+      "meaning": "… nhất (so sánh trong ba thứ trở lên)",
+      "structure": [
+        "(N の中[なか]で) X が いちばん + tính từ",
+        "果物[くだもの]の中[なか]でりんごがいちばん好[す]きです",
+        "Hỏi: 〜の中[なか]で 何[なん]／どこ／だれ／いつ が いちばん〜ですか"
+      ],
+      "explain": "いちばん (chữ Hán 一番[いちばん], nghĩa gốc là \"số một\") đặt trước tính từ hoặc động từ chỉ mức độ, nghĩa là \"nhất\": いちばん好[す]き (thích nhất), いちばん高[たか]い (đắt nhất). Phạm vi so sánh nói bằng N の中[なか]で (trong số …) hoặc N で (日本[にほん]で, 家族[かぞく]で).\n\nCâu hỏi dùng từ để hỏi hợp với thứ được so: 何[なん] (đồ vật), どこ (nơi chốn), だれ (người), いつ (thời gian) + が いちばん: 季節[きせつ]の中[なか]でいつがいちばん好[す]きですか (trong các mùa, bạn thích mùa nào nhất?). Ba thứ trở lên thì không dùng どちら.\n\n一番[いちばん] còn nghĩa \"số 1\": 一番[いちばん]のライン (dây chuyền số 1), いちばん前[まえ] (phía trước nhất). Mẹo nhớ: いちばん = \"đứng số một\" = nhất.",
+      "casual": "「これがいちばん好[す]き」. Kansai nói いっちゃん: 「これがいっちゃんうまい」 (cái này ngon nhất).",
+      "compare": [
+        {
+          "pattern": "〜より〜のほうが",
+          "diff": "Hai thứ dùng ほうが; ba thứ trở lên dùng いちばん."
+        }
+      ],
+      "mistakes": [
+        "Dùng どちら với 3 thứ trở lên: どちらがいちばん ✗ → 何[なに]が／どれがいちばん.",
+        "Bỏ が khi viết: りんごいちばん好[す]き (khẩu ngữ) → りんごがいちばん好[す]きです."
+      ],
+      "ex": [
+        {
+          "jp": "果物[くだもの]の中[なか]でりんごが[[いちばん]]好[す]きです。",
+          "vi": "Trong các loại quả, tôi thích táo nhất.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "家族[かぞく]で父[ちち]が[[いちばん]]背[せ]が高[たか]いです。",
+          "vi": "Trong nhà bố tôi cao nhất.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この工場[こうじょう]で田中[たなか]さんが[[いちばん]]早[はや]く来[き]ます。",
+          "vi": "Ở nhà máy này anh Tanaka đến sớm nhất.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "一年[いちねん]で八月[はちがつ]が[[いちばん]]暑[あつ]いです。",
+          "vi": "Trong năm tháng Tám nóng nhất.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "工場[こうじょう]の中[なか]で冷凍庫[れいとうこ]が[[いちばん]]寒[さむ]いです。",
+          "vi": "Trong nhà máy kho đông lạnh là chỗ lạnh nhất.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "市役所[しやくしょ]は月曜日[げつようび]の朝[あさ]が[[いちばん]]込[こ]みます。",
+          "vi": "Ủy ban thành phố đông nhất vào sáng thứ Hai.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "日本[にほん]の料理[りょうり]で何[なに]が[[いちばん]]好[す]きですか。",
+          "vi": "Trong các món Nhật, bạn thích món gì nhất?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "仕事[しごと]の中[なか]で三枚[さんまい]おろしが[[いちばん]]難[むずか]しいです。",
+          "vi": "Trong các việc, lọc cá ba phần là khó nhất.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "手続[てつづ]きの中[なか]で、どれが[[いちばん]]時間[じかん]がかかりますか。",
+          "vi": "Trong các thủ tục, cái nào tốn thời gian nhất?",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：日本[にほん]でどこが[[いちばん]]好[す]きですか。B：京都[きょうと]がいちばん好[す]きです。",
+          "vi": "A: Ở Nhật bạn thích nơi nào nhất? B: Tôi thích Kyoto nhất.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:〜くなる・〜になる",
+      "pattern": "〜くなる・〜になる",
+      "level": "N5",
+      "meaning": "trở nên … (sự thay đổi trạng thái)",
+      "structure": [
+        "Tính từ い: bỏ い + くなります: 寒[さむ]い → 寒[さむ]くなります",
+        "Tính từ な / danh từ + になります: 元気[げんき]になります, 班長[はんちょう]になります",
+        "Ngoại lệ: いい → よくなります"
+      ],
+      "explain": "なる nghĩa là \"trở thành, trở nên\". Với tính từ い, đổi い thành く rồi thêm なる: 寒[さむ]い → 寒[さむ]くなる, 高[たか]い → 高[たか]くなる. Với tính từ な và danh từ, thêm に rồi なる: 元気[げんき]になる, 静[しず]かになる, 班長[はんちょう]になる, 十歳[じゅっさい]になる.\n\nThể quá khứ なりました nói một thay đổi ĐÃ xảy ra: 寒[さむ]くなりましたね (trời lạnh lên rồi nhỉ) — câu chào hỏi về thời tiết rất hay dùng. Mẫu này dùng cho thời tiết, sức khỏe (風邪[かぜ]がよくなりました), giá cả, tuổi, chức vụ, kỹ năng.\n\nNgoại lệ: いい → よくなる (không nói いくなる). Nếu là MÌNH làm cho thay đổi thì dùng する (N4): 火[ひ]を弱[よわ]くする (vặn nhỏ lửa), 部屋[へや]をきれいにする. Mẹo nhớ: なる = \"trở nên\", tự nó thay đổi.",
+      "casual": "「寒[さむ]くなった」「元気[げんき]になった」. Kansai hay bỏ く: 「寒[さむ]なったなあ」, và 「ようなった」 (= よくなった).",
+      "compare": [
+        {
+          "pattern": "〜くする・〜にする (N4)",
+          "diff": "なる: tự thay đổi (trở nên); する: mình làm cho thay đổi (火[ひ]を弱[よわ]くする = vặn nhỏ lửa)."
+        }
+      ],
+      "mistakes": [
+        "Tính từ い + になる: 寒[さむ]いになります ✗ → 寒[さむ]くなります.",
+        "いい → いくなる ✗ → よくなる."
+      ],
+      "ex": [
+        {
+          "jp": "寒[さむ][[くなりました]]ね。",
+          "vi": "Trời lạnh lên rồi nhỉ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "風邪[かぜ]は[[よくなりましたか]]。",
+          "vi": "Bệnh cảm của bạn đỡ chưa?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "冷凍庫[れいとうこ]は夜[よる]、もっと寒[さむ][[くなります]]。",
+          "vi": "Kho đông lạnh về đêm còn lạnh hơn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "子供[こども]は十歳[じゅっさい][[になりました]]。",
+          "vi": "Con tôi đã lên mười tuổi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "来月[らいげつ]から班長[はんちょう][[になります]]。",
+          "vi": "Từ tháng sau tôi làm tổ trưởng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ビザ更新[こうしん]の手数料[てすうりょう]が高[たか][[くなりました]]。",
+          "vi": "Lệ phí gia hạn visa đã tăng lên.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "日本語[にほんご]が上手[じょうず][[になりたいです]]。",
+          "vi": "Tôi muốn giỏi tiếng Nhật lên.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "仕事[しごと]に慣[な]れて、作業[さぎょう]が早[はや][[くなりました]]。",
+          "vi": "Quen việc rồi nên tôi làm nhanh hơn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "2027年[ねん]四月[しがつ]から、技能実習[ぎのうじっしゅう]は育成就労[いくせいしゅうろう][[になります]]。",
+          "vi": "Từ tháng 4 năm 2027, chế độ thực tập kỹ năng sẽ chuyển thành chế độ đào tạo – lao động.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：最近[さいきん]、寒[さむ]くなりましたね。B：ええ、もう冬[ふゆ][[になりました]]ね。",
+          "vi": "A: Dạo này lạnh lên rồi nhỉ. B: Vâng, đã sang đông rồi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": [],
+      "note": "Ví dụ 6: lệ phí gia hạn thay đổi từ 1/10/2026; ví dụ 9: 育成[いくせい]就労[しゅうろう] thay 技能実習[ぎのうじっしゅう] từ 1/4/2027 (tra ngày 2026-10-08)."
+    }
+  ]
+}

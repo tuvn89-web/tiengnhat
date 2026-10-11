@@ -1,0 +1,951 @@
+{
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n5-09",
+    "title": "JLPT N5 09 – Thời tiết, thiên nhiên, học & làm",
+    "type": "vocab",
+    "level": "N5",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-11",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức). 晴[は]れ, 曇[くも]り, 試験[しけん] ghi N4."
+  },
+  "items": [
+    {
+      "id": "v:天気:てんき",
+      "kana": "てんき",
+      "kanji": "天気",
+      "hv": "THIÊN KHÍ",
+      "vi": "thời tiết; trời đẹp",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thời tiết",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "明日[あした]の天気[てんき]はどうですか。",
+          "vi": "Thời tiết ngày mai thế nào?"
+        }
+      ]
+    },
+    {
+      "id": "v:雨:あめ",
+      "kana": "あめ",
+      "kanji": "雨",
+      "hv": "VŨ",
+      "vi": "mưa",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thời tiết",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "雨[あめ]が降[ふ]っています。",
+          "vi": "Trời đang mưa."
+        }
+      ],
+      "confuse": [
+        "v:雪:ゆき"
+      ],
+      "note": "Mưa rơi = 雨[あめ]が降[ふ]る."
+    },
+    {
+      "id": "v:雪:ゆき",
+      "kana": "ゆき",
+      "kanji": "雪",
+      "hv": "TUYẾT",
+      "vi": "tuyết",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thời tiết",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "雪[ゆき]で電車[でんしゃ]が止[と]まりました。",
+          "vi": "Tàu dừng vì tuyết."
+        }
+      ],
+      "confuse": [
+        "v:雨:あめ"
+      ]
+    },
+    {
+      "id": "v:風:かぜ",
+      "kana": "かぜ",
+      "kanji": "風",
+      "hv": "PHONG",
+      "vi": "gió",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thời tiết",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]は風[かぜ]が強[つよ]いです。",
+          "vi": "Hôm nay gió mạnh."
+        }
+      ],
+      "confuse": [
+        "v:風邪:かぜ"
+      ]
+    },
+    {
+      "id": "v:空:そら",
+      "kana": "そら",
+      "kanji": "空",
+      "hv": "KHÔNG",
+      "vi": "bầu trời",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thời tiết",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "空[そら]がきれいです。",
+          "vi": "Bầu trời thật đẹp."
+        }
+      ],
+      "note": "Chữ 空[そら] còn đọc から (trống rỗng): 空[そら]の箱[はこ] = hộp rỗng."
+    },
+    {
+      "id": "v:晴れ:はれ",
+      "kana": "はれ",
+      "kanji": "晴れ",
+      "kf": "晴[は]れ",
+      "hv": "TÌNH",
+      "vi": "trời nắng, trời quang",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thời tiết",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "明日[あした]は晴[は]れです。",
+          "vi": "Ngày mai trời nắng."
+        }
+      ],
+      "confuse": [
+        "v:曇り:くもり"
+      ]
+    },
+    {
+      "id": "v:曇り:くもり",
+      "kana": "くもり",
+      "kanji": "曇り",
+      "kf": "曇[くも]り",
+      "hv": "ĐÀM",
+      "vi": "trời nhiều mây, âm u",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thời tiết",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]は曇[くも]りです。",
+          "vi": "Hôm nay trời âm u."
+        }
+      ],
+      "confuse": [
+        "v:晴れ:はれ"
+      ]
+    },
+    {
+      "id": "v:山:やま",
+      "kana": "やま",
+      "kanji": "山",
+      "hv": "SƠN",
+      "vi": "núi",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "週末[しゅうまつ]、山[やま]に登[のぼ]りました。",
+          "vi": "Cuối tuần tôi đã leo núi."
+        }
+      ],
+      "confuse": [
+        "v:川:かわ"
+      ],
+      "ctr": "つ"
+    },
+    {
+      "id": "v:川:かわ",
+      "kana": "かわ",
+      "kanji": "川",
+      "hv": "XUYÊN",
+      "vi": "sông",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "川[かわ]の水[みず]はきれいです。",
+          "vi": "Nước sông trong."
+        }
+      ],
+      "confuse": [
+        "v:皮:かわ",
+        "v:海:うみ"
+      ],
+      "note": "Cùng âm かわ với 皮[かわ] (da, vỏ) — ở xưởng cá, かわ thường là \"da cá\"."
+    },
+    {
+      "id": "v:海:うみ",
+      "kana": "うみ",
+      "kanji": "海",
+      "hv": "HẢI",
+      "vi": "biển",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "工場[こうじょう]は海[うみ]の近[ちか]くにあります。",
+          "vi": "Nhà máy ở gần biển."
+        }
+      ],
+      "confuse": [
+        "v:川:かわ"
+      ]
+    },
+    {
+      "id": "v:花:はな",
+      "kana": "はな",
+      "kanji": "花",
+      "hv": "HOA",
+      "vi": "hoa",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "公園[こうえん]に花[はな]がたくさんあります。",
+          "vi": "Công viên có nhiều hoa."
+        }
+      ],
+      "confuse": [
+        "v:鼻:はな"
+      ],
+      "ctr": "本"
+    },
+    {
+      "id": "v:木:き",
+      "kana": "き",
+      "kanji": "木",
+      "hv": "MỘC",
+      "vi": "cây",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "大[おお]きい木[き]の下[した]で休[やす]みます。",
+          "vi": "Tôi nghỉ dưới gốc cây to."
+        }
+      ],
+      "ctr": "本"
+    },
+    {
+      "id": "v:池:いけ",
+      "kana": "いけ",
+      "kanji": "池",
+      "hv": "TRÌ",
+      "vi": "ao, hồ nhỏ",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "池[いけ]に魚[さかな]がいます。",
+          "vi": "Trong ao có cá."
+        }
+      ]
+    },
+    {
+      "id": "v:春:はる",
+      "kana": "はる",
+      "kanji": "春",
+      "hv": "XUÂN",
+      "vi": "mùa xuân",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "春[はる]は桜[さくら]がきれいです。",
+          "vi": "Mùa xuân hoa anh đào đẹp."
+        }
+      ],
+      "confuse": [
+        "v:秋:あき"
+      ]
+    },
+    {
+      "id": "v:夏:なつ",
+      "kana": "なつ",
+      "kanji": "夏",
+      "hv": "HẠ",
+      "vi": "mùa hè",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "夏[なつ]は暑[あつ]いです。",
+          "vi": "Mùa hè nóng."
+        }
+      ],
+      "confuse": [
+        "v:冬:ふゆ"
+      ]
+    },
+    {
+      "id": "v:秋:あき",
+      "kana": "あき",
+      "kanji": "秋",
+      "hv": "THU",
+      "vi": "mùa thu",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "秋[あき]は涼[すず]しいです。",
+          "vi": "Mùa thu mát mẻ."
+        }
+      ],
+      "confuse": [
+        "v:春:はる"
+      ]
+    },
+    {
+      "id": "v:冬:ふゆ",
+      "kana": "ふゆ",
+      "kanji": "冬",
+      "hv": "ĐÔNG",
+      "vi": "mùa đông",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "冬[ふゆ]の工場[こうじょう]は寒[さむ]いです。",
+          "vi": "Nhà máy mùa đông lạnh."
+        }
+      ],
+      "confuse": [
+        "v:夏:なつ"
+      ]
+    },
+    {
+      "id": "v:犬:いぬ",
+      "kana": "いぬ",
+      "kanji": "犬",
+      "hv": "KHUYỂN",
+      "vi": "con chó",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Động vật",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "犬[いぬ]が好[す]きです。",
+          "vi": "Tôi thích chó."
+        }
+      ],
+      "confuse": [
+        "v:猫:ねこ"
+      ],
+      "ctr": "匹"
+    },
+    {
+      "id": "v:猫:ねこ",
+      "kana": "ねこ",
+      "kanji": "猫",
+      "hv": "MIÊU",
+      "vi": "con mèo",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Động vật",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "猫[ねこ]が二匹[にひき]います。",
+          "vi": "Có hai con mèo."
+        }
+      ],
+      "confuse": [
+        "v:犬:いぬ"
+      ],
+      "ctr": "匹"
+    },
+    {
+      "id": "v:鳥:とり",
+      "kana": "とり",
+      "kanji": "鳥",
+      "hv": "ĐIỂU",
+      "vi": "con chim; gà",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Động vật",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "鳥[とり]が鳴[な]いています。",
+          "vi": "Chim đang hót."
+        }
+      ],
+      "note": "Món ăn: 鳥[とり]/鶏[にわとり] thường là gà.",
+      "ctr": "羽[わ]"
+    },
+    {
+      "id": "v:動物:どうぶつ",
+      "kana": "どうぶつ",
+      "kanji": "動物",
+      "hv": "ĐỘNG VẬT",
+      "vi": "động vật",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Động vật",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "動物[どうぶつ]が好[す]きですか。",
+          "vi": "Bạn có thích động vật không?"
+        }
+      ]
+    },
+    {
+      "id": "v:仕事:しごと",
+      "kana": "しごと",
+      "kanji": "仕事",
+      "hv": "SĨ SỰ",
+      "vi": "công việc",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Công việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]は大変[たいへん]ですか。",
+          "vi": "Công việc có vất vả không?"
+        }
+      ],
+      "confuse": [
+        "v:勉強:べんきょう"
+      ]
+    },
+    {
+      "id": "v:勉強:べんきょう",
+      "kana": "べんきょう",
+      "kanji": "勉強",
+      "hv": "MIỄN CƯỜNG",
+      "vi": "học, việc học",
+      "pos": "n-suru",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎晩[まいばん]、日本語[にほんご]を勉強[べんきょう]します。",
+          "vi": "Tối nào tôi cũng học tiếng Nhật."
+        }
+      ],
+      "confuse": [
+        "v:仕事:しごと"
+      ],
+      "note": "Trong tiếng Trung 勉強[べんきょう] là \"miễn cưỡng\"; tiếng Nhật là \"học\"."
+    },
+    {
+      "id": "v:日本語:にほんご",
+      "kana": "にほんご",
+      "kanji": "日本語",
+      "hv": "NHẬT BẢN NGỮ",
+      "vi": "tiếng Nhật",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本語[にほんご]が少[すこ]しわかります。",
+          "vi": "Tôi hiểu một chút tiếng Nhật."
+        }
+      ],
+      "confuse": [
+        "v:英語:えいご"
+      ]
+    },
+    {
+      "id": "v:英語:えいご",
+      "kana": "えいご",
+      "kanji": "英語",
+      "hv": "ANH NGỮ",
+      "vi": "tiếng Anh",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "英語[えいご]はわかりません。",
+          "vi": "Tôi không hiểu tiếng Anh."
+        }
+      ],
+      "confuse": [
+        "v:日本語:にほんご"
+      ]
+    },
+    {
+      "id": "v:言葉:ことば",
+      "kana": "ことば",
+      "kanji": "言葉",
+      "hv": "NGÔN DIỆP",
+      "vi": "từ, lời nói, ngôn ngữ",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この言葉[ことば]の意味[いみ]は何[なん]ですか。",
+          "vi": "Từ này nghĩa là gì?"
+        }
+      ],
+      "confuse": [
+        "v:意味:いみ"
+      ]
+    },
+    {
+      "id": "v:漢字:かんじ",
+      "kana": "かんじ",
+      "kanji": "漢字",
+      "hv": "HÁN TỰ",
+      "vi": "chữ Hán",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "漢字[かんじ]は難[むずか]しいです。",
+          "vi": "Chữ Hán khó."
+        }
+      ],
+      "confuse": [
+        "v:ひらがな:ひらがな",
+        "v:カタカナ:カタカナ"
+      ]
+    },
+    {
+      "id": "v:ひらがな:ひらがな",
+      "kana": "ひらがな",
+      "kanji": "",
+      "hv": "",
+      "vi": "chữ hiragana",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "名前[なまえ]をひらがなで書[か]いてください。",
+          "vi": "Hãy viết tên bằng hiragana."
+        }
+      ],
+      "confuse": [
+        "v:カタカナ:カタカナ",
+        "v:漢字:かんじ"
+      ]
+    },
+    {
+      "id": "v:カタカナ:カタカナ",
+      "kana": "カタカナ",
+      "kanji": "",
+      "hv": "",
+      "vi": "chữ katakana",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "外国[がいこく]の言葉[ことば]はカタカナで書[か]きます。",
+          "vi": "Từ nước ngoài thì viết bằng katakana."
+        }
+      ],
+      "confuse": [
+        "v:ひらがな:ひらがな"
+      ]
+    },
+    {
+      "id": "v:質問:しつもん",
+      "kana": "しつもん",
+      "kanji": "質問",
+      "hv": "CHẤT VẤN",
+      "vi": "câu hỏi",
+      "pos": "n-suru",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "質問[しつもん]がありますか。",
+          "vi": "Có câu hỏi nào không?"
+        }
+      ],
+      "confuse": [
+        "v:問題:もんだい"
+      ],
+      "note": "Tiếng Nhật 質問[しつもん] chỉ là \"câu hỏi\", không mang nghĩa chất vấn gay gắt."
+    },
+    {
+      "id": "v:問題:もんだい",
+      "kana": "もんだい",
+      "kanji": "問題",
+      "hv": "VẤN ĐỀ",
+      "vi": "vấn đề; câu hỏi (bài thi)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "問題[もんだい]はありません。",
+          "vi": "Không có vấn đề gì."
+        }
+      ],
+      "confuse": [
+        "v:質問:しつもん"
+      ],
+      "ctr": "問[もん]"
+    },
+    {
+      "id": "v:宿題:しゅくだい",
+      "kana": "しゅくだい",
+      "kanji": "宿題",
+      "hv": "TÚC ĐỀ",
+      "vi": "bài tập về nhà",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "子供[こども]は宿題[しゅくだい]をしています。",
+          "vi": "Con tôi đang làm bài tập."
+        }
+      ]
+    },
+    {
+      "id": "v:試験:しけん",
+      "kana": "しけん",
+      "kanji": "試験",
+      "hv": "THÍ NGHIỆM",
+      "vi": "kỳ thi, bài kiểm tra",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "十二月[じゅうにがつ]に日本語[にほんご]の試験[しけん]があります。",
+          "vi": "Tháng 12 có kỳ thi tiếng Nhật."
+        }
+      ],
+      "syn": [
+        "v:テスト:テスト"
+      ],
+      "note": "Tiếng Nhật 試験[しけん] là \"kỳ thi\"; \"thí nghiệm\" là 実験[じっけん]."
+    },
+    {
+      "id": "v:テスト:テスト",
+      "kana": "テスト",
+      "kanji": "",
+      "hv": "",
+      "vi": "bài kiểm tra",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "明日[あした]、漢字[かんじ]のテストがあります。",
+          "vi": "Ngày mai có bài kiểm tra chữ Hán."
+        }
+      ],
+      "syn": [
+        "v:試験:しけん"
+      ],
+      "goc": "test (tiếng Anh)"
+    },
+    {
+      "id": "v:意味:いみ",
+      "kana": "いみ",
+      "kanji": "意味",
+      "hv": "Ý VỊ",
+      "vi": "ý nghĩa",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "意味[いみ]がわかりません。",
+          "vi": "Tôi không hiểu ý nghĩa."
+        }
+      ],
+      "confuse": [
+        "v:言葉:ことば"
+      ]
+    },
+    {
+      "id": "v:話:はなし",
+      "kana": "はなし",
+      "kanji": "話",
+      "hv": "THOẠI",
+      "vi": "câu chuyện; bài nói",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "朝礼[ちょうれい]の話[はなし]がわかりませんでした。",
+          "vi": "Tôi đã không hiểu bài nói trong buổi họp đầu ca."
+        }
+      ]
+    },
+    {
+      "id": "v:音楽:おんがく",
+      "kana": "おんがく",
+      "kanji": "音楽",
+      "hv": "ÂM NHẠC",
+      "vi": "âm nhạc",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sở thích",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "音楽[おんがく]を聞[き]きます。",
+          "vi": "Tôi nghe nhạc."
+        }
+      ],
+      "confuse": [
+        "v:歌:うた"
+      ]
+    },
+    {
+      "id": "v:映画:えいが",
+      "kana": "えいが",
+      "kanji": "映画",
+      "hv": "ÁNH HỌA",
+      "vi": "phim (điện ảnh)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sở thích",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "映画[えいが]を見[み]に行[い]きませんか。",
+          "vi": "Đi xem phim không?"
+        }
+      ],
+      "ctr": "本"
+    },
+    {
+      "id": "v:歌:うた",
+      "kana": "うた",
+      "kanji": "歌",
+      "hv": "CA",
+      "vi": "bài hát",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sở thích",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]の歌[うた]を歌[うた]います。",
+          "vi": "Tôi hát bài hát Nhật."
+        }
+      ],
+      "confuse": [
+        "v:音楽:おんがく"
+      ],
+      "ctr": "曲[きょく]"
+    },
+    {
+      "id": "v:スポーツ:スポーツ",
+      "kana": "スポーツ",
+      "kanji": "",
+      "hv": "",
+      "vi": "thể thao",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sở thích",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "どんなスポーツが好[す]きですか。",
+          "vi": "Bạn thích môn thể thao nào?"
+        }
+      ],
+      "goc": "sports (tiếng Anh)"
+    },
+    {
+      "id": "v:旅行:りょこう",
+      "kana": "りょこう",
+      "kanji": "旅行",
+      "hv": "LỮ HÀNH",
+      "vi": "du lịch",
+      "pos": "n-suru",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sở thích",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来月[らいげつ]、京都[きょうと]へ旅行[りょこう]します。",
+          "vi": "Tháng sau tôi đi du lịch Kyoto."
+        }
+      ]
+    }
+  ]
+}

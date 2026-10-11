@@ -1,0 +1,330 @@
+{
+  "schema": 1,
+  "pack": {
+    "id": "nguphap-n5-06",
+    "title": "Ngữ pháp N5 06 – Có, thích, hiểu, muốn có (trợ từ が)",
+    "type": "grammar",
+    "level": "N5",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-11",
+    "verified_on": "",
+    "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức)."
+  },
+  "items": [
+    {
+      "id": "g:〜があります・〜がいます",
+      "pattern": "〜があります・〜がいます",
+      "level": "N5",
+      "meaning": "có, ở — あります cho đồ vật, sự việc; います cho người, động vật",
+      "structure": [
+        "Nơi に N が あります／います (ở … có …)",
+        "N は Nơi に あります／います (… ở …)",
+        "Phủ định: ありません／いません",
+        "Có sự kiện: 朝礼[ちょうれい]があります, 試験[しけん]があります"
+      ],
+      "explain": "ある dùng cho đồ vật, cây cối và SỰ KIỆN (họp, kỳ thi, tiệc, ca làm). いる dùng cho người và động vật — những thứ sống, tự cử động. Điều thú vị ở xưởng cá: tôm còn sống trong bể là エビがいます, nhưng tôm đã chết nằm trên khay là エビがあります.\n\nCó hai kiểu câu. Giới thiệu cái mới: 机[つくえ]の上[うえ]に本[ほん]があります (trên bàn có quyển sách). Nói vị trí của cái đã biết, trả lời câu \"ở đâu\": 本[ほん]は机[つくえ]の上[うえ]にあります (quyển sách ở trên bàn). Nơi chốn đi với に, không đi với で.\n\nある còn mang nghĩa sở hữu: 車[くるま]があります (tôi có xe), 時間[じかん]がありません (không có thời gian). Có người thân thì dùng いる: 子供[こども]が二人[ふたり]います. Mẹo nhớ: thứ gì \"sống và tự đi lại được\" thì dùng いる.",
+      "casual": "Thân mật: ある／ない, いる／いない. Kansai: あらへん (không có), おる thay いる: 「田中[たなか]さんおる？」 = anh Tanaka có đó không? — ở Hyogo nghe rất thường xuyên.",
+      "compare": [
+        {
+          "pattern": "N は Nơi に あります",
+          "diff": "Nơi に N があります: giới thiệu cái mới có ở đó. N は Nơi にあります: cho biết vị trí của cái đã biết, trả lời câu 'ở đâu'."
+        }
+      ],
+      "mistakes": [
+        "Dùng ある cho người: 事務所[じむしょ]に田中[たなか]さんがあります ✗ → 田中[たなか]さんがいます.",
+        "Dùng で cho nơi tồn tại: 部屋[へや]でテレビがあります ✗ → 部屋[へや]にテレビがあります."
+      ],
+      "ex": [
+        {
+          "jp": "机[つくえ]の上[うえ]に本[ほん]が[[あります]]。",
+          "vi": "Trên bàn có quyển sách.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "部屋[へや]に猫[ねこ]が[[います]]。",
+          "vi": "Trong phòng có con mèo.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "休憩室[きゅうけいしつ]に冷蔵庫[れいぞうこ]が[[あります]]。",
+          "vi": "Trong phòng nghỉ có tủ lạnh.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "今日[きょう]は時間[じかん]が[[ありません]]。",
+          "vi": "Hôm nay tôi không có thời gian.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今日[きょう]は検品[けんぴん]の人[ひと]が[[いません]]。",
+          "vi": "Hôm nay không có người kiểm hàng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "市役所[しやくしょ]の一階[いっかい]に税金[ぜいきん]の窓口[まどぐち]が[[あります]]。",
+          "vi": "Ở tầng một ủy ban thành phố có quầy thuế.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "私[わたし]は兄弟[きょうだい]が三人[さんにん][[います]]。",
+          "vi": "Tôi có ba anh chị em.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "水槽[すいそう]の中[なか]にエビが[[います]]。",
+          "vi": "Trong bể có tôm (còn sống).",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "国民年金[こくみんねんきん]の未納[みのう]は[[ありません]]か。",
+          "vi": "Có khoản lương hưu quốc dân nào chưa nộp không?",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：田中[たなか]さんはどこに[[いますか]]。B：事務所[じむしょ]にいます。",
+          "vi": "A: Anh Tanaka ở đâu? B: Anh ấy ở văn phòng.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:〜が好きです",
+      "pattern": "〜が好[す]きです",
+      "level": "N5",
+      "meaning": "thích … (好[す]き); ghét … (嫌[きら]い); giỏi … (上手[じょうず]); kém … (下手[へた])",
+      "structure": [
+        "N が 好[す]きです／嫌[きら]いです",
+        "N が 上手[じょうず]です／下手[へた]です",
+        "Phủ định: 好[す]きじゃないです／好[す]きではありません",
+        "Hỏi: 何[なに]が好[す]きですか, どんな N が好[す]きですか"
+      ],
+      "explain": "Đối tượng của 好[す]き (thích) đánh dấu bằng が, KHÔNG dùng を: 魚[さかな]が好[す]きです. 好[す]き là tính từ な, nên phủ định là 好[す]きじゃないです (thân mật hơn) hoặc 好[す]きではありません. Rất thích: 大好[だいす]きです. Không thích lắm: あまり好[す]きじゃないです — nói vậy mềm hơn 嫌[きら]いです rất nhiều.\n\n上手[じょうず] (giỏi) và 下手[へた] (kém) cũng dùng が: 田中[たなか]さんは料理[りょうり]が上手[じょうず]です. Người Nhật dùng 上手[じょうず] để KHEN người khác; nói về mình mà dùng 上手[じょうず] nghe như tự khoe. Khi được khen 日本語[にほんご]が上手[じょうず]ですね, đáp khiêm tốn: いいえ、まだまだです.\n\nMuốn nói thích LÀM việc gì thì cần thêm の: 料理[りょうり]を作[つく]るのが好[す]きです — mẫu này học ở N4. Mẹo nhớ: cảm xúc và năng lực (好[す]き, 嫌[きら]い, 上手[じょうず], 下手[へた], わかる, ほしい) đều đi với が.",
+      "casual": "Bỏ です: 「好[す]き」「好[す]きじゃない」「嫌[きら]い」. Kansai: 「好[す]きやねん」, phủ định 「好[す]きちゃう」. Khen: 「上手[じょうず]やなあ」.",
+      "compare": [
+        {
+          "pattern": "〜がほしい・〜たい",
+          "diff": "好[す]き = thích (lâu dài, tính cách); ほしい = muốn có (lúc này); たい = muốn làm."
+        }
+      ],
+      "mistakes": [
+        "Dùng を: 魚[さかな]を好[す]きです ✗ → 魚[さかな]が好[す]きです.",
+        "Tự khen mình: 私[わたし]は日本語[にほんご]が上手[じょうず]です ✗ (nghe khoe) → まだ下手[へた]です / 少[すこ]しできます."
+      ],
+      "ex": [
+        {
+          "jp": "私[わたし]は魚[さかな][[が好[す]きです]]。",
+          "vi": "Tôi thích cá.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "犬[いぬ][[が好[す]きです]]か。",
+          "vi": "Bạn có thích chó không?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "田中[たなか]さんは包丁[ほうちょう][[が上手[じょうず]です]]。",
+          "vi": "Anh Tanaka dùng dao giỏi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "私[わたし]は料理[りょうり][[が下手[へた]です]]。",
+          "vi": "Tôi nấu ăn dở.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "冷凍庫[れいとうこ]の仕事[しごと][[が好[す]きじゃないです]]。寒[さむ]いです。",
+          "vi": "Tôi không thích việc trong kho đông. Lạnh lắm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "窓口[まどぐち]の人[ひと]は英語[えいご][[が上手[じょうず]です]]。",
+          "vi": "Người ở quầy giỏi tiếng Anh.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "どんな音楽[おんがく][[が好[す]きですか]]。",
+          "vi": "Bạn thích loại nhạc nào?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "新人[しんじん]のアンさんは三枚[さんまい]おろし[[が上手[じょうず]です]]。",
+          "vi": "Người mới là An lọc cá ba phần giỏi lắm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "妻[つま]は日本語[にほんご][[が上手[じょうず]です]]から、一緒[いっしょ]に市役所[しやくしょ]へ行[い]きます。",
+          "vi": "Vợ tôi giỏi tiếng Nhật nên chúng tôi cùng đi ủy ban thành phố.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：日本[にほん]の食[た]べ物[もの]で何[なに][[が好[す]きですか]]。B：お寿司[すし]が好[す]きです。",
+          "vi": "A: Trong các món Nhật, bạn thích món gì? B: Tôi thích sushi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:〜がわかります",
+      "pattern": "〜がわかります",
+      "level": "N5",
+      "meaning": "hiểu …, biết … (đối tượng đánh dấu bằng が)",
+      "structure": [
+        "N が わかります／わかりません",
+        "日本語[にほんご]がわかります",
+        "わかりました (tôi hiểu rồi; vâng ạ)"
+      ],
+      "explain": "わかる là động từ chỉ khả năng nắm được, nên đối tượng dùng が: 日本語[にほんご]がわかります. Mức độ: よくわかります (hiểu rõ), 少[すこ]しわかります (hiểu một chút), あまりわかりません, 全然[ぜんぜん]わかりません (hoàn toàn không hiểu).\n\nわかりました (thể quá khứ) là câu trả lời khi nhận chỉ thị: \"tôi hiểu rồi / vâng ạ\". Khi KHÔNG hiểu thì phải nói thật: すみません、わかりません。もう一度[いちど]お願[ねが]いします. Ở xưởng thực phẩm, gật đầu わかりました khi chưa hiểu có thể gây lỗi vệ sinh, lỗi nhãn — rất nguy hiểm.\n\nPhân biệt với 知[し]る: わかる = hiểu nội dung, cách làm, ngôn ngữ; 知[し]る = biết thông tin, quen người: 田中[たなか]さんを知[し]っていますか. \"Không biết\" thì nói 知[し]りません, KHÔNG nói 知[し]っていません. Mẹo nhớ: hiểu được → わかる; có thông tin trong đầu → 知[し]る.",
+      "casual": "「わかった」「わからない」. Kansai: 「わからへん」「わからん」. Quản đốc hỏi 「わかった？」 → trả lời 「はい、わかりました」.",
+      "compare": [
+        {
+          "pattern": "〜を知[し]っています",
+          "diff": "わかります = hiểu (nghĩa, cách làm, tiếng); 知[し]っています = biết, quen (người, thông tin). Với người chỉ dùng 知[し]る: 田中[たなか]さんを知[し]っています."
+        }
+      ],
+      "mistakes": [
+        "Dùng を: 日本語[にほんご]をわかります ✗ → 日本語[にほんご]がわかります.",
+        "Nói 'không biết' bằng 知[し]っていません ✗ → 知[し]りません.",
+        "Nói わかりました khi chưa hiểu chỉ thị — rất nguy hiểm trong xưởng."
+      ],
+      "ex": [
+        {
+          "jp": "日本語[にほんご][[がわかります]]か。",
+          "vi": "Bạn có hiểu tiếng Nhật không?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "漢字[かんじ][[がわかりません]]。",
+          "vi": "Tôi không biết chữ Hán.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この言葉[ことば]の意味[いみ][[がわかりません]]。",
+          "vi": "Tôi không hiểu nghĩa của từ này.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "英語[えいご][[が少[すこ]しわかります]]。",
+          "vi": "Tôi hiểu một chút tiếng Anh.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "機械[きかい]の使[つか]い方[かた][[がわかりません]]。",
+          "vi": "Tôi không biết cách dùng máy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "書類[しょるい]の書[か]き方[かた][[がわかりません]]。手伝[てつだ]ってください。",
+          "vi": "Tôi không biết cách điền giấy tờ. Xin giúp tôi.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "駅[えき]までの道[みち][[がわかりますか]]。",
+          "vi": "Bạn có biết đường đến ga không?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "朝礼[ちょうれい]の話[はなし][[がよくわかりませんでした]]。",
+          "vi": "Tôi đã không hiểu rõ bài nói trong buổi họp đầu ca.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "自分[じぶん]の在留期間[ざいりゅうきかん][[がわかりますか]]。",
+          "vi": "Bạn có biết thời hạn lưu trú của mình không?",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：今日[きょう]の作業[さぎょう][[がわかりましたか]]。B：はい、わかりました。",
+          "vi": "A: Bạn đã hiểu công việc hôm nay chưa? B: Vâng, tôi hiểu rồi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:〜がほしい",
+      "pattern": "〜がほしい",
+      "level": "N5",
+      "meaning": "muốn có (đồ vật, thứ gì đó)",
+      "structure": [
+        "N が ほしいです",
+        "Phủ định: N は ほしくないです",
+        "Quá khứ: ほしかったです",
+        "Hỏi: 何[なに]がほしいですか"
+      ],
+      "explain": "ほしい là tính từ い, nghĩa là \"muốn có\", đối tượng dùng が: 新[あたら]しい靴[くつ]がほしいです. Chia như tính từ い: ほしくないです (không muốn), ほしかったです (đã muốn). Chỉ dùng cho ĐỒ VẬT, thứ có thể sở hữu.\n\nほしい chỉ nói mong muốn của CHÍNH MÌNH, hoặc hỏi người nghe (bạn bè). Không nói 田中[たなか]さんは車[くるま]がほしいです để kể mong muốn của người thứ ba — tiếng Nhật dùng ほしがっています (N4). Với cấp trên, hỏi thẳng 何[なに]がほしいですか là kém lịch sự; nên mời: コーヒーはいかがですか.\n\nMuốn LÀM gì thì dùng 〜たい (mẫu tiếp theo). Muốn NGƯỜI KHÁC làm gì thì dùng 〜てほしい (N4). Ở quầy, cửa hàng, khi xin thứ gì thì dùng 〜をください / 〜をお願[ねが]いします, không dùng ほしい. Mẹo nhớ: ほしい + vật; たい + hành động.",
+      "casual": "「〜ほしい」「〜ほしいなあ」. Kansai: 「〜ほしいわ」「〜ほしいねん」.",
+      "compare": [
+        {
+          "pattern": "〜たい",
+          "diff": "ほしい = muốn CÓ một thứ (新[あたら]しい靴[くつ]がほしい); たい = muốn LÀM (新[あたら]しい靴[くつ]を買[か]いたい)."
+        },
+        {
+          "pattern": "〜をください",
+          "diff": "Khi xin thứ gì ở quầy, cửa hàng, nói 〜をください／〜をお願[ねが]いします; ほしい chỉ để bày tỏ mong muốn."
+        }
+      ],
+      "mistakes": [
+        "Dùng を: 車[くるま]をほしいです ✗ → 車[くるま]がほしいです.",
+        "Nói thay người khác: 田中[たなか]さんは車[くるま]がほしいです ✗ → 田中[たなか]さんは車[くるま]をほしがっています (N4)."
+      ],
+      "ex": [
+        {
+          "jp": "新[あたら]しい靴[くつ][[がほしいです]]。",
+          "vi": "Tôi muốn có đôi giày mới.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "車[くるま][[がほしいです]]。",
+          "vi": "Tôi muốn có ô tô.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "新[あたら]しい手袋[てぶくろ][[がほしいです]]。",
+          "vi": "Tôi muốn có găng tay mới.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "今[いま]、何[なに][[がほしいですか]]。",
+          "vi": "Bây giờ bạn muốn có gì?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "もっと大[おお]きいまな板[いた][[がほしいです]]。",
+          "vi": "Tôi muốn có cái thớt to hơn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ベトナム語[ご]の説明[せつめい][[がほしいです]]。",
+          "vi": "Tôi muốn có bản giải thích bằng tiếng Việt.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "誕生日[たんじょうび]に時計[とけい][[がほしいです]]。",
+          "vi": "Sinh nhật tôi muốn có cái đồng hồ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "休憩[きゅうけい]の時間[じかん][[がもっとほしいです]]。",
+          "vi": "Tôi muốn có thêm thời gian nghỉ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "更新[こうしん]に必要[ひつよう]な書類[しょるい]のリスト[[がほしいです]]。",
+          "vi": "Tôi muốn có danh sách giấy tờ cần cho việc gia hạn.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：お土産[みやげ]は何[なに][[がほしいですか]]。B：ベトナムのコーヒーがほしいです。",
+          "vi": "A: Bạn muốn quà gì? B: Tôi muốn cà phê Việt Nam.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    }
+  ]
+}

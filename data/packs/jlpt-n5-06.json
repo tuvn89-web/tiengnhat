@@ -1,0 +1,1023 @@
+{
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n5-06",
+    "title": "JLPT N5 06 – Nhà cửa & đồ dùng",
+    "type": "vocab",
+    "level": "N5",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-11",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+  },
+  "items": [
+    {
+      "id": "v:家:いえ",
+      "kana": "いえ",
+      "kanji": "家",
+      "hv": "GIA",
+      "vi": "nhà",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhà cửa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "家[いえ]から会社[かいしゃ]まで二十分[にじゅっぷん]です。",
+          "vi": "Từ nhà đến công ty mất hai mươi phút."
+        }
+      ],
+      "confuse": [
+        "v:部屋:へや"
+      ],
+      "note": "Còn đọc うち (nhà mình, gia đình mình)."
+    },
+    {
+      "id": "v:部屋:へや",
+      "kana": "へや",
+      "kanji": "部屋",
+      "hv": "BỘ ỐC",
+      "vi": "phòng",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhà cửa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "私[わたし]の部屋[へや]は狭[せま]いです。",
+          "vi": "Phòng tôi chật."
+        }
+      ],
+      "confuse": [
+        "v:家:いえ"
+      ]
+    },
+    {
+      "id": "v:台所:だいどころ",
+      "kana": "だいどころ",
+      "kanji": "台所",
+      "hv": "ĐÀI SỞ",
+      "vi": "nhà bếp",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhà cửa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "台所[だいどころ]で料理[りょうり]をします。",
+          "vi": "Tôi nấu ăn trong bếp."
+        }
+      ],
+      "confuse": [
+        "v:お風呂:おふろ"
+      ],
+      "note": "Còn nói キッチン."
+    },
+    {
+      "id": "v:お風呂:おふろ",
+      "kana": "おふろ",
+      "kanji": "お風呂",
+      "kf": "お風呂[ふろ]",
+      "hv": "PHONG LỮ",
+      "vi": "bồn tắm; việc tắm",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhà cửa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎晩[まいばん]、お風呂[ふろ]に入[はい]ります。",
+          "vi": "Tối nào tôi cũng ngâm bồn."
+        }
+      ],
+      "confuse": [
+        "v:シャワー:シャワー"
+      ],
+      "note": "Tắm bồn = お風呂[ふろ]に入[はい]る."
+    },
+    {
+      "id": "v:トイレ:トイレ",
+      "kana": "トイレ",
+      "kanji": "",
+      "hv": "",
+      "vi": "nhà vệ sinh",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhà cửa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "トイレはどこですか。",
+          "vi": "Nhà vệ sinh ở đâu?"
+        }
+      ],
+      "goc": "toilet (tiếng Anh)"
+    },
+    {
+      "id": "v:シャワー:シャワー",
+      "kana": "シャワー",
+      "kanji": "",
+      "hv": "",
+      "vi": "vòi sen",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhà cửa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]の後[あと]、シャワーを浴[あ]びます。",
+          "vi": "Sau giờ làm tôi tắm vòi sen."
+        }
+      ],
+      "confuse": [
+        "v:お風呂:おふろ"
+      ],
+      "note": "Tắm vòi sen = シャワーを浴[あ]びる.",
+      "goc": "shower (tiếng Anh)"
+    },
+    {
+      "id": "v:窓:まど",
+      "kana": "まど",
+      "kanji": "窓",
+      "hv": "SONG",
+      "vi": "cửa sổ",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhà cửa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "窓[まど]を開[あ]けてもいいですか。",
+          "vi": "Tôi mở cửa sổ được không?"
+        }
+      ],
+      "confuse": [
+        "v:ドア:ドア"
+      ],
+      "ctr": "つ"
+    },
+    {
+      "id": "v:ドア:ドア",
+      "kana": "ドア",
+      "kanji": "",
+      "hv": "",
+      "vi": "cửa ra vào",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhà cửa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "冷凍庫[れいとうこ]のドアを閉[し]めてください。",
+          "vi": "Hãy đóng cửa kho đông lạnh."
+        }
+      ],
+      "confuse": [
+        "v:窓:まど"
+      ],
+      "goc": "door (tiếng Anh)"
+    },
+    {
+      "id": "v:階段:かいだん",
+      "kana": "かいだん",
+      "kanji": "階段",
+      "hv": "GIAI ĐOẠN",
+      "vi": "cầu thang bộ",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhà cửa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "階段[かいだん]で二階[にかい]へ行[い]きます。",
+          "vi": "Tôi đi cầu thang bộ lên tầng hai."
+        }
+      ],
+      "confuse": [
+        "v:エレベーター:エレベーター"
+      ]
+    },
+    {
+      "id": "v:エレベーター:エレベーター",
+      "kana": "エレベーター",
+      "kanji": "",
+      "hv": "",
+      "vi": "thang máy",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nhà cửa",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "エレベーターで五階[ごかい]へ行[い]きます。",
+          "vi": "Tôi đi thang máy lên tầng năm."
+        }
+      ],
+      "confuse": [
+        "v:階段:かいだん"
+      ],
+      "goc": "elevator (tiếng Anh)"
+    },
+    {
+      "id": "v:机:つくえ",
+      "kana": "つくえ",
+      "kanji": "机",
+      "hv": "KỶ",
+      "vi": "bàn (làm việc, học)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ đạc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "机[つくえ]の上[うえ]に本[ほん]があります。",
+          "vi": "Trên bàn có quyển sách."
+        }
+      ],
+      "confuse": [
+        "v:テーブル:テーブル"
+      ],
+      "ctr": [
+        "つ",
+        "台"
+      ]
+    },
+    {
+      "id": "v:テーブル:テーブル",
+      "kana": "テーブル",
+      "kanji": "",
+      "hv": "",
+      "vi": "bàn (ăn, bàn chung)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ đạc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "テーブルを拭[ふ]いてください。",
+          "vi": "Hãy lau bàn."
+        }
+      ],
+      "confuse": [
+        "v:机:つくえ"
+      ],
+      "goc": "table (tiếng Anh)"
+    },
+    {
+      "id": "v:椅子:いす",
+      "kana": "いす",
+      "kanji": "椅子",
+      "hv": "Y TỬ",
+      "vi": "ghế",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ đạc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この椅子[いす]に座[すわ]ってください。",
+          "vi": "Hãy ngồi vào ghế này."
+        }
+      ],
+      "confuse": [
+        "v:ベッド:ベッド"
+      ],
+      "ctr": [
+        "つ",
+        "脚[きゃく]"
+      ]
+    },
+    {
+      "id": "v:ベッド:ベッド",
+      "kana": "ベッド",
+      "kanji": "",
+      "hv": "",
+      "vi": "giường",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ đạc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ベッドで寝[ね]ます。",
+          "vi": "Tôi ngủ trên giường."
+        }
+      ],
+      "confuse": [
+        "v:椅子:いす"
+      ],
+      "goc": "bed (tiếng Anh)",
+      "ctr": "台"
+    },
+    {
+      "id": "v:冷蔵庫:れいぞうこ",
+      "kana": "れいぞうこ",
+      "kanji": "冷蔵庫",
+      "hv": "LÃNH TÀNG KHỐ",
+      "vi": "tủ lạnh",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ đạc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "冷蔵庫[れいぞうこ]に牛乳[ぎゅうにゅう]があります。",
+          "vi": "Trong tủ lạnh có sữa."
+        }
+      ],
+      "confuse": [
+        "v:冷凍庫:れいとうこ"
+      ],
+      "note": "冷蔵庫[れいぞうこ] = ngăn mát/kho mát; 冷凍庫[れいとうこ] = ngăn đá/kho đông.",
+      "ctr": "台"
+    },
+    {
+      "id": "v:電気:でんき",
+      "kana": "でんき",
+      "kanji": "電気",
+      "hv": "ĐIỆN KHÍ",
+      "vi": "điện; đèn điện",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Máy móc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "電気[でんき]を消[け]してください。",
+          "vi": "Hãy tắt đèn."
+        }
+      ],
+      "confuse": [
+        "v:電話:でんわ"
+      ]
+    },
+    {
+      "id": "v:電話:でんわ",
+      "kana": "でんわ",
+      "kanji": "電話",
+      "hv": "ĐIỆN THOẠI",
+      "vi": "điện thoại; cuộc gọi",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Máy móc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "電話[でんわ]をかけてもいいですか。",
+          "vi": "Tôi gọi điện thoại được không?"
+        }
+      ],
+      "confuse": [
+        "v:電気:でんき",
+        "v:携帯:けいたい"
+      ],
+      "note": "Gọi điện = 電話[でんわ]をかける.",
+      "ctr": "台"
+    },
+    {
+      "id": "v:携帯:けいたい",
+      "kana": "けいたい",
+      "kanji": "携帯",
+      "hv": "HUỀ ĐỚI",
+      "vi": "điện thoại di động",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Máy móc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "携帯[けいたい]の番号[ばんごう]を教[おし]えてください。",
+          "vi": "Hãy cho tôi số điện thoại di động."
+        }
+      ],
+      "confuse": [
+        "v:電話:でんわ"
+      ],
+      "note": "Nói đủ là 携帯電話[けいたいでんわ]. Giới trẻ nói スマホ.",
+      "ctr": "台"
+    },
+    {
+      "id": "v:テレビ:テレビ",
+      "kana": "テレビ",
+      "kanji": "",
+      "hv": "",
+      "vi": "ti vi",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Máy móc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "夜[よる]、テレビを見[み]ます。",
+          "vi": "Buổi tối tôi xem ti vi."
+        }
+      ],
+      "goc": "television (tiếng Anh), nói tắt",
+      "ctr": "台"
+    },
+    {
+      "id": "v:パソコン:パソコン",
+      "kana": "パソコン",
+      "kanji": "",
+      "hv": "",
+      "vi": "máy tính cá nhân",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Máy móc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "パソコンでメールを書[か]きます。",
+          "vi": "Tôi viết email bằng máy tính."
+        }
+      ],
+      "goc": "personal computer (tiếng Anh), nói tắt",
+      "ctr": "台"
+    },
+    {
+      "id": "v:時計:とけい",
+      "kana": "とけい",
+      "kanji": "時計",
+      "hv": "THỜI KẾ",
+      "vi": "đồng hồ",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Máy móc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "時計[とけい]を見[み]てください。もう五時[ごじ]です。",
+          "vi": "Nhìn đồng hồ đi. Năm giờ rồi."
+        }
+      ],
+      "confuse": [
+        "v:時間:じかん"
+      ],
+      "ctr": [
+        "つ",
+        "個"
+      ]
+    },
+    {
+      "id": "v:写真:しゃしん",
+      "kana": "しゃしん",
+      "kanji": "写真",
+      "hv": "TẢ CHÂN",
+      "vi": "ảnh, bức ảnh",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Máy móc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "写真[しゃしん]を撮[と]ってもいいですか。",
+          "vi": "Tôi chụp ảnh được không?"
+        }
+      ],
+      "note": "Chụp ảnh = 写真[しゃしん]を撮[と]る.",
+      "ctr": "枚"
+    },
+    {
+      "id": "v:鍵:かぎ",
+      "kana": "かぎ",
+      "kanji": "鍵",
+      "hv": "KIỆN",
+      "vi": "chìa khóa; ổ khóa",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ cá nhân",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "鍵[かぎ]をかけましたか。",
+          "vi": "Bạn đã khóa cửa chưa?"
+        }
+      ],
+      "confuse": [
+        "v:傘:かさ"
+      ],
+      "note": "Khóa lại = 鍵[かぎ]をかける.",
+      "ctr": [
+        "本",
+        "つ"
+      ]
+    },
+    {
+      "id": "v:傘:かさ",
+      "kana": "かさ",
+      "kanji": "傘",
+      "hv": "TẢN",
+      "vi": "cái ô, dù",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ cá nhân",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "雨[あめ]ですから、傘[かさ]を持[も]っていきます。",
+          "vi": "Trời mưa nên tôi mang ô theo."
+        }
+      ],
+      "confuse": [
+        "v:鍵:かぎ"
+      ],
+      "ctr": "本"
+    },
+    {
+      "id": "v:鞄:かばん",
+      "kana": "かばん",
+      "kanji": "鞄",
+      "hv": "BÀO",
+      "vi": "cặp, túi xách",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ cá nhân",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "鞄[かばん]はロッカーに入[い]れてください。",
+          "vi": "Hãy để túi vào tủ đồ."
+        }
+      ],
+      "confuse": [
+        "v:財布:さいふ"
+      ],
+      "ctr": [
+        "つ",
+        "個"
+      ]
+    },
+    {
+      "id": "v:財布:さいふ",
+      "kana": "さいふ",
+      "kanji": "財布",
+      "hv": "TÀI BỐ",
+      "vi": "ví tiền",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ cá nhân",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "財布[さいふ]を忘[わす]れました。",
+          "vi": "Tôi quên ví rồi."
+        }
+      ],
+      "confuse": [
+        "v:鞄:かばん"
+      ],
+      "ctr": "つ"
+    },
+    {
+      "id": "v:本:ほん",
+      "kana": "ほん",
+      "kanji": "本",
+      "hv": "BẢN",
+      "vi": "sách",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Giấy tờ, sách",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "図書館[としょかん]で本[ほん]を借[か]ります。",
+          "vi": "Tôi mượn sách ở thư viện."
+        }
+      ],
+      "confuse": [
+        "v:本:ほん#2",
+        "v:新聞:しんぶん"
+      ],
+      "ctr": "冊"
+    },
+    {
+      "id": "v:新聞:しんぶん",
+      "kana": "しんぶん",
+      "kanji": "新聞",
+      "hv": "TÂN VĂN",
+      "vi": "báo (giấy)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Giấy tờ, sách",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "父[ちち]は毎朝[まいあさ]新聞[しんぶん]を読[よ]みます。",
+          "vi": "Sáng nào bố tôi cũng đọc báo."
+        }
+      ],
+      "confuse": [
+        "v:本:ほん"
+      ],
+      "note": "新聞[しんぶん] là báo, không phải \"tin mới\" (tin tức = ニュース).",
+      "ctr": "部[ぶ]"
+    },
+    {
+      "id": "v:辞書:じしょ",
+      "kana": "じしょ",
+      "kanji": "辞書",
+      "hv": "TỪ THƯ",
+      "vi": "từ điển",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Giấy tờ, sách",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "辞書[じしょ]を貸[か]してください。",
+          "vi": "Cho tôi mượn từ điển."
+        }
+      ],
+      "confuse": [
+        "v:本:ほん"
+      ],
+      "ctr": "冊"
+    },
+    {
+      "id": "v:紙:かみ",
+      "kana": "かみ",
+      "kanji": "紙",
+      "hv": "CHỈ",
+      "vi": "giấy",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Giấy tờ, sách",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この紙[かみ]に書[か]いてください。",
+          "vi": "Hãy viết vào tờ giấy này."
+        }
+      ],
+      "confuse": [
+        "v:手紙:てがみ"
+      ],
+      "ctr": "枚"
+    },
+    {
+      "id": "v:ペン:ペン",
+      "kana": "ペン",
+      "kanji": "",
+      "hv": "",
+      "vi": "bút",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Giấy tờ, sách",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ペンを持[も]っていますか。",
+          "vi": "Bạn có bút không?"
+        }
+      ],
+      "confuse": [
+        "v:鉛筆:えんぴつ"
+      ],
+      "goc": "pen (tiếng Anh)",
+      "ctr": "本"
+    },
+    {
+      "id": "v:鉛筆:えんぴつ",
+      "kana": "えんぴつ",
+      "kanji": "鉛筆",
+      "hv": "DUYÊN BÚT",
+      "vi": "bút chì",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Giấy tờ, sách",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "書類[しょるい]は鉛筆[えんぴつ]で書[か]かないでください。",
+          "vi": "Đừng viết giấy tờ bằng bút chì."
+        }
+      ],
+      "confuse": [
+        "v:ペン:ペン"
+      ],
+      "ctr": "本"
+    },
+    {
+      "id": "v:ノート:ノート",
+      "kana": "ノート",
+      "kanji": "",
+      "hv": "",
+      "vi": "vở, sổ ghi",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Giấy tờ, sách",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ノートに新[あたら]しい言葉[ことば]を書[か]きます。",
+          "vi": "Tôi ghi từ mới vào vở."
+        }
+      ],
+      "wasei": true,
+      "goc": "notebook (tiếng Anh), nói tắt — tiếng Nhật là cuốn vở",
+      "ctr": "冊"
+    },
+    {
+      "id": "v:手紙:てがみ",
+      "kana": "てがみ",
+      "kanji": "手紙",
+      "hv": "THỦ CHỈ",
+      "vi": "thư, lá thư",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Giấy tờ, sách",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "母[はは]に手紙[てがみ]を書[か]きました。",
+          "vi": "Tôi đã viết thư cho mẹ."
+        }
+      ],
+      "confuse": [
+        "v:紙:かみ",
+        "v:切手:きって"
+      ],
+      "note": "Không phải \"giấy vệ sinh\" (cái đó là トイレットペーパー).",
+      "ctr": "通[つう]"
+    },
+    {
+      "id": "v:切手:きって",
+      "kana": "きって",
+      "kanji": "切手",
+      "hv": "THIẾT THỦ",
+      "vi": "tem thư",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Giấy tờ, sách",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "郵便局[ゆうびんきょく]で切手[きって]を買[か]います。",
+          "vi": "Tôi mua tem ở bưu điện."
+        }
+      ],
+      "confuse": [
+        "v:手紙:てがみ"
+      ],
+      "ctr": "枚"
+    },
+    {
+      "id": "v:箱:はこ",
+      "kana": "はこ",
+      "kanji": "箱",
+      "hv": "TƯƠNG",
+      "vi": "hộp, thùng",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ dùng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "箱[はこ]の中[なか]に何[なに]がありますか。",
+          "vi": "Trong hộp có gì?"
+        }
+      ],
+      "ctr": [
+        "つ",
+        "個"
+      ]
+    },
+    {
+      "id": "v:皿:さら",
+      "kana": "さら",
+      "kanji": "皿",
+      "hv": "MÃNH",
+      "vi": "đĩa",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ dùng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "皿[さら]を洗[あら]ってください。",
+          "vi": "Hãy rửa đĩa."
+        }
+      ],
+      "confuse": [
+        "v:コップ:コップ"
+      ],
+      "ctr": "枚"
+    },
+    {
+      "id": "v:コップ:コップ",
+      "kana": "コップ",
+      "kanji": "",
+      "hv": "",
+      "vi": "cốc, ly",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ dùng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "水[みず]をコップに入[い]れます。",
+          "vi": "Tôi rót nước vào cốc."
+        }
+      ],
+      "confuse": [
+        "v:皿:さら"
+      ],
+      "goc": "kop (tiếng Hà Lan: cái cốc)",
+      "ctr": [
+        "つ",
+        "個"
+      ]
+    },
+    {
+      "id": "v:物:もの",
+      "kana": "もの",
+      "kanji": "物",
+      "hv": "VẬT",
+      "vi": "đồ, đồ vật",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ dùng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "机[つくえ]の上[うえ]に物[もの]を置[お]かないでください。",
+          "vi": "Đừng để đồ trên bàn."
+        }
+      ],
+      "confuse": [
+        "v:荷物:にもつ"
+      ]
+    },
+    {
+      "id": "v:荷物:にもつ",
+      "kana": "にもつ",
+      "kanji": "荷物",
+      "hv": "HÀ VẬT",
+      "vi": "hành lý, đồ đạc mang theo",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ dùng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "荷物[にもつ]が重[おも]いです。",
+          "vi": "Hành lý nặng."
+        }
+      ],
+      "confuse": [
+        "v:物:もの"
+      ],
+      "ctr": [
+        "つ",
+        "個"
+      ]
+    },
+    {
+      "id": "v:お金:おかね",
+      "kana": "おかね",
+      "kanji": "お金",
+      "kf": "お金[かね]",
+      "hv": "KIM",
+      "vi": "tiền",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đồ dùng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "お金[かね]がありません。",
+          "vi": "Tôi không có tiền."
+        }
+      ],
+      "confuse": [
+        "v:財布:さいふ"
+      ]
+    }
+  ]
+}

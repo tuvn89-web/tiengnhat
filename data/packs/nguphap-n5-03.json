@@ -1,0 +1,247 @@
+{
+  "schema": 1,
+  "pack": {
+    "id": "nguphap-n5-03",
+    "title": "Ngữ pháp N5 03 – Chỉ thị: こ・そ・あ・ど",
+    "type": "grammar",
+    "level": "N5",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-11",
+    "verified_on": "",
+    "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức)."
+  },
+  "items": [
+    {
+      "id": "g:これ・それ・あれ",
+      "pattern": "これ・それ・あれ",
+      "level": "N5",
+      "meaning": "cái này / cái đó / cái kia — đứng một mình, thay cho đồ vật",
+      "structure": [
+        "これ／それ／あれ は N です",
+        "これは何[なん]ですか",
+        "Hỏi: どれ (cái nào, trong 3 thứ trở lên)"
+      ],
+      "explain": "これ chỉ vật ở gần NGƯỜI NÓI; それ chỉ vật ở gần NGƯỜI NGHE; あれ chỉ vật ở xa cả hai người. Ba từ này đứng MỘT MÌNH làm chủ ngữ hay tân ngữ, phía sau không có danh từ: これは包丁[ほうちょう]です, それを取[と]ってください.\n\nKhi hai người đứng sát nhau cùng nhìn một hướng thì cách chia đổi một chút: vật trong tầm tay cả hai là これ, hơi xa là それ, xa hẳn là あれ. Muốn hỏi \"cái nào\" trong nhiều cái thì dùng どれ: あなたの傘[かさ]はどれですか.\n\nそれ còn dùng để chỉ điều người kia vừa nói: それはいいですね (cái đó hay nhỉ). Mẹo nhớ cả bộ: こ = gần mình, そ = gần bạn, あ = ở xa, ど = để hỏi. Bộ này lặp lại ở この/その/あの, ここ/そこ/あそこ, こちら/そちら/あちら.",
+      "casual": "Khẩu ngữ hay nói こっち・そっち・あっち (phía này, phía đó, phía kia) thay cho đồ vật. Ở chợ, cửa hàng vùng Kansai có thể nghe 「これなんぼ？」 = cái này bao nhiêu tiền.",
+      "compare": [
+        {
+          "pattern": "この・その・あの",
+          "diff": "これ đứng một mình (これは傘[かさ]です); この phải có danh từ đi kèm (この傘[かさ]は私[わたし]のです). Không nói この は…, cũng không nói これ傘[かさ]."
+        }
+      ],
+      "mistakes": [
+        "Đặt これ trước danh từ: これ箱[はこ]は重[おも]いです ✗ → この箱[はこ]は重[おも]いです.",
+        "Dùng あれ cho vật đang ở gần người nghe — phải dùng それ."
+      ],
+      "ex": [
+        {
+          "jp": "[[これ]]は何[なん]ですか。",
+          "vi": "Cái này là gì?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "[[それ]]は私[わたし]の傘[かさ]です。",
+          "vi": "Cái đó là ô của tôi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "[[これ]]は生食用[せいしょくよう]のサーモンです。",
+          "vi": "Đây là cá hồi dùng để ăn sống.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "[[あれ]]は市役所[しやくしょ]です。",
+          "vi": "Kia là ủy ban thành phố.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "[[それ]]を取[と]ってください。",
+          "vi": "Lấy giúp tôi cái đó.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "すみません、[[これ]]を一部[いちぶ]ください。",
+          "vi": "Xin lỗi, cho tôi một bản cái này.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "[[あれ]]はだれの車[くるま]ですか。",
+          "vi": "Kia là xe của ai vậy?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "[[それ]]は使[つか]わないでください。古[ふる]いです。",
+          "vi": "Đừng dùng cái đó. Nó cũ rồi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "[[これ]]にサインをお願[ねが]いします。",
+          "vi": "Xin ký vào tờ này.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：あの、[[それ]]は何[なん]ですか。B：これは金属探知機[きんぞくたんちき]です。",
+          "vi": "A: À, cái đó là gì vậy? B: Đây là máy dò kim loại.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:この・その・あの",
+      "pattern": "この・その・あの",
+      "level": "N5",
+      "meaning": "… này / … đó / … kia — luôn đứng trước danh từ",
+      "structure": [
+        "この／その／あの + N",
+        "この箱[はこ], その包丁[ほうちょう], あの人[ひと]",
+        "Hỏi: どの + N (… nào)"
+      ],
+      "explain": "この・その・あの chia khoảng cách giống これ・それ・あれ (gần mình / gần bạn / xa cả hai), nhưng KHÔNG đứng một mình được: phía sau luôn là một danh từ. この箱[はこ] = cái hộp này, その包丁[ほうちょう] = con dao đó, あの人[ひと] = người kia.\n\nHỏi \"… nào\" thì dùng どの + danh từ: どの箱[はこ]を使[つか]いますか (dùng hộp nào?). Nói về người có mặt, lịch sự hơn あの人[ひと] là あの方[かた] (あのかた).\n\nあの đứng đầu câu, ngắt hơi, còn là tiếng ngập ngừng để gây chú ý, giống \"à, ừm…\": あの、すみません. Mẹo phân biệt: sau あの có danh từ → \"… kia\"; sau あの là dấu phẩy → đang ngập ngừng. Mẹo nhớ: chữ の ở cuối luôn \"kéo theo\" một danh từ.",
+      "casual": "Hay gặp: この前[まえ] (hôm trước), その時[とき] (lúc đó), あの時[とき] (hồi đó). Ngập ngừng khẩu ngữ: あのー, えーと. Quản đốc hay gọi: 「その箱[はこ]、こっち持[も]ってきて」.",
+      "compare": [
+        {
+          "pattern": "これ・それ・あれ",
+          "diff": "この đi với danh từ: この魚[さかな]は新[あたら]しいです; これ đứng một mình: これは新[あたら]しいです. Hai câu cùng nghĩa, khác cấu trúc."
+        }
+      ],
+      "mistakes": [
+        "Bỏ danh từ sau この: このは高[たか]いです ✗ → これは高[たか]いです hoặc この魚[さかな]は高[たか]いです.",
+        "Nghe あの ở đầu câu rồi tưởng người ta chỉ cái gì ở xa — thực ra họ đang ngập ngừng."
+      ],
+      "ex": [
+        {
+          "jp": "[[この]]りんごはおいしいです。",
+          "vi": "Quả táo này ngon.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "[[その]]本[ほん]は私[わたし]のです。",
+          "vi": "Quyển sách đó là của tôi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "[[この]]包丁[ほうちょう]を使[つか]ってください。",
+          "vi": "Hãy dùng con dao này.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "[[あの]]人[ひと]はだれですか。",
+          "vi": "Người kia là ai vậy?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "[[その]]箱[はこ]はここに置[お]いてください。",
+          "vi": "Cái hộp đó hãy đặt ở đây.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "[[この]]書類[しょるい]に名前[なまえ]を書[か]いてください。",
+          "vi": "Hãy viết tên vào giấy tờ này.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "[[あの]]店[みせ]のラーメンは安[やす]いです。",
+          "vi": "Mì ramen ở quán kia rẻ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "[[あの]]機械[きかい]は止[と]まっています。",
+          "vi": "Cái máy kia đang dừng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "[[その]]用紙[ようし]は窓口[まどぐち]にあります。",
+          "vi": "Mẫu giấy đó có ở quầy.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：どの手袋[てぶくろ]を使[つか]いますか。B：[[その]]青[あお]い手袋[てぶくろ]を使[つか]ってください。",
+          "vi": "A: Dùng găng tay nào ạ? B: Dùng đôi găng xanh đó.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:ここ・そこ・あそこ",
+      "pattern": "ここ・そこ・あそこ",
+      "level": "N5",
+      "meaning": "chỗ này / chỗ đó / chỗ kia — chỉ nơi chốn",
+      "structure": [
+        "ここ／そこ／あそこ は N です (chỗ này là …)",
+        "N は ここ／そこ／あそこ です (… ở chỗ này)",
+        "Hỏi: どこ",
+        "Lịch sự: こちら・そちら・あちら・どちら"
+      ],
+      "explain": "ここ = chỗ người nói đang đứng; そこ = chỗ gần người nghe; あそこ = chỗ xa cả hai. Có hai kiểu câu: ここは食堂[しょくどう]です (chỗ này là nhà ăn) và 食堂[しょくどう]はあそこです (nhà ăn ở đằng kia). Hỏi vị trí: トイレはどこですか.\n\nBộ lịch sự là こちら・そちら・あちら・どちら. Nhân viên quầy ở 市役所[しやくしょ], ngân hàng, cửa hàng dùng bộ này với khách: あちらの窓口[まどぐち]へどうぞ (mời sang quầy đằng kia). こちら còn dùng để giới thiệu người: こちらは田中[たなか]さんです (đây là anh Tanaka).\n\nMuốn nói \"có ở đây\" thì thêm に: ここにあります; muốn nói \"làm ở đây\" thì thêm で: ここで待[ま]ってください. Mẹo nhớ: こ-そ-あ-ど giống các bộ khác; thêm こ thành ここ là \"chỗ\".",
+      "casual": "Thân mật: こっち・そっち・あっち・どっち. Quản đốc gọi: 「ちょっと、こっち来[き]て！」 = lại đây chút! Kansai: 「こっち来[き]てや」「どこ行[い]くん？」.",
+      "compare": [
+        {
+          "pattern": "ここに・ここで",
+          "diff": "ここ là danh từ chỉ nơi. 'Có ở đây': ここにあります (dùng に). 'Làm ở đây': ここで洗[あら]います (dùng で)."
+        }
+      ],
+      "mistakes": [
+        "Dùng あそこ cho chỗ ngay cạnh người nghe — phải dùng そこ.",
+        "Thêm の: ここのは食堂[しょくどう]です ✗ → ここは食堂[しょくどう]です."
+      ],
+      "ex": [
+        {
+          "jp": "[[ここ]]は私[わたし]の部屋[へや]です。",
+          "vi": "Đây là phòng của tôi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "トイレは[[あそこ]]です。",
+          "vi": "Nhà vệ sinh ở đằng kia.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "長靴[ながぐつ]は[[そこ]]に置[お]いてください。",
+          "vi": "Ủng hãy để ở chỗ đó.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "駅[えき]は[[どこ]]ですか。",
+          "vi": "Nhà ga ở đâu?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "[[ここ]]で手[て]を洗[あら]ってください。",
+          "vi": "Hãy rửa tay ở đây.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "申請書[しんせいしょ]は[[あちら]]の窓口[まどぐち]に出[だ]してください。",
+          "vi": "Đơn hãy nộp ở quầy đằng kia.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "[[そこ]]は危[あぶ]ないですよ。",
+          "vi": "Chỗ đó nguy hiểm đấy.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "[[あそこ]]の冷凍庫[れいとうこ]からマグロを出[だ]してください。",
+          "vi": "Hãy lấy cá ngừ ra từ kho đông lạnh đằng kia.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "番号札[ばんごうふだ]を取[と]って、[[こちら]]でお待[ま]ちください。",
+          "vi": "Xin lấy phiếu số và đợi ở đây ạ.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：すみません、ロッカーはどこですか。B：[[あそこ]]です。階段[かいだん]の横[よこ]です。",
+          "vi": "A: Xin lỗi, tủ đồ ở đâu ạ? B: Ở đằng kia. Bên cạnh cầu thang.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    }
+  ]
+}

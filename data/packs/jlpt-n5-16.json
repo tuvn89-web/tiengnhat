@@ -1,0 +1,754 @@
+{
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n5-16",
+    "title": "JLPT N5 16 – Việc nhà, phố phường & từ thường gặp",
+    "type": "vocab",
+    "level": "N5",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-11",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức). 住所[じゅうしょ], 用事[ようじ], 角[かく], 自分[じぶん] ghi N4."
+  },
+  "items": [
+    {
+      "id": "v:掃除:そうじ",
+      "kana": "そうじ",
+      "kanji": "掃除",
+      "hv": "TẢO TRỪ",
+      "vi": "dọn dẹp, quét dọn",
+      "pos": "n-suru",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Việc nhà",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]の後[あと]、機械[きかい]を掃除[そうじ]します。",
+          "vi": "Sau giờ làm thì vệ sinh máy."
+        }
+      ],
+      "confuse": [
+        "v:洗濯:せんたく"
+      ]
+    },
+    {
+      "id": "v:洗濯:せんたく",
+      "kana": "せんたく",
+      "kanji": "洗濯",
+      "hv": "TẨY TRẠC",
+      "vi": "giặt giũ",
+      "pos": "n-suru",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Việc nhà",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日曜日[にちようび]に洗濯[せんたく]をします。",
+          "vi": "Chủ nhật tôi giặt đồ."
+        }
+      ],
+      "confuse": [
+        "v:掃除:そうじ"
+      ]
+    },
+    {
+      "id": "v:散歩:さんぽ",
+      "kana": "さんぽ",
+      "kanji": "散歩",
+      "hv": "TÁN BỘ",
+      "vi": "đi dạo",
+      "pos": "n-suru",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sinh hoạt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎朝[まいあさ]、犬[いぬ]と散歩[さんぽ]します。",
+          "vi": "Sáng nào tôi cũng đi dạo với chó."
+        }
+      ]
+    },
+    {
+      "id": "v:練習:れんしゅう",
+      "kana": "れんしゅう",
+      "kanji": "練習",
+      "hv": "LUYỆN TẬP",
+      "vi": "luyện tập",
+      "pos": "n-suru",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sinh hoạt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎日[まいにち]、包丁[ほうちょう]の練習[れんしゅう]をします。",
+          "vi": "Ngày nào tôi cũng luyện dùng dao."
+        }
+      ],
+      "confuse": [
+        "v:勉強:べんきょう"
+      ]
+    },
+    {
+      "id": "v:結婚:けっこん",
+      "kana": "けっこん",
+      "kanji": "結婚",
+      "hv": "KẾT HÔN",
+      "vi": "kết hôn",
+      "pos": "n-suru",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đời người",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来年[らいねん]、結婚[けっこん]します。",
+          "vi": "Năm sau tôi kết hôn."
+        }
+      ],
+      "note": "\"Đã có gia đình\" nói 結婚[けっこん]しています."
+    },
+    {
+      "id": "v:買い物:かいもの",
+      "kana": "かいもの",
+      "kanji": "買い物",
+      "kf": "買[か]い物[もの]",
+      "hv": "MÃI VẬT",
+      "vi": "mua sắm",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sinh hoạt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "スーパーへ買[か]い物[もの]に行[い]きます。",
+          "vi": "Tôi đi siêu thị mua đồ."
+        }
+      ]
+    },
+    {
+      "id": "v:住所:じゅうしょ",
+      "kana": "じゅうしょ",
+      "kanji": "住所",
+      "hv": "TRÚ SỞ",
+      "vi": "địa chỉ",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Giấy tờ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新[あたら]しい住所[じゅうしょ]を教[おし]えてください。",
+          "vi": "Hãy cho tôi biết địa chỉ mới."
+        }
+      ],
+      "note": "Đổi chỗ ở phải báo địa chỉ mới cho 市役所[しやくしょ] trong 14 ngày."
+    },
+    {
+      "id": "v:次:つぎ",
+      "kana": "つぎ",
+      "kanji": "次",
+      "hv": "THỨ",
+      "vi": "tiếp theo, kế tiếp",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ thường gặp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "次[つぎ]は何[なに]をしますか。",
+          "vi": "Tiếp theo làm gì ạ?"
+        }
+      ]
+    },
+    {
+      "id": "v:用事:ようじ",
+      "kana": "ようじ",
+      "kanji": "用事",
+      "hv": "DỤNG SỰ",
+      "vi": "việc bận, việc riêng",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ thường gặp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "明日[あした]は用事[ようじ]があります。",
+          "vi": "Ngày mai tôi có việc bận."
+        }
+      ],
+      "note": "Câu xin nghỉ/từ chối hay dùng: ちょっと用事[ようじ]があって…",
+      "ctr": "つ"
+    },
+    {
+      "id": "v:ゴミ:ゴミ",
+      "kana": "ゴミ",
+      "kanji": "",
+      "hv": "",
+      "vi": "rác",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Việc nhà",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ゴミはここに捨[す]ててください。",
+          "vi": "Hãy vứt rác ở đây."
+        }
+      ],
+      "note": "Chữ Hán 塵[ごみ] hầu như không dùng. Kansai: ゴミをほかす = vứt rác."
+    },
+    {
+      "id": "v:ニュース:ニュース",
+      "kana": "ニュース",
+      "kanji": "",
+      "hv": "",
+      "vi": "tin tức, thời sự",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ thường gặp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎朝[まいあさ]、ニュースを見[み]ます。",
+          "vi": "Sáng nào tôi cũng xem thời sự."
+        }
+      ],
+      "confuse": [
+        "v:新聞:しんぶん"
+      ],
+      "goc": "news (tiếng Anh)"
+    },
+    {
+      "id": "v:メール:メール",
+      "kana": "メール",
+      "kanji": "",
+      "hv": "",
+      "vi": "email; tin nhắn",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ thường gặp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "後[あと]でメールを送[おく]ります。",
+          "vi": "Lát nữa tôi gửi email."
+        }
+      ],
+      "goc": "mail (tiếng Anh: thư)",
+      "ctr": [
+        "通[つう]",
+        "件"
+      ]
+    },
+    {
+      "id": "v:アパート:アパート",
+      "kana": "アパート",
+      "kanji": "",
+      "hv": "",
+      "vi": "căn hộ (nhà tập thể nhỏ)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phố phường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]の近[ちか]くのアパートに住[す]んでいます。",
+          "vi": "Tôi sống ở căn hộ gần công ty."
+        }
+      ],
+      "wasei": true,
+      "goc": "apartment (tiếng Anh), nói tắt — ở Nhật là nhà tập thể thấp tầng, rẻ hơn マンション"
+    },
+    {
+      "id": "v:パーティー:パーティー",
+      "kana": "パーティー",
+      "kanji": "",
+      "hv": "",
+      "vi": "bữa tiệc",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sinh hoạt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "金曜日[きんようび]にパーティーがあります。",
+          "vi": "Thứ Sáu có tiệc."
+        }
+      ],
+      "goc": "party (tiếng Anh)"
+    },
+    {
+      "id": "v:お土産:おみやげ",
+      "kana": "おみやげ",
+      "kanji": "お土産",
+      "kf": "お土産[みやげ]",
+      "hv": "THỔ SẢN",
+      "vi": "quà (mang về từ chuyến đi)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sinh hoạt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "国[くに]のお土産[みやげ]です。どうぞ。",
+          "vi": "Đây là quà quê tôi. Xin mời."
+        }
+      ],
+      "note": "Đi xa về mang quà nhỏ chia cho đồng nghiệp là nếp quen ở chỗ làm Nhật."
+    },
+    {
+      "id": "v:大学:だいがく",
+      "kana": "だいがく",
+      "kanji": "大学",
+      "hv": "ĐẠI HỌC",
+      "vi": "trường đại học",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phố phường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "妹[いもうと]は大学[だいがく]で勉強[べんきょう]しています。",
+          "vi": "Em gái tôi học đại học."
+        }
+      ],
+      "confuse": [
+        "v:学校:がっこう"
+      ]
+    },
+    {
+      "id": "v:教室:きょうしつ",
+      "kana": "きょうしつ",
+      "kanji": "教室",
+      "hv": "GIÁO THẤT",
+      "vi": "phòng học; lớp học",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phố phường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本語[にほんご]教室[きょうしつ]は土曜日[どようび]です。",
+          "vi": "Lớp tiếng Nhật học vào thứ Bảy."
+        }
+      ],
+      "note": "Nhiều thành phố có 日本語[にほんご]教室[きょうしつ] miễn phí cho người nước ngoài."
+    },
+    {
+      "id": "v:映画館:えいがかん",
+      "kana": "えいがかん",
+      "kanji": "映画館",
+      "hv": "ÁNH HỌA QUÁN",
+      "vi": "rạp chiếu phim",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phố phường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "映画館[えいがかん]は駅[えき]の上[うえ]にあります。",
+          "vi": "Rạp chiếu phim ở trên nhà ga."
+        }
+      ]
+    },
+    {
+      "id": "v:喫茶店:きっさてん",
+      "kana": "きっさてん",
+      "kanji": "喫茶店",
+      "hv": "KHIẾT TRÀ ĐIẾM",
+      "vi": "quán cà phê",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phố phường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "喫茶店[きっさてん]でコーヒーを飲[の]みます。",
+          "vi": "Tôi uống cà phê ở quán."
+        }
+      ]
+    },
+    {
+      "id": "v:八百屋:やおや",
+      "kana": "やおや",
+      "kanji": "八百屋",
+      "hv": "BÁT BÁCH ỐC",
+      "vi": "cửa hàng rau",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phố phường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "八百屋[やおや]で野菜[やさい]を買[か]います。",
+          "vi": "Tôi mua rau ở cửa hàng rau."
+        }
+      ],
+      "confuse": [
+        "v:本屋:ほんや"
+      ]
+    },
+    {
+      "id": "v:本屋:ほんや",
+      "kana": "ほんや",
+      "kanji": "本屋",
+      "hv": "BẢN ỐC",
+      "vi": "hiệu sách",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phố phường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "本屋[ほんや]で辞書[じしょ]を買[か]いました。",
+          "vi": "Tôi đã mua từ điển ở hiệu sách."
+        }
+      ],
+      "confuse": [
+        "v:八百屋:やおや"
+      ],
+      "note": "Đuôi 屋[や] = cửa hàng: 魚屋[さかなや], 花屋[はなや], パン屋[や]."
+    },
+    {
+      "id": "v:大使館:たいしかん",
+      "kana": "たいしかん",
+      "kanji": "大使館",
+      "hv": "ĐẠI SỨ QUÁN",
+      "vi": "đại sứ quán",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phố phường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "パスポートの更新[こうしん]は大使館[たいしかん]でします。",
+          "vi": "Gia hạn hộ chiếu thì làm ở đại sứ quán."
+        }
+      ],
+      "note": "Đại sứ quán Việt Nam ở Tokyo; Tổng lãnh sự quán ở Osaka."
+    },
+    {
+      "id": "v:切符:きっぷ",
+      "kana": "きっぷ",
+      "kanji": "切符",
+      "hv": "THIẾT PHÙ",
+      "vi": "vé (tàu, xe)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phố phường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "駅[えき]で切符[きっぷ]を買[か]います。",
+          "vi": "Tôi mua vé ở ga."
+        }
+      ],
+      "note": "Đi tàu bằng thẻ IC (ICOCA ở Kansai) thì không cần mua 切符[きっぷ].",
+      "ctr": "枚"
+    },
+    {
+      "id": "v:地図:ちず",
+      "kana": "ちず",
+      "kanji": "地図",
+      "hv": "ĐỊA ĐỒ",
+      "vi": "bản đồ",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phố phường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "地図[ちず]を書[か]いてください。",
+          "vi": "Hãy vẽ bản đồ giúp tôi."
+        }
+      ],
+      "ctr": "枚"
+    },
+    {
+      "id": "v:橋:はし",
+      "kana": "はし",
+      "kanji": "橋",
+      "hv": "KIỀU",
+      "vi": "cây cầu",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phố phường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "橋[はし]を渡[わた]ると、工場[こうじょう]があります。",
+          "vi": "Qua cầu là đến nhà máy."
+        }
+      ],
+      "confuse": [
+        "v:箸:はし"
+      ],
+      "ctr": "本"
+    },
+    {
+      "id": "v:角:かど",
+      "kana": "かど",
+      "kanji": "角",
+      "hv": "GIÁC",
+      "vi": "góc (đường, bàn)",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phố phường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "次[つぎ]の角[かど]を右[みぎ]に曲[ま]がります。",
+          "vi": "Rẽ phải ở góc tiếp theo."
+        }
+      ]
+    },
+    {
+      "id": "v:建物:たてもの",
+      "kana": "たてもの",
+      "kanji": "建物",
+      "hv": "KIẾN VẬT",
+      "vi": "tòa nhà",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phố phường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "あの白[しろ]い建物[たてもの]が市役所[しやくしょ]です。",
+          "vi": "Tòa nhà trắng kia là ủy ban thành phố."
+        }
+      ]
+    },
+    {
+      "id": "v:力:ちから",
+      "kana": "ちから",
+      "kanji": "力",
+      "hv": "LỰC",
+      "vi": "sức lực, sức mạnh",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ thường gặp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この箱[はこ]は力[ちから]が要[い]ります。",
+          "vi": "Cái hộp này cần sức mới khiêng được."
+        }
+      ]
+    },
+    {
+      "id": "v:火:ひ",
+      "kana": "ひ",
+      "kanji": "火",
+      "hv": "HỎA",
+      "vi": "lửa",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ thường gặp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "火[ひ]を消[け]してください。",
+          "vi": "Hãy tắt lửa."
+        }
+      ],
+      "note": "Chữ 火[ひ] trong 火曜日[かようび] đọc か."
+    },
+    {
+      "id": "v:線:せん",
+      "kana": "せん",
+      "kanji": "線",
+      "hv": "TUYẾN",
+      "vi": "đường kẻ, vạch; tuyến (tàu)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ thường gặp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "白[しろ]い線[せん]の前[まえ]で止[と]まってください。",
+          "vi": "Hãy dừng trước vạch trắng."
+        }
+      ]
+    },
+    {
+      "id": "v:日:ひ",
+      "kana": "ひ",
+      "kanji": "日",
+      "hv": "NHẬT",
+      "vi": "ngày; mặt trời",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ thường gặp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "休[やす]みの日[ひ]は何[なに]をしますか。",
+          "vi": "Ngày nghỉ bạn làm gì?"
+        }
+      ],
+      "note": "Chữ 日[ひ] có nhiều cách đọc: にち (日曜日[にちようび]), か (三日[みっか]), び (誕生日[たんじょうび])."
+    },
+    {
+      "id": "v:月:つき",
+      "kana": "つき",
+      "kanji": "月",
+      "hv": "NGUYỆT",
+      "vi": "mặt trăng; tháng",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ thường gặp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今夜[こんや]は月[つき]がきれいです。",
+          "vi": "Tối nay trăng đẹp."
+        }
+      ],
+      "confuse": [
+        "v:月:がつ"
+      ]
+    },
+    {
+      "id": "v:字:じ",
+      "kana": "じ",
+      "kanji": "字",
+      "hv": "TỰ",
+      "vi": "chữ, nét chữ",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ thường gặp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "字[じ]をもっと大[おお]きく書[か]いてください。",
+          "vi": "Hãy viết chữ to hơn."
+        }
+      ],
+      "confuse": [
+        "v:漢字:かんじ"
+      ]
+    },
+    {
+      "id": "v:自分:じぶん",
+      "kana": "じぶん",
+      "kanji": "自分",
+      "hv": "TỰ PHÂN",
+      "vi": "bản thân, tự mình",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ thường gặp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "自分[じぶん]の道具[どうぐ]は自分[じぶん]で洗[あら]います。",
+          "vi": "Dụng cụ của mình thì tự mình rửa."
+        }
+      ]
+    }
+  ]
+}

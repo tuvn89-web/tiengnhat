@@ -1,0 +1,250 @@
+{
+  "schema": 1,
+  "pack": {
+    "id": "nguphap-n5-04",
+    "title": "Ngữ pháp N5 04 – Động từ thể ます & から〜まで",
+    "type": "grammar",
+    "level": "N5",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-11",
+    "verified_on": "",
+    "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức)."
+  },
+  "items": [
+    {
+      "id": "g:〜ます・〜ません",
+      "pattern": "〜ます・〜ません",
+      "level": "N5",
+      "meaning": "đuôi động từ lịch sự — hiện tại hoặc tương lai; khẳng định (làm) và phủ định (không làm)",
+      "structure": [
+        "V-ます: 食[た]べます, 行[い]きます, します",
+        "V-ません: 食[た]べません, 行[い]きません",
+        "Nhóm 1: đổi âm cuối u → i rồi thêm ます (書[か]く→書[か]きます, 飲[の]む→飲[の]みます, 待[ま]つ→待[ま]ちます)",
+        "Nhóm 2: bỏ る thêm ます (食[た]べる→食[た]べます, 起[お]きる→起[お]きます)",
+        "Nhóm 3: する→します, 来[く]る→来[き]ます"
+      ],
+      "explain": "Thể ます là dạng LỊCH SỰ của động từ, dùng với cấp trên, người lạ, ở quầy hành chính. Nó nói thói quen (毎日[まいにち]働[はたら]きます = ngày nào cũng làm), sự thật, hoặc việc sắp làm (明日[あした]行[い]きます = mai sẽ đi). Tiếng Nhật không có thì tương lai riêng — từ chỉ thời gian trong câu cho biết là bây giờ hay sắp tới.\n\nCách chia theo 3 nhóm. Nhóm 1: âm cuối hàng う đổi sang hàng い rồi thêm ます: 書[か]く→書[か]きます, 話[はな]す→話[はな]します, 買[か]う→買[か]います, 待[ま]つ→待[ま]ちます. Nhóm 2 (thường đuôi -iru/-eru): bỏ る thêm ます: 見[み]る→見[み]ます, 起[お]きる→起[お]きます. Bẫy: một số động từ trông giống nhóm 2 nhưng lại là nhóm 1: 帰[かえ]る→帰[かえ]ります, 入[はい]る→入[はい]ります, 走[はし]る→走[はし]ります, 知[し]る→知[し]ります, 切[き]る→切[き]ります. Nhóm 3 chỉ có hai: する→します, 来[く]る→来[き]ます (đọc きます).\n\nPhủ định: đổi ます thành ません. Mẹo nhớ: \"ます = có làm, ません = không làm\". Ở xưởng, nói đúng thể ます với quản đốc là đã đủ lịch sự, chưa cần kính ngữ.",
+      "casual": "Bạn bè, đồng nghiệp ngang hàng dùng thể từ điển và thể ない: 食[た]べる / 食[た]べない, 行[い]く / 行[い]かない. Kansai phủ định bằng 〜へん: 行[い]かへん, 食[た]べへん, せえへん (không làm), けえへん／こおへん (không đến).",
+      "compare": [
+        {
+          "pattern": "Thể từ điển (食[た]べる)",
+          "diff": "食[た]べます là lịch sự; 食[た]べる là thân mật và là dạng tra từ điển, cũng là dạng phải dùng trước các mẫu như 前[まえ]に, ことができる."
+        }
+      ],
+      "mistakes": [
+        "Chia 帰[かえ]る thành 帰[かえ]ます ✗ → 帰[かえ]ります (帰[かえ]る là nhóm 1).",
+        "Chia 来[く]る thành くます ✗ → きます.",
+        "Muốn nói 'tôi đang mệt' lại nói 疲[つか]れます ✗ → 疲[つか]れました."
+      ],
+      "ex": [
+        {
+          "jp": "毎朝[まいあさ]、ご飯[はん]を[[食[た]べます]]。",
+          "vi": "Sáng nào tôi cũng ăn cơm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "明日[あした]、銀行[ぎんこう]へ[[行[い]きます]]。",
+          "vi": "Ngày mai tôi đi ngân hàng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "八時[はちじ]から[[働[はたら]きます]]。",
+          "vi": "Tôi làm việc từ tám giờ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "お酒[さけ]は[[飲[の]みません]]。",
+          "vi": "Tôi không uống rượu.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今日[きょう]は残業[ざんぎょう]を[[しません]]。",
+          "vi": "Hôm nay không tăng ca.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "市役所[しやくしょ]で住民票[じゅうみんひょう]を[[取[と]ります]]。",
+          "vi": "Tôi lấy phiếu cư trú ở ủy ban thành phố.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "日曜日[にちようび]は何[なに]も[[しません]]。",
+          "vi": "Chủ nhật tôi không làm gì cả.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "このマグロは流水[りゅうすい]で[[解凍[かいとう]します]]。",
+          "vi": "Cá ngừ này rã đông bằng nước chảy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "在留[ざいりゅう]カードの更新[こうしん]は、来月[らいげつ][[申請[しんせい]します]]。",
+          "vi": "Tháng sau tôi nộp đơn gia hạn thẻ cư trú.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：明日[あした]も来[き]ますか。B：いいえ、明日[あした]は[[来[き]ません]]。休[やす]みです。",
+          "vi": "A: Mai anh cũng đến à? B: Không, mai tôi không đến. Tôi nghỉ.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:〜ました・〜ませんでした",
+      "pattern": "〜ました・〜ませんでした",
+      "level": "N5",
+      "meaning": "đuôi động từ lịch sự ở quá khứ — đã làm / đã không làm",
+      "structure": [
+        "V-ました: 食[た]べました, 行[い]きました",
+        "V-ませんでした: 食[た]べませんでした",
+        "Cách tạo: ます → ました; ません → ませんでした"
+      ],
+      "explain": "Muốn nói việc đã xảy ra, đổi ます thành ました: 食[た]べます → 食[た]べました (đã ăn). Phủ định quá khứ: ません thêm でした → 食[た]べませんでした (đã không ăn). Cách chia nhóm 1, 2, 3 giống hệt thể ます.\n\n〜ませんでした nói về một lần trong quá khứ đã KHÔNG làm, chuyện đã khép lại: 昨日[きのう]は行[い]きませんでした (hôm qua tôi đã không đi). Nếu ý là \"vẫn CHƯA làm\" (còn có thể làm) thì dùng まだ〜ていません — sẽ học ở mẫu もう/まだ. Người Việt hay lẫn hai ý này.\n\nỞ xưởng, báo cáo xong việc dùng thể ました rất nhiều: 終[お]わりました (xong rồi), 確認[かくにん]しました (đã kiểm tra), わかりました (đã hiểu). Mẹo nhớ: ました = \"đã\", ませんでした = \"đã không\".",
+      "casual": "Thân mật dùng thể た: 食[た]べた / 食[た]べなかった, 行[い]った / 行[い]かなかった. Kansai: 食[た]べへんかった, 行[い]かへんかった. Báo cáo thân mật với đàn anh: 「終[お]わった？」「終[お]わった」.",
+      "compare": [
+        {
+          "pattern": "まだ〜ていません",
+          "diff": "昨日[きのう]行[い]きませんでした = hôm qua đã không đi (chuyện xong rồi). まだ行[い]っていません = vẫn chưa đi (sẽ còn đi)."
+        }
+      ],
+      "mistakes": [
+        "Nói 'tôi chưa ăn' bằng 食[た]べませんでした ✗ → まだ食[た]べていません.",
+        "Trộn hai thể: 行[い]きなかった ✗ → 行[い]きませんでした (lịch sự) hoặc 行[い]かなかった (thân mật)."
+      ],
+      "ex": [
+        {
+          "jp": "昨日[きのう]、映画[えいが]を[[見[み]ました]]。",
+          "vi": "Hôm qua tôi đã xem phim.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今朝[けさ]、ご飯[はん]を[[食[た]べませんでした]]。",
+          "vi": "Sáng nay tôi đã không ăn cơm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "検品[けんぴん]が[[終[お]わりました]]。",
+          "vi": "Kiểm hàng xong rồi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "先週[せんしゅう]、大阪[おおさか]へ[[行[い]きました]]。",
+          "vi": "Tuần trước tôi đã đi Osaka.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "冷凍庫[れいとうこ]の温度[おんど]を[[確認[かくにん]しました]]。",
+          "vi": "Tôi đã kiểm tra nhiệt độ kho đông lạnh.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "先月[せんげつ]、住所[じゅうしょ]が[[変[か]わりました]]。",
+          "vi": "Tháng trước địa chỉ của tôi đã thay đổi.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "昨日[きのう]はどこへも[[行[い]きませんでした]]。",
+          "vi": "Hôm qua tôi không đi đâu cả.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今日[きょう]は金属探知機[きんぞくたんちき]が一度[いちど]も[[鳴[な]りませんでした]]。",
+          "vi": "Hôm nay máy dò kim loại không kêu lần nào.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "去年[きょねん]は確定申告[かくていしんこく]を[[しませんでした]]。",
+          "vi": "Năm ngoái tôi đã không khai thuế cuối năm.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：昨日[きのう]、何[なに]をしましたか。B：家[いえ]で[[休[やす]みました]]。",
+          "vi": "A: Hôm qua bạn đã làm gì? B: Tôi nghỉ ở nhà.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    },
+    {
+      "id": "g:〜から〜まで",
+      "pattern": "〜から〜まで",
+      "level": "N5",
+      "meaning": "từ … đến … (thời gian, nơi chốn)",
+      "structure": [
+        "N1 から N2 まで",
+        "9時[じ]から5時[じ]まで (từ 9 giờ đến 5 giờ)",
+        "家[いえ]から会社[かいしゃ]まで (từ nhà đến công ty)",
+        "Dùng riêng: N から (từ …) / N まで (đến …)"
+      ],
+      "explain": "から đánh dấu điểm BẮT ĐẦU, まで đánh dấu điểm KẾT THÚC. Dùng được cho cả thời gian (giờ, ngày, tháng) và nơi chốn. Hai từ đứng SAU danh từ, ngược với tiếng Việt: 9時[じ]から = từ 9 giờ.\n\nCó thể dùng riêng từng cái: 8時[じ]から働[はたら]きます (làm từ 8 giờ), 駅[えき]まで歩[ある]きます (đi bộ đến ga). Thêm です ngay sau まで để nói giờ mở cửa, giờ làm: 銀行[ぎんこう]は9時[じ]から3時[じ]までです.\n\nPhân biệt まで và までに (N4): まで = việc kéo dài LIÊN TỤC tới mốc đó (5時[じ]まで働[はたら]く = làm đến 5 giờ); までに = HẠN CHÓT, làm xong trước mốc (5時[じ]までに出[だ]す = nộp trước 5 giờ). Ở quầy hành chính hạn nộp luôn dùng までに. Mẹo nhớ: から = \"từ\", まで = \"đến\".",
+      "casual": "Khẩu ngữ giống hệt, chỉ bỏ です: 「何時[なんじ]まで？」「5時[じ]まで」. Kansai: 「何時[なんじ]までや？」.",
+      "compare": [
+        {
+          "pattern": "〜までに",
+          "diff": "まで: làm liên tục đến mốc (5時[じ]まで働[はたら]く). までに: hạn chót, xong trước mốc (金曜日[きんようび]までに出[だ]してください)."
+        }
+      ],
+      "mistakes": [
+        "Dùng まで cho hạn nộp giấy tờ: 金曜日[きんようび]まで出[だ]してください (dễ hiểu sai) → 金曜日[きんようび]までに出[だ]してください.",
+        "Đặt から trước danh từ theo kiểu tiếng Việt: から9時[じ] ✗ → 9時[じ]から."
+      ],
+      "ex": [
+        {
+          "jp": "銀行[ぎんこう]は九時[くじ][[から]]三時[さんじ]までです。",
+          "vi": "Ngân hàng mở từ chín giờ đến ba giờ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "家[いえ]から駅[えき][[まで]]歩[ある]きます。",
+          "vi": "Tôi đi bộ từ nhà đến ga.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "仕事[しごと]は八時[はちじ][[から]]五時[ごじ]までです。",
+          "vi": "Giờ làm từ tám giờ đến năm giờ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "夏休[なつやす]みは八月[はちがつ]十日[とおか]から十六日[じゅうろくにち][[まで]]です。",
+          "vi": "Nghỉ hè từ ngày 10 đến ngày 16 tháng Tám.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "休憩[きゅうけい]は十二時[じゅうにじ]から一時[いちじ][[まで]]です。",
+          "vi": "Giờ nghỉ từ mười hai giờ đến một giờ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "窓口[まどぐち]は午前[ごぜん]八時半[はちじはん][[から]]です。",
+          "vi": "Quầy mở từ tám giờ rưỡi sáng.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "日本[にほん][[から]]ベトナムまで飛行機[ひこうき]で五時間[ごじかん]ぐらいです。",
+          "vi": "Từ Nhật về Việt Nam đi máy bay mất khoảng năm tiếng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "冷凍庫[れいとうこ][[から]]ラインまでカートで運[はこ]びます。",
+          "vi": "Chở bằng xe đẩy từ kho đông lạnh đến dây chuyền.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "在留期間[ざいりゅうきかん]は2027年[ねん]の三月[さんがつ][[まで]]です。",
+          "vi": "Thời hạn lưu trú đến tháng Ba năm 2027.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：今日[きょう]は何時[なんじ][[まで]]働[はたら]きますか。B：六時[ろくじ]までです。",
+          "vi": "A: Hôm nay anh làm đến mấy giờ? B: Đến sáu giờ.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "topics": []
+    }
+  ]
+}

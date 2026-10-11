@@ -1,0 +1,995 @@
+{
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n5-03",
+    "title": "JLPT N5 03 – Hôm nay, tuần này & tần suất",
+    "type": "vocab",
+    "level": "N5",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-11",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+  },
+  "items": [
+    {
+      "id": "v:今日:きょう",
+      "kana": "きょう",
+      "kanji": "今日",
+      "hv": "KIM NHẬT",
+      "vi": "hôm nay",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ngày",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]は寒[さむ]いですね。",
+          "vi": "Hôm nay lạnh nhỉ."
+        }
+      ],
+      "confuse": [
+        "v:明日:あした",
+        "v:昨日:きのう"
+      ]
+    },
+    {
+      "id": "v:明日:あした",
+      "kana": "あした",
+      "kanji": "明日",
+      "hv": "MINH NHẬT",
+      "vi": "ngày mai",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ngày",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "明日[あした]は六時[ろくじ]に来[き]てください。",
+          "vi": "Ngày mai hãy đến lúc sáu giờ."
+        }
+      ],
+      "confuse": [
+        "v:昨日:きのう",
+        "v:あさって:あさって"
+      ],
+      "note": "Văn trang trọng đọc là あす."
+    },
+    {
+      "id": "v:昨日:きのう",
+      "kana": "きのう",
+      "kanji": "昨日",
+      "hv": "TẠC NHẬT",
+      "vi": "hôm qua",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ngày",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "昨日[きのう]、スーパーへ行[い]きました。",
+          "vi": "Hôm qua tôi đã đi siêu thị."
+        }
+      ],
+      "confuse": [
+        "v:明日:あした",
+        "v:おととい:おととい"
+      ]
+    },
+    {
+      "id": "v:あさって:あさって",
+      "kana": "あさって",
+      "kanji": "",
+      "hv": "",
+      "vi": "ngày kia",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ngày",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "あさっては休[やす]みです。",
+          "vi": "Ngày kia là ngày nghỉ."
+        }
+      ],
+      "confuse": [
+        "v:おととい:おととい",
+        "v:明日:あした"
+      ],
+      "note": "Chữ Hán: 明後日[あさって]."
+    },
+    {
+      "id": "v:おととい:おととい",
+      "kana": "おととい",
+      "kanji": "",
+      "hv": "",
+      "vi": "hôm kia",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ngày",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "おととい、新[あたら]しい靴[くつ]を買[か]いました。",
+          "vi": "Hôm kia tôi đã mua giày mới."
+        }
+      ],
+      "confuse": [
+        "v:あさって:あさって",
+        "v:昨日:きのう"
+      ],
+      "note": "Chữ Hán: 一昨日[おととい]."
+    },
+    {
+      "id": "v:毎日:まいにち",
+      "kana": "まいにち",
+      "kanji": "毎日",
+      "hv": "MỖI NHẬT",
+      "vi": "mỗi ngày",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lặp lại",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎日[まいにち]、自転車[じてんしゃ]で会社[かいしゃ]へ行[い]きます。",
+          "vi": "Ngày nào tôi cũng đi làm bằng xe đạp."
+        }
+      ],
+      "confuse": [
+        "v:毎朝:まいあさ"
+      ]
+    },
+    {
+      "id": "v:毎朝:まいあさ",
+      "kana": "まいあさ",
+      "kanji": "毎朝",
+      "hv": "MỖI TRIÊU",
+      "vi": "mỗi sáng",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lặp lại",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎朝[まいあさ]、ご飯[はん]を食[た]べます。",
+          "vi": "Sáng nào tôi cũng ăn cơm."
+        }
+      ],
+      "confuse": [
+        "v:毎晩:まいばん",
+        "v:今朝:けさ"
+      ]
+    },
+    {
+      "id": "v:毎晩:まいばん",
+      "kana": "まいばん",
+      "kanji": "毎晩",
+      "hv": "MỖI VÃN",
+      "vi": "mỗi tối",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lặp lại",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎晩[まいばん]、家族[かぞく]に電話[でんわ]します。",
+          "vi": "Tối nào tôi cũng gọi điện cho gia đình."
+        }
+      ],
+      "confuse": [
+        "v:毎朝:まいあさ",
+        "v:今晩:こんばん"
+      ]
+    },
+    {
+      "id": "v:朝:あさ",
+      "kana": "あさ",
+      "kanji": "朝",
+      "hv": "TRIÊU",
+      "vi": "buổi sáng",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Buổi trong ngày",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "朝[あさ]、シャワーを浴[あ]びます。",
+          "vi": "Buổi sáng tôi tắm vòi sen."
+        }
+      ],
+      "confuse": [
+        "v:昼:ひる"
+      ]
+    },
+    {
+      "id": "v:昼:ひる",
+      "kana": "ひる",
+      "kanji": "昼",
+      "hv": "TRÚ",
+      "vi": "buổi trưa; ban ngày",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Buổi trong ngày",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "昼[ひる]は食堂[しょくどう]で食[た]べます。",
+          "vi": "Buổi trưa tôi ăn ở nhà ăn."
+        }
+      ],
+      "confuse": [
+        "v:朝:あさ",
+        "v:夜:よる"
+      ],
+      "note": "昼[ひる] còn có nghĩa là bữa trưa (昼[ひる]ご飯[はん])."
+    },
+    {
+      "id": "v:晩:ばん",
+      "kana": "ばん",
+      "kanji": "晩",
+      "hv": "VÃN",
+      "vi": "buổi tối",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Buổi trong ngày",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "晩[ばん]は家[いえ]にいます。",
+          "vi": "Buổi tối tôi ở nhà."
+        }
+      ],
+      "confuse": [
+        "v:朝:あさ"
+      ],
+      "syn": [
+        "v:夜:よる"
+      ]
+    },
+    {
+      "id": "v:夜:よる",
+      "kana": "よる",
+      "kanji": "夜",
+      "hv": "DẠ",
+      "vi": "ban đêm; buổi tối",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Buổi trong ngày",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "夜[よる]、一人[ひとり]で歩[ある]かないでください。",
+          "vi": "Ban đêm đừng đi bộ một mình."
+        }
+      ],
+      "confuse": [
+        "v:昼:ひる"
+      ],
+      "syn": [
+        "v:晩:ばん"
+      ]
+    },
+    {
+      "id": "v:夕方:ゆうがた",
+      "kana": "ゆうがた",
+      "kanji": "夕方",
+      "hv": "TỊCH PHƯƠNG",
+      "vi": "chiều tối (lúc hoàng hôn)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Buổi trong ngày",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "夕方[ゆうがた]から雨[あめ]が降[ふ]ります。",
+          "vi": "Từ chiều tối trời sẽ mưa."
+        }
+      ],
+      "confuse": [
+        "v:午後:ごご"
+      ]
+    },
+    {
+      "id": "v:今朝:けさ",
+      "kana": "けさ",
+      "kanji": "今朝",
+      "hv": "KIM TRIÊU",
+      "vi": "sáng nay",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ngày",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今朝[けさ]、何[なに]を食[た]べましたか。",
+          "vi": "Sáng nay bạn đã ăn gì?"
+        }
+      ],
+      "confuse": [
+        "v:今晩:こんばん",
+        "v:毎朝:まいあさ"
+      ]
+    },
+    {
+      "id": "v:今晩:こんばん",
+      "kana": "こんばん",
+      "kanji": "今晩",
+      "hv": "KIM VÃN",
+      "vi": "tối nay",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ngày",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今晩[こんばん]は寒[さむ]くなります。",
+          "vi": "Tối nay trời sẽ lạnh."
+        }
+      ],
+      "confuse": [
+        "v:今朝:けさ"
+      ],
+      "note": "Lời chào buổi tối こんばんは cũng từ chữ này."
+    },
+    {
+      "id": "v:今週:こんしゅう",
+      "kana": "こんしゅう",
+      "kanji": "今週",
+      "hv": "KIM CHU",
+      "vi": "tuần này",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tuần",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今週[こんしゅう]は忙[いそが]しいです。",
+          "vi": "Tuần này bận."
+        }
+      ],
+      "confuse": [
+        "v:先週:せんしゅう",
+        "v:来週:らいしゅう"
+      ]
+    },
+    {
+      "id": "v:先週:せんしゅう",
+      "kana": "せんしゅう",
+      "kanji": "先週",
+      "hv": "TIÊN CHU",
+      "vi": "tuần trước",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tuần",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "先週[せんしゅう]、大阪[おおさか]へ行[い]きました。",
+          "vi": "Tuần trước tôi đã đi Osaka."
+        }
+      ],
+      "confuse": [
+        "v:来週:らいしゅう",
+        "v:今週:こんしゅう"
+      ]
+    },
+    {
+      "id": "v:来週:らいしゅう",
+      "kana": "らいしゅう",
+      "kanji": "来週",
+      "hv": "LAI CHU",
+      "vi": "tuần sau",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tuần",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来週[らいしゅう]から夜[よる]のシフトです。",
+          "vi": "Từ tuần sau tôi làm ca đêm."
+        }
+      ],
+      "confuse": [
+        "v:先週:せんしゅう",
+        "v:今週:こんしゅう"
+      ]
+    },
+    {
+      "id": "v:毎週:まいしゅう",
+      "kana": "まいしゅう",
+      "kanji": "毎週",
+      "hv": "MỖI CHU",
+      "vi": "hằng tuần",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lặp lại",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎週[まいしゅう]、日本語[にほんご]を勉強[べんきょう]します。",
+          "vi": "Tuần nào tôi cũng học tiếng Nhật."
+        }
+      ],
+      "confuse": [
+        "v:今週:こんしゅう"
+      ]
+    },
+    {
+      "id": "v:今月:こんげつ",
+      "kana": "こんげつ",
+      "kanji": "今月",
+      "hv": "KIM NGUYỆT",
+      "vi": "tháng này",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tháng, năm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今月[こんげつ]は休[やす]みが多[おお]いです。",
+          "vi": "Tháng này có nhiều ngày nghỉ."
+        }
+      ],
+      "confuse": [
+        "v:先月:せんげつ",
+        "v:来月:らいげつ"
+      ]
+    },
+    {
+      "id": "v:先月:せんげつ",
+      "kana": "せんげつ",
+      "kanji": "先月",
+      "hv": "TIÊN NGUYỆT",
+      "vi": "tháng trước",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tháng, năm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "先月[せんげつ]、ビザを更新[こうしん]しました。",
+          "vi": "Tháng trước tôi đã gia hạn visa."
+        }
+      ],
+      "confuse": [
+        "v:来月:らいげつ",
+        "v:今月:こんげつ"
+      ]
+    },
+    {
+      "id": "v:来月:らいげつ",
+      "kana": "らいげつ",
+      "kanji": "来月",
+      "hv": "LAI NGUYỆT",
+      "vi": "tháng sau",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tháng, năm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来月[らいげつ]、国[くに]へ帰[かえ]ります。",
+          "vi": "Tháng sau tôi về nước."
+        }
+      ],
+      "confuse": [
+        "v:先月:せんげつ",
+        "v:今月:こんげつ"
+      ]
+    },
+    {
+      "id": "v:毎月:まいつき",
+      "kana": "まいつき",
+      "kanji": "毎月",
+      "hv": "MỖI NGUYỆT",
+      "vi": "hằng tháng",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lặp lại",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎月[まいつき]、国[くに]にお金[かね]を送[おく]ります。",
+          "vi": "Tháng nào tôi cũng gửi tiền về nước."
+        }
+      ],
+      "confuse": [
+        "v:今月:こんげつ"
+      ],
+      "note": "Còn đọc まいげつ (ít dùng hơn)."
+    },
+    {
+      "id": "v:今年:ことし",
+      "kana": "ことし",
+      "kanji": "今年",
+      "hv": "KIM NIÊN",
+      "vi": "năm nay",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tháng, năm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今年[ことし]の夏[なつ]は暑[あつ]いです。",
+          "vi": "Mùa hè năm nay nóng."
+        }
+      ],
+      "confuse": [
+        "v:去年:きょねん",
+        "v:来年:らいねん"
+      ]
+    },
+    {
+      "id": "v:去年:きょねん",
+      "kana": "きょねん",
+      "kanji": "去年",
+      "hv": "KHỨ NIÊN",
+      "vi": "năm ngoái",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tháng, năm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "去年[きょねん]、日本[にほん]へ来[き]ました。",
+          "vi": "Năm ngoái tôi đã đến Nhật."
+        }
+      ],
+      "confuse": [
+        "v:来年:らいねん",
+        "v:今年:ことし"
+      ]
+    },
+    {
+      "id": "v:来年:らいねん",
+      "kana": "らいねん",
+      "kanji": "来年",
+      "hv": "LAI NIÊN",
+      "vi": "năm sau",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tháng, năm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来年[らいねん]も日本[にほん]で働[はたら]きます。",
+          "vi": "Năm sau tôi vẫn làm việc ở Nhật."
+        }
+      ],
+      "confuse": [
+        "v:去年:きょねん",
+        "v:今年:ことし"
+      ]
+    },
+    {
+      "id": "v:毎年:まいとし",
+      "kana": "まいとし",
+      "kanji": "毎年",
+      "hv": "MỖI NIÊN",
+      "vi": "hằng năm",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lặp lại",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎年[まいとし]、お正月[しょうがつ]に国[くに]へ帰[かえ]ります。",
+          "vi": "Năm nào tôi cũng về nước dịp Tết."
+        }
+      ],
+      "confuse": [
+        "v:今年:ことし"
+      ],
+      "note": "Còn đọc まいねん."
+    },
+    {
+      "id": "v:後:あと",
+      "kana": "あと",
+      "kanji": "後",
+      "hv": "HẬU",
+      "vi": "sau, lát nữa",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mốc thời gian",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "後[あと]で電話[でんわ]します。",
+          "vi": "Lát nữa tôi sẽ gọi điện."
+        }
+      ],
+      "confuse": [
+        "v:前:まえ"
+      ],
+      "note": "後[あと] còn đọc ご (午後[ごご]), うしろ (後[うし]ろ = phía sau)."
+    },
+    {
+      "id": "v:いつ:いつ",
+      "kana": "いつ",
+      "kanji": "",
+      "hv": "",
+      "vi": "khi nào",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Hỏi thời gian",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "いつ国[くに]へ帰[かえ]りますか。",
+          "vi": "Khi nào bạn về nước?"
+        }
+      ],
+      "confuse": [
+        "v:いつも:いつも"
+      ]
+    },
+    {
+      "id": "v:いつも:いつも",
+      "kana": "いつも",
+      "kanji": "",
+      "hv": "",
+      "vi": "luôn luôn, lúc nào cũng",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tần suất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "いつも七時[しちじ]に家[いえ]を出[で]ます。",
+          "vi": "Lúc nào tôi cũng ra khỏi nhà lúc bảy giờ."
+        }
+      ],
+      "confuse": [
+        "v:いつ:いつ",
+        "v:よく:よく"
+      ]
+    },
+    {
+      "id": "v:時々:ときどき",
+      "kana": "ときどき",
+      "kanji": "時々",
+      "hv": "THỜI THỜI",
+      "vi": "thỉnh thoảng",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tần suất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "時々[ときどき]、料理[りょうり]を作[つく]ります。",
+          "vi": "Thỉnh thoảng tôi nấu ăn."
+        }
+      ],
+      "confuse": [
+        "v:よく:よく",
+        "v:いつも:いつも"
+      ],
+      "note": "々[のま] là dấu lặp lại chữ đứng trước: 時々[ときどき] = 時[とき]時[どき]."
+    },
+    {
+      "id": "v:よく:よく",
+      "kana": "よく",
+      "kanji": "",
+      "hv": "",
+      "vi": "thường, hay; kỹ, tốt",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tần suất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "よく魚[さかな]を食[た]べます。",
+          "vi": "Tôi hay ăn cá."
+        }
+      ],
+      "confuse": [
+        "v:時々:ときどき"
+      ],
+      "note": "Nghĩa khác: よく洗[あら]ってください = hãy rửa thật kỹ."
+    },
+    {
+      "id": "v:たいてい:たいてい",
+      "kana": "たいてい",
+      "kanji": "",
+      "hv": "",
+      "vi": "thường thì, phần lớn",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tần suất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "休[やす]みの日[ひ]はたいてい家[いえ]にいます。",
+          "vi": "Ngày nghỉ tôi thường ở nhà."
+        }
+      ],
+      "confuse": [
+        "v:いつも:いつも"
+      ]
+    },
+    {
+      "id": "v:あまり:あまり",
+      "kana": "あまり",
+      "kanji": "",
+      "hv": "",
+      "vi": "(không) … lắm",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tần suất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "肉[にく]はあまり食[た]べません。",
+          "vi": "Tôi không ăn thịt mấy."
+        }
+      ],
+      "confuse": [
+        "v:全然:ぜんぜん"
+      ],
+      "note": "Đi với câu phủ định: あまり〜ません.",
+      "with": "phudinh"
+    },
+    {
+      "id": "v:全然:ぜんぜん",
+      "kana": "ぜんぜん",
+      "kanji": "全然",
+      "hv": "TOÀN NHIÊN",
+      "vi": "hoàn toàn (không)",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tần suất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "全然[ぜんぜん]わかりません。",
+          "vi": "Tôi hoàn toàn không hiểu."
+        }
+      ],
+      "confuse": [
+        "v:あまり:あまり"
+      ],
+      "note": "Đi với câu phủ định. Khẩu ngữ giới trẻ có dùng với câu khẳng định (全然[ぜんぜん]大丈夫[だいじょうぶ]).",
+      "with": "phudinh"
+    },
+    {
+      "id": "v:すぐ:すぐ",
+      "kana": "すぐ",
+      "kanji": "",
+      "hv": "",
+      "vi": "ngay, liền",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mốc thời gian",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "すぐ来[き]てください。",
+          "vi": "Hãy đến ngay."
+        }
+      ],
+      "note": "Còn nghĩa \"rất gần\": 駅[えき]はすぐそこです."
+    },
+    {
+      "id": "v:もう:もう",
+      "kana": "もう",
+      "kanji": "",
+      "hv": "",
+      "vi": "đã, rồi",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mốc thời gian",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "もう終[お]わりましたか。",
+          "vi": "Xong rồi à?"
+        }
+      ],
+      "confuse": [
+        "v:まだ:まだ"
+      ],
+      "note": "もう一度[いちど] = thêm một lần nữa."
+    },
+    {
+      "id": "v:まだ:まだ",
+      "kana": "まだ",
+      "kanji": "",
+      "hv": "",
+      "vi": "vẫn còn; chưa",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mốc thời gian",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "まだ終[お]わっていません。",
+          "vi": "Vẫn chưa xong."
+        }
+      ],
+      "confuse": [
+        "v:もう:もう"
+      ]
+    },
+    {
+      "id": "v:これから:これから",
+      "kana": "これから",
+      "kanji": "",
+      "hv": "",
+      "vi": "từ bây giờ, sắp tới",
+      "pos": "expr",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mốc thời gian",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "これから昼[ひる]ご飯[はん]です。",
+          "vi": "Bây giờ là đến giờ ăn trưa."
+        }
+      ]
+    },
+    {
+      "id": "v:初めて:はじめて",
+      "kana": "はじめて",
+      "kanji": "初めて",
+      "kf": "初[はじ]めて",
+      "hv": "SƠ",
+      "vi": "lần đầu tiên",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mốc thời gian",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "初[はじ]めて刺身[さしみ]を食[た]べました。",
+          "vi": "Lần đầu tiên tôi ăn sashimi."
+        }
+      ]
+    },
+    {
+      "id": "v:何時間:なんじかん",
+      "kana": "なんじかん",
+      "kanji": "何時間",
+      "hv": "HÀ THỜI GIAN",
+      "vi": "mấy tiếng",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Hỏi thời gian",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎日[まいにち]何時間[なんじかん]働[はたら]きますか。",
+          "vi": "Mỗi ngày bạn làm mấy tiếng?"
+        }
+      ],
+      "confuse": [
+        "v:何時:なんじ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,782 @@
+{
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n5-14",
+    "title": "JLPT N5 14 – Từ để hỏi, phó từ & từ nối",
+    "type": "vocab",
+    "level": "N5",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-11",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+  },
+  "items": [
+    {
+      "id": "v:何:なに",
+      "kana": "なに",
+      "kanji": "何",
+      "hv": "HÀ",
+      "vi": "cái gì",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ để hỏi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このボタンは何[なん]ですか。",
+          "vi": "Cái nút này là gì?"
+        }
+      ],
+      "note": "Đọc なに (何[なに]を, 何[なに]が) hoặc なん (trước です, の, trợ số từ: 何[なん]ですか, 何時[なんじ], 何人[なんにん])."
+    },
+    {
+      "id": "v:どこ:どこ",
+      "kana": "どこ",
+      "kanji": "",
+      "hv": "",
+      "vi": "ở đâu",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ để hỏi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ロッカーはどこですか。",
+          "vi": "Tủ đồ ở đâu?"
+        }
+      ],
+      "confuse": [
+        "v:どれ:どれ"
+      ]
+    },
+    {
+      "id": "v:どれ:どれ",
+      "kana": "どれ",
+      "kanji": "",
+      "hv": "",
+      "vi": "cái nào (trong 3 thứ trở lên)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ để hỏi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "あなたの傘[かさ]はどれですか。",
+          "vi": "Ô của bạn là cái nào?"
+        }
+      ],
+      "confuse": [
+        "v:どの:どの",
+        "v:どちら:どちら"
+      ],
+      "note": "Đứng một mình. Trước danh từ dùng どの."
+    },
+    {
+      "id": "v:どの:どの",
+      "kana": "どの",
+      "kanji": "",
+      "hv": "",
+      "vi": "… nào (đứng trước danh từ)",
+      "pos": "other",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ để hỏi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "どの箱[はこ]を使[つか]いますか。",
+          "vi": "Dùng hộp nào?"
+        }
+      ],
+      "confuse": [
+        "v:どれ:どれ"
+      ]
+    },
+    {
+      "id": "v:どちら:どちら",
+      "kana": "どちら",
+      "kanji": "",
+      "hv": "",
+      "vi": "cái nào (trong 2 thứ); ở đâu (lịch sự)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ để hỏi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "コーヒーと紅茶[こうちゃ]と、どちらがいいですか。",
+          "vi": "Cà phê và trà, bạn chọn cái nào?"
+        }
+      ],
+      "confuse": [
+        "v:どれ:どれ"
+      ],
+      "note": "Khẩu ngữ: どっち."
+    },
+    {
+      "id": "v:どう:どう",
+      "kana": "どう",
+      "kanji": "",
+      "hv": "",
+      "vi": "thế nào",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ để hỏi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]はどうですか。",
+          "vi": "Công việc thế nào?"
+        }
+      ],
+      "confuse": [
+        "v:どんな:どんな"
+      ]
+    },
+    {
+      "id": "v:どうして:どうして",
+      "kana": "どうして",
+      "kanji": "",
+      "hv": "",
+      "vi": "tại sao",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ để hỏi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "どうして遅[おく]れましたか。",
+          "vi": "Tại sao bạn đến muộn?"
+        }
+      ],
+      "syn": [
+        "v:なぜ:なぜ"
+      ]
+    },
+    {
+      "id": "v:なぜ:なぜ",
+      "kana": "なぜ",
+      "kanji": "",
+      "hv": "",
+      "vi": "tại sao (trang trọng hơn)",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ để hỏi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "なぜ日本[にほん]へ来[き]ましたか。",
+          "vi": "Tại sao bạn đến Nhật?"
+        }
+      ],
+      "syn": [
+        "v:どうして:どうして"
+      ]
+    },
+    {
+      "id": "v:どんな:どんな",
+      "kana": "どんな",
+      "kanji": "",
+      "hv": "",
+      "vi": "… như thế nào, loại gì",
+      "pos": "other",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ để hỏi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "どんな仕事[しごと]をしていますか。",
+          "vi": "Bạn đang làm công việc gì?"
+        }
+      ],
+      "confuse": [
+        "v:どう:どう"
+      ]
+    },
+    {
+      "id": "v:何人:なんにん",
+      "kana": "なんにん",
+      "kanji": "何人",
+      "hv": "HÀ NHÂN",
+      "vi": "mấy người",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ để hỏi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このラインは何人[なんにん]ですか。",
+          "vi": "Dây chuyền này có mấy người?"
+        }
+      ]
+    },
+    {
+      "id": "v:とても:とても",
+      "kana": "とても",
+      "kanji": "",
+      "hv": "",
+      "vi": "rất",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]はとても寒[さむ]いです。",
+          "vi": "Hôm nay rất lạnh."
+        }
+      ],
+      "confuse": [
+        "v:少し:すこし"
+      ],
+      "note": "Kansai hay nói めっちゃ."
+    },
+    {
+      "id": "v:少し:すこし",
+      "kana": "すこし",
+      "kanji": "少し",
+      "kf": "少[すこ]し",
+      "hv": "THIẾU",
+      "vi": "một chút, một ít",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "少[すこ]し待[ま]ってください。",
+          "vi": "Xin đợi một chút."
+        }
+      ],
+      "confuse": [
+        "v:たくさん:たくさん",
+        "v:とても:とても"
+      ],
+      "syn": [
+        "v:ちょっと:ちょっと"
+      ]
+    },
+    {
+      "id": "v:たくさん:たくさん",
+      "kana": "たくさん",
+      "kanji": "",
+      "hv": "",
+      "vi": "nhiều",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]はサーモンをたくさん切[き]りました。",
+          "vi": "Hôm nay tôi đã cắt rất nhiều cá hồi."
+        }
+      ],
+      "confuse": [
+        "v:少し:すこし"
+      ]
+    },
+    {
+      "id": "v:ちょっと:ちょっと",
+      "kana": "ちょっと",
+      "kanji": "",
+      "hv": "",
+      "vi": "một chút; (từ chối khéo) hơi …",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ちょっといいですか。",
+          "vi": "Cho tôi hỏi chút được không?"
+        }
+      ],
+      "syn": [
+        "v:少し:すこし"
+      ],
+      "note": "明日[あした]はちょっと… = ngày mai thì hơi… (từ chối khéo, không nói hết câu)."
+    },
+    {
+      "id": "v:一緒に:いっしょに",
+      "kana": "いっしょに",
+      "kanji": "一緒に",
+      "kf": "一緒[いっしょ]に",
+      "hv": "NHẤT TỰ",
+      "vi": "cùng nhau",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cách thức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "一緒[いっしょ]に昼[ひる]ご飯[はん]を食[た]べませんか。",
+          "vi": "Cùng ăn trưa nhé?"
+        }
+      ]
+    },
+    {
+      "id": "v:全部:ぜんぶ",
+      "kana": "ぜんぶ",
+      "kanji": "全部",
+      "hv": "TOÀN BỘ",
+      "vi": "tất cả, toàn bộ",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "全部[ぜんぶ]でいくらですか。",
+          "vi": "Tất cả bao nhiêu tiền?"
+        }
+      ],
+      "confuse": [
+        "v:たくさん:たくさん"
+      ]
+    },
+    {
+      "id": "v:一番:いちばん",
+      "kana": "いちばん",
+      "kanji": "一番",
+      "hv": "NHẤT PHIÊN",
+      "vi": "nhất; số một",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この中[なか]で何[なに]が一番[いちばん]好[す]きですか。",
+          "vi": "Trong số này bạn thích cái nào nhất?"
+        }
+      ]
+    },
+    {
+      "id": "v:本当に:ほんとうに",
+      "kana": "ほんとうに",
+      "kanji": "本当に",
+      "kf": "本当[ほんとう]に",
+      "hv": "BẢN ĐƯƠNG",
+      "vi": "thật sự",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "本当[ほんとう]にありがとうございました。",
+          "vi": "Thật sự cảm ơn anh rất nhiều."
+        }
+      ],
+      "note": "Kansai: ほんまに."
+    },
+    {
+      "id": "v:ゆっくり:ゆっくり",
+      "kana": "ゆっくり",
+      "kanji": "",
+      "hv": "",
+      "vi": "chậm rãi, thong thả",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cách thức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ゆっくり休[やす]んでください。",
+          "vi": "Hãy nghỉ ngơi cho thoải mái."
+        }
+      ]
+    },
+    {
+      "id": "v:まっすぐ:まっすぐ",
+      "kana": "まっすぐ",
+      "kanji": "",
+      "hv": "",
+      "vi": "thẳng",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cách thức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "まっすぐ行[い]ってください。",
+          "vi": "Hãy đi thẳng."
+        }
+      ]
+    },
+    {
+      "id": "v:だんだん:だんだん",
+      "kana": "だんだん",
+      "kanji": "",
+      "hv": "",
+      "vi": "dần dần",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cách thức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "だんだん寒[さむ]くなりました。",
+          "vi": "Trời lạnh dần rồi."
+        }
+      ]
+    },
+    {
+      "id": "v:また:また",
+      "kana": "また",
+      "kanji": "",
+      "hv": "",
+      "vi": "lại; lần nữa",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cách thức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "また明日[あした]。",
+          "vi": "Hẹn mai gặp lại."
+        }
+      ],
+      "confuse": [
+        "v:一度:いちど"
+      ]
+    },
+    {
+      "id": "v:もっと:もっと",
+      "kana": "もっと",
+      "kanji": "",
+      "hv": "",
+      "vi": "hơn nữa",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "もっとゆっくり話[はな]してください。",
+          "vi": "Hãy nói chậm hơn nữa."
+        }
+      ]
+    },
+    {
+      "id": "v:多分:たぶん",
+      "kana": "たぶん",
+      "kanji": "多分",
+      "hv": "ĐA PHÂN",
+      "vi": "có lẽ",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phỏng đoán",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "多分[たぶん]、明日[あした]は雨[あめ]でしょう。",
+          "vi": "Có lẽ ngày mai trời mưa."
+        }
+      ],
+      "confuse": [
+        "v:大体:だいたい"
+      ]
+    },
+    {
+      "id": "v:大体:だいたい",
+      "kana": "だいたい",
+      "kanji": "大体",
+      "hv": "ĐẠI THỂ",
+      "vi": "đại khái, phần lớn",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phỏng đoán",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]は大体[だいたい]わかりました。",
+          "vi": "Công việc thì tôi hiểu đại khái rồi."
+        }
+      ],
+      "confuse": [
+        "v:多分:たぶん"
+      ]
+    },
+    {
+      "id": "v:先に:さきに",
+      "kana": "さきに",
+      "kanji": "先に",
+      "kf": "先[さき]に",
+      "hv": "TIÊN",
+      "vi": "trước (làm trước)",
+      "pos": "adv",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cách thức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "お先[さき]に失礼[しつれい]します。",
+          "vi": "Tôi xin phép về trước."
+        }
+      ],
+      "note": "Câu chào khi về trước đồng nghiệp — nói mỗi ngày ở xưởng."
+    },
+    {
+      "id": "v:一度:いちど",
+      "kana": "いちど",
+      "kanji": "一度",
+      "hv": "NHẤT ĐỘ",
+      "vi": "một lần",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cách thức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "もう一度[いちど]お願[ねが]いします。",
+          "vi": "Xin nói lại một lần nữa."
+        }
+      ],
+      "confuse": [
+        "v:また:また"
+      ]
+    },
+    {
+      "id": "v:そして:そして",
+      "kana": "そして",
+      "kanji": "",
+      "hv": "",
+      "vi": "và, rồi thì",
+      "pos": "other",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ nối",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "魚[さかな]を洗[あら]います。そして、皮[かわ]を取[と]ります。",
+          "vi": "Rửa cá. Rồi lột da."
+        }
+      ],
+      "confuse": [
+        "v:それから:それから"
+      ]
+    },
+    {
+      "id": "v:それから:それから",
+      "kana": "それから",
+      "kanji": "",
+      "hv": "",
+      "vi": "sau đó, tiếp theo",
+      "pos": "other",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ nối",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "手[て]を洗[あら]います。それから、手袋[てぶくろ]をします。",
+          "vi": "Rửa tay. Sau đó đeo găng."
+        }
+      ],
+      "confuse": [
+        "v:そして:そして"
+      ]
+    },
+    {
+      "id": "v:でも:でも",
+      "kana": "でも",
+      "kanji": "",
+      "hv": "",
+      "vi": "nhưng",
+      "pos": "other",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ nối",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]は大変[たいへん]です。でも、楽[たの]しいです。",
+          "vi": "Công việc vất vả. Nhưng vui."
+        }
+      ],
+      "syn": [
+        "v:しかし:しかし"
+      ]
+    },
+    {
+      "id": "v:しかし:しかし",
+      "kana": "しかし",
+      "kanji": "",
+      "hv": "",
+      "vi": "tuy nhiên",
+      "pos": "other",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ nối",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本語[にほんご]は難[むずか]しいです。しかし、面白[おもしろ]いです。",
+          "vi": "Tiếng Nhật khó. Tuy nhiên, thú vị."
+        }
+      ],
+      "syn": [
+        "v:でも:でも"
+      ],
+      "note": "Hay gặp trong văn viết, thông báo."
+    },
+    {
+      "id": "v:だから:だから",
+      "kana": "だから",
+      "kanji": "",
+      "hv": "",
+      "vi": "vì vậy, cho nên",
+      "pos": "other",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ nối",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "雨[あめ]です。だから、バスで行[い]きます。",
+          "vi": "Trời mưa. Vì vậy tôi đi xe buýt."
+        }
+      ]
+    },
+    {
+      "id": "v:じゃあ:じゃあ",
+      "kana": "じゃあ",
+      "kanji": "",
+      "hv": "",
+      "vi": "vậy thì",
+      "pos": "other",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Từ nối",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "じゃあ、始[はじ]めましょう。",
+          "vi": "Vậy thì bắt đầu thôi."
+        }
+      ],
+      "note": "Lịch sự hơn: では."
+    },
+    {
+      "id": "v:みんな:みんな",
+      "kana": "みんな",
+      "kanji": "",
+      "hv": "",
+      "vi": "mọi người; tất cả",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Con người",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "みんなで写真[しゃしん]を撮[と]りましょう。",
+          "vi": "Cả nhóm cùng chụp ảnh nhé."
+        }
+      ],
+      "confuse": [
+        "v:皆さん:みなさん"
+      ]
+    }
+  ]
+}

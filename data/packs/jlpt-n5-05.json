@@ -1,0 +1,967 @@
+{
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n5-05",
+    "title": "JLPT N5 05 – Cơ thể, sức khỏe & quần áo",
+    "type": "vocab",
+    "level": "N5",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-11",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức). 指[ゆび] ghi N4."
+  },
+  "items": [
+    {
+      "id": "v:体:からだ",
+      "kana": "からだ",
+      "kanji": "体",
+      "hv": "THỂ",
+      "vi": "cơ thể; sức khỏe",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cơ thể",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "体[からだ]に気[き]をつけてください。",
+          "vi": "Hãy giữ gìn sức khỏe."
+        }
+      ]
+    },
+    {
+      "id": "v:顔:かお",
+      "kana": "かお",
+      "kanji": "顔",
+      "hv": "NHAN",
+      "vi": "mặt",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cơ thể",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎朝[まいあさ]、顔[かお]を洗[あら]います。",
+          "vi": "Sáng nào tôi cũng rửa mặt."
+        }
+      ]
+    },
+    {
+      "id": "v:目:め",
+      "kana": "め",
+      "kanji": "目",
+      "hv": "MỤC",
+      "vi": "mắt",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cơ thể",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "目[め]が痛[いた]いです。",
+          "vi": "Tôi bị đau mắt."
+        }
+      ],
+      "confuse": [
+        "v:耳:みみ"
+      ],
+      "ctr": "つ"
+    },
+    {
+      "id": "v:耳:みみ",
+      "kana": "みみ",
+      "kanji": "耳",
+      "hv": "NHĨ",
+      "vi": "tai",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cơ thể",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "父[ちち]は耳[みみ]が悪[わる]いです。",
+          "vi": "Bố tôi bị lãng tai."
+        }
+      ],
+      "confuse": [
+        "v:目:め"
+      ],
+      "ctr": "つ"
+    },
+    {
+      "id": "v:鼻:はな",
+      "kana": "はな",
+      "kanji": "鼻",
+      "hv": "TỴ",
+      "vi": "mũi",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cơ thể",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "マスクは鼻[はな]までしてください。",
+          "vi": "Hãy đeo khẩu trang che cả mũi."
+        }
+      ],
+      "confuse": [
+        "v:花:はな",
+        "v:口:くち"
+      ],
+      "note": "Cùng âm はな với 花[はな] (hoa)."
+    },
+    {
+      "id": "v:口:くち",
+      "kana": "くち",
+      "kanji": "口",
+      "hv": "KHẨU",
+      "vi": "miệng",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cơ thể",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "口[くち]を開[あ]けてください。",
+          "vi": "Hãy há miệng ra."
+        }
+      ],
+      "confuse": [
+        "v:鼻:はな"
+      ]
+    },
+    {
+      "id": "v:歯:は",
+      "kana": "は",
+      "kanji": "歯",
+      "hv": "XỈ",
+      "vi": "răng",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cơ thể",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "寝[ね]る前[まえ]に歯[は]を磨[みが]きます。",
+          "vi": "Tôi đánh răng trước khi ngủ."
+        }
+      ],
+      "ctr": "本"
+    },
+    {
+      "id": "v:手:て",
+      "kana": "て",
+      "kanji": "手",
+      "hv": "THỦ",
+      "vi": "tay",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cơ thể",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "手[て]をよく洗[あら]ってください。",
+          "vi": "Hãy rửa tay thật kỹ."
+        }
+      ],
+      "confuse": [
+        "v:足:あし"
+      ]
+    },
+    {
+      "id": "v:足:あし",
+      "kana": "あし",
+      "kanji": "足",
+      "hv": "TÚC",
+      "vi": "chân",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cơ thể",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "足[あし]が冷[つめ]たいです。",
+          "vi": "Chân tôi lạnh."
+        }
+      ],
+      "confuse": [
+        "v:手:て"
+      ]
+    },
+    {
+      "id": "v:指:ゆび",
+      "kana": "ゆび",
+      "kanji": "指",
+      "hv": "CHỈ",
+      "vi": "ngón tay, ngón chân",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cơ thể",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "包丁[ほうちょう]で指[ゆび]を切[き]りました。",
+          "vi": "Tôi bị dao cắt vào ngón tay."
+        }
+      ],
+      "confuse": [
+        "v:手:て"
+      ],
+      "ctr": "本"
+    },
+    {
+      "id": "v:お腹:おなか",
+      "kana": "おなか",
+      "kanji": "お腹",
+      "kf": "お腹[なか]",
+      "hv": "PHÚC",
+      "vi": "bụng",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cơ thể",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "お腹[なか]がすきました。",
+          "vi": "Tôi đói bụng rồi."
+        }
+      ],
+      "note": "お腹[なか]が痛[いた]い = đau bụng."
+    },
+    {
+      "id": "v:背:せ",
+      "kana": "せ",
+      "kanji": "背",
+      "hv": "BỐI",
+      "vi": "chiều cao; lưng",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cơ thể",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "弟[おとうと]は背[せ]が高[たか]いです。",
+          "vi": "Em trai tôi cao."
+        }
+      ],
+      "note": "Còn đọc せい."
+    },
+    {
+      "id": "v:声:こえ",
+      "kana": "こえ",
+      "kanji": "声",
+      "hv": "THANH",
+      "vi": "giọng, tiếng (người, vật)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cơ thể",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "大[おお]きい声[こえ]で話[はな]してください。",
+          "vi": "Hãy nói to lên."
+        }
+      ]
+    },
+    {
+      "id": "v:病気:びょうき",
+      "kana": "びょうき",
+      "kanji": "病気",
+      "hv": "BỆNH KHÍ",
+      "vi": "bệnh, ốm",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sức khỏe",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "病気[びょうき]で会社[かいしゃ]を休[やす]みました。",
+          "vi": "Tôi nghỉ làm vì ốm."
+        }
+      ],
+      "confuse": [
+        "v:風邪:かぜ"
+      ]
+    },
+    {
+      "id": "v:風邪:かぜ",
+      "kana": "かぜ",
+      "kanji": "風邪",
+      "hv": "PHONG TÀ",
+      "vi": "cảm cúm, cảm lạnh",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sức khỏe",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "風邪[かぜ]をひきました。",
+          "vi": "Tôi bị cảm rồi."
+        }
+      ],
+      "confuse": [
+        "v:風:かぜ",
+        "v:病気:びょうき"
+      ],
+      "note": "Cùng âm かぜ với 風[かぜ] (gió). \"Bị cảm\" = 風邪[かぜ]をひく."
+    },
+    {
+      "id": "v:薬:くすり",
+      "kana": "くすり",
+      "kanji": "薬",
+      "hv": "DƯỢC",
+      "vi": "thuốc",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sức khỏe",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "一日[いちにち]三回[さんかい]、薬[くすり]を飲[の]んでください。",
+          "vi": "Hãy uống thuốc một ngày ba lần."
+        }
+      ],
+      "note": "\"Uống thuốc\" dùng 飲[の]む, không dùng 食[た]べる."
+    },
+    {
+      "id": "v:熱:ねつ",
+      "kana": "ねつ",
+      "kanji": "熱",
+      "hv": "NHIỆT",
+      "vi": "sốt; nhiệt",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sức khỏe",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "熱[ねつ]がありますから、休[やす]みます。",
+          "vi": "Vì bị sốt nên tôi nghỉ."
+        }
+      ],
+      "confuse": [
+        "v:風邪:かぜ"
+      ],
+      "note": "熱[ねつ]がある = bị sốt."
+    },
+    {
+      "id": "v:服:ふく",
+      "kana": "ふく",
+      "kanji": "服",
+      "hv": "PHỤC",
+      "vi": "quần áo",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新[あたら]しい服[ふく]を買[か]いました。",
+          "vi": "Tôi đã mua quần áo mới."
+        }
+      ],
+      "syn": [
+        "v:洋服:ようふく"
+      ],
+      "ctr": [
+        "着",
+        "枚"
+      ]
+    },
+    {
+      "id": "v:洋服:ようふく",
+      "kana": "ようふく",
+      "kanji": "洋服",
+      "hv": "DƯƠNG PHỤC",
+      "vi": "quần áo (kiểu Âu)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "洋服[ようふく]の店[みせ]はどこですか。",
+          "vi": "Cửa hàng quần áo ở đâu?"
+        }
+      ],
+      "syn": [
+        "v:服:ふく"
+      ],
+      "ctr": "着"
+    },
+    {
+      "id": "v:上着:うわぎ",
+      "kana": "うわぎ",
+      "kanji": "上着",
+      "hv": "THƯỢNG TRƯỚC",
+      "vi": "áo khoác ngoài",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "寒[さむ]いですから、上着[うわぎ]を着[き]てください。",
+          "vi": "Trời lạnh nên hãy mặc áo khoác vào."
+        }
+      ],
+      "confuse": [
+        "v:コート:コート"
+      ],
+      "ctr": [
+        "着",
+        "枚"
+      ]
+    },
+    {
+      "id": "v:シャツ:シャツ",
+      "kana": "シャツ",
+      "kanji": "",
+      "hv": "",
+      "vi": "áo sơ mi",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "白[しろ]いシャツを着[き]ています。",
+          "vi": "Tôi đang mặc áo sơ mi trắng."
+        }
+      ],
+      "confuse": [
+        "v:セーター:セーター"
+      ],
+      "goc": "shirt (tiếng Anh)",
+      "ctr": "枚"
+    },
+    {
+      "id": "v:ズボン:ズボン",
+      "kana": "ズボン",
+      "kanji": "",
+      "hv": "",
+      "vi": "quần dài",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このズボンは長[なが]いです。",
+          "vi": "Cái quần này dài."
+        }
+      ],
+      "confuse": [
+        "v:スカート:スカート"
+      ],
+      "wasei": true,
+      "goc": "jupon (tiếng Pháp: váy lót)",
+      "ctr": [
+        "本",
+        "枚"
+      ]
+    },
+    {
+      "id": "v:スカート:スカート",
+      "kana": "スカート",
+      "kanji": "",
+      "hv": "",
+      "vi": "váy",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "姉[あね]は赤[あか]いスカートが好[す]きです。",
+          "vi": "Chị tôi thích váy đỏ."
+        }
+      ],
+      "confuse": [
+        "v:ズボン:ズボン"
+      ],
+      "goc": "skirt (tiếng Anh)",
+      "ctr": "枚"
+    },
+    {
+      "id": "v:セーター:セーター",
+      "kana": "セーター",
+      "kanji": "",
+      "hv": "",
+      "vi": "áo len",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "冬[ふゆ]はセーターを着[き]ます。",
+          "vi": "Mùa đông tôi mặc áo len."
+        }
+      ],
+      "confuse": [
+        "v:シャツ:シャツ"
+      ],
+      "goc": "sweater (tiếng Anh)",
+      "ctr": "枚"
+    },
+    {
+      "id": "v:コート:コート",
+      "kana": "コート",
+      "kanji": "",
+      "hv": "",
+      "vi": "áo choàng, áo khoác dài",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "コートを脱[ぬ]いでください。",
+          "vi": "Hãy cởi áo khoác ra."
+        }
+      ],
+      "confuse": [
+        "v:上着:うわぎ"
+      ],
+      "goc": "coat (tiếng Anh)",
+      "ctr": [
+        "着",
+        "枚"
+      ]
+    },
+    {
+      "id": "v:靴:くつ",
+      "kana": "くつ",
+      "kanji": "靴",
+      "hv": "NGOA",
+      "vi": "giày",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この靴[くつ]は大[おお]きいです。",
+          "vi": "Đôi giày này to."
+        }
+      ],
+      "confuse": [
+        "v:靴下:くつした"
+      ],
+      "ctr": "足"
+    },
+    {
+      "id": "v:靴下:くつした",
+      "kana": "くつした",
+      "kanji": "靴下",
+      "hv": "NGOA HẠ",
+      "vi": "tất, vớ",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "白[しろ]い靴下[くつした]を履[は]きます。",
+          "vi": "Tôi đi tất trắng."
+        }
+      ],
+      "confuse": [
+        "v:靴:くつ"
+      ],
+      "ctr": "足"
+    },
+    {
+      "id": "v:眼鏡:めがね",
+      "kana": "めがね",
+      "kanji": "眼鏡",
+      "hv": "NHÃN KÍNH",
+      "vi": "kính đeo mắt",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "眼鏡[めがね]をかけています。",
+          "vi": "Tôi đang đeo kính."
+        }
+      ],
+      "note": "Đeo kính = 眼鏡[めがね]をかける."
+    },
+    {
+      "id": "v:ネクタイ:ネクタイ",
+      "kana": "ネクタイ",
+      "kanji": "",
+      "hv": "",
+      "vi": "cà vạt",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "父[ちち]はネクタイをしません。",
+          "vi": "Bố tôi không thắt cà vạt."
+        }
+      ],
+      "goc": "necktie (tiếng Anh)",
+      "ctr": "本"
+    },
+    {
+      "id": "v:ポケット:ポケット",
+      "kana": "ポケット",
+      "kanji": "",
+      "hv": "",
+      "vi": "túi (quần, áo)",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ポケットに携帯[けいたい]を入[い]れないでください。",
+          "vi": "Đừng để điện thoại trong túi."
+        }
+      ],
+      "note": "Nhiều xưởng thực phẩm cấm để đồ trong túi (chống lẫn dị vật).",
+      "goc": "pocket (tiếng Anh)",
+      "ctr": "つ"
+    },
+    {
+      "id": "v:ボタン:ボタン",
+      "kana": "ボタン",
+      "kanji": "",
+      "hv": "",
+      "vi": "cái nút, khuy; nút bấm",
+      "pos": "n",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quần áo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "赤[あか]いボタンを押[お]してください。",
+          "vi": "Hãy bấm nút màu đỏ."
+        }
+      ],
+      "goc": "botão (tiếng Bồ Đào Nha: cúc áo)",
+      "ctr": [
+        "つ",
+        "個"
+      ]
+    },
+    {
+      "id": "v:着る:きる",
+      "kana": "きる",
+      "kanji": "着る",
+      "kf": "着[き]る",
+      "hv": "TRƯỚC",
+      "vi": "mặc (áo, đồ phía trên)",
+      "pos": "v1",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mặc, cởi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "白衣[はくい]を着[き]てください。",
+          "vi": "Hãy mặc áo blouse trắng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "寒[さむ]いので、セーターを着[き]ます。",
+          "vi": "Vì lạnh nên tôi mặc áo len.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：寒[さむ]くないですか。B：大丈夫[だいじょうぶ]です。中[なか]にセーターを着[き]ています。",
+          "vi": "A: Không lạnh à? B: Không sao, bên trong tôi đang mặc áo len.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "confuse": [
+        "v:履く:はく",
+        "v:かぶる:かぶる",
+        "v:脱ぐ:ぬぐ"
+      ],
+      "note": "Áo, áo khoác: 着[き]る. Quần, giày, tất: 履[は]く. Mũ: かぶる.",
+      "coll": [
+        {
+          "jp": "白衣[はくい]を着[き]る",
+          "vi": "mặc áo blouse trắng"
+        },
+        {
+          "jp": "作業着[さぎょうぎ]を着[き]る",
+          "vi": "mặc quần áo lao động"
+        },
+        {
+          "jp": "上着[うわぎ]を着[き]る",
+          "vi": "mặc áo khoác"
+        }
+      ],
+      "vt": "tha",
+      "keigo": {
+        "ton": "お召[め]しになる"
+      }
+    },
+    {
+      "id": "v:履く:はく",
+      "kana": "はく",
+      "kanji": "履く",
+      "kf": "履[は]く",
+      "hv": "LÝ",
+      "vi": "đi, mang (giày, tất); mặc (quần, váy)",
+      "pos": "v5",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mặc, cởi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "長靴[ながぐつ]を履[は]いてください。",
+          "vi": "Hãy đi ủng vào.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "寒[さむ]い日[ひ]は靴下[くつした]を二[に]枚[まい]履[は]きます。",
+          "vi": "Ngày lạnh tôi đi hai lớp tất.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：このズボン、履[は]いてみてもいいですか。B：はい、どうぞ。",
+          "vi": "A: Tôi mặc thử cái quần này được không? B: Vâng, mời anh.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "confuse": [
+        "v:着る:きる",
+        "v:脱ぐ:ぬぐ"
+      ],
+      "coll": [
+        {
+          "jp": "長靴[ながぐつ]を履[は]く",
+          "vi": "đi ủng"
+        },
+        {
+          "jp": "靴下[くつした]を履[は]く",
+          "vi": "đi tất"
+        },
+        {
+          "jp": "ズボンを履[は]く",
+          "vi": "mặc quần"
+        }
+      ],
+      "vt": "tha"
+    },
+    {
+      "id": "v:脱ぐ:ぬぐ",
+      "kana": "ぬぐ",
+      "kanji": "脱ぐ",
+      "kf": "脱[ぬ]ぐ",
+      "hv": "THOÁT",
+      "vi": "cởi (quần áo, giày)",
+      "pos": "v5",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mặc, cởi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "部屋[へや]に入[はい]る前[まえ]に靴[くつ]を脱[ぬ]ぎます。",
+          "vi": "Trước khi vào phòng thì cởi giày.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "作業[さぎょう]が終[お]わったら、エプロンを脱[ぬ]いで洗[あら]います。",
+          "vi": "Làm xong thì cởi tạp dề ra giặt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：暑[あつ]いですね。B：じゃあ、上着[うわぎ]を脱[ぬ]ぎましょう。",
+          "vi": "A: Nóng quá nhỉ. B: Vậy cởi áo khoác ra thôi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "confuse": [
+        "v:着る:きる",
+        "v:履く:はく"
+      ],
+      "coll": [
+        {
+          "jp": "靴[くつ]を脱[ぬ]ぐ",
+          "vi": "cởi giày"
+        },
+        {
+          "jp": "上着[うわぎ]を脱[ぬ]ぐ",
+          "vi": "cởi áo khoác"
+        },
+        {
+          "jp": "長靴[ながぐつ]を脱[ぬ]ぐ",
+          "vi": "cởi ủng"
+        }
+      ],
+      "vt": "tha",
+      "pair": {
+        "w": "脱[ぬ]げる",
+        "vi": "bị tuột ra (tự động từ)"
+      }
+    },
+    {
+      "id": "v:かぶる:かぶる",
+      "kana": "かぶる",
+      "kanji": "",
+      "hv": "",
+      "vi": "đội (mũ)",
+      "pos": "v5",
+      "level": "N5",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mặc, cởi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "帽子[ぼうし]をかぶってください。",
+          "vi": "Hãy đội mũ vào.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "暑[あつ]い日[ひ]は帽子[ぼうし]をかぶって出[で]かけます。",
+          "vi": "Ngày nắng nóng tôi đội mũ khi ra ngoài.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "工場[こうじょう]では、帽子[ぼうし]の下[した]にネットもかぶります。",
+          "vi": "Ở xưởng, dưới mũ còn đội thêm lưới trùm tóc.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：ヘルメットをかぶりましたか。B：はい、かぶりました。",
+          "vi": "A: Đội mũ bảo hộ chưa? B: Rồi, tôi đội rồi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "confuse": [
+        "v:着る:きる"
+      ],
+      "note": "Chữ Hán: 被[かぶ]る.",
+      "coll": [
+        {
+          "jp": "帽子[ぼうし]をかぶる",
+          "vi": "đội mũ"
+        },
+        {
+          "jp": "ヘルメットをかぶる",
+          "vi": "đội mũ bảo hộ"
+        },
+        {
+          "jp": "ネットをかぶる",
+          "vi": "đội lưới trùm tóc"
+        }
+      ],
+      "vt": "tha"
+    }
+  ]
+}
