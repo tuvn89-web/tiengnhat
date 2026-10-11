@@ -261,18 +261,20 @@ export async function renderGrammarPractice(view, ctx, onlyId, preset) {
   bindChips(f, upd); upd();
   f.querySelector('[data-act=start]').onclick = async () => {
     const x = read(); await kvSet('gpSetup', x);
-    ctx.backTo = '#/nguphap/luyen';
+    ctx.backTo = '#/nguphap/luyen?t=' + x.type;
     runDrill(view, buildGrammarQs(x), ctx, { title: TAG[x.type] || 'Luyện ngữ pháp', again: () => ctx.go('#/nguphap/luyen', true) });
   };
 }
 
-export function renderMockSetup(view, ctx) {
+export async function renderMockSetup(view, ctx) {
   const lv = LEVELS.filter(l => D.grammar.some(g => g.level === l) || D.vocab.some(v => v.level === l));
+  const saved = await kvGet('mockSetup', {});
+  const lv0 = lv.includes(saved.level) ? saved.level : lv[0], cnt0 = String(saved.count || 20);
   view.innerHTML = `<h1 class="h1">Ngữ pháp</h1>${gtabs('thi')}
     <form class="setup" onsubmit="return false">
       <p class="muted small">Đề ngắn kiểu phần Kiến thức ngôn ngữ của JLPT: đọc chữ Hán, nghĩa từ, điền ngữ pháp, câu ★, chọn cách nói. Có tính giờ (45 giây mỗi câu), làm xong mới xem đáp án và giải thích.</p>
-      <fieldset><legend>Cấp độ</legend>${chips('level', lv.map(l => [l, l]), lv[0], false)}</fieldset>
-      <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30].map(n => [String(n), String(n)]), '20', false)}</fieldset>
+      <fieldset><legend>Cấp độ</legend>${chips('level', lv.map(l => [l, l]), lv0, false)}</fieldset>
+      <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30].map(n => [String(n), String(n)]), cnt0, false)}</fieldset>
       <p class="setup-count" aria-live="polite"></p>
       <button class="btn btn-primary btn-block" data-act="start">Bắt đầu thi thử</button>
     </form>`;
@@ -285,7 +287,8 @@ export function renderMockSetup(view, ctx) {
     f.querySelector('[data-act=start]').disabled = !n;
   };
   bindChips(f, upd); upd();
-  f.querySelector('[data-act=start]').onclick = () => {
+  f.querySelector('[data-act=start]').onclick = async () => {
+    await kvSet('mockSetup', { level: readChip(f, 'level'), count: +readChip(f, 'count') });
     ctx.backTo = '#/nguphap/thithu';
     runDrill(view, qs, ctx, { title: 'Thi thử ' + readChip(f, 'level'), mode: 'test', timeLimit: qs.length * 45, again: () => ctx.go('#/nguphap/thithu', true) });
   };

@@ -398,7 +398,6 @@ export async function renderMixed(view, ctx) {
   const lanes = [vq, kq, gq, fq].filter(l => l.length), qs = [];
   while (lanes.some(l => l.length)) for (const l of lanes) if (l.length) qs.push(l.shift());
   if (!qs.length) { view.innerHTML = backLink + emptyState('Hôm nay không còn gì đến hạn ôn. Học thêm từ mới nhé.', '<a class="btn btn-primary" href="#/moi">Học từ mới</a>'); return; }
-  ctx.backTo = '#/';
   runDrill(view, qs, ctx, { title: 'Ôn hỗn hợp hôm nay', again: () => ctx.go('#/onhon', true) });
 }
 

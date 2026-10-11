@@ -6,6 +6,7 @@ import { review, stats } from './srs.js';
 import { chips, bindChips, readChip, readChips, topicOpts, emptyState, wtabs } from './ui.js';
 import { selectItems } from './quiz.js';
 import { kvGet, kvSet } from './db.js';
+import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from './nav.js';
 
 export const PAIR_TYPES = [['vi-kana', 'Việt – chữ mềm/cứng'], ['vi-kanji', 'Việt – Kanji'], ['kana-kanji', 'Chữ mềm/cứng – Kanji (không furigana)'],
   ['ru-masu', 'Thể từ điển – thể ます'], ['tu-tha', 'Tự động từ – tha động từ'], ['trai-nghia', 'Trái nghĩa'], ['chu-hv', 'Chữ Hán – âm Hán Việt (không furigana)']];
@@ -102,6 +103,7 @@ export function runMatch(view, rounds, type, ctx) {
   let r = 0, mistakes = 0, t0 = 0, timer = null, sel = { L: null, R: null };
   const fmt = ms => { const s = Math.floor(ms / 1000); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; };
   ctx.onLeave(() => clearInterval(timer));
+  beginSession(ctx);
 
   function round() {
     const items = rounds[r];
@@ -117,7 +119,7 @@ export function runMatch(view, rounds, type, ctx) {
         <div class="mcol">${L.map(it => tile(it, 0)).join('')}</div>
         <div class="mcol">${R.map(it => tile(it, 1)).join('')}</div>
       </div></div>`;
-    view.querySelector('[data-act=quit]').onclick = () => finish(true);
+    view.querySelector('[data-act=quit]').onclick = () => (r > 0 || t0 ? finish(true) : goBack(ctx));
     view.querySelector('.match').addEventListener('click', onTap);
   }
   function tile(it, side) {
@@ -163,16 +165,17 @@ export function runMatch(view, rounds, type, ctx) {
       else if (finished.has(it.id)) await review(it.id, dir, true, { onlyIfDue: true });
     }
     const wl = all.filter(it => wrong.has(it.id));
-    view.innerHTML = `<section class="result">
+    ctx.inRun = true;
+    view.innerHTML = `<section class="result">${crumbHTML(ctx)}
       <h1 class="h1">${early ? 'Đã dừng' : 'Xong'}</h1>
       <p class="result-score"><b>${fmt(t0 ? Date.now() - t0 : 0)}</b></p>
       <p class="result-sub">${mistakes} lần ghép sai</p>
       ${wl.length ? `<h2 class="h2">Cặp ghép nhầm</h2><ul class="wlist">${wl.map(it => it.L ? `<li><span lang="ja" ${it.L.bare ? 'data-bare' : ''}>${it.L.h}</span><span ${it.R.jp ? 'lang="ja"' : ''}>${it.R.h}</span></li>` : `<li><span lang="ja">${wordHTML(it, 'furi')}</span><span>${esc(it.vi)}</span></li>`).join('')}</ul>` : ''}
       <div class="row-btns stack">
         <button class="btn btn-primary" data-act="again">Chơi lượt mới</button>
-        <a class="btn btn-ghost" href="#/">Về trang chủ</a>
-      </div></section>`;
+      </div>${resultNavHTML(ctx)}</section>`;
     view.querySelector('[data-act=again]').onclick = () => ctx.go('#/ghep', true);
+    bindResultNav(view, ctx);
     ctx.sessionDone?.();
   }
   round();

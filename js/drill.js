@@ -5,6 +5,7 @@ import { S } from './settings.js';
 import { review } from './srs.js';
 import { speak, ttsReady } from './tts.js';
 import { bindSay, confirmBox } from './ui.js';
+import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from './nav.js';
 
 /* Một câu hỏi:
   { kind: 'choice' | 'order' | 'spot', tag: 'Điền chỗ trống', level: 'N5',
@@ -13,8 +14,9 @@ import { bindSay, confirmBox } from './ui.js';
     chunks: [html…] (đúng thứ tự), extra: [html…],    ← order
     parts: [html…], bad: số thứ tự, fix: html,        ← spot
     after: html (giải thích sau khi trả lời), review: { id, dir } }  */
-export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'practice', timeLimit = 0, again } = {}) {
+export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'practice', timeLimit = 0, again, noReview = false } = {}) {
   if (!qs.length) { view.innerHTML = '<div class="empty"><p>Chưa đủ dữ liệu cho bài này.</p></div>'; return; }
+  beginSession(ctx);
   if (mode === 'test') return runTest(view, qs, ctx, { title, timeLimit, again });
   const test = false;
   const st = { qs: [...qs], i: 0, total: qs.length, score: 0, res: [], again: new Set(), lock: false, t0: Date.now() };
@@ -59,7 +61,7 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     }
     view.innerHTML = `<div class="run">${head()}${card(q)}${body}<div class="after" hidden></div></div>`;
     bindSay(view);
-    view.querySelector('[data-act=quit]').onclick = () => (st.i > 0 ? finish(true) : ctx.go(ctx.backTo || '#/', true));
+    view.querySelector('[data-act=quit]').onclick = () => (st.i > 0 ? finish(true) : goBack(ctx));
     if (q.autoSay && q.say) setTimeout(() => speak(q.say), 150);
     if (q.kind === 'choice') {
       view.querySelectorAll('.opt').forEach(b => b.onclick = () => answer(q, b.dataset.k === q.answer, b));
@@ -89,7 +91,7 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     st.lock = true;
     const first = !q._again;
     if (first) { st.res.push({ q, ok }); if (ok) st.score++; }
-    if (q.review && first) review(q.review.id, q.review.dir, ok);
+    if (q.review && first && !noReview) review(q.review.id, q.review.dir, ok);
     if (test) { st.i++; return show(); }
     // đánh dấu đáp án
     if (q.kind === 'choice') view.querySelectorAll('.opt').forEach(b => {
@@ -130,13 +132,14 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
   function finish(early = false) {
     setKeys(null); clearInterval(timer); timer = null;
     renderResult(view, ctx, { title, mode, test, early, res: st.res, total: st.total, score: st.score, again,
-      redo: wrong => runDrill(view, wrong.map(w => ({ ...w.q, _again: false })), ctx, { title, mode, again }) });
+      redo: wrong => runDrill(view, wrong.map(w => ({ ...w.q, _again: false })), ctx, { title, mode, again, noReview }) });
   }
   show();
 }
 
 // Màn kết quả dùng chung (luyện tập và thi thử)
 function renderResult(view, ctx, { title, test, early, res, total, score, again, redo }) {
+  ctx.inRun = true; // màn kết quả: nút Back của điện thoại về trang trước khi vào bài
   const answered = res.filter(r => !r.skip).length;
   const wrong = res.filter(r => !r.ok);
   const byTag = {};
@@ -144,23 +147,23 @@ function renderResult(view, ctx, { title, test, early, res, total, score, again,
   const pct = total ? Math.round((score / total) * 100) : 0;
   const ansHTML = q => q.kind === 'choice' ? (q.opts.find(o => o.key === q.answer)?.html || '') : q.kind === 'order' ? q.chunks.join(' ') : q.fix;
   const chosenHTML = r => r.q.kind !== 'choice' ? '' : r.skip ? '<p class="muted small">Bỏ trống</p>' : `<p class="small">Đã chọn: <span lang="ja">${r.q.opts.find(o => o.key === r.chosen)?.html || ''}</span></p>`;
-  view.innerHTML = `<section class="result">
+  view.innerHTML = `<section class="result">${crumbHTML(ctx)}
       <h1 class="h1">${test ? 'Kết quả thi thử' : early ? 'Đã dừng' : 'Xong lượt'}</h1>
       <p class="result-score"><b>${score}</b><span>/${test ? total : answered}</span></p>
       <p class="result-sub">${test ? `${pct}% · ${answered < total ? `bỏ trống ${total - answered} câu` : 'làm đủ các câu'}` : 'câu đúng ngay lần đầu'}</p>
       ${test ? `<table class="topics bytag"><tbody>${Object.entries(byTag).map(([t, [a, b]]) => `<tr><th scope="row">${esc(t)}</th><td><span class="mini"><i style="width:${(a / b) * 100}%"></i></span></td><td class="num">${a}/${b}</td></tr>`).join('')}</tbody></table>` : ''}
       ${wrong.length ? `<h2 class="h2">${test ? 'Câu sai và câu bỏ trống' : 'Câu trả lời sai'}</h2><ul class="wlist wlist-drill">${wrong.map(r => `<li><span class="muted small">${esc(r.q.tag || '')}</span><div class="wq">${r.q.prompt}</div>${test ? chosenHTML(r) : ''}<p>Đáp án: <b lang="ja">${ansHTML(r.q)}</b></p>${r.q.after || ''}</li>`).join('')}</ul>` : answered ? '<p class="result-good">Không sai câu nào.</p>' : ''}
       <div class="row-btns stack">
-        ${wrong.length && !test && redo ? '<button class="btn btn-primary" data-act="redo">Làm lại câu sai</button>' : ''}
-        ${again ? `<button class="btn ${wrong.length && !test ? 'btn-ghost' : 'btn-primary'}" data-act="again">${test ? 'Làm đề mới' : 'Lượt mới'}</button>` : ''}
-        <a class="btn btn-ghost" href="#/">Về trang chủ</a>
-      </div></section>`;
+        ${wrong.length && redo ? `<button class="btn btn-primary" data-act="redo">${test ? 'Luyện lại các câu sai (không tính điểm)' : 'Làm lại câu sai'}</button>` : ''}
+        ${again ? `<button class="btn ${wrong.length && redo ? 'btn-ghost' : 'btn-primary'}" data-act="again">${test ? 'Làm đề mới' : 'Lượt mới'}</button>` : ''}
+      </div>${resultNavHTML(ctx, { kind: test ? 'test' : 'practice' })}</section>`;
   bindSay(view);
   view.querySelectorAll('.result [data-nokj]').forEach(x => x.removeAttribute('data-nokj'));
   const r = view.querySelector('[data-act=redo]');
   if (r) r.onclick = () => redo(wrong);
   const a = view.querySelector('[data-act=again]');
   if (a) a.onclick = () => again();
+  bindResultNav(view, ctx, { kind: test ? 'test' : 'practice' });
   window.scrollTo(0, 0);
   ctx.sessionDone?.();
 }
@@ -234,12 +237,14 @@ function runTest(view, qs, ctx, { title, timeLimit, again }) {
     if (st.done) return;
     const empty = n - nAns();
     if (!quit && empty && left() > 0 && !(await confirmBox(`Còn ${empty} câu chưa làm. Nộp bài luôn?`, 'Nộp bài', 'Làm tiếp'))) return;
-    if (quit && nAns() === 0) { clearInterval(timer); setKeys(null); return ctx.go(ctx.backTo || '#/', true); }
+    if (quit && nAns() === 0) { clearInterval(timer); setKeys(null); return goBack(ctx); }
     if (quit && !(await confirmBox('Dừng thi và nộp bài với các câu đã làm?', 'Nộp bài', 'Làm tiếp'))) return;
     st.done = true; clearInterval(timer); setKeys(null);
     const res = qs.map((q, k) => ({ q, chosen: st.ans[k], skip: st.ans[k] == null, ok: st.ans[k] === q.answer }));
     for (const r of res) if (!r.skip && r.q.review) review(r.q.review.id, r.q.review.dir, r.ok);
-    renderResult(view, ctx, { title, test: true, res, total: n, score: res.filter(r => r.ok).length, again });
+    // thi xong: luyện lại câu sai và câu bỏ trống, không tính vào lịch ôn (đã tính khi nộp bài)
+    const redo = wrong => runDrill(view, wrong.map(w => ({ ...w.q, _again: false })), ctx, { title: title + ' · luyện lại', again, noReview: true });
+    renderResult(view, ctx, { title, test: true, res, total: n, score: res.filter(r => r.ok).length, again, redo });
   }
   show();
 }

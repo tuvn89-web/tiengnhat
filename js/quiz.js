@@ -6,6 +6,7 @@ import { runLearn, learnCardHTML, learnBarHTML, applyDecision } from './learn.js
 import { speak, ttsReady } from './tts.js';
 import { chips, bindChips, readChip, readChips, bindSay, sayBtn, wordDetailHTML, topicOpts, emptyState, wtabs } from './ui.js';
 import { kvGet, kvSet } from './db.js';
+import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from './nav.js';
 
 export const DIRS = [['vj', 'Việt → Nhật'], ['jv', 'Nhật → Việt'], ['kr', 'Kanji → cách đọc (không furigana)'], ['au', 'Nghe → nghĩa'], ['mix', 'Trộn']];
 export const SCRIPTS = [['kana', 'Chữ mềm/cứng'], ['furi', 'Kanji + furigana']];
@@ -150,6 +151,7 @@ export async function renderQuizSetup(view, ctx) {
 export function runQuiz(view, qs, o, ctx) {
   if (!qs.length) { toast('Không có câu hỏi nào.'); return; }
   const st = { qs: [...qs], i: 0, total: qs.length, score: 0, wrong: [], again: new Set(), seen: new Set(), lock: false };
+  beginSession(ctx);
   const script = fixScript(o.script || S.script);
   let keyHandler = null;
   const setKeys = h => { if (keyHandler) document.removeEventListener('keydown', keyHandler); keyHandler = h; if (h) document.addEventListener('keydown', h); };
@@ -163,7 +165,7 @@ export function runQuiz(view, qs, o, ctx) {
   const tag = it => `<div class="label-head"><span class="label-tag">${esc(it.sub || TOPICS[it.topics[0]] || 'Từ vựng')}</span><span class="label-lv">${esc(it.level)}</span></div>`;
 
   function next() { st.i++; show(); }
-  function quit() { if (st.i > 0) finish(true); else ctx.go('#/hoc'); }
+  function quit() { if (st.i > 0) finish(true); else goBack(ctx); }
 
   function show() {
     if (st.i >= st.qs.length) return finish();
@@ -252,7 +254,8 @@ export function runQuiz(view, qs, o, ctx) {
     setKeys(null);
     const answered = early || st.learned ? st.score + st.wrong.length : st.total;
     const wrongU = [...new Map(st.wrong.map(it => [it.id, it])).values()];
-    view.innerHTML = `<section class="result">
+    ctx.inRun = true;
+    view.innerHTML = `<section class="result">${crumbHTML(ctx)}
       <h1 class="h1">${early ? 'Đã dừng lượt' : 'Xong lượt'}</h1>
       <p class="result-score"><b>${st.score}</b><span>/${answered}</span></p>
       <p class="result-sub">câu đúng ngay lần đầu</p>
@@ -260,11 +263,11 @@ export function runQuiz(view, qs, o, ctx) {
       <div class="row-btns stack">
         ${wrongU.length ? '<button class="btn btn-primary" data-act="redo">Ôn lại từ sai</button>' : ''}
         <button class="btn ${wrongU.length ? 'btn-ghost' : 'btn-primary'}" data-act="again">Lượt mới</button>
-        <a class="btn btn-ghost" href="#/">Về trang chủ</a>
-      </div></section>`;
+      </div>${resultNavHTML(ctx)}</section>`;
     view.querySelector('[data-act=again]').onclick = () => ctx.go('#/hoc', true);
     const r = view.querySelector('[data-act=redo]');
     if (r) r.onclick = () => runQuiz(view, wrongU.map(it => ({ it, dir: o.dir === 'mix' ? 'jv' : o.dir })), o, ctx);
+    bindResultNav(view, ctx);
     ctx.sessionDone?.();
   }
 

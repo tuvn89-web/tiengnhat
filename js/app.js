@@ -15,6 +15,7 @@ import { renderData, receiveSetup } from './datapage.js';
 import { renderSettings } from './settingspage.js';
 import { syncNow, getSyncCfg, lastSync, lastSyncError } from './sync.js';
 import { emptyState } from './ui.js';
+import { initNav } from './nav.js';
 
 const view = $('#view');
 let leave = [];
@@ -66,6 +67,10 @@ const ROUTES = [
 ];
 
 function route() {
+  // nhớ trang trước (để nút "← Về …" của lượt học tự bắt đầu quay về đúng chỗ)
+  const cur = location.hash || '#/';
+  if (cur !== ctx.curHash) { ctx.prevHash = ctx.curHash; ctx.curHash = cur; }
+  ctx.backTo = null; ctx.inRun = false;
   leave.forEach(f => { try { f(); } catch { } });
   leave = [];
   // chuyển trang (kể cả nút Back của điện thoại) thì đóng mọi tờ thông tin đang mở
@@ -99,13 +104,11 @@ function startQuick(v, source) {
 function quickKanji(v) {
   const qs = buildKanjiQs({ dir: 'mix', source: 'due', count: 30 });
   if (!qs.length) { v.innerHTML = emptyState('Không có chữ Hán nào đến hạn ôn.', '<a class="btn btn-primary" href="#/chuhan/on">Ôn chữ Hán</a>'); return; }
-  ctx.backTo = '#/';
   runDrill(v, qs, ctx, { title: 'Ôn chữ Hán', again: () => ctx.go('#/chuhan/on') });
 }
 function quickGrammar(v) {
   const qs = buildGrammarQs({ type: 'mix', source: 'due', count: 20 });
   if (!qs.length) { v.innerHTML = emptyState('Không có mẫu ngữ pháp nào đến hạn ôn.', '<a class="btn btn-primary" href="#/nguphap/luyen">Luyện ngữ pháp</a>'); return; }
-  ctx.backTo = '#/';
   runDrill(v, qs, ctx, { title: 'Ôn ngữ pháp', again: () => ctx.go('#/nguphap/luyen') });
 }
 
@@ -222,6 +225,7 @@ async function init() {
   try { await loadAll(); } catch (e) { D.errors.push('Lỗi tải dữ liệu: ' + (e?.message || e)); }
   await loadProgress();
   window.addEventListener('hashchange', route);
+  initNav(ctx);
   document.addEventListener('click', e => {
     const ko = e.target.closest('[data-kopen]');
     if (ko) { e.preventDefault(); openKanji(ko.dataset.kopen); return; }

@@ -138,7 +138,7 @@ data/packs/*.json                         các gói từ vựng / ngữ pháp / 
 icons/                                    biểu tượng app
 ```
 
-## 8. Các phần học (bản v6)
+## 8. Các phần học (bản v7)
 
 Thanh dưới cùng (điện thoại) hoặc cột trái (máy tính): **Trang chủ · Luyện tập · Chữ Hán · Ngữ pháp · Kho từ**. Dữ liệu và Cài đặt ở góc trên.
 
@@ -176,3 +176,16 @@ Sau đó, nếu trong `data/packs` trên GitHub còn file **`jlpt-n5-dongtu-01.j
 - Mọi chữ Hán trong phần giải thích, ghi chú, lỗi hay gặp đều đã có furigana.
 - Mẫu trùng: 〜てもいいですか, 〜てはいけません về gói `nguphap-n5-08`; 〜なければなりません gộp vào 〜なければならない ở gói `nguphap-n5-12` (giữ nguyên dữ liệu bài tập). Nếu đã học mẫu 〜なければなりません thì mẫu này về lại trạng thái chưa học.
 - Sửa lỗi app: tính từ な viết toàn chữ Hán (暇, 簡単, 大丈夫…) nay có furigana trong bảng các dạng và bài Tính từ trong câu.
+
+## 11. Bản v7 (12/10/2026): nút quay lại sau khi học xong / thi xong
+
+**Cách tải lên:** giải nén `capnhat-v7.zip`, kéo toàn bộ nội dung vào kho `tiengnhat` → Commit. Gói này đã gồm cả v5, v6.
+
+- Màn kết quả có nút **← Về [trang trước]** — về đúng chỗ đã vào bài (ví dụ "← Về Thể động từ trong câu", "← Về 〜てください", "← Về Thi thử"). Vào từ Trang chủ thì nút là "← Về Trang chủ". "Về trang chủ" còn lại dạng chữ nhỏ ở cuối.
+- Trên đầu màn kết quả có dòng chỉ đường, ví dụ *Luyện tập › Thể động từ trong câu* (chạm được).
+- Quay lại trang chọn bài thì các lựa chọn lần trước vẫn giữ (nguồn từ, số câu, dạng bài, cấp độ thi thử).
+- Nút ✕ khi chưa làm câu nào: về trang trước.
+- **Nút Back của điện thoại:** đang làm bài thì app hỏi "Dừng lượt này?"; ở màn kết quả thì về trang trước khi vào bài.
+- Màn kết quả gợi ý một bước tiếp: học xong từ mới → **Ghép câu với từ vừa học**; còn mục đến hạn → **Ôn hỗn hợp hôm nay**; hết thì → **Học từ mới**.
+- Thi thử xong có nút **Luyện lại các câu sai (không tính điểm)** — không làm thay đổi lịch ôn.
+- Các bài luyện có hàng **Dạng bài khác** để chuyển bài ngay.

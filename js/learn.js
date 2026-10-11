@@ -4,6 +4,7 @@ import { S } from './settings.js';
 import { setLearned, unsetLearned, status } from './srs.js';
 import { speak } from './tts.js';
 import { bindSay, wordDetailHTML, emptyState } from './ui.js';
+import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from './nav.js';
 
 const DEC = { learned: 'Đã học', known: 'Biết rồi', later: 'Để sau' };
 
@@ -29,6 +30,7 @@ export async function applyDecision(it, dec, prev) {
 export function runLearn(view, items, ctx, { again } = {}) {
   if (!items.length) { view.innerHTML = emptyState('Đã học hết từ mới trong kho (theo bộ lọc đang chọn). Nhập thêm gói từ ở trang Dữ liệu.', '<a class="btn btn-primary" href="#/luyen">Về Luyện tập</a>'); return; }
   const st = { i: 0, dec: new Map() };
+  beginSession(ctx);
   let keyH = null;
   const setKeys = h => { if (keyH) document.removeEventListener('keydown', keyH); keyH = h; if (h) document.addEventListener('keydown', h); };
   ctx.onLeave(() => setKeys(null));
@@ -45,7 +47,7 @@ export function runLearn(view, items, ctx, { again } = {}) {
       ${learnCardHTML(it, st.dec.get(it.id))}
       ${learnBarHTML(st.i > 0)}</div>`;
     bindSay(view);
-    view.querySelector('[data-act=quit]').onclick = () => finish(true);
+    view.querySelector('[data-act=quit]').onclick = () => (st.i > 0 || st.dec.size ? finish(true) : goBack(ctx));
     view.querySelector('.learn-bar').onclick = e => { const b = e.target.closest('[data-l]'); if (b) act(b.dataset.l); };
     // vuốt sang phải = lật lại thẻ trước
     const card = view.querySelector('.label-card');
@@ -72,7 +74,8 @@ export function runLearn(view, items, ctx, { again } = {}) {
     const learned = items.filter(it => st.dec.get(it.id) === 'learned');
     const known = items.filter(it => st.dec.get(it.id) === 'known');
     const later = items.filter(it => st.dec.get(it.id) === 'later');
-    view.innerHTML = `<section class="result">
+    ctx.inRun = true;
+    view.innerHTML = `<section class="result">${crumbHTML(ctx)}
       <h1 class="h1">${early ? 'Đã dừng' : 'Xong lượt học'}</h1>
       <p class="result-score"><b>${learned.length}</b><span> từ đã học</span></p>
       <p class="result-sub">${known.length ? `${known.length} từ đã biết · ` : ''}${later.length ? `${later.length} từ để sau · ` : ''}lần ôn đầu: ngày mai</p>
@@ -80,8 +83,7 @@ export function runLearn(view, items, ctx, { again } = {}) {
       <div class="row-btns stack">
         ${learned.length ? `<button class="btn btn-primary" data-act="test">Kiểm tra nhanh ${learned.length} từ này</button>` : ''}
         ${again ? `<button class="btn ${learned.length ? 'btn-ghost' : 'btn-primary'}" data-act="more">Học thêm từ mới</button>` : ''}
-        <a class="btn btn-ghost" href="#/">Về trang chủ</a>
-      </div></section>`;
+      </div>${resultNavHTML(ctx, { kind: learned.length ? 'learn' : 'practice' })}</section>`;
     const t = view.querySelector('[data-act=test]');
     if (t) t.onclick = async () => {
       const { runQuiz } = await import('./quiz.js');
@@ -89,6 +91,7 @@ export function runLearn(view, items, ctx, { again } = {}) {
     };
     const m = view.querySelector('[data-act=more]');
     if (m) m.onclick = () => again();
+    bindResultNav(view, ctx, { kind: learned.length ? 'learn' : 'practice' });
     if (learned.length || known.length) toast(`Đã lưu ${learned.length + known.length} từ vào lịch ôn.`);
     ctx.sessionDone?.();
   }
