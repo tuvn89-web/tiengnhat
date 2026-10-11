@@ -13,7 +13,7 @@ export function isKanjiCh(ch) {
 }
 export const hasKanji = s => [...(s || '')].some(isKanjiCh);
 
-export const APP_VERSION = 'v3 · 11/10/2026'; // đổi cùng lúc với VERSION trong sw.js
+export const APP_VERSION = 'v4 · 11/10/2026'; // đổi cùng lúc với VERSION trong sw.js
 
 // Cú pháp: 漢字[よみ] — phần gắn cách đọc là chuỗi kanji liền trước "[".  [[...]] = phần ngữ pháp.
 // Dấu [ ] không đứng sau kanji, hoặc bên trong không phải kana, thì giữ nguyên như chữ thường.
@@ -49,16 +49,27 @@ export const richParas = s => String(s || '').split(/\n\n+/).map(p => `<p>${rich
 export const plain = s => parseJP(s).map(x => x.t).join('');
 export const reading = s => parseJP(s).map(x => x.r || x.t).join('');
 
+// Mỗi chữ kanji bọc trong <span class="kj"> để chạm vào là mở thẻ chữ Hán.
+const KJ_RE = /[\u4E00-\u9FFF\u3400-\u4DBF々]/g;
+export const kj = html => html.replace(KJ_RE, c => (c === '々' ? c : `<span class="kj">${c}</span>`));
+
 export function rubyHTML(s, furi = true) {
   let out = '', open = false;
   for (const g of parseJP(s)) {
     if (g.hl && !open) { out += '<mark class="gp">'; open = true; }
     if (!g.hl && open) { out += '</mark>'; open = false; }
-    out += g.r && furi ? `<ruby>${esc(g.t)}<rt>${esc(g.r)}</rt></ruby>` : esc(g.t);
+    out += g.r && furi ? `<ruby>${kj(esc(g.t))}<rt>${esc(g.r)}</rt></ruby>` : kj(esc(g.t));
   }
   if (open) out += '</mark>';
   return out;
 }
+// Thay phần [[…]] bằng ô trống (bài điền chỗ trống)
+export function blankHTML(s, blank = '<span class="blank" aria-label="chỗ trống">　　　</span>') {
+  return rubyHTML(s.replace(/\[\[[\s\S]*?\]\]/, '\u0000'), true).replace('\u0000', blank);
+}
+export const hlText = s => (/\[\[([\s\S]*?)\]\]/.exec(s) || [])[1] || '';
+export const stripHL = s => s.replace(/\[\[|\]\]/g, '');
+export const kanjiChars = s => [...new Set([...(s || '')].filter(c => isKanjiCh(c) && c !== '々'))];
 
 // Hiển thị một từ theo chế độ chữ: kana (mềm/cứng) | furi (kanji + furigana)
 // | bare (kanji trần — CHỈ dùng ở phần kiểm tra Hán–furigana: Kanji → cách đọc, ghép kana – kanji)
@@ -66,7 +77,7 @@ export function wordHTML(it, mode = 'furi') {
   if (mode === 'kana' || !it.kanji) return esc(it.kana);
   if (mode === 'bare') return esc(it.kanji);
   if (it.kf) return rubyHTML(it.kf, true);
-  return `<ruby>${esc(it.kanji)}<rt>${esc(it.kana)}</rt></ruby>`;
+  return `<ruby>${kj(esc(it.kanji))}<rt>${esc(it.kana)}</rt></ruby>`;
 }
 export function wordKey(it, mode) {
   if (mode === 'kana' || !it.kanji) return it.kana;
@@ -159,6 +170,7 @@ export const ICON = {
   plus: '<path d="M12 5v14M5 12h14"/>',
   sync: '<path d="M20 11a8 8 0 0 0-14.3-4.9L4 8"/><path d="M4 4v4h4"/><path d="M4 13a8 8 0 0 0 14.3 4.9L20 16"/><path d="M20 20v-4h-4"/>',
   flag: '<path d="M5 21V4h11l-2 4 2 4H5"/>',
+  han: '<rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 9h8M12 7v10M8 13h8"/>',
   qr: '<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM20 14v1M14 20h1M17 17h4v4h-4"/>',
 };
 export const icon = (n, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICON[n]}</svg>`;

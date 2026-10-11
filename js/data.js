@@ -5,7 +5,9 @@ export const LEVELS = ['N5', 'N4', 'N3', 'N2', 'N1'];
 export const POS = { n: 'danh từ', 'n-suru': 'danh từ + する', v1: 'động từ nhóm 2', v5: 'động từ nhóm 1', v3: 'động từ nhóm 3', 'adj-i': 'tính từ い', 'adj-na': 'tính từ な', adv: 'phó từ', expr: 'cụm từ', ctr: 'trợ số từ', other: 'khác' };
 export const REG = { trangtrong: 'văn bản, giấy tờ', lichsu: 'lịch sự', thuong: 'trung tính', khaungu: 'khẩu ngữ', kansai: 'Kansai-ben' };
 export const CTX = { doisong: 'Đời sống', xuong: 'Xưởng', thutuc: 'Thủ tục', hoithoai: 'Hội thoại' };
-const TYPES = ['vocab', 'grammar', 'phrase'];
+const TYPES = ['vocab', 'grammar', 'phrase', 'kanji'];
+// Nhóm chữ Hán theo nơi hay gặp (K11)
+export const KGROUPS = { coban: 'Chữ nền tảng', nhan: 'Nhãn sản phẩm', giayto: 'Giấy tờ & thuế', xuong: 'Công xưởng', antoan: 'Biển an toàn', thuysan: 'Thủy sản' };
 
 // D = toàn bộ dữ liệu đang dùng
 export const D = {
@@ -15,10 +17,11 @@ export const D = {
   disabled: { list: [], t: 0 },
   reports: {},        // id -> {note, t, _del?}
   items: new Map(),
-  vocab: [], grammar: [], phrase: [],
+  vocab: [], grammar: [], phrase: [], kanji: [],
+  kanjiByChar: new Map(),
   errors: [],
 };
-export const typeOfId = id => id.startsWith('g:') ? 'grammar' : id.startsWith('p:') ? 'phrase' : 'vocab';
+export const typeOfId = id => id.startsWith('g:') ? 'grammar' : id.startsWith('p:') ? 'phrase' : id.startsWith('k:') ? 'kanji' : 'vocab';
 
 export async function loadAll() {
   D.errors = [];
@@ -66,8 +69,9 @@ export function rebuild() {
     m.set(u.id, norm({ ...u, _user: true, _type: typeOfId(u.id), _pack: u._pack || 'tu-them' }));
   }
   D.items = m;
-  D.vocab = []; D.grammar = []; D.phrase = [];
-  for (const it of m.values()) (it._type === 'grammar' ? D.grammar : it._type === 'phrase' ? D.phrase : D.vocab).push(it);
+  D.vocab = []; D.grammar = []; D.phrase = []; D.kanji = [];
+  for (const it of m.values()) ({ grammar: D.grammar, phrase: D.phrase, kanji: D.kanji }[it._type] || D.vocab).push(it);
+  D.kanjiByChar = new Map(D.kanji.map(k => [k.char, k]));
 }
 function norm(it) {
   it.topics = it.topics || [];
@@ -118,10 +122,10 @@ export function checkPack(j) {
   if (j.schema !== 1) errs.push('schema phải là 1');
   const p = j.pack || {};
   if (!p.id || !/^[a-z0-9-]+$/.test(p.id)) errs.push('pack.id thiếu hoặc sai dạng');
-  if (!TYPES.includes(p.type)) errs.push('pack.type phải là vocab/grammar/phrase');
+  if (!TYPES.includes(p.type)) errs.push('pack.type phải là vocab/grammar/phrase/kanji');
   if (!p.title) errs.push('thiếu pack.title');
   if (!Array.isArray(j.items) || !j.items.length) errs.push('không có mục nào');
-  const pre = { vocab: 'v:', grammar: 'g:', phrase: 'p:' }[p.type];
+  const pre = { vocab: 'v:', grammar: 'g:', phrase: 'p:', kanji: 'k:' }[p.type];
   (j.items || []).forEach((it, i) => {
     const w = `mục ${i + 1}`;
     if (!it.id) errs.push(`${w}: thiếu id`);
@@ -129,6 +133,7 @@ export function checkPack(j) {
     if (p.type === 'vocab' && (!it.kana || !it.vi)) errs.push(`${w}: thiếu kana hoặc vi`);
     if (p.type === 'grammar' && (!it.pattern || !Array.isArray(it.ex))) errs.push(`${w}: thiếu pattern hoặc ex`);
     if (p.type === 'phrase' && (!it.jp || !it.vi)) errs.push(`${w}: thiếu jp hoặc vi`);
+    if (p.type === 'kanji' && (!it.char || !it.hv)) errs.push(`${w}: thiếu char hoặc hv`);
   });
   return errs;
 }

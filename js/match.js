@@ -2,7 +2,7 @@ import { esc, wordHTML, normVi, shuffle, beep, buzz, icon } from './util.js';
 import { D, LEVELS } from './data.js';
 import { S } from './settings.js';
 import { review, stats } from './srs.js';
-import { chips, bindChips, readChip, readChips, topicOpts, emptyState } from './ui.js';
+import { chips, bindChips, readChip, readChips, topicOpts, emptyState, wtabs } from './ui.js';
 import { selectItems } from './quiz.js';
 import { kvGet, kvSet } from './db.js';
 
@@ -39,7 +39,7 @@ export async function renderMatchSetup(view, ctx) {
   if (!D.vocab.length) { view.innerHTML = emptyState('Chưa có từ vựng nào. Vào Dữ liệu để nhập gói từ.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
   const st = stats(D.vocab);
   view.innerHTML = `
-    <h1 class="h1">Ghép 6 cặp</h1>
+    <h1 class="h1">Luyện từ</h1>${wtabs('match')}
     <form class="setup" onsubmit="return false">
       <fieldset><legend>Kiểu ghép</legend>${chips('type', PAIR_TYPES, o.type, false)}</fieldset>
       <fieldset><legend>Lấy từ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['new', 'Từ mới', st.new], ['wrong', 'Hay sai'], ['star', 'Gắn sao'], ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>

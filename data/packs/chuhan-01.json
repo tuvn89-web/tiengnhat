@@ -1,0 +1,1069 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "chuhan-01",
+  "title": "Chữ Hán 01 – Nền tảng, nhãn hàng, giấy tờ, xưởng",
+  "type": "kanji",
+  "level": "N4",
+  "topics": [
+   "jlpt",
+   "thuysan",
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-11",
+  "verified_on": "",
+  "note": "Gói mẫu. Câu lục bát là mẹo nhớ, không phải nguồn gốc chữ. Cấp JLPT ước lượng. Âm On/Kun và số nét đối chiếu từ điển chữ Hán thông dụng."
+ },
+ "items": [
+  {
+   "id": "k:休",
+   "char": "休",
+   "hv": "HƯU",
+   "nghia": "nghỉ, nghỉ ngơi",
+   "on": [
+    "キュウ"
+   ],
+   "kun": [
+    "やす.む",
+    "やす.まる",
+    "やす.める"
+   ],
+   "strokes": 6,
+   "level": "N5",
+   "groups": [
+    "xuong",
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "亻",
+     "hv": "NHÂN",
+     "nghia": "người (bộ nhân đứng)"
+    },
+    {
+     "c": "木",
+     "hv": "MỘC",
+     "nghia": "cây"
+    }
+   ],
+   "tho": [
+    "Người (亻) ngồi tựa gốc cây (木) xanh",
+    "Chữ HƯU (休) là nghỉ, an lành thảnh thơi."
+   ],
+   "viet": [
+    "hưu trí",
+    "hưu chiến"
+   ],
+   "similar": [
+    {
+     "c": "体",
+     "note": "THỂ (thân thể) — bên phải là 本, có thêm một nét ngang ở gốc."
+    }
+   ],
+   "note": "Ở xưởng: 休憩[きゅうけい] = giờ nghỉ giải lao."
+  },
+  {
+   "id": "k:木",
+   "char": "木",
+   "hv": "MỘC",
+   "nghia": "cây, gỗ",
+   "on": [
+    "ボク",
+    "モク"
+   ],
+   "kun": [
+    "き",
+    "こ"
+   ],
+   "strokes": 4,
+   "level": "N5",
+   "groups": [
+    "coban"
+   ],
+   "parts": [],
+   "tho": [
+    "Cành trên, rễ dưới, thân ngay",
+    "Cây là chữ MỘC (木), lá bay trên cành."
+   ],
+   "viet": [
+    "thợ mộc",
+    "mộc bản"
+   ],
+   "similar": [
+    {
+     "c": "本",
+     "note": "BẢN (gốc, sách) — thêm một nét ngang ngắn ở gốc cây."
+    },
+    {
+     "c": "未",
+     "note": "VỊ (chưa) — nét ngang trên ngắn hơn nét dưới."
+    },
+    {
+     "c": "末",
+     "note": "MẠT (cuối) — nét ngang trên dài hơn nét dưới."
+    }
+   ]
+  },
+  {
+   "id": "k:人",
+   "char": "人",
+   "hv": "NHÂN",
+   "nghia": "người",
+   "on": [
+    "ジン",
+    "ニン"
+   ],
+   "kun": [
+    "ひと"
+   ],
+   "strokes": 2,
+   "level": "N5",
+   "groups": [
+    "coban"
+   ],
+   "parts": [],
+   "tho": [
+    "Hai chân dạng đứng thẳng ngay",
+    "Người ta gọi chữ NHÂN (人) này là ta."
+   ],
+   "viet": [
+    "nhân dân",
+    "nhân viên",
+    "nhân loại"
+   ],
+   "similar": [
+    {
+     "c": "入",
+     "note": "NHẬP (vào) — nét bên trái ngắn, nét bên phải dài và đè lên."
+    },
+    {
+     "c": "八",
+     "note": "BÁT (tám) — hai nét tách rời, không chạm nhau."
+    }
+   ]
+  },
+  {
+   "id": "k:日",
+   "char": "日",
+   "hv": "NHẬT",
+   "nghia": "mặt trời, ngày",
+   "on": [
+    "ニチ",
+    "ジツ"
+   ],
+   "kun": [
+    "ひ",
+    "か"
+   ],
+   "strokes": 4,
+   "level": "N5",
+   "groups": [
+    "coban"
+   ],
+   "parts": [],
+   "tho": [
+    "Khung vuông, một vạch ở trong",
+    "Mặt trời chữ NHẬT (日) tròn vòng sáng tươi."
+   ],
+   "viet": [
+    "nhật ký",
+    "sinh nhật",
+    "Nhật Bản"
+   ],
+   "similar": [
+    {
+     "c": "目",
+     "note": "MỤC (mắt) — cao hơn, có hai vạch ngang bên trong."
+    },
+    {
+     "c": "白",
+     "note": "BẠCH (trắng) — có thêm một nét phẩy trên đầu."
+    }
+   ],
+   "note": "Trên giấy tờ: 年月日 = năm tháng ngày."
+  },
+  {
+   "id": "k:月",
+   "char": "月",
+   "hv": "NGUYỆT",
+   "nghia": "mặt trăng, tháng",
+   "on": [
+    "ゲツ",
+    "ガツ"
+   ],
+   "kun": [
+    "つき"
+   ],
+   "strokes": 4,
+   "level": "N5",
+   "groups": [
+    "coban"
+   ],
+   "parts": [],
+   "tho": [
+    "Khung cong, hai vạch nằm trong",
+    "Trăng là chữ NGUYỆT (月), soi dòng sông đêm."
+   ],
+   "viet": [
+    "nguyệt san",
+    "bán nguyệt"
+   ],
+   "similar": [
+    {
+     "c": "用",
+     "note": "DỤNG (dùng) — có thêm nét dọc ở giữa xuyên xuống."
+    },
+    {
+     "c": "日",
+     "note": "NHẬT (mặt trời) — khung vuông, chỉ một vạch ngang trong."
+    }
+   ]
+  },
+  {
+   "id": "k:明",
+   "char": "明",
+   "hv": "MINH",
+   "nghia": "sáng, rõ ràng",
+   "on": [
+    "メイ",
+    "ミョウ"
+   ],
+   "kun": [
+    "あか.るい",
+    "あき.らか",
+    "あ.ける"
+   ],
+   "strokes": 8,
+   "level": "N4",
+   "groups": [
+    "coban",
+    "giayto"
+   ],
+   "parts": [
+    {
+     "c": "日",
+     "hv": "NHẬT",
+     "nghia": "mặt trời"
+    },
+    {
+     "c": "月",
+     "hv": "NGUYỆT",
+     "nghia": "mặt trăng"
+    }
+   ],
+   "tho": [
+    "Mặt trời (日) đứng cạnh trăng (月) đêm",
+    "Sáng trưng là chữ MINH (明) thêm rạng ngời."
+   ],
+   "viet": [
+    "thông minh",
+    "chứng minh",
+    "văn minh"
+   ],
+   "similar": [],
+   "note": "Trên giấy tờ: 証明書[しょうめいしょ] = giấy chứng nhận."
+  },
+  {
+   "id": "k:冷",
+   "char": "冷",
+   "hv": "LÃNH",
+   "nghia": "lạnh",
+   "on": [
+    "レイ"
+   ],
+   "kun": [
+    "つめ.たい",
+    "ひ.える",
+    "ひ.やす",
+    "さ.める"
+   ],
+   "strokes": 7,
+   "level": "N3",
+   "groups": [
+    "nhan",
+    "thuysan"
+   ],
+   "parts": [
+    {
+     "c": "冫",
+     "hv": "BĂNG",
+     "nghia": "băng, nước đá (bộ hai chấm)"
+    },
+    {
+     "c": "令",
+     "hv": "LỆNH",
+     "nghia": "mệnh lệnh"
+    }
+   ],
+   "tho": [
+    "Băng (冫) kề lệnh (令) lạnh tê người",
+    "Lạnh là chữ LÃNH (冷), rét mười ngón tay."
+   ],
+   "viet": [
+    "lãnh đạm",
+    "lãnh đông"
+   ],
+   "similar": [
+    {
+     "c": "令",
+     "note": "LỆNH — không có bộ băng hai chấm bên trái."
+    },
+    {
+     "c": "今",
+     "note": "KIM (bây giờ) — phần dưới là một nét gập, không có bộ băng."
+    }
+   ],
+   "note": "Ở xưởng: 冷凍[れいとう] = đông lạnh, 冷蔵[れいぞう] = bảo quản mát."
+  },
+  {
+   "id": "k:凍",
+   "char": "凍",
+   "hv": "ĐÔNG",
+   "nghia": "đông lại, đóng băng",
+   "on": [
+    "トウ"
+   ],
+   "kun": [
+    "こお.る",
+    "こご.える"
+   ],
+   "strokes": 10,
+   "level": "N2",
+   "groups": [
+    "nhan",
+    "thuysan"
+   ],
+   "parts": [
+    {
+     "c": "冫",
+     "hv": "BĂNG",
+     "nghia": "băng (bộ hai chấm)"
+    },
+    {
+     "c": "東",
+     "hv": "ĐÔNG",
+     "nghia": "phía đông"
+    }
+   ],
+   "tho": [
+    "Hướng đông (東) gặp giá băng (冫) về",
+    "Chữ ĐÔNG (凍) đông đá, tái tê lạnh lùng."
+   ],
+   "viet": [
+    "đông lạnh",
+    "đông kết"
+   ],
+   "similar": [
+    {
+     "c": "東",
+     "note": "ĐÔNG (phía đông) — chữ đứng một mình, không có bộ băng."
+    }
+   ],
+   "note": "Nhãn hàng: 冷凍[れいとう] = đông lạnh, 解凍品[かいとうひん] = hàng đã rã đông."
+  },
+  {
+   "id": "k:解",
+   "char": "解",
+   "hv": "GIẢI",
+   "nghia": "gỡ ra, cởi, hiểu",
+   "on": [
+    "カイ",
+    "ゲ"
+   ],
+   "kun": [
+    "と.く",
+    "と.ける",
+    "と.かす"
+   ],
+   "strokes": 13,
+   "level": "N3",
+   "groups": [
+    "nhan",
+    "thuysan"
+   ],
+   "parts": [
+    {
+     "c": "角",
+     "hv": "GIÁC",
+     "nghia": "sừng"
+    },
+    {
+     "c": "刀",
+     "hv": "ĐAO",
+     "nghia": "con dao"
+    },
+    {
+     "c": "牛",
+     "hv": "NGƯU",
+     "nghia": "con bò"
+    }
+   ],
+   "tho": [
+    "Sừng (角) bò (牛) dao (刀) xẻ tách ra",
+    "Gỡ rời là chữ GIẢI (解), xa muộn phiền."
+   ],
+   "viet": [
+    "giải quyết",
+    "giải thích",
+    "giải phóng"
+   ],
+   "similar": [
+    {
+     "c": "角",
+     "note": "GIÁC (sừng) — chỉ là phần bên trái của chữ."
+    }
+   ],
+   "note": "Ở xưởng: 解凍[かいとう] = rã đông."
+  },
+  {
+   "id": "k:生",
+   "char": "生",
+   "hv": "SINH",
+   "nghia": "sống, sinh ra; sống (chưa nấu)",
+   "on": [
+    "セイ",
+    "ショウ"
+   ],
+   "kun": [
+    "い.きる",
+    "う.まれる",
+    "なま",
+    "は.える"
+   ],
+   "strokes": 5,
+   "level": "N5",
+   "groups": [
+    "coban",
+    "nhan"
+   ],
+   "parts": [
+    {
+     "c": "土",
+     "hv": "THỔ",
+     "nghia": "đất"
+    }
+   ],
+   "tho": [
+    "Mầm non nhú khỏi đất (土) nâu",
+    "Chữ SINH (生) sống mãi, xanh lâu tháng ngày."
+   ],
+   "viet": [
+    "sinh viên",
+    "sinh nhật",
+    "học sinh"
+   ],
+   "similar": [
+    {
+     "c": "牛",
+     "note": "NGƯU (con bò) — không có nét ngang dưới cùng, nét dọc trồi lên đầu."
+    },
+    {
+     "c": "主",
+     "note": "CHỦ (chủ) — có chấm trên đầu, không có nét phẩy bên trái."
+    }
+   ],
+   "note": "Nhãn hàng: 生食用[せいしょくよう] = dùng để ăn sống; 生[なま] = sống, tươi."
+  },
+  {
+   "id": "k:食",
+   "char": "食",
+   "hv": "THỰC",
+   "nghia": "ăn, đồ ăn",
+   "on": [
+    "ショク",
+    "ジキ"
+   ],
+   "kun": [
+    "た.べる",
+    "く.う"
+   ],
+   "strokes": 9,
+   "level": "N5",
+   "groups": [
+    "coban",
+    "nhan"
+   ],
+   "parts": [
+    {
+     "c": "人",
+     "hv": "NHÂN",
+     "nghia": "người (phần mái trên)"
+    },
+    {
+     "c": "良",
+     "hv": "LƯƠNG",
+     "nghia": "tốt"
+    }
+   ],
+   "tho": [
+    "Trên người (人) dưới tốt (良) bày ra",
+    "Ăn là chữ THỰC (食), cả nhà no say."
+   ],
+   "viet": [
+    "thực phẩm",
+    "ẩm thực"
+   ],
+   "similar": [
+    {
+     "c": "良",
+     "note": "LƯƠNG (tốt) — chỉ là phần dưới, không có mái che phía trên."
+    }
+   ],
+   "note": "Nhãn hàng: 食品[しょくひん] = thực phẩm."
+  },
+  {
+   "id": "k:用",
+   "char": "用",
+   "hv": "DỤNG",
+   "nghia": "dùng; việc",
+   "on": [
+    "ヨウ"
+   ],
+   "kun": [
+    "もち.いる"
+   ],
+   "strokes": 5,
+   "level": "N4",
+   "groups": [
+    "nhan"
+   ],
+   "parts": [],
+   "tho": [
+    "Thùng to, khung chống, chắc tay",
+    "Dùng là chữ DỤNG (用), hằng ngày đem ra."
+   ],
+   "viet": [
+    "sử dụng",
+    "dụng cụ",
+    "tác dụng"
+   ],
+   "similar": [
+    {
+     "c": "月",
+     "note": "NGUYỆT (trăng) — không có nét dọc giữa xuyên xuống."
+    }
+   ],
+   "note": "Nhãn hàng: 生食用[せいしょくよう] / 加熱用[かねつよう] — đuôi 用 = \"dùng để\"."
+  },
+  {
+   "id": "k:加",
+   "char": "加",
+   "hv": "GIA",
+   "nghia": "thêm vào",
+   "on": [
+    "カ"
+   ],
+   "kun": [
+    "くわ.える",
+    "くわ.わる"
+   ],
+   "strokes": 5,
+   "level": "N3",
+   "groups": [
+    "nhan"
+   ],
+   "parts": [
+    {
+     "c": "力",
+     "hv": "LỰC",
+     "nghia": "sức"
+    },
+    {
+     "c": "口",
+     "hv": "KHẨU",
+     "nghia": "miệng, lời nói"
+    }
+   ],
+   "tho": [
+    "Sức (力) tay góp với lời (口) ca",
+    "Thêm vào cho đủ, chữ GIA (加) tăng dần."
+   ],
+   "viet": [
+    "gia tăng",
+    "tham gia",
+    "gia vị"
+   ],
+   "similar": [
+    {
+     "c": "如",
+     "note": "NHƯ (giống như) — bên trái là bộ nữ 女, không phải 力."
+    }
+   ],
+   "note": "Nhãn hàng: 加熱用[かねつよう] = dùng để nấu chín."
+  },
+  {
+   "id": "k:熱",
+   "char": "熱",
+   "hv": "NHIỆT",
+   "nghia": "nóng, nhiệt",
+   "on": [
+    "ネツ"
+   ],
+   "kun": [
+    "あつ.い"
+   ],
+   "strokes": 15,
+   "level": "N3",
+   "groups": [
+    "nhan"
+   ],
+   "parts": [
+    {
+     "c": "埶",
+     "hv": "NGHỆ",
+     "nghia": "trồng cây (chữ cổ)"
+    },
+    {
+     "c": "灬",
+     "hv": "HỎA",
+     "nghia": "lửa (bốn chấm)"
+    }
+   ],
+   "tho": [
+    "Trồng cây (埶) trên lửa (灬) bừng bừng",
+    "Nóng là chữ NHIỆT (熱), chẳng ngừng toả hơi."
+   ],
+   "viet": [
+    "nhiệt độ",
+    "nhiệt tình"
+   ],
+   "similar": [
+    {
+     "c": "勢",
+     "note": "THẾ (thế lực) — phần dưới là 力, không phải bốn chấm lửa."
+    }
+   ],
+   "note": "Nhãn hàng: 非加熱[ひかねつ] = không qua gia nhiệt."
+  },
+  {
+   "id": "k:税",
+   "char": "税",
+   "hv": "THUẾ",
+   "nghia": "thuế",
+   "on": [
+    "ゼイ"
+   ],
+   "kun": [],
+   "strokes": 12,
+   "level": "N3",
+   "groups": [
+    "giayto"
+   ],
+   "parts": [
+    {
+     "c": "禾",
+     "hv": "HÒA",
+     "nghia": "cây lúa"
+    },
+    {
+     "c": "兑",
+     "hv": "ĐOÀI",
+     "nghia": "đổi"
+    }
+   ],
+   "tho": [
+    "Lúa (禾) đem đổi (兑) lấy bạc tiền",
+    "Nộp lên chữ THUẾ (税), chẳng phiền lo âu."
+   ],
+   "viet": [
+    "thuế khóa",
+    "miễn thuế"
+   ],
+   "similar": [
+    {
+     "c": "説",
+     "note": "THUYẾT (nói) — bên trái là bộ ngôn 言."
+    },
+    {
+     "c": "脱",
+     "note": "THOÁT (cởi bỏ) — bên trái là bộ nhục 月."
+    }
+   ],
+   "note": "Giấy tờ: 住民税[じゅうみんぜい] = thuế cư trú, 納税[のうぜい] = nộp thuế."
+  },
+  {
+   "id": "k:証",
+   "char": "証",
+   "hv": "CHỨNG",
+   "nghia": "bằng chứng, chứng nhận",
+   "on": [
+    "ショウ"
+   ],
+   "kun": [
+    "あかし"
+   ],
+   "strokes": 12,
+   "level": "N2",
+   "groups": [
+    "giayto"
+   ],
+   "parts": [
+    {
+     "c": "言",
+     "hv": "NGÔN",
+     "nghia": "lời nói"
+    },
+    {
+     "c": "正",
+     "hv": "CHÍNH",
+     "nghia": "đúng"
+    }
+   ],
+   "tho": [
+    "Lời (言) ngay nói đúng (正) chẳng sai",
+    "Làm bằng chữ CHỨNG (証), giấy ai cũng cần."
+   ],
+   "viet": [
+    "chứng minh",
+    "chứng nhận",
+    "bằng chứng"
+   ],
+   "similar": [
+    {
+     "c": "正",
+     "note": "CHÍNH (đúng) — chỉ là phần bên phải."
+    }
+   ],
+   "note": "Giấy tờ: 証明書[しょうめいしょ] = giấy chứng nhận."
+  },
+  {
+   "id": "k:書",
+   "char": "書",
+   "hv": "THƯ",
+   "nghia": "viết; sách, giấy tờ",
+   "on": [
+    "ショ"
+   ],
+   "kun": [
+    "か.く"
+   ],
+   "strokes": 10,
+   "level": "N5",
+   "groups": [
+    "giayto",
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "聿",
+     "hv": "DUẬT",
+     "nghia": "cây bút"
+    },
+    {
+     "c": "日",
+     "hv": "NHẬT",
+     "nghia": "mặt trời"
+    }
+   ],
+   "tho": [
+    "Bút (聿) lông viết dưới mặt trời (日)",
+    "Chữ THƯ (書) là viết, sách đời lưu danh."
+   ],
+   "viet": [
+    "thư viện",
+    "thư ký",
+    "bức thư"
+   ],
+   "similar": [],
+   "note": "Giấy tờ: 申請書[しんせいしょ] = mẫu đơn, 証明書[しょうめいしょ] = giấy chứng nhận."
+  },
+  {
+   "id": "k:消",
+   "char": "消",
+   "hv": "TIÊU",
+   "nghia": "mất đi, tắt; tiêu dùng",
+   "on": [
+    "ショウ"
+   ],
+   "kun": [
+    "き.える",
+    "け.す"
+   ],
+   "strokes": 10,
+   "level": "N3",
+   "groups": [
+    "nhan"
+   ],
+   "parts": [
+    {
+     "c": "氵",
+     "hv": "THỦY",
+     "nghia": "nước (bộ ba chấm)"
+    },
+    {
+     "c": "肖",
+     "hv": "TIẾU",
+     "nghia": "nhỏ dần, giống"
+    }
+   ],
+   "tho": [
+    "Nước (氵) trôi bé nhỏ (肖) dần tan",
+    "Chữ TIÊU (消) là mất, như làn khói bay."
+   ],
+   "viet": [
+    "tiêu dùng",
+    "tiêu hóa",
+    "tiêu diệt"
+   ],
+   "similar": [
+    {
+     "c": "削",
+     "note": "TƯỚC (gọt) — bên phải là bộ đao 刂, không có ba chấm nước."
+    }
+   ],
+   "note": "Nhãn hàng: 消費期限[しょうひきげん] = hạn sử dụng (quá hạn không được ăn). 消毒[しょうどく] = khử trùng."
+  },
+  {
+   "id": "k:賞",
+   "char": "賞",
+   "hv": "THƯỞNG",
+   "nghia": "thưởng, khen; thưởng thức",
+   "on": [
+    "ショウ"
+   ],
+   "kun": [],
+   "strokes": 15,
+   "level": "N2",
+   "groups": [
+    "nhan"
+   ],
+   "parts": [
+    {
+     "c": "尚",
+     "hv": "THƯỢNG",
+     "nghia": "còn, chuộng"
+    },
+    {
+     "c": "貝",
+     "hv": "BỐI",
+     "nghia": "vỏ sò, tiền xưa"
+    }
+   ],
+   "tho": [
+    "Chuộng (尚) ai giỏi, tặng sò (貝) tiền",
+    "Khen ban chữ THƯỞNG (賞), trao liền tay ngay."
+   ],
+   "viet": [
+    "giải thưởng",
+    "khen thưởng",
+    "thưởng thức"
+   ],
+   "similar": [
+    {
+     "c": "常",
+     "note": "THƯỜNG (thường xuyên) — phần dưới là bộ cân 巾, không phải 貝."
+    }
+   ],
+   "note": "Nhãn hàng: 賞味期限[しょうみきげん] = hạn dùng ngon nhất. Đừng nhầm với 消費期限[しょうひきげん]."
+  },
+  {
+   "id": "k:期",
+   "char": "期",
+   "hv": "KỲ",
+   "nghia": "kỳ hạn, thời kỳ",
+   "on": [
+    "キ",
+    "ゴ"
+   ],
+   "kun": [],
+   "strokes": 12,
+   "level": "N3",
+   "groups": [
+    "nhan",
+    "giayto"
+   ],
+   "parts": [
+    {
+     "c": "其",
+     "hv": "KỲ",
+     "nghia": "ấy, cái đó"
+    },
+    {
+     "c": "月",
+     "hv": "NGUYỆT",
+     "nghia": "mặt trăng"
+    }
+   ],
+   "tho": [
+    "Trăng (月) kia (其) tròn khuyết đếm ngày",
+    "Chữ KỲ (期) kỳ hạn, hẹn nay mai về."
+   ],
+   "viet": [
+    "kỳ hạn",
+    "thời kỳ",
+    "học kỳ"
+   ],
+   "similar": [
+    {
+     "c": "基",
+     "note": "CƠ (nền) — phần dưới là 土, không có 月 bên phải."
+    }
+   ],
+   "note": "Giấy tờ: 在留期間[ざいりゅうきかん] = thời hạn lưu trú."
+  },
+  {
+   "id": "k:限",
+   "char": "限",
+   "hv": "HẠN",
+   "nghia": "giới hạn",
+   "on": [
+    "ゲン"
+   ],
+   "kun": [
+    "かぎ.る"
+   ],
+   "strokes": 9,
+   "level": "N3",
+   "groups": [
+    "nhan",
+    "giayto"
+   ],
+   "parts": [
+    {
+     "c": "阝",
+     "hv": "PHỤ",
+     "nghia": "gò đất (bộ bên trái)"
+    },
+    {
+     "c": "艮",
+     "hv": "CẤN",
+     "nghia": "dừng lại"
+    }
+   ],
+   "tho": [
+    "Gò (阝) cao chặn bước dừng (艮) chân",
+    "Hết đường chữ HẠN (限), đến gần thì thôi."
+   ],
+   "viet": [
+    "giới hạn",
+    "hạn chế",
+    "kỳ hạn"
+   ],
+   "similar": [
+    {
+     "c": "根",
+     "note": "CĂN (rễ) — bên trái là bộ mộc 木."
+    },
+    {
+     "c": "眼",
+     "note": "NHÃN (mắt) — bên trái là bộ mục 目."
+    }
+   ],
+   "note": "Nhãn hàng: 期限[きげん] = thời hạn."
+  },
+  {
+   "id": "k:手",
+   "char": "手",
+   "hv": "THỦ",
+   "nghia": "tay",
+   "on": [
+    "シュ"
+   ],
+   "kun": [
+    "て"
+   ],
+   "strokes": 4,
+   "level": "N5",
+   "groups": [
+    "xuong",
+    "coban"
+   ],
+   "parts": [],
+   "tho": [
+    "Bàn tay năm ngón xoè ra",
+    "Tay là chữ THỦ (手), việc nhà việc công."
+   ],
+   "viet": [
+    "thủ công",
+    "cầu thủ"
+   ],
+   "similar": [
+    {
+     "c": "毛",
+     "note": "MAO (lông) — nét cuối cong sang phải, không có móc."
+    }
+   ],
+   "note": "Ở xưởng: 手洗[てあら]い = rửa tay, 手袋[てぶくろ] = găng tay."
+  },
+  {
+   "id": "k:洗",
+   "char": "洗",
+   "hv": "TẨY",
+   "nghia": "rửa",
+   "on": [
+    "セン"
+   ],
+   "kun": [
+    "あら.う"
+   ],
+   "strokes": 9,
+   "level": "N4",
+   "groups": [
+    "xuong"
+   ],
+   "parts": [
+    {
+     "c": "氵",
+     "hv": "THỦY",
+     "nghia": "nước (bộ ba chấm)"
+    },
+    {
+     "c": "先",
+     "hv": "TIÊN",
+     "nghia": "trước"
+    }
+   ],
+   "tho": [
+    "Nước (氵) trôi rửa trước (先) mọi điều",
+    "Rửa là chữ TẨY (洗), sạch nhiều đôi tay."
+   ],
+   "viet": [
+    "tẩy rửa",
+    "tẩy trắng"
+   ],
+   "similar": [
+    {
+     "c": "先",
+     "note": "TIÊN (trước) — chỉ là phần bên phải, không có ba chấm nước."
+    }
+   ],
+   "note": "Ở xưởng: 手洗[てあら]い = rửa tay, 洗浄[せんじょう] = rửa sạch."
+  },
+  {
+   "id": "k:魚",
+   "char": "魚",
+   "hv": "NGƯ",
+   "nghia": "cá",
+   "on": [
+    "ギョ"
+   ],
+   "kun": [
+    "うお",
+    "さかな"
+   ],
+   "strokes": 11,
+   "level": "N5",
+   "groups": [
+    "thuysan",
+    "coban"
+   ],
+   "parts": [],
+   "tho": [
+    "Đầu trên, vảy giữa, đuôi xoè",
+    "Chữ NGƯ (魚) là cá, bơi khoe vảy vàng."
+   ],
+   "viet": [
+    "ngư dân",
+    "ngư nghiệp"
+   ],
+   "similar": [
+    {
+     "c": "漁",
+     "note": "NGƯ (đánh cá) — có thêm bộ ba chấm nước 氵 bên trái."
+    }
+   ],
+   "note": "Bốn chấm dưới cùng là đuôi cá."
+  }
+ ]
+}

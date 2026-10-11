@@ -1,10 +1,11 @@
 import { esc, toast, download, readFile, fmtDate, icon, rich, APP_VERSION } from './util.js';
 import qrcode from './vendor/qrcode.js';
+import { missingKanji } from './kanji.js';
 import { D, TOPICS, setPackEnabled, checkPack, importPack, removeImported, activeReports } from './data.js';
 import { field, confirmBox, openSheet } from './ui.js';
 import { getSyncCfg, setSyncCfg, syncNow, lastSync, lastSyncError, backupJSON, restoreJSON, normalizeCfg, formProblem, diagnose, ownerFromSite, maskToken, transferLink, readTransferCode } from './sync.js';
 
-const TYPE = { vocab: 'Từ vựng', grammar: 'Ngữ pháp', phrase: 'Câu thực chiến' };
+const TYPE = { vocab: 'Từ vựng', grammar: 'Ngữ pháp', phrase: 'Câu thực chiến', kanji: 'Chữ Hán' };
 
 // Máy này đang lưu gì — để Cậu Cả tự soát (token che phần giữa)
 function savedHTML(c) {
@@ -108,7 +109,7 @@ export async function renderData(view, ctx, opts = {}) {
 
     <section class="card">
       <h2 class="h2">Gửi cho skill</h2>
-      <p class="muted small">File gồm ${reps.length} mục Cậu Cả đã báo sai, ${mine.length} từ tự thêm/sửa, và danh sách mã từ đang có để skill không làm trùng.</p>
+      <p class="muted small">File gồm ${reps.length} mục Cậu Cả đã báo sai, ${mine.length} từ tự thêm/sửa, ${missingKanji().length} chữ Hán chưa có thẻ, và danh sách mã đang có để skill không làm trùng.</p>
       <button class="btn btn-ghost" data-act="forskill">Tải file gửi skill</button>
     </section>
 
@@ -176,6 +177,7 @@ export async function renderData(view, ctx, opts = {}) {
       userItems: mine,
       packs: D.packs.map(p => ({ id: p.id, title: p.title, type: p.type, version: p.version, src: p.src })),
       items: [...D.items.keys()].map(id => ({ id })),
+      kanjiMissing: missingKanji(),
     };
     download(`gui-skill-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(out, null, 1));
   };

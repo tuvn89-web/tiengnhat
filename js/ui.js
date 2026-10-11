@@ -1,4 +1,4 @@
-import { esc, rubyHTML, wordHTML, reading, jp, icon, toast, $, rich } from './util.js';
+import { esc, rubyHTML, wordHTML, reading, jp, icon, toast, $, rich, kanjiChars } from './util.js';
 import { TOPICS, POS, REG, D } from './data.js';
 import { S } from './settings.js';
 import { speak, ttsReady } from './tts.js';
@@ -44,6 +44,13 @@ export function exampleHTML(ex, { ctx } = {}) {
   </div>`;
 }
 
+// Dải "Chữ Hán trong từ này" — chạm để mở thẻ chữ
+export const kanjiStripHTML = it => {
+  const cs = kanjiChars(it.kanji);
+  if (!cs.length) return '';
+  return `<p class="kstrip" data-bare><span class="muted small">Chữ Hán trong từ:</span> ${cs.map(c => `<button type="button" class="kchip ${D.kanjiByChar.has(c) ? 'has' : ''}" data-kopen="${esc(c)}"><b lang="ja">${esc(c)}</b>${D.kanjiByChar.has(c) ? `<small>${esc(D.kanjiByChar.get(c).hv)}</small>` : ''}</button>`).join('')}</p>`;
+};
+
 export const topicNames = it => (it.topics || []).map(t => TOPICS[t] || t).join(', ');
 
 export function wordDetailHTML(it, { compact = false } = {}) {
@@ -57,6 +64,7 @@ export function wordDetailHTML(it, { compact = false } = {}) {
     </div>
     ${it.kanji ? `<p class="wd-kana" lang="ja">${esc(it.kana)}</p>` : ''}
     ${S.showHv && it.hv ? `<p class="wd-hv">Hán Việt: <b>${esc(it.hv)}</b></p>` : ''}
+    ${kanjiStripHTML(it)}
     <p class="wd-vi">${esc(it.vi)}</p>
     ${it.std ? `<p class="wd-std">Tiếng chuẩn: <span lang="ja">${rich(it.std)}</span></p>` : ''}
     <p class="wd-meta">${meta.map(esc).join(' / ')}</p>
@@ -77,7 +85,7 @@ export function openSheet(html, { onClose, label = 'Chi tiết' } = {}) {
   document.body.appendChild(wrap);
   const prev = document.activeElement;
   const close = () => { wrap.remove(); document.removeEventListener('keydown', onKey); prev?.focus?.(); onClose?.(); };
-  const onKey = e => { if (e.key === 'Escape') close(); };
+  const onKey = e => { if (e.key === 'Escape' && document.querySelector('.sheet-wrap:last-of-type') === wrap) close(); };
   document.addEventListener('keydown', onKey);
   wrap.addEventListener('click', e => { if (e.target === wrap || e.target.closest('.sheet-x')) close(); });
   bindSay(wrap);
@@ -97,6 +105,11 @@ export function confirmBox(msg, okLabel = 'Đồng ý', cancelLabel = 'Huỷ') {
     });
   });
 }
+
+// Tab trên đầu trang Luyện từ
+export const wtabs = cur => `<div class="tabs" role="tablist">
+  <a role="tab" href="#/hoc" aria-selected="${cur === 'quiz'}">Trắc nghiệm</a>
+  <a role="tab" href="#/ghep" aria-selected="${cur === 'match'}">Ghép 6 cặp</a></div>`;
 
 export const field = (label, inner, hint = '') => `<label class="field"><span class="field-l">${esc(label)}</span>${inner}${hint ? `<span class="field-h">${hint}</span>` : ''}</label>`;
 export const emptyState = (msg, actionHTML = '') => `<div class="empty"><p>${esc(msg)}</p>${actionHTML}</div>`;

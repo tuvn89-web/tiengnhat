@@ -3,7 +3,7 @@ import { D, LEVELS, TOPICS } from './data.js';
 import { S } from './settings.js';
 import { review, status, dueDirs, errCount, isStar, toggleStar, stats, progDir } from './srs.js';
 import { speak, ttsReady } from './tts.js';
-import { chips, bindChips, readChip, readChips, bindSay, sayBtn, wordDetailHTML, topicOpts, emptyState } from './ui.js';
+import { chips, bindChips, readChip, readChips, bindSay, sayBtn, wordDetailHTML, topicOpts, emptyState, wtabs } from './ui.js';
 import { kvGet, kvSet } from './db.js';
 
 export const DIRS = [['vj', 'Việt → Nhật'], ['jv', 'Nhật → Việt'], ['kr', 'Kanji → cách đọc (không furigana)'], ['au', 'Nghe → nghĩa'], ['mix', 'Trộn']];
@@ -27,7 +27,6 @@ export function selectItems({ levels = [], topics = [], source = 'all', needKanj
   else if (source === 'star') pool = pool.filter(it => isStar(it.id));
   return pool;
 }
-export const newLeftToday = () => Math.max(0, S.newPerDay - stats(D.vocab).newToday);
 
 export function buildQuestions(o) {
   const allowMix = ['vj', 'jv', 'kr', ...(ttsReady() ? ['au'] : [])];
@@ -44,7 +43,6 @@ export function buildQuestions(o) {
     }
   } else {
     let list = o.source === 'all' || o.source === 'star' ? shuffle(pool) : pool;
-    if (o.source === 'new') list = list.slice(0, newLeftToday());
     for (const it of list) {
       let d = o.dir;
       if (d === 'mix') { const c = allowMix.filter(x => x !== 'kr' || it.kanji); d = c[Math.floor(Math.random() * c.length)]; }
@@ -56,7 +54,7 @@ export function buildQuestions(o) {
 }
 
 // ---------- đáp án & nhiễu ----------
-function answerOf(it, dir, script) {
+export function answerOf(it, dir, script) {
   if (dir === 'vj') return { key: wordKey(it, script), html: `<span lang="ja">${wordHTML(it, script)}</span>`, jp: true };
   if (dir === 'kr') return { key: it.kana, html: `<span lang="ja">${esc(it.kana)}</span>`, jp: true };
   return { key: normVi(it.vi), html: esc(it.vi), jp: false };
@@ -97,7 +95,7 @@ export async function renderQuizSetup(view, ctx) {
   if (!D.vocab.length) { view.innerHTML = emptyState('Chưa có từ vựng nào. Vào Dữ liệu để nhập gói từ.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
   const st = stats(D.vocab);
   view.innerHTML = `
-    <h1 class="h1">Trắc nghiệm từ vựng</h1>
+    <h1 class="h1">Luyện từ</h1>${wtabs('quiz')}
     <form class="setup" onsubmit="return false">
       <fieldset><legend>Kiểu câu hỏi</legend>${chips('dir', DIRS, o.dir, false)}</fieldset>
       <fieldset><legend>Hiển thị chữ Nhật</legend>${chips('script', SCRIPTS, o.script, false)}</fieldset>
@@ -118,7 +116,7 @@ export async function renderQuizSetup(view, ctx) {
     const n = buildQuestions({ ...x, count: 9999 }).length;
     const p = form.querySelector('.setup-count');
     let msg = n ? `Có ${n} câu phù hợp.` : 'Không có từ nào khớp lựa chọn này.';
-    if (x.source === 'new' && newLeftToday() === 0) msg = `Hôm nay đã học đủ ${S.newPerDay} từ mới. Đổi giới hạn trong Cài đặt nếu muốn học thêm.`;
+    if (x.source === 'new' && !n) msg = 'Đã học hết từ mới trong kho (theo bộ lọc đang chọn). Nhập thêm gói từ ở trang Dữ liệu.';
     if (x.source === 'due' && !n) msg = 'Không có từ nào đến hạn ôn. Chọn "Từ mới" để học thêm.';
     if (x.dir === 'au' && !ttsReady()) msg = 'Máy chưa có giọng đọc tiếng Nhật — chưa dùng được kiểu Nghe. Xem Cài đặt.';
     p.textContent = msg;
@@ -186,7 +184,7 @@ export function runQuiz(view, qs, o, ctx) {
     else if (dir === 'kr') { prompt = `<p class="prompt-jp" lang="ja" data-bare>${wordHTML(it, 'bare')}</p>`; hint = 'Chọn cách đọc'; }
     else { prompt = `<button type="button" class="say-big" data-say="${esc(it.kana)}" aria-label="Nghe lại">${icon('speaker')}<span>Nghe lại</span></button>`; hint = 'Nghe rồi chọn nghĩa tiếng Việt'; }
     view.innerHTML = `<div class="run">${head()}
-      <article class="label-card">${tag(it)}${prompt}<p class="prompt-hint">${hint}</p><div class="stamp" aria-hidden="true"></div></article>
+      <article class="label-card" data-nokj>${tag(it)}${prompt}<p class="prompt-hint">${hint}</p><div class="stamp" aria-hidden="true"></div></article>
       <div class="opts ${right.jp ? 'opts-jp' : ''}">${opts.map((a, k) => `<button type="button" class="opt" data-k="${esc(a.key)}"><span class="opt-n">${k + 1}</span><span class="opt-t">${a.html}</span></button>`).join('')}</div>
       <div class="after" hidden></div></div>`;
     bindSay(view);
@@ -210,6 +208,7 @@ export function runQuiz(view, qs, o, ctx) {
       if (b.dataset.k === right.key) b.classList.add('is-ok');
       else if (b.dataset.k === key) b.classList.add('is-ng');
     });
+    view.querySelector('.label-card').removeAttribute('data-nokj');
     const stamp = view.querySelector('.stamp');
     stamp.className = 'stamp ' + (ok ? 'stamp-ok' : 'stamp-ng');
     if (S.sound) beep(ok);

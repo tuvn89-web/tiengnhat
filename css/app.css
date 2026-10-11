@@ -367,3 +367,102 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
 @media (min-width: 900px) { .toasts { bottom: 24px; left: 226px; } }
 .empty { text-align: center; padding: 32px 8px; color: var(--ink-2); }
 .empty .btn { margin-top: 8px; }
+
+/* ---------- tab trong trang ---------- */
+.tabs { display: flex; gap: 4px; padding: 4px; margin: -4px 0 16px; background: var(--surface-2); border-radius: 12px; }
+.tabs a { flex: 1; text-align: center; padding: 10px 6px; border-radius: 9px; color: var(--ink-2); text-decoration: none; font-weight: 600; font-size: .95em; }
+.tabs a[aria-selected="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 0 var(--line); }
+
+/* ---------- chạm vào chữ Hán ---------- */
+.kj { cursor: pointer; border-radius: 3px; }
+@media (hover: hover) { .kj:hover { background: var(--blue-soft); } }
+[data-nokj] .kj { cursor: inherit; }
+@media (hover: hover) { [data-nokj] .kj:hover, button .kj:hover, a .kj:hover { background: none; } }
+
+/* ---------- trang chủ ---------- */
+.tasks { list-style: none; padding: 0; margin: 8px 0 4px; display: grid; gap: 8px; }
+.task { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 4px 12px; padding: 10px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.task > span:first-child b { font-size: 1.5em; color: var(--blue); font-variant-numeric: tabular-nums; }
+.kday-btn { display: flex; align-items: center; gap: 16px; width: 100%; padding: 6px 0; border: 0; background: none; text-align: left; cursor: pointer; color: var(--ink); }
+.kday-c { font-family: var(--jp); font-size: 64px; line-height: 1; border: 2px solid var(--ink); border-radius: 6px; padding: 8px 12px; background: var(--bg); }
+.kday-t { display: grid; gap: 2px; }
+.kday-t b { font-size: 1.3em; letter-spacing: .03em; }
+.kday-t span { color: var(--ink-2); }
+
+/* ---------- thẻ chữ Hán ---------- */
+.kc-head { display: flex; gap: 16px; align-items: center; margin-bottom: 6px; }
+.kc-char { font-family: var(--jp); font-size: 88px; line-height: 1; padding: 10px 14px; border: 2px solid var(--ink); border-radius: 8px; background: var(--bg); position: relative; }
+.kc-char::after { content: ""; position: absolute; inset: 50% 6px auto; border-top: 1px dashed var(--line); }
+.kc-char::before { content: ""; position: absolute; inset: 6px auto 6px 50%; border-left: 1px dashed var(--line); }
+.kc-hv { font-size: 1.5em; font-weight: 800; margin: 0; letter-spacing: .04em; }
+.kc-vi { font-size: 1.1em; margin: 2px 0; }
+.kc-sub { color: var(--ink-2); font-size: .85em; margin: 2px 0 0; }
+.kc-tho { margin: 14px 0 4px; padding: 12px 14px; border-left: 4px solid var(--ng); background: var(--ng-soft); border-radius: 6px; }
+.kc-label { margin: 0 0 4px; font-size: .8em; font-weight: 700; color: var(--ng); }
+.sub-label { margin: 14px 0 6px; font-size: .85em; font-weight: 700; color: var(--ink-2); }
+.sub-label small { font-weight: 400; }
+.kc-poem { margin: 0; font-size: 1.02em; line-height: 1.7; font-style: italic; }
+.kc-poem .pl { display: block; padding-left: 1.2em; text-indent: -1.2em; } /* dòng thơ dài xuống hàng thì thụt vào, vẫn thấy rõ 2 câu */
+.kc-poem .kj { font-style: normal; font-family: var(--jp); }
+.h3 { font-size: 1em; font-weight: 700; margin: 16px 0 8px; }
+.kparts { display: flex; flex-wrap: wrap; gap: 8px; }
+.kpart { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px 6px 8px; border: 1.5px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); font: inherit; }
+button.kpart { cursor: pointer; border-color: var(--blue); }
+.kpart b { font-family: var(--jp); font-size: 1.5em; font-weight: 600; }
+.kread { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; margin: 0; }
+.kread dt { color: var(--ink-2); font-family: var(--ui); font-size: .9em; }
+.kread dd { margin: 0; font-size: 1.1em; }
+.kread .main { font-weight: 700; }
+.kviet { margin: 0; }
+.ksim { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.ksim li { display: flex; align-items: center; gap: 12px; }
+.ksim-c { font-family: var(--jp); font-size: 1.8em; min-width: 52px; min-height: 52px; display: grid; place-items: center; border: 1.5px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); }
+button.ksim-c { cursor: pointer; border-color: var(--blue); }
+
+/* dải chữ Hán trong thẻ từ */
+.kstrip { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 6px 0; }
+.kchip { display: inline-flex; align-items: baseline; gap: 6px; min-height: 40px; padding: 4px 10px; border: 1.5px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); cursor: pointer; font: inherit; }
+.kchip b { font-family: var(--jp); font-size: 1.3em; font-weight: 600; }
+.kchip.has { border-color: var(--blue); }
+.kchip small { color: var(--ink-2); font-size: .75em; }
+
+/* trang Chữ Hán */
+.kgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 10px; margin-top: 10px; }
+.ktile { position: relative; display: grid; justify-items: center; gap: 2px; padding: 10px 4px 8px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); cursor: pointer; }
+.ktile-c { font-family: var(--jp); font-size: 2.3em; line-height: 1.1; }
+.ktile-hv { font-size: .78em; font-weight: 700; letter-spacing: .03em; }
+.ktile .dot { position: absolute; top: 7px; right: 7px; width: 8px; height: 8px; }
+.kmiss { margin-top: 18px; }
+.kmiss summary { cursor: pointer; color: var(--blue); font-weight: 600; }
+.kmiss-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.mini-k { display: flex; align-items: center; gap: 12px; margin: 6px 0; }
+.mini-k-c { font-family: var(--jp); font-size: 2.4em; line-height: 1; }
+.kc-big { font-size: calc(var(--fs-jp) * 2.2); margin: 14px 0 4px; }
+.kc-opt { font-family: var(--jp); font-size: calc(var(--fs-jp) * 1.1); }
+
+/* ---------- bài tập ---------- */
+.say-row { display: flex; justify-content: center; }
+.prompt-sent { font-family: var(--jp); font-size: calc(var(--fs-jp) * .7); line-height: 2.2; margin: 20px 0 6px; }
+.prompt-vi-s { margin: 18px 0 4px; font-size: 1.05em; }
+.blank { display: inline-block; min-width: 4.5em; border-bottom: 3px solid var(--blue); margin: 0 3px; }
+.sblank { display: inline-block; min-width: 3em; text-align: center; border-bottom: 2px solid var(--ink-2); margin: 0 3px; color: var(--ink-2); }
+.sblank.sb-star { color: var(--ng); border-color: var(--ng); font-weight: 800; }
+.vihint { margin: 6px 0 0; }
+.vihint summary { cursor: pointer; color: var(--blue); font-size: .9em; }
+.vihint p { margin: 4px 0 0; color: var(--ink-2); }
+.build { min-height: calc(var(--btn-h) + 16px); display: flex; flex-wrap: wrap; align-content: flex-start; gap: 8px; padding: 10px; margin: 6px 0 10px; border: 2px dashed var(--line); border-radius: 12px; background: var(--surface); }
+.pool, .spot { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 10px; }
+.chunk { min-height: calc(var(--btn-h) * .85); padding: 4px 12px; border: 1.5px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); font-family: var(--jp); font-size: calc(var(--fs-jp) * .58); line-height: 1.9; cursor: pointer; }
+.chunk.on { border-color: var(--blue); background: var(--blue-soft); }
+.chunk.is-ok { border-color: var(--ok); background: var(--ok-soft); }
+.chunk.is-ng { border-color: var(--ng); background: var(--ng-soft); }
+.chunk:disabled { cursor: default; color: var(--ink); }
+.spot .chunk { font-size: calc(var(--fs-jp) * .62); }
+.after-ok { padding: 10px 12px; background: var(--ok-soft); border-radius: 10px; margin: 0 0 8px; }
+.ans-line { font-family: var(--jp); line-height: 2; }
+.after-g { margin: 10px 0 0; padding-top: 8px; border-top: 1px solid var(--line); }
+.after-sent { font-family: var(--jp); font-size: 1.15em; line-height: 2.1; margin: 4px 0 0; }
+.wlist-drill li { display: block; }
+.wlist-drill .wq { margin: 4px 0; }
+.wlist-drill .wq .prompt-jp, .wlist-drill .wq .prompt-vi, .wlist-drill .wq .prompt-sent { font-size: 1.1em; text-align: left; margin: 4px 0; }
+.bytag { margin: 6px 0 14px; text-align: left; }

@@ -11,7 +11,6 @@ export const DEFAULTS = {
   showHv: true,       // hiện âm Hán Việt
   qCount: 20,
   matchRounds: 3,
-  newPerDay: 15,
   introNew: true,
   autoNext: 0,        // ms, 0 = tắt
   vibrate: true,

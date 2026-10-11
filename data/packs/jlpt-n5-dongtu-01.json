@@ -1,0 +1,574 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n5-dongtu-01",
+  "title": "Động từ N5 01 – 25 động từ dùng hằng ngày ở xưởng",
+  "type": "vocab",
+  "level": "N5",
+  "topics": [
+   "jlpt",
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-11",
+  "verified_on": "",
+  "note": "Gói mẫu cho bài Chia động từ: đủ nhóm 1 (gồm ngoại lệ 行[い]く và các từ đuôi る chia nhóm 1), nhóm 2, nhóm 3."
+ },
+ "items": [
+  {
+   "id": "v:洗う:あらう",
+   "kana": "あらう",
+   "kanji": "洗う",
+   "kf": "洗[あら]う",
+   "hv": "TẨY",
+   "vi": "rửa",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "作業[さぎょう]の前[まえ]に手[て]を洗[あら]います。",
+     "vi": "Trước khi làm việc tôi rửa tay."
+    }
+   ],
+   "note": "Đuôi う: thể ない là 洗[あら]わない (う → わ)."
+  },
+  {
+   "id": "v:書く:かく",
+   "kana": "かく",
+   "kanji": "書く",
+   "kf": "書[か]く",
+   "hv": "THƯ",
+   "vi": "viết",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日報[にっぽう]に数字[すうじ]を書[か]きます。",
+     "vi": "Ghi số liệu vào báo cáo ngày."
+    }
+   ]
+  },
+  {
+   "id": "v:読む:よむ",
+   "kana": "よむ",
+   "kanji": "読む",
+   "kf": "読[よ]む",
+   "hv": "ĐỘC",
+   "vi": "đọc",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "作業[さぎょう]の前[まえ]にマニュアルを読[よ]みます。",
+     "vi": "Trước khi làm việc tôi đọc sách hướng dẫn."
+    }
+   ]
+  },
+  {
+   "id": "v:行く:いく",
+   "kana": "いく",
+   "kanji": "行く",
+   "kf": "行[い]く",
+   "hv": "HÀNH",
+   "vi": "đi",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎日[まいにち]自転車[じてんしゃ]で工場[こうじょう]に行[い]きます。",
+     "vi": "Hằng ngày tôi đi xe đạp đến xưởng."
+    }
+   ],
+   "note": "Ngoại lệ: thể て là 行[い]って, thể た là 行[い]った."
+  },
+  {
+   "id": "v:来る:くる",
+   "kana": "くる",
+   "kanji": "来る",
+   "kf": "来[く]る",
+   "hv": "LAI",
+   "vi": "đến",
+   "pos": "v3",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい人[ひと]が来週[らいしゅう]工場[こうじょう]に来[き]ます。",
+     "vi": "Tuần sau có người mới đến xưởng."
+    }
+   ],
+   "note": "Nhóm 3, đổi cả cách đọc: 来[く]る, 来[き]ます, 来[こ]ない, 来[き]て."
+  },
+  {
+   "id": "v:見る:みる",
+   "kana": "みる",
+   "kanji": "見る",
+   "kf": "見[み]る",
+   "hv": "KIẾN",
+   "vi": "xem, nhìn",
+   "pos": "v1",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎朝[まいあさ]、温度計[おんどけい]を見[み]ます。",
+     "vi": "Mỗi sáng tôi xem nhiệt kế."
+    }
+   ]
+  },
+  {
+   "id": "v:食べる:たべる",
+   "kana": "たべる",
+   "kanji": "食べる",
+   "kf": "食[た]べる",
+   "hv": "THỰC",
+   "vi": "ăn",
+   "pos": "v1",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休憩室[きゅうけいしつ]で昼[ひる]ご飯[はん]を食[た]べます。",
+     "vi": "Tôi ăn trưa ở phòng nghỉ."
+    }
+   ]
+  },
+  {
+   "id": "v:飲む:のむ",
+   "kana": "のむ",
+   "kanji": "飲む",
+   "kf": "飲[の]む",
+   "hv": "ẨM",
+   "vi": "uống",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "暑[あつ]い日[ひ]は水[みず]をたくさん飲[の]みましょう。",
+     "vi": "Ngày nóng hãy uống nhiều nước."
+    }
+   ]
+  },
+  {
+   "id": "v:待つ:まつ",
+   "kana": "まつ",
+   "kanji": "待つ",
+   "kf": "待[ま]つ",
+   "hv": "ĐÃI",
+   "vi": "chờ, đợi",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ここで少[すこ]し待[ま]ってください。",
+     "vi": "Hãy chờ ở đây một chút."
+    }
+   ]
+  },
+  {
+   "id": "v:切る:きる",
+   "kana": "きる",
+   "kanji": "切る",
+   "kf": "切[き]る",
+   "hv": "THIẾT",
+   "vi": "cắt",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "thuysan"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "包丁[ほうちょう]で魚[さかな]を切[き]ります。",
+     "vi": "Cắt cá bằng dao."
+    }
+   ],
+   "note": "Trông như nhóm 2 nhưng là nhóm 1: 切[き]って, 切[き]らない. Đừng nhầm với 着[き]る (mặc, nhóm 2)."
+  },
+  {
+   "id": "v:入る:はいる",
+   "kana": "はいる",
+   "kanji": "入る",
+   "kf": "入[はい]る",
+   "hv": "NHẬP",
+   "vi": "vào, đi vào",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]に入[はい]る前[まえ]に手[て]を洗[あら]います。",
+     "vi": "Trước khi vào xưởng tôi rửa tay."
+    }
+   ],
+   "note": "Nhóm 1 dù đuôi る: 入[はい]って, 入[はい]らない. Tự mình đi vào; còn \"cho cái gì vào\" là 入[い]れる.",
+   "confuse": [
+    "v:入れる:いれる"
+   ]
+  },
+  {
+   "id": "v:入れる:いれる",
+   "kana": "いれる",
+   "kanji": "入れる",
+   "kf": "入[い]れる",
+   "hv": "NHẬP",
+   "vi": "cho vào, bỏ vào",
+   "pos": "v1",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]を箱[はこ]に入[い]れます。",
+     "vi": "Cho cá vào thùng."
+    }
+   ],
+   "note": "Cho vật gì vào (có を). Còn tự mình đi vào là 入[はい]る.",
+   "confuse": [
+    "v:入る:はいる"
+   ]
+  },
+  {
+   "id": "v:出す:だす",
+   "kana": "だす",
+   "kanji": "出す",
+   "kf": "出[だ]す",
+   "hv": "XUẤT",
+   "vi": "đưa ra, lấy ra; nộp; đổ (rác)",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "申請書[しんせいしょ]を窓口[まどぐち]に出[だ]します。",
+     "vi": "Nộp đơn ở quầy."
+    }
+   ]
+  },
+  {
+   "id": "v:使う:つかう",
+   "kana": "つかう",
+   "kanji": "使う",
+   "kf": "使[つか]う",
+   "hv": "SỬ",
+   "vi": "dùng, sử dụng",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この包丁[ほうちょう]を使[つか]ってください。",
+     "vi": "Hãy dùng con dao này."
+    }
+   ],
+   "note": "Đuôi う: thể ない là 使[つか]わない."
+  },
+  {
+   "id": "v:触る:さわる",
+   "kana": "さわる",
+   "kanji": "触る",
+   "kf": "触[さわ]る",
+   "hv": "XÚC",
+   "vi": "chạm, sờ",
+   "pos": "v5",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "動[うご]いている機械[きかい]に触[さわ]らないでください。",
+     "vi": "Đừng chạm vào máy đang chạy."
+    }
+   ],
+   "note": "Nhóm 1: 触[さわ]って, 触[さわ]らない."
+  },
+  {
+   "id": "v:帰る:かえる",
+   "kana": "かえる",
+   "kanji": "帰る",
+   "kf": "帰[かえ]る",
+   "hv": "QUY",
+   "vi": "về (nhà, nước)",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "六時[ろくじ]に家[いえ]に帰[かえ]ります。",
+     "vi": "Tôi về nhà lúc 6 giờ."
+    }
+   ],
+   "note": "Nhóm 1 dù đuôi る: 帰[かえ]って, 帰[かえ]らない."
+  },
+  {
+   "id": "v:急ぐ:いそぐ",
+   "kana": "いそぐ",
+   "kanji": "急ぐ",
+   "kf": "急[いそ]ぐ",
+   "hv": "CẤP",
+   "vi": "vội, khẩn trương",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "時間[じかん]がないので、急[いそ]いでください。",
+     "vi": "Không còn thời gian, hãy khẩn trương lên."
+    }
+   ],
+   "note": "Đuôi ぐ → いで (có dấu ゛)."
+  },
+  {
+   "id": "v:話す:はなす",
+   "kana": "はなす",
+   "kanji": "話す",
+   "kf": "話[はな]す",
+   "hv": "THOẠI",
+   "vi": "nói chuyện",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "もう少[すこ]しゆっくり話[はな]してください。",
+     "vi": "Xin hãy nói chậm hơn một chút."
+    }
+   ]
+  },
+  {
+   "id": "v:聞く:きく",
+   "kana": "きく",
+   "kanji": "聞く",
+   "kf": "聞[き]く",
+   "hv": "VĂN",
+   "vi": "nghe; hỏi",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "わからない時[とき]は、リーダーに聞[き]いてください。",
+     "vi": "Khi không hiểu, hãy hỏi tổ trưởng."
+    }
+   ]
+  },
+  {
+   "id": "v:起きる:おきる",
+   "kana": "おきる",
+   "kanji": "起きる",
+   "kf": "起[お]きる",
+   "hv": "KHỞI",
+   "vi": "thức dậy",
+   "pos": "v1",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎朝[まいあさ]五時[ごじ]に起[お]きます。",
+     "vi": "Mỗi sáng tôi dậy lúc 5 giờ."
+    }
+   ]
+  },
+  {
+   "id": "v:寝る:ねる",
+   "kana": "ねる",
+   "kanji": "寝る",
+   "kf": "寝[ね]る",
+   "hv": "TẨM",
+   "vi": "ngủ, đi ngủ",
+   "pos": "v1",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜勤[やきん]の後[あと]は昼[ひる]に寝[ね]ます。",
+     "vi": "Sau ca đêm tôi ngủ ban ngày."
+    }
+   ]
+  },
+  {
+   "id": "v:働く:はたらく",
+   "kana": "はたらく",
+   "kanji": "働く",
+   "kf": "働[はたら]く",
+   "hv": "ĐỘNG",
+   "vi": "làm việc",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]は兵庫[ひょうご]の工場[こうじょう]で働[はたら]いています。",
+     "vi": "Tôi đang làm việc ở một xưởng tại Hyogo."
+    }
+   ]
+  },
+  {
+   "id": "v:休む:やすむ",
+   "kana": "やすむ",
+   "kanji": "休む",
+   "kf": "休[やす]む",
+   "hv": "HƯU",
+   "vi": "nghỉ",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "熱[ねつ]があるので、今日[きょう]は休[やす]みます。",
+     "vi": "Tôi bị sốt nên hôm nay xin nghỉ."
+    }
+   ],
+   "note": "Đuôi む → んで: 休[やす]んで."
+  },
+  {
+   "id": "v:持つ:もつ",
+   "kana": "もつ",
+   "kanji": "持つ",
+   "kf": "持[も]つ",
+   "hv": "TRÌ",
+   "vi": "cầm, mang; có",
+   "pos": "v5",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]は両手[りょうて]で持[も]ってください。",
+     "vi": "Hãy bê thùng bằng hai tay."
+    }
+   ]
+  },
+  {
+   "id": "v:する:する",
+   "kana": "する",
+   "vi": "làm",
+   "pos": "v3",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động từ cơ bản",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎日[まいにち]掃除[そうじ]をします。",
+     "vi": "Ngày nào cũng dọn vệ sinh."
+    }
+   ],
+   "note": "Nhóm 3: します, して, しない. Ghép sau danh từ: 確認[かくにん]する, 掃除[そうじ]する."
+  }
+ ]
+}

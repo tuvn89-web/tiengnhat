@@ -36,7 +36,6 @@ export function renderSettings(view, ctx) {
       <h2 class="h2">Học</h2>
       <fieldset><legend>Số câu mỗi lượt trắc nghiệm</legend>${chips('qCount', [10, 20, 30, 50].map(n => [String(n), String(n)]), String(S.qCount), false)}</fieldset>
       <fieldset><legend>Số màn ghép cặp</legend>${chips('matchRounds', [1, 2, 3, 4, 5].map(n => [String(n), String(n)]), String(S.matchRounds), false)}</fieldset>
-      <fieldset><legend>Từ mới tối đa mỗi ngày</legend>${chips('newPerDay', [5, 10, 15, 20, 30, 50].map(n => [String(n), String(n)]), String(S.newPerDay), false)}</fieldset>
       <fieldset><legend>Tự sang câu sau khi trả lời đúng</legend>${chips('autoNext', [['0', 'Tắt'], ['800', 'Nhanh'], ['1600', 'Chậm']], String(S.autoNext), false)}</fieldset>
       <label class="check"><input type="checkbox" name="introNew" ${S.introNew ? 'checked' : ''}> Giới thiệu từ mới trước khi hỏi</label>
       <label class="check"><input type="checkbox" name="sound" ${S.sound ? 'checked' : ''}> Âm báo đúng/sai</label>
@@ -66,7 +65,7 @@ export function renderSettings(view, ctx) {
   const save = () => saveSettings();
   bindChips(view, name => {
     const v = readChip(view, name);
-    S[name] = ['qCount', 'matchRounds', 'newPerDay', 'autoNext'].includes(name) ? +v : v;
+    S[name] = ['qCount', 'matchRounds', 'autoNext'].includes(name) ? +v : v;
     save();
   });
   view.addEventListener('input', e => {

@@ -3,6 +3,19 @@
  "updated": "2026-10-11",
  "packs": [
   {
+   "id": "jlpt-n5-dongtu-01",
+   "file": "jlpt-n5-dongtu-01.json",
+   "title": "Động từ N5 01 – 25 động từ dùng hằng ngày ở xưởng",
+   "type": "vocab",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "count": 25,
+   "version": 1
+  },
+  {
    "id": "kansai-01",
    "file": "kansai-01.json",
    "title": "Kansai-ben 01 – Nghe hiểu trong xưởng (Hyogo)",
@@ -60,7 +73,33 @@
     "jlpt"
    ],
    "count": 2,
-   "version": 2
+   "version": 3
+  },
+  {
+   "id": "nguphap-n5-02",
+   "file": "nguphap-n5-02.json",
+   "title": "Ngữ pháp N5 02 – Xin phép, cấm, bắt buộc",
+   "type": "grammar",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1
+  },
+  {
+   "id": "chuhan-01",
+   "file": "chuhan-01.json",
+   "title": "Chữ Hán 01 – Nền tảng, nhãn hàng, giấy tờ, xưởng",
+   "type": "kanji",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "thuysan",
+    "xuong"
+   ],
+   "count": 24,
+   "version": 1
   }
  ]
 }

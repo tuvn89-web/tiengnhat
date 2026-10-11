@@ -104,7 +104,7 @@ Skill giao các file gói `.json` và một file `manifest.json` mới.
   3. Đợi 1–2 phút, mở app khi có mạng là có gói mới.
 - **Cách nhanh (thử trên một máy):** app → **Dữ liệu → Nhập gói từ skill** → chọn file. Gói nhập kiểu này cũng đi theo đồng bộ sang máy kia.
 
-Muốn skill sửa từ sai, hoặc làm tiếp mà không trùng từ cũ: app → **Dữ liệu → Tải file gửi skill**, rồi gửi file đó cho Claude kèm yêu cầu.
+Muốn skill sửa từ sai, làm tiếp mà không trùng từ cũ, hoặc làm thẻ cho các chữ Hán còn thiếu: app → **Dữ liệu → Tải file gửi skill**, rồi gửi file đó cho Claude kèm yêu cầu (ví dụ "làm thẻ chữ Hán cho 25 chữ còn thiếu").
 
 ## 5. Giọng đọc tiếng Nhật (để nghe phát âm, chơi kiểu "Nghe → nghĩa")
 
@@ -134,6 +134,23 @@ index.html, manifest.webmanifest, sw.js   khung app, cài đặt PWA, chạy off
 css/app.css                               giao diện
 js/                                       mã app (mỗi màn hình một file)
 data/manifest.json                        danh mục gói (sinh bằng build_manifest.py của skill)
-data/packs/*.json                         các gói từ vựng / ngữ pháp
+data/packs/*.json                         các gói từ vựng / ngữ pháp / chữ Hán
 icons/                                    biểu tượng app
 ```
+
+## 8. Các phần học (từ bản v4)
+
+Thanh dưới cùng (điện thoại) hoặc cột trái (máy tính): **Trang chủ · Luyện từ · Chữ Hán · Ngữ pháp · Kho từ**. Dữ liệu và Cài đặt ở góc trên.
+
+- **Trang chủ:** việc hôm nay (từ, chữ Hán, mẫu ngữ pháp đến hạn ôn), nút học từ mới, **Chữ Hán hôm nay** kèm câu lục bát, bảng tiến độ.
+- **Luyện từ:** Trắc nghiệm (Việt → Nhật, Nhật → Việt, đọc kanji, nghe) và Ghép 6 cặp. **Không còn giới hạn số từ mới mỗi ngày** — học bao nhiêu tùy Cậu Cả.
+- **Chữ Hán:**
+  - *Danh sách:* lưới các chữ có thẻ, tìm theo chữ / âm Hán Việt / nghĩa, lọc theo nhóm (Nhãn sản phẩm, Giấy tờ & thuế, Công xưởng, Thủy sản…) và cấp.
+  - *Thẻ chữ:* chữ to, âm Hán Việt, nghĩa, số nét, **câu lục bát nhớ mặt chữ**, bộ phận (chạm để mở thẻ bộ đó), âm On/Kun, các từ trong kho có chữ này, từ Hán Việt quen thuộc, chữ dễ nhầm.
+  - **Chạm vào chữ kanji bất kỳ** trong app (câu ví dụ, giải thích ngữ pháp, thẻ từ) là mở thẻ chữ đó. Thẻ từ vựng có dải **Chữ Hán trong từ** để mở nhanh từng chữ.
+  - *Ôn chữ Hán:* chữ → âm Hán Việt và nghĩa, âm Hán Việt → chữ. Đây là phần kiểm tra Hán nên chữ Hán không có furigana.
+- **Ngữ pháp:**
+  - *Bài học:* mỗi mẫu có giải thích, 10 ví dụ, nút **Luyện mẫu này**.
+  - *Luyện tập:* Điền chỗ trống · Chia động từ · Sắp xếp câu · Câu ★ kiểu JLPT · Tìm chỗ sai · Chọn cách nói hợp hoàn cảnh · Ghép câu Việt → Nhật · Nghe → chọn (cần giọng đọc, mục 5) · Đổi lối nói (nói tắt, Kansai → chuẩn) · Trộn. Câu sai được hỏi lại một lần trong lượt.
+  - *Thi thử:* đề ngắn kiểu phần Kiến thức ngôn ngữ của JLPT theo cấp, tính giờ 45 giây mỗi câu, làm xong mới xem đáp án và điểm từng phần.
+- **Furigana:** mọi chữ kanji đều có furigana, trừ phần học và kiểm tra Hán (thẻ chữ, Ôn chữ Hán, câu hỏi đọc kanji, ghép Chữ mềm/cứng – Kanji).

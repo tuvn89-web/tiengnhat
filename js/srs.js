@@ -2,7 +2,8 @@ import { all, put } from './db.js';
 import { DAY, startOfDay } from './util.js';
 
 // Lặp lại ngắt quãng 5 hộp. Hộp 0 = chưa học. Đúng → lên hộp, sai → về hộp 1.
-// Ba chiều theo dõi riêng: vj (Việt→Nhật), jv (Nhật→Việt, kể cả nghe), kr (kanji→cách đọc).
+// Từ vựng: vj (Việt→Nhật), jv (Nhật→Việt, kể cả nghe), kr (kanji→cách đọc).
+// Chữ Hán: kh (chữ → Hán Việt), hk (Hán Việt → chọn chữ).   Ngữ pháp: gp (mọi bài tập của mẫu đó).
 export const IV = [0, 1, 2, 4, 8, 16];
 export const P = new Map(); // id -> {id, d:{vj,jv,kr}, star, st, first, t}
 let onChange = () => { };
@@ -41,16 +42,20 @@ export async function toggleStar(id) {
 }
 export const isStar = id => !!P.get(id)?.star;
 
+const TYPE_DIRS = { vocab: ['vj', 'jv', 'kr'], kanji: ['kh', 'hk'], grammar: ['gp'] };
+const KNOWN_DIRS = { vocab: ['vj', 'jv'], kanji: ['kh', 'hk'], grammar: ['gp'] };
+export const itemType = it => it._type || (it.id.startsWith('k:') ? 'kanji' : it.id.startsWith('g:') ? 'grammar' : 'vocab');
+
 export function status(it) {
   const r = P.get(it.id);
   if (!r || !Object.values(r.d || {}).some(x => x.b > 0)) return 'new';
-  if ((r.d.vj?.b || 0) >= 5 && (r.d.jv?.b || 0) >= 5) return 'known';
+  if (KNOWN_DIRS[itemType(it)].every(d => (r.d[d]?.b || 0) >= 5)) return 'known';
   return 'learning';
 }
 export function dueDirs(it, now = Date.now()) {
   const r = P.get(it.id);
   if (!r) return [];
-  return ['vj', 'jv', 'kr'].filter(d => {
+  return TYPE_DIRS[itemType(it)].filter(d => {
     const x = r.d?.[d];
     if (!x || x.b === 0 || x.due > now) return false;
     return d !== 'kr' || !!it.kanji;

@@ -2,10 +2,13 @@ import { $, esc, icon, toast, debounce, fmtDate } from './util.js';
 import { loadSettings, S } from './settings.js';
 import { D, loadAll, TOPICS } from './data.js';
 import { loadProgress, stats } from './srs.js';
-import { renderQuizSetup, runQuiz, buildQuestions, newLeftToday } from './quiz.js';
+import { renderQuizSetup, runQuiz, buildQuestions } from './quiz.js';
 import { renderMatchSetup } from './match.js';
 import { renderGrammarList, renderGrammar } from './grammar.js';
-import { renderWordList, renderWordForm } from './words.js';
+import { renderGrammarPractice, renderMockSetup, buildGrammarQs } from './gdrill.js';
+import { renderKanjiList, renderKanjiQuizSetup, openKanji, kanjiOfDay, buildKanjiQs, poemHTML } from './kanji.js';
+import { runDrill } from './drill.js';
+import { renderWordList, renderWordForm, showWord } from './words.js';
 import { renderData, receiveSetup } from './datapage.js';
 import { renderSettings } from './settingspage.js';
 import { syncNow, getSyncCfg, lastSync, lastSyncError } from './sync.js';
@@ -22,9 +25,9 @@ const ctx = {
 
 const NAV = [
   ['#/', 'home', 'Trang chủ', /^$/],
-  ['#/hoc', 'quiz', 'Trắc nghiệm', /^(hoc|on|moi)$/],
-  ['#/ghep', 'match', 'Ghép cặp', /^ghep$/],
-  ['#/nguphap', 'book', 'Ngữ pháp', /^nguphap/],
+  ['#/hoc', 'quiz', 'Luyện từ', /^(hoc|on|moi|ghep)$/],
+  ['#/chuhan', 'han', 'Chữ Hán', /^(chuhan|onchu)/],
+  ['#/nguphap', 'book', 'Ngữ pháp', /^(nguphap|onngu)/],
   ['#/kho', 'list', 'Kho từ', /^(kho|them|sua)/],
   ['#/dulieu', 'box', 'Dữ liệu', /^(dulieu|nhan)/, 'rail'],
   ['#/caidat', 'gear', 'Cài đặt', /^caidat$/, 'rail'],
@@ -36,7 +39,13 @@ const ROUTES = [
   [/^on$/, v => startQuick(v, 'due')],
   [/^moi$/, v => startQuick(v, 'new')],
   [/^ghep$/, v => renderMatchSetup(v, ctx)],
+  [/^chuhan$/, v => renderKanjiList(v)],
+  [/^chuhan\/on$/, v => renderKanjiQuizSetup(v, ctx)],
+  [/^onchu$/, v => quickKanji(v)],
   [/^nguphap$/, v => renderGrammarList(v)],
+  [/^nguphap\/luyen(?:\?g=(.+))?$/, (v, m) => renderGrammarPractice(v, ctx, m[1] ? decodeURIComponent(m[1]) : null)],
+  [/^nguphap\/thithu$/, v => renderMockSetup(v, ctx)],
+  [/^onngu$/, v => quickGrammar(v)],
   [/^nguphap\/(.+)$/, (v, m) => renderGrammar(v, decodeURIComponent(m[1]))],
   [/^kho$/, v => renderWordList(v, ctx)],
   [/^them$/, v => renderWordForm(v, ctx)],
@@ -49,6 +58,8 @@ const ROUTES = [
 function route() {
   leave.forEach(f => { try { f(); } catch { } });
   leave = [];
+  // chuyển trang (kể cả nút Back của điện thoại) thì đóng mọi tờ thông tin đang mở
+  document.querySelectorAll('.sheet-wrap').forEach(w => w.querySelector('.sheet-x')?.click());
   const h = location.hash.replace(/^#\/?/, '');
   const r = ROUTES.find(([re]) => re.test(h));
   // mỗi lần chuyển trang dùng một khung mới — trình nghe sự kiện của trang cũ bị bỏ theo khung cũ
@@ -66,55 +77,86 @@ function route() {
 }
 
 function startQuick(v, source) {
-  const o = { dir: source === 'new' ? 'jv' : 'mix', script: S.script, source, levels: [], topics: [], count: source === 'new' ? Math.min(newLeftToday(), S.qCount) : 50 };
+  const o = { dir: source === 'new' ? 'jv' : 'mix', script: S.script, source, levels: [], topics: [], count: source === 'new' ? S.qCount : 50 };
   const qs = buildQuestions(o);
   if (!qs.length) {
-    v.innerHTML = emptyState(source === 'due' ? 'Không có từ nào đến hạn ôn. Học thêm từ mới nhé.' : `Hôm nay đã học đủ ${S.newPerDay} từ mới, hoặc đã học hết từ trong kho.`,
+    v.innerHTML = emptyState(source === 'due' ? 'Không có từ nào đến hạn ôn. Học thêm từ mới nhé.' : 'Đã học hết từ mới trong kho. Nhập thêm gói từ ở trang Dữ liệu.',
       '<a class="btn btn-primary" href="#/hoc">Chọn lượt học khác</a>');
     return;
   }
   runQuiz(v, qs, o, ctx);
 }
+function quickKanji(v) {
+  const qs = buildKanjiQs({ dir: 'mix', source: 'due', count: 30 });
+  if (!qs.length) { v.innerHTML = emptyState('Không có chữ Hán nào đến hạn ôn.', '<a class="btn btn-primary" href="#/chuhan/on">Ôn chữ Hán</a>'); return; }
+  ctx.backTo = '#/';
+  runDrill(v, qs, ctx, { title: 'Ôn chữ Hán', again: () => ctx.go('#/chuhan/on') });
+}
+function quickGrammar(v) {
+  const qs = buildGrammarQs({ type: 'mix', source: 'due', count: 20 });
+  if (!qs.length) { v.innerHTML = emptyState('Không có mẫu ngữ pháp nào đến hạn ôn.', '<a class="btn btn-primary" href="#/nguphap/luyen">Luyện ngữ pháp</a>'); return; }
+  ctx.backTo = '#/';
+  runDrill(v, qs, ctx, { title: 'Ôn ngữ pháp', again: () => ctx.go('#/nguphap/luyen') });
+}
 
 function renderHome(v) {
-  const st = stats(D.vocab);
-  const left = newLeftToday();
-  const pct = n => st.total ? (n / st.total) * 100 : 0;
+  const st = stats(D.vocab), sk = stats(D.kanji), sg = stats(D.grammar);
+  const pct = (n, t) => (t ? (n / t) * 100 : 0);
   const topics = Object.keys(TOPICS).map(t => {
     const items = D.vocab.filter(it => it.topics.includes(t));
     return [t, items.length, stats(items).known];
   }).filter(x => x[1]);
+  const kd = kanjiOfDay();
+  const nNew = Math.min(st.new, S.qCount);
+  const task = (label, n, unit, href, btn) => n ? `<li class="task"><span><b>${n}</b> ${unit}</span><span class="muted small">${label}</span><a class="btn btn-primary btn-sm" href="${href}">${btn}</a></li>` : '';
+  const tasks = [
+    task('Từ vựng đến hạn ôn', st.due, 'từ', '#/on', 'Ôn từ'),
+    task('Chữ Hán đến hạn ôn', sk.due, 'chữ', '#/onchu', 'Ôn chữ'),
+    task('Mẫu ngữ pháp đến hạn ôn', sg.due, 'mẫu', '#/onngu', 'Luyện'),
+  ].join('');
+  const bar = (label, s) => s.total ? `<tr><th scope="row">${label}</th><td><span class="mini"><i style="width:${pct(s.known, s.total)}%"></i></span></td><td class="num">${s.known}/${s.total}</td></tr>` : '';
   v.innerHTML = `
     <section class="today">
       <p class="today-l">Hôm nay</p>
-      ${st.due
-        ? `<p class="today-n">Cần ôn <b>${st.due}</b> từ</p><div class="row-btns wrap"><a class="btn btn-primary" href="#/on">Ôn ngay</a>${left ? `<a class="btn btn-ghost" href="#/moi">Học ${Math.min(left, S.qCount)} từ mới</a>` : ''}</div>`
-        : st.total
-          ? `<p class="today-n">${left ? `Không còn từ nào đến hạn ôn.` : 'Đã xong việc hôm nay.'}</p><div class="row-btns wrap">${left ? `<a class="btn btn-primary" href="#/moi">Học ${Math.min(left, S.qCount)} từ mới</a>` : ''}<a class="btn btn-ghost" href="#/ghep">Chơi ghép cặp</a></div>`
-          : `<p class="today-n">Chưa có dữ liệu.</p><a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>`}
+      ${st.total || sk.total || sg.total
+        ? `${tasks ? `<ul class="tasks">${tasks}</ul>` : '<p class="today-n">Không còn gì đến hạn ôn.</p>'}
+           <div class="row-btns wrap">${nNew ? `<a class="btn ${tasks ? 'btn-ghost' : 'btn-primary'}" href="#/moi">Học ${nNew} từ mới</a>` : ''}<a class="btn btn-ghost" href="#/ghep">Ghép cặp</a></div>`
+        : `<p class="today-n">Chưa có dữ liệu.</p><a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>`}
       ${st.newToday ? `<p class="small muted">Hôm nay đã học ${st.newToday} từ mới.</p>` : ''}
     </section>
 
     ${D.errors.length ? `<div class="warn">${D.errors.map(esc).join('<br>')}</div>` : ''}
 
+    ${kd ? `<section class="card kday" data-bare>
+      <h2 class="h2">Chữ Hán hôm nay</h2>
+      <button type="button" class="kday-btn" data-kopen="${esc(kd.char)}">
+        <span class="kday-c" lang="ja">${esc(kd.char)}</span>
+        <span class="kday-t"><b>${esc(kd.hv)}</b><span>${esc(kd.nghia || '')}</span></span>
+      </button>
+      ${(kd.tho || []).length ? `<p class="kc-poem">${poemHTML(kd.tho)}</p>` : ''}
+    </section>` : ''}
+
     <section class="card">
-      <h2 class="h2">Tiến độ từ vựng</h2>
+      <h2 class="h2">Tiến độ</h2>
+      <p class="sub-label">Từ vựng</p>
       <div class="stack-bar" role="img" aria-label="Đã thuộc ${st.known}, đang học ${st.learning}, chưa học ${st.new}">
-        <i class="sb-known" style="width:${pct(st.known)}%"></i><i class="sb-learning" style="width:${pct(st.learning)}%"></i>
+        <i class="sb-known" style="width:${pct(st.known, st.total)}%"></i><i class="sb-learning" style="width:${pct(st.learning, st.total)}%"></i>
       </div>
       <ul class="legend">
         <li><span class="dot dot-known"></span>Đã thuộc <b>${st.known}</b></li>
         <li><span class="dot dot-learning"></span>Đang học <b>${st.learning}</b></li>
         <li><span class="dot dot-new"></span>Chưa học <b>${st.new}</b></li>
       </ul>
-      <table class="topics"><tbody>${topics.map(([t, n, k]) => `<tr><th scope="row">${esc(TOPICS[t])}</th><td><span class="mini"><i style="width:${n ? (k / n) * 100 : 0}%"></i></span></td><td class="num">${k}/${n}</td></tr>`).join('')}</tbody></table>
+      <table class="topics"><tbody>${topics.map(([t, n, k]) => `<tr><th scope="row">${esc(TOPICS[t])}</th><td><span class="mini"><i style="width:${pct(k, n)}%"></i></span></td><td class="num">${k}/${n}</td></tr>`).join('')}</tbody></table>
+      <p class="sub-label">Chữ Hán và ngữ pháp <small>(số đã thuộc / tổng)</small></p>
+      <table class="topics"><tbody>${bar('Chữ Hán', sk)}${bar('Ngữ pháp', sg)}</tbody></table>
     </section>
 
     <nav class="modes" aria-label="Các phần học">
       ${[
-      ['#/hoc', 'quiz', 'Trắc nghiệm', 'Việt ↔ Nhật, đọc kanji, nghe chọn nghĩa'],
-      ['#/ghep', 'match', 'Ghép 6 cặp', 'Việt – chữ mềm/cứng, Việt – kanji, kana – kanji'],
-      ['#/nguphap', 'book', 'Ngữ pháp', `${D.grammar.length} mẫu, mỗi mẫu 10 câu ví dụ`],
+      ['#/hoc', 'quiz', 'Luyện từ', 'Trắc nghiệm Việt ↔ Nhật, đọc kanji, nghe; ghép 6 cặp'],
+      ['#/chuhan', 'han', 'Chữ Hán', `${D.kanji.length} thẻ chữ, câu lục bát nhớ mặt chữ, ôn chữ Hán`],
+      ['#/nguphap', 'book', 'Ngữ pháp', `${D.grammar.length} mẫu — bài học, luyện tập, thi thử`],
       ['#/kho', 'list', 'Kho từ', `${st.total} từ — tìm, sửa, thêm từ mới`],
       ['#/dulieu', 'box', 'Dữ liệu & đồng bộ', 'Nhập gói từ skill, sao lưu, GitHub'],
       ['#/caidat', 'gear', 'Cài đặt', 'Cỡ chữ, cỡ nút, màu nền, giọng đọc'],
@@ -169,6 +211,15 @@ async function init() {
   try { await loadAll(); } catch (e) { D.errors.push('Lỗi tải dữ liệu: ' + (e?.message || e)); }
   await loadProgress();
   window.addEventListener('hashchange', route);
+  document.addEventListener('click', e => {
+    const ko = e.target.closest('[data-kopen]');
+    if (ko) { e.preventDefault(); openKanji(ko.dataset.kopen); return; }
+    const wo = e.target.closest('[data-wopen]');
+    if (wo) { e.preventDefault(); showWord(wo.dataset.wopen, ctx, () => { }); return; }
+    const k = e.target.closest('.kj');
+    if (!k || k.closest('button, a, input, textarea, select, label, summary, [data-nokj]')) return;
+    openKanji(k.textContent);
+  });
   route();
   announceUpdate();
   registerSW();

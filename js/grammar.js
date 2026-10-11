@@ -1,15 +1,23 @@
 import { esc, rubyHTML, reading, rich, richParas } from './util.js';
 import { D, LEVELS, CTX } from './data.js';
+import { status, dueDirs, errCount, stats } from './srs.js';
 import { bindSay, sayBtn, emptyState } from './ui.js';
+import { gtabs } from './gdrill.js';
+
+const ST = { new: 'Chưa học', learning: 'Đang học', known: 'Đã thuộc' };
+const row = g => `<li><a class="row" href="#/nguphap/${encodeURIComponent(g.id)}">
+  <span class="row-jp" lang="ja">${rich(g.pattern)}</span><span class="row-vi">${rich(g.meaning)}</span>
+  <span class="dot dot-${status(g)}" title="${ST[status(g)]}${dueDirs(g).length ? ' · đến hạn ôn' : ''}"></span></a></li>`;
 
 export function renderGrammarList(view) {
-  if (!D.grammar.length) { view.innerHTML = `<h1 class="h1">Ngữ pháp</h1>` + emptyState('Chưa có gói ngữ pháp nào. Nhờ skill jp-v01-data làm gói rồi nhập vào.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
+  if (!D.grammar.length) { view.innerHTML = `<h1 class="h1">Ngữ pháp</h1>${gtabs('list')}` + emptyState('Chưa có gói ngữ pháp nào. Nhờ skill jp-v01-data làm gói rồi nhập vào.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
+  const st = stats(D.grammar);
+  const hard = D.grammar.filter(g => errCount(g) > 0).sort((a, b) => errCount(b) - errCount(a)).slice(0, 5);
   const by = LEVELS.map(l => [l, D.grammar.filter(g => g.level === l)]).filter(([, a]) => a.length);
-  view.innerHTML = `<h1 class="h1">Ngữ pháp</h1>` + by.map(([l, arr]) => `
-    <section class="glevel"><h2 class="h2">${l}</h2>
-      <ul class="rows">${arr.map(g => `<li><a class="row" href="#/nguphap/${encodeURIComponent(g.id)}">
-        <span class="row-jp" lang="ja">${rich(g.pattern)}</span><span class="row-vi">${rich(g.meaning)}</span></a></li>`).join('')}</ul>
-    </section>`).join('');
+  view.innerHTML = `<h1 class="h1">Ngữ pháp</h1>${gtabs('list')}
+    <p class="muted small">${st.total} mẫu · đã thuộc ${st.known} · đang học ${st.learning}${st.due ? ` · <b>${st.due} mẫu đến hạn ôn</b> — vào tab Luyện tập, chọn "Đến hạn ôn"` : ''}.</p>
+    ${hard.length ? `<section class="glevel"><h2 class="h2">Mẫu hay sai</h2><ul class="rows">${hard.map(row).join('')}</ul></section>` : ''}
+    ${by.map(([l, arr]) => `<section class="glevel"><h2 class="h2">${l}</h2><ul class="rows">${arr.map(row).join('')}</ul></section>`).join('')}`;
 }
 
 export function renderGrammar(view, id) {
@@ -22,6 +30,7 @@ export function renderGrammar(view, id) {
       <span class="label-lv">${esc(g.level)}</span>
     </header>
     <p class="gram-meaning">${rich(g.meaning)}</p>
+    <a class="btn btn-primary" href="#/nguphap/luyen?g=${encodeURIComponent(g.id)}">Luyện mẫu này</a>
 
     <h2 class="h2">Cấu trúc</h2>
     <ul class="gram-struct">${(g.structure || []).map(s => `<li>${rich(s)}</li>`).join('')}</ul>
@@ -39,7 +48,7 @@ export function renderGrammar(view, id) {
     <ol class="gram-ex">${(g.ex || []).map(e => `<li>
       <div class="ex-row"><p class="ex-jp" lang="ja">${rubyHTML(e.jp, true)}</p>${sayBtn(reading(e.jp))}</div>
       <p class="ex-vi">${esc(e.vi)} <span class="tag">${esc(CTX[e.ctx] || e.ctx || '')}</span></p></li>`).join('')}</ol>
-    <p class="muted">Bài luyện điền chỗ trống và sắp xếp câu cho ngữ pháp có ở giai đoạn 2.</p>
+    <a class="btn btn-primary btn-block" href="#/nguphap/luyen?g=${encodeURIComponent(g.id)}">Luyện mẫu này</a>
   </article>`;
   bindSay(view);
 }
