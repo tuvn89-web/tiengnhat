@@ -1,5 +1,5 @@
 // Bài tập ngữ pháp G1–G11: sinh câu hỏi từ dữ liệu mẫu ngữ pháp + máy chia động từ, và trang Luyện tập / Thi thử.
-import { esc, rich, rubyHTML, blankHTML, hlText, stripHL, plain, reading, shuffle, wordHTML } from './util.js';
+import { esc, rich, rubyHTML, blankHTML, hlText, stripHL, plain, reading, shuffle, wordHTML, autoChunks } from './util.js';
 import { D, LEVELS } from './data.js';
 import { status, dueDirs, errCount, isStar, stats } from './srs.js';
 import { ttsReady } from './tts.js';
@@ -38,11 +38,29 @@ function blankOpts(g, ex) {
   return shuffle([ans, ...opts]).map((h, i) => opt(h === ans ? 'ok' : 'x' + i, rich(h)));
 }
 function chunkInfo(ex) {
-  const ch = ex.chunks;
-  if (!Array.isArray(ch) || ch.length < 3) return null;
+  let ch = ex.chunks;
+  if (!Array.isArray(ch) || ch.length < 3) ch = autoGrammarChunks(ex.jp);
+  if (!ch || ch.length < 3) return null;
   const h = plain(hlText(ex.jp));
   const gi = ch.findIndex(c => plain(c).includes(h));
   return { ch, gi };
+}
+// Câu ví dụ chưa có chunks: tự cắt theo trợ từ, rồi gộp các mảnh để phần [[ngữ pháp]] nằm trọn trong một mảnh
+function autoGrammarChunks(jp) {
+  if (!jp || /B：/.test(jp)) return null;
+  const idx = jp.indexOf('[['), hl = hlText(jp);
+  const s = stripHL(jp).replace(END_RE, '');
+  const ch = autoChunks(s, 7);
+  if (idx < 0 || ch.join('') !== s) return null;
+  const a = idx, b = idx + hl.length;
+  let pos = 0, first = -1, last = -1;
+  ch.forEach((c, i) => { const e = pos + c.length; if (e > a && pos < b) { if (first < 0) first = i; last = i; } pos = e; });
+  if (first < 0) return null;
+  const merged = [...ch.slice(0, first), ch.slice(first, last + 1).join(''), ...ch.slice(last + 1)];
+  while (merged.length > 6) { // quá nhiều mảnh: gộp hai mảnh đầu
+    merged.splice(0, 2, merged[0] + merged[1]);
+  }
+  return merged.length >= 3 && merged.join('') === s ? merged : null;
 }
 
 // ---------- từng dạng bài ----------
@@ -205,9 +223,9 @@ export const gtabs = cur => `<div class="tabs" role="tablist">
   <a role="tab" href="#/nguphap/luyen" aria-selected="${cur === 'luyen'}">Luyện tập</a>
   <a role="tab" href="#/nguphap/thithu" aria-selected="${cur === 'thi'}">Thi thử</a></div>`;
 
-export async function renderGrammarPractice(view, ctx, onlyId) {
+export async function renderGrammarPractice(view, ctx, onlyId, preset) {
   const saved = await kvGet('gpSetup', {});
-  const o = { type: 'mix', source: 'all', levels: [], forms: ['te', 'nai'], count: 20, ...saved };
+  const o = { type: 'mix', source: 'all', levels: [], forms: ['te', 'nai'], count: 20, ...saved, ...(preset ? { type: preset } : {}) };
   if (!D.grammar.length && !verbs().length) { view.innerHTML = `<h1 class="h1">Ngữ pháp</h1>${gtabs('luyen')}` + emptyState('Chưa có gói ngữ pháp nào.'); return; }
   if (onlyId) {
     const g = D.items.get(onlyId);

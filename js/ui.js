@@ -1,5 +1,6 @@
 import { esc, rubyHTML, wordHTML, reading, jp, icon, toast, $, rich, kanjiChars } from './util.js';
 import { TOPICS, POS, REG, D } from './data.js';
+export { wordDetailHTML, exampleHTML, kanjiStripHTML } from './wordx.js';
 import { S } from './settings.js';
 import { speak, ttsReady } from './tts.js';
 
@@ -7,7 +8,7 @@ import { speak, ttsReady } from './tts.js';
 export function chips(name, opts, selected, multi = true) {
   const sel = new Set([].concat(selected ?? []));
   return `<div class="chips" role="group" data-name="${name}" data-multi="${multi ? 1 : 0}">` +
-    opts.map(([v, label, extra]) => `<button type="button" class="chip" data-v="${esc(v)}" aria-pressed="${sel.has(v)}">${esc(label)}${extra != null ? ` <small>${esc(extra)}</small>` : ''}</button>`).join('') +
+    opts.map(([v, label, extra, html]) => `<button type="button" class="chip" data-v="${esc(v)}" aria-pressed="${sel.has(v)}" ${html ? 'lang="ja"' : ''}>${html ? label : esc(label)}${extra != null ? ` <small>${esc(extra)}</small>` : ''}</button>`).join('') +
     `</div>`;
 }
 export function bindChips(root, onChange) {
@@ -37,43 +38,7 @@ export function bindSay(root) {
   });
 }
 
-export function exampleHTML(ex, { ctx } = {}) {
-  return `<div class="ex">
-    <div class="ex-row"><p class="ex-jp" lang="ja">${rubyHTML(ex.jp, true)}</p>${sayBtn(reading(ex.jp))}</div>
-    <p class="ex-vi">${esc(ex.vi)}${ctx ? ` <span class="tag">${esc(ctx)}</span>` : ''}</p>
-  </div>`;
-}
-
-// Dải "Chữ Hán trong từ này" — chạm để mở thẻ chữ
-export const kanjiStripHTML = it => {
-  const cs = kanjiChars(it.kanji);
-  if (!cs.length) return '';
-  return `<p class="kstrip" data-bare><span class="muted small">Chữ Hán trong từ:</span> ${cs.map(c => `<button type="button" class="kchip ${D.kanjiByChar.has(c) ? 'has' : ''}" data-kopen="${esc(c)}"><b lang="ja">${esc(c)}</b>${D.kanjiByChar.has(c) ? `<small>${esc(D.kanjiByChar.get(c).hv)}</small>` : ''}</button>`).join('')}</p>`;
-};
-
 export const topicNames = it => (it.topics || []).map(t => TOPICS[t] || t).join(', ');
-
-export function wordDetailHTML(it, { compact = false } = {}) {
-  const tn = topicNames(it);
-  const reg = it.reg && it.reg !== 'thuong' && !tn.includes(REG[it.reg]) ? REG[it.reg] : '';
-  const meta = [POS[it.pos] || it.pos, it.level, tn, reg].filter(Boolean);
-  return `<div class="wd">
-    <div class="wd-head">
-      <p class="wd-word" lang="ja">${wordHTML(it, 'furi')}</p>
-      ${sayBtn(it.kana)}
-    </div>
-    ${it.kanji ? `<p class="wd-kana" lang="ja">${esc(it.kana)}</p>` : ''}
-    ${S.showHv && it.hv ? `<p class="wd-hv">Hán Việt: <b>${esc(it.hv)}</b></p>` : ''}
-    ${kanjiStripHTML(it)}
-    <p class="wd-vi">${esc(it.vi)}</p>
-    ${it.std ? `<p class="wd-std">Tiếng chuẩn: <span lang="ja">${rich(it.std)}</span></p>` : ''}
-    <p class="wd-meta">${meta.map(esc).join(' / ')}</p>
-    ${(it.ex || []).slice(0, compact ? 1 : 9).map(e => exampleHTML(e)).join('')}
-    ${it.note ? `<p class="wd-note">${rich(it.note)}</p>` : ''}
-    ${it.flag ? `<p class="wd-flag">Mục này đang được đánh dấu cần kiểm lại.</p>` : ''}
-    ${D.reports[it.id] && !D.reports[it.id]._del ? `<p class="wd-flag">Cậu Cả đã báo sai mục này${D.reports[it.id].note ? ': ' + rich(D.reports[it.id].note) : ''}.</p>` : ''}
-  </div>`;
-}
 
 // ---- bảng trượt từ dưới lên ----
 export function openSheet(html, { onClose, label = 'Chi tiết' } = {}) {
@@ -108,6 +73,7 @@ export function confirmBox(msg, okLabel = 'Đồng ý', cancelLabel = 'Huỷ') {
 
 // Tab trên đầu trang Luyện từ
 export const wtabs = cur => `<div class="tabs" role="tablist">
+  <a role="tab" href="#/luyen" aria-selected="${cur === 'hub'}">Các dạng bài</a>
   <a role="tab" href="#/hoc" aria-selected="${cur === 'quiz'}">Trắc nghiệm</a>
   <a role="tab" href="#/ghep" aria-selected="${cur === 'match'}">Ghép 6 cặp</a></div>`;
 

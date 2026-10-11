@@ -13,7 +13,7 @@ export function isKanjiCh(ch) {
 }
 export const hasKanji = s => [...(s || '')].some(isKanjiCh);
 
-export const APP_VERSION = 'v4 · 11/10/2026'; // đổi cùng lúc với VERSION trong sw.js
+export const APP_VERSION = 'v5 · 11/10/2026'; // đổi cùng lúc với VERSION trong sw.js
 
 // Cú pháp: 漢字[よみ] — phần gắn cách đọc là chuỗi kanji liền trước "[".  [[...]] = phần ngữ pháp.
 // Dấu [ ] không đứng sau kanji, hoặc bên trong không phải kana, thì giữ nguyên như chữ thường.
@@ -70,6 +70,43 @@ export function blankHTML(s, blank = '<span class="blank" aria-label="chỗ tr�
 export const hlText = s => (/\[\[([\s\S]*?)\]\]/.exec(s) || [])[1] || '';
 export const stripHL = s => s.replace(/\[\[|\]\]/g, '');
 export const kanjiChars = s => [...new Set([...(s || '')].filter(c => isKanjiCh(c) && c !== '々'))];
+
+// Tự cắt câu thành mảnh theo trợ từ (dùng khi dữ liệu không có sẵn chunks). Đầu vào: chữ có furigana, không có [[ ]] và dấu câu cuối.
+// Chỉ cắt sau trợ từ đứng ngay sau chữ Hán / katakana — tránh cắt nhầm trong từ viết bằng hiragana.
+const PARTS = ['には', 'では', 'から', 'まで', 'より', 'とは', 'へは', 'にも', 'でも', 'を', 'が', 'は', 'に', 'で', 'へ', 'と', 'も'];
+const NOT_AFTER = { が: 'るりっられれろ', で: 'すしょるてたまらりれろ', と: 'るりっれろう', も: 'るりっ', に: 'るりっ' };
+export function autoChunks(s, max = 6) {
+  const toks = [];
+  for (const g of parseJP(s)) {
+    if (g.r) toks.push({ m: `${g.t}[${g.r}]`, p: g.t, k: 'K' });
+    else for (const ch of g.t) toks.push({ m: ch, p: ch, k: isKanjiCh(ch) ? 'K' : /[\u30A0-\u30FF]/.test(ch) ? 'A' : /[\u3040-\u309F]/.test(ch) ? 'H' : 'O' });
+  }
+  const out = [];
+  let cur = '';
+  for (let i = 0; i < toks.length; i++) {
+    const t = toks[i];
+    cur += t.m;
+    if (t.p === '、' || t.p === '，') { out.push(cur); cur = ''; continue; }
+    if (t.k !== 'K' && t.k !== 'A') continue;
+    let ahead = '';
+    for (let j = i + 1; j < toks.length && toks[j].k === 'H' && ahead.length < 2; j++) ahead += toks[j].p;
+    const p = PARTS.find(x => ahead.startsWith(x));
+    if (!p) continue;
+    const nx = toks[i + 1 + p.length];
+    if (nx && nx.k === 'H' && (NOT_AFTER[p] || '').includes(nx.p)) continue;
+    for (let j = 0; j < p.length; j++) cur += toks[++i].m;
+    if (toks[i + 1] && (toks[i + 1].p === '、' || toks[i + 1].p === '，')) cur += toks[++i].m;
+    if (i < toks.length - 1) { out.push(cur); cur = ''; }
+  }
+  if (cur) out.push(cur);
+  while (out.length > max) {
+    let bi = 0, bl = Infinity;
+    for (let i = 0; i < out.length - 1; i++) { const l = plain(out[i]).length + plain(out[i + 1]).length; if (l < bl) { bl = l; bi = i; } }
+    out.splice(bi, 2, out[bi] + out[bi + 1]);
+  }
+  return out;
+}
+export const END_PUNCT = /[。！？!?]$/;
 
 // Hiển thị một từ theo chế độ chữ: kana (mềm/cứng) | furi (kanji + furigana)
 // | bare (kanji trần — CHỈ dùng ở phần kiểm tra Hán–furigana: Kanji → cách đọc, ghép kana – kanji)

@@ -8,7 +8,7 @@
   "topics": [
    "thuysan"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-08",
   "verified_on": "",
   "note": "Gói mẫu. Tên cá/hải sản và bộ phận cá là từ chuyên ngành, không có trong JLPT — cấp ghi theo độ khó ước lượng."
@@ -30,7 +30,22 @@
    "ex": [
     {
      "jp": "魚[さかな]を冷蔵庫[れいぞうこ]に入[い]れます。",
-     "vi": "Cho cá vào tủ lạnh."
+     "vi": "Cho cá vào tủ lạnh.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": [
+    "匹",
+    "尾"
+   ],
+   "coll": [
+    {
+     "jp": "魚[さかな]をさばく",
+     "vi": "làm cá (mổ, lọc)"
+    },
+    {
+     "jp": "魚[さかな]を切[き]る",
+     "vi": "cắt cá"
     }
    ]
   },
@@ -50,10 +65,15 @@
    "ex": [
     {
      "jp": "サーモンの皮[かわ]を引[ひ]きます。",
-     "vi": "Lạng da cá hồi."
+     "vi": "Lạng da cá hồi.",
+     "ctx": "xuong"
     }
    ],
-   "note": "Trong xưởng hay nói サーモン. 鮭[さけ] cũng là cá hồi."
+   "note": "Trong xưởng hay nói サーモン. 鮭[さけ] cũng là cá hồi.",
+   "ctr": [
+    "尾"
+   ],
+   "goc": "salmon (tiếng Anh: cá hồi)"
   },
   {
    "id": "v:マグロ:マグロ",
@@ -71,8 +91,13 @@
    "ex": [
     {
      "jp": "マグロを柵[さく]に切[き]ります。",
-     "vi": "Cắt cá ngừ thành miếng thăn."
+     "vi": "Cắt cá ngừ thành miếng thăn.",
+     "ctx": "xuong"
     }
+   ],
+   "note": "Cá ngừ nguyên con đếm bằng 本[ほん]: マグロ一本[いっぽん].",
+   "ctr": [
+    "本"
    ]
   },
   {
@@ -91,10 +116,15 @@
    "ex": [
     {
      "jp": "ブリは冬[ふゆ]がおいしいです。",
-     "vi": "Cá cam ngon nhất vào mùa đông."
+     "vi": "Cá cam ngon nhất vào mùa đông.",
+     "ctx": "xuong"
     }
    ],
-   "note": "ハマチ là tên gọi cá cam cỡ nhỏ (thường là cá nuôi)."
+   "note": "ハマチ là tên gọi cá cam cỡ nhỏ (thường là cá nuôi).",
+   "ctr": [
+    "尾",
+    "本"
+   ]
   },
   {
    "id": "v:ホタテ:ホタテ",
@@ -112,10 +142,15 @@
    "ex": [
     {
      "jp": "ホタテの貝柱[かいばしら]を取[と]ります。",
-     "vi": "Lấy cồi sò điệp."
+     "vi": "Lấy cồi sò điệp.",
+     "ctx": "xuong"
     }
    ],
-   "note": "貝柱[かいばしら] = cồi (phần thịt tròn)."
+   "note": "貝柱[かいばしら] = cồi (phần thịt tròn). Cả vỏ đếm 枚[まい], phần cồi (貝柱[かいばしら]) đếm 個[こ].",
+   "ctr": [
+    "枚",
+    "個"
+   ]
   },
   {
    "id": "v:イカ:イカ",
@@ -133,11 +168,16 @@
    "ex": [
     {
      "jp": "イカを細[ほそ]く切[き]ります。",
-     "vi": "Thái mực thành sợi nhỏ."
+     "vi": "Thái mực thành sợi nhỏ.",
+     "ctx": "xuong"
     }
    ],
    "confuse": [
     "v:タコ:タコ"
+   ],
+   "note": "Mực đếm bằng 杯[はい]: イカ一杯[いっぱい] = một con mực.",
+   "ctr": [
+    "杯"
    ]
   },
   {
@@ -156,11 +196,16 @@
    "ex": [
     {
      "jp": "タコの足[あし]を切[き]ります。",
-     "vi": "Cắt râu bạch tuộc."
+     "vi": "Cắt râu bạch tuộc.",
+     "ctx": "xuong"
     }
    ],
    "confuse": [
     "v:イカ:イカ"
+   ],
+   "ctr": [
+    "杯",
+    "匹"
    ]
   },
   {
@@ -179,10 +224,15 @@
    "ex": [
     {
      "jp": "エビの殻[から]をむきます。",
-     "vi": "Bóc vỏ tôm."
+     "vi": "Bóc vỏ tôm.",
+     "ctx": "xuong"
     }
    ],
-   "note": "Trên nhãn chất gây dị ứng viết えび (hiragana). Tôm là chất gây dị ứng bắt buộc ghi nhãn."
+   "note": "Trên nhãn chất gây dị ứng viết えび (hiragana). Tôm là chất gây dị ứng bắt buộc ghi nhãn.",
+   "ctr": [
+    "尾",
+    "匹"
+   ]
   },
   {
    "id": "v:カニ:カニ",
@@ -200,10 +250,14 @@
    "ex": [
     {
      "jp": "カニはアレルギーの表示[ひょうじ]が必要[ひつよう]です。",
-     "vi": "Cua bắt buộc phải ghi nhãn dị ứng."
+     "vi": "Cua bắt buộc phải ghi nhãn dị ứng.",
+     "ctx": "xuong"
     }
    ],
-   "note": "Trên nhãn viết かに (hiragana)."
+   "note": "Trên nhãn viết かに (hiragana). Cua khi bán đếm bằng 杯[はい]: カニ一杯[いっぱい].",
+   "ctr": [
+    "杯"
+   ]
   },
   {
    "id": "v:牡蠣:かき",
@@ -221,10 +275,14 @@
    "ex": [
     {
      "jp": "生食用[せいしょくよう]の牡蠣[かき]は特[とく]に注意[ちゅうい]します。",
-     "vi": "Hàu ăn sống phải đặc biệt chú ý."
+     "vi": "Hàu ăn sống phải đặc biệt chú ý.",
+     "ctx": "xuong"
     }
    ],
-   "note": "Thường viết カキ. Cùng âm かき với 柿[かき] (quả hồng)."
+   "note": "Thường viết カキ. Cùng âm かき với 柿[かき] (quả hồng).",
+   "ctr": [
+    "個"
+   ]
   },
   {
    "id": "v:ウニ:ウニ",
@@ -242,8 +300,12 @@
    "ex": [
     {
      "jp": "ウニはとても柔[やわ]らかいです。",
-     "vi": "Nhím biển rất mềm."
+     "vi": "Nhím biển rất mềm.",
+     "ctx": "xuong"
     }
+   ],
+   "ctr": [
+    "個"
    ]
   },
   {
@@ -262,9 +324,11 @@
    "ex": [
     {
      "jp": "イクラを容器[ようき]に入[い]れます。",
-     "vi": "Cho trứng cá hồi vào hộp."
+     "vi": "Cho trứng cá hồi vào hộp.",
+     "ctx": "xuong"
     }
-   ]
+   ],
+   "goc": "икра (tiếng Nga: trứng cá)"
   },
   {
    "id": "v:頭:あたま",
@@ -282,7 +346,14 @@
    "ex": [
     {
      "jp": "魚[さかな]の頭[あたま]を落[お]とします。",
-     "vi": "Chặt đầu cá."
+     "vi": "Chặt đầu cá.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "頭[あたま]を落[お]とす",
+     "vi": "chặt đầu (cá)"
     }
    ]
   },
@@ -323,10 +394,17 @@
    "ex": [
     {
      "jp": "包丁[ほうちょう]で皮[かわ]を引[ひ]きます。",
-     "vi": "Lạng da bằng dao."
+     "vi": "Lạng da bằng dao.",
+     "ctx": "xuong"
     }
    ],
-   "note": "皮[かわ]を引[ひ]く = lạng da cá."
+   "note": "皮[かわ]を引[ひ]く = lạng da cá.",
+   "coll": [
+    {
+     "jp": "皮[かわ]を引[ひ]く",
+     "vi": "lạng da cá"
+    }
+   ]
   },
   {
    "id": "v:骨:ほね",
@@ -344,12 +422,23 @@
    "ex": [
     {
      "jp": "骨[ほね]が残[のこ]っていないか確認[かくにん]します。",
-     "vi": "Kiểm tra xem còn sót xương không."
+     "vi": "Kiểm tra xem còn sót xương không.",
+     "ctx": "xuong"
     }
    ],
    "confuse": [
     "v:腹骨:はらぼね",
     "v:中骨:なかぼね"
+   ],
+   "coll": [
+    {
+     "jp": "骨[ほね]を抜[ぬ]く",
+     "vi": "nhổ xương"
+    },
+    {
+     "jp": "骨[ほね]を取[と]る",
+     "vi": "lấy xương"
+    }
    ]
   },
   {
@@ -483,14 +572,21 @@
    "ex": [
     {
      "jp": "刺身[さしみ]用[よう]のサーモンです。",
-     "vi": "Đây là cá hồi dùng làm sashimi."
+     "vi": "Đây là cá hồi dùng làm sashimi.",
+     "ctx": "xuong"
     }
    ],
    "confuse": [
     "v:切り身:きりみ",
     "v:柵:さく"
    ],
-   "note": "Chữ 刺[し] có hai âm Hán Việt: thứ / thích."
+   "note": "Chữ 刺[し] có hai âm Hán Việt: thứ / thích.",
+   "coll": [
+    {
+     "jp": "刺身[さしみ]を盛[も]り付[つ]ける",
+     "vi": "bày sashimi ra đĩa"
+    }
+   ]
   },
   {
    "id": "v:切り身:きりみ",
@@ -533,7 +629,14 @@
    "ex": [
     {
      "jp": "内臓[ないぞう]をきれいに取[と]ります。",
-     "vi": "Lấy sạch nội tạng."
+     "vi": "Lấy sạch nội tạng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "内臓[ないぞう]を取[と]る",
+     "vi": "bỏ nội tạng"
     }
    ]
   },
@@ -553,10 +656,17 @@
    "ex": [
     {
      "jp": "鱗[うろこ]を落[お]とします。",
-     "vi": "Đánh vảy."
+     "vi": "Đánh vảy.",
+     "ctx": "xuong"
     }
    ],
-   "note": "Thường viết うろこ bằng hiragana."
+   "note": "Thường viết うろこ bằng hiragana.",
+   "coll": [
+    {
+     "jp": "鱗[うろこ]を取[と]る",
+     "vi": "đánh vảy"
+    }
+   ]
   },
   {
    "id": "v:鮮度:せんど",
@@ -574,7 +684,18 @@
    "ex": [
     {
      "jp": "鮮度[せんど]が落[お]ちないように早[はや]く作業[さぎょう]します。",
-     "vi": "Làm nhanh để cá không mất độ tươi."
+     "vi": "Làm nhanh để cá không mất độ tươi.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "鮮度[せんど]が落[お]ちる",
+     "vi": "độ tươi giảm"
+    },
+    {
+     "jp": "鮮度[せんど]を保[たも]つ",
+     "vi": "giữ độ tươi"
     }
    ]
   }

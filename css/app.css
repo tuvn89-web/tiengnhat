@@ -466,3 +466,55 @@ button.ksim-c { cursor: pointer; border-color: var(--blue); }
 .wlist-drill .wq { margin: 4px 0; }
 .wlist-drill .wq .prompt-jp, .wlist-drill .wq .prompt-vi, .wlist-drill .wq .prompt-sent { font-size: 1.1em; text-align: left; margin: 4px 0; }
 .bytag { margin: 6px 0 14px; text-align: left; }
+
+/* ---------- v5: thẻ từ đầy đủ ---------- */
+.wd-masu { font-weight: 500; color: var(--ink-2); font-size: .8em; }
+.wd-tags { margin: 0 0 8px; display: flex; flex-wrap: wrap; gap: 6px; }
+.tag-warn { background: var(--hl); color: var(--ink); }
+.wd-goc { margin: 0 0 8px; font-size: .92em; line-height: 1.8; }
+.wrel { display: grid; grid-template-columns: 6.5em 1fr; gap: 6px 10px; align-items: start; padding: 8px 0; border-top: 1px dashed var(--line); }
+.wrel-l { color: var(--ink-2); font-size: .85em; padding-top: 6px; }
+.wrel-v { display: flex; flex-wrap: wrap; gap: 6px; }
+.wref { display: inline-flex; align-items: baseline; gap: 6px; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink); font: inherit; line-height: 2; text-align: left; }
+button.wref { cursor: pointer; }
+button.wref:hover { border-color: var(--blue); }
+.wref small { color: var(--ink-2); }
+.coll { list-style: none; padding: 0; margin: 0 0 6px; }
+.coll li { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; padding: 4px 0; line-height: 2.05; }
+.coll small { color: var(--ink-2); }
+.ctab { width: 100%; border-collapse: collapse; margin: 4px 0 8px; font-size: .95em; }
+.ctab th, .ctab td { text-align: left; padding: 6px 6px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.9; }
+.ctab th { font-weight: 600; color: var(--ink-2); font-size: .85em; width: 34%; }
+.ctab th small { display: block; font-weight: 400; opacity: .8; line-height: 1.2; }
+.ctab td[lang=ja] { font-size: 1.1em; white-space: nowrap; }
+.ctab td:last-child { color: var(--ink-2); font-size: .9em; }
+.ctab .pol { display: block; font-size: .8em; color: var(--ink-2); }
+.ctab-dim td[lang=ja] { opacity: .75; }
+.ctab-more summary, .ctr summary { cursor: pointer; color: var(--blue); padding: 6px 0; }
+.ctr { margin: 6px 0; }
+.ctr summary { color: var(--ink); line-height: 2.1; }
+.ctr-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(7.5em, 1fr)); gap: 4px 10px; padding: 6px 0; font-size: 1.05em; line-height: 2.2; }
+.ctr-q { color: var(--blue); }
+.scale { margin: 8px 0; }
+.scale-l { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 6px 0 0; margin: 0; counter-reset: none; }
+.scale-l li { display: grid; padding: 4px 10px; border: 1px solid var(--line); border-radius: 10px; line-height: 1.5; }
+.scale-l li small { color: var(--ink-2); }
+.scale-l li.on { border-color: var(--blue); background: var(--blue-soft); }
+
+/* ---------- v5: học từ mới ---------- */
+.label-dec { margin-left: auto; margin-right: 8px; font-size: .8em; color: var(--ok); font-weight: 600; }
+.learn-bar, .test-bar { gap: 8px; }
+.learn-bar .btn-sm, .test-bar .btn-sm { flex: none; width: auto; padding: 0 14px; min-height: var(--btn-h); }
+.mode-n { margin-left: auto; min-width: 2em; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-size: .85em; text-align: center; }
+.mixbtn { margin: 6px 0 10px; }
+
+/* ---------- v5: thi thử có quay lại ---------- */
+.run.test .opt[aria-pressed="true"] { border-color: var(--blue); background: var(--blue-soft); }
+.run.test .opt[aria-pressed="true"] .opt-n { background: var(--blue); color: var(--blue-ink); border-color: var(--blue); }
+.tnav { margin: 14px 0 0; }
+.tnav summary { cursor: pointer; color: var(--blue); padding: 8px 0; }
+.tgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(42px, 1fr)); gap: 6px; margin: 4px 0 10px; }
+.tnum { height: 42px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; cursor: pointer; }
+.tnum.is-ans { background: var(--blue-soft); border-color: var(--blue); }
+.tnum.is-later { border-style: dashed; border-color: var(--ng); }
+.tnum.is-cur { outline: 3px solid var(--ink); outline-offset: 1px; }

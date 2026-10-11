@@ -2,7 +2,7 @@
 // Gộp theo dấu thời gian: bản nào sửa sau thì thắng (theo từng từ, từng chiều học).
 import { kvGet, kvSet, putMany, all, clear } from './db.js';
 import { P } from './srs.js';
-import { D, rebuild } from './data.js';
+import { D, rebuild, assemblePacks, packEntry } from './data.js';
 import { S } from './settings.js';
 
 const API = 'https://api.github.com';
@@ -184,6 +184,7 @@ async function snapshot() {
     imported,
     disabled: D.disabled,
     reports: D.reports,
+    prefs: D.prefs,
   };
 }
 
@@ -215,6 +216,7 @@ export function merge(a, b) {
     imported: mergeMap(a.imported, b.imported, '_t'),
     disabled: newer(a.disabled, b.disabled),
     reports: mergeMap(a.reports, b.reports),
+    prefs: newer(a.prefs, b.prefs),
   };
 }
 
@@ -227,8 +229,9 @@ export async function applySnapshot(m) {
   D.user = new Map(users.map(u => [u.id, u]));
   const imps = Object.values(m.imported || {});
   await putMany('imported', imps);
-  D.packs = D.packs.filter(p => p.src !== 'imported').concat(
-    imps.filter(x => !x._del).map(x => ({ id: x.id, title: x.pack.title, type: x.pack.type, level: x.pack.level, topics: x.pack.topics || [], count: x.items.length, version: x.pack.version || 1, src: 'imported', items: x.items, _t: x._t })));
+  D.imported = imps.filter(x => !x._del).map(x => packEntry(x.pack, x.items, 'imported', x._t));
+  assemblePacks();
+  if (m.prefs) { D.prefs = { ...D.prefs, ...m.prefs }; await kvSet('prefs', D.prefs); }
   if (m.disabled) { D.disabled = m.disabled; await kvSet('disabled', D.disabled); }
   if (m.reports) { D.reports = m.reports; await kvSet('reports', D.reports); }
   rebuild();

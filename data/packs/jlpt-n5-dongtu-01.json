@@ -9,10 +9,10 @@
    "jlpt",
    "xuong"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-11",
   "verified_on": "",
-  "note": "Gói mẫu cho bài Chia động từ: đủ nhóm 1 (gồm ngoại lệ 行[い]く và các từ đuôi る chia nhóm 1), nhóm 2, nhóm 3."
+  "note": "Gói mẫu cho bài Chia động từ và Thể động từ trong câu: đủ nhóm 1 (gồm ngoại lệ 行[い]く và các từ đuôi る chia nhóm 1), nhóm 2, nhóm 3. Có cụm hay đi kèm, cặp tự–tha, kính ngữ, câu theo thể."
  },
  "items": [
   {
@@ -23,6 +23,7 @@
    "hv": "TẨY",
    "vi": "rửa",
    "pos": "v5",
+   "vt": "tha",
    "level": "N5",
    "topics": [
     "jlpt",
@@ -33,7 +34,44 @@
    "ex": [
     {
      "jp": "作業[さぎょう]の前[まえ]に手[て]を洗[あら]います。",
-     "vi": "Trước khi làm việc tôi rửa tay."
+     "vi": "Trước khi làm việc tôi rửa tay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "野菜[やさい]を水[みず]でよく洗[あら]ってください。",
+     "vi": "Hãy rửa rau thật kỹ bằng nước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "仕事[しごと]の後[あと]、まな板[いた]と包丁[ほうちょう]を洗[あら]います。",
+     "vi": "Sau giờ làm, tôi rửa thớt và dao.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手[て]を洗[あら]う",
+     "vi": "rửa tay"
+    },
+    {
+     "jp": "まな板[いた]を洗[あら]う",
+     "vi": "rửa thớt"
+    },
+    {
+     "jp": "長靴[ながぐつ]を洗[あら]う",
+     "vi": "rửa ủng"
+    }
+   ],
+   "fx": [
+    {
+     "f": "shiekiukemi",
+     "jp": "班長[はんちょう]に長靴[ながぐつ]を[[洗[あら]わされ]]ました。",
+     "vi": "Tôi bị tổ trưởng bắt rửa ủng."
+    },
+    {
+     "f": "shieki",
+     "jp": "新人[しんじん]にかごを[[洗[あら]わせ]]ます。",
+     "vi": "Tôi cho người mới rửa rổ."
     }
    ],
    "note": "Đuôi う: thể ない là 洗[あら]わない (う → わ)."
@@ -46,6 +84,7 @@
    "hv": "THƯ",
    "vi": "viết",
    "pos": "v5",
+   "vt": "tha",
    "level": "N5",
    "topics": [
     "jlpt"
@@ -55,7 +94,32 @@
    "ex": [
     {
      "jp": "日報[にっぽう]に数字[すうじ]を書[か]きます。",
-     "vi": "Ghi số liệu vào báo cáo ngày."
+     "vi": "Ghi số liệu vào báo cáo ngày.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "申請書[しんせいしょ]に住所[じゅうしょ]を書[か]きます。",
+     "vi": "Tôi viết địa chỉ vào đơn.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "友達[ともだち]に手紙[てがみ]を書[か]きました。",
+     "vi": "Tôi đã viết thư cho bạn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "名前[なまえ]を書[か]く",
+     "vi": "viết tên"
+    },
+    {
+     "jp": "日報[にっぽう]を書[か]く",
+     "vi": "viết báo cáo ngày"
+    },
+    {
+     "jp": "住所[じゅうしょ]を書[か]く",
+     "vi": "viết địa chỉ"
     }
    ]
   },
@@ -67,6 +131,7 @@
    "hv": "ĐỘC",
    "vi": "đọc",
    "pos": "v5",
+   "vt": "tha",
    "level": "N5",
    "topics": [
     "jlpt"
@@ -76,7 +141,39 @@
    "ex": [
     {
      "jp": "作業[さぎょう]の前[まえ]にマニュアルを読[よ]みます。",
-     "vi": "Trước khi làm việc tôi đọc sách hướng dẫn."
+     "vi": "Trước khi làm việc tôi đọc sách hướng dẫn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "毎晩[まいばん]、日本語[にほんご]の本[ほん]を読[よ]みます。",
+     "vi": "Tối nào tôi cũng đọc sách tiếng Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "書類[しょるい]をよく読[よ]んでから、サインしてください。",
+     "vi": "Hãy đọc kỹ giấy tờ rồi mới ký.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "本[ほん]を読[よ]む",
+     "vi": "đọc sách"
+    },
+    {
+     "jp": "マニュアルを読[よ]む",
+     "vi": "đọc sách hướng dẫn"
+    },
+    {
+     "jp": "漢字[かんじ]を読[よ]む",
+     "vi": "đọc chữ Hán"
+    }
+   ],
+   "fx": [
+    {
+     "f": "kano",
+     "jp": "この漢字[かんじ]が[[読[よ]め]]ますか。",
+     "vi": "Bạn đọc được chữ Hán này không?"
     }
    ]
   },
@@ -88,6 +185,7 @@
    "hv": "HÀNH",
    "vi": "đi",
    "pos": "v5",
+   "vt": "tu",
    "level": "N5",
    "topics": [
     "jlpt"
@@ -97,9 +195,45 @@
    "ex": [
     {
      "jp": "毎日[まいにち]自転車[じてんしゃ]で工場[こうじょう]に行[い]きます。",
-     "vi": "Hằng ngày tôi đi xe đạp đến xưởng."
+     "vi": "Hằng ngày tôi đi xe đạp đến xưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "週末[しゅうまつ]、神戸[こうべ]へ行[い]きます。",
+     "vi": "Cuối tuần tôi đi Kobe.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "明日[あした]、市役所[しやくしょ]に行[い]かなければなりません。",
+     "vi": "Ngày mai tôi phải đi ủy ban thành phố.",
+     "ctx": "thutuc"
     }
    ],
+   "coll": [
+    {
+     "jp": "工場[こうじょう]に行[い]く",
+     "vi": "đi đến xưởng"
+    },
+    {
+     "jp": "病院[びょういん]に行[い]く",
+     "vi": "đi bệnh viện"
+    },
+    {
+     "jp": "市役所[しやくしょ]に行[い]く",
+     "vi": "đi ủy ban thành phố"
+    }
+   ],
+   "fx": [
+    {
+     "f": "kano",
+     "jp": "日曜日[にちようび]なら[[行[い]け]]ます。",
+     "vi": "Nếu là chủ nhật thì tôi đi được."
+    }
+   ],
+   "keigo": {
+    "ton": "いらっしゃる",
+    "khiem": "参[まい]る"
+   },
    "note": "Ngoại lệ: thể て là 行[い]って, thể た là 行[い]った."
   },
   {
@@ -110,6 +244,7 @@
    "hv": "LAI",
    "vi": "đến",
    "pos": "v3",
+   "vt": "tu",
    "level": "N5",
    "topics": [
     "jlpt"
@@ -119,9 +254,41 @@
    "ex": [
     {
      "jp": "新[あたら]しい人[ひと]が来週[らいしゅう]工場[こうじょう]に来[き]ます。",
-     "vi": "Tuần sau có người mới đến xưởng."
+     "vi": "Tuần sau có người mới đến xưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "去年[きょねん]、日本[にほん]に来[き]ました。",
+     "vi": "Năm ngoái tôi đã sang Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：明日[あした]も来[き]ますか。B：はい、八時[はちじ]に来[き]ます。",
+     "vi": "A: Mai anh cũng đến chứ? B: Vâng, tôi đến lúc 8 giờ.",
+     "ctx": "hoithoai"
     }
    ],
+   "coll": [
+    {
+     "jp": "工場[こうじょう]に来[く]る",
+     "vi": "đến xưởng"
+    },
+    {
+     "jp": "日本[にほん]に来[く]る",
+     "vi": "sang Nhật"
+    }
+   ],
+   "fx": [
+    {
+     "f": "kano",
+     "jp": "明日[あした]も[[来[こ]られ]]ますか。",
+     "vi": "Ngày mai anh cũng đến được chứ?"
+    }
+   ],
+   "keigo": {
+    "ton": "いらっしゃる",
+    "khiem": "参[まい]る"
+   },
    "note": "Nhóm 3, đổi cả cách đọc: 来[く]る, 来[き]ます, 来[こ]ない, 来[き]て."
   },
   {
@@ -132,6 +299,7 @@
    "hv": "KIẾN",
    "vi": "xem, nhìn",
    "pos": "v1",
+   "vt": "tha",
    "level": "N5",
    "topics": [
     "jlpt"
@@ -141,9 +309,45 @@
    "ex": [
     {
      "jp": "毎朝[まいあさ]、温度計[おんどけい]を見[み]ます。",
-     "vi": "Mỗi sáng tôi xem nhiệt kế."
+     "vi": "Mỗi sáng tôi xem nhiệt kế.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "夜[よる]、テレビを見[み]ます。",
+     "vi": "Buổi tối tôi xem TV.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "出荷[しゅっか]の前[まえ]にラベルをよく見[み]てください。",
+     "vi": "Trước khi xuất hàng hãy xem kỹ nhãn.",
+     "ctx": "xuong"
     }
-   ]
+   ],
+   "coll": [
+    {
+     "jp": "温度計[おんどけい]を見[み]る",
+     "vi": "xem nhiệt kế"
+    },
+    {
+     "jp": "テレビを見[み]る",
+     "vi": "xem TV"
+    },
+    {
+     "jp": "ラベルを見[み]る",
+     "vi": "xem nhãn"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "知[し]らない人[ひと]に財布[さいふ]の中[なか]を[[見[み]られ]]ました。",
+     "vi": "Tôi bị người lạ nhìn vào trong ví."
+    }
+   ],
+   "keigo": {
+    "ton": "ご覧[らん]になる",
+    "khiem": "拝見[はいけん]する"
+   }
   },
   {
    "id": "v:食べる:たべる",
@@ -153,6 +357,7 @@
    "hv": "THỰC",
    "vi": "ăn",
    "pos": "v1",
+   "vt": "tha",
    "level": "N5",
    "topics": [
     "jlpt",
@@ -163,9 +368,50 @@
    "ex": [
     {
      "jp": "休憩室[きゅうけいしつ]で昼[ひる]ご飯[はん]を食[た]べます。",
-     "vi": "Tôi ăn trưa ở phòng nghỉ."
+     "vi": "Tôi ăn trưa ở phòng nghỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "日本[にほん]で初[はじ]めて刺身[さしみ]を食[た]べました。",
+     "vi": "Ở Nhật lần đầu tôi ăn sashimi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "作業場[さぎょうば]で物[もの]を食[た]べないでください。",
+     "vi": "Đừng ăn uống trong khu làm việc.",
+     "ctx": "xuong"
     }
-   ]
+   ],
+   "coll": [
+    {
+     "jp": "ご飯[はん]を食[た]べる",
+     "vi": "ăn cơm"
+    },
+    {
+     "jp": "昼[ひる]ご飯[はん]を食[た]べる",
+     "vi": "ăn trưa"
+    },
+    {
+     "jp": "刺身[さしみ]を食[た]べる",
+     "vi": "ăn sashimi"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "犬[いぬ]に肉[にく]を[[食[た]べられ]]ました。",
+     "vi": "Tôi bị chó ăn mất thịt."
+    },
+    {
+     "f": "shieki",
+     "jp": "子供[こども]に野菜[やさい]を[[食[た]べさせ]]ます。",
+     "vi": "Tôi cho con ăn rau."
+    }
+   ],
+   "keigo": {
+    "ton": "召[め]し上[あ]がる",
+    "khiem": "いただく"
+   }
   },
   {
    "id": "v:飲む:のむ",
@@ -175,6 +421,7 @@
    "hv": "ẨM",
    "vi": "uống",
    "pos": "v5",
+   "vt": "tha",
    "level": "N5",
    "topics": [
     "jlpt",
@@ -185,9 +432,45 @@
    "ex": [
     {
      "jp": "暑[あつ]い日[ひ]は水[みず]をたくさん飲[の]みましょう。",
-     "vi": "Ngày nóng hãy uống nhiều nước."
+     "vi": "Ngày nóng hãy uống nhiều nước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一日[いちにち]三回[さんかい]薬[くすり]を飲[の]んでください。",
+     "vi": "Hãy uống thuốc ngày 3 lần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "休憩[きゅうけい]の時[とき]に水[みず]を飲[の]みます。",
+     "vi": "Giờ nghỉ tôi uống nước.",
+     "ctx": "xuong"
     }
-   ]
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]を飲[の]む",
+     "vi": "uống nước"
+    },
+    {
+     "jp": "薬[くすり]を飲[の]む",
+     "vi": "uống thuốc"
+    },
+    {
+     "jp": "お茶[ちゃ]を飲[の]む",
+     "vi": "uống trà"
+    }
+   ],
+   "fx": [
+    {
+     "f": "shieki",
+     "jp": "子供[こども]に薬[くすり]を[[飲[の]ませ]]ます。",
+     "vi": "Tôi cho con uống thuốc."
+    }
+   ],
+   "keigo": {
+    "ton": "召[め]し上[あ]がる",
+    "khiem": "いただく"
+   }
   },
   {
    "id": "v:待つ:まつ",
@@ -197,6 +480,7 @@
    "hv": "ĐÃI",
    "vi": "chờ, đợi",
    "pos": "v5",
+   "vt": "tha",
    "level": "N5",
    "topics": [
     "jlpt"
@@ -206,7 +490,39 @@
    "ex": [
     {
      "jp": "ここで少[すこ]し待[ま]ってください。",
-     "vi": "Hãy chờ ở đây một chút."
+     "vi": "Hãy chờ ở đây một chút.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "窓口[まどぐち]で順番[じゅんばん]を待[ま]ちます。",
+     "vi": "Tôi chờ đến lượt ở quầy.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "駅[えき]で友達[ともだち]を待[ま]っています。",
+     "vi": "Tôi đang đợi bạn ở ga.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "バスを待[ま]つ",
+     "vi": "chờ xe buýt"
+    },
+    {
+     "jp": "順番[じゅんばん]を待[ま]つ",
+     "vi": "chờ đến lượt"
+    },
+    {
+     "jp": "少[すこ]し待[ま]つ",
+     "vi": "chờ một chút"
+    }
+   ],
+   "fx": [
+    {
+     "f": "shiekiukemi",
+     "jp": "病院[びょういん]で一時間[いちじかん]も[[待[ま]たされ]]ました。",
+     "vi": "Ở bệnh viện tôi bị bắt chờ tận một tiếng."
     }
    ]
   },
@@ -218,6 +534,11 @@
    "hv": "THIẾT",
    "vi": "cắt",
    "pos": "v5",
+   "vt": "tha",
+   "pair": {
+    "w": "切[き]れる",
+    "vi": "bị cắt, bị đứt (tự động từ)"
+   },
    "level": "N5",
    "topics": [
     "jlpt",
@@ -228,7 +549,39 @@
    "ex": [
     {
      "jp": "包丁[ほうちょう]で魚[さかな]を切[き]ります。",
-     "vi": "Cắt cá bằng dao."
+     "vi": "Cắt cá bằng dao.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "包丁[ほうちょう]で指[ゆび]を切[き]ってしまいました。",
+     "vi": "Tôi lỡ bị dao cắt vào ngón tay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "じゃあ、電話[でんわ]を切[き]りますね。",
+     "vi": "Thôi, tôi cúp máy nhé.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "魚[さかな]を切[き]る",
+     "vi": "cắt cá"
+    },
+    {
+     "jp": "指[ゆび]を切[き]る",
+     "vi": "bị đứt tay (dao cắt vào ngón)"
+    },
+    {
+     "jp": "電話[でんわ]を切[き]る",
+     "vi": "cúp máy"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "この魚[さかな]は機械[きかい]で[[切[き]られ]]ます。",
+     "vi": "Cá này được cắt bằng máy."
     }
    ],
    "note": "Trông như nhóm 2 nhưng là nhóm 1: 切[き]って, 切[き]らない. Đừng nhầm với 着[き]る (mặc, nhóm 2)."
@@ -241,6 +594,8 @@
    "hv": "NHẬP",
    "vi": "vào, đi vào",
    "pos": "v5",
+   "vt": "tu",
+   "pair": "v:入れる:いれる",
    "level": "N5",
    "topics": [
     "jlpt",
@@ -251,13 +606,38 @@
    "ex": [
     {
      "jp": "工場[こうじょう]に入[はい]る前[まえ]に手[て]を洗[あら]います。",
-     "vi": "Trước khi vào xưởng tôi rửa tay."
+     "vi": "Trước khi vào xưởng tôi rửa tay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "毎晩[まいばん]お風呂[ふろ]に入[はい]ります。",
+     "vi": "Tối nào tôi cũng tắm bồn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "許可[きょか]なしで冷凍庫[れいとうこ]に入[はい]らないでください。",
+     "vi": "Không được phép thì đừng vào kho đông.",
+     "ctx": "xuong"
     }
    ],
-   "note": "Nhóm 1 dù đuôi る: 入[はい]って, 入[はい]らない. Tự mình đi vào; còn \"cho cái gì vào\" là 入[い]れる.",
+   "coll": [
+    {
+     "jp": "部屋[へや]に入[はい]る",
+     "vi": "vào phòng"
+    },
+    {
+     "jp": "工場[こうじょう]に入[はい]る",
+     "vi": "vào xưởng"
+    },
+    {
+     "jp": "お風呂[ふろ]に入[はい]る",
+     "vi": "tắm bồn"
+    }
+   ],
    "confuse": [
     "v:入れる:いれる"
-   ]
+   ],
+   "note": "Nhóm 1 dù đuôi る: 入[はい]って, 入[はい]らない. Tự mình đi vào; còn \"cho cái gì vào\" là 入[い]れる."
   },
   {
    "id": "v:入れる:いれる",
@@ -267,6 +647,8 @@
    "hv": "NHẬP",
    "vi": "cho vào, bỏ vào",
    "pos": "v1",
+   "vt": "tha",
+   "pair": "v:入る:はいる",
    "level": "N5",
    "topics": [
     "jlpt",
@@ -277,13 +659,38 @@
    "ex": [
     {
      "jp": "魚[さかな]を箱[はこ]に入[い]れます。",
-     "vi": "Cho cá vào thùng."
+     "vi": "Cho cá vào thùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "刺身[さしみ]はすぐ冷蔵庫[れいぞうこ]に入[い]れてください。",
+     "vi": "Sashimi thì hãy cho ngay vào tủ mát.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "コーヒーに砂糖[さとう]を入[い]れますか。",
+     "vi": "Anh có cho đường vào cà phê không?",
+     "ctx": "doisong"
     }
    ],
-   "note": "Cho vật gì vào (có を). Còn tự mình đi vào là 入[はい]る.",
+   "coll": [
+    {
+     "jp": "箱[はこ]に入[い]れる",
+     "vi": "cho vào thùng"
+    },
+    {
+     "jp": "冷蔵庫[れいぞうこ]に入[い]れる",
+     "vi": "cho vào tủ mát"
+    },
+    {
+     "jp": "氷[こおり]を入[い]れる",
+     "vi": "cho đá vào"
+    }
+   ],
    "confuse": [
     "v:入る:はいる"
-   ]
+   ],
+   "note": "Cho vật gì vào (có を). Còn tự mình đi vào là 入[はい]る."
   },
   {
    "id": "v:出す:だす",
@@ -293,6 +700,11 @@
    "hv": "XUẤT",
    "vi": "đưa ra, lấy ra; nộp; đổ (rác)",
    "pos": "v5",
+   "vt": "tha",
+   "pair": {
+    "w": "出[で]る",
+    "vi": "ra, đi ra (tự động từ)"
+   },
    "level": "N5",
    "topics": [
     "jlpt",
@@ -303,7 +715,32 @@
    "ex": [
     {
      "jp": "申請書[しんせいしょ]を窓口[まどぐち]に出[だ]します。",
-     "vi": "Nộp đơn ở quầy."
+     "vi": "Nộp đơn ở quầy.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "燃[も]えるゴミは月曜日[げつようび]に出[だ]します。",
+     "vi": "Rác cháy được đổ vào thứ Hai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]から魚[さかな]を出[だ]してください。",
+     "vi": "Hãy lấy cá ra khỏi kho đông.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ゴミを出[だ]す",
+     "vi": "đổ rác"
+    },
+    {
+     "jp": "書類[しょるい]を出[だ]す",
+     "vi": "nộp giấy tờ"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]から出[だ]す",
+     "vi": "lấy ra khỏi kho đông"
     }
    ]
   },
@@ -315,6 +752,7 @@
    "hv": "SỬ",
    "vi": "dùng, sử dụng",
    "pos": "v5",
+   "vt": "tha",
    "level": "N5",
    "topics": [
     "jlpt"
@@ -324,7 +762,39 @@
    "ex": [
     {
      "jp": "この包丁[ほうちょう]を使[つか]ってください。",
-     "vi": "Hãy dùng con dao này."
+     "vi": "Hãy dùng con dao này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "毎日[まいにち]自転車[じてんしゃ]を使[つか]います。",
+     "vi": "Ngày nào tôi cũng dùng xe đạp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この機械[きかい]の使[つか]い方[かた]を教[おし]えてください。",
+     "vi": "Xin chỉ tôi cách dùng máy này.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "包丁[ほうちょう]を使[つか]う",
+     "vi": "dùng dao"
+    },
+    {
+     "jp": "機械[きかい]を使[つか]う",
+     "vi": "dùng máy"
+    },
+    {
+     "jp": "携帯[けいたい]を使[つか]う",
+     "vi": "dùng điện thoại"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "この機械[きかい]は毎日[まいにち][[使[つか]われ]]ています。",
+     "vi": "Máy này được dùng hằng ngày."
     }
    ],
    "note": "Đuôi う: thể ない là 使[つか]わない."
@@ -347,7 +817,35 @@
    "ex": [
     {
      "jp": "動[うご]いている機械[きかい]に触[さわ]らないでください。",
-     "vi": "Đừng chạm vào máy đang chạy."
+     "vi": "Đừng chạm vào máy đang chạy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この絵[え]に触[さわ]らないでください。",
+     "vi": "Đừng chạm vào bức tranh này.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "生[なま]の魚[さかな]に触[さわ]った手[て]で、ドアを開[あ]けないでください。",
+     "vi": "Đừng mở cửa bằng tay vừa chạm vào cá sống.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "機械[きかい]に触[さわ]る",
+     "vi": "chạm vào máy"
+    },
+    {
+     "jp": "魚[さかな]に触[さわ]る",
+     "vi": "chạm vào cá"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "電車[でんしゃ]で知[し]らない人[ひと]に鞄[かばん]を[[触[さわ]られ]]ました。",
+     "vi": "Trên tàu tôi bị người lạ chạm vào túi."
     }
    ],
    "note": "Nhóm 1: 触[さわ]って, 触[さわ]らない."
@@ -360,6 +858,11 @@
    "hv": "QUY",
    "vi": "về (nhà, nước)",
    "pos": "v5",
+   "vt": "tu",
+   "pair": {
+    "w": "帰[かえ]す",
+    "vi": "cho về, trả về (tha động từ)"
+   },
    "level": "N5",
    "topics": [
     "jlpt"
@@ -369,7 +872,44 @@
    "ex": [
     {
      "jp": "六時[ろくじ]に家[いえ]に帰[かえ]ります。",
-     "vi": "Tôi về nhà lúc 6 giờ."
+     "vi": "Tôi về nhà lúc 6 giờ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今日[きょう]は残業[ざんぎょう]がないので、五時[ごじ]に帰[かえ]ります。",
+     "vi": "Hôm nay không tăng ca nên 5 giờ tôi về.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：もう帰[かえ]りますか。B：はい、お先[さき]に失礼[しつれい]します。",
+     "vi": "A: Anh về rồi à? B: Vâng, tôi xin phép về trước.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "家[いえ]に帰[かえ]る",
+     "vi": "về nhà"
+    },
+    {
+     "jp": "国[くに]に帰[かえ]る",
+     "vi": "về nước"
+    },
+    {
+     "jp": "早[はや]く帰[かえ]る",
+     "vi": "về sớm"
+    }
+   ],
+   "fx": [
+    {
+     "f": "kano",
+     "jp": "今日[きょう]は早[はや]く[[帰[かえ]れ]]ます。",
+     "vi": "Hôm nay tôi về sớm được."
+    },
+    {
+     "f": "shieki",
+     "jp": "熱[ねつ]があったので、班長[はんちょう]が早[はや]く[[帰[かえ]らせ]]てくれました。",
+     "vi": "Vì tôi bị sốt nên tổ trưởng cho tôi về sớm."
     }
    ],
    "note": "Nhóm 1 dù đuôi る: 帰[かえ]って, 帰[かえ]らない."
@@ -392,7 +932,28 @@
    "ex": [
     {
      "jp": "時間[じかん]がないので、急[いそ]いでください。",
-     "vi": "Không còn thời gian, hãy khẩn trương lên."
+     "vi": "Không còn thời gian, hãy khẩn trương lên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "電車[でんしゃ]に遅[おく]れるので、急[いそ]ぎましょう。",
+     "vi": "Sắp lỡ tàu rồi, nhanh lên nào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "急[いそ]いでも、安全[あんぜん]を確認[かくにん]してください。",
+     "vi": "Dù có vội cũng hãy xác nhận an toàn.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]を急[いそ]ぐ",
+     "vi": "làm gấp việc"
+    },
+    {
+     "jp": "駅[えき]へ急[いそ]ぐ",
+     "vi": "vội ra ga"
     }
    ],
    "note": "Đuôi ぐ → いで (có dấu ゛)."
@@ -405,6 +966,7 @@
    "hv": "THOẠI",
    "vi": "nói chuyện",
    "pos": "v5",
+   "vt": "tha",
    "level": "N5",
    "topics": [
     "jlpt"
@@ -414,7 +976,39 @@
    "ex": [
     {
      "jp": "もう少[すこ]しゆっくり話[はな]してください。",
-     "vi": "Xin hãy nói chậm hơn một chút."
+     "vi": "Xin hãy nói chậm hơn một chút.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "毎晩[まいばん]、家族[かぞく]と電話[でんわ]で話[はな]します。",
+     "vi": "Tối nào tôi cũng nói chuyện điện thoại với gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "困[こま]ったことがあったら、班長[はんちょう]に話[はな]してください。",
+     "vi": "Nếu có gì khó khăn, hãy nói với tổ trưởng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "日本語[にほんご]を話[はな]す",
+     "vi": "nói tiếng Nhật"
+    },
+    {
+     "jp": "班長[はんちょう]と話[はな]す",
+     "vi": "nói chuyện với tổ trưởng"
+    },
+    {
+     "jp": "ゆっくり話[はな]す",
+     "vi": "nói chậm"
+    }
+   ],
+   "fx": [
+    {
+     "f": "kano",
+     "jp": "日本語[にほんご]が少[すこ]し[[話[はな]せ]]ます。",
+     "vi": "Tôi nói được một chút tiếng Nhật."
     }
    ]
   },
@@ -426,6 +1020,11 @@
    "hv": "VĂN",
    "vi": "nghe; hỏi",
    "pos": "v5",
+   "vt": "tha",
+   "pair": {
+    "w": "聞[き]こえる",
+    "vi": "nghe thấy (tự động từ)"
+   },
    "level": "N5",
    "topics": [
     "jlpt",
@@ -436,9 +1035,45 @@
    "ex": [
     {
      "jp": "わからない時[とき]は、リーダーに聞[き]いてください。",
-     "vi": "Khi không hiểu, hãy hỏi tổ trưởng."
+     "vi": "Khi không hiểu, hãy hỏi tổ trưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "電車[でんしゃ]の中[なか]で音楽[おんがく]を聞[き]きます。",
+     "vi": "Tôi nghe nhạc trên tàu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "窓口[まどぐち]で必要[ひつよう]な書類[しょるい]を聞[き]きました。",
+     "vi": "Tôi đã hỏi ở quầy về các giấy tờ cần thiết.",
+     "ctx": "thutuc"
     }
-   ]
+   ],
+   "coll": [
+    {
+     "jp": "音楽[おんがく]を聞[き]く",
+     "vi": "nghe nhạc"
+    },
+    {
+     "jp": "班長[はんちょう]に聞[き]く",
+     "vi": "hỏi tổ trưởng"
+    },
+    {
+     "jp": "説明[せつめい]を聞[き]く",
+     "vi": "nghe giải thích"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "先輩[せんぱい]に国[くに]のことを[[聞[き]かれ]]ました。",
+     "vi": "Tôi được đàn anh hỏi về quê hương."
+    }
+   ],
+   "keigo": {
+    "ton": "お聞[き]きになる",
+    "khiem": "伺[うかが]う"
+   }
   },
   {
    "id": "v:起きる:おきる",
@@ -448,6 +1083,11 @@
    "hv": "KHỞI",
    "vi": "thức dậy",
    "pos": "v1",
+   "vt": "tu",
+   "pair": {
+    "w": "起[お]こす",
+    "vi": "đánh thức; gây ra (tha động từ)"
+   },
    "level": "N5",
    "topics": [
     "jlpt",
@@ -458,7 +1098,28 @@
    "ex": [
     {
      "jp": "毎朝[まいあさ]五時[ごじ]に起[お]きます。",
-     "vi": "Mỗi sáng tôi dậy lúc 5 giờ."
+     "vi": "Mỗi sáng tôi dậy lúc 5 giờ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "早番[はやばん]の日[ひ]は四時[よじ]に起[お]きます。",
+     "vi": "Hôm ca sớm tôi dậy lúc 4 giờ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日曜日[にちようび]は遅[おそ]く起[お]きます。",
+     "vi": "Chủ nhật tôi dậy muộn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "早[はや]く起[お]きる",
+     "vi": "dậy sớm"
+    },
+    {
+     "jp": "五時[ごじ]に起[お]きる",
+     "vi": "dậy lúc 5 giờ"
     }
    ]
   },
@@ -470,6 +1131,11 @@
    "hv": "TẨM",
    "vi": "ngủ, đi ngủ",
    "pos": "v1",
+   "vt": "tu",
+   "pair": {
+    "w": "寝[ね]かせる",
+    "vi": "cho ngủ, ru ngủ (tha động từ)"
+   },
    "level": "N5",
    "topics": [
     "jlpt",
@@ -480,9 +1146,33 @@
    "ex": [
     {
      "jp": "夜勤[やきん]の後[あと]は昼[ひる]に寝[ね]ます。",
-     "vi": "Sau ca đêm tôi ngủ ban ngày."
+     "vi": "Sau ca đêm tôi ngủ ban ngày.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "毎晩[まいばん]十一時[じゅういちじ]に寝[ね]ます。",
+     "vi": "Tối nào tôi cũng đi ngủ lúc 11 giờ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "疲[つか]れたので、今日[きょう]は早[はや]く寝[ね]ます。",
+     "vi": "Mệt rồi nên hôm nay tôi ngủ sớm.",
+     "ctx": "doisong"
     }
-   ]
+   ],
+   "coll": [
+    {
+     "jp": "早[はや]く寝[ね]る",
+     "vi": "ngủ sớm"
+    },
+    {
+     "jp": "十時[じゅうじ]に寝[ね]る",
+     "vi": "đi ngủ lúc 10 giờ"
+    }
+   ],
+   "keigo": {
+    "ton": "お休[やす]みになる"
+   }
   },
   {
    "id": "v:働く:はたらく",
@@ -492,6 +1182,7 @@
    "hv": "ĐỘNG",
    "vi": "làm việc",
    "pos": "v5",
+   "vt": "tu",
    "level": "N5",
    "topics": [
     "jlpt",
@@ -502,7 +1193,35 @@
    "ex": [
     {
      "jp": "私[わたし]は兵庫[ひょうご]の工場[こうじょう]で働[はたら]いています。",
-     "vi": "Tôi đang làm việc ở một xưởng tại Hyogo."
+     "vi": "Tôi đang làm việc ở một xưởng tại Hyogo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "兄[あに]はベトナムの会社[かいしゃ]で働[はたら]いています。",
+     "vi": "Anh trai tôi làm việc ở một công ty Việt Nam.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今[いま]の会社[かいしゃ]で何年[なんねん]働[はたら]いていますか。",
+     "vi": "Anh làm ở công ty hiện tại được mấy năm rồi?",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "工場[こうじょう]で働[はたら]く",
+     "vi": "làm việc ở xưởng"
+    },
+    {
+     "jp": "夜[よる]働[はたら]く",
+     "vi": "làm việc ban đêm"
+    }
+   ],
+   "fx": [
+    {
+     "f": "shiekiukemi",
+     "jp": "毎日[まいにち]遅[おそ]くまで[[働[はたら]かされ]]ています。",
+     "vi": "Ngày nào tôi cũng bị bắt làm tới khuya."
     }
    ]
   },
@@ -524,7 +1243,39 @@
    "ex": [
     {
      "jp": "熱[ねつ]があるので、今日[きょう]は休[やす]みます。",
-     "vi": "Tôi bị sốt nên hôm nay xin nghỉ."
+     "vi": "Tôi bị sốt nên hôm nay xin nghỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "疲[つか]れたら、少[すこ]し休[やす]みましょう。",
+     "vi": "Mệt thì nghỉ một chút nhé.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]を休[やす]む時[とき]は、朝[あさ]までに電話[でんわ]してください。",
+     "vi": "Khi nghỉ làm, hãy gọi điện trước buổi sáng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "会社[かいしゃ]を休[やす]む",
+     "vi": "nghỉ làm"
+    },
+    {
+     "jp": "少[すこ]し休[やす]む",
+     "vi": "nghỉ một chút"
+    },
+    {
+     "jp": "学校[がっこう]を休[やす]む",
+     "vi": "nghỉ học"
+    }
+   ],
+   "fx": [
+    {
+     "f": "shieki",
+     "jp": "熱[ねつ]があったので、課長[かちょう]が[[休[やす]ませ]]てくれました。",
+     "vi": "Vì tôi bị sốt nên trưởng phòng cho tôi nghỉ."
     }
    ],
    "note": "Đuôi む → んで: 休[やす]んで."
@@ -537,6 +1288,7 @@
    "hv": "TRÌ",
    "vi": "cầm, mang; có",
    "pos": "v5",
+   "vt": "tha",
    "level": "N5",
    "topics": [
     "jlpt",
@@ -547,7 +1299,39 @@
    "ex": [
     {
      "jp": "箱[はこ]は両手[りょうて]で持[も]ってください。",
-     "vi": "Hãy bê thùng bằng hai tay."
+     "vi": "Hãy bê thùng bằng hai tay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "在留[ざいりゅう]カードはいつも持[も]っていてください。",
+     "vi": "Hãy luôn mang theo thẻ cư trú.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "雨[あめ]が降[ふ]りそうなので、傘[かさ]を持[も]って行[い]きます。",
+     "vi": "Có vẻ sắp mưa nên tôi mang ô theo.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "箱[はこ]を持[も]つ",
+     "vi": "bê thùng"
+    },
+    {
+     "jp": "在留[ざいりゅう]カードを持[も]つ",
+     "vi": "mang thẻ cư trú"
+    },
+    {
+     "jp": "傘[かさ]を持[も]つ",
+     "vi": "mang ô"
+    }
+   ],
+   "fx": [
+    {
+     "f": "shiekiukemi",
+     "jp": "重[おも]い箱[はこ]を[[持[も]たされ]]ました。",
+     "vi": "Tôi bị bắt bê thùng nặng."
     }
    ]
   },
@@ -556,6 +1340,7 @@
    "kana": "する",
    "vi": "làm",
    "pos": "v3",
+   "vt": "tha",
    "level": "N5",
    "topics": [
     "jlpt"
@@ -565,9 +1350,45 @@
    "ex": [
     {
      "jp": "毎日[まいにち]掃除[そうじ]をします。",
-     "vi": "Ngày nào cũng dọn vệ sinh."
+     "vi": "Ngày nào cũng dọn vệ sinh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今日[きょう]は二時間[にじかん]残業[ざんぎょう]をします。",
+     "vi": "Hôm nay tôi tăng ca 2 tiếng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "引[ひ]っ越[こ]したら、住所[じゅうしょ]の変更[へんこう]をしてください。",
+     "vi": "Khi chuyển nhà, hãy làm thủ tục đổi địa chỉ.",
+     "ctx": "thutuc"
     }
    ],
+   "coll": [
+    {
+     "jp": "掃除[そうじ]をする",
+     "vi": "dọn dẹp"
+    },
+    {
+     "jp": "仕事[しごと]をする",
+     "vi": "làm việc"
+    },
+    {
+     "jp": "残業[ざんぎょう]をする",
+     "vi": "làm thêm giờ"
+    }
+   ],
+   "fx": [
+    {
+     "f": "shiekiukemi",
+     "jp": "毎日[まいにち]残業[ざんぎょう][[させられ]]ています。",
+     "vi": "Ngày nào tôi cũng bị bắt làm thêm giờ."
+    }
+   ],
+   "keigo": {
+    "ton": "なさる",
+    "khiem": "いたす"
+   },
    "note": "Nhóm 3: します, して, しない. Ghép sau danh từ: 確認[かくにん]する, 掃除[そうじ]する."
   }
  ]

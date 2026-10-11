@@ -138,19 +138,25 @@ data/packs/*.json                         các gói từ vựng / ngữ pháp / 
 icons/                                    biểu tượng app
 ```
 
-## 8. Các phần học (từ bản v4)
+## 8. Các phần học (bản v5)
 
-Thanh dưới cùng (điện thoại) hoặc cột trái (máy tính): **Trang chủ · Luyện từ · Chữ Hán · Ngữ pháp · Kho từ**. Dữ liệu và Cài đặt ở góc trên.
+Thanh dưới cùng (điện thoại) hoặc cột trái (máy tính): **Trang chủ · Luyện tập · Chữ Hán · Ngữ pháp · Kho từ**. Dữ liệu và Cài đặt ở góc trên.
 
-- **Trang chủ:** việc hôm nay (từ, chữ Hán, mẫu ngữ pháp đến hạn ôn), nút học từ mới, **Chữ Hán hôm nay** kèm câu lục bát, bảng tiến độ.
-- **Luyện từ:** Trắc nghiệm (Việt → Nhật, Nhật → Việt, đọc kanji, nghe) và Ghép 6 cặp. **Không còn giới hạn số từ mới mỗi ngày** — học bao nhiêu tùy Cậu Cả.
-- **Chữ Hán:**
-  - *Danh sách:* lưới các chữ có thẻ, tìm theo chữ / âm Hán Việt / nghĩa, lọc theo nhóm (Nhãn sản phẩm, Giấy tờ & thuế, Công xưởng, Thủy sản…) và cấp.
-  - *Thẻ chữ:* chữ to, âm Hán Việt, nghĩa, số nét, **câu lục bát nhớ mặt chữ**, bộ phận (chạm để mở thẻ bộ đó), âm On/Kun, các từ trong kho có chữ này, từ Hán Việt quen thuộc, chữ dễ nhầm.
-  - **Chạm vào chữ kanji bất kỳ** trong app (câu ví dụ, giải thích ngữ pháp, thẻ từ) là mở thẻ chữ đó. Thẻ từ vựng có dải **Chữ Hán trong từ** để mở nhanh từng chữ.
-  - *Ôn chữ Hán:* chữ → âm Hán Việt và nghĩa, âm Hán Việt → chữ. Đây là phần kiểm tra Hán nên chữ Hán không có furigana.
-- **Ngữ pháp:**
-  - *Bài học:* mỗi mẫu có giải thích, 10 ví dụ, nút **Luyện mẫu này**.
-  - *Luyện tập:* Điền chỗ trống · Chia động từ · Sắp xếp câu · Câu ★ kiểu JLPT · Tìm chỗ sai · Chọn cách nói hợp hoàn cảnh · Ghép câu Việt → Nhật · Nghe → chọn (cần giọng đọc, mục 5) · Đổi lối nói (nói tắt, Kansai → chuẩn) · Trộn. Câu sai được hỏi lại một lần trong lượt.
-  - *Thi thử:* đề ngắn kiểu phần Kiến thức ngôn ngữ của JLPT theo cấp, tính giờ 45 giây mỗi câu, làm xong mới xem đáp án và điểm từng phần.
-- **Furigana:** mọi chữ kanji đều có furigana, trừ phần học và kiểm tra Hán (thẻ chữ, Ôn chữ Hán, câu hỏi đọc kanji, ghép Chữ mềm/cứng – Kanji).
+- **Trang chủ:** nút **Ôn hỗn hợp hôm nay** gom mọi thứ đến hạn ôn (từ, chữ Hán, mẫu ngữ pháp, thể động từ) vào một lượt; từng loại riêng vẫn có nút ở dưới. Nút học từ mới, **Chữ Hán hôm nay** kèm câu lục bát, bảng tiến độ.
+- **Học từ mới:** xem thẻ từng từ rồi bấm **Đã học** (sang từ tiếp, ôn lần đầu vào ngày mai), **Biết rồi** (từ đã biết, tính là thuộc) hoặc **Để sau**. Không kiểm tra ngay. Nút ← (hoặc vuốt sang phải) để lật lại thẻ trước. Cuối lượt có nút "Kiểm tra nhanh" nếu muốn — không ảnh hưởng lịch ôn. Không giới hạn số từ mỗi ngày.
+- **Thẻ từ:** thể ます đứng cạnh thể từ điển; cụm hay đi kèm; 3–5 ví dụ có nhãn tình huống; đồng nghĩa, trái nghĩa, dễ nhầm, đồng âm, từ cùng gốc (chạm để mở); động từ có bảng chia thể kèm nghĩa (thể chưa học để trong mục thu gọn), cặp tự – tha, kính ngữ, câu theo thể; tính từ có bảng các dạng (không ~, đã ~, ~さ, ~そう, ~すぎる…); danh từ có cách đếm (bảng 1–10); phó từ có thang mức độ; câu chào có cách đáp; từ katakana có từ gốc.
+- **Luyện tập** (trang các dạng bài) — mặc định chỉ dùng **từ đã học**, đổi được sang Học hôm nay / 7 ngày qua / Đến hạn ôn / Gắn sao / Hay sai / Tất cả:
+  - Trắc nghiệm, Ghép 6 cặp (thêm kiểu: thể từ điển – thể ます, tự – tha, trái nghĩa, chữ Hán – âm Hán Việt).
+  - **Ghép câu từ ví dụ:** sắp xếp mảnh thành câu ví dụ của từ đã học.
+  - **Ghép câu theo ngữ pháp:** chọn mẫu, app ghép với cụm động từ đã học thành câu mới có câu dịch.
+  - **Thể động từ trong câu:** câu ngẫu nhiên ở các thể Cậu Cả đánh dấu đã học (bị động, sai khiến, sai khiến bị động, khả năng…). Chạm vào thể để bật / tắt — danh sách "thể đã học" đồng bộ sang mọi máy.
+  - **Tính từ trong câu**, **Chia động từ**, **Đếm số** (trợ số từ có âm biến), Bài tập ngữ pháp, Thi thử.
+- **Thi thử:** chọn đáp án rồi bấm **Tiếp tục** mới sang câu sau; nút ← để quay lại câu cũ đổi đáp án; **Để sau** để bỏ qua tạm; mục **Danh sách câu** để nhảy tới câu bất kỳ. Câu cuối là nút **Nộp bài** (còn câu chưa làm thì app hỏi lại). Kết quả hiện cả đáp án Cậu Cả đã chọn.
+- **Chữ Hán:** chạm vào chữ kanji bất kỳ để mở thẻ chữ (câu lục bát, bộ phận, âm On/Kun…); tab Ôn chữ Hán.
+- **Furigana:** mọi chữ kanji đều có furigana, trừ phần học và kiểm tra Hán (thẻ chữ, Ôn chữ Hán, câu hỏi đọc kanji, ghép kana – kanji, bài Đếm số).
+
+## 9. Gói nhập tay và gói trên kho trùng tên
+
+Nếu cùng một gói vừa nhập tay trong app (Dữ liệu → Nhập gói) vừa có trên kho GitHub, app dùng bản có **số phiên bản cao hơn**; bằng nhau thì dùng bản nhập tay. Một từ có ở hai gói khác tên thì bản trên kho được dùng. Trang Dữ liệu liệt kê các gói đang bị bỏ qua và có nút **Xoá các gói nhập tay đã có trên kho**.
+
+Khi skill giao gói mới: luôn thay **cả file `data/manifest.json`** bằng file skill giao (file có mã kiểm tra nội dung từng gói, nhờ vậy máy nào cũng tải đúng bản mới). Không dán thêm dòng vào manifest cũ.

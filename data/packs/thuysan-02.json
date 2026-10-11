@@ -8,7 +8,7 @@
   "topics": [
    "thuysan"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-08",
   "verified_on": "",
   "note": "Gói mẫu. Từ chuyên ngành chế biến không gia nhiệt (生食用[せいしょくよう]); cấp ước lượng."
@@ -30,12 +30,19 @@
    "ex": [
     {
      "jp": "冷凍[れいとう]マグロを流水[りゅうすい]で解凍[かいとう]します。",
-     "vi": "Rã đông cá ngừ đông lạnh bằng nước chảy."
+     "vi": "Rã đông cá ngừ đông lạnh bằng nước chảy.",
+     "ctx": "xuong"
     }
    ],
    "confuse": [
     "v:冷凍:れいとう",
     "v:冷蔵:れいぞう"
+   ],
+   "coll": [
+    {
+     "jp": "流水[りゅうすい]で解凍[かいとう]する",
+     "vi": "rã đông bằng nước chảy"
+    }
    ]
   },
   {
@@ -54,12 +61,19 @@
    "ex": [
     {
      "jp": "サーモンを急速[きゅうそく]冷凍[れいとう]します。",
-     "vi": "Cấp đông nhanh cá hồi."
+     "vi": "Cấp đông nhanh cá hồi.",
+     "ctx": "xuong"
     }
    ],
    "confuse": [
     "v:冷蔵:れいぞう",
     "v:解凍:かいとう"
+   ],
+   "coll": [
+    {
+     "jp": "魚[さかな]を冷凍[れいとう]する",
+     "vi": "cấp đông cá"
+    }
    ]
   },
   {
@@ -78,12 +92,19 @@
    "ex": [
     {
      "jp": "刺身[さしみ]は冷蔵[れいぞう]で保存[ほぞん]します。",
-     "vi": "Sashimi bảo quản ở ngăn mát."
+     "vi": "Sashimi bảo quản ở ngăn mát.",
+     "ctx": "xuong"
     }
    ],
    "confuse": [
     "v:冷凍:れいとう",
     "v:解凍:かいとう"
+   ],
+   "coll": [
+    {
+     "jp": "冷蔵[れいぞう]で保存[ほぞん]する",
+     "vi": "bảo quản mát"
+    }
    ]
   },
   {
@@ -163,9 +184,11 @@
    "ex": [
     {
      "jp": "柵[さく]を真空[しんくう]パックにします。",
-     "vi": "Hút chân không miếng thăn cá."
+     "vi": "Hút chân không miếng thăn cá.",
+     "ctx": "xuong"
     }
-   ]
+   ],
+   "goc": "パック ← pack (tiếng Anh)"
   },
   {
    "id": "v:盛り付け:もりつけ",
@@ -286,8 +309,12 @@
    "ex": [
     {
      "jp": "全部[ぜんぶ]の製品[せいひん]を金属[きんぞく]探知機[たんちき]に通[とお]します。",
-     "vi": "Cho mọi sản phẩm qua máy dò kim loại."
+     "vi": "Cho mọi sản phẩm qua máy dò kim loại.",
+     "ctx": "xuong"
     }
+   ],
+   "ctr": [
+    "台"
    ]
   },
   {
@@ -307,10 +334,17 @@
    "ex": [
     {
      "jp": "作業[さぎょう]の前[まえ]に手[て]洗[あら]いをします。",
-     "vi": "Rửa tay trước khi làm việc."
+     "vi": "Rửa tay trước khi làm việc.",
+     "ctx": "xuong"
     }
    ],
-   "note": "お手洗[てあら]い lại có nghĩa là nhà vệ sinh."
+   "note": "お手洗[てあら]い lại có nghĩa là nhà vệ sinh.",
+   "coll": [
+    {
+     "jp": "手洗[てあら]いをする",
+     "vi": "rửa tay"
+    }
+   ]
   },
   {
    "id": "v:消毒:しょうどく",
@@ -328,7 +362,14 @@
    "ex": [
     {
      "jp": "まな板[いた]をアルコールで消毒[しょうどく]します。",
-     "vi": "Khử trùng thớt bằng cồn."
+     "vi": "Khử trùng thớt bằng cồn.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "アルコールで消毒[しょうどく]する",
+     "vi": "khử trùng bằng cồn"
     }
    ]
   },
@@ -348,7 +389,14 @@
    "ex": [
     {
      "jp": "温度[おんど]管理[かんり]の記録[きろく]をつけます。",
-     "vi": "Ghi sổ quản lý nhiệt độ."
+     "vi": "Ghi sổ quản lý nhiệt độ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "温度管理[おんどかんり]をする",
+     "vi": "quản lý nhiệt độ"
     }
    ]
   },
@@ -428,7 +476,18 @@
    "ex": [
     {
      "jp": "破[やぶ]れた手袋[てぶくろ]はすぐ交換[こうかん]します。",
-     "vi": "Găng tay rách thì thay ngay."
+     "vi": "Găng tay rách thì thay ngay.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手袋[てぶくろ]をする",
+     "vi": "đeo găng tay"
+    },
+    {
+     "jp": "手袋[てぶくろ]を外[はず]す",
+     "vi": "tháo găng tay"
     }
    ]
   },
@@ -448,7 +507,17 @@
    "ex": [
     {
      "jp": "長靴[ながぐつ]の底[そこ]を消毒[しょうどく]します。",
-     "vi": "Khử trùng đế ủng."
+     "vi": "Khử trùng đế ủng.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": [
+    "足"
+   ],
+   "coll": [
+    {
+     "jp": "長靴[ながぐつ]を履[は]く",
+     "vi": "đi ủng"
     }
    ]
   },
@@ -468,7 +537,14 @@
    "ex": [
     {
      "jp": "髪[かみ]の毛[け]が出[で]ないように帽子[ぼうし]をかぶります。",
-     "vi": "Đội mũ sao cho tóc không lòi ra."
+     "vi": "Đội mũ sao cho tóc không lòi ra.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "帽子[ぼうし]をかぶる",
+     "vi": "đội mũ"
     }
    ]
   },
@@ -488,7 +564,17 @@
    "ex": [
     {
      "jp": "包丁[ほうちょう]を使[つか]った後[あと]は洗[あら]って消毒[しょうどく]します。",
-     "vi": "Dùng dao xong thì rửa và khử trùng."
+     "vi": "Dùng dao xong thì rửa và khử trùng.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": [
+    "本"
+   ],
+   "coll": [
+    {
+     "jp": "包丁[ほうちょう]を研[と]ぐ",
+     "vi": "mài dao"
     }
    ]
   },
@@ -509,7 +595,17 @@
    "ex": [
     {
      "jp": "まな板[いた]は魚[さかな]用[よう]と野菜[やさい]用[よう]を分[わ]けます。",
-     "vi": "Thớt dùng riêng cho cá và cho rau."
+     "vi": "Thớt dùng riêng cho cá và cho rau.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": [
+    "枚"
+   ],
+   "coll": [
+    {
+     "jp": "まな板[いた]を消毒[しょうどく]する",
+     "vi": "khử trùng thớt"
     }
    ]
   },
@@ -529,9 +625,14 @@
    "ex": [
     {
      "jp": "ピンセットで小[ちい]さい骨[ほね]を抜[ぬ]きます。",
-     "vi": "Nhổ xương nhỏ bằng nhíp."
+     "vi": "Nhổ xương nhỏ bằng nhíp.",
+     "ctx": "xuong"
     }
-   ]
+   ],
+   "ctr": [
+    "本"
+   ],
+   "goc": "pincet (tiếng Hà Lan: cái nhíp)"
   },
   {
    "id": "v:消費期限:しょうひきげん",
@@ -668,10 +769,12 @@
    "ex": [
     {
      "jp": "アニサキスがいないか、目[め]で確認[かくにん]します。",
-     "vi": "Kiểm tra bằng mắt xem có giun anisakis không."
+     "vi": "Kiểm tra bằng mắt xem có giun anisakis không.",
+     "ctx": "xuong"
     }
    ],
-   "note": "Ký sinh trùng hay gặp ở cá thu, cá hồi tự nhiên, mực… Ăn sống phải gây đau bụng dữ dội."
+   "note": "Ký sinh trùng hay gặp ở cá thu, cá hồi tự nhiên, mực… Ăn sống phải gây đau bụng dữ dội.",
+   "goc": "Anisakis (tên khoa học của giun ký sinh)"
   }
  ]
 }

@@ -1,7 +1,8 @@
-import { esc, wordHTML, wordKey, normVi, shuffle, beep, buzz, icon, toast } from './util.js';
+import { esc, wordHTML, wordKey, normVi, shuffle, beep, buzz, icon, toast, startOfDay, DAY } from './util.js';
 import { D, LEVELS, TOPICS } from './data.js';
 import { S } from './settings.js';
-import { review, status, dueDirs, errCount, isStar, toggleStar, stats, progDir } from './srs.js';
+import { review, status, dueDirs, errCount, isStar, toggleStar, stats, progDir, learnedSince } from './srs.js';
+import { runLearn, learnCardHTML, learnBarHTML, applyDecision } from './learn.js';
 import { speak, ttsReady } from './tts.js';
 import { chips, bindChips, readChip, readChips, bindSay, sayBtn, wordDetailHTML, topicOpts, emptyState, wtabs } from './ui.js';
 import { kvGet, kvSet } from './db.js';
@@ -23,6 +24,9 @@ export function selectItems({ levels = [], topics = [], source = 'all', needKanj
     pool = pool.filter(it => status(it) === 'new');
     pool.sort((a, b) => LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level));
   }
+  else if (source === 'learned') pool = pool.filter(it => status(it) !== 'new');
+  else if (source === 'today') pool = pool.filter(it => learnedSince(it, startOfDay()));
+  else if (source === 'week') pool = pool.filter(it => learnedSince(it, startOfDay() - 6 * DAY));
   else if (source === 'wrong') pool = pool.filter(it => errCount(it) > 0).sort((a, b) => errCount(b) - errCount(a));
   else if (source === 'star') pool = pool.filter(it => isStar(it.id));
   return pool;
@@ -51,6 +55,14 @@ export function buildQuestions(o) {
   }
   qs = qs.slice(0, o.count);
   return o.source === 'new' ? qs : shuffle(qs);
+}
+
+// Nguồn từ dùng chung cho các trang luyện tập (F1)
+export const SOURCES = [['learned', 'Từ đã học'], ['today', 'Học hôm nay'], ['week', '7 ngày qua'], ['due', 'Đến hạn ôn'], ['star', 'Gắn sao'], ['wrong', 'Hay sai'], ['all', 'Tất cả']];
+export function sourceCounts(filter = () => true) {
+  const c = {};
+  for (const [k] of SOURCES) c[k] = selectItems({ source: k }).filter(filter).length;
+  return c;
 }
 
 // ---------- đáp án & nhiễu ----------
@@ -95,11 +107,11 @@ export async function renderQuizSetup(view, ctx) {
   if (!D.vocab.length) { view.innerHTML = emptyState('Chưa có từ vựng nào. Vào Dữ liệu để nhập gói từ.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
   const st = stats(D.vocab);
   view.innerHTML = `
-    <h1 class="h1">Luyện từ</h1>${wtabs('quiz')}
+    <h1 class="h1">Luyện tập</h1>${wtabs('quiz')}
     <form class="setup" onsubmit="return false">
-      <fieldset><legend>Kiểu câu hỏi</legend>${chips('dir', DIRS, o.dir, false)}</fieldset>
-      <fieldset><legend>Hiển thị chữ Nhật</legend>${chips('script', SCRIPTS, o.script, false)}</fieldset>
-      <fieldset><legend>Lấy từ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['new', 'Từ mới', st.new], ['wrong', 'Hay sai'], ['star', 'Gắn sao'], ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
+      <fieldset class="f-q"><legend>Kiểu câu hỏi</legend>${chips('dir', DIRS, o.dir, false)}</fieldset>
+      <fieldset class="f-q"><legend>Hiển thị chữ Nhật</legend>${chips('script', SCRIPTS, o.script, false)}</fieldset>
+      <fieldset><legend>Lấy từ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['learned', 'Từ đã học', st.total - st.new], ['today', 'Học hôm nay'], ['week', '7 ngày qua'], ['new', 'Học từ mới', st.new], ['wrong', 'Hay sai'], ['star', 'Gắn sao'], ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
       <fieldset><legend>Cấp độ <small>(không chọn = tất cả)</small></legend>${chips('levels', LEVELS.map(l => [l, l]), o.levels)}</fieldset>
       <fieldset><legend>Chủ đề <small>(không chọn = tất cả)</small></legend>${chips('topics', topicOpts(), o.topics)}</fieldset>
       <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30, 50].map(n => [String(n), String(n)]), String(o.count), false)}</fieldset>
@@ -116,17 +128,20 @@ export async function renderQuizSetup(view, ctx) {
     const n = buildQuestions({ ...x, count: 9999 }).length;
     const p = form.querySelector('.setup-count');
     let msg = n ? `Có ${n} câu phù hợp.` : 'Không có từ nào khớp lựa chọn này.';
-    if (x.source === 'new' && !n) msg = 'Đã học hết từ mới trong kho (theo bộ lọc đang chọn). Nhập thêm gói từ ở trang Dữ liệu.';
+    if (x.source === 'new') msg = n ? `Có ${n} từ chưa học. Học từ mới là xem thẻ rồi bấm "Đã học" — không kiểm tra ngay.` : 'Đã học hết từ mới trong kho (theo bộ lọc đang chọn). Nhập thêm gói từ ở trang Dữ liệu.';
     if (x.source === 'due' && !n) msg = 'Không có từ nào đến hạn ôn. Chọn "Từ mới" để học thêm.';
     if (x.dir === 'au' && !ttsReady()) msg = 'Máy chưa có giọng đọc tiếng Nhật — chưa dùng được kiểu Nghe. Xem Cài đặt.';
     p.textContent = msg;
-    form.querySelector('[data-act=start]').disabled = !n || (x.dir === 'au' && !ttsReady());
+    form.querySelector('[data-act=start]').disabled = !n || (x.dir === 'au' && !ttsReady() && x.source !== 'new');
+    form.querySelector('[data-act=start]').textContent = x.source === 'new' ? 'Học từ mới' : 'Bắt đầu';
+    form.querySelectorAll('.f-q').forEach(f => { f.hidden = x.source === 'new'; });
   };
   bindChips(form, upd);
   upd();
   form.querySelector('[data-act=start]').onclick = async () => {
     const x = read();
     await kvSet('quizSetup', x);
+    if (x.source === 'new') return runLearn(view, selectItems(x).slice(0, x.count), ctx, { again: () => ctx.go('#/moi', true) });
     runQuiz(view, buildQuestions(x), x, ctx);
   };
 }
@@ -159,19 +174,13 @@ export function runQuiz(view, qs, o, ctx) {
 
   function intro(q) {
     const it = q.it;
-    view.innerHTML = `<div class="run">${head()}
-      <article class="label-card is-intro">
-        <div class="label-head"><span class="label-tag">Từ mới</span><span class="label-lv">${esc(it.level)}</span></div>
-        ${wordDetailHTML(it)}
-      </article>
-      <button class="btn btn-primary btn-block" data-act="go">Đã xem, kiểm tra ngay</button></div>`;
+    view.innerHTML = `<div class="run">${head()}${learnCardHTML(it)}${learnBarHTML(false)}</div>`;
     bindSay(view);
     view.querySelector('[data-act=quit]').onclick = quit;
-    const go = () => { st.seen.add(it.id); ask(q); };
-    view.querySelector('[data-act=go]').onclick = go;
-    view.querySelector('[data-act=go]').focus();
+    const go = async dec => { st.seen.add(it.id); await applyDecision(it, dec); st.learned = (st.learned || 0) + 1; next(); };
+    view.querySelector('.learn-bar').onclick = e => { const b = e.target.closest('[data-l]'); if (b) go(b.dataset.l); };
     if (S.autoSpeak) speak(it.kana);
-    setKeys(e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
+    setKeys(e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go('learned'); } });
   }
 
   function ask(q) {
@@ -215,7 +224,7 @@ export function runQuiz(view, qs, o, ctx) {
     if (!ok && S.vibrate) buzz();
     if (!q.again) {
       if (ok) st.score++; else st.wrong.push(q.it);
-      review(q.it.id, q.dir, ok);
+      if (!o.noReview) review(q.it.id, q.dir, ok);
       if (!ok && !st.again.has(q.it.id)) {
         st.again.add(q.it.id);
         st.qs.splice(Math.min(st.i + 4, st.qs.length), 0, { ...q, again: true });
@@ -241,7 +250,7 @@ export function runQuiz(view, qs, o, ctx) {
 
   function finish(early = false) {
     setKeys(null);
-    const answered = early ? st.score + st.wrong.length : st.total;
+    const answered = early || st.learned ? st.score + st.wrong.length : st.total;
     const wrongU = [...new Map(st.wrong.map(it => [it.id, it])).values()];
     view.innerHTML = `<section class="result">
       <h1 class="h1">${early ? 'Đã dừng lượt' : 'Xong lượt'}</h1>

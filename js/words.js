@@ -146,7 +146,7 @@ export function renderWordForm(view, ctx, editId) {
     const rec = {
       ...(it ? Object.fromEntries(Object.entries(it).filter(([k]) => !k.startsWith('_'))) : {}),
       id, kana, kanji, hv: val('hv').toUpperCase(), vi: val('vi'), pos: f.elements.pos.value, level: f.elements.level.value,
-      topics, reg: f.elements.reg.value, ex: exjp ? [{ jp: exjp, vi: val('exvi') }, ...((it?.ex || []).slice(1))] : (it?.ex || []).slice(1),
+      topics, reg: f.elements.reg.value, ex: exjp ? [{ jp: exjp, vi: val('exvi'), ...(it?.ex?.[0]?.ctx ? { ctx: it.ex[0].ctx } : {}) }, ...((it?.ex || []).slice(1))] : (it?.ex || []).slice(1),
       _pack: it?._pack || 'tu-them',
     };
     for (const k of ['kf', 'sub', 'std', 'note']) { const x = val(k); if (x) rec[k] = x; else delete rec[k]; }

@@ -52,6 +52,8 @@ export async function renderData(view, ctx, opts = {}) {
   const off = new Set(D.disabled.list);
   const reps = activeReports();
   const mine = [...D.user.values()].filter(u => !u._del);
+  const builtinIds = new Set(D.builtin.map(p => p.id));
+  const dupImp = D.imported.filter(p => builtinIds.has(p.id));
   const packRow = p => `<li class="pack">
       <label class="switch"><input type="checkbox" data-pack="${esc(p.id)}" ${off.has(p.id) ? '' : 'checked'}><span></span></label>
       <div class="pack-t"><b>${rich(p.title)}</b><span class="muted small">${TYPE[p.type] || p.type}, ${p.count} mục, ${esc(p.level)}${p.src === 'imported' ? ', nhập tay' : ''}</span></div>
@@ -95,6 +97,10 @@ export async function renderData(view, ctx, opts = {}) {
       <h2 class="h2">Gói dữ liệu</h2>
       <p class="muted small">Tắt gói nào thì gói đó không xuất hiện khi học. Tiến độ vẫn giữ.</p>
       <ul class="packs">${D.packs.map(packRow).join('') || '<li class="muted">Chưa có gói nào.</li>'}</ul>
+      ${D.shadow.length ? `<h3 class="h3">Gói trùng tên đang được bỏ qua</h3>
+        <p class="muted small">Cùng một gói vừa có trên kho vừa được nhập tay: app dùng bản có số phiên bản cao hơn (bằng nhau thì dùng bản nhập tay).</p>
+        <ul class="packs shadow">${D.shadow.map(p => `<li class="pack"><div class="pack-t"><b>${rich(p.title)}</b><span class="muted small">${p.src === 'imported' ? 'bản nhập tay' : 'bản trên kho'} v${p.version} — đang dùng ${p.by.src === 'imported' ? 'bản nhập tay' : 'bản trên kho'} v${p.by.version}</span></div>${p.src === 'imported' ? `<button class="btn btn-ghost btn-sm btn-danger" data-rm="${esc(p.id)}">Xoá</button>` : ''}</li>`).join('')}</ul>` : ''}
+      ${dupImp.length ? `<div class="row-btns"><button class="btn btn-ghost btn-sm" data-act="rmdup">Xoá ${dupImp.length} gói nhập tay đã có trên kho</button></div>` : ''}
       ${D.errors.length ? `<div class="warn">${D.errors.map(esc).join('<br>')}</div>` : ''}
     </section>
 
@@ -130,7 +136,12 @@ export async function renderData(view, ctx, opts = {}) {
     await setPackEnabled(c.dataset.pack, c.checked);
     toast(c.checked ? 'Đã bật gói.' : 'Đã tắt gói.');
   });
-  view.querySelector('.packs').addEventListener('click', async e => {
+  view.querySelector('[data-act=rmdup]')?.addEventListener('click', async () => {
+    if (!(await confirmBox(`Xoá ${dupImp.length} gói nhập tay đã có trên kho? App sẽ dùng bản trên kho. Tiến độ học giữ nguyên.`, 'Xoá'))) return;
+    for (const p of dupImp) await removeImported(p.id);
+    toast('Đã xoá.'); ctx.sessionDone?.(); renderData(view, ctx);
+  });
+  view.querySelector('.card .packs')?.parentElement.addEventListener('click', async e => {
     const b = e.target.closest('[data-rm]'); if (!b) return;
     if (!(await confirmBox('Xoá gói nhập tay này khỏi máy? Tiến độ học các từ vẫn giữ.', 'Xoá gói'))) return;
     await removeImported(b.dataset.rm); toast('Đã xoá gói.'); renderData(view, ctx);
@@ -175,7 +186,7 @@ export async function renderData(view, ctx, opts = {}) {
       app: 'tiengnhat', kind: 'gui-skill', created: new Date().toISOString(),
       reports: reps.map(([id, r]) => ({ id, note: r.note, item: D.items.get(id) || null })),
       userItems: mine,
-      packs: D.packs.map(p => ({ id: p.id, title: p.title, type: p.type, version: p.version, src: p.src })),
+      packs: [...D.packs, ...D.shadow].map(p => ({ id: p.id, title: p.title, type: p.type, version: p.version, src: p.src })),
       items: [...D.items.keys()].map(id => ({ id })),
       kanjiMissing: missingKanji(),
     };

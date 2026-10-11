@@ -1,4 +1,5 @@
-import { esc, wordHTML, normVi, shuffle, beep, buzz, icon } from './util.js';
+import { esc, wordHTML, normVi, shuffle, beep, buzz, icon, rich, plain } from './util.js';
+import { verbInfo, conjugate } from './conj.js';
 import { D, LEVELS } from './data.js';
 import { S } from './settings.js';
 import { review, stats } from './srs.js';
@@ -6,10 +7,35 @@ import { chips, bindChips, readChip, readChips, topicOpts, emptyState, wtabs } f
 import { selectItems } from './quiz.js';
 import { kvGet, kvSet } from './db.js';
 
-export const PAIR_TYPES = [['vi-kana', 'Việt – chữ mềm/cứng'], ['vi-kanji', 'Việt – Kanji'], ['kana-kanji', 'Chữ mềm/cứng – Kanji (không furigana)']];
+export const PAIR_TYPES = [['vi-kana', 'Việt – chữ mềm/cứng'], ['vi-kanji', 'Việt – Kanji'], ['kana-kanji', 'Chữ mềm/cứng – Kanji (không furigana)'],
+  ['ru-masu', 'Thể từ điển – thể ます'], ['tu-tha', 'Tự động từ – tha động từ'], ['trai-nghia', 'Trái nghĩa'], ['chu-hv', 'Chữ Hán – âm Hán Việt (không furigana)']];
+const VOCAB_TYPES = ['vi-kana', 'vi-kanji', 'kana-kanji'];
+// Một vế của cặp tham chiếu tới từ khác: mã trong kho hoặc {w, vi}
+const refSide = r => {
+  if (r && typeof r === 'object') return r.w ? { k: plain(r.w), h: rich(r.w), jp: 1 } : null;
+  const o = D.items.get(r);
+  return o ? { k: o.kanji || o.kana, h: wordHTML(o, 'furi'), jp: 1 } : null;
+};
+// Cặp kiểu mới: dựng sẵn hai vế từ dữ liệu
+function extraPairs(type, base) {
+  const out = [];
+  if (type === 'ru-masu') for (const it of base) { if (!['v1', 'v5', 'v3'].includes(it.pos)) continue; const v = verbInfo(it), m = v && conjugate(v, 'masu'); if (m) out.push({ id: it.id, L: { k: plain(v.dict), h: rich(v.dict), jp: 1 }, R: { k: plain(m.mark), h: rich(m.mark), jp: 1 } }); }
+  if (type === 'tu-tha') for (const it of base) {
+    if (it.vt !== 'tu' || !it.pair) continue;
+    const r = refSide(it.pair); if (r) out.push({ id: it.id, L: { k: it.kanji || it.kana, h: wordHTML(it, 'furi'), jp: 1 }, R: r });
+  }
+  if (type === 'trai-nghia') for (const it of base) {
+    const r = (it.ant || []).map(refSide).find(Boolean); if (r) out.push({ id: it.id, L: { k: it.kanji || it.kana, h: wordHTML(it, 'furi'), jp: 1 }, R: r });
+  }
+  if (type === 'chu-hv') for (const k of D.kanji) out.push({ id: k.id, L: { k: k.char, h: esc(k.char), jp: 1, bare: 1 }, R: { k: k.hv, h: `<b>${esc(k.hv)}</b> <small>${esc(k.nghia || '')}</small>` } });
+  // bỏ cặp trùng (A–B và B–A)
+  const seen = new Set();
+  return out.filter(p => { const key = [p.L.k, p.R.k].sort().join('|'); if (seen.has(key)) return false; seen.add(key); return true; });
+}
 const PER = 6;
 
 function sides(it, type) {
+  if (it.L) return [it.L, it.R];
   if (type === 'vi-kana') return [{ k: normVi(it.vi), h: esc(it.vi) }, { k: it.kana, h: esc(it.kana), jp: 1 }];
   // Việt – Kanji: kanji có furigana. Chữ mềm/cứng – Kanji là bài luyện đọc kanji nên kanji để trần.
   if (type === 'vi-kanji') return [{ k: normVi(it.vi), h: esc(it.vi) }, { k: it.kanji || it.kana, h: wordHTML(it, 'furi'), jp: 1 }];
@@ -35,14 +61,14 @@ export function buildRounds(pool, type, rounds) {
 }
 
 export async function renderMatchSetup(view, ctx) {
-  const o = { type: 'vi-kana', source: 'due', levels: [], topics: [], rounds: S.matchRounds, ...(await kvGet('matchSetup', {})) };
+  const o = { type: 'vi-kana', source: 'learned', levels: [], topics: [], rounds: S.matchRounds, ...(await kvGet('matchSetup', {})) };
   if (!D.vocab.length) { view.innerHTML = emptyState('Chưa có từ vựng nào. Vào Dữ liệu để nhập gói từ.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
   const st = stats(D.vocab);
   view.innerHTML = `
-    <h1 class="h1">Luyện từ</h1>${wtabs('match')}
+    <h1 class="h1">Luyện tập</h1>${wtabs('match')}
     <form class="setup" onsubmit="return false">
       <fieldset><legend>Kiểu ghép</legend>${chips('type', PAIR_TYPES, o.type, false)}</fieldset>
-      <fieldset><legend>Lấy từ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['new', 'Từ mới', st.new], ['wrong', 'Hay sai'], ['star', 'Gắn sao'], ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
+      <fieldset><legend>Lấy từ nào</legend>${chips('source', [['learned', 'Từ đã học', st.total - st.new], ['today', 'Học hôm nay'], ['week', '7 ngày qua'], ['due', 'Đến hạn ôn', st.due], ['wrong', 'Hay sai'], ['star', 'Gắn sao'], ['all', 'Tất cả', st.total]], o.source === 'new' ? 'learned' : o.source, false)}</fieldset>
       <fieldset><legend>Cấp độ <small>(không chọn = tất cả)</small></legend>${chips('levels', LEVELS.map(l => [l, l]), o.levels)}</fieldset>
       <fieldset><legend>Chủ đề <small>(không chọn = tất cả)</small></legend>${chips('topics', topicOpts(), o.topics)}</fieldset>
       <fieldset><legend>Số màn</legend>${chips('rounds', [1, 2, 3, 4, 5].map(n => [String(n), String(n)]), String(o.rounds), false)}</fieldset>
@@ -51,13 +77,16 @@ export async function renderMatchSetup(view, ctx) {
     </form>`;
   const form = view.querySelector('.setup');
   const read = () => ({ type: readChip(form, 'type'), source: readChip(form, 'source'), levels: readChips(form, 'levels'), topics: readChips(form, 'topics'), rounds: +readChip(form, 'rounds') });
-  const pool = x => { const p = selectItems({ ...x, needKanji: x.type !== 'vi-kana' }); return x.source === 'new' ? p : shuffle(p); };
+  const pool = x => {
+    if (!VOCAB_TYPES.includes(x.type)) return shuffle(extraPairs(x.type, x.type === 'chu-hv' ? [] : selectItems({ ...x, source: x.source === 'due' ? 'all' : x.source })));
+    const p = selectItems({ ...x, needKanji: x.type !== 'vi-kana' }); return x.source === 'new' ? p : shuffle(p);
+  };
   const upd = () => {
     const x = read();
     const rs = buildRounds(pool(x), x.type, x.rounds);
     form.querySelector('.setup-count').textContent = rs.length
       ? `Đủ cho ${rs.length} màn (${rs.reduce((s, r) => s + r.length, 0)} từ).`
-      : 'Chưa đủ từ khớp lựa chọn này (cần ít nhất 3 từ). Thử chọn "Tất cả" hoặc bỏ bớt bộ lọc.';
+      : ({ 'tu-tha': 'Chưa đủ cặp tự – tha trong kho (cần dữ liệu cặp từ skill). Thử chọn "Tất cả".', 'trai-nghia': 'Chưa đủ cặp trái nghĩa trong kho (cần dữ liệu từ skill). Thử chọn "Tất cả".', 'chu-hv': 'Cần ít nhất 3 thẻ chữ Hán.' }[x.type] || 'Chưa đủ từ khớp lựa chọn này (cần ít nhất 3 từ). Thử chọn "Tất cả" hoặc bỏ bớt bộ lọc.');
     form.querySelector('[data-act=start]').disabled = !rs.length;
   };
   bindChips(form, upd); upd();
@@ -93,7 +122,7 @@ export function runMatch(view, rounds, type, ctx) {
   }
   function tile(it, side) {
     const s = sides(it, type)[side];
-    return `<button type="button" class="tile ${s.jp ? 'tile-jp' : ''}" data-id="${esc(it.id)}" data-side="${side ? 'R' : 'L'}" ${s.jp ? 'lang="ja"' : ''} ${type === 'kana-kanji' && side ? 'data-bare' : ''}>${s.h}</button>`;
+    return `<button type="button" class="tile ${s.jp ? 'tile-jp' : ''}" data-id="${esc(it.id)}" data-side="${side ? 'R' : 'L'}" ${s.jp ? 'lang="ja"' : ''} ${(type === 'kana-kanji' && side) || s.bare ? 'data-bare' : ''}>${s.h}</button>`;
   }
   function onTap(e) {
     const b = e.target.closest('.tile');
@@ -129,7 +158,7 @@ export function runMatch(view, rounds, type, ctx) {
     const played = early ? rounds.slice(0, r + 1).flat() : all;
     const dir = type === 'kana-kanji' ? 'kr' : 'jv';
     const finished = new Set(rounds.slice(0, r).flat().map(x => x.id)); // chỉ tính đúng cho màn đã xong
-    for (const it of played) {
+    for (const it of VOCAB_TYPES.includes(type) ? played : []) {
       if (wrong.has(it.id)) await review(it.id, dir, false);
       else if (finished.has(it.id)) await review(it.id, dir, true, { onlyIfDue: true });
     }
@@ -138,7 +167,7 @@ export function runMatch(view, rounds, type, ctx) {
       <h1 class="h1">${early ? 'Đã dừng' : 'Xong'}</h1>
       <p class="result-score"><b>${fmt(t0 ? Date.now() - t0 : 0)}</b></p>
       <p class="result-sub">${mistakes} lần ghép sai</p>
-      ${wl.length ? `<h2 class="h2">Từ ghép nhầm</h2><ul class="wlist">${wl.map(it => `<li><span lang="ja">${wordHTML(it, 'furi')}</span><span>${esc(it.vi)}</span></li>`).join('')}</ul>` : ''}
+      ${wl.length ? `<h2 class="h2">Cặp ghép nhầm</h2><ul class="wlist">${wl.map(it => it.L ? `<li><span lang="ja" ${it.L.bare ? 'data-bare' : ''}>${it.L.h}</span><span ${it.R.jp ? 'lang="ja"' : ''}>${it.R.h}</span></li>` : `<li><span lang="ja">${wordHTML(it, 'furi')}</span><span>${esc(it.vi)}</span></li>`).join('')}</ul>` : ''}
       <div class="row-btns stack">
         <button class="btn btn-primary" data-act="again">Chơi lượt mới</button>
         <a class="btn btn-ghost" href="#/">Về trang chủ</a>

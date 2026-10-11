@@ -1,11 +1,11 @@
 // Service worker: chạy offline.
 // Sửa bất kỳ file nào của app (html/css/js) thì TĂNG số phiên bản dưới đây để máy tải bản mới.
-const VERSION = 'tnt-v4';
+const VERSION = 'tnt-v5';
 const DATA = 'tnt-data';
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest', 'css/app.css',
   'js/app.js', 'js/util.js', 'js/db.js', 'js/settings.js', 'js/tts.js', 'js/data.js', 'js/srs.js', 'js/sync.js',
-  'js/vendor/qrcode.js', 'js/ui.js', 'js/drill.js', 'js/kanji.js', 'js/conj.js', 'js/gdrill.js', 'js/quiz.js', 'js/match.js', 'js/grammar.js', 'js/words.js', 'js/datapage.js', 'js/settingspage.js',
+  'js/vendor/qrcode.js', 'js/ui.js', 'js/wordx.js', 'js/adj.js', 'js/counters.js', 'js/learn.js', 'js/practice.js', 'js/drill.js', 'js/kanji.js', 'js/conj.js', 'js/gdrill.js', 'js/quiz.js', 'js/match.js', 'js/grammar.js', 'js/words.js', 'js/datapage.js', 'js/settingspage.js',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable.png',
 ];
 
@@ -29,7 +29,7 @@ self.addEventListener('fetch', e => {
   const url = new URL(req.url);
   if (url.origin !== location.origin) return; // GitHub API đi thẳng, không qua cache
   if (url.pathname.endsWith('/data/manifest.json')) return e.respondWith(networkFirst(req));
-  if (url.pathname.includes('/data/packs/')) return e.respondWith(cacheFirst(req, DATA, false));
+  if (url.pathname.includes('/data/packs/')) return e.respondWith(cacheFirst(req, DATA, false, true));
   if (req.mode === 'navigate') return e.respondWith(caches.match('index.html').then(r => r || fetch(req)));
   e.respondWith(cacheFirst(req, VERSION, true));
 });
@@ -48,11 +48,18 @@ async function networkFirst(req) {
   }
 }
 // Gói dữ liệu có ?v=<version> trong địa chỉ → đổi version là tải bản mới.
-async function cacheFirst(req, name, ignoreSearch) {
+// Gói dữ liệu: bản mới (địa chỉ có ?v=…) tải về xong thì xoá các bản cũ của cùng file khỏi bộ nhớ.
+async function cacheFirst(req, name, ignoreSearch, dropOld = false) {
   const cache = await caches.open(name);
   const hit = await cache.match(req, { ignoreSearch });
   if (hit) return hit;
   const res = await fetch(req);
-  if (res.ok) cache.put(req, res.clone());
+  if (res.ok) {
+    await cache.put(req, res.clone());
+    if (dropOld) {
+      const u = new URL(req.url);
+      for (const k of await cache.keys()) { const x = new URL(k.url); if (x.pathname === u.pathname && x.search !== u.search) cache.delete(k); }
+    }
+  }
   return res;
 }

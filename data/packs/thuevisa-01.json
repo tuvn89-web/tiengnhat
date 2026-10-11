@@ -8,7 +8,7 @@
   "topics": [
    "thuevisa"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-08",
   "verified_on": "2026-10-08",
   "note": "Gói mẫu. Thông tin thủ tục và lệ phí đúng tới ngày verified_on — tra lại trang 出入国在留管理庁[しゅつにゅうこくざいりゅうかんりちょう] và trang thành phố trước khi đi làm thủ tục. Kiến thức tham khảo, không thay tư vấn của công ty hay hành chính thư sĩ."
@@ -524,10 +524,13 @@
    "ex": [
     {
      "jp": "コンビニでマイナンバーカードを使[つか]って証明書[しょうめいしょ]を取[と]ります。",
-     "vi": "Dùng thẻ My Number để lấy giấy chứng nhận ở cửa hàng tiện lợi."
+     "vi": "Dùng thẻ My Number để lấy giấy chứng nhận ở cửa hàng tiện lợi.",
+     "ctx": "thutuc"
     }
    ],
-   "note": "Nhiều thành phố cho in giấy thuế, phiếu cư trú ở cửa hàng tiện lợi bằng thẻ này — kiểm tra thành phố mình."
+   "note": "Nhiều thành phố cho in giấy thuế, phiếu cư trú ở cửa hàng tiện lợi bằng thẻ này — kiểm tra thành phố mình.",
+   "goc": "My Number Card",
+   "wasei": true
   },
   {
    "id": "v:国民健康保険:こくみんけんこうほけん",

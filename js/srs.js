@@ -31,6 +31,38 @@ export async function review(id, dir, ok, { onlyIfDue = false } = {}) {
   await put('progress', r);
   onChange();
 }
+// Học từ mới (nút "Đã học"): mọi hướng vào hộp 1, ôn lần đầu ngày mai. "Biết rồi": vào hộp 5 (đã thuộc), 16 ngày sau ôn lại một lần.
+export async function setLearned(it, level = 'learned') {
+  const now = Date.now();
+  const r = P.get(it.id) ? structuredClone(P.get(it.id)) : { id: it.id, d: {}, t: 0 };
+  const b = level === 'known' ? 5 : 1;
+  for (const d of TYPE_DIRS[itemType(it)]) {
+    if (d === 'kr' && !it.kanji) continue;
+    const x = r.d[d] || { b: 0, due: 0, ok: 0, ng: 0, t: 0 };
+    x.b = Math.max(x.b, b); x.due = startOfDay(now) + IV[x.b] * DAY; x.t = now;
+    r.d[d] = x;
+  }
+  if (!r.first) r.first = now;
+  r.t = now;
+  P.set(it.id, r);
+  await put('progress', r);
+  onChange();
+}
+// Bỏ đánh dấu (lật lại thẻ rồi bấm "Để sau"): trả về chưa học nếu chưa từng ôn
+export async function unsetLearned(it) {
+  const r = P.get(it.id);
+  if (!r || Object.values(r.d || {}).some(x => x.ok || x.ng)) return;
+  const now = Date.now();
+  const n = structuredClone(r);
+  for (const d of Object.keys(n.d || {})) n.d[d] = { b: 0, due: 0, ok: 0, ng: 0, t: now }; // giữ mốc thời gian để đồng bộ không khôi phục lại
+  delete n.first; n.t = now;
+  P.set(it.id, n);
+  await put('progress', n);
+  onChange();
+}
+// Học lần đầu từ khi nào (lọc "học hôm nay", "7 ngày qua")
+export const learnedSince = (it, t) => { const r = P.get(it.id); return !!r?.first && r.first >= t && status(it) !== 'new'; };
+
 export async function toggleStar(id) {
   const now = Date.now();
   const r = P.get(id) ? structuredClone(P.get(id)) : { id, d: {}, t: 0 };

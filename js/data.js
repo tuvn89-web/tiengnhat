@@ -2,9 +2,9 @@ import { all, put, del, kvGet, kvSet } from './db.js';
 
 export const TOPICS = { doisong: 'Đời sống', xuong: 'Công xưởng', thuysan: 'Thủy sản', thuevisa: 'Thuế & visa', kansai: 'Kansai-ben', jlpt: 'JLPT chung' };
 export const LEVELS = ['N5', 'N4', 'N3', 'N2', 'N1'];
-export const POS = { n: 'danh từ', 'n-suru': 'danh từ + する', v1: 'động từ nhóm 2', v5: 'động từ nhóm 1', v3: 'động từ nhóm 3', 'adj-i': 'tính từ い', 'adj-na': 'tính từ な', adv: 'phó từ', expr: 'cụm từ', ctr: 'trợ số từ', other: 'khác' };
+export const POS = { n: 'danh từ', 'n-suru': 'danh từ + する', v1: 'động từ nhóm 2', v5: 'động từ nhóm 1', v3: 'động từ nhóm 3', 'adj-i': 'tính từ い', 'adj-na': 'tính từ な', adv: 'phó từ', expr: 'cụm từ', ctr: 'trợ số từ', ono: 'từ tượng thanh, tượng hình', other: 'khác' };
 export const REG = { trangtrong: 'văn bản, giấy tờ', lichsu: 'lịch sự', thuong: 'trung tính', khaungu: 'khẩu ngữ', kansai: 'Kansai-ben' };
-export const CTX = { doisong: 'Đời sống', xuong: 'Xưởng', thutuc: 'Thủ tục', hoithoai: 'Hội thoại' };
+export const CTX = { doisong: 'Đời sống', xuong: 'Xưởng', thutuc: 'Thủ tục', hoithoai: 'Hội thoại', kansai: 'Kansai' };
 const TYPES = ['vocab', 'grammar', 'phrase', 'kanji'];
 // Nhóm chữ Hán theo nơi hay gặp (K11)
 export const KGROUPS = { coban: 'Chữ nền tảng', nhan: 'Nhãn sản phẩm', giayto: 'Giấy tờ & thuế', xuong: 'Công xưởng', antoan: 'Biển an toàn', thuysan: 'Thủy sản' };
@@ -12,7 +12,11 @@ export const KGROUPS = { coban: 'Chữ nền tảng', nhan: 'Nhãn sản phẩm'
 // D = toàn bộ dữ liệu đang dùng
 export const D = {
   manifest: { packs: [] },
-  packs: [],          // {id, title, type, level, topics, count, version, src:'builtin'|'imported', items}
+  packs: [],          // gói đang dùng: {id, title, type, level, topics, count, version, src:'builtin'|'imported', items}
+  builtin: [],        // mọi gói trên kho (theo manifest)
+  imported: [],       // mọi gói nhập tay
+  shadow: [],         // gói bị bỏ qua vì trùng tên với gói khác mới hơn
+  prefs: { forms: ['masu', 'masen', 'mashita', 'te', 'ta', 'nai', 'nakatta', 'tai', 'teiru'], t: 0 }, // cài đặt học có đồng bộ: các thể động từ đã học
   user: new Map(),    // id -> mục tự thêm/sửa (có _t, có thể _del)
   disabled: { list: [], t: 0 },
   reports: {},        // id -> {note, t, _del?}
@@ -26,6 +30,7 @@ export const typeOfId = id => id.startsWith('g:') ? 'grammar' : id.startsWith('p
 export async function loadAll() {
   D.errors = [];
   D.disabled = await kvGet('disabled', { list: [], t: 0 });
+  D.prefs = { ...D.prefs, ...(await kvGet('prefs', {})) };
   D.reports = await kvGet('reports', {});
   try {
     const r = await fetch('data/manifest.json', { cache: 'no-cache' });
@@ -38,7 +43,7 @@ export async function loadAll() {
   }
   const builtin = await Promise.all((D.manifest.packs || []).map(async m => {
     try {
-      const r = await fetch(`data/packs/${m.file}?v=${m.version || 1}`);
+      const r = await fetch(`data/packs/${m.file}?v=${m.version || 1}${m.hash ? '.' + m.hash : ''}`);
       if (!r.ok) throw new Error(r.status);
       const j = await r.json();
       return { ...m, src: 'builtin', items: j.items || [] };
@@ -47,13 +52,29 @@ export async function loadAll() {
       return null;
     }
   }));
-  const imported = (await all('imported')).filter(x => !x._del).map(x => packEntry(x.pack, x.items, 'imported', x._t));
-  D.packs = [...builtin.filter(Boolean), ...imported];
+  D.builtin = builtin.filter(Boolean);
+  D.imported = (await all('imported')).filter(x => !x._del).map(x => packEntry(x.pack, x.items, 'imported', x._t));
+  assemblePacks();
   D.user = new Map((await all('user')).map(x => [x.id, x]));
   rebuild();
 }
 
-function packEntry(p, items, src, t) {
+// Gói trên kho và gói nhập tay trùng tên: dùng bản có số phiên bản cao hơn (bằng nhau thì dùng bản nhập tay).
+// Gói nhập tay đứng trước, gói trên kho đứng sau → một mục có ở hai gói KHÁC tên thì bản trên kho được dùng.
+export function assemblePacks() {
+  const bi = new Map(D.builtin.map(p => [p.id, p])), im = new Map(D.imported.map(p => [p.id, p]));
+  const useI = [], useB = [];
+  D.shadow = [];
+  for (const p of D.imported) { const b = bi.get(p.id); if (b && (b.version || 1) > (p.version || 1)) D.shadow.push({ ...p, by: b }); else useI.push(p); }
+  for (const p of D.builtin) { const i = im.get(p.id); if (i && (i.version || 1) >= (p.version || 1)) D.shadow.push({ ...p, by: i }); else useB.push(p); }
+  D.packs = [...useI, ...useB];
+}
+export async function setPrefs(patch) {
+  D.prefs = { ...D.prefs, ...patch, t: Date.now() };
+  await kvSet('prefs', D.prefs);
+}
+
+export function packEntry(p, items, src, t) {
   return { id: p.id, title: p.title, type: p.type, level: p.level, topics: p.topics || [], count: items.length, version: p.version || 1, src, items, _t: t };
 }
 
@@ -140,7 +161,7 @@ export function checkPack(j) {
 export async function importPack(j, mode = 'replace') {
   const id = j.pack.id;
   let items = j.items;
-  const old = D.packs.find(p => p.id === id && p.src === 'imported');
+  const old = D.imported.find(p => p.id === id);
   if (mode === 'merge' && old) {
     const m = new Map(old.items.map(x => [x.id, x]));
     for (const it of j.items) m.set(it.id, it);
@@ -148,13 +169,14 @@ export async function importPack(j, mode = 'replace') {
   }
   const rec = { id, pack: j.pack, items, _t: Date.now() };
   await put('imported', rec);
-  D.packs = D.packs.filter(p => !(p.id === id && p.src === 'imported'));
-  D.packs.push(packEntry(j.pack, items, 'imported', rec._t));
+  D.imported = D.imported.filter(p => p.id !== id).concat(packEntry(j.pack, items, 'imported', rec._t));
+  assemblePacks();
   rebuild();
   return items.length;
 }
 export async function removeImported(id) {
   await put('imported', { id, _del: true, _t: Date.now() });
-  D.packs = D.packs.filter(p => !(p.id === id && p.src === 'imported'));
+  D.imported = D.imported.filter(p => p.id !== id);
+  assemblePacks();
   rebuild();
 }

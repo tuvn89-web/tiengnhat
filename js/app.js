@@ -2,7 +2,9 @@ import { $, esc, icon, toast, debounce, fmtDate } from './util.js';
 import { loadSettings, S } from './settings.js';
 import { D, loadAll, TOPICS } from './data.js';
 import { loadProgress, stats } from './srs.js';
-import { renderQuizSetup, runQuiz, buildQuestions } from './quiz.js';
+import { renderQuizSetup, runQuiz, buildQuestions, selectItems } from './quiz.js';
+import { runLearn } from './learn.js';
+import { renderHub, renderCau, renderNgPhap, renderThe, renderTinhTu, renderDem, renderMixed, mixedDue } from './practice.js';
 import { renderMatchSetup } from './match.js';
 import { renderGrammarList, renderGrammar } from './grammar.js';
 import { renderGrammarPractice, renderMockSetup, buildGrammarQs } from './gdrill.js';
@@ -25,7 +27,7 @@ const ctx = {
 
 const NAV = [
   ['#/', 'home', 'Trang chủ', /^$/],
-  ['#/hoc', 'quiz', 'Luyện từ', /^(hoc|on|moi|ghep)$/],
+  ['#/luyen', 'quiz', 'Luyện tập', /^(luyen|hoc|on|moi|ghep|onhon)/],
   ['#/chuhan', 'han', 'Chữ Hán', /^(chuhan|onchu)/],
   ['#/nguphap', 'book', 'Ngữ pháp', /^(nguphap|onngu)/],
   ['#/kho', 'list', 'Kho từ', /^(kho|them|sua)/],
@@ -35,15 +37,23 @@ const NAV = [
 
 const ROUTES = [
   [/^$/, renderHome],
+  [/^luyen$/, v => renderHub(v)],
+  [/^luyen\/cau$/, v => renderCau(v, ctx)],
+  [/^luyen\/ngphap$/, v => renderNgPhap(v, ctx)],
+  [/^luyen\/the$/, v => renderThe(v, ctx)],
+  [/^luyen\/tinhtu$/, v => renderTinhTu(v, ctx)],
+  [/^luyen\/dem$/, v => renderDem(v, ctx)],
+  [/^onhon$/, v => renderMixed(v, ctx)],
   [/^hoc$/, v => renderQuizSetup(v, ctx)],
   [/^on$/, v => startQuick(v, 'due')],
-  [/^moi$/, v => startQuick(v, 'new')],
+  [/^moi$/, v => runLearn(v, selectItems({ source: 'new' }).slice(0, S.qCount), ctx, { again: () => ctx.go('#/moi', true) })],
   [/^ghep$/, v => renderMatchSetup(v, ctx)],
   [/^chuhan$/, v => renderKanjiList(v)],
   [/^chuhan\/on$/, v => renderKanjiQuizSetup(v, ctx)],
   [/^onchu$/, v => quickKanji(v)],
   [/^nguphap$/, v => renderGrammarList(v)],
   [/^nguphap\/luyen(?:\?g=(.+))?$/, (v, m) => renderGrammarPractice(v, ctx, m[1] ? decodeURIComponent(m[1]) : null)],
+  [/^nguphap\/luyen\?t=(\w+)$/, (v, m) => renderGrammarPractice(v, ctx, null, m[1])],
   [/^nguphap\/thithu$/, v => renderMockSetup(v, ctx)],
   [/^onngu$/, v => quickGrammar(v)],
   [/^nguphap\/(.+)$/, (v, m) => renderGrammar(v, decodeURIComponent(m[1]))],
@@ -108,7 +118,8 @@ function renderHome(v) {
   }).filter(x => x[1]);
   const kd = kanjiOfDay();
   const nNew = Math.min(st.new, S.qCount);
-  const task = (label, n, unit, href, btn) => n ? `<li class="task"><span><b>${n}</b> ${unit}</span><span class="muted small">${label}</span><a class="btn btn-primary btn-sm" href="${href}">${btn}</a></li>` : '';
+  const task = (label, n, unit, href, btn) => n ? `<li class="task"><span><b>${n}</b> ${unit}</span><span class="muted small">${label}</span><a class="btn btn-ghost btn-sm" href="${href}">${btn}</a></li>` : '';
+  const md = mixedDue(), nDue = md.vocab.length + md.kanji.length + md.grammar.length;
   const tasks = [
     task('Từ vựng đến hạn ôn', st.due, 'từ', '#/on', 'Ôn từ'),
     task('Chữ Hán đến hạn ôn', sk.due, 'chữ', '#/onchu', 'Ôn chữ'),
@@ -119,8 +130,8 @@ function renderHome(v) {
     <section class="today">
       <p class="today-l">Hôm nay</p>
       ${st.total || sk.total || sg.total
-        ? `${tasks ? `<ul class="tasks">${tasks}</ul>` : '<p class="today-n">Không còn gì đến hạn ôn.</p>'}
-           <div class="row-btns wrap">${nNew ? `<a class="btn ${tasks ? 'btn-ghost' : 'btn-primary'}" href="#/moi">Học ${nNew} từ mới</a>` : ''}<a class="btn btn-ghost" href="#/ghep">Ghép cặp</a></div>`
+        ? `${tasks ? `<a class="btn btn-primary btn-block mixbtn" href="#/onhon">Ôn hỗn hợp hôm nay · ${nDue} mục</a><ul class="tasks">${tasks}</ul>` : '<p class="today-n">Không còn gì đến hạn ôn.</p>'}
+           <div class="row-btns wrap">${nNew ? `<a class="btn ${tasks ? 'btn-ghost' : 'btn-primary'}" href="#/moi">Học ${nNew} từ mới</a>` : ''}<a class="btn btn-ghost" href="#/luyen">Luyện tập</a></div>`
         : `<p class="today-n">Chưa có dữ liệu.</p><a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>`}
       ${st.newToday ? `<p class="small muted">Hôm nay đã học ${st.newToday} từ mới.</p>` : ''}
     </section>
@@ -154,7 +165,7 @@ function renderHome(v) {
 
     <nav class="modes" aria-label="Các phần học">
       ${[
-      ['#/hoc', 'quiz', 'Luyện từ', 'Trắc nghiệm Việt ↔ Nhật, đọc kanji, nghe; ghép 6 cặp'],
+      ['#/luyen', 'quiz', 'Luyện tập', 'Học từ mới, trắc nghiệm, ghép cặp, ghép câu, thể động từ, tính từ, đếm số'],
       ['#/chuhan', 'han', 'Chữ Hán', `${D.kanji.length} thẻ chữ, câu lục bát nhớ mặt chữ, ôn chữ Hán`],
       ['#/nguphap', 'book', 'Ngữ pháp', `${D.grammar.length} mẫu — bài học, luyện tập, thi thử`],
       ['#/kho', 'list', 'Kho từ', `${st.total} từ — tìm, sửa, thêm từ mới`],
