@@ -1,0 +1,140 @@
+// Tiện ích dùng chung
+export const $ = (s, r = document) => r.querySelector(s);
+export const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+export const DAY = 864e5;
+
+export function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+export function isKanjiCh(ch) {
+  const o = ch.codePointAt(0);
+  return (o >= 0x4e00 && o <= 0x9fff) || (o >= 0x3400 && o <= 0x4dbf) || '々〆ヶ'.includes(ch);
+}
+export const hasKanji = s => [...(s || '')].some(isKanjiCh);
+
+// Cú pháp: 漢字[よみ] — phần gắn cách đọc là chuỗi kanji liền trước "[".  [[...]] = phần ngữ pháp.
+export function parseJP(s) {
+  s = s || '';
+  const segs = [];
+  let i = 0, hl = false, buf = '';
+  const flush = () => { if (buf) { segs.push({ t: buf, r: null, hl }); buf = ''; } };
+  while (i < s.length) {
+    if (s.startsWith('[[', i)) { flush(); hl = true; i += 2; continue; }
+    if (hl && s.startsWith(']]', i)) { flush(); hl = false; i += 2; continue; }
+    const ch = s[i];
+    if (ch === '[') {
+      const j = s.indexOf(']', i + 1);
+      if (j < 0) { buf += s.slice(i); break; }
+      const r = s.slice(i + 1, j);
+      let k = buf.length;
+      while (k > 0 && isKanjiCh(buf[k - 1])) k--;
+      const pre = buf.slice(0, k), base = buf.slice(k);
+      if (pre) segs.push({ t: pre, r: null, hl });
+      if (base) segs.push({ t: base, r, hl });
+      buf = ''; i = j + 1; continue;
+    }
+    buf += ch; i++;
+  }
+  flush();
+  return segs;
+}
+export const plain = s => parseJP(s).map(x => x.t).join('');
+export const reading = s => parseJP(s).map(x => x.r || x.t).join('');
+
+export function rubyHTML(s, furi = true) {
+  let out = '', open = false;
+  for (const g of parseJP(s)) {
+    if (g.hl && !open) { out += '<mark class="gp">'; open = true; }
+    if (!g.hl && open) { out += '</mark>'; open = false; }
+    out += g.r && furi ? `<ruby>${esc(g.t)}<rt>${esc(g.r)}</rt></ruby>` : esc(g.t);
+  }
+  if (open) out += '</mark>';
+  return out;
+}
+
+// Hiển thị một từ theo chế độ chữ: kana (mềm/cứng) | kanji | furi (kanji + furigana)
+export function wordHTML(it, mode = 'furi') {
+  if (mode === 'kana' || !it.kanji) return esc(it.kana);
+  if (mode === 'kanji') return esc(it.kanji);
+  if (it.kf) return rubyHTML(it.kf, true);
+  return `<ruby>${esc(it.kanji)}<rt>${esc(it.kana)}</rt></ruby>`;
+}
+export function wordKey(it, mode) {
+  if (mode === 'kana' || !it.kanji) return it.kana;
+  return it.kanji;
+}
+export const jp = (html, cls = '') => `<span lang="ja" class="${cls}">${html}</span>`;
+
+export const normVi = s => String(s || '').trim().toLowerCase();
+
+export function shuffle(a) {
+  a = [...a];
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+
+export function startOfDay(t = Date.now()) { const d = new Date(t); d.setHours(0, 0, 0, 0); return d.getTime(); }
+export function fmtDate(t) {
+  if (!t) return '—';
+  const d = new Date(t);
+  const p = n => String(n).padStart(2, '0');
+  return `${p(d.getDate())}/${p(d.getMonth() + 1)}/${d.getFullYear()} ${p(d.getHours())}:${p(d.getMinutes())}`;
+}
+
+export function toast(msg, { action, onAction, ms = 3200 } = {}) {
+  const box = $('#toasts');
+  const el = document.createElement('div');
+  el.className = 'toast';
+  el.setAttribute('role', 'status');
+  el.innerHTML = `<span>${esc(msg)}</span>` + (action ? `<button class="btn btn-sm btn-ghost">${esc(action)}</button>` : '');
+  if (action) el.querySelector('button').onclick = () => { onAction?.(); el.remove(); };
+  box.appendChild(el);
+  if (!action) setTimeout(() => el.remove(), ms);
+  return el;
+}
+
+export function download(name, text) {
+  const blob = new Blob([text], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+}
+export const readFile = f => new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(r.result); r.onerror = () => rej(r.error); r.readAsText(f, 'utf-8'); });
+
+let actx;
+export function beep(ok) {
+  try {
+    actx = actx || new (window.AudioContext || window.webkitAudioContext)();
+    const o = actx.createOscillator(), g = actx.createGain();
+    o.type = 'sine';
+    o.frequency.value = ok ? 880 : 220;
+    g.gain.setValueAtTime(0.0001, actx.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.15, actx.currentTime + 0.01);
+    g.gain.exponentialRampToValueAtTime(0.0001, actx.currentTime + (ok ? 0.18 : 0.3));
+    o.connect(g); g.connect(actx.destination);
+    o.start(); o.stop(actx.currentTime + 0.32);
+  } catch { /* không có âm thanh cũng không sao */ }
+}
+export function buzz() { try { navigator.vibrate?.(120); } catch { } }
+
+export function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
+
+export const ICON = {
+  home: '<path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/>',
+  quiz: '<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/>',
+  match: '<rect x="3" y="4" width="7" height="6" rx="1.5"/><rect x="14" y="14" width="7" height="6" rx="1.5"/><path d="M10 7h4v10"/>',
+  book: '<path d="M4 4h7a2 2 0 0 1 2 2v14a2 2 0 0 0-2-2H4z"/><path d="M20 4h-5a2 2 0 0 0-2 2v14a2 2 0 0 1 2-2h5z"/>',
+  list: '<path d="M8 6h13M8 12h13M8 18h13"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/>',
+  gear: '<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/>',
+  box: '<path d="M3 7l9-4 9 4-9 4z"/><path d="M3 7v10l9 4 9-4V7"/><path d="M12 11v10"/>',
+  speaker: '<path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"/>',
+  star: '<path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>',
+  close: '<path d="M6 6l12 12M18 6 6 18"/>',
+  plus: '<path d="M12 5v14M5 12h14"/>',
+  sync: '<path d="M20 11a8 8 0 0 0-14.3-4.9L4 8"/><path d="M4 4v4h4"/><path d="M4 13a8 8 0 0 0 14.3 4.9L20 16"/><path d="M20 20v-4h-4"/>',
+  flag: '<path d="M5 21V4h11l-2 4 2 4H5"/>',
+};
+export const icon = (n, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICON[n]}</svg>`;

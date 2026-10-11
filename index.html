@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tiếng Nhật Thực Chiến</title>
+  <meta name="description" content="Học tiếng Nhật đời sống, công xưởng, thủy sản và thủ tục — chạy offline.">
+  <meta name="theme-color" content="#2361C9">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/app.css">
+  <script>
+    try { var t = localStorage.getItem('tn-theme'); if (t && t !== 'auto') document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#view">Bỏ qua thanh điều hướng</a>
+  <header id="topbar" class="topbar"></header>
+  <nav id="nav" class="nav" aria-label="Điều hướng chính"></nav>
+  <main id="view" class="view" tabindex="-1"></main>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <noscript><p class="view">App cần bật JavaScript.</p></noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

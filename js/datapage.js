@@ -1,0 +1,157 @@
+import { esc, toast, download, readFile, fmtDate, icon } from './util.js';
+import { D, TOPICS, setPackEnabled, checkPack, importPack, removeImported, activeReports } from './data.js';
+import { field, confirmBox } from './ui.js';
+import { getSyncCfg, setSyncCfg, syncNow, lastSync, lastSyncError, backupJSON, restoreJSON } from './sync.js';
+
+const TYPE = { vocab: 'Từ vựng', grammar: 'Ngữ pháp', phrase: 'Câu thực chiến' };
+
+export async function renderData(view, ctx) {
+  const cfg = await getSyncCfg();
+  const ls = await lastSync(), le = await lastSyncError();
+  const off = new Set(D.disabled.list);
+  const reps = activeReports();
+  const mine = [...D.user.values()].filter(u => !u._del);
+  const packRow = p => `<li class="pack">
+      <label class="switch"><input type="checkbox" data-pack="${esc(p.id)}" ${off.has(p.id) ? '' : 'checked'}><span></span></label>
+      <div class="pack-t"><b>${esc(p.title)}</b><span class="muted small">${TYPE[p.type] || p.type}, ${p.count} mục, ${esc(p.level)}${p.src === 'imported' ? ', nhập tay' : ''}</span></div>
+      ${p.src === 'imported' ? `<button class="btn btn-ghost btn-sm btn-danger" data-rm="${esc(p.id)}">Xoá</button>` : ''}
+    </li>`;
+  view.innerHTML = `
+    <h1 class="h1">Dữ liệu & đồng bộ</h1>
+
+    <section class="card">
+      <h2 class="h2">Gói dữ liệu</h2>
+      <p class="muted small">Tắt gói nào thì gói đó không xuất hiện khi học. Tiến độ vẫn giữ.</p>
+      <ul class="packs">${D.packs.map(packRow).join('') || '<li class="muted">Chưa có gói nào.</li>'}</ul>
+      ${D.errors.length ? `<div class="warn">${D.errors.map(esc).join('<br>')}</div>` : ''}
+    </section>
+
+    <section class="card">
+      <h2 class="h2">Nhập gói từ skill</h2>
+      <p class="muted small">Cách nhanh để thử gói mới trên máy này. Muốn mọi máy đều có, tải gói lên thư mục <code>data/packs</code> trong kho app trên GitHub.</p>
+      ${field('Chọn file .json (chọn được nhiều file)', '<input class="input" type="file" accept=".json,application/json" multiple data-in="file">')}
+      ${field('Hoặc dán nội dung JSON', '<textarea class="input mono" rows="4" data-in="paste" placeholder="{ &quot;schema&quot;: 1, &quot;pack&quot;: … }"></textarea>')}
+      <div class="row-btns"><button class="btn btn-ghost" data-act="check">Kiểm tra</button></div>
+      <div class="import-prev"></div>
+    </section>
+
+    <section class="card">
+      <h2 class="h2">Gửi cho skill</h2>
+      <p class="muted small">File gồm ${reps.length} mục Cậu Cả đã báo sai, ${mine.length} từ tự thêm/sửa, và danh sách mã từ đang có để skill không làm trùng.</p>
+      <button class="btn btn-ghost" data-act="forskill">Tải file gửi skill</button>
+    </section>
+
+    <section class="card">
+      <h2 class="h2">Sao lưu</h2>
+      <p class="muted small">Một file chứa toàn bộ tiến độ, từ tự thêm và gói nhập tay. Dùng khi đổi máy hoặc chưa cài đồng bộ.</p>
+      <div class="row-btns wrap">
+        <button class="btn btn-ghost" data-act="backup">Tải file sao lưu</button>
+        <label class="btn btn-ghost">Khôi phục từ file<input type="file" accept=".json" hidden data-in="restore"></label>
+      </div>
+    </section>
+
+    <section class="card" id="dongbo">
+      <h2 class="h2">Đồng bộ qua GitHub</h2>
+      <p class="muted small">Tiến độ lưu vào một kho riêng tư trên GitHub của Cậu Cả. App tự đồng bộ khi mở, sau mỗi lượt học và khi có mạng trở lại. Xem hướng dẫn tạo kho và token trong file HUONG-DAN.md.</p>
+      <form class="syncf" novalidate>
+        <div class="grid2">
+          ${field('Tên tài khoản GitHub', `<input class="input" name="owner" value="${esc(cfg.owner)}" autocomplete="off" autocapitalize="off" spellcheck="false">`)}
+          ${field('Tên kho riêng tư', `<input class="input" name="repo" value="${esc(cfg.repo)}" placeholder="tiengnhat-tiendo" autocomplete="off" autocapitalize="off" spellcheck="false">`)}
+        </div>
+        ${field('Token', `<input class="input" name="token" type="password" value="${esc(cfg.token)}" autocomplete="off" spellcheck="false">`, 'Token chỉ cấp quyền Contents (đọc và ghi) cho đúng kho này. Lưu trong máy, không gửi đi đâu khác ngoài GitHub.')}
+        <details><summary class="small">Tuỳ chọn thêm</summary>
+          <div class="grid2">
+            ${field('Nhánh', `<input class="input" name="branch" value="${esc(cfg.branch || 'main')}">`)}
+            ${field('Tên file', `<input class="input" name="path" value="${esc(cfg.path || 'tiengnhat-sync.json')}">`)}
+          </div>
+        </details>
+        <div class="row-btns wrap">
+          <button class="btn btn-ghost" type="submit">Lưu cài đặt</button>
+          <button class="btn btn-primary" type="button" data-act="sync">${icon('sync')} Đồng bộ ngay</button>
+        </div>
+        <p class="small sync-st">Lần đồng bộ cuối: ${fmtDate(ls)}${le ? `<br><span class="err">Lỗi lần trước: ${esc(le)}</span>` : ''}</p>
+      </form>
+    </section>`;
+
+  // gói: bật/tắt, xoá
+  view.querySelector('.packs').addEventListener('change', async e => {
+    const c = e.target.closest('[data-pack]'); if (!c) return;
+    await setPackEnabled(c.dataset.pack, c.checked);
+    toast(c.checked ? 'Đã bật gói.' : 'Đã tắt gói.');
+  });
+  view.querySelector('.packs').addEventListener('click', async e => {
+    const b = e.target.closest('[data-rm]'); if (!b) return;
+    if (!(await confirmBox('Xoá gói nhập tay này khỏi máy? Tiến độ học các từ vẫn giữ.', 'Xoá gói'))) return;
+    await removeImported(b.dataset.rm); toast('Đã xoá gói.'); renderData(view, ctx);
+  });
+
+  // nhập gói
+  let staged = [];
+  view.querySelector('[data-act=check]').onclick = async () => {
+    staged = [];
+    const files = [...view.querySelector('[data-in=file]').files];
+    const texts = await Promise.all(files.map(f => readFile(f).then(t => [f.name, t])));
+    const paste = view.querySelector('[data-in=paste]').value.trim();
+    if (paste) texts.push(['nội dung dán', paste]);
+    if (!texts.length) { toast('Chưa chọn file hoặc dán nội dung.'); return; }
+    for (const [name, t] of texts) {
+      let j, errs;
+      try { j = JSON.parse(t); errs = checkPack(j); } catch { errs = ['Không đọc được JSON — kiểm tra đã dán đủ chưa.']; }
+      staged.push({ name, j, errs });
+    }
+    const ok = staged.filter(s => !s.errs.length);
+    view.querySelector('.import-prev').innerHTML = `<ul class="rows">${staged.map(s => `<li class="imp ${s.errs.length ? 'bad' : ''}">
+        <b>${esc(s.j?.pack?.title || s.name)}</b>
+        <span class="small">${s.errs.length ? esc(s.errs.slice(0, 6).join('; ')) + (s.errs.length > 6 ? ` … (+${s.errs.length - 6} lỗi)` : '') : `${s.j.items.length} mục, ${TYPE[s.j.pack.type]}${D.packs.some(p => p.id === s.j.pack.id) ? ' — đã có gói cùng tên' : ''}`}</span></li>`).join('')}</ul>
+      ${ok.length ? `<fieldset class="radios"><legend class="small">Nếu đã có gói cùng tên</legend>
+        <label><input type="radio" name="mode" value="replace" checked> Thay thế gói cũ</label>
+        <label><input type="radio" name="mode" value="merge"> Gộp thêm vào gói cũ</label></fieldset>
+        <button class="btn btn-primary" data-act="doimport">Nhập ${ok.length} gói</button>` : ''}`;
+    const b = view.querySelector('[data-act=doimport]');
+    if (b) b.onclick = async () => {
+      const mode = view.querySelector('input[name=mode]:checked').value;
+      let n = 0;
+      for (const s of ok) n += await importPack(s.j, mode);
+      toast(`Đã nhập ${ok.length} gói, ${n} mục.`);
+      ctx.sessionDone?.();
+      renderData(view, ctx);
+    };
+  };
+
+  // gửi skill
+  view.querySelector('[data-act=forskill]').onclick = () => {
+    const out = {
+      app: 'tiengnhat', kind: 'gui-skill', created: new Date().toISOString(),
+      reports: reps.map(([id, r]) => ({ id, note: r.note, item: D.items.get(id) || null })),
+      userItems: mine,
+      packs: D.packs.map(p => ({ id: p.id, title: p.title, type: p.type, version: p.version, src: p.src })),
+      items: [...D.items.keys()].map(id => ({ id })),
+    };
+    download(`gui-skill-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(out, null, 1));
+  };
+
+  // sao lưu
+  view.querySelector('[data-act=backup]').onclick = async () => download(`saoluu-tiengnhat-${new Date().toISOString().slice(0, 10)}.json`, await backupJSON());
+  view.querySelector('[data-in=restore]').onchange = async e => {
+    const f = e.target.files[0]; if (!f) return;
+    const merge = await confirmBox('Gộp bản sao lưu với dữ liệu hiện có? Chọn "Thay hết" để xoá dữ liệu trên máy này và dùng đúng bản sao lưu.', 'Gộp', 'Thay hết');
+    try { await restoreJSON(await readFile(f), merge ? 'merge' : 'replace'); toast('Đã khôi phục.'); ctx.sessionDone?.(); renderData(view, ctx); }
+    catch (err) { toast(err.message || 'Không khôi phục được.'); }
+  };
+
+  // đồng bộ
+  const sf = view.querySelector('.syncf');
+  const readCfg = () => ({ owner: sf.owner.value.trim(), repo: sf.repo.value.trim(), token: sf.token.value.trim(), branch: sf.branch.value.trim() || 'main', path: sf.path.value.trim() || 'tiengnhat-sync.json' });
+  sf.onsubmit = async e => { e.preventDefault(); await setSyncCfg(readCfg()); toast('Đã lưu cài đặt đồng bộ.'); };
+  view.querySelector('[data-act=sync]').onclick = async e => {
+    const b = e.currentTarget; // giữ nút trước await (sau await currentTarget = null)
+    b.disabled = true;
+    await setSyncCfg(readCfg());
+    const r = await syncNow();
+    b.disabled = false;
+    if (r.ok) toast('Đã đồng bộ.');
+    else toast(r.error || r.skipped);
+    ctx.refreshSync?.();
+    sf.querySelector('.sync-st').innerHTML = `Lần đồng bộ cuối: ${fmtDate(await lastSync())}${r.error ? `<br><span class="err">Lỗi: ${esc(r.error)}</span>` : ''}`;
+  };
+}
