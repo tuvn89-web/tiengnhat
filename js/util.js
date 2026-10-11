@@ -84,7 +84,9 @@ export function fmtDate(t) {
 
 export function toast(msg, { action, onAction, ms = 3200 } = {}) {
   const box = $('#toasts');
+  box.querySelectorAll('.toast:not(.has-action)').forEach(t => t.remove()); // thông báo mới thay thông báo cũ
   const el = document.createElement('div');
+  if (action) el.classList.add('has-action');
   el.className = 'toast';
   el.setAttribute('role', 'status');
   el.innerHTML = `<span>${esc(msg)}</span>` + (action ? `<button class="btn btn-sm btn-ghost">${esc(action)}</button>` : '');

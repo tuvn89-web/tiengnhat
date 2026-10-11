@@ -314,6 +314,20 @@ textarea.input { min-height: 0; resize: vertical; }
 input[type="range"] { width: 100%; accent-color: var(--blue); }
 .radios label { display: flex; align-items: center; gap: 8px; min-height: 40px; }
 .warn { border-left: 4px solid var(--ng); background: var(--ng-soft); padding: 10px 12px; border-radius: 6px; margin: 12px 0; }
+.note { border-left: 4px solid var(--blue); background: var(--blue-soft); padding: 8px 12px; border-radius: 6px; margin: 10px 0; }
+
+/* kiểm tra kết nối */
+.diag { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 8px; }
+.diag:empty { display: none; }
+.diag li { display: flex; gap: 10px; align-items: flex-start; line-height: 1.45; }
+.diag-m { flex: none; display: grid; place-items: center; width: 22px; height: 22px; margin-top: 1px; border-radius: 50%; font-size: 13px; font-weight: 800; }
+.diag-ok .diag-m { background: var(--ok); color: var(--surface); }
+.diag-ok .diag-m::before { content: "✓"; }
+.diag-warn .diag-m { background: var(--hl); color: var(--ink); }
+.diag-warn .diag-m::before { content: "!"; }
+.diag-bad .diag-m { background: var(--ng); color: var(--surface); }
+.diag-bad .diag-m::before { content: "✕"; }
+.diag-bad > span:last-child { color: var(--ng); font-weight: 600; }
 .preview { margin-top: 18px; }
 .preview .opt { margin-top: 12px; }
 

@@ -26,6 +26,10 @@ Gồm hai kho trên GitHub:
    - Bấm **Save**.
 5. Đợi 1–2 phút. Địa chỉ app là `https://<tên-tài-khoản>.github.io/tiengnhat/`.
 
+> **Tên tài khoản GitHub** là phần đứng trước `.github.io` trong địa chỉ app, không phải tên email.
+> App của Cậu Cả ở `https://tuvn89-web.github.io/tiengnhat/`, nên tên tài khoản là **`tuvn89-web`**.
+> (Trên GitHub còn có một tài khoản cũ tên `tuvn89`. App, kho tiến độ và token đều phải nằm trong **cùng một tài khoản**: `tuvn89-web`.)
+
 ## 2. Cài lên điện thoại và máy tính
 
 - **Android:** mở địa chỉ trên bằng Chrome → menu ⋮ → **Cài đặt ứng dụng** (hoặc **Thêm vào màn hình chính**). Icon chữ 実 đỏ sẽ hiện ngoài màn hình.
@@ -33,6 +37,8 @@ Gồm hai kho trên GitHub:
 - Mở app **một lần khi có mạng** để app tải hết dữ liệu. Sau đó dùng được khi không có mạng.
 
 ## 3. Đồng bộ tiến độ giữa điện thoại và máy tính
+
+Kiểm tra góc trên phải GitHub đang đăng nhập đúng tài khoản `tuvn89-web` rồi mới làm 3.1 và 3.2.
 
 ### 3.1 Tạo kho riêng tư
 **+ → New repository**:
@@ -51,15 +57,33 @@ Gồm hai kho trên GitHub:
 
 ### 3.3 Dán vào app
 App → **Dữ liệu** → **Đồng bộ qua GitHub**:
-- Tên tài khoản GitHub
-- Tên kho: `tiengnhat-tiendo`
-- Token
+- Tên tài khoản GitHub: app **tự điền** `tuvn89-web` theo địa chỉ app, để nguyên.
+- Tên kho: `tiengnhat-tiendo` (dán cả đường link của kho cũng được).
+- Token: dán token vừa sao chép. Tích **Hiện token để soát** để thấy đã dán đủ chưa (token bắt đầu bằng `github_pat_`).
 
-Bấm **Đồng bộ ngay**. Làm y hệt trên máy thứ hai.
+Bấm **Kiểm tra kết nối**. Thấy toàn dấu ✓ xanh thì bấm **Đồng bộ ngay**.
+
+**Mỗi máy phải điền một lần.** Cài đặt đồng bộ lưu riêng trên từng máy, nên điện thoại và máy tính đều phải dán token. Nếu đã mất token (GitHub chỉ hiện một lần), tạo token mới theo 3.2 rồi dán cho cả hai máy.
 
 Từ đó app tự đồng bộ khi mở app, sau mỗi lượt học, khi có mạng trở lại và khi thoát app. Học offline cứ học, có mạng app tự gộp. Hai máy cùng học một từ thì lần học sau cùng được giữ.
 
 **An toàn:** token chỉ có quyền trên kho tiến độ, không đụng được gì khác. Mất điện thoại → vào GitHub xoá token đó đi là xong.
+
+### 3.4 Khi đồng bộ báo lỗi
+Bấm **Kiểm tra kết nối**. App kiểm từng bước và hiện danh sách:
+- ✓ xanh: bước đó ổn.
+- ! vàng: lưu ý, hoặc app đã tự sửa (ví dụ ghi nhầm `tuvn89` → app tự đổi thành `tuvn89-web`).
+- ✕ đỏ: chỗ phải sửa, kèm cách sửa.
+
+| App báo | Cách sửa |
+|---|---|
+| Máy này còn thiếu: … | Điền ô còn thiếu. Mỗi máy phải điền một lần. |
+| Token đang bị dán vào ô tên kho | Ô tên kho chỉ ghi `tiengnhat-tiendo`; token dán vào ô Token. |
+| Token sai hoặc đã hết hạn | Tạo token mới (3.2) rồi dán lại. |
+| Token thuộc tài khoản A, còn ô tên tài khoản đang ghi B | Kho tiến độ và token phải cùng một tài khoản. Tạo lại kho hoặc token trong tài khoản `tuvn89-web`. |
+| Không thấy kho … | Kiểm tra tên kho đúng từng chữ; sửa token để chọn đúng kho này ở *Only select repositories*. |
+| Token chỉ có quyền đọc | Sửa token: Permissions → Contents → **Read and write**. |
+| Kho đang trống | Trong kho bấm **Add file → Create new file**, đặt tên `README.md`, bấm Commit. |
 
 ## 4. Thêm dữ liệu mới từ skill `jp-v01-data`
 
@@ -80,9 +104,15 @@ Muốn skill sửa từ sai, hoặc làm tiếp mà không trùng từ cũ: app 
 
 Xong thì mở lại app. Trong **Cài đặt → Giọng đọc** có nút **Nghe thử**.
 
-## 6. Khi sửa code app
+## 6. Khi có bản app mới
 
-Mở `sw.js`, tăng `VERSION` (ví dụ `tnt-v1` → `tnt-v2`), rồi tải lên cùng các file đã sửa. Mở app sẽ hiện thông báo **Có bản cập nhật mới** → bấm **Cập nhật**.
+Tải các file mới lên kho `tiengnhat`, ghi đè file cũ:
+- **Trên máy tính:** kho `tiengnhat` → **Add file → Upload files** → kéo cả thư mục (`js`, `css`) và các file lẻ (`sw.js`…) vào → **Commit changes**. GitHub tự đặt file vào đúng thư mục và ghi đè bản cũ.
+- **Trên điện thoại** (không kéo được thư mục): bấm vào thư mục `js` → **Add file → Upload files** → chọn các file `.js` → Commit. Làm tương tự với `css`. File ở ngoài cùng (`sw.js`) thì tải lên ở trang chính của kho.
+
+Đợi 1–2 phút rồi mở app khi có mạng. App **tự cập nhật** và tải lại trang, hiện thông báo *Đã cập nhật app lên bản mới*. Nếu đang giữa lượt học, app chờ học xong lượt mới tải lại.
+
+Người sửa code nhớ tăng `VERSION` trong `sw.js` (ví dụ `tnt-v2` → `tnt-v3`), thì máy mới nhận ra có bản mới.
 
 Chỉ thêm hoặc sửa gói dữ liệu thì **không cần** đổi `VERSION`: tăng `pack.version` trong gói là đủ, và skill tự làm việc này.
 

@@ -1,12 +1,13 @@
 import { esc, toast, download, readFile, fmtDate, icon } from './util.js';
 import { D, TOPICS, setPackEnabled, checkPack, importPack, removeImported, activeReports } from './data.js';
 import { field, confirmBox } from './ui.js';
-import { getSyncCfg, setSyncCfg, syncNow, lastSync, lastSyncError, backupJSON, restoreJSON } from './sync.js';
+import { getSyncCfg, setSyncCfg, syncNow, lastSync, lastSyncError, backupJSON, restoreJSON, normalizeCfg, formProblem, diagnose, ownerFromSite } from './sync.js';
 
 const TYPE = { vocab: 'Từ vựng', grammar: 'Ngữ pháp', phrase: 'Câu thực chiến' };
 
 export async function renderData(view, ctx) {
   const cfg = await getSyncCfg();
+  const site = ownerFromSite();
   const ls = await lastSync(), le = await lastSyncError();
   const off = new Set(D.disabled.list);
   const reps = activeReports();
@@ -52,23 +53,29 @@ export async function renderData(view, ctx) {
 
     <section class="card" id="dongbo">
       <h2 class="h2">Đồng bộ qua GitHub</h2>
-      <p class="muted small">Tiến độ lưu vào một kho riêng tư trên GitHub của Cậu Cả. App tự đồng bộ khi mở, sau mỗi lượt học và khi có mạng trở lại. Xem hướng dẫn tạo kho và token trong file HUONG-DAN.md.</p>
+      <p class="muted small">Tiến độ lưu vào một kho riêng tư trên GitHub của Cậu Cả. App tự đồng bộ khi mở, sau mỗi lượt học và khi có mạng trở lại. Cài đặt này lưu riêng từng máy: điện thoại và máy tính đều phải điền một lần.</p>
+      <p class="note small sync-note" ${cfg.token ? 'hidden' : ''}>Máy này chưa có token nên chưa đồng bộ.</p>
       <form class="syncf" novalidate>
         <div class="grid2">
-          ${field('Tên tài khoản GitHub', `<input class="input" name="owner" value="${esc(cfg.owner)}" autocomplete="off" autocapitalize="off" spellcheck="false">`)}
-          ${field('Tên kho riêng tư', `<input class="input" name="repo" value="${esc(cfg.repo)}" placeholder="tiengnhat-tiendo" autocomplete="off" autocapitalize="off" spellcheck="false">`)}
+          ${field('Tên tài khoản GitHub', `<input class="input" name="owner" value="${esc(cfg.owner)}" autocomplete="off" autocapitalize="off" spellcheck="false">`,
+            site ? `Là phần đứng trước .github.io trong địa chỉ app — với app này là <b>${esc(site)}</b>.` : 'Là phần đứng trước .github.io trong địa chỉ app.')}
+          ${field('Tên kho riêng tư', `<input class="input" name="repo" value="${esc(cfg.repo)}" placeholder="tiengnhat-tiendo" autocomplete="off" autocapitalize="off" spellcheck="false">`,
+            'Chỉ ghi tên kho. Dán cả đường link của kho cũng được.')}
         </div>
-        ${field('Token', `<input class="input" name="token" type="password" value="${esc(cfg.token)}" autocomplete="off" spellcheck="false">`, 'Token chỉ cấp quyền Contents (đọc và ghi) cho đúng kho này. Lưu trong máy, không gửi đi đâu khác ngoài GitHub.')}
+        ${field('Token', `<input class="input mono" name="token" type="password" value="${esc(cfg.token)}" autocomplete="off" autocapitalize="off" spellcheck="false">`, 'Token bắt đầu bằng github_pat_. Lưu trong máy, chỉ gửi tới GitHub.')}
+        <label class="check small"><input type="checkbox" data-act="showtok"> Hiện token để soát</label>
         <details><summary class="small">Tuỳ chọn thêm</summary>
           <div class="grid2">
-            ${field('Nhánh', `<input class="input" name="branch" value="${esc(cfg.branch || 'main')}">`)}
-            ${field('Tên file', `<input class="input" name="path" value="${esc(cfg.path || 'tiengnhat-sync.json')}">`)}
+            ${field('Nhánh', `<input class="input" name="branch" value="${esc(cfg.branch)}">`)}
+            ${field('Tên file', `<input class="input" name="path" value="${esc(cfg.path)}">`)}
           </div>
         </details>
         <div class="row-btns wrap">
           <button class="btn btn-ghost" type="submit">Lưu cài đặt</button>
+          <button class="btn btn-ghost" type="button" data-act="synccheck">Kiểm tra kết nối</button>
           <button class="btn btn-primary" type="button" data-act="sync">${icon('sync')} Đồng bộ ngay</button>
         </div>
+        <ul class="diag" aria-live="polite"></ul>
         <p class="small sync-st">Lần đồng bộ cuối: ${fmtDate(ls)}${le ? `<br><span class="err">Lỗi lần trước: ${esc(le)}</span>` : ''}</p>
       </form>
     </section>`;
@@ -141,17 +148,65 @@ export async function renderData(view, ctx) {
 
   // đồng bộ
   const sf = view.querySelector('.syncf');
-  const readCfg = () => ({ owner: sf.owner.value.trim(), repo: sf.repo.value.trim(), token: sf.token.value.trim(), branch: sf.branch.value.trim() || 'main', path: sf.path.value.trim() || 'tiengnhat-sync.json' });
-  sf.onsubmit = async e => { e.preventDefault(); await setSyncCfg(readCfg()); toast('Đã lưu cài đặt đồng bộ.'); };
-  view.querySelector('[data-act=sync]').onclick = async e => {
-    const b = e.currentTarget; // giữ nút trước await (sau await currentTarget = null)
-    b.disabled = true;
+  const el = n => sf.querySelector(`[name="${n}"]`);
+  const diagBox = sf.querySelector('.diag');
+  const MARK = { true: ['ok', 'Đạt'], warn: ['warn', 'Lưu ý'], false: ['bad', 'Lỗi'] };
+  const showDiag = steps => {
+    diagBox.innerHTML = (steps || []).map(s => {
+      const [cls, label] = MARK[String(s.ok)];
+      return `<li class="diag-${cls}"><span class="diag-m" aria-label="${label}"></span><span>${esc(s.text)}</span></li>`;
+    }).join('');
+  };
+  // đọc form → chuẩn hoá → ghi ngược lại vào ô để Cậu Cả thấy app hiểu thế nào
+  const readCfg = () => {
+    const c = normalizeCfg({ owner: el('owner').value, repo: el('repo').value, token: el('token').value, branch: el('branch').value, path: el('path').value });
+    for (const k of Object.keys(c)) el(k).value = c[k];
+    return c;
+  };
+  const busyBtns = on => sf.querySelectorAll('button').forEach(x => { x.disabled = on; });
+  const note = view.querySelector('.sync-note');
+  const syncNote = () => { note.hidden = !!el('token').value.trim(); };
+  el('token').addEventListener('input', syncNote);
+  const status = async (r) => {
+    sf.querySelector('.sync-st').innerHTML = `Lần đồng bộ cuối: ${fmtDate(await lastSync())}${r?.error ? `<br><span class="err">Lỗi: ${esc(r.error)}</span>` : ''}`;
+  };
+
+  sf.querySelector('[data-act=showtok]').onchange = e => { el('token').type = e.target.checked ? 'text' : 'password'; };
+  sf.onsubmit = async e => {
+    e.preventDefault();
+    const c = readCfg();
+    await setSyncCfg(c);
+    const prob = formProblem(c);
+    toast(prob ? `Đã lưu. ${prob}` : 'Đã lưu cài đặt đồng bộ.');
+    ctx.refreshSync?.();
+  };
+  sf.querySelector('[data-act=synccheck]').onclick = async () => {
+    busyBtns(true);
+    diagBox.innerHTML = '<li class="muted">Đang kiểm tra…</li>';
+    const c = readCfg();
+    await setSyncCfg(c);
+    const d = await diagnose(c);
+    if (d.fix.owner || d.fix.branch) { await setSyncCfg(d.cfg); for (const k of Object.keys(d.cfg)) el(k).value = d.cfg[k]; }
+    showDiag(d.steps);
+    busyBtns(false);
+    toast(d.ok ? 'Kết nối ổn. Bấm Đồng bộ ngay.' : 'Có chỗ cần sửa — xem danh sách bên dưới.');
+  };
+  sf.querySelector('[data-act=sync]').onclick = async () => {
+    busyBtns(true);
+    diagBox.innerHTML = '';
     await setSyncCfg(readCfg());
     const r = await syncNow();
-    b.disabled = false;
-    if (r.ok) toast('Đã đồng bộ.');
-    else toast(r.error || r.skipped);
+    busyBtns(false);
+    if (r.ok) {
+      const c = await getSyncCfg();
+      for (const k of Object.keys(c)) el(k).value = c[k];
+      toast(r.fixed ? 'Đã đồng bộ. ' + r.fixed : 'Đã đồng bộ.');
+    } else {
+      toast(r.error || r.skipped);
+      if (r.diag) showDiag(r.diag.steps);
+      else if (r.problem) showDiag([{ ok: false, text: r.problem }]);
+    }
     ctx.refreshSync?.();
-    sf.querySelector('.sync-st').innerHTML = `Lần đồng bộ cuối: ${fmtDate(await lastSync())}${r.error ? `<br><span class="err">Lỗi: ${esc(r.error)}</span>` : ''}`;
+    status(r);
   };
 }

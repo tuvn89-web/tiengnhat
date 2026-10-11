@@ -140,16 +140,25 @@ function registerSW() {
   if (!('serviceWorker' in navigator) || !location.protocol.startsWith('http')) return;
   const had = !!navigator.serviceWorker.controller;
   navigator.serviceWorker.register('sw.js').then(reg => {
-    reg.addEventListener('updatefound', () => {
-      const w = reg.installing;
-      w?.addEventListener('statechange', () => {
-        if (w.state === 'installed' && navigator.serviceWorker.controller)
-          toast('Có bản cập nhật mới của app.', { action: 'Cập nhật', onAction: () => w.postMessage('skipWaiting') });
-      });
-    });
+    if (reg.waiting) reg.waiting.postMessage('skipWaiting');
   }).catch(() => { });
+  // Bản mới đã cài → tải lại trang. Đang giữa lượt học thì chờ xong lượt (về trang khác) mới tải lại.
   let done = false;
-  navigator.serviceWorker.addEventListener('controllerchange', () => { if (!had || done) return; done = true; location.reload(); });
+  const reload = () => {
+    if (done) return; done = true;
+    try { sessionStorage.setItem('tn-updated', '1'); } catch { }
+    location.reload();
+  };
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!had) return;
+    if (document.querySelector('.run')) window.addEventListener('hashchange', reload, { once: true });
+    else reload();
+  });
+}
+function announceUpdate() {
+  try {
+    if (sessionStorage.getItem('tn-updated')) { sessionStorage.removeItem('tn-updated'); toast('Đã cập nhật app lên bản mới.'); }
+  } catch { }
 }
 
 async function init() {
@@ -160,6 +169,7 @@ async function init() {
   await loadProgress();
   window.addEventListener('hashchange', route);
   route();
+  announceUpdate();
   registerSW();
   try { navigator.storage?.persist?.(); } catch { }
   syncBadge();

@@ -1,6 +1,6 @@
 // Service worker: chạy offline.
 // Sửa bất kỳ file nào của app (html/css/js) thì TĂNG số phiên bản dưới đây để máy tải bản mới.
-const VERSION = 'tnt-v1';
+const VERSION = 'tnt-v2';
 const DATA = 'tnt-data';
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest', 'css/app.css',
@@ -10,7 +10,9 @@ const SHELL = [
 ];
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)));
+  // cache: 'reload' = tải thẳng từ mạng, bỏ qua bộ nhớ đệm của trình duyệt (tránh cài bản mới mà lại lấy file cũ)
+  e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL.map(u => new Request(u, { cache: 'reload' })))));
+  self.skipWaiting(); // bản mới dùng ngay, không phải chờ đóng hết app
 });
 self.addEventListener('activate', e => {
   e.waitUntil(
