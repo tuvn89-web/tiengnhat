@@ -13,6 +13,8 @@ import { chips, bindChips, readChip, readChips, topicOpts, emptyState, wtabs } f
 import { kvGet, kvSet } from './db.js';
 import { dueDirs, status, stats } from './srs.js';
 import { ttsReady } from './tts.js';
+import { recForm, weakForms } from './fstat.js';
+import { sentDue, dueSentQs } from './dich.js';
 
 const cap = s => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
 const sentHTML = jp => `<p class="after-sent" lang="ja">${rubyHTML(jp, true)}</p>`;
@@ -29,7 +31,8 @@ function sourceBlock(o, filter, { label = 'Lấy từ nào' } = {}) {
     <fieldset><legend>Chủ đề <small>(không chọn = tất cả)</small></legend>${chips('topics', topicOpts(), o.topics || [])}</fieldset>`;
 }
 const readSource = f => ({ source: readChip(f, 'source'), levels: readChips(f, 'levels'), topics: readChips(f, 'topics') });
-const pool = (o, filter) => shuffle(selectItems(o).filter(filter));
+// o.items: danh sách từ chọn sẵn (trang Luyện thể chọn nhiều nguồn cùng lúc)
+const pool = (o, filter) => shuffle((o.items || selectItems(o)).filter(filter));
 
 // Khung trang thiết lập dùng chung: vẽ form, đếm số câu, bấm Bắt đầu
 async function setupPage(view, ctx, { key, title, intro = '', fields, read, build, route, drillTitle, empty }) {
@@ -101,14 +104,17 @@ export function verbPhrases(it) {
   return out;
 }
 const PRECHUNK = pre => (pre ? (autoChunks(pre).join('') === pre ? autoChunks(pre) : [pre]) : []);
-function makeSent(ph, t) {
+export function makeSent(ph, t) {
   if (t.need && !hasForm(ph.v, t.need)) return null;
+  if (t.skip && t.skip.includes(ph.v.dictKana)) return null; // khung câu đã có chính động từ này
   const c = conjPart(ph.v, t.f);
   if (!c) return null;
   let pre = ph.pre;
   if (t.ga) pre = pre.replace(/を$/, 'が');
+  // 〜方: 魚を切る → 魚の切り方 (chỉ dùng cụm kết thúc bằng を hoặc động từ trần)
+  if (t.no) { if (pre && !/を$/.test(pre)) return null; pre = pre.replace(/を$/, 'の'); }
   const pc = (t.pre || []).map(x => (typeof x === 'function' ? x(ph) : x));
-  const verb = c.mark + (t.suf || '');
+  const verb = (t.mod ? t.mod(c.mark) : c.mark) + (t.suf || '');
   const chunks = [...pc, ...PRECHUNK(pre), verb, ...(t.tail || [])].filter(Boolean);
   const last = chunks[chunks.length - 1];
   const jp = chunks.join('') + (/[！？。]$/.test(plain(last)) ? '' : '。');
@@ -156,7 +162,7 @@ function phrasesFrom(o) {
   // ưu tiên cụm có sẵn trong dữ liệu (tự nhiên hơn động từ trần)
   return out.sort((a, b) => (a.bare ? 1 : 0) - (b.bare ? 1 : 0));
 }
-function buildNgPhap(o) {
+export function buildNgPhap(o) {
   const gs = tplPatterns().filter(g => !o.pats?.length || o.pats.includes(g.id));
   const T = gs.flatMap(g => grammarTemplates(g).map(t => ({ ...t, g })));
   if (!T.length) return [];
@@ -217,12 +223,31 @@ export const FTPL = [
   { form: 'kano', f: 'kano.masu', ga: true, vi: 'Tôi có thể {VP}.' },
   { form: 'ikou', f: 'ikou', tail: ['と思[おも]います'], vi: 'Tôi định {VP}.' },
   { form: 'ba', f: 'ba', suf: '、', tail: ['大丈夫[だいじょうぶ]です'], vi: 'Chỉ cần {VP} là được.' },
-  { form: 'tara', f: 'tara', suf: '、', tail: ['教[おし]えてください'], vi: '{VP} xong thì báo cho tôi.' },
+  { form: 'tara', f: 'tara', suf: '、', skip: ['おしえる'], tail: ['教[おし]えてください'], vi: '{VP} xong thì báo cho tôi.' },
   { form: 'shieki', f: 'shieki.mashita', pre: ['班長[はんちょう]は', toWo], vi: 'Tổ trưởng bắt tôi {VP}.' },
   { form: 'shieki', f: 'shiekite', tail: ['ください'], vi: 'Xin cho tôi {VP}.' },
   { form: 'shiekiukemi', f: 'shiekiukemi.mashita', pre: ['私[わたし]は', '班長[はんちょう]に'], vi: 'Tôi bị tổ trưởng bắt {VP}.' },
   { form: 'meirei', f: 'meirei', pre: ['早[はや]く'], suf: '！', vi: '{VP} nhanh lên! (ra lệnh)' },
   { form: 'kinshi', f: 'kinshi', suf: '！', vi: 'Cấm {VP}!' },
+  // thể mở rộng
+  { form: 'sou', f: 'sou', tail: ['です'], vi: 'Có vẻ sắp {VP}.' },
+  { form: 'sugiru', f: 'stem', need: 'sugiru', tail: ['すぎました'], vi: 'Tôi đã {VP} quá mức.' },
+  { form: 'yasui', f: 'yasui', tail: ['です'], vi: 'Dễ {VP}.' },
+  { form: 'nikui', f: 'nikui', tail: ['です'], vi: 'Khó {VP}.' },
+  { form: 'nagara', f: 'nagara', skip: ['きく'], tail: ['ラジオを聞[き]きます'], vi: 'Tôi vừa {VP} vừa nghe radio.' },
+  { form: 'kata', f: 'kata', no: true, skip: ['おしえる'], tail: ['を教[おし]えてください'], vi: 'Xin chỉ cho tôi cách {VP}.' },
+  { form: 'tari', f: 'tari', pre: ['休[やす]みの日[ひ]は'], tail: ['します'], vi: 'Ngày nghỉ tôi làm những việc như {VP}.' },
+  { form: 'zu', f: 'zu', skip: ['かえる'], tail: ['帰[かえ]りました'], vi: 'Tôi đã về mà không {VP}.' },
+  { form: 'teshimau', f: 'te', need: 'teshimau', tail: ['しまいました'], vi: 'Tôi lỡ {VP} mất rồi.' },
+  { form: 'chau', f: 'chau', mod: m => m.replace(/う$/, 'った'), vi: 'Lỡ {VP} mất rồi. (nói tắt)' },
+  { form: 'teoku', f: 'te', need: 'teoku', tail: ['おきます'], vi: 'Tôi sẽ {VP} sẵn.' },
+  { form: 'toku', f: 'toku', tail: ['ね'], vi: 'Để tôi {VP} sẵn nhé. (nói tắt)' },
+  { form: 'teru', f: 'teru', pre: ['今[いま]、'], tail: ['よ'], vi: 'Giờ đang {VP} đây. (nói tắt)' },
+  { form: 'nakereba', f: 'nakereba', tail: ['なりません'], vi: 'Phải {VP}.' },
+  { form: 'nakya', f: 'nakya', vi: 'Phải {VP} thôi. (nói tắt)' },
+  { form: 'tewa', f: 'te', need: 'tewa', tail: ['はいけません'], vi: 'Không được {VP}.' },
+  { form: 'chadame', f: 'chadame', tail: ['よ'], vi: 'Không được {VP} đâu. (nói tắt)' },
+  { form: 'sasete', f: 'sasete', vi: 'Xin cho tôi {VP}.' },
 ];
 const FQT = [['vn', 'Việt → chọn câu Nhật'], ['nv', 'Nhật → chọn nghĩa'], ['dien', 'Điền thể vào chỗ trống'], ['mix', 'Trộn']];
 function fxQs(o, forms) {
@@ -242,7 +267,7 @@ function fxQs(o, forms) {
   }
   return out;
 }
-function buildThe(o) {
+export function buildThe(o) {
   const forms = o.forms?.length ? o.forms : [...learnedForms()];
   const T = FTPL.filter(t => forms.includes(t.form));
   if (T.length < 2) return [];
@@ -254,15 +279,16 @@ function buildThe(o) {
     const s = mine[0], others = mine.slice(1);
     const qt = types[Math.floor(Math.random() * types.length)];
     const lab = 'Thể động từ — ' + FORMS[s.t.form];
+    const onAnswer = ok => recForm(s.t.form, ph.v.group, ok);
     const after = sentHTML(s.jp) + `<p class="muted small">${esc(FORMS[s.t.form])} của <span lang="ja">${rich(ph.v.dict)}</span>: <span lang="ja">${rich(conjPart(ph.v, s.t.form)?.mark || '')}</span></p>`;
     if (qt === 'vn') {
       const seen = new Set([plain(s.jp)]), opts = others.filter(x => !seen.has(plain(x.jp)) && seen.add(plain(x.jp))).slice(0, 3);
       if (opts.length < 2) continue;
-      out.push({ kind: 'choice', tag: lab, level: FORM_LEVEL[s.t.form], prompt: `<p class="prompt-vi">${esc(s.vi)}</p>`, hint: 'Chọn câu tiếng Nhật đúng nghĩa', opts: shuffle([s, ...opts]).map((x, i) => opt(x === s ? 'ok' : 'x' + i, rich(x.jp))), answer: 'ok', after });
+      out.push({ kind: 'choice', tag: lab, level: FORM_LEVEL[s.t.form], prompt: `<p class="prompt-vi">${esc(s.vi)}</p>`, hint: 'Chọn câu tiếng Nhật đúng nghĩa', opts: shuffle([s, ...opts]).map((x, i) => opt(x === s ? 'ok' : 'x' + i, rich(x.jp))), answer: 'ok', after, onAnswer });
     } else if (qt === 'nv') {
       const seen = new Set([s.vi]), opts = others.filter(x => !seen.has(x.vi) && seen.add(x.vi)).slice(0, 3);
       if (opts.length < 2) continue;
-      out.push({ kind: 'choice', tag: lab, level: FORM_LEVEL[s.t.form], prompt: `<p class="prompt-sent" lang="ja">${rubyHTML(s.jp, true)}</p>`, hint: 'Chọn nghĩa đúng', opts: shuffle([s, ...opts]).map((x, i) => opt(x === s ? 'ok' : 'x' + i, esc(x.vi), false)), answer: 'ok', after });
+      out.push({ kind: 'choice', tag: lab, level: FORM_LEVEL[s.t.form], prompt: `<p class="prompt-sent" lang="ja">${rubyHTML(s.jp, true)}</p>`, hint: 'Chọn nghĩa đúng', opts: shuffle([s, ...opts]).map((x, i) => opt(x === s ? 'ok' : 'x' + i, esc(x.vi), false)), answer: 'ok', after, onAnswer });
     } else {
       // điền: giữ khung câu của thể đúng, chỗ trống là phần động từ đã chia
       const seen = new Set([plain(s.verb)]), opts = others.map(x => x.verb).filter(m => !seen.has(plain(m)) && seen.add(plain(m))).slice(0, 3);
@@ -270,7 +296,7 @@ function buildThe(o) {
       const frame = s.chunks.map(c => (c === s.verb ? '\u0000' : c)).join('') + (/[！？。]$/.test(plain(s.chunks.at(-1))) ? '' : '。');
       out.push({ kind: 'choice', tag: lab, level: FORM_LEVEL[s.t.form],
         prompt: `<p class="prompt-sent" lang="ja">${rubyHTML(frame, true).replace('\u0000', '<span class="blank">　　　</span>')}</p><p class="prompt-vi-s">${esc(s.vi)}</p><p class="prompt-hint">Động từ: <span lang="ja">${rich(ph.v.dict)}</span></p>`,
-        opts: shuffle([s.verb, ...opts]).map((m, i) => opt(m === s.verb ? 'ok' : 'x' + i, rich(m))), answer: 'ok', after });
+        opts: shuffle([s.verb, ...opts]).map((m, i) => opt(m === s.verb ? 'ok' : 'x' + i, rich(m))), answer: 'ok', after, onAnswer });
     }
     if (out.length >= o.count) break;
   }
@@ -354,6 +380,12 @@ function buildDem(o) {
     const c = cs[Math.floor(Math.random() * cs.length)], n = 1 + Math.floor(Math.random() * 10);
     const right = COUNTERS[c].r[n - 1], wrong = countWrong(c, n).slice(0, 3);
     if (wrong.length < 2 || out.some(q => q._k === c + n)) continue;
+    if (o.qt === 'go' || (o.qt === 'mix' && Math.random() < 0.5)) {
+      out.push({ _k: c + n, kind: 'type', tag: 'Đếm số — gõ cách đọc', promptBare: true,
+        prompt: `<p class="prompt-jp" lang="ja" data-bare>${n}${esc(c)}</p><p class="prompt-hint">${esc(COUNTERS[c].vi)} — gõ cách đọc bằng kana</p>`,
+        accept: [right], answerHTML: esc(right), after: `<p lang="ja">${rich(countMark(c, n))}</p>` });
+      continue;
+    }
     out.push({ _k: c + n, kind: 'choice', tag: 'Đếm số', promptBare: true,
       prompt: `<p class="prompt-jp" lang="ja" data-bare>${n}${esc(c)}</p><p class="prompt-hint">${esc(COUNTERS[c].vi)} — đọc thế nào?</p>`,
       opts: shuffle([right, ...wrong]).map((r, i) => opt(r === right ? 'ok' : 'x' + i, esc(r))), answer: 'ok',
@@ -367,14 +399,15 @@ export async function renderDem(view, ctx) {
   setupPage(view, ctx, {
     key: 'pDem', title: 'Đếm số', route: '#/luyen/dem',
     intro: rich('Đọc số đếm có âm biến: 一本[いっぽん], 三本[さんぼん], 六匹[ろっぴき]… Trong câu hỏi chữ Hán không có furigana vì đây là bài đọc; cách đọc hiện sau khi chọn.'),
-    fields: `<fieldset><legend>Trợ số từ</legend>${chips('cs', Object.entries(COUNTERS).map(([c, x]) => [c, `${rich(counterMark(c))} <small>${esc(x.vi.split(/[:,(]/)[0])}</small>`, undefined, true]), o.cs)}</fieldset>`,
-    read: f => ({ cs: readChips(f, 'cs') }), build: buildDem,
+    fields: `<fieldset><legend>Trợ số từ</legend>${chips('cs', Object.entries(COUNTERS).map(([c, x]) => [c, `${rich(counterMark(c))} <small>${esc(x.vi.split(/[:,(]/)[0])}</small>`, undefined, true]), o.cs)}</fieldset>
+      <fieldset><legend>Cách trả lời</legend>${chips('qt', [['chon', 'Chọn trong 4'], ['go', 'Tự gõ (kana / romaji)'], ['mix', 'Trộn']], o.qt || 'chon', false)}</fieldset>`,
+    read: f => ({ cs: readChips(f, 'cs'), qt: readChip(f, 'qt') }), build: buildDem,
   });
 }
 
 // ---------- F7: ôn hỗn hợp hôm nay ----------
 export function mixedDue() {
-  return { vocab: D.vocab.filter(it => dueDirs(it).length), kanji: D.kanji.filter(it => dueDirs(it).length), grammar: D.grammar.filter(it => dueDirs(it).length) };
+  return { vocab: D.vocab.filter(it => dueDirs(it).length), kanji: D.kanji.filter(it => dueDirs(it).length), grammar: D.grammar.filter(it => dueDirs(it).length), sent: sentDue() };
 }
 export async function renderMixed(view, ctx) {
   const { buildKanjiQs } = await import('./kanji.js');
@@ -393,9 +426,17 @@ export async function renderMixed(view, ctx) {
   }
   const kq = buildKanjiQs({ dir: 'mix', source: 'due', count: 12 });
   const gq = buildGrammarQs({ type: 'mix', source: 'due', count: 12 });
-  const fq = vq.length + kq.length + gq.length ? buildThe({ source: 'learned', count: 4, qt: 'mix' }) : [];
+  const fq = vq.length + kq.length + gq.length + due.sent.length ? buildThe({ source: 'learned', count: 4, qt: 'mix' }) : [];
+  // thể hay sai (Điểm theo thể dưới 70%) → thêm vài câu chia đúng thể đó
+  const wf = weakForms();
+  if (wf.length && (vq.length + kq.length + gq.length + due.sent.length)) {
+    const { conjQ } = await import('./gdrill.js');
+    const vs = shuffle(D.vocab.filter(it => verbInfo(it) && status(it) !== 'new'));
+    for (const f of wf.slice(0, 3)) { const it = vs.find(x => conjPart(x, f)); const q = it && conjQ(it, f); if (q) fq.push({ ...q, tag: 'Thể hay sai — ' + FORMS[f] }); }
+  }
+  const sq = dueSentQs(6); // câu dịch đến hạn
   // xen kẽ các loại để không ôn liền một mạch một loại
-  const lanes = [vq, kq, gq, fq].filter(l => l.length), qs = [];
+  const lanes = [vq, kq, gq, sq, fq].filter(l => l.length), qs = [];
   while (lanes.some(l => l.length)) for (const l of lanes) if (l.length) qs.push(l.shift());
   if (!qs.length) { view.innerHTML = backLink + emptyState('Hôm nay không còn gì đến hạn ôn. Học thêm từ mới nhé.', '<a class="btn btn-primary" href="#/moi">Học từ mới</a>'); return; }
   runDrill(view, qs, ctx, { title: 'Ôn hỗn hợp hôm nay', again: () => ctx.go('#/onhon', true) });
@@ -406,7 +447,7 @@ export function renderHub(view) {
   const st = stats(D.vocab);
   const verbs = D.vocab.filter(it => verbInfo(it)), adjs = D.vocab.filter(it => adjInfo(it));
   const learnedVerbs = verbs.filter(it => status(it) !== 'new').length;
-  const due = mixedDue(), nDue = due.vocab.length + due.kanji.length + due.grammar.length;
+  const due = mixedDue(), nDue = due.vocab.length + due.kanji.length + due.grammar.length + due.sent.length;
   const card = (href, ic, t, d, n) => `<a class="mode" href="${href}">${icon(ic)}<span><b>${t}</b><small>${rich(d)}</small></span>${n != null ? `<span class="mode-n">${n}</span>` : ''}</a>`;
   view.innerHTML = `<h1 class="h1">Luyện tập</h1>${wtabs('hub')}
     <p class="muted small">Mặc định mọi bài chỉ dùng từ Cậu Cả đã học; đổi được ở phần "Lấy từ nào" của từng bài.</p>
@@ -420,9 +461,14 @@ export function renderHub(view) {
     </nav>
     <h2 class="h2">Động từ và tính từ</h2>
     <nav class="modes">
+      ${card('#/luyen/chia', 'list', 'Luyện thể', 'Gõ thể, chuỗi biến đổi, nhận diện ngược, đổi câu, tự – tha, kính ngữ; tính từ, danh từ + だ; 60 giây tốc độ', learnedVerbs)}
       ${card('#/luyen/the', 'quiz', 'Thể động từ trong câu', 'Bị động, sai khiến, khả năng… trong câu ngẫu nhiên', learnedVerbs)}
       ${card('#/nguphap/luyen?t=conj', 'list', 'Chia động từ', 'Chọn thể đúng của từng động từ, có giải thích luật chia', verbs.length)}
       ${card('#/luyen/tinhtu', 'book', 'Tính từ trong câu', 'Không ~, đã ~, trông có vẻ ~, quá ~; 重[おも]い → 重[おも]さ; trái nghĩa', adjs.length)}
+    </nav>
+    <h2 class="h2">Dịch</h2>
+    <nav class="modes">
+      ${card('#/dich', 'book', 'Luyện dịch theo câu', 'Nhật ↔ Việt: chọn câu đúng, tự gõ (app chấm), nghe, ghép mảnh — câu ví dụ theo cấp', due.sent.length ? due.sent.length + ' đến hạn' : null)}
     </nav>
     <h2 class="h2">Ngữ pháp</h2>
     <nav class="modes">

@@ -40,6 +40,8 @@ const sound = r => r.replace(/\s*\(.*\)$/, '');
 const snd = r => (sound(r) === 'wo' ? 'o' : sound(r));
 
 const SETS = { basic: BASIC.filter(x => x[0]), daku: DAKU, yoon: YOON };
+// cách viết romaji khác cũng chấp nhận (kiểu Kunrei)
+const ROMA_ALT = { shi: ['si'], chi: ['ti'], tsu: ['tu'], fu: ['hu'], ji: ['zi'], sha: ['sya'], shu: ['syu'], sho: ['syo'], cha: ['tya'], chu: ['tyu'], cho: ['tyo'], ja: ['zya', 'jya'], ju: ['zyu', 'jyu'], jo: ['zyo', 'jyo'], wo: ['o'] };
 export function kanaList(script = 'h', parts = ['basic']) {
   const out = [];
   for (const p of parts) for (const [h, r] of SETS[p]) {
@@ -80,6 +82,8 @@ function kanaQ(x, dir, pool) {
     opts: shuffle([x, ...ds]).map(o => opt(o.ch, esc(sound(o.r)), false)), answer: x.ch, after, onAnswer, promptBare: true };
   if (dir === 'au') return { kind: 'choice', tag, prompt: '<p class="prompt-hint">Nghe (bấm loa để nghe lại) rồi chọn chữ</p>', say: x.ch, autoSay: true,
     opts: shuffle([x, ...ds]).map(o => opt(o.ch, `<span class="kana-opt">${esc(o.ch)}</span>`)), answer: x.ch, after, onAnswer };
+  if (dir === 'go') return { kind: 'type', tag, prompt: `<p class="prompt-jp kana-q" lang="ja" data-bare>${esc(x.ch)}</p>`, hint: 'Gõ cách đọc bằng chữ Latinh (romaji)', promptBare: true,
+    placeholder: 'vd. ka, shi, tsu', accept: [sound(x.r), ...(x.r.match(/\(([a-z]+)\)/) || []).slice(1), ...(ROMA_ALT[sound(x.r)] || [])], answerHTML: esc(x.r), after, onAnswer, romajiOff: true };
   return { kind: 'choice', tag, prompt: `<p class="prompt-vi kana-r">${esc(sound(x.r))}</p>`, hint: 'Chọn chữ đọc như trên',
     opts: shuffle([x, ...ds]).map(o => opt(o.ch, `<span class="kana-opt">${esc(o.ch)}</span>`)), answer: x.ch, after, onAnswer };
 }
@@ -89,7 +93,7 @@ export function buildKanaQs({ script = 'h', parts = ['basic'], dir = 'mix', coun
   // ưu tiên chữ chưa thuộc
   items.sort((a, b) => (D.kana[a.ch]?.b || 0) - (D.kana[b.ch]?.b || 0));
   if (weak) items = items.filter(x => !known(x.ch));
-  const dirs = dir === 'mix' ? ['kr', 'rk', ...(ttsReady() ? ['au'] : [])] : [dir];
+  const dirs = dir === 'mix' ? ['kr', 'rk', 'go', ...(ttsReady() ? ['au'] : [])] : [dir];
   const qs = [];
   for (const x of items) { const q = kanaQ(x, dirs[qs.length % dirs.length], pool); if (q) qs.push(q); if (qs.length >= count) break; }
   return shuffle(qs);
@@ -138,12 +142,11 @@ export async function renderKana(view, ctx) {
       <h2 class="h2">Luyện</h2>
       <fieldset><legend>Bảng</legend>${chips('script', [['h', 'Hiragana'], ['k', 'Katakana'], ['hk', 'Cả hai']], o.script, false)}</fieldset>
       <fieldset><legend>Phần</legend>${chips('parts', [['basic', 'Âm cơ bản'], ['daku', 'Thêm dấu ゛゜'], ['yoon', 'Âm ghép ゃゅょ']], o.parts)}</fieldset>
-      <fieldset><legend>Kiểu câu hỏi</legend>${chips('dir', [['kr', 'Nhìn chữ → cách đọc'], ['rk', 'Cách đọc → chữ'], ...(ttsReady() ? [['au', 'Nghe → chữ']] : []), ['mix', 'Trộn']], o.dir, false)}</fieldset>
+      <fieldset><legend>Kiểu câu hỏi</legend>${chips('dir', [['kr', 'Nhìn chữ → cách đọc'], ['rk', 'Cách đọc → chữ'], ['go', 'Nhìn chữ → gõ romaji'], ...(ttsReady() ? [['au', 'Nghe → chữ']] : []), ['mix', 'Trộn']], o.dir, false)}</fieldset>
       <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 40].map(n => [String(n), String(n)]), String(o.count), false)}</fieldset>
       <label class="check"><input type="checkbox" data-act="weak" ${o.weak ? 'checked' : ''}> Chỉ chữ chưa thuộc</label>
       <p class="setup-count" aria-live="polite"></p>
       <button class="btn btn-primary btn-block" data-act="start">Bắt đầu</button>
-      <p class="small muted">Gõ kana bằng bàn phím có ở bản sau (đợt 5b).</p>
     </form>`;
   bindSay(view);
   const f = view.querySelector('.setup');

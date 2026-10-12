@@ -1,7 +1,10 @@
 // Bộ chạy bài tập dùng chung: chọn đáp án · sắp xếp mảnh câu · chạm vào chỗ sai.
 // Dùng cho ôn chữ Hán, bài tập ngữ pháp và thi thử.
 import { esc, shuffle, beep, buzz, icon, toast, orderOK, altOrders } from './util.js';
-import { S } from './settings.js';
+import { S, saveSettings } from './settings.js';
+import { attachRomaji, romajiToKana, normKana } from './romaji.js';
+import { knownBtnHTML, bindKnownBtn } from './quiz.js';
+import { D } from './data.js';
 import { review } from './srs.js';
 import { speak, ttsReady } from './tts.js';
 import { bindSay, confirmBox } from './ui.js';
@@ -13,6 +16,7 @@ import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from '.
     opts: [{ key, html, jp }], answer: key,           ← choice
     chunks: [html…] (đúng thứ tự), extra: [html…],    ← order
     parts: [html…], bad: số thứ tự, fix: html,        ← spot
+    accept: [chữ…], answerHTML: html, placeholder      ← type (tự gõ; so sau khi chuẩn hoá kana)
     after: html (giải thích sau khi trả lời), review: { id, dir } }  */
 export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'practice', timeLimit = 0, again, noReview = false, onDone } = {}) {
   if (!qs.length) { view.innerHTML = '<div class="empty"><p>Chưa đủ dữ liệu cho bài này.</p></div>'; return; }
@@ -58,6 +62,12 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
         <div class="row-btns"><button type="button" class="btn btn-ghost" data-act="clear">Xếp lại</button><button type="button" class="btn btn-primary" data-act="check" disabled>Kiểm tra</button></div>`;
     } else if (q.kind === 'spot') {
       body = `<div class="spot" lang="ja">${q.parts.map((h, n) => `<button type="button" class="chunk" data-n="${n}">${h}</button>`).join('')}</div>`;
+    } else if (q.kind === 'type') {
+      body = `<form class="typebox" onsubmit="return false">
+          <input class="input type-in" type="text" lang="${q.lang || (q.romajiOff ? 'en' : 'ja')}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done" aria-label="Gõ câu trả lời" placeholder="${esc(q.placeholder || (S.romaji ? 'gõ romaji (vd. kakareru) hoặc kana' : 'gõ bằng kana'))}">
+          <button type="submit" class="btn btn-primary" data-act="tcheck">Kiểm tra</button></form>
+        ${q.romajiOff ? '' : `<label class="check small type-rj"><input type="checkbox" data-act="romaji" ${S.romaji ? 'checked' : ''}> Gõ romaji tự đổi sang kana</label>
+        <p class="small muted type-tip">Bàn phím tiếng Việt (Telex) sẽ đổi chữ khi gõ romaji — chuyển sang bàn phím tiếng Anh hoặc tiếng Nhật.</p>`}`;
     }
     view.innerHTML = `<div class="run">${head()}${card(q)}${body}<div class="after" hidden></div></div>`;
     bindSay(view);
@@ -88,6 +98,25 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     } else if (q.kind === 'spot') {
       view.querySelectorAll('.spot .chunk').forEach(b => b.onclick = () => answer(q, +b.dataset.n === q.bad, b));
       setKeys(null);
+    } else if (q.kind === 'type') {
+      const inp = view.querySelector('.type-in');
+      const rj = () => S.romaji && !q.romajiOff;
+      attachRomaji(inp, rj);
+      const rb = view.querySelector('[data-act=romaji]');
+      if (rb) rb.onchange = e => { S.romaji = e.target.checked; saveSettings(); inp.placeholder = S.romaji ? 'gõ romaji (vd. kakareru) hoặc kana' : 'gõ bằng kana'; inp.focus(); };
+      view.querySelector('.typebox').onsubmit = e => {
+        e.preventDefault();
+        if (st.lock) return;
+        const typed = (rj() ? romajiToKana(inp.value, true) : inp.value).trim();
+        if (!typed) { inp.focus(); return; }
+        inp.value = typed;
+        q._typed = typed;
+        // câu dịch: hàm chấm riêng (so từ khoá / so cả câu, nhiều thứ tự) trả về {ok, html}
+        if (q.judge) { const j = q.judge(typed); q._judgeHTML = j.html; return answer(q, j.ok); }
+        answer(q, (q.accept || []).some(a => normKana(a) === normKana(typed)));
+      };
+      setKeys(null);
+      setTimeout(() => inp.focus({ preventScroll: true }), 50);
     }
   }
 
@@ -95,9 +124,17 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     if (st.lock) return;
     st.lock = true;
     const first = !q._again;
-    if (first) { st.res.push({ q, ok }); if (ok) st.score++; }
-    if (q.review && first && !noReview) review(q.review.id, q.review.dir, ok);
-    if (first && q.onAnswer) q.onAnswer(ok);
+    const entry = first ? { q, ok } : null;
+    if (first) { st.res.push(entry); if (ok) st.score++; }
+    // ghi lịch ôn / điểm theo thể; câu tự gõ thì chờ bấm Tiếp (còn nút "Tôi gõ đúng" để chấm lại)
+    let committed = false;
+    const commit = () => {
+      if (committed) return; committed = true; st.pending = null;
+      const okv = entry ? entry.ok : ok;
+      if (q.review && first && !noReview) review(q.review.id, q.review.dir, okv);
+      if (first && q.onAnswer) q.onAnswer(okv);
+    };
+    if (q.kind === 'type') st.pending = commit; else commit();
     if (test) { st.i++; return show(); }
     // đánh dấu đáp án
     if (q.kind === 'choice') view.querySelectorAll('.opt').forEach(b => {
@@ -113,9 +150,11 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     view.querySelector('.label-card').removeAttribute('data-nokj');
     if (S.sound) beep(ok);
     if (!ok && S.vibrate) buzz();
+    let againQ = null;
     if (!ok && first && !st.again.has(st.i)) {
       st.again.add(st.i);
-      st.qs.splice(Math.min(st.i + 4, st.qs.length), 0, { ...q, _again: true });
+      againQ = { ...q, _again: true };
+      st.qs.splice(Math.min(st.i + 4, st.qs.length), 0, againQ);
     }
     const after = view.querySelector('.after');
     after.hidden = false;
@@ -123,21 +162,39 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     if (!ok && q.kind === 'choice') right = `<p class="after-msg">Đáp án đúng: <b lang="ja">${q.opts.find(o => o.key === q.answer)?.html || ''}</b></p>`;
     if (q.kind === 'order') right = orderMsg(q, ok);
     if (!ok && q.kind === 'spot') right = `<p class="after-msg">Chỗ sai là mảnh được tô xanh. Sửa thành: <b lang="ja">${q.fix}</b></p>`;
+    if (q.kind === 'type') {
+      view.querySelectorAll('.typebox input, .typebox button, [data-act=romaji]').forEach(b => { b.disabled = true; });
+      right = (q._judgeHTML || (ok ? `<p class="after-ok">Đúng: <b lang="ja">${q.answerHTML}</b></p>`
+        : `<p class="after-msg">Đáp án: <b lang="ja">${q.answerHTML}</b> · Cậu Cả gõ: <span lang="ja">${esc(q._typed || '')}</span></p>`))
+        + (!ok && first ? `<button type="button" class="btn btn-ghost btn-sm" data-act="override">${q.judge ? 'Tôi dịch đúng — tính là đúng' : 'Tôi gõ đúng — tính là đúng'}</button>` : '');
+    }
     after.innerHTML = right + (q.after || '');
+    const ov = after.querySelector('[data-act=override]');
+    if (ov) ov.onclick = () => {
+      if (!entry || entry.ok) return;
+      entry.ok = true; st.score++;
+      if (againQ) { const k = st.qs.indexOf(againQ); if (k > st.i) st.qs.splice(k, 1); st.again.delete(st.i); }
+      view.querySelector('.stamp').className = 'stamp stamp-ok';
+      ov.replaceWith(Object.assign(document.createElement('p'), { className: 'small muted', textContent: 'Đã tính là đúng.' }));
+    };
     // phần giải thích nằm dưới thanh "Tiếp" (thanh dính đáy màn hình) thì cuộn lên cho thấy hết
     requestAnimationFrame(() => { if (after.getBoundingClientRect().bottom > innerHeight - 150) after.scrollIntoView({ block: 'end', behavior: 'smooth' }); });
     const bar = document.createElement('div');
     bar.className = 'next-bar';
-    bar.innerHTML = `<button type="button" class="btn btn-primary" data-act="next">Tiếp</button>`;
+    // mục có lịch ôn (từ, chữ Hán, mẫu, câu dịch): thêm nút "Đã thuộc"
+    const kItem = q.review && !noReview ? (D.items.get(q.review.id) || (q.review.id.startsWith('s:') ? { id: q.review.id } : null)) : null;
+    bar.innerHTML = `${kItem ? knownBtnHTML(kItem) : ''}<button type="button" class="btn btn-primary" data-act="next">Tiếp</button>`;
     view.querySelector('.run').appendChild(bar);
+    if (kItem) bindKnownBtn(bar, kItem, () => { if (againQ) { const k = st.qs.indexOf(againQ); if (k > st.i) st.qs.splice(k, 1); } });
     const nb = bar.querySelector('[data-act=next]');
-    nb.onclick = () => { st.i++; show(); };
+    nb.onclick = () => { st.pending?.(); st.i++; show(); };
     nb.focus({ preventScroll: true });
     setKeys(e => { if (e.key === 'Enter') { e.preventDefault(); nb.click(); } });
     if (ok && S.autoNext) setTimeout(() => { if (view.contains(nb)) nb.click(); }, S.autoNext);
   }
 
   function finish(early = false) {
+    st.pending?.();
     setKeys(null); clearInterval(timer); timer = null;
     renderResult(view, ctx, { title, mode, test, early, res: st.res, total: st.total, score: st.score, again,
       redo: wrong => runDrill(view, wrong.map(w => ({ ...w.q, _again: false })), ctx, { title, mode, again, noReview }) });
@@ -164,14 +221,14 @@ function renderResult(view, ctx, { title, test, early, res, total, score, again,
   const byTag = {};
   for (const r of res) { const t = r.q.tag || ''; byTag[t] = byTag[t] || [0, 0]; byTag[t][1]++; if (r.ok) byTag[t][0]++; }
   const pct = total ? Math.round((score / total) * 100) : 0;
-  const ansHTML = q => q.kind === 'choice' ? (q.opts.find(o => o.key === q.answer)?.html || '') : q.kind === 'order' ? [q.chunks, ...altOrders(q.chunks)].map(c => c.join(' ')).join(' <span class="muted small">hoặc</span> ') : q.fix;
-  const chosenHTML = r => r.q.kind !== 'choice' ? '' : r.skip ? '<p class="muted small">Bỏ trống</p>' : `<p class="small">Đã chọn: <span lang="ja">${r.q.opts.find(o => o.key === r.chosen)?.html || ''}</span></p>`;
+  const ansHTML = q => q.kind === 'choice' ? (q.opts.find(o => o.key === q.answer)?.html || '') : q.kind === 'order' ? [q.chunks, ...altOrders(q.chunks)].map(c => c.join(' ')).join(' <span class="muted small">hoặc</span> ') : q.kind === 'type' ? q.answerHTML : q.fix;
+  const chosenHTML = r => r.q.kind === 'type' ? `<p class="small">Đã gõ: <span lang="ja">${esc(r.q._typed || '')}</span></p>` : r.q.kind !== 'choice' ? '' : r.skip ? '<p class="muted small">Bỏ trống</p>' : `<p class="small">Đã chọn: <span lang="ja">${r.q.opts.find(o => o.key === r.chosen)?.html || ''}</span></p>`;
   view.innerHTML = `<section class="result">${crumbHTML(ctx)}
       <h1 class="h1">${test ? 'Kết quả thi thử' : early ? 'Đã dừng' : 'Xong lượt'}</h1>
       <p class="result-score"><b>${score}</b><span>/${test ? total : answered}</span></p>
       <p class="result-sub">${test ? `${pct}% · ${answered < total ? `bỏ trống ${total - answered} câu` : 'làm đủ các câu'}` : 'câu đúng ngay lần đầu'}</p>
       ${test ? `<table class="topics bytag"><tbody>${Object.entries(byTag).map(([t, [a, b]]) => `<tr><th scope="row">${esc(t)}</th><td><span class="mini"><i style="width:${(a / b) * 100}%"></i></span></td><td class="num">${a}/${b}</td></tr>`).join('')}</tbody></table>` : ''}
-      ${wrong.length ? `<h2 class="h2">${test ? 'Câu sai và câu bỏ trống' : 'Câu trả lời sai'}</h2><ul class="wlist wlist-drill">${wrong.map(r => `<li><span class="muted small">${esc(r.q.tag || '')}</span><div class="wq">${r.q.prompt}</div>${test ? chosenHTML(r) : ''}<p>Đáp án: <b lang="ja">${ansHTML(r.q)}</b></p>${r.q.after || ''}</li>`).join('')}</ul>` : answered ? '<p class="result-good">Không sai câu nào.</p>' : ''}
+      ${wrong.length ? `<h2 class="h2">${test ? 'Câu sai và câu bỏ trống' : 'Câu trả lời sai'}</h2><ul class="wlist wlist-drill">${wrong.map(r => `<li><span class="muted small">${esc(r.q.tag || '')}</span><div class="wq">${r.q.prompt}</div>${test || r.q.kind === 'type' ? chosenHTML(r) : ''}<p>Đáp án: <b lang="ja">${ansHTML(r.q)}</b></p>${r.q.after || ''}</li>`).join('')}</ul>` : answered ? '<p class="result-good">Không sai câu nào.</p>' : ''}
       <div class="row-btns stack">
         ${wrong.length && redo ? `<button class="btn btn-primary" data-act="redo">${test ? 'Luyện lại các câu sai (không tính điểm)' : 'Làm lại câu sai'}</button>` : ''}
         ${again ? `<button class="btn ${wrong.length && redo ? 'btn-ghost' : 'btn-primary'}" data-act="again">${test ? 'Làm đề mới' : 'Lượt mới'}</button>` : ''}

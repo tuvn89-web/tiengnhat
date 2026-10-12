@@ -17,8 +17,10 @@ import { syncNow, getSyncCfg, lastSync, lastSyncError } from './sync.js';
 import { emptyState } from './ui.js';
 import { initNav } from './nav.js';
 import { renderLevelHub, remindHTML } from './level.js';
-import { renderStart, renderRoadmap, planToday, forecast, needsOnboard } from './roadmap.js';
+import { renderStart, renderRoadmap, planToday, forecast, needsOnboard, roadmapCardHTML } from './roadmap.js';
 import { renderKana } from './kana.js';
+import { renderForms } from './forms.js';
+import { renderDich } from './dich.js';
 import { renderGuides, renderGuide } from './guides.js';
 import { setPrefs } from './data.js';
 
@@ -33,7 +35,7 @@ const ctx = {
 
 const NAV = [
   ['#/', 'home', 'Trang chủ', /^(?:|trinhdo|lotrinh|batdau|kana|huongdan(?:\/.*)?)$/],
-  ['#/luyen', 'quiz', 'Luyện tập', /^(luyen|hoc|on|moi|ghep|onhon)/],
+  ['#/luyen', 'quiz', 'Luyện tập', /^(luyen|hoc|on|moi|ghep|onhon|dich)/],
   ['#/chuhan', 'han', 'Chữ Hán', /^(chuhan|onchu)/],
   ['#/nguphap', 'book', 'Ngữ pháp', /^(nguphap|onngu)/],
   ['#/kho', 'list', 'Kho từ', /^(kho|them|sua)/],
@@ -49,6 +51,7 @@ const ROUTES = [
   [/^luyen\/the$/, v => renderThe(v, ctx)],
   [/^luyen\/tinhtu$/, v => renderTinhTu(v, ctx)],
   [/^luyen\/dem$/, v => renderDem(v, ctx)],
+  [/^luyen\/chia(?:\?g=(.+))?$/, (v, m) => renderForms(v, ctx, m[1] ? decodeURIComponent(m[1]) : null)],
   [/^onhon$/, v => renderMixed(v, ctx)],
   [/^hoc$/, v => renderQuizSetup(v, ctx)],
   [/^on$/, v => startQuick(v, 'due')],
@@ -71,6 +74,8 @@ const ROUTES = [
   [/^dulieu$/, v => renderData(v, ctx)],
   [/^nhan\?c=([A-Za-z0-9_-]+)$/, (v, m) => receiveSetup(v, ctx, m[1])],
   [/^caidat$/, v => renderSettings(v, ctx)],
+  [/^dich$/, v => renderDich(v, ctx)],
+  [/^dich\?on$/, v => renderDich(v, ctx, { src: 'due', learned: false })],
   [/^trinhdo$/, v => renderLevelHub(v, ctx)],
   [/^lotrinh$/, v => renderRoadmap(v, ctx)],
   [/^batdau$/, v => renderStart(v, ctx)],
@@ -146,13 +151,14 @@ function renderHome(v) {
     return [t, items.length, stats(items).known];
   }).filter(x => x[1]);
   const kd = kanjiOfDay();
-  const md = mixedDue(), nDue = md.vocab.length + md.kanji.length + md.grammar.length;
+  const md = mixedDue(), nDue = md.vocab.length + md.kanji.length + md.grammar.length + md.sent.length;
   const S_mins = () => ` <small>· ${D.prefs.mins || 20} phút</small>`;
   const task = (label, n, unit, href, btn) => n ? `<li class="task"><span><b>${n}</b> ${unit}</span><span class="muted small">${label}</span><a class="btn btn-ghost btn-sm" href="${href}">${btn}</a></li>` : '';
   const tasks = [
     task('Từ vựng đến hạn ôn', st.due, 'từ', '#/on', 'Ôn từ'),
     task('Chữ Hán đến hạn ôn', sk.due, 'chữ', '#/onchu', 'Ôn chữ'),
     task('Mẫu ngữ pháp đến hạn ôn', sg.due, 'mẫu', '#/onngu', 'Luyện'),
+    task('Câu dịch đến hạn ôn', md.sent.length, 'câu', '#/dich?on', 'Dịch'),
   ].join('');
   const bar = (label, s) => s.total ? `<tr><th scope="row">${label}</th><td><span class="mini"><i style="width:${pct(s.known, s.total)}%"></i></span></td><td class="num">${s.known}/${s.total}</td></tr>` : '';
   // Kế hoạch hôm nay: việc đầu tiên chưa xong là nút chính
@@ -173,6 +179,8 @@ function renderHome(v) {
       ${st.newToday ? `<p class="small muted">Hôm nay đã học ${st.newToday} từ mới.</p>` : ''}
       ${remindHTML()}
     </section>
+
+    ${st.total || sk.total || sg.total ? roadmapCardHTML() : ''}
 
     ${D.errors.length ? `<div class="warn">${D.errors.map(esc).join('<br>')}</div>` : ''}
 

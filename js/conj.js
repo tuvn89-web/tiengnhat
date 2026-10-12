@@ -7,11 +7,24 @@ export const FORMS = {
   te: 'thể て', ta: 'thể た', nai: 'thể ない', nakatta: 'quá khứ phủ định', tai: 'muốn (たい)', teiru: 'đang (ている)',
   kano: 'thể khả năng', ikou: 'thể ý chí', ba: 'điều kiện ば', tara: 'điều kiện たら',
   ukemi: 'thể bị động', shieki: 'thể sai khiến', shiekiukemi: 'sai khiến bị động', meirei: 'thể mệnh lệnh', kinshi: 'cấm (〜な)',
+  // thể mở rộng (bản v11): ghép từ các thể trên
+  sou: 'trông như sắp (〜そう)', sugiru: 'quá (〜すぎる)', yasui: 'dễ (〜やすい)', nikui: 'khó (〜にくい)', nagara: 'vừa… vừa (〜ながら)',
+  kata: 'cách làm (〜方)', tari: 'liệt kê (〜たり)', zu: 'không… mà (〜ずに)', teshimau: 'lỡ / xong hẳn (〜てしまう)', chau: '〜ちゃう (nói tắt てしまう)',
+  teoku: 'làm sẵn (〜ておく)', toku: '〜とく (nói tắt ておく)', teru: '〜てる (nói tắt ている)', nakereba: 'nếu không (〜なければ)',
+  nakya: '〜なきゃ (nói tắt: phải)', tewa: 'không được (〜てはいけない)', chadame: '〜ちゃだめ (nói tắt: không được)', sasete: 'xin cho tôi (〜させてください)',
+  shiekiS: 'sai khiến rút gọn (〜す, khẩu ngữ)',
 };
 export const FORM_LEVEL = {
   masu: 'N5', masen: 'N5', mashita: 'N5', te: 'N5', ta: 'N5', nai: 'N5', nakatta: 'N5', tai: 'N5', teiru: 'N5',
   kano: 'N4', ikou: 'N4', ba: 'N4', tara: 'N4', ukemi: 'N4', shieki: 'N4', shiekiukemi: 'N3', meirei: 'N4', kinshi: 'N4',
+  sou: 'N4', sugiru: 'N4', yasui: 'N4', nikui: 'N4', nagara: 'N4', kata: 'N4', tari: 'N5', zu: 'N4', teshimau: 'N4', chau: 'N4',
+  teoku: 'N4', toku: 'N3', teru: 'N3', nakereba: 'N5', nakya: 'N3', tewa: 'N5', chadame: 'N3', sasete: 'N4', shiekiS: 'N3',
 };
+// Thể gốc (18 thể đầu) và thể mở rộng
+export const BASE_FORMS = ['masu', 'masen', 'mashita', 'te', 'ta', 'nai', 'nakatta', 'tai', 'teiru', 'kano', 'ikou', 'ba', 'tara', 'ukemi', 'shieki', 'shiekiukemi', 'meirei', 'kinshi'];
+export const EXT_FORMS = Object.keys(FORMS).filter(f => !BASE_FORMS.includes(f));
+// Thể khẩu ngữ ↔ thể chuẩn tương ứng
+export const CASUAL = { chau: 'teshimau', toku: 'teoku', teru: 'teiru', nakya: 'nakereba', chadame: 'tewa' };
 export const N5_FORMS = Object.keys(FORMS).filter(f => FORM_LEVEL[f] === 'N5');
 // Thể "phái sinh" — kết quả là động từ nhóm 2 mới (đuôi る), chia tiếp được: 切らせる → 切らせました
 export const DERIVED = ['kano', 'ukemi', 'shieki', 'shiekiukemi'];
@@ -22,6 +35,10 @@ const FORM_VI = {
   ta: 'đã {v} (thể thường)', nai: 'không {v} (thể thường)', nakatta: 'đã không {v}', tai: 'muốn {v}', teiru: 'đang {v}',
   kano: 'có thể {v}, {v} được', ikou: '{v} thôi; định {v}', ba: 'nếu {v}', tara: 'nếu / khi {v} (xong)',
   ukemi: 'bị / được {v}', shieki: 'bắt / cho (ai) {v}', shiekiukemi: 'bị bắt {v}', meirei: '{v} đi! (ra lệnh mạnh)', kinshi: 'cấm {v}!',
+  sou: 'trông như sắp {v}', sugiru: '{v} quá mức', yasui: 'dễ {v}', nikui: 'khó {v}', nagara: 'vừa {v} vừa…', kata: 'cách {v}',
+  tari: '{v} (nào là…, lúc thì…)', zu: 'không {v} mà…', teshimau: 'lỡ {v}; {v} xong hẳn', chau: 'lỡ {v} (nói tắt)', teoku: '{v} sẵn',
+  toku: '{v} sẵn (nói tắt)', teru: 'đang {v} (nói tắt)', nakereba: 'nếu không {v}', nakya: 'phải {v} (nói tắt)', tewa: 'không được {v}',
+  chadame: 'không được {v} (nói tắt)', sasete: 'xin cho tôi {v}', shiekiS: 'bắt (ai) {v} (khẩu ngữ)',
 };
 // Nghĩa ngắn của một từ: phần trước dấu phẩy / chấm phẩy / ngoặc
 export const shortVi = vi => String(vi || '').split(/[,;(（]/)[0].trim();
@@ -61,13 +78,14 @@ const KURU_E = { masu: 'ます', masen: 'ません', mashita: 'ました', tai: 
 
 // Động từ không có (hoặc không dùng) một số thể
 const NO_FORMS = {
-  ある: ['kano', 'ukemi', 'shieki', 'shiekiukemi', 'meirei', 'kinshi', 'tai', 'ikou', 'teiru'],
-  わかる: ['kano', 'ukemi', 'shiekiukemi', 'meirei', 'kinshi'],
-  できる: ['kano', 'ukemi', 'shieki', 'shiekiukemi', 'meirei', 'kinshi'],
+  ある: ['kano', 'ukemi', 'shieki', 'shiekiukemi', 'meirei', 'kinshi', 'tai', 'ikou', 'teiru', 'yasui', 'nikui', 'kata', 'zu', 'teshimau', 'chau', 'teoku', 'toku', 'teru', 'tewa', 'chadame', 'shiekiS'],
+  わかる: ['kano', 'ukemi', 'shiekiukemi', 'meirei', 'kinshi', 'teoku', 'toku', 'kata', 'sasete', 'shiekiS'],
+  できる: ['kano', 'ukemi', 'shieki', 'shiekiukemi', 'meirei', 'kinshi', 'yasui', 'nikui', 'kata', 'teoku', 'toku', 'sasete', 'shiekiS'],
   いる: [], // いる (có, ở) chia bình thường
 };
 // Động từ kính ngữ: thân thể ます là い (いらっしゃいます), mệnh lệnh là い (いらっしゃい)
 const HONORIFIC = ['いらっしゃる', 'くださる', 'なさる', 'おっしゃる', 'ござる'];
+const HON_NO = ['sugiru', 'yasui', 'nikui', 'kata', 'zu', 'chau', 'teoku', 'toku', 'teru', 'nakya', 'tewa', 'chadame', 'sasete', 'shiekiS'];
 
 // Động từ nào chia được: nhóm 1/2/3 và danh từ + する; bỏ từ Kansai.
 export function verbInfo(it) {
@@ -75,14 +93,14 @@ export function verbInfo(it) {
   const kana = it.kana;
   if (it.pos === 'n-suru') {
     const mark = it.kanji ? (it.kf || `${it.kanji}[${it.kana}]`) : it.kana;
-    return { group: 'suru', base: mark, baseKana: kana, dict: mark + 'する', dictKana: kana + 'する', na: [] };
+    return { group: 'suru', base: mark, baseKana: kana, dict: mark + 'する', dictKana: kana + 'する', na: ['kata', 'shiekiS'] };
   }
   if (it.pos === 'v3') {
-    if (kana === 'する') return { group: 'suru', base: '', baseKana: '', dict: 'する', dictKana: 'する', na: [] };
-    if (kana === 'くる') return { group: 'kuru', dict: it.kf || (it.kanji ? '来[く]る' : 'くる'), dictKana: 'くる', kanji: !!it.kanji, na: [] };
+    if (kana === 'する') return { group: 'suru', base: '', baseKana: '', dict: 'する', dictKana: 'する', na: ['kata', 'shiekiS'] };
+    if (kana === 'くる') return { group: 'kuru', dict: it.kf || (it.kanji ? '来[く]る' : 'くる'), dictKana: 'くる', kanji: !!it.kanji, na: ['shiekiS'] };
     if (/する$/.test(kana)) { // 勉強する ghi dạng v3
       const base = (it.kf || it.kanji || kana).replace(/する$/, '');
-      return { group: 'suru', base, baseKana: kana.replace(/する$/, ''), dict: base + 'する', dictKana: kana, na: [] };
+      return { group: 'suru', base, baseKana: kana.replace(/する$/, ''), dict: base + 'する', dictKana: kana, na: ['kata', 'shiekiS'] };
     }
     return null;
   }
@@ -93,7 +111,7 @@ export function verbInfo(it) {
   if (it.pos === 'v5' && !ROW.i[u]) return null;
   if (it.pos === 'v1' && u !== 'る') return null;
   if (!dictMark.endsWith(u)) return null;
-  const na = HONORIFIC.includes(kana) ? ['kano', 'ukemi', 'shieki', 'shiekiukemi', 'tai', 'ikou', 'teiru'] : it.pos === 'v5' && kana === 'いる' ? [] : NO_FORMS[kana] || [];
+  const na = HONORIFIC.includes(kana) ? ['kano', 'ukemi', 'shieki', 'shiekiukemi', 'tai', 'ikou', 'teiru', ...HON_NO] : it.pos === 'v5' && kana === 'いる' ? [] : NO_FORMS[kana] || [];
   return {
     group: it.pos, u, stem: dictMark.slice(0, -1), stemKana: kana.slice(0, -1), dict: dictMark, dictKana: kana, na,
     iku: it.pos === 'v5' && /(い|ゆ)く$/.test(kana) && kana.length <= 3, aru: it.pos === 'v5' && kana === 'ある', hon: HONORIFIC.includes(kana),
@@ -101,9 +119,45 @@ export function verbInfo(it) {
 }
 export const hasForm = (v, form) => !!v && !(v.na || []).includes(form);
 
+// Thể mở rộng: lấy một thể gốc rồi đổi đuôi
+const swap = (re, to) => m => (re.test(m) ? m.replace(re, to) : null);
+const TE_SWAP = (t, d) => m => (/て$/.test(m) ? m.replace(/て$/, t) : /で$/.test(m) ? m.replace(/で$/, d) : null);
+const EXT = {
+  sou: ['stem', m => m + 'そう', 'thân thể ます + そう'],
+  sugiru: ['stem', m => m + 'すぎる', 'thân thể ます + すぎる'],
+  yasui: ['stem', m => m + 'やすい', 'thân thể ます + やすい'],
+  nikui: ['stem', m => m + 'にくい', 'thân thể ます + にくい'],
+  nagara: ['stem', m => m + 'ながら', 'thân thể ます + ながら'],
+  kata: ['stem', m => m + '方[かた]', 'thân thể ます + 方[かた]', 'かた'],
+  tari: ['ta', m => m + 'り', 'thể た + り'],
+  zu: ['nai', swap(/ない$/, 'ずに'), 'thể ない bỏ ない + ずに (する → せずに)'],
+  teshimau: ['te', m => m + 'しまう', 'thể て + しまう'],
+  chau: ['te', TE_SWAP('ちゃう', 'じゃう'), 'thể て: て → ちゃう, で → じゃう'],
+  teoku: ['te', m => m + 'おく', 'thể て + おく'],
+  toku: ['te', TE_SWAP('とく', 'どく'), 'thể て: て → とく, で → どく'],
+  teru: ['te', m => m + 'る', 'thể て + る (bỏ い của ている)'],
+  nakereba: ['nai', swap(/い$/, 'ければ'), 'thể ない: い → ければ'],
+  nakya: ['nai', swap(/ない$/, 'なきゃ'), 'thể ない: ない → なきゃ'],
+  tewa: ['te', m => m + 'はいけない', 'thể て + はいけない'],
+  chadame: ['te', TE_SWAP('ちゃだめ', 'じゃだめ'), 'thể て: て → ちゃだめ, で → じゃだめ'],
+  sasete: ['shieki', swap(/る$/, 'てください'), 'thể sai khiến: る → てください'],
+  shiekiS: ['shieki', swap(/せる$/, 'す'), 'thể sai khiến: せる → す (khẩu ngữ)'],
+};
+export const extRule = f => EXT[f]?.[2] || '';
+function conjExt(v, form) {
+  const [from, fn, , addKana] = EXT[form];
+  let b = from === 'stem' ? conjugate(v, 'masu') : conjugate(v, from);
+  if (!b) return null;
+  if (from === 'stem') b = { mark: b.mark.replace(/ます$/, ''), kana: b.kana.replace(/ます$/, '') };
+  if (form === 'zu' && v.group === 'suru') return { mark: v.base + 'せずに', kana: v.baseKana + 'せずに' };
+  const mark = fn(b.mark), kana = addKana ? b.kana + addKana : fn(b.kana);
+  return mark && kana ? { mark, kana } : null;
+}
+
 export function conjugate(it, form) {
   const v = typeof it.group === 'string' ? it : verbInfo(it);
   if (!v || !FORMS[form] || !hasForm(v, form)) return null;
+  if (EXT[form]) return conjExt(v, form);
   if (v.group === 'suru') return { mark: v.base + SURU[form], kana: v.baseKana + SURU[form] };
   if (v.group === 'kuru') {
     const r = KURU_R[form], e = KURU_E[form];
@@ -136,11 +190,24 @@ export function conjPart(it, form) {
 
 // Đáp án nhiễu: lỗi chia hay gặp trước, rồi tới các thể khác của cùng động từ
 export function wrongForms(it, form) {
-  const v = verbInfo(it);
+  const v = typeof it.group === 'string' ? it : verbInfo(it);
   if (!v) return [];
   const right = conjugate(v, form)?.mark;
   const out = [];
   const add = m => { if (m && m !== right && !out.includes(m)) out.push(m); };
+  if (EXT[form]) {
+    // lỗi hay gặp của thể gốc, rồi ghép đuôi như thể đúng
+    const [from, fn] = EXT[form];
+    const baseF = from === 'stem' ? 'masu' : from;
+    for (const w of wrongForms(v, baseF).slice(0, 4)) {
+      if (from === 'stem' && !/ます$/.test(w)) continue;
+      const m = fn(from === 'stem' ? w.replace(/ます$/, '') : w);
+      add(m);
+    }
+    // nhầm sang thể mở rộng khác cùng gốc (〜ておく / 〜てしまう…)
+    for (const f of Object.keys(EXT)) if (f !== form && EXT[f][0] === from) add(conjugate(v, f)?.mark);
+    return out;
+  }
   if (v.group === 'v5') {
     const i = v.stem + ROW.i[v.u], a = v.stem + ROW.a[v.u], e = v.stem + ROW.e[v.u];
     const wrongTe = ['いて', 'って', 'んで', 'して'].map(x => v.stem + x).concat(i + 'て');
@@ -180,6 +247,7 @@ export function ruleText(it, form) {
   const v = verbInfo(it);
   if (!v) return '';
   const F = FORMS[form];
+  if (EXT[form]) { const c = conjugate(v, form); return `${F}: ${EXT[form][2]}${c ? ` → ${c.mark}` : ''}.`; }
   if (v.group === 'suru') return `Nhóm 3 (する): する → ${SURU[form]}.`;
   if (v.group === 'kuru') return `Nhóm 3 (来[く]る): ${F} là ${v.kanji ? `来[${KURU_R[form]}]` : KURU_R[form]}${KURU_E[form]} — cách đọc của chữ này đổi theo từng thể.`;
   if (v.group === 'v1') return `Nhóm 2 (đuôi る): bỏ る rồi thêm ${ICHI[form]}.`;

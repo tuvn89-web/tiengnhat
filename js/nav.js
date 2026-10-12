@@ -19,6 +19,8 @@ const PAGES = [
   [/^luyen\/the$/, () => 'Thể động từ trong câu', ['luyen']],
   [/^luyen\/tinhtu$/, () => 'Tính từ trong câu', ['luyen']],
   [/^luyen\/dem$/, () => 'Đếm số', ['luyen']],
+  [/^luyen\/chia\?g=(.+)$/, m => { const g = D.items.get(decodeURIComponent(m[1])); return 'Luyện thể · ' + (g ? g.pattern : ''); }, ['nguphap']],
+  [/^luyen\/chia$/, () => 'Luyện thể', ['luyen']],
   [/^hoc$/, () => 'Trắc nghiệm', ['luyen']],
   [/^ghep$/, () => 'Ghép 6 cặp', ['luyen']],
   [/^onhon$/, () => 'Ôn hỗn hợp', []],
@@ -35,6 +37,7 @@ const PAGES = [
   [/^nguphap\/(.+)$/, m => { const g = D.items.get(decodeURIComponent(m[1])); return g ? g.pattern : 'Mẫu ngữ pháp'; }, ['nguphap']],
   [/^kho$/, () => 'Kho từ', []],
   [/^trinhdo$/, () => 'Kiểm tra trình độ', []],
+  [/^dich(\?on)?$/, () => 'Luyện dịch', ['luyen']],
   [/^lotrinh$/, () => 'Lộ trình', []],
   [/^kana$/, () => 'Chặng 0 — Kana', ['lotrinh']],
   [/^moi\?p=(.+)$/, m => { const p = D.packs.find(x => x.id === decodeURIComponent(m[1])); return 'Học gói ' + (p ? p.title : ''); }, ['lotrinh']],
@@ -88,7 +91,7 @@ export function initNav(ctx) {
 }
 
 // ---------- màn kết quả ----------
-const LUYEN = [['luyen/cau', 'Ghép câu từ ví dụ'], ['luyen/the', 'Thể động từ'], ['luyen/ngphap', 'Ghép theo ngữ pháp'], ['luyen/tinhtu', 'Tính từ'], ['hoc', 'Trắc nghiệm'], ['ghep', 'Ghép 6 cặp'], ['luyen/dem', 'Đếm số']];
+const LUYEN = [['luyen/cau', 'Ghép câu từ ví dụ'], ['luyen/chia', 'Luyện thể'], ['dich', 'Luyện dịch'], ['luyen/the', 'Thể động từ'], ['luyen/ngphap', 'Ghép theo ngữ pháp'], ['luyen/tinhtu', 'Tính từ'], ['hoc', 'Trắc nghiệm'], ['ghep', 'Ghép 6 cặp'], ['luyen/dem', 'Đếm số']];
 const GTYPES = ['blank', 'order', 'star', 'build', 'spot', 'situ', 'shift', 'conj'];
 function others(back) {
   const h = norm(back);
@@ -137,7 +140,7 @@ async function fillNext(view, ctx, kind) {
   if (kind === 'learn') n = ['#/luyen/cau', 'Ghép câu với từ vừa học →', { key: 'pCau', patch: { source: 'today' } }];
   else if (kind !== 'test') {
     const { mixedDue } = await import('./practice.js');
-    const d = mixedDue(), due = d.vocab.length + d.kanji.length + d.grammar.length;
+    const d = mixedDue(), due = d.vocab.length + d.kanji.length + d.grammar.length + d.sent.length;
     if (due && here !== 'onhon' && back !== 'onhon') n = ['#/onhon', `Ôn hỗn hợp hôm nay · ${due} mục →`];
     else if (D.vocab.some(it => status(it) === 'new') && here !== 'moi' && back !== 'moi') n = ['#/moi', 'Học từ mới →'];
   }

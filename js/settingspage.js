@@ -40,6 +40,7 @@ export function renderSettings(view, ctx) {
       <label class="check"><input type="checkbox" name="introNew" ${S.introNew ? 'checked' : ''}> Từ chưa học lẫn trong lượt trắc nghiệm: hiện thẻ để học (Đã học / Biết rồi / Để sau), không hỏi ngay</label>
       <label class="check"><input type="checkbox" name="sound" ${S.sound ? 'checked' : ''}> Âm báo đúng/sai</label>
       <label class="check"><input type="checkbox" name="vibrate" ${S.vibrate ? 'checked' : ''}> Rung khi sai (Android)</label>
+      <label class="check"><input type="checkbox" name="romaji" ${S.romaji ? 'checked' : ''}> Ô gõ tiếng Nhật: gõ romaji tự đổi sang kana (kakareru → かかれる; chữ IN HOA → katakana)</label>
     </section>
 
     <section class="card">

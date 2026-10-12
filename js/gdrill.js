@@ -8,6 +8,7 @@ import { answerOf, distractors, readHint } from './quiz.js';
 import { runDrill, opt } from './drill.js';
 import { chips, bindChips, readChip, readChips, emptyState } from './ui.js';
 import { kvGet, kvSet } from './db.js';
+import { recForm } from './fstat.js';
 
 export const GTYPES = [
   ['blank', 'Điền chỗ trống'], ['conj', 'Chia động từ'], ['order', 'Sắp xếp câu'], ['star', 'Câu ★ (kiểu JLPT)'],
@@ -151,14 +152,14 @@ function shiftQ(item, pool) {
 
 // Chia động từ
 export const verbs = () => D.vocab.filter(v => verbInfo(v));
-function conjQ(v, form) {
+export function conjQ(v, form) {
   const info = verbInfo(v), right = conjugate(v, form);
   if (!info || !right) return null;
   const wr = wrongForms(v, form).slice(0, 3);
   if (wr.length < 2) return null;
   return { kind: 'choice', tag: TAG.conj, level: FORM_LEVEL[form], prompt: `<p class="prompt-jp" lang="ja">${rich(info.dict)}</p><p class="prompt-hint">${esc(v.vi)} → <b>${FORMS[form]}</b></p>`,
     opts: shuffle([right.mark, ...wr].map(m => opt(m === right.mark ? 'ok' : 'x' + m, rich(m)))), answer: 'ok',
-    after: `<p>${rich(ruleText(v, form))}</p>` };
+    after: `<p>${rich(ruleText(v, form))}</p>`, onAnswer: ok => recForm(form, info.group, ok) };
 }
 
 // ---------- chọn mẫu và sinh lượt ----------

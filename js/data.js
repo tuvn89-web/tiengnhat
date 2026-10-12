@@ -22,6 +22,7 @@ export const D = {
   reports: {},        // id -> {note, t, _del?}
   tests: {},          // id -> lần kiểm tra trình độ {id, t, kind, level, est, pct, levels, skills, applied, undone}
   kana: {},           // chữ kana -> {b (0–5), ok, ng, t} — Chặng 0
+  fstat: {},          // thể -> {v5:[đúng, lần], v1, v3, i, na, n, t} — điểm theo thể (B4)
   items: new Map(),
   vocab: [], grammar: [], phrase: [], kanji: [],
   kanjiByChar: new Map(),
@@ -36,6 +37,7 @@ export async function loadAll() {
   D.reports = await kvGet('reports', {});
   D.tests = await kvGet('tests', {});
   D.kana = await kvGet('kana', {});
+  D.fstat = await kvGet('fstat', {});
   try {
     const r = await fetch('data/manifest.json', { cache: 'no-cache' });
     if (!r.ok) throw new Error(r.status);

@@ -131,9 +131,10 @@ export async function toggleStar(id) {
 }
 export const isStar = id => !!P.get(id)?.star;
 
-const TYPE_DIRS = { vocab: ['vj', 'jv', 'kr'], kanji: ['kh', 'hk'], grammar: ['gp'] };
-const KNOWN_DIRS = { vocab: ['vj', 'jv'], kanji: ['kh', 'hk'], grammar: ['gp'] };
-export const itemType = it => it._type || (it.id.startsWith('k:') ? 'kanji' : it.id.startsWith('g:') ? 'grammar' : 'vocab');
+// Câu luyện dịch (s:…): nv = Nhật → Việt, vn = Việt → Nhật
+const TYPE_DIRS = { vocab: ['vj', 'jv', 'kr'], kanji: ['kh', 'hk'], grammar: ['gp'], sent: ['nv', 'vn'] };
+const KNOWN_DIRS = { vocab: ['vj', 'jv'], kanji: ['kh', 'hk'], grammar: ['gp'], sent: ['nv', 'vn'] };
+export const itemType = it => it._type || (it.id.startsWith('k:') ? 'kanji' : it.id.startsWith('g:') ? 'grammar' : it.id.startsWith('s:') ? 'sent' : 'vocab');
 
 export function status(it) {
   const r = P.get(it.id);

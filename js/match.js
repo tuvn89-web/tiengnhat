@@ -4,7 +4,7 @@ import { D, LEVELS } from './data.js';
 import { S } from './settings.js';
 import { review, stats } from './srs.js';
 import { chips, bindChips, readChip, readChips, topicOpts, emptyState, wtabs } from './ui.js';
-import { selectItems, viClash } from './quiz.js';
+import { selectItems, sameMeaning } from './quiz.js';
 import { kvGet, kvSet } from './db.js';
 import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from './nav.js';
 
@@ -50,7 +50,7 @@ export function buildRounds(pool, type, rounds) {
   for (let r = 0; r < rounds && rest.length >= 3; r++) {
     const pick = [], L = new Set(), R = new Set(), left = [];
     // cùng màn không có hai nghĩa đụng nhau (掃除 / 片付け) hay hai từ cùng chữ khác cách đọc
-    const clash = it => it.vi && pick.some(p => p.vi && (viClash(p.vi, it.vi) || (type === 'kana-kanji' && p.kana === it.kana)));
+    const clash = it => it.vi && pick.some(p => p.vi && (sameMeaning(p, it) || (type === 'kana-kanji' && p.kana === it.kana)));
     for (const it of rest) {
       const [a, b] = sides(it, type);
       if (pick.length < PER && !L.has(a.k) && !R.has(b.k) && !clash(it)) { pick.push(it); L.add(a.k); R.add(b.k); }

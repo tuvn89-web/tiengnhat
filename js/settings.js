@@ -18,6 +18,7 @@ export const DEFAULTS = {
   voice: '',
   rate: 0.9,
   autoSpeak: false,
+  romaji: true,       // ô gõ tiếng Nhật: gõ romaji tự đổi sang kana
   deviceName: '',
 };
 export const S = { ...DEFAULTS };

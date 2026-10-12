@@ -275,3 +275,50 @@ Sau đó, nếu trong `data/packs` trên GitHub còn file **`jlpt-n5-dongtu-01.j
 **Chặng 0 — Kana** (`Lộ trình → Mở bảng kana`): bảng hiragana / katakana (âm cơ bản, thêm dấu ゛゜, âm ghép ゃゅょ) — chạm chữ để nghe, màu cho biết chữ đã thuộc. Luyện 3 kiểu: nhìn chữ → cách đọc, cách đọc → chữ, nghe → chữ; đáp án nhiễu ưu tiên chữ trông giống (ぬ/め, シ/ツ, ソ/ン…), không đặt hai chữ đọc giống nhau (じ/ぢ, お/を) cạnh nhau. Đúng 3 lần liền = thuộc; qua chặng khi thuộc 90% chữ cơ bản (hoặc đánh dấu "đã đọc thông kana"; ai đã học từ 20 từ trở lên được tính là biết kana).
 
 **Hướng dẫn học** (`Trang chủ → Hướng dẫn học`): 6 bài cho người mới (lặp lại ngắt quãng, nút Đã học / Biết rồi, furigana & Hán Việt, ôn mỗi ngày, luyện nghe, nhiều máy), 4 bài theo cấp N5–N2 (khối lượng, thời gian, lỗi người Việt hay mắc, cấu trúc đề và điểm đỗ JLPT theo jlpt.jp), 3 bài theo mục tiêu (特定技能2号 ngành thủy sản theo trang 出入国在留管理庁 ngày 4/9/2026, gia hạn visa & giấy tờ thuế, sống ở Nhật).
+
+## 18. Bản v11 (12/10/2026): luyện thể mở rộng, ô gõ tiếng Nhật (đợt 5b) + sửa đáp án nghĩa trùng
+
+**Cách tải lên:** giải nén `capnhat-v11.zip`, kéo **toàn bộ** nội dung vào kho `tiengnhat` → ghi đè → Commit (gói đã gồm v8, v9, v10). File mã mới: `js/forms.js`, `js/romaji.js`, `js/fstat.js`. Thay cả `data/manifest.json` (gói `kansai-01` lên phiên bản 4). Kiểm tra: Cài đặt → cuối trang ghi **v11 · 12/10/2026**.
+
+**Sửa lỗi "hai đáp án nghĩa giống nhau"** (ví dụ ほかす: *vứt đi* và 捨てる: *vứt, bỏ đi* cùng hiện): từ Kansai và từ chuẩn tương ứng (ほかす = 捨てる, あかん = だめ, なんぼ = いくら, なおす = 片付ける…) không còn làm đáp án nhiễu của nhau ở mọi bài, kể cả Ghép cặp; nghĩa chỉ khác nhau chữ "đi" / "lên" ở cuối (*vứt đi* = *vứt*, *nhanh lên* = *nhanh*) được coi là trùng. Gói `kansai-01` thêm liên kết đồng nghĩa nên sửa được cả trên máy chưa cập nhật mã app.
+
+**Luyện thể** (`Luyện tập → Luyện thể`, hoặc nút **Luyện thể này với động từ của tôi** trên trang mẫu ngữ pháp gắn với thể: 〜てしまう, 受身形, 〜させられる, 〜なきゃ, 〜ておく, 〜ながら… — 101 mẫu có nút này):
+- **Lấy từ** chọn được nhiều: Đang học · Đã thuộc · Hay sai · Tất cả.
+- **Động từ**, 9 dạng: Gõ thể (書く → bị động → gõ かかれる) · Chọn thể · Chuỗi biến đổi (書く → 書きます → 書いて → 書かない → 書いた → …, sai bước nào hiện luật bước đó) · Nhận diện ngược (thấy 書かされた → chọn "sai khiến bị động · quá khứ"; mặt chữ trùng như 食べられる thì đáp án ghi cả "khả năng / bị động") · Nghe → chọn thể (khi máy có giọng đọc) · Đổi câu (thường ↔ lịch sự; khẩu ngữ ↔ chuẩn: ちゃう ↔ てしまう, とく ↔ ておく, てる ↔ ている, なきゃ ↔ なければならない, ちゃだめ ↔ てはいけない; câu thường → câu sai khiến "tổ trưởng bắt tôi…" → câu sai khiến bị động) · Thể trong câu (chọn hoặc gõ động từ đã chia trong khung câu; mẫu ngữ pháp có khuôn riêng thì ghép thêm câu theo khuôn đó) · Cặp tự – tha (お湯＿＿ → が沸く / を沸かす) · Kính ngữ (行く → いらっしゃる / 参る; khuôn お〜になる / お〜する; bẫy お行きになる, お見になる).
+- **Thể mới** thêm vào máy chia (37 thể, trước là 18): 〜そう, 〜すぎる, 〜やすい / 〜にくい, 〜ながら, 〜方, 〜たり, 〜ずに, 〜てしまう / 〜ちゃう, 〜ておく / 〜とく, 〜てる, 〜なければ / 〜なきゃ, 〜てはいけない / 〜ちゃだめ, 〜させてください, sai khiến rút gọn (書かす). Thẻ từ của động từ hiện đủ các thể này; bài Chia động từ và Thể động từ trong câu chọn được các thể mới.
+- **Tính từ**: gõ / chọn 14 dạng (thêm 〜くする / 〜にする và 〜み như 重み, 痛み, 甘み), có bẫy cho người Việt: きれい, 嫌い là tính từ な (không phải きれかった), いい → よかった (không phải いかった), 高いだった / 高いでした là sai.
+- **Danh từ + だ**: だ, です, じゃない, だった, じゃなかった, でした, で, なら, なので, なのに, の (gõ じゃない hay ではない đều được).
+- **Phó từ, katakana**: phó từ và từ tượng thanh điền vào câu ví dụ (theo nghĩa câu); gõ katakana từ gốc tiếng Anh (bier → ビール).
+- **60 giây tốc độ**: đúng được bao nhiêu thể trong 60 giây, lưu kỷ lục (đồng bộ). **Bảng chia tự kiểm**: bảng các thể của một động từ bị che, chạm để lật rồi tự chấm Biết / Chưa.
+- **Điểm theo thể** (bảng nhiệt thể × nhóm 1 / 2 / 3): mọi bài chia thể đều ghi đúng / sai. Thể nào làm từ 5 lần mà đúng dưới 70% thì **tự vào Ôn hỗn hợp hôm nay** ("Thể hay sai — …"). Điểm đồng bộ giữa các máy.
+
+**Ô gõ tiếng Nhật** (dùng ở Gõ thể, Đếm số, Kana, katakana): gõ bằng bàn phím tiếng Nhật của máy, hoặc bật **gõ romaji tự đổi sang kana** (mặc định bật; Cài đặt → Ô gõ tiếng Nhật): kakareru → かかれる, kitte → きって, shinbun / shimbun → しんぶん, onna → おんな, chữ IN HOA → katakana (KO-HI- → コーヒー). Bàn phím tiếng Việt kiểu Telex sẽ tự đổi chữ (aa → â) — khi gõ romaji hãy chuyển sang bàn phím tiếng Anh. Chấm đúng nếu khớp kana hoặc chữ Hán; app chấm sai mà Cậu Cả chắc mình đúng thì bấm **Tôi gõ đúng — tính là đúng**.
+- **Đếm số** có thêm cách trả lời **Tự gõ** (7個 → ななこ). **Kana** có thêm kiểu **Nhìn chữ → gõ romaji** (chấp nhận cả kiểu si, ti, tu).
+
+## 19. Bản v12 (12/10/2026): luyện dịch theo câu (đợt 5c)
+
+**Cách tải lên:** giải nén `capnhat-v12.zip`, kéo **toàn bộ** nội dung vào kho `tiengnhat` → ghi đè → Commit (đã gồm v8–v11). File mã mới: `js/dich.js`. Kiểm tra: Cài đặt → cuối trang ghi **v12 · 12/10/2026**.
+
+**Luyện dịch** (`Luyện tập → Luyện dịch theo câu`): dùng 4.854 câu ví dụ có sẵn trong kho (câu của từ vựng và câu của mẫu ngữ pháp).
+- **Chiều**: Nhật → Việt, Việt → Nhật, trộn.
+- **Cách làm**:
+  - **Chọn câu đúng** — Nhật → Việt: câu nhiễu là các câu khác của cùng từ / cùng mẫu (phải hiểu cả câu mới chọn đúng); Việt → Nhật: câu nhiễu sai đúng chỗ dễ sai — phần ngữ pháp chia sai (lấy từ dữ liệu lỗi hay gặp) hoặc từ chính bị thay bằng từ dễ nhầm cùng loại (冷凍 ↔ 冷蔵, 喫茶店 ↔ 大学).
+  - **Tự gõ** — app chấm ngay, không cần mạng.
+  - **Nghe** — khi máy có giọng đọc.
+  - **Ghép mảnh** — nhận mọi thứ tự đúng.
+- **Lọc câu**: đến cấp (N5 / N4 / N3 — chỉ câu từ cấp đó trở xuống); chỉ câu của từ / mẫu đã học; câu chưa dịch / đến hạn ôn / hay sai. Câu ngữ pháp dịch Việt → Nhật có thể hiện "Dùng mẫu: 〜…" làm điều kiện.
+- **Cách chấm khi tự gõ:**
+  - **Nhật → Việt:** so các từ chính với bản mẫu (gõ thiếu dấu vẫn nhận), đạt khi khớp từ 70% và đúng khẳng định / phủ định. Bản mẫu hiện kèm: từ khớp tô xanh, từ còn thiếu gạch đỏ.
+  - **Việt → Nhật:** so cả câu sau khi bỏ dấu câu, khoảng trắng; kana thay chữ Hán được; trợ từ は / へ / を gõ "wa" / "e" / "o" cũng nhận; câu có mảnh đổi chỗ được thì mọi thứ tự đúng đều nhận.
+  - Luôn có nút **Tôi dịch đúng — tính là đúng** khi app chấm quá chặt (khác cách nói, dùng từ đồng nghĩa).
+- **Câu dịch sai vào lịch ôn** như từ vựng (mỗi câu 2 chiều Nhật → Việt / Việt → Nhật), đồng bộ giữa các máy. Câu đến hạn tự vào **Ôn hỗn hợp hôm nay** và có dòng riêng "Câu dịch đến hạn ôn" ở Trang chủ.
+- Kế hoạch hôm nay (từ 20 phút / ngày) xen kẽ: ngày chẵn một bài **Luyện thể**, ngày lẻ một bài **Luyện dịch**.
+
+## 20. Bản v13 (12/10/2026): lộ trình trên Trang chủ, nút "Đã thuộc" khi ôn
+
+**Cách tải lên:** giải nén `capnhat-v13.zip`, kéo **toàn bộ** nội dung vào kho `tiengnhat` → ghi đè → Commit (đã gồm v8–v12). Kiểm tra: Cài đặt → cuối trang ghi **v13 · 12/10/2026**.
+
+- **Lộ trình**: chặng đang học ở trên cùng, rồi các chặng tiếp theo; chặng đã qua (kể cả Chặng 0 — Kana) dồn xuống cuối trang, dưới tiêu đề "Chặng đã qua".
+- **Trang chủ** có thẻ **Lộ trình · Chặng …** ngay dưới Kế hoạch hôm nay: tiến độ chặng, 3 gói học tiếp với nút Học, nút Xem cả lộ trình và Thi vượt cấp.
+- **Nút "Đã thuộc"** khi ôn: ở Trắc nghiệm, Ôn từ đến hạn, Ôn hỗn hợp, ôn chữ Hán, luyện ngữ pháp, câu dịch — sau khi trả lời, bấm **Đã thuộc** thì mục đó chuyển sang đã thuộc (16 ngày sau hỏi lại một lần) và không bị hỏi lại trong lượt này. Bấm nhầm thì bấm **Hoàn tác** trên thông báo.
+- Tên gói có chữ Hán (ví dụ "Ngữ pháp N4 02 – 予定") hiện furigana thay vì dấu ngoặc vuông.

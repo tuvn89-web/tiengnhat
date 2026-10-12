@@ -1,6 +1,6 @@
 // Kiểm tra trình độ (đợt 5a — Đ1, Đ2): Xếp lớp nhanh (thích ứng N5 → …) · Thi vượt cấp (một cấp, ~55 câu) · Kiểm tra theo gói (10 câu).
 // Kết quả đổi tiến độ theo ngưỡng (mặc định 85% / 70%), chỉ đổi khi bấm Áp dụng, hoàn tác được trong 7 ngày.
-import { esc, rubyHTML, stripHL, reading, shuffle, wordHTML, fmtDate, toast, DAY } from './util.js';
+import { esc, rich, plain, rubyHTML, stripHL, reading, shuffle, wordHTML, fmtDate, toast, DAY } from './util.js';
 import { D, LEVELS, saveTest, testList, setPrefs } from './data.js';
 import { status, bulkApply, progSnapshot, progRestore } from './srs.js';
 import { answerOf, distractors, readHint } from './quiz.js';
@@ -203,7 +203,7 @@ function histRow(t) {
   let what = '';
   if (t.kind === 'xeplop') what = `ước lượng <b>${esc(t.est || 'chưa qua ' + (Object.keys(t.levels || {})[0] || 'N5'))}</b> · ${Object.entries(t.levels || {}).map(([L, [a, b]]) => `${L} ${Math.round((a / b) * 100)}%`).join(' · ')}`;
   else if (t.kind === 'vuotcap') what = `${esc(t.level)} <b>${t.pct}%</b> — ${t.pct >= thresholds().lo ? 'đạt' : 'chưa đạt'}`;
-  else what = `${esc(t.title || t.pack || '')} <b>${t.pct}%</b>`;
+  else what = `${rich(t.title || t.pack || '')} <b>${t.pct}%</b>`;
   const st = t.undone ? ' · đã hoàn tác' : t.applied ? ' · đã áp dụng' : '';
   return `<li><span class="muted small">${when} · ${esc(KIND[t.kind] || '')}${st}</span><span>${what}</span></li>`;
 }
@@ -220,7 +220,7 @@ function sparkHTML(hist) {
     ${pts.map((t, i) => `<circle cx="${x(i)}" cy="${y(val(t))}" r="3.5"><title>${esc(fmtDate(t.at || t.t))}: ${t.kind === 'xeplop' ? 'ước lượng ' + (t.est || '—') : t.level + ' ' + t.pct + '%'}</title></circle>`).join('')}
   </svg><p class="small muted">Đường ngang: ngưỡng đạt ${lo}%. Điểm Xếp lớp vẽ theo cấp ước lượng.</p>`;
 }
-const packList = ps => `<ul class="packs">${ps.map(p => `<li class="pack"><span class="pack-t"><b>${esc(p.title)}</b><small class="muted">${esc(p.level || '')} · đã học ${p.learned}/${p.total}${p.last ? ` · kiểm tra gần nhất ${p.last}%` : ''}</small></span><button type="button" class="btn btn-ghost btn-sm" data-pack="${esc(p.id)}">10 câu</button></li>`).join('')}</ul>`;
+const packList = ps => `<ul class="packs">${ps.map(p => `<li class="pack"><span class="pack-t"><b>${rich(p.title)}</b><small class="muted">${esc(p.level || '')} · đã học ${p.learned}/${p.total}${p.last ? ` · kiểm tra gần nhất ${p.last}%` : ''}</small></span><button type="button" class="btn btn-ghost btn-sm" data-pack="${esc(p.id)}">10 câu</button></li>`).join('')}</ul>`;
 // Gói học xong từ 80%: gói chưa kiểm tra lần nào đứng trước
 function packsForCheck() {
   const out = [];
@@ -281,7 +281,7 @@ function runPackCheck(view, ctx, packId) {
   else qs = shuffle(items).map(k => kanjiQuestion(k, Math.random() < .5 ? 'kh' : 'hk')).filter(Boolean).map(q => ({ ...q, sk: 'kanji', topic: '' })).slice(0, 10);
   if (!qs.length) { toast('Gói này chưa đủ dữ liệu để ra đề.'); return; }
   runDrill(view, qs, ctx, {
-    title: p.title, mode: 'test',
+    title: plain(p.title), mode: 'test',
     onDone: (res, info) => (info.empty ? goBack(ctx) : showResult(view, ctx, { kind: 'goi', results: [{ L: p.level, res }], pack: p, secs: info.secs })),
   });
 }
@@ -319,7 +319,7 @@ async function showResult(view, ctx, { kind, results, pack, secs }) {
   const wrongG = [...new Set(wrong.filter(r => r.q.review?.id.startsWith('g:')).map(r => r.q.review.id))];
   const ansHTML = q => q.opts.find(o => o.key === q.answer)?.html || '';
   view.innerHTML = `<section class="result lv-res">${crumbHTML(ctx)}
-    <h1 class="h1">${esc(kind === 'goi' ? 'Kiểm tra gói · ' + (pack?.title || '') : KIND[kind])}${kind === 'vuotcap' ? ' ' + esc(results[0].L) : ''}</h1>
+    <h1 class="h1">${kind === 'goi' ? 'Kiểm tra gói · ' + rich(pack?.title || '') : esc(KIND[kind])}${kind === 'vuotcap' ? ' ' + esc(results[0].L) : ''}</h1>
     ${head}
     ${kind === 'xeplop' && results.length > 1 ? `<table class="topics"><tbody>${barRows(levels)}</tbody></table>` : ''}
     <h2 class="h2">Theo kỹ năng</h2><table class="topics bytag"><tbody>${barRows(Object.fromEntries(Object.entries(tally(all, q => q.sk)).map(([k, v]) => [SK[k] || k, v])))}</tbody></table>

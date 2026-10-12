@@ -1,5 +1,5 @@
 // Hướng dẫn & lộ trình (đợt 5a, Đ7): màn Bắt đầu · Lộ trình theo chặng · Kế hoạch hôm nay + dự báo.
-import { esc, plain, DAY, startOfDay } from './util.js';
+import { esc, rich, plain, DAY, startOfDay } from './util.js';
 import { D, LEVELS, setPrefs } from './data.js';
 import { status, stats, P } from './srs.js';
 import { chips, bindChips, readChip } from './ui.js';
@@ -88,7 +88,7 @@ export function renderRoadmap(view, ctx) {
         <p class="small muted">${x.learned}/${x.total} mục đã học (${x.known} đã thuộc) · ${x.packs.length} gói</p>` : '<p class="small muted">Kho chưa có dữ liệu chặng này — sẽ có trong các đợt dữ liệu tới.</p>'}
       ${x.packs.length ? (() => {
         const rows = x.packs.map(p => [p, packStat(p)]);
-        const li = ([p, s]) => `<li class="pack"><span class="pack-t"><b>${esc(p.title)}</b><span class="mini"><i style="width:${s.total ? (s.learned / s.total) * 100 : 0}%"></i></span><small class="muted">${{ vocab: 'Từ vựng', grammar: 'Ngữ pháp', kanji: 'Chữ Hán' }[p.type] || ''} · ${s.learned}/${s.total}</small></span>${packAction(p, s)}</li>`;
+        const li = ([p, s]) => `<li class="pack"><span class="pack-t"><b>${rich(p.title)}</b><span class="mini"><i style="width:${s.total ? (s.learned / s.total) * 100 : 0}%"></i></span><small class="muted">${{ vocab: 'Từ vựng', grammar: 'Ngữ pháp', kanji: 'Chữ Hán' }[p.type] || ''} · ${s.learned}/${s.total}</small></span>${packAction(p, s)}</li>`;
         const next = rows.filter(([, s]) => s.fresh).slice(0, 4);
         return (state === 'cur' && next.length ? `<p class="sub-label">Gói học tiếp</p><ul class="packs">${next.map(li).join('')}</ul>` : '')
           + `<details><summary>Tất cả ${rows.length} gói theo thứ tự</summary><ul class="packs">${rows.map(li).join('')}</ul></details>`;
@@ -96,23 +96,49 @@ export function renderRoadmap(view, ctx) {
       ${x.total ? `<p class="small">${x.passed ? `Đã qua: Thi vượt cấp ${esc(x.L)} đạt từ ${lo}%.` : `Qua chặng khi <b>Thi vượt cấp ${esc(x.L)}</b> đạt từ ${lo}%.`} <button type="button" class="btn btn-ghost btn-sm" data-test="${esc(x.L)}">Thi vượt cấp ${esc(x.L)}</button></p>` : ''}
     </section>`;
   };
-  view.innerHTML = `<h1 class="h1">Lộ trình</h1>
-    <p class="lv-goal">Mục tiêu <b>${esc(GOALS.find(g => g[0] === G)?.[1] || G)}</b> · ${mins()} phút/ngày <a class="btn btn-ghost btn-sm" href="#/batdau">Đổi</a></p>
-    ${fc ? `<p class="note small">${fc}</p>` : ''}
-    <p class="small muted">Chặng sau vẫn mở được (không khóa); làm đúng thứ tự thì dễ nhất. Gói đã học hết có dấu ✓.</p>
-    <section class="card stage ${kanaDone() ? 'stage-done' : 'stage-cur'}">
+  const kanaSec = `<section class="card stage ${kanaDone() ? 'stage-done' : 'stage-cur'}">
       <div class="stage-h"><h2 class="h2">Chặng 0 — Kana</h2><span class="stage-b">${kanaDone() ? 'Đã qua' : 'Đang học'}</span></div>
       <table class="topics"><tbody>
         <tr><th scope="row">Hiragana</th><td><span class="mini"><i style="width:${(kp.h / kp.ht) * 100}%"></i></span></td><td class="num">${kp.h}/${kp.ht}</td></tr>
         <tr><th scope="row">Katakana</th><td><span class="mini"><i style="width:${(kp.k / kp.kt) * 100}%"></i></span></td><td class="num">${kp.k}/${kp.kt}</td></tr></tbody></table>
       <p class="small">${D.prefs.kanaOK ? 'Đã đánh dấu: biết kana.' : 'Qua chặng khi thuộc 90% chữ cơ bản của hai bảng.'} <a class="btn btn-ghost btn-sm" href="#/kana">Mở bảng kana</a></p>
-    </section>
-    ${st.slice(0, 4).map(stage).join('')}
+    </section>`;
+  // chặng đang học lên đầu, rồi các chặng tiếp theo; chặng đã qua xuống cuối
+  const shown = st.slice(0, 4).map((x, i) => [x, i]);
+  const open = shown.filter(([x]) => !x.passed), done = shown.filter(([x]) => x.passed);
+  const top = (cur === 'kana' ? kanaSec : '') + open.map(([x, i]) => stage(x, i)).join('');
+  const bottom = (cur !== 'kana' ? kanaSec : '') + done.map(([x, i]) => stage(x, i)).join('');
+  view.innerHTML = `<h1 class="h1">Lộ trình</h1>
+    <p class="lv-goal">Mục tiêu <b>${esc(GOALS.find(g => g[0] === G)?.[1] || G)}</b> · ${mins()} phút/ngày <a class="btn btn-ghost btn-sm" href="#/batdau">Đổi</a></p>
+    ${fc ? `<p class="note small">${fc}</p>` : ''}
+    <p class="small muted">Chặng đang học ở trên cùng, chặng đã qua ở cuối trang. Chặng sau vẫn mở được (không khóa); gói đã học hết có dấu ✓.</p>
+    ${top}
+    ${bottom ? `<h2 class="h2 stage-sep">Chặng đã qua</h2>${bottom}` : ''}
     <p class="small muted">Chặng N1 sẽ thêm khi kho dữ liệu làm đến N1. <a href="#/huongdan">Xem bài hướng dẫn học theo từng cấp</a>.</p>`;
   view.querySelectorAll('[data-test]').forEach(b => b.onclick = async () => {
     await kvSet('lvSetup', { ...(await kvGet('lvSetup', {})), level: b.dataset.test });
     ctx.go('#/trinhdo');
   });
+}
+
+// ---------- Thẻ lộ trình trên Trang chủ: chặng đang học + 3 gói học tiếp ----------
+export function roadmapCardHTML() {
+  const { st, cur } = stageInfo();
+  if (cur === 'kana') {
+    const kp = kanaProgress();
+    return `<section class="card rm-card"><div class="stage-h"><h2 class="h2">Lộ trình · Chặng 0 — Kana</h2><span class="stage-b">Đang học</span></div>
+      <p class="small muted">Hiragana ${kp.h}/${kp.ht} · Katakana ${kp.k}/${kp.kt}</p>
+      <div class="row-btns wrap"><a class="btn btn-primary btn-sm" href="#/kana">Luyện kana</a><a class="btn btn-ghost btn-sm" href="#/lotrinh">Xem cả lộ trình →</a></div></section>`;
+  }
+  const x = st.find(y => y.L === cur);
+  if (!x) return '';
+  const next = x.packs.map(p => [p, packStat(p)]).filter(([, s]) => s.fresh).slice(0, 3);
+  const { lo } = thresholds();
+  return `<section class="card rm-card"><div class="stage-h"><h2 class="h2">Lộ trình · Chặng ${esc(x.L)}</h2><span class="stage-b">Đang học</span></div>
+    ${x.total ? `<div class="stack-bar" role="img" aria-label="Đã thuộc ${x.known}, đang học ${x.learned - x.known}, tổng ${x.total}"><i class="sb-known" style="width:${(x.known / x.total) * 100}%"></i><i class="sb-learning" style="width:${((x.learned - x.known) / x.total) * 100}%"></i></div>
+      <p class="small muted">${x.learned}/${x.total} mục đã học · qua chặng khi Thi vượt cấp ${esc(x.L)} đạt từ ${lo}%</p>` : ''}
+    ${next.length ? `<ul class="packs">${next.map(([p, s]) => `<li class="pack"><span class="pack-t"><b>${rich(p.title)}</b><span class="mini"><i style="width:${s.total ? (s.learned / s.total) * 100 : 0}%"></i></span><small class="muted">${{ vocab: 'Từ vựng', grammar: 'Ngữ pháp', kanji: 'Chữ Hán' }[p.type] || ''} · ${s.learned}/${s.total}</small></span>${packAction(p, s)}</li>`).join('')}</ul>` : '<p class="small">Đã học hết các gói của chặng này — làm Thi vượt cấp để qua chặng.</p>'}
+    <div class="row-btns wrap"><a class="btn btn-ghost btn-sm" href="#/lotrinh">Xem cả lộ trình →</a><a class="btn btn-ghost btn-sm" href="#/trinhdo">Thi vượt cấp ${esc(x.L)}</a></div></section>`;
 }
 
 // ---------- Kế hoạch hôm nay + dự báo ----------
@@ -145,7 +171,7 @@ export function forecast() {
 export function planToday() {
   const m = mins(), plan = PACE[m] || PACE[20];
   const sod = startOfDay();
-  const md = mixedDue(), nDue = md.vocab.length + md.kanji.length + md.grammar.length;
+  const md = mixedDue(), nDue = md.vocab.length + md.kanji.length + md.grammar.length + md.sent.length;
   const newV = learnedSinceT(D.vocab, sod), newG = learnedSinceT(D.grammar, sod), newK = learnedSinceT(D.kanji, sod);
   const wantG = plan.g >= 1 ? 1 : (Math.floor(sod / DAY) % Math.round(1 / plan.g) === 0 ? 1 : 0); // 1 mẫu mỗi 2–3 ngày
   const { cur } = stageInfo();
@@ -160,7 +186,8 @@ export function planToday() {
   if (hasNewV) out.push({ done: newV >= plan.v, label: `Học ${plan.v} từ mới`, sub: `Hôm nay đã học ${newV}`, href: '#/moi', btn: 'Học' });
   const g = D.grammar.filter(x => status(x) === 'new').sort((a, b) => LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level))[0];
   if (wantG && g) out.push({ done: newG >= 1, label: '1 mẫu ngữ pháp mới', sub: newG ? 'Đã học hôm nay' : plain(g.pattern), href: `#/nguphap/${encodeURIComponent(g.id)}`, btn: 'Học' });
-  if (m >= 20) out.push({ done: false, label: 'Một bài luyện thể động từ', sub: 'Thể động từ trong câu', href: '#/luyen/the', btn: 'Luyện' });
+  // xen kẽ: ngày chẵn luyện thể, ngày lẻ luyện dịch
+  if (m >= 20) out.push(Math.floor(sod / DAY) % 2 ? { done: false, label: 'Một bài luyện dịch', sub: 'Nhật ↔ Việt theo câu', href: '#/dich', btn: 'Dịch' } : { done: false, label: 'Một bài luyện thể', sub: 'Gõ thể, chuỗi biến đổi, đổi câu…', href: '#/luyen/chia', btn: 'Luyện' });
   const hasNewK = D.kanji.some(k => status(k) === 'new');
   if (hasNewK) out.push({ done: newK >= plan.k, label: `${plan.k} chữ Hán`, sub: `Hôm nay đã học ${newK}`, href: '#/chuhan/moi', btn: 'Học' });
   return out;

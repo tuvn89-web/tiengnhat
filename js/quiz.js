@@ -1,7 +1,7 @@
-import { esc, wordHTML, wordKey, normVi, shuffle, beep, buzz, icon, toast, startOfDay, DAY } from './util.js';
+import { esc, wordHTML, wordKey, normVi, shuffle, beep, buzz, icon, toast, startOfDay, DAY, plain } from './util.js';
 import { D, LEVELS, TOPICS } from './data.js';
 import { S } from './settings.js';
-import { review, status, dueDirs, errCount, isStar, toggleStar, stats, progDir, learnedSince } from './srs.js';
+import { review, status, dueDirs, errCount, isStar, toggleStar, stats, progDir, learnedSince, setLearned, progSnapshot, progRestore } from './srs.js';
 import { runLearn, learnCardHTML, learnBarHTML, applyDecision } from './learn.js';
 import { speak, ttsReady } from './tts.js';
 import { chips, bindChips, readChip, readChips, bindSay, sayBtn, wordDetailHTML, topicOpts, emptyState, wtabs } from './ui.js';
@@ -91,7 +91,8 @@ export function senses(vi) {
   for (const g of splitOut(String(vi || ''), ';；')) {
     const q = squash((g.match(/[(（]([^)）]*)[)）]/g) || []).map(x => x.slice(1, -1)).join(' '));
     for (const x of splitOut(g, ',、')) {
-      const core = squash(x.replace(/[(（][^)）]*[)）]/g, ''));
+      // "vứt đi" = "vứt", "nhanh lên" = "nhanh": chữ "đi", "lên" chỉ hướng / thúc giục ở cuối không đổi nghĩa
+      const core = squash(x.replace(/[(（][^)）]*[)）]/g, '')).replace(/^(\S+(?: \S+)*?) (?:đi|lên)$/, '$1');
       if (core) r.push({ core, q });
     }
   }
@@ -109,9 +110,16 @@ export function sameWriting(it) {
 }
 export const readHint = it => (sameWriting(it) ? `<p class="prompt-sub">${esc(it.vi)}</p>` : '');
 // Từ o có thể cũng là đáp án đúng cho câu hỏi về it → không dùng làm đáp án nhiễu
+// Từ Kansai và từ chuẩn tương ứng (ほかす = 捨てる, ええ = いい): cùng nghĩa → không làm đáp án nhiễu của nhau
+const stdOf = it => (it.std ? plain(it.std).replace(/^〜/, '') : '');
+const forms = it => [it.kanji, it.kana, it.kf && plain(it.kf)].filter(Boolean);
+const kansaiPair = (a, b) => !!stdOf(a) && forms(b).includes(stdOf(a));
+// Hai từ cùng nghĩa (nghĩa đụng nhau, Kansai – chuẩn, đồng nghĩa) — dùng cho Ghép cặp
+export const sameMeaning = (a, b) => viClash(a.vi, b.vi) || kansaiPair(a, b) || kansaiPair(b, a) || (a.syn || []).includes(b.id) || (b.syn || []).includes(a.id);
 export function alsoRight(it, o, dir) {
   // Cùng chữ viết (一日 いちにち / ついたち): mặt chữ giống hệt nên ở mọi kiểu câu hỏi đều dễ chọn nhầm → không làm nhiễu
   if (it.kanji && o.kanji === it.kanji) return true;
+  if (dir !== 'kr' && (kansaiPair(it, o) || kansaiPair(o, it))) return true;
   if (dir === 'kr') return false;
   if (dir === 'au' && o.kana === it.kana) return true;
   return viClash(it.vi, o.vi);
@@ -194,6 +202,20 @@ export async function renderQuizSetup(view, ctx) {
     await kvSet('quizSetup', x);
     if (x.source === 'new') return runLearn(view, selectItems(x).slice(0, x.count), ctx, { again: () => ctx.go('#/moi', true) });
     runQuiz(view, buildQuestions(x), x, ctx);
+  };
+}
+
+// ---------- nút "Đã thuộc" trong lượt ôn: đánh dấu thuộc hẳn (hộp 5, 16 ngày sau hỏi lại một lần) ----------
+export const knownBtnHTML = it => (status(it) === 'known' ? '' : `<button type="button" class="btn btn-ghost btn-sm" data-act="known" title="Không cần ôn nhiều — 16 ngày sau hỏi lại một lần">Đã thuộc</button>`);
+export function bindKnownBtn(root, it, onDone) {
+  const b = root.querySelector('[data-act=known]');
+  if (!b) return;
+  b.onclick = async () => {
+    const before = progSnapshot([it.id]);
+    await setLearned(it, 'known');
+    onDone?.();
+    b.disabled = true; b.textContent = 'Đã thuộc ✓';
+    toast('Đã đánh dấu thuộc — 16 ngày sau hỏi lại một lần.', { action: 'Hoàn tác', onAction: async () => { await progRestore(before); b.disabled = false; b.textContent = 'Đã thuộc'; } });
   };
 }
 
@@ -290,8 +312,10 @@ export function runQuiz(view, qs, o, ctx) {
     const bar = document.createElement('div');
     bar.className = 'next-bar';
     bar.innerHTML = `<button type="button" class="btn btn-ghost" data-act="star" aria-pressed="${isStar(q.it.id)}" aria-label="Gắn sao">${icon('star')}</button>
+      ${knownBtnHTML(q.it)}
       <button type="button" class="btn btn-primary" data-act="next">Tiếp</button>`;
     view.querySelector('.run').appendChild(bar);
+    bindKnownBtn(bar, q.it, () => { const k = st.qs.findIndex((x, j) => j > st.i && x.again && x.it.id === q.it.id); if (k > 0) st.qs.splice(k, 1); });
     bar.querySelector('[data-act=next]').onclick = next;
     bar.querySelector('[data-act=star]').onclick = async e => { const b = e.currentTarget; const on = await toggleStar(q.it.id); b.setAttribute('aria-pressed', on); };
     const nb = bar.querySelector('[data-act=next]');

@@ -606,3 +606,42 @@ button.wref:hover { border-color: var(--blue); }
 .lv-res .topics td:nth-child(2), .lv-res .bytag td:nth-child(2) { width: 100%; padding-right: 10px; }
 .lv-plan, .lv-wrong { text-align: left; }
 .lv-plan .h2 { text-align: left; }
+
+/* ---- v11: ô gõ, luyện thể, bảng nhiệt ---- */
+.typebox { display: flex; gap: 8px; margin: 12px 0 4px; }
+.type-in { flex: 1; min-width: 0; font-family: var(--jp); font-size: calc(var(--fs-vi) * 1.25); min-height: var(--btn-h); }
+.typebox .btn { flex: none; }
+.type-rj { margin: 4px 0 0; align-items: flex-start; }
+.type-rj .muted { font-size: .9em; }
+.chain { font-size: calc(var(--fs-jp) * .62); text-align: center; line-height: 2.1; margin: 18px 0 4px; overflow-wrap: anywhere; }
+.chain-q { display: inline-block; min-width: 2em; border-bottom: 3px solid var(--blue); color: var(--blue); font-weight: 700; }
+.fheat-wrap { overflow-x: auto; }
+.fheat { border-collapse: separate; border-spacing: 3px; font-size: .88em; margin: 6px 0; }
+.fheat th { text-align: left; font-weight: 500; padding: 4px 6px 4px 0; max-width: 10em; }
+.fheat thead th { color: var(--ink-2); font-weight: 600; text-align: center; }
+.fheat td { min-width: 50px; text-align: center; padding: 6px 4px; border-radius: 6px; font-variant-numeric: tabular-nums; font-weight: 650;
+  background: color-mix(in srgb, var(--ok-soft) calc(var(--p, 0) * 1%), var(--ng-soft)); color: var(--ink); }
+.fheat td small { display: block; font-weight: 400; font-size: .75em; color: var(--ink-2); }
+.fheat td.fh-weak { outline: 2px solid var(--ng); outline-offset: -2px; }
+.fheat td.fh-na { background: var(--surface-2); color: var(--ink-2); font-weight: 400; }
+.run.speed .run-top { gap: 12px; }
+.speed-t { font-size: 1.6em; font-weight: 800; color: var(--blue); min-width: 2.2em; text-align: center; font-variant-numeric: tabular-nums; }
+.selftab-t td { vertical-align: middle; }
+.st-cell { min-width: 9em; min-height: 44px; border: 1px dashed var(--line); border-radius: 10px; background: var(--surface); padding: 4px 10px; cursor: pointer; font-size: 1.05em; }
+.st-hide { color: var(--ink-2); font-weight: 700; }
+.st-mark { white-space: nowrap; }
+.st-mark .btn[aria-pressed="true"] { border-color: var(--blue); background: var(--blue-soft); }
+.selftab-t tr.st-ok th { color: var(--ok); }
+.selftab-t tr.st-ng th { color: var(--ng); }
+
+.type-tip { margin: 2px 0 0 30px; }
+.f-ext summary { cursor: pointer; color: var(--blue); padding: 8px 0 4px; font-weight: 600; font-size: .95em; }
+
+/* ---- v12: luyện dịch ---- */
+.vh { line-height: 1.9; }
+.vh-hit { color: var(--ok); }
+.vh-miss { color: var(--ng); text-decoration: underline wavy var(--ng); text-underline-offset: 4px; font-weight: 650; }
+.dich-help summary { cursor: pointer; }
+.stage-sep { margin-top: 28px; color: var(--ink-2); }
+.rm-card .packs { margin: 4px 0 8px; }
+.rm-card .stack-bar { margin-top: 6px; }
