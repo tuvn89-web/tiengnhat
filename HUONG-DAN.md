@@ -322,3 +322,43 @@ Sau đó, nếu trong `data/packs` trên GitHub còn file **`jlpt-n5-dongtu-01.j
 - **Trang chủ** có thẻ **Lộ trình · Chặng …** ngay dưới Kế hoạch hôm nay: tiến độ chặng, 3 gói học tiếp với nút Học, nút Xem cả lộ trình và Thi vượt cấp.
 - **Nút "Đã thuộc"** khi ôn: ở Trắc nghiệm, Ôn từ đến hạn, Ôn hỗn hợp, ôn chữ Hán, luyện ngữ pháp, câu dịch — sau khi trả lời, bấm **Đã thuộc** thì mục đó chuyển sang đã thuộc (16 ngày sau hỏi lại một lần) và không bị hỏi lại trong lượt này. Bấm nhầm thì bấm **Hoàn tác** trên thông báo.
 - Tên gói có chữ Hán (ví dụ "Ngữ pháp N4 02 – 予定") hiện furigana thay vì dấu ngoặc vuông.
+
+## 21. Bản v14 (12/10/2026): lộ trình theo bài học, Sổ tay, hội thoại & bài đọc (Đ9–Đ12)
+
+**Cách tải lên:** giải nén `capnhat-v14.zip`, kéo **toàn bộ** nội dung vào kho `tiengnhat` → ghi đè → Commit (đã gồm v8–v13 và 3 gói dữ liệu mới). Kiểm tra: Cài đặt → cuối trang ghi **v14 · 12/10/2026**.
+
+**Lộ trình chia thành bài học**
+- Mỗi chặng là một dãy **bài học**. Chặng N5 có 21 bài soạn theo chủ đề (gói `baihoc-n5`). Chặng N4, N3 chưa có gói bài học thì app tự chia bài từ các gói đang có (ghi "app tự chia"); khi skill soạn xong `baihoc-n4`, `baihoc-n3` thì app dùng gói đó.
+- **Trang bài** (bấm vào bài ở Lộ trình hoặc thẻ "Bài đang học" ở Trang chủ) có mục tiêu "Sau bài này…" và 8 bước, bước xong có ✓:
+  1. Từ mới — danh sách từ, nút Học, nút đánh dấu cạnh từng từ.
+  2. Từ liên quan — cặp tự – tha, trái nghĩa, đồng nghĩa, dễ nhầm, từ chung chữ Hán.
+  3. Chữ Hán của bài.
+  4. Ngữ pháp — bấm vào mẫu để học; nút luyện các mẫu của bài.
+  5. Luyện từ — trắc nghiệm, ghép cặp, gõ từ; có ô "Chỉ từ đã đánh dấu".
+  6. Luyện câu — ghép câu, thể động từ, dịch Việt ↔ Nhật bằng câu của bài.
+  7. Đọc & hội thoại — bài hội thoại / bài đọc của bài. Bài chưa có thì đọc câu ví dụ và làm "Nghe – hiểu 10 câu".
+  8. Kiểm tra cuối bài — 15 câu, đạt từ 80% là bài có ✓. Câu sai tự vào sổ **Sai ở bài kiểm tra**.
+- **Viết 3 câu** ở cuối trang bài: tự viết câu theo mẫu của bài, mở câu mẫu để so, bấm Lưu (đồng bộ sang máy khác).
+- **Ôn bài cũ**: bài đã xong sẽ hiện trong Kế hoạch hôm nay sau 1, 3, 7, 14 ngày — mỗi lần 10 câu trộn cả bài.
+- **Tình huống thật**: sau mỗi 5 bài có một mục ôn tổng hợp (khi có bài hội thoại tổng hợp thì mở bài đó).
+- **Nói được gì** (nút ở Lộ trình, Trang chủ): danh sách mục tiêu các bài, bài đã xong có ✓.
+- **Kế hoạch hôm nay** có dòng "Bài N: …" dẫn thẳng tới bước tiếp theo; "Học 10 từ mới", "1 mẫu ngữ pháp mới", "3 chữ Hán" ưu tiên của bài đang học.
+
+**Sổ tay** (Kho từ → Sổ tay, hoặc Trang chủ)
+- Nút 🔖 **Sổ tay** có ở trang bài học, thẻ từ, Kho từ, thẻ chữ Hán, và giữa lượt ôn (cạnh nút Tiếp). Bấm vào để chọn sổ hoặc tạo sổ mới ("Từ khó", "Từ xưởng"…). "Gắn sao" cũ là sổ mặc định.
+- Mỗi sổ luyện riêng được: trắc nghiệm, ghép cặp, học từ chưa học, dịch câu, ôn chữ Hán, luyện mẫu. Các trang luyện (Trắc nghiệm, Ghép cặp, Ghép câu, Luyện thể, Luyện dịch, Bài tập ngữ pháp, Ôn chữ Hán) có thêm nguồn **"Sổ: …"**.
+
+**Hội thoại & bài đọc** (Luyện tập → Hội thoại & bài đọc, hoặc bước 7 của bài)
+- 6 chế độ: **Đọc** (chạm câu để xem nghĩa, từ, ghi chú; câu Kansai có "Nói chuẩn"), **Dịch** từng câu, **Đóng vai** (app hiện câu người kia, Cậu Cả chọn hoặc gõ câu của mình), **Từ khóa**, **Câu hỏi** (đúng từ một nửa là bài có ✓), **Nghe cả bài** (chỉnh tốc độ, mỗi vai một giọng nếu máy có nhiều giọng).
+- Câu hội thoại dịch sai vào lịch ôn như Luyện dịch; trang Luyện dịch có thêm nguồn "Câu hội thoại, bài đọc".
+- Không có phần luyện nói / ghi âm (theo yêu cầu).
+
+## 22. Dữ liệu đi kèm v14
+
+| Gói | Nội dung |
+|---|---|
+| `baihoc-n5` | 21 bài N5: chia hết 606 từ N5 và 44 mẫu ngữ pháp N5 theo chủ đề (chào hỏi, mua sắm, giờ làm, đi lại, ăn uống, chỉ thị ở xưởng, xin phép & điều cấm, sức khỏe & xin nghỉ, quy định & thủ tục…) |
+| `hoithoai-01` | 4 bài hội thoại **mẫu** để Cậu Cả duyệt giọng văn: ngày đầu ở xưởng · nhận chỉ thị · gọi điện xin nghỉ vì sốt · đồng nghiệp nói Kansai rủ đi ăn |
+| `baidoc-01` | 2 bài đọc mẫu: tin nhắn LINE giờ làm · biển báo phòng thay đồ |
+
+Thẻ chữ Hán cho các chữ của 21 bài N5 sẽ làm ở đợt chữ Hán tới (chữ chưa có thẻ thì bước 3 bỏ qua chữ đó).

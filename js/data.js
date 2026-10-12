@@ -5,7 +5,8 @@ export const LEVELS = ['N5', 'N4', 'N3', 'N2', 'N1'];
 export const POS = { n: 'danh từ', 'n-suru': 'danh từ + する', v1: 'động từ nhóm 2', v5: 'động từ nhóm 1', v3: 'động từ nhóm 3', 'adj-i': 'tính từ い', 'adj-na': 'tính từ な', adv: 'phó từ', expr: 'cụm từ', ctr: 'trợ số từ', ono: 'từ tượng thanh, tượng hình', other: 'khác' };
 export const REG = { trangtrong: 'văn bản, giấy tờ', lichsu: 'lịch sự', thuong: 'trung tính', khaungu: 'khẩu ngữ', kansai: 'Kansai-ben' };
 export const CTX = { doisong: 'Đời sống', xuong: 'Xưởng', thutuc: 'Thủ tục', hoithoai: 'Hội thoại', kansai: 'Kansai' };
-const TYPES = ['vocab', 'grammar', 'phrase', 'kanji'];
+const TYPES = ['vocab', 'grammar', 'phrase', 'kanji', 'lesson', 'dialog', 'text'];
+export const TYPE_NAME = { vocab: 'Từ vựng', grammar: 'Ngữ pháp', phrase: 'Câu thực chiến', kanji: 'Chữ Hán', lesson: 'Bài học', dialog: 'Hội thoại', text: 'Bài đọc' };
 // Nhóm chữ Hán theo nơi hay gặp (K11)
 export const KGROUPS = { coban: 'Chữ nền tảng', nhan: 'Nhãn sản phẩm', giayto: 'Giấy tờ & thuế', xuong: 'Công xưởng', antoan: 'Biển an toàn', thuysan: 'Thủy sản' };
 
@@ -23,12 +24,15 @@ export const D = {
   tests: {},          // id -> lần kiểm tra trình độ {id, t, kind, level, est, pct, levels, skills, applied, undone}
   kana: {},           // chữ kana -> {b (0–5), ok, ng, t} — Chặng 0
   fstat: {},          // thể -> {v5:[đúng, lần], v1, v3, i, na, n, t} — điểm theo thể (B4)
+  lessons: {},        // mã bài -> {steps:{n:t}, test:{pct,t}, done, rev:[t…], writes:[…], t} — tiến độ bài học (Đ9)
+  nbooks: {},         // mã sổ -> {name, t, _del?} — Sổ tay (Đ10)
+  nmarks: {},         // mã mục -> {b:{mã sổ:1}, t} — mục nằm trong sổ nào
   items: new Map(),
-  vocab: [], grammar: [], phrase: [], kanji: [],
+  vocab: [], grammar: [], phrase: [], kanji: [], lesson: [], dialog: [], text: [],
   kanjiByChar: new Map(),
   errors: [],
 };
-export const typeOfId = id => id.startsWith('g:') ? 'grammar' : id.startsWith('p:') ? 'phrase' : id.startsWith('k:') ? 'kanji' : 'vocab';
+export const typeOfId = id => id.startsWith('g:') ? 'grammar' : id.startsWith('p:') ? 'phrase' : id.startsWith('k:') ? 'kanji' : id.startsWith('l:') ? 'lesson' : id.startsWith('d:') ? 'dialog' : id.startsWith('t:') ? 'text' : 'vocab';
 
 export async function loadAll() {
   D.errors = [];
@@ -38,6 +42,9 @@ export async function loadAll() {
   D.tests = await kvGet('tests', {});
   D.kana = await kvGet('kana', {});
   D.fstat = await kvGet('fstat', {});
+  D.lessons = await kvGet('lessons', {});
+  D.nbooks = await kvGet('nbooks', {});
+  D.nmarks = await kvGet('nmarks', {});
   try {
     const r = await fetch('data/manifest.json', { cache: 'no-cache' });
     if (!r.ok) throw new Error(r.status);
@@ -93,6 +100,15 @@ export async function saveKana(patch) {
   await kvSet('kana', D.kana);
 }
 
+// Tiến độ bài học (đồng bộ)
+export async function saveLesson(id, patch) {
+  D.lessons[id] = { ...(D.lessons[id] || {}), ...patch, t: Date.now() };
+  await kvSet('lessons', D.lessons);
+}
+// Sổ tay (đồng bộ)
+export async function saveBooks() { await kvSet('nbooks', D.nbooks); }
+export async function saveMarks() { await kvSet('nmarks', D.nmarks); }
+
 export function packEntry(p, items, src, t) {
   return { id: p.id, title: p.title, type: p.type, level: p.level, topics: p.topics || [], count: items.length, version: p.version || 1, src, items, _t: t };
 }
@@ -109,8 +125,8 @@ export function rebuild() {
     m.set(u.id, norm({ ...u, _user: true, _type: typeOfId(u.id), _pack: u._pack || 'tu-them' }));
   }
   D.items = m;
-  D.vocab = []; D.grammar = []; D.phrase = []; D.kanji = [];
-  for (const it of m.values()) ({ grammar: D.grammar, phrase: D.phrase, kanji: D.kanji }[it._type] || D.vocab).push(it);
+  D.vocab = []; D.grammar = []; D.phrase = []; D.kanji = []; D.lesson = []; D.dialog = []; D.text = [];
+  for (const it of m.values()) ({ grammar: D.grammar, phrase: D.phrase, kanji: D.kanji, lesson: D.lesson, dialog: D.dialog, text: D.text }[it._type] || D.vocab).push(it);
   D.kanjiByChar = new Map(D.kanji.map(k => [k.char, k]));
 }
 function norm(it) {
@@ -162,10 +178,10 @@ export function checkPack(j) {
   if (j.schema !== 1) errs.push('schema phải là 1');
   const p = j.pack || {};
   if (!p.id || !/^[a-z0-9-]+$/.test(p.id)) errs.push('pack.id thiếu hoặc sai dạng');
-  if (!TYPES.includes(p.type)) errs.push('pack.type phải là vocab/grammar/phrase/kanji');
+  if (!TYPES.includes(p.type)) errs.push('pack.type phải là ' + TYPES.join('/'));
   if (!p.title) errs.push('thiếu pack.title');
   if (!Array.isArray(j.items) || !j.items.length) errs.push('không có mục nào');
-  const pre = { vocab: 'v:', grammar: 'g:', phrase: 'p:', kanji: 'k:' }[p.type];
+  const pre = { vocab: 'v:', grammar: 'g:', phrase: 'p:', kanji: 'k:', lesson: 'l:', dialog: 'd:', text: 't:' }[p.type];
   (j.items || []).forEach((it, i) => {
     const w = `mục ${i + 1}`;
     if (!it.id) errs.push(`${w}: thiếu id`);
@@ -174,6 +190,9 @@ export function checkPack(j) {
     if (p.type === 'grammar' && (!it.pattern || !Array.isArray(it.ex))) errs.push(`${w}: thiếu pattern hoặc ex`);
     if (p.type === 'phrase' && (!it.jp || !it.vi)) errs.push(`${w}: thiếu jp hoặc vi`);
     if (p.type === 'kanji' && (!it.char || !it.hv)) errs.push(`${w}: thiếu char hoặc hv`);
+    if (p.type === 'lesson' && (!it.level || !Array.isArray(it.words))) errs.push(`${w}: thiếu level hoặc words`);
+    if (p.type === 'dialog' && (!Array.isArray(it.roles) || !Array.isArray(it.turns))) errs.push(`${w}: thiếu roles hoặc turns`);
+    if (p.type === 'text' && !Array.isArray(it.sents)) errs.push(`${w}: thiếu sents`);
   });
   return errs;
 }

@@ -3,6 +3,7 @@
 import { esc, rich, kj, wordHTML, kanjiChars, shuffle, icon, toast, debounce } from './util.js';
 import { D, LEVELS, KGROUPS, report, unreport } from './data.js';
 import { status, dueDirs, errCount, isStar, toggleStar, stats, P } from './srs.js';
+import { isBookSrc, matchSrc, bookSourceOpts, markBtnHTML } from './notes.js';
 import { chips, bindChips, readChip, readChips, openSheet, emptyState, field } from './ui.js';
 import { runDrill, opt } from './drill.js';
 import { kvGet, kvSet } from './db.js';
@@ -73,7 +74,7 @@ export function kanjiCardHTML(ch) {
     ${rep ? `<p class="wd-flag">Cậu Cả đã báo sai thẻ này${D.reports[k.id].note ? ': ' + esc(D.reports[k.id].note) : ''}.</p>` : ''}
     <p class="muted small">Tiến độ: ${esc(prog)}.</p>
     <div class="row-btns wrap">
-      <button type="button" class="btn btn-ghost" data-ka="star" aria-pressed="${isStar(k.id)}">${icon('star')} Gắn sao</button>
+      ${markBtnHTML(k.id, { cls: 'btn btn-ghost' })}
       <button type="button" class="btn btn-ghost" data-ka="rep">${icon('flag')} ${rep ? 'Bỏ báo sai' : 'Báo sai'}</button>
     </div>
   </div>`;
@@ -173,11 +174,12 @@ export function kanjiQuestion(k, dir) {
   };
 }
 export function buildKanjiQs(o) {
-  let pool = D.kanji.filter(k => (!o.groups?.length || (k.groups || []).some(g => o.groups.includes(g))) && (!o.levels?.length || o.levels.includes(k.level)));
+  let pool = D.kanji.filter(k => (!o.groups?.length || (k.groups || []).some(g => o.groups.includes(g))) && (!o.levels?.length || o.levels.includes(k.level)) && (!o.chars || o.chars.includes(k.char)));
   if (o.source === 'due') pool = pool.filter(k => dueDirs(k).length);
   else if (o.source === 'new') pool = pool.filter(k => status(k) === 'new');
   else if (o.source === 'wrong') pool = pool.filter(k => errCount(k) > 0).sort((a, b) => errCount(b) - errCount(a));
   else if (o.source === 'star') pool = pool.filter(k => isStar(k.id));
+  else if (isBookSrc(o.source)) pool = pool.filter(k => matchSrc(k.id, o.source));
   if (o.source !== 'wrong') pool = shuffle(pool);
   const qs = [];
   for (const k of pool) {
@@ -200,7 +202,7 @@ export async function renderKanjiQuizSetup(view, ctx) {
     <form class="setup" onsubmit="return false">
       <p class="muted small">Đây là phần kiểm tra chữ Hán nên chữ không có furigana.</p>
       <fieldset><legend>Kiểu câu hỏi</legend>${chips('dir', KDIRS, o.dir, false)}</fieldset>
-      <fieldset><legend>Lấy chữ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['new', 'Chữ mới', st.new], ['wrong', 'Hay sai'], ['star', 'Gắn sao'], ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
+      <fieldset><legend>Lấy chữ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['new', 'Chữ mới', st.new], ['wrong', 'Hay sai'], ['star', 'Gắn sao'], ...bookSourceOpts(D.kanji), ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
       <fieldset><legend>Nhóm <small>(không chọn = tất cả)</small></legend>${chips('groups', usedG.map(g => [g, KGROUPS[g]]), o.groups)}</fieldset>
       <fieldset><legend>Cấp độ <small>(không chọn = tất cả)</small></legend>${chips('levels', LEVELS.map(l => [l, l]), o.levels)}</fieldset>
       <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30].map(n => [String(n), String(n)]), String(o.count), false)}</fieldset>

@@ -74,10 +74,10 @@ function sentQ(src, ex, sibs, pool, L, listen) {
   if (listen) return { ...base, sk: 'listen', tag: SK.listen, prompt: '<p class="prompt-hint">Nghe câu (bấm loa để nghe lại) rồi chọn nghĩa đúng</p>', say: reading(jp), autoSay: true };
   return { ...base, sk: 'read', tag: SK.read, prompt: `<p class="prompt-sent" lang="ja">${rubyHTML(jp, true)}</p>`, hint: 'Câu này nghĩa là gì?' };
 }
-function sentSources(L) {
+function sentSources(L, pool) {
   const out = [];
-  for (const g of D.grammar.filter(g => g.level === L)) for (const ex of g.ex || []) if (ex.jp && ex.vi && !/B：/.test(ex.jp)) out.push({ src: g, ex, sibs: g.ex.filter(x => x !== ex) });
-  for (const v of vocabOf(L)) for (const ex of v.ex || []) if (ex.jp && ex.vi) out.push({ src: v, ex, sibs: v.ex.filter(x => x !== ex) });
+  for (const g of pool ? pool.grammar : D.grammar.filter(g => g.level === L)) for (const ex of g.ex || []) if (ex.jp && ex.vi && !/B：/.test(ex.jp)) out.push({ src: g, ex, sibs: g.ex.filter(x => x !== ex) });
+  for (const v of pool ? pool.vocab : vocabOf(L)) for (const ex of v.ex || []) if (ex.jp && ex.vi) out.push({ src: v, ex, sibs: v.ex.filter(x => x !== ex) });
   return out;
 }
 
@@ -85,23 +85,25 @@ function sentSources(L) {
 // spec: số câu mỗi loại. Thiếu loại nào thì bù bằng từ vựng.
 const PLACE = { jv: 3, vj: 2, kr: 1, kh: 1, g: 5 };
 const FULL = { kr: 8, jv: 6, vj: 4, kh: 4, g: 18, read: 10, listen: 5 };
-export function buildLevelQs(L, spec) {
+export const buildLevelQs = (L, spec) => buildPoolQs(null, spec, L);
+// pool = {vocab, grammar, kanji}: đề từ một nhóm mục cho sẵn (bài kiểm tra cuối bài, ôn bài cũ); không có thì lấy cả cấp L
+export function buildPoolQs(pool, spec, L) {
   const out = [], used = new Set();
   const add = q => { if (q && !used.has(q.review.id + q.sk)) { used.add(q.review.id + q.sk); out.push(q); return true; } return false; };
   // từ vựng chung trước, từ chuyên ngành chỉ dùng khi thiếu
-  const vs = vocabOf(L).filter(v => v.reg !== 'kansai');
+  const vs = (pool ? pool.vocab : vocabOf(L)).filter(v => v.reg !== 'kansai');
   const vocab = [...spread(vs.filter(v => !isSpec(v))), ...spread(vs.filter(isSpec))];
   const take = (n, mk, cands) => { let k = 0; for (const c of cands) { if (k >= n) break; if (add(mk(c))) k++; } return n - k; };
   let short = 0;
   // thẻ chữ Hán: thiếu thì bù bằng câu từ vựng
-  short += take(spec.kh || 0, kanjiQ, spread(D.kanji.filter(k => k.level === L)));
-  short += take(spec.kr || 0, v => vocabQ(v, 'kr', L), vocab.filter(v => v.kanji));
-  short += take(spec.g || 0, grammarQ, spread(D.grammar.filter(g => g.level === L)));
+  short += take(spec.kh || 0, kanjiQ, spread(pool ? pool.kanji : D.kanji.filter(k => k.level === L)));
+  short += take(spec.kr || 0, v => vocabQ(v, 'kr', v.level || L), vocab.filter(v => v.kanji));
+  short += take(spec.g || 0, grammarQ, spread(pool ? pool.grammar : D.grammar.filter(g => g.level === L)));
   if (spec.read || spec.listen) {
-    const src = sentSources(L);
-    const pool = shuffle(src.map(s => s.ex));
+    const src = sentSources(L, pool);
+    const exPool = shuffle(src.map(s => s.ex));
     const usedEx = new Set();
-    const mkS = listen => s => { if (usedEx.has(s.ex)) return null; usedEx.add(s.ex); return sentQ(s.src, s.ex, s.sibs, pool, L, listen); };
+    const mkS = listen => s => { if (usedEx.has(s.ex)) return null; usedEx.add(s.ex); return sentQ(s.src, s.ex, s.sibs, exPool, s.src.level || L, listen); };
     short += take(spec.read || 0, mkS(false), spread(src, s => s.src.id));
     if (ttsReady()) {
       const nl = spec.listen || 0, half = Math.ceil(nl / 2);
@@ -109,9 +111,9 @@ export function buildLevelQs(L, spec) {
       short += take(nl - half, v => vocabQ(v, 'au', L), vocab);
     } else short += spec.listen || 0;
   }
-  short += take(spec.jv || 0, v => vocabQ(v, 'jv', L), vocab);
-  short += take(spec.vj || 0, v => vocabQ(v, 'vj', L), vocab);
-  if (short > 0) take(short, v => vocabQ(v, Math.random() < .5 ? 'jv' : 'vj', L), vocab);
+  short += take(spec.jv || 0, v => vocabQ(v, 'jv', v.level || L), vocab);
+  short += take(spec.vj || 0, v => vocabQ(v, 'vj', v.level || L), vocab);
+  if (short > 0) take(short, v => vocabQ(v, Math.random() < .5 ? 'jv' : 'vj', v.level || L), vocab);
   // xếp theo phần như đề thật: từ vựng – chữ Hán → ngữ pháp → đọc hiểu → nghe
   const order = ['kread', 'vocab', 'kanji', 'grammar', 'read', 'listen'];
   return order.flatMap(s => shuffle(out.filter(q => q.sk === s)));

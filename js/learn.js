@@ -27,7 +27,7 @@ export async function applyDecision(it, dec, prev) {
   else if (dec === 'later' && (prev === 'learned' || prev === 'known')) await unsetLearned(it);
 }
 
-export function runLearn(view, items, ctx, { again } = {}) {
+export function runLearn(view, items, ctx, { again, onFinish } = {}) {
   if (!items.length) { view.innerHTML = emptyState('Đã học hết từ mới trong kho (theo bộ lọc đang chọn). Nhập thêm gói từ ở trang Dữ liệu.', '<a class="btn btn-primary" href="#/luyen">Về Luyện tập</a>'); return; }
   const st = { i: 0, dec: new Map() };
   beginSession(ctx);
@@ -93,6 +93,7 @@ export function runLearn(view, items, ctx, { again } = {}) {
     if (m) m.onclick = () => again();
     bindResultNav(view, ctx, { kind: learned.length ? 'learn' : 'practice' });
     if (learned.length || known.length) toast(`Đã lưu ${learned.length + known.length} từ vào lịch ôn.`);
+    onFinish?.({ learned, known, later, early });
     ctx.sessionDone?.();
   }
   show();

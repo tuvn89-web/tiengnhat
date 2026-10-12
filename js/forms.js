@@ -2,7 +2,8 @@
 // tính từ (có bẫy きれい / いい), danh từ + だ, phó từ trong câu, katakana; 60 giây tốc độ; bảng chia tự kiểm; điểm theo thể (B4).
 import { esc, rich, rubyHTML, plain, reading, shuffle, wordHTML, toast, icon } from './util.js';
 import { D, setPrefs } from './data.js';
-import { status, errCount } from './srs.js';
+import { status, errCount, isStar } from './srs.js';
+import { isBookSrc, matchSrc, bookSourceOpts } from './notes.js';
 import { verbInfo, conjugate, conjPart, wrongForms, ruleText, FORMS, FORM_LEVEL, BASE_FORMS, EXT_FORMS, CASUAL, DERIVED, formVi, shortVi } from './conj.js';
 import { adjInfo, adjConj, adjWrong, AFORMS, adjVi, NFORMS, nounConj, nounWrong } from './adj.js';
 import { runDrill, opt } from './drill.js';
@@ -49,7 +50,8 @@ function baseOf(kind) {
 export function pickWords(kind, srcs) {
   const base = baseOf(kind);
   if (!srcs.length || srcs.includes('all')) return base;
-  return base.filter(it => (srcs.includes('learning') && status(it) === 'learning') || (srcs.includes('known') && status(it) === 'known') || (srcs.includes('wrong') && errCount(it) > 0));
+  return base.filter(it => (srcs.includes('learning') && status(it) === 'learning') || (srcs.includes('known') && status(it) === 'known') || (srcs.includes('wrong') && errCount(it) > 0)
+    || (srcs.includes('star') && isStar(it.id)) || srcs.some(s => isBookSrc(s) && matchSrc(it.id, s)));
 }
 
 // ---------- động từ ----------
@@ -384,7 +386,7 @@ export async function renderForms(view, ctx, gid) {
       ${g ? '' : `<fieldset><legend>Loại từ</legend>${chips('kind', KINDS, o.kind, false)}</fieldset>`}
       <fieldset class="f-type"><legend>Dạng bài</legend><div class="f-type-in"></div></fieldset>
       <fieldset class="f-forms"><legend>Thể <small>(không chọn = các thể đã học)</small></legend>${formChips(forms0)}</fieldset>
-      <fieldset class="f-src"><legend>Lấy từ <small>(chọn được nhiều)</small></legend>${chips('srcs', SRC, o.srcs)}</fieldset>
+      <fieldset class="f-src"><legend>Lấy từ <small>(chọn được nhiều)</small></legend>${chips('srcs', [...SRC.slice(0, 3), ['star', 'Gắn sao'], ...bookSourceOpts(D.vocab).map(([k, l]) => [k, l]), SRC[3]], o.srcs)}</fieldset>
       <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30].map(x => [String(x), String(x)]), String(o.count), false)}</fieldset>
       <p class="setup-count" aria-live="polite"></p>
       <button class="btn btn-primary btn-block" data-act="start">Bắt đầu</button>

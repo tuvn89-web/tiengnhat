@@ -12,12 +12,13 @@ import { chips, bindChips, readChip, readChips } from './ui.js';
 import { kvGet, kvSet } from './db.js';
 import { ttsReady } from './tts.js';
 import { normKana } from './romaji.js';
+import { isBookSrc, matchSrc, bookSourceOpts } from './notes.js';
 
 // ---------- kho câu ----------
 const hash = s => { let h = 5381; for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0; return (h >>> 0).toString(36); };
 let _idx = null, _key = '';
 export function sentences() {
-  const key = `${D.items.size}:${D.vocab.length}:${D.grammar.length}`;
+  const key = `${D.items.size}:${D.vocab.length}:${D.grammar.length}:${D.dialog.length}:${D.text.length}`;
   if (_idx && _key === key) return _idx;
   const seen = new Map();
   const add = (src, ex, kind) => {
@@ -28,6 +29,12 @@ export function sentences() {
   };
   for (const g of D.grammar) for (const ex of g.ex || []) add(g, ex, 'g');
   for (const v of D.vocab) if (v.reg !== 'kansai') for (const ex of v.ex || []) add(v, ex, 'v');
+  // lượt hội thoại, câu bài đọc (bỏ câu quá ngắn như はい。; câu Kansai / khẩu ngữ chỉ dịch Nhật → Việt)
+  for (const d of [...D.dialog, ...D.text]) for (const t of d.turns || d.sents || []) {
+    if (!t.jp || !t.vi || plain(t.jp).replace(/[。、！？…\s]/g, '').length < 4 || t.fmt) continue;
+    add(d, { jp: t.jp, vi: t.vi, alt: t.alt, ctx: d.ctx }, 'd');
+    const s = seen.get(plain(stripHL(t.jp))); if (s && s.src === d) s.casual = !!t.std;
+  }
   _idx = [...seen.values()]; _key = key;
   return _idx;
 }
@@ -84,8 +91,8 @@ export function judgeJa(s, typed) {
 }
 
 // ---------- câu hỏi ----------
-const tagOf = (s, t) => `${t} · ${s.kind === 'g' ? 'câu ngữ pháp' : 'câu từ vựng'}`;
-const srcNote = s => (s.kind === 'g' ? `<p class="after-g"><b lang="ja">${rich(s.src.pattern)}</b> — ${rich(s.src.meaning || '')}</p>` : `<p class="muted small">Từ: <span lang="ja">${wordHTML(s.src, 'furi')}</span> — ${esc(s.src.vi)}</p>`);
+const tagOf = (s, t) => `${t} · ${s.kind === 'g' ? 'câu ngữ pháp' : s.kind === 'd' ? (s.src.turns ? 'câu hội thoại' : 'câu bài đọc') : 'câu từ vựng'}`;
+const srcNote = s => (s.kind === 'd' ? `<p class="muted small">Trong bài: <a href="#/doc/${encodeURIComponent(s.src.id)}">${esc(s.src.title)}</a></p>` : s.kind === 'g' ? `<p class="after-g"><b lang="ja">${rich(s.src.pattern)}</b> — ${rich(s.src.meaning || '')}</p>` : `<p class="muted small">Từ: <span lang="ja">${wordHTML(s.src, 'furi')}</span> — ${esc(s.src.vi)}</p>`);
 const fullAfter = s => `<p class="after-sent" lang="ja">${rubyHTML(stripHL(s.jp), true)}</p><p class="muted">${esc(s.vi)}</p>` + srcNote(s);
 function viOpts(s, pool) {
   const seen = new Set([s.vi]), ds = [];
@@ -126,6 +133,7 @@ function jaOpts(s, pool) {
 }
 const patHint = (s, hint) => (hint && s.kind === 'g' ? `<p class="prompt-hint">Dùng mẫu: <b lang="ja">${rich(s.src.pattern)}</b></p>` : '');
 function vnChoice(s, pool, hint) {
+  if (s.casual) return null;
   const opts = jaOpts(s, pool);
   if (!opts) return null;
   return { kind: 'choice', tag: tagOf(s, 'Việt → Nhật'), level: s.level, prompt: `<p class="prompt-vi">${esc(s.vi)}</p>${patHint(s, hint)}`, hint: 'Chọn câu tiếng Nhật đúng', opts, answer: 'ok', after: fullAfter(s), review: { id: s.id, dir: 'vn' } };
@@ -136,7 +144,7 @@ function nvType(s) {
     lang: 'vi', romajiOff: true, placeholder: 'gõ tiếng Việt', judge: t => judgeVi(s.vi, t), answerHTML: esc(s.vi), after: srcNote(s), review: { id: s.id, dir: 'nv' } };
 }
 function vnType(s, hint) {
-  if (s.dialog) return null;
+  if (s.dialog || s.casual) return null;
   return { kind: 'type', tag: tagOf(s, 'Tự dịch Việt → Nhật'), level: s.level, prompt: `<p class="prompt-vi">${esc(s.vi)}</p>${patHint(s, hint)}`, hint: 'Gõ câu tiếng Nhật (kana hoặc chữ Hán)',
     judge: t => judgeJa(s, t), answerHTML: rich(stripHL(s.jp)), after: srcNote(s), review: { id: s.id, dir: 'vn' } };
 }
@@ -154,11 +162,13 @@ export function sentQ(s, dir, how, pool, hint = true) {
 export function pickSentences(o) {
   const maxI = LEVELS.indexOf(o.level || 'N3');
   return sentences().filter(s => {
+    if (o.srcIds) return o.srcIds.has(s.src.id) && (!o.learned || s.kind === 'd' || status(s.src) !== 'new');
     if (!(o.kinds || ['v', 'g']).includes(s.kind)) return false;
     if (LEVELS.indexOf(s.level) > maxI) return false;
-    if (o.learned && status(s.src) === 'new') return false;
+    if (o.learned && s.kind !== 'd' && status(s.src) === 'new') return false;
     if (o.src === 'due') return dueDirs(s).length > 0;
     if (o.src === 'wrong') return errCount(s) > 0;
+    if (isBookSrc(o.src)) return matchSrc(s.src.id, o.src);
     if (o.src === 'new') return !P.has(s.id);
     return true;
   });
@@ -204,9 +214,9 @@ export async function renderDich(view, ctx, preset) {
     <form class="setup" onsubmit="return false">
       <fieldset><legend>Chiều dịch</legend>${chips('dir', DIRS, o.dir, false)}</fieldset>
       <fieldset><legend>Cách làm</legend>${chips('how', HOWS.filter(([h]) => h !== 'listen' || ttsReady()), o.how, false)}</fieldset>
-      <fieldset><legend>Câu lấy từ</legend>${chips('kinds', [['v', 'Câu ví dụ của từ vựng'], ['g', 'Câu ví dụ ngữ pháp']], o.kinds)}</fieldset>
+      <fieldset><legend>Câu lấy từ</legend>${chips('kinds', [['v', 'Câu ví dụ của từ vựng'], ['g', 'Câu ví dụ ngữ pháp'], ...(all.some(s => s.kind === 'd') ? [['d', 'Câu hội thoại, bài đọc']] : [])], o.kinds)}</fieldset>
       <fieldset><legend>Đến cấp <small>(chỉ lấy câu từ cấp này trở xuống)</small></legend>${chips('level', lv.map(l => [l, l]), lv.includes(o.level) ? o.level : lv[lv.length - 1], false)}</fieldset>
-      <fieldset><legend>Ôn lại</legend>${chips('src', SRCS.map(([k, l]) => [k, l, k === 'due' ? due : k === 'wrong' ? wrong : undefined]), o.src, false)}</fieldset>
+      <fieldset><legend>Ôn lại</legend>${chips('src', [...SRCS.map(([k, l]) => [k, l, k === 'due' ? due : k === 'wrong' ? wrong : undefined]), ...bookSourceOpts([...D.vocab, ...D.grammar]).map(([k, l]) => [k, l])], o.src, false)}</fieldset>
       <label class="check"><input type="checkbox" data-o="learned" ${o.learned ? 'checked' : ''}> Chỉ câu của từ / mẫu ngữ pháp đã học</label>
       <label class="check"><input type="checkbox" data-o="hint" ${o.hint ? 'checked' : ''}> Việt → Nhật: cho biết mẫu ngữ pháp cần dùng (câu ngữ pháp)</label>
       <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30].map(n => [String(n), String(n)]), String(o.count), false)}</fieldset>

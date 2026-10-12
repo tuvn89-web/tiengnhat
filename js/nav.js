@@ -43,6 +43,15 @@ const PAGES = [
   [/^moi\?p=(.+)$/, m => { const p = D.packs.find(x => x.id === decodeURIComponent(m[1])); return 'Học gói ' + (p ? p.title : ''); }, ['lotrinh']],
   [/^chuhan\/moi$/, () => 'Chữ Hán mới', ['chuhan']],
   [/^huongdan$/, () => 'Hướng dẫn học', []],
+  [/^bai\/([^/?]+)(\?b=\d)?$/, m => { const l = lessonName(decodeURIComponent(m[1])); return l || 'Bài học'; }, ['lotrinh']],
+  [/^bai\/([^/?]+)\/(hoc|cau|kiemtra)$/, m => (lessonName(decodeURIComponent(m[1])) || 'Bài học') + { hoc: ' · từ mới', cau: ' · câu', kiemtra: ' · kiểm tra' }[m[2]], ['lotrinh']],
+  [/^onbai\/(.+)$/, () => 'Ôn bài cũ', []],
+  [/^tonghop\/(.+)$/, () => 'Tình huống thật', ['lotrinh']],
+  [/^noiduoc$/, () => 'Nói được gì', ['lotrinh']],
+  [/^sotay$/, () => 'Sổ tay', []],
+  [/^sotay\/(.+)$/, m => 'Sổ: ' + (D.nbooks[decodeURIComponent(m[1])]?.name || (decodeURIComponent(m[1]) === 'star' ? 'Gắn sao' : 'Sai ở bài kiểm tra')), ['sotay']],
+  [/^doc$/, () => 'Hội thoại & bài đọc', ['luyen']],
+  [/^doc\/([^/?]+)(\?m=\w+)?$/, m => D.items.get(decodeURIComponent(m[1]))?.title || 'Bài đọc', ['doc']],
 ];
 function page(hash) {
   const h = norm(hash);
@@ -56,7 +65,9 @@ export function trail(hash) {
 }
 
 // Trang tự bắt đầu lượt học khi mở (từ Trang chủ…) → quay lại trang đã mở nó
-const AUTO = /^(moi|on|onchu|onngu|onhon|chuhan\/moi)$/;
+const AUTO = /^(moi|on|onchu|onngu|onhon|chuhan\/moi|onbai\/.+)$/;
+// tên bài học cho đường dẫn "← Về …" (lesson.js nạp sau nên đọc qua biến toàn cục)
+const lessonName = id => { const x = globalThis.__lessonById?.(id); return x ? `Bài ${x.n}: ${x.title}` : ''; };
 export function beginSession(ctx) {
   const h = norm(location.hash);
   let back = ctx.backTo; // trang đặt rõ (vd. luyện riêng một mẫu → về trang mẫu đó)

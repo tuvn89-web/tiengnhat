@@ -1,11 +1,11 @@
 import { esc, toast, download, readFile, fmtDate, icon, rich, APP_VERSION } from './util.js';
 import qrcode from './vendor/qrcode.js';
 import { missingKanji } from './kanji.js';
-import { D, TOPICS, setPackEnabled, checkPack, importPack, removeImported, activeReports } from './data.js';
+import { TYPE_NAME, D, TOPICS, setPackEnabled, checkPack, importPack, removeImported, activeReports } from './data.js';
 import { field, confirmBox, openSheet } from './ui.js';
 import { getSyncCfg, setSyncCfg, syncNow, lastSync, lastSyncError, backupJSON, restoreJSON, normalizeCfg, formProblem, diagnose, ownerFromSite, maskToken, transferLink, readTransferCode } from './sync.js';
 
-const TYPE = { vocab: 'Từ vựng', grammar: 'Ngữ pháp', phrase: 'Câu thực chiến', kanji: 'Chữ Hán' };
+const TYPE = TYPE_NAME;
 
 // Máy này đang lưu gì — để Cậu Cả tự soát (token che phần giữa)
 function savedHTML(c) {

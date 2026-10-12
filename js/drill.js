@@ -5,6 +5,7 @@ import { S, saveSettings } from './settings.js';
 import { attachRomaji, romajiToKana, normKana } from './romaji.js';
 import { knownBtnHTML, bindKnownBtn } from './quiz.js';
 import { D } from './data.js';
+import { markBtnHTML } from './notes.js';
 import { review } from './srs.js';
 import { speak, ttsReady } from './tts.js';
 import { bindSay, confirmBox } from './ui.js';
@@ -183,7 +184,8 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     bar.className = 'next-bar';
     // mục có lịch ôn (từ, chữ Hán, mẫu, câu dịch): thêm nút "Đã thuộc"
     const kItem = q.review && !noReview ? (D.items.get(q.review.id) || (q.review.id.startsWith('s:') ? { id: q.review.id } : null)) : null;
-    bar.innerHTML = `${kItem ? knownBtnHTML(kItem) : ''}<button type="button" class="btn btn-primary" data-act="next">Tiếp</button>`;
+    const mItem = kItem && D.items.has(kItem.id) ? kItem : null;
+    bar.innerHTML = `${mItem ? markBtnHTML(mItem.id, { label: false, cls: 'btn btn-ghost' }) : ''}${kItem ? knownBtnHTML(kItem) : ''}<button type="button" class="btn btn-primary" data-act="next">Tiếp</button>`;
     view.querySelector('.run').appendChild(bar);
     if (kItem) bindKnownBtn(bar, kItem, () => { if (againQ) { const k = st.qs.indexOf(againQ); if (k > st.i) st.qs.splice(k, 1); } });
     const nb = bar.querySelector('[data-act=next]');
@@ -196,6 +198,7 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
   function finish(early = false) {
     st.pending?.();
     setKeys(null); clearInterval(timer); timer = null;
+    onDone?.(st.res, { early, score: st.score, total: st.total, practice: true });
     renderResult(view, ctx, { title, mode, test, early, res: st.res, total: st.total, score: st.score, again,
       redo: wrong => runDrill(view, wrong.map(w => ({ ...w.q, _again: false })), ctx, { title, mode, again, noReview }) });
   }

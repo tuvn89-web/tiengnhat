@@ -23,6 +23,9 @@ import { renderForms } from './forms.js';
 import { renderDich } from './dich.js';
 import { renderGuides, renderGuide } from './guides.js';
 import { setPrefs } from './data.js';
+import { openMarkSheet, renderNotebook } from './notes.js';
+import { renderLesson, learnLesson, renderLessonSents, runLessonTest, runLessonReview, runTongHop, renderCanDo } from './lesson.js';
+import { renderDocList, renderDoc } from './reader.js';
 
 const view = $('#view');
 let leave = [];
@@ -34,11 +37,11 @@ const ctx = {
 };
 
 const NAV = [
-  ['#/', 'home', 'Trang chủ', /^(?:|trinhdo|lotrinh|batdau|kana|huongdan(?:\/.*)?)$/],
-  ['#/luyen', 'quiz', 'Luyện tập', /^(luyen|hoc|on|moi|ghep|onhon|dich)/],
+  ['#/', 'home', 'Trang chủ', /^(?:|trinhdo|lotrinh|batdau|kana|noiduoc|huongdan(?:\/.*)?|(?:bai|onbai|tonghop)\/.*)$/],
+  ['#/luyen', 'quiz', 'Luyện tập', /^(luyen|hoc|on$|moi|ghep|onhon|dich|doc)/],
   ['#/chuhan', 'han', 'Chữ Hán', /^(chuhan|onchu)/],
   ['#/nguphap', 'book', 'Ngữ pháp', /^(nguphap|onngu)/],
-  ['#/kho', 'list', 'Kho từ', /^(kho|them|sua)/],
+  ['#/kho', 'list', 'Kho từ', /^(kho|them|sua|sotay)/],
   ['#/dulieu', 'box', 'Dữ liệu', /^(dulieu|nhan)/, 'rail'],
   ['#/caidat', 'gear', 'Cài đặt', /^caidat$/, 'rail'],
 ];
@@ -82,6 +85,17 @@ const ROUTES = [
   [/^kana$/, v => renderKana(v, ctx)],
   [/^huongdan$/, v => renderGuides(v)],
   [/^huongdan\/(.+)$/, (v, m) => renderGuide(v, decodeURIComponent(m[1]))],
+  [/^bai\/([^/?]+)(?:\?b=(\d))?$/, (v, m) => renderLesson(v, ctx, decodeURIComponent(m[1]), m[2] ? +m[2] : 0)],
+  [/^bai\/([^/?]+)\/hoc$/, (v, m) => learnLesson(v, ctx, decodeURIComponent(m[1]))],
+  [/^bai\/([^/?]+)\/cau$/, (v, m) => renderLessonSents(v, ctx, decodeURIComponent(m[1]))],
+  [/^bai\/([^/?]+)\/kiemtra$/, (v, m) => runLessonTest(v, ctx, decodeURIComponent(m[1]))],
+  [/^onbai\/([^/?]+)$/, (v, m) => runLessonReview(v, ctx, decodeURIComponent(m[1]))],
+  [/^tonghop\/([^/?]+)$/, (v, m) => runTongHop(v, ctx, decodeURIComponent(m[1]))],
+  [/^noiduoc$/, v => renderCanDo(v)],
+  [/^doc$/, v => renderDocList(v)],
+  [/^doc\/([^/?]+)(?:\?m=(\w+))?$/, (v, m) => renderDoc(v, ctx, decodeURIComponent(m[1]), m[2] || 'doc')],
+  [/^sotay$/, v => renderNotebook(v, ctx)],
+  [/^sotay\/(.+)$/, (v, m) => renderNotebook(v, ctx, decodeURIComponent(m[1]))],
 ];
 
 function route() {
@@ -211,12 +225,14 @@ function renderHome(v) {
 
     <nav class="modes" aria-label="Các phần học">
       ${[
-      ['#/lotrinh', 'route', 'Lộ trình', 'Chặng Kana → N5 → N4 → N3 → N2, gói nào học trước'],
+      ['#/lotrinh', 'route', 'Lộ trình', 'Chặng Kana → N5 → N4 → N3 → N2, chia thành từng bài học'],
       ['#/trinhdo', 'gauge', 'Kiểm tra trình độ', 'Xếp lớp nhanh, thi vượt cấp, kiểm tra theo gói'],
       ['#/luyen', 'quiz', 'Luyện tập', 'Học từ mới, trắc nghiệm, ghép cặp, ghép câu, thể động từ, tính từ, đếm số'],
       ['#/chuhan', 'han', 'Chữ Hán', `${D.kanji.length} thẻ chữ, câu lục bát nhớ mặt chữ, ôn chữ Hán`],
       ['#/nguphap', 'book', 'Ngữ pháp', `${D.grammar.length} mẫu — bài học, luyện tập, thi thử`],
       ['#/kho', 'list', 'Kho từ', `${st.total} từ — tìm, sửa, thêm từ mới`],
+      ['#/sotay', 'bookmark', 'Sổ tay', 'Các sổ từ đã đánh dấu — luyện riêng từng sổ'],
+      ['#/noiduoc', 'chat', 'Nói được gì', 'Những việc đã làm được bằng tiếng Nhật sau mỗi bài'],
       ['#/dulieu', 'box', 'Dữ liệu & đồng bộ', 'Nhập gói từ skill, sao lưu, GitHub'],
       ['#/huongdan', 'help', 'Hướng dẫn học', 'Cho người mới, theo cấp, 特定技能2号, giấy tờ thuế'],
       ['#/caidat', 'gear', 'Cài đặt', 'Cỡ chữ, cỡ nút, màu nền, giọng đọc'],
@@ -277,6 +293,8 @@ async function init() {
   document.addEventListener('click', e => {
     const ko = e.target.closest('[data-kopen]');
     if (ko) { e.preventDefault(); openKanji(ko.dataset.kopen); return; }
+    const mk = e.target.closest('[data-mark]');
+    if (mk) { e.preventDefault(); openMarkSheet(mk.dataset.mark); return; }
     const wo = e.target.closest('[data-wopen]');
     if (wo) { e.preventDefault(); showWord(wo.dataset.wopen, ctx, () => { }); return; }
     const k = e.target.closest('.kj');

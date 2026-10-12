@@ -15,6 +15,7 @@ import { dueDirs, status, stats } from './srs.js';
 import { ttsReady } from './tts.js';
 import { recForm, weakForms } from './fstat.js';
 import { sentDue, dueSentQs } from './dich.js';
+import { bookSourceOpts } from './notes.js';
 
 const cap = s => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
 const sentHTML = jp => `<p class="after-sent" lang="ja">${rubyHTML(jp, true)}</p>`;
@@ -26,7 +27,7 @@ const backLink = `<a class="back" href="#/luyen">Các dạng bài</a>`;
 function sourceBlock(o, filter, { label = 'Lấy từ nào' } = {}) {
   const cnt = {};
   for (const [k] of SOURCES) cnt[k] = selectItems({ source: k }).filter(filter).length;
-  return `<fieldset><legend>${label}</legend>${chips('source', SOURCES.map(([k, l]) => [k, l, cnt[k]]), o.source, false)}</fieldset>
+  return `<fieldset><legend>${label}</legend>${chips('source', [...SOURCES.map(([k, l]) => [k, l, cnt[k]]), ...bookSourceOpts(D.vocab, filter)], o.source, false)}</fieldset>
     <fieldset><legend>Cấp độ <small>(không chọn = tất cả)</small></legend>${chips('levels', LEVELS.map(l => [l, l]), o.levels || [])}</fieldset>
     <fieldset><legend>Chủ đề <small>(không chọn = tất cả)</small></legend>${chips('topics', topicOpts(), o.topics || [])}</fieldset>`;
 }
@@ -66,7 +67,7 @@ export function exChunks(ex) {
   const ch = Array.isArray(ex.chunks) && ex.chunks.length >= 3 ? ex.chunks : autoChunks(s);
   return ch.length >= 3 && uniq(ch) && ch.join('') === s ? ch : null;
 }
-function buildCau(o) {
+export function buildCau(o) {
   const out = [], all = [];
   for (const it of pool(o, it => (it.ex || []).length)) {
     const exs = shuffle((it.ex || []).filter(e => e.vi && exChunks(e)));
@@ -466,8 +467,9 @@ export function renderHub(view) {
       ${card('#/nguphap/luyen?t=conj', 'list', 'Chia động từ', 'Chọn thể đúng của từng động từ, có giải thích luật chia', verbs.length)}
       ${card('#/luyen/tinhtu', 'book', 'Tính từ trong câu', 'Không ~, đã ~, trông có vẻ ~, quá ~; 重[おも]い → 重[おも]さ; trái nghĩa', adjs.length)}
     </nav>
-    <h2 class="h2">Dịch</h2>
+    <h2 class="h2">Dịch, đọc & hội thoại</h2>
     <nav class="modes">
+      ${card('#/doc', 'chat', 'Hội thoại & bài đọc', 'Đọc song ngữ, dịch, đóng vai, điền từ khóa, câu hỏi, nghe cả bài', D.dialog.length + D.text.length || null)}
       ${card('#/dich', 'book', 'Luyện dịch theo câu', 'Nhật ↔ Việt: chọn câu đúng, tự gõ (app chấm), nghe, ghép mảnh — câu ví dụ theo cấp', due.sent.length ? due.sent.length + ' đến hạn' : null)}
     </nav>
     <h2 class="h2">Ngữ pháp</h2>
@@ -480,5 +482,6 @@ export function renderHub(view) {
     <nav class="modes">
       ${card('#/luyen/dem', 'list', 'Đếm số', 'Trợ số từ có âm biến: いっぽん, さんぼん, ろっぴき')}
       ${card('#/chuhan/on', 'han', 'Ôn chữ Hán', 'Chữ → Hán Việt, Hán Việt → chữ')}
+      ${card('#/sotay', 'bookmark', 'Sổ tay', 'Luyện riêng các từ đã đánh dấu')}
     </nav>`;
 }
