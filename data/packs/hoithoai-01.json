@@ -1,0 +1,1046 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "hoithoai-01",
+  "title": "Hội thoại 01 – Ở xưởng N5 (mẫu)",
+  "type": "dialog",
+  "level": "N5",
+  "topics": [
+   "xuong",
+   "kansai"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "note": "4 bài mẫu để duyệt giọng văn: H6 bài 1, 2, 4, 8. Bài 4 và 8 hạ xuống N5, gắn bài 16 và bài 10 của baihoc-n5."
+ },
+ "items": [
+  {
+   "id": "d:chao-hoi-ngay-dau",
+   "title": "Ngày đầu ở xưởng: chào hỏi, tự giới thiệu",
+   "level": "N5",
+   "topics": [
+    "xuong"
+   ],
+   "ctx": "xuong",
+   "medium": "tructiep",
+   "lesson": "l:n5-01",
+   "setting": "Ngày đầu đi làm. Sau buổi họp đầu giờ (朝礼[ちょうれい]), tổ trưởng 田中[たなか] giới thiệu Cậu Cả với đồng nghiệp マリア (người Philippines).",
+   "roles": [
+    {
+     "key": "A",
+     "name": "田中[たなか]",
+     "vi": "Tổ trưởng (班長[はんちょう])"
+    },
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Cậu Cả",
+     "me": true
+    },
+    {
+     "key": "C",
+     "name": "マリア",
+     "vi": "Đồng nghiệp"
+    }
+   ],
+   "turns": [
+    {
+     "who": "A",
+     "jp": "皆[みな]さん、おはようございます。",
+     "vi": "Chào buổi sáng mọi người.",
+     "words": [
+      "v:皆さん:みなさん",
+      "v:おはようございます:おはようございます"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "おはようございます。",
+     "vi": "Chào buổi sáng ạ."
+    },
+    {
+     "who": "A",
+     "jp": "こちらはグエンさんです。今日[きょう]から仕事[しごと]です。",
+     "vi": "Đây là anh Nguyễn. Từ hôm nay anh ấy vào làm.",
+     "words": [
+      "v:仕事:しごと"
+     ],
+     "gloss": [
+      {
+       "w": "今日[きょう]から",
+       "vi": "từ hôm nay"
+      }
+     ],
+     "note": "こちら = \"đây (là)…\" — cách giới thiệu người lịch sự hơn これ."
+    },
+    {
+     "who": "B",
+     "jp": "はじめまして。グエンです。ベトナム人[じん]です。よろしくお願[ねが]いします。",
+     "vi": "Rất hân hạnh. Tôi là Nguyễn. Tôi là người Việt Nam. Rất mong được mọi người giúp đỡ.",
+     "words": [
+      "v:はじめまして:はじめまして",
+      "v:人:じん",
+      "v:よろしくお願いします:よろしくおねがいします"
+     ],
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "key": "よろしくお願[ねが]いします",
+     "alt": [
+      "はじめまして、グエンです。ベトナム人[じん]です。どうぞよろしくお願[ねが]いします。"
+     ],
+     "note": "Tự giới thiệu ở Nhật: はじめまして → tên → (quê) → よろしくお願[ねが]いします, nói xong cúi chào nhẹ."
+    },
+    {
+     "who": "C",
+     "jp": "はじめまして。マリアです。よろしくお願[ねが]いします。",
+     "vi": "Rất hân hạnh. Tôi là Maria. Mong được giúp đỡ."
+    },
+    {
+     "who": "C",
+     "jp": "グエンさんは学生[がくせい]ですか。",
+     "vi": "Anh Nguyễn là sinh viên à?",
+     "words": [
+      "v:学生:がくせい"
+     ],
+     "grammar": [
+      "g:〜か"
+     ],
+     "key": "学生[がくせい]"
+    },
+    {
+     "who": "B",
+     "jp": "いいえ、学生[がくせい]じゃありません。特定技能[とくていぎのう]です。",
+     "vi": "Không, tôi không phải sinh viên. Tôi theo diện kỹ năng đặc định.",
+     "words": [
+      "v:学生:がくせい"
+     ],
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "特定技能[とくていぎのう]",
+       "vi": "kỹ năng đặc định (tư cách lưu trú)"
+      }
+     ],
+     "alt": [
+      "いいえ、学生[がくせい]ではありません。特定技能[とくていぎのう]です。"
+     ],
+     "note": "じゃありません là cách nói thường ngày của ではありません (không phải là)."
+    },
+    {
+     "who": "C",
+     "jp": "そうですか。私[わたし]も特定技能[とくていぎのう]です。フィリピン人[じん]です。",
+     "vi": "Vậy à. Tôi cũng là kỹ năng đặc định. Tôi là người Philippines.",
+     "words": [
+      "v:私:わたし",
+      "v:人:じん"
+     ],
+     "grammar": [
+      "g:〜も"
+     ],
+     "key": "私[わたし]も",
+     "gloss": [
+      {
+       "w": "特定技能[とくていぎのう]",
+       "vi": "kỹ năng đặc định"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "田中[たなか]さんは班長[はんちょう]ですか。",
+     "vi": "Anh Tanaka là tổ trưởng phải không?",
+     "grammar": [
+      "g:〜は〜です",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "班長[はんちょう]",
+       "vi": "tổ trưởng"
+      }
+     ],
+     "alt": [
+      "田中[たなか]さんが班長[はんちょう]ですか。"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "はい、田中[たなか]さんは班長[はんちょう]です。",
+     "vi": "Vâng, anh Tanaka là tổ trưởng.",
+     "gloss": [
+      {
+       "w": "班長[はんちょう]",
+       "vi": "tổ trưởng"
+      }
+     ],
+     "key": "班長[はんちょう]"
+    },
+    {
+     "who": "A",
+     "jp": "グエンさん、わかりますか。",
+     "vi": "Anh Nguyễn hiểu không?"
+    },
+    {
+     "who": "B",
+     "jp": "はい、わかりました。よろしくお願[ねが]いします。",
+     "vi": "Vâng, tôi hiểu rồi. Mong anh giúp đỡ.",
+     "words": [
+      "v:わかりました:わかりました",
+      "v:よろしくお願いします:よろしくおねがいします"
+     ],
+     "alt": [
+      "はい、わかりました。どうぞよろしくお願[ねが]いします。"
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Cậu Cả là người nước nào?",
+     "opts": [
+      "Việt Nam",
+      "Philippines",
+      "Nhật Bản",
+      "Trung Quốc"
+     ],
+     "ans": 0,
+     "why": "ベトナム人[じん]です。"
+    },
+    {
+     "q": "Chị Maria có tư cách lưu trú gì?",
+     "opts": [
+      "Kỹ năng đặc định",
+      "Du học sinh",
+      "Thực tập sinh kỹ năng",
+      "Kỹ sư"
+     ],
+     "ans": 0,
+     "why": "私[わたし]も特定技能[とくていぎのう]です。— も: cũng giống Cậu Cả."
+    },
+    {
+     "q": "Ai là tổ trưởng?",
+     "opts": [
+      "Anh Tanaka",
+      "Chị Maria",
+      "Anh Nguyễn",
+      "Không nhắc đến"
+     ],
+     "ans": 0,
+     "why": "はい、田中[たなか]さんは班長[はんちょう]です。"
+    },
+    {
+     "q": "Lần đầu gặp người khác, Cậu Cả nói câu nào?",
+     "opts": [
+      "はじめまして。",
+      "おやすみなさい。",
+      "いってきます。",
+      "ごちそうさまでした。"
+     ],
+     "ans": 0,
+     "why": "はじめまして chỉ dùng khi gặp lần đầu."
+    }
+   ]
+  },
+  {
+   "id": "d:nhan-chi-thi",
+   "title": "Nhận chỉ thị: cho cá vào thùng, cất tủ lạnh",
+   "level": "N5",
+   "topics": [
+    "xuong",
+    "thuysan"
+   ],
+   "ctx": "xuong",
+   "medium": "tructiep",
+   "lesson": "l:n5-11",
+   "setting": "Trong xưởng chế biến. Tổ trưởng 田中[たなか] gọi Cậu Cả lại, dặn việc buổi sáng.",
+   "roles": [
+    {
+     "key": "A",
+     "name": "田中[たなか]",
+     "vi": "Tổ trưởng (班長[はんちょう])"
+    },
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Cậu Cả",
+     "me": true
+    }
+   ],
+   "turns": [
+    {
+     "who": "A",
+     "jp": "グエンさん、ちょっと来[き]てください。",
+     "vi": "Anh Nguyễn, lại đây một chút.",
+     "words": [
+      "v:ちょっと:ちょっと",
+      "v:来る:くる"
+     ],
+     "grammar": [
+      "g:〜てください"
+     ],
+     "key": "来[き]てください"
+    },
+    {
+     "who": "B",
+     "jp": "はい、今[いま]行[い]きます。",
+     "vi": "Vâng, tôi đến ngay.",
+     "words": [
+      "v:今:いま",
+      "v:行く:いく"
+     ],
+     "alt": [
+      "はい、すぐ行[い]きます。"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "まず、手[て]を洗[あら]ってください。",
+     "vi": "Trước hết, hãy rửa tay.",
+     "words": [
+      "v:手:て",
+      "v:洗う:あらう"
+     ],
+     "grammar": [
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "手[て]",
+       "vi": "tay"
+      },
+      {
+       "w": "まず",
+       "vi": "trước hết"
+      }
+     ],
+     "key": "洗[あら]って"
+    },
+    {
+     "who": "B",
+     "jp": "はい、わかりました。",
+     "vi": "Vâng, tôi hiểu rồi.",
+     "words": [
+      "v:わかりました:わかりました"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "この魚[さかな]を箱[はこ]に入[い]れてください。",
+     "vi": "Hãy cho chỗ cá này vào thùng.",
+     "words": [
+      "v:魚:さかな",
+      "v:箱:はこ",
+      "v:入れる:いれる"
+     ],
+     "grammar": [
+      "g:〜を",
+      "g:〜に",
+      "g:〜てください"
+     ],
+     "key": "入[い]れて"
+    },
+    {
+     "who": "B",
+     "jp": "全部[ぜんぶ]ですか。",
+     "vi": "Tất cả ạ?",
+     "words": [
+      "v:全部:ぜんぶ"
+     ],
+     "alt": [
+      "全部[ぜんぶ]入[い]れますか。"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "はい、全部[ぜんぶ]です。急[いそ]がないでください。",
+     "vi": "Ừ, tất cả. Đừng vội.",
+     "words": [
+      "v:全部:ぜんぶ",
+      "v:急ぐ:いそぐ"
+     ],
+     "grammar": [
+      "g:〜ないでください"
+     ],
+     "key": "急[いそ]がないで",
+     "note": "Làm cá sống: làm nhanh mà rơi cá, đứt tay thì hỏng hết — tổ trưởng hay dặn 急[いそ]がないで."
+    },
+    {
+     "who": "A",
+     "jp": "それから、箱[はこ]は冷蔵庫[れいぞうこ]に入[い]れてください。",
+     "vi": "Rồi cho thùng vào tủ lạnh.",
+     "words": [
+      "v:箱:はこ",
+      "v:冷蔵庫:れいぞうこ",
+      "v:入れる:いれる"
+     ],
+     "grammar": [
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "それから",
+       "vi": "sau đó, rồi"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "冷蔵庫[れいぞうこ]はどこですか。",
+     "vi": "Tủ lạnh ở đâu ạ?",
+     "words": [
+      "v:冷蔵庫:れいぞうこ"
+     ],
+     "alt": [
+      "すみません、冷蔵庫[れいぞうこ]はどこですか。"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "あそこです。ドアは閉[し]めてください。電気[でんき]は消[け]さないでください。",
+     "vi": "Ở đằng kia. Nhớ đóng cửa. Đừng tắt đèn.",
+     "words": [
+      "v:ドア:ドア",
+      "v:閉める:しめる",
+      "v:電気:でんき",
+      "v:消す:けす"
+     ],
+     "grammar": [
+      "g:ここ・そこ・あそこ",
+      "g:〜てください",
+      "g:〜ないでください"
+     ],
+     "key": "消[け]さないで"
+    },
+    {
+     "who": "B",
+     "jp": "すみません、もう一度[いちど]お願[ねが]いします。",
+     "vi": "Xin lỗi, anh nói lại một lần nữa giúp tôi.",
+     "words": [
+      "v:一度:いちど",
+      "v:お願いします:おねがいします"
+     ],
+     "alt": [
+      "すみません、もう一度[いちど]言[い]ってください。"
+     ],
+     "note": "Nghe không kịp thì nói もう一度[いちど]お願[ねが]いします — lịch sự, ai cũng dùng. Đừng gật đầu khi chưa hiểu."
+    },
+    {
+     "who": "A",
+     "jp": "ドアは閉[し]めてください。電気[でんき]は消[け]さないでください。",
+     "vi": "Đóng cửa lại. Đừng tắt đèn.",
+     "words": [
+      "v:ドア:ドア",
+      "v:閉める:しめる",
+      "v:電気:でんき",
+      "v:消す:けす"
+     ],
+     "grammar": [
+      "g:〜てください",
+      "g:〜ないでください"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。ドアは閉[し]めます。電気[でんき]は消[け]しません。",
+     "vi": "Vâng. Tôi đóng cửa. Tôi không tắt đèn.",
+     "words": [
+      "v:ドア:ドア",
+      "v:閉める:しめる",
+      "v:電気:でんき",
+      "v:消す:けす"
+     ],
+     "grammar": [
+      "g:〜ます・〜ません"
+     ],
+     "note": "Nhắc lại chỉ thị (復唱[ふくしょう]) để xác nhận là thói quen tốt ở xưởng Nhật — tổ trưởng sẽ yên tâm."
+    },
+    {
+     "who": "A",
+     "jp": "はい、お願[ねが]いします。",
+     "vi": "Ừ, nhờ anh nhé.",
+     "words": [
+      "v:お願いします:おねがいします"
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Việc đầu tiên tổ trưởng bảo làm là gì?",
+     "opts": [
+      "Rửa tay",
+      "Bật đèn",
+      "Mở tủ lạnh",
+      "Đóng thùng"
+     ],
+     "ans": 0,
+     "why": "まず、手[て]を洗[あら]ってください。"
+    },
+    {
+     "q": "Cá phải cho vào đâu trước?",
+     "opts": [
+      "Vào thùng",
+      "Vào tủ lạnh",
+      "Vào bồn nước",
+      "Lên bàn"
+     ],
+     "ans": 0,
+     "why": "この魚[さかな]を箱[はこ]に入[い]れてください。— thùng mới cho vào tủ lạnh."
+    },
+    {
+     "q": "Tổ trưởng dặn gì về đèn?",
+     "opts": [
+      "Đừng tắt đèn",
+      "Hãy tắt đèn",
+      "Hãy bật thêm đèn",
+      "Không nói gì"
+     ],
+     "ans": 0,
+     "why": "電気[でんき]は消[け]さないでください。"
+    },
+    {
+     "q": "Nghe không kịp, Cậu Cả nói câu nào?",
+     "opts": [
+      "もう一度[いちど]お願[ねが]いします。",
+      "ありがとうございます。",
+      "失礼[しつれい]します。",
+      "おやすみなさい。"
+     ],
+     "ans": 0,
+     "why": "もう一度[いちど]お願[ねが]いします = nói lại giúp tôi một lần nữa."
+    }
+   ]
+  },
+  {
+   "id": "d:goi-dien-xin-nghi-om",
+   "title": "Gọi điện xin nghỉ vì sốt",
+   "level": "N5",
+   "topics": [
+    "xuong"
+   ],
+   "ctx": "xuong",
+   "medium": "dienthoai",
+   "lesson": "l:n5-16",
+   "setting": "6 giờ 30 sáng. Cậu Cả bị sốt, gọi điện cho tổ trưởng 田中[たなか] trước giờ làm để xin nghỉ.",
+   "roles": [
+    {
+     "key": "A",
+     "name": "田中[たなか]",
+     "vi": "Tổ trưởng (班長[はんちょう])"
+    },
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Cậu Cả",
+     "me": true
+    }
+   ],
+   "turns": [
+    {
+     "who": "A",
+     "jp": "はい、田中[たなか]です。",
+     "vi": "Vâng, Tanaka nghe."
+    },
+    {
+     "who": "B",
+     "jp": "おはようございます。グエンです。すみません、今[いま]、大丈夫[だいじょうぶ]ですか。",
+     "vi": "Chào buổi sáng. Tôi là Nguyễn. Xin lỗi, bây giờ anh nghe máy được không ạ?",
+     "words": [
+      "v:おはようございます:おはようございます",
+      "v:今:いま",
+      "v:大丈夫:だいじょうぶ"
+     ],
+     "alt": [
+      "おはようございます。グエンです。すみません、今[いま]、いいですか。"
+     ],
+     "note": "Gọi cho cấp trên: chào → xưng tên → hỏi người kia có tiện nghe không, rồi mới nói việc."
+    },
+    {
+     "who": "A",
+     "jp": "はい、大丈夫[だいじょうぶ]ですよ。どうしましたか。",
+     "vi": "Ừ, được. Có chuyện gì vậy?",
+     "words": [
+      "v:大丈夫:だいじょうぶ"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "実[じつ]は、昨日[きのう]の夜[よる]から熱[ねつ]があります。",
+     "vi": "Thật ra, từ tối hôm qua tôi bị sốt.",
+     "words": [
+      "v:昨日:きのう",
+      "v:夜:よる",
+      "v:熱:ねつ"
+     ],
+     "grammar": [
+      "g:〜があります・〜がいます"
+     ],
+     "gloss": [
+      {
+       "w": "実[じつ]は",
+       "vi": "thật ra (mở đầu báo tin không hay)"
+      }
+     ],
+     "key": "熱[ねつ]",
+     "alt": [
+      "実[じつ]は、昨日[きのう]の夜[よる]から熱[ねつ]が出[で]ました。"
+     ],
+     "note": "Mở đầu bằng 実[じつ]は… để báo tin không hay một cách nhẹ nhàng."
+    },
+    {
+     "who": "A",
+     "jp": "そうですか。熱[ねつ]は何度[なんど]ですか。",
+     "vi": "Vậy à. Sốt bao nhiêu độ?",
+     "words": [
+      "v:熱:ねつ"
+     ],
+     "gloss": [
+      {
+       "w": "何度[なんど]",
+       "vi": "bao nhiêu độ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "三十八度[さんじゅうはちど]です。頭[あたま]も痛[いた]いです。",
+     "vi": "38 độ. Tôi cũng đau đầu nữa.",
+     "words": [
+      "v:頭:あたま",
+      "v:痛い:いたい"
+     ],
+     "grammar": [
+      "g:〜も"
+     ],
+     "key": "頭[あたま]",
+     "alt": [
+      "三十八度[さんじゅうはちど]あります。頭[あたま]も痛[いた]いです。"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "それは大変[たいへん]ですね。病院[びょういん]に行[い]きますか。",
+     "vi": "Thế thì mệt đấy. Anh có đi bệnh viện không?",
+     "words": [
+      "v:大変:たいへん",
+      "v:病院:びょういん",
+      "v:行く:いく"
+     ],
+     "grammar": [
+      "g:〜に"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、行[い]きます。熱[ねつ]がありますから、今日[きょう]は休[やす]んでもいいですか。",
+     "vi": "Vâng, tôi sẽ đi. Vì bị sốt nên hôm nay tôi xin nghỉ được không ạ?",
+     "words": [
+      "v:熱:ねつ",
+      "v:今日:きょう",
+      "v:休む:やすむ"
+     ],
+     "grammar": [
+      "g:〜から",
+      "g:〜てもいいですか"
+     ],
+     "key": "休[やす]んでもいいですか",
+     "alt": [
+      "はい、行[い]きます。熱[ねつ]があるので、今日[きょう]は休[やす]ませてください。",
+      "はい、行[い]きます。熱[ねつ]がありますから、今日[きょう]は休[やす]ませてください。"
+     ],
+     "note": "Xin nghỉ: nói lý do trước (〜から), rồi xin phép bằng 〜てもいいですか. Lên N4 sẽ nói lịch sự hơn: 休[やす]ませてください."
+    },
+    {
+     "who": "A",
+     "jp": "わかりました。いいですよ。ゆっくり休[やす]んでください。",
+     "vi": "Được rồi. Không sao đâu. Nghỉ ngơi cho khỏe nhé.",
+     "words": [
+      "v:休む:やすむ",
+      "v:ゆっくり:ゆっくり"
+     ],
+     "grammar": [
+      "g:〜てください"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "すみません。ありがとうございます。",
+     "vi": "Xin lỗi anh. Cảm ơn anh ạ.",
+     "alt": [
+      "申[もう]し訳[わけ]ありません。ありがとうございます。"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "明日[あした]は来[き]ますか。",
+     "vi": "Mai anh có đi làm không?",
+     "words": [
+      "v:明日:あした",
+      "v:来る:くる"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "病院[びょういん]の後[あと]で、また電話[でんわ]します。",
+     "vi": "Đi bệnh viện xong, tôi sẽ gọi lại cho anh.",
+     "words": [
+      "v:病院:びょういん",
+      "v:電話:でんわ"
+     ],
+     "grammar": [
+      "g:〜後で"
+     ],
+     "key": "電話[でんわ]",
+     "alt": [
+      "病院[びょういん]に行[い]った後[あと]で、また電話[でんわ]します。"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "はい、わかりました。お大事[だいじ]に。",
+     "vi": "Ừ, được. Mau khỏe nhé.",
+     "words": [
+      "v:お大事に:おだいじに"
+     ],
+     "key": "お大事[だいじ]に",
+     "note": "お大事[だいじ]に = mong mau khỏe — nói với người đang ốm."
+    },
+    {
+     "who": "B",
+     "jp": "ありがとうございます。失礼[しつれい]します。",
+     "vi": "Cảm ơn anh. Tôi xin phép (cúp máy).",
+     "words": [
+      "v:失礼します:しつれいします"
+     ],
+     "note": "Kết thúc cuộc gọi với cấp trên bằng 失礼[しつれい]します, đợi người kia cúp máy trước."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Vì sao Cậu Cả gọi điện?",
+     "opts": [
+      "Bị sốt, xin nghỉ",
+      "Lỡ tàu, đến muộn",
+      "Hỏi lịch làm tuần sau",
+      "Báo máy bị hỏng"
+     ],
+     "ans": 0,
+     "why": "熱[ねつ]がありますから、今日[きょう]は休[やす]んでもいいですか。"
+    },
+    {
+     "q": "Cậu Cả sốt bao nhiêu độ?",
+     "opts": [
+      "38 độ",
+      "37 độ",
+      "39 độ",
+      "36 độ"
+     ],
+     "ans": 0,
+     "why": "三十八度[さんじゅうはちど]です。"
+    },
+    {
+     "q": "Ngoài sốt, Cậu Cả còn bị gì?",
+     "opts": [
+      "Đau đầu",
+      "Đau bụng",
+      "Đau chân",
+      "Đau răng"
+     ],
+     "ans": 0,
+     "why": "頭[あたま]も痛[いた]いです。"
+    },
+    {
+     "q": "Đi bệnh viện xong, Cậu Cả sẽ làm gì?",
+     "opts": [
+      "Gọi điện lại cho tổ trưởng",
+      "Đến xưởng ngay",
+      "Gửi email cho công ty",
+      "Nghỉ cả tuần"
+     ],
+     "ans": 0,
+     "why": "病院[びょういん]の後[あと]で、また電話[でんわ]します。"
+    }
+   ]
+  },
+  {
+   "id": "d:dong-nghiep-kansai-ru-an",
+   "title": "Đồng nghiệp nói Kansai rủ đi ăn",
+   "level": "N5",
+   "topics": [
+    "xuong",
+    "kansai"
+   ],
+   "ctx": "kansai",
+   "medium": "tructiep",
+   "lesson": "l:n5-10",
+   "setting": "Giờ nghỉ trưa ở xưởng. Đồng nghiệp người Hyogo là 鈴木[すずき] nói giọng Kansai, rủ Cậu Cả tối nay đi ăn.",
+   "roles": [
+    {
+     "key": "A",
+     "name": "鈴木[すずき]",
+     "vi": "Đồng nghiệp (giọng Kansai)"
+    },
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Cậu Cả",
+     "me": true
+    }
+   ],
+   "turns": [
+    {
+     "who": "A",
+     "jp": "グエンさん、お疲[つか]れさん。",
+     "vi": "Anh Nguyễn, vất vả rồi.",
+     "std": "グエンさん、お疲[つか]れ様[さま]です。",
+     "gloss": [
+      {
+       "w": "お疲[つか]れさん",
+       "vi": "vất vả rồi (cách chào thân mật)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "お疲[つか]れ様[さま]です。",
+     "vi": "Anh cũng vất vả rồi.",
+     "words": [
+      "v:お疲れ様です:おつかれさまです"
+     ],
+     "note": "Với đồng nghiệp lớn tuổi hơn, mình vẫn nên đáp bằng câu chuẩn お疲[つか]れ様[さま]です."
+    },
+    {
+     "who": "A",
+     "jp": "今晩[こんばん]、暇[ひま]なん？",
+     "vi": "Tối nay rảnh không?",
+     "words": [
+      "v:今晩:こんばん",
+      "v:暇:ひま"
+     ],
+     "std": "今晩[こんばん]、暇[ひま]ですか。",
+     "key": "暇[ひま]"
+    },
+    {
+     "who": "B",
+     "jp": "はい、暇[ひま]です。",
+     "vi": "Vâng, tôi rảnh.",
+     "words": [
+      "v:暇:ひま"
+     ],
+     "grammar": [
+      "g:〜は〜です"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "ほな、一緒[いっしょ]にご飯[はん]食[た]べに行[い]かへん？",
+     "vi": "Thế thì cùng đi ăn cơm không?",
+     "words": [
+      "v:一緒に:いっしょに",
+      "v:ご飯:ごはん",
+      "v:食べる:たべる",
+      "v:行く:いく"
+     ],
+     "std": "じゃあ、一緒[いっしょ]にご飯[はん]を食[た]べに行[い]きませんか。",
+     "gloss": [
+      {
+       "w": "ほな",
+       "vi": "thế thì (= じゃあ, Kansai)"
+      }
+     ],
+     "key": "行[い]かへん",
+     "note": "Kansai: 〜へん = 〜ない. 行[い]かへん？ = 行[い]かない？ — rủ rê thân mật: \"đi không?\"."
+    },
+    {
+     "who": "B",
+     "jp": "いいですね。行[い]きましょう。",
+     "vi": "Hay đấy. Đi thôi.",
+     "words": [
+      "v:行く:いく"
+     ],
+     "grammar": [
+      "g:〜ましょう"
+     ],
+     "key": "行[い]きましょう",
+     "alt": [
+      "いいですね。ぜひ行[い]きたいです。",
+      "いいですね。行[い]きたいです。"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "何[なに]食[た]べたい？ラーメン？お好[この]み焼[や]き？",
+     "vi": "Muốn ăn gì? Ramen? Okonomiyaki?",
+     "words": [
+      "v:何:なに",
+      "v:食べる:たべる"
+     ],
+     "grammar": [
+      "g:〜たい"
+     ],
+     "std": "何[なに]を食[た]べたいですか。ラーメンですか。お好[この]み焼[や]きですか。",
+     "gloss": [
+      {
+       "w": "お好[この]み焼[や]き",
+       "vi": "okonomiyaki — bánh xèo kiểu Nhật, món nổi tiếng vùng Kansai"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "お好[この]み焼[や]きが食[た]べたいです。",
+     "vi": "Tôi muốn ăn okonomiyaki.",
+     "words": [
+      "v:食べる:たべる"
+     ],
+     "grammar": [
+      "g:〜たい"
+     ],
+     "alt": [
+      "お好[この]み焼[や]きを食[た]べたいです。"
+     ],
+     "gloss": [
+      {
+       "w": "お好[この]み焼[や]き",
+       "vi": "okonomiyaki"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "ええな！駅[えき]の近[ちか]くにうまい店[みせ]があるで。",
+     "vi": "Được đấy! Gần ga có quán ngon lắm.",
+     "words": [
+      "v:ええ:ええ",
+      "v:駅:えき",
+      "v:近く:ちかく",
+      "v:うまい:うまい",
+      "v:店:みせ"
+     ],
+     "std": "いいですね。駅[えき]の近[ちか]くにおいしい店[みせ]がありますよ。",
+     "gloss": [
+      {
+       "w": "ええ",
+       "vi": "tốt, được (Kansai = いい)"
+      },
+      {
+       "w": "うまい",
+       "vi": "ngon (= おいしい)"
+      }
+     ],
+     "note": "Kansai: ええ = いい; 〜で ở cuối câu = 〜よ. うまい = おいしい (khẩu ngữ, nam hay dùng)."
+    },
+    {
+     "who": "B",
+     "jp": "何時[なんじ]に行[い]きましょうか。",
+     "vi": "Mấy giờ mình đi ạ?",
+     "words": [
+      "v:何時:なんじ",
+      "v:行く:いく"
+     ],
+     "grammar": [
+      "g:〜ましょうか"
+     ],
+     "key": "何時[なんじ]"
+    },
+    {
+     "who": "A",
+     "jp": "六時[ろくじ]でええ？駅[えき]で待[ま]っとくわ。",
+     "vi": "6 giờ được không? Tôi sẽ đợi ở ga.",
+     "words": [
+      "v:駅:えき",
+      "v:待つ:まつ"
+     ],
+     "std": "六時[ろくじ]でいいですか。駅[えき]で待[ま]っています。",
+     "gloss": [
+      {
+       "w": "待[ま]っとく",
+       "vi": "đợi sẵn (= 待[ま]っておく)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、六時[ろくじ]に駅[えき]で会[あ]いましょう。",
+     "vi": "Vâng, 6 giờ gặp nhau ở ga nhé.",
+     "words": [
+      "v:駅:えき",
+      "v:会う:あう"
+     ],
+     "grammar": [
+      "g:〜ましょう",
+      "g:〜で"
+     ],
+     "key": "会[あ]いましょう",
+     "alt": [
+      "はい、六時[ろくじ]に駅[えき]で。"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "ほな、また後[あと]でな。",
+     "vi": "Thế nhé, lát gặp.",
+     "std": "じゃあ、また後[あと]で。",
+     "gloss": [
+      {
+       "w": "また後[あと]で",
+       "vi": "lát nữa gặp"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、ありがとうございます。",
+     "vi": "Vâng, cảm ơn anh."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Anh Suzuki rủ Cậu Cả làm gì?",
+     "opts": [
+      "Tối nay đi ăn",
+      "Đi xem phim",
+      "Ở lại làm thêm giờ",
+      "Đi siêu thị"
+     ],
+     "ans": 0,
+     "why": "一緒[いっしょ]にご飯[はん]食[た]べに行[い]かへん？"
+    },
+    {
+     "q": "Hai người định ăn món gì?",
+     "opts": [
+      "Okonomiyaki",
+      "Ramen",
+      "Sushi",
+      "Cơm hộp"
+     ],
+     "ans": 0,
+     "why": "お好[この]み焼[や]きが食[た]べたいです。"
+    },
+    {
+     "q": "Hẹn gặp ở đâu, lúc mấy giờ?",
+     "opts": [
+      "Ở ga, 6 giờ",
+      "Ở xưởng, 6 giờ",
+      "Ở ga, 7 giờ",
+      "Ở quán, 8 giờ"
+     ],
+     "ans": 0,
+     "why": "六時[ろくじ]に駅[えき]で会[あ]いましょう。"
+    },
+    {
+     "q": "行[い]かへん？ nghĩa là gì?",
+     "opts": [
+      "Đi không?",
+      "Không đi đâu.",
+      "Đi rồi à?",
+      "Hãy đi đi."
+     ],
+     "ans": 0,
+     "why": "Kansai: 〜へん = 〜ない. Câu hỏi 行[い]かへん？ = 行[い]かない？ → rủ \"đi không?\"."
+    }
+   ]
+  }
+ ]
+}
