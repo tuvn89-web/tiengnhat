@@ -23,7 +23,10 @@ export function selectItems({ levels = [], topics = [], source = 'all', needKanj
   if (source === 'due') pool = pool.filter(it => dueDirs(it, now).length);
   else if (source === 'new') {
     pool = pool.filter(it => status(it) === 'new');
-    pool.sort((a, b) => LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level));
+    // từ làm sai trong bài kiểm tra trình độ (cấp chưa đạt) học trước, rồi theo cấp
+    const pri = new Map((D.prefs.priNew || []).map((id, i) => [id, i]));
+    const pk = it => (pri.has(it.id) ? pri.get(it.id) : 1e6);
+    pool.sort((a, b) => pk(a) - pk(b) || LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level));
   }
   else if (source === 'learned') pool = pool.filter(it => status(it) !== 'new');
   else if (source === 'today') pool = pool.filter(it => learnedSince(it, startOfDay()));

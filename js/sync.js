@@ -185,6 +185,8 @@ async function snapshot() {
     disabled: D.disabled,
     reports: D.reports,
     prefs: D.prefs,
+    tests: D.tests,
+    kana: D.kana,
   };
 }
 
@@ -217,6 +219,8 @@ export function merge(a, b) {
     disabled: newer(a.disabled, b.disabled),
     reports: mergeMap(a.reports, b.reports),
     prefs: newer(a.prefs, b.prefs),
+    tests: mergeMap(a.tests, b.tests),
+    kana: mergeMap(a.kana, b.kana),
   };
 }
 
@@ -234,6 +238,8 @@ export async function applySnapshot(m) {
   if (m.prefs) { D.prefs = { ...D.prefs, ...m.prefs }; await kvSet('prefs', D.prefs); }
   if (m.disabled) { D.disabled = m.disabled; await kvSet('disabled', D.disabled); }
   if (m.reports) { D.reports = m.reports; await kvSet('reports', D.reports); }
+  if (m.tests) { D.tests = m.tests; await kvSet('tests', D.tests); }
+  if (m.kana) { D.kana = m.kana; await kvSet('kana', D.kana); }
   rebuild();
 }
 
@@ -316,5 +322,5 @@ export async function restoreJSON(text, mode = 'merge') {
   if (j.app !== 'tiengnhat' || !j.progress) throw new Error('File không phải bản sao lưu của app.');
   if (mode === 'merge') { await applySnapshot(merge(await snapshot(), j)); return; }
   for (const s of ['progress', 'user', 'imported']) await clear(s);
-  await applySnapshot({ ...j, disabled: j.disabled || { list: [], t: Date.now() }, reports: j.reports || {} });
+  await applySnapshot({ ...j, disabled: j.disabled || { list: [], t: Date.now() }, reports: j.reports || {}, tests: j.tests || {}, kana: j.kana || {} });
 }

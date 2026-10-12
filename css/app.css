@@ -529,3 +529,80 @@ button.wref:hover { border-color: var(--blue); }
 .tnum.is-ans { background: var(--blue-soft); border-color: var(--blue); }
 .tnum.is-later { border-style: dashed; border-color: var(--ng); }
 .tnum.is-cur { outline: 3px solid var(--ink); outline-offset: 1px; }
+
+/* ---- v10: Kế hoạch hôm nay, lộ trình, kiểm tra trình độ, kana, hướng dẫn ---- */
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.today-l small { font-weight: 500; }
+.plan-l { list-style: none; padding: 0; margin: 8px 0 6px; display: grid; gap: 8px; }
+.plan-i { display: grid; grid-template-columns: 28px 1fr auto; align-items: center; gap: 10px; padding: 10px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.plan-c { width: 24px; height: 24px; border-radius: 50%; border: 2px solid var(--line); display: grid; place-items: center; color: var(--ok); font-weight: 800; font-size: 14px; }
+.plan-i.is-done { background: var(--ok-soft); border-color: transparent; }
+.plan-i.is-done .plan-c { border-color: var(--ok); }
+.plan-i.is-done .plan-t b { color: var(--ink-2); font-weight: 600; }
+.plan-t { display: grid; min-width: 0; }
+.plan-t small { overflow-wrap: anywhere; }
+.today-more summary { cursor: pointer; color: var(--blue); padding: 6px 0; font-size: .95em; }
+.fc { margin: 6px 0; }
+.onboard { border-color: var(--blue); background: var(--blue-soft); }
+.onboard p { margin: 4px 0 10px; }
+
+.stage { position: relative; }
+.stage-h { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.stage-h .h2 small { font-weight: 500; color: var(--ink-2); font-size: .7em; }
+.stage-b { font-size: .8em; font-weight: 700; padding: 3px 10px; border-radius: 99px; background: var(--surface-2); color: var(--ink-2); white-space: nowrap; }
+.stage-done .stage-b { background: var(--ok-soft); color: var(--ok); }
+.stage-cur { border-color: var(--blue); }
+.stage-cur .stage-b { background: var(--blue); color: var(--blue-ink); }
+.stage.is-dim { opacity: .62; }
+.stage.is-dim:focus-within, .stage.is-dim:hover { opacity: 1; }
+.stage details summary { cursor: pointer; color: var(--blue); padding: 8px 0 4px; }
+.stage .pack-t .mini { margin: 4px 0 2px; max-width: 220px; }
+.lv-tick { color: var(--ok); font-weight: 800; font-size: 1.2em; padding: 0 10px; }
+.lv-goal { margin: 0 0 8px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+
+.lv-hist { list-style: none; padding: 0; margin: 8px 0 0; }
+.lv-hist li { display: grid; gap: 2px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.lv-spark { width: 100%; max-width: 420px; height: auto; display: block; margin: 6px 0 2px; }
+.lv-spark polyline { fill: none; stroke: var(--blue); stroke-width: 2.5; stroke-linejoin: round; }
+.lv-spark circle { fill: var(--surface); stroke: var(--blue); stroke-width: 2; }
+.lv-spark-lo { stroke: var(--ok); stroke-dasharray: 4 4; stroke-width: 1.5; }
+.lv-set summary { cursor: pointer; padding: 8px 0; }
+.lv-set summary.h2 { margin: 6px 0; }
+.lv-rule { width: 100%; border-collapse: collapse; font-size: .88em; margin: 4px 0 8px; }
+.lv-rule th, .lv-rule td { border-bottom: 1px solid var(--line); padding: 6px 4px; text-align: left; vertical-align: top; }
+.lv-rule thead th { color: var(--ink-2); font-weight: 600; }
+.lv-step { text-align: center; padding-top: 24px; }
+.lv-step-l { font-size: 1.3em; font-weight: 800; margin: 0; color: var(--ink-2); }
+.lv-est-l { margin: 12px 0 0; color: var(--ink-2); font-weight: 650; }
+.lv-est { font-size: 56px; font-weight: 800; color: var(--blue); margin: 0; line-height: 1.1; }
+.lv-pass { color: var(--ok); }
+.lv-plan { margin: 18px 0; }
+.lv-sum { padding-left: 1.2em; margin: 6px 0 10px; }
+.lv-sum li { margin: 4px 0; }
+.lv-plan fieldset { margin: 8px 0; }
+.lv-wrong summary { cursor: pointer; }
+.lv-wrong summary.h2 { display: list-item; }
+
+.kgrid-kana { display: grid; grid-template-columns: repeat(var(--cols, 5), minmax(0, 1fr)); gap: 6px; margin: 6px 0 12px; }
+.kcell { display: grid; place-items: center; gap: 0; min-height: 60px; padding: 6px 2px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); cursor: pointer; }
+.kcell span { font-family: var(--jp); font-size: 1.55em; line-height: 1.2; }
+.kcell small { color: var(--ink-2); font-size: .78em; }
+.kcell.is-known { background: var(--ok-soft); border-color: var(--ok); }
+.kcell.is-learning { border-color: var(--blue); border-width: 2px; }
+.kcell.is-empty { border: 0; background: none; cursor: default; }
+.kana-q { font-size: calc(var(--fs-jp) * 2.4); margin: 10px 0 0; }
+.kana-r { font-size: calc(var(--fs-jp) * 1.1); }
+.kana-opt { font-family: var(--jp); font-size: calc(var(--fs-jp) * 1.05); }
+.kana-big { font-size: 1.8em; font-family: var(--jp); }
+.kana-after { margin: 4px 0; }
+.kana-tips summary { cursor: pointer; color: var(--blue); padding: 6px 0; }
+
+.guide h2 { margin-top: 20px; }
+.guide .steps li { line-height: 2; }
+.guide-tb th { width: auto; }
+.guide-tb td:last-child { color: var(--ink); font-size: 1em; }
+.guide-next { margin: 20px 0 8px; }
+.lv-res .topics { text-align: left; }
+.lv-res .topics td:nth-child(2), .lv-res .bytag td:nth-child(2) { width: 100%; padding-right: 10px; }
+.lv-plan, .lv-wrong { text-align: left; }
+.lv-plan .h2 { text-align: left; }

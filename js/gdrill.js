@@ -128,6 +128,8 @@ const Q = {
   },
 };
 
+export { Q as GQ, TAG as GTAG };
+
 // Đổi lối nói: từ mẫu ngữ pháp (shift) + từ Kansai trong kho (std)
 function shiftPool() {
   const pool = [];

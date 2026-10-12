@@ -34,6 +34,12 @@ const PAGES = [
   [/^nguphap\/thithu$/, () => 'Thi thử', ['nguphap']],
   [/^nguphap\/(.+)$/, m => { const g = D.items.get(decodeURIComponent(m[1])); return g ? g.pattern : 'Mẫu ngữ pháp'; }, ['nguphap']],
   [/^kho$/, () => 'Kho từ', []],
+  [/^trinhdo$/, () => 'Kiểm tra trình độ', []],
+  [/^lotrinh$/, () => 'Lộ trình', []],
+  [/^kana$/, () => 'Chặng 0 — Kana', ['lotrinh']],
+  [/^moi\?p=(.+)$/, m => { const p = D.packs.find(x => x.id === decodeURIComponent(m[1])); return 'Học gói ' + (p ? p.title : ''); }, ['lotrinh']],
+  [/^chuhan\/moi$/, () => 'Chữ Hán mới', ['chuhan']],
+  [/^huongdan$/, () => 'Hướng dẫn học', []],
 ];
 function page(hash) {
   const h = norm(hash);
@@ -47,7 +53,7 @@ export function trail(hash) {
 }
 
 // Trang tự bắt đầu lượt học khi mở (từ Trang chủ…) → quay lại trang đã mở nó
-const AUTO = /^(moi|on|onchu|onngu|onhon)$/;
+const AUTO = /^(moi|on|onchu|onngu|onhon|chuhan\/moi)$/;
 export function beginSession(ctx) {
   const h = norm(location.hash);
   let back = ctx.backTo; // trang đặt rõ (vd. luyện riêng một mẫu → về trang mẫu đó)

@@ -16,6 +16,11 @@ import { renderSettings } from './settingspage.js';
 import { syncNow, getSyncCfg, lastSync, lastSyncError } from './sync.js';
 import { emptyState } from './ui.js';
 import { initNav } from './nav.js';
+import { renderLevelHub, remindHTML } from './level.js';
+import { renderStart, renderRoadmap, planToday, forecast, needsOnboard } from './roadmap.js';
+import { renderKana } from './kana.js';
+import { renderGuides, renderGuide } from './guides.js';
+import { setPrefs } from './data.js';
 
 const view = $('#view');
 let leave = [];
@@ -27,7 +32,7 @@ const ctx = {
 };
 
 const NAV = [
-  ['#/', 'home', 'Trang chủ', /^$/],
+  ['#/', 'home', 'Trang chủ', /^(?:|trinhdo|lotrinh|batdau|kana|huongdan(?:\/.*)?)$/],
   ['#/luyen', 'quiz', 'Luyện tập', /^(luyen|hoc|on|moi|ghep|onhon)/],
   ['#/chuhan', 'han', 'Chữ Hán', /^(chuhan|onchu)/],
   ['#/nguphap', 'book', 'Ngữ pháp', /^(nguphap|onngu)/],
@@ -48,9 +53,11 @@ const ROUTES = [
   [/^hoc$/, v => renderQuizSetup(v, ctx)],
   [/^on$/, v => startQuick(v, 'due')],
   [/^moi$/, v => runLearn(v, selectItems({ source: 'new' }).slice(0, S.qCount), ctx, { again: () => ctx.go('#/moi', true) })],
+  [/^moi\?p=(.+)$/, (v, m) => learnPack(v, decodeURIComponent(m[1]))],
   [/^ghep$/, v => renderMatchSetup(v, ctx)],
   [/^chuhan$/, v => renderKanjiList(v)],
   [/^chuhan\/on$/, v => renderKanjiQuizSetup(v, ctx)],
+  [/^chuhan\/moi$/, v => newKanji(v)],
   [/^onchu$/, v => quickKanji(v)],
   [/^nguphap$/, v => renderGrammarList(v)],
   [/^nguphap\/luyen(?:\?g=(.+))?$/, (v, m) => renderGrammarPractice(v, ctx, m[1] ? decodeURIComponent(m[1]) : null)],
@@ -64,6 +71,12 @@ const ROUTES = [
   [/^dulieu$/, v => renderData(v, ctx)],
   [/^nhan\?c=([A-Za-z0-9_-]+)$/, (v, m) => receiveSetup(v, ctx, m[1])],
   [/^caidat$/, v => renderSettings(v, ctx)],
+  [/^trinhdo$/, v => renderLevelHub(v, ctx)],
+  [/^lotrinh$/, v => renderRoadmap(v, ctx)],
+  [/^batdau$/, v => renderStart(v, ctx)],
+  [/^kana$/, v => renderKana(v, ctx)],
+  [/^huongdan$/, v => renderGuides(v)],
+  [/^huongdan\/(.+)$/, (v, m) => renderGuide(v, decodeURIComponent(m[1]))],
 ];
 
 function route() {
@@ -106,6 +119,19 @@ function quickKanji(v) {
   if (!qs.length) { v.innerHTML = emptyState('Không có chữ Hán nào đến hạn ôn.', '<a class="btn btn-primary" href="#/chuhan/on">Ôn chữ Hán</a>'); return; }
   runDrill(v, qs, ctx, { title: 'Ôn chữ Hán', again: () => ctx.go('#/chuhan/on') });
 }
+// Học từ mới của một gói (từ trang Lộ trình)
+function learnPack(v, id) {
+  const items = selectItems({ source: 'new' }).filter(it => it._pack === id).slice(0, S.qCount);
+  ctx.backTo = '#/lotrinh';
+  runLearn(v, items, ctx, { again: () => ctx.go('#/moi?p=' + encodeURIComponent(id), true) });
+}
+// Chữ Hán mới (Kế hoạch hôm nay): hỏi chữ chưa học, cấp thấp trước
+function newKanji(v) {
+  const qs = buildKanjiQs({ dir: 'mix', source: 'new', count: 999 }).sort((a, b) => LEVEL_I(a.level) - LEVEL_I(b.level)).slice(0, 10);
+  if (!qs.length) { v.innerHTML = emptyState('Đã học hết thẻ chữ Hán trong kho.', '<a class="btn btn-primary" href="#/onchu">Ôn chữ Hán</a>'); return; }
+  runDrill(v, qs, ctx, { title: 'Chữ Hán mới', again: () => ctx.go('#/chuhan/moi', true) });
+}
+const LEVEL_I = l => ['N5', 'N4', 'N3', 'N2', 'N1'].indexOf(l);
 function quickGrammar(v) {
   const qs = buildGrammarQs({ type: 'mix', source: 'due', count: 20 });
   if (!qs.length) { v.innerHTML = emptyState('Không có mẫu ngữ pháp nào đến hạn ôn.', '<a class="btn btn-primary" href="#/nguphap/luyen">Luyện ngữ pháp</a>'); return; }
@@ -120,23 +146,32 @@ function renderHome(v) {
     return [t, items.length, stats(items).known];
   }).filter(x => x[1]);
   const kd = kanjiOfDay();
-  const nNew = Math.min(st.new, S.qCount);
-  const task = (label, n, unit, href, btn) => n ? `<li class="task"><span><b>${n}</b> ${unit}</span><span class="muted small">${label}</span><a class="btn btn-ghost btn-sm" href="${href}">${btn}</a></li>` : '';
   const md = mixedDue(), nDue = md.vocab.length + md.kanji.length + md.grammar.length;
+  const S_mins = () => ` <small>· ${D.prefs.mins || 20} phút</small>`;
+  const task = (label, n, unit, href, btn) => n ? `<li class="task"><span><b>${n}</b> ${unit}</span><span class="muted small">${label}</span><a class="btn btn-ghost btn-sm" href="${href}">${btn}</a></li>` : '';
   const tasks = [
     task('Từ vựng đến hạn ôn', st.due, 'từ', '#/on', 'Ôn từ'),
     task('Chữ Hán đến hạn ôn', sk.due, 'chữ', '#/onchu', 'Ôn chữ'),
     task('Mẫu ngữ pháp đến hạn ôn', sg.due, 'mẫu', '#/onngu', 'Luyện'),
   ].join('');
   const bar = (label, s) => s.total ? `<tr><th scope="row">${label}</th><td><span class="mini"><i style="width:${pct(s.known, s.total)}%"></i></span></td><td class="num">${s.known}/${s.total}</td></tr>` : '';
+  // Kế hoạch hôm nay: việc đầu tiên chưa xong là nút chính
+  const plan = planToday();
+  const firstTodo = plan.findIndex(x => !x.done);
+  const planList = plan.map((x, i) => `<li class="plan-i${x.done ? ' is-done' : ''}"><span class="plan-c" aria-hidden="true">${x.done ? '✓' : ''}</span><span class="plan-t"><b>${esc(x.label)}</b><small class="muted" ${/[ぁ-ん一-龯]/.test(x.sub) ? 'lang="ja"' : ''}>${esc(x.sub)}</small></span>${x.done ? '<span class="sr-only">đã xong</span>' : `<a class="btn ${i === firstTodo ? 'btn-primary' : 'btn-ghost'} btn-sm" href="${x.href}">${esc(x.btn)}</a>`}</li>`).join('');
+  const fc = forecast();
   v.innerHTML = `
+    ${needsOnboard() ? `<section class="card onboard"><h2 class="h2">Chào Cậu Cả!</h2><p>Trả lời 3 câu (mục tiêu, mỗi ngày học bao lâu, đang ở đâu) để app xếp kế hoạch hằng ngày và lộ trình.</p>
+      <div class="row-btns"><button type="button" class="btn btn-ghost" data-act="skipob">Để sau</button><a class="btn btn-primary" href="#/batdau">Bắt đầu</a></div></section>` : ''}
     <section class="today">
-      <p class="today-l">Hôm nay</p>
+      <p class="today-l">Hôm nay${S_mins()}</p>
       ${st.total || sk.total || sg.total
-        ? `${tasks ? `<a class="btn btn-primary btn-block mixbtn" href="#/onhon">Ôn hỗn hợp hôm nay · ${nDue} mục</a><ul class="tasks">${tasks}</ul>` : '<p class="today-n">Không còn gì đến hạn ôn.</p>'}
-           <div class="row-btns wrap">${nNew ? `<a class="btn ${tasks ? 'btn-ghost' : 'btn-primary'}" href="#/moi">Học ${nNew} từ mới</a>` : ''}<a class="btn btn-ghost" href="#/luyen">Luyện tập</a></div>`
+        ? `<ul class="plan-l">${planList}</ul>
+           ${nDue ? `<details class="today-more"><summary>Ôn riêng từng loại · ${nDue} mục đến hạn</summary><ul class="tasks">${tasks}</ul></details>` : ''}
+           ${fc ? `<p class="small muted fc">${fc} <a href="#/lotrinh">Lộ trình →</a></p>` : ''}`
         : `<p class="today-n">Chưa có dữ liệu.</p><a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>`}
       ${st.newToday ? `<p class="small muted">Hôm nay đã học ${st.newToday} từ mới.</p>` : ''}
+      ${remindHTML()}
     </section>
 
     ${D.errors.length ? `<div class="warn">${D.errors.map(esc).join('<br>')}</div>` : ''}
@@ -168,14 +203,19 @@ function renderHome(v) {
 
     <nav class="modes" aria-label="Các phần học">
       ${[
+      ['#/lotrinh', 'route', 'Lộ trình', 'Chặng Kana → N5 → N4 → N3 → N2, gói nào học trước'],
+      ['#/trinhdo', 'gauge', 'Kiểm tra trình độ', 'Xếp lớp nhanh, thi vượt cấp, kiểm tra theo gói'],
       ['#/luyen', 'quiz', 'Luyện tập', 'Học từ mới, trắc nghiệm, ghép cặp, ghép câu, thể động từ, tính từ, đếm số'],
       ['#/chuhan', 'han', 'Chữ Hán', `${D.kanji.length} thẻ chữ, câu lục bát nhớ mặt chữ, ôn chữ Hán`],
       ['#/nguphap', 'book', 'Ngữ pháp', `${D.grammar.length} mẫu — bài học, luyện tập, thi thử`],
       ['#/kho', 'list', 'Kho từ', `${st.total} từ — tìm, sửa, thêm từ mới`],
       ['#/dulieu', 'box', 'Dữ liệu & đồng bộ', 'Nhập gói từ skill, sao lưu, GitHub'],
+      ['#/huongdan', 'help', 'Hướng dẫn học', 'Cho người mới, theo cấp, 特定技能2号, giấy tờ thuế'],
       ['#/caidat', 'gear', 'Cài đặt', 'Cỡ chữ, cỡ nút, màu nền, giọng đọc'],
-    ].map(([h, ic, t, d]) => `<a class="mode" href="${h}">${icon(ic)}<span><b>${t}</b><small>${esc(d)}</small></span></a>`).join('')}
+    ].map(([h, ic, t, d]) => `<a class="mode" href="${h}">${icon(ic)}<span><b>${t}</b><small ${/[一-龯]/.test(d) ? 'lang="ja"' : ''}>${esc(d)}</small></span></a>`).join('')}
     </nav>`;
+  const sk0 = v.querySelector('[data-act=skipob]');
+  if (sk0) sk0.onclick = async () => { await setPrefs({ onboard: -1 }); scheduleSync(); route(); };
 }
 
 // ---- khung: thanh trên + điều hướng ----

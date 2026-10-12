@@ -1,4 +1,4 @@
-import { all, put } from './db.js';
+import { all, put, putMany } from './db.js';
 import { DAY, startOfDay } from './util.js';
 
 // Lặp lại ngắt quãng 5 hộp. Hộp 0 = chưa học. Đúng → lên hộp, sai → về hộp 1.
@@ -60,6 +60,63 @@ export async function unsetLearned(it) {
   await put('progress', n);
   onChange();
 }
+// ---- Kiểm tra trình độ: đổi tiến độ hàng loạt (một lần ghi) ----
+// op: known = đã thuộc (hộp 5, ôn lại sau 16 ngày) · check = đã gặp, cần kiểm (hộp 3, ôn sau 4 ngày)
+//     learn = bắt đầu học (hộp 1, ôn ngày mai) · wrong = làm sai (chiều bị hỏi về hộp 1, ôn ngày mai)
+//     right = làm đúng nhưng giữ hộp (chỉ ghi lần đúng)
+// dir: chiều đã hỏi trong đề (để ghi lần đúng/sai); không có = mục không có trong đề
+// dry = chỉ tính xem mục nào sẽ đổi, không ghi
+export async function bulkApply(changes, { dry = false } = {}) {
+  const now = Date.now(), sod = startOfDay(now), out = [];
+  for (const { it, op, dir } of changes) {
+    const r = P.get(it.id) ? structuredClone(P.get(it.id)) : { id: it.id, d: {}, t: 0 };
+    const asked = dir ? progDir(dir) : null;
+    let changed = false;
+    for (const d of TYPE_DIRS[itemType(it)]) {
+      if (d === 'kr' && !it.kanji) continue;
+      const x = r.d[d] || { b: 0, due: 0, ok: 0, ng: 0, t: 0 };
+      const was = JSON.stringify(x);
+      if (op === 'known' && x.b < 5) { x.b = 5; x.due = sod + IV[5] * DAY; }
+      else if (op === 'check' && x.b < 3) { x.b = 3; x.due = sod + IV[3] * DAY; }
+      else if (op === 'learn' && x.b < 1) { x.b = 1; x.due = sod + IV[1] * DAY; }
+      else if (op === 'wrong' && (d === asked || x.b < 1)) { x.b = 1; x.due = sod + IV[1] * DAY; }
+      if (d === asked) { if (op === 'wrong') x.ng++; else x.ok++; }
+      if (JSON.stringify(x) !== was) { x.t = now; r.d[d] = x; changed = true; }
+    }
+    if (!changed) continue;
+    if (!r.first && Object.values(r.d).some(x => x.b > 0)) r.first = now;
+    r.t = now;
+    out.push(r);
+  }
+  if (dry) return out.map(r => r.id);
+  for (const r of out) P.set(r.id, r);
+  if (out.length) await putMany('progress', out);
+  onChange();
+  return out.map(r => r.id);
+}
+// Chụp tiến độ các mục trước khi đổi hàng loạt (để hoàn tác)
+export const progSnapshot = ids => ids.map(id => [id, P.has(id) ? structuredClone(P.get(id)) : null]);
+// Hoàn tác: trả từng chiều học về như trước, gắn mốc thời gian mới để đồng bộ không khôi phục lại bản đã đổi
+export async function progRestore(before) {
+  const now = Date.now(), out = [];
+  for (const [id, old] of before) {
+    const cur = P.get(id);
+    if (!cur && !old) continue;
+    const n = old ? structuredClone(old) : { id, d: {} };
+    for (const d of new Set([...Object.keys(cur?.d || {}), ...Object.keys(old?.d || {})])) {
+      n.d[d] = old?.d?.[d] ? { ...old.d[d], t: now } : { b: 0, due: 0, ok: 0, ng: 0, t: now };
+    }
+    if (!old) delete n.first;
+    if (cur?.st) { n.star = cur.star; n.st = cur.st; }
+    n.t = now;
+    out.push(n);
+  }
+  for (const r of out) P.set(r.id, r);
+  if (out.length) await putMany('progress', out);
+  onChange();
+  return out.length;
+}
+
 // Học lần đầu từ khi nào (lọc "học hôm nay", "7 ngày qua")
 export const learnedSince = (it, t) => { const r = P.get(it.id); return !!r?.first && r.first >= t && status(it) !== 'new'; };
 

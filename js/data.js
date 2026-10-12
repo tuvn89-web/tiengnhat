@@ -20,6 +20,8 @@ export const D = {
   user: new Map(),    // id -> mục tự thêm/sửa (có _t, có thể _del)
   disabled: { list: [], t: 0 },
   reports: {},        // id -> {note, t, _del?}
+  tests: {},          // id -> lần kiểm tra trình độ {id, t, kind, level, est, pct, levels, skills, applied, undone}
+  kana: {},           // chữ kana -> {b (0–5), ok, ng, t} — Chặng 0
   items: new Map(),
   vocab: [], grammar: [], phrase: [], kanji: [],
   kanjiByChar: new Map(),
@@ -32,6 +34,8 @@ export async function loadAll() {
   D.disabled = await kvGet('disabled', { list: [], t: 0 });
   D.prefs = { ...D.prefs, ...(await kvGet('prefs', {})) };
   D.reports = await kvGet('reports', {});
+  D.tests = await kvGet('tests', {});
+  D.kana = await kvGet('kana', {});
   try {
     const r = await fetch('data/manifest.json', { cache: 'no-cache' });
     if (!r.ok) throw new Error(r.status);
@@ -72,6 +76,19 @@ export function assemblePacks() {
 export async function setPrefs(patch) {
   D.prefs = { ...D.prefs, ...patch, t: Date.now() };
   await kvSet('prefs', D.prefs);
+}
+
+// Lịch sử kiểm tra trình độ (đồng bộ giữa các máy)
+export async function saveTest(rec) {
+  D.tests[rec.id] = { ...rec, t: Date.now() };
+  await kvSet('tests', D.tests);
+}
+export const testList = () => Object.values(D.tests).filter(x => !x._del).sort((a, b) => (b.at || b.t) - (a.at || a.t));
+// Tiến độ kana (Chặng 0)
+export async function saveKana(patch) {
+  const now = Date.now();
+  for (const [ch, x] of Object.entries(patch)) D.kana[ch] = { ...x, t: now };
+  await kvSet('kana', D.kana);
 }
 
 export function packEntry(p, items, src, t) {

@@ -245,3 +245,33 @@ Sau đó, nếu trong `data/packs` trên GitHub còn file **`jlpt-n5-dongtu-01.j
 **Sửa lỗi hiển thị:** câu ví dụ ngữ pháp có phần tô đậm kết thúc bằng chữ Hán (〜方[かた], 〜一方[いっぽう], 〜次第[しだい]…) từng hiện thừa dấu "]" sau chỗ trống trong bài Điền chỗ trống — đã sửa (60 câu). Sau khi trả lời, phần giải thích tự cuộn lên để không bị nút **Tiếp** che.
 
 **Sửa lỗi:** câu hỏi *Chọn nghĩa* của 一日 (いちにち) từng có đáp án nhiễu *ngày mùng 1* — đúng là nghĩa của 一日 đọc ついたち, nên nhìn mặt chữ rất dễ chọn nhầm. Từ bản v9, những từ **cùng chữ viết** (一日 いちにち / ついたち, 月 つき / がつ, 人 ひと / じん / にん, 本 sách / 本 đếm đồ dài, 十 じゅう / とお, 君 きみ / くん, 空く すく / あく) không bao giờ làm đáp án nhiễu cho nhau ở **mọi** kiểu câu hỏi: Chọn nghĩa, Chọn từ tiếng Nhật, Nghe → nghĩa, Kanji → cách đọc, Ôn hỗn hợp, Thi thử.
+
+## 17. Bản v10 (12/10/2026): kiểm tra trình độ, lộ trình, kana, hướng dẫn học (đợt 5a)
+
+**Cách tải lên:** giải nén `capnhat-v10.zip`, kéo **toàn bộ** nội dung vào kho `tiengnhat` → ghi đè → Commit (gói đã gồm v8, v9). Có 4 file mã mới: `js/level.js`, `js/roadmap.js`, `js/kana.js`, `js/guides.js` — nhớ tải cả thư mục `js`. Kiểm tra: Cài đặt → cuối trang ghi **v10 · 12/10/2026**.
+
+**Màn Bắt đầu** (`Trang chủ → Bắt đầu`, hiện một lần; đổi lại ở Lộ trình → Đổi): 3 câu — mục tiêu (N5 · N4 · N3 / 特定技能2号 · N2), mỗi ngày học 10 / 20 / 40 phút, đang ở đâu (chưa biết chữ · biết kana · khoảng N5 · khoảng N4). Chọn "khoảng N5/N4" thì app mời làm Xếp lớp nhanh. Các lựa chọn đồng bộ sang mọi máy.
+
+**Kế hoạch hôm nay** (Trang chủ, thay danh sách cũ): ôn đến hạn → X từ mới → 1 mẫu ngữ pháp mới (10 phút: 3 ngày một mẫu; 20 phút: 2 ngày; 40 phút: mỗi ngày) → một bài luyện thể động từ → chữ Hán mới. Việc xong có dấu ✓, việc đầu tiên chưa xong là nút xanh. Dưới cùng là **dự báo**: theo nhịp học 14 ngày qua (chưa có thì theo số phút đã chọn), bao giờ học hết khối lượng cấp mục tiêu (ước tính theo số từ / mẫu / chữ Hán mỗi cấp). "Ôn riêng từng loại" (từ, chữ Hán, mẫu) nằm trong mục thu gọn.
+
+**Kiểm tra trình độ** (`Trang chủ → Kiểm tra trình độ`):
+- **Xếp lớp nhanh:** bắt đầu từ N5, mỗi cấp 12 câu (từ vựng, đọc chữ Hán để trần, thẻ chữ Hán, ngữ pháp). Đạt từ 70% thì hỏi có làm tiếp cấp sau không; dưới 70% thì dừng. Không tính giờ. Kết quả: "Trình độ ước lượng N4" + điểm từng cấp.
+- **Thi vượt cấp:** một cấp, khoảng 55 câu xếp theo phần như JLPT — đọc chữ Hán (8), từ vựng (10), thẻ chữ Hán (4), ngữ pháp (18), đọc hiểu câu ngắn (10), nghe (5, khi máy có giọng đọc). Đồng hồ 40 giây/câu, tắt được. Đạt từ 70% = qua chặng trong Lộ trình.
+- **Kiểm tra theo gói:** gói đã học từ 80% có bài 10 câu riêng (tính vào lịch ôn như bài thường). Gói chưa kiểm tra lần nào đứng trước.
+- **Màn kết quả:** điểm theo kỹ năng và theo chủ đề (đời sống, xưởng & thủy sản, thủ tục, hội thoại), nút **Học ngay các từ làm sai**, **Luyện các mẫu làm sai**, danh sách câu sai.
+- **Đổi tiến độ** (chỉ khi bấm **Áp dụng**; có bảng tóm tắt số mục trước):
+
+| Điểm của cấp | Câu đúng | Câu sai | Mục không có trong đề |
+|---|---|---|---|
+| từ 85% | đã thuộc | đang học (ôn ngày mai) | đã thuộc (ôn kiểm lại sau 16 ngày) |
+| 70–84% | đã thuộc | đang học | đã gặp — cần kiểm (hộp 3, ôn sau 4 ngày; đúng 2 lần liền là đã thuộc) |
+| dưới 70% | đang học | từ chưa học: xếp đầu hàng Học từ mới | **giữ nguyên** |
+
+  Mục đã thuộc mà làm sai chỉ về "đang học", không bao giờ về "chưa học". Câu bỏ trống không tính là sai khi đổi tiến độ. Mặc định **không** tự đánh dấu từ chuyên ngành (xưởng, thủy sản, thủ tục, Kansai) chưa có trong đề — bật ô này trên màn kết quả nếu muốn. Ngưỡng 85% / 70% đổi được ở mục **Cách xử lý kết quả** (80/85/90 và 60/70/75).
+- **Hoàn tác** trong 7 ngày (banner trên đầu trang Kiểm tra trình độ, trên máy đã áp dụng). **Lịch sử kiểm tra** đồng bộ giữa các máy, có đường tiến bộ. Nhắc kiểm tra lại sau 2 tuần (tắt được).
+
+**Lộ trình** (`Trang chủ → Lộ trình`): Chặng 0 Kana → N5 → N4 → N3 → N2. Mỗi chặng có thanh tiến độ, **4 gói học tiếp** (từ vựng JLPT và ngữ pháp đan xen theo số gói, rồi gói chủ đề, chữ Hán) với nút Học, và nút Thi vượt cấp. Chặng đã qua: Thi vượt cấp đạt từ 70%, hoặc Xếp lớp đạt từ 85% ở cấp đó. Chặng sau mờ đi nhưng vẫn mở được.
+
+**Chặng 0 — Kana** (`Lộ trình → Mở bảng kana`): bảng hiragana / katakana (âm cơ bản, thêm dấu ゛゜, âm ghép ゃゅょ) — chạm chữ để nghe, màu cho biết chữ đã thuộc. Luyện 3 kiểu: nhìn chữ → cách đọc, cách đọc → chữ, nghe → chữ; đáp án nhiễu ưu tiên chữ trông giống (ぬ/め, シ/ツ, ソ/ン…), không đặt hai chữ đọc giống nhau (じ/ぢ, お/を) cạnh nhau. Đúng 3 lần liền = thuộc; qua chặng khi thuộc 90% chữ cơ bản (hoặc đánh dấu "đã đọc thông kana"; ai đã học từ 20 từ trở lên được tính là biết kana).
+
+**Hướng dẫn học** (`Trang chủ → Hướng dẫn học`): 6 bài cho người mới (lặp lại ngắt quãng, nút Đã học / Biết rồi, furigana & Hán Việt, ôn mỗi ngày, luyện nghe, nhiều máy), 4 bài theo cấp N5–N2 (khối lượng, thời gian, lỗi người Việt hay mắc, cấu trúc đề và điểm đỗ JLPT theo jlpt.jp), 3 bài theo mục tiêu (特定技能2号 ngành thủy sản theo trang 出入国在留管理庁 ngày 4/9/2026, gia hạn visa & giấy tờ thuế, sống ở Nhật).
