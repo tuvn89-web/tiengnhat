@@ -13,7 +13,7 @@ export function isKanjiCh(ch) {
 }
 export const hasKanji = s => [...(s || '')].some(isKanjiCh);
 
-export const APP_VERSION = 'v7 · 12/10/2026'; // đổi cùng lúc với VERSION trong sw.js
+export const APP_VERSION = 'v9 · 12/10/2026'; // đổi cùng lúc với VERSION trong sw.js
 
 // Cú pháp: 漢字[よみ] — phần gắn cách đọc là chuỗi kanji liền trước "[".  [[...]] = phần ngữ pháp.
 // Dấu [ ] không đứng sau kanji, hoặc bên trong không phải kana, thì giữ nguyên như chữ thường.
@@ -64,12 +64,91 @@ export function rubyHTML(s, furi = true) {
   return out;
 }
 // Thay phần [[…]] bằng ô trống (bài điền chỗ trống)
+// [[ … ]] bọc phần ngữ pháp; phần đó có thể kết thúc bằng furigana: [[方[かた]]] → dấu đóng là "]]" cuối cùng
+export const HL_RE = /\[\[([\s\S]*?)\]\](?!\])/;
 export function blankHTML(s, blank = '<span class="blank" aria-label="chỗ trống">　　　</span>') {
-  return rubyHTML(s.replace(/\[\[[\s\S]*?\]\]/, '\u0000'), true).replace('\u0000', blank);
+  return rubyHTML(s.replace(HL_RE, '\u0000'), true).replace('\u0000', blank);
 }
-export const hlText = s => (/\[\[([\s\S]*?)\]\]/.exec(s) || [])[1] || '';
+export const hlText = s => (HL_RE.exec(s) || [])[1] || '';
 export const stripHL = s => s.replace(/\[\[|\]\]/g, '');
 export const kanjiChars = s => [...new Set([...(s || '')].filter(c => isKanjiCh(c) && c !== '々'))];
+
+// ---------- câu có nhiều thứ tự đúng ----------
+// Các cụm "danh từ + trợ từ chỉ cách" (を に で へ が から まで より) đứng liền nhau thì đổi chỗ cho nhau vẫn đúng:
+// 野菜を 水で 洗う = 水で 野菜を 洗う. Cụm có は/も (chủ đề), cụm kết thúc bằng 、 và mệnh đề (động từ + から, て…) thì giữ chỗ.
+const FREE_P = ['から', 'まで', 'より', 'を', 'に', 'で', 'へ', 'が'];
+const FREE_HEAD = /[一-鿿㐀-䶿々゠-ヿー0-9０-９]$/;
+const PRONOUN = /(これ|それ|あれ|ここ|そこ|あそこ|どこ|だれ|なに|みんな|みな)$/;
+// Mảnh (HTML có <ruby> hoặc chữ có [よみ]) → chữ trần
+export const chunkPlain = h => plain(String(h || '').replace(/<rt>[\s\S]*?<\/rt>|<rp>[\s\S]*?<\/rp>/g, '').replace(/<[^>]+>/g, '')).replace(/\s+/g, '');
+const BOUND = /(気[をにが]|右に|左に|ように|ために)$/;
+export function isFreeChunk(h) {
+  const t = chunkPlain(h);
+  if (!t || /[、。，,！？!?」』]$/.test(t) || /^[にをでがはともへのや]/.test(t) || BOUND.test(t)) return false;
+  if (/[\u4E00-\u9FFF\u30A0-\u30FFーん]は./.test(t)) return false; // trong mảnh đã có chủ đề (田中さんは私に)
+  if (/[ぁ-ゖ][てで]./.test(t)) return false;                           // trong mảnh có mệnh đề thể て (向かって右側の…を, 下げてお礼を)
+  if (/^[ぁ-ゖ]{2,}[\u4E00-\u9FFF]/.test(t)) return false;              // phó từ đứng đầu mảnh (あまり政治に, いつか国に)
+  if (/[。！？]/.test(t) || /ように|ために/.test(t) || /[ぁ-ゖ](前|後|時|間|うち)[にで]?$/.test(t)) return false; // hai câu trong một mảnh; mệnh đề thời gian (入る前に)
+  for (const p of FREE_P) {
+    if (!t.endsWith(p) || t.length <= p.length) continue;
+    const head = t.slice(0, -p.length);
+    if (/[はも]$/.test(head)) return false;
+    return FREE_HEAD.test(head) || PRONOUN.test(head);
+  }
+  return false;
+}
+// Số hiệu nhóm cho từng mảnh: các mảnh "tự do" liền nhau cùng một nhóm (đổi chỗ trong nhóm được); mảnh cố định = -1
+export function freeRuns(chunks) {
+  const T = chunks.map(chunkPlain);
+  const free = chunks.map((c, i) => {
+    if (!isFreeChunk(c)) return false;
+    const nx = T[i + 1] || '', pv = T[i - 1] || '';
+    if (/^[にをでがはともへの]/.test(nx)) return false;            // mảnh sau còn dính trợ từ (朝七時まで / に会社に)
+    if (/に$/.test(T[i]) && /^[なすし]/.test(nx)) return false;      // 〜になる / 〜にする (上手に なった)
+    if (/で$/.test(T[i]) && /^き/.test(nx)) return false;            // 確認で / きます = できます
+    if (/^な(い|かっ|く|けれ)/.test(nx)) return false;                // 分から / なかった (động từ bị cắt đôi)
+    if (/^[\u4E00-\u9FFF]{1,2}[るうくすつむぶぐぬたっ]/.test(nx) && /(前|後|時|間|うち)/.test(nx)) return false; // 工場に / 入る前に
+    if (/に$/.test(T[i]) && /^(行|来|帰|戻|出かけ|いらっしゃ|参|伺)/.test(nx)) return false; // 見学に / いらっしゃる, 見に / 行く (đi để làm gì)
+    if (/^[\u4E00-\u9FFF]に$/.test(T[i]) && /^[ぁ-ゖ]/.test(nx)) return false;        // 死に / かけた (thân động từ)
+    if (/間に$/.test(T[i]) && /^合/.test(nx)) return false;                          // 間に / 合う
+    const CLAUSE = /^[\u4E00-\u9FFF]{1,3}[ぁ-ゖ]{1,3}[\u4E00-\u9FFF]/;               // mảnh mở đầu bằng mệnh đề định ngữ (抱いた人に, 悪い人が)
+    if (CLAUSE.test(nx)) return false;                                              // 赤ん坊を / 抱いた人に: mảnh trước thuộc mệnh đề đó
+    if (CLAUSE.test(T[i]) && /[をがにで]$/.test(pv)) return false;
+    // mảnh trước phải khép lại bằng trợ từ hoặc dấu phẩy; nếu không, nó bổ nghĩa cho mảnh này (社員 / みんなが, テーブルの / 上に, この / 量を, 止めていた / 機械が)
+    if (pv && !/([をにでへがはもとや]|から|まで|より|、|，)$/.test(pv)) return false;
+    if (/に$/.test(T[i]) && /^(注意|興味|関心|影響|気)/.test(nx)) return false; // ノロウイルスに / 注意が
+    return true;
+  });
+  const run = chunks.map(() => -1);
+  let id = 0;
+  for (let i = 0; i < chunks.length; i++) {
+    if (!free[i]) continue;
+    let j = i;
+    while (j + 1 < chunks.length && free[j + 1]) j++;
+    if (j > i) { for (let k = i; k <= j; k++) run[k] = id; id++; }
+    i = j;
+  }
+  return run;
+}
+// seq = số thứ tự (theo câu mẫu) của từng mảnh người học đã xếp. Đúng khi mỗi mảnh ở đúng chỗ, hoặc đổi chỗ trong cùng nhóm tự do.
+export function orderOK(chunks, seq) {
+  if (seq.length !== chunks.length) return false;
+  const run = freeRuns(chunks);
+  return seq.every((k, i) => typeof k === 'number' && (k === i || (run[k] >= 0 && run[k] === run[i])));
+}
+// Các thứ tự đúng khác câu mẫu (tối đa max cách)
+export function altOrders(chunks, max = 3) {
+  const run = freeRuns(chunks), groups = {};
+  run.forEach((r, i) => { if (r >= 0) (groups[r] = groups[r] || []).push(i); });
+  const perms = a => (a.length <= 1 ? [a] : a.flatMap((x, i) => perms([...a.slice(0, i), ...a.slice(i + 1)]).map(p => [x, ...p])));
+  let orders = [chunks.map((_, i) => i)];
+  for (const idx of Object.values(groups)) {
+    const next = [];
+    for (const o of orders) for (const p of perms(idx)) { const n = [...o]; idx.forEach((pos, j) => { n[pos] = p[j]; }); next.push(n); }
+    orders = next.slice(0, 24);
+  }
+  return orders.filter(o => o.some((k, i) => k !== i)).slice(0, max).map(o => o.map(k => chunks[k]));
+}
 
 // Tự cắt câu thành mảnh theo trợ từ (dùng khi dữ liệu không có sẵn chunks). Đầu vào: chữ có furigana, không có [[ ]] và dấu câu cuối.
 // Chỉ cắt sau trợ từ đứng ngay sau chữ Hán / katakana — tránh cắt nhầm trong từ viết bằng hiragana.

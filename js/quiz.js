@@ -67,6 +67,52 @@ export function sourceCounts(filter = () => true) {
 }
 
 // ---------- đáp án & nhiễu ----------
+// Nghĩa con: nhóm nghĩa tách bằng ; — trong nhóm, các từ tách bằng , (ngoài ngoặc) cùng chung chú thích trong ngoặc của nhóm.
+// "đi, mang (giày, tất); mặc (quần, váy)" → đi·mang [giày, tất] | mặc [quần, váy]
+const _sense = new Map();
+function splitOut(s, seps) {
+  const parts = []; let cur = '', depth = 0;
+  for (const ch of s) {
+    if (ch === '(' || ch === '（') depth++;
+    if (ch === ')' || ch === '）') depth = Math.max(0, depth - 1);
+    if (!depth && seps.includes(ch)) { parts.push(cur); cur = ''; } else cur += ch;
+  }
+  parts.push(cur);
+  return parts;
+}
+const squash = x => x.toLowerCase().replace(/\s+/g, ' ').trim();
+export function senses(vi) {
+  let r = _sense.get(vi);
+  if (r) return r;
+  r = [];
+  for (const g of splitOut(String(vi || ''), ';；')) {
+    const q = squash((g.match(/[(（]([^)）]*)[)）]/g) || []).map(x => x.slice(1, -1)).join(' '));
+    for (const x of splitOut(g, ',、')) {
+      const core = squash(x.replace(/[(（][^)）]*[)）]/g, ''));
+      if (core) r.push({ core, q });
+    }
+  }
+  _sense.set(vi, r);
+  return r;
+}
+// Hai nghĩa "đụng nhau" khi có một nghĩa con cùng lõi mà chú thích không phân biệt được
+export function viClash(a, b) {
+  const A = senses(a), B = senses(b);
+  return A.some(x => B.some(y => x.core === y.core && !(x.q && y.q && x.q !== y.q)));
+}
+// Có từ khác cùng chữ viết (一日 いちにち / ついたち) → đề "Kanji → cách đọc" cần gợi ý nghĩa
+export function sameWriting(it) {
+  return !!it.kanji && D.vocab.some(o => o.id !== it.id && o.kanji === it.kanji && o.kana !== it.kana);
+}
+export const readHint = it => (sameWriting(it) ? `<p class="prompt-sub">${esc(it.vi)}</p>` : '');
+// Từ o có thể cũng là đáp án đúng cho câu hỏi về it → không dùng làm đáp án nhiễu
+export function alsoRight(it, o, dir) {
+  // Cùng chữ viết (一日 いちにち / ついたち): mặt chữ giống hệt nên ở mọi kiểu câu hỏi đều dễ chọn nhầm → không làm nhiễu
+  if (it.kanji && o.kanji === it.kanji) return true;
+  if (dir === 'kr') return false;
+  if (dir === 'au' && o.kana === it.kana) return true;
+  return viClash(it.vi, o.vi);
+}
 export function answerOf(it, dir, script) {
   if (dir === 'vj') return { key: wordKey(it, script), html: `<span lang="ja">${wordHTML(it, script)}</span>`, jp: true };
   if (dir === 'kr') return { key: it.kana, html: `<span lang="ja">${esc(it.kana)}</span>`, jp: true };
@@ -80,6 +126,7 @@ export function distractors(it, dir, script, n = 3) {
   for (const o of D.vocab) {
     if (o.id === it.id || syn.has(o.id) || (o.syn || []).includes(it.id)) continue;
     if (dir === 'kr' && !o.kanji) continue;
+    if (alsoRight(it, o, dir)) continue;
     let s = Math.random() * 6;
     if (conf.has(o.id) || (o.confuse || []).includes(it.id)) s += 100;
     if (o.topics.some(t => it.topics.includes(t))) s += 10;
@@ -192,7 +239,7 @@ export function runQuiz(view, qs, o, ctx) {
     let prompt, hint;
     if (dir === 'vj') { prompt = `<p class="prompt-vi">${esc(it.vi)}</p>`; hint = 'Chọn từ tiếng Nhật'; }
     else if (dir === 'jv') { prompt = `<div class="prompt-row"><p class="prompt-jp" lang="ja">${wordHTML(it, script)}</p>${sayBtn(it.kana)}</div>`; hint = 'Chọn nghĩa tiếng Việt'; }
-    else if (dir === 'kr') { prompt = `<p class="prompt-jp" lang="ja" data-bare>${wordHTML(it, 'bare')}</p>`; hint = 'Chọn cách đọc'; }
+    else if (dir === 'kr') { prompt = `<p class="prompt-jp" lang="ja" data-bare>${wordHTML(it, 'bare')}</p>${readHint(it)}`; hint = 'Chọn cách đọc'; }
     else { prompt = `<button type="button" class="say-big" data-say="${esc(it.kana)}" aria-label="Nghe lại">${icon('speaker')}<span>Nghe lại</span></button>`; hint = 'Nghe rồi chọn nghĩa tiếng Việt'; }
     view.innerHTML = `<div class="run">${head()}
       <article class="label-card" data-nokj>${tag(it)}${prompt}<p class="prompt-hint">${hint}</p><div class="stamp" aria-hidden="true"></div></article>

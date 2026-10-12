@@ -1,10 +1,10 @@
 // Bài tập ngữ pháp G1–G11: sinh câu hỏi từ dữ liệu mẫu ngữ pháp + máy chia động từ, và trang Luyện tập / Thi thử.
-import { esc, rich, rubyHTML, blankHTML, hlText, stripHL, plain, reading, shuffle, wordHTML, autoChunks } from './util.js';
+import { esc, rich, rubyHTML, blankHTML, hlText, stripHL, plain, reading, shuffle, wordHTML, autoChunks, freeRuns } from './util.js';
 import { D, LEVELS } from './data.js';
 import { status, dueDirs, errCount, isStar, stats } from './srs.js';
 import { ttsReady } from './tts.js';
 import { conjugate, wrongForms, ruleText, FORMS, FORM_LEVEL, verbInfo } from './conj.js';
-import { answerOf, distractors } from './quiz.js';
+import { answerOf, distractors, readHint } from './quiz.js';
 import { runDrill, opt } from './drill.js';
 import { chips, bindChips, readChip, readChips, emptyState } from './ui.js';
 import { kvGet, kvSet } from './db.js';
@@ -97,7 +97,12 @@ const Q = {
     const n = ci.ch.length;
     const starts = [...Array(n - 3).keys()];
     const s = starts.find(x => ci.gi >= x && ci.gi < x + 4) ?? starts[0];
-    const win = ci.ch.slice(s, s + 4), pos = Math.floor(Math.random() * 4);
+    const win = ci.ch.slice(s, s + 4);
+    // ô ★ không đặt vào mảnh đổi chỗ được (野菜を / 水で): mảnh đó đứng ô nào cũng đúng → hai đáp án
+    const run = freeRuns(ci.ch).slice(s, s + 4);
+    const fixed = [0, 1, 2, 3].filter(i => run[i] < 0 || run.filter(r => r === run[i]).length < 2);
+    if (!fixed.length) return null;
+    const pos = fixed[Math.floor(Math.random() * fixed.length)];
     const end = (stripHL(ex.jp).match(END_RE) || [''])[0];
     const blanks = win.map((_, i) => `<span class="sblank${i === pos ? ' sb-star' : ''}">${i === pos ? '★' : '＿＿'}</span>`).join('');
     const sent = ci.ch.slice(0, s).map(rich).join('') + blanks + ci.ch.slice(s + 4).map(rich).join('') + end;
@@ -209,7 +214,7 @@ export function buildMockTest(level, n = 20) {
     const right = answerOf(v, dir, 'furi');
     const ds = distractors(v, dir, 'furi');
     if (ds.length < 2) continue;
-    const prompt = dir === 'kr' ? `<p class="prompt-jp" lang="ja" data-bare>${esc(v.kanji)}</p>` : `<p class="prompt-jp" lang="ja">${wordHTML(v, 'furi')}</p>`;
+    const prompt = dir === 'kr' ? `<p class="prompt-jp" lang="ja" data-bare>${esc(v.kanji)}</p>${readHint(v)}` : `<p class="prompt-jp" lang="ja">${wordHTML(v, 'furi')}</p>`;
     vq.push({ kind: 'choice', tag: dir === 'kr' ? 'Chữ Hán – cách đọc' : 'Từ vựng – nghĩa', level, promptBare: dir === 'kr', prompt,
       hint: dir === 'kr' ? 'Chọn cách đọc' : 'Chọn nghĩa', opts: shuffle([right, ...ds]).map(a => opt(a.key, a.html, a.jp)), answer: right.key, review: { id: v.id, dir } });
   }

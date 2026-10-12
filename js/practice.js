@@ -1,9 +1,9 @@
 // Trang Luyện tập chung (F1) và các dạng bài dựa trên từ đã học:
 // F2 ghép câu từ ví dụ · F3 ghép câu theo ngữ pháp · F4 thể động từ trong câu · F5 tính từ trong câu · E2 đếm số · F7 ôn hỗn hợp.
-import { esc, rich, rubyHTML, plain, shuffle, autoChunks, END_PUNCT, wordHTML, icon } from './util.js';
+import { esc, rich, rubyHTML, plain, shuffle, autoChunks, END_PUNCT, wordHTML, icon, HL_RE } from './util.js';
 import { D, LEVELS, setPrefs } from './data.js';
 import { S } from './settings.js';
-import { selectItems, SOURCES, answerOf, distractors } from './quiz.js';
+import { selectItems, SOURCES, answerOf, distractors, readHint } from './quiz.js';
 import { verbInfo, conjPart, FORMS, FORM_LEVEL, shortVi, DERIVED, hasForm } from './conj.js';
 import { adjInfo, adjConj } from './adj.js';
 import { COUNTERS, countWrong, counterMark } from './counters.js';
@@ -236,7 +236,7 @@ function fxQs(o, forms) {
       const opts = [...new Set(DERIVED.filter(f => f !== x.f).map(f => conjPart(v, f)?.mark.replace(/る$/, '')).filter(Boolean))].filter(m => plain(m) !== plain(right));
       if (!right || opts.length < 2) continue;
       out.push({ kind: 'choice', tag: 'Thể động từ — ' + FORMS[x.f], level: FORM_LEVEL[x.f],
-        prompt: `<p class="prompt-sent" lang="ja">${rubyHTML(x.jp.replace(/\[\[[\s\S]*?\]\]/, '\u0000'), true).replace('\u0000', '<span class="blank">　　　</span>')}</p><p class="prompt-vi-s">${esc(x.vi)}</p><p class="prompt-hint">Động từ: <span lang="ja">${rich(v.dict)}</span></p>`,
+        prompt: `<p class="prompt-sent" lang="ja">${rubyHTML(x.jp.replace(HL_RE, '\u0000'), true).replace('\u0000', '<span class="blank">　　　</span>')}</p><p class="prompt-vi-s">${esc(x.vi)}</p><p class="prompt-hint">Động từ: <span lang="ja">${rich(v.dict)}</span></p>`,
         opts: shuffle([right, ...opts.slice(0, 3)]).map((m, i) => opt(m === right ? 'ok' : 'x' + i, rich(m))), answer: 'ok', after: sentHTML(x.jp.replace(/\[\[|\]\]/g, '')) });
     }
   }
@@ -387,7 +387,7 @@ export async function renderMixed(view, ctx) {
     const dir = dirs[Math.floor(Math.random() * dirs.length)] || 'jv';
     const right = answerOf(it, dir, 'furi'), ds = distractors(it, dir, 'furi');
     if (ds.length < 2) continue;
-    const prompt = dir === 'vj' ? `<p class="prompt-vi">${esc(it.vi)}</p>` : dir === 'kr' ? `<p class="prompt-jp" lang="ja" data-bare>${esc(it.kanji)}</p>` : `<p class="prompt-jp" lang="ja">${wordHTML(it, 'furi')}</p>`;
+    const prompt = dir === 'vj' ? `<p class="prompt-vi">${esc(it.vi)}</p>` : dir === 'kr' ? `<p class="prompt-jp" lang="ja" data-bare>${esc(it.kanji)}</p>${readHint(it)}` : `<p class="prompt-jp" lang="ja">${wordHTML(it, 'furi')}</p>`;
     vq.push({ kind: 'choice', tag: dir === 'kr' ? 'Từ vựng — đọc chữ Hán' : 'Từ vựng', level: it.level, promptBare: dir === 'kr', prompt,
       hint: dir === 'vj' ? 'Chọn từ tiếng Nhật' : dir === 'kr' ? 'Chọn cách đọc' : 'Chọn nghĩa', opts: shuffle([right, ...ds]).map(a => opt(a.key, a.html, a.jp)), answer: right.key, review: { id: it.id, dir } });
   }

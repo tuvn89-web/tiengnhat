@@ -138,7 +138,7 @@ data/packs/*.json                         các gói từ vựng / ngữ pháp / 
 icons/                                    biểu tượng app
 ```
 
-## 8. Các phần học (bản v7)
+## 8. Các phần học (bản v8)
 
 Thanh dưới cùng (điện thoại) hoặc cột trái (máy tính): **Trang chủ · Luyện tập · Chữ Hán · Ngữ pháp · Kho từ**. Dữ liệu và Cài đặt ở góc trên.
 
@@ -189,3 +189,59 @@ Sau đó, nếu trong `data/packs` trên GitHub còn file **`jlpt-n5-dongtu-01.j
 - Màn kết quả gợi ý một bước tiếp: học xong từ mới → **Ghép câu với từ vừa học**; còn mục đến hạn → **Ôn hỗn hợp hôm nay**; hết thì → **Học từ mới**.
 - Thi thử xong có nút **Luyện lại các câu sai (không tính điểm)** — không làm thay đổi lịch ôn.
 - Các bài luyện có hàng **Dạng bài khác** để chuyển bài ngay.
+
+## 12. Bản v8 (12/10/2026): mỗi câu trắc nghiệm chỉ một đáp án đúng + ngữ pháp N4
+
+**Cách tải lên:** giải nén `capnhat-v8.zip`, kéo toàn bộ nội dung vào kho `tiengnhat` → Commit. Gói này đã gồm v5–v7. Thay cả `data/manifest.json`.
+
+**Sửa đáp án mơ hồ** (trước đây có câu hai đáp án cùng đúng: 一日 いちにち / ついたち, 半 / 半分, 掃除 / 片付け…):
+- Đáp án nhiễu không còn là từ "cũng đúng": bỏ từ cùng chữ viết (bài Kanji → cách đọc), từ có nghĩa con trùng (Việt ↔ Nhật, Ghép cặp, Ôn hỗn hợp, Thi thử), từ đồng âm (Nghe → nghĩa, ví dụ 暑い / 熱い).
+- Bài **Kanji → cách đọc**: chữ có nhiều cách đọc thì hiện thêm nghĩa nhỏ dưới chữ, ví dụ 一日 kèm *ngày mùng 1 (trong tháng)*.
+- Nghĩa tiếng Việt của 67 từ N5 được viết lại có chú thích phân biệt, ví dụ 半 *rưỡi (giờ rưỡi); nửa (trong từ ghép)* — 半分 *một nửa (chia đôi)*; 掃除 *quét dọn, lau chùi (làm cho sạch)* — 片付け *dọn gọn, cất đồ (về chỗ)*. Từ Kansai và từ chuẩn tương ứng (ええ / いい, おおきに / ありがとうございます…) được đánh dấu đồng nghĩa nên không làm đáp án của nhau. Mã từ giữ nguyên — tiến độ học không mất.
+
+**Ngữ pháp N4 đủ 67 mẫu** (27 gói `nguphap-n4-01` … `nguphap-n4-27`): thể khả năng, ý chí, そうだ, らしい, たら・ば・と・なら, ても・のに, ために・ように, てしまう・ておく・てある・てみる, cho – nhận, sai khiến, bị động, kính ngữ, mệnh lệnh – cấm, すぎる, やすい・にくい, かどうか, はずだ, ところだ, までに, ことにする・ことになる, 場合は, ので, かもしれない, ほうがいい, ばかり, しか〜ない, まま, ていく・てくる, という, ほど〜ない, がする… Mỗi mẫu có giải thích 3–4 đoạn, 10 câu ví dụ (đời sống, xưởng, thủ tục, hội thoại), đủ dữ liệu cho 10 dạng bài luyện.
+
+**Kho sau bản này:** 63 gói, 944 mục (781 từ, 111 mẫu ngữ pháp, 24 thẻ chữ Hán, 28 câu thực chiến).
+
+## 13. Đợt dữ liệu N4 – từ vựng (12/10/2026)
+
+**Cách tải lên:** giải nén `capnhat-dulieu-n4.zip`, kéo thư mục `data` vào kho `tiengnhat` (ghi đè) → Commit. App không đổi (vẫn v8), chỉ thêm dữ liệu.
+
+- **20 gói từ vựng N4** `jlpt-n4-01` … `jlpt-n4-20` (≈ 590 từ mới, cả kho có 661 từ N4): 160 động từ (cặp tự – tha, kính ngữ, cho – nhận; mỗi động từ 3 câu ví dụ ở đời sống / xưởng / thủ tục, cụm hay đi kèm, câu bị động – sai khiến – khả năng), 42 tính từ (trái nghĩa, từ cùng gốc), phó từ – từ nối, danh từ theo chủ đề (con người, công việc, xã hội, học tập, nhà cửa, ăn uống – mua sắm, thiên nhiên – nơi chốn, cơ thể – cảm xúc, thời gian – vị trí).
+- Nghĩa tiếng Việt của từ mới đều có chú thích phân biệt; thêm 27 từ N5 được viết rõ nghĩa hơn để không trùng với từ N4 (ví dụ 止まる *dừng, ngừng (tự dừng)* — 止める *dừng lại (máy, xe — làm cho dừng)*; 行く *đi (đến nơi nào đó)* — 乗る *lên, đi (xe, tàu)*). Từ kính ngữ (いらっしゃる, 召し上がる, 参る…) được đánh dấu đồng nghĩa với từ thường nên không làm đáp án của nhau.
+- Kho sau đợt này: 83 gói, 1.530 mục (1.367 từ, 111 mẫu ngữ pháp, 24 thẻ chữ Hán, 28 câu thực chiến).
+
+## 14. Đợt dữ liệu N4 – chủ đề, câu thực chiến, chữ Hán (12/10/2026)
+
+**Cách tải lên:** như mục 13 — kéo thư mục `data` vào kho, ghi đè, Commit.
+
+- `xuong-02` (37 từ): đồ bảo hộ, 5S, an toàn (dự đoán nguy hiểm KY, lối thoát hiểm, dừng khẩn cấp, tai nạn lao động), phiếu lương (lương cơ bản, tiền tăng ca, phụ cấp, khấu trừ, lương thực nhận), chấm công.
+- `thuysan-03` (32 từ): HACCP, mối nguy (ký sinh trùng, vi khuẩn, Norovirus), hồ sơ – kiểm tra nhiệt độ, chữ trên nhãn (nguyên liệu, xuất xứ, khối lượng tịnh, cách bảo quản, số lô, dị ứng), máy móc.
+- `doisong-01` (31 từ): phân loại rác, ngân hàng – chuyển tiền, bệnh viện – hiệu thuốc, phòng chống thiên tai.
+- `cau-thutuc-01` (20 câu): quầy tòa thị chính, ngân hàng, bệnh viện — câu cần nói và câu nhân viên hay hỏi.
+- `cau-xuong-02` (20 câu): gọi điện xin nghỉ, báo đến muộn, báo xong việc, báo lỗi, báo máy hỏng, xin nghỉ phép; câu tổ trưởng nói giọng Kansai kèm tiếng chuẩn.
+- `chuhan-02` (25 thẻ chữ Hán): 25 chữ xuất hiện nhiều nhất trong kho (物 大 会 入 事 一 学 出 場 下 所 業 見 今 度 本 中 上 番 子 年 長 間 分 合), mỗi chữ một câu lục bát nhớ mặt chữ.
+- Kho sau đợt này: 89 gói, 1.695 mục.
+
+## 15. Đợt dữ liệu N3 – ngữ pháp (12/10/2026)
+
+**Cách tải lên:** như mục 13 — kéo thư mục `data` vào kho, ghi đè, Commit. Không cần cập nhật mã app.
+
+- 35 gói `nguphap-n3-01` … `nguphap-n3-35`, 105 mẫu ngữ pháp N3. Mỗi mẫu đủ 7 phần giải thích, 10 câu ví dụ (4 đời sống · 3 xưởng · 2 thủ tục · 1 hội thoại) và dữ liệu cho cả 10 dạng bài luyện (sắp xếp câu, câu ★, tìm chỗ sai, chọn cách nói, đổi lối nói Kansai → chuẩn…).
+- Nhóm mẫu: thời điểm (うちに, 最中に, たとたん…), xu hướng (ばかりだ, 一方だ, つつある), nguyên nhân (おかげで, せいで, によって), kết luận (わけだ, わけがない, わけにはいかない), giả định (としたら, さえ〜ば, ばよかった), nhượng bộ (くせに, ながらも, としても), đối tượng (にとって, に対して, に関して, として), mức độ (ほど, ば〜ほど), nhấn mạnh (さえ, こそ, まで), hậu tố (っぽい, がち, 気味, だらけ, たて, 向け, 的, っぱなし), kính ngữ nâng cao (させられる, させていただく, お〜いただく, でございます) và khẩu ngữ xưởng (なきゃ, ちゃだめ, とく・てる).
+- Sửa cách đọc trong 8 gói cũ (tăng phiên bản lên 2): 一回 → いっかい, 一か月 → いっかげつ, 一日で → いちにち (`jlpt-n4-05/06/09/15`, `nguphap-n4-08/10/12`, `xuong-02`).
+- Kho sau đợt này: 124 gói, 1.800 mục.
+
+## 16. Bản v9 (12/10/2026): câu có nhiều thứ tự đúng, từ cùng chữ viết không còn làm đáp án nhiễu
+
+**Lưu ý:** trang web đang chạy **bản v7** — gói mã `capnhat-v8.zip` chưa được tải lên, nên các sửa lỗi đáp án mơ hồ của v8 chưa có tác dụng. Gói `capnhat-v9.zip` đã gồm v8 + v9 + toàn bộ dữ liệu đến hết ngữ pháp N3.
+
+**Cách tải lên:** giải nén `capnhat-v9.zip`, kéo **toàn bộ** nội dung (các thư mục `js`, `css`, `data`, file `sw.js`, `index.html`, `HUONG-DAN.md`…) vào kho `tiengnhat` → ghi đè → Commit. Đợi trang Deployments báo xong (khoảng 1 phút), rồi mở app và tải lại trang một lần (máy tính: Ctrl + Shift + R; điện thoại: đóng hẳn app rồi mở lại).
+
+**Kiểm tra đã lên đúng bản:** Cài đặt → cuối trang ghi **v9 · 12/10/2026**. Vào Kho từ, tìm 一日: nghĩa phải là *một ngày, cả ngày (khoảng thời gian)* và *ngày mùng 1 (trong tháng)*. Nếu vẫn thấy nghĩa cũ (*một ngày; cả ngày*) thì máy đang dùng gói cũ: vào Dữ liệu → bấm **Xoá các gói nhập tay đã có trên kho** (mục 9), rồi tải lại trang.
+
+**Sửa lỗi sắp xếp câu (Ghép câu, Sắp xếp câu, Ghép câu Việt → Nhật):** câu có nhiều thứ tự đúng giờ được chấm đúng. Ví dụ 野菜を 水で よく洗ってください và 水で 野菜を よく洗ってください đều đúng — app nhận ra các cụm "danh từ + を / に / で / へ / が / から / まで / より" đứng liền nhau thì đổi chỗ cho nhau được (trừ cụm có は, cụm thuộc thành ngữ như 気をつける, 間に合う, 〜になる, và cụm nằm trong mệnh đề). Sau khi trả lời, app hiện câu mẫu **và các thứ tự khác cũng đúng** ("Hoặc: …"). Bài **Câu ★** không đặt ô ★ vào những mảnh đổi chỗ được, nên mỗi câu chỉ có một đáp án.
+
+**Sửa lỗi hiển thị:** câu ví dụ ngữ pháp có phần tô đậm kết thúc bằng chữ Hán (〜方[かた], 〜一方[いっぽう], 〜次第[しだい]…) từng hiện thừa dấu "]" sau chỗ trống trong bài Điền chỗ trống — đã sửa (60 câu). Sau khi trả lời, phần giải thích tự cuộn lên để không bị nút **Tiếp** che.
+
+**Sửa lỗi:** câu hỏi *Chọn nghĩa* của 一日 (いちにち) từng có đáp án nhiễu *ngày mùng 1* — đúng là nghĩa của 一日 đọc ついたち, nên nhìn mặt chữ rất dễ chọn nhầm. Từ bản v9, những từ **cùng chữ viết** (一日 いちにち / ついたち, 月 つき / がつ, 人 ひと / じん / にん, 本 sách / 本 đếm đồ dài, 十 じゅう / とお, 君 きみ / くん, 空く すく / あく) không bao giờ làm đáp án nhiễu cho nhau ở **mọi** kiểu câu hỏi: Chọn nghĩa, Chọn từ tiếng Nhật, Nghe → nghĩa, Kanji → cách đọc, Ôn hỗn hợp, Thi thử.

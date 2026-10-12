@@ -1,6 +1,6 @@
 // Bộ chạy bài tập dùng chung: chọn đáp án · sắp xếp mảnh câu · chạm vào chỗ sai.
 // Dùng cho ôn chữ Hán, bài tập ngữ pháp và thi thử.
-import { esc, shuffle, beep, buzz, icon, toast } from './util.js';
+import { esc, shuffle, beep, buzz, icon, toast, orderOK, altOrders } from './util.js';
 import { S } from './settings.js';
 import { review } from './srs.js';
 import { speak, ttsReady } from './tts.js';
@@ -77,7 +77,12 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
       poolEl.onclick = e => { const b = e.target.closest('.chunk'); if (!b || st.lock) return; if (picked.length < q.chunks.length) { picked.push(+b.dataset.n); sync(); } };
       build.onclick = e => { const b = e.target.closest('.chunk'); if (!b || st.lock) return; picked.splice(+b.dataset.i, 1); sync(); };
       view.querySelector('[data-act=clear]').onclick = () => { if (st.lock) return; picked.length = 0; sync(); };
-      chk.onclick = () => answer(q, picked.every((n, i) => q._pool[n].k === i || q._pool[n].h === q.chunks[i]));
+      chk.onclick = () => {
+        // mảnh trùng chữ với mảnh mẫu ở đúng vị trí thì coi như đúng mảnh đó
+        const seq = picked.map((n, i) => (q._pool[n].h === q.chunks[i] ? i : q._pool[n].k));
+        q._seq = seq;
+        answer(q, orderOK(q.chunks, seq));
+      };
       sync();
       setKeys(null);
     } else if (q.kind === 'spot') {
@@ -115,9 +120,11 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     after.hidden = false;
     let right = '';
     if (!ok && q.kind === 'choice') right = `<p class="after-msg">Đáp án đúng: <b lang="ja">${q.opts.find(o => o.key === q.answer)?.html || ''}</b></p>`;
-    if (q.kind === 'order') right = `<p class="${ok ? 'after-ok' : 'after-msg'}">${ok ? 'Đúng thứ tự.' : 'Thứ tự đúng:'} <span lang="ja" class="ans-line">${q.chunks.join(' ')}</span></p>`;
+    if (q.kind === 'order') right = orderMsg(q, ok);
     if (!ok && q.kind === 'spot') right = `<p class="after-msg">Chỗ sai là mảnh được tô xanh. Sửa thành: <b lang="ja">${q.fix}</b></p>`;
     after.innerHTML = right + (q.after || '');
+    // phần giải thích nằm dưới thanh "Tiếp" (thanh dính đáy màn hình) thì cuộn lên cho thấy hết
+    requestAnimationFrame(() => { if (after.getBoundingClientRect().bottom > innerHeight - 150) after.scrollIntoView({ block: 'end', behavior: 'smooth' }); });
     const bar = document.createElement('div');
     bar.className = 'next-bar';
     bar.innerHTML = `<button type="button" class="btn btn-primary" data-act="next">Tiếp</button>`;
@@ -137,6 +144,17 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
   show();
 }
 
+// Lời nhận xét bài sắp xếp câu: câu mẫu + các thứ tự khác cũng đúng
+function orderMsg(q, ok) {
+  const alts = altOrders(q.chunks);
+  const line = c => `<span lang="ja" class="ans-line">${c.join(' ')}</span>`;
+  const same = ok && (q._seq || []).every((k, i) => k === i);
+  let h = `<p class="${ok ? 'after-ok' : 'after-msg'}">${ok ? (same ? 'Đúng thứ tự.' : 'Đúng! Câu mẫu xếp:') : alts.length ? 'Các thứ tự đúng:' : 'Thứ tự đúng:'} ${ok && same ? '' : line(q.chunks)}</p>`;
+  const rest = ok && !same ? alts.filter(c => c.some((x, i) => x !== q.chunks[(q._seq || [])[i]])) : alts;
+  if (rest.length) h += `<p class="after-alt small">${ok ? 'Cũng đúng:' : 'Hoặc:'} ${rest.map(line).join(' <span class="muted">·</span> ')}</p>`;
+  return h;
+}
+
 // Màn kết quả dùng chung (luyện tập và thi thử)
 function renderResult(view, ctx, { title, test, early, res, total, score, again, redo }) {
   ctx.inRun = true; // màn kết quả: nút Back của điện thoại về trang trước khi vào bài
@@ -145,7 +163,7 @@ function renderResult(view, ctx, { title, test, early, res, total, score, again,
   const byTag = {};
   for (const r of res) { const t = r.q.tag || ''; byTag[t] = byTag[t] || [0, 0]; byTag[t][1]++; if (r.ok) byTag[t][0]++; }
   const pct = total ? Math.round((score / total) * 100) : 0;
-  const ansHTML = q => q.kind === 'choice' ? (q.opts.find(o => o.key === q.answer)?.html || '') : q.kind === 'order' ? q.chunks.join(' ') : q.fix;
+  const ansHTML = q => q.kind === 'choice' ? (q.opts.find(o => o.key === q.answer)?.html || '') : q.kind === 'order' ? [q.chunks, ...altOrders(q.chunks)].map(c => c.join(' ')).join(' <span class="muted small">hoặc</span> ') : q.fix;
   const chosenHTML = r => r.q.kind !== 'choice' ? '' : r.skip ? '<p class="muted small">Bỏ trống</p>' : `<p class="small">Đã chọn: <span lang="ja">${r.q.opts.find(o => o.key === r.chosen)?.html || ''}</span></p>`;
   view.innerHTML = `<section class="result">${crumbHTML(ctx)}
       <h1 class="h1">${test ? 'Kết quả thi thử' : early ? 'Đã dừng' : 'Xong lượt'}</h1>
