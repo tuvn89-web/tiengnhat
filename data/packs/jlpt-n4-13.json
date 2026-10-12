@@ -1,0 +1,879 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n4-13",
+  "title": "JLPT N4 13 – Xã hội, kinh tế, đất nước",
+  "type": "vocab",
+  "level": "N4",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:法律:ほうりつ",
+   "kana": "ほうりつ",
+   "kanji": "法律",
+   "hv": "PHÁP LUẬT",
+   "vi": "luật pháp",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]の法律[ほうりつ]を守[まも]って生活[せいかつ]しましょう。",
+     "vi": "Hãy sống tuân thủ luật pháp Nhật Bản.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "法律[ほうりつ]が変[か]わって、手続[てつづ]きが変[か]わりました。",
+     "vi": "Luật thay đổi nên thủ tục thay đổi.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "法律[ほうりつ]を守[まも]る",
+     "vi": "tuân thủ pháp luật"
+    }
+   ]
+  },
+  {
+   "id": "v:政治:せいじ",
+   "kana": "せいじ",
+   "kanji": "政治",
+   "hv": "CHÍNH TRỊ",
+   "vi": "chính trị",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "政治[せいじ]のニュースはよく分[わ]かりません。",
+     "vi": "Tin chính trị tôi không hiểu lắm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "若[わか]い人[ひと]は、あまり政治[せいじ]に興味[きょうみ]がないそうです。",
+     "vi": "Nghe nói người trẻ không quan tâm lắm đến chính trị.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:経済:けいざい",
+   "kana": "けいざい",
+   "kanji": "経済",
+   "hv": "KINH TẾ",
+   "vi": "kinh tế",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ベトナムの経済[けいざい]は、どんどん成長[せいちょう]しています。",
+     "vi": "Kinh tế Việt Nam đang tăng trưởng nhanh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "円安[えんやす]は、日本[にほん]の経済[けいざい]にどんな影響[えいきょう]がありますか。",
+     "vi": "Đồng yên yếu ảnh hưởng thế nào đến kinh tế Nhật?",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:社会:しゃかい",
+   "kana": "しゃかい",
+   "kanji": "社会",
+   "hv": "XÃ HỘI",
+   "vi": "xã hội",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]の社会[しゃかい]のルールを学[まな]びます。",
+     "vi": "Tôi học quy tắc xã hội Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "外国人[がいこくじん]も社会[しゃかい]の一員[いちいん]です。",
+     "vi": "Người nước ngoài cũng là một thành viên của xã hội.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    {
+     "w": "社会保険[しゃかいほけん]",
+     "vi": "bảo hiểm xã hội"
+    }
+   ]
+  },
+  {
+   "id": "v:産業:さんぎょう",
+   "kana": "さんぎょう",
+   "kanji": "産業",
+   "hv": "SẢN NGHIỆP",
+   "vi": "ngành công nghiệp, ngành nghề",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "水産業[すいさんぎょう]は、この町[まち]の大事[だいじ]な産業[さんぎょう]です。",
+     "vi": "Thủy sản là ngành quan trọng của thị trấn này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本[にほん]の自動車[じどうしゃ]産業[さんぎょう]は有名[ゆうめい]です。",
+     "vi": "Ngành ô tô Nhật nổi tiếng.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:工業:こうぎょう",
+   "kana": "こうぎょう",
+   "kanji": "工業",
+   "hv": "CÔNG NGHIỆP",
+   "vi": "công nghiệp",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この地域[ちいき]は工業[こうぎょう]が盛[さか]んです。",
+     "vi": "Vùng này công nghiệp phát triển.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工業[こうぎょう]用[よう]の大[おお]きい冷凍庫[れいとうこ]があります。",
+     "vi": "Có tủ đông cỡ lớn dùng cho công nghiệp.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:産業:さんぎょう"
+   ]
+  },
+  {
+   "id": "v:貿易:ぼうえき",
+   "kana": "ぼうえき",
+   "kanji": "貿易",
+   "hv": "MẬU DỊ",
+   "vi": "thương mại quốc tế, mậu dịch",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]とベトナムの貿易[ぼうえき]が増[ふ]えています。",
+     "vi": "Thương mại Nhật – Việt đang tăng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "兄[あに]は貿易[ぼうえき]の会社[かいしゃ]で働[はたら]いています。",
+     "vi": "Anh tôi làm ở công ty xuất nhập khẩu.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:輸入:ゆにゅう",
+   "kana": "ゆにゅう",
+   "kanji": "輸入",
+   "hv": "THÂU NHẬP",
+   "vi": "nhập khẩu",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このエビはベトナムから輸入[ゆにゅう]しています。",
+     "vi": "Tôm này nhập khẩu từ Việt Nam.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本[にほん]は食[た]べ物[もの]の多[おお]くを輸入[ゆにゅう]しています。",
+     "vi": "Nhật nhập khẩu phần lớn thực phẩm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "エビを輸入[ゆにゅう]する",
+     "vi": "nhập khẩu tôm"
+    }
+   ],
+   "ant": [
+    "v:輸出:ゆしゅつ"
+   ]
+  },
+  {
+   "id": "v:輸出:ゆしゅつ",
+   "kana": "ゆしゅつ",
+   "kanji": "輸出",
+   "hv": "THÂU XUẤT",
+   "vi": "xuất khẩu",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この工場[こうじょう]の商品[しょうひん]は、アメリカにも輸出[ゆしゅつ]しています。",
+     "vi": "Sản phẩm nhà máy này cũng xuất sang Mỹ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ベトナムは、コーヒーをたくさん輸出[ゆしゅつ]しています。",
+     "vi": "Việt Nam xuất khẩu nhiều cà phê.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "魚[さかな]を輸出[ゆしゅつ]する",
+     "vi": "xuất khẩu cá"
+    }
+   ],
+   "ant": [
+    "v:輸入:ゆにゅう"
+   ]
+  },
+  {
+   "id": "v:国際:こくさい",
+   "kana": "こくさい",
+   "kanji": "国際",
+   "hv": "QUỐC TẾ",
+   "vi": "quốc tế",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "国際[こくさい]電話[でんわ]で家族[かぞく]と話[はな]します。",
+     "vi": "Tôi gọi điện quốc tế cho gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "国際[こくさい]交流[こうりゅう]協会[きょうかい]で、日本語[にほんご]を勉強[べんきょう]しています。",
+     "vi": "Tôi học tiếng Nhật ở hiệp hội giao lưu quốc tế.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    {
+     "w": "国際交流[こくさいこうりゅう]",
+     "vi": "giao lưu quốc tế"
+    }
+   ]
+  },
+  {
+   "id": "v:戦争:せんそう",
+   "kana": "せんそう",
+   "kanji": "戦争",
+   "hv": "CHIẾN TRANH",
+   "vi": "chiến tranh",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "祖父[そふ]は戦争[せんそう]のことをよく話[はな]しました。",
+     "vi": "Ông tôi hay kể chuyện chiến tranh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "戦争[せんそう]のない世界[せかい]にしたいです。",
+     "vi": "Tôi muốn một thế giới không chiến tranh.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "平和[へいわ]",
+     "vi": "hòa bình"
+    }
+   ]
+  },
+  {
+   "id": "v:教育:きょういく",
+   "kana": "きょういく",
+   "kanji": "教育",
+   "hv": "GIÁO DỤC",
+   "vi": "giáo dục",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子供[こども]の教育[きょういく]にお金[かね]がかかります。",
+     "vi": "Giáo dục con tốn tiền.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]教育[きょういく]も、班[はん]長[ちょう]の仕事[しごと]です。",
+     "vi": "Đào tạo người mới cũng là việc của tổ trưởng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "新人[しんじん]を教育[きょういく]する",
+     "vi": "đào tạo người mới"
+    }
+   ]
+  },
+  {
+   "id": "v:文化:ぶんか",
+   "kana": "ぶんか",
+   "kanji": "文化",
+   "hv": "VĂN HÓA",
+   "vi": "văn hóa",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]の文化[ぶんか]をもっと知[し]りたいです。",
+     "vi": "Tôi muốn biết thêm về văn hóa Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]で、ベトナムの文化[ぶんか]を紹介[しょうかい]しました。",
+     "vi": "Tôi giới thiệu văn hóa Việt Nam ở công ty.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:歴史:れきし",
+   "kana": "れきし",
+   "kanji": "歴史",
+   "hv": "LỊCH SỬ",
+   "vi": "lịch sử",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "京都[きょうと]は歴史[れきし]のある町[まち]です。",
+     "vi": "Kyoto là thành phố có bề dày lịch sử.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この会社[かいしゃ]は五十[ごじゅう]年[ねん]の歴史[れきし]があります。",
+     "vi": "Công ty này có lịch sử 50 năm.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:世界:せかい",
+   "kana": "せかい",
+   "kanji": "世界",
+   "hv": "THẾ GIỚI",
+   "vi": "thế giới",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "世界[せかい]で一番[いちばん]高[たか]い山[やま]はどこですか。",
+     "vi": "Núi cao nhất thế giới ở đâu?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "うちの工場[こうじょう]の魚[さかな]は、世界中[せかいじゅう]に送[おく]られています。",
+     "vi": "Cá nhà máy tôi được gửi đi khắp thế giới.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "世界中[せかいじゅう]",
+     "vi": "khắp thế giới"
+    }
+   ]
+  },
+  {
+   "id": "v:人口:じんこう",
+   "kana": "じんこう",
+   "kanji": "人口",
+   "hv": "NHÂN KHẨU",
+   "vi": "dân số",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]の人口[じんこう]は減[へ]っています。",
+     "vi": "Dân số Nhật đang giảm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この町[まち]の人口[じんこう]は、三万[さんまん]人[にん]ぐらいです。",
+     "vi": "Dân số thị trấn này khoảng 3 vạn.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:交通:こうつう",
+   "kana": "こうつう",
+   "kanji": "交通",
+   "hv": "GIAO THÔNG",
+   "vi": "giao thông",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この町[まち]は交通[こうつう]が便利[べんり]です。",
+     "vi": "Thị trấn này giao thông thuận tiện.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "交通事故[こうつうじこ]に気[き]をつけてください。",
+     "vi": "Hãy cẩn thận tai nạn giao thông.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "交通費[こうつうひ]は、会社[かいしゃ]が払[はら]ってくれます。",
+     "vi": "Công ty trả tiền đi lại.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "交通費[こうつうひ]",
+     "vi": "tiền đi lại"
+    }
+   ]
+  },
+  {
+   "id": "v:西洋:せいよう",
+   "kana": "せいよう",
+   "kanji": "西洋",
+   "hv": "TÂY DƯƠNG",
+   "vi": "phương Tây",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "西洋[せいよう]の料理[りょうり]より、和食[わしょく]が好[す]きです。",
+     "vi": "Tôi thích món Nhật hơn món Tây.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この建物[たてもの]は、西洋[せいよう]のスタイルです。",
+     "vi": "Tòa nhà này theo phong cách phương Tây.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "東洋[とうよう]",
+     "vi": "phương Đông"
+    }
+   ]
+  },
+  {
+   "id": "v:アジア:アジア",
+   "kana": "アジア",
+   "kanji": "",
+   "hv": "",
+   "vi": "châu Á",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thế giới",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ベトナムも日本[にほん]もアジアの国[くに]です。",
+     "vi": "Việt Nam và Nhật đều là nước châu Á.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "アジアから来[き]た人[ひと]が、この工場[こうじょう]で働[はたら]いています。",
+     "vi": "Người đến từ châu Á làm ở nhà máy này.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "Asia (tiếng Anh)"
+  },
+  {
+   "id": "v:アフリカ:アフリカ",
+   "kana": "アフリカ",
+   "kanji": "",
+   "hv": "",
+   "vi": "châu Phi",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thế giới",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "アフリカに行[い]ったことがありますか。",
+     "vi": "Bạn từng đến châu Phi chưa?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "アフリカの国[くに]からも、技能実習生[ぎのうじっしゅうせい]が来[き]ています。",
+     "vi": "Có cả thực tập sinh đến từ châu Phi.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "Africa (tiếng Anh)"
+  },
+  {
+   "id": "v:アメリカ:アメリカ",
+   "kana": "アメリカ",
+   "kanji": "",
+   "hv": "",
+   "vi": "nước Mỹ",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thế giới",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "アメリカに住[す]んでいる親戚[しんせき]がいます。",
+     "vi": "Tôi có họ hàng sống ở Mỹ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "このカニはアメリカから来[き]ました。",
+     "vi": "Cua này đến từ Mỹ.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "America (tiếng Anh)"
+  },
+  {
+   "id": "v:市:し",
+   "kana": "し",
+   "kanji": "市",
+   "hv": "THỊ",
+   "vi": "thành phố (đơn vị hành chính)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hành chính",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "神戸市[こうべし]に住[す]んでいます。",
+     "vi": "Tôi sống ở thành phố Kobe.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "市[し]のホームページで、ゴミの出[だ]し方[かた]を調[しら]べました。",
+     "vi": "Tôi tra cách đổ rác trên trang web thành phố.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    {
+     "w": "市役所[しやくしょ]",
+     "vi": "tòa thị chính"
+    }
+   ]
+  },
+  {
+   "id": "v:都:と",
+   "kana": "と",
+   "kanji": "都",
+   "hv": "ĐÔ",
+   "vi": "thủ đô Tokyo (đơn vị hành chính)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hành chính",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "東京都[とうきょうと]の人口[じんこう]は、約[やく]千四百万[せんよんひゃくまん]人[にん]です。",
+     "vi": "Dân số Tokyo khoảng 14 triệu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "都[と]の窓口[まどぐち]で、相談[そうだん]しました。",
+     "vi": "Tôi tư vấn ở quầy của chính quyền Tokyo.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Đơn vị hành chính: 都[と] (Tokyo), 道[どう] (Hokkaido), 府[ふ] (Osaka, Kyoto), 県[けん] (các tỉnh khác)."
+  },
+  {
+   "id": "v:区:く",
+   "kana": "く",
+   "kanji": "区",
+   "hv": "KHU",
+   "vi": "quận",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hành chính",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大阪市北区[おおさかしきたく]で働[はたら]いています。",
+     "vi": "Tôi làm ở quận Kita, Osaka.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "区役所[くやくしょ]で住民票[じゅうみんひょう]をもらいました。",
+     "vi": "Tôi lấy phiếu cư trú ở văn phòng quận.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    {
+     "w": "区役所[くやくしょ]",
+     "vi": "văn phòng quận"
+    }
+   ]
+  },
+  {
+   "id": "v:製:せい",
+   "kana": "せい",
+   "kanji": "製",
+   "hv": "CHẾ",
+   "vi": "sản xuất tại ~, làm bằng ~ (hậu tố)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hậu tố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このかばんは日本製[にほんせい]です。",
+     "vi": "Túi này hàng Nhật sản xuất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "プラスチック製[せい]のトレーを使[つか]います。",
+     "vi": "Dùng khay bằng nhựa.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "日本製[にほんせい] (hàng Nhật), ベトナム製[せい], 木製[もくせい] (bằng gỗ)."
+  },
+  {
+   "id": "v:放送:ほうそう",
+   "kana": "ほうそう",
+   "kanji": "放送",
+   "hv": "PHÓNG TỐNG",
+   "vi": "phát sóng, phát thanh (loa)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地震[じしん]のニュースが放送[ほうそう]されています。",
+     "vi": "Tin động đất đang được phát sóng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]の放送[ほうそう]をよく聞[き]いてください。",
+     "vi": "Hãy nghe kỹ thông báo loa nhà máy.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ニュースを放送[ほうそう]する",
+     "vi": "phát tin tức"
+    }
+   ],
+   "rel": [
+    "v:番組:ばんぐみ"
+   ]
+  },
+  {
+   "id": "v:番組:ばんぐみ",
+   "kana": "ばんぐみ",
+   "kanji": "番組",
+   "hv": "PHIÊN TỔ",
+   "vi": "chương trình (TV, radio)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本語[にほんご]を勉強[べんきょう]する番組[ばんぐみ]を見[み]ています。",
+     "vi": "Tôi xem chương trình học tiếng Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：好[す]きな番組[ばんぐみ]ある？B：料理[りょうり]の番組[ばんぐみ]が好[す]き。",
+     "vi": "A: Có chương trình nào thích không? B: Thích chương trình nấu ăn.",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:新聞社:しんぶんしゃ",
+   "kana": "しんぶんしゃ",
+   "kanji": "新聞社",
+   "hv": "TÂN VĂN XÃ",
+   "vi": "tòa soạn báo",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "友達[ともだち]は新聞社[しんぶんしゃ]で働[はたら]いています。",
+     "vi": "Bạn tôi làm ở tòa soạn báo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新聞社[しんぶんしゃ]の人[ひと]が、工場[こうじょう]の取材[しゅざい]に来[き]ました。",
+     "vi": "Người của tòa báo đến phỏng vấn nhà máy.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:警察:けいさつ",
+   "kana": "けいさつ",
+   "kanji": "警察",
+   "hv": "CẢNH SÁT",
+   "vi": "cảnh sát (cơ quan, sở cảnh sát)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "財布[さいふ]をなくしたので、警察[けいさつ]に行[い]きました。",
+     "vi": "Mất ví nên tôi đến cảnh sát.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "事故[じこ]の時[とき]は、すぐ警察[けいさつ]に電話[でんわ]してください。",
+     "vi": "Khi tai nạn hãy gọi cảnh sát ngay.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "警察官[けいさつかん]",
+     "vi": "cảnh sát viên"
+    }
+   ],
+   "note": "Số điện thoại cảnh sát: 110."
+  }
+ ]
+}

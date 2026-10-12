@@ -1,0 +1,263 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "cau-xuong-02",
+  "title": "Câu thực chiến 03 – Báo cáo, xin nghỉ, hỏi việc (N4)",
+  "type": "phrase",
+  "level": "N4",
+  "topics": [
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Câu noi: Cậu Cả cần nói được. Câu nghe: cần nghe hiểu (khẩu ngữ, Kansai) kèm tiếng chuẩn."
+ },
+ "items": [
+  {
+   "id": "p:xuong2-xin-nghi-dt",
+   "jp": "もしもし、二[に]班[はん]のグエンです。熱[ねつ]があるので、今日[きょう]は休[やす]ませていただけませんか。",
+   "vi": "Alô, tôi là Nguyễn tổ 2. Tôi bị sốt, hôm nay xin cho tôi nghỉ được không ạ?",
+   "role": "noi",
+   "situation": "Gọi điện xin nghỉ buổi sáng",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ],
+   "note": "Gọi trước giờ vào ca. Nói tên + tổ + lý do + xin phép."
+  },
+  {
+   "id": "p:xuong2-den-muon",
+   "jp": "電車[でんしゃ]が止[と]まっているので、三十[さんじゅっ]分[ぷん]ぐらい遅[おく]れそうです。",
+   "vi": "Tàu đang dừng nên chắc tôi đến muộn khoảng 30 phút.",
+   "role": "noi",
+   "situation": "Gọi điện báo đến muộn",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ],
+   "note": "Xin giấy chứng nhận tàu trễ (遅延証明書[ちえんしょうめいしょ]) ở ga nếu công ty yêu cầu."
+  },
+  {
+   "id": "p:xuong2-ve-som",
+   "jp": "子供[こども]が熱[ねつ]を出[だ]したので、早退[そうたい]させていただけませんか。",
+   "vi": "Con tôi bị sốt, xin cho tôi về sớm được không ạ?",
+   "role": "noi",
+   "situation": "Xin về sớm",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ]
+  },
+  {
+   "id": "p:xuong2-bao-xong",
+   "jp": "三[さん]番[ばん]ラインの箱詰[はこづ]め、終[お]わりました。次[つぎ]は何[なに]をすればいいですか。",
+   "vi": "Đóng thùng ở dây chuyền số 3 xong rồi. Tiếp theo tôi làm gì ạ?",
+   "role": "noi",
+   "situation": "Báo xong việc",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ]
+  },
+  {
+   "id": "p:xuong2-bao-loi",
+   "jp": "すみません、ラベルを貼[は]り間違[まちが]えてしまいました。",
+   "vi": "Xin lỗi, tôi lỡ dán nhầm nhãn.",
+   "role": "noi",
+   "situation": "Báo lỗi ngay",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ],
+   "note": "Báo lỗi sớm luôn tốt hơn giấu."
+  },
+  {
+   "id": "p:xuong2-bao-may",
+   "jp": "機械[きかい]から変[へん]な音[おと]がしています。見[み]ていただけませんか。",
+   "vi": "Máy đang phát tiếng lạ. Anh xem giúp được không ạ?",
+   "role": "noi",
+   "situation": "Báo máy bất thường",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ]
+  },
+  {
+   "id": "p:xuong2-bao-thieu",
+   "jp": "手袋[てぶくろ]が足[た]りなくなりそうです。",
+   "vi": "Găng tay sắp không đủ rồi ạ.",
+   "role": "noi",
+   "situation": "Báo thiếu vật tư",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ]
+  },
+  {
+   "id": "p:xuong2-bao-bithuong",
+   "jp": "指[ゆび]を少[すこ]し切[き]ってしまいました。救急箱[きゅうきゅうばこ]を使[つか]ってもいいですか。",
+   "vi": "Tôi lỡ bị đứt tay nhẹ. Tôi dùng hộp sơ cứu được không ạ?",
+   "role": "noi",
+   "situation": "Báo bị thương",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ],
+   "note": "Bị thương ở chỗ làm luôn báo — liên quan bảo hiểm tai nạn lao động."
+  },
+  {
+   "id": "p:xuong2-hoi-cachlam",
+   "jp": "この作業[さぎょう]は、どうやってやればいいですか。",
+   "vi": "Việc này làm thế nào ạ?",
+   "role": "noi",
+   "situation": "Hỏi cách làm",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ]
+  },
+  {
+   "id": "p:xuong2-xac-nhan",
+   "jp": "確認[かくにん]ですが、この箱[はこ]は冷凍庫[れいとうこ]に入[い]れるんですね。",
+   "vi": "Cho tôi xác nhận lại, thùng này cho vào kho đông đúng không ạ?",
+   "role": "noi",
+   "situation": "Xác nhận lại chỉ thị",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ],
+   "note": "Mẫu xác nhận: 確認[かくにん]ですが、〜ですね。"
+  },
+  {
+   "id": "p:xuong2-nghi-phep",
+   "jp": "来月[らいげつ]、国[くに]に帰[かえ]りたいので、有給[ゆうきゅう]を取[と]ってもいいですか。",
+   "vi": "Tháng sau tôi muốn về nước, tôi xin nghỉ phép có lương được không ạ?",
+   "role": "noi",
+   "situation": "Xin nghỉ phép năm",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ],
+   "note": "Xin sớm (thường trước 1 tháng)."
+  },
+  {
+   "id": "p:xuong2-nghe-kyuukei",
+   "jp": "十分[じゅっぷん]休憩[きゅうけい]しよか。",
+   "vi": "Nghỉ 10 phút nhé.",
+   "role": "nghe",
+   "situation": "Tổ trưởng nói (Kansai)",
+   "level": "N4",
+   "topics": [
+    "xuong",
+    "kansai"
+   ],
+   "std": "十分[じゅっぷん]休憩[きゅうけい]しましょう。",
+   "note": "Kansai: 〜しよか = 〜しようか."
+  },
+  {
+   "id": "p:xuong2-nghe-isoide",
+   "jp": "急[いそ]いでや！トラック来[く]るで！",
+   "vi": "Nhanh lên! Xe tải đến rồi đấy!",
+   "role": "nghe",
+   "situation": "Tổ trưởng giục (Kansai)",
+   "level": "N4",
+   "topics": [
+    "xuong",
+    "kansai"
+   ],
+   "std": "急[いそ]いでください。トラックが来[き]ますよ。",
+   "note": "〜や = 〜てね/〜なさい; 〜で = 〜よ."
+  },
+  {
+   "id": "p:xuong2-nghe-mou-eeyo",
+   "jp": "もう上[あ]がってええよ。",
+   "vi": "Về được rồi đấy.",
+   "role": "nghe",
+   "situation": "Cuối ca (Kansai)",
+   "level": "N4",
+   "topics": [
+    "xuong",
+    "kansai"
+   ],
+   "std": "もう帰[かえ]ってもいいですよ。",
+   "note": "上[あ]がる ở chỗ làm = tan ca, về."
+  },
+  {
+   "id": "p:xuong2-nghe-akan",
+   "jp": "それ、まだ使[つか]ったらあかん。",
+   "vi": "Cái đó chưa được dùng đâu.",
+   "role": "nghe",
+   "situation": "Cấm dùng (Kansai)",
+   "level": "N4",
+   "topics": [
+    "xuong",
+    "kansai"
+   ],
+   "std": "それはまだ使[つか]ってはいけません。"
+  },
+  {
+   "id": "p:xuong2-nghe-wakatta-ka",
+   "jp": "言[い]うたこと、分[わ]かったか？",
+   "vi": "Hiểu lời tôi nói chưa?",
+   "role": "nghe",
+   "situation": "Tổ trưởng hỏi lại (Kansai)",
+   "level": "N4",
+   "topics": [
+    "xuong",
+    "kansai"
+   ],
+   "std": "私[わたし]が言[い]ったことが分[わ]かりましたか。",
+   "note": "Hiểu chưa thì trả lời rõ: はい、分[わ]かりました / すみません、もう一度[いちど]お願[ねが]いします."
+  },
+  {
+   "id": "p:xuong2-nghe-shimattoite",
+   "jp": "使[つか]い終[お]わったら、しまっといて。",
+   "vi": "Dùng xong thì cất đi nhé.",
+   "role": "nghe",
+   "situation": "Chỉ thị dọn dẹp",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ],
+   "std": "使[つか]い終[お]わったら、片付[かたづ]けておいてください。",
+   "note": "しまう = cất; 〜とく = 〜ておく."
+  },
+  {
+   "id": "p:xuong2-nghe-kiotsukete",
+   "jp": "床[ゆか]、滑[すべ]るから気[き]ぃつけや。",
+   "vi": "Sàn trơn đấy, cẩn thận nhé.",
+   "role": "nghe",
+   "situation": "Nhắc an toàn (Kansai)",
+   "level": "N4",
+   "topics": [
+    "xuong",
+    "kansai"
+   ],
+   "std": "床[ゆか]が滑[すべ]るので、気[き]をつけてください。",
+   "note": "気[き]ぃつけや = 気[き]をつけてね."
+  },
+  {
+   "id": "p:xuong2-tra-loi-loi-khen",
+   "jp": "ありがとうございます。これからも頑張[がんば]ります。",
+   "vi": "Cảm ơn anh ạ. Từ nay tôi sẽ cố gắng hơn.",
+   "role": "noi",
+   "situation": "Đáp lại khi được khen",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ]
+  },
+  {
+   "id": "p:xuong2-cam-on-giup",
+   "jp": "手伝[てつだ]っていただいて、ありがとうございました。",
+   "vi": "Cảm ơn anh đã giúp tôi ạ.",
+   "role": "noi",
+   "situation": "Cảm ơn đồng nghiệp lớn tuổi",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ]
+  }
+ ]
+}

@@ -1,385 +1,400 @@
 {
- "schema": 1,
- "pack": {
-  "id": "kansai-01",
-  "title": "Kansai-ben 01 – Nghe hiểu trong xưởng (Hyogo)",
-  "type": "vocab",
-  "level": "N4",
-  "topics": [
-   "kansai"
-  ],
-  "version": 2,
-  "created": "2026-10-08",
-  "verified_on": "",
-  "note": "Gói mẫu. Kansai-ben không có trong JLPT — cấp ghi theo thời điểm nên học. Mục tiêu là NGHE hiểu; khi nói vẫn dùng tiếng chuẩn lịch sự."
- },
- "items": [
-  {
-   "id": "v:あかん:あかん",
-   "kana": "あかん",
-   "kanji": "",
-   "hv": "",
-   "vi": "không được; hỏng rồi",
-   "pos": "expr",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "だめ",
-   "ex": [
-    {
-     "jp": "そこ、触[さわ]ったらあかん！",
-     "vi": "Chỗ đó, không được chạm vào!"
-    }
-   ]
+  "schema": 1,
+  "pack": {
+    "id": "kansai-01",
+    "title": "Kansai-ben 01 – Nghe hiểu trong xưởng (Hyogo)",
+    "type": "vocab",
+    "level": "N4",
+    "topics": [
+      "kansai"
+    ],
+    "version": 3,
+    "created": "2026-10-08",
+    "verified_on": "",
+    "note": "Gói mẫu. Kansai-ben không có trong JLPT — cấp ghi theo thời điểm nên học. Mục tiêu là NGHE hiểu; khi nói vẫn dùng tiếng chuẩn lịch sự."
   },
-  {
-   "id": "v:ほかす:ほかす",
-   "kana": "ほかす",
-   "kanji": "",
-   "hv": "",
-   "vi": "vứt đi",
-   "pos": "v5",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "捨[す]てる",
-   "ex": [
+  "items": [
     {
-     "jp": "これ、ほかしといて。",
-     "vi": "Vứt cái này đi giùm."
-    }
-   ],
-   "note": "ほかしといて = 捨[す]てておいて."
-  },
-  {
-   "id": "v:なおす:なおす",
-   "kana": "なおす",
-   "kanji": "",
-   "hv": "",
-   "vi": "cất đi (để về chỗ cũ)",
-   "pos": "v5",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "片付[かたづ]ける",
-   "ex": [
+      "id": "v:あかん:あかん",
+      "kana": "あかん",
+      "kanji": "",
+      "hv": "",
+      "vi": "không được; hỏng rồi",
+      "pos": "expr",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "だめ",
+      "ex": [
+        {
+          "jp": "そこ、触[さわ]ったらあかん！",
+          "vi": "Chỗ đó, không được chạm vào!"
+        }
+      ]
+    },
     {
-     "jp": "包丁[ほうちょう]、なおしといてな。",
-     "vi": "Cất dao đi nhé."
-    }
-   ],
-   "note": "BẪY: ở Kansai なおす = cất. Tiếng chuẩn 直[なお]す = sửa. Nghe なおしといて là đem cất, không phải đi sửa."
-  },
-  {
-   "id": "v:ほんま:ほんま",
-   "kana": "ほんま",
-   "kanji": "",
-   "hv": "",
-   "vi": "thật (thật sự)",
-   "pos": "adj-na",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "本当[ほんとう]",
-   "ex": [
+      "id": "v:ほかす:ほかす",
+      "kana": "ほかす",
+      "kanji": "",
+      "hv": "",
+      "vi": "vứt đi",
+      "pos": "v5",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "捨[す]てる",
+      "ex": [
+        {
+          "jp": "これ、ほかしといて。",
+          "vi": "Vứt cái này đi giùm."
+        }
+      ],
+      "note": "ほかしといて = 捨[す]てておいて."
+    },
     {
-     "jp": "ほんまにありがとう。",
-     "vi": "Thật sự cảm ơn."
-    }
-   ]
-  },
-  {
-   "id": "v:めっちゃ:めっちゃ",
-   "kana": "めっちゃ",
-   "kanji": "",
-   "hv": "",
-   "vi": "rất, cực kỳ",
-   "pos": "adv",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "とても",
-   "ex": [
+      "id": "v:なおす:なおす",
+      "kana": "なおす",
+      "kanji": "",
+      "hv": "",
+      "vi": "cất đi (để về chỗ cũ)",
+      "pos": "v5",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "片付[かたづ]ける",
+      "ex": [
+        {
+          "jp": "包丁[ほうちょう]、なおしといてな。",
+          "vi": "Cất dao đi nhé."
+        }
+      ],
+      "note": "BẪY: ở Kansai なおす = cất. Tiếng chuẩn 直[なお]す = sửa. Nghe なおしといて là đem cất, không phải đi sửa."
+    },
     {
-     "jp": "今日[きょう]はめっちゃ忙[いそが]しい。",
-     "vi": "Hôm nay bận ghê."
-    }
-   ]
-  },
-  {
-   "id": "v:ちゃう:ちゃう",
-   "kana": "ちゃう",
-   "kanji": "",
-   "hv": "",
-   "vi": "không phải; sai rồi",
-   "pos": "expr",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "違[ちが]う",
-   "ex": [
+      "id": "v:ほんま:ほんま",
+      "kana": "ほんま",
+      "kanji": "",
+      "hv": "",
+      "vi": "thật (thật sự)",
+      "pos": "adj-na",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "本当[ほんとう]",
+      "ex": [
+        {
+          "jp": "ほんまにありがとう。",
+          "vi": "Thật sự cảm ơn."
+        }
+      ]
+    },
     {
-     "jp": "それちゃう、こっちや。",
-     "vi": "Không phải cái đó, cái này."
-    }
-   ]
-  },
-  {
-   "id": "v:〜へん:〜へん",
-   "kana": "〜へん",
-   "kanji": "",
-   "hv": "",
-   "vi": "(đuôi phủ định) không …",
-   "pos": "expr",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "〜ない",
-   "ex": [
+      "id": "v:めっちゃ:めっちゃ",
+      "kana": "めっちゃ",
+      "kanji": "",
+      "hv": "",
+      "vi": "rất, cực kỳ (Kansai)",
+      "pos": "adv",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "とても",
+      "ex": [
+        {
+          "jp": "今日[きょう]はめっちゃ忙[いそが]しい。",
+          "vi": "Hôm nay bận ghê."
+        }
+      ],
+      "syn": [
+        "v:とても:とても"
+      ]
+    },
     {
-     "jp": "今日[きょう]は残業[ざんぎょう]せえへん。",
-     "vi": "Hôm nay không tăng ca."
-    }
-   ],
-   "note": "行[い]かへん = 行[い]かない, せえへん = しない, わからへん = わからない."
-  },
-  {
-   "id": "v:〜や:〜や",
-   "kana": "〜や",
-   "kanji": "",
-   "hv": "",
-   "vi": "(đuôi câu) là",
-   "pos": "expr",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "〜だ",
-   "ex": [
+      "id": "v:ちゃう:ちゃう",
+      "kana": "ちゃう",
+      "kanji": "",
+      "hv": "",
+      "vi": "không phải; sai rồi",
+      "pos": "expr",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "違[ちが]う",
+      "ex": [
+        {
+          "jp": "それちゃう、こっちや。",
+          "vi": "Không phải cái đó, cái này."
+        }
+      ]
+    },
     {
-     "jp": "これは生食用[せいしょくよう]や。",
-     "vi": "Cái này là hàng ăn sống."
-    }
-   ]
-  },
-  {
-   "id": "v:〜ねん:〜ねん",
-   "kana": "〜ねん",
-   "kanji": "",
-   "hv": "",
-   "vi": "(đuôi câu giải thích, nhấn mạnh) … đấy",
-   "pos": "expr",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "〜んです",
-   "ex": [
+      "id": "v:〜へん:〜へん",
+      "kana": "〜へん",
+      "kanji": "",
+      "hv": "",
+      "vi": "(đuôi phủ định) không …",
+      "pos": "expr",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "〜ない",
+      "ex": [
+        {
+          "jp": "今日[きょう]は残業[ざんぎょう]せえへん。",
+          "vi": "Hôm nay không tăng ca."
+        }
+      ],
+      "note": "行[い]かへん = 行[い]かない, せえへん = しない, わからへん = わからない."
+    },
     {
-     "jp": "今日[きょう]、熱[ねつ]があるねん。",
-     "vi": "Hôm nay tôi bị sốt đấy."
-    }
-   ]
-  },
-  {
-   "id": "v:はよ:はよ",
-   "kana": "はよ",
-   "kanji": "",
-   "hv": "",
-   "vi": "nhanh lên",
-   "pos": "adv",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "早[はや]く",
-   "ex": [
+      "id": "v:〜や:〜や",
+      "kana": "〜や",
+      "kanji": "",
+      "hv": "",
+      "vi": "(đuôi câu) là",
+      "pos": "expr",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "〜だ",
+      "ex": [
+        {
+          "jp": "これは生食用[せいしょくよう]や。",
+          "vi": "Cái này là hàng ăn sống."
+        }
+      ]
+    },
     {
-     "jp": "はよして！",
-     "vi": "Nhanh lên!"
-    }
-   ]
-  },
-  {
-   "id": "v:ええ:ええ",
-   "kana": "ええ",
-   "kanji": "",
-   "hv": "",
-   "vi": "được, tốt",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "いい",
-   "ex": [
+      "id": "v:〜ねん:〜ねん",
+      "kana": "〜ねん",
+      "kanji": "",
+      "hv": "",
+      "vi": "(đuôi câu giải thích, nhấn mạnh) … đấy",
+      "pos": "expr",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "〜んです",
+      "ex": [
+        {
+          "jp": "今日[きょう]、熱[ねつ]があるねん。",
+          "vi": "Hôm nay tôi bị sốt đấy."
+        }
+      ]
+    },
     {
-     "jp": "それでええよ。",
-     "vi": "Như thế là được rồi."
-    }
-   ],
-   "note": "Khác với ええ (vâng) trong tiếng chuẩn."
-  },
-  {
-   "id": "v:かまへん:かまへん",
-   "kana": "かまへん",
-   "kanji": "",
-   "hv": "",
-   "vi": "không sao, không vấn đề",
-   "pos": "expr",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "かまわない",
-   "ex": [
+      "id": "v:はよ:はよ",
+      "kana": "はよ",
+      "kanji": "",
+      "hv": "",
+      "vi": "nhanh lên",
+      "pos": "adv",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "早[はや]く",
+      "ex": [
+        {
+          "jp": "はよして！",
+          "vi": "Nhanh lên!"
+        }
+      ]
+    },
     {
-     "jp": "ちょっとぐらい遅[おく]れてもかまへん。",
-     "vi": "Trễ một chút cũng không sao."
-    }
-   ]
-  },
-  {
-   "id": "v:おおきに:おおきに",
-   "kana": "おおきに",
-   "kanji": "",
-   "hv": "",
-   "vi": "cảm ơn",
-   "pos": "expr",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "ありがとう",
-   "ex": [
+      "id": "v:ええ:ええ",
+      "kana": "ええ",
+      "kanji": "",
+      "hv": "",
+      "vi": "tốt, được (Kansai)",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "いい",
+      "ex": [
+        {
+          "jp": "それでええよ。",
+          "vi": "Như thế là được rồi."
+        }
+      ],
+      "note": "Khác với ええ (vâng) trong tiếng chuẩn.",
+      "syn": [
+        "v:いい:いい"
+      ]
+    },
     {
-     "jp": "手伝[てつだ]ってくれて、おおきに。",
-     "vi": "Cảm ơn đã giúp."
-    }
-   ],
-   "note": "Người lớn tuổi hay dùng."
-  },
-  {
-   "id": "v:なんぼ:なんぼ",
-   "kana": "なんぼ",
-   "kanji": "",
-   "hv": "",
-   "vi": "bao nhiêu",
-   "pos": "other",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "いくら",
-   "ex": [
+      "id": "v:かまへん:かまへん",
+      "kana": "かまへん",
+      "kanji": "",
+      "hv": "",
+      "vi": "không sao, không vấn đề (Kansai)",
+      "pos": "expr",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "かまわない",
+      "ex": [
+        {
+          "jp": "ちょっとぐらい遅[おく]れてもかまへん。",
+          "vi": "Trễ một chút cũng không sao."
+        }
+      ],
+      "syn": [
+        "v:大丈夫:だいじょうぶ"
+      ]
+    },
     {
-     "jp": "これ、なんぼ？",
-     "vi": "Cái này bao nhiêu?"
-    }
-   ]
-  },
-  {
-   "id": "v:いける:いける",
-   "kana": "いける",
-   "kanji": "",
-   "hv": "",
-   "vi": "ổn; làm được",
-   "pos": "v1",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "大丈夫[だいじょうぶ]",
-   "ex": [
+      "id": "v:おおきに:おおきに",
+      "kana": "おおきに",
+      "kanji": "",
+      "hv": "",
+      "vi": "cảm ơn (Kansai)",
+      "pos": "expr",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "ありがとう",
+      "ex": [
+        {
+          "jp": "手伝[てつだ]ってくれて、おおきに。",
+          "vi": "Cảm ơn đã giúp."
+        }
+      ],
+      "note": "Người lớn tuổi hay dùng.",
+      "syn": [
+        "v:ありがとうございます:ありがとうございます"
+      ]
+    },
     {
-     "jp": "一人[ひとり]でいける？",
-     "vi": "Một mình làm được không?"
-    }
-   ]
-  },
-  {
-   "id": "v:せなあかん:せなあかん",
-   "kana": "せなあかん",
-   "kanji": "",
-   "hv": "",
-   "vi": "phải làm",
-   "pos": "expr",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "しなければならない",
-   "ex": [
+      "id": "v:なんぼ:なんぼ",
+      "kana": "なんぼ",
+      "kanji": "",
+      "hv": "",
+      "vi": "bao nhiêu",
+      "pos": "other",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "いくら",
+      "ex": [
+        {
+          "jp": "これ、なんぼ？",
+          "vi": "Cái này bao nhiêu?"
+        }
+      ]
+    },
     {
-     "jp": "今日中[きょうじゅう]にせなあかん。",
-     "vi": "Phải làm xong trong hôm nay."
-    }
-   ]
-  },
-  {
-   "id": "v:しゃあない:しゃあない",
-   "kana": "しゃあない",
-   "kanji": "",
-   "hv": "",
-   "vi": "đành vậy, không còn cách",
-   "pos": "expr",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "しかたない",
-   "ex": [
+      "id": "v:いける:いける",
+      "kana": "いける",
+      "kanji": "",
+      "hv": "",
+      "vi": "ổn, làm được (Kansai)",
+      "pos": "v1",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "大丈夫[だいじょうぶ]",
+      "ex": [
+        {
+          "jp": "一人[ひとり]でいける？",
+          "vi": "Một mình làm được không?"
+        }
+      ],
+      "syn": [
+        "v:大丈夫:だいじょうぶ"
+      ]
+    },
     {
-     "jp": "雨[あめ]やし、しゃあないな。",
-     "vi": "Mưa rồi, đành chịu thôi."
-    }
-   ]
-  },
-  {
-   "id": "v:〜とる:〜とる",
-   "kana": "〜とる",
-   "kanji": "",
-   "hv": "",
-   "vi": "(đuôi tiếp diễn) đang …",
-   "pos": "expr",
-   "level": "N4",
-   "topics": [
-    "kansai"
-   ],
-   "reg": "kansai",
-   "std": "〜ている",
-   "ex": [
+      "id": "v:せなあかん:せなあかん",
+      "kana": "せなあかん",
+      "kanji": "",
+      "hv": "",
+      "vi": "phải làm",
+      "pos": "expr",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "しなければならない",
+      "ex": [
+        {
+          "jp": "今日中[きょうじゅう]にせなあかん。",
+          "vi": "Phải làm xong trong hôm nay."
+        }
+      ]
+    },
     {
-     "jp": "何[なに]しとるん？",
-     "vi": "Đang làm gì đấy?"
+      "id": "v:しゃあない:しゃあない",
+      "kana": "しゃあない",
+      "kanji": "",
+      "hv": "",
+      "vi": "đành vậy, không còn cách",
+      "pos": "expr",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "しかたない",
+      "ex": [
+        {
+          "jp": "雨[あめ]やし、しゃあないな。",
+          "vi": "Mưa rồi, đành chịu thôi."
+        }
+      ]
+    },
+    {
+      "id": "v:〜とる:〜とる",
+      "kana": "〜とる",
+      "kanji": "",
+      "hv": "",
+      "vi": "(đuôi tiếp diễn) đang …",
+      "pos": "expr",
+      "level": "N4",
+      "topics": [
+        "kansai"
+      ],
+      "reg": "kansai",
+      "std": "〜ている",
+      "ex": [
+        {
+          "jp": "何[なに]しとるん？",
+          "vi": "Đang làm gì đấy?"
+        }
+      ],
+      "note": "Vùng Harima (Himeji, Kakogawa) hay nói 〜とる; vùng Kobe hay nói 〜とう (何[なに]しとう？). Cần kiểm theo nơi Cậu Cả làm.",
+      "flag": true
     }
-   ],
-   "note": "Vùng Harima (Himeji, Kakogawa) hay nói 〜とる; vùng Kobe hay nói 〜とう (何[なに]しとう？). Cần kiểm theo nơi Cậu Cả làm.",
-   "flag": true
-  }
- ]
+  ]
 }

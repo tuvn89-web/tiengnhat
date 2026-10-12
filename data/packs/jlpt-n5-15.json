@@ -9,7 +9,7 @@
       "jlpt",
       "doisong"
     ],
-    "version": 2,
+    "version": 3,
     "created": "2026-10-11",
     "verified_on": "",
     "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -181,7 +181,7 @@
       "kana": "ありがとうございます",
       "kanji": "",
       "hv": "",
-      "vi": "cảm ơn",
+      "vi": "cảm ơn (lịch sự)",
       "pos": "expr",
       "level": "N5",
       "topics": [
@@ -209,6 +209,9 @@
           "jp": "いいえ。",
           "vi": "Không có gì đâu."
         }
+      ],
+      "syn": [
+        "v:おおきに:おおきに"
       ]
     },
     {
@@ -216,7 +219,7 @@
       "kana": "どうも",
       "kanji": "",
       "hv": "",
-      "vi": "cảm ơn (ngắn); rất",
+      "vi": "cảm ơn (ngắn); rất (đi với すみません)",
       "pos": "expr",
       "level": "N5",
       "topics": [
@@ -243,7 +246,7 @@
       "kana": "すみません",
       "kanji": "",
       "hv": "",
-      "vi": "xin lỗi; cảm phiền",
+      "vi": "xin lỗi (lịch sự); cảm phiền, làm ơn (gọi người)",
       "pos": "expr",
       "level": "N5",
       "topics": [
@@ -446,7 +449,7 @@
       "kanji": "お願いします",
       "kf": "お願[ねが]いします",
       "hv": "NGUYỆN",
-      "vi": "làm ơn; nhờ anh/chị",
+      "vi": "làm ơn, nhờ anh/chị (khi nhờ vả, gọi món)",
       "pos": "expr",
       "level": "N5",
       "topics": [
@@ -688,7 +691,7 @@
       "kana": "はい",
       "kanji": "",
       "hv": "",
-      "vi": "vâng, có",
+      "vi": "vâng, có (đáp lời)",
       "pos": "expr",
       "level": "N5",
       "topics": [

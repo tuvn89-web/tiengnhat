@@ -1,0 +1,1271 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n4-10",
+  "title": "JLPT N4 10 – Phó từ, từ nối",
+  "type": "vocab",
+  "level": "N4",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:とうとう:とうとう",
+   "kana": "とうとう",
+   "kanji": "",
+   "hv": "",
+   "vi": "cuối cùng thì (sau thời gian dài)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "三[さん]年[ねん]かかって、とうとう家[いえ]を買[か]いました。",
+     "vi": "Mất ba năm, cuối cùng tôi đã mua được nhà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "古[ふる]い機械[きかい]が、とうとう動[うご]かなくなりました。",
+     "vi": "Máy cũ cuối cùng cũng hỏng hẳn.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:やっと:やっと"
+   ]
+  },
+  {
+   "id": "v:やっと:やっと",
+   "kana": "やっと",
+   "kanji": "",
+   "hv": "",
+   "vi": "mãi mới, cuối cùng cũng (sau vất vả)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "やっと仕事[しごと]が終[お]わりました。",
+     "vi": "Mãi mới xong việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一[いち]時間[じかん]待[ま]って、やっとバスが来[き]ました。",
+     "vi": "Chờ một tiếng, cuối cùng xe buýt cũng đến.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:とうとう:とうとう"
+   ]
+  },
+  {
+   "id": "v:やはり:やはり",
+   "kana": "やはり",
+   "kanji": "",
+   "hv": "",
+   "vi": "quả nhiên, đúng như nghĩ",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "やはり、雨[あめ]が降[ふ]ってきました。",
+     "vi": "Quả nhiên trời đổ mưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：やっぱり、この方法[ほうほう]のほうが早[はや]いね。B：そうだね。",
+     "vi": "A: Quả nhiên cách này nhanh hơn. B: Đúng vậy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Khẩu ngữ: やっぱり."
+  },
+  {
+   "id": "v:必ず:かならず",
+   "kana": "かならず",
+   "kanji": "必ず",
+   "kf": "必[かなら]ず",
+   "hv": "TẤT",
+   "vi": "nhất định, bằng mọi giá (quy tắc, quyết tâm)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎日[まいにち]、必[かなら]ず日本語[にほんご]を勉強[べんきょう]します。",
+     "vi": "Ngày nào tôi cũng nhất định học tiếng Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "作業[さぎょう]の前[まえ]に、必[かなら]ず手[て]を洗[あら]ってください。",
+     "vi": "Trước khi làm việc nhất định phải rửa tay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "期限[きげん]までに、必[かなら]ず書類[しょるい]を出[だ]してください。",
+     "vi": "Nhất định phải nộp giấy trước hạn.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:きっと:きっと"
+   ],
+   "note": "必[かなら]ず: chắc chắn làm (quy tắc, ý chí); きっと: chắc là (dự đoán)."
+  },
+  {
+   "id": "v:きっと:きっと",
+   "kana": "きっと",
+   "kanji": "",
+   "hv": "",
+   "vi": "chắc chắn là (dự đoán)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "明日[あした]はきっと晴[は]れます。",
+     "vi": "Mai chắc chắn trời nắng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：試験[しけん]、大丈夫[だいじょうぶ]かな。B：きっと合格[ごうかく]するよ。",
+     "vi": "A: Thi có ổn không nhỉ? B: Chắc chắn đỗ mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:必ず:かならず"
+   ]
+  },
+  {
+   "id": "v:もし:もし",
+   "kana": "もし",
+   "kanji": "",
+   "hv": "",
+   "vi": "nếu (như)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ nối",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "もし雨[あめ]が降[ふ]ったら、家[いえ]にいます。",
+     "vi": "Nếu trời mưa thì tôi ở nhà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "もし機械[きかい]が止[と]まったら、班[はん]長[ちょう]を呼[よ]んでください。",
+     "vi": "Nếu máy dừng thì gọi tổ trưởng.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Đi với 〜たら / 〜ば / 〜なら."
+  },
+  {
+   "id": "v:非常に:ひじょうに",
+   "kana": "ひじょうに",
+   "kanji": "非常に",
+   "kf": "非常[ひじょう]に",
+   "hv": "PHI THƯỜNG",
+   "vi": "cực kỳ, vô cùng (trang trọng)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今年[ことし]の夏[なつ]は非常[ひじょう]に暑[あつ]いです。",
+     "vi": "Hè năm nay cực kỳ nóng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この作業[さぎょう]は非常[ひじょう]に危険[きけん]です。",
+     "vi": "Việc này vô cùng nguy hiểm.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:とても:とても"
+   ]
+  },
+  {
+   "id": "v:ほとんど:ほとんど",
+   "kana": "ほとんど",
+   "kanji": "",
+   "hv": "",
+   "vi": "hầu hết, gần như",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "給料[きゅうりょう]のほとんどを国[くに]に送[おく]ります。",
+     "vi": "Tôi gửi gần hết lương về nước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ほとんどの人[ひと]が、もう帰[かえ]りました。",
+     "vi": "Hầu hết mọi người đã về.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：漢字[かんじ]、読[よ]める？B：ほとんど読[よ]めない。",
+     "vi": "A: Đọc được chữ Hán không? B: Hầu như không.",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:一生懸命:いっしょうけんめい",
+   "kana": "いっしょうけんめい",
+   "kanji": "一生懸命",
+   "hv": "NHẤT SINH HUYỀN MỆNH",
+   "vi": "hết sức, dốc hết sức",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一生懸命[いっしょうけんめい]勉強[べんきょう]して、試験[しけん]に合格[ごうかく]しました。",
+     "vi": "Học hết sức nên tôi đã đỗ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "みんな一生懸命[いっしょうけんめい]働[はたら]いています。",
+     "vi": "Mọi người đang làm việc hết sức.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:今度:こんど",
+   "kana": "こんど",
+   "kanji": "今度",
+   "hv": "KIM ĐỘ",
+   "vi": "lần này; lần tới",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今度[こんど]の日曜日[にちようび]、遊[あそ]びに行[い]きましょう。",
+     "vi": "Chủ nhật tới đi chơi nhé.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今度[こんど]のシフトは夜勤[やきん]です。",
+     "vi": "Ca lần này là ca đêm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：今度[こんど]、ご飯[はん]行[い]こう。B：いいね。",
+     "vi": "A: Lần tới đi ăn nhé. B: Hay đấy.",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:すると:すると",
+   "kana": "すると",
+   "kanji": "",
+   "hv": "",
+   "vi": "thế rồi, ngay sau đó",
+   "pos": "other",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ nối",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ボタンを押[お]しました。すると、ドアが開[あ]きました。",
+     "vi": "Tôi bấm nút. Ngay sau đó cửa mở.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "スイッチを入[い]れました。すると、変[へん]な音[おと]がしました。",
+     "vi": "Tôi bật công tắc, thế rồi có tiếng lạ.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:ちっとも:ちっとも",
+   "kana": "ちっとも",
+   "kanji": "",
+   "hv": "",
+   "vi": "chẳng chút nào (đi với phủ định)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この映画[えいが]は、ちっとも面白[おもしろ]くなかったです。",
+     "vi": "Phim này chẳng hay chút nào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：疲[つか]れた？B：ちっとも疲[つか]れてないよ。",
+     "vi": "A: Mệt không? B: Chẳng mệt tí nào.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "syn": [
+    "v:全然:ぜんぜん"
+   ],
+   "with": "phudinh"
+  },
+  {
+   "id": "v:できるだけ:できるだけ",
+   "kana": "できるだけ",
+   "kanji": "",
+   "hv": "",
+   "vi": "càng… càng tốt, hết mức có thể",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "できるだけ早[はや]く来[き]てください。",
+     "vi": "Hãy đến càng sớm càng tốt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ゴミはできるだけ分[わ]けて捨[す]ててください。",
+     "vi": "Hãy phân loại rác hết mức có thể.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:なるべく:なるべく"
+   ]
+  },
+  {
+   "id": "v:なるべく:なるべく",
+   "kana": "なるべく",
+   "kanji": "",
+   "hv": "",
+   "vi": "cố gắng hết mức (nếu được)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "なるべく野菜[やさい]を食[た]べるようにしています。",
+     "vi": "Tôi cố ăn rau nhiều nhất có thể.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "なるべく残業[ざんぎょう]しないでください。",
+     "vi": "Cố gắng đừng tăng ca nếu được.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:できるだけ:できるだけ"
+   ]
+  },
+  {
+   "id": "v:それに:それに",
+   "kana": "それに",
+   "kanji": "",
+   "hv": "",
+   "vi": "thêm vào đó, hơn nữa (nối câu)",
+   "pos": "other",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ nối",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この部屋[へや]は広[ひろ]いです。それに、駅[えき]から近[ちか]いです。",
+     "vi": "Phòng này rộng. Hơn nữa lại gần ga.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今日[きょう]は寒[さむ]いし、それに雨[あめ]も降[ふ]っています。",
+     "vi": "Hôm nay lạnh, hơn nữa còn mưa.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:さっき:さっき",
+   "kana": "さっき",
+   "kanji": "",
+   "hv": "",
+   "vi": "vừa nãy, lúc nãy",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "さっき、田中[たなか]さんから電話[でんわ]がありました。",
+     "vi": "Lúc nãy có điện thoại của anh Tanaka.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：さっき何[なん]て言[い]った？B：何[なん]でもない。",
+     "vi": "A: Lúc nãy nói gì vậy? B: Không có gì.",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:決して:けっして",
+   "kana": "けっして",
+   "kanji": "決して",
+   "kf": "決[けっ]して",
+   "hv": "QUYẾT",
+   "vi": "tuyệt đối không (đi với phủ định)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]の中[なか]に、決[けっ]して手[て]を入[い]れないでください。",
+     "vi": "Tuyệt đối không thò tay vào máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この恩[おん]は決[けっ]して忘[わす]れません。",
+     "vi": "Ơn này tôi tuyệt đối không quên.",
+     "ctx": "doisong"
+    }
+   ],
+   "with": "phudinh"
+  },
+  {
+   "id": "v:どんどん:どんどん",
+   "kana": "どんどん",
+   "kanji": "",
+   "hv": "",
+   "vi": "ào ào, liên tục, nhanh chóng",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]がどんどん強[つよ]くなっています。",
+     "vi": "Mưa ngày càng nặng hạt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]がどんどん流[なが]れてくるので、急[いそ]いでください。",
+     "vi": "Cá trôi đến liên tục, nhanh lên.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:もちろん:もちろん",
+   "kana": "もちろん",
+   "kanji": "",
+   "hv": "",
+   "vi": "dĩ nhiên, tất nhiên",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "A：手伝[てつだ]ってくれる？B：もちろん！",
+     "vi": "A: Giúp tớ không? B: Tất nhiên!",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "安全[あんぜん]靴[くつ]は、もちろん毎日[まいにち]履[は]きます。",
+     "vi": "Giày bảo hộ dĩ nhiên ngày nào cũng đi.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:または:または",
+   "kana": "または",
+   "kanji": "",
+   "hv": "",
+   "vi": "hoặc là",
+   "pos": "other",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ nối",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "黒[くろ]、または青[あお]のペンで書[か]いてください。",
+     "vi": "Hãy viết bằng bút đen hoặc xanh.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "電話[でんわ]、またはメールで連絡[れんらく]してください。",
+     "vi": "Hãy liên lạc bằng điện thoại hoặc email.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:すっかり:すっかり",
+   "kana": "すっかり",
+   "kanji": "",
+   "hv": "",
+   "vi": "hẳn, hoàn toàn (đã thay đổi)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "約束[やくそく]をすっかり忘[わす]れていました。",
+     "vi": "Tôi quên hẳn lời hẹn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "風邪[かぜ]はもうすっかり治[なお]りました。",
+     "vi": "Cảm đã khỏi hẳn rồi.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:はっきり:はっきり",
+   "kana": "はっきり",
+   "kanji": "",
+   "hv": "",
+   "vi": "rõ ràng",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "もう少[すこ]しはっきり話[はな]してください。",
+     "vi": "Hãy nói rõ hơn một chút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "日付[ひづけ]をはっきり書[か]いてください。",
+     "vi": "Hãy viết ngày rõ ràng.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "嫌[いや]なことは、はっきり言[い]ったほうがいいですよ。",
+     "vi": "Điều không thích thì nên nói rõ.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:しばらく:しばらく",
+   "kana": "しばらく",
+   "kanji": "",
+   "hv": "",
+   "vi": "một lúc, một thời gian",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "しばらくお待[ま]ちください。",
+     "vi": "Xin vui lòng đợi một lát.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "しばらく国[くに]に帰[かえ]ります。",
+     "vi": "Tôi về nước một thời gian.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:特に:とくに",
+   "kana": "とくに",
+   "kanji": "特に",
+   "kf": "特[とく]に",
+   "hv": "ĐẶC",
+   "vi": "đặc biệt là",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]料理[りょうり]、特[とく]に寿司[すし]が好[す]きです。",
+     "vi": "Tôi thích món Nhật, đặc biệt là sushi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今日[きょう]は特[とく]に忙[いそが]しいです。",
+     "vi": "Hôm nay đặc biệt bận.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:是非:ぜひ",
+   "kana": "ぜひ",
+   "kanji": "是非",
+   "hv": "THỊ PHI",
+   "vi": "nhất định (mong muốn, mời)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ぜひ、うちに遊[あそ]びに来[き]てください。",
+     "vi": "Nhất định đến nhà tôi chơi nhé.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ぜひ一度[いちど]、富士山[ふじやま]に登[のぼ]りたいです。",
+     "vi": "Tôi rất muốn một lần leo núi Phú Sĩ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Đi với 〜てください, 〜たい. Hay viết chữ mềm ぜひ."
+  },
+  {
+   "id": "v:まず:まず",
+   "kana": "まず",
+   "kanji": "",
+   "hv": "",
+   "vi": "trước hết, đầu tiên",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "まず手[て]を洗[あら]ってから、作業[さぎょう]を始[はじ]めます。",
+     "vi": "Trước hết rửa tay rồi mới làm việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "まず、この紙[かみ]に名前[なまえ]を書[か]いてください。",
+     "vi": "Đầu tiên hãy ghi tên vào giấy này.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    {
+     "w": "最初[さいしょ]に",
+     "vi": "đầu tiên"
+    }
+   ]
+  },
+  {
+   "id": "v:それほど:それほど",
+   "kana": "それほど",
+   "kanji": "",
+   "hv": "",
+   "vi": "(không) đến mức đó (đi với phủ định)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今日[きょう]はそれほど寒[さむ]くないです。",
+     "vi": "Hôm nay không lạnh đến thế.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "試験[しけん]はそれほど難[むずか]しくなかったです。",
+     "vi": "Kỳ thi không khó đến mức đó.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:そんなに:そんなに"
+   ],
+   "with": "phudinh"
+  },
+  {
+   "id": "v:そんなに:そんなに",
+   "kana": "そんなに",
+   "kanji": "",
+   "hv": "",
+   "vi": "đến thế, nhiều như vậy",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "そんなに急[いそ]がなくてもいいですよ。",
+     "vi": "Không cần vội đến thế đâu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：そんなに食[た]べるの？B：お腹[なか]空[あ]いてるんだ。",
+     "vi": "A: Ăn nhiều thế à? B: Đói mà.",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:それで:それで",
+   "kana": "それで",
+   "kanji": "",
+   "hv": "",
+   "vi": "vì thế, vậy nên; rồi sao",
+   "pos": "other",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ nối",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "熱[ねつ]がありました。それで、仕事[しごと]を休[やす]みました。",
+     "vi": "Tôi bị sốt. Vì thế nên nghỉ làm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：昨日[きのう]、班長[はんちょう]に会[あ]ったよ。B：それで、何[なん]て言[い]われた？",
+     "vi": "A: Hôm qua gặp tổ trưởng. B: Rồi sao, bị nói gì?",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:そろそろ:そろそろ",
+   "kana": "そろそろ",
+   "kanji": "",
+   "hv": "",
+   "vi": "sắp sửa, đến lúc",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "そろそろ帰[かえ]りましょう。",
+     "vi": "Đến lúc về thôi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "そろそろ休憩[きゅうけい]の時間[じかん]です。",
+     "vi": "Sắp đến giờ nghỉ rồi.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:なるほど:なるほど",
+   "kana": "なるほど",
+   "kanji": "",
+   "hv": "",
+   "vi": "ra là vậy, hóa ra thế",
+   "pos": "other",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ nối",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "A：この機械[きかい]は、ここを押[お]すと止[と]まります。B：なるほど。",
+     "vi": "A: Máy này ấn chỗ này thì dừng. B: Ra là vậy.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "なるほど、そういう意味[いみ]だったんですね。",
+     "vi": "Hóa ra là nghĩa như thế.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Với cấp trên nên nói そうなんですね thay cho なるほど."
+  },
+  {
+   "id": "v:最も:もっとも",
+   "kana": "もっとも",
+   "kanji": "最も",
+   "kf": "最[もっと]も",
+   "hv": "TỐI",
+   "vi": "nhất (văn viết)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "富士山[ふじやま]は日本[にほん]で最[もっと]も高[たか]い山[やま]です。",
+     "vi": "Núi Phú Sĩ là núi cao nhất Nhật Bản.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "最[もっと]も大事[だいじ]なのは、安全[あんぜん]です。",
+     "vi": "Quan trọng nhất là an toàn.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:一番:いちばん"
+   ]
+  },
+  {
+   "id": "v:久しぶり:ひさしぶり",
+   "kana": "ひさしぶり",
+   "kanji": "久しぶり",
+   "kf": "久[ひさ]しぶり",
+   "hv": "CỬU",
+   "vi": "lâu lắm mới (gặp, làm lại)",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "久[ひさ]しぶりに家族[かぞく]と電話[でんわ]で話[はな]しました。",
+     "vi": "Lâu lắm tôi mới gọi điện với gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：久[ひさ]しぶり！元気[げんき]？B：うん、元気[げんき]だよ。",
+     "vi": "A: Lâu quá không gặp! Khỏe không? B: Ừ, khỏe.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "久[ひさ]しぶりに休[やす]みが取[と]れたので、温泉[おんせん]に行[い]きます。",
+     "vi": "Lâu lắm mới được nghỉ nên tôi đi suối nước nóng.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Lịch sự: お久[ひさ]しぶりです."
+  },
+  {
+   "id": "v:この間:このあいだ",
+   "kana": "このあいだ",
+   "kanji": "この間",
+   "kf": "この間[あいだ]",
+   "hv": "GIAN",
+   "vi": "hôm trước, dạo trước",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この間[あいだ]はありがとうございました。",
+     "vi": "Cảm ơn anh hôm trước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この間[あいだ]の会議[かいぎ]で決[き]まったことを伝[つた]えます。",
+     "vi": "Tôi báo những gì đã quyết ở cuộc họp hôm trước.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:もうすぐ:もうすぐ",
+   "kana": "もうすぐ",
+   "kanji": "",
+   "hv": "",
+   "vi": "sắp, chẳng mấy chốc",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "もうすぐ正月[しょうがつ]ですね。",
+     "vi": "Sắp Tết rồi nhỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "もうすぐ終[お]わるから、待[ま]ってて。",
+     "vi": "Sắp xong rồi, chờ chút.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:この頃:このごろ",
+   "kana": "このごろ",
+   "kanji": "この頃",
+   "kf": "この頃[ごろ]",
+   "hv": "KHOẢNH",
+   "vi": "dạo này, gần đây (thời gian)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この頃[ころ]、よく眠[ねむ]れません。",
+     "vi": "Dạo này tôi hay mất ngủ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この頃[ころ]、注文[ちゅうもん]が増[ふ]えています。",
+     "vi": "Dạo này đơn hàng tăng.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    {
+     "w": "最近[さいきん]",
+     "vi": "gần đây"
+    }
+   ]
+  },
+  {
+   "id": "v:大分:だいぶ",
+   "kana": "だいぶ",
+   "kanji": "大分",
+   "hv": "ĐẠI PHÂN",
+   "vi": "khá nhiều, đáng kể (mức thay đổi)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本語[にほんご]が大分[だいぶ]上手[じょうず]になりました。",
+     "vi": "Tiếng Nhật đã giỏi lên khá nhiều.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "仕事[しごと]に大分[だいぶ]慣[な]れました。",
+     "vi": "Tôi đã khá quen việc.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:たまに:たまに",
+   "kana": "たまに",
+   "kanji": "",
+   "hv": "",
+   "vi": "hiếm khi, thỉnh thoảng mới (ít hơn 時々[ときどき])",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "たまに外食[がいしょく]します。",
+     "vi": "Thỉnh thoảng tôi ăn ngoài.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "たまに大[おお]きいマグロが入[はい]ります。",
+     "vi": "Thỉnh thoảng có cá ngừ to về.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "時々[ときどき]",
+     "vi": "đôi khi"
+    }
+   ]
+  },
+  {
+   "id": "v:中々:なかなか",
+   "kana": "なかなか",
+   "kanji": "中々",
+   "hv": "TRUNG TRUNG",
+   "vi": "khá là (hơn mong đợi); mãi mà (không)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この料理[りょうり]はなかなかおいしいです。",
+     "vi": "Món này khá ngon đấy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "バスがなかなか来[き]ません。",
+     "vi": "Xe buýt mãi không đến.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "漢字[かんじ]がなかなか覚[おぼ]えられません。",
+     "vi": "Chữ Hán mãi mà không nhớ được.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Đi với phủ định nghĩa là \"mãi mà không\". Thường viết chữ mềm."
+  },
+  {
+   "id": "v:随分:ずいぶん",
+   "kana": "ずいぶん",
+   "kanji": "随分",
+   "hv": "TÙY PHÂN",
+   "vi": "rất, quá (ngạc nhiên)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "随分[ずいぶん]寒[さむ]くなりましたね。",
+     "vi": "Trời lạnh hẳn rồi nhỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：随分[ずいぶん]早[はや]いね。B：今日[きょう]は早[はや]く起[お]きたんだ。",
+     "vi": "A: Sớm thế nhỉ. B: Hôm nay tớ dậy sớm.",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:例えば:たとえば",
+   "kana": "たとえば",
+   "kanji": "例えば",
+   "kf": "例[たと]えば",
+   "hv": "LỆ",
+   "vi": "ví dụ như",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ nối",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]の食[た]べ物[もの]、例[たと]えば寿司[すし]や天[てん]ぷらが好[す]きです。",
+     "vi": "Tôi thích đồ ăn Nhật, ví dụ sushi, tempura.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "危[あぶ]ない物[もの]、例[たと]えば包丁[ほうちょう]は、ここに置[お]いてください。",
+     "vi": "Đồ nguy hiểm, ví dụ dao, hãy để ở đây.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:けれども:けれども",
+   "kana": "けれども",
+   "kanji": "",
+   "hv": "",
+   "vi": "nhưng, tuy nhiên",
+   "pos": "other",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ nối",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "疲[つか]れました。けれども、楽[たの]しかったです。",
+     "vi": "Mệt. Nhưng vui.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "残業[ざんぎょう]はあります。けれども、あまり長[なが]くないです。",
+     "vi": "Có tăng ca. Nhưng không dài lắm.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:でも:でも",
+    "v:しかし:しかし"
+   ],
+   "note": "Khẩu ngữ: けど, けれど."
+  },
+  {
+   "id": "v:うん:うん",
+   "kana": "うん",
+   "kanji": "",
+   "hv": "",
+   "vi": "ừ (thân mật)",
+   "pos": "other",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ nối",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "A：明日[あした]、来[く]る？B：うん、行[い]く。",
+     "vi": "A: Mai đến không? B: Ừ, đến.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "A：ご飯[はん]、食[た]べた？B：うん、食[た]べたよ。",
+     "vi": "A: Ăn cơm chưa? B: Ừ, ăn rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Lịch sự: はい. Với cấp trên không dùng うん. Phủ định: ううん."
+  },
+  {
+   "id": "v:一杯:いっぱい",
+   "kana": "いっぱい",
+   "kanji": "一杯",
+   "hv": "NHẤT BÔI",
+   "vi": "đầy (no, chật); nhiều (khẩu ngữ)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お腹[なか]がいっぱいです。",
+     "vi": "No bụng rồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "箱[はこ]がいっぱいになったら、次[つぎ]の箱[はこ]を使[つか]ってください。",
+     "vi": "Thùng đầy thì dùng thùng tiếp theo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一[いち]杯[ばい]のコーヒーを飲[の]みました。",
+     "vi": "Tôi uống một tách cà phê.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "一杯[いっぱい] = một cốc/bát; いっぱい (chữ mềm) = đầy, nhiều."
+  }
+ ]
+}

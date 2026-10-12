@@ -1,0 +1,1154 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n4-15",
+  "title": "JLPT N4 15 – Nhà cửa, đồ dùng, quần áo",
+  "type": "vocab",
+  "level": "N4",
+  "topics": [
+   "jlpt",
+   "doisong"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:布団:ふとん",
+   "kana": "ふとん",
+   "kanji": "布団",
+   "hv": "BỐ ĐOÀN",
+   "vi": "nệm, chăn (kiểu Nhật)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎晩[まいばん]、布団[ふとん]を敷[し]いて寝[ね]ます。",
+     "vi": "Tối nào tôi cũng trải nệm ngủ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "天気[てんき]がいい日[ひ]は、布団[ふとん]を干[ほ]します。",
+     "vi": "Ngày đẹp trời tôi phơi chăn nệm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "布団[ふとん]を敷[し]く",
+     "vi": "trải nệm"
+    }
+   ],
+   "ctr": "枚"
+  },
+  {
+   "id": "v:畳:たたみ",
+   "kana": "たたみ",
+   "kanji": "畳",
+   "hv": "ĐIỆP",
+   "vi": "chiếu tatami",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寮[りょう]の部屋[へや]は六[ろく]畳[じょう]です。",
+     "vi": "Phòng ký túc xá rộng 6 chiếu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "畳[たたみ]の部屋[へや]では、靴下[くつした]で歩[ある]きます。",
+     "vi": "Trong phòng chiếu đi bằng tất.",
+     "ctx": "doisong"
+    }
+   ],
+   "ctr": "枚",
+   "note": "Đơn vị diện tích phòng: 六畳[ろくじょう] ≈ 10 m²."
+  },
+  {
+   "id": "v:押し入れ:おしいれ",
+   "kana": "おしいれ",
+   "kanji": "押し入れ",
+   "kf": "押[お]し入[い]れ",
+   "hv": "ÁP NHẬP",
+   "vi": "tủ âm tường (đựng chăn nệm)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "布団[ふとん]を押[お]し入[い]れにしまいます。",
+     "vi": "Cất nệm vào tủ âm tường.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "押[お]し入[い]れの中[なか]が、いっぱいです。",
+     "vi": "Trong tủ âm tường chật đồ.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:引き出し:ひきだし",
+   "kana": "ひきだし",
+   "kanji": "引き出し",
+   "kf": "引[ひ]き出[だ]し",
+   "hv": "DẪN XUẤT",
+   "vi": "ngăn kéo",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "パスポートは引[ひ]き出[だ]しに入[い]れてあります。",
+     "vi": "Hộ chiếu để trong ngăn kéo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "道具[どうぐ]は、上[うえ]の引[ひ]き出[だ]しに戻[もど]してください。",
+     "vi": "Dụng cụ cất lại ngăn kéo trên.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:棚:たな",
+   "kana": "たな",
+   "kanji": "棚",
+   "hv": "BẰNG",
+   "vi": "kệ, giá",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "本[ほん]を棚[たな]に並[なら]べました。",
+     "vi": "Tôi xếp sách lên kệ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "重[おも]い箱[はこ]は、下[した]の棚[たな]に置[お]いてください。",
+     "vi": "Thùng nặng để ở kệ dưới.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:壁:かべ",
+   "kana": "かべ",
+   "kanji": "壁",
+   "hv": "BÍCH",
+   "vi": "tường",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "壁[かべ]にカレンダーを掛[か]けました。",
+     "vi": "Tôi treo lịch lên tường.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "壁[かべ]の注意書[ちゅういが]きを読[よ]んでください。",
+     "vi": "Hãy đọc lời nhắc trên tường.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:カーテン:カーテン",
+   "kana": "カーテン",
+   "kanji": "",
+   "hv": "",
+   "vi": "rèm cửa",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "朝[あさ]、カーテンを開[あ]けます。",
+     "vi": "Buổi sáng tôi kéo rèm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "夜[よる]は、カーテンを閉[し]めてください。",
+     "vi": "Buổi tối hãy kéo rèm lại.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "curtain (tiếng Anh)"
+  },
+  {
+   "id": "v:鏡:かがみ",
+   "kana": "かがみ",
+   "kanji": "鏡",
+   "hv": "KÍNH",
+   "vi": "gương",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "鏡[かがみ]で帽子[ぼうし]をチェックしてから、工場[こうじょう]に入[はい]ります。",
+     "vi": "Soi gương kiểm tra mũ rồi mới vào xưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "洗面所[せんめんじょ]の鏡[かがみ]が割[わ]れています。",
+     "vi": "Gương phòng rửa mặt bị vỡ.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:電灯:でんとう",
+   "kana": "でんとう",
+   "kanji": "電灯",
+   "hv": "ĐIỆN ĐĂNG",
+   "vi": "đèn điện",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "電灯[でんとう]を点[つ]けてください。",
+     "vi": "Hãy bật đèn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "倉庫[そうこ]の電灯[でんとう]が切[き]れています。",
+     "vi": "Đèn trong kho bị cháy.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:電気:でんき"
+   ]
+  },
+  {
+   "id": "v:暖房:だんぼう",
+   "kana": "だんぼう",
+   "kanji": "暖房",
+   "hv": "NOÃN PHÒNG",
+   "vi": "máy sưởi, sưởi ấm",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寒[さむ]いので、暖房[だんぼう]をつけました。",
+     "vi": "Lạnh quá nên tôi bật sưởi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "休憩室[きゅうけいしつ]は暖房[だんぼう]があって暖[あたた]かいです。",
+     "vi": "Phòng nghỉ có sưởi nên ấm.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:冷房:れいぼう"
+   ]
+  },
+  {
+   "id": "v:冷房:れいぼう",
+   "kana": "れいぼう",
+   "kanji": "冷房",
+   "hv": "LÃNH PHÒNG",
+   "vi": "máy lạnh, làm mát",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夏[なつ]は冷房[れいぼう]がないと寝[ね]られません。",
+     "vi": "Mùa hè không có máy lạnh thì không ngủ được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷房[れいぼう]が強[つよ]すぎて、寒[さむ]いです。",
+     "vi": "Máy lạnh mạnh quá, lạnh.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:暖房:だんぼう"
+   ],
+   "syn": [
+    {
+     "w": "エアコン",
+     "vi": "máy điều hòa"
+    }
+   ]
+  },
+  {
+   "id": "v:水道:すいどう",
+   "kana": "すいどう",
+   "kanji": "水道",
+   "hv": "THỦY ĐẠO",
+   "vi": "nước máy, đường ống nước",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "水道[すいどう]の水[みず]は飲[の]めます。",
+     "vi": "Nước máy uống được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "水道代[すいどうだい]は、毎月[まいつき]払[はら]います。",
+     "vi": "Tiền nước trả hằng tháng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    {
+     "w": "水道代[すいどうだい]",
+     "vi": "tiền nước"
+    }
+   ]
+  },
+  {
+   "id": "v:ガス:ガス",
+   "kana": "ガス",
+   "kanji": "",
+   "hv": "",
+   "vi": "ga, khí đốt",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ガスの火[ひ]を消[け]し忘[わす]れないでください。",
+     "vi": "Đừng quên tắt bếp ga.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "引[ひ]っ越[こ]したら、ガス会社[かいしゃ]に連絡[れんらく]します。",
+     "vi": "Chuyển nhà thì liên lạc công ty ga.",
+     "ctx": "thutuc"
+    }
+   ],
+   "goc": "gas (tiếng Hà Lan / Anh)"
+  },
+  {
+   "id": "v:屋上:おくじょう",
+   "kana": "おくじょう",
+   "kanji": "屋上",
+   "hv": "ỐC THƯỢNG",
+   "vi": "sân thượng",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "屋上[おくじょう]から花火[はなび]が見[み]えます。",
+     "vi": "Từ sân thượng nhìn thấy pháo hoa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "地震[じしん]の時[とき]、屋上[おくじょう]に逃[に]げることもあります。",
+     "vi": "Khi động đất có lúc chạy lên sân thượng.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:ビル:ビル",
+   "kana": "ビル",
+   "kanji": "",
+   "hv": "",
+   "vi": "tòa nhà (cao tầng)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "あの高[たか]いビルが市役所[しやくしょ]です。",
+     "vi": "Tòa nhà cao kia là tòa thị chính.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]は駅前[えきまえ]のビルの三[さん]階[がい]です。",
+     "vi": "Công ty ở tầng 3 tòa nhà trước ga.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:建物:たてもの"
+   ],
+   "goc": "building (tiếng Anh)"
+  },
+  {
+   "id": "v:下宿:げしゅく",
+   "kana": "げしゅく",
+   "kanji": "下宿",
+   "hv": "HẠ TÚC",
+   "vi": "nhà trọ (ở cùng chủ nhà)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大学[だいがく]の近[ちか]くに下宿[げしゅく]しています。",
+     "vi": "Tôi ở trọ gần trường đại học.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "下宿[げしゅく]のおばさんは、とても親切[しんせつ]です。",
+     "vi": "Bà chủ trọ rất tốt bụng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "親戚[しんせき]の家[いえ]に下宿[げしゅく]する",
+     "vi": "ở trọ nhà họ hàng"
+    }
+   ]
+  },
+  {
+   "id": "v:隅:すみ",
+   "kana": "すみ",
+   "kanji": "隅",
+   "hv": "NGUNG",
+   "vi": "góc (phía trong)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "部屋[へや]の隅[すみ]にゴミ箱[はこ]を置[お]きました。",
+     "vi": "Tôi để thùng rác ở góc phòng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]の隅[すみ]まで、きれいに掃除[そうじ]してください。",
+     "vi": "Lau sạch đến tận góc kho đông.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:角:かど"
+   ]
+  },
+  {
+   "id": "v:近所:きんじょ",
+   "kana": "きんじょ",
+   "kanji": "近所",
+   "hv": "CẬN SỞ",
+   "vi": "hàng xóm, khu lân cận",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "近所[きんじょ]の人[ひと]に挨拶[あいさつ]しました。",
+     "vi": "Tôi chào người hàng xóm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "近所[きんじょ]にスーパーがあって便利[べんり]です。",
+     "vi": "Gần nhà có siêu thị nên tiện.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:近く:ちかく"
+   ]
+  },
+  {
+   "id": "v:お宅:おたく",
+   "kana": "おたく",
+   "kanji": "お宅",
+   "kf": "お宅[たく]",
+   "hv": "TRẠCH",
+   "vi": "nhà (của người khác, lịch sự)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先生[せんせい]のお宅[たく]に伺[うかが]いました。",
+     "vi": "Tôi đến thăm nhà thầy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "田中[たなか]さんのお宅[たく]はどちらですか。",
+     "vi": "Nhà anh Tanaka ở đâu ạ?",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Nhà mình: 家[いえ], うち."
+  },
+  {
+   "id": "v:床屋:とこや",
+   "kana": "とこや",
+   "kanji": "床屋",
+   "hv": "SÀNG ỐC",
+   "vi": "tiệm cắt tóc (nam)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "月[つき]に一回[いちかい]、床屋[とこや]に行[い]きます。",
+     "vi": "Tháng một lần tôi đi cắt tóc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "駅前[えきまえ]の床屋[とこや]は安[やす]いです。",
+     "vi": "Tiệm cắt tóc trước ga rẻ.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    {
+     "w": "美容院[びよういん]",
+     "vi": "tiệm làm tóc"
+    }
+   ]
+  },
+  {
+   "id": "v:エスカレーター:エスカレーター",
+   "kana": "エスカレーター",
+   "kanji": "",
+   "hv": "",
+   "vi": "thang cuốn",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhà cửa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "エスカレーターで二[に]階[かい]に上[あ]がります。",
+     "vi": "Đi thang cuốn lên tầng hai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "大阪[おおさか]では、エスカレーターの右側[みぎがわ]に立[た]ちます。",
+     "vi": "Ở Osaka đứng bên phải thang cuốn.",
+     "ctx": "kansai"
+    }
+   ],
+   "goc": "escalator (tiếng Anh)"
+  },
+  {
+   "id": "v:ガラス:ガラス",
+   "kana": "ガラス",
+   "kanji": "",
+   "hv": "",
+   "vi": "kính, thủy tinh",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Đồ dùng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ガラスのコップを割[わ]ってしまいました。",
+     "vi": "Tôi lỡ làm vỡ cốc thủy tinh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]では、ガラスの物[もの]を使[つか]いません。",
+     "vi": "Trong xưởng không dùng đồ thủy tinh.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "glas (tiếng Hà Lan)"
+  },
+  {
+   "id": "v:ベル:ベル",
+   "kana": "ベル",
+   "kanji": "",
+   "hv": "",
+   "vi": "chuông",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Đồ dùng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "玄関[げんかん]のベルが鳴[な]りました。",
+     "vi": "Chuông cửa reo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "終[お]わりのベルが鳴[な]ったら、手[て]を止[と]めてください。",
+     "vi": "Chuông kết thúc reo thì dừng tay.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "bell (tiếng Anh)"
+  },
+  {
+   "id": "v:スクリーン:スクリーン",
+   "kana": "スクリーン",
+   "kanji": "",
+   "hv": "",
+   "vi": "màn hình chiếu",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Đồ dùng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "スクリーンに映画[えいが]が映[うつ]っています。",
+     "vi": "Phim đang chiếu trên màn hình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "安全[あんぜん]の説明[せつめい]はスクリーンを見[み]てください。",
+     "vi": "Phần giải thích an toàn hãy xem trên màn chiếu.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "screen (tiếng Anh)"
+  },
+  {
+   "id": "v:人形:にんぎょう",
+   "kana": "にんぎょう",
+   "kanji": "人形",
+   "hv": "NHÂN HÌNH",
+   "vi": "búp bê",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Đồ dùng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "娘[むすめ]に人形[にんぎょう]を買[か]いました。",
+     "vi": "Tôi mua búp bê cho con gái.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "三[さん]月[がつ]三日[みっか]は、女[おんな]の子[こ]のために人形[にんぎょう]を飾[かざ]ります。",
+     "vi": "Ngày 3/3 người ta bày búp bê cho bé gái.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:おもちゃ:おもちゃ",
+   "kana": "おもちゃ",
+   "kanji": "",
+   "hv": "",
+   "vi": "đồ chơi",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Đồ dùng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子供[こども]がおもちゃで遊[あそ]んでいます。",
+     "vi": "Con đang chơi đồ chơi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "日本[にほん]のおもちゃを国[くに]に送[おく]りました。",
+     "vi": "Tôi gửi đồ chơi Nhật về nước.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:消しゴム:けしゴム",
+   "kana": "けしゴム",
+   "kanji": "消しゴム",
+   "kf": "消[け]しゴム",
+   "hv": "TIÊU",
+   "vi": "cục tẩy",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Đồ dùng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "消[け]しゴムを貸[か]してください。",
+     "vi": "Cho tôi mượn cục tẩy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "申請書[しんせいしょ]はボールペンで書[か]くので、消[け]しゴムは使[つか]えません。",
+     "vi": "Đơn viết bằng bút bi nên không dùng tẩy được.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:スーツケース:スーツケース",
+   "kana": "スーツケース",
+   "kanji": "",
+   "hv": "",
+   "vi": "va li",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Đồ dùng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "スーツケースに服[ふく]を入[い]れました。",
+     "vi": "Tôi cho quần áo vào va li.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "国[くに]に帰[かえ]る時[とき]、大[おお]きいスーツケースを買[か]いました。",
+     "vi": "Khi về nước tôi mua va li to.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "suitcase (tiếng Anh)"
+  },
+  {
+   "id": "v:糸:いと",
+   "kana": "いと",
+   "kanji": "糸",
+   "hv": "MỊCH",
+   "vi": "sợi chỉ",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Đồ dùng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ボタンが取[と]れたので、糸[いと]で付[つ]けました。",
+     "vi": "Cúc bị bung nên tôi khâu lại bằng chỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "網[あみ]の糸[いと]が切[き]れていないか確認[かくにん]します。",
+     "vi": "Kiểm tra xem sợi lưới có đứt không.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:木綿:もめん",
+   "kana": "もめん",
+   "kanji": "木綿",
+   "hv": "MỘC MIÊN",
+   "vi": "vải bông, cotton",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "木綿[もめん]のシャツは涼[すず]しいです。",
+     "vi": "Áo vải bông mát.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "作業着[さぎょうぎ]は木綿[もめん]が多[おお]いです。",
+     "vi": "Quần áo bảo hộ thường bằng cotton.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:絹:きぬ",
+   "kana": "きぬ",
+   "kanji": "絹",
+   "hv": "QUYÊN",
+   "vi": "lụa",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母[はは]に絹[きぬ]のスカーフをあげました。",
+     "vi": "Tôi tặng mẹ khăn lụa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ベトナムの絹[きぬ]は有名[ゆうめい]です。",
+     "vi": "Lụa Việt Nam nổi tiếng.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:品物:しなもの",
+   "kana": "しなもの",
+   "kanji": "品物",
+   "hv": "PHẨM VẬT",
+   "vi": "hàng hóa (để bán, giao)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Đồ dùng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この店[みせ]は品物[しなもの]がいいです。",
+     "vi": "Cửa hàng này hàng tốt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "品物[しなもの]の数[かず]を確認[かくにん]してください。",
+     "vi": "Hãy kiểm tra số lượng hàng.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    {
+     "w": "商品[しょうひん]",
+     "vi": "sản phẩm, hàng hóa"
+    }
+   ]
+  },
+  {
+   "id": "v:着物:きもの",
+   "kana": "きもの",
+   "kanji": "着物",
+   "hv": "TRƯỚC VẬT",
+   "vi": "kimono",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "正月[しょうがつ]に着物[きもの]を着[き]ました。",
+     "vi": "Tết tôi mặc kimono.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "着物[きもの]を着[き]た人[ひと]が、写真[しゃしん]を撮[と]っています。",
+     "vi": "Người mặc kimono đang chụp ảnh.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:下着:したぎ",
+   "kana": "したぎ",
+   "kanji": "下着",
+   "hv": "HẠ TRƯỚC",
+   "vi": "đồ lót",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "下着[したぎ]を洗濯[せんたく]しました。",
+     "vi": "Tôi giặt đồ lót.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]に入[はい]る時[とき]は、暖[あたた]かい下着[したぎ]を着[き]ます。",
+     "vi": "Khi vào kho đông thì mặc đồ lót giữ ấm.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "枚"
+  },
+  {
+   "id": "v:スーツ:スーツ",
+   "kana": "スーツ",
+   "kanji": "",
+   "hv": "",
+   "vi": "bộ com-lê, vest",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面接[めんせつ]にはスーツで行[い]きます。",
+     "vi": "Đi phỏng vấn thì mặc vest.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "兄[あに]の結婚式[けっこんしき]でスーツを着[き]ました。",
+     "vi": "Tôi mặc vest ở đám cưới anh trai.",
+     "ctx": "doisong"
+    }
+   ],
+   "ctr": "着",
+   "goc": "suit (tiếng Anh)"
+  },
+  {
+   "id": "v:サンダル:サンダル",
+   "kana": "サンダル",
+   "kanji": "",
+   "hv": "",
+   "vi": "dép xăng-đan",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夏[なつ]はサンダルで出[で]かけます。",
+     "vi": "Mùa hè tôi đi dép ra ngoài.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]の中[なか]で、サンダルは禁止[きんし]です。",
+     "vi": "Trong xưởng cấm đi dép.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "足",
+   "goc": "sandal (tiếng Anh)"
+  },
+  {
+   "id": "v:指輪:ゆびわ",
+   "kana": "ゆびわ",
+   "kanji": "指輪",
+   "hv": "CHỈ LUÂN",
+   "vi": "nhẫn",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "結婚指輪[けっこんゆびわ]を買[か]いました。",
+     "vi": "Tôi mua nhẫn cưới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "作業[さぎょう]の時[とき]は、指輪[ゆびわ]を外[はず]してください。",
+     "vi": "Khi làm việc hãy tháo nhẫn.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:アクセサリー:アクセサリー",
+   "kana": "アクセサリー",
+   "kanji": "",
+   "hv": "",
+   "vi": "đồ trang sức, phụ kiện",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]の中[なか]では、アクセサリーをつけてはいけません。",
+     "vi": "Trong xưởng không được đeo trang sức.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "妹[いもうと]にアクセサリーをプレゼントしました。",
+     "vi": "Tôi tặng em gái đồ trang sức.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "accessory (tiếng Anh)"
+  },
+  {
+   "id": "v:ひげ:ひげ",
+   "kana": "ひげ",
+   "kanji": "",
+   "hv": "",
+   "vi": "râu",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Cơ thể",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎朝[まいあさ]、ひげをそります。",
+     "vi": "Sáng nào tôi cũng cạo râu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ひげのある人[ひと]は、マスクを二[に]枚[まい]つけてください。",
+     "vi": "Người có râu hãy đeo hai lớp khẩu trang.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ひげをそる",
+     "vi": "cạo râu"
+    }
+   ]
+  }
+ ]
+}

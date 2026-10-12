@@ -1,0 +1,983 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n4-09",
+  "title": "JLPT N4 09 – Tính từ đuôi な",
+  "type": "vocab",
+  "level": "N4",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:複雑:ふくざつ",
+   "kana": "ふくざつ",
+   "kanji": "複雑",
+   "hv": "PHỨC TẠP",
+   "vi": "phức tạp",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この駅[えき]は複雑[ふくざつ]で、よく迷[まよ]います。",
+     "vi": "Ga này phức tạp, tôi hay bị lạc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい機械[きかい]の使[つか]い方[かた]は少[すこ]し複雑[ふくざつ]です。",
+     "vi": "Cách dùng máy mới hơi phức tạp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "税金[ぜいきん]の手続[てつづ]きは複雑[ふくざつ]なので、窓口[まどぐち]で聞[き]きました。",
+     "vi": "Thủ tục thuế phức tạp nên tôi hỏi quầy.",
+     "ctx": "thutuc"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "手続[てつづ]き",
+     "vi": "thủ tục"
+    },
+    {
+     "jp": "問題[もんだい]",
+     "vi": "vấn đề"
+    }
+   ],
+   "ant": [
+    "v:簡単:かんたん"
+   ],
+   "rel": [
+    {
+     "w": "複雑[ふくざつ]さ",
+     "vi": "độ phức tạp"
+    }
+   ]
+  },
+  {
+   "id": "v:大事:だいじ",
+   "kana": "だいじ",
+   "kanji": "大事",
+   "hv": "ĐẠI SỰ",
+   "vi": "quan trọng, quý giá",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家族[かぞく]の写真[しゃしん]を大事[だいじ]にしています。",
+     "vi": "Tôi giữ gìn ảnh gia đình cẩn thận.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "安全[あんぜん]が一番[いちばん]大事[だいじ]です。",
+     "vi": "An toàn là quan trọng nhất.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "大事[だいじ]な書類[しょるい]は、ファイルに入[い]れておきましょう。",
+     "vi": "Giấy tờ quan trọng hãy cho vào bìa hồ sơ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "書類[しょるい]",
+     "vi": "giấy tờ"
+    },
+    {
+     "jp": "話[はなし]",
+     "vi": "câu chuyện"
+    }
+   ],
+   "syn": [
+    "v:大切:たいせつ"
+   ],
+   "note": "大事[だいじ]にする = giữ gìn; お大事[だいじ]に = mau khỏe nhé (nói với người ốm)."
+  },
+  {
+   "id": "v:必要:ひつよう",
+   "kana": "ひつよう",
+   "kanji": "必要",
+   "hv": "TẤT YẾU",
+   "vi": "cần thiết",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "旅行[りょこう]に必要[ひつよう]な物[もの]を準備[じゅんび]します。",
+     "vi": "Chuẩn bị đồ cần thiết cho chuyến đi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この作業[さぎょう]には、手袋[てぶくろ]が二[に]枚[まい]必要[ひつよう]です。",
+     "vi": "Việc này cần hai lớp găng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "申請[しんせい]には、写真[しゃしん]が一[いち]枚[まい]必要[ひつよう]です。",
+     "vi": "Nộp đơn cần một tấm ảnh.",
+     "ctx": "thutuc"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "書類[しょるい]",
+     "vi": "giấy tờ"
+    },
+    {
+     "jp": "お金[かね]",
+     "vi": "tiền"
+    }
+   ],
+   "ant": [
+    {
+     "w": "不要[ふよう]",
+     "vi": "không cần"
+    }
+   ],
+   "note": "Cách dùng: 〜が必要[ひつよう]です / 〜には〜が必要[ひつよう]だ."
+  },
+  {
+   "id": "v:盛ん:さかん",
+   "kana": "さかん",
+   "kanji": "盛ん",
+   "kf": "盛[さか]ん",
+   "hv": "THỊNH",
+   "vi": "thịnh, phát triển mạnh, sôi nổi",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この町[まち]は漁業[ぎょぎょう]が盛[さか]んです。",
+     "vi": "Thị trấn này nghề cá rất phát triển.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "兵庫県[ひょうごけん]は、水産[すいさん]加工[かこう]が盛[さか]んです。",
+     "vi": "Tỉnh Hyogo ngành chế biến thủy sản rất phát triển.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本[にほん]では、野球[やきゅう]が盛[さか]んです。",
+     "vi": "Ở Nhật bóng chày rất thịnh.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "スポーツ",
+     "vi": "thể thao"
+    },
+    {
+     "jp": "産業[さんぎょう]",
+     "vi": "ngành nghề"
+    }
+   ]
+  },
+  {
+   "id": "v:残念:ざんねん",
+   "kana": "ざんねん",
+   "kanji": "残念",
+   "hv": "TÀN NIỆM",
+   "vi": "đáng tiếc, tiếc",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]で花火[はなび]大会[たいかい]が中止[ちゅうし]になって、残念[ざんねん]です。",
+     "vi": "Lễ pháo hoa bị hủy vì mưa, tiếc quá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "先輩[せんぱい]が辞[や]めるのは、本当[ほんとう]に残念[ざんねん]です。",
+     "vi": "Đàn anh nghỉ việc thật đáng tiếc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：明日[あした]、来[こ]られないの？B：うん、残念[ざんねん]だけど。",
+     "vi": "A: Mai không đến được à? B: Ừ, tiếc thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "結果[けっか]",
+     "vi": "kết quả"
+    },
+    {
+     "jp": "こと",
+     "vi": "việc"
+    }
+   ],
+   "note": "残念[ざんねん]ながら = tiếc là…"
+  },
+  {
+   "id": "v:丁寧:ていねい",
+   "kana": "ていねい",
+   "kanji": "丁寧",
+   "hv": "ĐINH NINH",
+   "vi": "lịch sự; cẩn thận, chu đáo",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "あの店員[てんいん]は、とても丁寧[ていねい]です。",
+     "vi": "Nhân viên đó rất lịch sự.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]は丁寧[ていねい]に並[なら]べてください。",
+     "vi": "Hãy xếp cá cẩn thận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "窓口[まどぐち]の人[ひと]が、丁寧[ていねい]に説明[せつめい]してくれました。",
+     "vi": "Nhân viên quầy giải thích rất chu đáo.",
+     "ctx": "thutuc"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "説明[せつめい]",
+     "vi": "lời giải thích"
+    },
+    {
+     "jp": "言葉[ことば]",
+     "vi": "lời nói"
+    }
+   ],
+   "ant": [
+    {
+     "w": "乱暴[らんぼう]",
+     "vi": "thô bạo"
+    }
+   ],
+   "rel": [
+    {
+     "w": "丁寧語[ていねいご]",
+     "vi": "thể lịch sự (です・ます)"
+    }
+   ]
+  },
+  {
+   "id": "v:無理:むり",
+   "kana": "むり",
+   "kanji": "無理",
+   "hv": "VÔ LÝ",
+   "vi": "quá sức, không thể, vô lý",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一日[ついたち]で全部[ぜんぶ]覚[おぼ]えるのは無理[むり]です。",
+     "vi": "Nhớ hết trong một ngày là không thể.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "熱[ねつ]があるなら、無理[むり]しないで休[やす]んでください。",
+     "vi": "Sốt thì đừng cố quá, hãy nghỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：明日[あした]までにできる？B：ちょっと無理[むり]です。",
+     "vi": "A: Trước mai làm được không? B: Hơi khó ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "計画[けいかく]",
+     "vi": "kế hoạch"
+    },
+    {
+     "jp": "話[はなし]",
+     "vi": "chuyện"
+    }
+   ],
+   "note": "無理[むり]しないで = đừng cố quá sức."
+  },
+  {
+   "id": "v:適当:てきとう",
+   "kana": "てきとう",
+   "kanji": "適当",
+   "hv": "THÍCH ĐƯƠNG",
+   "vi": "phù hợp; qua loa, tùy tiện",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "適当[てきとう]な大[おお]きさの箱[はこ]を探[さが]してください。",
+     "vi": "Tìm cái thùng cỡ phù hợp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "適当[てきとう]に作業[さぎょう]すると、ミスが増[ふ]えます。",
+     "vi": "Làm qua loa thì lỗi tăng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：何時[なんじ]でもいい？B：うん、適当[てきとう]に来[き]て。",
+     "vi": "A: Mấy giờ cũng được à? B: Ừ, đến lúc nào cũng được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "大[おお]きさ",
+     "vi": "kích cỡ"
+    },
+    {
+     "jp": "答[こた]え",
+     "vi": "câu trả lời"
+    }
+   ],
+   "note": "Hai nghĩa ngược nhau: \"phù hợp\" (văn viết) và \"qua loa\" (khẩu ngữ)."
+  },
+  {
+   "id": "v:熱心:ねっしん",
+   "kana": "ねっしん",
+   "kanji": "熱心",
+   "hv": "NHIỆT TÂM",
+   "vi": "nhiệt tình, hăng say (học, làm)",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は熱心[ねっしん]に日本語[にほんご]を勉強[べんきょう]しています。",
+     "vi": "Anh ấy chăm chỉ học tiếng Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]はとても熱心[ねっしん]で、質問[しつもん]が多[おお]いです。",
+     "vi": "Người mới rất nhiệt tình, hỏi nhiều.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "熱心[ねっしん]な先生[せんせい]に教[おし]えてもらいました。",
+     "vi": "Tôi được một thầy nhiệt tình dạy.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "先生[せんせい]",
+     "vi": "thầy giáo"
+    },
+    {
+     "jp": "学生[がくせい]",
+     "vi": "học sinh"
+    }
+   ],
+   "rel": [
+    {
+     "w": "熱心[ねっしん]さ",
+     "vi": "sự nhiệt tình"
+    }
+   ]
+  },
+  {
+   "id": "v:変:へん",
+   "kana": "へん",
+   "kanji": "変",
+   "hv": "BIẾN",
+   "vi": "kỳ quặc, lạ (bất thường)",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冷蔵庫[れいぞうこ]から変[へん]な音[おと]がします。",
+     "vi": "Tủ lạnh phát ra tiếng lạ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この魚[さかな]、変[へん]なにおいがしますよ。",
+     "vi": "Cá này có mùi lạ đấy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：私[わたし]の日本語[にほんご]、変[へん]？B：ううん、上手[じょうず]だよ。",
+     "vi": "A: Tiếng Nhật của tớ có lạ không? B: Không, giỏi mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "音[おと]",
+     "vi": "tiếng"
+    },
+    {
+     "jp": "におい",
+     "vi": "mùi"
+    }
+   ],
+   "syn": [
+    "v:おかしい:おかしい"
+   ],
+   "confuse": [
+    "v:珍しい:めずらしい"
+   ]
+  },
+  {
+   "id": "v:確か:たしか",
+   "kana": "たしか",
+   "kanji": "確か",
+   "kf": "確[たし]か",
+   "hv": "XÁC",
+   "vi": "đáng tin, xác thực (thông tin); hình như (phó từ)",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "それは確[たし]かな情報[じょうほう]ですか。",
+     "vi": "Đó là thông tin chắc chắn chứ?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "数[すう]を確[たし]かにしてから、箱[はこ]を閉[し]めてください。",
+     "vi": "Xác định chắc số lượng rồi mới đóng thùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "確[たし]か、市役所[しやくしょ]は九[く]時[じ]からです。",
+     "vi": "Hình như tòa thị chính mở từ 9 giờ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "情報[じょうほう]",
+     "vi": "thông tin"
+    },
+    {
+     "jp": "記憶[きおく]",
+     "vi": "trí nhớ"
+    }
+   ],
+   "rel": [
+    {
+     "w": "確[たし]かめる",
+     "vi": "xác minh, kiểm chứng"
+    }
+   ]
+  },
+  {
+   "id": "v:真面目:まじめ",
+   "kana": "まじめ",
+   "kanji": "真面目",
+   "hv": "CHÂN DIỆN MỤC",
+   "vi": "nghiêm túc, chăm chỉ, đứng đắn",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "弟[おとうと]はとても真面目[まじめ]な学生[がくせい]です。",
+     "vi": "Em trai tôi là học sinh rất nghiêm túc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "グエンさんは真面目[まじめ]に働[はたら]くので、信用[しんよう]されています。",
+     "vi": "Anh Nguyễn làm việc nghiêm túc nên được tin tưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：真面目[まじめ]な話[はなし]があるんだけど。B：何[なん]？",
+     "vi": "A: Có chuyện nghiêm túc muốn nói. B: Gì thế?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    },
+    {
+     "jp": "話[はなし]",
+     "vi": "câu chuyện"
+    }
+   ],
+   "rel": [
+    {
+     "w": "真面目[まじめ]さ",
+     "vi": "sự nghiêm túc"
+    }
+   ]
+  },
+  {
+   "id": "v:邪魔:じゃま",
+   "kana": "じゃま",
+   "kanji": "邪魔",
+   "hv": "TÀ MA",
+   "vi": "vướng, cản trở, làm phiền",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "道[みち]に自転車[じてんしゃ]があって邪魔[じゃま]です。",
+     "vi": "Có xe đạp trên đường, vướng quá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "通路[つうろ]に箱[はこ]を置[お]くと、邪魔[じゃま]になります。",
+     "vi": "Để thùng ở lối đi sẽ gây vướng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：お邪魔[じゃま]します。B：どうぞ、上[あ]がってください。",
+     "vi": "A: Xin phép làm phiền ạ. B: Mời vào.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "荷物[にもつ]",
+     "vi": "hành lý"
+    },
+    {
+     "jp": "箱[はこ]",
+     "vi": "thùng"
+    }
+   ],
+   "note": "お邪魔[じゃま]します = câu chào khi vào nhà người khác."
+  },
+  {
+   "id": "v:十分:じゅうぶん",
+   "kana": "じゅうぶん",
+   "kanji": "十分",
+   "hv": "THẬP PHÂN",
+   "vi": "đủ, đầy đủ",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎日[まいにち]、十分[じゅうぶん]寝[ね]ていますか。",
+     "vi": "Ngày nào bạn cũng ngủ đủ chứ?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍[れいとう]の時間[じかん]は十分[じゅうぶん]ですか。",
+     "vi": "Thời gian cấp đông đã đủ chưa?",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "書類[しょるい]はこれで十分[じゅうぶん]です。",
+     "vi": "Giấy tờ thế này là đủ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "時間[じかん]",
+     "vi": "thời gian"
+    },
+    {
+     "jp": "お金[かね]",
+     "vi": "tiền"
+    }
+   ],
+   "syn": [
+    "v:足りる:たりる"
+   ],
+   "confuse": [
+    {
+     "w": "十分[じゅっぷん]",
+     "vi": "mười phút"
+    }
+   ]
+  },
+  {
+   "id": "v:特別:とくべつ",
+   "kana": "とくべつ",
+   "kanji": "特別",
+   "hv": "ĐẶC BIỆT",
+   "vi": "đặc biệt",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "誕生日[たんじょうび]に特別[とくべつ]な料理[りょうり]を作[つく]りました。",
+     "vi": "Tôi nấu món đặc biệt cho sinh nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今日[きょう]は特別[とくべつ]に、早[はや]く帰[かえ]ってもいいです。",
+     "vi": "Hôm nay đặc biệt được về sớm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "特別[とくべつ]な理由[りゆう]がない場合[ばあい]は、期限[きげん]を延[の]ばせません。",
+     "vi": "Không có lý do đặc biệt thì không gia hạn được.",
+     "ctx": "thutuc"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "日[ひ]",
+     "vi": "ngày"
+    },
+    {
+     "jp": "理由[りゆう]",
+     "vi": "lý do"
+    }
+   ],
+   "ant": [
+    "v:普通:ふつう"
+   ]
+  },
+  {
+   "id": "v:普通:ふつう",
+   "kana": "ふつう",
+   "kanji": "普通",
+   "hv": "PHỔ THÔNG",
+   "vi": "bình thường, thông thường",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "普通[ふつう]の生活[せいかつ]が一番[いちばん]幸[しあわ]せです。",
+     "vi": "Cuộc sống bình thường là hạnh phúc nhất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "普通[ふつう]は八[はち]時[じ]に始[はじ]まりますが、明日[あした]は七[しち]時[じ]です。",
+     "vi": "Bình thường bắt đầu 8 giờ, nhưng mai thì 7 giờ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "普通[ふつう]の郵便[ゆうびん]より速達[そくたつ]のほうが早[はや]いです。",
+     "vi": "Thư nhanh nhanh hơn thư thường.",
+     "ctx": "thutuc"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    },
+    {
+     "jp": "生活[せいかつ]",
+     "vi": "cuộc sống"
+    }
+   ],
+   "ant": [
+    "v:特別:とくべつ"
+   ],
+   "note": "普通[ふつう]電車[でんしゃ] = tàu thường (dừng mọi ga)."
+  },
+  {
+   "id": "v:安全:あんぜん",
+   "kana": "あんぜん",
+   "kanji": "安全",
+   "hv": "AN TOÀN",
+   "vi": "an toàn",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この町[まち]は夜[よる]も安全[あんぜん]です。",
+     "vi": "Thị trấn này ban đêm cũng an toàn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "安全[あんぜん]のために、ヘルメットをかぶってください。",
+     "vi": "Vì an toàn hãy đội mũ bảo hộ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地震[じしん]の時[とき]は、安全[あんぜん]な場所[ばしょ]に逃[に]げてください。",
+     "vi": "Khi động đất hãy chạy đến nơi an toàn.",
+     "ctx": "thutuc"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "場所[ばしょ]",
+     "vi": "nơi"
+    },
+    {
+     "jp": "町[まち]",
+     "vi": "thị trấn"
+    }
+   ],
+   "ant": [
+    "v:危険:きけん"
+   ],
+   "rel": [
+    {
+     "w": "安全靴[あんぜんぐつ]",
+     "vi": "giày bảo hộ"
+    }
+   ]
+  },
+  {
+   "id": "v:自由:じゆう",
+   "kana": "じゆう",
+   "kanji": "自由",
+   "hv": "TỰ DO",
+   "vi": "tự do",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休[やす]みの日[ひ]は、自由[じゆう]に過[す]ごします。",
+     "vi": "Ngày nghỉ tôi sống thoải mái tự do.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "休憩室[きゅうけいしつ]のお茶[ちゃ]は、自由[じゆう]に飲[の]んでもいいです。",
+     "vi": "Trà ở phòng nghỉ được uống tự do.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：席[せき]は決[き]まってる？B：ううん、自由[じゆう]だよ。",
+     "vi": "A: Chỗ ngồi đã xếp chưa? B: Không, tự do.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "時間[じかん]",
+     "vi": "thời gian"
+    },
+    {
+     "jp": "席[せき]",
+     "vi": "chỗ ngồi"
+    }
+   ],
+   "rel": [
+    {
+     "w": "自由席[じゆうせき]",
+     "vi": "ghế tự do"
+    }
+   ]
+  },
+  {
+   "id": "v:安心:あんしん",
+   "kana": "あんしん",
+   "kanji": "安心",
+   "hv": "AN TÂM",
+   "vi": "yên tâm",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家族[かぞく]が元気[げんき]だと聞[き]いて、安心[あんしん]しました。",
+     "vi": "Nghe gia đình khỏe mạnh, tôi yên tâm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "先輩[せんぱい]がいると、安心[あんしん]して作業[さぎょう]できます。",
+     "vi": "Có đàn anh thì tôi yên tâm làm việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ビザが更新[こうしん]できて、安心[あんしん]しました。",
+     "vi": "Gia hạn được visa, tôi yên tâm rồi.",
+     "ctx": "thutuc"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "気持[きも]ち",
+     "vi": "tâm trạng"
+    },
+    {
+     "jp": "生活[せいかつ]",
+     "vi": "cuộc sống"
+    }
+   ],
+   "ant": [
+    "v:心配:しんぱい"
+   ]
+  },
+  {
+   "id": "v:心配:しんぱい",
+   "kana": "しんぱい",
+   "kanji": "心配",
+   "hv": "TÂM PHỐI",
+   "vi": "lo lắng",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "国[くに]の母[はは]が病気[びょうき]で、心配[しんぱい]です。",
+     "vi": "Mẹ ở quê bị ốm, tôi lo lắm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]の調子[ちょうし]が悪[わる]くて、心配[しんぱい]です。",
+     "vi": "Máy chạy không ổn, lo quá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：試験[しけん]、大丈夫[だいじょうぶ]かな。B：心配[しんぱい]しないで、よく勉強[べんきょう]したじゃない。",
+     "vi": "A: Thi có ổn không nhỉ? B: Đừng lo, cậu học kỹ rồi mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "こと",
+     "vi": "chuyện"
+    },
+    {
+     "jp": "病気[びょうき]",
+     "vi": "bệnh"
+    }
+   ],
+   "ant": [
+    "v:安心:あんしん"
+   ],
+   "note": "Cũng dùng như động từ: 心配[しんぱい]する."
+  },
+  {
+   "id": "v:だめ:だめ",
+   "kana": "だめ",
+   "kanji": "",
+   "hv": "",
+   "vi": "không được, hỏng, vô dụng",
+   "pos": "adj-na",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ここでタバコを吸[す]ってはだめです。",
+     "vi": "Không được hút thuốc ở đây.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "床[ゆか]に落[お]ちた魚[さかな]は、もうだめです。",
+     "vi": "Cá rơi xuống sàn thì không dùng được nữa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：これ、使[つか]ってもいい？B：だめ、それは私[わたし]の！",
+     "vi": "A: Dùng cái này được không? B: Không được, của tớ!",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "答[こた]え",
+     "vi": "câu trả lời"
+    },
+    {
+     "jp": "計画[けいかく]",
+     "vi": "kế hoạch"
+    }
+   ],
+   "syn": [
+    "v:あかん:あかん"
+   ],
+   "note": "Chữ Hán: 駄目[だめ]. Kansai: あかん."
+  }
+ ]
+}

@@ -1,0 +1,487 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "nguphap-n4-03",
+  "title": "Ngữ pháp N4 03 – Vừa… vừa…: ながら・し",
+  "type": "grammar",
+  "level": "N4",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
+ },
+ "items": [
+  {
+   "id": "g:〜ながら",
+   "pattern": "〜ながら",
+   "level": "N4",
+   "meaning": "vừa (làm A) vừa (làm B) — hai hành động cùng lúc của cùng một người",
+   "structure": [
+    "Động từ thể ます bỏ ます + ながら + hành động chính",
+    "聞[き]きます → 聞[き]き → 聞[き]きながら",
+    "音楽[おんがく]を聞[き]きながら、走[はし]ります"
+   ],
+   "explain": "〜ながら nối hai hành động mà MỘT người làm CÙNG LÚC: \"vừa A vừa B\". Hành động đứng sau ながら mới là hành động chính, cái đứng trước chỉ là việc làm kèm. Ví dụ: 音楽[おんがく]を聞[き]きながら勉強[べんきょう]します = vừa nghe nhạc vừa học (việc chính là học).\n\nCách ghép: lấy thể ます, bỏ ます rồi thêm ながら: 食[た]べます → 食[た]べながら, 歩[ある]きます → 歩[ある]きながら, します → しながら. Thì và mức lịch sự của câu do động từ cuối quyết định: 話[はな]しながら食[た]べました.\n\nỞ xưởng hay nghe câu nhắc an toàn: 「スマホを見[み]ながら歩[ある]かないでください」 (đừng vừa đi vừa xem điện thoại). Lưu ý: hai việc phải của cùng một người. Hai người làm hai việc cùng lúc thì không dùng ながら (dùng 〜間[あいだ]に, 〜とき).\n\nMẹo nhớ: \"ながら\" ≈ \"trong lúc đang…\". Việc phụ trước, việc chính sau.",
+   "casual": "Khẩu ngữ giữ nguyên ながら. Có thể rút ngắn cả câu: 食[た]べながら話[はな]そ (vừa ăn vừa nói chuyện nhé).",
+   "compare": [
+    {
+     "pattern": "〜て、〜",
+     "diff": "〜て nối các việc theo THỨ TỰ (làm xong A rồi B). ながら là cùng lúc."
+    },
+    {
+     "pattern": "〜間[あいだ]に",
+     "diff": "〜間[あいだ]に: trong lúc A (có thể là người khác làm). ながら: cùng một người làm hai việc."
+    }
+   ],
+   "mistakes": [
+    "Dùng thể từ điển: 聞[き]くながら ✗ → 聞[き]きながら.",
+    "Đặt việc chính trước: 勉強[べんきょう]しながら音楽[おんがく]を聞[き]きます (việc chính thành nghe nhạc)."
+   ],
+   "ex": [
+    {
+     "jp": "音楽[おんがく]を[[聞[き]きながら]]、料理[りょうり]を作[つく]ります。",
+     "vi": "Tôi vừa nghe nhạc vừa nấu ăn.",
+     "ctx": "doisong",
+     "chunks": [
+      "音楽[おんがく]を",
+      "聞[き]きながら、",
+      "料理[りょうり]を",
+      "作[つく]ります"
+     ],
+     "wrong": [
+      "聞[き]くながら",
+      "聞[き]いてながら"
+     ]
+    },
+    {
+     "jp": "テレビを[[見[み]ながら]]、ご飯[はん]を食[た]べます。",
+     "vi": "Vừa xem ti vi vừa ăn cơm.",
+     "ctx": "doisong",
+     "chunks": [
+      "テレビを",
+      "見[み]ながら、",
+      "ご飯[はん]を",
+      "食[た]べます"
+     ],
+     "wrong": [
+      "見[み]るながら",
+      "見[み]てから"
+     ]
+    },
+    {
+     "jp": "子供[こども]と[[話[はな]しながら]]、公園[こうえん]を歩[ある]きました。",
+     "vi": "Tôi vừa nói chuyện với con vừa đi dạo công viên.",
+     "ctx": "doisong",
+     "chunks": [
+      "子供[こども]と",
+      "話[はな]しながら、",
+      "公園[こうえん]を",
+      "歩[ある]きました"
+     ],
+     "wrong": [
+      "話[はな]すながら",
+      "話[はな]してながら"
+     ]
+    },
+    {
+     "jp": "アルバイトを[[しながら]]、日本語[にほんご]学校[がっこう]に通[とお]っています。",
+     "vi": "Tôi vừa làm thêm vừa đi học trường tiếng Nhật.",
+     "ctx": "doisong",
+     "chunks": [
+      "アルバイトを",
+      "しながら、",
+      "日本語[にほんご]",
+      "学校[がっこう]に",
+      "通[とお]っています"
+     ],
+     "wrong": [
+      "するながら",
+      "しておきながら"
+     ]
+    },
+    {
+     "jp": "スマホを[[見[み]ながら]]歩[ある]かないでください。",
+     "vi": "Đừng vừa đi vừa xem điện thoại.",
+     "ctx": "xuong",
+     "chunks": [
+      "スマホを",
+      "見[み]ながら",
+      "歩[ある]かないでください"
+     ],
+     "wrong": [
+      "見[み]るながら",
+      "見[み]たながら"
+     ]
+    },
+    {
+     "jp": "先輩[せんぱい]のやり方[かた]を[[見[み]ながら]]、魚[さかな]の切[き]り方[かた]を覚[おぼ]えました。",
+     "vi": "Tôi vừa xem cách làm của đàn anh vừa học cách cắt cá.",
+     "ctx": "xuong",
+     "chunks": [
+      "先輩[せんぱい]の",
+      "やり方[かた]を",
+      "見[み]ながら、",
+      "魚[さかな]の",
+      "切[き]り方[かた]を",
+      "覚[おぼ]えました"
+     ],
+     "wrong": [
+      "見[み]ってながら",
+      "見[み]るながら"
+     ]
+    },
+    {
+     "jp": "リストを[[確認[かくにん]しながら]]、商品[しょうひん]を箱[はこ]に入[い]れます。",
+     "vi": "Vừa kiểm tra danh sách vừa cho hàng vào thùng.",
+     "ctx": "xuong",
+     "chunks": [
+      "リストを",
+      "確認[かくにん]しながら、",
+      "商品[しょうひん]を",
+      "箱[はこ]に",
+      "入[い]れます"
+     ],
+     "wrong": [
+      "確認[かくにん]するながら",
+      "確認[かくにん]してから"
+     ]
+    },
+    {
+     "jp": "説明[せつめい]を[[聞[き]きながら]]、申請書[しんせいしょ]に書[か]いてください。",
+     "vi": "Hãy vừa nghe hướng dẫn vừa điền vào đơn.",
+     "ctx": "thutuc",
+     "chunks": [
+      "説明[せつめい]を",
+      "聞[き]きながら、",
+      "申請書[しんせいしょ]に",
+      "書[か]いてください"
+     ],
+     "wrong": [
+      "聞[き]くながら",
+      "聞[き]きたいながら"
+     ]
+    },
+    {
+     "jp": "辞書[じしょ]を[[使[つか]いながら]]、市役所[しやくしょ]の書類[しょるい]を読[よ]みました。",
+     "vi": "Tôi vừa dùng từ điển vừa đọc giấy tờ của tòa thị chính.",
+     "ctx": "thutuc",
+     "chunks": [
+      "辞書[じしょ]を",
+      "使[つか]いながら、",
+      "市役所[しやくしょ]の",
+      "書類[しょるい]を",
+      "読[よ]みました"
+     ],
+     "wrong": [
+      "使[つか]うながら",
+      "使[つか]ってながら"
+     ]
+    },
+    {
+     "jp": "A：お茶[ちゃ]でも[[飲[の]みながら]]話[はな]しませんか。B：いいですね。",
+     "vi": "A: Vừa uống trà vừa nói chuyện nhé? B: Hay đấy.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "飲[の]むながら",
+      "飲[の]んでながら"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "ラジオを",
+      "聞[き]くながら",
+      "運転[うんてん]します"
+     ],
+     "vi": "Tôi vừa nghe radio vừa lái xe.",
+     "bad": 1,
+     "fix": "聞[き]きながら",
+     "why": "ながら nối với thể ます bỏ ます: 聞[き]き + ながら."
+    },
+    {
+     "chunks": [
+      "歩[ある]いてながら",
+      "電話[でんわ]を",
+      "しないでください"
+     ],
+     "vi": "Đừng vừa đi vừa gọi điện.",
+     "bad": 0,
+     "fix": "歩[ある]きながら",
+     "why": "Không dùng thể て trước ながら: 歩[ある]き + ながら."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Biển nhắc an toàn trong xưởng muốn nói: đừng vừa đi vừa dùng điện thoại.",
+     "opts": [
+      "スマホを使[つか]いながら歩[ある]かないでください。",
+      "スマホを使[つか]ってから歩[ある]いてください。",
+      "スマホを使[つか]う間[あいだ]に歩[ある]いてください。"
+     ],
+     "ans": 0,
+     "why": "Hai việc cùng lúc của một người → ながら."
+    }
+   ],
+   "shift": [
+    {
+     "from": "食[た]べながらしゃべったらあかんで。",
+     "to": "食[た]べながら話[はな]してはいけません。",
+     "kind": "kansai",
+     "note": "Kansai: 〜たらあかん = 〜てはいけない; しゃべる = nói chuyện (khẩu ngữ).",
+     "wrong": [
+      "食[た]べてから話[はな]してください。",
+      "食[た]べながら話[はな]してもいいです。"
+     ]
+    }
+   ],
+   "tpl": [
+    {
+     "f": "stem",
+     "suf": "ながら",
+     "tail": [
+      "音楽[おんがく]を聞[き]きます"
+     ],
+     "vi": "Vừa {VP} vừa nghe nhạc."
+    }
+   ]
+  },
+  {
+   "id": "g:〜し、〜し",
+   "pattern": "〜し、〜し",
+   "level": "N4",
+   "meaning": "vừa… lại vừa…; nào là… nào là… (nêu nhiều lý do, đặc điểm)",
+   "structure": [
+    "Thể thường + し: 安[やす]いし、近[ちか]いし",
+    "Tính từ な / danh từ + だし: 静[しず]かだし、便利[べんり]だし",
+    "Thể lịch sự cũng dùng được: 安[やす]いですし",
+    "Thường kết thúc: 〜し、〜（から）…"
+   ],
+   "explain": "〜し dùng để KỂ RA nhiều lý do hoặc nhiều đặc điểm cùng hướng: \"vừa… lại vừa…\", \"đã… lại còn…\". Ví dụ: この店[みせ]は安[やす]いし、おいしいし、よく来[き]ます = quán này vừa rẻ vừa ngon nên tôi hay đến.\n\nGhép với thể thường: động từ (行[い]くし, 行[い]ったし), tính từ い (高[たか]いし), tính từ な và danh từ thêm だ (きれいだし, 日曜日[にちようび]だし). Khi nói lịch sự có thể dùng ですし, ますし.\n\nĐiểm hay của し: chỉ cần nêu MỘT lý do + し là người nghe hiểu \"còn lý do khác nữa\". 「今日[きょう]は雨[あめ]だし、家[いえ]にいます」 = hôm nay trời mưa (với lại…), nên tôi ở nhà. Khi từ chối khéo người Nhật hay dùng: 「ちょっと疲[つか]れてるし…」.\n\nMẹo nhớ: し ≈ \"với lại\". Các ý phải cùng chiều (cùng tốt hoặc cùng xấu).",
+   "casual": "Khẩu ngữ rất hay dùng: 眠[ねむ]いし、帰[かえ]るわ. Kansai: 〜やし (= 〜だし): 雨[あめ]やし、やめとこ.",
+   "compare": [
+    {
+     "pattern": "〜から",
+     "diff": "から nêu MỘT lý do rõ ràng. し kể nhiều lý do, hoặc ngụ ý còn lý do khác."
+    },
+    {
+     "pattern": "〜て、〜",
+     "diff": "〜て nối đặc điểm đơn thuần (安[やす]くて、おいしい). し nhấn mạnh việc liệt kê và hay dẫn tới kết luận."
+    }
+   ],
+   "mistakes": [
+    "Quên だ với tính từ な/danh từ: 静[しず]かし ✗ → 静[しず]かだし.",
+    "Nối hai ý ngược chiều: 安[やす]いし、まずい ✗ (vừa rẻ vừa dở → dùng けど)."
+   ],
+   "ex": [
+    {
+     "jp": "この部屋[へや]は[[広[ひろ]いし]]、明[あか]るいです。",
+     "vi": "Căn phòng này vừa rộng vừa sáng.",
+     "ctx": "doisong",
+     "chunks": [
+      "この",
+      "部屋[へや]は",
+      "広[ひろ]いし、",
+      "明[あか]るいです"
+     ],
+     "wrong": [
+      "広[ひろ]くし",
+      "広[ひろ]いだし"
+     ]
+    },
+    {
+     "jp": "この店[みせ]は[[安[やす]いし]]、おいしいし、よく来[き]ます。",
+     "vi": "Quán này vừa rẻ vừa ngon nên tôi hay đến.",
+     "ctx": "doisong",
+     "chunks": [
+      "この",
+      "店[みせ]は",
+      "安[やす]いし、",
+      "おいしいし、",
+      "よく",
+      "来[き]ます"
+     ],
+     "wrong": [
+      "安[やす]いだし",
+      "安[やす]くて"
+     ]
+    },
+    {
+     "jp": "今日[きょう]は[[雨[あめ]だし]]、家[いえ]で映画[えいが]を見[み]ます。",
+     "vi": "Hôm nay trời mưa (với lại…) nên tôi ở nhà xem phim.",
+     "ctx": "doisong",
+     "chunks": [
+      "今日[きょう]は",
+      "雨[あめ]だし、",
+      "家[いえ]で",
+      "映画[えいが]を",
+      "見[み]ます"
+     ],
+     "wrong": [
+      "雨[あめ]し",
+      "雨[あめ]なし"
+     ]
+    },
+    {
+     "jp": "駅[えき]から[[近[ちか]いし]]、スーパーもあるし、便利[べんり]です。",
+     "vi": "Gần ga, lại có siêu thị nên tiện.",
+     "ctx": "doisong",
+     "chunks": [
+      "駅[えき]から",
+      "近[ちか]いし、",
+      "スーパーも",
+      "あるし、",
+      "便利[べんり]です"
+     ],
+     "wrong": [
+      "近[ちか]くし",
+      "近[ちか]いだし"
+     ]
+    },
+    {
+     "jp": "この仕事[しごと]は[[楽[らく]だし]]、給料[きゅうりょう]もいいです。",
+     "vi": "Công việc này vừa nhẹ nhàng, lương lại tốt.",
+     "ctx": "xuong",
+     "chunks": [
+      "この",
+      "仕事[しごと]は",
+      "楽[らく]だし、",
+      "給料[きゅうりょう]もいいです"
+     ],
+     "wrong": [
+      "楽[たの]し",
+      "楽[らく]なし"
+     ]
+    },
+    {
+     "jp": "田中[たなか]さんは[[親切[しんせつ]だし]]、教[おし]え方[かた]も上手[じょうず]です。",
+     "vi": "Anh Tanaka vừa tốt bụng vừa chỉ dạy giỏi.",
+     "ctx": "xuong",
+     "chunks": [
+      "田中[たなか]さんは",
+      "親切[しんせつ]だし、",
+      "教[おし]え方[かた]も",
+      "上手[じょうず]です"
+     ],
+     "wrong": [
+      "親切[しんせつ]し",
+      "親切[しんせつ]なし"
+     ]
+    },
+    {
+     "jp": "今日[きょう]は注文[ちゅうもん]も[[多[おお]いし]]、人[ひと]も少[すく]ないし、大変[たいへん]です。",
+     "vi": "Hôm nay vừa nhiều đơn lại ít người, vất vả quá.",
+     "ctx": "xuong",
+     "chunks": [
+      "今日[きょう]は",
+      "注文[ちゅうもん]も",
+      "多[おお]いし、",
+      "人[ひと]も",
+      "少[すく]ないし、",
+      "大変[たいへん]です"
+     ],
+     "wrong": [
+      "多[おお]くし",
+      "多[おお]いだし"
+     ]
+    },
+    {
+     "jp": "マイナンバーカードがあると、[[便利[べんり]だし]]、時間[じかん]もかかりません。",
+     "vi": "Có thẻ My Number vừa tiện lại không mất thời gian.",
+     "ctx": "thutuc",
+     "chunks": [
+      "マイナンバーカードが",
+      "あると、",
+      "便利[べんり]だし、",
+      "時間[じかん]も",
+      "かかりません"
+     ],
+     "wrong": [
+      "便利[べんり]し",
+      "便利[べんり]なし"
+     ]
+    },
+    {
+     "jp": "この申請書[しんせいしょ]は、字[じ]も[[小[ちい]さいし]]、言葉[ことば]も難[むずか]しいです。",
+     "vi": "Tờ đơn này chữ đã nhỏ lại còn dùng từ khó.",
+     "ctx": "thutuc",
+     "chunks": [
+      "この",
+      "申請書[しんせいしょ]は、",
+      "字[じ]も",
+      "小[ちい]さいし、",
+      "言葉[ことば]も",
+      "難[むずか]しいです"
+     ],
+     "wrong": [
+      "小[ちい]さくし",
+      "小[ちい]さいだし"
+     ]
+    },
+    {
+     "jp": "A：飲[の]みに行[い]きませんか。B：今日[きょう]はちょっと[[疲[つか]れているし]]…。",
+     "vi": "A: Đi uống không? B: Hôm nay tôi hơi mệt (với lại…)…",
+     "ctx": "hoithoai",
+     "wrong": [
+      "疲[つか]れているだし",
+      "疲[つか]れてし"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "この町[まち]は",
+      "静[しず]かし",
+      "安全[あんぜん]です"
+     ],
+     "vi": "Thị trấn này vừa yên tĩnh vừa an toàn.",
+     "bad": 1,
+     "fix": "静[しず]かだし",
+     "why": "Tính từ な + だし."
+    },
+    {
+     "chunks": [
+      "今日[きょう]は",
+      "休[やす]みだし",
+      "天気[てんき]が悪[わる]いし",
+      "出[で]かけます"
+     ],
+     "vi": "Hôm nay được nghỉ, trời lại đẹp nên tôi đi chơi.",
+     "bad": 2,
+     "fix": "天気[てんき]もいいし",
+     "why": "Các ý nối bằng し phải cùng chiều với kết luận: muốn đi chơi thì nêu lý do tốt."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Đồng nghiệp rủ đi nhậu. Bạn muốn từ chối khéo, gợi ý là có lý do.",
+     "opts": [
+      "すみません、明日[あした]は早番[はやばん]だし…。",
+      "いいえ、行[い]きません。",
+      "早番[はやばん]ですから、行[い]ってください。"
+     ],
+     "ans": 0,
+     "why": "Nêu một lý do + し rồi bỏ lửng là cách từ chối nhẹ nhàng kiểu Nhật."
+    }
+   ],
+   "shift": [
+    {
+     "from": "雨[あめ]やし、やめとこ。",
+     "to": "雨[あめ]だし、やめておきましょう。",
+     "kind": "kansai",
+     "note": "Kansai: やし = だし; やめとこ = やめておこう.",
+     "wrong": [
+      "雨[あめ]だから、行[い]きましょう。",
+      "雨[あめ]でも、行[い]きましょう。"
+     ]
+    }
+   ]
+  }
+ ]
+}

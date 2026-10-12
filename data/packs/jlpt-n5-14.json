@@ -8,7 +8,7 @@
     "topics": [
       "jlpt"
     ],
-    "version": 2,
+    "version": 4,
     "created": "2026-10-11",
     "verified_on": "",
     "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -40,7 +40,7 @@
       "kana": "どこ",
       "kanji": "",
       "hv": "",
-      "vi": "ở đâu",
+      "vi": "ở đâu (thông thường)",
       "pos": "n",
       "level": "N5",
       "topics": [
@@ -247,7 +247,7 @@
       "kana": "とても",
       "kanji": "",
       "hv": "",
-      "vi": "rất",
+      "vi": "rất (thông thường)",
       "pos": "adv",
       "level": "N5",
       "topics": [
@@ -264,7 +264,10 @@
       "confuse": [
         "v:少し:すこし"
       ],
-      "note": "Kansai hay nói めっちゃ."
+      "note": "Kansai hay nói めっちゃ.",
+      "syn": [
+        "v:めっちゃ:めっちゃ"
+      ]
     },
     {
       "id": "v:少し:すこし",
@@ -299,7 +302,7 @@
       "kana": "たくさん",
       "kanji": "",
       "hv": "",
-      "vi": "nhiều",
+      "vi": "nhiều, rất nhiều (phó từ, số lượng)",
       "pos": "adv",
       "level": "N5",
       "topics": [
@@ -367,7 +370,7 @@
       "kana": "ぜんぶ",
       "kanji": "全部",
       "hv": "TOÀN BỘ",
-      "vi": "tất cả, toàn bộ",
+      "vi": "tất cả, toàn bộ (đồ vật, việc)",
       "pos": "n",
       "level": "N5",
       "topics": [
@@ -515,7 +518,7 @@
       "kana": "もっと",
       "kanji": "",
       "hv": "",
-      "vi": "hơn nữa",
+      "vi": "hơn nữa (mức độ: nhiều hơn)",
       "pos": "adv",
       "level": "N5",
       "topics": [
@@ -558,7 +561,7 @@
       "kana": "だいたい",
       "kanji": "大体",
       "hv": "ĐẠI THỂ",
-      "vi": "đại khái, phần lớn",
+      "vi": "đại khái, khoảng chừng; phần lớn (đa số)",
       "pos": "adv",
       "level": "N5",
       "topics": [
@@ -626,7 +629,7 @@
       "kana": "そして",
       "kanji": "",
       "hv": "",
-      "vi": "và, rồi thì",
+      "vi": "và, rồi thì (nối ý, liệt kê)",
       "pos": "other",
       "level": "N5",
       "topics": [
@@ -649,7 +652,7 @@
       "kana": "それから",
       "kanji": "",
       "hv": "",
-      "vi": "sau đó, tiếp theo",
+      "vi": "sau đó, rồi thì (nối câu)",
       "pos": "other",
       "level": "N5",
       "topics": [
@@ -760,7 +763,7 @@
       "kana": "みんな",
       "kanji": "",
       "hv": "",
-      "vi": "mọi người; tất cả",
+      "vi": "mọi người (thân mật); tất cả (mọi người, mọi thứ)",
       "pos": "n",
       "level": "N5",
       "topics": [

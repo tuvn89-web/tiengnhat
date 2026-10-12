@@ -1,0 +1,585 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n4-20",
+  "title": "JLPT N4 20 – Từ chung, hậu tố, từ chỉ định, katakana",
+  "type": "vocab",
+  "level": "N4",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:仕方:しかた",
+   "kana": "しかた",
+   "kanji": "仕方",
+   "hv": "SĨ PHƯƠNG",
+   "vi": "cách làm",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ chung",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "申請[しんせい]の仕方[しかた]を教[おし]えてください。",
+     "vi": "Hãy chỉ tôi cách nộp đơn.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "仕方[しかた]がないので、明日[あした]もう一度[いちど]来[き]ます。",
+     "vi": "Đành chịu, mai tôi quay lại.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "仕方[しかた]がない = đành chịu, hết cách."
+  },
+  {
+   "id": "v:訳:わけ",
+   "kana": "わけ",
+   "kanji": "訳",
+   "hv": "DỊCH",
+   "vi": "lý do, nguyên cớ (sự tình)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ chung",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "遅[おく]れた訳[わけ]を説明[せつめい]してください。",
+     "vi": "Hãy giải thích lý do đến muộn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "そういう訳[わけ]で、来月[らいげつ]国[くに]に帰[かえ]ります。",
+     "vi": "Vì lý do đó, tháng sau tôi về nước.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:理由:りゆう"
+   ]
+  },
+  {
+   "id": "v:為:ため",
+   "kana": "ため",
+   "kanji": "為",
+   "hv": "VI",
+   "vi": "để, vì (mục đích, lợi ích)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ chung",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家族[かぞく]のために働[はたら]いています。",
+     "vi": "Tôi làm việc vì gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "安全[あんぜん]のため、ヘルメットをかぶってください。",
+     "vi": "Để an toàn, hãy đội mũ bảo hộ.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Thường viết chữ mềm ため. Xem ngữ pháp 〜ために."
+  },
+  {
+   "id": "v:事:こと",
+   "kana": "こと",
+   "kanji": "事",
+   "hv": "SỰ",
+   "vi": "việc, chuyện (trừu tượng)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ chung",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大事[だいじ]な事[こと]を忘[わす]れていました。",
+     "vi": "Tôi quên mất việc quan trọng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "分[わ]からない事[こと]は、何[なん]でも聞[き]いてください。",
+     "vi": "Việc gì không hiểu cứ hỏi.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:物:もの"
+   ],
+   "note": "Thường viết chữ mềm こと. 事[こと] = việc (trừu tượng), 物[もの] = đồ (vật cụ thể)."
+  },
+  {
+   "id": "v:形:かたち",
+   "kana": "かたち",
+   "kanji": "形",
+   "hv": "HÌNH",
+   "vi": "hình dạng",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ chung",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この魚[さかな]は形[かたち]がきれいです。",
+     "vi": "Con cá này dáng đẹp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "星[ほし]の形[かたち]のクッキーを作[つく]りました。",
+     "vi": "Tôi làm bánh quy hình ngôi sao.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:忘れ物:わすれもの",
+   "kana": "わすれもの",
+   "kanji": "忘れ物",
+   "kf": "忘[わす]れ物[もの]",
+   "hv": "VONG VẬT",
+   "vi": "đồ bỏ quên",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Từ chung",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "電車[でんしゃ]に忘[わす]れ物[もの]をしました。",
+     "vi": "Tôi để quên đồ trên tàu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "帰[かえ]る前[まえ]に、忘[わす]れ物[もの]がないか確認[かくにん]してください。",
+     "vi": "Trước khi về hãy kiểm tra có quên đồ không.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:忘れる:わすれる"
+   ]
+  },
+  {
+   "id": "v:軒:けん",
+   "kana": "けん",
+   "kanji": "軒",
+   "hv": "HIÊN",
+   "vi": "căn (đếm nhà, cửa hàng)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hậu tố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この通[とお]りには、ラーメン屋[や]が三[さん]軒[けん]あります。",
+     "vi": "Phố này có ba quán ramen.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "隣[となり]の二[に]軒[けん]は空[あ]き家[や]です。",
+     "vi": "Hai căn nhà bên cạnh bỏ trống.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "一軒[いっけん], 二軒[にけん], 三軒[さんげん]."
+  },
+  {
+   "id": "v:式:しき",
+   "kana": "しき",
+   "kanji": "式",
+   "hv": "THỨC",
+   "vi": "lễ, nghi thức; kiểu ~",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hậu tố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来週[らいしゅう]、入社式[にゅうしゃしき]があります。",
+     "vi": "Tuần sau có lễ vào công ty.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本[にほん]式[しき]のお風呂[ふろ]に入[はい]りました。",
+     "vi": "Tôi tắm bồn kiểu Nhật.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "結婚式[けっこんしき] (lễ cưới), 卒業式[そつぎょうしき] (lễ tốt nghiệp)."
+  },
+  {
+   "id": "v:建て:だて",
+   "kana": "だて",
+   "kanji": "建て",
+   "kf": "建[だ]て",
+   "hv": "KIẾN",
+   "vi": "(nhà) … tầng",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hậu tố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]は五[ご]階[かい]建[だ]てのビルです。",
+     "vi": "Công ty là tòa nhà 5 tầng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "二[に]階[かい]建[だ]ての家[いえ]に住[す]みたいです。",
+     "vi": "Tôi muốn sống trong nhà hai tầng.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:おき:おき",
+   "kana": "おき",
+   "kanji": "",
+   "hv": "",
+   "vi": "cách (… một lần)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hậu tố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "薬[くすり]は六[ろく]時間[じかん]おきに飲[の]んでください。",
+     "vi": "Uống thuốc cách 6 tiếng một lần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一[いち]日[にち]おきに夜勤[やきん]があります。",
+     "vi": "Cách một ngày có một ca đêm.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "一日[いちにち]おき = cách ngày."
+  },
+  {
+   "id": "v:御:ご",
+   "kana": "ご",
+   "kanji": "御",
+   "hv": "NGỰ",
+   "vi": "(tiền tố kính ngữ)",
+   "pos": "other",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hậu tố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ご家族[かぞく]はお元気[げんき]ですか。",
+     "vi": "Gia đình anh có khỏe không ạ?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ご質問[しつもん]があれば、どうぞ。",
+     "vi": "Có câu hỏi xin cứ hỏi ạ.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "ご + từ Hán (ご家族[かぞく], ご連絡[れんらく]); お + từ thuần Nhật (お名前[なまえ], お水[みず])."
+  },
+  {
+   "id": "v:そんな:そんな",
+   "kana": "そんな",
+   "kanji": "",
+   "hv": "",
+   "vi": "như thế, như vậy (gần người nghe)",
+   "pos": "other",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chỉ định",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "そんなことは言[い]っていません。",
+     "vi": "Tôi không nói chuyện như thế.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：明日[あした]、休[やす]むの？B：そんな予定[よてい]はないよ。",
+     "vi": "A: Mai nghỉ à? B: Không có dự định như vậy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    {
+     "w": "こんな",
+     "vi": "như thế này"
+    }
+   ]
+  },
+  {
+   "id": "v:あんな:あんな",
+   "kana": "あんな",
+   "kanji": "",
+   "hv": "",
+   "vi": "như kia, như thế kia (xa cả hai)",
+   "pos": "other",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chỉ định",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "あんな大[おお]きい魚[さかな]、初[はじ]めて見[み]ました。",
+     "vi": "Lần đầu thấy con cá to như thế kia.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "私[わたし]もあんな家[いえ]に住[す]みたいです。",
+     "vi": "Tôi cũng muốn sống trong căn nhà như thế kia.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "こんな",
+     "vi": "như thế này"
+    }
+   ]
+  },
+  {
+   "id": "v:こう:こう",
+   "kana": "こう",
+   "kanji": "",
+   "hv": "",
+   "vi": "như thế này",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chỉ định",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]はこう持[も]ってください。",
+     "vi": "Hãy cầm thùng như thế này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：こうですか。B：はい、そうです。",
+     "vi": "A: Như thế này ạ? B: Vâng, đúng rồi.",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:そう:そう",
+   "kana": "そう",
+   "kanji": "",
+   "hv": "",
+   "vi": "như vậy, đúng vậy (trả lời, đồng ý)",
+   "pos": "adv",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chỉ định",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]もそう思[おも]います。",
+     "vi": "Tôi cũng nghĩ vậy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：明日[あした]は休[やす]みですか。B：はい、そうです。",
+     "vi": "A: Mai nghỉ phải không? B: Vâng, đúng vậy.",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:オーバー:オーバー",
+   "kana": "オーバー",
+   "kanji": "",
+   "hv": "",
+   "vi": "vượt quá (giới hạn, thời gian)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Katakana",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "予算[よさん]をオーバーしました。",
+     "vi": "Vượt quá ngân sách.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]の時間[じかん]がオーバーしないように、タイマーを使[つか]います。",
+     "vi": "Dùng đồng hồ hẹn giờ để không quá thời gian ở kho đông.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "時間[じかん]をオーバーする",
+     "vi": "quá giờ"
+    }
+   ],
+   "goc": "over (tiếng Anh)"
+  },
+  {
+   "id": "v:コンサート:コンサート",
+   "kana": "コンサート",
+   "kanji": "",
+   "hv": "",
+   "vi": "buổi hòa nhạc",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Katakana",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "週末[しゅうまつ]、コンサートに行[い]きます。",
+     "vi": "Cuối tuần tôi đi hòa nhạc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "コンサートのチケットを買[か]いました。",
+     "vi": "Tôi mua vé hòa nhạc.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "concert (tiếng Anh)"
+  },
+  {
+   "id": "v:コンピューター:コンピューター",
+   "kana": "コンピューター",
+   "kanji": "",
+   "hv": "",
+   "vi": "máy tính",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Katakana",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "コンピューターで在庫[ざいこ]を管理[かんり]しています。",
+     "vi": "Quản lý hàng tồn kho bằng máy tính.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "コンピューターが動[うご]かなくなりました。",
+     "vi": "Máy tính không chạy nữa.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    {
+     "w": "パソコン",
+     "vi": "máy tính cá nhân"
+    }
+   ],
+   "goc": "computer (tiếng Anh)"
+  },
+  {
+   "id": "v:ピアノ:ピアノ",
+   "kana": "ピアノ",
+   "kanji": "",
+   "hv": "",
+   "vi": "đàn piano",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Katakana",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "娘[むすめ]はピアノを習[なら]っています。",
+     "vi": "Con gái tôi học piano.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ピアノの音[おと]が聞[き]こえます。",
+     "vi": "Nghe thấy tiếng piano.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "piano (tiếng Ý)"
+  },
+  {
+   "id": "v:ソフト:ソフト",
+   "kana": "ソフト",
+   "kanji": "",
+   "hv": "",
+   "vi": "phần mềm; mềm (khẩu ngữ)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Katakana",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しいソフトを入[い]れました。",
+     "vi": "Tôi cài phần mềm mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ソフトクリームを食[た]べました。",
+     "vi": "Tôi ăn kem ốc quế.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "software / soft (tiếng Anh)"
+  }
+ ]
+}

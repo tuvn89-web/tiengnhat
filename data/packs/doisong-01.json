@@ -1,0 +1,912 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "doisong-01",
+  "title": "Đời sống 01 – Rác, ngân hàng, bệnh viện, thiên tai",
+  "type": "vocab",
+  "level": "N4",
+  "topics": [
+   "doisong"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Từ đời sống ở Nhật: cấp là ước lượng. Cách phân loại rác và lịch thu gom khác nhau theo từng thành phố — xem tờ hướng dẫn của nơi mình ở."
+ },
+ "items": [
+  {
+   "id": "v:燃えるゴミ:もえるゴミ",
+   "kana": "もえるゴミ",
+   "kanji": "燃えるゴミ",
+   "kf": "燃[も]えるゴミ",
+   "hv": "NHIÊN",
+   "vi": "rác cháy được",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Rác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "燃[も]えるゴミは、月曜日[げつようび]と木曜日[もくようび]に出[だ]します。",
+     "vi": "Rác cháy được đổ vào thứ Hai và thứ Năm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "生[なま]ゴミは燃[も]えるゴミです。",
+     "vi": "Rác thực phẩm là rác cháy được.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:燃えないゴミ:もえないゴミ"
+   ]
+  },
+  {
+   "id": "v:燃えないゴミ:もえないゴミ",
+   "kana": "もえないゴミ",
+   "kanji": "燃えないゴミ",
+   "kf": "燃[も]えないゴミ",
+   "hv": "NHIÊN",
+   "vi": "rác không cháy được",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Rác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "割[わ]れたお皿[さら]は燃[も]えないゴミです。",
+     "vi": "Đĩa vỡ là rác không cháy được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "燃[も]えないゴミは、月[つき]に二[に]回[かい]だけです。",
+     "vi": "Rác không cháy được chỉ thu hai lần một tháng.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:燃えるゴミ:もえるゴミ"
+   ]
+  },
+  {
+   "id": "v:資源ゴミ:しげんゴミ",
+   "kana": "しげんゴミ",
+   "kanji": "資源ゴミ",
+   "kf": "資源[しげん]ゴミ",
+   "hv": "TƯ NGUYÊN",
+   "vi": "rác tái chế",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Rác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "缶[かん]や瓶[びん]は資源[しげん]ゴミです。",
+     "vi": "Lon và chai thủy tinh là rác tái chế.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "資源[しげん]ゴミは、洗[あら]ってから出[だ]してください。",
+     "vi": "Rác tái chế hãy rửa sạch rồi mới đổ.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:粗大ゴミ:そだいゴミ",
+   "kana": "そだいゴミ",
+   "kanji": "粗大ゴミ",
+   "kf": "粗大[そだい]ゴミ",
+   "hv": "THÔ ĐẠI",
+   "vi": "rác cỡ lớn (đồ đạc to)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Rác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "古[ふる]い自転車[じてんしゃ]は粗大[そだい]ゴミです。",
+     "vi": "Xe đạp cũ là rác cỡ lớn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "粗大[そだい]ゴミは、電話[でんわ]で申[もう]し込[こ]んでから出[だ]します。",
+     "vi": "Rác cỡ lớn phải gọi điện đăng ký rồi mới đổ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Thường phải mua tem (シール) dán lên đồ."
+  },
+  {
+   "id": "v:ペットボトル:ペットボトル",
+   "kana": "ペットボトル",
+   "kanji": "",
+   "hv": "",
+   "vi": "chai nhựa PET",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Rác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ペットボトルは、ふたとラベルを取[と]って出[だ]します。",
+     "vi": "Chai nhựa phải bỏ nắp và nhãn rồi mới đổ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "水[みず]のペットボトルを買[か]いました。",
+     "vi": "Tôi mua chai nước.",
+     "ctx": "doisong"
+    }
+   ],
+   "ctr": "本",
+   "goc": "PET bottle (tiếng Anh)",
+   "wasei": true
+  },
+  {
+   "id": "v:缶:かん",
+   "kana": "かん",
+   "kanji": "缶",
+   "hv": "PHẪU",
+   "vi": "lon, hộp kim loại",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Rác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "缶[かん]はつぶして出[だ]します。",
+     "vi": "Lon thì bóp dẹp rồi mới đổ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ジュースの缶[かん]を開[あ]けました。",
+     "vi": "Tôi mở lon nước ngọt.",
+     "ctx": "doisong"
+    }
+   ],
+   "ctr": "本"
+  },
+  {
+   "id": "v:瓶:びん",
+   "kana": "びん",
+   "kanji": "瓶",
+   "hv": "BÌNH",
+   "vi": "chai thủy tinh, lọ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Rác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "空[あ]いた瓶[びん]は、資源[しげん]ゴミの日[ひ]に出[だ]します。",
+     "vi": "Chai rỗng đổ vào ngày rác tái chế.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "醤油[しょうゆ]の瓶[びん]が割[わ]れました。",
+     "vi": "Chai nước tương bị vỡ.",
+     "ctx": "doisong"
+    }
+   ],
+   "ctr": "本"
+  },
+  {
+   "id": "v:分別:ぶんべつ",
+   "kana": "ぶんべつ",
+   "kanji": "分別",
+   "hv": "PHÂN BIỆT",
+   "vi": "phân loại (rác)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Rác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ゴミはきちんと分別[ぶんべつ]してください。",
+     "vi": "Hãy phân loại rác cẩn thận.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]でも、ゴミを分別[ぶんべつ]します。",
+     "vi": "Ở xưởng cũng phân loại rác.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ゴミを分別[ぶんべつ]する",
+     "vi": "phân loại rác"
+    }
+   ]
+  },
+  {
+   "id": "v:収集日:しゅうしゅうび",
+   "kana": "しゅうしゅうび",
+   "kanji": "収集日",
+   "hv": "THU TẬP NHẬT",
+   "vi": "ngày thu gom (rác)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Rác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ゴミは収集[しゅうしゅう]日[ひ]の朝[あさ]八[はち]時[じ]までに出[だ]してください。",
+     "vi": "Đổ rác trước 8 giờ sáng ngày thu gom.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "収集[しゅうしゅう]日[ひ]を間違[まちが]えると、ゴミを持[も]っていってくれません。",
+     "vi": "Nhầm ngày thu gom thì rác không được lấy đi.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:口座:こうざ",
+   "kana": "こうざ",
+   "kanji": "口座",
+   "hv": "KHẨU TỌA",
+   "vi": "tài khoản (ngân hàng)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Ngân hàng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "給料[きゅうりょう]は、この口座[こうざ]に振[ふ]り込[こ]まれます。",
+     "vi": "Lương được chuyển vào tài khoản này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "口座[こうざ]を作[つく]るには、在留[ざいりゅう]カードが必要[ひつよう]です。",
+     "vi": "Mở tài khoản cần thẻ cư trú.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Về nước hẳn thì nhớ đóng tài khoản — không bán, không cho mượn tài khoản (phạm pháp)."
+  },
+  {
+   "id": "v:通帳:つうちょう",
+   "kana": "つうちょう",
+   "kanji": "通帳",
+   "hv": "THÔNG TRƯỚNG",
+   "vi": "sổ tài khoản ngân hàng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Ngân hàng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "通帳[つうちょう]に記入[きにゅう]してもらいました。",
+     "vi": "Tôi được in sổ (cập nhật giao dịch).",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "通帳[つうちょう]と印鑑[いんかん]を持[も]って銀行[ぎんこう]へ行[い]きます。",
+     "vi": "Mang sổ và con dấu ra ngân hàng.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:キャッシュカード:キャッシュカード",
+   "kana": "キャッシュカード",
+   "kanji": "",
+   "hv": "",
+   "vi": "thẻ rút tiền (ATM)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Ngân hàng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "キャッシュカードでお金[かね]を引[ひ]き出[だ]します。",
+     "vi": "Rút tiền bằng thẻ ATM.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "キャッシュカードをなくしたら、すぐ銀行[ぎんこう]に電話[でんわ]してください。",
+     "vi": "Mất thẻ ATM thì gọi ngân hàng ngay.",
+     "ctx": "thutuc"
+    }
+   ],
+   "goc": "cash card (tiếng Anh)",
+   "wasei": true
+  },
+  {
+   "id": "v:暗証番号:あんしょうばんごう",
+   "kana": "あんしょうばんごう",
+   "kanji": "暗証番号",
+   "hv": "ÁM CHỨNG PHIÊN HIỆU",
+   "vi": "mã PIN",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Ngân hàng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "暗証番号[あんしょうばんごう]は、だれにも教[おし]えないでください。",
+     "vi": "Đừng nói mã PIN cho ai.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "暗証番号[あんしょうばんごう]を何回[なんかい]も間違[まちが]えると、カードが使[つか]えなくなることがあります。",
+     "vi": "Sai mã PIN nhiều lần thì thẻ có thể bị khóa.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:引き出す:ひきだす",
+   "kana": "ひきだす",
+   "kanji": "引き出す",
+   "kf": "引[ひ]き出[だ]す",
+   "hv": "DẪN XUẤT",
+   "vi": "rút (tiền)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Ngân hàng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ATMで三万[さんまん]円[えん]引[ひ]き出[だ]しました。",
+     "vi": "Tôi rút 3 vạn yên ở ATM.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "コンビニでもお金[かね]が引[ひ]き出[だ]せます。",
+     "vi": "Ở cửa hàng tiện lợi cũng rút tiền được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "給料日[きゅうりょうび]は、引[ひ]き出[だ]す人[ひと]でATMが込[こ]みます。",
+     "vi": "Ngày lĩnh lương ATM đông người rút tiền.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "お金[かね]を引[ひ]き出[だ]す",
+     "vi": "rút tiền"
+    }
+   ],
+   "ant": [
+    "v:預ける:あずける"
+   ]
+  },
+  {
+   "id": "v:預ける:あずける",
+   "kana": "あずける",
+   "kanji": "預ける",
+   "kf": "預[あず]ける",
+   "hv": "DỰ",
+   "vi": "gửi giữ (tiền ở ngân hàng, đồ, con)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Ngân hàng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "銀行[ぎんこう]にお金[かね]を預[あず]けます。",
+     "vi": "Gửi tiền vào ngân hàng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "荷物[にもつ]を駅[えき]のロッカーに預[あず]けました。",
+     "vi": "Tôi gửi hành lý ở tủ khóa nhà ga.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "子供[こども]を保育園[ほいくえん]に預[あず]けて、仕事[しごと]に行[い]きます。",
+     "vi": "Gửi con ở nhà trẻ rồi đi làm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "お金[かね]を預[あず]ける",
+     "vi": "gửi tiền"
+    }
+   ],
+   "ant": [
+    "v:引き出す:ひきだす"
+   ]
+  },
+  {
+   "id": "v:送金:そうきん",
+   "kana": "そうきん",
+   "kanji": "送金",
+   "hv": "TỐNG KIM",
+   "vi": "chuyển tiền (về nước)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Ngân hàng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎月[まいつき]、国[くに]の家族[かぞく]に送金[そうきん]しています。",
+     "vi": "Hằng tháng tôi chuyển tiền cho gia đình ở quê.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "送金[そうきん]の手数料[てすうりょう]を比[くら]べてから、会社[かいしゃ]を選[えら]びます。",
+     "vi": "So phí chuyển tiền rồi mới chọn công ty.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "家族[かぞく]に送金[そうきん]する",
+     "vi": "chuyển tiền cho gia đình"
+    }
+   ],
+   "note": "Chỉ dùng công ty chuyển tiền có đăng ký chính thức."
+  },
+  {
+   "id": "v:保険証:ほけんしょう",
+   "kana": "ほけんしょう",
+   "kanji": "保険証",
+   "hv": "BẢO HIỂM CHỨNG",
+   "vi": "thẻ bảo hiểm y tế",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Bệnh viện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "病院[びょういん]では、受付[うけつけ]で保険証[ほけんしょう]を出[だ]します。",
+     "vi": "Ở bệnh viện, nộp thẻ bảo hiểm ở quầy tiếp nhận.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "保険証[ほけんしょう]がないと、医療費[いりょうひ]が高[たか]くなります。",
+     "vi": "Không có thẻ bảo hiểm thì viện phí cao.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Hiện nay thẻ My Number có thể dùng làm thẻ bảo hiểm."
+  },
+  {
+   "id": "v:診察:しんさつ",
+   "kana": "しんさつ",
+   "kanji": "診察",
+   "hv": "CHẨN SÁT",
+   "vi": "khám bệnh",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Bệnh viện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先生[せんせい]に診察[しんさつ]してもらいました。",
+     "vi": "Tôi được bác sĩ khám.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "診察[しんさつ]の順番[じゅんばん]を待[ま]っています。",
+     "vi": "Đang chờ đến lượt khám.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "患者[かんじゃ]を診察[しんさつ]する",
+     "vi": "khám bệnh nhân"
+    }
+   ]
+  },
+  {
+   "id": "v:薬局:やっきょく",
+   "kana": "やっきょく",
+   "kanji": "薬局",
+   "hv": "DƯỢC CỤC",
+   "vi": "hiệu thuốc",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Bệnh viện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "処方箋[しょほうせん]を持[も]って、薬局[やっきょく]に行[い]きます。",
+     "vi": "Mang đơn thuốc ra hiệu thuốc.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "駅前[えきまえ]の薬局[やっきょく]で、風邪薬[かぜぐすり]を買[か]いました。",
+     "vi": "Tôi mua thuốc cảm ở hiệu thuốc trước ga.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:処方箋:しょほうせん",
+   "kana": "しょほうせん",
+   "kanji": "処方箋",
+   "hv": "XỬ PHƯƠNG TIÊN",
+   "vi": "đơn thuốc",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Bệnh viện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "病院[びょういん]で処方箋[しょほうせん]をもらいました。",
+     "vi": "Tôi nhận đơn thuốc ở bệnh viện.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "処方箋[しょほうせん]がないと買[か]えない薬[くすり]もあります。",
+     "vi": "Có thuốc không có đơn thì không mua được.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:内科:ないか",
+   "kana": "ないか",
+   "kanji": "内科",
+   "hv": "NỘI KHOA",
+   "vi": "khoa nội",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Bệnh viện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "熱[ねつ]があるので、内科[ないか]に行[い]きます。",
+     "vi": "Bị sốt nên tôi đi khoa nội.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "内科[ないか]の受付[うけつけ]は一[いち]階[かい]です。",
+     "vi": "Quầy khoa nội ở tầng 1.",
+     "ctx": "thutuc"
+    }
+   ],
+   "ant": [
+    "v:外科:げか"
+   ]
+  },
+  {
+   "id": "v:外科:げか",
+   "kana": "げか",
+   "kanji": "外科",
+   "hv": "NGOẠI KHOA",
+   "vi": "khoa ngoại",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Bệnh viện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "指[ゆび]を切[き]って、外科[げか]で縫[ぬ]ってもらいました。",
+     "vi": "Đứt tay nên được khâu ở khoa ngoại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "骨[ほね]が折[お]れたら、外科[げか]へ行[い]きます。",
+     "vi": "Gãy xương thì đi khoa ngoại.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:内科:ないか"
+   ]
+  },
+  {
+   "id": "v:救急車:きゅうきゅうしゃ",
+   "kana": "きゅうきゅうしゃ",
+   "kanji": "救急車",
+   "hv": "CỨU CẤP XA",
+   "vi": "xe cấp cứu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Bệnh viện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "救急車[きゅうきゅうしゃ]を呼[よ]んでください！",
+     "vi": "Gọi xe cấp cứu đi!",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "救急車[きゅうきゅうしゃ]は119番[ばん]で呼[よ]びます。",
+     "vi": "Gọi xe cấp cứu bằng số 119.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "119 = cứu hỏa và cấp cứu; 110 = cảnh sát."
+  },
+  {
+   "id": "v:防災:ぼうさい",
+   "kana": "ぼうさい",
+   "kanji": "防災",
+   "hv": "PHÒNG TAI",
+   "vi": "phòng chống thiên tai",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "防災[ぼうさい]グッズを準備[じゅんび]しておきましょう。",
+     "vi": "Hãy chuẩn bị sẵn đồ phòng chống thiên tai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "市[し]の防災[ぼうさい]メールに登録[とうろく]しました。",
+     "vi": "Tôi đăng ký email phòng chống thiên tai của thành phố.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:避難所:ひなんじょ",
+   "kana": "ひなんじょ",
+   "kanji": "避難所",
+   "hv": "TỊ NAN SỞ",
+   "vi": "nơi lánh nạn",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "近[ちか]くの小学校[しょうがっこう]が避難[ひなん]所[しょ]です。",
+     "vi": "Trường tiểu học gần đây là nơi lánh nạn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "避難[ひなん]所[しょ]の場所[ばしょ]を、ハザードマップで確認[かくにん]しましょう。",
+     "vi": "Hãy xem vị trí nơi lánh nạn trên bản đồ nguy cơ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:避難:ひなん"
+   ]
+  },
+  {
+   "id": "v:非常食:ひじょうしょく",
+   "kana": "ひじょうしょく",
+   "kanji": "非常食",
+   "hv": "PHI THƯỜNG THỰC",
+   "vi": "đồ ăn dự trữ khẩn cấp",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "水[みず]と非常食[ひじょうしょく]を三日[みっか]分[ぶん]用意[ようい]しています。",
+     "vi": "Tôi chuẩn bị sẵn nước và đồ ăn khẩn cấp cho 3 ngày.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "非常食[ひじょうしょく]の賞味期限[しょうみきげん]を確認[かくにん]します。",
+     "vi": "Kiểm tra hạn dùng của đồ ăn khẩn cấp.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:警報:けいほう",
+   "kana": "けいほう",
+   "kanji": "警報",
+   "hv": "CẢNH BÁO",
+   "vi": "cảnh báo (thời tiết, thiên tai)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大雨警報[おおあめけいほう]が出[で]ています。",
+     "vi": "Đang có cảnh báo mưa lớn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "警報[けいほう]が出[で]たら、工場[こうじょう]は休[やす]みになることがあります。",
+     "vi": "Có cảnh báo thì nhà máy có thể nghỉ.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "注意報[ちゅういほう]",
+     "vi": "khuyến cáo (nhẹ hơn 警報)"
+    }
+   ]
+  },
+  {
+   "id": "v:停電:ていでん",
+   "kana": "ていでん",
+   "kanji": "停電",
+   "hv": "ĐÌNH ĐIỆN",
+   "vi": "mất điện",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台風[たいふう]で停電[ていでん]しました。",
+     "vi": "Mất điện vì bão.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "停電[ていでん]の時[とき]は、冷凍庫[れいとうこ]を開[あ]けないでください。",
+     "vi": "Khi mất điện đừng mở kho đông.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:断水:だんすい",
+   "kana": "だんすい",
+   "kanji": "断水",
+   "hv": "ĐOẠN THỦY",
+   "vi": "mất nước, cắt nước",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工事[こうじ]で、明日[あした]の午前中[ごぜんちゅう]は断水[だんすい]します。",
+     "vi": "Do thi công, sáng mai cắt nước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "地震[じしん]で断水[だんすい]が続[つづ]いています。",
+     "vi": "Mất nước kéo dài do động đất.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:ハザードマップ:ハザードマップ",
+   "kana": "ハザードマップ",
+   "kanji": "",
+   "hv": "",
+   "vi": "bản đồ nguy cơ thiên tai",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ハザードマップで、家[いえ]の周[まわ]りの危険[きけん]を調[しら]べました。",
+     "vi": "Tôi xem nguy cơ quanh nhà trên bản đồ nguy cơ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ハザードマップは市役所[しやくしょ]でもらえます。",
+     "vi": "Bản đồ nguy cơ nhận được ở tòa thị chính.",
+     "ctx": "thutuc"
+    }
+   ],
+   "goc": "hazard map (tiếng Anh)"
+  },
+  {
+   "id": "v:津波:つなみ",
+   "kana": "つなみ",
+   "kanji": "津波",
+   "hv": "TÂN BA",
+   "vi": "sóng thần",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "doisong"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地震[じしん]の後[あと]は、津波[つなみ]に注意[ちゅうい]してください。",
+     "vi": "Sau động đất hãy cẩn thận sóng thần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "津波[つなみ]の時[とき]は、高[たか]い所[ところ]に逃[に]げます。",
+     "vi": "Khi sóng thần thì chạy lên chỗ cao.",
+     "ctx": "thutuc"
+    }
+   ]
+  }
+ ]
+}

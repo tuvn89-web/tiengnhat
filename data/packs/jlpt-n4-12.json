@@ -1,0 +1,1514 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n4-12",
+  "title": "JLPT N4 12 – Công việc, kế hoạch, giao tiếp ở chỗ làm",
+  "type": "vocab",
+  "level": "N4",
+  "topics": [
+   "jlpt",
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:意見:いけん",
+   "kana": "いけん",
+   "kanji": "意見",
+   "hv": "Ý KIẾN",
+   "vi": "ý kiến",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Giao tiếp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会議[かいぎ]で自分[じぶん]の意見[いけん]を言[い]いました。",
+     "vi": "Tôi nói ý kiến của mình trong cuộc họp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "何[なに]か意見[いけん]があれば、言[い]ってください。",
+     "vi": "Có ý kiến gì thì hãy nói.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "意見[いけん]を言[い]う",
+     "vi": "nêu ý kiến"
+    }
+   ]
+  },
+  {
+   "id": "v:規則:きそく",
+   "kana": "きそく",
+   "kanji": "規則",
+   "hv": "QUY TẮC",
+   "vi": "quy tắc, nội quy",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Quy định",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寮[りょう]の規則[きそく]を守[まも]ってください。",
+     "vi": "Hãy tuân thủ nội quy ký túc xá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]の規則[きそく]で、指輪[ゆびわ]をしてはいけません。",
+     "vi": "Theo nội quy nhà máy, không được đeo nhẫn.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "規則[きそく]を守[まも]る",
+     "vi": "tuân thủ quy tắc"
+    }
+   ],
+   "syn": [
+    {
+     "w": "ルール",
+     "vi": "quy tắc"
+    }
+   ]
+  },
+  {
+   "id": "v:注意:ちゅうい",
+   "kana": "ちゅうい",
+   "kanji": "注意",
+   "hv": "CHÚ Ý",
+   "vi": "chú ý, coi chừng (nguy hiểm); nhắc nhở (người khác)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Quy định",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "足元[あしもと]に注意[ちゅうい]してください。",
+     "vi": "Hãy chú ý dưới chân.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "遅刻[ちこく]して、班長[はんちょう]に注意[ちゅうい]されました。",
+     "vi": "Đi muộn nên tôi bị tổ trưởng nhắc nhở.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "車[くるま]に注意[ちゅうい]して、道[みち]を渡[わた]りましょう。",
+     "vi": "Chú ý xe khi qua đường.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "車[くるま]に注意[ちゅうい]する",
+     "vi": "chú ý xe cộ"
+    }
+   ],
+   "syn": [
+    {
+     "w": "気[き]をつける",
+     "vi": "cẩn thận"
+    }
+   ]
+  },
+  {
+   "id": "v:場合:ばあい",
+   "kana": "ばあい",
+   "kanji": "場合",
+   "hv": "TRƯỜNG HỢP",
+   "vi": "trường hợp",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Quy định",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]の場合[ばあい]は、中止[ちゅうし]です。",
+     "vi": "Trường hợp mưa thì hủy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]が止[と]まった場合[ばあい]は、すぐ連絡[れんらく]してください。",
+     "vi": "Trường hợp máy dừng hãy liên lạc ngay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "本人[ほんにん]が来[こ]られない場合[ばあい]は、委任状[いにんじょう]が必要[ひつよう]です。",
+     "vi": "Trường hợp đương sự không đến được thì cần giấy ủy quyền.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:原因:げんいん",
+   "kana": "げんいん",
+   "kanji": "原因",
+   "hv": "NGUYÊN NHÂN",
+   "vi": "nguyên nhân",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事故[じこ]の原因[げんいん]を調[しら]べています。",
+     "vi": "Đang điều tra nguyên nhân tai nạn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "風邪[かぜ]の原因[げんいん]は、寝不足[ねぶそく]だと思[おも]います。",
+     "vi": "Tôi nghĩ nguyên nhân cảm là do thiếu ngủ.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "結果[けっか]",
+     "vi": "kết quả"
+    }
+   ],
+   "confuse": [
+    "v:理由:りゆう"
+   ]
+  },
+  {
+   "id": "v:理由:りゆう",
+   "kana": "りゆう",
+   "kanji": "理由",
+   "hv": "LÝ DO",
+   "vi": "lý do",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休[やす]む理由[りゆう]を、班長[はんちょう]に説明[せつめい]しました。",
+     "vi": "Tôi giải thích lý do nghỉ với tổ trưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本[にほん]に来[き]た理由[りゆう]は何[なん]ですか。",
+     "vi": "Lý do bạn sang Nhật là gì?",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:原因:げんいん"
+   ]
+  },
+  {
+   "id": "v:予定:よてい",
+   "kana": "よてい",
+   "kanji": "予定",
+   "hv": "DỰ ĐỊNH",
+   "vi": "dự định, lịch (đã sắp xếp)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Kế hoạch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "週末[しゅうまつ]の予定[よてい]は何[なん]ですか。",
+     "vi": "Cuối tuần có dự định gì?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "明日[あした]は八[はち]時[じ]から会議[かいぎ]の予定[よてい]です。",
+     "vi": "Mai dự kiến họp từ 8 giờ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "引[ひ]っ越[こ]しの予定[よてい]を、会社[かいしゃ]に伝[つた]えました。",
+     "vi": "Tôi báo công ty lịch chuyển nhà.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "予定[よてい]を立[た]てる",
+     "vi": "lên lịch"
+    }
+   ]
+  },
+  {
+   "id": "v:計画:けいかく",
+   "kana": "けいかく",
+   "kanji": "計画",
+   "hv": "KẾ HỌA",
+   "vi": "kế hoạch (lập ra, dài hơi)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Kế hoạch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夏休[なつやす]みの旅行[りょこう]を計画[けいかく]しています。",
+     "vi": "Tôi đang lên kế hoạch du lịch hè.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "来月[らいげつ]の生産[せいさん]計画[けいかく]が出[で]ました。",
+     "vi": "Đã có kế hoạch sản xuất tháng sau.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "旅行[りょこう]を計画[けいかく]する",
+     "vi": "lên kế hoạch du lịch"
+    }
+   ],
+   "confuse": [
+    "v:予定:よてい"
+   ]
+  },
+  {
+   "id": "v:準備:じゅんび",
+   "kana": "じゅんび",
+   "kanji": "準備",
+   "hv": "CHUẨN BỊ",
+   "vi": "chuẩn bị",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Kế hoạch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "旅行[りょこう]の準備[じゅんび]はできましたか。",
+     "vi": "Chuẩn bị đi du lịch xong chưa?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "明日[あした]の材料[ざいりょう]を準備[じゅんび]しておいてください。",
+     "vi": "Hãy chuẩn bị sẵn nguyên liệu ngày mai.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "申請[しんせい]に必要[ひつよう]な書類[しょるい]を準備[じゅんび]します。",
+     "vi": "Tôi chuẩn bị giấy tờ cần cho đơn.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "書類[しょるい]を準備[じゅんび]する",
+     "vi": "chuẩn bị giấy tờ"
+    }
+   ],
+   "syn": [
+    "v:用意:ようい"
+   ]
+  },
+  {
+   "id": "v:用意:ようい",
+   "kana": "ようい",
+   "kanji": "用意",
+   "hv": "DỤNG Ý",
+   "vi": "chuẩn bị sẵn (đồ vật)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Kế hoạch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "飲[の]み物[もの]を用意[ようい]しました。",
+     "vi": "Tôi đã chuẩn bị sẵn đồ uống.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "予備[よび]の手袋[てぶくろ]を用意[ようい]しておきます。",
+     "vi": "Tôi để sẵn găng dự phòng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "飲[の]み物[もの]を用意[ようい]する",
+     "vi": "chuẩn bị đồ uống"
+    }
+   ],
+   "syn": [
+    "v:準備:じゅんび"
+   ]
+  },
+  {
+   "id": "v:支度:したく",
+   "kana": "したく",
+   "kanji": "支度",
+   "hv": "CHI ĐỘ",
+   "vi": "sửa soạn (đi ra ngoài, nấu ăn)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Kế hoạch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "早[はや]く出[で]かける支度[したく]をしなさい。",
+     "vi": "Mau sửa soạn đi ra ngoài đi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "母[はは]は夕食[ゆうしょく]の支度[したく]をしています。",
+     "vi": "Mẹ đang chuẩn bị bữa tối.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "出[で]かける支度[したく]をする",
+     "vi": "sửa soạn ra ngoài"
+    }
+   ],
+   "syn": [
+    "v:準備:じゅんび"
+   ]
+  },
+  {
+   "id": "v:約束:やくそく",
+   "kana": "やくそく",
+   "kanji": "約束",
+   "hv": "ƯỚC THÚC",
+   "vi": "lời hứa, cuộc hẹn",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Giao tiếp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "友達[ともだち]と三[さん]時[じ]に会[あ]う約束[やくそく]をしました。",
+     "vi": "Tôi hẹn gặp bạn lúc 3 giờ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "約束[やくそく]の時間[じかん]に遅[おく]れないでください。",
+     "vi": "Đừng trễ giờ hẹn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：約束[やくそく]、忘[わす]れないでね。B：うん、大丈夫[だいじょうぶ]。",
+     "vi": "A: Đừng quên lời hứa nhé. B: Ừ, yên tâm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "約束[やくそく]を守[まも]る",
+     "vi": "giữ lời hứa"
+    }
+   ]
+  },
+  {
+   "id": "v:都合:つごう",
+   "kana": "つごう",
+   "kanji": "都合",
+   "hv": "ĐÔ HỢP",
+   "vi": "sự thuận tiện, hoàn cảnh (lịch)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Kế hoạch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "明日[あした]の都合[つごう]はどうですか。",
+     "vi": "Mai anh có tiện không?",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "家[いえ]の都合[つごう]で、来週[らいしゅう]休[やす]みます。",
+     "vi": "Vì việc nhà, tuần sau tôi nghỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "都合[つごう]のいい日[ひ]を教[おし]えてください。",
+     "vi": "Hãy cho biết ngày nào tiện.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "都合[つごう]が悪[わる]い = không tiện, bận."
+  },
+  {
+   "id": "v:経験:けいけん",
+   "kana": "けいけん",
+   "kanji": "経験",
+   "hv": "KINH NGHIỆM",
+   "vi": "kinh nghiệm, trải nghiệm",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]で働[はたら]いた経験[けいけん]があります。",
+     "vi": "Tôi có kinh nghiệm làm việc ở Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "包丁[ほうちょう]の経験[けいけん]がある人[ひと]を探[さが]しています。",
+     "vi": "Đang tìm người có kinh nghiệm dùng dao.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "二[に]号[ごう]には、指導[しどう]の経験[けいけん]が必要[ひつよう]です。",
+     "vi": "Số 2 cần kinh nghiệm chỉ dẫn người khác.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]を経験[けいけん]する",
+     "vi": "trải qua công việc"
+    }
+   ]
+  },
+  {
+   "id": "v:失敗:しっぱい",
+   "kana": "しっぱい",
+   "kanji": "失敗",
+   "hv": "THẤT BẠI",
+   "vi": "thất bại, làm hỏng việc",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "料理[りょうり]に失敗[しっぱい]しました。",
+     "vi": "Tôi nấu hỏng món ăn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "失敗[しっぱい]したら、すぐ報告[ほうこく]してください。",
+     "vi": "Làm hỏng thì báo ngay.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "試験[しけん]に失敗[しっぱい]する",
+     "vi": "thi hỏng"
+    }
+   ],
+   "ant": [
+    {
+     "w": "成功[せいこう]",
+     "vi": "thành công"
+    }
+   ]
+  },
+  {
+   "id": "v:関係:かんけい",
+   "kana": "かんけい",
+   "kanji": "関係",
+   "hv": "QUAN HỆ",
+   "vi": "quan hệ, liên quan",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仕事[しごと]と関係[かんけい]ない話[はなし]はしないでください。",
+     "vi": "Đừng nói chuyện không liên quan đến công việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "二人[ふたり]はどんな関係[かんけい]ですか。",
+     "vi": "Hai người có quan hệ gì?",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:会議:かいぎ",
+   "kana": "かいぎ",
+   "kanji": "会議",
+   "hv": "HỘI NGHỊ",
+   "vi": "cuộc họp",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎週[まいしゅう]月曜日[げつようび]に会議[かいぎ]があります。",
+     "vi": "Thứ Hai hằng tuần có họp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "部長[ぶちょう]は会議[かいぎ]中[ちゅう]です。",
+     "vi": "Trưởng phòng đang họp.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "会議[かいぎ]に出[で]る",
+     "vi": "dự họp"
+    }
+   ]
+  },
+  {
+   "id": "v:会議室:かいぎしつ",
+   "kana": "かいぎしつ",
+   "kanji": "会議室",
+   "hv": "HỘI NGHỊ THẤT",
+   "vi": "phòng họp",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Nơi chốn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "十[じゅう]時[じ]に会議室[かいぎしつ]に集[あつ]まってください。",
+     "vi": "10 giờ tập trung ở phòng họp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "会議室[かいぎしつ]の予約[よやく]をしました。",
+     "vi": "Tôi đã đặt phòng họp.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:会場:かいじょう",
+   "kana": "かいじょう",
+   "kanji": "会場",
+   "hv": "HỘI TRƯỜNG",
+   "vi": "hội trường, nơi tổ chức",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Nơi chốn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "試験[しけん]の会場[かいじょう]は大学[だいがく]です。",
+     "vi": "Địa điểm thi là trường đại học.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "パーティーの会場[かいじょう]まで、バスで行[い]きます。",
+     "vi": "Đi xe buýt đến chỗ tổ chức tiệc.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:受付:うけつけ",
+   "kana": "うけつけ",
+   "kanji": "受付",
+   "hv": "THỤ PHÓ",
+   "vi": "quầy lễ tân, tiếp nhận",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Nơi chốn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "病院[びょういん]の受付[うけつけ]で、保険証[ほけんしょう]を出[だ]します。",
+     "vi": "Nộp thẻ bảo hiểm ở quầy tiếp nhận bệnh viện.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "お客様[きゃくさま]が来[き]たら、受付[うけつけ]に案内[あんない]してください。",
+     "vi": "Khách đến thì dẫn ra quầy lễ tân.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:受ける:うける"
+   ]
+  },
+  {
+   "id": "v:案内:あんない",
+   "kana": "あんない",
+   "kanji": "案内",
+   "hv": "ÁN NỘI",
+   "vi": "hướng dẫn, dẫn đường",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Giao tiếp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "駅[えき]まで案内[あんない]します。",
+     "vi": "Tôi dẫn đường đến ga.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]を工場[こうじょう]の中[なか]に案内[あんない]してください。",
+     "vi": "Hãy dẫn người mới đi xem trong nhà máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "市役所[しやくしょ]の案内[あんない]に、ベトナム語[ご]もあります。",
+     "vi": "Bảng hướng dẫn ở tòa thị chính có cả tiếng Việt.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "道[みち]を案内[あんない]する",
+     "vi": "dẫn đường"
+    }
+   ]
+  },
+  {
+   "id": "v:紹介:しょうかい",
+   "kana": "しょうかい",
+   "kanji": "紹介",
+   "hv": "THIỆU GIỚI",
+   "vi": "giới thiệu",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Giao tiếp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "友達[ともだち]を家族[かぞく]に紹介[しょうかい]しました。",
+     "vi": "Tôi giới thiệu bạn với gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい仲間[なかま]を紹介[しょうかい]します。",
+     "vi": "Tôi xin giới thiệu đồng nghiệp mới.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "友達[ともだち]を紹介[しょうかい]する",
+     "vi": "giới thiệu bạn"
+    }
+   ],
+   "rel": [
+    {
+     "w": "自己紹介[じこしょうかい]",
+     "vi": "tự giới thiệu"
+    }
+   ]
+  },
+  {
+   "id": "v:招待:しょうたい",
+   "kana": "しょうたい",
+   "kanji": "招待",
+   "hv": "CHIÊU ĐÃI",
+   "vi": "mời (dự tiệc, sự kiện)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Giao tiếp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "結婚式[けっこんしき]に招待[しょうたい]されました。",
+     "vi": "Tôi được mời dự đám cưới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]のパーティーに家族[かぞく]も招待[しょうたい]されました。",
+     "vi": "Gia đình cũng được mời dự tiệc công ty.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "友達[ともだち]を招待[しょうたい]する",
+     "vi": "mời bạn"
+    }
+   ]
+  },
+  {
+   "id": "v:説明:せつめい",
+   "kana": "せつめい",
+   "kanji": "説明",
+   "hv": "THUYẾT MINH",
+   "vi": "giải thích",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Giao tiếp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先生[せんせい]の説明[せつめい]は分[わ]かりやすいです。",
+     "vi": "Lời giải thích của thầy dễ hiểu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい作業[さぎょう]の説明[せつめい]を聞[き]きました。",
+     "vi": "Tôi nghe giải thích công việc mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "窓口[まどぐち]で、手続[てつづ]きを説明[せつめい]してもらいました。",
+     "vi": "Tôi được quầy giải thích thủ tục.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "理由[りゆう]を説明[せつめい]する",
+     "vi": "giải thích lý do"
+    }
+   ]
+  },
+  {
+   "id": "v:返事:へんじ",
+   "kana": "へんじ",
+   "kanji": "返事",
+   "hv": "PHẢN SỰ",
+   "vi": "đáp lời, hồi âm (khi được gọi, thư)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Giao tiếp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "名前[なまえ]を呼[よ]ばれたら、「はい」と返事[へんじ]してください。",
+     "vi": "Được gọi tên thì đáp \"Vâng\".",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "メールの返事[へんじ]が来[き]ません。",
+     "vi": "Thư chưa thấy hồi âm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手紙[てがみ]に返事[へんじ]する",
+     "vi": "trả lời thư"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "答[こた]え",
+     "vi": "câu trả lời (đáp án)"
+    }
+   ]
+  },
+  {
+   "id": "v:承知:しょうち",
+   "kana": "しょうち",
+   "kanji": "承知",
+   "hv": "THỪA TRI",
+   "vi": "hiểu rõ, chấp thuận (khiêm tốn)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Giao tiếp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "A：明日[あした]は七[しち]時[じ]に来[き]てください。B：承知[しょうち]しました。",
+     "vi": "A: Mai đến lúc 7 giờ nhé. B: Tôi đã rõ ạ.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "ご無理[むり]は承知[しょうち]していますが、お願[ねが]いします。",
+     "vi": "Tôi biết là khó, nhưng xin nhờ anh.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    {
+     "w": "かしこまりました",
+     "vi": "vâng, tôi đã rõ (rất lịch sự)"
+    }
+   ],
+   "note": "承知[しょうち]しました = 分[わ]かりました (lịch sự, dùng với cấp trên, khách)."
+  },
+  {
+   "id": "v:遠慮:えんりょ",
+   "kana": "えんりょ",
+   "kanji": "遠慮",
+   "hv": "VIỄN LỰ",
+   "vi": "khách sáo, giữ ý; xin đừng (biển báo)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Giao tiếp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "遠慮[えんりょ]しないで、たくさん食[た]べてください。",
+     "vi": "Đừng khách sáo, ăn nhiều vào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]の中[なか]での撮影[さつえい]はご遠慮[えんりょ]ください。",
+     "vi": "Xin vui lòng không chụp ảnh trong nhà máy.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "ご遠慮[えんりょ]ください = xin đừng (biển báo lịch sự)."
+  },
+  {
+   "id": "v:世話:せわ",
+   "kana": "せわ",
+   "kanji": "世話",
+   "hv": "THẾ THOẠI",
+   "vi": "chăm sóc, giúp đỡ",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Giao tiếp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "弟[おとうと]の世話[せわ]をします。",
+     "vi": "Tôi chăm em.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "いつもお世話[せわ]になっております。",
+     "vi": "Cảm ơn anh luôn giúp đỡ ạ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "犬[いぬ]の世話[せわ]は大変[たいへん]です。",
+     "vi": "Chăm chó vất vả.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "子供[こども]の世話[せわ]をする",
+     "vi": "chăm con"
+    }
+   ],
+   "note": "お世話[せわ]になります = cảm ơn vì đã (sẽ) giúp đỡ — câu chào rất hay dùng."
+  },
+  {
+   "id": "v:挨拶:あいさつ",
+   "kana": "あいさつ",
+   "kanji": "挨拶",
+   "hv": "AI TẠT",
+   "vi": "chào hỏi; phát biểu",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Giao tiếp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "朝[あさ]は元気[げんき]に挨拶[あいさつ]しましょう。",
+     "vi": "Buổi sáng hãy chào hỏi vui vẻ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "引[ひ]っ越[こ]したら、隣[となり]の人[ひと]に挨拶[あいさつ]します。",
+     "vi": "Chuyển nhà thì chào người hàng xóm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "先輩[せんぱい]に挨拶[あいさつ]する",
+     "vi": "chào đàn anh"
+    }
+   ]
+  },
+  {
+   "id": "v:出席:しゅっせき",
+   "kana": "しゅっせき",
+   "kanji": "出席",
+   "hv": "XUẤT TỊCH",
+   "vi": "tham dự, có mặt (họp, lớp)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "明日[あした]の会議[かいぎ]に出席[しゅっせき]します。",
+     "vi": "Mai tôi dự họp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "授業[じゅぎょう]に毎回[まいかい]出席[しゅっせき]しています。",
+     "vi": "Buổi học nào tôi cũng có mặt.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "会議[かいぎ]に出席[しゅっせき]する",
+     "vi": "dự họp"
+    }
+   ],
+   "ant": [
+    {
+     "w": "欠席[けっせき]",
+     "vi": "vắng mặt"
+    }
+   ]
+  },
+  {
+   "id": "v:生産:せいさん",
+   "kana": "せいさん",
+   "kanji": "生産",
+   "hv": "SINH SẢN",
+   "vi": "sản xuất",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この工場[こうじょう]では、一[いち]日[にち]に一[いち]トンの魚[さかな]を生産[せいさん]します。",
+     "vi": "Nhà máy này mỗi ngày sản xuất một tấn cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "生産[せいさん]が遅[おく]れているので、残業[ざんぎょう]があります。",
+     "vi": "Sản xuất chậm nên có tăng ca.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "商品[しょうひん]を生産[せいさん]する",
+     "vi": "sản xuất hàng"
+    }
+   ],
+   "rel": [
+    {
+     "w": "生産計画[せいさんけいかく]",
+     "vi": "kế hoạch sản xuất"
+    }
+   ]
+  },
+  {
+   "id": "v:技術:ぎじゅつ",
+   "kana": "ぎじゅつ",
+   "kanji": "技術",
+   "hv": "KỸ THUẬT",
+   "vi": "kỹ thuật, công nghệ",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]の技術[ぎじゅつ]を学[まな]びたいです。",
+     "vi": "Tôi muốn học kỹ thuật Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]をおろすのは、技術[ぎじゅつ]が必要[ひつよう]です。",
+     "vi": "Fillet cá cần tay nghề.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:予約:よやく",
+   "kana": "よやく",
+   "kanji": "予約",
+   "hv": "DỰ ƯỚC",
+   "vi": "đặt trước (chỗ, lịch)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Kế hoạch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "レストランを予約[よやく]しました。",
+     "vi": "Tôi đã đặt bàn nhà hàng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "病院[びょういん]の予約[よやく]は、電話[でんわ]でしてください。",
+     "vi": "Đặt lịch bệnh viện qua điện thoại.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ホテルを予約[よやく]する",
+     "vi": "đặt khách sạn"
+    }
+   ]
+  },
+  {
+   "id": "v:利用:りよう",
+   "kana": "りよう",
+   "kanji": "利用",
+   "hv": "LỢI DỤNG",
+   "vi": "sử dụng, tận dụng",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Kế hoạch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "図書館[としょかん]を利用[りよう]しています。",
+     "vi": "Tôi hay dùng thư viện.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "休憩室[きゅうけいしつ]は、だれでも利用[りよう]できます。",
+     "vi": "Phòng nghỉ ai cũng dùng được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "マイナンバーカードを利用[りよう]して、コンビニで住民票[じゅうみんひょう]を取[と]りました。",
+     "vi": "Dùng thẻ My Number để lấy phiếu cư trú ở cửa hàng tiện lợi.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "電車[でんしゃ]を利用[りよう]する",
+     "vi": "đi (dùng) tàu"
+    }
+   ],
+   "syn": [
+    "v:使う:つかう"
+   ]
+  },
+  {
+   "id": "v:故障:こしょう",
+   "kana": "こしょう",
+   "kanji": "故障",
+   "hv": "CỐ CHƯỚNG",
+   "vi": "hỏng hóc, trục trặc (máy)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "エレベーターが故障[こしょう]しています。",
+     "vi": "Thang máy đang hỏng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]が故障[こしょう]したら、すぐ止[と]めてください。",
+     "vi": "Máy hỏng thì dừng ngay.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "機械[きかい]が故障[こしょう]する",
+     "vi": "máy hỏng"
+    }
+   ],
+   "syn": [
+    "v:壊れる:こわれる"
+   ]
+  },
+  {
+   "id": "v:運転:うんてん",
+   "kana": "うんてん",
+   "kanji": "運転",
+   "hv": "VẬN CHUYỂN",
+   "vi": "lái (xe), vận hành (máy)",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "父[ちち]は車[くるま]の運転[うんてん]が上手[じょうず]です。",
+     "vi": "Bố tôi lái xe giỏi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "フォークリフトを運転[うんてん]するには、資格[しかく]が必要[ひつよう]です。",
+     "vi": "Lái xe nâng cần có chứng chỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "運転免許[うんてんめんきょ]の書[か]き換[か]えをしました。",
+     "vi": "Tôi đã đổi bằng lái.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "車[くるま]を運転[うんてん]する",
+     "vi": "lái xe"
+    }
+   ]
+  },
+  {
+   "id": "v:運動:うんどう",
+   "kana": "うんどう",
+   "kanji": "運動",
+   "hv": "VẬN ĐỘNG",
+   "vi": "vận động, tập thể dục",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎朝[まいあさ]、少[すこ]し運動[うんどう]しています。",
+     "vi": "Sáng nào tôi cũng vận động một chút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "仕事[しごと]の前[まえ]に、みんなで体操[たいそう]をして運動[うんどう]します。",
+     "vi": "Trước giờ làm, mọi người cùng tập thể dục.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "毎日[まいにち]運動[うんどう]する",
+     "vi": "vận động hằng ngày"
+    }
+   ]
+  },
+  {
+   "id": "v:留守:るす",
+   "kana": "るす",
+   "kanji": "留守",
+   "hv": "LƯU THỦ",
+   "vi": "vắng nhà",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母[はは]は今[いま]、留守[るす]です。",
+     "vi": "Mẹ tôi hiện vắng nhà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "留守[るす]の間[あいだ]に、荷物[にもつ]が届[とど]きました。",
+     "vi": "Hàng đến trong lúc tôi vắng nhà.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "留守番電話[るすばんでんわ]",
+     "vi": "điện thoại ghi âm"
+    }
+   ]
+  },
+  {
+   "id": "v:用:よう",
+   "kana": "よう",
+   "kanji": "用",
+   "hv": "DỤNG",
+   "vi": "việc (cần làm)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ちょっと用[よう]があるので、先[さき]に帰[かえ]ります。",
+     "vi": "Có chút việc nên tôi về trước.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：何[なん]の用[よう]？B：ちょっと話[はなし]があるんだ。",
+     "vi": "A: Có việc gì? B: Có chuyện muốn nói.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "syn": [
+    {
+     "w": "用事[ようじ]",
+     "vi": "việc riêng"
+    }
+   ]
+  },
+  {
+   "id": "v:レポート:レポート",
+   "kana": "レポート",
+   "kanji": "",
+   "hv": "",
+   "vi": "báo cáo (bài viết)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "明日[あした]までにレポートを書[か]かなければなりません。",
+     "vi": "Trước mai phải viết báo cáo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "実習[じっしゅう]のレポートを先生[せんせい]に出[だ]しました。",
+     "vi": "Tôi nộp báo cáo thực tập cho thầy.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    "v:報告:ほうこく"
+   ],
+   "goc": "report (tiếng Anh)"
+  },
+  {
+   "id": "v:アルバイト:アルバイト",
+   "kana": "アルバイト",
+   "kanji": "",
+   "hv": "",
+   "vi": "làm thêm",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "学生[がくせい]の時[とき]、コンビニでアルバイトをしました。",
+     "vi": "Hồi sinh viên tôi làm thêm ở cửa hàng tiện lợi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "特定[とくてい]技能[ぎのう]のビザでは、ほかのアルバイトはできません。",
+     "vi": "Visa kỹ năng đặc định không được làm thêm chỗ khác.",
+     "ctx": "thutuc"
+    }
+   ],
+   "goc": "Arbeit (tiếng Đức: công việc)",
+   "wasei": true,
+   "note": "Khẩu ngữ: バイト."
+  },
+  {
+   "id": "v:パート:パート",
+   "kana": "パート",
+   "kanji": "",
+   "hv": "",
+   "vi": "việc bán thời gian (thường người lớn tuổi, nội trợ)",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この工場[こうじょう]には、パートの人[ひと]がたくさんいます。",
+     "vi": "Nhà máy này có nhiều người làm bán thời gian.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "母[はは]は近[ちか]くのスーパーでパートをしています。",
+     "vi": "Mẹ làm bán thời gian ở siêu thị gần nhà.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:アルバイト:アルバイト"
+   ],
+   "goc": "part-time (tiếng Anh)"
+  },
+  {
+   "id": "v:チェック:チェック",
+   "kana": "チェック",
+   "kanji": "",
+   "hv": "",
+   "vi": "kiểm tra, đánh dấu",
+   "pos": "n-suru",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "数[すう]をチェックしてから、箱[はこ]を閉[し]めます。",
+     "vi": "Kiểm số lượng rồi mới đóng thùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "必要[ひつよう]な書類[しょるい]にチェックを入[い]れてください。",
+     "vi": "Đánh dấu vào giấy tờ cần thiết.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "数[すう]をチェックする",
+     "vi": "kiểm số lượng"
+    }
+   ],
+   "syn": [
+    "v:確認:かくにん"
+   ],
+   "goc": "check (tiếng Anh)"
+  }
+ ]
+}

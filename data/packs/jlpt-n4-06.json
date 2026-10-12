@@ -1,0 +1,873 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n4-06",
+  "title": "JLPT N4 06 – Động từ trạng thái, đời sống",
+  "type": "vocab",
+  "level": "N4",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:生きる:いきる",
+   "kana": "いきる",
+   "kanji": "生きる",
+   "kf": "生[い]きる",
+   "hv": "SINH",
+   "vi": "sống (còn sống)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "祖母[そぼ]は百[ひゃく]歳[さい]まで生[い]きました。",
+     "vi": "Bà tôi sống đến 100 tuổi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]が生[い]きているうちに、早[はや]く処理[しょり]してください。",
+     "vi": "Xử lý nhanh khi cá còn sống.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：日本[にほん]で一人[ひとり]で生[い]きていくのは大変[たいへん]？B：最初[さいしょ]はね。",
+     "vi": "A: Sống một mình ở Nhật vất vả không? B: Lúc đầu thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "長[なが]く生[い]きる",
+     "vi": "sống lâu"
+    }
+   ],
+   "ant": [
+    "v:死ぬ:しぬ"
+   ],
+   "confuse": [
+    "v:住む:すむ"
+   ],
+   "note": "生[い]きる = còn sống; 住[す]む = cư trú ở đâu."
+  },
+  {
+   "id": "v:亡くなる:なくなる",
+   "kana": "なくなる",
+   "kanji": "亡くなる",
+   "kf": "亡[な]くなる",
+   "hv": "VONG",
+   "vi": "qua đời, mất (lịch sự)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "去年[きょねん]、祖父[そふ]が亡[な]くなりました。",
+     "vi": "Năm ngoái ông tôi mất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "社長[しゃちょう]のお父様[とうさま]が亡[な]くなったそうです。",
+     "vi": "Nghe nói bố của giám đốc đã qua đời.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "家族[かぞく]が亡[な]くなった時[とき]は、会社[かいしゃ]に連絡[れんらく]して休[やす]みを取[と]ります。",
+     "vi": "Khi người nhà mất thì báo công ty và xin nghỉ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "病気[びょうき]で亡[な]くなる",
+     "vi": "mất vì bệnh"
+    }
+   ],
+   "syn": [
+    "v:死ぬ:しぬ"
+   ],
+   "confuse": [
+    "v:無くなる:なくなる"
+   ],
+   "note": "Cách nói lịch sự của 死[し]ぬ."
+  },
+  {
+   "id": "v:無くなる:なくなる",
+   "kana": "なくなる",
+   "kanji": "無くなる",
+   "kf": "無[な]くなる",
+   "hv": "VÔ",
+   "vi": "mất, hết (đồ vật)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "財布[さいふ]が無[な]くなりました。",
+     "vi": "Ví bị mất rồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ラップが無[な]くなりそうなので、倉庫[そうこ]から持[も]ってきてください。",
+     "vi": "Màng bọc sắp hết, lấy thêm ở kho.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：牛乳[ぎゅうにゅう]、もう無[な]くなった？B：うん、買[か]ってこようか。",
+     "vi": "A: Sữa hết rồi à? B: Ừ, để tớ đi mua.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "お金[かね]が無[な]くなる",
+     "vi": "hết tiền"
+    }
+   ],
+   "confuse": [
+    "v:亡くなる:なくなる"
+   ],
+   "pair": {
+    "w": "無[な]くす",
+    "vi": "làm mất"
+   },
+   "note": "Hay viết bằng chữ mềm: なくなる."
+  },
+  {
+   "id": "v:育てる:そだてる",
+   "kana": "そだてる",
+   "kanji": "育てる",
+   "kf": "育[そだ]てる",
+   "hv": "DỤC",
+   "vi": "nuôi nấng, nuôi dạy (con, người mới); trồng (cho lớn)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母[はは]は一人[ひとり]で私[わたし]を育[そだ]ててくれました。",
+     "vi": "Mẹ một mình nuôi tôi khôn lớn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]を育[そだ]てるのも、班[はん]長[ちょう]の仕事[しごと]です。",
+     "vi": "Đào tạo người mới cũng là việc của tổ trưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ベランダでトマトを育[そだ]てています。",
+     "vi": "Tôi trồng cà chua ở ban công.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "子供[こども]を育[そだ]てる",
+     "vi": "nuôi con"
+    },
+    {
+     "jp": "野菜[やさい]を育[そだ]てる",
+     "vi": "trồng rau"
+    }
+   ],
+   "pair": {
+    "w": "育[そだ]つ",
+    "vi": "lớn lên"
+   }
+  },
+  {
+   "id": "v:痩せる:やせる",
+   "kana": "やせる",
+   "kanji": "痩せる",
+   "kf": "痩[や]せる",
+   "hv": "SẤU",
+   "vi": "gầy đi, giảm cân",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]に来[き]て、五[ご]キロ痩[や]せました。",
+     "vi": "Sang Nhật tôi gầy đi 5 cân.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "立[た]ち仕事[しごと]なので、少[すこ]し痩[や]せました。",
+     "vi": "Làm đứng nên tôi gầy đi một chút.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：痩[や]せたね。B：毎日[まいにち]歩[ある]いてるんだ。",
+     "vi": "A: Gầy đi nhỉ. B: Ngày nào tớ cũng đi bộ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "五[ご]キロ痩[や]せる",
+     "vi": "gầy đi 5 cân"
+    }
+   ],
+   "ant": [
+    "v:太る:ふとる"
+   ],
+   "note": "Trạng thái gầy: 痩[や]せている."
+  },
+  {
+   "id": "v:太る:ふとる",
+   "kana": "ふとる",
+   "kanji": "太る",
+   "kf": "太[ふと]る",
+   "hv": "THÁI",
+   "vi": "béo lên, tăng cân",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "甘[あま]い物[もの]を食[た]べすぎて、太[ふと]りました。",
+     "vi": "Ăn đồ ngọt quá nhiều nên tôi béo lên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "夜勤[やきん]を始[はじ]めてから、少[すこ]し太[ふと]りました。",
+     "vi": "Từ khi làm ca đêm tôi hơi béo lên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：最近[さいきん]、太[ふと]った？B：言[い]わないで！",
+     "vi": "A: Dạo này béo ra à? B: Đừng nói!",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "三[さん]キロ太[ふと]る",
+     "vi": "tăng 3 cân"
+    }
+   ],
+   "ant": [
+    "v:痩せる:やせる"
+   ],
+   "note": "Trạng thái béo: 太[ふと]っている."
+  },
+  {
+   "id": "v:光る:ひかる",
+   "kana": "ひかる",
+   "kanji": "光る",
+   "kf": "光[ひか]る",
+   "hv": "QUANG",
+   "vi": "phát sáng, sáng lên (đèn, sao)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜空[よぞら]に星[ほし]が光[ひか]っています。",
+     "vi": "Sao lấp lánh trên trời đêm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新鮮[しんせん]な魚[さかな]は、目[め]が光[ひか]っています。",
+     "vi": "Cá tươi thì mắt sáng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "緑[みどり]のランプが光[ひか]ったら、次[つぎ]の人[ひと]が入[はい]ってください。",
+     "vi": "Đèn xanh sáng thì người tiếp theo vào.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "星[ほし]が光[ひか]る",
+     "vi": "sao lấp lánh"
+    }
+   ],
+   "rel": [
+    {
+     "w": "光[ひかり]",
+     "vi": "ánh sáng"
+    }
+   ]
+  },
+  {
+   "id": "v:見える:みえる",
+   "kana": "みえる",
+   "kanji": "見える",
+   "kf": "見[み]える",
+   "hv": "KIẾN",
+   "vi": "nhìn thấy được, trông thấy",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "晴[は]れた日[ひ]は、ここから海[うみ]が見[み]えます。",
+     "vi": "Ngày nắng từ đây nhìn thấy biển.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "眼鏡[めがね]がないと、ラベルの字[じ]がよく見[み]えません。",
+     "vi": "Không có kính thì không nhìn rõ chữ trên nhãn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あそこに富士山[ふじやま]が見[み]えるよ。B：本当[ほんとう]だ、きれい！",
+     "vi": "A: Đằng kia thấy núi Phú Sĩ kìa. B: Đúng thật, đẹp quá!",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "海[うみ]が見[み]える",
+     "vi": "thấy biển"
+    }
+   ],
+   "confuse": [
+    "v:見る:みる"
+   ],
+   "note": "見[み]える = tự nhiên thấy được; 見[み]られる = có thể xem (cơ hội)."
+  },
+  {
+   "id": "v:聞こえる:きこえる",
+   "kana": "きこえる",
+   "kanji": "聞こえる",
+   "kf": "聞[き]こえる",
+   "hv": "VĂN",
+   "vi": "nghe thấy được",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "隣[となり]の部屋[へや]から音楽[おんがく]が聞[き]こえます。",
+     "vi": "Nghe thấy nhạc từ phòng bên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]の音[おと]が大[おお]きくて、班[はん]長[ちょう]の声[こえ]が聞[き]こえません。",
+     "vi": "Tiếng máy to quá, không nghe thấy tổ trưởng nói.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：もしもし、聞[き]こえますか。B：はい、よく聞[き]こえます。",
+     "vi": "A: Alô, nghe rõ không? B: Vâng, nghe rõ ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "声[こえ]が聞[き]こえる",
+     "vi": "nghe thấy tiếng"
+    }
+   ],
+   "confuse": [
+    "v:聞く:きく"
+   ]
+  },
+  {
+   "id": "v:暮れる:くれる",
+   "kana": "くれる",
+   "kanji": "暮れる",
+   "kf": "暮[く]れる",
+   "hv": "MỘ",
+   "vi": "trời tối dần, chiều xuống; hết (năm)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冬[ふゆ]は五[ご]時[じ]ごろ日[ひ]が暮[く]れます。",
+     "vi": "Mùa đông khoảng 5 giờ trời tối.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "日[ひ]が暮[く]れる前[まえ]に、外[そと]の作業[さぎょう]を終[お]わらせましょう。",
+     "vi": "Hãy xong việc ngoài trời trước khi trời tối.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：今年[ことし]もあと少[すこ]しで暮[く]れるね。B：早[はや]いね。",
+     "vi": "A: Năm nay cũng sắp hết rồi nhỉ. B: Nhanh thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "日[ひ]が暮[く]れる",
+     "vi": "trời tối"
+    }
+   ],
+   "ant": [
+    {
+     "w": "明[あ]ける",
+     "vi": "sáng ra, hết (năm cũ)"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "くれる",
+     "vi": "cho (tôi)"
+    }
+   ]
+  },
+  {
+   "id": "v:済む:すむ",
+   "kana": "すむ",
+   "kanji": "済む",
+   "kf": "済[す]む",
+   "hv": "TẾ",
+   "vi": "xong xuôi, giải quyết xong (việc, thủ tục)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "用事[ようじ]が済[す]んだら、すぐ帰[かえ]ります。",
+     "vi": "Xong việc tôi về ngay.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "掃除[そうじ]が済[す]んだ人[ひと]から、帰[かえ]ってもいいです。",
+     "vi": "Ai dọn xong thì được về trước.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "手続[てつづ]きは十分[じゅうぶん]で済[す]みました。",
+     "vi": "Thủ tục xong trong 10 phút.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]が済[す]む",
+     "vi": "xong việc"
+    }
+   ],
+   "confuse": [
+    "v:住む:すむ"
+   ]
+  },
+  {
+   "id": "v:始める:はじめる",
+   "kana": "はじめる",
+   "kanji": "始める",
+   "kf": "始[はじ]める",
+   "hv": "THỦY",
+   "vi": "bắt đầu (làm gì)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "去年[きょねん]から、ギターを始[はじ]めました。",
+     "vi": "Từ năm ngoái tôi bắt đầu học ghita.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "八[はち]時[じ]から作業[さぎょう]を始[はじ]めます。",
+     "vi": "Từ 8 giờ bắt đầu làm việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "申請[しんせい]の準備[じゅんび]を、三[さん]か月[げつ]前[まえ]から始[はじ]めてください。",
+     "vi": "Hãy bắt đầu chuẩn bị nộp đơn từ 3 tháng trước.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]を始[はじ]める",
+     "vi": "bắt đầu làm việc"
+    },
+    {
+     "jp": "勉強[べんきょう]を始[はじ]める",
+     "vi": "bắt đầu học"
+    }
+   ],
+   "pair": "v:始まる:はじまる"
+  },
+  {
+   "id": "v:やめる:やめる",
+   "kana": "やめる",
+   "kanji": "",
+   "hv": "",
+   "vi": "thôi, bỏ (thói quen, việc đang làm); nghỉ hẳn (công việc)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "健康[けんこう]のために、タバコをやめました。",
+     "vi": "Vì sức khỏe tôi bỏ thuốc lá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "危[あぶ]ないので、その作業[さぎょう]はやめてください。",
+     "vi": "Nguy hiểm, hãy ngừng làm việc đó.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "会社[かいしゃ]をやめる時[とき]は、一[いち]か月[げつ]前[まえ]に言[い]ってください。",
+     "vi": "Khi nghỉ việc hãy báo trước một tháng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "タバコをやめる",
+     "vi": "bỏ thuốc lá"
+    },
+    {
+     "jp": "会社[かいしゃ]をやめる",
+     "vi": "nghỉ việc"
+    }
+   ],
+   "confuse": [
+    "v:止める:とめる"
+   ],
+   "note": "Chữ Hán: 止[や]める, 辞[や]める (nghỉ việc) — thường viết bằng chữ mềm."
+  },
+  {
+   "id": "v:受ける:うける",
+   "kana": "うける",
+   "kanji": "受ける",
+   "kf": "受[う]ける",
+   "hv": "THỤ",
+   "vi": "dự (thi); trải qua, được (khám, giải thích, đào tạo)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来月[らいげつ]、日本語[にほんご]能力[のうりょく]試験[しけん]を受[う]けます。",
+     "vi": "Tháng sau tôi thi năng lực tiếng Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "毎年[まいとし]、会社[かいしゃ]で健康診断[けんこうしんだん]を受[う]けます。",
+     "vi": "Năm nào cũng khám sức khỏe ở công ty.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "特定[とくてい]技能[ぎのう]の試験[しけん]を受[う]けるには、申[もう]し込[こ]みが必要[ひつよう]です。",
+     "vi": "Muốn thi Kỹ năng đặc định cần đăng ký.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "試験[しけん]を受[う]ける",
+     "vi": "dự thi"
+    },
+    {
+     "jp": "説明[せつめい]を受[う]ける",
+     "vi": "được giải thích"
+    }
+   ],
+   "rel": [
+    {
+     "w": "受付[うけつけ]",
+     "vi": "quầy lễ tân"
+    }
+   ]
+  },
+  {
+   "id": "v:行う:おこなう",
+   "kana": "おこなう",
+   "kanji": "行う",
+   "kf": "行[おこな]う",
+   "hv": "HÀNG",
+   "vi": "tiến hành, tổ chức (trang trọng)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来週[らいしゅう]、町[まち]で花火[はなび]大会[たいかい]が行[おこな]われます。",
+     "vi": "Tuần sau thị trấn tổ chức lễ hội pháo hoa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "明日[あした]、避難[ひなん]訓練[くんれん]を行[おこな]います。",
+     "vi": "Ngày mai tiến hành diễn tập sơ tán.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "説明会[せつめいかい]は、市役所[しやくしょ]の三[さん]階[がい]で行[おこな]います。",
+     "vi": "Buổi giải thích tổ chức ở tầng 3 tòa thị chính.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "会議[かいぎ]を行[おこな]う",
+     "vi": "tổ chức họp"
+    },
+    {
+     "jp": "検査[けんさ]を行[おこな]う",
+     "vi": "tiến hành kiểm tra"
+    }
+   ],
+   "syn": [
+    "v:する:する"
+   ],
+   "note": "Văn trang trọng của する. Bị động 行[おこな]われる = được tổ chức."
+  },
+  {
+   "id": "v:勝つ:かつ",
+   "kana": "かつ",
+   "kanji": "勝つ",
+   "kf": "勝[か]つ",
+   "hv": "THẮNG",
+   "vi": "thắng",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "昨日[きのう]の試合[しあい]は、日本[にほん]が勝[か]ちました。",
+     "vi": "Trận hôm qua Nhật thắng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]のバレー大会[たいかい]で、私[わたし]たちのチームが勝[か]ちました。",
+     "vi": "Ở giải bóng chuyền công ty, đội tôi thắng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：じゃんけんで勝[か]った人[ひと]が決[き]めよう。B：いいよ。",
+     "vi": "A: Ai thắng oẳn tù tì thì người đó quyết nhé. B: Được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "試合[しあい]に勝[か]つ",
+     "vi": "thắng trận"
+    }
+   ],
+   "ant": [
+    "v:負ける:まける"
+   ]
+  },
+  {
+   "id": "v:負ける:まける",
+   "kana": "まける",
+   "kanji": "負ける",
+   "kf": "負[ま]ける",
+   "hv": "PHỤ",
+   "vi": "thua",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "サッカーの試合[しあい]に負[ま]けてしまいました。",
+     "vi": "Đội tôi thua trận bóng đá mất rồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "寒[さむ]さに負[ま]けないで、頑張[がんば]りましょう。",
+     "vi": "Đừng chịu thua cái lạnh, cố lên nào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：ゲーム、また負[ま]けた。B：もう一回[いちかい]やろう。",
+     "vi": "A: Lại thua game rồi. B: Chơi lại ván nữa đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "試合[しあい]に負[ま]ける",
+     "vi": "thua trận"
+    }
+   ],
+   "ant": [
+    "v:勝つ:かつ"
+   ],
+   "note": "Ở chợ: 負[ま]けてください = bớt giá cho tôi."
+  },
+  {
+   "id": "v:手伝う:てつだう",
+   "kana": "てつだう",
+   "kanji": "手伝う",
+   "kf": "手伝[てつだ]う",
+   "hv": "THỦ TRUYỀN",
+   "vi": "giúp, phụ (làm việc)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母[はは]の料理[りょうり]を手伝[てつだ]いました。",
+     "vi": "Tôi phụ mẹ nấu ăn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "忙[いそが]しいラインを手伝[てつだ]ってください。",
+     "vi": "Hãy phụ dây chuyền đang bận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：何[なに]か手伝[てつだ]おうか。B：じゃあ、この箱[はこ]を運[はこ]んで。",
+     "vi": "A: Có gì cần giúp không? B: Vậy bê giúp thùng này.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]を手伝[てつだ]う",
+     "vi": "giúp việc"
+    },
+    {
+     "jp": "引[ひ]っ越[こ]しを手伝[てつだ]う",
+     "vi": "giúp chuyển nhà"
+    }
+   ]
+  },
+  {
+   "id": "v:合う:あう",
+   "kana": "あう",
+   "kanji": "合う",
+   "kf": "合[あ]う",
+   "hv": "HỢP",
+   "vi": "vừa, hợp (cỡ, khẩu vị); khớp (số lượng, thông tin)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đời sống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この靴[くつ]は、サイズが合[あ]いません。",
+     "vi": "Đôi giày này không vừa cỡ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "数[すう]が合[あ]っているか、もう一度[いちど]数[かぞ]えてください。",
+     "vi": "Đếm lại xem số lượng có khớp không.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "書類[しょるい]の名前[なまえ]とパスポートの名前[なまえ]が合[あ]っていません。",
+     "vi": "Tên trên giấy tờ không khớp với tên trên hộ chiếu.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "サイズが合[あ]う",
+     "vi": "vừa cỡ"
+    },
+    {
+     "jp": "数[すう]が合[あ]う",
+     "vi": "khớp số lượng"
+    }
+   ],
+   "confuse": [
+    "v:会う:あう"
+   ]
+  }
+ ]
+}

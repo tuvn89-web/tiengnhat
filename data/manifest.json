@@ -1,7 +1,283 @@
 {
  "schema": 1,
- "updated": "2026-10-11",
+ "updated": "2026-10-12",
  "packs": [
+  {
+   "id": "doisong-01",
+   "file": "doisong-01.json",
+   "title": "Đời sống 01 – Rác, ngân hàng, bệnh viện, thiên tai",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "doisong"
+   ],
+   "count": 31,
+   "version": 1,
+   "hash": "6cf3945b98"
+  },
+  {
+   "id": "jlpt-n4-01",
+   "file": "jlpt-n4-01.json",
+   "title": "JLPT N4 01 – Động từ cặp tự / tha (1)",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 26,
+   "version": 1,
+   "hash": "77060c8c7b"
+  },
+  {
+   "id": "jlpt-n4-02",
+   "file": "jlpt-n4-02.json",
+   "title": "JLPT N4 02 – Động từ cặp tự / tha (2)",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 24,
+   "version": 1,
+   "hash": "86364c7cb6"
+  },
+  {
+   "id": "jlpt-n4-03",
+   "file": "jlpt-n4-03.json",
+   "title": "JLPT N4 03 – Động từ đi lại, sinh hoạt",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 24,
+   "version": 1,
+   "hash": "c087e07821"
+  },
+  {
+   "id": "jlpt-n4-04",
+   "file": "jlpt-n4-04.json",
+   "title": "JLPT N4 04 – Động từ cảm xúc, suy nghĩ, giao tiếp",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 24,
+   "version": 1,
+   "hash": "f7a21de35a"
+  },
+  {
+   "id": "jlpt-n4-05",
+   "file": "jlpt-n4-05.json",
+   "title": "JLPT N4 05 – Động từ hành động tay chân",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 19,
+   "version": 1,
+   "hash": "53ca1773a6"
+  },
+  {
+   "id": "jlpt-n4-06",
+   "file": "jlpt-n4-06.json",
+   "title": "JLPT N4 06 – Động từ trạng thái, đời sống",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 19,
+   "version": 1,
+   "hash": "241c30a33f"
+  },
+  {
+   "id": "jlpt-n4-07",
+   "file": "jlpt-n4-07.json",
+   "title": "JLPT N4 07 – Động từ kính ngữ và cho – nhận",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 17,
+   "version": 1,
+   "hash": "0f9ed383dc"
+  },
+  {
+   "id": "jlpt-n4-08",
+   "file": "jlpt-n4-08.json",
+   "title": "JLPT N4 08 – Tính từ đuôi い",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 21,
+   "version": 1,
+   "hash": "b8ce06451a"
+  },
+  {
+   "id": "jlpt-n4-09",
+   "file": "jlpt-n4-09.json",
+   "title": "JLPT N4 09 – Tính từ đuôi な",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 21,
+   "version": 1,
+   "hash": "a34d0f63f3"
+  },
+  {
+   "id": "jlpt-n4-10",
+   "file": "jlpt-n4-10.json",
+   "title": "JLPT N4 10 – Phó từ, từ nối",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 44,
+   "version": 1,
+   "hash": "51b9cd5929"
+  },
+  {
+   "id": "jlpt-n4-11",
+   "file": "jlpt-n4-11.json",
+   "title": "JLPT N4 11 – Con người, gia đình, nghề nghiệp",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 39,
+   "version": 1,
+   "hash": "5f45b17cc3"
+  },
+  {
+   "id": "jlpt-n4-12",
+   "file": "jlpt-n4-12.json",
+   "title": "JLPT N4 12 – Công việc, kế hoạch, giao tiếp ở chỗ làm",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "xuong"
+   ],
+   "count": 43,
+   "version": 1,
+   "hash": "58e7b418f5"
+  },
+  {
+   "id": "jlpt-n4-13",
+   "file": "jlpt-n4-13.json",
+   "title": "JLPT N4 13 – Xã hội, kinh tế, đất nước",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 29,
+   "version": 1,
+   "hash": "8195010e8f"
+  },
+  {
+   "id": "jlpt-n4-14",
+   "file": "jlpt-n4-14.json",
+   "title": "JLPT N4 14 – Học tập, sở thích",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 35,
+   "version": 1,
+   "hash": "78cb162949"
+  },
+  {
+   "id": "jlpt-n4-15",
+   "file": "jlpt-n4-15.json",
+   "title": "JLPT N4 15 – Nhà cửa, đồ dùng, quần áo",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "count": 39,
+   "version": 1,
+   "hash": "a32338e7ab"
+  },
+  {
+   "id": "jlpt-n4-16",
+   "file": "jlpt-n4-16.json",
+   "title": "JLPT N4 16 – Ăn uống, mua sắm, lễ hội",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "count": 29,
+   "version": 1,
+   "hash": "c441015f99"
+  },
+  {
+   "id": "jlpt-n4-17",
+   "file": "jlpt-n4-17.json",
+   "title": "JLPT N4 17 – Thiên nhiên, thiên tai, nơi chốn, đi lại",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 44,
+   "version": 1,
+   "hash": "54bcb6fbc9"
+  },
+  {
+   "id": "jlpt-n4-18",
+   "file": "jlpt-n4-18.json",
+   "title": "JLPT N4 18 – Cơ thể, sức khỏe, cảm xúc, ứng xử",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 37,
+   "version": 1,
+   "hash": "d64dc31681"
+  },
+  {
+   "id": "jlpt-n4-19",
+   "file": "jlpt-n4-19.json",
+   "title": "JLPT N4 19 – Thời gian, vị trí, mức độ",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 32,
+   "version": 1,
+   "hash": "ce3cff1c7a"
+  },
+  {
+   "id": "jlpt-n4-20",
+   "file": "jlpt-n4-20.json",
+   "title": "JLPT N4 20 – Từ chung, hậu tố, từ chỉ định, katakana",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 20,
+   "version": 1,
+   "hash": "3c6e3ee69d"
+  },
   {
    "id": "jlpt-n5-01",
    "file": "jlpt-n5-01.json",
@@ -12,8 +288,8 @@
     "jlpt"
    ],
    "count": 40,
-   "version": 2,
-   "hash": "b43b07049d"
+   "version": 5,
+   "hash": "9a4082ae13"
   },
   {
    "id": "jlpt-n5-02",
@@ -25,8 +301,8 @@
     "jlpt"
    ],
    "count": 40,
-   "version": 2,
-   "hash": "6ce5794658"
+   "version": 3,
+   "hash": "f32affae07"
   },
   {
    "id": "jlpt-n5-03",
@@ -38,8 +314,8 @@
     "jlpt"
    ],
    "count": 41,
-   "version": 2,
-   "hash": "0de4e63f35"
+   "version": 4,
+   "hash": "ae82ff4249"
   },
   {
    "id": "jlpt-n5-04",
@@ -51,8 +327,8 @@
     "jlpt"
    ],
    "count": 41,
-   "version": 2,
-   "hash": "7844a26f56"
+   "version": 5,
+   "hash": "a98b15f032"
   },
   {
    "id": "jlpt-n5-05",
@@ -64,8 +340,8 @@
     "jlpt"
    ],
    "count": 35,
-   "version": 2,
-   "hash": "b9d4dd4342"
+   "version": 3,
+   "hash": "a933dbb19a"
   },
   {
    "id": "jlpt-n5-06",
@@ -77,8 +353,8 @@
     "jlpt"
    ],
    "count": 41,
-   "version": 2,
-   "hash": "0657dcd657"
+   "version": 3,
+   "hash": "efe26cb92e"
   },
   {
    "id": "jlpt-n5-07",
@@ -90,8 +366,8 @@
     "jlpt"
    ],
    "count": 39,
-   "version": 2,
-   "hash": "49a7605ffd"
+   "version": 5,
+   "hash": "f878ca7866"
   },
   {
    "id": "jlpt-n5-08",
@@ -103,8 +379,8 @@
     "jlpt"
    ],
    "count": 43,
-   "version": 2,
-   "hash": "bee74cdc53"
+   "version": 5,
+   "hash": "c51beeb447"
   },
   {
    "id": "jlpt-n5-09",
@@ -116,8 +392,8 @@
     "jlpt"
    ],
    "count": 41,
-   "version": 2,
-   "hash": "6e688baa68"
+   "version": 3,
+   "hash": "73ab1ad24e"
   },
   {
    "id": "jlpt-n5-10",
@@ -129,8 +405,8 @@
     "jlpt"
    ],
    "count": 40,
-   "version": 2,
-   "hash": "08630cc91a"
+   "version": 4,
+   "hash": "61cc9133f7"
   },
   {
    "id": "jlpt-n5-11",
@@ -142,8 +418,8 @@
     "jlpt"
    ],
    "count": 44,
-   "version": 2,
-   "hash": "997f4ccc77"
+   "version": 8,
+   "hash": "c81ead7433"
   },
   {
    "id": "jlpt-n5-12",
@@ -155,8 +431,8 @@
     "jlpt"
    ],
    "count": 40,
-   "version": 2,
-   "hash": "3e0886d9b4"
+   "version": 4,
+   "hash": "f5bc35f8b3"
   },
   {
    "id": "jlpt-n5-13",
@@ -168,8 +444,8 @@
     "jlpt"
    ],
    "count": 35,
-   "version": 2,
-   "hash": "b37f640ce4"
+   "version": 4,
+   "hash": "24ac9ba2c9"
   },
   {
    "id": "jlpt-n5-14",
@@ -181,8 +457,8 @@
     "jlpt"
    ],
    "count": 34,
-   "version": 2,
-   "hash": "6f8e3ad042"
+   "version": 4,
+   "hash": "2cc22eae29"
   },
   {
    "id": "jlpt-n5-15",
@@ -195,8 +471,8 @@
     "doisong"
    ],
    "count": 29,
-   "version": 2,
-   "hash": "ea407a8ed6"
+   "version": 3,
+   "hash": "b1999d3e13"
   },
   {
    "id": "jlpt-n5-16",
@@ -208,8 +484,8 @@
     "jlpt"
    ],
    "count": 34,
-   "version": 2,
-   "hash": "15d3e140e0"
+   "version": 3,
+   "hash": "548a6c317a"
   },
   {
    "id": "kansai-01",
@@ -221,8 +497,8 @@
     "kansai"
    ],
    "count": 18,
-   "version": 2,
-   "hash": "74f47d4588"
+   "version": 3,
+   "hash": "6af7d6cc56"
   },
   {
    "id": "thuevisa-01",
@@ -260,8 +536,22 @@
     "thuysan"
    ],
    "count": 31,
-   "version": 3,
-   "hash": "c2706adb26"
+   "version": 4,
+   "hash": "c6022ed909"
+  },
+  {
+   "id": "thuysan-03",
+   "file": "thuysan-03.json",
+   "title": "Thủy sản 03 – HACCP, mối nguy, nhãn hàng, máy móc",
+   "type": "vocab",
+   "level": "N3",
+   "topics": [
+    "thuysan",
+    "xuong"
+   ],
+   "count": 32,
+   "version": 1,
+   "hash": "cba3bc7527"
   },
   {
    "id": "tuongthanh-01",
@@ -288,8 +578,372 @@
     "xuong"
    ],
    "count": 37,
-   "version": 2,
-   "hash": "60c8740516"
+   "version": 3,
+   "hash": "e0c55a4d54"
+  },
+  {
+   "id": "xuong-02",
+   "file": "xuong-02.json",
+   "title": "Công xưởng 02 – An toàn lao động, 5S, tiền lương",
+   "type": "vocab",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ],
+   "count": 37,
+   "version": 1,
+   "hash": "14c3cead03"
+  },
+  {
+   "id": "nguphap-n4-01",
+   "file": "nguphap-n4-01.json",
+   "title": "Ngữ pháp N4 01 – Thể khả năng: làm được",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "508c92bdb4"
+  },
+  {
+   "id": "nguphap-n4-02",
+   "file": "nguphap-n4-02.json",
+   "title": "Ngữ pháp N4 02 – Dự định: ようと思[おも]う・つもり・予定[よてい]",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "84daf2ce77"
+  },
+  {
+   "id": "nguphap-n4-03",
+   "file": "nguphap-n4-03.json",
+   "title": "Ngữ pháp N4 03 – Vừa… vừa…: ながら・し",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "bd9ce0bbf3"
+  },
+  {
+   "id": "nguphap-n4-04",
+   "file": "nguphap-n4-04.json",
+   "title": "Ngữ pháp N4 04 – そうだ: trông có vẻ / nghe nói",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "49c6ac6b8f"
+  },
+  {
+   "id": "nguphap-n4-05",
+   "file": "nguphap-n4-05.json",
+   "title": "Ngữ pháp N4 05 – Hình như: らしい・ようだ・みたいだ",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "cbfb693cea"
+  },
+  {
+   "id": "nguphap-n4-06",
+   "file": "nguphap-n4-06.json",
+   "title": "Ngữ pháp N4 06 – Nếu: たら・ば",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "5160b50deb"
+  },
+  {
+   "id": "nguphap-n4-07",
+   "file": "nguphap-n4-07.json",
+   "title": "Ngữ pháp N4 07 – Hễ… là / nếu là: と・なら",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "7cc639f75b"
+  },
+  {
+   "id": "nguphap-n4-08",
+   "file": "nguphap-n4-08.json",
+   "title": "Ngữ pháp N4 08 – Dù… / Thế mà…: ても・のに",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "8633567e5b"
+  },
+  {
+   "id": "nguphap-n4-09",
+   "file": "nguphap-n4-09.json",
+   "title": "Ngữ pháp N4 09 – Để…: ために・ように",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "515cc0381a"
+  },
+  {
+   "id": "nguphap-n4-10",
+   "file": "nguphap-n4-10.json",
+   "title": "Ngữ pháp N4 10 – Cố gắng / trở nên: ようにする・ようになる",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "2138843888"
+  },
+  {
+   "id": "nguphap-n4-11",
+   "file": "nguphap-n4-11.json",
+   "title": "Ngữ pháp N4 11 – Lỡ / làm sẵn: てしまう・ておく",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "4a9991ca11"
+  },
+  {
+   "id": "nguphap-n4-12",
+   "file": "nguphap-n4-12.json",
+   "title": "Ngữ pháp N4 12 – Đã được làm sẵn / làm thử: てある・てみる",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "e21f30539e"
+  },
+  {
+   "id": "nguphap-n4-13",
+   "file": "nguphap-n4-13.json",
+   "title": "Ngữ pháp N4 13 – Cho và nhận hành động: てあげる・てくれる・てもらう",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "078e9289bd"
+  },
+  {
+   "id": "nguphap-n4-14",
+   "file": "nguphap-n4-14.json",
+   "title": "Ngữ pháp N4 14 – Muốn người khác làm / sai khiến: てほしい・させる",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "dba24b2d7d"
+  },
+  {
+   "id": "nguphap-n4-15",
+   "file": "nguphap-n4-15.json",
+   "title": "Ngữ pháp N4 15 – Thể bị động: 受身形[うけみけい]（〜られる）",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "4494c350c0"
+  },
+  {
+   "id": "nguphap-n4-16",
+   "file": "nguphap-n4-16.json",
+   "title": "Ngữ pháp N4 16 – Kính ngữ: 尊敬語[そんけいご]・謙譲語[けんじょうご]",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "f4287733d3"
+  },
+  {
+   "id": "nguphap-n4-17",
+   "file": "nguphap-n4-17.json",
+   "title": "Ngữ pháp N4 17 – Mệnh lệnh và cấm: 命令形[めいれいけい]・〜な",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "fa03a2a19e"
+  },
+  {
+   "id": "nguphap-n4-18",
+   "file": "nguphap-n4-18.json",
+   "title": "Ngữ pháp N4 18 – Quá / dễ / khó / cách làm: すぎる・やすい・にくい・方[かた]",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "1ea7cb0ce0"
+  },
+  {
+   "id": "nguphap-n4-19",
+   "file": "nguphap-n4-19.json",
+   "title": "Ngữ pháp N4 19 – Câu hỏi lồng: かどうか・疑問詞[ぎもんし]＋か",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 2,
+   "version": 1,
+   "hash": "941db2452a"
+  },
+  {
+   "id": "nguphap-n4-20",
+   "file": "nguphap-n4-20.json",
+   "title": "Ngữ pháp N4 20 – Chắc chắn / thời điểm: はずだ・ところだ・たばかり",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "2a38f44faa"
+  },
+  {
+   "id": "nguphap-n4-21",
+   "file": "nguphap-n4-21.json",
+   "title": "Ngữ pháp N4 21 – Hạn chót / quyết định: までに・ことにする・ことになる",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "e45ffc53b6"
+  },
+  {
+   "id": "nguphap-n4-22",
+   "file": "nguphap-n4-22.json",
+   "title": "Ngữ pháp N4 22 – Trường hợp / lý do / khả năng: 場合[ばあい]は・ので・かもしれない",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "7673c05d45"
+  },
+  {
+   "id": "nguphap-n4-23",
+   "file": "nguphap-n4-23.json",
+   "title": "Ngữ pháp N4 23 – Khuyên / cho phép: ほうがいい・たらどうですか・てもかまわない",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "1f07259266"
+  },
+  {
+   "id": "nguphap-n4-24",
+   "file": "nguphap-n4-24.json",
+   "title": "Ngữ pháp N4 24 – Chỉ / mỗi: ばかり・しか〜ない・ずつ",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "aa8aa8951c"
+  },
+  {
+   "id": "nguphap-n4-25",
+   "file": "nguphap-n4-25.json",
+   "title": "Ngữ pháp N4 25 – Làm cho / giữ nguyên / bắt đầu – kết thúc: くする・まま・始[はじ]める",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "f8591abfcd"
+  },
+  {
+   "id": "nguphap-n4-26",
+   "file": "nguphap-n4-26.json",
+   "title": "Ngữ pháp N4 26 – Hướng / danh từ hóa / gọi tên: ていく・てくる・の・という",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "fbe42d7db6"
+  },
+  {
+   "id": "nguphap-n4-27",
+   "file": "nguphap-n4-27.json",
+   "title": "Ngữ pháp N4 27 – So sánh / không làm mà / cảm nhận: ほど〜ない・ないで・がする",
+   "type": "grammar",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "fad8df9c60"
   },
   {
    "id": "nguphap-n5-01",
@@ -448,6 +1102,19 @@
    "hash": "60bdbf7216"
   },
   {
+   "id": "cau-thutuc-01",
+   "file": "cau-thutuc-01.json",
+   "title": "Câu thực chiến 02 – Quầy hành chính, ngân hàng, bệnh viện",
+   "type": "phrase",
+   "level": "N4",
+   "topics": [
+    "doisong"
+   ],
+   "count": 20,
+   "version": 1,
+   "hash": "c4b3305972"
+  },
+  {
    "id": "cau-xuong-01",
    "file": "cau-xuong-01.json",
    "title": "Câu thực chiến 01 – Nói & nghe trong xưởng",
@@ -459,6 +1126,19 @@
    "count": 28,
    "version": 2,
    "hash": "1bcd55f8b9"
+  },
+  {
+   "id": "cau-xuong-02",
+   "file": "cau-xuong-02.json",
+   "title": "Câu thực chiến 03 – Báo cáo, xin nghỉ, hỏi việc (N4)",
+   "type": "phrase",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ],
+   "count": 20,
+   "version": 1,
+   "hash": "30c01f6849"
   },
   {
    "id": "chuhan-01",
@@ -474,6 +1154,19 @@
    "count": 24,
    "version": 1,
    "hash": "67bbc2c22f"
+  },
+  {
+   "id": "chuhan-02",
+   "file": "chuhan-02.json",
+   "title": "Chữ Hán 02 – 25 chữ dùng nhiều nhất trong kho (N5–N4)",
+   "type": "kanji",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 25,
+   "version": 1,
+   "hash": "c5c6fe428d"
   }
  ]
 }

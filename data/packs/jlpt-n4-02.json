@@ -1,0 +1,1148 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n4-02",
+  "title": "JLPT N4 02 – Động từ cặp tự / tha (2)",
+  "type": "vocab",
+  "level": "N4",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:冷える:ひえる",
+   "kana": "ひえる",
+   "kanji": "冷える",
+   "kf": "冷[ひ]える",
+   "hv": "LÃNH",
+   "vi": "lạnh đi, nguội; (trời) trở lạnh",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今夜[こんや]はかなり冷[ひ]えますね。",
+     "vi": "Tối nay trời lạnh hẳn nhỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ビールがよく冷[ひ]えています。",
+     "vi": "Bia đã ướp lạnh rồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]の中[なか]は体[からだ]が冷[ひ]えるので、休憩[きゅうけい]を取[と]ってください。",
+     "vi": "Trong kho đông người bị lạnh, hãy nghỉ giải lao.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "体[からだ]が冷[ひ]える",
+     "vi": "người bị lạnh"
+    }
+   ],
+   "pair": {
+    "w": "冷[ひ]やす",
+    "vi": "làm lạnh, ướp lạnh"
+   }
+  },
+  {
+   "id": "v:起こす:おこす",
+   "kana": "おこす",
+   "kanji": "起こす",
+   "kf": "起[お]こす",
+   "hv": "KHỞI",
+   "vi": "đánh thức; gây ra",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "明日[あした]、六[ろく]時[じ]に起[お]こしてください。",
+     "vi": "Mai đánh thức tôi lúc 6 giờ nhé.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "事故[じこ]を起[お]こさないように、フォークリフトはゆっくり運転[うんてん]してください。",
+     "vi": "Lái xe nâng chậm thôi để không gây tai nạn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：まだ寝[ね]てる？B：うん、起[お]こさないで。",
+     "vi": "A: Vẫn ngủ à? B: Ừ, đừng đánh thức.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "子供[こども]を起[お]こす",
+     "vi": "đánh thức con"
+    },
+    {
+     "jp": "事故[じこ]を起[お]こす",
+     "vi": "gây tai nạn"
+    }
+   ],
+   "pair": "v:起きる:おきる"
+  },
+  {
+   "id": "v:止める:とめる",
+   "kana": "とめる",
+   "kanji": "止める",
+   "kf": "止[と]める",
+   "hv": "CHỈ",
+   "vi": "dừng lại (máy, xe — làm cho dừng); đỗ (xe)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ここに車[くるま]を止[と]めないでください。",
+     "vi": "Đừng đỗ xe ở đây.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "異物[いぶつ]を見[み]つけたら、ラインを止[と]めてください。",
+     "vi": "Thấy dị vật thì dừng dây chuyền.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "出血[しゅっけつ]を止[と]めるために、強[つよ]く押[お]さえてください。",
+     "vi": "Hãy ấn mạnh để cầm máu.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "機械[きかい]を止[と]める",
+     "vi": "dừng máy"
+    },
+    {
+     "jp": "車[くるま]を止[と]める",
+     "vi": "đỗ xe"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "やめる",
+     "vi": "thôi, bỏ (việc gì)"
+    }
+   ],
+   "pair": "v:止まる:とまる"
+  },
+  {
+   "id": "v:乾く:かわく",
+   "kana": "かわく",
+   "kanji": "乾く",
+   "kf": "乾[かわ]く",
+   "hv": "CAN",
+   "vi": "khô; khát (họng)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "洗濯物[せんたくもの]がよく乾[かわ]きました。",
+     "vi": "Quần áo phơi khô rồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "まな板[いた]が乾[かわ]いてから、棚[たな]に戻[もど]してください。",
+     "vi": "Thớt khô rồi mới để lại lên kệ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：のどが乾[かわ]いた。B：お茶[ちゃ]、飲[の]む？",
+     "vi": "A: Khát quá. B: Uống trà không?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "洗濯物[せんたくもの]が乾[かわ]く",
+     "vi": "quần áo khô"
+    },
+    {
+     "jp": "のどが乾[かわ]く",
+     "vi": "khát nước"
+    }
+   ],
+   "pair": {
+    "w": "乾[かわ]かす",
+    "vi": "phơi khô, sấy khô"
+   }
+  },
+  {
+   "id": "v:汚れる:よごれる",
+   "kana": "よごれる",
+   "kanji": "汚れる",
+   "kf": "汚[よご]れる",
+   "hv": "Ô",
+   "vi": "bị bẩn, dơ",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]で靴[くつ]が汚[よご]れました。",
+     "vi": "Giày bị bẩn vì mưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "エプロンが汚[よご]れたら、新[あたら]しいのに替[か]えてください。",
+     "vi": "Tạp dề bẩn thì thay cái mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "汚[よご]れた手[て]で書類[しょるい]を触[さわ]らないでください。",
+     "vi": "Đừng chạm vào giấy tờ bằng tay bẩn.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "服[ふく]が汚[よご]れる",
+     "vi": "quần áo bị bẩn"
+    }
+   ],
+   "ant": [
+    "v:きれい:きれい"
+   ],
+   "pair": {
+    "w": "汚[よご]す",
+    "vi": "làm bẩn"
+   }
+  },
+  {
+   "id": "v:倒れる:たおれる",
+   "kana": "たおれる",
+   "kanji": "倒れる",
+   "kf": "倒[たお]れる",
+   "hv": "ĐẢO",
+   "vi": "đổ, ngã (cây, người); ngất, gục",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台風[たいふう]で木[き]が倒[たお]れました。",
+     "vi": "Cây đổ vì bão.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "暑[あつ]い日[ひ]は、倒[たお]れないように水[みず]を飲[の]んでください。",
+     "vi": "Ngày nóng hãy uống nước để khỏi ngất.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "人[ひと]が倒[たお]れていたら、すぐ救急車[きゅうきゅうしゃ]を呼[よ]んでください。",
+     "vi": "Thấy người ngã gục thì gọi ngay xe cấp cứu.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "木[き]が倒[たお]れる",
+     "vi": "cây đổ"
+    },
+    {
+     "jp": "病気[びょうき]で倒[たお]れる",
+     "vi": "ngã bệnh"
+    }
+   ],
+   "pair": {
+    "w": "倒[たお]す",
+    "vi": "làm đổ, xô ngã"
+   }
+  },
+  {
+   "id": "v:割れる:われる",
+   "kana": "われる",
+   "kanji": "割れる",
+   "kf": "割[わ]れる",
+   "hv": "CÁT",
+   "vi": "vỡ (kính, đĩa, trứng)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お皿[さら]が割[わ]れてしまいました。",
+     "vi": "Cái đĩa bị vỡ mất rồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ガラスが割[わ]れたら、作業[さぎょう]を止[と]めて破片[はへん]を探[さが]します。",
+     "vi": "Kính vỡ thì dừng việc để tìm mảnh vỡ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：卵[たまご]、割[わ]れてない？B：一[ひと]つだけ割[わ]れてる。",
+     "vi": "A: Trứng có quả nào vỡ không? B: Vỡ một quả thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "皿[さら]が割[わ]れる",
+     "vi": "đĩa vỡ"
+    },
+    {
+     "jp": "ガラスが割[わ]れる",
+     "vi": "kính vỡ"
+    }
+   ],
+   "pair": {
+    "w": "割[わ]る",
+    "vi": "làm vỡ, đập (trứng); chia"
+   }
+  },
+  {
+   "id": "v:届ける:とどける",
+   "kana": "とどける",
+   "kanji": "届ける",
+   "kf": "届[とど]ける",
+   "hv": "GIỚI",
+   "vi": "đưa tới, giao; trình báo",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "友達[ともだち]の家[いえ]にケーキを届[とど]けました。",
+     "vi": "Tôi mang bánh đến nhà bạn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この書類[しょるい]を事務所[じむしょ]に届[とど]けてください。",
+     "vi": "Hãy đưa giấy này lên văn phòng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "落[お]とし物[もの]を拾[ひろ]ったら、交番[こうばん]に届[とど]けます。",
+     "vi": "Nhặt được đồ rơi thì nộp cho đồn cảnh sát.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "荷物[にもつ]を届[とど]ける",
+     "vi": "giao hàng"
+    },
+    {
+     "jp": "警察[けいさつ]に届[とど]ける",
+     "vi": "trình báo cảnh sát"
+    }
+   ],
+   "pair": {
+    "w": "届[とど]く",
+    "vi": "tới nơi, nhận được"
+   }
+  },
+  {
+   "id": "v:残る:のこる",
+   "kana": "のこる",
+   "kanji": "残る",
+   "kf": "残[のこ]る",
+   "hv": "TÀN",
+   "vi": "còn lại, ở lại",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冷蔵庫[れいぞうこ]にカレーが少[すこ]し残[のこ]っています。",
+     "vi": "Trong tủ lạnh còn một ít cà ri.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "仕事[しごと]が残[のこ]っているので、もう少[すこ]し残[のこ]ります。",
+     "vi": "Còn việc nên tôi ở lại thêm chút.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "必要[ひつよう]な書類[しょるい]のコピーは、手元[てもと]に残[のこ]しておいてください。",
+     "vi": "Hãy giữ lại bản sao giấy tờ cần thiết.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]が残[のこ]る",
+     "vi": "còn việc"
+    },
+    {
+     "jp": "会社[かいしゃ]に残[のこ]る",
+     "vi": "ở lại công ty"
+    }
+   ],
+   "pair": {
+    "w": "残[のこ]す",
+    "vi": "để lại, chừa lại"
+   }
+  },
+  {
+   "id": "v:増える:ふえる",
+   "kana": "ふえる",
+   "kanji": "増える",
+   "kf": "増[ふ]える",
+   "hv": "TĂNG",
+   "vi": "tăng lên (số lượng)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]に住[す]む外国人[がいこくじん]が増[ふ]えています。",
+     "vi": "Người nước ngoài sống ở Nhật đang tăng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "年末[ねんまつ]は注文[ちゅうもん]が増[ふ]えて、とても忙[いそが]しいです。",
+     "vi": "Cuối năm đơn hàng tăng nên rất bận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "税金[ぜいきん]が増[ふ]えると、生活[せいかつ]が大変[たいへん]になります。",
+     "vi": "Thuế tăng thì cuộc sống vất vả.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人[ひと]が増[ふ]える",
+     "vi": "người tăng lên"
+    },
+    {
+     "jp": "体重[たいじゅう]が増[ふ]える",
+     "vi": "tăng cân"
+    }
+   ],
+   "ant": [
+    {
+     "w": "減[へ]る",
+     "vi": "giảm đi"
+    }
+   ],
+   "pair": {
+    "w": "増[ふ]やす",
+    "vi": "tăng (cái gì)"
+   }
+  },
+  {
+   "id": "v:点く:つく",
+   "kana": "つく",
+   "kanji": "点く",
+   "kf": "点[つ]く",
+   "hv": "ĐIỂM",
+   "vi": "sáng lên, bật lên (đèn, máy tự lên)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜[よる]になると、町[まち]の電気[でんき]が点[つ]きます。",
+     "vi": "Đêm xuống, đèn thành phố bật sáng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "赤[あか]いランプが点[つ]いたら、機械[きかい]を止[と]めてください。",
+     "vi": "Đèn đỏ sáng thì dừng máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あれ、テレビが点[つ]かない。B：リモコンの電池[でんち]かな。",
+     "vi": "A: Ơ, tivi không lên. B: Chắc pin điều khiển.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "電気[でんき]が点[つ]く",
+     "vi": "đèn sáng"
+    }
+   ],
+   "ant": [
+    {
+     "w": "消[き]える",
+     "vi": "tắt (tự)"
+    }
+   ],
+   "pair": "v:つける:つける"
+  },
+  {
+   "id": "v:空く:すく",
+   "kana": "すく",
+   "kanji": "空く",
+   "kf": "空[す]く",
+   "hv": "KHÔNG",
+   "vi": "vắng (người); đói (bụng)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "平日[へいじつ]の朝[あさ]は、電車[でんしゃ]が空[す]いています。",
+     "vi": "Sáng ngày thường tàu vắng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "仕事[しごと]の後[あと]は、お腹[なか]が空[す]きます。",
+     "vi": "Làm xong việc thì đói bụng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：お腹[なか]、空[す]いた？B：うん、ペコペコ。",
+     "vi": "A: Đói chưa? B: Ừ, đói meo rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "お腹[なか]が空[す]く",
+     "vi": "đói bụng"
+    },
+    {
+     "jp": "道[みち]が空[す]く",
+     "vi": "đường vắng"
+    }
+   ],
+   "ant": [
+    {
+     "w": "込[こ]む",
+     "vi": "đông, chật"
+    }
+   ],
+   "confuse": [
+    "v:空く:あく"
+   ]
+  },
+  {
+   "id": "v:空く:あく",
+   "kana": "あく",
+   "kanji": "空く",
+   "kf": "空[あ]く",
+   "hv": "KHÔNG",
+   "vi": "trống (chỗ, phòng); rảnh (thời gian)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この席[せき]、空[あ]いていますか。",
+     "vi": "Ghế này còn trống không?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]に場所[ばしょ]が空[あ]いたら、この箱[はこ]を入[い]れてください。",
+     "vi": "Kho đông có chỗ trống thì cho thùng này vào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "来週[らいしゅう]の火曜日[かようび]なら、時間[じかん]が空[あ]いています。",
+     "vi": "Thứ Ba tuần sau thì tôi rảnh.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "席[せき]が空[あ]く",
+     "vi": "ghế trống"
+    },
+    {
+     "jp": "時間[じかん]が空[あ]く",
+     "vi": "rảnh"
+    }
+   ],
+   "confuse": [
+    "v:空く:すく"
+   ],
+   "note": "Cùng chữ với 空[す]く (đói, vắng) — nhìn câu: 席[せき]が空[あ]く (ghế trống), お腹[なか]が空[す]く (đói)."
+  },
+  {
+   "id": "v:揺れる:ゆれる",
+   "kana": "ゆれる",
+   "kanji": "揺れる",
+   "kf": "揺[ゆ]れる",
+   "hv": "DAO",
+   "vi": "rung, lắc, chao",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地震[じしん]で家[いえ]が揺[ゆ]れました。",
+     "vi": "Nhà rung vì động đất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "船[ふね]が揺[ゆ]れて、気分[きぶん]が悪[わる]くなりました。",
+     "vi": "Thuyền chòng chành nên tôi say sóng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]が変[へん]に揺[ゆ]れていたら、班長[はんちょう]に知[し]らせてください。",
+     "vi": "Máy rung bất thường thì báo tổ trưởng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "家[いえ]が揺[ゆ]れる",
+     "vi": "nhà rung lắc"
+    }
+   ]
+  },
+  {
+   "id": "v:濡れる:ぬれる",
+   "kana": "ぬれる",
+   "kanji": "濡れる",
+   "kf": "濡[ぬ]れる",
+   "hv": "NHU",
+   "vi": "bị ướt",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "傘[かさ]がなくて、服[ふく]が濡[ぬ]れました。",
+     "vi": "Không có ô nên quần áo bị ướt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "濡[ぬ]れた手[て]で電気[でんき]のスイッチを触[さわ]らないでください。",
+     "vi": "Đừng chạm công tắc điện bằng tay ướt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "書類[しょるい]が濡[ぬ]れないように、袋[ふくろ]に入[い]れて持[も]って行[い]きます。",
+     "vi": "Cho giấy tờ vào túi mang đi để khỏi ướt.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "雨[あめ]に濡[ぬ]れる",
+     "vi": "bị mưa ướt"
+    }
+   ],
+   "ant": [
+    "v:乾く:かわく"
+   ],
+   "pair": {
+    "w": "濡[ぬ]らす",
+    "vi": "làm ướt"
+   }
+  },
+  {
+   "id": "v:止む:やむ",
+   "kana": "やむ",
+   "kanji": "止む",
+   "kf": "止[や]む",
+   "hv": "CHỈ",
+   "vi": "tạnh, ngừng (mưa, gió, tiếng)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]が止[や]んだら、出[で]かけましょう。",
+     "vi": "Mưa tạnh thì đi ra ngoài nhé.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]の音[おと]が止[や]んだら、中[なか]を確認[かくにん]してください。",
+     "vi": "Tiếng máy ngừng thì kiểm tra bên trong.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：雪[ゆき]、まだ降[ふ]ってる？B：もう止[や]んだよ。",
+     "vi": "A: Tuyết còn rơi không? B: Tạnh rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "雨[あめ]が止[や]む",
+     "vi": "mưa tạnh"
+    },
+    {
+     "jp": "風[かぜ]が止[や]む",
+     "vi": "gió ngừng"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "止[と]める",
+     "vi": "dừng (máy), đỗ (xe)"
+    }
+   ]
+  },
+  {
+   "id": "v:鳴る:なる",
+   "kana": "なる",
+   "kanji": "鳴る",
+   "kf": "鳴[な]る",
+   "hv": "MINH",
+   "vi": "kêu, reo (chuông, điện thoại)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "授業[じゅぎょう]の終[お]わりのチャイムが鳴[な]りました。",
+     "vi": "Chuông hết giờ học đã reo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ブザーが鳴[な]ったら、すぐ機械[きかい]から離[はな]れてください。",
+     "vi": "Còi kêu thì tránh xa máy ngay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "会議[かいぎ]中[ちゅう]に電話[でんわ]が鳴[な]らないように、マナーモードにしてください。",
+     "vi": "Để chế độ im lặng để điện thoại không reo trong cuộc họp.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "電話[でんわ]が鳴[な]る",
+     "vi": "điện thoại reo"
+    },
+    {
+     "jp": "ベルが鳴[な]る",
+     "vi": "chuông reo"
+    }
+   ],
+   "pair": {
+    "w": "鳴[な]らす",
+    "vi": "làm kêu, bấm (chuông)"
+   }
+  },
+  {
+   "id": "v:動く:うごく",
+   "kana": "うごく",
+   "kanji": "動く",
+   "kf": "動[うご]く",
+   "hv": "ĐỘNG",
+   "vi": "hoạt động (máy); cử động, di chuyển",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寒[さむ]くて、指[ゆび]がうまく動[うご]きません。",
+     "vi": "Lạnh quá, ngón tay cử động không nổi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]が動[うご]いている時[とき]は、手[て]を入[い]れないでください。",
+     "vi": "Khi máy đang chạy đừng thò tay vào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地震[じしん]の時[とき]は、あまり動[うご]かないで、机[つくえ]の下[した]にいてください。",
+     "vi": "Khi động đất đừng di chuyển nhiều, hãy ở dưới gầm bàn.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "機械[きかい]が動[うご]く",
+     "vi": "máy chạy"
+    }
+   ],
+   "pair": {
+    "w": "動[うご]かす",
+    "vi": "vận hành, di chuyển (cái gì)"
+   },
+   "fx": [
+    {
+     "f": "kano",
+     "jp": "足[あし]が痛[いた]くて、[[動[うご]け]]ません。",
+     "vi": "Đau chân không cử động được."
+    }
+   ]
+  },
+  {
+   "id": "v:移る:うつる",
+   "kana": "うつる",
+   "kanji": "移る",
+   "kf": "移[うつ]る",
+   "hv": "DI",
+   "vi": "chuyển (sang chỗ khác); lây (bệnh)",
+   "pos": "v5",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来月[らいげつ]、大阪[おおさか]の支店[してん]に移[うつ]ります。",
+     "vi": "Tháng sau tôi chuyển sang chi nhánh Osaka.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "午後[ごご]から二[に]番[ばん]ラインに移[うつ]ってください。",
+     "vi": "Từ chiều chuyển sang dây chuyền số 2.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "風邪[かぜ]が移[うつ]らないように、マスクをしてください。",
+     "vi": "Hãy đeo khẩu trang để khỏi lây cảm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "新[あたら]しい部屋[へや]に移[うつ]る",
+     "vi": "chuyển sang phòng mới"
+    },
+    {
+     "jp": "風邪[かぜ]が移[うつ]る",
+     "vi": "lây cảm"
+    }
+   ],
+   "pair": {
+    "w": "移[うつ]す",
+    "vi": "chuyển (cái gì), làm lây"
+   }
+  },
+  {
+   "id": "v:建てる:たてる",
+   "kana": "たてる",
+   "kanji": "建てる",
+   "kf": "建[た]てる",
+   "hv": "KIẾN",
+   "vi": "xây (nhà, công trình)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いつか国[くに]に家[いえ]を建[た]てたいです。",
+     "vi": "Một ngày nào đó tôi muốn xây nhà ở quê.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]は新[あたら]しい工場[こうじょう]を建[た]てる予定[よてい]です。",
+     "vi": "Công ty dự định xây nhà máy mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "このお寺[てら]は、三百[さんひゃく]年[ねん]前[まえ]に建[た]てられました。",
+     "vi": "Ngôi chùa này được xây 300 năm trước.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "家[いえ]を建[た]てる",
+     "vi": "xây nhà"
+    }
+   ],
+   "confuse": [
+    "v:立てる:たてる"
+   ],
+   "pair": {
+    "w": "建[た]つ",
+    "vi": "được xây, mọc lên"
+   },
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "この工場[こうじょう]は二十[にじゅう]年[ねん]前[まえ]に[[建[た]てられ]]ました。",
+     "vi": "Nhà máy này được xây 20 năm trước."
+    }
+   ]
+  },
+  {
+   "id": "v:立てる:たてる",
+   "kana": "たてる",
+   "kanji": "立てる",
+   "kf": "立[た]てる",
+   "hv": "LẬP",
+   "vi": "dựng (đứng), lập (kế hoạch)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夏休[なつやす]みの計画[けいかく]を立[た]てましょう。",
+     "vi": "Lập kế hoạch nghỉ hè nhé.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "「足元[あしもと]注意[ちゅうい]」の看板[かんばん]を立[た]ててください。",
+     "vi": "Hãy dựng biển \"Chú ý dưới chân\".",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "毎月[まいつき]、お金[かね]を使[つか]う計画[けいかく]を立[た]てています。",
+     "vi": "Tháng nào tôi cũng lập kế hoạch chi tiêu.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "計画[けいかく]を立[た]てる",
+     "vi": "lập kế hoạch"
+    },
+    {
+     "jp": "看板[かんばん]を立[た]てる",
+     "vi": "dựng biển"
+    }
+   ],
+   "confuse": [
+    "v:建てる:たてる"
+   ],
+   "pair": "v:立つ:たつ"
+  },
+  {
+   "id": "v:植える:うえる",
+   "kana": "うえる",
+   "kanji": "植える",
+   "kf": "植[う]える",
+   "hv": "THỰC",
+   "vi": "trồng (cây, hoa)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "庭[にわ]に花[はな]を植[う]えました。",
+     "vi": "Tôi trồng hoa ngoài vườn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "休[やす]みの日[ひ]に、畑[はたけ]に野菜[やさい]を植[う]えました。",
+     "vi": "Ngày nghỉ tôi trồng rau ngoài ruộng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この木[き]、誰[だれ]が植[う]えたの？B：おじいさんだよ。",
+     "vi": "A: Cây này ai trồng thế? B: Ông đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "木[き]を植[う]える",
+     "vi": "trồng cây"
+    }
+   ]
+  },
+  {
+   "id": "v:片付ける:かたづける",
+   "kana": "かたづける",
+   "kanji": "片付ける",
+   "kf": "片付[かたづ]ける",
+   "hv": "PHIẾN PHÓ",
+   "vi": "dọn dẹp, cất gọn (động từ)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寝[ね]る前[まえ]に、部屋[へや]を片付[かたづ]けます。",
+     "vi": "Trước khi ngủ tôi dọn phòng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "使[つか]った道具[どうぐ]は、すぐ片付[かたづ]けてください。",
+     "vi": "Dụng cụ đã dùng thì cất ngay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "机[つくえ]の上[うえ]を片付[かたづ]けてから、書類[しょるい]を広[ひろ]げます。",
+     "vi": "Dọn mặt bàn rồi mới trải giấy tờ ra.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "部屋[へや]を片付[かたづ]ける",
+     "vi": "dọn phòng"
+    },
+    {
+     "jp": "道具[どうぐ]を片付[かたづ]ける",
+     "vi": "cất dụng cụ"
+    }
+   ],
+   "syn": [
+    "v:片付け:かたづけ"
+   ],
+   "confuse": [
+    "v:掃除:そうじ"
+   ]
+  },
+  {
+   "id": "v:下りる:おりる",
+   "kana": "おりる",
+   "kanji": "下りる",
+   "kf": "下[お]りる",
+   "hv": "HẠ",
+   "vi": "đi xuống (cầu thang, núi)",
+   "pos": "v1",
+   "level": "N4",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "階段[かいだん]を下[お]りて、右[みぎ]に曲[ま]がってください。",
+     "vi": "Xuống cầu thang rồi rẽ phải.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]の階段[かいだん]は滑[すべ]りやすいので、ゆっくり下[お]りてください。",
+     "vi": "Cầu thang kho đông dễ trơn, hãy xuống từ từ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "山[やま]を下[お]りる時[とき]は、足[あし]に気[き]をつけてください。",
+     "vi": "Khi xuống núi hãy cẩn thận chân.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "階段[かいだん]を下[お]りる",
+     "vi": "xuống cầu thang"
+    }
+   ],
+   "ant": [
+    {
+     "w": "上[のぼ]る",
+     "vi": "leo lên"
+    }
+   ],
+   "confuse": [
+    "v:降りる:おりる"
+   ]
+  }
+ ]
+}
