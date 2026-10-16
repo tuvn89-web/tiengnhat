@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-10-12",
+ "updated": "2026-10-16",
  "packs": [
   {
    "id": "doisong-01",
@@ -1633,8 +1633,8 @@
     "jlpt"
    ],
    "count": 21,
-   "version": 1,
-   "hash": "2d2067c973"
+   "version": 2,
+   "hash": "5e7a746467"
   },
   {
    "id": "hoithoai-01",
@@ -1652,6 +1652,277 @@
    "turns": 54
   },
   {
+   "id": "modau-n5-01",
+   "file": "modau-n5-01.json",
+   "title": "Bài mở đầu N5 – bài 1: Ngày đầu tiên ở xưởng",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "c95ac5d957",
+   "turns": 62
+  },
+  {
+   "id": "modau-n5-02",
+   "file": "modau-n5-02.json",
+   "title": "Bài mở đầu N5 – bài 2: Đồ của ai? — ở phòng thay đồ",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "3bfcabd812",
+   "turns": 47
+  },
+  {
+   "id": "modau-n5-03",
+   "file": "modau-n5-03.json",
+   "title": "Bài mở đầu N5 – bài 3: Đi mua đồ sau giờ làm",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "86538359e1",
+   "turns": 45
+  },
+  {
+   "id": "modau-n5-04",
+   "file": "modau-n5-04.json",
+   "title": "Bài mở đầu N5 – bài 4: Lịch làm việc tuần này",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "46f2cf2b89",
+   "turns": 44
+  },
+  {
+   "id": "modau-n5-06",
+   "file": "modau-n5-06.json",
+   "title": "Bài mở đầu N5 – bài 6: Một ngày của Cậu Cả",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "9656b66b47",
+   "turns": 47
+  },
+  {
+   "id": "modau-n5-07",
+   "file": "modau-n5-07.json",
+   "title": "Bài mở đầu N5 – bài 7: Chủ nhật đi tòa thị chính và thư viện",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "5558508370",
+   "turns": 41
+  },
+  {
+   "id": "modau-n5-08",
+   "file": "modau-n5-08.json",
+   "title": "Bài mở đầu N5 – bài 8: Chuyển đến căn hộ mới",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "b3cebf27e4",
+   "turns": 47
+  },
+  {
+   "id": "modau-n5-09",
+   "file": "modau-n5-09.json",
+   "title": "Bài mở đầu N5 – bài 9: Bữa tối ở nhà tổ trưởng",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "8195880728",
+   "turns": 46
+  },
+  {
+   "id": "modau-n5-10",
+   "file": "modau-n5-10.json",
+   "title": "Bài mở đầu N5 – bài 10: Hẹn nhau cuối tuần",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "c300d0e918",
+   "turns": 50
+  },
+  {
+   "id": "modau-n5-11",
+   "file": "modau-n5-11.json",
+   "title": "Bài mở đầu N5 – bài 11: Ngày đầu ở dây chuyền số 3",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "bc729a48e2",
+   "turns": 49
+  },
+  {
+   "id": "modau-n5-12",
+   "file": "modau-n5-12.json",
+   "title": "Bài mở đầu N5 – bài 12: Buổi học an toàn ở xưởng",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "c9e2f38a29",
+   "turns": 43
+  },
+  {
+   "id": "modau-n5-13",
+   "file": "modau-n5-13.json",
+   "title": "Bài mở đầu N5 – bài 13: Đồng phục, bữa tiệc và áo mùa đông",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "6fdae8b9c0",
+   "turns": 47
+  },
+  {
+   "id": "modau-n5-15",
+   "file": "modau-n5-15.json",
+   "title": "Bài mở đầu N5 – bài 15: Trời mùa thu",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "a23bdeb172",
+   "turns": 42
+  },
+  {
+   "id": "modau-n5-16",
+   "file": "modau-n5-16.json",
+   "title": "Bài mở đầu N5 – bài 16: Bị cảm, xin nghỉ một ngày",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "dbc094130c",
+   "turns": 43
+  },
+  {
+   "id": "modau-n5-17",
+   "file": "modau-n5-17.json",
+   "title": "Bài mở đầu N5 – bài 17: Mua xe đạp mới",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "d4077932de",
+   "turns": 42
+  },
+  {
+   "id": "modau-n5-18",
+   "file": "modau-n5-18.json",
+   "title": "Bài mở đầu N5 – bài 18: Ba tháng ở Nhật",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "1a97de2e61",
+   "turns": 41
+  },
+  {
+   "id": "modau-n5-19",
+   "file": "modau-n5-19.json",
+   "title": "Bài mở đầu N5 – bài 19: Ảnh gia đình của Hoa",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "32c05b24dd",
+   "turns": 47
+  },
+  {
+   "id": "modau-n5-20",
+   "file": "modau-n5-20.json",
+   "title": "Bài mở đầu N5 – bài 20: Lớp tiếng Nhật buổi tối",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "8017030d22",
+   "turns": 41
+  },
+  {
+   "id": "modau-n5-21",
+   "file": "modau-n5-21.json",
+   "title": "Bài mở đầu N5 – bài 21: Quy định khu nhà, bưu điện và ngân hàng",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "f9132ff2bb",
+   "turns": 42
+  },
+  {
    "id": "baidoc-01",
    "file": "baidoc-01.json",
    "title": "Bài đọc 01 – Tin nhắn & biển báo N5 (mẫu)",
@@ -1664,6 +1935,35 @@
    "version": 1,
    "hash": "e2c30ec095",
    "sents": 11
+  },
+  {
+   "id": "modau-n5-05",
+   "file": "modau-n5-05.json",
+   "title": "Bài mở đầu N5 – bài 5: Nhật ký tháng Mười của Cậu Cả",
+   "type": "text",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "991d52c845",
+   "sents": 47
+  },
+  {
+   "id": "modau-n5-14",
+   "file": "modau-n5-14.json",
+   "title": "Bài mở đầu N5 – bài 14: Ghi chép: thứ tự công việc và nấu ăn",
+   "type": "text",
+   "level": "N5",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "f961e043a6",
+   "sents": 45
   }
  ]
 }
