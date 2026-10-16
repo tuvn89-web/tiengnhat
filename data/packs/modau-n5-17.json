@@ -1,0 +1,675 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n5-17",
+  "title": "Bài mở đầu N5 – bài 17: Mua xe đạp mới",
+  "type": "dialog",
+  "level": "N5",
+  "topics": [
+   "doisong"
+  ],
+  "version": 1,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n5-17",
+   "title": "Mua xe đạp mới",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "ctx": "doisong",
+   "lesson": "l:n5-17",
+   "intro": true,
+   "setting": "Xe đạp cũ của Cậu Cả hỏng. Anh Suzuki đi cùng ra cửa hàng xe đạp. Giờ trưa hôm sau, mọi người so sánh Nhật và Việt Nam.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Cậu Cả",
+     "me": true
+    },
+    {
+     "key": "D",
+     "name": "鈴木[すずき]",
+     "vi": "Đồng nghiệp người Nhật"
+    },
+    {
+     "key": "S",
+     "name": "店員[てんいん]",
+     "vi": "Nhân viên cửa hàng"
+    },
+    {
+     "key": "C",
+     "name": "マリア",
+     "vi": "Đồng nghiệp"
+    }
+   ],
+   "turns": [
+    {
+     "who": "D",
+     "jp": "グエンさん、新[あたら]しい自転車[じてんしゃ]を買[か]いますか。",
+     "vi": "Anh Nguyễn, anh mua xe đạp mới à?",
+     "key": "新[あたら]しい",
+     "grammar": [
+      "g:〜を",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。私[わたし]の自転車[じてんしゃ]は古[ふる]いです。それに、とても重[おも]いです。",
+     "vi": "Vâng. Xe của tôi cũ rồi. Lại còn rất nặng.",
+     "key": "古[ふる]い",
+     "grammar": [
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "それに",
+       "vi": "hơn nữa"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "いらっしゃいませ。いろいろな自転車[じてんしゃ]がありますよ。",
+     "vi": "Xin mời. Ở đây có nhiều loại xe đạp lắm.",
+     "key": "いろいろ",
+     "grammar": [
+      "g:〜があります・〜がいます"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "この自転車[じてんしゃ]とあの自転車[じてんしゃ]と、どちらがいいですか。",
+     "vi": "Xe này với xe kia, xe nào tốt hơn ạ?",
+     "key": "どちら",
+     "alt": [
+      "この自転車[じてんしゃ]とあの自転車[じてんしゃ]と、どちらが軽[かる]いですか。"
+     ],
+     "note": "Hỏi so sánh hai thứ: AとBと、どちらが〜ですか. Trả lời: Aのほうが〜です.",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜と",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "こちらのほうが軽[かる]いです。そして、速[はや]いです。",
+     "vi": "Chiếc này nhẹ hơn. Và chạy nhanh hơn.",
+     "key": "軽[かる]い",
+     "grammar": [
+      "g:〜より〜のほうが"
+     ],
+     "gloss": [
+      {
+       "w": "こちら",
+       "vi": "cái này (lịch sự)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "値段[ねだん]は？",
+     "vi": "Còn giá thì sao?",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "値段[ねだん]",
+       "vi": "giá"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "こちらは三万円[さんまんえん]です。あちらは二万円[にまんえん]です。あちらのほうが一万円[いちまんえん]安[やす]いです。",
+     "vi": "Chiếc này 30.000 yên. Chiếc kia 20.000 yên. Chiếc kia rẻ hơn 10.000 yên.",
+     "key": "安[やす]い",
+     "grammar": [
+      "g:〜は〜です",
+      "g:〜より〜のほうが"
+     ],
+     "gloss": [
+      {
+       "w": "あちら",
+       "vi": "cái kia (lịch sự)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "三万円[さんまんえん]は高[たか]いですね。",
+     "vi": "30.000 yên thì đắt nhỉ.",
+     "key": "高[たか]い",
+     "grammar": []
+    },
+    {
+     "who": "D",
+     "jp": "でも、軽[かる]い自転車[じてんしゃ]のほうがいいですよ。毎日[まいにち]乗[の]りますから。",
+     "vi": "Nhưng xe nhẹ thì tốt hơn đấy. Vì ngày nào cũng đi.",
+     "key": "いい",
+     "grammar": [
+      "g:〜より〜のほうが",
+      "g:〜から"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうですね。この店[みせ]で一番[いちばん]軽[かる]い自転車[じてんしゃ]はどれですか。",
+     "vi": "Đúng thế. Xe nhẹ nhất ở cửa hàng này là chiếc nào?",
+     "key": "一番[いちばん]",
+     "note": "So sánh trong nhóm từ 3 thứ trở lên: (phạm vi)で一番[いちばん]〜. Viết 一番[いちばん] hay いちばん đều được.",
+     "grammar": [
+      "g:〜がいちばん",
+      "g:〜で"
+     ],
+     "gloss": [
+      {
+       "w": "どれ",
+       "vi": "cái nào (trong nhiều cái)"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "これが一番[いちばん]軽[かる]いです。でも、一番[いちばん]高[たか]いです。五万円[ごまんえん]です。",
+     "vi": "Chiếc này nhẹ nhất. Nhưng cũng đắt nhất. 50.000 yên.",
+     "grammar": [
+      "g:〜がいちばん"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "五万円[ごまんえん]！ちょっと……。",
+     "vi": "50.000 yên! Thế thì hơi……",
+     "grammar": []
+    },
+    {
+     "who": "D",
+     "jp": "ははは。三万円[さんまんえん]の自転車[じてんしゃ]のほうがいいでしょう。",
+     "vi": "Ha ha. Chiếc 30.000 yên chắc là được hơn.",
+     "grammar": [
+      "g:〜より〜のほうが",
+      "g:〜でしょう"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。三万円[さんまんえん]のをください。あ、もっと大[おお]きいかごはありますか。",
+     "vi": "Vâng. Cho tôi chiếc 30.000 yên. À, có giỏ to hơn không ạ?",
+     "key": "もっと",
+     "grammar": [
+      "g:〜を",
+      "g:〜があります・〜がいます",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "かご",
+       "vi": "giỏ xe"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "はい。この大[おお]きいかごは千円[せんえん]です。小[ちい]さいかごは五百円[ごひゃくえん]です。",
+     "vi": "Có ạ. Giỏ to này 1.000 yên. Giỏ nhỏ 500 yên.",
+     "key": "大[おお]きい",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "かご",
+       "vi": "giỏ xe"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "大[おお]きいほうをください。小[ちい]さいかごより便利[べんり]ですから。",
+     "vi": "Cho tôi cái to. Vì tiện hơn giỏ nhỏ.",
+     "key": "小[ちい]さい",
+     "grammar": [
+      "g:〜より〜のほうが",
+      "g:〜から"
+     ],
+     "gloss": [
+      {
+       "w": "便利[べんり]",
+       "vi": "tiện"
+      },
+      {
+       "w": "かご",
+       "vi": "giỏ xe"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "グエンさん、新[あたら]しい自転車[じてんしゃ]はどうですか。",
+     "vi": "Anh Nguyễn, xe đạp mới thế nào?",
+     "grammar": [
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "前[まえ]の自転車[じてんしゃ]より速[はや]いです。会社[かいしゃ]まで十五分[じゅうごふん]です。",
+     "vi": "Nhanh hơn xe cũ. Đến công ty mất 15 phút.",
+     "key": "速[はや]い",
+     "grammar": [
+      "g:〜より〜のほうが",
+      "g:〜から〜まで"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "いいですね。私[わたし]の自転車[じてんしゃ]は遅[おそ]いです。",
+     "vi": "Thích nhỉ. Xe tôi chậm lắm.",
+     "key": "遅[おそ]い",
+     "grammar": [
+      "g:〜の"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "でも、マリアさんはいつも私[わたし]より早[はや]いですよ。",
+     "vi": "Nhưng chị Maria lúc nào cũng đến sớm hơn tôi đấy.",
+     "key": "早[はや]い",
+     "note": "早[はや]い = sớm (thời gian). 速[はや]い = nhanh (tốc độ). Đọc giống nhau.",
+     "grammar": [
+      "g:〜より〜のほうが"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "朝[あさ]、早[はや]く家[いえ]を出[で]ますから。",
+     "vi": "Vì buổi sáng tôi ra khỏi nhà sớm.",
+     "grammar": [
+      "g:〜から",
+      "g:〜を"
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "グエンさん、日本[にほん]で一番[いちばん]高[たか]い山[やま]は何[なん]ですか。",
+     "vi": "Anh Nguyễn, núi cao nhất Nhật Bản là núi nào?",
+     "grammar": [
+      "g:〜で",
+      "g:〜がいちばん",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "富士山[ふじさん]です。とても有名[ゆうめい]ですね。",
+     "vi": "Núi Phú Sĩ. Rất nổi tiếng nhỉ.",
+     "key": "有名[ゆうめい]",
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "富士山[ふじさん]",
+       "vi": "núi Phú Sĩ"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "じゃあ、ベトナムで一番[いちばん]高[たか]い山[やま]は？",
+     "vi": "Thế núi cao nhất Việt Nam?",
+     "grammar": [
+      "g:〜で",
+      "g:〜がいちばん"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ファンシーパン山[さん]です。富士山[ふじさん]より低[ひく]いです。",
+     "vi": "Núi Phan Xi Păng. Thấp hơn núi Phú Sĩ.",
+     "key": "低[ひく]い",
+     "grammar": [
+      "g:〜より〜のほうが"
+     ],
+     "gloss": [
+      {
+       "w": "富士山[ふじさん]",
+       "vi": "núi Phú Sĩ"
+      },
+      {
+       "w": "ファンシーパン山[さん]",
+       "vi": "núi Phan Xi Păng"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "日本[にほん]で一番[いちばん]長[なが]い川[かわ]は信濃川[しなのがわ]です。",
+     "vi": "Sông dài nhất Nhật Bản là sông Shinano.",
+     "key": "長[なが]い",
+     "grammar": [
+      "g:〜で",
+      "g:〜がいちばん"
+     ],
+     "gloss": [
+      {
+       "w": "信濃川[しなのがわ]",
+       "vi": "sông Shinano"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ベトナムではメコン川[がわ]が一番[いちばん]長[なが]いです。",
+     "vi": "Ở Việt Nam thì sông Mê Kông dài nhất.",
+     "grammar": [
+      "g:〜で",
+      "g:〜がいちばん"
+     ],
+     "gloss": [
+      {
+       "w": "メコン川[がわ]",
+       "vi": "sông Mê Kông"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "グエンさん、日本[にほん]とベトナムと、どちらが寒[さむ]いですか。",
+     "vi": "Anh Nguyễn, Nhật và Việt Nam, bên nào lạnh hơn?",
+     "grammar": [
+      "g:〜と",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "もちろん日本[にほん]のほうが寒[さむ]いです。でも、ハノイの冬[ふゆ]も寒[さむ]いですよ。",
+     "vi": "Tất nhiên Nhật lạnh hơn. Nhưng mùa đông Hà Nội cũng lạnh đấy.",
+     "alt": [
+      "日本[にほん]のほうが寒[さむ]いです。"
+     ],
+     "grammar": [
+      "g:〜より〜のほうが",
+      "g:〜の",
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "もちろん",
+       "vi": "tất nhiên"
+      },
+      {
+       "w": "ハノイ",
+       "vi": "Hà Nội"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "私[わたし]の国[くに]には冬[ふゆ]がありません。冬[ふゆ]は昼[ひる]が短[みじか]いですね。",
+     "vi": "Nước tôi không có mùa đông. Mùa đông ngày ngắn nhỉ.",
+     "key": "短[みじか]い",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜があります・〜がいます"
+     ],
+     "gloss": [
+      {
+       "w": "国[くに]",
+       "vi": "đất nước"
+      },
+      {
+       "w": "昼[ひる]",
+       "vi": "ban ngày"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。夏[なつ]のほうが昼[ひる]が長[なが]いです。",
+     "vi": "Vâng. Mùa hè ngày dài hơn.",
+     "grammar": [
+      "g:〜より〜のほうが"
+     ],
+     "gloss": [
+      {
+       "w": "昼[ひる]",
+       "vi": "ban ngày"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "グエンさん、日本[にほん]とベトナムと、どちらが好[す]きですか。",
+     "vi": "Anh Nguyễn, Nhật và Việt Nam, anh thích bên nào hơn?",
+     "grammar": [
+      "g:〜と",
+      "g:〜が好きです",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "難[むずか]しい質問[しつもん]ですね。食[た]べ物[もの]はベトナムのほうが好[す]きです。",
+     "vi": "Câu hỏi khó nhỉ. Đồ ăn thì tôi thích Việt Nam hơn.",
+     "grammar": [
+      "g:〜より〜のほうが",
+      "g:〜が好きです"
+     ],
+     "gloss": [
+      {
+       "w": "難[むずか]しい",
+       "vi": "khó"
+      },
+      {
+       "w": "質問[しつもん]",
+       "vi": "câu hỏi"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "でも、仕事[しごと]は日本[にほん]のほうがいいです。給料[きゅうりょう]が多[おお]いですから。",
+     "vi": "Nhưng công việc thì Nhật tốt hơn. Vì lương cao hơn.",
+     "key": "多[おお]い",
+     "grammar": [
+      "g:〜より〜のほうが",
+      "g:〜から"
+     ],
+     "gloss": [
+      {
+       "w": "給料[きゅうりょう]",
+       "vi": "lương"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "でも、家賃[やちん]も日本[にほん]のほうが高[たか]いですね。",
+     "vi": "Nhưng tiền nhà cũng là Nhật đắt hơn nhỉ.",
+     "grammar": [
+      "g:〜も",
+      "g:〜より〜のほうが"
+     ],
+     "gloss": [
+      {
+       "w": "家賃[やちん]",
+       "vi": "tiền nhà"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうですね。天気[てんき]が悪[わる]い日[ひ]は、バス代[だい]も高[たか]いです。",
+     "vi": "Đúng vậy. Ngày thời tiết xấu thì tiền xe buýt cũng tốn.",
+     "key": "悪[わる]い",
+     "grammar": [
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "バス代[だい]",
+       "vi": "tiền xe buýt"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "三番[さんばん]のラインは四番[よんばん]より人[ひと]が少[すく]ないですね。",
+     "vi": "Dây chuyền 3 ít người hơn dây chuyền 4 nhỉ.",
+     "key": "少[すく]ない",
+     "grammar": [
+      "g:〜より〜のほうが"
+     ],
+     "gloss": [
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。でも、三番[さんばん]のほうが部屋[へや]が広[ひろ]いです。四番[よんばん]の部屋[へや]は狭[せま]いです。",
+     "vi": "Vâng. Nhưng dây chuyền 3 phòng rộng hơn. Phòng của dây chuyền 4 thì chật.",
+     "key": "狭[せま]い",
+     "grammar": [
+      "g:〜より〜のほうが",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "部屋[へや]",
+       "vi": "phòng"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "仕事[しごと]はどちらが大変[たいへん]ですか。",
+     "vi": "Công việc bên nào vất vả hơn?",
+     "grammar": [
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "大変[たいへん]",
+       "vi": "vất vả"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "同[おな]じぐらいです。",
+     "vi": "Ngang nhau thôi.",
+     "key": "同[おな]じ",
+     "note": "Hai thứ ngang nhau: 同[おな]じぐらいです hoặc あまり変[か]わりません.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "ぐらい",
+       "vi": "khoảng, ngang"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "グエンさんは三番[さんばん]のラインで一番[いちばん]速[はや]いですよ。",
+     "vi": "Anh Nguyễn nhanh nhất ở dây chuyền 3 đấy.",
+     "grammar": [
+      "g:〜で",
+      "g:〜がいちばん"
+     ],
+     "gloss": [
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ありがとうございます。新[あたら]しい自転車[じてんしゃ]のおかげですね。",
+     "vi": "Cảm ơn anh. Nhờ xe đạp mới đấy.",
+     "note": "Câu đùa: xe đạp nhanh thì làm việc cũng nhanh.",
+     "grammar": [
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "おかげ",
+       "vi": "nhờ (có)"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Vì sao Cậu Cả muốn mua xe đạp mới?",
+     "opts": [
+      "Xe cũ đã cũ và nặng",
+      "Xe cũ bị mất",
+      "Muốn xe đẹp hơn",
+      "Chuyển nhà"
+     ],
+     "ans": 0,
+     "why": "私[わたし]の自転車[じてんしゃ]は古[ふる]いです。それに、とても重[おも]いです。"
+    },
+    {
+     "q": "Cậu Cả mua xe giá bao nhiêu?",
+     "opts": [
+      "30.000 yên",
+      "20.000 yên",
+      "50.000 yên",
+      "10.000 yên"
+     ],
+     "ans": 0,
+     "why": "三万円[さんまんえん]のをください。"
+    },
+    {
+     "q": "Ai thường đến công ty sớm hơn?",
+     "opts": [
+      "Chị Maria",
+      "Cậu Cả",
+      "Anh Suzuki",
+      "Bằng nhau"
+     ],
+     "ans": 0,
+     "why": "マリアさんはいつも私[わたし]より早[はや]いですよ。"
+    },
+    {
+     "q": "Theo Cậu Cả, đồ ăn bên nào ngon hơn?",
+     "opts": [
+      "Việt Nam",
+      "Nhật",
+      "Như nhau",
+      "Không nói"
+     ],
+     "ans": 0,
+     "why": "食[た]べ物[もの]はベトナムのほうが好[す]きです。"
+    },
+    {
+     "q": "Hỏi \"A và B, cái nào … hơn?\" nói thế nào?",
+     "opts": [
+      "AとBと、どちらが〜ですか",
+      "AとBと、どれが〜ですか",
+      "AよりBが一番[いちばん]〜ですか",
+      "Aのほうが〜ですか"
+     ],
+     "ans": 0,
+     "why": "So sánh hai thứ dùng どちら; trả lời Aのほうが〜です."
+    }
+   ]
+  }
+ ]
+}

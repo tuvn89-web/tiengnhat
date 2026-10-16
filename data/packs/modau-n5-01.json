@@ -1,0 +1,961 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n5-01",
+  "title": "Bài mở đầu N5 – bài 1: Ngày đầu tiên ở xưởng",
+  "type": "dialog",
+  "level": "N5",
+  "topics": [
+   "doisong",
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n5-01",
+   "title": "Ngày đầu tiên ở xưởng",
+   "level": "N5",
+   "topics": [
+    "xuong",
+    "doisong"
+   ],
+   "ctx": "xuong",
+   "lesson": "l:n5-01",
+   "intro": true,
+   "setting": "Sáng thứ Hai, ngày đầu Cậu Cả đi làm ở xưởng chế biến cá. Gặp chị văn phòng ở cửa, tổ trưởng giới thiệu với mọi người trong buổi họp đầu giờ (朝礼[ちょうれい]). Tối về khu nhà ở, gặp người hàng xóm và bạn cùng phòng.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "A",
+     "name": "田中[たなか]",
+     "vi": "Tổ trưởng"
+    },
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Cậu Cả",
+     "me": true
+    },
+    {
+     "key": "C",
+     "name": "マリア",
+     "vi": "Đồng nghiệp người Philippines"
+    },
+    {
+     "key": "D",
+     "name": "鈴木[すずき]",
+     "vi": "Đồng nghiệp người Nhật"
+    },
+    {
+     "key": "E",
+     "name": "山田[やまだ]",
+     "vi": "Nhân viên văn phòng"
+    },
+    {
+     "key": "F",
+     "name": "ミン",
+     "vi": "Bạn cùng phòng người Việt"
+    }
+   ],
+   "turns": [
+    {
+     "who": "E",
+     "jp": "おはようございます。",
+     "vi": "Chào buổi sáng.",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "おはようございます",
+       "vi": "chào buổi sáng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "おはようございます。はじめまして。グエンです。",
+     "vi": "Chào buổi sáng. Rất hân hạnh, tôi là Nguyễn.",
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "phr": [
+      {
+       "w": "はじめまして",
+       "vi": "rất hân hạnh (lần đầu gặp)"
+      }
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "グエンさんですか。",
+     "vi": "Anh là anh Nguyễn phải không?",
+     "note": "Gọi người khác thì thêm さん sau tên; không tự gọi mình là さん.",
+     "grammar": [
+      "g:〜か",
+      "g:〜は〜です"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、グエンです。よろしくお願[ねが]いします。",
+     "vi": "Vâng, tôi là Nguyễn. Mong chị giúp đỡ.",
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "phr": [
+      {
+       "w": "よろしくお願[ねが]いします",
+       "vi": "mong được giúp đỡ (câu cuối khi tự giới thiệu)"
+      }
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "山田[やまだ]です。事務[じむ]の仕事[しごと]です。よろしくお願[ねが]いします。",
+     "vi": "Tôi là Yamada, làm việc văn phòng. Mong được giúp đỡ.",
+     "grammar": [
+      "g:〜は〜です",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "事務[じむ]",
+       "vi": "việc văn phòng, hành chính"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "山田[やまだ]さんは日本人[にほんじん]ですか。",
+     "vi": "Chị Yamada là người Nhật ạ?",
+     "grammar": [
+      "g:〜は〜です",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "日本人[にほんじん]",
+       "vi": "người Nhật"
+      }
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "はい、日本人[にほんじん]です。グエンさんはベトナム人[じん]ですか。",
+     "vi": "Vâng, tôi là người Nhật. Anh Nguyễn là người Việt Nam à?",
+     "grammar": [
+      "g:〜は〜です",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "日本人[にほんじん]",
+       "vi": "người Nhật"
+      },
+      {
+       "w": "ベトナム",
+       "vi": "Việt Nam"
+      },
+      {
+       "w": "ベトナム人[じん]",
+       "vi": "người Việt Nam"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、ベトナム人[じん]です。",
+     "vi": "Vâng, tôi là người Việt Nam.",
+     "key": "ベトナム人[じん]",
+     "alt": [
+      "はい、そうです。ベトナム人[じん]です。"
+     ],
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "ベトナム人[じん]",
+       "vi": "người Việt Nam"
+      }
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "そうですか。田中[たなか]さんは班長[はんちょう]です。今[いま]、来[き]ます。",
+     "vi": "Vậy à. Anh Tanaka là tổ trưởng. Anh ấy đến bây giờ đây.",
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "phr": [
+      {
+       "w": "そうですか",
+       "vi": "vậy à (đáp lại khi nghe thông tin)"
+      }
+     ],
+     "gloss": [
+      {
+       "w": "班長[はんちょう]",
+       "vi": "tổ trưởng"
+      },
+      {
+       "w": "今[いま]",
+       "vi": "bây giờ"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "おはようございます。グエンさんですか。",
+     "vi": "Chào buổi sáng. Anh là Nguyễn phải không?",
+     "grammar": [
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、グエンです。はじめまして。",
+     "vi": "Vâng, tôi là Nguyễn. Rất hân hạnh.",
+     "grammar": [
+      "g:〜は〜です"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "班長[はんちょう]の田中[たなか]です。よろしく。",
+     "vi": "Tôi là Tanaka, tổ trưởng. Rất vui được gặp.",
+     "note": "よろしく là cách nói ngắn của よろしくお願[ねが]いします — người trên nói với người dưới.",
+     "grammar": [
+      "g:〜の",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "班長[はんちょう]",
+       "vi": "tổ trưởng"
+      },
+      {
+       "w": "よろしく",
+       "vi": "(rất mong) giúp đỡ — cách nói ngắn"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "よろしくお願[ねが]いします。",
+     "vi": "Mong anh giúp đỡ.",
+     "key": "よろしくお願[ねが]いします",
+     "grammar": []
+    },
+    {
+     "who": "A",
+     "jp": "皆[みな]さん、おはようございます。",
+     "vi": "Chào buổi sáng mọi người.",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "皆[みな]さん",
+       "vi": "mọi người (gọi người nghe, lịch sự)"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "おはようございます。",
+     "vi": "Chào buổi sáng ạ.",
+     "grammar": []
+    },
+    {
+     "who": "D",
+     "jp": "おはようございます。",
+     "vi": "Chào buổi sáng.",
+     "grammar": []
+    },
+    {
+     "who": "A",
+     "jp": "今日[きょう]から新[あたら]しい人[ひと]です。グエンさんです。",
+     "vi": "Từ hôm nay có người mới. Đây là anh Nguyễn.",
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "今日[きょう]から",
+       "vi": "từ hôm nay"
+      },
+      {
+       "w": "新[あたら]しい",
+       "vi": "mới"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はじめまして。グエンです。ベトナム人[じん]です。",
+     "vi": "Rất hân hạnh. Tôi là Nguyễn, người Việt Nam.",
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "ベトナム人[じん]",
+       "vi": "người Việt Nam"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "よろしくお願[ねが]いします。",
+     "vi": "Mong mọi người giúp đỡ.",
+     "note": "Nói xong thì cúi chào nhẹ.",
+     "grammar": []
+    },
+    {
+     "who": "C",
+     "jp": "はじめまして。マリアです。よろしくお願[ねが]いします。",
+     "vi": "Rất hân hạnh, tôi là Maria. Mong được giúp đỡ.",
+     "grammar": [
+      "g:〜は〜です"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "マリアさんも外国人[がいこくじん]ですか。",
+     "vi": "Chị Maria cũng là người nước ngoài à?",
+     "key": "外国人[がいこくじん]",
+     "grammar": [
+      "g:〜も",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "はい、私[わたし]も外国人[がいこくじん]です。フィリピン人[にん]です。",
+     "vi": "Vâng, tôi cũng là người nước ngoài. Tôi là người Philippines.",
+     "key": "私[わたし]も",
+     "grammar": [
+      "g:〜も",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "フィリピン",
+       "vi": "Philippines"
+      },
+      {
+       "w": "人[にん]",
+       "vi": "người (trợ số từ đếm người)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうですか。マリアさんは学生[がくせい]ですか。",
+     "vi": "Vậy à. Chị Maria là sinh viên à?",
+     "grammar": [
+      "g:〜は〜です",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "いいえ、学生[がくせい]じゃありません。会社員[かいしゃいん]です。",
+     "vi": "Không, tôi không phải sinh viên. Tôi là nhân viên công ty.",
+     "alt": [
+      "いいえ、学生[がくせい]ではありません。会社員[かいしゃいん]です。"
+     ],
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "phr": [
+      {
+       "w": "じゃありません",
+       "vi": "không phải là (phủ định của です)"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "鈴木[すずき]です。私[わたし]も会社員[かいしゃいん]です。よろしく。",
+     "vi": "Tôi là Suzuki. Tôi cũng là nhân viên công ty. Rất vui được gặp.",
+     "grammar": [
+      "g:〜も",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "よろしく",
+       "vi": "(rất mong) giúp đỡ — cách nói ngắn"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "鈴木[すずき]さんは班長[はんちょう]ですか。",
+     "vi": "Anh Suzuki là tổ trưởng ạ?",
+     "grammar": [
+      "g:〜は〜です",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "班長[はんちょう]",
+       "vi": "tổ trưởng"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "いいえ、班長[はんちょう]じゃありません。班長[はんちょう]は田中[たなか]さんです。",
+     "vi": "Không, tôi không phải tổ trưởng. Tổ trưởng là anh Tanaka.",
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "班長[はんちょう]",
+       "vi": "tổ trưởng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "わかりました。",
+     "vi": "Tôi hiểu rồi ạ.",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "わかりました",
+       "vi": "tôi hiểu rồi, vâng ạ (nhận lời)"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "グエンさん、あの人[ひと]はだれですか。",
+     "vi": "Anh Nguyễn, người kia là ai?",
+     "key": "だれ",
+     "grammar": [
+      "g:〜か",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "あの",
+       "vi": "kia, đó (ở xa)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "すみません、わかりません。どなたですか。",
+     "vi": "Xin lỗi, tôi không biết. Đó là vị nào ạ?",
+     "grammar": [
+      "g:〜か"
+     ],
+     "phr": [
+      {
+       "w": "どなた",
+       "vi": "vị nào (cách hỏi \"ai\" lịch sự)"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "会社[かいしゃ]の社長[しゃちょう]です。",
+     "vi": "Đó là giám đốc công ty.",
+     "grammar": [
+      "g:〜は〜です",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "社長[しゃちょう]",
+       "vi": "giám đốc"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうですか。社長[しゃちょう]も日本人[にほんじん]ですか。",
+     "vi": "Vậy à. Giám đốc cũng là người Nhật ạ?",
+     "grammar": [
+      "g:〜も",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "社長[しゃちょう]",
+       "vi": "giám đốc"
+      },
+      {
+       "w": "日本人[にほんじん]",
+       "vi": "người Nhật"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "はい、日本人[にほんじん]です。",
+     "vi": "Vâng, người Nhật.",
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "日本人[にほんじん]",
+       "vi": "người Nhật"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "グエンさん、日本語[にほんご]の先生[せんせい]はだれですか。",
+     "vi": "Anh Nguyễn, thầy cô dạy tiếng Nhật của anh là ai?",
+     "grammar": [
+      "g:〜の",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "日本語[にほんご]",
+       "vi": "tiếng Nhật"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "先生[せんせい]はベトナム人[じん]です。名前[なまえ]はランさんです。",
+     "vi": "Cô giáo là người Việt Nam. Tên cô ấy là Lan.",
+     "key": "名前[なまえ]",
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "ランさん",
+       "vi": "cô Lan (tên người)"
+      },
+      {
+       "w": "ベトナム人[じん]",
+       "vi": "người Việt Nam"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "そうですか。",
+     "vi": "Vậy à.",
+     "grammar": []
+    },
+    {
+     "who": "C",
+     "jp": "グエンさん、すみません。今[いま]、何時[なんじ]ですか。",
+     "vi": "Anh Nguyễn, xin lỗi, bây giờ là mấy giờ?",
+     "grammar": [
+      "g:〜か"
+     ],
+     "phr": [
+      {
+       "w": "すみません",
+       "vi": "xin lỗi (gọi người khác; cảm ơn nhẹ)"
+      }
+     ],
+     "gloss": [
+      {
+       "w": "何時[なんじ]",
+       "vi": "mấy giờ"
+      },
+      {
+       "w": "今[いま]",
+       "vi": "bây giờ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "八時[はちじ]です。",
+     "vi": "8 giờ.",
+     "grammar": [
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "八[はち]",
+       "vi": "tám (số 8)"
+      },
+      {
+       "w": "時[じ]",
+       "vi": "giờ (… giờ)"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "どうも。",
+     "vi": "Cảm ơn nhé.",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "どうも",
+       "vi": "cảm ơn (ngắn, thân mật)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いいえ。",
+     "vi": "Không có gì.",
+     "grammar": []
+    },
+    {
+     "who": "A",
+     "jp": "じゃ、仕事[しごと]です。皆[みな]さん、お願[ねが]いします。",
+     "vi": "Nào, vào làm thôi. Mọi người, nhờ cả nhé.",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "お願[ねが]いします",
+       "vi": "nhờ, làm ơn"
+      }
+     ],
+     "gloss": [
+      {
+       "w": "じゃ",
+       "vi": "thôi, vậy thì"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。",
+     "vi": "Vâng.",
+     "grammar": []
+    },
+    {
+     "who": "D",
+     "jp": "グエンさん、こんにちは。",
+     "vi": "Chào anh Nguyễn.",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "こんにちは",
+       "vi": "xin chào (ban ngày)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "こんにちは。鈴木[すずき]さん、あの人[ひと]も会社[かいしゃ]の人[ひと]ですか。",
+     "vi": "Chào anh. Anh Suzuki, người kia cũng là người của công ty à?",
+     "grammar": [
+      "g:〜も",
+      "g:〜か",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "あの",
+       "vi": "kia, đó (ở xa)"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "いいえ、私[わたし]の友達[ともだち]です。彼[かれ]は医者[いしゃ]です。",
+     "vi": "Không, đó là bạn tôi. Anh ấy là bác sĩ.",
+     "key": "友達[ともだち]",
+     "note": "Người Nhật ít dùng 彼[かれ] (anh ấy), あなた (bạn) khi nói với người trên — thường gọi bằng tên + さん.",
+     "grammar": [
+      "g:〜の",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "医者[いしゃ]",
+       "vi": "bác sĩ (nghề nghiệp)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうですか。彼女[かのじょ]も友達[ともだち]ですか。",
+     "vi": "Vậy à. Cô ấy cũng là bạn anh à?",
+     "grammar": [
+      "g:〜も",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "いいえ、彼女[かのじょ]は事務[じむ]の山田[やまだ]さんです。",
+     "vi": "Không, cô ấy là chị Yamada ở văn phòng.",
+     "grammar": [
+      "g:〜は〜です",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "事務[じむ]",
+       "vi": "văn phòng"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "グエンさん、お疲[つか]れ様[さま]です。",
+     "vi": "Anh Nguyễn, vất vả rồi.",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "お疲[つか]れ様[さま]です",
+       "vi": "vất vả rồi (chào ở chỗ làm)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "お疲[つか]れ様[さま]です。ありがとうございました。",
+     "vi": "Anh cũng vất vả rồi. Cảm ơn anh (về hôm nay).",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "ありがとうございました",
+       "vi": "cảm ơn (về việc đã qua)"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "明日[あした]もよろしく。",
+     "vi": "Mai cũng nhờ anh nhé.",
+     "grammar": [
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "明日[あした]",
+       "vi": "ngày mai"
+      },
+      {
+       "w": "よろしく",
+       "vi": "(rất mong) giúp đỡ — cách nói ngắn"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。失礼[しつれい]します。",
+     "vi": "Vâng. Tôi xin phép về trước.",
+     "key": "失礼[しつれい]します",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "失礼[しつれい]します",
+       "vi": "xin phép (khi về, khi vào phòng)"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "グエンさん、さようなら。",
+     "vi": "Anh Nguyễn, tạm biệt.",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "さようなら",
+       "vi": "tạm biệt"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "さようなら。",
+     "vi": "Tạm biệt.",
+     "grammar": []
+    },
+    {
+     "who": "F",
+     "jp": "グエンさん、こんばんは。",
+     "vi": "Chào anh Nguyễn (buổi tối).",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "こんばんは",
+       "vi": "chào buổi tối"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "あ、ミンさん、こんばんは。",
+     "vi": "À, Minh, chào em.",
+     "grammar": []
+    },
+    {
+     "who": "F",
+     "jp": "仕事[しごと]はどうですか。",
+     "vi": "Công việc thế nào anh?",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "どう",
+       "vi": "thế nào"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "皆[みな]さん、いい人[ひと]です。班長[はんちょう]も親切[しんせつ]です。",
+     "vi": "Mọi người đều tốt. Tổ trưởng cũng tử tế.",
+     "grammar": [
+      "g:〜も",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "いい",
+       "vi": "tốt"
+      },
+      {
+       "w": "班長[はんちょう]",
+       "vi": "tổ trưởng"
+      },
+      {
+       "w": "親切[しんせつ]",
+       "vi": "tử tế"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "そうですか。よかったです。",
+     "vi": "Vậy à. May quá.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "よかった",
+       "vi": "may quá, tốt rồi"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "あ、ごめんなさい。それはミンさんのお茶[ちゃ]ですか。",
+     "vi": "À, xin lỗi. Đó là trà của em à?",
+     "grammar": [
+      "g:〜の",
+      "g:〜か"
+     ],
+     "phr": [
+      {
+       "w": "ごめんなさい",
+       "vi": "xin lỗi (với người thân, bạn bè)"
+      }
+     ],
+     "gloss": [
+      {
+       "w": "それ",
+       "vi": "cái đó"
+      },
+      {
+       "w": "お茶[ちゃ]",
+       "vi": "trà"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "はい、私[わたし]のです。大丈夫[だいじょうぶ]です。",
+     "vi": "Vâng, của em. Không sao đâu.",
+     "grammar": [
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "大丈夫[だいじょうぶ]",
+       "vi": "không sao"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "じゃ、おやすみなさい。",
+     "vi": "Thôi, chúc ngủ ngon.",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "おやすみなさい",
+       "vi": "chúc ngủ ngon"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "おやすみなさい。",
+     "vi": "Chúc anh ngủ ngon.",
+     "grammar": []
+    }
+   ],
+   "questions": [
+    {
+     "q": "Chị Yamada làm việc gì?",
+     "opts": [
+      "Làm việc văn phòng",
+      "Tổ trưởng",
+      "Sinh viên",
+      "Giáo viên tiếng Nhật"
+     ],
+     "ans": 0,
+     "why": "事務[じむ]の仕事[しごと]です。"
+    },
+    {
+     "q": "Chị Maria là người nước nào?",
+     "opts": [
+      "Philippines",
+      "Việt Nam",
+      "Nhật Bản",
+      "Trung Quốc"
+     ],
+     "ans": 0,
+     "why": "フィリピン人[じん]です。"
+    },
+    {
+     "q": "Anh Suzuki có phải tổ trưởng không?",
+     "opts": [
+      "Không, tổ trưởng là anh Tanaka",
+      "Có, anh ấy là tổ trưởng",
+      "Không, anh ấy là giám đốc",
+      "Không nhắc đến"
+     ],
+     "ans": 0,
+     "why": "班長[はんちょう]じゃありません。班長[はんちょう]は田中[たなか]さんです。"
+    },
+    {
+     "q": "Người đàn ông đi cùng anh Suzuki giờ nghỉ trưa là ai?",
+     "opts": [
+      "Bạn anh Suzuki, là bác sĩ",
+      "Giám đốc công ty",
+      "Nhân viên văn phòng",
+      "Thầy dạy tiếng Nhật"
+     ],
+     "ans": 0,
+     "why": "私[わたし]の友達[ともだち]です。彼[かれ]は医者[いしゃ]です。"
+    },
+    {
+     "q": "Khi về, Cậu Cả nói câu nào với tổ trưởng?",
+     "opts": [
+      "失礼[しつれい]します。",
+      "はじめまして。",
+      "おはようございます。",
+      "どういたしまして。"
+     ],
+     "ans": 0,
+     "why": "失礼[しつれい]します = xin phép (về trước)."
+    }
+   ]
+  }
+ ]
+}

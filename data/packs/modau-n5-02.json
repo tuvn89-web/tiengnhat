@@ -1,0 +1,750 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n5-02",
+  "title": "Bài mở đầu N5 – bài 2: Đồ của ai? — ở phòng thay đồ",
+  "type": "dialog",
+  "level": "N5",
+  "topics": [
+   "doisong",
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n5-02",
+   "title": "Đồ của ai? — ở phòng thay đồ",
+   "level": "N5",
+   "topics": [
+    "xuong",
+    "doisong"
+   ],
+   "ctx": "xuong",
+   "lesson": "l:n5-02",
+   "intro": true,
+   "setting": "Sáng hôm sau, ở phòng thay đồ của xưởng. Cậu Cả hỏi đồng nghiệp tên các đồ vật, rồi tìm cái ví đánh rơi ở văn phòng.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "A",
+     "name": "田中[たなか]",
+     "vi": "Tổ trưởng"
+    },
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Cậu Cả",
+     "me": true
+    },
+    {
+     "key": "C",
+     "name": "マリア",
+     "vi": "Đồng nghiệp"
+    },
+    {
+     "key": "E",
+     "name": "山田[やまだ]",
+     "vi": "Nhân viên văn phòng"
+    }
+   ],
+   "turns": [
+    {
+     "who": "B",
+     "jp": "マリアさん、おはようございます。",
+     "vi": "Chị Maria, chào buổi sáng.",
+     "grammar": []
+    },
+    {
+     "who": "C",
+     "jp": "おはようございます。グエンさん、それは何[なん]ですか。",
+     "vi": "Chào buổi sáng. Anh Nguyễn, cái đó là gì vậy?",
+     "key": "何[なん]",
+     "grammar": [
+      "g:これ・それ・あれ",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "これですか。これは日本語[にほんご]の辞書[じしょ]です。",
+     "vi": "Cái này à? Đây là từ điển tiếng Nhật.",
+     "grammar": [
+      "g:これ・それ・あれ",
+      "g:〜の",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "日本語[にほんご]",
+       "vi": "tiếng Nhật"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "その辞書[じしょ]はグエンさんのですか。",
+     "vi": "Cuốn từ điển đó là của anh à?",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜の",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、私[わたし]のです。日本語[にほんご]とベトナム語[ご]の辞書[じしょ]です。",
+     "vi": "Vâng, của tôi. Là từ điển Nhật – Việt.",
+     "grammar": [
+      "g:〜の",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "日本語[にほんご]とベトナム語[ご]",
+       "vi": "tiếng Nhật và tiếng Việt"
+      },
+      {
+       "w": "ベトナム語[ご]",
+       "vi": "tiếng Việt"
+      },
+      {
+       "w": "ベトナム",
+       "vi": "Việt Nam"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "そうですか。いい辞書[じしょ]ですね。",
+     "vi": "Vậy à. Từ điển tốt đấy nhỉ.",
+     "note": "〜ね ở cuối câu: tìm sự đồng tình của người nghe (\"…nhỉ\").",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "いい",
+       "vi": "tốt"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "マリアさん、あれは何[なん]ですか。",
+     "vi": "Chị Maria, cái kia là gì?",
+     "key": "あれ",
+     "grammar": [
+      "g:これ・それ・あれ",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "あれはマスクの箱[はこ]です。",
+     "vi": "Đó là hộp khẩu trang.",
+     "key": "箱[はこ]",
+     "grammar": [
+      "g:これ・それ・あれ",
+      "g:〜の",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "マスク",
+       "vi": "khẩu trang"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "この箱[はこ]もマスクですか。",
+     "vi": "Hộp này cũng là khẩu trang à?",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜も",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "マスク",
+       "vi": "khẩu trang"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "いいえ、その箱[はこ]は手袋[てぶくろ]です。",
+     "vi": "Không, hộp đó là găng tay.",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "手袋[てぶくろ]",
+       "vi": "găng tay"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "わかりました。私[わたし]のロッカーはどれですか。",
+     "vi": "Tôi hiểu rồi. Tủ đồ của tôi là cái nào?",
+     "key": "どれ",
+     "grammar": [
+      "g:〜の",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "ロッカー",
+       "vi": "tủ đồ cá nhân"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "グエンさんのロッカーは、あれです。三番[さんばん]です。",
+     "vi": "Tủ của anh là cái kia. Số 3.",
+     "grammar": [
+      "g:〜の",
+      "g:これ・それ・あれ"
+     ],
+     "gloss": [
+      {
+       "w": "三番[さんばん]",
+       "vi": "số 3"
+      },
+      {
+       "w": "ロッカー",
+       "vi": "tủ đồ cá nhân"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "あ、すみません。私[わたし]の財布[さいふ]は……。",
+     "vi": "A, xin lỗi. Ví của tôi thì……",
+     "note": "Câu bỏ lửng \"……\" khi đang nghĩ, đang lo.",
+     "grammar": [
+      "g:〜の"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "財布[さいふ]ですか。",
+     "vi": "Ví à?",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "はい。黒[くろ]い財布[さいふ]です。鞄[かばん]の中[なか]じゃありません。",
+     "vi": "Vâng. Cái ví màu đen. Không có trong cặp.",
+     "key": "財布[さいふ]",
+     "grammar": [
+      "g:〜は〜です",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "黒[くろ]い",
+       "vi": "màu đen"
+      },
+      {
+       "w": "中[なか]",
+       "vi": "bên trong"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "じゃ、事務所[じむしょ]の山田[やまだ]さんですね。",
+     "vi": "Thế thì hỏi chị Yamada ở văn phòng nhé.",
+     "grammar": [
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "じゃ",
+       "vi": "thế thì"
+      },
+      {
+       "w": "事務所[じむしょ]",
+       "vi": "văn phòng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "山田[やまだ]さん、すみません。",
+     "vi": "Chị Yamada, xin lỗi.",
+     "grammar": []
+    },
+    {
+     "who": "E",
+     "jp": "はい、グエンさん。何[なん]ですか。",
+     "vi": "Vâng, anh Nguyễn. Có việc gì vậy?",
+     "grammar": [
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "私[わたし]の財布[さいふ]です。黒[くろ]い財布[さいふ]です。",
+     "vi": "(Tôi tìm) cái ví của tôi. Cái ví màu đen.",
+     "grammar": [
+      "g:〜の",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "黒[くろ]い",
+       "vi": "màu đen"
+      }
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "この財布[さいふ]ですか。",
+     "vi": "Cái ví này phải không?",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いいえ、それは私[わたし]のじゃありません。",
+     "vi": "Không, cái đó không phải của tôi.",
+     "alt": [
+      "いいえ、それは私[わたし]のではありません。"
+     ],
+     "grammar": [
+      "g:これ・それ・あれ",
+      "g:〜の"
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "じゃ、この財布[さいふ]ですか。",
+     "vi": "Vậy cái này à?",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "じゃ",
+       "vi": "vậy thì"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "あ、それです！私[わたし]の財布[さいふ]です。ありがとうございます。",
+     "vi": "A, đúng cái đó! Ví của tôi. Cảm ơn chị.",
+     "grammar": [
+      "g:これ・それ・あれ",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "それで",
+       "vi": "vì thế, vậy nên; rồi sao"
+      }
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "この鍵[かぎ]もグエンさんのですか。",
+     "vi": "Chìa khóa này cũng là của anh à?",
+     "key": "鍵[かぎ]",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜も",
+      "g:〜の",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、それもロッカーの鍵[かぎ]です。",
+     "vi": "Vâng, đó cũng là chìa khóa tủ đồ.",
+     "grammar": [
+      "g:これ・それ・あれ",
+      "g:〜も",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "ロッカー",
+       "vi": "tủ đồ cá nhân"
+      }
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "あの傘[かさ]は？",
+     "vi": "Còn cái ô kia?",
+     "grammar": [
+      "g:この・その・あの"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "あの傘[かさ]は私[わたし]のじゃありません。田中[たなか]さんのです。",
+     "vi": "Cái ô kia không phải của tôi. Là của anh Tanaka.",
+     "key": "傘[かさ]",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜の"
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "そうですか。それから、これはグエンさんの名前[なまえ]の紙[かみ]です。",
+     "vi": "Vậy à. Còn đây là tờ giấy ghi tên anh.",
+     "key": "紙[かみ]",
+     "grammar": [
+      "g:これ・それ・あれ",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "それから",
+       "vi": "còn nữa, sau đó"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "この紙[かみ]は何[なん]の紙[かみ]ですか。",
+     "vi": "Tờ giấy này là giấy gì ạ?",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜の",
+      "g:〜か"
+     ],
+     "phr": [
+      {
+       "w": "何[なん]の",
+       "vi": "… gì, … về cái gì"
+      }
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "仕事[しごと]の時間[じかん]の紙[かみ]です。このペンもどうぞ。",
+     "vi": "Là giấy giờ làm việc. Cây bút này cũng tặng anh.",
+     "grammar": [
+      "g:〜の",
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "時間[じかん]",
+       "vi": "thời gian, giờ"
+      },
+      {
+       "w": "どうぞ",
+       "vi": "xin mời, đây ạ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ありがとうございます。この鉛筆[えんぴつ]とノートも私[わたし]のですか。",
+     "vi": "Cảm ơn chị. Bút chì và cuốn vở này cũng là của tôi ạ?",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜も",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "と",
+       "vi": "và"
+      }
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "いいえ、それは私[わたし]の物[もの]です。",
+     "vi": "Không, đó là đồ của tôi.",
+     "key": "物[もの]",
+     "grammar": [
+      "g:これ・それ・あれ",
+      "g:〜の"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "グエンさん、その荷物[にもつ]は何[なん]ですか。",
+     "vi": "Anh Nguyễn, đồ đạc đó là gì vậy?",
+     "key": "荷物[にもつ]",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "これは私[わたし]のお弁当[べんとう]です。",
+     "vi": "Đây là cơm hộp của tôi.",
+     "grammar": [
+      "g:これ・それ・あれ",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "お弁当[べんとう]",
+       "vi": "cơm hộp"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "そうですか。この新聞[しんぶん]はだれのですか。",
+     "vi": "Vậy à. Tờ báo này của ai?",
+     "key": "新聞[しんぶん]",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜の",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "鈴木[すずき]さんのです。",
+     "vi": "Của anh Suzuki ạ.",
+     "grammar": [
+      "g:〜の"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "あれ？私[わたし]の眼鏡[めがね]は……。",
+     "vi": "Ơ? Kính của tôi đâu……",
+     "key": "眼鏡[めがね]",
+     "grammar": [
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "あれ？",
+       "vi": "ơ? (ngạc nhiên)"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "田中[たなか]さん、眼鏡[めがね]は頭[あたま]の上[うえ]です。",
+     "vi": "Anh Tanaka, kính ở trên đầu anh kìa.",
+     "grammar": [
+      "g:〜の",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "頭[あたま]",
+       "vi": "đầu"
+      },
+      {
+       "w": "上[うえ]",
+       "vi": "trên"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "あ、本当[ほんとう]だ。ありがとう。",
+     "vi": "À, đúng thật. Cảm ơn.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "本当[ほんとう]だ",
+       "vi": "đúng thật"
+      },
+      {
+       "w": "ありがとう",
+       "vi": "cảm ơn (thân mật)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "田中[たなか]さん、その時計[とけい]は日本[にほん]のですか。",
+     "vi": "Anh Tanaka, cái đồng hồ đó là của Nhật ạ?",
+     "key": "時計[とけい]",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜の",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "いいえ、スイスのです。グエンさんの時計[とけい]は？",
+     "vi": "Không, của Thụy Sĩ. Còn đồng hồ của anh?",
+     "grammar": [
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "スイス",
+       "vi": "Thụy Sĩ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "私[わたし]の時計[とけい]は携帯[けいたい]です。",
+     "vi": "Đồng hồ của tôi là cái điện thoại di động.",
+     "note": "Nói vui: dùng điện thoại xem giờ nên \"đồng hồ\" là điện thoại.",
+     "grammar": [
+      "g:〜の",
+      "g:〜は〜です"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "ははは。その携帯[けいたい]の写真[しゃしん]は家族[かぞく]ですか。",
+     "vi": "Ha ha. Ảnh trên điện thoại đó là gia đình anh à?",
+     "key": "写真[しゃしん]",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜の",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "家族[かぞく]",
+       "vi": "gia đình"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、私[わたし]の家族[かぞく]の写真[しゃしん]です。",
+     "vi": "Vâng, là ảnh gia đình tôi.",
+     "grammar": [
+      "g:〜の",
+      "g:〜は〜です"
+     ],
+     "gloss": [
+      {
+       "w": "家族[かぞく]",
+       "vi": "gia đình"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "いい写真[しゃしん]ですね。じゃ、仕事[しごと]です。",
+     "vi": "Ảnh đẹp đấy. Thôi, làm việc nào.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "いい",
+       "vi": "tốt, đẹp"
+      },
+      {
+       "w": "じゃ",
+       "vi": "thôi, nào"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。この電話[でんわ]はどの電話[でんわ]ですか。事務所[じむしょ]のですか。",
+     "vi": "Vâng. Cái điện thoại này là điện thoại nào ạ? Của văn phòng ạ?",
+     "key": "どの",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜の",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "事務所[じむしょ]",
+       "vi": "văn phòng"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "いいえ、それは工場[こうじょう]の電話[でんわ]です。",
+     "vi": "Không, đó là điện thoại của xưởng.",
+     "grammar": [
+      "g:これ・それ・あれ",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "工場[こうじょう]",
+       "vi": "nhà máy, xưởng"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Cuốn từ điển của Cậu Cả là từ điển gì?",
+     "opts": [
+      "Nhật – Việt",
+      "Nhật – Anh",
+      "Tiếng Anh",
+      "Không có từ điển"
+     ],
+     "ans": 0,
+     "why": "日本語[にほんご]とベトナム語[ご]の辞書[じしょ]です。"
+    },
+    {
+     "q": "Cái hộp ở đằng kia (あれ) đựng gì?",
+     "opts": [
+      "Khẩu trang",
+      "Găng tay",
+      "Cơm hộp",
+      "Bút"
+     ],
+     "ans": 0,
+     "why": "あれはマスクの箱[はこ]です。"
+    },
+    {
+     "q": "Cậu Cả tìm thấy ví ở đâu?",
+     "opts": [
+      "Ở văn phòng, chị Yamada giữ",
+      "Trong cặp",
+      "Trong tủ đồ",
+      "Ở nhà"
+     ],
+     "ans": 0,
+     "why": "Ở văn phòng: じゃ、この財布[さいふ]ですか。— あ、それです！"
+    },
+    {
+     "q": "Cái ô ở văn phòng là của ai?",
+     "opts": [
+      "Anh Tanaka",
+      "Cậu Cả",
+      "Chị Maria",
+      "Chị Yamada"
+     ],
+     "ans": 0,
+     "why": "あの傘[かさ]は…田中[たなか]さんのです。"
+    },
+    {
+     "q": "Kính của anh Tanaka ở đâu?",
+     "opts": [
+      "Trên đầu anh ấy",
+      "Trong cặp",
+      "Ở văn phòng",
+      "Trong tủ đồ"
+     ],
+     "ans": 0,
+     "why": "眼鏡[めがね]は頭[あたま]の上[うえ]です。"
+    }
+   ]
+  }
+ ]
+}

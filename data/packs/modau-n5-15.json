@@ -1,0 +1,745 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n5-15",
+  "title": "Bài mở đầu N5 – bài 15: Trời mùa thu",
+  "type": "dialog",
+  "level": "N5",
+  "topics": [
+   "doisong"
+  ],
+  "version": 1,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n5-15",
+   "title": "Trời mùa thu",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "ctx": "doisong",
+   "lesson": "l:n5-15",
+   "intro": true,
+   "setting": "Sáng thứ Năm trời lạnh và u ám. Anh Suzuki kể dự báo thời tiết; giờ trưa chị Maria nói về mùa hè và mùa đông ở Nhật. Thứ Bảy, Cậu Cả và anh Suzuki leo núi.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Cậu Cả",
+     "me": true
+    },
+    {
+     "key": "D",
+     "name": "鈴木[すずき]",
+     "vi": "Đồng nghiệp người Nhật"
+    },
+    {
+     "key": "C",
+     "name": "マリア",
+     "vi": "Đồng nghiệp"
+    }
+   ],
+   "turns": [
+    {
+     "who": "D",
+     "jp": "おはようございます。今日[きょう]は寒[さむ]いですね。",
+     "vi": "Chào buổi sáng. Hôm nay lạnh nhỉ.",
+     "key": "寒[さむ]い",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "おはようございます。本当[ほんとう]に寒[さむ]いですね。空[そら]も暗[くら]いです。",
+     "vi": "Chào anh. Lạnh thật. Trời cũng tối.",
+     "key": "空[そら]",
+     "grammar": [
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "本当[ほんとう]に",
+       "vi": "thật sự"
+      },
+      {
+       "w": "暗[くら]い",
+       "vi": "tối"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "ニュースで見[み]ました。午後[ごご]は雨[あめ]が降[ふ]るでしょう。",
+     "vi": "Tôi xem trên bản tin rồi. Chiều chắc sẽ mưa.",
+     "key": "ニュース",
+     "note": "〜でしょう = \"chắc là …\" — đoán, dự báo. Bản tin thời tiết dùng rất nhiều.",
+     "grammar": [
+      "g:〜で",
+      "g:〜ました・〜ませんでした",
+      "g:〜でしょう"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "雨[あめ]ですか。私[わたし]は今日[きょう]、自転車[じてんしゃ]です。",
+     "vi": "Mưa à? Hôm nay tôi đi xe đạp.",
+     "key": "雨[あめ]",
+     "grammar": [
+      "g:〜か",
+      "g:〜は〜です"
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "帰[かえ]る時[とき]、雨[あめ]と風[かぜ]が強[つよ]いでしょう。",
+     "vi": "Lúc về chắc mưa gió to đấy.",
+     "key": "風[かぜ]",
+     "note": "〜とき = \"khi …\". Động từ thể từ điển + とき: 帰[かえ]るとき = lúc về; danh từ + の + とき: 雨[あめ]のとき = khi trời mưa.",
+     "grammar": [
+      "g:〜とき",
+      "g:〜と",
+      "g:〜でしょう"
+     ],
+     "gloss": [
+      {
+       "w": "強[つよ]い",
+       "vi": "mạnh"
+      },
+      {
+       "w": "帰[かえ]す",
+       "vi": "cho về, để (ai) về"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "じゃあ、帰[かえ]る時[とき]はバスに乗[の]ります。",
+     "vi": "Vậy lúc về tôi đi xe buýt.",
+     "alt": [
+      "雨[あめ]の時[とき]はバスで帰[かえ]ります。"
+     ],
+     "grammar": [
+      "g:〜とき",
+      "g:〜に",
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "帰[かえ]す",
+       "vi": "cho về, để (ai) về"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "それがいいでしょう。",
+     "vi": "Như vậy là tốt nhất.",
+     "grammar": [
+      "g:〜でしょう"
+     ],
+     "gloss": [
+      {
+       "w": "それがいい",
+       "vi": "thế là được"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "鈴木[すずき]さん、明日[あした]の天気[てんき]はどうですか。",
+     "vi": "Anh Suzuki, thời tiết ngày mai thế nào?",
+     "key": "天気[てんき]",
+     "grammar": [
+      "g:〜の",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "明日[あした]は多分[たぶん]晴[は]れるでしょう。",
+     "vi": "Mai chắc là nắng.",
+     "key": "多分[たぶん]",
+     "grammar": [
+      "g:〜でしょう"
+     ],
+     "gloss": [
+      {
+       "w": "晴[は]れる",
+       "vi": "trời nắng, quang"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "よかった。土曜日[どようび]は山[やま]へ行[い]きたいです。",
+     "vi": "May quá. Thứ Bảy tôi muốn đi núi.",
+     "key": "山[やま]",
+     "grammar": [
+      "g:〜へ",
+      "g:〜たい"
+     ],
+     "gloss": [
+      {
+       "w": "よかった",
+       "vi": "may quá, tốt quá"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "いいですね。秋[あき]は山[やま]の木[き]がきれいでしょう。",
+     "vi": "Hay đấy. Mùa thu cây trên núi chắc đẹp lắm.",
+     "key": "秋[あき]",
+     "grammar": [
+      "g:〜の",
+      "g:〜でしょう"
+     ],
+     "gloss": [
+      {
+       "w": "きれい",
+       "vi": "đẹp; sạch"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "私[わたし]の町[まち]は一年[いちねん]中[じゅう]暑[あつ]いです。秋[あき]はあまりありません。",
+     "vi": "Thành phố tôi nóng quanh năm. Hầu như không có mùa thu.",
+     "key": "暑[あつ]い",
+     "grammar": [
+      "g:〜の",
+      "g:〜があります・〜がいます"
+     ],
+     "gloss": [
+      {
+       "w": "一年[いちねん]中[じゅう]",
+       "vi": "quanh năm"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "そうですか。日本[にほん]には春[はる]と夏[なつ]と秋[あき]と冬[ふゆ]があります。",
+     "vi": "Vậy à. Nhật thì có xuân, hạ, thu, đông.",
+     "key": "冬[ふゆ]",
+     "grammar": [
+      "g:〜に",
+      "g:〜と",
+      "g:〜があります・〜がいます"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "鈴木[すずき]さんはどの季節[きせつ]が好[す]きですか。",
+     "vi": "Anh Suzuki thích mùa nào?",
+     "alt": [
+      "どの季節[きせつ]がいちばん好[す]きですか。"
+     ],
+     "grammar": [
+      "g:〜が好きです",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "季節[きせつ]",
+       "vi": "mùa"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "春[はる]が好[す]きです。春[はる]は暖[あたた]かいです。それに、花[はな]がたくさん咲[さ]きます。",
+     "vi": "Tôi thích mùa xuân. Mùa xuân ấm. Lại còn nhiều hoa nở.",
+     "key": "花[はな]",
+     "grammar": [
+      "g:〜が好きです"
+     ],
+     "gloss": [
+      {
+       "w": "それに",
+       "vi": "lại còn"
+      },
+      {
+       "w": "咲[さ]きます",
+       "vi": "nở"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "桜[さくら]ですね。",
+     "vi": "Hoa anh đào nhỉ.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "桜[さくら]",
+       "vi": "hoa anh đào"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "はい。桜[さくら]が咲[さ]く時[とき]、みんなで公園[こうえん]で花見[はなみ]をします。",
+     "vi": "Vâng. Khi hoa anh đào nở, mọi người đi ngắm hoa ở công viên.",
+     "grammar": [
+      "g:〜とき",
+      "g:〜で",
+      "g:〜を"
+     ],
+     "gloss": [
+      {
+       "w": "みんなで",
+       "vi": "cùng mọi người"
+      },
+      {
+       "w": "咲[さ]く",
+       "vi": "nở"
+      },
+      {
+       "w": "桜[さくら]",
+       "vi": "hoa anh đào"
+      },
+      {
+       "w": "花見[はなみ]",
+       "vi": "ngắm hoa"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "私[わたし]も花見[はなみ]をしたいです。",
+     "vi": "Tôi cũng muốn đi ngắm hoa.",
+     "grammar": [
+      "g:〜も",
+      "g:〜を",
+      "g:〜たい"
+     ],
+     "gloss": [
+      {
+       "w": "花見[はなみ]",
+       "vi": "ngắm hoa"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "グエンさん、日本[にほん]の夏[なつ]は大変[たいへん]ですよ。",
+     "vi": "Anh Nguyễn, mùa hè ở Nhật vất vả lắm đấy.",
+     "key": "夏[なつ]",
+     "grammar": [
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "大変[たいへん]",
+       "vi": "vất vả"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "暑[あつ]いですか。",
+     "vi": "Nóng lắm à?",
+     "grammar": [
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "はい、とても暑[あつ]いです。三十五度[さんじゅうごど]の日[ひ]もあります。",
+     "vi": "Ừ, nóng lắm. Có ngày 35 độ.",
+     "grammar": [
+      "g:〜の",
+      "g:〜も",
+      "g:〜があります・〜がいます"
+     ],
+     "gloss": [
+      {
+       "w": "度[ど]",
+       "vi": "độ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ベトナムと同[おな]じですね。",
+     "vi": "Giống Việt Nam nhỉ.",
+     "grammar": [
+      "g:〜と"
+     ],
+     "gloss": [
+      {
+       "w": "同[おな]じ",
+       "vi": "giống nhau"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "でも、工場[こうじょう]の中[なか]は寒[さむ]いです。魚[さかな]も水[みず]も冷[つめ]たいです。",
+     "vi": "Nhưng trong xưởng thì lạnh. Cá cũng lạnh, nước cũng lạnh.",
+     "key": "冷[つめ]たい",
+     "note": "寒[さむ]い = lạnh (thời tiết, không khí). 冷[つめ]たい = lạnh khi chạm vào (nước, đồ vật).",
+     "grammar": [
+      "g:〜の",
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "工場[こうじょう]",
+       "vi": "nhà máy, xưởng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうですね。冷[つめ]たい水[みず]で手[て]を洗[あら]う時[とき]、手[て]が痛[いた]いです。",
+     "vi": "Đúng vậy. Khi rửa tay bằng nước lạnh, tay đau buốt.",
+     "grammar": [
+      "g:〜で",
+      "g:〜を",
+      "g:〜とき"
+     ],
+     "gloss": [
+      {
+       "w": "手[て]",
+       "vi": "tay"
+      },
+      {
+       "w": "痛[いた]い",
+       "vi": "đau"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ここは冬[ふゆ]、雪[ゆき]が降[ふ]りますか。",
+     "vi": "Ở đây mùa đông có tuyết không?",
+     "key": "雪[ゆき]",
+     "grammar": [
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "大体[だいたい]、一回[いっかい]か二回[にかい]降[ふ]ります。北[きた]の方[ほう]はたくさん降[ふ]ります。",
+     "vi": "Thường thì rơi một hai lần. Phía Bắc thì rơi nhiều.",
+     "key": "大体[だいたい]",
+     "grammar": [
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "一回[いっかい]",
+       "vi": "một lần"
+      },
+      {
+       "w": "か",
+       "vi": "hoặc"
+      },
+      {
+       "w": "北[きた]の方[ほう]",
+       "vi": "phía Bắc"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "雪[ゆき]を見[み]たいです。写真[しゃしん]をベトナムの家族[かぞく]に送[おく]りたいです。",
+     "vi": "Tôi muốn ngắm tuyết. Tôi muốn gửi ảnh cho gia đình ở Việt Nam.",
+     "grammar": [
+      "g:〜を",
+      "g:〜たい",
+      "g:〜の",
+      "g:〜に"
+     ],
+     "gloss": [
+      {
+       "w": "写真[しゃしん]",
+       "vi": "ảnh"
+      },
+      {
+       "w": "家族[かぞく]",
+       "vi": "gia đình"
+      },
+      {
+       "w": "送[おく]りたい",
+       "vi": "muốn gửi"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "寒[さむ]い時[とき]は、熱[あつ]いお茶[ちゃ]がいいですよ。",
+     "vi": "Khi trời lạnh thì trà nóng là nhất.",
+     "key": "熱[あつ]い",
+     "note": "暑[あつ]い = nóng (thời tiết). 熱[あつ]い = nóng (đồ vật, nước). Đọc giống nhau, chữ khác nhau.",
+     "grammar": [
+      "g:〜とき"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうですね。暑[あつ]い時[とき]は冷[つめ]たいジュースですね。",
+     "vi": "Đúng thế. Còn khi trời nóng thì nước hoa quả lạnh nhỉ.",
+     "grammar": [
+      "g:〜とき"
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "グエンさん、いい天気[てんき]ですね。",
+     "vi": "Anh Nguyễn, trời đẹp nhỉ.",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "はい。空[そら]が青[あお]いです。涼[すず]しいですね。",
+     "vi": "Vâng. Trời xanh. Mát nhỉ.",
+     "key": "涼[すず]しい",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "青[あお]い",
+       "vi": "xanh"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "秋[あき]は涼[すず]しいです。でも、山[やま]の上[うえ]は少[すこ]し寒[さむ]いでしょう。",
+     "vi": "Mùa thu thì mát. Nhưng trên đỉnh núi chắc hơi lạnh.",
+     "grammar": [
+      "g:〜の",
+      "g:〜でしょう"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "大丈夫[だいじょうぶ]です。暖[あたた]かいセーターを着[き]ています。",
+     "vi": "Không sao. Tôi đang mặc áo len ấm.",
+     "key": "暖[あたた]かい",
+     "grammar": [
+      "g:〜を",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "大丈夫[だいじょうぶ]",
+       "vi": "không sao, ổn"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "あ、下[した]に川[かわ]と池[いけ]があります。",
+     "vi": "À, ở dưới có sông và hồ.",
+     "key": "池[いけ]",
+     "grammar": [
+      "g:〜に",
+      "g:〜と",
+      "g:〜があります・〜がいます"
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "あの川[かわ]は海[うみ]まで行[い]きます。",
+     "vi": "Con sông kia chảy ra tận biển.",
+     "key": "海[うみ]",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜から〜まで"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "きれいですね。あ、空[そら]に月[つき]が見[み]えます。昼[ひる]の月[つき]です。",
+     "vi": "Đẹp quá. À, trên trời thấy mặt trăng. Trăng ban ngày.",
+     "key": "月[つき]",
+     "grammar": [
+      "g:〜に",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "見[み]えます",
+       "vi": "nhìn thấy"
+      },
+      {
+       "w": "きれい",
+       "vi": "đẹp; sạch"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "今晩[こんばん]は満月[まんげつ]でしょう。",
+     "vi": "Tối nay chắc là trăng tròn.",
+     "grammar": [
+      "g:〜でしょう"
+     ],
+     "gloss": [
+      {
+       "w": "満月[まんげつ]",
+       "vi": "trăng tròn"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ベトナムでは秋[あき]の満月[まんげつ]の時[とき]、お祭[まつ]りがあります。",
+     "vi": "Ở Việt Nam, khi trăng tròn mùa thu có lễ hội.",
+     "note": "Lễ hội trăng tròn mùa thu = Tết Trung thu.",
+     "grammar": [
+      "g:〜で",
+      "g:〜の",
+      "g:〜とき",
+      "g:〜があります・〜がいます"
+     ],
+     "gloss": [
+      {
+       "w": "満月[まんげつ]",
+       "vi": "trăng tròn"
+      },
+      {
+       "w": "お祭[まつ]り",
+       "vi": "lễ hội"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "日本[にほん]もお月見[つきみ]をします。月[つき]を見[み]る時[とき]、団子[だんご]を食[た]べます。",
+     "vi": "Nhật cũng ngắm trăng. Khi ngắm trăng thì ăn bánh dango.",
+     "grammar": [
+      "g:〜も",
+      "g:〜を",
+      "g:〜とき"
+     ],
+     "gloss": [
+      {
+       "w": "お月見[つきみ]",
+       "vi": "ngắm trăng"
+      },
+      {
+       "w": "団子[だんご]",
+       "vi": "bánh dango"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "多分[たぶん]、ベトナムの月餅[げっぺい]と同[おな]じですね。",
+     "vi": "Chắc giống bánh trung thu của Việt Nam nhỉ.",
+     "grammar": [
+      "g:〜の",
+      "g:〜と"
+     ],
+     "gloss": [
+      {
+       "w": "同[おな]じ",
+       "vi": "giống nhau"
+      },
+      {
+       "w": "月餅[げっぺい]",
+       "vi": "bánh trung thu"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "そうでしょう。……あ、雨[あめ]が少[すこ]し降[ふ]りましたね。",
+     "vi": "Chắc vậy. …… Ơ, mưa lắc rắc rồi.",
+     "key": "降[ふ]りました",
+     "grammar": [
+      "g:〜でしょう",
+      "g:〜ました・〜ませんでした"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ニュースと違[ちが]いますね。早[はや]く帰[かえ]りましょう。",
+     "vi": "Khác bản tin nhỉ. Về sớm thôi.",
+     "grammar": [
+      "g:〜と",
+      "g:〜ましょう"
+     ],
+     "gloss": [
+      {
+       "w": "違[ちが]います",
+       "vi": "khác"
+      },
+      {
+       "w": "早[はや]く",
+       "vi": "sớm, nhanh"
+      },
+      {
+       "w": "帰[かえ]り",
+       "vi": "lúc về, đường về"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo bản tin, chiều thứ Năm thời tiết thế nào?",
+     "opts": [
+      "Chắc sẽ mưa",
+      "Nắng",
+      "Có tuyết",
+      "Mát"
+     ],
+     "ans": 0,
+     "why": "午後[ごご]は雨[あめ]が降[ふ]るでしょう。"
+    },
+    {
+     "q": "Vì trời mưa, lúc về Cậu Cả đi bằng gì?",
+     "opts": [
+      "Xe buýt",
+      "Xe đạp",
+      "Tàu điện",
+      "Đi bộ"
+     ],
+     "ans": 0,
+     "why": "帰[かえ]る時[とき]はバスに乗[の]ります。"
+    },
+    {
+     "q": "Anh Suzuki thích mùa nào?",
+     "opts": [
+      "Mùa xuân",
+      "Mùa hè",
+      "Mùa thu",
+      "Mùa đông"
+     ],
+     "ans": 0,
+     "why": "春[はる]が好[す]きです。"
+    },
+    {
+     "q": "Dùng từ nào cho \"nước lạnh\"?",
+     "opts": [
+      "冷[つめ]たい水[みず]",
+      "寒[さむ]い水[みず]",
+      "涼[すず]しい水[みず]",
+      "暑[あつ]い水[みず]"
+     ],
+     "ans": 0,
+     "why": "Lạnh khi chạm vào (nước, đồ vật): 冷[つめ]たい."
+    },
+    {
+     "q": "Người Nhật ăn gì khi ngắm trăng?",
+     "opts": [
+      "Bánh dango",
+      "Bánh trung thu",
+      "Súp nóng",
+      "Cá"
+     ],
+     "ans": 0,
+     "why": "月[つき]を見[み]る時[とき]、団子[だんご]を食[た]べます。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,829 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n5-06",
+  "title": "Bài mở đầu N5 – bài 6: Một ngày của Cậu Cả",
+  "type": "dialog",
+  "level": "N5",
+  "topics": [
+   "doisong"
+  ],
+  "version": 1,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n5-06",
+   "title": "Một ngày của Cậu Cả",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "ctx": "doisong",
+   "lesson": "l:n5-06",
+   "intro": true,
+   "setting": "Sáng sớm ở phòng trọ: Cậu Cả và bạn cùng phòng Minh chuẩn bị đi làm. Giờ nghỉ trưa, chị Maria hỏi Cậu Cả về sinh hoạt hằng ngày. Tối về nhà.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Cậu Cả",
+     "me": true
+    },
+    {
+     "key": "F",
+     "name": "ミン",
+     "vi": "Bạn cùng phòng"
+    },
+    {
+     "key": "C",
+     "name": "マリア",
+     "vi": "Đồng nghiệp"
+    }
+   ],
+   "turns": [
+    {
+     "who": "F",
+     "jp": "グエンさん、おはようございます。今[いま]、六時[ろくじ]です。",
+     "vi": "Anh Nguyễn, chào buổi sáng. Bây giờ 6 giờ rồi.",
+     "grammar": [
+      "g:〜は〜です"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "おはよう。ミンさんは毎朝[まいあさ]何時[なんじ]に起[お]きますか。",
+     "vi": "Chào em. Sáng nào em cũng dậy lúc mấy giờ?",
+     "key": "毎朝[まいあさ]",
+     "grammar": [
+      "g:〜ます・〜ません",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "おはよう",
+       "vi": "chào (thân mật)"
+      },
+      {
+       "w": "に",
+       "vi": "lúc"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "たいてい五時[ごじ]半[じはん]に起[お]きます。",
+     "vi": "Thường thì em dậy lúc 5 giờ rưỡi.",
+     "key": "たいてい",
+     "grammar": [
+      "g:〜ます・〜ません"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "早[はや]いですね。私[わたし]はいつも六時[ろくじ]に起[お]きます。",
+     "vi": "Sớm nhỉ. Anh thì lúc nào cũng dậy lúc 6 giờ.",
+     "key": "いつも",
+     "grammar": [
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "早[はや]い",
+       "vi": "sớm"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "朝[あさ]ご飯[はん]を食[た]べますか。",
+     "vi": "Anh có ăn sáng không?",
+     "key": "朝[あさ]ご飯[はん]",
+     "grammar": [
+      "g:〜を",
+      "g:〜ます・〜ません",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、毎日[まいにち]食[た]べます。パンを食[た]べます。ミンさんは？",
+     "vi": "Có, ngày nào anh cũng ăn. Anh ăn bánh mì. Còn em?",
+     "alt": [
+      "はい、毎日[まいにち]朝[あさ]ご飯[はん]を食[た]べます。パンを食[た]べます。"
+     ],
+     "grammar": [
+      "g:〜を",
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "パン",
+       "vi": "bánh mì"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "私[わたし]はあまり食[た]べません。コーヒーを飲[の]みます。",
+     "vi": "Em không ăn mấy. Em uống cà phê.",
+     "key": "あまり",
+     "note": "あまり〜ません = không … lắm, ít khi.",
+     "grammar": [
+      "g:〜を",
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "コーヒー",
+       "vi": "cà phê"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "朝[あさ]、シャワーを浴[あ]びますか。",
+     "vi": "Buổi sáng em có tắm vòi sen không?",
+     "grammar": [
+      "g:〜を",
+      "g:〜ます・〜ません",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "シャワー",
+       "vi": "vòi sen"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "いいえ、朝[あさ]は浴[あ]びません。夜[よる]、浴[あ]びます。",
+     "vi": "Không, buổi sáng em không tắm. Tối mới tắm.",
+     "key": "浴[あ]びます",
+     "grammar": [
+      "g:〜ます・〜ません"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "私[わたし]も夜[よる]です。じゃ、いってきます。",
+     "vi": "Anh cũng tắm buổi tối. Thôi, anh đi đây.",
+     "grammar": [
+      "g:〜も",
+      "g:〜は〜です"
+     ],
+     "phr": [
+      {
+       "w": "いってきます",
+       "vi": "tôi đi đây (chào khi ra khỏi nhà)"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "いってらっしゃい。",
+     "vi": "Anh đi nhé.",
+     "note": "Người đi nói いってきます, người ở nhà đáp いってらっしゃい.",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "いってらっしゃい",
+       "vi": "đi nhé (người ở nhà đáp lại)"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "グエンさん、昼[ひる]ご飯[はん]を食[た]べましたか。",
+     "vi": "Anh Nguyễn, anh ăn trưa chưa?",
+     "key": "昼[ひる]ご飯[はん]",
+     "grammar": [
+      "g:〜を",
+      "g:〜ました・〜ませんでした",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、食[た]べました。お弁当[べんとう]を食[た]べました。",
+     "vi": "Rồi, tôi ăn rồi. Tôi ăn cơm hộp.",
+     "grammar": [
+      "g:〜を",
+      "g:〜ました・〜ませんでした"
+     ],
+     "gloss": [
+      {
+       "w": "お弁当[べんとう]",
+       "vi": "cơm hộp"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "毎日[まいにち]お弁当[べんとう]ですか。",
+     "vi": "Ngày nào cũng cơm hộp à?",
+     "grammar": [
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "お弁当[べんとう]",
+       "vi": "cơm hộp"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。毎晩[まいばん]、晩[ばん]ご飯[はん]とお弁当[べんとう]を作[つく]ります。",
+     "vi": "Vâng. Tối nào tôi cũng nấu bữa tối và cơm hộp.",
+     "key": "毎晩[まいばん]",
+     "grammar": [
+      "g:〜を",
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "と",
+       "vi": "và"
+      },
+      {
+       "w": "作[つく]ります",
+       "vi": "làm, nấu"
+      },
+      {
+       "w": "お弁当[べんとう]",
+       "vi": "cơm hộp"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "すごいですね。私[わたし]は時々[ときどき]食堂[しょくどう]で食[た]べます。",
+     "vi": "Giỏi quá. Tôi thì thỉnh thoảng ăn ở nhà ăn.",
+     "key": "時々[ときどき]",
+     "grammar": [
+      "g:〜で",
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "すごい",
+       "vi": "giỏi, tuyệt"
+      },
+      {
+       "w": "食堂[しょくどう]",
+       "vi": "nhà ăn"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "マリアさんは毎日[まいにち]何時間[なんじかん]働[はたら]きますか。",
+     "vi": "Chị Maria mỗi ngày làm mấy tiếng?",
+     "key": "何時間[なんじかん]",
+     "grammar": [
+      "g:〜ます・〜ません",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "八時間[はちじかん]働[はたら]きます。月曜日[げつようび]から金曜日[きんようび]までです。",
+     "vi": "Tôi làm 8 tiếng. Từ thứ Hai đến thứ Sáu.",
+     "key": "働[はたら]きます",
+     "grammar": [
+      "g:〜ます・〜ません",
+      "g:〜から〜まで"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "土曜日[どようび]は何[なに]をしますか。",
+     "vi": "Thứ Bảy chị làm gì?",
+     "grammar": [
+      "g:〜を",
+      "g:〜ます・〜ません",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "何[なん]",
+       "vi": "gì"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "よく洗濯[せんたく]をします。午後[ごご]は休[やす]みます。",
+     "vi": "Tôi hay giặt đồ. Buổi chiều thì nghỉ ngơi.",
+     "key": "よく",
+     "grammar": [
+      "g:〜を",
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "洗濯[せんたく]",
+       "vi": "giặt giũ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "私[わたし]は土曜日[どようび]、よく日本語[にほんご]を勉強[べんきょう]します。",
+     "vi": "Thứ Bảy tôi hay học tiếng Nhật.",
+     "grammar": [
+      "g:〜を",
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "勉強[べんきょう]します",
+       "vi": "học"
+      },
+      {
+       "w": "日本語[にほんご]",
+       "vi": "tiếng Nhật"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "毎週[まいしゅう]ですか。",
+     "vi": "Tuần nào cũng vậy à?",
+     "key": "毎週[まいしゅう]",
+     "grammar": [
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、毎週[まいしゅう]します。それから、毎月[まいつき]ベトナムの家族[かぞく]に電話[でんわ]をします。",
+     "vi": "Vâng, tuần nào cũng học. Ngoài ra, tháng nào tôi cũng gọi điện cho gia đình ở Việt Nam.",
+     "key": "毎月[まいつき]",
+     "grammar": [
+      "g:〜を",
+      "g:〜ます・〜ません",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "それから",
+       "vi": "ngoài ra"
+      },
+      {
+       "w": "家族[かぞく]",
+       "vi": "gia đình"
+      },
+      {
+       "w": "電話[でんわ]",
+       "vi": "điện thoại"
+      },
+      {
+       "w": "に",
+       "vi": "cho (ai)"
+      },
+      {
+       "w": "ベトナム",
+       "vi": "Việt Nam"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "毎月[まいつき]？毎晩[まいばん]じゃありませんか。",
+     "vi": "Hằng tháng? Không phải tối nào cũng gọi à?",
+     "grammar": [
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "じゃありません",
+       "vi": "không phải"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ははは、毎晩[まいばん]メッセージを送[おく]ります。",
+     "vi": "Ha ha, tối nào tôi cũng gửi tin nhắn.",
+     "grammar": [
+      "g:〜を",
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "メッセージ",
+       "vi": "tin nhắn"
+      },
+      {
+       "w": "送[おく]ります",
+       "vi": "gửi"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "グエンさん、お酒[さけ]を飲[の]みますか。",
+     "vi": "Anh Nguyễn, anh có uống rượu không?",
+     "grammar": [
+      "g:〜を",
+      "g:〜ます・〜ません",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "お酒[さけ]",
+       "vi": "rượu, bia rượu"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "あまり飲[の]みません。マリアさんは？",
+     "vi": "Tôi không uống mấy. Còn chị?",
+     "key": "あまり",
+     "grammar": [
+      "g:〜ます・〜ません"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "私[わたし]は全然[ぜんぜん]飲[の]みません。",
+     "vi": "Tôi hoàn toàn không uống.",
+     "key": "全然[ぜんぜん]",
+     "note": "全然[ぜんぜん]〜ません = hoàn toàn không.",
+     "grammar": [
+      "g:〜ます・〜ません"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "夜[よる]は何時[なんじ]に寝[ね]ますか。",
+     "vi": "Buổi tối chị đi ngủ lúc mấy giờ?",
+     "key": "寝[ね]ます",
+     "grammar": [
+      "g:〜ます・〜ません",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "に",
+       "vi": "lúc"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "たいてい十時[じゅうじ]に寝[ね]ます。グエンさんは？",
+     "vi": "Thường thì 10 giờ tôi ngủ. Còn anh?",
+     "grammar": [
+      "g:〜ます・〜ません"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "私[わたし]は十一時[じゅういちじ]ごろ寝[ね]ます。夜[よる]、よくゲームをします。",
+     "vi": "Tôi ngủ khoảng 11 giờ. Buổi tối tôi hay chơi game.",
+     "grammar": [
+      "g:〜を",
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "ごろ",
+       "vi": "khoảng (mốc thời gian)"
+      },
+      {
+       "w": "ゲーム",
+       "vi": "trò chơi điện tử"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "ゲーム！毎晩[まいばん]しますか。",
+     "vi": "Game à! Tối nào cũng chơi sao?",
+     "grammar": [
+      "g:〜ます・〜ません",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "ゲーム",
+       "vi": "trò chơi điện tử"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いいえ、時々[ときどき]です。",
+     "vi": "Không, thỉnh thoảng thôi.",
+     "grammar": [
+      "g:〜は〜です"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "朝[あさ]ご飯[はん]はいつ食[た]べますか。",
+     "vi": "Anh ăn sáng lúc nào?",
+     "key": "いつ",
+     "grammar": [
+      "g:〜ます・〜ません",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "六時[ろくじ]半[じはん]ごろ食[た]べます。仕事[しごと]は八時[はちじ]からです。",
+     "vi": "Khoảng 6 rưỡi tôi ăn. Công việc từ 8 giờ.",
+     "grammar": [
+      "g:〜ます・〜ません",
+      "g:〜から〜まで"
+     ],
+     "gloss": [
+      {
+       "w": "ごろ",
+       "vi": "khoảng"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "毎年[まいとし]、ベトナムへ帰[かえ]りますか。",
+     "vi": "Năm nào anh cũng về Việt Nam à?",
+     "key": "毎年[まいとし]",
+     "grammar": [
+      "g:〜へ",
+      "g:〜ます・〜ません",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "帰[かえ]ります",
+       "vi": "về"
+      },
+      {
+       "w": "ベトナム",
+       "vi": "Việt Nam"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いいえ、帰[かえ]りません。お金[かね]がありませんから。",
+     "vi": "Không, tôi không về. Vì không có tiền.",
+     "note": "Câu nói vui, thật thà — người Nhật hay cười khi nghe kiểu nói này.",
+     "grammar": [
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "お金[かね]",
+       "vi": "tiền"
+      },
+      {
+       "w": "ありません",
+       "vi": "không có"
+      },
+      {
+       "w": "から",
+       "vi": "vì"
+      },
+      {
+       "w": "帰[かえ]り",
+       "vi": "lúc về, đường về"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "ははは。私[わたし]も同[おな]じです。",
+     "vi": "Ha ha. Tôi cũng vậy.",
+     "grammar": [
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "同[おな]じ",
+       "vi": "giống nhau"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ただいま。",
+     "vi": "Anh về rồi đây.",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "ただいま",
+       "vi": "tôi về rồi đây (chào khi về nhà)"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "おかえりなさい。今日[きょう]は遅[おそ]いですね。",
+     "vi": "Anh về rồi à. Hôm nay muộn nhỉ.",
+     "grammar": [],
+     "phr": [
+      {
+       "w": "おかえりなさい",
+       "vi": "về rồi à (người ở nhà đáp lại)"
+      }
+     ],
+     "gloss": [
+      {
+       "w": "遅[おそ]い",
+       "vi": "muộn"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、今日[きょう]は残業[ざんぎょう]をしました。夕方[ゆうがた]から七時[しちじ]まで働[はたら]きました。",
+     "vi": "Ừ, hôm nay anh làm thêm giờ. Làm từ chiều tối đến 7 giờ.",
+     "key": "夕方[ゆうがた]",
+     "grammar": [
+      "g:〜を",
+      "g:〜ました・〜ませんでした",
+      "g:〜から〜まで"
+     ],
+     "gloss": [
+      {
+       "w": "残業[ざんぎょう]",
+       "vi": "làm thêm giờ"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "疲[つか]れましたか。晩[ばん]ご飯[はん]を食[た]べましたか。",
+     "vi": "Anh có mệt không? Anh ăn tối chưa?",
+     "key": "晩[ばん]ご飯[はん]",
+     "grammar": [
+      "g:〜を",
+      "g:〜ました・〜ませんでした",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "疲[つか]れました",
+       "vi": "(đã) mệt"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いいえ、まだです。何[なに]かありますか。",
+     "vi": "Chưa, anh chưa ăn. Có gì ăn không?",
+     "grammar": [
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "まだ",
+       "vi": "chưa"
+      },
+      {
+       "w": "何[なに]か",
+       "vi": "cái gì đó"
+      },
+      {
+       "w": "あります",
+       "vi": "có"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "ラーメンがあります。",
+     "vi": "Có mì ramen.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "ラーメン",
+       "vi": "mì ramen"
+      },
+      {
+       "w": "あります",
+       "vi": "có"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ありがとう。食[た]べます。それから、少[すこ]し休[やす]みます。",
+     "vi": "Cảm ơn em. Anh ăn. Rồi anh nghỉ một chút.",
+     "key": "休[やす]みます",
+     "grammar": [
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "少[すこ]し",
+       "vi": "một chút"
+      },
+      {
+       "w": "それから",
+       "vi": "rồi, sau đó"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "明日[あした]も早[はや]いですよ。",
+     "vi": "Mai cũng phải dậy sớm đấy.",
+     "grammar": [
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "早[はや]い",
+       "vi": "sớm"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。今晩[こんばん]は十時[じゅうじ]に寝[ね]ます。ゲームはしません。",
+     "vi": "Ừ. Tối nay anh ngủ lúc 10 giờ. Không chơi game đâu.",
+     "grammar": [
+      "g:〜ます・〜ません"
+     ],
+     "gloss": [
+      {
+       "w": "今晩[こんばん]",
+       "vi": "tối nay"
+      },
+      {
+       "w": "ゲーム",
+       "vi": "trò chơi điện tử"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Minh thường dậy lúc mấy giờ?",
+     "opts": [
+      "5 giờ rưỡi",
+      "6 giờ",
+      "6 giờ rưỡi",
+      "7 giờ"
+     ],
+     "ans": 0,
+     "why": "たいてい五時[ごじ]半[ごじはん]に起[お]きます。"
+    },
+    {
+     "q": "Buổi sáng Minh thường làm gì?",
+     "opts": [
+      "Uống cà phê, không ăn mấy",
+      "Ăn bánh mì",
+      "Tắm vòi sen",
+      "Chơi game"
+     ],
+     "ans": 0,
+     "why": "あまり食[た]べません。コーヒーを飲[の]みます。"
+    },
+    {
+     "q": "Chị Maria có uống rượu không?",
+     "opts": [
+      "Hoàn toàn không uống",
+      "Thỉnh thoảng uống",
+      "Uống mỗi tối",
+      "Uống ít"
+     ],
+     "ans": 0,
+     "why": "私[わたし]は全然[ぜんぜん]飲[の]みません。"
+    },
+    {
+     "q": "Vì sao hôm nay Cậu Cả về muộn?",
+     "opts": [
+      "Làm thêm giờ đến 7 giờ",
+      "Đi siêu thị",
+      "Đi học tiếng Nhật",
+      "Đi ăn với đồng nghiệp"
+     ],
+     "ans": 0,
+     "why": "今日[きょう]は残業[ざんぎょう]をしました。"
+    },
+    {
+     "q": "Khi về đến nhà, Cậu Cả nói câu gì?",
+     "opts": [
+      "ただいま",
+      "いってきます",
+      "いってらっしゃい",
+      "おかえりなさい"
+     ],
+     "ans": 0,
+     "why": "Về nhà nói ただいま, người ở nhà đáp おかえりなさい."
+    }
+   ]
+  }
+ ]
+}
