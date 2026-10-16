@@ -362,3 +362,35 @@ Sau đó, nếu trong `data/packs` trên GitHub còn file **`jlpt-n5-dongtu-01.j
 | `baidoc-01` | 2 bài đọc mẫu: tin nhắn LINE giờ làm · biển báo phòng thay đồ |
 
 Thẻ chữ Hán cho các chữ của 21 bài N5 sẽ làm ở đợt chữ Hán tới (chữ chưa có thẻ thì bước 3 bỏ qua chữ đó).
+
+## 23. Bản v15 (17/10/2026): bài mở đầu, giải thích câu, sửa dấu ✓ ở Kế hoạch hôm nay
+
+**Cách tải lên:** giải nén `capnhat-v15.zip`, kéo **toàn bộ** nội dung vào kho `tiengnhat` → ghi đè → Commit (đã gồm v8–v14 và 21 gói bài mở đầu). Kiểm tra: Cài đặt → cuối trang ghi **v15 · 17/10/2026**.
+
+**Bài mở đầu ở đầu mỗi bài học**
+- Mỗi bài N5 mở bằng một đoạn hội thoại hoặc bài đọc dài 41–62 câu, dùng chủ yếu từ mới và ngữ pháp của chính bài đó. Dưới mỗi câu có nghĩa tiếng Việt (nút **Ẩn nghĩa** để tự đọc trước).
+- **Chạm vào câu** → bảng "Giải thích câu": cụm từ, từng từ (nghĩa, loại từ, cấp, nút 🔖 Sổ tay), ngữ pháp dùng trong câu, ghi chú văn hóa.
+- **Chạm vào mẫu ngữ pháp** trong bảng → mở bài học của mẫu đó ngay tại chỗ (có nút "Luyện mẫu này" và "Đã học xong bài này").
+- Các nút dưới bài: Câu hỏi · Nghe cả bài · Dịch. Đọc xong bấm **Đã đọc xong** để đánh dấu.
+- Bài mở đầu cũng có ở Luyện tập → Hội thoại & bài đọc.
+- Bài N4, N3: bài mở đầu sẽ có cùng lúc với gói bài học N4, N3.
+
+**Giải thích khi hiện đáp án**
+- Ở các bài tập và luyện tập có câu tiếng Nhật (bài tập ngữ pháp, luyện dịch, câu hội thoại, ôn bài…), khi hiện đáp án có ô **"Giải thích từ & ngữ pháp trong câu"**. Mỗi mẫu ngữ pháp trong ô đó bấm được để mở bài học.
+- Bài kiểm tra cuối bài và thi thử: không hiện đáp án giữa chừng; giải thích nằm ở danh sách câu sai sau khi nộp bài.
+
+**Kế hoạch hôm nay đánh dấu ✓ đúng việc đã làm**
+- App ghi lại việc đã làm trong ngày: luyện kana, học bài (mọi bước, đọc bài mở đầu, kiểm tra, ôn bài cũ), luyện dịch, luyện thể, ôn hỗn hợp, đọc. Thoát giữa chừng mà đã làm ít nhất 1 câu cũng tính.
+- **Ôn đến hạn:** đã ôn một lượt trong ngày là có ✓; nếu còn mục đến hạn thì vẫn có nút Ôn để ôn thêm.
+- **Luyện dịch / luyện thể** (xen kẽ theo ngày): làm bài nào trong hai bài cũng tính.
+- **Mẫu ngữ pháp mới:** bấm "Đã học xong bài này" ở cuối trang mẫu.
+- **Kana:** đủ 20 câu trong ngày.
+
+## 24. Dữ liệu đi kèm v15
+
+| Gói | Nội dung |
+|---|---|
+| `modau-n5-01` … `modau-n5-21` | 21 bài mở đầu cho 21 bài N5 (19 hội thoại, 2 bài đọc), mỗi bài 41–62 câu, có nghĩa tiếng Việt, cụm từ, ngữ pháp, ghi chú từng câu; phủ 66–100% từ mới của bài, mỗi mẫu của bài xuất hiện ít nhất 2 câu |
+| `baihoc-n5` v2 | mỗi bài có bài mở đầu đứng đầu phần Đọc & hội thoại |
+
+Các nhân vật quen thuộc: tổ trưởng 田中[たなか], tiền bối 佐藤[さとう], đồng nghiệp 鈴木[すずき], chị Maria, chị 山田[やまだ] ở văn phòng, bạn cùng phòng Minh, thực tập sinh mới Hoa.

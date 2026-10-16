@@ -33,7 +33,7 @@ export function sentences() {
   for (const d of [...D.dialog, ...D.text]) for (const t of d.turns || d.sents || []) {
     if (!t.jp || !t.vi || plain(t.jp).replace(/[。、！？…\s]/g, '').length < 4 || t.fmt) continue;
     add(d, { jp: t.jp, vi: t.vi, alt: t.alt, ctx: d.ctx }, 'd');
-    const s = seen.get(plain(stripHL(t.jp))); if (s && s.src === d) s.casual = !!t.std;
+    const s = seen.get(plain(stripHL(t.jp))); if (s && s.src === d) Object.assign(s, { casual: !!t.std, gram: t.grammar || [], gloss: t.gloss, phr: t.phr, words: t.words });
   }
   _idx = [...seen.values()]; _key = key;
   return _idx;
@@ -154,8 +154,9 @@ function vnOrder(s, hint) {
   return { kind: 'order', tag: tagOf(s, 'Ghép mảnh Việt → Nhật'), level: s.level, prompt: `<p class="prompt-vi">${esc(s.vi)}</p>${patHint(s, hint)}`, hint: 'Ghép thành câu tiếng Nhật', chunks: ch.map(rich), after: fullAfter(s), review: { id: s.id, dir: 'vn' } };
 }
 export function sentQ(s, dir, how, pool, hint = true) {
-  if (dir === 'nv') return how === 'type' ? nvType(s) : how === 'listen' ? (ttsReady() ? nvChoice(s, pool, true) : null) : nvChoice(s, pool);
-  return how === 'type' ? vnType(s, hint) : how === 'order' ? vnOrder(s, hint) : vnChoice(s, pool, hint);
+  const q = dir === 'nv' ? (how === 'type' ? nvType(s) : how === 'listen' ? (ttsReady() ? nvChoice(s, pool, true) : null) : nvChoice(s, pool))
+    : (how === 'type' ? vnType(s, hint) : how === 'order' ? vnOrder(s, hint) : vnChoice(s, pool, hint));
+  return q && { ...q, sent: stripHL(s.jp), gram: s.kind === 'g' ? [s.src.id] : (s.gram || []), gloss: s.gloss, phr: s.phr, words: s.words };
 }
 
 // ---------- chọn câu và dựng lượt ----------

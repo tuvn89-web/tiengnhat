@@ -87,6 +87,27 @@ export async function setPrefs(patch) {
   await kvSet('prefs', D.prefs);
 }
 
+// Nhật ký việc đã làm trong ngày (Kế hoạch hôm nay đánh dấu ✓): {d: 'YYYY-M-D', a: {dich, the, kana, lesson, doc, gram…}}
+export const todayKey = (t = Date.now()) => { const d = new Date(t); return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`; };
+export const actToday = key => (D.prefs.day?.d === todayKey() ? D.prefs.day.a?.[key] || 0 : 0);
+export async function logAct(key, n = 1) {
+  if (!key || n <= 0) return;
+  const d = todayKey(), a = D.prefs.day?.d === d ? { ...(D.prefs.day.a || {}) } : {};
+  a[key] = (a[key] || 0) + n;
+  await setPrefs({ day: { d, a } });
+}
+// Loại việc theo trang đã mở lượt luyện
+export function actOf(back) {
+  const h = String(back || '').replace(/^#\/?/, '');
+  if (/^dich/.test(h)) return 'dich';
+  if (/^luyen\/(chia|the|tinhtu)/.test(h)) return 'the';
+  if (/^kana/.test(h)) return 'kana';
+  if (/^(bai|onbai|tonghop)\//.test(h)) return 'lesson';
+  if (/^doc/.test(h)) return 'doc';
+  if (/^onhon/.test(h)) return 'on';
+  return 'other';
+}
+
 // Lịch sử kiểm tra trình độ (đồng bộ giữa các máy)
 export async function saveTest(rec) {
   D.tests[rec.id] = { ...rec, t: Date.now() };

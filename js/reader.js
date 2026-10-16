@@ -7,6 +7,7 @@ import { emptyState, bindSay, sayBtn, chips, bindChips, readChip } from './ui.js
 import { runDrill, opt } from './drill.js';
 import { sentences, sentQ, judgeJa } from './dich.js';
 import { jaVoices, pickVoice, ttsReady } from './tts.js';
+import { openExplain } from './explain.js';
 
 const KIND = { thongbao: 'Thông báo', tinnhan: 'Tin nhắn', email: 'Email', bienbao: 'Biển báo', giayto: 'Giấy tờ', doanvan: 'Đoạn văn' };
 const MEDIUM = { tructiep: 'Nói trực tiếp', dienthoai: 'Gọi điện', line: 'Tin nhắn LINE' };
@@ -46,37 +47,44 @@ export function renderDoc(view, ctx, id, mode = 'doc') {
 }
 
 // ---------- 1. Đọc song ngữ ----------
-function lineHTML(it, t, i) {
+// Một câu: chữ Nhật (furigana) + loa + nghĩa Việt; câu Kansai / khẩu ngữ có dòng "Nói chuẩn". Chạm vào câu → bảng giải thích.
+function lineHTML(it, t, i, { vi = false } = {}) {
   const me = isDialog(it) && t.who === meKey(it), r = isDialog(it) ? roleOf(it, t.who) : null;
-  const words = (t.words || []).map(w => typeof w === 'string' ? D.items.get(w) : null).filter(Boolean);
-  const gram = (t.grammar || []).map(g => D.items.get(g)).filter(Boolean);
-  const x = [
-    t.std ? `<p class="small"><b>Nói chuẩn:</b> <span lang="ja">${rich(t.std)}</span></p>` : '',
-    (t.gloss || []).length ? `<p class="small muted">${t.gloss.map(g => `<span lang="ja">${rich(g.w)}</span>: ${esc(g.vi)}`).join(' · ')}</p>` : '',
-    t.note ? `<p class="small dl-note">💡 ${rich(t.note)}</p>` : '',
-    words.length || gram.length ? `<p class="dl-words">${words.map(w => `<button type="button" class="chip" data-wopen="${esc(w.id)}" lang="ja">${wordHTML(w, 'furi')}</button>`).join('')}${gram.map(g => `<a class="chip" href="#/nguphap/${encodeURIComponent(g.id)}" lang="ja">${rich(g.pattern)}</a>`).join('')}</p>` : '',
-  ].join('');
   const cls = isDialog(it) ? `dl${me ? ' dl-me' : ''}` : `tx${t.fmt === 'h' ? ' tx-h' : t.fmt === 'r' ? ' tx-r' : ''}${t.br ? ' tx-br' : ''}`;
-  return `<div class="${cls}" data-i="${i}">
+  return `<div class="${cls}" data-i="${i}" role="button" tabindex="0" aria-label="Giải thích câu ${i + 1}">
     ${r ? `<span class="dl-who">${rich(r.name)}${r.vi ? ` <small>${esc(r.vi)}</small>` : ''}</span>` : ''}
     <div class="dl-line"><p class="dl-jp" lang="ja">${rich(t.jp)}</p>${sayBtn(reading(t.jp))}</div>
-    <p class="dl-vi" hidden>${esc(t.vi)}</p>
-    ${x ? `<div class="dl-x" hidden>${x}</div>` : ''}</div>`;
+    <p class="dl-vi" ${vi ? '' : 'hidden'}>${esc(t.vi)}</p>
+    ${t.std ? `<p class="dl-std small" ${vi ? '' : 'hidden'}><b>Nói chuẩn:</b> <span lang="ja">${rich(t.std)}</span></p>` : ''}</div>`;
+}
+const boxCls = it => (isDialog(it) ? `dlg${it.medium === 'line' ? ' dlg-line' : ''}` : `txt txt-${esc(it.kind || 'doanvan')}`);
+// Cả bài (dùng ở trang Đọc và bài mở đầu của bài học)
+export function passageHTML(it, { vi = true } = {}) {
+  return `<div class="${boxCls(it)} passage">${linesOf(it).map((t, i) => lineHTML(it, t, i, { vi })).join('')}</div>`;
+}
+export function bindPassage(root, it) {
+  const box = root.querySelector('.passage');
+  if (!box) return;
+  const open = d => { const t = linesOf(it)[+d.dataset.i]; if (t) openExplain({ ...t, words: t.words, grammar: t.grammar }); };
+  box.onclick = e => {
+    if (e.target.closest('[data-say], [data-wopen], [data-gopen], a')) return;
+    const d = e.target.closest('[data-i]');
+    if (d) open(d);
+  };
+  box.onkeydown = e => { const d = e.target.closest('[data-i]'); if (d && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); open(d); } };
+}
+export const viToggleHTML = (on = true) => `<label class="check small"><input type="checkbox" data-o="vi" ${on ? 'checked' : ''}> Hiện nghĩa tiếng Việt</label>`;
+export function bindViToggle(root) {
+  const c = root.querySelector('[data-o=vi]');
+  if (c) c.onchange = () => root.querySelectorAll('.passage .dl-vi, .passage .dl-std').forEach(v => { v.hidden = !c.checked; });
 }
 function readMode(body, ctx, it) {
-  const ls = linesOf(it);
-  body.innerHTML = `<label class="check small"><input type="checkbox" data-o="vi"> Hiện tiếng Việt cả bài</label>
-    <p class="small muted">Chạm vào một câu để xem nghĩa, từ, ghi chú. Bấm loa để nghe.</p>
-    <div class="${isDialog(it) ? `dlg${it.medium === 'line' ? ' dlg-line' : ''}` : `txt txt-${esc(it.kind || 'doanvan')}`}">${ls.map((t, i) => lineHTML(it, t, i)).join('')}</div>
+  body.innerHTML = `${viToggleHTML(true)}
+    <p class="small muted">Chạm vào một câu để xem nghĩa từng từ, cụm từ và ngữ pháp trong câu. Bấm loa để nghe.</p>
+    ${passageHTML(it)}
     <div class="row-btns"><a class="btn btn-primary" href="#/doc/${encodeURIComponent(it.id)}?m=hoi">Trả lời câu hỏi</a></div>`;
-  body.querySelector('[data-o=vi]').onchange = e => body.querySelectorAll('.dl-vi, .dl-x').forEach(v => { v.hidden = !e.target.checked; });
-  body.querySelector('.dlg, .txt').onclick = e => {
-    if (e.target.closest('[data-say], [data-wopen], a')) return;
-    const d = e.target.closest('[data-i]');
-    if (!d) return;
-    const v = d.querySelector('.dl-vi'), x = d.querySelector('.dl-x'), show = v.hidden;
-    v.hidden = !show; if (x) x.hidden = !show;
-  };
+  bindViToggle(body);
+  bindPassage(body, it);
 }
 
 // ---------- 2. Dịch từng câu ----------

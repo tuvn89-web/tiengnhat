@@ -748,3 +748,29 @@ button.wref:hover { border-color: var(--blue); }
 .rp-l.rp-me { background: var(--blue-soft); }
 .rp-doc { margin-top: 12px; text-align: left; }
 .rp-doc summary { cursor: pointer; color: var(--blue); }
+
+/* ---- v15: bài mở đầu, giải thích câu ---- */
+.lintro > summary { cursor: pointer; display: flex; align-items: center; gap: 8px; margin: 14px 0 6px; }
+.lintro-t { align-items: center; margin-top: 4px; }
+.lintro-t > * { flex: 0 1 auto; }
+.passage .dl, .passage .tx { cursor: pointer; }
+.passage .dl:hover, .passage .tx:hover { border-color: var(--blue); }
+.passage .tx { padding: 4px 6px; border-radius: 8px; }
+.passage .tx:hover { background: var(--blue-soft); }
+.dl-std { margin: 0 0 4px; color: var(--ink-2); }
+.xh { display: flex; align-items: flex-start; gap: 6px; }
+.xh-jp { flex: 1; margin: 0; font-size: 1.2em; line-height: 2.1; }
+.xh-vi { margin: 2px 0 8px; color: var(--ink-2); }
+.xl { list-style: none; padding: 0; margin: 4px 0 10px; }
+.xw, .xg { display: flex; align-items: center; border-bottom: 1px solid var(--line); }
+.xw-b { flex: 1; min-width: 0; display: grid; grid-template-columns: minmax(6.5em, auto) 1fr; gap: 10px; align-items: center; padding: 8px 4px; background: none; border: 0; text-align: left; color: var(--ink); cursor: pointer; min-height: 48px; }
+span.xw-b { cursor: default; }
+.xw-jp { font-size: 1.1em; line-height: 1.9; }
+.xw-vi { color: var(--ink-2); overflow-wrap: anywhere; }
+.xg .xw-b { color: var(--blue); }
+.xg .xw-vi { color: var(--ink); }
+.xp .xw-jp { font-weight: 650; }
+.xpl { margin-top: 10px; border-top: 1px dashed var(--line); padding-top: 6px; text-align: left; }
+.xpl > summary { cursor: pointer; color: var(--blue); font-weight: 600; padding: 6px 0; }
+.gsheet .gram { padding-bottom: 8px; }
+.gdone { text-align: center; }

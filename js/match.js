@@ -1,6 +1,6 @@
 import { esc, wordHTML, normVi, shuffle, beep, buzz, icon, rich, plain } from './util.js';
 import { verbInfo, conjugate } from './conj.js';
-import { D, LEVELS } from './data.js';
+import { D, LEVELS, logAct, actOf } from './data.js';
 import { S } from './settings.js';
 import { review, stats } from './srs.js';
 import { chips, bindChips, readChip, readChips, topicOpts, emptyState, wtabs } from './ui.js';
@@ -179,6 +179,7 @@ export function runMatch(view, rounds, type, ctx, { onDone, again } = {}) {
       </div>${resultNavHTML(ctx)}</section>`;
     view.querySelector('[data-act=again]').onclick = () => (again ? again() : ctx.go('#/ghep', true));
     bindResultNav(view, ctx);
+    if (t0) logAct(actOf(ctx.back));
     onDone?.({ early, mistakes, wrong: wl });
     ctx.sessionDone?.();
   }

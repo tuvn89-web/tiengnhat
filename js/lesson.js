@@ -2,13 +2,15 @@
 // Cấp có gói bài học (`type: lesson`) thì dùng gói đó; chưa có thì app tự chia bài từ các gói đang có:
 // bài thứ i = gói ngữ pháp thứ i + một khúc từ JLPT theo thứ tự (khúc cố định cho từng cấp, thêm từ mới không xáo bài cũ).
 import { esc, rich, plain, wordHTML, shuffle, icon, toast, DAY, startOfDay, kanjiChars, rubyHTML, stripHL, reading, fmtDate } from './util.js';
-import { D, LEVELS, saveLesson } from './data.js';
+import { D, LEVELS, saveLesson, logAct } from './data.js';
 import { status, stats } from './srs.js';
 import { S } from './settings.js';
 import { emptyState, bindSay, sayBtn } from './ui.js';
 import { markBtnHTML, marked, addMany, practiceItems, WRONG } from './notes.js';
 import { runDrill, opt } from './drill.js';
 import { buildPoolQs } from './level.js';
+import { answerExplainHTML } from './explain.js';
+import { passageHTML, bindPassage, viToggleHTML, bindViToggle } from './reader.js';
 import { attachRomaji, romajiToKana } from './romaji.js';
 import { ttsReady } from './tts.js';
 import { goBack, crumbHTML, resultNavHTML, bindResultNav, beginSession } from './nav.js';
@@ -177,13 +179,22 @@ export function renderLesson(view, ctx, id, openStep) {
     <summary><span class="lstep-n">${s.flags[i] ? '✓' : i + 1}</span><span class="lstep-t">${esc(STEPS[i][1])}${extra ? ` <small class="muted">${extra}</small>` : ''}</span></summary><div class="lstep-b">${body}</div></details>`;
   const markToggle = n => n ? `<label class="check small"><input type="checkbox" data-o="only"> Chỉ ${n} từ đã đánh dấu</label>` : '';
   const due = reviewDue(x), rec = s.rec;
-  const texts = x.texts.map(t => D.items.get(t)).filter(Boolean);
+  const all = x.texts.map(t => D.items.get(t)).filter(Boolean);
+  const intro = all.find(t => t.intro), texts = all.filter(t => t !== intro);
+  const introDone = intro && D.lessons[intro.id]?.done;
   view.innerHTML = `<a class="back" href="#/lotrinh">Lộ trình</a>
     <p class="small muted">Chặng ${esc(x.level)} · Bài ${x.n}/${x.total}${x.auto ? ' · app tự chia từ gói dữ liệu' : ''}</p>
     <h1 class="h1">${rich(x.title)}</h1>
     ${x.goal ? `<p class="lgoal">🎯 <b>Sau bài này:</b> ${rich(x.goal)}</p>` : ''}
     ${stepsBarHTML(s)}
     <p class="small muted">${s.done ? `Đã xong bài${rec.done ? ' ngày ' + fmtDate(rec.done) : ''}.` : `${s.nDone}/8 bước. Bài có ✓ khi bài kiểm tra cuối bài đạt từ ${PASS}%.`}</p>
+    ${intro ? `<details class="card lintro" id="b0" ${introDone && openStep ? '' : 'open'}>
+      <summary class="h2">${icon(intro._type === 'dialog' ? 'chat' : 'book')} Bài mở đầu: ${esc(intro.title)}${introDone ? ' <small class="muted">· đã đọc ✓</small>' : ''}</summary>
+      ${intro.setting ? `<p class="doc-set">${rich(intro.setting)}</p>` : ''}
+      <div class="row-btns wrap lintro-t">${viToggleHTML(true)}<span class="small muted">Chạm vào câu để xem nghĩa từng từ, cụm từ, ngữ pháp.</span></div>
+      ${passageHTML(intro)}
+      <div class="row-btns wrap"><a class="btn btn-ghost" href="#/doc/${encodeURIComponent(intro.id)}?m=hoi">Câu hỏi hiểu bài</a>${ttsReady() ? `<a class="btn btn-ghost" href="#/doc/${encodeURIComponent(intro.id)}?m=nghe">Nghe cả bài</a>` : ''}<a class="btn btn-ghost" href="#/doc/${encodeURIComponent(intro.id)}?m=dich">Dịch từng câu</a>${introDone ? '' : '<button type="button" class="btn btn-primary" data-p="introok">Đã đọc xong</button>'}</div>
+    </details>` : ''}
     ${due ? `<div class="note"><b>Đến lịch ôn bài này</b> (lần ${due.k + 1}/4). <a class="btn btn-primary btn-sm" href="#/onbai/${encodeURIComponent(x.id)}">Ôn 10 câu</a></div>` : ''}
 
     ${step(0, `${sv.new ? `<div class="row-btns"><a class="btn btn-primary" href="${here}/hoc">Học ${Math.min(sv.new, S.qCount)} từ mới</a></div>` : '<p class="small">Đã học hết từ mới của bài.</p>'}
@@ -207,6 +218,8 @@ export function renderLesson(view, ctx, id, openStep) {
       <div class="row-btns wrap"><button class="btn btn-primary" data-p="cau">Ghép câu</button>${p.vocab.some(it => ['v1', 'v5', 'v3'].includes(it.pos)) ? '<button class="btn btn-ghost" data-p="the">Thể động từ trong câu</button>' : ''}<button class="btn btn-ghost" data-p="dich">Dịch Việt ↔ Nhật</button></div>`)}
 
     ${step(6, texts.length ? `<ul class="rows lrows">${texts.map(t => `<li><a class="row" href="#/doc/${encodeURIComponent(t.id)}"><span class="row-jp">${icon(t._type === 'dialog' ? 'chat' : 'book')} <b>${esc(t.title)}</b></span><span class="row-vi small">${esc(t._type === 'dialog' ? 'Hội thoại' : 'Bài đọc')}${D.lessons[t.id]?.done ? ' · ✓' : ''}</span></a></li>`).join('')}</ul>`
+      : intro ? `<p class="small">Bài đọc chính của bài này là <a href="#/bai/${encodeURIComponent(x.id)}">bài mở đầu</a> ở đầu trang. Làm thêm: nghe và hiểu câu ví dụ của bài.</p>
+      <div class="row-btns wrap"><a class="btn btn-ghost" href="${here}/cau">Đọc câu của bài</a><button class="btn btn-primary" data-p="hieu">Nghe – hiểu 10 câu</button></div>`
       : `<p class="small muted">Bài đọc / hội thoại cho bài này đang được soạn. Trong lúc chờ: đọc và nghe các câu ví dụ của bài.</p>
       <div class="row-btns wrap"><a class="btn btn-ghost" href="${here}/cau">Đọc câu của bài</a><button class="btn btn-primary" data-p="hieu">Nghe – hiểu 10 câu</button></div>`)}
 
@@ -220,16 +233,18 @@ export function renderLesson(view, ctx, id, openStep) {
   bindSay(view);
   if (open >= 0 && openStep) setTimeout(() => view.querySelector('#b' + (open + 1))?.scrollIntoView({ block: 'start' }), 50);
   bindWrite(view, x, ctx);
+  if (intro) { bindPassage(view.querySelector('.lintro'), intro); bindViToggle(view.querySelector('.lintro')); }
   view.onclick = async e => {
     const b = e.target.closest('[data-p]');
     if (!b) return;
     const k = b.dataset.p;
-    if (k !== 'relok') view.onclick = null; // trang chuyển sang lượt luyện
+    if (k !== 'relok' && k !== 'introok') view.onclick = null; // trang chuyển sang lượt luyện
     const only = b.closest('.lstep-b')?.querySelector('[data-o=only]')?.checked;
     const vocab = only ? p.vocab.filter(it => marked(it.id)) : p.vocab;
     ctx.backTo = here + (b.closest('.lstep') ? '?b=' + b.closest('.lstep').id.slice(1) : '');
     const again = () => ctx.go(ctx.backTo, true);
-    const mark = key => () => saveLesson(x.id, { steps: { ...(D.lessons[x.id]?.steps || {}), [key]: Date.now() } });
+    const mark = key => () => { logAct('lesson'); return saveLesson(x.id, { steps: { ...(D.lessons[x.id]?.steps || {}), [key]: Date.now() } }); };
+    if (k === 'introok') { await saveLesson(intro.id, { done: Date.now(), read: true }); logAct('lesson'); ctx.sessionDone?.(); toast('Đã đọc xong bài mở đầu.'); return renderLesson(view, ctx, id, 1); }
     if (k === 'relok') { await mark('rel')(); ctx.sessionDone?.(); toast('Đã xong bước Từ liên quan.'); return renderLesson(view, ctx, id, 3); }
     if (k === 'relquiz') return practiceItems(view, ctx, 'quiz', { vocab: rel.map(r => r.it), kanji: [], grammar: [] }, { title: 'Từ liên quan', again, onDone: mark('rel') });
     if (k === 'kanji') return practiceItems(view, ctx, 'kanji', p, { title: 'Chữ Hán của bài', again });
@@ -346,7 +361,7 @@ export function runLessonTest(view, ctx, id) {
       <p class="result-score"><b>${pct}%</b><span> (${ok}/${res.length})</span></p>
       <p class="result-sub">${passed ? `Bài ${x.n} có ✓. App sẽ nhắc ôn lại sau 1, 3, 7, 14 ngày.` : `Cần từ ${PASS}%. Ôn lại các câu sai rồi làm lại.`}</p>
       ${wrongIds.length ? `<p class="small">${wrongIds.length} mục làm sai đã vào sổ <a href="#/sotay/${WRONG}">Sai ở bài kiểm tra</a>.</p>` : ''}
-      ${res.filter(r => !r.ok).length ? `<h2 class="h2">Câu sai</h2><ul class="wlist wlist-drill">${res.filter(r => !r.ok).map(r => `<li><span class="muted small">${esc(r.q.tag || '')}</span><div class="wq">${r.q.prompt}</div><p>Đáp án: <b lang="ja">${r.q.opts.find(o => o.key === r.q.answer)?.html || ''}</b></p>${r.q.after || ''}</li>`).join('')}</ul>` : ''}
+      ${res.filter(r => !r.ok).length ? `<h2 class="h2">Câu sai</h2><ul class="wlist wlist-drill">${res.filter(r => !r.ok).map(r => `<li><span class="muted small">${esc(r.q.tag || '')}</span><div class="wq">${r.q.prompt}</div><p>Đáp án: <b lang="ja">${r.q.opts.find(o => o.key === r.q.answer)?.html || ''}</b></p>${r.q.after || ''}${answerExplainHTML(r.q, { open: false })}</li>`).join('')}</ul>` : ''}
       <div class="row-btns stack">
         ${res.some(r => !r.ok) ? '<button class="btn btn-primary" data-act="redo">Luyện lại câu sai</button>' : ''}
         ${passed && next ? `<a class="btn ${res.some(r => !r.ok) ? 'btn-ghost' : 'btn-primary'}" href="#/bai/${encodeURIComponent(next.id)}" data-nav="go">Sang bài ${next.n} →</a>` : ''}

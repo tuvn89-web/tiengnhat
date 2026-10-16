@@ -1,6 +1,7 @@
 // Học từ mới (A1–A4): xem thẻ → "Đã học" / "Biết rồi" / "Để sau". Không kiểm tra ngay; lật lại được thẻ trước.
 import { esc, wordHTML, icon, toast } from './util.js';
 import { S } from './settings.js';
+import { logAct, actOf } from './data.js';
 import { setLearned, unsetLearned, status } from './srs.js';
 import { speak } from './tts.js';
 import { bindSay, wordDetailHTML, emptyState } from './ui.js';
@@ -93,6 +94,7 @@ export function runLearn(view, items, ctx, { again, onFinish } = {}) {
     if (m) m.onclick = () => again();
     bindResultNav(view, ctx, { kind: learned.length ? 'learn' : 'practice' });
     if (learned.length || known.length) toast(`Đã lưu ${learned.length + known.length} từ vào lịch ôn.`);
+    if (st.dec.size) logAct(actOf(ctx.back));
     onFinish?.({ learned, known, later, early });
     ctx.sessionDone?.();
   }

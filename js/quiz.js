@@ -1,5 +1,5 @@
 import { esc, wordHTML, wordKey, normVi, shuffle, beep, buzz, icon, toast, startOfDay, DAY, plain } from './util.js';
-import { D, LEVELS, TOPICS } from './data.js';
+import { D, LEVELS, TOPICS, logAct, actOf } from './data.js';
 import { S } from './settings.js';
 import { review, status, dueDirs, errCount, isStar, toggleStar, stats, progDir, learnedSince, setLearned, progSnapshot, progRestore } from './srs.js';
 import { runLearn, learnCardHTML, learnBarHTML, applyDecision } from './learn.js';
@@ -239,7 +239,7 @@ export function runQuiz(view, qs, o, ctx) {
   const tag = it => `<div class="label-head"><span class="label-tag">${esc(it.sub || TOPICS[it.topics[0]] || 'Từ vựng')}</span><span class="label-lv">${esc(it.level)}</span></div>`;
 
   function next() { st.i++; show(); }
-  function quit() { if (st.i > 0) finish(true); else goBack(ctx); }
+  function quit() { if (st.i > 0 || st.score || st.wrong.length) finish(true); else goBack(ctx); }
 
   function show() {
     if (st.i >= st.qs.length) return finish();
@@ -344,6 +344,7 @@ export function runQuiz(view, qs, o, ctx) {
     const r = view.querySelector('[data-act=redo]');
     if (r) r.onclick = () => runQuiz(view, wrongU.map(it => ({ it, dir: o.dir === 'mix' ? 'jv' : o.dir })), o, ctx);
     bindResultNav(view, ctx);
+    if (answered) logAct(actOf(ctx.back));
     o.onFinish?.({ score: st.score, answered, total: st.total, wrong: wrongU, early });
     ctx.sessionDone?.();
   }

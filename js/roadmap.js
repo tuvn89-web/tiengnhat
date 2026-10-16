@@ -1,13 +1,13 @@
 // Hướng dẫn & lộ trình (đợt 5a, Đ7): màn Bắt đầu · Lộ trình theo chặng · Kế hoạch hôm nay + dự báo.
 import { esc, rich, plain, DAY, startOfDay } from './util.js';
-import { D, LEVELS, setPrefs } from './data.js';
+import { D, LEVELS, setPrefs, actToday } from './data.js';
 import { status, stats, P } from './srs.js';
 import { chips, bindChips, readChip } from './ui.js';
 import { kvGet, kvSet } from './db.js';
 import { passedLevels, thresholds } from './level.js';
 import { kanaProgress, kanaDone } from './kana.js';
 import { mixedDue } from './practice.js';
-import { lessonsOf, currentLesson, lessonCardHTML, lessonListHTML, lessonState, dueReviews, reviewDue, isDone, STEPS } from './lesson.js';
+import { allLessons, lessonsOf, currentLesson, lessonCardHTML, lessonListHTML, lessonState, dueReviews, reviewDue, isDone, STEPS } from './lesson.js';
 
 export const GOALS = [['N5', 'N5'], ['N4', 'N4'], ['N3', 'N3 · 特定技能2号'], ['N2', 'N2']];
 const MINS = [[10, '10 phút'], [20, '20 phút'], [40, '40 phút']];
@@ -189,15 +189,17 @@ export function planToday() {
   const out = [];
   if (cur === 'kana') {
     const kp = kanaProgress();
-    out.push({ done: false, label: `Luyện kana 20 câu`, sub: `Hiragana ${kp.h}/${kp.ht} · Katakana ${kp.k}/${kp.kt}`, href: '#/kana', btn: 'Luyện' });
+    out.push({ done: actToday('kana') >= 20, label: `Luyện kana 20 câu`, sub: `Hôm nay đã luyện ${actToday('kana')} câu · Hiragana ${kp.h}/${kp.ht} · Katakana ${kp.k}/${kp.kt}`, href: '#/kana', btn: 'Luyện' });
     return out;
   }
-  out.push({ done: nDue === 0, label: nDue ? `Ôn ${nDue} mục đến hạn` : 'Ôn đến hạn — xong', sub: 'Từ vựng, chữ Hán, ngữ pháp', href: '#/onhon', btn: 'Ôn' });
+  const didOn = actToday('on');
+  out.push({ done: nDue === 0 || didOn > 0, label: nDue && !didOn ? `Ôn ${nDue} mục đến hạn` : 'Ôn đến hạn — xong', sub: didOn && nDue ? `Đã ôn hôm nay · còn ${nDue} mục, ôn thêm nếu còn thời gian` : 'Từ vựng, chữ Hán, ngữ pháp', href: '#/onhon', btn: 'Ôn', more: !!(didOn && nDue) });
   // ôn bài cũ theo lịch 1–3–7–14 ngày (tối đa 2 bài mỗi ngày)
+  for (const l of allLessons().filter(x => (D.lessons[x.id]?.rev || []).some(t => t >= sod))) out.push({ done: true, label: `Ôn bài cũ: bài ${l.n} (${l.level})`, sub: 'Đã ôn hôm nay', href: `#/bai/${encodeURIComponent(l.id)}`, btn: 'Xem' });
   for (const l of dueReviews().slice(0, 2)) out.push({ done: false, label: `Ôn bài cũ: bài ${l.n} (${l.level})`, sub: `Lần ${reviewDue(l).k + 1}/4 · ${plain(l.title)}`, href: `#/onbai/${encodeURIComponent(l.id)}`, btn: 'Ôn' });
   // bài đang học: bước tiếp theo
   const cl = currentLesson(cur);
-  if (cl) { const s = lessonState(cl), nx = s.next >= 0 ? s.next : 7; out.push({ done: false, label: `Bài ${cl.n}: ${plain(cl.title)}`, sub: `${s.nDone}/8 bước · tiếp: ${STEPS[nx][1]}`, href: `#/bai/${encodeURIComponent(cl.id)}?b=${nx + 1}`, btn: 'Học' }); }
+  if (cl) { const s = lessonState(cl), nx = s.next >= 0 ? s.next : 7, did = actToday('lesson'); out.push({ done: did > 0, label: `Bài ${cl.n}: ${plain(cl.title)}`, sub: `${s.nDone}/8 bước${did ? ` · hôm nay đã làm ${did} lượt` : ''} · tiếp: ${STEPS[nx][1]}`, href: `#/bai/${encodeURIComponent(cl.id)}?b=${nx + 1}`, btn: 'Học' }); }
   const hasNewV = D.vocab.some(it => status(it) === 'new');
   const lnew = cl && cl.words.some(id => { const it = D.items.get(id); return it && status(it) === 'new'; });
   if (hasNewV) out.push({ done: newV >= plan.v, label: `Học ${plan.v} từ mới`, sub: `Hôm nay đã học ${newV}${lnew ? ` · từ của bài ${cl.n}` : ''}`, href: lnew ? `#/bai/${encodeURIComponent(cl.id)}/hoc` : '#/moi', btn: 'Học' });
@@ -205,7 +207,11 @@ export function planToday() {
   const g = (cl ? cl.grammar.map(id => D.items.get(id)).filter(x => x && status(x) === 'new') : [])[0] || D.grammar.filter(x => status(x) === 'new').sort((a, b) => LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level))[0];
   if (wantG && g) out.push({ done: newG >= 1, label: '1 mẫu ngữ pháp mới', sub: newG ? 'Đã học hôm nay' : plain(g.pattern), href: `#/nguphap/${encodeURIComponent(g.id)}`, btn: 'Học' });
   // xen kẽ: ngày chẵn luyện thể, ngày lẻ luyện dịch
-  if (m >= 20) out.push(Math.floor(sod / DAY) % 2 ? { done: false, label: 'Một bài luyện dịch', sub: 'Nhật ↔ Việt theo câu', href: '#/dich', btn: 'Dịch' } : { done: false, label: 'Một bài luyện thể', sub: 'Gõ thể, chuỗi biến đổi, đổi câu…', href: '#/luyen/chia', btn: 'Luyện' });
+  // làm bài kia (dịch thay cho thể, hay ngược lại) cũng tính là xong
+  if (m >= 20) {
+    const ad = actToday('dich'), at = actToday('the'), alt = ad || at ? (ad && at ? 'Hôm nay đã luyện dịch và luyện thể' : ad ? 'Hôm nay đã luyện dịch' : 'Hôm nay đã luyện thể') : '';
+    out.push(Math.floor(sod / DAY) % 2 ? { done: ad + at > 0, label: 'Một bài luyện dịch', sub: alt || 'Nhật ↔ Việt theo câu', href: '#/dich', btn: 'Dịch' } : { done: ad + at > 0, label: 'Một bài luyện thể', sub: alt || 'Gõ thể, chuỗi biến đổi, đổi câu…', href: '#/luyen/chia', btn: 'Luyện' });
+  }
   const hasNewK = D.kanji.some(k => status(k) === 'new');
   const lk = cl && cl.kanji.some(c => { const k = D.kanjiByChar.get(c); return k && status(k) === 'new'; });
   if (hasNewK) out.push({ done: newK >= plan.k, label: `${plan.k} chữ Hán`, sub: `Hôm nay đã học ${newK}${lk ? ` · chữ của bài ${cl.n}` : ''}`, href: lk ? `#/bai/${encodeURIComponent(cl.id)}?b=3` : '#/chuhan/moi', btn: 'Học' });
@@ -215,7 +221,7 @@ export function planHTML() {
   const items = planToday();
   if (!items.length) return '';
   return `<section class="card plan"><h2 class="h2">Kế hoạch hôm nay <small>· ${mins()} phút</small></h2>
-    <ul class="plan-l">${items.map(x => `<li class="${x.done ? 'is-done' : ''}"><span class="plan-c" aria-hidden="true">${x.done ? '✓' : ''}</span><span><b>${esc(x.label)}</b><small class="muted" ${/[ぁ-ん一-龯]/.test(x.sub) ? 'lang="ja"' : ''}>${esc(x.sub)}</small></span>${x.done ? '' : `<a class="btn btn-ghost btn-sm" href="${x.href}">${esc(x.btn)}</a>`}</li>`).join('')}</ul>
+    <ul class="plan-l">${items.map(x => `<li class="${x.done ? 'is-done' : ''}"><span class="plan-c" aria-hidden="true">${x.done ? '✓' : ''}</span><span><b>${esc(x.label)}</b><small class="muted" ${/[ぁ-ん一-龯]/.test(x.sub) ? 'lang="ja"' : ''}>${esc(x.sub)}</small></span>${x.done && !x.more ? '' : `<a class="btn btn-ghost btn-sm" href="${x.href}">${esc(x.btn)}</a>`}</li>`).join('')}</ul>
     <p class="small muted">${forecast()} <a href="#/lotrinh">Lộ trình</a></p></section>`;
 }
 export const needsOnboard = () => !D.prefs.onboard;

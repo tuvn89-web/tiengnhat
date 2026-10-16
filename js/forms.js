@@ -1,7 +1,7 @@
 // Luyện thể (đợt 5b — Đ3, Đ4): gõ thể, chuỗi biến đổi, nhận diện ngược, nghe → thể, đổi câu, cặp tự – tha, kính ngữ,
 // tính từ (có bẫy きれい / いい), danh từ + だ, phó từ trong câu, katakana; 60 giây tốc độ; bảng chia tự kiểm; điểm theo thể (B4).
 import { esc, rich, rubyHTML, plain, reading, shuffle, wordHTML, toast, icon } from './util.js';
-import { D, setPrefs } from './data.js';
+import { D, setPrefs, logAct } from './data.js';
 import { status, errCount, isStar } from './srs.js';
 import { isBookSrc, matchSrc, bookSourceOpts } from './notes.js';
 import { verbInfo, conjugate, conjPart, wrongForms, ruleText, FORMS, FORM_LEVEL, BASE_FORMS, EXT_FORMS, CASUAL, DERIVED, formVi, shortVi } from './conj.js';
@@ -481,6 +481,7 @@ function runSpeed(view, ctx, o) {
   let finished = false;
   async function done(quit = false) {
     if (finished) return; finished = true; clearInterval(timer);
+    if (ok) logAct('the');
     const rec0 = D.prefs.speedBest || 0, isRec = !quit && ok > rec0;
     if (isRec) { await setPrefs({ speedBest: ok }); ctx.sessionDone?.(); }
     ctx.inRun = true;
@@ -524,6 +525,7 @@ function runTable(view, ctx, o) {
   });
   view.querySelector('[data-act=other]').onclick = () => runTable(view, ctx, o);
   view.querySelector('[data-act=done]').onclick = () => {
+    logAct('the');
     const k = Object.values(marks).filter(Boolean).length, n = Object.keys(marks).length;
     toast(n ? `Biết ${k}/${n} thể. Đã ghi vào Điểm theo thể.` : 'Chưa chấm ô nào.');
     ctx.sessionDone?.();

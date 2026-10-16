@@ -26,6 +26,7 @@ import { setPrefs } from './data.js';
 import { openMarkSheet, renderNotebook } from './notes.js';
 import { renderLesson, learnLesson, renderLessonSents, runLessonTest, runLessonReview, runTongHop, renderCanDo } from './lesson.js';
 import { renderDocList, renderDoc } from './reader.js';
+import { openGrammarSheet } from './explain.js';
 
 const view = $('#view');
 let leave = [];
@@ -293,6 +294,8 @@ async function init() {
   document.addEventListener('click', e => {
     const ko = e.target.closest('[data-kopen]');
     if (ko) { e.preventDefault(); openKanji(ko.dataset.kopen); return; }
+    const go = e.target.closest('[data-gopen]');
+    if (go) { e.preventDefault(); openGrammarSheet(go.dataset.gopen); return; }
     const mk = e.target.closest('[data-mark]');
     if (mk) { e.preventDefault(); openMarkSheet(mk.dataset.mark); return; }
     const wo = e.target.closest('[data-wopen]');

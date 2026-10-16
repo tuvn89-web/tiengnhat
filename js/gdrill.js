@@ -119,13 +119,13 @@ const Q = {
   spot(g, e) {
     if (!Array.isArray(e.chunks) || e.bad == null) return null;
     return { kind: 'spot', tag: TAG.spot, level: g.level, prompt: `<p class="prompt-vi-s">Câu dưới đây có <b>một</b> chỗ sai. Chạm vào mảnh sai.</p>${e.vi ? viHint(e.vi) : ''}`,
-      parts: e.chunks.map(rich), bad: e.bad, fix: rich(e.fix || ''),
+      parts: e.chunks.map(rich), bad: e.bad, fix: rich(e.fix || ''), sent: e.chunks.map((c, i) => (i === e.bad ? e.fix || c : c)).join('') + '。', gram: [g.id],
       after: `<p>${rich(e.why || '')}</p>` + gHead(g), review: { id: g.id, dir: 'gp' } };
   },
   situ(g, s) {
     if (!Array.isArray(s.opts) || s.ans == null) return null;
     return { kind: 'choice', tag: TAG.situ, level: g.level, prompt: `<p class="prompt-vi-s">${rich(s.q)}</p>`, hint: 'Chọn câu nói phù hợp nhất',
-      opts: shuffle(s.opts.map((o, i) => opt(i === s.ans ? 'ok' : 'x' + i, rich(o), JP_RE.test(o)))), answer: 'ok',
+      opts: shuffle(s.opts.map((o, i) => opt(i === s.ans ? 'ok' : 'x' + i, rich(o), JP_RE.test(o)))), answer: 'ok', ...(JP_RE.test(s.opts[s.ans] || '') ? { sent: s.opts[s.ans], gram: [g.id] } : {}),
       after: `<p>${rich(s.why || '')}</p>` + gHead(g), review: { id: g.id, dir: 'gp' } };
   },
 };
