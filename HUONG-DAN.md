@@ -485,3 +485,10 @@ Nhân vật dùng lại từ N5; thêm bà chủ nhà (大家[おおや]さん) 
 - Kho hiện có **259 thẻ chữ Hán**; còn khoảng **1.080 chữ** sẽ làm tiếp theo thứ tự N4 → N3 → N2 → N1, mỗi đợt khoảng 150 chữ.
 - Ghi chú trong thẻ ưu tiên từ gặp ở xưởng, nhãn hàng và giấy tờ: 注意[ちゅうい], 立入禁止[たちいりきんし], 飲食禁止[いんしょくきんし], 品質管理[ひんしつかんり], 開封後[かいふうご], 収入印紙[しゅうにゅういんし], 住民票[じゅうみんひょう]の写[うつ]し…
 - Bản này **chỉ có dữ liệu**, không đổi mã app. Nếu chưa cập nhật v21, v22 thì gói cập nhật này đã gồm luôn các tệp của hai bản đó.
+
+## 33. Cập nhật dữ liệu v24 (18/10/2026): thêm 210 thẻ chữ Hán (xong N4, đi tiếp N3)
+
+- Thêm 7 gói `chuhan-10` … `chuhan-16` (210 chữ): xong phần N4 và đi tiếp N3 — 付, 当, 身, 全, 引, 予, 常, 記, 要, 産, 定, 申, 険, 指, 差, 給, 勤, 連, 機, 残, 込, 交, 回, 退, 便, 在, 役, 倒, 割, 欠, 速, 危, 靴, 押, 更, 次, 除, 号, 存, 容, 費, 積, 原, 束, 返, 疲, 働, 剥, 腹, 抜, 掛, 済…
+- Kho hiện có **469 thẻ chữ Hán**; còn khoảng **870 chữ** (phần còn lại của N3, rồi N2, N1).
+- Ghi chú ưu tiên chữ gặp ở xưởng và giấy tờ: 安全靴[あんぜんぐつ], 危険予知[きけんよち], 指差[ゆびさ]し確認[かくにん], 転倒[てんとう]注意[ちゅうい], 急速冷凍[きゅうそくれいとう], 骨抜[ほねぬ]き, 内容量[ないようりょう], 原材料[げんざいりょう], 消費期限[しょうひきげん], 在留[ざいりゅう]カード, 更新[こうしん], 控除[こうじょ], 確定申告[かくていしんこく]…
+- Bản này **chỉ có dữ liệu**, không đổi mã app.
