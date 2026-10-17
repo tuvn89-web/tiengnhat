@@ -442,3 +442,20 @@ Nhân vật dùng lại từ N5; thêm bà chủ nhà (大家[おおや]さん) 
   - Bài 35 *Trở thành tổ trưởng*: 〜こともある, 〜につき, 〜きり・〜っきり.
 - **Tổng N3:** 35 bài, 1.594 từ mới, 35 bài mở đầu (1.540 câu), mỗi câu có nghĩa tiếng Việt và bấm để xem giải thích.
 - Sửa cách đọc: いつの間[ま]にか (trước đây công cụ dễ đọc nhầm 間 thành あいだ).
+
+## 29. Bản v20 (17/10/2026): bản đầy đủ, cập nhật bằng GitHub Desktop, báo lỗi tải gói rõ hơn
+
+- **Bản đầy đủ.** `capnhat-v20.zip` chứa toàn bộ app và toàn bộ dữ liệu từ trước tới nay (256 gói: giáo trình N5, N4, N3; từ theo chủ đề xưởng, thủy sản, thuế – visa, Kansai, đời sống; thẻ chữ Hán; câu thực chiến). Một mình bản này dựng được app hoàn chỉnh, kể cả trên kho trống. Đã đối chiếu với mọi bản phát hành từ v5: không mất gói, không mất mục nào. Gói cũ `jlpt-n5-dongtu-01` không còn dùng, vì 25 động từ của nó đã nằm trong các gói khác.
+- **Lần đầu dùng GitHub Desktop:**
+  1. Cài GitHub Desktop, đăng nhập tài khoản đang giữ kho `tiengnhat`.
+  2. **File → Clone repository** → chọn kho `tiengnhat` → chọn thư mục trên máy → **Clone**.
+  3. Giải nén `capnhat-v20.zip`, chép **toàn bộ nội dung bên trong** (các thư mục `css`, `data`, `icons`, `js` và các file `index.html`, `sw.js`, `manifest.webmanifest`, `.nojekyll`, `HUONG-DAN.md`) vào thư mục kho vừa tải về, chọn **ghi đè** khi được hỏi.
+  4. Xoá tệp thừa `data/packs/jlpt-n5-dongtu-01.json` trong thư mục kho.
+  5. Mở GitHub Desktop: cột bên trái liệt kê các tệp đã đổi. Ô *Summary* ghi `v20` → **Commit to main** → **Push origin**.
+  6. Chờ khoảng 1–2 phút để GitHub Pages cập nhật, rồi mở app khi có mạng.
+- **Các lần cập nhật sau** chỉ gửi những tệp mới hoặc đã sửa (so với đúng những gì đang có trên kho), kèm danh sách tệp cần xoá nếu có. Cách làm: giải nén, chép đè vào thư mục kho, xoá các tệp trong danh sách, rồi Commit → Push như bước 5.
+- **Báo lỗi tải gói rõ hơn.** Khi một gói không tải được, app nói rõ lý do:
+  - *chưa có trên GitHub: thiếu tệp …* → tệp đó chưa được tải lên kho;
+  - *máy đang mất mạng* → mở app lại khi có mạng;
+  - *máy chủ báo lỗi …* → GitHub tạm trục trặc, thử lại sau ít phút;
+  - *bị hỏng* → tệp trên kho không đọc được, tải lại tệp đó.

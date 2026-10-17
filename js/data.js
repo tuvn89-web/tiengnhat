@@ -60,8 +60,14 @@ export async function loadAll() {
       if (!r.ok) throw new Error(r.status);
       const j = await r.json();
       return { ...m, src: 'builtin', items: j.items || [] };
-    } catch {
-      D.errors.push(`Không tải được gói "${m.title}" — cần mở app khi có mạng.`);
+    } catch (e) {
+      // Phân biệt: máy chủ trả 404 = trên GitHub chưa có tệp; mã lỗi khác = máy chủ lỗi; không có mã = mất mạng.
+      const st = Number(e && e.message);
+      D.errors.push(st === 404
+        ? `Gói "${m.title}" chưa có trên GitHub: thiếu tệp data/packs/${m.file} — tải tệp này lên kho rồi mở lại app.`
+        : st ? `Không tải được gói "${m.title}" (máy chủ báo lỗi ${st}) — thử mở lại app sau ít phút.`
+        : e instanceof SyntaxError ? `Gói "${m.title}" bị hỏng (tệp data/packs/${m.file} không đọc được) — tải lại tệp này lên kho.`
+        : `Không tải được gói "${m.title}" — máy đang mất mạng, cần mở app khi có mạng.`);
       return null;
     }
   }));
