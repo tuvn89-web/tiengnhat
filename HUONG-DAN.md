@@ -7,7 +7,7 @@ Gồm hai kho trên GitHub:
 | Kho | Chế độ | Chứa gì |
 |---|---|---|
 | `tiengnhat` | **Công khai** (GitHub Pages miễn phí chỉ chạy với kho công khai) | Code app + gói từ vựng, ngữ pháp. Không có thông tin cá nhân. |
-| `tiengnhat-tiendo` | **Riêng tư** | Tiến độ học, từ tự thêm. Chỉ Cậu Cả xem được. |
+| `tiengnhat-tiendo` | **Riêng tư** | Tiến độ học, từ tự thêm. Chỉ bạn xem được. |
 
 ---
 
@@ -27,7 +27,7 @@ Gồm hai kho trên GitHub:
 5. Đợi 1–2 phút. Địa chỉ app là `https://<tên-tài-khoản>.github.io/tiengnhat/`.
 
 > **Tên tài khoản GitHub** là phần đứng trước `.github.io` trong địa chỉ app, không phải tên email.
-> App của Cậu Cả ở `https://tuvn89-web.github.io/tiengnhat/`, nên tên tài khoản là **`tuvn89-web`**.
+> App của bạn ở `https://tuvn89-web.github.io/tiengnhat/`, nên tên tài khoản là **`tuvn89-web`**.
 > (Trên GitHub còn có một tài khoản cũ tên `tuvn89`. App, kho tiến độ và token đều phải nằm trong **cùng một tài khoản**: `tuvn89-web`.)
 
 ## 2. Cài lên điện thoại và máy tính
@@ -149,9 +149,9 @@ Thanh dưới cùng (điện thoại) hoặc cột trái (máy tính): **Trang c
   - Trắc nghiệm, Ghép 6 cặp (thêm kiểu: thể từ điển – thể ます, tự – tha, trái nghĩa, chữ Hán – âm Hán Việt).
   - **Ghép câu từ ví dụ:** sắp xếp mảnh thành câu ví dụ của từ đã học.
   - **Ghép câu theo ngữ pháp:** chọn mẫu, app ghép với cụm động từ đã học thành câu mới có câu dịch.
-  - **Thể động từ trong câu:** câu ngẫu nhiên ở các thể Cậu Cả đánh dấu đã học (bị động, sai khiến, sai khiến bị động, khả năng…). Chạm vào thể để bật / tắt — danh sách "thể đã học" đồng bộ sang mọi máy.
+  - **Thể động từ trong câu:** câu ngẫu nhiên ở các thể bạn đánh dấu đã học (bị động, sai khiến, sai khiến bị động, khả năng…). Chạm vào thể để bật / tắt — danh sách "thể đã học" đồng bộ sang mọi máy.
   - **Tính từ trong câu**, **Chia động từ**, **Đếm số** (trợ số từ có âm biến), Bài tập ngữ pháp, Thi thử.
-- **Thi thử:** chọn đáp án rồi bấm **Tiếp tục** mới sang câu sau; nút ← để quay lại câu cũ đổi đáp án; **Để sau** để bỏ qua tạm; mục **Danh sách câu** để nhảy tới câu bất kỳ. Câu cuối là nút **Nộp bài** (còn câu chưa làm thì app hỏi lại). Kết quả hiện cả đáp án Cậu Cả đã chọn.
+- **Thi thử:** chọn đáp án rồi bấm **Tiếp tục** mới sang câu sau; nút ← để quay lại câu cũ đổi đáp án; **Để sau** để bỏ qua tạm; mục **Danh sách câu** để nhảy tới câu bất kỳ. Câu cuối là nút **Nộp bài** (còn câu chưa làm thì app hỏi lại). Kết quả hiện cả đáp án bạn đã chọn.
 - **Chữ Hán:** chạm vào chữ kanji bất kỳ để mở thẻ chữ (câu lục bát, bộ phận, âm On/Kun…); tab Ôn chữ Hán.
 - **Furigana:** mọi chữ kanji đều có furigana, trừ phần học và kiểm tra Hán (thẻ chữ, Ôn chữ Hán, câu hỏi đọc kanji, ghép kana – kanji, bài Đếm số).
 
@@ -292,7 +292,7 @@ Sau đó, nếu trong `data/packs` trên GitHub còn file **`jlpt-n5-dongtu-01.j
 - **60 giây tốc độ**: đúng được bao nhiêu thể trong 60 giây, lưu kỷ lục (đồng bộ). **Bảng chia tự kiểm**: bảng các thể của một động từ bị che, chạm để lật rồi tự chấm Biết / Chưa.
 - **Điểm theo thể** (bảng nhiệt thể × nhóm 1 / 2 / 3): mọi bài chia thể đều ghi đúng / sai. Thể nào làm từ 5 lần mà đúng dưới 70% thì **tự vào Ôn hỗn hợp hôm nay** ("Thể hay sai — …"). Điểm đồng bộ giữa các máy.
 
-**Ô gõ tiếng Nhật** (dùng ở Gõ thể, Đếm số, Kana, katakana): gõ bằng bàn phím tiếng Nhật của máy, hoặc bật **gõ romaji tự đổi sang kana** (mặc định bật; Cài đặt → Ô gõ tiếng Nhật): kakareru → かかれる, kitte → きって, shinbun / shimbun → しんぶん, onna → おんな, chữ IN HOA → katakana (KO-HI- → コーヒー). Bàn phím tiếng Việt kiểu Telex sẽ tự đổi chữ (aa → â) — khi gõ romaji hãy chuyển sang bàn phím tiếng Anh. Chấm đúng nếu khớp kana hoặc chữ Hán; app chấm sai mà Cậu Cả chắc mình đúng thì bấm **Tôi gõ đúng — tính là đúng**.
+**Ô gõ tiếng Nhật** (dùng ở Gõ thể, Đếm số, Kana, katakana): gõ bằng bàn phím tiếng Nhật của máy, hoặc bật **gõ romaji tự đổi sang kana** (mặc định bật; Cài đặt → Ô gõ tiếng Nhật): kakareru → かかれる, kitte → きって, shinbun / shimbun → しんぶん, onna → おんな, chữ IN HOA → katakana (KO-HI- → コーヒー). Bàn phím tiếng Việt kiểu Telex sẽ tự đổi chữ (aa → â) — khi gõ romaji hãy chuyển sang bàn phím tiếng Anh. Chấm đúng nếu khớp kana hoặc chữ Hán; app chấm sai mà bạn chắc mình đúng thì bấm **Tôi gõ đúng — tính là đúng**.
 - **Đếm số** có thêm cách trả lời **Tự gõ** (7個 → ななこ). **Kana** có thêm kiểu **Nhìn chữ → gõ romaji** (chấp nhận cả kiểu si, ti, tu).
 
 ## 19. Bản v12 (12/10/2026): luyện dịch theo câu (đợt 5c)
@@ -337,19 +337,19 @@ Sau đó, nếu trong `data/packs` trên GitHub còn file **`jlpt-n5-dongtu-01.j
   5. Luyện từ — trắc nghiệm, ghép cặp, gõ từ; có ô "Chỉ từ đã đánh dấu".
   6. Luyện câu — ghép câu, thể động từ, dịch Việt ↔ Nhật bằng câu của bài.
   7. Đọc & hội thoại — bài hội thoại / bài đọc của bài. Bài chưa có thì đọc câu ví dụ và làm "Nghe – hiểu 10 câu".
-  8. Kiểm tra cuối bài — 15 câu, đạt từ 80% là bài có ✓. Câu sai tự vào sổ **Sai ở bài kiểm tra**.
+  8. Kiểm tra cuối bài — 15 câu, đạt từ 80% là bài có ✓.
 - **Viết 3 câu** ở cuối trang bài: tự viết câu theo mẫu của bài, mở câu mẫu để so, bấm Lưu (đồng bộ sang máy khác).
 - **Ôn bài cũ**: bài đã xong sẽ hiện trong Kế hoạch hôm nay sau 1, 3, 7, 14 ngày — mỗi lần 10 câu trộn cả bài.
 - **Tình huống thật**: sau mỗi 5 bài có một mục ôn tổng hợp (khi có bài hội thoại tổng hợp thì mở bài đó).
 - **Nói được gì** (nút ở Lộ trình, Trang chủ): danh sách mục tiêu các bài, bài đã xong có ✓.
 - **Kế hoạch hôm nay** có dòng "Bài N: …" dẫn thẳng tới bước tiếp theo; "Học 10 từ mới", "1 mẫu ngữ pháp mới", "3 chữ Hán" ưu tiên của bài đang học.
 
-**Sổ tay** (Kho từ → Sổ tay, hoặc Trang chủ)
+**Sổ tay** — *đã bỏ ở bản v18 (xem mục 27)*. Phần dưới chỉ để tham khảo bản cũ.
 - Nút 🔖 **Sổ tay** có ở trang bài học, thẻ từ, Kho từ, thẻ chữ Hán, và giữa lượt ôn (cạnh nút Tiếp). Bấm vào để chọn sổ hoặc tạo sổ mới ("Từ khó", "Từ xưởng"…). "Gắn sao" cũ là sổ mặc định.
 - Mỗi sổ luyện riêng được: trắc nghiệm, ghép cặp, học từ chưa học, dịch câu, ôn chữ Hán, luyện mẫu. Các trang luyện (Trắc nghiệm, Ghép cặp, Ghép câu, Luyện thể, Luyện dịch, Bài tập ngữ pháp, Ôn chữ Hán) có thêm nguồn **"Sổ: …"**.
 
 **Hội thoại & bài đọc** (Luyện tập → Hội thoại & bài đọc, hoặc bước 7 của bài)
-- 6 chế độ: **Đọc** (chạm câu để xem nghĩa, từ, ghi chú; câu Kansai có "Nói chuẩn"), **Dịch** từng câu, **Đóng vai** (app hiện câu người kia, Cậu Cả chọn hoặc gõ câu của mình), **Từ khóa**, **Câu hỏi** (đúng từ một nửa là bài có ✓), **Nghe cả bài** (chỉnh tốc độ, mỗi vai một giọng nếu máy có nhiều giọng).
+- 6 chế độ: **Đọc** (chạm câu để xem nghĩa, từ, ghi chú; câu Kansai có "Nói chuẩn"), **Dịch** từng câu, **Đóng vai** (app hiện câu người kia, bạn chọn hoặc gõ câu của mình), **Từ khóa**, **Câu hỏi** (đúng từ một nửa là bài có ✓), **Nghe cả bài** (chỉnh tốc độ, mỗi vai một giọng nếu máy có nhiều giọng).
 - Câu hội thoại dịch sai vào lịch ôn như Luyện dịch; trang Luyện dịch có thêm nguồn "Câu hội thoại, bài đọc".
 - Không có phần luyện nói / ghi âm (theo yêu cầu).
 
@@ -358,7 +358,7 @@ Sau đó, nếu trong `data/packs` trên GitHub còn file **`jlpt-n5-dongtu-01.j
 | Gói | Nội dung |
 |---|---|
 | `baihoc-n5` | 21 bài N5: chia hết 606 từ N5 và 44 mẫu ngữ pháp N5 theo chủ đề (chào hỏi, mua sắm, giờ làm, đi lại, ăn uống, chỉ thị ở xưởng, xin phép & điều cấm, sức khỏe & xin nghỉ, quy định & thủ tục…) |
-| `hoithoai-01` | 4 bài hội thoại **mẫu** để Cậu Cả duyệt giọng văn: ngày đầu ở xưởng · nhận chỉ thị · gọi điện xin nghỉ vì sốt · đồng nghiệp nói Kansai rủ đi ăn |
+| `hoithoai-01` | 4 bài hội thoại **mẫu** để bạn duyệt giọng văn: ngày đầu ở xưởng · nhận chỉ thị · gọi điện xin nghỉ vì sốt · đồng nghiệp nói Kansai rủ đi ăn |
 | `baidoc-01` | 2 bài đọc mẫu: tin nhắn LINE giờ làm · biển báo phòng thay đồ |
 
 Thẻ chữ Hán cho các chữ của 21 bài N5 sẽ làm ở đợt chữ Hán tới (chữ chưa có thẻ thì bước 3 bỏ qua chữ đó).
@@ -394,3 +394,51 @@ Thẻ chữ Hán cho các chữ của 21 bài N5 sẽ làm ở đợt chữ Hán
 | `baihoc-n5` v2 | mỗi bài có bài mở đầu đứng đầu phần Đọc & hội thoại |
 
 Các nhân vật quen thuộc: tổ trưởng 田中[たなか], tiền bối 佐藤[さとう], đồng nghiệp 鈴木[すずき], chị Maria, chị 山田[やまだ] ở văn phòng, bạn cùng phòng Minh, thực tập sinh mới Hoa.
+
+## 25. Bản v16 (17/10/2026): giáo trình N4 theo bài
+
+- **27 bài học N4** (`baihoc-n4`): mỗi bài gắn một gói ngữ pháp `nguphap-n4-NN`, đủ 671 từ N4 chia vào các bài, kèm chữ Hán của bài (ưu tiên chữ N4). Mở ở Trang chủ → Lộ trình, hoặc trang Bài học.
+- **27 bài mở đầu N4** (`modau-n4-01` … `27`): 25 hội thoại + 2 bài đọc (bài văn của Hoa ở bài 8, bài thuyết trình "Thị trấn nơi tôi sống" ở bài 24), mỗi bài 40–46 câu, tổng 1.102 câu. Mỗi câu có nghĩa tiếng Việt; ấn vào câu để xem nghĩa từng từ/cụm từ, mẫu ngữ pháp (ấn mẫu → mở bài ngữ pháp) và ghi chú. Mỗi bài có 5 câu hỏi đọc hiểu.
+- Bộ nhận diện từ trong câu nhận thêm động từ viết toàn kana (ある, いる, できる…) mà không nhầm với 〜てください, 〜てはいけません.
+
+| Gói | Nội dung |
+|---|---|
+| `baihoc-n4` v1 | 27 bài N4, mỗi bài: từ mới, ngữ pháp, chữ Hán, bài mở đầu |
+| `modau-n4-01` … `modau-n4-27` | bài mở đầu cho từng bài N4; phủ ≥50% từ mới của bài, mỗi mẫu của bài xuất hiện ít nhất 2 câu |
+
+Nhân vật dùng lại từ N5; thêm bà chủ nhà (大家[おおや]さん) ở bài 25 và y tá ở bài 23.
+
+## 26. Bản v17 (17/10/2026): bỏ biệt danh trong app, giáo trình N3 bài 1–15
+
+- **App không còn gọi "Cậu Cả".** Giao diện xưng "bạn". Trong hội thoại, vai của người học là グエン (ghi chú "Bạn"); lời kể và câu hỏi đọc hiểu gọi là "anh Nguyễn".
+- **Giáo trình N3** (`baihoc-n3`): đủ 35 bài, bài NN ứng với gói ngữ pháp `nguphap-n3-NN`.
+  - Bài 1–15 đã đủ: 613 từ mới (`jlpt-n3-10` … `24`) cộng động từ N3, và bài mở đầu (`modau-n3-01` … `15`: 12 hội thoại, 3 bài đọc, tổng 655 câu, mỗi câu có nghĩa và giải thích từng từ, mẫu ngữ pháp).
+  - Bài 16–35 tạm có ngữ pháp và động từ N3; từ mới và bài mở đầu sẽ có ở bản sau. Khi bổ sung, tiến độ các từ đã học vẫn giữ nguyên.
+- 292 động từ N3 (`jlpt-n3-01` … `09`) nay có trong danh mục.
+- Chạm vào chữ Hán trong một câu của bài mở đầu / bài đọc giờ chỉ mở bảng giải thích câu (trước đây mở thêm thẻ chữ Hán chồng lên).
+- Sửa cách đọc: 数 (かず) trong "数を数える, 箱の数"; ngày mùng 1 (一日[ついたち]) sau "…月の"; 一年間 (いちねんかん); phân số 四分の一 (よんぶんのいち).
+
+## 27. Bản v18 (17/10/2026): nút tim ở bài học, bỏ Sổ tay, lịch ôn "thuộc nhuần nhuyễn", giáo trình N3 bài 16–27
+
+- **Thông báo không che nút nữa.** Thông báo "Đã đánh dấu thuộc… / Hoàn tác" nổi lên **phía trên** thanh nút ghim ở đáy (Đã thuộc · Tiếp). Thông báo có nút Hoàn tác tự tắt sau 6 giây.
+- **Bỏ hẳn Sổ tay:** không còn nút 🔖, trang Sổ tay, ô Sổ tay ở Trang chủ / Luyện tập / Lộ trình, nguồn "Sổ: …" và "Gắn sao" trong các bài luyện, ô "Chỉ N từ đã đánh dấu". Câu sai ở bài kiểm tra cuối bài không còn tự vào sổ. Dữ liệu sổ cũ vẫn nằm trong bản sao lưu / đồng bộ (không mất), chỉ là app không dùng nữa.
+- **Nút tim ♡ ở bước 1 "Từ mới" của bài học:**
+  - Bấm ♡ ở từ muốn luyện thêm (♥ đỏ). Thanh nút dính đáy màn hình: **Luyện từ đã tim (N)** (cần từ 2 từ) và **Bỏ tim tất cả**.
+  - Màn luyện có 2 cách: **Ghép 8 cặp Việt – Nhật** (ít hơn 8 từ tim thì dùng hết) và **Trắc nghiệm** (Việt → Nhật, Nhật → Việt hoặc Trộn; 4 phương án, nhiễu lấy từ các từ tim khác trước rồi tới từ của bài; câu sai hỏi lại sau 2 câu, có giải thích từ).
+  - **Không có hồi kết**: hết màn thì sang màn mới; bộ đếm "Màn N · đúng X/Y". **Chỉ nút ✕** mới thoát — vuốt / nút Quay lại của điện thoại bị chặn (hiện nhắc "Bấm nút ✕…").
+  - **Tim giữ khi**: bấm ✕ về bài, mở thẻ từ / chữ Hán / bảng giải thích trong trang bài. **Tim mất khi**: sang trang khác (Lộ trình, bài khác, tab dưới đáy…), bắt đầu bài luyện khác của bài, tải lại hay đóng app. Tim không lưu vào máy, không đồng bộ.
+  - **Lịch ôn**: câu đúng làm mới lịch ôn của từ — từ mới hoặc đã đến hạn thì lên một hộp (mỗi chiều một lần mỗi lượt), từ chưa đến hạn thì dời hạn ôn tính lại từ hôm nay. Câu sai không làm tụt hộp. Làm đúng ít nhất một câu là tính **xong bước "Luyện từ"** của bài.
+- **Thuộc nhuần nhuyễn — thôi ôn (toàn app):** chiều nào đã ở hộp 5 mà đến lần ôn (sau 16 ngày) vẫn đúng thì không bao giờ đến hạn ôn nữa. Nếu sau này tự luyện mà làm sai mục đó thì nó về hộp 1 như thường. Nút "Đã thuộc" giờ đúng như lời nhắc: 16 ngày sau hỏi lại **một lần**.
+- **Giáo trình N3:** từ mới bài 1–28 (`jlpt-n3-10` … `37`, 1.085 từ) và bài mở đầu bài 1–27 (`modau-n3-01` … `27`: 23 hội thoại, 4 bài đọc, 1.183 câu). Bài 28–35 còn lại sẽ có ở bản sau.
+- **Sửa cách đọc số đếm** trong khoảng 50 gói cũ (công cụ soát tự động): 一週間 (いっしゅうかん), 一階 (いっかい), 二箱 / 一箱 / 百箱 (ふたはこ, ひとはこ, ひゃっぱこ), 十匹 (じゅっぴき), 三百円 (さんびゃくえん), 三十歳 (さんじゅっさい), 八十点 (はちじゅってん), 十分 khi là "10 phút" (じゅっぷん), 十日 (とおか), 十四日 (じゅうよっか), 四月 (しがつ), 九月 (くがつ), 四時半 / 六時半 (… はん), 一日中 (いちにちじゅう), 一トン (いっトン), 五十パーセント (ごじゅっパーセント). Cùng với: 富士山 (ふじさん), 塩水 (しおみず), この前 (まえ). Từ 生食用 ghi thêm: cũng đọc なましょくよう (hay nghe ở xưởng).
+
+
+## 28. Bản v19 (17/10/2026): xong giáo trình N3 (bài 28–35)
+
+- **Giáo trình N3 đủ 35 bài.** Bản này thêm từ mới bài 29–35 (`jlpt-n3-38` … `44`, 217 từ) và bài mở đầu bài 28–35 (`modau-n3-28` … `35`: 8 hội thoại, 357 câu).
+  - Bài 32 *Thông báo, quy định & giấy tờ*: 〜こと（指示）, 〜ように言う・頼む, 〜とおり（に）・〜どおり（に）. Hội thoại: nội quy ký túc xá, đổi địa chỉ ở tòa thị chính, gửi bưu kiện. Không nêu số tiền thuế, lệ phí — thủ tục thật hãy hỏi ở quầy.
+  - Bài 33 *Nói chuyện thân mật*: 〜なきゃ・〜なくちゃ, 〜ちゃいけない・〜ちゃだめ, 〜とく・〜てる. Từ khẩu ngữ (マジ, やばい, 超, めちゃくちゃ, 飯, 食う…) có ghi chú chỉ dùng với bạn thân; câu khẩu ngữ có kèm câu chuẩn lịch sự.
+  - Bài 34 *Tiền bạc & chi tiêu*: 〜だけでなく, 〜かのように, めったに〜ない.
+  - Bài 35 *Trở thành tổ trưởng*: 〜こともある, 〜につき, 〜きり・〜っきり.
+- **Tổng N3:** 35 bài, 1.594 từ mới, 35 bài mở đầu (1.540 câu), mỗi câu có nghĩa tiếng Việt và bấm để xem giải thích.
+- Sửa cách đọc: いつの間[ま]にか (trước đây công cụ dễ đọc nhầm 間 thành あいだ).

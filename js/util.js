@@ -13,7 +13,7 @@ export function isKanjiCh(ch) {
 }
 export const hasKanji = s => [...(s || '')].some(isKanjiCh);
 
-export const APP_VERSION = 'v15 · 17/10/2026'; // đổi cùng lúc với VERSION trong sw.js
+export const APP_VERSION = 'v19 · 17/10/2026'; // đổi cùng lúc với VERSION trong sw.js
 
 // Cú pháp: 漢字[よみ] — phần gắn cách đọc là chuỗi kanji liền trước "[".  [[...]] = phần ngữ pháp.
 // Dấu [ ] không đứng sau kanji, hoặc bên trong không phải kana, thì giữ nguyên như chữ thường.
@@ -217,19 +217,30 @@ export function fmtDate(t) {
   return `${p(d.getDate())}/${p(d.getMonth() + 1)}/${d.getFullYear()} ${p(d.getHours())}:${p(d.getMinutes())}`;
 }
 
+// Thông báo nổi. Nếu đang có thanh nút ghim đáy (.next-bar: Đã thuộc / Tiếp…) thì nổi lên TRÊN thanh đó, không che nút.
+function placeToasts() {
+  const box = $('#toasts');
+  const bar = [...document.querySelectorAll('.next-bar')].find(b => b.offsetParent);
+  if (!bar) { box.style.bottom = ''; return; }
+  const top = bar.getBoundingClientRect().top;
+  box.style.bottom = top > 0 && top < innerHeight ? `${Math.round(innerHeight - top + 8)}px` : '';
+}
 export function toast(msg, { action, onAction, ms = 3200 } = {}) {
   const box = $('#toasts');
   box.querySelectorAll('.toast:not(.has-action)').forEach(t => t.remove()); // thông báo mới thay thông báo cũ
   const el = document.createElement('div');
-  if (action) el.classList.add('has-action');
-  el.className = 'toast';
+  el.className = 'toast' + (action ? ' has-action' : '');
   el.setAttribute('role', 'status');
   el.innerHTML = `<span>${esc(msg)}</span>` + (action ? `<button class="btn btn-sm btn-ghost">${esc(action)}</button>` : '');
   if (action) el.querySelector('button').onclick = () => { onAction?.(); el.remove(); };
+  placeToasts();
   box.appendChild(el);
-  if (!action) setTimeout(() => el.remove(), ms);
+  // thông báo có nút (Hoàn tác) cũng tự tắt sau một lúc — không nằm mãi trên màn hình
+  setTimeout(() => el.remove(), action ? Math.max(ms, 6000) : ms);
   return el;
 }
+addEventListener('resize', () => { if ($('#toasts')?.children.length) placeToasts(); });
+addEventListener('scroll', () => { if ($('#toasts')?.children.length) placeToasts(); }, { passive: true });
 
 export function download(name, text) {
   const blob = new Blob([text], { type: 'application/json' });
@@ -289,6 +300,7 @@ export const ICON = {
   han: '<rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 9h8M12 7v10M8 13h8"/>',
   route: '<circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7.5a3.5 3.5 0 0 0 0-7h-7a3.5 3.5 0 0 1 0-7H16"/>',
   bookmark: '<path d="M6 3h12v18l-6-4-6 4z"/>',
+  heart: '<path d="M12 20s-7-4.4-9-8.6C1.6 8.4 3.4 5 6.8 5c2 0 3.4 1.1 5.2 3 1.8-1.9 3.2-3 5.2-3 3.4 0 5.2 3.4 3.8 6.4-2 4.2-9 8.6-9 8.6z"/>',
   chat: '<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/>',
   pen: '<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13 7l4 4"/>',
   help: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6"/><circle cx="12" cy="17" r=".6"/>',
