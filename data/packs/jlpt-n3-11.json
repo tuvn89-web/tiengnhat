@@ -1,0 +1,1599 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-11",
+  "title": "JLPT N3 11 – Đi chợ, mua sắm & tiền lẻ",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 2,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:市場:いちば",
+   "kana": "いちば",
+   "kanji": "市場",
+   "hv": "THỊ TRƯỜNG",
+   "vi": "chợ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "朝[あさ]早[はや]く、魚[さかな]の市場[しじょう]に行[い]きました。",
+     "vi": "Sáng sớm tôi đi chợ cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この市場[しじょう]は、野菜[やさい]が安[やす]いです。",
+     "vi": "Chợ này rau rẻ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Đọc しじょう thì là \"thị trường\" (kinh tế): 市場[しじょう]調査[ちょうさ]."
+  },
+  {
+   "id": "v:商品:しょうひん",
+   "kana": "しょうひん",
+   "kanji": "商品",
+   "hv": "THƯƠNG PHẨM",
+   "vi": "hàng hóa, sản phẩm (để bán)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この商品[しょうひん]は、来週[らいしゅう]から販売[はんばい]します。",
+     "vi": "Mặt hàng này bán từ tuần sau.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "商品[しょうひん]を棚[たな]に並[なら]べてください。",
+     "vi": "Hãy xếp hàng lên kệ.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "製品[せいひん]",
+     "vi": "sản phẩm (làm ra ở nhà máy)"
+    }
+   ],
+   "note": "商品[しょうひん] = hàng để bán; 製品[せいひん] = sản phẩm nhà máy làm ra."
+  },
+  {
+   "id": "v:価格:かかく",
+   "kana": "かかく",
+   "kanji": "価格",
+   "hv": "GIÁ CÁCH",
+   "vi": "giá cả (văn viết, nhãn hàng)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "価格[かかく]は、税込[ぜいこ]みで千円[せんえん]です。",
+     "vi": "Giá đã gồm thuế là 1.000 yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]の価格[かかく]が、去年[きょねん]より上[あ]がりました。",
+     "vi": "Giá cá tăng so với năm ngoái.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:値段:ねだん"
+   ],
+   "note": "Văn viết, nhãn hàng. Nói thường: 値段[ねだん]."
+  },
+  {
+   "id": "v:値:ね",
+   "kana": "ね",
+   "kanji": "値",
+   "hv": "TRỊ",
+   "vi": "mức giá (trong từ tăng giá, giảm giá…)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この服[ふく]は、値[あたい]が高[たか]すぎます。",
+     "vi": "Bộ đồ này giá cao quá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "来月[らいげつ]から、電気代[でんきだい]が値上[ねあ]げになります。",
+     "vi": "Từ tháng sau tiền điện tăng giá.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "値上[ねあ]げ = tăng giá; 値下[ねさ]げ = giảm giá; 値引[ねび]き = bớt giá."
+  },
+  {
+   "id": "v:代金:だいきん",
+   "kana": "だいきん",
+   "kanji": "代金",
+   "hv": "ĐẠI KIM",
+   "vi": "tiền hàng (khoản phải trả)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "代金[だいきん]は、商品[しょうひん]が届[とど]いた時[とき]に払[はら]います。",
+     "vi": "Tiền hàng trả khi hàng tới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "代金[だいきん]をまだもらっていません。",
+     "vi": "Tôi chưa nhận được tiền hàng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "代金引換[だいきんひきかえ] (代引[だいび]き) = nhận hàng trả tiền."
+  },
+  {
+   "id": "v:小銭:こぜに",
+   "kana": "こぜに",
+   "kanji": "小銭",
+   "hv": "TIỂU TIỀN",
+   "vi": "tiền lẻ (xu)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tiền",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小銭[こぜに]がないので、千円[せんえん]札[さつ]で払[はら]います。",
+     "vi": "Không có tiền lẻ nên tôi trả bằng tờ 1.000 yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "自動販売機[じどうはんばいき]は、小銭[こぜに]しか使[つか]えません。",
+     "vi": "Máy bán hàng tự động chỉ dùng được tiền xu.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:現金:げんきん",
+   "kana": "げんきん",
+   "kanji": "現金",
+   "hv": "HIỆN KIM",
+   "vi": "tiền mặt",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tiền",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この店[みせ]は、現金[げんきん]しか使[つか]えません。",
+     "vi": "Quán này chỉ dùng được tiền mặt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "現金[げんきん]で払[はら]いますか、カードで払[はら]いますか。",
+     "vi": "Anh trả tiền mặt hay thẻ?",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:札:さつ",
+   "kana": "さつ",
+   "kanji": "札",
+   "hv": "TRÁT",
+   "vi": "tiền giấy, tờ (bạc)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tiền",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一万円[いちまんえん]札[さつ]しかありません。",
+     "vi": "Tôi chỉ có tờ 10.000 yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "お札[さつ]を財布[さいふ]に入[い]れました。",
+     "vi": "Tôi bỏ tiền giấy vào ví.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Thường nói お札[さつ]. 千円[せんえん]札[さつ], 一万円[いちまんえん]札[さつ]."
+  },
+  {
+   "id": "v:硬貨:こうか",
+   "kana": "こうか",
+   "kanji": "硬貨",
+   "hv": "NGẠNH HÓA",
+   "vi": "tiền xu (văn viết)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tiền",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この機械[きかい]は、百円[ひゃくえん]硬貨[こうか]だけ使[つか]えます。",
+     "vi": "Máy này chỉ dùng xu 100 yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "硬貨[こうか]は、二十枚[にじゅうまい]まで払[はら]えます。",
+     "vi": "Tiền xu trả được tối đa 20 đồng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    "v:小銭:こぜに"
+   ]
+  },
+  {
+   "id": "v:金額:きんがく",
+   "kana": "きんがく",
+   "kanji": "金額",
+   "hv": "KIM NGẠCH",
+   "vi": "số tiền",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tiền",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "金額[きんがく]をもう一度[いちど]確認[かくにん]してください。",
+     "vi": "Hãy kiểm tra lại số tiền.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "給料[きゅうりょう]の金額[きんがく]が、いつもと違[ちが]います。",
+     "vi": "Số tiền lương khác mọi khi.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:合計:ごうけい",
+   "kana": "ごうけい",
+   "kanji": "合計",
+   "hv": "HỢP KẾ",
+   "vi": "tổng cộng",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tiền",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "合計[ごうけい]で三千五百円[さんぜんごひゃくえん]です。",
+     "vi": "Tổng cộng 3.500 yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今日[きょう]の作業時間[さぎょうじかん]を合計[ごうけい]してください。",
+     "vi": "Hãy cộng tổng giờ làm hôm nay.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "金額[きんがく]を合計[ごうけい]する",
+     "vi": "cộng tổng số tiền"
+    }
+   ]
+  },
+  {
+   "id": "v:袋:ふくろ",
+   "kana": "ふくろ",
+   "kanji": "袋",
+   "hv": "ĐẠI",
+   "vi": "túi (đựng đồ)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "袋[ふくろ]はいりますか。",
+     "vi": "Anh có cần túi không?",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "魚[さかな]を袋[ふくろ]に入[い]れて、冷凍[れいとう]します。",
+     "vi": "Cho cá vào túi rồi cấp đông.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "レジ袋[ぶくろ] = túi nilon ở quầy (thường mất phí); ゴミ袋[ぶくろ] = túi rác."
+  },
+  {
+   "id": "v:品:しな",
+   "kana": "しな",
+   "kanji": "品",
+   "hv": "PHẨM",
+   "vi": "món đồ, hàng (lịch sự)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この店[みせ]は、いい品[しな]が多[おお]いです。",
+     "vi": "Cửa hàng này nhiều đồ tốt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "その品[しな]は、売[う]り切[き]れました。",
+     "vi": "Món đó bán hết rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "品物[しなもの] = hàng hóa; 品切[しなぎ]れ = hết hàng."
+  },
+  {
+   "id": "v:両替:りょうがえ",
+   "kana": "りょうがえ",
+   "kanji": "両替",
+   "hv": "LƯỠNG THẾ",
+   "vi": "đổi tiền",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tiền",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "千円[せんえん]札[さつ]を小銭[こぜに]に両替[りょうがえ]してください。",
+     "vi": "Đổi giúp tôi tờ 1.000 yên ra tiền lẻ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "空港[くうこう]で、ドンを円[えん]に両替[りょうがえ]しました。",
+     "vi": "Tôi đổi tiền đồng sang yên ở sân bay.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "円[えん]に両替[りょうがえ]する",
+     "vi": "đổi sang yên"
+    }
+   ]
+  },
+  {
+   "id": "v:料金:りょうきん",
+   "kana": "りょうきん",
+   "kanji": "料金",
+   "hv": "LIỆU KIM",
+   "vi": "phí, cước (dịch vụ)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "電気[でんき]の料金[りょうきん]を、コンビニで払[はら]いました。",
+     "vi": "Tôi trả tiền điện ở cửa hàng tiện lợi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "バスの料金[りょうきん]は、降[お]りる時[とき]に払[はら]います。",
+     "vi": "Tiền xe buýt trả lúc xuống.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:代金:だいきん"
+   ],
+   "note": "料金[りょうきん] = phí dịch vụ (điện, nước, xe); 代金[だいきん] = tiền mua hàng."
+  },
+  {
+   "id": "v:無料:むりょう",
+   "kana": "むりょう",
+   "kanji": "無料",
+   "hv": "VÔ LIỆU",
+   "vi": "miễn phí",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "駐車場[ちゅうしゃじょう]は無料[むりょう]です。",
+     "vi": "Bãi đỗ xe miễn phí.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "相談[そうだん]は、無料[むりょう]でできます。",
+     "vi": "Tư vấn miễn phí.",
+     "ctx": "thutuc"
+    }
+   ],
+   "ant": [
+    {
+     "w": "有料[ゆうりょう]",
+     "vi": "mất phí"
+    }
+   ],
+   "syn": [
+    {
+     "w": "ただ",
+     "vi": "không mất tiền (khẩu ngữ)"
+    }
+   ]
+  },
+  {
+   "id": "v:中古:ちゅうこ",
+   "kana": "ちゅうこ",
+   "kanji": "中古",
+   "hv": "TRUNG CỔ",
+   "vi": "đồ cũ, hàng đã qua sử dụng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "中古[ちゅうこ]の自転車[じてんしゃ]を買[か]いました。",
+     "vi": "Tôi mua xe đạp cũ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "中古[ちゅうこ]の車[くるま]は安[やす]いですが、よく調[しら]べたほうがいいです。",
+     "vi": "Xe cũ thì rẻ, nhưng nên xem kỹ.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "新品[しんぴん]",
+     "vi": "hàng mới"
+    }
+   ]
+  },
+  {
+   "id": "v:高価:こうか",
+   "kana": "こうか",
+   "kanji": "高価",
+   "hv": "CAO GIÁ",
+   "vi": "đắt tiền",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "高価[こうか]な物[もの]は、ロッカーに入[い]れてください。",
+     "vi": "Đồ đắt tiền hãy bỏ vào tủ khóa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "あまり高価[こうか]なプレゼントは、困[こま]ります。",
+     "vi": "Quà quá đắt thì tôi ngại.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "安価[あんか]",
+     "vi": "rẻ"
+    }
+   ]
+  },
+  {
+   "id": "v:支払い:しはらい",
+   "kana": "しはらい",
+   "kanji": "支払い",
+   "kf": "支払[しはら]い",
+   "hv": "CHI PHẤT",
+   "vi": "việc thanh toán, trả tiền",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tiền",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "支払[しはら]いは、来月[らいげつ]の十日[とおか]までです。",
+     "vi": "Hạn thanh toán là ngày 10 tháng sau.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "カードでの支払[しはら]いもできます。",
+     "vi": "Cũng trả được bằng thẻ.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:支払う:しはらう"
+   ]
+  },
+  {
+   "id": "v:精算:せいさん",
+   "kana": "せいさん",
+   "kanji": "精算",
+   "hv": "TINH TOÁN",
+   "vi": "thanh toán bù, quyết toán",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tiền",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "乗[の]り越[こ]した分[ぶん]を、駅[えき]で精算[せいさん]しました。",
+     "vi": "Tôi trả bù phần đi quá ga ở nhà ga.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "出張[しゅっちょう]の交通費[こうつうひ]を、会社[かいしゃ]で精算[せいさん]します。",
+     "vi": "Quyết toán tiền đi lại công tác ở công ty.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "運賃[うんちん]を精算[せいさん]する",
+     "vi": "trả bù tiền vé"
+    }
+   ],
+   "note": "精算機[せいさんき] = máy trả bù tiền vé ở ga."
+  },
+  {
+   "id": "v:盛り:もり",
+   "kana": "もり",
+   "kanji": "盛り",
+   "kf": "盛[も]り",
+   "hv": "THỊNH",
+   "vi": "khẩu phần (đầy, ít…)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ăn uống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大盛[おおも]りのご飯[はん]をください。",
+     "vi": "Cho tôi phần cơm lớn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この店[みせ]は、盛[も]りがいいですね。",
+     "vi": "Quán này cho nhiều nhỉ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "大盛[おおも]り = phần lớn; 並盛[なみも]り = phần thường; 盛[も]る = xới, bày (thức ăn ra đĩa)."
+  },
+  {
+   "id": "v:並:なみ",
+   "kana": "なみ",
+   "kanji": "並",
+   "hv": "TỊNH",
+   "vi": "loại thường, cỡ vừa",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ăn uống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "牛丼[ぎゅうどん]の並[なみ]を一[ひと]つください。",
+     "vi": "Cho một bát cơm bò cỡ thường.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "並[なみ]と大盛[おおも]りは、五十円[ごじゅうえん]違[ちが]います。",
+     "vi": "Cỡ thường và cỡ lớn chênh 50 yên.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:盛り:もり"
+   ]
+  },
+  {
+   "id": "v:ちょうだい:ちょうだい",
+   "kana": "ちょうだい",
+   "kanji": "",
+   "hv": "",
+   "vi": "cho tôi (thân mật; cũng là \"nhận\" khiêm nhường)",
+   "pos": "other",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ăn uống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お水[みず]、ちょうだい。",
+     "vi": "Cho chị cốc nước.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "お菓子[かし]をちょうだいしました。",
+     "vi": "Tôi đã nhận bánh ạ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Thân mật: 〜ちょうだい = 〜ください (trẻ con, phụ nữ hay dùng). Khiêm nhường: ちょうだいする = nhận. Chữ Hán: 頂戴[ちょうだい]."
+  },
+  {
+   "id": "v:販売:はんばい",
+   "kana": "はんばい",
+   "kanji": "販売",
+   "hv": "PHIẾN MẠI",
+   "vi": "bán hàng (kinh doanh)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このお弁当[べんとう]は、昼[ひる]だけ販売[はんばい]しています。",
+     "vi": "Cơm hộp này chỉ bán buổi trưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい商品[しょうひん]の販売[はんばい]が始[はじ]まりました。",
+     "vi": "Mặt hàng mới đã bắt đầu bán.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "商品[しょうひん]を販売[はんばい]する",
+     "vi": "bán hàng"
+    }
+   ],
+   "note": "自動販売機[じどうはんばいき] (自販機[じはんき]) = máy bán hàng tự động."
+  },
+  {
+   "id": "v:宣伝:せんでん",
+   "kana": "せんでん",
+   "kanji": "宣伝",
+   "hv": "TUYÊN TRUYỀN",
+   "vi": "quảng bá, quảng cáo (việc làm)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "テレビで新[あたら]しい商品[しょうひん]を宣伝[せんでん]しています。",
+     "vi": "Đang quảng cáo sản phẩm mới trên ti vi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "店[みせ]の宣伝[せんでん]のために、チラシを配[くば]りました。",
+     "vi": "Để quảng bá cửa hàng, chúng tôi phát tờ rơi.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "商品[しょうひん]を宣伝[せんでん]する",
+     "vi": "quảng cáo sản phẩm"
+    }
+   ],
+   "confuse": [
+    "v:広告:こうこく"
+   ]
+  },
+  {
+   "id": "v:広告:こうこく",
+   "kana": "こうこく",
+   "kanji": "広告",
+   "hv": "QUẢNG CÁO",
+   "vi": "(tờ, mục) quảng cáo",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新聞[しんぶん]の広告[こうこく]を見[み]て、応募[おうぼ]しました。",
+     "vi": "Tôi xem mục quảng cáo trên báo rồi ứng tuyển.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "スマホを見[み]ると、広告[こうこく]がたくさん出[で]ます。",
+     "vi": "Xem điện thoại là thấy đầy quảng cáo.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "広告[こうこく] = bản quảng cáo (vật); 宣伝[せんでん] = hoạt động quảng bá."
+  },
+  {
+   "id": "v:人気:にんき",
+   "kana": "にんき",
+   "kanji": "人気",
+   "hv": "NHÂN KHÍ",
+   "vi": "được ưa chuộng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このお弁当[べんとう]は、とても人気[にんき]があります。",
+     "vi": "Cơm hộp này rất được ưa chuộng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "人気[にんき]の店[みせ]は、いつも込[こ]んでいます。",
+     "vi": "Quán đông khách lúc nào cũng chật.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Đừng nhầm 人気[ひとけ] = bóng người (人気[ひとけ]がない = vắng người)."
+  },
+  {
+   "id": "v:流行:りゅうこう",
+   "kana": "りゅうこう",
+   "kanji": "流行",
+   "hv": "LƯU HÀNG",
+   "vi": "sự thịnh hành, mốt; (bệnh) lây lan",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今年[ことし]は、この色[いろ]が流行[りゅうこう]しています。",
+     "vi": "Năm nay màu này đang thịnh hành.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "インフルエンザが流行[りゅうこう]しています。",
+     "vi": "Cúm đang lây lan.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "風邪[かぜ]が流行[りゅうこう]する",
+     "vi": "cảm lan rộng"
+    }
+   ],
+   "rel": [
+    "v:流行る:はやる"
+   ]
+  },
+  {
+   "id": "v:お洒落:おしゃれ",
+   "kana": "おしゃれ",
+   "kanji": "お洒落",
+   "kf": "お洒落[しゃれ]",
+   "hv": "SÁI LẠC",
+   "vi": "ăn mặc đẹp, sành điệu",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "鈴木[すずき]さんは、いつもお洒落[しゃれ]ですね。",
+     "vi": "Anh Suzuki lúc nào cũng ăn mặc đẹp nhỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "駅[えき]の前[まえ]に、お洒落[しゃれ]なカフェができました。",
+     "vi": "Trước ga mới mở một quán cà phê sành điệu.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Thường viết おしゃれ."
+  },
+  {
+   "id": "v:バッグ:バッグ",
+   "kana": "バッグ",
+   "kanji": "",
+   "hv": "",
+   "vi": "túi xách",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しいバッグを買[か]いました。",
+     "vi": "Tôi mua túi xách mới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "バッグは、ロッカーに入[い]れてください。",
+     "vi": "Túi xách hãy để vào tủ khóa.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:鞄:かばん"
+   ],
+   "goc": "bag (tiếng Anh)"
+  },
+  {
+   "id": "v:ベルト:ベルト",
+   "kana": "ベルト",
+   "kanji": "",
+   "hv": "",
+   "vi": "thắt lưng; dây curoa",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ズボンが大[おお]きいので、ベルトをしています。",
+     "vi": "Quần rộng nên tôi đeo thắt lưng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ベルトコンベアーに魚[さかな]を乗[の]せてください。",
+     "vi": "Hãy đặt cá lên băng chuyền.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "belt (tiếng Anh)",
+   "note": "ベルトコンベアー = băng chuyền (ở xưởng)."
+  },
+  {
+   "id": "v:試し:ためし",
+   "kana": "ためし",
+   "kanji": "試し",
+   "kf": "試[ため]し",
+   "hv": "THÍ",
+   "vi": "thử (cho biết)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "試[ため]しに、一[ひと]つ食[た]べてみてください。",
+     "vi": "Ăn thử một cái xem.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "お試[ため]しの商品[しょうひん]は、無料[むりょう]です。",
+     "vi": "Hàng dùng thử thì miễn phí.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:試す:ためす"
+   ],
+   "note": "試[ため]しに〜てみる = thử làm … xem sao."
+  },
+  {
+   "id": "v:偶然:ぐうぜん",
+   "kana": "ぐうぜん",
+   "kanji": "偶然",
+   "hv": "NGẪU NHIÊN",
+   "vi": "tình cờ",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gặp gỡ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "スーパーで、偶然[ぐうぜん]先生[せんせい]に会[あ]いました。",
+     "vi": "Tôi tình cờ gặp thầy ở siêu thị.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "偶然[ぐうぜん]、同[おな]じ服[ふく]を着[き]ていました。",
+     "vi": "Tình cờ mặc cùng bộ đồ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "偶然[ぐうぜん]に cũng được. Danh từ: それは偶然[ぐうぜん]ですね (trùng hợp nhỉ)."
+  },
+  {
+   "id": "v:ばったり:ばったり",
+   "kana": "ばったり",
+   "kanji": "",
+   "hv": "",
+   "vi": "(gặp) bất chợt, đụng mặt",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gặp gỡ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "駅[えき]で、ばったり友達[ともだち]に会[あ]った。",
+     "vi": "Ở ga tôi bất ngờ gặp bạn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "市場[しじょう]で、田中[たなか]さんとばったり会[あ]いました。",
+     "vi": "Ở chợ tôi bất chợt gặp anh Tanaka.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Hay đi với 会[あ]う: ばったり会[あ]う = tình cờ đụng mặt."
+  },
+  {
+   "id": "v:様々:さまざま",
+   "kana": "さまざま",
+   "kanji": "様々",
+   "hv": "DẠNG DẠNG",
+   "vi": "đủ loại, nhiều kiểu",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この店[みせ]には、様々[さまざま]な魚[さかな]があります。",
+     "vi": "Cửa hàng này có đủ loại cá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]には、様々[さまざま]な国[くに]の人[ひと]が働[はたら]いています。",
+     "vi": "Nhà máy có người của nhiều nước làm việc.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    {
+     "w": "色々[いろいろ]",
+     "vi": "nhiều loại"
+    }
+   ],
+   "note": "Văn viết hơn 色々[いろいろ]."
+  },
+  {
+   "id": "v:たっぷり:たっぷり",
+   "kana": "たっぷり",
+   "kanji": "",
+   "hv": "",
+   "vi": "đầy, nhiều (thoải mái)",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ăn uống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ご飯[はん]にカレーをたっぷりかけます。",
+     "vi": "Rưới cà ri đầy lên cơm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "時間[じかん]はたっぷりあるから、ゆっくりしてね。",
+     "vi": "Thời gian còn thoải mái nên cứ thong thả.",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:素敵:すてき",
+   "kana": "すてき",
+   "kanji": "素敵",
+   "hv": "TỐ ĐỊCH",
+   "vi": "tuyệt, xinh xắn",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "素敵[すてき]なバッグですね。",
+     "vi": "Túi xách đẹp quá.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "素敵[すてき]な人[ひと]に会[あ]いました。",
+     "vi": "Tôi đã gặp một người tuyệt vời.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Thường viết すてき."
+  },
+  {
+   "id": "v:デザート:デザート",
+   "kana": "デザート",
+   "kanji": "",
+   "hv": "",
+   "vi": "món tráng miệng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ăn uống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "デザートに、アイスを食[た]べました。",
+     "vi": "Tráng miệng tôi ăn kem.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "このセットには、デザートも付[つ]いています。",
+     "vi": "Suất này có cả tráng miệng.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "dessert (tiếng Anh)"
+  },
+  {
+   "id": "v:カード:カード",
+   "kana": "カード",
+   "kanji": "",
+   "hv": "",
+   "vi": "thẻ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tiền",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "カードで払[はら]ってもいいですか。",
+     "vi": "Tôi trả bằng thẻ được không?",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "ポイントカードはお持[も]ちですか。",
+     "vi": "Quý khách có thẻ tích điểm không ạ?",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "card (tiếng Anh)",
+   "note": "クレジットカード = thẻ tín dụng; ポイントカード = thẻ tích điểm."
+  },
+  {
+   "id": "v:会計:かいけい",
+   "kana": "かいけい",
+   "kanji": "会計",
+   "hv": "HỘI KẾ",
+   "vi": "tính tiền (ở quầy); kế toán",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tiền",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お会計[かいけい]は、こちらです。",
+     "vi": "Quầy thanh toán ở đây ạ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "すみません、お会計[かいけい]をお願[ねが]いします。",
+     "vi": "Xin lỗi, cho tôi thanh toán.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Ở quán ăn: お会計[かいけい]お願[ねが]いします = tính tiền giúp tôi."
+  },
+  {
+   "id": "v:柄:がら",
+   "kana": "がら",
+   "kanji": "柄",
+   "hv": "BÍNH",
+   "vi": "hoa văn (vải, áo)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "花[はな]の柄[がら]のシャツを買[か]いました。",
+     "vi": "Tôi mua áo sơ mi họa tiết hoa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この柄[がら]は、ちょっと派手[はで]ですね。",
+     "vi": "Hoa văn này hơi sặc sỡ nhỉ.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:模様:もよう"
+   ],
+   "note": "Còn nghĩa \"vóc dáng, tính cách\": 大柄[おおがら] = to con."
+  },
+  {
+   "id": "v:革:かわ",
+   "kana": "かわ",
+   "kanji": "革",
+   "hv": "CÁCH",
+   "vi": "da (thuộc)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "革[かわ]の靴[くつ]は、雨[あめ]の日[ひ]に履[は]きません。",
+     "vi": "Giày da tôi không đi ngày mưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この財布[さいふ]は、本物[ほんもの]の革[かわ]です。",
+     "vi": "Cái ví này là da thật.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:皮:かわ"
+   ],
+   "note": "革[かわ] = da đã thuộc (giày, ví); 皮[かわ] = da, vỏ tự nhiên (da cá, vỏ quả)."
+  },
+  {
+   "id": "v:勘定:かんじょう",
+   "kana": "かんじょう",
+   "kanji": "勘定",
+   "hv": "KHÁM ĐỊNH",
+   "vi": "tính tiền (ở quán)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tiền",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お勘定[かんじょう]、お願[ねが]いします。",
+     "vi": "Tính tiền giúp tôi.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "お金[かね]を勘定[かんじょう]してから、レジを閉[し]めます。",
+     "vi": "Đếm tiền xong rồi đóng quầy.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "お金[かね]を勘定[かんじょう]する",
+     "vi": "đếm tiền"
+    }
+   ],
+   "syn": [
+    "v:会計:かいけい"
+   ]
+  },
+  {
+   "id": "v:グラス:グラス",
+   "kana": "グラス",
+   "kanji": "",
+   "hv": "",
+   "vi": "ly thủy tinh, ly rượu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ăn uống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ワインをグラスに注[そそ]ぎます。",
+     "vi": "Rót rượu vang vào ly.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "グラスが割[わ]れたので、気[き]をつけてください。",
+     "vi": "Ly vỡ rồi, cẩn thận nhé.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "glass (tiếng Anh)"
+  },
+  {
+   "id": "v:好み:このみ",
+   "kana": "このみ",
+   "kanji": "好み",
+   "kf": "好[この]み",
+   "hv": "HẢO",
+   "vi": "khẩu vị, gu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ăn uống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "辛[から]さは、お好[この]みで選[えら]べます。",
+     "vi": "Độ cay chọn theo khẩu vị.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この服[ふく]は、私[わたし]の好[この]みじゃありません。",
+     "vi": "Bộ đồ này không hợp gu tôi.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:好む:このむ"
+   ],
+   "note": "お好[この]み焼[や]き = bánh xèo Nhật (theo ý thích)."
+  },
+  {
+   "id": "v:セット:セット",
+   "kana": "セット",
+   "kanji": "",
+   "hv": "",
+   "vi": "suất (combo); bộ; cài đặt",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ăn uống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ランチセットを二[ふた]つください。",
+     "vi": "Cho hai suất trưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "タイマーを十分[じゅっぷん]にセットしてください。",
+     "vi": "Hãy cài hẹn giờ 10 phút.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "タイマーをセットする",
+     "vi": "cài hẹn giờ"
+    }
+   ],
+   "goc": "set (tiếng Anh)"
+  },
+  {
+   "id": "v:模様:もよう",
+   "kana": "もよう",
+   "kanji": "模様",
+   "hv": "MÔ DẠNG",
+   "vi": "hoa văn; tình hình",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "白地[しろじ]に青[あお]い模様[もよう]のお皿[さら]です。",
+     "vi": "Đĩa nền trắng hoa văn xanh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "明日[あした]は雨[あめ]の模様[もよう]です。",
+     "vi": "Ngày mai có vẻ mưa.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Nghĩa 2 (tình hình, có vẻ) hay gặp trong dự báo thời tiết, tin tức."
+  },
+  {
+   "id": "v:袖:そで",
+   "kana": "そで",
+   "kanji": "袖",
+   "hv": "TỤ",
+   "vi": "tay áo",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "作業[さぎょう]の時[とき]は、袖[そで]をまくってください。",
+     "vi": "Khi làm việc hãy xắn tay áo lên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "長袖[ながそで]のシャツを買[か]いました。",
+     "vi": "Tôi mua áo sơ mi dài tay.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "長袖[ながそで] = dài tay; 半袖[はんそで] = ngắn tay."
+  },
+  {
+   "id": "v:注文:ちゅうもん",
+   "kana": "ちゅうもん",
+   "kanji": "注文",
+   "hv": "CHÚ VĂN",
+   "vi": "đặt (hàng, món)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ラーメンを二[ふた]つ注文[ちゅうもん]しました。",
+     "vi": "Tôi gọi hai bát ramen.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "お客様[きゃくさま]から、追加[ついか]の注文[ちゅうもん]が来[き]ました。",
+     "vi": "Khách đặt thêm hàng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "料理[りょうり]を注文[ちゅうもん]する",
+     "vi": "gọi món"
+    }
+   ],
+   "note": "ご注文[ちゅうもん]は？ = Quý khách gọi gì ạ?"
+  },
+  {
+   "id": "v:布:ぬの",
+   "kana": "ぬの",
+   "kanji": "布",
+   "hv": "BỐ",
+   "vi": "vải",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "きれいな布[ぬの]で、テーブルを拭[ふ]きます。",
+     "vi": "Lau bàn bằng vải sạch.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "布[ぬの]のバッグを使[つか]っています。",
+     "vi": "Tôi dùng túi vải.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:はさみ:はさみ",
+   "kana": "はさみ",
+   "kanji": "",
+   "hv": "",
+   "vi": "cái kéo",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "はさみで袋[ふくろ]を切[き]ります。",
+     "vi": "Cắt túi bằng kéo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "使[つか]ったはさみは、元[もと]の場所[ばしょ]に戻[もど]してください。",
+     "vi": "Kéo dùng xong hãy để lại chỗ cũ.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:ぴったり:ぴったり",
+   "kana": "ぴったり",
+   "kanji": "",
+   "hv": "",
+   "vi": "vừa khít, vừa đúng",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この靴[くつ]は、サイズがぴったりです。",
+     "vi": "Đôi giày này vừa khít cỡ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "合計[ごうけい]は、ぴったり千円[せんえん]です。",
+     "vi": "Tổng cộng vừa đúng 1.000 yên.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:服装:ふくそう",
+   "kana": "ふくそう",
+   "kanji": "服装",
+   "hv": "PHỤC TRANG",
+   "vi": "cách ăn mặc, y phục",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面接[めんせつ]には、きちんとした服装[ふくそう]で行[い]きましょう。",
+     "vi": "Đi phỏng vấn hãy ăn mặc chỉnh tề.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "工場[こうじょう]では、決[き]められた服装[ふくそう]で作業[さぎょう]します。",
+     "vi": "Ở nhà máy làm việc với trang phục quy định.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:デザイン:デザイン",
+   "kana": "デザイン",
+   "kanji": "",
+   "hv": "",
+   "vi": "thiết kế, kiểu dáng",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quần áo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このかばんは、デザインがいいですね。",
+     "vi": "Cái cặp này kiểu dáng đẹp nhỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しいラベルをデザインしました。",
+     "vi": "Tôi đã thiết kế nhãn mới.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ラベルをデザインする",
+     "vi": "thiết kế nhãn"
+    }
+   ],
+   "goc": "design (tiếng Anh)"
+  }
+ ]
+}

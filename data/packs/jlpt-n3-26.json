@@ -1,0 +1,1058 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-26",
+  "title": "JLPT N3 26 – Làm thay, chia việc trong tổ",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:代理:だいり",
+   "kana": "だいり",
+   "kanji": "代理",
+   "hv": "ĐẠI LÝ",
+   "vi": "(người) đại diện, làm thay",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班[はん]長[ちょう]の代理[だいり]で、会議[かいぎ]に出[で]ました。",
+     "vi": "Tôi dự họp thay tổ trưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "代理[だいり]の人[ひと]でも、書類[しょるい]を出[だ]せます。",
+     "vi": "Người đại diện cũng nộp được giấy tờ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "代理人[だいりにん] = người đại diện (theo ủy quyền)."
+  },
+  {
+   "id": "v:交換:こうかん",
+   "kana": "こうかん",
+   "kanji": "交換",
+   "hv": "GIAO HOÁN",
+   "vi": "trao đổi; thay mới (định kỳ)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手袋[てぶくろ]は、一[いち]時間[じかん]ごとに交換[こうかん]してください。",
+     "vi": "Găng tay hãy thay mỗi tiếng một lần.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "友達[ともだち]と、連絡先[れんらくさき]を交換[こうかん]しました。",
+     "vi": "Tôi trao đổi thông tin liên lạc với bạn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手袋[てぶくろ]を交換[こうかん]する",
+     "vi": "thay găng tay"
+    }
+   ]
+  },
+  {
+   "id": "v:代える:かえる",
+   "kana": "かえる",
+   "kanji": "代える",
+   "kf": "代[か]える",
+   "hv": "ĐẠI",
+   "vi": "thế chỗ (đưa người, vật khác vào)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "担当[たんとう]を、佐藤[さとう]さんに代[か]えます。",
+     "vi": "Đổi người phụ trách sang anh Sato.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "健康[けんこう]は、お金[かね]に代[か]えられません。",
+     "vi": "Sức khỏe không đổi được bằng tiền.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "担当[たんとう]を代[か]える",
+     "vi": "thay người phụ trách"
+    }
+   ],
+   "confuse": [
+    "v:変える:かえる"
+   ],
+   "pair": "v:代わる:かわる",
+   "note": "変[か]える = thay đổi (tính chất); 代[か]える / 替[か]える = thay thế bằng cái khác."
+  },
+  {
+   "id": "v:替える:かえる",
+   "kana": "かえる",
+   "kanji": "替える",
+   "kf": "替[か]える",
+   "hv": "THẾ",
+   "vi": "thay, đổi (cái mới, cái khác)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "汚[よご]れた水[みず]を、新[あたら]しい水[みず]に替[か]えてください。",
+     "vi": "Hãy thay nước bẩn bằng nước mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "千[せん]円[えん]札[さつ]を、百円玉[ひゃくえんだま]に替[か]えました。",
+     "vi": "Tôi đổi tờ 1.000 yên ra xu 100 yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "作業[さぎょう]着[ちゃく]に着替[きが]えてください。",
+     "vi": "Hãy thay đồ lao động.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]を替[か]える",
+     "vi": "thay nước"
+    }
+   ],
+   "syn": [
+    "v:代える:かえる"
+   ],
+   "note": "着替[きが]える = thay quần áo; 両替[りょうがえ] = đổi tiền."
+  },
+  {
+   "id": "v:代わる:かわる",
+   "kana": "かわる",
+   "kanji": "代わる",
+   "kf": "代[か]わる",
+   "hv": "ĐẠI",
+   "vi": "thay (cho ai), đổi phiên",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "田中[たなか]さんに代[か]わって、私[わたし]が説明[せつめい]します。",
+     "vi": "Tôi sẽ giải thích thay anh Tanaka.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "疲[つか]れたら、代[か]わりますよ。",
+     "vi": "Mệt thì tôi thay cho.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "電話[でんわ]を代[か]わりました。グエンです。",
+     "vi": "Tôi nghe máy thay đây, Nguyễn đây ạ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人[ひと]に代[か]わる",
+     "vi": "thay cho người khác"
+    }
+   ],
+   "confuse": [
+    "v:変わる:かわる"
+   ],
+   "pair": "v:代える:かえる"
+  },
+  {
+   "id": "v:手伝い:てつだい",
+   "kana": "てつだい",
+   "kanji": "手伝い",
+   "kf": "手伝[てつだ]い",
+   "hv": "THỦ TRUYỀN",
+   "vi": "sự giúp đỡ; người giúp",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "引[ひ]っ越[こ]しの手伝[てつだ]いを頼[たの]みました。",
+     "vi": "Tôi nhờ giúp chuyển nhà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "何[なに]か手伝[てつだ]いが必要[ひつよう]ですか。",
+     "vi": "Có cần giúp gì không?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:手伝う:てつだう"
+   ],
+   "note": "お手伝[てつだ]いしましょうか = Để tôi giúp nhé (lịch sự)."
+  },
+  {
+   "id": "v:協力:きょうりょく",
+   "kana": "きょうりょく",
+   "kanji": "協力",
+   "hv": "HIỆP LỰC",
+   "vi": "hợp tác, chung sức",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "みんなで協力[きょうりょく]して、早[はや]く終[お]わらせましょう。",
+     "vi": "Mọi người chung sức làm xong sớm nào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "アンケートに協力[きょうりょく]してください。",
+     "vi": "Xin hợp tác trả lời khảo sát.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "〜に協力[きょうりょく]する",
+     "vi": "hợp tác với …"
+    }
+   ]
+  },
+  {
+   "id": "v:共同:きょうどう",
+   "kana": "きょうどう",
+   "kanji": "共同",
+   "hv": "CỘNG ĐỒNG",
+   "vi": "chung (dùng chung, làm chung)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寮[りょう]の台所[だいどころ]は、共同[きょうどう]です。",
+     "vi": "Bếp ký túc xá dùng chung.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "二[ふた]つの会社[かいしゃ]が、共同[きょうどう]で商品[しょうひん]を作[つく]りました。",
+     "vi": "Hai công ty cùng nhau làm sản phẩm.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "共同生活[きょうどうせいかつ] = sống chung."
+  },
+  {
+   "id": "v:全員:ぜんいん",
+   "kana": "ぜんいん",
+   "kanji": "全員",
+   "hv": "TOÀN VIÊN",
+   "vi": "toàn bộ mọi người",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "全員[ぜんいん]、集[あつ]まりましたか。",
+     "vi": "Mọi người tập trung đủ chưa?",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "全員[ぜんいん]で、写真[しゃしん]を撮[と]りましょう。",
+     "vi": "Cả nhóm cùng chụp ảnh nhé.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:一人一人:ひとりひとり",
+   "kana": "ひとりひとり",
+   "kanji": "一人一人",
+   "hv": "NHẤT NHÂN NHẤT NHÂN",
+   "vi": "từng người một",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一人一人[ひとりひとり]に、仕事[しごと]を説明[せつめい]します。",
+     "vi": "Giải thích công việc cho từng người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一人一人[ひとりひとり]の意見[いけん]が、大切[たいせつ]です。",
+     "vi": "Ý kiến của từng người đều quan trọng.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:それぞれ:それぞれ"
+   ]
+  },
+  {
+   "id": "v:班:はん",
+   "kana": "はん",
+   "kanji": "班",
+   "hv": "BAN",
+   "vi": "tổ (đơn vị trong xưởng)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]は、A班[はん]で働[はたら]いています。",
+     "vi": "Tôi làm ở tổ A.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "班[はん]ごとに、休憩[きゅうけい]の時間[じかん]が違[ちが]います。",
+     "vi": "Mỗi tổ giờ nghỉ khác nhau.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "班長[はんちょう] = tổ trưởng."
+  },
+  {
+   "id": "v:組:くみ",
+   "kana": "くみ",
+   "kanji": "組",
+   "hv": "TỔ",
+   "vi": "cặp nhóm; lớp (học)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "二人[ふたり]一[いち]組[くみ]で、作業[さぎょう]してください。",
+     "vi": "Hãy làm việc theo cặp hai người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一[いち]組[くみ]のお皿[さら]を買[か]いました。",
+     "vi": "Tôi mua một bộ đĩa.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "〜組[ぐみ]: nhóm …; lớp học: 一年[いちねん]二組[にくみ] = lớp 1-2."
+  },
+  {
+   "id": "v:チーム:チーム",
+   "kana": "チーム",
+   "kanji": "",
+   "hv": "",
+   "vi": "đội (nhóm làm việc, thể thao)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "チームで、目標[もくひょう]を決[き]めましょう。",
+     "vi": "Cả đội cùng đặt mục tiêu nào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "サッカーのチームに入[はい]りました。",
+     "vi": "Tôi vào đội bóng đá.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "team (tiếng Anh)",
+   "note": "チームワーク = tinh thần đồng đội."
+  },
+  {
+   "id": "v:メンバー:メンバー",
+   "kana": "メンバー",
+   "kanji": "",
+   "hv": "",
+   "vi": "thành viên",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しいメンバーを紹介[しょうかい]します。",
+     "vi": "Xin giới thiệu thành viên mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "チームのメンバーは、五[ご]人[にん]です。",
+     "vi": "Thành viên đội có 5 người.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "member (tiếng Anh)"
+  },
+  {
+   "id": "v:仲間:なかま",
+   "kana": "なかま",
+   "kanji": "仲間",
+   "hv": "TRỌNG GIAN",
+   "vi": "anh em cùng hội, đồng bọn",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "職場[しょくば]の仲間[なかま]と、お花見[はなみ]に行[い]きました。",
+     "vi": "Tôi đi ngắm hoa với các bạn đồng nghiệp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "困[こま]った時[とき]は、仲間[なかま]に相談[そうだん]しましょう.",
+     "vi": "Khó khăn thì bàn với anh em.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:同僚:どうりょう",
+   "kana": "どうりょう",
+   "kanji": "同僚",
+   "hv": "ĐỒNG LIÊU",
+   "vi": "đồng nghiệp",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "同僚[どうりょう]に、仕事[しごと]を手伝[てつだ]ってもらいました。",
+     "vi": "Tôi được đồng nghiệp giúp việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "同僚[どうりょう]の結婚式[けっこんしき]に招待[しょうたい]されました。",
+     "vi": "Tôi được mời dự đám cưới đồng nghiệp.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:仲間:なかま"
+   ]
+  },
+  {
+   "id": "v:上司:じょうし",
+   "kana": "じょうし",
+   "kanji": "上司",
+   "hv": "THƯỢNG TY",
+   "vi": "cấp trên",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "上司[じょうし]に、報告[ほうこく]しなければなりません。",
+     "vi": "Phải báo cáo cấp trên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "上司[じょうし]の許可[きょか]をもらいました。",
+     "vi": "Tôi đã được cấp trên cho phép.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "部下[ぶか]",
+     "vi": "cấp dưới"
+    }
+   ]
+  },
+  {
+   "id": "v:後輩:こうはい",
+   "kana": "こうはい",
+   "kanji": "後輩",
+   "hv": "HẬU BỐI",
+   "vi": "đàn em, hậu bối",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "後輩[こうはい]に、仕事[しごと]を教[おし]えています。",
+     "vi": "Tôi đang dạy việc cho đàn em.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "後輩[こうはい]の面倒[めんどう]を見[み]るのも、先輩[せんぱい]の仕事[しごと]です。",
+     "vi": "Chăm lo đàn em cũng là việc của tiền bối.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:先輩:せんぱい"
+   ]
+  },
+  {
+   "id": "v:交代:こうたい",
+   "kana": "こうたい",
+   "kanji": "交代",
+   "hv": "GIAO ĐẠI",
+   "vi": "thay phiên, đổi ca",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "二[に]時間[じかん]ごとに、交代[こうたい]で休[やす]みます。",
+     "vi": "Cứ hai tiếng thay phiên nhau nghỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "夜勤[やきん]の人[ひと]と、交代[こうたい]しました。",
+     "vi": "Tôi đổi ca với người làm đêm.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "〜と交代[こうたい]する",
+     "vi": "thay phiên với …"
+    }
+   ],
+   "note": "交代制[こうたいせい] = chế độ làm theo ca."
+  },
+  {
+   "id": "v:当番:とうばん",
+   "kana": "とうばん",
+   "kanji": "当番",
+   "hv": "ĐƯƠNG PHIÊN",
+   "vi": "phiên trực, người trực",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今週[こんしゅう]は、私[わたし]が掃除[そうじ]の当番[とうばん]です。",
+     "vi": "Tuần này tôi trực dọn dẹp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ゴミ当番[とうばん]の日[ひ]を、忘[わす]れないでください。",
+     "vi": "Đừng quên ngày trực đổ rác.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:係:かかり"
+   ]
+  },
+  {
+   "id": "v:順番:じゅんばん",
+   "kana": "じゅんばん",
+   "kanji": "順番",
+   "hv": "THUẬN PHIÊN",
+   "vi": "thứ tự lần lượt",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "順番[じゅんばん]に並[なら]んでください。",
+     "vi": "Hãy xếp hàng theo thứ tự.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "次[つぎ]は、グエンさんの順番[じゅんばん]です。",
+     "vi": "Tiếp theo là lượt anh Nguyễn.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:順:じゅん",
+   "kana": "じゅん",
+   "kanji": "順",
+   "hv": "THUẬN",
+   "vi": "thứ tự (trong từ ghép)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "番号[ばんごう]の順[じゅん]に、呼[よ]びます。",
+     "vi": "Gọi theo thứ tự số.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "古[ふる]い物[もの]から順[じゅん]に、使[つか]ってください。",
+     "vi": "Hãy dùng lần lượt từ đồ cũ trước.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:順番:じゅんばん"
+   ],
+   "note": "先着順[せんちゃくじゅん] = ai đến trước được trước."
+  },
+  {
+   "id": "v:列:れつ",
+   "kana": "れつ",
+   "kanji": "列",
+   "hv": "LIỆT",
+   "vi": "hàng (người, vật xếp)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "駅[えき]の前[まえ]に、長[なが]い列[れつ]ができています。",
+     "vi": "Trước ga có hàng dài.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "箱[はこ]を、二[に]列[れつ]に並[なら]べてください。",
+     "vi": "Xếp thùng thành hai hàng.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:集団:しゅうだん",
+   "kana": "しゅうだん",
+   "kanji": "集団",
+   "hv": "TẬP ĐOÀN",
+   "vi": "tập thể, đoàn (người)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本人[にほんじん]は、集団[しゅうだん]の行動[こうどう]を大切[たいせつ]にします。",
+     "vi": "Người Nhật coi trọng hành động tập thể.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "集団[しゅうだん]で、出[で]かけてください。",
+     "vi": "Hãy đi theo đoàn.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "集団生活[しゅうだんせいかつ] = sinh hoạt tập thể."
+  },
+  {
+   "id": "v:団体:だんたい",
+   "kana": "だんたい",
+   "kanji": "団体",
+   "hv": "ĐOÀN THỂ",
+   "vi": "đoàn thể, hội nhóm",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "外国人[がいこくじん]を助[たす]ける団体[だんたい]が、あります。",
+     "vi": "Có tổ chức giúp người nước ngoài.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "団体[だんたい]の料金[りょうきん]は、安[やす]くなります。",
+     "vi": "Giá vé đoàn rẻ hơn.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:グループ:グループ",
+   "kana": "グループ",
+   "kanji": "",
+   "hv": "",
+   "vi": "nhóm",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "三[みっ]つのグループに分[わ]かれて、話[はな]し合[あ]いました。",
+     "vi": "Chia ba nhóm để thảo luận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ベトナム人[じん]のグループで、旅行[りょこう]しました。",
+     "vi": "Đi du lịch cùng nhóm người Việt.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:組:くみ"
+   ],
+   "goc": "group (tiếng Anh)"
+  },
+  {
+   "id": "v:集まり:あつまり",
+   "kana": "あつまり",
+   "kanji": "集まり",
+   "kf": "集[あつ]まり",
+   "hv": "TẬP",
+   "vi": "buổi tụ họp",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今夜[こんや]、ベトナム人[じん]の集[あつ]まりがあります。",
+     "vi": "Tối nay có buổi tụ họp người Việt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "朝[あさ]の集[あつ]まりで、話[はなし]をしました。",
+     "vi": "Tôi phát biểu ở buổi họp sáng.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:集まる:あつまる"
+   ]
+  },
+  {
+   "id": "v:他:た",
+   "kana": "た",
+   "kanji": "他",
+   "hv": "THA",
+   "vi": "cái khác (trong từ ghép, văn viết)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "他[ほか]の会社[かいしゃ]でも、同[おな]じ問題[もんだい]があります。",
+     "vi": "Công ty khác cũng có vấn đề tương tự.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "名前[なまえ]、住所[じゅうしょ]、その他[た]を書[か]いてください。",
+     "vi": "Hãy ghi tên, địa chỉ và các mục khác.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "その他[た] = các thứ khác; 他社[たしゃ] = công ty khác. Đứng một mình thường đọc ほか: 他[ほか]の人[ひと]."
+  },
+  {
+   "id": "v:他人:たにん",
+   "kana": "たにん",
+   "kanji": "他人",
+   "hv": "THA NHÂN",
+   "vi": "người ngoài, người dưng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "他人[たにん]の物[もの]を、勝手[かって]に使[つか]わないでください。",
+     "vi": "Đừng tự tiện dùng đồ của người khác.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "他人[たにん]に頼[たよ]らないで、自分[じぶん]でやってみる。",
+     "vi": "Không dựa vào người khác, tự làm thử.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:それぞれ:それぞれ",
+   "kana": "それぞれ",
+   "kanji": "",
+   "hv": "",
+   "vi": "mỗi (người, cái) một",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "それぞれの意見[いけん]を聞[き]きましょう。",
+     "vi": "Hãy nghe ý kiến của mỗi người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "人[ひと]には、それぞれ得意[とくい]なことがある。",
+     "vi": "Mỗi người có sở trường riêng.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:一人一人:ひとりひとり"
+   ]
+  },
+  {
+   "id": "v:相手:あいて",
+   "kana": "あいて",
+   "kanji": "相手",
+   "hv": "TƯƠNG THỦ",
+   "vi": "đối phương, người kia",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "相手[あいて]の目[め]を見[み]て、話[はな]してください。",
+     "vi": "Hãy nhìn vào mắt người đối diện khi nói.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "練習[れんしゅう]の相手[あいて]になってください。",
+     "vi": "Làm bạn tập cùng tôi nhé.",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:味方:みかた",
+   "kana": "みかた",
+   "kanji": "味方",
+   "hv": "VỊ PHƯƠNG",
+   "vi": "phe mình, người ủng hộ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "困[こま]った時[とき]、班長[はんちょう]は、いつも私[わたし]たちの味方[みかた]です。",
+     "vi": "Lúc khó khăn tổ trưởng luôn đứng về phía chúng tôi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "味方[みかた]がいると、心強[こころづよ]いです。",
+     "vi": "Có người ủng hộ thì vững tâm.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "敵[てき]",
+     "vi": "kẻ thù"
+    }
+   ]
+  },
+  {
+   "id": "v:そのうえ:そのうえ",
+   "kana": "そのうえ",
+   "kanji": "",
+   "hv": "",
+   "vi": "hơn thế nữa",
+   "pos": "other",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]が強[つよ]く、そのうえ風[かぜ]も強[つよ]い。",
+     "vi": "Mưa to, thêm vào đó gió cũng mạnh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "彼[かれ]は仕事[しごと]が速[はや]くて、そのうえ丁寧[ていねい]です。",
+     "vi": "Anh ấy làm nhanh, hơn thế còn cẩn thận.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:しかも:しかも",
+    "v:それに:それに"
+   ],
+   "note": "Chữ Hán: その上[うえ]."
+  },
+  {
+   "id": "v:同士:どうし",
+   "kana": "どうし",
+   "kanji": "同士",
+   "hv": "ĐỒNG SĨ",
+   "vi": "những người cùng (loại, cảnh)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "外国人[がいこくじん]同士[どうし]で、助[たす]け合[あ]っています。",
+     "vi": "Người nước ngoài với nhau giúp đỡ lẫn nhau.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "好[す]きな人[ひと]同士[どうし]で、グループを作[つく]りました。",
+     "vi": "Những người thích nhau lập thành nhóm.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Danh từ + 同士[どうし]: 友達同士[ともだちどうし] = giữa bạn bè với nhau."
+  },
+  {
+   "id": "v:更に:さらに",
+   "kana": "さらに",
+   "kanji": "更に",
+   "kf": "更[さら]に",
+   "hv": "CANH",
+   "vi": "càng thêm (mức độ); lại thêm (văn viết)",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chia việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来月[らいげつ]は、更[さら]に忙[いそが]しくなります。",
+     "vi": "Tháng sau còn bận hơn nữa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "更[さら]に、もう一[ひと]つお知[し]らせがあります。",
+     "vi": "Thêm nữa, còn một thông báo.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:一層:いっそう"
+   ],
+   "note": "Văn viết; nói thường: もっと, それに."
+  }
+ ]
+}

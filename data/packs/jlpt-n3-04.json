@@ -1,0 +1,1401 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-04",
+  "title": "JLPT N3 04 – Động từ bếp núc & thao tác trong xưởng",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 3,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:揚げる:あげる",
+   "kana": "あげる",
+   "kanji": "揚げる",
+   "kf": "揚[あ]げる",
+   "hv": "DƯƠNG",
+   "vi": "rán ngập dầu, chiên giòn",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夕飯[ゆうはん]に天[てん]ぷらを揚[あ]げました。",
+     "vi": "Bữa tối tôi rán tempura.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]のフライは、百七十度[ひゃくななじゅうど]の油[あぶら]で揚[あ]げます。",
+     "vi": "Cá chiên xù rán trong dầu 170 độ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "天[てん]ぷらを揚[あ]げる",
+     "vi": "rán tempura"
+    },
+    {
+     "jp": "油[あぶら]で揚[あ]げる",
+     "vi": "chiên ngập dầu"
+    }
+   ],
+   "confuse": [
+    "v:炒める:いためる"
+   ],
+   "note": "Đồng âm: 上[あ]げる = nâng lên; 挙[あ]げる = giơ (tay), nêu ra."
+  },
+  {
+   "id": "v:炒める:いためる",
+   "kana": "いためる",
+   "kanji": "炒める",
+   "kf": "炒[いた]める",
+   "hv": "SAO",
+   "vi": "xào",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "野菜[やさい]と肉[にく]をいっしょに炒[いた]めます。",
+     "vi": "Xào rau với thịt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "玉[たま]ねぎは、茶色[ちゃいろ]になるまで炒[いた]めてください。",
+     "vi": "Hãy xào hành tây đến khi chuyển màu nâu.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "野菜[やさい]を炒[いた]める",
+     "vi": "xào rau"
+    }
+   ],
+   "confuse": [
+    "v:揚げる:あげる"
+   ]
+  },
+  {
+   "id": "v:茹でる:ゆでる",
+   "kana": "ゆでる",
+   "kanji": "茹でる",
+   "kf": "茹[ゆ]でる",
+   "hv": "NHƯ",
+   "vi": "luộc (trong nước sôi)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "卵[たまご]を十分[じゅっぷん]ぐらい茹[ゆ]でます。",
+     "vi": "Luộc trứng khoảng 10 phút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "カニは、茹[ゆ]でてから冷凍[れいとう]します。",
+     "vi": "Cua luộc xong rồi mới cấp đông.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "卵[たまご]を茹[ゆ]でる",
+     "vi": "luộc trứng"
+    },
+    {
+     "jp": "麺[めん]を茹[ゆ]でる",
+     "vi": "luộc mì"
+    }
+   ],
+   "confuse": [
+    "v:煮る:にる"
+   ]
+  },
+  {
+   "id": "v:炊く:たく",
+   "kana": "たく",
+   "kanji": "炊く",
+   "kf": "炊[た]く",
+   "hv": "XUY",
+   "vi": "nấu cơm (chỉ dùng cho cơm)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎晩[まいばん]、ご飯[はん]を炊[た]いて、お弁当[べんとう]を作[つく]ります。",
+     "vi": "Tối nào cũng nấu cơm làm cơm hộp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "炊飯器[すいはんき]でご飯[はん]を炊[た]くのは簡単[かんたん]だ。",
+     "vi": "Nấu cơm bằng nồi cơm điện thì dễ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ご飯[はん]を炊[た]く",
+     "vi": "nấu cơm"
+    }
+   ],
+   "note": "Chỉ dùng cho cơm: ご飯[はん]を炊[た]く. Món khác dùng 作[つく]る / 煮[に]る."
+  },
+  {
+   "id": "v:蒸す:むす",
+   "kana": "むす",
+   "kanji": "蒸す",
+   "kf": "蒸[む]す",
+   "hv": "CHƯNG",
+   "vi": "hấp",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]を酒[さけ]で蒸[む]すと、おいしい。",
+     "vi": "Hấp cá với rượu thì ngon.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今日[きょう]は蒸[む]し暑[あつ]いですね。",
+     "vi": "Hôm nay nóng oi nhỉ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "野菜[やさい]を蒸[む]す",
+     "vi": "hấp rau"
+    }
+   ],
+   "note": "蒸[む]し暑[あつ]い = oi bức (nóng ẩm)."
+  },
+  {
+   "id": "v:剥く:むく",
+   "kana": "むく",
+   "kanji": "剥く",
+   "kf": "剥[む]く",
+   "hv": "BÁC",
+   "vi": "gọt, bóc (vỏ)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "りんごの皮[かわ]を剥[む]いてあげる。",
+     "vi": "Để tôi gọt vỏ táo cho.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "エビの殻[から]を剥[む]く作業[さぎょう]は、手[て]が疲[つか]れる。",
+     "vi": "Việc bóc vỏ tôm mỏi tay lắm.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "皮[かわ]を剥[む]く",
+     "vi": "gọt vỏ"
+    },
+    {
+     "jp": "殻[から]を剥[む]く",
+     "vi": "bóc vỏ (tôm, cua)"
+    }
+   ]
+  },
+  {
+   "id": "v:握る:にぎる",
+   "kana": "にぎる",
+   "kanji": "握る",
+   "kf": "握[にぎ]る",
+   "hv": "ÁC",
+   "vi": "nắm chặt; nắn (cơm sushi)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子供[こども]が私[わたし]の手[て]を強[つよ]く握[にぎ]った。",
+     "vi": "Đứa trẻ nắm chặt tay tôi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ナイフはしっかり握[にぎ]って使[つか]ってください。",
+     "vi": "Hãy nắm chắc dao khi dùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "寿司[すし]を握[にぎ]るのは難[むずか]しい。",
+     "vi": "Nắn cơm sushi khó lắm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手[て]を握[にぎ]る",
+     "vi": "nắm tay"
+    },
+    {
+     "jp": "ハンドルを握[にぎ]る",
+     "vi": "cầm lái"
+    }
+   ]
+  },
+  {
+   "id": "v:量る:はかる",
+   "kana": "はかる",
+   "kanji": "量る",
+   "kf": "量[はか]る",
+   "hv": "LƯỢNG",
+   "vi": "đong, cân lên (khối lượng, thể tích)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小麦粉[こむぎこ]を二百[にひゃく]グラム量[はか]ってください。",
+     "vi": "Hãy cân 200 gam bột mì.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一箱[ひとはこ]ずつ重[おも]さを量[はか]って、記録[きろく]します。",
+     "vi": "Cân từng thùng rồi ghi lại.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "重[おも]さを量[はか]る",
+     "vi": "cân trọng lượng"
+    }
+   ],
+   "confuse": [
+    "v:測る:はかる",
+    "v:計る:はかる"
+   ]
+  },
+  {
+   "id": "v:測る:はかる",
+   "kana": "はかる",
+   "kanji": "測る",
+   "kf": "測[はか]る",
+   "hv": "TRẮC",
+   "vi": "đo (nhiệt độ, chiều dài)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "朝[あさ]、体温[たいおん]を測[はか]ってから出勤[しゅっきん]します。",
+     "vi": "Sáng đo thân nhiệt rồi mới đi làm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "魚[さかな]の中心[ちゅうしん]温度[おんど]を測[はか]ってください。",
+     "vi": "Hãy đo nhiệt độ lõi của cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "部屋[へや]の広[ひろ]さを測[はか]る。",
+     "vi": "Đo diện tích phòng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "熱[ねつ]を測[はか]る",
+     "vi": "đo nhiệt độ"
+    },
+    {
+     "jp": "長[なが]さを測[はか]る",
+     "vi": "đo chiều dài"
+    }
+   ],
+   "confuse": [
+    "v:量る:はかる",
+    "v:計る:はかる"
+   ]
+  },
+  {
+   "id": "v:計る:はかる",
+   "kana": "はかる",
+   "kanji": "計る",
+   "kf": "計[はか]る",
+   "hv": "KẾ",
+   "vi": "đo, tính (thời gian)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "走[はし]るタイムを計[はか]ります。",
+     "vi": "Bấm giờ chạy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "解凍[かいとう]の時間[じかん]を、タイマーで計[はか]ってください。",
+     "vi": "Hãy tính thời gian rã đông bằng đồng hồ hẹn giờ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "時間[じかん]を計[はか]る",
+     "vi": "tính giờ"
+    }
+   ],
+   "confuse": [
+    "v:量る:はかる",
+    "v:測る:はかる"
+   ]
+  },
+  {
+   "id": "v:詰める:つめる",
+   "kana": "つめる",
+   "kanji": "詰める",
+   "kf": "詰[つ]める",
+   "hv": "CẬT",
+   "vi": "nhồi, xếp chặt vào; ngồi xích lại",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "かばんに服[ふく]を詰[つ]めて、旅行[りょこう]に出[で]た。",
+     "vi": "Nhét quần áo vào túi rồi đi du lịch.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]を一箱[ひとはこ]に二十匹[にじゅっぴき]ずつ詰[つ]めます。",
+     "vi": "Xếp mỗi thùng 20 con cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "すみません、少[すこ]し詰[つ]めていただけますか。",
+     "vi": "Xin lỗi, anh ngồi xích vào một chút được không ạ?",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "箱[はこ]に詰[つ]める",
+     "vi": "xếp vào thùng"
+    },
+    {
+     "jp": "席[せき]を詰[つ]める",
+     "vi": "ngồi xích lại"
+    }
+   ],
+   "note": "箱詰[はこづ]め = đóng thùng; 詰[つ]め放題[ほうだい] = nhồi thoải mái (giá một túi)."
+  },
+  {
+   "id": "v:積む:つむ",
+   "kana": "つむ",
+   "kanji": "積む",
+   "kf": "積[つ]む",
+   "hv": "TÍCH",
+   "vi": "chất lên (hàng, xe); tích lũy (kinh nghiệm)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "トラックに荷物[にもつ]を積[つ]みます。",
+     "vi": "Chất hàng lên xe tải.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "箱[はこ]は六[ろく]段[だん]まで積[つ]んでください。",
+     "vi": "Xếp thùng tối đa 6 tầng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本[にほん]で経験[けいけん]を積[つ]んで、国[くに]で店[みせ]を開[ひら]きたい。",
+     "vi": "Muốn tích lũy kinh nghiệm ở Nhật rồi mở quán ở quê.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "荷物[にもつ]を積[つ]む",
+     "vi": "chất hàng"
+    },
+    {
+     "jp": "経験[けいけん]を積[つ]む",
+     "vi": "tích lũy kinh nghiệm"
+    }
+   ],
+   "pair": "v:積もる:つもる"
+  },
+  {
+   "id": "v:積もる:つもる",
+   "kana": "つもる",
+   "kanji": "積もる",
+   "kf": "積[つ]もる",
+   "hv": "TÍCH",
+   "vi": "(tuyết, bụi) phủ dày, chồng chất",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一[いち]晩[ばん]で雪[ゆき]が三十[さんじゅっ]センチ積[つ]もった。",
+     "vi": "Một đêm tuyết phủ dày 30 cm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "棚[たな]の上[うえ]にほこりが積[つ]もっている。",
+     "vi": "Trên kệ bụi bám dày.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "雪[ゆき]が積[つ]もる",
+     "vi": "tuyết phủ dày"
+    }
+   ],
+   "pair": "v:積む:つむ"
+  },
+  {
+   "id": "v:巻く:まく",
+   "kana": "まく",
+   "kanji": "巻く",
+   "kf": "巻[ま]く",
+   "hv": "QUYỂN",
+   "vi": "cuộn, quấn",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寒[さむ]いので、首[くび]にマフラーを巻[ま]きます。",
+     "vi": "Lạnh nên quấn khăn quanh cổ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "けがをした指[ゆび]に包帯[ほうたい]を巻[ま]いた。",
+     "vi": "Quấn băng vào ngón tay bị thương.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ホースは使[つか]った後[あと]、巻[ま]いて片付[かたづ]けてください。",
+     "vi": "Vòi nước dùng xong hãy cuộn lại cất.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "包帯[ほうたい]を巻[ま]く",
+     "vi": "quấn băng"
+    },
+    {
+     "jp": "のりで巻[ま]く",
+     "vi": "cuộn rong biển"
+    }
+   ]
+  },
+  {
+   "id": "v:畳む:たたむ",
+   "kana": "たたむ",
+   "kanji": "畳む",
+   "kf": "畳[たた]む",
+   "hv": "ĐIỆP",
+   "vi": "gấp (quần áo, đồ)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "乾[かわ]いた洗濯物[せんたくもの]を畳[たた]みます。",
+     "vi": "Gấp quần áo đã khô.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "使[つか]った段[だん]ボールは、畳[たた]んで捨[す]ててください。",
+     "vi": "Thùng các tông dùng xong hãy gấp lại rồi vứt.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "服[ふく]を畳[たた]む",
+     "vi": "gấp quần áo"
+    },
+    {
+     "jp": "傘[かさ]を畳[たた]む",
+     "vi": "gấp ô"
+    }
+   ]
+  },
+  {
+   "id": "v:拭く:ふく",
+   "kana": "ふく",
+   "kanji": "拭く",
+   "kf": "拭[ふ]く",
+   "hv": "THỨC",
+   "vi": "lau (cho khô, cho sạch)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "テーブルを布巾[ふきん]で拭[ふ]きます。",
+     "vi": "Lau bàn bằng khăn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "まな板[いた]は、洗[あら]ってからアルコールで拭[ふ]いてください。",
+     "vi": "Thớt rửa xong hãy lau cồn.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "テーブルを拭[ふ]く",
+     "vi": "lau bàn"
+    },
+    {
+     "jp": "汗[あせ]を拭[ふ]く",
+     "vi": "lau mồ hôi"
+    }
+   ]
+  },
+  {
+   "id": "v:掃く:はく",
+   "kana": "はく",
+   "kanji": "掃く",
+   "kf": "掃[は]く",
+   "hv": "TẢO",
+   "vi": "quét",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "玄関[げんかん]の前[まえ]をほうきで掃[は]きます。",
+     "vi": "Quét trước cửa bằng chổi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "作業[さぎょう]の後[あと]、床[ゆか]の鱗[うろこ]を掃[は]いて集[あつ]めてください。",
+     "vi": "Làm xong hãy quét gom vảy cá trên sàn.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "床[ゆか]を掃[は]く",
+     "vi": "quét sàn"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "履[は]く",
+     "vi": "đi (giày), mặc (quần); 吐[は]く => nôn"
+    }
+   ]
+  },
+  {
+   "id": "v:注ぐ:そそぐ",
+   "kana": "そそぐ",
+   "kanji": "注ぐ",
+   "kf": "注[そそ]ぐ",
+   "hv": "CHÚ",
+   "vi": "đổ vào, rót vào (bình, cốc); đổ ra (sông ra biển)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "カップにお湯[ゆ]を注[そそ]いで、三分[さんぷん]待[ま]つ。",
+     "vi": "Rót nước sôi vào cốc rồi chờ 3 phút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この川[かわ]は太平[たいへい]洋[よう]に注[そそ]いでいる。",
+     "vi": "Con sông này đổ ra Thái Bình Dương.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "お湯[ゆ]を注[そそ]ぐ",
+     "vi": "rót nước nóng"
+    },
+    {
+     "jp": "力[ちから]を注[そそ]ぐ",
+     "vi": "dồn sức"
+    }
+   ]
+  },
+  {
+   "id": "v:注ぐ:つぐ",
+   "kana": "つぐ",
+   "kanji": "注ぐ",
+   "kf": "注[つ]ぐ",
+   "hv": "CHÚ",
+   "vi": "rót (đồ uống cho người khác)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先輩[せんぱい]のコップにビールを注[つ]ぎました。",
+     "vi": "Tôi rót bia vào cốc cho đàn anh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "日本[にほん]では、自分[じぶん]のお酒[さけ]は自分[じぶん]で注[つ]がないことが多[おお]い。",
+     "vi": "Ở Nhật thường không tự rót rượu cho mình.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ビールを注[つ]ぐ",
+     "vi": "rót bia"
+    }
+   ],
+   "note": "Tiệc ở công ty: rót bia cho cấp trên trước, tay cầm chai bằng hai tay."
+  },
+  {
+   "id": "v:汲む:くむ",
+   "kana": "くむ",
+   "kanji": "汲む",
+   "kf": "汲[く]む",
+   "hv": "CẤP",
+   "vi": "múc (nước)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "バケツに水[みず]を汲[く]んできてください。",
+     "vi": "Hãy múc nước vào xô mang lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "昔[むかし]はこの井戸[いど]から水[みず]を汲[く]んでいた。",
+     "vi": "Ngày xưa múc nước từ giếng này.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]を汲[く]む",
+     "vi": "múc nước"
+    }
+   ]
+  },
+  {
+   "id": "v:刈る:かる",
+   "kana": "かる",
+   "kanji": "刈る",
+   "kf": "刈[か]る",
+   "hv": "NGẢI",
+   "vi": "cắt tỉa (cỏ, tóc), gặt (lúa)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "週末[しゅうまつ]に庭[にわ]の草[くさ]を刈[か]ります。",
+     "vi": "Cuối tuần cắt cỏ ngoài vườn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "髪[かみ]を短[みじか]く刈[か]ってもらった。",
+     "vi": "Tôi được cắt tóc ngắn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "草[くさ]を刈[か]る",
+     "vi": "cắt cỏ"
+    },
+    {
+     "jp": "稲[いね]を刈[か]る",
+     "vi": "gặt lúa"
+    }
+   ]
+  },
+  {
+   "id": "v:裂く:さく",
+   "kana": "さく",
+   "kanji": "裂く",
+   "kf": "裂[さ]く",
+   "hv": "LIỆT",
+   "vi": "xé (theo thớ), rạch",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "鶏肉[けいにく]を手[て]で細[ほそ]く裂[さ]きます。",
+     "vi": "Xé thịt gà thành sợi nhỏ bằng tay.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "イカは、腹[はら]を裂[さ]いて内臓[ないぞう]を取[と]ります。",
+     "vi": "Mực thì rạch bụng lấy nội tạng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "布[ぬの]を裂[さ]く",
+     "vi": "xé vải"
+    },
+    {
+     "jp": "腹[はら]を裂[さ]く",
+     "vi": "rạch bụng (cá)"
+    }
+   ]
+  },
+  {
+   "id": "v:割る:わる",
+   "kana": "わる",
+   "kanji": "割る",
+   "kf": "割[わ]る",
+   "hv": "CÁT",
+   "vi": "làm vỡ, đập vỡ; chia (phép chia)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "皿[さら]を落[お]として割[わ]ってしまった。",
+     "vi": "Lỡ làm rơi vỡ đĩa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "卵[たまご]を割[わ]って、ボウルに入[い]れてください。",
+     "vi": "Đập trứng cho vào bát.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "十[じゅう]を二[に]で割[わ]ると、五[ご]になる。",
+     "vi": "Mười chia hai được năm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "卵[たまご]を割[わ]る",
+     "vi": "đập trứng"
+    },
+    {
+     "jp": "皿[さら]を割[わ]る",
+     "vi": "làm vỡ đĩa"
+    }
+   ],
+   "pair": {
+    "w": "割[わ]れる",
+    "vi": "bị vỡ"
+   }
+  },
+  {
+   "id": "v:分ける:わける",
+   "kana": "わける",
+   "kanji": "分ける",
+   "kf": "分[わ]ける",
+   "hv": "PHÂN",
+   "vi": "chia ra, phân loại (thành phần, nhóm, cỡ)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ケーキを四[よん]つに分[わ]けました。",
+     "vi": "Chia bánh làm bốn phần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]を大[おお]きさで三[みっ]つに分[わ]けてください。",
+     "vi": "Hãy phân cá theo cỡ thành ba loại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ごみは種類[しゅるい]ごとに分[わ]けて出[だ]します。",
+     "vi": "Rác phân theo loại rồi mới đổ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ごみを分[わ]ける",
+     "vi": "phân loại rác"
+    },
+    {
+     "jp": "半分[はんぶん]に分[わ]ける",
+     "vi": "chia đôi"
+    }
+   ],
+   "pair": "v:分かれる:わかれる"
+  },
+  {
+   "id": "v:分かれる:わかれる",
+   "kana": "わかれる",
+   "kanji": "分かれる",
+   "kf": "分[わ]かれる",
+   "hv": "PHÂN",
+   "vi": "chia thành (nhóm), rẽ nhánh (đường)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "道[みち]が二[ふた]つに分[わ]かれている。",
+     "vi": "Con đường rẽ làm hai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "午後[ごご]は、二[ふた]つの班[はん]に分[わ]かれて作業[さぎょう]します。",
+     "vi": "Buổi chiều chia thành hai tổ làm việc.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "グループに分[わ]かれる",
+     "vi": "chia nhóm"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "別[わか]れる",
+     "vi": "chia tay"
+    }
+   ],
+   "pair": "v:分ける:わける"
+  },
+  {
+   "id": "v:凍る:こおる",
+   "kana": "こおる",
+   "kanji": "凍る",
+   "kf": "凍[こお]る",
+   "hv": "ĐÔNG",
+   "vi": "đông thành đá, đóng băng",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寒[さむ]くて、池[いけ]の水[みず]が凍[こお]った。",
+     "vi": "Lạnh quá, nước hồ đóng băng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]の床[ゆか]が凍[こお]って滑[すべ]りやすいので、注意[ちゅうい]してください。",
+     "vi": "Sàn kho đông đóng băng trơn, hãy cẩn thận.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]が凍[こお]る",
+     "vi": "nước đóng băng"
+    }
+   ],
+   "confuse": [
+    "v:冷凍:れいとう"
+   ]
+  },
+  {
+   "id": "v:腐る:くさる",
+   "kana": "くさる",
+   "kanji": "腐る",
+   "kf": "腐[くさ]る",
+   "hv": "HỦ",
+   "vi": "ôi thiu, thối (thức ăn)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夏[なつ]は、食[た]べ物[もの]がすぐ腐[くさ]る。",
+     "vi": "Mùa hè đồ ăn mau hỏng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "腐[くさ]った魚[さかな]が混[ま]ざらないように、よく見[み]てください。",
+     "vi": "Hãy nhìn kỹ để cá thối không lẫn vào.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "魚[さかな]が腐[くさ]る",
+     "vi": "cá ươn thối"
+    }
+   ]
+  },
+  {
+   "id": "v:湿る:しめる",
+   "kana": "しめる",
+   "kanji": "湿る",
+   "kf": "湿[しめ]る",
+   "hv": "THẤP",
+   "vi": "ẩm, hơi ướt",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]の日[ひ]は、洗濯物[せんたくもの]が湿[しめ]ったままだ。",
+     "vi": "Ngày mưa quần áo cứ ẩm mãi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "湿[しめ]った手袋[てぶくろ]で機械[きかい]を触[さわ]らないでください。",
+     "vi": "Đừng chạm vào máy bằng găng tay ẩm.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "空気[くうき]が湿[しめ]る",
+     "vi": "không khí ẩm"
+    }
+   ]
+  },
+  {
+   "id": "v:傷める:いためる",
+   "kana": "いためる",
+   "kanji": "傷める",
+   "kf": "傷[いた]める",
+   "hv": "THƯƠNG",
+   "vi": "làm đau, làm tổn thương (lưng, thịt cá)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "重[おも]い物[もの]を持[も]って、腰[こし]を傷[いた]めた。",
+     "vi": "Bê đồ nặng nên bị đau lưng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "魚[さかな]の身[み]を傷[いた]めないように、やさしく扱[あつか]ってください。",
+     "vi": "Hãy xử lý nhẹ tay để không làm dập thịt cá.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "腰[こし]を傷[いた]める",
+     "vi": "bị đau lưng"
+    },
+    {
+     "jp": "身[み]を傷[いた]める",
+     "vi": "làm dập thịt (cá)"
+    }
+   ],
+   "confuse": [
+    "v:炒める:いためる"
+   ],
+   "note": "傷[いた]む = (cá, rau) bị dập, hư."
+  },
+  {
+   "id": "v:掴む:つかむ",
+   "kana": "つかむ",
+   "kanji": "掴む",
+   "kf": "掴[つか]む",
+   "hv": "QUẮC",
+   "vi": "túm, nắm lấy",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手[て]すりをしっかり掴[つか]んでください。",
+     "vi": "Hãy bám chắc tay vịn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "滑[すべ]る魚[さかな]は、エラを掴[つか]むと持[も]ちやすい。",
+     "vi": "Cá trơn thì nắm mang dễ cầm hơn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "チャンスを掴[つか]む。",
+     "vi": "Nắm lấy cơ hội.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手[て]すりを掴[つか]む",
+     "vi": "bám tay vịn"
+    },
+    {
+     "jp": "チャンスを掴[つか]む",
+     "vi": "nắm lấy cơ hội"
+    }
+   ]
+  },
+  {
+   "id": "v:叩く:たたく",
+   "kana": "たたく",
+   "kanji": "叩く",
+   "kf": "叩[たた]く",
+   "hv": "KHẤU",
+   "vi": "gõ (cửa), vỗ (vai, tay), đập (cho mềm)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ドアを叩[たた]く音[おと]がした。",
+     "vi": "Có tiếng gõ cửa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "肉[にく]を叩[たた]いて、やわらかくします。",
+     "vi": "Đập thịt cho mềm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "肩[かた]を叩[たた]いて、合図[あいず]してください。",
+     "vi": "Hãy vỗ vai ra hiệu.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ドアを叩[たた]く",
+     "vi": "gõ cửa"
+    },
+    {
+     "jp": "手[て]を叩[たた]く",
+     "vi": "vỗ tay"
+    }
+   ]
+  },
+  {
+   "id": "v:引っ張る:ひっぱる",
+   "kana": "ひっぱる",
+   "kanji": "引っ張る",
+   "kf": "引[ひ]っ張[ぱ]る",
+   "hv": "DẪN TRƯƠNG",
+   "vi": "kéo, giật",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子供[こども]が母親[ははおや]の服[ふく]を引[ひ]っ張[ぱ]っている。",
+     "vi": "Đứa trẻ níu áo mẹ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "コードを引[ひ]っ張[ぱ]って、コンセントを抜[ぬ]かないでください。",
+     "vi": "Đừng giật dây để rút phích cắm.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ひもを引[ひ]っ張[ぱ]る",
+     "vi": "kéo dây"
+    }
+   ],
+   "syn": [
+    "v:引く:ひく"
+   ]
+  },
+  {
+   "id": "v:持ち上げる:もちあげる",
+   "kana": "もちあげる",
+   "kanji": "持ち上げる",
+   "kf": "持[も]ち上[あ]げる",
+   "hv": "TRÌ THƯỢNG",
+   "vi": "nhấc lên, nâng lên",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "重[おも]い箱[はこ]は、膝[ひざ]を曲[ま]げてから持[も]ち上[あ]げてください。",
+     "vi": "Thùng nặng hãy khuỵu gối rồi mới nhấc lên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一人[ひとり]で冷蔵庫[れいぞうこ]を持[も]ち上[あ]げるのは無理[むり]だ。",
+     "vi": "Một mình nhấc tủ lạnh là không thể.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "箱[はこ]を持[も]ち上[あ]げる",
+     "vi": "nhấc thùng lên"
+    }
+   ]
+  },
+  {
+   "id": "v:抱える:かかえる",
+   "kana": "かかえる",
+   "kanji": "抱える",
+   "kf": "抱[かか]える",
+   "hv": "BÃO",
+   "vi": "ôm (trong tay); gánh (việc, vấn đề)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大[おお]きな荷物[にもつ]を両手[りょうて]で抱[かか]えて歩[ある]いた。",
+     "vi": "Ôm kiện hàng to bằng hai tay mà đi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一人[ひとり]で問題[もんだい]を抱[かか]えないで、相談[そうだん]してください。",
+     "vi": "Đừng ôm vấn đề một mình, hãy bàn với mọi người.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "荷物[にもつ]を抱[かか]える",
+     "vi": "ôm hàng"
+    },
+    {
+     "jp": "悩[なや]みを抱[かか]える",
+     "vi": "mang nỗi lo"
+    }
+   ]
+  },
+  {
+   "id": "v:扱う:あつかう",
+   "kana": "あつかう",
+   "kanji": "扱う",
+   "kf": "扱[あつか]う",
+   "hv": "TRÁP",
+   "vi": "xử lý, thao tác (đồ vật, máy); đối xử (với người)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bếp – xưởng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この機械[きかい]は丁寧[ていねい]に扱[あつか]ってください。",
+     "vi": "Hãy dùng máy này cẩn thận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "生[なま]の魚[さかな]を扱[あつか]う時[とき]は、手袋[てぶくろ]をつけます。",
+     "vi": "Khi xử lý cá sống thì đeo găng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子供[こども]のように扱[あつか]われて、嫌[いや]だった。",
+     "vi": "Bị đối xử như trẻ con, khó chịu lắm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "機械[きかい]を扱[あつか]う",
+     "vi": "sử dụng máy"
+    },
+    {
+     "jp": "刃物[はもの]を扱[あつか]う",
+     "vi": "dùng dao kéo"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "新人[しんじん]なのに、ベテランのように[[扱[あつか]われ]]た。",
+     "vi": "Là người mới mà được đối xử như người kỳ cựu."
+    }
+   ]
+  }
+ ]
+}

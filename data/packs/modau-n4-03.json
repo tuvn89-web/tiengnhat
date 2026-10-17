@@ -1,0 +1,703 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n4-03",
+  "title": "Bài mở đầu N4 – bài 3: Sở thích và cuộc sống",
+  "type": "dialog",
+  "level": "N4",
+  "topics": [
+   "doisong"
+  ],
+  "version": 2,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n4-03",
+   "title": "Sở thích và cuộc sống",
+   "level": "N4",
+   "topics": [
+    "doisong"
+   ],
+   "ctx": "doisong",
+   "lesson": "l:n4-03",
+   "intro": true,
+   "setting": "Lớp tiếng Nhật buổi tối: cô Kobayashi cho cả lớp nói về sở thích. Giờ nghỉ, Maria và anh Nguyễn nói về Hoa. Cuối tuần, anh Nguyễn nói chuyện với Minh ở phòng.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    },
+    {
+     "key": "T",
+     "name": "小林[こばやし]先生[せんせい]",
+     "vi": "Cô giáo"
+    },
+    {
+     "key": "H",
+     "name": "ホア",
+     "vi": "Bạn cùng lớp"
+    },
+    {
+     "key": "C",
+     "name": "マリア",
+     "vi": "Bạn cùng lớp"
+    },
+    {
+     "key": "F",
+     "name": "ミン",
+     "vi": "Bạn"
+    }
+   ],
+   "turns": [
+    {
+     "who": "T",
+     "jp": "今日[きょう]は趣味[しゅみ]の話[はなし]をしましょう。グエンさんの趣味[しゅみ]は何[なん]ですか。",
+     "vi": "Hôm nay mình nói về sở thích nhé. Sở thích của anh Nguyễn là gì?",
+     "key": "趣味[しゅみ]",
+     "grammar": [
+      "g:〜の",
+      "g:〜を",
+      "g:〜ましょう",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "私[わたし]の趣味[しゅみ]は音楽[おんがく]です。特[とく]にベトナムの古[ふる]い歌[うた]が好[す]きです。",
+     "vi": "Sở thích của tôi là âm nhạc. Đặc biệt là tôi thích những bài hát Việt Nam cũ.",
+     "key": "特[とく]に",
+     "grammar": [
+      "g:〜の",
+      "g:〜が好きです"
+     ],
+     "gloss": [
+      {
+       "w": "音楽[おんがく]",
+       "vi": "âm nhạc"
+      }
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "いつ音楽[おんがく]を聞[き]きますか。",
+     "vi": "Anh nghe nhạc lúc nào?",
+     "grammar": [
+      "g:〜を",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "音楽[おんがく]",
+       "vi": "âm nhạc"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "朝[あさ]、ご飯[はん]を食[た]べながら聞[き]きます。",
+     "vi": "Buổi sáng tôi vừa ăn cơm vừa nghe.",
+     "alt": [
+      "朝[あさ]ご飯[はん]を食[た]べながら、音楽[おんがく]を聞[き]きます。"
+     ],
+     "note": "〜ながら: thân động từ thể ます + ながら = vừa … vừa …; việc chính đứng sau. 食[た]べながら聞[き]きます: việc chính là nghe.",
+     "grammar": [
+      "g:〜を",
+      "g:〜ながら"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "自転車[じてんしゃ]に乗[の]りながら聞[き]くこともあります……あ、それは危[あぶ]ないですね。",
+     "vi": "Đôi khi vừa đạp xe vừa nghe…… À, cái đó nguy hiểm nhỉ.",
+     "grammar": [
+      "g:〜に",
+      "g:〜ながら"
+     ],
+     "gloss": [
+      {
+       "w": "こともあります",
+       "vi": "cũng có khi"
+      },
+      {
+       "w": "危[あぶ]ない",
+       "vi": "nguy hiểm"
+      }
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "そうですね。自転車[じてんしゃ]に乗[の]りながら音楽[おんがく]を聞[き]いてはいけません。",
+     "vi": "Đúng vậy. Không được vừa đạp xe vừa nghe nhạc.",
+     "note": "Ở Nhật, đạp xe mà đeo tai nghe hay dùng điện thoại có thể bị phạt.",
+     "grammar": [
+      "g:〜ながら",
+      "g:〜てはいけません"
+     ],
+     "gloss": [
+      {
+       "w": "音楽[おんがく]",
+       "vi": "âm nhạc"
+      }
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "グエンさん、工場[こうじょう]の放送[ほうそう]はわかりますか。",
+     "vi": "Anh Nguyễn có hiểu loa thông báo ở xưởng không?",
+     "key": "放送[ほうそう]",
+     "grammar": [
+      "g:〜の",
+      "g:〜がわかります",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "工場[こうじょう]",
+       "vi": "nhà máy, xưởng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "最初[さいしょ]はわかりませんでした。でも、今[いま]は少[すこ]しわかります。",
+     "vi": "Lúc đầu tôi không hiểu. Nhưng bây giờ hiểu được một chút.",
+     "grammar": [
+      "g:〜がわかります",
+      "g:〜ました・〜ませんでした"
+     ],
+     "gloss": [
+      {
+       "w": "最初[さいしょ]",
+       "vi": "lúc đầu"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "私[わたし]の趣味[しゅみ]は漫画[まんが]です。日本[にほん]の漫画[まんが]をたくさん読[よ]みます。",
+     "vi": "Sở thích của em là truyện tranh. Em đọc nhiều truyện tranh Nhật.",
+     "key": "漫画[まんが]",
+     "grammar": [
+      "g:〜の",
+      "g:〜を"
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "ホアさんはどんな漫画[まんが]が好[す]きですか。",
+     "vi": "Hoa thích truyện tranh kiểu gì?",
+     "grammar": [
+      "g:〜が好きです",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "料理[りょうり]の漫画[まんが]です。絵[え]もきれいだし、話[はなし]も面白[おもしろ]いし、日本[にほん]の料理[りょうり]も覚[おぼ]えられます。",
+     "vi": "Truyện về nấu ăn ạ. Tranh đã đẹp, chuyện lại hay, còn nhớ được món Nhật nữa.",
+     "note": "〜し、〜し: kể nhiều lý do, ưu điểm. Thường dùng thể thường: きれいだし、面白[おもしろ]いし.",
+     "grammar": [
+      "g:〜の",
+      "g:〜も",
+      "g:〜し、〜し",
+      "g:可能形（〜られる・〜える）"
+     ],
+     "gloss": [
+      {
+       "w": "絵[え]",
+       "vi": "tranh vẽ"
+      }
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "いいですね。漫画[まんが]を読[よ]みながら日本語[にほんご]の勉強[べんきょう]ができますね。",
+     "vi": "Hay nhỉ. Vừa đọc truyện tranh vừa học được tiếng Nhật.",
+     "grammar": [
+      "g:〜を",
+      "g:〜ながら",
+      "g:〜ことができる"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "私[わたし]は小説[しょうせつ]が好[す]きです。寝[ね]る前[まえ]に、小説[しょうせつ]を少[すこ]し読[よ]みます。",
+     "vi": "Tôi thích tiểu thuyết. Trước khi ngủ tôi đọc một chút.",
+     "key": "小説[しょうせつ]",
+     "grammar": [
+      "g:〜が好きです",
+      "g:〜前に",
+      "g:〜を"
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "日本語[にほんご]の小説[しょうせつ]ですか。",
+     "vi": "Tiểu thuyết tiếng Nhật à?",
+     "grammar": [
+      "g:〜の",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "まだ難[むずか]しいですから、英語[えいご]の小説[しょうせつ]です。でも、興味[きょうみ]がありますから、いつか日本語[にほんご]で読[よ]もうと思[おも]っています。",
+     "vi": "Vẫn còn khó nên tôi đọc tiểu thuyết tiếng Anh. Nhưng tôi có hứng thú nên định một ngày nào đó sẽ đọc bằng tiếng Nhật.",
+     "key": "興味[きょうみ]",
+     "grammar": [
+      "g:〜から",
+      "g:〜の",
+      "g:〜があります・〜がいます",
+      "g:〜で",
+      "g:〜ようと思う"
+     ],
+     "gloss": [
+      {
+       "w": "難[むずか]しい",
+       "vi": "khó"
+      },
+      {
+       "w": "いつか",
+       "vi": "một lúc nào đó"
+      },
+      {
+       "w": "英語[えいご]",
+       "vi": "tiếng Anh"
+      }
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "すごいですね。グエンさんは日記[にっき]を書[か]きますか。",
+     "vi": "Giỏi quá. Anh Nguyễn có viết nhật ký không?",
+     "key": "日記[にっき]",
+     "grammar": [
+      "g:〜を",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、日本語[にほんご]で日記[にっき]を書[か]いています。毎晩[まいばん]、テレビの番組[ばんぐみ]を見[み]ながら書[か]きます。",
+     "vi": "Có, tôi viết nhật ký bằng tiếng Nhật. Tối nào cũng vừa xem chương trình ti vi vừa viết.",
+     "key": "番組[ばんぐみ]",
+     "grammar": [
+      "g:〜で",
+      "g:〜を",
+      "g:〜ています",
+      "g:〜の",
+      "g:〜ながら"
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "テレビを見[み]ながら？集中[しゅうちゅう]できますか。",
+     "vi": "Vừa xem ti vi? Có tập trung được không?",
+     "grammar": [
+      "g:〜ながら",
+      "g:〜ことができる",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "集中[しゅうちゅう]",
+       "vi": "tập trung"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "あまりできません。",
+     "vi": "Không được mấy ạ.",
+     "grammar": [
+      "g:〜ことができる"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "ホアさんは真面目[まじめ]だし、熱心[ねっしん]だし、いい人[ひと]ですね。",
+     "vi": "Hoa vừa nghiêm túc vừa nhiệt tình, người tốt thật.",
+     "key": "真面目[まじめ]",
+     "grammar": [
+      "g:〜し、〜し"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうですね。仕事[しごと]も早[はや]いし、日本語[にほんご]も上手[じょうず]だし。",
+     "vi": "Đúng vậy. Làm việc cũng nhanh, tiếng Nhật cũng giỏi.",
+     "grammar": [
+      "g:〜も",
+      "g:〜し、〜し"
+     ],
+     "gloss": [
+      {
+       "w": "上手[じょうず]",
+       "vi": "giỏi"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "それに、ピアノも弾[ひ]けます。",
+     "vi": "Hơn nữa, cô ấy còn chơi được piano.",
+     "key": "ピアノ",
+     "grammar": [
+      "g:〜も",
+      "g:可能形（〜られる・〜える）"
+     ],
+     "gloss": [
+      {
+       "w": "弾[ひ]けます",
+       "vi": "chơi (đàn) được"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "へえ、知[し]りませんでした。",
+     "vi": "Ồ, tôi không biết đấy.",
+     "grammar": [
+      "g:〜ました・〜ませんでした"
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "今度[こんど]、ホアさんの友達[ともだち]のコンサートがありますよ。一緒[いっしょ]に行[い]きませんか。",
+     "vi": "Sắp tới có buổi hòa nhạc của bạn Hoa. Đi cùng không?",
+     "key": "コンサート",
+     "grammar": [
+      "g:〜の",
+      "g:〜があります・〜がいます",
+      "g:〜ませんか"
+     ],
+     "gloss": [
+      {
+       "w": "今度[こんど]",
+       "vi": "sắp tới"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いいですね。行[い]きたいです。",
+     "vi": "Hay đấy. Tôi muốn đi.",
+     "grammar": [
+      "g:〜たい"
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "グエンさん、日本[にほん]の生活[せいかつ]に慣[な]れましたか。",
+     "vi": "Anh Nguyễn quen cuộc sống ở Nhật chưa?",
+     "key": "生活[せいかつ]",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "慣[な]れました",
+       "vi": "đã quen"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。でも、お金[かね]もかかるし、冬[ふゆ]は寒[さむ]いし、大変[たいへん]です。",
+     "vi": "Quen rồi. Nhưng vừa tốn tiền, mùa đông lại lạnh, vất vả lắm.",
+     "grammar": [
+      "g:〜も",
+      "g:〜し、〜し"
+     ],
+     "gloss": [
+      {
+       "w": "かかる",
+       "vi": "tốn (tiền)"
+      },
+      {
+       "w": "大変[たいへん]",
+       "vi": "vất vả"
+      },
+      {
+       "w": "変[へん]",
+       "vi": "lạ, kỳ"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "僕[ぼく]もです。お金持[かねも]ちになりたいですね。",
+     "vi": "Em cũng vậy. Muốn thành người giàu ghê.",
+     "key": "お金持[かねも]ち",
+     "grammar": [
+      "g:〜も",
+      "g:〜くなる・〜になる",
+      "g:〜たい"
+     ],
+     "gloss": [
+      {
+       "w": "僕[ぼく]",
+       "vi": "tôi (nam, thân mật)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ははは。働[はたら]きながら、毎日[まいにち]少[すこ]しずつ貯[た]めましょう。",
+     "vi": "Ha ha. Vừa làm vừa để dành từng chút mỗi ngày thôi.",
+     "grammar": [
+      "g:〜ながら",
+      "g:〜ましょう"
+     ],
+     "gloss": [
+      {
+       "w": "少[すこ]しずつ",
+       "vi": "từng chút một"
+      },
+      {
+       "w": "貯[た]めましょう",
+       "vi": "để dành nhé"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "そうですね。でも、たまには遊[あそ]びも大切[たいせつ]ですよ。",
+     "vi": "Đúng vậy. Nhưng thỉnh thoảng đi chơi cũng quan trọng đấy.",
+     "key": "遊[あそ]び",
+     "grammar": [
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "たまには",
+       "vi": "thỉnh thoảng thì"
+      },
+      {
+       "w": "大切[たいせつ]",
+       "vi": "quan trọng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "日曜日[にちようび]は友達[ともだち]と食事[しょくじ]をしようと思[おも]っています。",
+     "vi": "Chủ nhật anh định đi ăn với bạn.",
+     "key": "食事[しょくじ]",
+     "grammar": [
+      "g:〜と",
+      "g:〜を",
+      "g:〜ようと思う"
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "その格好[かっこう]で行[い]きますか。",
+     "vi": "Anh định đi với bộ dạng đó à?",
+     "key": "格好[かっこう]",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜で",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "え、変[へん]ですか。",
+     "vi": "Ơ, lạ lắm à?",
+     "grammar": [
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "変[へん]",
+       "vi": "lạ, kỳ"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "ちょっと……。シャツも古[ふる]いし、ズボンも汚[よご]れているし。",
+     "vi": "Hơi…… Áo vừa cũ, quần lại bẩn.",
+     "grammar": [
+      "g:〜も",
+      "g:〜し、〜し",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "汚[よご]れて",
+       "vi": "bị bẩn"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "じゃあ、別[べつ]の服[ふく]を着[き]ます。",
+     "vi": "Vậy anh mặc bộ khác.",
+     "key": "別[べつ]",
+     "grammar": [
+      "g:〜の",
+      "g:〜を"
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "グエンさん、何[なに]をしていますか。",
+     "vi": "Anh Nguyễn đang làm gì đấy?",
+     "grammar": [
+      "g:〜を",
+      "g:〜ています",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "コンピューターで新[あたら]しいソフトを使[つか]っています。日本語[にほんご]の勉強[べんきょう]のソフトです。",
+     "vi": "Anh đang dùng phần mềm mới trên máy tính. Phần mềm học tiếng Nhật.",
+     "key": "コンピューター",
+     "grammar": [
+      "g:〜で",
+      "g:〜を",
+      "g:〜ています",
+      "g:〜の"
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "便利[べんり]ですか。",
+     "vi": "Có tiện không anh?",
+     "grammar": [
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "便利[べんり]",
+       "vi": "tiện lợi"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。音声[おんせい]も聞[き]けるし、漢字[かんじ]も練習[れんしゅう]できるし、とても便利[べんり]です。",
+     "vi": "Có. Vừa nghe được giọng đọc, vừa luyện được chữ Hán, rất tiện.",
+     "grammar": [
+      "g:〜も",
+      "g:〜し、〜し",
+      "g:可能形（〜られる・〜える）"
+     ],
+     "gloss": [
+      {
+       "w": "漢字[かんじ]",
+       "vi": "chữ Hán"
+      },
+      {
+       "w": "練習[れんしゅう]",
+       "vi": "luyện tập"
+      },
+      {
+       "w": "音声[おんせい]",
+       "vi": "âm thanh (giọng đọc)"
+      },
+      {
+       "w": "便利[べんり]",
+       "vi": "tiện lợi"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "僕[ぼく]も使[つか]いたいです。",
+     "vi": "Em cũng muốn dùng.",
+     "grammar": [
+      "g:〜も",
+      "g:〜たい"
+     ],
+     "gloss": [
+      {
+       "w": "僕[ぼく]",
+       "vi": "tôi (nam, thân mật)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いいですよ。晩[ばん]ご飯[はん]を作[つく]りながら、ミンさんに教[おし]えます。",
+     "vi": "Được chứ. Vừa nấu cơm tối anh vừa chỉ cho em.",
+     "alt": [
+      "晩[ばん]ご飯[はん]を作[つく]りながら教[おし]えますね。"
+     ],
+     "grammar": [
+      "g:〜を",
+      "g:〜ながら",
+      "g:〜に"
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Anh Nguyễn nghe nhạc lúc nào?",
+     "opts": [
+      "Vừa ăn sáng vừa nghe",
+      "Vừa làm việc vừa nghe",
+      "Trước khi ngủ",
+      "Khi đạp xe đi làm"
+     ],
+     "ans": 0,
+     "why": "朝[あさ]、ご飯[はん]を食[た]べながら聞[き]きます。"
+    },
+    {
+     "q": "Vì sao Hoa thích truyện tranh nấu ăn?",
+     "opts": [
+      "Tranh đẹp, chuyện hay, nhớ được món Nhật",
+      "Rẻ",
+      "Bạn tặng",
+      "Dễ đọc"
+     ],
+     "ans": 0,
+     "why": "絵[え]もきれいだし、話[はなし]も面白[おもしろ]いし、日本[にほん]の料理[りょうり]も覚[おぼ]えられます。"
+    },
+    {
+     "q": "Chị Maria đọc tiểu thuyết bằng tiếng gì?",
+     "opts": [
+      "Tiếng Anh",
+      "Tiếng Nhật",
+      "Tiếng Việt",
+      "Không đọc"
+     ],
+     "ans": 0,
+     "why": "まだ難[むずか]しいですから、英語[えいご]の小説[しょうせつ]です。"
+    },
+    {
+     "q": "Vì sao Minh chê bộ quần áo của anh Nguyễn?",
+     "opts": [
+      "Áo cũ, quần bẩn",
+      "Quá to",
+      "Màu lạ",
+      "Quá mỏng"
+     ],
+     "ans": 0,
+     "why": "シャツも古[ふる]いし、ズボンも汚[よご]れているし。"
+    },
+    {
+     "q": "Trong câu 食[た]べながら聞[き]きます, việc chính là gì?",
+     "opts": [
+      "Nghe",
+      "Ăn",
+      "Cả hai như nhau",
+      "Không rõ"
+     ],
+     "ans": 0,
+     "why": "Việc chính đứng sau ながら."
+    }
+   ]
+  }
+ ]
+}

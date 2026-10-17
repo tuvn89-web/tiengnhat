@@ -8,7 +8,7 @@
   "topics": [
    "doisong"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-17",
   "note": ""
  },
@@ -23,13 +23,13 @@
    "ctx": "doisong",
    "lesson": "l:n5-09",
    "intro": true,
-   "setting": "Tổ trưởng Tanaka mời Cậu Cả và chị Maria đến nhà ăn tối. Vợ anh Tanaka nấu nhiều món.",
+   "setting": "Tổ trưởng Tanaka mời anh Nguyễn và chị Maria đến nhà ăn tối. Vợ anh Tanaka nấu nhiều món.",
    "medium": "tructiep",
    "roles": [
     {
      "key": "B",
      "name": "グエン",
-     "vi": "Cậu Cả",
+     "vi": "Bạn",
      "me": true
     },
     {
@@ -144,6 +144,10 @@
       {
        "w": "自転車[じてんしゃ]",
        "vi": "xe đạp"
+      },
+      {
+       "w": "くださる",
+       "vi": "cho (tôi) (tôn kính)"
       }
      ]
     },
@@ -379,7 +383,13 @@
      "jp": "はい、少[すこ]しください。",
      "vi": "Vâng, cho tôi một chút.",
      "key": "少[すこ]し",
-     "grammar": []
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "くださる",
+       "vi": "cho (tôi) (tôn kính)"
+      }
+     ]
     },
     {
      "who": "B",
@@ -452,6 +462,12 @@
      "key": "りんご",
      "grammar": [
       "g:〜を"
+     ],
+     "gloss": [
+      {
+       "w": "くださる",
+       "vi": "cho (tôi) (tôn kính)"
+      }
      ]
     },
     {
@@ -634,6 +650,10 @@
       {
        "w": "ほしい",
        "vi": "muốn (có)"
+      },
+      {
+       "w": "くださる",
+       "vi": "cho (tôi) (tôn kính)"
       }
      ]
     },
@@ -697,7 +717,7 @@
    ],
    "questions": [
     {
-     "q": "Vì sao Cậu Cả không uống bia?",
+     "q": "Vì sao anh Nguyễn không uống bia?",
      "opts": [
       "Hôm nay đi xe đạp",
       "Không thích bia",
@@ -730,7 +750,7 @@
      "why": "甘[あま]い物[もの]が好[す]きです。"
     },
     {
-     "q": "Cậu Cả thích những món Việt nào?",
+     "q": "Anh Nguyễn thích những món Việt nào?",
      "opts": [
       "Phở và bánh mì",
       "Chỉ phở",
@@ -741,7 +761,7 @@
      "why": "フォーが好[す]きです。それから、バインミーも好[す]きです。"
     },
     {
-     "q": "Sau khi ăn xong, Cậu Cả nói gì?",
+     "q": "Sau khi ăn xong, anh Nguyễn nói gì?",
      "opts": [
       "ごちそうさまでした",
       "いただきます",

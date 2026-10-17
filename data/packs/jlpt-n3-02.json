@@ -1,0 +1,1291 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-02",
+  "title": "JLPT N3 02 – Động từ cặp tự / tha (2)",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 2,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:溶ける:とける",
+   "kana": "とける",
+   "kanji": "溶ける",
+   "kf": "溶[と]ける",
+   "hv": "DUNG",
+   "vi": "tan ra (băng, đường, trong nước)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "暑[あつ]くて、アイスがすぐ溶[と]けた。",
+     "vi": "Nóng quá, kem tan ngay.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍[れいとう]の魚[さかな]が溶[と]けないうちに、冷凍庫[れいとうこ]に戻[もど]してください。",
+     "vi": "Hãy cho cá đông lạnh về kho đông trước khi nó tan.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "氷[こおり]が溶[と]ける",
+     "vi": "đá tan"
+    }
+   ],
+   "confuse": [
+    "v:解ける:とける"
+   ],
+   "pair": "v:溶く:とく"
+  },
+  {
+   "id": "v:溶く:とく",
+   "kana": "とく",
+   "kanji": "溶く",
+   "kf": "溶[と]く",
+   "hv": "DUNG",
+   "vi": "hòa tan, khuấy tan (bột, trứng vào nước)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "卵[たまご]を溶[と]いて、スープに入[い]れます。",
+     "vi": "Đánh tan trứng rồi cho vào súp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "粉[こな]の消毒剤[しょうどくざい]を、水[みず]に溶[と]いて使[つか]います。",
+     "vi": "Hòa tan bột khử trùng vào nước rồi dùng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "卵[たまご]を溶[と]く",
+     "vi": "đánh trứng"
+    },
+    {
+     "jp": "水[みず]に溶[と]く",
+     "vi": "hòa vào nước"
+    }
+   ],
+   "pair": "v:溶ける:とける"
+  },
+  {
+   "id": "v:解ける:とける",
+   "kana": "とける",
+   "kanji": "解ける",
+   "kf": "解[と]ける",
+   "hv": "GIẢI",
+   "vi": "được giải (bài); bị lỏng ra (nút, dây)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この問題[もんだい]は難[むずか]しくて、解[と]けません。",
+     "vi": "Bài này khó quá, giải không ra.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "靴[くつ]のひもが解[と]けていますよ。",
+     "vi": "Dây giày tuột rồi kìa.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "問題[もんだい]が解[と]ける",
+     "vi": "giải được bài"
+    },
+    {
+     "jp": "ひもが解[と]ける",
+     "vi": "dây tuột"
+    }
+   ],
+   "confuse": [
+    "v:溶ける:とける"
+   ],
+   "pair": "v:解く:とく"
+  },
+  {
+   "id": "v:解く:とく",
+   "kana": "とく",
+   "kanji": "解く",
+   "kf": "解[と]く",
+   "hv": "GIẢI",
+   "vi": "giải (bài, câu đố); tháo, cởi (nút)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎晩[まいばん]、N3の問題[もんだい]を解[と]いています。",
+     "vi": "Tối nào tôi cũng giải đề N3.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "結[むす]び目[め]を解[と]いて、箱[はこ]を開[あ]けてください。",
+     "vi": "Hãy tháo nút buộc rồi mở thùng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "問題[もんだい]を解[と]く",
+     "vi": "giải bài"
+    },
+    {
+     "jp": "誤解[ごかい]を解[と]く",
+     "vi": "giải tỏa hiểu lầm"
+    }
+   ],
+   "pair": "v:解ける:とける"
+  },
+  {
+   "id": "v:外れる:はずれる",
+   "kana": "はずれる",
+   "kanji": "外れる",
+   "kf": "外[はず]れる",
+   "hv": "NGOẠI",
+   "vi": "bị tuột ra; trật, không trúng",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ボタンが外[はず]れてしまった。",
+     "vi": "Cúc áo bị tuột mất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "天気予報[てんきよほう]が外[はず]れて、雨[あめ]が降[ふ]った。",
+     "vi": "Dự báo sai, trời mưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]のカバーが外[はず]れていたら、使[つか]わないでください。",
+     "vi": "Nắp máy bị tuột thì đừng dùng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "予想[よそう]が外[はず]れる",
+     "vi": "đoán trật"
+    },
+    {
+     "jp": "宝[たから]くじが外[はず]れる",
+     "vi": "trượt xổ số"
+    }
+   ],
+   "ant": [
+    "v:当たる:あたる"
+   ],
+   "pair": "v:外す:はずす"
+  },
+  {
+   "id": "v:外す:はずす",
+   "kana": "はずす",
+   "kanji": "外す",
+   "kf": "外[はず]す",
+   "hv": "NGOẠI",
+   "vi": "tháo ra, cởi ra; rời (chỗ ngồi)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "部屋[へや]に入[はい]ったら、帽子[ぼうし]を外[はず]してください。",
+     "vi": "Vào phòng thì bỏ mũ ra.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "休憩[きゅうけい]の時[とき]は、手袋[てぶくろ]とエプロンを外[はず]します。",
+     "vi": "Giờ nghỉ thì tháo găng và tạp dề.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "担当者[たんとうしゃ]は今[いま]、席[せき]を外[はず]しております。",
+     "vi": "Người phụ trách hiện đang vắng mặt ạ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手袋[てぶくろ]を外[はず]す",
+     "vi": "tháo găng tay"
+    },
+    {
+     "jp": "席[せき]を外[はず]す",
+     "vi": "rời chỗ ngồi"
+    }
+   ],
+   "pair": "v:外れる:はずれる"
+  },
+  {
+   "id": "v:抜ける:ぬける",
+   "kana": "ぬける",
+   "kanji": "抜ける",
+   "kf": "抜[ぬ]ける",
+   "hv": "BẠT",
+   "vi": "rụng (tóc, răng); bị sót (tên, chữ); xuyên qua (đường hầm)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "最近[さいきん]、髪[かみ]の毛[け]がよく抜[ぬ]ける。",
+     "vi": "Dạo này tóc hay rụng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "名簿[めいぼ]から私[わたし]の名前[なまえ]が抜[ぬ]けていました。",
+     "vi": "Tên tôi bị sót khỏi danh sách.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "このトンネルを抜[ぬ]けると、海[うみ]が見[み]える。",
+     "vi": "Ra khỏi đường hầm này là thấy biển.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "歯[は]が抜[ぬ]ける",
+     "vi": "rụng răng"
+    },
+    {
+     "jp": "力[ちから]が抜[ぬ]ける",
+     "vi": "mất sức"
+    }
+   ],
+   "pair": "v:抜く:ぬく"
+  },
+  {
+   "id": "v:抜く:ぬく",
+   "kana": "ぬく",
+   "kanji": "抜く",
+   "kf": "抜[ぬ]く",
+   "hv": "BẠT",
+   "vi": "nhổ, rút ra; bỏ (bữa); vượt qua",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "庭[にわ]の草[くさ]を抜[ぬ]きました。",
+     "vi": "Tôi nhổ cỏ trong vườn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]の骨[ほね]を一本[いっぽん]ずつ抜[ぬ]きます。",
+     "vi": "Rút từng cái xương cá ra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "忙[いそが]しくて、昼[ひる]ご飯[はん]を抜[ぬ]いてしまった。",
+     "vi": "Bận quá nên bỏ bữa trưa.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "骨[ほね]を抜[ぬ]く",
+     "vi": "rút xương"
+    },
+    {
+     "jp": "食事[しょくじ]を抜[ぬ]く",
+     "vi": "bỏ bữa"
+    },
+    {
+     "jp": "コンセントを抜[ぬ]く",
+     "vi": "rút phích cắm"
+    }
+   ],
+   "pair": "v:抜ける:ぬける"
+  },
+  {
+   "id": "v:流れる:ながれる",
+   "kana": "ながれる",
+   "kanji": "流れる",
+   "kf": "流[なが]れる",
+   "hv": "LƯU",
+   "vi": "chảy; trôi (thời gian); (tin, nhạc) phát ra",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "川[かわ]がゆっくり流[なが]れている。",
+     "vi": "Dòng sông chảy chầm chậm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "排水[はいすい]口[くち]に水[みず]が流[なが]れないので、詰[つ]まっているかもしれない。",
+     "vi": "Nước không chảy xuống cống, có lẽ bị tắc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "店[みせ]に音楽[おんがく]が流[なが]れている。",
+     "vi": "Trong quán có nhạc phát.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]が流[なが]れる",
+     "vi": "nước chảy"
+    },
+    {
+     "jp": "時間[じかん]が流[なが]れる",
+     "vi": "thời gian trôi"
+    }
+   ],
+   "pair": "v:流す:ながす"
+  },
+  {
+   "id": "v:流す:ながす",
+   "kana": "ながす",
+   "kanji": "流す",
+   "kf": "流[なが]す",
+   "hv": "LƯU",
+   "vi": "cho chảy, xả (nước); dội",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "トイレの水[みず]を流[なが]してください。",
+     "vi": "Hãy xả nước bồn cầu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "作業[さぎょう]が終[お]わったら、床[ゆか]の鱗[うろこ]を水[みず]で流[なが]します。",
+     "vi": "Làm xong thì dội nước trôi vảy cá trên sàn.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]を流[なが]す",
+     "vi": "xả nước"
+    },
+    {
+     "jp": "涙[なみだ]を流[なが]す",
+     "vi": "rơi nước mắt"
+    }
+   ],
+   "pair": "v:流れる:ながれる"
+  },
+  {
+   "id": "v:伸びる:のびる",
+   "kana": "のびる",
+   "kanji": "伸びる",
+   "kf": "伸[の]びる",
+   "hv": "THÂN",
+   "vi": "dài ra, cao lên; (thành tích) tăng lên",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一年[いちねん]で、背[せ]が五[ご]センチ伸[の]びた。",
+     "vi": "Một năm cao thêm 5 cm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今月[こんげつ]は、売[う]り上[あ]げが伸[の]びています。",
+     "vi": "Tháng này doanh số tăng lên.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "髪[かみ]が伸[の]びる",
+     "vi": "tóc dài ra"
+    },
+    {
+     "jp": "記録[きろく]が伸[の]びる",
+     "vi": "thành tích tăng"
+    }
+   ],
+   "confuse": [
+    "v:延びる:のびる"
+   ],
+   "pair": "v:伸ばす:のばす"
+  },
+  {
+   "id": "v:伸ばす:のばす",
+   "kana": "のばす",
+   "kanji": "伸ばす",
+   "kf": "伸[の]ばす",
+   "hv": "THÂN",
+   "vi": "để dài, kéo dài ra; duỗi thẳng; phát triển (năng lực)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "髪[かみ]を伸[の]ばしています。",
+     "vi": "Tôi đang để tóc dài.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "休憩[きゅうけい]の時[とき]に、腰[こし]と背中[せなか]を伸[の]ばしましょう。",
+     "vi": "Giờ nghỉ hãy duỗi thẳng lưng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本語[にほんご]の力[ちから]を伸[の]ばしたい。",
+     "vi": "Muốn nâng cao năng lực tiếng Nhật.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "背中[せなか]を伸[の]ばす",
+     "vi": "duỗi thẳng lưng"
+    },
+    {
+     "jp": "力[ちから]を伸[の]ばす",
+     "vi": "phát triển năng lực"
+    }
+   ],
+   "pair": "v:伸びる:のびる"
+  },
+  {
+   "id": "v:延びる:のびる",
+   "kana": "のびる",
+   "kanji": "延びる",
+   "kf": "延[の]びる",
+   "hv": "DIÊN",
+   "vi": "bị kéo dài, bị hoãn lại (thời gian, hạn)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]で、運動会[うんどうかい]が来週[らいしゅう]に延[の]びた。",
+     "vi": "Vì mưa, hội thao bị hoãn sang tuần sau.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会議[かいぎ]が延[の]びて、昼休[ひるやす]みが短[みじか]くなった。",
+     "vi": "Cuộc họp kéo dài nên giờ nghỉ trưa bị ngắn.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "期限[きげん]が延[の]びる",
+     "vi": "hạn được lùi lại"
+    }
+   ],
+   "confuse": [
+    "v:伸びる:のびる"
+   ],
+   "pair": "v:延ばす:のばす"
+  },
+  {
+   "id": "v:延ばす:のばす",
+   "kana": "のばす",
+   "kanji": "延ばす",
+   "kf": "延[の]ばす",
+   "hv": "DIÊN",
+   "vi": "dời (thời hạn, ngày giờ) ra sau; hoãn lại",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "出発[しゅっぱつ]を一日[いちにち]延[の]ばしました。",
+     "vi": "Tôi hoãn khởi hành một ngày.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ビザの期間[きかん]を延[の]ばすために、申請[しんせい]します。",
+     "vi": "Nộp đơn để kéo dài thời hạn visa.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "期限[きげん]を延[の]ばす",
+     "vi": "gia hạn"
+    },
+    {
+     "jp": "出発[しゅっぱつ]を延[の]ばす",
+     "vi": "hoãn khởi hành"
+    }
+   ],
+   "confuse": [
+    "v:伸ばす:のばす"
+   ],
+   "pair": "v:延びる:のびる"
+  },
+  {
+   "id": "v:離れる:はなれる",
+   "kana": "はなれる",
+   "kanji": "離れる",
+   "kf": "離[はな]れる",
+   "hv": "LY",
+   "vi": "rời xa, cách xa",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家族[かぞく]と離[はな]れて、日本[にほん]で働[はたら]いています。",
+     "vi": "Tôi xa gia đình, làm việc ở Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]が動[うご]いている時[とき]は、少[すこ]し離[はな]れてください。",
+     "vi": "Khi máy đang chạy hãy đứng lùi ra một chút.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "家族[かぞく]と離[はな]れる",
+     "vi": "xa gia đình"
+    },
+    {
+     "jp": "席[せき]を離[はな]れる",
+     "vi": "rời chỗ ngồi"
+    }
+   ],
+   "pair": "v:離す:はなす"
+  },
+  {
+   "id": "v:離す:はなす",
+   "kana": "はなす",
+   "kanji": "離す",
+   "kf": "離[はな]す",
+   "hv": "LY",
+   "vi": "buông ra; để cách ra, tách ra",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手[て]を離[はな]さないで、しっかり持[も]って。",
+     "vi": "Đừng buông tay, cầm chắc vào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "生[なま]の魚[さかな]と加工品[かこうひん]は、離[はな]して置[お]いてください。",
+     "vi": "Cá sống và hàng đã chế biến hãy để cách xa nhau.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手[て]を離[はな]す",
+     "vi": "buông tay"
+    },
+    {
+     "jp": "目[め]を離[はな]す",
+     "vi": "rời mắt"
+    }
+   ],
+   "pair": "v:離れる:はなれる"
+  },
+  {
+   "id": "v:広がる:ひろがる",
+   "kana": "ひろがる",
+   "kanji": "広がる",
+   "kf": "広[ひろ]がる",
+   "hv": "QUẢNG",
+   "vi": "lan rộng, mở rộng ra",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "目[め]の前[まえ]に海[うみ]が広[ひろ]がっている。",
+     "vi": "Trước mặt là biển trải rộng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "風邪[かぜ]が工場[こうじょう]の中[なか]で広[ひろ]がっている。",
+     "vi": "Cảm cúm đang lan trong nhà máy.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "うわさが広[ひろ]がる",
+     "vi": "tin đồn lan ra"
+    },
+    {
+     "jp": "火[ひ]が広[ひろ]がる",
+     "vi": "lửa lan rộng"
+    }
+   ],
+   "pair": "v:広げる:ひろげる"
+  },
+  {
+   "id": "v:広げる:ひろげる",
+   "kana": "ひろげる",
+   "kanji": "広げる",
+   "kf": "広[ひろ]げる",
+   "hv": "QUẢNG",
+   "vi": "mở rộng; trải ra, giở ra",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地図[ちず]を広[ひろ]げて、道[みち]を探[さが]した。",
+     "vi": "Tôi giở bản đồ ra tìm đường.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい工場[こうじょう]を作[つく]って、仕事[しごと]を広[ひろ]げる予定[よてい]です。",
+     "vi": "Dự định xây nhà máy mới để mở rộng công việc.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "地図[ちず]を広[ひろ]げる",
+     "vi": "giở bản đồ"
+    },
+    {
+     "jp": "両手[りょうて]を広[ひろ]げる",
+     "vi": "dang hai tay"
+    }
+   ],
+   "pair": "v:広がる:ひろがる"
+  },
+  {
+   "id": "v:広まる:ひろまる",
+   "kana": "ひろまる",
+   "kanji": "広まる",
+   "kf": "広[ひろ]まる",
+   "hv": "QUẢNG",
+   "vi": "(tin, phong tục) được lan truyền",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "その話[はなし]は、すぐに町中[まちなか]に広[ひろ]まった。",
+     "vi": "Chuyện đó nhanh chóng lan khắp thị trấn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しいルールが、工場[こうじょう]全体[ぜんたい]に広[ひろ]まった。",
+     "vi": "Quy định mới đã được phổ biến khắp nhà máy.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "うわさが広[ひろ]まる",
+     "vi": "tin đồn lan truyền"
+    }
+   ],
+   "pair": "v:広める:ひろめる"
+  },
+  {
+   "id": "v:広める:ひろめる",
+   "kana": "ひろめる",
+   "kanji": "広める",
+   "kf": "広[ひろ]める",
+   "hv": "QUẢNG",
+   "vi": "truyền bá, phổ biến",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ベトナム料理[りょうり]を日本[にほん]に広[ひろ]めたい。",
+     "vi": "Tôi muốn phổ biến món Việt ở Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "安全[あんぜん]の大切[たいせつ]さを、みんなに広[ひろ]めましょう。",
+     "vi": "Hãy phổ biến tầm quan trọng của an toàn cho mọi người.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "知識[ちしき]を広[ひろ]める",
+     "vi": "mở mang kiến thức"
+    }
+   ],
+   "pair": "v:広まる:ひろまる"
+  },
+  {
+   "id": "v:深まる:ふかまる",
+   "kana": "ふかまる",
+   "kanji": "深まる",
+   "kf": "深[ふか]まる",
+   "hv": "THÂM",
+   "vi": "sâu thêm, sâu sắc hơn",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "秋[あき]が深[ふか]まって、木[こ]の葉[は]が赤[あか]くなった。",
+     "vi": "Thu đã sâu, lá cây ngả đỏ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "話[はな]し合[あ]いで、お互[たが]いの理解[りかい]が深[ふか]まった。",
+     "vi": "Qua trao đổi, sự hiểu nhau đã sâu sắc hơn.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "理解[りかい]が深[ふか]まる",
+     "vi": "hiểu sâu hơn"
+    }
+   ],
+   "pair": "v:深める:ふかめる"
+  },
+  {
+   "id": "v:深める:ふかめる",
+   "kana": "ふかめる",
+   "kanji": "深める",
+   "kf": "深[ふか]める",
+   "hv": "THÂM",
+   "vi": "làm sâu sắc thêm, đào sâu",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]の文化[ぶんか]について、知識[ちしき]を深[ふか]めたい。",
+     "vi": "Muốn đào sâu kiến thức về văn hóa Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "研修[けんしゅう]で、衛生管理[えいせいかんり]の理解[りかい]を深[ふか]めます。",
+     "vi": "Đào sâu hiểu biết về quản lý vệ sinh qua khóa đào tạo.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "理解[りかい]を深[ふか]める",
+     "vi": "hiểu sâu hơn"
+    }
+   ],
+   "pair": "v:深まる:ふかまる"
+  },
+  {
+   "id": "v:高まる:たかまる",
+   "kana": "たかまる",
+   "kanji": "高まる",
+   "kf": "高[たか]まる",
+   "hv": "CAO",
+   "vi": "dâng cao, tăng lên (mức độ, quan tâm)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "試合[しあい]が近[ちか]づいて、気持[きも]ちが高[たか]まってきた。",
+     "vi": "Trận đấu đến gần, cảm xúc dâng cao.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "食[しょく]の安全[あんぜん]への関心[かんしん]が高[たか]まっている。",
+     "vi": "Mối quan tâm đến an toàn thực phẩm đang tăng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "関心[かんしん]が高[たか]まる",
+     "vi": "mối quan tâm tăng"
+    }
+   ],
+   "pair": "v:高める:たかめる"
+  },
+  {
+   "id": "v:高める:たかめる",
+   "kana": "たかめる",
+   "kanji": "高める",
+   "kf": "高[たか]める",
+   "hv": "CAO",
+   "vi": "nâng cao (chất lượng, năng lực)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "品質[ひんしつ]を高[たか]めるために、検査[けんさ]を増[ふ]やします。",
+     "vi": "Tăng kiểm tra để nâng cao chất lượng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "技術[ぎじゅつ]を高[たか]めて、二号[にごう]を目指[めざ]します。",
+     "vi": "Nâng cao tay nghề, hướng tới kỹ năng đặc định số 2.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "品質[ひんしつ]を高[たか]める",
+     "vi": "nâng cao chất lượng"
+    },
+    {
+     "jp": "能力[のうりょく]を高[たか]める",
+     "vi": "nâng cao năng lực"
+    }
+   ],
+   "pair": "v:高まる:たかまる"
+  },
+  {
+   "id": "v:強まる:つよまる",
+   "kana": "つよまる",
+   "kanji": "強まる",
+   "kf": "強[つよ]まる",
+   "hv": "CƯỜNG",
+   "vi": "mạnh lên (gió, mưa, xu hướng)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜[よる]になって、風[かぜ]が強[つよ]まってきた。",
+     "vi": "Về đêm gió mạnh lên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "台風[たいふう]の影響[えいきょう]で、雨[あめ]が強[つよ]まるそうです。",
+     "vi": "Nghe nói do ảnh hưởng bão, mưa sẽ to lên.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "風[かぜ]が強[つよ]まる",
+     "vi": "gió mạnh lên"
+    }
+   ],
+   "ant": [
+    "v:弱まる:よわまる"
+   ],
+   "pair": "v:強める:つよめる"
+  },
+  {
+   "id": "v:強める:つよめる",
+   "kana": "つよめる",
+   "kanji": "強める",
+   "kf": "強[つよ]める",
+   "hv": "CƯỜNG",
+   "vi": "làm mạnh lên, tăng cường",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "火[ひ]を強[つよ]めて、一気[いっき]に焼[や]きます。",
+     "vi": "Tăng lửa, nướng một mạch.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "夏[なつ]は、温度[おんど]の管理[かんり]を強[つよ]めてください。",
+     "vi": "Mùa hè hãy tăng cường quản lý nhiệt độ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "火[ひ]を強[つよ]める",
+     "vi": "tăng lửa"
+    },
+    {
+     "jp": "管理[かんり]を強[つよ]める",
+     "vi": "siết chặt quản lý"
+    }
+   ],
+   "ant": [
+    "v:弱める:よわめる"
+   ],
+   "pair": "v:強まる:つよまる"
+  },
+  {
+   "id": "v:弱まる:よわまる",
+   "kana": "よわまる",
+   "kanji": "弱まる",
+   "kf": "弱[よわ]まる",
+   "hv": "NHƯỢC",
+   "vi": "yếu đi (gió, mưa, lực)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "午後[ごご]になって、雨[あめ]が弱[よわ]まった。",
+     "vi": "Sang chiều mưa nhỏ lại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "台風[たいふう]の勢[いきお]いが弱[よわ]まってきた。",
+     "vi": "Sức bão đã yếu đi.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "雨[あめ]が弱[よわ]まる",
+     "vi": "mưa nhỏ lại"
+    }
+   ],
+   "ant": [
+    "v:強まる:つよまる"
+   ],
+   "pair": "v:弱める:よわめる"
+  },
+  {
+   "id": "v:弱める:よわめる",
+   "kana": "よわめる",
+   "kanji": "弱める",
+   "kf": "弱[よわ]める",
+   "hv": "NHƯỢC",
+   "vi": "làm yếu đi, giảm (lửa, lực)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "煮[に]えたら、火[ひ]を弱[よわ]めてください。",
+     "vi": "Sôi rồi thì hãy hạ nhỏ lửa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]のスピードを少[すこ]し弱[よわ]めます。",
+     "vi": "Giảm tốc độ máy một chút.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "火[ひ]を弱[よわ]める",
+     "vi": "hạ nhỏ lửa"
+    }
+   ],
+   "ant": [
+    "v:強める:つよめる"
+   ],
+   "pair": "v:弱まる:よわまる"
+  },
+  {
+   "id": "v:混ざる:まざる",
+   "kana": "まざる",
+   "kanji": "混ざる",
+   "kf": "混[ま]ざる",
+   "hv": "HỖN",
+   "vi": "bị lẫn vào, trộn lẫn",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "米[こめ]に小[ちい]さい石[いし]が混[ま]ざっていた。",
+     "vi": "Trong gạo có lẫn sỏi nhỏ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "製品[せいひん]に異物[いぶつ]が混[ま]ざらないように、注意[ちゅうい]してください。",
+     "vi": "Hãy chú ý để dị vật không lẫn vào sản phẩm.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "異物[いぶつ]が混[ま]ざる",
+     "vi": "lẫn dị vật"
+    }
+   ],
+   "pair": "v:混ぜる:まぜる"
+  },
+  {
+   "id": "v:混ぜる:まぜる",
+   "kana": "まぜる",
+   "kanji": "混ぜる",
+   "kf": "混[ま]ぜる",
+   "hv": "HỖN",
+   "vi": "trộn, khuấy",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "卵[たまご]と砂糖[さとう]をよく混[ま]ぜてください。",
+     "vi": "Hãy trộn đều trứng và đường.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "種類[しゅるい]の違[ちが]う魚[さかな]を混[ま]ぜないでください。",
+     "vi": "Đừng trộn lẫn các loại cá khác nhau.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "よく混[ま]ぜる",
+     "vi": "trộn đều"
+    },
+    {
+     "jp": "材料[ざいりょう]を混[ま]ぜる",
+     "vi": "trộn nguyên liệu"
+    }
+   ],
+   "pair": "v:混ざる:まざる"
+  },
+  {
+   "id": "v:溜まる:たまる",
+   "kana": "たまる",
+   "kanji": "溜まる",
+   "kf": "溜[た]まる",
+   "hv": "LỰU",
+   "vi": "dồn lại, tích tụ (nước, việc, tiền)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仕事[しごと]が溜[た]まって、休[やす]めない。",
+     "vi": "Việc dồn lại, không nghỉ được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "床[ゆか]に水[みず]が溜[た]まらないように、こまめに拭[ふ]きます。",
+     "vi": "Lau thường xuyên để nước không đọng trên sàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "半年[はんとし]で、お金[かね]が少[すこ]し溜[た]まった。",
+     "vi": "Nửa năm để dành được ít tiền.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]が溜[た]まる",
+     "vi": "nước đọng"
+    },
+    {
+     "jp": "ストレスが溜[た]まる",
+     "vi": "tích tụ căng thẳng"
+    }
+   ],
+   "pair": "v:溜める:ためる"
+  },
+  {
+   "id": "v:溜める:ためる",
+   "kana": "ためる",
+   "kanji": "溜める",
+   "kf": "溜[た]める",
+   "hv": "LỰU",
+   "vi": "tích lại, để dành; để dồn",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "国[くに]に帰[かえ]るために、お金[かね]を溜[た]めています。",
+     "vi": "Tôi đang để dành tiền để về nước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "洗[あら]い物[もの]を溜[た]めないで、すぐ洗[あら]いましょう。",
+     "vi": "Đừng để dồn bát bẩn, rửa ngay thôi.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "お金[かね]を溜[た]める",
+     "vi": "để dành tiền"
+    },
+    {
+     "jp": "水[みず]を溜[た]める",
+     "vi": "trữ nước"
+    }
+   ],
+   "pair": "v:溜まる:たまる"
+  }
+ ]
+}

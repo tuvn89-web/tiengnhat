@@ -1,0 +1,1400 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-15",
+  "title": "JLPT N3 15 – Công đoạn: bắt đầu – dở dang – xong",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 2,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:開始:かいし",
+   "kana": "かいし",
+   "kanji": "開始",
+   "hv": "KHAI THỦY",
+   "vi": "bắt đầu (văn viết, thông báo)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "作業[さぎょう]の開始[かいし]は、八時[はちじ]です。",
+     "vi": "Giờ bắt đầu làm việc là 8 giờ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "受付[うけつけ]は、九時[くじ]に開始[かいし]します。",
+     "vi": "Quầy tiếp nhận bắt đầu lúc 9 giờ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "作業[さぎょう]を開始[かいし]する",
+     "vi": "bắt đầu làm việc"
+    }
+   ],
+   "ant": [
+    {
+     "w": "終了[しゅうりょう]",
+     "vi": "kết thúc"
+    }
+   ],
+   "syn": [
+    "v:始める:はじめる"
+   ]
+  },
+  {
+   "id": "v:完成:かんせい",
+   "kana": "かんせい",
+   "kanji": "完成",
+   "hv": "HOÀN THÀNH",
+   "vi": "hoàn thành (làm ra xong một thứ)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい工場[こうじょう]が完成[かんせい]しました。",
+     "vi": "Nhà máy mới đã xây xong.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この料理[りょうり]は、ソースをかけて完成[かんせい]です。",
+     "vi": "Món này rưới nước sốt là xong.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "製品[せいひん]が完成[かんせい]する",
+     "vi": "sản phẩm hoàn thành"
+    }
+   ]
+  },
+  {
+   "id": "v:完了:かんりょう",
+   "kana": "かんりょう",
+   "kanji": "完了",
+   "hv": "HOÀN LIỄU",
+   "vi": "hoàn tất (một quy trình)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "登録[とうろく]が完了[かんりょう]しました。",
+     "vi": "Đăng ký đã hoàn tất.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "洗浄[せんじょう]が完了[かんりょう]したら、ボタンを押[お]してください。",
+     "vi": "Rửa xong thì bấm nút.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "作業[さぎょう]が完了[かんりょう]する",
+     "vi": "công việc hoàn tất"
+    }
+   ],
+   "note": "Màn hình máy, điện thoại hay hiện 完了[かんりょう] = Xong."
+  },
+  {
+   "id": "v:中止:ちゅうし",
+   "kana": "ちゅうし",
+   "kanji": "中止",
+   "hv": "TRUNG CHỈ",
+   "vi": "hủy, đình chỉ",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]で、お祭[まつ]りが中止[ちゅうし]になりました。",
+     "vi": "Vì mưa, lễ hội bị hủy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "異常[いじょう]があれば、作業[さぎょう]を中止[ちゅうし]してください。",
+     "vi": "Có bất thường thì dừng công việc lại.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "作業[さぎょう]を中止[ちゅうし]する",
+     "vi": "dừng công việc"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "延期[えんき]",
+     "vi": "hoãn lại"
+    }
+   ]
+  },
+  {
+   "id": "v:残り:のこり",
+   "kana": "のこり",
+   "kanji": "残り",
+   "kf": "残[のこ]り",
+   "hv": "TÀN",
+   "vi": "phần còn lại",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "残[のこ]りの魚[さかな]は、明日[あした]処理[しょり]します。",
+     "vi": "Chỗ cá còn lại mai xử lý.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "残[のこ]りの時間[じかん]は、あと十分[じゅうぶん]です。",
+     "vi": "Thời gian còn lại là 10 phút nữa.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:残る:のこる",
+    "v:残す:のこす"
+   ]
+  },
+  {
+   "id": "v:製造:せいぞう",
+   "kana": "せいぞう",
+   "kanji": "製造",
+   "hv": "CHẾ TẠO",
+   "vi": "sản xuất hàng loạt (nhà máy)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この工場[こうじょう]では、冷凍食品[れいとうしょくひん]を製造[せいぞう]しています。",
+     "vi": "Nhà máy này sản xuất thực phẩm đông lạnh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ラベルに、製造[せいぞう]日[ひ]が書[か]いてあります。",
+     "vi": "Trên nhãn có ghi ngày sản xuất.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "製品[せいひん]を製造[せいぞう]する",
+     "vi": "sản xuất sản phẩm"
+    }
+   ],
+   "syn": [
+    "v:生産:せいさん"
+   ],
+   "note": "製造日[せいぞうび] = ngày sản xuất; 製造所[せいぞうしょ] = nơi sản xuất."
+  },
+  {
+   "id": "v:製品:せいひん",
+   "kana": "せいひん",
+   "kanji": "製品",
+   "hv": "CHẾ PHẨM",
+   "vi": "sản phẩm (làm ra)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "製品[せいひん]の重[おも]さを、一[ひと]つずつ確[たし]かめます。",
+     "vi": "Kiểm tra trọng lượng từng sản phẩm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本[にほん]の製品[せいひん]は、品質[ひんしつ]がいいです。",
+     "vi": "Sản phẩm Nhật chất lượng tốt.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:商品:しょうひん"
+   ]
+  },
+  {
+   "id": "v:過程:かてい",
+   "kana": "かてい",
+   "kanji": "過程",
+   "hv": "QUÁ TRÌNH",
+   "vi": "quá trình",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "製造[せいぞう]の過程[かてい]を、ビデオで見[み]ました。",
+     "vi": "Tôi xem quá trình sản xuất qua video.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "結果[けっか]だけでなく、過程[かてい]も大切[たいせつ]です。",
+     "vi": "Không chỉ kết quả, quá trình cũng quan trọng.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "課程[かてい]",
+     "vi": "khóa học"
+    }
+   ]
+  },
+  {
+   "id": "v:処理:しょり",
+   "kana": "しょり",
+   "kanji": "処理",
+   "hv": "XỬ LÝ",
+   "vi": "sơ chế, xử lý xong (một khâu)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今日[きょう]は、マグロを五百[ごひゃく]キロ処理[しょり]しました。",
+     "vi": "Hôm nay xử lý 500 kg cá ngừ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ゴミの処理[しょり]の仕方[しかた]を教[おし]えてください。",
+     "vi": "Chỉ tôi cách xử lý rác.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "魚[さかな]を処理[しょり]する",
+     "vi": "xử lý cá"
+    }
+   ]
+  },
+  {
+   "id": "v:操作:そうさ",
+   "kana": "そうさ",
+   "kanji": "操作",
+   "hv": "THAO TÁC",
+   "vi": "thao tác, vận hành (máy)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]の操作[そうさ]は、免許[めんきょ]のある人[ひと]だけです。",
+     "vi": "Chỉ người có giấy phép mới được vận hành máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "スマホの操作[そうさ]が、よく分[わ]かりません。",
+     "vi": "Tôi không rành thao tác điện thoại.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "機械[きかい]を操作[そうさ]する",
+     "vi": "vận hành máy"
+    }
+   ]
+  },
+  {
+   "id": "v:装置:そうち",
+   "kana": "そうち",
+   "kanji": "装置",
+   "hv": "TRANG TRÍ",
+   "vi": "thiết bị (máy chuyên dùng)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiết bị",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "金属[きんぞく]を見[み]つける装置[そうち]で、全部[ぜんぶ]の製品[せいひん]を検査[けんさ]します。",
+     "vi": "Kiểm tra toàn bộ sản phẩm bằng thiết bị dò kim loại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "安全[あんぜん]装置[そうち]を外[はず]さないでください。",
+     "vi": "Đừng tháo thiết bị an toàn.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:設備:せつび"
+   ],
+   "note": "安全装置[あんぜんそうち] = thiết bị an toàn; 金属探知機[きんぞくたんちき] = máy dò kim loại."
+  },
+  {
+   "id": "v:設備:せつび",
+   "kana": "せつび",
+   "kanji": "設備",
+   "hv": "THIẾT BỊ",
+   "vi": "trang thiết bị (cơ sở vật chất)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiết bị",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この工場[こうじょう]は、設備[せつび]が新[あたら]しいです。",
+     "vi": "Nhà máy này trang thiết bị mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "寮[りょう]の設備[せつび]について、説明[せつめい]します。",
+     "vi": "Tôi giải thích về trang thiết bị ký túc xá.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:機能:きのう",
+   "kana": "きのう",
+   "kanji": "機能",
+   "hv": "CƠ NĂNG",
+   "vi": "chức năng",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiết bị",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この冷蔵庫[れいぞうこ]には、急速[きゅうそく]冷凍[れいとう]の機能[きのう]があります。",
+     "vi": "Tủ lạnh này có chức năng cấp đông nhanh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "古[ふる]い機械[きかい]は、うまく機能[きのう]しません。",
+     "vi": "Máy cũ không hoạt động tốt.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "うまく機能[きのう]する",
+     "vi": "hoạt động tốt"
+    }
+   ],
+   "confuse": [
+    "v:昨日:きのう"
+   ]
+  },
+  {
+   "id": "v:スイッチ:スイッチ",
+   "kana": "スイッチ",
+   "kanji": "",
+   "hv": "",
+   "vi": "công tắc",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiết bị",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "スイッチを切[き]ってから、掃除[そうじ]してください。",
+     "vi": "Tắt công tắc rồi mới vệ sinh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "電気[でんき]のスイッチは、ドアの横[よこ]です。",
+     "vi": "Công tắc điện ở cạnh cửa.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "スイッチを入[い]れる",
+     "vi": "bật công tắc"
+    }
+   ],
+   "goc": "switch (tiếng Anh)"
+  },
+  {
+   "id": "v:エンジン:エンジン",
+   "kana": "エンジン",
+   "kanji": "",
+   "hv": "",
+   "vi": "động cơ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiết bị",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "トラックのエンジンをかけたまま、休[やす]まないでください。",
+     "vi": "Đừng để nổ máy xe tải mà nghỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "船[ふね]のエンジンが故障[こしょう]しました。",
+     "vi": "Động cơ tàu bị hỏng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "エンジンをかける",
+     "vi": "nổ máy"
+    }
+   ],
+   "goc": "engine (tiếng Anh)"
+  },
+  {
+   "id": "v:計器:けいき",
+   "kana": "けいき",
+   "kanji": "計器",
+   "hv": "KẾ KHÍ",
+   "vi": "đồng hồ đo",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiết bị",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "計器[けいき]の数字[すうじ]を、一時間[いちじかん]ごとに記録[きろく]します。",
+     "vi": "Ghi số trên đồng hồ đo mỗi giờ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "計器[けいき]が壊[こわ]れていないか、確認[かくにん]してください。",
+     "vi": "Hãy xem đồng hồ đo có hỏng không.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    {
+     "w": "メーター",
+     "vi": "đồng hồ đo"
+    }
+   ]
+  },
+  {
+   "id": "v:型:かた",
+   "kana": "かた",
+   "kanji": "型",
+   "hv": "HÌNH",
+   "vi": "khuôn, mẫu, kiểu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiết bị",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]のすり身[み]を型[かた]に入[い]れて、形[かたち]を作[つく]ります。",
+     "vi": "Cho chả cá vào khuôn tạo hình.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この携帯[けいたい]は、古[ふる]い型[かた]です。",
+     "vi": "Điện thoại này đời cũ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "〜型[がた]: kiểu … (大型[おおがた] = cỡ lớn, 新型[しんがた] = kiểu mới)."
+  },
+  {
+   "id": "v:板:いた",
+   "kana": "いた",
+   "kanji": "板",
+   "hv": "BẢN",
+   "vi": "tấm ván",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "まな板[いた]は、使[つか]うたびに洗[あら]ってください。",
+     "vi": "Thớt mỗi lần dùng hãy rửa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "板[いた]の上[うえ]に、魚[さかな]を並[なら]べます。",
+     "vi": "Xếp cá lên tấm ván.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "まな板[いた] = cái thớt."
+  },
+  {
+   "id": "v:棒:ぼう",
+   "kana": "ぼう",
+   "kanji": "棒",
+   "hv": "BỔNG",
+   "vi": "cây gậy, thanh",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "長[なが]い棒[ぼう]で、氷[こおり]を割[わ]ります。",
+     "vi": "Đập đá bằng thanh dài.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "棒[ぼう]を使[つか]って、高[たか]い所[ところ]の物[もの]を取[と]ります。",
+     "vi": "Dùng gậy lấy đồ trên cao.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:穴:あな",
+   "kana": "あな",
+   "kanji": "穴",
+   "hv": "HUYỆT",
+   "vi": "lỗ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "袋[ふくろ]に穴[あな]が開[あ]いています。",
+     "vi": "Túi bị thủng lỗ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "手袋[てぶくろ]に穴[あな]があったら、すぐ替[か]えてください。",
+     "vi": "Găng tay có lỗ thủng thì thay ngay.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "穴[あな]が開[あ]く = bị thủng."
+  },
+  {
+   "id": "v:底:そこ",
+   "kana": "そこ",
+   "kanji": "底",
+   "hv": "ĐỂ",
+   "vi": "đáy",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]の底[そこ]に、氷[こおり]を入[い]れます。",
+     "vi": "Cho đá xuống đáy thùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "鍋[なべ]の底[そこ]が焦[こ]げてしまった。",
+     "vi": "Đáy nồi bị cháy rồi.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:端:はし",
+   "kana": "はし",
+   "kanji": "端",
+   "hv": "ĐOAN",
+   "vi": "mép, rìa",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]は、台[だい]の端[はし]に置[お]かないでください。",
+     "vi": "Đừng để cá ở mép bàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "道[みち]の端[はし]を歩[ある]きましょう。",
+     "vi": "Hãy đi sát lề đường.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:箸:はし",
+    "v:橋:はし"
+   ],
+   "note": "Đồng âm: 箸[はし] (đũa), 橋[はし] (cầu), 端[はし] (mép)."
+  },
+  {
+   "id": "v:表面:ひょうめん",
+   "kana": "ひょうめん",
+   "kanji": "表面",
+   "hv": "BIỂU DIỆN",
+   "vi": "bề mặt",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]の表面[ひょうめん]に、傷[きず]がないか見[み]てください。",
+     "vi": "Xem bề mặt cá có trầy không.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "表面[ひょうめん]が乾[かわ]いたら、もう一度[いちど]塗[ぬ]ります。",
+     "vi": "Bề mặt khô rồi thì sơn thêm lần nữa.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:部分:ぶぶん",
+   "kana": "ぶぶん",
+   "kanji": "部分",
+   "hv": "BỘ PHÂN",
+   "vi": "bộ phận, phần",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "黒[くろ]い部分[ぶぶん]は、切[き]って捨[す]ててください。",
+     "vi": "Phần màu đen hãy cắt bỏ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "分[わ]からない部分[ぶぶん]に、線[せん]を引[ひ]きました。",
+     "vi": "Tôi gạch chân phần không hiểu.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:全体:ぜんたい"
+   ]
+  },
+  {
+   "id": "v:全体:ぜんたい",
+   "kana": "ぜんたい",
+   "kanji": "全体",
+   "hv": "TOÀN THỂ",
+   "vi": "tổng thể, cả (khu, nhóm)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]全体[ぜんたい]で、安全[あんぜん]の点検[てんけん]をします。",
+     "vi": "Cả nhà máy cùng kiểm tra an toàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "全体[ぜんたい]の流[なが]れを、まず覚[おぼ]えてください。",
+     "vi": "Trước hết hãy nhớ quy trình tổng thể.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:部分:ぶぶん"
+   ]
+  },
+  {
+   "id": "v:中身:なかみ",
+   "kana": "なかみ",
+   "kanji": "中身",
+   "hv": "TRUNG THÂN",
+   "vi": "đồ bên trong, ruột",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]の中身[なかみ]を確認[かくにん]してください。",
+     "vi": "Kiểm tra đồ bên trong thùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "財布[さいふ]の中身[なかみ]は、ほとんど空[から]です。",
+     "vi": "Ruột ví gần như rỗng.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:容器:ようき",
+   "kana": "ようき",
+   "kanji": "容器",
+   "hv": "DUNG KHÍ",
+   "vi": "đồ đựng, vật chứa",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]を容器[ようき]に入[い]れて、ふたをします。",
+     "vi": "Cho cá vào hộp rồi đậy nắp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "電子[でんし]レンジで使[つか]える容器[ようき]ですか。",
+     "vi": "Hộp này dùng được lò vi sóng không?",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:ラベル:ラベル",
+   "kana": "ラベル",
+   "kanji": "",
+   "hv": "",
+   "vi": "nhãn",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "容器[ようき]にラベルを貼[は]ります。",
+     "vi": "Dán nhãn lên hộp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ラベルの日付[ひづけ]が、間違[まちが]っています。",
+     "vi": "Ngày trên nhãn bị sai.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ラベルを貼[は]る",
+     "vi": "dán nhãn"
+    }
+   ],
+   "goc": "label (tiếng Anh)"
+  },
+  {
+   "id": "v:繋げる:つなげる",
+   "kana": "つなげる",
+   "kanji": "繋げる",
+   "kf": "繋[つな]げる",
+   "hv": "HỆ",
+   "vi": "nối lại (cho thành một)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "二本[にほん]のホースを繋[つな]げてください。",
+     "vi": "Hãy nối hai ống nước lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今[いま]の経験[けいけん]を、次[つぎ]の仕事[しごと]に繋[つな]げたいです。",
+     "vi": "Tôi muốn nối kinh nghiệm hiện tại sang công việc sau.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "パソコンをネットに繋[つな]げました。",
+     "vi": "Tôi kết nối máy tính vào mạng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ホースを繋[つな]げる",
+     "vi": "nối ống"
+    }
+   ],
+   "syn": [
+    "v:繋ぐ:つなぐ"
+   ],
+   "note": "Gần nghĩa 繋[つな]ぐ; 繋[つな]げる hay dùng trong văn nói, nghĩa bóng (dẫn tới)."
+  },
+  {
+   "id": "v:残す:のこす",
+   "kana": "のこす",
+   "kanji": "残す",
+   "kf": "残[のこ]す",
+   "hv": "TÀN",
+   "vi": "chừa lại, để thừa",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ご飯[はん]を残[のこ]さないで食[た]べましょう。",
+     "vi": "Ăn hết đừng để thừa cơm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "明日[あした]の分[ぶん]を少[すこ]し残[のこ]しておいてください。",
+     "vi": "Hãy chừa lại một ít cho ngày mai.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "伝言[でんごん]を残[のこ]しました。",
+     "vi": "Tôi đã để lại lời nhắn.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ご飯[はん]を残[のこ]す",
+     "vi": "để thừa cơm"
+    },
+    {
+     "jp": "メモを残[のこ]す",
+     "vi": "để lại giấy nhắn"
+    }
+   ],
+   "pair": "v:残る:のこる"
+  },
+  {
+   "id": "v:切れる:きれる",
+   "kana": "きれる",
+   "kanji": "切れる",
+   "kf": "切[き]れる",
+   "hv": "THIẾT",
+   "vi": "đứt; hết (hạn, hàng); (dao) sắc",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この包丁[ほうちょう]は、よく切[き]れます。",
+     "vi": "Con dao này rất sắc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ビザの期限[きげん]が、来月[らいげつ]切[き]れます。",
+     "vi": "Visa hết hạn tháng sau.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "電池[でんち]が切[き]れました。",
+     "vi": "Hết pin rồi.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "期限[きげん]が切[き]れる",
+     "vi": "hết hạn"
+    },
+    {
+     "jp": "電池[でんち]が切[き]れる",
+     "vi": "hết pin"
+    }
+   ],
+   "pair": "v:切る:きる"
+  },
+  {
+   "id": "v:続き:つづき",
+   "kana": "つづき",
+   "kanji": "続き",
+   "kf": "続[つづ]き",
+   "hv": "TỤC",
+   "vi": "phần tiếp theo",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休憩[きゅうけい]の後[あと]で、作業[さぎょう]の続[つづ]きをします。",
+     "vi": "Sau giờ nghỉ làm tiếp phần việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ドラマの続[つづ]きが見[み]たいです。",
+     "vi": "Tôi muốn xem tiếp phần sau của phim.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:続く:つづく"
+   ]
+  },
+  {
+   "id": "v:順調:じゅんちょう",
+   "kana": "じゅんちょう",
+   "kanji": "順調",
+   "hv": "THUẬN ĐIỀU",
+   "vi": "suôn sẻ, thuận lợi",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "作業[さぎょう]は、順調[じゅんちょう]に進[すす]んでいます。",
+     "vi": "Công việc đang tiến triển suôn sẻ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "仕事[しごと]は順調[じゅんちょう]ですか。",
+     "vi": "Công việc thuận lợi chứ?",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:ずれる:ずれる",
+   "kana": "ずれる",
+   "kanji": "",
+   "hv": "",
+   "vi": "bị lệch, xê dịch",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ラベルが少[すこ]しずれています。",
+     "vi": "Nhãn bị lệch một chút.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "予定[よてい]が一日[いちにち]ずれました。",
+     "vi": "Kế hoạch lệch đi một ngày.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "位置[いち]がずれる",
+     "vi": "lệch vị trí"
+    }
+   ],
+   "rel": [
+    {
+     "w": "ずらす",
+     "vi": "xê dịch (tha động từ)"
+    }
+   ]
+  },
+  {
+   "id": "v:位置:いち",
+   "kana": "いち",
+   "kanji": "位置",
+   "hv": "VỊ TRÍ",
+   "vi": "vị trí",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]の位置[いち]を、少[すこ]し右[みぎ]にしてください。",
+     "vi": "Dịch vị trí thùng sang phải một chút.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地図[ちず]で、駅[えき]の位置[いち]を確認[かくにん]しました。",
+     "vi": "Tôi xem vị trí ga trên bản đồ.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:ケース:ケース",
+   "kana": "ケース",
+   "kanji": "",
+   "hv": "",
+   "vi": "vỏ hộp; ca (tình huống cụ thể)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "卵[たまご]をケースに入[い]れます。",
+     "vi": "Cho trứng vào hộp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "こういうケースは、初[はじ]めてです。",
+     "vi": "Trường hợp thế này là lần đầu.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "case (tiếng Anh)"
+  },
+  {
+   "id": "v:コード:コード",
+   "kana": "コード",
+   "kanji": "",
+   "hv": "",
+   "vi": "dây điện; mã",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiết bị",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "コードに足[あし]が引[ひ]っかからないように、気[き]をつけて。",
+     "vi": "Cẩn thận kẻo vướng chân vào dây điện.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "商品[しょうひん]のコードを入力[にゅうりょく]してください。",
+     "vi": "Hãy nhập mã sản phẩm.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "cord / code (tiếng Anh)"
+  },
+  {
+   "id": "v:束:たば",
+   "kana": "たば",
+   "kanji": "束",
+   "hv": "THÚC",
+   "vi": "bó",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "書類[しょるい]を束[たば]にして、ひもで結[むす]びました。",
+     "vi": "Bó giấy tờ lại rồi buộc dây.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "花[はな]の束[たば]をもらいました。",
+     "vi": "Tôi được tặng một bó hoa.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Đếm bó: 一束[ひとたば], 二束[ふたたば]."
+  },
+  {
+   "id": "v:段:だん",
+   "kana": "だん",
+   "kanji": "段",
+   "hv": "ĐOẠN",
+   "vi": "bậc, lớp (xếp chồng)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]は五[ご]段[だん]までしか積[つ]まないでください。",
+     "vi": "Thùng chỉ chất tối đa 5 tầng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "階段[かいだん]の段[だん]に、気[き]をつけてください。",
+     "vi": "Cẩn thận bậc cầu thang.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "〜段[だん] = … tầng / bậc. 段[だん]ボール = thùng các-tông."
+  },
+  {
+   "id": "v:鉄:てつ",
+   "kana": "てつ",
+   "kanji": "鉄",
+   "hv": "THIẾT",
+   "vi": "sắt",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この台[だい]は鉄[てつ]でできています。",
+     "vi": "Cái bàn này làm bằng sắt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "鉄[てつ]の扉[とびら]は重[おも]いです。",
+     "vi": "Cửa sắt nặng.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:トラック:トラック",
+   "kana": "トラック",
+   "kanji": "",
+   "hv": "",
+   "vi": "xe tải",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "トラックに箱[はこ]を積[つ]みます。",
+     "vi": "Chất thùng lên xe tải.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "冷凍[れいとう]のトラックが、毎朝[まいあさ]来[き]ます。",
+     "vi": "Sáng nào xe tải đông lạnh cũng tới.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "truck (tiếng Anh)"
+  },
+  {
+   "id": "v:流れ:ながれ",
+   "kana": "ながれ",
+   "kanji": "流れ",
+   "kf": "流[なが]れ",
+   "hv": "LƯU",
+   "vi": "dòng chảy; quy trình",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công đoạn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "作業[さぎょう]の流[なが]れを、図[ず]で説明[せつめい]します。",
+     "vi": "Giải thích quy trình công việc bằng sơ đồ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "川[かわ]の流[なが]れが速[はや]いです。",
+     "vi": "Dòng sông chảy xiết.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:流れる:ながれる"
+   ]
+  },
+  {
+   "id": "v:紐:ひも",
+   "kana": "ひも",
+   "kanji": "紐",
+   "hv": "NỮU",
+   "vi": "dây buộc",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]を紐[ひも]でしっかり結[むす]んでください。",
+     "vi": "Buộc chặt thùng bằng dây.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "靴[くつ]の紐[ひも]がほどけていますよ。",
+     "vi": "Dây giày bị tuột rồi kìa.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:プラスチック:プラスチック",
+   "kana": "プラスチック",
+   "kanji": "",
+   "hv": "",
+   "vi": "nhựa",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "プラスチックの容器[ようき]は、ここに捨[す]ててください。",
+     "vi": "Hộp nhựa hãy vứt ở đây.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "プラスチックの手袋[てぶくろ]を使[つか]います。",
+     "vi": "Dùng găng tay nhựa.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "plastic (tiếng Anh)"
+  },
+  {
+   "id": "v:ペンキ:ペンキ",
+   "kana": "ペンキ",
+   "kanji": "",
+   "hv": "",
+   "vi": "nước sơn",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "壁[かべ]のペンキが、はがれています。",
+     "vi": "Sơn tường bị bong.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ペンキ塗[ぬ]りたて、注意[ちゅうい]！",
+     "vi": "Sơn mới, chú ý!",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "pek (tiếng Hà Lan)",
+   "note": "ペンキ塗[ぬ]りたて = sơn còn ướt."
+  }
+ ]
+}

@@ -1,0 +1,1290 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-16",
+  "title": "JLPT N3 16 – Thời tiết & thiên tai",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:天候:てんこう",
+   "kana": "てんこう",
+   "kanji": "天候",
+   "hv": "THIÊN HẬU",
+   "vi": "thời tiết (trong một khoảng thời gian)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "天候[てんこう]が悪[わる]いので、船[ふね]が出[で]ません。",
+     "vi": "Thời tiết xấu nên tàu không ra khơi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "天候[てんこう]によって、魚[さかな]の値段[ねだん]が変[か]わります。",
+     "vi": "Tùy thời tiết mà giá cá thay đổi.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:天気:てんき"
+   ],
+   "note": "Văn viết, tin tức. Nói thường: 天気[てんき]."
+  },
+  {
+   "id": "v:気候:きこう",
+   "kana": "きこう",
+   "kanji": "気候",
+   "hv": "KHÍ HẬU",
+   "vi": "khí hậu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]の気候[きこう]は、ベトナムと違[ちが]います。",
+     "vi": "Khí hậu Nhật khác Việt Nam.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "兵庫[ひょうご]は、気候[きこう]が穏[おだ]やかです。",
+     "vi": "Hyogo khí hậu ôn hòa.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:天候:てんこう"
+   ],
+   "note": "天候[てんこう] = thời tiết vài ngày; 気候[きこう] = khí hậu (đặc trưng lâu dài của vùng)."
+  },
+  {
+   "id": "v:気温:きおん",
+   "kana": "きおん",
+   "kanji": "気温",
+   "hv": "KHÍ ÔN",
+   "vi": "nhiệt độ không khí",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今日[きょう]の気温[きおん]は、三十五[さんじゅうご]度[ど]です。",
+     "vi": "Nhiệt độ hôm nay là 35 độ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "気温[きおん]が下[さ]がると、魚[さかな]がよく売[う]れます。",
+     "vi": "Nhiệt độ xuống thì cá bán chạy.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "温度[おんど]",
+     "vi": "nhiệt độ (nói chung)"
+    }
+   ],
+   "note": "気温[きおん] chỉ dùng cho không khí; nước, kho lạnh dùng 温度[おんど]; cơ thể dùng 体温[たいおん]."
+  },
+  {
+   "id": "v:湿度:しつど",
+   "kana": "しつど",
+   "kanji": "湿度",
+   "hv": "THẤP ĐỘ",
+   "vi": "độ ẩm",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "梅雨[つゆ]は、湿度[しつど]が高[たか]いです。",
+     "vi": "Mùa mưa độ ẩm cao.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "倉庫[そうこ]の湿度[しつど]を、毎日[まいにち]記録[きろく]します。",
+     "vi": "Ghi độ ẩm kho mỗi ngày.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:湿気:しっけ",
+   "kana": "しっけ",
+   "kanji": "湿気",
+   "hv": "THẤP KHÍ",
+   "vi": "hơi ẩm, ẩm thấp",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "湿気[しっけ]で、パンにカビが生[は]えました。",
+     "vi": "Vì ẩm, bánh mì bị mốc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "湿気[しっけ]が多[おお]い日[ひ]は、床[ゆか]が滑[すべ]りやすいです。",
+     "vi": "Ngày ẩm nhiều sàn dễ trơn.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:湿る:しめる"
+   ]
+  },
+  {
+   "id": "v:嵐:あらし",
+   "kana": "あらし",
+   "kanji": "嵐",
+   "hv": "LAM",
+   "vi": "giông bão",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "嵐[あらし]の夜[よる]は、外[そと]に出[で]ないでください。",
+     "vi": "Đêm giông bão đừng ra ngoài.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "嵐[あらし]で、船[ふね]が港[みなと]に戻[もど]ってきました。",
+     "vi": "Vì bão, tàu quay về cảng.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:台風:たいふう"
+   ]
+  },
+  {
+   "id": "v:霧:きり",
+   "kana": "きり",
+   "kanji": "霧",
+   "hv": "VỤ",
+   "vi": "sương mù",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "朝[あさ]、霧[きり]で前[まえ]がよく見[み]えませんでした。",
+     "vi": "Sáng nay sương mù không nhìn rõ phía trước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "霧[きり]が濃[こ]い日[ひ]は、船[ふね]が出[で]ません。",
+     "vi": "Ngày sương dày tàu không ra khơi.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:霜:しも",
+   "kana": "しも",
+   "kanji": "霜",
+   "hv": "SƯƠNG",
+   "vi": "sương giá",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冬[ふゆ]の朝[あさ]は、車[くるま]に霜[しも]がついています。",
+     "vi": "Sáng mùa đông xe phủ sương giá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]の壁[かべ]に、霜[しも]がたくさんついている。",
+     "vi": "Tường kho đông bám nhiều tuyết sương.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:雷:かみなり",
+   "kana": "かみなり",
+   "kanji": "雷",
+   "hv": "LÔI",
+   "vi": "sấm sét",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜中[よなか]に、雷[かみなり]が鳴[な]りました。",
+     "vi": "Nửa đêm sấm nổ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "雷[かみなり]が鳴[な]ったら、外[そと]の作業[さぎょう]をやめてください。",
+     "vi": "Có sấm thì ngừng việc ngoài trời.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "雷[かみなり]が落[お]ちる = sét đánh."
+  },
+  {
+   "id": "v:梅雨:つゆ",
+   "kana": "つゆ",
+   "kanji": "梅雨",
+   "hv": "MAI VŨ",
+   "vi": "mùa mưa (tháng 6–7)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "梅雨[つゆ]に入[はい]ると、毎日[まいにち]雨[あめ]です。",
+     "vi": "Vào mùa mưa thì ngày nào cũng mưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "梅雨[つゆ]の時期[じき]は、食[た]べ物[もの]が腐[くさ]りやすい。",
+     "vi": "Mùa mưa đồ ăn dễ hỏng.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Còn đọc ばいう (tin tức). 梅雨入[つゆい]り / 梅雨明[つゆあ]け = vào / hết mùa mưa."
+  },
+  {
+   "id": "v:蒸し暑い:むしあつい",
+   "kana": "むしあつい",
+   "kanji": "蒸し暑い",
+   "kf": "蒸[む]し暑[あつ]い",
+   "hv": "CHƯNG THỬ",
+   "vi": "nóng ẩm, oi bức",
+   "pos": "adj-i",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]の夏[なつ]は、蒸[む]し暑[あつ]いです。",
+     "vi": "Mùa hè Nhật nóng ẩm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]の中[なか]が蒸[む]し暑[あつ]くて、汗[あせ]が止[と]まらない。",
+     "vi": "Trong xưởng oi bức, mồ hôi không ngừng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "蒸[む]し暑[あつ]い夜[よる]は、なかなか眠[ねむ]れません。",
+     "vi": "Đêm oi bức mãi không ngủ được.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "夏[なつ]",
+     "vi": "mùa hè"
+    },
+    {
+     "jp": "夜[よる]",
+     "vi": "đêm"
+    }
+   ]
+  },
+  {
+   "id": "v:乾燥:かんそう",
+   "kana": "かんそう",
+   "kanji": "乾燥",
+   "hv": "CAN TÁO",
+   "vi": "sự khô hanh; sấy khô",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冬[ふゆ]は空気[くうき]が乾燥[かんそう]します。",
+     "vi": "Mùa đông không khí khô.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "乾燥[かんそう]した魚[さかな]は、長[なが]く保存[ほぞん]できます。",
+     "vi": "Cá đã phơi khô bảo quản được lâu.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "空気[くうき]が乾燥[かんそう]する",
+     "vi": "không khí khô"
+    }
+   ],
+   "rel": [
+    "v:乾かす:かわかす"
+   ]
+  },
+  {
+   "id": "v:被害:ひがい",
+   "kana": "ひがい",
+   "kanji": "被害",
+   "hv": "BỊ HẠI",
+   "vi": "thiệt hại (do bị tác động)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台風[たいふう]の被害[ひがい]は、大[おお]きかったです。",
+     "vi": "Thiệt hại do bão lớn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "地震[じしん]で、工場[こうじょう]に被害[ひがい]が出[で]ました。",
+     "vi": "Động đất gây thiệt hại cho nhà máy.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "被害者[ひがいしゃ] = người bị hại."
+  },
+  {
+   "id": "v:損害:そんがい",
+   "kana": "そんがい",
+   "kanji": "損害",
+   "hv": "TỔN HẠI",
+   "vi": "tổn thất (tiền bạc)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "停電[ていでん]で、魚[さかな]がだめになり、大[おお]きな損害[そんがい]が出[で]た。",
+     "vi": "Mất điện làm hỏng cá, tổn thất lớn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "損害[そんがい]は、保険[ほけん]で払[はら]われます。",
+     "vi": "Tổn thất được bảo hiểm chi trả.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:被害:ひがい"
+   ]
+  },
+  {
+   "id": "v:火災:かさい",
+   "kana": "かさい",
+   "kanji": "火災",
+   "hv": "HỎA TAI",
+   "vi": "hỏa hoạn (văn viết)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "火災[かさい]の時[とき]は、この階段[かいだん]を使[つか]ってください。",
+     "vi": "Khi hỏa hoạn hãy dùng cầu thang này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "火災保険[かさいほけん]に入[はい]っています。",
+     "vi": "Tôi có mua bảo hiểm hỏa hoạn.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    "v:火事:かじ"
+   ],
+   "note": "Văn viết, biển báo. Nói thường: 火事[かじ]."
+  },
+  {
+   "id": "v:消防:しょうぼう",
+   "kana": "しょうぼう",
+   "kanji": "消防",
+   "hv": "TIÊU PHÒNG",
+   "vi": "cứu hỏa, phòng cháy",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "消防[しょうぼう]の人[ひと]が、工場[こうじょう]を点検[てんけん]に来[き]ました。",
+     "vi": "Người bên cứu hỏa đến kiểm tra nhà máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "火事[かじ]の時[とき]は、百十九[ひゃくじゅうきゅう]番[ばん]で消防[しょうぼう]を呼[よ]びます。",
+     "vi": "Khi cháy gọi 119 để gọi cứu hỏa.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "消防車[しょうぼうしゃ] = xe cứu hỏa; 消防署[しょうぼうしょ] = trạm cứu hỏa."
+  },
+  {
+   "id": "v:太陽:たいよう",
+   "kana": "たいよう",
+   "kanji": "太陽",
+   "hv": "THÁI DƯƠNG",
+   "vi": "mặt trời",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "太陽[たいよう]が昇[のぼ]る前[まえ]に、漁[りょう]に出[で]ます。",
+     "vi": "Ra khơi trước khi mặt trời mọc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今日[きょう]は、太陽[たいよう]がまぶしいです。",
+     "vi": "Hôm nay nắng chói.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:日:ひ"
+   ]
+  },
+  {
+   "id": "v:波:なみ",
+   "kana": "なみ",
+   "kanji": "波",
+   "hv": "BA",
+   "vi": "sóng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今日[きょう]は波[なみ]が高[たか]いので、海[うみ]に入[はい]らないで。",
+     "vi": "Hôm nay sóng cao, đừng xuống biển.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "地震[じしん]の後[あと]は、高[たか]い波[なみ]に気[き]をつけてください。",
+     "vi": "Sau động đất hãy cảnh giác sóng cao.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "津波[つなみ] = sóng thần."
+  },
+  {
+   "id": "v:沖:おき",
+   "kana": "おき",
+   "kanji": "沖",
+   "hv": "XUNG",
+   "vi": "ngoài khơi",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "船[ふね]は、沖[おき]で魚[さかな]をとっています。",
+     "vi": "Tàu đang đánh cá ngoài khơi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台風[たいふう]が、沖[おき]を通[とお]りました。",
+     "vi": "Bão đã đi qua ngoài khơi.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:岸:きし",
+   "kana": "きし",
+   "kanji": "岸",
+   "hv": "NGẠN",
+   "vi": "bờ (sông, biển)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "船[ふね]が岸[きし]に着[つ]きました。",
+     "vi": "Tàu đã cập bờ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "川[かわ]の岸[きし]を散歩[さんぽ]しました。",
+     "vi": "Tôi đi dạo dọc bờ sông.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:谷:たに",
+   "kana": "たに",
+   "kanji": "谷",
+   "hv": "CỐC",
+   "vi": "thung lũng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "山[やま]と谷[たに]の間[あいだ]を、電車[でんしゃ]が走[はし]ります。",
+     "vi": "Tàu chạy giữa núi và thung lũng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "大雨[おおあめ]で、谷[たに]の道[みち]が通[とお]れません。",
+     "vi": "Mưa to, đường thung lũng không đi được.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:岩:いわ",
+   "kana": "いわ",
+   "kanji": "岩",
+   "hv": "NHAM",
+   "vi": "tảng đá",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "海[うみ]の岩[いわ]の近[ちか]くで、魚[さかな]がよくとれます。",
+     "vi": "Gần đá ngầm ngoài biển đánh được nhiều cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "大[おお]きな岩[いわ]が、道[みち]に落[お]ちてきた。",
+     "vi": "Tảng đá lớn lăn xuống đường.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:石:いし"
+   ]
+  },
+  {
+   "id": "v:丘:おか",
+   "kana": "おか",
+   "kanji": "丘",
+   "hv": "KHÂU",
+   "vi": "đồi",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "丘[おか]の上[うえ]から、海[うみ]が見[み]えます。",
+     "vi": "Từ trên đồi nhìn thấy biển.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "津波[つなみ]の時[とき]は、高[たか]い丘[おか]に逃[に]げてください。",
+     "vi": "Khi sóng thần hãy chạy lên đồi cao.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:泥:どろ",
+   "kana": "どろ",
+   "kanji": "泥",
+   "hv": "NÊ",
+   "vi": "bùn",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大雨[おおあめ]の後[あと]、道[みち]が泥[どろ]だらけです。",
+     "vi": "Sau mưa to đường toàn bùn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "長靴[ながぐつ]の泥[どろ]を落[お]としてから、入[はい]ってください。",
+     "vi": "Rũ bùn ở ủng rồi mới vào.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:煙:けむり",
+   "kana": "けむり",
+   "kanji": "煙",
+   "hv": "YÊN",
+   "vi": "khói",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]から煙[けむり]が出[で]ています！",
+     "vi": "Máy đang bốc khói!",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "たばこの煙[けむり]が苦手[にがて]です。",
+     "vi": "Tôi không chịu được khói thuốc.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:炎:ほのお",
+   "kana": "ほのお",
+   "kanji": "炎",
+   "hv": "VIÊM",
+   "vi": "ngọn lửa",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "窓[まど]から炎[ほのお]が見[み]えました。",
+     "vi": "Nhìn thấy ngọn lửa từ cửa sổ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ガスの炎[ほのお]は、青[あお]い色[いろ]です。",
+     "vi": "Lửa ga màu xanh.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:火:ひ"
+   ]
+  },
+  {
+   "id": "v:予報:よほう",
+   "kana": "よほう",
+   "kanji": "予報",
+   "hv": "DỰ BÁO",
+   "vi": "dự báo (thời tiết)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "天気予報[てんきよほう]では、明日[あした]は雨[あめ]です。",
+     "vi": "Dự báo thời tiết nói mai mưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "予報[よほう]が外[はず]れて、晴[は]れました。",
+     "vi": "Dự báo sai, trời lại nắng.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "天気予報[てんきよほう] = dự báo thời tiết."
+  },
+  {
+   "id": "v:予測:よそく",
+   "kana": "よそく",
+   "kanji": "予測",
+   "hv": "DỰ TRẮC",
+   "vi": "dự đoán (tính toán)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来月[らいげつ]の注文[ちゅうもん]を予測[よそく]して、魚[さかな]を準備[じゅんび]します。",
+     "vi": "Dự đoán đơn tháng sau để chuẩn bị cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地震[じしん]は、予測[よそく]が難[むずか]しいです。",
+     "vi": "Động đất khó dự đoán.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "結果[けっか]を予測[よそく]する",
+     "vi": "dự đoán kết quả"
+    }
+   ]
+  },
+  {
+   "id": "v:影響:えいきょう",
+   "kana": "えいきょう",
+   "kanji": "影響",
+   "hv": "ẢNH HƯỞNG",
+   "vi": "ảnh hưởng",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台風[たいふう]の影響[えいきょう]で、電車[でんしゃ]が止[と]まりました。",
+     "vi": "Do ảnh hưởng của bão, tàu dừng chạy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "天気[てんき]は、魚[さかな]の値段[ねだん]に影響[えいきょう]します。",
+     "vi": "Thời tiết ảnh hưởng giá cá.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "〜に影響[えいきょう]する",
+     "vi": "ảnh hưởng tới …"
+    }
+   ],
+   "note": "〜の影響[えいきょう]で = do ảnh hưởng của …."
+  },
+  {
+   "id": "v:激しい:はげしい",
+   "kana": "はげしい",
+   "kanji": "激しい",
+   "kf": "激[はげ]しい",
+   "hv": "KÍCH",
+   "vi": "mãnh liệt, dữ (mưa, vận động)",
+   "pos": "adj-i",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "激[はげ]しい雨[あめ]で、川[かわ]があふれた。",
+     "vi": "Mưa dữ dội làm sông tràn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "激[はげ]しい運動[うんどう]の後[あと]は、水[みず]を飲[の]みましょう。",
+     "vi": "Sau vận động mạnh hãy uống nước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]の中[なか]は、温度[おんど]の変化[へんか]が激[はげ]しいです。",
+     "vi": "Trong xưởng nhiệt độ thay đổi dữ dội.",
+     "ctx": "xuong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "雨[あめ]",
+     "vi": "mưa"
+    },
+    {
+     "jp": "風[かぜ]",
+     "vi": "gió"
+    }
+   ],
+   "ant": [
+    "v:穏やか:おだやか"
+   ]
+  },
+  {
+   "id": "v:穏やか:おだやか",
+   "kana": "おだやか",
+   "kanji": "穏やか",
+   "kf": "穏[おだ]やか",
+   "hv": "ỔN",
+   "vi": "êm đềm, hiền hòa",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今日[きょう]は海[うみ]が穏[おだ]やかです。",
+     "vi": "Hôm nay biển êm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "田中[たなか]さんは、穏[おだ]やかな人[ひと]です。",
+     "vi": "Anh Tanaka là người hiền hòa.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:激しい:はげしい"
+   ]
+  },
+  {
+   "id": "v:まぶしい:まぶしい",
+   "kana": "まぶしい",
+   "kanji": "",
+   "hv": "",
+   "vi": "chói mắt",
+   "pos": "adj-i",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "太陽[たいよう]がまぶしくて、目[め]が開[あ]けられない。",
+     "vi": "Nắng chói, không mở mắt được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "雪[ゆき]に光[ひかり]が反射[はんしゃ]して、まぶしいです。",
+     "vi": "Ánh sáng phản chiếu trên tuyết chói mắt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "照明[しょうめい]がまぶしいので、少[すこ]し暗[くら]くしてください。",
+     "vi": "Đèn chói quá, làm tối bớt chút.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Chữ Hán: 眩[まぶ]しい (ít dùng)."
+  },
+  {
+   "id": "v:輝く:かがやく",
+   "kana": "かがやく",
+   "kanji": "輝く",
+   "kf": "輝[かがや]く",
+   "hv": "HUY",
+   "vi": "tỏa sáng, sáng ngời",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜空[よぞら]に星[ほし]が輝[かがや]いています。",
+     "vi": "Sao lấp lánh trên bầu trời đêm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新鮮[しんせん]な魚[さかな]は、目[め]が輝[かがや]いています。",
+     "vi": "Cá tươi thì mắt sáng long lanh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子[こ]どもの目[め]が、喜[よろこ]びで輝[かがや]いた。",
+     "vi": "Mắt đứa trẻ sáng lên vì vui.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "星[ほし]が輝[かがや]く",
+     "vi": "sao lấp lánh"
+    }
+   ]
+  },
+  {
+   "id": "v:覆う:おおう",
+   "kana": "おおう",
+   "kanji": "覆う",
+   "kf": "覆[おお]う",
+   "hv": "PHÚC",
+   "vi": "che phủ, bao phủ",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雲[くも]が空[そら]を覆[おお]っています。",
+     "vi": "Mây phủ kín bầu trời.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]をビニールで覆[おお]って、乾燥[かんそう]を防[ふせ]ぎます。",
+     "vi": "Phủ nilon lên cá để chống khô.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "手[て]で口[くち]を覆[おお]って、咳[せき]をしてください。",
+     "vi": "Lấy tay che miệng khi ho.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ビニールで覆[おお]う",
+     "vi": "phủ bằng nilon"
+    }
+   ]
+  },
+  {
+   "id": "v:湧く:わく",
+   "kana": "わく",
+   "kanji": "湧く",
+   "kf": "湧[わ]く",
+   "hv": "DŨNG",
+   "vi": "phun trào, trào ra (nước, cảm xúc)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この山[やま]から、温泉[おんせん]が湧[わ]いています。",
+     "vi": "Suối nước nóng phun lên từ núi này.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "日本[にほん]の文化[ぶんか]に、興味[きょうみ]が湧[わ]きました。",
+     "vi": "Tôi nảy sinh hứng thú với văn hóa Nhật.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "温泉[おんせん]が湧[わ]く",
+     "vi": "suối nóng phun lên"
+    },
+    {
+     "jp": "興味[きょうみ]が湧[わ]く",
+     "vi": "nảy sinh hứng thú"
+    }
+   ],
+   "confuse": [
+    "v:沸く:わく"
+   ],
+   "note": "Đồng âm: 沸[わ]く = (nước) sôi."
+  },
+  {
+   "id": "v:澄む:すむ",
+   "kana": "すむ",
+   "kanji": "澄む",
+   "kf": "澄[す]む",
+   "hv": "TRỪNG",
+   "vi": "trong (nước, không khí)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "山[やま]の空気[くうき]は、澄[す]んでいます。",
+     "vi": "Không khí trên núi trong lành.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新鮮[しんせん]な魚[さかな]は、目[め]が澄[す]んでいます。",
+     "vi": "Cá tươi thì mắt trong.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "空気[くうき]が澄[す]む",
+     "vi": "không khí trong lành"
+    }
+   ],
+   "ant": [
+    {
+     "w": "濁[にご]る",
+     "vi": "đục"
+    }
+   ]
+  },
+  {
+   "id": "v:土:つち",
+   "kana": "つち",
+   "kanji": "土",
+   "hv": "THỔ",
+   "vi": "đất",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大雨[おおあめ]で、土[つち]が流[なが]れました。",
+     "vi": "Mưa to làm trôi đất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "野菜[やさい]の土[つち]を、よく洗[あら]ってください。",
+     "vi": "Rửa sạch đất ở rau.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:左右:さゆう",
+   "kana": "さゆう",
+   "kanji": "左右",
+   "hv": "TẢ HỮU",
+   "vi": "trái phải; chi phối",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "道[みち]を渡[わた]る時[とき]は、左右[さゆう]をよく見[み]てください。",
+     "vi": "Khi qua đường hãy nhìn kỹ hai bên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]の値段[ねだん]は、天気[てんき]に左右[さゆう]されます。",
+     "vi": "Giá cá bị thời tiết chi phối.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "天気[てんき]に左右[さゆう]される",
+     "vi": "bị thời tiết chi phối"
+    }
+   ]
+  },
+  {
+   "id": "v:明かり:あかり",
+   "kana": "あかり",
+   "kanji": "明かり",
+   "kf": "明[あ]かり",
+   "hv": "MINH",
+   "vi": "ánh đèn, ánh sáng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "停電[ていでん]で、明[あ]かりが消[き]えました。",
+     "vi": "Mất điện, đèn tắt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "遠[とお]くに、町[まち]の明[あ]かりが見[み]えます。",
+     "vi": "Thấy ánh đèn thị trấn ở xa.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:光:ひかり"
+   ]
+  },
+  {
+   "id": "v:影:かげ",
+   "kana": "かげ",
+   "kanji": "影",
+   "hv": "ẢNH",
+   "vi": "bóng (hình bóng)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夕方[ゆうがた]は、影[かげ]が長[なが]くなります。",
+     "vi": "Chiều tối bóng đổ dài ra.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "窓[まど]に、人[ひと]の影[かげ]が見[み]えました。",
+     "vi": "Thấy bóng người trên cửa sổ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "日陰[ひかげ] = bóng râm (chỗ không có nắng)."
+  },
+  {
+   "id": "v:氷:こおり",
+   "kana": "こおり",
+   "kanji": "氷",
+   "hv": "BĂNG",
+   "vi": "đá lạnh (cục đá), băng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]の上[うえ]に、氷[こおり]をたっぷり乗[の]せます。",
+     "vi": "Phủ đầy đá lên trên cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "冬[ふゆ]は、道[みち]に氷[こおり]が張[は]ります。",
+     "vi": "Mùa đông đường đóng băng.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:凍る:こおる"
+   ]
+  },
+  {
+   "id": "v:屋根:やね",
+   "kana": "やね",
+   "kanji": "屋根",
+   "hv": "ỐC CĂN",
+   "vi": "mái nhà",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台風[たいふう]で、屋根[やね]が飛[と]ばされた。",
+     "vi": "Bão thổi bay mái nhà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "屋根[やね]の上[うえ]に、雪[ゆき]が積[つ]もっています。",
+     "vi": "Tuyết phủ trên mái nhà.",
+     "ctx": "doisong"
+    }
+   ]
+  }
+ ]
+}

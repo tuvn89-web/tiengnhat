@@ -8,7 +8,7 @@
   "topics": [
    "doisong"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-17",
   "note": ""
  },
@@ -23,13 +23,13 @@
    "ctx": "doisong",
    "lesson": "l:n5-08",
    "intro": true,
-   "setting": "Công ty cho Cậu Cả chuyển sang căn hộ mới. Chị Yamada ở văn phòng dẫn đi xem phòng. Hôm sau, bạn cũ Minh đến chơi.",
+   "setting": "Công ty cho anh Nguyễn chuyển sang căn hộ mới. Chị Yamada ở văn phòng dẫn đi xem phòng. Hôm sau, bạn cũ Minh đến chơi.",
    "medium": "tructiep",
    "roles": [
     {
      "key": "B",
      "name": "グエン",
-     "vi": "Cậu Cả",
+     "vi": "Bạn",
      "me": true
     },
     {
@@ -700,13 +700,17 @@
       {
        "w": "かわいい",
        "vi": "dễ thương"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
       }
      ]
     }
    ],
    "questions": [
     {
-     "q": "Phòng của Cậu Cả ở tầng mấy?",
+     "q": "Phòng của anh Nguyễn ở tầng mấy?",
      "opts": [
       "Tầng 3",
       "Tầng 2",
@@ -750,7 +754,7 @@
      "why": "この建物[たてもの]の後[うし]ろにあります。"
     },
     {
-     "q": "Minh sẽ cho Cậu Cả cái gì?",
+     "q": "Minh sẽ cho anh Nguyễn cái gì?",
      "opts": [
       "Hai cái ghế cũ",
       "Một cái bàn",

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -269,7 +269,7 @@
     "Hay gặp: 作[つく]られる, 使[つか]われる, 開[ひら]かれる, 行[おこな]われる, 書[か]かれる, 売[う]られる",
     "Người tạo ra (tác giả) đi với によって: この絵[え]はピカソによって描[えが]かれました"
    ],
-   "explain": "Khi muốn nói về VẬT hay SỰ VIỆC mà không cần biết ai làm, tiếng Nhật dùng bị động: お祭[まつ]りは毎年[まいとし]八[はち]月[がつ]に開[ひら]かれます = lễ hội được tổ chức vào tháng 8 hằng năm. Câu kiểu này rất hay gặp trong tin tức, nhãn hàng, giải thích quy trình ở nhà máy.\n\nCách chia giống thể bị động thường. Các động từ hay gặp: 作[つく]る → 作[つく]られる, 使[つか]う → 使[つか]われる, 開[ひら]く → 開[ひら]かれる (được tổ chức), 行[おこな]う → 行[おこな]われる, 売[う]る → 売[う]られる, 輸出[ゆしゅつ]する → 輸出[ゆしゅつ]される.\n\nMuốn nói người sáng tạo, phát minh, tác giả thì dùng によって thay vì に: 電話[でんわ]はベルによって発明[はつめい]されました. Còn ở xưởng: 「この商品[しょうひん]は北海道[ほっかいどう]で作[つく]られています」, 「この機械[きかい]は魚[さかな]を切[き]るのに使[つか]われます」.\n\nMẹo nhớ: chủ ngữ là đồ vật → gần như chắc chắn động từ ở thể bị động.",
+   "explain": "Khi muốn nói về VẬT hay SỰ VIỆC mà không cần biết ai làm, tiếng Nhật dùng bị động: お祭[まつ]りは毎年[まいとし]八月[はちがつ]に開[ひら]かれます = lễ hội được tổ chức vào tháng 8 hằng năm. Câu kiểu này rất hay gặp trong tin tức, nhãn hàng, giải thích quy trình ở nhà máy.\n\nCách chia giống thể bị động thường. Các động từ hay gặp: 作[つく]る → 作[つく]られる, 使[つか]う → 使[つか]われる, 開[ひら]く → 開[ひら]かれる (được tổ chức), 行[おこな]う → 行[おこな]われる, 売[う]る → 売[う]られる, 輸出[ゆしゅつ]する → 輸出[ゆしゅつ]される.\n\nMuốn nói người sáng tạo, phát minh, tác giả thì dùng によって thay vì に: 電話[でんわ]はベルによって発明[はつめい]されました. Còn ở xưởng: 「この商品[しょうひん]は北海道[ほっかいどう]で作[つく]られています」, 「この機械[きかい]は魚[さかな]を切[き]るのに使[つか]われます」.\n\nMẹo nhớ: chủ ngữ là đồ vật → gần như chắc chắn động từ ở thể bị động.",
    "casual": "Văn nói thường đổi sang câu chủ động với 〜ている: 北海道[ほっかいどう]で作[つく]ってる. Văn viết, tin tức giữ bị động.",
    "compare": [
     {
@@ -302,13 +302,13 @@
      ]
     },
     {
-     "jp": "お祭[まつ]りは、毎年[まいとし]八[はち]月[がつ]に[[開[ひら]かれます]]。",
+     "jp": "お祭[まつ]りは、毎年[まいとし]八月[はちがつ]に[[開[ひら]かれます]]。",
      "vi": "Lễ hội được tổ chức vào tháng 8 hằng năm.",
      "ctx": "doisong",
      "chunks": [
       "お祭[まつ]りは、",
       "毎年[まいとし]",
-      "八[はち]月[がつ]に",
+      "八月[はちがつ]に",
       "開[ひら]かれます"
      ],
      "wrong": [
@@ -317,13 +317,13 @@
      ]
     },
     {
-     "jp": "このお寺[てら]は、八百[はちひゃく]年[ねん]前[まえ]に[[建[た]てられました]]。",
+     "jp": "このお寺[てら]は、八百年[はっぴゃくねん]前[まえ]に[[建[た]てられました]]。",
      "vi": "Ngôi chùa này được xây 800 năm trước.",
      "ctx": "doisong",
      "chunks": [
       "この",
       "お寺[てら]は、",
-      "八百[はちひゃく]年[ねん]",
+      "八百年[はっぴゃくねん]",
       "前[まえ]に",
       "建[た]てられました"
      ],
@@ -395,13 +395,13 @@
      ]
     },
     {
-     "jp": "説明会[せつめいかい]は、市役所[しやくしょ]の三[さん]階[がい]で[[行[おこな]われます]]。",
+     "jp": "説明会[せつめいかい]は、市役所[しやくしょ]の三階[さんがい]で[[行[おこな]われます]]。",
      "vi": "Buổi giải thích được tổ chức ở tầng 3 tòa thị chính.",
      "ctx": "thutuc",
      "chunks": [
       "説明会[せつめいかい]は、",
       "市役所[しやくしょ]の",
-      "三[さん]階[がい]で",
+      "三階[さんがい]で",
       "行[おこな]われます"
      ],
      "wrong": [
@@ -439,7 +439,7 @@
     {
      "chunks": [
       "この橋[はし]は",
-      "百[ひゃく]年[ねん]前[まえ]に",
+      "百年[ひゃくねん]前[まえ]に",
       "作[つく]りました"
      ],
      "vi": "Cây cầu này được xây 100 năm trước.",

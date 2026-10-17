@@ -1,0 +1,864 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-35",
+  "title": "JLPT N3 35 – Bệnh & triệu chứng",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:症状:しょうじょう",
+   "kana": "しょうじょう",
+   "kanji": "症状",
+   "hv": "CHỨNG TRẠNG",
+   "vi": "triệu chứng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "どんな症状[しょうじょう]がありますか。",
+     "vi": "Anh có triệu chứng gì?",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "熱[ねつ]と咳[せき]の症状[しょうじょう]が、三日[みっか]続[つづ]いています。",
+     "vi": "Sốt và ho đã ba ngày.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Ở bệnh viện hay hỏi: どんな症状[しょうじょう]ですか."
+  },
+  {
+   "id": "v:頭痛:ずつう",
+   "kana": "ずつう",
+   "kanji": "頭痛",
+   "hv": "ĐẦU THỐNG",
+   "vi": "chứng đau đầu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "朝[あさ]から、頭痛[ずつう]がします。",
+     "vi": "Từ sáng tôi bị đau đầu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "頭痛[ずつう]の薬[くすり]を、ください。",
+     "vi": "Cho tôi thuốc đau đầu.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "頭痛[ずつう]がする = bị đau đầu (= 頭[あたま]が痛[いた]い)."
+  },
+  {
+   "id": "v:咳:せき",
+   "kana": "せき",
+   "kanji": "咳",
+   "hv": "KHÁI",
+   "vi": "ho, cơn ho",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "咳[せき]が、なかなか止[と]まりません。",
+     "vi": "Ho mãi không dứt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "咳[せき]が出[で]る時[とき]は、マスクをしてください。",
+     "vi": "Khi ho hãy đeo khẩu trang.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "咳[せき]が出[で]る = bị ho; 咳[せき]をする = ho."
+  },
+  {
+   "id": "v:痛み:いたみ",
+   "kana": "いたみ",
+   "kanji": "痛み",
+   "kf": "痛[いた]み",
+   "hv": "THỐNG",
+   "vi": "cơn đau",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "腰[こし]の痛[いた]みが、ひどいです。",
+     "vi": "Lưng đau dữ dội.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この薬[くすり]で、痛[いた]みが少[すこ]し楽[らく]になりました。",
+     "vi": "Uống thuốc này đỡ đau một chút.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:痛い:いたい"
+   ]
+  },
+  {
+   "id": "v:患者:かんじゃ",
+   "kana": "かんじゃ",
+   "kanji": "患者",
+   "hv": "HOẠN GIẢ",
+   "vi": "bệnh nhân",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "待合室[まちあいしつ]に、患者[かんじゃ]がたくさんいます。",
+     "vi": "Phòng chờ có nhiều bệnh nhân.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "外国人[がいこくじん]の患者[かんじゃ]のために、通訳[つうやく]がいます。",
+     "vi": "Có phiên dịch cho bệnh nhân nước ngoài.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:治療:ちりょう",
+   "kana": "ちりょう",
+   "kanji": "治療",
+   "hv": "TRỊ LIỆU",
+   "vi": "điều trị, chữa trị",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "歯[は]の治療[ちりょう]に、通[かよ]っています。",
+     "vi": "Tôi đang đi chữa răng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "治療[ちりょう]には、二[に]か月[げつ]かかります。",
+     "vi": "Điều trị mất hai tháng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "歯[は]を治療[ちりょう]する",
+     "vi": "chữa răng"
+    }
+   ]
+  },
+  {
+   "id": "v:手術:しゅじゅつ",
+   "kana": "しゅじゅつ",
+   "kanji": "手術",
+   "hv": "THỦ THUẬT",
+   "vi": "phẫu thuật, mổ",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "父[ちち]は、心臓[しんぞう]の手術[しゅじゅつ]を受[う]けました。",
+     "vi": "Bố tôi đã mổ tim.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "手術[しゅじゅつ]は、無事[ぶじ]に終[お]わりました。",
+     "vi": "Ca mổ đã xong suôn sẻ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "手術[しゅじゅつ]を受[う]ける = được phẫu thuật."
+  },
+  {
+   "id": "v:医療:いりょう",
+   "kana": "いりょう",
+   "kanji": "医療",
+   "hv": "Y LIỆU",
+   "vi": "y tế",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]の医療[いりょう]は、レベルが高[たか]いです。",
+     "vi": "Y tế Nhật trình độ cao.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "医療費[いりょうひ]が、高[たか]くて困[こま]りました。",
+     "vi": "Chi phí y tế cao, khổ quá.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "医療費[いりょうひ] = chi phí y tế; 医療保険[いりょうほけん] = bảo hiểm y tế."
+  },
+  {
+   "id": "v:医師:いし",
+   "kana": "いし",
+   "kanji": "医師",
+   "hv": "Y SƯ",
+   "vi": "bác sĩ (văn viết)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "医師[いし]の診断書[しんだんしょ]を、会社[かいしゃ]に出[だ]します。",
+     "vi": "Nộp giấy chẩn đoán của bác sĩ cho công ty.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "薬[くすり]は、医師[いし]の指示[しじ]どおりに飲[の]んでください。",
+     "vi": "Hãy uống thuốc theo chỉ định của bác sĩ.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:医者:いしゃ"
+   ],
+   "note": "Văn viết, giấy tờ; nói thường: お医者[いしゃ]さん."
+  },
+  {
+   "id": "v:医院:いいん",
+   "kana": "いいん",
+   "kanji": "医院",
+   "hv": "Y VIỆN",
+   "vi": "phòng khám tư",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "近[ちか]くの医院[いいん]で、診[み]てもらいました。",
+     "vi": "Tôi đi khám ở phòng khám gần nhà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "医院[いいん]は、土曜日[どようび]の午後[ごご]が休[やす]みです。",
+     "vi": "Phòng khám nghỉ chiều thứ Bảy.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Hay đi sau tên: 田中医院[たなかいいん]. Khác 病院[びょういん] = bệnh viện lớn."
+  },
+  {
+   "id": "v:心臓:しんぞう",
+   "kana": "しんぞう",
+   "kanji": "心臓",
+   "hv": "TÂM TẠNG",
+   "vi": "tim (cơ quan)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cơ thể",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "走[はし]ると、心臓[しんぞう]がどきどきします。",
+     "vi": "Chạy là tim đập thình thịch.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "心臓[しんぞう]の病気[びょうき]で、入院[にゅういん]しました。",
+     "vi": "Nhập viện vì bệnh tim.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:胃:い",
+   "kana": "い",
+   "kanji": "胃",
+   "hv": "VỊ",
+   "vi": "dạ dày",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cơ thể",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "食[た]べすぎて、胃[い]が痛[いた]いです。",
+     "vi": "Ăn nhiều quá đau dạ dày.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "胃[い]の薬[くすり]を、飲[の]みました。",
+     "vi": "Tôi uống thuốc dạ dày.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:肺:はい",
+   "kana": "はい",
+   "kanji": "肺",
+   "hv": "PHẾ",
+   "vi": "phổi",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cơ thể",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "タバコは、肺[はい]に悪[わる]いです。",
+     "vi": "Thuốc lá hại phổi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "肺[はい]の検査[けんさ]を、しました。",
+     "vi": "Tôi đã kiểm tra phổi.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "肺炎[はいえん] = viêm phổi."
+  },
+  {
+   "id": "v:脳:のう",
+   "kana": "のう",
+   "kanji": "脳",
+   "hv": "NÃO",
+   "vi": "não",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cơ thể",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寝[ね]ないと、脳[のう]が疲[つか]れます。",
+     "vi": "Không ngủ là não mệt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "脳[のう]の病気[びょうき]は、早[はや]く見[み]つけることが大切[たいせつ]です。",
+     "vi": "Bệnh về não quan trọng là phát hiện sớm.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:血液:けつえき",
+   "kana": "けつえき",
+   "kanji": "血液",
+   "hv": "HUYẾT DỊCH",
+   "vi": "máu (y học)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cơ thể",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "健康診断[けんこうしんだん]で、血液[けつえき]の検査[けんさ]をしました。",
+     "vi": "Khám sức khỏe có xét nghiệm máu.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "血液型[けつえきがた]は、何[なん]ですか。",
+     "vi": "Nhóm máu của bạn là gì?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "syn": [
+    "v:血:ち"
+   ],
+   "note": "血液型[けつえきがた] = nhóm máu."
+  },
+  {
+   "id": "v:骨折:こっせつ",
+   "kana": "こっせつ",
+   "kanji": "骨折",
+   "hv": "CỐT CHIẾT",
+   "vi": "gãy xương",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "階段[かいだん]で転[ころ]んで、足[あし]を骨折[こっせつ]しました。",
+     "vi": "Ngã cầu thang gãy chân.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "骨折[こっせつ]が治[なお]るまで、一[いっ]か月[げつ]かかります。",
+     "vi": "Gãy xương mất một tháng mới lành.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "足[あし]を骨折[こっせつ]する",
+     "vi": "gãy chân"
+    }
+   ]
+  },
+  {
+   "id": "v:回復:かいふく",
+   "kana": "かいふく",
+   "kanji": "回復",
+   "hv": "HỒI PHỤC",
+   "vi": "hồi phục",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "体[からだ]の調子[ちょうし]が、回復[かいふく]しました。",
+     "vi": "Thể trạng đã hồi phục.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "早[はや]い回復[かいふく]を、祈[いの]っています。",
+     "vi": "Chúc mau bình phục.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:虫歯:むしば",
+   "kana": "むしば",
+   "kanji": "虫歯",
+   "hv": "TRÙNG XỈ",
+   "vi": "răng sâu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cơ thể",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "虫歯[むしば]が痛[いた]くて、歯医者[はいしゃ]に行[い]きました。",
+     "vi": "Răng sâu đau nên đi nha sĩ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "甘[あま]い物[もの]を食[た]べすぎると、虫歯[むしば]になります。",
+     "vi": "Ăn đồ ngọt nhiều sẽ sâu răng.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:神経:しんけい",
+   "kana": "しんけい",
+   "kanji": "神経",
+   "hv": "THẦN KINH",
+   "vi": "thần kinh",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cơ thể",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "歯[は]の神経[しんけい]を、抜[ぬ]きました。",
+     "vi": "Tôi đã lấy tủy răng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "細[こま]かい作業[さぎょう]は、神経[しんけい]を使[つか]います。",
+     "vi": "Việc tỉ mỉ thì căng óc.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "神経[しんけい]を使[つか]う = căng thẳng, để tâm nhiều."
+  },
+  {
+   "id": "v:癌:がん",
+   "kana": "がん",
+   "kanji": "癌",
+   "hv": "NHAM",
+   "vi": "ung thư",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "癌[がん]は、早[はや]く見[み]つければ治[なお]ります。",
+     "vi": "Ung thư phát hiện sớm thì chữa được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "市[し]の癌[がん]検診[けんしん]を、受[う]けました。",
+     "vi": "Tôi khám tầm soát ung thư của thành phố.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Thường viết kana: がん; がん検診[けんしん] = tầm soát ung thư."
+  },
+  {
+   "id": "v:診る:みる",
+   "kana": "みる",
+   "kanji": "診る",
+   "kf": "診[み]る",
+   "hv": "CHẨN",
+   "vi": "khám (bệnh)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "医者[いしゃ]に、診[み]てもらいました。",
+     "vi": "Tôi được bác sĩ khám.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "先生[せんせい]、のどを診[み]てください。",
+     "vi": "Bác sĩ khám họng giúp tôi.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "患者[かんじゃ]を診[み]る",
+     "vi": "khám bệnh nhân"
+    }
+   ],
+   "confuse": [
+    "v:見る:みる"
+   ],
+   "note": "Đồng âm: 見[み]る = nhìn, xem."
+  },
+  {
+   "id": "v:苦痛:くつう",
+   "kana": "くつう",
+   "kanji": "苦痛",
+   "hv": "KHỔ THỐNG",
+   "vi": "sự đau đớn (thể xác, tinh thần)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "長[なが]い時間[じかん]立[た]つのは、苦痛[くつう]です。",
+     "vi": "Đứng lâu là cực hình.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "手術[しゅじゅつ]の後[あと]、苦痛[くつう]はありませんでした。",
+     "vi": "Sau mổ không thấy đau đớn.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:ストレス:ストレス",
+   "kana": "ストレス",
+   "kanji": "",
+   "hv": "",
+   "vi": "áp lực tâm lý (stress)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仕事[しごと]のストレスで、眠[ねむ]れません。",
+     "vi": "Áp lực công việc làm tôi mất ngủ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "運動[うんどう]して、ストレスを解消[かいしょう]します。",
+     "vi": "Tập thể dục để xả stress.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "stress (tiếng Anh)",
+   "note": "ストレスがたまる = stress dồn lại; ストレス解消[かいしょう] = xả stress."
+  },
+  {
+   "id": "v:マッサージ:マッサージ",
+   "kana": "マッサージ",
+   "kanji": "",
+   "hv": "",
+   "vi": "xoa bóp, mát-xa",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "肩[かた]を、マッサージしてもらいました。",
+     "vi": "Tôi được xoa bóp vai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "足[あし]のマッサージは、気持[きも]ちがいいです。",
+     "vi": "Mát-xa chân dễ chịu.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "massage (tiếng Anh)"
+  },
+  {
+   "id": "v:体調:たいちょう",
+   "kana": "たいちょう",
+   "kanji": "体調",
+   "hv": "THỂ ĐIỀU",
+   "vi": "thể trạng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "体調[たいちょう]が悪[わる]い時[とき]は、休[やす]んでください。",
+     "vi": "Khi người không khỏe hãy nghỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "毎朝[まいあさ]、体調[たいちょう]をチェックします。",
+     "vi": "Mỗi sáng kiểm tra thể trạng.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:調子:ちょうし"
+   ],
+   "note": "体調不良[たいちょうふりょう] = trong người không khỏe (lý do xin nghỉ)."
+  },
+  {
+   "id": "v:罹る:かかる",
+   "kana": "かかる",
+   "kanji": "罹る",
+   "kf": "罹[かか]る",
+   "hv": "LY",
+   "vi": "mắc (bệnh)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khám bệnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "インフルエンザに罹[かか]りました。",
+     "vi": "Tôi bị cúm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "病気[びょうき]に罹[かか]らないように、手[て]を洗[あら]います。",
+     "vi": "Rửa tay để không mắc bệnh.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "病気[びょうき]に罹[かか]る",
+     "vi": "mắc bệnh"
+    }
+   ],
+   "note": "Thường viết kana: かかる. Nghĩa khác: お医者[いしゃ]さんにかかる = đi khám bác sĩ."
+  },
+  {
+   "id": "v:舌:した",
+   "kana": "した",
+   "kanji": "舌",
+   "hv": "THIỆT",
+   "vi": "cái lưỡi",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cơ thể",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "熱[あつ]いスープで、舌[した]をやけどしました。",
+     "vi": "Bỏng lưỡi vì súp nóng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "医者[いしゃ]に、舌[した]を見[み]せました。",
+     "vi": "Tôi lè lưỡi cho bác sĩ xem.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:頬:ほお",
+   "kana": "ほお",
+   "kanji": "頬",
+   "hv": "GIÁP",
+   "vi": "má (gò má)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cơ thể",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寒[さむ]くて、頬[ほお]が赤[あか]くなりました。",
+     "vi": "Lạnh nên má đỏ ửng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "子[こ]どもの頬[ほお]は、やわらかいです。",
+     "vi": "Má trẻ con mềm.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Cũng đọc ほほ."
+  },
+  {
+   "id": "v:全身:ぜんしん",
+   "kana": "ぜんしん",
+   "kanji": "全身",
+   "hv": "TOÀN THÂN",
+   "vi": "toàn thân",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cơ thể",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "全身[ぜんしん]が、だるいです。",
+     "vi": "Toàn thân mệt rã rời.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]では、全身[ぜんしん]を防寒[ぼうかん]服[ふく]で守[まも]ります。",
+     "vi": "Ở kho đông bảo vệ toàn thân bằng áo chống rét.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:身体:しんたい",
+   "kana": "しんたい",
+   "kanji": "身体",
+   "hv": "THÂN THỂ",
+   "vi": "thân thể (văn viết)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cơ thể",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "身体[しんたい]の検査[けんさ]を、受[う]けてください。",
+     "vi": "Hãy khám thể lực.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "身体[しんたい]に障害[しょうがい]のある人[ひと]も、働[はたら]いています。",
+     "vi": "Người khuyết tật cơ thể cũng đang làm việc.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:体:からだ"
+   ],
+   "note": "Giấy tờ: 身体検査[しんたいけんさ] = khám sức khỏe, kiểm tra cơ thể."
+  }
+ ]
+}

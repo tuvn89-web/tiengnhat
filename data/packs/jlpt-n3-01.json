@@ -1,0 +1,1200 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-01",
+  "title": "JLPT N3 01 – Động từ cặp tự / tha (1)",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 2,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:冷める:さめる",
+   "kana": "さめる",
+   "kanji": "冷める",
+   "kf": "冷[さ]める",
+   "hv": "LÃNH",
+   "vi": "nguội đi (đồ nóng); (cảm xúc) nguội lạnh",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "早[はや]く食[た]べないと、スープが冷[さ]めますよ。",
+     "vi": "Ăn nhanh không thì súp nguội đấy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "揚[あ]げた魚[さかな]は、少[すこ]し冷[さ]めてから箱[はこ]に詰[つ]めます。",
+     "vi": "Cá chiên để nguội bớt rồi mới xếp vào hộp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：コーヒー、冷[さ]めちゃったね。B：温[あたた]め直[なお]そうか。",
+     "vi": "A: Cà phê nguội mất rồi. B: Hâm lại nhé?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "料理[りょうり]が冷[さ]める",
+     "vi": "món ăn nguội"
+    }
+   ],
+   "confuse": [
+    "v:冷える:ひえる"
+   ],
+   "pair": "v:冷ます:さます",
+   "note": "冷[さ]める: đồ nóng nguội về nhiệt độ thường. 冷[ひ]える: lạnh đi (dưới mức thường)."
+  },
+  {
+   "id": "v:冷ます:さます",
+   "kana": "さます",
+   "kanji": "冷ます",
+   "kf": "冷[さ]ます",
+   "hv": "LÃNH",
+   "vi": "để nguội, làm nguội (đồ nóng)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "熱[あつ]いお茶[ちゃ]を冷[さ]まして飲[の]みます。",
+     "vi": "Tôi để trà nóng nguội rồi uống.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ゆでたカニは、氷水[こおりみず]で冷[さ]ましてください。",
+     "vi": "Cua luộc xong hãy làm nguội bằng nước đá.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "お湯[ゆ]を冷[さ]ます",
+     "vi": "để nước nguội"
+    },
+    {
+     "jp": "熱[ねつ]を冷[さ]ます",
+     "vi": "hạ nhiệt"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "冷[ひ]やす",
+     "vi": "làm lạnh (cho xuống thấp)"
+    }
+   ],
+   "pair": "v:冷める:さめる"
+  },
+  {
+   "id": "v:覚める:さめる",
+   "kana": "さめる",
+   "kanji": "覚める",
+   "kf": "覚[さ]める",
+   "hv": "GIÁC",
+   "vi": "tỉnh giấc, thức giấc (tự nhiên)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地震[じしん]で夜中[よなか]に目[め]が覚[さ]めました。",
+     "vi": "Tôi tỉnh giấc giữa đêm vì động đất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷[つめ]たい水[みず]で顔[かお]を洗[あら]うと、目[め]が覚[さ]めます。",
+     "vi": "Rửa mặt nước lạnh là tỉnh ngủ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "目[め]が覚[さ]める",
+     "vi": "tỉnh giấc"
+    }
+   ],
+   "confuse": [
+    "v:起きる:おきる"
+   ],
+   "pair": "v:覚ます:さます",
+   "note": "目[め]が覚[さ]める = mắt mở ra, tỉnh. 起[お]きる = dậy (ra khỏi giường)."
+  },
+  {
+   "id": "v:覚ます:さます",
+   "kana": "さます",
+   "kanji": "覚ます",
+   "kf": "覚[さ]ます",
+   "hv": "GIÁC",
+   "vi": "làm tỉnh (khỏi giấc ngủ, cơn buồn ngủ)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "赤[あか]ちゃんが目[め]を覚[さ]まして、泣[な]き出[だ]した。",
+     "vi": "Em bé thức giấc rồi òa khóc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "眠[ねむ]い時[とき]は、コーヒーで目[め]を覚[さ]まします。",
+     "vi": "Lúc buồn ngủ tôi uống cà phê cho tỉnh.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "目[め]を覚[さ]ます",
+     "vi": "thức dậy, tỉnh ra"
+    }
+   ],
+   "pair": "v:覚める:さめる"
+  },
+  {
+   "id": "v:温まる:あたたまる",
+   "kana": "あたたまる",
+   "kanji": "温まる",
+   "kf": "温[あたた]まる",
+   "hv": "ÔN",
+   "vi": "ấm lên (người, đồ ăn, đồ uống)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お風呂[ふろ]に入[はい]って、体[からだ]が温[あたた]まりました。",
+     "vi": "Ngâm bồn xong người ấm lên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]から出[で]たら、温[あたた]かいお茶[ちゃ]で温[あたた]まってください。",
+     "vi": "Ra khỏi kho đông thì uống trà nóng cho ấm người.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "体[からだ]が温[あたた]まる",
+     "vi": "người ấm lên"
+    }
+   ],
+   "confuse": [
+    "v:暖まる:あたたまる"
+   ],
+   "pair": "v:温める:あたためる"
+  },
+  {
+   "id": "v:温める:あたためる",
+   "kana": "あたためる",
+   "kanji": "温める",
+   "kf": "温[あたた]める",
+   "hv": "ÔN",
+   "vi": "hâm nóng, làm ấm (đồ ăn, đồ vật)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お弁当[べんとう]を電子[でんし]レンジで温[あたた]めます。",
+     "vi": "Tôi hâm cơm hộp bằng lò vi sóng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷[さ]めたご飯[はん]は、温[あたた]めてから食[た]べてください。",
+     "vi": "Cơm nguội hãy hâm nóng rồi ăn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：これ、温[あたた]めますか。B：はい、お願[ねが]いします。",
+     "vi": "A: Có hâm nóng cái này không ạ? B: Vâng, nhờ anh.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "牛乳[ぎゅうにゅう]を温[あたた]める",
+     "vi": "hâm sữa"
+    }
+   ],
+   "confuse": [
+    "v:暖める:あたためる"
+   ],
+   "pair": "v:温まる:あたたまる",
+   "note": "Câu nhân viên konbini hay hỏi: お弁当[べんとう]温[あたた]めますか."
+  },
+  {
+   "id": "v:暖まる:あたたまる",
+   "kana": "あたたまる",
+   "kanji": "暖まる",
+   "kf": "暖[あたた]まる",
+   "hv": "NOÃN",
+   "vi": "ấm lên (phòng, không khí)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "部屋[へや]がなかなか暖[あたた]まりません。",
+     "vi": "Phòng mãi không ấm lên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ストーブをつけたので、休憩室[きゅうけいしつ]が暖[あたた]まりました。",
+     "vi": "Bật lò sưởi nên phòng nghỉ đã ấm.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "部屋[へや]が暖[あたた]まる",
+     "vi": "phòng ấm lên"
+    }
+   ],
+   "confuse": [
+    "v:温まる:あたたまる"
+   ],
+   "pair": "v:暖める:あたためる"
+  },
+  {
+   "id": "v:暖める:あたためる",
+   "kana": "あたためる",
+   "kanji": "暖める",
+   "kf": "暖[あたた]める",
+   "hv": "NOÃN",
+   "vi": "làm ấm (phòng, không khí)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寝[ね]る前[まえ]に、部屋[へや]を暖[あたた]めておきます。",
+     "vi": "Trước khi ngủ tôi sưởi ấm phòng sẵn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "休憩室[きゅうけいしつ]をエアコンで暖[あたた]めてください。",
+     "vi": "Hãy bật điều hòa sưởi ấm phòng nghỉ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "部屋[へや]を暖[あたた]める",
+     "vi": "sưởi ấm phòng"
+    }
+   ],
+   "confuse": [
+    "v:温める:あたためる"
+   ],
+   "pair": "v:暖まる:あたたまる"
+  },
+  {
+   "id": "v:当たる:あたる",
+   "kana": "あたる",
+   "kanji": "当たる",
+   "kf": "当[あ]たる",
+   "hv": "ĐƯƠNG",
+   "vi": "trúng, đụng phải; trúng (xổ số)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "宝[たから]くじが当[あ]たったら、家[いえ]を買[か]いたい。",
+     "vi": "Trúng xổ số thì muốn mua nhà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ボールが頭[あたま]に当[あ]たって、痛[いた]かった。",
+     "vi": "Quả bóng trúng đầu, đau quá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "刃[は]が手[て]に当[あ]たらないように注意[ちゅうい]してください。",
+     "vi": "Cẩn thận đừng để lưỡi dao chạm vào tay.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "宝[たから]くじが当[あ]たる",
+     "vi": "trúng xổ số"
+    },
+    {
+     "jp": "日[ひ]が当[あ]たる",
+     "vi": "có nắng chiếu"
+    }
+   ],
+   "pair": "v:当てる:あてる"
+  },
+  {
+   "id": "v:当てる:あてる",
+   "kana": "あてる",
+   "kanji": "当てる",
+   "kf": "当[あ]てる",
+   "hv": "ĐƯƠNG",
+   "vi": "đánh trúng, áp vào; đoán trúng",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "答[こた]えを当[あ]ててみてください。",
+     "vi": "Hãy thử đoán đáp án xem.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "けがをした所[ところ]に、冷[つめ]たいタオルを当[あ]てます。",
+     "vi": "Áp khăn lạnh vào chỗ bị thương.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "答[こた]えを当[あ]てる",
+     "vi": "đoán trúng đáp án"
+    },
+    {
+     "jp": "手[て]を当[あ]てる",
+     "vi": "áp tay vào"
+    }
+   ],
+   "pair": "v:当たる:あたる"
+  },
+  {
+   "id": "v:現れる:あらわれる",
+   "kana": "あらわれる",
+   "kanji": "現れる",
+   "kf": "現[あらわ]れる",
+   "hv": "HIỆN",
+   "vi": "xuất hiện, hiện ra",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "約束[やくそく]の時間[じかん]に、やっと彼[かれ]が現[あらわ]れた。",
+     "vi": "Đến giờ hẹn cuối cùng anh ấy cũng xuất hiện.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "練習[れんしゅう]の効果[こうか]が、少[すこ]しずつ現[あらわ]れてきた。",
+     "vi": "Hiệu quả luyện tập dần hiện ra.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "効果[こうか]が現[あらわ]れる",
+     "vi": "hiệu quả xuất hiện"
+    }
+   ],
+   "pair": "v:現す:あらわす"
+  },
+  {
+   "id": "v:現す:あらわす",
+   "kana": "あらわす",
+   "kanji": "現す",
+   "kf": "現[あらわ]す",
+   "hv": "HIỆN",
+   "vi": "lộ diện, để lộ (hình dáng)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雲[くも]の間[あいだ]から、富士山[ふじさん]が姿[すがた]を現[あらわ]した。",
+     "vi": "Núi Phú Sĩ hiện ra giữa những đám mây.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい社長[しゃちょう]が、朝礼[ちょうれい]に姿[すがた]を現[あらわ]しました。",
+     "vi": "Giám đốc mới đã xuất hiện ở buổi họp sáng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "姿[すがた]を現[あらわ]す",
+     "vi": "lộ diện, xuất hiện"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "表[あらわ]す",
+     "vi": "thể hiện, biểu đạt"
+    }
+   ],
+   "pair": "v:現れる:あらわれる"
+  },
+  {
+   "id": "v:表す:あらわす",
+   "kana": "あらわす",
+   "kanji": "表す",
+   "kf": "表[あらわ]す",
+   "hv": "BIỂU",
+   "vi": "thể hiện, biểu thị (bằng lời, hình)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hành động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "感謝[かんしゃ]の気持[きも]ちを言葉[ことば]で表[あらわ]すのは難[むずか]しい。",
+     "vi": "Thể hiện lòng biết ơn bằng lời thật khó.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この記号[きごう]は「冷凍[れいとう]」を表[あらわ]しています。",
+     "vi": "Ký hiệu này biểu thị \"đông lạnh\".",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "気持[きも]ちを表[あらわ]す",
+     "vi": "bày tỏ tình cảm"
+    }
+   ],
+   "confuse": [
+    "v:現す:あらわす"
+   ]
+  },
+  {
+   "id": "v:埋まる:うまる",
+   "kana": "うまる",
+   "kanji": "埋まる",
+   "kf": "埋[う]まる",
+   "hv": "MAI",
+   "vi": "bị chôn vùi; được lấp đầy (chỗ, lịch)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雪[ゆき]で車[くるま]が埋[う]まってしまった。",
+     "vi": "Xe bị tuyết vùi mất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "来週[らいしゅう]の予定[よてい]は、もう全部[ぜんぶ]埋[う]まっています。",
+     "vi": "Lịch tuần sau kín hết rồi.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "席[せき]が埋[う]まる",
+     "vi": "chỗ ngồi kín hết"
+    }
+   ],
+   "pair": "v:埋める:うめる"
+  },
+  {
+   "id": "v:埋める:うめる",
+   "kana": "うめる",
+   "kanji": "埋める",
+   "kf": "埋[う]める",
+   "hv": "MAI",
+   "vi": "chôn, lấp; điền vào (chỗ trống)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "犬[いぬ]が庭[にわ]に骨[ほね]を埋[う]めた。",
+     "vi": "Con chó chôn khúc xương ngoài vườn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "空[あ]いている所[ところ]を埋[う]めてください。",
+     "vi": "Hãy điền vào chỗ còn trống.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "人[ひと]が足[た]りない所[ところ]を、派遣[はけん]で埋[う]めます。",
+     "vi": "Chỗ thiếu người thì lấp bằng người phái cử.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "穴[あな]を埋[う]める",
+     "vi": "lấp hố"
+    },
+    {
+     "jp": "空欄[くうらん]を埋[う]める",
+     "vi": "điền vào ô trống"
+    }
+   ],
+   "pair": "v:埋まる:うまる"
+  },
+  {
+   "id": "v:映る:うつる",
+   "kana": "うつる",
+   "kanji": "映る",
+   "kf": "映[うつ]る",
+   "hv": "ÁNH",
+   "vi": "được phản chiếu, hiện lên (gương, màn hình)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "湖[みずうみ]に山[やま]が映[うつ]って、きれいだ。",
+     "vi": "Núi phản chiếu trên mặt hồ, đẹp quá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "カメラに私[わたし]の顔[かお]が映[うつ]っていました。",
+     "vi": "Mặt tôi hiện lên trong camera.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "鏡[かがみ]に映[うつ]る",
+     "vi": "soi trong gương"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "写[うつ]る",
+     "vi": "(ảnh) chụp được, có mặt trong ảnh"
+    }
+   ],
+   "pair": "v:映す:うつす"
+  },
+  {
+   "id": "v:映す:うつす",
+   "kana": "うつす",
+   "kanji": "映す",
+   "kf": "映[うつ]す",
+   "hv": "ÁNH",
+   "vi": "chiếu (lên màn), soi (gương)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "鏡[かがみ]に自分[じぶん]の姿[すがた]を映[うつ]してみる。",
+     "vi": "Soi thử mình trong gương.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会議[かいぎ]で、資料[しりょう]を画面[がめん]に映[うつ]します。",
+     "vi": "Trong cuộc họp chiếu tài liệu lên màn hình.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "画面[がめん]に映[うつ]す",
+     "vi": "chiếu lên màn hình"
+    }
+   ],
+   "confuse": [
+    "v:写す:うつす"
+   ],
+   "pair": "v:映る:うつる"
+  },
+  {
+   "id": "v:写る:うつる",
+   "kana": "うつる",
+   "kanji": "写る",
+   "kf": "写[うつ]る",
+   "hv": "TẢ",
+   "vi": "(người, vật) có trong ảnh, chụp được",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この写真[しゃしん]、よく写[うつ]っていますね。",
+     "vi": "Bức ảnh này chụp rõ nét nhỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "証明[しょうめい]写真[しゃしん]に影[かげ]が写[うつ]っていたので、撮[と]り直[なお]しました。",
+     "vi": "Ảnh thẻ có bóng nên tôi chụp lại.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "写真[しゃしん]に写[うつ]る",
+     "vi": "có mặt trong ảnh"
+    }
+   ],
+   "confuse": [
+    "v:映る:うつる"
+   ],
+   "pair": "v:写す:うつす"
+  },
+  {
+   "id": "v:隠れる:かくれる",
+   "kana": "かくれる",
+   "kanji": "隠れる",
+   "kf": "隠[かく]れる",
+   "hv": "ẨN",
+   "vi": "trốn, nấp; bị che khuất",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子供[こども]が木[き]の後[うし]ろに隠[かく]れている。",
+     "vi": "Đứa trẻ nấp sau gốc cây.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "月[つき]が雲[くも]に隠[かく]れて見[み]えない。",
+     "vi": "Mặt trăng bị mây che không thấy.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "後[うし]ろに隠[かく]れる",
+     "vi": "nấp phía sau"
+    }
+   ],
+   "pair": "v:隠す:かくす"
+  },
+  {
+   "id": "v:隠す:かくす",
+   "kana": "かくす",
+   "kanji": "隠す",
+   "kf": "隠[かく]す",
+   "hv": "ẨN",
+   "vi": "giấu, che giấu",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母[はは]へのプレゼントを部屋[へや]に隠[かく]しました。",
+     "vi": "Tôi giấu quà cho mẹ trong phòng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ミスを隠[かく]さないで、すぐに報告[ほうこく]してください。",
+     "vi": "Đừng giấu lỗi, hãy báo cáo ngay.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ミスを隠[かく]す",
+     "vi": "giấu lỗi"
+    },
+    {
+     "jp": "本当[ほんとう]のことを隠[かく]す",
+     "vi": "che giấu sự thật"
+    }
+   ],
+   "pair": "v:隠れる:かくれる",
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "大事[だいじ]な情報[じょうほう]を[[隠[かく]され]]ていた。",
+     "vi": "Thông tin quan trọng đã bị giấu đi."
+    }
+   ]
+  },
+  {
+   "id": "v:重なる:かさなる",
+   "kana": "かさなる",
+   "kanji": "重なる",
+   "kf": "重[かさ]なる",
+   "hv": "TRỌNG",
+   "vi": "chồng lên nhau; trùng (ngày, việc)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休[やす]みと誕生日[たんじょうび]が重[かさ]なった。",
+     "vi": "Ngày nghỉ trùng sinh nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "箱[はこ]が重[かさ]なりすぎて、倒[たお]れそうだ。",
+     "vi": "Thùng chồng nhiều quá, sắp đổ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "予定[よてい]が重[かさ]なる",
+     "vi": "trùng lịch"
+    }
+   ],
+   "pair": "v:重ねる:かさねる"
+  },
+  {
+   "id": "v:重ねる:かさねる",
+   "kana": "かさねる",
+   "kanji": "重ねる",
+   "kf": "重[かさ]ねる",
+   "hv": "TRỌNG",
+   "vi": "chồng lên, xếp chồng; lặp lại nhiều lần",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お皿[さら]を重[かさ]ねて片付[かたづ]けます。",
+     "vi": "Xếp chồng đĩa rồi cất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "箱[はこ]は五[いつ]つまでしか重[かさ]ねないでください。",
+     "vi": "Thùng chỉ xếp chồng tối đa năm cái.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "箱[はこ]を重[かさ]ねる",
+     "vi": "xếp chồng thùng"
+    },
+    {
+     "jp": "経験[けいけん]を重[かさ]ねる",
+     "vi": "tích lũy kinh nghiệm"
+    }
+   ],
+   "pair": "v:重なる:かさなる"
+  },
+  {
+   "id": "v:加わる:くわわる",
+   "kana": "くわわる",
+   "kanji": "加わる",
+   "kf": "加[くわ]わる",
+   "hv": "GIA",
+   "vi": "tham gia vào; được thêm vào",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しいメンバーがチームに加[くわ]わった。",
+     "vi": "Thành viên mới gia nhập đội.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "来月[らいげつ]から、仕事[しごと]にイカの加工[かこう]が加[くわ]わります。",
+     "vi": "Từ tháng sau công việc có thêm chế biến mực.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仲間[なかま]に加[くわ]わる",
+     "vi": "nhập hội"
+    }
+   ],
+   "pair": "v:加える:くわえる"
+  },
+  {
+   "id": "v:加える:くわえる",
+   "kana": "くわえる",
+   "kanji": "加える",
+   "kf": "加[くわ]える",
+   "hv": "GIA",
+   "vi": "thêm vào, cộng vào",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "スープに塩[しお]を少[すこ]し加[くわ]えてください。",
+     "vi": "Cho thêm chút muối vào súp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "消毒液[しょうどくえき]は、水[みず]を加[くわ]えて薄[うす]めます。",
+     "vi": "Dung dịch khử trùng pha loãng bằng cách thêm nước.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "塩[しお]を加[くわ]える",
+     "vi": "thêm muối"
+    }
+   ],
+   "syn": [
+    "v:足す:たす"
+   ],
+   "pair": "v:加わる:くわわる"
+  },
+  {
+   "id": "v:こぼれる:こぼれる",
+   "kana": "こぼれる",
+   "kanji": "",
+   "hv": "",
+   "vi": "bị đổ, tràn ra (chất lỏng, hạt)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "コップから水[みず]がこぼれた。",
+     "vi": "Nước tràn ra khỏi cốc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "床[ゆか]に油[あぶら]がこぼれていたら、すぐ拭[ふ]いてください。",
+     "vi": "Dầu đổ ra sàn thì lau ngay.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]がこぼれる",
+     "vi": "nước tràn ra"
+    }
+   ],
+   "pair": "v:こぼす:こぼす"
+  },
+  {
+   "id": "v:こぼす:こぼす",
+   "kana": "こぼす",
+   "kanji": "",
+   "hv": "",
+   "vi": "làm đổ, đánh đổ; than thở",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ジュースを服[ふく]にこぼしてしまった。",
+     "vi": "Lỡ đánh đổ nước ngọt lên áo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "薬品[やくひん]をこぼさないように運[はこ]んでください。",
+     "vi": "Hãy vận chuyển sao cho không làm đổ hóa chất.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]をこぼす",
+     "vi": "làm đổ nước"
+    },
+    {
+     "jp": "愚痴[ぐち]をこぼす",
+     "vi": "than phiền"
+    }
+   ],
+   "pair": "v:こぼれる:こぼれる"
+  },
+  {
+   "id": "v:刺さる:ささる",
+   "kana": "ささる",
+   "kanji": "刺さる",
+   "kf": "刺[さ]さる",
+   "hv": "THÍCH",
+   "vi": "bị đâm, cắm vào (gai, xương)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "指[ゆび]に魚[さかな]の骨[ほね]が刺[さ]さった。",
+     "vi": "Xương cá đâm vào ngón tay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "足[あし]にガラスが刺[さ]さって、病院[びょういん]に行[い]った。",
+     "vi": "Mảnh kính cắm vào chân nên đi viện.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "とげが刺[さ]さる",
+     "vi": "bị gai đâm"
+    }
+   ],
+   "pair": "v:刺す:さす"
+  },
+  {
+   "id": "v:刺す:さす",
+   "kana": "さす",
+   "kanji": "刺す",
+   "kf": "刺[さ]す",
+   "hv": "THÍCH",
+   "vi": "đâm, chích; (côn trùng) đốt",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "蚊[か]に刺[さ]されて、かゆい。",
+     "vi": "Bị muỗi đốt, ngứa quá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "串[くし]を魚[さかな]に刺[さ]して焼[や]きます。",
+     "vi": "Xiên que vào cá rồi nướng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "蚊[か]が刺[さ]す",
+     "vi": "muỗi đốt"
+    },
+    {
+     "jp": "針[はり]を刺[さ]す",
+     "vi": "châm kim"
+    }
+   ],
+   "pair": "v:刺さる:ささる",
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "夜[よる]、蚊[か]に[[刺[さ]され]]ました。",
+     "vi": "Đêm qua tôi bị muỗi đốt."
+    }
+   ]
+  },
+  {
+   "id": "v:揃う:そろう",
+   "kana": "そろう",
+   "kanji": "揃う",
+   "kf": "揃[そろ]う",
+   "hv": "TIỄN",
+   "vi": "có đủ cả (người, đồ); đồng đều (kích cỡ)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家族[かぞく]全員[ぜんいん]が揃[そろ]って、ご飯[はん]を食[た]べた。",
+     "vi": "Cả nhà đông đủ ăn cơm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "書類[しょるい]が揃[そろ]ったら、窓口[まどぐち]に出[だ]してください。",
+     "vi": "Đủ giấy tờ thì nộp ở quầy.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "大[おお]きさが揃[そろ]った魚[さかな]を選[えら]びます。",
+     "vi": "Chọn những con cá đều cỡ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "全員[ぜんいん]が揃[そろ]う",
+     "vi": "đủ mặt mọi người"
+    },
+    {
+     "jp": "書類[しょるい]が揃[そろ]う",
+     "vi": "đủ giấy tờ"
+    }
+   ],
+   "pair": "v:揃える:そろえる"
+  },
+  {
+   "id": "v:揃える:そろえる",
+   "kana": "そろえる",
+   "kanji": "揃える",
+   "kf": "揃[そろ]える",
+   "hv": "TIỄN",
+   "vi": "chuẩn bị đủ; sắp xếp cho đều",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tự – tha",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "申請[しんせい]に必要[ひつよう]な書類[しょるい]を揃[そろ]えました。",
+     "vi": "Tôi đã chuẩn bị đủ giấy tờ cần cho đơn.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "箱[はこ]の向[む]きを揃[そろ]えて並[なら]べてください。",
+     "vi": "Hãy xếp thùng cho cùng một hướng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "玄関[げんかん]で靴[くつ]を揃[そろ]えます。",
+     "vi": "Xếp giày ngay ngắn ở cửa.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "書類[しょるい]を揃[そろ]える",
+     "vi": "chuẩn bị đủ giấy tờ"
+    },
+    {
+     "jp": "靴[くつ]を揃[そろ]える",
+     "vi": "xếp giày ngay ngắn"
+    }
+   ],
+   "pair": "v:揃う:そろう"
+  }
+ ]
+}

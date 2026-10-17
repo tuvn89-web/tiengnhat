@@ -1,0 +1,853 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n4-05",
+  "title": "Bài mở đầu N4 – bài 5: Máy kêu lạ, tin cháy và chuyến đi Kyoto",
+  "type": "dialog",
+  "level": "N4",
+  "topics": [
+   "doisong",
+   "xuong"
+  ],
+  "version": 2,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n4-05",
+   "title": "Máy kêu lạ, tin cháy và chuyến đi Kyoto",
+   "level": "N4",
+   "topics": [
+    "xuong",
+    "doisong"
+   ],
+   "ctx": "xuong",
+   "lesson": "l:n4-05",
+   "intro": true,
+   "setting": "Máy ở dây chuyền 3 kêu lạ. Giờ trưa, mọi người kể tin cháy và tai nạn gần ga. Cuối tuần, anh Nguyễn, Hoa và Minh bàn đi Kyoto.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    },
+    {
+     "key": "A",
+     "name": "田中[たなか]",
+     "vi": "Tổ trưởng"
+    },
+    {
+     "key": "C",
+     "name": "マリア",
+     "vi": "Đồng nghiệp"
+    },
+    {
+     "key": "D",
+     "name": "鈴木[すずき]",
+     "vi": "Đồng nghiệp người Nhật"
+    },
+    {
+     "key": "H",
+     "name": "ホア",
+     "vi": "Thực tập sinh"
+    },
+    {
+     "key": "F",
+     "name": "ミン",
+     "vi": "Bạn"
+    }
+   ],
+   "turns": [
+    {
+     "who": "D",
+     "jp": "グエンさん、三番[さんばん]の機械[きかい]の音[おと]、おかしいですね。",
+     "vi": "Anh Nguyễn, tiếng máy dây chuyền 3 lạ nhỉ.",
+     "key": "おかしい",
+     "grammar": [
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "機械[きかい]",
+       "vi": "máy móc"
+      },
+      {
+       "w": "音[おと]",
+       "vi": "âm thanh, tiếng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "本当[ほんとう]ですね。変[へん]な音[おと]ですね。",
+     "vi": "Đúng thật. Tiếng kêu lạ quá.",
+     "key": "変[へん]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "音[おと]",
+       "vi": "âm thanh, tiếng"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "故障[こしょう]したようです。ベルトが止[と]まりました。",
+     "vi": "Hình như máy hỏng rồi. Băng chuyền dừng rồi.",
+     "key": "故障[こしょう]",
+     "note": "〜ようだ = \"hình như\" — đoán dựa trên điều mình thấy, nghe. Nối: thể thường + ようだ; danh từ + のようだ; tính từ な + なようだ.",
+     "grammar": [
+      "g:〜ようだ",
+      "g:〜ました・〜ませんでした"
+     ],
+     "gloss": [
+      {
+       "w": "ベルト",
+       "vi": "băng chuyền"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "どうしましたか。",
+     "vi": "Có chuyện gì vậy?",
+     "grammar": [
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "機械[きかい]が故障[こしょう]したみたいです。原因[げんいん]はまだわかりません。",
+     "vi": "Có vẻ máy hỏng rồi. Chưa biết nguyên nhân.",
+     "key": "原因[げんいん]",
+     "note": "〜みたいだ = 〜ようだ trong văn nói (thân mật hơn). Danh từ, tính từ な nối thẳng: 故障[こしょう]みたい, 変[へん]みたい.",
+     "grammar": [
+      "g:〜みたいだ",
+      "g:〜がわかります"
+     ],
+     "gloss": [
+      {
+       "w": "機械[きかい]",
+       "vi": "máy móc"
+      },
+      {
+       "w": "みたい",
+       "vi": "hình như; giống như"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "そうですか。じゃあ、メーカーに電話[でんわ]します。皆[みな]さん、機械[きかい]に触[さわ]らないでください。",
+     "vi": "Vậy à. Thế tôi gọi cho hãng. Mọi người đừng chạm vào máy.",
+     "grammar": [
+      "g:〜に",
+      "g:〜ないでください"
+     ],
+     "gloss": [
+      {
+       "w": "皆[みな]さん",
+       "vi": "mọi người"
+      },
+      {
+       "w": "機械[きかい]",
+       "vi": "máy móc"
+      },
+      {
+       "w": "メーカー",
+       "vi": "hãng sản xuất"
+      },
+      {
+       "w": "触[さわ]らないで",
+       "vi": "đừng chạm vào"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "田中[たなか]さん、ここに油[あぶら]がたくさん落[お]ちています。原因[げんいん]はこれのようです。",
+     "vi": "Anh Tanaka, ở đây dầu chảy ra nhiều lắm. Hình như nguyên nhân là cái này.",
+     "alt": [
+      "田中[たなか]さん、ここに油[あぶら]があります。これが原因[げんいん]みたいです。"
+     ],
+     "grammar": [
+      "g:〜に",
+      "g:〜ています",
+      "g:〜ようだ"
+     ],
+     "gloss": [
+      {
+       "w": "油[あぶら]",
+       "vi": "dầu"
+      },
+      {
+       "w": "落[お]ちて",
+       "vi": "rơi, vương"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "ああ、やはりそうですね。昨日[きのう]も少[すこ]しおかしかったです。",
+     "vi": "À, đúng như tôi nghĩ. Hôm qua cũng hơi có vấn đề.",
+     "key": "やはり",
+     "grammar": [
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "おかしかった",
+       "vi": "(đã) có vấn đề"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "機械[きかい]は午後[ごご]、直[なお]るらしいです。メーカーの人[ひと]が電話[でんわ]でそう言[い]っていました。",
+     "vi": "Nghe nói máy chiều nay sửa xong. Người của hãng nói thế qua điện thoại.",
+     "note": "〜らしい = \"nghe nói / có vẻ\" dựa trên thông tin từ người khác, từ bên ngoài; người nói không chịu trách nhiệm về độ chính xác.",
+     "grammar": [
+      "g:〜らしい",
+      "g:〜の",
+      "g:〜で",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "機械[きかい]",
+       "vi": "máy móc"
+      },
+      {
+       "w": "メーカー",
+       "vi": "hãng sản xuất"
+      },
+      {
+       "w": "直[なお]る",
+       "vi": "được sửa xong"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "さっき、隣[となり]のラインの人[ひと]たちも驚[おどろ]いていましたね。",
+     "vi": "Lúc nãy người ở dây chuyền bên cạnh cũng giật mình đấy.",
+     "key": "驚[おどろ]いて",
+     "grammar": [
+      "g:〜の",
+      "g:〜も",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "さっき",
+       "vi": "lúc nãy"
+      },
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      },
+      {
+       "w": "人[ひと]たち",
+       "vi": "mọi người"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。大[おお]きい音[おと]でしたから、みんな驚[おどろ]いたようです。",
+     "vi": "Vâng. Tiếng to quá nên có vẻ ai cũng giật mình.",
+     "grammar": [
+      "g:〜から",
+      "g:〜ようだ"
+     ],
+     "gloss": [
+      {
+       "w": "音[おと]",
+       "vi": "âm thanh, tiếng"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "グエンさん、機械[きかい]が直[なお]りました。原因[げんいん]はやはり油[あぶら]でした。",
+     "vi": "Anh Nguyễn, máy sửa xong rồi. Nguyên nhân đúng là do dầu.",
+     "grammar": [
+      "g:〜ました・〜ませんでした"
+     ],
+     "gloss": [
+      {
+       "w": "直[なお]りました",
+       "vi": "đã sửa xong"
+      },
+      {
+       "w": "機械[きかい]",
+       "vi": "máy móc"
+      },
+      {
+       "w": "油[あぶら]",
+       "vi": "dầu"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "よかったです。これからは毎日[まいにち]、油[あぶら]をチェックしようと思[おも]います。",
+     "vi": "May quá. Từ giờ ngày nào tôi cũng định kiểm tra dầu.",
+     "grammar": [
+      "g:〜を",
+      "g:〜ようと思う"
+     ],
+     "gloss": [
+      {
+       "w": "これから",
+       "vi": "từ giờ"
+      },
+      {
+       "w": "チェック",
+       "vi": "kiểm tra"
+      },
+      {
+       "w": "油[あぶら]",
+       "vi": "dầu"
+      },
+      {
+       "w": "よかった",
+       "vi": "may quá, tốt quá"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "グエンさん、昨日[きのう]の夜[よる]、駅[えき]の近[ちか]くで火事[かじ]があったらしいですよ。",
+     "vi": "Anh Nguyễn, nghe nói tối qua gần ga có cháy đấy.",
+     "key": "火事[かじ]",
+     "grammar": [
+      "g:〜の",
+      "g:〜で",
+      "g:〜があります・〜がいます",
+      "g:〜らしい"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "え、本当[ほんとう]ですか。だから、夜[よる]、外[そと]で人[ひと]が騒[さわ]いでいましたね。",
+     "vi": "Hả, thật à? Thảo nào tối qua bên ngoài người ta ồn ào.",
+     "key": "騒[さわ]いで",
+     "grammar": [
+      "g:〜で",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "だから",
+       "vi": "thảo nào"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "警察[けいさつ]の車[くるま]もたくさん来[き]ていたみたいです。",
+     "vi": "Hình như xe cảnh sát cũng đến nhiều.",
+     "key": "警察[けいさつ]",
+     "grammar": [
+      "g:〜の",
+      "g:〜も",
+      "g:〜ています",
+      "g:〜みたいだ"
+     ],
+     "gloss": [
+      {
+       "w": "みたい",
+       "vi": "hình như; giống như"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "けがをした人[ひと]はいますか。",
+     "vi": "Có ai bị thương không?",
+     "grammar": [
+      "g:〜があります・〜がいます",
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "けが",
+       "vi": "bị thương"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "いないようです。よかったです。",
+     "vi": "Hình như không có ai. May quá.",
+     "grammar": [
+      "g:〜ようだ"
+     ],
+     "gloss": [
+      {
+       "w": "よかった",
+       "vi": "may quá, tốt quá"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "そういえば、今朝[けさ]、駅前[えきまえ]で事故[じこ]もあったみたいですよ。",
+     "vi": "Nói mới nhớ, sáng nay trước ga hình như cũng có tai nạn đấy.",
+     "key": "事故[じこ]",
+     "grammar": [
+      "g:〜で",
+      "g:〜も",
+      "g:〜みたいだ"
+     ],
+     "gloss": [
+      {
+       "w": "駅前[えきまえ]",
+       "vi": "trước ga"
+      },
+      {
+       "w": "そういえば",
+       "vi": "nói mới nhớ"
+      },
+      {
+       "w": "みたい",
+       "vi": "hình như; giống như"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "最近[さいきん]、多[おお]いですね。私[わたし]もびっくりしました。",
+     "vi": "Dạo này nhiều thật. Tôi cũng giật mình.",
+     "key": "びっくり",
+     "grammar": [
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "最近[さいきん]",
+       "vi": "dạo này"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "自転車[じてんしゃ]の事故[じこ]らしいです。グエンさんも気[き]をつけてくださいね。",
+     "vi": "Nghe nói là tai nạn xe đạp. Anh Nguyễn cũng cẩn thận nhé.",
+     "grammar": [
+      "g:〜の",
+      "g:〜らしい",
+      "g:〜も",
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "気[き]をつけて",
+       "vi": "cẩn thận"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "グエンさん、今度[こんど]の休[やす]みに京都[きょうと]へ行[い]きませんか。",
+     "vi": "Anh Nguyễn, ngày nghỉ tới đi Kyoto không?",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜へ",
+      "g:〜ませんか"
+     ],
+     "gloss": [
+      {
+       "w": "今度[こんど]",
+       "vi": "lần tới"
+      },
+      {
+       "w": "京都[きょうと]",
+       "vi": "Kyoto"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いいですね。京都[きょうと]はお寺[てら]や神社[じんじゃ]がたくさんあるらしいですね。",
+     "vi": "Hay đấy. Nghe nói Kyoto có nhiều chùa với đền lắm nhỉ.",
+     "key": "寺[てら]",
+     "grammar": [
+      "g:〜があります・〜がいます",
+      "g:〜らしい"
+     ],
+     "gloss": [
+      {
+       "w": "や",
+       "vi": "và (liệt kê)"
+      },
+      {
+       "w": "京都[きょうと]",
+       "vi": "Kyoto"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "はい。友達[ともだち]の話[はなし]では、秋[あき]の景色[けしき]がとてもきれいらしいです。",
+     "vi": "Vâng. Bạn em kể là cảnh mùa thu đẹp lắm.",
+     "key": "景色[けしき]",
+     "grammar": [
+      "g:〜の",
+      "g:〜らしい"
+     ],
+     "gloss": [
+      {
+       "w": "友達[ともだち]",
+       "vi": "bạn"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "美術館[びじゅつかん]も有名[ゆうめい]みたいですよ。今[いま]、日本[にほん]の古[ふる]い絵[え]の展覧会[てんらんかい]をしているらしいです。",
+     "vi": "Bảo tàng mỹ thuật cũng có vẻ nổi tiếng đấy. Nghe nói đang có triển lãm tranh cổ Nhật Bản.",
+     "key": "展覧会[てんらんかい]",
+     "grammar": [
+      "g:〜も",
+      "g:〜みたいだ",
+      "g:〜の",
+      "g:〜を",
+      "g:〜ています",
+      "g:〜らしい"
+     ],
+     "gloss": [
+      {
+       "w": "有名[ゆうめい]",
+       "vi": "nổi tiếng"
+      },
+      {
+       "w": "絵[え]",
+       "vi": "tranh"
+      },
+      {
+       "w": "みたい",
+       "vi": "hình như; giống như"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "美術館[びじゅつかん]、いいですね。教会[きょうかい]もありますか。",
+     "vi": "Bảo tàng mỹ thuật hay đấy. Có cả nhà thờ không?",
+     "key": "教会[きょうかい]",
+     "grammar": [
+      "g:〜も",
+      "g:〜があります・〜がいます",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "あるみたいです。でも、教会[きょうかい]より動物園[どうぶつえん]のほうが駅[えき]から近[ちか]いようです。",
+     "vi": "Hình như có. Nhưng sở thú thì có vẻ gần ga hơn nhà thờ.",
+     "key": "動物園[どうぶつえん]",
+     "grammar": [
+      "g:〜みたいだ",
+      "g:〜より〜のほうが",
+      "g:〜から〜まで",
+      "g:〜ようだ"
+     ],
+     "gloss": [
+      {
+       "w": "動物[どうぶつ]",
+       "vi": "động vật"
+      },
+      {
+       "w": "みたい",
+       "vi": "hình như; giống như"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "動物園[どうぶつえん]！行[い]きたいです！",
+     "vi": "Sở thú! Em muốn đi!",
+     "grammar": [
+      "g:〜たい"
+     ],
+     "gloss": [
+      {
+       "w": "動物[どうぶつ]",
+       "vi": "động vật"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ホアさん、子供[こども]みたいですね。",
+     "vi": "Hoa như trẻ con ấy nhỉ.",
+     "note": "みたい còn có nghĩa \"giống như\": 子供[こども]みたい = như trẻ con.",
+     "grammar": [
+      "g:〜みたいだ"
+     ],
+     "gloss": [
+      {
+       "w": "子供[こども]",
+       "vi": "trẻ con"
+      },
+      {
+       "w": "みたい",
+       "vi": "hình như; giống như"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "ひどい！でも、本当[ほんとう]に動物[どうぶつ]が好[す]きです。",
+     "vi": "Anh quá đáng! Nhưng em thật sự thích động vật.",
+     "grammar": [
+      "g:〜が好きです"
+     ],
+     "gloss": [
+      {
+       "w": "動物[どうぶつ]",
+       "vi": "động vật"
+      },
+      {
+       "w": "ひどい",
+       "vi": "quá đáng"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      },
+      {
+       "w": "本当[ほんとう]に",
+       "vi": "thật sự"
+      }
+     ]
+    },
+    {
+     "who": "F",
+     "jp": "じゃあ、午前[ごぜん]はお寺[てら]と神社[じんじゃ]、午後[ごご]は動物園[どうぶつえん]にしましょう。",
+     "vi": "Vậy buổi sáng đi chùa và đền, buổi chiều đi sở thú nhé.",
+     "key": "神社[じんじゃ]",
+     "grammar": [
+      "g:〜と",
+      "g:〜に",
+      "g:〜ましょう"
+     ],
+     "gloss": [
+      {
+       "w": "動物[どうぶつ]",
+       "vi": "động vật"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いいですね。美術館[びじゅつかん]は、また今度[こんど]ですね。",
+     "vi": "Được đấy. Bảo tàng để lần sau nhé.",
+     "key": "美術館[びじゅつかん]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "今度[こんど]",
+       "vi": "lần này; lần tới"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "グエンさん、京都[きょうと]はどうでしたか。",
+     "vi": "Anh Nguyễn, Kyoto thế nào?",
+     "grammar": [
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "京都[きょうと]",
+       "vi": "Kyoto"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "とてもよかったです。でも、人[ひと]が多[おお]くて、驚[おどろ]きました。",
+     "vi": "Rất tuyệt. Nhưng đông người quá, tôi bất ngờ.",
+     "key": "驚[おどろ]きました",
+     "grammar": [
+      "g:〜て、〜"
+     ],
+     "gloss": [
+      {
+       "w": "多[おお]くて",
+       "vi": "đông quá"
+      },
+      {
+       "w": "よかった",
+       "vi": "may quá, tốt quá"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "そうでしょう。秋[あき]の京都[きょうと]は、いつも人[ひと]が多[おお]いようです。",
+     "vi": "Chắc vậy rồi. Kyoto mùa thu lúc nào cũng đông người.",
+     "grammar": [
+      "g:〜でしょう",
+      "g:〜の",
+      "g:〜ようだ"
+     ],
+     "gloss": [
+      {
+       "w": "京都[きょうと]",
+       "vi": "Kyoto"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "でも、きっとまた行[い]きます。今度[こんど]は春[はる]に行[い]こうと思[おも]っています。",
+     "vi": "Nhưng chắc chắn tôi sẽ đi nữa. Lần tới tôi định đi vào mùa xuân.",
+     "key": "きっと",
+     "grammar": [
+      "g:〜に",
+      "g:〜ようと思う"
+     ],
+     "gloss": [
+      {
+       "w": "今度[こんど]",
+       "vi": "lần này; lần tới"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "ホアさんは「グエンさんが動物園[どうぶつえん]でトラを見[み]て、びっくりしていました」と言[い]っていましたよ。",
+     "vi": "Hoa kể là \"anh Nguyễn nhìn thấy con hổ ở sở thú rồi giật mình\" đấy.",
+     "grammar": [
+      "g:〜で",
+      "g:〜を",
+      "g:〜て、〜",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "動物[どうぶつ]",
+       "vi": "động vật"
+      },
+      {
+       "w": "トラ",
+       "vi": "con hổ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "それは嘘[うそ]です！ホアさんのほうがびっくりしていました。",
+     "vi": "Bịa đấy! Hoa mới là người giật mình.",
+     "key": "嘘[うそ]",
+     "grammar": [
+      "g:〜より〜のほうが",
+      "g:〜ています"
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "ははは。二人[ふたり]ともびっくりしたようですね。",
+     "vi": "Ha ha. Có vẻ cả hai đều giật mình nhỉ.",
+     "grammar": [
+      "g:〜ようだ"
+     ],
+     "gloss": [
+      {
+       "w": "二人[ふたり]とも",
+       "vi": "cả hai người"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうかもしれません……。",
+     "vi": "Có lẽ vậy……",
+     "grammar": [
+      "g:〜かもしれない"
+     ],
+     "gloss": [
+      {
+       "w": "そうかもしれません",
+       "vi": "có lẽ vậy"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo anh Nguyễn, nguyên nhân máy hỏng có vẻ là gì?",
+     "opts": [
+      "Dầu chảy ra nhiều",
+      "Mất điện",
+      "Băng chuyền đứt",
+      "Chưa rõ"
+     ],
+     "ans": 0,
+     "why": "ここに油[あぶら]がたくさん落[お]ちています。原因[げんいん]はこれのようです。"
+    },
+    {
+     "q": "Máy sẽ sửa xong lúc nào (nghe từ hãng)?",
+     "opts": [
+      "Chiều nay",
+      "Ngày mai",
+      "Tuần sau",
+      "Không sửa được"
+     ],
+     "ans": 0,
+     "why": "機械[きかい]は午後[ごご]、直[なお]るらしいです。"
+    },
+    {
+     "q": "Tối qua gần ga có chuyện gì?",
+     "opts": [
+      "Có cháy",
+      "Có trộm",
+      "Có lễ hội",
+      "Mất điện"
+     ],
+     "ans": 0,
+     "why": "昨日[きのう]の夜[よる]、駅[えき]の近[ちか]くで火事[かじ]があったらしいですよ。"
+    },
+    {
+     "q": "Kế hoạch ở Kyoto là gì?",
+     "opts": [
+      "Sáng chùa và đền, chiều sở thú",
+      "Sáng bảo tàng, chiều nhà thờ",
+      "Cả ngày ở sở thú",
+      "Chỉ đi bảo tàng"
+     ],
+     "ans": 0,
+     "why": "午前[ごぜん]はお寺[てら]と神社[じんじゃ]、午後[ごご]は動物園[どうぶつえん]にしましょう。"
+    },
+    {
+     "q": "Câu nào là văn nói thân mật của 〜ようだ?",
+     "opts": [
+      "〜みたいだ",
+      "〜らしい",
+      "〜そうだ",
+      "〜でしょう"
+     ],
+     "ans": 0,
+     "why": "みたいだ = ようだ trong văn nói."
+    }
+   ]
+  }
+ ]
+}

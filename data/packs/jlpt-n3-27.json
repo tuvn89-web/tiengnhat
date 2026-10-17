@@ -1,0 +1,1541 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-27",
+  "title": "JLPT N3 27 – Thành phố & nông thôn",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 2,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:農業:のうぎょう",
+   "kana": "のうぎょう",
+   "kanji": "農業",
+   "hv": "NÔNG NGHIỆP",
+   "vi": "nông nghiệp",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nông thôn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "兵庫県[ひょうごけん]は、農業[のうぎょう]も盛[さか]んです。",
+     "vi": "Tỉnh Hyogo nông nghiệp cũng phát triển.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "外国人[がいこくじん]も、農業[のうぎょう]で働[はたら]いています。",
+     "vi": "Người nước ngoài cũng làm việc trong ngành nông nghiệp.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "漁業[ぎょぎょう]",
+     "vi": "ngư nghiệp"
+    }
+   ],
+   "note": "農業[のうぎょう] cũng là một ngành của 特定技能[とくていぎのう]."
+  },
+  {
+   "id": "v:農家:のうか",
+   "kana": "のうか",
+   "kanji": "農家",
+   "hv": "NÔNG GIA",
+   "vi": "nhà nông, hộ làm nông",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nông thôn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "祖父[そふ]の家[いえ]は、米[こめ]を作[つく]る農家[のうか]です。",
+     "vi": "Nhà ông tôi là nhà nông trồng lúa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "農家[のうか]から、野菜[やさい]を直接[ちょくせつ]買[か]いました。",
+     "vi": "Tôi mua rau trực tiếp từ nhà nông.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:畑:はたけ",
+   "kana": "はたけ",
+   "kanji": "畑",
+   "hv": "ĐIỀN",
+   "vi": "ruộng cạn, vườn rau",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nông thôn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "畑[はたけ]で、トマトを作[つく]っています。",
+     "vi": "Tôi trồng cà chua ngoài vườn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "畑[はたけ]と田[た]んぼが、たくさんあります。",
+     "vi": "Có nhiều ruộng cạn và ruộng lúa.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "田[た]んぼ",
+     "vi": "ruộng lúa (nước)"
+    }
+   ],
+   "flag": true,
+   "note": "田[た]んぼ = ruộng nước trồng lúa; 畑[はたけ] = ruộng khô trồng rau, khoai. Âm Hán Việt của chữ 畑[はたけ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:土地:とち",
+   "kana": "とち",
+   "kanji": "土地",
+   "hv": "THỔ ĐỊA",
+   "vi": "đất đai, mảnh đất",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nông thôn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "田舎[いなか]は、土地[とち]が安[やす]いです。",
+     "vi": "Ở quê đất rẻ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この土地[とち]は、野菜[やさい]がよく育[そだ]ちます。",
+     "vi": "Đất này rau mọc tốt.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "土地[とち]の人[ひと] = người địa phương."
+  },
+  {
+   "id": "v:住宅:じゅうたく",
+   "kana": "じゅうたく",
+   "kanji": "住宅",
+   "hv": "TRÚ TRẠCH",
+   "vi": "nhà ở (khu nhà)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この辺[あた]りは、住宅[じゅうたく]が多[おお]いです。",
+     "vi": "Quanh đây nhiều nhà ở.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "市[し]の住宅[じゅうたく]に、申[もう]し込[こ]みました。",
+     "vi": "Tôi đăng ký nhà ở của thành phố.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "市営住宅[しえいじゅうたく] = nhà ở do thành phố cho thuê, giá rẻ."
+  },
+  {
+   "id": "v:家賃:やちん",
+   "kana": "やちん",
+   "kanji": "家賃",
+   "hv": "GIA NHẪM",
+   "vi": "tiền thuê nhà",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "都会[とかい]は、家賃[やちん]が高[たか]いです。",
+     "vi": "Thành phố tiền thuê nhà đắt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "家賃[やちん]は、毎月[まいつき]二十五日[にじゅうごにち]に払[はら]います。",
+     "vi": "Tiền nhà trả ngày 25 hằng tháng.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:騒音:そうおん",
+   "kana": "そうおん",
+   "kanji": "騒音",
+   "hv": "TAO ÂM",
+   "vi": "tiếng ồn (gây khó chịu)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "道路[どうろ]の騒音[そうおん]で、眠[ねむ]れません。",
+     "vi": "Tiếng ồn ngoài đường làm tôi không ngủ được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]の騒音[そうおん]に、気[き]をつけてください。",
+     "vi": "Hãy chú ý tiếng ồn của nhà máy.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:道路:どうろ",
+   "kana": "どうろ",
+   "kanji": "道路",
+   "hv": "ĐẠO LỘ",
+   "vi": "đường (xe chạy)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giao thông",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雪[ゆき]で、道路[どうろ]が凍[こお]っています。",
+     "vi": "Đường đóng băng vì tuyết.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "道路[どうろ]を渡[わた]る時[とき]は、気[き]をつけて。",
+     "vi": "Khi qua đường thì cẩn thận.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "道[みち] = đường nói chung; 道路[どうろ] = đường cho xe cộ."
+  },
+  {
+   "id": "v:歩道:ほどう",
+   "kana": "ほどう",
+   "kanji": "歩道",
+   "hv": "BỘ ĐẠO",
+   "vi": "vỉa hè, đường dành cho người đi bộ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giao thông",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "自転車[じてんしゃ]で、歩道[ほどう]を走[はし]らないでください。",
+     "vi": "Đừng đi xe đạp trên vỉa hè.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "歩道橋[ほどうきょう]を渡[わた]って、駅[えき]に行[い]きます。",
+     "vi": "Đi qua cầu vượt bộ hành để tới ga.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "歩道橋[ほどうきょう] = cầu vượt cho người đi bộ; 横断歩道[おうだんほどう] = vạch qua đường."
+  },
+  {
+   "id": "v:トンネル:トンネル",
+   "kana": "トンネル",
+   "kanji": "",
+   "hv": "",
+   "vi": "đường hầm",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giao thông",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "長[なが]いトンネルを抜[ぬ]けると、海[うみ]が見[み]えます。",
+     "vi": "Ra khỏi đường hầm dài là thấy biển.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "トンネルの中[なか]は、暗[くら]いです。",
+     "vi": "Trong đường hầm tối.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "tunnel (tiếng Anh)"
+  },
+  {
+   "id": "v:鉄道:てつどう",
+   "kana": "てつどう",
+   "kanji": "鉄道",
+   "hv": "THIẾT ĐẠO",
+   "vi": "đường sắt, ngành tàu hỏa",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giao thông",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この町[まち]には、鉄道[てつどう]が通[とお]っていません。",
+     "vi": "Thị trấn này không có đường sắt chạy qua.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "鉄道[てつどう]の会社[かいしゃ]で、働[はたら]いています。",
+     "vi": "Anh ấy làm ở công ty đường sắt.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:列車:れっしゃ",
+   "kana": "れっしゃ",
+   "kanji": "列車",
+   "hv": "LIỆT XA",
+   "vi": "đoàn tàu (đường dài)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giao thông",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜[よる]の列車[れっしゃ]で、東京[とうきょう]に行[い]きました。",
+     "vi": "Tôi đi Tokyo bằng tàu đêm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "事故[じこ]で、列車[れっしゃ]が止[と]まっています。",
+     "vi": "Tàu đang dừng vì tai nạn.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:電車:でんしゃ"
+   ],
+   "note": "列車[れっしゃ] hay nghe trong thông báo ở ga."
+  },
+  {
+   "id": "v:高速:こうそく",
+   "kana": "こうそく",
+   "kanji": "高速",
+   "hv": "CAO TỐC",
+   "vi": "tốc độ cao; đường cao tốc",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giao thông",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "高速[こうそく]で行[い]けば、一時間[いちじかん]で着[つ]きます。",
+     "vi": "Đi đường cao tốc thì một tiếng là tới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "トラックが、高速道路[こうそくどうろ]を走[はし]っています。",
+     "vi": "Xe tải đang chạy trên đường cao tốc.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "高速道路[こうそくどうろ] = đường cao tốc; nói tắt 高速[こうそく]."
+  },
+  {
+   "id": "v:駐車:ちゅうしゃ",
+   "kana": "ちゅうしゃ",
+   "kanji": "駐車",
+   "hv": "TRÚ XA",
+   "vi": "đỗ xe",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giao thông",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ここに駐車[ちゅうしゃ]しないでください。",
+     "vi": "Đừng đỗ xe ở đây.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]の駐車場[ちゅうしゃじょう]は、無料[むりょう]です。",
+     "vi": "Bãi đỗ xe công ty miễn phí.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:駐車場:ちゅうしゃじょう"
+   ],
+   "note": "駐車禁止[ちゅうしゃきんし] = cấm đỗ xe."
+  },
+  {
+   "id": "v:通行:つうこう",
+   "kana": "つうこう",
+   "kanji": "通行",
+   "hv": "THÔNG HÀNG",
+   "vi": "đi lại, lưu thông",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giao thông",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工事中[こうじちゅう]で、この道[みち]は通行[つうこう]できません。",
+     "vi": "Đang thi công nên đường này không đi được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "右側[みぎがわ]を通行[つうこう]してください。",
+     "vi": "Hãy đi bên phải.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "通行止[つうこうど]め = cấm đường, cấm lưu thông."
+  },
+  {
+   "id": "v:横断:おうだん",
+   "kana": "おうだん",
+   "kanji": "横断",
+   "hv": "HOÀNH ĐOẠN",
+   "vi": "đi cắt ngang (qua đường)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giao thông",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "道路[どうろ]を横断[おうだん]する時[とき]は、左右[さゆう]を見[み]て。",
+     "vi": "Băng qua đường thì nhìn trái phải.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "横断[おうだん]歩道[ほどう]で、止[と]まってください。",
+     "vi": "Hãy dừng ở vạch qua đường.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "道路[どうろ]を横断[おうだん]する",
+     "vi": "băng qua đường"
+    }
+   ]
+  },
+  {
+   "id": "v:信号:しんごう",
+   "kana": "しんごう",
+   "kanji": "信号",
+   "hv": "TÍN HIỆU",
+   "vi": "đèn giao thông; đèn báo hiệu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giao thông",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "信号[しんごう]が青[あお]になってから、渡[わた]ります。",
+     "vi": "Đèn chuyển xanh rồi mới qua.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "二[ふた]つ目[め]の信号[しんごう]を、右[みぎ]に曲[ま]がってください。",
+     "vi": "Rẽ phải ở đèn giao thông thứ hai.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Đèn xanh lá ở Nhật vẫn gọi là 青[あお]."
+  },
+  {
+   "id": "v:地下:ちか",
+   "kana": "ちか",
+   "kanji": "地下",
+   "hv": "ĐỊA HẠ",
+   "vi": "dưới lòng đất, tầng hầm",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "駅[えき]の地下[ちか]に、店[みせ]がたくさんあります。",
+     "vi": "Dưới ga có nhiều cửa hàng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "地下[ちか]の冷凍庫[れいとうこ]に、運[はこ]んでください。",
+     "vi": "Hãy chở xuống kho đông dưới hầm.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "地下鉄[ちかてつ] = tàu điện ngầm."
+  },
+  {
+   "id": "v:牛:うし",
+   "kana": "うし",
+   "kanji": "牛",
+   "hv": "NGƯU",
+   "vi": "con bò",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "田舎[いなか]で、牛[うし]を見[み]ました。",
+     "vi": "Tôi đã thấy bò ở quê.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "神戸[こうべ]は、牛[うし]の肉[にく]が有名[ゆうめい]です。",
+     "vi": "Kobe nổi tiếng thịt bò.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "牛肉[ぎゅうにく] = thịt bò; 牛乳[ぎゅうにゅう] = sữa bò."
+  },
+  {
+   "id": "v:馬:うま",
+   "kana": "うま",
+   "kanji": "馬",
+   "hv": "MÃ",
+   "vi": "con ngựa",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "北海道[ほっかいどう]で、馬[うま]に乗[の]りました。",
+     "vi": "Tôi cưỡi ngựa ở Hokkaido.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "馬[うま]が、草[くさ]を食[た]べています。",
+     "vi": "Ngựa đang ăn cỏ.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:猿:さる",
+   "kana": "さる",
+   "kanji": "猿",
+   "hv": "VIÊN",
+   "vi": "con khỉ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "山[やま]の中[なか]で、猿[さる]が出[で]ました。",
+     "vi": "Trong núi có khỉ xuất hiện.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "猿[さる]に、食[た]べ物[もの]をあげないでください。",
+     "vi": "Đừng cho khỉ ăn.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Tục ngữ: 猿[さる]も木[き]から落[お]ちる = khỉ cũng có lúc ngã cây (ai cũng có lúc sai)."
+  },
+  {
+   "id": "v:象:ぞう",
+   "kana": "ぞう",
+   "kanji": "象",
+   "hv": "TƯỢNG",
+   "vi": "con voi",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "動物園[どうぶつえん]で、象[ぞう]を見[み]ました。",
+     "vi": "Tôi xem voi ở sở thú.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "象[ぞう]の鼻[はな]は、とても長[なが]いです。",
+     "vi": "Vòi voi rất dài.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:蚊:か",
+   "kana": "か",
+   "kanji": "蚊",
+   "hv": "VĂN",
+   "vi": "con muỗi",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夏[なつ]は、蚊[か]が多[おお]いです。",
+     "vi": "Mùa hè nhiều muỗi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "蚊[か]に刺[さ]されて、かゆいです。",
+     "vi": "Bị muỗi đốt, ngứa quá.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "蚊[か]に刺[さ]される = bị muỗi đốt."
+  },
+  {
+   "id": "v:生き物:いきもの",
+   "kana": "いきもの",
+   "kanji": "生き物",
+   "kf": "生[い]き物[もの]",
+   "hv": "SINH VẬT",
+   "vi": "sinh vật, con vật (nói thường)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "川[かわ]には、いろいろな生[い]き物[もの]がいます。",
+     "vi": "Dưới sông có nhiều loài sinh vật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "生[い]き物[もの]を飼[か]うのは、大変[たいへん]です。",
+     "vi": "Nuôi con vật vất vả lắm.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:動物:どうぶつ"
+   ]
+  },
+  {
+   "id": "v:植物:しょくぶつ",
+   "kana": "しょくぶつ",
+   "kanji": "植物",
+   "hv": "THỰC VẬT",
+   "vi": "thực vật, cây cỏ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nông thôn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "部屋[へや]に、植物[しょくぶつ]を置[お]いています。",
+     "vi": "Tôi đặt cây xanh trong phòng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この植物[しょくぶつ]は、水[みず]をあまりやらなくてもいいです。",
+     "vi": "Cây này không cần tưới nhiều.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:動物:どうぶつ"
+   ]
+  },
+  {
+   "id": "v:種:たね",
+   "kana": "たね",
+   "kanji": "種",
+   "hv": "CHỦNG",
+   "vi": "hạt giống; hạt (trong quả)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nông thôn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "春[はる]に、畑[はたけ]に種[たね]をまきます。",
+     "vi": "Mùa xuân gieo hạt ngoài ruộng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "スイカの種[たね]を、出[だ]してください。",
+     "vi": "Hãy nhả hạt dưa hấu ra.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Còn nghĩa \"nguồn cơn\": 心配[しんぱい]の種[たね] = mối lo."
+  },
+  {
+   "id": "v:根:ね",
+   "kana": "ね",
+   "kanji": "根",
+   "hv": "CĂN",
+   "vi": "rễ (cây)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nông thôn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この木[き]は、根[ね]が深[ふか]いです。",
+     "vi": "Cây này rễ sâu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "大根[だいこん]は、根[ね]の部分[ぶぶん]を食[た]べます。",
+     "vi": "Củ cải ăn phần rễ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Nghĩa bóng: 根[ね]はいい人[ひと] = bản chất là người tốt."
+  },
+  {
+   "id": "v:実:み",
+   "kana": "み",
+   "kanji": "実",
+   "hv": "THỰC",
+   "vi": "quả (trên cây), trái",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nông thôn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "庭[にわ]の木[き]に、赤[あか]い実[じつ]がなりました。",
+     "vi": "Cây trong vườn ra quả đỏ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "努力[どりょく]が、実[じつ]を結[むす]びました。",
+     "vi": "Nỗ lực đã đơm hoa kết trái.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "実[み]がなる = cây ra quả; 実[み]を結[むす]ぶ = có kết quả."
+  },
+  {
+   "id": "v:収穫:しゅうかく",
+   "kana": "しゅうかく",
+   "kanji": "収穫",
+   "hv": "THU HOẠCH",
+   "vi": "thu hoạch",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nông thôn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "秋[あき]に、米[こめ]を収穫[しゅうかく]します。",
+     "vi": "Mùa thu thu hoạch lúa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今年[ことし]は、収穫[しゅうかく]が少[すく]なかったそうです。",
+     "vi": "Nghe nói năm nay thu hoạch ít.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "米[こめ]を収穫[しゅうかく]する",
+     "vi": "thu hoạch lúa"
+    }
+   ]
+  },
+  {
+   "id": "v:作物:さくもつ",
+   "kana": "さくもつ",
+   "kanji": "作物",
+   "hv": "TÁC VẬT",
+   "vi": "cây trồng, hoa màu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nông thôn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台風[たいふう]で、作物[さくもつ]がだめになりました。",
+     "vi": "Hoa màu hỏng hết vì bão.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この地方[ちほう]の主[おも]な作物[さくもつ]は、玉[たま]ねぎです。",
+     "vi": "Cây trồng chính vùng này là hành tây.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:飼う:かう",
+   "kana": "かう",
+   "kanji": "飼う",
+   "kf": "飼[か]う",
+   "hv": "TỰ",
+   "vi": "nuôi (con vật)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寮[りょう]では、ペットを飼[か]うことができません。",
+     "vi": "Ký túc xá không được nuôi thú cưng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "子[こ]どもの時[とき]、牛[うし]を飼[か]っていました。",
+     "vi": "Hồi nhỏ nhà tôi nuôi bò.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "金魚[きんぎょ]を三匹[さんびき]、飼[か]っています。",
+     "vi": "Tôi nuôi ba con cá vàng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "犬[いぬ]を飼[か]う",
+     "vi": "nuôi chó"
+    },
+    {
+     "jp": "ペットを飼[か]う",
+     "vi": "nuôi thú cưng"
+    }
+   ],
+   "confuse": [
+    "v:買う:かう"
+   ],
+   "note": "Đồng âm: 買[か]う = mua."
+  },
+  {
+   "id": "v:吠える:ほえる",
+   "kana": "ほえる",
+   "kanji": "吠える",
+   "kf": "吠[ほ]える",
+   "hv": "PHỆ",
+   "vi": "sủa, gầm",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜[よる]、隣[となり]の犬[いぬ]が吠[ほ]えて、うるさいです。",
+     "vi": "Đêm chó nhà bên sủa ồn quá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "知[し]らない人[ひと]に、犬[いぬ]が吠[ほ]えました。",
+     "vi": "Chó sủa người lạ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "犬[いぬ]が吠[ほ]える",
+     "vi": "chó sủa"
+    }
+   ]
+  },
+  {
+   "id": "v:撒く:まく",
+   "kana": "まく",
+   "kanji": "撒く",
+   "kf": "撒[ま]く",
+   "hv": "TÁT",
+   "vi": "rắc, tưới (vung ra); gieo (hạt)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nông thôn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "暑[あつ]いので、庭[にわ]に水[みず]を撒[ま]きました。",
+     "vi": "Nóng nên tôi tưới nước ra sân.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "雪[ゆき]の日[ひ]は、道[みち]に塩[しお]を撒[ま]きます。",
+     "vi": "Ngày tuyết rắc muối ra đường.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "畑[はたけ]に、種[たね]を撒[ま]きます。",
+     "vi": "Gieo hạt xuống ruộng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]を撒[ま]く",
+     "vi": "tưới nước"
+    },
+    {
+     "jp": "種[たね]を撒[ま]く",
+     "vi": "gieo hạt"
+    }
+   ],
+   "note": "Hay viết kana: まく."
+  },
+  {
+   "id": "v:平ら:たいら",
+   "kana": "たいら",
+   "kanji": "平ら",
+   "kf": "平[たい]ら",
+   "hv": "BÌNH",
+   "vi": "bằng phẳng",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この辺[あた]りは、土地[とち]が平[たい]らです。",
+     "vi": "Vùng này đất bằng phẳng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "箱[はこ]を、平[たい]らな所[ところ]に置[お]いてください。",
+     "vi": "Hãy đặt thùng ở chỗ bằng phẳng.",
+     "ctx": "xuong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "土地[とち]",
+     "vi": "đất"
+    },
+    {
+     "jp": "道[みち]",
+     "vi": "đường"
+    }
+   ]
+  },
+  {
+   "id": "v:芝生:しばふ",
+   "kana": "しばふ",
+   "kanji": "芝生",
+   "hv": "CHI SINH",
+   "vi": "bãi cỏ (sân cỏ)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "公園[こうえん]の芝生[しばふ]で、お弁当[べんとう]を食[た]べました。",
+     "vi": "Tôi ăn cơm hộp trên bãi cỏ công viên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "芝生[しばふ]に入[はい]らないでください。",
+     "vi": "Đừng giẫm lên cỏ.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:周囲:しゅうい",
+   "kana": "しゅうい",
+   "kanji": "周囲",
+   "hv": "CHU VI",
+   "vi": "xung quanh, chu vi (văn viết)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "周囲[しゅうい]の人[ひと]に、迷惑[めいわく]をかけないでください。",
+     "vi": "Đừng làm phiền người xung quanh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]の周囲[しゅうい]に、物[もの]を置[お]かないこと。",
+     "vi": "Không để đồ quanh máy.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:周り:まわり"
+   ]
+  },
+  {
+   "id": "v:辺り:あたり",
+   "kana": "あたり",
+   "kanji": "辺り",
+   "kf": "辺[あた]り",
+   "hv": "BIÊN",
+   "vi": "vùng quanh đó; tầm khoảng (thời điểm)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この辺[あた]りに、コンビニはありますか。",
+     "vi": "Quanh đây có cửa hàng tiện lợi không?",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "駅[えき]の辺[あた]りは、夜[よる]でも明[あか]るいです。",
+     "vi": "Khu quanh ga đêm cũng sáng.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Còn nghĩa \"khoảng\": 来週[らいしゅう]の水曜日[すいようび]辺[あた]り = khoảng thứ Tư tuần sau."
+  },
+  {
+   "id": "v:移動:いどう",
+   "kana": "いどう",
+   "kanji": "移動",
+   "hv": "DI ĐỘNG",
+   "vi": "chuyển sang nơi khác, đi lại giữa các nơi",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "田舎[いなか]は、車[くるま]で移動[いどう]します。",
+     "vi": "Ở quê đi lại bằng ô tô.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "箱[はこ]を、隣[となり]の部屋[へや]に移動[いどう]してください。",
+     "vi": "Hãy chuyển thùng sang phòng bên.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "車[くるま]で移動[いどう]する",
+     "vi": "di chuyển bằng ô tô"
+    }
+   ]
+  },
+  {
+   "id": "v:大家:おおや",
+   "kana": "おおや",
+   "kanji": "大家",
+   "hv": "ĐẠI GIA",
+   "vi": "chủ nhà (cho thuê)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大家[おおや]さんに、家賃[やちん]を払[はら]いました。",
+     "vi": "Tôi trả tiền nhà cho chủ nhà.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "水[みず]が漏[も]れたので、大家[おおや]さんに連絡[れんらく]しました。",
+     "vi": "Bị rò nước nên tôi báo chủ nhà.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Thường gọi 大家[おおや]さん."
+  },
+  {
+   "id": "v:奥:おく",
+   "kana": "おく",
+   "kanji": "奥",
+   "hv": "ÁO",
+   "vi": "phía trong cùng, sâu bên trong",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]は、倉庫[そうこ]の奥[おく]にあります。",
+     "vi": "Thùng ở trong cùng nhà kho.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "山[やま]の奥[おく]に、小[ちい]さい村[むら]があります。",
+     "vi": "Sâu trong núi có ngôi làng nhỏ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "奥[おく]さん = vợ (người khác), gốc là \"người ở phía trong nhà\"."
+  },
+  {
+   "id": "v:快適:かいてき",
+   "kana": "かいてき",
+   "kanji": "快適",
+   "hv": "KHOÁI THÍCH",
+   "vi": "dễ chịu, tiện nghi",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい寮[りょう]は、とても快適[かいてき]です。",
+     "vi": "Ký túc xá mới rất dễ chịu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "エアコンで、快適[かいてき]に過[す]ごしています。",
+     "vi": "Nhờ máy lạnh sống thoải mái.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "部屋[へや]",
+     "vi": "căn phòng"
+    },
+    {
+     "jp": "生活[せいかつ]",
+     "vi": "cuộc sống"
+    }
+   ]
+  },
+  {
+   "id": "v:家具:かぐ",
+   "kana": "かぐ",
+   "kanji": "家具",
+   "hv": "GIA CỤ",
+   "vi": "đồ đạc (bàn, ghế, tủ)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家具[かぐ]付[つ]きのアパートを、探[さが]しています。",
+     "vi": "Tôi tìm căn hộ có sẵn đồ đạc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "大[おお]きい家具[かぐ]は、粗大[そだい]ごみで出[だ]します。",
+     "vi": "Đồ đạc lớn bỏ theo rác cỡ lớn.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "家具付[かぐつ]き = có sẵn đồ đạc."
+  },
+  {
+   "id": "v:混雑:こんざつ",
+   "kana": "こんざつ",
+   "kanji": "混雑",
+   "hv": "HỖN TẠP",
+   "vi": "đông đúc, chen chúc",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "朝[あさ]の電車[でんしゃ]は、とても混雑[こんざつ]します。",
+     "vi": "Tàu buổi sáng rất đông.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "年末[ねんまつ]は、道路[どうろ]が混雑[こんざつ]します。",
+     "vi": "Cuối năm đường đông nghẹt.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:込む:こむ"
+   ],
+   "note": "Nói thường: 混[こ]んでいる."
+  },
+  {
+   "id": "v:向かい:むかい",
+   "kana": "むかい",
+   "kanji": "向かい",
+   "kf": "向[む]かい",
+   "hv": "HƯỚNG",
+   "vi": "phía đối diện",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寮[りょう]の向[む]かいに、スーパーがあります。",
+     "vi": "Đối diện ký túc xá có siêu thị.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "向[む]かいの席[せき]に、座[すわ]ってください。",
+     "vi": "Mời ngồi ghế đối diện.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "向[む]かい側[がわ] = phía bên kia."
+  },
+  {
+   "id": "v:頂上:ちょうじょう",
+   "kana": "ちょうじょう",
+   "kanji": "頂上",
+   "hv": "ĐỈNH THƯỢNG",
+   "vi": "đỉnh (núi)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "山[やま]の頂上[ちょうじょう]から、海[うみ]が見[み]えました。",
+     "vi": "Từ đỉnh núi nhìn thấy biển.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "頂上[ちょうじょう]まで、二時間[にじかん]かかります。",
+     "vi": "Lên tới đỉnh mất hai tiếng.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:眺め:ながめ",
+   "kana": "ながめ",
+   "kanji": "眺め",
+   "kf": "眺[なが]め",
+   "hv": "THIẾU",
+   "vi": "cảnh nhìn ra, tầm nhìn",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この部屋[へや]は、眺[なが]めがいいです。",
+     "vi": "Phòng này nhìn ra cảnh đẹp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "頂上[ちょうじょう]からの眺[なが]めは、最高[さいこう]でした。",
+     "vi": "Cảnh nhìn từ đỉnh tuyệt nhất.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:景色:けしき"
+   ],
+   "rel": [
+    "v:眺める:ながめる"
+   ]
+  },
+  {
+   "id": "v:場:ば",
+   "kana": "ば",
+   "kanji": "場",
+   "hv": "TRƯỜNG",
+   "vi": "nơi diễn ra, dịp (văn viết)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "話[はな]し合[あ]いの場[ば]を、作[つく]りましょう。",
+     "vi": "Hãy tạo dịp để bàn bạc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "その場[ば]で、すぐに答[こた]えました。",
+     "vi": "Tôi trả lời ngay tại chỗ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "その場[ば]で = ngay tại chỗ; 場合[ばあい] = trường hợp."
+  },
+  {
+   "id": "v:羽:はね",
+   "kana": "はね",
+   "kanji": "羽",
+   "hv": "VŨ",
+   "vi": "cánh (chim, côn trùng); lông vũ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "鳥[とり]が、羽[はね]を広[ひろ]げています。",
+     "vi": "Chim đang dang cánh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "羽[はね]の布団[ふとん]は、軽[かる]くて暖[あたた]かいです。",
+     "vi": "Chăn lông vũ nhẹ và ấm.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Đếm chim: 一羽[いちわ], 三羽[さんば]."
+  },
+  {
+   "id": "v:引っ越し:ひっこし",
+   "kana": "ひっこし",
+   "kanji": "引っ越し",
+   "kf": "引[ひ]っ越[こ]し",
+   "hv": "DẪN VIỆT",
+   "vi": "việc chuyển nhà",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来月[らいげつ]、引[ひ]っ越[こ]しをします。",
+     "vi": "Tháng sau tôi chuyển nhà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "引[ひ]っ越[こ]しの後[あと]で、市役所[しやくしょ]に届[とど]けを出[だ]します。",
+     "vi": "Sau khi chuyển nhà nộp đơn ở tòa thị chính.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:引っ越す:ひっこす"
+   ],
+   "note": "Chuyển nhà phải nộp 転出届[てんしゅつとどけ] / 転入届[てんにゅうとどけ] ở tòa thị chính."
+  },
+  {
+   "id": "v:人込み:ひとごみ",
+   "kana": "ひとごみ",
+   "kanji": "人込み",
+   "kf": "人込[ひとご]み",
+   "hv": "NHÂN NHẬP",
+   "vi": "chỗ đông người",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phố & quê",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人込[ひとご]みで、財布[さいふ]をとられました。",
+     "vi": "Tôi bị móc ví ở chỗ đông người.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "人込[ひとご]みは、苦手[にがて]です。",
+     "vi": "Tôi ngại chỗ đông người.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:混雑:こんざつ"
+   ],
+   "flag": true,
+   "note": "Cũng viết 人混[ひとご]み. Âm Hán Việt của chữ thứ 2 (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:ブレーキ:ブレーキ",
+   "kana": "ブレーキ",
+   "kanji": "",
+   "hv": "",
+   "vi": "phanh (xe)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giao thông",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "自転車[じてんしゃ]のブレーキが、壊[こわ]れています。",
+     "vi": "Phanh xe đạp bị hỏng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "急[きゅう]にブレーキをかけないでください。",
+     "vi": "Đừng phanh gấp.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "brake (tiếng Anh)",
+   "note": "ブレーキをかける = phanh lại."
+  },
+  {
+   "id": "v:生物:せいぶつ",
+   "kana": "せいぶつ",
+   "kanji": "生物",
+   "hv": "SINH VẬT",
+   "vi": "sinh vật (khoa học)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Động vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "海[うみ]には、たくさんの生物[せいぶつ]がいます。",
+     "vi": "Biển có rất nhiều sinh vật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "学校[がっこう]で、生物[せいぶつ]を勉強[べんきょう]しました。",
+     "vi": "Tôi học môn sinh học ở trường.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:生き物:いきもの"
+   ],
+   "note": "Môn học 生物[せいぶつ] = môn sinh học."
+  }
+ ]
+}

@@ -1,0 +1,1587 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-10",
+  "title": "JLPT N3 10 – Giấc ngủ, ca đêm & thời gian",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 2,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:睡眠:すいみん",
+   "kana": "すいみん",
+   "kanji": "睡眠",
+   "hv": "THỤY MIÊN",
+   "vi": "giấc ngủ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấc ngủ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜勤[やきん]の後[あと]は、睡眠[すいみん]をしっかり取[と]ってください。",
+     "vi": "Sau ca đêm hãy ngủ cho đủ giấc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "睡眠不足[すいみんふそく]で、頭[あたま]が痛[いた]いです。",
+     "vi": "Thiếu ngủ nên đau đầu.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "睡眠[すいみん]を取[と]る",
+     "vi": "ngủ (lấy lại sức)"
+    }
+   ],
+   "note": "睡眠不足[すいみんぶそく] = thiếu ngủ. Văn nói thường dùng 寝[ね]る."
+  },
+  {
+   "id": "v:徹夜:てつや",
+   "kana": "てつや",
+   "kanji": "徹夜",
+   "hv": "TRIỆT DẠ",
+   "vi": "thức trắng đêm",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấc ngủ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "昨日[きのう]は徹夜[てつや]で書類[しょるい]を作[つく]りました。",
+     "vi": "Hôm qua tôi thức trắng đêm làm giấy tờ.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "徹夜[てつや]した次[つぎ]の日[ひ]は、仕事[しごと]でミスが多[おお]くなる。",
+     "vi": "Hôm sau ngày thức trắng, làm việc hay sai.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "徹夜[てつや]する",
+     "vi": "thức trắng đêm"
+    }
+   ]
+  },
+  {
+   "id": "v:居眠り:いねむり",
+   "kana": "いねむり",
+   "kanji": "居眠り",
+   "kf": "居眠[いねむ]り",
+   "hv": "CƯ MIÊN",
+   "vi": "ngủ gật",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấc ngủ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休[やす]み時間[じかん]に、少[すこ]し居眠[いねむ]りをしてしまった。",
+     "vi": "Giờ nghỉ tôi lỡ ngủ gật một chút.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "居眠[いねむ]り運転[うんてん]は、とても危[あぶ]ないです。",
+     "vi": "Ngủ gật khi lái xe rất nguy hiểm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "居眠[いねむ]りをする",
+     "vi": "ngủ gật"
+    }
+   ],
+   "note": "居眠[いねむ]り運転[うんてん] = ngủ gật khi lái xe."
+  },
+  {
+   "id": "v:夜中:よなか",
+   "kana": "よなか",
+   "kanji": "夜中",
+   "hv": "DẠ TRUNG",
+   "vi": "nửa đêm, đêm khuya",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜中[よなか]に電話[でんわ]が鳴[な]って、びっくりした。",
+     "vi": "Nửa đêm điện thoại reo, giật cả mình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "夜勤[やきん]の日[ひ]は、夜中[よなか]の二時[にじ]に休憩[きゅうけい]があります。",
+     "vi": "Hôm ca đêm, có giờ nghỉ lúc 2 giờ đêm.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    {
+     "w": "真夜中[まよなか]",
+     "vi": "giữa đêm"
+    }
+   ]
+  },
+  {
+   "id": "v:夜明け:よあけ",
+   "kana": "よあけ",
+   "kanji": "夜明け",
+   "kf": "夜明[よあ]け",
+   "hv": "DẠ MINH",
+   "vi": "bình minh, rạng sáng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜明[よあ]け前[まえ]に、漁船[ぎょせん]が港[みなと]に戻[もど]ってきます。",
+     "vi": "Trước rạng sáng, tàu cá quay về cảng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "夜勤[やきん]が終[お]わると、ちょうど夜明[よあ]けだった。",
+     "vi": "Hết ca đêm thì vừa đúng lúc bình minh.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:明ける:あける"
+   ]
+  },
+  {
+   "id": "v:明ける:あける",
+   "kana": "あける",
+   "kanji": "明ける",
+   "kf": "明[あ]ける",
+   "hv": "MINH",
+   "vi": "(trời) sáng; (năm) mới sang; hết (mùa)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜[よる]が明[あ]けるまで、ずっと話[はな]していた。",
+     "vi": "Nói chuyện suốt đến khi trời sáng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "梅雨[つゆ]が明[あ]けると、急[きゅう]に暑[あつ]くなります。",
+     "vi": "Hết mùa mưa là trời nóng hẳn lên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "年[とし]が明[あ]けたら、国[くに]へ帰[かえ]る予定[よてい]です。",
+     "vi": "Sang năm mới tôi định về nước.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "夜[よる]が明[あ]ける",
+     "vi": "trời sáng"
+    },
+    {
+     "jp": "梅雨[つゆ]が明[あ]ける",
+     "vi": "hết mùa mưa"
+    }
+   ],
+   "note": "明[あ]けましておめでとうございます = chúc mừng năm mới. Đồng âm: 開[あ]ける = mở."
+  },
+  {
+   "id": "v:時刻:じこく",
+   "kana": "じこく",
+   "kanji": "時刻",
+   "hv": "THỜI KHẮC",
+   "vi": "giờ, thời khắc (cụ thể)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "電車[でんしゃ]の出発時刻[しゅっぱつじこく]を確認[かくにん]しましょう。",
+     "vi": "Hãy kiểm tra giờ tàu chạy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "作業[さぎょう]の開始時刻[かいしじこく]と終了時刻[しゅうりょうじこく]を、表[ひょう]に書[か]いてください。",
+     "vi": "Hãy ghi giờ bắt đầu và kết thúc công việc vào bảng.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:時間:じかん"
+   ],
+   "rel": [
+    {
+     "w": "時刻表[じこくひょう]",
+     "vi": "bảng giờ tàu xe"
+    }
+   ],
+   "note": "時刻[じこく] = một thời điểm (8 giờ 15); 時間[じかん] = khoảng thời gian hoặc giờ nói chung."
+  },
+  {
+   "id": "v:正午:しょうご",
+   "kana": "しょうご",
+   "kanji": "正午",
+   "hv": "CHÍNH NGỌ",
+   "vi": "12 giờ trưa",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "正午[しょうご]から一時[いちじ]まで、昼休[ひるやす]みです。",
+     "vi": "Từ 12 giờ trưa đến 1 giờ là nghỉ trưa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "受付[うけつけ]は、土曜日[どようび]は正午[しょうご]までです。",
+     "vi": "Thứ Bảy quầy tiếp nhận mở đến 12 giờ trưa.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Văn viết, thông báo. Văn nói: 昼[ひる]の十二時[じゅうにじ]."
+  },
+  {
+   "id": "v:日中:にっちゅう",
+   "kana": "にっちゅう",
+   "kanji": "日中",
+   "hv": "NHẬT TRUNG",
+   "vi": "ban ngày (lúc trời sáng, văn viết)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日中[にっちゅう]は暑[あつ]いですが、夜[よる]は涼[すず]しいです。",
+     "vi": "Ban ngày nóng nhưng tối thì mát.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "夜勤[やきん]なので、日中[にっちゅう]に寝[ね]ています。",
+     "vi": "Làm ca đêm nên tôi ngủ ban ngày.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:昼間:ひるま"
+   ]
+  },
+  {
+   "id": "v:時期:じき",
+   "kana": "じき",
+   "kanji": "時期",
+   "hv": "THỜI KỲ",
+   "vi": "thời điểm, mùa vụ (lúc thích hợp)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今[いま]は、カキが一番[いちばん]おいしい時期[じき]です。",
+     "vi": "Bây giờ là mùa hàu ngon nhất.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ビザを更新[こうしん]する時期[じき]が近[ちか]づいてきた。",
+     "vi": "Sắp đến lúc gia hạn visa.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:期間:きかん",
+   "kana": "きかん",
+   "kanji": "期間",
+   "hv": "KỲ GIAN",
+   "vi": "thời hạn, khoảng thời gian",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "在留[ざいりゅう]期間[きかん]が切[き]れる前[まえ]に、更新[こうしん]してください。",
+     "vi": "Hãy gia hạn trước khi hết thời hạn lưu trú.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "セールの期間[きかん]は、一週間[いっしゅうかん]です。",
+     "vi": "Đợt giảm giá kéo dài một tuần.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "期限[きげん]",
+     "vi": "hạn chót (mốc)"
+    }
+   ],
+   "note": "期間[きかん] = cả khoảng (từ … đến …); 期限[きげん] = mốc hạn chót."
+  },
+  {
+   "id": "v:長期:ちょうき",
+   "kana": "ちょうき",
+   "kanji": "長期",
+   "hv": "TRƯỜNG KỲ",
+   "vi": "dài hạn",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "長期[ちょうき]の休[やす]みを取[と]って、国[くに]へ帰[かえ]ります。",
+     "vi": "Tôi nghỉ dài ngày để về nước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この魚[さかな]は、長期[ちょうき]の保存[ほぞん]には向[む]いていません。",
+     "vi": "Loại cá này không hợp bảo quản lâu dài.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "短期[たんき]",
+     "vi": "ngắn hạn"
+    }
+   ]
+  },
+  {
+   "id": "v:瞬間:しゅんかん",
+   "kana": "しゅんかん",
+   "kanji": "瞬間",
+   "hv": "THUẤN GIAN",
+   "vi": "khoảnh khắc",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ドアを開[あ]けた瞬間[しゅんかん]、冷[つめ]たい風[かぜ]が入[はい]ってきた。",
+     "vi": "Ngay khoảnh khắc mở cửa, gió lạnh ùa vào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "包丁[ほうちょう]が滑[すべ]った瞬間[しゅんかん]、手[て]を引[ひ]きました。",
+     "vi": "Đúng lúc dao trượt, tôi rụt tay lại.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:一瞬:いっしゅん",
+   "kana": "いっしゅん",
+   "kanji": "一瞬",
+   "hv": "NHẤT THUẤN",
+   "vi": "một thoáng, trong chớp mắt",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一瞬[いっしゅん]、何[なに]が起[お]きたか分[わ]からなかった。",
+     "vi": "Trong một thoáng, tôi không hiểu chuyện gì xảy ra.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]に触[さわ]ったのは、ほんの一瞬[いっしゅん]でした。",
+     "vi": "Chạm vào máy chỉ trong chớp mắt thôi.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:一時:いちじ",
+   "kana": "いちじ",
+   "kanji": "一時",
+   "hv": "NHẤT THỜI",
+   "vi": "tạm thời, nhất thời; có lúc",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]のため、作業[さぎょう]を一時[いちじ]止[と]めます。",
+     "vi": "Vì mưa nên tạm dừng công việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一時[いちじ]は、国[くに]へ帰[かえ]ろうかと思[おも]いました。",
+     "vi": "Có lúc tôi đã nghĩ hay là về nước.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "一時[いちじ] cũng là \"1 giờ\". Nghĩa \"tạm thời\" hay gặp trong 一時[いちじ]停止[ていし] (dừng tạm thời)."
+  },
+  {
+   "id": "v:同時:どうじ",
+   "kana": "どうじ",
+   "kanji": "同時",
+   "hv": "ĐỒNG THỜI",
+   "vi": "cùng lúc",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "二人[ふたり]が同時[どうじ]に手[て]を挙[あ]げました。",
+     "vi": "Hai người giơ tay cùng lúc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "二[ふた]つの作業[さぎょう]を同時[どうじ]にするのは、危[あぶ]ないです。",
+     "vi": "Làm hai việc cùng lúc thì nguy hiểm.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "同時[どうじ]に = đồng thời, cùng lúc."
+  },
+  {
+   "id": "v:当時:とうじ",
+   "kana": "とうじ",
+   "kanji": "当時",
+   "hv": "ĐƯƠNG THỜI",
+   "vi": "hồi đó, lúc bấy giờ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]に来[き]た当時[とうじ]は、日本語[にほんご]が全然[ぜんぜん]話[はな]せなかった。",
+     "vi": "Hồi mới sang Nhật, tôi hoàn toàn không nói được tiếng Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "当時[とうじ]の工場[こうじょう]は、今[いま]より小[ちい]さかったそうです。",
+     "vi": "Nghe nói nhà máy hồi đó nhỏ hơn bây giờ.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:今回:こんかい",
+   "kana": "こんかい",
+   "kanji": "今回",
+   "hv": "KIM HỒI",
+   "vi": "lần này (việc đang / vừa diễn ra)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今回[こんかい]のミスは、私[わたし]の確認[かくにん]不足[ふそく]です。",
+     "vi": "Lỗi lần này là do tôi kiểm tra không kỹ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今回[こんかい]は、パスポートも持[も]ってきてください。",
+     "vi": "Lần này hãy mang cả hộ chiếu.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    "v:今度:こんど"
+   ],
+   "rel": [
+    {
+     "w": "前回[ぜんかい]",
+     "vi": "lần trước"
+    },
+    {
+     "w": "次回[じかい]",
+     "vi": "lần sau"
+    }
+   ]
+  },
+  {
+   "id": "v:今後:こんご",
+   "kana": "こんご",
+   "kanji": "今後",
+   "hv": "KIM HẬU",
+   "vi": "từ nay về sau",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今後[こんご]は、気[き]をつけます。",
+     "vi": "Từ nay tôi sẽ chú ý.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今後[こんご]の予定[よてい]を教[おし]えてください。",
+     "vi": "Hãy cho tôi biết kế hoạch sắp tới.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Câu xin lỗi chuẩn: 今後[こんご]、このようなことがないようにします。"
+  },
+  {
+   "id": "v:以前:いぜん",
+   "kana": "いぜん",
+   "kanji": "以前",
+   "hv": "DĨ TIỀN",
+   "vi": "trước đây",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "以前[いぜん]、この工場[こうじょう]で働[はたら]いていました。",
+     "vi": "Trước đây tôi làm ở nhà máy này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "以前[いぜん]より、日本語[にほんご]が上手[じょうず]になりましたね。",
+     "vi": "Tiếng Nhật giỏi hơn trước rồi nhỉ.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "以後[いご]",
+     "vi": "sau đó, từ đó về sau"
+    }
+   ]
+  },
+  {
+   "id": "v:現在:げんざい",
+   "kana": "げんざい",
+   "kanji": "現在",
+   "hv": "HIỆN TẠI",
+   "vi": "hiện tại, hiện nay",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "現在[げんざい]の住所[じゅうしょ]を書[か]いてください。",
+     "vi": "Hãy ghi địa chỉ hiện tại.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "現在[げんざい]、新[あたら]しい人[ひと]を募集[ぼしゅう]しています。",
+     "vi": "Hiện đang tuyển người mới.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:過去:かこ",
+    "v:未来:みらい"
+   ]
+  },
+  {
+   "id": "v:過去:かこ",
+   "kana": "かこ",
+   "kanji": "過去",
+   "hv": "QUÁ KHỨ",
+   "vi": "quá khứ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "過去[かこ]のことは、もう気[き]にしないでください。",
+     "vi": "Chuyện đã qua thì đừng bận tâm nữa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "過去[かこ]三年[さんねん]間[かん]の売[う]り上[あ]げを調[しら]べました。",
+     "vi": "Tôi đã xem doanh thu 3 năm qua.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:未来:みらい"
+   ]
+  },
+  {
+   "id": "v:未来:みらい",
+   "kana": "みらい",
+   "kanji": "未来",
+   "hv": "VỊ LAI",
+   "vi": "tương lai xa (của mọi người)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子[こ]どもたちの未来[みらい]のために、環境[かんきょう]を守[まも]りましょう。",
+     "vi": "Vì tương lai của trẻ em, hãy bảo vệ môi trường.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "未来[みらい]の自分[じぶん]に手紙[てがみ]を書[か]きました。",
+     "vi": "Tôi viết thư cho chính mình trong tương lai.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:過去:かこ"
+   ],
+   "confuse": [
+    "v:将来:しょうらい"
+   ],
+   "note": "将来[しょうらい] = tương lai của bản thân (ước mơ, nghề); 未来[みらい] = tương lai xa, chung."
+  },
+  {
+   "id": "v:近頃:ちかごろ",
+   "kana": "ちかごろ",
+   "kanji": "近頃",
+   "hv": "CẬN KHOẢNH",
+   "vi": "dạo gần đây",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "近頃[ちかごろ]、夜勤[やきん]が多[おお]くて疲[つか]れています。",
+     "vi": "Dạo này ca đêm nhiều nên mệt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "近頃[ちかごろ]の若[わか]い人[ひと]は、あまり新聞[しんぶん]を読[よ]まない。",
+     "vi": "Người trẻ dạo này ít đọc báo.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:最近:さいきん"
+   ]
+  },
+  {
+   "id": "v:先日:せんじつ",
+   "kana": "せんじつ",
+   "kanji": "先日",
+   "hv": "TIÊN NHẬT",
+   "vi": "hôm trước, mấy hôm trước (lịch sự)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先日[せんじつ]は、ありがとうございました。",
+     "vi": "Hôm trước cảm ơn anh nhiều.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "先日[せんじつ]出[だ]した書類[しょるい]に、間違[まちが]いがありました。",
+     "vi": "Giấy tờ nộp hôm trước có chỗ sai.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    "v:この間:このあいだ"
+   ],
+   "note": "Lịch sự hơn この間[あいだ]."
+  },
+  {
+   "id": "v:年間:ねんかん",
+   "kana": "ねんかん",
+   "kanji": "年間",
+   "hv": "NIÊN GIAN",
+   "vi": "trong một năm; suốt … năm",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この工場[こうじょう]は、年間[ねんかん]百万[ひゃくまん]パックを作[つく]っています。",
+     "vi": "Nhà máy này làm 1 triệu gói mỗi năm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "三年[さんねん]間[かん]、日本[にほん]で働[はたら]きました。",
+     "vi": "Tôi đã làm việc ở Nhật 3 năm.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Số + 年間[ねんかん] = suốt … năm."
+  },
+  {
+   "id": "v:年中:ねんじゅう",
+   "kana": "ねんじゅう",
+   "kanji": "年中",
+   "hv": "NIÊN TRUNG",
+   "vi": "quanh năm",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このスーパーは、年中[ねんじゅう]無休[むきゅう]です。",
+     "vi": "Siêu thị này mở quanh năm không nghỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]の中[なか]は、年中[ねんじゅう]マイナス二十度[にじゅうど]です。",
+     "vi": "Trong kho đông quanh năm là âm 20 độ.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "年中無休[ねんじゅうむきゅう] = mở cửa quanh năm."
+  },
+  {
+   "id": "v:年代:ねんだい",
+   "kana": "ねんだい",
+   "kanji": "年代",
+   "hv": "NIÊN ĐẠI",
+   "vi": "thập niên; lứa tuổi",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この歌[うた]は、九十年[きゅうじゅうねん]代[だい]にはやりました。",
+     "vi": "Bài hát này nổi vào thập niên 90.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "職場[しょくば]には、いろいろな年代[ねんだい]の人[ひと]がいます。",
+     "vi": "Ở chỗ làm có người đủ mọi lứa tuổi.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:年月:としつき",
+   "kana": "としつき",
+   "kanji": "年月",
+   "hv": "NIÊN NGUYỆT",
+   "vi": "năm tháng (thời gian dài)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "長[なが]い年月[としつき]が経[た]って、町[まち]はすっかり変[か]わった。",
+     "vi": "Năm tháng trôi qua, thị trấn đổi khác hẳn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この技術[ぎじゅつ]は、長[なが]い年月[としつき]をかけて覚[おぼ]えるものだ。",
+     "vi": "Kỹ thuật này phải mất nhiều năm tháng mới học được.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Cũng đọc ねんげつ (văn viết)."
+  },
+  {
+   "id": "v:秒:びょう",
+   "kana": "びょう",
+   "kanji": "秒",
+   "hv": "MIỂU",
+   "vi": "giây",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoảng thời gian",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "電子[でんし]レンジで三十秒[さんじゅうびょう]温[あたた]めてください。",
+     "vi": "Hâm lò vi sóng 30 giây.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "手[て]を三十秒[さんじゅうびょう]以上[いじょう]洗[あら]ってください。",
+     "vi": "Hãy rửa tay hơn 30 giây.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:普段:ふだん",
+   "kana": "ふだん",
+   "kanji": "普段",
+   "hv": "PHỔ ĐOẠN",
+   "vi": "thường ngày (lúc không có gì đặc biệt)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "普段[ふだん]は、七時[しちじ]に起[お]きます。",
+     "vi": "Bình thường tôi dậy lúc 7 giờ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "普段[ふだん]の作業[さぎょう]と同[おな]じように、やってください。",
+     "vi": "Hãy làm giống như công việc thường ngày.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    {
+     "w": "いつも",
+     "vi": "luôn luôn"
+    }
+   ],
+   "note": "普段着[ふだんぎ] = quần áo mặc thường ngày."
+  },
+  {
+   "id": "v:日常:にちじょう",
+   "kana": "にちじょう",
+   "kanji": "日常",
+   "hv": "NHẬT THƯỜNG",
+   "vi": "thường nhật, hằng ngày",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日常[にちじょう]の会話[かいわ]なら、だいたい分[わ]かります。",
+     "vi": "Hội thoại thường ngày thì tôi hiểu đại khái.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "地震[じしん]は、日本[にほん]では日常[にちじょう]のことです。",
+     "vi": "Động đất ở Nhật là chuyện thường ngày.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "日常生活[にちじょうせいかつ] = cuộc sống hằng ngày."
+  },
+  {
+   "id": "v:やがて:やがて",
+   "kana": "やがて",
+   "kanji": "",
+   "hv": "",
+   "vi": "chẳng bao lâu nữa, rồi sẽ",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]はやがて止[や]むでしょう。",
+     "vi": "Mưa chẳng mấy chốc sẽ tạnh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "練習[れんしゅう]を続[つづ]ければ、やがて上手[じょうず]になります。",
+     "vi": "Cứ luyện tiếp thì rồi sẽ giỏi.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:そのうち:そのうち"
+   ]
+  },
+  {
+   "id": "v:そのうち:そのうち",
+   "kana": "そのうち",
+   "kanji": "",
+   "hv": "",
+   "vi": "ít lâu nữa, rồi sẽ",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "そのうち、また会[あ]いましょう。",
+     "vi": "Ít hôm nữa lại gặp nhau nhé.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "心配[しんぱい]しなくても、そのうち慣[な]れますよ。",
+     "vi": "Đừng lo, rồi sẽ quen thôi.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:いつのまにか:いつのまにか",
+   "kana": "いつのまにか",
+   "kanji": "",
+   "hv": "",
+   "vi": "lúc nào không hay",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いつのまにか、外[そと]が暗[くら]くなっていた。",
+     "vi": "Trời tối lúc nào không hay.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "いつのまにか、日本[にほん]に来[き]て三年[さんねん]が経[た]った。",
+     "vi": "Thoắt cái đã ba năm từ khi sang Nhật.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Viết đủ: いつの間[ま]にか."
+  },
+  {
+   "id": "v:いつまでも:いつまでも",
+   "kana": "いつまでも",
+   "kanji": "",
+   "hv": "",
+   "vi": "mãi mãi, đến bao giờ cũng",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いつまでも元気[げんき]でいてください。",
+     "vi": "Mong anh mãi khỏe mạnh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "いつまでも待[ま]っているわけにはいかない。",
+     "vi": "Không thể đợi mãi được.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:いずれ:いずれ",
+   "kana": "いずれ",
+   "kanji": "",
+   "hv": "",
+   "vi": "sớm muộn gì; đằng nào cũng",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いずれ国[くに]に帰[かえ]って、店[みせ]を開[ひら]きたいです。",
+     "vi": "Sớm muộn tôi muốn về nước mở cửa hàng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "その件[けん]については、いずれまた連絡[れんらく]します。",
+     "vi": "Việc đó tôi sẽ liên lạc lại sau.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Văn viết còn nghĩa \"cái nào\": いずれか一[ひと]つ = một trong số đó."
+  },
+  {
+   "id": "v:今にも:いまにも",
+   "kana": "いまにも",
+   "kanji": "今にも",
+   "kf": "今[いま]にも",
+   "hv": "KIM",
+   "vi": "chực, sắp … đến nơi",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今[いま]にも雨[あめ]が降[ふ]りそうな空[そら]ですね。",
+     "vi": "Trời như sắp mưa đến nơi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "箱[はこ]が今[いま]にも落[お]ちそうです。",
+     "vi": "Thùng sắp rơi đến nơi rồi.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Hay đi với 〜そうだ: 今[いま]にも〜そうだ."
+  },
+  {
+   "id": "v:既に:すでに",
+   "kana": "すでに",
+   "kanji": "既に",
+   "kf": "既[すで]に",
+   "hv": "KÝ",
+   "vi": "đã (rồi)",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会議[かいぎ]は既[すで]に始[はじ]まっていました。",
+     "vi": "Cuộc họp đã bắt đầu rồi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "書類[しょるい]は既[すで]に提出[ていしゅつ]しました。",
+     "vi": "Giấy tờ tôi đã nộp rồi.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    {
+     "w": "もう",
+     "vi": "đã, rồi"
+    }
+   ],
+   "note": "Văn viết, trang trọng hơn もう."
+  },
+  {
+   "id": "v:経つ:たつ",
+   "kana": "たつ",
+   "kanji": "経つ",
+   "kf": "経[た]つ",
+   "hv": "KINH",
+   "vi": "(thời gian) trôi đi",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]に来[き]て、もう三年[さんねん]経[た]ちました。",
+     "vi": "Sang Nhật đã ba năm rồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "時間[じかん]が経[た]つのは早[はや]いですね。",
+     "vi": "Thời gian trôi nhanh thật.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "作[つく]ってから五時間[ごじかん]経[た]った物[もの]は、捨[す]ててください。",
+     "vi": "Đồ làm xong quá 5 tiếng thì bỏ đi.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "時間[じかん]が経[た]つ",
+     "vi": "thời gian trôi"
+    }
+   ],
+   "note": "Đồng âm: 立[た]つ (đứng), 建[た]つ (được xây)."
+  },
+  {
+   "id": "v:暮れ:くれ",
+   "kana": "くれ",
+   "kanji": "暮れ",
+   "kf": "暮[く]れ",
+   "hv": "MỘ",
+   "vi": "cuối năm; lúc chạng vạng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "年[とし]の暮[く]れは、工場[こうじょう]がとても忙[いそが]しいです。",
+     "vi": "Cuối năm nhà máy rất bận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "お歳暮[せいぼ]は、暮[く]れに贈[おく]るお礼[れい]です。",
+     "vi": "Oseibo là quà cảm ơn tặng dịp cuối năm.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "暮[く]れる",
+     "vi": "(ngày, năm) tàn"
+    }
+   ],
+   "note": "日[ひ]が暮[く]れる = trời tối."
+  },
+  {
+   "id": "v:しばしば:しばしば",
+   "kana": "しばしば",
+   "kanji": "",
+   "hv": "",
+   "vi": "thường hay, nhiều lần",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tần suất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この機械[きかい]は、しばしば止[と]まります。",
+     "vi": "Cái máy này hay bị dừng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "冬[ふゆ]は、道路[どうろ]がしばしば凍[こお]ります。",
+     "vi": "Mùa đông đường hay bị đóng băng.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:たびたび:たびたび"
+   ],
+   "note": "Văn viết."
+  },
+  {
+   "id": "v:相変わらず:あいかわらず",
+   "kana": "あいかわらず",
+   "kanji": "相変わらず",
+   "kf": "相変[あいか]わらず",
+   "hv": "TƯƠNG BIẾN",
+   "vi": "vẫn như mọi khi",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tần suất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "相変[あいか]わらず、忙[いそが]しいですね。",
+     "vi": "Vẫn bận như mọi khi nhỉ.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "田中[たなか]さんは、相変[あいか]わらず元気[げんき]です。",
+     "vi": "Anh Tanaka vẫn khỏe như mọi khi.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:いつでも:いつでも",
+   "kana": "いつでも",
+   "kanji": "",
+   "hv": "",
+   "vi": "bất cứ lúc nào",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tần suất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "困[こま]ったら、いつでも言[い]ってください。",
+     "vi": "Gặp khó khăn cứ nói bất cứ lúc nào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "コンビニは、いつでも開[あ]いています。",
+     "vi": "Cửa hàng tiện lợi lúc nào cũng mở.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:お昼:おひる",
+   "kana": "おひる",
+   "kanji": "お昼",
+   "kf": "お昼[ひる]",
+   "hv": "TRÚ",
+   "vi": "buổi trưa; cơm trưa (cách nói nhẹ nhàng)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お昼[ひる]、一緒[いっしょ]に食[た]べませんか。",
+     "vi": "Trưa nay ăn cùng không?",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "お昼[ひる]の前[まえ]に、この作業[さぎょう]を終[お]わらせましょう。",
+     "vi": "Làm xong việc này trước giờ trưa đi.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:昼:ひる"
+   ]
+  },
+  {
+   "id": "v:外出:がいしゅつ",
+   "kana": "がいしゅつ",
+   "kanji": "外出",
+   "hv": "NGOẠI XUẤT",
+   "vi": "ra ngoài",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đi lại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台風[たいふう]の日[ひ]は、外出[がいしゅつ]しないでください。",
+     "vi": "Ngày bão đừng ra ngoài.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "課長[かちょう]は、今[こん]外出[がいしゅつ]しています。",
+     "vi": "Trưởng phòng hiện đang ra ngoài.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "外出[がいしゅつ]する",
+     "vi": "ra ngoài"
+    }
+   ]
+  },
+  {
+   "id": "v:帰宅:きたく",
+   "kana": "きたく",
+   "kanji": "帰宅",
+   "hv": "QUY TRẠCH",
+   "vi": "về nhà",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đi lại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎日[まいにち]、六時[ろくじ]ごろ帰宅[きたく]します。",
+     "vi": "Hằng ngày tôi về nhà khoảng 6 giờ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "帰宅[きたく]したら、すぐ手[て]を洗[あら]います。",
+     "vi": "Về nhà là rửa tay ngay.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "帰宅[きたく]する",
+     "vi": "về nhà"
+    }
+   ],
+   "note": "Văn viết; nói thường: 家[いえ]に帰[かえ]る."
+  },
+  {
+   "id": "v:最終:さいしゅう",
+   "kana": "さいしゅう",
+   "kanji": "最終",
+   "hv": "TỐI CHUNG",
+   "vi": "chót (chuyến / lần / ngày cuối)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "最終[さいしゅう]の電車[でんしゃ]に乗[の]り遅[おく]れた。",
+     "vi": "Tôi lỡ chuyến tàu cuối.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "最終[さいしゅう]の確認[かくにん]は、班長[はんちょう]がします。",
+     "vi": "Tổ trưởng kiểm tra lần cuối.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "最終日[さいしゅうび] = ngày cuối; 終電[しゅうでん] = chuyến tàu cuối."
+  },
+  {
+   "id": "v:連続:れんぞく",
+   "kana": "れんぞく",
+   "kanji": "連続",
+   "hv": "LIÊN TỤC",
+   "vi": "liên tiếp",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tần suất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "三日[みっか]連続[れんぞく]で、夜勤[やきん]でした。",
+     "vi": "Ba ngày liền tôi làm ca đêm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "大[おお]きい地震[じしん]が連続[れんぞく]して起[お]きた。",
+     "vi": "Động đất lớn xảy ra liên tiếp.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "連続[れんぞく]する",
+     "vi": "liên tiếp"
+    }
+   ]
+  },
+  {
+   "id": "v:たびたび:たびたび",
+   "kana": "たびたび",
+   "kanji": "",
+   "hv": "",
+   "vi": "nhiều lần, thường xuyên",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tần suất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "たびたびすみません。",
+     "vi": "Xin lỗi vì làm phiền nhiều lần.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "この道[みち]は、たびたび渋滞[じゅうたい]します。",
+     "vi": "Đường này hay bị tắc.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:しばしば:しばしば"
+   ]
+  },
+  {
+   "id": "v:常に:つねに",
+   "kana": "つねに",
+   "kanji": "常に",
+   "kf": "常[つね]に",
+   "hv": "THƯỜNG",
+   "vi": "luôn luôn",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tần suất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "常[つね]に安全[あんぜん]を考[かんが]えて、作業[さぎょう]してください。",
+     "vi": "Hãy luôn nghĩ đến an toàn khi làm việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "在留[ざいりゅう]カードは、常[つね]に持[も]っていなければならない。",
+     "vi": "Thẻ cư trú phải luôn mang theo.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    "v:いつも:いつも"
+   ],
+   "note": "Văn viết, biển báo."
+  },
+  {
+   "id": "v:始まり:はじまり",
+   "kana": "はじまり",
+   "kanji": "始まり",
+   "kf": "始[はじ]まり",
+   "hv": "THỦY",
+   "vi": "sự bắt đầu, khởi đầu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "春[はる]は、新[あたら]しい生活[せいかつ]の始[はじ]まりです。",
+     "vi": "Mùa xuân là khởi đầu cuộc sống mới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会議[かいぎ]の始[はじ]まりに、社長[しゃちょう]が話[はな]しました。",
+     "vi": "Đầu buổi họp giám đốc phát biểu.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "終[お]わり",
+     "vi": "kết thúc"
+    }
+   ],
+   "rel": [
+    {
+     "w": "始[はじ]まる",
+     "vi": "bắt đầu"
+    }
+   ]
+  }
+ ]
+}

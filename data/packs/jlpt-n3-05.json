@@ -1,0 +1,1471 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-05",
+  "title": "JLPT N3 05 – Động từ công việc & quản lý",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 2,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:進める:すすめる",
+   "kana": "すすめる",
+   "kanji": "進める",
+   "kf": "進[すす]める",
+   "hv": "TIẾN",
+   "vi": "tiến hành, đẩy (công việc) lên trước",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "計画[けいかく]どおりに作業[さぎょう]を進[すす]めてください。",
+     "vi": "Hãy tiến hành công việc đúng kế hoạch.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "引[ひ]っ越[こ]しの準備[じゅんび]を少[すこ]しずつ進[すす]めています。",
+     "vi": "Tôi đang chuẩn bị chuyển nhà từng chút một.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "作業[さぎょう]を進[すす]める",
+     "vi": "tiến hành công việc"
+    },
+    {
+     "jp": "話[はなし]を進[すす]める",
+     "vi": "xúc tiến câu chuyện"
+    }
+   ],
+   "confuse": [
+    "v:勧める:すすめる"
+   ],
+   "pair": {
+    "w": "進[すす]む",
+    "vi": "tiến lên"
+   }
+  },
+  {
+   "id": "v:勧める:すすめる",
+   "kana": "すすめる",
+   "kanji": "勧める",
+   "kf": "勧[すす]める",
+   "hv": "KHUYẾN",
+   "vi": "khuyên, mời (dùng, làm)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "医者[いしゃ]に運動[うんどう]を勧[すす]められた。",
+     "vi": "Tôi được bác sĩ khuyên tập thể dục.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "先輩[せんぱい]が勧[すす]めてくれた店[みせ]に行[い]きました。",
+     "vi": "Tôi đến quán đàn anh giới thiệu.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "運動[うんどう]を勧[すす]める",
+     "vi": "khuyên tập thể dục"
+    },
+    {
+     "jp": "お茶[ちゃ]を勧[すす]める",
+     "vi": "mời trà"
+    }
+   ],
+   "confuse": [
+    "v:進める:すすめる"
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "班長[はんちょう]に日本語[にほんご]の試験[しけん]を[[勧[すす]められ]]ました。",
+     "vi": "Tôi được tổ trưởng khuyên thi tiếng Nhật."
+    }
+   ]
+  },
+  {
+   "id": "v:任せる:まかせる",
+   "kana": "まかせる",
+   "kanji": "任せる",
+   "kf": "任[まか]せる",
+   "hv": "NHIỆM",
+   "vi": "giao phó, phó thác",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この仕事[しごと]は君[きみ]に任[まか]せるよ。",
+     "vi": "Việc này giao cho cậu đấy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "家[いえ]のことは妻[つま]に任[まか]せています。",
+     "vi": "Việc nhà tôi giao cho vợ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：どっちがいい？B：お任[まか]せします。",
+     "vi": "A: Cái nào hơn? B: Tôi để anh quyết.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]を任[まか]せる",
+     "vi": "giao việc"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "来月[らいげつ]から、新人[しんじん]の教育[きょういく]を[[任[まか]せられ]]ました。",
+     "vi": "Từ tháng sau tôi được giao đào tạo người mới."
+    }
+   ]
+  },
+  {
+   "id": "v:雇う:やとう",
+   "kana": "やとう",
+   "kanji": "雇う",
+   "kf": "雇[やと]う",
+   "hv": "CỐ",
+   "vi": "thuê (người làm), tuyển dụng",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]は外国人[がいこくじん]を十人[じゅうにん]雇[やと]いました。",
+     "vi": "Công ty đã tuyển mười người nước ngoài.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "店[みせ]でアルバイトを雇[やと]う予定[よてい]だ。",
+     "vi": "Quán dự định thuê người làm thêm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人[ひと]を雇[やと]う",
+     "vi": "thuê người"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "去年[きょねん]、この工場[こうじょう]に[[雇[やと]われ]]ました。",
+     "vi": "Năm ngoái tôi được nhà máy này tuyển."
+    }
+   ]
+  },
+  {
+   "id": "v:辞める:やめる",
+   "kana": "やめる",
+   "kanji": "辞める",
+   "kf": "辞[や]める",
+   "hv": "TỪ",
+   "vi": "nghỉ việc, thôi (việc, trường)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は来月[らいげつ]、会社[かいしゃ]を辞[や]めるそうです。",
+     "vi": "Nghe nói tháng sau anh ấy nghỉ việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "辞[や]める時[とき]は、一[いっ]か月[げつ]前[まえ]に言[い]ってください。",
+     "vi": "Khi nghỉ việc hãy báo trước một tháng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "会社[かいしゃ]を辞[や]める",
+     "vi": "nghỉ việc ở công ty"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "止[や]める",
+     "vi": "thôi, ngừng (làm việc gì)"
+    }
+   ]
+  },
+  {
+   "id": "v:稼ぐ:かせぐ",
+   "kana": "かせぐ",
+   "kanji": "稼ぐ",
+   "kf": "稼[かせ]ぐ",
+   "hv": "GIÁ",
+   "vi": "kiếm (tiền)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "残業[ざんぎょう]して、お金[かね]を稼[かせ]ぎたい。",
+     "vi": "Muốn tăng ca để kiếm tiền.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本[にほん]で稼[かせ]いだお金[かね]を、家族[かぞく]に送[おく]っています。",
+     "vi": "Tôi gửi tiền kiếm ở Nhật về cho gia đình.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "お金[かね]を稼[かせ]ぐ",
+     "vi": "kiếm tiền"
+    },
+    {
+     "jp": "時間[じかん]を稼[かせ]ぐ",
+     "vi": "câu giờ"
+    }
+   ]
+  },
+  {
+   "id": "v:支払う:しはらう",
+   "kana": "しはらう",
+   "kanji": "支払う",
+   "kf": "支払[しはら]う",
+   "hv": "CHI PHẤT",
+   "vi": "chi trả, thanh toán",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家賃[やちん]は毎月[まいつき]二十五[にじゅうご]日[にち]に支払[しはら]います。",
+     "vi": "Tiền nhà trả ngày 25 hằng tháng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "給料[きゅうりょう]は、月末[げつまつ]に銀行口座[ぎんこうこうざ]に支払[しはら]われます。",
+     "vi": "Lương được trả vào tài khoản cuối tháng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "税金[ぜいきん]はコンビニでも支払[しはら]えます。",
+     "vi": "Thuế trả ở konbini cũng được.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "料金[りょうきん]を支払[しはら]う",
+     "vi": "trả phí"
+    }
+   ],
+   "syn": [
+    "v:払う:はらう"
+   ]
+  },
+  {
+   "id": "v:預かる:あずかる",
+   "kana": "あずかる",
+   "kanji": "預かる",
+   "kf": "預[あず]かる",
+   "hv": "DỰ",
+   "vi": "giữ hộ, trông giữ",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "旅行[りょこう]の間[あいだ]、友達[ともだち]の猫[ねこ]を預[あず]かります。",
+     "vi": "Trong lúc bạn đi du lịch tôi trông giúp mèo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "パスポートを会社[かいしゃ]が預[あず]かるのは、法律[ほうりつ]で禁止[きんし]されています。",
+     "vi": "Công ty giữ hộ chiếu (của nhân viên) là bị luật cấm.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "お荷物[にもつ]、お預[あず]かりします。",
+     "vi": "Tôi xin giữ hành lý cho quý khách.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "荷物[にもつ]を預[あず]かる",
+     "vi": "giữ hộ hành lý"
+    }
+   ],
+   "pair": {
+    "w": "預[あず]ける",
+    "vi": "gửi (nhờ giữ)"
+   },
+   "note": "Quan trọng: công ty không được giữ hộ chiếu, thẻ cư trú của người lao động."
+  },
+  {
+   "id": "v:受け取る:うけとる",
+   "kana": "うけとる",
+   "kanji": "受け取る",
+   "kf": "受[う]け取[と]る",
+   "hv": "THỤ THỦ",
+   "vi": "nhận (đồ, giấy tờ, tiền)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "荷物[にもつ]を受[う]け取[と]ったら、サインしてください。",
+     "vi": "Nhận hàng xong hãy ký.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい在留[ざいりゅう]カードを、入管[にゅうかん]で受[う]け取[と]りました。",
+     "vi": "Tôi đã nhận thẻ cư trú mới ở cục xuất nhập cảnh.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "荷物[にもつ]を受[う]け取[と]る",
+     "vi": "nhận hàng"
+    },
+    {
+     "jp": "給料[きゅうりょう]を受[う]け取[と]る",
+     "vi": "nhận lương"
+    }
+   ],
+   "syn": [
+    "v:もらう:もらう"
+   ]
+  },
+  {
+   "id": "v:申し込む:もうしこむ",
+   "kana": "もうしこむ",
+   "kanji": "申し込む",
+   "kf": "申[もう]し込[こ]む",
+   "hv": "THÂN NHẬP",
+   "vi": "đăng ký (thi, khóa học, dịch vụ)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本語[にほんご]能力[のうりょく]試験[しけん]に申[もう]し込[こ]みました。",
+     "vi": "Tôi đã đăng ký thi năng lực tiếng Nhật.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "研修[けんしゅう]に申[もう]し込[こ]む人[ひと]は、班長[はんちょう]に言[い]ってください。",
+     "vi": "Ai đăng ký khóa đào tạo hãy báo tổ trưởng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "試験[しけん]に申[もう]し込[こ]む",
+     "vi": "đăng ký thi"
+    }
+   ],
+   "flag": true,
+   "note": "申込書[もうしこみしょ] = đơn đăng ký. Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:断る:ことわる",
+   "kana": "ことわる",
+   "kanji": "断る",
+   "kf": "断[ことわ]る",
+   "hv": "ĐOẠN",
+   "vi": "từ chối; xin phép trước",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "残業[ざんぎょう]を頼[たの]まれたが、用事[ようじ]があって断[ことわ]った。",
+     "vi": "Được nhờ tăng ca nhưng có việc nên từ chối.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "誘[さそ]いを断[ことわ]るのは難[むずか]しい。",
+     "vi": "Từ chối lời mời thật khó.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "休[やす]む時[とき]は、前[まえ]もって断[ことわ]ってください。",
+     "vi": "Khi nghỉ hãy xin phép trước.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "誘[さそ]いを断[ことわ]る",
+     "vi": "từ chối lời mời"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "申[もう]し込[こ]みを[[断[ことわ]られ]]ました。",
+     "vi": "Đơn của tôi bị từ chối."
+    }
+   ]
+  },
+  {
+   "id": "v:確かめる:たしかめる",
+   "kana": "たしかめる",
+   "kanji": "確かめる",
+   "kf": "確[たし]かめる",
+   "hv": "XÁC",
+   "vi": "xác nhận, kiểm tra lại cho chắc",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "出[で]かける前[まえ]に、鍵[かぎ]を確[たし]かめた。",
+     "vi": "Trước khi ra ngoài tôi kiểm tra lại chìa khóa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ラベルの日付[ひづけ]を確[たし]かめてから貼[は]ってください。",
+     "vi": "Kiểm tra lại ngày trên nhãn rồi mới dán.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "日付[ひづけ]を確[たし]かめる",
+     "vi": "kiểm tra ngày"
+    },
+    {
+     "jp": "自分[じぶん]の目[め]で確[たし]かめる",
+     "vi": "tận mắt kiểm chứng"
+    }
+   ],
+   "syn": [
+    "v:確認:かくにん"
+   ]
+  },
+  {
+   "id": "v:試す:ためす",
+   "kana": "ためす",
+   "kanji": "試す",
+   "kf": "試[ため]す",
+   "hv": "THÍ",
+   "vi": "thử (xem có được không)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい方法[ほうほう]を試[ため]してみよう。",
+     "vi": "Thử cách mới xem nào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "自分[じぶん]の日本語[にほんご]の力[ちから]を試[ため]したい。",
+     "vi": "Muốn thử sức tiếng Nhật của mình.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "方法[ほうほう]を試[ため]す",
+     "vi": "thử phương pháp"
+    }
+   ],
+   "note": "試[ため]す: thử nghiệm xem kết quả. 〜てみる: thử làm (ngữ pháp)."
+  },
+  {
+   "id": "v:省く:はぶく",
+   "kana": "はぶく",
+   "kanji": "省く",
+   "kf": "省[はぶ]く",
+   "hv": "TỈNH",
+   "vi": "lược bớt, bỏ bớt",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "無駄[むだ]な説明[せつめい]を省[はぶ]いて、簡単[かんたん]に話[はな]してください。",
+     "vi": "Bỏ bớt giải thích thừa, nói gọn thôi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "手順[てじゅん]を省[はぶ]くと、事故[じこ]の原因[げんいん]になります。",
+     "vi": "Bỏ bớt quy trình sẽ gây tai nạn.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手間[てま]を省[はぶ]く",
+     "vi": "đỡ công"
+    },
+    {
+     "jp": "説明[せつめい]を省[はぶ]く",
+     "vi": "lược bớt giải thích"
+    }
+   ]
+  },
+  {
+   "id": "v:除く:のぞく",
+   "kana": "のぞく",
+   "kanji": "除く",
+   "kf": "除[のぞ]く",
+   "hv": "TRỪ",
+   "vi": "loại trừ, trừ ra; loại bỏ",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日曜日[にちようび]を除[のぞ]いて、毎日[まいにち]働[はたら]いています。",
+     "vi": "Trừ Chủ nhật, ngày nào tôi cũng làm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "骨[ほね]を除[のぞ]いてから、パックに入[い]れます。",
+     "vi": "Loại bỏ xương rồi mới cho vào khay.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "骨[ほね]を除[のぞ]く",
+     "vi": "loại bỏ xương"
+    }
+   ],
+   "note": "〜を除[のぞ]いて = trừ … ra. Đồng âm: 覗[のぞ]く = nhòm vào."
+  },
+  {
+   "id": "v:含む:ふくむ",
+   "kana": "ふくむ",
+   "kanji": "含む",
+   "kf": "含[ふく]む",
+   "hv": "HÀM",
+   "vi": "bao gồm, chứa (bên trong)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この値段[ねだん]には、税金[ぜいきん]が含[ふく]まれています。",
+     "vi": "Giá này đã bao gồm thuế.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "魚[さかな]にはDHAが多[おお]く含[ふく]まれている。",
+     "vi": "Cá chứa nhiều DHA.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "税[ぜい]を含[ふく]む",
+     "vi": "bao gồm thuế"
+    }
+   ],
+   "pair": "v:含める:ふくめる"
+  },
+  {
+   "id": "v:含める:ふくめる",
+   "kana": "ふくめる",
+   "kanji": "含める",
+   "kf": "含[ふく]める",
+   "hv": "HÀM",
+   "vi": "tính cả vào, kể cả",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]を含[ふく]めて、五[ご]人[にん]で行[い]きます。",
+     "vi": "Kể cả tôi, năm người đi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "残業代[ざんぎょうだい]も含[ふく]めて、給料[きゅうりょう]はいくらですか。",
+     "vi": "Tính cả tiền tăng ca thì lương bao nhiêu?",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "税[ぜい]を含[ふく]める",
+     "vi": "tính cả thuế"
+    }
+   ],
+   "pair": "v:含む:ふくむ"
+  },
+  {
+   "id": "v:示す:しめす",
+   "kana": "しめす",
+   "kanji": "示す",
+   "kf": "示[しめ]す",
+   "hv": "THỊ",
+   "vi": "chỉ ra, cho thấy (số liệu, vị trí)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地図[ちず]で駅[えき]の場所[ばしょ]を示[しめ]してください。",
+     "vi": "Hãy chỉ vị trí nhà ga trên bản đồ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "このグラフは、売[う]り上[あ]げの変化[へんか]を示[しめ]しています。",
+     "vi": "Biểu đồ này cho thấy sự thay đổi doanh số.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "方向[ほうこう]を示[しめ]す",
+     "vi": "chỉ hướng"
+    },
+    {
+     "jp": "結果[けっか]を示[しめ]す",
+     "vi": "cho thấy kết quả"
+    }
+   ]
+  },
+  {
+   "id": "v:求める:もとめる",
+   "kana": "もとめる",
+   "kanji": "求める",
+   "kf": "求[もと]める",
+   "hv": "CẦU",
+   "vi": "yêu cầu, đòi hỏi; tìm kiếm",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]は、正確[せいかく]な作業[さぎょう]を求[もと]めています。",
+     "vi": "Công ty yêu cầu làm việc chính xác.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "助[たす]けを求[もと]める声[こえ]が聞[き]こえた。",
+     "vi": "Nghe tiếng kêu cứu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "求人広告[きゅうじんこうこく]で、働[はたら]く人[ひと]を求[もと]めている。",
+     "vi": "Đang tìm người làm qua quảng cáo tuyển dụng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "助[たす]けを求[もと]める",
+     "vi": "kêu cứu"
+    },
+    {
+     "jp": "説明[せつめい]を求[もと]める",
+     "vi": "yêu cầu giải thích"
+    }
+   ]
+  },
+  {
+   "id": "v:認める:みとめる",
+   "kana": "みとめる",
+   "kanji": "認める",
+   "kf": "認[みと]める",
+   "hv": "NHẬN",
+   "vi": "công nhận, thừa nhận; cho phép",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は自分[じぶん]のミスを認[みと]めた。",
+     "vi": "Anh ấy thừa nhận lỗi của mình.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "在留[ざいりゅう]期間[きかん]の更新[こうしん]が認[みと]められました。",
+     "vi": "Gia hạn thời gian lưu trú đã được chấp thuận.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ミスを認[みと]める",
+     "vi": "nhận lỗi"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "申請[しんせい]が[[認[みと]められ]]ました。",
+     "vi": "Đơn đã được chấp thuận."
+    }
+   ]
+  },
+  {
+   "id": "v:命じる:めいじる",
+   "kana": "めいじる",
+   "kanji": "命じる",
+   "kf": "命[めい]じる",
+   "hv": "MỆNH",
+   "vi": "ra lệnh, bổ nhiệm",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]は工場[こうじょう]の移転[いてん]を命[めい]じた。",
+     "vi": "Giám đốc ra lệnh dời nhà máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "彼[かれ]は、来月[らいげつ]から班[はん]長[ちょう]を命[めい]じられた。",
+     "vi": "Anh ấy được bổ nhiệm làm tổ trưởng từ tháng sau.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "〜を命[めい]じる",
+     "vi": "ra lệnh"
+    }
+   ],
+   "syn": [
+    {
+     "w": "命令[めいれい]する",
+     "vi": "ra lệnh"
+    }
+   ]
+  },
+  {
+   "id": "v:従う:したがう",
+   "kana": "したがう",
+   "kanji": "従う",
+   "kf": "従[したが]う",
+   "hv": "TÒNG",
+   "vi": "tuân theo, làm theo",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "係員[かかりいん]の指示[しじ]に従[したが]ってください。",
+     "vi": "Hãy làm theo chỉ dẫn của nhân viên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]のルールに従[したが]って、作業[さぎょう]します。",
+     "vi": "Làm việc theo quy định công ty.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "指示[しじ]に従[したが]う",
+     "vi": "làm theo chỉ thị"
+    },
+    {
+     "jp": "ルールに従[したが]う",
+     "vi": "tuân thủ quy định"
+    }
+   ],
+   "note": "Ngữ pháp liên quan: 〜に従[したが]って (N3)."
+  },
+  {
+   "id": "v:守る:まもる",
+   "kana": "まもる",
+   "kanji": "守る",
+   "kf": "守[まも]る",
+   "hv": "THỦ",
+   "vi": "giữ (lời hứa, quy định); bảo vệ",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "約束[やくそく]の時間[じかん]は必[かなら]ず守[まも]ってください。",
+     "vi": "Hãy giữ đúng giờ hẹn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "安全[あんぜん]のルールを守[まも]りましょう。",
+     "vi": "Hãy tuân thủ quy định an toàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "家族[かぞく]を守[まも]るために、頑張[がんば]ります。",
+     "vi": "Cố gắng để bảo vệ gia đình.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "約束[やくそく]を守[まも]る",
+     "vi": "giữ lời hứa"
+    },
+    {
+     "jp": "ルールを守[まも]る",
+     "vi": "giữ quy định"
+    }
+   ],
+   "ant": [
+    "v:破る:やぶる"
+   ]
+  },
+  {
+   "id": "v:基づく:もとづく",
+   "kana": "もとづく",
+   "kanji": "基づく",
+   "kf": "基[もと]づく",
+   "hv": "CƠ",
+   "vi": "dựa trên, căn cứ vào",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このマニュアルは、HACCPに基[もと]づいて作[つく]られている。",
+     "vi": "Sổ hướng dẫn này được làm dựa trên HACCP.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "税金[ぜいきん]は、去年[きょねん]の収入[しゅうにゅう]に基[もと]づいて計算[けいさん]されます。",
+     "vi": "Thuế được tính dựa trên thu nhập năm ngoái.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "〜に基[もと]づく",
+     "vi": "dựa trên"
+    }
+   ]
+  },
+  {
+   "id": "v:用いる:もちいる",
+   "kana": "もちいる",
+   "kanji": "用いる",
+   "kf": "用[もち]いる",
+   "hv": "DỤNG",
+   "vi": "sử dụng, dùng (văn viết)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この料理[りょうり]には、新鮮[しんせん]な魚[さかな]を用[もち]います。",
+     "vi": "Món này dùng cá tươi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "消毒[しょうどく]には、決[き]められた薬品[やくひん]を用[もち]いること。",
+     "vi": "Khử trùng phải dùng đúng hóa chất quy định.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "道具[どうぐ]を用[もち]いる",
+     "vi": "dùng dụng cụ"
+    }
+   ],
+   "syn": [
+    "v:使う:つかう",
+    "v:利用:りよう"
+   ]
+  },
+  {
+   "id": "v:応じる:おうじる",
+   "kana": "おうじる",
+   "kanji": "応じる",
+   "kf": "応[おう]じる",
+   "hv": "ỨNG",
+   "vi": "đáp ứng, tùy theo",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お客様[きゃくさま]の注文[ちゅうもん]に応[おう]じて、魚[さかな]を切[き]ります。",
+     "vi": "Cắt cá theo yêu cầu của khách.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "年齢[ねんれい]に応[おう]じて、料金[りょうきん]が違[ちが]います。",
+     "vi": "Giá tùy theo độ tuổi.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "注文[ちゅうもん]に応[おう]じる",
+     "vi": "đáp ứng đơn hàng"
+    }
+   ],
+   "note": "〜に応[おう]じて = tùy theo."
+  },
+  {
+   "id": "v:備える:そなえる",
+   "kana": "そなえる",
+   "kanji": "備える",
+   "kf": "備[そな]える",
+   "hv": "BỊ",
+   "vi": "chuẩn bị sẵn (đề phòng)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地震[じしん]に備[そな]えて、水[みず]と食料[しょくりょう]を用意[ようい]しておく。",
+     "vi": "Chuẩn bị sẵn nước và đồ ăn đề phòng động đất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "試験[しけん]に備[そな]えて、毎日[まいにち]勉強[べんきょう]しています。",
+     "vi": "Học mỗi ngày chuẩn bị cho kỳ thi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "停電[ていでん]に備[そな]えて、懐中電灯[かいちゅうでんとう]を置[お]いています。",
+     "vi": "Để sẵn đèn pin phòng mất điện.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "災害[さいがい]に備[そな]える",
+     "vi": "phòng thiên tai"
+    }
+   ],
+   "note": "備[そな]える thường đi với に: 〜に備[そな]える."
+  },
+  {
+   "id": "v:防ぐ:ふせぐ",
+   "kana": "ふせぐ",
+   "kanji": "防ぐ",
+   "kf": "防[ふせ]ぐ",
+   "hv": "PHÒNG",
+   "vi": "phòng chống, ngăn ngừa",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手洗[てあら]いで食中毒[しょくちゅうどく]を防[ふせ]ぎます。",
+     "vi": "Rửa tay để phòng ngộ độc thực phẩm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "事故[じこ]を防[ふせ]ぐために、毎朝[まいあさ]KYをします。",
+     "vi": "Mỗi sáng làm KY để phòng tai nạn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "マスクで風邪[かぜ]を防[ふせ]ぐ。",
+     "vi": "Đeo khẩu trang phòng cảm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事故[じこ]を防[ふせ]ぐ",
+     "vi": "phòng tai nạn"
+    },
+    {
+     "jp": "病気[びょうき]を防[ふせ]ぐ",
+     "vi": "phòng bệnh"
+    }
+   ]
+  },
+  {
+   "id": "v:避ける:さける",
+   "kana": "さける",
+   "kanji": "避ける",
+   "kf": "避[さ]ける",
+   "hv": "TỊ",
+   "vi": "tránh, né",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "混[こ]んでいる時間[じかん]を避[さ]けて、買[か]い物[もの]に行[い]きます。",
+     "vi": "Tránh giờ đông người để đi mua sắm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "危[あぶ]ない場所[ばしょ]は避[さ]けて通[かよ]ってください。",
+     "vi": "Hãy đi tránh chỗ nguy hiểm.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人[ひと]ごみを避[さ]ける",
+     "vi": "tránh chỗ đông"
+    },
+    {
+     "jp": "危険[きけん]を避[さ]ける",
+     "vi": "tránh nguy hiểm"
+    }
+   ]
+  },
+  {
+   "id": "v:まとめる:まとめる",
+   "kana": "まとめる",
+   "kanji": "",
+   "hv": "",
+   "vi": "gom lại, tổng hợp, sắp xếp gọn",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今日[きょう]の作業[さぎょう]の結果[けっか]を、表[ひょう]にまとめてください。",
+     "vi": "Hãy tổng hợp kết quả làm việc hôm nay vào bảng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "段[だん]ボールはまとめて、ひもで縛[しば]ります。",
+     "vi": "Gom các thùng các tông lại rồi buộc dây.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "意見[いけん]をまとめる",
+     "vi": "tổng hợp ý kiến"
+    },
+    {
+     "jp": "荷物[にもつ]をまとめる",
+     "vi": "thu dọn hành lý"
+    }
+   ],
+   "pair": "v:まとまる:まとまる"
+  },
+  {
+   "id": "v:まとまる:まとまる",
+   "kana": "まとまる",
+   "kanji": "",
+   "hv": "",
+   "vi": "được gom lại; (ý kiến) thống nhất",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会議[かいぎ]で、みんなの意見[いけん]がまとまった。",
+     "vi": "Trong cuộc họp ý kiến mọi người đã thống nhất.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "まとまったお金[かね]が必要[ひつよう]だ。",
+     "vi": "Cần một khoản tiền kha khá.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "話[はなし]がまとまる",
+     "vi": "câu chuyện đi đến thống nhất"
+    }
+   ],
+   "pair": "v:まとめる:まとめる"
+  },
+  {
+   "id": "v:話し合う:はなしあう",
+   "kana": "はなしあう",
+   "kanji": "話し合う",
+   "kf": "話[はな]し合[あ]う",
+   "hv": "THOẠI HỢP",
+   "vi": "trao đổi với nhau, thảo luận (cùng nhau)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休[やす]みの日[ひ]について、家族[かぞく]と話[はな]し合[あ]った。",
+     "vi": "Tôi bàn với gia đình về ngày nghỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "問題[もんだい]があれば、みんなで話[はな]し合[あ]いましょう。",
+     "vi": "Có vấn đề thì cùng nhau bàn bạc.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "みんなで話[はな]し合[あ]う",
+     "vi": "cùng nhau bàn bạc"
+    }
+   ],
+   "rel": [
+    {
+     "w": "話[はな]し合[あ]い",
+     "vi": "cuộc bàn bạc"
+    }
+   ]
+  },
+  {
+   "id": "v:述べる:のべる",
+   "kana": "のべる",
+   "kanji": "述べる",
+   "kf": "述[の]べる",
+   "hv": "THUẬT",
+   "vi": "trình bày (ý kiến, lý do)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会議[かいぎ]で自分[じぶん]の意見[いけん]を述[の]べた。",
+     "vi": "Tôi trình bày ý kiến của mình ở cuộc họp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "面接[めんせつ]で、日本[にほん]で働[はたら]きたい理由[りゆう]を述[の]べました。",
+     "vi": "Khi phỏng vấn tôi nêu lý do muốn làm ở Nhật.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "意見[いけん]を述[の]べる",
+     "vi": "trình bày ý kiến"
+    }
+   ]
+  },
+  {
+   "id": "v:訳す:やくす",
+   "kana": "やくす",
+   "kanji": "訳す",
+   "kf": "訳[やく]す",
+   "hv": "DỊCH",
+   "vi": "dịch (ngôn ngữ)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この文[ぶん]を、ベトナム語[ご]に訳[やく]してください。",
+     "vi": "Hãy dịch câu này sang tiếng Việt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]の書類[しょるい]を訳[やく]して、新人[しんじん]に説明[せつめい]した。",
+     "vi": "Tôi dịch giấy tờ công ty để giải thích cho người mới.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "日本語[にほんご]に訳[やく]す",
+     "vi": "dịch sang tiếng Nhật"
+    }
+   ],
+   "syn": [
+    "v:翻訳:ほんやく"
+   ]
+  },
+  {
+   "id": "v:数える:かぞえる",
+   "kana": "かぞえる",
+   "kanji": "数える",
+   "kf": "数[かぞ]える",
+   "hv": "SỐ",
+   "vi": "đếm",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]の数[かず]を数[かぞ]えてください。",
+     "vi": "Hãy đếm số thùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子供[こども]が指[ゆび]で数[かず]を数[かぞ]えている。",
+     "vi": "Đứa trẻ đang đếm bằng ngón tay.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "数[かず]を数[かぞ]える",
+     "vi": "đếm số"
+    }
+   ]
+  },
+  {
+   "id": "v:限る:かぎる",
+   "kana": "かぎる",
+   "kanji": "限る",
+   "kf": "限[かぎ]る",
+   "hv": "HẠN",
+   "vi": "giới hạn, hạn chế",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "参加者[さんかしゃ]は二[に]十人[じゅうにん]に限[かぎ]ります。",
+     "vi": "Người tham gia giới hạn 20 người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "夏[なつ]は、冷[つめ]たいビールに限[かぎ]る。",
+     "vi": "Mùa hè thì không gì bằng bia lạnh.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人数[にんずう]を限[かぎ]る",
+     "vi": "giới hạn số người"
+    }
+   ],
+   "note": "Ngữ pháp liên quan: 〜とは限[かぎ]らない (chưa chắc)."
+  },
+  {
+   "id": "v:占める:しめる",
+   "kana": "しめる",
+   "kanji": "占める",
+   "kf": "占[し]める",
+   "hv": "CHIẾM",
+   "vi": "chiếm (tỉ lệ, chỗ)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Công việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この工場[こうじょう]では、外国人[がいこくじん]が半分[はんぶん]を占[し]めている。",
+     "vi": "Ở nhà máy này người nước ngoài chiếm một nửa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "家賃[やちん]が生活費[せいかつひ]の三[さん]割[わり]を占[し]めています。",
+     "vi": "Tiền nhà chiếm 30% chi phí sinh hoạt.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "半分[はんぶん]を占[し]める",
+     "vi": "chiếm một nửa"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "閉[し]める",
+     "vi": "đóng (cửa); v:湿る:しめる"
+    }
+   ]
+  }
+ ]
+}

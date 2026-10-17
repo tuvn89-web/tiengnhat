@@ -9,7 +9,7 @@
    "doisong",
    "xuong"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-17",
   "note": ""
  },
@@ -25,13 +25,13 @@
    "ctx": "xuong",
    "lesson": "l:n5-18",
    "intro": true,
-   "setting": "Cuối ca, tổ trưởng Tanaka kiểm tra công việc. Cậu Cả đã ở Nhật được ba tháng — mọi người nói về những gì đã thay đổi. Buổi tối, chị Maria rủ đi ăn.",
+   "setting": "Cuối ca, tổ trưởng Tanaka kiểm tra công việc. Anh Nguyễn đã ở Nhật được ba tháng — mọi người nói về những gì đã thay đổi. Buổi tối, chị Maria rủ đi ăn.",
    "medium": "tructiep",
    "roles": [
     {
      "key": "B",
      "name": "グエン",
-     "vi": "Cậu Cả",
+     "vi": "Bạn",
      "me": true
     },
     {
@@ -676,13 +676,17 @@
       {
        "w": "本当[ほんとう]に",
        "vi": "thật sự"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
       }
      ]
     }
    ],
    "questions": [
     {
-     "q": "Lúc tổ trưởng hỏi, Cậu Cả chưa rửa cái gì?",
+     "q": "Lúc tổ trưởng hỏi, anh Nguyễn chưa rửa cái gì?",
      "opts": [
       "Dao",
       "Bàn",
@@ -704,7 +708,7 @@
      "why": "まだ〜ていません = chưa …."
     },
     {
-     "q": "Vì sao cuộc sống của Cậu Cả tiện hơn?",
+     "q": "Vì sao cuộc sống của anh Nguyễn tiện hơn?",
      "opts": [
       "Đã mua xe đạp",
       "Chuyển nhà gần ga",

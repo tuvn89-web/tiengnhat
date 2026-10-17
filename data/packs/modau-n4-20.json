@@ -1,0 +1,688 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n4-20",
+  "title": "Bài mở đầu N4 – bài 20: Hoa ngủ quên và ngày lĩnh lương",
+  "type": "dialog",
+  "level": "N4",
+  "topics": [
+   "xuong"
+  ],
+  "version": 2,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n4-20",
+   "title": "Hoa ngủ quên và ngày lĩnh lương",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ],
+   "ctx": "xuong",
+   "lesson": "l:n4-20",
+   "intro": true,
+   "setting": "Sáng nay Hoa làm ca sớm nhưng chưa thấy đến. Anh Nguyễn gọi điện. Giờ nghỉ, anh tìm chìa khóa tủ đồ; chiều là ngày lĩnh lương.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    },
+    {
+     "key": "A",
+     "name": "田中[たなか]",
+     "vi": "Tổ trưởng"
+    },
+    {
+     "key": "H",
+     "name": "ホア",
+     "vi": "Đồng nghiệp mới"
+    },
+    {
+     "key": "D",
+     "name": "鈴木[すずき]",
+     "vi": "Đồng nghiệp"
+    },
+    {
+     "key": "E",
+     "name": "山田[やまだ]",
+     "vi": "Nhân viên văn phòng"
+    }
+   ],
+   "turns": [
+    {
+     "who": "A",
+     "jp": "グエンさん、ホアさんを見[み]ませんでしたか。",
+     "vi": "Anh Nguyễn, có thấy Hoa đâu không?",
+     "grammar": [
+      "g:〜を",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いいえ。ホアさんは今日[きょう]、早番[はやばん]のはずですが……。",
+     "vi": "Không ạ. Hôm nay Hoa đáng lẽ làm ca sớm……",
+     "key": "早番[はやばん]",
+     "note": "〜はずだ = \"chắc chắn là / đáng lẽ là\" — người nói tin chắc dựa trên căn cứ (lịch ca, lẽ thường). Danh từ + のはず; tính từ な + なはず.",
+     "grammar": [
+      "g:〜はずだ",
+      "g:〜が・〜けど"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "もう八時[はちじ]です。タイムカードも押[お]していません。",
+     "vi": "8 giờ rồi. Thẻ chấm công cũng chưa bấm.",
+     "key": "タイムカード",
+     "grammar": [
+      "g:〜も",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "押[お]して",
+       "vi": "bấm (thẻ)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "電話[でんわ]してみます。",
+     "vi": "Tôi gọi thử xem.",
+     "grammar": [
+      "g:〜てみる"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "もしもし……。",
+     "vi": "A lô……",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "ホアさん、グエンです。今[いま]、どこですか。",
+     "vi": "Hoa, anh Nguyễn đây. Em đang ở đâu?",
+     "grammar": [
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "すみません！今[いま]、起[お]きたばかりです……。",
+     "vi": "Em xin lỗi! Em vừa mới dậy……",
+     "note": "〜たばかり = vừa mới … (người nói cảm thấy thời gian còn rất ngắn, dù thực tế có thể đã lâu).",
+     "grammar": [
+      "g:〜たばかり"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "え！今日[きょう]は早番[はやばん]ですよ。",
+     "vi": "Hả! Hôm nay ca sớm đấy.",
+     "grammar": []
+    },
+    {
+     "who": "H",
+     "jp": "はい、わかっています。今[いま]から家[いえ]を出[で]るところです。",
+     "vi": "Vâng, em biết. Em đang chuẩn bị ra khỏi nhà.",
+     "note": "〜ところだ: thể từ điển + ところ = sắp sửa; 〜ているところ = đang lúc; 〜たところ = vừa xong (ngay lúc này).",
+     "grammar": [
+      "g:〜ています",
+      "g:〜から〜まで",
+      "g:〜を",
+      "g:〜ところだ"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "じゃあ、田中[たなか]さんに伝[つた]えます。気[き]をつけて来[き]てください。",
+     "vi": "Vậy anh báo anh Tanaka. Em đi cẩn thận nhé.",
+     "alt": [
+      "田中[たなか]さんに話[はな]しておきます。気[き]をつけて来[き]てください。"
+     ],
+     "grammar": [
+      "g:〜に",
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "伝[つた]えます",
+       "vi": "nhắn lại"
+      },
+      {
+       "w": "気[き]をつけて",
+       "vi": "cẩn thận"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "田中[たなか]さん、ホアさんは今[いま]、家[いえ]を出[で]るところだそうです。三十分[さんじゅっぷん]ぐらい遅刻[ちこく]します。",
+     "vi": "Anh Tanaka, Hoa nói bây giờ đang ra khỏi nhà. Sẽ muộn khoảng 30 phút.",
+     "key": "遅刻[ちこく]",
+     "grammar": [
+      "g:〜を",
+      "g:〜ところだ",
+      "g:〜そうだ（伝聞）"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "そうですか。初[はじ]めての遅刻[ちこく]ですから、しかたないですね。",
+     "vi": "Vậy à. Lần đầu đi muộn, đành vậy.",
+     "grammar": [
+      "g:〜の",
+      "g:〜から"
+     ],
+     "gloss": [
+      {
+       "w": "初[はじ]めて",
+       "vi": "lần đầu"
+      },
+      {
+       "w": "しかたない",
+       "vi": "đành vậy"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "遅[おそ]くなって、すみません！",
+     "vi": "Em xin lỗi đã đến muộn!",
+     "grammar": [
+      "g:〜くなる・〜になる",
+      "g:〜て、〜"
+     ],
+     "gloss": [
+      {
+       "w": "遅[おそ]くなって",
+       "vi": "đến muộn"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "大丈夫[だいじょうぶ]ですか。",
+     "vi": "Em có sao không?",
+     "grammar": [
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "大丈夫[だいじょうぶ]",
+       "vi": "không sao"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "はい。昨日[きのう]、夜勤[やきん]のシフトが終[お]わったばかりで、とても疲[つか]れていました。",
+     "vi": "Dạ không. Hôm qua em vừa mới hết ca đêm nên mệt quá.",
+     "key": "夜勤[やきん]",
+     "grammar": [
+      "g:〜の",
+      "g:〜たばかり",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "疲[つか]れて",
+       "vi": "mệt"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "あ、そうでした。私[わたし]のシフトの作[つく]り方[かた]が悪[わる]かったです。",
+     "vi": "À đúng rồi. Là tôi xếp lịch ca không hợp lý.",
+     "key": "シフト",
+     "grammar": [
+      "g:〜の",
+      "g:〜方"
+     ],
+     "gloss": [
+      {
+       "w": "作[つく]り方[かた]",
+       "vi": "cách lập"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "今日[きょう]は早退[そうたい]してもいいですよ。",
+     "vi": "Hôm nay em về sớm cũng được.",
+     "key": "早退[そうたい]",
+     "grammar": [
+      "g:〜てもいいですか"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "いいえ、大丈夫[だいじょうぶ]です。作業[さぎょう]を続[つづ]けます。",
+     "vi": "Không ạ, em ổn. Em làm tiếp.",
+     "key": "作業[さぎょう]",
+     "grammar": [
+      "g:〜を"
+     ],
+     "gloss": [
+      {
+       "w": "大丈夫[だいじょうぶ]",
+       "vi": "không sao"
+      },
+      {
+       "w": "続[つづ]けます",
+       "vi": "tiếp tục"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "グエンさん、今[いま]から休憩室[きゅうけいしつ]に行[い]くところですか。",
+     "vi": "Anh Nguyễn, giờ anh đang định ra phòng nghỉ à?",
+     "key": "休憩室[きゅうけいしつ]",
+     "grammar": [
+      "g:〜から〜まで",
+      "g:〜に",
+      "g:〜ところだ",
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。今[いま]、作業場[さぎょうば]の片付[かたづ]けが済[す]んだところです。",
+     "vi": "Vâng. Tôi vừa dọn xong khu làm việc.",
+     "key": "作業場[さぎょうば]",
+     "grammar": [
+      "g:〜の",
+      "g:〜ところだ"
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "僕[ぼく]は、さっき休憩[きゅうけい]したばかりですから、もう少[すこ]し働[はたら]きます。",
+     "vi": "Tôi vừa nghỉ lúc nãy nên làm thêm chút nữa.",
+     "key": "さっき",
+     "grammar": [
+      "g:〜たばかり",
+      "g:〜から"
+     ],
+     "gloss": [
+      {
+       "w": "僕[ぼく]",
+       "vi": "tôi (nam)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "……あれ？ロッカーの鍵[かぎ]がありません。",
+     "vi": "…… Ơ? Không thấy chìa khóa tủ đồ.",
+     "key": "ロッカー",
+     "grammar": [
+      "g:〜の",
+      "g:〜があります・〜がいます"
+     ],
+     "gloss": [
+      {
+       "w": "鍵[かぎ]",
+       "vi": "chìa khóa"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "さっき事務所[じむしょ]に戻[もど]った時[とき]、机[つくえ]の上[うえ]にありましたよ。",
+     "vi": "Lúc nãy tôi quay về văn phòng thì thấy nó trên bàn đấy.",
+     "key": "戻[もど]った",
+     "grammar": [
+      "g:〜に",
+      "g:〜とき",
+      "g:〜の",
+      "g:〜があります・〜がいます"
+     ],
+     "gloss": [
+      {
+       "w": "机[つくえ]",
+       "vi": "bàn"
+      },
+      {
+       "w": "戻[もど]す",
+       "vi": "trả về chỗ cũ, để lại; ngâm cho nở (đồ khô)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "あ、そうだ。事務所[じむしょ]に忘[わす]れたはずです。取[と]りに行[い]ってきます。",
+     "vi": "À đúng rồi. Chắc chắn là để quên ở văn phòng. Tôi đi lấy đây.",
+     "key": "事務所[じむしょ]",
+     "grammar": [
+      "g:〜に",
+      "g:〜はずだ"
+     ],
+     "gloss": [
+      {
+       "w": "忘[わす]れた",
+       "vi": "để quên"
+      },
+      {
+       "w": "取[と]りに行[い]って",
+       "vi": "đi lấy"
+      }
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "グエンさん、今日[きょう]は給料日[きゅうりょうび]ですね。",
+     "vi": "Anh Nguyễn, hôm nay là ngày lĩnh lương nhỉ.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "給料日[きゅうりょうび]",
+       "vi": "ngày lĩnh lương"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。もう銀行[ぎんこう]に入[はい]っているはずですよね。",
+     "vi": "Vâng. Chắc tiền đã vào ngân hàng rồi chị nhỉ.",
+     "grammar": [
+      "g:〜に",
+      "g:〜ています",
+      "g:〜はずだ"
+     ],
+     "gloss": [
+      {
+       "w": "銀行[ぎんこう]",
+       "vi": "ngân hàng"
+      }
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "はい。朝[あさ]十時[じゅうじ]に振[ふ]り込[こ]んだところです。",
+     "vi": "Vâng. Sáng nay 10 giờ tôi vừa chuyển khoản.",
+     "grammar": [
+      "g:〜に",
+      "g:〜ところだ"
+     ],
+     "gloss": [
+      {
+       "w": "振[ふ]り込[こ]んだ",
+       "vi": "đã chuyển khoản"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ありがとうございます。今月[こんげつ]は残業[ざんぎょう]が多[おお]かったですから、給料[きゅうりょう]も多[おお]いはずです。",
+     "vi": "Cảm ơn chị. Tháng này làm thêm giờ nhiều nên lương chắc chắn cũng nhiều.",
+     "key": "給料[きゅうりょう]",
+     "grammar": [
+      "g:〜から",
+      "g:〜も",
+      "g:〜はずだ"
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "そうですね。でも、欠勤[けっきん]が一日[いちにち]ありましたね。",
+     "vi": "Đúng vậy. Nhưng anh có một ngày nghỉ làm nhỉ.",
+     "key": "欠勤[けっきん]",
+     "grammar": [
+      "g:〜があります・〜がいます"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "あ、風邪[かぜ]の日[ひ]ですね……。",
+     "vi": "À, ngày bị cảm……",
+     "grammar": [
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "風邪[かぜ]",
+       "vi": "cảm"
+      }
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "風邪[かぜ]の日[ひ]は、有給休暇[ゆうきゅうきゅうか]のはずですから、大丈夫[だいじょうぶ]ですよ。",
+     "vi": "Ngày bị cảm thì chắc là tính vào nghỉ phép có lương, nên không sao đâu.",
+     "grammar": [
+      "g:〜の",
+      "g:〜はずだ",
+      "g:〜から"
+     ],
+     "gloss": [
+      {
+       "w": "有給休暇[ゆうきゅうきゅうか]",
+       "vi": "nghỉ phép có lương"
+      },
+      {
+       "w": "大丈夫[だいじょうぶ]",
+       "vi": "không sao"
+      },
+      {
+       "w": "風邪[かぜ]",
+       "vi": "cảm"
+      }
+     ]
+    },
+    {
+     "who": "E",
+     "jp": "それに、来月[らいげつ]から、給料[きゅうりょう]が少[すこ]し上[あ]がるはずですよ。",
+     "vi": "Hơn nữa, từ tháng sau lương chắc chắn sẽ tăng một chút đấy.",
+     "grammar": [
+      "g:〜から〜まで",
+      "g:〜はずだ"
+     ],
+     "gloss": [
+      {
+       "w": "上[あ]がる",
+       "vi": "tăng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "本当[ほんとう]ですか！うれしいです。",
+     "vi": "Thật ạ! Vui quá.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "そろそろ遅番[おそばん]の人[ひと]が来[く]る時間[じかん]です。",
+     "vi": "Sắp đến giờ người ca muộn đến rồi.",
+     "key": "遅番[おそばん]",
+     "grammar": [
+      "g:〜の"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。道具[どうぐ]はもう片付[かたづ]けたところです。",
+     "vi": "Vâng. Dụng cụ tôi vừa dọn xong.",
+     "key": "道具[どうぐ]",
+     "grammar": [
+      "g:〜ところだ"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "ありがとう。工場[こうじょう]の電気[でんき]は、遅番[おそばん]の人[ひと]が消[け]すはずですから、そのままでいいです。",
+     "vi": "Cảm ơn. Đèn xưởng thì người ca muộn sẽ tắt, cứ để nguyên.",
+     "key": "工場[こうじょう]",
+     "grammar": [
+      "g:〜の",
+      "g:〜はずだ",
+      "g:〜から"
+     ],
+     "gloss": [
+      {
+       "w": "そのまま",
+       "vi": "để nguyên"
+      },
+      {
+       "w": "電気[でんき]",
+       "vi": "đèn"
+      },
+      {
+       "w": "消[け]す",
+       "vi": "tắt"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "わかりました。もうすぐ六時[ろくじ]ですね。お疲[つか]れ様[さま]でした。",
+     "vi": "Tôi hiểu rồi. Sắp 6 giờ rồi nhỉ. Anh vất vả rồi.",
+     "key": "もうすぐ",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "お疲[つか]れ様[さま]",
+       "vi": "vất vả rồi"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "お疲[つか]れ様[さま]。ホアさんも、明日[あした]は寝坊[ねぼう]しないはずです。",
+     "vi": "Vất vả rồi. Mai chắc chắn Hoa cũng không ngủ quên nữa đâu.",
+     "grammar": [
+      "g:〜も",
+      "g:〜はずだ"
+     ],
+     "gloss": [
+      {
+       "w": "お疲[つか]れ様[さま]",
+       "vi": "vất vả rồi"
+      },
+      {
+       "w": "寝坊[ねぼう]",
+       "vi": "ngủ quên"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "はい！目覚[めざ]ましを三[みっ]つかけます！",
+     "vi": "Vâng! Em sẽ đặt ba cái báo thức!",
+     "grammar": [
+      "g:〜を"
+     ],
+     "gloss": [
+      {
+       "w": "目覚[めざ]まし",
+       "vi": "đồng hồ báo thức"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ははは。私[わたし]も来[き]たばかりの時[とき]は、よく遅刻[ちこく]しそうになりました。",
+     "vi": "Ha ha. Hồi anh mới đến cũng hay suýt đi muộn.",
+     "grammar": [
+      "g:〜たばかり",
+      "g:〜とき",
+      "g:〜そうだ（様態）",
+      "g:〜くなる・〜になる"
+     ],
+     "gloss": [
+      {
+       "w": "遅刻[ちこく]しそうに",
+       "vi": "suýt muộn"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "グエンさんも？そうは見[み]えません。",
+     "vi": "Anh Nguyễn cũng vậy ạ? Trông không giống chút nào.",
+     "grammar": [
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "見[み]えません",
+       "vi": "trông không giống"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Hôm nay Hoa đáng lẽ làm ca nào?",
+     "opts": [
+      "Ca sớm",
+      "Ca muộn",
+      "Ca đêm",
+      "Nghỉ"
+     ],
+     "ans": 0,
+     "why": "ホアさんは今日[きょう]、早番[はやばん]のはずですが……。"
+    },
+    {
+     "q": "Khi anh Nguyễn gọi, Hoa đang ở tình trạng nào?",
+     "opts": [
+      "Vừa mới dậy",
+      "Đang trên tàu",
+      "Đang ở xưởng",
+      "Bị ốm"
+     ],
+     "ans": 0,
+     "why": "今[いま]、起[お]きたばかりです……。"
+    },
+    {
+     "q": "Vì sao Hoa mệt?",
+     "opts": [
+      "Hôm qua vừa hết ca đêm",
+      "Bị cảm",
+      "Đi chơi khuya",
+      "Làm thêm giờ"
+     ],
+     "ans": 0,
+     "why": "昨日[きのう]、夜勤[やきん]のシフトが終[お]わったばかりで、とても疲[つか]れていました。"
+    },
+    {
+     "q": "Chìa khóa tủ đồ của anh Nguyễn ở đâu?",
+     "opts": [
+      "Trên bàn ở văn phòng",
+      "Trong phòng nghỉ",
+      "Trong túi",
+      "Bị mất"
+     ],
+     "ans": 0,
+     "why": "事務所[じむしょ]に戻[もど]った時[とき]、机[つくえ]の上[うえ]にありましたよ。"
+    },
+    {
+     "q": "\"Tôi vừa dọn xong (ngay lúc này)\" nói thế nào?",
+     "opts": [
+      "片付[かたづ]けたところです",
+      "片付[かたづ]けるところです",
+      "片付[かたづ]けているはずです",
+      "片付[かたづ]けるはずです"
+     ],
+     "ans": 0,
+     "why": "Thể た + ところ = vừa xong."
+    }
+   ]
+  }
+ ]
+}

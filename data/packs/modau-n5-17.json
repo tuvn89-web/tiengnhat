@@ -8,7 +8,7 @@
   "topics": [
    "doisong"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-17",
   "note": ""
  },
@@ -23,13 +23,13 @@
    "ctx": "doisong",
    "lesson": "l:n5-17",
    "intro": true,
-   "setting": "Xe đạp cũ của Cậu Cả hỏng. Anh Suzuki đi cùng ra cửa hàng xe đạp. Giờ trưa hôm sau, mọi người so sánh Nhật và Việt Nam.",
+   "setting": "Xe đạp cũ của anh Nguyễn hỏng. Anh Suzuki đi cùng ra cửa hàng xe đạp. Giờ trưa hôm sau, mọi người so sánh Nhật và Việt Nam.",
    "medium": "tructiep",
    "roles": [
     {
      "key": "B",
      "name": "グエン",
-     "vi": "Cậu Cả",
+     "vi": "Bạn",
      "me": true
     },
     {
@@ -212,6 +212,10 @@
       {
        "w": "かご",
        "vi": "giỏ xe"
+      },
+      {
+       "w": "くださる",
+       "vi": "cho (tôi) (tôn kính)"
       }
      ]
     },
@@ -248,6 +252,10 @@
       {
        "w": "かご",
        "vi": "giỏ xe"
+      },
+      {
+       "w": "くださる",
+       "vi": "cho (tôi) (tôn kính)"
       }
      ]
     },
@@ -615,7 +623,7 @@
    ],
    "questions": [
     {
-     "q": "Vì sao Cậu Cả muốn mua xe đạp mới?",
+     "q": "Vì sao anh Nguyễn muốn mua xe đạp mới?",
      "opts": [
       "Xe cũ đã cũ và nặng",
       "Xe cũ bị mất",
@@ -626,7 +634,7 @@
      "why": "私[わたし]の自転車[じてんしゃ]は古[ふる]いです。それに、とても重[おも]いです。"
     },
     {
-     "q": "Cậu Cả mua xe giá bao nhiêu?",
+     "q": "Anh Nguyễn mua xe giá bao nhiêu?",
      "opts": [
       "30.000 yên",
       "20.000 yên",
@@ -640,7 +648,7 @@
      "q": "Ai thường đến công ty sớm hơn?",
      "opts": [
       "Chị Maria",
-      "Cậu Cả",
+      "Anh Nguyễn",
       "Anh Suzuki",
       "Bằng nhau"
      ],
@@ -648,7 +656,7 @@
      "why": "マリアさんはいつも私[わたし]より早[はや]いですよ。"
     },
     {
-     "q": "Theo Cậu Cả, đồ ăn bên nào ngon hơn?",
+     "q": "Theo anh Nguyễn, đồ ăn bên nào ngon hơn?",
      "opts": [
       "Việt Nam",
       "Nhật",

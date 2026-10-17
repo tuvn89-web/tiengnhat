@@ -9,7 +9,7 @@
    "xuong",
    "kansai"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "note": "4 bài mẫu để duyệt giọng văn: H6 bài 1, 2, 4, 8. Bài 4 và 8 hạ xuống N5, gắn bài 16 và bài 10 của baihoc-n5."
  },
@@ -24,7 +24,7 @@
    "ctx": "xuong",
    "medium": "tructiep",
    "lesson": "l:n5-01",
-   "setting": "Ngày đầu đi làm. Sau buổi họp đầu giờ (朝礼[ちょうれい]), tổ trưởng 田中[たなか] giới thiệu Cậu Cả với đồng nghiệp マリア (người Philippines).",
+   "setting": "Ngày đầu đi làm. Sau buổi họp đầu giờ (朝礼[ちょうれい]), tổ trưởng 田中[たなか] giới thiệu anh Nguyễn với đồng nghiệp マリア (người Philippines).",
    "roles": [
     {
      "key": "A",
@@ -34,7 +34,7 @@
     {
      "key": "B",
      "name": "グエン",
-     "vi": "Cậu Cả",
+     "vi": "Bạn",
      "me": true
     },
     {
@@ -198,7 +198,7 @@
    ],
    "questions": [
     {
-     "q": "Cậu Cả là người nước nào?",
+     "q": "Anh Nguyễn là người nước nào?",
      "opts": [
       "Việt Nam",
       "Philippines",
@@ -217,7 +217,7 @@
       "Kỹ sư"
      ],
      "ans": 0,
-     "why": "私[わたし]も特定技能[とくていぎのう]です。— も: cũng giống Cậu Cả."
+     "why": "私[わたし]も特定技能[とくていぎのう]です。— も: cũng giống anh Nguyễn."
     },
     {
      "q": "Ai là tổ trưởng?",
@@ -231,7 +231,7 @@
      "why": "はい、田中[たなか]さんは班長[はんちょう]です。"
     },
     {
-     "q": "Lần đầu gặp người khác, Cậu Cả nói câu nào?",
+     "q": "Lần đầu gặp người khác, anh Nguyễn nói câu nào?",
      "opts": [
       "はじめまして。",
       "おやすみなさい。",
@@ -254,7 +254,7 @@
    "ctx": "xuong",
    "medium": "tructiep",
    "lesson": "l:n5-11",
-   "setting": "Trong xưởng chế biến. Tổ trưởng 田中[たなか] gọi Cậu Cả lại, dặn việc buổi sáng.",
+   "setting": "Trong xưởng chế biến. Tổ trưởng 田中[たなか] gọi anh Nguyễn lại, dặn việc buổi sáng.",
    "roles": [
     {
      "key": "A",
@@ -264,7 +264,7 @@
     {
      "key": "B",
      "name": "グエン",
-     "vi": "Cậu Cả",
+     "vi": "Bạn",
      "me": true
     }
    ],
@@ -500,7 +500,7 @@
      "why": "電気[でんき]は消[け]さないでください。"
     },
     {
-     "q": "Nghe không kịp, Cậu Cả nói câu nào?",
+     "q": "Nghe không kịp, anh Nguyễn nói câu nào?",
      "opts": [
       "もう一度[いちど]お願[ねが]いします。",
       "ありがとうございます。",
@@ -522,7 +522,7 @@
    "ctx": "xuong",
    "medium": "dienthoai",
    "lesson": "l:n5-16",
-   "setting": "6 giờ 30 sáng. Cậu Cả bị sốt, gọi điện cho tổ trưởng 田中[たなか] trước giờ làm để xin nghỉ.",
+   "setting": "6 giờ 30 sáng. Anh Nguyễn bị sốt, gọi điện cho tổ trưởng 田中[たなか] trước giờ làm để xin nghỉ.",
    "roles": [
     {
      "key": "A",
@@ -532,7 +532,7 @@
     {
      "key": "B",
      "name": "グエン",
-     "vi": "Cậu Cả",
+     "vi": "Bạn",
      "me": true
     }
    ],
@@ -718,7 +718,7 @@
    ],
    "questions": [
     {
-     "q": "Vì sao Cậu Cả gọi điện?",
+     "q": "Vì sao anh Nguyễn gọi điện?",
      "opts": [
       "Bị sốt, xin nghỉ",
       "Lỡ tàu, đến muộn",
@@ -729,7 +729,7 @@
      "why": "熱[ねつ]がありますから、今日[きょう]は休[やす]んでもいいですか。"
     },
     {
-     "q": "Cậu Cả sốt bao nhiêu độ?",
+     "q": "Anh Nguyễn sốt bao nhiêu độ?",
      "opts": [
       "38 độ",
       "37 độ",
@@ -740,7 +740,7 @@
      "why": "三十八度[さんじゅうはちど]です。"
     },
     {
-     "q": "Ngoài sốt, Cậu Cả còn bị gì?",
+     "q": "Ngoài sốt, anh Nguyễn còn bị gì?",
      "opts": [
       "Đau đầu",
       "Đau bụng",
@@ -751,7 +751,7 @@
      "why": "頭[あたま]も痛[いた]いです。"
     },
     {
-     "q": "Đi bệnh viện xong, Cậu Cả sẽ làm gì?",
+     "q": "Đi bệnh viện xong, anh Nguyễn sẽ làm gì?",
      "opts": [
       "Gọi điện lại cho tổ trưởng",
       "Đến xưởng ngay",
@@ -774,7 +774,7 @@
    "ctx": "kansai",
    "medium": "tructiep",
    "lesson": "l:n5-10",
-   "setting": "Giờ nghỉ trưa ở xưởng. Đồng nghiệp người Hyogo là 鈴木[すずき] nói giọng Kansai, rủ Cậu Cả tối nay đi ăn.",
+   "setting": "Giờ nghỉ trưa ở xưởng. Đồng nghiệp người Hyogo là 鈴木[すずき] nói giọng Kansai, rủ anh Nguyễn tối nay đi ăn.",
    "roles": [
     {
      "key": "A",
@@ -784,7 +784,7 @@
     {
      "key": "B",
      "name": "グエン",
-     "vi": "Cậu Cả",
+     "vi": "Bạn",
      "me": true
     }
    ],
@@ -997,7 +997,7 @@
    ],
    "questions": [
     {
-     "q": "Anh Suzuki rủ Cậu Cả làm gì?",
+     "q": "Anh Suzuki rủ anh Nguyễn làm gì?",
      "opts": [
       "Tối nay đi ăn",
       "Đi xem phim",

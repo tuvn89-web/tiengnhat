@@ -9,7 +9,7 @@
    "doisong",
    "xuong"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-17",
   "note": ""
  },
@@ -25,7 +25,7 @@
    "ctx": "xuong",
    "lesson": "l:n5-02",
    "intro": true,
-   "setting": "Sáng hôm sau, ở phòng thay đồ của xưởng. Cậu Cả hỏi đồng nghiệp tên các đồ vật, rồi tìm cái ví đánh rơi ở văn phòng.",
+   "setting": "Sáng hôm sau, ở phòng thay đồ của xưởng. Anh Nguyễn hỏi đồng nghiệp tên các đồ vật, rồi tìm cái ví đánh rơi ở văn phòng.",
    "medium": "tructiep",
    "roles": [
     {
@@ -36,7 +36,7 @@
     {
      "key": "B",
      "name": "グエン",
-     "vi": "Cậu Cả",
+     "vi": "Bạn",
      "me": true
     },
     {
@@ -569,6 +569,10 @@
       {
        "w": "ありがとう",
        "vi": "cảm ơn (thân mật)"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
       }
      ]
     },
@@ -690,7 +694,7 @@
    ],
    "questions": [
     {
-     "q": "Cuốn từ điển của Cậu Cả là từ điển gì?",
+     "q": "Cuốn từ điển của anh Nguyễn là từ điển gì?",
      "opts": [
       "Nhật – Việt",
       "Nhật – Anh",
@@ -712,7 +716,7 @@
      "why": "あれはマスクの箱[はこ]です。"
     },
     {
-     "q": "Cậu Cả tìm thấy ví ở đâu?",
+     "q": "Anh Nguyễn tìm thấy ví ở đâu?",
      "opts": [
       "Ở văn phòng, chị Yamada giữ",
       "Trong cặp",
@@ -726,7 +730,7 @@
      "q": "Cái ô ở văn phòng là của ai?",
      "opts": [
       "Anh Tanaka",
-      "Cậu Cả",
+      "Anh Nguyễn",
       "Chị Maria",
       "Chị Yamada"
      ],

@@ -2,20 +2,20 @@
  "schema": 1,
  "pack": {
   "id": "modau-n5-06",
-  "title": "Bài mở đầu N5 – bài 6: Một ngày của Cậu Cả",
+  "title": "Bài mở đầu N5 – bài 6: Một ngày của anh Nguyễn",
   "type": "dialog",
   "level": "N5",
   "topics": [
    "doisong"
   ],
-  "version": 1,
+  "version": 3,
   "created": "2026-10-17",
   "note": ""
  },
  "items": [
   {
    "id": "d:md-n5-06",
-   "title": "Một ngày của Cậu Cả",
+   "title": "Một ngày của anh Nguyễn",
    "level": "N5",
    "topics": [
     "doisong"
@@ -23,13 +23,13 @@
    "ctx": "doisong",
    "lesson": "l:n5-06",
    "intro": true,
-   "setting": "Sáng sớm ở phòng trọ: Cậu Cả và bạn cùng phòng Minh chuẩn bị đi làm. Giờ nghỉ trưa, chị Maria hỏi Cậu Cả về sinh hoạt hằng ngày. Tối về nhà.",
+   "setting": "Sáng sớm ở phòng trọ: Anh Nguyễn và bạn cùng phòng Minh chuẩn bị đi làm. Giờ nghỉ trưa, chị Maria hỏi anh Nguyễn về sinh hoạt hằng ngày. Tối về nhà.",
    "medium": "tructiep",
    "roles": [
     {
      "key": "B",
      "name": "グエン",
-     "vi": "Cậu Cả",
+     "vi": "Bạn",
      "me": true
     },
     {
@@ -74,7 +74,7 @@
     },
     {
      "who": "F",
-     "jp": "たいてい五時[ごじ]半[じはん]に起[お]きます。",
+     "jp": "たいてい五時[ごじ]半[はん]に起[お]きます。",
      "vi": "Thường thì em dậy lúc 5 giờ rưỡi.",
      "key": "たいてい",
      "grammar": [
@@ -538,7 +538,7 @@
     },
     {
      "who": "B",
-     "jp": "六時[ろくじ]半[じはん]ごろ食[た]べます。仕事[しごと]は八時[はちじ]からです。",
+     "jp": "六時[ろくじ]半[はん]ごろ食[た]べます。仕事[しごと]は八時[はちじ]からです。",
      "vi": "Khoảng 6 rưỡi tôi ăn. Công việc từ 8 giờ.",
      "grammar": [
       "g:〜ます・〜ません",
@@ -802,7 +802,7 @@
      "why": "私[わたし]は全然[ぜんぜん]飲[の]みません。"
     },
     {
-     "q": "Vì sao hôm nay Cậu Cả về muộn?",
+     "q": "Vì sao hôm nay anh Nguyễn về muộn?",
      "opts": [
       "Làm thêm giờ đến 7 giờ",
       "Đi siêu thị",
@@ -813,7 +813,7 @@
      "why": "今日[きょう]は残業[ざんぎょう]をしました。"
     },
     {
-     "q": "Khi về đến nhà, Cậu Cả nói câu gì?",
+     "q": "Khi về đến nhà, anh Nguyễn nói câu gì?",
      "opts": [
       "ただいま",
       "いってきます",
