@@ -1,0 +1,1443 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "chuhan-22",
+  "title": "Chữ Hán 22 – Chữ N3 (12) và chữ hay viết bằng kana",
+  "type": "kanji",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Nhiều chữ trong gói không nằm trong danh sách JLPT và người Nhật thường viết bằng kana (たたく, ほえる, しゃべる, うわさ, ほこり, つかむ, かく, まく…). Học để đọc được khi gặp chữ Hán."
+ },
+ "items": [
+  {
+   "id": "k:草",
+   "char": "草",
+   "hv": "THẢO",
+   "nghia": "cỏ",
+   "on": [
+    "ソウ"
+   ],
+   "kun": [
+    "くさ"
+   ],
+   "strokes": 9,
+   "level": "N3",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "艹",
+     "hv": "THẢO",
+     "nghia": "cỏ"
+    },
+    {
+     "c": "早",
+     "hv": "TẢO",
+     "nghia": "sớm"
+    }
+   ],
+   "tho": [
+    "Cỏ (艹) non sớm (早) mọc ven đường",
+    "Xanh rì chữ THẢO (草), sân trường sau mưa."
+   ],
+   "viet": [
+    "thảo mộc",
+    "thảo nguyên",
+    "dược thảo"
+   ],
+   "similar": [
+    {
+     "c": "早",
+     "note": "TẢO (sớm) — không có 艹."
+    },
+    {
+     "c": "菜",
+     "note": "THÁI (rau) — dưới là 采."
+    }
+   ],
+   "note": "草[くさ] = cỏ; 草取[くさと]り = nhổ cỏ; 草案[そうあん] = bản thảo."
+  },
+  {
+   "id": "k:逃",
+   "char": "逃",
+   "hv": "ĐÀO",
+   "nghia": "chạy trốn",
+   "on": [
+    "トウ"
+   ],
+   "kun": [
+    "に.げる",
+    "に.がす",
+    "のが.す",
+    "のが.れる"
+   ],
+   "strokes": 9,
+   "level": "N3",
+   "groups": [
+    "coban",
+    "antoan"
+   ],
+   "parts": [
+    {
+     "c": "辶",
+     "hv": "SƯỚC",
+     "nghia": "bước đi"
+    },
+    {
+     "c": "兆",
+     "hv": "TRIỆU",
+     "nghia": "triệu"
+    }
+   ],
+   "tho": [
+    "Bước (辶) đi muôn triệu (兆) dặm xa",
+    "Chữ ĐÀO (逃) chạy trốn, bỏ nhà ra đi."
+   ],
+   "viet": [
+    "đào tẩu",
+    "đào thoát",
+    "đào ngũ"
+   ],
+   "similar": [
+    {
+     "c": "兆",
+     "note": "TRIỆU (triệu) — không có 辶."
+    },
+    {
+     "c": "跳",
+     "note": "KHIÊU (nhảy) — bên trái là 足."
+    }
+   ],
+   "note": "逃[に]げる = chạy trốn; 逃[に]げろ！ = chạy đi! (khi khẩn cấp); 逃[のが]す = bỏ lỡ."
+  },
+  {
+   "id": "k:途",
+   "char": "途",
+   "hv": "ĐỒ",
+   "nghia": "đường đi",
+   "on": [
+    "ト"
+   ],
+   "kun": [
+    "みち"
+   ],
+   "strokes": 10,
+   "level": "N3",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "辶",
+     "hv": "SƯỚC",
+     "nghia": "bước đi"
+    },
+    {
+     "c": "余",
+     "hv": "DƯ",
+     "nghia": "dư"
+    }
+   ],
+   "tho": [
+    "Bước (辶) đi dư (余) dặm dọc đường",
+    "Chữ ĐỒ (途) đường lối, vấn vương giữa chừng."
+   ],
+   "viet": [
+    "tiền đồ"
+   ],
+   "similar": [
+    {
+     "c": "除",
+     "note": "TRỪ (bỏ) — 余 với 阝."
+    },
+    {
+     "c": "余",
+     "note": "DƯ (thừa) — không có 辶."
+    }
+   ],
+   "note": "途中[とちゅう] = giữa chừng; 途中[とちゅう]で止[と]めない = đừng dừng giữa chừng; 用途[ようと] = công dụng. Cùng âm ĐỒ với 地図[ちず]."
+  },
+  {
+   "id": "k:互",
+   "char": "互",
+   "hv": "HỖ",
+   "nghia": "lẫn nhau",
+   "on": [
+    "ゴ"
+   ],
+   "kun": [
+    "たが.い",
+    "かたみ.に"
+   ],
+   "strokes": 4,
+   "level": "N3",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "二",
+     "hv": "NHỊ",
+     "nghia": "hai nét ngang"
+    }
+   ],
+   "tho": [
+    "Hai (二) ngang móc ngược ôm nhau",
+    "Giúp nhau chữ HỖ (互), mau mau đỡ đần."
+   ],
+   "viet": [
+    "hỗ trợ",
+    "tương hỗ"
+   ],
+   "similar": [
+    {
+     "c": "五",
+     "note": "NGŨ (năm) — nét giữa khác."
+    }
+   ],
+   "note": "お互[たが]い = lẫn nhau; お互[たが]いに気[き]をつけましょう = cùng chú ý cho nhau; 相互[そうご] = tương hỗ."
+  },
+  {
+   "id": "k:僅",
+   "char": "僅",
+   "hv": "CẬN",
+   "nghia": "ít ỏi, chút",
+   "on": [
+    "キン",
+    "ゴン"
+   ],
+   "kun": [
+    "わず.か"
+   ],
+   "strokes": 12,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "亻",
+     "hv": "NHÂN",
+     "nghia": "người"
+    },
+    {
+     "c": "堇",
+     "hv": "CẦN",
+     "nghia": "đất sét"
+    }
+   ],
+   "tho": [
+    "Người (亻) trên đất (堇) sét chút thôi",
+    "Đôi ba chữ CẬN (僅), mấy hồi còn đâu."
+   ],
+   "viet": [],
+   "similar": [
+    {
+     "c": "勤",
+     "note": "CẦN (chăm) — bên phải là 力."
+    },
+    {
+     "c": "謹",
+     "note": "CẨN (cẩn thận) — bên trái là 言."
+    }
+   ],
+   "note": "僅[わず]か = ít ỏi (thường viết わずか); 僅差[きんさ] = chênh lệch rất ít."
+  },
+  {
+   "id": "k:到",
+   "char": "到",
+   "hv": "ĐÁO",
+   "nghia": "đến nơi",
+   "on": [
+    "トウ"
+   ],
+   "kun": [
+    "いた.る"
+   ],
+   "strokes": 8,
+   "level": "N3",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "至",
+     "hv": "CHÍ",
+     "nghia": "đến"
+    },
+    {
+     "c": "刂",
+     "hv": "ĐAO",
+     "nghia": "dao"
+    }
+   ],
+   "tho": [
+    "Đến (至) nơi dao (刂) cắm mốc đường",
+    "Tàu về chữ ĐÁO (到), muôn phương hẹn hò."
+   ],
+   "viet": [
+    "chu đáo",
+    "đáo hạn"
+   ],
+   "similar": [
+    {
+     "c": "倒",
+     "note": "ĐẢO (ngã) — thêm 亻."
+    },
+    {
+     "c": "致",
+     "note": "TRÍ (gây ra) — bên phải là 攵."
+    }
+   ],
+   "note": "到着[とうちゃく] = tới nơi; 到着予定[とうちゃくよてい] = dự kiến đến; 到底[とうてい]〜ない = không thể nào."
+  },
+  {
+   "id": "k:努",
+   "char": "努",
+   "hv": "NỖ",
+   "nghia": "gắng sức",
+   "on": [
+    "ド"
+   ],
+   "kun": [
+    "つと.める"
+   ],
+   "strokes": 7,
+   "level": "N3",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "奴",
+     "hv": "NÔ",
+     "nghia": "nô tì"
+    },
+    {
+     "c": "力",
+     "hv": "LỰC",
+     "nghia": "sức"
+    }
+   ],
+   "tho": [
+    "Nô (奴) tì ra sức (力) cày bừa",
+    "Gắng công chữ NỖ (努), nắng mưa chẳng sờn."
+   ],
+   "viet": [
+    "nỗ lực"
+   ],
+   "similar": [
+    {
+     "c": "怒",
+     "note": "NỘ (giận) — dưới là 心."
+    },
+    {
+     "c": "助",
+     "note": "TRỢ (giúp) — bên trái là 且."
+    }
+   ],
+   "note": "努力[どりょく] = nỗ lực; 努[つと]める = cố gắng."
+  },
+  {
+   "id": "k:叩",
+   "char": "叩",
+   "hv": "KHẤU",
+   "nghia": "gõ, vỗ",
+   "on": [
+    "コウ"
+   ],
+   "kun": [
+    "たた.く",
+    "はた.く",
+    "すぎ"
+   ],
+   "strokes": 5,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "卩",
+     "hv": "TIẾT",
+     "nghia": "người quỳ"
+    },
+    {
+     "c": "口",
+     "hv": "KHẨU",
+     "nghia": "miệng"
+    }
+   ],
+   "tho": [
+    "Người quỳ (卩) miệng (口) khấn cúi đầu",
+    "Vỗ vai chữ KHẤU (叩), gõ lâu cửa nhà."
+   ],
+   "viet": [
+    "khấu đầu"
+   ],
+   "similar": [
+    {
+     "c": "印",
+     "note": "ẤN (con dấu) — bên trái là 𠂎."
+    },
+    {
+     "c": "卯",
+     "note": "MÃO (chi Mão) — hai bên đều là nét móc."
+    }
+   ],
+   "note": "叩[たた]く = gõ, đập, vỗ (thường viết たたく); ドアを叩[たた]く = gõ cửa; 肩[かた]を叩[たた]く = vỗ vai."
+  },
+  {
+   "id": "k:吠",
+   "char": "吠",
+   "hv": "PHỆ",
+   "nghia": "sủa",
+   "on": [
+    "ハイ",
+    "ベイ"
+   ],
+   "kun": [
+    "ほえ.る",
+    "ほ.える"
+   ],
+   "strokes": 7,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "口",
+     "hv": "KHẨU",
+     "nghia": "miệng"
+    },
+    {
+     "c": "犬",
+     "hv": "KHUYỂN",
+     "nghia": "chó"
+    }
+   ],
+   "tho": [
+    "Miệng (口) con chó (犬) sủa vang làng",
+    "Gâu gâu chữ PHỆ (吠), khách sang giật mình."
+   ],
+   "viet": [],
+   "similar": [
+    {
+     "c": "伏",
+     "note": "PHỤC (nằm phục) — bên trái là 亻."
+    },
+    {
+     "c": "犬",
+     "note": "KHUYỂN (chó) — không có 口."
+    }
+   ],
+   "note": "吠[ほ]える = sủa, gầm (thường viết ほえる); 犬[いぬ]が吠[ほ]える = chó sủa."
+  },
+  {
+   "id": "k:否",
+   "char": "否",
+   "hv": "PHỦ",
+   "nghia": "không; phủ nhận",
+   "on": [
+    "ヒ"
+   ],
+   "kun": [
+    "いな",
+    "いや"
+   ],
+   "strokes": 7,
+   "level": "N3",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "不",
+     "hv": "BẤT",
+     "nghia": "không"
+    },
+    {
+     "c": "口",
+     "hv": "KHẨU",
+     "nghia": "miệng"
+    }
+   ],
+   "tho": [
+    "Không (不) trên, miệng (口) dưới nói không",
+    "Chối từ chữ PHỦ (否), chẳng đồng ý đâu."
+   ],
+   "viet": [
+    "phủ định",
+    "phủ nhận"
+   ],
+   "similar": [
+    {
+     "c": "不",
+     "note": "BẤT (không) — không có 口."
+    },
+    {
+     "c": "杏",
+     "note": "HẠNH (quả mơ) — trên là 木."
+    }
+   ],
+   "note": "否定[ひてい] = phủ định; 拒否[きょひ] = từ chối; 〜か否[いな]か = có … hay không."
+  },
+  {
+   "id": "k:和",
+   "char": "和",
+   "hv": "HÒA",
+   "nghia": "hòa; kiểu Nhật",
+   "on": [
+    "ワ",
+    "オ",
+    "カ"
+   ],
+   "kun": [
+    "やわ.らぐ",
+    "やわ.らげる",
+    "なご.む",
+    "なご.やか",
+    "あ.える"
+   ],
+   "strokes": 8,
+   "level": "N3",
+   "groups": [
+    "coban",
+    "giayto"
+   ],
+   "parts": [
+    {
+     "c": "禾",
+     "hv": "HÒA",
+     "nghia": "lúa"
+    },
+    {
+     "c": "口",
+     "hv": "KHẨU",
+     "nghia": "miệng"
+    }
+   ],
+   "tho": [
+    "Lúa (禾) thơm miệng (口) ấm bữa cơm",
+    "Chữ HÒA (和) êm ấm, mâm đơm cả nhà."
+   ],
+   "viet": [
+    "hòa bình",
+    "hòa hợp",
+    "Đại Hòa"
+   ],
+   "similar": [
+    {
+     "c": "私",
+     "note": "TƯ (tôi) — bên phải là 厶."
+    },
+    {
+     "c": "利",
+     "note": "LỢI (lợi) — bên phải là 刂."
+    }
+   ],
+   "note": "和食[わしょく] = món Nhật; 平和[へいわ] = hòa bình; 令和[れいわ] = niên hiệu Reiwa (trên giấy tờ); 和[あ]える = trộn (rau, gỏi)."
+  },
+  {
+   "id": "k:咳",
+   "char": "咳",
+   "hv": "KHÁI",
+   "nghia": "ho",
+   "on": [
+    "カイ",
+    "ガイ"
+   ],
+   "kun": [
+    "せ.く",
+    "しわぶ.く",
+    "せき",
+    "しわぶき"
+   ],
+   "strokes": 9,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "口",
+     "hv": "KHẨU",
+     "nghia": "miệng"
+    },
+    {
+     "c": "亥",
+     "hv": "HỢI",
+     "nghia": "con heo"
+    }
+   ],
+   "tho": [
+    "Miệng (口) heo (亥) ho mãi không thôi",
+    "Ho khan chữ KHÁI (咳), mấy hồi khàn hơi."
+   ],
+   "viet": [],
+   "similar": [
+    {
+     "c": "刻",
+     "note": "KHẮC (khắc) — bên phải là 刂."
+    },
+    {
+     "c": "核",
+     "note": "HẠCH (hạt nhân) — bên trái là 木."
+    }
+   ],
+   "note": "咳[せき] = ho; 咳[せき]が出[で]る = bị ho; 咳止[せきど]め = thuốc ho."
+  },
+  {
+   "id": "k:喋",
+   "char": "喋",
+   "hv": "ĐIỆP",
+   "nghia": "nói, tán chuyện",
+   "on": [
+    "チョウ",
+    "トウ"
+   ],
+   "kun": [
+    "しゃべ.る",
+    "ついば.む"
+   ],
+   "strokes": 12,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong"
+   ],
+   "parts": [
+    {
+     "c": "口",
+     "hv": "KHẨU",
+     "nghia": "miệng"
+    },
+    {
+     "c": "枼",
+     "hv": "DIỆP",
+     "nghia": "lá cây"
+    }
+   ],
+   "tho": [
+    "Miệng (口) tuôn như lá (枼) rơi mau",
+    "Nói nhiều chữ ĐIỆP (喋), cùng nhau chuyện trò."
+   ],
+   "viet": [],
+   "similar": [
+    {
+     "c": "葉",
+     "note": "DIỆP (lá) — trên là 艹, không có 口."
+    },
+    {
+     "c": "蝶",
+     "note": "ĐIỆP (bướm) — bên trái là 虫."
+    }
+   ],
+   "note": "喋[しゃべ]る = nói chuyện (thường viết しゃべる); お喋[しゃべ]り = tán gẫu; 喋[しゃべ]らないで作業[さぎょう]する = làm việc không nói chuyện."
+  },
+  {
+   "id": "k:嗅",
+   "char": "嗅",
+   "hv": "KHỨU",
+   "nghia": "ngửi",
+   "on": [
+    "キュウ"
+   ],
+   "kun": [
+    "か.ぐ"
+   ],
+   "strokes": 13,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "thuysan"
+   ],
+   "parts": [
+    {
+     "c": "口",
+     "hv": "KHẨU",
+     "nghia": "miệng"
+    },
+    {
+     "c": "臭",
+     "hv": "XÚ",
+     "nghia": "mùi hôi"
+    }
+   ],
+   "tho": [
+    "Miệng (口) kề mùi (臭) lạ hít vào",
+    "Ngửi xem chữ KHỨU (嗅), cá nào tươi ngon."
+   ],
+   "viet": [
+    "khứu giác"
+   ],
+   "similar": [
+    {
+     "c": "臭",
+     "note": "XÚ (hôi) — không có 口."
+    }
+   ],
+   "note": "嗅[か]ぐ = ngửi; 匂[にお]いを嗅[か]ぐ = ngửi mùi (kiểm tra cá); 嗅覚[きゅうかく] = khứu giác."
+  },
+  {
+   "id": "k:噂",
+   "char": "噂",
+   "hv": "TỖN",
+   "nghia": "tin đồn",
+   "on": [
+    "ソン"
+   ],
+   "kun": [
+    "うわさ"
+   ],
+   "strokes": 15,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "口",
+     "hv": "KHẨU",
+     "nghia": "miệng"
+    },
+    {
+     "c": "尊",
+     "hv": "TÔN",
+     "nghia": "người trên"
+    }
+   ],
+   "tho": [
+    "Miệng (口) bàn người cả (尊) gần xa",
+    "Tin đồn chữ TỖN (噂), lan ra khắp làng."
+   ],
+   "viet": [],
+   "similar": [
+    {
+     "c": "尊",
+     "note": "TÔN (tôn kính) — không có 口."
+    },
+    {
+     "c": "遵",
+     "note": "TUÂN (tuân theo) — 尊 với 辶."
+    }
+   ],
+   "note": "噂[うわさ] = tin đồn (thường viết うわさ); 噂話[うわさばなし] = chuyện ngồi lê đôi mách."
+  },
+  {
+   "id": "k:埃",
+   "char": "埃",
+   "hv": "AI",
+   "nghia": "bụi",
+   "on": [
+    "アイ"
+   ],
+   "kun": [
+    "ほこり",
+    "ちり"
+   ],
+   "strokes": 10,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong"
+   ],
+   "parts": [
+    {
+     "c": "土",
+     "hv": "THỔ",
+     "nghia": "đất"
+    },
+    {
+     "c": "矣",
+     "hv": "HĨ",
+     "nghia": "tiếng thở ra"
+    }
+   ],
+   "tho": [
+    "Đất (土) bay tiếng thở (矣) phì phò",
+    "Chữ AI (埃) bụi bặm, lau cho sạch bàn."
+   ],
+   "viet": [],
+   "similar": [
+    {
+     "c": "挨",
+     "note": "AI (chào hỏi) — bên trái là 扌."
+    }
+   ],
+   "note": "埃[ほこり] = bụi (thường viết ほこり); ほこりを払[はら]う = phủi bụi. Cùng âm AI với 挨拶[あいさつ]."
+  },
+  {
+   "id": "k:富",
+   "char": "富",
+   "hv": "PHÚ",
+   "nghia": "giàu",
+   "on": [
+    "フ",
+    "フウ"
+   ],
+   "kun": [
+    "と.む",
+    "とみ"
+   ],
+   "strokes": 12,
+   "level": "N3",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "宀",
+     "hv": "MIÊN",
+     "nghia": "mái nhà"
+    },
+    {
+     "c": "畐",
+     "hv": "PHÚC",
+     "nghia": "đầy ắp"
+    }
+   ],
+   "tho": [
+    "Mái (宀) nhà đầy ắp (畐) lúa vàng",
+    "Giàu sang chữ PHÚ (富), rõ ràng ấm no."
+   ],
+   "viet": [
+    "phú quý",
+    "phong phú",
+    "phú ông"
+   ],
+   "similar": [
+    {
+     "c": "福",
+     "note": "PHÚC (phúc) — bên trái là 礻."
+    },
+    {
+     "c": "副",
+     "note": "PHÓ (phó) — bên phải là 刂."
+    }
+   ],
+   "note": "豊富[ほうふ] = phong phú; 富士山[ふじさん] = núi Phú Sĩ; 富[と]む = giàu có."
+  },
+  {
+   "id": "k:尤",
+   "char": "尤",
+   "hv": "VƯU",
+   "nghia": "hợp lý; nhất là",
+   "on": [
+    "ユウ"
+   ],
+   "kun": [
+    "もっと.も",
+    "とが.める"
+   ],
+   "strokes": 4,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "尢",
+     "hv": "UÔNG",
+     "nghia": "chân què"
+    },
+    {
+     "c": "丶",
+     "hv": "CHỦ",
+     "nghia": "dấu chấm"
+    }
+   ],
+   "tho": [
+    "Chân què (尢) chấm (丶) nhỏ bên trên",
+    "Chữ VƯU (尤) có lý, nói nên thế này."
+   ],
+   "viet": [
+    "vưu vật"
+   ],
+   "similar": [
+    {
+     "c": "犬",
+     "note": "KHUYỂN (chó) — chấm ở góc phải trên."
+    },
+    {
+     "c": "優",
+     "note": "ƯU (ưu) — khác hẳn, có 亻."
+    }
+   ],
+   "note": "尤[もっと]も = đương nhiên, có lý (thường viết もっとも)."
+  },
+  {
+   "id": "k:慌",
+   "char": "慌",
+   "hv": "HOẢNG",
+   "nghia": "cuống, hoảng",
+   "on": [
+    "コウ"
+   ],
+   "kun": [
+    "あわ.てる",
+    "あわ.ただしい"
+   ],
+   "strokes": 12,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong"
+   ],
+   "parts": [
+    {
+     "c": "忄",
+     "hv": "TÂM",
+     "nghia": "lòng"
+    },
+    {
+     "c": "荒",
+     "hv": "HOANG",
+     "nghia": "hoang mang"
+    }
+   ],
+   "tho": [
+    "Lòng (忄) hoang (荒) mang mãi rối bời",
+    "Cuống cuồng chữ HOẢNG (慌), đánh rơi đồ nghề."
+   ],
+   "viet": [
+    "hoảng hốt",
+    "kinh hoảng",
+    "hoảng loạn"
+   ],
+   "similar": [
+    {
+     "c": "荒",
+     "note": "HOANG (hoang) — không có 忄."
+    }
+   ],
+   "note": "慌[あわ]てる = cuống lên; 慌[あわ]てないで = đừng cuống; 慌[あわ]ただしい = tất bật."
+  },
+  {
+   "id": "k:或",
+   "char": "或",
+   "hv": "HOẶC",
+   "nghia": "hoặc; nào đó",
+   "on": [
+    "ワク",
+    "コク",
+    "イキ"
+   ],
+   "kun": [
+    "あ.る",
+    "あるい",
+    "あるいは"
+   ],
+   "strokes": 8,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "戈",
+     "hv": "QUA",
+     "nghia": "cây giáo"
+    },
+    {
+     "c": "口",
+     "hv": "KHẨU",
+     "nghia": "miệng"
+    },
+    {
+     "c": "一",
+     "hv": "NHẤT",
+     "nghia": "mặt đất"
+    }
+   ],
+   "tho": [
+    "Giáo (戈) canh miệng (口) đất một (一) vùng",
+    "Hay là chữ HOẶC (或), chẳng chung một đường."
+   ],
+   "viet": [
+    "hoặc giả"
+   ],
+   "similar": [
+    {
+     "c": "域",
+     "note": "VỰC (khu vực) — thêm 土."
+    },
+    {
+     "c": "惑",
+     "note": "HOẶC (mê hoặc) — thêm 心."
+    }
+   ],
+   "note": "或[あ]る = (một …) nào đó (thường viết ある); 或[ある]いは = hoặc là."
+  },
+  {
+   "id": "k:戚",
+   "char": "戚",
+   "hv": "THÍCH",
+   "nghia": "họ hàng",
+   "on": [
+    "ソク",
+    "セキ"
+   ],
+   "kun": [
+    "いた.む",
+    "うれ.える",
+    "みうち"
+   ],
+   "strokes": 11,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "戊",
+     "hv": "MẬU",
+     "nghia": "cái rìu"
+    },
+    {
+     "c": "尗",
+     "hv": "THÚC",
+     "nghia": "hạt đậu"
+    }
+   ],
+   "tho": [
+    "Rìu (戊) bên đậu (尗) nhỏ trong nhà",
+    "Họ hàng chữ THÍCH (戚), bác cha cô dì."
+   ],
+   "viet": [
+    "thân thích"
+   ],
+   "similar": [
+    {
+     "c": "威",
+     "note": "UY (uy) — bên trong là 女."
+    },
+    {
+     "c": "成",
+     "note": "THÀNH (thành) — bên trong là 丁."
+    }
+   ],
+   "note": "親戚[しんせき] = họ hàng."
+  },
+  {
+   "id": "k:才",
+   "char": "才",
+   "hv": "TÀI",
+   "nghia": "tài; tuổi",
+   "on": [
+    "サイ"
+   ],
+   "kun": [],
+   "strokes": 3,
+   "level": "N3",
+   "groups": [
+    "coban"
+   ],
+   "parts": [],
+   "tho": [
+    "Một ngang, một sổ, phẩy nghiêng",
+    "Chữ TÀI (才) tài giỏi, chăm siêng mỗi ngày."
+   ],
+   "viet": [
+    "tài năng",
+    "thiên tài",
+    "nhân tài"
+   ],
+   "similar": [
+    {
+     "c": "扌",
+     "note": "THỦ (bộ tay) — dùng làm bộ bên trái chữ khác."
+    },
+    {
+     "c": "材",
+     "note": "TÀI (vật liệu) — thêm 木."
+    }
+   ],
+   "note": "才能[さいのう] = tài năng; 〜才[さい] = … tuổi (cách viết đơn giản của 歳[とし]); 天才[てんさい] = thiên tài. Cùng âm TÀI với 財布[さいふ]."
+  },
+  {
+   "id": "k:捲",
+   "char": "捲",
+   "hv": "QUYỂN",
+   "nghia": "lật, cuộn",
+   "on": [
+    "ケン"
+   ],
+   "kun": [
+    "ま.く",
+    "ま.くる",
+    "まく.る",
+    "めく.る",
+    "まく.れる"
+   ],
+   "strokes": 12,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "扌",
+     "hv": "THỦ",
+     "nghia": "tay"
+    },
+    {
+     "c": "卷",
+     "hv": "QUYỂN",
+     "nghia": "cuộn giấy"
+    }
+   ],
+   "tho": [
+    "Tay (扌) cầm cuộn (卷) giấy mở ra",
+    "Lật trang chữ QUYỂN (捲), xem qua lịch tường."
+   ],
+   "viet": [],
+   "similar": [
+    {
+     "c": "巻",
+     "note": "QUYỂN (cuốn) — không có 扌."
+    },
+    {
+     "c": "拳",
+     "note": "QUYỀN (nắm tay) — dưới là 手."
+    }
+   ],
+   "note": "捲[めく]る = lật (trang, lịch) (thường viết めくる); cuộn thì thường viết 巻[ま]く."
+  },
+  {
+   "id": "k:掴",
+   "char": "掴",
+   "hv": "QUẮC",
+   "nghia": "nắm, túm",
+   "on": [
+    "カク"
+   ],
+   "kun": [
+    "つか.む",
+    "つか.まえる",
+    "つか.まる"
+   ],
+   "strokes": 11,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "antoan"
+   ],
+   "parts": [
+    {
+     "c": "扌",
+     "hv": "THỦ",
+     "nghia": "tay"
+    },
+    {
+     "c": "国",
+     "hv": "QUỐC",
+     "nghia": "nước"
+    }
+   ],
+   "tho": [
+    "Tay (扌) ôm cả nước (国) vào lòng",
+    "Nắm tay chữ QUẮC (掴), giữ xong mới rời."
+   ],
+   "viet": [],
+   "similar": [
+    {
+     "c": "国",
+     "note": "QUỐC (nước) — không có 扌."
+    }
+   ],
+   "note": "掴[つか]む = túm, nắm (thường viết つかむ); 手[て]すりを掴[つか]む = vịn tay vịn."
+  },
+  {
+   "id": "k:掻",
+   "char": "掻",
+   "hv": "TAO",
+   "nghia": "gãi, cào",
+   "on": [
+    "ソウ"
+   ],
+   "kun": [
+    "か.く"
+   ],
+   "strokes": 11,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "扌",
+     "hv": "THỦ",
+     "nghia": "tay"
+    },
+    {
+     "c": "虫",
+     "hv": "TRÙNG",
+     "nghia": "con bọ"
+    }
+   ],
+   "tho": [
+    "Tay (扌) cào con bọ (虫) cắn lưng",
+    "Chữ TAO (掻) gãi ngứa, chẳng ngừng đôi tay."
+   ],
+   "viet": [],
+   "similar": [
+    {
+     "c": "騒",
+     "note": "TAO (ồn ào) — bên trái là 馬."
+    }
+   ],
+   "note": "掻[か]く = gãi (thường viết かく); 頭[あたま]を掻[か]く = gãi đầu."
+  },
+  {
+   "id": "k:撒",
+   "char": "撒",
+   "hv": "TÁT",
+   "nghia": "rắc, tưới",
+   "on": [
+    "サン",
+    "サツ"
+   ],
+   "kun": [
+    "ま.く"
+   ],
+   "strokes": 15,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong"
+   ],
+   "parts": [
+    {
+     "c": "扌",
+     "hv": "THỦ",
+     "nghia": "tay"
+    },
+    {
+     "c": "散",
+     "hv": "TÁN",
+     "nghia": "tản ra"
+    }
+   ],
+   "tho": [
+    "Tay (扌) tung rải (散) khắp sân nhà",
+    "Rắc đều chữ TÁT (撒), muối qua mặt đường."
+   ],
+   "viet": [],
+   "similar": [
+    {
+     "c": "散",
+     "note": "TÁN (tản) — không có 扌."
+    },
+    {
+     "c": "撤",
+     "note": "TRIỆT (rút đi) — bên phải là 育 + 攵."
+    }
+   ],
+   "note": "撒[ま]く = rắc, tưới (thường viết まく); 水[みず]を撒[ま]く = tưới nước; 塩[しお]を撒[ま]く = rắc muối."
+  },
+  {
+   "id": "k:昧",
+   "char": "昧",
+   "hv": "MUỘI",
+   "nghia": "tối, mờ",
+   "on": [
+    "マイ",
+    "バイ"
+   ],
+   "kun": [
+    "くら.い",
+    "むさぼ.る"
+   ],
+   "strokes": 9,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "日",
+     "hv": "NHẬT",
+     "nghia": "mặt trời"
+    },
+    {
+     "c": "未",
+     "hv": "VỊ",
+     "nghia": "chưa"
+    }
+   ],
+   "tho": [
+    "Mặt trời (日) chưa (未) mọc tối mờ",
+    "Tối tăm chữ MUỘI (昧), ngẩn ngơ chưa tường."
+   ],
+   "viet": [
+    "ngu muội",
+    "mông muội"
+   ],
+   "similar": [
+    {
+     "c": "味",
+     "note": "VỊ (vị) — bên trái là 口."
+    },
+    {
+     "c": "妹",
+     "note": "MUỘI (em gái) — bên trái là 女."
+    }
+   ],
+   "note": "Gặp trong 曖昧[あいまい] = mập mờ, không rõ ràng; 曖昧[あいまい]な返事[へんじ] = câu trả lời mập mờ."
+  },
+  {
+   "id": "k:曖",
+   "char": "曖",
+   "hv": "ÁI",
+   "nghia": "mờ mịt",
+   "on": [
+    "アイ"
+   ],
+   "kun": [
+    "くら.い"
+   ],
+   "strokes": 17,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "日",
+     "hv": "NHẬT",
+     "nghia": "mặt trời"
+    },
+    {
+     "c": "愛",
+     "hv": "ÁI",
+     "nghia": "yêu"
+    }
+   ],
+   "tho": [
+    "Mặt trời (日) yêu (愛) dấu nấp mây",
+    "Mờ mờ chữ ÁI (曖), đó đây chẳng tường."
+   ],
+   "viet": [],
+   "similar": [
+    {
+     "c": "愛",
+     "note": "ÁI (yêu) — không có 日."
+    },
+    {
+     "c": "暖",
+     "note": "NOÃN (ấm) — bên phải là 爰."
+    }
+   ],
+   "note": "Chỉ gặp trong 曖昧[あいまい] = mập mờ."
+  },
+  {
+   "id": "k:椒",
+   "char": "椒",
+   "hv": "TIÊU",
+   "nghia": "cây tiêu",
+   "on": [
+    "ショウ"
+   ],
+   "kun": [
+    "はじかみ"
+   ],
+   "strokes": 12,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "thuysan"
+   ],
+   "parts": [
+    {
+     "c": "木",
+     "hv": "MỘC",
+     "nghia": "cây"
+    },
+    {
+     "c": "叔",
+     "hv": "THÚC",
+     "nghia": "chú"
+    }
+   ],
+   "tho": [
+    "Cây (木) bên chú (叔) hái hạt cay",
+    "Chữ TIÊU (椒) tiêu bột, rắc ngay canh nồng."
+   ],
+   "viet": [
+    "hồ tiêu"
+   ],
+   "similar": [
+    {
+     "c": "叔",
+     "note": "THÚC (chú) — không có 木."
+    },
+    {
+     "c": "淑",
+     "note": "THỤC (hiền thục) — bên trái là 氵."
+    }
+   ],
+   "note": "胡椒[こしょう] = hạt tiêu (thường viết コショウ); 山椒[さんしょう] = tiêu Nhật."
+  },
+  {
+   "id": "k:権",
+   "char": "権",
+   "hv": "QUYỀN",
+   "nghia": "quyền",
+   "on": [
+    "ケン",
+    "ゴン"
+   ],
+   "kun": [
+    "おもり",
+    "かり",
+    "はか.る"
+   ],
+   "strokes": 15,
+   "level": "N3",
+   "groups": [
+    "coban",
+    "giayto"
+   ],
+   "parts": [
+    {
+     "c": "木",
+     "hv": "MỘC",
+     "nghia": "cây"
+    },
+    {
+     "c": "隹",
+     "hv": "CHUY",
+     "nghia": "chim"
+    }
+   ],
+   "tho": [
+    "Cây (木) cao chim (隹) đậu ngó trông",
+    "Chữ QUYỀN (権) quyền lợi, làm công được phần."
+   ],
+   "viet": [
+    "quyền lợi",
+    "chính quyền",
+    "nhân quyền"
+   ],
+   "similar": [
+    {
+     "c": "観",
+     "note": "QUAN (xem) — bên phải là 見."
+    },
+    {
+     "c": "勧",
+     "note": "KHUYẾN (khuyên) — bên phải là 力."
+    }
+   ],
+   "note": "権利[けんり] = quyền lợi; 有給休暇[ゆうきゅうきゅうか]の権利[けんり] = quyền nghỉ phép có lương; 権限[けんげん] = quyền hạn."
+  }
+ ]
+}

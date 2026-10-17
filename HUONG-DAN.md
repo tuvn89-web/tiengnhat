@@ -492,3 +492,10 @@ Nhân vật dùng lại từ N5; thêm bà chủ nhà (大家[おおや]さん) 
 - Kho hiện có **469 thẻ chữ Hán**; còn khoảng **870 chữ** (phần còn lại của N3, rồi N2, N1).
 - Ghi chú ưu tiên chữ gặp ở xưởng và giấy tờ: 安全靴[あんぜんぐつ], 危険予知[きけんよち], 指差[ゆびさ]し確認[かくにん], 転倒[てんとう]注意[ちゅうい], 急速冷凍[きゅうそくれいとう], 骨抜[ほねぬ]き, 内容量[ないようりょう], 原材料[げんざいりょう], 消費期限[しょうひきげん], 在留[ざいりゅう]カード, 更新[こうしん], 控除[こうじょ], 確定申告[かくていしんこく]…
 - Bản này **chỉ có dữ liệu**, không đổi mã app.
+
+## 34. Cập nhật dữ liệu v25 (18/10/2026): thêm 210 thẻ chữ Hán (N3 và chữ hay gặp)
+
+- Thêm 7 gói `chuhan-17` … `chuhan-23` (210 chữ): tiếp phần N3 — 的, 置, 落, 資, 勝, 反, 払, 程, 迎, 際, 判, 完, 求, 種, 職, 責, 類, 窓, 箱, 説, 守, 寒, 規, 談, 薬, 与, 忘, 打, 探, 背, 殺, 港, 髪, 念, 慣, 戻, 配, 処, 揃, 溜, 破, 突, 逃, 途, 到, 和, 権, 路…
+- Có thêm các chữ **không thuộc danh sách JLPT nhưng hay gặp** ở xưởng và đời sống, người Nhật thường viết bằng kana: 蓋[ふた], 貼[は]る, 整頓[せいとん], 石鹸[せっけん], 牡蠣[かき], 叩[たた]く, 掴[つか]む, 撒[ま]く, 茹[ゆ]でる, 炒[いた]める, 紐[ひも], 袖[そで]… Các thẻ này ghi cấp N1 (chữ khó), học để đọc được khi gặp.
+- Kho hiện có **679 thẻ chữ Hán**; còn khoảng **660 chữ**.
+- Bản này **chỉ có dữ liệu**. Gói cập nhật tính theo kho GitHub hiện tại, nên **đã gồm luôn v24**; nếu chưa đưa v24 lên thì chỉ cần dùng gói v25.
