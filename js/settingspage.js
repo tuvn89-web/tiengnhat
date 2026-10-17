@@ -3,6 +3,8 @@ import { S, saveSettings, resetSettings } from './settings.js';
 import { jaVoices, speak, ttsReady, pickVoice } from './tts.js';
 import { chips, bindChips, readChip, field } from './ui.js';
 import { SCRIPTS } from './quiz.js';
+import { paceFieldsHTML, bindPaceFields, readPace } from './roadmap.js';
+import { setPrefs } from './data.js';
 
 export function renderSettings(view, ctx) {
   const voices = jaVoices();
@@ -43,6 +45,12 @@ export function renderSettings(view, ctx) {
       <label class="check"><input type="checkbox" name="romaji" ${S.romaji ? 'checked' : ''}> Ô gõ tiếng Nhật: gõ romaji tự đổi sang kana (kakareru → かかれる; chữ IN HOA → katakana)</label>
     </section>
 
+    <section class="card" data-pace>
+      <h2 class="h2">Nhịp học mỗi ngày</h2>
+      <p class="muted small">Dùng cho "Kế hoạch hôm nay" và dự báo ngày học xong. Phần này đồng bộ giữa các máy.</p>
+      ${paceFieldsHTML()}
+    </section>
+
     <section class="card">
       <h2 class="h2">Giọng đọc</h2>
       ${voices.length ? field('Giọng tiếng Nhật', `<select class="input" name="voice"><option value="">Tự chọn (ưu tiên giọng cài trong máy)</option>${voices.map(v => `<option value="${esc(v.name)}" ${v.name === S.voice ? 'selected' : ''}>${esc(v.name)}${v.localService ? '' : ' — cần mạng'}</option>`).join('')}</select>`)
@@ -65,18 +73,22 @@ export function renderSettings(view, ctx) {
 
   const save = () => saveSettings();
   bindChips(view, name => {
+    if (name === 'minsq') return; // nút phút nhanh: phần Nhịp học tự lo
     const v = readChip(view, name);
     S[name] = ['qCount', 'matchRounds', 'autoNext'].includes(name) ? +v : v;
     save();
   });
   view.addEventListener('input', e => {
     const el = e.target;
-    if (!el.name) return;
+    if (!el.name || el.closest('.pace')) return;
     if (el.type === 'range') S[el.name] = +el.value;
     else if (el.type === 'checkbox') S[el.name] = el.checked;
     else S[el.name] = el.value;
     save();
   });
+  const paceBox = view.querySelector('[data-pace]');
+  let paceT = 0;
+  bindPaceFields(paceBox, () => { clearTimeout(paceT); paceT = setTimeout(() => setPrefs(readPace(paceBox)), 400); });
   view.querySelector('[data-act=test]').onclick = () => { if (!speak('作業の前に手を洗ってください。')) toast('Máy chưa có giọng đọc tiếng Nhật.'); };
   view.querySelector('[data-act=upd]').onclick = async e => {
     const b = e.currentTarget; b.disabled = true;

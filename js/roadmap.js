@@ -10,10 +10,69 @@ import { mixedDue } from './practice.js';
 import { allLessons, lessonsOf, currentLesson, lessonCardHTML, lessonListHTML, lessonState, dueReviews, reviewDue, isDone, STEPS } from './lesson.js';
 
 export const GOALS = [['N5', 'N5'], ['N4', 'N4'], ['N3', 'N3 · 特定技能2号'], ['N2', 'N2']];
-const MINS = [[10, '10 phút'], [20, '20 phút'], [40, '40 phút']];
 const START = [['zero', 'Chưa biết chữ nào'], ['kana', 'Đã biết kana'], ['n5', 'Khoảng N5'], ['n4', 'Khoảng N4']];
-// Nhịp học theo số phút mỗi ngày: từ mới / mẫu ngữ pháp / chữ Hán mỗi ngày
-const PACE = { 10: { v: 5, g: 1 / 3, k: 2 }, 20: { v: 10, g: 0.5, k: 3 }, 40: { v: 20, g: 1, k: 5 } };
+// Nhịp học (v22): số phút mỗi ngày tự nhập (5–180). Từ mới / chữ Hán mỗi ngày: tự nhập, hoặc tự động theo số phút.
+// Đây là MỤC TIÊU cho Kế hoạch hôm nay, không phải giới hạn — học thêm lúc nào cũng được.
+// Bảng mốc [phút, từ mới, mẫu ngữ pháp, chữ Hán]; số phút ở giữa hai mốc thì nội suy.
+const PACE_PTS = [[5, 3, 0.25, 1], [10, 5, 1 / 3, 2], [20, 10, 0.5, 3], [40, 20, 1, 5], [60, 30, 1, 7], [180, 90, 2, 15]];
+const clampN = (x, lo, hi) => Math.min(hi, Math.max(lo, x));
+export function autoPace(m) {
+  m = clampN(m, 5, 180);
+  for (let i = 1; i < PACE_PTS.length; i++) {
+    const [m0, v0, g0, k0] = PACE_PTS[i - 1], [m1, v1, g1, k1] = PACE_PTS[i];
+    if (m <= m1) { const t = (m - m0) / (m1 - m0); return { v: Math.round(v0 + t * (v1 - v0)), g: g0 + t * (g1 - g0), k: Math.round(k0 + t * (k1 - k0)) }; }
+  }
+  return { v: 90, g: 2, k: 15 };
+}
+// nhịp đang dùng: v từ mới, g mẫu ngữ pháp, k chữ Hán mỗi ngày
+export function pace() {
+  const a = autoPace(mins()), p = D.prefs;
+  return { v: Number.isFinite(p.nw) ? p.nw : a.v, g: a.g, k: Number.isFinite(p.nk) ? p.nk : a.k };
+}
+const QUICK_MINS = [10, 20, 40, 60];
+// Ô nhập nhịp học — dùng ở màn Bắt đầu và trang Cài đặt
+export function paceFieldsHTML() {
+  const p = D.prefs, m = mins(), a = autoPace(m);
+  const num = (name, val, min, max, unit, off) => `<span class="num-row"><input class="input num" type="number" inputmode="numeric" name="${name}" min="${min}" max="${max}" step="1" value="${val}" ${off ? 'disabled' : ''} aria-label="${unit}"> <span>${unit}</span></span>`;
+  const own = k => Number.isFinite(p[k]);
+  return `<div class="pace">
+    <fieldset><legend>Mỗi ngày học bao lâu</legend>${num('mins', m, 5, 180, 'phút')}
+      ${chips('minsq', QUICK_MINS.map(q => [String(q), `${q} phút`]), QUICK_MINS.includes(m) ? String(m) : [], false).replace('data-multi="0"', 'data-multi="0" data-free="1"')}</fieldset>
+    <fieldset><legend>Số từ mới mỗi ngày</legend>
+      <label class="check"><input type="checkbox" name="nwAuto" ${own('nw') ? '' : 'checked'}> Tự động theo số phút (<b class="nw-a">${a.v}</b> từ)</label>
+      ${num('nw', own('nw') ? p.nw : a.v, 0, 100, 'từ', !own('nw'))}</fieldset>
+    <fieldset><legend>Số chữ Hán mới mỗi ngày</legend>
+      <label class="check"><input type="checkbox" name="nkAuto" ${own('nk') ? '' : 'checked'}> Tự động theo số phút (<b class="nk-a">${a.k}</b> chữ)</label>
+      ${num('nk', own('nk') ? p.nk : a.k, 0, 30, 'chữ', !own('nk'))}</fieldset>
+    <p class="small muted">Đây là mục tiêu để "Kế hoạch hôm nay" đánh dấu ✓ khi học đủ, không phải giới hạn — muốn học thêm lúc nào cũng được.</p>
+  </div>`;
+}
+export function readPace(root) {
+  const q = s => root.querySelector(s);
+  const m = clampN(Math.round(+q('[name=mins]').value || 20), 5, 180);
+  const rd = (n, max) => q(`[name=${n}Auto]`).checked ? null : clampN(Math.round(+q(`[name=${n}]`).value || 0), 0, max);
+  return { mins: m, nw: rd('nw', 100), nk: rd('nk', 30) };
+}
+export function bindPaceFields(root, onChange) {
+  const q = s => root.querySelector(s);
+  const upd = () => {
+    const m = clampN(Math.round(+q('[name=mins]').value || 20), 5, 180), a = autoPace(m);
+    q('.nw-a').textContent = a.v; q('.nk-a').textContent = a.k;
+    for (const [n, k] of [['nw', 'v'], ['nk', 'k']]) {
+      const auto = q(`[name=${n}Auto]`).checked, inp = q(`[name=${n}]`);
+      inp.disabled = auto; if (auto) inp.value = a[k];
+    }
+    root.querySelectorAll('.chips[data-name="minsq"] .chip').forEach(c => c.setAttribute('aria-pressed', +c.dataset.v === m));
+  };
+  root.addEventListener('click', e => {
+    const c = e.target.closest('.chips[data-name="minsq"] .chip');
+    if (!c) return;
+    q('[name=mins]').value = c.dataset.v; upd(); onChange?.();
+  });
+  root.addEventListener('input', e => { if (e.target.closest('.pace')) { upd(); onChange?.(); } });
+  root.addEventListener('change', e => { if (e.target.closest('.pace') && e.target.type === 'number') { e.target.value = readPace(root)[e.target.name] ?? e.target.value; upd(); onChange?.(); } });
+  upd();
+}
 // Lượng cần biết của từng cấp (ước tính theo lộ trình skill; kho có nhiều hơn thì lấy theo kho)
 const TARGET = { vocab: { N5: 700, N4: 700, N3: 1500, N2: 2500, N1: 3000 }, grammar: { N5: 44, N4: 67, N3: 105, N2: 150, N1: 150 }, kanji: { N5: 100, N4: 200, N3: 350, N2: 350, N1: 1000 } };
 export const goal = () => D.prefs.goal || 'N3';
@@ -26,7 +85,7 @@ export function renderStart(view, ctx) {
     <p class="muted">Ba câu hỏi để app xếp kế hoạch mỗi ngày và lộ trình cho bạn. Đổi lại lúc nào cũng được.</p>
     <form class="setup" onsubmit="return false">
       <fieldset><legend>Mục tiêu</legend>${chips('goal', GOALS, p.goal || 'N3', false)}</fieldset>
-      <fieldset><legend>Mỗi ngày học bao lâu</legend>${chips('mins', MINS.map(([m, l]) => [String(m), l]), String(p.mins || 20), false)}</fieldset>
+      ${paceFieldsHTML()}
       <fieldset><legend>Hiện đang ở đâu</legend>${chips('start', START, p.start || 'kana', false)}</fieldset>
       <p class="setup-count small"></p>
       <button class="btn btn-primary btn-block" data-act="save">Lưu và xem lộ trình</button>
@@ -34,10 +93,10 @@ export function renderStart(view, ctx) {
   const f = view.querySelector('.setup');
   const hint = { zero: 'App sẽ mở Chặng 0 — Kana: học bảng hiragana và katakana trước.', kana: 'Bắt đầu từ chặng N5. Có thể làm Xếp lớp nhanh để bỏ qua phần đã biết.', n5: 'Nên làm Xếp lớp nhanh (10–15 phút): phần đã biết sẽ được đánh dấu, khỏi học lại.', n4: 'Nên làm Xếp lớp nhanh (10–15 phút): phần đã biết sẽ được đánh dấu, khỏi học lại.' };
   const upd = () => { f.querySelector('.setup-count').textContent = hint[readChip(f, 'start')] || ''; };
-  bindChips(f, upd); upd();
+  bindChips(f, upd); bindPaceFields(f); upd();
   f.querySelector('[data-act=save]').onclick = async () => {
     const start = readChip(f, 'start');
-    await setPrefs({ goal: readChip(f, 'goal'), mins: +readChip(f, 'mins'), start, onboard: Date.now(), ...(start !== 'zero' ? { kanaOK: true } : {}) });
+    await setPrefs({ goal: readChip(f, 'goal'), ...readPace(f), start, onboard: Date.now(), ...(start !== 'zero' ? { kanaOK: true } : {}) });
     ctx.sessionDone?.();
     ctx.go(start === 'zero' ? '#/kana' : start === 'kana' ? '#/lotrinh' : '#/trinhdo');
   };
@@ -169,18 +228,19 @@ export function forecast() {
   }
   if (!rem.vocab && !rem.grammar && !rem.kanji) return `Đã học hết khối lượng ${esc(G)} — làm Thi vượt cấp ${esc(G)} để qua chặng.`;
   // nhịp thật 14 ngày qua (nếu có), không thì theo số phút đã chọn
-  const t0 = startOfDay() - 13 * DAY, plan = PACE[mins()] || PACE[20];
+  const t0 = startOfDay() - 13 * DAY, plan = pace();
   const real = { vocab: learnedSinceT(D.vocab, t0) / 14, grammar: learnedSinceT(D.grammar, t0) / 14, kanji: learnedSinceT(D.kanji, t0) / 14 };
   const useReal = real.vocab >= 1;
-  const pace = { vocab: useReal ? real.vocab : plan.v, grammar: useReal && real.grammar > 0 ? real.grammar : plan.g, kanji: useReal && real.kanji > 0 ? real.kanji : plan.k };
-  const days = Math.ceil(Math.max(rem.vocab / pace.vocab, rem.grammar / pace.grammar, rem.kanji / pace.kanji));
+  const pc = { vocab: useReal ? real.vocab : plan.v, grammar: useReal && real.grammar > 0 ? real.grammar : plan.g, kanji: useReal && real.kanji > 0 ? real.kanji : plan.k };
+  if ((rem.vocab && !pc.vocab) || (rem.kanji && !pc.kanji)) return `Đang đặt 0 ${!pc.vocab ? 'từ mới' : 'chữ Hán'} mỗi ngày nên chưa dự báo được ngày học xong ${esc(G)}. Còn khoảng ${rem.vocab} từ, ${rem.grammar} mẫu ngữ pháp, ${rem.kanji} chữ Hán (ước tính).`;
+  const days = Math.ceil(Math.max(rem.vocab / (pc.vocab || 1), rem.grammar / pc.grammar, rem.kanji / (pc.kanji || 1)));
   const d = new Date(Date.now() + days * DAY);
   const when = days < 45 ? `khoảng ${days} ngày nữa` : `khoảng tháng ${d.getMonth() + 1}/${d.getFullYear()}`;
-  return `${useReal ? `Giữ nhịp 14 ngày qua (khoảng ${Math.round(pace.vocab)} từ mới/ngày)` : `Học ${mins()} phút mỗi ngày (khoảng ${plan.v} từ mới/ngày)`}, bạn học hết khối lượng ${esc(G)} ${when}. Còn khoảng ${rem.vocab} từ, ${rem.grammar} mẫu ngữ pháp, ${rem.kanji} chữ Hán (ước tính).`;
+  return `${useReal ? `Giữ nhịp 14 ngày qua (khoảng ${Math.round(pc.vocab)} từ mới/ngày)` : `Học ${mins()} phút mỗi ngày (khoảng ${plan.v} từ mới/ngày)`}, bạn học hết khối lượng ${esc(G)} ${when}. Còn khoảng ${rem.vocab} từ, ${rem.grammar} mẫu ngữ pháp, ${rem.kanji} chữ Hán (ước tính).`;
 }
 // Danh sách việc hôm nay, theo số phút đã chọn
 export function planToday() {
-  const m = mins(), plan = PACE[m] || PACE[20];
+  const m = mins(), plan = pace();
   const sod = startOfDay();
   const md = mixedDue(), nDue = md.vocab.length + md.kanji.length + md.grammar.length + md.sent.length;
   const newV = learnedSinceT(D.vocab, sod), newG = learnedSinceT(D.grammar, sod), newK = learnedSinceT(D.kanji, sod);
@@ -202,7 +262,7 @@ export function planToday() {
   if (cl) { const s = lessonState(cl), nx = s.next >= 0 ? s.next : 7, did = actToday('lesson'); out.push({ done: did > 0, label: `Bài ${cl.n}: ${plain(cl.title)}`, sub: `${s.nDone}/8 bước${did ? ` · hôm nay đã làm ${did} lượt` : ''} · tiếp: ${STEPS[nx][1]}`, href: `#/bai/${encodeURIComponent(cl.id)}?b=${nx + 1}`, btn: 'Học' }); }
   const hasNewV = D.vocab.some(it => status(it) === 'new');
   const lnew = cl && cl.words.some(id => { const it = D.items.get(id); return it && status(it) === 'new'; });
-  if (hasNewV) out.push({ done: newV >= plan.v, label: `Học ${plan.v} từ mới`, sub: `Hôm nay đã học ${newV}${lnew ? ` · từ của bài ${cl.n}` : ''}`, href: lnew ? `#/bai/${encodeURIComponent(cl.id)}/hoc` : '#/moi', btn: 'Học' });
+  if (hasNewV && plan.v > 0) out.push({ done: newV >= plan.v, label: `Học ${plan.v} từ mới`, sub: `Hôm nay đã học ${newV}${lnew ? ` · từ của bài ${cl.n}` : ''}`, href: lnew ? `#/bai/${encodeURIComponent(cl.id)}/hoc` : '#/moi', btn: 'Học' });
   // mẫu mới: ưu tiên mẫu của bài đang học
   const g = (cl ? cl.grammar.map(id => D.items.get(id)).filter(x => x && status(x) === 'new') : [])[0] || D.grammar.filter(x => status(x) === 'new').sort((a, b) => LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level))[0];
   if (wantG && g) out.push({ done: newG >= 1, label: '1 mẫu ngữ pháp mới', sub: newG ? 'Đã học hôm nay' : plain(g.pattern), href: `#/nguphap/${encodeURIComponent(g.id)}`, btn: 'Học' });
@@ -214,7 +274,7 @@ export function planToday() {
   }
   const hasNewK = D.kanji.some(k => status(k) === 'new');
   const lk = cl && cl.kanji.some(c => { const k = D.kanjiByChar.get(c); return k && status(k) === 'new'; });
-  if (hasNewK) out.push({ done: newK >= plan.k, label: `${plan.k} chữ Hán`, sub: `Hôm nay đã học ${newK}${lk ? ` · chữ của bài ${cl.n}` : ''}`, href: lk ? `#/bai/${encodeURIComponent(cl.id)}?b=3` : '#/chuhan/moi', btn: 'Học' });
+  if (hasNewK && plan.k > 0) out.push({ done: newK >= plan.k, label: `${plan.k} chữ Hán`, sub: `Hôm nay đã học ${newK}${lk ? ` · chữ của bài ${cl.n}` : ''}`, href: lk ? `#/bai/${encodeURIComponent(cl.id)}?b=3` : '#/chuhan/moi', btn: 'Học' });
   return out;
 }
 export function planHTML() {

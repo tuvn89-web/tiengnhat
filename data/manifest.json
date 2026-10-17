@@ -64,8 +64,8 @@
     "jlpt"
    ],
    "count": 35,
-   "version": 3,
-   "hash": "da0065d1f3"
+   "version": 4,
+   "hash": "5b6847b7d1"
   },
   {
    "id": "jlpt-n3-05",
@@ -155,8 +155,8 @@
     "jlpt"
    ],
    "count": 54,
-   "version": 2,
-   "hash": "9648309969"
+   "version": 3,
+   "hash": "814480638c"
   },
   {
    "id": "jlpt-n3-12",
@@ -701,8 +701,8 @@
     "jlpt"
    ],
    "count": 21,
-   "version": 3,
-   "hash": "a764043b16"
+   "version": 4,
+   "hash": "19ed8bbf6a"
   },
   {
    "id": "jlpt-n4-10",
@@ -847,8 +847,8 @@
     "jlpt"
    ],
    "count": 20,
-   "version": 2,
-   "hash": "9473aa6898"
+   "version": 3,
+   "hash": "90cedd5e3e"
   },
   {
    "id": "jlpt-n5-01",
@@ -977,8 +977,8 @@
     "jlpt"
    ],
    "count": 40,
-   "version": 4,
-   "hash": "61cc9133f7"
+   "version": 5,
+   "hash": "2f737032e6"
   },
   {
    "id": "jlpt-n5-11",
@@ -1108,8 +1108,8 @@
     "thuysan"
    ],
    "count": 31,
-   "version": 5,
-   "hash": "48adcd15ad"
+   "version": 6,
+   "hash": "6cd07924a0"
   },
   {
    "id": "thuysan-03",
@@ -1126,6 +1126,19 @@
    "hash": "cba3bc7527"
   },
   {
+   "id": "thuysan-04",
+   "file": "thuysan-04.json",
+   "title": "Thủy sản 04 – Cách cắt, phần cá, cân & kiểm tra hàng",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "thuysan"
+   ],
+   "count": 30,
+   "version": 1,
+   "hash": "7b1f66a992"
+  },
+  {
    "id": "tuongthanh-01",
    "file": "tuongthanh-01.json",
    "title": "Tượng thanh, tượng hình 01 – Cảm giác khi làm cá và đời sống",
@@ -1137,8 +1150,8 @@
     "doisong"
    ],
    "count": 22,
-   "version": 1,
-   "hash": "6a8df9643b"
+   "version": 2,
+   "hash": "81b0da5df1"
   },
   {
    "id": "xuong-01",
@@ -1163,8 +1176,47 @@
     "xuong"
    ],
    "count": 37,
-   "version": 2,
-   "hash": "7aa6179c76"
+   "version": 3,
+   "hash": "81905dcef7"
+  },
+  {
+   "id": "xuong-03",
+   "file": "xuong-03.json",
+   "title": "Công xưởng 03 – Đồ đựng, xe đẩy, dụng cụ vệ sinh & dao",
+   "type": "vocab",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "count": 36,
+   "version": 1,
+   "hash": "dc846dec76"
+  },
+  {
+   "id": "xuong-04",
+   "file": "xuong-04.json",
+   "title": "Công xưởng 04 – Bảo hộ, đồ dùng chung, điện & thao tác dọn dẹp",
+   "type": "vocab",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "count": 36,
+   "version": 1,
+   "hash": "75325e2902"
+  },
+  {
+   "id": "xuong-05",
+   "file": "xuong-05.json",
+   "title": "Công xưởng 05 – Động từ, tính từ & từ tượng thanh khi làm việc",
+   "type": "vocab",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "count": 43,
+   "version": 1,
+   "hash": "46f991ac7b"
   },
   {
    "id": "nguphap-n3-01",
@@ -2194,6 +2246,97 @@
    "count": 25,
    "version": 1,
    "hash": "c5c6fe428d"
+  },
+  {
+   "id": "chuhan-03",
+   "file": "chuhan-03.json",
+   "title": "Chữ Hán 03 – Chữ N5 (1)",
+   "type": "kanji",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 30,
+   "version": 1,
+   "hash": "b5eba4a1f7"
+  },
+  {
+   "id": "chuhan-04",
+   "file": "chuhan-04.json",
+   "title": "Chữ Hán 04 – Chữ N5 (2)",
+   "type": "kanji",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 30,
+   "version": 1,
+   "hash": "2e8fd75483"
+  },
+  {
+   "id": "chuhan-05",
+   "file": "chuhan-05.json",
+   "title": "Chữ Hán 05 – Chữ N4 (1)",
+   "type": "kanji",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 30,
+   "version": 1,
+   "hash": "1092e51674"
+  },
+  {
+   "id": "chuhan-06",
+   "file": "chuhan-06.json",
+   "title": "Chữ Hán 06 – Chữ N4 (2)",
+   "type": "kanji",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 30,
+   "version": 1,
+   "hash": "f923b518e4"
+  },
+  {
+   "id": "chuhan-07",
+   "file": "chuhan-07.json",
+   "title": "Chữ Hán 07 – Chữ N4 (3)",
+   "type": "kanji",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 30,
+   "version": 1,
+   "hash": "d8adb39e2f"
+  },
+  {
+   "id": "chuhan-08",
+   "file": "chuhan-08.json",
+   "title": "Chữ Hán 08 – Chữ N4 (4)",
+   "type": "kanji",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 30,
+   "version": 1,
+   "hash": "e9014d8a54"
+  },
+  {
+   "id": "chuhan-09",
+   "file": "chuhan-09.json",
+   "title": "Chữ Hán 09 – Chữ N4 (5)",
+   "type": "kanji",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 30,
+   "version": 1,
+   "hash": "11060811b4"
   },
   {
    "id": "baihoc-n3",

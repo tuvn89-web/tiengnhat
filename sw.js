@@ -1,6 +1,6 @@
 // Service worker: chạy offline.
 // Sửa bất kỳ file nào của app (html/css/js) thì TĂNG số phiên bản dưới đây để máy tải bản mới.
-const VERSION = 'tnt-v20';
+const VERSION = 'tnt-v22';
 const DATA = 'tnt-data';
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest', 'css/app.css',

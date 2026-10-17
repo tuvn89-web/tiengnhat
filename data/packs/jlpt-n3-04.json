@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 3,
+  "version": 4,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -879,7 +879,7 @@
    "kanji": "割る",
    "kf": "割[わ]る",
    "hv": "CÁT",
-   "vi": "làm vỡ, đập vỡ; chia (phép chia)",
+   "vi": "làm vỡ, đập vỡ; chia (phép chia); xẻ, bổ đôi (cá)",
    "pos": "v5",
    "level": "N3",
    "vt": "tha",
@@ -903,6 +903,11 @@
      "jp": "十[じゅう]を二[に]で割[わ]ると、五[ご]になる。",
      "vi": "Mười chia hai được năm.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]の頭[あたま]を、二[ふた]つに割[わ]ります。",
+     "vi": "Bổ đôi đầu cá.",
+     "ctx": "xuong"
     }
    ],
    "coll": [
@@ -913,12 +918,17 @@
     {
      "jp": "皿[さら]を割[わ]る",
      "vi": "làm vỡ đĩa"
+    },
+    {
+     "jp": "頭[あたま]を割[わ]る",
+     "vi": "bổ đôi đầu cá"
     }
    ],
    "pair": {
     "w": "割[わ]れる",
     "vi": "bị vỡ"
-   }
+   },
+   "note": "Ở xưởng: 割[わ]る = xẻ, bổ đôi cá. Tách khối cá đông dính nhau thì nói ばらす."
   },
   {
    "id": "v:分ける:わける",

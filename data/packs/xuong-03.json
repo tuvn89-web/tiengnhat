@@ -1,0 +1,1114 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "xuong-03",
+  "title": "Công xưởng 03 – Đồ đựng, xe đẩy, dụng cụ vệ sinh & dao",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Từ hay nghe và dùng ở xưởng chế biến thủy sản. Phần lớn là từ chuyên ngành, cấp chỉ là ước lượng. Cách gọi tắt ở xưởng ghi trong ghi chú."
+ },
+ "items": [
+  {
+   "id": "v:かご:かご",
+   "kana": "かご",
+   "kanji": "",
+   "hv": "",
+   "vi": "rổ, giỏ nhựa có lỗ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Đồ đựng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "切[き]った魚[さかな]は、このかごに入[い]れてください。",
+     "vi": "Cá đã cắt hãy cho vào rổ này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "かごを三[みっ]つ、重[かさ]ねて持[も]ってきて。",
+     "vi": "Chồng ba cái rổ mang lại đây.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:トレー:トレー",
+    "v:バケツ:バケツ"
+   ],
+   "ctr": "個",
+   "note": "Chữ Hán: 籠[かご] (ít dùng). Ở xưởng hay viết カゴ."
+  },
+  {
+   "id": "v:トレー:トレー",
+   "kana": "トレー",
+   "kanji": "",
+   "hv": "",
+   "vi": "khay",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Đồ đựng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "刺身[さしみ]を、トレーにきれいに並[なら]べます。",
+     "vi": "Xếp sashimi đẹp lên khay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "トレーを五枚[ごまい]、洗[あら]っておいて。",
+     "vi": "Rửa sẵn năm cái khay nhé.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "枚",
+   "goc": "tray (tiếng Anh)",
+   "note": "Cũng viết トレイ."
+  },
+  {
+   "id": "v:バケツ:バケツ",
+   "kana": "バケツ",
+   "kanji": "",
+   "hv": "",
+   "vi": "xô",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Đồ đựng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "バケツに水[みず]を入[い]れてください。",
+     "vi": "Hãy cho nước vào xô.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "氷[こおり]をバケツに一杯[いっぱい]、持[も]ってきて。",
+     "vi": "Mang lại một xô đá đầy.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "個",
+   "goc": "bucket (tiếng Anh)"
+  },
+  {
+   "id": "v:発泡スチロール:はっぽうスチロール",
+   "kana": "はっぽうスチロール",
+   "kanji": "発泡スチロール",
+   "kf": "発泡[はっぽう]スチロール",
+   "hv": "PHÁT PHAO",
+   "vi": "xốp (thùng xốp)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Đồ đựng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "発泡[はっぽう]スチロールの箱[はこ]に、氷[こおり]を入[い]れます。",
+     "vi": "Cho đá vào thùng xốp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "発泡[はっぽう]スチロールの箱[はこ]は、重[かさ]ねて置[お]いてください。",
+     "vi": "Thùng xốp hãy xếp chồng lên.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "個",
+   "goc": "Styrol (tiếng Đức)",
+   "note": "Thùng xốp: 発泡[はっぽう]スチロールの箱[はこ]."
+  },
+  {
+   "id": "v:段ボール:だんボール",
+   "kana": "だんボール",
+   "kanji": "段ボール",
+   "kf": "段[だん]ボール",
+   "hv": "ĐOẠN",
+   "vi": "thùng các-tông, bìa các-tông",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Đồ đựng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "段[だん]ボールを組[く]み立[た]ててください。",
+     "vi": "Hãy gấp dựng thùng các-tông.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "空[あ]いた段[だん]ボールは、畳[たた]んで捨[す]てます。",
+     "vi": "Thùng các-tông rỗng thì gấp lại rồi bỏ.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "個"
+  },
+  {
+   "id": "v:蓋:ふた",
+   "kana": "ふた",
+   "kanji": "蓋",
+   "hv": "CÁI",
+   "vi": "nắp",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Đồ đựng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "バケツに蓋[ふた]をしてください。",
+     "vi": "Hãy đậy nắp xô lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "蓋[ふた]が開[あ]いたままですよ。",
+     "vi": "Nắp vẫn đang mở đấy.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "蓋[ふた]をする",
+     "vi": "đậy nắp"
+    },
+    {
+     "jp": "蓋[ふた]を開[あ]ける",
+     "vi": "mở nắp"
+    }
+   ],
+   "note": "Hay viết kana: ふた."
+  },
+  {
+   "id": "v:ポリ袋:ポリぶくろ",
+   "kana": "ポリぶくろ",
+   "kanji": "ポリ袋",
+   "kf": "ポリ袋[ぶくろ]",
+   "hv": "ĐẠI",
+   "vi": "túi ni-lông",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Đồ đựng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "アラはポリ袋[ぶくろ]に入[い]れて、口[くち]を縛[しば]ってください。",
+     "vi": "Vụn cá cho vào túi ni-lông rồi buộc miệng lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ポリ袋[ぶくろ]が足[た]りないので、持[も]ってきてください。",
+     "vi": "Thiếu túi ni-lông, mang lại giúp.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "枚",
+   "note": "ポリ = ポリエチレン (polyethylene). Còn gọi ビニール袋[ぶくろ]."
+  },
+  {
+   "id": "v:台車:だいしゃ",
+   "kana": "だいしゃ",
+   "kanji": "台車",
+   "hv": "ĐÀI XA",
+   "vi": "xe đẩy hàng (sàn phẳng, 4 bánh)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Xe đẩy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]を台車[だいしゃ]に載[の]せて、運[はこ]んでください。",
+     "vi": "Chất thùng lên xe đẩy rồi chở đi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台車[だいしゃ]、通[とお]ります！",
+     "vi": "Xe đẩy đi qua đây!",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:カゴ台車:かごだいしゃ",
+    "v:ハンドリフト:ハンドリフト"
+   ],
+   "ctr": "台"
+  },
+  {
+   "id": "v:カゴ台車:かごだいしゃ",
+   "kana": "かごだいしゃ",
+   "kanji": "カゴ台車",
+   "kf": "カゴ台車[だいしゃ]",
+   "hv": "ĐÀI XA",
+   "vi": "xe lồng chở hàng",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Xe đẩy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "出荷[しゅっか]する箱[はこ]を、カゴ台車[だいしゃ]に積[つ]みます。",
+     "vi": "Chất các thùng xuất hàng lên xe lồng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "カゴ台車[だいしゃ]の扉[とびら]を、ちゃんと閉[し]めてね。",
+     "vi": "Đóng cửa xe lồng cẩn thận nhé.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:台車:だいしゃ"
+   ],
+   "ctr": "台",
+   "note": "Còn gọi カゴ車[しゃ] hoặc ロールボックスパレット."
+  },
+  {
+   "id": "v:ハンドリフト:ハンドリフト",
+   "kana": "ハンドリフト",
+   "kanji": "",
+   "hv": "",
+   "vi": "xe nâng tay (kéo pallet)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Xe đẩy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ハンドで、パレットを運[はこ]んでください。",
+     "vi": "Dùng xe nâng tay chở pallet đi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ハンドリフトのレバーを下[さ]げると、パレットが下[さ]がります。",
+     "vi": "Hạ cần xe nâng tay thì pallet hạ xuống.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:フォークリフト:フォークリフト"
+   ],
+   "ctr": "台",
+   "goc": "hand + lift (tiếng Anh ghép; tiếng Anh gọi pallet jack)",
+   "wasei": true,
+   "note": "Ở xưởng gọi tắt: ハンド. Còn gọi ハンドパレット, hoặc theo tên hãng: ビシャモン."
+  },
+  {
+   "id": "v:フォークリフト:フォークリフト",
+   "kana": "フォークリフト",
+   "kanji": "",
+   "hv": "",
+   "vi": "xe nâng (chạy điện, xăng)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Xe đẩy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "フォークリフトが通[とお]るので、気[き]をつけて。",
+     "vi": "Xe nâng đi qua, cẩn thận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "フォークリフトは、資格[しかく]がないと運転[うんてん]できません。",
+     "vi": "Không có chứng chỉ thì không được lái xe nâng.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:ハンドリフト:ハンドリフト"
+   ],
+   "ctr": "台",
+   "goc": "forklift (tiếng Anh)"
+  },
+  {
+   "id": "v:パレット:パレット",
+   "kana": "パレット",
+   "kanji": "",
+   "hv": "",
+   "vi": "pallet (tấm kê hàng)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Xe đẩy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]をパレットの上[うえ]に積[つ]みます。",
+     "vi": "Chất thùng lên pallet.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "空[あ]いたパレットは、外[そと]に出[だ]しておいて。",
+     "vi": "Pallet trống thì để sẵn ra ngoài.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "枚",
+   "goc": "pallet (tiếng Anh)",
+   "note": "Cùng cách viết với パレット (bảng pha màu vẽ tranh)."
+  },
+  {
+   "id": "v:ストッパー:ストッパー",
+   "kana": "ストッパー",
+   "kanji": "",
+   "hv": "",
+   "vi": "chốt hãm bánh xe",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Xe đẩy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台車[だいしゃ]を止[と]めたら、ストッパーをかけてください。",
+     "vi": "Dừng xe đẩy thì gài chốt hãm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ストッパーが外[はず]れていて、台車[だいしゃ]が動[うご]いた。",
+     "vi": "Chốt hãm bị nhả nên xe đẩy trôi đi.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ストッパーをかける",
+     "vi": "gài chốt hãm"
+    }
+   ],
+   "goc": "stopper (tiếng Anh)"
+  },
+  {
+   "id": "v:脚立:きゃたつ",
+   "kana": "きゃたつ",
+   "kanji": "脚立",
+   "hv": "CƯỚC LẬP",
+   "vi": "thang chữ A",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Dụng cụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "脚立[きゃたつ]に乗[の]る時[とき]は、下[した]で押[お]さえてもらいます。",
+     "vi": "Khi trèo thang chữ A thì nhờ người giữ phía dưới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "脚立[きゃたつ]を使[つか]って、蛍光灯[けいこうとう]を替[か]えました。",
+     "vi": "Dùng thang chữ A để thay đèn huỳnh quang.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "台"
+  },
+  {
+   "id": "v:鉄砲:てっぽう",
+   "kana": "てっぽう",
+   "kanji": "鉄砲",
+   "hv": "THIẾT PHÁO",
+   "vi": "súng xịt nước (đầu vòi, tiếng lóng xưởng)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Rửa – vệ sinh",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "鉄砲[てっぽう]で、床[ゆか]の汚[よご]れを流[なが]してください。",
+     "vi": "Dùng súng xịt xả sạch bẩn trên sàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "鉄砲[てっぽう]の水[みず]を、人[ひと]に向[む]けないで。",
+     "vi": "Đừng chĩa nước súng xịt vào người.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Nghĩa gốc: khẩu súng. Ở xưởng gọi cái súng xịt cầm tay gắn ở đầu ống nước là 鉄砲[てっぽう]."
+  },
+  {
+   "id": "v:ホース:ホース",
+   "kana": "ホース",
+   "kanji": "",
+   "hv": "",
+   "vi": "ống nước (ống mềm)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Rửa – vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ホースを巻[ま]いて、片付[かたづ]けてください。",
+     "vi": "Cuộn ống nước lại rồi cất đi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ホースが床[ゆか]にあると、つまずきますよ。",
+     "vi": "Ống nước để dưới sàn là vấp đấy.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "本",
+   "goc": "hoos (tiếng Hà Lan)"
+  },
+  {
+   "id": "v:蛇口:じゃぐち",
+   "kana": "じゃぐち",
+   "kanji": "蛇口",
+   "hv": "XÀ KHẨU",
+   "vi": "vòi nước (van mở nước)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Rửa – vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "使[つか]った後[あと]は、蛇口[じゃぐち]をしっかり閉[し]めてください。",
+     "vi": "Dùng xong hãy khóa vòi nước thật chặt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "蛇口[じゃぐち]から、水[みず]が漏[も]れています。",
+     "vi": "Nước rỉ ra từ vòi.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "蛇口[じゃぐち]をひねる",
+     "vi": "vặn vòi nước"
+    }
+   ]
+  },
+  {
+   "id": "v:スポンジ:スポンジ",
+   "kana": "スポンジ",
+   "kanji": "",
+   "hv": "",
+   "vi": "miếng mút rửa",
+   "pos": "n",
+   "level": "N4",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Rửa – vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "スポンジに洗剤[せんざい]をつけて、トレーを洗[あら]います。",
+     "vi": "Cho nước rửa vào mút rồi rửa khay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "古[ふる]いスポンジは、新[あたら]しいのに替[か]えてください。",
+     "vi": "Mút cũ thì thay cái mới.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "個",
+   "goc": "sponge (tiếng Anh)"
+  },
+  {
+   "id": "v:水切り:みずきり",
+   "kana": "みずきり",
+   "kanji": "水切り",
+   "kf": "水切[みずき]り",
+   "hv": "THỦY THIẾT",
+   "vi": "cây gạt nước trên sàn",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Rửa – vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "掃除[そうじ]の最後[さいご]に、水切[みずき]りで床[ゆか]の水[みず]を集[あつ]めます。",
+     "vi": "Cuối buổi dọn, dùng cây gạt gom nước trên sàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "水切[みずき]りで、水[みず]を排水[はいすい]溝[こう]に流[なが]してください。",
+     "vi": "Dùng cây gạt đẩy nước xuống rãnh.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "本",
+   "note": "Còn nghĩa \"làm ráo nước\" (水[みず]を切[き]る). Tên khác: スクイージー."
+  },
+  {
+   "id": "v:モップ:モップ",
+   "kana": "モップ",
+   "kanji": "",
+   "hv": "",
+   "vi": "cây lau nhà",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Rửa – vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "モップで、床[ゆか]を拭[ふ]いてください。",
+     "vi": "Lau sàn bằng cây lau.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "使[つか]ったモップは、よく絞[しぼ]って干[ほ]します。",
+     "vi": "Cây lau đã dùng thì vắt kỹ rồi phơi.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "本",
+   "goc": "mop (tiếng Anh)"
+  },
+  {
+   "id": "v:ほうき:ほうき",
+   "kana": "ほうき",
+   "kanji": "",
+   "hv": "",
+   "vi": "cái chổi",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Rửa – vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ほうきで、ゴミを集[あつ]めます。",
+     "vi": "Gom rác bằng chổi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ほうきとちりとりを、持[も]ってきて。",
+     "vi": "Mang chổi với hốt rác lại đây.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "本",
+   "note": "Chữ Hán: 箒[ほうき] (ít dùng)."
+  },
+  {
+   "id": "v:ちりとり:ちりとり",
+   "kana": "ちりとり",
+   "kanji": "",
+   "hv": "",
+   "vi": "cái hốt rác",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Rửa – vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ちりとりで、ゴミを取[と]ってください。",
+     "vi": "Hốt rác bằng cái hốt rác.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ちりとりは、ほうきの横[よこ]にあります。",
+     "vi": "Cái hốt rác ở cạnh chổi.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "個",
+   "note": "Chữ Hán: 塵取[ちりと]り (ít dùng)."
+  },
+  {
+   "id": "v:排水溝:はいすいこう",
+   "kana": "はいすいこう",
+   "kanji": "排水溝",
+   "hv": "BÀI THỦY CÂU",
+   "vi": "rãnh thoát nước, cống",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Rửa – vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "排水[はいすい]溝[こう]に、魚[さかな]のアラを流[なが]さないでください。",
+     "vi": "Đừng xả vụn cá xuống rãnh thoát nước.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "排水[はいすい]溝[こう]のふたを外[はず]して、掃除[そうじ]します。",
+     "vi": "Tháo nắp rãnh ra rồi vệ sinh.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:次亜塩素酸:じあえんそさん",
+   "kana": "じあえんそさん",
+   "kanji": "次亜塩素酸",
+   "hv": "THỨ Á DIÊM TỐ TOAN",
+   "vi": "chất khử trùng gốc clo (nước javel)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Rửa – vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "次亜[じあ]で、まな板[いた]を消毒[しょうどく]します。",
+     "vi": "Khử trùng thớt bằng javel.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "次亜[じあ]塩素酸[えんそさん]を使[つか]う時[とき]は、手袋[てぶくろ]をしてください。",
+     "vi": "Khi dùng javel hãy đeo găng tay.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Tên đầy đủ: 次亜塩素酸[じあえんそさん]ナトリウム. Ở xưởng gọi tắt: 次亜[じあ]. Không trộn với chất tẩy có axit vì sinh khí độc (混[ま]ぜるな危険[きけん])."
+  },
+  {
+   "id": "v:粘着ローラー:ねんちゃくローラー",
+   "kana": "ねんちゃくローラー",
+   "kanji": "粘着ローラー",
+   "kf": "粘着[ねんちゃく]ローラー",
+   "hv": "NIÊM TRƯỚC",
+   "vi": "cây lăn bụi (dính tóc, bụi trên áo)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Rửa – vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]に入[はい]る前[まえ]に、ローラーをかけてください。",
+     "vi": "Trước khi vào xưởng, lăn cây lăn bụi lên người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "粘着[ねんちゃく]ローラーで、服[ふく]についた髪[かみ]の毛[け]を取[と]ります。",
+     "vi": "Dùng cây lăn bụi lấy tóc dính trên áo.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ローラーをかける",
+     "vi": "lăn cây lăn bụi"
+    }
+   ],
+   "ctr": "本",
+   "note": "Ở xưởng gọi tắt: ローラー. Còn gọi コロコロ."
+  },
+  {
+   "id": "v:エアシャワー:エアシャワー",
+   "kana": "エアシャワー",
+   "kanji": "",
+   "hv": "",
+   "vi": "buồng thổi khí (trước khi vào xưởng)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Rửa – vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "エアシャワーをしっかり浴[あ]びてから、中[なか]に入[はい]ります。",
+     "vi": "Qua buồng thổi khí kỹ rồi mới vào trong.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "エアシャワーで、ほこりを落[お]とします。",
+     "vi": "Thổi sạch bụi ở buồng thổi khí.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "エアシャワーを浴[あ]びる",
+     "vi": "qua buồng thổi khí"
+    }
+   ],
+   "goc": "air shower (tiếng Anh)"
+  },
+  {
+   "id": "v:手洗い場:てあらいば",
+   "kana": "てあらいば",
+   "kanji": "手洗い場",
+   "kf": "手洗[てあら]い場[ば]",
+   "hv": "THỦ TẨY TRƯỜNG",
+   "vi": "chỗ rửa tay",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Rửa – vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手洗[てあら]い場[ば]で、よく手[て]を洗[あら]ってください。",
+     "vi": "Hãy rửa tay kỹ ở chỗ rửa tay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "手洗[てあら]い場[ば]の石鹸[せっけん]が、なくなりました。",
+     "vi": "Xà phòng ở chỗ rửa tay hết rồi.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:出刃包丁:でばぼうちょう",
+   "kana": "でばぼうちょう",
+   "kanji": "出刃包丁",
+   "hv": "XUẤT NHẬN BAO ĐINH",
+   "vi": "dao phay (mổ, chặt cá)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Dao",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "出刃包丁[でばぼうちょう]で、魚[さかな]の頭[あたま]を落[お]とします。",
+     "vi": "Chặt đầu cá bằng dao phay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "出刃包丁[でばぼうちょう]は重[おも]いので、気[き]をつけて使[つか]ってね。",
+     "vi": "Dao phay nặng nên dùng cẩn thận nhé.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:柳刃包丁:やなぎばぼうちょう"
+   ],
+   "rel": [
+    "v:包丁:ほうちょう"
+   ],
+   "ctr": "本",
+   "note": "Ở xưởng thường chỉ gọi 包丁[ほうちょう]."
+  },
+  {
+   "id": "v:柳刃包丁:やなぎばぼうちょう",
+   "kana": "やなぎばぼうちょう",
+   "kanji": "柳刃包丁",
+   "hv": "LIỄU NHẬN BAO ĐINH",
+   "vi": "dao thái sashimi (lưỡi dài, mảnh)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Dao",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "刺身[さしみ]は、柳[やなぎ]刃[じん]包丁[ほうちょう]で引[ひ]いて切[き]ります。",
+     "vi": "Sashimi thì thái bằng dao sashimi, kéo dao về.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "柳[やなぎ]刃[じん]包丁[ほうちょう]は、刃[は]が長[なが]くて細[ほそ]いです。",
+     "vi": "Dao sashimi có lưỡi dài và mảnh.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:出刃包丁:でばぼうちょう"
+   ],
+   "ctr": "本",
+   "note": "Còn gọi 刺身包丁[さしみぼうちょう]."
+  },
+  {
+   "id": "v:砥石:といし",
+   "kana": "といし",
+   "kanji": "砥石",
+   "hv": "CHỈ THẠCH",
+   "vi": "đá mài dao",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Dao",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "砥石[といし]を、水[みず]につけておきます。",
+     "vi": "Ngâm sẵn đá mài vào nước.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "仕事[しごと]の後[あと]、砥石[といし]で包丁[ほうちょう]を研[と]ぎます。",
+     "vi": "Sau giờ làm, mài dao bằng đá mài.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:研ぐ:とぐ"
+   ],
+   "ctr": "個"
+  },
+  {
+   "id": "v:研ぐ:とぐ",
+   "kana": "とぐ",
+   "kanji": "研ぐ",
+   "kf": "研[と]ぐ",
+   "hv": "NGHIÊN",
+   "vi": "mài (dao); vo (gạo)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Dao",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "切[き]れない包丁[ほうちょう]は、研[と]いでください。",
+     "vi": "Dao cùn thì hãy mài đi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "毎朝[まいあさ]、包丁[ほうちょう]を研[と]いでから作業[さぎょう]します。",
+     "vi": "Sáng nào cũng mài dao rồi mới làm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ご飯[はん]を炊[た]く前[まえ]に、米[こめ]を研[と]ぎます。",
+     "vi": "Trước khi nấu cơm thì vo gạo.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "包丁[ほうちょう]を研[と]ぐ",
+     "vi": "mài dao"
+    },
+    {
+     "jp": "米[こめ]を研[と]ぐ",
+     "vi": "vo gạo"
+    }
+   ],
+   "rel": [
+    "v:砥石:といし"
+   ]
+  },
+  {
+   "id": "v:秤:はかり",
+   "kana": "はかり",
+   "kanji": "秤",
+   "hv": "XỨNG",
+   "vi": "cái cân",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Cân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "秤[はかり]に、トレーを載[の]せてください。",
+     "vi": "Đặt khay lên cân.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "秤[はかり]の数字[すうじ]が、ゼロになっているか確認[かくにん]します。",
+     "vi": "Kiểm tra số trên cân đã về 0 chưa.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "台",
+   "note": "Hay viết kana: はかり. Cân điện tử: デジタルはかり."
+  },
+  {
+   "id": "v:台秤:だいばかり",
+   "kana": "だいばかり",
+   "kanji": "台秤",
+   "hv": "ĐÀI XỨNG",
+   "vi": "cân bàn (cân hàng nặng)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Cân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]ごと、台秤[だいばかり]で重[おも]さを量[はか]ります。",
+     "vi": "Cân cả thùng bằng cân bàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台秤[だいばかり]の上[うえ]に、物[もの]を置[お]きっぱなしにしないで。",
+     "vi": "Đừng để đồ nằm mãi trên cân bàn.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:秤:はかり"
+   ],
+   "ctr": "台"
+  },
+  {
+   "id": "v:防寒着:ぼうかんぎ",
+   "kana": "ぼうかんぎ",
+   "kanji": "防寒着",
+   "hv": "PHÒNG HÀN TRƯỚC",
+   "vi": "áo chống rét (mặc vào kho lạnh)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Bảo hộ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冷凍庫[れいとうこ]に入[はい]る時[とき]は、防寒着[ぼうかんぎ]を着[き]てください。",
+     "vi": "Vào kho đông thì mặc áo chống rét.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "防寒着[ぼうかんぎ]は、入口[いりぐち]の横[よこ]に掛[か]けてあります。",
+     "vi": "Áo chống rét treo cạnh cửa vào.",
+     "ctx": "xuong"
+    }
+   ],
+   "ctr": "着"
+  },
+  {
+   "id": "v:軍手:ぐんて",
+   "kana": "ぐんて",
+   "kanji": "軍手",
+   "hv": "QUÂN THỦ",
+   "vi": "găng tay vải (sợi)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Bảo hộ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]を運[はこ]ぶ時[とき]は、軍手[ぐんて]をしてください。",
+     "vi": "Khi bê thùng hãy đeo găng tay vải.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "魚[さかな]を触[さわ]る時[とき]は、軍手[ぐんて]ではなくゴム手袋[てぶくろ]です。",
+     "vi": "Khi chạm vào cá thì đeo găng cao su, không phải găng vải.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:手袋:てぶくろ"
+   ]
+  },
+  {
+   "id": "v:ゴーグル:ゴーグル",
+   "kana": "ゴーグル",
+   "kanji": "",
+   "hv": "",
+   "vi": "kính bảo hộ",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Bảo hộ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "次亜[じあ]を使[つか]う時[とき]は、ゴーグルをかけてください。",
+     "vi": "Khi dùng javel hãy đeo kính bảo hộ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "水[みず]が目[め]に入[はい]らないように、ゴーグルをします。",
+     "vi": "Đeo kính để nước không bắn vào mắt.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ゴーグルをかける",
+     "vi": "đeo kính bảo hộ"
+    }
+   ],
+   "syn": [
+    "v:保護メガネ:ほごメガネ"
+   ],
+   "goc": "goggles (tiếng Anh)"
+  }
+ ]
+}

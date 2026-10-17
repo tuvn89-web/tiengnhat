@@ -459,3 +459,29 @@ Nhân vật dùng lại từ N5; thêm bà chủ nhà (大家[おおや]さん) 
   - *máy đang mất mạng* → mở app lại khi có mạng;
   - *máy chủ báo lỗi …* → GitHub tạm trục trặc, thử lại sau ít phút;
   - *bị hỏng* → tệp trên kho không đọc được, tải lại tệp đó.
+
+## 30. Cập nhật dữ liệu 18/10/2026: từ vựng công xưởng & thủy sản
+
+- 4 gói từ mới (145 từ), toàn bộ là từ hay nghe ở xưởng chế biến thủy sản:
+  - `xuong-03` *Đồ đựng, xe đẩy, dụng cụ vệ sinh & dao* (36 từ): かご, トレー, 台車, カゴ台車, ハンドリフト (gọi tắt ハンド), 鉄砲, 水切り, 次亜 (次亜塩素酸), ローラー (粘着ローラー), 出刃包丁, 砥石…
+  - `xuong-04` *Bảo hộ, đồ dùng chung, điện & thao tác dọn dẹp* (36 từ): マスク, ヘアネット, 前掛け, 布巾, ガムテープ (gọi tắt テープ), ゴムマット (gọi tắt マット), 錆びる, 詰まる, 漏れる, 絞る, 干す…
+  - `xuong-05` *Động từ, tính từ & từ tượng thanh khi làm việc* (43 từ): すすぐ, 積み重ねる, 崩れる, 剥がす, 傷む, 薄い / 厚い, 生臭い, ぬるい, びしょびしょ, がたがた, ぐらぐら…
+  - `thuysan-04` *Cách cắt, phần cá, cân & kiểm tra hàng* (30 từ): 斜め切り, そぎ切り, 押し切り / 引き切り, アラ, アラ桶, ばらす, 目方, 誤差, 異物, 毛髪, 身割れ, 変色, 雑…
+- Bổ sung nghĩa và câu ví dụ ở xưởng cho 8 từ đã có (giữ nguyên tiến độ học): エプロン (tạp dề cao su), 入る (まだ入る / もう入らない / 入った！), ちょうだい, オーバー (dư cân), 割る (bổ đôi cá), 三枚おろし, ぎりぎり, 丁寧.
+
+## 31. Bản v22 (18/10/2026): thông báo không che nút, tự đặt nhịp học, thêm thẻ chữ Hán
+
+- **Thông báo không che bất kỳ nút nào** (nút đáp án, thanh nút Tiếp / Đã thuộc, thanh điều hướng, nút ✕ trên đầu…). App tự tìm chỗ trống để đặt thông báo; chật quá thì thu gọn thành một dòng nhỏ; màn hình kín nút thì thông báo nằm vào cuối trang (vẫn cuộn tới mọi nút được). Câu hỏi mới hiện ra, cuộn hay xoay máy thì thông báo tự dời chỗ.
+- Mỗi thông báo hiện **4 giây** và có **nút ✕** để đóng ngay.
+- **Tự đặt nhịp học mỗi ngày** — ở màn *Bắt đầu* (Lộ trình → Đổi) và ở **Cài đặt → Nhịp học mỗi ngày**:
+  - **Số phút mỗi ngày**: gõ từ 5 đến 180 phút, hoặc bấm nhanh 10 / 20 / 40 / 60 phút.
+  - **Số từ mới mỗi ngày** (0–100) và **số chữ Hán mới mỗi ngày** (0–30): để "Tự động theo số phút" hoặc bỏ dấu chọn rồi gõ số mình muốn. Đặt 0 thì Kế hoạch hôm nay không nhắc mục đó.
+  - Đây là **mục tiêu** để Kế hoạch hôm nay đánh dấu ✓, không phải giới hạn — học thêm lúc nào cũng được. Dự báo ngày học xong cũng tính theo các số này. Phần này đồng bộ giữa các máy.
+- **Thẻ chữ Hán**: thêm 60 thẻ (`chuhan-03`, `chuhan-04`) cho các chữ N5 hay gặp nhất (気, 行, 金, 時, 水, 国, 電, 話…). Mỗi thẻ có âm Hán Việt, nghĩa, âm On/Kun, số nét, bộ phận, câu lục bát nhớ mặt chữ, từ Hán Việt quen thuộc, chữ dễ nhầm và ghi chú. Các thẻ còn lại (khoảng 1.230 chữ) sẽ có ở các bản sau.
+
+## 32. Cập nhật dữ liệu v23 (18/10/2026): thêm 150 thẻ chữ Hán
+
+- Thêm 5 gói thẻ chữ Hán `chuhan-05` … `chuhan-09` (150 chữ): xong phần N5 còn thiếu và đi tiếp phần N4 — 鍵, 切, 重, 品, 急, 意, 料, 止, 安, 台, 運, 住, 注, 特, 質, 研, 帰, 試, 験, 使, 開, 濡, 挨拶, 味噌…
+- Kho hiện có **259 thẻ chữ Hán**; còn khoảng **1.080 chữ** sẽ làm tiếp theo thứ tự N4 → N3 → N2 → N1, mỗi đợt khoảng 150 chữ.
+- Ghi chú trong thẻ ưu tiên từ gặp ở xưởng, nhãn hàng và giấy tờ: 注意[ちゅうい], 立入禁止[たちいりきんし], 飲食禁止[いんしょくきんし], 品質管理[ひんしつかんり], 開封後[かいふうご], 収入印紙[しゅうにゅういんし], 住民票[じゅうみんひょう]の写[うつ]し…
+- Bản này **chỉ có dữ liệu**, không đổi mã app. Nếu chưa cập nhật v21, v22 thì gói cập nhật này đã gồm luôn các tệp của hai bản đó.

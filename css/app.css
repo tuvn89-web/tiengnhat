@@ -376,6 +376,17 @@ input[type="range"] { width: 100%; accent-color: var(--blue); }
 .toast { pointer-events: auto; display: flex; align-items: center; gap: 12px; max-width: 520px; background: var(--ink); color: var(--bg); padding: 10px 14px; border-radius: 10px; }
 .toast .btn { color: var(--bg); border-color: currentColor; background: none; min-height: 36px; }
 @media (min-width: 900px) { .toasts { bottom: 24px; left: 226px; } }
+/* v22: nút ✕ đóng thông báo; dạng thu gọn khi màn hình hết chỗ trống (không đè nút nào) */
+.toast { gap: 10px; }
+.toast .toast-t { flex: 1 1 auto; min-width: 0; }
+.toast .toast-a { white-space: nowrap; flex: none; }
+.toast .toast-x { flex: none; width: 36px; height: 36px; border: 0; border-radius: 8px; background: none; color: inherit; font-size: 1.05em; cursor: pointer; opacity: .85; }
+.toast .toast-x:hover, .toast .toast-x:focus-visible { opacity: 1; background: color-mix(in srgb, var(--bg) 18%, transparent); }
+.toasts.toast-compact { justify-items: end; }
+.toasts.toast-compact .toast { max-width: min(300px, 78vw); padding: 4px 6px 4px 12px; font-size: .86em; }
+.toasts.toast-compact .toast .toast-t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.toasts.toast-compact .toast .btn { min-height: 30px; padding: 2px 8px; }
+.toasts.toast-compact .toast .toast-x { width: 30px; height: 30px; }
 .empty { text-align: center; padding: 32px 8px; color: var(--ink-2); }
 .empty .btn { margin-top: 8px; }
 
@@ -795,3 +806,13 @@ span.xw-b { cursor: default; }
 .hrt-tabs .tab[aria-selected="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 0 var(--line); }
 .hrt-dirs { margin: 0 0 12px; }
 .hrt-hint { margin: 0 0 10px; }
+
+/* v22: nhịp học tự nhập (phút / từ mới / chữ Hán mỗi ngày) */
+.pace fieldset { margin-bottom: 12px; }
+.pace .num-row { display: inline-flex; align-items: center; gap: 8px; margin: 4px 12px 8px 0; }
+.pace .input.num { width: 6.5em; text-align: center; font-size: 1.05em; }
+.pace .input.num:disabled { opacity: .55; }
+.pace .chips { margin-top: 2px; }
+.toast-dock { position: sticky; z-index: 6; display: grid; gap: 8px; justify-items: center; padding: 6px 12px; pointer-events: none; }
+.toast-dock .toast { pointer-events: auto; }
+@media (min-width: 900px) { .toast-dock { margin-left: 214px; } }
