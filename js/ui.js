@@ -7,6 +7,8 @@ import { speak, ttsReady } from './tts.js';
 // ---- nhóm chip (chọn một hoặc nhiều) ----
 export function chips(name, opts, selected, multi = true) {
   const sel = new Set([].concat(selected ?? []));
+  // chọn một: giá trị đã lưu không còn trong danh sách (vd. nguồn cũ đã bỏ) → chọn mục đầu
+  if (!multi && opts.length && !opts.some(([v]) => sel.has(v))) { sel.clear(); sel.add(opts[0][0]); }
   return `<div class="chips" role="group" data-name="${name}" data-multi="${multi ? 1 : 0}">` +
     opts.map(([v, label, extra, html]) => `<button type="button" class="chip" data-v="${esc(v)}" aria-pressed="${sel.has(v)}" ${html ? 'lang="ja"' : ''}>${html ? label : esc(label)}${extra != null ? ` <small>${esc(extra)}</small>` : ''}</button>`).join('') +
     `</div>`;

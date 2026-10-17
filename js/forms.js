@@ -3,7 +3,6 @@
 import { esc, rich, rubyHTML, plain, reading, shuffle, wordHTML, toast, icon } from './util.js';
 import { D, setPrefs, logAct } from './data.js';
 import { status, errCount, isStar } from './srs.js';
-import { isBookSrc, matchSrc, bookSourceOpts } from './notes.js';
 import { verbInfo, conjugate, conjPart, wrongForms, ruleText, FORMS, FORM_LEVEL, BASE_FORMS, EXT_FORMS, CASUAL, DERIVED, formVi, shortVi } from './conj.js';
 import { adjInfo, adjConj, adjWrong, AFORMS, adjVi, NFORMS, nounConj, nounWrong } from './adj.js';
 import { runDrill, opt } from './drill.js';
@@ -50,8 +49,7 @@ function baseOf(kind) {
 export function pickWords(kind, srcs) {
   const base = baseOf(kind);
   if (!srcs.length || srcs.includes('all')) return base;
-  return base.filter(it => (srcs.includes('learning') && status(it) === 'learning') || (srcs.includes('known') && status(it) === 'known') || (srcs.includes('wrong') && errCount(it) > 0)
-    || (srcs.includes('star') && isStar(it.id)) || srcs.some(s => isBookSrc(s) && matchSrc(it.id, s)));
+  return base.filter(it => (srcs.includes('learning') && status(it) === 'learning') || (srcs.includes('known') && status(it) === 'known') || (srcs.includes('wrong') && errCount(it) > 0));
 }
 
 // ---------- động từ ----------
@@ -381,12 +379,12 @@ export async function renderForms(view, ctx, gid) {
   const best = D.prefs.speedBest || 0;
   view.innerHTML = `<a class="back" href="${g ? '#/nguphap/' + encodeURIComponent(g.id) : '#/luyen'}">${g ? esc(plain(g.pattern)) : 'Các dạng bài'}</a>
     <h1 class="h1">${g ? `Luyện thể của mẫu <span lang="ja">${rich(g.pattern)}</span>` : 'Luyện thể'}</h1>
-    <p class="muted small">${g ? 'Câu hỏi chỉ xoay quanh thể của mẫu này, dùng động từ Cậu Cả đang học / đã thuộc và cụm hay đi kèm của chính động từ đó.' : 'Chia và nhận diện thể của động từ, tính từ, danh từ; đổi câu; cặp tự – tha; kính ngữ. Ô gõ nhận kana hoặc romaji (tự đổi sang kana).'}</p>
+    <p class="muted small">${g ? 'Câu hỏi chỉ xoay quanh thể của mẫu này, dùng động từ bạn đang học / đã thuộc và cụm hay đi kèm của chính động từ đó.' : 'Chia và nhận diện thể của động từ, tính từ, danh từ; đổi câu; cặp tự – tha; kính ngữ. Ô gõ nhận kana hoặc romaji (tự đổi sang kana).'}</p>
     <form class="setup" onsubmit="return false">
       ${g ? '' : `<fieldset><legend>Loại từ</legend>${chips('kind', KINDS, o.kind, false)}</fieldset>`}
       <fieldset class="f-type"><legend>Dạng bài</legend><div class="f-type-in"></div></fieldset>
       <fieldset class="f-forms"><legend>Thể <small>(không chọn = các thể đã học)</small></legend>${formChips(forms0)}</fieldset>
-      <fieldset class="f-src"><legend>Lấy từ <small>(chọn được nhiều)</small></legend>${chips('srcs', [...SRC.slice(0, 3), ['star', 'Gắn sao'], ...bookSourceOpts(D.vocab).map(([k, l]) => [k, l]), SRC[3]], o.srcs)}</fieldset>
+      <fieldset class="f-src"><legend>Lấy từ <small>(chọn được nhiều)</small></legend>${chips('srcs', SRC, o.srcs)}</fieldset>
       <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30].map(x => [String(x), String(x)]), String(o.count), false)}</fieldset>
       <p class="setup-count" aria-live="polite"></p>
       <button class="btn btn-primary btn-block" data-act="start">Bắt đầu</button>

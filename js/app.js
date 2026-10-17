@@ -1,3 +1,4 @@
+import { heartRoute } from './heart.js';
 import { $, esc, icon, toast, debounce, fmtDate } from './util.js';
 import { loadSettings, S } from './settings.js';
 import { D, loadAll, TOPICS } from './data.js';
@@ -23,7 +24,6 @@ import { renderForms } from './forms.js';
 import { renderDich } from './dich.js';
 import { renderGuides, renderGuide } from './guides.js';
 import { setPrefs } from './data.js';
-import { openMarkSheet, renderNotebook } from './notes.js';
 import { renderLesson, learnLesson, renderLessonSents, runLessonTest, runLessonReview, runTongHop, renderCanDo } from './lesson.js';
 import { renderDocList, renderDoc } from './reader.js';
 import { openGrammarSheet } from './explain.js';
@@ -42,7 +42,7 @@ const NAV = [
   ['#/luyen', 'quiz', 'Luyện tập', /^(luyen|hoc|on$|moi|ghep|onhon|dich|doc)/],
   ['#/chuhan', 'han', 'Chữ Hán', /^(chuhan|onchu)/],
   ['#/nguphap', 'book', 'Ngữ pháp', /^(nguphap|onngu)/],
-  ['#/kho', 'list', 'Kho từ', /^(kho|them|sua|sotay)/],
+  ['#/kho', 'list', 'Kho từ', /^(kho|them|sua)/],
   ['#/dulieu', 'box', 'Dữ liệu', /^(dulieu|nhan)/, 'rail'],
   ['#/caidat', 'gear', 'Cài đặt', /^caidat$/, 'rail'],
 ];
@@ -95,8 +95,6 @@ const ROUTES = [
   [/^noiduoc$/, v => renderCanDo(v)],
   [/^doc$/, v => renderDocList(v)],
   [/^doc\/([^/?]+)(?:\?m=(\w+))?$/, (v, m) => renderDoc(v, ctx, decodeURIComponent(m[1]), m[2] || 'doc')],
-  [/^sotay$/, v => renderNotebook(v, ctx)],
-  [/^sotay\/(.+)$/, (v, m) => renderNotebook(v, ctx, decodeURIComponent(m[1]))],
 ];
 
 function route() {
@@ -109,6 +107,7 @@ function route() {
   // chuyển trang (kể cả nút Back của điện thoại) thì đóng mọi tờ thông tin đang mở
   document.querySelectorAll('.sheet-wrap').forEach(w => w.querySelector('.sheet-x')?.click());
   const h = location.hash.replace(/^#\/?/, '');
+  heartRoute(h); // tim tạm ở bài học: sang trang khác thì bỏ
   const r = ROUTES.find(([re]) => re.test(h));
   // mỗi lần chuyển trang dùng một khung mới — trình nghe sự kiện của trang cũ bị bỏ theo khung cũ
   view.innerHTML = '';
@@ -182,7 +181,7 @@ function renderHome(v) {
   const planList = plan.map((x, i) => `<li class="plan-i${x.done ? ' is-done' : ''}"><span class="plan-c" aria-hidden="true">${x.done ? '✓' : ''}</span><span class="plan-t"><b>${esc(x.label)}</b><small class="muted" ${/[ぁ-ん一-龯]/.test(x.sub) ? 'lang="ja"' : ''}>${esc(x.sub)}</small></span>${x.done ? '<span class="sr-only">đã xong</span>' : `<a class="btn ${i === firstTodo ? 'btn-primary' : 'btn-ghost'} btn-sm" href="${x.href}">${esc(x.btn)}</a>`}</li>`).join('');
   const fc = forecast();
   v.innerHTML = `
-    ${needsOnboard() ? `<section class="card onboard"><h2 class="h2">Chào Cậu Cả!</h2><p>Trả lời 3 câu (mục tiêu, mỗi ngày học bao lâu, đang ở đâu) để app xếp kế hoạch hằng ngày và lộ trình.</p>
+    ${needsOnboard() ? `<section class="card onboard"><h2 class="h2">Chào bạn!</h2><p>Trả lời 3 câu (mục tiêu, mỗi ngày học bao lâu, đang ở đâu) để app xếp kế hoạch hằng ngày và lộ trình.</p>
       <div class="row-btns"><button type="button" class="btn btn-ghost" data-act="skipob">Để sau</button><a class="btn btn-primary" href="#/batdau">Bắt đầu</a></div></section>` : ''}
     <section class="today">
       <p class="today-l">Hôm nay${S_mins()}</p>
@@ -232,7 +231,6 @@ function renderHome(v) {
       ['#/chuhan', 'han', 'Chữ Hán', `${D.kanji.length} thẻ chữ, câu lục bát nhớ mặt chữ, ôn chữ Hán`],
       ['#/nguphap', 'book', 'Ngữ pháp', `${D.grammar.length} mẫu — bài học, luyện tập, thi thử`],
       ['#/kho', 'list', 'Kho từ', `${st.total} từ — tìm, sửa, thêm từ mới`],
-      ['#/sotay', 'bookmark', 'Sổ tay', 'Các sổ từ đã đánh dấu — luyện riêng từng sổ'],
       ['#/noiduoc', 'chat', 'Nói được gì', 'Những việc đã làm được bằng tiếng Nhật sau mỗi bài'],
       ['#/dulieu', 'box', 'Dữ liệu & đồng bộ', 'Nhập gói từ skill, sao lưu, GitHub'],
       ['#/huongdan', 'help', 'Hướng dẫn học', 'Cho người mới, theo cấp, 特定技能2号, giấy tờ thuế'],
@@ -296,8 +294,6 @@ async function init() {
     if (ko) { e.preventDefault(); openKanji(ko.dataset.kopen); return; }
     const go = e.target.closest('[data-gopen]');
     if (go) { e.preventDefault(); openGrammarSheet(go.dataset.gopen); return; }
-    const mk = e.target.closest('[data-mark]');
-    if (mk) { e.preventDefault(); openMarkSheet(mk.dataset.mark); return; }
     const wo = e.target.closest('[data-wopen]');
     if (wo) { e.preventDefault(); showWord(wo.dataset.wopen, ctx, () => { }); return; }
     const k = e.target.closest('.kj');

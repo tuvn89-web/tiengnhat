@@ -774,3 +774,24 @@ span.xw-b { cursor: default; }
 .xpl > summary { cursor: pointer; color: var(--blue); font-weight: 600; padding: 6px 0; }
 .gsheet .gram { padding-bottom: 8px; }
 .gdone { text-align: center; }
+
+/* ---- v18: tim tạm ở bài học & luyện từ đã tim ---- */
+.heart-btn { color: var(--ink-3, var(--ink-2)); }
+.heart-btn[aria-pressed="true"] { color: var(--ng); }
+.heart-btn[aria-pressed="true"] .ic { fill: var(--ng); }
+.rows li:has(> .heart-btn) { display: flex; align-items: center; border-bottom: 1px solid var(--line); }
+.rows li:has(> .heart-btn) > .row { border-bottom: 0; flex: 1; min-width: 0; }
+.heart-bar { position: sticky; bottom: calc(68px + env(safe-area-inset-bottom)); z-index: 4; display: flex; gap: 8px; margin: 10px 0 0; padding: 8px 0; background: var(--surface); }
+.heart-bar .btn { flex: 1; }
+@media (min-width: 900px) { .heart-bar { bottom: 12px; } }
+.heart-tip .ic { width: 15px; height: 15px; vertical-align: -2px; color: var(--ng); }
+.heart-bar .ic { width: 18px; height: 18px; vertical-align: -3px; }
+.heart-bar [data-p=heart]:not(:disabled) { border-color: var(--ng); color: var(--ng); }
+.hrt-count { flex: 1; margin: 0; text-align: center; font-variant-numeric: tabular-nums; }
+.hrt-n { display: inline-flex; align-items: center; gap: 4px; color: var(--ng); }
+.hrt-n .ic { width: 16px; height: 16px; fill: var(--ng); }
+.hrt-tabs { margin: 10px 0 10px; }
+.hrt-tabs .tab { flex: 1; padding: 10px 6px; border: 0; border-radius: 9px; background: none; color: var(--ink-2); font: inherit; font-weight: 600; font-size: .95em; cursor: pointer; }
+.hrt-tabs .tab[aria-selected="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 0 var(--line); }
+.hrt-dirs { margin: 0 0 12px; }
+.hrt-hint { margin: 0 0 10px; }

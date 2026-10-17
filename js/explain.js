@@ -3,11 +3,16 @@
 import { esc, rich, plain, parseJP, isKanjiCh, wordHTML, rubyHTML, reading, stripHL } from './util.js';
 import { D, POS } from './data.js';
 import { openSheet, sayBtn, bindSay } from './ui.js';
-import { markBtnHTML } from './notes.js';
 
 // ---------- dò từ trong câu (giống scripts/validate_pack.py) ----------
 let _idx = null, _ik = '';
 const KATA = /^[ァ-ヶー]+$/, HIRA = /^[ぁ-ゖー]+$/;
+const GODAN_NEXT = { う: 'わいうえおっ', く: 'かきくけこい', ぐ: 'がぎぐげごい', す: 'さしすせそ', つ: 'たちつてとっ', ぬ: 'なにぬねのん', ぶ: 'ばびぶべぼん', む: 'まみむめもん', る: 'らりるれろっい' };
+function kanaVerbNext(pos, kana) {
+  if (pos === 'v1') return 'るまてたなられよろずさ';
+  if (pos === 'v5') return GODAN_NEXT[kana.at(-1)] || null;
+  return null;
+}
 function detIndex() {
   const key = `${D.vocab.length}:${D.items.size}`;
   if (_idx && _ik === key) return _idx;
@@ -24,6 +29,9 @@ function detIndex() {
       // từ chỉ viết kana: tính từ い lấy thân (おいし), từ khác lấy nguyên chữ; bỏ từ quá ngắn dễ dò nhầm
       const s = pos === 'adj-i' ? kana.slice(0, -1) : ['v1', 'v5', 'v3'].includes(pos) ? null : kana;
       if (s && s.length >= 3) add(s, { id: it.id, rd: s, need: false, hira: true });
+      // động từ chỉ viết kana (もらう, いただく, くれる…): dò theo thân + đuôi chia hợp lệ (もらいました, くださって)
+      const nx = kanaVerbNext(pos, kana);
+      if (nx && kana.length >= 3) add(kana.slice(0, -1), { id: it.id, rd: kana.slice(0, -1), need: false, hira: true, next: nx });
     }
   }
   _idx = [...m.entries()].sort((a, b) => b[0].length - a[0].length);
@@ -67,7 +75,8 @@ export function detectWords(jp) {
       if (used.slice(i, j).some(Boolean)) continue;
       let ok = cands.filter(c => !c.need || j >= text.length || !isKanjiCh(text[j]));
       if (!ok.length) continue;
-      if (ok[0].hira && j < text.length && 'りるれろらっ'.includes(text[j])) continue; // じゃあ ⊂ じゃありません
+      if (ok[0].next) { if (j >= text.length || !ok[0].next.includes(text[j]) || (i > 0 && 'てでは'.includes(text[i - 1]))) continue; } // 〜てください, 〜てはいけません là mẫu ngữ pháp
+      else if (ok[0].hira && j < text.length && 'りるれろらっ'.includes(text[j])) continue; // じゃあ ⊂ じゃありません
       if (!ok[0].hira) {
         const rd = spanRd(i, j);
         if (rd != null) ok = ok.filter(c => hira(c.rd) === hira(rd));
@@ -160,7 +169,7 @@ export function detectGrammar(jp) {
 // ---------- HTML ----------
 const posName = it => POS[it.pos] || '';
 function wordRow(it) {
-  return `<li class="xw"><button type="button" class="xw-b" data-wopen="${esc(it.id)}"><span class="xw-jp" lang="ja">${wordHTML(it, 'furi')}</span><span class="xw-vi">${esc(it.vi)}<small class="muted"> · ${esc(posName(it))}${it.level ? ' · ' + esc(it.level) : ''}</small></span></button>${markBtnHTML(it.id, { label: false, cls: 'icon-btn' })}</li>`;
+  return `<li class="xw"><button type="button" class="xw-b" data-wopen="${esc(it.id)}"><span class="xw-jp" lang="ja">${wordHTML(it, 'furi')}</span><span class="xw-vi">${esc(it.vi)}<small class="muted"> · ${esc(posName(it))}${it.level ? ' · ' + esc(it.level) : ''}</small></span></button></li>`;
 }
 const refRow = (w, vi, cls = '') => `<li class="xw ${cls}"><span class="xw-b"><span class="xw-jp" lang="ja">${rich(w)}</span><span class="xw-vi">${esc(vi || '')}</span></span></li>`;
 function gramRow(g) {

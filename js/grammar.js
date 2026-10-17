@@ -1,7 +1,6 @@
 import { esc, rubyHTML, reading, rich, richParas } from './util.js';
 import { D, LEVELS, CTX } from './data.js';
 import { status, dueDirs, errCount, stats, setLearned } from './srs.js';
-import { markBtnHTML } from './notes.js';
 import { bindSay, sayBtn, emptyState } from './ui.js';
 import { gtabs } from './gdrill.js';
 import { formsForGrammar } from './forms.js';
@@ -54,7 +53,7 @@ export function renderGrammar(view, id) {
       <div class="ex-row"><p class="ex-jp" lang="ja">${rubyHTML(e.jp, true)}</p>${sayBtn(reading(e.jp))}</div>
       <p class="ex-vi">${esc(e.vi)} <span class="tag">${esc(CTX[e.ctx] || e.ctx || '')}</span></p></li>`).join('')}</ol>
     <div class="row-btns stack">${status(g) === 'new' ? '<button type="button" class="btn btn-primary btn-block" data-act="glearned">Đã học xong bài này</button>' : '<p class="small muted gdone">✓ Đã học mẫu này — sẽ ôn theo lịch.</p>'}
-      <a class="btn ${status(g) === 'new' ? 'btn-ghost' : 'btn-primary'} btn-block" href="#/nguphap/luyen?g=${encodeURIComponent(g.id)}">Luyện mẫu này</a>${formsBtn(g, true)}${markBtnHTML(g.id, { cls: 'btn btn-ghost btn-block' })}</div>
+      <a class="btn ${status(g) === 'new' ? 'btn-ghost' : 'btn-primary'} btn-block" href="#/nguphap/luyen?g=${encodeURIComponent(g.id)}">Luyện mẫu này</a>${formsBtn(g, true)}</div>
   </article>`;
   bindSay(view);
   const gl = view.querySelector('[data-act=glearned]');

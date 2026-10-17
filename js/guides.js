@@ -19,25 +19,27 @@ const exam = L => [['h', `Đề thi ${L}`], ['tb', [['Phần thi', 'Thời gian'
 export const GUIDES = [
   // ---------- cho người mới ----------
   { id: 'srs', g: 'Cho người mới', t: 'Học bằng lặp lại ngắt quãng', b: [
-    ['p', 'App không bắt Cậu Cả ôn mọi từ mỗi ngày. Mỗi từ nằm trong một **hộp** từ 1 đến 5. Trả lời đúng thì từ lên hộp trên và lần ôn sau xa hơn; sai thì về hộp 1 và ôn lại ngày mai.'],
+    ['p', 'App không bắt bạn ôn mọi từ mỗi ngày. Mỗi từ nằm trong một **hộp** từ 1 đến 5. Trả lời đúng thì từ lên hộp trên và lần ôn sau xa hơn; sai thì về hộp 1 và ôn lại ngày mai.'],
     ['tb', [['Hộp', 'Ôn lại sau'], ['1', '1 ngày'], ['2', '2 ngày'], ['3', '4 ngày'], ['4', '8 ngày'], ['5 — đã thuộc', '16 ngày']]],
     ['p', 'Não nhớ lâu nhất khi được hỏi lại đúng lúc sắp quên. Vì vậy mỗi ngày chỉ cần làm phần **đến hạn** — thường 10–20 phút.'],
     ['p', 'Từ vựng có 3 chiều học riêng: Nhật → Việt, Việt → Nhật và đọc chữ Hán. Từ chỉ tính "đã thuộc" khi cả chiều Nhật → Việt và Việt → Nhật lên hộp 5.'],
+    ['p', '**Thuộc nhuần nhuyễn:** đã ở hộp 5 mà đến lần ôn sau 16 ngày vẫn trả lời đúng thì chiều đó không bao giờ đến hạn ôn nữa. Nếu sau này tự luyện mà làm sai, mục đó trở lại hộp 1 như thường.'],
+    ['p', '**Luyện từ đã tim** (trong bài học): câu đúng làm mới lịch ôn của từ — từ mới hoặc đã đến hạn thì lên một hộp (mỗi chiều một lần mỗi lượt), còn lại dời hạn ôn tính từ hôm nay. Câu sai không làm tụt hộp.'],
     ['a', 'Ôn phần đến hạn hôm nay', '#/onhon']] },
   { id: 'nut', g: 'Cho người mới', t: 'Nút Đã học, Biết rồi, Để sau', b: [
     ['p', 'Ở **Học từ mới**, mỗi thẻ có 3 nút:'],
-    ['ul', ['**Đã học**: từ vào hộp 1, ngày mai app hỏi lại lần đầu.', '**Biết rồi**: từ Cậu Cả đã biết chắc — vào thẳng hộp 5, 16 ngày sau hỏi lại một lần để kiểm.', '**Để sau**: bỏ qua, lần sau từ này vẫn nằm trong hàng từ mới.']],
+    ['ul', ['**Đã học**: từ vào hộp 1, ngày mai app hỏi lại lần đầu.', '**Biết rồi**: từ bạn đã biết chắc — vào thẳng hộp 5, 16 ngày sau hỏi lại một lần để kiểm.', '**Để sau**: bỏ qua, lần sau từ này vẫn nằm trong hàng từ mới.']],
     ['p', 'Bấm nhầm thì vuốt sang phải (hoặc nút ←) để lật lại thẻ trước và chọn lại.'],
     ['p', 'Biết sẵn nhiều từ thì đừng bấm "Biết rồi" từng từ — làm **Xếp lớp nhanh** để app tự đánh dấu cả cấp.'],
     ['a', 'Kiểm tra trình độ', '#/trinhdo']] },
   { id: 'furi', g: 'Cho người mới', t: 'Furigana, chữ Hán và âm Hán Việt', b: [
-    ['p', 'Chữ Hán trong app luôn có furigana (chữ nhỏ ghi cách đọc phía trên), trừ kiểu bài "Kanji → cách đọc" và bài thi — vì đó là lúc kiểm tra Cậu Cả có đọc được chữ hay không.'],
+    ['p', 'Chữ Hán trong app luôn có furigana (chữ nhỏ ghi cách đọc phía trên), trừ kiểu bài "Kanji → cách đọc" và bài thi — vì đó là lúc kiểm tra bạn có đọc được chữ hay không.'],
     ['p', 'Mỗi từ có **âm Hán Việt**: 冷凍[れいとう] = LÃNH ĐÔNG, 確認[かくにん] = XÁC NHẬN. Người Việt đoán nghĩa từ Hán rất nhanh nhờ âm này — hãy đọc nó mỗi lần học từ mới.'],
     ['p', 'Chạm vào một chữ Hán bất kỳ để mở **thẻ chữ**: âm Hán Việt, cách đọc, bộ phận, câu lục bát giúp nhớ mặt chữ và các từ có chữ đó.']] },
   { id: 'ngay', g: 'Cho người mới', t: 'Ôn mỗi ngày thế nào', b: [
     ['ul', ['1. **Ôn hỗn hợp** — làm hết phần đến hạn trước (từ, chữ Hán, ngữ pháp trộn chung).', '2. **Học từ mới** — 5 đến 20 từ tùy thời gian; đừng học quá sức, vì mỗi từ mới sẽ quay lại 5 lần trong 1 tháng.', '3. **Một mẫu ngữ pháp** — đọc bài, rồi bấm Luyện mẫu này.', '4. **Một bài luyện** — ghép câu, thể động từ, đếm số… để dùng được từ đã học.']],
     ['p', 'Nghỉ một ngày thì hôm sau phần đến hạn sẽ dồn lại. Không sao — cứ ôn hết phần dồn rồi mới học từ mới.'],
-    ['p', '**Kế hoạch hôm nay** trên Trang chủ tự xếp các việc này theo số phút Cậu Cả chọn ở màn Bắt đầu.'],
+    ['p', '**Kế hoạch hôm nay** trên Trang chủ tự xếp các việc này theo số phút bạn chọn ở màn Bắt đầu.'],
     ['a', 'Đổi số phút mỗi ngày', '#/batdau']] },
   { id: 'nghe', g: 'Cho người mới', t: 'Luyện nghe', b: [
     ['p', 'App đọc tiếng Nhật bằng giọng đọc có sẵn của máy. Vào **Cài đặt → Giọng đọc** để chọn giọng tiếng Nhật và tốc độ. Máy chưa có giọng tiếng Nhật thì cài thêm trong cài đặt ngôn ngữ của điện thoại.'],

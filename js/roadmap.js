@@ -23,7 +23,7 @@ export const mins = () => D.prefs.mins || 20;
 export function renderStart(view, ctx) {
   const p = D.prefs;
   view.innerHTML = `<h1 class="h1">Bắt đầu</h1>
-    <p class="muted">Ba câu hỏi để app xếp kế hoạch mỗi ngày và lộ trình cho Cậu Cả. Đổi lại lúc nào cũng được.</p>
+    <p class="muted">Ba câu hỏi để app xếp kế hoạch mỗi ngày và lộ trình cho bạn. Đổi lại lúc nào cũng được.</p>
     <form class="setup" onsubmit="return false">
       <fieldset><legend>Mục tiêu</legend>${chips('goal', GOALS, p.goal || 'N3', false)}</fieldset>
       <fieldset><legend>Mỗi ngày học bao lâu</legend>${chips('mins', MINS.map(([m, l]) => [String(m), l]), String(p.mins || 20), false)}</fieldset>
@@ -120,7 +120,7 @@ export function renderRoadmap(view, ctx) {
     <p class="lv-goal">Mục tiêu <b>${esc(GOALS.find(g => g[0] === G)?.[1] || G)}</b> · ${mins()} phút/ngày <a class="btn btn-ghost btn-sm" href="#/batdau">Đổi</a></p>
     ${fc ? `<p class="note small">${fc}</p>` : ''}
     <p class="small muted">Mỗi chặng chia thành bài học: từ mới, chữ Hán, ngữ pháp, luyện tập, đọc & hội thoại, kiểm tra cuối bài. Chặng đang học ở trên cùng, chặng đã qua ở cuối trang; bài và chặng sau vẫn mở được (không khóa).</p>
-    <div class="row-btns wrap"><a class="btn btn-ghost btn-sm" href="#/noiduoc">Nói được gì</a><a class="btn btn-ghost btn-sm" href="#/sotay">Sổ tay</a><a class="btn btn-ghost btn-sm" href="#/doc">Hội thoại & bài đọc</a></div>
+    <div class="row-btns wrap"><a class="btn btn-ghost btn-sm" href="#/noiduoc">Nói được gì</a><a class="btn btn-ghost btn-sm" href="#/doc">Hội thoại & bài đọc</a></div>
     ${top}
     ${bottom ? `<h2 class="h2 stage-sep">Chặng đã qua</h2>${bottom}` : ''}
     <p class="small muted">Chặng N1 sẽ thêm khi kho dữ liệu làm đến N1. <a href="#/huongdan">Xem bài hướng dẫn học theo từng cấp</a>.</p>`;
@@ -176,7 +176,7 @@ export function forecast() {
   const days = Math.ceil(Math.max(rem.vocab / pace.vocab, rem.grammar / pace.grammar, rem.kanji / pace.kanji));
   const d = new Date(Date.now() + days * DAY);
   const when = days < 45 ? `khoảng ${days} ngày nữa` : `khoảng tháng ${d.getMonth() + 1}/${d.getFullYear()}`;
-  return `${useReal ? `Giữ nhịp 14 ngày qua (khoảng ${Math.round(pace.vocab)} từ mới/ngày)` : `Học ${mins()} phút mỗi ngày (khoảng ${plan.v} từ mới/ngày)`}, Cậu Cả học hết khối lượng ${esc(G)} ${when}. Còn khoảng ${rem.vocab} từ, ${rem.grammar} mẫu ngữ pháp, ${rem.kanji} chữ Hán (ước tính).`;
+  return `${useReal ? `Giữ nhịp 14 ngày qua (khoảng ${Math.round(pace.vocab)} từ mới/ngày)` : `Học ${mins()} phút mỗi ngày (khoảng ${plan.v} từ mới/ngày)`}, bạn học hết khối lượng ${esc(G)} ${when}. Còn khoảng ${rem.vocab} từ, ${rem.grammar} mẫu ngữ pháp, ${rem.kanji} chữ Hán (ước tính).`;
 }
 // Danh sách việc hôm nay, theo số phút đã chọn
 export function planToday() {

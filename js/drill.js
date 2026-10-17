@@ -5,7 +5,6 @@ import { S, saveSettings } from './settings.js';
 import { attachRomaji, romajiToKana, normKana } from './romaji.js';
 import { knownBtnHTML, bindKnownBtn } from './quiz.js';
 import { D, logAct, actOf } from './data.js';
-import { markBtnHTML } from './notes.js';
 import { answerExplainHTML } from './explain.js';
 import { review } from './srs.js';
 import { speak, ttsReady } from './tts.js';
@@ -168,7 +167,7 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     if (q.kind === 'type') {
       view.querySelectorAll('.typebox input, .typebox button, [data-act=romaji]').forEach(b => { b.disabled = true; });
       right = (q._judgeHTML || (ok ? `<p class="after-ok">Đúng: <b lang="ja">${q.answerHTML}</b></p>`
-        : `<p class="after-msg">Đáp án: <b lang="ja">${q.answerHTML}</b> · Cậu Cả gõ: <span lang="ja">${esc(q._typed || '')}</span></p>`))
+        : `<p class="after-msg">Đáp án: <b lang="ja">${q.answerHTML}</b> · Bạn gõ: <span lang="ja">${esc(q._typed || '')}</span></p>`))
         + (!ok && first ? `<button type="button" class="btn btn-ghost btn-sm" data-act="override">${q.judge ? 'Tôi dịch đúng — tính là đúng' : 'Tôi gõ đúng — tính là đúng'}</button>` : '');
     }
     after.innerHTML = right + (q.after || '') + answerExplainHTML(q);
@@ -186,8 +185,7 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     bar.className = 'next-bar';
     // mục có lịch ôn (từ, chữ Hán, mẫu, câu dịch): thêm nút "Đã thuộc"
     const kItem = q.review && !noReview ? (D.items.get(q.review.id) || (q.review.id.startsWith('s:') ? { id: q.review.id } : null)) : null;
-    const mItem = kItem && D.items.has(kItem.id) ? kItem : null;
-    bar.innerHTML = `${mItem ? markBtnHTML(mItem.id, { label: false, cls: 'btn btn-ghost' }) : ''}${kItem ? knownBtnHTML(kItem) : ''}<button type="button" class="btn btn-primary" data-act="next">Tiếp</button>`;
+    bar.innerHTML = `${kItem ? knownBtnHTML(kItem) : ''}<button type="button" class="btn btn-primary" data-act="next">Tiếp</button>`;
     view.querySelector('.run').appendChild(bar);
     if (kItem) bindKnownBtn(bar, kItem, () => { if (againQ) { const k = st.qs.indexOf(againQ); if (k > st.i) st.qs.splice(k, 1); } });
     const nb = bar.querySelector('[data-act=next]');

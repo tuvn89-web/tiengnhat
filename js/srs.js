@@ -2,6 +2,8 @@ import { all, put, putMany } from './db.js';
 import { DAY, startOfDay } from './util.js';
 
 // Lặp lại ngắt quãng 5 hộp. Hộp 0 = chưa học. Đúng → lên hộp, sai → về hộp 1.
+// Đang ở hộp 5 mà đến hạn vẫn đúng → "thuộc nhuần nhuyễn" (cờ m): không bao giờ đến hạn ôn nữa (v18).
+// Làm sai một mục đã thuộc nhuần nhuyễn (khi tự luyện) → bỏ cờ, về hộp 1 như thường.
 // Từ vựng: vj (Việt→Nhật), jv (Nhật→Việt, kể cả nghe), kr (kanji→cách đọc).
 // Chữ Hán: kh (chữ → Hán Việt), hk (Hán Việt → chọn chữ).   Ngữ pháp: gp (mọi bài tập của mẫu đó).
 export const IV = [0, 1, 2, 4, 8, 16];
@@ -23,7 +25,7 @@ export async function review(id, dir, ok, { onlyIfDue = false } = {}) {
   const x = r.d[d] || { b: 0, due: 0, ok: 0, ng: 0, t: 0 };
   if (ok && onlyIfDue && x.b > 0 && x.due > now) return;
   if (!r.first) r.first = now;
-  if (ok) { x.b = Math.min(5, x.b + 1); x.ok++; } else { x.b = 1; x.ng++; }
+  if (ok) { if (x.b >= 5 && x.due <= now) x.m = 1; x.b = Math.min(5, x.b + 1); x.ok++; } else { x.b = 1; x.ng++; delete x.m; }
   x.due = startOfDay(now) + IV[x.b] * DAY;
   x.t = now;
   r.d[d] = x; r.t = now;
@@ -31,6 +33,20 @@ export async function review(id, dir, ok, { onlyIfDue = false } = {}) {
   await put('progress', r);
   onChange();
 }
+// Làm mới lịch ôn mà không lên hộp (luyện thêm khi chưa đến hạn): hạn ôn tính lại từ hôm nay, không bao giờ kéo sớm hơn
+export async function refreshDue(id, dir) {
+  const now = Date.now(), d = progDir(dir);
+  const old = P.get(id)?.d?.[d];
+  if (!old || !old.b) return;
+  const due = Math.max(old.due || 0, startOfDay(now) + IV[old.b] * DAY);
+  if (due === old.due) return;
+  const r = structuredClone(P.get(id));
+  r.d[d] = { ...old, due, t: now }; r.t = now;
+  P.set(id, r);
+  await put('progress', r);
+  onChange();
+}
+export const mastered = (id, dir) => !!P.get(id)?.d?.[progDir(dir)]?.m;
 // Học từ mới (nút "Đã học"): mọi hướng vào hộp 1, ôn lần đầu ngày mai. "Biết rồi": vào hộp 5 (đã thuộc), 16 ngày sau ôn lại một lần.
 export async function setLearned(it, level = 'learned') {
   const now = Date.now();
@@ -147,7 +163,7 @@ export function dueDirs(it, now = Date.now()) {
   if (!r) return [];
   return TYPE_DIRS[itemType(it)].filter(d => {
     const x = r.d?.[d];
-    if (!x || x.b === 0 || x.due > now) return false;
+    if (!x || x.b === 0 || x.m || x.due > now) return false;
     return d !== 'kr' || !!it.kanji;
   });
 }

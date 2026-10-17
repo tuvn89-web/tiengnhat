@@ -7,7 +7,7 @@ import { getSyncCfg, setSyncCfg, syncNow, lastSync, lastSyncError, backupJSON, r
 
 const TYPE = TYPE_NAME;
 
-// Máy này đang lưu gì — để Cậu Cả tự soát (token che phần giữa)
+// Máy này đang lưu gì — để bạn tự soát (token che phần giữa)
 function savedHTML(c) {
   if (!c.token) return '<p class="note small">Máy này <b>chưa lưu token</b> nên chưa đồng bộ. Dán token vào ô Token rồi bấm <b>Đồng bộ ngay</b>, hoặc quét mã QR từ máy đã cài xong.</p>';
   return `<p class="saved-ok small">Máy này đang lưu: tài khoản <b>${esc(c.owner)}</b>, kho <b>${esc(c.repo)}</b>, token <code>${esc(maskToken(c.token))}</code>.</p>`;
@@ -38,7 +38,7 @@ function shareSheet(cfg) {
     <div class="qr">${svg}</div>
     <p class="small muted">Không quét được thì gửi đường link cho chính mình (ví dụ Zalo "Cloud của tôi") rồi mở trên máy kia.</p>
     <div class="row-btns"><button class="btn btn-ghost" data-a="copy">Sao chép đường link</button></div>
-    <p class="warn small">Mã và đường link có chứa token. Chỉ dùng cho máy của Cậu Cả, không gửi cho người khác.</p>`, { label: 'Chuyển cài đặt sang máy khác' });
+    <p class="warn small">Mã và đường link có chứa token. Chỉ dùng cho máy của bạn, không gửi cho người khác.</p>`, { label: 'Chuyển cài đặt sang máy khác' });
   s.body.querySelector('[data-a=copy]').onclick = async () => {
     try { await navigator.clipboard.writeText(link); toast('Đã sao chép đường link.'); }
     catch { window.prompt('Sao chép đường link này:', link); }
@@ -64,7 +64,7 @@ export async function renderData(view, ctx, opts = {}) {
 
     <section class="card" id="dongbo">
       <h2 class="h2">Đồng bộ qua GitHub</h2>
-      <p class="muted small">Tiến độ lưu vào một kho riêng tư trên GitHub của Cậu Cả. App tự đồng bộ khi mở, sau mỗi lượt học và khi có mạng trở lại. Cài đặt lưu riêng từng máy: máy đã cài xong thì dùng nút <b>Chuyển sang máy khác</b> để đưa sang máy kia bằng mã QR.</p>
+      <p class="muted small">Tiến độ lưu vào một kho riêng tư trên GitHub của bạn. App tự đồng bộ khi mở, sau mỗi lượt học và khi có mạng trở lại. Cài đặt lưu riêng từng máy: máy đã cài xong thì dùng nút <b>Chuyển sang máy khác</b> để đưa sang máy kia bằng mã QR.</p>
       <div class="saved" aria-live="polite">${savedHTML(cfg)}</div>
       <form class="syncf" novalidate>
         <div class="grid2">
@@ -115,7 +115,7 @@ export async function renderData(view, ctx, opts = {}) {
 
     <section class="card">
       <h2 class="h2">Gửi cho skill</h2>
-      <p class="muted small">File gồm ${reps.length} mục Cậu Cả đã báo sai, ${mine.length} từ tự thêm/sửa, ${missingKanji().length} chữ Hán chưa có thẻ, và danh sách mã đang có để skill không làm trùng.</p>
+      <p class="muted small">File gồm ${reps.length} mục bạn đã báo sai, ${mine.length} từ tự thêm/sửa, ${missingKanji().length} chữ Hán chưa có thẻ, và danh sách mã đang có để skill không làm trùng.</p>
       <button class="btn btn-ghost" data-act="forskill">Tải file gửi skill</button>
     </section>
 
@@ -213,7 +213,7 @@ export async function renderData(view, ctx, opts = {}) {
       return `<li class="diag-${cls}"><span class="diag-m" aria-label="${label}"></span><span>${esc(s.text)}</span></li>`;
     }).join('');
   };
-  // đọc form → chuẩn hoá → ghi ngược lại vào ô để Cậu Cả thấy app hiểu thế nào
+  // đọc form → chuẩn hoá → ghi ngược lại vào ô để bạn thấy app hiểu thế nào
   const readCfg = () => {
     const c = normalizeCfg({ owner: el('owner').value, repo: el('repo').value, token: el('token').value, branch: el('branch').value, path: el('path').value });
     for (const k of Object.keys(c)) el(k).value = c[k];

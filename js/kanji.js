@@ -3,7 +3,6 @@
 import { esc, rich, kj, wordHTML, kanjiChars, shuffle, icon, toast, debounce } from './util.js';
 import { D, LEVELS, KGROUPS, report, unreport } from './data.js';
 import { status, dueDirs, errCount, isStar, toggleStar, stats, P } from './srs.js';
-import { isBookSrc, matchSrc, bookSourceOpts, markBtnHTML } from './notes.js';
 import { chips, bindChips, readChip, readChips, openSheet, emptyState, field } from './ui.js';
 import { runDrill, opt } from './drill.js';
 import { kvGet, kvSet } from './db.js';
@@ -71,10 +70,9 @@ export function kanjiCardHTML(ch) {
     ${(k.viet || []).length ? `<h3 class="h3">Từ Hán Việt cùng chữ</h3><p class="kviet">${k.viet.map(esc).join(' · ')}</p>` : ''}
     ${(k.similar || []).length ? `<h3 class="h3">Chữ trông giống, dễ nhầm</h3><ul class="ksim">${k.similar.map(s => `<li>${D.kanjiByChar.has(s.c) ? `<button type="button" class="ksim-c" data-kopen="${esc(s.c)}" lang="ja">${esc(s.c)}</button>` : `<span class="ksim-c" lang="ja">${esc(s.c)}</span>`}<span>${rich(s.note || '')}</span></li>`).join('')}</ul>` : ''}
     ${k.note ? `<p class="wd-note">${rich(k.note)}</p>` : ''}
-    ${rep ? `<p class="wd-flag">Cậu Cả đã báo sai thẻ này${D.reports[k.id].note ? ': ' + esc(D.reports[k.id].note) : ''}.</p>` : ''}
+    ${rep ? `<p class="wd-flag">Bạn đã báo sai thẻ này${D.reports[k.id].note ? ': ' + esc(D.reports[k.id].note) : ''}.</p>` : ''}
     <p class="muted small">Tiến độ: ${esc(prog)}.</p>
     <div class="row-btns wrap">
-      ${markBtnHTML(k.id, { cls: 'btn btn-ghost' })}
       <button type="button" class="btn btn-ghost" data-ka="rep">${icon('flag')} ${rep ? 'Bỏ báo sai' : 'Báo sai'}</button>
     </div>
   </div>`;
@@ -179,7 +177,6 @@ export function buildKanjiQs(o) {
   else if (o.source === 'new') pool = pool.filter(k => status(k) === 'new');
   else if (o.source === 'wrong') pool = pool.filter(k => errCount(k) > 0).sort((a, b) => errCount(b) - errCount(a));
   else if (o.source === 'star') pool = pool.filter(k => isStar(k.id));
-  else if (isBookSrc(o.source)) pool = pool.filter(k => matchSrc(k.id, o.source));
   if (o.source !== 'wrong') pool = shuffle(pool);
   const qs = [];
   for (const k of pool) {
@@ -202,7 +199,7 @@ export async function renderKanjiQuizSetup(view, ctx) {
     <form class="setup" onsubmit="return false">
       <p class="muted small">Đây là phần kiểm tra chữ Hán nên chữ không có furigana.</p>
       <fieldset><legend>Kiểu câu hỏi</legend>${chips('dir', KDIRS, o.dir, false)}</fieldset>
-      <fieldset><legend>Lấy chữ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['new', 'Chữ mới', st.new], ['wrong', 'Hay sai'], ['star', 'Gắn sao'], ...bookSourceOpts(D.kanji), ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
+      <fieldset><legend>Lấy chữ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['new', 'Chữ mới', st.new], ['wrong', 'Hay sai'], ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
       <fieldset><legend>Nhóm <small>(không chọn = tất cả)</small></legend>${chips('groups', usedG.map(g => [g, KGROUPS[g]]), o.groups)}</fieldset>
       <fieldset><legend>Cấp độ <small>(không chọn = tất cả)</small></legend>${chips('levels', LEVELS.map(l => [l, l]), o.levels)}</fieldset>
       <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30].map(n => [String(n), String(n)]), String(o.count), false)}</fieldset>

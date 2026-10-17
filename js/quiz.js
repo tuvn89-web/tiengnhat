@@ -6,7 +6,6 @@ import { runLearn, learnCardHTML, learnBarHTML, applyDecision } from './learn.js
 import { speak, ttsReady } from './tts.js';
 import { chips, bindChips, readChip, readChips, bindSay, sayBtn, wordDetailHTML, topicOpts, emptyState, wtabs } from './ui.js';
 import { kvGet, kvSet } from './db.js';
-import { isBookSrc, matchSrc, bookSourceOpts, markBtnHTML, openMarkSheet } from './notes.js';
 import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from './nav.js';
 
 export const DIRS = [['vj', 'Việt → Nhật'], ['jv', 'Nhật → Việt'], ['kr', 'Kanji → cách đọc (không furigana)'], ['au', 'Nghe → nghĩa'], ['mix', 'Trộn']];
@@ -34,7 +33,6 @@ export function selectItems({ levels = [], topics = [], source = 'all', needKanj
   else if (source === 'week') pool = pool.filter(it => learnedSince(it, startOfDay() - 6 * DAY));
   else if (source === 'wrong') pool = pool.filter(it => errCount(it) > 0).sort((a, b) => errCount(b) - errCount(a));
   else if (source === 'star') pool = pool.filter(it => isStar(it.id));
-  else if (isBookSrc(source)) pool = pool.filter(it => matchSrc(it.id, source));
   return pool;
 }
 
@@ -52,7 +50,7 @@ export function buildQuestions(o) {
       qs.push({ it, dir: d });
     }
   } else {
-    let list = o.source === 'all' || o.source === 'star' || isBookSrc(o.source) ? shuffle(pool) : pool;
+    let list = o.source === 'all' || o.source === 'star' ? shuffle(pool) : pool;
     for (const it of list) {
       let d = o.dir;
       if (d === 'mix') { const c = allowMix.filter(x => x !== 'kr' || it.kanji); d = c[Math.floor(Math.random() * c.length)]; }
@@ -64,7 +62,7 @@ export function buildQuestions(o) {
 }
 
 // Nguồn từ dùng chung cho các trang luyện tập (F1)
-export const SOURCES = [['learned', 'Từ đã học'], ['today', 'Học hôm nay'], ['week', '7 ngày qua'], ['due', 'Đến hạn ôn'], ['star', 'Gắn sao'], ['wrong', 'Hay sai'], ['all', 'Tất cả']];
+export const SOURCES = [['learned', 'Từ đã học'], ['today', 'Học hôm nay'], ['week', '7 ngày qua'], ['due', 'Đến hạn ôn'], ['wrong', 'Hay sai'], ['all', 'Tất cả']];
 export function sourceCounts(filter = () => true) {
   const c = {};
   for (const [k] of SOURCES) c[k] = selectItems({ source: k }).filter(filter).length;
@@ -172,7 +170,7 @@ export async function renderQuizSetup(view, ctx) {
     <form class="setup" onsubmit="return false">
       <fieldset class="f-q"><legend>Kiểu câu hỏi</legend>${chips('dir', DIRS, o.dir, false)}</fieldset>
       <fieldset class="f-q"><legend>Hiển thị chữ Nhật</legend>${chips('script', SCRIPTS, o.script, false)}</fieldset>
-      <fieldset><legend>Lấy từ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['learned', 'Từ đã học', st.total - st.new], ['today', 'Học hôm nay'], ['week', '7 ngày qua'], ['new', 'Học từ mới', st.new], ['wrong', 'Hay sai'], ['star', 'Gắn sao'], ...bookSourceOpts(D.vocab), ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
+      <fieldset><legend>Lấy từ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['learned', 'Từ đã học', st.total - st.new], ['today', 'Học hôm nay'], ['week', '7 ngày qua'], ['new', 'Học từ mới', st.new], ['wrong', 'Hay sai'], ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
       <fieldset><legend>Cấp độ <small>(không chọn = tất cả)</small></legend>${chips('levels', LEVELS.map(l => [l, l]), o.levels)}</fieldset>
       <fieldset><legend>Chủ đề <small>(không chọn = tất cả)</small></legend>${chips('topics', topicOpts(), o.topics)}</fieldset>
       <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30, 50].map(n => [String(n), String(n)]), String(o.count), false)}</fieldset>
@@ -313,13 +311,11 @@ export function runQuiz(view, qs, o, ctx) {
     // nút Tiếp ghim ở đáy màn hình — không cuộn trang, để vẫn thấy đáp án và dấu chấm
     const bar = document.createElement('div');
     bar.className = 'next-bar';
-    bar.innerHTML = `${markBtnHTML(q.it.id, { label: false, cls: 'btn btn-ghost' })}
-      ${knownBtnHTML(q.it)}
+    bar.innerHTML = `${knownBtnHTML(q.it)}
       <button type="button" class="btn btn-primary" data-act="next">Tiếp</button>`;
     view.querySelector('.run').appendChild(bar);
     bindKnownBtn(bar, q.it, () => { const k = st.qs.findIndex((x, j) => j > st.i && x.again && x.it.id === q.it.id); if (k > 0) st.qs.splice(k, 1); });
     bar.querySelector('[data-act=next]').onclick = next;
-    bar.querySelector('[data-mark]').onclick = () => openMarkSheet(q.it.id);
     const nb = bar.querySelector('[data-act=next]');
     nb.focus({ preventScroll: true });
     setKeys(e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); next(); } });

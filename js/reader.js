@@ -51,7 +51,7 @@ export function renderDoc(view, ctx, id, mode = 'doc') {
 function lineHTML(it, t, i, { vi = false } = {}) {
   const me = isDialog(it) && t.who === meKey(it), r = isDialog(it) ? roleOf(it, t.who) : null;
   const cls = isDialog(it) ? `dl${me ? ' dl-me' : ''}` : `tx${t.fmt === 'h' ? ' tx-h' : t.fmt === 'r' ? ' tx-r' : ''}${t.br ? ' tx-br' : ''}`;
-  return `<div class="${cls}" data-i="${i}" role="button" tabindex="0" aria-label="Giải thích câu ${i + 1}">
+  return `<div class="${cls}" data-i="${i}" data-nokj role="button" tabindex="0" aria-label="Giải thích câu ${i + 1}">
     ${r ? `<span class="dl-who">${rich(r.name)}${r.vi ? ` <small>${esc(r.vi)}</small>` : ''}</span>` : ''}
     <div class="dl-line"><p class="dl-jp" lang="ja">${rich(t.jp)}</p>${sayBtn(reading(t.jp))}</div>
     <p class="dl-vi" ${vi ? '' : 'hidden'}>${esc(t.vi)}</p>
@@ -116,7 +116,7 @@ function dichMode(body, ctx, it) {
 // ---------- 3. Đóng vai ----------
 function vaiMode(body, ctx, it) {
   const me = meKey(it), ls = linesOf(it), mine = ls.filter(t => t.who === me);
-  body.innerHTML = `<p>Cậu Cả đóng vai <b>${rich(roleOf(it, me).name)}</b>. App hiện câu người kia nói (có đọc nếu máy có giọng tiếng Nhật); đến lượt mình thì chọn hoặc gõ câu đúng.</p>
+  body.innerHTML = `<p>Bạn đóng vai <b>${rich(roleOf(it, me).name)}</b>. App hiện câu người kia nói (có đọc nếu máy có giọng tiếng Nhật); đến lượt mình thì chọn hoặc gõ câu đúng.</p>
     <form class="setup" onsubmit="return false"><fieldset><legend>Cách trả lời</legend>${chips('how', [['choice', 'Chọn câu'], ['type', 'Tự gõ']], 'choice', false)}</fieldset>
     <button class="btn btn-primary btn-block" data-act="go">Bắt đầu đóng vai</button></form>`;
   const f = body.querySelector('.setup');

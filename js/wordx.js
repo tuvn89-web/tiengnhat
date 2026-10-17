@@ -182,6 +182,6 @@ export function wordDetailHTML(it, { compact = false } = {}) {
     ${replyHTML(it)}
     ${it.note ? `<p class="wd-note">${rich(it.note)}</p>` : ''}
     ${it.flag ? `<p class="wd-flag">Mục này đang được đánh dấu cần kiểm lại.</p>` : ''}
-    ${D.reports[it.id] && !D.reports[it.id]._del ? `<p class="wd-flag">Cậu Cả đã báo sai mục này${D.reports[it.id].note ? ': ' + rich(D.reports[it.id].note) : ''}.</p>` : ''}
+    ${D.reports[it.id] && !D.reports[it.id]._del ? `<p class="wd-flag">Bạn đã báo sai mục này${D.reports[it.id].note ? ': ' + rich(D.reports[it.id].note) : ''}.</p>` : ''}
   </div>`;
 }

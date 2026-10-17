@@ -48,8 +48,6 @@ const PAGES = [
   [/^onbai\/(.+)$/, () => 'Ôn bài cũ', []],
   [/^tonghop\/(.+)$/, () => 'Tình huống thật', ['lotrinh']],
   [/^noiduoc$/, () => 'Nói được gì', ['lotrinh']],
-  [/^sotay$/, () => 'Sổ tay', []],
-  [/^sotay\/(.+)$/, m => 'Sổ: ' + (D.nbooks[decodeURIComponent(m[1])]?.name || (decodeURIComponent(m[1]) === 'star' ? 'Gắn sao' : 'Sai ở bài kiểm tra')), ['sotay']],
   [/^doc$/, () => 'Hội thoại & bài đọc', ['luyen']],
   [/^doc\/([^/?]+)(\?m=\w+)?$/, m => D.items.get(decodeURIComponent(m[1]))?.title || 'Bài đọc', ['doc']],
 ];
@@ -86,6 +84,12 @@ export function initNav(ctx) {
     if (!ctx.inRun) return;
     if (ctx.leaving) { ctx.leaving = false; ctx.inRun = false; ctx.go(ctx.back || '#/', true); return; }
     const run = document.querySelector('#view .run');
+    if (run?.classList.contains('run-lock')) { // luyện từ đã tim: chỉ nút ✕ mới thoát
+      history.pushState({ tntRun: 1 }, '');
+      const { toast } = await import('./util.js');
+      toast('Bấm nút ✕ ở góc trên để thoát.');
+      return;
+    }
     if (run) {
       history.pushState({ tntRun: 1 }, ''); // giữ bài đang làm
       if (run.classList.contains('test')) { run.querySelector('[data-act=quit]')?.click(); return; } // thi thử tự hỏi nộp bài

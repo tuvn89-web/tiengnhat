@@ -15,7 +15,6 @@ import { dueDirs, status, stats } from './srs.js';
 import { ttsReady } from './tts.js';
 import { recForm, weakForms } from './fstat.js';
 import { sentDue, dueSentQs } from './dich.js';
-import { bookSourceOpts } from './notes.js';
 
 const cap = s => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
 const sentHTML = jp => `<p class="after-sent" lang="ja">${rubyHTML(jp, true)}</p>`;
@@ -27,7 +26,7 @@ const backLink = `<a class="back" href="#/luyen">Các dạng bài</a>`;
 function sourceBlock(o, filter, { label = 'Lấy từ nào' } = {}) {
   const cnt = {};
   for (const [k] of SOURCES) cnt[k] = selectItems({ source: k }).filter(filter).length;
-  return `<fieldset><legend>${label}</legend>${chips('source', [...SOURCES.map(([k, l]) => [k, l, cnt[k]]), ...bookSourceOpts(D.vocab, filter)], o.source, false)}</fieldset>
+  return `<fieldset><legend>${label}</legend>${chips('source', SOURCES.map(([k, l]) => [k, l, cnt[k]]), o.source, false)}</fieldset>
     <fieldset><legend>Cấp độ <small>(không chọn = tất cả)</small></legend>${chips('levels', LEVELS.map(l => [l, l]), o.levels || [])}</fieldset>
     <fieldset><legend>Chủ đề <small>(không chọn = tất cả)</small></legend>${chips('topics', topicOpts(), o.topics || [])}</fieldset>`;
 }
@@ -87,7 +86,7 @@ export function buildCau(o) {
 }
 export const renderCau = (view, ctx) => kvGet('pCau', {}).then(o => setupPage(view, ctx, {
   key: 'pCau', title: 'Ghép câu từ ví dụ', route: '#/luyen/cau',
-  intro: 'Sắp xếp các mảnh thành câu ví dụ của những từ Cậu Cả đã học. Một nửa số câu có thêm một mảnh thừa.',
+  intro: 'Sắp xếp các mảnh thành câu ví dụ của những từ bạn đã học. Một nửa số câu có thêm một mảnh thừa.',
   fields: sourceBlock({ source: 'learned', ...o }, it => (it.ex || []).length), read: readSource, build: buildCau,
   empty: 'Chưa có câu nào. Học thêm từ mới, hoặc chọn "Tất cả".',
 }));
@@ -201,7 +200,7 @@ export async function renderNgPhap(view, ctx) {
   const learnedG = gs.filter(g => status(g) !== 'new').map(g => g.id);
   setupPage(view, ctx, {
     key: 'pNg', title: 'Ghép câu theo ngữ pháp', route: '#/luyen/ngphap',
-    intro: 'App ghép mẫu ngữ pháp với cụm hay đi kèm của động từ Cậu Cả đã học thành câu mới, kèm câu dịch. Dạng bài: sắp xếp câu, ghép câu có mảnh thừa, chọn câu đúng nghĩa.',
+    intro: 'App ghép mẫu ngữ pháp với cụm hay đi kèm của động từ bạn đã học thành câu mới, kèm câu dịch. Dạng bài: sắp xếp câu, ghép câu có mảnh thừa, chọn câu đúng nghĩa.',
     fields: `<fieldset><legend>Mẫu ngữ pháp <small>(không chọn = ${learnedG.length ? 'các mẫu đã học' : 'tất cả'})</small></legend>${chips('pats', gs.map(g => [g.id, rich(g.pattern), undefined, true]), o.pats)}</fieldset>` + sourceBlock(o, it => verbInfo(it), { label: 'Động từ lấy từ' }),
     read: f => ({ ...readSource(f), pats: readChips(f, 'pats').length ? readChips(f, 'pats') : learnedG }),
     build: buildNgPhap,
@@ -309,7 +308,7 @@ export async function renderThe(view, ctx) {
   const lf = [...learnedForms()];
   const f = await setupPage(view, ctx, {
     key: 'pThe', title: 'Thể động từ trong câu', route: '#/luyen/the',
-    intro: 'Câu ngẫu nhiên ghép từ cụm hay đi kèm của động từ đã học, chia theo các thể Cậu Cả đã học: bị động, sai khiến, sai khiến bị động, khả năng… Mỗi câu có 4 phương án chỉ khác nhau ở thể.',
+    intro: 'Câu ngẫu nhiên ghép từ cụm hay đi kèm của động từ đã học, chia theo các thể bạn đã học: bị động, sai khiến, sai khiến bị động, khả năng… Mỗi câu có 4 phương án chỉ khác nhau ở thể.',
     fields: `<fieldset><legend>Thể đã học <small>(chạm để bật/tắt — app nhớ cho mọi máy)</small></legend>${chips('forms', Object.keys(FORMS).map(k => [k, `${FORMS[k]} · ${FORM_LEVEL[k]}`]), lf)}</fieldset>
       <fieldset><legend>Dạng câu hỏi</legend>${chips('qt', FQT, o.qt, false)}</fieldset>` + sourceBlock(o, it => verbInfo(it), { label: 'Động từ lấy từ' }),
     read: f => ({ ...readSource(f), forms: readChips(f, 'forms'), qt: readChip(f, 'qt') }),
@@ -451,7 +450,7 @@ export function renderHub(view) {
   const due = mixedDue(), nDue = due.vocab.length + due.kanji.length + due.grammar.length + due.sent.length;
   const card = (href, ic, t, d, n) => `<a class="mode" href="${href}">${icon(ic)}<span><b>${t}</b><small>${rich(d)}</small></span>${n != null ? `<span class="mode-n">${n}</span>` : ''}</a>`;
   view.innerHTML = `<h1 class="h1">Luyện tập</h1>${wtabs('hub')}
-    <p class="muted small">Mặc định mọi bài chỉ dùng từ Cậu Cả đã học; đổi được ở phần "Lấy từ nào" của từng bài.</p>
+    <p class="muted small">Mặc định mọi bài chỉ dùng từ bạn đã học; đổi được ở phần "Lấy từ nào" của từng bài.</p>
     ${nDue ? `<a class="btn btn-primary btn-block" href="#/onhon">Ôn hỗn hợp hôm nay · ${nDue} mục đến hạn</a>` : ''}
     <h2 class="h2">Từ vựng</h2>
     <nav class="modes">
@@ -482,6 +481,5 @@ export function renderHub(view) {
     <nav class="modes">
       ${card('#/luyen/dem', 'list', 'Đếm số', 'Trợ số từ có âm biến: いっぽん, さんぼん, ろっぴき')}
       ${card('#/chuhan/on', 'han', 'Ôn chữ Hán', 'Chữ → Hán Việt, Hán Việt → chữ')}
-      ${card('#/sotay', 'bookmark', 'Sổ tay', 'Luyện riêng các từ đã đánh dấu')}
     </nav>`;
 }

@@ -2,7 +2,6 @@
 import { esc, rich, rubyHTML, blankHTML, hlText, stripHL, plain, reading, shuffle, wordHTML, autoChunks, freeRuns } from './util.js';
 import { D, LEVELS } from './data.js';
 import { status, dueDirs, errCount, isStar, stats } from './srs.js';
-import { isBookSrc, matchSrc, bookSourceOpts } from './notes.js';
 import { ttsReady } from './tts.js';
 import { conjugate, wrongForms, ruleText, FORMS, FORM_LEVEL, verbInfo } from './conj.js';
 import { answerOf, distractors, readHint } from './quiz.js';
@@ -170,7 +169,6 @@ export function pickGrammar({ source = 'all', levels = [], ids = [] } = {}) {
   else if (source === 'new') pool = pool.filter(g => status(g) === 'new');
   else if (source === 'wrong') pool = pool.filter(g => errCount(g) > 0);
   else if (source === 'star') pool = pool.filter(g => isStar(g.id));
-  else if (isBookSrc(source)) pool = pool.filter(g => matchSrc(g.id, source));
   return pool;
 }
 const EX_TYPES = ['blank', 'listen', 'order', 'build', 'star'];
@@ -249,7 +247,7 @@ export async function renderGrammarPractice(view, ctx, onlyId, preset) {
     <form class="setup" onsubmit="return false">
       <fieldset><legend>Dạng bài</legend>${chips('type', types, o.type, false)}</fieldset>
       <fieldset class="f-forms"><legend>Thể cần chia</legend>${chips('forms', Object.entries(FORMS).map(([k, v]) => [k, `${v} (${FORM_LEVEL[k]})`]), o.forms)}</fieldset>
-      <fieldset class="f-src"><legend>Lấy mẫu nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['new', 'Mẫu mới', st.new], ['wrong', 'Hay sai'], ['star', 'Gắn sao'], ...bookSourceOpts(D.grammar), ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
+      <fieldset class="f-src"><legend>Lấy mẫu nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['new', 'Mẫu mới', st.new], ['wrong', 'Hay sai'], ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
       <fieldset class="f-src"><legend>Cấp độ <small>(không chọn = tất cả)</small></legend>${chips('levels', LEVELS.map(l => [l, l]), o.levels)}</fieldset>
       <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30].map(n => [String(n), String(n)]), String(o.count), false)}</fieldset>
       <p class="setup-count" aria-live="polite"></p>

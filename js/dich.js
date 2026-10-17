@@ -12,7 +12,6 @@ import { chips, bindChips, readChip, readChips } from './ui.js';
 import { kvGet, kvSet } from './db.js';
 import { ttsReady } from './tts.js';
 import { normKana } from './romaji.js';
-import { isBookSrc, matchSrc, bookSourceOpts } from './notes.js';
 
 // ---------- kho câu ----------
 const hash = s => { let h = 5381; for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0; return (h >>> 0).toString(36); };
@@ -57,7 +56,7 @@ export function judgeVi(ref, typed) {
   const ok = ratio >= 0.7 && negR === negT;
   const marked = String(ref).split(/(\s+)/).map(tok => { const w = vnorm(tok); return !w || STOP.has(w) ? esc(tok) : `<span class="${hit(w) ? 'vh-hit' : 'vh-miss'}">${esc(tok)}</span>`; }).join('');
   const html = `<p class="${ok ? 'after-ok' : 'after-msg'}">${ok ? 'Đạt' : 'Chưa đạt'} — khớp ${nk}/${key.length} từ chính${negR !== negT ? ` · câu gốc ${negR ? 'là câu <b>phủ định</b>' : '<b>không</b> phủ định'}` : ''}</p>
-    <p class="vh">Bản mẫu: ${marked}</p><p class="small muted">Cậu Cả dịch: ${esc(typed)}</p><p class="small muted">Chữ gạch dưới đỏ: từ chính bản dịch chưa có. Nghĩa đúng mà dùng từ khác thì bấm "Tôi dịch đúng".</p>`;
+    <p class="vh">Bản mẫu: ${marked}</p><p class="small muted">Bạn dịch: ${esc(typed)}</p><p class="small muted">Chữ gạch dưới đỏ: từ chính bản dịch chưa có. Nghĩa đúng mà dùng từ khác thì bấm "Tôi dịch đúng".</p>`;
   return { ok, html, ratio };
 }
 
@@ -85,7 +84,7 @@ export function judgeJa(s, typed) {
   const html = `<p class="${ok ? 'after-ok' : 'after-msg'}">${ok ? 'Đúng' : 'Chưa khớp câu mẫu'}</p>
     <p class="after-sent" lang="ja">${rubyHTML(stripHL(s.jp), true)}</p>
     ${vs.length > 1 ? `<p class="small muted">Cũng đúng: ${vs.slice(1, 4).map(v => `<span lang="ja">${rich(v)}</span>`).join(' · ')}</p>` : ''}
-    <p class="small muted">Cậu Cả gõ: <span lang="ja">${esc(typed)}</span></p>
+    <p class="small muted">Bạn gõ: <span lang="ja">${esc(typed)}</span></p>
     ${ok ? '' : '<p class="small muted">App so cả câu (chữ Hán hay kana đều được). Dịch đúng nghĩa nhưng khác cách nói (thường ↔ lịch sự, từ khác) thì bấm "Tôi dịch đúng".</p>'}`;
   return { ok, html };
 }
@@ -169,7 +168,6 @@ export function pickSentences(o) {
     if (o.learned && s.kind !== 'd' && status(s.src) === 'new') return false;
     if (o.src === 'due') return dueDirs(s).length > 0;
     if (o.src === 'wrong') return errCount(s) > 0;
-    if (isBookSrc(o.src)) return matchSrc(s.src.id, o.src);
     if (o.src === 'new') return !P.has(s.id);
     return true;
   });
@@ -217,7 +215,7 @@ export async function renderDich(view, ctx, preset) {
       <fieldset><legend>Cách làm</legend>${chips('how', HOWS.filter(([h]) => h !== 'listen' || ttsReady()), o.how, false)}</fieldset>
       <fieldset><legend>Câu lấy từ</legend>${chips('kinds', [['v', 'Câu ví dụ của từ vựng'], ['g', 'Câu ví dụ ngữ pháp'], ...(all.some(s => s.kind === 'd') ? [['d', 'Câu hội thoại, bài đọc']] : [])], o.kinds)}</fieldset>
       <fieldset><legend>Đến cấp <small>(chỉ lấy câu từ cấp này trở xuống)</small></legend>${chips('level', lv.map(l => [l, l]), lv.includes(o.level) ? o.level : lv[lv.length - 1], false)}</fieldset>
-      <fieldset><legend>Ôn lại</legend>${chips('src', [...SRCS.map(([k, l]) => [k, l, k === 'due' ? due : k === 'wrong' ? wrong : undefined]), ...bookSourceOpts([...D.vocab, ...D.grammar]).map(([k, l]) => [k, l])], o.src, false)}</fieldset>
+      <fieldset><legend>Ôn lại</legend>${chips('src', [...SRCS.map(([k, l]) => [k, l, k === 'due' ? due : k === 'wrong' ? wrong : undefined])], o.src, false)}</fieldset>
       <label class="check"><input type="checkbox" data-o="learned" ${o.learned ? 'checked' : ''}> Chỉ câu của từ / mẫu ngữ pháp đã học</label>
       <label class="check"><input type="checkbox" data-o="hint" ${o.hint ? 'checked' : ''}> Việt → Nhật: cho biết mẫu ngữ pháp cần dùng (câu ngữ pháp)</label>
       <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30].map(n => [String(n), String(n)]), String(o.count), false)}</fieldset>

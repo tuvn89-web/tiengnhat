@@ -7,7 +7,6 @@ import { chips, bindChips, readChip, readChips, topicOpts, emptyState, wtabs } f
 import { selectItems, sameMeaning } from './quiz.js';
 import { kvGet, kvSet } from './db.js';
 import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from './nav.js';
-import { bookSourceOpts } from './notes.js';
 
 export const PAIR_TYPES = [['vi-kana', 'Việt – chữ mềm/cứng'], ['vi-kanji', 'Việt – Kanji'], ['kana-kanji', 'Chữ mềm/cứng – Kanji (không furigana)'],
   ['ru-masu', 'Thể từ điển – thể ます'], ['tu-tha', 'Tự động từ – tha động từ'], ['trai-nghia', 'Trái nghĩa'], ['chu-hv', 'Chữ Hán – âm Hán Việt (không furigana)']];
@@ -72,7 +71,7 @@ export async function renderMatchSetup(view, ctx) {
     <h1 class="h1">Luyện tập</h1>${wtabs('match')}
     <form class="setup" onsubmit="return false">
       <fieldset><legend>Kiểu ghép</legend>${chips('type', PAIR_TYPES, o.type, false)}</fieldset>
-      <fieldset><legend>Lấy từ nào</legend>${chips('source', [['learned', 'Từ đã học', st.total - st.new], ['today', 'Học hôm nay'], ['week', '7 ngày qua'], ['due', 'Đến hạn ôn', st.due], ['wrong', 'Hay sai'], ['star', 'Gắn sao'], ...bookSourceOpts(D.vocab), ['all', 'Tất cả', st.total]], o.source === 'new' ? 'learned' : o.source, false)}</fieldset>
+      <fieldset><legend>Lấy từ nào</legend>${chips('source', [['learned', 'Từ đã học', st.total - st.new], ['today', 'Học hôm nay'], ['week', '7 ngày qua'], ['due', 'Đến hạn ôn', st.due], ['wrong', 'Hay sai'], ['all', 'Tất cả', st.total]], o.source === 'new' ? 'learned' : o.source, false)}</fieldset>
       <fieldset><legend>Cấp độ <small>(không chọn = tất cả)</small></legend>${chips('levels', LEVELS.map(l => [l, l]), o.levels)}</fieldset>
       <fieldset><legend>Chủ đề <small>(không chọn = tất cả)</small></legend>${chips('topics', topicOpts(), o.topics)}</fieldset>
       <fieldset><legend>Số màn</legend>${chips('rounds', [1, 2, 3, 4, 5].map(n => [String(n), String(n)]), String(o.rounds), false)}</fieldset>
