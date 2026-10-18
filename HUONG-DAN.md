@@ -499,3 +499,12 @@ Nhân vật dùng lại từ N5; thêm bà chủ nhà (大家[おおや]さん) 
 - Có thêm các chữ **không thuộc danh sách JLPT nhưng hay gặp** ở xưởng và đời sống, người Nhật thường viết bằng kana: 蓋[ふた], 貼[は]る, 整頓[せいとん], 石鹸[せっけん], 牡蠣[かき], 叩[たた]く, 掴[つか]む, 撒[ま]く, 茹[ゆ]でる, 炒[いた]める, 紐[ひも], 袖[そで]… Các thẻ này ghi cấp N1 (chữ khó), học để đọc được khi gặp.
 - Kho hiện có **679 thẻ chữ Hán**; còn khoảng **660 chữ**.
 - Bản này **chỉ có dữ liệu**. Gói cập nhật tính theo kho GitHub hiện tại, nên **đã gồm luôn v24**; nếu chưa đưa v24 lên thì chỉ cần dùng gói v25.
+
+## 35. Cập nhật dữ liệu v26 (18/10/2026): thêm 210 thẻ chữ Hán (xong N3, vào N2)
+
+- Thêm 7 gói `chuhan-24` … `chuhan-30` (210 chữ): xong phần N3 và đi tiếp N2 — 温, 包, 量, 汚, 防, 混, 骨, 管, 毒, 燃, 印, 減, 細, 塩, 袋, 掃, 禁, 血, 油, 乾, 替, 湿, 清, 蔵, 録, 停, 触, 巻, 庫, 材, 板, 氷, 腰, 詰, 床, 個, 沸, 泉, 焼, 臓, 補, 輸, 造, 預, 届, 換, 震, 含, 底, 損, 改, 査, 測, 溶, 療, 硬, 脂, 針, 額, 厚, 帽, 薄, 械, 皮, 挟, 乳, 卵, 巾, 湯, 甘, 線, 荷, 軍, 軽, 瓶, 缶, 塗, 専…
+- Có vài chữ **ngoài danh sách JLPT nhưng gặp ở xưởng**, thường viết bằng kana: 秤[はかり], 錆[さび], 吊[つ]るす, 溢[あふ]れる. Các thẻ này ghi cấp N1.
+- Ghi chú ưu tiên từ gặp ở xưởng và giấy tờ: 要冷蔵[ようれいぞう], 非常停止[ひじょうていし], 巻[ま]き込[こ]まれ, 挟[はさ]まれ注意[ちゅうい], 手袋[てぶくろ]を交換[こうかん], 内臓[ないぞう]を取[と]る, 軍手[ぐんて], 布巾[ふきん]と雑巾[ぞうきん], 熱湯注意[ねっとうちゅうい], 源泉徴収票[げんせんちょうしゅうひょう], 医療費控除[いりょうひこうじょ], 委任状[いにんじょう], 欠勤届[けっきんとどけ]…
+- Gói `chuhan-23` được sửa nhẹ phần ghi chú (bỏ các chữ Hán để trần trong ngoặc, thay bằng từ có furigana).
+- Kho hiện có **889 thẻ chữ Hán**; còn khoảng **450 chữ**.
+- Bản này **chỉ có dữ liệu**, không đổi mã app.
