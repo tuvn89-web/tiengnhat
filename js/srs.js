@@ -47,15 +47,23 @@ export async function refreshDue(id, dir) {
   onChange();
 }
 export const mastered = (id, dir) => !!P.get(id)?.d?.[progDir(dir)]?.m;
+// Mục đã bấm "Đã thuộc" (mọi chiều học đều có cờ thuộc nhuần nhuyễn)
+export const allMastered = it => {
+  const r = P.get(it.id);
+  const ds = TYPE_DIRS[itemType(it)].filter(d => d !== 'kr' || it.kanji);
+  return !!r && ds.every(d => r.d?.[d]?.m);
+};
 // Học từ mới (nút "Đã học"): mọi hướng vào hộp 1, ôn lần đầu ngày mai. "Biết rồi": vào hộp 5 (đã thuộc), 16 ngày sau ôn lại một lần.
+// Nút "Đã thuộc" trong lượt ôn (v27): 'mastered' = hộp 5 + cờ thuộc nhuần nhuyễn ở mọi chiều → không bao giờ đến hạn ôn nữa.
 export async function setLearned(it, level = 'learned') {
   const now = Date.now();
   const r = P.get(it.id) ? structuredClone(P.get(it.id)) : { id: it.id, d: {}, t: 0 };
-  const b = level === 'known' ? 5 : 1;
+  const b = level === 'known' || level === 'mastered' ? 5 : 1;
   for (const d of TYPE_DIRS[itemType(it)]) {
     if (d === 'kr' && !it.kanji) continue;
     const x = r.d[d] || { b: 0, due: 0, ok: 0, ng: 0, t: 0 };
     x.b = Math.max(x.b, b); x.due = startOfDay(now) + IV[x.b] * DAY; x.t = now;
+    if (level === 'mastered') x.m = 1;
     r.d[d] = x;
   }
   if (!r.first) r.first = now;

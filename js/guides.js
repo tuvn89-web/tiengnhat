@@ -30,6 +30,7 @@ export const GUIDES = [
     ['p', 'Ở **Học từ mới**, mỗi thẻ có 3 nút:'],
     ['ul', ['**Đã học**: từ vào hộp 1, ngày mai app hỏi lại lần đầu.', '**Biết rồi**: từ bạn đã biết chắc — vào thẳng hộp 5, 16 ngày sau hỏi lại một lần để kiểm.', '**Để sau**: bỏ qua, lần sau từ này vẫn nằm trong hàng từ mới.']],
     ['p', 'Bấm nhầm thì vuốt sang phải (hoặc nút ←) để lật lại thẻ trước và chọn lại.'],
+    ['p', '**Nút Đã thuộc** (hiện sau khi trả lời ở các lượt ôn, trắc nghiệm, ôn chữ Hán, luyện ngữ pháp, câu dịch): bấm thì mục đó thuộc hẳn — **không bao giờ đến hạn ôn nữa**. Nút đổi thành "✓ Đã thuộc"; bấm lần nữa (trước khi bấm Tiếp) để bỏ. Mục đã thuộc không còn nằm trong phần đến hạn ôn; chỉ gặp lại khi bạn tự chọn luyện (luyện cả bài, chọn nguồn "Đã thuộc" hoặc "Tất cả"). Lúc tự luyện mà làm sai thì mục đó trở lại hộp 1 như thường.'],
     ['p', 'Biết sẵn nhiều từ thì đừng bấm "Biết rồi" từng từ — làm **Xếp lớp nhanh** để app tự đánh dấu cả cấp.'],
     ['a', 'Kiểm tra trình độ', '#/trinhdo']] },
   { id: 'furi', g: 'Cho người mới', t: 'Furigana, chữ Hán và âm Hán Việt', b: [

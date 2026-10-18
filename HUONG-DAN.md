@@ -508,3 +508,19 @@ Nhân vật dùng lại từ N5; thêm bà chủ nhà (大家[おおや]さん) 
 - Gói `chuhan-23` được sửa nhẹ phần ghi chú (bỏ các chữ Hán để trần trong ngoặc, thay bằng từ có furigana).
 - Kho hiện có **889 thẻ chữ Hán**; còn khoảng **450 chữ**.
 - Bản này **chỉ có dữ liệu**, không đổi mã app.
+
+## 36. Bản v27 (18/10/2026): nút "Đã thuộc" mới, khay nút và thông báo đứng chỗ cố định
+
+- **Nút "Đã thuộc"** (hiện sau khi trả lời ở các lượt ôn, trắc nghiệm, ôn chữ Hán, luyện ngữ pháp, câu dịch):
+  - Bấm thì mục đó **thuộc hẳn — không bao giờ đến hạn ôn nữa** (trước đây: 16 ngày sau hỏi lại một lần).
+  - Không còn hiện thông báo nổi. Nút đổi ngay tại chỗ thành **"✓ Đã thuộc"** (tô xanh). **Bấm lần nữa** (trước khi bấm Tiếp) để bỏ, tiến độ trở về như trước.
+  - Nút rộng hơn và rộng cố định, nên đổi chữ không bị xuống dòng, nút Tiếp cũng không co giãn — ở mọi cỡ chữ, cỡ nút trong Cài đặt.
+  - Mục đã thuộc chỉ gặp lại khi tự chọn luyện (luyện cả bài, nguồn "Đã thuộc" hoặc "Tất cả"). Tự luyện mà làm sai thì mục đó trở lại hộp 1 như thường.
+  - Nút "Biết rồi" ở Học từ mới giữ như cũ (16 ngày sau hỏi lại một lần để kiểm).
+- **Thứ tự xếp từ dưới lên**: thanh công cụ (đáy màn hình điện thoại / thanh bên trên PC) → **khay nút** (Đã thuộc, Tiếp; Để sau, Biết rồi, Đã học…) ghim ngay trên thanh công cụ → **thông báo** ngay trên khay nút.
+- **Thông báo đứng một chỗ cố định**, không chạy theo khi nội dung trên màn hình thay đổi (bỏ cách "tự tìm chỗ trống" của v22):
+  - Màn có khay nút: thông báo đứng trên chỗ của khay, kể cả lúc chưa trả lời (khay chưa hiện) — khay hiện ra thông báo không nhảy.
+  - Màn không có khay: thông báo ngay trên thanh công cụ.
+  - Khi đang có thông báo, cuối trang chừa thêm chỗ để kéo được phần nội dung bị che lên.
+  - Tối đa 2 thông báo cùng lúc, cái mới nằm sát khay. Mỗi cái hiện 4 giây, có nút ✕ đóng ngay.
+- Gói cập nhật gồm các tệp mã đã đổi (`index` không đổi): `sw.js`, `css/app.css`, `js/util.js`, `js/app.js`, `js/srs.js`, `js/quiz.js`, `js/drill.js`, `js/guides.js`, `HUONG-DAN.md`. Mở app khi có mạng, app báo có bản mới thì bấm cập nhật; Cài đặt → Phiên bản app phải hiện **v27**.

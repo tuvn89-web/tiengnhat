@@ -133,8 +133,9 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     const commit = () => {
       if (committed) return; committed = true; st.pending = null;
       const okv = entry ? entry.ok : ok;
-      if (q.review && first && !noReview) review(q.review.id, q.review.dir, okv);
+      const done = q.review && first && !noReview ? review(q.review.id, q.review.dir, okv) : null;
       if (first && q.onAnswer) q.onAnswer(okv);
+      return done;
     };
     if (q.kind === 'type') st.pending = commit; else commit();
     if (test) { st.i++; return show(); }
@@ -187,7 +188,8 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     const kItem = q.review && !noReview ? (D.items.get(q.review.id) || (q.review.id.startsWith('s:') ? { id: q.review.id } : null)) : null;
     bar.innerHTML = `${kItem ? knownBtnHTML(kItem) : ''}<button type="button" class="btn btn-primary" data-act="next">Tiếp</button>`;
     view.querySelector('.run').appendChild(bar);
-    if (kItem) bindKnownBtn(bar, kItem, () => { if (againQ) { const k = st.qs.indexOf(againQ); if (k > st.i) st.qs.splice(k, 1); } });
+    // câu tự gõ: ghi kết quả trước rồi mới đánh dấu thuộc (để kết quả ghi sau không xoá dấu thuộc)
+    if (kItem) bindKnownBtn(bar, kItem, () => { if (againQ) { const k = st.qs.indexOf(againQ); if (k > st.i) { st.qs.splice(k, 1); return () => st.qs.splice(k, 0, againQ); } } }, () => st.pending?.());
     const nb = bar.querySelector('[data-act=next]');
     nb.onclick = () => { st.pending?.(); st.i++; show(); };
     nb.focus({ preventScroll: true });

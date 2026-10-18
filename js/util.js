@@ -13,7 +13,7 @@ export function isKanjiCh(ch) {
 }
 export const hasKanji = s => [...(s || '')].some(isKanjiCh);
 
-export const APP_VERSION = 'v22 · 18/10/2026'; // đổi cùng lúc với VERSION trong sw.js
+export const APP_VERSION = 'v27 · 18/10/2026'; // đổi cùng lúc với VERSION trong sw.js
 
 // Cú pháp: 漢字[よみ] — phần gắn cách đọc là chuỗi kanji liền trước "[".  [[...]] = phần ngữ pháp.
 // Dấu [ ] không đứng sau kanji, hoặc bên trong không phải kana, thì giữ nguyên như chữ thường.
@@ -217,101 +217,62 @@ export function fmtDate(t) {
   return `${p(d.getDate())}/${p(d.getMonth() + 1)}/${d.getFullYear()} ${p(d.getHours())}:${p(d.getMinutes())}`;
 }
 
-// Thông báo nổi (v22): KHÔNG che bất kỳ nút nào — nút đáp án, thanh nút ghim đáy, thanh điều hướng, nút trên đầu trang…
-// 1) Tìm một khoảng dọc trống (không có nút, ô nhập, liên kết) và đặt thông báo vào đó, ưu tiên càng thấp càng tốt.
-// 2) Hết chỗ: thu gọn thành một dòng nhỏ bên phải rồi tìm lại.
-// 3) Vẫn hết chỗ: thông báo nằm vào một "bến" trong dòng trang ở cuối trang, ngay trên các thanh ghim đáy. Bến chiếm chỗ thật
-//    trong trang nên mọi nút vẫn cuộn tới được, không nút nào bị che mất.
-// Màn hình đổi (câu mới, cuộn, xoay máy) thì đặt lại. Mỗi thông báo hiện 4 giây và có nút ✕ để đóng ngay.
-const TOAST_MS = 4000;
-const HIT = 'button, a[href], input, select, textarea, summary, label, [role="button"], [data-act], .next-bar, .heart-bar, #nav, #topbar';
-// vùng nội dung chính (đề bài, câu hỏi): cố không che, nhưng nếu hết chỗ thì vẫn ưu tiên không che nút
-const SOFT = '.label-card, [class^="prompt-"], h1';
-let toastObs = null, toastRaf = 0;
-const allToasts = () => [...document.querySelectorAll('#toasts .toast, .toast-dock .toast')];
-function hitRects(sel = HIT) {
-  const out = [];
-  for (const el of document.querySelectorAll(sel)) {
-    if (el.closest('#toasts, .toast-dock')) continue;
-    const r = el.getBoundingClientRect();
-    if (r.width < 2 || r.height < 2 || r.bottom <= 0 || r.top >= innerHeight || r.right <= 0 || r.left >= innerWidth) continue;
-    if (getComputedStyle(el).visibility === 'hidden') continue;
-    out.push(r);
-  }
-  return out;
-}
-// vị trí top (px) để hộp cao h, ngang [x1, x2] không đè nút nào; null = không có chỗ
-function freeTop(rects, x1, x2, h, pad = 6) {
-  const lo = 4, hi = innerHeight - h - 4;
-  const busy = rects.filter(r => r.right > x1 && r.left < x2).map(r => [r.top - pad, r.bottom + pad]);
-  const cands = [hi, ...busy.map(b => b[0] - h), ...busy.map(b => b[1])].filter(y => y >= lo && y <= hi).sort((a, b) => b - a);
-  return cands.find(y => busy.every(([t, b]) => y + h <= t || y >= b)) ?? null;
-}
-// khoảng cách từ đáy màn hình tới mép trên của các thanh ghim đáy đang hiện (thanh điều hướng, thanh nút Tiếp…)
-function bottomBars() {
-  let top = innerHeight;
-  for (const el of document.querySelectorAll('#nav, .next-bar, .heart-bar')) {
-    if (!el.offsetParent && getComputedStyle(el).position !== 'fixed') continue;
-    const cs = getComputedStyle(el); if (cs.display === 'none') continue;
-    const r = el.getBoundingClientRect();
-    if (r.height && r.bottom >= innerHeight - 2 && r.top < top) top = r.top;
-  }
-  return Math.max(0, innerHeight - top);
-}
-function placeToasts() {
+// Thông báo (v27): đứng MỘT CHỖ CỐ ĐỊNH, không chạy theo nội dung. Xếp từ dưới lên:
+//   thanh công cụ (đáy điện thoại / thanh bên PC) → khay nút (Đã thuộc, Tiếp…) → thông báo.
+// Màn có khay (lượt luyện, học từ mới, bài học có thanh tim): thông báo đứng trên chỗ của khay, kể cả lúc khay chưa hiện.
+// Màn không có khay: ngay trên thanh công cụ. Vị trí do CSS quyết định (.toasts, --tray-b, --tray-h).
+// Tối đa 2 thông báo, cái mới nằm sát khay; thông báo không có nút bị cái mới thay. Mỗi cái hiện 4 giây, có nút ✕.
+// Khi có thông báo: cuối trang chừa thêm chỗ (--toast-sp) để kéo được phần bị che lên; giữ chỗ đó tới khi đổi trang để trang không giật.
+const TOAST_MS = 4000, TOAST_MAX = 2;
+const rootStyle = document.documentElement.style;
+const allToasts = () => [...document.querySelectorAll('#toasts .toast')];
+let toastSp = 0;
+function toastSpace() {
   const box = $('#toasts');
-  if (!box) return;
-  const ts = allToasts();
-  let dock = document.querySelector('.toast-dock');
-  if (!ts.length) { box.classList.remove('toast-compact'); dock?.remove(); toastObs?.disconnect(); toastObs = null; return; }
-  for (const t of ts) if (t.parentNode !== box) box.appendChild(t);   // đưa về hộp nổi để đo
-  dock?.remove();
-  const hard = hitRects(), rects = [...hard, ...hitRects(SOFT)];
-  const tryAt = () => {
-    box.style.top = '0px'; box.style.bottom = 'auto';
-    const kids = [...box.children].map(c => c.getBoundingClientRect());
-    const x1 = Math.min(...kids.map(r => r.left)), x2 = Math.max(...kids.map(r => r.right));
-    return freeTop(rects, x1, x2, box.offsetHeight);
-  };
-  box.classList.remove('toast-compact');
-  let y = tryAt();
-  if (y == null) { box.classList.add('toast-compact'); y = tryAt(); }
-  if (y != null) { box.style.top = `${Math.round(y)}px`; }
-  else {
-    box.classList.remove('toast-compact');
-    dock = document.createElement('div');
-    dock.className = 'toast-dock';
-    dock.style.bottom = `${bottomBars() + 8}px`;
-    $('#view').after(dock);
-    for (const t of ts) dock.appendChild(t);
-  }
-  if (!toastObs) {
-    const mine = n => n.nodeType !== 1 || n.classList.contains('toast') || n.classList.contains('toast-dock');
-    toastObs = new MutationObserver(recs => {
-      if (!recs.some(r => !(r.target.closest?.('#toasts, .toast-dock')) && ![...r.addedNodes, ...r.removedNodes].every(mine))) return;
-      cancelAnimationFrame(toastRaf); toastRaf = requestAnimationFrame(placeToasts);
-    });
-    toastObs.observe(document.body, { childList: true, subtree: true });
-  }
+  const h = allToasts().length ? box.offsetHeight + 8 : 0;
+  if (h > toastSp) { toastSp = h; rootStyle.setProperty('--toast-sp', `${h}px`); }
+}
+// gọi khi đổi trang: chỗ chừa chỉ còn bằng thông báo đang hiện (nếu có)
+export function toastNewPage() {
+  toastSp = 0; rootStyle.setProperty('--toast-sp', '0px');
+  toastSpace();
+}
+// khay thật cao hơn mức dự phòng (chữ to làm nút xuống dòng) thì đặt thông báo theo chiều cao thật
+function trayHeight() {
+  const bar = document.querySelector('#view .next-bar');
+  if (bar && bar.getClientRects().length) rootStyle.setProperty('--tray-real', `${bar.offsetHeight}px`);
+  else rootStyle.removeProperty('--tray-real');
 }
 export function toast(msg, { action, onAction, ms = TOAST_MS } = {}) {
   const box = $('#toasts');
   allToasts().filter(t => !t.classList.contains('has-action')).forEach(t => t.remove()); // thông báo mới thay thông báo cũ
+  const keep = allToasts();
+  keep.slice(0, Math.max(0, keep.length - (TOAST_MAX - 1))).forEach(t => t.remove());     // tối đa 2 cái
   const el = document.createElement('div');
   el.className = 'toast' + (action ? ' has-action' : '');
   el.setAttribute('role', 'status');
   el.innerHTML = `<span class="toast-t">${esc(msg)}</span>` + (action ? `<button type="button" class="btn btn-sm btn-ghost toast-a">${esc(action)}</button>` : '') +
     '<button type="button" class="toast-x" aria-label="Đóng thông báo">✕</button>';
-  const close = () => { if (!el.isConnected) return; el.remove(); placeToasts(); };
+  const close = () => { if (el.isConnected) el.remove(); };
   if (action) el.querySelector('.toast-a').onclick = () => { onAction?.(); close(); };
   el.querySelector('.toast-x').onclick = close;
+  trayHeight();
   box.appendChild(el);
-  placeToasts();
+  toastSpace();
   setTimeout(close, ms);
   return el;
 }
-addEventListener('resize', () => { if (allToasts().length) placeToasts(); });
-addEventListener('scroll', () => { if (allToasts().length) { cancelAnimationFrame(toastRaf); toastRaf = requestAnimationFrame(placeToasts); } }, { passive: true });
+// cột nội dung (để khay nút và thông báo canh thẳng với nội dung trang, cả khi có/không có thanh cuộn)
+function syncCol() {
+  const v = $('#view');
+  if (!v) return;
+  const r = v.getBoundingClientRect(), cs = getComputedStyle(v);
+  const l = r.left + parseFloat(cs.paddingLeft), rr = document.documentElement.clientWidth - (r.right - parseFloat(cs.paddingRight));
+  rootStyle.setProperty('--col-l', `${Math.round(l)}px`);
+  rootStyle.setProperty('--col-r', `${Math.max(0, Math.round(rr))}px`);
+}
+if ($('#view')) { syncCol(); new ResizeObserver(syncCol).observe($('#view')); }
+addEventListener('resize', syncCol);
 
 export function download(name, text) {
   const blob = new Blob([text], { type: 'application/json' });

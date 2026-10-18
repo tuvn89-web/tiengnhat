@@ -1,7 +1,7 @@
 import { esc, wordHTML, wordKey, normVi, shuffle, beep, buzz, icon, toast, startOfDay, DAY, plain } from './util.js';
 import { D, LEVELS, TOPICS, logAct, actOf } from './data.js';
 import { S } from './settings.js';
-import { review, status, dueDirs, errCount, isStar, toggleStar, stats, progDir, learnedSince, setLearned, progSnapshot, progRestore } from './srs.js';
+import { review, status, dueDirs, errCount, isStar, toggleStar, stats, progDir, learnedSince, setLearned, progSnapshot, progRestore, allMastered } from './srs.js';
 import { runLearn, learnCardHTML, learnBarHTML, applyDecision } from './learn.js';
 import { speak, ttsReady } from './tts.js';
 import { chips, bindChips, readChip, readChips, bindSay, sayBtn, wordDetailHTML, topicOpts, emptyState, wtabs } from './ui.js';
@@ -205,17 +205,33 @@ export async function renderQuizSetup(view, ctx) {
   };
 }
 
-// ---------- nút "Đã thuộc" trong lượt ôn: đánh dấu thuộc hẳn (hộp 5, 16 ngày sau hỏi lại một lần) ----------
-export const knownBtnHTML = it => (status(it) === 'known' ? '' : `<button type="button" class="btn btn-ghost btn-sm" data-act="known" title="Không cần ôn nhiều — 16 ngày sau hỏi lại một lần">Đã thuộc</button>`);
-export function bindKnownBtn(root, it, onDone) {
+// ---------- nút "Đã thuộc" trong lượt ôn (v27) ----------
+// Bấm: thuộc hẳn — không bao giờ đến hạn ôn nữa. Bấm lần nữa (trước khi bấm Tiếp): bỏ, tiến độ về như trước.
+// Đổi ngay tại nút, không hiện thông báo. Nút rộng cố định nên đổi chữ không xuống dòng.
+const KNOWN_OFF = 'Đã thuộc', KNOWN_ON = '✓ Đã thuộc';
+export const knownBtnHTML = it => (allMastered(it) ? '' : `<button type="button" class="btn btn-ghost btn-sm btn-known" data-act="known" aria-pressed="false" title="Đã thuộc hẳn — không hỏi lại nữa. Bấm lần nữa để bỏ.">${KNOWN_OFF}</button>`);
+// onDone: việc làm thêm khi bấm (vd bỏ câu hỏi lại cuối lượt); trả về hàm hoàn tác việc đó (nếu có)
+// flush: ghi nốt kết quả câu vừa làm (nếu còn chờ) trước khi đánh dấu
+export function bindKnownBtn(root, it, onDone, flush) {
   const b = root.querySelector('[data-act=known]');
   if (!b) return;
+  let before = null, undoQ = null, busy = false;
   b.onclick = async () => {
-    const before = progSnapshot([it.id]);
-    await setLearned(it, 'known');
-    onDone?.();
-    b.disabled = true; b.textContent = 'Đã thuộc ✓';
-    toast('Đã đánh dấu thuộc — 16 ngày sau hỏi lại một lần.', { action: 'Hoàn tác', onAction: async () => { await progRestore(before); b.disabled = false; b.textContent = 'Đã thuộc'; } });
+    if (busy) return;
+    busy = true;
+    try {
+      if (!before) {
+        await flush?.();
+        before = progSnapshot([it.id]);
+        await setLearned(it, 'mastered');
+        undoQ = onDone?.() || null;
+        b.textContent = KNOWN_ON; b.setAttribute('aria-pressed', 'true');
+      } else {
+        await progRestore(before);
+        undoQ?.(); before = null; undoQ = null;
+        b.textContent = KNOWN_OFF; b.setAttribute('aria-pressed', 'false');
+      }
+    } finally { busy = false; }
   };
 }
 
@@ -314,7 +330,7 @@ export function runQuiz(view, qs, o, ctx) {
     bar.innerHTML = `${knownBtnHTML(q.it)}
       <button type="button" class="btn btn-primary" data-act="next">Tiếp</button>`;
     view.querySelector('.run').appendChild(bar);
-    bindKnownBtn(bar, q.it, () => { const k = st.qs.findIndex((x, j) => j > st.i && x.again && x.it.id === q.it.id); if (k > 0) st.qs.splice(k, 1); });
+    bindKnownBtn(bar, q.it, () => { const k = st.qs.findIndex((x, j) => j > st.i && x.again && x.it.id === q.it.id); if (k > 0) { const [x] = st.qs.splice(k, 1); return () => st.qs.splice(k, 0, x); } });
     bar.querySelector('[data-act=next]').onclick = next;
     const nb = bar.querySelector('[data-act=next]');
     nb.focus({ preventScroll: true });

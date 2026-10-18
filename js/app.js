@@ -1,5 +1,5 @@
 import { heartRoute } from './heart.js';
-import { $, esc, icon, toast, debounce, fmtDate } from './util.js';
+import { $, esc, icon, toast, toastNewPage, debounce, fmtDate } from './util.js';
 import { loadSettings, S } from './settings.js';
 import { D, loadAll, TOPICS } from './data.js';
 import { loadProgress, stats } from './srs.js';
@@ -121,6 +121,7 @@ function route() {
     if (n?.[3].test(h)) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
   });
   window.scrollTo(0, 0);
+  toastNewPage();
 }
 
 function startQuick(v, source) {
