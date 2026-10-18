@@ -1,0 +1,1561 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "chuhan-35",
+  "title": "Chữ Hán 35 – Chữ N1 hay gặp (2)",
+  "type": "kanji",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Chữ ghi cấp N1 nhưng gặp hằng ngày ở xưởng và giấy tờ: 崩 (荷崩れ), 整 (整理整頓), 票 (住民票), 菌 (殺菌), 請 (申請), 酸 (酸性), 避 (避難), 潔 (清潔)…"
+ },
+ "items": [
+  {
+   "id": "k:崩",
+   "char": "崩",
+   "hv": "BĂNG",
+   "nghia": "đổ, sập",
+   "on": [
+    "ホウ"
+   ],
+   "kun": [
+    "くず.れる",
+    "くず.す"
+   ],
+   "strokes": 11,
+   "level": "N1",
+   "groups": [
+    "xuong",
+    "thuysan",
+    "antoan"
+   ],
+   "parts": [
+    {
+     "c": "山",
+     "hv": "SƠN",
+     "nghia": "núi"
+    },
+    {
+     "c": "朋",
+     "hv": "BẰNG",
+     "nghia": "bạn"
+    }
+   ],
+   "tho": [
+    "Núi (山) đè bạn (朋) hữu sụt nền",
+    "Chữ BĂNG (崩) đổ sập, xếp lên quá tầm."
+   ],
+   "viet": [
+    "băng hoại",
+    "băng hà"
+   ],
+   "similar": [
+    {
+     "c": "朋",
+     "note": "BẰNG (bạn) — không có 山."
+    },
+    {
+     "c": "棚",
+     "note": "BẰNG (kệ) — 木 với 朋."
+    }
+   ],
+   "note": "崩[くず]れる = đổ, sập; 荷崩[にくず]れ = chồng hàng bị đổ; 身崩[みくず]れ = thịt cá bị nát; 崩[くず]す = làm sập; đổi tiền lẻ: お金[かね]を崩[くず]す."
+  },
+  {
+   "id": "k:整",
+   "char": "整",
+   "hv": "CHỈNH",
+   "nghia": "sắp xếp, chỉnh",
+   "on": [
+    "セイ"
+   ],
+   "kun": [
+    "ととの.える",
+    "ととの.う"
+   ],
+   "strokes": 16,
+   "level": "N1",
+   "groups": [
+    "xuong",
+    "giayto"
+   ],
+   "parts": [
+    {
+     "c": "束",
+     "hv": "THÚC",
+     "nghia": "bó"
+    },
+    {
+     "c": "攵",
+     "hv": "PHỘC",
+     "nghia": "cầm roi"
+    },
+    {
+     "c": "正",
+     "hv": "CHÍNH",
+     "nghia": "ngay"
+    }
+   ],
+   "tho": [
+    "Bó (束) roi (攵) nắn lại cho ngay (正)",
+    "Gọn gàng chữ CHỈNH (整), cuối ngày dọn kho."
+   ],
+   "viet": [
+    "chỉnh lý",
+    "điều chỉnh",
+    "chỉnh tề"
+   ],
+   "similar": [
+    {
+     "c": "正",
+     "note": "CHÍNH (đúng) — không có phần trên."
+    },
+    {
+     "c": "証",
+     "note": "CHỨNG (chứng) — 言 với 正."
+    }
+   ],
+   "note": "整理整頓[せいりせいとん] = sàng lọc và sắp xếp (2S trong 5S); 年末調整[ねんまつちょうせい] = quyết toán thuế cuối năm (công ty làm); 調整[ちょうせい] = điều chỉnh; 整備[せいび] = bảo dưỡng."
+  },
+  {
+   "id": "k:票",
+   "char": "票",
+   "hv": "PHIẾU",
+   "nghia": "phiếu, tờ",
+   "on": [
+    "ヒョウ"
+   ],
+   "kun": [],
+   "strokes": 11,
+   "level": "N1",
+   "groups": [
+    "giayto"
+   ],
+   "parts": [
+    {
+     "c": "覀",
+     "hv": "Á",
+     "nghia": "nắp che"
+    },
+    {
+     "c": "示",
+     "hv": "THỊ",
+     "nghia": "bàn"
+    }
+   ],
+   "tho": [
+    "Nắp (覀) che bàn (示) để tờ khai",
+    "Giấy tờ chữ PHIẾU (票), xin hai bản về."
+   ],
+   "viet": [
+    "lá phiếu",
+    "bỏ phiếu",
+    "cổ phiếu"
+   ],
+   "similar": [
+    {
+     "c": "標",
+     "note": "TIÊU (mốc) — 木 với 票."
+    },
+    {
+     "c": "要",
+     "note": "YẾU (cần) — 覀 với 女."
+    }
+   ],
+   "note": "住民票[じゅうみんひょう] = phiếu cư trú; 源泉徴収票[げんせんちょうしゅうひょう] = phiếu khấu trừ thuế; 伝票[でんぴょう] = phiếu (xuất kho, giao hàng); 投票[とうひょう] = bỏ phiếu."
+  },
+  {
+   "id": "k:故",
+   "char": "故",
+   "hv": "CỐ",
+   "nghia": "cũ; sự cố",
+   "on": [
+    "コ"
+   ],
+   "kun": [
+    "ゆえ",
+    "ふる.い",
+    "もと"
+   ],
+   "strokes": 9,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong",
+    "antoan"
+   ],
+   "parts": [
+    {
+     "c": "古",
+     "hv": "CỔ",
+     "nghia": "cũ"
+    },
+    {
+     "c": "攵",
+     "hv": "PHỘC",
+     "nghia": "roi"
+    }
+   ],
+   "tho": [
+    "Cũ (古) xưa roi (攵) đánh việc này",
+    "Tai ương chữ CỐ (故), máy hay hỏng hoài."
+   ],
+   "viet": [
+    "cố hương",
+    "sự cố",
+    "cố ý"
+   ],
+   "similar": [
+    {
+     "c": "古",
+     "note": "CỔ (cũ) — không có 攵."
+    },
+    {
+     "c": "救",
+     "note": "CỨU (cứu) — 求 với 攵."
+    }
+   ],
+   "note": "故障[こしょう] = hỏng hóc: 故障中[こしょうちゅう] = đang hỏng; 事故[じこ] = tai nạn, sự cố; 故郷[こきょう] = quê nhà; 故意[こい] = cố ý."
+  },
+  {
+   "id": "k:暇",
+   "char": "暇",
+   "hv": "HẠ",
+   "nghia": "rảnh rỗi",
+   "on": [
+    "カ"
+   ],
+   "kun": [
+    "ひま",
+    "いとま"
+   ],
+   "strokes": 13,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong",
+    "giayto"
+   ],
+   "parts": [
+    {
+     "c": "日",
+     "hv": "NHẬT",
+     "nghia": "ngày"
+    },
+    {
+     "c": "叚",
+     "hv": "GIẢ",
+     "nghia": "mượn"
+    }
+   ],
+   "tho": [
+    "Ngày (日) đây mượn (叚) chút nghỉ ngơi",
+    "Rảnh rang chữ HẠ (暇), đi chơi xa nhà."
+   ],
+   "viet": [
+    "nhàn hạ"
+   ],
+   "similar": [
+    {
+     "c": "仮",
+     "note": "GIẢ (tạm) — chữ gốc 假 cùng phần 叚."
+    },
+    {
+     "c": "蝦",
+     "note": "HÀ (tôm) — 虫 với 叚, đọc えび."
+    }
+   ],
+   "note": "休暇[きゅうか] = kỳ nghỉ; 有給休暇[ゆうきゅうきゅうか] = nghỉ phép có lương; 暇[ひま] = rảnh: 暇[ひま]な時[とき] = lúc rảnh."
+  },
+  {
+   "id": "k:菌",
+   "char": "菌",
+   "hv": "KHUẨN",
+   "nghia": "vi khuẩn, nấm",
+   "on": [
+    "キン"
+   ],
+   "kun": [],
+   "strokes": 11,
+   "level": "N1",
+   "groups": [
+    "thuysan",
+    "xuong",
+    "antoan"
+   ],
+   "parts": [
+    {
+     "c": "艹",
+     "hv": "THẢO",
+     "nghia": "cỏ"
+    },
+    {
+     "c": "囷",
+     "hv": "KHUÂN",
+     "nghia": "kho lúa"
+    }
+   ],
+   "tho": [
+    "Cỏ (艹) che kho (囷) lúa mốc meo",
+    "Vi trùng chữ KHUẨN (菌), bám theo tay người."
+   ],
+   "viet": [
+    "vi khuẩn",
+    "sát khuẩn"
+   ],
+   "similar": [
+    {
+     "c": "困",
+     "note": "KHỐN (khó) — 囗 với 木."
+    },
+    {
+     "c": "菊",
+     "note": "CÚC (hoa cúc) — 艹 với 匊."
+    }
+   ],
+   "note": "細菌[さいきん] = vi khuẩn; 殺菌[さっきん] = diệt khuẩn; 除菌[じょきん] = khử khuẩn; 食中毒菌[しょくちゅうどくきん] = vi khuẩn gây ngộ độc thực phẩm; 大腸菌[だいちょうきん] = vi khuẩn E. coli."
+  },
+  {
+   "id": "k:救",
+   "char": "救",
+   "hv": "CỨU",
+   "nghia": "cứu",
+   "on": [
+    "キュウ"
+   ],
+   "kun": [
+    "すく.う"
+   ],
+   "strokes": 11,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong",
+    "antoan"
+   ],
+   "parts": [
+    {
+     "c": "求",
+     "hv": "CẦU",
+     "nghia": "cầu xin"
+    },
+    {
+     "c": "攵",
+     "hv": "PHỘC",
+     "nghia": "tay"
+    }
+   ],
+   "tho": [
+    "Cầu (求) xin tay (攵) kéo lên bờ",
+    "Gọi xe chữ CỨU (救), chớ chờ lâu thêm."
+   ],
+   "viet": [
+    "cứu hộ",
+    "cấp cứu",
+    "cứu thương"
+   ],
+   "similar": [
+    {
+     "c": "求",
+     "note": "CẦU (tìm, cầu) — không có 攵."
+    },
+    {
+     "c": "球",
+     "note": "CẦU (quả bóng) — 王 với 求."
+    }
+   ],
+   "note": "救急車[きゅうきゅうしゃ] = xe cấp cứu (gọi 119); 救急箱[きゅうきゅうばこ] = hộp sơ cứu; 救助[きゅうじょ] = cứu hộ; 救[すく]う = cứu."
+  },
+  {
+   "id": "k:請",
+   "char": "請",
+   "hv": "THỈNH",
+   "nghia": "xin, yêu cầu",
+   "on": [
+    "セイ",
+    "シン",
+    "ショウ"
+   ],
+   "kun": [
+    "こ.う",
+    "う.ける"
+   ],
+   "strokes": 15,
+   "level": "N1",
+   "groups": [
+    "giayto",
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "言",
+     "hv": "NGÔN",
+     "nghia": "lời"
+    },
+    {
+     "c": "青",
+     "hv": "THANH",
+     "nghia": "xanh"
+    }
+   ],
+   "tho": [
+    "Lời (言) xanh (青) trong sáng nói thưa",
+    "Xin mời chữ THỈNH (請), đơn vừa nộp lên."
+   ],
+   "viet": [
+    "thỉnh cầu",
+    "thỉnh giáo",
+    "thỉnh nguyện"
+   ],
+   "similar": [
+    {
+     "c": "清",
+     "note": "THANH (trong) — 氵 với 青."
+    },
+    {
+     "c": "情",
+     "note": "TÌNH (tình) — 忄 với 青."
+    }
+   ],
+   "note": "申請[しんせい] = nộp đơn xin: 在留期間更新許可申請[ざいりゅうきかんこうしんきょかしんせい] = đơn xin gia hạn lưu trú; 申請書[しんせいしょ] = mẫu đơn; 請求書[せいきゅうしょ] = giấy đòi tiền, hóa đơn."
+  },
+  {
+   "id": "k:護",
+   "char": "護",
+   "hv": "HỘ",
+   "nghia": "bảo vệ, che chở",
+   "on": [
+    "ゴ"
+   ],
+   "kun": [
+    "まも.る"
+   ],
+   "strokes": 20,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong",
+    "antoan"
+   ],
+   "parts": [
+    {
+     "c": "言",
+     "hv": "NGÔN",
+     "nghia": "lời"
+    },
+    {
+     "c": "艹",
+     "hv": "THẢO",
+     "nghia": "cỏ"
+    },
+    {
+     "c": "隹",
+     "hv": "CHUY",
+     "nghia": "chim"
+    }
+   ],
+   "tho": [
+    "Lời (言) bên cỏ (艹) giữ chim (隹) non",
+    "Bảo an chữ HỘ (護), mắt còn kính che."
+   ],
+   "viet": [
+    "bảo hộ",
+    "hộ lý",
+    "cứu hộ"
+   ],
+   "similar": [
+    {
+     "c": "獲",
+     "note": "HOẠCH (bắt được) — 犭 với 蒦."
+    },
+    {
+     "c": "穫",
+     "note": "HOẠCH (gặt) — 禾 với 蒦."
+    }
+   ],
+   "note": "保護[ほご] = bảo hộ: 保護[ほご]メガネ = kính bảo hộ; 看護師[かんごし] = y tá; 介護[かいご] = chăm sóc người già; 弁護士[べんごし] = luật sư."
+  },
+  {
+   "id": "k:酸",
+   "char": "酸",
+   "hv": "TOAN",
+   "nghia": "chua; axit",
+   "on": [
+    "サン"
+   ],
+   "kun": [
+    "す.い"
+   ],
+   "strokes": 14,
+   "level": "N1",
+   "groups": [
+    "xuong",
+    "coban",
+    "antoan"
+   ],
+   "parts": [
+    {
+     "c": "酉",
+     "hv": "DẬU",
+     "nghia": "bình rượu"
+    }
+   ],
+   "tho": [
+    "Rượu (酉) lâu ủ kỹ hóa chua",
+    "Chữ TOAN (酸) chua chát, quả mùa me xanh."
+   ],
+   "viet": [
+    "vị toan (axit dạ dày)"
+   ],
+   "similar": [
+    {
+     "c": "酒",
+     "note": "TỬU (rượu) — 氵 với 酉."
+    },
+    {
+     "c": "酔",
+     "note": "TÚY (say) — 酉 với 卒."
+    }
+   ],
+   "note": "酸[す]っぱい = chua; 酸素[さんそ] = ôxy; 次亜塩素酸[じあえんそさん]ナトリウム = nước javen (khử trùng); 酸性洗剤[さんせいせんざい] = chất tẩy tính axit — 塩素系[えんそけい]と混[ま]ぜるな = không trộn với chất tẩy clo (sinh khí độc)."
+  },
+  {
+   "id": "k:養",
+   "char": "養",
+   "hv": "DƯỠNG",
+   "nghia": "nuôi",
+   "on": [
+    "ヨウ",
+    "リョウ"
+   ],
+   "kun": [
+    "やしな.う"
+   ],
+   "strokes": 15,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "giayto",
+    "thuysan"
+   ],
+   "parts": [
+    {
+     "c": "羊",
+     "hv": "DƯƠNG",
+     "nghia": "dê"
+    },
+    {
+     "c": "食",
+     "hv": "THỰC",
+     "nghia": "ăn"
+    }
+   ],
+   "tho": [
+    "Dê (羊) non đủ bữa (食) lớn nhanh",
+    "Nuôi trồng chữ DƯỠNG (養), ao quanh cá đầy."
+   ],
+   "viet": [
+    "dinh dưỡng",
+    "nuôi dưỡng",
+    "phụng dưỡng"
+   ],
+   "similar": [
+    {
+     "c": "美",
+     "note": "MỸ (đẹp) — 羊 với 大."
+    },
+    {
+     "c": "善",
+     "note": "THIỆN (tốt) — 羊 với 口."
+    }
+   ],
+   "note": "養殖[ようしょく] = nuôi trồng: 養殖[ようしょく]マグロ = cá ngừ nuôi (khác 天然[てんねん] = tự nhiên); 栄養[えいよう] = dinh dưỡng; 扶養控除[ふようこうじょ] = giảm trừ người phụ thuộc (thuế)."
+  },
+  {
+   "id": "k:源",
+   "char": "源",
+   "hv": "NGUYÊN",
+   "nghia": "nguồn",
+   "on": [
+    "ゲン"
+   ],
+   "kun": [
+    "みなもと"
+   ],
+   "strokes": 13,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "giayto",
+    "xuong"
+   ],
+   "parts": [
+    {
+     "c": "氵",
+     "hv": "THỦY",
+     "nghia": "nước"
+    },
+    {
+     "c": "原",
+     "hv": "NGUYÊN",
+     "nghia": "đồng gốc"
+    }
+   ],
+   "tho": [
+    "Nước (氵) từ đồng (原) núi chảy ra",
+    "Chữ NGUYÊN (源) nguồn cội, ông bà sinh ta."
+   ],
+   "viet": [
+    "tài nguyên",
+    "căn nguyên"
+   ],
+   "similar": [
+    {
+     "c": "原",
+     "note": "NGUYÊN (gốc) — không có 氵."
+    },
+    {
+     "c": "願",
+     "note": "NGUYỆN (mong) — 原 với 頁."
+    }
+   ],
+   "note": "源泉徴収票[げんせんちょうしゅうひょう] = phiếu khấu trừ thuế tại nguồn; 資源[しげん]ゴミ = rác tái chế; 電源[でんげん] = nguồn điện: 電源[でんげん]を切[き]る = tắt nguồn."
+  },
+  {
+   "id": "k:災",
+   "char": "災",
+   "hv": "TAI",
+   "nghia": "tai họa",
+   "on": [
+    "サイ"
+   ],
+   "kun": [
+    "わざわ.い"
+   ],
+   "strokes": 7,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong",
+    "antoan"
+   ],
+   "parts": [
+    {
+     "c": "巛",
+     "hv": "XUYÊN",
+     "nghia": "sông"
+    },
+    {
+     "c": "火",
+     "hv": "HỎA",
+     "nghia": "lửa"
+    }
+   ],
+   "tho": [
+    "Sông (巛) trên lửa (火) dưới tràn lan",
+    "Chữ TAI (災) tai họa, phòng an thân mình."
+   ],
+   "viet": [
+    "thiên tai",
+    "tai họa",
+    "hỏa tai"
+   ],
+   "similar": [
+    {
+     "c": "炎",
+     "note": "VIÊM (lửa cháy) — hai chữ 火."
+    },
+    {
+     "c": "巡",
+     "note": "TUẦN (đi tuần) — 巛 với 辶."
+    }
+   ],
+   "note": "防災[ぼうさい] = phòng chống thiên tai; 災害[さいがい] = thảm họa; 火災[かさい] = hỏa hoạn: 火災報知器[かさいほうちき] = chuông báo cháy; 労災[ろうさい] = tai nạn lao động."
+  },
+  {
+   "id": "k:避",
+   "char": "避",
+   "hv": "TỊ",
+   "nghia": "tránh, lánh",
+   "on": [
+    "ヒ"
+   ],
+   "kun": [
+    "さ.ける",
+    "よ.ける"
+   ],
+   "strokes": 16,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong",
+    "antoan"
+   ],
+   "parts": [
+    {
+     "c": "辶",
+     "hv": "SƯỚC",
+     "nghia": "bước"
+    },
+    {
+     "c": "辟",
+     "hv": "TÍCH",
+     "nghia": "né"
+    }
+   ],
+   "tho": [
+    "Bước (辶) mau tránh né (辟) lửa đâu",
+    "Lánh xa chữ TỊ (避), lên cầu thang cao."
+   ],
+   "viet": [
+    "tị nạn",
+    "tị hiềm"
+   ],
+   "similar": [
+    {
+     "c": "壁",
+     "note": "BÍCH (tường) — 辟 với 土."
+    },
+    {
+     "c": "癖",
+     "note": "PHÍCH (tật) — 疒 với 辟."
+    }
+   ],
+   "note": "避難[ひなん] = sơ tán; 避難所[ひなんじょ] = nơi lánh nạn; 避難経路[ひなんけいろ] = lối thoát hiểm; 避[さ]ける = tránh."
+  },
+  {
+   "id": "k:傷",
+   "char": "傷",
+   "hv": "THƯƠNG",
+   "nghia": "vết thương; hư",
+   "on": [
+    "ショウ"
+   ],
+   "kun": [
+    "きず",
+    "いた.む",
+    "いた.める"
+   ],
+   "strokes": 13,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong",
+    "thuysan"
+   ],
+   "parts": [
+    {
+     "c": "亻",
+     "hv": "NHÂN",
+     "nghia": "người"
+    },
+    {
+     "c": "昜",
+     "hv": "DƯƠNG",
+     "nghia": "nắng"
+    }
+   ],
+   "tho": [
+    "Người (亻) phơi nắng (昜) cháy rát da",
+    "Chữ THƯƠNG (傷) trầy xước, cá va dập rồi."
+   ],
+   "viet": [
+    "thương tích",
+    "chấn thương",
+    "bị thương"
+   ],
+   "similar": [
+    {
+     "c": "場",
+     "note": "TRƯỜNG (nơi) — 土 với 昜."
+    },
+    {
+     "c": "湯",
+     "note": "THANG (nước nóng) — 氵 với 昜."
+    }
+   ],
+   "note": "傷[きず] = vết thương, vết xước: 傷[きず]がある魚[さかな] = cá bị xước; 傷[いた]む = (cá, rau) bị dập, hỏng; 傷口[きずぐち] = miệng vết thương."
+  },
+  {
+   "id": "k:応",
+   "char": "応",
+   "hv": "ỨNG",
+   "nghia": "đáp lại, ứng phó",
+   "on": [
+    "オウ",
+    "ヨウ"
+   ],
+   "kun": [
+    "あた.る",
+    "まさに",
+    "こた.える"
+   ],
+   "strokes": 7,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong"
+   ],
+   "parts": [
+    {
+     "c": "广",
+     "hv": "NGHIỄM",
+     "nghia": "mái"
+    },
+    {
+     "c": "心",
+     "hv": "TÂM",
+     "nghia": "lòng"
+    }
+   ],
+   "tho": [
+    "Mái (广) che lòng (心) nhận lời mời",
+    "Đáp ngay chữ ỨNG (応), tới nơi kịp thời."
+   ],
+   "viet": [
+    "ứng phó",
+    "phản ứng",
+    "đáp ứng"
+   ],
+   "similar": [
+    {
+     "c": "忘",
+     "note": "VONG (quên) — 亡 với 心."
+    },
+    {
+     "c": "広",
+     "note": "QUẢNG (rộng) — 广 với 厶."
+    }
+   ],
+   "note": "応急手当[おうきゅうてあて] = sơ cứu; 対応[たいおう] = ứng phó, xử lý; 応援[おうえん] = cổ vũ; chi viện: 応援[おうえん]に行[い]く = sang phụ dây chuyền khác; 応募[おうぼ] = ứng tuyển."
+  },
+  {
+   "id": "k:盛",
+   "char": "盛",
+   "hv": "THỊNH",
+   "nghia": "đầy; bày; thịnh",
+   "on": [
+    "セイ",
+    "ジョウ"
+   ],
+   "kun": [
+    "も.る",
+    "さか.る",
+    "さか.ん"
+   ],
+   "strokes": 11,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "thuysan"
+   ],
+   "parts": [
+    {
+     "c": "成",
+     "hv": "THÀNH",
+     "nghia": "nên"
+    },
+    {
+     "c": "皿",
+     "hv": "MÃNH",
+     "nghia": "đĩa"
+    }
+   ],
+   "tho": [
+    "Nên (成) đầy trên đĩa (皿) bày ra",
+    "Dọn mâm chữ THỊNH (盛), cơm nhà đầy vun."
+   ],
+   "viet": [
+    "thịnh vượng",
+    "hưng thịnh"
+   ],
+   "similar": [
+    {
+     "c": "成",
+     "note": "THÀNH (nên) — không có 皿."
+    },
+    {
+     "c": "益",
+     "note": "ÍCH (lợi) — trên không phải 成."
+    }
+   ],
+   "note": "盛[も]り付[つ]け = bày món (lên khay); 盛[も]る = xới, bày; 大盛[おおも]り = suất lớn; 盛[さか]ん = phát triển mạnh; 繁盛[はんじょう] = đắt hàng."
+  },
+  {
+   "id": "k:嫌",
+   "char": "嫌",
+   "hv": "HIỀM",
+   "nghia": "ghét, ngại",
+   "on": [
+    "ケン",
+    "ゲン"
+   ],
+   "kun": [
+    "きら.う",
+    "きら.い",
+    "いや"
+   ],
+   "strokes": 13,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "女",
+     "hv": "NỮ",
+     "nghia": "cô gái"
+    },
+    {
+     "c": "兼",
+     "hv": "KIÊM",
+     "nghia": "kiêm"
+    }
+   ],
+   "tho": [
+    "Gái (女) kiêm (兼) việc khổ mặt nhăn",
+    "Chữ HIỀM (嫌) ghét bỏ, món ăn chê hoài."
+   ],
+   "viet": [
+    "hiềm khích",
+    "hiềm nghi"
+   ],
+   "similar": [
+    {
+     "c": "兼",
+     "note": "KIÊM (kiêm) — không có 女."
+    },
+    {
+     "c": "謙",
+     "note": "KHIÊM (khiêm tốn) — 言 với 兼."
+    }
+   ],
+   "note": "嫌[きら]い = ghét; 嫌[いや] = ngại, không thích: 嫌[いや]な臭[にお]い = mùi khó chịu; 機嫌[きげん] = tâm trạng: 機嫌[きげん]が悪[わる]い = đang khó chịu."
+  },
+  {
+   "id": "k:滞",
+   "char": "滞",
+   "hv": "TRỆ",
+   "nghia": "ứ đọng, chậm",
+   "on": [
+    "タイ",
+    "テイ"
+   ],
+   "kun": [
+    "とどこお.る"
+   ],
+   "strokes": 13,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "giayto"
+   ],
+   "parts": [
+    {
+     "c": "氵",
+     "hv": "THỦY",
+     "nghia": "nước"
+    },
+    {
+     "c": "帯",
+     "hv": "ĐỚI",
+     "nghia": "đai"
+    }
+   ],
+   "tho": [
+    "Nước (氵) quanh đai (帯) chặn ứ dòng",
+    "Đường đông chữ TRỆ (滞), xe trong kẹt dài."
+   ],
+   "viet": [
+    "đình trệ",
+    "trì trệ"
+   ],
+   "similar": [
+    {
+     "c": "帯",
+     "note": "ĐỚI (đai) — không có 氵."
+    },
+    {
+     "c": "帝",
+     "note": "ĐẾ (vua) — phần dưới khác."
+    }
+   ],
+   "note": "渋滞[じゅうたい] = tắc đường; 滞在[たいざい] = lưu trú: 滞在期間[たいざいきかん] = thời gian lưu trú; 滞納[たいのう] = nợ đọng (thuế, bảo hiểm) — bất lợi khi gia hạn tư cách lưu trú."
+  },
+  {
+   "id": "k:騒",
+   "char": "騒",
+   "hv": "TAO",
+   "nghia": "ồn ào",
+   "on": [
+    "ソウ"
+   ],
+   "kun": [
+    "さわ.ぐ",
+    "うれい",
+    "さわ.がしい"
+   ],
+   "strokes": 18,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "馬",
+     "hv": "MÃ",
+     "nghia": "ngựa"
+    },
+    {
+     "c": "蚤",
+     "hv": "TẢO",
+     "nghia": "bọ chét"
+    }
+   ],
+   "tho": [
+    "Ngựa (馬) kia bọ (蚤) cắn hí vang",
+    "Chữ TAO (騒) ồn ã, xóm làng mất yên."
+   ],
+   "viet": [
+    "tao loạn",
+    "tao động"
+   ],
+   "similar": [
+    {
+     "c": "験",
+     "note": "NGHIỆM (thử) — 馬 với 㑒."
+    },
+    {
+     "c": "駅",
+     "note": "DỊCH (ga) — 馬 với 尺."
+    }
+   ],
+   "note": "騒[さわ]ぐ = làm ồn; 騒音[そうおん] = tiếng ồn; 騒[さわ]がしい = ồn ào; ký túc xá: 夜[よる]は騒[さわ]がない = buổi tối không làm ồn."
+  },
+  {
+   "id": "k:修",
+   "char": "修",
+   "hv": "TU",
+   "nghia": "sửa; học",
+   "on": [
+    "シュウ",
+    "シュ"
+   ],
+   "kun": [
+    "おさ.める",
+    "おさ.まる"
+   ],
+   "strokes": 10,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong"
+   ],
+   "parts": [
+    {
+     "c": "亻",
+     "hv": "NHÂN",
+     "nghia": "người"
+    },
+    {
+     "c": "攵",
+     "hv": "PHỘC",
+     "nghia": "cầm gậy"
+    },
+    {
+     "c": "彡",
+     "hv": "SAM",
+     "nghia": "nét bóng"
+    }
+   ],
+   "tho": [
+    "Người (亻) cầm gậy (攵) đánh bóng (彡) thêm",
+    "Chữ TU (修) sửa chữa, ngày đêm học hành."
+   ],
+   "viet": [
+    "tu sửa",
+    "tu luyện",
+    "tu nghiệp"
+   ],
+   "similar": [
+    {
+     "c": "悠",
+     "note": "DU (thong thả) — dưới là 心."
+    },
+    {
+     "c": "候",
+     "note": "HẬU (chờ) — 亻 với 侯."
+    }
+   ],
+   "note": "修理[しゅうり] = sửa chữa (máy); 研修[けんしゅう] = khóa đào tạo: 研修中[けんしゅうちゅう] = đang thực tập; 修正[しゅうせい] = chỉnh sửa."
+  },
+  {
+   "id": "k:儀",
+   "char": "儀",
+   "hv": "NGHI",
+   "nghia": "nghi lễ, phép tắc",
+   "on": [
+    "ギ"
+   ],
+   "kun": [],
+   "strokes": 15,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "亻",
+     "hv": "NHÂN",
+     "nghia": "người"
+    },
+    {
+     "c": "義",
+     "hv": "NGHĨA",
+     "nghia": "đạo nghĩa"
+    }
+   ],
+   "tho": [
+    "Người (亻) theo đạo nghĩa (義) lễ chào",
+    "Chữ NGHI (儀) phép tắc, ai nào cũng theo."
+   ],
+   "viet": [
+    "lễ nghi",
+    "nghi thức",
+    "uy nghi"
+   ],
+   "similar": [
+    {
+     "c": "義",
+     "note": "NGHĨA (nghĩa) — không có 亻."
+    },
+    {
+     "c": "議",
+     "note": "NGHỊ (bàn) — 言 với 義."
+    }
+   ],
+   "note": "お辞儀[じぎ] = cúi chào; 礼儀[れいぎ] = lễ nghĩa; 行儀[ぎょうぎ] = tác phong: 行儀[ぎょうぎ]が悪[わる]い = cư xử kém; 葬儀[そうぎ] = tang lễ."
+  },
+  {
+   "id": "k:激",
+   "char": "激",
+   "hv": "KÍCH",
+   "nghia": "dữ dội; kích thích",
+   "on": [
+    "ゲキ"
+   ],
+   "kun": [
+    "はげ.しい"
+   ],
+   "strokes": 16,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "antoan"
+   ],
+   "parts": [
+    {
+     "c": "氵",
+     "hv": "THỦY",
+     "nghia": "nước"
+    },
+    {
+     "c": "白",
+     "hv": "BẠCH",
+     "nghia": "trắng"
+    },
+    {
+     "c": "攵",
+     "hv": "PHỘC",
+     "nghia": "đánh"
+    }
+   ],
+   "tho": [
+    "Nước (氵) xô trắng (白) xóa đánh (攵) bờ",
+    "Dữ dằn chữ KÍCH (激), bất ngờ đổ mưa."
+   ],
+   "viet": [
+    "kích động",
+    "cảm kích",
+    "quá khích"
+   ],
+   "similar": [
+    {
+     "c": "檄",
+     "note": "HỊCH (bài hịch) — 木 với 敫."
+    },
+    {
+     "c": "放",
+     "note": "PHÓNG (thả) — 方 với 攵."
+    }
+   ],
+   "note": "激[はげ]しい = dữ dội; 急激[きゅうげき] = đột ngột; 刺激[しげき] = kích thích: 刺激臭[しげきしゅう] = mùi hắc (hóa chất); 感激[かんげき] = cảm động."
+  },
+  {
+   "id": "k:独",
+   "char": "独",
+   "hv": "ĐỘC",
+   "nghia": "một mình",
+   "on": [
+    "ドク",
+    "トク"
+   ],
+   "kun": [
+    "ひと.り"
+   ],
+   "strokes": 9,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "antoan"
+   ],
+   "parts": [
+    {
+     "c": "犭",
+     "hv": "KHUYỂN",
+     "nghia": "chó"
+    },
+    {
+     "c": "虫",
+     "hv": "TRÙNG",
+     "nghia": "con bọ"
+    }
+   ],
+   "tho": [
+    "Chó (犭) bên con bọ (虫) một mình",
+    "Lẻ loi chữ ĐỘC (独), lặng thinh không người."
+   ],
+   "viet": [
+    "độc lập",
+    "cô độc",
+    "độc thân"
+   ],
+   "similar": [
+    {
+     "c": "触",
+     "note": "XÚC (chạm) — 角 với 虫."
+    },
+    {
+     "c": "狭",
+     "note": "HIỆP (hẹp) — 犭 với 夹."
+    }
+   ],
+   "note": "独[ひと]り = một mình: 独[ひと]りで作業[さぎょう]しない = không làm việc một mình (chỗ nguy hiểm); 独身[どくしん] = độc thân; 独特[どくとく] = độc đáo."
+  },
+  {
+   "id": "k:率",
+   "char": "率",
+   "hv": "SUẤT",
+   "nghia": "tỉ lệ; dẫn",
+   "on": [
+    "ソツ",
+    "リツ",
+    "シュツ"
+   ],
+   "kun": [
+    "ひき.いる"
+   ],
+   "strokes": 11,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong"
+   ],
+   "parts": [
+    {
+     "c": "亠",
+     "hv": "ĐẦU",
+     "nghia": "mũ"
+    },
+    {
+     "c": "幺",
+     "hv": "YÊU",
+     "nghia": "sợi nhỏ"
+    },
+    {
+     "c": "十",
+     "hv": "THẬP",
+     "nghia": "mười"
+    }
+   ],
+   "tho": [
+    "Mũ (亠) trên sợi nhỏ (幺) mười (十) đường",
+    "Phần trăm chữ SUẤT (率), ta thường tính ra."
+   ],
+   "viet": [
+    "hiệu suất",
+    "xác suất",
+    "năng suất"
+   ],
+   "similar": [
+    {
+     "c": "卒",
+     "note": "TỐT (tốt nghiệp) — giữa là hai 人."
+    },
+    {
+     "c": "幺",
+     "note": "YÊU (nhỏ) — một phần của 率."
+    }
+   ],
+   "note": "効率[こうりつ] = hiệu suất: 効率[こうりつ]よく = làm nhanh gọn; 能率[のうりつ] = năng suất; 〜率[りつ] = tỉ lệ …: 合格率[ごうかくりつ]; 確率[かくりつ] = xác suất."
+  },
+  {
+   "id": "k:離",
+   "char": "離",
+   "hv": "LY",
+   "nghia": "rời xa",
+   "on": [
+    "リ"
+   ],
+   "kun": [
+    "はな.れる",
+    "はな.す"
+   ],
+   "strokes": 19,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "antoan"
+   ],
+   "parts": [
+    {
+     "c": "离",
+     "hv": "LY",
+     "nghia": "tổ"
+    },
+    {
+     "c": "隹",
+     "hv": "CHUY",
+     "nghia": "chim"
+    }
+   ],
+   "tho": [
+    "Chim (隹) bay rời tổ (离) xa nhà",
+    "Chữ LY (離) chia cách, mẹ cha nhớ hoài."
+   ],
+   "viet": [
+    "chia ly",
+    "cách ly",
+    "ly biệt"
+   ],
+   "similar": [
+    {
+     "c": "難",
+     "note": "NAN (khó) — bên trái khác, cùng 隹."
+    },
+    {
+     "c": "雑",
+     "note": "TẠP (lẫn) — 九 木 với 隹."
+    }
+   ],
+   "note": "離[はな]れる = rời, cách xa: 機械[きかい]から離[はな]れる = tránh xa máy; 離[はな]す = buông ra; 距離[きょり] = khoảng cách; 離婚[りこん] = ly hôn."
+  },
+  {
+   "id": "k:憩",
+   "char": "憩",
+   "hv": "KHẾ",
+   "nghia": "nghỉ ngơi",
+   "on": [
+    "ケイ"
+   ],
+   "kun": [
+    "いこ.い",
+    "いこ.う"
+   ],
+   "strokes": 16,
+   "level": "N1",
+   "groups": [
+    "xuong"
+   ],
+   "parts": [
+    {
+     "c": "舌",
+     "hv": "THIỆT",
+     "nghia": "lưỡi"
+    },
+    {
+     "c": "自",
+     "hv": "TỰ",
+     "nghia": "mình"
+    },
+    {
+     "c": "心",
+     "hv": "TÂM",
+     "nghia": "lòng"
+    }
+   ],
+   "tho": [
+    "Lưỡi (舌) mình (自) thong thả lòng (心) vui",
+    "Nghỉ ngơi chữ KHẾ (憩), giờ lui vào phòng."
+   ],
+   "viet": [],
+   "similar": [
+    {
+     "c": "話",
+     "note": "THOẠI (nói) — 言 với 舌."
+    },
+    {
+     "c": "息",
+     "note": "TỨC (hơi thở) — 自 với 心."
+    }
+   ],
+   "note": "休憩[きゅうけい] = nghỉ giải lao; 休憩室[きゅうけいしつ] = phòng nghỉ; 休憩時間[きゅうけいじかん] = giờ nghỉ."
+  },
+  {
+   "id": "k:房",
+   "char": "房",
+   "hv": "PHÒNG",
+   "nghia": "buồng; chùm",
+   "on": [
+    "ボウ"
+   ],
+   "kun": [
+    "ふさ"
+   ],
+   "strokes": 8,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "戸",
+     "hv": "HỘ",
+     "nghia": "cửa"
+    },
+    {
+     "c": "方",
+     "hv": "PHƯƠNG",
+     "nghia": "hướng"
+    }
+   ],
+   "tho": [
+    "Cửa (戸) che bốn hướng (方) quanh nhà",
+    "Chữ PHÒNG (房) phòng kín, lạnh ra máy điều."
+   ],
+   "viet": [
+    "thư phòng"
+   ],
+   "similar": [
+    {
+     "c": "防",
+     "note": "PHÒNG (phòng ngừa) — 阝 với 方."
+    },
+    {
+     "c": "坊",
+     "note": "PHƯỜNG (phường) — 土 với 方."
+    }
+   ],
+   "note": "冷房[れいぼう] = máy lạnh; 暖房[だんぼう] = sưởi; 厨房[ちゅうぼう] = bếp (nhà hàng); 房[ふさ] = chùm (nho, chuối)."
+  },
+  {
+   "id": "k:潔",
+   "char": "潔",
+   "hv": "KHIẾT",
+   "nghia": "sạch",
+   "on": [
+    "ケツ"
+   ],
+   "kun": [
+    "いさぎよ.い"
+   ],
+   "strokes": 15,
+   "level": "N1",
+   "groups": [
+    "xuong",
+    "thuysan"
+   ],
+   "parts": [
+    {
+     "c": "氵",
+     "hv": "THỦY",
+     "nghia": "nước"
+    },
+    {
+     "c": "刀",
+     "hv": "ĐAO",
+     "nghia": "dao"
+    },
+    {
+     "c": "糸",
+     "hv": "MỊCH",
+     "nghia": "sợi tơ"
+    }
+   ],
+   "tho": [
+    "Nước (氵) dao (刀) gột sạch sợi (糸) tơ",
+    "Tinh tươm chữ KHIẾT (潔), chẳng nhờ ai lau."
+   ],
+   "viet": [
+    "thanh khiết",
+    "tinh khiết",
+    "liêm khiết"
+   ],
+   "similar": [
+    {
+     "c": "喫",
+     "note": "KHIẾT (ăn uống) — 口 với 契."
+    },
+    {
+     "c": "契",
+     "note": "KHẾ (khế ước) — dưới là 大."
+    }
+   ],
+   "note": "清潔[せいけつ] = sạch sẽ, vệ sinh: 清潔[せいけつ]な服装[ふくそう] = trang phục sạch; 不潔[ふけつ] = mất vệ sinh; 潔[いさぎよ]い = dứt khoát."
+  },
+  {
+   "id": "k:鏡",
+   "char": "鏡",
+   "hv": "KÍNH",
+   "nghia": "gương; kính",
+   "on": [
+    "キョウ",
+    "ケイ"
+   ],
+   "kun": [
+    "かがみ"
+   ],
+   "strokes": 19,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong"
+   ],
+   "parts": [
+    {
+     "c": "金",
+     "hv": "KIM",
+     "nghia": "đồng"
+    },
+    {
+     "c": "竟",
+     "hv": "CÁNH",
+     "nghia": "rốt cuộc"
+    }
+   ],
+   "tho": [
+    "Đồng (金) mài rốt cuộc (竟) sáng soi",
+    "Gương trong chữ KÍNH (鏡), đứng coi mũ đầu."
+   ],
+   "viet": [
+    "kính hiển vi",
+    "nhãn kính"
+   ],
+   "similar": [
+    {
+     "c": "境",
+     "note": "CẢNH (ranh giới) — 土 với 竟."
+    },
+    {
+     "c": "鋭",
+     "note": "DUỆ (sắc) — 金 với 兑."
+    }
+   ],
+   "note": "鏡[かがみ] = gương; trước khi vào xưởng: 鏡[かがみ]で身[み]だしなみ確認[かくにん] = soi gương kiểm tra trang phục; 眼鏡[めがね] = kính đeo mắt; 顕微鏡[けんびきょう] = kính hiển vi."
+  }
+ ]
+}

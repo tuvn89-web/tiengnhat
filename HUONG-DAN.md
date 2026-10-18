@@ -524,3 +524,13 @@ Nhân vật dùng lại từ N5; thêm bà chủ nhà (大家[おおや]さん) 
   - Khi đang có thông báo, cuối trang chừa thêm chỗ để kéo được phần nội dung bị che lên.
   - Tối đa 2 thông báo cùng lúc, cái mới nằm sát khay. Mỗi cái hiện 4 giây, có nút ✕ đóng ngay.
 - Gói cập nhật gồm các tệp mã đã đổi (`index` không đổi): `sw.js`, `css/app.css`, `js/util.js`, `js/app.js`, `js/srs.js`, `js/quiz.js`, `js/drill.js`, `js/guides.js`, `HUONG-DAN.md`. Mở app khi có mạng, app báo có bản mới thì bấm cập nhật; Cài đặt → Phiên bản app phải hiện **v27**.
+
+## 37. Cập nhật dữ liệu v28 (18/10/2026): thêm 210 thẻ chữ Hán (xong N2, vào chữ N1 hay gặp)
+
+- Thêm 7 gói `chuhan-31` … `chuhan-37` (210 chữ):
+  - Xong phần N2: 律, 拾, 捨, 曇, 浅, 珍, 祈, 競, 複, 貿, 門, 雲, 丸, 了, 令, 依, 券, 劇, 勢, 占, 各, 型, 域, 境, 央, 姓, 導, 層, 希, 幅, 府, 患, 担, 暴, 札, 栄, 極, 永, 汗, 沈, 況, 液, 濃, 燥, 爆, 略, 県, 秒, 籍, 粉, 署, 肌, 肩, 胃, 胸, 航, 般, 訓…
+  - Bắt đầu các chữ **ghi cấp N1 nhưng gặp hằng ngày** ở xưởng và giấy tờ: 保, 器, 素, 結, 訳, 納, 異, 価, 丁, 刃, 検, 製, 崩, 整, 票, 故, 暇, 菌, 救, 請, 護, 酸, 養, 源, 災, 避, 傷, 応, 滞, 衛, 控, 滑, 班, 輩, 障, 振, 健, 康, 徴, 暑, 染, 泡, 炎, 督, 端, 臭, 鮮, 診, 致, 免, 就, 従, 提…
+- `箋` (処方箋[しょほうせん] — đơn thuốc) không thuộc danh sách JLPT nhưng hay gặp ở bệnh viện, hiệu thuốc; ghi cấp N2.
+- Ghi chú ưu tiên từ gặp ở xưởng và giấy tờ: 衛生管理[えいせいかんり], 交差汚染[こうさおせん], 異物混入[いぶつこんにゅう], 金属探知機[きんぞくたんちき], 荷崩[にくず]れ, 酸性洗剤[さんせいせんざい]と塩素系[えんそけい]を混[ま]ぜない, 刃[は]こぼれ, 鮮度[せんど], 避難経路[ひなんけいろ], 納税証明書[のうぜいしょうめいしょ], 源泉徴収票[げんせんちょうしゅうひょう], 督促状[とくそくじょう], 扶養控除[ふようこうじょ], 令和[れいわ]…
+- Kho hiện có **1.099 thẻ chữ Hán**; còn khoảng **240 chữ**.
+- Bản này **chỉ có dữ liệu**. Nếu chưa đưa bản v27 (nút Đã thuộc mới, vị trí thông báo) lên GitHub thì gói cập nhật v28 đã **gồm luôn các tệp mã của v27**.
