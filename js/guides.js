@@ -45,6 +45,7 @@ export const GUIDES = [
   { id: 'nghe', g: 'Cho người mới', t: 'Luyện nghe', b: [
     ['p', 'App đọc tiếng Nhật bằng giọng đọc có sẵn của máy. Vào **Cài đặt → Giọng đọc** để chọn giọng tiếng Nhật và tốc độ. Máy chưa có giọng tiếng Nhật thì cài thêm trong cài đặt ngôn ngữ của điện thoại.'],
     ['ul', ['Bấm biểu tượng loa ở mọi thẻ từ và câu ví dụ để nghe.', 'Trắc nghiệm có kiểu **Nghe → nghĩa**; ngữ pháp có **Nghe → chọn**.', 'Mẹo "nói đuổi": nghe một câu ví dụ, dừng, nói to lại đúng nhịp — mỗi ngày 5 câu.']],
+    ['p', 'Bài **hội thoại, bài đọc** và **bài mở đầu** dài thì mặc định chỉ hiện 5 câu đầu: bấm **Xem cả bài** để đọc tiếp, **Thu gọn** để gấp lại. Ở **Nghe cả bài**, khi giọng đọc tới phần đang ẩn thì bài tự mở ra.'],
     ['a', 'Mở Cài đặt', '#/caidat']] },
   { id: 'dongbo', g: 'Cho người mới', t: 'Học trên nhiều máy', b: [
     ['p', 'Tiến độ lưu trong máy. Muốn dùng cả điện thoại và máy tính, vào **Dữ liệu → Đồng bộ** và điền kho GitHub riêng tư theo hướng dẫn. App tự đồng bộ khi mở, sau mỗi lượt học và khi có mạng trở lại.'],

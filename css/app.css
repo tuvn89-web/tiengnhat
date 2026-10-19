@@ -815,3 +815,10 @@ span.xw-b { cursor: default; }
 .pace .input.num { width: 6.5em; text-align: center; font-size: 1.05em; }
 .pace .input.num:disabled { opacity: .55; }
 .pace .chips { margin-top: 2px; }
+
+/* ---- v30: bài đọc, hội thoại dài rút gọn còn 5 câu đầu ---- */
+.fold-on .fold-x { display: none; }
+.fold-on .fold-last { -webkit-mask-image: linear-gradient(to bottom, #000 30%, rgba(0,0,0,.18)); mask-image: linear-gradient(to bottom, #000 30%, rgba(0,0,0,.18)); }
+.fold-bar { display: flex; justify-content: center; margin: 0 0 12px; }
+.fold-btn { min-width: 13em; white-space: nowrap; }
+.passage, .listen-doc { scroll-margin-top: calc(68px + env(safe-area-inset-top)); }

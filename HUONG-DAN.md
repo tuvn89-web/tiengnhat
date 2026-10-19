@@ -534,3 +534,22 @@ Nhân vật dùng lại từ N5; thêm bà chủ nhà (大家[おおや]さん) 
 - Ghi chú ưu tiên từ gặp ở xưởng và giấy tờ: 衛生管理[えいせいかんり], 交差汚染[こうさおせん], 異物混入[いぶつこんにゅう], 金属探知機[きんぞくたんちき], 荷崩[にくず]れ, 酸性洗剤[さんせいせんざい]と塩素系[えんそけい]を混[ま]ぜない, 刃[は]こぼれ, 鮮度[せんど], 避難経路[ひなんけいろ], 納税証明書[のうぜいしょうめいしょ], 源泉徴収票[げんせんちょうしゅうひょう], 督促状[とくそくじょう], 扶養控除[ふようこうじょ], 令和[れいわ]…
 - Kho hiện có **1.099 thẻ chữ Hán**; còn khoảng **240 chữ**.
 - Bản này **chỉ có dữ liệu**. Nếu chưa đưa bản v27 (nút Đã thuộc mới, vị trí thông báo) lên GitHub thì gói cập nhật v28 đã **gồm luôn các tệp mã của v27**.
+
+## 38. Cập nhật dữ liệu v29 (19/10/2026): thêm 242 thẻ chữ Hán — đủ thẻ cho mọi chữ trong kho từ
+
+- Thêm 8 gói `chuhan-38` … `chuhan-45` (242 chữ, gói cuối 32 chữ để gom hết), toàn các chữ **ghi cấp N1 nhưng gặp hằng ngày**:
+  - Ở xưởng, kho lạnh: 栓, 漏, 絞, 網, 棚, 削, 柵, 桶, 浸, 溝, 爪, 砥, 粘, 鱗, 脱, 漬, 剤, 卸, 殻, 沿, 炊, 湧, 稼, 穴, 継, 緊, 繰, 裂, 覆, 衝, 腐, 肪, 霜, 酢, 隔…
+  - Ở giấy tờ, thủ tục: 遣, 項, 扶, 履, 弁, 携, 契, 寮, 控, 扱, 抵, 掲, 条, 株, 氏, 派, 益, 監, 該, 詳, 賃, 訴, 罰, 裁, 統, 範…
+  - Đời sống: 銭, 傘, 豚, 鶏, 糖, 隣, 嬉, 泣, 嵐, 桜, 猿, 睡, 蚊, 豆, 雷, 霧, 酔, 飼, 飽, 鹿, 黙…
+- Ghi chú ưu tiên từ gặp ở xưởng và giấy tờ: 派遣[はけん], 消火栓[しょうかせん], 引[ひ]き継[つ]ぎ, 緊急停止[きんきゅうていし]ボタン, 異物混入[いぶつこんにゅう]の対策[たいさく], 霜取[しもと]り, 間隔[かんかく]を空[あ]けて並[なら]べる, 該当[がいとう]するものに丸[まる]をつける, 最低賃金[さいていちんぎん], 家賃[やちん]…
+- Kho hiện có **1.341 thẻ chữ Hán** — **mọi chữ Hán có trong từ vựng đều đã có thẻ**. Ở trang Chữ Hán, dòng "… chữ trong kho từ chưa có thẻ" sẽ không còn hiện.
+- Còn 79 chữ chỉ xuất hiện trong câu ví dụ, bài học (phần lớn là tên người, tên đất như 佐藤[さとう], 鈴木[すずき], 大阪[おおさか], 京都[きょうと]; vài tên cá như 鮭[さけ], 鯖[さば]). Các chữ này chưa có từ vựng riêng nên app chưa đòi thẻ; khi làm thêm từ vựng có chúng thì làm thẻ sau.
+- Bản này **chỉ có dữ liệu** (8 gói mới, `data/manifest.json`, tệp hướng dẫn này). Mã app giữ nguyên bản v27.
+
+## 39. Bản v30 (19/10/2026): bài đọc, hội thoại dài có nút Xem cả bài / Thu gọn
+
+- Bài hội thoại, bài đọc **dài từ 9 câu trở lên** mặc định chỉ hiện **5 câu đầu** (hội thoại: 5 lượt nói). Bài đọc nếu hết đoạn ở câu thứ 4–6 thì cắt đúng chỗ hết đoạn. Bài ngắn (thông báo, biển báo…) vẫn hiện đủ, không có nút.
+- Câu cuối của phần rút gọn mờ dần; ngay dưới là nút **"Xem cả bài · còn N câu ▾"**. Mở ra rồi thì nút nằm ở cuối bài thành **"Thu gọn ▴"**; bấm Thu gọn thì trang đưa đầu bài về lại màn hình.
+- Áp dụng ở: tab **Đọc** của từng bài, **Bài mở đầu** trong trang bài học, và **Nghe cả bài** (giọng đọc tới phần đang ẩn thì bài tự mở ra để chữ chạy theo tiếng).
+- Mỗi lần mở bài đều rút gọn lại như mặc định. Ô "Hiện nghĩa tiếng Việt", chạm câu để xem giải thích, loa từng câu vẫn dùng bình thường với cả phần vừa mở.
+- Tệp mã thay đổi: `js/reader.js`, `css/app.css`, `js/guides.js`, `js/util.js`, `sw.js` (lên bản v30). Nếu chưa đưa bản v29 (8 gói chữ Hán) lên GitHub thì gói cập nhật v30 đã **gồm luôn các tệp của v29**.

@@ -48,23 +48,54 @@ export function renderDoc(view, ctx, id, mode = 'doc') {
 
 // ---------- 1. Đọc song ngữ ----------
 // Một câu: chữ Nhật (furigana) + loa + nghĩa Việt; câu Kansai / khẩu ngữ có dòng "Nói chuẩn". Chạm vào câu → bảng giải thích.
-function lineHTML(it, t, i, { vi = false } = {}) {
+function lineHTML(it, t, i, { vi = false, cut = 0 } = {}) {
   const me = isDialog(it) && t.who === meKey(it), r = isDialog(it) ? roleOf(it, t.who) : null;
   const cls = isDialog(it) ? `dl${me ? ' dl-me' : ''}` : `tx${t.fmt === 'h' ? ' tx-h' : t.fmt === 'r' ? ' tx-r' : ''}${t.br ? ' tx-br' : ''}`;
-  return `<div class="${cls}" data-i="${i}" data-nokj role="button" tabindex="0" aria-label="Giải thích câu ${i + 1}">
+  const fc = !cut ? '' : i >= cut ? ' fold-x' : i === cut - 1 ? ' fold-last' : '';
+  return `<div class="${cls}${fc}" data-i="${i}" data-nokj role="button" tabindex="0" aria-label="Giải thích câu ${i + 1}">
     ${r ? `<span class="dl-who">${rich(r.name)}${r.vi ? ` <small>${esc(r.vi)}</small>` : ''}</span>` : ''}
     <div class="dl-line"><p class="dl-jp" lang="ja">${rich(t.jp)}</p>${sayBtn(reading(t.jp))}</div>
     <p class="dl-vi" ${vi ? '' : 'hidden'}>${esc(t.vi)}</p>
     ${t.std ? `<p class="dl-std small" ${vi ? '' : 'hidden'}><b>Nói chuẩn:</b> <span lang="ja">${rich(t.std)}</span></p>` : ''}</div>`;
 }
 const boxCls = it => (isDialog(it) ? `dlg${it.medium === 'line' ? ' dlg-line' : ''}` : `txt txt-${esc(it.kind || 'doanvan')}`);
+// v30 — bài dài (từ 9 câu / lượt nói) mặc định chỉ hiện 5 câu đầu; bài đọc có chỗ hết đoạn ở câu 4–6 thì cắt đúng chỗ đó.
+// Mỗi lần mở bài đều rút gọn lại (không nhớ trạng thái).
+const FOLD_MIN = 9, FOLD_N = 5;
+export function foldCut(it) {
+  const ls = linesOf(it);
+  if (ls.length < FOLD_MIN) return 0;
+  if (!isDialog(it)) for (const k of [5, 4, 6]) if (ls[k]?.br) return k;
+  return FOLD_N;
+}
+const foldLabel = (it, cut, open) => open ? 'Thu gọn ▴' : `Xem cả bài · còn ${linesOf(it).length - cut} câu ▾`;
+const foldBarHTML = (it, cut) => cut ? `<div class="fold-bar"><button type="button" class="btn btn-ghost btn-sm fold-btn" data-fold aria-expanded="false">${foldLabel(it, cut, false)}</button></div>` : '';
+// Gắn nút Xem cả bài / Thu gọn; trả về hàm mở cả bài (dùng khi Nghe cả bài chạy tới phần đang ẩn)
+function bindFold(root, box, it) {
+  const b = root.querySelector('[data-fold]'), cut = foldCut(it);
+  if (!b || !box || !cut) return () => {};
+  const set = open => {
+    box.classList.toggle('fold-on', !open);
+    b.setAttribute('aria-expanded', String(open));
+    b.textContent = foldLabel(it, cut, open);
+  };
+  b.onclick = () => {
+    const open = box.classList.contains('fold-on');
+    set(open);
+    // thu gọn khi đang ở cuối bài dài → đưa đầu bài về lại trong màn hình
+    if (!open && box.getBoundingClientRect().top < 64) box.scrollIntoView({ block: 'start' });
+  };
+  return () => { if (box.classList.contains('fold-on')) set(true); };
+}
 // Cả bài (dùng ở trang Đọc và bài mở đầu của bài học)
 export function passageHTML(it, { vi = true } = {}) {
-  return `<div class="${boxCls(it)} passage">${linesOf(it).map((t, i) => lineHTML(it, t, i, { vi })).join('')}</div>`;
+  const cut = foldCut(it);
+  return `<div class="${boxCls(it)} passage${cut ? ' fold-on' : ''}">${linesOf(it).map((t, i) => lineHTML(it, t, i, { vi, cut })).join('')}</div>${foldBarHTML(it, cut)}`;
 }
 export function bindPassage(root, it) {
   const box = root.querySelector('.passage');
   if (!box) return;
+  bindFold(root, box, it);
   const open = d => { const t = linesOf(it)[+d.dataset.i]; if (t) openExplain({ ...t, words: t.words, grammar: t.grammar }); };
   box.onclick = e => {
     if (e.target.closest('[data-say], [data-wopen], [data-gopen], a')) return;
@@ -199,14 +230,15 @@ function hoiMode(body, ctx, it) {
 
 // ---------- 6. Nghe cả bài ----------
 function ngheMode(body, ctx, it) {
-  const ls = linesOf(it);
+  const ls = linesOf(it), cut = foldCut(it);
   const vs = jaVoices(), roles = (it.roles || []).map(r => r.key);
   body.innerHTML = `<div class="row-btns listen-bar"><button class="btn btn-primary" data-act="play">${icon('speaker')} Nghe cả bài</button><button class="btn btn-ghost" data-act="stop" disabled>Dừng</button></div>
     <fieldset><legend>Tốc độ</legend>${chips('rate', [['0.6', 'Chậm'], ['0.8', 'Vừa'], ['1', 'Thường'], ['1.2', 'Nhanh']], String(S.rate && S.rate <= 0.7 ? 0.6 : 0.8), false)}</fieldset>
     <label class="check small"><input type="checkbox" data-o="vi"> Hiện tiếng Việt</label> <label class="check small"><input type="checkbox" data-o="jp" checked> Hiện chữ Nhật</label>
-    <div class="${isDialog(it) ? 'dlg' : 'txt'} listen-doc">${ls.map((t, i) => lineHTML(it, t, i)).join('')}</div>`;
+    <div class="${isDialog(it) ? 'dlg' : 'txt'} listen-doc${cut ? ' fold-on' : ''}">${ls.map((t, i) => lineHTML(it, t, i, { cut })).join('')}</div>${foldBarHTML(it, cut)}`;
   bindChips(body);
   const docEl = body.querySelector('.listen-doc');
+  const unfold = bindFold(body, docEl, it);
   const setVis = () => { const vi = body.querySelector('[data-o=vi]').checked, jp = body.querySelector('[data-o=jp]').checked; docEl.querySelectorAll('.dl-vi').forEach(v => { v.hidden = !vi; }); docEl.classList.toggle('hide-jp', !jp); };
   body.querySelectorAll('[data-o]').forEach(c => c.onchange = setVis);
   let run = 0;
@@ -221,6 +253,7 @@ function ngheMode(body, ctx, it) {
       if (me !== run) return;
       docEl.querySelectorAll('.is-say').forEach(e => e.classList.remove('is-say'));
       if (i >= ls.length) { body.querySelector('[data-act=stop]').disabled = true; return; }
+      if (cut && i >= cut) unfold(); // nghe tới phần đang ẩn → mở cả bài để chữ chạy theo tiếng
       const el = docEl.querySelector(`[data-i="${i}"]`);
       el?.classList.add('is-say'); el?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       const u = new SpeechSynthesisUtterance(reading(ls[i].jp));
