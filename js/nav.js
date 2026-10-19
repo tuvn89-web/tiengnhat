@@ -25,6 +25,15 @@ const PAGES = [
   [/^ghep$/, () => 'Ghép 6 cặp', ['luyen']],
   [/^onhon$/, () => 'Ôn hỗn hợp', []],
   [/^moi$/, () => 'Học từ mới', []],
+  [/^moi\/doan$/, () => 'Học từ mới — đoán nghĩa trước', ['luyen']],
+  [/^luyen\/hanviet$/, () => 'Đoán nghĩa từ Hán Việt', ['luyen']],
+  [/^luyen\/denham$/, () => 'Phân biệt từ dễ nhầm', ['luyen']],
+  [/^luyen\/giongchu$/, () => 'Chữ Hán trông giống', ['luyen']],
+  [/^luyen\/cungdau$/, () => 'Đánh từ cứng đầu', ['luyen']],
+  [/^nhanh3$/, () => 'Ôn nhanh 3 phút', []],
+  [/^nhaclai$/, () => 'Nhắc lại từ mới hôm nay', []],
+  [/^caidat$/, () => 'Cài đặt', []],
+  [/^dulieu$/, () => 'Dữ liệu', []],
   [/^on$/, () => 'Ôn từ đến hạn', []],
   [/^onchu$/, () => 'Ôn chữ Hán', []],
   [/^onngu$/, () => 'Ôn ngữ pháp', []],
@@ -57,13 +66,20 @@ function page(hash) {
   return { name: 'Trang trước', parents: [] };
 }
 export const pageName = hash => page(hash).name;
+// v32: trang cha (nút ‹ nổi khi không có trang trước trong app): theo bảng trên, không có thì lấy phần đầu đường dẫn, rồi Trang chủ
+export function parentOf(hash) {
+  const h = norm(hash), p = page(hash).parents;
+  if (p.length) return '#/' + p[p.length - 1];
+  const top = h.split(/[/?]/)[0];
+  return top && top !== h ? '#/' + top : '#/';
+}
 export function trail(hash) {
   const p = page(hash);
   return [...p.parents.map(x => ['#/' + x, page('#/' + x).name]), [hash, p.name]];
 }
 
 // Trang tự bắt đầu lượt học khi mở (từ Trang chủ…) → quay lại trang đã mở nó
-const AUTO = /^(moi|on|onchu|onngu|onhon|chuhan\/moi|onbai\/.+)$/;
+const AUTO = /^(moi|moi\/doan|on|onchu|onngu|onhon|nhanh3|nhaclai|chuhan\/moi|onbai\/.+)$/;
 // tên bài học cho đường dẫn "← Về …" (lesson.js nạp sau nên đọc qua biến toàn cục)
 const lessonName = id => { const x = globalThis.__lessonById?.(id); return x ? `Bài ${x.n}: ${x.title}` : ''; };
 export function beginSession(ctx) {
@@ -71,18 +87,25 @@ export function beginSession(ctx) {
   let back = ctx.backTo; // trang đặt rõ (vd. luyện riêng một mẫu → về trang mẫu đó)
   if (!back) back = AUTO.test(h) ? (ctx.prevHash && !AUTO.test(norm(ctx.prevHash)) ? ctx.prevHash : '#/') : '#/' + h;
   ctx.back = back || '#/';
+  // v32: lượt tự bắt đầu mở từ trang trước → lúc rời lượt thì lùi lịch sử về đúng trang đó (Back lần sau không mở lại lượt học)
+  ctx.autoBack = !ctx.backTo && AUTO.test(h) && ctx.back === ctx.prevHash ? ctx.back : null;
   ctx.inRun = true;
   if (!history.state?.tntRun) history.pushState({ tntRun: 1 }, '');
 }
 // Về trang trước khi vào bài (nút ← Về…, nút ✕ khi chưa làm câu nào)
 export function goBack(ctx) {
   if (history.state?.tntRun) { ctx.leaving = true; history.back(); } // bỏ mốc lịch sử của lượt học → bộ nghe popstate đưa về ctx.back
-  else { ctx.inRun = false; ctx.go(ctx.back || '#/', true); }
+  else leaveRun(ctx);
+}
+function leaveRun(ctx) {
+  ctx.inRun = false;
+  if (ctx.autoBack && ctx.autoBack === ctx.back && (history.state?.tnIdx || 0) > 0) { ctx.autoBack = null; history.back(); return; }
+  ctx.go(ctx.back || '#/', true);
 }
 export function initNav(ctx) {
   window.addEventListener('popstate', async () => {
     if (!ctx.inRun) return;
-    if (ctx.leaving) { ctx.leaving = false; ctx.inRun = false; ctx.go(ctx.back || '#/', true); return; }
+    if (ctx.leaving) { ctx.leaving = false; leaveRun(ctx); return; }
     const run = document.querySelector('#view .run');
     if (run?.classList.contains('run-lock')) { // luyện từ đã tim: chỉ nút ✕ mới thoát
       history.pushState({ tntRun: 1 }, '');
@@ -100,8 +123,7 @@ export function initNav(ctx) {
       if (yes) document.querySelector('#view .run [data-act=quit]')?.click();
       return;
     }
-    ctx.inRun = false;
-    ctx.go(ctx.back || '#/', true);
+    leaveRun(ctx);
   });
 }
 

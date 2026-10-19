@@ -51,8 +51,22 @@ export function openSheet(html, { onClose, label = 'Chi tiết' } = {}) {
     <div class="sheet-body">${html}</div></div>`;
   document.body.appendChild(wrap);
   const prev = document.activeElement;
-  const close = () => { wrap.remove(); document.removeEventListener('keydown', onKey); prev?.focus?.(); onClose?.(); };
-  const onKey = e => { if (e.key === 'Escape' && document.querySelector('.sheet-wrap:last-of-type') === wrap) close(); };
+  // v32: đóng bảng cũng mượt (mờ dần, thu nhỏ nhẹ) rồi mới gỡ khỏi trang; chế độ yên (tắt chuyển động) thì gỡ ngay
+  let closed = false;
+  const close = () => {
+    if (closed) return;
+    closed = true;
+    document.removeEventListener('keydown', onKey);
+    if (document.documentElement.classList.contains('calm')) wrap.remove();
+    else {
+      wrap.classList.add('is-closing'); wrap.setAttribute('aria-hidden', 'true');
+      const done = () => wrap.remove();
+      wrap.addEventListener('animationend', e => { if (e.target === wrap) done(); });
+      setTimeout(done, 340);
+    }
+    prev?.focus?.(); onClose?.();
+  };
+  const onKey = e => { if (e.key === 'Escape' && [...document.querySelectorAll('.sheet-wrap:not(.is-closing)')].pop() === wrap) close(); };
   document.addEventListener('keydown', onKey);
   wrap.addEventListener('click', e => { if (e.target === wrap || e.target.closest('.sheet-x')) close(); });
   bindSay(wrap);

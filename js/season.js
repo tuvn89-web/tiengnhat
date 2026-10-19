@@ -1,7 +1,7 @@
 // Giao diện mùa (v31): 12 tháng · ngày – đêm · mưa · ngày lễ Nhật & Việt Nam · hiệu ứng vẽ trên một canvas nằm sau nội dung.
 // Mỗi hiệu ứng bật / tắt riêng trong Cài đặt; tôn trọng "giảm chuyển động" của máy; dừng vẽ khi app chạy nền.
-import { S } from './settings.js';
-import { rich } from './util.js';
+import { S, saveSettings } from './settings.js';
+import { rich, toast } from './util.js';
 
 // ---------- màu ----------
 const hex = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
@@ -124,7 +124,11 @@ const timers = {};
 let cv = null, ctx = null;
 const rnd = (a, b) => a + Math.random() * (b - a);
 const pick = a => a[Math.floor(Math.random() * a.length)];
-const motionOK = () => S.motion !== false && !matchMedia('(prefers-reduced-motion: reduce)').matches;
+const reduced = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+const motionOK = () => S.motion !== false && !reduced(); // chuyển động giao diện (trang trượt, bảng phóng to)
+// v32: hiệu ứng nền (canvas) có công tắc riêng S.fxBg — không phụ thuộc "Chuyển động mượt"
+const bgWanted = () => st.on && S.fxBg !== false;
+const bgOK = () => bgWanted() && !reduced();
 const dens = () => ({ low: 0.5, mid: 1, high: 1.8 })[S.fxDensity] || 1;
 const spd = () => ({ slow: 0.55, mid: 1, fast: 1.6 })[S.fxSpeed] || 1;
 const isDarkTheme = () => S.theme === 'dark' || (S.theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
@@ -270,7 +274,7 @@ function seedSky() {
 // ---------- sự kiện ngẫu nhiên ----------
 function every(name, a, b, f, first) {
   clearTimeout(timers[name]);
-  const go = () => { if (st.on && !document.hidden && motionOK()) f(); timers[name] = setTimeout(go, rnd(a, b) * 1000); };
+  const go = () => { if (st.run) f(); timers[name] = setTimeout(go, rnd(a, b) * 1000); };
   timers[name] = setTimeout(go, (first ?? rnd(a, b)) * 1000);
 }
 function meteor() {
@@ -509,7 +513,7 @@ function resize() {
   seedParts(); seedSky();
 }
 function startLoop() {
-  const want = st.on && motionOK() && !document.hidden;
+  const want = bgOK() && !document.hidden;
   if (want && !st.run) { st.run = true; st.last = performance.now(); requestAnimationFrame(step); }
   if (!want) { st.run = false; if (ctx) ctx.clearRect(0, 0, cv.width, cv.height); }
   if (cv) cv.hidden = !want;
@@ -530,6 +534,24 @@ function refresh() {
   if (cv) { seedParts(); seedSky(); }
   schedule();
   startLoop();
+  fabSync();
+}
+
+// ---------- v32: nút nhỏ "Bật / tắt hiệu ứng nền" (góc dưới bên phải, mọi trang) ----------
+let fab = null;
+function fabSync() {
+  if (!fab) return;
+  const on = bgWanted();
+  fab.textContent = on ? 'Tắt hiệu ứng nền' : 'Bật hiệu ứng nền';
+  fab.setAttribute('aria-pressed', String(on));
+  fab.classList.toggle('is-off', !on);
+}
+async function fabToggle() {
+  const on = bgWanted();
+  if (on) S.fxBg = false;
+  else { S.fxBg = true; if (S.season === 'off') S.season = 'auto'; }
+  await saveSettings(); // → tn-settings → refresh() → fabSync()
+  if (!on && reduced()) toast('Máy đang bật "giảm chuyển động" nên app không chạy hiệu ứng nền.');
 }
 
 // ---------- dùng ở chỗ khác ----------
@@ -565,6 +587,10 @@ export function initSeason() {
   cv.id = 'fx'; cv.setAttribute('aria-hidden', 'true');
   document.body.prepend(cv);
   ctx = cv.getContext('2d');
+  fab = document.createElement('button');
+  fab.type = 'button'; fab.className = 'fx-fab'; fab.title = 'Hạt rơi, trời, mưa, sao băng… phía sau nội dung. Màu và hoa văn theo mùa vẫn giữ.';
+  fab.onclick = fabToggle;
+  document.body.append(fab);
   resize();
   let rsT = 0, wfT = 0;
   addEventListener('resize', () => { clearTimeout(rsT); rsT = setTimeout(resize, 150); });

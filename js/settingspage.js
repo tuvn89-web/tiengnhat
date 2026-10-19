@@ -6,6 +6,16 @@ import { SCRIPTS } from './quiz.js';
 import { paceFieldsHTML, bindPaceFields, readPace } from './roadmap.js';
 import { setPrefs } from './data.js';
 import { seasonTry, weatherText } from './season.js';
+import { JP_FONTS, VI_FONTS, FONT_GROUPS, SAMPLE, fontOf, fallback, pvFamily, loadPreview } from './fonts.js';
+
+// v32: chọn phông chữ — bấm mở mới tải mẫu xem trước (vài KB mỗi phông)
+function fontPicker(kind, cur, legend) {
+  const L = kind === 'jp' ? JP_FONTS : VI_FONTS, f = fontOf(kind, cur);
+  const opt = x => `<button type="button" class="fp-opt" data-font="${x[0]}" aria-pressed="${x[0] === f[0]}"><span class="fp-name">${esc(x[2])}</span><span class="fp-sample" ${kind === 'jp' ? 'lang="ja"' : ''} style="font-family: ${x[3] ? `'${pvFamily(kind, x[0])}', ` : ''}${fallback(kind, x[0])}">${esc(SAMPLE[kind])}</span></button>`;
+  return `<details class="fontpick" data-kind="${kind}"><summary><span class="fp-l">${legend}</span> <b class="fp-cur">${esc(f[2])}</b></summary>
+    ${FONT_GROUPS.map(([g, gl]) => { const fs = L.filter(x => x[1] === g); return fs.length ? `<p class="fp-g">${gl}</p><div class="fp-list">${fs.map(opt).join('')}</div>` : ''; }).join('')}
+  </details>`;
+}
 
 export function renderSettings(view, ctx) {
   const voices = jaVoices();
@@ -19,7 +29,9 @@ export function renderSettings(view, ctx) {
       ${field('Cỡ chữ tiếng Nhật', `<input type="range" min="20" max="56" step="2" name="fsJp" value="${S.fsJp}">`)}
       ${field('Cỡ chữ tiếng Việt', `<input type="range" min="14" max="26" step="1" name="fsVi" value="${S.fsVi}">`)}
       <fieldset><legend>Cỡ nút bấm</legend>${chips('btn', [['sm', 'Nhỏ'], ['md', 'Vừa'], ['lg', 'Lớn'], ['xl', 'Rất lớn']], S.btn, false)}</fieldset>
-      <fieldset><legend>Kiểu chữ Nhật</legend>${chips('jpFont', [['gothic', 'Chữ không chân (ゴシック)'], ['mincho', 'Chữ có chân — giống giấy tờ']], S.jpFont, false)}</fieldset>
+      ${fontPicker('jp', S.jpFont, 'Phông chữ Nhật')}
+      ${fontPicker('vi', S.viFont, 'Phông chữ Việt')}
+      <p class="small muted">Phông "mặc định" có sẵn trong máy. Phông khác tải từ Google Fonts lần đầu chọn (cần mạng; Google thấy địa chỉ mạng của máy), sau đó dùng được khi không có mạng. Chữ Hán hiếm mà phông không có thì hiện bằng phông của máy. Thư pháp, viết tay đẹp nhưng nhận mặt chữ khó hơn — lúc mới học chữ nên dùng Gothic hoặc Viết tay chuẩn.</p>
       <div class="preview label-card">
         <div class="label-head"><span class="label-tag">Xem trước</span><span class="label-lv">N2</span></div>
         <p class="prompt-jp" lang="ja"><ruby>解凍<rt>かいとう</rt></ruby></p>
@@ -32,6 +44,7 @@ export function renderSettings(view, ctx) {
       <h2 class="h2">Giao diện mùa & hiệu ứng</h2>
       <p class="muted small">Mỗi tháng một họa tiết (hoa anh đào, mưa, pháo hoa, lá phong, tuyết…), trời đổi theo giờ, ngày lễ Nhật và Việt Nam. Hiệu ứng nằm phía sau thẻ. Máy yếu hoặc muốn đỡ tốn pin thì giảm mật độ hoặc tắt bớt.</p>
       <fieldset><legend>Giao diện mùa</legend>${chips('season', [['auto', 'Theo tháng'], ['off', 'Tắt'], ...Array.from({ length: 12 }, (_, i) => [String(i + 1), `T${i + 1}`])], S.season, false)}</fieldset>
+      <label class="check"><input type="checkbox" name="fxBg" ${S.fxBg !== false ? 'checked' : ''}> <b>Hiệu ứng nền</b> (hạt rơi, trời, mưa, sao băng…). Tắt thì màu và hoa văn theo mùa vẫn giữ. Nút nhỏ "Bật / Tắt hiệu ứng nền" ở góc dưới bên phải bật tắt nhanh ở mọi trang.</label>
       <label class="check"><input type="checkbox" name="motion" ${S.motion ? 'checked' : ''}> Chuyển động mượt (trang trượt, bảng hiện từ nhỏ thành to, điểm đếm lên). Máy bật "giảm chuyển động" thì app tự tắt.</label>
       <fieldset><legend>Mật độ hạt</legend>${chips('fxDensity', [['low', 'Ít'], ['mid', 'Vừa'], ['high', 'Nhiều']], S.fxDensity, false)}</fieldset>
       <fieldset><legend>Tốc độ rơi</legend>${chips('fxSpeed', [['slow', 'Chậm'], ['mid', 'Vừa'], ['fast', 'Nhanh']], S.fxSpeed, false)}</fieldset>
@@ -107,7 +120,26 @@ export function renderSettings(view, ctx) {
   const paceBox = view.querySelector('[data-pace]');
   let paceT = 0;
   bindPaceFields(paceBox, () => { clearTimeout(paceT); paceT = setTimeout(() => setPrefs(readPace(paceBox)), 400); });
-  view.querySelectorAll('[data-fxtry]').forEach(b => b.onclick = () => { if (!seasonTry(b.dataset.fxtry)) toast('Hiệu ứng đang tắt (giao diện mùa tắt, hoặc máy đang bật giảm chuyển động).'); });
+  view.querySelectorAll('.fontpick').forEach(d => {
+    const kind = d.dataset.kind, L = kind === 'jp' ? JP_FONTS : VI_FONTS;
+    d.addEventListener('toggle', () => { if (d.open) L.forEach(x => loadPreview(kind, x[0])); });
+    d.addEventListener('click', e => {
+      const b = e.target.closest('.fp-opt'); if (!b) return;
+      S[kind === 'jp' ? 'jpFont' : 'viFont'] = b.dataset.font;
+      d.querySelectorAll('.fp-opt').forEach(o => o.setAttribute('aria-pressed', String(o === b)));
+      d.querySelector('.fp-cur').textContent = fontOf(kind, b.dataset.font)[2];
+      save();
+      if (!navigator.onLine && fontOf(kind, b.dataset.font)[3]) toast('Đang không có mạng: phông này hiện khi có mạng (lần đầu), tạm dùng phông của máy.');
+    });
+  });
+  view.querySelectorAll('[data-fxtry]').forEach(b => b.onclick = () => { if (!seasonTry(b.dataset.fxtry)) toast('Hiệu ứng nền đang tắt (hoặc giao diện mùa tắt, hoặc máy đang bật giảm chuyển động).'); });
+  // nút nhỏ "Bật / tắt hiệu ứng nền" bấm khi đang ở trang này → cập nhật ô đánh dấu và chip tháng
+  const syncFx = () => {
+    if (!view.querySelector('.fxcard')) return removeEventListener('tn-settings', syncFx);
+    const c = view.querySelector('input[name=fxBg]'); if (c) c.checked = S.fxBg !== false;
+    view.querySelectorAll('.chips[data-name=season] .chip').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.v === S.season)));
+  };
+  addEventListener('tn-settings', syncFx);
   view.querySelector('[data-act=test]').onclick = () => { if (!speak('作業の前に手を洗ってください。')) toast('Máy chưa có giọng đọc tiếng Nhật.'); };
   view.querySelector('[data-act=upd]').onclick = async e => {
     const b = e.currentTarget; b.disabled = true;

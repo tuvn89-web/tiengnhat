@@ -582,3 +582,29 @@ Nhân vật dùng lại từ N5; thêm bà chủ nhà (大家[おおや]さん) 
 - Sửa cách đọc sai trong ghi chú ngữ pháp `nguphap-n3-07`: 御蔭 đọc おかげ.
 
 **Tệp mã thay đổi**: `js/srs.js`, `js/quiz.js`, `js/drill.js`, `js/learn.js`, `js/practice.js`, `js/kanji.js`, `js/words.js`, `js/wordx.js`, `js/app.js`, `js/roadmap.js`, `js/settings.js`, `js/settingspage.js`, `js/guides.js`, `js/util.js`, `css/app.css`, `sw.js`; tệp mới `js/leech.js`, `js/dot6.js`, `js/season.js`.
+
+## 41. Bản v32 (19/10/2026): nút ‹ quay lại, nút tắt hiệu ứng nền, thanh trên trong suốt, chọn phông chữ, bảng hiện mượt hơn
+
+**Nút ‹ quay lại (nổi)**
+- Nút tròn ‹ ở góc dưới bên trái, có ở **mọi trang trừ Trang chủ**. Bấm = quay lại màn hình trước, giống nút Back của điện thoại: đang làm bài thì hỏi "Dừng lượt này?"; ở màn kết quả thì về trang trước khi vào bài.
+- Mở thẳng một trang con (không có trang trước trong app) thì nút đưa về trang cha (vd. Luyện tập), rồi Trang chủ.
+- **Giữ 0,7 giây** → máy rung nhẹ, nút phóng to → kéo tới chỗ khác → thả tay (rung nhẹ lần nữa). App nhớ chỗ đó trên máy này (xoay ngang máy vẫn đúng chỗ). Nút không kéo đè lên thanh trên và thanh công cụ dưới. iPhone không cho trang web rung nên chỉ không có rung, kéo vẫn được.
+- Sửa kèm: rời một lượt tự bắt đầu (Ôn từ đến hạn, Học từ mới, Ôn nhanh 3 phút, Nhắc lại từ mới…) xong bấm Back thì không còn bị mở lại lượt học đó.
+
+**Nút nhỏ "Bật / tắt hiệu ứng nền"** (góc dưới bên phải, mọi trang)
+- Đang chạy thì ghi **Tắt hiệu ứng nền**; đang tắt thì ghi **Bật hiệu ứng nền**. Tắt: hạt rơi, trời, mây, mưa, sao băng, máy bay, pháo hoa, chùm hạt khi trả lời đúng… dừng hẳn; **màu và hoa văn theo mùa vẫn giữ**. Bật lại khi giao diện mùa đang "Tắt" thì app bật lại "Theo tháng".
+- Cài đặt → Giao diện mùa & hiệu ứng có thêm ô **Hiệu ứng nền** (cùng công tắc với nút nhỏ). Ô "Chuyển động mượt" giờ chỉ lo phần giao diện, không tắt hiệu ứng nền nữa. Máy bật "giảm chuyển động" thì hiệu ứng nền vẫn không chạy (bấm Bật sẽ có thông báo).
+- Hai nút nổi nằm sát trên thanh công cụ; khi có khay nút (Tiếp, Đã thuộc…) thì nổi lên trên khay. Ôn nhanh 3 phút chừa chỗ để nút không đè đáp án. Cuối trang chừa thêm một khoảng để nút không che chữ.
+
+**Thanh trên trong suốt**: thanh có tiêu đề "Tiếng Nhật Thực Chiến" trong suốt, liền với nền mùa phía dưới; cuộn trang xuống thì thanh thành kính mờ để chữ của trang không đè lên tiêu đề.
+
+**Chọn phông chữ** (Cài đặt → Giao diện → Phông chữ Nhật / Phông chữ Việt; bấm mở mới tải mẫu xem trước)
+- Chữ Nhật (14 kiểu): Thường — Gothic (mặc định của máy), Mincho, UD Gothic, Mincho thanh lịch · Viết tay — Viết tay chuẩn (giống chữ sách giáo khoa), Viết tay nhẹ nhàng, Viết tay tròn dễ thương, Bút dạ · Thư pháp — Thư pháp bút lông, Thư pháp nét đậm, Bút lông mềm · Mềm mại — Tròn mềm mại, Tròn nét bút, Tròn hiện đại.
+- Chữ Việt (13 kiểu): Mặc định của máy, Be Vietnam Pro, Lexend, có chân như sách, có chân mềm · Viết tay, Viết tay bút bi, Viết tay chữ in, Viết tay tròn · Thư pháp nét liền, Thư pháp mềm · Tròn mềm mại, Tròn nét mảnh.
+- Phông "mặc định" có sẵn trong máy. Phông khác tải từ Google Fonts lần đầu chọn (cần mạng; Google thấy địa chỉ mạng của máy), sau đó app giữ lại để dùng khi không có mạng. Phông tiếng Nhật chỉ tải phần chữ đang hiện. Chữ Hán hiếm mà phông không có thì hiện bằng phông của máy.
+
+**Bảng hiện mượt hơn**: màn kết quả và bảng chi tiết phóng từ nhỏ ra, chậm dần về cuối (không còn nảy), các dòng kết quả nối nhau hiện lên; đóng bảng cũng mờ dần rồi mới biến mất.
+
+**Tệp thay đổi**: `js/backfab.js` (mới), `js/fonts.js` (mới), `js/season.js`, `js/settings.js`, `js/settingspage.js`, `js/nav.js`, `js/app.js`, `js/ui.js`, `js/guides.js`, `js/util.js`, `css/app.css`, `sw.js`, `HUONG-DAN.md`.
+
+Nếu chưa đưa bản v31 lên GitHub thì đưa thẳng gói v32 (đã gồm cả thay đổi của v31).

@@ -28,6 +28,7 @@ import { renderLesson, learnLesson, renderLessonSents, runLessonTest, runLessonR
 import { renderDocList, renderDoc } from './reader.js';
 import { openGrammarSheet } from './explain.js';
 import { initSeason, seasonChipHTML } from './season.js';
+import { initBackFab, backFabRoute } from './backfab.js';
 import { renderGuessLearn, renderHanViet, renderDenHam, renderGiongChu, renderCungDau, runQuick3, runRecap } from './dot6.js';
 
 const view = $('#view');
@@ -110,12 +111,21 @@ function route() {
   // nhớ trang trước (để nút "← Về …" của lượt học tự bắt đầu quay về đúng chỗ)
   const cur = location.hash || '#/';
   if (cur !== ctx.curHash) { ctx.prevHash = ctx.curHash; ctx.curHash = cur; }
+  // v32: đánh số mốc lịch sử trong app (nút ‹ nổi biết còn trang trước để lùi hay không)
+  const hs = history.state;
+  if (hs?.tnIdx == null && !hs?.tntRun) {
+    const idx = ctx.idx == null ? 0 : ctx.replaceNext ? ctx.idx : ctx.idx + 1;
+    try { history.replaceState({ ...(hs || {}), tnIdx: idx }, ''); } catch { }
+  }
+  ctx.replaceNext = false;
+  ctx.idx = history.state?.tnIdx ?? ctx.idx ?? 0;
   ctx.backTo = null; ctx.inRun = false;
   leave.forEach(f => { try { f(); } catch { } });
   leave = [];
   // chuyển trang (kể cả nút Back của điện thoại) thì đóng mọi tờ thông tin đang mở
   document.querySelectorAll('.sheet-wrap').forEach(w => w.querySelector('.sheet-x')?.click());
   const h = location.hash.replace(/^#\/?/, '');
+  backFabRoute(h);
   heartRoute(h); // tim tạm ở bài học: sang trang khác thì bỏ
   const r = ROUTES.find(([re]) => re.test(h));
   // mỗi lần chuyển trang dùng một khung mới — trình nghe sự kiện của trang cũ bị bỏ theo khung cũ
@@ -297,6 +307,10 @@ async function init() {
   await loadSettings();
   try { initSeason(); } catch (e) { console.warn('season', e); }
   chrome();
+  try { initBackFab(ctx); } catch (e) { console.warn('backfab', e); }
+  // v32: thanh trên trong suốt; cuộn xuống thì thành kính mờ để chữ trang không đè tiêu đề
+  const tb = $('#topbar'), tbSync = () => tb.classList.toggle('is-scrolled', scrollY > 4);
+  addEventListener('scroll', tbSync, { passive: true }); tbSync();
   view.innerHTML = '<p class="muted loading">Đang tải dữ liệu…</p>';
   try { await loadAll(); } catch (e) { D.errors.push('Lỗi tải dữ liệu: ' + (e?.message || e)); }
   await loadProgress();
