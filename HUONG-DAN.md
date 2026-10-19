@@ -553,3 +553,32 @@ Nhân vật dùng lại từ N5; thêm bà chủ nhà (大家[おおや]さん) 
 - Áp dụng ở: tab **Đọc** của từng bài, **Bài mở đầu** trong trang bài học, và **Nghe cả bài** (giọng đọc tới phần đang ẩn thì bài tự mở ra để chữ chạy theo tiếng).
 - Mỗi lần mở bài đều rút gọn lại như mặc định. Ô "Hiện nghĩa tiếng Việt", chạm câu để xem giải thích, loa từng câu vẫn dùng bình thường với cả phần vừa mở.
 - Tệp mã thay đổi: `js/reader.js`, `css/app.css`, `js/guides.js`, `js/util.js`, `sw.js` (lên bản v30). Nếu chưa đưa bản v29 (8 gói chữ Hán) lên GitHub thì gói cập nhật v30 đã **gồm luôn các tệp của v29**.
+
+## 40. Bản v31 (19/10/2026): học nhanh nhớ lâu (đợt 6), giao diện bốn mùa, 60 thẻ chữ Hán mới
+
+**Lịch ôn mới (nhớ lâu hơn)**
+- 7 hộp: 1 → 2 → 4 → 8 → 16 → **35 → 90 ngày**. Đúng ở lần ôn 90 ngày mới thuộc hẳn. Tiến độ cũ giữ nguyên (mục đang ở hộp 5 vẫn ở hộp 5).
+- "Biết rồi" giữ như cũ: đúng ở lần ôn 16 ngày là thuộc hẳn. Nút "Đã thuộc" giữ như cũ: không hỏi lại.
+- Sai: hộp 1–3 về hộp 1; **hộp 4 trở lên lùi 2 hộp**.
+- **Đúng mà chậm** (câu chọn đáp án của từ vựng, chữ Hán; mặc định quá 8 giây, chỉnh hoặc tắt ở Cài đặt → Học): giữ nguyên hộp. Thời gian tắt màn hình không tính.
+- **Nhắc lại cuối ngày**: từ học mới hôm nay, sau ít nhất 4 giờ, có dòng "Nhắc lại … từ mới hôm nay" trong Kế hoạch hôm nay (không đổi lịch ôn).
+- **Từ cứng đầu** (sai từ 4 lần, chưa thuộc): lần ôn sau hiện thẻ đầy đủ trước khi hỏi; dạng bài "Đánh từ cứng đầu"; Kho từ → Bộ lọc → Cứng đầu.
+
+**Chế độ học và dạng luyện mới** (các chế độ cũ giữ nguyên)
+- **Ôn nhanh 3 phút** (nút trên Trang chủ): đồng hồ 3 phút, mục quá hạn lâu nhất hỏi trước, đáp án dồn nửa dưới màn hình để bấm một tay, "Thêm 3 phút".
+- **Học từ mới — đoán nghĩa trước**: nhìn âm Hán Việt đoán nghĩa rồi mới xem thẻ. Luyện riêng: **Đoán nghĩa từ Hán Việt**.
+- **Phân biệt từ dễ nhầm** (từ vựng và mẫu ngữ pháp gần nghĩa). Thẻ từ có bảng so sánh từ dễ nhầm; chọn nhầm sang từ dễ nhầm thì hiện bảng so sánh.
+- **Chữ Hán trông giống**. Ôn chữ Hán chọn nhầm sang chữ trông giống thì hiện bảng so sánh.
+- **Gia đình chữ**: mục mới trong thẻ chữ; danh sách Chữ Hán có nút "Theo gia đình chữ".
+
+**Giao diện bốn mùa** (giống bản thử `giaodien-mua-demo.html`)
+- 12 tháng mỗi tháng một họa tiết; trời đổi theo giờ (trăng đúng ngày âm lịch); mưa (theo mùa mưa / thời tiết thật / luôn / tắt) có chớp; gió; ngày lễ Nhật và Việt Nam (Tết, Trung thu, 2/9…); mưa sao băng theo lịch; máy bay có vệt khói; hố đen; pháo hoa; đom đóm; đèn lồng; chùm hạt khi trả lời đúng.
+- Hiệu ứng nằm phía sau thẻ, chạy ở mọi trang, cả nền sáng lẫn nền tối. Bảng, màn kết quả hiện ra mượt từ nhỏ thành to; điểm đếm lên.
+- Dấu chấm bài: **○ đúng luôn màu xanh lá, × sai luôn màu đỏ** (không đổi theo mùa).
+- **Cài đặt → Giao diện mùa & hiệu ứng**: chọn tháng hoặc tắt; mật độ hạt; tốc độ rơi; bật / tắt riêng từng hiệu ứng; thành phố cho thời tiết thật; nút "Thử ngay". Máy bật "giảm chuyển động" thì app tự tắt hiệu ứng.
+
+**Dữ liệu**
+- Thêm 2 gói `chuhan-46`, `chuhan-47` (60 chữ hay gặp trong câu ví dụ, bài học: 誰, 京, 大阪, 倉庫, 印鑑, 詐欺, 鮭, 鯖, 封筒, 欄…). Kho có **1.401 thẻ**. Còn 85 chữ chỉ gặp trong câu (sẽ làm tiếp).
+- Sửa cách đọc sai trong ghi chú ngữ pháp `nguphap-n3-07`: 御蔭 đọc おかげ.
+
+**Tệp mã thay đổi**: `js/srs.js`, `js/quiz.js`, `js/drill.js`, `js/learn.js`, `js/practice.js`, `js/kanji.js`, `js/words.js`, `js/wordx.js`, `js/app.js`, `js/roadmap.js`, `js/settings.js`, `js/settingspage.js`, `js/guides.js`, `js/util.js`, `css/app.css`, `sw.js`; tệp mới `js/leech.js`, `js/dot6.js`, `js/season.js`.

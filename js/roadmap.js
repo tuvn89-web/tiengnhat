@@ -1,5 +1,6 @@
 // Hướng dẫn & lộ trình (đợt 5a, Đ7): màn Bắt đầu · Lộ trình theo chặng · Kế hoạch hôm nay + dự báo.
 import { esc, rich, plain, DAY, startOfDay } from './util.js';
+import { recapState } from './dot6.js';
 import { D, LEVELS, setPrefs, actToday } from './data.js';
 import { status, stats, P } from './srs.js';
 import { chips, bindChips, readChip } from './ui.js';
@@ -263,6 +264,10 @@ export function planToday() {
   const hasNewV = D.vocab.some(it => status(it) === 'new');
   const lnew = cl && cl.words.some(id => { const it = D.items.get(id); return it && status(it) === 'new'; });
   if (hasNewV && plan.v > 0) out.push({ done: newV >= plan.v, label: `Học ${plan.v} từ mới`, sub: `Hôm nay đã học ${newV}${lnew ? ` · từ của bài ${cl.n}` : ''}`, href: lnew ? `#/bai/${encodeURIComponent(cl.id)}/hoc` : '#/moi', btn: 'Học' });
+  // v31 (N4): nhắc lại từ mới học hôm nay, sau ít nhất 4 giờ
+  const rc = recapState();
+  if (rc.ready.length) out.push({ done: false, label: `Nhắc lại ${rc.ready.length} từ mới hôm nay`, sub: 'Học từ 4 giờ trước — lượt ngắn, không đổi lịch ôn', href: '#/nhaclai', btn: 'Nhắc lại' });
+  else if (rc.done) out.push({ done: true, label: 'Nhắc lại từ mới hôm nay', sub: `Đã nhắc lại ${rc.done} từ`, href: '#/nhaclai', btn: 'Nhắc lại' });
   // mẫu mới: ưu tiên mẫu của bài đang học
   const g = (cl ? cl.grammar.map(id => D.items.get(id)).filter(x => x && status(x) === 'new') : [])[0] || D.grammar.filter(x => status(x) === 'new').sort((a, b) => LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level))[0];
   if (wantG && g) out.push({ done: newG >= 1, label: '1 mẫu ngữ pháp mới', sub: newG ? 'Đã học hôm nay' : plain(g.pattern), href: `#/nguphap/${encodeURIComponent(g.id)}`, btn: 'Học' });

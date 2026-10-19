@@ -1,6 +1,6 @@
 import { esc, wordHTML, hasKanji, isKanjiCh, plain, reading, rubyHTML, icon, toast, debounce } from './util.js';
 import { D, LEVELS, TOPICS, POS, REG, saveUserItem, deleteUserItem, report, unreport } from './data.js';
-import { status, isStar, toggleStar, P } from './srs.js';
+import { status, isStar, toggleStar, P, TOP, isLeech } from './srs.js';
 import { chips, bindChips, readChip, readChips, openSheet, wordDetailHTML, field, emptyState, confirmBox } from './ui.js';
 
 const ST_LABEL = { new: 'Chưa học', learning: 'Đang học', known: 'Đã thuộc' };
@@ -11,7 +11,7 @@ export function renderWordList(view, ctx) {
     <div class="list-head"><h1 class="h1">Kho từ</h1><a class="btn btn-primary btn-sm" href="#/them">${icon('plus')} Thêm từ</a></div>
     <input class="input search" type="search" placeholder="Tìm: kana, kanji, nghĩa, Hán Việt" aria-label="Tìm từ">
     <details class="filters"><summary>Bộ lọc</summary>
-      ${chips('st', [['all', 'Tất cả'], ['new', 'Chưa học'], ['learning', 'Đang học'], ['known', 'Đã thuộc'], ['rep', 'Đã báo sai'], ['mine', 'Tự thêm/sửa']], 'all', false)}
+      ${chips('st', [['all', 'Tất cả'], ['new', 'Chưa học'], ['learning', 'Đang học'], ['known', 'Đã thuộc'], ['leech', 'Cứng đầu'], ['rep', 'Đã báo sai'], ['mine', 'Tự thêm/sửa']], 'all', false)}
       ${chips('levels', LEVELS.map(l => [l, l]), [])}
       ${chips('topics', Object.entries(TOPICS), [])}
     </details>
@@ -28,6 +28,7 @@ export function renderWordList(view, ctx) {
       if (tp.length && !it.topics.some(t => tp.includes(t))) return false;
       if (stf === 'rep' && !(D.reports[it.id] && !D.reports[it.id]._del)) return false;
       if (stf === 'mine' && !it._user) return false;
+      if (stf === 'leech' && !isLeech(it)) return false;
       if (['new', 'learning', 'known'].includes(stf) && status(it) !== stf) return false;
       if (!s) return true;
       return it.kana.includes(s) || (it.kanji || '').includes(s) || it.vi.toLowerCase().includes(s) || (it.hv || '').toLowerCase().includes(s) || (it.std || '').includes(s);
@@ -38,7 +39,7 @@ export function renderWordList(view, ctx) {
     view.querySelector('.list-count').textContent = `${res.length} từ`;
     ul.innerHTML = res.slice(0, shown).map(it => `<li><button type="button" class="row" data-id="${esc(it.id)}">
       <span class="row-jp" lang="ja">${wordHTML(it, 'furi')}</span>
-      <span class="row-vi">${esc(it.vi)}</span>
+      <span class="row-vi">${esc(it.vi)}${isLeech(it) ? ' <small class="leech-tag">cứng đầu</small>' : ''}</span>
       <span class="dot dot-${status(it)}" title="${ST_LABEL[status(it)]}"></span></button></li>`).join('')
       || `<li>${emptyState('Không có từ nào khớp.')}</li>`;
     more.hidden = res.length <= shown;
@@ -55,7 +56,7 @@ export function showWord(id, ctx, refresh) {
   if (!it) return;
   const r = P.get(id);
   const rep = D.reports[id] && !D.reports[id]._del;
-  const prog = r ? ['vj', 'jv', 'kr'].filter(d => r.d?.[d]).map(d => `${{ vj: 'Việt→Nhật', jv: 'Nhật→Việt', kr: 'Đọc kanji' }[d]}: hộp ${r.d[d].b}/5`).join(', ') : 'chưa học';
+  const prog = r ? ['vj', 'jv', 'kr'].filter(d => r.d?.[d]).map(d => `${{ vj: 'Việt→Nhật', jv: 'Nhật→Việt', kr: 'Đọc kanji' }[d]}: hộp ${r.d[d].b}/${TOP}${r.d[d].m ? ' (thuộc hẳn)' : ''}`).join(', ') : 'chưa học';
   const s = openSheet(`${wordDetailHTML(it)}
     <p class="muted small">Tiến độ: ${esc(prog)}. ${it._user ? 'Bản do bạn thêm/sửa.' : `Gói: ${esc(it._pack)}.`}</p>
     <div class="row-btns wrap">

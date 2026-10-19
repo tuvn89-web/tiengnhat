@@ -27,6 +27,8 @@ import { setPrefs } from './data.js';
 import { renderLesson, learnLesson, renderLessonSents, runLessonTest, runLessonReview, runTongHop, renderCanDo } from './lesson.js';
 import { renderDocList, renderDoc } from './reader.js';
 import { openGrammarSheet } from './explain.js';
+import { initSeason, seasonChipHTML } from './season.js';
+import { renderGuessLearn, renderHanViet, renderDenHam, renderGiongChu, renderCungDau, runQuick3, runRecap } from './dot6.js';
 
 const view = $('#view');
 let leave = [];
@@ -38,7 +40,7 @@ const ctx = {
 };
 
 const NAV = [
-  ['#/', 'home', 'Trang chủ', /^(?:|trinhdo|lotrinh|batdau|kana|noiduoc|huongdan(?:\/.*)?|(?:bai|onbai|tonghop)\/.*)$/],
+  ['#/', 'home', 'Trang chủ', /^(?:|trinhdo|lotrinh|batdau|kana|noiduoc|nhanh3|nhaclai|huongdan(?:\/.*)?|(?:bai|onbai|tonghop)\/.*)$/],
   ['#/luyen', 'quiz', 'Luyện tập', /^(luyen|hoc|on$|moi|ghep|onhon|dich|doc)/],
   ['#/chuhan', 'han', 'Chữ Hán', /^(chuhan|onchu)/],
   ['#/nguphap', 'book', 'Ngữ pháp', /^(nguphap|onngu)/],
@@ -59,6 +61,13 @@ const ROUTES = [
   [/^onhon$/, v => renderMixed(v, ctx)],
   [/^hoc$/, v => renderQuizSetup(v, ctx)],
   [/^on$/, v => startQuick(v, 'due')],
+  [/^moi\/doan$/, v => renderGuessLearn(v, ctx)],
+  [/^luyen\/hanviet$/, v => renderHanViet(v, ctx)],
+  [/^luyen\/denham$/, v => renderDenHam(v, ctx)],
+  [/^luyen\/giongchu$/, v => renderGiongChu(v, ctx)],
+  [/^luyen\/cungdau$/, v => renderCungDau(v, ctx)],
+  [/^nhanh3$/, v => runQuick3(v, ctx)],
+  [/^nhaclai$/, v => runRecap(v, ctx)],
   [/^moi$/, v => runLearn(v, selectItems({ source: 'new' }).slice(0, S.qCount), ctx, { again: () => ctx.go('#/moi', true) })],
   [/^moi\?p=(.+)$/, (v, m) => learnPack(v, decodeURIComponent(m[1]))],
   [/^ghep$/, v => renderMatchSetup(v, ctx)],
@@ -185,9 +194,11 @@ function renderHome(v) {
     ${needsOnboard() ? `<section class="card onboard"><h2 class="h2">Chào bạn!</h2><p>Trả lời 3 câu (mục tiêu, mỗi ngày học bao lâu, đang ở đâu) để app xếp kế hoạch hằng ngày và lộ trình.</p>
       <div class="row-btns"><button type="button" class="btn btn-ghost" data-act="skipob">Để sau</button><a class="btn btn-primary" href="#/batdau">Bắt đầu</a></div></section>` : ''}
     <section class="today">
+      ${seasonChipHTML()}
       <p class="today-l">Hôm nay${S_mins()}</p>
       ${st.total || sk.total || sg.total
         ? `<ul class="plan-l">${planList}</ul>
+           <a class="btn btn-block quick3" href="#/nhanh3">${icon('quiz')}<span><b>Ôn nhanh 3 phút</b><small>${nDue ? `${nDue} mục đến hạn · mục quá hạn lâu nhất hỏi trước` : 'nhắc lại từ mới học 7 ngày qua'}</small></span></a>
            ${nDue ? `<details class="today-more"><summary>Ôn riêng từng loại · ${nDue} mục đến hạn</summary><ul class="tasks">${tasks}</ul></details>` : ''}
            ${fc ? `<p class="small muted fc">${fc} <a href="#/lotrinh">Lộ trình →</a></p>` : ''}`
         : `<p class="today-n">Chưa có dữ liệu.</p><a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>`}
@@ -284,6 +295,7 @@ function announceUpdate() {
 
 async function init() {
   await loadSettings();
+  try { initSeason(); } catch (e) { console.warn('season', e); }
   chrome();
   view.innerHTML = '<p class="muted loading">Đang tải dữ liệu…</p>';
   try { await loadAll(); } catch (e) { D.errors.push('Lỗi tải dữ liệu: ' + (e?.message || e)); }

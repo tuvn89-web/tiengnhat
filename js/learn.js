@@ -1,5 +1,6 @@
 // Học từ mới (A1–A4): xem thẻ → "Đã học" / "Biết rồi" / "Để sau". Không kiểm tra ngay; lật lại được thẻ trước.
-import { esc, wordHTML, icon, toast } from './util.js';
+import { esc, wordHTML, icon, toast, shuffle, beep, buzz } from './util.js';
+import { D } from './data.js';
 import { S } from './settings.js';
 import { logAct, actOf } from './data.js';
 import { setLearned, unsetLearned, status } from './srs.js';
@@ -28,9 +29,18 @@ export async function applyDecision(it, dec, prev) {
   else if (dec === 'later' && (prev === 'learned' || prev === 'known')) await unsetLearned(it);
 }
 
-export function runLearn(view, items, ctx, { again, onFinish } = {}) {
+// v31 (M1): đoán nghĩa từ âm Hán Việt — từng chữ Hán của từ: chữ, âm, nghĩa (lấy từ thẻ chữ nếu có)
+export function hvBreakdownHTML(it) {
+  const cs = [...(it.kanji || '')].filter(c => /[\u4e00-\u9fff]/.test(c));
+  const hv = String(it.hv || '').split(/\s+/).filter(Boolean);
+  if (!cs.length) return '';
+  return `<div class="hvb" data-bare>${cs.map((c, i) => { const k = D.kanjiByChar.get(c); return `<${k ? `button type="button" data-kopen="${esc(c)}"` : 'span'} class="hvb-c"><b lang="ja">${esc(c)}</b><span>${esc(k?.hv || hv[i] || '')}${k?.nghia ? ` — ${esc(k.nghia)}` : ''}</span></${k ? 'button' : 'span'}>`; }).join('<span class="hvb-plus">+</span>')}</div>`;
+}
+export const canGuess = it => !!(it.kanji && it.hv && /[\u4e00-\u9fff]/.test(it.kanji));
+
+export function runLearn(view, items, ctx, { again, onFinish, guess = false } = {}) {
   if (!items.length) { view.innerHTML = emptyState('Đã học hết từ mới trong kho (theo bộ lọc đang chọn). Nhập thêm gói từ ở trang Dữ liệu.', '<a class="btn btn-primary" href="#/luyen">Về Luyện tập</a>'); return; }
-  const st = { i: 0, dec: new Map() };
+  const st = { i: 0, dec: new Map(), guessed: new Map() };
   beginSession(ctx);
   let keyH = null;
   const setKeys = h => { if (keyH) document.removeEventListener('keydown', keyH); keyH = h; if (h) document.addEventListener('keydown', h); };
@@ -39,6 +49,7 @@ export function runLearn(view, items, ctx, { again, onFinish } = {}) {
   function show() {
     if (st.i >= items.length) return finish();
     const it = items[st.i];
+    if (guess && canGuess(it) && !st.guessed.has(it.id)) return guessQ(it);
     view.innerHTML = `<div class="run">
       <div class="run-top">
         <button type="button" class="icon-btn" data-act="quit" aria-label="Dừng">${icon('close')}</button>
@@ -63,6 +74,51 @@ export function runLearn(view, items, ctx, { again, onFinish } = {}) {
     window.scrollTo(0, 0);
     if (S.autoSpeak) speak(it.kana);
   }
+  // Bước đoán: thấy từ + âm Hán Việt, chọn nghĩa; đoán xong mới hiện thẻ (không đổi lịch ôn)
+  async function guessQ(it) {
+    const { answerOf, distractors } = await import('./quiz.js');
+    const right = answerOf(it, 'jv', 'furi'), opts = shuffle([right, ...distractors(it, 'jv', 'furi')]);
+    view.innerHTML = `<div class="run">
+      <div class="run-top">
+        <button type="button" class="icon-btn" data-act="quit" aria-label="Dừng">${icon('close')}</button>
+        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${items.length}" aria-valuenow="${st.i}"><i style="width:${(st.i / items.length) * 100}%"></i></div>
+        <span class="run-n">${st.i + 1}/${items.length}</span>
+      </div>
+      <article class="label-card guess" data-nokj>
+        <div class="label-head"><span class="label-tag">Đoán nghĩa trước</span><span class="label-lv">${esc(it.level || '')}</span></div>
+        <p class="prompt-jp" lang="ja">${wordHTML(it, 'furi')}</p>
+        <p class="guess-hv">${esc(it.hv)}</p>
+        <p class="prompt-hint">Nhìn âm Hán Việt, đoán nghĩa của từ</p><div class="stamp" aria-hidden="true"></div>
+      </article>
+      <div class="opts">${opts.map((a, k) => `<button type="button" class="opt" data-k="${esc(a.key)}"><span class="opt-n">${k + 1}</span><span class="opt-t">${a.html}</span></button>`).join('')}</div>
+      <div class="after" hidden></div></div>`;
+    view.querySelector('[data-act=quit]').onclick = () => (st.i > 0 || st.dec.size ? finish(true) : goBack(ctx));
+    const pick = key => {
+      if (st.guessed.has(it.id)) return;
+      const ok = key === right.key;
+      st.guessed.set(it.id, ok);
+      view.querySelectorAll('.opt').forEach(b => { b.disabled = true; if (b.dataset.k === right.key) b.classList.add('is-ok'); else if (b.dataset.k === key) b.classList.add('is-ng'); });
+      view.querySelector('.stamp').className = 'stamp ' + (ok ? 'stamp-ok' : 'stamp-ng');
+      view.querySelector('.label-card').removeAttribute('data-nokj');
+      if (S.sound) beep(ok);
+      if (!ok && S.vibrate) buzz();
+      if (ok) import('./season.js').then(m => m.burstAtEl(view.querySelector('.opt.is-ok')));
+      const after = view.querySelector('.after');
+      after.hidden = false;
+      after.innerHTML = `<p class="${ok ? 'after-ok' : 'after-msg'}">${ok ? 'Đoán đúng!' : `Nghĩa đúng: <b>${esc(it.vi)}</b>`}</p>${hvBreakdownHTML(it)}`;
+      const bar = document.createElement('div');
+      bar.className = 'next-bar';
+      bar.innerHTML = '<button type="button" class="btn btn-primary" data-act="card">Xem thẻ</button>';
+      view.querySelector('.run').appendChild(bar);
+      const nb = bar.querySelector('[data-act=card]');
+      nb.onclick = () => show();
+      nb.focus({ preventScroll: true });
+      setKeys(e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); show(); } });
+    };
+    view.querySelectorAll('.opt').forEach(b => b.onclick = () => pick(b.dataset.k));
+    setKeys(e => { const n = +e.key; if (n >= 1 && n <= opts.length) pick(opts[n - 1].key); });
+    window.scrollTo(0, 0);
+  }
   async function act(a) {
     if (a === 'back') { st.i--; return show(); }
     const it = items[st.i];
@@ -80,6 +136,7 @@ export function runLearn(view, items, ctx, { again, onFinish } = {}) {
       <h1 class="h1">${early ? 'Đã dừng' : 'Xong lượt học'}</h1>
       <p class="result-score"><b>${learned.length}</b><span> từ đã học</span></p>
       <p class="result-sub">${known.length ? `${known.length} từ đã biết · ` : ''}${later.length ? `${later.length} từ để sau · ` : ''}lần ôn đầu: ngày mai</p>
+      ${st.guessed.size ? `<p class="result-sub">Đoán nghĩa đúng <b>${[...st.guessed.values()].filter(Boolean).length}/${st.guessed.size}</b> từ nhờ âm Hán Việt</p>` : ''}
       ${learned.length ? `<ul class="wlist">${learned.map(it => `<li><button type="button" class="row" data-wopen="${esc(it.id)}"><span lang="ja">${wordHTML(it, 'furi')}</span><span>${esc(it.vi)}</span></button></li>`).join('')}</ul>` : ''}
       <div class="row-btns stack">
         ${learned.length ? `<button class="btn btn-primary" data-act="test">Kiểm tra nhanh ${learned.length} từ này</button>` : ''}

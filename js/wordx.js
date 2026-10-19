@@ -149,6 +149,16 @@ function gocHTML(it) {
   return `<p class="wd-goc">${isKata(it.kana) ? '<span class="tag">từ ngoại lai</span> ' : ''}${it.goc ? `Gốc: <b>${esc(it.goc)}</b>` : ''}${it.wasei ? '<br><span class="tag tag-warn">nghĩa khác tiếng gốc</span> Người Nhật dùng theo nghĩa riêng — đừng dịch theo tiếng Anh.' : ''}</p>`;
 }
 
+// v31 (L1): từ dễ nhầm đặt cạnh nhau — chữ, âm Hán Việt, nghĩa. focus = từ đang học / đáp án đúng, picked = từ đã chọn nhầm.
+export const confuseOf = it => (it.confuse || []).filter(c => c !== it.pair).map(id => D.items.get(id)).filter(o => o && o.id !== it.id);
+export const isConfusable = (a, b) => !!a && !!b && a.id !== b.id && ((a.confuse || []).includes(b.id) || (b.confuse || []).includes(a.id));
+export function confuseCmpHTML(items, { focus = null, picked = null, title = 'So sánh từ dễ nhầm' } = {}) {
+  if (items.length < 2) return '';
+  return `<div class="cmp"><p class="cmp-t">${esc(title)}</p><table class="cmp-tb"><tbody>${items.map(o => `<tr class="${o.id === focus ? 'is-focus' : ''}${o.id === picked ? ' is-picked' : ''}">
+    <th scope="row"><button type="button" class="cmp-w" data-wopen="${esc(o.id)}" lang="ja">${wordHTML(o, 'furi')}</button></th>
+    <td>${o.hv ? `<small class="cmp-hv">${esc(o.hv)}</small>` : ''}${esc(o.vi)}${o.id === picked ? ' <small class="cmp-mark">← bạn chọn</small>' : ''}</td></tr>`).join('')}</tbody></table></div>`;
+}
+
 export function wordDetailHTML(it, { compact = false } = {}) {
   const tn = (it.topics || []).map(t => TOPICS[t] || t).join(', ');
   const reg = it.reg && it.reg !== 'thuong' && !tn.includes(REG[it.reg]) ? REG[it.reg] : '';
@@ -167,13 +177,14 @@ export function wordDetailHTML(it, { compact = false } = {}) {
   return `<div class="wd">${head}
     ${kanjiStripHTML(it)}
     <p class="wd-vi">${esc(it.vi)}</p>
+    ${confuseCmpHTML([it, ...confuseOf(it)].slice(0, 4), { focus: it.id, title: 'Dễ nhầm — so sánh' })}
     ${it.std ? `<p class="wd-std">Tiếng chuẩn: <span lang="ja">${rich(it.std)}</span></p>` : ''}
     <p class="wd-meta">${meta.map(esc).join(' / ')}</p>
     ${verbTagHTML(it)}
     ${gocHTML(it)}
     ${(it.coll || []).length ? `<h3 class="h3">Cụm hay đi kèm</h3><ul class="coll">${it.coll.map(c => `<li><span lang="ja">${rich(c.jp)}</span><small>${esc(c.vi || '')}</small></li>`).join('')}</ul>` : ''}
     ${examplesHTML(it, 9)}
-    ${refsRow('Đồng nghĩa', it.syn) + refsRow('Trái nghĩa', it.ant) + refsRow('Dễ nhầm', (it.confuse || []).filter(c => c !== it.pair)) + refsRow('Đồng âm', homo.map(o => o.id)) + refsRow('Cùng gốc', it.rel) + pairHTML(it) + keigoHTML(it)}
+    ${refsRow('Đồng nghĩa', it.syn) + refsRow('Trái nghĩa', it.ant) + refsRow('Đồng âm', homo.map(o => o.id)) + refsRow('Cùng gốc', it.rel) + pairHTML(it) + keigoHTML(it)}
     ${conjTableHTML(it)}
     ${fxHTML(it)}
     ${adjTableHTML(it)}

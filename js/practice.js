@@ -11,7 +11,7 @@ import { countMark, learnedForms } from './wordx.js';
 import { runDrill, opt } from './drill.js';
 import { chips, bindChips, readChip, readChips, topicOpts, emptyState, wtabs } from './ui.js';
 import { kvGet, kvSet } from './db.js';
-import { dueDirs, status, stats } from './srs.js';
+import { dueDirs, status, stats, isLeech } from './srs.js';
 import { ttsReady } from './tts.js';
 import { recForm, weakForms } from './fstat.js';
 import { sentDue, dueSentQs } from './dich.js';
@@ -23,22 +23,22 @@ const uniq = arr => new Set(arr.map(plain)).size === arr.length;
 const backLink = `<a class="back" href="#/luyen">Các dạng bài</a>`;
 
 // ---------- nguồn từ (F1) ----------
-function sourceBlock(o, filter, { label = 'Lấy từ nào' } = {}) {
+export function sourceBlock(o, filter, { label = 'Lấy từ nào' } = {}) {
   const cnt = {};
   for (const [k] of SOURCES) cnt[k] = selectItems({ source: k }).filter(filter).length;
   return `<fieldset><legend>${label}</legend>${chips('source', SOURCES.map(([k, l]) => [k, l, cnt[k]]), o.source, false)}</fieldset>
     <fieldset><legend>Cấp độ <small>(không chọn = tất cả)</small></legend>${chips('levels', LEVELS.map(l => [l, l]), o.levels || [])}</fieldset>
     <fieldset><legend>Chủ đề <small>(không chọn = tất cả)</small></legend>${chips('topics', topicOpts(), o.topics || [])}</fieldset>`;
 }
-const readSource = f => ({ source: readChip(f, 'source'), levels: readChips(f, 'levels'), topics: readChips(f, 'topics') });
+export const readSource = f => ({ source: readChip(f, 'source'), levels: readChips(f, 'levels'), topics: readChips(f, 'topics') });
 // o.items: danh sách từ chọn sẵn (trang Luyện thể chọn nhiều nguồn cùng lúc)
 const pool = (o, filter) => shuffle((o.items || selectItems(o)).filter(filter));
 
 // Khung trang thiết lập dùng chung: vẽ form, đếm số câu, bấm Bắt đầu
-async function setupPage(view, ctx, { key, title, intro = '', fields, read, build, route, drillTitle, empty }) {
+export async function setupPage(view, ctx, { key, title, intro = '', fields, read, build, route, drillTitle, empty, drillOpts = {}, counts = [10, 20, 30], unit = 'câu' }) {
   view.innerHTML = `${backLink}<h1 class="h1">${esc(title)}</h1>${intro ? `<p class="muted small">${intro}</p>` : ''}
     <form class="setup" onsubmit="return false">${fields}
-      <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30].map(n => [String(n), String(n)]), String((await kvGet(key, {})).count || 10), false)}</fieldset>
+      <fieldset><legend>Số ${unit}</legend>${chips('count', counts.map(n => [String(n), String(n)]), String((await kvGet(key, {})).count || counts[0]), false)}</fieldset>
       <p class="setup-count" aria-live="polite"></p>
       <button class="btn btn-primary btn-block" data-act="start">Bắt đầu</button>
     </form>`;
@@ -54,7 +54,7 @@ async function setupPage(view, ctx, { key, title, intro = '', fields, read, buil
     const x = { ...read(f), count: +readChip(f, 'count') };
     await kvSet(key, x);
     ctx.backTo = route;
-    runDrill(view, build(x), ctx, { title: drillTitle || title, again: () => ctx.go(route, true) });
+    runDrill(view, build(x), ctx, { title: drillTitle || title, again: () => ctx.go(route, true), ...drillOpts });
   };
   return f;
 }
@@ -405,6 +405,17 @@ export async function renderDem(view, ctx) {
   });
 }
 
+// Một câu chọn đáp án của từ vựng (dùng cho Ôn hỗn hợp, Ôn nhanh 3 phút). cmpOf: đáp án → mã từ, để so sánh khi chọn nhầm (v31).
+export function vocabChoiceQ(it, dir, { noReview = false } = {}) {
+  const right = answerOf(it, dir, 'furi'), ds = distractors(it, dir, 'furi');
+  if (ds.length < 2) return null;
+  const prompt = dir === 'vj' ? `<p class="prompt-vi">${esc(it.vi)}</p>` : dir === 'kr' ? `<p class="prompt-jp" lang="ja" data-bare>${esc(it.kanji)}</p>${readHint(it)}` : `<p class="prompt-jp" lang="ja">${wordHTML(it, 'furi')}</p>`;
+  return { kind: 'choice', tag: dir === 'kr' ? 'Từ vựng — đọc chữ Hán' : 'Từ vựng', level: it.level, promptBare: dir === 'kr', prompt,
+    hint: dir === 'vj' ? 'Chọn từ tiếng Nhật' : dir === 'kr' ? 'Chọn cách đọc' : 'Chọn nghĩa', opts: shuffle([right, ...ds]).map(a => opt(a.key, a.html, a.jp)), answer: right.key,
+    cmpOf: Object.fromEntries(ds.filter(a => a.it).map(a => [a.key, a.it.id])), cmpRight: it.id,
+    ...(noReview ? {} : { review: { id: it.id, dir } }) };
+}
+
 // ---------- F7: ôn hỗn hợp hôm nay ----------
 export function mixedDue() {
   return { vocab: D.vocab.filter(it => dueDirs(it).length), kanji: D.kanji.filter(it => dueDirs(it).length), grammar: D.grammar.filter(it => dueDirs(it).length), sent: sentDue() };
@@ -417,12 +428,8 @@ export async function renderMixed(view, ctx) {
   for (const it of shuffle(due.vocab).slice(0, 25)) {
     let dirs = dueDirs(it);
     if (!ttsReady()) dirs = dirs.filter(d => d !== 'au');
-    const dir = dirs[Math.floor(Math.random() * dirs.length)] || 'jv';
-    const right = answerOf(it, dir, 'furi'), ds = distractors(it, dir, 'furi');
-    if (ds.length < 2) continue;
-    const prompt = dir === 'vj' ? `<p class="prompt-vi">${esc(it.vi)}</p>` : dir === 'kr' ? `<p class="prompt-jp" lang="ja" data-bare>${esc(it.kanji)}</p>${readHint(it)}` : `<p class="prompt-jp" lang="ja">${wordHTML(it, 'furi')}</p>`;
-    vq.push({ kind: 'choice', tag: dir === 'kr' ? 'Từ vựng — đọc chữ Hán' : 'Từ vựng', level: it.level, promptBare: dir === 'kr', prompt,
-      hint: dir === 'vj' ? 'Chọn từ tiếng Nhật' : dir === 'kr' ? 'Chọn cách đọc' : 'Chọn nghĩa', opts: shuffle([right, ...ds]).map(a => opt(a.key, a.html, a.jp)), answer: right.key, review: { id: it.id, dir } });
+    const q = vocabChoiceQ(it, dirs[Math.floor(Math.random() * dirs.length)] || 'jv');
+    if (q) vq.push(q);
   }
   const kq = buildKanjiQs({ dir: 'mix', source: 'due', count: 12 });
   const gq = buildGrammarQs({ type: 'mix', source: 'due', count: 12 });
@@ -448,6 +455,9 @@ export function renderHub(view) {
   const verbs = D.vocab.filter(it => verbInfo(it)), adjs = D.vocab.filter(it => adjInfo(it));
   const learnedVerbs = verbs.filter(it => status(it) !== 'new').length;
   const due = mixedDue(), nDue = due.vocab.length + due.kanji.length + due.grammar.length + due.sent.length;
+  const newHv = D.vocab.filter(it => it.hv && it.kanji && status(it) === 'new').length || null;
+  const nConf = D.vocab.filter(it => (it.confuse || []).length).length;
+  const nLeech = [...D.vocab, ...D.kanji].filter(isLeech).length;
   const card = (href, ic, t, d, n) => `<a class="mode" href="${href}">${icon(ic)}<span><b>${t}</b><small>${rich(d)}</small></span>${n != null ? `<span class="mode-n">${n}</span>` : ''}</a>`;
   view.innerHTML = `<h1 class="h1">Luyện tập</h1>${wtabs('hub')}
     <p class="muted small">Mặc định mọi bài chỉ dùng từ bạn đã học; đổi được ở phần "Lấy từ nào" của từng bài.</p>
@@ -455,9 +465,13 @@ export function renderHub(view) {
     <h2 class="h2">Từ vựng</h2>
     <nav class="modes">
       ${card('#/moi', 'plus', 'Học từ mới', 'Xem thẻ rồi bấm "Đã học" — không kiểm tra ngay', st.new)}
+      ${card('#/moi/doan', 'plus', 'Học từ mới — đoán nghĩa trước', 'Từ Hán: nhìn âm Hán Việt (冷凍[れいとう] = LÃNH ĐÔNG) đoán nghĩa trước, rồi mới xem thẻ', newHv)}
       ${card('#/hoc', 'quiz', 'Trắc nghiệm', 'Việt ↔ Nhật, đọc chữ Hán, nghe')}
       ${card('#/ghep', 'list', 'Ghép 6 cặp', 'Việt – Nhật, thể từ điển – thể ます, tự – tha, trái nghĩa, chữ Hán – Hán Việt')}
       ${card('#/luyen/cau', 'book', 'Ghép câu từ ví dụ', 'Sắp xếp mảnh thành câu ví dụ của từ đã học')}
+      ${card('#/luyen/hanviet', 'quiz', 'Đoán nghĩa từ Hán Việt', 'Thấy từ và âm Hán Việt → chọn nghĩa. Không đổi lịch ôn')}
+      ${card('#/luyen/denham', 'list', 'Phân biệt từ dễ nhầm', 'Đặt các từ, mẫu ngữ pháp dễ nhầm cạnh nhau rồi chọn đúng theo câu', nConf || null)}
+      ${card('#/luyen/cungdau', 'quiz', 'Đánh từ cứng đầu', 'Từ và chữ Hán sai từ 4 lần trở lên: xem lại thẻ đầy đủ rồi luyện', nLeech || null)}
     </nav>
     <h2 class="h2">Động từ và tính từ</h2>
     <nav class="modes">
@@ -481,5 +495,6 @@ export function renderHub(view) {
     <nav class="modes">
       ${card('#/luyen/dem', 'list', 'Đếm số', 'Trợ số từ có âm biến: いっぽん, さんぼん, ろっぴき')}
       ${card('#/chuhan/on', 'han', 'Ôn chữ Hán', 'Chữ → Hán Việt, Hán Việt → chữ')}
+      ${card('#/luyen/giongchu', 'han', 'Chữ Hán trông giống', 'Từ bị che một chữ: chọn đúng giữa các chữ trông giống (未[み] / 末[まつ], 待[ま]つ / 持[も]つ)')}
     </nav>`;
 }

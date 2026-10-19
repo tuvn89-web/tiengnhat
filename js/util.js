@@ -13,7 +13,7 @@ export function isKanjiCh(ch) {
 }
 export const hasKanji = s => [...(s || '')].some(isKanjiCh);
 
-export const APP_VERSION = 'v30 · 19/10/2026'; // đổi cùng lúc với VERSION trong sw.js
+export const APP_VERSION = 'v31 · 19/10/2026'; // đổi cùng lúc với VERSION trong sw.js
 
 // Cú pháp: 漢字[よみ] — phần gắn cách đọc là chuỗi kanji liền trước "[".  [[...]] = phần ngữ pháp.
 // Dấu [ ] không đứng sau kanji, hoặc bên trong không phải kana, thì giữ nguyên như chữ thường.
@@ -210,6 +210,13 @@ export function shuffle(a) {
 }
 
 export function startOfDay(t = Date.now()) { const d = new Date(t); d.setHours(0, 0, 0, 0); return d.getTime(); }
+// Đồng hồ chỉ chạy khi app đang hiện trên màn hình (v31: đo thời gian nghĩ của một câu — tắt màn hình, chuyển app không tính)
+let _visMs = 0, _visT = typeof document !== 'undefined' && !document.hidden ? performance.now() : null;
+if (typeof document !== 'undefined') document.addEventListener('visibilitychange', () => {
+  if (document.hidden) { if (_visT != null) _visMs += performance.now() - _visT; _visT = null; }
+  else _visT = performance.now();
+});
+export const activeNow = () => _visMs + (_visT != null ? performance.now() - _visT : 0);
 export function fmtDate(t) {
   if (!t) return '—';
   const d = new Date(t);

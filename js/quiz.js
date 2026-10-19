@@ -1,7 +1,10 @@
-import { esc, wordHTML, wordKey, normVi, shuffle, beep, buzz, icon, toast, startOfDay, DAY, plain } from './util.js';
+import { esc, wordHTML, wordKey, normVi, shuffle, beep, buzz, icon, toast, startOfDay, DAY, plain, activeNow } from './util.js';
 import { D, LEVELS, TOPICS, logAct, actOf } from './data.js';
 import { S } from './settings.js';
-import { review, status, dueDirs, errCount, isStar, toggleStar, stats, progDir, learnedSince, setLearned, progSnapshot, progRestore, allMastered } from './srs.js';
+import { review, status, dueDirs, errCount, isStar, toggleStar, stats, progDir, learnedSince, setLearned, progSnapshot, progRestore, allMastered, isLeech, SLOW_DIRS } from './srs.js';
+import { confuseCmpHTML, isConfusable } from './wordx.js';
+import { leechSeen, markLeech, leechCardHTML, leechBarHTML } from './leech.js';
+import { burstAtEl } from './season.js';
 import { runLearn, learnCardHTML, learnBarHTML, applyDecision } from './learn.js';
 import { speak, ttsReady } from './tts.js';
 import { chips, bindChips, readChip, readChips, bindSay, sayBtn, wordDetailHTML, topicOpts, emptyState, wtabs } from './ui.js';
@@ -152,6 +155,7 @@ export function distractors(it, dir, script, n = 3) {
   for (const [, o] of scored) {
     const a = answerOf(o, dir, script);
     if (keys.has(a.key)) continue;
+    a.it = o;
     keys.add(a.key); out.push(a);
     if (out.length >= n) break;
   }
@@ -259,7 +263,18 @@ export function runQuiz(view, qs, o, ctx) {
     if (st.i >= st.qs.length) return finish();
     const q = st.qs[st.i];
     if (S.introNew && !q.again && status(q.it) === 'new' && !st.seen.has(q.it.id)) return intro(q);
+    if (!q.again && !o.noReview && isLeech(q.it) && !leechSeen(q.it.id)) return leech(q);
     ask(q);
+  }
+
+  // v31: từ cứng đầu — xem lại thẻ đầy đủ rồi mới hỏi
+  function leech(q) {
+    markLeech(q.it.id);
+    view.innerHTML = `<div class="run">${head()}${leechCardHTML(q.it)}${leechBarHTML()}</div>`;
+    bindSay(view);
+    view.querySelector('[data-act=quit]').onclick = quit;
+    view.querySelector('[data-act=leechgo]').onclick = () => { window.scrollTo(0, 0); ask(q); };
+    setKeys(e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); window.scrollTo(0, 0); ask(q); } });
   }
 
   function intro(q) {
@@ -290,6 +305,7 @@ export function runQuiz(view, qs, o, ctx) {
     view.querySelector('[data-act=quit]').onclick = quit;
     if (dir === 'au' || (dir === 'jv' && S.autoSpeak)) setTimeout(() => speak(it.kana), 150);
     st.lock = false;
+    q._opts = opts; q._t0 = activeNow();
     view.querySelectorAll('.opt').forEach(b => b.onclick = () => answer(q, b.dataset.k, right));
     setKeys(e => {
       if (st.lock) return;
@@ -302,6 +318,9 @@ export function runQuiz(view, qs, o, ctx) {
     if (st.lock) return;
     st.lock = true;
     const ok = key === right.key;
+    // v31: đúng mà nghĩ quá lâu → chưa lên hộp (không tính câu nghe)
+    const secs = Math.round((activeNow() - (q._t0 || activeNow())) / 1000);
+    const slow = ok && !q.again && !o.noReview && S.slowSec > 0 && q.dir !== 'au' && SLOW_DIRS.has(progDir(q.dir)) && secs > S.slowSec;
     view.querySelectorAll('.opt').forEach(b => {
       b.disabled = true;
       if (b.dataset.k === right.key) b.classList.add('is-ok');
@@ -312,9 +331,10 @@ export function runQuiz(view, qs, o, ctx) {
     stamp.className = 'stamp ' + (ok ? 'stamp-ok' : 'stamp-ng');
     if (S.sound) beep(ok);
     if (!ok && S.vibrate) buzz();
+    if (ok) burstAtEl(view.querySelector('.opt.is-ok'));
     if (!q.again) {
       if (ok) st.score++; else st.wrong.push(q.it);
-      if (!o.noReview) review(q.it.id, q.dir, ok);
+      if (!o.noReview) review(q.it.id, q.dir, ok, { slow });
       if (!ok && !st.again.has(q.it.id)) {
         st.again.add(q.it.id);
         st.qs.splice(Math.min(st.i + 4, st.qs.length), 0, { ...q, again: true });
@@ -322,8 +342,11 @@ export function runQuiz(view, qs, o, ctx) {
     }
     const after = view.querySelector('.after');
     after.hidden = false;
+    const picked = ok ? null : (q._opts || []).find(a => a.key === key)?.it;
+    const cmp = picked && isConfusable(q.it, picked) ? confuseCmpHTML([q.it, picked], { focus: q.it.id, picked: picked.id, title: 'Hai từ này dễ nhầm' }) : '';
     after.innerHTML = `${ok ? '' : `<p class="after-msg">Đáp án đúng: <b>${right.html}</b>${q.again ? '' : ' — từ này sẽ hỏi lại cuối lượt.'}</p>`}
-      ${wordDetailHTML(q.it, { compact: true })}`;
+      ${slow ? `<p class="after-slow small">Đúng nhưng chậm (${secs} giây) — chưa lên hộp, sẽ hỏi lại sớm hơn.</p>` : ''}
+      ${cmp}${wordDetailHTML(q.it, { compact: true })}`;
     // nút Tiếp ghim ở đáy màn hình — không cuộn trang, để vẫn thấy đáp án và dấu chấm
     const bar = document.createElement('div');
     bar.className = 'next-bar';

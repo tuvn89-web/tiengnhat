@@ -2,7 +2,7 @@
 // Thẻ chữ Hán là "phần học Hán": chữ đang học và câu thơ không gắn furigana.
 import { esc, rich, kj, wordHTML, kanjiChars, shuffle, icon, toast, debounce } from './util.js';
 import { D, LEVELS, KGROUPS, report, unreport } from './data.js';
-import { status, dueDirs, errCount, isStar, toggleStar, stats, P } from './srs.js';
+import { status, dueDirs, errCount, isStar, toggleStar, stats, P, TOP } from './srs.js';
 import { chips, bindChips, readChip, readChips, openSheet, emptyState, field } from './ui.js';
 import { runDrill, opt } from './drill.js';
 import { kvGet, kvSet } from './db.js';
@@ -31,6 +31,34 @@ export function missingKanji() {
   return [...m.values()].sort((a, b) => b.n - a.n).map(x => ({ ...x, levels: [...x.levels].sort().reverse(), topics: [...x.topics] }));
 }
 
+// v31 (M2): gia đình chữ — các thẻ có chung một bộ phận (lấy từ trường parts của thẻ)
+let _fam = null;
+function famIndex() {
+  if (_fam && _fam.n === D.kanji.length) return _fam.m;
+  const m = new Map();
+  for (const k of D.kanji) for (const p of k.parts || []) {
+    if (!m.has(p.c)) m.set(p.c, { c: p.c, hv: p.hv || '', nghia: p.nghia || '', ks: [] });
+    const g = m.get(p.c);
+    if (!g.ks.includes(k)) g.ks.push(k);
+  }
+  for (const g of m.values()) g.ks.sort((a, b) => ['N5', 'N4', 'N3', 'N2', 'N1'].indexOf(a.level) - ['N5', 'N4', 'N3', 'N2', 'N1'].indexOf(b.level) || (a.strokes || 0) - (b.strokes || 0));
+  _fam = { n: D.kanji.length, m };
+  return m;
+}
+export const familyOfPart = c => famIndex().get(c)?.ks || [];
+const kchip = k => `<button type="button" class="kchip kfam-c" data-kopen="${esc(k.char)}"><b lang="ja">${esc(k.char)}</b><small>${esc(k.hv)}</small></button>`;
+const chipsMax = (ks, n = 12) => ks.slice(0, n).map(kchip).join('') + (ks.length > n ? `<span class="muted small kfam-more">và ${ks.length - n} chữ khác</span>` : '');
+function familyHTML(k) {
+  const rows = [];
+  const inMe = familyOfPart(k.char).filter(o => o !== k);
+  if (inMe.length) rows.push(`<div class="kfam-row"><p class="kfam-h">Chữ có chứa <b lang="ja">${esc(k.char)}</b></p><div class="kfam-l">${chipsMax(inMe)}</div></div>`);
+  for (const p of k.parts || []) {
+    const os = familyOfPart(p.c).filter(o => o !== k);
+    if (os.length) rows.push(`<div class="kfam-row"><p class="kfam-h">Cùng bộ phận <b lang="ja">${esc(p.c)}</b> ${esc(p.hv || '')}${p.nghia ? ` — ${esc(p.nghia)}` : ''}</p><div class="kfam-l">${chipsMax(os)}</div></div>`);
+  }
+  return rows.length ? `<h3 class="h3">Gia đình chữ</h3><div class="kfam">${rows.join('')}</div>` : '';
+}
+
 // Câu thơ: kanji trong ngoặc chạm được nhưng không có furigana
 export const poemHTML = lines => (lines || []).map(l => `<span class="pl">${kj(esc(l))}</span>`).join('');
 
@@ -44,7 +72,7 @@ export function kanjiCardHTML(ch) {
       <p class="muted small">Chữ này có trong kho từ. Tải "file gửi skill" ở trang Dữ liệu, skill sẽ làm thẻ cho mọi chữ còn thiếu.</p></div></div>
       ${famHTML}</div>`;
   const r = P.get(k.id);
-  const prog = r ? ['kh', 'hk'].filter(d => r.d?.[d]).map(d => `${{ kh: 'Chữ → Hán Việt', hk: 'Hán Việt → chữ' }[d]}: hộp ${r.d[d].b}/5`).join(', ') : 'chưa ôn';
+  const prog = r ? ['kh', 'hk'].filter(d => r.d?.[d]).map(d => `${{ kh: 'Chữ → Hán Việt', hk: 'Hán Việt → chữ' }[d]}: hộp ${r.d[d].b}/${TOP}${r.d[d].m ? ' (thuộc hẳn)' : ''}`).join(', ') : 'chưa ôn';
   const rep = D.reports[k.id] && !D.reports[k.id]._del;
   const partBtn = p => {
     const has = D.kanjiByChar.has(p.c) && p.c !== ch;
@@ -61,6 +89,7 @@ export function kanjiCardHTML(ch) {
     </div>
     ${(k.tho || []).length ? `<section class="kc-tho"><p class="kc-label">Mẹo nhớ</p><p class="kc-poem" lang="vi">${poemHTML(k.tho)}</p></section>` : ''}
     ${(k.parts || []).length ? `<h3 class="h3">Bộ phận</h3><div class="kparts">${k.parts.map(partBtn).join('')}</div>` : ''}
+    ${familyHTML(k)}
     <h3 class="h3">Cách đọc</h3>
     <dl class="kread" lang="ja">
       ${(k.on || []).length ? `<dt>Âm On</dt><dd>${k.on.map((x, i) => `<span class="${i === 0 ? 'main' : ''}">${esc(x)}</span>`).join('、')}</dd>` : ''}
@@ -119,6 +148,7 @@ export function renderKanjiList(view) {
   view.innerHTML = `<h1 class="h1">Chữ Hán</h1>${tabs('list')}
     <p class="muted small">${D.kanji.length} thẻ chữ · đã thuộc ${st.known} · đang học ${st.learning}. Chạm vào chữ kanji ở bất kỳ đâu trong app để mở thẻ.</p>
     <input class="input search" type="search" placeholder="Tìm: chữ, Hán Việt, nghĩa" aria-label="Tìm chữ Hán">
+    ${chips('kview', [['list', 'Từng chữ'], ['fam', 'Theo gia đình chữ']], 'list', false)}
     <details class="filters"><summary>Bộ lọc</summary>
       ${chips('groups', usedG.map(g => [g, KGROUPS[g]]), [])}
       ${chips('levels', LEVELS.map(l => [l, l]), [])}
@@ -127,15 +157,43 @@ export function renderKanjiList(view) {
     ${miss.length ? `<details class="kmiss"><summary>${miss.length} chữ trong kho từ chưa có thẻ</summary><p class="kmiss-list" lang="ja" data-bare>${miss.map(m => `<button type="button" class="kchip" data-kopen="${esc(m.c)}">${esc(m.c)}</button>`).join('')}</p>
       <p class="muted small">Tải "file gửi skill" ở trang Dữ liệu, skill sẽ làm thẻ cho các chữ này (chữ xuất hiện nhiều làm trước).</p></details>` : ''}`;
   const grid = view.querySelector('.kgrid'), q = view.querySelector('.search');
+  const tile = k => `<button type="button" class="ktile" data-kopen="${esc(k.char)}" data-bare><span class="ktile-c" lang="ja">${esc(k.char)}</span><span class="ktile-hv">${esc(k.hv)}</span><span class="dot dot-${status(k)}" title="${ST_LABEL[status(k)]}"></span></button>`;
   const draw = () => {
     const s = q.value.trim().toLowerCase(), gs = readChips(view, 'groups'), lv = readChips(view, 'levels');
-    const list = D.kanji.filter(k => (!gs.length || (k.groups || []).some(g => gs.includes(g))) && (!lv.length || lv.includes(k.level))
-      && (!s || k.char === s || (k.hv || '').toLowerCase().includes(s) || (k.nghia || '').toLowerCase().includes(s)));
-    grid.innerHTML = list.map(k => `<button type="button" class="ktile" data-kopen="${esc(k.char)}" data-bare><span class="ktile-c" lang="ja">${esc(k.char)}</span><span class="ktile-hv">${esc(k.hv)}</span><span class="dot dot-${status(k)}" title="${ST_LABEL[status(k)]}"></span></button>`).join('') || emptyState('Không có chữ nào khớp.');
+    const okK = k => (!gs.length || (k.groups || []).some(g => gs.includes(g))) && (!lv.length || lv.includes(k.level));
+    const hit = k => !s || k.char === s || (k.hv || '').toLowerCase().includes(s) || (k.nghia || '').toLowerCase().includes(s);
+    // v31 (M2): xem theo gia đình chữ — nhóm các chữ có chung bộ phận (nhóm từ 3 chữ), nhóm đông xếp trước
+    if (readChip(view, 'kview') === 'fam') {
+      const groups = [...famIndex().values()].map(g => {
+        const head = D.kanjiByChar.get(g.c);
+        const ks = g.ks.filter(okK);
+        const match = !s || g.c === s || (g.hv || '').toLowerCase().includes(s) || (g.nghia || '').toLowerCase().includes(s) || ks.some(hit);
+        return { ...g, head, ks, match };
+      }).filter(g => g.ks.length >= 3 && g.match).sort((a, b) => b.ks.length - a.ks.length);
+      grid.className = 'kfams';
+      grid.innerHTML = groups.map((g, i) => `<details class="kfam-g" data-c="${esc(g.c)}" ${i < 2 ? 'open' : ''}><summary><b class="kfam-gc" lang="ja" data-bare>${esc(g.c)}</b> ${esc(g.head?.hv || g.hv)}${(g.head?.nghia || g.nghia) ? ` — ${esc(g.head?.nghia || g.nghia)}` : ''} <span class="muted small">· ${g.ks.length} chữ</span></summary><div class="kgrid"></div></details>`).join('') || emptyState('Không có nhóm nào khớp.');
+      const fill = d => { const g = groups.find(x => x.c === d.dataset.c); const box = d.querySelector('.kgrid'); if (g && !box.childElementCount) box.innerHTML = [...(g.head && okK(g.head) && !g.ks.includes(g.head) ? [g.head] : []), ...g.ks].map(tile).join(''); };
+      grid.querySelectorAll('.kfam-g').forEach(d => { if (d.open) fill(d); d.addEventListener('toggle', () => d.open && fill(d)); });
+      return;
+    }
+    grid.className = 'kgrid';
+    const list = D.kanji.filter(k => okK(k) && hit(k));
+    grid.innerHTML = list.map(tile).join('') || emptyState('Không có chữ nào khớp.');
   };
   q.addEventListener('input', debounce(draw, 120));
   bindChips(view, draw);
   draw();
+}
+
+// ---------- v31 (L2): chữ trông giống — so sánh ----------
+export const isSimilar = (k, o) => !!k && !!o && k.char !== o.char && ((k.similar || []).some(s => s.c === o.char) || (o.similar || []).some(s => s.c === k.char));
+const simNote = (k, o) => (k.similar || []).find(s => s.c === o.char)?.note || '';
+export function similarCmpHTML(list, { focus = null, picked = null, title = 'Chữ trông giống — so sánh' } = {}) {
+  if (list.length < 2) return '';
+  const f = list.find(o => o.char === focus) || list[0];
+  return `<div class="cmp" data-bare><p class="cmp-t">${esc(title)}</p><table class="cmp-tb"><tbody>${list.map(o => `<tr class="${o.char === focus ? 'is-focus' : ''}${o.char === picked ? ' is-picked' : ''}">
+    <th scope="row"><button type="button" class="cmp-k" data-kopen="${esc(o.char)}" lang="ja">${esc(o.char)}</button></th>
+    <td><b>${esc(o.hv)}</b> — ${esc(o.nghia || '')}${o.char === picked ? ' <small class="cmp-mark">← bạn chọn</small>' : ''}${o !== f && simNote(f, o) ? `<small class="cmp-note">${esc(simNote(f, o).replace(/^[^—]*—\s*/, ''))}</small>` : ''}</td></tr>`).join('')}</tbody></table></div>`;
 }
 
 // ---------- ôn chữ Hán (K10) ----------

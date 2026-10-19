@@ -1,12 +1,19 @@
 import { all, put, putMany } from './db.js';
 import { DAY, startOfDay } from './util.js';
 
-// Lặp lại ngắt quãng 5 hộp. Hộp 0 = chưa học. Đúng → lên hộp, sai → về hộp 1.
-// Đang ở hộp 5 mà đến hạn vẫn đúng → "thuộc nhuần nhuyễn" (cờ m): không bao giờ đến hạn ôn nữa (v18).
-// Làm sai một mục đã thuộc nhuần nhuyễn (khi tự luyện) → bỏ cờ, về hộp 1 như thường.
+// Lặp lại ngắt quãng 7 hộp (v31): 1 → 2 → 4 → 8 → 16 → 35 → 90 ngày. Hộp 0 = chưa học.
+// Đúng → lên hộp. Đúng mà chậm (quá S.slowSec giây, câu chọn đáp án) → giữ hộp, hỏi lại sau đúng khoảng của hộp đó.
+// Sai → hộp 1–3 về hộp 1; hộp 4 trở lên lùi 2 hộp (v31).
+// Đang ở hộp 7 mà đến hạn vẫn đúng → "thuộc nhuần nhuyễn" (cờ m): không bao giờ đến hạn ôn nữa.
+// Mục vào thẳng hộp 5 bằng "Biết rồi" / xếp lớp (cờ k, hoặc hộp 5 chưa từng ôn) → đúng ở lần ôn 16 ngày là thuộc hẳn như trước.
+// Làm sai một mục đã thuộc nhuần nhuyễn (khi tự luyện) → bỏ cờ, lùi hộp như thường.
 // Từ vựng: vj (Việt→Nhật), jv (Nhật→Việt, kể cả nghe), kr (kanji→cách đọc).
 // Chữ Hán: kh (chữ → Hán Việt), hk (Hán Việt → chọn chữ).   Ngữ pháp: gp (mọi bài tập của mẫu đó).
-export const IV = [0, 1, 2, 4, 8, 16];
+export const IV = [0, 1, 2, 4, 8, 16, 35, 90];
+export const TOP = IV.length - 1;
+// Chiều có tính "đúng mà chậm" (câu chọn đáp án ngắn): từ vựng, chữ Hán. Nghe, ngữ pháp, câu dịch không tính.
+export const SLOW_DIRS = new Set(['jv', 'vj', 'kr', 'kh', 'hk']);
+const fastTrack = x => !!x.k || (x.b >= 5 && !x.ok && !x.ng);
 export const P = new Map(); // id -> {id, d:{vj,jv,kr}, star, st, first, t}
 let onChange = () => { };
 export const setOnChange = f => { onChange = f; };
@@ -18,14 +25,18 @@ export async function loadProgress() {
 export const progDir = dir => (dir === 'au' ? 'jv' : dir);
 export const dirRec = (id, dir) => P.get(id)?.d?.[progDir(dir)];
 
-export async function review(id, dir, ok, { onlyIfDue = false } = {}) {
+export async function review(id, dir, ok, { onlyIfDue = false, slow = false } = {}) {
   const now = Date.now();
   const d = progDir(dir);
   const r = P.get(id) ? structuredClone(P.get(id)) : { id, d: {}, t: 0 };
   const x = r.d[d] || { b: 0, due: 0, ok: 0, ng: 0, t: 0 };
   if (ok && onlyIfDue && x.b > 0 && x.due > now) return;
   if (!r.first) r.first = now;
-  if (ok) { if (x.b >= 5 && x.due <= now) x.m = 1; x.b = Math.min(5, x.b + 1); x.ok++; } else { x.b = 1; x.ng++; delete x.m; }
+  if (ok) {
+    if (!slow && x.due <= now && (x.b >= TOP || (x.b >= 5 && fastTrack(x)))) x.m = 1;
+    if (!slow || !x.b) x.b = Math.min(TOP, x.b + 1);
+    x.ok++;
+  } else { x.b = x.b >= 4 ? x.b - 2 : 1; x.ng++; delete x.m; delete x.k; }
   x.due = startOfDay(now) + IV[x.b] * DAY;
   x.t = now;
   r.d[d] = x; r.t = now;
@@ -53,7 +64,7 @@ export const allMastered = it => {
   const ds = TYPE_DIRS[itemType(it)].filter(d => d !== 'kr' || it.kanji);
   return !!r && ds.every(d => r.d?.[d]?.m);
 };
-// Học từ mới (nút "Đã học"): mọi hướng vào hộp 1, ôn lần đầu ngày mai. "Biết rồi": vào hộp 5 (đã thuộc), 16 ngày sau ôn lại một lần.
+// Học từ mới (nút "Đã học"): mọi hướng vào hộp 1, ôn lần đầu ngày mai. "Biết rồi": vào hộp 5 (cờ k), 16 ngày sau ôn lại một lần, đúng là thuộc hẳn.
 // Nút "Đã thuộc" trong lượt ôn (v27): 'mastered' = hộp 5 + cờ thuộc nhuần nhuyễn ở mọi chiều → không bao giờ đến hạn ôn nữa.
 export async function setLearned(it, level = 'learned') {
   const now = Date.now();
@@ -64,6 +75,7 @@ export async function setLearned(it, level = 'learned') {
     const x = r.d[d] || { b: 0, due: 0, ok: 0, ng: 0, t: 0 };
     x.b = Math.max(x.b, b); x.due = startOfDay(now) + IV[x.b] * DAY; x.t = now;
     if (level === 'mastered') x.m = 1;
+    if (level === 'known' && !x.ok && !x.ng) x.k = 1;
     r.d[d] = x;
   }
   if (!r.first) r.first = now;
@@ -100,7 +112,7 @@ export async function bulkApply(changes, { dry = false } = {}) {
       if (d === 'kr' && !it.kanji) continue;
       const x = r.d[d] || { b: 0, due: 0, ok: 0, ng: 0, t: 0 };
       const was = JSON.stringify(x);
-      if (op === 'known' && x.b < 5) { x.b = 5; x.due = sod + IV[5] * DAY; }
+      if (op === 'known' && x.b < 5) { x.b = 5; x.k = 1; x.due = sod + IV[5] * DAY; }
       else if (op === 'check' && x.b < 3) { x.b = 3; x.due = sod + IV[3] * DAY; }
       else if (op === 'learn' && x.b < 1) { x.b = 1; x.due = sod + IV[1] * DAY; }
       else if (op === 'wrong' && (d === asked || x.b < 1)) { x.b = 1; x.due = sod + IV[1] * DAY; }
@@ -176,6 +188,16 @@ export function dueDirs(it, now = Date.now()) {
   });
 }
 export const errCount = it => { const r = P.get(it.id); return r ? Object.values(r.d || {}).reduce((s, x) => s + (x.ng || 0), 0) : 0; };
+// Mục "cứng đầu" (v31): sai từ 4 lần trở lên mà chưa thuộc (từ vựng, chữ Hán)
+export const LEECH_N = 4;
+export const isLeech = it => !!it && ['vocab', 'kanji'].includes(itemType(it)) && errCount(it) >= LEECH_N && status(it) !== 'known' && !allMastered(it);
+// Quá hạn bao lâu (ms) ở chiều đang đến hạn sớm nhất — để "Ôn nhanh 3 phút" hỏi mục quá hạn lâu nhất trước
+export function overdueMs(it, now = Date.now()) {
+  const r = P.get(it.id);
+  let m = -Infinity;
+  for (const d of dueDirs(it, now)) m = Math.max(m, now - (r.d[d].due || 0));
+  return m;
+}
 
 export function stats(items) {
   const s = { total: items.length, new: 0, learning: 0, known: 0, due: 0, newToday: 0 };

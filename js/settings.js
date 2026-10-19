@@ -19,6 +19,16 @@ export const DEFAULTS = {
   rate: 0.9,
   autoSpeak: false,
   romaji: true,       // ô gõ tiếng Nhật: gõ romaji tự đổi sang kana
+  slowSec: 8,         // v31: trả lời đúng mà nghĩ quá số giây này thì chưa lên hộp (0 = tắt)
+  // v31: giao diện mùa & hiệu ứng (bật / tắt riêng từng thứ)
+  season: 'auto',     // auto (theo tháng) | off | '1'…'12' (giữ một tháng)
+  motion: true,       // chuyển động giao diện (trang trượt, bảng phóng to, điểm đếm lên)
+  fxFall: true, fxDensity: 'mid', fxSpeed: 'mid',
+  fxDayNight: true, fxClouds: true, fxStars: true, fxMeteor: true, fxPlane: true, fxBlackhole: true,
+  fxFireworks: true, fxFireflies: true, fxLanterns: true, fxHolVN: true, fxHolJP: true, fxWind: true, fxLightning: true,
+  fxRain: 'season',   // season (mùa mưa + vài ngày) | weather (thời tiết thật) | always | off
+  fxCity: '',         // thành phố lấy thời tiết thật
+  fxBurst: true,      // chùm hạt khi trả lời đúng, ở màn kết quả
   deviceName: '',
 };
 export const S = { ...DEFAULTS };
@@ -48,4 +58,5 @@ export function applySettings() {
   r.style.setProperty('--fs-vi', S.fsVi + 'px');
   r.style.setProperty('--btn-h', (BTN_H[S.btn] || 54) + 'px');
   r.dataset.jpfont = S.jpFont;
+  window.dispatchEvent(new Event('tn-settings'));
 }

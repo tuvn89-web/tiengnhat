@@ -19,24 +19,41 @@ const exam = L => [['h', `Đề thi ${L}`], ['tb', [['Phần thi', 'Thời gian'
 export const GUIDES = [
   // ---------- cho người mới ----------
   { id: 'srs', g: 'Cho người mới', t: 'Học bằng lặp lại ngắt quãng', b: [
-    ['p', 'App không bắt bạn ôn mọi từ mỗi ngày. Mỗi từ nằm trong một **hộp** từ 1 đến 5. Trả lời đúng thì từ lên hộp trên và lần ôn sau xa hơn; sai thì về hộp 1 và ôn lại ngày mai.'],
-    ['tb', [['Hộp', 'Ôn lại sau'], ['1', '1 ngày'], ['2', '2 ngày'], ['3', '4 ngày'], ['4', '8 ngày'], ['5 — đã thuộc', '16 ngày']]],
+    ['p', 'App không bắt bạn ôn mọi từ mỗi ngày. Mỗi từ nằm trong một **hộp** từ 1 đến 7. Trả lời đúng thì từ lên hộp trên và lần ôn sau xa hơn.'],
+    ['tb', [['Hộp', 'Ôn lại sau'], ['1', '1 ngày'], ['2', '2 ngày'], ['3', '4 ngày'], ['4', '8 ngày'], ['5 — đã thuộc', '16 ngày'], ['6', '35 ngày'], ['7', '90 ngày']]],
+    ['p', '**Trả lời sai:** từ ở hộp 1–3 về hộp 1 (ôn lại ngày mai); từ ở hộp 4 trở lên **lùi 2 hộp** — đã nhớ khá lâu mà quên một lần thì không phải học lại từ đầu.'],
+    ['p', '**Đúng mà chậm:** ở câu chọn đáp án của từ vựng và chữ Hán, trả lời đúng nhưng nghĩ lâu hơn 8 giây thì từ giữ nguyên hộp (phải nghĩ lâu là dấu hiệu sắp quên). Chỉnh số giây hoặc tắt ở Cài đặt → Học.'],
     ['p', 'Não nhớ lâu nhất khi được hỏi lại đúng lúc sắp quên. Vì vậy mỗi ngày chỉ cần làm phần **đến hạn** — thường 10–20 phút.'],
     ['p', 'Từ vựng có 3 chiều học riêng: Nhật → Việt, Việt → Nhật và đọc chữ Hán. Từ chỉ tính "đã thuộc" khi cả chiều Nhật → Việt và Việt → Nhật lên hộp 5.'],
-    ['p', '**Thuộc nhuần nhuyễn:** đã ở hộp 5 mà đến lần ôn sau 16 ngày vẫn trả lời đúng thì chiều đó không bao giờ đến hạn ôn nữa. Nếu sau này tự luyện mà làm sai, mục đó trở lại hộp 1 như thường.'],
+    ['p', '**Thuộc nhuần nhuyễn:** đã ở hộp 7 mà đến lần ôn sau 90 ngày vẫn trả lời đúng thì chiều đó không bao giờ đến hạn ôn nữa. Từ bấm "Biết rồi" lúc học (vào thẳng hộp 5) thì chỉ cần đúng ở lần ôn 16 ngày là thuộc hẳn. Nếu sau này tự luyện mà làm sai, mục đó lùi hộp như thường.'],
+    ['p', '**Từ cứng đầu:** từ hoặc chữ Hán sai từ 4 lần trở lên mà chưa thuộc. Lần ôn sau, app hiện thẻ đầy đủ (âm Hán Việt, thơ nhớ chữ, câu ví dụ, từ dễ nhầm) trước khi hỏi — mỗi mục một lần mỗi ngày. Luyện riêng ở Luyện tập → **Đánh từ cứng đầu**; lọc ở Kho từ → Bộ lọc → Cứng đầu.'],
+    ['p', '**Nhắc lại cuối ngày:** từ học mới hôm nay, sau ít nhất 4 giờ, có dòng "Nhắc lại … từ mới hôm nay" trong Kế hoạch hôm nay. Đây chỉ là lượt nhắc, không đổi lịch ôn — giúp từ mới không rơi mất qua đêm đầu tiên.'],
     ['p', '**Luyện từ đã tim** (trong bài học): câu đúng làm mới lịch ôn của từ — từ mới hoặc đã đến hạn thì lên một hộp (mỗi chiều một lần mỗi lượt), còn lại dời hạn ôn tính từ hôm nay. Câu sai không làm tụt hộp.'],
     ['a', 'Ôn phần đến hạn hôm nay', '#/onhon']] },
   { id: 'nut', g: 'Cho người mới', t: 'Nút Đã học, Biết rồi, Để sau', b: [
     ['p', 'Ở **Học từ mới**, mỗi thẻ có 3 nút:'],
     ['ul', ['**Đã học**: từ vào hộp 1, ngày mai app hỏi lại lần đầu.', '**Biết rồi**: từ bạn đã biết chắc — vào thẳng hộp 5, 16 ngày sau hỏi lại một lần để kiểm.', '**Để sau**: bỏ qua, lần sau từ này vẫn nằm trong hàng từ mới.']],
     ['p', 'Bấm nhầm thì vuốt sang phải (hoặc nút ←) để lật lại thẻ trước và chọn lại.'],
-    ['p', '**Nút Đã thuộc** (hiện sau khi trả lời ở các lượt ôn, trắc nghiệm, ôn chữ Hán, luyện ngữ pháp, câu dịch): bấm thì mục đó thuộc hẳn — **không bao giờ đến hạn ôn nữa**. Nút đổi thành "✓ Đã thuộc"; bấm lần nữa (trước khi bấm Tiếp) để bỏ. Mục đã thuộc không còn nằm trong phần đến hạn ôn; chỉ gặp lại khi bạn tự chọn luyện (luyện cả bài, chọn nguồn "Đã thuộc" hoặc "Tất cả"). Lúc tự luyện mà làm sai thì mục đó trở lại hộp 1 như thường.'],
+    ['p', '**Nút Đã thuộc** (hiện sau khi trả lời ở các lượt ôn, trắc nghiệm, ôn chữ Hán, luyện ngữ pháp, câu dịch): bấm thì mục đó thuộc hẳn — **không bao giờ đến hạn ôn nữa**. Nút đổi thành "✓ Đã thuộc"; bấm lần nữa (trước khi bấm Tiếp) để bỏ. Mục đã thuộc không còn nằm trong phần đến hạn ôn; chỉ gặp lại khi bạn tự chọn luyện (luyện cả bài, chọn nguồn "Đã thuộc" hoặc "Tất cả"). Lúc tự luyện mà làm sai thì mục đó lùi hộp như thường.'],
     ['p', 'Biết sẵn nhiều từ thì đừng bấm "Biết rồi" từng từ — làm **Xếp lớp nhanh** để app tự đánh dấu cả cấp.'],
     ['a', 'Kiểm tra trình độ', '#/trinhdo']] },
   { id: 'furi', g: 'Cho người mới', t: 'Furigana, chữ Hán và âm Hán Việt', b: [
     ['p', 'Chữ Hán trong app luôn có furigana (chữ nhỏ ghi cách đọc phía trên), trừ kiểu bài "Kanji → cách đọc" và bài thi — vì đó là lúc kiểm tra bạn có đọc được chữ hay không.'],
     ['p', 'Mỗi từ có **âm Hán Việt**: 冷凍[れいとう] = LÃNH ĐÔNG, 確認[かくにん] = XÁC NHẬN. Người Việt đoán nghĩa từ Hán rất nhanh nhờ âm này — hãy đọc nó mỗi lần học từ mới.'],
     ['p', 'Chạm vào một chữ Hán bất kỳ để mở **thẻ chữ**: âm Hán Việt, cách đọc, bộ phận, câu lục bát giúp nhớ mặt chữ và các từ có chữ đó.']] },
+  { id: 'nhanh', g: 'Cho người mới', t: 'Học nhanh, nhớ lâu: các chế độ mới', b: [
+    ['ul', ['**Ôn nhanh 3 phút** (Trang chủ): ôn đúng 3 phút phần đến hạn, mục quá hạn lâu nhất hỏi trước. Hết giờ thì làm nốt câu đang dở rồi dừng; bấm "Thêm 3 phút" để làm tiếp. Mỗi câu được ghi vào lịch ôn ngay, nên phải bỏ dở cũng không mất gì. Hợp với giờ nghỉ giữa ca.',
+      '**Học từ mới — đoán nghĩa trước**: với từ Hán, app hiện âm Hán Việt (冷凍[れいとう] = LÃNH ĐÔNG) để bạn đoán nghĩa, rồi mới hiện thẻ. Đoán trước (kể cả đoán sai) giúp nhớ lâu hơn; rèn thói quen này thì gặp từ lạ trên giấy tờ cũng đoán được.',
+      '**Đoán nghĩa từ Hán Việt** (Luyện tập): luyện riêng kỹ năng trên với từ chưa học hoặc đã học. Không đổi lịch ôn.',
+      '**Phân biệt từ dễ nhầm** (Luyện tập): các từ dễ nhầm (冷凍[れいとう] / 冷蔵[れいぞう] / 解凍[かいとう]) hoặc mẫu ngữ pháp gần nghĩa đặt cạnh nhau, rồi chọn đúng theo câu. Ở các bài ôn thường, chọn nhầm sang từ dễ nhầm thì app hiện bảng so sánh hai từ.',
+      '**Chữ Hán trông giống** (Luyện tập): một từ bị che một chữ, chọn đúng chữ giữa các chữ trông giống. Ở Ôn chữ Hán, chọn nhầm sang chữ trông giống thì app hiện bảng so sánh.',
+      '**Gia đình chữ**: thẻ chữ có mục "Gia đình chữ" — các chữ có chung bộ phận (青[あお] → 清[せい], 晴[は]れる, 精[せい], 請[せい], 静[しず]か). Danh sách Chữ Hán có nút "Theo gia đình chữ".']],
+    ['a', 'Mở Luyện tập', '#/luyen']] },
+  { id: 'mua', g: 'Cho người mới', t: 'Giao diện mùa và hiệu ứng', b: [
+    ['p', 'Mỗi tháng app có một họa tiết riêng theo mùa ở Nhật: tháng 4 hoa anh đào, tháng 6 mưa và cẩm tú cầu, tháng 8 pháo hoa và đom đóm, tháng 11 lá phong, tháng 12 tuyết… Trời đổi theo giờ của máy (bình minh, ngày, hoàng hôn, đêm có sao và trăng đúng ngày âm lịch). Ngày lễ Nhật và Việt Nam (Tết Nguyên Đán, Trung thu…) có trang trí riêng; đêm có mưa sao băng thì sao băng rơi nhiều.'],
+    ['p', 'Thỉnh thoảng có máy bay bay qua để lại vệt khói, và hiếm hơn nữa là một hố đen hút các cánh hoa, chiếc lá ở gần.'],
+    ['p', 'Vào **Cài đặt → Giao diện mùa & hiệu ứng** để chọn tháng, tắt giao diện mùa, chỉnh mật độ và tốc độ rơi, bật / tắt riêng từng hiệu ứng, cho mưa theo thời tiết thật ở thành phố của bạn, và bấm "Thử ngay" để xem từng hiệu ứng. Máy bật "giảm chuyển động" thì app tự tắt hiệu ứng.'],
+    ['a', 'Mở Cài đặt', '#/caidat']] },
   { id: 'ngay', g: 'Cho người mới', t: 'Ôn mỗi ngày thế nào', b: [
     ['ul', ['1. **Ôn hỗn hợp** — làm hết phần đến hạn trước (từ, chữ Hán, ngữ pháp trộn chung).', '2. **Học từ mới** — 5 đến 20 từ tùy thời gian; đừng học quá sức, vì mỗi từ mới sẽ quay lại 5 lần trong 1 tháng.', '3. **Một mẫu ngữ pháp** — đọc bài, rồi bấm Luyện mẫu này.', '4. **Một bài luyện** — ghép câu, thể động từ, đếm số… để dùng được từ đã học.']],
     ['p', 'Nghỉ một ngày thì hôm sau phần đến hạn sẽ dồn lại. Không sao — cứ ôn hết phần dồn rồi mới học từ mới.'],
