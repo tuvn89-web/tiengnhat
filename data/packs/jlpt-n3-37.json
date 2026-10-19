@@ -1,974 +1,974 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n3-37",
-  "title": "JLPT N3 37 – Quản lý & cải tiến",
-  "type": "vocab",
-  "level": "N3",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 1,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:管理:かんり",
-   "kana": "かんり",
-   "kanji": "管理",
-   "hv": "QUẢN LÝ",
-   "vi": "trông coi quản lý",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "温度[おんど]の管理[かんり]が、いちばん大切[たいせつ]です。",
-     "vi": "Quản lý nhiệt độ là quan trọng nhất.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "在庫[ざいこ]を、パソコンで管理[かんり]しています。",
-     "vi": "Quản lý hàng tồn bằng máy tính.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "品質管理[ひんしつかんり] = quản lý chất lượng; 衛生管理[えいせいかんり] = quản lý vệ sinh."
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n3-37",
+    "title": "JLPT N3 37 – Quản lý & cải tiến",
+    "type": "vocab",
+    "level": "N3",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:改善:かいぜん",
-   "kana": "かいぜん",
-   "kanji": "改善",
-   "hv": "CẢI THIỆN",
-   "vi": "cải thiện (tình trạng, cách làm)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "作業[さぎょう]の方法[ほうほう]を、改善[かいぜん]しました。",
-     "vi": "Đã cải thiện cách làm việc.",
-     "ctx": "xuong"
+      "id": "v:管理:かんり",
+      "kana": "かんり",
+      "kanji": "管理",
+      "hv": "QUẢN LÝ",
+      "vi": "trông coi quản lý",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "温度[おんど]の管理[かんり]が、いちばん大切[たいせつ]です。",
+          "vi": "Quản lý nhiệt độ là quan trọng nhất.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "在庫[ざいこ]を、パソコンで管理[かんり]しています。",
+          "vi": "Quản lý hàng tồn bằng máy tính.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "品質管理[ひんしつかんり] = quản lý chất lượng; 衛生管理[えいせいかんり] = quản lý vệ sinh."
     },
     {
-     "jp": "改善[かいぜん]の提案[ていあん]を、出[だ]してください。",
-     "vi": "Hãy nộp đề xuất cải tiến.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Từ 改善[かいぜん] (Kaizen) nổi tiếng trong các nhà máy Nhật."
-  },
-  {
-   "id": "v:効果:こうか",
-   "kana": "こうか",
-   "kanji": "効果",
-   "hv": "HIỆU QUẢ",
-   "vi": "hiệu quả mang lại",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "新[あたら]しい方法[ほうほう]は、効果[こうか]がありました。",
-     "vi": "Cách mới đã có hiệu quả.",
-     "ctx": "xuong"
+      "id": "v:改善:かいぜん",
+      "kana": "かいぜん",
+      "kanji": "改善",
+      "hv": "CẢI THIỆN",
+      "vi": "cải thiện (tình trạng, cách làm)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "作業[さぎょう]の方法[ほうほう]を、改善[かいぜん]しました。",
+          "vi": "Đã cải thiện cách làm việc.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "改善[かいぜん]の提案[ていあん]を、出[だ]してください。",
+          "vi": "Hãy nộp đề xuất cải tiến.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Từ 改善[かいぜん] (Kaizen) nổi tiếng trong các nhà máy Nhật."
     },
     {
-     "jp": "この薬[くすり]は、すぐに効果[こうか]が出[で]ます。",
-     "vi": "Thuốc này có tác dụng ngay.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "効果的[こうかてき] = có hiệu quả."
-  },
-  {
-   "id": "v:検査:けんさ",
-   "kana": "けんさ",
-   "kanji": "検査",
-   "hv": "KIỂM TRA",
-   "vi": "kiểm định (chất lượng); xét nghiệm",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "出荷[しゅっか]の前[まえ]に、商品[しょうひん]を検査[けんさ]します。",
-     "vi": "Trước khi xuất hàng thì kiểm tra sản phẩm.",
-     "ctx": "xuong"
+      "id": "v:効果:こうか",
+      "kana": "こうか",
+      "kanji": "効果",
+      "hv": "HIỆU QUẢ",
+      "vi": "hiệu quả mang lại",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新[あたら]しい方法[ほうほう]は、効果[こうか]がありました。",
+          "vi": "Cách mới đã có hiệu quả.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "この薬[くすり]は、すぐに効果[こうか]が出[で]ます。",
+          "vi": "Thuốc này có tác dụng ngay.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "効果的[こうかてき] = có hiệu quả."
     },
     {
-     "jp": "血液[けつえき]の検査[けんさ]を、受[う]けました。",
-     "vi": "Tôi xét nghiệm máu.",
-     "ctx": "thutuc"
-    }
-   ],
-   "note": "検査[けんさ]に合格[ごうかく]する = đạt kiểm tra."
-  },
-  {
-   "id": "v:積極的:せっきょくてき",
-   "kana": "せっきょくてき",
-   "kanji": "積極的",
-   "hv": "TÍCH CỰC ĐÍCH",
-   "vi": "tích cực, chủ động",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会議[かいぎ]で、積極的[せっきょくてき]に意見[いけん]を言[い]ってください。",
-     "vi": "Trong họp hãy chủ động phát biểu ý kiến.",
-     "ctx": "xuong"
+      "id": "v:検査:けんさ",
+      "kana": "けんさ",
+      "kanji": "検査",
+      "hv": "KIỂM TRA",
+      "vi": "kiểm định (chất lượng); xét nghiệm",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "出荷[しゅっか]の前[まえ]に、商品[しょうひん]を検査[けんさ]します。",
+          "vi": "Trước khi xuất hàng thì kiểm tra sản phẩm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "血液[けつえき]の検査[けんさ]を、受[う]けました。",
+          "vi": "Tôi xét nghiệm máu.",
+          "ctx": "thutuc"
+        }
+      ],
+      "note": "検査[けんさ]に合格[ごうかく]する = đạt kiểm tra."
     },
     {
-     "jp": "彼[かれ]は、何[なん]でも積極的[せっきょくてき]です。",
-     "vi": "Anh ấy việc gì cũng tích cực.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    {
-     "w": "消極的[しょうきょくてき]",
-     "vi": "thụ động"
-    }
-   ]
-  },
-  {
-   "id": "v:具体:ぐたい",
-   "kana": "ぐたい",
-   "kanji": "具体",
-   "hv": "CỤ THỂ",
-   "vi": "cụ thể (hay dùng: ぐたいてき)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "もっと具体的[ぐたいてき]に、説明[せつめい]してください。",
-     "vi": "Hãy giải thích cụ thể hơn.",
-     "ctx": "xuong"
+      "id": "v:積極的:せっきょくてき",
+      "kana": "せっきょくてき",
+      "kanji": "積極的",
+      "hv": "TÍCH CỰC ĐÍCH",
+      "vi": "tích cực, chủ động",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会議[かいぎ]で、積極的[せっきょくてき]に意見[いけん]を言[い]ってください。",
+          "vi": "Trong họp hãy chủ động phát biểu ý kiến.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "彼[かれ]は、何[なん]でも積極的[せっきょくてき]です。",
+          "vi": "Anh ấy việc gì cũng tích cực.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        {
+          "w": "消極的[しょうきょくてき]",
+          "vi": "thụ động"
+        }
+      ]
     },
     {
-     "jp": "具体的[ぐたいてき]な数字[すうじ]を、教[おし]えてください。",
-     "vi": "Cho tôi con số cụ thể.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Hầu như dùng dạng 具体的[ぐたいてき]な / に; 具体例[ぐたいれい] = ví dụ cụ thể."
-  },
-  {
-   "id": "v:現場:げんば",
-   "kana": "げんば",
-   "kanji": "現場",
-   "hv": "HIỆN TRƯỜNG",
-   "vi": "hiện trường; nơi sản xuất trực tiếp",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "現場[げんば]の意見[いけん]を、聞[き]いてください。",
-     "vi": "Hãy nghe ý kiến của người đứng máy.",
-     "ctx": "xuong"
+      "id": "v:具体:ぐたい",
+      "kana": "ぐたい",
+      "kanji": "具体",
+      "hv": "CỤ THỂ",
+      "vi": "cụ thể (hay dùng: ぐたいてき)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "もっと具体的[ぐたいてき]に、説明[せつめい]してください。",
+          "vi": "Hãy giải thích cụ thể hơn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "具体的[ぐたいてき]な数字[すうじ]を、教[おし]えてください。",
+          "vi": "Cho tôi con số cụ thể.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Hầu như dùng dạng 具体的[ぐたいてき]な / に; 具体例[ぐたいれい] = ví dụ cụ thể."
     },
     {
-     "jp": "事故[じこ]の現場[げんば]を、見[み]に行[い]きました。",
-     "vi": "Tôi đến xem hiện trường tai nạn.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Ở nhà máy, 現場[げんば] = khu sản xuất (khác văn phòng)."
-  },
-  {
-   "id": "v:生産性:せいさんせい",
-   "kana": "せいさんせい",
-   "kanji": "生産性",
-   "hv": "SINH SẢN TÍNH",
-   "vi": "năng suất (sản xuất)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "機械[きかい]を入[い]れて、生産性[せいさんせい]が上[あ]がりました。",
-     "vi": "Đưa máy vào, năng suất tăng.",
-     "ctx": "xuong"
+      "id": "v:現場:げんば",
+      "kana": "げんば",
+      "kanji": "現場",
+      "hv": "HIỆN TRƯỜNG",
+      "vi": "hiện trường; nơi sản xuất trực tiếp",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "現場[げんば]の意見[いけん]を、聞[き]いてください。",
+          "vi": "Hãy nghe ý kiến của người đứng máy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "事故[じこ]の現場[げんば]を、見[み]に行[い]きました。",
+          "vi": "Tôi đến xem hiện trường tai nạn.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Ở nhà máy, 現場[げんば] = khu sản xuất (khác văn phòng)."
     },
     {
-     "jp": "生産性[せいさんせい]を、二割[にわり]上[あ]げたいです。",
-     "vi": "Muốn nâng năng suất 20%.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:能率:のうりつ",
-   "kana": "のうりつ",
-   "kanji": "能率",
-   "hv": "NĂNG SUẤT",
-   "vi": "năng suất làm việc (con người)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "疲[つか]れると、能率[のうりつ]が下[さ]がります。",
-     "vi": "Mệt thì năng suất làm việc giảm.",
-     "ctx": "xuong"
+      "id": "v:生産性:せいさんせい",
+      "kana": "せいさんせい",
+      "kanji": "生産性",
+      "hv": "SINH SẢN TÍNH",
+      "vi": "năng suất (sản xuất)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "機械[きかい]を入[い]れて、生産性[せいさんせい]が上[あ]がりました。",
+          "vi": "Đưa máy vào, năng suất tăng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "生産性[せいさんせい]を、二割[にわり]上[あ]げたいです。",
+          "vi": "Muốn nâng năng suất 20%.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "能率[のうりつ]よく、仕事[しごと]を進[すす]めましょう。",
-     "vi": "Hãy làm việc hiệu quả.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:効率:こうりつ"
-   ]
-  },
-  {
-   "id": "v:効率:こうりつ",
-   "kana": "こうりつ",
-   "kanji": "効率",
-   "hv": "HIỆU SUẤT",
-   "vi": "hiệu suất",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この並[なら]べ方[かた]のほうが、効率[こうりつ]がいいです。",
-     "vi": "Cách xếp này hiệu suất cao hơn.",
-     "ctx": "xuong"
+      "id": "v:能率:のうりつ",
+      "kana": "のうりつ",
+      "kanji": "能率",
+      "hv": "NĂNG SUẤT",
+      "vi": "năng suất làm việc (con người)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "疲[つか]れると、能率[のうりつ]が下[さ]がります。",
+          "vi": "Mệt thì năng suất làm việc giảm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "能率[のうりつ]よく、仕事[しごと]を進[すす]めましょう。",
+          "vi": "Hãy làm việc hiệu quả.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:効率:こうりつ"
+      ]
     },
     {
-     "jp": "効率[こうりつ]を考[かんが]えて、順番[じゅんばん]を変[か]えました。",
-     "vi": "Tính tới hiệu suất nên đổi thứ tự.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "効率的[こうりつてき] = có hiệu suất."
-  },
-  {
-   "id": "v:品質:ひんしつ",
-   "kana": "ひんしつ",
-   "kanji": "品質",
-   "hv": "PHẨM CHẤT",
-   "vi": "chất lượng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "品質[ひんしつ]を守[まも]るのが、私[わたし]たちの仕事[しごと]です。",
-     "vi": "Giữ chất lượng là việc của chúng tôi.",
-     "ctx": "xuong"
+      "id": "v:効率:こうりつ",
+      "kana": "こうりつ",
+      "kanji": "効率",
+      "hv": "HIỆU SUẤT",
+      "vi": "hiệu suất",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この並[なら]べ方[かた]のほうが、効率[こうりつ]がいいです。",
+          "vi": "Cách xếp này hiệu suất cao hơn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "効率[こうりつ]を考[かんが]えて、順番[じゅんばん]を変[か]えました。",
+          "vi": "Tính tới hiệu suất nên đổi thứ tự.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "効率的[こうりつてき] = có hiệu suất."
     },
     {
-     "jp": "品質[ひんしつ]の検査[けんさ]に、合格[ごうかく]しました。",
-     "vi": "Đạt kiểm tra chất lượng.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:質:しつ"
-   ],
-   "note": "品質管理[ひんしつかんり] = quản lý chất lượng (QC)."
-  },
-  {
-   "id": "v:基準:きじゅん",
-   "kana": "きじゅん",
-   "kanji": "基準",
-   "hv": "CƠ CHUẨN",
-   "vi": "tiêu chuẩn (để đánh giá)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "基準[きじゅん]に合[あ]わない魚[さかな]は、出荷[しゅっか]しません。",
-     "vi": "Cá không đạt chuẩn thì không xuất.",
-     "ctx": "xuong"
+      "id": "v:品質:ひんしつ",
+      "kana": "ひんしつ",
+      "kanji": "品質",
+      "hv": "PHẨM CHẤT",
+      "vi": "chất lượng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "品質[ひんしつ]を守[まも]るのが、私[わたし]たちの仕事[しごと]です。",
+          "vi": "Giữ chất lượng là việc của chúng tôi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "品質[ひんしつ]の検査[けんさ]に、合格[ごうかく]しました。",
+          "vi": "Đạt kiểm tra chất lượng.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:質:しつ"
+      ],
+      "note": "品質管理[ひんしつかんり] = quản lý chất lượng (QC)."
     },
     {
-     "jp": "温度[おんど]の基準[きじゅん]は、マイナス十八度[じゅうはちど]以下[いか]です。",
-     "vi": "Tiêu chuẩn nhiệt độ là dưới âm 18 độ.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:手順:てじゅん",
-   "kana": "てじゅん",
-   "kanji": "手順",
-   "hv": "THỦ THUẬN",
-   "vi": "trình tự, các bước làm",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "作業[さぎょう]の手順[てじゅん]を、守[まも]ってください。",
-     "vi": "Hãy tuân thủ trình tự công việc.",
-     "ctx": "xuong"
+      "id": "v:基準:きじゅん",
+      "kana": "きじゅん",
+      "kanji": "基準",
+      "hv": "CƠ CHUẨN",
+      "vi": "tiêu chuẩn (để đánh giá)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "基準[きじゅん]に合[あ]わない魚[さかな]は、出荷[しゅっか]しません。",
+          "vi": "Cá không đạt chuẩn thì không xuất.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "温度[おんど]の基準[きじゅん]は、マイナス十八度[じゅうはちど]以下[いか]です。",
+          "vi": "Tiêu chuẩn nhiệt độ là dưới âm 18 độ.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "手順[てじゅん]を、紙[かみ]に書[か]いて貼[は]りました。",
-     "vi": "Viết các bước làm ra giấy dán lên.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "手順書[てじゅんしょ] = bản hướng dẫn quy trình."
-  },
-  {
-   "id": "v:手間:てま",
-   "kana": "てま",
-   "kanji": "手間",
-   "hv": "THỦ GIAN",
-   "vi": "công sức, thời gian bỏ ra",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この作業[さぎょう]は、手間[てま]がかかります。",
-     "vi": "Việc này tốn công.",
-     "ctx": "xuong"
+      "id": "v:手順:てじゅん",
+      "kana": "てじゅん",
+      "kanji": "手順",
+      "hv": "THỦ THUẬN",
+      "vi": "trình tự, các bước làm",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "作業[さぎょう]の手順[てじゅん]を、守[まも]ってください。",
+          "vi": "Hãy tuân thủ trình tự công việc.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "手順[てじゅん]を、紙[かみ]に書[か]いて貼[は]りました。",
+          "vi": "Viết các bước làm ra giấy dán lên.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "手順書[てじゅんしょ] = bản hướng dẫn quy trình."
     },
     {
-     "jp": "お手間[てま]をとらせて、すみません。",
-     "vi": "Xin lỗi đã làm mất thời gian của anh.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "手間[てま]がかかる = tốn công; 手間[てま]を省[はぶ]く = bớt công."
-  },
-  {
-   "id": "v:方法:ほうほう",
-   "kana": "ほうほう",
-   "kanji": "方法",
-   "hv": "PHƯƠNG PHÁP",
-   "vi": "phương pháp, cách thức",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "いい方法[ほうほう]を、考[かんが]えましょう。",
-     "vi": "Hãy nghĩ cách hay.",
-     "ctx": "xuong"
+      "id": "v:手間:てま",
+      "kana": "てま",
+      "kanji": "手間",
+      "hv": "THỦ GIAN",
+      "vi": "công sức, thời gian bỏ ra",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この作業[さぎょう]は、手間[てま]がかかります。",
+          "vi": "Việc này tốn công.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "お手間[てま]をとらせて、すみません。",
+          "vi": "Xin lỗi đã làm mất thời gian của anh.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "手間[てま]がかかる = tốn công; 手間[てま]を省[はぶ]く = bớt công."
     },
     {
-     "jp": "保存[ほぞん]の方法[ほうほう]を、確認[かくにん]してください。",
-     "vi": "Hãy xác nhận cách bảo quản.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    {
-     "w": "やり方[かた]",
-     "vi": "cách làm"
-    }
-   ]
-  },
-  {
-   "id": "v:手段:しゅだん",
-   "kana": "しゅだん",
-   "kanji": "手段",
-   "hv": "THỦ ĐOẠN",
-   "vi": "phương tiện (để đạt mục đích)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "連絡[れんらく]の手段[しゅだん]は、電話[でんわ]かメールです。",
-     "vi": "Phương tiện liên lạc là điện thoại hoặc email.",
-     "ctx": "xuong"
+      "id": "v:方法:ほうほう",
+      "kana": "ほうほう",
+      "kanji": "方法",
+      "hv": "PHƯƠNG PHÁP",
+      "vi": "phương pháp, cách thức",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "いい方法[ほうほう]を、考[かんが]えましょう。",
+          "vi": "Hãy nghĩ cách hay.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "保存[ほぞん]の方法[ほうほう]を、確認[かくにん]してください。",
+          "vi": "Hãy xác nhận cách bảo quản.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        {
+          "w": "やり方[かた]",
+          "vi": "cách làm"
+        }
+      ]
     },
     {
-     "jp": "最後[さいご]の手段[しゅだん]として、機械[きかい]を止[と]めました。",
-     "vi": "Như biện pháp cuối cùng, dừng máy.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:方向:ほうこう",
-   "kana": "ほうこう",
-   "kanji": "方向",
-   "hv": "PHƯƠNG HƯỚNG",
-   "vi": "phương hướng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "矢印[やじるし]の方向[ほうこう]に、進[すす]んでください。",
-     "vi": "Hãy đi theo hướng mũi tên.",
-     "ctx": "xuong"
+      "id": "v:手段:しゅだん",
+      "kana": "しゅだん",
+      "kanji": "手段",
+      "hv": "THỦ ĐOẠN",
+      "vi": "phương tiện (để đạt mục đích)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "連絡[れんらく]の手段[しゅだん]は、電話[でんわ]かメールです。",
+          "vi": "Phương tiện liên lạc là điện thoại hoặc email.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "最後[さいご]の手段[しゅだん]として、機械[きかい]を止[と]めました。",
+          "vi": "Như biện pháp cuối cùng, dừng máy.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "会社[かいしゃ]は、いい方向[ほうこう]に変[か]わっています。",
-     "vi": "Công ty đang thay đổi theo hướng tốt.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:分析:ぶんせき",
-   "kana": "ぶんせき",
-   "kanji": "分析",
-   "hv": "PHÂN TÍCH",
-   "vi": "phân tích",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ミスの原因[げんいん]を、分析[ぶんせき]します。",
-     "vi": "Phân tích nguyên nhân lỗi.",
-     "ctx": "xuong"
+      "id": "v:方向:ほうこう",
+      "kana": "ほうこう",
+      "kanji": "方向",
+      "hv": "PHƯƠNG HƯỚNG",
+      "vi": "phương hướng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "矢印[やじるし]の方向[ほうこう]に、進[すす]んでください。",
+          "vi": "Hãy đi theo hướng mũi tên.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "会社[かいしゃ]は、いい方向[ほうこう]に変[か]わっています。",
+          "vi": "Công ty đang thay đổi theo hướng tốt.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "データを分析[ぶんせき]して、報告[ほうこく]してください。",
-     "vi": "Phân tích số liệu rồi báo cáo.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:対策:たいさく",
-   "kana": "たいさく",
-   "kanji": "対策",
-   "hv": "ĐỐI SÁCH",
-   "vi": "biện pháp đối phó",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "事故[じこ]の対策[たいさく]を、考[かんが]えました。",
-     "vi": "Đã nghĩ biện pháp phòng tai nạn.",
-     "ctx": "xuong"
+      "id": "v:分析:ぶんせき",
+      "kana": "ぶんせき",
+      "kanji": "分析",
+      "hv": "PHÂN TÍCH",
+      "vi": "phân tích",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ミスの原因[げんいん]を、分析[ぶんせき]します。",
+          "vi": "Phân tích nguyên nhân lỗi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "データを分析[ぶんせき]して、報告[ほうこく]してください。",
+          "vi": "Phân tích số liệu rồi báo cáo.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "夏[なつ]は、暑[あつ]さ対策[たいさく]が必要[ひつよう]です。",
-     "vi": "Mùa hè cần biện pháp chống nóng.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "〜対策[たいさく] = biện pháp chống …: 熱中症[ねっちゅうしょう]対策[たいさく]."
-  },
-  {
-   "id": "v:改良:かいりょう",
-   "kana": "かいりょう",
-   "kanji": "改良",
-   "hv": "CẢI LƯƠNG",
-   "vi": "cải tiến (sản phẩm, máy)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "機械[きかい]を改良[かいりょう]して、速[はや]くなりました。",
-     "vi": "Cải tiến máy nên nhanh hơn.",
-     "ctx": "xuong"
+      "id": "v:対策:たいさく",
+      "kana": "たいさく",
+      "kanji": "対策",
+      "hv": "ĐỐI SÁCH",
+      "vi": "biện pháp đối phó",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "事故[じこ]の対策[たいさく]を、考[かんが]えました。",
+          "vi": "Đã nghĩ biện pháp phòng tai nạn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "夏[なつ]は、暑[あつ]さ対策[たいさく]が必要[ひつよう]です。",
+          "vi": "Mùa hè cần biện pháp chống nóng.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "〜対策[たいさく] = biện pháp chống …: 熱中症[ねっちゅうしょう]対策[たいさく]."
     },
     {
-     "jp": "商品[しょうひん]の味[あじ]を、改良[かいりょう]しました。",
-     "vi": "Đã cải tiến vị sản phẩm.",
-     "ctx": "xuong"
-    }
-   ],
-   "confuse": [
-    "v:改善:かいぜん"
-   ],
-   "note": "改良[かいりょう] = làm cho đồ vật tốt hơn; 改善[かいぜん] = làm cho tình trạng, cách làm tốt hơn."
-  },
-  {
-   "id": "v:進行:しんこう",
-   "kana": "しんこう",
-   "kanji": "進行",
-   "hv": "TIẾN HÀNG",
-   "vi": "diễn tiến; điều phối (cuộc họp)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "作業[さぎょう]は、予定[よてい]どおり進行[しんこう]しています。",
-     "vi": "Công việc đang tiến hành đúng kế hoạch.",
-     "ctx": "xuong"
+      "id": "v:改良:かいりょう",
+      "kana": "かいりょう",
+      "kanji": "改良",
+      "hv": "CẢI LƯƠNG",
+      "vi": "cải tiến (sản phẩm, máy)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "機械[きかい]を改良[かいりょう]して、速[はや]くなりました。",
+          "vi": "Cải tiến máy nên nhanh hơn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "商品[しょうひん]の味[あじ]を、改良[かいりょう]しました。",
+          "vi": "Đã cải tiến vị sản phẩm.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:改善:かいぜん"
+      ],
+      "note": "改良[かいりょう] = làm cho đồ vật tốt hơn; 改善[かいぜん] = làm cho tình trạng, cách làm tốt hơn."
     },
     {
-     "jp": "会議[かいぎ]の進行[しんこう]は、田中[たなか]さんです。",
-     "vi": "Anh Tanaka điều phối cuộc họp.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:活動:かつどう",
-   "kana": "かつどう",
-   "kanji": "活動",
-   "hv": "HOẠT ĐỘNG",
-   "vi": "các hoạt động, phong trào",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "工場[こうじょう]の改善[かいぜん]活動[かつどう]に、参加[さんか]しています。",
-     "vi": "Tôi tham gia hoạt động cải tiến của nhà máy.",
-     "ctx": "xuong"
+      "id": "v:進行:しんこう",
+      "kana": "しんこう",
+      "kanji": "進行",
+      "hv": "TIẾN HÀNG",
+      "vi": "diễn tiến; điều phối (cuộc họp)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "作業[さぎょう]は、予定[よてい]どおり進行[しんこう]しています。",
+          "vi": "Công việc đang tiến hành đúng kế hoạch.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "会議[かいぎ]の進行[しんこう]は、田中[たなか]さんです。",
+          "vi": "Anh Tanaka điều phối cuộc họp.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "ボランティア活動[かつどう]を、しました。",
-     "vi": "Tôi làm hoạt động tình nguyện.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:活用:かつよう",
-   "kana": "かつよう",
-   "kanji": "活用",
-   "hv": "HOẠT DỤNG",
-   "vi": "tận dụng triệt để; chia (từ)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "空[あ]いている場所[ばしょ]を、活用[かつよう]しましょう。",
-     "vi": "Hãy tận dụng chỗ trống.",
-     "ctx": "xuong"
+      "id": "v:活動:かつどう",
+      "kana": "かつどう",
+      "kanji": "活動",
+      "hv": "HOẠT ĐỘNG",
+      "vi": "hoạt động; các hoạt động, phong trào",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "工場[こうじょう]の改善[かいぜん]活動[かつどう]に、参加[さんか]しています。",
+          "vi": "Tôi tham gia hoạt động cải tiến của nhà máy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ボランティア活動[かつどう]を、しました。",
+          "vi": "Tôi làm hoạt động tình nguyện.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "動詞[どうし]の活用[かつよう]を、覚[おぼ]えます。",
-     "vi": "Học thuộc cách chia động từ.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:維持:いじ",
-   "kana": "いじ",
-   "kanji": "維持",
-   "hv": "DUY TRÌ",
-   "vi": "duy trì",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "温度[おんど]を、一定[いってい]に維持[いじ]してください。",
-     "vi": "Hãy duy trì nhiệt độ ổn định.",
-     "ctx": "xuong"
+      "id": "v:活用:かつよう",
+      "kana": "かつよう",
+      "kanji": "活用",
+      "hv": "HOẠT DỤNG",
+      "vi": "tận dụng triệt để; chia (từ)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "空[あ]いている場所[ばしょ]を、活用[かつよう]しましょう。",
+          "vi": "Hãy tận dụng chỗ trống.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "動詞[どうし]の活用[かつよう]を、覚[おぼ]えます。",
+          "vi": "Học thuộc cách chia động từ.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "健康[けんこう]を維持[いじ]するために、運動[うんどう]しています。",
-     "vi": "Tập thể dục để duy trì sức khỏe.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:監督:かんとく",
-   "kana": "かんとく",
-   "kanji": "監督",
-   "hv": "GIÁM ĐỐC",
-   "vi": "giám sát; đạo diễn, huấn luyện viên",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "現場[げんば]の監督[かんとく]は、中村[なかむら]さんです。",
-     "vi": "Người giám sát hiện trường là anh Nakamura.",
-     "ctx": "xuong"
+      "id": "v:維持:いじ",
+      "kana": "いじ",
+      "kanji": "維持",
+      "hv": "DUY TRÌ",
+      "vi": "duy trì",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "温度[おんど]を、一定[いってい]に維持[いじ]してください。",
+          "vi": "Hãy duy trì nhiệt độ ổn định.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "健康[けんこう]を維持[いじ]するために、運動[うんどう]しています。",
+          "vi": "Tập thể dục để duy trì sức khỏe.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "映画[えいが]の監督[かんとく]に、会[あ]いました。",
-     "vi": "Tôi gặp đạo diễn phim.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:管理者:かんりしゃ",
-   "kana": "かんりしゃ",
-   "kanji": "管理者",
-   "hv": "QUẢN LÝ GIẢ",
-   "vi": "người quản lý",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "何[なに]かあったら、管理者[かんりしゃ]に連絡[れんらく]してください。",
-     "vi": "Có chuyện gì hãy báo người quản lý.",
-     "ctx": "xuong"
+      "id": "v:監督:かんとく",
+      "kana": "かんとく",
+      "kanji": "監督",
+      "hv": "GIÁM ĐỐC",
+      "vi": "giám sát; đạo diễn, huấn luyện viên",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "現場[げんば]の監督[かんとく]は、中村[なかむら]さんです。",
+          "vi": "Người giám sát hiện trường là anh Nakamura.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "映画[えいが]の監督[かんとく]に、会[あ]いました。",
+          "vi": "Tôi gặp đạo diễn phim.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "寮[りょう]の管理者[かんりしゃ]は、山田[やまだ]さんです。",
-     "vi": "Quản lý ký túc xá là ông Yamada.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:修正:しゅうせい",
-   "kana": "しゅうせい",
-   "kanji": "修正",
-   "hv": "TU CHÍNH",
-   "vi": "chỉnh sửa (văn bản, số liệu)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "書類[しょるい]の間違[まちが]いを、修正[しゅうせい]しました。",
-     "vi": "Đã sửa lỗi trong giấy tờ.",
-     "ctx": "thutuc"
+      "id": "v:管理者:かんりしゃ",
+      "kana": "かんりしゃ",
+      "kanji": "管理者",
+      "hv": "QUẢN LÝ GIẢ",
+      "vi": "người quản lý",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "何[なに]かあったら、管理者[かんりしゃ]に連絡[れんらく]してください。",
+          "vi": "Có chuyện gì hãy báo người quản lý.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "寮[りょう]の管理者[かんりしゃ]は、山田[やまだ]さんです。",
+          "vi": "Quản lý ký túc xá là ông Yamada.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "計画[けいかく]を、少[すこ]し修正[しゅうせい]します。",
-     "vi": "Chỉnh sửa kế hoạch một chút.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:修理:しゅうり",
-   "kana": "しゅうり",
-   "kanji": "修理",
-   "hv": "TU LÝ",
-   "vi": "sửa chữa (máy móc, đồ vật)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "機械[きかい]を、修理[しゅうり]に出[だ]しました。",
-     "vi": "Đã gửi máy đi sửa.",
-     "ctx": "xuong"
+      "id": "v:修正:しゅうせい",
+      "kana": "しゅうせい",
+      "kanji": "修正",
+      "hv": "TU CHÍNH",
+      "vi": "chỉnh sửa (văn bản, số liệu)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "書類[しょるい]の間違[まちが]いを、修正[しゅうせい]しました。",
+          "vi": "Đã sửa lỗi trong giấy tờ.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "計画[けいかく]を、少[すこ]し修正[しゅうせい]します。",
+          "vi": "Chỉnh sửa kế hoạch một chút.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "自転車[じてんしゃ]の修理[しゅうり]は、いくらですか。",
-     "vi": "Sửa xe đạp bao nhiêu tiền?",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:直す:なおす"
-   ]
-  },
-  {
-   "id": "v:仕組み:しくみ",
-   "kana": "しくみ",
-   "kanji": "仕組み",
-   "kf": "仕組[しく]み",
-   "hv": "SĨ TỔ",
-   "vi": "cơ chế, cấu tạo (cách vận hành)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "機械[きかい]の仕組[しく]みを、勉強[べんきょう]しました。",
-     "vi": "Tôi học cấu tạo của máy.",
-     "ctx": "xuong"
+      "id": "v:修理:しゅうり",
+      "kana": "しゅうり",
+      "kanji": "修理",
+      "hv": "TU LÝ",
+      "vi": "sửa chữa (máy móc, đồ vật)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "機械[きかい]を、修理[しゅうり]に出[だ]しました。",
+          "vi": "Đã gửi máy đi sửa.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "自転車[じてんしゃ]の修理[しゅうり]は、いくらですか。",
+          "vi": "Sửa xe đạp bao nhiêu tiền?",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:直す:なおす"
+      ]
     },
     {
-     "jp": "日本[にほん]の税金[ぜいきん]の仕組[しく]みは、複雑[ふくざつ]です。",
-     "vi": "Cơ chế thuế của Nhật phức tạp.",
-     "ctx": "thutuc"
-    }
-   ]
-  },
-  {
-   "id": "v:観察:かんさつ",
-   "kana": "かんさつ",
-   "kanji": "観察",
-   "hv": "QUAN SÁT",
-   "vi": "quan sát",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "先輩[せんぱい]の動[うご]きを、よく観察[かんさつ]してください。",
-     "vi": "Hãy quan sát kỹ động tác của tiền bối.",
-     "ctx": "xuong"
+      "id": "v:仕組み:しくみ",
+      "kana": "しくみ",
+      "kanji": "仕組み",
+      "kf": "仕組[しく]み",
+      "hv": "SĨ TỔ",
+      "vi": "cơ chế, cấu tạo (cách vận hành)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "機械[きかい]の仕組[しく]みを、勉強[べんきょう]しました。",
+          "vi": "Tôi học cấu tạo của máy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本[にほん]の税金[ぜいきん]の仕組[しく]みは、複雑[ふくざつ]です。",
+          "vi": "Cơ chế thuế của Nhật phức tạp.",
+          "ctx": "thutuc"
+        }
+      ]
     },
     {
-     "jp": "子[こ]どもが、虫[むし]を観察[かんさつ]しています。",
-     "vi": "Đứa trẻ đang quan sát côn trùng.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:強力:きょうりょく",
-   "kana": "きょうりょく",
-   "kanji": "強力",
-   "hv": "CƯỜNG LỰC",
-   "vi": "có lực mạnh, công suất lớn",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "強力[きょうりょく]な洗剤[せんざい]は、手袋[てぶくろ]をして使[つか]ってください。",
-     "vi": "Chất tẩy mạnh hãy đeo găng tay khi dùng.",
-     "ctx": "xuong"
+      "id": "v:観察:かんさつ",
+      "kana": "かんさつ",
+      "kanji": "観察",
+      "hv": "QUAN SÁT",
+      "vi": "quan sát",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "先輩[せんぱい]の動[うご]きを、よく観察[かんさつ]してください。",
+          "vi": "Hãy quan sát kỹ động tác của tiền bối.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "子[こ]どもが、虫[むし]を観察[かんさつ]しています。",
+          "vi": "Đứa trẻ đang quan sát côn trùng.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "新[あたら]しい掃除機[そうじき]は、強力[きょうりょく]です。",
-     "vi": "Máy hút bụi mới rất mạnh.",
-     "ctx": "doisong"
-    }
-   ],
-   "confuse": [
-    "v:協力:きょうりょく"
-   ],
-   "note": "Đồng âm: 協力[きょうりょく] = hợp tác."
-  },
-  {
-   "id": "v:そのまま:そのまま",
-   "kana": "そのまま",
-   "kanji": "",
-   "hv": "",
-   "vi": "để nguyên như thế",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "箱[はこ]は、そのままにしておいてください。",
-     "vi": "Cứ để thùng nguyên đó nhé.",
-     "ctx": "xuong"
+      "id": "v:強力:きょうりょく",
+      "kana": "きょうりょく",
+      "kanji": "強力",
+      "hv": "CƯỜNG LỰC",
+      "vi": "có lực mạnh, công suất lớn",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "強力[きょうりょく]な洗剤[せんざい]は、手袋[てぶくろ]をして使[つか]ってください。",
+          "vi": "Chất tẩy mạnh hãy đeo găng tay khi dùng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "新[あたら]しい掃除機[そうじき]は、強力[きょうりょく]です。",
+          "vi": "Máy hút bụi mới rất mạnh.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:協力:きょうりょく"
+      ],
+      "note": "Đồng âm: 協力[きょうりょく] = hợp tác."
     },
     {
-     "jp": "そのまま、少[すこ]し待[ま]ってください。",
-     "vi": "Cứ thế đợi một chút.",
-     "ctx": "hoithoai"
-    }
-   ]
-  },
-  {
-   "id": "v:働き:はたらき",
-   "kana": "はたらき",
-   "kanji": "働き",
-   "kf": "働[はたら]き",
-   "hv": "ĐỘNG",
-   "vi": "công sức làm việc; sự vận hành (cơ thể)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quản lý",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今年[ことし]のみんなの働[はたら]きに、感謝[かんしゃ]します。",
-     "vi": "Cảm ơn công sức của mọi người năm nay.",
-     "ctx": "xuong"
+      "id": "v:そのまま:そのまま",
+      "kana": "そのまま",
+      "kanji": "",
+      "hv": "",
+      "vi": "để nguyên như thế",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "箱[はこ]は、そのままにしておいてください。",
+          "vi": "Cứ để thùng nguyên đó nhé.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "そのまま、少[すこ]し待[ま]ってください。",
+          "vi": "Cứ thế đợi một chút.",
+          "ctx": "hoithoai"
+        }
+      ]
     },
     {
-     "jp": "胃[い]の働[はたら]きが、弱[よわ]くなっています。",
-     "vi": "Chức năng dạ dày đang yếu đi.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:働く:はたらく"
-   ]
-  },
-  {
-   "id": "v:実行:じっこう",
-   "kana": "じっこう",
-   "kanji": "実行",
-   "hv": "THỰC HÀNG",
-   "vi": "thực hiện, thi hành",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "計画[けいかく]を、すぐに実行[じっこう]しましょう。",
-     "vi": "Hãy thực hiện kế hoạch ngay.",
-     "ctx": "xuong"
+      "id": "v:働き:はたらき",
+      "kana": "はたらき",
+      "kanji": "働き",
+      "kf": "働[はたら]き",
+      "hv": "ĐỘNG",
+      "vi": "công sức làm việc; sự vận hành (cơ thể)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quản lý",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今年[ことし]のみんなの働[はたら]きに、感謝[かんしゃ]します。",
+          "vi": "Cảm ơn công sức của mọi người năm nay.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "胃[い]の働[はたら]きが、弱[よわ]くなっています。",
+          "vi": "Chức năng dạ dày đang yếu đi.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:働く:はたらく"
+      ]
     },
     {
-     "jp": "言[い]うのは簡単[かんたん]ですが、実行[じっこう]は難[むずか]しいです。",
-     "vi": "Nói thì dễ, làm mới khó.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:設計:せっけい",
-   "kana": "せっけい",
-   "kanji": "設計",
-   "hv": "THIẾT KẾ",
-   "vi": "lập bản vẽ thiết kế",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cải tiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "新[あたら]しい工場[こうじょう]を、設計[せっけい]しています。",
-     "vi": "Đang thiết kế nhà máy mới.",
-     "ctx": "xuong"
+      "id": "v:実行:じっこう",
+      "kana": "じっこう",
+      "kanji": "実行",
+      "hv": "THỰC HÀNG",
+      "vi": "thực hiện, thi hành",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "計画[けいかく]を、すぐに実行[じっこう]しましょう。",
+          "vi": "Hãy thực hiện kế hoạch ngay.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "言[い]うのは簡単[かんたん]ですが、実行[じっこう]は難[むずか]しいです。",
+          "vi": "Nói thì dễ, làm mới khó.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "この機械[きかい]は、ドイツで設計[せっけい]されました。",
-     "vi": "Máy này được thiết kế ở Đức.",
-     "ctx": "xuong"
+      "id": "v:設計:せっけい",
+      "kana": "せっけい",
+      "kanji": "設計",
+      "hv": "THIẾT KẾ",
+      "vi": "lập bản vẽ thiết kế",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cải tiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新[あたら]しい工場[こうじょう]を、設計[せっけい]しています。",
+          "vi": "Đang thiết kế nhà máy mới.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "この機械[きかい]は、ドイツで設計[せっけい]されました。",
+          "vi": "Máy này được thiết kế ở Đức.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "設計図[せっけいず] = bản vẽ thiết kế."
     }
-   ],
-   "note": "設計図[せっけいず] = bản vẽ thiết kế."
-  }
- ]
+  ]
 }

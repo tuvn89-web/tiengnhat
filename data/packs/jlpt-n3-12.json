@@ -1,1269 +1,1269 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n3-12",
-  "title": "JLPT N3 12 – Học tập, chứng chỉ & thi cử",
-  "type": "vocab",
-  "level": "N3",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 2,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:資格:しかく",
-   "kana": "しかく",
-   "kanji": "資格",
-   "hv": "TƯ CÁCH",
-   "vi": "chứng chỉ, tư cách",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Chứng chỉ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "仕事[しごと]に役立[やくだ]つ資格[しかく]を取[と]りたいです。",
-     "vi": "Tôi muốn lấy chứng chỉ có ích cho công việc.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "在留資格[ざいりゅうしかく]は、在留[ざいりゅう]カードに書[か]いてあります。",
-     "vi": "Tư cách lưu trú ghi trên thẻ cư trú.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "資格[しかく]を取[と]る",
-     "vi": "lấy chứng chỉ"
-    }
-   ],
-   "note": "在留資格[ざいりゅうしかく] = tư cách lưu trú (visa)."
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n3-12",
+    "title": "JLPT N3 12 – Học tập, chứng chỉ & thi cử",
+    "type": "vocab",
+    "level": "N3",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 3,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:免許:めんきょ",
-   "kana": "めんきょ",
-   "kanji": "免許",
-   "hv": "MIỄN HỨA",
-   "vi": "giấy phép, bằng (lái…)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Chứng chỉ",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "フォークリフトの免許[めんきょ]を取[と]りました。",
-     "vi": "Tôi đã lấy bằng xe nâng.",
-     "ctx": "xuong"
+      "id": "v:資格:しかく",
+      "kana": "しかく",
+      "kanji": "資格",
+      "hv": "TƯ CÁCH",
+      "vi": "chứng chỉ, tư cách",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Chứng chỉ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]に役立[やくだ]つ資格[しかく]を取[と]りたいです。",
+          "vi": "Tôi muốn lấy chứng chỉ có ích cho công việc.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "在留資格[ざいりゅうしかく]は、在留[ざいりゅう]カードに書[か]いてあります。",
+          "vi": "Tư cách lưu trú ghi trên thẻ cư trú.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "資格[しかく]を取[と]る",
+          "vi": "lấy chứng chỉ"
+        }
+      ],
+      "note": "在留資格[ざいりゅうしかく] = tư cách lưu trú (visa)."
     },
     {
-     "jp": "運転免許[うんてんめんきょ]の住所[じゅうしょ]を変[か]えてください。",
-     "vi": "Hãy đổi địa chỉ trên bằng lái.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "免許[めんきょ]を取[と]る",
-     "vi": "lấy bằng"
-    }
-   ],
-   "note": "運転免許証[うんてんめんきょしょう] = bằng lái xe (thẻ)."
-  },
-  {
-   "id": "v:合格:ごうかく",
-   "kana": "ごうかく",
-   "kanji": "合格",
-   "hv": "HỢP CÁCH",
-   "vi": "đỗ, đạt (kỳ thi)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi cử",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本語[にほんご]能力[のうりょく]試験[しけん]に合格[ごうかく]しました。",
-     "vi": "Tôi đã đỗ kỳ thi năng lực tiếng Nhật.",
-     "ctx": "doisong"
+      "id": "v:免許:めんきょ",
+      "kana": "めんきょ",
+      "kanji": "免許",
+      "hv": "MIỄN HỨA",
+      "vi": "giấy phép, bằng (lái…)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Chứng chỉ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "フォークリフトの免許[めんきょ]を取[と]りました。",
+          "vi": "Tôi đã lấy bằng xe nâng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "運転免許[うんてんめんきょ]の住所[じゅうしょ]を変[か]えてください。",
+          "vi": "Hãy đổi địa chỉ trên bằng lái.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "免許[めんきょ]を取[と]る",
+          "vi": "lấy bằng"
+        }
+      ],
+      "note": "運転免許証[うんてんめんきょしょう] = bằng lái xe (thẻ)."
     },
     {
-     "jp": "技能[ぎのう]試験[しけん]の合格[ごうかく]の通知[つうち]が届[とど]きました。",
-     "vi": "Giấy báo đỗ kỳ thi kỹ năng đã tới.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "試験[しけん]に合格[ごうかく]する",
-     "vi": "đỗ kỳ thi"
-    }
-   ],
-   "ant": [
-    {
-     "w": "不合格[ふごうかく]",
-     "vi": "trượt"
-    }
-   ]
-  },
-  {
-   "id": "v:学習:がくしゅう",
-   "kana": "がくしゅう",
-   "kanji": "学習",
-   "hv": "HỌC TẬP",
-   "vi": "học tập (văn viết)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "毎日[まいにち]三十分[さんじゅっぷん]、日本語[にほんご]を学習[がくしゅう]しています。",
-     "vi": "Mỗi ngày tôi học tiếng Nhật 30 phút.",
-     "ctx": "doisong"
+      "id": "v:合格:ごうかく",
+      "kana": "ごうかく",
+      "kanji": "合格",
+      "hv": "HỢP CÁCH",
+      "vi": "đỗ, đạt (kỳ thi)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi cử",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本語[にほんご]能力[のうりょく]試験[しけん]に合格[ごうかく]しました。",
+          "vi": "Tôi đã đỗ kỳ thi năng lực tiếng Nhật.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "技能[ぎのう]試験[しけん]の合格[ごうかく]の通知[つうち]が届[とど]きました。",
+          "vi": "Giấy báo đỗ kỳ thi kỹ năng đã tới.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "試験[しけん]に合格[ごうかく]する",
+          "vi": "đỗ kỳ thi"
+        }
+      ],
+      "ant": [
+        {
+          "w": "不合格[ふごうかく]",
+          "vi": "trượt"
+        }
+      ]
     },
     {
-     "jp": "会社[かいしゃ]で、安全[あんぜん]の学習[がくしゅう]会[かい]がありました。",
-     "vi": "Ở công ty có buổi học về an toàn.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "日本語[にほんご]を学習[がくしゅう]する",
-     "vi": "học tiếng Nhật"
-    }
-   ],
-   "syn": [
-    "v:勉強:べんきょう",
-    "v:学ぶ:まなぶ"
-   ]
-  },
-  {
-   "id": "v:暗記:あんき",
-   "kana": "あんき",
-   "kanji": "暗記",
-   "hv": "ÁM KÝ",
-   "vi": "học thuộc lòng",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "単語[たんご]を百個[ひゃっこ]暗記[あんき]しました。",
-     "vi": "Tôi học thuộc 100 từ.",
-     "ctx": "doisong"
+      "id": "v:学習:がくしゅう",
+      "kana": "がくしゅう",
+      "kanji": "学習",
+      "hv": "HỌC TẬP",
+      "vi": "học tập (văn viết)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎日[まいにち]三十分[さんじゅっぷん]、日本語[にほんご]を学習[がくしゅう]しています。",
+          "vi": "Mỗi ngày tôi học tiếng Nhật 30 phút.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "会社[かいしゃ]で、安全[あんぜん]の学習[がくしゅう]会[かい]がありました。",
+          "vi": "Ở công ty có buổi học về an toàn.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "日本語[にほんご]を学習[がくしゅう]する",
+          "vi": "học tiếng Nhật"
+        }
+      ],
+      "syn": [
+        "v:勉強:べんきょう",
+        "v:学ぶ:まなぶ"
+      ]
     },
     {
-     "jp": "作業[さぎょう]の順番[じゅんばん]を暗記[あんき]してください。",
-     "vi": "Hãy thuộc lòng thứ tự công việc.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "単語[たんご]を暗記[あんき]する",
-     "vi": "thuộc từ"
-    }
-   ]
-  },
-  {
-   "id": "v:単語:たんご",
-   "kana": "たんご",
-   "kanji": "単語",
-   "hv": "ĐƠN NGỮ",
-   "vi": "từ vựng, từ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "知[し]らない単語[たんご]は、辞書[じしょ]で調[しら]べます。",
-     "vi": "Từ không biết thì tra từ điển.",
-     "ctx": "doisong"
+      "id": "v:暗記:あんき",
+      "kana": "あんき",
+      "kanji": "暗記",
+      "hv": "ÁM KÝ",
+      "vi": "học thuộc lòng",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "単語[たんご]を百個[ひゃっこ]暗記[あんき]しました。",
+          "vi": "Tôi học thuộc 100 từ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "作業[さぎょう]の順番[じゅんばん]を暗記[あんき]してください。",
+          "vi": "Hãy thuộc lòng thứ tự công việc.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "単語[たんご]を暗記[あんき]する",
+          "vi": "thuộc từ"
+        }
+      ]
     },
     {
-     "jp": "毎日[まいにち]、新[あたら]しい単語[たんご]を十個[じゅっこ]覚[おぼ]えます。",
-     "vi": "Mỗi ngày tôi nhớ 10 từ mới.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:言葉:ことば"
-   ]
-  },
-  {
-   "id": "v:文:ぶん",
-   "kana": "ぶん",
-   "kanji": "文",
-   "hv": "VĂN",
-   "vi": "câu (văn)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "次[つぎ]の文[ぶん]を、日本語[にほんご]に訳[やく]してください。",
-     "vi": "Hãy dịch câu sau sang tiếng Nhật.",
-     "ctx": "doisong"
+      "id": "v:単語:たんご",
+      "kana": "たんご",
+      "kanji": "単語",
+      "hv": "ĐƠN NGỮ",
+      "vi": "từ vựng, từ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "知[し]らない単語[たんご]は、辞書[じしょ]で調[しら]べます。",
+          "vi": "Từ không biết thì tra từ điển.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "毎日[まいにち]、新[あたら]しい単語[たんご]を十個[じゅっこ]覚[おぼ]えます。",
+          "vi": "Mỗi ngày tôi nhớ 10 từ mới.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:言葉:ことば"
+      ]
     },
     {
-     "jp": "短[みじか]い文[ぶん]で、報告[ほうこく]を書[か]いてください。",
-     "vi": "Hãy viết báo cáo bằng câu ngắn.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "文章[ぶんしょう] = đoạn văn, bài văn."
-  },
-  {
-   "id": "v:文字:もじ",
-   "kana": "もじ",
-   "kanji": "文字",
-   "hv": "VĂN TỰ",
-   "vi": "chữ viết, ký tự",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この文字[もじ]は、小[ちい]さくて読[よ]めません。",
-     "vi": "Chữ này nhỏ quá không đọc được.",
-     "ctx": "doisong"
+      "id": "v:文:ぶん",
+      "kana": "ぶん",
+      "kanji": "文",
+      "hv": "VĂN",
+      "vi": "câu (văn)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "次[つぎ]の文[ぶん]を、日本語[にほんご]に訳[やく]してください。",
+          "vi": "Hãy dịch câu sau sang tiếng Nhật.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "短[みじか]い文[ぶん]で、報告[ほうこく]を書[か]いてください。",
+          "vi": "Hãy viết báo cáo bằng câu ngắn.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "文章[ぶんしょう] = đoạn văn, bài văn."
     },
     {
-     "jp": "名前[なまえ]は、カタカナの文字[もじ]で書[か]いてください。",
-     "vi": "Tên hãy viết bằng chữ katakana.",
-     "ctx": "thutuc"
-    }
-   ],
-   "note": "文字化[もじば]け = lỗi phông chữ."
-  },
-  {
-   "id": "v:言語:げんご",
-   "kana": "げんご",
-   "kanji": "言語",
-   "hv": "NGÔN NGỮ",
-   "vi": "ngôn ngữ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "世界[せかい]には、たくさんの言語[げんご]があります。",
-     "vi": "Thế giới có rất nhiều ngôn ngữ.",
-     "ctx": "doisong"
+      "id": "v:文字:もじ",
+      "kana": "もじ",
+      "kanji": "文字",
+      "hv": "VĂN TỰ",
+      "vi": "chữ viết, ký tự",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この文字[もじ]は、小[ちい]さくて読[よ]めません。",
+          "vi": "Chữ này nhỏ quá không đọc được.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "名前[なまえ]は、カタカナの文字[もじ]で書[か]いてください。",
+          "vi": "Tên hãy viết bằng chữ katakana.",
+          "ctx": "thutuc"
+        }
+      ],
+      "note": "文字化[もじば]け = lỗi phông chữ."
     },
     {
-     "jp": "この機械[きかい]は、画面[がめん]の言語[げんご]を変[か]えられます。",
-     "vi": "Máy này đổi được ngôn ngữ màn hình.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:言葉:ことば"
-   ]
-  },
-  {
-   "id": "v:成績:せいせき",
-   "kana": "せいせき",
-   "kanji": "成績",
-   "hv": "THÀNH TÍCH",
-   "vi": "thành tích, điểm số",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi cử",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "試験[しけん]の成績[せいせき]が、前回[ぜんかい]より上[あ]がりました。",
-     "vi": "Điểm thi cao hơn lần trước.",
-     "ctx": "doisong"
+      "id": "v:言語:げんご",
+      "kana": "げんご",
+      "kanji": "言語",
+      "hv": "NGÔN NGỮ",
+      "vi": "ngôn ngữ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "世界[せかい]には、たくさんの言語[げんご]があります。",
+          "vi": "Thế giới có rất nhiều ngôn ngữ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この機械[きかい]は、画面[がめん]の言語[げんご]を変[か]えられます。",
+          "vi": "Máy này đổi được ngôn ngữ màn hình.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:言葉:ことば"
+      ]
     },
     {
-     "jp": "工場[こうじょう]の今月[こんげつ]の成績[せいせき]は、とてもいいです。",
-     "vi": "Thành tích tháng này của nhà máy rất tốt.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:級:きゅう",
-   "kana": "きゅう",
-   "kanji": "級",
-   "hv": "CẤP",
-   "vi": "cấp độ, hạng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi cử",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "漢字検定[かんじけんてい]の四[よん]級[きゅう]に合格[ごうかく]しました。",
-     "vi": "Tôi đỗ kiểm tra chữ Hán cấp 4.",
-     "ctx": "doisong"
+      "id": "v:成績:せいせき",
+      "kana": "せいせき",
+      "kanji": "成績",
+      "hv": "THÀNH TÍCH",
+      "vi": "thành tích, điểm số",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi cử",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "試験[しけん]の成績[せいせき]が、前回[ぜんかい]より上[あ]がりました。",
+          "vi": "Điểm thi cao hơn lần trước.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "工場[こうじょう]の今月[こんげつ]の成績[せいせき]は、とてもいいです。",
+          "vi": "Thành tích tháng này của nhà máy rất tốt.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "この資格[しかく]は、一級[いっきゅう]と二級[にきゅう]があります。",
-     "vi": "Chứng chỉ này có cấp 1 và cấp 2.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "JLPT dùng N1–N5; nhiều kỳ thi Nhật khác dùng 級[きゅう] (cấp 1 là cao nhất)."
-  },
-  {
-   "id": "v:教科書:きょうかしょ",
-   "kana": "きょうかしょ",
-   "kanji": "教科書",
-   "hv": "GIÁO KHOA THƯ",
-   "vi": "sách giáo khoa",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "教科書[きょうかしょ]の三十[さんじゅう]ページを開[ひら]いてください。",
-     "vi": "Hãy mở sách trang 30.",
-     "ctx": "doisong"
+      "id": "v:級:きゅう",
+      "kana": "きゅう",
+      "kanji": "級",
+      "hv": "CẤP",
+      "vi": "cấp độ, hạng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi cử",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "漢字検定[かんじけんてい]の四[よん]級[きゅう]に合格[ごうかく]しました。",
+          "vi": "Tôi đỗ kiểm tra chữ Hán cấp 4.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この資格[しかく]は、一級[いっきゅう]と二級[にきゅう]があります。",
+          "vi": "Chứng chỉ này có cấp 1 và cấp 2.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "JLPT dùng N1–N5; nhiều kỳ thi Nhật khác dùng 級[きゅう] (cấp 1 là cao nhất)."
     },
     {
-     "jp": "日本語[にほんご]の教科書[きょうかしょ]を、古本屋[ふるほんや]で買[か]いました。",
-     "vi": "Tôi mua sách tiếng Nhật ở tiệm sách cũ.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:テキスト:テキスト"
-   ]
-  },
-  {
-   "id": "v:学期:がっき",
-   "kana": "がっき",
-   "kanji": "学期",
-   "hv": "HỌC KỲ",
-   "vi": "học kỳ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本語[にほんご]教室[きょうしつ]の新[あたら]しい学期[がっき]が、四月[しがつ]に始[はじ]まります。",
-     "vi": "Học kỳ mới của lớp tiếng Nhật bắt đầu tháng 4.",
-     "ctx": "doisong"
+      "id": "v:教科書:きょうかしょ",
+      "kana": "きょうかしょ",
+      "kanji": "教科書",
+      "hv": "GIÁO KHOA THƯ",
+      "vi": "sách giáo khoa",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "教科書[きょうかしょ]の三十[さんじゅう]ページを開[ひら]いてください。",
+          "vi": "Hãy mở sách trang 30.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "日本語[にほんご]の教科書[きょうかしょ]を、古本屋[ふるほんや]で買[か]いました。",
+          "vi": "Tôi mua sách tiếng Nhật ở tiệm sách cũ.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:テキスト:テキスト"
+      ]
     },
     {
-     "jp": "一学期[いちがっき]に一回[いっかい]、テストがあります。",
-     "vi": "Mỗi học kỳ có một bài kiểm tra.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:単位:たんい",
-   "kana": "たんい",
-   "kanji": "単位",
-   "hv": "ĐƠN VỊ",
-   "vi": "đơn vị; tín chỉ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "重[おも]さの単位[たんい]は、キロです。",
-     "vi": "Đơn vị khối lượng là kg.",
-     "ctx": "xuong"
+      "id": "v:学期:がっき",
+      "kana": "がっき",
+      "kanji": "学期",
+      "hv": "HỌC KỲ",
+      "vi": "học kỳ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本語[にほんご]教室[きょうしつ]の新[あたら]しい学期[がっき]が、四月[しがつ]に始[はじ]まります。",
+          "vi": "Học kỳ mới của lớp tiếng Nhật bắt đầu tháng 4.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "一学期[いちがっき]に一回[いっかい]、テストがあります。",
+          "vi": "Mỗi học kỳ có một bài kiểm tra.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "大学[だいがく]で、単位[たんい]を取[と]りました。",
-     "vi": "Tôi đã lấy tín chỉ ở đại học.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:教授:きょうじゅ",
-   "kana": "きょうじゅ",
-   "kanji": "教授",
-   "hv": "GIÁO THỤ",
-   "vi": "giáo sư (đại học)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "大学[だいがく]の教授[きょうじゅ]が、工場[こうじょう]を見学[けんがく]に来[き]ました。",
-     "vi": "Một giáo sư đại học đến tham quan nhà máy.",
-     "ctx": "xuong"
+      "id": "v:単位:たんい",
+      "kana": "たんい",
+      "kanji": "単位",
+      "hv": "ĐƠN VỊ",
+      "vi": "đơn vị; tín chỉ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "重[おも]さの単位[たんい]は、キロです。",
+          "vi": "Đơn vị khối lượng là kg.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "大学[だいがく]で、単位[たんい]を取[と]りました。",
+          "vi": "Tôi đã lấy tín chỉ ở đại học.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "教授[きょうじゅ]の話[はなし]は、少[すこ]し難[むずか]しかったです。",
-     "vi": "Bài nói của giáo sư hơi khó.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:留学:りゅうがく",
-   "kana": "りゅうがく",
-   "kanji": "留学",
-   "hv": "LƯU HỌC",
-   "vi": "du học",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "弟[おとうと]は、日本[にほん]に留学[りゅうがく]したいと言[い]っています。",
-     "vi": "Em trai bạn tôi nói muốn du học Nhật.",
-     "ctx": "doisong"
+      "id": "v:教授:きょうじゅ",
+      "kana": "きょうじゅ",
+      "kanji": "教授",
+      "hv": "GIÁO THỤ",
+      "vi": "giáo sư (đại học)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "大学[だいがく]の教授[きょうじゅ]が、工場[こうじょう]を見学[けんがく]に来[き]ました。",
+          "vi": "Một giáo sư đại học đến tham quan nhà máy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "教授[きょうじゅ]の話[はなし]は、少[すこ]し難[むずか]しかったです。",
+          "vi": "Bài nói của giáo sư hơi khó.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "留学[りゅうがく]ビザと特定[とくてい]技能[ぎのう]ビザは、違[ちが]います。",
-     "vi": "Visa du học và visa kỹ năng đặc định khác nhau.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "日本[にほん]に留学[りゅうがく]する",
-     "vi": "du học Nhật"
-    }
-   ],
-   "rel": [
-    {
-     "w": "留学生[りゅうがくせい]",
-     "vi": "du học sinh"
-    }
-   ]
-  },
-  {
-   "id": "v:学歴:がくれき",
-   "kana": "がくれき",
-   "kanji": "学歴",
-   "hv": "HỌC LỊCH",
-   "vi": "học vấn, trình độ học vấn",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "履歴書[りれきしょ]に、学歴[がくれき]を書[か]いてください。",
-     "vi": "Hãy ghi quá trình học vấn vào sơ yếu lý lịch.",
-     "ctx": "thutuc"
+      "id": "v:留学:りゅうがく",
+      "kana": "りゅうがく",
+      "kanji": "留学",
+      "hv": "LƯU HỌC",
+      "vi": "du học",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "弟[おとうと]は、日本[にほん]に留学[りゅうがく]したいと言[い]っています。",
+          "vi": "Em trai bạn tôi nói muốn du học Nhật.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "留学[りゅうがく]ビザと特定[とくてい]技能[ぎのう]ビザは、違[ちが]います。",
+          "vi": "Visa du học và visa kỹ năng đặc định khác nhau.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "日本[にほん]に留学[りゅうがく]する",
+          "vi": "du học Nhật"
+        }
+      ],
+      "rel": [
+        {
+          "w": "留学生[りゅうがくせい]",
+          "vi": "du học sinh"
+        }
+      ]
     },
     {
-     "jp": "この仕事[しごと]は、学歴[がくれき]は関係[かんけい]ありません。",
-     "vi": "Công việc này không quan trọng bằng cấp.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "履歴書[りれきしょ] có hai mục: 学歴[がくれき] (học vấn) và 職歴[しょくれき] (kinh nghiệm làm việc)."
-  },
-  {
-   "id": "v:知識:ちしき",
-   "kana": "ちしき",
-   "kanji": "知識",
-   "hv": "TRI THỨC",
-   "vi": "kiến thức",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "魚[さかな]の知識[ちしき]が、だんだん増[ふ]えてきました。",
-     "vi": "Kiến thức về cá dần dần nhiều lên.",
-     "ctx": "xuong"
+      "id": "v:学歴:がくれき",
+      "kana": "がくれき",
+      "kanji": "学歴",
+      "hv": "HỌC LỊCH",
+      "vi": "học vấn, trình độ học vấn",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "履歴書[りれきしょ]に、学歴[がくれき]を書[か]いてください。",
+          "vi": "Hãy ghi quá trình học vấn vào sơ yếu lý lịch.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "この仕事[しごと]は、学歴[がくれき]は関係[かんけい]ありません。",
+          "vi": "Công việc này không quan trọng bằng cấp.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "履歴書[りれきしょ] có hai mục: 学歴[がくれき] (học vấn) và 職歴[しょくれき] (kinh nghiệm làm việc)."
     },
     {
-     "jp": "日本[にほん]の生活[せいかつ]の知識[ちしき]は、本[ほん]で勉強[べんきょう]しました。",
-     "vi": "Kiến thức đời sống ở Nhật tôi học qua sách.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:理解:りかい",
-   "kana": "りかい",
-   "kanji": "理解",
-   "hv": "LÝ GIẢI",
-   "vi": "hiểu, lý giải",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "説明[せつめい]を聞[き]いて、よく理解[りかい]しました。",
-     "vi": "Nghe giải thích, tôi đã hiểu rõ.",
-     "ctx": "xuong"
+      "id": "v:知識:ちしき",
+      "kana": "ちしき",
+      "kanji": "知識",
+      "hv": "TRI THỨC",
+      "vi": "kiến thức",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "魚[さかな]の知識[ちしき]が、だんだん増[ふ]えてきました。",
+          "vi": "Kiến thức về cá dần dần nhiều lên.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本[にほん]の生活[せいかつ]の知識[ちしき]は、本[ほん]で勉強[べんきょう]しました。",
+          "vi": "Kiến thức đời sống ở Nhật tôi học qua sách.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "日本[にほん]の文化[ぶんか]を理解[りかい]するのは、時間[じかん]がかかります。",
-     "vi": "Hiểu văn hóa Nhật thì mất thời gian.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "意味[いみ]を理解[りかい]する",
-     "vi": "hiểu ý nghĩa"
-    }
-   ],
-   "syn": [
-    "v:わかる:わかる"
-   ]
-  },
-  {
-   "id": "v:上達:じょうたつ",
-   "kana": "じょうたつ",
-   "kanji": "上達",
-   "hv": "THƯỢNG ĐẠT",
-   "vi": "tiến bộ (kỹ năng)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "毎日[まいにち]練習[れんしゅう]して、包丁[ほうちょう]が上達[じょうたつ]しました。",
-     "vi": "Luyện tập hằng ngày nên tay dao tiến bộ.",
-     "ctx": "xuong"
+      "id": "v:理解:りかい",
+      "kana": "りかい",
+      "kanji": "理解",
+      "hv": "LÝ GIẢI",
+      "vi": "hiểu, lý giải",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "説明[せつめい]を聞[き]いて、よく理解[りかい]しました。",
+          "vi": "Nghe giải thích, tôi đã hiểu rõ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本[にほん]の文化[ぶんか]を理解[りかい]するのは、時間[じかん]がかかります。",
+          "vi": "Hiểu văn hóa Nhật thì mất thời gian.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "意味[いみ]を理解[りかい]する",
+          "vi": "hiểu ý nghĩa"
+        }
+      ],
+      "syn": [
+        "v:わかる:わかる"
+      ]
     },
     {
-     "jp": "日本語[にほんご]の上達[じょうたつ]には、話[はな]すことが大切[たいせつ]です。",
-     "vi": "Để tiếng Nhật tiến bộ, nói là điều quan trọng.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "日本語[にほんご]が上達[じょうたつ]する",
-     "vi": "tiếng Nhật tiến bộ"
-    }
-   ]
-  },
-  {
-   "id": "v:課題:かだい",
-   "kana": "かだい",
-   "kanji": "課題",
-   "hv": "KHÓA ĐỀ",
-   "vi": "bài tập, vấn đề cần giải quyết",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "来週[らいしゅう]までの課題[かだい]を出[だ]してください。",
-     "vi": "Hãy nộp bài tập hạn tuần sau.",
-     "ctx": "doisong"
+      "id": "v:上達:じょうたつ",
+      "kana": "じょうたつ",
+      "kanji": "上達",
+      "hv": "THƯỢNG ĐẠT",
+      "vi": "tiến bộ (kỹ năng)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎日[まいにち]練習[れんしゅう]して、包丁[ほうちょう]が上達[じょうたつ]しました。",
+          "vi": "Luyện tập hằng ngày nên tay dao tiến bộ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本語[にほんご]の上達[じょうたつ]には、話[はな]すことが大切[たいせつ]です。",
+          "vi": "Để tiếng Nhật tiến bộ, nói là điều quan trọng.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "日本語[にほんご]が上達[じょうたつ]する",
+          "vi": "tiếng Nhật tiến bộ"
+        }
+      ]
     },
     {
-     "jp": "人[ひと]が足[た]りないことが、工場[こうじょう]の課題[かだい]です。",
-     "vi": "Thiếu người là vấn đề của nhà máy.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:中学:ちゅうがく",
-   "kana": "ちゅうがく",
-   "kanji": "中学",
-   "hv": "TRUNG HỌC",
-   "vi": "cấp hai, trung học cơ sở",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "中学[ちゅうがく]で、英語[えいご]を勉強[べんきょう]しました。",
-     "vi": "Hồi cấp hai tôi học tiếng Anh.",
-     "ctx": "doisong"
+      "id": "v:課題:かだい",
+      "kana": "かだい",
+      "kanji": "課題",
+      "hv": "KHÓA ĐỀ",
+      "vi": "bài tập, vấn đề cần giải quyết",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来週[らいしゅう]までの課題[かだい]を出[だ]してください。",
+          "vi": "Hãy nộp bài tập hạn tuần sau.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "人[ひと]が足[た]りないことが、工場[こうじょう]の課題[かだい]です。",
+          "vi": "Thiếu người là vấn đề của nhà máy.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "田中[たなか]さんの息子[むすこ]は、中学[ちゅうがく]一年[いちねん]生[せい]です。",
-     "vi": "Con trai anh Tanaka học lớp 7.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "中学校[ちゅうがっこう] viết tắt. Lớp 7–9 ở Việt Nam = 中学[ちゅうがく]1〜3年[ねん]."
-  },
-  {
-   "id": "v:選択:せんたく",
-   "kana": "せんたく",
-   "kanji": "選択",
-   "hv": "TUYỂN TRẠCH",
-   "vi": "lựa chọn",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "正[ただ]しい答[こた]えを選択[せんたく]してください。",
-     "vi": "Hãy chọn đáp án đúng.",
-     "ctx": "doisong"
+      "id": "v:中学:ちゅうがく",
+      "kana": "ちゅうがく",
+      "kanji": "中学",
+      "hv": "TRUNG HỌC",
+      "vi": "cấp hai, trung học cơ sở",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "中学[ちゅうがく]で、英語[えいご]を勉強[べんきょう]しました。",
+          "vi": "Hồi cấp hai tôi học tiếng Anh.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "田中[たなか]さんの息子[むすこ]は、中学[ちゅうがく]一年[いちねん]生[せい]です。",
+          "vi": "Con trai anh Tanaka học lớp 7.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "中学校[ちゅうがっこう] viết tắt. Lớp 7–9 ở Việt Nam = 中学[ちゅうがく]1〜3年[ねん]."
     },
     {
-     "jp": "言語[げんご]の選択[せんたく]は、画面[がめん]の右上[みぎうえ]です。",
-     "vi": "Chọn ngôn ngữ ở góc phải trên màn hình.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "答[こた]えを選択[せんたく]する",
-     "vi": "chọn đáp án"
-    }
-   ],
-   "syn": [
-    "v:選ぶ:えらぶ"
-   ],
-   "confuse": [
-    "v:洗濯:せんたく"
-   ]
-  },
-  {
-   "id": "v:正確:せいかく",
-   "kana": "せいかく",
-   "kanji": "正確",
-   "hv": "CHÍNH XÁC",
-   "vi": "chuẩn xác",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "重[おも]さを正確[せいかく]に量[はか]ってください。",
-     "vi": "Hãy cân khối lượng cho chính xác.",
-     "ctx": "xuong"
+      "id": "v:選択:せんたく",
+      "kana": "せんたく",
+      "kanji": "選択",
+      "hv": "TUYỂN TRẠCH",
+      "vi": "lựa chọn",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "正[ただ]しい答[こた]えを選択[せんたく]してください。",
+          "vi": "Hãy chọn đáp án đúng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "言語[げんご]の選択[せんたく]は、画面[がめん]の右上[みぎうえ]です。",
+          "vi": "Chọn ngôn ngữ ở góc phải trên màn hình.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "答[こた]えを選択[せんたく]する",
+          "vi": "chọn đáp án"
+        }
+      ],
+      "syn": [
+        "v:選ぶ:えらぶ"
+      ],
+      "confuse": [
+        "v:洗濯:せんたく"
+      ]
     },
     {
-     "jp": "住所[じゅうしょ]は、正確[せいかく]に書[か]いてください。",
-     "vi": "Địa chỉ hãy ghi chính xác.",
-     "ctx": "thutuc"
-    }
-   ],
-   "confuse": [
-    {
-     "w": "性格[せいかく]",
-     "vi": "tính cách"
-    }
-   ]
-  },
-  {
-   "id": "v:基本:きほん",
-   "kana": "きほん",
-   "kanji": "基本",
-   "hv": "CƠ BẢN",
-   "vi": "cơ bản, cơ sở",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "挨拶[あいさつ]は、仕事[しごと]の基本[きほん]です。",
-     "vi": "Chào hỏi là điều cơ bản của công việc.",
-     "ctx": "xuong"
+      "id": "v:正確:せいかく",
+      "kana": "せいかく",
+      "kanji": "正確",
+      "hv": "CHÍNH XÁC",
+      "vi": "chuẩn xác",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "重[おも]さを正確[せいかく]に量[はか]ってください。",
+          "vi": "Hãy cân khối lượng cho chính xác.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "住所[じゅうしょ]は、正確[せいかく]に書[か]いてください。",
+          "vi": "Địa chỉ hãy ghi chính xác.",
+          "ctx": "thutuc"
+        }
+      ],
+      "confuse": [
+        {
+          "w": "性格[せいかく]",
+          "vi": "tính cách"
+        }
+      ]
     },
     {
-     "jp": "まず、基本[きほん]の文法[ぶんぽう]を覚[おぼ]えましょう。",
-     "vi": "Trước hết hãy nhớ ngữ pháp cơ bản.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "基本的[きほんてき]に = về cơ bản."
-  },
-  {
-   "id": "v:例:れい",
-   "kana": "れい",
-   "kanji": "例",
-   "hv": "LỆ",
-   "vi": "ví dụ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "例[れい]を見[み]て、同[おな]じように書[か]いてください。",
-     "vi": "Xem ví dụ rồi viết giống vậy.",
-     "ctx": "thutuc"
+      "id": "v:基本:きほん",
+      "kana": "きほん",
+      "kanji": "基本",
+      "hv": "CƠ BẢN",
+      "vi": "cơ bản, cơ sở",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "挨拶[あいさつ]は、仕事[しごと]の基本[きほん]です。",
+          "vi": "Chào hỏi là điều cơ bản của công việc.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "まず、基本[きほん]の文法[ぶんぽう]を覚[おぼ]えましょう。",
+          "vi": "Trước hết hãy nhớ ngữ pháp cơ bản.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "基本的[きほんてき]に = về cơ bản."
     },
     {
-     "jp": "一[ひと]つ例[れい]を挙[あ]げます。",
-     "vi": "Tôi nêu một ví dụ.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "例[たと]えば = ví dụ như. 例[れい]の件[けん] = việc đó (cả hai đều biết)."
-  },
-  {
-   "id": "v:例外:れいがい",
-   "kana": "れいがい",
-   "kanji": "例外",
-   "hv": "LỆ NGOẠI",
-   "vi": "ngoại lệ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この規則[きそく]には、例外[れいがい]がありません。",
-     "vi": "Quy tắc này không có ngoại lệ.",
-     "ctx": "xuong"
+      "id": "v:例:れい",
+      "kana": "れい",
+      "kanji": "例",
+      "hv": "LỆ",
+      "vi": "ví dụ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "例[れい]を見[み]て、同[おな]じように書[か]いてください。",
+          "vi": "Xem ví dụ rồi viết giống vậy.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "一[ひと]つ例[れい]を挙[あ]げます。",
+          "vi": "Tôi nêu một ví dụ.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "例[たと]えば = ví dụ như. 例[れい]の件[けん] = việc đó (cả hai đều biết)."
     },
     {
-     "jp": "日本語[にほんご]の文法[ぶんぽう]には、例外[れいがい]も多[おお]いです。",
-     "vi": "Ngữ pháp tiếng Nhật cũng nhiều ngoại lệ.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:省略:しょうりゃく",
-   "kana": "しょうりゃく",
-   "kanji": "省略",
-   "hv": "TỈNH LƯỢC",
-   "vi": "lược bỏ, viết tắt",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "説明[せつめい]は、省略[しょうりゃく]します。",
-     "vi": "Phần giải thích xin lược bỏ.",
-     "ctx": "xuong"
+      "id": "v:例外:れいがい",
+      "kana": "れいがい",
+      "kanji": "例外",
+      "hv": "LỆ NGOẠI",
+      "vi": "ngoại lệ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この規則[きそく]には、例外[れいがい]がありません。",
+          "vi": "Quy tắc này không có ngoại lệ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本語[にほんご]の文法[ぶんぽう]には、例外[れいがい]も多[おお]いです。",
+          "vi": "Ngữ pháp tiếng Nhật cũng nhiều ngoại lệ.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "会話[かいわ]では、主語[しゅご]をよく省略[しょうりゃく]します。",
-     "vi": "Trong hội thoại hay lược chủ ngữ.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "説明[せつめい]を省略[しょうりゃく]する",
-     "vi": "lược bớt giải thích"
-    }
-   ],
-   "rel": [
-    "v:省く:はぶく"
-   ]
-  },
-  {
-   "id": "v:表現:ひょうげん",
-   "kana": "ひょうげん",
-   "kanji": "表現",
-   "hv": "BIỂU HIỆN",
-   "vi": "cách diễn đạt, biểu hiện",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この表現[ひょうげん]は、目上[めうえ]の人[ひと]には使[つか]いません。",
-     "vi": "Cách nói này không dùng với người trên.",
-     "ctx": "doisong"
+      "id": "v:省略:しょうりゃく",
+      "kana": "しょうりゃく",
+      "kanji": "省略",
+      "hv": "TỈNH LƯỢC",
+      "vi": "lược bỏ, viết tắt",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "説明[せつめい]は、省略[しょうりゃく]します。",
+          "vi": "Phần giải thích xin lược bỏ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "会話[かいわ]では、主語[しゅご]をよく省略[しょうりゃく]します。",
+          "vi": "Trong hội thoại hay lược chủ ngữ.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "説明[せつめい]を省略[しょうりゃく]する",
+          "vi": "lược bớt giải thích"
+        }
+      ],
+      "rel": [
+        "v:省く:はぶく"
+      ]
     },
     {
-     "jp": "気持[きも]ちを日本語[にほんご]で表現[ひょうげん]するのは、難[むずか]しい。",
-     "vi": "Diễn đạt cảm xúc bằng tiếng Nhật thì khó.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "気持[きも]ちを表現[ひょうげん]する",
-     "vi": "diễn đạt cảm xúc"
-    }
-   ],
-   "rel": [
-    "v:表す:あらわす"
-   ]
-  },
-  {
-   "id": "v:要点:ようてん",
-   "kana": "ようてん",
-   "kanji": "要点",
-   "hv": "YẾU ĐIỂM",
-   "vi": "điểm chính, ý chính",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "話[はなし]の要点[ようてん]をメモしてください。",
-     "vi": "Hãy ghi lại ý chính của câu chuyện.",
-     "ctx": "xuong"
+      "id": "v:表現:ひょうげん",
+      "kana": "ひょうげん",
+      "kanji": "表現",
+      "hv": "BIỂU HIỆN",
+      "vi": "diễn đạt, biểu hiện; cách diễn đạt",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この表現[ひょうげん]は、目上[めうえ]の人[ひと]には使[つか]いません。",
+          "vi": "Cách nói này không dùng với người trên.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "気持[きも]ちを日本語[にほんご]で表現[ひょうげん]するのは、難[むずか]しい。",
+          "vi": "Diễn đạt cảm xúc bằng tiếng Nhật thì khó.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "気持[きも]ちを表現[ひょうげん]する",
+          "vi": "diễn đạt cảm xúc"
+        }
+      ],
+      "rel": [
+        "v:表す:あらわす"
+      ]
     },
     {
-     "jp": "要点[ようてん]だけ、短[みじか]く説明[せつめい]します。",
-     "vi": "Tôi giải thích ngắn gọn chỉ ý chính.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:参考:さんこう",
-   "kana": "さんこう",
-   "kanji": "参考",
-   "hv": "THAM KHẢO",
-   "vi": "tham khảo",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この本[ほん]を参考[さんこう]にして、作文[さくぶん]を書[か]きました。",
-     "vi": "Tôi tham khảo cuốn sách này để viết bài văn.",
-     "ctx": "doisong"
+      "id": "v:要点:ようてん",
+      "kana": "ようてん",
+      "kanji": "要点",
+      "hv": "YẾU ĐIỂM",
+      "vi": "điểm chính, ý chính",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "話[はなし]の要点[ようてん]をメモしてください。",
+          "vi": "Hãy ghi lại ý chính của câu chuyện.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "要点[ようてん]だけ、短[みじか]く説明[せつめい]します。",
+          "vi": "Tôi giải thích ngắn gọn chỉ ý chính.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "先輩[せんぱい]のやり方[かた]は、とても参考[さんこう]になります。",
-     "vi": "Cách làm của tiền bối rất đáng tham khảo.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "参考[さんこう]にする",
-     "vi": "tham khảo"
-    }
-   ],
-   "note": "参考[さんこう]になる = có ích để tham khảo."
-  },
-  {
-   "id": "v:一般:いっぱん",
-   "kana": "いっぱん",
-   "kanji": "一般",
-   "hv": "NHẤT BAN",
-   "vi": "nói chung, phổ thông",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "一般[いっぱん]の人[ひと]は、この部屋[へや]に入[い]れません。",
-     "vi": "Người ngoài không vào được phòng này.",
-     "ctx": "xuong"
+      "id": "v:参考:さんこう",
+      "kana": "さんこう",
+      "kanji": "参考",
+      "hv": "THAM KHẢO",
+      "vi": "tham khảo",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この本[ほん]を参考[さんこう]にして、作文[さくぶん]を書[か]きました。",
+          "vi": "Tôi tham khảo cuốn sách này để viết bài văn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "先輩[せんぱい]のやり方[かた]は、とても参考[さんこう]になります。",
+          "vi": "Cách làm của tiền bối rất đáng tham khảo.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "参考[さんこう]にする",
+          "vi": "tham khảo"
+        }
+      ],
+      "note": "参考[さんこう]になる = có ích để tham khảo."
     },
     {
-     "jp": "一般[いっぱん]に、日本人[にほんじん]は時間[じかん]を守[まも]ります。",
-     "vi": "Nói chung người Nhật đúng giờ.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "一般的[いっぱんてき] = mang tính phổ biến."
-  },
-  {
-   "id": "v:詳しい:くわしい",
-   "kana": "くわしい",
-   "kanji": "詳しい",
-   "kf": "詳[くわ]しい",
-   "hv": "TƯỜNG",
-   "vi": "tường tận; rành (về)",
-   "pos": "adj-i",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "もう少[すこ]し詳[くわ]しく説明[せつめい]してください。",
-     "vi": "Hãy giải thích chi tiết hơn chút.",
-     "ctx": "xuong"
+      "id": "v:一般:いっぱん",
+      "kana": "いっぱん",
+      "kanji": "一般",
+      "hv": "NHẤT BAN",
+      "vi": "nói chung, phổ thông",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "一般[いっぱん]の人[ひと]は、この部屋[へや]に入[い]れません。",
+          "vi": "Người ngoài không vào được phòng này.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "一般[いっぱん]に、日本人[にほんじん]は時間[じかん]を守[まも]ります。",
+          "vi": "Nói chung người Nhật đúng giờ.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "一般的[いっぱんてき] = mang tính phổ biến."
     },
     {
-     "jp": "鈴木[すずき]さんは、魚[さかな]に詳[くわ]しいです。",
-     "vi": "Anh Suzuki rất rành về cá.",
-     "ctx": "doisong"
+      "id": "v:詳しい:くわしい",
+      "kana": "くわしい",
+      "kanji": "詳しい",
+      "kf": "詳[くわ]しい",
+      "hv": "TƯỜNG",
+      "vi": "tường tận; rành (về)",
+      "pos": "adj-i",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "もう少[すこ]し詳[くわ]しく説明[せつめい]してください。",
+          "vi": "Hãy giải thích chi tiết hơn chút.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "鈴木[すずき]さんは、魚[さかな]に詳[くわ]しいです。",
+          "vi": "Anh Suzuki rất rành về cá.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "詳[くわ]しいことは、窓口[まどぐち]で聞[き]いてください。",
+          "vi": "Chi tiết xin hỏi ở quầy.",
+          "ctx": "thutuc"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "説明[せつめい]",
+          "vi": "giải thích"
+        },
+        {
+          "jp": "地図[ちず]",
+          "vi": "bản đồ"
+        }
+      ],
+      "ant": [
+        {
+          "w": "簡単[かんたん]",
+          "vi": "đơn giản"
+        }
+      ],
+      "note": "〜に詳[くわ]しい = rành về …."
     },
     {
-     "jp": "詳[くわ]しいことは、窓口[まどぐち]で聞[き]いてください。",
-     "vi": "Chi tiết xin hỏi ở quầy.",
-     "ctx": "thutuc"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "説明[せつめい]",
-     "vi": "giải thích"
+      "id": "v:再び:ふたたび",
+      "kana": "ふたたび",
+      "kanji": "再び",
+      "kf": "再[ふたた]び",
+      "hv": "TÁI",
+      "vi": "lại lần nữa (văn viết)",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "再[ふたた]び同[おな]じミスをしないように、気[き]をつけます。",
+          "vi": "Tôi sẽ cẩn thận để không mắc lại lỗi cũ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "地震[じしん]の後[あと]、再[ふたた]び電気[でんき]がつきました。",
+          "vi": "Sau động đất, điện lại có lần nữa.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:また:また"
+      ],
+      "note": "Văn viết. Nói thường: また, もう一度[いちど]."
     },
     {
-     "jp": "地図[ちず]",
-     "vi": "bản đồ"
-    }
-   ],
-   "ant": [
-    {
-     "w": "簡単[かんたん]",
-     "vi": "đơn giản"
-    }
-   ],
-   "note": "〜に詳[くわ]しい = rành về …."
-  },
-  {
-   "id": "v:再び:ふたたび",
-   "kana": "ふたたび",
-   "kanji": "再び",
-   "kf": "再[ふたた]び",
-   "hv": "TÁI",
-   "vi": "lại lần nữa (văn viết)",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "再[ふたた]び同[おな]じミスをしないように、気[き]をつけます。",
-     "vi": "Tôi sẽ cẩn thận để không mắc lại lỗi cũ.",
-     "ctx": "xuong"
+      "id": "v:正式:せいしき",
+      "kana": "せいしき",
+      "kanji": "正式",
+      "hv": "CHÍNH THỨC",
+      "vi": "chính thức",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来月[らいげつ]から、正式[せいしき]に社員[しゃいん]になります。",
+          "vi": "Từ tháng sau tôi chính thức là nhân viên.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "正式[せいしき]な名前[なまえ]を書[か]いてください。",
+          "vi": "Hãy ghi tên chính thức.",
+          "ctx": "thutuc"
+        }
+      ]
     },
     {
-     "jp": "地震[じしん]の後[あと]、再[ふたた]び電気[でんき]がつきました。",
-     "vi": "Sau động đất, điện lại có lần nữa.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:また:また"
-   ],
-   "note": "Văn viết. Nói thường: また, もう一度[いちど]."
-  },
-  {
-   "id": "v:正式:せいしき",
-   "kana": "せいしき",
-   "kanji": "正式",
-   "hv": "CHÍNH THỨC",
-   "vi": "chính thức",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "来月[らいげつ]から、正式[せいしき]に社員[しゃいん]になります。",
-     "vi": "Từ tháng sau tôi chính thức là nhân viên.",
-     "ctx": "xuong"
+      "id": "v:新た:あらた",
+      "kana": "あらた",
+      "kanji": "新た",
+      "kf": "新[あら]た",
+      "hv": "TÂN",
+      "vi": "mới mẻ (văn viết)",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新[あら]たな目標[もくひょう]を立[た]てました。",
+          "vi": "Tôi đặt ra mục tiêu mới.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "新[あら]たに二人[ふたり]、工場[こうじょう]に入[はい]りました。",
+          "vi": "Có thêm hai người mới vào nhà máy.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "新[あら]たに = mới, thêm mới (văn viết)."
     },
     {
-     "jp": "正式[せいしき]な名前[なまえ]を書[か]いてください。",
-     "vi": "Hãy ghi tên chính thức.",
-     "ctx": "thutuc"
-    }
-   ]
-  },
-  {
-   "id": "v:新た:あらた",
-   "kana": "あらた",
-   "kanji": "新た",
-   "kf": "新[あら]た",
-   "hv": "TÂN",
-   "vi": "mới mẻ (văn viết)",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "新[あら]たな目標[もくひょう]を立[た]てました。",
-     "vi": "Tôi đặt ra mục tiêu mới.",
-     "ctx": "doisong"
+      "id": "v:主に:おもに",
+      "kana": "おもに",
+      "kanji": "主に",
+      "kf": "主[おも]に",
+      "hv": "CHỦ",
+      "vi": "chủ yếu",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "主[おも]に、魚[さかな]をさばく仕事[しごと]をしています。",
+          "vi": "Tôi chủ yếu làm việc lọc cá.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "休[やす]みの日[ひ]は、主[おも]に家[いえ]で勉強[べんきょう]しています。",
+          "vi": "Ngày nghỉ chủ yếu tôi học ở nhà.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "新[あら]たに二人[ふたり]、工場[こうじょう]に入[はい]りました。",
-     "vi": "Có thêm hai người mới vào nhà máy.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "新[あら]たに = mới, thêm mới (văn viết)."
-  },
-  {
-   "id": "v:主に:おもに",
-   "kana": "おもに",
-   "kanji": "主に",
-   "kf": "主[おも]に",
-   "hv": "CHỦ",
-   "vi": "chủ yếu",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "主[おも]に、魚[さかな]をさばく仕事[しごと]をしています。",
-     "vi": "Tôi chủ yếu làm việc lọc cá.",
-     "ctx": "xuong"
+      "id": "v:図:ず",
+      "kana": "ず",
+      "kanji": "図",
+      "hv": "ĐỒ",
+      "vi": "hình vẽ, sơ đồ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "図[ず]を見[み]ながら、説明[せつめい]を聞[き]いてください。",
+          "vi": "Vừa xem hình vừa nghe giải thích.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "次[つぎ]の図[ず]は、工場[こうじょう]の中[なか]を表[あらわ]しています。",
+          "vi": "Hình sau thể hiện bên trong nhà máy.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "地図[ちず] = bản đồ."
     },
     {
-     "jp": "休[やす]みの日[ひ]は、主[おも]に家[いえ]で勉強[べんきょう]しています。",
-     "vi": "Ngày nghỉ chủ yếu tôi học ở nhà.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:図:ず",
-   "kana": "ず",
-   "kanji": "図",
-   "hv": "ĐỒ",
-   "vi": "hình vẽ, sơ đồ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "図[ず]を見[み]ながら、説明[せつめい]を聞[き]いてください。",
-     "vi": "Vừa xem hình vừa nghe giải thích.",
-     "ctx": "xuong"
+      "id": "v:区別:くべつ",
+      "kana": "くべつ",
+      "kanji": "区別",
+      "hv": "KHU BIỆT",
+      "vi": "phân biệt",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "「シ」と「ツ」の区別[くべつ]が難[むずか]しいです。",
+          "vi": "Khó phân biệt \"shi\" và \"tsu\".",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "生[なま]の魚[さかな]と焼[や]いた魚[さかな]は、区別[くべつ]して置[お]いてください。",
+          "vi": "Cá sống và cá nướng hãy để riêng.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "AとBを区別[くべつ]する",
+          "vi": "phân biệt A với B"
+        }
+      ]
     },
     {
-     "jp": "次[つぎ]の図[ず]は、工場[こうじょう]の中[なか]を表[あらわ]しています。",
-     "vi": "Hình sau thể hiện bên trong nhà máy.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "地図[ちず] = bản đồ."
-  },
-  {
-   "id": "v:区別:くべつ",
-   "kana": "くべつ",
-   "kanji": "区別",
-   "hv": "KHU BIỆT",
-   "vi": "phân biệt",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "「シ」と「ツ」の区別[くべつ]が難[むずか]しいです。",
-     "vi": "Khó phân biệt \"shi\" và \"tsu\".",
-     "ctx": "doisong"
+      "id": "v:知恵:ちえ",
+      "kana": "ちえ",
+      "kanji": "知恵",
+      "hv": "TRI HUỆ",
+      "vi": "trí khôn, mẹo hay",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "みんなで知恵[ちえ]を出[だ]して、問題[もんだい]を解決[かいけつ]しました。",
+          "vi": "Mọi người cùng góp ý hay để giải quyết vấn đề.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "生活[せいかつ]の知恵[ちえ]を、おばあさんに教[おそ]わりました。",
+          "vi": "Tôi được bà dạy mẹo hay trong cuộc sống.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "知恵[ちえ]を出[だ]す",
+          "vi": "góp mẹo, nghĩ cách"
+        }
+      ]
     },
     {
-     "jp": "生[なま]の魚[さかな]と焼[や]いた魚[さかな]は、区別[くべつ]して置[お]いてください。",
-     "vi": "Cá sống và cá nướng hãy để riêng.",
-     "ctx": "xuong"
+      "id": "v:通学:つうがく",
+      "kana": "つうがく",
+      "kanji": "通学",
+      "hv": "THÔNG HỌC",
+      "vi": "đi học (hằng ngày)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Học tập",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "自転車[じてんしゃ]で通学[つうがく]しています。",
+          "vi": "Tôi đi học bằng xe đạp.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "朝[あさ]は、通学[つうがく]の子[こ]どもが多[おお]いです。",
+          "vi": "Buổi sáng nhiều trẻ đi học.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "自転車[じてんしゃ]で通学[つうがく]する",
+          "vi": "đi học bằng xe đạp"
+        }
+      ],
+      "rel": [
+        {
+          "w": "通勤[つうきん]",
+          "vi": "đi làm (hằng ngày)"
+        }
+      ]
     }
-   ],
-   "coll": [
-    {
-     "jp": "AとBを区別[くべつ]する",
-     "vi": "phân biệt A với B"
-    }
-   ]
-  },
-  {
-   "id": "v:知恵:ちえ",
-   "kana": "ちえ",
-   "kanji": "知恵",
-   "hv": "TRI HUỆ",
-   "vi": "trí khôn, mẹo hay",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "みんなで知恵[ちえ]を出[だ]して、問題[もんだい]を解決[かいけつ]しました。",
-     "vi": "Mọi người cùng góp ý hay để giải quyết vấn đề.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "生活[せいかつ]の知恵[ちえ]を、おばあさんに教[おそ]わりました。",
-     "vi": "Tôi được bà dạy mẹo hay trong cuộc sống.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "知恵[ちえ]を出[だ]す",
-     "vi": "góp mẹo, nghĩ cách"
-    }
-   ]
-  },
-  {
-   "id": "v:通学:つうがく",
-   "kana": "つうがく",
-   "kanji": "通学",
-   "hv": "THÔNG HỌC",
-   "vi": "đi học (hằng ngày)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Học tập",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "自転車[じてんしゃ]で通学[つうがく]しています。",
-     "vi": "Tôi đi học bằng xe đạp.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "朝[あさ]は、通学[つうがく]の子[こ]どもが多[おお]いです。",
-     "vi": "Buổi sáng nhiều trẻ đi học.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "自転車[じてんしゃ]で通学[つうがく]する",
-     "vi": "đi học bằng xe đạp"
-    }
-   ],
-   "rel": [
-    {
-     "w": "通勤[つうきん]",
-     "vi": "đi làm (hằng ngày)"
-    }
-   ]
-  }
- ]
+  ]
 }

@@ -1,956 +1,956 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n3-33",
-  "title": "JLPT N3 33 – Cố gắng & thử thách",
-  "type": "vocab",
-  "level": "N3",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 1,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:努力:どりょく",
-   "kana": "どりょく",
-   "kanji": "努力",
-   "hv": "NỖ LỰC",
-   "vi": "nỗ lực",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "毎日[まいにち]の努力[どりょく]が、大切[たいせつ]です。",
-     "vi": "Nỗ lực hằng ngày là quan trọng.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "N2合格[ごうかく]を目指[めざ]して、努力[どりょく]しています。",
-     "vi": "Tôi đang nỗ lực nhắm tới đỗ N2.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:頑張る:がんばる"
-   ]
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n3-33",
+    "title": "JLPT N3 33 – Cố gắng & thử thách",
+    "type": "vocab",
+    "level": "N3",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:挑戦:ちょうせん",
-   "kana": "ちょうせん",
-   "kanji": "挑戦",
-   "hv": "KHIÊU CHIẾN",
-   "vi": "dám thử sức, thử thách",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "新[あたら]しい仕事[しごと]に、挑戦[ちょうせん]したいです。",
-     "vi": "Tôi muốn thử sức với công việc mới.",
-     "ctx": "xuong"
+      "id": "v:努力:どりょく",
+      "kana": "どりょく",
+      "kanji": "努力",
+      "hv": "NỖ LỰC",
+      "vi": "nỗ lực",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎日[まいにち]の努力[どりょく]が、大切[たいせつ]です。",
+          "vi": "Nỗ lực hằng ngày là quan trọng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "N2合格[ごうかく]を目指[めざ]して、努力[どりょく]しています。",
+          "vi": "Tôi đang nỗ lực nhắm tới đỗ N2.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:頑張る:がんばる"
+      ]
     },
     {
-     "jp": "日本語[にほんご]能力[のうりょく]試験[しけん]に、挑戦[ちょうせん]します。",
-     "vi": "Tôi thử sức với kỳ thi năng lực tiếng Nhật.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "〜に挑戦[ちょうせん]する",
-     "vi": "thử sức với …"
-    }
-   ]
-  },
-  {
-   "id": "v:苦労:くろう",
-   "kana": "くろう",
-   "kanji": "苦労",
-   "hv": "KHỔ LAO",
-   "vi": "gian khổ, chịu vất vả",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]に来[き]たばかりの時[とき]は、苦労[くろう]しました。",
-     "vi": "Hồi mới sang Nhật tôi đã chịu nhiều vất vả.",
-     "ctx": "doisong"
+      "id": "v:挑戦:ちょうせん",
+      "kana": "ちょうせん",
+      "kanji": "挑戦",
+      "hv": "KHIÊU CHIẾN",
+      "vi": "dám thử sức, thử thách",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新[あたら]しい仕事[しごと]に、挑戦[ちょうせん]したいです。",
+          "vi": "Tôi muốn thử sức với công việc mới.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本語[にほんご]能力[のうりょく]試験[しけん]に、挑戦[ちょうせん]します。",
+          "vi": "Tôi thử sức với kỳ thi năng lực tiếng Nhật.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "〜に挑戦[ちょうせん]する",
+          "vi": "thử sức với …"
+        }
+      ]
     },
     {
-     "jp": "苦労[くろう]して、免許[めんきょ]を取[と]りました。",
-     "vi": "Vất vả mới lấy được bằng.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "ご苦労[くろう]さま = vất vả rồi (người trên nói với người dưới)."
-  },
-  {
-   "id": "v:困難:こんなん",
-   "kana": "こんなん",
-   "kanji": "困難",
-   "hv": "KHỐN NAN",
-   "vi": "gian nan (văn viết)",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "困難[こんなん]な状況[じょうきょう]でも、あきらめません。",
-     "vi": "Dù tình huống gian nan cũng không bỏ cuộc.",
-     "ctx": "doisong"
+      "id": "v:苦労:くろう",
+      "kana": "くろう",
+      "kanji": "苦労",
+      "hv": "KHỔ LAO",
+      "vi": "vất vả, chịu khổ; sự gian khổ",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]に来[き]たばかりの時[とき]は、苦労[くろう]しました。",
+          "vi": "Hồi mới sang Nhật tôi đã chịu nhiều vất vả.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "苦労[くろう]して、免許[めんきょ]を取[と]りました。",
+          "vi": "Vất vả mới lấy được bằng.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "ご苦労[くろう]さま = vất vả rồi (người trên nói với người dưới)."
     },
     {
-     "jp": "一人[ひとり]で全部[ぜんぶ]やるのは、困難[こんなん]です。",
-     "vi": "Một mình làm hết là rất khó.",
-     "ctx": "xuong"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "状況[じょうきょう]",
-     "vi": "tình huống"
+      "id": "v:困難:こんなん",
+      "kana": "こんなん",
+      "kanji": "困難",
+      "hv": "KHỐN NAN",
+      "vi": "gian nan (văn viết)",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "困難[こんなん]な状況[じょうきょう]でも、あきらめません。",
+          "vi": "Dù tình huống gian nan cũng không bỏ cuộc.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "一人[ひとり]で全部[ぜんぶ]やるのは、困難[こんなん]です。",
+          "vi": "Một mình làm hết là rất khó.",
+          "ctx": "xuong"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "状況[じょうきょう]",
+          "vi": "tình huống"
+        },
+        {
+          "jp": "問題[もんだい]",
+          "vi": "vấn đề"
+        }
+      ],
+      "syn": [
+        "v:難しい:むずかしい"
+      ]
     },
     {
-     "jp": "問題[もんだい]",
-     "vi": "vấn đề"
-    }
-   ],
-   "syn": [
-    "v:難しい:むずかしい"
-   ]
-  },
-  {
-   "id": "v:必死:ひっし",
-   "kana": "ひっし",
-   "kanji": "必死",
-   "hv": "TẤT TỬ",
-   "vi": "liều mạng, bán sống bán chết",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "必死[ひっし]に走[はし]って、電車[でんしゃ]に間[ま]に合[あ]いました。",
-     "vi": "Chạy bán sống bán chết, kịp tàu.",
-     "ctx": "doisong"
+      "id": "v:必死:ひっし",
+      "kana": "ひっし",
+      "kanji": "必死",
+      "hv": "TẤT TỬ",
+      "vi": "liều mạng, bán sống bán chết",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "必死[ひっし]に走[はし]って、電車[でんしゃ]に間[ま]に合[あ]いました。",
+          "vi": "Chạy bán sống bán chết, kịp tàu.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "試験[しけん]の前[まえ]は、必死[ひっし]で勉強[べんきょう]しました。",
+          "vi": "Trước kỳ thi tôi học như điên.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "必死[ひっし]に / 必死[ひっし]で = dốc toàn lực."
     },
     {
-     "jp": "試験[しけん]の前[まえ]は、必死[ひっし]で勉強[べんきょう]しました。",
-     "vi": "Trước kỳ thi tôi học như điên.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "必死[ひっし]に / 必死[ひっし]で = dốc toàn lực."
-  },
-  {
-   "id": "v:優勝:ゆうしょう",
-   "kana": "ゆうしょう",
-   "kanji": "優勝",
-   "hv": "ƯU THẮNG",
-   "vi": "vô địch",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会社[かいしゃ]のサッカー大会[たいかい]で、優勝[ゆうしょう]しました。",
-     "vi": "Đội tôi vô địch giải bóng đá công ty.",
-     "ctx": "doisong"
+      "id": "v:優勝:ゆうしょう",
+      "kana": "ゆうしょう",
+      "kanji": "優勝",
+      "hv": "ƯU THẮNG",
+      "vi": "vô địch",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]のサッカー大会[たいかい]で、優勝[ゆうしょう]しました。",
+          "vi": "Đội tôi vô địch giải bóng đá công ty.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "優勝[ゆうしょう]したチームに、賞[しょう]が贈[おく]られます。",
+          "vi": "Đội vô địch được trao giải.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "優勝[ゆうしょう]したチームに、賞[しょう]が贈[おく]られます。",
-     "vi": "Đội vô địch được trao giải.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:大会:たいかい",
-   "kana": "たいかい",
-   "kanji": "大会",
-   "hv": "ĐẠI HỘI",
-   "vi": "giải đấu, đại hội",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "来月[らいげつ]、工場[こうじょう]の運動[うんどう]大会[たいかい]があります。",
-     "vi": "Tháng sau có hội thao của nhà máy.",
-     "ctx": "xuong"
+      "id": "v:大会:たいかい",
+      "kana": "たいかい",
+      "kanji": "大会",
+      "hv": "ĐẠI HỘI",
+      "vi": "giải đấu, đại hội",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来月[らいげつ]、工場[こうじょう]の運動[うんどう]大会[たいかい]があります。",
+          "vi": "Tháng sau có hội thao của nhà máy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "大会[たいかい]に出[で]るために、練習[れんしゅう]しています。",
+          "vi": "Đang luyện tập để dự giải.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "運動大会[うんどうたいかい] = hội thao."
     },
     {
-     "jp": "大会[たいかい]に出[で]るために、練習[れんしゅう]しています。",
-     "vi": "Đang luyện tập để dự giải.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "運動大会[うんどうたいかい] = hội thao."
-  },
-  {
-   "id": "v:選手:せんしゅ",
-   "kana": "せんしゅ",
-   "kanji": "選手",
-   "hv": "TUYỂN THỦ",
-   "vi": "tuyển thủ, vận động viên",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "好[す]きなサッカー選手[せんしゅ]は、誰[だれ]ですか。",
-     "vi": "Cầu thủ bóng đá bạn thích là ai?",
-     "ctx": "hoithoai"
+      "id": "v:選手:せんしゅ",
+      "kana": "せんしゅ",
+      "kanji": "選手",
+      "hv": "TUYỂN THỦ",
+      "vi": "tuyển thủ, vận động viên",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "好[す]きなサッカー選手[せんしゅ]は、誰[だれ]ですか。",
+          "vi": "Cầu thủ bóng đá bạn thích là ai?",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "彼[かれ]は、昔[むかし]、野球[やきゅう]の選手[せんしゅ]でした。",
+          "vi": "Anh ấy ngày xưa là cầu thủ bóng chày.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "彼[かれ]は、昔[むかし]、野球[やきゅう]の選手[せんしゅ]でした。",
-     "vi": "Anh ấy ngày xưa là cầu thủ bóng chày.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:勝ち:かち",
-   "kana": "かち",
-   "kanji": "勝ち",
-   "kf": "勝[か]ち",
-   "hv": "THẮNG",
-   "vi": "phần thắng, trận thắng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今日[きょう]の試合[しあい]は、私[わたし]たちの勝[か]ちです。",
-     "vi": "Trận hôm nay mình thắng.",
-     "ctx": "doisong"
+      "id": "v:勝ち:かち",
+      "kana": "かち",
+      "kanji": "勝ち",
+      "kf": "勝[か]ち",
+      "hv": "THẮNG",
+      "vi": "phần thắng, trận thắng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]の試合[しあい]は、私[わたし]たちの勝[か]ちです。",
+          "vi": "Trận hôm nay mình thắng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今年[ことし]は、勝[か]ちが多[おお]いです。",
+          "vi": "Năm nay thắng nhiều.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:負け:まけ"
+      ],
+      "rel": [
+        "v:勝つ:かつ"
+      ]
     },
     {
-     "jp": "今年[ことし]は、勝[か]ちが多[おお]いです。",
-     "vi": "Năm nay thắng nhiều.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:負け:まけ"
-   ],
-   "rel": [
-    "v:勝つ:かつ"
-   ]
-  },
-  {
-   "id": "v:負け:まけ",
-   "kana": "まけ",
-   "kanji": "負け",
-   "kf": "負[ま]け",
-   "hv": "PHỤ",
-   "vi": "phần thua, trận thua",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "負[ま]けを、認[みと]めます。",
-     "vi": "Tôi chịu thua.",
-     "ctx": "doisong"
+      "id": "v:負け:まけ",
+      "kana": "まけ",
+      "kanji": "負け",
+      "kf": "負[ま]け",
+      "hv": "PHỤ",
+      "vi": "phần thua, trận thua",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "負[ま]けを、認[みと]めます。",
+          "vi": "Tôi chịu thua.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今日[きょう]は、私[わたし]の負[ま]けです。",
+          "vi": "Hôm nay tôi thua rồi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:勝ち:かち"
+      ],
+      "rel": [
+        "v:負ける:まける"
+      ]
     },
     {
-     "jp": "今日[きょう]は、私[わたし]の負[ま]けです。",
-     "vi": "Hôm nay tôi thua rồi.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "ant": [
-    "v:勝ち:かち"
-   ],
-   "rel": [
-    "v:負ける:まける"
-   ]
-  },
-  {
-   "id": "v:応援:おうえん",
-   "kana": "おうえん",
-   "kanji": "応援",
-   "hv": "ỨNG VIỆN",
-   "vi": "cổ vũ, ủng hộ",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "家族[かぞく]が、応援[おうえん]に来[き]てくれました。",
-     "vi": "Gia đình đến cổ vũ.",
-     "ctx": "doisong"
+      "id": "v:応援:おうえん",
+      "kana": "おうえん",
+      "kanji": "応援",
+      "hv": "ỨNG VIỆN",
+      "vi": "cổ vũ, ủng hộ",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "家族[かぞく]が、応援[おうえん]に来[き]てくれました。",
+          "vi": "Gia đình đến cổ vũ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "試験[しけん]、頑張[がんば]って。応援[おうえん]しているよ。",
+          "vi": "Thi tốt nhé. Tớ ủng hộ cậu đấy.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "チームを応援[おうえん]する",
+          "vi": "cổ vũ đội"
+        }
+      ]
     },
     {
-     "jp": "試験[しけん]、頑張[がんば]って。応援[おうえん]しているよ。",
-     "vi": "Thi tốt nhé. Tớ ủng hộ cậu đấy.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "チームを応援[おうえん]する",
-     "vi": "cổ vũ đội"
-    }
-   ]
-  },
-  {
-   "id": "v:能力:のうりょく",
-   "kana": "のうりょく",
-   "kanji": "能力",
-   "hv": "NĂNG LỰC",
-   "vi": "năng lực",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本語[にほんご]能力[のうりょく]試験[しけん]を、受[う]けます。",
-     "vi": "Tôi thi năng lực tiếng Nhật.",
-     "ctx": "thutuc"
+      "id": "v:能力:のうりょく",
+      "kana": "のうりょく",
+      "kanji": "能力",
+      "hv": "NĂNG LỰC",
+      "vi": "năng lực",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本語[にほんご]能力[のうりょく]試験[しけん]を、受[う]けます。",
+          "vi": "Tôi thi năng lực tiếng Nhật.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "彼[かれ]は、仕事[しごと]の能力[のうりょく]が高[たか]いです。",
+          "vi": "Anh ấy năng lực làm việc cao.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "日本語能力試験[にほんごのうりょくしけん] = JLPT."
     },
     {
-     "jp": "彼[かれ]は、仕事[しごと]の能力[のうりょく]が高[たか]いです。",
-     "vi": "Anh ấy năng lực làm việc cao.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "日本語能力試験[にほんごのうりょくしけん] = JLPT."
-  },
-  {
-   "id": "v:才能:さいのう",
-   "kana": "さいのう",
-   "kanji": "才能",
-   "hv": "TÀI NĂNG",
-   "vi": "tài năng (bẩm sinh)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "彼[かれ]には、料理[りょうり]の才能[さいのう]があります。",
-     "vi": "Anh ấy có tài nấu ăn.",
-     "ctx": "doisong"
+      "id": "v:才能:さいのう",
+      "kana": "さいのう",
+      "kanji": "才能",
+      "hv": "TÀI NĂNG",
+      "vi": "tài năng (bẩm sinh)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "彼[かれ]には、料理[りょうり]の才能[さいのう]があります。",
+          "vi": "Anh ấy có tài nấu ăn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "才能[さいのう]より、努力[どりょく]が大切[たいせつ]だと思[おも]います。",
+          "vi": "Tôi nghĩ nỗ lực quan trọng hơn tài năng.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "才能[さいのう]より、努力[どりょく]が大切[たいせつ]だと思[おも]います。",
-     "vi": "Tôi nghĩ nỗ lực quan trọng hơn tài năng.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:実力:じつりょく",
-   "kana": "じつりょく",
-   "kanji": "実力",
-   "hv": "THỰC LỰC",
-   "vi": "thực lực",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "試験[しけん]で、自分[じぶん]の実力[じつりょく]が分[わ]かります。",
-     "vi": "Qua kỳ thi biết được thực lực mình.",
-     "ctx": "doisong"
+      "id": "v:実力:じつりょく",
+      "kana": "じつりょく",
+      "kanji": "実力",
+      "hv": "THỰC LỰC",
+      "vi": "thực lực",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "試験[しけん]で、自分[じぶん]の実力[じつりょく]が分[わ]かります。",
+          "vi": "Qua kỳ thi biết được thực lực mình.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "実力[じつりょく]のある人[ひと]が、班長[はんちょう]になります。",
+          "vi": "Người có thực lực sẽ làm tổ trưởng.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:能力:のうりょく"
+      ]
     },
     {
-     "jp": "実力[じつりょく]のある人[ひと]が、班長[はんちょう]になります。",
-     "vi": "Người có thực lực sẽ làm tổ trưởng.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:能力:のうりょく"
-   ]
-  },
-  {
-   "id": "v:目指す:めざす",
-   "kana": "めざす",
-   "kanji": "目指す",
-   "kf": "目指[めざ]す",
-   "hv": "MỤC CHỈ",
-   "vi": "nhắm tới, hướng tới",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "N2合格[ごうかく]を、目指[めざ]しています。",
-     "vi": "Tôi đang nhắm tới đỗ N2.",
-     "ctx": "doisong"
+      "id": "v:目指す:めざす",
+      "kana": "めざす",
+      "kanji": "目指す",
+      "kf": "目指[めざ]す",
+      "hv": "MỤC CHỈ",
+      "vi": "nhắm tới, hướng tới",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "N2合格[ごうかく]を、目指[めざ]しています。",
+          "vi": "Tôi đang nhắm tới đỗ N2.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "頂上[ちょうじょう]を目指[めざ]して、歩[ある]きました。",
+          "vi": "Đi bộ hướng về đỉnh núi.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "合格[ごうかく]を目指[めざ]す",
+          "vi": "nhắm tới thi đỗ"
+        }
+      ]
     },
     {
-     "jp": "頂上[ちょうじょう]を目指[めざ]して、歩[ある]きました。",
-     "vi": "Đi bộ hướng về đỉnh núi.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "合格[ごうかく]を目指[めざ]す",
-     "vi": "nhắm tới thi đỗ"
-    }
-   ]
-  },
-  {
-   "id": "v:拍手:はくしゅ",
-   "kana": "はくしゅ",
-   "kanji": "拍手",
-   "hv": "PHÁCH THỦ",
-   "vi": "vỗ tay",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "優勝[ゆうしょう]したチームに、拍手[はくしゅ]を送[おく]りました。",
-     "vi": "Vỗ tay chúc mừng đội vô địch.",
-     "ctx": "doisong"
+      "id": "v:拍手:はくしゅ",
+      "kana": "はくしゅ",
+      "kanji": "拍手",
+      "hv": "PHÁCH THỦ",
+      "vi": "vỗ tay",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "優勝[ゆうしょう]したチームに、拍手[はくしゅ]を送[おく]りました。",
+          "vi": "Vỗ tay chúc mừng đội vô địch.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "皆[みな]さん、拍手[はくしゅ]をお願[ねが]いします。",
+          "vi": "Xin mọi người một tràng pháo tay.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "皆[みな]さん、拍手[はくしゅ]をお願[ねが]いします。",
-     "vi": "Xin mọi người một tràng pháo tay.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:ゴール:ゴール",
-   "kana": "ゴール",
-   "kanji": "",
-   "hv": "",
-   "vi": "khung thành; đích (về đích)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ボールが、ゴールに入[はい]りました。",
-     "vi": "Bóng vào lưới.",
-     "ctx": "doisong"
+      "id": "v:ゴール:ゴール",
+      "kana": "ゴール",
+      "kanji": "",
+      "hv": "",
+      "vi": "khung thành; đích (về đích)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ボールが、ゴールに入[はい]りました。",
+          "vi": "Bóng vào lưới.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "マラソンで、ゴールまで走[はし]りました。",
+          "vi": "Tôi chạy marathon tới đích.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "goal (tiếng Anh)",
+      "note": "Nghĩa bóng: mục tiêu cuối cùng."
     },
     {
-     "jp": "マラソンで、ゴールまで走[はし]りました。",
-     "vi": "Tôi chạy marathon tới đích.",
-     "ctx": "doisong"
-    }
-   ],
-   "goc": "goal (tiếng Anh)",
-   "note": "Nghĩa bóng: mục tiêu cuối cùng."
-  },
-  {
-   "id": "v:プロ:プロ",
-   "kana": "プロ",
-   "kanji": "",
-   "hv": "",
-   "vi": "dân chuyên nghiệp",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "彼[かれ]は、プロのサッカー選手[せんしゅ]です。",
-     "vi": "Anh ấy là cầu thủ chuyên nghiệp.",
-     "ctx": "doisong"
+      "id": "v:プロ:プロ",
+      "kana": "プロ",
+      "kanji": "",
+      "hv": "",
+      "vi": "dân chuyên nghiệp",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "彼[かれ]は、プロのサッカー選手[せんしゅ]です。",
+          "vi": "Anh ấy là cầu thủ chuyên nghiệp.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "田中[たなか]さんの包丁[ほうちょう]は、プロのようです。",
+          "vi": "Tay dao của anh Tanaka như dân chuyên.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        {
+          "w": "アマ",
+          "vi": "nghiệp dư"
+        }
+      ],
+      "goc": "professional (tiếng Anh, nói tắt)"
     },
     {
-     "jp": "田中[たなか]さんの包丁[ほうちょう]は、プロのようです。",
-     "vi": "Tay dao của anh Tanaka như dân chuyên.",
-     "ctx": "xuong"
-    }
-   ],
-   "ant": [
-    {
-     "w": "アマ",
-     "vi": "nghiệp dư"
-    }
-   ],
-   "goc": "professional (tiếng Anh, nói tắt)"
-  },
-  {
-   "id": "v:遂に:ついに",
-   "kana": "ついに",
-   "kanji": "遂に",
-   "kf": "遂[つい]に",
-   "hv": "TOẠI",
-   "vi": "cuối cùng thì (đã)",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "三回[さんかい]目[め]で、遂[つい]に合格[ごうかく]しました。",
-     "vi": "Lần thứ ba cuối cùng tôi đã đỗ.",
-     "ctx": "doisong"
+      "id": "v:遂に:ついに",
+      "kana": "ついに",
+      "kanji": "遂に",
+      "kf": "遂[つい]に",
+      "hv": "TOẠI",
+      "vi": "cuối cùng thì (đã)",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "三回[さんかい]目[め]で、遂[つい]に合格[ごうかく]しました。",
+          "vi": "Lần thứ ba cuối cùng tôi đã đỗ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "遂[つい]に、新[あたら]しい機械[きかい]が来[き]ました。",
+          "vi": "Cuối cùng máy mới đã về.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:とうとう:とうとう"
+      ],
+      "note": "Thường viết kana: ついに."
     },
     {
-     "jp": "遂[つい]に、新[あたら]しい機械[きかい]が来[き]ました。",
-     "vi": "Cuối cùng máy mới đã về.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:とうとう:とうとう"
-   ],
-   "note": "Thường viết kana: ついに."
-  },
-  {
-   "id": "v:次々:つぎつぎ",
-   "kana": "つぎつぎ",
-   "kanji": "次々",
-   "hv": "THỨ THỨ",
-   "vi": "lần lượt nối nhau",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "注文[ちゅうもん]が、次々[つぎつぎ]に入[はい]ります。",
-     "vi": "Đơn hàng đến liên tiếp.",
-     "ctx": "xuong"
+      "id": "v:次々:つぎつぎ",
+      "kana": "つぎつぎ",
+      "kanji": "次々",
+      "hv": "THỨ THỨ",
+      "vi": "lần lượt nối nhau",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "注文[ちゅうもん]が、次々[つぎつぎ]に入[はい]ります。",
+          "vi": "Đơn hàng đến liên tiếp.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "選手[せんしゅ]が、次々[つぎつぎ]にゴールしました。",
+          "vi": "Các vận động viên lần lượt về đích.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "次々[つぎつぎ]に / 次々[つぎつぎ]と."
     },
     {
-     "jp": "選手[せんしゅ]が、次々[つぎつぎ]にゴールしました。",
-     "vi": "Các vận động viên lần lượt về đích.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "次々[つぎつぎ]に / 次々[つぎつぎ]と."
-  },
-  {
-   "id": "v:一度に:いちどに",
-   "kana": "いちどに",
-   "kanji": "一度に",
-   "kf": "一度[いちど]に",
-   "hv": "NHẤT ĐỘ",
-   "vi": "cùng một lúc",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "一度[いちど]に、たくさん運[はこ]ばないでください。",
-     "vi": "Đừng bê nhiều cùng một lúc.",
-     "ctx": "xuong"
+      "id": "v:一度に:いちどに",
+      "kana": "いちどに",
+      "kanji": "一度に",
+      "kf": "一度[いちど]に",
+      "hv": "NHẤT ĐỘ",
+      "vi": "cùng một lúc",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "一度[いちど]に、たくさん運[はこ]ばないでください。",
+          "vi": "Đừng bê nhiều cùng một lúc.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "一度[いちど]に、二[ふた]つのことはできません。",
+          "vi": "Không làm hai việc cùng lúc được.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "一度[いちど]に、二[ふた]つのことはできません。",
-     "vi": "Không làm hai việc cùng lúc được.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:集中:しゅうちゅう",
-   "kana": "しゅうちゅう",
-   "kanji": "集中",
-   "hv": "TẬP TRUNG",
-   "vi": "dồn tâm trí, chuyên chú",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "作業[さぎょう]に、集中[しゅうちゅう]してください。",
-     "vi": "Hãy tập trung vào công việc.",
-     "ctx": "xuong"
+      "id": "v:集中:しゅうちゅう",
+      "kana": "しゅうちゅう",
+      "kanji": "集中",
+      "hv": "TẬP TRUNG",
+      "vi": "dồn tâm trí, chuyên chú",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "作業[さぎょう]に、集中[しゅうちゅう]してください。",
+          "vi": "Hãy tập trung vào công việc.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "うるさくて、勉強[べんきょう]に集中[しゅうちゅう]できません。",
+          "vi": "Ồn quá, không tập trung học được.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "仕事[しごと]に集中[しゅうちゅう]する",
+          "vi": "tập trung vào việc"
+        }
+      ]
     },
     {
-     "jp": "うるさくて、勉強[べんきょう]に集中[しゅうちゅう]できません。",
-     "vi": "Ồn quá, không tập trung học được.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "仕事[しごと]に集中[しゅうちゅう]する",
-     "vi": "tập trung vào việc"
-    }
-   ]
-  },
-  {
-   "id": "v:賞:しょう",
-   "kana": "しょう",
-   "kanji": "賞",
-   "hv": "THƯỞNG",
-   "vi": "giải thưởng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "スピーチ大会[たいかい]で、賞[しょう]をもらいました。",
-     "vi": "Tôi được giải ở cuộc thi hùng biện.",
-     "ctx": "doisong"
+      "id": "v:賞:しょう",
+      "kana": "しょう",
+      "kanji": "賞",
+      "hv": "THƯỞNG",
+      "vi": "giải thưởng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "スピーチ大会[たいかい]で、賞[しょう]をもらいました。",
+          "vi": "Tôi được giải ở cuộc thi hùng biện.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "一番[いちばん]の人[ひと]には、賞[しょう]があります。",
+          "vi": "Người nhất có giải thưởng.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "一等賞[いっとうしょう] = giải nhất."
     },
     {
-     "jp": "一番[いちばん]の人[ひと]には、賞[しょう]があります。",
-     "vi": "Người nhất có giải thưởng.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "一等賞[いっとうしょう] = giải nhất."
-  },
-  {
-   "id": "v:勢い:いきおい",
-   "kana": "いきおい",
-   "kanji": "勢い",
-   "kf": "勢[いきお]い",
-   "hv": "THẾ",
-   "vi": "đà, khí thế",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "チームに、勢[いきお]いがあります。",
-     "vi": "Đội đang có khí thế.",
-     "ctx": "doisong"
+      "id": "v:勢い:いきおい",
+      "kana": "いきおい",
+      "kanji": "勢い",
+      "kf": "勢[いきお]い",
+      "hv": "THẾ",
+      "vi": "đà, khí thế",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "チームに、勢[いきお]いがあります。",
+          "vi": "Đội đang có khí thế.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "水[みず]が、勢[いきお]いよく出[で]ました。",
+          "vi": "Nước phụt ra mạnh.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "勢[いきお]いよく = mạnh mẽ, ào ào."
     },
     {
-     "jp": "水[みず]が、勢[いきお]いよく出[で]ました。",
-     "vi": "Nước phụt ra mạnh.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "勢[いきお]いよく = mạnh mẽ, ào ào."
-  },
-  {
-   "id": "v:引退:いんたい",
-   "kana": "いんたい",
-   "kanji": "引退",
-   "hv": "DẪN THOÁI",
-   "vi": "giải nghệ, rút lui",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "あの選手[せんしゅ]は、去年[きょねん]引退[いんたい]しました。",
-     "vi": "Cầu thủ đó giải nghệ năm ngoái.",
-     "ctx": "doisong"
+      "id": "v:引退:いんたい",
+      "kana": "いんたい",
+      "kanji": "引退",
+      "hv": "DẪN THOÁI",
+      "vi": "giải nghệ, rút lui",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "あの選手[せんしゅ]は、去年[きょねん]引退[いんたい]しました。",
+          "vi": "Cầu thủ đó giải nghệ năm ngoái.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "班長[はんちょう]は、来年[らいねん]引退[いんたい]するそうです。",
+          "vi": "Nghe nói tổ trưởng năm sau nghỉ.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "班長[はんちょう]は、来年[らいねん]引退[いんたい]するそうです。",
-     "vi": "Nghe nói tổ trưởng năm sau nghỉ.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:活躍:かつやく",
-   "kana": "かつやく",
-   "kanji": "活躍",
-   "hv": "HOẠT DƯỢC",
-   "vi": "hoạt động xuất sắc",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "外国人[がいこくじん]の社員[しゃいん]が、活躍[かつやく]しています。",
-     "vi": "Nhân viên người nước ngoài đang làm rất tốt.",
-     "ctx": "xuong"
+      "id": "v:活躍:かつやく",
+      "kana": "かつやく",
+      "kanji": "活躍",
+      "hv": "HOẠT DƯỢC",
+      "vi": "hoạt động xuất sắc",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "外国人[がいこくじん]の社員[しゃいん]が、活躍[かつやく]しています。",
+          "vi": "Nhân viên người nước ngoài đang làm rất tốt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "試合[しあい]で、大[だい]活躍[かつやく]しました。",
+          "vi": "Anh ấy tỏa sáng trong trận đấu.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "〜で活躍[かつやく]する",
+          "vi": "tỏa sáng ở …"
+        }
+      ]
     },
     {
-     "jp": "試合[しあい]で、大[だい]活躍[かつやく]しました。",
-     "vi": "Anh ấy tỏa sáng trong trận đấu.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "〜で活躍[かつやく]する",
-     "vi": "tỏa sáng ở …"
-    }
-   ]
-  },
-  {
-   "id": "v:緊張:きんちょう",
-   "kana": "きんちょう",
-   "kanji": "緊張",
-   "hv": "KHẨN TRƯƠNG",
-   "vi": "căng thẳng (tinh thần)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "面接[めんせつ]で、緊張[きんちょう]しました。",
-     "vi": "Tôi hồi hộp khi phỏng vấn.",
-     "ctx": "thutuc"
+      "id": "v:緊張:きんちょう",
+      "kana": "きんちょう",
+      "kanji": "緊張",
+      "hv": "KHẨN TRƯƠNG",
+      "vi": "căng thẳng (tinh thần)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "面接[めんせつ]で、緊張[きんちょう]しました。",
+          "vi": "Tôi hồi hộp khi phỏng vấn.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "緊張[きんちょう]して、手[て]が震[ふる]えます。",
+          "vi": "Hồi hộp quá, tay run.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Thường dùng động từ: 緊張[きんちょう]する."
     },
     {
-     "jp": "緊張[きんちょう]して、手[て]が震[ふる]えます。",
-     "vi": "Hồi hộp quá, tay run.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Thường dùng động từ: 緊張[きんちょう]する."
-  },
-  {
-   "id": "v:蹴る:ける",
-   "kana": "ける",
-   "kanji": "蹴る",
-   "kf": "蹴[け]る",
-   "hv": "XÚC",
-   "vi": "đá chân, sút",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ボールを、強[つよ]く蹴[け]りました。",
-     "vi": "Tôi đá bóng thật mạnh.",
-     "ctx": "doisong"
+      "id": "v:蹴る:ける",
+      "kana": "ける",
+      "kanji": "蹴る",
+      "kf": "蹴[け]る",
+      "hv": "XÚC",
+      "vi": "đá chân, sút",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ボールを、強[つよ]く蹴[け]りました。",
+          "vi": "Tôi đá bóng thật mạnh.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "ドアを、足[あし]で蹴[け]らないでください。",
+          "vi": "Đừng đá cửa.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "ボールを蹴[け]る",
+          "vi": "đá bóng"
+        }
+      ],
+      "note": "Chú ý: 蹴[け]る là động từ nhóm 1 (蹴[け]って, 蹴[け]らない), dù tận cùng える."
     },
     {
-     "jp": "ドアを、足[あし]で蹴[け]らないでください。",
-     "vi": "Đừng đá cửa.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "ボールを蹴[け]る",
-     "vi": "đá bóng"
-    }
-   ],
-   "note": "Chú ý: 蹴[け]る là động từ nhóm 1 (蹴[け]って, 蹴[け]らない), dù tận cùng える."
-  },
-  {
-   "id": "v:戦い:たたかい",
-   "kana": "たたかい",
-   "kanji": "戦い",
-   "kf": "戦[たたか]い",
-   "hv": "CHIẾN",
-   "vi": "cuộc chiến (đấu tranh)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "決勝[けっしょう]は、厳[きび]しい戦[たたか]いになりました。",
-     "vi": "Trận chung kết thành cuộc chiến cam go.",
-     "ctx": "doisong"
+      "id": "v:戦い:たたかい",
+      "kana": "たたかい",
+      "kanji": "戦い",
+      "kf": "戦[たたか]い",
+      "hv": "CHIẾN",
+      "vi": "cuộc chiến (đấu tranh)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "決勝[けっしょう]は、厳[きび]しい戦[たたか]いになりました。",
+          "vi": "Trận chung kết thành cuộc chiến cam go.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "病気[びょうき]との戦[たたか]いは、長[なが]かったです。",
+          "vi": "Cuộc chiến với bệnh tật kéo dài.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:戦う:たたかう"
+      ]
     },
     {
-     "jp": "病気[びょうき]との戦[たたか]いは、長[なが]かったです。",
-     "vi": "Cuộc chiến với bệnh tật kéo dài.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:戦う:たたかう"
-   ]
-  },
-  {
-   "id": "v:抵抗:ていこう",
-   "kana": "ていこう",
-   "kanji": "抵抗",
-   "hv": "ĐỂ KHÁNG",
-   "vi": "kháng cự; e ngại (chưa quen)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cố gắng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "生[なま]の魚[さかな]を食[た]べるのに、最初[さいしょ]は抵抗[ていこう]がありました。",
-     "vi": "Ban đầu tôi ngại ăn cá sống.",
-     "ctx": "doisong"
+      "id": "v:抵抗:ていこう",
+      "kana": "ていこう",
+      "kanji": "抵抗",
+      "hv": "ĐỂ KHÁNG",
+      "vi": "kháng cự; e ngại (chưa quen)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cố gắng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "生[なま]の魚[さかな]を食[た]べるのに、最初[さいしょ]は抵抗[ていこう]がありました。",
+          "vi": "Ban đầu tôi ngại ăn cá sống.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "犯人[はんにん]は、抵抗[ていこう]しました。",
+          "vi": "Tên tội phạm chống cự.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "〜に抵抗[ていこう]がある = thấy ngại, không quen với …."
     },
     {
-     "jp": "犯人[はんにん]は、抵抗[ていこう]しました。",
-     "vi": "Tên tội phạm chống cự.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "〜に抵抗[ていこう]がある = thấy ngại, không quen với …."
-  },
-  {
-   "id": "v:トップ:トップ",
-   "kana": "トップ",
-   "kanji": "",
-   "hv": "",
-   "vi": "vị trí đứng đầu",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "売[う]り上[あ]げは、トップです。",
-     "vi": "Doanh số đứng đầu.",
-     "ctx": "xuong"
+      "id": "v:トップ:トップ",
+      "kana": "トップ",
+      "kanji": "",
+      "hv": "",
+      "vi": "vị trí đứng đầu",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "売[う]り上[あ]げは、トップです。",
+          "vi": "Doanh số đứng đầu.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "彼[かれ]は、クラスでトップの成績[せいせき]です。",
+          "vi": "Cậu ấy học đứng đầu lớp.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "top (tiếng Anh)"
     },
     {
-     "jp": "彼[かれ]は、クラスでトップの成績[せいせき]です。",
-     "vi": "Cậu ấy học đứng đầu lớp.",
-     "ctx": "doisong"
+      "id": "v:ボール:ボール",
+      "kana": "ボール",
+      "kanji": "",
+      "hv": "",
+      "vi": "quả bóng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thi đấu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ボールを、投[な]げてください。",
+          "vi": "Hãy ném bóng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "公園[こうえん]で、ボールで遊[あそ]びました。",
+          "vi": "Chơi bóng ở công viên.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "ball (tiếng Anh)",
+      "note": "Còn nghĩa: tô, bát (bowl): サラダボール."
     }
-   ],
-   "goc": "top (tiếng Anh)"
-  },
-  {
-   "id": "v:ボール:ボール",
-   "kana": "ボール",
-   "kanji": "",
-   "hv": "",
-   "vi": "quả bóng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thi đấu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ボールを、投[な]げてください。",
-     "vi": "Hãy ném bóng.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "公園[こうえん]で、ボールで遊[あそ]びました。",
-     "vi": "Chơi bóng ở công viên.",
-     "ctx": "doisong"
-    }
-   ],
-   "goc": "ball (tiếng Anh)",
-   "note": "Còn nghĩa: tô, bát (bowl): サラダボール."
-  }
- ]
+  ]
 }

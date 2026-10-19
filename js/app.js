@@ -29,6 +29,7 @@ import { renderDocList, renderDoc } from './reader.js';
 import { openGrammarSheet } from './explain.js';
 import { initSeason, seasonChipHTML } from './season.js';
 import { initBackFab, backFabRoute } from './backfab.js';
+import { initFxPanel } from './fxpanel.js';
 import { renderGuessLearn, renderHanViet, renderDenHam, renderGiongChu, renderCungDau, runQuick3, runRecap } from './dot6.js';
 
 const view = $('#view');
@@ -305,7 +306,7 @@ function announceUpdate() {
 
 async function init() {
   await loadSettings();
-  try { initSeason(); } catch (e) { console.warn('season', e); }
+  try { initSeason(); initFxPanel(); } catch (e) { console.warn('season', e); }
   chrome();
   try { initBackFab(ctx); } catch (e) { console.warn('backfab', e); }
   // v32: thanh trên trong suốt; cuộn xuống thì thành kính mờ để chữ trang không đè tiêu đề

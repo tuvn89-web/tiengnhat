@@ -608,3 +608,36 @@ Nhân vật dùng lại từ N5; thêm bà chủ nhà (大家[おおや]さん) 
 **Tệp thay đổi**: `js/backfab.js` (mới), `js/fonts.js` (mới), `js/season.js`, `js/settings.js`, `js/settingspage.js`, `js/nav.js`, `js/app.js`, `js/ui.js`, `js/guides.js`, `js/util.js`, `css/app.css`, `sw.js`, `HUONG-DAN.md`.
 
 Nếu chưa đưa bản v31 lên GitHub thì đưa thẳng gói v32 (đã gồm cả thay đổi của v31).
+
+## 42. Bản v33 (19/10/2026): bảng "Bật / tắt hiệu ứng nền", toàn màn hình trên Android
+
+**Nút "Bật / tắt hiệu ứng nền ▴"** (góc dưới bên phải, mọi trang; nhỏ và hơi trong như bản v32) giờ là nút **mở / thu gọn bảng**, giống hệt nút "Bảng thử" trong bản thử, chỉ khác tên. Bảng mở ra thì nút ghi **Đóng bảng ▾**. Trong bảng:
+- Ô **Hiệu ứng nền** (tắt thì hạt rơi, trời, mưa, sao băng… dừng hẳn; màu và hoa văn theo mùa vẫn giữ).
+- Giao diện mùa (Theo tháng / Tắt / Tháng 1–12), Nền (Theo máy / Sáng / Tối), Mưa, Mật độ hạt, Tốc độ rơi — là cài đặt thật, lưu lại như trong Cài đặt (hai nơi tự khớp nhau).
+- **Xem thử (tạm thời)**: Buổi (bình minh, ngày, hoàng hôn, đêm), Mưa (không / nhẹ / to có giông), Ngày lễ (Tết, Trung thu, 2/9, các lễ Nhật…). Mở lại app là về như thật; nút "Về như thật" bỏ ngay.
+- Bật / tắt từng hiệu ứng (16 ô, có cả "Chuyển động mượt") và 10 nút "Thử ngay".
+
+**Toàn màn hình trên Android**: app cài trên màn hình chính chạy toàn màn hình, ẩn thanh trạng thái (giờ, pin, sóng) và thanh điều hướng của máy. Muốn xem giờ, pin thì vuốt từ mép trên xuống. Máy có tai thỏ / lỗ camera thì thanh trên của app tự chừa chỗ.
+- Chrome tự nhận thay đổi này khi mở app (có thể mất tới một ngày). Muốn có ngay: gỡ biểu tượng app trên màn hình chính rồi cài lại từ Chrome (menu ⋮ → Cài đặt ứng dụng / Thêm vào màn hình chính). Trước khi gỡ, vào **Dữ liệu** bấm đồng bộ cho chắc (tiến độ được lưu trên GitHub); cài lại xong, nếu thấy trống thì đồng bộ để lấy về.
+- iPhone không cho trang web ẩn thanh trạng thái nên trên iPhone vẫn như cũ.
+
+**Tệp thay đổi**: `js/fxpanel.js` (mới), `js/season.js`, `js/app.js`, `js/settingspage.js`, `js/guides.js`, `js/util.js`, `css/app.css`, `manifest.webmanifest`, `sw.js`, `HUONG-DAN.md`.
+
+## 43. Bản v34 (19/10/2026): sửa nghĩa các thể của động từ, tính từ
+
+Rà lại nghĩa mà app tự ghép cho các thể (có thể …, đã …, đang …, bị / được …, không …) của **1.008 động từ** (409 nhóm 1, 224 nhóm 2, 6 nhóm 3, 369 danh từ + する) và **253 tính từ**.
+
+- **Danh từ + する**: app lấy nghĩa động từ chứ không lấy nghĩa danh từ. 料理する: "có thể nấu ăn, đã nấu ăn" (trước là "có thể món ăn, đã món ăn"); 質問する: "có thể hỏi" (trước là "có thể câu hỏi"). Nghĩa ghi "sự …, việc …, cuộc …" thì bỏ chữ đó khi ghép (sự gia tăng → đã gia tăng).
+- Sửa nghĩa trong dữ liệu của 61 từ để nghĩa động từ / tính từ đứng đầu: 料理, 合計, 注文, 表現, メモ, 機能, 乾燥, 左右, ミス, 言い訳, 契約, 希望, 志望, 意識, いたずら, 平均, 要求, 噂, 恋, 成人, 感謝, 呼吸, 苦労, スピーチ, 活動, 命令, 通勤, サイン, デート, 借金, 代表, 研修, 計画, 約束, 経験, 故障, 会話, 下宿, ごちそう, プレゼント, 食事, 質問, 滞納, 指示, 夜勤, けが, 控除, セット, 可能, 不自由, とんでもない, マジ, やばい, 平気, よろしい, 盛ん, 久しぶり, 散らす, 湿る, 欠く, 澄む (giữ nguyên mã từ nên tiến độ học không mất).
+- Phần trong ngoặc không còn làm hỏng nghĩa ghép: "(trời) mưa" → "có thể mưa"; ghi chú sau dấu gạch dài bị bỏ (マジ "thật — khẩu ngữ giới trẻ" → "thật").
+- Thể bị động của từ vốn đã mang chữ "bị" (刺さる bị đâm, けが bị thương) ghi "bị đâm (bị động)", không còn "bị / được bị đâm".
+- Tính từ có nghĩa bắt đầu bằng "không" (だめ không được): phủ định ghi "không phải là không được", không còn "không không được".
+
+**Tệp thay đổi**: `js/conj.js`, `js/adj.js`, `js/forms.js`, `js/practice.js`, `js/wordx.js`, `js/util.js`, `sw.js`, `HUONG-DAN.md`, `data/manifest.json` và 39 gói từ vựng (jlpt-n5-07, jlpt-n5-09, jlpt-n4-08…18, jlpt-n3-03…44, thuevisa-01, xuong-01, xuong-02).
+
+## 44. Bản v35 (19/10/2026): đủ thẻ cho mọi chữ Hán trong app
+
+- Thêm 3 gói `chuhan-48`, `chuhan-49`, `chuhan-50` — 86 thẻ cho các chữ trước đây chỉ gặp trong câu ví dụ, bài mở đầu, ghi chú (浮, 構, 領, 副, 旬, 縦, 潮, 簿, 痢, 塾, 庁, 捌, 鰓, 鰭, 串, 麺, 琵琶…). Kho có **1.487 thẻ**: chữ Hán nào xuất hiện ở bất kỳ đâu trong app cũng chạm vào mở được thẻ.
+- Chữ người Nhật hay viết bằng kana (けんか, まぶしい, ほうき, つまずく, しつけ…) có ghi "thường viết …" trong ghi chú. 躾 là chữ người Nhật tự đặt, app tạm đọc MỸ.
+
+**Tệp thay đổi**: `data/packs/chuhan-48.json`, `chuhan-49.json`, `chuhan-50.json` (mới), `data/manifest.json`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.

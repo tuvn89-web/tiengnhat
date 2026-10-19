@@ -1,544 +1,544 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n3-42",
-  "title": "JLPT N3 42 – Nói chuyện thân mật",
-  "type": "vocab",
-  "level": "N3",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 1,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Bài khẩu ngữ: マジ, やばい, 超, めちゃくちゃ, 食う, 飯 chỉ dùng với bạn bè, đồng nghiệp thân — không dùng với cấp trên, khách, quầy hành chính."
- },
- "items": [
-  {
-   "id": "v:友人:ゆうじん",
-   "kana": "ゆうじん",
-   "kanji": "友人",
-   "hv": "HỮU NHÂN",
-   "vi": "bạn (cách nói trang trọng)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bạn bè",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]で、たくさんの友人[ゆうじん]ができました。",
-     "vi": "Ở Nhật tôi có nhiều bạn.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "友人[ゆうじん]の結婚式[けっこんしき]に、出席[しゅっせき]します。",
-     "vi": "Tôi dự đám cưới của bạn.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:友達:ともだち"
-   ],
-   "note": "友人[ゆうじん] dùng khi nói, viết lịch sự (phỏng vấn, thư); nói chuyện thường ngày dùng 友達[ともだち]."
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n3-42",
+    "title": "JLPT N3 42 – Nói chuyện thân mật",
+    "type": "vocab",
+    "level": "N3",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Bài khẩu ngữ: マジ, やばい, 超, めちゃくちゃ, 食う, 飯 chỉ dùng với bạn bè, đồng nghiệp thân — không dùng với cấp trên, khách, quầy hành chính."
   },
-  {
-   "id": "v:仲:なか",
-   "kana": "なか",
-   "kanji": "仲",
-   "hv": "TRỌNG",
-   "vi": "độ thân thiết giữa hai người",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bạn bè",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "ホアさんとグエンさんは、仲[なか]がいいです。",
-     "vi": "Chị Hoa và anh Nguyễn thân nhau.",
-     "ctx": "doisong"
+      "id": "v:友人:ゆうじん",
+      "kana": "ゆうじん",
+      "kanji": "友人",
+      "hv": "HỮU NHÂN",
+      "vi": "bạn (cách nói trang trọng)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bạn bè",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]で、たくさんの友人[ゆうじん]ができました。",
+          "vi": "Ở Nhật tôi có nhiều bạn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "友人[ゆうじん]の結婚式[けっこんしき]に、出席[しゅっせき]します。",
+          "vi": "Tôi dự đám cưới của bạn.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:友達:ともだち"
+      ],
+      "note": "友人[ゆうじん] dùng khi nói, viết lịch sự (phỏng vấn, thư); nói chuyện thường ngày dùng 友達[ともだち]."
     },
     {
-     "jp": "二人[ふたり]は、仲[なか]が悪[わる]いわけではありません。",
-     "vi": "Hai người đó không phải là không hợp nhau.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "仲[なか]がいい = thân nhau; 仲[なか]が悪[わる]い = không hợp; 仲間[なかま] = bạn bè cùng nhóm."
-  },
-  {
-   "id": "v:仲良し:なかよし",
-   "kana": "なかよし",
-   "kanji": "仲良し",
-   "kf": "仲良[なかよ]し",
-   "hv": "TRỌNG LƯƠNG",
-   "vi": "chơi thân (với nhau)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bạn bè",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "同[おな]じ寮[りょう]の人[ひと]たちと、仲良[なかよ]しになりました。",
-     "vi": "Tôi đã thân với mọi người cùng ký túc xá.",
-     "ctx": "doisong"
+      "id": "v:仲:なか",
+      "kana": "なか",
+      "kanji": "仲",
+      "hv": "TRỌNG",
+      "vi": "độ thân thiết giữa hai người",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bạn bè",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ホアさんとグエンさんは、仲[なか]がいいです。",
+          "vi": "Chị Hoa và anh Nguyễn thân nhau.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "二人[ふたり]は、仲[なか]が悪[わる]いわけではありません。",
+          "vi": "Hai người đó không phải là không hợp nhau.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "仲[なか]がいい = thân nhau; 仲[なか]が悪[わる]い = không hợp; 仲間[なかま] = bạn bè cùng nhóm."
     },
     {
-     "jp": "二人[ふたり]は、子[こ]どもの時[とき]からの仲良[なかよ]しです。",
-     "vi": "Hai người là bạn thân từ nhỏ.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "仲良[なかよ]く = một cách hòa thuận: 仲良[なかよ]くしてね = hãy chơi thân với nhau nhé."
-  },
-  {
-   "id": "v:付き合い:つきあい",
-   "kana": "つきあい",
-   "kanji": "付き合い",
-   "kf": "付[つ]き合[あ]い",
-   "hv": "PHÓ HỢP",
-   "vi": "giao tế, quan hệ xã giao",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bạn bè",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会社[かいしゃ]の人[ひと]との付[つ]き合[あ]いも、大切[たいせつ]です。",
-     "vi": "Giao du với người trong công ty cũng quan trọng.",
-     "ctx": "xuong"
+      "id": "v:仲良し:なかよし",
+      "kana": "なかよし",
+      "kanji": "仲良し",
+      "kf": "仲良[なかよ]し",
+      "hv": "TRỌNG LƯƠNG",
+      "vi": "chơi thân (với nhau)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bạn bè",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "同[おな]じ寮[りょう]の人[ひと]たちと、仲良[なかよ]しになりました。",
+          "vi": "Tôi đã thân với mọi người cùng ký túc xá.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "二人[ふたり]は、子[こ]どもの時[とき]からの仲良[なかよ]しです。",
+          "vi": "Hai người là bạn thân từ nhỏ.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "仲良[なかよ]く = một cách hòa thuận: 仲良[なかよ]くしてね = hãy chơi thân với nhau nhé."
     },
     {
-     "jp": "田中[たなか]さんとは、長[なが]い付[つ]き合[あ]いです。",
-     "vi": "Tôi quen anh Tanaka đã lâu.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:付き合う:つきあう"
-   ],
-   "note": "付[つ]き合[あ]いが悪[わる]い = hay từ chối đi chơi, ăn uống chung."
-  },
-  {
-   "id": "v:知り合い:しりあい",
-   "kana": "しりあい",
-   "kanji": "知り合い",
-   "kf": "知[し]り合[あ]い",
-   "hv": "TRI HỢP",
-   "vi": "người quen",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bạn bè",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "知[し]り合[あ]いに、部屋[へや]を紹介[しょうかい]してもらいました。",
-     "vi": "Tôi được người quen giới thiệu phòng.",
-     "ctx": "doisong"
+      "id": "v:付き合い:つきあい",
+      "kana": "つきあい",
+      "kanji": "付き合い",
+      "kf": "付[つ]き合[あ]い",
+      "hv": "PHÓ HỢP",
+      "vi": "giao tế, quan hệ xã giao",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bạn bè",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]の人[ひと]との付[つ]き合[あ]いも、大切[たいせつ]です。",
+          "vi": "Giao du với người trong công ty cũng quan trọng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "田中[たなか]さんとは、長[なが]い付[つ]き合[あ]いです。",
+          "vi": "Tôi quen anh Tanaka đã lâu.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:付き合う:つきあう"
+      ],
+      "note": "付[つ]き合[あ]いが悪[わる]い = hay từ chối đi chơi, ăn uống chung."
     },
     {
-     "jp": "兵庫[ひょうご]には、知[し]り合[あ]いが少[すく]ないです。",
-     "vi": "Ở Hyogo tôi ít người quen.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Người quen biết nhưng chưa thân bằng 友達[ともだち]."
-  },
-  {
-   "id": "v:デート:デート",
-   "kana": "デート",
-   "kanji": "",
-   "hv": "",
-   "vi": "buổi hẹn hò (đi chơi riêng hai người)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bạn bè",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日曜日[にちようび]に、彼女[かのじょ]とデートします。",
-     "vi": "Chủ nhật tôi hẹn hò với bạn gái.",
-     "ctx": "doisong"
+      "id": "v:知り合い:しりあい",
+      "kana": "しりあい",
+      "kanji": "知り合い",
+      "kf": "知[し]り合[あ]い",
+      "hv": "TRI HỢP",
+      "vi": "người quen",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bạn bè",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "知[し]り合[あ]いに、部屋[へや]を紹介[しょうかい]してもらいました。",
+          "vi": "Tôi được người quen giới thiệu phòng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "兵庫[ひょうご]には、知[し]り合[あ]いが少[すく]ないです。",
+          "vi": "Ở Hyogo tôi ít người quen.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Người quen biết nhưng chưa thân bằng 友達[ともだち]."
     },
     {
-     "jp": "初[はじ]めてのデートは、神戸[こうべ]でした。",
-     "vi": "Buổi hẹn đầu tiên ở Kobe.",
-     "ctx": "doisong"
-    }
-   ],
-   "goc": "date (tiếng Anh)"
-  },
-  {
-   "id": "v:飯:めし",
-   "kana": "めし",
-   "kanji": "飯",
-   "hv": "PHẠN",
-   "vi": "cơm, bữa ăn (khẩu ngữ, nam hay dùng)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Khẩu ngữ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "仕事[しごと]の後[あと]、飯[めし]に行[い]こうよ。",
-     "vi": "Xong việc đi ăn đi.",
-     "ctx": "hoithoai"
+      "id": "v:デート:デート",
+      "kana": "デート",
+      "kanji": "",
+      "hv": "",
+      "vi": "hẹn hò; buổi hẹn hò (đi chơi riêng hai người)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bạn bè",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日曜日[にちようび]に、彼女[かのじょ]とデートします。",
+          "vi": "Chủ nhật tôi hẹn hò với bạn gái.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "初[はじ]めてのデートは、神戸[こうべ]でした。",
+          "vi": "Buổi hẹn đầu tiên ở Kobe.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "date (tiếng Anh)"
     },
     {
-     "jp": "昼飯[ちゅうはん]、もう食[く]った？",
-     "vi": "Ăn trưa chưa?",
-     "ctx": "hoithoai"
-    }
-   ],
-   "syn": [
-    "v:ご飯:ごはん"
-   ],
-   "note": "Thân mật, hơi thô. Lịch sự: ご飯[はん] / 食事[しょくじ]. 昼飯[ひるめし] = bữa trưa, 晩飯[ばんめし] = bữa tối."
-  },
-  {
-   "id": "v:腹:はら",
-   "kana": "はら",
-   "kanji": "腹",
-   "hv": "PHÚC",
-   "vi": "bụng (khẩu ngữ, nam hay dùng)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Khẩu ngữ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "腹[はら]が減[へ]った。何[なに]か食[く]おう。",
-     "vi": "Đói bụng rồi. Ăn gì đi.",
-     "ctx": "hoithoai"
+      "id": "v:飯:めし",
+      "kana": "めし",
+      "kanji": "飯",
+      "hv": "PHẠN",
+      "vi": "cơm, bữa ăn (khẩu ngữ, nam hay dùng)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khẩu ngữ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]の後[あと]、飯[めし]に行[い]こうよ。",
+          "vi": "Xong việc đi ăn đi.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "昼飯[ちゅうはん]、もう食[く]った？",
+          "vi": "Ăn trưa chưa?",
+          "ctx": "hoithoai"
+        }
+      ],
+      "syn": [
+        "v:ご飯:ごはん"
+      ],
+      "note": "Thân mật, hơi thô. Lịch sự: ご飯[はん] / 食事[しょくじ]. 昼飯[ひるめし] = bữa trưa, 晩飯[ばんめし] = bữa tối."
     },
     {
-     "jp": "食[た]べすぎて、腹[はら]が痛[いた]い。",
-     "vi": "Ăn nhiều quá đau bụng.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:お腹:おなか"
-   ],
-   "note": "腹[はら]が立[た]つ = nổi giận. Lịch sự hơn: お腹[なか]."
-  },
-  {
-   "id": "v:食う:くう",
-   "kana": "くう",
-   "kanji": "食う",
-   "kf": "食[く]う",
-   "hv": "THỰC",
-   "vi": "ăn (khẩu ngữ, nam hay dùng)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Khẩu ngữ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "早[はや]く食[く]わなきゃ、休憩[きゅうけい]が終[お]わるよ。",
-     "vi": "Phải ăn nhanh, hết giờ nghỉ đấy.",
-     "ctx": "xuong"
+      "id": "v:腹:はら",
+      "kana": "はら",
+      "kanji": "腹",
+      "hv": "PHÚC",
+      "vi": "bụng (khẩu ngữ, nam hay dùng)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khẩu ngữ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "腹[はら]が減[へ]った。何[なに]か食[く]おう。",
+          "vi": "Đói bụng rồi. Ăn gì đi.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "食[た]べすぎて、腹[はら]が痛[いた]い。",
+          "vi": "Ăn nhiều quá đau bụng.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:お腹:おなか"
+      ],
+      "note": "腹[はら]が立[た]つ = nổi giận. Lịch sự hơn: お腹[なか]."
     },
     {
-     "jp": "昨日[きのう]、うまいラーメンを食[く]った。",
-     "vi": "Hôm qua tôi ăn mì ramen ngon.",
-     "ctx": "hoithoai"
+      "id": "v:食う:くう",
+      "kana": "くう",
+      "kanji": "食う",
+      "kf": "食[く]う",
+      "hv": "THỰC",
+      "vi": "ăn (khẩu ngữ, nam hay dùng)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khẩu ngữ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "早[はや]く食[く]わなきゃ、休憩[きゅうけい]が終[お]わるよ。",
+          "vi": "Phải ăn nhanh, hết giờ nghỉ đấy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "昨日[きのう]、うまいラーメンを食[く]った。",
+          "vi": "Hôm qua tôi ăn mì ramen ngon.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "朝飯[あさめし]を、食[く]ってから来[き]て。",
+          "vi": "Ăn sáng rồi hãy đến.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "飯[めし]を食[く]う",
+          "vi": "ăn cơm"
+        }
+      ],
+      "syn": [
+        "v:食べる:たべる"
+      ],
+      "note": "Nói với bạn thân thì được; với cấp trên, khách phải dùng 食[た]べる / 召[め]し上[あ]がる."
     },
     {
-     "jp": "朝飯[あさめし]を、食[く]ってから来[き]て。",
-     "vi": "Ăn sáng rồi hãy đến.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "飯[めし]を食[く]う",
-     "vi": "ăn cơm"
-    }
-   ],
-   "syn": [
-    "v:食べる:たべる"
-   ],
-   "note": "Nói với bạn thân thì được; với cấp trên, khách phải dùng 食[た]べる / 召[め]し上[あ]がる."
-  },
-  {
-   "id": "v:馬鹿:ばか",
-   "kana": "ばか",
-   "kanji": "馬鹿",
-   "hv": "MÃ LỘC",
-   "vi": "ngốc, dại dột",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Khẩu ngữ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "そんなことをしたら、馬鹿[ばか]だと思[おも]われるよ。",
-     "vi": "Làm vậy người ta nghĩ mình ngốc đấy.",
-     "ctx": "hoithoai"
+      "id": "v:馬鹿:ばか",
+      "kana": "ばか",
+      "kanji": "馬鹿",
+      "hv": "MÃ LỘC",
+      "vi": "ngốc, dại dột",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khẩu ngữ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "そんなことをしたら、馬鹿[ばか]だと思[おも]われるよ。",
+          "vi": "Làm vậy người ta nghĩ mình ngốc đấy.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "馬鹿[ばか]なことを言[い]わないで。",
+          "vi": "Đừng nói chuyện ngớ ngẩn.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Thường viết バカ / ばか. Gọi người khác là 馬鹿[ばか] rất xúc phạm. Kansai hay nói あほ (nhẹ hơn ở Kansai)."
     },
     {
-     "jp": "馬鹿[ばか]なことを言[い]わないで。",
-     "vi": "Đừng nói chuyện ngớ ngẩn.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "Thường viết バカ / ばか. Gọi người khác là 馬鹿[ばか] rất xúc phạm. Kansai hay nói あほ (nhẹ hơn ở Kansai)."
-  },
-  {
-   "id": "v:きちんと:きちんと",
-   "kana": "きちんと",
-   "kanji": "",
-   "hv": "",
-   "vi": "ngay ngắn, đâu ra đấy",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Khẩu ngữ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "道具[どうぐ]は、きちんと片付[かたづ]けてください。",
-     "vi": "Dụng cụ hãy dọn đâu ra đấy.",
-     "ctx": "xuong"
+      "id": "v:きちんと:きちんと",
+      "kana": "きちんと",
+      "kanji": "",
+      "hv": "",
+      "vi": "ngay ngắn, đâu ra đấy",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khẩu ngữ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "道具[どうぐ]は、きちんと片付[かたづ]けてください。",
+          "vi": "Dụng cụ hãy dọn đâu ra đấy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "毎朝[まいあさ]、きちんと挨拶[あいさつ]をします。",
+          "vi": "Mỗi sáng chào hỏi đàng hoàng.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:ちゃんと:ちゃんと"
+      ],
+      "note": "ちゃんと là dạng nói thân mật hơn."
     },
     {
-     "jp": "毎朝[まいあさ]、きちんと挨拶[あいさつ]をします。",
-     "vi": "Mỗi sáng chào hỏi đàng hoàng.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:ちゃんと:ちゃんと"
-   ],
-   "note": "ちゃんと là dạng nói thân mật hơn."
-  },
-  {
-   "id": "v:めちゃくちゃ:めちゃくちゃ",
-   "kana": "めちゃくちゃ",
-   "kanji": "",
-   "hv": "",
-   "vi": "lộn xộn, bừa bãi; (khẩu ngữ) cực kỳ",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Khẩu ngữ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "地震[じしん]で、部屋[へや]がめちゃくちゃになった。",
-     "vi": "Động đất làm phòng tan hoang.",
-     "ctx": "doisong"
+      "id": "v:めちゃくちゃ:めちゃくちゃ",
+      "kana": "めちゃくちゃ",
+      "kanji": "",
+      "hv": "",
+      "vi": "lộn xộn, bừa bãi; (khẩu ngữ) cực kỳ",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khẩu ngữ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "地震[じしん]で、部屋[へや]がめちゃくちゃになった。",
+          "vi": "Động đất làm phòng tan hoang.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今日[きょう]は、めちゃくちゃ忙[いそが]しかった。",
+          "vi": "Hôm nay bận kinh khủng.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Nói tắt: めっちゃ (Kansai rất hay dùng): めっちゃおいしい = ngon cực."
     },
     {
-     "jp": "今日[きょう]は、めちゃくちゃ忙[いそが]しかった。",
-     "vi": "Hôm nay bận kinh khủng.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "Nói tắt: めっちゃ (Kansai rất hay dùng): めっちゃおいしい = ngon cực."
-  },
-  {
-   "id": "v:マジ:マジ",
-   "kana": "マジ",
-   "kanji": "",
-   "hv": "",
-   "vi": "thật (không đùa) — khẩu ngữ giới trẻ",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Khẩu ngữ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "え、マジで？",
-     "vi": "Hả, thật á?",
-     "ctx": "hoithoai"
+      "id": "v:マジ:マジ",
+      "kana": "マジ",
+      "kanji": "",
+      "hv": "",
+      "vi": "thật, nghiêm túc (không đùa) — khẩu ngữ giới trẻ",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khẩu ngữ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "え、マジで？",
+          "vi": "Hả, thật á?",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "マジで、もう時間[じかん]がないよ。",
+          "vi": "Thật đấy, hết giờ rồi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Gốc từ 真面目[まじめ]. Chỉ nói với bạn thân. Lịch sự: 本当[ほんとう]ですか."
     },
     {
-     "jp": "マジで、もう時間[じかん]がないよ。",
-     "vi": "Thật đấy, hết giờ rồi.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "Gốc từ 真面目[まじめ]. Chỉ nói với bạn thân. Lịch sự: 本当[ほんとう]ですか."
-  },
-  {
-   "id": "v:やばい:やばい",
-   "kana": "やばい",
-   "kanji": "",
-   "hv": "",
-   "vi": "nguy rồi, gay rồi; (giới trẻ) đỉnh quá",
-   "pos": "adj-i",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Khẩu ngữ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "やばい、電車[でんしゃ]に遅[おく]れる！",
-     "vi": "Gay rồi, trễ tàu mất!",
-     "ctx": "hoithoai"
+      "id": "v:やばい:やばい",
+      "kana": "やばい",
+      "kanji": "",
+      "hv": "",
+      "vi": "gay go, nguy to; (giới trẻ) đỉnh quá",
+      "pos": "adj-i",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khẩu ngữ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "やばい、電車[でんしゃ]に遅[おく]れる！",
+          "vi": "Gay rồi, trễ tàu mất!",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "このケーキ、やばい！",
+          "vi": "Bánh này đỉnh quá!",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Nghĩa gốc là xấu (nguy hiểm, gay go); giới trẻ dùng cả nghĩa tốt. Không dùng ở chỗ làm với cấp trên."
     },
     {
-     "jp": "このケーキ、やばい！",
-     "vi": "Bánh này đỉnh quá!",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "Nghĩa gốc là xấu (nguy hiểm, gay go); giới trẻ dùng cả nghĩa tốt. Không dùng ở chỗ làm với cấp trên."
-  },
-  {
-   "id": "v:超:ちょう",
-   "kana": "ちょう",
-   "kanji": "超",
-   "hv": "SIÊU",
-   "vi": "siêu, cực (khẩu ngữ)",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Khẩu ngữ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今日[きょう]は、超[ちょう]暑[あつ]いね。",
-     "vi": "Hôm nay nóng cực nhỉ.",
-     "ctx": "hoithoai"
+      "id": "v:超:ちょう",
+      "kana": "ちょう",
+      "kanji": "超",
+      "hv": "SIÊU",
+      "vi": "siêu, cực (khẩu ngữ)",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khẩu ngữ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]は、超[ちょう]暑[あつ]いね。",
+          "vi": "Hôm nay nóng cực nhỉ.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "この店[みせ]のラーメン、超[ちょう]うまい。",
+          "vi": "Mì ramen quán này siêu ngon.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Khẩu ngữ đặt trước tính từ. Trong từ Hán: 超過[ちょうか] = vượt quá."
     },
     {
-     "jp": "この店[みせ]のラーメン、超[ちょう]うまい。",
-     "vi": "Mì ramen quán này siêu ngon.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "Khẩu ngữ đặt trước tính từ. Trong từ Hán: 超過[ちょうか] = vượt quá."
-  },
-  {
-   "id": "v:それと:それと",
-   "kana": "それと",
-   "kanji": "",
-   "hv": "",
-   "vi": "với lại, còn nữa",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Khẩu ngữ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "牛乳[ぎゅうにゅう]を買[か]ってきて。それと、パンも。",
-     "vi": "Mua sữa về nhé. Với lại cả bánh mì.",
-     "ctx": "hoithoai"
+      "id": "v:それと:それと",
+      "kana": "それと",
+      "kanji": "",
+      "hv": "",
+      "vi": "với lại, còn nữa",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khẩu ngữ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "牛乳[ぎゅうにゅう]を買[か]ってきて。それと、パンも。",
+          "vi": "Mua sữa về nhé. Với lại cả bánh mì.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "それと、明日[あした]は七時[しちじ]集合[しゅうごう]です。",
+          "vi": "Còn nữa, mai tập trung lúc 7 giờ.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:それから:それから"
+      ],
+      "note": "Thêm một ý vào câu trước, hay dùng khi nói."
     },
     {
-     "jp": "それと、明日[あした]は七時[しちじ]集合[しゅうごう]です。",
-     "vi": "Còn nữa, mai tập trung lúc 7 giờ.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:それから:それから"
-   ],
-   "note": "Thêm một ý vào câu trước, hay dùng khi nói."
-  },
-  {
-   "id": "v:平気:へいき",
-   "kana": "へいき",
-   "kanji": "平気",
-   "hv": "BÌNH KHÍ",
-   "vi": "chẳng hề gì, tỉnh bơ",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Khẩu ngữ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "少[すこ]しぐらいの雨[あめ]なら、平気[へいき]だよ。",
-     "vi": "Mưa chút thì chẳng sao đâu.",
-     "ctx": "hoithoai"
+      "id": "v:平気:へいき",
+      "kana": "へいき",
+      "kanji": "平気",
+      "hv": "BÌNH KHÍ",
+      "vi": "bình thản, tỉnh bơ; chẳng hề gì",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khẩu ngữ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "少[すこ]しぐらいの雨[あめ]なら、平気[へいき]だよ。",
+          "vi": "Mưa chút thì chẳng sao đâu.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "寒[さむ]くても、平気[へいき]な顔[かお]をしています。",
+          "vi": "Dù lạnh vẫn tỉnh bơ.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:大丈夫:だいじょうぶ"
+      ],
+      "note": "平気[へいき]で〜 = thản nhiên làm (việc xấu): 平気[へいき]で嘘[うそ]をつく."
     },
     {
-     "jp": "寒[さむ]くても、平気[へいき]な顔[かお]をしています。",
-     "vi": "Dù lạnh vẫn tỉnh bơ.",
-     "ctx": "xuong"
+      "id": "v:気楽:きらく",
+      "kana": "きらく",
+      "kanji": "気楽",
+      "hv": "KHÍ NHẠC",
+      "vi": "thoải mái, vô tư (không phải lo nghĩ)",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Khẩu ngữ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "一人[ひとり]暮[ぐ]らしは、気楽[きらく]です。",
+          "vi": "Sống một mình thì thoải mái.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "気楽[きらく]に、話[はな]してくださいね。",
+          "vi": "Cứ nói chuyện thoải mái nhé.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "気楽[きらく]に = cứ thoải mái, đừng căng thẳng."
     }
-   ],
-   "syn": [
-    "v:大丈夫:だいじょうぶ"
-   ],
-   "note": "平気[へいき]で〜 = thản nhiên làm (việc xấu): 平気[へいき]で嘘[うそ]をつく."
-  },
-  {
-   "id": "v:気楽:きらく",
-   "kana": "きらく",
-   "kanji": "気楽",
-   "hv": "KHÍ NHẠC",
-   "vi": "thoải mái, vô tư (không phải lo nghĩ)",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Khẩu ngữ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "一人[ひとり]暮[ぐ]らしは、気楽[きらく]です。",
-     "vi": "Sống một mình thì thoải mái.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "気楽[きらく]に、話[はな]してくださいね。",
-     "vi": "Cứ nói chuyện thoải mái nhé.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "気楽[きらく]に = cứ thoải mái, đừng căng thẳng."
-  }
- ]
+  ]
 }

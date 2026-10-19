@@ -4,7 +4,7 @@ import { esc, rich, rubyHTML, plain, shuffle, autoChunks, END_PUNCT, wordHTML, i
 import { D, LEVELS, setPrefs } from './data.js';
 import { S } from './settings.js';
 import { selectItems, SOURCES, answerOf, distractors, readHint } from './quiz.js';
-import { verbInfo, conjPart, FORMS, FORM_LEVEL, shortVi, DERIVED, hasForm } from './conj.js';
+import { verbInfo, conjPart, FORMS, FORM_LEVEL, shortVi, verbVi, DERIVED, hasForm } from './conj.js';
 import { adjInfo, adjConj } from './adj.js';
 import { COUNTERS, countWrong, counterMark } from './counters.js';
 import { countMark, learnedForms } from './wordx.js';
@@ -98,9 +98,9 @@ export function verbPhrases(it) {
   const out = [];
   for (const c of it.coll || []) {
     const jp = c.jp || '';
-    if (jp.endsWith(v.dict)) out.push({ pre: jp.slice(0, -v.dict.length), vi: c.vi || shortVi(it.vi), it, v });
+    if (jp.endsWith(v.dict)) out.push({ pre: jp.slice(0, -v.dict.length), vi: c.vi || verbVi(it), it, v });
   }
-  if (!out.length) out.push({ pre: '', vi: shortVi(it.vi), it, v, bare: true });
+  if (!out.length) out.push({ pre: '', vi: verbVi(it), it, v, bare: true });
   return out;
 }
 const PRECHUNK = pre => (pre ? (autoChunks(pre).join('') === pre ? autoChunks(pre) : [pre]) : []);

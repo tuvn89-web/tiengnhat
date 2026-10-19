@@ -73,7 +73,7 @@ function conjTableHTML(it) {
   const learned = learnedForms();
   const row = f => {
     const c = conjugate(v, f);
-    return c ? `<tr><th scope="row">${esc(FORMS[f])}<small>${FORM_LEVEL[f]}</small></th><td lang="ja">${rich(c.mark)}</td><td>${esc(formVi(f, it.vi))}</td></tr>` : '';
+    return c ? `<tr><th scope="row">${esc(FORMS[f])}<small>${FORM_LEVEL[f]}</small></th><td lang="ja">${rich(c.mark)}</td><td>${esc(formVi(f, it))}</td></tr>` : '';
   };
   const fs = Object.keys(FORMS).filter(f => hasForm(v, f));
   const a = fs.filter(f => learned.has(f)), b = fs.filter(f => !learned.has(f));

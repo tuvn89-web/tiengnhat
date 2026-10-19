@@ -13,7 +13,12 @@ const AVI = {
 };
 // Tính từ có danh từ 〜み thông dụng (重み, 痛み, 甘み…)
 const MI = ['おもい', 'いたい', 'たのしい', 'あまい', 'にがい', 'あかい', 'あおい', 'ふかい', 'つよい', 'よわい', 'かなしい', 'あたたかい', 'まるい', 'くるしい', 'うまい', 'からい', 'ありがたい'];
-export const adjVi = (form, vi) => (AVI[form] || '{a}').replaceAll('{a}', shortVi(vi));
+// nghĩa gốc đã mang chữ "không" (だめ "không được") → phủ định nói "không phải là …", khỏi thành "không không được"
+export const adjVi = (form, vi) => {
+  const a = shortVi(vi);
+  if (/^không\s/.test(a) && (form === 'nai' || form === 'nakatta')) return (form === 'nai' ? 'không phải là ' : 'đã không phải là ') + a;
+  return (AVI[form] || '{a}').replaceAll('{a}', a);
+};
 
 export function adjInfo(it) {
   if (!it || it.reg === 'kansai') return null;

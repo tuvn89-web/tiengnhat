@@ -1,1112 +1,1112 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n3-22",
-  "title": "JLPT N3 22 – Ý kiến & thảo luận",
-  "type": "vocab",
-  "level": "N3",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 1,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:賛成:さんせい",
-   "kana": "さんせい",
-   "kanji": "賛成",
-   "hv": "TÁN THÀNH",
-   "vi": "tán thành",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "その案[あん]に賛成[さんせい]です。",
-     "vi": "Tôi tán thành phương án đó.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "賛成[さんせい]の人[ひと]は、手[て]を挙[あ]げてください。",
-     "vi": "Ai tán thành xin giơ tay.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "〜に賛成[さんせい]する",
-     "vi": "tán thành …"
-    }
-   ],
-   "ant": [
-    "v:反対:はんたい"
-   ]
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n3-22",
+    "title": "JLPT N3 22 – Ý kiến & thảo luận",
+    "type": "vocab",
+    "level": "N3",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:議論:ぎろん",
-   "kana": "ぎろん",
-   "kanji": "議論",
-   "hv": "NGHỊ LUẬN",
-   "vi": "tranh luận, bàn cãi",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "会議[かいぎ]で、長[なが]い時間[じかん]議論[ぎろん]しました。",
-     "vi": "Trong cuộc họp đã tranh luận lâu.",
-     "ctx": "xuong"
+      "id": "v:賛成:さんせい",
+      "kana": "さんせい",
+      "kanji": "賛成",
+      "hv": "TÁN THÀNH",
+      "vi": "tán thành",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "その案[あん]に賛成[さんせい]です。",
+          "vi": "Tôi tán thành phương án đó.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "賛成[さんせい]の人[ひと]は、手[て]を挙[あ]げてください。",
+          "vi": "Ai tán thành xin giơ tay.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "〜に賛成[さんせい]する",
+          "vi": "tán thành …"
+        }
+      ],
+      "ant": [
+        "v:反対:はんたい"
+      ]
     },
     {
-     "jp": "その問題[もんだい]は、まだ議論[ぎろん]が必要[ひつよう]です。",
-     "vi": "Vấn đề đó còn cần bàn thêm.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "問題[もんだい]を議論[ぎろん]する",
-     "vi": "bàn về vấn đề"
-    }
-   ],
-   "syn": [
-    "v:話し合う:はなしあう"
-   ]
-  },
-  {
-   "id": "v:主張:しゅちょう",
-   "kana": "しゅちょう",
-   "kanji": "主張",
-   "hv": "CHỦ TRƯƠNG",
-   "vi": "khẳng định, chủ trương (ý mình)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "自分[じぶん]の意見[いけん]を、はっきり主張[しゅちょう]しましょう。",
-     "vi": "Hãy nói rõ ý kiến của mình.",
-     "ctx": "xuong"
+      "id": "v:議論:ぎろん",
+      "kana": "ぎろん",
+      "kanji": "議論",
+      "hv": "NGHỊ LUẬN",
+      "vi": "tranh luận, bàn cãi",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会議[かいぎ]で、長[なが]い時間[じかん]議論[ぎろん]しました。",
+          "vi": "Trong cuộc họp đã tranh luận lâu.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "その問題[もんだい]は、まだ議論[ぎろん]が必要[ひつよう]です。",
+          "vi": "Vấn đề đó còn cần bàn thêm.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "問題[もんだい]を議論[ぎろん]する",
+          "vi": "bàn về vấn đề"
+        }
+      ],
+      "syn": [
+        "v:話し合う:はなしあう"
+      ]
     },
     {
-     "jp": "彼[かれ]は、自分[じぶん]は悪[わる]くないと主張[しゅちょう]した。",
-     "vi": "Anh ta khăng khăng mình không sai.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "意見[いけん]を主張[しゅちょう]する",
-     "vi": "nêu (bảo vệ) ý kiến"
-    }
-   ]
-  },
-  {
-   "id": "v:考え:かんがえ",
-   "kana": "かんがえ",
-   "kanji": "考え",
-   "kf": "考[かんが]え",
-   "hv": "KHẢO",
-   "vi": "ý nghĩ, ý tưởng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "いい考[かんが]えが浮[う]かびました。",
-     "vi": "Tôi nảy ra ý hay.",
-     "ctx": "doisong"
+      "id": "v:主張:しゅちょう",
+      "kana": "しゅちょう",
+      "kanji": "主張",
+      "hv": "CHỦ TRƯƠNG",
+      "vi": "khẳng định, chủ trương (ý mình)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "自分[じぶん]の意見[いけん]を、はっきり主張[しゅちょう]しましょう。",
+          "vi": "Hãy nói rõ ý kiến của mình.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "彼[かれ]は、自分[じぶん]は悪[わる]くないと主張[しゅちょう]した。",
+          "vi": "Anh ta khăng khăng mình không sai.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "意見[いけん]を主張[しゅちょう]する",
+          "vi": "nêu (bảo vệ) ý kiến"
+        }
+      ]
     },
     {
-     "jp": "あなたの考[かんが]えを聞[き]かせてください。",
-     "vi": "Cho tôi nghe suy nghĩ của anh.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:考える:かんがえる"
-   ]
-  },
-  {
-   "id": "v:疑問:ぎもん",
-   "kana": "ぎもん",
-   "kanji": "疑問",
-   "hv": "NGHI VẤN",
-   "vi": "nghi vấn, thắc mắc",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "何[なに]か疑問[ぎもん]があれば、聞[き]いてください。",
-     "vi": "Có gì thắc mắc xin cứ hỏi.",
-     "ctx": "xuong"
+      "id": "v:考え:かんがえ",
+      "kana": "かんがえ",
+      "kanji": "考え",
+      "kf": "考[かんが]え",
+      "hv": "KHẢO",
+      "vi": "ý nghĩ, ý tưởng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "いい考[かんが]えが浮[う]かびました。",
+          "vi": "Tôi nảy ra ý hay.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "あなたの考[かんが]えを聞[き]かせてください。",
+          "vi": "Cho tôi nghe suy nghĩ của anh.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:考える:かんがえる"
+      ]
     },
     {
-     "jp": "その説明[せつめい]には、疑問[ぎもん]が残[のこ]ります。",
-     "vi": "Lời giải thích đó vẫn còn chỗ đáng ngờ.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:疑う:うたがう"
-   ],
-   "note": "疑問文[ぎもんぶん] = câu hỏi (ngữ pháp)."
-  },
-  {
-   "id": "v:批判:ひはん",
-   "kana": "ひはん",
-   "kanji": "批判",
-   "hv": "PHÊ PHÁN",
-   "vi": "phê phán, chỉ trích",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "人[ひと]を批判[ひはん]する前[まえ]に、自分[じぶん]を見[み]ましょう。",
-     "vi": "Trước khi phê phán người khác hãy nhìn lại mình.",
-     "ctx": "doisong"
+      "id": "v:疑問:ぎもん",
+      "kana": "ぎもん",
+      "kanji": "疑問",
+      "hv": "NGHI VẤN",
+      "vi": "nghi vấn, thắc mắc",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "何[なに]か疑問[ぎもん]があれば、聞[き]いてください。",
+          "vi": "Có gì thắc mắc xin cứ hỏi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "その説明[せつめい]には、疑問[ぎもん]が残[のこ]ります。",
+          "vi": "Lời giải thích đó vẫn còn chỗ đáng ngờ.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:疑う:うたがう"
+      ],
+      "note": "疑問文[ぎもんぶん] = câu hỏi (ngữ pháp)."
     },
     {
-     "jp": "会社[かいしゃ]の新[あたら]しいルールは、批判[ひはん]されています。",
-     "vi": "Quy tắc mới của công ty đang bị chỉ trích.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "人[ひと]を批判[ひはん]する",
-     "vi": "phê phán người khác"
-    }
-   ]
-  },
-  {
-   "id": "v:判断:はんだん",
-   "kana": "はんだん",
-   "kanji": "判断",
-   "hv": "PHÁN ĐOẠN",
-   "vi": "phán đoán",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "自分[じぶん]で判断[はんだん]しないで、班長[はんちょう]に聞[き]いてください。",
-     "vi": "Đừng tự phán đoán, hãy hỏi tổ trưởng.",
-     "ctx": "xuong"
+      "id": "v:批判:ひはん",
+      "kana": "ひはん",
+      "kanji": "批判",
+      "hv": "PHÊ PHÁN",
+      "vi": "phê phán, chỉ trích",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "人[ひと]を批判[ひはん]する前[まえ]に、自分[じぶん]を見[み]ましょう。",
+          "vi": "Trước khi phê phán người khác hãy nhìn lại mình.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "会社[かいしゃ]の新[あたら]しいルールは、批判[ひはん]されています。",
+          "vi": "Quy tắc mới của công ty đang bị chỉ trích.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "人[ひと]を批判[ひはん]する",
+          "vi": "phê phán người khác"
+        }
+      ]
     },
     {
-     "jp": "色[いろ]で、魚[さかな]の新[あたら]しさを判断[はんだん]します。",
-     "vi": "Phán đoán độ tươi của cá bằng màu.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "状況[じょうきょう]を判断[はんだん]する",
-     "vi": "phán đoán tình hình"
-    }
-   ]
-  },
-  {
-   "id": "v:納得:なっとく",
-   "kana": "なっとく",
-   "kanji": "納得",
-   "hv": "NẠP ĐẮC",
-   "vi": "chấp nhận được, thông suốt",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "説明[せつめい]を聞[き]いて、納得[なっとく]しました。",
-     "vi": "Nghe giải thích tôi đã thông.",
-     "ctx": "xuong"
+      "id": "v:判断:はんだん",
+      "kana": "はんだん",
+      "kanji": "判断",
+      "hv": "PHÁN ĐOẠN",
+      "vi": "phán đoán",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "自分[じぶん]で判断[はんだん]しないで、班長[はんちょう]に聞[き]いてください。",
+          "vi": "Đừng tự phán đoán, hãy hỏi tổ trưởng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "色[いろ]で、魚[さかな]の新[あたら]しさを判断[はんだん]します。",
+          "vi": "Phán đoán độ tươi của cá bằng màu.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "状況[じょうきょう]を判断[はんだん]する",
+          "vi": "phán đoán tình hình"
+        }
+      ]
     },
     {
-     "jp": "その結果[けっか]には、納得[なっとく]できません。",
-     "vi": "Tôi không chấp nhận được kết quả đó.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "説明[せつめい]に納得[なっとく]する",
-     "vi": "thông suốt với lời giải thích"
-    }
-   ]
-  },
-  {
-   "id": "v:一致:いっち",
-   "kana": "いっち",
-   "kanji": "一致",
-   "hv": "NHẤT TRÍ",
-   "vi": "nhất trí, trùng khớp",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "みんなの意見[いけん]が一致[いっち]しました。",
-     "vi": "Ý kiến mọi người đã nhất trí.",
-     "ctx": "xuong"
+      "id": "v:納得:なっとく",
+      "kana": "なっとく",
+      "kanji": "納得",
+      "hv": "NẠP ĐẮC",
+      "vi": "chấp nhận được, thông suốt",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "説明[せつめい]を聞[き]いて、納得[なっとく]しました。",
+          "vi": "Nghe giải thích tôi đã thông.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "その結果[けっか]には、納得[なっとく]できません。",
+          "vi": "Tôi không chấp nhận được kết quả đó.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "説明[せつめい]に納得[なっとく]する",
+          "vi": "thông suốt với lời giải thích"
+        }
+      ]
     },
     {
-     "jp": "書類[しょるい]の名前[なまえ]と、カードの名前[なまえ]が一致[いっち]しません。",
-     "vi": "Tên trên giấy tờ không khớp với tên trên thẻ.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "意見[いけん]が一致[いっち]する",
-     "vi": "ý kiến nhất trí"
-    }
-   ]
-  },
-  {
-   "id": "v:アンケート:アンケート",
-   "kana": "アンケート",
-   "kanji": "",
-   "hv": "",
-   "vi": "phiếu khảo sát",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会社[かいしゃ]のアンケートに答[こた]えました。",
-     "vi": "Tôi trả lời phiếu khảo sát của công ty.",
-     "ctx": "xuong"
+      "id": "v:一致:いっち",
+      "kana": "いっち",
+      "kanji": "一致",
+      "hv": "NHẤT TRÍ",
+      "vi": "nhất trí, trùng khớp",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "みんなの意見[いけん]が一致[いっち]しました。",
+          "vi": "Ý kiến mọi người đã nhất trí.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "書類[しょるい]の名前[なまえ]と、カードの名前[なまえ]が一致[いっち]しません。",
+          "vi": "Tên trên giấy tờ không khớp với tên trên thẻ.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "意見[いけん]が一致[いっち]する",
+          "vi": "ý kiến nhất trí"
+        }
+      ]
     },
     {
-     "jp": "アンケートの結果[けっか]を発表[はっぴょう]します。",
-     "vi": "Công bố kết quả khảo sát.",
-     "ctx": "xuong"
-    }
-   ],
-   "goc": "enquête (tiếng Pháp)"
-  },
-  {
-   "id": "v:調査:ちょうさ",
-   "kana": "ちょうさ",
-   "kanji": "調査",
-   "hv": "ĐIỀU TRA",
-   "vi": "khảo sát, điều tra (chính thức)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "事故[じこ]の原因[げんいん]を調査[ちょうさ]しています。",
-     "vi": "Đang điều tra nguyên nhân tai nạn.",
-     "ctx": "xuong"
+      "id": "v:アンケート:アンケート",
+      "kana": "アンケート",
+      "kanji": "",
+      "hv": "",
+      "vi": "phiếu khảo sát",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]のアンケートに答[こた]えました。",
+          "vi": "Tôi trả lời phiếu khảo sát của công ty.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "アンケートの結果[けっか]を発表[はっぴょう]します。",
+          "vi": "Công bố kết quả khảo sát.",
+          "ctx": "xuong"
+        }
+      ],
+      "goc": "enquête (tiếng Pháp)"
     },
     {
-     "jp": "国[くに]の調査[ちょうさ]によると、人口[じんこう]が減[へ]っています。",
-     "vi": "Theo khảo sát của nhà nước, dân số đang giảm.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "原因[げんいん]を調査[ちょうさ]する",
-     "vi": "điều tra nguyên nhân"
-    }
-   ]
-  },
-  {
-   "id": "v:対象:たいしょう",
-   "kana": "たいしょう",
-   "kanji": "対象",
-   "hv": "ĐỐI TƯỢNG",
-   "vi": "đối tượng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "このアンケートは、外国人社員[がいこくじんしゃいん]が対象[たいしょう]です。",
-     "vi": "Khảo sát này dành cho đối tượng nhân viên người nước ngoài.",
-     "ctx": "xuong"
+      "id": "v:調査:ちょうさ",
+      "kana": "ちょうさ",
+      "kanji": "調査",
+      "hv": "ĐIỀU TRA",
+      "vi": "khảo sát, điều tra (chính thức)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "事故[じこ]の原因[げんいん]を調査[ちょうさ]しています。",
+          "vi": "Đang điều tra nguyên nhân tai nạn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "国[くに]の調査[ちょうさ]によると、人口[じんこう]が減[へ]っています。",
+          "vi": "Theo khảo sát của nhà nước, dân số đang giảm.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "原因[げんいん]を調査[ちょうさ]する",
+          "vi": "điều tra nguyên nhân"
+        }
+      ]
     },
     {
-     "jp": "子[こ]どもを対象[たいしょう]にした日本語[にほんご]教室[きょうしつ]です。",
-     "vi": "Lớp tiếng Nhật dành cho trẻ em.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "〜を対象[たいしょう]に(した) = dành cho đối tượng …."
-  },
-  {
-   "id": "v:関心:かんしん",
-   "kana": "かんしん",
-   "kanji": "関心",
-   "hv": "QUAN TÂM",
-   "vi": "sự quan tâm",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]の政治[せいじ]に、関心[かんしん]がありますか。",
-     "vi": "Anh có quan tâm chính trị Nhật không?",
-     "ctx": "hoithoai"
+      "id": "v:対象:たいしょう",
+      "kana": "たいしょう",
+      "kanji": "対象",
+      "hv": "ĐỐI TƯỢNG",
+      "vi": "đối tượng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このアンケートは、外国人社員[がいこくじんしゃいん]が対象[たいしょう]です。",
+          "vi": "Khảo sát này dành cho đối tượng nhân viên người nước ngoài.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "子[こ]どもを対象[たいしょう]にした日本語[にほんご]教室[きょうしつ]です。",
+          "vi": "Lớp tiếng Nhật dành cho trẻ em.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "〜を対象[たいしょう]に(した) = dành cho đối tượng …."
     },
     {
-     "jp": "環境[かんきょう]の問題[もんだい]に、関心[かんしん]を持[も]っています。",
-     "vi": "Tôi quan tâm vấn đề môi trường.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:興味:きょうみ"
-   ],
-   "confuse": [
-    "v:感心:かんしん"
-   ]
-  },
-  {
-   "id": "v:関連:かんれん",
-   "kana": "かんれん",
-   "kanji": "関連",
-   "hv": "QUAN LIÊN",
-   "vi": "liên quan",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この事故[じこ]に関連[かんれん]して、ルールが変[か]わりました。",
-     "vi": "Liên quan tới vụ tai nạn này, quy tắc đã thay đổi.",
-     "ctx": "xuong"
+      "id": "v:関心:かんしん",
+      "kana": "かんしん",
+      "kanji": "関心",
+      "hv": "QUAN TÂM",
+      "vi": "sự quan tâm",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]の政治[せいじ]に、関心[かんしん]がありますか。",
+          "vi": "Anh có quan tâm chính trị Nhật không?",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "環境[かんきょう]の問題[もんだい]に、関心[かんしん]を持[も]っています。",
+          "vi": "Tôi quan tâm vấn đề môi trường.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:興味:きょうみ"
+      ],
+      "confuse": [
+        "v:感心:かんしん"
+      ]
     },
     {
-     "jp": "関連[かんれん]の書類[しょるい]も、持[も]ってきてください。",
-     "vi": "Hãy mang cả giấy tờ liên quan.",
-     "ctx": "thutuc"
-    }
-   ],
-   "syn": [
-    "v:関係:かんけい"
-   ]
-  },
-  {
-   "id": "v:話題:わだい",
-   "kana": "わだい",
-   "kanji": "話題",
-   "hv": "THOẠI ĐỀ",
-   "vi": "đề tài (câu chuyện)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "最近[さいきん]の話題[わだい]は、新[あたら]しい工場[こうじょう]のことです。",
-     "vi": "Đề tài dạo này là chuyện nhà máy mới.",
-     "ctx": "xuong"
+      "id": "v:関連:かんれん",
+      "kana": "かんれん",
+      "kanji": "関連",
+      "hv": "QUAN LIÊN",
+      "vi": "liên quan",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この事故[じこ]に関連[かんれん]して、ルールが変[か]わりました。",
+          "vi": "Liên quan tới vụ tai nạn này, quy tắc đã thay đổi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "関連[かんれん]の書類[しょるい]も、持[も]ってきてください。",
+          "vi": "Hãy mang cả giấy tờ liên quan.",
+          "ctx": "thutuc"
+        }
+      ],
+      "syn": [
+        "v:関係:かんけい"
+      ]
     },
     {
-     "jp": "日本人[にほんじん]と話[はな]す時[とき]、天気[てんき]は便利[べんり]な話題[わだい]です。",
-     "vi": "Khi nói chuyện với người Nhật, thời tiết là đề tài tiện lợi.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:要求:ようきゅう",
-   "kana": "ようきゅう",
-   "kanji": "要求",
-   "hv": "YẾU CẦU",
-   "vi": "yêu sách, đòi hỏi",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "給料[きゅうりょう]を上[あ]げてほしいと、会社[かいしゃ]に要求[ようきゅう]しました。",
-     "vi": "Đã yêu cầu công ty tăng lương.",
-     "ctx": "xuong"
+      "id": "v:話題:わだい",
+      "kana": "わだい",
+      "kanji": "話題",
+      "hv": "THOẠI ĐỀ",
+      "vi": "đề tài (câu chuyện)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "最近[さいきん]の話題[わだい]は、新[あたら]しい工場[こうじょう]のことです。",
+          "vi": "Đề tài dạo này là chuyện nhà máy mới.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本人[にほんじん]と話[はな]す時[とき]、天気[てんき]は便利[べんり]な話題[わだい]です。",
+          "vi": "Khi nói chuyện với người Nhật, thời tiết là đề tài tiện lợi.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "お客様[きゃくさま]の要求[ようきゅう]が、厳[きび]しくなっています。",
-     "vi": "Đòi hỏi của khách ngày càng khắt khe.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "〜を要求[ようきゅう]する",
-     "vi": "đòi hỏi …"
-    }
-   ],
-   "syn": [
-    "v:求める:もとめる"
-   ]
-  },
-  {
-   "id": "v:文句:もんく",
-   "kana": "もんく",
-   "kanji": "文句",
-   "hv": "VĂN CÚ",
-   "vi": "lời phàn nàn",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "仕事[しごと]の文句[もんく]ばかり言[い]わないで。",
-     "vi": "Đừng toàn phàn nàn về công việc.",
-     "ctx": "doisong"
+      "id": "v:要求:ようきゅう",
+      "kana": "ようきゅう",
+      "kanji": "要求",
+      "hv": "YẾU CẦU",
+      "vi": "đòi hỏi, yêu cầu; yêu sách",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "給料[きゅうりょう]を上[あ]げてほしいと、会社[かいしゃ]に要求[ようきゅう]しました。",
+          "vi": "Đã yêu cầu công ty tăng lương.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "お客様[きゃくさま]の要求[ようきゅう]が、厳[きび]しくなっています。",
+          "vi": "Đòi hỏi của khách ngày càng khắt khe.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "〜を要求[ようきゅう]する",
+          "vi": "đòi hỏi …"
+        }
+      ],
+      "syn": [
+        "v:求める:もとめる"
+      ]
     },
     {
-     "jp": "隣[となり]の人[ひと]に、音[おと]がうるさいと文句[もんく]を言[い]われた。",
-     "vi": "Bị hàng xóm phàn nàn là ồn.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "文句[もんく]を言[い]う = phàn nàn."
-  },
-  {
-   "id": "v:不満:ふまん",
-   "kana": "ふまん",
-   "kanji": "不満",
-   "hv": "BẤT MÃN",
-   "vi": "bất mãn, không hài lòng",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "給料[きゅうりょう]に不満[ふまん]があります。",
-     "vi": "Tôi không hài lòng với lương.",
-     "ctx": "xuong"
+      "id": "v:文句:もんく",
+      "kana": "もんく",
+      "kanji": "文句",
+      "hv": "VĂN CÚ",
+      "vi": "lời phàn nàn",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]の文句[もんく]ばかり言[い]わないで。",
+          "vi": "Đừng toàn phàn nàn về công việc.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "隣[となり]の人[ひと]に、音[おと]がうるさいと文句[もんく]を言[い]われた。",
+          "vi": "Bị hàng xóm phàn nàn là ồn.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "文句[もんく]を言[い]う = phàn nàn."
     },
     {
-     "jp": "不満[ふまん]そうな顔[かお]をしていますね。",
-     "vi": "Trông mặt không hài lòng nhỉ.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "ant": [
-    "v:満足:まんぞく"
-   ]
-  },
-  {
-   "id": "v:否定:ひてい",
-   "kana": "ひてい",
-   "kanji": "否定",
-   "hv": "PHỦ ĐỊNH",
-   "vi": "phủ nhận",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "彼[かれ]は、噂[うわさ]を否定[ひてい]しました。",
-     "vi": "Anh ấy phủ nhận tin đồn.",
-     "ctx": "doisong"
+      "id": "v:不満:ふまん",
+      "kana": "ふまん",
+      "kanji": "不満",
+      "hv": "BẤT MÃN",
+      "vi": "bất mãn, không hài lòng",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "給料[きゅうりょう]に不満[ふまん]があります。",
+          "vi": "Tôi không hài lòng với lương.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "不満[ふまん]そうな顔[かお]をしていますね。",
+          "vi": "Trông mặt không hài lòng nhỉ.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "ant": [
+        "v:満足:まんぞく"
+      ]
     },
     {
-     "jp": "人[ひと]の意見[いけん]を、すぐ否定[ひてい]しないでください。",
-     "vi": "Đừng vội bác bỏ ý kiến người khác.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "噂[うわさ]を否定[ひてい]する",
-     "vi": "phủ nhận tin đồn"
-    }
-   ],
-   "ant": [
-    {
-     "w": "肯定[こうてい]",
-     "vi": "khẳng định"
-    }
-   ],
-   "note": "否定形[ひていけい] = thể phủ định."
-  },
-  {
-   "id": "v:寧ろ:むしろ",
-   "kana": "むしろ",
-   "kanji": "寧ろ",
-   "kf": "寧[むし]ろ",
-   "hv": "NINH",
-   "vi": "thà … còn hơn, đúng hơn là",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "休[やす]みの日[ひ]は、出[で]かけるより、寧[むし]ろ家[いえ]で寝[ね]たい。",
-     "vi": "Ngày nghỉ, thà ở nhà ngủ còn hơn đi chơi.",
-     "ctx": "doisong"
+      "id": "v:否定:ひてい",
+      "kana": "ひてい",
+      "kanji": "否定",
+      "hv": "PHỦ ĐỊNH",
+      "vi": "phủ nhận",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "彼[かれ]は、噂[うわさ]を否定[ひてい]しました。",
+          "vi": "Anh ấy phủ nhận tin đồn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "人[ひと]の意見[いけん]を、すぐ否定[ひてい]しないでください。",
+          "vi": "Đừng vội bác bỏ ý kiến người khác.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "噂[うわさ]を否定[ひてい]する",
+          "vi": "phủ nhận tin đồn"
+        }
+      ],
+      "ant": [
+        {
+          "w": "肯定[こうてい]",
+          "vi": "khẳng định"
+        }
+      ],
+      "note": "否定形[ひていけい] = thể phủ định."
     },
     {
-     "jp": "失敗[しっぱい]は、寧[むし]ろいい経験[けいけん]です。",
-     "vi": "Thất bại đúng hơn là một kinh nghiệm tốt.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Thường viết むしろ. Hay đi với 〜より: AよりむしろB."
-  },
-  {
-   "id": "v:あるいは:あるいは",
-   "kana": "あるいは",
-   "kanji": "",
-   "hv": "",
-   "vi": "hoặc là (văn viết); hay có khi",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "電話[でんわ]、あるいはメールで連絡[れんらく]してください。",
-     "vi": "Hãy liên lạc bằng điện thoại hoặc email.",
-     "ctx": "thutuc"
+      "id": "v:寧ろ:むしろ",
+      "kana": "むしろ",
+      "kanji": "寧ろ",
+      "kf": "寧[むし]ろ",
+      "hv": "NINH",
+      "vi": "thà … còn hơn, đúng hơn là",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "休[やす]みの日[ひ]は、出[で]かけるより、寧[むし]ろ家[いえ]で寝[ね]たい。",
+          "vi": "Ngày nghỉ, thà ở nhà ngủ còn hơn đi chơi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "失敗[しっぱい]は、寧[むし]ろいい経験[けいけん]です。",
+          "vi": "Thất bại đúng hơn là một kinh nghiệm tốt.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Thường viết むしろ. Hay đi với 〜より: AよりむしろB."
     },
     {
-     "jp": "あるいは、明日[あした]は雨[あめ]かもしれない。",
-     "vi": "Có lẽ mai mưa.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:または:または"
-   ]
-  },
-  {
-   "id": "v:しかも:しかも",
-   "kana": "しかも",
-   "kanji": "",
-   "hv": "",
-   "vi": "lại còn, thêm nữa",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この店[みせ]は安[やす]くて、しかもおいしい。",
-     "vi": "Quán này rẻ, lại còn ngon.",
-     "ctx": "doisong"
+      "id": "v:あるいは:あるいは",
+      "kana": "あるいは",
+      "kanji": "",
+      "hv": "",
+      "vi": "hoặc là (văn viết); hay có khi",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "電話[でんわ]、あるいはメールで連絡[れんらく]してください。",
+          "vi": "Hãy liên lạc bằng điện thoại hoặc email.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "あるいは、明日[あした]は雨[あめ]かもしれない。",
+          "vi": "Có lẽ mai mưa.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:または:または"
+      ]
     },
     {
-     "jp": "雨[あめ]が降[ふ]ってきた。しかも、傘[かさ]がない。",
-     "vi": "Trời đổ mưa. Lại còn không có ô.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:それに:それに"
-   ]
-  },
-  {
-   "id": "v:一方:いっぽう",
-   "kana": "いっぽう",
-   "kanji": "一方",
-   "hv": "NHẤT PHƯƠNG",
-   "vi": "mặt khác; một phía",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]は物価[ぶっか]が高[たか]い。一方[いっぽう]、給料[きゅうりょう]も高[たか]い。",
-     "vi": "Nhật vật giá cao. Mặt khác lương cũng cao.",
-     "ctx": "doisong"
+      "id": "v:しかも:しかも",
+      "kana": "しかも",
+      "kanji": "",
+      "hv": "",
+      "vi": "lại còn, thêm nữa",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この店[みせ]は安[やす]くて、しかもおいしい。",
+          "vi": "Quán này rẻ, lại còn ngon.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "雨[あめ]が降[ふ]ってきた。しかも、傘[かさ]がない。",
+          "vi": "Trời đổ mưa. Lại còn không có ô.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:それに:それに"
+      ]
     },
     {
-     "jp": "一方[いっぽう]の話[はなし]だけで、判断[はんだん]しないで。",
-     "vi": "Đừng phán đoán chỉ nghe một phía.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Còn là ngữ pháp 〜一方[いっぽう]だ (cứ … mãi) và 〜一方[いっぽう]で (mặt khác)."
-  },
-  {
-   "id": "v:それとも:それとも",
-   "kana": "それとも",
-   "kanji": "",
-   "hv": "",
-   "vi": "hay là (trong câu hỏi)",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "コーヒーにしますか、それとも紅茶[こうちゃ]にしますか。",
-     "vi": "Uống cà phê hay là trà?",
-     "ctx": "hoithoai"
+      "id": "v:一方:いっぽう",
+      "kana": "いっぽう",
+      "kanji": "一方",
+      "hv": "NHẤT PHƯƠNG",
+      "vi": "mặt khác; một phía",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]は物価[ぶっか]が高[たか]い。一方[いっぽう]、給料[きゅうりょう]も高[たか]い。",
+          "vi": "Nhật vật giá cao. Mặt khác lương cũng cao.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "一方[いっぽう]の話[はなし]だけで、判断[はんだん]しないで。",
+          "vi": "Đừng phán đoán chỉ nghe một phía.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Còn là ngữ pháp 〜一方[いっぽう]だ (cứ … mãi) và 〜一方[いっぽう]で (mặt khác)."
     },
     {
-     "jp": "今日[きょう]行[い]く？それとも明日[あした]？",
-     "vi": "Hôm nay đi? Hay là mai?",
-     "ctx": "hoithoai"
-    }
-   ],
-   "confuse": [
-    "v:あるいは:あるいは"
-   ],
-   "note": "それとも chỉ dùng trong câu hỏi lựa chọn."
-  },
-  {
-   "id": "v:それでも:それでも",
-   "kana": "それでも",
-   "kanji": "",
-   "hv": "",
-   "vi": "dù vậy vẫn",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "雨[あめ]が強[つよ]い。それでも、船[ふね]は出[で]ます。",
-     "vi": "Mưa to. Dù vậy tàu vẫn ra khơi.",
-     "ctx": "xuong"
+      "id": "v:それとも:それとも",
+      "kana": "それとも",
+      "kanji": "",
+      "hv": "",
+      "vi": "hay là (trong câu hỏi)",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "コーヒーにしますか、それとも紅茶[こうちゃ]にしますか。",
+          "vi": "Uống cà phê hay là trà?",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "今日[きょう]行[い]く？それとも明日[あした]？",
+          "vi": "Hôm nay đi? Hay là mai?",
+          "ctx": "hoithoai"
+        }
+      ],
+      "confuse": [
+        "v:あるいは:あるいは"
+      ],
+      "note": "それとも chỉ dùng trong câu hỏi lựa chọn."
     },
     {
-     "jp": "何度[なんど]も失敗[しっぱい]した。それでも、諦[あきら]めない。",
-     "vi": "Thất bại nhiều lần. Dù vậy vẫn không bỏ cuộc.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:そこで:そこで",
-   "kana": "そこで",
-   "kanji": "",
-   "hv": "",
-   "vi": "vì vậy nên (bèn)",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "人[ひと]が足[た]りない。そこで、外国人[がいこくじん]を雇[やと]うことにした。",
-     "vi": "Thiếu người. Vì vậy (công ty) quyết định thuê người nước ngoài.",
-     "ctx": "xuong"
+      "id": "v:それでも:それでも",
+      "kana": "それでも",
+      "kanji": "",
+      "hv": "",
+      "vi": "dù vậy vẫn",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "雨[あめ]が強[つよ]い。それでも、船[ふね]は出[で]ます。",
+          "vi": "Mưa to. Dù vậy tàu vẫn ra khơi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "何度[なんど]も失敗[しっぱい]した。それでも、諦[あきら]めない。",
+          "vi": "Thất bại nhiều lần. Dù vậy vẫn không bỏ cuộc.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "道[みち]が分[わ]からなかった。そこで、交番[こうばん]で聞[き]いた。",
-     "vi": "Không biết đường. Thế là hỏi ở đồn cảnh sát.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Nêu tình huống rồi hành động xử lý tiếp theo."
-  },
-  {
-   "id": "v:我々:われわれ",
-   "kana": "われわれ",
-   "kanji": "我々",
-   "hv": "NGÃ NGÃ",
-   "vi": "chúng ta, chúng tôi (trang trọng)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "我々[われわれ]の目標[もくひょう]は、事故[じこ]ゼロです。",
-     "vi": "Mục tiêu của chúng ta là không tai nạn.",
-     "ctx": "xuong"
+      "id": "v:そこで:そこで",
+      "kana": "そこで",
+      "kanji": "",
+      "hv": "",
+      "vi": "vì vậy nên (bèn)",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "人[ひと]が足[た]りない。そこで、外国人[がいこくじん]を雇[やと]うことにした。",
+          "vi": "Thiếu người. Vì vậy (công ty) quyết định thuê người nước ngoài.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "道[みち]が分[わ]からなかった。そこで、交番[こうばん]で聞[き]いた。",
+          "vi": "Không biết đường. Thế là hỏi ở đồn cảnh sát.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Nêu tình huống rồi hành động xử lý tiếp theo."
     },
     {
-     "jp": "我々[われわれ]も、意見[いけん]を言[い]う権利[けんり]があります。",
-     "vi": "Chúng tôi cũng có quyền nói ý kiến.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    {
-     "w": "私[わたし]たち",
-     "vi": "chúng tôi"
-    }
-   ],
-   "note": "Trang trọng, dùng trong phát biểu, họp."
-  },
-  {
-   "id": "v:参加:さんか",
-   "kana": "さんか",
-   "kanji": "参加",
-   "hv": "THAM GIA",
-   "vi": "tham gia",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "明日[あした]の会議[かいぎ]に参加[さんか]してください。",
-     "vi": "Hãy tham gia cuộc họp mai.",
-     "ctx": "xuong"
+      "id": "v:我々:われわれ",
+      "kana": "われわれ",
+      "kanji": "我々",
+      "hv": "NGÃ NGÃ",
+      "vi": "chúng ta, chúng tôi (trang trọng)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "我々[われわれ]の目標[もくひょう]は、事故[じこ]ゼロです。",
+          "vi": "Mục tiêu của chúng ta là không tai nạn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "我々[われわれ]も、意見[いけん]を言[い]う権利[けんり]があります。",
+          "vi": "Chúng tôi cũng có quyền nói ý kiến.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        {
+          "w": "私[わたし]たち",
+          "vi": "chúng tôi"
+        }
+      ],
+      "note": "Trang trọng, dùng trong phát biểu, họp."
     },
     {
-     "jp": "町[まち]のお祭[まつ]りに参加[さんか]しました。",
-     "vi": "Tôi tham gia lễ hội thị trấn.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "会議[かいぎ]に参加[さんか]する",
-     "vi": "tham gia cuộc họp"
-    }
-   ],
-   "syn": [
-    "v:加わる:くわわる"
-   ]
-  },
-  {
-   "id": "v:明らか:あきらか",
-   "kana": "あきらか",
-   "kanji": "明らか",
-   "kf": "明[あき]らか",
-   "hv": "MINH",
-   "vi": "hiển nhiên, rõ rành rành",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "原因[げんいん]は、明[あき]らかに機械[きかい]の故障[こしょう]です。",
-     "vi": "Nguyên nhân rõ ràng là do máy hỏng.",
-     "ctx": "xuong"
+      "id": "v:参加:さんか",
+      "kana": "さんか",
+      "kanji": "参加",
+      "hv": "THAM GIA",
+      "vi": "tham gia",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "明日[あした]の会議[かいぎ]に参加[さんか]してください。",
+          "vi": "Hãy tham gia cuộc họp mai.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "町[まち]のお祭[まつ]りに参加[さんか]しました。",
+          "vi": "Tôi tham gia lễ hội thị trấn.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "会議[かいぎ]に参加[さんか]する",
+          "vi": "tham gia cuộc họp"
+        }
+      ],
+      "syn": [
+        "v:加わる:くわわる"
+      ]
     },
     {
-     "jp": "調査[ちょうさ]で、事実[じじつ]が明[あき]らかになった。",
-     "vi": "Qua điều tra, sự thật đã rõ.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:はっきり:はっきり"
-   ]
-  },
-  {
-   "id": "v:案:あん",
-   "kana": "あん",
-   "kanji": "案",
-   "hv": "ÁN",
-   "vi": "phương án, đề án",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "新[あたら]しい案[あん]を、二[ふた]つ考[かんが]えました。",
-     "vi": "Tôi đã nghĩ ra hai phương án mới.",
-     "ctx": "xuong"
+      "id": "v:明らか:あきらか",
+      "kana": "あきらか",
+      "kanji": "明らか",
+      "kf": "明[あき]らか",
+      "hv": "MINH",
+      "vi": "hiển nhiên, rõ rành rành",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "原因[げんいん]は、明[あき]らかに機械[きかい]の故障[こしょう]です。",
+          "vi": "Nguyên nhân rõ ràng là do máy hỏng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "調査[ちょうさ]で、事実[じじつ]が明[あき]らかになった。",
+          "vi": "Qua điều tra, sự thật đã rõ.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:はっきり:はっきり"
+      ]
     },
     {
-     "jp": "その案[あん]は、来週[らいしゅう]の会議[かいぎ]で決[き]めます。",
-     "vi": "Phương án đó quyết ở cuộc họp tuần sau.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "提案[ていあん] = đề xuất; 案内[あんない] = hướng dẫn (nghĩa khác)."
-  },
-  {
-   "id": "v:解決:かいけつ",
-   "kana": "かいけつ",
-   "kanji": "解決",
-   "hv": "GIẢI QUYẾT",
-   "vi": "giải quyết",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "問題[もんだい]が、やっと解決[かいけつ]しました。",
-     "vi": "Vấn đề cuối cùng đã được giải quyết.",
-     "ctx": "xuong"
+      "id": "v:案:あん",
+      "kana": "あん",
+      "kanji": "案",
+      "hv": "ÁN",
+      "vi": "phương án, đề án",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新[あたら]しい案[あん]を、二[ふた]つ考[かんが]えました。",
+          "vi": "Tôi đã nghĩ ra hai phương án mới.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "その案[あん]は、来週[らいしゅう]の会議[かいぎ]で決[き]めます。",
+          "vi": "Phương án đó quyết ở cuộc họp tuần sau.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "提案[ていあん] = đề xuất; 案内[あんない] = hướng dẫn (nghĩa khác)."
     },
     {
-     "jp": "みんなで話[はな]し合[あ]って、解決[かいけつ]しましょう。",
-     "vi": "Mọi người cùng bàn để giải quyết.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "問題[もんだい]を解決[かいけつ]する",
-     "vi": "giải quyết vấn đề"
-    }
-   ]
-  },
-  {
-   "id": "v:感想:かんそう",
-   "kana": "かんそう",
-   "kanji": "感想",
-   "hv": "CẢM TƯỞNG",
-   "vi": "cảm tưởng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "研修[けんしゅう]の感想[かんそう]を書[か]いてください。",
-     "vi": "Hãy viết cảm tưởng sau khóa đào tạo.",
-     "ctx": "xuong"
+      "id": "v:解決:かいけつ",
+      "kana": "かいけつ",
+      "kanji": "解決",
+      "hv": "GIẢI QUYẾT",
+      "vi": "giải quyết",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "問題[もんだい]が、やっと解決[かいけつ]しました。",
+          "vi": "Vấn đề cuối cùng đã được giải quyết.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "みんなで話[はな]し合[あ]って、解決[かいけつ]しましょう。",
+          "vi": "Mọi người cùng bàn để giải quyết.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "問題[もんだい]を解決[かいけつ]する",
+          "vi": "giải quyết vấn đề"
+        }
+      ]
     },
     {
-     "jp": "映画[えいが]の感想[かんそう]を、教[おし]えてください。",
-     "vi": "Cho tôi biết cảm tưởng về bộ phim.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:共通:きょうつう",
-   "kana": "きょうつう",
-   "kanji": "共通",
-   "hv": "CỘNG THÔNG",
-   "vi": "chung (có ở cả hai)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "私[わたし]たちの共通[きょうつう]の趣味[しゅみ]は、釣[つ]りです。",
-     "vi": "Sở thích chung của chúng tôi là câu cá.",
-     "ctx": "doisong"
+      "id": "v:感想:かんそう",
+      "kana": "かんそう",
+      "kanji": "感想",
+      "hv": "CẢM TƯỞNG",
+      "vi": "cảm tưởng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "研修[けんしゅう]の感想[かんそう]を書[か]いてください。",
+          "vi": "Hãy viết cảm tưởng sau khóa đào tạo.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "映画[えいが]の感想[かんそう]を、教[おし]えてください。",
+          "vi": "Cho tôi biết cảm tưởng về bộ phim.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "この問題[もんだい]は、どの工場[こうじょう]にも共通[きょうつう]しています。",
-     "vi": "Vấn đề này nhà máy nào cũng có.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "共通語[きょうつうご] = ngôn ngữ chung."
-  },
-  {
-   "id": "v:個人:こじん",
-   "kana": "こじん",
-   "kanji": "個人",
-   "hv": "CÁ NHÂN",
-   "vi": "cá nhân",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "これは、私[わたし]の個人[こじん]の意見[いけん]です。",
-     "vi": "Đây là ý kiến cá nhân tôi.",
-     "ctx": "xuong"
+      "id": "v:共通:きょうつう",
+      "kana": "きょうつう",
+      "kanji": "共通",
+      "hv": "CỘNG THÔNG",
+      "vi": "chung (có ở cả hai)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "私[わたし]たちの共通[きょうつう]の趣味[しゅみ]は、釣[つ]りです。",
+          "vi": "Sở thích chung của chúng tôi là câu cá.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この問題[もんだい]は、どの工場[こうじょう]にも共通[きょうつう]しています。",
+          "vi": "Vấn đề này nhà máy nào cũng có.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "共通語[きょうつうご] = ngôn ngữ chung."
     },
     {
-     "jp": "個人[こじん]の情報[じょうほう]を、守[まも]ってください。",
-     "vi": "Hãy bảo vệ thông tin cá nhân.",
-     "ctx": "thutuc"
-    }
-   ],
-   "note": "個人的[こじんてき]に = về mặt cá nhân."
-  },
-  {
-   "id": "v:反省:はんせい",
-   "kana": "はんせい",
-   "kanji": "反省",
-   "hv": "PHẢN TỈNH",
-   "vi": "kiểm điểm, tự xem lại",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今日[きょう]のミスを反省[はんせい]しています。",
-     "vi": "Tôi đang tự kiểm điểm lỗi hôm nay.",
-     "ctx": "xuong"
+      "id": "v:個人:こじん",
+      "kana": "こじん",
+      "kanji": "個人",
+      "hv": "CÁ NHÂN",
+      "vi": "cá nhân",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "これは、私[わたし]の個人[こじん]の意見[いけん]です。",
+          "vi": "Đây là ý kiến cá nhân tôi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "個人[こじん]の情報[じょうほう]を、守[まも]ってください。",
+          "vi": "Hãy bảo vệ thông tin cá nhân.",
+          "ctx": "thutuc"
+        }
+      ],
+      "note": "個人的[こじんてき]に = về mặt cá nhân."
     },
     {
-     "jp": "反省会[はんせいかい]で、問題点[もんだいてん]を話[はな]し合[あ]いました。",
-     "vi": "Trong buổi rút kinh nghiệm đã bàn các vấn đề.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "ミスを反省[はんせい]する",
-     "vi": "kiểm điểm lỗi"
-    }
-   ],
-   "note": "反省会[はんせいかい] = buổi rút kinh nghiệm."
-  },
-  {
-   "id": "v:予想:よそう",
-   "kana": "よそう",
-   "kanji": "予想",
-   "hv": "DỰ TƯỞNG",
-   "vi": "dự đoán (đoán trước)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Ý kiến",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "予想[よそう]より、早[はや]く終[お]わりました。",
-     "vi": "Xong sớm hơn dự đoán.",
-     "ctx": "xuong"
+      "id": "v:反省:はんせい",
+      "kana": "はんせい",
+      "kanji": "反省",
+      "hv": "PHẢN TỈNH",
+      "vi": "kiểm điểm, tự xem lại",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]のミスを反省[はんせい]しています。",
+          "vi": "Tôi đang tự kiểm điểm lỗi hôm nay.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "反省会[はんせいかい]で、問題点[もんだいてん]を話[はな]し合[あ]いました。",
+          "vi": "Trong buổi rút kinh nghiệm đã bàn các vấn đề.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "ミスを反省[はんせい]する",
+          "vi": "kiểm điểm lỗi"
+        }
+      ],
+      "note": "反省会[はんせいかい] = buổi rút kinh nghiệm."
     },
     {
-     "jp": "明日[あした]の天気[てんき]を予想[よそう]してみましょう。",
-     "vi": "Thử đoán thời tiết ngày mai.",
-     "ctx": "doisong"
+      "id": "v:予想:よそう",
+      "kana": "よそう",
+      "kanji": "予想",
+      "hv": "DỰ TƯỞNG",
+      "vi": "dự đoán (đoán trước)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ý kiến",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "予想[よそう]より、早[はや]く終[お]わりました。",
+          "vi": "Xong sớm hơn dự đoán.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "明日[あした]の天気[てんき]を予想[よそう]してみましょう。",
+          "vi": "Thử đoán thời tiết ngày mai.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "結果[けっか]を予想[よそう]する",
+          "vi": "đoán kết quả"
+        }
+      ],
+      "syn": [
+        "v:予測:よそく"
+      ]
     }
-   ],
-   "coll": [
-    {
-     "jp": "結果[けっか]を予想[よそう]する",
-     "vi": "đoán kết quả"
-    }
-   ],
-   "syn": [
-    "v:予測:よそく"
-   ]
-  }
- ]
+  ]
 }

@@ -40,9 +40,40 @@ const FORM_VI = {
   toku: '{v} sẵn (nói tắt)', teru: 'đang {v} (nói tắt)', nakereba: 'nếu không {v}', nakya: 'phải {v} (nói tắt)', tewa: 'không được {v}',
   chadame: 'không được {v} (nói tắt)', sasete: 'xin cho tôi {v}', shiekiS: 'bắt (ai) {v} (khẩu ngữ)',
 };
-// Nghĩa ngắn của một từ: phần trước dấu phẩy / chấm phẩy / ngoặc
-export const shortVi = vi => String(vi || '').split(/[,;(（]/)[0].trim();
-export const formVi = (form, vi) => (FORM_VI[form] || '{v}').replaceAll('{v}', shortVi(vi));
+// Nghĩa ngắn của một từ: đoạn đầu (trước dấu phẩy / chấm phẩy nằm ngoài ngoặc), bỏ phần trong ngoặc — "(trời) mưa" → "mưa"
+const PAREN = /\s*[（(][^()（）]*[)）]\s*/g;
+function segs(vi) {
+  const s = String(vi || ''), out = [];
+  let depth = 0, from = 0;
+  for (let i = 0; i < s.length; i++) {
+    const c = s[i];
+    if (c === '(' || c === '（') depth++;
+    else if (c === ')' || c === '）') depth = Math.max(0, depth - 1);
+    else if (!depth && (c === ',' || c === ';' || c === '；')) { out.push(s.slice(from, i)); from = i + 1; }
+  }
+  out.push(s.slice(from));
+  // bỏ phần trong ngoặc và phần ghi chú sau dấu gạch dài ("thật — khẩu ngữ giới trẻ" → "thật")
+  return out.map(x => x.split(/\s+—\s+/)[0].replace(PAREN, ' ').replace(/\s+/g, ' ').trim()).filter(Boolean);
+}
+export const shortVi = vi => segs(vi)[0] || String(vi || '').trim();
+// v33: nghĩa làm động từ (để ghép nghĩa các thể: có thể …, đã …, bị …).
+// Danh từ + する: ưu tiên đoạn "việc / sự …" (料理: "món ăn; việc nấu ăn" → "nấu ăn"), bỏ chữ "sự / việc / cuộc" ở đầu.
+const NOUNISH = /^(sự|việc|cuộc)\s+/i;
+export function verbVi(it) {
+  if (!it || typeof it !== 'object') return shortVi(it);
+  const ss = segs(it.vi);
+  if (it.pos === 'n-suru') {
+    const act = ss.find(x => NOUNISH.test(x));
+    return ((NOUNISH.test(ss[0] || '') ? ss[0] : act) || ss[0] || '').replace(NOUNISH, '');
+  }
+  return ss[0] || '';
+}
+// nghĩa gốc đã có chữ "bị / được" (刺さる "bị đâm", けが "bị thương") → thể bị động ghi "bị đâm (bị động)", không thành "bị / được bị đâm"
+export const formVi = (form, x) => {
+  const v = verbVi(x);
+  if (form === 'ukemi' && /^(bị|được)\s/.test(v)) return v + ' (bị động)';
+  return (FORM_VI[form] || '{v}').replaceAll('{v}', v);
+};
 
 const ROW = {
   i: { う: 'い', く: 'き', ぐ: 'ぎ', す: 'し', つ: 'ち', ぬ: 'に', ぶ: 'び', む: 'み', る: 'り' },

@@ -1,1188 +1,1188 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n3-17",
-  "title": "JLPT N3 17 – Đi muộn & giải thích lý do",
-  "type": "vocab",
-  "level": "N3",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 2,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:事情:じじょう",
-   "kana": "じじょう",
-   "kanji": "事情",
-   "hv": "SỰ TÌNH",
-   "vi": "tình hình riêng, nỗi niềm",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "家[いえ]の事情[じじょう]で、来月[らいげつ]国[くに]に帰[かえ]ります。",
-     "vi": "Vì hoàn cảnh gia đình, tháng sau tôi về nước.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "遅[おく]れた事情[じじょう]を、班長[はんちょう]に説明[せつめい]しました。",
-     "vi": "Tôi giải thích lý do đến muộn với tổ trưởng.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "事情[じじょう]があって = vì có lý do riêng (không tiện nói rõ)."
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n3-17",
+    "title": "JLPT N3 17 – Đi muộn & giải thích lý do",
+    "type": "vocab",
+    "level": "N3",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 3,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:渋滞:じゅうたい",
-   "kana": "じゅうたい",
-   "kanji": "渋滞",
-   "hv": "SÁP TRỆ",
-   "vi": "tắc đường",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "事故[じこ]で、道路[どうろ]が渋滞[じゅうたい]しています。",
-     "vi": "Vì tai nạn, đường đang tắc.",
-     "ctx": "doisong"
+      "id": "v:事情:じじょう",
+      "kana": "じじょう",
+      "kanji": "事情",
+      "hv": "SỰ TÌNH",
+      "vi": "tình hình riêng, nỗi niềm",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "家[いえ]の事情[じじょう]で、来月[らいげつ]国[くに]に帰[かえ]ります。",
+          "vi": "Vì hoàn cảnh gia đình, tháng sau tôi về nước.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "遅[おく]れた事情[じじょう]を、班長[はんちょう]に説明[せつめい]しました。",
+          "vi": "Tôi giải thích lý do đến muộn với tổ trưởng.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "事情[じじょう]があって = vì có lý do riêng (không tiện nói rõ)."
     },
     {
-     "jp": "渋滞[じゅうたい]のせいで、トラックが遅[おく]れています。",
-     "vi": "Tại tắc đường, xe tải đang trễ.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "道[みち]が渋滞[じゅうたい]する",
-     "vi": "đường tắc"
-    }
-   ]
-  },
-  {
-   "id": "v:遅れ:おくれ",
-   "kana": "おくれ",
-   "kanji": "遅れ",
-   "kf": "遅[おく]れ",
-   "hv": "TRÌ",
-   "vi": "sự chậm trễ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "電車[でんしゃ]に、十分[じゅっぷん]の遅[おく]れが出[で]ています。",
-     "vi": "Tàu đang trễ 10 phút.",
-     "ctx": "doisong"
+      "id": "v:渋滞:じゅうたい",
+      "kana": "じゅうたい",
+      "kanji": "渋滞",
+      "hv": "SÁP TRỆ",
+      "vi": "tắc đường",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "事故[じこ]で、道路[どうろ]が渋滞[じゅうたい]しています。",
+          "vi": "Vì tai nạn, đường đang tắc.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "渋滞[じゅうたい]のせいで、トラックが遅[おく]れています。",
+          "vi": "Tại tắc đường, xe tải đang trễ.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "道[みち]が渋滞[じゅうたい]する",
+          "vi": "đường tắc"
+        }
+      ]
     },
     {
-     "jp": "作業[さぎょう]の遅[おく]れを、取[と]り戻[もど]しましょう。",
-     "vi": "Hãy bù lại phần việc bị chậm.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:遅れる:おくれる"
-   ]
-  },
-  {
-   "id": "v:申し訳:もうしわけ",
-   "kana": "もうしわけ",
-   "kanji": "申し訳",
-   "kf": "申[もう]し訳[わけ]",
-   "hv": "THÂN DỊCH",
-   "vi": "lời xin lỗi (trong câu \"thật có lỗi\")",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Xin lỗi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "遅[おく]れて、申[もう]し訳[わけ]ありません。",
-     "vi": "Xin lỗi vì đến muộn.",
-     "ctx": "xuong"
+      "id": "v:遅れ:おくれ",
+      "kana": "おくれ",
+      "kanji": "遅れ",
+      "kf": "遅[おく]れ",
+      "hv": "TRÌ",
+      "vi": "sự chậm trễ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "電車[でんしゃ]に、十分[じゅっぷん]の遅[おく]れが出[で]ています。",
+          "vi": "Tàu đang trễ 10 phút.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "作業[さぎょう]の遅[おく]れを、取[と]り戻[もど]しましょう。",
+          "vi": "Hãy bù lại phần việc bị chậm.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:遅れる:おくれる"
+      ]
     },
     {
-     "jp": "本当[ほんとう]に申[もう]し訳[わけ]ないと思[おも]っています。",
-     "vi": "Tôi thật sự thấy có lỗi.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Hầu như chỉ dùng trong 申[もう]し訳[わけ]ありません / ございません (xin lỗi trang trọng hơn すみません)."
-  },
-  {
-   "id": "v:誤解:ごかい",
-   "kana": "ごかい",
-   "kanji": "誤解",
-   "hv": "NGỘ GIẢI",
-   "vi": "hiểu lầm",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Xin lỗi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "それは誤解[ごかい]です。私[わたし]は言[い]っていません。",
-     "vi": "Đó là hiểu lầm. Tôi không nói vậy.",
-     "ctx": "hoithoai"
+      "id": "v:申し訳:もうしわけ",
+      "kana": "もうしわけ",
+      "kanji": "申し訳",
+      "kf": "申[もう]し訳[わけ]",
+      "hv": "THÂN DỊCH",
+      "vi": "lời xin lỗi (trong câu \"thật có lỗi\")",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Xin lỗi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "遅[おく]れて、申[もう]し訳[わけ]ありません。",
+          "vi": "Xin lỗi vì đến muộn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "本当[ほんとう]に申[もう]し訳[わけ]ないと思[おも]っています。",
+          "vi": "Tôi thật sự thấy có lỗi.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Hầu như chỉ dùng trong 申[もう]し訳[わけ]ありません / ございません (xin lỗi trang trọng hơn すみません)."
     },
     {
-     "jp": "言葉[ことば]が足[た]りなくて、誤解[ごかい]されてしまった。",
-     "vi": "Nói thiếu ý nên bị hiểu lầm.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "人[ひと]を誤解[ごかい]する",
-     "vi": "hiểu lầm người khác"
-    }
-   ]
-  },
-  {
-   "id": "v:間違い:まちがい",
-   "kana": "まちがい",
-   "kanji": "間違い",
-   "kf": "間違[まちが]い",
-   "hv": "GIAN VI",
-   "vi": "chỗ sai, lỗi",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Xin lỗi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "書類[しょるい]に間違[まちが]いがないか、確認[かくにん]してください。",
-     "vi": "Hãy kiểm tra giấy tờ có chỗ sai không.",
-     "ctx": "thutuc"
+      "id": "v:誤解:ごかい",
+      "kana": "ごかい",
+      "kanji": "誤解",
+      "hv": "NGỘ GIẢI",
+      "vi": "hiểu lầm",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Xin lỗi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "それは誤解[ごかい]です。私[わたし]は言[い]っていません。",
+          "vi": "Đó là hiểu lầm. Tôi không nói vậy.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "言葉[ことば]が足[た]りなくて、誤解[ごかい]されてしまった。",
+          "vi": "Nói thiếu ý nên bị hiểu lầm.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "人[ひと]を誤解[ごかい]する",
+          "vi": "hiểu lầm người khác"
+        }
+      ]
     },
     {
-     "jp": "私[わたし]の間違[まちが]いでした。すみません。",
-     "vi": "Là lỗi của tôi. Xin lỗi.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:ミス:ミス"
-   ],
-   "rel": [
-    "v:間違える:まちがえる"
-   ]
-  },
-  {
-   "id": "v:ミス:ミス",
-   "kana": "ミス",
-   "kanji": "",
-   "hv": "",
-   "vi": "lỗi (sơ suất)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Xin lỗi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "同[おな]じミスを、二回[にかい]もしてしまった。",
-     "vi": "Tôi lỡ mắc cùng một lỗi những hai lần.",
-     "ctx": "xuong"
+      "id": "v:間違い:まちがい",
+      "kana": "まちがい",
+      "kanji": "間違い",
+      "kf": "間違[まちが]い",
+      "hv": "GIAN VI",
+      "vi": "chỗ sai, lỗi",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Xin lỗi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "書類[しょるい]に間違[まちが]いがないか、確認[かくにん]してください。",
+          "vi": "Hãy kiểm tra giấy tờ có chỗ sai không.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "私[わたし]の間違[まちが]いでした。すみません。",
+          "vi": "Là lỗi của tôi. Xin lỗi.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:ミス:ミス"
+      ],
+      "rel": [
+        "v:間違える:まちがえる"
+      ]
     },
     {
-     "jp": "計算[けいさん]をミスしました。",
-     "vi": "Tôi tính nhầm.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "計算[けいさん]をミスする",
-     "vi": "tính sai"
-    }
-   ],
-   "goc": "miss (tiếng Anh)"
-  },
-  {
-   "id": "v:うっかり:うっかり",
-   "kana": "うっかり",
-   "kanji": "",
-   "hv": "",
-   "vi": "lỡ (vô ý, sơ ý)",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Xin lỗi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "うっかり、財布[さいふ]を忘[わす]れてしまいました。",
-     "vi": "Tôi sơ ý quên ví mất.",
-     "ctx": "doisong"
+      "id": "v:ミス:ミス",
+      "kana": "ミス",
+      "kanji": "",
+      "hv": "",
+      "vi": "làm sai, mắc lỗi (sơ suất); lỗi",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Xin lỗi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "同[おな]じミスを、二回[にかい]もしてしまった。",
+          "vi": "Tôi lỡ mắc cùng một lỗi những hai lần.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "計算[けいさん]をミスしました。",
+          "vi": "Tôi tính nhầm.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "計算[けいさん]をミスする",
+          "vi": "tính sai"
+        }
+      ],
+      "goc": "miss (tiếng Anh)"
     },
     {
-     "jp": "うっかりして、冷凍庫[れいとうこ]のドアを閉[し]め忘[わす]れた。",
-     "vi": "Lơ đễnh quên đóng cửa kho đông.",
-     "ctx": "xuong"
-    }
-   ],
-   "ant": [
-    "v:わざと:わざと"
-   ],
-   "note": "Hay đi với 〜てしまう."
-  },
-  {
-   "id": "v:わざと:わざと",
-   "kana": "わざと",
-   "kanji": "",
-   "hv": "",
-   "vi": "cố ý, cố tình",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Xin lỗi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "わざとやったんじゃありません。",
-     "vi": "Tôi không cố ý làm vậy.",
-     "ctx": "hoithoai"
+      "id": "v:うっかり:うっかり",
+      "kana": "うっかり",
+      "kanji": "",
+      "hv": "",
+      "vi": "lỡ (vô ý, sơ ý)",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Xin lỗi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "うっかり、財布[さいふ]を忘[わす]れてしまいました。",
+          "vi": "Tôi sơ ý quên ví mất.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "うっかりして、冷凍庫[れいとうこ]のドアを閉[し]め忘[わす]れた。",
+          "vi": "Lơ đễnh quên đóng cửa kho đông.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        "v:わざと:わざと"
+      ],
+      "note": "Hay đi với 〜てしまう."
     },
     {
-     "jp": "子[こ]どもが、わざと水[みず]をこぼした。",
-     "vi": "Đứa trẻ cố tình làm đổ nước.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:うっかり:うっかり"
-   ]
-  },
-  {
-   "id": "v:思わず:おもわず",
-   "kana": "おもわず",
-   "kanji": "思わず",
-   "kf": "思[おも]わず",
-   "hv": "TƯ",
-   "vi": "bất giác, buột (miệng)",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Xin lỗi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "熱[あつ]くて、思[おも]わず手[て]を離[はな]しました。",
-     "vi": "Nóng quá nên bất giác buông tay.",
-     "ctx": "xuong"
+      "id": "v:わざと:わざと",
+      "kana": "わざと",
+      "kanji": "",
+      "hv": "",
+      "vi": "cố ý, cố tình",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Xin lỗi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "わざとやったんじゃありません。",
+          "vi": "Tôi không cố ý làm vậy.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "子[こ]どもが、わざと水[みず]をこぼした。",
+          "vi": "Đứa trẻ cố tình làm đổ nước.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:うっかり:うっかり"
+      ]
     },
     {
-     "jp": "面白[おもしろ]くて、思[おも]わず笑[わら]ってしまった。",
-     "vi": "Buồn cười quá, bật cười lúc nào không hay.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:実は:じつは",
-   "kana": "じつは",
-   "kanji": "実は",
-   "kf": "実[じつ]は",
-   "hv": "THỰC",
-   "vi": "thật ra là (thú nhận)",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "実[じつ]は、明日[あした]休[やす]みたいんですが……。",
-     "vi": "Thật ra là mai tôi muốn nghỉ ạ……",
-     "ctx": "xuong"
+      "id": "v:思わず:おもわず",
+      "kana": "おもわず",
+      "kanji": "思わず",
+      "kf": "思[おも]わず",
+      "hv": "TƯ",
+      "vi": "bất giác, buột (miệng)",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Xin lỗi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "熱[あつ]くて、思[おも]わず手[て]を離[はな]しました。",
+          "vi": "Nóng quá nên bất giác buông tay.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "面白[おもしろ]くて、思[おも]わず笑[わら]ってしまった。",
+          "vi": "Buồn cười quá, bật cười lúc nào không hay.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "実[じつ]は、日本語[にほんご]の試験[しけん]に落[お]ちました。",
-     "vi": "Thật ra là tôi trượt kỳ thi tiếng Nhật.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Dùng để mở đầu khi nói điều khó nói, xin phép, thú nhận."
-  },
-  {
-   "id": "v:別に:べつに",
-   "kana": "べつに",
-   "kanji": "別に",
-   "kf": "別[べつ]に",
-   "hv": "BIỆT",
-   "vi": "(không) … gì đặc biệt",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "A：何[なに]かあった？B：別[べつ]に、何[なに]もないよ。",
-     "vi": "A: Có chuyện gì à? B: Không có gì đâu.",
-     "ctx": "hoithoai"
+      "id": "v:実は:じつは",
+      "kana": "じつは",
+      "kanji": "実は",
+      "kf": "実[じつ]は",
+      "hv": "THỰC",
+      "vi": "thật ra là (thú nhận)",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "実[じつ]は、明日[あした]休[やす]みたいんですが……。",
+          "vi": "Thật ra là mai tôi muốn nghỉ ạ……",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "実[じつ]は、日本語[にほんご]の試験[しけん]に落[お]ちました。",
+          "vi": "Thật ra là tôi trượt kỳ thi tiếng Nhật.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Dùng để mở đầu khi nói điều khó nói, xin phép, thú nhận."
     },
     {
-     "jp": "別[べつ]に急[いそ]いでいません。",
-     "vi": "Tôi không vội gì cả.",
-     "ctx": "doisong"
-    }
-   ],
-   "with": "phudinh",
-   "note": "Đi với phủ định. 別[べつ]に nói cụt lủn với người trên có thể bất lịch sự."
-  },
-  {
-   "id": "v:全く:まったく",
-   "kana": "まったく",
-   "kanji": "全く",
-   "kf": "全[まった]く",
-   "hv": "TOÀN",
-   "vi": "hoàn toàn (không); thật là (bực)",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "全[まった]く知[し]りませんでした。",
-     "vi": "Tôi hoàn toàn không biết.",
-     "ctx": "doisong"
+      "id": "v:別に:べつに",
+      "kana": "べつに",
+      "kanji": "別に",
+      "kf": "別[べつ]に",
+      "hv": "BIỆT",
+      "vi": "(không) … gì đặc biệt",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "A：何[なに]かあった？B：別[べつ]に、何[なに]もないよ。",
+          "vi": "A: Có chuyện gì à? B: Không có gì đâu.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "別[べつ]に急[いそ]いでいません。",
+          "vi": "Tôi không vội gì cả.",
+          "ctx": "doisong"
+        }
+      ],
+      "with": "phudinh",
+      "note": "Đi với phủ định. 別[べつ]に nói cụt lủn với người trên có thể bất lịch sự."
     },
     {
-     "jp": "全[まった]く、また遅刻[ちこく]か。",
-     "vi": "Thật là, lại đi muộn à.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "syn": [
-    "v:全然:ぜんぜん"
-   ],
-   "with": "phudinh",
-   "note": "Đi với phủ định = hoàn toàn không. Đứng một mình = thật là (than phiền)."
-  },
-  {
-   "id": "v:まさか:まさか",
-   "kana": "まさか",
-   "kanji": "",
-   "hv": "",
-   "vi": "không thể nào (ngờ)",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "まさか、あの人[ひと]が辞[や]めるとは思[おも]わなかった。",
-     "vi": "Không ngờ người đó lại nghỉ việc.",
-     "ctx": "doisong"
+      "id": "v:全く:まったく",
+      "kana": "まったく",
+      "kanji": "全く",
+      "kf": "全[まった]く",
+      "hv": "TOÀN",
+      "vi": "hoàn toàn (không); thật là (bực)",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "全[まった]く知[し]りませんでした。",
+          "vi": "Tôi hoàn toàn không biết.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "全[まった]く、また遅刻[ちこく]か。",
+          "vi": "Thật là, lại đi muộn à.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "syn": [
+        "v:全然:ぜんぜん"
+      ],
+      "with": "phudinh",
+      "note": "Đi với phủ định = hoàn toàn không. Đứng một mình = thật là (than phiền)."
     },
     {
-     "jp": "A：財布[さいふ]、落[お]とした？B：まさか……あ、ない！",
-     "vi": "A: Rơi ví à? B: Làm gì có…… Á, mất thật!",
-     "ctx": "hoithoai"
-    }
-   ]
-  },
-  {
-   "id": "v:偶々:たまたま",
-   "kana": "たまたま",
-   "kanji": "偶々",
-   "hv": "NGẪU NGẪU",
-   "vi": "tình cờ, vừa may",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "たまたま近[ちか]くにいたので、手伝[てつだ]いました。",
-     "vi": "Tình cờ ở gần nên tôi giúp.",
-     "ctx": "doisong"
+      "id": "v:まさか:まさか",
+      "kana": "まさか",
+      "kanji": "",
+      "hv": "",
+      "vi": "không thể nào (ngờ)",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "まさか、あの人[ひと]が辞[や]めるとは思[おも]わなかった。",
+          "vi": "Không ngờ người đó lại nghỉ việc.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：財布[さいふ]、落[お]とした？B：まさか……あ、ない！",
+          "vi": "A: Rơi ví à? B: Làm gì có…… Á, mất thật!",
+          "ctx": "hoithoai"
+        }
+      ]
     },
     {
-     "jp": "その日[ひ]は、たまたま休[やす]みでした。",
-     "vi": "Hôm đó tình cờ tôi được nghỉ.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:偶然:ぐうぜん"
-   ],
-   "note": "Thường viết たまたま."
-  },
-  {
-   "id": "v:なぜなら:なぜなら",
-   "kana": "なぜなら",
-   "kanji": "",
-   "hv": "",
-   "vi": "bởi vì (văn viết)",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今日[きょう]は休[やす]みます。なぜなら、熱[ねつ]があるからです。",
-     "vi": "Hôm nay tôi nghỉ. Bởi vì tôi bị sốt.",
-     "ctx": "xuong"
+      "id": "v:偶々:たまたま",
+      "kana": "たまたま",
+      "kanji": "偶々",
+      "hv": "NGẪU NGẪU",
+      "vi": "tình cờ, vừa may",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "たまたま近[ちか]くにいたので、手伝[てつだ]いました。",
+          "vi": "Tình cờ ở gần nên tôi giúp.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "その日[ひ]は、たまたま休[やす]みでした。",
+          "vi": "Hôm đó tình cờ tôi được nghỉ.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:偶然:ぐうぜん"
+      ],
+      "note": "Thường viết たまたま."
     },
     {
-     "jp": "日本[にほん]が好[す]きです。なぜなら、人[ひと]が親切[しんせつ]だからです。",
-     "vi": "Tôi thích Nhật. Bởi vì người ta tử tế.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Thường đi cặp: なぜなら〜からだ."
-  },
-  {
-   "id": "v:つまり:つまり",
-   "kana": "つまり",
-   "kanji": "",
-   "hv": "",
-   "vi": "tức là, nói cách khác",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "つまり、明日[あした]は休[やす]みということですね。",
-     "vi": "Tức là mai được nghỉ phải không?",
-     "ctx": "hoithoai"
+      "id": "v:なぜなら:なぜなら",
+      "kana": "なぜなら",
+      "kanji": "",
+      "hv": "",
+      "vi": "bởi vì (văn viết)",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]は休[やす]みます。なぜなら、熱[ねつ]があるからです。",
+          "vi": "Hôm nay tôi nghỉ. Bởi vì tôi bị sốt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本[にほん]が好[す]きです。なぜなら、人[ひと]が親切[しんせつ]だからです。",
+          "vi": "Tôi thích Nhật. Bởi vì người ta tử tế.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Thường đi cặp: なぜなら〜からだ."
     },
     {
-     "jp": "彼[かれ]は母[はは]の兄[あに]、つまり私[わたし]のおじです。",
-     "vi": "Anh ấy là anh của mẹ, tức là cậu tôi.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:要するに:ようするに"
-   ]
-  },
-  {
-   "id": "v:要するに:ようするに",
-   "kana": "ようするに",
-   "kanji": "要するに",
-   "kf": "要[よう]するに",
-   "hv": "YẾU",
-   "vi": "tóm lại",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "要[よう]するに、人[ひと]が足[た]りないんです。",
-     "vi": "Tóm lại là thiếu người.",
-     "ctx": "xuong"
+      "id": "v:つまり:つまり",
+      "kana": "つまり",
+      "kanji": "",
+      "hv": "",
+      "vi": "tức là, nói cách khác",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "つまり、明日[あした]は休[やす]みということですね。",
+          "vi": "Tức là mai được nghỉ phải không?",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "彼[かれ]は母[はは]の兄[あに]、つまり私[わたし]のおじです。",
+          "vi": "Anh ấy là anh của mẹ, tức là cậu tôi.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:要するに:ようするに"
+      ]
     },
     {
-     "jp": "要[よう]するに、何[なに]が言[い]いたいんですか。",
-     "vi": "Tóm lại anh muốn nói gì?",
-     "ctx": "hoithoai"
-    }
-   ]
-  },
-  {
-   "id": "v:すなわち:すなわち",
-   "kana": "すなわち",
-   "kanji": "",
-   "hv": "",
-   "vi": "tức là (văn viết)",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]の首都[しゅと]、すなわち東京[とうきょう]。",
-     "vi": "Thủ đô Nhật, tức Tokyo.",
-     "ctx": "doisong"
+      "id": "v:要するに:ようするに",
+      "kana": "ようするに",
+      "kanji": "要するに",
+      "kf": "要[よう]するに",
+      "hv": "YẾU",
+      "vi": "tóm lại",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "要[よう]するに、人[ひと]が足[た]りないんです。",
+          "vi": "Tóm lại là thiếu người.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "要[よう]するに、何[なに]が言[い]いたいんですか。",
+          "vi": "Tóm lại anh muốn nói gì?",
+          "ctx": "hoithoai"
+        }
+      ]
     },
     {
-     "jp": "消費期限[しょうひきげん]、すなわち安全[あんぜん]に食[た]べられる期限[きげん]です。",
-     "vi": "Hạn sử dụng, tức là thời hạn ăn an toàn.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:つまり:つまり"
-   ]
-  },
-  {
-   "id": "v:事実:じじつ",
-   "kana": "じじつ",
-   "kanji": "事実",
-   "hv": "SỰ THỰC",
-   "vi": "sự thật",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "それは事実[じじつ]ですか。",
-     "vi": "Đó có phải sự thật không?",
-     "ctx": "hoithoai"
+      "id": "v:すなわち:すなわち",
+      "kana": "すなわち",
+      "kanji": "",
+      "hv": "",
+      "vi": "tức là (văn viết)",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]の首都[しゅと]、すなわち東京[とうきょう]。",
+          "vi": "Thủ đô Nhật, tức Tokyo.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "消費期限[しょうひきげん]、すなわち安全[あんぜん]に食[た]べられる期限[きげん]です。",
+          "vi": "Hạn sử dụng, tức là thời hạn ăn an toàn.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:つまり:つまり"
+      ]
     },
     {
-     "jp": "事実[じじつ]を正直[しょうじき]に話[はな]してください。",
-     "vi": "Hãy nói thật sự việc.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:実際:じっさい",
-   "kana": "じっさい",
-   "kanji": "実際",
-   "hv": "THỰC TẾ",
-   "vi": "thực tế",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "実際[じっさい]にやってみると、難[むずか]しかったです。",
-     "vi": "Thực tế làm thử thì thấy khó.",
-     "ctx": "xuong"
+      "id": "v:事実:じじつ",
+      "kana": "じじつ",
+      "kanji": "事実",
+      "hv": "SỰ THỰC",
+      "vi": "sự thật",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "それは事実[じじつ]ですか。",
+          "vi": "Đó có phải sự thật không?",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "事実[じじつ]を正直[しょうじき]に話[はな]してください。",
+          "vi": "Hãy nói thật sự việc.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "説明[せつめい]と実際[じっさい]は、少[すこ]し違[ちが]います。",
-     "vi": "Lời giải thích và thực tế hơi khác nhau.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "実際[じっさい]に = trên thực tế, thực sự."
-  },
-  {
-   "id": "v:実に:じつに",
-   "kana": "じつに",
-   "kanji": "実に",
-   "kf": "実[じつ]に",
-   "hv": "THỰC",
-   "vi": "thật sự, quả thật (văn viết)",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "実[じつ]に素晴[すば]らしい料理[りょうり]でした。",
-     "vi": "Quả thật là món ăn tuyệt vời.",
-     "ctx": "doisong"
+      "id": "v:実際:じっさい",
+      "kana": "じっさい",
+      "kanji": "実際",
+      "hv": "THỰC TẾ",
+      "vi": "thực tế",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "実際[じっさい]にやってみると、難[むずか]しかったです。",
+          "vi": "Thực tế làm thử thì thấy khó.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "説明[せつめい]と実際[じっさい]は、少[すこ]し違[ちが]います。",
+          "vi": "Lời giải thích và thực tế hơi khác nhau.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "実際[じっさい]に = trên thực tế, thực sự."
     },
     {
-     "jp": "今年[ことし]は、実[じつ]に三十年[さんじゅうねん]ぶりの大雪[おおゆき]です。",
-     "vi": "Năm nay là trận tuyết lớn sau những 30 năm.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:本当に:ほんとうに"
-   ]
-  },
-  {
-   "id": "v:正直:しょうじき",
-   "kana": "しょうじき",
-   "kanji": "正直",
-   "hv": "CHÍNH TRỰC",
-   "vi": "thật thà; thật lòng",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "正直[しょうじき]に言[い]ってください。",
-     "vi": "Hãy nói thật đi.",
-     "ctx": "hoithoai"
+      "id": "v:実に:じつに",
+      "kana": "じつに",
+      "kanji": "実に",
+      "kf": "実[じつ]に",
+      "hv": "THỰC",
+      "vi": "thật sự, quả thật (văn viết)",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "実[じつ]に素晴[すば]らしい料理[りょうり]でした。",
+          "vi": "Quả thật là món ăn tuyệt vời.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今年[ことし]は、実[じつ]に三十年[さんじゅうねん]ぶりの大雪[おおゆき]です。",
+          "vi": "Năm nay là trận tuyết lớn sau những 30 năm.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:本当に:ほんとうに"
+      ]
     },
     {
-     "jp": "正直[しょうじき]、少[すこ]し疲[つか]れました。",
-     "vi": "Thật lòng mà nói, tôi hơi mệt.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "正直[しょうじき]に言[い]うと = nói thật lòng thì."
-  },
-  {
-   "id": "v:言い訳:いいわけ",
-   "kana": "いいわけ",
-   "kanji": "言い訳",
-   "kf": "言[い]い訳[わけ]",
-   "hv": "NGÔN DỊCH",
-   "vi": "lời bào chữa, viện cớ",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Xin lỗi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "言[い]い訳[わけ]はしないで、まず謝[あやま]りましょう。",
-     "vi": "Đừng bào chữa, hãy xin lỗi trước.",
-     "ctx": "xuong"
+      "id": "v:正直:しょうじき",
+      "kana": "しょうじき",
+      "kanji": "正直",
+      "hv": "CHÍNH TRỰC",
+      "vi": "thật thà; thật lòng",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "正直[しょうじき]に言[い]ってください。",
+          "vi": "Hãy nói thật đi.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "正直[しょうじき]、少[すこ]し疲[つか]れました。",
+          "vi": "Thật lòng mà nói, tôi hơi mệt.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "正直[しょうじき]に言[い]うと = nói thật lòng thì."
     },
     {
-     "jp": "遅刻[ちこく]の言[い]い訳[わけ]を考[かんが]えている。",
-     "vi": "Đang nghĩ cớ cho việc đi muộn.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "言[い]い訳[わけ]をする",
-     "vi": "bào chữa"
-    }
-   ]
-  },
-  {
-   "id": "v:しまった:しまった",
-   "kana": "しまった",
-   "kanji": "",
-   "hv": "",
-   "vi": "thôi chết! (lỡ rồi)",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Xin lỗi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "しまった！鍵[かぎ]を忘[わす]れた。",
-     "vi": "Thôi chết! Quên chìa khóa rồi.",
-     "ctx": "hoithoai"
+      "id": "v:言い訳:いいわけ",
+      "kana": "いいわけ",
+      "kanji": "言い訳",
+      "kf": "言[い]い訳[わけ]",
+      "hv": "NGÔN DỊCH",
+      "vi": "viện cớ, bào chữa; lời bào chữa",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Xin lỗi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "言[い]い訳[わけ]はしないで、まず謝[あやま]りましょう。",
+          "vi": "Đừng bào chữa, hãy xin lỗi trước.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "遅刻[ちこく]の言[い]い訳[わけ]を考[かんが]えている。",
+          "vi": "Đang nghĩ cớ cho việc đi muộn.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "言[い]い訳[わけ]をする",
+          "vi": "bào chữa"
+        }
+      ]
     },
     {
-     "jp": "しまった、電車[でんしゃ]に乗[の]り遅[おく]れた。",
-     "vi": "Chết rồi, lỡ tàu mất.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Tự nói khi nhận ra mình làm hỏng việc."
-  },
-  {
-   "id": "v:いけない:いけない",
-   "kana": "いけない",
-   "kanji": "",
-   "hv": "",
-   "vi": "không được làm; thôi chết",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Xin lỗi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "遅刻[ちこく]してはいけない。",
-     "vi": "Không được đi muộn.",
-     "ctx": "xuong"
+      "id": "v:しまった:しまった",
+      "kana": "しまった",
+      "kanji": "",
+      "hv": "",
+      "vi": "thôi chết! (lỡ rồi)",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Xin lỗi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "しまった！鍵[かぎ]を忘[わす]れた。",
+          "vi": "Thôi chết! Quên chìa khóa rồi.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "しまった、電車[でんしゃ]に乗[の]り遅[おく]れた。",
+          "vi": "Chết rồi, lỡ tàu mất.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Tự nói khi nhận ra mình làm hỏng việc."
     },
     {
-     "jp": "いけない、もうこんな時間[じかん]だ。",
-     "vi": "Chết rồi, đã giờ này rồi.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "〜てはいけない = không được …. Đứng một mình: いけない！ = thôi chết!"
-  },
-  {
-   "id": "v:あいにく:あいにく",
-   "kana": "あいにく",
-   "kanji": "",
-   "hv": "",
-   "vi": "không may, tiếc là",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "あいにく、今日[きょう]は満席[まんせき]です。",
-     "vi": "Rất tiếc hôm nay hết chỗ.",
-     "ctx": "doisong"
+      "id": "v:いけない:いけない",
+      "kana": "いけない",
+      "kanji": "",
+      "hv": "",
+      "vi": "không được làm; thôi chết",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Xin lỗi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "遅刻[ちこく]してはいけない。",
+          "vi": "Không được đi muộn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "いけない、もうこんな時間[じかん]だ。",
+          "vi": "Chết rồi, đã giờ này rồi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "〜てはいけない = không được …. Đứng một mình: いけない！ = thôi chết!"
     },
     {
-     "jp": "あいにくの雨[あめ]で、お祭[まつ]りが中止[ちゅうし]になった。",
-     "vi": "Không may trời mưa, lễ hội bị hủy.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Lời từ chối lịch sự: あいにく〜 = rất tiếc …."
-  },
-  {
-   "id": "v:どうしても:どうしても",
-   "kana": "どうしても",
-   "kanji": "",
-   "hv": "",
-   "vi": "dù thế nào cũng; kiểu gì cũng (không)",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "どうしても、明日[あした]休[やす]まなければなりません。",
-     "vi": "Dù thế nào mai tôi cũng phải nghỉ.",
-     "ctx": "xuong"
+      "id": "v:あいにく:あいにく",
+      "kana": "あいにく",
+      "kanji": "",
+      "hv": "",
+      "vi": "không may, tiếc là",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "あいにく、今日[きょう]は満席[まんせき]です。",
+          "vi": "Rất tiếc hôm nay hết chỗ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "あいにくの雨[あめ]で、お祭[まつ]りが中止[ちゅうし]になった。",
+          "vi": "Không may trời mưa, lễ hội bị hủy.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Lời từ chối lịch sự: あいにく〜 = rất tiếc …."
     },
     {
-     "jp": "どうしても、この漢字[かんじ]が覚[おぼ]えられない。",
-     "vi": "Mãi mà không nhớ được chữ Hán này.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:とにかく:とにかく",
-   "kana": "とにかく",
-   "kanji": "",
-   "hv": "",
-   "vi": "dù sao thì, trước hết cứ",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "とにかく、すぐ来[き]てください。",
-     "vi": "Dù sao thì anh đến ngay đi.",
-     "ctx": "xuong"
+      "id": "v:どうしても:どうしても",
+      "kana": "どうしても",
+      "kanji": "",
+      "hv": "",
+      "vi": "dù thế nào cũng; kiểu gì cũng (không)",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "どうしても、明日[あした]休[やす]まなければなりません。",
+          "vi": "Dù thế nào mai tôi cũng phải nghỉ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "どうしても、この漢字[かんじ]が覚[おぼ]えられない。",
+          "vi": "Mãi mà không nhớ được chữ Hán này.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "理由[りゆう]はとにかく、遅刻[ちこく]はだめです。",
-     "vi": "Lý do thế nào thì đi muộn cũng không được.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:まあ:まあ",
-   "kana": "まあ",
-   "kanji": "",
-   "hv": "",
-   "vi": "thôi thì, à ừ (giảm nhẹ)",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "まあ、いいでしょう。",
-     "vi": "Thôi được rồi.",
-     "ctx": "hoithoai"
+      "id": "v:とにかく:とにかく",
+      "kana": "とにかく",
+      "kanji": "",
+      "hv": "",
+      "vi": "dù sao thì, trước hết cứ",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "とにかく、すぐ来[き]てください。",
+          "vi": "Dù sao thì anh đến ngay đi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "理由[りゆう]はとにかく、遅刻[ちこく]はだめです。",
+          "vi": "Lý do thế nào thì đi muộn cũng không được.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "まあ、次[つぎ]は気[き]をつけてね。",
-     "vi": "Thôi, lần sau chú ý nhé.",
-     "ctx": "hoithoai"
-    }
-   ]
-  },
-  {
-   "id": "v:何で:なんで",
-   "kana": "なんで",
-   "kanji": "何で",
-   "kf": "何[なん]で",
-   "hv": "HÀ",
-   "vi": "tại sao (thân mật)",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "何[なん]で遅[おく]れたの？",
-     "vi": "Sao đến muộn thế?",
-     "ctx": "hoithoai"
+      "id": "v:まあ:まあ",
+      "kana": "まあ",
+      "kanji": "",
+      "hv": "",
+      "vi": "thôi thì, à ừ (giảm nhẹ)",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "まあ、いいでしょう。",
+          "vi": "Thôi được rồi.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "まあ、次[つぎ]は気[き]をつけてね。",
+          "vi": "Thôi, lần sau chú ý nhé.",
+          "ctx": "hoithoai"
+        }
+      ]
     },
     {
-     "jp": "何[なん]で教[おし]えてくれなかったの？",
-     "vi": "Sao không nói cho tôi?",
-     "ctx": "hoithoai"
-    }
-   ],
-   "syn": [
-    "v:どうして:どうして"
-   ],
-   "note": "Thân mật; lịch sự dùng どうして / なぜ."
-  },
-  {
-   "id": "v:だって:だって",
-   "kana": "だって",
-   "kanji": "",
-   "hv": "",
-   "vi": "bởi vì (cãi lại, thân mật)",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "A：何[なん]で食[た]べないの？B：だって、辛[つら]いんだもん。",
-     "vi": "A: Sao không ăn? B: Tại cay mà.",
-     "ctx": "hoithoai"
+      "id": "v:何で:なんで",
+      "kana": "なんで",
+      "kanji": "何で",
+      "kf": "何[なん]で",
+      "hv": "HÀ",
+      "vi": "tại sao (thân mật)",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "何[なん]で遅[おく]れたの？",
+          "vi": "Sao đến muộn thế?",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "何[なん]で教[おし]えてくれなかったの？",
+          "vi": "Sao không nói cho tôi?",
+          "ctx": "hoithoai"
+        }
+      ],
+      "syn": [
+        "v:どうして:どうして"
+      ],
+      "note": "Thân mật; lịch sự dùng どうして / なぜ."
     },
     {
-     "jp": "だって、知[し]らなかったんだから。",
-     "vi": "Tại tôi không biết mà.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "Thân mật, dùng để biện minh. Với người trên không nên dùng."
-  },
-  {
-   "id": "v:ですから:ですから",
-   "kana": "ですから",
-   "kanji": "",
-   "hv": "",
-   "vi": "vì vậy (lịch sự)",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "雨[あめ]が降[ふ]っています。ですから、作業[さぎょう]は中止[ちゅうし]です。",
-     "vi": "Trời đang mưa. Vì vậy công việc hủy.",
-     "ctx": "xuong"
+      "id": "v:だって:だって",
+      "kana": "だって",
+      "kanji": "",
+      "hv": "",
+      "vi": "bởi vì (cãi lại, thân mật)",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "A：何[なん]で食[た]べないの？B：だって、辛[つら]いんだもん。",
+          "vi": "A: Sao không ăn? B: Tại cay mà.",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "だって、知[し]らなかったんだから。",
+          "vi": "Tại tôi không biết mà.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Thân mật, dùng để biện minh. Với người trên không nên dùng."
     },
     {
-     "jp": "ですから、何度[なんど]も言[い]ったでしょう。",
-     "vi": "Vì thế tôi đã nói bao nhiêu lần rồi còn gì.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "syn": [
-    "v:だから:だから"
-   ]
-  },
-  {
-   "id": "v:当たり前:あたりまえ",
-   "kana": "あたりまえ",
-   "kanji": "当たり前",
-   "kf": "当[あ]たり前[まえ]",
-   "hv": "ĐƯƠNG TIỀN",
-   "vi": "đương nhiên, lẽ thường",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "時間[じかん]を守[まも]るのは、当[あ]たり前[まえ]です。",
-     "vi": "Đúng giờ là chuyện đương nhiên.",
-     "ctx": "xuong"
+      "id": "v:ですから:ですから",
+      "kana": "ですから",
+      "kanji": "",
+      "hv": "",
+      "vi": "vì vậy (lịch sự)",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "雨[あめ]が降[ふ]っています。ですから、作業[さぎょう]は中止[ちゅうし]です。",
+          "vi": "Trời đang mưa. Vì vậy công việc hủy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ですから、何度[なんど]も言[い]ったでしょう。",
+          "vi": "Vì thế tôi đã nói bao nhiêu lần rồi còn gì.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "syn": [
+        "v:だから:だから"
+      ]
     },
     {
-     "jp": "当[あ]たり前[まえ]のことを、毎日[まいにち]きちんとやる。",
-     "vi": "Ngày nào cũng làm cẩn thận những việc lẽ thường.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:誤り:あやまり",
-   "kana": "あやまり",
-   "kanji": "誤り",
-   "kf": "誤[あやま]り",
-   "hv": "NGỘ",
-   "vi": "sai sót (văn viết)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Xin lỗi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "書類[しょるい]の誤[あやま]りを直[なお]しました。",
-     "vi": "Tôi sửa sai sót trong giấy tờ.",
-     "ctx": "thutuc"
+      "id": "v:当たり前:あたりまえ",
+      "kana": "あたりまえ",
+      "kanji": "当たり前",
+      "kf": "当[あ]たり前[まえ]",
+      "hv": "ĐƯƠNG TIỀN",
+      "vi": "đương nhiên, lẽ thường",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "時間[じかん]を守[まも]るのは、当[あ]たり前[まえ]です。",
+          "vi": "Đúng giờ là chuyện đương nhiên.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "当[あ]たり前[まえ]のことを、毎日[まいにち]きちんとやる。",
+          "vi": "Ngày nào cũng làm cẩn thận những việc lẽ thường.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "誤[あやま]りがあれば、教[おし]えてください。",
-     "vi": "Có sai sót thì chỉ giúp tôi.",
-     "ctx": "thutuc"
-    }
-   ],
-   "syn": [
-    "v:間違い:まちがい"
-   ]
-  },
-  {
-   "id": "v:急に:きゅうに",
-   "kana": "きゅうに",
-   "kanji": "急に",
-   "kf": "急[きゅう]に",
-   "hv": "CẤP",
-   "vi": "đột nhiên (không báo trước)",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "急[きゅう]に用事[ようじ]ができて、行[い]けなくなりました。",
-     "vi": "Đột nhiên có việc nên không đi được nữa.",
-     "ctx": "doisong"
+      "id": "v:誤り:あやまり",
+      "kana": "あやまり",
+      "kanji": "誤り",
+      "kf": "誤[あやま]り",
+      "hv": "NGỘ",
+      "vi": "sai sót (văn viết)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Xin lỗi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "書類[しょるい]の誤[あやま]りを直[なお]しました。",
+          "vi": "Tôi sửa sai sót trong giấy tờ.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "誤[あやま]りがあれば、教[おし]えてください。",
+          "vi": "Có sai sót thì chỉ giúp tôi.",
+          "ctx": "thutuc"
+        }
+      ],
+      "syn": [
+        "v:間違い:まちがい"
+      ]
     },
     {
-     "jp": "急[きゅう]に止[と]まると、危[あぶ]ないです。",
-     "vi": "Dừng đột ngột thì nguy hiểm.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:突然:とつぜん"
-   ]
-  },
-  {
-   "id": "v:結局:けっきょく",
-   "kana": "けっきょく",
-   "kanji": "結局",
-   "hv": "KẾT CỤC",
-   "vi": "rốt cuộc",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "走[はし]ったけど、結局[けっきょく]間[ま]に合[あ]わなかった。",
-     "vi": "Đã chạy nhưng rốt cuộc không kịp.",
-     "ctx": "doisong"
+      "id": "v:急に:きゅうに",
+      "kana": "きゅうに",
+      "kanji": "急に",
+      "kf": "急[きゅう]に",
+      "hv": "CẤP",
+      "vi": "đột nhiên (không báo trước)",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "急[きゅう]に用事[ようじ]ができて、行[い]けなくなりました。",
+          "vi": "Đột nhiên có việc nên không đi được nữa.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "急[きゅう]に止[と]まると、危[あぶ]ないです。",
+          "vi": "Dừng đột ngột thì nguy hiểm.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:突然:とつぜん"
+      ]
     },
     {
-     "jp": "結局[けっきょく]、何[なに]が原因[げんいん]でしたか。",
-     "vi": "Rốt cuộc nguyên nhân là gì?",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:できれば:できれば",
-   "kana": "できれば",
-   "kanji": "",
-   "hv": "",
-   "vi": "nếu được thì",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "できれば、明日[あした]は休[やす]みたいです。",
-     "vi": "Nếu được mai tôi muốn nghỉ.",
-     "ctx": "xuong"
+      "id": "v:結局:けっきょく",
+      "kana": "けっきょく",
+      "kanji": "結局",
+      "hv": "KẾT CỤC",
+      "vi": "rốt cuộc",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "走[はし]ったけど、結局[けっきょく]間[ま]に合[あ]わなかった。",
+          "vi": "Đã chạy nhưng rốt cuộc không kịp.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "結局[けっきょく]、何[なに]が原因[げんいん]でしたか。",
+          "vi": "Rốt cuộc nguyên nhân là gì?",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "できれば、日本語[にほんご]で話[はな]してください。",
-     "vi": "Nếu được hãy nói bằng tiếng Nhật.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "Mở đầu lời nhờ, xin nhẹ nhàng."
-  },
-  {
-   "id": "v:ところが:ところが",
-   "kana": "ところが",
-   "kanji": "",
-   "hv": "",
-   "vi": "thế nhưng (trái dự đoán)",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "早[はや]く出[で]ました。ところが、電車[でんしゃ]が止[と]まっていました。",
-     "vi": "Tôi ra sớm. Thế nhưng tàu lại đang dừng.",
-     "ctx": "doisong"
+      "id": "v:できれば:できれば",
+      "kana": "できれば",
+      "kanji": "",
+      "hv": "",
+      "vi": "nếu được thì",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "できれば、明日[あした]は休[やす]みたいです。",
+          "vi": "Nếu được mai tôi muốn nghỉ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "できれば、日本語[にほんご]で話[はな]してください。",
+          "vi": "Nếu được hãy nói bằng tiếng Nhật.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Mở đầu lời nhờ, xin nhẹ nhàng."
     },
     {
-     "jp": "簡単[かんたん]だと思[おも]った。ところが、とても難[むずか]しかった。",
-     "vi": "Tưởng dễ. Thế mà rất khó.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Vế sau trái với điều mong đợi."
-  },
-  {
-   "id": "v:突然:とつぜん",
-   "kana": "とつぜん",
-   "kanji": "突然",
-   "hv": "ĐỘT NHIÊN",
-   "vi": "bất thình lình",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "突然[とつぜん]、停電[ていでん]になりました。",
-     "vi": "Bất thình lình mất điện.",
-     "ctx": "xuong"
+      "id": "v:ところが:ところが",
+      "kana": "ところが",
+      "kanji": "",
+      "hv": "",
+      "vi": "thế nhưng (trái dự đoán)",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "早[はや]く出[で]ました。ところが、電車[でんしゃ]が止[と]まっていました。",
+          "vi": "Tôi ra sớm. Thế nhưng tàu lại đang dừng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "簡単[かんたん]だと思[おも]った。ところが、とても難[むずか]しかった。",
+          "vi": "Tưởng dễ. Thế mà rất khó.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Vế sau trái với điều mong đợi."
     },
     {
-     "jp": "突然[とつぜん]の雨[あめ]で、びしょぬれになった。",
-     "vi": "Mưa bất chợt làm ướt sũng.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:急に:きゅうに"
-   ]
-  },
-  {
-   "id": "v:絶対:ぜったい",
-   "kana": "ぜったい",
-   "kanji": "絶対",
-   "hv": "TUYỆT ĐỐI",
-   "vi": "tuyệt đối",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Lý do",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "機械[きかい]の中[なか]に、絶対[ぜったい]に手[て]を入[い]れないでください。",
-     "vi": "Tuyệt đối không cho tay vào trong máy.",
-     "ctx": "xuong"
+      "id": "v:突然:とつぜん",
+      "kana": "とつぜん",
+      "kanji": "突然",
+      "hv": "ĐỘT NHIÊN",
+      "vi": "bất thình lình",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "突然[とつぜん]、停電[ていでん]になりました。",
+          "vi": "Bất thình lình mất điện.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "突然[とつぜん]の雨[あめ]で、びしょぬれになった。",
+          "vi": "Mưa bất chợt làm ướt sũng.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:急に:きゅうに"
+      ]
     },
     {
-     "jp": "次[つぎ]は絶対[ぜったい]に遅[おく]れません。",
-     "vi": "Lần sau nhất định không đến muộn.",
-     "ctx": "xuong"
+      "id": "v:絶対:ぜったい",
+      "kana": "ぜったい",
+      "kanji": "絶対",
+      "hv": "TUYỆT ĐỐI",
+      "vi": "tuyệt đối",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lý do",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "機械[きかい]の中[なか]に、絶対[ぜったい]に手[て]を入[い]れないでください。",
+          "vi": "Tuyệt đối không cho tay vào trong máy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "次[つぎ]は絶対[ぜったい]に遅[おく]れません。",
+          "vi": "Lần sau nhất định không đến muộn.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "絶対[ぜったい]に + phủ định = tuyệt đối không."
     }
-   ],
-   "note": "絶対[ぜったい]に + phủ định = tuyệt đối không."
-  }
- ]
+  ]
 }

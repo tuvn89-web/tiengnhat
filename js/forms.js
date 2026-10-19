@@ -3,7 +3,7 @@
 import { esc, rich, rubyHTML, plain, reading, shuffle, wordHTML, toast, icon } from './util.js';
 import { D, setPrefs, logAct } from './data.js';
 import { status, errCount, isStar } from './srs.js';
-import { verbInfo, conjugate, conjPart, wrongForms, ruleText, FORMS, FORM_LEVEL, BASE_FORMS, EXT_FORMS, CASUAL, DERIVED, formVi, shortVi } from './conj.js';
+import { verbInfo, conjugate, conjPart, wrongForms, ruleText, FORMS, FORM_LEVEL, BASE_FORMS, EXT_FORMS, CASUAL, DERIVED, formVi, shortVi, verbVi } from './conj.js';
 import { adjInfo, adjConj, adjWrong, AFORMS, adjVi, NFORMS, nounConj, nounWrong } from './adj.js';
 import { runDrill, opt } from './drill.js';
 import { chips, bindChips, readChip, readChips } from './ui.js';
@@ -53,8 +53,8 @@ export function pickWords(kind, srcs) {
 }
 
 // ---------- động từ ----------
-const vHead = (it, f) => `<p class="prompt-jp" lang="ja">${rich(verbInfo(it).dict)}</p><p class="prompt-hint">${esc(shortVi(it.vi))} → <b>${esc(FORMS[f])}</b></p>`;
-const vAfter = (it, f) => `<p>${rich(ruleText(it, f))}</p><p class="muted small">Nghĩa: ${esc(formVi(f, it.vi))}</p>`;
+const vHead = (it, f) => `<p class="prompt-jp" lang="ja">${rich(verbInfo(it).dict)}</p><p class="prompt-hint">${esc(verbVi(it))} → <b>${esc(FORMS[f])}</b></p>`;
+const vAfter = (it, f) => `<p>${rich(ruleText(it, f))}</p><p class="muted small">Nghĩa: ${esc(formVi(f, it))}</p>`;
 function typeVerbQ(it, f) {
   const v = verbInfo(it), c = conjugate(v, f);
   if (!c) return null;
@@ -80,7 +80,7 @@ function chainQs(it, forms) {
     const wr = uniqBy(wrongForms(v, f).filter(m => plain(m) !== plain(c.mark)), plain).slice(0, 3);
     if (wr.length >= 2) {
       out.push({ kind: 'choice', tag: `Chuỗi biến đổi ${k + 1}/${seq.length}`, level: FORM_LEVEL[f],
-        prompt: `<p class="chain" lang="ja">${done.map(m => rich(m)).join(' → ')} → <span class="chain-q">？</span></p><p class="prompt-hint">${esc(shortVi(it.vi))} → <b>${esc(FORMS[f])}</b></p>`,
+        prompt: `<p class="chain" lang="ja">${done.map(m => rich(m)).join(' → ')} → <span class="chain-q">？</span></p><p class="prompt-hint">${esc(verbVi(it))} → <b>${esc(FORMS[f])}</b></p>`,
         opts: shuffle([c.mark, ...wr]).map((m, i) => opt(m === c.mark ? 'ok' : 'x' + i, rich(m))), answer: 'ok', after: vAfter(it, f), onAnswer: rec(f, v.group) });
     }
     done.push(c.mark);
@@ -114,7 +114,7 @@ function identQ(it, forms, listen = false) {
     prompt: listen ? '<p class="prompt-hint">Nghe (bấm loa để nghe lại) rồi chọn đây là thể gì</p>' : `<p class="prompt-jp" lang="ja">${rich(m.mark)}</p>`,
     hint: listen ? '' : 'Đây là thể gì?', say: listen ? m.kana : undefined, autoSay: listen,
     opts: shuffle([S0, ...others]).map((x, i) => opt(x === S0 ? 'ok' : 'x' + i, esc(lab(x)), false)), answer: 'ok',
-    after: `<p><span lang="ja">${rich(m.mark)}</span> = <b>${esc(lab(S0))}</b> của <span lang="ja">${rich(v.dict)}</span> (${esc(shortVi(it.vi))}).</p><p class="muted small">${rich(ruleText(it, mf))}</p>`,
+    after: `<p><span lang="ja">${rich(m.mark)}</span> = <b>${esc(lab(S0))}</b> của <span lang="ja">${rich(v.dict)}</span> (${esc(verbVi(it))}).</p><p class="muted small">${rich(ruleText(it, mf))}</p>`,
     onAnswer: rec(mf, v.group) };
 }
 // Đổi câu: thường ↔ lịch sự, khẩu ngữ ↔ chuẩn, câu → sai khiến, sai khiến → sai khiến bị động
@@ -213,7 +213,7 @@ function keigoQ(k, list) {
   for (const x of shuffle(list)) if (x.t === k.t && x.it !== k.it && !mine.has(plain(x.ans)) && !shared.includes(x.ans)) ws.push(x.ans);
   const opts = uniqBy(ws.filter(w => plain(w) !== plain(k.ans)), plain).slice(0, 3);
   if (opts.length < 2) return null;
-  return { kind: 'choice', tag: 'Kính ngữ', level: 'N4', prompt: `<p class="prompt-jp" lang="ja">${rich(k.v.dict)}</p><p class="prompt-hint">${esc(shortVi(k.it.vi))} → <b>${k.t === 'ton' ? 'tôn kính ngữ' : 'khiêm nhường ngữ'}</b></p>`,
+  return { kind: 'choice', tag: 'Kính ngữ', level: 'N4', prompt: `<p class="prompt-jp" lang="ja">${rich(k.v.dict)}</p><p class="prompt-hint">${esc(verbVi(k.it))} → <b>${k.t === 'ton' ? 'tôn kính ngữ' : 'khiêm nhường ngữ'}</b></p>`,
     opts: shuffle([k.ans, ...opts]).map((s, i) => opt(s === k.ans ? 'ok' : 'x' + i, rich(s))), answer: 'ok',
     after: `<p><span lang="ja">${rich(k.ans)}</span> — ${esc(KT[k.t])}.${k.special ? '' : ` Khuôn: お + thân thể ます + ${k.t === 'ton' ? 'になる' : 'する'}.`}</p>`, onAnswer: rec('keigo', k.v.group) };
 }

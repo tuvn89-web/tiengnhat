@@ -1,771 +1,771 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n3-44",
-  "title": "JLPT N3 44 – Trở thành tổ trưởng",
-  "type": "vocab",
-  "level": "N3",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 1,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:組織:そしき",
-   "kana": "そしき",
-   "kanji": "組織",
-   "hv": "TỔ CHỨC",
-   "vi": "tổ chức (bộ máy)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tổ chức",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会社[かいしゃ]は、大[おお]きな組織[そしき]です。",
-     "vi": "Công ty là một tổ chức lớn.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "新[あたら]しいチームを、組織[そしき]しました。",
-     "vi": "Đã lập một nhóm mới.",
-     "ctx": "xuong"
-    }
-   ]
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n3-44",
+    "title": "JLPT N3 44 – Trở thành tổ trưởng",
+    "type": "vocab",
+    "level": "N3",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:代表:だいひょう",
-   "kana": "だいひょう",
-   "kanji": "代表",
-   "hv": "ĐẠI BIỂU",
-   "vi": "đại biểu, thay mặt (tập thể)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tổ chức",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "班[はん]を代表[だいひょう]して、あいさつします。",
-     "vi": "Tôi chào thay mặt cả tổ.",
-     "ctx": "xuong"
+      "id": "v:組織:そしき",
+      "kana": "そしき",
+      "kanji": "組織",
+      "hv": "TỔ CHỨC",
+      "vi": "tổ chức (bộ máy)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tổ chức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]は、大[おお]きな組織[そしき]です。",
+          "vi": "Công ty là một tổ chức lớn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "新[あたら]しいチームを、組織[そしき]しました。",
+          "vi": "Đã lập một nhóm mới.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "会社[かいしゃ]の代表[だいひょう]として、会議[かいぎ]に出[で]ました。",
-     "vi": "Tôi dự họp với tư cách đại diện công ty.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "代表者[だいひょうしゃ] = người đại diện."
-  },
-  {
-   "id": "v:責任者:せきにんしゃ",
-   "kana": "せきにんしゃ",
-   "kanji": "責任者",
-   "hv": "TRÁCH NHIỆM GIẢ",
-   "vi": "người chịu trách nhiệm",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tổ chức",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この作業[さぎょう]の責任者[せきにんしゃ]は、だれですか。",
-     "vi": "Ai là người chịu trách nhiệm việc này?",
-     "ctx": "xuong"
+      "id": "v:代表:だいひょう",
+      "kana": "だいひょう",
+      "kanji": "代表",
+      "hv": "ĐẠI BIỂU",
+      "vi": "thay mặt, đại diện (tập thể); đại biểu",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tổ chức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班[はん]を代表[だいひょう]して、あいさつします。",
+          "vi": "Tôi chào thay mặt cả tổ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "会社[かいしゃ]の代表[だいひょう]として、会議[かいぎ]に出[で]ました。",
+          "vi": "Tôi dự họp với tư cách đại diện công ty.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "代表者[だいひょうしゃ] = người đại diện."
     },
     {
-     "jp": "問題[もんだい]があったら、責任者[せきにんしゃ]に連絡[れんらく]してください。",
-     "vi": "Có vấn đề hãy báo người phụ trách.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:責任:せきにん"
-   ]
-  },
-  {
-   "id": "v:主任:しゅにん",
-   "kana": "しゅにん",
-   "kanji": "主任",
-   "hv": "CHỦ NHIỆM",
-   "vi": "chủ nhiệm (chức vụ ở xưởng, công ty)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tổ chức",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "来月[らいげつ]から、主任[しゅにん]になります。",
-     "vi": "Từ tháng sau tôi lên chức phụ trách.",
-     "ctx": "xuong"
+      "id": "v:責任者:せきにんしゃ",
+      "kana": "せきにんしゃ",
+      "kanji": "責任者",
+      "hv": "TRÁCH NHIỆM GIẢ",
+      "vi": "người chịu trách nhiệm",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tổ chức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この作業[さぎょう]の責任者[せきにんしゃ]は、だれですか。",
+          "vi": "Ai là người chịu trách nhiệm việc này?",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "問題[もんだい]があったら、責任者[せきにんしゃ]に連絡[れんらく]してください。",
+          "vi": "Có vấn đề hãy báo người phụ trách.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:責任:せきにん"
+      ]
     },
     {
-     "jp": "主任[しゅにん]に、相談[そうだん]してみます。",
-     "vi": "Tôi thử bàn với người phụ trách.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Ở xưởng thường: 班長[はんちょう] (tổ trưởng) → 主任[しゅにん] → 係長[かかりちょう] → 課長[かちょう] (tùy công ty)."
-  },
-  {
-   "id": "v:役職:やくしょく",
-   "kana": "やくしょく",
-   "kanji": "役職",
-   "hv": "DỊCH CHỨC",
-   "vi": "chức vụ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tổ chức",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "役職[やくしょく]が上[あ]がると、責任[せきにん]も重[おも]くなります。",
-     "vi": "Chức vụ cao lên thì trách nhiệm cũng nặng hơn.",
-     "ctx": "xuong"
+      "id": "v:主任:しゅにん",
+      "kana": "しゅにん",
+      "kanji": "主任",
+      "hv": "CHỦ NHIỆM",
+      "vi": "chủ nhiệm (chức vụ ở xưởng, công ty)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tổ chức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来月[らいげつ]から、主任[しゅにん]になります。",
+          "vi": "Từ tháng sau tôi lên chức phụ trách.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "主任[しゅにん]に、相談[そうだん]してみます。",
+          "vi": "Tôi thử bàn với người phụ trách.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Ở xưởng thường: 班長[はんちょう] (tổ trưởng) → 主任[しゅにん] → 係長[かかりちょう] → 課長[かちょう] (tùy công ty)."
     },
     {
-     "jp": "名刺[めいし]に、役職[やくしょく]が書[か]いてあります。",
-     "vi": "Trên danh thiếp có ghi chức vụ.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:部下:ぶか",
-   "kana": "ぶか",
-   "kanji": "部下",
-   "hv": "BỘ HẠ",
-   "vi": "cấp dưới",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tổ chức",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "田中[たなか]さんは、部下[ぶか]に優[やさ]しいです。",
-     "vi": "Anh Tanaka hiền với cấp dưới.",
-     "ctx": "xuong"
+      "id": "v:役職:やくしょく",
+      "kana": "やくしょく",
+      "kanji": "役職",
+      "hv": "DỊCH CHỨC",
+      "vi": "chức vụ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tổ chức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "役職[やくしょく]が上[あ]がると、責任[せきにん]も重[おも]くなります。",
+          "vi": "Chức vụ cao lên thì trách nhiệm cũng nặng hơn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "名刺[めいし]に、役職[やくしょく]が書[か]いてあります。",
+          "vi": "Trên danh thiếp có ghi chức vụ.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "部下[ぶか]の話[はなし]を、よく聞[き]いてください。",
-     "vi": "Hãy lắng nghe cấp dưới.",
-     "ctx": "xuong"
-    }
-   ],
-   "ant": [
-    "v:上司:じょうし"
-   ]
-  },
-  {
-   "id": "v:リーダー:リーダー",
-   "kana": "リーダー",
-   "kanji": "",
-   "hv": "",
-   "vi": "người dẫn dắt, trưởng nhóm",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tổ chức",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "グエンさんが、このチームのリーダーです。",
-     "vi": "Anh Nguyễn là trưởng nhóm này.",
-     "ctx": "xuong"
+      "id": "v:部下:ぶか",
+      "kana": "ぶか",
+      "kanji": "部下",
+      "hv": "BỘ HẠ",
+      "vi": "cấp dưới",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tổ chức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "田中[たなか]さんは、部下[ぶか]に優[やさ]しいです。",
+          "vi": "Anh Tanaka hiền với cấp dưới.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "部下[ぶか]の話[はなし]を、よく聞[き]いてください。",
+          "vi": "Hãy lắng nghe cấp dưới.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        "v:上司:じょうし"
+      ]
     },
     {
-     "jp": "いいリーダーは、みんなの話[はなし]を聞[き]きます。",
-     "vi": "Người dẫn dắt giỏi lắng nghe mọi người.",
-     "ctx": "xuong"
-    }
-   ],
-   "goc": "leader (tiếng Anh)"
-  },
-  {
-   "id": "v:チームワーク:チームワーク",
-   "kana": "チームワーク",
-   "kanji": "",
-   "hv": "",
-   "vi": "tinh thần đồng đội",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tổ chức",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この班[はん]は、チームワークがいいです。",
-     "vi": "Tổ này có tinh thần đồng đội tốt.",
-     "ctx": "xuong"
+      "id": "v:リーダー:リーダー",
+      "kana": "リーダー",
+      "kanji": "",
+      "hv": "",
+      "vi": "người dẫn dắt, trưởng nhóm",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tổ chức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "グエンさんが、このチームのリーダーです。",
+          "vi": "Anh Nguyễn là trưởng nhóm này.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "いいリーダーは、みんなの話[はなし]を聞[き]きます。",
+          "vi": "Người dẫn dắt giỏi lắng nghe mọi người.",
+          "ctx": "xuong"
+        }
+      ],
+      "goc": "leader (tiếng Anh)"
     },
     {
-     "jp": "チームワークを、大切[たいせつ]にしましょう。",
-     "vi": "Hãy coi trọng tinh thần đồng đội.",
-     "ctx": "xuong"
-    }
-   ],
-   "goc": "teamwork (tiếng Anh)"
-  },
-  {
-   "id": "v:協調:きょうちょう",
-   "kana": "きょうちょう",
-   "kanji": "協調",
-   "hv": "HIỆP ĐIỀU",
-   "vi": "hòa hợp với tập thể",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tổ chức",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "職場[しょくば]では、協調[きょうちょう]が大切[たいせつ]です。",
-     "vi": "Ở chỗ làm hòa hợp với tập thể rất quan trọng.",
-     "ctx": "xuong"
+      "id": "v:チームワーク:チームワーク",
+      "kana": "チームワーク",
+      "kanji": "",
+      "hv": "",
+      "vi": "tinh thần đồng đội",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tổ chức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この班[はん]は、チームワークがいいです。",
+          "vi": "Tổ này có tinh thần đồng đội tốt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "チームワークを、大切[たいせつ]にしましょう。",
+          "vi": "Hãy coi trọng tinh thần đồng đội.",
+          "ctx": "xuong"
+        }
+      ],
+      "goc": "teamwork (tiếng Anh)"
     },
     {
-     "jp": "ほかの班[はん]とも、協調[きょうちょう]して作業[さぎょう]します。",
-     "vi": "Làm việc hòa hợp với cả tổ khác.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "協調性[きょうちょうせい] = khả năng hòa đồng (hay gặp trong đánh giá, phỏng vấn)."
-  },
-  {
-   "id": "v:方針:ほうしん",
-   "kana": "ほうしん",
-   "kanji": "方針",
-   "hv": "PHƯƠNG CHÂM",
-   "vi": "phương châm, đường lối",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tổ chức",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会社[かいしゃ]の方針[ほうしん]が、変[か]わりました。",
-     "vi": "Phương châm công ty đã thay đổi.",
-     "ctx": "xuong"
+      "id": "v:協調:きょうちょう",
+      "kana": "きょうちょう",
+      "kanji": "協調",
+      "hv": "HIỆP ĐIỀU",
+      "vi": "hòa hợp với tập thể",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tổ chức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "職場[しょくば]では、協調[きょうちょう]が大切[たいせつ]です。",
+          "vi": "Ở chỗ làm hòa hợp với tập thể rất quan trọng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ほかの班[はん]とも、協調[きょうちょう]して作業[さぎょう]します。",
+          "vi": "Làm việc hòa hợp với cả tổ khác.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "協調性[きょうちょうせい] = khả năng hòa đồng (hay gặp trong đánh giá, phỏng vấn)."
     },
     {
-     "jp": "今年[ことし]の方針[ほうしん]は、「安全[あんぜん]第[だい]一[いち]」です。",
-     "vi": "Phương châm năm nay là \"an toàn trên hết\".",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:信頼:しんらい",
-   "kana": "しんらい",
-   "kanji": "信頼",
-   "hv": "TÍN LẠI",
-   "vi": "tin cậy (vào con người)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đánh giá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班長[はんちょう]は、みんなに信頼[しんらい]されています。",
-     "vi": "Tổ trưởng được mọi người tin cậy.",
-     "ctx": "xuong"
+      "id": "v:方針:ほうしん",
+      "kana": "ほうしん",
+      "kanji": "方針",
+      "hv": "PHƯƠNG CHÂM",
+      "vi": "phương châm, đường lối",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tổ chức",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]の方針[ほうしん]が、変[か]わりました。",
+          "vi": "Phương châm công ty đã thay đổi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "今年[ことし]の方針[ほうしん]は、「安全[あんぜん]第[だい]一[いち]」です。",
+          "vi": "Phương châm năm nay là \"an toàn trên hết\".",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "信頼[しんらい]できる人[ひと]に、仕事[しごと]を任[まか]せます。",
-     "vi": "Giao việc cho người đáng tin cậy.",
-     "ctx": "xuong"
-    }
-   ],
-   "confuse": [
-    "v:信用:しんよう"
-   ],
-   "note": "信頼[しんらい] = tin vào con người, năng lực; 信用[しんよう] = tin vào lời nói, uy tín (cả tiền bạc)."
-  },
-  {
-   "id": "v:信用:しんよう",
-   "kana": "しんよう",
-   "kanji": "信用",
-   "hv": "TÍN DỤNG",
-   "vi": "tin dùng; uy tín",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đánh giá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "あの人[ひと]の話[はなし]は、信用[しんよう]できません。",
-     "vi": "Lời người đó không tin được.",
-     "ctx": "doisong"
+      "id": "v:信頼:しんらい",
+      "kana": "しんらい",
+      "kanji": "信頼",
+      "hv": "TÍN LẠI",
+      "vi": "tin cậy (vào con người)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đánh giá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班長[はんちょう]は、みんなに信頼[しんらい]されています。",
+          "vi": "Tổ trưởng được mọi người tin cậy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "信頼[しんらい]できる人[ひと]に、仕事[しごと]を任[まか]せます。",
+          "vi": "Giao việc cho người đáng tin cậy.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:信用:しんよう"
+      ],
+      "note": "信頼[しんらい] = tin vào con người, năng lực; 信用[しんよう] = tin vào lời nói, uy tín (cả tiền bạc)."
     },
     {
-     "jp": "約束[やくそく]を守[まも]ると、信用[しんよう]が生[う]まれます。",
-     "vi": "Giữ lời hứa thì có uy tín.",
-     "ctx": "xuong"
-    }
-   ],
-   "confuse": [
-    "v:信頼:しんらい"
-   ]
-  },
-  {
-   "id": "v:期待:きたい",
-   "kana": "きたい",
-   "kanji": "期待",
-   "hv": "KỲ ĐÃI",
-   "vi": "trông đợi, kỳ vọng vào ai",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đánh giá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "課長[かちょう]は、グエンさんに期待[きたい]しています。",
-     "vi": "Trưởng phòng đặt kỳ vọng vào anh Nguyễn.",
-     "ctx": "xuong"
+      "id": "v:信用:しんよう",
+      "kana": "しんよう",
+      "kanji": "信用",
+      "hv": "TÍN DỤNG",
+      "vi": "tin dùng; uy tín",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đánh giá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "あの人[ひと]の話[はなし]は、信用[しんよう]できません。",
+          "vi": "Lời người đó không tin được.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "約束[やくそく]を守[まも]ると、信用[しんよう]が生[う]まれます。",
+          "vi": "Giữ lời hứa thì có uy tín.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:信頼:しんらい"
+      ]
     },
     {
-     "jp": "期待[きたい]に応[こた]えられるように、頑張[がんば]ります。",
-     "vi": "Tôi sẽ cố gắng để đáp lại kỳ vọng.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "期待[きたい]に応[こた]える = đáp lại kỳ vọng."
-  },
-  {
-   "id": "v:評価:ひょうか",
-   "kana": "ひょうか",
-   "kanji": "評価",
-   "hv": "BÌNH GIÁ",
-   "vi": "chấm điểm, đánh giá năng lực",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đánh giá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今年[ことし]の評価[ひょうか]は、とてもよかったです。",
-     "vi": "Đánh giá năm nay rất tốt.",
-     "ctx": "xuong"
+      "id": "v:期待:きたい",
+      "kana": "きたい",
+      "kanji": "期待",
+      "hv": "KỲ ĐÃI",
+      "vi": "trông đợi, kỳ vọng vào ai",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đánh giá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "課長[かちょう]は、グエンさんに期待[きたい]しています。",
+          "vi": "Trưởng phòng đặt kỳ vọng vào anh Nguyễn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "期待[きたい]に応[こた]えられるように、頑張[がんば]ります。",
+          "vi": "Tôi sẽ cố gắng để đáp lại kỳ vọng.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "期待[きたい]に応[こた]える = đáp lại kỳ vọng."
     },
     {
-     "jp": "仕事[しごと]の速[はや]さだけでなく、正確[せいかく]さも評価[ひょうか]されます。",
-     "vi": "Không chỉ tốc độ mà độ chính xác cũng được đánh giá.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:実績:じっせき",
-   "kana": "じっせき",
-   "kanji": "実績",
-   "hv": "THỰC TÍCH",
-   "vi": "thành tích thực tế",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đánh giá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "三年[さんねん]間[かん]の実績[じっせき]が、認[みと]められました。",
-     "vi": "Thành tích ba năm đã được công nhận.",
-     "ctx": "xuong"
+      "id": "v:評価:ひょうか",
+      "kana": "ひょうか",
+      "kanji": "評価",
+      "hv": "BÌNH GIÁ",
+      "vi": "chấm điểm, đánh giá năng lực",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đánh giá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今年[ことし]の評価[ひょうか]は、とてもよかったです。",
+          "vi": "Đánh giá năm nay rất tốt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "仕事[しごと]の速[はや]さだけでなく、正確[せいかく]さも評価[ひょうか]されます。",
+          "vi": "Không chỉ tốc độ mà độ chính xác cũng được đánh giá.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "実績[じっせき]のある人[ひと]を、リーダーに選[えら]びます。",
-     "vi": "Chọn người có thành tích làm trưởng nhóm.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:成果:せいか",
-   "kana": "せいか",
-   "kanji": "成果",
-   "hv": "THÀNH QUẢ",
-   "vi": "thành quả",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đánh giá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "練習[れんしゅう]の成果[せいか]が、出[で]ました。",
-     "vi": "Thành quả luyện tập đã thấy rõ.",
-     "ctx": "doisong"
+      "id": "v:実績:じっせき",
+      "kana": "じっせき",
+      "kanji": "実績",
+      "hv": "THỰC TÍCH",
+      "vi": "thành tích thực tế",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đánh giá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "三年[さんねん]間[かん]の実績[じっせき]が、認[みと]められました。",
+          "vi": "Thành tích ba năm đã được công nhận.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "実績[じっせき]のある人[ひと]を、リーダーに選[えら]びます。",
+          "vi": "Chọn người có thành tích làm trưởng nhóm.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "班[はん]の成果[せいか]を、発表[はっぴょう]します。",
-     "vi": "Trình bày thành quả của tổ.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "成果[せいか]が出[で]る = có thành quả."
-  },
-  {
-   "id": "v:昇進:しょうしん",
-   "kana": "しょうしん",
-   "kanji": "昇進",
-   "hv": "THĂNG TIẾN",
-   "vi": "thăng chức",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đánh giá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "田中[たなか]さんは、課長[かちょう]に昇進[しょうしん]しました。",
-     "vi": "Anh Tanaka được thăng làm trưởng phòng.",
-     "ctx": "xuong"
+      "id": "v:成果:せいか",
+      "kana": "せいか",
+      "kanji": "成果",
+      "hv": "THÀNH QUẢ",
+      "vi": "thành quả",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đánh giá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "練習[れんしゅう]の成果[せいか]が、出[で]ました。",
+          "vi": "Thành quả luyện tập đã thấy rõ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "班[はん]の成果[せいか]を、発表[はっぴょう]します。",
+          "vi": "Trình bày thành quả của tổ.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "成果[せいか]が出[で]る = có thành quả."
     },
     {
-     "jp": "昇進[しょうしん]のお祝[いわ]いに、みんなで食事[しょくじ]しました。",
-     "vi": "Mọi người cùng ăn mừng thăng chức.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:選考:せんこう",
-   "kana": "せんこう",
-   "kanji": "選考",
-   "hv": "TUYỂN KHẢO",
-   "vi": "xét chọn, tuyển chọn",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đánh giá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "リーダーの選考[せんこう]が、始[はじ]まりました。",
-     "vi": "Việc xét chọn trưởng nhóm đã bắt đầu.",
-     "ctx": "xuong"
+      "id": "v:昇進:しょうしん",
+      "kana": "しょうしん",
+      "kanji": "昇進",
+      "hv": "THĂNG TIẾN",
+      "vi": "thăng chức",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đánh giá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "田中[たなか]さんは、課長[かちょう]に昇進[しょうしん]しました。",
+          "vi": "Anh Tanaka được thăng làm trưởng phòng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "昇進[しょうしん]のお祝[いわ]いに、みんなで食事[しょくじ]しました。",
+          "vi": "Mọi người cùng ăn mừng thăng chức.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "書類[しょるい]選考[せんこう]に、通[とお]りました。",
-     "vi": "Tôi đã qua vòng xét hồ sơ.",
-     "ctx": "thutuc"
-    }
-   ],
-   "note": "書類選考[しょるいせんこう] = vòng xét hồ sơ."
-  },
-  {
-   "id": "v:候補:こうほ",
-   "kana": "こうほ",
-   "kanji": "候補",
-   "hv": "HẬU BỔ",
-   "vi": "ứng viên, người được đề cử",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đánh giá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班[はん]長[ちょう]の候補[こうほ]に、選[えら]ばれました。",
-     "vi": "Tôi được chọn làm ứng viên tổ trưởng.",
-     "ctx": "xuong"
+      "id": "v:選考:せんこう",
+      "kana": "せんこう",
+      "kanji": "選考",
+      "hv": "TUYỂN KHẢO",
+      "vi": "xét chọn, tuyển chọn",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đánh giá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "リーダーの選考[せんこう]が、始[はじ]まりました。",
+          "vi": "Việc xét chọn trưởng nhóm đã bắt đầu.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "書類[しょるい]選考[せんこう]に、通[とお]りました。",
+          "vi": "Tôi đã qua vòng xét hồ sơ.",
+          "ctx": "thutuc"
+        }
+      ],
+      "note": "書類選考[しょるいせんこう] = vòng xét hồ sơ."
     },
     {
-     "jp": "旅行先[りょこうさき]の候補[こうほ]を、三[みっ]つ考[かんが]えました。",
-     "vi": "Tôi nghĩ ra ba nơi có thể đi du lịch.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "候補者[こうほしゃ] = người ứng cử."
-  },
-  {
-   "id": "v:指導:しどう",
-   "kana": "しどう",
-   "kanji": "指導",
-   "hv": "CHỈ ĐẠO",
-   "vi": "chỉ dạy, kèm cặp",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đào tạo",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "新人[しんじん]の指導[しどう]を、任[まか]されました。",
-     "vi": "Tôi được giao kèm cặp người mới.",
-     "ctx": "xuong"
+      "id": "v:候補:こうほ",
+      "kana": "こうほ",
+      "kanji": "候補",
+      "hv": "HẬU BỔ",
+      "vi": "ứng viên, người được đề cử",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đánh giá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班[はん]長[ちょう]の候補[こうほ]に、選[えら]ばれました。",
+          "vi": "Tôi được chọn làm ứng viên tổ trưởng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "旅行先[りょこうさき]の候補[こうほ]を、三[みっ]つ考[かんが]えました。",
+          "vi": "Tôi nghĩ ra ba nơi có thể đi du lịch.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "候補者[こうほしゃ] = người ứng cử."
     },
     {
-     "jp": "先輩[せんぱい]の指導[しどう]のおかげで、早[はや]く慣[な]れました。",
-     "vi": "Nhờ tiền bối chỉ dạy mà tôi quen việc nhanh.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "指導者[しどうしゃ] = người hướng dẫn."
-  },
-  {
-   "id": "v:研修:けんしゅう",
-   "kana": "けんしゅう",
-   "kanji": "研修",
-   "hv": "NGHIÊN TU",
-   "vi": "khóa đào tạo, tập huấn",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đào tạo",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "来週[らいしゅう]、リーダーの研修[けんしゅう]があります。",
-     "vi": "Tuần sau có khóa đào tạo trưởng nhóm.",
-     "ctx": "xuong"
+      "id": "v:指導:しどう",
+      "kana": "しどう",
+      "kanji": "指導",
+      "hv": "CHỈ ĐẠO",
+      "vi": "chỉ dạy, kèm cặp",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đào tạo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新人[しんじん]の指導[しどう]を、任[まか]されました。",
+          "vi": "Tôi được giao kèm cặp người mới.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "先輩[せんぱい]の指導[しどう]のおかげで、早[はや]く慣[な]れました。",
+          "vi": "Nhờ tiền bối chỉ dạy mà tôi quen việc nhanh.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "指導者[しどうしゃ] = người hướng dẫn."
     },
     {
-     "jp": "安全[あんぜん]研修[けんしゅう]を、受[う]けました。",
-     "vi": "Tôi đã học tập huấn an toàn.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "研修生[けんしゅうせい] = thực tập sinh (đang được đào tạo)."
-  },
-  {
-   "id": "v:決心:けっしん",
-   "kana": "けっしん",
-   "kanji": "決心",
-   "hv": "QUYẾT TÂM",
-   "vi": "quyết tâm, hạ quyết định",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đào tạo",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]で働[はたら]くことを、決心[けっしん]しました。",
-     "vi": "Tôi đã quyết tâm làm việc ở Nhật.",
-     "ctx": "doisong"
+      "id": "v:研修:けんしゅう",
+      "kana": "けんしゅう",
+      "kanji": "研修",
+      "hv": "NGHIÊN TU",
+      "vi": "tập huấn, học việc; khóa đào tạo",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đào tạo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来週[らいしゅう]、リーダーの研修[けんしゅう]があります。",
+          "vi": "Tuần sau có khóa đào tạo trưởng nhóm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "安全[あんぜん]研修[けんしゅう]を、受[う]けました。",
+          "vi": "Tôi đã học tập huấn an toàn.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "研修生[けんしゅうせい] = thực tập sinh (đang được đào tạo)."
     },
     {
-     "jp": "班長[はんちょう]になる決心[けっしん]が、つきました。",
-     "vi": "Tôi đã quyết định nhận làm tổ trưởng.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "決心[けっしん]がつく = quyết định được (sau khi đắn đo)."
-  },
-  {
-   "id": "v:自信:じしん",
-   "kana": "じしん",
-   "kanji": "自信",
-   "hv": "TỰ TÍN",
-   "vi": "sự tự tin",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đào tạo",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本語[にほんご]に、少[すこ]し自信[じしん]がつきました。",
-     "vi": "Tôi đã tự tin hơn chút về tiếng Nhật.",
-     "ctx": "doisong"
+      "id": "v:決心:けっしん",
+      "kana": "けっしん",
+      "kanji": "決心",
+      "hv": "QUYẾT TÂM",
+      "vi": "quyết tâm, hạ quyết định",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đào tạo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]で働[はたら]くことを、決心[けっしん]しました。",
+          "vi": "Tôi đã quyết tâm làm việc ở Nhật.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "班長[はんちょう]になる決心[けっしん]が、つきました。",
+          "vi": "Tôi đã quyết định nhận làm tổ trưởng.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "決心[けっしん]がつく = quyết định được (sau khi đắn đo)."
     },
     {
-     "jp": "自信[じしん]を持[も]って、話[はな]してください。",
-     "vi": "Hãy nói một cách tự tin.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "自信[じしん]がある = tự tin; 自信[じしん]を持[も]つ = giữ sự tự tin."
-  },
-  {
-   "id": "v:やる気:やるき",
-   "kana": "やるき",
-   "kanji": "やる気",
-   "kf": "やる気[き]",
-   "hv": "KHÍ",
-   "vi": "động lực, tinh thần muốn làm",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đào tạo",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "新人[しんじん]は、やる気[き]があります。",
-     "vi": "Người mới rất hăng hái.",
-     "ctx": "xuong"
+      "id": "v:自信:じしん",
+      "kana": "じしん",
+      "kanji": "自信",
+      "hv": "TỰ TÍN",
+      "vi": "sự tự tin",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đào tạo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本語[にほんご]に、少[すこ]し自信[じしん]がつきました。",
+          "vi": "Tôi đã tự tin hơn chút về tiếng Nhật.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "自信[じしん]を持[も]って、話[はな]してください。",
+          "vi": "Hãy nói một cách tự tin.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "自信[じしん]がある = tự tin; 自信[じしん]を持[も]つ = giữ sự tự tin."
     },
     {
-     "jp": "褒[ほ]められると、やる気[き]が出[で]ます。",
-     "vi": "Được khen là có động lực.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "やる気[き]がない = không có hứng làm; やる気[き]を出[だ]す = lấy tinh thần."
-  },
-  {
-   "id": "v:一人前:いちにんまえ",
-   "kana": "いちにんまえ",
-   "kanji": "一人前",
-   "hv": "NHẤT NHÂN TIỀN",
-   "vi": "(tay nghề) thành thạo, đủ sức tự làm; một suất",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đào tạo",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "一人前[いちにんまえ]の職人[しょくにん]に、なりたいです。",
-     "vi": "Tôi muốn thành thợ thạo nghề.",
-     "ctx": "xuong"
+      "id": "v:やる気:やるき",
+      "kana": "やるき",
+      "kanji": "やる気",
+      "kf": "やる気[き]",
+      "hv": "KHÍ",
+      "vi": "động lực, tinh thần muốn làm",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đào tạo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新人[しんじん]は、やる気[き]があります。",
+          "vi": "Người mới rất hăng hái.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "褒[ほ]められると、やる気[き]が出[で]ます。",
+          "vi": "Được khen là có động lực.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "やる気[き]がない = không có hứng làm; やる気[き]を出[だ]す = lấy tinh thần."
     },
     {
-     "jp": "ラーメン一人前[いちにんまえ]、お願[ねが]いします。",
-     "vi": "Cho một suất mì ramen.",
-     "ctx": "hoithoai"
-    }
-   ]
-  },
-  {
-   "id": "v:引き受ける:ひきうける",
-   "kana": "ひきうける",
-   "kanji": "引き受ける",
-   "kf": "引[ひ]き受[う]ける",
-   "hv": "DẪN THỤ",
-   "vi": "nhận lời, đảm nhận",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đào tạo",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班[はん]長[ちょう]の仕事[しごと]を、引[ひ]き受[う]けました。",
-     "vi": "Tôi đã nhận làm tổ trưởng.",
-     "ctx": "xuong"
+      "id": "v:一人前:いちにんまえ",
+      "kana": "いちにんまえ",
+      "kanji": "一人前",
+      "hv": "NHẤT NHÂN TIỀN",
+      "vi": "(tay nghề) thành thạo, đủ sức tự làm; một suất",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đào tạo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "一人前[いちにんまえ]の職人[しょくにん]に、なりたいです。",
+          "vi": "Tôi muốn thành thợ thạo nghề.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ラーメン一人前[いちにんまえ]、お願[ねが]いします。",
+          "vi": "Cho một suất mì ramen.",
+          "ctx": "hoithoai"
+        }
+      ]
     },
     {
-     "jp": "難[むずか]しい仕事[しごと]でも、引[ひ]き受[う]けます。",
-     "vi": "Việc khó tôi cũng nhận.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "仕事[しごと]を引[ひ]き受[う]ける",
-     "vi": "nhận việc"
-    }
-   ]
-  },
-  {
-   "id": "v:励ます:はげます",
-   "kana": "はげます",
-   "kanji": "励ます",
-   "kf": "励[はげ]ます",
-   "hv": "LỆ",
-   "vi": "động viên, khích lệ",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đào tạo",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "失敗[しっぱい]した後輩[こうはい]を、励[はげ]ましました。",
-     "vi": "Tôi động viên đàn em bị thất bại.",
-     "ctx": "xuong"
+      "id": "v:引き受ける:ひきうける",
+      "kana": "ひきうける",
+      "kanji": "引き受ける",
+      "kf": "引[ひ]き受[う]ける",
+      "hv": "DẪN THỤ",
+      "vi": "nhận lời, đảm nhận",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đào tạo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班[はん]長[ちょう]の仕事[しごと]を、引[ひ]き受[う]けました。",
+          "vi": "Tôi đã nhận làm tổ trưởng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "難[むずか]しい仕事[しごと]でも、引[ひ]き受[う]けます。",
+          "vi": "Việc khó tôi cũng nhận.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "仕事[しごと]を引[ひ]き受[う]ける",
+          "vi": "nhận việc"
+        }
+      ]
     },
     {
-     "jp": "家族[かぞく]の言葉[ことば]に、励[はげ]まされました。",
-     "vi": "Tôi được lời của gia đình động viên.",
-     "ctx": "doisong"
+      "id": "v:励ます:はげます",
+      "kana": "はげます",
+      "kanji": "励ます",
+      "kf": "励[はげ]ます",
+      "hv": "LỆ",
+      "vi": "động viên, khích lệ",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đào tạo",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "失敗[しっぱい]した後輩[こうはい]を、励[はげ]ましました。",
+          "vi": "Tôi động viên đàn em bị thất bại.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "家族[かぞく]の言葉[ことば]に、励[はげ]まされました。",
+          "vi": "Tôi được lời của gia đình động viên.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "後輩[こうはい]を励[はげ]ます",
+          "vi": "động viên đàn em"
+        }
+      ],
+      "fx": [
+        {
+          "f": "ukemi",
+          "jp": "みんなに[[励[はげ]まされ]]て、頑張[がんば]れました。",
+          "vi": "Được mọi người động viên, tôi đã cố gắng được."
+        }
+      ]
     }
-   ],
-   "coll": [
-    {
-     "jp": "後輩[こうはい]を励[はげ]ます",
-     "vi": "động viên đàn em"
-    }
-   ],
-   "fx": [
-    {
-     "f": "ukemi",
-     "jp": "みんなに[[励[はげ]まされ]]て、頑張[がんば]れました。",
-     "vi": "Được mọi người động viên, tôi đã cố gắng được."
-    }
-   ]
-  }
- ]
+  ]
 }

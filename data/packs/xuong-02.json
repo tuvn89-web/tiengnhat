@@ -1,1149 +1,1149 @@
 {
- "schema": 1,
- "pack": {
-  "id": "xuong-02",
-  "title": "Công xưởng 02 – An toàn lao động, 5S, tiền lương",
-  "type": "vocab",
-  "level": "N4",
-  "topics": [
-   "xuong"
-  ],
-  "version": 3,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Từ chuyên ngành xưởng: cấp là ước lượng (không có trong danh sách JLPT). Tiền lương, bảo hiểm: chỉ là từ vựng để đọc phiếu lương, không phải tư vấn."
- },
- "items": [
-  {
-   "id": "v:安全靴:あんぜんぐつ",
-   "kana": "あんぜんぐつ",
-   "kanji": "安全靴",
-   "hv": "AN TOÀN NGOA",
-   "vi": "giày bảo hộ",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Đồ bảo hộ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "工場[こうじょう]の中[なか]では、必[かなら]ず安全[あんぜん]靴[くつ]を履[は]いてください。",
-     "vi": "Trong xưởng nhất định phải đi giày bảo hộ.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "安全[あんぜん]靴[くつ]が小[ちい]さいので、交換[こうかん]してもらいました。",
-     "vi": "Giày bảo hộ chật nên tôi được đổi.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "安全[あんぜん]靴[くつ]を履[は]く",
-     "vi": "đi giày bảo hộ"
-    }
-   ],
-   "ctr": "足"
+  "schema": 1,
+  "pack": {
+    "id": "xuong-02",
+    "title": "Công xưởng 02 – An toàn lao động, 5S, tiền lương",
+    "type": "vocab",
+    "level": "N4",
+    "topics": [
+      "xuong"
+    ],
+    "version": 4,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Từ chuyên ngành xưởng: cấp là ước lượng (không có trong danh sách JLPT). Tiền lương, bảo hiểm: chỉ là từ vựng để đọc phiếu lương, không phải tư vấn."
   },
-  {
-   "id": "v:ヘルメット:ヘルメット",
-   "kana": "ヘルメット",
-   "kanji": "",
-   "hv": "",
-   "vi": "mũ bảo hộ",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Đồ bảo hộ",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "倉庫[そうこ]ではヘルメットをかぶってください。",
-     "vi": "Trong kho hãy đội mũ bảo hộ.",
-     "ctx": "xuong"
+      "id": "v:安全靴:あんぜんぐつ",
+      "kana": "あんぜんぐつ",
+      "kanji": "安全靴",
+      "hv": "AN TOÀN NGOA",
+      "vi": "giày bảo hộ",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Đồ bảo hộ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "工場[こうじょう]の中[なか]では、必[かなら]ず安全[あんぜん]靴[くつ]を履[は]いてください。",
+          "vi": "Trong xưởng nhất định phải đi giày bảo hộ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "安全[あんぜん]靴[くつ]が小[ちい]さいので、交換[こうかん]してもらいました。",
+          "vi": "Giày bảo hộ chật nên tôi được đổi.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "安全[あんぜん]靴[くつ]を履[は]く",
+          "vi": "đi giày bảo hộ"
+        }
+      ],
+      "ctr": "足"
     },
     {
-     "jp": "ヘルメットのひもをしっかり締[し]めます。",
-     "vi": "Thắt chặt quai mũ bảo hộ.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "ヘルメットをかぶる",
-     "vi": "đội mũ bảo hộ"
-    }
-   ],
-   "goc": "helmet (tiếng Anh)"
-  },
-  {
-   "id": "v:保護メガネ:ほごメガネ",
-   "kana": "ほごメガネ",
-   "kanji": "保護メガネ",
-   "kf": "保護[ほご]メガネ",
-   "hv": "BẢO HỘ",
-   "vi": "kính bảo hộ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Đồ bảo hộ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "薬品[やくひん]を使[つか]う時[とき]は、保護[ほご]メガネをかけてください。",
-     "vi": "Khi dùng hóa chất hãy đeo kính bảo hộ.",
-     "ctx": "xuong"
+      "id": "v:ヘルメット:ヘルメット",
+      "kana": "ヘルメット",
+      "kanji": "",
+      "hv": "",
+      "vi": "mũ bảo hộ",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Đồ bảo hộ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "倉庫[そうこ]ではヘルメットをかぶってください。",
+          "vi": "Trong kho hãy đội mũ bảo hộ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ヘルメットのひもをしっかり締[し]めます。",
+          "vi": "Thắt chặt quai mũ bảo hộ.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "ヘルメットをかぶる",
+          "vi": "đội mũ bảo hộ"
+        }
+      ],
+      "goc": "helmet (tiếng Anh)"
     },
     {
-     "jp": "保護[ほご]メガネが曇[くも]って、よく見[み]えません。",
-     "vi": "Kính bảo hộ bị mờ hơi, không nhìn rõ.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "保護[ほご]メガネをかける",
-     "vi": "đeo kính bảo hộ"
-    }
-   ]
-  },
-  {
-   "id": "v:耳栓:みみせん",
-   "kana": "みみせん",
-   "kanji": "耳栓",
-   "hv": "NHĨ XUYÊN",
-   "vi": "nút bịt tai",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Đồ bảo hộ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "機械[きかい]の音[おと]が大[おお]きいので、耳栓[みみせん]をします。",
-     "vi": "Máy ồn nên tôi đeo nút bịt tai.",
-     "ctx": "xuong"
+      "id": "v:保護メガネ:ほごメガネ",
+      "kana": "ほごメガネ",
+      "kanji": "保護メガネ",
+      "kf": "保護[ほご]メガネ",
+      "hv": "BẢO HỘ",
+      "vi": "kính bảo hộ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Đồ bảo hộ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "薬品[やくひん]を使[つか]う時[とき]は、保護[ほご]メガネをかけてください。",
+          "vi": "Khi dùng hóa chất hãy đeo kính bảo hộ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "保護[ほご]メガネが曇[くも]って、よく見[み]えません。",
+          "vi": "Kính bảo hộ bị mờ hơi, không nhìn rõ.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "保護[ほご]メガネをかける",
+          "vi": "đeo kính bảo hộ"
+        }
+      ]
     },
     {
-     "jp": "耳栓[みみせん]をしていても、ブザーの音[おと]は聞[き]こえます。",
-     "vi": "Đeo nút tai vẫn nghe thấy tiếng còi.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:作業着:さぎょうぎ",
-   "kana": "さぎょうぎ",
-   "kanji": "作業着",
-   "hv": "TÁC NGHIỆP TRƯỚC",
-   "vi": "quần áo làm việc, đồ bảo hộ",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Đồ bảo hộ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "作業着[さぎょうぎ]は会社[かいしゃ]が洗濯[せんたく]してくれます。",
-     "vi": "Đồ làm việc công ty giặt cho.",
-     "ctx": "xuong"
+      "id": "v:耳栓:みみせん",
+      "kana": "みみせん",
+      "kanji": "耳栓",
+      "hv": "NHĨ XUYÊN",
+      "vi": "nút bịt tai",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Đồ bảo hộ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "機械[きかい]の音[おと]が大[おお]きいので、耳栓[みみせん]をします。",
+          "vi": "Máy ồn nên tôi đeo nút bịt tai.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "耳栓[みみせん]をしていても、ブザーの音[おと]は聞[き]こえます。",
+          "vi": "Đeo nút tai vẫn nghe thấy tiếng còi.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "作業[さぎょう]着[ちゃく]に着替[きが]えてから、手[て]を洗[あら]います。",
-     "vi": "Thay đồ làm việc rồi rửa tay.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "作業[さぎょう]着[ちゃく]に着替[きが]える",
-     "vi": "thay đồ làm việc"
-    }
-   ],
-   "ctr": "着"
-  },
-  {
-   "id": "v:エプロン:エプロン",
-   "kana": "エプロン",
-   "kanji": "",
-   "hv": "",
-   "vi": "tạp dề (ở xưởng thủy sản: tạp dề cao su)",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Đồ bảo hộ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "汚[よご]れたエプロンは、かごに入[い]れてください。",
-     "vi": "Tạp dề bẩn bỏ vào giỏ.",
-     "ctx": "xuong"
+      "id": "v:作業着:さぎょうぎ",
+      "kana": "さぎょうぎ",
+      "kanji": "作業着",
+      "hv": "TÁC NGHIỆP TRƯỚC",
+      "vi": "quần áo làm việc, đồ bảo hộ",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Đồ bảo hộ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "作業着[さぎょうぎ]は会社[かいしゃ]が洗濯[せんたく]してくれます。",
+          "vi": "Đồ làm việc công ty giặt cho.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "作業[さぎょう]着[ちゃく]に着替[きが]えてから、手[て]を洗[あら]います。",
+          "vi": "Thay đồ làm việc rồi rửa tay.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "作業[さぎょう]着[ちゃく]に着替[きが]える",
+          "vi": "thay đồ làm việc"
+        }
+      ],
+      "ctr": "着"
     },
     {
-     "jp": "魚[さかな]を切[き]る時[とき]は、ゴムのエプロンをします。",
-     "vi": "Khi cắt cá thì đeo tạp dề cao su.",
-     "ctx": "xuong"
-    }
-   ],
-   "ctr": "枚",
-   "goc": "apron (tiếng Anh)",
-   "syn": [
-    "v:前掛け:まえかけ"
-   ],
-   "note": "Ở xưởng thủy sản, エプロン là tạp dề cao su / nhựa chống nước; cũng gọi 前掛[まえか]け."
-  },
-  {
-   "id": "v:整理:せいり",
-   "kana": "せいり",
-   "kanji": "整理",
-   "hv": "CHỈNH LÝ",
-   "vi": "sàng lọc (bỏ đồ không cần) — chữ S thứ nhất",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "5S",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "いらない物[もの]を捨[す]てて、整理[せいり]しましょう。",
-     "vi": "Bỏ đồ không cần để sàng lọc gọn.",
-     "ctx": "xuong"
+      "id": "v:エプロン:エプロン",
+      "kana": "エプロン",
+      "kanji": "",
+      "hv": "",
+      "vi": "tạp dề (ở xưởng thủy sản: tạp dề cao su)",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Đồ bảo hộ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "汚[よご]れたエプロンは、かごに入[い]れてください。",
+          "vi": "Tạp dề bẩn bỏ vào giỏ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "魚[さかな]を切[き]る時[とき]は、ゴムのエプロンをします。",
+          "vi": "Khi cắt cá thì đeo tạp dề cao su.",
+          "ctx": "xuong"
+        }
+      ],
+      "ctr": "枚",
+      "goc": "apron (tiếng Anh)",
+      "syn": [
+        "v:前掛け:まえかけ"
+      ],
+      "note": "Ở xưởng thủy sản, エプロン là tạp dề cao su / nhựa chống nước; cũng gọi 前掛[まえか]け."
     },
     {
-     "jp": "引[ひ]き出[だ]しの中[なか]を整理[せいり]しました。",
-     "vi": "Tôi sắp xếp gọn ngăn kéo.",
-     "ctx": "doisong"
-    }
-   ],
-   "confuse": [
-    "v:整頓:せいとん"
-   ],
-   "note": "5S: 整理[せいり] (sàng lọc) · 整頓[せいとん] (sắp xếp) · 清掃[せいそう] (sạch sẽ) · 清潔[せいけつ] (săn sóc) · しつけ (sẵn sàng / kỷ luật)."
-  },
-  {
-   "id": "v:整頓:せいとん",
-   "kana": "せいとん",
-   "kanji": "整頓",
-   "hv": "CHỈNH ĐỐN",
-   "vi": "sắp xếp đúng chỗ — chữ S thứ hai",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "5S",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "道具[どうぐ]は、決[き]まった場所[ばしょ]に整頓[せいとん]してください。",
-     "vi": "Dụng cụ hãy xếp đúng chỗ quy định.",
-     "ctx": "xuong"
+      "id": "v:整理:せいり",
+      "kana": "せいり",
+      "kanji": "整理",
+      "hv": "CHỈNH LÝ",
+      "vi": "sàng lọc (bỏ đồ không cần) — chữ S thứ nhất",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "5S",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "いらない物[もの]を捨[す]てて、整理[せいり]しましょう。",
+          "vi": "Bỏ đồ không cần để sàng lọc gọn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "引[ひ]き出[だ]しの中[なか]を整理[せいり]しました。",
+          "vi": "Tôi sắp xếp gọn ngăn kéo.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:整頓:せいとん"
+      ],
+      "note": "5S: 整理[せいり] (sàng lọc) · 整頓[せいとん] (sắp xếp) · 清掃[せいそう] (sạch sẽ) · 清潔[せいけつ] (săn sóc) · しつけ (sẵn sàng / kỷ luật)."
     },
     {
-     "jp": "整理[せいり]整頓[せいとん]ができている職場[しょくば]は、事故[じこ]が少[すく]ないです。",
-     "vi": "Chỗ làm gọn gàng ngăn nắp thì ít tai nạn.",
-     "ctx": "xuong"
-    }
-   ],
-   "confuse": [
-    "v:整理:せいり"
-   ]
-  },
-  {
-   "id": "v:清掃:せいそう",
-   "kana": "せいそう",
-   "kanji": "清掃",
-   "hv": "THANH TẢO",
-   "vi": "lau dọn, làm sạch (nơi làm việc) — chữ S thứ ba",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "5S",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "作業[さぎょう]の後[あと]は、ラインを清掃[せいそう]します。",
-     "vi": "Sau giờ làm vệ sinh dây chuyền.",
-     "ctx": "xuong"
+      "id": "v:整頓:せいとん",
+      "kana": "せいとん",
+      "kanji": "整頓",
+      "hv": "CHỈNH ĐỐN",
+      "vi": "sắp xếp đúng chỗ — chữ S thứ hai",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "5S",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "道具[どうぐ]は、決[き]まった場所[ばしょ]に整頓[せいとん]してください。",
+          "vi": "Dụng cụ hãy xếp đúng chỗ quy định.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "整理[せいり]整頓[せいとん]ができている職場[しょくば]は、事故[じこ]が少[すく]ないです。",
+          "vi": "Chỗ làm gọn gàng ngăn nắp thì ít tai nạn.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:整理:せいり"
+      ]
     },
     {
-     "jp": "清掃[せいそう]の時間[じかん]は、午後[ごご]五[ご]時[じ]からです。",
-     "vi": "Giờ vệ sinh từ 5 giờ chiều.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:掃除:そうじ"
-   ]
-  },
-  {
-   "id": "v:清潔:せいけつ",
-   "kana": "せいけつ",
-   "kanji": "清潔",
-   "hv": "THANH KHIẾT",
-   "vi": "sạch sẽ, vệ sinh (giữ sạch) — chữ S thứ tư",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "5S",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "食品[しょくひん]工場[こうじょう]では、いつも清潔[せいけつ]にしてください。",
-     "vi": "Ở nhà máy thực phẩm hãy luôn giữ sạch sẽ.",
-     "ctx": "xuong"
+      "id": "v:清掃:せいそう",
+      "kana": "せいそう",
+      "kanji": "清掃",
+      "hv": "THANH TẢO",
+      "vi": "lau dọn, làm sạch (nơi làm việc) — chữ S thứ ba",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "5S",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "作業[さぎょう]の後[あと]は、ラインを清掃[せいそう]します。",
+          "vi": "Sau giờ làm vệ sinh dây chuyền.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "清掃[せいそう]の時間[じかん]は、午後[ごご]五[ご]時[じ]からです。",
+          "vi": "Giờ vệ sinh từ 5 giờ chiều.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:掃除:そうじ"
+      ]
     },
     {
-     "jp": "清潔[せいけつ]なタオルで手[て]をふきます。",
-     "vi": "Lau tay bằng khăn sạch.",
-     "ctx": "doisong"
+      "id": "v:清潔:せいけつ",
+      "kana": "せいけつ",
+      "kanji": "清潔",
+      "hv": "THANH KHIẾT",
+      "vi": "sạch sẽ, vệ sinh (giữ sạch) — chữ S thứ tư",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "5S",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "食品[しょくひん]工場[こうじょう]では、いつも清潔[せいけつ]にしてください。",
+          "vi": "Ở nhà máy thực phẩm hãy luôn giữ sạch sẽ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "清潔[せいけつ]なタオルで手[て]をふきます。",
+          "vi": "Lau tay bằng khăn sạch.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "爪[つめ]は短[みじか]く、清潔[せいけつ]にしておきましょう。",
+          "vi": "Hãy giữ móng tay ngắn và sạch.",
+          "ctx": "xuong"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "手[て]",
+          "vi": "tay"
+        },
+        {
+          "jp": "服[ふく]",
+          "vi": "quần áo"
+        }
+      ],
+      "ant": [
+        {
+          "w": "不潔[ふけつ]",
+          "vi": "bẩn thỉu"
+        }
+      ]
     },
     {
-     "jp": "爪[つめ]は短[みじか]く、清潔[せいけつ]にしておきましょう。",
-     "vi": "Hãy giữ móng tay ngắn và sạch.",
-     "ctx": "xuong"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "手[て]",
-     "vi": "tay"
+      "id": "v:しつけ:しつけ",
+      "kana": "しつけ",
+      "kanji": "",
+      "hv": "",
+      "vi": "kỷ luật, nề nếp — chữ S thứ năm",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "5S",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "5Sの最後[さいご]はしつけです。",
+          "vi": "S cuối cùng là kỷ luật nề nếp.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ルールを守[まも]るしつけが大切[たいせつ]です。",
+          "vi": "Nề nếp tuân thủ quy tắc rất quan trọng.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Chữ Hán: 躾[しつけ]. Trong gia đình: dạy dỗ con."
     },
     {
-     "jp": "服[ふく]",
-     "vi": "quần áo"
-    }
-   ],
-   "ant": [
-    {
-     "w": "不潔[ふけつ]",
-     "vi": "bẩn thỉu"
-    }
-   ]
-  },
-  {
-   "id": "v:しつけ:しつけ",
-   "kana": "しつけ",
-   "kanji": "",
-   "hv": "",
-   "vi": "kỷ luật, nề nếp — chữ S thứ năm",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "5S",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "5Sの最後[さいご]はしつけです。",
-     "vi": "S cuối cùng là kỷ luật nề nếp.",
-     "ctx": "xuong"
+      "id": "v:危険予知:きけんよち",
+      "kana": "きけんよち",
+      "kanji": "危険予知",
+      "hv": "NGUY HIỂM DỰ TRI",
+      "vi": "dự đoán nguy hiểm (hoạt động KY)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "An toàn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "朝礼[ちょうれい]で危険[きけん]予知[よち]の活動[かつどう]をします。",
+          "vi": "Trong buổi họp đầu ca làm hoạt động dự đoán nguy hiểm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "危険[きけん]予知[よち]は、KY活動[かつどう]とも言[い]います。",
+          "vi": "Dự đoán nguy hiểm còn gọi là hoạt động KY.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:危険:きけん"
+      ],
+      "note": "KY = Kiken Yochi. Mỗi ngày nói ra mối nguy và cách phòng."
     },
     {
-     "jp": "ルールを守[まも]るしつけが大切[たいせつ]です。",
-     "vi": "Nề nếp tuân thủ quy tắc rất quan trọng.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Chữ Hán: 躾[しつけ]. Trong gia đình: dạy dỗ con."
-  },
-  {
-   "id": "v:危険予知:きけんよち",
-   "kana": "きけんよち",
-   "kanji": "危険予知",
-   "hv": "NGUY HIỂM DỰ TRI",
-   "vi": "dự đoán nguy hiểm (hoạt động KY)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "An toàn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "朝礼[ちょうれい]で危険[きけん]予知[よち]の活動[かつどう]をします。",
-     "vi": "Trong buổi họp đầu ca làm hoạt động dự đoán nguy hiểm.",
-     "ctx": "xuong"
+      "id": "v:声かけ:こえかけ",
+      "kana": "こえかけ",
+      "kanji": "声かけ",
+      "kf": "声[こえ]かけ",
+      "hv": "THANH",
+      "vi": "nhắc nhau, lên tiếng (để an toàn)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "An toàn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "後[うし]ろを通[とお]る時[とき]は、声[こえ]かけをしてください。",
+          "vi": "Khi đi qua phía sau người khác hãy lên tiếng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "「後[うし]ろ通[とお]ります」と声[こえ]かけします。",
+          "vi": "Lên tiếng \"Đi qua phía sau đây ạ\".",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "危険[きけん]予知[よち]は、KY活動[かつどう]とも言[い]います。",
-     "vi": "Dự đoán nguy hiểm còn gọi là hoạt động KY.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:危険:きけん"
-   ],
-   "note": "KY = Kiken Yochi. Mỗi ngày nói ra mối nguy và cách phòng."
-  },
-  {
-   "id": "v:声かけ:こえかけ",
-   "kana": "こえかけ",
-   "kanji": "声かけ",
-   "kf": "声[こえ]かけ",
-   "hv": "THANH",
-   "vi": "nhắc nhau, lên tiếng (để an toàn)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "An toàn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "後[うし]ろを通[とお]る時[とき]は、声[こえ]かけをしてください。",
-     "vi": "Khi đi qua phía sau người khác hãy lên tiếng.",
-     "ctx": "xuong"
+      "id": "v:立入禁止:たちいりきんし",
+      "kana": "たちいりきんし",
+      "kanji": "立入禁止",
+      "hv": "LẬP NHẬP CẤM CHỈ",
+      "vi": "cấm vào",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "An toàn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ここから先[さき]は立入[たちいり]禁止[きんし]です。",
+          "vi": "Từ đây trở đi cấm vào.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "立入[たちいり]禁止[きんし]の場所[ばしょ]に入[はい]らないでください。",
+          "vi": "Đừng vào khu vực cấm.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Hay gặp trên biển báo màu vàng – đen."
     },
     {
-     "jp": "「後[うし]ろ通[とお]ります」と声[こえ]かけします。",
-     "vi": "Lên tiếng \"Đi qua phía sau đây ạ\".",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:立入禁止:たちいりきんし",
-   "kana": "たちいりきんし",
-   "kanji": "立入禁止",
-   "hv": "LẬP NHẬP CẤM CHỈ",
-   "vi": "cấm vào",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "An toàn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ここから先[さき]は立入[たちいり]禁止[きんし]です。",
-     "vi": "Từ đây trở đi cấm vào.",
-     "ctx": "xuong"
+      "id": "v:非常口:ひじょうぐち",
+      "kana": "ひじょうぐち",
+      "kanji": "非常口",
+      "hv": "PHI THƯỜNG KHẨU",
+      "vi": "lối thoát hiểm",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "An toàn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "非常口[ひじょうぐち]の場所[ばしょ]を確認[かくにん]しておきましょう。",
+          "vi": "Hãy nắm trước vị trí lối thoát hiểm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "非常口[ひじょうぐち]の前[まえ]に物[もの]を置[お]かないでください。",
+          "vi": "Đừng để đồ trước lối thoát hiểm.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Biển màu xanh lá có hình người chạy."
     },
     {
-     "jp": "立入[たちいり]禁止[きんし]の場所[ばしょ]に入[はい]らないでください。",
-     "vi": "Đừng vào khu vực cấm.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Hay gặp trên biển báo màu vàng – đen."
-  },
-  {
-   "id": "v:非常口:ひじょうぐち",
-   "kana": "ひじょうぐち",
-   "kanji": "非常口",
-   "hv": "PHI THƯỜNG KHẨU",
-   "vi": "lối thoát hiểm",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "An toàn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "非常口[ひじょうぐち]の場所[ばしょ]を確認[かくにん]しておきましょう。",
-     "vi": "Hãy nắm trước vị trí lối thoát hiểm.",
-     "ctx": "xuong"
+      "id": "v:消火器:しょうかき",
+      "kana": "しょうかき",
+      "kanji": "消火器",
+      "hv": "TIÊU HỎA KHÍ",
+      "vi": "bình chữa cháy",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "An toàn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "消火器[しょうかき]はドアの横[よこ]にあります。",
+          "vi": "Bình chữa cháy ở cạnh cửa.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "年[ねん]に一回[いっかい]、消火器[しょうかき]の使[つか]い方[かた]を練習[れんしゅう]します。",
+          "vi": "Mỗi năm một lần tập dùng bình chữa cháy.",
+          "ctx": "xuong"
+        }
+      ],
+      "ctr": "本"
     },
     {
-     "jp": "非常口[ひじょうぐち]の前[まえ]に物[もの]を置[お]かないでください。",
-     "vi": "Đừng để đồ trước lối thoát hiểm.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Biển màu xanh lá có hình người chạy."
-  },
-  {
-   "id": "v:消火器:しょうかき",
-   "kana": "しょうかき",
-   "kanji": "消火器",
-   "hv": "TIÊU HỎA KHÍ",
-   "vi": "bình chữa cháy",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "An toàn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "消火器[しょうかき]はドアの横[よこ]にあります。",
-     "vi": "Bình chữa cháy ở cạnh cửa.",
-     "ctx": "xuong"
+      "id": "v:避難:ひなん",
+      "kana": "ひなん",
+      "kanji": "避難",
+      "hv": "TỊ NAN",
+      "vi": "sơ tán, lánh nạn",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "An toàn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "地震[じしん]の時[とき]は、指示[しじ]に従[したが]って避難[ひなん]してください。",
+          "vi": "Khi động đất hãy sơ tán theo chỉ dẫn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "年[ねん]に二[に]回[かい]、避難[ひなん]訓練[くんれん]があります。",
+          "vi": "Một năm có hai lần diễn tập sơ tán.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "外[そと]に避難[ひなん]する",
+          "vi": "sơ tán ra ngoài"
+        }
+      ],
+      "rel": [
+        {
+          "w": "避難所[ひなんじょ]",
+          "vi": "nơi lánh nạn"
+        }
+      ]
     },
     {
-     "jp": "年[ねん]に一回[いっかい]、消火器[しょうかき]の使[つか]い方[かた]を練習[れんしゅう]します。",
-     "vi": "Mỗi năm một lần tập dùng bình chữa cháy.",
-     "ctx": "xuong"
-    }
-   ],
-   "ctr": "本"
-  },
-  {
-   "id": "v:避難:ひなん",
-   "kana": "ひなん",
-   "kanji": "避難",
-   "hv": "TỊ NAN",
-   "vi": "sơ tán, lánh nạn",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "An toàn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "地震[じしん]の時[とき]は、指示[しじ]に従[したが]って避難[ひなん]してください。",
-     "vi": "Khi động đất hãy sơ tán theo chỉ dẫn.",
-     "ctx": "xuong"
+      "id": "v:救急箱:きゅうきゅうばこ",
+      "kana": "きゅうきゅうばこ",
+      "kanji": "救急箱",
+      "hv": "CỨU CẤP TƯƠNG",
+      "vi": "hộp sơ cứu",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "An toàn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "指[ゆび]を切[き]ったら、救急箱[きゅうきゅうばこ]のばんそうこうを使[つか]ってください。",
+          "vi": "Đứt tay thì dùng băng dán trong hộp sơ cứu.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "救急箱[きゅうきゅうばこ]は事務所[じむしょ]にあります。",
+          "vi": "Hộp sơ cứu ở văn phòng.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "年[ねん]に二[に]回[かい]、避難[ひなん]訓練[くんれん]があります。",
-     "vi": "Một năm có hai lần diễn tập sơ tán.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "外[そと]に避難[ひなん]する",
-     "vi": "sơ tán ra ngoài"
-    }
-   ],
-   "rel": [
-    {
-     "w": "避難所[ひなんじょ]",
-     "vi": "nơi lánh nạn"
-    }
-   ]
-  },
-  {
-   "id": "v:救急箱:きゅうきゅうばこ",
-   "kana": "きゅうきゅうばこ",
-   "kanji": "救急箱",
-   "hv": "CỨU CẤP TƯƠNG",
-   "vi": "hộp sơ cứu",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "An toàn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "指[ゆび]を切[き]ったら、救急箱[きゅうきゅうばこ]のばんそうこうを使[つか]ってください。",
-     "vi": "Đứt tay thì dùng băng dán trong hộp sơ cứu.",
-     "ctx": "xuong"
+      "id": "v:応急手当:おうきゅうてあて",
+      "kana": "おうきゅうてあて",
+      "kanji": "応急手当",
+      "hv": "ỨNG CẤP THỦ ĐƯƠNG",
+      "vi": "sơ cứu",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "An toàn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "けがをした人[ひと]に、応急手当[おうきゅうてあて]をしました。",
+          "vi": "Tôi sơ cứu cho người bị thương.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "応急手当[おうきゅうてあて]の講習[こうしゅう]を受[う]けました。",
+          "vi": "Tôi đã học lớp sơ cứu.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "救急箱[きゅうきゅうばこ]は事務所[じむしょ]にあります。",
-     "vi": "Hộp sơ cứu ở văn phòng.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:応急手当:おうきゅうてあて",
-   "kana": "おうきゅうてあて",
-   "kanji": "応急手当",
-   "hv": "ỨNG CẤP THỦ ĐƯƠNG",
-   "vi": "sơ cứu",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "An toàn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "けがをした人[ひと]に、応急手当[おうきゅうてあて]をしました。",
-     "vi": "Tôi sơ cứu cho người bị thương.",
-     "ctx": "xuong"
+      "id": "v:労災:ろうさい",
+      "kana": "ろうさい",
+      "kanji": "労災",
+      "hv": "LAO TAI",
+      "vi": "tai nạn lao động (bảo hiểm)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "An toàn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事中[しごとちゅう]のけがは、労災[ろうさい]になります。",
+          "vi": "Bị thương khi làm việc là tai nạn lao động.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "労災[ろうさい]の手続[てつづ]きは、会社[かいしゃ]がしてくれます。",
+          "vi": "Thủ tục tai nạn lao động công ty làm cho.",
+          "ctx": "thutuc"
+        }
+      ],
+      "note": "Đầy đủ: 労働災害[ろうどうさいがい]. Bị thương trong giờ làm hoặc trên đường đi làm → báo ngay cho công ty."
     },
     {
-     "jp": "応急手当[おうきゅうてあて]の講習[こうしゅう]を受[う]けました。",
-     "vi": "Tôi đã học lớp sơ cứu.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:労災:ろうさい",
-   "kana": "ろうさい",
-   "kanji": "労災",
-   "hv": "LAO TAI",
-   "vi": "tai nạn lao động (bảo hiểm)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "An toàn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "仕事中[しごとちゅう]のけがは、労災[ろうさい]になります。",
-     "vi": "Bị thương khi làm việc là tai nạn lao động.",
-     "ctx": "thutuc"
+      "id": "v:転倒:てんとう",
+      "kana": "てんとう",
+      "kanji": "転倒",
+      "hv": "CHUYỂN ĐẢO",
+      "vi": "trượt ngã, té ngã (tai nạn)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "An toàn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "床[ゆか]が濡[ぬ]れていると、転倒[てんとう]の危険[きけん]があります。",
+          "vi": "Sàn ướt có nguy cơ trượt ngã.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "階段[かいだん]で転倒[てんとう]しないように、手[て]すりを持[も]ってください。",
+          "vi": "Vịn tay vịn để không ngã ở cầu thang.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        {
+          "w": "転[ころ]ぶ",
+          "vi": "ngã"
+        }
+      ]
     },
     {
-     "jp": "労災[ろうさい]の手続[てつづ]きは、会社[かいしゃ]がしてくれます。",
-     "vi": "Thủ tục tai nạn lao động công ty làm cho.",
-     "ctx": "thutuc"
-    }
-   ],
-   "note": "Đầy đủ: 労働災害[ろうどうさいがい]. Bị thương trong giờ làm hoặc trên đường đi làm → báo ngay cho công ty."
-  },
-  {
-   "id": "v:転倒:てんとう",
-   "kana": "てんとう",
-   "kanji": "転倒",
-   "hv": "CHUYỂN ĐẢO",
-   "vi": "trượt ngã, té ngã (tai nạn)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "An toàn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "床[ゆか]が濡[ぬ]れていると、転倒[てんとう]の危険[きけん]があります。",
-     "vi": "Sàn ướt có nguy cơ trượt ngã.",
-     "ctx": "xuong"
+      "id": "v:挟まれる:はさまれる",
+      "kana": "はさまれる",
+      "kanji": "挟まれる",
+      "kf": "挟[はさ]まれる",
+      "hv": "HIỆP",
+      "vi": "bị kẹp",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "An toàn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "機械[きかい]に指[ゆび]を挟[はさ]まれないように注意[ちゅうい]してください。",
+          "vi": "Cẩn thận kẻo bị máy kẹp ngón tay.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ドアに手[て]を挟[はさ]まれました。",
+          "vi": "Tôi bị cửa kẹp tay.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "ベルトに服[ふく]が挟[はさ]まれたら、すぐ非常[ひじょう]停止[ていし]ボタンを押[お]してください。",
+          "vi": "Quần áo bị kẹp vào băng chuyền thì bấm ngay nút dừng khẩn cấp.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "指[ゆび]を挟[はさ]まれる",
+          "vi": "bị kẹp ngón tay"
+        }
+      ],
+      "note": "Bị động của 挟[はさ]む (kẹp)."
     },
     {
-     "jp": "階段[かいだん]で転倒[てんとう]しないように、手[て]すりを持[も]ってください。",
-     "vi": "Vịn tay vịn để không ngã ở cầu thang.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    {
-     "w": "転[ころ]ぶ",
-     "vi": "ngã"
-    }
-   ]
-  },
-  {
-   "id": "v:挟まれる:はさまれる",
-   "kana": "はさまれる",
-   "kanji": "挟まれる",
-   "kf": "挟[はさ]まれる",
-   "hv": "HIỆP",
-   "vi": "bị kẹp",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "An toàn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "機械[きかい]に指[ゆび]を挟[はさ]まれないように注意[ちゅうい]してください。",
-     "vi": "Cẩn thận kẻo bị máy kẹp ngón tay.",
-     "ctx": "xuong"
+      "id": "v:巻き込まれる:まきこまれる",
+      "kana": "まきこまれる",
+      "kanji": "巻き込まれる",
+      "kf": "巻[ま]き込[こ]まれる",
+      "hv": "QUYỂN NHẬP",
+      "vi": "bị cuốn vào",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "An toàn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "長[なが]い髪[かみ]は、機械[きかい]に巻[ま]き込[こ]まれる危険[きけん]があります。",
+          "vi": "Tóc dài có nguy cơ bị cuốn vào máy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "手袋[てぶくろ]がローラーに巻[ま]き込[こ]まれました。",
+          "vi": "Găng tay bị cuốn vào trục lăn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "事故[じこ]に巻[ま]き込[こ]まれないように気[き]をつけてください。",
+          "vi": "Cẩn thận để không bị cuốn vào tai nạn.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "機械[きかい]に巻[ま]き込[こ]まれる",
+          "vi": "bị cuốn vào máy"
+        }
+      ],
+      "flag": true,
+      "note": "Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
     },
     {
-     "jp": "ドアに手[て]を挟[はさ]まれました。",
-     "vi": "Tôi bị cửa kẹp tay.",
-     "ctx": "doisong"
+      "id": "v:非常停止:ひじょうていし",
+      "kana": "ひじょうていし",
+      "kanji": "非常停止",
+      "hv": "PHI THƯỜNG ĐÌNH CHỈ",
+      "vi": "dừng khẩn cấp",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "An toàn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "危[あぶ]ない時[とき]は、赤[あか]い非常[ひじょう]停止[ていし]ボタンを押[お]してください。",
+          "vi": "Khi nguy hiểm hãy bấm nút dừng khẩn cấp màu đỏ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "非常[ひじょう]停止[ていし]ボタンの場所[ばしょ]を覚[おぼ]えましょう。",
+          "vi": "Hãy nhớ vị trí nút dừng khẩn cấp.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "ベルトに服[ふく]が挟[はさ]まれたら、すぐ非常[ひじょう]停止[ていし]ボタンを押[お]してください。",
-     "vi": "Quần áo bị kẹp vào băng chuyền thì bấm ngay nút dừng khẩn cấp.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "指[ゆび]を挟[はさ]まれる",
-     "vi": "bị kẹp ngón tay"
-    }
-   ],
-   "note": "Bị động của 挟[はさ]む (kẹp)."
-  },
-  {
-   "id": "v:巻き込まれる:まきこまれる",
-   "kana": "まきこまれる",
-   "kanji": "巻き込まれる",
-   "kf": "巻[ま]き込[こ]まれる",
-   "hv": "QUYỂN NHẬP",
-   "vi": "bị cuốn vào",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "An toàn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "長[なが]い髪[かみ]は、機械[きかい]に巻[ま]き込[こ]まれる危険[きけん]があります。",
-     "vi": "Tóc dài có nguy cơ bị cuốn vào máy.",
-     "ctx": "xuong"
+      "id": "v:給料:きゅうりょう",
+      "kana": "きゅうりょう",
+      "kanji": "給料",
+      "hv": "CẤP LIỆU",
+      "vi": "tiền lương",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Tiền lương",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "給料[きゅうりょう]は毎月[まいつき]二十五[にじゅうご]日[にち]に出[で]ます。",
+          "vi": "Lương trả vào ngày 25 hằng tháng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "給料[きゅうりょう]の一部[いちぶ]を国[くに]に送[おく]ります。",
+          "vi": "Tôi gửi một phần lương về nước.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        {
+          "w": "給料日[きゅうりょうび]",
+          "vi": "ngày lĩnh lương"
+        }
+      ]
     },
     {
-     "jp": "手袋[てぶくろ]がローラーに巻[ま]き込[こ]まれました。",
-     "vi": "Găng tay bị cuốn vào trục lăn.",
-     "ctx": "xuong"
+      "id": "v:給与明細:きゅうよめいさい",
+      "kana": "きゅうよめいさい",
+      "kanji": "給与明細",
+      "hv": "CẤP DỮ MINH TẾ",
+      "vi": "phiếu lương (bảng chi tiết lương)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Tiền lương",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "給与明細[きゅうよめいさい]をよく確認[かくにん]してください。",
+          "vi": "Hãy kiểm tra kỹ phiếu lương.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "給与明細[きゅうよめいさい]は、ビザの更新[こうしん]で必要[ひつよう]になることがあります。",
+          "vi": "Phiếu lương có khi cần khi gia hạn visa.",
+          "ctx": "thutuc"
+        }
+      ]
     },
     {
-     "jp": "事故[じこ]に巻[ま]き込[こ]まれないように気[き]をつけてください。",
-     "vi": "Cẩn thận để không bị cuốn vào tai nạn.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "機械[きかい]に巻[ま]き込[こ]まれる",
-     "vi": "bị cuốn vào máy"
-    }
-   ],
-   "flag": true,
-   "note": "Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
-  },
-  {
-   "id": "v:非常停止:ひじょうていし",
-   "kana": "ひじょうていし",
-   "kanji": "非常停止",
-   "hv": "PHI THƯỜNG ĐÌNH CHỈ",
-   "vi": "dừng khẩn cấp",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "An toàn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "危[あぶ]ない時[とき]は、赤[あか]い非常[ひじょう]停止[ていし]ボタンを押[お]してください。",
-     "vi": "Khi nguy hiểm hãy bấm nút dừng khẩn cấp màu đỏ.",
-     "ctx": "xuong"
+      "id": "v:基本給:きほんきゅう",
+      "kana": "きほんきゅう",
+      "kanji": "基本給",
+      "hv": "CƠ BẢN CẤP",
+      "vi": "lương cơ bản",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Tiền lương",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "基本給[きほんきゅう]は時給[じきゅう]で計算[けいさん]されます。",
+          "vi": "Lương cơ bản tính theo giờ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "来月[らいげつ]から基本給[きほんきゅう]が上[あ]がります。",
+          "vi": "Từ tháng sau lương cơ bản tăng.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        {
+          "w": "時給[じきゅう]",
+          "vi": "lương theo giờ"
+        }
+      ]
     },
     {
-     "jp": "非常[ひじょう]停止[ていし]ボタンの場所[ばしょ]を覚[おぼ]えましょう。",
-     "vi": "Hãy nhớ vị trí nút dừng khẩn cấp.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:給料:きゅうりょう",
-   "kana": "きゅうりょう",
-   "kanji": "給料",
-   "hv": "CẤP LIỆU",
-   "vi": "tiền lương",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Tiền lương",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "給料[きゅうりょう]は毎月[まいつき]二十五[にじゅうご]日[にち]に出[で]ます。",
-     "vi": "Lương trả vào ngày 25 hằng tháng.",
-     "ctx": "xuong"
+      "id": "v:残業代:ざんぎょうだい",
+      "kana": "ざんぎょうだい",
+      "kanji": "残業代",
+      "hv": "TÀN NGHIỆP ĐẠI",
+      "vi": "tiền tăng ca",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Tiền lương",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今月[こんげつ]は残業代[ざんぎょうだい]が多[おお]いです。",
+          "vi": "Tháng này tiền tăng ca nhiều.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "残業代[ざんぎょうだい]が正[ただ]しく払[はら]われているか確認[かくにん]します。",
+          "vi": "Kiểm tra tiền tăng ca có được trả đúng không.",
+          "ctx": "thutuc"
+        }
+      ],
+      "rel": [
+        "v:残業:ざんぎょう"
+      ]
     },
     {
-     "jp": "給料[きゅうりょう]の一部[いちぶ]を国[くに]に送[おく]ります。",
-     "vi": "Tôi gửi một phần lương về nước.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    {
-     "w": "給料日[きゅうりょうび]",
-     "vi": "ngày lĩnh lương"
-    }
-   ]
-  },
-  {
-   "id": "v:給与明細:きゅうよめいさい",
-   "kana": "きゅうよめいさい",
-   "kanji": "給与明細",
-   "hv": "CẤP DỮ MINH TẾ",
-   "vi": "phiếu lương (bảng chi tiết lương)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Tiền lương",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "給与明細[きゅうよめいさい]をよく確認[かくにん]してください。",
-     "vi": "Hãy kiểm tra kỹ phiếu lương.",
-     "ctx": "xuong"
+      "id": "v:手当:てあて",
+      "kana": "てあて",
+      "kanji": "手当",
+      "hv": "THỦ ĐƯƠNG",
+      "vi": "phụ cấp",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Tiền lương",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "夜勤[やきん]の人[ひと]には、夜勤手当[やきんてあて]があります。",
+          "vi": "Người làm ca đêm có phụ cấp ca đêm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "通勤手当[つうきんてあて]は、毎月[まいつき]給料[きゅうりょう]と一緒[いっしょ]に出[で]ます。",
+          "vi": "Phụ cấp đi lại trả cùng lương hằng tháng.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:応急手当:おうきゅうてあて"
+      ]
     },
     {
-     "jp": "給与明細[きゅうよめいさい]は、ビザの更新[こうしん]で必要[ひつよう]になることがあります。",
-     "vi": "Phiếu lương có khi cần khi gia hạn visa.",
-     "ctx": "thutuc"
-    }
-   ]
-  },
-  {
-   "id": "v:基本給:きほんきゅう",
-   "kana": "きほんきゅう",
-   "kanji": "基本給",
-   "hv": "CƠ BẢN CẤP",
-   "vi": "lương cơ bản",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Tiền lương",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "基本給[きほんきゅう]は時給[じきゅう]で計算[けいさん]されます。",
-     "vi": "Lương cơ bản tính theo giờ.",
-     "ctx": "xuong"
+      "id": "v:控除:こうじょ",
+      "kana": "こうじょ",
+      "kanji": "控除",
+      "hv": "KHỐNG TRỪ",
+      "vi": "khấu trừ; khoản khấu trừ",
+      "pos": "n-suru",
+      "level": "N2",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Tiền lương",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "給料[きゅうりょう]から税金[ぜいきん]が控除[こうじょ]されます。",
+          "vi": "Thuế bị khấu trừ từ lương.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "控除[こうじょ]の欄[らん]を見[み]ると、社会保険料[しゃかいほけんりょう]が分[わ]かります。",
+          "vi": "Nhìn mục khấu trừ sẽ biết phí bảo hiểm xã hội.",
+          "ctx": "thutuc"
+        }
+      ]
     },
     {
-     "jp": "来月[らいげつ]から基本給[きほんきゅう]が上[あ]がります。",
-     "vi": "Từ tháng sau lương cơ bản tăng.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    {
-     "w": "時給[じきゅう]",
-     "vi": "lương theo giờ"
-    }
-   ]
-  },
-  {
-   "id": "v:残業代:ざんぎょうだい",
-   "kana": "ざんぎょうだい",
-   "kanji": "残業代",
-   "hv": "TÀN NGHIỆP ĐẠI",
-   "vi": "tiền tăng ca",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Tiền lương",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今月[こんげつ]は残業代[ざんぎょうだい]が多[おお]いです。",
-     "vi": "Tháng này tiền tăng ca nhiều.",
-     "ctx": "xuong"
+      "id": "v:社会保険料:しゃかいほけんりょう",
+      "kana": "しゃかいほけんりょう",
+      "kanji": "社会保険料",
+      "hv": "XÃ HỘI BẢO HIỂM LIỆU",
+      "vi": "phí bảo hiểm xã hội",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Tiền lương",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎月[まいつき]、社会保険料[しゃかいほけんりょう]が引[ひ]かれます。",
+          "vi": "Hằng tháng bị trừ phí bảo hiểm xã hội.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "社会保険料[しゃかいほけんりょう]には、健康保険[けんこうほけん]と年金[ねんきん]が入[はい]っています。",
+          "vi": "Phí bảo hiểm xã hội gồm bảo hiểm y tế và lương hưu.",
+          "ctx": "thutuc"
+        }
+      ]
     },
     {
-     "jp": "残業代[ざんぎょうだい]が正[ただ]しく払[はら]われているか確認[かくにん]します。",
-     "vi": "Kiểm tra tiền tăng ca có được trả đúng không.",
-     "ctx": "thutuc"
-    }
-   ],
-   "rel": [
-    "v:残業:ざんぎょう"
-   ]
-  },
-  {
-   "id": "v:手当:てあて",
-   "kana": "てあて",
-   "kanji": "手当",
-   "hv": "THỦ ĐƯƠNG",
-   "vi": "phụ cấp",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Tiền lương",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "夜勤[やきん]の人[ひと]には、夜勤手当[やきんてあて]があります。",
-     "vi": "Người làm ca đêm có phụ cấp ca đêm.",
-     "ctx": "xuong"
+      "id": "v:手取り:てどり",
+      "kana": "てどり",
+      "kanji": "手取り",
+      "kf": "手取[てど]り",
+      "hv": "THỦ THỦ",
+      "vi": "lương thực nhận (sau khấu trừ)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Tiền lương",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "手取[てど]りは月[つき]に十八万[じゅうはちまん]円[えん]ぐらいです。",
+          "vi": "Lương thực nhận khoảng 18 vạn yên mỗi tháng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "税金[ぜいきん]を引[ひ]いた手取[てど]りの金額[きんがく]を確認[かくにん]します。",
+          "vi": "Kiểm tra số tiền thực nhận sau khi trừ thuế.",
+          "ctx": "thutuc"
+        }
+      ]
     },
     {
-     "jp": "通勤手当[つうきんてあて]は、毎月[まいつき]給料[きゅうりょう]と一緒[いっしょ]に出[で]ます。",
-     "vi": "Phụ cấp đi lại trả cùng lương hằng tháng.",
-     "ctx": "xuong"
-    }
-   ],
-   "confuse": [
-    "v:応急手当:おうきゅうてあて"
-   ]
-  },
-  {
-   "id": "v:控除:こうじょ",
-   "kana": "こうじょ",
-   "kanji": "控除",
-   "hv": "KHỐNG TRỪ",
-   "vi": "khoản khấu trừ",
-   "pos": "n-suru",
-   "level": "N2",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Tiền lương",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "給料[きゅうりょう]から税金[ぜいきん]が控除[こうじょ]されます。",
-     "vi": "Thuế bị khấu trừ từ lương.",
-     "ctx": "thutuc"
+      "id": "v:振り込み:ふりこみ",
+      "kana": "ふりこみ",
+      "kanji": "振り込み",
+      "kf": "振[ふ]り込[こ]み",
+      "hv": "CHẤN NHẬP",
+      "vi": "chuyển khoản",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Tiền lương",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "給料[きゅうりょう]は銀行[ぎんこう]振[ふ]り込[こ]みです。",
+          "vi": "Lương trả qua chuyển khoản ngân hàng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "家賃[やちん]は毎月[まいつき]振[ふ]り込[こ]みで払[はら]います。",
+          "vi": "Tiền nhà trả bằng chuyển khoản hằng tháng.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        {
+          "w": "振[ふ]り込[こ]む",
+          "vi": "chuyển khoản (động từ)"
+        }
+      ],
+      "flag": true,
+      "note": "Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
     },
     {
-     "jp": "控除[こうじょ]の欄[らん]を見[み]ると、社会保険料[しゃかいほけんりょう]が分[わ]かります。",
-     "vi": "Nhìn mục khấu trừ sẽ biết phí bảo hiểm xã hội.",
-     "ctx": "thutuc"
-    }
-   ]
-  },
-  {
-   "id": "v:社会保険料:しゃかいほけんりょう",
-   "kana": "しゃかいほけんりょう",
-   "kanji": "社会保険料",
-   "hv": "XÃ HỘI BẢO HIỂM LIỆU",
-   "vi": "phí bảo hiểm xã hội",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Tiền lương",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "毎月[まいつき]、社会保険料[しゃかいほけんりょう]が引[ひ]かれます。",
-     "vi": "Hằng tháng bị trừ phí bảo hiểm xã hội.",
-     "ctx": "thutuc"
+      "id": "v:出勤:しゅっきん",
+      "kana": "しゅっきん",
+      "kanji": "出勤",
+      "hv": "XUẤT CẦN",
+      "vi": "đi làm, vào ca",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Ca kíp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "明日[あした]は七[しち]時[じ]に出勤[しゅっきん]してください。",
+          "vi": "Mai đi làm lúc 7 giờ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "出勤[しゅっきん]したら、タイムカードを押[お]します。",
+          "vi": "Đến chỗ làm thì bấm thẻ chấm công.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "会社[かいしゃ]に出勤[しゅっきん]する",
+          "vi": "đến công ty làm việc"
+        }
+      ],
+      "ant": [
+        "v:退勤:たいきん"
+      ]
     },
     {
-     "jp": "社会保険料[しゃかいほけんりょう]には、健康保険[けんこうほけん]と年金[ねんきん]が入[はい]っています。",
-     "vi": "Phí bảo hiểm xã hội gồm bảo hiểm y tế và lương hưu.",
-     "ctx": "thutuc"
-    }
-   ]
-  },
-  {
-   "id": "v:手取り:てどり",
-   "kana": "てどり",
-   "kanji": "手取り",
-   "kf": "手取[てど]り",
-   "hv": "THỦ THỦ",
-   "vi": "lương thực nhận (sau khấu trừ)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Tiền lương",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "手取[てど]りは月[つき]に十八万[じゅうはちまん]円[えん]ぐらいです。",
-     "vi": "Lương thực nhận khoảng 18 vạn yên mỗi tháng.",
-     "ctx": "doisong"
+      "id": "v:退勤:たいきん",
+      "kana": "たいきん",
+      "kanji": "退勤",
+      "hv": "THOÁI CẦN",
+      "vi": "tan ca, rời chỗ làm",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Ca kíp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "退勤[たいきん]の前[まえ]に、ロッカーを片付[かたづ]けます。",
+          "vi": "Trước khi tan ca dọn tủ đồ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "退勤時間[たいきんじかん]は午後[ごご]五[ご]時[じ]です。",
+          "vi": "Giờ tan ca là 5 giờ chiều.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        "v:出勤:しゅっきん"
+      ]
     },
     {
-     "jp": "税金[ぜいきん]を引[ひ]いた手取[てど]りの金額[きんがく]を確認[かくにん]します。",
-     "vi": "Kiểm tra số tiền thực nhận sau khi trừ thuế.",
-     "ctx": "thutuc"
-    }
-   ]
-  },
-  {
-   "id": "v:振り込み:ふりこみ",
-   "kana": "ふりこみ",
-   "kanji": "振り込み",
-   "kf": "振[ふ]り込[こ]み",
-   "hv": "CHẤN NHẬP",
-   "vi": "chuyển khoản",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Tiền lương",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "給料[きゅうりょう]は銀行[ぎんこう]振[ふ]り込[こ]みです。",
-     "vi": "Lương trả qua chuyển khoản ngân hàng.",
-     "ctx": "xuong"
+      "id": "v:タイムカード:タイムカード",
+      "kana": "タイムカード",
+      "kanji": "",
+      "hv": "",
+      "vi": "thẻ chấm công",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Ca kíp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "タイムカードを押[お]すのを忘[わす]れないでください。",
+          "vi": "Đừng quên bấm thẻ chấm công.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "タイムカードで、働[はたら]いた時間[じかん]を確認[かくにん]できます。",
+          "vi": "Có thể xem giờ làm qua thẻ chấm công.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "タイムカードを押[お]す",
+          "vi": "bấm thẻ chấm công"
+        }
+      ],
+      "goc": "time card (tiếng Anh)"
     },
     {
-     "jp": "家賃[やちん]は毎月[まいつき]振[ふ]り込[こ]みで払[はら]います。",
-     "vi": "Tiền nhà trả bằng chuyển khoản hằng tháng.",
-     "ctx": "doisong"
+      "id": "v:腰痛:ようつう",
+      "kana": "ようつう",
+      "kanji": "腰痛",
+      "hv": "YÊU THỐNG",
+      "vi": "đau lưng (thắt lưng)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "xuong"
+      ],
+      "sub": "Sức khỏe",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "重[おも]い物[もの]を運[はこ]ぶ仕事[しごと]で、腰痛[ようつう]になりました。",
+          "vi": "Làm việc bê đồ nặng nên tôi bị đau lưng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "腰痛[ようつう]にならないように、膝[ひざ]を曲[ま]げて持[も]ち上[あ]げます。",
+          "vi": "Để khỏi đau lưng, khuỵu gối khi nâng đồ.",
+          "ctx": "xuong"
+        }
+      ]
     }
-   ],
-   "rel": [
-    {
-     "w": "振[ふ]り込[こ]む",
-     "vi": "chuyển khoản (động từ)"
-    }
-   ],
-   "flag": true,
-   "note": "Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
-  },
-  {
-   "id": "v:出勤:しゅっきん",
-   "kana": "しゅっきん",
-   "kanji": "出勤",
-   "hv": "XUẤT CẦN",
-   "vi": "đi làm, vào ca",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Ca kíp",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "明日[あした]は七[しち]時[じ]に出勤[しゅっきん]してください。",
-     "vi": "Mai đi làm lúc 7 giờ.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "出勤[しゅっきん]したら、タイムカードを押[お]します。",
-     "vi": "Đến chỗ làm thì bấm thẻ chấm công.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "会社[かいしゃ]に出勤[しゅっきん]する",
-     "vi": "đến công ty làm việc"
-    }
-   ],
-   "ant": [
-    "v:退勤:たいきん"
-   ]
-  },
-  {
-   "id": "v:退勤:たいきん",
-   "kana": "たいきん",
-   "kanji": "退勤",
-   "hv": "THOÁI CẦN",
-   "vi": "tan ca, rời chỗ làm",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Ca kíp",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "退勤[たいきん]の前[まえ]に、ロッカーを片付[かたづ]けます。",
-     "vi": "Trước khi tan ca dọn tủ đồ.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "退勤時間[たいきんじかん]は午後[ごご]五[ご]時[じ]です。",
-     "vi": "Giờ tan ca là 5 giờ chiều.",
-     "ctx": "xuong"
-    }
-   ],
-   "ant": [
-    "v:出勤:しゅっきん"
-   ]
-  },
-  {
-   "id": "v:タイムカード:タイムカード",
-   "kana": "タイムカード",
-   "kanji": "",
-   "hv": "",
-   "vi": "thẻ chấm công",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Ca kíp",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "タイムカードを押[お]すのを忘[わす]れないでください。",
-     "vi": "Đừng quên bấm thẻ chấm công.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "タイムカードで、働[はたら]いた時間[じかん]を確認[かくにん]できます。",
-     "vi": "Có thể xem giờ làm qua thẻ chấm công.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "タイムカードを押[お]す",
-     "vi": "bấm thẻ chấm công"
-    }
-   ],
-   "goc": "time card (tiếng Anh)"
-  },
-  {
-   "id": "v:腰痛:ようつう",
-   "kana": "ようつう",
-   "kanji": "腰痛",
-   "hv": "YÊU THỐNG",
-   "vi": "đau lưng (thắt lưng)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "xuong"
-   ],
-   "sub": "Sức khỏe",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "重[おも]い物[もの]を運[はこ]ぶ仕事[しごと]で、腰痛[ようつう]になりました。",
-     "vi": "Làm việc bê đồ nặng nên tôi bị đau lưng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "腰痛[ようつう]にならないように、膝[ひざ]を曲[ま]げて持[も]ち上[あ]げます。",
-     "vi": "Để khỏi đau lưng, khuỵu gối khi nâng đồ.",
-     "ctx": "xuong"
-    }
-   ]
-  }
- ]
+  ]
 }

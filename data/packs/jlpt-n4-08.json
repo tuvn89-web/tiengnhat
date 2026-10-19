@@ -1,1007 +1,1007 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n4-08",
-  "title": "JLPT N4 08 – Tính từ đuôi い",
-  "type": "vocab",
-  "level": "N4",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 2,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:苦い:にがい",
-   "kana": "にがい",
-   "kanji": "苦い",
-   "kf": "苦[にが]い",
-   "hv": "KHỔ",
-   "vi": "đắng",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vị, cảm giác",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この薬[くすり]はとても苦[にが]いです。",
-     "vi": "Thuốc này rất đắng.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "ゴーヤは少[すこ]し苦[にが]いですが、体[からだ]にいいです。",
-     "vi": "Mướp đắng hơi đắng nhưng tốt cho cơ thể.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "魚[さかな]の内臓[ないぞう]が破[やぶ]れると、身[み]が苦[にが]くなります。",
-     "vi": "Nội tạng cá bị vỡ thì thịt sẽ đắng.",
-     "ctx": "xuong"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "薬[くすり]",
-     "vi": "thuốc"
-    },
-    {
-     "jp": "コーヒー",
-     "vi": "cà phê"
-    }
-   ],
-   "ant": [
-    "v:甘い:あまい"
-   ],
-   "rel": [
-    {
-     "w": "苦[にが]み",
-     "vi": "vị đắng"
-    }
-   ]
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n4-08",
+    "title": "JLPT N4 08 – Tính từ đuôi い",
+    "type": "vocab",
+    "level": "N4",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 3,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:柔らかい:やわらかい",
-   "kana": "やわらかい",
-   "kanji": "柔らかい",
-   "kf": "柔[やわ]らかい",
-   "hv": "NHU",
-   "vi": "mềm (khi sờ, khi ăn)",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vị, cảm giác",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "このパンは柔[やわ]らかくておいしいです。",
-     "vi": "Bánh mì này mềm và ngon.",
-     "ctx": "doisong"
+      "id": "v:苦い:にがい",
+      "kana": "にがい",
+      "kanji": "苦い",
+      "kf": "苦[にが]い",
+      "hv": "KHỔ",
+      "vi": "đắng",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vị, cảm giác",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この薬[くすり]はとても苦[にが]いです。",
+          "vi": "Thuốc này rất đắng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "ゴーヤは少[すこ]し苦[にが]いですが、体[からだ]にいいです。",
+          "vi": "Mướp đắng hơi đắng nhưng tốt cho cơ thể.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "魚[さかな]の内臓[ないぞう]が破[やぶ]れると、身[み]が苦[にが]くなります。",
+          "vi": "Nội tạng cá bị vỡ thì thịt sẽ đắng.",
+          "ctx": "xuong"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "薬[くすり]",
+          "vi": "thuốc"
+        },
+        {
+          "jp": "コーヒー",
+          "vi": "cà phê"
+        }
+      ],
+      "ant": [
+        "v:甘い:あまい"
+      ],
+      "rel": [
+        {
+          "w": "苦[にが]み",
+          "vi": "vị đắng"
+        }
+      ]
     },
     {
-     "jp": "新鮮[しんせん]なイカは、柔[やわ]らかすぎません。",
-     "vi": "Mực tươi thì không quá mềm.",
-     "ctx": "xuong"
+      "id": "v:柔らかい:やわらかい",
+      "kana": "やわらかい",
+      "kanji": "柔らかい",
+      "kf": "柔[やわ]らかい",
+      "hv": "NHU",
+      "vi": "mềm (khi sờ, khi ăn)",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vị, cảm giác",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このパンは柔[やわ]らかくておいしいです。",
+          "vi": "Bánh mì này mềm và ngon.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "新鮮[しんせん]なイカは、柔[やわ]らかすぎません。",
+          "vi": "Mực tươi thì không quá mềm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "赤[あか]ちゃんの手[て]は柔[やわ]らかいですね。",
+          "vi": "Tay em bé mềm quá nhỉ.",
+          "ctx": "doisong"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "肉[にく]",
+          "vi": "thịt"
+        },
+        {
+          "jp": "パン",
+          "vi": "bánh mì"
+        }
+      ],
+      "ant": [
+        "v:堅い:かたい"
+      ],
+      "rel": [
+        {
+          "w": "柔[やわ]らかさ",
+          "vi": "độ mềm"
+        }
+      ]
     },
     {
-     "jp": "赤[あか]ちゃんの手[て]は柔[やわ]らかいですね。",
-     "vi": "Tay em bé mềm quá nhỉ.",
-     "ctx": "doisong"
+      "id": "v:堅い:かたい",
+      "kana": "かたい",
+      "kanji": "堅い",
+      "kf": "堅[かた]い",
+      "hv": "KIÊN",
+      "vi": "cứng, chắc (vật, thịt)",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vị, cảm giác",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このお肉[にく]は少[すこ]し堅[かた]いです。",
+          "vi": "Thịt này hơi dai cứng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "凍[こお]った魚[さかな]は堅[かた]いので、包丁[ほうちょう]に気[き]をつけてください。",
+          "vi": "Cá đông lạnh cứng, cẩn thận dao.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：このパン、堅[かた]いね。B：昨日[きのう]のだから。",
+          "vi": "A: Bánh mì này cứng nhỉ. B: Của hôm qua mà.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "肉[にく]",
+          "vi": "thịt"
+        },
+        {
+          "jp": "氷[こおり]",
+          "vi": "đá"
+        }
+      ],
+      "ant": [
+        "v:柔らかい:やわらかい"
+      ],
+      "note": "Cũng viết 硬[かた]い (vật cứng), 固[かた]い (chặt, chắc)."
+    },
+    {
+      "id": "v:厳しい:きびしい",
+      "kana": "きびしい",
+      "kanji": "厳しい",
+      "kf": "厳[きび]しい",
+      "hv": "NGHIÊM",
+      "vi": "nghiêm khắc, khắt khe",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "父[ちち]はとても厳[きび]しい人[ひと]でした。",
+          "vi": "Bố tôi là người rất nghiêm khắc.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この工場[こうじょう]は、衛生[えいせい]のルールが厳[きび]しいです。",
+          "vi": "Nhà máy này quy định vệ sinh rất khắt khe.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ビザの審査[しんさ]は、だんだん厳[きび]しくなっています。",
+          "vi": "Việc xét duyệt visa ngày càng khắt khe.",
+          "ctx": "thutuc"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "先生[せんせい]",
+          "vi": "thầy giáo"
+        },
+        {
+          "jp": "ルール",
+          "vi": "quy tắc"
+        }
+      ],
+      "ant": [
+        {
+          "w": "優[やさ]しい",
+          "vi": "hiền, dễ tính"
+        }
+      ],
+      "rel": [
+        {
+          "w": "厳[きび]しさ",
+          "vi": "sự nghiêm khắc"
+        }
+      ]
+    },
+    {
+      "id": "v:深い:ふかい",
+      "kana": "ふかい",
+      "kanji": "深い",
+      "kf": "深[ふか]い",
+      "hv": "THÂM",
+      "vi": "sâu",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この川[かわ]は深[ふか]いので、泳[およ]がないでください。",
+          "vi": "Sông này sâu, đừng bơi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "深[ふか]い箱[はこ]に入[い]れると、魚[さかな]が取[と]りにくいです。",
+          "vi": "Cho vào thùng sâu thì khó lấy cá.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "先生[せんせい]の話[はなし]は、とても深[ふか]いと思[おも]いました。",
+          "vi": "Tôi thấy lời thầy rất sâu sắc.",
+          "ctx": "doisong"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "川[かわ]",
+          "vi": "sông"
+        },
+        {
+          "jp": "海[うみ]",
+          "vi": "biển"
+        }
+      ],
+      "ant": [
+        "v:浅い:あさい"
+      ],
+      "rel": [
+        {
+          "w": "深[ふか]さ",
+          "vi": "độ sâu"
+        }
+      ]
+    },
+    {
+      "id": "v:浅い:あさい",
+      "kana": "あさい",
+      "kanji": "浅い",
+      "kf": "浅[あさ]い",
+      "hv": "THIỂN",
+      "vi": "nông, cạn",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "子供[こども]は浅[あさ]いプールで遊[あそ]びます。",
+          "vi": "Trẻ con chơi ở bể nông.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "浅[あさ]いトレーに、魚[さかな]を一列[かずなみ]に並[なら]べてください。",
+          "vi": "Xếp cá thành một hàng trên khay nông.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：この海[うみ]、浅[あさ]いね。B：うん、安全[あんぜん]だね。",
+          "vi": "A: Biển này nông nhỉ. B: Ừ, an toàn.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "川[かわ]",
+          "vi": "sông"
+        },
+        {
+          "jp": "プール",
+          "vi": "bể bơi"
+        }
+      ],
+      "ant": [
+        "v:深い:ふかい"
+      ]
+    },
+    {
+      "id": "v:悲しい:かなしい",
+      "kana": "かなしい",
+      "kanji": "悲しい",
+      "kf": "悲[かな]しい",
+      "hv": "BI",
+      "vi": "buồn, đau lòng",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cảm xúc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "犬[いぬ]が死[し]んで、とても悲[かな]しいです。",
+          "vi": "Con chó chết, tôi rất buồn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "先輩[せんぱい]が国[くに]に帰[かえ]って、悲[かな]しかったです。",
+          "vi": "Đàn anh về nước, tôi buồn lắm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：悲[かな]しい映画[えいが]は好[す]き？B：あんまり。泣[な]いちゃうから。",
+          "vi": "A: Thích phim buồn không? B: Không lắm, tớ hay khóc.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "映画[えいが]",
+          "vi": "phim"
+        },
+        {
+          "jp": "話[はなし]",
+          "vi": "câu chuyện"
+        }
+      ],
+      "ant": [
+        "v:嬉しい:うれしい"
+      ],
+      "rel": [
+        {
+          "w": "悲[かな]しみ",
+          "vi": "nỗi buồn"
+        }
+      ]
+    },
+    {
+      "id": "v:嬉しい:うれしい",
+      "kana": "うれしい",
+      "kanji": "嬉しい",
+      "kf": "嬉[うれ]しい",
+      "hv": "HY",
+      "vi": "vui, mừng",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cảm xúc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "家族[かぞく]から手紙[てがみ]が来[き]て、嬉[うれ]しいです。",
+          "vi": "Có thư của gia đình, tôi vui lắm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "班長[はんちょう]に褒[ほ]められて、嬉[うれ]しかったです。",
+          "vi": "Được tổ trưởng khen tôi vui lắm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：合格[ごうかく]したよ！B：本当[ほんとう]？嬉[うれ]しいね！",
+          "vi": "A: Đỗ rồi! B: Thật à? Mừng quá!",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "ニュース",
+          "vi": "tin tức"
+        },
+        {
+          "jp": "手紙[てがみ]",
+          "vi": "lá thư"
+        }
+      ],
+      "ant": [
+        "v:悲しい:かなしい"
+      ],
+      "syn": [
+        "v:楽しい:たのしい"
+      ],
+      "note": "嬉[うれ]しい: vui vì một việc xảy ra; 楽[たの]しい: vui khi đang làm gì."
+    },
+    {
+      "id": "v:寂しい:さびしい",
+      "kana": "さびしい",
+      "kanji": "寂しい",
+      "kf": "寂[さび]しい",
+      "hv": "TỊCH",
+      "vi": "cô đơn, buồn vắng",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cảm xúc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "一人[ひとり]で住[す]んでいるので、時々[ときどき]寂[さび]しいです。",
+          "vi": "Sống một mình nên đôi khi thấy cô đơn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "友達[ともだち]が辞[や]めて、職場[しょくば]が寂[さび]しくなりました。",
+          "vi": "Bạn nghỉ việc, chỗ làm vắng vẻ hẳn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：家族[かぞく]に会[あ]えなくて寂[さび]しくない？B：毎日[まいにち]電話[でんわ]してるから大丈夫[だいじょうぶ]。",
+          "vi": "A: Không gặp gia đình không thấy buồn à? B: Ngày nào cũng gọi điện nên ổn.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "夜[よる]",
+          "vi": "đêm"
+        },
+        {
+          "jp": "町[まち]",
+          "vi": "thị trấn"
+        }
+      ],
+      "ant": [
+        {
+          "w": "にぎやか",
+          "vi": "náo nhiệt"
+        }
+      ],
+      "rel": [
+        {
+          "w": "寂[さび]しさ",
+          "vi": "nỗi cô đơn"
+        }
+      ]
+    },
+    {
+      "id": "v:怖い:こわい",
+      "kana": "こわい",
+      "kanji": "怖い",
+      "kf": "怖[こわ]い",
+      "hv": "BỐ",
+      "vi": "sợ, đáng sợ",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cảm xúc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "地震[じしん]がとても怖[こわ]いです。",
+          "vi": "Tôi rất sợ động đất.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "大[おお]きな機械[きかい]は、最初[さいしょ]は少[すこ]し怖[こわ]かったです。",
+          "vi": "Lúc đầu máy to hơi đáng sợ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：怖[こわ]い映画[えいが]、見[み]られる？B：絶対[ぜったい]無理[むり]！",
+          "vi": "A: Xem được phim kinh dị không? B: Tuyệt đối không!",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "犬[いぬ]",
+          "vi": "con chó"
+        },
+        {
+          "jp": "話[はなし]",
+          "vi": "câu chuyện"
+        }
+      ],
+      "rel": [
+        {
+          "w": "怖[こわ]さ",
+          "vi": "nỗi sợ"
+        }
+      ]
+    },
+    {
+      "id": "v:恥ずかしい:はずかしい",
+      "kana": "はずかしい",
+      "kanji": "恥ずかしい",
+      "kf": "恥[は]ずかしい",
+      "hv": "SỈ",
+      "vi": "xấu hổ, ngại",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Cảm xúc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本語[にほんご]を間違[まちが]えて、恥[は]ずかしかったです。",
+          "vi": "Nói sai tiếng Nhật, tôi xấu hổ quá.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "みんなの前[まえ]で話[はな]すのは恥[は]ずかしいです。",
+          "vi": "Nói trước mọi người thì ngại.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：歌[うた]って！B：恥[は]ずかしいから、いやだよ。",
+          "vi": "A: Hát đi! B: Ngại lắm, không đâu.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "失敗[しっぱい]",
+          "vi": "thất bại"
+        },
+        {
+          "jp": "話[はなし]",
+          "vi": "chuyện"
+        }
+      ]
+    },
+    {
+      "id": "v:美しい:うつくしい",
+      "kana": "うつくしい",
+      "kanji": "美しい",
+      "kf": "美[うつく]しい",
+      "hv": "MỸ",
+      "vi": "đẹp (văn viết, trang trọng)",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "富士山[ふじさん]は本当[ほんとう]に美[うつく]しい山[やま]です。",
+          "vi": "Núi Phú Sĩ thật là ngọn núi đẹp.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "美[うつく]しく並[なら]べると、商品[しょうひん]がよく見[み]えます。",
+          "vi": "Xếp đẹp thì hàng trông bắt mắt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "秋[あき]の京都[きょうと]は美[うつく]しいですね。",
+          "vi": "Kyoto mùa thu đẹp nhỉ.",
+          "ctx": "doisong"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "景色[けしき]",
+          "vi": "phong cảnh"
+        },
+        {
+          "jp": "山[やま]",
+          "vi": "núi"
+        }
+      ],
+      "syn": [
+        "v:きれい:きれい"
+      ],
+      "rel": [
+        {
+          "w": "美[うつく]しさ",
+          "vi": "vẻ đẹp"
+        }
+      ]
+    },
+    {
+      "id": "v:素晴らしい:すばらしい",
+      "kana": "すばらしい",
+      "kanji": "素晴らしい",
+      "kf": "素晴[すば]らしい",
+      "hv": "TỐ TÌNH",
+      "vi": "tuyệt vời",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "素晴[すば]らしい景色[けしき]ですね。",
+          "vi": "Phong cảnh tuyệt vời nhỉ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今月[こんげつ]はミスがゼロで、素晴[すば]らしいです。",
+          "vi": "Tháng này không có lỗi nào, tuyệt vời.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：昨日[きのう]のコンサート、どうだった？B：素晴[すば]らしかったよ。",
+          "vi": "A: Buổi hòa nhạc hôm qua thế nào? B: Tuyệt lắm.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "景色[けしき]",
+          "vi": "phong cảnh"
+        },
+        {
+          "jp": "料理[りょうり]",
+          "vi": "món ăn"
+        }
+      ]
+    },
+    {
+      "id": "v:おかしい:おかしい",
+      "kana": "おかしい",
+      "kanji": "",
+      "hv": "",
+      "vi": "buồn cười; kỳ lạ, bất thường (có vấn đề)",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "彼[かれ]の話[はなし]はいつもおかしいです。",
+          "vi": "Chuyện của anh ấy lúc nào cũng buồn cười.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "機械[きかい]の音[おと]がおかしいので、止[と]めてください。",
+          "vi": "Tiếng máy lạ quá, hãy dừng lại.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：この書類[しょるい]、何[なに]かおかしくない？B：あ、日付[ひづけ]が違[ちが]う。",
+          "vi": "A: Giấy này có gì lạ không? B: À, sai ngày.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "音[おと]",
+          "vi": "tiếng"
+        },
+        {
+          "jp": "話[はなし]",
+          "vi": "câu chuyện"
+        }
+      ],
+      "syn": [
+        "v:変:へん"
+      ]
+    },
+    {
+      "id": "v:細かい:こまかい",
+      "kana": "こまかい",
+      "kanji": "細かい",
+      "kf": "細[こま]かい",
+      "hv": "TẾ",
+      "vi": "vụn, lẻ (tiền, hạt); tỉ mỉ, chi tiết",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "細[こま]かいお金[かね]がありません。",
+          "vi": "Tôi không có tiền lẻ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "骨[ほね]を取[と]る仕事[しごと]は、細[こま]かくて大変[たいへん]です。",
+          "vi": "Việc gỡ xương tỉ mỉ, vất vả.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "細[こま]かいルールは、この紙[かみ]に書[か]いてあります。",
+          "vi": "Quy định chi tiết ghi trong tờ giấy này.",
+          "ctx": "thutuc"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "お金[かね]",
+          "vi": "tiền lẻ"
+        },
+        {
+          "jp": "作業[さぎょう]",
+          "vi": "công việc"
+        }
+      ],
+      "rel": [
+        {
+          "w": "細[こま]かさ",
+          "vi": "độ tỉ mỉ"
+        }
+      ]
+    },
+    {
+      "id": "v:珍しい:めずらしい",
+      "kana": "めずらしい",
+      "kanji": "珍しい",
+      "kf": "珍[めずら]しい",
+      "hv": "TRÂN",
+      "vi": "hiếm, lạ (ít gặp)",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この町[まち]で雪[ゆき]が降[ふ]るのは珍[めずら]しいです。",
+          "vi": "Tuyết rơi ở thị trấn này là hiếm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今日[きょう]は珍[めずら]しい魚[さかな]が入[はい]ってきました。",
+          "vi": "Hôm nay có loại cá hiếm về.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：珍[めずら]しいね、遅刻[ちこく]するなんて。B：電車[でんしゃ]が止[と]まったんだ。",
+          "vi": "A: Hiếm thấy nhỉ, cậu mà đi muộn. B: Tàu dừng mà.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "魚[さかな]",
+          "vi": "cá"
+        },
+        {
+          "jp": "雪[ゆき]",
+          "vi": "tuyết"
+        }
+      ]
+    },
+    {
+      "id": "v:凄い:すごい",
+      "kana": "すごい",
+      "kanji": "凄い",
+      "kf": "凄[すご]い",
+      "hv": "THÊ",
+      "vi": "ghê, giỏi quá, kinh khủng",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "すごい雨[あめ]ですね。",
+          "vi": "Mưa to ghê nhỉ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "一[いち]時間[じかん]で百[ひゃく]匹[ひき]？すごいですね。",
+          "vi": "Một tiếng 100 con? Giỏi quá.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：N3に合格[ごうかく]したよ。B：すごい！",
+          "vi": "A: Tớ đỗ N3 rồi. B: Giỏi quá!",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "雨[あめ]",
+          "vi": "mưa"
+        },
+        {
+          "jp": "人[ひと]",
+          "vi": "người"
+        }
+      ],
+      "note": "Hay viết chữ mềm すごい. Khẩu ngữ: すごく = rất."
+    },
+    {
+      "id": "v:ひどい:ひどい",
+      "kana": "ひどい",
+      "kanji": "",
+      "hv": "",
+      "vi": "quá đáng, tệ hại (cách đối xử); dữ dội, nặng (mưa, bệnh)",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ひどい雨[あめ]で、電車[でんしゃ]が止[と]まりました。",
+          "vi": "Mưa dữ dội nên tàu dừng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "風邪[かぜ]がひどいので、休[やす]ませてください。",
+          "vi": "Cảm nặng quá, xin cho nghỉ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：約束[やくそく]を忘[わす]れるなんて、ひどいよ。B：本当[ほんとう]にごめん。",
+          "vi": "A: Quên hẹn thì quá đáng lắm. B: Thật xin lỗi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "雨[あめ]",
+          "vi": "mưa"
+        },
+        {
+          "jp": "風邪[かぜ]",
+          "vi": "cảm"
+        }
+      ],
+      "note": "Viết chữ Hán: 酷[ひど]い."
+    },
+    {
+      "id": "v:うまい:うまい",
+      "kana": "うまい",
+      "kanji": "",
+      "hv": "",
+      "vi": "ngon; giỏi, khéo (khẩu ngữ)",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このラーメン、うまい！",
+          "vi": "Ramen này ngon quá!",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "先輩[せんぱい]は包丁[ほうちょう]を使[つか]うのがうまいです。",
+          "vi": "Đàn anh dùng dao rất khéo.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本語[にほんご]がうまくなりたいです。",
+          "vi": "Tôi muốn giỏi tiếng Nhật.",
+          "ctx": "doisong"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "料理[りょうり]",
+          "vi": "món ăn"
+        },
+        {
+          "jp": "人[ひと]",
+          "vi": "người"
+        }
+      ],
+      "syn": [
+        "v:おいしい:おいしい",
+        "v:上手:じょうず"
+      ],
+      "note": "Khẩu ngữ, nam giới hay dùng. Lịch sự: おいしい, 上手[じょうず]."
+    },
+    {
+      "id": "v:正しい:ただしい",
+      "kana": "ただしい",
+      "kanji": "正しい",
+      "kf": "正[ただ]しい",
+      "hv": "CHÍNH",
+      "vi": "đúng, chính xác",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "正[ただ]しい答[こた]えを選[えら]んでください。",
+          "vi": "Hãy chọn câu trả lời đúng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "正[ただ]しい温度[おんど]で保存[ほぞん]してください。",
+          "vi": "Hãy bảo quản đúng nhiệt độ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "正[ただ]しい住所[じゅうしょ]を書[か]かないと、届[とど]きません。",
+          "vi": "Không ghi đúng địa chỉ thì không đến.",
+          "ctx": "thutuc"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "答[こた]え",
+          "vi": "câu trả lời"
+        },
+        {
+          "jp": "方法[ほうほう]",
+          "vi": "cách làm"
+        }
+      ],
+      "ant": [
+        {
+          "w": "間違[まちが]った",
+          "vi": "sai"
+        }
+      ],
+      "rel": [
+        {
+          "w": "正[ただ]しく",
+          "vi": "một cách đúng"
+        }
+      ]
+    },
+    {
+      "id": "v:よろしい:よろしい",
+      "kana": "よろしい",
+      "kanji": "",
+      "hv": "",
+      "vi": "tốt, được (lịch sự)",
+      "pos": "adj-i",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Tính chất",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "こちらでよろしいですか。",
+          "vi": "Cái này được chưa ạ?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "明日[あした]の十[じゅう]時[じ]でよろしいでしょうか。",
+          "vi": "10 giờ ngày mai có được không ạ?",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：窓[まど]を開[あ]けてもよろしいですか。B：はい、どうぞ。",
+          "vi": "A: Tôi mở cửa sổ được không ạ? B: Vâng, xin mời.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "syn": [
+        "v:いい:いい"
+      ],
+      "note": "Lịch sự của いい. Hay dùng: 〜てもよろしいですか (xin phép)."
     }
-   ],
-   "subj": [
-    {
-     "jp": "肉[にく]",
-     "vi": "thịt"
-    },
-    {
-     "jp": "パン",
-     "vi": "bánh mì"
-    }
-   ],
-   "ant": [
-    "v:堅い:かたい"
-   ],
-   "rel": [
-    {
-     "w": "柔[やわ]らかさ",
-     "vi": "độ mềm"
-    }
-   ]
-  },
-  {
-   "id": "v:堅い:かたい",
-   "kana": "かたい",
-   "kanji": "堅い",
-   "kf": "堅[かた]い",
-   "hv": "KIÊN",
-   "vi": "cứng, chắc (vật, thịt)",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vị, cảm giác",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "このお肉[にく]は少[すこ]し堅[かた]いです。",
-     "vi": "Thịt này hơi dai cứng.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "凍[こお]った魚[さかな]は堅[かた]いので、包丁[ほうちょう]に気[き]をつけてください。",
-     "vi": "Cá đông lạnh cứng, cẩn thận dao.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：このパン、堅[かた]いね。B：昨日[きのう]のだから。",
-     "vi": "A: Bánh mì này cứng nhỉ. B: Của hôm qua mà.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "肉[にく]",
-     "vi": "thịt"
-    },
-    {
-     "jp": "氷[こおり]",
-     "vi": "đá"
-    }
-   ],
-   "ant": [
-    "v:柔らかい:やわらかい"
-   ],
-   "note": "Cũng viết 硬[かた]い (vật cứng), 固[かた]い (chặt, chắc)."
-  },
-  {
-   "id": "v:厳しい:きびしい",
-   "kana": "きびしい",
-   "kanji": "厳しい",
-   "kf": "厳[きび]しい",
-   "hv": "NGHIÊM",
-   "vi": "nghiêm khắc, khắt khe",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tính chất",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "父[ちち]はとても厳[きび]しい人[ひと]でした。",
-     "vi": "Bố tôi là người rất nghiêm khắc.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "この工場[こうじょう]は、衛生[えいせい]のルールが厳[きび]しいです。",
-     "vi": "Nhà máy này quy định vệ sinh rất khắt khe.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "ビザの審査[しんさ]は、だんだん厳[きび]しくなっています。",
-     "vi": "Việc xét duyệt visa ngày càng khắt khe.",
-     "ctx": "thutuc"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "先生[せんせい]",
-     "vi": "thầy giáo"
-    },
-    {
-     "jp": "ルール",
-     "vi": "quy tắc"
-    }
-   ],
-   "ant": [
-    {
-     "w": "優[やさ]しい",
-     "vi": "hiền, dễ tính"
-    }
-   ],
-   "rel": [
-    {
-     "w": "厳[きび]しさ",
-     "vi": "sự nghiêm khắc"
-    }
-   ]
-  },
-  {
-   "id": "v:深い:ふかい",
-   "kana": "ふかい",
-   "kanji": "深い",
-   "kf": "深[ふか]い",
-   "hv": "THÂM",
-   "vi": "sâu",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tính chất",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この川[かわ]は深[ふか]いので、泳[およ]がないでください。",
-     "vi": "Sông này sâu, đừng bơi.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "深[ふか]い箱[はこ]に入[い]れると、魚[さかな]が取[と]りにくいです。",
-     "vi": "Cho vào thùng sâu thì khó lấy cá.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "先生[せんせい]の話[はなし]は、とても深[ふか]いと思[おも]いました。",
-     "vi": "Tôi thấy lời thầy rất sâu sắc.",
-     "ctx": "doisong"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "川[かわ]",
-     "vi": "sông"
-    },
-    {
-     "jp": "海[うみ]",
-     "vi": "biển"
-    }
-   ],
-   "ant": [
-    "v:浅い:あさい"
-   ],
-   "rel": [
-    {
-     "w": "深[ふか]さ",
-     "vi": "độ sâu"
-    }
-   ]
-  },
-  {
-   "id": "v:浅い:あさい",
-   "kana": "あさい",
-   "kanji": "浅い",
-   "kf": "浅[あさ]い",
-   "hv": "THIỂN",
-   "vi": "nông, cạn",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tính chất",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "子供[こども]は浅[あさ]いプールで遊[あそ]びます。",
-     "vi": "Trẻ con chơi ở bể nông.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "浅[あさ]いトレーに、魚[さかな]を一列[かずなみ]に並[なら]べてください。",
-     "vi": "Xếp cá thành một hàng trên khay nông.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：この海[うみ]、浅[あさ]いね。B：うん、安全[あんぜん]だね。",
-     "vi": "A: Biển này nông nhỉ. B: Ừ, an toàn.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "川[かわ]",
-     "vi": "sông"
-    },
-    {
-     "jp": "プール",
-     "vi": "bể bơi"
-    }
-   ],
-   "ant": [
-    "v:深い:ふかい"
-   ]
-  },
-  {
-   "id": "v:悲しい:かなしい",
-   "kana": "かなしい",
-   "kanji": "悲しい",
-   "kf": "悲[かな]しい",
-   "hv": "BI",
-   "vi": "buồn, đau lòng",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cảm xúc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "犬[いぬ]が死[し]んで、とても悲[かな]しいです。",
-     "vi": "Con chó chết, tôi rất buồn.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "先輩[せんぱい]が国[くに]に帰[かえ]って、悲[かな]しかったです。",
-     "vi": "Đàn anh về nước, tôi buồn lắm.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：悲[かな]しい映画[えいが]は好[す]き？B：あんまり。泣[な]いちゃうから。",
-     "vi": "A: Thích phim buồn không? B: Không lắm, tớ hay khóc.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "映画[えいが]",
-     "vi": "phim"
-    },
-    {
-     "jp": "話[はなし]",
-     "vi": "câu chuyện"
-    }
-   ],
-   "ant": [
-    "v:嬉しい:うれしい"
-   ],
-   "rel": [
-    {
-     "w": "悲[かな]しみ",
-     "vi": "nỗi buồn"
-    }
-   ]
-  },
-  {
-   "id": "v:嬉しい:うれしい",
-   "kana": "うれしい",
-   "kanji": "嬉しい",
-   "kf": "嬉[うれ]しい",
-   "hv": "HY",
-   "vi": "vui, mừng",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cảm xúc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "家族[かぞく]から手紙[てがみ]が来[き]て、嬉[うれ]しいです。",
-     "vi": "Có thư của gia đình, tôi vui lắm.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "班長[はんちょう]に褒[ほ]められて、嬉[うれ]しかったです。",
-     "vi": "Được tổ trưởng khen tôi vui lắm.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：合格[ごうかく]したよ！B：本当[ほんとう]？嬉[うれ]しいね！",
-     "vi": "A: Đỗ rồi! B: Thật à? Mừng quá!",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "ニュース",
-     "vi": "tin tức"
-    },
-    {
-     "jp": "手紙[てがみ]",
-     "vi": "lá thư"
-    }
-   ],
-   "ant": [
-    "v:悲しい:かなしい"
-   ],
-   "syn": [
-    "v:楽しい:たのしい"
-   ],
-   "note": "嬉[うれ]しい: vui vì một việc xảy ra; 楽[たの]しい: vui khi đang làm gì."
-  },
-  {
-   "id": "v:寂しい:さびしい",
-   "kana": "さびしい",
-   "kanji": "寂しい",
-   "kf": "寂[さび]しい",
-   "hv": "TỊCH",
-   "vi": "cô đơn, buồn vắng",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cảm xúc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "一人[ひとり]で住[す]んでいるので、時々[ときどき]寂[さび]しいです。",
-     "vi": "Sống một mình nên đôi khi thấy cô đơn.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "友達[ともだち]が辞[や]めて、職場[しょくば]が寂[さび]しくなりました。",
-     "vi": "Bạn nghỉ việc, chỗ làm vắng vẻ hẳn.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：家族[かぞく]に会[あ]えなくて寂[さび]しくない？B：毎日[まいにち]電話[でんわ]してるから大丈夫[だいじょうぶ]。",
-     "vi": "A: Không gặp gia đình không thấy buồn à? B: Ngày nào cũng gọi điện nên ổn.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "夜[よる]",
-     "vi": "đêm"
-    },
-    {
-     "jp": "町[まち]",
-     "vi": "thị trấn"
-    }
-   ],
-   "ant": [
-    {
-     "w": "にぎやか",
-     "vi": "náo nhiệt"
-    }
-   ],
-   "rel": [
-    {
-     "w": "寂[さび]しさ",
-     "vi": "nỗi cô đơn"
-    }
-   ]
-  },
-  {
-   "id": "v:怖い:こわい",
-   "kana": "こわい",
-   "kanji": "怖い",
-   "kf": "怖[こわ]い",
-   "hv": "BỐ",
-   "vi": "sợ, đáng sợ",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cảm xúc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "地震[じしん]がとても怖[こわ]いです。",
-     "vi": "Tôi rất sợ động đất.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "大[おお]きな機械[きかい]は、最初[さいしょ]は少[すこ]し怖[こわ]かったです。",
-     "vi": "Lúc đầu máy to hơi đáng sợ.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：怖[こわ]い映画[えいが]、見[み]られる？B：絶対[ぜったい]無理[むり]！",
-     "vi": "A: Xem được phim kinh dị không? B: Tuyệt đối không!",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "犬[いぬ]",
-     "vi": "con chó"
-    },
-    {
-     "jp": "話[はなし]",
-     "vi": "câu chuyện"
-    }
-   ],
-   "rel": [
-    {
-     "w": "怖[こわ]さ",
-     "vi": "nỗi sợ"
-    }
-   ]
-  },
-  {
-   "id": "v:恥ずかしい:はずかしい",
-   "kana": "はずかしい",
-   "kanji": "恥ずかしい",
-   "kf": "恥[は]ずかしい",
-   "hv": "SỈ",
-   "vi": "xấu hổ, ngại",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Cảm xúc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本語[にほんご]を間違[まちが]えて、恥[は]ずかしかったです。",
-     "vi": "Nói sai tiếng Nhật, tôi xấu hổ quá.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "みんなの前[まえ]で話[はな]すのは恥[は]ずかしいです。",
-     "vi": "Nói trước mọi người thì ngại.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：歌[うた]って！B：恥[は]ずかしいから、いやだよ。",
-     "vi": "A: Hát đi! B: Ngại lắm, không đâu.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "失敗[しっぱい]",
-     "vi": "thất bại"
-    },
-    {
-     "jp": "話[はなし]",
-     "vi": "chuyện"
-    }
-   ]
-  },
-  {
-   "id": "v:美しい:うつくしい",
-   "kana": "うつくしい",
-   "kanji": "美しい",
-   "kf": "美[うつく]しい",
-   "hv": "MỸ",
-   "vi": "đẹp (văn viết, trang trọng)",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tính chất",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "富士山[ふじさん]は本当[ほんとう]に美[うつく]しい山[やま]です。",
-     "vi": "Núi Phú Sĩ thật là ngọn núi đẹp.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "美[うつく]しく並[なら]べると、商品[しょうひん]がよく見[み]えます。",
-     "vi": "Xếp đẹp thì hàng trông bắt mắt.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "秋[あき]の京都[きょうと]は美[うつく]しいですね。",
-     "vi": "Kyoto mùa thu đẹp nhỉ.",
-     "ctx": "doisong"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "景色[けしき]",
-     "vi": "phong cảnh"
-    },
-    {
-     "jp": "山[やま]",
-     "vi": "núi"
-    }
-   ],
-   "syn": [
-    "v:きれい:きれい"
-   ],
-   "rel": [
-    {
-     "w": "美[うつく]しさ",
-     "vi": "vẻ đẹp"
-    }
-   ]
-  },
-  {
-   "id": "v:素晴らしい:すばらしい",
-   "kana": "すばらしい",
-   "kanji": "素晴らしい",
-   "kf": "素晴[すば]らしい",
-   "hv": "TỐ TÌNH",
-   "vi": "tuyệt vời",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tính chất",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "素晴[すば]らしい景色[けしき]ですね。",
-     "vi": "Phong cảnh tuyệt vời nhỉ.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "今月[こんげつ]はミスがゼロで、素晴[すば]らしいです。",
-     "vi": "Tháng này không có lỗi nào, tuyệt vời.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：昨日[きのう]のコンサート、どうだった？B：素晴[すば]らしかったよ。",
-     "vi": "A: Buổi hòa nhạc hôm qua thế nào? B: Tuyệt lắm.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "景色[けしき]",
-     "vi": "phong cảnh"
-    },
-    {
-     "jp": "料理[りょうり]",
-     "vi": "món ăn"
-    }
-   ]
-  },
-  {
-   "id": "v:おかしい:おかしい",
-   "kana": "おかしい",
-   "kanji": "",
-   "hv": "",
-   "vi": "buồn cười; kỳ lạ, bất thường (có vấn đề)",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tính chất",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "彼[かれ]の話[はなし]はいつもおかしいです。",
-     "vi": "Chuyện của anh ấy lúc nào cũng buồn cười.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "機械[きかい]の音[おと]がおかしいので、止[と]めてください。",
-     "vi": "Tiếng máy lạ quá, hãy dừng lại.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：この書類[しょるい]、何[なに]かおかしくない？B：あ、日付[ひづけ]が違[ちが]う。",
-     "vi": "A: Giấy này có gì lạ không? B: À, sai ngày.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "音[おと]",
-     "vi": "tiếng"
-    },
-    {
-     "jp": "話[はなし]",
-     "vi": "câu chuyện"
-    }
-   ],
-   "syn": [
-    "v:変:へん"
-   ]
-  },
-  {
-   "id": "v:細かい:こまかい",
-   "kana": "こまかい",
-   "kanji": "細かい",
-   "kf": "細[こま]かい",
-   "hv": "TẾ",
-   "vi": "vụn, lẻ (tiền, hạt); tỉ mỉ, chi tiết",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tính chất",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "細[こま]かいお金[かね]がありません。",
-     "vi": "Tôi không có tiền lẻ.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "骨[ほね]を取[と]る仕事[しごと]は、細[こま]かくて大変[たいへん]です。",
-     "vi": "Việc gỡ xương tỉ mỉ, vất vả.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "細[こま]かいルールは、この紙[かみ]に書[か]いてあります。",
-     "vi": "Quy định chi tiết ghi trong tờ giấy này.",
-     "ctx": "thutuc"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "お金[かね]",
-     "vi": "tiền lẻ"
-    },
-    {
-     "jp": "作業[さぎょう]",
-     "vi": "công việc"
-    }
-   ],
-   "rel": [
-    {
-     "w": "細[こま]かさ",
-     "vi": "độ tỉ mỉ"
-    }
-   ]
-  },
-  {
-   "id": "v:珍しい:めずらしい",
-   "kana": "めずらしい",
-   "kanji": "珍しい",
-   "kf": "珍[めずら]しい",
-   "hv": "TRÂN",
-   "vi": "hiếm, lạ (ít gặp)",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tính chất",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この町[まち]で雪[ゆき]が降[ふ]るのは珍[めずら]しいです。",
-     "vi": "Tuyết rơi ở thị trấn này là hiếm.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "今日[きょう]は珍[めずら]しい魚[さかな]が入[はい]ってきました。",
-     "vi": "Hôm nay có loại cá hiếm về.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：珍[めずら]しいね、遅刻[ちこく]するなんて。B：電車[でんしゃ]が止[と]まったんだ。",
-     "vi": "A: Hiếm thấy nhỉ, cậu mà đi muộn. B: Tàu dừng mà.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "魚[さかな]",
-     "vi": "cá"
-    },
-    {
-     "jp": "雪[ゆき]",
-     "vi": "tuyết"
-    }
-   ]
-  },
-  {
-   "id": "v:凄い:すごい",
-   "kana": "すごい",
-   "kanji": "凄い",
-   "kf": "凄[すご]い",
-   "hv": "THÊ",
-   "vi": "ghê, giỏi quá, kinh khủng",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tính chất",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "すごい雨[あめ]ですね。",
-     "vi": "Mưa to ghê nhỉ.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "一[いち]時間[じかん]で百[ひゃく]匹[ひき]？すごいですね。",
-     "vi": "Một tiếng 100 con? Giỏi quá.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：N3に合格[ごうかく]したよ。B：すごい！",
-     "vi": "A: Tớ đỗ N3 rồi. B: Giỏi quá!",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "雨[あめ]",
-     "vi": "mưa"
-    },
-    {
-     "jp": "人[ひと]",
-     "vi": "người"
-    }
-   ],
-   "note": "Hay viết chữ mềm すごい. Khẩu ngữ: すごく = rất."
-  },
-  {
-   "id": "v:ひどい:ひどい",
-   "kana": "ひどい",
-   "kanji": "",
-   "hv": "",
-   "vi": "quá đáng, tệ hại (cách đối xử); dữ dội, nặng (mưa, bệnh)",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tính chất",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ひどい雨[あめ]で、電車[でんしゃ]が止[と]まりました。",
-     "vi": "Mưa dữ dội nên tàu dừng.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "風邪[かぜ]がひどいので、休[やす]ませてください。",
-     "vi": "Cảm nặng quá, xin cho nghỉ.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：約束[やくそく]を忘[わす]れるなんて、ひどいよ。B：本当[ほんとう]にごめん。",
-     "vi": "A: Quên hẹn thì quá đáng lắm. B: Thật xin lỗi.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "雨[あめ]",
-     "vi": "mưa"
-    },
-    {
-     "jp": "風邪[かぜ]",
-     "vi": "cảm"
-    }
-   ],
-   "note": "Viết chữ Hán: 酷[ひど]い."
-  },
-  {
-   "id": "v:うまい:うまい",
-   "kana": "うまい",
-   "kanji": "",
-   "hv": "",
-   "vi": "ngon; giỏi, khéo (khẩu ngữ)",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tính chất",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "このラーメン、うまい！",
-     "vi": "Ramen này ngon quá!",
-     "ctx": "hoithoai"
-    },
-    {
-     "jp": "先輩[せんぱい]は包丁[ほうちょう]を使[つか]うのがうまいです。",
-     "vi": "Đàn anh dùng dao rất khéo.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "日本語[にほんご]がうまくなりたいです。",
-     "vi": "Tôi muốn giỏi tiếng Nhật.",
-     "ctx": "doisong"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "料理[りょうり]",
-     "vi": "món ăn"
-    },
-    {
-     "jp": "人[ひと]",
-     "vi": "người"
-    }
-   ],
-   "syn": [
-    "v:おいしい:おいしい",
-    "v:上手:じょうず"
-   ],
-   "note": "Khẩu ngữ, nam giới hay dùng. Lịch sự: おいしい, 上手[じょうず]."
-  },
-  {
-   "id": "v:正しい:ただしい",
-   "kana": "ただしい",
-   "kanji": "正しい",
-   "kf": "正[ただ]しい",
-   "hv": "CHÍNH",
-   "vi": "đúng, chính xác",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tính chất",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "正[ただ]しい答[こた]えを選[えら]んでください。",
-     "vi": "Hãy chọn câu trả lời đúng.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "正[ただ]しい温度[おんど]で保存[ほぞん]してください。",
-     "vi": "Hãy bảo quản đúng nhiệt độ.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "正[ただ]しい住所[じゅうしょ]を書[か]かないと、届[とど]きません。",
-     "vi": "Không ghi đúng địa chỉ thì không đến.",
-     "ctx": "thutuc"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "答[こた]え",
-     "vi": "câu trả lời"
-    },
-    {
-     "jp": "方法[ほうほう]",
-     "vi": "cách làm"
-    }
-   ],
-   "ant": [
-    {
-     "w": "間違[まちが]った",
-     "vi": "sai"
-    }
-   ],
-   "rel": [
-    {
-     "w": "正[ただ]しく",
-     "vi": "một cách đúng"
-    }
-   ]
-  },
-  {
-   "id": "v:よろしい:よろしい",
-   "kana": "よろしい",
-   "kanji": "",
-   "hv": "",
-   "vi": "được, tốt (lịch sự)",
-   "pos": "adj-i",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Tính chất",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "こちらでよろしいですか。",
-     "vi": "Cái này được chưa ạ?",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "明日[あした]の十[じゅう]時[じ]でよろしいでしょうか。",
-     "vi": "10 giờ ngày mai có được không ạ?",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：窓[まど]を開[あ]けてもよろしいですか。B：はい、どうぞ。",
-     "vi": "A: Tôi mở cửa sổ được không ạ? B: Vâng, xin mời.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "syn": [
-    "v:いい:いい"
-   ],
-   "note": "Lịch sự của いい. Hay dùng: 〜てもよろしいですか (xin phép)."
-  }
- ]
+  ]
 }

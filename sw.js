@@ -1,13 +1,13 @@
 // Service worker: chạy offline.
 // Sửa bất kỳ file nào của app (html/css/js) thì TĂNG số phiên bản dưới đây để máy tải bản mới.
-const VERSION = 'tnt-v32';
+const VERSION = 'tnt-v35';
 const DATA = 'tnt-data';
 const FONTS = 'tnt-fonts'; // v32: phông chữ tải từ Google Fonts — giữ lại để dùng khi không có mạng (không xoá khi đổi phiên bản)
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest', 'css/app.css',
   'js/app.js', 'js/util.js', 'js/db.js', 'js/settings.js', 'js/tts.js', 'js/data.js', 'js/srs.js', 'js/sync.js',
   'js/vendor/qrcode.js', 'js/ui.js', 'js/wordx.js', 'js/adj.js', 'js/counters.js', 'js/learn.js', 'js/practice.js', 'js/drill.js', 'js/kanji.js', 'js/conj.js', 'js/gdrill.js', 'js/quiz.js', 'js/match.js', 'js/grammar.js', 'js/words.js', 'js/datapage.js', 'js/settingspage.js', 'js/nav.js',
-  'js/level.js', 'js/kana.js', 'js/roadmap.js', 'js/guides.js', 'js/romaji.js', 'js/forms.js', 'js/fstat.js', 'js/dich.js', 'js/notes.js', 'js/heart.js', 'js/lesson.js', 'js/reader.js', 'js/explain.js', 'js/leech.js', 'js/dot6.js', 'js/season.js', 'js/backfab.js', 'js/fonts.js',
+  'js/level.js', 'js/kana.js', 'js/roadmap.js', 'js/guides.js', 'js/romaji.js', 'js/forms.js', 'js/fstat.js', 'js/dich.js', 'js/notes.js', 'js/heart.js', 'js/lesson.js', 'js/reader.js', 'js/explain.js', 'js/leech.js', 'js/dot6.js', 'js/season.js', 'js/backfab.js', 'js/fonts.js', 'js/fxpanel.js',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable.png',
 ];
 

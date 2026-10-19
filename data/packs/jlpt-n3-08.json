@@ -1,1315 +1,1315 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n3-08",
-  "title": "JLPT N3 08 – Động từ sự việc & xã hội",
-  "type": "vocab",
-  "level": "N3",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 1,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:起こる:おこる",
-   "kana": "おこる",
-   "kanji": "起こる",
-   "kf": "起[お]こる",
-   "hv": "KHỞI",
-   "vi": "xảy ra, phát sinh (sự cố, sự kiện)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "工場[こうじょう]で事故[じこ]が起[お]こった時[とき]は、すぐ班長[はんちょう]に知[し]らせてください。",
-     "vi": "Khi xảy ra tai nạn trong xưởng, hãy báo ngay tổ trưởng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "地震[じしん]はいつ起[お]こるか分[わ]からない。",
-     "vi": "Không biết khi nào động đất xảy ra.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "事故[じこ]が起[お]こる",
-     "vi": "xảy ra tai nạn"
-    }
-   ],
-   "confuse": [
-    {
-     "w": "怒[おこ]る",
-     "vi": "nổi giận"
-    }
-   ],
-   "pair": {
-    "w": "起[お]こす",
-    "vi": "gây ra"
-   }
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n3-08",
+    "title": "JLPT N3 08 – Động từ sự việc & xã hội",
+    "type": "vocab",
+    "level": "N3",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:生じる:しょうじる",
-   "kana": "しょうじる",
-   "kanji": "生じる",
-   "kf": "生[しょう]じる",
-   "hv": "SINH",
-   "vi": "nảy sinh, phát sinh (văn viết)",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "説明[せつめい]が足[た]りないと、誤解[ごかい]が生[しょう]じる。",
-     "vi": "Giải thích không đủ thì sinh hiểu lầm.",
-     "ctx": "xuong"
+      "id": "v:起こる:おこる",
+      "kana": "おこる",
+      "kanji": "起こる",
+      "kf": "起[お]こる",
+      "hv": "KHỞI",
+      "vi": "xảy ra, phát sinh (sự cố, sự kiện)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "工場[こうじょう]で事故[じこ]が起[お]こった時[とき]は、すぐ班長[はんちょう]に知[し]らせてください。",
+          "vi": "Khi xảy ra tai nạn trong xưởng, hãy báo ngay tổ trưởng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "地震[じしん]はいつ起[お]こるか分[わ]からない。",
+          "vi": "Không biết khi nào động đất xảy ra.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "事故[じこ]が起[お]こる",
+          "vi": "xảy ra tai nạn"
+        }
+      ],
+      "confuse": [
+        {
+          "w": "怒[おこ]る",
+          "vi": "nổi giận"
+        }
+      ],
+      "pair": {
+        "w": "起[お]こす",
+        "vi": "gây ra"
+      }
     },
     {
-     "jp": "問題[もんだい]が生[しょう]じた場合[ばあい]は、すぐ連絡[れんらく]してください。",
-     "vi": "Nếu phát sinh vấn đề hãy liên lạc ngay.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "問題[もんだい]が生[しょう]じる",
-     "vi": "phát sinh vấn đề"
-    }
-   ],
-   "syn": [
-    "v:起こる:おこる"
-   ]
-  },
-  {
-   "id": "v:異なる:ことなる",
-   "kana": "ことなる",
-   "kanji": "異なる",
-   "kf": "異[こと]なる",
-   "hv": "DỊ",
-   "vi": "khác nhau (văn viết)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "国[くに]によって、習慣[しゅうかん]が異[こと]なります。",
-     "vi": "Phong tục khác nhau tùy nước.",
-     "ctx": "doisong"
+      "id": "v:生じる:しょうじる",
+      "kana": "しょうじる",
+      "kanji": "生じる",
+      "kf": "生[しょう]じる",
+      "hv": "SINH",
+      "vi": "nảy sinh, phát sinh (văn viết)",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "説明[せつめい]が足[た]りないと、誤解[ごかい]が生[しょう]じる。",
+          "vi": "Giải thích không đủ thì sinh hiểu lầm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "問題[もんだい]が生[しょう]じた場合[ばあい]は、すぐ連絡[れんらく]してください。",
+          "vi": "Nếu phát sinh vấn đề hãy liên lạc ngay.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "問題[もんだい]が生[しょう]じる",
+          "vi": "phát sinh vấn đề"
+        }
+      ],
+      "syn": [
+        "v:起こる:おこる"
+      ]
     },
     {
-     "jp": "手続[てつづ]きは、市[し]によって少[すこ]し異[こと]なる。",
-     "vi": "Thủ tục hơi khác nhau tùy thành phố.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "意見[いけん]が異[こと]なる",
-     "vi": "ý kiến khác nhau"
-    }
-   ],
-   "syn": [
-    {
-     "w": "違[ちが]う",
-     "vi": "khác"
-    }
-   ],
-   "note": "Hội thoại thường dùng 違[ちが]う."
-  },
-  {
-   "id": "v:及ぼす:およぼす",
-   "kana": "およぼす",
-   "kanji": "及ぼす",
-   "kf": "及[およ]ぼす",
-   "hv": "CẬP",
-   "vi": "gây (ảnh hưởng, thiệt hại) tới",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "睡眠不足[すいみんふそく]は、仕事[しごと]に悪[わる]い影響[えいきょう]を及[およ]ぼす。",
-     "vi": "Thiếu ngủ gây ảnh hưởng xấu tới công việc.",
-     "ctx": "xuong"
+      "id": "v:異なる:ことなる",
+      "kana": "ことなる",
+      "kanji": "異なる",
+      "kf": "異[こと]なる",
+      "hv": "DỊ",
+      "vi": "khác nhau (văn viết)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "国[くに]によって、習慣[しゅうかん]が異[こと]なります。",
+          "vi": "Phong tục khác nhau tùy nước.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "手続[てつづ]きは、市[し]によって少[すこ]し異[こと]なる。",
+          "vi": "Thủ tục hơi khác nhau tùy thành phố.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "意見[いけん]が異[こと]なる",
+          "vi": "ý kiến khác nhau"
+        }
+      ],
+      "syn": [
+        {
+          "w": "違[ちが]う",
+          "vi": "khác"
+        }
+      ],
+      "note": "Hội thoại thường dùng 違[ちが]う."
     },
     {
-     "jp": "台風[たいふう]が農業[のうぎょう]に大[おお]きな被害[ひがい]を及[およ]ぼした。",
-     "vi": "Bão gây thiệt hại lớn cho nông nghiệp.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "影響[えいきょう]を及[およ]ぼす",
-     "vi": "gây ảnh hưởng"
-    }
-   ]
-  },
-  {
-   "id": "v:与える:あたえる",
-   "kana": "あたえる",
-   "kanji": "与える",
-   "kf": "与[あた]える",
-   "hv": "DỮ",
-   "vi": "trao, cấp (văn viết); gây (ảnh hưởng, ấn tượng)",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "犬[いぬ]に餌[えさ]を与[あた]えないでください。",
-     "vi": "Đừng cho chó ăn.",
-     "ctx": "doisong"
+      "id": "v:及ぼす:およぼす",
+      "kana": "およぼす",
+      "kanji": "及ぼす",
+      "kf": "及[およ]ぼす",
+      "hv": "CẬP",
+      "vi": "gây (ảnh hưởng, thiệt hại) tới",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "睡眠不足[すいみんふそく]は、仕事[しごと]に悪[わる]い影響[えいきょう]を及[およ]ぼす。",
+          "vi": "Thiếu ngủ gây ảnh hưởng xấu tới công việc.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "台風[たいふう]が農業[のうぎょう]に大[おお]きな被害[ひがい]を及[およ]ぼした。",
+          "vi": "Bão gây thiệt hại lớn cho nông nghiệp.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "影響[えいきょう]を及[およ]ぼす",
+          "vi": "gây ảnh hưởng"
+        }
+      ]
     },
     {
-     "jp": "笑顔[えがお]は、相手[あいて]にいい印象[いんしょう]を与[あた]えます。",
-     "vi": "Nụ cười tạo ấn tượng tốt cho người đối diện.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "影響[えいきょう]を与[あた]える",
-     "vi": "gây ảnh hưởng"
+      "id": "v:与える:あたえる",
+      "kana": "あたえる",
+      "kanji": "与える",
+      "kf": "与[あた]える",
+      "hv": "DỮ",
+      "vi": "trao, cấp (văn viết); gây (ảnh hưởng, ấn tượng)",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "犬[いぬ]に餌[えさ]を与[あた]えないでください。",
+          "vi": "Đừng cho chó ăn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "笑顔[えがお]は、相手[あいて]にいい印象[いんしょう]を与[あた]えます。",
+          "vi": "Nụ cười tạo ấn tượng tốt cho người đối diện.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "影響[えいきょう]を与[あた]える",
+          "vi": "gây ảnh hưởng"
+        },
+        {
+          "jp": "チャンスを与[あた]える",
+          "vi": "trao cơ hội"
+        }
+      ],
+      "note": "Hội thoại thường dùng あげる, やる."
     },
     {
-     "jp": "チャンスを与[あた]える",
-     "vi": "trao cơ hội"
-    }
-   ],
-   "note": "Hội thoại thường dùng あげる, やる."
-  },
-  {
-   "id": "v:失う:うしなう",
-   "kana": "うしなう",
-   "kanji": "失う",
-   "kf": "失[うしな]う",
-   "hv": "THẤT",
-   "vi": "đánh mất (cơ hội, người thân, việc làm)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "事故[じこ]で、仕事[しごと]を失[うしな]った人[ひと]もいる。",
-     "vi": "Có người mất việc vì tai nạn.",
-     "ctx": "xuong"
+      "id": "v:失う:うしなう",
+      "kana": "うしなう",
+      "kanji": "失う",
+      "kf": "失[うしな]う",
+      "hv": "THẤT",
+      "vi": "đánh mất (cơ hội, người thân, việc làm)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "事故[じこ]で、仕事[しごと]を失[うしな]った人[ひと]もいる。",
+          "vi": "Có người mất việc vì tai nạn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "一度[いちど]失[うしな]った信用[しんよう]は、なかなか戻[もど]らない。",
+          "vi": "Lòng tin đã mất một lần thì khó lấy lại.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "信用[しんよう]を失[うしな]う",
+          "vi": "mất lòng tin"
+        },
+        {
+          "jp": "気[き]を失[うしな]う",
+          "vi": "ngất xỉu"
+        }
+      ],
+      "confuse": [
+        {
+          "w": "無[な]くす",
+          "vi": "làm mất (đồ)"
+        }
+      ]
     },
     {
-     "jp": "一度[いちど]失[うしな]った信用[しんよう]は、なかなか戻[もど]らない。",
-     "vi": "Lòng tin đã mất một lần thì khó lấy lại.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "信用[しんよう]を失[うしな]う",
-     "vi": "mất lòng tin"
+      "id": "v:奪う:うばう",
+      "kana": "うばう",
+      "kanji": "奪う",
+      "kf": "奪[うば]う",
+      "hv": "ĐOẠT",
+      "vi": "cướp, tước đoạt",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "泥棒[どろぼう]にかばんを奪[うば]われた。",
+          "vi": "Bị trộm cướp mất túi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "スマホは、睡眠[すいみん]の時間[じかん]を奪[うば]う。",
+          "vi": "Điện thoại cướp mất thời gian ngủ.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "命[いのち]を奪[うば]う",
+          "vi": "cướp đi sinh mạng"
+        }
+      ],
+      "fx": [
+        {
+          "f": "ukemi",
+          "jp": "駅[えき]の前[まえ]で財布[さいふ]を[[奪[うば]われ]]ました。",
+          "vi": "Tôi bị giật ví trước ga."
+        }
+      ]
     },
     {
-     "jp": "気[き]を失[うしな]う",
-     "vi": "ngất xỉu"
-    }
-   ],
-   "confuse": [
-    {
-     "w": "無[な]くす",
-     "vi": "làm mất (đồ)"
-    }
-   ]
-  },
-  {
-   "id": "v:奪う:うばう",
-   "kana": "うばう",
-   "kanji": "奪う",
-   "kf": "奪[うば]う",
-   "hv": "ĐOẠT",
-   "vi": "cướp, tước đoạt",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "泥棒[どろぼう]にかばんを奪[うば]われた。",
-     "vi": "Bị trộm cướp mất túi.",
-     "ctx": "doisong"
+      "id": "v:救う:すくう",
+      "kana": "すくう",
+      "kanji": "救う",
+      "kf": "救[すく]う",
+      "hv": "CỨU",
+      "vi": "cứu (khỏi nguy hiểm, khó khăn)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "消防士[しょうぼうし]が、火事[かじ]の中[なか]から子供[こども]を救[すく]った。",
+          "vi": "Lính cứu hỏa cứu đứa trẻ khỏi đám cháy.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "先輩[せんぱい]の一言[ひとこと]に救[すく]われました。",
+          "vi": "Một câu của đàn anh đã cứu tôi.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "命[いのち]を救[すく]う",
+          "vi": "cứu mạng"
+        }
+      ],
+      "syn": [
+        "v:助ける:たすける"
+      ]
     },
     {
-     "jp": "スマホは、睡眠[すいみん]の時間[じかん]を奪[うば]う。",
-     "vi": "Điện thoại cướp mất thời gian ngủ.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "命[いのち]を奪[うば]う",
-     "vi": "cướp đi sinh mạng"
-    }
-   ],
-   "fx": [
-    {
-     "f": "ukemi",
-     "jp": "駅[えき]の前[まえ]で財布[さいふ]を[[奪[うば]われ]]ました。",
-     "vi": "Tôi bị giật ví trước ga."
-    }
-   ]
-  },
-  {
-   "id": "v:救う:すくう",
-   "kana": "すくう",
-   "kanji": "救う",
-   "kf": "救[すく]う",
-   "hv": "CỨU",
-   "vi": "cứu (khỏi nguy hiểm, khó khăn)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "消防士[しょうぼうし]が、火事[かじ]の中[なか]から子供[こども]を救[すく]った。",
-     "vi": "Lính cứu hỏa cứu đứa trẻ khỏi đám cháy.",
-     "ctx": "doisong"
+      "id": "v:争う:あらそう",
+      "kana": "あらそう",
+      "kanji": "争う",
+      "kf": "争[あらそ]う",
+      "hv": "TRANH",
+      "vi": "tranh giành, tranh cãi",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "兄弟[きょうだい]が、おもちゃを争[あらそ]っている。",
+          "vi": "Anh em đang tranh nhau đồ chơi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "一[いち]位[い]を争[あらそ]う試合[しあい]だ。",
+          "vi": "Trận đấu tranh ngôi nhất.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "一[いち]位[い]を争[あらそ]う",
+          "vi": "tranh hạng nhất"
+        }
+      ],
+      "rel": [
+        {
+          "w": "争[あらそ]い",
+          "vi": "cuộc tranh chấp"
+        }
+      ]
     },
     {
-     "jp": "先輩[せんぱい]の一言[ひとこと]に救[すく]われました。",
-     "vi": "Một câu của đàn anh đã cứu tôi.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "命[いのち]を救[すく]う",
-     "vi": "cứu mạng"
-    }
-   ],
-   "syn": [
-    "v:助ける:たすける"
-   ]
-  },
-  {
-   "id": "v:争う:あらそう",
-   "kana": "あらそう",
-   "kanji": "争う",
-   "kf": "争[あらそ]う",
-   "hv": "TRANH",
-   "vi": "tranh giành, tranh cãi",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "兄弟[きょうだい]が、おもちゃを争[あらそ]っている。",
-     "vi": "Anh em đang tranh nhau đồ chơi.",
-     "ctx": "doisong"
+      "id": "v:戦う:たたかう",
+      "kana": "たたかう",
+      "kanji": "戦う",
+      "kf": "戦[たたか]う",
+      "hv": "CHIẾN",
+      "vi": "chiến đấu; thi đấu (với đối thủ)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "病気[びょうき]と戦[たたか]っている友達[ともだち]を応援[おうえん]したい。",
+          "vi": "Muốn động viên người bạn đang chiến đấu với bệnh tật.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "明日[あした]の試合[しあい]で、強[つよ]いチームと戦[たたか]う。",
+          "vi": "Trận mai đấu với đội mạnh.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "病気[びょうき]と戦[たたか]う",
+          "vi": "chống chọi với bệnh"
+        }
+      ],
+      "rel": [
+        {
+          "w": "戦[たたか]い",
+          "vi": "trận chiến"
+        }
+      ]
     },
     {
-     "jp": "一[いち]位[い]を争[あらそ]う試合[しあい]だ。",
-     "vi": "Trận đấu tranh ngôi nhất.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "一[いち]位[い]を争[あらそ]う",
-     "vi": "tranh hạng nhất"
-    }
-   ],
-   "rel": [
-    {
-     "w": "争[あらそ]い",
-     "vi": "cuộc tranh chấp"
-    }
-   ]
-  },
-  {
-   "id": "v:戦う:たたかう",
-   "kana": "たたかう",
-   "kanji": "戦う",
-   "kf": "戦[たたか]う",
-   "hv": "CHIẾN",
-   "vi": "chiến đấu; thi đấu (với đối thủ)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "病気[びょうき]と戦[たたか]っている友達[ともだち]を応援[おうえん]したい。",
-     "vi": "Muốn động viên người bạn đang chiến đấu với bệnh tật.",
-     "ctx": "doisong"
+      "id": "v:攻める:せめる",
+      "kana": "せめる",
+      "kanji": "攻める",
+      "kf": "攻[せ]める",
+      "hv": "CÔNG",
+      "vi": "tấn công",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "後半[こうはん]から、相手[あいて]のチームが攻[せ]めてきた。",
+          "vi": "Từ hiệp hai đội bạn bắt đầu tấn công.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "守[まも]るより、攻[せ]める方[ほう]が好[す]きだ。",
+          "vi": "Tôi thích tấn công hơn phòng thủ.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "相手[あいて]を攻[せ]める",
+          "vi": "tấn công đối phương"
+        }
+      ],
+      "ant": [
+        "v:守る:まもる"
+      ],
+      "confuse": [
+        "v:責める:せめる"
+      ]
     },
     {
-     "jp": "明日[あした]の試合[しあい]で、強[つよ]いチームと戦[たたか]う。",
-     "vi": "Trận mai đấu với đội mạnh.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "病気[びょうき]と戦[たたか]う",
-     "vi": "chống chọi với bệnh"
-    }
-   ],
-   "rel": [
-    {
-     "w": "戦[たたか]い",
-     "vi": "trận chiến"
-    }
-   ]
-  },
-  {
-   "id": "v:攻める:せめる",
-   "kana": "せめる",
-   "kanji": "攻める",
-   "kf": "攻[せ]める",
-   "hv": "CÔNG",
-   "vi": "tấn công",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "後半[こうはん]から、相手[あいて]のチームが攻[せ]めてきた。",
-     "vi": "Từ hiệp hai đội bạn bắt đầu tấn công.",
-     "ctx": "doisong"
+      "id": "v:殴る:なぐる",
+      "kana": "なぐる",
+      "kanji": "殴る",
+      "kf": "殴[なぐ]る",
+      "hv": "ẨU",
+      "vi": "đấm, đánh (người)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "人[ひと]を殴[なぐ]るのは、犯罪[はんざい]です。",
+          "vi": "Đánh người là phạm tội.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "けんかで、顔[かお]を殴[なぐ]られた。",
+          "vi": "Bị đấm vào mặt khi đánh nhau.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "顔[かお]を殴[なぐ]る",
+          "vi": "đấm vào mặt"
+        }
+      ],
+      "note": "Bị bạo lực ở nơi làm việc: báo tổ chức hỗ trợ hoặc 労働基準監督署[ろうどうきじゅんかんとくしょ]. Gọi cảnh sát: 110."
     },
     {
-     "jp": "守[まも]るより、攻[せ]める方[ほう]が好[す]きだ。",
-     "vi": "Tôi thích tấn công hơn phòng thủ.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "相手[あいて]を攻[せ]める",
-     "vi": "tấn công đối phương"
-    }
-   ],
-   "ant": [
-    "v:守る:まもる"
-   ],
-   "confuse": [
-    "v:責める:せめる"
-   ]
-  },
-  {
-   "id": "v:殴る:なぐる",
-   "kana": "なぐる",
-   "kanji": "殴る",
-   "kf": "殴[なぐ]る",
-   "hv": "ẨU",
-   "vi": "đấm, đánh (người)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "人[ひと]を殴[なぐ]るのは、犯罪[はんざい]です。",
-     "vi": "Đánh người là phạm tội.",
-     "ctx": "thutuc"
+      "id": "v:殺す:ころす",
+      "kana": "ころす",
+      "kanji": "殺す",
+      "kf": "殺[ころ]す",
+      "hv": "SÁT",
+      "vi": "giết; nén (hơi thở, tiếng)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この薬[くすり]は、ゴキブリを殺[ころ]します。",
+          "vi": "Thuốc này diệt gián.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "息[いき]を殺[ころ]して、隠[かく]れていた。",
+          "vi": "Nín thở trốn.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "虫[むし]を殺[ころ]す",
+          "vi": "giết côn trùng"
+        },
+        {
+          "jp": "息[いき]を殺[ころ]す",
+          "vi": "nín thở"
+        }
+      ],
+      "note": "Trong xưởng: 殺菌[さっきん] = diệt khuẩn."
     },
     {
-     "jp": "けんかで、顔[かお]を殴[なぐ]られた。",
-     "vi": "Bị đấm vào mặt khi đánh nhau.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "顔[かお]を殴[なぐ]る",
-     "vi": "đấm vào mặt"
-    }
-   ],
-   "note": "Bị bạo lực ở nơi làm việc: báo tổ chức hỗ trợ hoặc 労働基準監督署[ろうどうきじゅんかんとくしょ]. Gọi cảnh sát: 110."
-  },
-  {
-   "id": "v:殺す:ころす",
-   "kana": "ころす",
-   "kanji": "殺す",
-   "kf": "殺[ころ]す",
-   "hv": "SÁT",
-   "vi": "giết; nén (hơi thở, tiếng)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この薬[くすり]は、ゴキブリを殺[ころ]します。",
-     "vi": "Thuốc này diệt gián.",
-     "ctx": "doisong"
+      "id": "v:罰する:ばっする",
+      "kana": "ばっする",
+      "kanji": "罰する",
+      "kf": "罰[ばっ]する",
+      "hv": "PHẠT",
+      "vi": "xử phạt",
+      "pos": "v3",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ルールを破[やぶ]った人[ひと]は、罰[ばっ]せられます。",
+          "vi": "Ai vi phạm quy định sẽ bị phạt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "飲酒運転[いんしゅうんてん]は、法律[ほうりつ]で厳[きび]しく罰[ばっ]せられる。",
+          "vi": "Lái xe sau khi uống rượu bị luật phạt nặng.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "違反[いはん]を罰[ばっ]する",
+          "vi": "xử phạt vi phạm"
+        }
+      ],
+      "rel": [
+        {
+          "w": "罰金[ばっきん]",
+          "vi": "tiền phạt"
+        }
+      ]
     },
     {
-     "jp": "息[いき]を殺[ころ]して、隠[かく]れていた。",
-     "vi": "Nín thở trốn.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "虫[むし]を殺[ころ]す",
-     "vi": "giết côn trùng"
+      "id": "v:裁く:さばく",
+      "kana": "さばく",
+      "kanji": "裁く",
+      "kf": "裁[さば]く",
+      "hv": "TÀI",
+      "vi": "xét xử, phân xử",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "裁判所[さいばんしょ]が、事件[じけん]を裁[さば]く。",
+          "vi": "Tòa án xét xử vụ án.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "人[ひと]を裁[さば]くのは難[むずか]しい。",
+          "vi": "Phán xét người khác thật khó.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "事件[じけん]を裁[さば]く",
+          "vi": "xét xử vụ án"
+        }
+      ],
+      "note": "Cùng âm さばく: 捌[さば]く = làm (lọc) cá: 魚[さかな]をさばく — từ hay nghe ở xưởng."
     },
     {
-     "jp": "息[いき]を殺[ころ]す",
-     "vi": "nín thở"
-    }
-   ],
-   "note": "Trong xưởng: 殺菌[さっきん] = diệt khuẩn."
-  },
-  {
-   "id": "v:罰する:ばっする",
-   "kana": "ばっする",
-   "kanji": "罰する",
-   "kf": "罰[ばっ]する",
-   "hv": "PHẠT",
-   "vi": "xử phạt",
-   "pos": "v3",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ルールを破[やぶ]った人[ひと]は、罰[ばっ]せられます。",
-     "vi": "Ai vi phạm quy định sẽ bị phạt.",
-     "ctx": "xuong"
+      "id": "v:訴える:うったえる",
+      "kana": "うったえる",
+      "kanji": "訴える",
+      "kf": "訴[うった]える",
+      "hv": "TỐ",
+      "vi": "kiện; kêu, than (đau, khổ)",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]を訴[うった]えることも考[かんが]えた。",
+          "vi": "Tôi cũng đã nghĩ đến việc kiện công ty.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "患者[かんじゃ]が、胸[むね]の痛[いた]みを訴[うった]えている。",
+          "vi": "Bệnh nhân kêu đau ngực.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "痛[いた]みを訴[うった]える",
+          "vi": "kêu đau"
+        },
+        {
+          "jp": "裁判所[さいばんしょ]に訴[うった]える",
+          "vi": "kiện ra tòa"
+        }
+      ]
     },
     {
-     "jp": "飲酒運転[いんしゅうんてん]は、法律[ほうりつ]で厳[きび]しく罰[ばっ]せられる。",
-     "vi": "Lái xe sau khi uống rượu bị luật phạt nặng.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "違反[いはん]を罰[ばっ]する",
-     "vi": "xử phạt vi phạm"
-    }
-   ],
-   "rel": [
-    {
-     "w": "罰金[ばっきん]",
-     "vi": "tiền phạt"
-    }
-   ]
-  },
-  {
-   "id": "v:裁く:さばく",
-   "kana": "さばく",
-   "kanji": "裁く",
-   "kf": "裁[さば]く",
-   "hv": "TÀI",
-   "vi": "xét xử, phân xử",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "裁判所[さいばんしょ]が、事件[じけん]を裁[さば]く。",
-     "vi": "Tòa án xét xử vụ án.",
-     "ctx": "thutuc"
+      "id": "v:治める:おさめる",
+      "kana": "おさめる",
+      "kanji": "治める",
+      "kf": "治[おさ]める",
+      "hv": "TRỊ",
+      "vi": "cai trị, quản lý (đất nước); dẹp yên",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "昔[むかし]、この地方[ちほう]は大名[だいみょう]が治[おさ]めていた。",
+          "vi": "Ngày xưa vùng này do lãnh chúa cai quản.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "班長[はんちょう]が、二人[ふたり]のけんかを治[おさ]めた。",
+          "vi": "Tổ trưởng dàn xếp vụ cãi nhau của hai người.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "国[くに]を治[おさ]める",
+          "vi": "cai trị đất nước"
+        }
+      ],
+      "confuse": [
+        {
+          "w": "納[おさ]める",
+          "vi": "nộp (thuế)"
+        }
+      ]
     },
     {
-     "jp": "人[ひと]を裁[さば]くのは難[むずか]しい。",
-     "vi": "Phán xét người khác thật khó.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "事件[じけん]を裁[さば]く",
-     "vi": "xét xử vụ án"
-    }
-   ],
-   "note": "Cùng âm さばく: 捌[さば]く = làm (lọc) cá: 魚[さかな]をさばく — từ hay nghe ở xưởng."
-  },
-  {
-   "id": "v:訴える:うったえる",
-   "kana": "うったえる",
-   "kanji": "訴える",
-   "kf": "訴[うった]える",
-   "hv": "TỐ",
-   "vi": "kiện; kêu, than (đau, khổ)",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会社[かいしゃ]を訴[うった]えることも考[かんが]えた。",
-     "vi": "Tôi cũng đã nghĩ đến việc kiện công ty.",
-     "ctx": "thutuc"
+      "id": "v:築く:きずく",
+      "kana": "きずく",
+      "kanji": "築く",
+      "kf": "築[きず]く",
+      "hv": "TRÚC",
+      "vi": "xây dựng (quan hệ, sự nghiệp, thành)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "同僚[どうりょう]と、いい関係[かんけい]を築[きず]きたい。",
+          "vi": "Muốn xây dựng quan hệ tốt với đồng nghiệp.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本[にほん]で、新[あたら]しい生活[せいかつ]を築[きず]いています。",
+          "vi": "Tôi đang gây dựng cuộc sống mới ở Nhật.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "関係[かんけい]を築[きず]く",
+          "vi": "xây dựng quan hệ"
+        }
+      ]
     },
     {
-     "jp": "患者[かんじゃ]が、胸[むね]の痛[いた]みを訴[うった]えている。",
-     "vi": "Bệnh nhân kêu đau ngực.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "痛[いた]みを訴[うった]える",
-     "vi": "kêu đau"
+      "id": "v:優れる:すぐれる",
+      "kana": "すぐれる",
+      "kanji": "優れる",
+      "kf": "優[すぐ]れる",
+      "hv": "ƯU",
+      "vi": "xuất sắc, vượt trội (thường dạng 優[すぐ]れた)",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この機械[きかい]は、性能[せいのう]が優[すぐ]れている。",
+          "vi": "Cái máy này tính năng vượt trội.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "彼[かれ]は、優[すぐ]れた技術[ぎじゅつ]を持[も]っている。",
+          "vi": "Anh ấy có tay nghề xuất sắc.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "技術[ぎじゅつ]が優[すぐ]れる",
+          "vi": "kỹ thuật vượt trội"
+        }
+      ],
+      "ant": [
+        "v:劣る:おとる"
+      ]
     },
     {
-     "jp": "裁判所[さいばんしょ]に訴[うった]える",
-     "vi": "kiện ra tòa"
-    }
-   ]
-  },
-  {
-   "id": "v:治める:おさめる",
-   "kana": "おさめる",
-   "kanji": "治める",
-   "kf": "治[おさ]める",
-   "hv": "TRỊ",
-   "vi": "cai trị, quản lý (đất nước); dẹp yên",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "昔[むかし]、この地方[ちほう]は大名[だいみょう]が治[おさ]めていた。",
-     "vi": "Ngày xưa vùng này do lãnh chúa cai quản.",
-     "ctx": "doisong"
+      "id": "v:劣る:おとる",
+      "kana": "おとる",
+      "kanji": "劣る",
+      "kf": "劣[おと]る",
+      "hv": "LIỆT",
+      "vi": "kém hơn, thua kém",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "値段[ねだん]は安[やす]いが、品質[ひんしつ]は少[すこ]し劣[おと]る。",
+          "vi": "Giá rẻ nhưng chất lượng hơi kém.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "経験[けいけん]では、先輩[せんぱい]に劣[おと]らない。",
+          "vi": "Về kinh nghiệm tôi không thua đàn anh.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "品質[ひんしつ]が劣[おと]る",
+          "vi": "chất lượng kém hơn"
+        }
+      ],
+      "ant": [
+        "v:優れる:すぐれる"
+      ]
     },
     {
-     "jp": "班長[はんちょう]が、二人[ふたり]のけんかを治[おさ]めた。",
-     "vi": "Tổ trưởng dàn xếp vụ cãi nhau của hai người.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "国[くに]を治[おさ]める",
-     "vi": "cai trị đất nước"
-    }
-   ],
-   "confuse": [
-    {
-     "w": "納[おさ]める",
-     "vi": "nộp (thuế)"
-    }
-   ]
-  },
-  {
-   "id": "v:築く:きずく",
-   "kana": "きずく",
-   "kanji": "築く",
-   "kf": "築[きず]く",
-   "hv": "TRÚC",
-   "vi": "xây dựng (quan hệ, sự nghiệp, thành)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "同僚[どうりょう]と、いい関係[かんけい]を築[きず]きたい。",
-     "vi": "Muốn xây dựng quan hệ tốt với đồng nghiệp.",
-     "ctx": "xuong"
+      "id": "v:適する:てきする",
+      "kana": "てきする",
+      "kanji": "適する",
+      "kf": "適[てき]する",
+      "hv": "THÍCH",
+      "vi": "thích hợp (với)",
+      "pos": "v3",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この魚[さかな]は、刺身[さしみ]に適[てき]している。",
+          "vi": "Loại cá này hợp làm sashimi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "子供[こども]に適[てき]した本[ほん]を選[えら]んでください。",
+          "vi": "Hãy chọn sách phù hợp với trẻ em.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "刺身[さしみ]に適[てき]する",
+          "vi": "hợp làm sashimi"
+        }
+      ],
+      "syn": [
+        "v:向く:むく"
+      ]
     },
     {
-     "jp": "日本[にほん]で、新[あたら]しい生活[せいかつ]を築[きず]いています。",
-     "vi": "Tôi đang gây dựng cuộc sống mới ở Nhật.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "関係[かんけい]を築[きず]く",
-     "vi": "xây dựng quan hệ"
-    }
-   ]
-  },
-  {
-   "id": "v:優れる:すぐれる",
-   "kana": "すぐれる",
-   "kanji": "優れる",
-   "kf": "優[すぐ]れる",
-   "hv": "ƯU",
-   "vi": "xuất sắc, vượt trội (thường dạng 優[すぐ]れた)",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この機械[きかい]は、性能[せいのう]が優[すぐ]れている。",
-     "vi": "Cái máy này tính năng vượt trội.",
-     "ctx": "xuong"
+      "id": "v:経る:へる",
+      "kana": "へる",
+      "kanji": "経る",
+      "kf": "経[へ]る",
+      "hv": "KINH",
+      "vi": "trải qua (thời gian, giai đoạn) (văn viết)",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "三[さん]年[ねん]の研修[けんしゅう]を経[へ]て、特定[とくてい]技能[ぎのう]になった。",
+          "vi": "Trải qua 3 năm thực tập, tôi chuyển sang kỹ năng đặc định.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "長[なが]い時間[じかん]を経[へ]て、町[まち]は大[おお]きく変[か]わった。",
+          "vi": "Qua thời gian dài, thị trấn đã thay đổi nhiều.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "手続[てつづ]きを経[へ]る",
+          "vi": "qua các thủ tục"
+        }
+      ],
+      "note": "Hay gặp dạng 〜を経[へ]て = sau khi trải qua …."
     },
     {
-     "jp": "彼[かれ]は、優[すぐ]れた技術[ぎじゅつ]を持[も]っている。",
-     "vi": "Anh ấy có tay nghề xuất sắc.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "技術[ぎじゅつ]が優[すぐ]れる",
-     "vi": "kỹ thuật vượt trội"
-    }
-   ],
-   "ant": [
-    "v:劣る:おとる"
-   ]
-  },
-  {
-   "id": "v:劣る:おとる",
-   "kana": "おとる",
-   "kanji": "劣る",
-   "kf": "劣[おと]る",
-   "hv": "LIỆT",
-   "vi": "kém hơn, thua kém",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "値段[ねだん]は安[やす]いが、品質[ひんしつ]は少[すこ]し劣[おと]る。",
-     "vi": "Giá rẻ nhưng chất lượng hơi kém.",
-     "ctx": "xuong"
+      "id": "v:問う:とう",
+      "kana": "とう",
+      "kanji": "問う",
+      "kf": "問[と]う",
+      "hv": "VẤN",
+      "vi": "chất vấn, truy cứu; không kể đến (問[と]わない)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "責任[せきにん]を問[と]われて、社長[しゃちょう]が辞[や]めた。",
+          "vi": "Bị truy trách nhiệm, giám đốc từ chức.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "経験[けいけん]は問[と]いません。",
+          "vi": "Không yêu cầu kinh nghiệm.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "責任[せきにん]を問[と]う",
+          "vi": "truy cứu trách nhiệm"
+        }
+      ],
+      "note": "Trên tin tuyển dụng: 経験[けいけん]不問[ふもん] / 年齢[ねんれい]不問[ふもん] = không đòi kinh nghiệm / không giới hạn tuổi."
     },
     {
-     "jp": "経験[けいけん]では、先輩[せんぱい]に劣[おと]らない。",
-     "vi": "Về kinh nghiệm tôi không thua đàn anh.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "品質[ひんしつ]が劣[おと]る",
-     "vi": "chất lượng kém hơn"
-    }
-   ],
-   "ant": [
-    "v:優れる:すぐれる"
-   ]
-  },
-  {
-   "id": "v:適する:てきする",
-   "kana": "てきする",
-   "kanji": "適する",
-   "kf": "適[てき]する",
-   "hv": "THÍCH",
-   "vi": "thích hợp (với)",
-   "pos": "v3",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この魚[さかな]は、刺身[さしみ]に適[てき]している。",
-     "vi": "Loại cá này hợp làm sashimi.",
-     "ctx": "xuong"
+      "id": "v:論じる:ろんじる",
+      "kana": "ろんじる",
+      "kanji": "論じる",
+      "kf": "論[ろん]じる",
+      "hv": "LUẬN",
+      "vi": "bàn luận, nghị luận",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会議[かいぎ]で、安全[あんぜん]対策[たいさく]について論[ろん]じた。",
+          "vi": "Cuộc họp bàn về biện pháp an toàn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "この本[ほん]は、日本[にほん]の経済[けいざい]を論[ろん]じている。",
+          "vi": "Cuốn sách bàn về kinh tế Nhật.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "問題[もんだい]を論[ろん]じる",
+          "vi": "bàn luận vấn đề"
+        }
+      ]
     },
     {
-     "jp": "子供[こども]に適[てき]した本[ほん]を選[えら]んでください。",
-     "vi": "Hãy chọn sách phù hợp với trẻ em.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "刺身[さしみ]に適[てき]する",
-     "vi": "hợp làm sashimi"
-    }
-   ],
-   "syn": [
-    "v:向く:むく"
-   ]
-  },
-  {
-   "id": "v:経る:へる",
-   "kana": "へる",
-   "kanji": "経る",
-   "kf": "経[へ]る",
-   "hv": "KINH",
-   "vi": "trải qua (thời gian, giai đoạn) (văn viết)",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "三[さん]年[ねん]の研修[けんしゅう]を経[へ]て、特定[とくてい]技能[ぎのう]になった。",
-     "vi": "Trải qua 3 năm thực tập, tôi chuyển sang kỹ năng đặc định.",
-     "ctx": "thutuc"
+      "id": "v:語る:かたる",
+      "kana": "かたる",
+      "kanji": "語る",
+      "kf": "語[かた]る",
+      "hv": "NGỮ",
+      "vi": "kể, kể lại (chuyện)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "祖父[そふ]は、戦争[せんそう]の話[はなし]を語[かた]ってくれた。",
+          "vi": "Ông kể cho tôi nghe chuyện chiến tranh.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "社長[しゃちょう]が、会社[かいしゃ]の歴史[れきし]を語[かた]った。",
+          "vi": "Giám đốc kể về lịch sử công ty.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "思[おも]い出[で]を語[かた]る",
+          "vi": "kể kỷ niệm"
+        }
+      ],
+      "rel": [
+        {
+          "w": "物語[ものがたり]",
+          "vi": "câu chuyện"
+        }
+      ]
     },
     {
-     "jp": "長[なが]い時間[じかん]を経[へ]て、町[まち]は大[おお]きく変[か]わった。",
-     "vi": "Qua thời gian dài, thị trấn đã thay đổi nhiều.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "手続[てつづ]きを経[へ]る",
-     "vi": "qua các thủ tục"
-    }
-   ],
-   "note": "Hay gặp dạng 〜を経[へ]て = sau khi trải qua …."
-  },
-  {
-   "id": "v:問う:とう",
-   "kana": "とう",
-   "kanji": "問う",
-   "kf": "問[と]う",
-   "hv": "VẤN",
-   "vi": "chất vấn, truy cứu; không kể đến (問[と]わない)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "責任[せきにん]を問[と]われて、社長[しゃちょう]が辞[や]めた。",
-     "vi": "Bị truy trách nhiệm, giám đốc từ chức.",
-     "ctx": "xuong"
+      "id": "v:描く:えがく",
+      "kana": "えがく",
+      "kanji": "描く",
+      "kf": "描[えが]く",
+      "hv": "MIÊU",
+      "vi": "vẽ, miêu tả (tranh, cảnh, tương lai)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "子供[こども]が、家族[かぞく]の絵[え]を描[えが]いた。",
+          "vi": "Đứa trẻ vẽ tranh gia đình.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "十[じゅう]年[ねん]後[ご]の自分[じぶん]を、心[こころ]に描[えが]いてみよう。",
+          "vi": "Thử hình dung bản thân 10 năm sau.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "絵[え]を描[えが]く",
+          "vi": "vẽ tranh"
+        },
+        {
+          "jp": "夢[ゆめ]を描[えが]く",
+          "vi": "vẽ ra ước mơ"
+        }
+      ],
+      "note": "描[えが]く cũng đọc là かく trong hội thoại: 絵[え]をかく."
     },
     {
-     "jp": "経験[けいけん]は問[と]いません。",
-     "vi": "Không yêu cầu kinh nghiệm.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "責任[せきにん]を問[と]う",
-     "vi": "truy cứu trách nhiệm"
-    }
-   ],
-   "note": "Trên tin tuyển dụng: 経験[けいけん]不問[ふもん] / 年齢[ねんれい]不問[ふもん] = không đòi kinh nghiệm / không giới hạn tuổi."
-  },
-  {
-   "id": "v:論じる:ろんじる",
-   "kana": "ろんじる",
-   "kanji": "論じる",
-   "kf": "論[ろん]じる",
-   "hv": "LUẬN",
-   "vi": "bàn luận, nghị luận",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会議[かいぎ]で、安全[あんぜん]対策[たいさく]について論[ろん]じた。",
-     "vi": "Cuộc họp bàn về biện pháp an toàn.",
-     "ctx": "xuong"
+      "id": "v:撃つ:うつ",
+      "kana": "うつ",
+      "kanji": "撃つ",
+      "kf": "撃[う]つ",
+      "hv": "KÍCH",
+      "vi": "bắn (súng)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "警察官[けいさつかん]が、空[そら]に向[む]けて銃[じゅう]を撃[う]った。",
+          "vi": "Cảnh sát bắn chỉ thiên.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "鉄砲[てっぽう]で鳥[とり]を撃[う]ってはいけない場所[ばしょ]です。",
+          "vi": "Đây là nơi cấm bắn chim.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "銃[じゅう]を撃[う]つ",
+          "vi": "bắn súng"
+        }
+      ],
+      "confuse": [
+        "v:打つ:うつ"
+      ]
     },
     {
-     "jp": "この本[ほん]は、日本[にほん]の経済[けいざい]を論[ろん]じている。",
-     "vi": "Cuốn sách bàn về kinh tế Nhật.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "問題[もんだい]を論[ろん]じる",
-     "vi": "bàn luận vấn đề"
-    }
-   ]
-  },
-  {
-   "id": "v:語る:かたる",
-   "kana": "かたる",
-   "kanji": "語る",
-   "kf": "語[かた]る",
-   "hv": "NGỮ",
-   "vi": "kể, kể lại (chuyện)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "祖父[そふ]は、戦争[せんそう]の話[はなし]を語[かた]ってくれた。",
-     "vi": "Ông kể cho tôi nghe chuyện chiến tranh.",
-     "ctx": "doisong"
+      "id": "v:効く:きく",
+      "kana": "きく",
+      "kanji": "効く",
+      "kf": "効[き]く",
+      "hv": "HIỆU",
+      "vi": "có tác dụng, công hiệu (thuốc, biện pháp)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この薬[くすり]は、頭痛[ずつう]によく効[き]く。",
+          "vi": "Thuốc này trị đau đầu rất công hiệu.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "エアコンが効[き]いていて、涼[すず]しい。",
+          "vi": "Điều hòa chạy tốt nên mát.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "薬[くすり]が効[き]く",
+          "vi": "thuốc có tác dụng"
+        }
+      ],
+      "confuse": [
+        "v:聞く:きく"
+      ],
+      "rel": [
+        {
+          "w": "効果[こうか]",
+          "vi": "hiệu quả"
+        }
+      ]
     },
     {
-     "jp": "社長[しゃちょう]が、会社[かいしゃ]の歴史[れきし]を語[かた]った。",
-     "vi": "Giám đốc kể về lịch sử công ty.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "思[おも]い出[で]を語[かた]る",
-     "vi": "kể kỷ niệm"
-    }
-   ],
-   "rel": [
-    {
-     "w": "物語[ものがたり]",
-     "vi": "câu chuyện"
-    }
-   ]
-  },
-  {
-   "id": "v:描く:えがく",
-   "kana": "えがく",
-   "kanji": "描く",
-   "kf": "描[えが]く",
-   "hv": "MIÊU",
-   "vi": "vẽ, miêu tả (tranh, cảnh, tương lai)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "子供[こども]が、家族[かぞく]の絵[え]を描[えが]いた。",
-     "vi": "Đứa trẻ vẽ tranh gia đình.",
-     "ctx": "doisong"
+      "id": "v:売れる:うれる",
+      "kana": "うれる",
+      "kanji": "売れる",
+      "kf": "売[う]れる",
+      "hv": "MẠI",
+      "vi": "bán chạy, bán được",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "夏[なつ]は、冷[つめ]たいお茶[ちゃ]がよく売[う]れる。",
+          "vi": "Mùa hè trà lạnh bán chạy.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "このマグロは高[たか]く売[う]れる。",
+          "vi": "Con cá ngừ này bán được giá cao.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "よく売[う]れる",
+          "vi": "bán chạy"
+        }
+      ],
+      "rel": [
+        {
+          "w": "売[う]れ残[のこ]り",
+          "vi": "hàng tồn"
+        }
+      ],
+      "pair": "v:売る:うる"
     },
     {
-     "jp": "十[じゅう]年[ねん]後[ご]の自分[じぶん]を、心[こころ]に描[えが]いてみよう。",
-     "vi": "Thử hình dung bản thân 10 năm sau.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "絵[え]を描[えが]く",
-     "vi": "vẽ tranh"
+      "id": "v:流行る:はやる",
+      "kana": "はやる",
+      "kanji": "流行る",
+      "kf": "流行[はや]る",
+      "hv": "LƯU HÀNG",
+      "vi": "thịnh hành, đang mốt; (cúm, cảm) đang thành dịch",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今[いま]、この歌[うた]がとても流行[はや]っている。",
+          "vi": "Bài hát này đang rất thịnh hành.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "インフルエンザが流行[はや]っているので、手洗[てあら]いをしてください。",
+          "vi": "Cúm đang lan rộng, hãy rửa tay.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "風邪[かぜ]が流行[はや]る",
+          "vi": "cảm cúm lan rộng"
+        }
+      ],
+      "rel": [
+        {
+          "w": "流行[りゅうこう]",
+          "vi": "sự thịnh hành"
+        }
+      ]
     },
     {
-     "jp": "夢[ゆめ]を描[えが]く",
-     "vi": "vẽ ra ước mơ"
-    }
-   ],
-   "note": "描[えが]く cũng đọc là かく trong hội thoại: 絵[え]をかく."
-  },
-  {
-   "id": "v:撃つ:うつ",
-   "kana": "うつ",
-   "kanji": "撃つ",
-   "kf": "撃[う]つ",
-   "hv": "KÍCH",
-   "vi": "bắn (súng)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "警察官[けいさつかん]が、空[そら]に向[む]けて銃[じゅう]を撃[う]った。",
-     "vi": "Cảnh sát bắn chỉ thiên.",
-     "ctx": "doisong"
+      "id": "v:増す:ます",
+      "kana": "ます",
+      "kanji": "増す",
+      "kf": "増[ま]す",
+      "hv": "TĂNG",
+      "vi": "tăng thêm (văn viết)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "雨[あめ]で、川[かわ]の水[みず]が増[ま]している。",
+          "vi": "Vì mưa, nước sông dâng thêm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "年末[ねんまつ]は、注文[ちゅうもん]が一段[いちだん]と増[ま]す。",
+          "vi": "Cuối năm đơn hàng càng tăng thêm.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "量[りょう]を増[ま]す",
+          "vi": "tăng lượng"
+        }
+      ],
+      "syn": [
+        "v:増える:ふえる",
+        "v:増やす:ふやす"
+      ]
     },
     {
-     "jp": "鉄砲[てっぽう]で鳥[とり]を撃[う]ってはいけない場所[ばしょ]です。",
-     "vi": "Đây là nơi cấm bắn chim.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "銃[じゅう]を撃[う]つ",
-     "vi": "bắn súng"
-    }
-   ],
-   "confuse": [
-    "v:打つ:うつ"
-   ]
-  },
-  {
-   "id": "v:効く:きく",
-   "kana": "きく",
-   "kanji": "効く",
-   "kf": "効[き]く",
-   "hv": "HIỆU",
-   "vi": "có tác dụng, công hiệu (thuốc, biện pháp)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この薬[くすり]は、頭痛[ずつう]によく効[き]く。",
-     "vi": "Thuốc này trị đau đầu rất công hiệu.",
-     "ctx": "doisong"
+      "id": "v:満ちる:みちる",
+      "kana": "みちる",
+      "kanji": "満ちる",
+      "kf": "満[み]ちる",
+      "hv": "MÃN",
+      "vi": "tràn đầy; (thủy triều) lên",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会場[かいじょう]は、笑[わら]い声[ごえ]に満[み]ちていた。",
+          "vi": "Hội trường tràn ngập tiếng cười.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "潮[しお]が満[み]ちてくる前[まえ]に、帰[かえ]ろう。",
+          "vi": "Về trước khi triều lên nào.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "自信[じしん]に満[み]ちる",
+          "vi": "tràn đầy tự tin"
+        }
+      ]
     },
     {
-     "jp": "エアコンが効[き]いていて、涼[すず]しい。",
-     "vi": "Điều hòa chạy tốt nên mát.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "薬[くすり]が効[き]く",
-     "vi": "thuốc có tác dụng"
-    }
-   ],
-   "confuse": [
-    "v:聞く:きく"
-   ],
-   "rel": [
-    {
-     "w": "効果[こうか]",
-     "vi": "hiệu quả"
-    }
-   ]
-  },
-  {
-   "id": "v:売れる:うれる",
-   "kana": "うれる",
-   "kanji": "売れる",
-   "kf": "売[う]れる",
-   "hv": "MẠI",
-   "vi": "bán chạy, bán được",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "夏[なつ]は、冷[つめ]たいお茶[ちゃ]がよく売[う]れる。",
-     "vi": "Mùa hè trà lạnh bán chạy.",
-     "ctx": "doisong"
+      "id": "v:欠ける:かける",
+      "kana": "かける",
+      "kanji": "欠ける",
+      "kf": "欠[か]ける",
+      "hv": "KHIẾM",
+      "vi": "bị thiếu (một phần); bị mẻ, sứt",
+      "pos": "v1",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "皿[さら]の端[はし]が欠[か]けているので、使[つか]わないでください。",
+          "vi": "Mép đĩa bị mẻ, đừng dùng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "メンバーが一人[ひとり]欠[か]けている。",
+          "vi": "Thiếu một thành viên.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "皿[さら]が欠[か]ける",
+          "vi": "đĩa bị mẻ"
+        }
+      ],
+      "pair": "v:欠く:かく",
+      "note": "Đồ bị mẻ có thể làm mảnh vỡ rơi vào thực phẩm — phải báo ngay."
     },
     {
-     "jp": "このマグロは高[たか]く売[う]れる。",
-     "vi": "Con cá ngừ này bán được giá cao.",
-     "ctx": "xuong"
+      "id": "v:欠く:かく",
+      "kana": "かく",
+      "kanji": "欠く",
+      "kf": "欠[か]く",
+      "hv": "KHIẾM",
+      "vi": "thiếu, khuyết (thứ cần thiết) (văn viết)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Sự việc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "安全[あんぜん]への注意[ちゅうい]を欠[か]くと、事故[じこ]につながる。",
+          "vi": "Thiếu chú ý đến an toàn sẽ dẫn tới tai nạn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "冷静[れいせい]さを欠[か]いて、大[おお]きな声[こえ]を出[だ]してしまった。",
+          "vi": "Mất bình tĩnh nên tôi lỡ to tiếng.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "注意[ちゅうい]を欠[か]く",
+          "vi": "thiếu chú ý"
+        }
+      ],
+      "pair": "v:欠ける:かける",
+      "note": "Hay gặp: 欠[か]かせない (từ 欠[か]かす) = không thể thiếu: 魚[さかな]は日本[にほん]の食卓[しょくたく]に欠[か]かせない."
     }
-   ],
-   "coll": [
-    {
-     "jp": "よく売[う]れる",
-     "vi": "bán chạy"
-    }
-   ],
-   "rel": [
-    {
-     "w": "売[う]れ残[のこ]り",
-     "vi": "hàng tồn"
-    }
-   ],
-   "pair": "v:売る:うる"
-  },
-  {
-   "id": "v:流行る:はやる",
-   "kana": "はやる",
-   "kanji": "流行る",
-   "kf": "流行[はや]る",
-   "hv": "LƯU HÀNG",
-   "vi": "thịnh hành, đang mốt; (cúm, cảm) đang thành dịch",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今[いま]、この歌[うた]がとても流行[はや]っている。",
-     "vi": "Bài hát này đang rất thịnh hành.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "インフルエンザが流行[はや]っているので、手洗[てあら]いをしてください。",
-     "vi": "Cúm đang lan rộng, hãy rửa tay.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "風邪[かぜ]が流行[はや]る",
-     "vi": "cảm cúm lan rộng"
-    }
-   ],
-   "rel": [
-    {
-     "w": "流行[りゅうこう]",
-     "vi": "sự thịnh hành"
-    }
-   ]
-  },
-  {
-   "id": "v:増す:ます",
-   "kana": "ます",
-   "kanji": "増す",
-   "kf": "増[ま]す",
-   "hv": "TĂNG",
-   "vi": "tăng thêm (văn viết)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "雨[あめ]で、川[かわ]の水[みず]が増[ま]している。",
-     "vi": "Vì mưa, nước sông dâng thêm.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "年末[ねんまつ]は、注文[ちゅうもん]が一段[いちだん]と増[ま]す。",
-     "vi": "Cuối năm đơn hàng càng tăng thêm.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "量[りょう]を増[ま]す",
-     "vi": "tăng lượng"
-    }
-   ],
-   "syn": [
-    "v:増える:ふえる",
-    "v:増やす:ふやす"
-   ]
-  },
-  {
-   "id": "v:満ちる:みちる",
-   "kana": "みちる",
-   "kanji": "満ちる",
-   "kf": "満[み]ちる",
-   "hv": "MÃN",
-   "vi": "tràn đầy; (thủy triều) lên",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会場[かいじょう]は、笑[わら]い声[ごえ]に満[み]ちていた。",
-     "vi": "Hội trường tràn ngập tiếng cười.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "潮[しお]が満[み]ちてくる前[まえ]に、帰[かえ]ろう。",
-     "vi": "Về trước khi triều lên nào.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "自信[じしん]に満[み]ちる",
-     "vi": "tràn đầy tự tin"
-    }
-   ]
-  },
-  {
-   "id": "v:欠ける:かける",
-   "kana": "かける",
-   "kanji": "欠ける",
-   "kf": "欠[か]ける",
-   "hv": "KHIẾM",
-   "vi": "bị thiếu (một phần); bị mẻ, sứt",
-   "pos": "v1",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "皿[さら]の端[はし]が欠[か]けているので、使[つか]わないでください。",
-     "vi": "Mép đĩa bị mẻ, đừng dùng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "メンバーが一人[ひとり]欠[か]けている。",
-     "vi": "Thiếu một thành viên.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "皿[さら]が欠[か]ける",
-     "vi": "đĩa bị mẻ"
-    }
-   ],
-   "pair": "v:欠く:かく",
-   "note": "Đồ bị mẻ có thể làm mảnh vỡ rơi vào thực phẩm — phải báo ngay."
-  },
-  {
-   "id": "v:欠く:かく",
-   "kana": "かく",
-   "kanji": "欠く",
-   "kf": "欠[か]く",
-   "hv": "KHIẾM",
-   "vi": "khuyết, không có (thứ cần thiết) (văn viết)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Sự việc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "安全[あんぜん]への注意[ちゅうい]を欠[か]くと、事故[じこ]につながる。",
-     "vi": "Thiếu chú ý đến an toàn sẽ dẫn tới tai nạn.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "冷静[れいせい]さを欠[か]いて、大[おお]きな声[こえ]を出[だ]してしまった。",
-     "vi": "Mất bình tĩnh nên tôi lỡ to tiếng.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "注意[ちゅうい]を欠[か]く",
-     "vi": "thiếu chú ý"
-    }
-   ],
-   "pair": "v:欠ける:かける",
-   "note": "Hay gặp: 欠[か]かせない (từ 欠[か]かす) = không thể thiếu: 魚[さかな]は日本[にほん]の食卓[しょくたく]に欠[か]かせない."
-  }
- ]
+  ]
 }

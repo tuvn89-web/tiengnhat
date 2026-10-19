@@ -1,985 +1,985 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n3-18",
-  "title": "JLPT N3 18 – Trách nhiệm & quy định",
-  "type": "vocab",
-  "level": "N3",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 2,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:責任:せきにん",
-   "kana": "せきにん",
-   "kanji": "責任",
-   "hv": "TRÁCH NHIỆM",
-   "vi": "trách nhiệm",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "温度[おんど]の管理[かんり]は、私[わたし]の責任[せきにん]です。",
-     "vi": "Quản lý nhiệt độ là trách nhiệm của tôi.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "自分[じぶん]の行動[こうどう]に、責任[せきにん]を持[も]ちましょう。",
-     "vi": "Hãy chịu trách nhiệm về hành động của mình.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "責任[せきにん]を持[も]つ",
-     "vi": "chịu trách nhiệm"
-    }
-   ],
-   "note": "責任者[せきにんしゃ] = người phụ trách, người chịu trách nhiệm."
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n3-18",
+    "title": "JLPT N3 18 – Trách nhiệm & quy định",
+    "type": "vocab",
+    "level": "N3",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 3,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:義務:ぎむ",
-   "kana": "ぎむ",
-   "kanji": "義務",
-   "hv": "NGHĨA VỤ",
-   "vi": "nghĩa vụ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "税金[ぜいきん]を払[はら]うのは、国民[こくみん]の義務[ぎむ]です。",
-     "vi": "Đóng thuế là nghĩa vụ của công dân.",
-     "ctx": "thutuc"
+      "id": "v:責任:せきにん",
+      "kana": "せきにん",
+      "kanji": "責任",
+      "hv": "TRÁCH NHIỆM",
+      "vi": "trách nhiệm",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "温度[おんど]の管理[かんり]は、私[わたし]の責任[せきにん]です。",
+          "vi": "Quản lý nhiệt độ là trách nhiệm của tôi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "自分[じぶん]の行動[こうどう]に、責任[せきにん]を持[も]ちましょう。",
+          "vi": "Hãy chịu trách nhiệm về hành động của mình.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "責任[せきにん]を持[も]つ",
+          "vi": "chịu trách nhiệm"
+        }
+      ],
+      "note": "責任者[せきにんしゃ] = người phụ trách, người chịu trách nhiệm."
     },
     {
-     "jp": "外国人[がいこくじん]も、住所[じゅうしょ]の届[とど]け出[で]をする義務[ぎむ]があります。",
-     "vi": "Người nước ngoài cũng có nghĩa vụ khai báo địa chỉ.",
-     "ctx": "thutuc"
-    }
-   ],
-   "ant": [
-    "v:権利:けんり"
-   ]
-  },
-  {
-   "id": "v:権利:けんり",
-   "kana": "けんり",
-   "kanji": "権利",
-   "hv": "QUYỀN LỢI",
-   "vi": "quyền lợi",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "有給休暇[ゆうきゅうきゅうか]は、働[はたら]く人[ひと]の権利[けんり]です。",
-     "vi": "Nghỉ phép có lương là quyền của người lao động.",
-     "ctx": "xuong"
+      "id": "v:義務:ぎむ",
+      "kana": "ぎむ",
+      "kanji": "義務",
+      "hv": "NGHĨA VỤ",
+      "vi": "nghĩa vụ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "税金[ぜいきん]を払[はら]うのは、国民[こくみん]の義務[ぎむ]です。",
+          "vi": "Đóng thuế là nghĩa vụ của công dân.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "外国人[がいこくじん]も、住所[じゅうしょ]の届[とど]け出[で]をする義務[ぎむ]があります。",
+          "vi": "Người nước ngoài cũng có nghĩa vụ khai báo địa chỉ.",
+          "ctx": "thutuc"
+        }
+      ],
+      "ant": [
+        "v:権利:けんり"
+      ]
     },
     {
-     "jp": "誰[だれ]にでも、意見[いけん]を言[い]う権利[けんり]があります。",
-     "vi": "Ai cũng có quyền nói ý kiến.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:義務:ぎむ"
-   ]
-  },
-  {
-   "id": "v:立場:たちば",
-   "kana": "たちば",
-   "kanji": "立場",
-   "hv": "LẬP TRƯỜNG",
-   "vi": "lập trường, cương vị",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "相手[あいて]の立場[たちば]になって、考[かんが]えてみてください。",
-     "vi": "Hãy đặt mình vào vị trí người kia mà nghĩ.",
-     "ctx": "doisong"
+      "id": "v:権利:けんり",
+      "kana": "けんり",
+      "kanji": "権利",
+      "hv": "QUYỀN LỢI",
+      "vi": "quyền lợi",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "有給休暇[ゆうきゅうきゅうか]は、働[はたら]く人[ひと]の権利[けんり]です。",
+          "vi": "Nghỉ phép có lương là quyền của người lao động.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "誰[だれ]にでも、意見[いけん]を言[い]う権利[けんり]があります。",
+          "vi": "Ai cũng có quyền nói ý kiến.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:義務:ぎむ"
+      ]
     },
     {
-     "jp": "班[はん]長[ちょう]の立場[たちば]では、そう言[い]うしかない。",
-     "vi": "Ở vị trí tổ trưởng thì chỉ có thể nói vậy.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:役:やく",
-   "kana": "やく",
-   "kanji": "役",
-   "hv": "DỊCH",
-   "vi": "vai trò, chức; vai (diễn)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "新人[しんじん]に教[おし]える役[やく]を、任[まか]されました。",
-     "vi": "Tôi được giao vai trò dạy người mới.",
-     "ctx": "xuong"
+      "id": "v:立場:たちば",
+      "kana": "たちば",
+      "kanji": "立場",
+      "hv": "LẬP TRƯỜNG",
+      "vi": "lập trường, cương vị",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "相手[あいて]の立場[たちば]になって、考[かんが]えてみてください。",
+          "vi": "Hãy đặt mình vào vị trí người kia mà nghĩ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "班[はん]長[ちょう]の立場[たちば]では、そう言[い]うしかない。",
+          "vi": "Ở vị trí tổ trưởng thì chỉ có thể nói vậy.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "役[やく]に立[た]つ日本語[にほんご]を、毎日[まいにち]覚[おぼ]えます。",
-     "vi": "Mỗi ngày tôi nhớ tiếng Nhật có ích.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "役[やく]に立[た]つ = có ích."
-  },
-  {
-   "id": "v:役割:やくわり",
-   "kana": "やくわり",
-   "kanji": "役割",
-   "hv": "DỊCH CÁT",
-   "vi": "phần việc, vai trò (được phân)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "一人[ひとり]一人[ひとり]の役割[やくわり]を、はっきり決[き]めましょう。",
-     "vi": "Hãy định rõ phần việc của từng người.",
-     "ctx": "xuong"
+      "id": "v:役:やく",
+      "kana": "やく",
+      "kanji": "役",
+      "hv": "DỊCH",
+      "vi": "vai trò, chức; vai (diễn)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新人[しんじん]に教[おし]える役[やく]を、任[まか]されました。",
+          "vi": "Tôi được giao vai trò dạy người mới.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "役[やく]に立[た]つ日本語[にほんご]を、毎日[まいにち]覚[おぼ]えます。",
+          "vi": "Mỗi ngày tôi nhớ tiếng Nhật có ích.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "役[やく]に立[た]つ = có ích."
     },
     {
-     "jp": "家族[かぞく]の中[なか]での役割[やくわり]も、大切[たいせつ]です。",
-     "vi": "Vai trò trong gia đình cũng quan trọng.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:役:やく"
-   ]
-  },
-  {
-   "id": "v:担当:たんとう",
-   "kana": "たんとう",
-   "kanji": "担当",
-   "hv": "ĐẢM ĐƯƠNG",
-   "vi": "phụ trách",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "私[わたし]は、冷凍庫[れいとうこ]を担当[たんとう]しています。",
-     "vi": "Tôi phụ trách kho đông.",
-     "ctx": "xuong"
+      "id": "v:役割:やくわり",
+      "kana": "やくわり",
+      "kanji": "役割",
+      "hv": "DỊCH CÁT",
+      "vi": "phần việc, vai trò (được phân)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "一人[ひとり]一人[ひとり]の役割[やくわり]を、はっきり決[き]めましょう。",
+          "vi": "Hãy định rõ phần việc của từng người.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "家族[かぞく]の中[なか]での役割[やくわり]も、大切[たいせつ]です。",
+          "vi": "Vai trò trong gia đình cũng quan trọng.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:役:やく"
+      ]
     },
     {
-     "jp": "担当[たんとう]の人[ひと]を呼[よ]んでください。",
-     "vi": "Xin gọi người phụ trách.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "仕事[しごと]を担当[たんとう]する",
-     "vi": "phụ trách công việc"
-    }
-   ],
-   "note": "担当者[たんとうしゃ] = người phụ trách."
-  },
-  {
-   "id": "v:係:かかり",
-   "kana": "かかり",
-   "kanji": "係",
-   "hv": "HỆ",
-   "vi": "người phụ trách (một việc)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "受付[うけつけ]の係[かかり]に聞[き]いてください。",
-     "vi": "Hãy hỏi người phụ trách quầy.",
-     "ctx": "thutuc"
+      "id": "v:担当:たんとう",
+      "kana": "たんとう",
+      "kanji": "担当",
+      "hv": "ĐẢM ĐƯƠNG",
+      "vi": "phụ trách",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "私[わたし]は、冷凍庫[れいとうこ]を担当[たんとう]しています。",
+          "vi": "Tôi phụ trách kho đông.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "担当[たんとう]の人[ひと]を呼[よ]んでください。",
+          "vi": "Xin gọi người phụ trách.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "仕事[しごと]を担当[たんとう]する",
+          "vi": "phụ trách công việc"
+        }
+      ],
+      "note": "担当者[たんとうしゃ] = người phụ trách."
     },
     {
-     "jp": "今週[こんしゅう]、掃除[そうじ]の係[かかり]です。",
-     "vi": "Tuần này tôi lo việc dọn dẹp.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:担当:たんとう"
-   ],
-   "note": "Hay viết 〜係[がかり]: 掃除係[そうじがかり] = người lo dọn dẹp."
-  },
-  {
-   "id": "v:契約:けいやく",
-   "kana": "けいやく",
-   "kanji": "契約",
-   "hv": "KHẾ ƯỚC",
-   "vi": "hợp đồng; ký hợp đồng",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会社[かいしゃ]と三年[さんねん]の契約[けいやく]をしました。",
-     "vi": "Tôi ký hợp đồng 3 năm với công ty.",
-     "ctx": "xuong"
+      "id": "v:係:かかり",
+      "kana": "かかり",
+      "kanji": "係",
+      "hv": "HỆ",
+      "vi": "người phụ trách (một việc)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "受付[うけつけ]の係[かかり]に聞[き]いてください。",
+          "vi": "Hãy hỏi người phụ trách quầy.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "今週[こんしゅう]、掃除[そうじ]の係[かかり]です。",
+          "vi": "Tuần này tôi lo việc dọn dẹp.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:担当:たんとう"
+      ],
+      "note": "Hay viết 〜係[がかり]: 掃除係[そうじがかり] = người lo dọn dẹp."
     },
     {
-     "jp": "部屋[へや]を借[か]りる時[とき]は、契約[けいやく]の内容[ないよう]をよく読[よ]んで。",
-     "vi": "Khi thuê phòng hãy đọc kỹ nội dung hợp đồng.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "会社[かいしゃ]と契約[けいやく]する",
-     "vi": "ký hợp đồng với công ty"
-    }
-   ],
-   "note": "契約書[けいやくしょ] = bản hợp đồng; 雇用契約[こようけいやく] = hợp đồng lao động."
-  },
-  {
-   "id": "v:条件:じょうけん",
-   "kana": "じょうけん",
-   "kanji": "条件",
-   "hv": "ĐIỀU KIỆN",
-   "vi": "điều kiện",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "働[はたら]く条件[じょうけん]を、よく確認[かくにん]しましょう。",
-     "vi": "Hãy xác nhận kỹ điều kiện làm việc.",
-     "ctx": "xuong"
+      "id": "v:契約:けいやく",
+      "kana": "けいやく",
+      "kanji": "契約",
+      "hv": "KHẾ ƯỚC",
+      "vi": "ký hợp đồng; hợp đồng",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]と三年[さんねん]の契約[けいやく]をしました。",
+          "vi": "Tôi ký hợp đồng 3 năm với công ty.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "部屋[へや]を借[か]りる時[とき]は、契約[けいやく]の内容[ないよう]をよく読[よ]んで。",
+          "vi": "Khi thuê phòng hãy đọc kỹ nội dung hợp đồng.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "会社[かいしゃ]と契約[けいやく]する",
+          "vi": "ký hợp đồng với công ty"
+        }
+      ],
+      "note": "契約書[けいやくしょ] = bản hợp đồng; 雇用契約[こようけいやく] = hợp đồng lao động."
     },
     {
-     "jp": "ビザを更新[こうしん]するには、いくつかの条件[じょうけん]があります。",
-     "vi": "Để gia hạn visa có một số điều kiện.",
-     "ctx": "thutuc"
-    }
-   ]
-  },
-  {
-   "id": "v:決まり:きまり",
-   "kana": "きまり",
-   "kanji": "決まり",
-   "kf": "決[き]まり",
-   "hv": "QUYẾT",
-   "vi": "quy định (nơi chốn, nhóm)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "寮[りょう]には、いろいろな決[き]まりがあります。",
-     "vi": "Ký túc xá có nhiều quy định.",
-     "ctx": "doisong"
+      "id": "v:条件:じょうけん",
+      "kana": "じょうけん",
+      "kanji": "条件",
+      "hv": "ĐIỀU KIỆN",
+      "vi": "điều kiện",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "働[はたら]く条件[じょうけん]を、よく確認[かくにん]しましょう。",
+          "vi": "Hãy xác nhận kỹ điều kiện làm việc.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ビザを更新[こうしん]するには、いくつかの条件[じょうけん]があります。",
+          "vi": "Để gia hạn visa có một số điều kiện.",
+          "ctx": "thutuc"
+        }
+      ]
     },
     {
-     "jp": "工場[こうじょう]の決[き]まりで、指輪[ゆびわ]はしてはいけません。",
-     "vi": "Theo quy định nhà máy, không được đeo nhẫn.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:規則:きそく"
-   ],
-   "rel": [
-    "v:決まる:きまる"
-   ]
-  },
-  {
-   "id": "v:ルール:ルール",
-   "kana": "ルール",
-   "kanji": "",
-   "hv": "",
-   "vi": "luật lệ, nguyên tắc",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ゴミを出[だ]すルールを守[まも]りましょう。",
-     "vi": "Hãy tuân thủ quy tắc đổ rác.",
-     "ctx": "doisong"
+      "id": "v:決まり:きまり",
+      "kana": "きまり",
+      "kanji": "決まり",
+      "kf": "決[き]まり",
+      "hv": "QUYẾT",
+      "vi": "quy định (nơi chốn, nhóm)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "寮[りょう]には、いろいろな決[き]まりがあります。",
+          "vi": "Ký túc xá có nhiều quy định.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "工場[こうじょう]の決[き]まりで、指輪[ゆびわ]はしてはいけません。",
+          "vi": "Theo quy định nhà máy, không được đeo nhẫn.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:規則:きそく"
+      ],
+      "rel": [
+        "v:決まる:きまる"
+      ]
     },
     {
-     "jp": "新[あたら]しいルールが、来月[らいげつ]から始[はじ]まります。",
-     "vi": "Quy tắc mới bắt đầu từ tháng sau.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:決まり:きまり"
-   ],
-   "goc": "rule (tiếng Anh)"
-  },
-  {
-   "id": "v:違反:いはん",
-   "kana": "いはん",
-   "kanji": "違反",
-   "hv": "VI PHẢN",
-   "vi": "vi phạm",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "駐車[ちゅうしゃ]違反[いはん]で、罰金[ばっきん]を払[はら]いました。",
-     "vi": "Tôi nộp phạt vì đỗ xe sai quy định.",
-     "ctx": "doisong"
+      "id": "v:ルール:ルール",
+      "kana": "ルール",
+      "kanji": "",
+      "hv": "",
+      "vi": "luật lệ, nguyên tắc",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ゴミを出[だ]すルールを守[まも]りましょう。",
+          "vi": "Hãy tuân thủ quy tắc đổ rác.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "新[あたら]しいルールが、来月[らいげつ]から始[はじ]まります。",
+          "vi": "Quy tắc mới bắt đầu từ tháng sau.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:決まり:きまり"
+      ],
+      "goc": "rule (tiếng Anh)"
     },
     {
-     "jp": "ルールに違反[いはん]したら、注意[ちゅうい]されます。",
-     "vi": "Vi phạm quy tắc sẽ bị nhắc nhở.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "ルールに違反[いはん]する",
-     "vi": "vi phạm quy tắc"
-    }
-   ]
-  },
-  {
-   "id": "v:禁止:きんし",
-   "kana": "きんし",
-   "kanji": "禁止",
-   "hv": "CẤM CHỈ",
-   "vi": "cấm",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ここは、写真[しゃしん]禁止[きんし]です。",
-     "vi": "Ở đây cấm chụp ảnh.",
-     "ctx": "xuong"
+      "id": "v:違反:いはん",
+      "kana": "いはん",
+      "kanji": "違反",
+      "hv": "VI PHẢN",
+      "vi": "vi phạm",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "駐車[ちゅうしゃ]違反[いはん]で、罰金[ばっきん]を払[はら]いました。",
+          "vi": "Tôi nộp phạt vì đỗ xe sai quy định.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "ルールに違反[いはん]したら、注意[ちゅうい]されます。",
+          "vi": "Vi phạm quy tắc sẽ bị nhắc nhở.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "ルールに違反[いはん]する",
+          "vi": "vi phạm quy tắc"
+        }
+      ]
     },
     {
-     "jp": "作業場[さぎょうば]で、携帯電話[けいたいでんわ]の使用[しよう]を禁止[きんし]します。",
-     "vi": "Cấm dùng điện thoại di động trong khu làm việc.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "使用[しよう]を禁止[きんし]する",
-     "vi": "cấm sử dụng"
-    }
-   ],
-   "ant": [
-    "v:許可:きょか"
-   ],
-   "note": "立入禁止[たちいりきんし] = cấm vào."
-  },
-  {
-   "id": "v:許可:きょか",
-   "kana": "きょか",
-   "kanji": "許可",
-   "hv": "HỨA KHẢ",
-   "vi": "sự cho phép (chính thức)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班[はん]長[ちょう]の許可[きょか]がないと、早退[そうたい]できません。",
-     "vi": "Không có tổ trưởng cho phép thì không về sớm được.",
-     "ctx": "xuong"
+      "id": "v:禁止:きんし",
+      "kana": "きんし",
+      "kanji": "禁止",
+      "hv": "CẤM CHỈ",
+      "vi": "cấm",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ここは、写真[しゃしん]禁止[きんし]です。",
+          "vi": "Ở đây cấm chụp ảnh.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "作業場[さぎょうば]で、携帯電話[けいたいでんわ]の使用[しよう]を禁止[きんし]します。",
+          "vi": "Cấm dùng điện thoại di động trong khu làm việc.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "使用[しよう]を禁止[きんし]する",
+          "vi": "cấm sử dụng"
+        }
+      ],
+      "ant": [
+        "v:許可:きょか"
+      ],
+      "note": "立入禁止[たちいりきんし] = cấm vào."
     },
     {
-     "jp": "アルバイトには、資格[しかく]外[がい]活動[かつどう]の許可[きょか]が必要[ひつよう]です。",
-     "vi": "Làm thêm cần giấy phép hoạt động ngoài tư cách.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "許可[きょか]を取[と]る",
-     "vi": "xin phép"
-    }
-   ],
-   "ant": [
-    "v:禁止:きんし"
-   ]
-  },
-  {
-   "id": "v:制限:せいげん",
-   "kana": "せいげん",
-   "kanji": "制限",
-   "hv": "CHẾ HẠN",
-   "vi": "mức giới hạn, sự hạn chế",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この道[みち]は、速度[そくど]の制限[せいげん]が四十[よんじゅう]キロです。",
-     "vi": "Đường này giới hạn tốc độ 40 km.",
-     "ctx": "doisong"
+      "id": "v:許可:きょか",
+      "kana": "きょか",
+      "kanji": "許可",
+      "hv": "HỨA KHẢ",
+      "vi": "sự cho phép (chính thức)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班[はん]長[ちょう]の許可[きょか]がないと、早退[そうたい]できません。",
+          "vi": "Không có tổ trưởng cho phép thì không về sớm được.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "アルバイトには、資格[しかく]外[がい]活動[かつどう]の許可[きょか]が必要[ひつよう]です。",
+          "vi": "Làm thêm cần giấy phép hoạt động ngoài tư cách.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "許可[きょか]を取[と]る",
+          "vi": "xin phép"
+        }
+      ],
+      "ant": [
+        "v:禁止:きんし"
+      ]
     },
     {
-     "jp": "残業[ざんぎょう]の時間[じかん]は、法律[ほうりつ]で制限[せいげん]されています。",
-     "vi": "Giờ làm thêm bị luật giới hạn.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "時間[じかん]を制限[せいげん]する",
-     "vi": "giới hạn thời gian"
-    }
-   ]
-  },
-  {
-   "id": "v:当然:とうぜん",
-   "kana": "とうぜん",
-   "kanji": "当然",
-   "hv": "ĐƯƠNG NHIÊN",
-   "vi": "đương nhiên",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ミスをしたら、謝[あやま]るのは当然[とうぜん]です。",
-     "vi": "Mắc lỗi thì xin lỗi là đương nhiên.",
-     "ctx": "xuong"
+      "id": "v:制限:せいげん",
+      "kana": "せいげん",
+      "kanji": "制限",
+      "hv": "CHẾ HẠN",
+      "vi": "mức giới hạn, sự hạn chế",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この道[みち]は、速度[そくど]の制限[せいげん]が四十[よんじゅう]キロです。",
+          "vi": "Đường này giới hạn tốc độ 40 km.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "残業[ざんぎょう]の時間[じかん]は、法律[ほうりつ]で制限[せいげん]されています。",
+          "vi": "Giờ làm thêm bị luật giới hạn.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "時間[じかん]を制限[せいげん]する",
+          "vi": "giới hạn thời gian"
+        }
+      ]
     },
     {
-     "jp": "当然[とうぜん]、給料[きゅうりょう]も上[あ]がります。",
-     "vi": "Đương nhiên lương cũng tăng.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:当たり前:あたりまえ"
-   ]
-  },
-  {
-   "id": "v:常識:じょうしき",
-   "kana": "じょうしき",
-   "kanji": "常識",
-   "hv": "THƯỜNG THỨC",
-   "vi": "thường thức, hiểu biết thông thường",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "遅[おく]れる時[とき]に連絡[れんらく]するのは、常識[じょうしき]です。",
-     "vi": "Báo khi đến muộn là lẽ thường.",
-     "ctx": "xuong"
+      "id": "v:当然:とうぜん",
+      "kana": "とうぜん",
+      "kanji": "当然",
+      "hv": "ĐƯƠNG NHIÊN",
+      "vi": "đương nhiên",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ミスをしたら、謝[あやま]るのは当然[とうぜん]です。",
+          "vi": "Mắc lỗi thì xin lỗi là đương nhiên.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "当然[とうぜん]、給料[きゅうりょう]も上[あ]がります。",
+          "vi": "Đương nhiên lương cũng tăng.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:当たり前:あたりまえ"
+      ]
     },
     {
-     "jp": "国[くに]によって、常識[じょうしき]が違[ちが]います。",
-     "vi": "Mỗi nước có lẽ thường khác nhau.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:制度:せいど",
-   "kana": "せいど",
-   "kanji": "制度",
-   "hv": "CHẾ ĐỘ",
-   "vi": "chế độ, hệ thống (quy định)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]の年金[ねんきん]の制度[せいど]は、複雑[ふくざつ]です。",
-     "vi": "Chế độ lương hưu Nhật phức tạp.",
-     "ctx": "thutuc"
+      "id": "v:常識:じょうしき",
+      "kana": "じょうしき",
+      "kanji": "常識",
+      "hv": "THƯỜNG THỨC",
+      "vi": "thường thức, hiểu biết thông thường",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "遅[おく]れる時[とき]に連絡[れんらく]するのは、常識[じょうしき]です。",
+          "vi": "Báo khi đến muộn là lẽ thường.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "国[くに]によって、常識[じょうしき]が違[ちが]います。",
+          "vi": "Mỗi nước có lẽ thường khác nhau.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "会社[かいしゃ]に、資格[しかく]を取[と]る人[ひと]を助[たす]ける制度[せいど]があります。",
-     "vi": "Công ty có chế độ hỗ trợ người lấy chứng chỉ.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:負う:おう",
-   "kana": "おう",
-   "kanji": "負う",
-   "kf": "負[お]う",
-   "hv": "PHỤ",
-   "vi": "gánh, chịu (trách nhiệm); bị (thương)",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "事故[じこ]の責任[せきにん]は、会社[かいしゃ]が負[お]います。",
-     "vi": "Công ty chịu trách nhiệm về tai nạn.",
-     "ctx": "xuong"
+      "id": "v:制度:せいど",
+      "kana": "せいど",
+      "kanji": "制度",
+      "hv": "CHẾ ĐỘ",
+      "vi": "chế độ, hệ thống (quy định)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]の年金[ねんきん]の制度[せいど]は、複雑[ふくざつ]です。",
+          "vi": "Chế độ lương hưu Nhật phức tạp.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "会社[かいしゃ]に、資格[しかく]を取[と]る人[ひと]を助[たす]ける制度[せいど]があります。",
+          "vi": "Công ty có chế độ hỗ trợ người lấy chứng chỉ.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "転[ころ]んで、足[あし]にけがを負[お]った。",
-     "vi": "Bị ngã, chân bị thương.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "責任[せきにん]を負[お]う",
-     "vi": "chịu trách nhiệm"
+      "id": "v:負う:おう",
+      "kana": "おう",
+      "kanji": "負う",
+      "kf": "負[お]う",
+      "hv": "PHỤ",
+      "vi": "gánh, chịu (trách nhiệm); bị (thương)",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "事故[じこ]の責任[せきにん]は、会社[かいしゃ]が負[お]います。",
+          "vi": "Công ty chịu trách nhiệm về tai nạn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "転[ころ]んで、足[あし]にけがを負[お]った。",
+          "vi": "Bị ngã, chân bị thương.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "責任[せきにん]を負[お]う",
+          "vi": "chịu trách nhiệm"
+        },
+        {
+          "jp": "けがを負[お]う",
+          "vi": "bị thương"
+        }
+      ],
+      "confuse": [
+        "v:追う:おう"
+      ]
     },
     {
-     "jp": "けがを負[お]う",
-     "vi": "bị thương"
-    }
-   ],
-   "confuse": [
-    "v:追う:おう"
-   ]
-  },
-  {
-   "id": "v:罪:つみ",
-   "kana": "つみ",
-   "kanji": "罪",
-   "hv": "TỘI",
-   "vi": "tội",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "人[ひと]の物[もの]を盗[ぬす]むのは、罪[つみ]です。",
-     "vi": "Lấy trộm đồ người khác là có tội.",
-     "ctx": "doisong"
+      "id": "v:罪:つみ",
+      "kana": "つみ",
+      "kanji": "罪",
+      "hv": "TỘI",
+      "vi": "tội",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "人[ひと]の物[もの]を盗[ぬす]むのは、罪[つみ]です。",
+          "vi": "Lấy trộm đồ người khác là có tội.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "罪[つみ]を犯[おか]した人[ひと]は、罰[ばつ]を受[う]けます。",
+          "vi": "Người phạm tội sẽ bị phạt.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:罰する:ばっする"
+      ]
     },
     {
-     "jp": "罪[つみ]を犯[おか]した人[ひと]は、罰[ばつ]を受[う]けます。",
-     "vi": "Người phạm tội sẽ bị phạt.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:罰する:ばっする"
-   ]
-  },
-  {
-   "id": "v:保証:ほしょう",
-   "kana": "ほしょう",
-   "kanji": "保証",
-   "hv": "BẢO CHỨNG",
-   "vi": "bảo hành; bảo đảm",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "このテレビは、一年[いちねん]間[かん]の保証[ほしょう]が付[つ]いています。",
-     "vi": "Ti vi này bảo hành một năm.",
-     "ctx": "doisong"
+      "id": "v:保証:ほしょう",
+      "kana": "ほしょう",
+      "kanji": "保証",
+      "hv": "BẢO CHỨNG",
+      "vi": "bảo hành; bảo đảm",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このテレビは、一年[いちねん]間[かん]の保証[ほしょう]が付[つ]いています。",
+          "vi": "Ti vi này bảo hành một năm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "部屋[へや]を借[か]りる時[とき]、保証人[ほしょうにん]が必要[ひつよう]です。",
+          "vi": "Khi thuê phòng cần người bảo lãnh.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "品質[ひんしつ]を保証[ほしょう]する",
+          "vi": "bảo đảm chất lượng"
+        }
+      ],
+      "note": "保証書[ほしょうしょ] = phiếu bảo hành; 保証人[ほしょうにん] = người bảo lãnh."
     },
     {
-     "jp": "部屋[へや]を借[か]りる時[とき]、保証人[ほしょうにん]が必要[ひつよう]です。",
-     "vi": "Khi thuê phòng cần người bảo lãnh.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "品質[ひんしつ]を保証[ほしょう]する",
-     "vi": "bảo đảm chất lượng"
-    }
-   ],
-   "note": "保証書[ほしょうしょ] = phiếu bảo hành; 保証人[ほしょうにん] = người bảo lãnh."
-  },
-  {
-   "id": "v:保護:ほご",
-   "kana": "ほご",
-   "kanji": "保護",
-   "hv": "BẢO HỘ",
-   "vi": "bảo hộ, che chở",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "目[め]を保護[ほご]するために、眼鏡[めがね]をかけます。",
-     "vi": "Đeo kính để bảo vệ mắt.",
-     "ctx": "xuong"
+      "id": "v:保護:ほご",
+      "kana": "ほご",
+      "kanji": "保護",
+      "hv": "BẢO HỘ",
+      "vi": "bảo hộ, che chở",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "目[め]を保護[ほご]するために、眼鏡[めがね]をかけます。",
+          "vi": "Đeo kính để bảo vệ mắt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "個人情報[こじんじょうほう]は、法律[ほうりつ]で保護[ほご]されています。",
+          "vi": "Thông tin cá nhân được luật bảo vệ.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "目[め]を保護[ほご]する",
+          "vi": "bảo vệ mắt"
+        }
+      ]
     },
     {
-     "jp": "個人情報[こじんじょうほう]は、法律[ほうりつ]で保護[ほご]されています。",
-     "vi": "Thông tin cá nhân được luật bảo vệ.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "目[め]を保護[ほご]する",
-     "vi": "bảo vệ mắt"
-    }
-   ]
-  },
-  {
-   "id": "v:損:そん",
-   "kana": "そん",
-   "kanji": "損",
-   "hv": "TỔN",
-   "vi": "sự thiệt, thua lỗ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今[いま]買[か]わないと、損[そん]ですよ。",
-     "vi": "Không mua bây giờ là thiệt đấy.",
-     "ctx": "doisong"
+      "id": "v:損:そん",
+      "kana": "そん",
+      "kanji": "損",
+      "hv": "TỔN",
+      "vi": "sự thiệt, thua lỗ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今[いま]買[か]わないと、損[そん]ですよ。",
+          "vi": "Không mua bây giờ là thiệt đấy.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "ルールを守[まも]らないと、結局[けっきょく]自分[じぶん]が損[そん]をします。",
+          "vi": "Không tuân thủ quy tắc rốt cuộc mình chịu thiệt.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        {
+          "w": "得[とく]",
+          "vi": "lợi"
+        }
+      ],
+      "note": "損[そん]をする = bị thiệt."
     },
     {
-     "jp": "ルールを守[まも]らないと、結局[けっきょく]自分[じぶん]が損[そん]をします。",
-     "vi": "Không tuân thủ quy tắc rốt cuộc mình chịu thiệt.",
-     "ctx": "xuong"
-    }
-   ],
-   "ant": [
-    {
-     "w": "得[とく]",
-     "vi": "lợi"
-    }
-   ],
-   "note": "損[そん]をする = bị thiệt."
-  },
-  {
-   "id": "v:有効:ゆうこう",
-   "kana": "ゆうこう",
-   "kanji": "有効",
-   "hv": "HỮU HIỆU",
-   "vi": "có hiệu lực; hiệu quả",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "このパスポートは、五年[ごねん]間[かん]有効[ゆうこう]です。",
-     "vi": "Hộ chiếu này có hiệu lực 5 năm.",
-     "ctx": "thutuc"
+      "id": "v:有効:ゆうこう",
+      "kana": "ゆうこう",
+      "kanji": "有効",
+      "hv": "HỮU HIỆU",
+      "vi": "có hiệu lực; hiệu quả",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このパスポートは、五年[ごねん]間[かん]有効[ゆうこう]です。",
+          "vi": "Hộ chiếu này có hiệu lực 5 năm.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "時間[じかん]を有効[ゆうこう]に使[つか]いましょう。",
+          "vi": "Hãy dùng thời gian hiệu quả.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "有効期限[ゆうこうきげん] = hạn hiệu lực."
     },
     {
-     "jp": "時間[じかん]を有効[ゆうこう]に使[つか]いましょう。",
-     "vi": "Hãy dùng thời gian hiệu quả.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "有効期限[ゆうこうきげん] = hạn hiệu lực."
-  },
-  {
-   "id": "v:必ずしも:かならずしも",
-   "kana": "かならずしも",
-   "kanji": "必ずしも",
-   "kf": "必[かなら]ずしも",
-   "hv": "TẤT",
-   "vi": "(không) nhất thiết",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "高[たか]い物[もの]が、必[かなら]ずしもいい物[もの]とは限[かぎ]りません。",
-     "vi": "Đồ đắt chưa chắc đã là đồ tốt.",
-     "ctx": "doisong"
+      "id": "v:必ずしも:かならずしも",
+      "kana": "かならずしも",
+      "kanji": "必ずしも",
+      "kf": "必[かなら]ずしも",
+      "hv": "TẤT",
+      "vi": "(không) nhất thiết",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "高[たか]い物[もの]が、必[かなら]ずしもいい物[もの]とは限[かぎ]りません。",
+          "vi": "Đồ đắt chưa chắc đã là đồ tốt.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "日本人[にほんじん]が、必[かなら]ずしも敬語[けいご]が上手[じょうず]なわけではない。",
+          "vi": "Người Nhật không nhất thiết đều giỏi kính ngữ.",
+          "ctx": "doisong"
+        }
+      ],
+      "with": "phudinh",
+      "note": "Luôn đi với phủ định: 必[かなら]ずしも〜ない / 〜とは限[かぎ]らない."
     },
     {
-     "jp": "日本人[にほんじん]が、必[かなら]ずしも敬語[けいご]が上手[じょうず]なわけではない。",
-     "vi": "Người Nhật không nhất thiết đều giỏi kính ngữ.",
-     "ctx": "doisong"
-    }
-   ],
-   "with": "phudinh",
-   "note": "Luôn đi với phủ định: 必[かなら]ずしも〜ない / 〜とは限[かぎ]らない."
-  },
-  {
-   "id": "v:少なくとも:すくなくとも",
-   "kana": "すくなくとも",
-   "kanji": "少なくとも",
-   "kf": "少[すく]なくとも",
-   "hv": "THIẾU",
-   "vi": "ít nhất",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "少[すく]なくとも一週間[いっしゅうかん]前[まえ]に、休[やす]みを申[もう]し込[こ]んでください。",
-     "vi": "Hãy xin nghỉ ít nhất trước một tuần.",
-     "ctx": "xuong"
+      "id": "v:少なくとも:すくなくとも",
+      "kana": "すくなくとも",
+      "kanji": "少なくとも",
+      "kf": "少[すく]なくとも",
+      "hv": "THIẾU",
+      "vi": "ít nhất",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "少[すく]なくとも一週間[いっしゅうかん]前[まえ]に、休[やす]みを申[もう]し込[こ]んでください。",
+          "vi": "Hãy xin nghỉ ít nhất trước một tuần.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本語[にほんご]は、少[すく]なくとも毎日[まいにち]三十分[さんじゅっぷん]勉強[べんきょう]します。",
+          "vi": "Ít nhất mỗi ngày tôi học tiếng Nhật 30 phút.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "日本語[にほんご]は、少[すく]なくとも毎日[まいにち]三十分[さんじゅっぷん]勉強[べんきょう]します。",
-     "vi": "Ít nhất mỗi ngày tôi học tiếng Nhật 30 phút.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:尤も:もっとも",
-   "kana": "もっとも",
-   "kanji": "尤も",
-   "kf": "尤[もっと]も",
-   "hv": "VƯU",
-   "vi": "(điều đó) có lý; có điều là",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班[はん]長[ちょう]の言[い]うことは、尤[もっと]もです。",
-     "vi": "Lời tổ trưởng nói có lý.",
-     "ctx": "xuong"
+      "id": "v:尤も:もっとも",
+      "kana": "もっとも",
+      "kanji": "尤も",
+      "kf": "尤[もっと]も",
+      "hv": "VƯU",
+      "vi": "(điều đó) có lý; có điều là",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班[はん]長[ちょう]の言[い]うことは、尤[もっと]もです。",
+          "vi": "Lời tổ trưởng nói có lý.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "明日[あした]は休[やす]みです。もっとも、急[いそ]ぎの仕事[しごと]があれば来[き]ます。",
+          "vi": "Mai nghỉ. Tuy nhiên có việc gấp thì tôi đến.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:最も:もっとも"
+      ],
+      "note": "Thường viết もっとも. Đồng âm: 最[もっと]も = nhất."
     },
     {
-     "jp": "明日[あした]は休[やす]みです。もっとも、急[いそ]ぎの仕事[しごと]があれば来[き]ます。",
-     "vi": "Mai nghỉ. Tuy nhiên có việc gấp thì tôi đến.",
-     "ctx": "xuong"
-    }
-   ],
-   "confuse": [
-    "v:最も:もっとも"
-   ],
-   "note": "Thường viết もっとも. Đồng âm: 最[もっと]も = nhất."
-  },
-  {
-   "id": "v:公平:こうへい",
-   "kana": "こうへい",
-   "kanji": "公平",
-   "hv": "CÔNG BÌNH",
-   "vi": "công bằng (đối xử)",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "仕事[しごと]は、みんなに公平[こうへい]に分[わ]けてください。",
-     "vi": "Hãy chia việc công bằng cho mọi người.",
-     "ctx": "xuong"
+      "id": "v:公平:こうへい",
+      "kana": "こうへい",
+      "kanji": "公平",
+      "hv": "CÔNG BÌNH",
+      "vi": "công bằng (đối xử)",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]は、みんなに公平[こうへい]に分[わ]けてください。",
+          "vi": "Hãy chia việc công bằng cho mọi người.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "公平[こうへい]な判断[はんだん]をお願[ねが]いします。",
+          "vi": "Mong có phán đoán công bằng.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:平等:びょうどう"
+      ]
     },
     {
-     "jp": "公平[こうへい]な判断[はんだん]をお願[ねが]いします。",
-     "vi": "Mong có phán đoán công bằng.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:平等:びょうどう"
-   ]
-  },
-  {
-   "id": "v:平等:びょうどう",
-   "kana": "びょうどう",
-   "kanji": "平等",
-   "hv": "BÌNH ĐẲNG",
-   "vi": "bình đẳng",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "男女[だんじょ]は、平等[びょうどう]に扱[あつか]われるべきです。",
-     "vi": "Nam nữ phải được đối xử bình đẳng.",
-     "ctx": "doisong"
+      "id": "v:平等:びょうどう",
+      "kana": "びょうどう",
+      "kanji": "平等",
+      "hv": "BÌNH ĐẲNG",
+      "vi": "bình đẳng",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "男女[だんじょ]は、平等[びょうどう]に扱[あつか]われるべきです。",
+          "vi": "Nam nữ phải được đối xử bình đẳng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "国[くに]に関係[かんけい]なく、みんな平等[びょうどう]です。",
+          "vi": "Không phân biệt quốc tịch, ai cũng bình đẳng.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:公平:こうへい"
+      ]
     },
     {
-     "jp": "国[くに]に関係[かんけい]なく、みんな平等[びょうどう]です。",
-     "vi": "Không phân biệt quốc tịch, ai cũng bình đẳng.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:公平:こうへい"
-   ]
-  },
-  {
-   "id": "v:正規:せいき",
-   "kana": "せいき",
-   "kanji": "正規",
-   "hv": "CHÍNH QUY",
-   "vi": "chính quy (đúng chuẩn)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "正規[せいき]の社員[しゃいん]になりたいです。",
-     "vi": "Tôi muốn làm nhân viên chính thức.",
-     "ctx": "xuong"
+      "id": "v:正規:せいき",
+      "kana": "せいき",
+      "kanji": "正規",
+      "hv": "CHÍNH QUY",
+      "vi": "chính quy (đúng chuẩn)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "正規[せいき]の社員[しゃいん]になりたいです。",
+          "vi": "Tôi muốn làm nhân viên chính thức.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "正規[せいき]の料金[りょうきん]を払[はら]ってください。",
+          "vi": "Hãy trả giá cước chính thức.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "正社員[せいしゃいん] = nhân viên chính thức; 非正規[ひせいき] = không chính thức (thời vụ, bán thời gian)."
     },
     {
-     "jp": "正規[せいき]の料金[りょうきん]を払[はら]ってください。",
-     "vi": "Hãy trả giá cước chính thức.",
-     "ctx": "doisong"
+      "id": "v:唯一:ゆいいつ",
+      "kana": "ゆいいつ",
+      "kanji": "唯一",
+      "hv": "DUY NHẤT",
+      "vi": "duy nhất",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ここは、町[まち]で唯一[ゆいいつ]の病院[びょういん]です。",
+          "vi": "Đây là bệnh viện duy nhất trong thị trấn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "唯一[ゆいいつ]の休[やす]みの日[ひ]に、雨[あめ]が降[ふ]った。",
+          "vi": "Ngày nghỉ duy nhất thì trời mưa.",
+          "ctx": "doisong"
+        }
+      ]
     }
-   ],
-   "note": "正社員[せいしゃいん] = nhân viên chính thức; 非正規[ひせいき] = không chính thức (thời vụ, bán thời gian)."
-  },
-  {
-   "id": "v:唯一:ゆいいつ",
-   "kana": "ゆいいつ",
-   "kanji": "唯一",
-   "hv": "DUY NHẤT",
-   "vi": "duy nhất",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ここは、町[まち]で唯一[ゆいいつ]の病院[びょういん]です。",
-     "vi": "Đây là bệnh viện duy nhất trong thị trấn.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "唯一[ゆいいつ]の休[やす]みの日[ひ]に、雨[あめ]が降[ふ]った。",
-     "vi": "Ngày nghỉ duy nhất thì trời mưa.",
-     "ctx": "doisong"
-    }
-   ]
-  }
- ]
+  ]
 }

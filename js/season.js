@@ -1,7 +1,7 @@
 // Giao diện mùa (v31): 12 tháng · ngày – đêm · mưa · ngày lễ Nhật & Việt Nam · hiệu ứng vẽ trên một canvas nằm sau nội dung.
 // Mỗi hiệu ứng bật / tắt riêng trong Cài đặt; tôn trọng "giảm chuyển động" của máy; dừng vẽ khi app chạy nền.
-import { S, saveSettings } from './settings.js';
-import { rich, toast } from './util.js';
+import { S } from './settings.js';
+import { rich } from './util.js';
 
 // ---------- màu ----------
 const hex = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
@@ -86,6 +86,9 @@ const HOL = {
   oomisoka: { id: 'oomisoka', vi: '大晦日[おおみそか] — giao thừa' },
 };
 export const HOLIDAY_IDS = Object.keys(HOL);
+export const HOLIDAYS = Object.values(HOL).map(h => [h.id, h.vi.replace(/\[[^\]]*\]/g, '')]); // tên để chọn (bỏ furigana)
+export const seasonReduced = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+export const seasonOverrides = () => ({ ...OV });
 function holidays(d) {
   const m = d.getMonth() + 1, dd = d.getDate(), h = d.getHours(), y = d.getFullYear(), out = [];
   if (S.fxHolVN) {
@@ -534,24 +537,6 @@ function refresh() {
   if (cv) { seedParts(); seedSky(); }
   schedule();
   startLoop();
-  fabSync();
-}
-
-// ---------- v32: nút nhỏ "Bật / tắt hiệu ứng nền" (góc dưới bên phải, mọi trang) ----------
-let fab = null;
-function fabSync() {
-  if (!fab) return;
-  const on = bgWanted();
-  fab.textContent = on ? 'Tắt hiệu ứng nền' : 'Bật hiệu ứng nền';
-  fab.setAttribute('aria-pressed', String(on));
-  fab.classList.toggle('is-off', !on);
-}
-async function fabToggle() {
-  const on = bgWanted();
-  if (on) S.fxBg = false;
-  else { S.fxBg = true; if (S.season === 'off') S.season = 'auto'; }
-  await saveSettings(); // → tn-settings → refresh() → fabSync()
-  if (!on && reduced()) toast('Máy đang bật "giảm chuyển động" nên app không chạy hiệu ứng nền.');
 }
 
 // ---------- dùng ở chỗ khác ----------
@@ -587,10 +572,6 @@ export function initSeason() {
   cv.id = 'fx'; cv.setAttribute('aria-hidden', 'true');
   document.body.prepend(cv);
   ctx = cv.getContext('2d');
-  fab = document.createElement('button');
-  fab.type = 'button'; fab.className = 'fx-fab'; fab.title = 'Hạt rơi, trời, mưa, sao băng… phía sau nội dung. Màu và hoa văn theo mùa vẫn giữ.';
-  fab.onclick = fabToggle;
-  document.body.append(fab);
   resize();
   let rsT = 0, wfT = 0;
   addEventListener('resize', () => { clearTimeout(rsT); rsT = setTimeout(resize, 150); });

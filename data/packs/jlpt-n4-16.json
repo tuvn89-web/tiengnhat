@@ -1,893 +1,893 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n4-16",
-  "title": "JLPT N4 16 – Ăn uống, mua sắm, lễ hội",
-  "type": "vocab",
-  "level": "N4",
-  "topics": [
-   "jlpt",
-   "doisong"
-  ],
-  "version": 2,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:味噌:みそ",
-   "kana": "みそ",
-   "kanji": "味噌",
-   "hv": "VỊ TĂNG",
-   "vi": "tương miso",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Ăn uống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "毎朝[まいあさ]、味噌汁[みそしる]を飲[の]みます。",
-     "vi": "Sáng nào tôi cũng ăn canh miso.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "魚[さかな]を味噌[みそ]に漬[つ]けて焼[や]きます。",
-     "vi": "Ướp cá với miso rồi nướng.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    {
-     "w": "味噌汁[みそしる]",
-     "vi": "canh miso"
-    }
-   ]
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n4-16",
+    "title": "JLPT N4 16 – Ăn uống, mua sắm, lễ hội",
+    "type": "vocab",
+    "level": "N4",
+    "topics": [
+      "jlpt",
+      "doisong"
+    ],
+    "version": 3,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:サラダ:サラダ",
-   "kana": "サラダ",
-   "kanji": "",
-   "hv": "",
-   "vi": "món rau trộn, salad",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Ăn uống",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "毎日[まいにち]サラダを食[た]べるようにしています。",
-     "vi": "Tôi cố ăn salad mỗi ngày.",
-     "ctx": "doisong"
+      "id": "v:味噌:みそ",
+      "kana": "みそ",
+      "kanji": "味噌",
+      "hv": "VỊ TĂNG",
+      "vi": "tương miso",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Ăn uống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎朝[まいあさ]、味噌汁[みそしる]を飲[の]みます。",
+          "vi": "Sáng nào tôi cũng ăn canh miso.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "魚[さかな]を味噌[みそ]に漬[つ]けて焼[や]きます。",
+          "vi": "Ướp cá với miso rồi nướng.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        {
+          "w": "味噌汁[みそしる]",
+          "vi": "canh miso"
+        }
+      ]
     },
     {
-     "jp": "サラダにエビを入[い]れました。",
-     "vi": "Tôi cho tôm vào salad.",
-     "ctx": "doisong"
-    }
-   ],
-   "goc": "salad (tiếng Anh)"
-  },
-  {
-   "id": "v:ステーキ:ステーキ",
-   "kana": "ステーキ",
-   "kanji": "",
-   "hv": "",
-   "vi": "bít tết",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Ăn uống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "誕生日[たんじょうび]にステーキを食[た]べました。",
-     "vi": "Sinh nhật tôi ăn bít tết.",
-     "ctx": "doisong"
+      "id": "v:サラダ:サラダ",
+      "kana": "サラダ",
+      "kanji": "",
+      "hv": "",
+      "vi": "món rau trộn, salad",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Ăn uống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毎日[まいにち]サラダを食[た]べるようにしています。",
+          "vi": "Tôi cố ăn salad mỗi ngày.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "サラダにエビを入[い]れました。",
+          "vi": "Tôi cho tôm vào salad.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "salad (tiếng Anh)"
     },
     {
-     "jp": "このステーキは柔[やわ]らかいです。",
-     "vi": "Miếng bít tết này mềm.",
-     "ctx": "doisong"
-    }
-   ],
-   "goc": "steak (tiếng Anh)"
-  },
-  {
-   "id": "v:ハンバーグ:ハンバーグ",
-   "kana": "ハンバーグ",
-   "kanji": "",
-   "hv": "",
-   "vi": "thịt băm viên kiểu Nhật (hamburg)",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Ăn uống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "子供[こども]はハンバーグが大好[だいす]きです。",
-     "vi": "Trẻ con rất thích hamburg.",
-     "ctx": "doisong"
+      "id": "v:ステーキ:ステーキ",
+      "kana": "ステーキ",
+      "kanji": "",
+      "hv": "",
+      "vi": "bít tết",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Ăn uống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "誕生日[たんじょうび]にステーキを食[た]べました。",
+          "vi": "Sinh nhật tôi ăn bít tết.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "このステーキは柔[やわ]らかいです。",
+          "vi": "Miếng bít tết này mềm.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "steak (tiếng Anh)"
     },
     {
-     "jp": "食堂[しょくどう]のハンバーグ定食[ていしょく]は安[やす]いです。",
-     "vi": "Suất hamburg ở nhà ăn rẻ.",
-     "ctx": "xuong"
-    }
-   ],
-   "goc": "Hamburg steak (tiếng Anh)",
-   "wasei": true
-  },
-  {
-   "id": "v:サンドイッチ:サンドイッチ",
-   "kana": "サンドイッチ",
-   "kanji": "",
-   "hv": "",
-   "vi": "bánh mì kẹp, sandwich",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Ăn uống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "昼[ひる]ご飯[はん]にサンドイッチを買[か]いました。",
-     "vi": "Bữa trưa tôi mua sandwich.",
-     "ctx": "doisong"
+      "id": "v:ハンバーグ:ハンバーグ",
+      "kana": "ハンバーグ",
+      "kanji": "",
+      "hv": "",
+      "vi": "thịt băm viên kiểu Nhật (hamburg)",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Ăn uống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "子供[こども]はハンバーグが大好[だいす]きです。",
+          "vi": "Trẻ con rất thích hamburg.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "食堂[しょくどう]のハンバーグ定食[ていしょく]は安[やす]いです。",
+          "vi": "Suất hamburg ở nhà ăn rẻ.",
+          "ctx": "xuong"
+        }
+      ],
+      "goc": "Hamburg steak (tiếng Anh)",
+      "wasei": true
     },
     {
-     "jp": "コンビニのサンドイッチは便利[べんり]です。",
-     "vi": "Sandwich ở cửa hàng tiện lợi tiện lắm.",
-     "ctx": "doisong"
-    }
-   ],
-   "goc": "sandwich (tiếng Anh)"
-  },
-  {
-   "id": "v:ジャム:ジャム",
-   "kana": "ジャム",
-   "kanji": "",
-   "hv": "",
-   "vi": "mứt",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Ăn uống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "パンにジャムを塗[ぬ]ります。",
-     "vi": "Phết mứt lên bánh mì.",
-     "ctx": "doisong"
+      "id": "v:サンドイッチ:サンドイッチ",
+      "kana": "サンドイッチ",
+      "kanji": "",
+      "hv": "",
+      "vi": "bánh mì kẹp, sandwich",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Ăn uống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "昼[ひる]ご飯[はん]にサンドイッチを買[か]いました。",
+          "vi": "Bữa trưa tôi mua sandwich.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "コンビニのサンドイッチは便利[べんり]です。",
+          "vi": "Sandwich ở cửa hàng tiện lợi tiện lắm.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "sandwich (tiếng Anh)"
     },
     {
-     "jp": "いちごのジャムが好[す]きです。",
-     "vi": "Tôi thích mứt dâu.",
-     "ctx": "doisong"
-    }
-   ],
-   "goc": "jam (tiếng Anh)"
-  },
-  {
-   "id": "v:ケーキ:ケーキ",
-   "kana": "ケーキ",
-   "kanji": "",
-   "hv": "",
-   "vi": "bánh ngọt, bánh kem",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Ăn uống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "誕生日[たんじょうび]にケーキを買[か]いました。",
-     "vi": "Sinh nhật tôi mua bánh kem.",
-     "ctx": "doisong"
+      "id": "v:ジャム:ジャム",
+      "kana": "ジャム",
+      "kanji": "",
+      "hv": "",
+      "vi": "mứt",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Ăn uống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "パンにジャムを塗[ぬ]ります。",
+          "vi": "Phết mứt lên bánh mì.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "いちごのジャムが好[す]きです。",
+          "vi": "Tôi thích mứt dâu.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "jam (tiếng Anh)"
     },
     {
-     "jp": "会社[かいしゃ]でケーキをもらいました。",
-     "vi": "Tôi được cho bánh ngọt ở công ty.",
-     "ctx": "xuong"
-    }
-   ],
-   "goc": "cake (tiếng Anh)"
-  },
-  {
-   "id": "v:ぶどう:ぶどう",
-   "kana": "ぶどう",
-   "kanji": "",
-   "hv": "",
-   "vi": "nho",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Ăn uống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "山梨県[やまなしけん]はぶどうが有名[ゆうめい]です。",
-     "vi": "Tỉnh Yamanashi nổi tiếng nho.",
-     "ctx": "doisong"
+      "id": "v:ケーキ:ケーキ",
+      "kana": "ケーキ",
+      "kanji": "",
+      "hv": "",
+      "vi": "bánh ngọt, bánh kem",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Ăn uống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "誕生日[たんじょうび]にケーキを買[か]いました。",
+          "vi": "Sinh nhật tôi mua bánh kem.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "会社[かいしゃ]でケーキをもらいました。",
+          "vi": "Tôi được cho bánh ngọt ở công ty.",
+          "ctx": "xuong"
+        }
+      ],
+      "goc": "cake (tiếng Anh)"
     },
     {
-     "jp": "ぶどうを一房[かずふさ]買[か]いました。",
-     "vi": "Tôi mua một chùm nho.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:食料品:しょくりょうひん",
-   "kana": "しょくりょうひん",
-   "kanji": "食料品",
-   "hv": "THỰC LIỆU PHẨM",
-   "vi": "thực phẩm (hàng hóa)",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Ăn uống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "食料品[しょくりょうひん]は、スーパーの一階[いっかい]です。",
-     "vi": "Thực phẩm ở tầng 1 siêu thị.",
-     "ctx": "doisong"
+      "id": "v:ぶどう:ぶどう",
+      "kana": "ぶどう",
+      "kanji": "",
+      "hv": "",
+      "vi": "nho",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Ăn uống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "山梨県[やまなしけん]はぶどうが有名[ゆうめい]です。",
+          "vi": "Tỉnh Yamanashi nổi tiếng nho.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "ぶどうを一房[かずふさ]買[か]いました。",
+          "vi": "Tôi mua một chùm nho.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "この工場[こうじょう]は食料品[しょくりょうひん]を作[つく]っているので、衛生[えいせい]が大事[だいじ]です。",
-     "vi": "Nhà máy này làm thực phẩm nên vệ sinh quan trọng.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    {
-     "w": "食品[しょくひん]",
-     "vi": "thực phẩm"
-    }
-   ]
-  },
-  {
-   "id": "v:ごちそう:ごちそう",
-   "kana": "ごちそう",
-   "kanji": "",
-   "hv": "",
-   "vi": "bữa ăn thịnh soạn; khao, đãi",
-   "pos": "n-suru",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Ăn uống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "正月[しょうがつ]はごちそうを食[た]べます。",
-     "vi": "Tết ăn những món ngon.",
-     "ctx": "doisong"
+      "id": "v:食料品:しょくりょうひん",
+      "kana": "しょくりょうひん",
+      "kanji": "食料品",
+      "hv": "THỰC LIỆU PHẨM",
+      "vi": "thực phẩm (hàng hóa)",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Ăn uống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "食料品[しょくりょうひん]は、スーパーの一階[いっかい]です。",
+          "vi": "Thực phẩm ở tầng 1 siêu thị.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この工場[こうじょう]は食料品[しょくりょうひん]を作[つく]っているので、衛生[えいせい]が大事[だいじ]です。",
+          "vi": "Nhà máy này làm thực phẩm nên vệ sinh quan trọng.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        {
+          "w": "食品[しょくひん]",
+          "vi": "thực phẩm"
+        }
+      ]
     },
     {
-     "jp": "先輩[せんぱい]が昼[ひる]ご飯[はん]をごちそうしてくれました。",
-     "vi": "Đàn anh khao tôi bữa trưa.",
-     "ctx": "xuong"
+      "id": "v:ごちそう:ごちそう",
+      "kana": "ごちそう",
+      "kanji": "",
+      "hv": "",
+      "vi": "khao, đãi; bữa ăn thịnh soạn",
+      "pos": "n-suru",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Ăn uống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "正月[しょうがつ]はごちそうを食[た]べます。",
+          "vi": "Tết ăn những món ngon.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "先輩[せんぱい]が昼[ひる]ご飯[はん]をごちそうしてくれました。",
+          "vi": "Đàn anh khao tôi bữa trưa.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：ごちそうさまでした。B：お粗末[そまつ]さまでした。",
+          "vi": "A: Cảm ơn vì bữa ăn. B: Có gì đâu.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "昼[ひる]ご飯[はん]をごちそうする",
+          "vi": "khao bữa trưa"
+        }
+      ],
+      "note": "ごちそうさまでした = câu cảm ơn sau khi ăn."
     },
     {
-     "jp": "A：ごちそうさまでした。B：お粗末[そまつ]さまでした。",
-     "vi": "A: Cảm ơn vì bữa ăn. B: Có gì đâu.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "昼[ひる]ご飯[はん]をごちそうする",
-     "vi": "khao bữa trưa"
-    }
-   ],
-   "note": "ごちそうさまでした = câu cảm ơn sau khi ăn."
-  },
-  {
-   "id": "v:値段:ねだん",
-   "kana": "ねだん",
-   "kanji": "値段",
-   "hv": "TRỊ ĐOẠN",
-   "vi": "giá cả",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Mua sắm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この服[ふく]の値段[ねだん]はいくらですか。",
-     "vi": "Bộ này giá bao nhiêu?",
-     "ctx": "doisong"
+      "id": "v:値段:ねだん",
+      "kana": "ねだん",
+      "kanji": "値段",
+      "hv": "TRỊ ĐOẠN",
+      "vi": "giá cả",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Mua sắm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この服[ふく]の値段[ねだん]はいくらですか。",
+          "vi": "Bộ này giá bao nhiêu?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "魚[さかな]の値段[ねだん]は、毎日[まいにち]変[か]わります。",
+          "vi": "Giá cá thay đổi mỗi ngày.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "値段[ねだん]が上[あ]がる",
+          "vi": "giá tăng"
+        }
+      ]
     },
     {
-     "jp": "魚[さかな]の値段[ねだん]は、毎日[まいにち]変[か]わります。",
-     "vi": "Giá cá thay đổi mỗi ngày.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "値段[ねだん]が上[あ]がる",
-     "vi": "giá tăng"
-    }
-   ]
-  },
-  {
-   "id": "v:おつり:おつり",
-   "kana": "おつり",
-   "kanji": "",
-   "hv": "",
-   "vi": "tiền thối, tiền thừa",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Mua sắm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "五百円[ごひゃくえん]のおつりです。",
-     "vi": "Tiền thừa 500 yên ạ.",
-     "ctx": "doisong"
+      "id": "v:おつり:おつり",
+      "kana": "おつり",
+      "kanji": "",
+      "hv": "",
+      "vi": "tiền thối, tiền thừa",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Mua sắm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "五百円[ごひゃくえん]のおつりです。",
+          "vi": "Tiền thừa 500 yên ạ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "おつりを確認[かくにん]してから、店[みせ]を出[で]ましょう。",
+          "vi": "Kiểm tra tiền thừa rồi mới rời cửa hàng.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Chữ Hán: お釣[つ]り."
     },
     {
-     "jp": "おつりを確認[かくにん]してから、店[みせ]を出[で]ましょう。",
-     "vi": "Kiểm tra tiền thừa rồi mới rời cửa hàng.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Chữ Hán: お釣[つ]り."
-  },
-  {
-   "id": "v:レジ:レジ",
-   "kana": "レジ",
-   "kanji": "",
-   "hv": "",
-   "vi": "quầy tính tiền",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Mua sắm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "レジに並[なら]んで、お金[かね]を払[はら]います。",
-     "vi": "Xếp hàng ở quầy tính tiền rồi trả tiền.",
-     "ctx": "doisong"
+      "id": "v:レジ:レジ",
+      "kana": "レジ",
+      "kanji": "",
+      "hv": "",
+      "vi": "quầy tính tiền",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Mua sắm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "レジに並[なら]んで、お金[かね]を払[はら]います。",
+          "vi": "Xếp hàng ở quầy tính tiền rồi trả tiền.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "セルフレジの使[つか]い方[かた]が分[わ]かりません。",
+          "vi": "Tôi không biết dùng quầy tự tính tiền.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "register (tiếng Anh: máy tính tiền)"
     },
     {
-     "jp": "セルフレジの使[つか]い方[かた]が分[わ]かりません。",
-     "vi": "Tôi không biết dùng quầy tự tính tiền.",
-     "ctx": "doisong"
-    }
-   ],
-   "goc": "register (tiếng Anh: máy tính tiền)"
-  },
-  {
-   "id": "v:売り場:うりば",
-   "kana": "うりば",
-   "kanji": "売り場",
-   "kf": "売[う]り場[ば]",
-   "hv": "MẠI TRƯỜNG",
-   "vi": "quầy bán, khu bán hàng",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Mua sắm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "魚[さかな]の売[う]り場[ば]はどこですか。",
-     "vi": "Quầy bán cá ở đâu?",
-     "ctx": "doisong"
+      "id": "v:売り場:うりば",
+      "kana": "うりば",
+      "kanji": "売り場",
+      "kf": "売[う]り場[ば]",
+      "hv": "MẠI TRƯỜNG",
+      "vi": "quầy bán, khu bán hàng",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Mua sắm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "魚[さかな]の売[う]り場[ば]はどこですか。",
+          "vi": "Quầy bán cá ở đâu?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "靴[くつ]売[う]り場[ば]は三階[さんがい]です。",
+          "vi": "Khu bán giày ở tầng 3.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "靴[くつ]売[う]り場[ば]は三階[さんがい]です。",
-     "vi": "Khu bán giày ở tầng 3.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:プレゼント:プレゼント",
-   "kana": "プレゼント",
-   "kanji": "",
-   "hv": "",
-   "vi": "quà tặng; tặng quà",
-   "pos": "n-suru",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Mua sắm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "母[はは]にプレゼントを送[おく]りました。",
-     "vi": "Tôi gửi quà cho mẹ.",
-     "ctx": "doisong"
+      "id": "v:プレゼント:プレゼント",
+      "kana": "プレゼント",
+      "kanji": "",
+      "hv": "",
+      "vi": "tặng quà; quà tặng",
+      "pos": "n-suru",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Mua sắm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "母[はは]にプレゼントを送[おく]りました。",
+          "vi": "Tôi gửi quà cho mẹ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "友達[ともだち]の誕生日[たんじょうび]に、時計[とけい]をプレゼントしました。",
+          "vi": "Tôi tặng bạn đồng hồ dịp sinh nhật.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:贈り物:おくりもの"
+      ],
+      "goc": "present (tiếng Anh)"
     },
     {
-     "jp": "友達[ともだち]の誕生日[たんじょうび]に、時計[とけい]をプレゼントしました。",
-     "vi": "Tôi tặng bạn đồng hồ dịp sinh nhật.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:贈り物:おくりもの"
-   ],
-   "goc": "present (tiếng Anh)"
-  },
-  {
-   "id": "v:贈り物:おくりもの",
-   "kana": "おくりもの",
-   "kanji": "贈り物",
-   "kf": "贈[おく]り物[もの]",
-   "hv": "TẶNG VẬT",
-   "vi": "quà tặng (trang trọng)",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Mua sắm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "結婚[けっこん]の贈[おく]り物[もの]を選[えら]んでいます。",
-     "vi": "Tôi đang chọn quà cưới.",
-     "ctx": "doisong"
+      "id": "v:贈り物:おくりもの",
+      "kana": "おくりもの",
+      "kanji": "贈り物",
+      "kf": "贈[おく]り物[もの]",
+      "hv": "TẶNG VẬT",
+      "vi": "quà tặng (trang trọng)",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Mua sắm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "結婚[けっこん]の贈[おく]り物[もの]を選[えら]んでいます。",
+          "vi": "Tôi đang chọn quà cưới.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この贈[おく]り物[もの]はきれいに包[つつ]んでください。",
+          "vi": "Hãy gói đẹp món quà này.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:プレゼント:プレゼント"
+      ]
     },
     {
-     "jp": "この贈[おく]り物[もの]はきれいに包[つつ]んでください。",
-     "vi": "Hãy gói đẹp món quà này.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:プレゼント:プレゼント"
-   ]
-  },
-  {
-   "id": "v:お祝い:おいわい",
-   "kana": "おいわい",
-   "kanji": "お祝い",
-   "kf": "お祝[いわ]い",
-   "hv": "CHÚC",
-   "vi": "quà mừng, lễ mừng",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Lễ hội",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "合格[ごうかく]のお祝[いわ]いをしました。",
-     "vi": "Chúng tôi ăn mừng thi đỗ.",
-     "ctx": "doisong"
+      "id": "v:お祝い:おいわい",
+      "kana": "おいわい",
+      "kanji": "お祝い",
+      "kf": "お祝[いわ]い",
+      "hv": "CHÚC",
+      "vi": "quà mừng, lễ mừng",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Lễ hội",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "合格[ごうかく]のお祝[いわ]いをしました。",
+          "vi": "Chúng tôi ăn mừng thi đỗ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "結婚[けっこん]のお祝[いわ]いに、みんなでお金[かね]を集[あつ]めました。",
+          "vi": "Mọi người góp tiền mừng cưới.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        {
+          "w": "祝[いわ]う",
+          "vi": "chúc mừng"
+        }
+      ]
     },
     {
-     "jp": "結婚[けっこん]のお祝[いわ]いに、みんなでお金[かね]を集[あつ]めました。",
-     "vi": "Mọi người góp tiền mừng cưới.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    {
-     "w": "祝[いわ]う",
-     "vi": "chúc mừng"
-    }
-   ]
-  },
-  {
-   "id": "v:お礼:おれい",
-   "kana": "おれい",
-   "kanji": "お礼",
-   "kf": "お礼[れい]",
-   "hv": "LỄ",
-   "vi": "lời cảm ơn, quà cảm ơn",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Lễ hội",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "手伝[てつだ]ってくれた友達[ともだち]にお礼[れい]を言[い]いました。",
-     "vi": "Tôi cảm ơn người bạn đã giúp.",
-     "ctx": "doisong"
+      "id": "v:お礼:おれい",
+      "kana": "おれい",
+      "kanji": "お礼",
+      "kf": "お礼[れい]",
+      "hv": "LỄ",
+      "vi": "lời cảm ơn, quà cảm ơn",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Lễ hội",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "手伝[てつだ]ってくれた友達[ともだち]にお礼[れい]を言[い]いました。",
+          "vi": "Tôi cảm ơn người bạn đã giúp.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "お世話[せわ]になった先輩[せんぱい]に、お礼[れい]のお菓子[かし]を渡[わた]しました。",
+          "vi": "Tôi tặng bánh cảm ơn đàn anh đã giúp đỡ.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "お礼[れい]を言[い]う",
+          "vi": "nói lời cảm ơn"
+        }
+      ]
     },
     {
-     "jp": "お世話[せわ]になった先輩[せんぱい]に、お礼[れい]のお菓子[かし]を渡[わた]しました。",
-     "vi": "Tôi tặng bánh cảm ơn đàn anh đã giúp đỡ.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "お礼[れい]を言[い]う",
-     "vi": "nói lời cảm ơn"
-    }
-   ]
-  },
-  {
-   "id": "v:お見舞い:おみまい",
-   "kana": "おみまい",
-   "kanji": "お見舞い",
-   "kf": "お見舞[みま]い",
-   "hv": "KIẾN VŨ",
-   "vi": "thăm người ốm; quà thăm bệnh",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Lễ hội",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "入院[にゅういん]した友達[ともだち]のお見舞[みま]いに行[い]きました。",
-     "vi": "Tôi đi thăm bạn nằm viện.",
-     "ctx": "doisong"
+      "id": "v:お見舞い:おみまい",
+      "kana": "おみまい",
+      "kanji": "お見舞い",
+      "kf": "お見舞[みま]い",
+      "hv": "KIẾN VŨ",
+      "vi": "thăm người ốm; quà thăm bệnh",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Lễ hội",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "入院[にゅういん]した友達[ともだち]のお見舞[みま]いに行[い]きました。",
+          "vi": "Tôi đi thăm bạn nằm viện.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "お見舞[みま]いに果物[くだもの]を持[も]って行[い]きます。",
+          "vi": "Mang hoa quả đi thăm bệnh.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "お見舞[みま]いに果物[くだもの]を持[も]って行[い]きます。",
-     "vi": "Mang hoa quả đi thăm bệnh.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:お金持ち:おかねもち",
-   "kana": "おかねもち",
-   "kanji": "お金持ち",
-   "kf": "お金持[かねも]ち",
-   "hv": "KIM TRÌ",
-   "vi": "người giàu",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Đời sống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "お金持[かねも]ちになりたいです。",
-     "vi": "Tôi muốn thành người giàu.",
-     "ctx": "doisong"
+      "id": "v:お金持ち:おかねもち",
+      "kana": "おかねもち",
+      "kanji": "お金持ち",
+      "kf": "お金持[かねも]ち",
+      "hv": "KIM TRÌ",
+      "vi": "người giàu",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Đời sống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "お金持[かねも]ちになりたいです。",
+          "vi": "Tôi muốn thành người giàu.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "あの人[ひと]はお金持[かねも]ちだそうです。",
+          "vi": "Nghe nói người đó giàu.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "あの人[ひと]はお金持[かねも]ちだそうです。",
-     "vi": "Nghe nói người đó giàu.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:正月:しょうがつ",
-   "kana": "しょうがつ",
-   "kanji": "正月",
-   "hv": "CHÍNH NGUYỆT",
-   "vi": "Tết (năm mới)",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Lễ hội",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "正月[しょうがつ]は国[くに]に帰[かえ]ります。",
-     "vi": "Tết tôi về nước.",
-     "ctx": "doisong"
+      "id": "v:正月:しょうがつ",
+      "kana": "しょうがつ",
+      "kanji": "正月",
+      "hv": "CHÍNH NGUYỆT",
+      "vi": "Tết (năm mới)",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Lễ hội",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "正月[しょうがつ]は国[くに]に帰[かえ]ります。",
+          "vi": "Tết tôi về nước.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "正月[しょうがつ]の休[やす]みは一週間[いっしゅうかん]です。",
+          "vi": "Nghỉ Tết một tuần.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Thường nói お正月[しょうがつ]. Tết Nhật là 1/1 dương lịch."
     },
     {
-     "jp": "正月[しょうがつ]の休[やす]みは一週間[いっしゅうかん]です。",
-     "vi": "Nghỉ Tết một tuần.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Thường nói お正月[しょうがつ]. Tết Nhật là 1/1 dương lịch."
-  },
-  {
-   "id": "v:お祭り:おまつり",
-   "kana": "おまつり",
-   "kanji": "お祭り",
-   "kf": "お祭[まつ]り",
-   "hv": "TẾ",
-   "vi": "lễ hội",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Lễ hội",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "夏[なつ]にお祭[まつ]りがあります。",
-     "vi": "Mùa hè có lễ hội.",
-     "ctx": "doisong"
+      "id": "v:お祭り:おまつり",
+      "kana": "おまつり",
+      "kanji": "お祭り",
+      "kf": "お祭[まつ]り",
+      "hv": "TẾ",
+      "vi": "lễ hội",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Lễ hội",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "夏[なつ]にお祭[まつ]りがあります。",
+          "vi": "Mùa hè có lễ hội.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "お祭[まつ]りの日[ひ]は、工場[こうじょう]も早[はや]く終[お]わります。",
+          "vi": "Ngày lễ hội nhà máy cũng xong sớm.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "お祭[まつ]りの日[ひ]は、工場[こうじょう]も早[はや]く終[お]わります。",
-     "vi": "Ngày lễ hội nhà máy cũng xong sớm.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:花見:はなみ",
-   "kana": "はなみ",
-   "kanji": "花見",
-   "hv": "HOA KIẾN",
-   "vi": "ngắm hoa (anh đào)",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Lễ hội",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会社[かいしゃ]のみんなで花見[はなみ]をしました。",
-     "vi": "Cả công ty cùng đi ngắm hoa.",
-     "ctx": "xuong"
+      "id": "v:花見:はなみ",
+      "kana": "はなみ",
+      "kanji": "花見",
+      "hv": "HOA KIẾN",
+      "vi": "ngắm hoa (anh đào)",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Lễ hội",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]のみんなで花見[はなみ]をしました。",
+          "vi": "Cả công ty cùng đi ngắm hoa.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "花見[はなみ]の場所[ばしょ]はもう人[ひと]がいっぱいです。",
+          "vi": "Chỗ ngắm hoa đã đông người.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Thường nói お花見[はなみ]."
     },
     {
-     "jp": "花見[はなみ]の場所[ばしょ]はもう人[ひと]がいっぱいです。",
-     "vi": "Chỗ ngắm hoa đã đông người.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Thường nói お花見[はなみ]."
-  },
-  {
-   "id": "v:踊り:おどり",
-   "kana": "おどり",
-   "kanji": "踊り",
-   "kf": "踊[おど]り",
-   "hv": "DŨNG",
-   "vi": "điệu múa, điệu nhảy",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Lễ hội",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "夏祭[なつまつ]りで、盆踊[ぼんおど]りを踊[おど]りました。",
-     "vi": "Lễ hội hè tôi nhảy điệu Bon-odori.",
-     "ctx": "doisong"
+      "id": "v:踊り:おどり",
+      "kana": "おどり",
+      "kanji": "踊り",
+      "kf": "踊[おど]り",
+      "hv": "DŨNG",
+      "vi": "điệu múa, điệu nhảy",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Lễ hội",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "夏祭[なつまつ]りで、盆踊[ぼんおど]りを踊[おど]りました。",
+          "vi": "Lễ hội hè tôi nhảy điệu Bon-odori.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "ベトナムの踊[おど]りを紹介[しょうかい]しました。",
+          "vi": "Tôi giới thiệu điệu múa Việt Nam.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:踊る:おどる"
+      ]
     },
     {
-     "jp": "ベトナムの踊[おど]りを紹介[しょうかい]しました。",
-     "vi": "Tôi giới thiệu điệu múa Việt Nam.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:踊る:おどる"
-   ]
-  },
-  {
-   "id": "v:遊び:あそび",
-   "kana": "あそび",
-   "kanji": "遊び",
-   "kf": "遊[あそ]び",
-   "hv": "DU",
-   "vi": "trò chơi, việc đi chơi",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Đời sống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "子供[こども]の遊[あそ]びを見[み]ています。",
-     "vi": "Tôi đang xem trò chơi của bọn trẻ.",
-     "ctx": "doisong"
+      "id": "v:遊び:あそび",
+      "kana": "あそび",
+      "kanji": "遊び",
+      "kf": "遊[あそ]び",
+      "hv": "DU",
+      "vi": "trò chơi, việc đi chơi",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Đời sống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "子供[こども]の遊[あそ]びを見[み]ています。",
+          "vi": "Tôi đang xem trò chơi của bọn trẻ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今度[こんど]、うちに遊[あそ]びに来[き]てください。",
+          "vi": "Lần tới đến nhà tôi chơi nhé.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:遊ぶ:あそぶ"
+      ]
     },
     {
-     "jp": "今度[こんど]、うちに遊[あそ]びに来[き]てください。",
-     "vi": "Lần tới đến nhà tôi chơi nhé.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:遊ぶ:あそぶ"
-   ]
-  },
-  {
-   "id": "v:見物:けんぶつ",
-   "kana": "けんぶつ",
-   "kanji": "見物",
-   "hv": "KIẾN VẬT",
-   "vi": "tham quan, ngắm cảnh",
-   "pos": "n-suru",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Lễ hội",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "京都[きょうと]でお寺[てら]を見物[けんぶつ]しました。",
-     "vi": "Tôi tham quan chùa ở Kyoto.",
-     "ctx": "doisong"
+      "id": "v:見物:けんぶつ",
+      "kana": "けんぶつ",
+      "kanji": "見物",
+      "hv": "KIẾN VẬT",
+      "vi": "tham quan, ngắm cảnh",
+      "pos": "n-suru",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Lễ hội",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "京都[きょうと]でお寺[てら]を見物[けんぶつ]しました。",
+          "vi": "Tôi tham quan chùa ở Kyoto.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "お祭[まつ]りの見物[けんぶつ]に、たくさん人[ひと]が来[き]ました。",
+          "vi": "Nhiều người đến xem lễ hội.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "町[まち]を見物[けんぶつ]する",
+          "vi": "tham quan phố phường"
+        }
+      ],
+      "syn": [
+        {
+          "w": "観光[かんこう]",
+          "vi": "du lịch, tham quan"
+        }
+      ]
     },
     {
-     "jp": "お祭[まつ]りの見物[けんぶつ]に、たくさん人[ひと]が来[き]ました。",
-     "vi": "Nhiều người đến xem lễ hội.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "町[まち]を見物[けんぶつ]する",
-     "vi": "tham quan phố phường"
-    }
-   ],
-   "syn": [
-    {
-     "w": "観光[かんこう]",
-     "vi": "du lịch, tham quan"
-    }
-   ]
-  },
-  {
-   "id": "v:アルコール:アルコール",
-   "kana": "アルコール",
-   "kanji": "",
-   "hv": "",
-   "vi": "cồn; rượu bia",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Ăn uống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "アルコールで手[て]を消毒[しょうどく]してください。",
-     "vi": "Hãy sát khuẩn tay bằng cồn.",
-     "ctx": "xuong"
+      "id": "v:アルコール:アルコール",
+      "kana": "アルコール",
+      "kanji": "",
+      "hv": "",
+      "vi": "cồn; rượu bia",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Ăn uống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "アルコールで手[て]を消毒[しょうどく]してください。",
+          "vi": "Hãy sát khuẩn tay bằng cồn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "アルコールは、あまり飲[の]みません。",
+          "vi": "Tôi không uống rượu bia mấy.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "alcohol (tiếng Hà Lan / Anh)"
     },
     {
-     "jp": "アルコールは、あまり飲[の]みません。",
-     "vi": "Tôi không uống rượu bia mấy.",
-     "ctx": "doisong"
-    }
-   ],
-   "goc": "alcohol (tiếng Hà Lan / Anh)"
-  },
-  {
-   "id": "v:ガソリン:ガソリン",
-   "kana": "ガソリン",
-   "kanji": "",
-   "hv": "",
-   "vi": "xăng",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Đời sống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ガソリンの値段[ねだん]が上[あ]がりました。",
-     "vi": "Giá xăng tăng.",
-     "ctx": "doisong"
+      "id": "v:ガソリン:ガソリン",
+      "kana": "ガソリン",
+      "kanji": "",
+      "hv": "",
+      "vi": "xăng",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Đời sống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ガソリンの値段[ねだん]が上[あ]がりました。",
+          "vi": "Giá xăng tăng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "車[くるま]にガソリンを入[い]れます。",
+          "vi": "Đổ xăng cho xe.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "gasoline (tiếng Anh)"
     },
     {
-     "jp": "車[くるま]にガソリンを入[い]れます。",
-     "vi": "Đổ xăng cho xe.",
-     "ctx": "doisong"
+      "id": "v:ガソリンスタンド:ガソリンスタンド",
+      "kana": "ガソリンスタンド",
+      "kanji": "",
+      "hv": "",
+      "vi": "trạm xăng",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt",
+        "doisong"
+      ],
+      "sub": "Đời sống",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "近[ちか]くにガソリンスタンドはありますか。",
+          "vi": "Gần đây có trạm xăng không?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "ガソリンスタンドで、アルバイトをしています。",
+          "vi": "Tôi làm thêm ở trạm xăng.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "gasoline + stand (ghép kiểu Nhật)",
+      "wasei": true
     }
-   ],
-   "goc": "gasoline (tiếng Anh)"
-  },
-  {
-   "id": "v:ガソリンスタンド:ガソリンスタンド",
-   "kana": "ガソリンスタンド",
-   "kanji": "",
-   "hv": "",
-   "vi": "trạm xăng",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt",
-    "doisong"
-   ],
-   "sub": "Đời sống",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "近[ちか]くにガソリンスタンドはありますか。",
-     "vi": "Gần đây có trạm xăng không?",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "ガソリンスタンドで、アルバイトをしています。",
-     "vi": "Tôi làm thêm ở trạm xăng.",
-     "ctx": "doisong"
-    }
-   ],
-   "goc": "gasoline + stand (ghép kiểu Nhật)",
-   "wasei": true
-  }
- ]
+  ]
 }
