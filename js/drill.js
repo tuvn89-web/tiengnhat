@@ -146,6 +146,7 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     // đã trả lời câu nào thì dừng là ra màn kết quả (tính là đã làm), chưa trả lời thì quay lại trang trước
     view.querySelector('[data-act=quit]').onclick = () => (st.i > 0 || st.res.length ? finish(true) : goBack(ctx));
     if (q.autoSay && q.say) setTimeout(() => speak(q.say), 150);
+    q.onShow?.call(q, view);
     if (q.kind === 'choice') {
       view.querySelectorAll('.opt').forEach(b => b.onclick = () => answer(q, b.dataset.k === q.answer, b));
       setKeys(e => { if (st.lock) return; const n = +e.key; if (n >= 1 && n <= q.opts.length) view.querySelectorAll('.opt')[n - 1].click(); });
@@ -342,7 +343,7 @@ function renderResult(view, ctx, { title, test, early, res, total, score, again,
       <p class="result-score"><b>${score}</b><span>/${test ? total : answered}</span></p>
       <p class="result-sub">${test ? `${pct}% · ${answered < total ? `bỏ trống ${total - answered} câu` : 'làm đủ các câu'}` : 'câu đúng ngay lần đầu'}</p>
       ${test ? `<table class="topics bytag"><tbody>${Object.entries(byTag).map(([t, [a, b]]) => `<tr><th scope="row">${esc(t)}</th><td><span class="mini"><i style="width:${(a / b) * 100}%"></i></span></td><td class="num">${a}/${b}</td></tr>`).join('')}</tbody></table>` : ''}
-      ${wrong.length ? `<h2 class="h2">${test ? 'Câu sai và câu bỏ trống' : 'Câu trả lời sai'}</h2><ul class="wlist wlist-drill">${wrong.map(r => `<li><span class="muted small">${esc(r.q.tag || '')}</span><div class="wq">${r.q.prompt}</div>${test || r.q.kind === 'type' ? chosenHTML(r) : ''}<p>Đáp án: <b lang="ja">${ansHTML(r.q)}</b></p>${r.q.after || ''}${answerExplainHTML(r.q, { open: false })}</li>`).join('')}</ul>` : answered ? '<p class="result-good">Không sai câu nào.</p>' : ''}
+      ${wrong.length ? `<h2 class="h2">${test ? 'Câu sai và câu bỏ trống' : 'Câu trả lời sai'}</h2><ul class="wlist wlist-drill">${wrong.map(r => `<li><span class="muted small">${esc(r.q.tag || '')}</span><div class="wq">${r.q.reviewPrompt || r.q.prompt}</div>${test || r.q.kind === 'type' ? chosenHTML(r) : ''}<p>Đáp án: <b lang="ja">${ansHTML(r.q)}</b></p>${r.q.after || ''}${answerExplainHTML(r.q, { open: false })}</li>`).join('')}</ul>` : answered ? '<p class="result-good">Không sai câu nào.</p>' : ''}
       <div class="row-btns stack">
         ${wrong.length && redo ? `<button class="btn btn-primary" data-act="redo">${test ? 'Luyện lại các câu sai (không tính điểm)' : 'Làm lại câu sai'}</button>` : ''}
         ${again ? `<button class="btn ${wrong.length && redo && !againLabel ? 'btn-ghost' : 'btn-primary'}" data-act="again">${test ? 'Làm đề mới' : esc(againLabel || 'Lượt mới')}</button>` : ''}
@@ -413,6 +414,7 @@ function runTest(view, qs, ctx, { title, timeLimit, again, noReview = false, onD
       else if (e.key === 'ArrowRight' && st.i < n - 1) go(st.i + 1);
     });
     if (q.autoSay && q.say) setTimeout(() => speak(q.say), 150);
+    q.onShow?.call(q, view); // v43: câu tự gắn thêm (vd. nút nghe hội thoại của đề thi thử JLPT)
   }
   function pick(key) {
     st.ans[st.i] = key; st.later.delete(st.i);

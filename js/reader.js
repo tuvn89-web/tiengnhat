@@ -21,9 +21,17 @@ const docDone = id => !!D.lessons[id]?.done;
 export function renderDocList(view) {
   const all = [...D.dialog, ...D.text];
   if (!all.length) { view.innerHTML = `<a class="back" href="#/luyen">Các dạng bài</a><h1 class="h1">Hội thoại & bài đọc</h1>` + emptyState('Chưa có bài hội thoại / bài đọc nào. Skill đang soạn — có gói mới là bài hiện ở đây và trong từng bài học của Lộ trình.'); return; }
+  // v43: mỗi cấp — bài luyện thêm (không gắn bài học) hiện trước; bài mở đầu của các bài học gom vào một mục thu gọn
+  const row = x => `<li><a class="row" href="#/doc/${encodeURIComponent(x.id)}"><span class="row-jp">${icon(isDialog(x) ? 'chat' : 'book')} <b>${esc(x.title)}</b></span><span class="row-vi small">${esc(isDialog(x) ? MEDIUM[x.medium] || 'Hội thoại' : KIND[x.kind] || 'Bài đọc')} · ${esc(CTX[x.ctx] || '')}${docDone(x.id) ? ' · ✓' : ''}</span></a></li>`;
+  const block = L => {
+    const xs = all.filter(x => x.level === L), free = xs.filter(x => !x.intro), intro = xs.filter(x => x.intro);
+    const done = a => a.filter(x => docDone(x.id)).length;
+    return `<h2 class="h2">${esc(L)}</h2>${free.length ? `<p class="small muted">Bài luyện thêm · đã làm ${done(free)}/${free.length}</p><ul class="rows">${free.map(row).join('')}</ul>` : ''}
+      ${intro.length ? `<details class="doc-intros"${free.length ? '' : ' open'}><summary class="small">Bài mở đầu của các bài học (${intro.length}) · đã làm ${done(intro)}</summary><ul class="rows">${intro.map(row).join('')}</ul></details>` : ''}`;
+  };
   view.innerHTML = `<a class="back" href="#/luyen">Các dạng bài</a><h1 class="h1">Hội thoại & bài đọc</h1>
-    <p class="muted small">${D.dialog.length} bài hội thoại · ${D.text.length} bài đọc. Bài gắn với bài học nào thì cũng có trong trang bài học đó (bước 7).</p>
-    ${LEVELS.filter(L => all.some(x => x.level === L)).map(L => `<h2 class="h2">${esc(L)}</h2><ul class="rows">${all.filter(x => x.level === L).map(x => `<li><a class="row" href="#/doc/${encodeURIComponent(x.id)}"><span class="row-jp">${icon(isDialog(x) ? 'chat' : 'book')} <b>${esc(x.title)}</b></span><span class="row-vi small">${esc(isDialog(x) ? MEDIUM[x.medium] || 'Hội thoại' : KIND[x.kind] || 'Bài đọc')} · ${esc(CTX[x.ctx] || '')}${docDone(x.id) ? ' · ✓' : ''}</span></a></li>`).join('')}</ul>`).join('')}`;
+    <p class="muted small">${D.dialog.length} bài hội thoại · ${D.text.length} bài đọc. Bài luyện thêm có câu hỏi kiểu đề thi (từ N3 hỏi bằng tiếng Nhật) và được dùng trong Đề thi thử JLPT. Bài mở đầu gắn với bài học nào thì cũng có trong trang bài học đó (bước 7).</p>
+    ${LEVELS.filter(L => all.some(x => x.level === L)).map(block).join('')}`;
 }
 
 // ---------- trang một bài ----------

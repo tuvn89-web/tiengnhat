@@ -879,3 +879,45 @@ Câu ví dụ cũ chưa ghi tình huống nay được gắn nhãn, nên thẻ t
 **Tệp:**
 - Mã: `js/fxcore.js`, `js/season.js`, `js/util.js`, `sw.js`.
 - Dữ liệu: các gói `jlpt-n5-*`, `jlpt-n3-*`, `xuong-*`, `thuysan-*`, `kansai-01`, `thuevisa-01`, `jlpt-n2-23`, `jlpt-n2-33`, `data/manifest.json`.
+
+## 53. Bản v44 (21/10/2026): Đề thi thử JLPT; 60 bài đọc – hội thoại luyện thêm
+
+**Đề thi thử JLPT** (Trang chủ → Kiểm tra trình độ → "Đề thi thử JLPT"). Chọn cấp N5 / N4 / N3 / N2, chọn có tính giờ hay không.
+
+Đề chia đúng các phần thi như JLPT, có lời dẫn bằng tiếng Nhật như đề thật:
+- **漢字読み — Đọc chữ Hán:** câu có từ gạch dưới, chữ Hán để trần. Phương án sai giống đề thật: trường âm, âm ngắt っ, âm đục (がっこう / がっこ / がこう).
+- **表記 — Cách viết:** từ gạch dưới viết bằng hiragana, chọn cách viết đúng. Phương án sai là chữ trông giống hoặc chữ cùng âm Hán; từ katakana thì sai trường âm, âm đục.
+- **文脈規定 — Chọn từ theo ngữ cảnh**, **言い換え類義 — Từ gần nghĩa.**
+- **文法 — Ngữ pháp điền chỗ trống** và **câu ★.**
+- **読解 — Đọc hiểu:** bài đọc luyện thêm, thiếu thì lấy bài đọc mở đầu của các bài học.
+- **聴解 — Nghe hội thoại:**
+  - Máy tự đọc cả hội thoại khi mở câu đầu tiên của mỗi bài, mỗi người nói một giọng. Máy chỉ có một giọng tiếng Nhật thì đổi độ cao giọng cho từng người.
+  - Bấm "Nghe hội thoại" để nghe lại.
+  - N5, N4 có thêm phần **即時応答 — Đáp lời ngay**.
+
+Làm xong bấm Nộp bài mới xem đáp án.
+
+**Kết quả:**
+- Điểm quy ra thang 180 của JLPT theo từng phần thi:
+  - N5, N4: "Kiến thức ngôn ngữ · Đọc hiểu" /120 và "Nghe" /60.
+  - N3, N2: ba phần, mỗi phần /60.
+- Ước lượng đỗ / trượt theo điểm đỗ chính thức (N5 80, N4 90, N3 95, N2 90, N1 100) và điểm sàn từng phần. Chỉ là ước lượng: điểm thật của JLPT được quy đổi theo độ khó từng đề, và đề trong app ngắn hơn đề thật khoảng một nửa.
+- Bảng đúng / sai theo từng phần thi (問題), nhận xét phần yếu kèm nút "Luyện ngay".
+- Nút: học ngay các từ làm sai, luyện lại câu sai (không tính điểm), làm đề mới.
+- Kết quả **không đổi tiến độ học**; lần thi được ghi vào Lịch sử kiểm tra.
+
+Máy chưa có giọng đọc tiếng Nhật thì đề bỏ phần nghe và không ước lượng đỗ / trượt.
+
+**Bài đọc – hội thoại luyện thêm:** 60 bài mới (mỗi cấp N5–N2 có 8 hội thoại, 7 bài đọc), không gắn với bài học nào.
+- Chủ đề: hỏi đường, cửa hàng tiện lợi, gọi điện xin đi muộn, quầy 市役所, ngân hàng, thuê nhà, khám bệnh, khách hàng phàn nàn, họp tổ, đoàn kiểm tra chất lượng…
+- Dạng bài đọc: biển báo, lịch đổ rác, tin nhắn, thông báo, email, nhật ký, bài báo, tin tuyển người, báo cáo sự cố, bài luận, hai ý kiến A – B.
+- Câu hỏi: N5, N4 hỏi bằng tiếng Việt. Từ N3 hỏi bằng tiếng Nhật đúng kiểu đề thi (「このあと何をしなければなりませんか」「筆者が一番言いたいことは何か」…). Phương án sai lấy chi tiết có trong bài.
+- Trang "Hội thoại & bài đọc": mỗi cấp hiện bài luyện thêm trước, kèm số bài đã làm. Bài mở đầu của các bài học gom vào một mục thu gọn bên dưới.
+
+**Sửa cách đọc:** 21 chỗ furigana ghi phủ cả cụm chữ (vd. 午前八時 chỉ hiện はちじ, 積極的 chỉ hiện てき) trong các gói ngữ pháp, từ vựng, bài mở đầu. Nay mỗi từ có cách đọc riêng.
+
+**Tệp:**
+- Mã: `js/jlpt.js` (mới), `js/app.js`, `js/drill.js`, `js/level.js`, `js/reader.js`, `css/app.css`, `js/util.js`, `sw.js`.
+- Dữ liệu (gói mới): `hoithoai-n5-01`, `hoithoai-n4-01`, `hoithoai-n3-01`, `hoithoai-n2-01`, `baidoc-n5-01`, `baidoc-n4-01`, `baidoc-n3-01`, `baidoc-n2-01`.
+- Dữ liệu (gói sửa cách đọc): `nguphap-n2-01`, `nguphap-n3-15`, `nguphap-n3-28`, `jlpt-n2-01`, `jlpt-n2-14`, `jlpt-n3-40`, `modau-n3-10`, `modau-n4-13`, `modau-n5-04`.
+- `data/manifest.json`.

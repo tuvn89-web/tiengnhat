@@ -1,0 +1,2007 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "hoithoai-n5-01",
+  "title": "Hội thoại luyện thêm N5",
+  "type": "dialog",
+  "level": "N5",
+  "topics": [
+   "doisong",
+   "kansai",
+   "xuong"
+  ],
+  "version": 4,
+  "created": "2026-10-20",
+  "note": "Hội thoại cấp N5 không gắn bài học, có câu hỏi hiểu."
+ },
+ "items": [
+  {
+   "id": "d:lt-n5-01",
+   "title": "Hỏi đường đến bưu điện",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "ctx": "doisong",
+   "setting": "Sáng thứ Bảy, anh Nguyễn ở ga 姫路[ひめじ]. Anh muốn gửi đồ về Việt Nam nên hỏi một người phụ nữ đường đến bưu điện.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    },
+    {
+     "key": "P",
+     "name": "女[おんな]の人[ひと]",
+     "vi": "Người đi đường"
+    }
+   ],
+   "turns": [
+    {
+     "who": "B",
+     "jp": "すみません。この近[ちか]くに郵便局[ゆうびんきょく]はありますか。",
+     "vi": "Xin lỗi. Gần đây có bưu điện không ạ?",
+     "key": "郵便局[ゆうびんきょく]",
+     "alt": [
+      "すみません、郵便局[ゆうびんきょく]はどこですか。",
+      "すみません。郵便局[ゆうびんきょく]へ行[い]きたいです。"
+     ],
+     "note": "この近[ちか]くに〜はありますか = gần đây có … không? Câu hỏi đường lịch sự, dùng được ở mọi nơi.",
+     "grammar": []
+    },
+    {
+     "who": "P",
+     "jp": "郵便局[ゆうびんきょく]ですか。駅[えき]の西口[にしぐち]を出[で]て、まっすぐ行[い]ってください。銀行[ぎんこう]の隣[となり]です。",
+     "vi": "Bưu điện à? Anh ra cửa Tây của ga rồi đi thẳng. Nó ở bên cạnh ngân hàng.",
+     "key": "西口[にしぐち]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "西口[にしぐち]",
+       "vi": "cửa Tây (của ga)"
+      },
+      {
+       "w": "隣[となり]",
+       "vi": "bên cạnh"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "西口[にしぐち]ですね。歩[ある]いて、どのぐらいですか。",
+     "vi": "Cửa Tây nhỉ. Đi bộ mất khoảng bao lâu ạ?",
+     "alt": [
+      "西口[にしぐち]ですね。遠[とお]いですか。"
+     ],
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "西口[にしぐち]",
+       "vi": "cửa Tây (của ga)"
+      }
+     ]
+    },
+    {
+     "who": "P",
+     "jp": "五分[ごふん]ぐらいです。郵便局[ゆうびんきょく]の前[まえ]に、コンビニがありますよ。",
+     "vi": "Khoảng năm phút. Trước bưu điện có một cửa hàng tiện lợi đấy.",
+     "key": "コンビニ",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "分[わ]かりました。ありがとうございます。",
+     "vi": "Tôi hiểu rồi. Cảm ơn chị.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "分[わ]かりました",
+       "vi": "tôi hiểu rồi"
+      }
+     ]
+    },
+    {
+     "who": "P",
+     "jp": "あ、でも、今日[きょう]は土曜日[どようび]ですね。あの郵便局[ゆうびんきょく]は、土曜日[どようび]と日曜日[にちようび]は休[やす]みですよ。",
+     "vi": "À, nhưng hôm nay là thứ Bảy nhỉ. Bưu điện đó nghỉ thứ Bảy và Chủ nhật đấy.",
+     "key": "休[やす]み",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "えっ、そうですか。困[こま]りました。ベトナムに荷物[にもつ]を送[おく]りたいです。",
+     "vi": "Ơ, vậy ạ. Khổ quá. Tôi muốn gửi đồ về Việt Nam.",
+     "key": "荷物[にもつ]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "荷物[にもつ]",
+       "vi": "hành lý, đồ gửi"
+      },
+      {
+       "w": "送[おく]りたい",
+       "vi": "muốn gửi"
+      }
+     ]
+    },
+    {
+     "who": "P",
+     "jp": "じゃあ、駅[えき]の南[みなみ]の大[おお]きい郵便局[ゆうびんきょく]へ行[い]ってください。土曜日[どようび]も開[あ]いています。",
+     "vi": "Vậy anh đến bưu điện lớn ở phía Nam ga. Thứ Bảy nó cũng mở cửa.",
+     "key": "大[おお]きい郵便局[ゆうびんきょく]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "開[あ]いています",
+       "vi": "đang mở cửa"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "南[みなみ]の郵便局[ゆうびんきょく]ですね。ここから遠[とお]いですか。",
+     "vi": "Bưu điện phía Nam nhỉ. Từ đây có xa không ạ?",
+     "grammar": []
+    },
+    {
+     "who": "P",
+     "jp": "バスで十分[じゅっぷん]ぐらいです。三番[さんばん]のバスに乗[の]ってください。",
+     "vi": "Đi xe buýt khoảng mười phút. Anh lên xe buýt số 3 nhé.",
+     "key": "バス",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "三番[さんばん]",
+       "vi": "số 3"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "三番[さんばん]のバスですね。どうもありがとうございました。",
+     "vi": "Xe buýt số 3 nhỉ. Cảm ơn chị rất nhiều.",
+     "alt": [
+      "三番[さんばん]のバスですね。助[たす]かりました。"
+     ],
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "三番[さんばん]",
+       "vi": "số 3"
+      }
+     ]
+    },
+    {
+     "who": "P",
+     "jp": "いいえ。気[き]をつけて。",
+     "vi": "Không có gì. Đi cẩn thận nhé.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "気[き]をつけて",
+       "vi": "cẩn thận"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Bưu điện gần ga ở đâu?",
+     "opts": [
+      "Ra cửa Tây đi thẳng, cạnh ngân hàng",
+      "Ra cửa Tây đi thẳng, cạnh cửa hàng tiện lợi",
+      "Ở phía Nam ga, cạnh ngân hàng",
+      "Ở phía Nam ga, trước bến xe buýt"
+     ],
+     "ans": 0,
+     "why": "Người phụ nữ nói: 駅[えき]の西口[にしぐち]を出[で]て、まっすぐ行[い]ってください。銀行[ぎんこう]の隣[となり]です。 Cửa hàng tiện lợi ở trước bưu điện, không phải bên cạnh."
+    },
+    {
+     "q": "Vì sao anh Nguyễn không đến bưu điện gần ga?",
+     "opts": [
+      "Vì hôm nay thứ Bảy, bưu điện đó nghỉ",
+      "Vì bưu điện đó xa, đi bộ mất mười phút",
+      "Vì bưu điện đó không gửi đồ về Việt Nam",
+      "Vì anh không tìm thấy cửa Tây của ga"
+     ],
+     "ans": 0,
+     "why": "あの郵便局[ゆうびんきょく]は、土曜日[どようび]と日曜日[にちようび]は休[やす]みですよ。 Đi bộ chỉ mất khoảng năm phút."
+    },
+    {
+     "q": "Anh Nguyễn đến bưu điện lớn bằng cách nào?",
+     "opts": [
+      "Đi xe buýt số 3, khoảng mười phút",
+      "Đi bộ khoảng năm phút",
+      "Đi xe buýt số 10, khoảng ba phút",
+      "Đi tàu đến ga phía Nam"
+     ],
+     "ans": 0,
+     "why": "バスで十分[じゅっぷん]ぐらいです。三番[さんばん]のバスに乗[の]ってください。"
+    }
+   ]
+  },
+  {
+   "id": "d:lt-n5-02",
+   "title": "Ở cửa hàng tiện lợi: hâm cơm hộp",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "ctx": "doisong",
+   "setting": "Chiều tối sau giờ làm, anh Nguyễn mua hai hộp cơm và một chai trà ở cửa hàng tiện lợi gần xưởng: một hộp cho mình, một hộp cho bạn cùng phòng.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "S",
+     "name": "店員[てんいん]",
+     "vi": "Nhân viên cửa hàng"
+    },
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    }
+   ],
+   "turns": [
+    {
+     "who": "S",
+     "jp": "いらっしゃいませ。お弁当[べんとう]は温[あたた]めますか。",
+     "vi": "Xin mời quý khách. Quý khách có hâm nóng cơm hộp không ạ?",
+     "key": "温[あたた]めますか",
+     "note": "お弁当[べんとう]は温[あたた]めますか: câu nhân viên cửa hàng tiện lợi gần như luôn hỏi khi khách mua cơm hộp. Trả lời はい、お願[ねが]いします (có) hoặc いいえ、大丈夫[だいじょうぶ]です (không cần).",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "温[あたた]めます",
+       "vi": "hâm nóng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、お願[ねが]いします。でも、こっちは温[あたた]めないでください。ルームメイトの晩[ばん]ご飯[はん]です。",
+     "vi": "Có ạ. Nhưng hộp này thì đừng hâm. Là cơm tối của bạn cùng phòng tôi.",
+     "key": "晩[ばん]ご飯[はん]",
+     "alt": [
+      "はい、お願[ねが]いします。でも、こっちのお弁当[べんとう]は温[あたた]めなくてもいいです。"
+     ],
+     "grammar": [
+      "g:〜ないでください"
+     ],
+     "gloss": [
+      {
+       "w": "温[ぬる]めない",
+       "vi": "không hâm nóng"
+      },
+      {
+       "w": "ルームメイト",
+       "vi": "bạn cùng phòng"
+      },
+      {
+       "w": "温[あたた]める",
+       "vi": "hâm nóng, làm ấm (đồ ăn, đồ vật)"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "分[わ]かりました。こちらだけですね。少々[しょうしょう]お待[ま]ちください。",
+     "vi": "Vâng ạ. Chỉ hộp này thôi nhỉ. Xin quý khách chờ một chút.",
+     "key": "少々[しょうしょう]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "少々[しょうしょう]",
+       "vi": "một chút"
+      },
+      {
+       "w": "お待[ま]ちください",
+       "vi": "xin chờ (lịch sự)"
+      },
+      {
+       "w": "分[わ]かりました",
+       "vi": "tôi hiểu rồi"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "袋[ふくろ]はいりますか。一枚[いちまい]三円[さんえん]です。",
+     "vi": "Quý khách có cần túi không ạ? Một cái 3 yên.",
+     "key": "袋[ふくろ]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "一枚[いちまい]",
+       "vi": "một cái (vật mỏng)"
+      },
+      {
+       "w": "袋[ふくろ]",
+       "vi": "túi (đựng đồ)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いいえ、いりません。自分[じぶん]の袋[ふくろ]があります。",
+     "vi": "Không, tôi không cần. Tôi có túi riêng.",
+     "alt": [
+      "いいえ、大丈夫[だいじょうぶ]です。袋[ふくろ]を持[も]っています。"
+     ],
+     "note": "Ở Nhật, túi ni lông ở cửa hàng phải trả tiền, nên nhiều người mang theo túi riêng (エコバッグ).",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "自分[じぶん]",
+       "vi": "bản thân, tự mình"
+      },
+      {
+       "w": "袋[ふくろ]",
+       "vi": "túi (đựng đồ)"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "お箸[はし]は二[ふた]つでいいですか。",
+     "vi": "Đũa thì hai đôi được không ạ?",
+     "key": "お箸[はし]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "お箸[はし]",
+       "vi": "đũa"
+      },
+      {
+       "w": "二[ふた]つでいい",
+       "vi": "hai (đôi) là được"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、お願[ねが]いします。",
+     "vi": "Vâng, nhờ chị.",
+     "grammar": []
+    },
+    {
+     "who": "S",
+     "jp": "お弁当[べんとう]二[ふた]つとお茶[ちゃ]で、全部[ぜんぶ]で千二百円[せんにひゃくえん]です。",
+     "vi": "Hai hộp cơm và trà, tất cả là 1.200 yên.",
+     "key": "全部[ぜんぶ]で",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "はい、二千円[にせんえん]です。",
+     "vi": "Vâng, đây là 2.000 yên.",
+     "grammar": []
+    },
+    {
+     "who": "S",
+     "jp": "八百円[はっぴゃくえん]のお返[かえ]しです。ありがとうございました。",
+     "vi": "Trả lại quý khách 800 yên. Cảm ơn quý khách.",
+     "key": "お返[かえ]し",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "お返[かえ]し",
+       "vi": "tiền thừa trả lại"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "お待[ま]たせしました。温[あたた]かいお弁当[べんとう]です。熱[あつ]いですから、気[き]をつけてください。",
+     "vi": "Xin lỗi đã để quý khách chờ. Đây là hộp cơm đã hâm. Nóng đấy, quý khách cẩn thận nhé.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "お待[ま]たせしました",
+       "vi": "xin lỗi đã để chờ"
+      },
+      {
+       "w": "温[あたた]かい",
+       "vi": "ấm, nóng (đồ ăn)"
+      },
+      {
+       "w": "熱[あつ]い",
+       "vi": "nóng"
+      },
+      {
+       "w": "気[き]をつけて",
+       "vi": "cẩn thận"
+      },
+      {
+       "w": "ですから",
+       "vi": "vì vậy (lịch sự)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ありがとうございます。",
+     "vi": "Cảm ơn chị.",
+     "grammar": []
+    }
+   ],
+   "questions": [
+    {
+     "q": "Anh Nguyễn nhờ nhân viên làm gì với hai hộp cơm?",
+     "opts": [
+      "Hâm một hộp, không hâm hộp của bạn cùng phòng",
+      "Hâm nóng cả hai hộp cơm",
+      "Không hâm hộp nào, về nhà mới hâm",
+      "Hâm hộp của bạn cùng phòng, không hâm hộp của mình"
+     ],
+     "ans": 0,
+     "why": "でも、こっちは温[あたた]めないでください。ルームメイトの晩[ばん]ご飯[はん]です。 Nhân viên nhắc lại: こちらだけですね (chỉ hộp này thôi)."
+    },
+    {
+     "q": "Vì sao anh Nguyễn không lấy túi?",
+     "opts": [
+      "Vì anh có túi riêng",
+      "Vì một cái túi giá 3 yên",
+      "Vì cửa hàng hết túi",
+      "Vì anh chỉ mua một chai trà"
+     ],
+     "ans": 0,
+     "why": "自分[じぶん]の袋[ふくろ]があります。 Giá 3 yên là lời nhân viên, không phải lý do anh từ chối."
+    },
+    {
+     "q": "Anh Nguyễn đưa bao nhiêu tiền và nhận lại bao nhiêu?",
+     "opts": [
+      "Đưa 2.000 yên, nhận lại 800 yên",
+      "Đưa 1.200 yên, nhận lại 800 yên",
+      "Đưa 2.000 yên, nhận lại 1.200 yên",
+      "Đưa 1.000 yên, nhận lại 200 yên"
+     ],
+     "ans": 0,
+     "why": "全部[ぜんぶ]で千二百円[せんにひゃくえん]です。→ はい、二千円[にせんえん]です。→ 八百円[はっぴゃくえん]のお返[かえ]しです。"
+    }
+   ]
+  },
+  {
+   "id": "d:lt-n5-03",
+   "title": "Gọi điện báo đi muộn vì tàu trễ",
+   "level": "N5",
+   "topics": [
+    "xuong"
+   ],
+   "ctx": "xuong",
+   "setting": "Sáng thứ Tư, tàu điện bị trễ. Anh Nguyễn đang ở ga 明石[あかし], gọi điện cho tổ trưởng 田中[たなか] báo sẽ đến xưởng muộn.",
+   "medium": "dienthoai",
+   "roles": [
+    {
+     "key": "A",
+     "name": "田中[たなか]",
+     "vi": "Tổ trưởng"
+    },
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    }
+   ],
+   "turns": [
+    {
+     "who": "A",
+     "jp": "はい、田中[たなか]です。",
+     "vi": "Vâng, Tanaka nghe.",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "もしもし、田中[たなか]さん。おはようございます。グエンです。",
+     "vi": "A lô, anh Tanaka. Chào buổi sáng. Tôi là Nguyễn.",
+     "key": "もしもし",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "もしも",
+       "vi": "nếu như (nhấn mạnh, lỡ mà)"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "あ、グエンさん。おはよう。どうしましたか。",
+     "vi": "À, Nguyễn đấy à. Chào anh. Có chuyện gì vậy?",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "すみません。電車[でんしゃ]が遅[おく]れています。今[いま]、明石[あかし]駅[えき]にいます。",
+     "vi": "Xin lỗi anh. Tàu đang bị trễ. Bây giờ tôi đang ở ga Akashi.",
+     "key": "遅[おく]れています",
+     "alt": [
+      "すみません。電車[でんしゃ]が遅[おく]れていますから、遅[おそ]くなります。"
+     ],
+     "note": "Ở Nhật, nếu đi muộn thì phải gọi điện trước giờ làm, nói lý do và giờ sẽ đến. Mở đầu bằng すみません rồi mới nói lý do.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "遅[おく]れています",
+       "vi": "đang bị trễ"
+      },
+      {
+       "w": "遅[おく]れ",
+       "vi": "sự chậm trễ"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "そうですか。どのぐらい遅[おく]れますか。",
+     "vi": "Vậy à. Anh trễ khoảng bao lâu?",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "遅[おく]れます",
+       "vi": "trễ, muộn"
+      },
+      {
+       "w": "遅[おく]れ",
+       "vi": "sự chậm trễ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "三十分[さんじゅっぷん]ぐらいです。工場[こうじょう]には八時[はちじ]半[はん]ごろ着[つ]きます。",
+     "vi": "Khoảng 30 phút. Tôi sẽ đến xưởng khoảng 8 giờ rưỡi.",
+     "key": "着[つ]きます",
+     "alt": [
+      "三十分[さんじゅっぷん]ぐらいです。八時[はちじ]半[はん]ごろ、工場[こうじょう]に着[つ]きます。"
+     ],
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "着[つ]きます",
+       "vi": "đến nơi"
+      },
+      {
+       "w": "工場[こうじょう]",
+       "vi": "nhà máy, xưởng"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "分[わ]かりました。朝礼[ちょうれい]は八時[はちじ]からですが、大丈夫[だいじょうぶ]ですよ。",
+     "vi": "Tôi hiểu rồi. Họp đầu ca từ 8 giờ, nhưng không sao đâu.",
+     "key": "朝礼[ちょうれい]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "分[わ]かりました",
+       "vi": "tôi hiểu rồi"
+      },
+      {
+       "w": "朝礼[ちょうれい]",
+       "vi": "họp đầu ca (buổi sáng)"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "駅[えき]で、遅延[ちえん]証明書[しょうめいしょ]をもらってください。",
+     "vi": "Ở ga, anh nhớ lấy giấy chứng nhận tàu trễ nhé.",
+     "key": "遅延[ちえん]証明書[しょうめいしょ]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "遅延[ちえん]証明書[しょうめいしょ]",
+       "vi": "giấy chứng nhận tàu trễ"
+      },
+      {
+       "w": "もらう",
+       "vi": "nhận, được (cho)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ちえん……。すみません、もう一度[いちど]お願[ねが]いします。",
+     "vi": "Chi-en…… Xin lỗi, anh nói lại một lần nữa được không ạ?",
+     "key": "もう一度[いちど]",
+     "alt": [
+      "すみません、もう一度[いちど]言[い]ってください。"
+     ],
+     "grammar": []
+    },
+    {
+     "who": "A",
+     "jp": "遅延[ちえん]証明書[しょうめいしょ]。電車[でんしゃ]の遅[おく]れの紙[かみ]です。改札[かいさつ]で、駅員[えきいん]さんにもらってください。",
+     "vi": "Giấy chứng nhận tàu trễ. Là tờ giấy ghi tàu bị trễ. Anh xin nhân viên nhà ga ở cửa soát vé.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "遅延[ちえん]証明書[しょうめいしょ]",
+       "vi": "giấy chứng nhận tàu trễ"
+      },
+      {
+       "w": "遅[おく]れ",
+       "vi": "sự chậm trễ"
+      },
+      {
+       "w": "改札[かいさつ]",
+       "vi": "cửa soát vé"
+      },
+      {
+       "w": "駅員[えきいん]さん",
+       "vi": "nhân viên nhà ga"
+      },
+      {
+       "w": "もらう",
+       "vi": "nhận, được (cho)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "分[わ]かりました。紙[かみ]をもらってから、すぐ行[い]きます。",
+     "vi": "Tôi hiểu rồi. Tôi lấy giấy xong sẽ đi ngay.",
+     "grammar": [
+      "g:〜てから"
+     ],
+     "gloss": [
+      {
+       "w": "分[わ]かりました",
+       "vi": "tôi hiểu rồi"
+      },
+      {
+       "w": "行[い]き",
+       "vi": "lượt đi; (chuyến) đi tới …"
+      },
+      {
+       "w": "もらう",
+       "vi": "nhận, được (cho)"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "はい。急[いそ]がなくてもいいですから、気[き]をつけて来[き]てください。",
+     "vi": "Ừ. Không cần vội đâu, đến cẩn thận nhé.",
+     "grammar": [
+      "g:〜なくてもいい",
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "急[いそ]がなくても",
+       "vi": "không cần vội"
+      },
+      {
+       "w": "気[き]をつけて",
+       "vi": "cẩn thận"
+      },
+      {
+       "w": "ですから",
+       "vi": "vì vậy (lịch sự)"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Vì sao anh Nguyễn gọi điện cho anh Tanaka?",
+     "opts": [
+      "Vì tàu bị trễ, anh sẽ đến muộn",
+      "Vì anh bị ốm, muốn xin nghỉ",
+      "Vì anh quên giờ họp đầu ca",
+      "Vì anh bị lạc ở ga Akashi"
+     ],
+     "ans": 0,
+     "why": "すみません。電車[でんしゃ]が遅[おく]れています。今[いま]、明石[あかし]駅[えき]にいます。"
+    },
+    {
+     "q": "Anh Nguyễn sẽ đến xưởng lúc mấy giờ?",
+     "opts": [
+      "Khoảng 8 giờ rưỡi",
+      "Đúng 8 giờ",
+      "Khoảng 9 giờ",
+      "Khoảng 7 giờ rưỡi"
+     ],
+     "ans": 0,
+     "why": "工場[こうじょう]には八時[はちじ]半[はん]ごろ着[つ]きます。 8 giờ là giờ họp đầu ca (朝礼[ちょうれい]は八時[はちじ]から)."
+    },
+    {
+     "q": "Anh Tanaka dặn anh Nguyễn làm gì ở ga?",
+     "opts": [
+      "Xin nhân viên ga giấy chứng nhận tàu trễ",
+      "Gọi điện lại khi lên được tàu",
+      "Chạy thật nhanh để kịp họp đầu ca",
+      "Mua vé tàu khác để đi sớm hơn"
+     ],
+     "ans": 0,
+     "why": "改札[かいさつ]で、駅員[えきいん]さんにもらってください。 Anh Tanaka còn nói 急[いそ]がなくてもいいです (không cần vội)."
+    }
+   ]
+  },
+  {
+   "id": "d:lt-n5-04",
+   "title": "Ở tòa thị chính: lấy số và điền giấy",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "ctx": "thutuc",
+   "setting": "Anh Nguyễn mới chuyển nhà, đến 市役所[しやくしょ] làm thủ tục đổi địa chỉ. Anh hỏi nhân viên hướng dẫn cách lấy số và cách điền giấy.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    },
+    {
+     "key": "S",
+     "name": "案内[あんない]の人[ひと]",
+     "vi": "Nhân viên hướng dẫn"
+    },
+    {
+     "key": "M",
+     "name": "窓口[まどぐち]の人[ひと]",
+     "vi": "Nhân viên quầy"
+    }
+   ],
+   "turns": [
+    {
+     "who": "B",
+     "jp": "すみません。引[ひ]っ越[こ]しをしました。住所[じゅうしょ]の手続[てつづ]きは、どこですか。",
+     "vi": "Xin lỗi. Tôi mới chuyển nhà. Làm thủ tục địa chỉ ở đâu ạ?",
+     "key": "手続[てつづ]き",
+     "alt": [
+      "すみません。新[あたら]しい住所[じゅうしょ]の手続[てつづ]きをしたいです。"
+     ],
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "引[ひ]っ越[こ]し",
+       "vi": "chuyển nhà"
+      },
+      {
+       "w": "手続[てつづ]き",
+       "vi": "thủ tục"
+      },
+      {
+       "w": "住所[じゅうしょ]",
+       "vi": "địa chỉ"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "住所[じゅうしょ]の手続[てつづ]きですね。まず、あの機械[きかい]で番号[ばんごう]の紙[かみ]を取[と]ってください。",
+     "vi": "Thủ tục địa chỉ nhỉ. Trước hết, anh lấy phiếu số thứ tự ở cái máy kia.",
+     "key": "番号[ばんごう]",
+     "note": "Ở tòa thị chính, ngân hàng, bưu điện lớn… thường phải lấy phiếu số thứ tự (番号[ばんごう]の紙[かみ]) rồi ngồi chờ đến lượt được gọi số.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "手続[てつづ]き",
+       "vi": "thủ tục"
+      },
+      {
+       "w": "住所[じゅうしょ]",
+       "vi": "địa chỉ"
+      },
+      {
+       "w": "機械[きかい]",
+       "vi": "máy"
+      },
+      {
+       "w": "番号[ばんごう]",
+       "vi": "số (thứ tự)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。……二十五番[にじゅうごばん]です。",
+     "vi": "Vâng. …… Tôi là số 25.",
+     "grammar": []
+    },
+    {
+     "who": "S",
+     "jp": "それから、この紙[かみ]に名前[なまえ]と住所[じゅうしょ]を書[か]いてください。",
+     "vi": "Sau đó, anh viết tên và địa chỉ vào tờ giấy này.",
+     "key": "書[か]いてください",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "住所[じゅうしょ]",
+       "vi": "địa chỉ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "名前[なまえ]は、カタカナで書[か]きますか。",
+     "vi": "Tên thì viết bằng katakana ạ?",
+     "alt": [
+      "名前[なまえ]はカタカナですか。"
+     ],
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "カタカナ",
+       "vi": "chữ katakana"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "はい。カタカナとローマ字[じ]で書[か]いてください。新[あたら]しい住所[じゅうしょ]は、ここです。",
+     "vi": "Vâng. Anh viết bằng katakana và chữ La-tinh. Địa chỉ mới ghi ở chỗ này.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "住所[じゅうしょ]",
+       "vi": "địa chỉ"
+      },
+      {
+       "w": "カタカナ",
+       "vi": "chữ katakana"
+      },
+      {
+       "w": "ローマ字[じ]",
+       "vi": "chữ La-tinh"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "前[まえ]の住所[じゅうしょ]も書[か]きますか。",
+     "vi": "Địa chỉ cũ cũng viết ạ?",
+     "key": "前[まえ]の住所[じゅうしょ]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "住所[じゅうしょ]",
+       "vi": "địa chỉ"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "はい、下[した]に書[か]いてください。黒[くろ]いペンで書[か]いてくださいね。鉛筆[えんぴつ]はだめです。",
+     "vi": "Vâng, anh viết ở bên dưới. Nhớ viết bằng bút đen nhé. Bút chì thì không được.",
+     "key": "黒[くろ]いペン",
+     "note": "だめです = không được (cách nói ngắn, dễ nghe hơn いけません).",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "鉛筆[えんぴつ]",
+       "vi": "bút chì"
+      },
+      {
+       "w": "だめ",
+       "vi": "không được"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "分[わ]かりました。ほかに何[なに]がいりますか。",
+     "vi": "Tôi hiểu rồi. Còn cần gì nữa không ạ?",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "分[わ]かりました",
+       "vi": "tôi hiểu rồi"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "在留[ざいりゅう]カードを見[み]せてください。番号[ばんごう]を呼[よ]びますから、あのいすで待[ま]ってください。",
+     "vi": "Anh cho xem thẻ cư trú nhé. Chúng tôi sẽ gọi số, anh ngồi ghế kia chờ.",
+     "key": "在留[ざいりゅう]カード",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "番号[ばんごう]",
+       "vi": "số (thứ tự)"
+      },
+      {
+       "w": "在留[ざいりゅう]カード",
+       "vi": "thẻ cư trú"
+      },
+      {
+       "w": "見[み]せて",
+       "vi": "cho xem"
+      },
+      {
+       "w": "呼[よ]びます",
+       "vi": "gọi"
+      }
+     ]
+    },
+    {
+     "who": "M",
+     "jp": "二十五番[にじゅうごばん]の方[かた]、三番[さんばん]の窓口[まどぐち]へどうぞ。",
+     "vi": "Người số 25, xin mời đến quầy số 3.",
+     "key": "窓口[まどぐち]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "窓口[まどぐち]",
+       "vi": "quầy (giao dịch)"
+      },
+      {
+       "w": "方[ほう]",
+       "vi": "người, vị (lịch sự)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。よろしくお願[ねが]いします。",
+     "vi": "Vâng. Nhờ chị giúp ạ.",
+     "grammar": []
+    }
+   ],
+   "questions": [
+    {
+     "q": "Anh Nguyễn đến tòa thị chính để làm gì?",
+     "opts": [
+      "Làm thủ tục địa chỉ vì mới chuyển nhà",
+      "Làm thẻ cư trú mới vì bị mất thẻ",
+      "Đổi tên trên giấy sang katakana",
+      "Hỏi đường đến quầy số 3"
+     ],
+     "ans": 0,
+     "why": "すみません。引[ひ]っ越[こ]しをしました。住所[じゅうしょ]の手続[てつづ]きは、どこですか。 Thẻ cư trú chỉ cần đưa cho nhân viên xem."
+    },
+    {
+     "q": "Anh Nguyễn phải viết tờ giấy như thế nào?",
+     "opts": [
+      "Bút đen; tên viết katakana và chữ La-tinh",
+      "Bút chì; tên viết katakana và chữ La-tinh",
+      "Bút đen; chỉ viết địa chỉ mới, không viết địa chỉ cũ",
+      "Bút đen; tên chỉ viết bằng chữ La-tinh"
+     ],
+     "ans": 0,
+     "why": "カタカナとローマ字[じ]で書[か]いてください。… 黒[くろ]いペンで書[か]いてくださいね。鉛筆[えんぴつ]はだめです。 Địa chỉ cũ viết ở bên dưới."
+    },
+    {
+     "q": "Cuối cùng anh Nguyễn được gọi đến đâu?",
+     "opts": [
+      "Quầy số 3",
+      "Quầy số 25",
+      "Cái máy lấy số",
+      "Ghế chờ"
+     ],
+     "ans": 0,
+     "why": "二十五番[にじゅうごばん]の方[かた]、三番[さんばん]の窓口[まどぐち]へどうぞ。 Số 25 là số thứ tự của anh Nguyễn."
+    }
+   ]
+  },
+  {
+   "id": "d:lt-n5-05",
+   "title": "Ngày đầu ở xưởng số 2",
+   "level": "N5",
+   "topics": [
+    "xuong"
+   ],
+   "ctx": "xuong",
+   "setting": "Từ hôm nay anh Nguyễn chuyển sang làm ở xưởng số 2 (dây chuyền cấp đông). Trước giờ làm, anh hỏi chị Maria chỗ để đồ, phòng thay đồ và giờ nghỉ.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    },
+    {
+     "key": "C",
+     "name": "マリア",
+     "vi": "Đồng nghiệp"
+    }
+   ],
+   "turns": [
+    {
+     "who": "B",
+     "jp": "マリアさん、おはようございます。今日[きょう]から第[だい]二[に]工場[こうじょう]です。靴[くつ]はどこに置[お]きますか。",
+     "vi": "Chị Maria, chào buổi sáng. Từ hôm nay tôi làm ở xưởng số 2. Giày để ở đâu ạ?",
+     "key": "置[お]きます",
+     "alt": [
+      "靴[くつ]はどこですか。"
+     ],
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "第[だい]二[に]工場[こうじょう]",
+       "vi": "xưởng số 2"
+      },
+      {
+       "w": "置[お]きます",
+       "vi": "đặt, để"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "おはようございます。靴[くつ]は入口[いりぐち]の靴箱[くつばこ]です。そこで長靴[ながぐつ]をはいてください。",
+     "vi": "Chào anh. Giày để ở tủ giày chỗ lối vào. Ở đó anh đi ủng vào nhé.",
+     "key": "長靴[ながぐつ]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "入口[いりぐち]",
+       "vi": "lối vào"
+      },
+      {
+       "w": "靴箱[くつばこ]",
+       "vi": "tủ giày"
+      },
+      {
+       "w": "長靴[ながぐつ]",
+       "vi": "ủng (giày cao su)"
+      },
+      {
+       "w": "はいて",
+       "vi": "đi (giày, ủng)"
+      },
+      {
+       "w": "そこで",
+       "vi": "vì vậy nên (bèn)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "かばんも靴箱[くつばこ]ですか。",
+     "vi": "Cặp cũng để ở tủ giày ạ?",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "靴箱[くつばこ]",
+       "vi": "tủ giày"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "いいえ、かばんは更衣室[こういしつ]のロッカーです。男[おとこ]の人[ひと]の更衣室[こういしつ]は、階段[かいだん]の右[みぎ]です。",
+     "vi": "Không, cặp để trong tủ khóa ở phòng thay đồ. Phòng thay đồ nam ở bên phải cầu thang.",
+     "key": "更衣室[こういしつ]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "更衣室[こういしつ]",
+       "vi": "phòng thay đồ"
+      },
+      {
+       "w": "階段[かいだん]",
+       "vi": "cầu thang"
+      },
+      {
+       "w": "ロッカー",
+       "vi": "tủ đồ cá nhân"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "携帯電話[けいたいでんわ]は？",
+     "vi": "Còn điện thoại di động thì sao ạ?",
+     "alt": [
+      "携帯電話[けいたいでんわ]はどこに置[お]きますか。"
+     ],
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "携帯[けいたい]",
+       "vi": "điện thoại di động"
+      },
+      {
+       "w": "携帯電話[けいたいでんわ]",
+       "vi": "điện thoại di động"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "携帯[けいたい]もロッカーに入[い]れてください。工場[こうじょう]の中[なか]に持[も]っていってはいけません。",
+     "vi": "Điện thoại cũng cho vào tủ khóa. Không được mang vào trong xưởng.",
+     "key": "入[い]れてください",
+     "note": "Xưởng thực phẩm thường cấm mang đồ cá nhân (điện thoại, đồng hồ, nhẫn…) vào khu sản xuất, vì đồ có thể rơi vào sản phẩm.",
+     "grammar": [
+      "g:〜てはいけません"
+     ],
+     "gloss": [
+      {
+       "w": "携帯[けいたい]",
+       "vi": "điện thoại di động"
+      },
+      {
+       "w": "入[い]れて",
+       "vi": "cho vào"
+      },
+      {
+       "w": "持[も]っていって",
+       "vi": "mang đi, mang vào"
+      },
+      {
+       "w": "ロッカー",
+       "vi": "tủ đồ cá nhân"
+      },
+      {
+       "w": "工場[こうじょう]",
+       "vi": "nhà máy, xưởng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "分[わ]かりました。ここの昼休[ひるやす]みは何時[なんじ]からですか。",
+     "vi": "Tôi hiểu rồi. Ở đây nghỉ trưa từ mấy giờ ạ?",
+     "key": "昼休[ひるやす]み",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "昼休[ひるやす]み",
+       "vi": "nghỉ trưa"
+      },
+      {
+       "w": "分[わ]かりました",
+       "vi": "tôi hiểu rồi"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "十一時[じゅういちじ]半[はん]から十二時[じゅうにじ]半[はん]までです。",
+     "vi": "Từ 11 giờ rưỡi đến 12 giờ rưỡi.",
+     "grammar": [
+      "g:〜から〜まで"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "十一時[じゅういちじ]半[はん]ですか。第[だい]一[いち]工場[こうじょう]より早[はや]いですね。",
+     "vi": "11 giờ rưỡi ạ? Sớm hơn xưởng số 1 nhỉ.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "第[だい]一[いち]工場[こうじょう]",
+       "vi": "xưởng số 1"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "はい。午後[ごご]は二時[にじ]半[はん]に十分[じゅっぷん]休[やす]みます。休憩室[きゅうけいしつ]は二階[にかい]です。",
+     "vi": "Vâng. Buổi chiều 2 giờ rưỡi nghỉ 10 phút. Phòng nghỉ ở tầng 2.",
+     "key": "休憩室[きゅうけいしつ]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "休憩室[きゅうけいしつ]",
+       "vi": "phòng nghỉ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "二階[にかい]ですね。ありがとうございます。",
+     "vi": "Tầng 2 nhỉ. Cảm ơn chị.",
+     "grammar": []
+    },
+    {
+     "who": "C",
+     "jp": "分[わ]からないことは、何[なん]でも聞[き]いてくださいね。",
+     "vi": "Có gì không hiểu thì cứ hỏi tôi nhé.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "何[なん]でも",
+       "vi": "bất cứ điều gì"
+      },
+      {
+       "w": "聞[き]いて",
+       "vi": "hỏi"
+      },
+      {
+       "w": "分[わ]からない",
+       "vi": "không hiểu, không biết"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Anh Nguyễn để cặp ở đâu?",
+     "opts": [
+      "Trong tủ khóa ở phòng thay đồ",
+      "Trong tủ giày ở lối vào",
+      "Trong phòng nghỉ ở tầng 2",
+      "Mang theo vào trong xưởng"
+     ],
+     "ans": 0,
+     "why": "かばんは更衣室[こういしつ]のロッカーです。 Tủ giày ở lối vào là chỗ để giày."
+    },
+    {
+     "q": "Ở xưởng số 2, nghỉ trưa lúc mấy giờ?",
+     "opts": [
+      "Từ 11 giờ rưỡi đến 12 giờ rưỡi",
+      "Từ 12 giờ đến 1 giờ",
+      "Từ 2 giờ rưỡi, nghỉ 10 phút",
+      "Từ 12 giờ rưỡi đến 1 giờ rưỡi"
+     ],
+     "ans": 0,
+     "why": "十一時[じゅういちじ]半[はん]から十二時[じゅうにじ]半[はん]までです。 2 giờ rưỡi là giờ nghỉ ngắn buổi chiều."
+    },
+    {
+     "q": "Phòng nghỉ ở đâu?",
+     "opts": [
+      "Ở tầng 2",
+      "Ở bên phải cầu thang",
+      "Ở cạnh lối vào",
+      "Ở trong phòng thay đồ"
+     ],
+     "ans": 0,
+     "why": "休憩室[きゅうけいしつ]は二階[にかい]です。 Bên phải cầu thang là phòng thay đồ nam."
+    }
+   ]
+  },
+  {
+   "id": "d:lt-n5-06",
+   "title": "Nhắn LINE hẹn đi siêu thị",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "ctx": "doisong",
+   "setting": "Tối thứ Năm, Minh (bạn cùng phòng) nhắn LINE cho anh Nguyễn. Hai người đã hứa nhắn bằng tiếng Nhật để luyện tập. Nhà hết gạo, hai người hẹn cuối tuần đi siêu thị.",
+   "medium": "line",
+   "roles": [
+    {
+     "key": "M",
+     "name": "ミン",
+     "vi": "Bạn cùng phòng"
+    },
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    }
+   ],
+   "turns": [
+    {
+     "who": "M",
+     "jp": "グエンさん、お米[こめ]がもうないよ。",
+     "vi": "Anh Nguyễn ơi, nhà hết gạo rồi đấy.",
+     "key": "お米[こめ]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "お米[こめ]",
+       "vi": "gạo"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "本当[ほんとう]？じゃ、週末[しゅうまつ]にスーパーへ行[い]かない？",
+     "vi": "Thật à? Vậy cuối tuần đi siêu thị không?",
+     "key": "週末[しゅうまつ]",
+     "alt": [
+      "じゃ、週末[しゅうまつ]にスーパーへ行[い]きませんか。"
+     ],
+     "note": "Nhắn tin với bạn thân thì dùng thể thường: 行[い]かない？ (đi không?) = 行[い]きませんか (lời rủ lịch sự).",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "週末[しゅうまつ]",
+       "vi": "cuối tuần"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      }
+     ]
+    },
+    {
+     "who": "M",
+     "jp": "いいね。土曜日[どようび]はどう？",
+     "vi": "Được đấy. Thứ Bảy thì sao?",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "土曜日[どようび]の午前[ごぜん]は仕事[しごと]があるよ。午後[ごご]はひまだよ。",
+     "vi": "Sáng thứ Bảy anh có việc ở xưởng. Buổi chiều thì rảnh.",
+     "key": "午後[ごご]",
+     "alt": [
+      "土曜日[どようび]の午前[ごぜん]は仕事[しごと]です。午後[ごご]は大丈夫[だいじょうぶ]です。"
+     ],
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "ひま",
+       "vi": "rảnh"
+      }
+     ]
+    },
+    {
+     "who": "M",
+     "jp": "ぼくは午前[ごぜん]、駅[えき]の近[ちか]くの日本語[にほんご]教室[きょうしつ]。じゃ、二時[にじ]に駅[えき]の北口[きたぐち]で。",
+     "vi": "Sáng em học lớp tiếng Nhật gần ga. Vậy 2 giờ ở cửa Bắc nhà ga nhé.",
+     "key": "北口[きたぐち]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "教室[きょうしつ]",
+       "vi": "lớp học"
+      },
+      {
+       "w": "北口[きたぐち]",
+       "vi": "cửa Bắc (của ga)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "オッケー。何[なに]を買[か]う？",
+     "vi": "OK. Mua những gì?",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "オッケー",
+       "vi": "OK, được"
+      }
+     ]
+    },
+    {
+     "who": "M",
+     "jp": "お米[こめ]と卵[たまご]と野菜[やさい]。それから、ヌックマムもないよ。",
+     "vi": "Gạo, trứng với rau. Còn nước mắm cũng hết rồi.",
+     "key": "野菜[やさい]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "お米[こめ]",
+       "vi": "gạo"
+      },
+      {
+       "w": "ヌックマム",
+       "vi": "nước mắm"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ヌックマムは、スーパーにないね。",
+     "vi": "Nước mắm thì siêu thị không có đâu nhỉ.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "ヌックマム",
+       "vi": "nước mắm"
+      }
+     ]
+    },
+    {
+     "who": "M",
+     "jp": "スーパーの隣[となり]にアジアの食[た]べ物[もの]の店[みせ]があるよ。そこにあるよ。",
+     "vi": "Cạnh siêu thị có cửa hàng đồ ăn châu Á. Ở đó có đấy.",
+     "key": "隣[となり]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "アジア",
+       "vi": "châu Á"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうか。じゃ、お米[こめ]はぼくが持[も]つよ。重[おも]いから。",
+     "vi": "Thế à. Vậy gạo để anh xách. Nặng mà.",
+     "key": "重[おも]い",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "お米[こめ]",
+       "vi": "gạo"
+      },
+      {
+       "w": "重[おも]い",
+       "vi": "nặng"
+      },
+      {
+       "w": "持[も]つ",
+       "vi": "xách, cầm"
+      }
+     ]
+    },
+    {
+     "who": "M",
+     "jp": "ありがとう！あ、エコバッグを忘[わす]れないでね。",
+     "vi": "Cảm ơn anh! À, đừng quên túi đi chợ nhé.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "エコバッグ",
+       "vi": "túi mang đi chợ"
+      },
+      {
+       "w": "忘[わす]れないで",
+       "vi": "đừng quên"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "うん、二[ふた]つ持[も]っていくよ。じゃ、土曜日[どようび]にね。",
+     "vi": "Ừ, anh mang hai cái. Hẹn thứ Bảy nhé.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "持[も]っていく",
+       "vi": "mang theo"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Hai người hẹn gặp khi nào, ở đâu?",
+     "opts": [
+      "2 giờ chiều thứ Bảy, ở cửa Bắc nhà ga",
+      "Sáng thứ Bảy, ở cửa Bắc nhà ga",
+      "2 giờ chiều thứ Bảy, ở lớp tiếng Nhật",
+      "2 giờ chiều Chủ nhật, ở siêu thị"
+     ],
+     "ans": 0,
+     "why": "じゃ、二時[にじ]に駅[えき]の北口[きたぐち]で。 Trước đó hai người nói 土曜日[どようび]はどう？"
+    },
+    {
+     "q": "Vì sao sáng thứ Bảy anh Nguyễn không đi được?",
+     "opts": [
+      "Vì anh có việc ở xưởng",
+      "Vì anh học lớp tiếng Nhật",
+      "Vì anh đi mua nước mắm",
+      "Vì anh phải xách gạo về nhà"
+     ],
+     "ans": 0,
+     "why": "土曜日[どようび]の午前[ごぜん]は仕事[しごと]があるよ。 Người học lớp tiếng Nhật buổi sáng là Minh."
+    },
+    {
+     "q": "Hai người sẽ mua nước mắm ở đâu?",
+     "opts": [
+      "Ở cửa hàng đồ ăn châu Á cạnh siêu thị",
+      "Ở trong siêu thị",
+      "Ở cửa hàng gần lớp tiếng Nhật",
+      "Ở cửa hàng tiện lợi gần ga"
+     ],
+     "ans": 0,
+     "why": "ヌックマムは、スーパーにないね。→ スーパーの隣[となり]にアジアの食[た]べ物[もの]の店[みせ]があるよ。そこにあるよ。"
+    }
+   ]
+  },
+  {
+   "id": "d:lt-n5-07",
+   "title": "Gọi món ở quán cơm gần xưởng",
+   "level": "N5",
+   "topics": [
+    "doisong"
+   ],
+   "ctx": "doisong",
+   "setting": "Giờ nghỉ trưa, anh Nguyễn và chị Maria đi ăn ở quán cơm suất (定食屋[ていしょくや]) gần xưởng.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "T",
+     "name": "店員[てんいん]",
+     "vi": "Nhân viên quán"
+    },
+    {
+     "key": "C",
+     "name": "マリア",
+     "vi": "Đồng nghiệp"
+    },
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    }
+   ],
+   "turns": [
+    {
+     "who": "T",
+     "jp": "いらっしゃいませ。二名[にめい]様[さま]ですか。",
+     "vi": "Xin mời quý khách. Hai vị phải không ạ?",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "二名[にめい]様[さま]",
+       "vi": "hai vị (khách)"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "はい、二人[ふたり]です。",
+     "vi": "Vâng, hai người.",
+     "grammar": []
+    },
+    {
+     "who": "T",
+     "jp": "こちらの席[せき]へどうぞ。メニューです。",
+     "vi": "Mời ngồi bàn này ạ. Thực đơn đây ạ.",
+     "key": "メニュー",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "席[せき]",
+       "vi": "chỗ ngồi"
+      },
+      {
+       "w": "メニュー",
+       "vi": "thực đơn"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "マリアさん、何[なに]にしますか。",
+     "vi": "Chị Maria, chị chọn món gì?",
+     "note": "何[なに]にしますか = chọn gì, gọi món gì? Trả lời: 〜にします (tôi chọn …).",
+     "alt": [
+      "マリアさんは何[なに]を食[た]べますか。"
+     ],
+     "grammar": []
+    },
+    {
+     "who": "C",
+     "jp": "私[わたし]は焼[や]き魚[ざかな]定食[ていしょく]にします。グエンさんは？",
+     "vi": "Tôi chọn suất cá nướng. Còn anh?",
+     "key": "焼[や]き魚[ざかな]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "焼[や]き魚[ざかな]",
+       "vi": "cá nướng"
+      },
+      {
+       "w": "定食[ていしょく]",
+       "vi": "suất cơm (có món chính, cơm, canh)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "魚[さかな]は毎日[まいにち]工場[こうじょう]で見[み]ていますから……。今日[きょう]は唐揚[からあ]げ定食[ていしょく]にします。",
+     "vi": "Cá thì ngày nào tôi cũng thấy ở xưởng rồi…… Hôm nay tôi chọn suất gà rán.",
+     "key": "唐揚[からあ]げ",
+     "alt": [
+      "毎日[まいにち]魚[さかな]を見[み]ていますから、今日[きょう]は唐揚[からあ]げ定食[ていしょく]がいいです。"
+     ],
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "定食[ていしょく]",
+       "vi": "suất cơm (có món chính, cơm, canh)"
+      },
+      {
+       "w": "唐揚[からあ]げ",
+       "vi": "gà rán kiểu Nhật"
+      },
+      {
+       "w": "工場[こうじょう]",
+       "vi": "nhà máy, xưởng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "すみません。焼[や]き魚[ざかな]定食[ていしょく]と唐揚[からあ]げ定食[ていしょく]をお願[ねが]いします。",
+     "vi": "Xin lỗi. Cho tôi một suất cá nướng và một suất gà rán.",
+     "key": "定食[ていしょく]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "焼[や]き魚[ざかな]",
+       "vi": "cá nướng"
+      },
+      {
+       "w": "定食[ていしょく]",
+       "vi": "suất cơm (có món chính, cơm, canh)"
+      },
+      {
+       "w": "唐揚[からあ]げ",
+       "vi": "gà rán kiểu Nhật"
+      }
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "はい。ご飯[はん]の大盛[おおも]りは無料[むりょう]ですが、どうしますか。",
+     "vi": "Vâng. Cơm suất lớn được miễn phí, quý khách có lấy không ạ?",
+     "key": "大盛[おおも]り",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "大盛[おおも]り",
+       "vi": "suất (cơm) lớn"
+      },
+      {
+       "w": "無料[むりょう]",
+       "vi": "miễn phí"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "じゃ、私[わたし]は大盛[おおも]りでお願[ねが]いします。",
+     "vi": "Vậy tôi lấy suất lớn.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "大盛[おおも]り",
+       "vi": "suất (cơm) lớn"
+      }
+     ]
+    },
+    {
+     "who": "C",
+     "jp": "私[わたし]は普通[ふつう]でいいです。",
+     "vi": "Tôi lấy suất thường là được.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "普通[ふつう]",
+       "vi": "bình thường"
+      }
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "お水[みず]はあちらです。セルフサービスです。お会計[かいけい]はレジでお願[ねが]いします。",
+     "vi": "Nước ở đằng kia, quý khách tự lấy ạ. Thanh toán ở quầy tính tiền ạ.",
+     "key": "お水[みず]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "セルフサービス",
+       "vi": "tự phục vụ"
+      },
+      {
+       "w": "お会計[かいけい]",
+       "vi": "thanh toán"
+      },
+      {
+       "w": "レジ",
+       "vi": "quầy tính tiền"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "分[わ]かりました。マリアさん、私[わたし]がお水[みず]を持[も]ってきますね。",
+     "vi": "Vâng ạ. Chị Maria, để tôi đi lấy nước nhé.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "持[も]ってきます",
+       "vi": "mang lại"
+      },
+      {
+       "w": "分[わ]かりました",
+       "vi": "tôi hiểu rồi"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Anh Nguyễn gọi món gì?",
+     "opts": [
+      "Suất gà rán, cơm suất lớn",
+      "Suất cá nướng, cơm suất lớn",
+      "Suất gà rán, cơm suất thường",
+      "Suất cá nướng, cơm suất thường"
+     ],
+     "ans": 0,
+     "why": "今日[きょう]は唐揚[からあ]げ定食[ていしょく]にします。… 私[わたし]は大盛[おおも]りでお願[ねが]いします。 Suất cá nướng là của chị Maria."
+    },
+    {
+     "q": "Vì sao anh Nguyễn không chọn món cá?",
+     "opts": [
+      "Vì ngày nào anh cũng thấy cá ở xưởng",
+      "Vì suất cá nướng không có cơm lớn",
+      "Vì chị Maria đã chọn món cá rồi",
+      "Vì món cá đắt hơn món gà rán"
+     ],
+     "ans": 0,
+     "why": "魚[さかな]は毎日[まいにち]工場[こうじょう]で見[み]ていますから……。"
+    },
+    {
+     "q": "Ở quán này, nước uống thì thế nào?",
+     "opts": [
+      "Khách tự lấy ở đằng kia",
+      "Nhân viên mang đến bàn",
+      "Phải trả tiền ở quầy tính tiền",
+      "Phải gọi cùng với suất cơm"
+     ],
+     "ans": 0,
+     "why": "お水[みず]はあちらです。セルフサービスです。 Quầy tính tiền là chỗ thanh toán (お会計[かいけい]はレジで)."
+    }
+   ]
+  },
+  {
+   "id": "d:lt-n5-08",
+   "title": "Anh Suzuki rủ đi ăn bánh Akashi",
+   "level": "N5",
+   "topics": [
+    "kansai",
+    "doisong"
+   ],
+   "ctx": "kansai",
+   "setting": "Cuối ca chiều thứ Sáu, anh 鈴木[すずき] (đồng nghiệp người Nhật, nói giọng Kansai nhẹ) rủ anh Nguyễn tối nay đi ăn bánh 明石焼[あかしや]き.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "D",
+     "name": "鈴木[すずき]",
+     "vi": "Đồng nghiệp người Nhật"
+    },
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    }
+   ],
+   "turns": [
+    {
+     "who": "D",
+     "jp": "グエンさん、お疲[つか]れさん。今日[きょう]、仕事[しごと]の後[あと]、ご飯[はん]行[い]かへん？",
+     "vi": "Anh Nguyễn, vất vả rồi. Hôm nay tan ca đi ăn không?",
+     "std": "グエンさん、お疲[つか]れさまです。今日[きょう]、仕事[しごと]の後[あと]、ご飯[はん]を食[た]べに行[い]きませんか。",
+     "key": "ご飯[はん]",
+     "note": "Giọng Kansai: 行[い]かへん？ = 行[い]かない？ (đi không?); お疲[つか]れさん = お疲[つか]れさま. Người Kansai hay dùng với đồng nghiệp thân.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "お疲[つか]れさん",
+       "vi": "vất vả rồi (Kansai, thân mật)"
+      },
+      {
+       "w": "行[い]かへん",
+       "vi": "đi không? (Kansai = 行[い]かない)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いいですね。どこへ行[い]きますか。",
+     "vi": "Hay quá. Đi đâu ạ?",
+     "alt": [
+      "はい、行[い]きたいです。どこですか。"
+     ],
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "行[い]き",
+       "vi": "lượt đi; (chuyến) đi tới …"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "駅[えき]の近[ちか]くに、明石[あかし]焼[や]きの店[みせ]があんねん。めっちゃおいしいで。",
+     "vi": "Gần ga có quán bánh Akashi. Ngon lắm luôn.",
+     "std": "駅[えき]の近[ちか]くに、明石[あかし]焼[や]きの店[みせ]があります。とてもおいしいですよ。",
+     "key": "明石[あかし]焼[や]き",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "明石[あかし]焼[や]き",
+       "vi": "bánh Akashi (bánh trứng nhân bạch tuộc, chấm nước dùng)"
+      },
+      {
+       "w": "あんねん",
+       "vi": "có (Kansai = あるんです)"
+      },
+      {
+       "w": "めっちゃ",
+       "vi": "rất, cực kỳ (Kansai)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "明石[あかし]焼[や]き？たこ焼[や]きですか。",
+     "vi": "Bánh Akashi? Là takoyaki ạ?",
+     "key": "たこ焼[や]き",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "明石[あかし]焼[や]き",
+       "vi": "bánh Akashi (bánh trứng nhân bạch tuộc, chấm nước dùng)"
+      },
+      {
+       "w": "たこ焼[や]き",
+       "vi": "takoyaki (bánh bạch tuộc)"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "ちゃうちゃう。卵[たまご]が多[おお]くて、やわらかいねん。だしにつけて食[た]べるんや。",
+     "vi": "Không phải đâu. Nhiều trứng, mềm lắm. Chấm vào nước dùng mà ăn.",
+     "std": "違[ちが]います。卵[たまご]が多[おお]くて、やわらかいです。だしにつけて食[た]べます。",
+     "key": "卵[たまご]",
+     "note": "ちゃう = 違[ちが]う (không phải). Câu kết bằng 〜ねん, 〜んや là cách giải thích của người Kansai, giống 〜んです.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "ちゃう",
+       "vi": "không phải (Kansai = 違[ちが]う)"
+      },
+      {
+       "w": "やわらかい",
+       "vi": "mềm"
+      },
+      {
+       "w": "だし",
+       "vi": "nước dùng (dashi)"
+      },
+      {
+       "w": "つけて",
+       "vi": "chấm"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "おもしろいですね。何時[なんじ]に行[い]きますか。",
+     "vi": "Thú vị nhỉ. Mấy giờ đi ạ?",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "行[い]き",
+       "vi": "lượt đi; (chuyến) đi tới …"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "六時[ろくじ]に駅[えき]の前[まえ]でええ？",
+     "vi": "6 giờ ở trước ga được không?",
+     "std": "六時[ろくじ]に駅[えき]の前[まえ]でいいですか。",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "ええ",
+       "vi": "được, tốt (Kansai = いい)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "すみません。今日[きょう]は六時[ろくじ]半[はん]まで残業[ざんぎょう]があります。",
+     "vi": "Xin lỗi anh. Hôm nay tôi làm thêm giờ đến 6 giờ rưỡi.",
+     "key": "残業[ざんぎょう]",
+     "alt": [
+      "すみません、今日[きょう]は六時[ろくじ]半[はん]まで仕事[しごと]です。"
+     ],
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "残業[ざんぎょう]",
+       "vi": "làm thêm giờ"
+      }
+     ]
+    },
+    {
+     "who": "D",
+     "jp": "ほな、七時[しちじ]にしよか。",
+     "vi": "Vậy thì 7 giờ nhé.",
+     "std": "では、七時[しちじ]にしましょうか。",
+     "key": "七時[しちじ]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "ほな",
+       "vi": "vậy thì (Kansai = では)"
+      },
+      {
+       "w": "しよか",
+       "vi": "nhé? (Kansai = しようか)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、七時[しちじ]に駅[えき]の前[まえ]ですね。ありがとうございます。",
+     "vi": "Vâng, 7 giờ trước ga nhỉ. Cảm ơn anh.",
+     "grammar": []
+    },
+    {
+     "who": "D",
+     "jp": "ええよ、ええよ。マリアさんも呼[よ]ぼか？",
+     "vi": "Không sao, không sao. Gọi cả chị Maria nữa nhé?",
+     "std": "いいですよ。マリアさんも呼[よ]びましょうか。",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "ええ",
+       "vi": "được, tốt (Kansai = いい)"
+      },
+      {
+       "w": "呼[よ]ぼか",
+       "vi": "gọi nhé? (Kansai = 呼[よ]ぼうか)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい！マリアさんも、きっと喜[よろこ]びます。",
+     "vi": "Vâng! Chắc chắn chị Maria cũng vui lắm.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "きっと",
+       "vi": "chắc chắn"
+      },
+      {
+       "w": "喜[よろこ]びます",
+       "vi": "vui mừng"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Anh Suzuki rủ anh Nguyễn đi ăn món gì?",
+     "opts": [
+      "Bánh Akashi, chấm nước dùng mà ăn",
+      "Takoyaki ở quán gần nhà ga",
+      "Cơm suất ở nhà ăn của xưởng",
+      "Món trứng chiên mềm ở nhà anh Suzuki"
+     ],
+     "ans": 0,
+     "why": "明石焼[あかしや]きの店[みせ]があんねん。… だしにつけて食[た]べるんや。 Anh Suzuki nói rõ: ちゃうちゃう (không phải takoyaki)."
+    },
+    {
+     "q": "Hai người hẹn gặp lúc mấy giờ, ở đâu?",
+     "opts": [
+      "7 giờ, trước nhà ga",
+      "6 giờ, trước nhà ga",
+      "6 giờ rưỡi, ở xưởng",
+      "7 giờ, ở trong quán"
+     ],
+     "ans": 0,
+     "why": "ほな、七時[しちじ]にしよか。→ はい、七時[しちじ]に駅[えき]の前[まえ]ですね。"
+    },
+    {
+     "q": "Vì sao hai người không gặp lúc 6 giờ?",
+     "opts": [
+      "Vì anh Nguyễn làm thêm giờ đến 6 giờ rưỡi",
+      "Vì quán bánh Akashi mở cửa lúc 7 giờ",
+      "Vì chị Maria làm thêm giờ đến 6 giờ rưỡi",
+      "Vì anh Suzuki phải gọi điện cho chị Maria"
+     ],
+     "ans": 0,
+     "why": "今日[きょう]は六時[ろくじ]半[はん]まで残業[ざんぎょう]があります。"
+    }
+   ]
+  }
+ ]
+}

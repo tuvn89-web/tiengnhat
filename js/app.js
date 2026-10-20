@@ -18,6 +18,7 @@ import { syncNow, getSyncCfg, lastSync, lastSyncError } from './sync.js';
 import { emptyState } from './ui.js';
 import { initNav, pageName } from './nav.js';
 import { renderLevelHub, remindHTML } from './level.js';
+import { renderJlptHub } from './jlpt.js';
 import { renderStart, renderRoadmap, planToday, forecast, needsOnboard, roadmapCardHTML } from './roadmap.js';
 import { renderKana } from './kana.js';
 import { renderForms } from './forms.js';
@@ -46,7 +47,7 @@ const ctx = {
 };
 
 const NAV = [
-  ['#/', 'home', 'Trang chủ', /^(?:|trinhdo|lotrinh|batdau|kana|noiduoc|nhanh3|nhaclai|huongdan(?:\/.*)?|(?:bai|onbai|tonghop)\/.*)$/],
+  ['#/', 'home', 'Trang chủ', /^(?:|trinhdo|thithu|lotrinh|batdau|kana|noiduoc|nhanh3|nhaclai|huongdan(?:\/.*)?|(?:bai|onbai|tonghop)\/.*)$/],
   ['#/luyen', 'quiz', 'Luyện tập', /^(luyen|hoc|on$|moi|ghep|onhon|dich|doc)/],
   ['#/chuhan', 'han', 'Chữ Hán', /^(chuhan|onchu)/],
   ['#/nguphap', 'book', 'Ngữ pháp', /^(nguphap|onngu)/],
@@ -97,6 +98,7 @@ const ROUTES = [
   [/^dich$/, v => renderDich(v, ctx)],
   [/^dich\?on$/, v => renderDich(v, ctx, { src: 'due', learned: false })],
   [/^trinhdo$/, v => renderLevelHub(v, ctx)],
+  [/^thithu$/, v => renderJlptHub(v, ctx)],
   [/^lotrinh$/, v => renderRoadmap(v, ctx)],
   [/^batdau$/, v => renderStart(v, ctx)],
   [/^kana$/, v => renderKana(v, ctx)],
@@ -319,7 +321,7 @@ function renderHome(v) {
     <nav class="modes" aria-label="Các phần học">
       ${[
       ['#/lotrinh', 'route', 'Lộ trình', 'Chặng Kana → N5 → N4 → N3 → N2, chia thành từng bài học'],
-      ['#/trinhdo', 'gauge', 'Kiểm tra trình độ', 'Xếp lớp nhanh, thi vượt cấp, kiểm tra theo gói'],
+      ['#/trinhdo', 'gauge', 'Kiểm tra trình độ', 'Xếp lớp nhanh, thi vượt cấp, đề thi thử JLPT, kiểm tra theo gói'],
       ['#/luyen', 'quiz', 'Luyện tập', 'Học từ mới, trắc nghiệm, ghép cặp, ghép câu, thể động từ, tính từ, đếm số'],
       ['#/chuhan', 'han', 'Chữ Hán', `${D.kanji.length} thẻ chữ, câu lục bát nhớ mặt chữ, ôn chữ Hán`],
       ['#/nguphap', 'book', 'Ngữ pháp', `${D.grammar.length} mẫu — bài học, luyện tập, thi thử`],

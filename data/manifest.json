@@ -25,8 +25,8 @@
     "jlpt"
    ],
    "count": 47,
-   "version": 2,
-   "hash": "b5ec312ad6"
+   "version": 3,
+   "hash": "3f09ce698a"
   },
   {
    "id": "jlpt-n2-02",
@@ -194,8 +194,8 @@
     "jlpt"
    ],
    "count": 49,
-   "version": 1,
-   "hash": "d43715a2ee"
+   "version": 2,
+   "hash": "c71608d03a"
   },
   {
    "id": "jlpt-n2-15",
@@ -1052,8 +1052,8 @@
     "jlpt"
    ],
    "count": 34,
-   "version": 4,
-   "hash": "9605d2b357"
+   "version": 5,
+   "hash": "416c71e3cf"
   },
   {
    "id": "jlpt-n3-41",
@@ -1748,8 +1748,8 @@
     "jlpt"
    ],
    "count": 3,
-   "version": 1,
-   "hash": "c71ca45361"
+   "version": 2,
+   "hash": "c6ba6e8372"
   },
   {
    "id": "nguphap-n2-02",
@@ -2450,8 +2450,8 @@
     "jlpt"
    ],
    "count": 3,
-   "version": 1,
-   "hash": "e0b9f7c24a"
+   "version": 2,
+   "hash": "8bd4954af8"
   },
   {
    "id": "nguphap-n3-16",
@@ -2619,8 +2619,8 @@
     "jlpt"
    ],
    "count": 3,
-   "version": 2,
-   "hash": "d14a25c085"
+   "version": 3,
+   "hash": "368f9c6ce7"
   },
   {
    "id": "nguphap-n3-29",
@@ -4096,6 +4096,72 @@
    "turns": 54
   },
   {
+   "id": "hoithoai-n2-01",
+   "file": "hoithoai-n2-01.json",
+   "title": "Hội thoại luyện thêm N2",
+   "type": "dialog",
+   "level": "N2",
+   "topics": [
+    "doisong",
+    "kansai",
+    "thuysan",
+    "xuong"
+   ],
+   "count": 8,
+   "version": 16,
+   "hash": "4d3c9e25c3",
+   "turns": 124
+  },
+  {
+   "id": "hoithoai-n3-01",
+   "file": "hoithoai-n3-01.json",
+   "title": "Hội thoại luyện thêm N3",
+   "type": "dialog",
+   "level": "N3",
+   "topics": [
+    "doisong",
+    "kansai",
+    "thuysan",
+    "xuong"
+   ],
+   "count": 8,
+   "version": 18,
+   "hash": "a9e1f435cf",
+   "turns": 126
+  },
+  {
+   "id": "hoithoai-n4-01",
+   "file": "hoithoai-n4-01.json",
+   "title": "Hội thoại luyện thêm N4",
+   "type": "dialog",
+   "level": "N4",
+   "topics": [
+    "doisong",
+    "thuysan",
+    "xuong"
+   ],
+   "count": 8,
+   "version": 11,
+   "hash": "4089c4b921",
+   "turns": 111
+  },
+  {
+   "id": "hoithoai-n5-01",
+   "file": "hoithoai-n5-01.json",
+   "title": "Hội thoại luyện thêm N5",
+   "type": "dialog",
+   "level": "N5",
+   "topics": [
+    "doisong",
+    "kansai",
+    "xuong"
+   ],
+   "count": 8,
+   "version": 4,
+   "hash": "a776f61617",
+   "turns": 96
+  },
+  {
    "id": "modau-n2-01",
    "file": "modau-n2-01.json",
    "title": "Bài mở đầu N2 – bài 1: Một tuần toàn hợp đồng",
@@ -4726,8 +4792,8 @@
     "doisong"
    ],
    "count": 1,
-   "version": 1,
-   "hash": "035ef1805a",
+   "version": 2,
+   "hash": "0dbba83178",
    "turns": 41
   },
   {
@@ -5208,8 +5274,8 @@
     "doisong"
    ],
    "count": 1,
-   "version": 2,
-   "hash": "3aaac0e4f7",
+   "version": 3,
+   "hash": "eac6167c36",
    "turns": 46
   },
   {
@@ -5456,8 +5522,8 @@
     "xuong"
    ],
    "count": 1,
-   "version": 3,
-   "hash": "2eb5151d5f",
+   "version": 4,
+   "hash": "3f9b52d581",
    "turns": 44
   },
   {
@@ -5686,6 +5752,70 @@
    "version": 1,
    "hash": "e2c30ec095",
    "sents": 11
+  },
+  {
+   "id": "baidoc-n2-01",
+   "file": "baidoc-n2-01.json",
+   "title": "Bài đọc luyện thêm N2",
+   "type": "text",
+   "level": "N2",
+   "topics": [
+    "doisong",
+    "thuysan",
+    "xuong"
+   ],
+   "count": 7,
+   "version": 16,
+   "hash": "9d82f1c53d",
+   "sents": 177
+  },
+  {
+   "id": "baidoc-n3-01",
+   "file": "baidoc-n3-01.json",
+   "title": "Bài đọc luyện thêm N3",
+   "type": "text",
+   "level": "N3",
+   "topics": [
+    "doisong",
+    "thuysan",
+    "xuong"
+   ],
+   "count": 7,
+   "version": 16,
+   "hash": "9c4b1077b3",
+   "sents": 150
+  },
+  {
+   "id": "baidoc-n4-01",
+   "file": "baidoc-n4-01.json",
+   "title": "Bài đọc luyện thêm N4",
+   "type": "text",
+   "level": "N4",
+   "topics": [
+    "doisong",
+    "thuysan",
+    "xuong"
+   ],
+   "count": 7,
+   "version": 14,
+   "hash": "23673d36cb",
+   "sents": 116
+  },
+  {
+   "id": "baidoc-n5-01",
+   "file": "baidoc-n5-01.json",
+   "title": "Bài đọc luyện thêm N5",
+   "type": "text",
+   "level": "N5",
+   "topics": [
+    "doisong",
+    "thuysan",
+    "xuong"
+   ],
+   "count": 7,
+   "version": 15,
+   "hash": "44cafbcd24",
+   "sents": 85
   },
   {
    "id": "modau-n2-03",

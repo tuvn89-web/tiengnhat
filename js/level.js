@@ -17,7 +17,7 @@ import { kvGet, kvSet, del } from './db.js';
 
 // ---------- nhãn ----------
 export const SK = { vocab: 'Từ vựng', kread: 'Đọc chữ Hán', kanji: 'Thẻ chữ Hán', grammar: 'Ngữ pháp', read: 'Đọc hiểu', listen: 'Nghe' };
-const KIND = { xeplop: 'Xếp lớp nhanh', vuotcap: 'Thi vượt cấp', goi: 'Kiểm tra theo gói' };
+const KIND = { xeplop: 'Xếp lớp nhanh', vuotcap: 'Thi vượt cấp', goi: 'Kiểm tra theo gói', thithu: 'Thi thử JLPT' };
 // chủ đề của từ / bối cảnh câu ví dụ → một nhóm chung để vẽ biểu đồ
 const TG = { doisong: 'Đời sống', xuong: 'Xưởng & thủy sản', thuysan: 'Xưởng & thủy sản', thuevisa: 'Thủ tục & giấy tờ', thutuc: 'Thủ tục & giấy tờ', hoithoai: 'Hội thoại', kansai: 'Kansai-ben', jlpt: 'JLPT chung' };
 const SPEC = new Set(['xuong', 'thuysan', 'thuevisa', 'kansai']);
@@ -166,6 +166,11 @@ export async function renderLevelHub(view, ctx) {
       <p class="setup-count" aria-live="polite"></p>
       <button class="btn btn-primary btn-block" data-act="full" ${lv.length ? '' : 'disabled'}>Bắt đầu thi vượt cấp</button>
     </section>
+    <section class="card lv-card">
+      <h2 class="h2">Đề thi thử JLPT</h2>
+      <p class="small muted">Đề chia đúng các phần thi như JLPT (đọc chữ Hán, cách viết, chọn từ, từ gần nghĩa, ngữ pháp, câu ★, đọc hiểu, nghe hội thoại), câu hỏi kiểu đề thật. Chấm theo phần thi, ước lượng đỗ / trượt theo điểm đỗ của JLPT. Không đổi tiến độ học.</p>
+      <a class="btn btn-ghost btn-block" href="#/thithu">Mở đề thi thử JLPT</a>
+    </section>
     ${packs.length ? `<section class="card"><h2 class="h2">Kiểm tra theo gói</h2>
       <p class="small muted">Gói đã học từ 80% trở lên: làm 10 câu của riêng gói đó. Kết quả tính vào lịch ôn như bài luyện thường.</p>
       ${packList(packs.slice(0, 5))}${packs.length > 5 ? `<details><summary class="small">Xem thêm ${packs.length - 5} gói</summary>${packList(packs.slice(5))}</details>` : ''}</section>` : ''}
@@ -240,6 +245,7 @@ function histRow(t) {
   let what = '';
   if (t.kind === 'xeplop') what = `ước lượng <b>${esc(t.est || 'chưa qua ' + (Object.keys(t.levels || {})[0] || 'N5'))}</b> · ${Object.entries(t.levels || {}).map(([L, [a, b]]) => `${L} ${Math.round((a / b) * 100)}%`).join(' · ')}`;
   else if (t.kind === 'vuotcap') what = `${esc(t.level)} <b>${t.pct}%</b> — ${t.pct >= thresholds().lo ? 'đạt' : 'chưa đạt'}`;
+  else if (t.kind === 'thithu') what = `${esc(t.level)} <b>${t.pts}/180</b> — ${t.pass == null ? 'chưa thi phần nghe' : t.pass ? 'ước lượng đỗ' : 'ước lượng chưa đỗ'}`;
   else what = `${rich(t.title || t.pack || '')} <b>${t.pct}%</b>`;
   const st = t.undone ? ' · đã hoàn tác' : t.applied ? ' · đã áp dụng' : '';
   return `<li><span class="muted small">${when} · ${esc(KIND[t.kind] || '')}${st}</span><span>${what}</span></li>`;

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -20,11 +20,11 @@
    "level": "N3",
    "meaning": "mang tính…, về mặt… (biến danh từ Hán thành tính từ)",
    "structure": [
-    "Danh từ Hán + 的[てき]な + N: 経済的[てき]な問題[もんだい]",
-    "Danh từ Hán + 的[てき]に + V/A: 個人的[てき]に好[す]きだ",
-    "Danh từ Hán + 的[てき]だ: この方法[ほうほう]は効果的[てき]だ"
+    "Danh từ Hán + 的[てき]な + N: 経済[けいざい]的[てき]な問題[もんだい]",
+    "Danh từ Hán + 的[てき]に + V/A: 個人[こじん]的[てき]に好[す]きだ",
+    "Danh từ Hán + 的[てき]だ: この方法[ほうほう]は効果[こうか]的[てき]だ"
    ],
-   "explain": "〜的[てき] (てき) biến danh từ (thường là từ Hán) thành TÍNH TỪ な, nghĩa \"MANG TÍNH…, VỀ MẶT…\": 経済的[てき]な問題[もんだい] = vấn đề về kinh tế. 個人的[てき]に = về mặt cá nhân. 積極的[てき] = tích cực.\n\nCách ghép: danh từ + 的[てき]; chia như tính từ な: 的[てき]な + danh từ; 的[てき]に + động từ / tính từ; 的[てき]だ cuối câu.\n\nTừ hay gặp: 基本的[てき] (cơ bản), 具体的[てき] (cụ thể), 経済的[てき] (kinh tế, tiết kiệm), 積極的[てき] (tích cực), 一般的[てき] (phổ biến), 衛生的[てき] (vệ sinh), 一時的[てき] (tạm thời). Ở xưởng: 「基本的[てき]に、手袋[てぶくろ]は一時間[いちじかん]ごとに替[か]えます」.\n\nMẹo nhớ: 的[てき] = ĐÍCH → giống chữ \"-tính\" trong tiếng Việt.",
+   "explain": "〜的[てき] (てき) biến danh từ (thường là từ Hán) thành TÍNH TỪ な, nghĩa \"MANG TÍNH…, VỀ MẶT…\": 経済[けいざい]的[てき]な問題[もんだい] = vấn đề về kinh tế. 個人[こじん]的[てき]に = về mặt cá nhân. 積極[せっきょく]的[てき] = tích cực.\n\nCách ghép: danh từ + 的[てき]; chia như tính từ な: 的[てき]な + danh từ; 的[てき]に + động từ / tính từ; 的[てき]だ cuối câu.\n\nTừ hay gặp: 基本[きほん]的[てき] (cơ bản), 具体[ぐたい]的[てき] (cụ thể), 経済[けいざい]的[てき] (kinh tế, tiết kiệm), 積極[せっきょく]的[てき] (tích cực), 一般[いっぱん]的[てき] (phổ biến), 衛生[えいせい]的[てき] (vệ sinh), 一時[いちじ]的[てき] (tạm thời). Ở xưởng: 「基本[きほん]的[てき]に、手袋[てぶくろ]は一時間[いちじかん]ごとに替[か]えます」.\n\nMẹo nhớ: 的[てき] = ĐÍCH → giống chữ \"-tính\" trong tiếng Việt.",
    "casual": "Giới trẻ: 私的[てき]には (về phần tôi) — khẩu ngữ.",
    "compare": [
     {
@@ -37,7 +37,7 @@
     }
    ],
    "mistakes": [
-    "Quên な trước danh từ: 経済的[てき]問題[もんだい] (văn viết được) — nói thường: 経済的[てき]な問題[もんだい].",
+    "Quên な trước danh từ: 経済[けいざい]的[てき]問題[もんだい] (văn viết được) — nói thường: 経済[けいざい]的[てき]な問題[もんだい].",
     "Gắn vào từ thuần Nhật: 優[やさ]し的[てき] ✗."
    ],
    "ex": [
@@ -190,7 +190,7 @@
     {
      "chunks": [
       "もっと",
-      "具体的[てき]例[れい]を",
+      "具体[ぐたい]的[てき]例[れい]を",
       "言[い]ってください"
      ],
      "vi": "Hãy nói ví dụ cụ thể hơn.",
@@ -200,7 +200,7 @@
     },
     {
      "chunks": [
-      "基本的[てき]な",
+      "基本[きほん]的[てき]な",
       "手袋[てぶくろ]は毎日[まいにち]",
       "替[か]えます"
      ],
@@ -214,8 +214,8 @@
     {
      "q": "Bạn hỏi lại nhân viên quầy (lịch sự): cụ thể là cần những giấy tờ gì ạ?",
      "opts": [
-      "具体的[てき]に、どんな書類[しょるい]が必要[ひつよう]ですか。",
-      "具体的[てき]な、どんな書類[しょるい]が必要[ひつよう]ですか。",
+      "具体[ぐたい]的[てき]に、どんな書類[しょるい]が必要[ひつよう]ですか。",
+      "具体[ぐたい]的[てき]な、どんな書類[しょるい]が必要[ひつよう]ですか。",
       "具体[ぐたい]らしく、どんな書類[しょるい]が必要[ひつよう]ですか。"
      ],
      "ans": 0,
@@ -227,7 +227,7 @@
      "from": "私的[てき]にはこっちがええな。",
      "to": "個人的[こじんてき]には、こちらがいいと思[おも]います。",
      "kind": "lichsu",
-     "note": "Giới trẻ: 私的[てき]には → chuẩn 個人的[てき]には; ええ = いい (Kansai).",
+     "note": "Giới trẻ: 私的[てき]には → chuẩn 個人[こじん]的[てき]には; ええ = いい (Kansai).",
      "wrong": [
       "個人的[こじんてき]なは、こちらがいいと思[おも]います。",
       "個人[こじん]らしくは、こちらがいいと思[おも]います。"
