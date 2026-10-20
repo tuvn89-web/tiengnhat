@@ -1,404 +1,1139 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "nguphap-n5-05",
-    "title": "Ngữ pháp N5 05 – Trợ từ を・に・へ・で・と",
-    "type": "grammar",
-    "level": "N5",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 2,
-    "created": "2026-10-11",
-    "verified_on": "",
-    "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "nguphap-n5-05",
+  "title": "Ngữ pháp N5 05 – Trợ từ を・に・へ・で・と",
+  "type": "grammar",
+  "level": "N5",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 4,
+  "created": "2026-10-11",
+  "verified_on": "",
+  "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
+ },
+ "items": [
+  {
+   "id": "g:〜を",
+   "pattern": "〜を",
+   "level": "N5",
+   "meaning": "đánh dấu tân ngữ (cái bị tác động); còn chỉ nơi đi qua, nơi rời khỏi",
+   "structure": [
+    "N を V: 水[みず]を飲[の]みます",
+    "Nơi đi qua: 道[みち]を渡[わた]ります, 角[かど]を曲[ま]がります",
+    "Nơi rời khỏi: 家[いえ]を出[で]ます, 電車[でんしゃ]を降[お]ります"
+   ],
+   "explain": "を đặt sau danh từ bị hành động tác động vào: uống CÁI GÌ, rửa CÁI GÌ, cắt CÁI GÌ. Trợ từ này viết を nhưng đọc là \"o\". Mẹo: sau động từ hỏi được \"cái gì?\" thì thường dùng を: 魚[さかな]を切[き]ります (cắt cá).\n\nVới động từ di chuyển, を có nghĩa khác: chỉ NƠI ĐI QUA (橋[はし]を渡[わた]る = qua cầu, 道[みち]を歩[ある]く = đi trên đường, 角[かど]を曲[ま]がる = rẽ ở góc) hoặc NƠI RỜI KHỎI (家[いえ]を出[で]る = ra khỏi nhà, 電車[でんしゃ]を降[お]りる = xuống tàu).\n\nMột số động từ KHÔNG dùng を dù tiếng Việt có tân ngữ: gặp ai → 人[ひと]に会[あ]う; lên xe → バスに乗[の]る; hiểu → 日本語[にほんご]がわかる; thích → 魚[さかな]が好[す]き; muốn có → 車[くるま]がほしい. Những cặp này phải học thuộc.",
+   "casual": "Khẩu ngữ hay bỏ を: 「水[みず]飲[の]む？」「これ洗[あら]って」「手[て]洗[あら]った？」. Kansai cũng vậy: 「それほかしといて」 (vứt cái đó đi).",
+   "compare": [
     {
-      "id": "g:〜を",
-      "pattern": "〜を",
-      "level": "N5",
-      "meaning": "đánh dấu tân ngữ (cái bị tác động); còn chỉ nơi đi qua, nơi rời khỏi",
-      "structure": [
-        "N を V: 水[みず]を飲[の]みます",
-        "Nơi đi qua: 道[みち]を渡[わた]ります, 角[かど]を曲[ま]がります",
-        "Nơi rời khỏi: 家[いえ]を出[で]ます, 電車[でんしゃ]を降[お]ります"
-      ],
-      "explain": "を đặt sau danh từ bị hành động tác động vào: uống CÁI GÌ, rửa CÁI GÌ, cắt CÁI GÌ. Trợ từ này viết を nhưng đọc là \"o\". Mẹo: sau động từ hỏi được \"cái gì?\" thì thường dùng を: 魚[さかな]を切[き]ります (cắt cá).\n\nVới động từ di chuyển, を có nghĩa khác: chỉ NƠI ĐI QUA (橋[はし]を渡[わた]る = qua cầu, 道[みち]を歩[ある]く = đi trên đường, 角[かど]を曲[ま]がる = rẽ ở góc) hoặc NƠI RỜI KHỎI (家[いえ]を出[で]る = ra khỏi nhà, 電車[でんしゃ]を降[お]りる = xuống tàu).\n\nMột số động từ KHÔNG dùng を dù tiếng Việt có tân ngữ: gặp ai → 人[ひと]に会[あ]う; lên xe → バスに乗[の]る; hiểu → 日本語[にほんご]がわかる; thích → 魚[さかな]が好[す]き; muốn có → 車[くるま]がほしい. Những cặp này phải học thuộc.",
-      "casual": "Khẩu ngữ hay bỏ を: 「水[みず]飲[の]む？」「これ洗[あら]って」「手[て]洗[あら]った？」. Kansai cũng vậy: 「それほかしといて」 (vứt cái đó đi).",
-      "compare": [
-        {
-          "pattern": "〜が",
-          "diff": "を đánh dấu cái bị tác động (水[みず]を飲[の]む); が đi với từ chỉ trạng thái, khả năng, cảm xúc: 水[みず]がほしい, 日本語[にほんご]がわかる, 魚[さかな]が好[す]き."
-        }
-      ],
-      "mistakes": [
-        "Dùng を với 会[あ]う, 乗[の]る: 友達[ともだち]を会[あ]う ✗ → 友達[ともだち]に会[あ]う; バスを乗[の]る ✗ → バスに乗[の]る.",
-        "Dùng を với わかる: 日本語[にほんご]をわかります ✗ → 日本語[にほんご]がわかります."
-      ],
-      "ex": [
-        {
-          "jp": "水[みず][[を]]飲[の]みます。",
-          "vi": "Tôi uống nước.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "テレビ[[を]]見[み]ます。",
-          "vi": "Tôi xem ti vi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "手[て][[を]]洗[あら]います。",
-          "vi": "Tôi rửa tay.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "毎朝[まいあさ]、新聞[しんぶん][[を]]読[よ]みます。",
-          "vi": "Sáng nào tôi cũng đọc báo.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "ピンセットで骨[ほね][[を]]抜[ぬ]きます。",
-          "vi": "Gắp xương bằng nhíp.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "ここに名前[なまえ][[を]]書[か]いてください。",
-          "vi": "Hãy viết tên vào đây.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "七時[しちじ]に家[いえ][[を]]出[で]ます。",
-          "vi": "Bảy giờ tôi ra khỏi nhà.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "マグロの皮[かわ][[を]]引[ひ]きます。",
-          "vi": "Lột da cá ngừ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "市役所[しやくしょ]で課税証明書[かぜいしょうめいしょ][[を]]もらいます。",
-          "vi": "Tôi xin giấy chứng nhận đánh thuế ở ủy ban thành phố.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：昼[ひる]ご飯[はん]に何[なに][[を]]食[た]べますか。B：お弁当[べんとう]です。",
-          "vi": "A: Bữa trưa bạn ăn gì? B: Cơm hộp.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "topics": []
-    },
-    {
-      "id": "g:〜に",
-      "pattern": "〜に",
-      "level": "N5",
-      "meaning": "lúc (thời điểm cụ thể); đến (điểm đến); cho, với (người nhận); ở (nơi tồn tại)",
-      "structure": [
-        "Giờ/ngày có số + に: 7時[じ]に起[お]きます, 5日[か]に行[い]きます",
-        "Nơi + に + 行[い]く／来[く]る／帰[かえ]る／入[はい]る",
-        "Người + に + 電話[でんわ]する／会[あ]う／聞[き]く／あげる",
-        "Nơi + に + ある／いる／住[す]む"
-      ],
-      "explain": "Thời điểm có con số hoặc tên cụ thể (7時[じ], 5日[か], 4月[がつ], 2026年[ねん], 月曜日[げつようび]) cần に: 7時[じ]に起[お]きます. Từ chỉ thời gian TƯƠNG ĐỐI (今日[きょう], 明日[あした], 毎朝[まいあさ], 来週[らいしゅう], 今[いま]) thì KHÔNG thêm に: 明日[あした]行[い]きます.\n\nに chỉ điểm đến của động từ di chuyển: 会社[かいしゃ]に行[い]きます, 部屋[へや]に入[はい]ります, バスに乗[の]ります. Nó còn chỉ người nhận, người đối diện của hành động: 母[はは]に電話[でんわ]します, 友達[ともだち]に会[あ]います, 先輩[せんぱい]に聞[き]きます.\n\nVới ある・いる・住[す]む, に chỉ nơi tồn tại: 事務所[じむしょ]に田中[たなか]さんがいます, 神戸[こうべ]に住[す]んでいます. Mẹo nhớ: に luôn chỉ một ĐIỂM — điểm thời gian, điểm đến, điểm có người/vật ở đó.",
-      "casual": "Khẩu ngữ hay bỏ に với nơi đến: 「明日[あした]、市役所[しやくしょ]行[い]く」. Thời điểm có số vẫn giữ に: 「7時[じ]に来[き]て」. Kansai giống.",
-      "compare": [
-        {
-          "pattern": "〜で",
-          "diff": "に: nơi tồn tại hoặc điểm đến (工場[こうじょう]にいます, 工場[こうじょう]に行[い]きます); で: nơi diễn ra hành động (工場[こうじょう]で働[はたら]きます)."
-        },
-        {
-          "pattern": "〜へ",
-          "diff": "Với nơi đến, に và へ thay nhau được (国[くに]に帰[かえ]る = 国[くに]へ帰[かえ]る). Thời điểm, nơi tồn tại, người nhận thì chỉ dùng に."
-        }
-      ],
-      "mistakes": [
-        "Thêm に sau từ thời gian tương đối: 明日[あした]に行[い]きます ✗ → 明日[あした]行[い]きます.",
-        "Dùng で với ある/いる: 部屋[へや]で猫[ねこ]がいます ✗ → 部屋[へや]に猫[ねこ]がいます."
-      ],
-      "ex": [
-        {
-          "jp": "毎朝[まいあさ]六時[ろくじ][[に]]起[お]きます。",
-          "vi": "Sáng nào tôi cũng dậy lúc sáu giờ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "日曜日[にちようび][[に]]友達[ともだち]と会[あ]います。",
-          "vi": "Chủ nhật tôi gặp bạn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "八時[はちじ][[に]]朝礼[ちょうれい]があります。",
-          "vi": "Tám giờ có họp đầu ca.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "母[はは][[に]]電話[でんわ]をかけます。",
-          "vi": "Tôi gọi điện cho mẹ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "このサーモンは冷蔵庫[れいぞうこ][[に]]入[い]れてください。",
-          "vi": "Cá hồi này hãy cho vào tủ mát.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "申請書[しんせいしょ]は窓口[まどぐち][[に]]出[だ]してください。",
-          "vi": "Đơn hãy nộp ở quầy.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "私[わたし]は神戸[こうべ][[に]]住[す]んでいます。",
-          "vi": "Tôi sống ở Kobe.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "わからない時[とき]は、班長[はんちょう][[に]]聞[き]いてください。",
-          "vi": "Khi không hiểu hãy hỏi tổ trưởng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "申請書[しんせいしょ]は三月[さんがつ]三十一日[さんじゅういちにち][[に]]出[だ]しました。",
-          "vi": "Tôi đã nộp đơn vào ngày 31 tháng Ba.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：何時[なんじ][[に]]終[お]わりますか。B：五時[ごじ]に終[お]わります。",
-          "vi": "A: Mấy giờ thì xong ạ? B: Năm giờ xong.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "topics": []
-    },
-    {
-      "id": "g:〜へ",
-      "pattern": "〜へ",
-      "level": "N5",
-      "meaning": "về phía, đến (hướng di chuyển) — trợ từ へ đọc là 'e'",
-      "structure": [
-        "Nơi + へ + 行[い]く／来[く]る／帰[かえ]る",
-        "国[くに]へ帰[かえ]ります",
-        "N への N (gửi tới): 家族[かぞく]への手紙[てがみ]"
-      ],
-      "explain": "へ chỉ HƯỚNG của sự di chuyển, đi với 行[い]く, 来[く]る, 帰[かえ]る, 向[む]かう. Viết bằng chữ へ (he) nhưng khi là trợ từ thì ĐỌC là \"e\": 駅[えき]へ = \"eki e\".\n\nGần như mọi câu dùng へ đều thay bằng に được và vẫn đúng: 国[くに]へ帰[かえ]る = 国[くに]に帰[かえ]る. へ nhấn \"hướng về phía\", に nhấn \"tới điểm đó\". Trên biển chỉ đường, bảng thông báo hay gặp へ: 出口[でぐち]へ (→ lối ra), 2階[かい]へ.\n\nKhi đứng trước danh từ thì dùng への: 家族[かぞく]への手紙[てがみ] (thư gửi gia đình), お客様[きゃくさま]へのお知[し]らせ (thông báo gửi khách hàng). Không dùng へ với ある/いる và với thời điểm. Mẹo nhớ: へ giống mũi tên →.",
-      "casual": "Khẩu ngữ thường bỏ へ: 「国[くに]帰[かえ]る」「どこ行[い]く？」. Kansai: 「どこ行[い]くん？」「家[いえ]帰[かえ]るわ」.",
-      "compare": [
-        {
-          "pattern": "〜に",
-          "diff": "国[くに]へ帰[かえ]る và 国[くに]に帰[かえ]る đều đúng. Nhưng thời điểm (7時[じ]に), nơi tồn tại (部屋[へや]にいる), người nhận (母[はは]に) thì chỉ dùng に."
-        }
-      ],
-      "mistakes": [
-        "Đọc へ là 'he' khi là trợ từ — phải đọc 'e'.",
-        "Dùng へ cho nơi tồn tại: 部屋[へや]へいます ✗ → 部屋[へや]にいます."
-      ],
-      "ex": [
-        {
-          "jp": "明日[あした]、病院[びょういん][[へ]]行[い]きます。",
-          "vi": "Ngày mai tôi đi bệnh viện.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "六時[ろくじ]に家[いえ][[へ]]帰[かえ]ります。",
-          "vi": "Sáu giờ tôi về nhà.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "休憩室[きゅうけいしつ][[へ]]行[い]ってもいいですか。",
-          "vi": "Tôi vào phòng nghỉ được không ạ?",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "来月[らいげつ]、国[くに][[へ]]帰[かえ]ります。",
-          "vi": "Tháng sau tôi về nước.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "今[いま]から事務所[じむしょ][[へ]]行[い]きます。",
-          "vi": "Bây giờ tôi lên văn phòng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "郵便局[ゆうびんきょく][[へ]]税金[ぜいきん]を払[はら]いに行[い]きます。",
-          "vi": "Tôi ra bưu điện để nộp thuế.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "子供[こども]と公園[こうえん][[へ]]行[い]きました。",
-          "vi": "Tôi đã đi công viên với con.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "できた箱[はこ]は出荷場[しゅっかば][[へ]]持[も]っていってください。",
-          "vi": "Thùng làm xong hãy mang ra khu xuất hàng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "来週[らいしゅう]、大阪[おおさか]の入管[にゅうかん][[へ]]行[い]きます。",
-          "vi": "Tuần sau tôi đến Cục quản lý xuất nhập cảnh ở Osaka.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：週末[しゅうまつ]はどこ[[へ]]行[い]きますか。B：京都[きょうと]へ行[い]きます。",
-          "vi": "A: Cuối tuần bạn đi đâu? B: Tôi đi Kyoto.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "topics": []
-    },
-    {
-      "id": "g:〜で",
-      "pattern": "〜で",
-      "level": "N5",
-      "meaning": "ở (nơi diễn ra hành động); bằng (phương tiện, công cụ, ngôn ngữ)",
-      "structure": [
-        "Nơi + で + V: 工場[こうじょう]で働[はたら]きます",
-        "Phương tiện, công cụ + で: 自転車[じてんしゃ]で行[い]きます, 包丁[ほうちょう]で切[き]ります",
-        "Ngôn ngữ + で: 日本語[にほんご]で話[はな]します",
-        "Phạm vi: 全部[ぜんぶ]で, 一人[ひとり]で"
-      ],
-      "explain": "で chỉ NƠI HÀNH ĐỘNG XẢY RA: 食堂[しょくどう]で食[た]べます (ăn ở nhà ăn), 工場[こうじょう]で働[はたら]きます (làm ở nhà máy). Khác với に là nơi người/vật đang ở (工場[こうじょう]にいます).\n\nで chỉ PHƯƠNG TIỆN, CÔNG CỤ, CÁCH THỨC: バスで行[い]きます (đi bằng xe buýt), 手[て]で洗[あら]います (rửa bằng tay), ペンで書[か]きます, 日本語[にほんご]で書[か]いてください (viết bằng tiếng Nhật). Đi bộ thì nói 歩[ある]いて, không nói 足[あし]で.\n\nで còn gom lại một phạm vi hay số lượng: 全部[ぜんぶ]で500円[えん]です (tất cả là 500 yên), 一人[ひとり]で住[す]んでいます (sống một mình), 二人[ふたり]で運[はこ]びます (hai người khiêng). Mẹo nhớ: で = \"ở (đang làm gì)\" và \"bằng\".",
-      "casual": "Khẩu ngữ giữ で vì nó mang nghĩa: 「ここで待[ま]って」「チャリで行[い]く」 (đi bằng xe đạp — チャリ là tiếng lóng). Kansai: 「ここでええ？」 = ở đây được không?",
-      "compare": [
-        {
-          "pattern": "〜に",
-          "diff": "工場[こうじょう]にいます = đang ở nhà máy (tồn tại); 工場[こうじょう]で働[はたら]きます = làm việc ở nhà máy (hành động)."
-        }
-      ],
-      "mistakes": [
-        "Dùng に cho nơi hành động: 食堂[しょくどう]に食[た]べます ✗ → 食堂[しょくどう]で食[た]べます.",
-        "Nói 足[あし]で会社[かいしゃ]へ行[い]きます ✗ → 歩[ある]いて会社[かいしゃ]へ行[い]きます."
-      ],
-      "ex": [
-        {
-          "jp": "食堂[しょくどう][[で]]昼[ひる]ご飯[はん]を食[た]べます。",
-          "vi": "Tôi ăn trưa ở nhà ăn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "自転車[じてんしゃ][[で]]会社[かいしゃ]へ行[い]きます。",
-          "vi": "Tôi đi làm bằng xe đạp.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "工場[こうじょう][[で]]魚[さかな]を切[き]ります。",
-          "vi": "Tôi cắt cá ở nhà máy.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "日本語[にほんご][[で]]話[はな]してください。",
-          "vi": "Hãy nói bằng tiếng Nhật.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "骨[ほね]はピンセット[[で]]抜[ぬ]きます。",
-          "vi": "Xương thì gắp bằng nhíp.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "申請[しんせい]はオンライン[[で]]もできます。",
-          "vi": "Cũng có thể nộp đơn trực tuyến.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "スーパー[[で]]魚[さかな]を買[か]いました。",
-          "vi": "Tôi đã mua cá ở siêu thị.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "マグロは流水[りゅうすい][[で]]解凍[かいとう]してください。",
-          "vi": "Cá ngừ hãy rã đông bằng nước chảy.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "手数料[てすうりょう]はコンビニ[[で]]払[はら]えます。",
-          "vi": "Lệ phí có thể trả ở cửa hàng tiện lợi.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：会社[かいしゃ]まで何[なに][[で]]来[き]ますか。B：バスで来[き]ます。",
-          "vi": "A: Bạn đến công ty bằng gì? B: Tôi đi xe buýt.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "topics": []
-    },
-    {
-      "id": "g:〜と",
-      "pattern": "〜と",
-      "level": "N5",
-      "meaning": "và (nối danh từ, liệt kê đủ); cùng với (ai đó)",
-      "structure": [
-        "N1 と N2: パンと牛乳[ぎゅうにゅう]",
-        "Người + と + V: 友達[ともだち]と行[い]きます",
-        "Người + と + 話[はな]す／結婚[けっこん]する／会[あ]う"
-      ],
-      "explain": "と nối các DANH TỪ, liệt kê ĐẦY ĐỦ: 肉[にく]と魚[さかな]を買[か]いました = mua thịt và cá (đúng hai thứ đó). と chỉ nối danh từ, KHÔNG nối động từ, tính từ hay hai câu.\n\nNgười + と nghĩa là \"cùng với\": 家族[かぞく]と住[す]んでいます (sống cùng gia đình), 田中[たなか]さんと二人[ふたり]で運[はこ]びます. Với 話[はな]す, 結婚[けっこん]する, 会[あ]う, けんかする, と chỉ người cùng tham gia: 友達[ともだち]と話[はな]します.\n\nMuốn liệt kê vài ví dụ, không đầy đủ, dùng や: 肉[にく]や魚[さかな] (thịt, cá… và những thứ khác). Nối hai tính từ dùng thể て: 安[やす]くて新[あたら]しい. Nối hai hành động: 食[た]べて、飲[の]みます. Mẹo nhớ: と = \"và / với\", chỉ dùng giữa danh từ.",
-      "casual": "Giống dạng lịch sự: 「友達[ともだち]と行[い]く」「パンと牛乳[ぎゅうにゅう]」. Khẩu ngữ hay thêm と ở cuối danh sách: 「パンと、牛乳[ぎゅうにゅう]と」. Kansai giống.",
-      "compare": [
-        {
-          "pattern": "〜や",
-          "diff": "と liệt kê đủ (肉[にく]と魚[さかな] = đúng hai thứ); や liệt kê vài ví dụ (肉[にく]や魚[さかな] = thịt, cá, v.v.)."
-        }
-      ],
-      "mistakes": [
-        "Dùng と nối hai hành động: 食[た]べると飲[の]みます ✗ → 食[た]べて、飲[の]みます.",
-        "Dùng と nối hai tính từ: 安[やす]いと新[あたら]しい ✗ → 安[やす]くて新[あたら]しい."
-      ],
-      "ex": [
-        {
-          "jp": "パン[[と]]牛乳[ぎゅうにゅう]を買[か]いました。",
-          "vi": "Tôi đã mua bánh mì và sữa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "友達[ともだち][[と]]映画[えいが]を見[み]ます。",
-          "vi": "Tôi xem phim với bạn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "手袋[てぶくろ][[と]]マスクをしてください。",
-          "vi": "Hãy đeo găng tay và khẩu trang.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "毎晩[まいばん]、家族[かぞく][[と]]電話[でんわ]で話[はな]します。",
-          "vi": "Tối nào tôi cũng nói chuyện điện thoại với gia đình.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "田中[たなか]さん[[と]]二人[ふたり]で箱[はこ]を運[はこ]びます。",
-          "vi": "Tôi cùng anh Tanaka hai người khiêng thùng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "パスポート[[と]]在留[ざいりゅう]カードを持[も]ってきてください。",
-          "vi": "Hãy mang hộ chiếu và thẻ cư trú đến.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "日曜日[にちようび]、妹[いもうと][[と]]買[か]い物[もの]に行[い]きます。",
-          "vi": "Chủ nhật tôi đi mua sắm với em gái.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "塩[しお][[と]]砂糖[さとう]を間違[まちが]えないでください。",
-          "vi": "Đừng nhầm muối với đường.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "課税証明書[かぜいしょうめいしょ][[と]]納税証明書[のうぜいしょうめいしょ]が必要[ひつよう]です。",
-          "vi": "Cần giấy chứng nhận đánh thuế và giấy chứng nhận nộp thuế.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：だれ[[と]]住[す]んでいますか。B：会社[かいしゃ]の友達[ともだち]と住[す]んでいます。",
-          "vi": "A: Bạn sống với ai? B: Tôi sống với bạn cùng công ty.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "topics": []
+     "pattern": "〜が",
+     "diff": "を đánh dấu cái bị tác động (水[みず]を飲[の]む); が đi với từ chỉ trạng thái, khả năng, cảm xúc: 水[みず]がほしい, 日本語[にほんご]がわかる, 魚[さかな]が好[す]き."
     }
-  ]
+   ],
+   "mistakes": [
+    "Dùng を với 会[あ]う, 乗[の]る: 友達[ともだち]を会[あ]う ✗ → 友達[ともだち]に会[あ]う; バスを乗[の]る ✗ → バスに乗[の]る.",
+    "Dùng を với わかる: 日本語[にほんご]をわかります ✗ → 日本語[にほんご]がわかります."
+   ],
+   "ex": [
+    {
+     "jp": "水[みず][[を]]飲[の]みます。",
+     "vi": "Tôi uống nước.",
+     "ctx": "doisong",
+     "wrong": [
+      "に",
+      "が"
+     ]
+    },
+    {
+     "jp": "テレビ[[を]]見[み]ます。",
+     "vi": "Tôi xem ti vi.",
+     "ctx": "doisong",
+     "wrong": [
+      "が",
+      "に"
+     ]
+    },
+    {
+     "jp": "手[て][[を]]洗[あら]います。",
+     "vi": "Tôi rửa tay.",
+     "ctx": "xuong",
+     "wrong": [
+      "が",
+      "に"
+     ]
+    },
+    {
+     "jp": "毎朝[まいあさ]、新聞[しんぶん][[を]]読[よ]みます。",
+     "vi": "Sáng nào tôi cũng đọc báo.",
+     "ctx": "doisong",
+     "chunks": [
+      "毎朝[まいあさ]、",
+      "新聞[しんぶん]を",
+      "読[よ]みます"
+     ],
+     "wrong": [
+      "に",
+      "が"
+     ]
+    },
+    {
+     "jp": "ピンセットで骨[ほね][[を]]抜[ぬ]きます。",
+     "vi": "Gắp xương bằng nhíp.",
+     "ctx": "xuong",
+     "chunks": [
+      "ピンセットで",
+      "骨[ほね]を",
+      "抜[ぬ]きます"
+     ],
+     "wrong": [
+      "が",
+      "に"
+     ]
+    },
+    {
+     "jp": "ここに名前[なまえ][[を]]書[か]いてください。",
+     "vi": "Hãy viết tên vào đây.",
+     "ctx": "thutuc",
+     "chunks": [
+      "ここに",
+      "名前[なまえ]を",
+      "書[か]いてください"
+     ],
+     "wrong": [
+      "が",
+      "に"
+     ]
+    },
+    {
+     "jp": "七時[しちじ]に家[いえ][[を]]出[で]ます。",
+     "vi": "Bảy giờ tôi ra khỏi nhà.",
+     "ctx": "doisong",
+     "chunks": [
+      "七時[しちじ]に",
+      "家[いえ]を",
+      "出[で]ます"
+     ],
+     "wrong": [
+      "に",
+      "で"
+     ]
+    },
+    {
+     "jp": "マグロの皮[かわ][[を]]引[ひ]きます。",
+     "vi": "Lột da cá ngừ.",
+     "ctx": "xuong",
+     "chunks": [
+      "マグロの",
+      "皮[かわ]を",
+      "引[ひ]きます"
+     ],
+     "wrong": [
+      "が",
+      "に"
+     ]
+    },
+    {
+     "jp": "市役所[しやくしょ]で課税証明書[かぜいしょうめいしょ][[を]]もらいます。",
+     "vi": "Tôi xin giấy chứng nhận đánh thuế ở ủy ban thành phố.",
+     "ctx": "thutuc",
+     "chunks": [
+      "市役所[しやくしょ]で",
+      "課税証明書[かぜいしょうめいしょ]を",
+      "もらいます"
+     ],
+     "wrong": [
+      "に",
+      "が"
+     ]
+    },
+    {
+     "jp": "A：昼[ひる]ご飯[はん]に何[なに][[を]]食[た]べますか。B：お弁当[べんとう]です。",
+     "vi": "A: Bữa trưa bạn ăn gì? B: Cơm hộp.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "が",
+      "に"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "毎朝[まいあさ]",
+      "パンが",
+      "食[た]べます"
+     ],
+     "vi": "Sáng nào tôi cũng ăn bánh mì.",
+     "bad": 1,
+     "fix": "パンを",
+     "why": "Bánh mì là thứ bị ăn (đối tượng của 食[た]べます) → dùng を, không dùng が."
+    },
+    {
+     "chunks": [
+      "駅[えき]で",
+      "友達[ともだち]を",
+      "会[あ]います"
+     ],
+     "vi": "Tôi gặp bạn ở nhà ga.",
+     "bad": 1,
+     "fix": "友達[ともだち]に",
+     "why": "会[あ]う đi với に cho người mình gặp: 友達[ともだち]に会[あ]います. Không dùng を."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Ở quầy ủy ban thành phố, anh Nguyễn muốn xin một bản giấy chứng nhận đánh thuế.",
+     "opts": [
+      "課税[かぜい]証明書[しょうめいしょ]を一枚[いちまい]ください。",
+      "課税[かぜい]証明書[しょうめいしょ]が一枚[いちまい]ください。",
+      "課税[かぜい]証明書[しょうめいしょ]を一枚[いちまい]あげます。"
+     ],
+     "ans": 0,
+     "why": "Thứ mình xin là đối tượng → 〜をください. が không đi với ください; あげます là \"tôi cho, tặng\" — sai nghĩa."
+    },
+    {
+     "q": "Tổ trưởng hỏi sáng nay mấy giờ anh Nguyễn ra khỏi nhà. Anh đi lúc 7 giờ.",
+     "opts": [
+      "七時[しちじ]に家[いえ]を出[で]ました。",
+      "七時[しちじ]に家[いえ]に出[で]ました。",
+      "七時[しちじ]で家[いえ]を出[で]ました。"
+     ],
+     "ans": 0,
+     "why": "Rời khỏi nơi nào dùng を: 家[いえ]を出[で]ます. Giờ có số dùng に: 七時[しちじ]に."
+    }
+   ],
+   "shift": [
+    {
+     "from": "水[みず]飲[の]む？",
+     "to": "水[みず]を飲[の]みますか。",
+     "kind": "khaungu",
+     "note": "Khẩu ngữ hay bỏ を. Câu lịch sự nói đủ trợ từ: 水[みず]を飲[の]みますか.",
+     "wrong": [
+      "水[みず]が飲[の]みますか。",
+      "水[みず]に飲[の]みますか。"
+     ]
+    },
+    {
+     "from": "それ、ほかしといて。",
+     "to": "それを捨[す]ててください。",
+     "kind": "kansai",
+     "note": "Kansai: ほかす = 捨[す]てる (vứt). Câu nói tắt bỏ を; câu lịch sự nói đủ を.",
+     "wrong": [
+      "それが捨[す]ててください。",
+      "それを捨[す]てないでください。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g:〜に",
+   "pattern": "〜に",
+   "level": "N5",
+   "meaning": "lúc (thời điểm cụ thể); đến (điểm đến); cho, với (người nhận); ở (nơi tồn tại)",
+   "structure": [
+    "Giờ/ngày có số + に: 7時[じ]に起[お]きます, 5日[か]に行[い]きます",
+    "Nơi + に + 行[い]く／来[く]る／帰[かえ]る／入[はい]る",
+    "Người + に + 電話[でんわ]する／会[あ]う／聞[き]く／あげる",
+    "Nơi + に + ある／いる／住[す]む"
+   ],
+   "explain": "Thời điểm có con số hoặc tên cụ thể (7時[じ], 5日[か], 4月[がつ], 2026年[ねん], 月曜日[げつようび]) cần に: 7時[じ]に起[お]きます. Từ chỉ thời gian TƯƠNG ĐỐI (今日[きょう], 明日[あした], 毎朝[まいあさ], 来週[らいしゅう], 今[いま]) thì KHÔNG thêm に: 明日[あした]行[い]きます.\n\nに chỉ điểm đến của động từ di chuyển: 会社[かいしゃ]に行[い]きます, 部屋[へや]に入[はい]ります, バスに乗[の]ります. Nó còn chỉ người nhận, người đối diện của hành động: 母[はは]に電話[でんわ]します, 友達[ともだち]に会[あ]います, 先輩[せんぱい]に聞[き]きます.\n\nVới ある・いる・住[す]む, に chỉ nơi tồn tại: 事務所[じむしょ]に田中[たなか]さんがいます, 神戸[こうべ]に住[す]んでいます. Mẹo nhớ: に luôn chỉ một ĐIỂM — điểm thời gian, điểm đến, điểm có người/vật ở đó.",
+   "casual": "Khẩu ngữ hay bỏ に với nơi đến: 「明日[あした]、市役所[しやくしょ]行[い]く」. Thời điểm có số vẫn giữ に: 「7時[じ]に来[き]て」. Kansai giống.",
+   "compare": [
+    {
+     "pattern": "〜で",
+     "diff": "に: nơi tồn tại hoặc điểm đến (工場[こうじょう]にいます, 工場[こうじょう]に行[い]きます); で: nơi diễn ra hành động (工場[こうじょう]で働[はたら]きます)."
+    },
+    {
+     "pattern": "〜へ",
+     "diff": "Với nơi đến, に và へ thay nhau được (国[くに]に帰[かえ]る = 国[くに]へ帰[かえ]る). Thời điểm, nơi tồn tại, người nhận thì chỉ dùng に."
+    }
+   ],
+   "mistakes": [
+    "Thêm に sau từ thời gian tương đối: 明日[あした]に行[い]きます ✗ → 明日[あした]行[い]きます.",
+    "Dùng で với ある/いる: 部屋[へや]で猫[ねこ]がいます ✗ → 部屋[へや]に猫[ねこ]がいます."
+   ],
+   "ex": [
+    {
+     "jp": "毎朝[まいあさ]六時[ろくじ][[に]]起[お]きます。",
+     "vi": "Sáng nào tôi cũng dậy lúc sáu giờ.",
+     "ctx": "doisong",
+     "chunks": [
+      "毎朝[まいあさ]",
+      "六時[ろくじ]に",
+      "起[お]きます"
+     ],
+     "wrong": [
+      "で",
+      "を"
+     ]
+    },
+    {
+     "jp": "日曜日[にちようび][[に]]友達[ともだち]と会[あ]います。",
+     "vi": "Chủ nhật tôi gặp bạn.",
+     "ctx": "doisong",
+     "chunks": [
+      "日曜日[にちようび]に",
+      "友達[ともだち]と",
+      "会[あ]います"
+     ],
+     "wrong": [
+      "を",
+      "が"
+     ]
+    },
+    {
+     "jp": "八時[はちじ][[に]]朝礼[ちょうれい]があります。",
+     "vi": "Tám giờ có họp đầu ca.",
+     "ctx": "xuong",
+     "chunks": [
+      "八時[はちじ]に",
+      "朝礼[ちょうれい]が",
+      "あります"
+     ],
+     "wrong": [
+      "で",
+      "を"
+     ]
+    },
+    {
+     "jp": "母[はは][[に]]電話[でんわ]をかけます。",
+     "vi": "Tôi gọi điện cho mẹ.",
+     "ctx": "doisong",
+     "chunks": [
+      "母[はは]に",
+      "電話[でんわ]を",
+      "かけます"
+     ],
+     "wrong": [
+      "を",
+      "で"
+     ]
+    },
+    {
+     "jp": "このサーモンは冷蔵庫[れいぞうこ][[に]]入[い]れてください。",
+     "vi": "Cá hồi này hãy cho vào tủ mát.",
+     "ctx": "xuong",
+     "chunks": [
+      "この",
+      "サーモンは",
+      "冷蔵庫[れいぞうこ]に",
+      "入[い]れてください"
+     ],
+     "wrong": [
+      "で",
+      "を"
+     ]
+    },
+    {
+     "jp": "申請書[しんせいしょ]は窓口[まどぐち][[に]]出[だ]してください。",
+     "vi": "Đơn hãy nộp ở quầy.",
+     "ctx": "thutuc",
+     "chunks": [
+      "申請書[しんせいしょ]は",
+      "窓口[まどぐち]に",
+      "出[だ]してください"
+     ],
+     "wrong": [
+      "を",
+      "が"
+     ]
+    },
+    {
+     "jp": "私[わたし]は神戸[こうべ][[に]]住[す]んでいます。",
+     "vi": "Tôi sống ở Kobe.",
+     "ctx": "doisong",
+     "chunks": [
+      "私[わたし]は",
+      "神戸[こうべ]に",
+      "住[す]んでいます"
+     ],
+     "wrong": [
+      "で",
+      "を"
+     ]
+    },
+    {
+     "jp": "わからない時[とき]は、班長[はんちょう][[に]]聞[き]いてください。",
+     "vi": "Khi không hiểu hãy hỏi tổ trưởng.",
+     "ctx": "xuong",
+     "chunks": [
+      "わからない",
+      "時[とき]は、",
+      "班長[はんちょう]に",
+      "聞[き]いてください"
+     ],
+     "wrong": [
+      "を",
+      "で"
+     ]
+    },
+    {
+     "jp": "申請書[しんせいしょ]は三月[さんがつ]三十一日[さんじゅういちにち][[に]]出[だ]しました。",
+     "vi": "Tôi đã nộp đơn vào ngày 31 tháng Ba.",
+     "ctx": "thutuc",
+     "chunks": [
+      "申請書[しんせいしょ]は",
+      "三月[さんがつ]",
+      "三十一日[さんじゅういちにち]に",
+      "出[だ]しました"
+     ],
+     "wrong": [
+      "で",
+      "を"
+     ]
+    },
+    {
+     "jp": "A：何時[なんじ][[に]]終[お]わりますか。B：五時[ごじ]に終[お]わります。",
+     "vi": "A: Mấy giờ thì xong ạ? B: Năm giờ xong.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "を",
+      "が"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "明日[あした]に",
+      "市役所[しやくしょ]へ",
+      "行[い]きます"
+     ],
+     "vi": "Ngày mai tôi đi ủy ban thành phố.",
+     "bad": 0,
+     "fix": "明日[あした]",
+     "why": "Từ chỉ thời gian không có số (明日[あした], 今日[きょう], 毎朝[まいあさ]…) không thêm に."
+    },
+    {
+     "chunks": [
+      "私[わたし]は",
+      "姫路[ひめじ]で",
+      "住[す]んでいます"
+     ],
+     "vi": "Tôi sống ở Himeji.",
+     "bad": 1,
+     "fix": "姫路[ひめじ]に",
+     "why": "住[す]む đi với に: 姫路[ひめじ]に住[す]んでいます. Không dùng で."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Ở quầy hành chính, anh Nguyễn hỏi nhân viên: \"Đơn này nộp ở đâu ạ?\"",
+     "opts": [
+      "この申請書[しんせいしょ]は、どこに出[だ]しますか。",
+      "この申請書[しんせいしょ]は、どこを出[だ]しますか。",
+      "この申請書[しんせいしょ]、どこ出[だ]す？"
+     ],
+     "ans": 0,
+     "why": "Nơi nộp (điểm đến của 出[だ]す) dùng に. を sai trợ từ. Câu thân mật bỏ trợ từ không hợp khi nói với nhân viên quầy."
+    },
+    {
+     "q": "Anh Nguyễn bị sốt, đang ở nhà. Anh nói với quản lý ký túc xá: \"Tôi sẽ gọi điện cho công ty.\"",
+     "opts": [
+      "会社[かいしゃ]に電話[でんわ]します。",
+      "会社[かいしゃ]を電話[でんわ]します。",
+      "会社[かいしゃ]で電話[でんわ]します。"
+     ],
+     "ans": 0,
+     "why": "Gọi điện cho ai, cho nơi nào dùng に. 会社[かいしゃ]で電話[でんわ]します là \"gọi điện ở công ty\" — sai nghĩa vì anh đang ở nhà."
+    }
+   ],
+   "shift": [
+    {
+     "from": "明日[あした]、市役所[しやくしょ]行[い]く。",
+     "to": "明日[あした]、市役所[しやくしょ]に行[い]きます。",
+     "kind": "khaungu",
+     "note": "Khẩu ngữ hay bỏ に với nơi đến. Câu lịch sự nói đủ: 市役所[しやくしょ]に行[い]きます (へ cũng được).",
+     "wrong": [
+      "明日[あした]に、市役所[しやくしょ]に行[い]きます。",
+      "明日[あした]、市役所[しやくしょ]を行[い]きます。"
+     ]
+    },
+    {
+     "from": "七時[しちじ]に来[き]て。",
+     "to": "七時[しちじ]に来[き]てください。",
+     "kind": "lichsu",
+     "note": "Giờ có số vẫn giữ に kể cả khi nói thân mật. Bỏ ください là nhờ thân mật; với người trên nói đủ 〜てください.",
+     "wrong": [
+      "七時[しちじ]で来[き]てください。",
+      "七時[しちじ]を来[き]てください。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g:〜へ",
+   "pattern": "〜へ",
+   "level": "N5",
+   "meaning": "về phía, đến (hướng di chuyển) — trợ từ へ đọc là 'e'",
+   "structure": [
+    "Nơi + へ + 行[い]く／来[く]る／帰[かえ]る",
+    "国[くに]へ帰[かえ]ります",
+    "N への N (gửi tới): 家族[かぞく]への手紙[てがみ]"
+   ],
+   "explain": "へ chỉ HƯỚNG của sự di chuyển, đi với 行[い]く, 来[く]る, 帰[かえ]る, 向[む]かう. Viết bằng chữ へ (he) nhưng khi là trợ từ thì ĐỌC là \"e\": 駅[えき]へ = \"eki e\".\n\nGần như mọi câu dùng へ đều thay bằng に được và vẫn đúng: 国[くに]へ帰[かえ]る = 国[くに]に帰[かえ]る. へ nhấn \"hướng về phía\", に nhấn \"tới điểm đó\". Trên biển chỉ đường, bảng thông báo hay gặp へ: 出口[でぐち]へ (→ lối ra), 2階[かい]へ.\n\nKhi đứng trước danh từ thì dùng への: 家族[かぞく]への手紙[てがみ] (thư gửi gia đình), お客様[きゃくさま]へのお知[し]らせ (thông báo gửi khách hàng). Không dùng へ với ある/いる và với thời điểm. Mẹo nhớ: へ giống mũi tên →.",
+   "casual": "Khẩu ngữ thường bỏ へ: 「国[くに]帰[かえ]る」「どこ行[い]く？」. Kansai: 「どこ行[い]くん？」「家[いえ]帰[かえ]るわ」.",
+   "compare": [
+    {
+     "pattern": "〜に",
+     "diff": "国[くに]へ帰[かえ]る và 国[くに]に帰[かえ]る đều đúng. Nhưng thời điểm (7時[じ]に), nơi tồn tại (部屋[へや]にいる), người nhận (母[はは]に) thì chỉ dùng に."
+    }
+   ],
+   "mistakes": [
+    "Đọc へ là 'he' khi là trợ từ — phải đọc 'e'.",
+    "Dùng へ cho nơi tồn tại: 部屋[へや]へいます ✗ → 部屋[へや]にいます."
+   ],
+   "ex": [
+    {
+     "jp": "明日[あした]、病院[びょういん][[へ]]行[い]きます。",
+     "vi": "Ngày mai tôi đi bệnh viện.",
+     "ctx": "doisong",
+     "chunks": [
+      "明日[あした]、",
+      "病院[びょういん]へ",
+      "行[い]きます"
+     ],
+     "wrong": [
+      "を",
+      "で"
+     ]
+    },
+    {
+     "jp": "六時[ろくじ]に家[いえ][[へ]]帰[かえ]ります。",
+     "vi": "Sáu giờ tôi về nhà.",
+     "ctx": "doisong",
+     "chunks": [
+      "六時[ろくじ]に",
+      "家[いえ]へ",
+      "帰[かえ]ります"
+     ],
+     "wrong": [
+      "を",
+      "で"
+     ]
+    },
+    {
+     "jp": "休憩室[きゅうけいしつ][[へ]]行[い]ってもいいですか。",
+     "vi": "Tôi vào phòng nghỉ được không ạ?",
+     "ctx": "xuong",
+     "wrong": [
+      "を",
+      "で"
+     ]
+    },
+    {
+     "jp": "来月[らいげつ]、国[くに][[へ]]帰[かえ]ります。",
+     "vi": "Tháng sau tôi về nước.",
+     "ctx": "doisong",
+     "chunks": [
+      "来月[らいげつ]、",
+      "国[くに]へ",
+      "帰[かえ]ります"
+     ],
+     "wrong": [
+      "を",
+      "で"
+     ]
+    },
+    {
+     "jp": "今[いま]から事務所[じむしょ][[へ]]行[い]きます。",
+     "vi": "Bây giờ tôi lên văn phòng.",
+     "ctx": "xuong",
+     "chunks": [
+      "今[いま]から",
+      "事務所[じむしょ]へ",
+      "行[い]きます"
+     ],
+     "wrong": [
+      "を",
+      "が"
+     ]
+    },
+    {
+     "jp": "郵便局[ゆうびんきょく][[へ]]税金[ぜいきん]を払[はら]いに行[い]きます。",
+     "vi": "Tôi ra bưu điện để nộp thuế.",
+     "ctx": "thutuc",
+     "chunks": [
+      "郵便局[ゆうびんきょく]へ",
+      "税金[ぜいきん]を",
+      "払[はら]いに",
+      "行[い]きます"
+     ],
+     "wrong": [
+      "を",
+      "が"
+     ]
+    },
+    {
+     "jp": "子供[こども]と公園[こうえん][[へ]]行[い]きました。",
+     "vi": "Tôi đã đi công viên với con.",
+     "ctx": "doisong",
+     "chunks": [
+      "子供[こども]と",
+      "公園[こうえん]へ",
+      "行[い]きました"
+     ],
+     "wrong": [
+      "で",
+      "が"
+     ]
+    },
+    {
+     "jp": "できた箱[はこ]は出荷場[しゅっかば][[へ]]持[も]っていってください。",
+     "vi": "Thùng làm xong hãy mang ra khu xuất hàng.",
+     "ctx": "xuong",
+     "chunks": [
+      "できた",
+      "箱[はこ]は",
+      "出荷場[しゅっかば]へ",
+      "持[も]っていってください"
+     ],
+     "wrong": [
+      "を",
+      "が"
+     ]
+    },
+    {
+     "jp": "来週[らいしゅう]、大阪[おおさか]の入管[にゅうかん][[へ]]行[い]きます。",
+     "vi": "Tuần sau tôi đến Cục quản lý xuất nhập cảnh ở Osaka.",
+     "ctx": "thutuc",
+     "chunks": [
+      "来週[らいしゅう]、",
+      "大阪[おおさか]の",
+      "入管[にゅうかん]へ",
+      "行[い]きます"
+     ],
+     "wrong": [
+      "で",
+      "を"
+     ]
+    },
+    {
+     "jp": "A：週末[しゅうまつ]はどこ[[へ]]行[い]きますか。B：京都[きょうと]へ行[い]きます。",
+     "vi": "A: Cuối tuần bạn đi đâu? B: Tôi đi Kyoto.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "で",
+      "が"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "来週[らいしゅう]",
+      "国[くに]を",
+      "帰[かえ]ります"
+     ],
+     "vi": "Tuần sau tôi về nước.",
+     "bad": 1,
+     "fix": "国[くに]へ",
+     "why": "Nơi về, nơi đến dùng へ (hoặc に) với 帰[かえ]ります. を chỉ nơi rời khỏi hoặc nơi đi qua."
+    },
+    {
+     "chunks": [
+      "田中[たなか]さんは",
+      "事務所[じむしょ]へ",
+      "います"
+     ],
+     "vi": "Anh Tanaka đang ở văn phòng.",
+     "bad": 1,
+     "fix": "事務所[じむしょ]に",
+     "why": "います／あります chỉ nơi ở, nơi có → dùng に. へ chỉ hướng đi, chỉ dùng với động từ di chuyển (行[い]く, 来[く]る, 帰[かえ]る)."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Trong giờ làm, anh Nguyễn cần đi vệ sinh, xin phép tổ trưởng.",
+     "opts": [
+      "すみません、トイレへ行[い]ってもいいですか。",
+      "すみません、トイレを行[い]ってもいいですか。",
+      "トイレ行[い]くわ。"
+     ],
+     "ans": 0,
+     "why": "Nơi đến dùng へ (に cũng được). を sai trợ từ. トイレ行[い]くわ là câu báo thân mật kiểu Kansai, không phải xin phép — không hợp với tổ trưởng."
+    }
+   ],
+   "shift": [
+    {
+     "from": "どこ行[い]くん？",
+     "to": "どこへ行[い]きますか。",
+     "kind": "kansai",
+     "note": "Kansai: 〜ん？ là đuôi hỏi thân mật (= 〜の？). Khẩu ngữ bỏ へ; câu lịch sự nói đủ: どこへ (hoặc どこに) 行[い]きますか.",
+     "wrong": [
+      "どこが行[い]きますか。",
+      "どこで行[い]きますか。"
+     ]
+    },
+    {
+     "from": "国[くに]帰[かえ]る。",
+     "to": "国[くに]へ帰[かえ]ります。",
+     "kind": "khaungu",
+     "note": "Khẩu ngữ bỏ へ. Câu lịch sự: 国[くに]へ帰[かえ]ります.",
+     "wrong": [
+      "国[くに]を帰[かえ]ります。",
+      "国[くに]で帰[かえ]ります。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g:〜で",
+   "pattern": "〜で",
+   "level": "N5",
+   "meaning": "ở (nơi diễn ra hành động); bằng (phương tiện, công cụ, ngôn ngữ)",
+   "structure": [
+    "Nơi + で + V: 工場[こうじょう]で働[はたら]きます",
+    "Phương tiện, công cụ + で: 自転車[じてんしゃ]で行[い]きます, 包丁[ほうちょう]で切[き]ります",
+    "Ngôn ngữ + で: 日本語[にほんご]で話[はな]します",
+    "Phạm vi: 全部[ぜんぶ]で, 一人[ひとり]で"
+   ],
+   "explain": "で chỉ NƠI HÀNH ĐỘNG XẢY RA: 食堂[しょくどう]で食[た]べます (ăn ở nhà ăn), 工場[こうじょう]で働[はたら]きます (làm ở nhà máy). Khác với に là nơi người/vật đang ở (工場[こうじょう]にいます).\n\nで chỉ PHƯƠNG TIỆN, CÔNG CỤ, CÁCH THỨC: バスで行[い]きます (đi bằng xe buýt), 手[て]で洗[あら]います (rửa bằng tay), ペンで書[か]きます, 日本語[にほんご]で書[か]いてください (viết bằng tiếng Nhật). Đi bộ thì nói 歩[ある]いて, không nói 足[あし]で.\n\nで còn gom lại một phạm vi hay số lượng: 全部[ぜんぶ]で500円[えん]です (tất cả là 500 yên), 一人[ひとり]で住[す]んでいます (sống một mình), 二人[ふたり]で運[はこ]びます (hai người khiêng). Mẹo nhớ: で = \"ở (đang làm gì)\" và \"bằng\".",
+   "casual": "Khẩu ngữ giữ で vì nó mang nghĩa: 「ここで待[ま]って」「チャリで行[い]く」 (đi bằng xe đạp — チャリ là tiếng lóng). Kansai: 「ここでええ？」 = ở đây được không?",
+   "compare": [
+    {
+     "pattern": "〜に",
+     "diff": "工場[こうじょう]にいます = đang ở nhà máy (tồn tại); 工場[こうじょう]で働[はたら]きます = làm việc ở nhà máy (hành động)."
+    }
+   ],
+   "mistakes": [
+    "Dùng に cho nơi hành động: 食堂[しょくどう]に食[た]べます ✗ → 食堂[しょくどう]で食[た]べます.",
+    "Nói 足[あし]で会社[かいしゃ]へ行[い]きます ✗ → 歩[ある]いて会社[かいしゃ]へ行[い]きます."
+   ],
+   "ex": [
+    {
+     "jp": "食堂[しょくどう][[で]]昼[ひる]ご飯[はん]を食[た]べます。",
+     "vi": "Tôi ăn trưa ở nhà ăn.",
+     "ctx": "doisong",
+     "chunks": [
+      "食堂[しょくどう]で",
+      "昼[ひる]ご飯[はん]を",
+      "食[た]べます"
+     ],
+     "wrong": [
+      "に",
+      "を"
+     ]
+    },
+    {
+     "jp": "自転車[じてんしゃ][[で]]会社[かいしゃ]へ行[い]きます。",
+     "vi": "Tôi đi làm bằng xe đạp.",
+     "ctx": "doisong",
+     "chunks": [
+      "自転車[じてんしゃ]で",
+      "会社[かいしゃ]へ",
+      "行[い]きます"
+     ],
+     "wrong": [
+      "に",
+      "を"
+     ]
+    },
+    {
+     "jp": "工場[こうじょう][[で]]魚[さかな]を切[き]ります。",
+     "vi": "Tôi cắt cá ở nhà máy.",
+     "ctx": "xuong",
+     "chunks": [
+      "工場[こうじょう]で",
+      "魚[さかな]を",
+      "切[き]ります"
+     ],
+     "wrong": [
+      "に",
+      "を"
+     ]
+    },
+    {
+     "jp": "日本語[にほんご][[で]]話[はな]してください。",
+     "vi": "Hãy nói bằng tiếng Nhật.",
+     "ctx": "doisong",
+     "wrong": [
+      "に",
+      "が"
+     ]
+    },
+    {
+     "jp": "骨[ほね]はピンセット[[で]]抜[ぬ]きます。",
+     "vi": "Xương thì gắp bằng nhíp.",
+     "ctx": "xuong",
+     "wrong": [
+      "に",
+      "を"
+     ]
+    },
+    {
+     "jp": "申請[しんせい]はオンライン[[で]]もできます。",
+     "vi": "Cũng có thể nộp đơn trực tuyến.",
+     "ctx": "thutuc",
+     "chunks": [
+      "申請[しんせい]は",
+      "オンラインでも",
+      "できます"
+     ],
+     "wrong": [
+      "を",
+      "が"
+     ]
+    },
+    {
+     "jp": "スーパー[[で]]魚[さかな]を買[か]いました。",
+     "vi": "Tôi đã mua cá ở siêu thị.",
+     "ctx": "doisong",
+     "chunks": [
+      "スーパーで",
+      "魚[さかな]を",
+      "買[か]いました"
+     ],
+     "wrong": [
+      "に",
+      "を"
+     ]
+    },
+    {
+     "jp": "マグロは流水[りゅうすい][[で]]解凍[かいとう]してください。",
+     "vi": "Cá ngừ hãy rã đông bằng nước chảy.",
+     "ctx": "xuong",
+     "chunks": [
+      "マグロは",
+      "流水[りゅうすい]で",
+      "解凍[かいとう]",
+      "してください"
+     ],
+     "wrong": [
+      "に",
+      "を"
+     ]
+    },
+    {
+     "jp": "手数料[てすうりょう]はコンビニ[[で]]払[はら]えます。",
+     "vi": "Lệ phí có thể trả ở cửa hàng tiện lợi.",
+     "ctx": "thutuc",
+     "chunks": [
+      "手数料[てすうりょう]は",
+      "コンビニで",
+      "払[はら]えます"
+     ],
+     "wrong": [
+      "を",
+      "が"
+     ]
+    },
+    {
+     "jp": "A：会社[かいしゃ]まで何[なに][[で]]来[き]ますか。B：バスで来[き]ます。",
+     "vi": "A: Bạn đến công ty bằng gì? B: Tôi đi xe buýt.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "を",
+      "に"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "休憩室[きゅうけいしつ]に",
+      "お弁当[べんとう]を",
+      "食[た]べます"
+     ],
+     "vi": "Tôi ăn cơm hộp ở phòng nghỉ.",
+     "bad": 0,
+     "fix": "休憩室[きゅうけいしつ]で",
+     "why": "Nơi diễn ra hành động (ăn) dùng で. に dùng cho nơi tồn tại hoặc nơi đến."
+    },
+    {
+     "chunks": [
+      "毎日[まいにち]",
+      "バスに",
+      "会社[かいしゃ]へ行[い]きます"
+     ],
+     "vi": "Ngày nào tôi cũng đi làm bằng xe buýt.",
+     "bad": 1,
+     "fix": "バスで",
+     "why": "Phương tiện đi lại dùng で: バスで行[い]きます. Nói バスに thì phải có 乗[の]ります (バスに乗[の]ります)."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Nhân viên quầy nói nhanh, anh Nguyễn muốn nhờ: \"Xin hãy nói bằng tiếng Nhật dễ hiểu.\"",
+     "opts": [
+      "やさしい日本語[にほんご]で話[はな]してください。",
+      "やさしい日本語[にほんご]に話[はな]してください。",
+      "やさしい日本語[にほんご]で話[はな]せ。"
+     ],
+     "ans": 0,
+     "why": "Ngôn ngữ dùng để nói → で. に sai trợ từ. 話[はな]せ là mệnh lệnh thô — không nói với nhân viên quầy."
+    },
+    {
+     "q": "Đồng nghiệp hỏi anh Nguyễn đi làm bằng gì. Anh đi xe đạp.",
+     "opts": [
+      "自転車[じてんしゃ]で来[き]ます。",
+      "自転車[じてんしゃ]に来[き]ます。",
+      "自転車[じてんしゃ]と来[き]ます。"
+     ],
+     "ans": 0,
+     "why": "Phương tiện dùng で. 自転車[じてんしゃ]に thì phải nói 自転車[じてんしゃ]に乗[の]って来[き]ます. と là \"cùng với ai\", không dùng cho phương tiện."
+    }
+   ],
+   "shift": [
+    {
+     "from": "チャリで行[い]く。",
+     "to": "自転車[じてんしゃ]で行[い]きます。",
+     "kind": "khaungu",
+     "note": "チャリ là tiếng lóng của 自転車[じてんしゃ]. で chỉ phương tiện giữ nguyên cả khi nói thân mật.",
+     "wrong": [
+      "自転車[じてんしゃ]に行[い]きます。",
+      "自転車[じてんしゃ]を行[い]きます。"
+     ]
+    },
+    {
+     "from": "ここで待[ま]っとって。",
+     "to": "ここで待[ま]っていてください。",
+     "kind": "kansai",
+     "note": "Kansai: 〜とって = 〜ていて (cứ … ở đó). で chỉ nơi diễn ra hành động, không đổi.",
+     "wrong": [
+      "ここに待[ま]っていてください。",
+      "ここを待[ま]っていてください。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g:〜と",
+   "pattern": "〜と",
+   "level": "N5",
+   "meaning": "và (nối danh từ, liệt kê đủ); cùng với (ai đó)",
+   "structure": [
+    "N1 と N2: パンと牛乳[ぎゅうにゅう]",
+    "Người + と + V: 友達[ともだち]と行[い]きます",
+    "Người + と + 話[はな]す／結婚[けっこん]する／会[あ]う"
+   ],
+   "explain": "と nối các DANH TỪ, liệt kê ĐẦY ĐỦ: 肉[にく]と魚[さかな]を買[か]いました = mua thịt và cá (đúng hai thứ đó). と chỉ nối danh từ, KHÔNG nối động từ, tính từ hay hai câu.\n\nNgười + と nghĩa là \"cùng với\": 家族[かぞく]と住[す]んでいます (sống cùng gia đình), 田中[たなか]さんと二人[ふたり]で運[はこ]びます. Với 話[はな]す, 結婚[けっこん]する, 会[あ]う, けんかする, と chỉ người cùng tham gia: 友達[ともだち]と話[はな]します.\n\nMuốn liệt kê vài ví dụ, không đầy đủ, dùng や: 肉[にく]や魚[さかな] (thịt, cá… và những thứ khác). Nối hai tính từ dùng thể て: 安[やす]くて新[あたら]しい. Nối hai hành động: 食[た]べて、飲[の]みます. Mẹo nhớ: と = \"và / với\", chỉ dùng giữa danh từ.",
+   "casual": "Giống dạng lịch sự: 「友達[ともだち]と行[い]く」「パンと牛乳[ぎゅうにゅう]」. Khẩu ngữ hay thêm と ở cuối danh sách: 「パンと、牛乳[ぎゅうにゅう]と」. Kansai giống.",
+   "compare": [
+    {
+     "pattern": "〜や",
+     "diff": "と liệt kê đủ (肉[にく]と魚[さかな] = đúng hai thứ); や liệt kê vài ví dụ (肉[にく]や魚[さかな] = thịt, cá, v.v.)."
+    }
+   ],
+   "mistakes": [
+    "Dùng と nối hai hành động: 食[た]べると飲[の]みます ✗ → 食[た]べて、飲[の]みます.",
+    "Dùng と nối hai tính từ: 安[やす]いと新[あたら]しい ✗ → 安[やす]くて新[あたら]しい."
+   ],
+   "ex": [
+    {
+     "jp": "パン[[と]]牛乳[ぎゅうにゅう]を買[か]いました。",
+     "vi": "Tôi đã mua bánh mì và sữa.",
+     "ctx": "doisong",
+     "chunks": [
+      "パンと",
+      "牛乳[ぎゅうにゅう]を",
+      "買[か]いました"
+     ],
+     "wrong": [
+      "を",
+      "が"
+     ]
+    },
+    {
+     "jp": "友達[ともだち][[と]]映画[えいが]を見[み]ます。",
+     "vi": "Tôi xem phim với bạn.",
+     "ctx": "doisong",
+     "chunks": [
+      "友達[ともだち]と",
+      "映画[えいが]を",
+      "見[み]ます"
+     ],
+     "wrong": [
+      "に",
+      "を"
+     ]
+    },
+    {
+     "jp": "手袋[てぶくろ][[と]]マスクをしてください。",
+     "vi": "Hãy đeo găng tay và khẩu trang.",
+     "ctx": "xuong",
+     "chunks": [
+      "手袋[てぶくろ]と",
+      "マスクを",
+      "してください"
+     ],
+     "wrong": [
+      "を",
+      "が"
+     ]
+    },
+    {
+     "jp": "毎晩[まいばん]、家族[かぞく][[と]]電話[でんわ]で話[はな]します。",
+     "vi": "Tối nào tôi cũng nói chuyện điện thoại với gia đình.",
+     "ctx": "doisong",
+     "chunks": [
+      "毎晩[まいばん]、",
+      "家族[かぞく]と",
+      "電話[でんわ]で",
+      "話[はな]します"
+     ],
+     "wrong": [
+      "を",
+      "が"
+     ]
+    },
+    {
+     "jp": "田中[たなか]さん[[と]]二人[ふたり]で箱[はこ]を運[はこ]びます。",
+     "vi": "Tôi cùng anh Tanaka hai người khiêng thùng.",
+     "ctx": "xuong",
+     "chunks": [
+      "田中[たなか]さんと",
+      "二人[ふたり]で",
+      "箱[はこ]を",
+      "運[はこ]びます"
+     ],
+     "wrong": [
+      "に",
+      "を"
+     ]
+    },
+    {
+     "jp": "パスポート[[と]]在留[ざいりゅう]カードを持[も]ってきてください。",
+     "vi": "Hãy mang hộ chiếu và thẻ cư trú đến.",
+     "ctx": "thutuc",
+     "chunks": [
+      "パスポートと",
+      "在留[ざいりゅう]カードを",
+      "持[も]ってきてください"
+     ],
+     "wrong": [
+      "を",
+      "が"
+     ]
+    },
+    {
+     "jp": "日曜日[にちようび]、妹[いもうと][[と]]買[か]い物[もの]に行[い]きます。",
+     "vi": "Chủ nhật tôi đi mua sắm với em gái.",
+     "ctx": "doisong",
+     "chunks": [
+      "日曜日[にちようび]、",
+      "妹[いもうと]と",
+      "買[か]い物[もの]に",
+      "行[い]きます"
+     ],
+     "wrong": [
+      "に",
+      "を"
+     ]
+    },
+    {
+     "jp": "塩[しお][[と]]砂糖[さとう]を間違[まちが]えないでください。",
+     "vi": "Đừng nhầm muối với đường.",
+     "ctx": "xuong",
+     "chunks": [
+      "塩[しお]と",
+      "砂糖[さとう]を",
+      "間違[まちが]えないでください"
+     ],
+     "wrong": [
+      "を",
+      "が"
+     ]
+    },
+    {
+     "jp": "課税証明書[かぜいしょうめいしょ][[と]]納税証明書[のうぜいしょうめいしょ]が必要[ひつよう]です。",
+     "vi": "Cần giấy chứng nhận đánh thuế và giấy chứng nhận nộp thuế.",
+     "ctx": "thutuc",
+     "chunks": [
+      "課税証明書[かぜいしょうめいしょ]と",
+      "納税証明書[のうぜいしょうめいしょ]が",
+      "必要[ひつよう]です"
+     ],
+     "wrong": [
+      "を",
+      "で"
+     ]
+    },
+    {
+     "jp": "A：だれ[[と]]住[す]んでいますか。B：会社[かいしゃ]の友達[ともだち]と住[す]んでいます。",
+     "vi": "A: Bạn sống với ai? B: Tôi sống với bạn cùng công ty.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "に",
+      "を"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "日曜日[にちようび]",
+      "友達[ともだち]に",
+      "映画[えいが]を見[み]ます"
+     ],
+     "vi": "Chủ nhật tôi xem phim với bạn.",
+     "bad": 1,
+     "fix": "友達[ともだち]と",
+     "why": "Làm việc gì cùng với ai → dùng と. 友達[ともだち]に không có nghĩa \"với bạn\"."
+    },
+    {
+     "chunks": [
+      "りんごを",
+      "みかんを",
+      "買[か]いました"
+     ],
+     "vi": "Tôi đã mua táo và quýt.",
+     "bad": 0,
+     "fix": "りんごと",
+     "why": "Nối hai danh từ (… và …) dùng と: りんごとみかん. Không dùng hai を liền nhau."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Ở cửa hàng tiện lợi, anh Nguyễn muốn mua cơm nắm và trà.",
+     "opts": [
+      "おにぎりとお茶[ちゃ]をください。",
+      "おにぎりをお茶[ちゃ]をください。",
+      "おにぎりとお茶[ちゃ]をくれ。"
+     ],
+     "ans": 0,
+     "why": "Nối hai món dùng と. Hai を liền nhau là sai. くれ là ra lệnh thô — không nói với nhân viên cửa hàng."
+    },
+    {
+     "q": "Người quen hỏi anh Nguyễn sống với ai. Anh sống cùng bạn người Việt.",
+     "opts": [
+      "ベトナム人[じん]の友達[ともだち]と住[す]んでいます。",
+      "ベトナム人[じん]の友達[ともだち]に住[す]んでいます。",
+      "ベトナム人[じん]の友達[ともだち]を住[す]んでいます。"
+     ],
+     "ans": 0,
+     "why": "Sống cùng với ai → と. に và を không chỉ \"cùng với\"."
+    }
+   ],
+   "shift": [
+    {
+     "from": "友達[ともだち]と行[い]く。",
+     "to": "友達[ともだち]と行[い]きます。",
+     "kind": "lichsu",
+     "note": "と giữ nguyên khi nói thân mật; chỉ đổi đuôi động từ sang ます.",
+     "wrong": [
+      "友達[ともだち]に行[い]きます。",
+      "友達[ともだち]を行[い]きます。"
+     ]
+    },
+    {
+     "from": "ツレと飲[の]みに行[い]くねん。",
+     "to": "友達[ともだち]と飲[の]みに行[い]きます。",
+     "kind": "kansai",
+     "note": "Kansai: ツレ = bạn bè (thân mật), 〜ねん = đuôi kể chuyện (= 〜んだ). と \"cùng với\" giữ nguyên.",
+     "wrong": [
+      "友達[ともだち]に飲[の]みに行[い]きます。",
+      "友達[ともだち]を飲[の]みに行[い]きます。"
+     ]
+    }
+   ]
+  }
+ ]
 }

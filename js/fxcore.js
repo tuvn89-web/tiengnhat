@@ -55,6 +55,27 @@ export const moonAge = (t = Date.now()) => (((t - Date.UTC(2000, 0, 6, 18, 14)) 
 const Q = [{ dpr: 1.5, n: 1 }, { dpr: 1.25, n: 0.8 }, { dpr: 1, n: 0.6 }]; // mức chi tiết: 0 đầy đủ → 2 nhẹ nhất
 export const KIND_FLY = k => !!KIND[k]?.fly;
 
+// ---------- v42: chòm sao (toạ độ gần đúng trong ô 1×1) — đường nối nhấp nháy, có tên ----------
+const CONS = {
+  bacdau: { vi: 'Bắc Đẩu', jp: '北斗七星', s: [[0, .12], [.05, .38], [.31, .44], [.34, .2], [.53, .13], [.71, .08], [.94, .2]], l: [[0, 1], [1, 2], [2, 3], [3, 0], [3, 4], [4, 5], [5, 6]] },
+  thienhau: { vi: 'Thiên Hậu', jp: 'カシオペヤ座', s: [[0, .22], [.22, .6], [.46, .32], [.7, .64], [.94, .26]], l: [[0, 1], [1, 2], [2, 3], [3, 4]] },
+  lahan: { vi: 'Lạp Hộ', jp: 'オリオン座', s: [[.22, .1], [.76, .15], [.48, 0], [.38, .5], [.5, .53], [.62, .56], [.3, .95], [.8, .88]], l: [[2, 0], [2, 1], [0, 3], [1, 5], [3, 4], [4, 5], [3, 6], [5, 7]] },
+  songtu: { vi: 'Song Tử', jp: 'ふたご座', s: [[.1, 0], [.32, .04], [.14, .33], [.2, .66], [.16, .98], [.38, .38], [.46, .7], [.56, .96]], l: [[0, 2], [2, 3], [3, 4], [1, 5], [5, 6], [6, 7], [0, 1], [2, 5]] },
+  xunu: { vi: 'Xử Nữ', jp: 'おとめ座', s: [[.55, .96], [.45, .62], [.3, .46], [.08, .32], [.2, .05], [.5, .15], [.76, .5], [.96, .66]], l: [[0, 1], [1, 2], [2, 3], [2, 5], [5, 4], [1, 6], [6, 7]] },
+  sutu: { vi: 'Sư Tử', jp: 'しし座', s: [[.2, .82], [.18, .52], [.26, .3], [.36, .14], [.47, .2], [.7, .55], [.96, .7], [.7, .82]], l: [[0, 1], [1, 2], [2, 3], [3, 4], [2, 5], [5, 6], [6, 7], [7, 0]] },
+  thienyet: { vi: 'Thiên Yết', jp: 'さそり座', s: [[.06, .08], [.14, .2], [.1, .33], [.3, .36], [.4, .5], [.45, .66], [.52, .8], [.66, .93], [.81, .9], [.9, .78], [.86, .66]], l: [[0, 1], [1, 2], [1, 3], [3, 4], [4, 5], [5, 6], [6, 7], [7, 8], [8, 9], [9, 10]] },
+  thienga: { vi: 'Thiên Nga', jp: 'はくちょう座', s: [[.5, 0], [.5, .4], [.5, 1], [.08, .34], [.92, .46]], l: [[0, 1], [1, 2], [3, 1], [1, 4]] },
+  chucnu: { vi: 'Chức Nữ', jp: 'こと座', s: [[.3, 0], [.4, .3], [.7, .36], [.62, .82], [.32, .76]], l: [[0, 1], [0, 2], [1, 2], [2, 3], [3, 4], [4, 1]] },
+  nguulang: { vi: 'Ngưu Lang', jp: 'わし座', s: [[.5, .5], [.4, .42], [.6, .58], [.08, .28], [.92, .82], [.55, 1], [.45, 0]], l: [[1, 0], [0, 2], [3, 0], [0, 4], [0, 5], [0, 6]] },
+};
+// mỗi mùa: các chòm dễ thấy (tháng → danh sách); Thất tịch luôn có Chức Nữ – Ngưu Lang hai bên dải ngân hà
+const CONS_BY_MONTH = { 1: ['lahan', 'songtu', 'thienhau', 'bacdau'], 2: ['lahan', 'songtu', 'bacdau', 'sutu'], 3: ['sutu', 'bacdau', 'songtu', 'xunu'],
+  4: ['sutu', 'xunu', 'bacdau'], 5: ['xunu', 'bacdau', 'sutu', 'thienyet'], 6: ['thienyet', 'chucnu', 'nguulang', 'bacdau'], 7: ['chucnu', 'nguulang', 'thienga', 'thienyet'],
+  8: ['thienga', 'chucnu', 'nguulang', 'thienyet'], 9: ['thienga', 'nguulang', 'thienhau', 'bacdau'], 10: ['thienhau', 'thienga', 'bacdau', 'chucnu'],
+  11: ['thienhau', 'lahan', 'bacdau', 'thienga'], 12: ['lahan', 'songtu', 'thienhau', 'bacdau'] };
+const METEOR_COL = ['255,255,255', '160,230,255', '255,214,165', '255,175,190', '200,255,190', '214,196,255'];
+const gauss = () => { let u = 0, v = 0; while (!u) u = Math.random(); while (!v) v = Math.random(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v); };
+
 /** Tạo một bộ máy vẽ. makeCanvas(w, h): tạo khung vẽ phụ (ảnh hạt); raf: requestAnimationFrame của luồng đang chạy;
  *  onStats({fps, q}): báo số khung/giây và mức chi tiết mỗi giây. */
 export function createFx({ makeCanvas, raf, onStats }) {
@@ -62,7 +83,7 @@ export function createFx({ makeCanvas, raf, onStats }) {
   // on, dark, month, phase, hol, rain, snowW, thunder, shower, wind, kinds, want (có nên chạy), hz (tần số màn hình), w, h, dpr0 (do trang gửi)
   const st = { on: false, dark: true, month: 10, hol: [], phase: 'day', rain: 0, snowW: false, thunder: false, shower: '', wind: 0, kinds: [], want: false, hz: 60,
     gust: 0, gustT: 0, w: 0, h: 0, dpr0: 1, dpr: 1, run: false, last: 0, prev: 0, acc: 0, fc: 0, fT: 0, fps: 0, work: 0, slow: 0, q: 0 };
-const fx = { parts: [], stars: [], clouds: [], meteors: [], planes: [], holes: [], fw: [], sparks: [], flies: [], lanterns: [], drops: [], bursts: [], flash: 0, bolt: null, koi: [] };
+const fx = { parts: [], stars: [], cons: [], clouds: [], meteors: [], planes: [], holes: [], fw: [], sparks: [], flies: [], lanterns: [], drops: [], bursts: [], flash: 0, bolt: null, koi: [] };
 const timers = {};
 const rnd = (a, b) => a + Math.random() * (b - a);
 const pick = a => a[Math.floor(Math.random() * a.length)];
@@ -89,6 +110,20 @@ function seedSky() {
   const n = Math.round(90 * dens() * (st.w < 500 ? 0.6 : 1));
   fx.stars = Array.from({ length: n }, () => ({ x: rnd(0, st.w), y: rnd(0, st.h * 0.65) * rnd(0.3, 1), r: rnd(0.4, 1.4), tw: rnd(0.6, 2.2), ph: rnd(0, 6.3) }));
   if (st.hol.some(h => h.milky)) for (let i = 0; i < 160; i++) { const t = Math.random(); fx.stars.push({ x: t * st.w + rnd(-40, 40), y: (0.05 + t * 0.4) * st.h + rnd(-40, 40), r: rnd(0.3, 0.9), tw: rnd(1, 3), ph: rnd(0, 6.3), milky: 1 }); }
+  // v42: 3 chòm sao theo mùa, đặt ở 3 vùng trời không chồng nhau
+  fx.cons = [];
+  if (S.fxConst !== false) {
+    let names = [...(CONS_BY_MONTH[st.month] || CONS_BY_MONTH[1])];
+    if (st.hol.some(h => h.milky)) names = ['chucnu', 'nguulang', ...names.filter(n => n !== 'chucnu' && n !== 'nguulang')];
+    else names = names.sort(() => Math.random() - 0.5);
+    // chừa góc phải trên cho mặt trăng; điện thoại 3 chòm, màn rộng 4 chòm
+    const sz = Math.min(st.w * 0.34, st.h * 0.22, 230), slots = st.w < 500 ? [[0.05, 0.1], [0.55, 0.24], [0.12, 0.42]] : [[0.05, 0.09], [0.4, 0.06], [0.62, 0.3], [0.2, 0.38]];
+    fx.cons = names.slice(0, st.w < 500 ? 3 : 4).map((n, i) => {
+      const c = CONS[n], [fx0, fy0] = slots[i], rot = rnd(-0.3, 0.3), cs = Math.cos(rot), sn = Math.sin(rot);
+      const ox = fx0 * st.w + rnd(-0.03, 0.03) * st.w, oy = fy0 * st.h + rnd(-0.02, 0.03) * st.h, k = sz * rnd(0.85, 1.1);
+      return { n, c, stars: c.s.map(([x, y]) => { const X = (x - .5) * k, Y = (y - .5) * k; return { x: ox + k / 2 + X * cs - Y * sn, y: oy + k / 2 + X * sn + Y * cs, r: rnd(1.3, 2.3), ph: rnd(0, 6.3) }; }), ph: rnd(0, 6.3) };
+    });
+  }
   fx.clouds = Array.from({ length: st.w < 500 ? 2 : 4 }, () => ({ x: rnd(0, st.w), y: 80 + rnd(0, 0.25) * st.h, s: rnd(40, 80), v: rnd(5, 12), blobs: Array.from({ length: 5 }, () => [rnd(-1.2, 1.2), rnd(-0.35, 0.25), rnd(0.45, 0.8)]) }));
   fx.flies = [];
   const m = st.month;
@@ -104,12 +139,18 @@ function every(name, a, b, f, first) {
   timers[name] = setTimeout(go, (first ?? rnd(a, b)) * 1000);
 }
 function meteor() {
-  const x = rnd(0.2, 1.05) * st.w, y = rnd(-0.02, 0.3) * st.h, ang = rnd(2.4, 2.75), v = rnd(650, 950);
-  fx.meteors.push({ x, y, vx: Math.cos(ang) * v, vy: Math.sin(ang) * v, life: 0, max: rnd(0.6, 1), len: rnd(80, 160) });
+  // v42: nhiều màu, đậm nhạt khác nhau, hướng rơi đổi chút
+  const left = Math.random() < 0.3, x = (left ? rnd(-0.05, 0.6) : rnd(0.3, 1.05)) * st.w, y = rnd(-0.02, 0.35) * st.h;
+  const ang = left ? rnd(0.4, 0.75) : rnd(2.4, 2.75), v = rnd(600, 1000);
+  fx.meteors.push({ x, y, vx: Math.cos(ang) * v, vy: Math.sin(ang) * v, life: 0, max: rnd(0.55, 1.1), len: rnd(80, 190), col: Math.random() < 0.45 ? '255,255,255' : pick(METEOR_COL), w: rnd(1.2, 2.8) });
 }
 function plane() {
-  const dir = Math.random() < 0.5 ? 1 : -1;
-  fx.planes.push({ x: dir > 0 ? -30 : st.w + 30, y: 72 + rnd(0, 0.22) * st.h, vx: dir * rnd(45, 70), vy: rnd(-4, 4), trail: [], tt: 0 });
+  // v42: to nhỏ khác nhau (máy bay gần thì to, bay nhanh), bay ngang, dọc hoặc chéo
+  const s = Math.random() < 0.25 ? rnd(1.6, 2.5) : rnd(0.55, 1.3), m = Math.random();
+  const ang = m < 0.45 ? (Math.random() < 0.5 ? 0 : Math.PI) + rnd(-0.16, 0.16) : m < 0.72 ? (Math.random() < 0.5 ? Math.PI / 2 : -Math.PI / 2) + rnd(-0.22, 0.22) : rnd(0, Math.PI * 2);
+  const v = rnd(38, 70) * (0.75 + 0.3 * s), R = Math.hypot(st.w, st.h) / 2 + 60, cx = st.w / 2, cy = st.h * 0.42, off = rnd(-0.38, 0.38) * Math.min(st.w, st.h);
+  const x = cx - Math.cos(ang) * R - Math.sin(ang) * off, y = cy - Math.sin(ang) * R + Math.cos(ang) * off;
+  fx.planes.push({ x, y, vx: Math.cos(ang) * v, vy: Math.sin(ang) * v, s, trail: [], tt: 0, life: 0, R });
 }
 function blackHole() {
   if (fx.holes.length) return;
@@ -128,21 +169,24 @@ function lightning() {
   fx.bolt = { pts, life: 0.25 };
 }
 function koiFly() { const dir = Math.random() < 0.5 ? 1 : -1; fx.koi.push({ x: dir > 0 ? -90 : st.w + 90, y: 80 + rnd(0, 0.22) * st.h, vx: dir * rnd(50, 75), t: 0 }); }
-function lantern(kind) { fx.lanterns.push({ kind, x: rnd(0.05, 0.95) * st.w, y: st.h + 20, vy: -rnd(14, 26), sw: rnd(8, 20), ph: rnd(0, 6.3), s: rnd(10, 16), col: kind === 'star' ? pick(['#FF5252', '#FFD740', '#FF9100']) : '#FFB74D' }); }
+function lantern(kind) { fx.lanterns.push({ kind, x: rnd(0.05, 0.95) * st.w, y: st.h + 20, vy: -rnd(12, 26), sw: rnd(8, 20), ph: rnd(0, 6.3), s: rnd(8, 17) * (kind === 'sky' ? rnd(0.7, 1.15) : 1), col: kind === 'star' ? pick(['#FF5252', '#FFD740', '#FF9100', '#FF6EC7', '#7CFFCB']) : kind === 'sky' ? pick(['#FFB74D', '#FFCC80', '#FF8A65', '#FFE082']) : pick(['#FFB74D', '#FF8A65', '#FFD54F']) }); }
 function schedule() {
   Object.keys(timers).forEach(k => clearTimeout(timers[k]));
   if (!st.on) return;
   const shower = st.shower;
-  if (S.fxMeteor) every('meteor', shower ? 1.5 : 15, shower ? 5 : 45, () => { if (night()) meteor(); }, shower ? 3 : 8);
-  if (S.fxPlane) every('plane', 70, 200, plane, rnd(20, 60));
-  if (S.fxBlackhole) every('hole', 300, 600, blackHole, rnd(90, 150));
+  // v42: sao băng dày hơn (đêm thường vài giây một vệt, mưa sao băng liên tục), đôi khi hai vệt liền
+  if (S.fxMeteor) every('meteor', shower ? 0.5 : 3.5, shower ? 1.8 : 11, () => { if (night()) { meteor(); if (Math.random() < 0.25) setTimeout(meteor, rnd(150, 700)); } }, shower ? 1 : 3);
+  if (S.fxPlane) every('plane', 12, 32, () => { plane(); if (Math.random() < 0.2) setTimeout(plane, rnd(1500, 5000)); }, rnd(4, 12));
+  if (S.fxBlackhole) every('hole', 180, 420, blackHole, rnd(60, 120));
   if (S.fxWind) every('gust', 20, 50, gust);
   const fwOn = () => S.fxFireworks && ((st.month === 8 && night()) || st.hol.some(h => h.fw));
   every('fw', 3, 10, () => { if (fwOn()) firework(); }, 2);
   if (st.rain === 2 && S.fxLightning) every('bolt', 12, 35, lightning);
   if (st.hol.some(h => h.koi)) every('koi', 25, 60, koiFly, 6);
   const lan = st.hol.find(h => h.lantern);
-  if (lan && S.fxLanterns) every('lantern', 1.2, 3, () => { if (lan.lantern === 'star' || night()) lantern(lan.lantern); }, 1);
+  if (lan && S.fxLanterns) every('lantern', 0.45, 1.3, () => { if (lan.lantern === 'star' || night()) lantern(lan.lantern); }, 1);
+  // v42: đêm thường cũng có đèn trời (khổng minh) bay lên thưa thưa
+  else if (S.fxLanterns) every('skylan', 5, 14, () => { if (night()) { lantern('sky'); if (Math.random() < 0.3) setTimeout(() => lantern('sky'), rnd(400, 1500)); } }, 4);
 }
 
 // ---------- vẽ ----------
@@ -161,7 +205,7 @@ function drawPart(p) {
   let a = p.a;
   if (p.k.tw) a *= 0.45 + 0.55 * (0.5 + 0.5 * Math.sin(p.ph * 3));
   if (a <= 0.01) return;
-  const s = p.size / 20 * st.dpr, c = Math.cos(p.rot) * s, n = Math.sin(p.rot) * s;
+  const s = p.size * (p._s ?? 1) / 20 * st.dpr, c = Math.cos(p.rot) * s, n = Math.sin(p.rot) * s;
   ctx.setTransform(c, n, -n, c, p.x * st.dpr, p.y * st.dpr);
   ctx.globalAlpha = a;
   ctx.drawImage(sprite(p), -SPR_B / 2, -SPR_B / 2, SPR_B, SPR_B);
@@ -196,6 +240,74 @@ function glow(c0, c1) {
   return c;
 }
 const glowAt = (img, x, y, r, a) => { ctx.globalAlpha = a; ctx.drawImage(img, x - r, y - r, r * 2, r * 2); };
+// v42: dải ngân hà — vẽ sẵn một lần ra ảnh (lõi sáng, mây sao hồng, tím, xanh, vệt bụi tối, hàng nghìn sao nhỏ), mỗi khung chỉ xoay ảnh:
+// dải vắt ngang rồi dần dọc, chéo… (một vòng khoảng 25 phút), sáng tối nhè nhẹ
+let MW = null, mwKey = '';
+function milkyTex() {
+  const key = `${st.dark}|${Math.round(st.w / 50)}|${Math.round(st.h / 50)}|${st.q}`;
+  if (MW && mwKey === key) return MW;
+  const L = Math.ceil(Math.hypot(st.w, st.h) * 1.25), H = Math.ceil(Math.min(st.w, st.h) * 0.5), sc = st.q ? 0.6 : 0.85;
+  const c = makeCanvas(Math.ceil(L * sc), Math.ceil(H * sc)), g = c.getContext('2d');
+  g.scale(sc, sc);
+  const lg = g.createLinearGradient(0, 0, 0, H);
+  lg.addColorStop(0, 'rgba(170,180,255,0)'); lg.addColorStop(0.3, 'rgba(160,170,255,.1)'); lg.addColorStop(0.5, 'rgba(240,232,255,.34)'); lg.addColorStop(0.7, 'rgba(160,170,255,.1)'); lg.addColorStop(1, 'rgba(170,180,255,0)');
+  g.fillStyle = lg; g.fillRect(0, 0, L, H);
+  const cols = ['255,140,200', '175,125,255', '120,205,255', '255,205,150', '140,255,220'];
+  for (let i = 0; i < 34; i++) {
+    const x = rnd(0, L), y = H / 2 + gauss() * H * 0.12, r = rnd(H * 0.1, H * 0.32), c0 = pick(cols), gr = g.createRadialGradient(x, y, 0, x, y, r);
+    gr.addColorStop(0, `rgba(${c0},${rnd(0.07, 0.18)})`); gr.addColorStop(1, `rgba(${c0},0)`); g.fillStyle = gr; g.fillRect(x - r, y - r, 2 * r, 2 * r);
+  }
+  g.globalCompositeOperation = 'destination-out';
+  for (let i = 0; i < 22; i++) {
+    const x = rnd(0, L), y = H / 2 + H * 0.03 + gauss() * H * 0.04, r = rnd(H * 0.04, H * 0.12), gr = g.createRadialGradient(x, y, 0, x, y, r);
+    gr.addColorStop(0, 'rgba(0,0,0,.35)'); gr.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = gr; g.fillRect(x - r, y - r, 2 * r, 2 * r);
+  }
+  g.globalCompositeOperation = 'source-over';
+  const n = Math.round(L * H / (st.q ? 1400 : 900));
+  for (let i = 0; i < n; i++) {
+    const x = rnd(0, L), y = H / 2 + gauss() * H * 0.17, big = Math.random() < 0.06, r = big ? rnd(0.9, 1.6) : rnd(0.35, 0.8);
+    g.globalAlpha = rnd(0.25, 0.95); g.fillStyle = big ? pick(['#FFFFFF', '#DDE6FF', '#FFE9D6']) : '#FFFFFF';
+    g.beginPath(); g.arc(x, y, r, 0, Math.PI * 2); g.fill();
+  }
+  g.globalAlpha = 1;
+  MW = { c, L, H }; mwKey = key;
+  return MW;
+}
+function drawMilky(t) {
+  const m = milkyTex();
+  if (st.mw0 == null) st.mw0 = rnd(0, Math.PI);
+  const a = st.mw0 + t * 0.0042, al = (st.dark ? 0.85 : 0.35) * (0.86 + 0.14 * Math.sin(t * 0.21));
+  ctx.save(); ctx.translate(st.w / 2, st.h * 0.4); ctx.rotate(a); ctx.globalAlpha = al;
+  ctx.drawImage(m.c, -m.L / 2, -m.H / 2, m.L, m.H);
+  ctx.restore();
+}
+// chòm sao: sao lấp lánh, đường nối sáng lên tắt xuống, đốm sáng chạy dọc đường nối, tên chòm mờ mờ; cả chòm trôi nhẹ
+function drawCons(t) {
+  const lineC = st.dark ? '170,200,255' : '70,90,150', starImg = glow('220,232,255', '150,180,255');
+  ctx.font = '600 11px system-ui, sans-serif'; ctx.textBaseline = 'top';
+  fx.cons.forEach((k, i) => {
+    const dx = Math.sin(t / 95 + i * 2) * 10, dy = Math.cos(t / 120 + i) * 6;
+    ctx.lineWidth = 1; ctx.lineCap = 'round';
+    k.c.l.forEach(([a, b], j) => {
+      const A = k.stars[a], B = k.stars[b], al = 0.08 + 0.26 * (0.5 + 0.5 * Math.sin(t * 0.9 + k.ph + j * 0.8));
+      ctx.strokeStyle = `rgba(${lineC},${al})`; ctx.beginPath(); ctx.moveTo(A.x + dx, A.y + dy); ctx.lineTo(B.x + dx, B.y + dy); ctx.stroke();
+      const f = (t * 0.22 + j * 0.37 + k.ph) % 1;
+      glowAt(starImg, A.x + (B.x - A.x) * f + dx, A.y + (B.y - A.y) * f + dy, 4, 0.55 * Math.sin(Math.PI * f));
+    });
+    for (const sp of k.stars) {
+      const tw = 0.7 + 0.3 * Math.sin(t * 2.2 + sp.ph);
+      glowAt(starImg, sp.x + dx, sp.y + dy, sp.r * 4.2 * tw, 0.55 * tw);
+      ctx.globalAlpha = 0.95; ctx.fillStyle = st.dark ? '#FFFFFF' : '#4A5C8A'; ctx.beginPath(); ctx.arc(sp.x + dx, sp.y + dy, sp.r * 0.75, 0, Math.PI * 2); ctx.fill();
+    }
+    // tên chòm dưới chòm sao, không tràn khỏi màn hình
+    const lab = `${k.c.vi} · ${k.c.jp}`, tw = ctx.measureText(lab).width;
+    const xs = k.stars.map(p => p.x), bot = Math.max(...k.stars.map(p => p.y));
+    const lx = Math.max(6, Math.min(st.w - tw - 6, (Math.min(...xs) + Math.max(...xs)) / 2 - tw / 2 + dx));
+    ctx.globalAlpha = 0.42 + 0.14 * Math.sin(t * 0.5 + i); ctx.fillStyle = st.dark ? '#CFE0FF' : '#3E4E78';
+    ctx.fillText(lab, lx, bot + dy + 8);
+  });
+  ctx.globalAlpha = 1;
+}
 let moonG = null, moonKey = '';
 function drawMoon(big) {
   const age = moonAge(), k = age / SYN, f = (1 - Math.cos(2 * Math.PI * k)) / 2;
@@ -212,8 +324,10 @@ function drawMoon(big) {
   ctx.restore();
 }
 function drawPlane(pl, dt) {
-  pl.x += pl.vx * dt; pl.y += pl.vy * dt; pl.tt += dt;
-  if (pl.tt > 0.08) { pl.tt = 0; pl.trail.push({ x: pl.x - Math.sign(pl.vx) * 10, y: pl.y + 1, a: 1 }); }
+  // v42: bay theo mọi hướng, to nhỏ khác nhau; vệt khói hai bên động cơ; đèn nháy ban đêm
+  pl.x += pl.vx * dt; pl.y += pl.vy * dt; pl.tt += dt; pl.life += dt;
+  const ang = Math.atan2(pl.vy, pl.vx), c = Math.cos(ang), n = Math.sin(ang), s = (pl.s || 1) * (pl._s ?? 1);
+  if (pl.tt > 0.07 && !pl.dead) { pl.tt = 0; pl.trail.push({ x: pl.x - c * 9 * s, y: pl.y - n * 9 * s, a: 1 }); }
   for (const t of pl.trail) t.a -= dt / (night() ? 3 : 7);
   pl.trail = pl.trail.filter(t => t.a > 0);
   ctx.save();
@@ -221,14 +335,20 @@ function drawPlane(pl, dt) {
   for (let i = 1; i < pl.trail.length; i++) {
     const a = pl.trail[i - 1], b = pl.trail[i];
     ctx.strokeStyle = night() ? `rgba(200,210,230,${a.a * 0.18})` : `rgba(255,255,255,${a.a * (st.dark ? 0.35 : 0.85)})`;
-    ctx.lineWidth = 1 + (1 - a.a) * 6; ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+    ctx.lineWidth = (1 + (1 - a.a) * 6) * Math.min(1.6, s); ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
   }
-  ctx.translate(pl.x, pl.y); if (pl.vx < 0) ctx.scale(-1, 1);
-  ctx.fillStyle = night() ? 'rgba(40,50,60,.9)' : (st.dark ? 'rgba(210,220,235,.85)' : 'rgba(70,85,105,.75)');
-  ctx.beginPath(); ctx.moveTo(9, 0); ctx.lineTo(-8, -1.4); ctx.lineTo(-8, 1.4); ctx.closePath(); ctx.fill();
-  ctx.beginPath(); ctx.moveTo(2, 0); ctx.lineTo(-3, -7); ctx.lineTo(-5, -7); ctx.lineTo(-2, 0); ctx.lineTo(-5, 7); ctx.lineTo(-3, 7); ctx.closePath(); ctx.fill();
-  ctx.beginPath(); ctx.moveTo(-6, 0); ctx.lineTo(-9, -3.5); ctx.lineTo(-10, -3.5); ctx.lineTo(-8.5, 0); ctx.closePath(); ctx.fill();
-  if (night()) { const on = Math.sin(performance.now() / 160) > 0.6; if (on) { ctx.fillStyle = '#FF4A4A'; ctx.fillRect(-4.5, -7.5, 2, 2); ctx.fillStyle = '#4AFF8A'; ctx.fillRect(-4.5, 5.5, 2, 2); } }
+  if (!pl.dead) {
+    ctx.translate(pl.x, pl.y); ctx.rotate(ang); ctx.scale(s, s);
+    ctx.fillStyle = night() ? 'rgba(40,50,60,.9)' : (st.dark ? 'rgba(210,220,235,.85)' : 'rgba(70,85,105,.75)');
+    ctx.beginPath(); ctx.moveTo(9, 0); ctx.lineTo(-8, -1.4); ctx.lineTo(-8, 1.4); ctx.closePath(); ctx.fill();
+    ctx.beginPath(); ctx.moveTo(2, 0); ctx.lineTo(-3, -7); ctx.lineTo(-5, -7); ctx.lineTo(-2, 0); ctx.lineTo(-5, 7); ctx.lineTo(-3, 7); ctx.closePath(); ctx.fill();
+    ctx.beginPath(); ctx.moveTo(-6, 0); ctx.lineTo(-9, -3.5); ctx.lineTo(-10, -3.5); ctx.lineTo(-8.5, 0); ctx.closePath(); ctx.fill();
+    if (night()) {
+      const on = Math.sin(performance.now() / 160 + (pl.ph || 0)) > 0.6;
+      if (on) { ctx.fillStyle = '#FF4A4A'; ctx.fillRect(-4.5, -7.5, 2, 2); ctx.fillStyle = '#4AFF8A'; ctx.fillRect(-4.5, 5.5, 2, 2); }
+      if (Math.sin(performance.now() / 420 + (pl.ph || 0)) > 0.85) { ctx.fillStyle = '#FFFFFF'; ctx.fillRect(-9.5, -0.8, 1.6, 1.6); }
+    }
+  }
   ctx.restore();
 }
 function drawHole(hb, dt) {
@@ -245,6 +365,7 @@ function drawHole(hb, dt) {
     ctx.lineWidth = r * 0.22; ctx.beginPath(); ctx.ellipse(0, 0, r * 2.1, r * 0.55, 0, a0, a0 + 0.18); ctx.stroke();
   }
   ctx.beginPath(); ctx.arc(0, 0, r * 1.18, 0, Math.PI * 2); ctx.strokeStyle = `rgba(255,236,200,${0.85 * k})`; ctx.lineWidth = 1.6; ctx.stroke();
+  if (hb.eat > 0) { ctx.beginPath(); ctx.arc(0, 0, r * (1.3 + 0.5 * (1 - hb.eat)), 0, Math.PI * 2); ctx.strokeStyle = `rgba(255,220,170,${0.7 * hb.eat})`; ctx.lineWidth = 2.5; ctx.stroke(); hb.eat = Math.max(0, hb.eat - dt * 1.8); }
   ctx.beginPath(); ctx.arc(0, 0, r, 0, Math.PI * 2); ctx.fillStyle = '#000'; ctx.fill();
   ctx.restore();
   return k;
@@ -282,6 +403,7 @@ function draw(now, dt) {
   if (st.gustT > 0) st.gustT -= dt; else st.gust *= g96;
   const wind = (S.fxWind ? st.wind + st.gust : 0);
   // bầu trời
+  if (S.fxMilky !== false && night()) drawMilky(t);
   if (S.fxStars && night()) {
     // v37: gom sao theo 8 bậc sáng, mỗi bậc tô một lần (đỡ hàng trăm lần tô mỗi khung)
     const B = 8, paths = Array.from({ length: B }, () => new Path2D());
@@ -289,6 +411,7 @@ function draw(now, dt) {
     ctx.fillStyle = st.dark ? '#E8F0FF' : '#5C6F86';
     for (let i = 0; i < B; i++) { ctx.globalAlpha = 0.35 + 0.6 * i / (B - 1); ctx.fill(paths[i]); }
     ctx.globalAlpha = 1;
+    if (S.fxConst !== false && fx.cons.length) drawCons(t);
     drawMoon(st.hol.some(h => h.bigMoon));
   }
   if (S.fxClouds && !night() && S.fxDayNight) for (const c of fx.clouds) {
@@ -302,29 +425,39 @@ function draw(now, dt) {
     m.life += dt; m.x += m.vx * dt; m.y += m.vy * dt;
     const a = Math.max(0, 1 - m.life / m.max), n = Math.hypot(m.vx, m.vy);
     const tx = m.x - m.vx / n * m.len, ty = m.y - m.vy / n * m.len;
-    const g = ctx.createLinearGradient(m.x, m.y, tx, ty);
-    g.addColorStop(0, `rgba(255,255,255,${a})`); g.addColorStop(1, 'rgba(255,255,255,0)');
-    ctx.strokeStyle = g; ctx.lineWidth = 2; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(m.x, m.y); ctx.lineTo(tx, ty); ctx.stroke();
+    const col = m.col || '255,255,255', g = ctx.createLinearGradient(m.x, m.y, tx, ty);
+    g.addColorStop(0, `rgba(${col},${a})`); g.addColorStop(0.35, `rgba(${col},${a * 0.45})`); g.addColorStop(1, `rgba(${col},0)`);
+    ctx.strokeStyle = g; ctx.lineWidth = m.w || 2; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(m.x, m.y); ctx.lineTo(tx, ty); ctx.stroke();
+    glowAt(glow(col, col), m.x, m.y, 3 + (m.w || 2) * 2, a * 0.9); ctx.globalAlpha = 1;
   }
-  fx.meteors = fx.meteors.filter(m => m.life < m.max);
+  fx.meteors = fx.meteors.filter(m => m.life < m.max && !m.dead);
   // máy bay, cá chép
   for (const pl of fx.planes) drawPlane(pl, dt);
-  fx.planes = fx.planes.filter(p => p.x > -60 || p.trail.length).filter(p => p.x < W + 60 || p.trail.length);
+  fx.planes = fx.planes.filter(p => (!p.dead && (p.life < 2 || Math.hypot(p.x - W / 2, p.y - H * 0.42) < (p.R || W) + 80)) || p.trail.length);
   for (const kf of fx.koi) {
     kf.x += kf.vx * dt; kf.t += dt;
     ctx.save(); ctx.translate(kf.x, kf.y); if (kf.vx < 0) ctx.scale(-1, 1);
     ['#2B2B2B', '#E53935', '#1E88E5'].forEach((c, i) => { const w = Math.sin(kf.t * 6 + i) * 3; ctx.fillStyle = c; ctx.globalAlpha = 0.85; ctx.beginPath(); ctx.ellipse(-i * 26, w, 13 - i * 2, 5 - i * 0.6, 0, 0, Math.PI * 2); ctx.fill(); ctx.beginPath(); ctx.moveTo(-i * 26 - 12, w); ctx.lineTo(-i * 26 - 20, w - 5); ctx.lineTo(-i * 26 - 20, w + 5); ctx.closePath(); ctx.fill(); });
     ctx.restore();
   }
-  fx.koi = fx.koi.filter(k => k.x > -160 && k.x < W + 160);
-  // hố đen: hút các hạt ở gần
+  fx.koi = fx.koi.filter(k => k.x > -160 && k.x < W + 160 && !k.dead);
+  // hố đen (v42): hút xoáy MỌI vật ở gần hoặc bay ngang qua — hạt rơi, sao băng, máy bay, đèn lồng, đom đóm, pháo hoa, cá chép…:
+  // càng gần càng quay nhanh, nhỏ dần rồi biến mất ở chân trời sự kiện (vành sáng lóe lên)
+  if (fx.holes.length) st.hadHole = true;
+  else if (st.hadHole) { st.hadHole = false; for (const arr of [fx.parts, fx.meteors, fx.planes, fx.lanterns, fx.flies, fx.sparks, fx.bursts, fx.koi, fx.fw]) for (const o of arr) o._s = null; }
   for (const hb of fx.holes) {
-    const k = drawHole(hb, dt);
-    for (const p of fx.parts) {
-      const dx = hb.x - p.x, dy = hb.y - p.y, d2 = dx * dx + dy * dy, d = Math.sqrt(d2);
-      if (d < 260 && d > 0) { const v = Math.min(900, 4e5 * k / Math.max(d2, 400)); p.x += ((dx / d) + (-dy / d) * 0.6) * v * dt; p.y += ((dy / d) + (dx / d) * 0.6) * v * dt; }
-      if (d < hb.r * 0.8 * k) Object.assign(p, newPart(p.kind, false));
-    }
+    const k = drawHole(hb, dt), R = Math.max(240, Math.min(W, H) * 0.55) * (0.45 + 0.55 * k);
+    const pull = (o, kill, damp) => {
+      const dx = hb.x - o.x, dy = hb.y - o.y, d2 = dx * dx + dy * dy, d = Math.sqrt(d2);
+      if (d >= R || d === 0) { o._s = null; return; }
+      const v = Math.min(1150, 5.5e5 * k / Math.max(d2, 300)), sw = 0.55 + 1.6 * (1 - d / R);
+      o.x += ((dx / d) + (-dy / d) * sw) * v * dt; o.y += ((dy / d) + (dx / d) * sw) * v * dt;
+      if (damp) { const f = Math.pow(0.9, dt * 30); if (o.vx != null) o.vx *= f; if (o.vy != null) o.vy *= f; }
+      o._s = Math.max(0.12, Math.min(1, (d - hb.r * k) / (R * 0.45)));
+      if (d < hb.r * 0.9 * k) { hb.eat = Math.min(1, (hb.eat || 0) + 0.3); kill(o); }
+    };
+    for (const p of fx.parts) pull(p, o => Object.assign(o, newPart(o.kind, false), { _s: null }), false);
+    for (const arr of [fx.meteors, fx.planes, fx.lanterns, fx.flies, fx.sparks, fx.bursts, fx.koi, fx.fw]) for (const o of arr) if (!o.dead) pull(o, x => { x.dead = true; }, true);
   }
   fx.holes = fx.holes.filter(h => h.t < h.life);
   // pháo hoa
@@ -333,9 +466,9 @@ function draw(now, dt) {
     ctx.fillStyle = `rgba(${f.hue.join(',')},.9)`; ctx.beginPath(); ctx.arc(f.x, f.y, 2, 0, Math.PI * 2); ctx.fill();
     if (f.y <= f.ty || f.vy >= -40) { f.done = 1; for (let i = 0; i < 56; i++) { const a = rnd(0, Math.PI * 2), v = rnd(60, 190); fx.sparks.push({ x: f.x, y: f.y, vx: Math.cos(a) * v, vy: Math.sin(a) * v, life: 0, max: rnd(1.2, 1.9), hue: f.hue }); } }
   }
-  fx.fw = fx.fw.filter(f => !f.done);
+  fx.fw = fx.fw.filter(f => !f.done && !f.dead);
   for (const s of fx.sparks) { s.life += dt; s.vx *= Math.pow(0.985, dt * 30); s.vy = s.vy * Math.pow(0.985, dt * 30) + 70 * dt; s.x += s.vx * dt; s.y += s.vy * dt; const a = Math.max(0, 1 - s.life / s.max); ctx.fillStyle = `rgba(${s.hue.join(',')},${a})`; ctx.beginPath(); ctx.arc(s.x, s.y, 1.8, 0, Math.PI * 2); ctx.fill(); }
-  fx.sparks = fx.sparks.filter(s => s.life < s.max);
+  fx.sparks = fx.sparks.filter(s => s.life < s.max && !s.dead);
   // đèn lồng
   for (const l of fx.lanterns) {
     l.y += l.vy * dt; l.ph += dt; const x = l.x + Math.sin(l.ph * 0.8) * l.sw;
@@ -343,17 +476,25 @@ function draw(now, dt) {
     const lc = hex(l.col).join(',');
     glowAt(glow(lc, lc), 0, 0, l.s * 2.4, 0.35);
     ctx.fillStyle = l.col; ctx.globalAlpha = 0.9;
+    if (l._s != null) ctx.scale(l._s, l._s);
     if (l.kind === 'star') { ctx.rotate(Math.sin(l.ph) * 0.2); ctx.scale(l.s / 10, l.s / 10); ctx.fill(SHAPE.star5); }
+    else if (l.kind === 'sky') { // đèn trời: thân giấy loe trên, lửa sáng ở đáy, chập chờn
+      const w = l.s * 0.75, h = l.s * 1.15, fl = 0.75 + 0.25 * Math.sin(l.ph * 9);
+      ctx.rotate(Math.sin(l.ph * 0.7) * 0.08);
+      ctx.beginPath(); ctx.moveTo(-w, -h * 0.55); ctx.quadraticCurveTo(0, -h * 0.8, w, -h * 0.55); ctx.lineTo(w * 0.62, h * 0.55); ctx.lineTo(-w * 0.62, h * 0.55); ctx.closePath(); ctx.fill();
+      ctx.globalAlpha = 0.85 * fl; ctx.fillStyle = '#FFF3C4'; ctx.beginPath(); ctx.ellipse(0, h * 0.42, w * 0.3, h * 0.16, 0, 0, Math.PI * 2); ctx.fill();
+    }
     else { ctx.beginPath(); ctx.ellipse(0, 0, l.s * 0.7, l.s, 0, 0, Math.PI * 2); ctx.fill(); }
     ctx.restore();
   }
-  fx.lanterns = fx.lanterns.filter(l => l.y > -60);
+  fx.lanterns = fx.lanterns.filter(l => l.y > -60 && !l.dead);
   // đom đóm
+  if (fx.flies.some(f => f.dead)) fx.flies = fx.flies.filter(f => !f.dead);
   for (const f of fx.flies) {
     f.ph += dt; f.vx += rnd(-20, 20) * dt; f.vy += rnd(-20, 20) * dt; f.vx *= g98; f.vy *= g98; f.x += f.vx * dt; f.y += f.vy * dt;
     if (f.x < 0) f.x = W; if (f.x > W) f.x = 0; if (f.y < H * 0.3) f.vy += 10 * dt; if (f.y > H) f.y = H * 0.4;
     const a = 0.1 + 0.9 * Math.max(0, Math.sin(f.ph * f.bl));
-    glowAt(glow('255,246,170', '255,236,140'), f.x, f.y, 9, a);
+    glowAt(glow('255,246,170', '255,236,140'), f.x, f.y, 9 * (f._s ?? 1), a);
   }
   ctx.globalAlpha = 1;
   // hạt rơi
@@ -368,7 +509,7 @@ function draw(now, dt) {
   }
   // chùm hạt khi trả lời đúng
   for (const b of fx.bursts) { b.life += dt / spd(); b.vy += 260 * dt / spd(); b.vx *= g985; b.x += b.vx * dt / spd(); b.y += b.vy * dt / spd(); b.rot += b.vr * dt; b.a = Math.max(0, 1 - b.life / b.max); drawPart(b); }
-  fx.bursts = fx.bursts.filter(b => b.life < b.max);
+  fx.bursts = fx.bursts.filter(b => b.life < b.max && !b.dead);
   // mưa
   if (fx.drops.length) {
     ctx.strokeStyle = st.dark ? 'rgba(170,200,230,.35)' : 'rgba(70,100,130,.35)'; ctx.lineWidth = 1; ctx.beginPath();

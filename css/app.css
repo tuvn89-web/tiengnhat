@@ -74,9 +74,11 @@ code { font-size: .9em; background: var(--surface-2); padding: 1px 5px; border-r
 .sync-badge[data-state="ok"]::after { background: var(--ok); }
 .sync-badge[data-state="err"]::after { background: var(--ng); }
 
-.view { display: block; max-width: 720px; margin: 0 auto; padding: 16px 16px calc(96px + env(safe-area-inset-bottom) + var(--toast-sp, 0px) + var(--fab-sp, 0px)); outline: none; }
+.view { display: block; max-width: 720px; margin: 0 auto; padding: 16px 16px calc(96px + env(safe-area-inset-bottom) + var(--toast-sp, 0px) + var(--fab-sp, 0px) + var(--fab-lift, 0px)); outline: none; }
 /* v27: khay nút (Đã thuộc, Tiếp…) ghim ngay trên thanh công cụ; trang chừa chỗ để nội dung cuối không bị khay che */
 :root { --tray-b: calc(68px + env(safe-area-inset-bottom)); --tray-h: calc(var(--btn-h) + 20px); }
+/* v42: hai nút nổi (‹ quay lại, Bật / tắt hiệu ứng nền) đứng YÊN một chỗ, ngay trên chỗ của khay nút (Tiếp, Đã thuộc…) — không nhảy lên xuống mỗi lần khay hiện / ẩn, không che nút */
+:root { --fab-b: calc(var(--tray-b) + max(var(--tray-h), var(--tray-real, 0px)) + 10px); }
 .view:has(.next-bar) { padding-bottom: calc(96px + env(safe-area-inset-bottom) + var(--tray-h) + var(--toast-sp, 0px) + var(--fab-sp, 0px)); }
 .nav {
   position: fixed; z-index: 20; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-around;
@@ -91,7 +93,7 @@ code { font-size: .9em; background: var(--surface-2); padding: 1px 5px; border-r
   .nav a[aria-current="page"] { background: var(--blue-soft); }
   .rail-only { display: flex !important; }
   .mob-only { display: none !important; }
-  .view { padding-left: 226px; max-width: calc(720px + 226px); padding-bottom: calc(48px + var(--toast-sp, 0px) + var(--fab-sp, 0px)); }
+  .view { padding-left: 226px; max-width: calc(720px + 226px); padding-bottom: calc(48px + var(--toast-sp, 0px) + var(--fab-sp, 0px) + var(--fab-lift, 0px)); }
   .view:has(.next-bar) { padding-bottom: calc(48px + var(--tray-h) + var(--toast-sp, 0px) + var(--fab-sp, 0px)); }
   :root { --tray-b: 12px; }
 }
@@ -900,7 +902,7 @@ span.hvb-c { cursor: default; }
 .bar-time i { background: var(--blue); transition: width .5s linear; }
 /* một tay: trên điện thoại đáp án dồn xuống nửa dưới màn hình */
 @media (max-width: 899px) {
-  .run-quick { display: flex; flex-direction: column; min-height: calc(100dvh - 56px - var(--tray-b, 76px) - 40px); }
+  .run-quick { display: flex; flex-direction: column; min-height: calc(100dvh - 56px - var(--tray-b, 76px) - 40px - var(--tray-h) - 10px); }
   .run-quick .opts { margin-top: auto; padding-bottom: 8px; }
   .run-quick .label-card { margin-bottom: 18px; }
 }
@@ -965,26 +967,24 @@ html:not(.calm) .kfam-g[open] .kgrid, html:not(.calm) details[open] > *:not(summ
 
 /* ---------- v32–v33: nút nhỏ "Bật / tắt hiệu ứng nền" — góc dưới bên phải, mọi trang; bấm mở / thu gọn bảng chỉnh nhanh ---------- */
 /* nằm trên thanh công cụ (điện thoại); trang có khay nút (Tiếp, Đã thuộc…) thì nằm trên khay để không che nút */
-:root:has(.fx-fab, .back-fab:not([hidden])) { --fab-sp: 52px; }
+:root:has(.fx-fab, .back-fab:not([hidden])) { --fab-sp: 52px; --fab-lift: var(--tray-h); }
+.view:has(.next-bar) { --fab-lift: 0px; }
 .fx-fab {
-  position: fixed; right: 12px; bottom: calc(var(--tray-b) + 8px); z-index: 30;
+  position: fixed; right: 12px; bottom: var(--fab-b); z-index: 30;
   min-height: 30px; padding: 0 11px; border-radius: 999px; border: 1px solid var(--line);
   background: var(--surface-solid, var(--surface)); color: var(--ink-2); font: 600 12px/1 var(--ui); letter-spacing: .01em;
   box-shadow: 0 3px 10px rgba(0, 0, 0, .22); cursor: pointer; opacity: .92; -webkit-tap-highlight-color: transparent;
 }
 .fx-fab:hover, .fx-fab:focus-visible { opacity: 1; }
 /* khay nút hiện (sau khi trả lời, màn học…) thì nút nổi lên trên khay; lúc đang hỏi thì nằm sát thanh công cụ */
-body:has(#view .next-bar, #view .heart-bar) .fx-fab,
-body:has(#view .next-bar, #view .heart-bar) .back-fab:not(.is-free) { translate: 0 calc(-1 * var(--tray-real, var(--tray-h))); }
-/* v37: nút nổi nhấc lên bằng translate (GPU) thay vì đổi bottom — không bắt dựng lại bố cục mỗi khung */
-html:not(.calm) .fx-fab, html:not(.calm) .back-fab { transition: translate .25s cubic-bezier(.2, .8, .2, 1), transform .15s ease, opacity .15s ease, box-shadow .15s ease; }
+html:not(.calm) .fx-fab, html:not(.calm) .back-fab { transition: transform .15s ease, opacity .15s ease, box-shadow .15s ease; }
 html:not(.calm) .fx-fab:active { transform: scale(.94); }
 /* Ôn nhanh 3 phút (đáp án dồn xuống nửa dưới): chừa chỗ cho các nút nổi */
 .run-quick .opts { padding-bottom: max(8px, calc(var(--fab-sp, 0px) - 12px)); }
 
 /* ---------- v32: nút ‹ quay lại nổi — mọi trang trừ Trang chủ; giữ 0,7 giây rồi kéo để đổi chỗ ---------- */
 .back-fab {
-  position: fixed; left: 12px; bottom: calc(var(--tray-b) + 8px); z-index: 30;
+  position: fixed; left: 12px; bottom: var(--fab-b); z-index: 30;
   width: 44px; height: 44px; padding: 0; display: grid; place-items: center; border-radius: 50%;
   border: 1px solid var(--line); background: var(--surface-solid, var(--surface)); color: var(--ink);
   box-shadow: 0 4px 14px rgba(0, 0, 0, .26); opacity: .94; cursor: pointer;
@@ -1024,12 +1024,11 @@ html:not(.calm) .topbar { transition: background-color .25s ease, border-color .
 
 /* ---------- v33: bảng "Bật / tắt hiệu ứng nền" (mở từ nút nhỏ góc dưới bên phải) ---------- */
 .fx-panel {
-  position: fixed; right: 12px; bottom: calc(var(--tray-b) + 46px); z-index: 35;
-  width: min(360px, calc(100vw - 24px)); max-height: min(620px, calc(100dvh - 130px - var(--tray-b)));
+  position: fixed; right: 12px; bottom: calc(var(--fab-b) + 38px); z-index: 35;
+  width: min(360px, calc(100vw - 24px)); max-height: min(620px, calc(100dvh - 110px - var(--fab-b)));
   overflow: auto; overscroll-behavior: contain; background: var(--surface-solid, var(--surface)); color: var(--ink);
   border: 1px solid var(--line); border-radius: 16px; padding: 12px 14px 14px; box-shadow: 0 16px 50px rgba(0, 0, 0, .45);
 }
-body:has(#view .next-bar, #view .heart-bar) .fx-panel { bottom: calc(var(--tray-b) + var(--tray-real, var(--tray-h)) + 46px); }
 .fx-panel[hidden] { display: none; }
 .fx-panel h2 { margin: 2px 0 8px; font-size: 16px; }
 .fx-panel h3 { margin: 14px 0 4px; font-size: 13px; color: var(--ink-2); text-transform: uppercase; letter-spacing: .04em; }

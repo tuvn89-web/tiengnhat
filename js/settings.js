@@ -27,7 +27,7 @@ export const DEFAULTS = {
   motion: true,       // chuyển động giao diện (trang trượt, bảng phóng to, điểm đếm lên)
   fxBg: true,         // v32: hiệu ứng nền (canvas: hạt rơi, trời, mưa…) — công tắc chung, có nút nhỏ ở góc dưới
   fxFall: true, fxDensity: 'mid', fxSpeed: 'mid', fxFps: 'auto',
-  fxDayNight: true, fxClouds: true, fxStars: true, fxMeteor: true, fxPlane: true, fxBlackhole: true,
+  fxDayNight: true, fxClouds: true, fxStars: true, fxMeteor: true, fxPlane: true, fxBlackhole: true, fxConst: true, fxMilky: true,
   fxFireworks: true, fxFireflies: true, fxLanterns: true, fxHolVN: true, fxHolJP: true, fxWind: true, fxLightning: true,
   fxRain: 'season',   // season (mùa mưa + vài ngày) | weather (thời tiết thật) | always | off
   fxCity: '',         // thành phố lấy thời tiết thật

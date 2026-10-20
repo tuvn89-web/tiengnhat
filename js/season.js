@@ -34,16 +34,16 @@ const SHOWERS = [['Quadrantid', 1, 3, 4], ['Lyrid', 4, 21, 22], ['Eta Aquariid',
 const dayDiff = (d, y, md) => { if (!md) return null; const t = new Date(`${y}-${md}T00:00:00`); const a = new Date(d.getFullYear(), d.getMonth(), d.getDate()); return Math.round((a - t) / 864e5); };
 const HOL = {
   tet: { id: 'tet', vi: 'Tết Nguyên Đán', kinds: ['maiVang', 'dao'], acc: '#E53935' },
-  trungthu: { id: 'trungthu', vi: 'Tết Trung thu', lantern: 'star', bigMoon: true },
-  quockhanh: { id: 'quockhanh', vi: 'Quốc khánh 2/9' },
-  shogatsu: { id: 'shogatsu', vi: 'お正月[しょうがつ] — năm mới' },
-  setsubun: { id: 'setsubun', vi: '節分[せつぶん] — ném đậu đuổi quỷ', kinds: ['plum', 'bean'] },
-  kodomo: { id: 'kodomo', vi: 'こどもの日[ひ] — cờ cá chép', koi: true },
-  tanabata: { id: 'tanabata', vi: '七夕[たなばた] — Thất tịch', kinds: ['tanzaku', 'stardust'], milky: true },
-  obon: { id: 'obon', vi: 'お盆[ぼん]', lantern: 'round' },
-  tsukimi: { id: 'tsukimi', vi: '十五夜[じゅうごや] — trăng rằm', bigMoon: true },
-  xmas: { id: 'xmas', vi: 'クリスマス — Giáng sinh', lights: true },
-  oomisoka: { id: 'oomisoka', vi: '大晦日[おおみそか] — giao thừa' },
+  trungthu: { id: 'trungthu', vi: 'Tết Trung thu', lantern: 'star', bigMoon: true , acc: '#F59E0B' },
+  quockhanh: { id: 'quockhanh', vi: 'Quốc khánh 2/9' , acc: '#DA251D' },
+  shogatsu: { id: 'shogatsu', vi: 'お正月[しょうがつ] — năm mới' , acc: '#C8102E' },
+  setsubun: { id: 'setsubun', vi: '節分[せつぶん] — ném đậu đuổi quỷ', kinds: ['plum', 'bean'] , acc: '#D9822B' },
+  kodomo: { id: 'kodomo', vi: 'こどもの日[ひ] — cờ cá chép', koi: true , acc: '#2F6FED' },
+  tanabata: { id: 'tanabata', vi: '七夕[たなばた] — Thất tịch', kinds: ['tanzaku', 'stardust'], milky: true , acc: '#6C63FF' },
+  obon: { id: 'obon', vi: 'お盆[ぼん]', lantern: 'round' , acc: '#F97316' },
+  tsukimi: { id: 'tsukimi', vi: '十五夜[じゅうごや] — trăng rằm', bigMoon: true , acc: '#E0B43C' },
+  xmas: { id: 'xmas', vi: 'クリスマス — Giáng sinh', lights: true , acc: '#1F9D55' },
+  oomisoka: { id: 'oomisoka', vi: '大晦日[おおみそか] — giao thừa' , acc: '#D4A017' },
 };
 export const HOLIDAY_IDS = Object.keys(HOL);
 export const HOLIDAYS = Object.values(HOL).map(h => [h.id, h.vi.replace(/\[[^\]]*\]/g, '')]); // tên để chọn (bỏ furigana)
@@ -55,18 +55,18 @@ function holidays(d) {
     const t = dayDiff(d, y, TET[y]);
     if (t != null && t >= -3 && t <= 3) out.push({ id: 'tet', vi: 'Tết Nguyên Đán', kinds: ['maiVang', 'dao'], acc: '#E53935', fw: (t === -1 && h >= 20) || (t === 0 && h < 2) || (t >= 0 && h >= 19) });
     const tt = dayDiff(d, y, TRUNGTHU[y]);
-    if (tt != null && tt >= -2 && tt <= 1) out.push({ id: 'trungthu', vi: 'Tết Trung thu', lantern: 'star', bigMoon: tt === 0 });
-    if (m === 9 && dd === 2) out.push({ id: 'quockhanh', vi: 'Quốc khánh 2/9', fw: h >= 19 });
+    if (tt != null && tt >= -2 && tt <= 1) out.push({ id: 'trungthu', vi: 'Tết Trung thu', lantern: 'star', bigMoon: tt === 0, acc: '#F59E0B' });
+    if (m === 9 && dd === 2) out.push({ id: 'quockhanh', vi: 'Quốc khánh 2/9', fw: h >= 19, acc: '#DA251D' });
   }
   if (S.fxHolJP) {
-    if (m === 1 && dd <= 3) out.push({ id: 'shogatsu', vi: 'お正月[しょうがつ] — năm mới', fw: dd === 1 && h < 1 });
-    if (m === 2 && dd === 3) out.push({ id: 'setsubun', vi: '節分[せつぶん] — ném đậu đuổi quỷ', kinds: ['plum', 'bean'] });
-    if (m === 5 && dd >= 1 && dd <= 5) out.push({ id: 'kodomo', vi: 'こどもの日[ひ] — cờ cá chép', koi: true });
-    if (m === 7 && dd === 7) out.push({ id: 'tanabata', vi: '七夕[たなばた] — Thất tịch', kinds: ['tanzaku', 'stardust'], milky: true });
-    if (m === 8 && dd >= 13 && dd <= 16) out.push({ id: 'obon', vi: 'お盆[ぼん]', lantern: 'round' });
-    if (m === 9 && TRUNGTHU[y] === `09-${String(dd).padStart(2, '0')}`) out.push({ id: 'tsukimi', vi: '十五夜[じゅうごや] — trăng rằm', bigMoon: true });
-    if (m === 12 && (dd === 24 || dd === 25)) out.push({ id: 'xmas', vi: 'クリスマス — Giáng sinh', lights: true });
-    if (m === 12 && dd === 31) out.push({ id: 'oomisoka', vi: '大晦日[おおみそか] — giao thừa', fw: h >= 21 });
+    if (m === 1 && dd <= 3) out.push({ id: 'shogatsu', vi: 'お正月[しょうがつ] — năm mới', fw: dd === 1 && h < 1, acc: '#C8102E' });
+    if (m === 2 && dd === 3) out.push({ id: 'setsubun', vi: '節分[せつぶん] — ném đậu đuổi quỷ', kinds: ['plum', 'bean'], acc: '#D9822B' });
+    if (m === 5 && dd >= 1 && dd <= 5) out.push({ id: 'kodomo', vi: 'こどもの日[ひ] — cờ cá chép', koi: true, acc: '#2F6FED' });
+    if (m === 7 && dd === 7) out.push({ id: 'tanabata', vi: '七夕[たなばた] — Thất tịch', kinds: ['tanzaku', 'stardust'], milky: true, acc: '#6C63FF' });
+    if (m === 8 && dd >= 13 && dd <= 16) out.push({ id: 'obon', vi: 'お盆[ぼん]', lantern: 'round', acc: '#F97316' });
+    if (m === 9 && TRUNGTHU[y] === `09-${String(dd).padStart(2, '0')}`) out.push({ id: 'tsukimi', vi: '十五夜[じゅうごや] — trăng rằm', bigMoon: true, acc: '#E0B43C' });
+    if (m === 12 && (dd === 24 || dd === 25)) out.push({ id: 'xmas', vi: 'クリスマス — Giáng sinh', lights: true, acc: '#1F9D55' });
+    if (m === 12 && dd === 31) out.push({ id: 'oomisoka', vi: '大晦日[おおみそか] — giao thừa', fw: h >= 21, acc: '#D4A017' });
   }
   return out;
 }
@@ -196,7 +196,8 @@ const VARS = ['--bg', '--surface', '--surface-solid', '--surface-2', '--line', '
 function applyTheme() {
   const r = document.documentElement;
   if (!st.on) { VARS.forEach(v => r.style.removeProperty(v)); delete r.dataset.season; delete r.dataset.sky; return; }
-  const hol = st.hol.find(h => h.acc), acc = hol ? hol.acc : M[st.month].acc, dark = st.dark;
+  // v42: ngày lễ nào cũng có màu riêng (như Tết); đêm có mưa sao băng thì ngả tím
+  const hol = st.hol.find(h => h.acc), acc = hol ? hol.acc : (st.shower && night() ? '#7C83FD' : M[st.month].acc), dark = st.dark;
   const set = (k, v) => r.style.setProperty(k, v);
   if (dark) {
     const sf = mix('#15212A', acc, 0.08);

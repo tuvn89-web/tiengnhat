@@ -27,8 +27,8 @@ const PREVIEW = [ // xem thử tạm: [khoá, nhãn, lựa chọn] — '' = như
   ['rain', 'Mưa', [['', 'Như thật'], ['0', 'Không mưa'], ['1', 'Mưa nhẹ'], ['2', 'Mưa to, có giông']]],
   ['hol', 'Ngày lễ', [['', 'Theo ngày thật'], ...HOLIDAYS]],
 ];
-const CK = [['fxFall', 'Hạt rơi theo tháng'], ['fxDayNight', 'Ngày – đêm'], ['fxClouds', 'Mây'], ['fxStars', 'Sao & trăng'], ['fxMeteor', 'Sao băng'], ['fxPlane', 'Máy bay'], ['fxBlackhole', 'Hố đen'],
-  ['fxFireworks', 'Pháo hoa'], ['fxFireflies', 'Đom đóm'], ['fxLanterns', 'Đèn lồng'], ['fxHolVN', 'Lễ Việt Nam'], ['fxHolJP', 'Lễ Nhật'], ['fxWind', 'Gió'], ['fxLightning', 'Chớp'], ['fxBurst', 'Chùm hạt khi đúng'], ['motion', 'Chuyển động mượt']];
+const CK = [['fxFall', 'Hạt rơi theo tháng'], ['fxDayNight', 'Ngày – đêm'], ['fxClouds', 'Mây'], ['fxStars', 'Sao & trăng'], ['fxConst', 'Chòm sao'], ['fxMilky', 'Dải ngân hà'], ['fxMeteor', 'Sao băng'], ['fxPlane', 'Máy bay'], ['fxBlackhole', 'Hố đen'],
+  ['fxFireworks', 'Pháo hoa'], ['fxFireflies', 'Đom đóm'], ['fxLanterns', 'Đèn lồng, đèn trời'], ['fxHolVN', 'Lễ Việt Nam'], ['fxHolJP', 'Lễ Nhật'], ['fxWind', 'Gió'], ['fxLightning', 'Chớp'], ['fxBurst', 'Chùm hạt khi đúng'], ['motion', 'Chuyển động mượt']];
 const TRY = [['meteor', 'Sao băng'], ['shower', 'Mưa sao băng'], ['plane', 'Máy bay'], ['hole', 'Hố đen'], ['fw', 'Pháo hoa'], ['bolt', 'Chớp'], ['gust', 'Cơn gió'], ['lantern', 'Đèn lồng'], ['koi', 'Cá chép'], ['burst', 'Chùm hạt']];
 
 let fab = null, panel = null;

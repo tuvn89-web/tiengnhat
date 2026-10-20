@@ -824,3 +824,37 @@ Từ chưa đủ điều kiện thì lịch ôn hướng "đọc" của từ đ�
 **Tệp:**
 - Mới: `js/bare.js`.
 - Sửa: `js/srs.js` (nhãn cần học lại, bộ lọc hướng ôn), `js/sync.js` (đồng bộ nhãn), `js/quiz.js`, `js/drill.js`, `js/practice.js`, `js/level.js`, `js/dot6.js`, `js/marks.js`, `js/notes.js`, `js/match.js`, `js/kanji.js`, `js/app.js`, `js/settingspage.js`, `js/util.js`, `css/app.css`, `sw.js`.
+
+## 51. Bản v42 (20/10/2026): nút nổi đứng yên; bầu trời đêm mới; bài tập ngữ pháp N5
+
+**Hai nút nổi đứng yên một chỗ.** Nút ‹ (quay lại) và nút "Bật / tắt hiệu ứng nền" nay đặt cố định ngay trên chỗ của khay nút (Tiếp, Đã thuộc…).
+- Không còn nhảy lên xuống mỗi lần trả lời câu hỏi.
+- Không che nút Tiếp hay các nút khác.
+- Nội dung cuối trang tự chừa chỗ để không bị nút che.
+
+**Hiệu ứng nền:**
+- **Mỗi ngày lễ có màu riêng như Tết:**
+  - Trung thu vàng cam, Quốc khánh đỏ cờ, お正月 đỏ son, 節分 cam đất, こどもの日 xanh cờ cá chép.
+  - 七夕 tím chàm, お盆 cam đèn lồng, 十五夜 vàng trăng, Giáng sinh xanh lá, 大晦日 vàng kim.
+  - Đêm có mưa sao băng thì ngả tím.
+- **Sao băng:** dày hơn (đêm thường vài giây một vệt, mưa sao băng gần như liên tục), có lúc hai vệt liền nhau. Nhiều màu (trắng, xanh băng, vàng, hồng, lục, tím), có đầu sáng, rơi theo hai hướng.
+- **Máy bay:** nhiều hơn (khoảng 12–30 giây một chiếc). Có chiếc to (bay gần, nhanh), có chiếc nhỏ. Bay ngang, bay dọc hoặc bay chéo, có vệt khói; ban đêm có đèn nháy.
+- **Đèn lồng:** ngày lễ dày gấp đôi, nhiều màu hơn. Đêm thường cũng có **đèn trời** (khổng minh) bay lên, lửa chập chờn.
+- **Chòm sao theo mùa:** 3 chòm (màn rộng 4 chòm), gồm Bắc Đẩu, Thiên Hậu, Lạp Hộ (Orion), Song Tử, Xử Nữ, Sư Tử, Thiên Yết, Thiên Nga, Chức Nữ, Ngưu Lang.
+  - Sao lấp lánh, đường nối sáng lên tắt xuống, có đốm sáng chạy dọc đường nối, tên chòm (tiếng Việt và tiếng Nhật) mờ mờ bên dưới; cả chòm trôi nhẹ.
+  - Đêm 七夕 luôn có Chức Nữ và Ngưu Lang.
+- **Dải ngân hà:** lõi sáng, mây sao hồng, tím, xanh, vệt bụi tối và hàng nghìn sao nhỏ. Dải xoay chậm, lúc vắt ngang, lúc vắt dọc, lúc chéo (khoảng 25 phút một vòng).
+- **Hố đen:** hay xuất hiện hơn và hút xoáy **mọi** vật ở gần hoặc bay ngang qua: hạt rơi, sao băng, máy bay, đèn lồng, đom đóm, pháo hoa, cá chép.
+  - Vật càng gần càng quay nhanh, nhỏ dần rồi biến mất; mỗi lần "nuốt" vành sáng lóe lên.
+- **Công tắc mới:** "Chòm sao" và "Dải ngân hà", trong bảng hiệu ứng và trong Cài đặt.
+
+**Bài tập ngữ pháp N5:** 39 mẫu của các gói `nguphap-n5-02` … `-12` trước đây chỉ có giải thích và câu ví dụ. Nay có đủ:
+- Phương án sai (lỗi người Việt hay mắc) cho từng câu ví dụ.
+- Câu tìm chỗ sai, tình huống chọn cách nói, câu đổi lối nói (thân mật / Kansai → lịch sự).
+- Mảnh ghép cho câu đủ dài.
+
+Nhờ vậy các dạng bài Sắp xếp câu, Tìm chỗ sai, Chọn cách nói, Đổi lối nói đều có câu N5.
+
+**Tệp:**
+- Mã: `css/app.css`, `js/fxcore.js`, `js/season.js`, `js/settings.js`, `js/fxpanel.js`, `js/settingspage.js`, `js/util.js`, `sw.js`.
+- Dữ liệu: `data/packs/nguphap-n5-02.json` … `nguphap-n5-12.json`, `data/manifest.json`.

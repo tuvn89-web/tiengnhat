@@ -1,400 +1,1152 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "nguphap-n5-11",
-    "title": "Ngữ pháp N5 11 – Lý do, nhưng, phỏng đoán, kinh nghiệm",
-    "type": "grammar",
-    "level": "N5",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 2,
-    "created": "2026-10-11",
-    "verified_on": "",
-    "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "nguphap-n5-11",
+  "title": "Ngữ pháp N5 11 – Lý do, nhưng, phỏng đoán, kinh nghiệm",
+  "type": "grammar",
+  "level": "N5",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 4,
+  "created": "2026-10-11",
+  "verified_on": "",
+  "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
+ },
+ "items": [
+  {
+   "id": "g:〜から",
+   "pattern": "〜から",
+   "level": "N5",
+   "meaning": "vì … (nên …) — nêu lý do",
+   "structure": [
+    "Câu 1 (lý do) + から、Câu 2 (kết quả)",
+    "雨[あめ]ですから、行[い]きません",
+    "Trước から dùng thể ます hoặc thể thường: 寒[さむ]いですから／寒[さむ]いから",
+    "Trả lời どうして: 〜からです"
+   ],
+   "explain": "から đặt sau một câu hoàn chỉnh để nêu LÝ DO; câu phía sau là kết quả, quyết định hay lời yêu cầu. Khác tiếng Việt: lý do đứng TRƯỚC. 危[あぶ]ないですから、走[はし]らないでください = vì nguy hiểm nên đừng chạy.\n\nTrả lời câu hỏi どうして／なぜ (tại sao) bằng 〜からです: どうして休[やす]みましたか → 熱[ねつ]がありましたから(です). Thể thường cũng dùng được: 雨[あめ]だから (danh từ, tính từ な phải thêm だ).\n\nCẩn thận: から nêu lý do khá thẳng, nghe như biện hộ. Khi xin phép, xin lỗi cấp trên, người Nhật hay dùng ので (N4) cho mềm: 熱[ねつ]があるので、休[やす]ませてください. Và đừng lẫn ba chữ から: N から = từ; V-てから = sau khi; câu + から = vì. Mẹo nhớ: thấy から sau một câu hoàn chỉnh → \"vì\".",
+   "casual": "「寒[さむ]いから」「雨[あめ]だから」. Kansai: 「雨[あめ]やから行[い]かへん」; người lớn tuổi đôi khi nói さかい (= から).",
+   "compare": [
     {
-      "id": "g:〜から",
-      "pattern": "〜から",
-      "level": "N5",
-      "meaning": "vì … (nên …) — nêu lý do",
-      "structure": [
-        "Câu 1 (lý do) + から、Câu 2 (kết quả)",
-        "雨[あめ]ですから、行[い]きません",
-        "Trước から dùng thể ます hoặc thể thường: 寒[さむ]いですから／寒[さむ]いから",
-        "Trả lời どうして: 〜からです"
-      ],
-      "explain": "から đặt sau một câu hoàn chỉnh để nêu LÝ DO; câu phía sau là kết quả, quyết định hay lời yêu cầu. Khác tiếng Việt: lý do đứng TRƯỚC. 危[あぶ]ないですから、走[はし]らないでください = vì nguy hiểm nên đừng chạy.\n\nTrả lời câu hỏi どうして／なぜ (tại sao) bằng 〜からです: どうして休[やす]みましたか → 熱[ねつ]がありましたから(です). Thể thường cũng dùng được: 雨[あめ]だから (danh từ, tính từ な phải thêm だ).\n\nCẩn thận: から nêu lý do khá thẳng, nghe như biện hộ. Khi xin phép, xin lỗi cấp trên, người Nhật hay dùng ので (N4) cho mềm: 熱[ねつ]があるので、休[やす]ませてください. Và đừng lẫn ba chữ から: N から = từ; V-てから = sau khi; câu + から = vì. Mẹo nhớ: thấy から sau một câu hoàn chỉnh → \"vì\".",
-      "casual": "「寒[さむ]いから」「雨[あめ]だから」. Kansai: 「雨[あめ]やから行[い]かへん」; người lớn tuổi đôi khi nói さかい (= から).",
-      "compare": [
-        {
-          "pattern": "〜ので (N4)",
-          "diff": "から nêu lý do chủ quan, thẳng; ので mềm và khách quan hơn — nên dùng khi xin phép, xin lỗi với cấp trên."
-        }
-      ],
-      "mistakes": [
-        "Quên だ sau danh từ ở thể thường: 雨[あめ]から ✗ (= từ mưa) → 雨[あめ]だから／雨[あめ]ですから.",
-        "Lẫn 洗[あら]ってから (sau khi rửa) với 洗[あら]うから (vì rửa)."
-      ],
-      "ex": [
-        {
-          "jp": "寒[さむ]いです[[から]]、窓[まど]を閉[し]めます。",
-          "vi": "Vì lạnh nên tôi đóng cửa sổ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "明日[あした]は休[やす]みです[[から]]、ゆっくり寝[ね]ます。",
-          "vi": "Mai được nghỉ nên tôi sẽ ngủ thật đã.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "危[あぶ]ないです[[から]]、走[はし]らないでください。",
-          "vi": "Vì nguy hiểm nên đừng chạy.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "お腹[なか]がすきました[[から]]、何[なに]か食[た]べましょう。",
-          "vi": "Đói rồi, mình ăn gì đi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "床[ゆか]が滑[すべ]ります[[から]]、気[き]をつけてください。",
-          "vi": "Sàn trơn nên hãy cẩn thận.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "来月[らいげつ]、ビザが切[き]れます[[から]]、更新[こうしん]の申請[しんせい]をします。",
-          "vi": "Tháng sau visa hết hạn nên tôi nộp đơn gia hạn.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "時間[じかん]がありません[[から]]、タクシーで行[い]きます。",
-          "vi": "Không có thời gian nên tôi đi taxi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "生食用[せいしょくよう]です[[から]]、温度管理[おんどかんり]が大切[たいせつ]です。",
-          "vi": "Vì là hàng ăn sống nên quản lý nhiệt độ rất quan trọng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "証明書[しょうめいしょ]が必要[ひつよう]です[[から]]、市役所[しやくしょ]へ行[い]きます。",
-          "vi": "Vì cần giấy chứng nhận nên tôi đi ủy ban thành phố.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：どうして昨日[きのう]休[やす]みましたか。B：熱[ねつ]がありました[[から]]。",
-          "vi": "A: Tại sao hôm qua bạn nghỉ? B: Vì tôi bị sốt.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "topics": []
-    },
-    {
-      "id": "g:〜が・〜けど",
-      "pattern": "〜が・〜けど",
-      "level": "N5",
-      "meaning": "nhưng (nối hai vế trái ngược); lời mở đầu nhẹ nhàng",
-      "structure": [
-        "Câu 1 + が／けど、Câu 2",
-        "日本語[にほんご]は難[むずか]しいですが、面白[おもしろ]いです",
-        "Mở lời: すみませんが、… / 〜んですが…"
-      ],
-      "explain": "が và けど nối hai vế trái ý trong CÙNG một câu: \"A nhưng B\". が trang trọng hơn, dùng khi nói lịch sự và trong văn viết; けど thân mật, rất hay dùng khi nói chuyện (けれど, けれども ở giữa hai mức).\n\nCách dùng thứ hai rất quan trọng: không mang nghĩa \"nhưng\" mà là lời DẪN mở đầu, làm câu mềm đi: すみませんが、ちょっといいですか (xin lỗi, cho tôi hỏi chút). Người Nhật hay nói nửa câu rồi bỏ lửng bằng が／けど để người kia tự hiểu: 明日[あした]休[やす]みたいんですが… (mai tôi muốn nghỉ ạ…).\n\nが nối câu khác hẳn trợ từ が đánh dấu chủ ngữ. Phân biệt bằng vị trí: が đứng sau cả một câu (sau です, ます, thể thường) là \"nhưng\"; が đứng ngay sau danh từ là trợ từ chủ ngữ. Mẹo nhớ: が／けど giữa câu = \"nhưng\" hoặc \"à…\".",
-      "casual": "「〜けど」「〜けどさ」. Kansai: 「〜けどな」「雨[あめ]やけど行[い]くわ」.",
-      "compare": [
-        {
-          "pattern": "でも",
-          "diff": "でも đứng ĐẦU câu thứ hai (Câu 1。でも、Câu 2); が／けど nối liền hai vế trong một câu."
-        }
-      ],
-      "mistakes": [
-        "Nhầm が 'nhưng' với が chủ ngữ — nhìn vị trí: sau cả câu là 'nhưng'.",
-        "Viết けど trong giấy tờ, email gửi cấp trên — dùng が."
-      ],
-      "ex": [
-        {
-          "jp": "このりんごは安[やす]いです[[が]]、おいしいです。",
-          "vi": "Táo này rẻ nhưng ngon.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "日本語[にほんご]は難[むずか]しいです[[が]]、面白[おもしろ]いです。",
-          "vi": "Tiếng Nhật khó nhưng thú vị.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "すみません[[が]]、もう一度[いちど]お願[ねが]いします。",
-          "vi": "Xin lỗi, xin nói lại một lần nữa.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "部屋[へや]は狭[せま]いです[[けど]]、駅[えき]から近[ちか]いです。",
-          "vi": "Phòng chật nhưng gần ga.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "冷凍庫[れいとうこ]は寒[さむ]いです[[が]]、仕事[しごと]は簡単[かんたん]です。",
-          "vi": "Kho đông lạnh thì lạnh nhưng việc đơn giản.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "住民票[じゅうみんひょう]がほしいんです[[が]]、どこで取[と]れますか。",
-          "vi": "Tôi muốn lấy phiếu cư trú, lấy ở đâu được ạ?",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "行[い]きたいです[[けど]]、時間[じかん]がありません。",
-          "vi": "Tôi muốn đi nhưng không có thời gian.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "検品[けんぴん]は終[お]わりました[[が]]、箱[はこ]が足[た]りません。",
-          "vi": "Kiểm hàng xong rồi nhưng thiếu thùng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "書類[しょるい]は全部[ぜんぶ]持[も]ってきました[[が]]、写真[しゃしん]を忘[わす]れました。",
-          "vi": "Tôi mang đủ giấy tờ nhưng quên ảnh.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：明日[あした]、飲[の]みに行[い]きませんか。B：行[い]きたいです[[けど]]、明日[あした]はちょっと…。",
-          "vi": "A: Mai đi uống không? B: Muốn đi lắm nhưng mai thì hơi…",
-          "ctx": "hoithoai"
-        }
-      ],
-      "topics": []
-    },
-    {
-      "id": "g:〜でしょう",
-      "pattern": "〜でしょう",
-      "level": "N5",
-      "meaning": "có lẽ, chắc là … (phỏng đoán); … đúng không? (xác nhận, lên giọng)",
-      "structure": [
-        "V／tính từ い (thể thường) + でしょう: 降[ふ]るでしょう, 寒[さむ]いでしょう",
-        "Tính từ な／N + でしょう (không có だ): 雨[あめ]でしょう, 静[しず]かでしょう",
-        "Xác nhận, lên giọng: 〜でしょう？",
-        "Hỏi mềm: 〜でしょうか"
-      ],
-      "explain": "でしょう nói điều mình PHỎNG ĐOÁN, chưa chắc chắn. Nghe nhiều nhất trong dự báo thời tiết: 明日[あした]は雨[あめ]が降[ふ]るでしょう. Hay đi kèm たぶん (có lẽ) hoặc きっと (chắc chắn). Trước でしょう dùng thể thường; danh từ và tính từ な bỏ だ: 雨[あめ]でしょう.\n\nKhi lên giọng ở cuối, でしょう？ là để XÁC NHẬN điều người nghe hẳn đã biết: 明日[あした]は休[やす]みでしょう？ (mai nghỉ đúng không?). Thân mật rút gọn thành でしょ？／だろ？.\n\nでしょうか là cách hỏi mềm, lịch sự, rất hợp khi hỏi ở quầy hành chính: これで大丈夫[だいじょうぶ]でしょうか (thế này đã được chưa ạ?), 何時[なんじ]まででしょうか. Mẹo nhớ: でしょう = \"chắc là\".",
-      "casual": "「〜だろう」「〜でしょ？」「〜だろ？」. Kansai: 「〜やろ」 (雨[あめ]やろ = chắc mưa), 「知[し]っとるやろ？」 (biết rồi chứ?).",
-      "compare": [
-        {
-          "pattern": "〜と思[おも]います (N4)",
-          "diff": "でしょう phỏng đoán khách quan, như dự báo; と思[おも]います là ý kiến riêng của người nói."
-        }
-      ],
-      "mistakes": [
-        "Thêm だ: 雨[あめ]だでしょう ✗ → 雨[あめ]でしょう.",
-        "Dùng thể ます: 降[お]りますでしょう ✗ → 降[ふ]るでしょう."
-      ],
-      "ex": [
-        {
-          "jp": "明日[あした]は雨[あめ][[でしょう]]。",
-          "vi": "Ngày mai chắc trời mưa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "週末[しゅうまつ]は晴[は]れる[[でしょう]]。",
-          "vi": "Cuối tuần có lẽ trời nắng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この箱[はこ]は重[おも]い[[でしょう]]。二人[ふたり]で持[も]ってください。",
-          "vi": "Thùng này chắc nặng đấy. Hai người cùng khiêng nhé.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "たぶん電車[でんしゃ]は込[こ]んでいる[[でしょう]]。",
-          "vi": "Chắc tàu đang đông.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "今日[きょう]は注文[ちゅうもん]が多[おお]いですから、残業[ざんぎょう]がある[[でしょう]]。",
-          "vi": "Hôm nay nhiều đơn nên chắc sẽ có tăng ca.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "すみません、これで大丈夫[だいじょうぶ][[でしょうか]]。",
-          "vi": "Xin lỗi, thế này đã được chưa ạ?",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "田中[たなか]さんは知[し]っている[[でしょう]]。",
-          "vi": "Chắc anh Tanaka biết.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新人[しんじん]さんは疲[つか]れた[[でしょう]]。少[すこ]し休[やす]んでください。",
-          "vi": "Người mới chắc mệt rồi. Nghỉ một chút đi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "結果[けっか]は二週間[にしゅうかん]ぐらいでわかる[[でしょう]]。",
-          "vi": "Khoảng hai tuần nữa chắc sẽ có kết quả.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：明日[あした]は休[やす]み[[でしょう]]？B：ええ、休[やす]みです。",
-          "vi": "A: Mai nghỉ đúng không? B: Ừ, nghỉ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "topics": []
-    },
-    {
-      "id": "g:〜たり〜たりする",
-      "pattern": "〜たり〜たりする",
-      "level": "N5",
-      "meaning": "nào là … nào là …; lúc thì … lúc thì … (liệt kê vài hành động tiêu biểu)",
-      "structure": [
-        "V1-たり、V2-たり します",
-        "休[やす]みの日[ひ]は掃除[そうじ]したり、洗濯[せんたく]したりします",
-        "Tạo từ thể た + り: 食[た]べた→食[た]べたり, 飲[の]んだ→飲[の]んだり"
-      ],
-      "explain": "Dùng để kể VÀI hành động tiêu biểu trong số nhiều việc, không theo thứ tự: 休[やす]みの日[ひ]は掃除[そうじ]したり、洗濯[せんたく]したりします (ngày nghỉ tôi nào là dọn dẹp, nào là giặt giũ…). Cuối mẫu LUÔN có する; thì của câu do する quyết định (します / しました).\n\nMẫu này còn tả hai hành động luân phiên lặp lại: 行[い]ったり来[き]たりする (đi tới đi lui), 雨[あめ]が降[ふ]ったり止[や]んだりする (mưa rồi tạnh, tạnh rồi mưa).\n\nCó thể dùng một たり để đưa ra một ví dụ: 休[やす]みの日[ひ]は本[ほん]を読[よ]んだりします (ngày nghỉ tôi đọc sách chẳng hạn). Cách tạo: lấy thể た thêm り: 書[か]いた→書[か]いたり, 飲[の]んだ→飲[の]んだり, した→したり. Mẹo nhớ: たり〜たり = \"nào là … nào là …\".",
-      "casual": "「掃除[そうじ]したり洗濯[せんたく]したり」; khẩu ngữ hay bỏ cái たり thứ hai hoặc thêm とか: 「掃除[そうじ]したりとか」. Kansai: 「〜したりしとる」.",
-      "compare": [
-        {
-          "pattern": "〜て、〜",
-          "diff": "て nối hành động theo đúng thứ tự và kể đủ; たり chỉ nêu vài ví dụ, không theo thứ tự."
-        }
-      ],
-      "mistakes": [
-        "Quên する ở cuối: 掃除[そうじ]したり、洗濯[せんたく]したり。✗ → …洗濯[せんたく]したりします.",
-        "Dùng thể từ điển: 食[た]べるり ✗ → 食[た]べたり."
-      ],
-      "ex": [
-        {
-          "jp": "休[やす]みの日[ひ]は掃除[そうじ]したり、洗濯[せんたく][[したりします]]。",
-          "vi": "Ngày nghỉ tôi nào là dọn dẹp, nào là giặt giũ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "週末[しゅうまつ]は映画[えいが]を[[見[み]たり]]、買[か]い物[もの]をしたりします。",
-          "vi": "Cuối tuần tôi xem phim, đi mua sắm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "休憩[きゅうけい]のときは、お茶[ちゃ]を[[飲[の]んだり]]、話[はな]したりします。",
-          "vi": "Giờ nghỉ thì uống trà, nói chuyện.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "夜[よる]は本[ほん]を[[読[よ]んだり]]、音楽[おんがく]を聞[き]いたりします。",
-          "vi": "Buổi tối tôi đọc sách, nghe nhạc.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "仕事[しごと]では魚[さかな]を[[切[き]ったり]]、箱[はこ]に詰[つ]めたりします。",
-          "vi": "Ở chỗ làm tôi nào là cắt cá, nào là xếp vào thùng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "市役所[しやくしょ]で書類[しょるい]を[[書[か]いたり]]、待[ま]ったりして、三時間[さんじかん]かかりました。",
-          "vi": "Ở ủy ban, nào là điền giấy, nào là chờ đợi, mất ba tiếng đồng hồ.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "昨日[きのう]は雨[あめ]が降[ふ]ったり[[止[や]んだりしました]]。",
-          "vi": "Hôm qua trời lúc mưa lúc tạnh.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "一日[いちにち]中[じゅう]、冷凍庫[れいとうこ]と作業場[さぎょうば]を[[行[い]ったり来[き]たりします]]。",
-          "vi": "Cả ngày tôi đi tới đi lui giữa kho đông và khu làm việc.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "更新[こうしん]の前[まえ]に、書類[しょるい]を[[集[あつ]めたり]]、写真[しゃしん]を撮[と]ったりします。",
-          "vi": "Trước khi gia hạn, tôi nào là gom giấy tờ, nào là chụp ảnh.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：日曜日[にちようび]は何[なに]をしますか。B：寝[ね]たり、ゲームを[[したりします]]。",
-          "vi": "A: Chủ nhật bạn làm gì? B: Ngủ, chơi game các kiểu.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "topics": []
-    },
-    {
-      "id": "g:〜たことがある",
-      "pattern": "〜たことがある",
-      "level": "N5",
-      "meaning": "đã từng … (kinh nghiệm trong đời)",
-      "structure": [
-        "V-た + ことがあります: 行[い]ったことがあります",
-        "Chưa từng: 〜たことがありません",
-        "Hỏi: 〜たことがありますか → はい、あります／いいえ、ありません"
-      ],
-      "explain": "Mẫu nói TRẢI NGHIỆM đã có trong đời, không quan trọng lúc nào: 京都[きょうと]へ行[い]ったことがあります (tôi đã từng đi Kyoto). Lấy thể た của động từ, thêm ことがあります.\n\nPhủ định: 〜たことがありません (chưa từng); nhấn mạnh: 一度[いちど]も〜たことがありません (chưa từng lần nào). Hỏi: 〜たことがありますか, trả lời ngắn: はい、あります / いいえ、ありません. Phỏng vấn xin việc, khám bệnh hay hỏi bằng mẫu này: 前[まえ]に魚[さかな]の加工[かこう]をしたことがありますか.\n\nKHÔNG dùng cho việc vừa xảy ra, có thời điểm gần, hay thói quen hằng ngày: 昨日[きのう]すしを食[た]べたことがあります ✗ → 昨日[きのう]すしを食[た]べました. Cẩn thận: thể từ điển + ことがある nghĩa khác — \"thỉnh thoảng có…\" (N4). Mẹo nhớ: たことがある = \"đã có trải nghiệm\".",
-      "casual": "「行[い]ったことある？」「ある」「ない」. Kansai: 「行[い]ったことある？」「あらへん」「ないわ」.",
-      "compare": [
-        {
-          "pattern": "〜ました",
-          "diff": "ました kể một việc đã làm vào lúc cụ thể; たことがある nói kinh nghiệm trong đời, không gắn thời điểm."
-        }
-      ],
-      "mistakes": [
-        "Kèm thời điểm gần: 昨日[きのう]食[た]べたことがあります ✗ → 昨日[きのう]食[た]べました.",
-        "Dùng thể từ điển: 行[い]くことがあります (= thỉnh thoảng có đi) — khác nghĩa 'đã từng đi'."
-      ],
-      "ex": [
-        {
-          "jp": "富士山[ふじさん]に[[登[のぼ]ったことがあります]]。",
-          "vi": "Tôi đã từng leo núi Phú Sĩ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "納豆[なっとう]を[[食[た]べたことがありません]]。",
-          "vi": "Tôi chưa từng ăn natto.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "マグロを[[切[き]ったことがありますか]]。",
-          "vi": "Bạn đã từng cắt cá ngừ chưa?",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "京都[きょうと]へ[[行[い]ったことがあります]]。",
-          "vi": "Tôi đã từng đi Kyoto.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この機械[きかい]は一度[いちど]も[[使[つか]ったことがありません]]。",
-          "vi": "Tôi chưa dùng cái máy này lần nào.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "確定申告[かくていしんこく]を[[したことがありますか]]。",
-          "vi": "Bạn đã từng tự khai thuế chưa?",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "日本[にほん]で地震[じしん]を[[経験[けいけん]したことがあります]]。",
-          "vi": "Tôi đã từng trải qua động đất ở Nhật.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "前[まえ]の会社[かいしゃ]でも、魚[さかな]の加工[かこう]を[[したことがあります]]。",
-          "vi": "Ở công ty trước tôi cũng đã từng làm chế biến cá.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "税金[ぜいきん]を[[滞納[たいのう]したことがありますか]]。",
-          "vi": "Bạn đã từng chậm nộp thuế chưa?",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：刺身[さしみ]を[[食[た]べたことがありますか]]。B：はい、日本[にほん]で初[はじ]めて食[た]べました。",
-          "vi": "A: Bạn đã ăn sashimi bao giờ chưa? B: Rồi, lần đầu tôi ăn là ở Nhật.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "topics": []
+     "pattern": "〜ので (N4)",
+     "diff": "から nêu lý do chủ quan, thẳng; ので mềm và khách quan hơn — nên dùng khi xin phép, xin lỗi với cấp trên."
     }
-  ]
+   ],
+   "mistakes": [
+    "Quên だ sau danh từ ở thể thường: 雨[あめ]から ✗ (= từ mưa) → 雨[あめ]だから／雨[あめ]ですから.",
+    "Lẫn 洗[あら]ってから (sau khi rửa) với 洗[あら]うから (vì rửa)."
+   ],
+   "ex": [
+    {
+     "jp": "寒[さむ]いです[[から]]、窓[まど]を閉[し]めます。",
+     "vi": "Vì lạnh nên tôi đóng cửa sổ.",
+     "ctx": "doisong",
+     "chunks": [
+      "寒[さむ]いですから、",
+      "窓[まど]を",
+      "閉[し]めます"
+     ],
+     "wrong": [
+      "だから",
+      "まで"
+     ]
+    },
+    {
+     "jp": "明日[あした]は休[やす]みです[[から]]、ゆっくり寝[ね]ます。",
+     "vi": "Mai được nghỉ nên tôi sẽ ngủ thật đã.",
+     "ctx": "doisong",
+     "chunks": [
+      "明日[あした]は",
+      "休[やす]みですから、",
+      "ゆっくり",
+      "寝[ね]ます"
+     ],
+     "wrong": [
+      "だから",
+      "まで"
+     ]
+    },
+    {
+     "jp": "危[あぶ]ないです[[から]]、走[はし]らないでください。",
+     "vi": "Vì nguy hiểm nên đừng chạy.",
+     "ctx": "xuong",
+     "wrong": [
+      "だから",
+      "て"
+     ]
+    },
+    {
+     "jp": "お腹[なか]がすきました[[から]]、何[なに]か食[た]べましょう。",
+     "vi": "Đói rồi, mình ăn gì đi.",
+     "ctx": "doisong",
+     "chunks": [
+      "お腹[なか]が",
+      "すきましたから、",
+      "何[なに]か",
+      "食[た]べましょう"
+     ],
+     "wrong": [
+      "だから",
+      "まで"
+     ]
+    },
+    {
+     "jp": "床[ゆか]が滑[すべ]ります[[から]]、気[き]をつけてください。",
+     "vi": "Sàn trơn nên hãy cẩn thận.",
+     "ctx": "xuong",
+     "chunks": [
+      "床[ゆか]が",
+      "滑[すべ]りますから、",
+      "気[き]を",
+      "つけてください"
+     ],
+     "wrong": [
+      "だから",
+      "まで"
+     ]
+    },
+    {
+     "jp": "来月[らいげつ]、ビザが切[き]れます[[から]]、更新[こうしん]の申請[しんせい]をします。",
+     "vi": "Tháng sau visa hết hạn nên tôi nộp đơn gia hạn.",
+     "ctx": "thutuc",
+     "chunks": [
+      "来月[らいげつ]、",
+      "ビザが",
+      "切[き]れますから、",
+      "更新[こうしん]の",
+      "申請[しんせい]を",
+      "します"
+     ],
+     "wrong": [
+      "だから",
+      "て"
+     ]
+    },
+    {
+     "jp": "時間[じかん]がありません[[から]]、タクシーで行[い]きます。",
+     "vi": "Không có thời gian nên tôi đi taxi.",
+     "ctx": "doisong",
+     "chunks": [
+      "時間[じかん]が",
+      "ありませんから、",
+      "タクシーで行[い]きます"
+     ],
+     "wrong": [
+      "だから",
+      "て"
+     ]
+    },
+    {
+     "jp": "生食用[せいしょくよう]です[[から]]、温度管理[おんどかんり]が大切[たいせつ]です。",
+     "vi": "Vì là hàng ăn sống nên quản lý nhiệt độ rất quan trọng.",
+     "ctx": "xuong",
+     "chunks": [
+      "生食用[せいしょくよう]ですから、",
+      "温度管理[おんどかんり]が",
+      "大切[たいせつ]です"
+     ],
+     "wrong": [
+      "だから",
+      "まで"
+     ]
+    },
+    {
+     "jp": "証明書[しょうめいしょ]が必要[ひつよう]です[[から]]、市役所[しやくしょ]へ行[い]きます。",
+     "vi": "Vì cần giấy chứng nhận nên tôi đi ủy ban thành phố.",
+     "ctx": "thutuc",
+     "chunks": [
+      "証明書[しょうめいしょ]が",
+      "必要[ひつよう]ですから、",
+      "市役所[しやくしょ]へ",
+      "行[い]きます"
+     ],
+     "wrong": [
+      "だから",
+      "まで"
+     ]
+    },
+    {
+     "jp": "A：どうして昨日[きのう]休[やす]みましたか。B：熱[ねつ]がありました[[から]]。",
+     "vi": "A: Tại sao hôm qua bạn nghỉ? B: Vì tôi bị sốt.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "だから",
+      "まで"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "今日[きょう]は",
+      "雨[あめ]から、",
+      "家[いえ]にいます"
+     ],
+     "vi": "Hôm nay trời mưa nên tôi ở nhà.",
+     "bad": 1,
+     "fix": "雨[あめ]ですから、",
+     "why": "Danh từ + から là \"từ …\". Muốn nêu lý do phải thêm です／だ: 雨[あめ]ですから／雨[あめ]だから."
+    },
+    {
+     "chunks": [
+      "暑[あつ]いだから、",
+      "窓[まど]を",
+      "開[あ]けます"
+     ],
+     "vi": "Vì nóng nên tôi mở cửa sổ.",
+     "bad": 0,
+     "fix": "暑[あつ]いですから、",
+     "why": "Tính từ い không thêm だ: 暑[あつ]いから／暑[あつ]いですから. だ chỉ thêm sau danh từ và tính từ な."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Anh Nguyễn bị sốt, gọi điện xin quản đốc cho nghỉ hôm nay. Câu nào lịch sự, phù hợp nhất?",
+     "opts": [
+      "熱[ねつ]があるので、今日[きょう]は休[やす]ませてください。",
+      "熱[ねつ]があるから、今日[きょう]は休[やす]むよ。",
+      "熱[ねつ]があるまで、今日[きょう]は休[やす]みます。"
+     ],
+     "ans": 0,
+     "why": "Xin phép cấp trên nên dùng ので (mềm hơn から) + 休[やす]ませてください. Câu 2 thân mật, nghe như tự quyết; まで là \"cho đến khi\", sai nghĩa."
+    },
+    {
+     "q": "Đồng nghiệp hỏi: 「どうして日本語[にほんご]を勉強[べんきょう]していますか」. Anh Nguyễn muốn trả lời: \"Vì tôi muốn đỗ N2.\"",
+     "opts": [
+      "N2に合格[ごうかく]したいからです。",
+      "N2に合格[ごうかく]したいだからです。",
+      "N2から合格[ごうかく]したいです。"
+     ],
+     "ans": 0,
+     "why": "Trả lời どうして bằng 〜からです. 〜たい là tính từ い nên không thêm だ. N2から là \"từ N2\", không phải lý do."
+    }
+   ],
+   "shift": [
+    {
+     "from": "雨[あめ]やから行[い]かへん。",
+     "to": "雨[あめ]ですから、行[い]きません。",
+     "kind": "kansai",
+     "note": "Kansai: や = だ, 〜へん = 〜ない. 雨[あめ]やから = 雨[あめ]だから (vì mưa).",
+     "wrong": [
+      "雨[あめ]から、行[い]きません。",
+      "雨[あめ]ですまで、行[い]きません。"
+     ]
+    },
+    {
+     "from": "時間[じかん]ないから、タクシーで行[い]く。",
+     "to": "時間[じかん]がありませんから、タクシーで行[い]きます。",
+     "kind": "lichsu",
+     "note": "Nói thân mật bỏ が và dùng thể thường. Lịch sự: 〜ありませんから、〜ます.",
+     "wrong": [
+      "時間[じかん]がありませんだから、タクシーで行[い]きます。",
+      "時間[じかん]がありませんまで、タクシーで行[い]きます。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g:〜が・〜けど",
+   "pattern": "〜が・〜けど",
+   "level": "N5",
+   "meaning": "nhưng (nối hai vế trái ngược); lời mở đầu nhẹ nhàng",
+   "structure": [
+    "Câu 1 + が／けど、Câu 2",
+    "日本語[にほんご]は難[むずか]しいですが、面白[おもしろ]いです",
+    "Mở lời: すみませんが、… / 〜んですが…"
+   ],
+   "explain": "が và けど nối hai vế trái ý trong CÙNG một câu: \"A nhưng B\". が trang trọng hơn, dùng khi nói lịch sự và trong văn viết; けど thân mật, rất hay dùng khi nói chuyện (けれど, けれども ở giữa hai mức).\n\nCách dùng thứ hai rất quan trọng: không mang nghĩa \"nhưng\" mà là lời DẪN mở đầu, làm câu mềm đi: すみませんが、ちょっといいですか (xin lỗi, cho tôi hỏi chút). Người Nhật hay nói nửa câu rồi bỏ lửng bằng が／けど để người kia tự hiểu: 明日[あした]休[やす]みたいんですが… (mai tôi muốn nghỉ ạ…).\n\nが nối câu khác hẳn trợ từ が đánh dấu chủ ngữ. Phân biệt bằng vị trí: が đứng sau cả một câu (sau です, ます, thể thường) là \"nhưng\"; が đứng ngay sau danh từ là trợ từ chủ ngữ. Mẹo nhớ: が／けど giữa câu = \"nhưng\" hoặc \"à…\".",
+   "casual": "「〜けど」「〜けどさ」. Kansai: 「〜けどな」「雨[あめ]やけど行[い]くわ」.",
+   "compare": [
+    {
+     "pattern": "でも",
+     "diff": "でも đứng ĐẦU câu thứ hai (Câu 1。でも、Câu 2); が／けど nối liền hai vế trong một câu."
+    }
+   ],
+   "mistakes": [
+    "Nhầm が 'nhưng' với が chủ ngữ — nhìn vị trí: sau cả câu là 'nhưng'.",
+    "Viết けど trong giấy tờ, email gửi cấp trên — dùng が."
+   ],
+   "ex": [
+    {
+     "jp": "このりんごは安[やす]いです[[が]]、おいしいです。",
+     "vi": "Táo này rẻ nhưng ngon.",
+     "ctx": "doisong",
+     "chunks": [
+      "この",
+      "りんごは",
+      "安[やす]いですが、",
+      "おいしいです"
+     ],
+     "wrong": [
+      "から",
+      "でも"
+     ]
+    },
+    {
+     "jp": "日本語[にほんご]は難[むずか]しいです[[が]]、面白[おもしろ]いです。",
+     "vi": "Tiếng Nhật khó nhưng thú vị.",
+     "ctx": "doisong",
+     "chunks": [
+      "日本語[にほんご]は",
+      "難[むずか]しいですが、",
+      "面白[おもしろ]いです"
+     ],
+     "wrong": [
+      "でも",
+      "て"
+     ]
+    },
+    {
+     "jp": "すみません[[が]]、もう一度[いちど]お願[ねが]いします。",
+     "vi": "Xin lỗi, xin nói lại một lần nữa.",
+     "ctx": "xuong",
+     "chunks": [
+      "すみませんが、",
+      "もう",
+      "一度[いちど]",
+      "お願[ねが]い",
+      "します"
+     ],
+     "wrong": [
+      "から",
+      "でも"
+     ]
+    },
+    {
+     "jp": "部屋[へや]は狭[せま]いです[[けど]]、駅[えき]から近[ちか]いです。",
+     "vi": "Phòng chật nhưng gần ga.",
+     "ctx": "doisong",
+     "chunks": [
+      "部屋[へや]は",
+      "狭[せま]いですけど、",
+      "駅[えき]から",
+      "近[ちか]いです"
+     ],
+     "wrong": [
+      "から",
+      "でも"
+     ]
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]は寒[さむ]いです[[が]]、仕事[しごと]は簡単[かんたん]です。",
+     "vi": "Kho đông lạnh thì lạnh nhưng việc đơn giản.",
+     "ctx": "xuong",
+     "chunks": [
+      "冷凍庫[れいとうこ]は",
+      "寒[さむ]いですが、",
+      "仕事[しごと]は",
+      "簡単[かんたん]です"
+     ],
+     "wrong": [
+      "から",
+      "でも"
+     ]
+    },
+    {
+     "jp": "住民票[じゅうみんひょう]がほしいんです[[が]]、どこで取[と]れますか。",
+     "vi": "Tôi muốn lấy phiếu cư trú, lấy ở đâu được ạ?",
+     "ctx": "thutuc",
+     "chunks": [
+      "住民票[じゅうみんひょう]がほしいんですが、",
+      "どこで",
+      "取[と]れますか"
+     ],
+     "wrong": [
+      "でも",
+      "て"
+     ]
+    },
+    {
+     "jp": "行[い]きたいです[[けど]]、時間[じかん]がありません。",
+     "vi": "Tôi muốn đi nhưng không có thời gian.",
+     "ctx": "doisong",
+     "chunks": [
+      "行[い]きたいですけど、",
+      "時間[じかん]が",
+      "ありません"
+     ],
+     "wrong": [
+      "から",
+      "でも"
+     ]
+    },
+    {
+     "jp": "検品[けんぴん]は終[お]わりました[[が]]、箱[はこ]が足[た]りません。",
+     "vi": "Kiểm hàng xong rồi nhưng thiếu thùng.",
+     "ctx": "xuong",
+     "chunks": [
+      "検品[けんぴん]は",
+      "終[お]わりましたが、",
+      "箱[はこ]が",
+      "足[た]りません"
+     ],
+     "wrong": [
+      "でも",
+      "と"
+     ]
+    },
+    {
+     "jp": "書類[しょるい]は全部[ぜんぶ]持[も]ってきました[[が]]、写真[しゃしん]を忘[わす]れました。",
+     "vi": "Tôi mang đủ giấy tờ nhưng quên ảnh.",
+     "ctx": "thutuc",
+     "chunks": [
+      "書類[しょるい]は",
+      "全部[ぜんぶ]",
+      "持[も]ってきましたが、",
+      "写真[しゃしん]を",
+      "忘[わす]れました"
+     ],
+     "wrong": [
+      "から",
+      "でも"
+     ]
+    },
+    {
+     "jp": "A：明日[あした]、飲[の]みに行[い]きませんか。B：行[い]きたいです[[けど]]、明日[あした]はちょっと…。",
+     "vi": "A: Mai đi uống không? B: Muốn đi lắm nhưng mai thì hơi…",
+     "ctx": "hoithoai",
+     "wrong": [
+      "から",
+      "でも"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "この店[みせ]は",
+      "高[たか]いですでも、",
+      "おいしいです"
+     ],
+     "vi": "Quán này đắt nhưng ngon.",
+     "bad": 1,
+     "fix": "高[たか]いですが、",
+     "why": "でも đứng ĐẦU câu sau (…です。でも、…). Nối hai vế trong một câu thì dùng が／けど."
+    },
+    {
+     "chunks": [
+      "すみませんから、",
+      "ちょっと",
+      "いいですか"
+     ],
+     "vi": "Xin lỗi, cho tôi hỏi chút được không?",
+     "bad": 0,
+     "fix": "すみませんが、",
+     "why": "Lời mở đầu xin phép là すみませんが. から là \"vì\", không dùng để mở lời."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Anh Nguyễn gọi điện cho công ty quản lý nhà để hỏi về tiền nhà. Mở lời thế nào cho lịch sự?",
+     "opts": [
+      "家賃[やちん]のことで聞[き]きたいんですが…。",
+      "家賃[やちん]のことで聞[き]きたいんだけどさ…。",
+      "家賃[やちん]のことで聞[き]きたいですから…。"
+     ],
+     "ans": 0,
+     "why": "〜んですが… là lời dẫn lịch sự, để người kia tiếp lời. けどさ quá thân mật với người lạ; から là \"vì\", không dùng để mở lời."
+    },
+    {
+     "q": "Đồng nghiệp rủ tối nay đi nhậu. Anh Nguyễn muốn từ chối khéo.",
+     "opts": [
+      "行[い]きたいですけど、今日[きょう]はちょっと…。",
+      "行[い]きたいですから、今日[きょう]はちょっと…。",
+      "行[い]きたくないです。"
+     ],
+     "ans": 0,
+     "why": "けど + ちょっと… là cách từ chối khéo, không làm mất lòng. から sai logic (\"vì muốn đi nên…\"); 行[い]きたくないです quá thẳng."
+    }
+   ],
+   "shift": [
+    {
+     "from": "高[たか]いけど、ええわ。",
+     "to": "高[たか]いですが、いいです。",
+     "kind": "kansai",
+     "note": "Kansai: ええ = いい. けど là thân mật; nói lịch sự dùng 〜ですが.",
+     "wrong": [
+      "高[たか]いですから、いいです。",
+      "高[たか]いですでも、いいです。"
+     ]
+    },
+    {
+     "from": "雨[あめ]だけど、行[い]くよ。",
+     "to": "雨[あめ]ですが、行[い]きます。",
+     "kind": "lichsu",
+     "note": "けど + thể thường là văn nói thân mật. Lịch sự: 〜ですが、〜ます.",
+     "wrong": [
+      "雨[あめ]ですから、行[い]きます。",
+      "雨[あめ]ですでも、行[い]きます。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g:〜でしょう",
+   "pattern": "〜でしょう",
+   "level": "N5",
+   "meaning": "có lẽ, chắc là … (phỏng đoán); … đúng không? (xác nhận, lên giọng)",
+   "structure": [
+    "V／tính từ い (thể thường) + でしょう: 降[ふ]るでしょう, 寒[さむ]いでしょう",
+    "Tính từ な／N + でしょう (không có だ): 雨[あめ]でしょう, 静[しず]かでしょう",
+    "Xác nhận, lên giọng: 〜でしょう？",
+    "Hỏi mềm: 〜でしょうか"
+   ],
+   "explain": "でしょう nói điều mình PHỎNG ĐOÁN, chưa chắc chắn. Nghe nhiều nhất trong dự báo thời tiết: 明日[あした]は雨[あめ]が降[ふ]るでしょう. Hay đi kèm たぶん (có lẽ) hoặc きっと (chắc chắn). Trước でしょう dùng thể thường; danh từ và tính từ な bỏ だ: 雨[あめ]でしょう.\n\nKhi lên giọng ở cuối, でしょう？ là để XÁC NHẬN điều người nghe hẳn đã biết: 明日[あした]は休[やす]みでしょう？ (mai nghỉ đúng không?). Thân mật rút gọn thành でしょ？／だろ？.\n\nでしょうか là cách hỏi mềm, lịch sự, rất hợp khi hỏi ở quầy hành chính: これで大丈夫[だいじょうぶ]でしょうか (thế này đã được chưa ạ?), 何時[なんじ]まででしょうか. Mẹo nhớ: でしょう = \"chắc là\".",
+   "casual": "「〜だろう」「〜でしょ？」「〜だろ？」. Kansai: 「〜やろ」 (雨[あめ]やろ = chắc mưa), 「知[し]っとるやろ？」 (biết rồi chứ?).",
+   "compare": [
+    {
+     "pattern": "〜と思[おも]います (N4)",
+     "diff": "でしょう phỏng đoán khách quan, như dự báo; と思[おも]います là ý kiến riêng của người nói."
+    }
+   ],
+   "mistakes": [
+    "Thêm だ: 雨[あめ]だでしょう ✗ → 雨[あめ]でしょう.",
+    "Dùng thể ます: 降[ふ]りますでしょう ✗ → 降[ふ]るでしょう."
+   ],
+   "ex": [
+    {
+     "jp": "明日[あした]は雨[あめ][[でしょう]]。",
+     "vi": "Ngày mai chắc trời mưa.",
+     "ctx": "doisong",
+     "wrong": [
+      "だでしょう",
+      "ましょう"
+     ]
+    },
+    {
+     "jp": "週末[しゅうまつ]は晴[は]れる[[でしょう]]。",
+     "vi": "Cuối tuần có lẽ trời nắng.",
+     "ctx": "doisong",
+     "wrong": [
+      "だでしょう",
+      "です"
+     ]
+    },
+    {
+     "jp": "この箱[はこ]は重[おも]い[[でしょう]]。二人[ふたり]で持[も]ってください。",
+     "vi": "Thùng này chắc nặng đấy. Hai người cùng khiêng nhé.",
+     "ctx": "xuong",
+     "chunks": [
+      "この",
+      "箱[はこ]は",
+      "重[おも]いでしょう。",
+      "二人[ふたり]で",
+      "持[も]ってください"
+     ],
+     "wrong": [
+      "だでしょう",
+      "でした"
+     ]
+    },
+    {
+     "jp": "たぶん電車[でんしゃ]は込[こ]んでいる[[でしょう]]。",
+     "vi": "Chắc tàu đang đông.",
+     "ctx": "doisong",
+     "chunks": [
+      "たぶん",
+      "電車[でんしゃ]は",
+      "込[こ]んでいるでしょう"
+     ],
+     "wrong": [
+      "だでしょう",
+      "ましょう"
+     ]
+    },
+    {
+     "jp": "今日[きょう]は注文[ちゅうもん]が多[おお]いですから、残業[ざんぎょう]がある[[でしょう]]。",
+     "vi": "Hôm nay nhiều đơn nên chắc sẽ có tăng ca.",
+     "ctx": "xuong",
+     "chunks": [
+      "今日[きょう]は",
+      "注文[ちゅうもん]が",
+      "多[おお]いですから、",
+      "残業[ざんぎょう]が",
+      "あるでしょう"
+     ],
+     "wrong": [
+      "だでしょう",
+      "です"
+     ]
+    },
+    {
+     "jp": "すみません、これで大丈夫[だいじょうぶ][[でしょうか]]。",
+     "vi": "Xin lỗi, thế này đã được chưa ạ?",
+     "ctx": "thutuc",
+     "chunks": [
+      "すみません、",
+      "これで",
+      "大丈夫[だいじょうぶ]でしょうか"
+     ],
+     "wrong": [
+      "だでしょうか",
+      "なでしょうか"
+     ]
+    },
+    {
+     "jp": "田中[たなか]さんは知[し]っている[[でしょう]]。",
+     "vi": "Chắc anh Tanaka biết.",
+     "ctx": "doisong",
+     "wrong": [
+      "だでしょう",
+      "です"
+     ]
+    },
+    {
+     "jp": "新人[しんじん]さんは疲[つか]れた[[でしょう]]。少[すこ]し休[やす]んでください。",
+     "vi": "Người mới chắc mệt rồi. Nghỉ một chút đi.",
+     "ctx": "xuong",
+     "chunks": [
+      "新人[しんじん]さんは",
+      "疲[つか]れたでしょう。",
+      "少[すこ]し",
+      "休[やす]んでください"
+     ],
+     "wrong": [
+      "だでしょう",
+      "でした"
+     ]
+    },
+    {
+     "jp": "結果[けっか]は二週間[にしゅうかん]ぐらいでわかる[[でしょう]]。",
+     "vi": "Khoảng hai tuần nữa chắc sẽ có kết quả.",
+     "ctx": "thutuc",
+     "chunks": [
+      "結果[けっか]は",
+      "二週間[にしゅうかん]ぐらいで",
+      "わかるでしょう"
+     ],
+     "wrong": [
+      "だでしょう",
+      "ましょう"
+     ]
+    },
+    {
+     "jp": "A：明日[あした]は休[やす]み[[でしょう]]？B：ええ、休[やす]みです。",
+     "vi": "A: Mai nghỉ đúng không? B: Ừ, nghỉ.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "だでしょう",
+      "なでしょう"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "明日[あした]は",
+      "たぶん",
+      "寒[さむ]いだでしょう"
+     ],
+     "vi": "Ngày mai có lẽ trời lạnh.",
+     "bad": 2,
+     "fix": "寒[さむ]いでしょう",
+     "why": "Tính từ い + でしょう, không thêm だ."
+    },
+    {
+     "chunks": [
+      "週末[しゅうまつ]は",
+      "道[みち]が",
+      "込[こ]むましょう"
+     ],
+     "vi": "Cuối tuần chắc đường đông.",
+     "bad": 2,
+     "fix": "込[こ]むでしょう",
+     "why": "Phỏng đoán dùng でしょう. ましょう là rủ rê \"cùng … nhé\", và ghép với thể ます (込[こ]みましょう), không ghép với thể từ điển."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Ở quầy ủy ban, anh Nguyễn muốn hỏi lịch sự: \"Khoảng mấy giờ thì xong ạ?\"",
+     "opts": [
+      "何時[なんじ]ごろ終[お]わるでしょうか。",
+      "何時[なんじ]ごろ終[お]わるだろう？",
+      "何時[なんじ]ごろ終[お]わりましょうか。"
+     ],
+     "ans": 0,
+     "why": "でしょうか là cách hỏi mềm, lịch sự. だろう？ là thân mật hoặc tự hỏi mình; ましょうか là \"để tôi … nhé / ta cùng … nhé\" — sai nghĩa."
+    },
+    {
+     "q": "Dự báo thời tiết nói: 「明日[あした]は雪[ゆき]が降[ふ]るでしょう」. Ý là gì?",
+     "opts": [
+      "Ngày mai có lẽ có tuyết.",
+      "Ngày mai chắc chắn không có tuyết.",
+      "Ngày mai hãy cùng ngắm tuyết."
+     ],
+     "ans": 0,
+     "why": "でしょう = \"chắc là, có lẽ\" — phỏng đoán. Không phải phủ định, cũng không phải rủ rê (ましょう)."
+    }
+   ],
+   "shift": [
+    {
+     "from": "明日[あした]、雨[あめ]やろ。",
+     "to": "明日[あした]は雨[あめ]でしょう。",
+     "kind": "kansai",
+     "note": "Kansai: やろ = だろう／でしょう (chắc là).",
+     "wrong": [
+      "明日[あした]は雨[あめ]だでしょう。",
+      "明日[あした]は雨[あめ]ましょう。"
+     ]
+    },
+    {
+     "from": "知[し]ってるでしょ？",
+     "to": "知[し]っているでしょう？",
+     "kind": "khaungu",
+     "note": "でしょ？ là dạng nói tắt của でしょう？ (xác nhận, lên giọng); 知[し]ってる = 知[し]っている.",
+     "wrong": [
+      "知[し]っているだでしょう？",
+      "知[し]っているましょう？"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g:〜たり〜たりする",
+   "pattern": "〜たり〜たりする",
+   "level": "N5",
+   "meaning": "nào là … nào là …; lúc thì … lúc thì … (liệt kê vài hành động tiêu biểu)",
+   "structure": [
+    "V1-たり、V2-たり します",
+    "休[やす]みの日[ひ]は掃除[そうじ]したり、洗濯[せんたく]したりします",
+    "Tạo từ thể た + り: 食[た]べた→食[た]べたり, 飲[の]んだ→飲[の]んだり"
+   ],
+   "explain": "Dùng để kể VÀI hành động tiêu biểu trong số nhiều việc, không theo thứ tự: 休[やす]みの日[ひ]は掃除[そうじ]したり、洗濯[せんたく]したりします (ngày nghỉ tôi nào là dọn dẹp, nào là giặt giũ…). Cuối mẫu LUÔN có する; thì của câu do する quyết định (します / しました).\n\nMẫu này còn tả hai hành động luân phiên lặp lại: 行[い]ったり来[き]たりする (đi tới đi lui), 雨[あめ]が降[ふ]ったり止[や]んだりする (mưa rồi tạnh, tạnh rồi mưa).\n\nCó thể dùng một たり để đưa ra một ví dụ: 休[やす]みの日[ひ]は本[ほん]を読[よ]んだりします (ngày nghỉ tôi đọc sách chẳng hạn). Cách tạo: lấy thể た thêm り: 書[か]いた→書[か]いたり, 飲[の]んだ→飲[の]んだり, した→したり. Mẹo nhớ: たり〜たり = \"nào là … nào là …\".",
+   "casual": "「掃除[そうじ]したり洗濯[せんたく]したり」; khẩu ngữ hay bỏ cái たり thứ hai hoặc thêm とか: 「掃除[そうじ]したりとか」. Kansai: 「〜したりしとる」.",
+   "compare": [
+    {
+     "pattern": "〜て、〜",
+     "diff": "て nối hành động theo đúng thứ tự và kể đủ; たり chỉ nêu vài ví dụ, không theo thứ tự."
+    }
+   ],
+   "mistakes": [
+    "Quên する ở cuối: 掃除[そうじ]したり、洗濯[せんたく]したり。✗ → …洗濯[せんたく]したりします.",
+    "Dùng thể từ điển: 食[た]べるり ✗ → 食[た]べたり."
+   ],
+   "ex": [
+    {
+     "jp": "休[やす]みの日[ひ]は掃除[そうじ]したり、洗濯[せんたく][[したりします]]。",
+     "vi": "Ngày nghỉ tôi nào là dọn dẹp, nào là giặt giũ.",
+     "ctx": "doisong",
+     "chunks": [
+      "休[やす]みの",
+      "日[ひ]は",
+      "掃除[そうじ]",
+      "したり、",
+      "洗濯[せんたく]",
+      "したりします"
+     ],
+     "wrong": [
+      "するたりします",
+      "したります"
+     ]
+    },
+    {
+     "jp": "週末[しゅうまつ]は映画[えいが]を[[見[み]たり]]、買[か]い物[もの]をしたりします。",
+     "vi": "Cuối tuần tôi xem phim, đi mua sắm.",
+     "ctx": "doisong",
+     "chunks": [
+      "週末[しゅうまつ]は",
+      "映画[えいが]を",
+      "見[み]たり、",
+      "買[か]い物[もの]を",
+      "したり",
+      "します"
+     ],
+     "wrong": [
+      "見[み]るたり",
+      "見[み]ったり"
+     ]
+    },
+    {
+     "jp": "休憩[きゅうけい]のときは、お茶[ちゃ]を[[飲[の]んだり]]、話[はな]したりします。",
+     "vi": "Giờ nghỉ thì uống trà, nói chuyện.",
+     "ctx": "xuong",
+     "chunks": [
+      "休憩[きゅうけい]の",
+      "ときは、",
+      "お茶[ちゃ]を",
+      "飲[の]んだり、",
+      "話[はな]したり",
+      "します"
+     ],
+     "wrong": [
+      "飲[の]みたり",
+      "飲[の]ったり"
+     ]
+    },
+    {
+     "jp": "夜[よる]は本[ほん]を[[読[よ]んだり]]、音楽[おんがく]を聞[き]いたりします。",
+     "vi": "Buổi tối tôi đọc sách, nghe nhạc.",
+     "ctx": "doisong",
+     "chunks": [
+      "夜[よる]は",
+      "本[ほん]を",
+      "読[よ]んだり、",
+      "音楽[おんがく]を",
+      "聞[き]いたり",
+      "します"
+     ],
+     "wrong": [
+      "読[よ]みたり",
+      "読[よ]むたり"
+     ]
+    },
+    {
+     "jp": "仕事[しごと]では魚[さかな]を[[切[き]ったり]]、箱[はこ]に詰[つ]めたりします。",
+     "vi": "Ở chỗ làm tôi nào là cắt cá, nào là xếp vào thùng.",
+     "ctx": "xuong",
+     "chunks": [
+      "仕事[しごと]では",
+      "魚[さかな]を",
+      "切[き]ったり、",
+      "箱[はこ]に",
+      "詰[つ]めたり",
+      "します"
+     ],
+     "wrong": [
+      "切[き]りたり",
+      "切[き]たり"
+     ]
+    },
+    {
+     "jp": "市役所[しやくしょ]で書類[しょるい]を[[書[か]いたり]]、待[ま]ったりして、三時間[さんじかん]かかりました。",
+     "vi": "Ở ủy ban, nào là điền giấy, nào là chờ đợi, mất ba tiếng đồng hồ.",
+     "ctx": "thutuc",
+     "chunks": [
+      "市役所[しやくしょ]で",
+      "書類[しょるい]を",
+      "書[か]いたり、",
+      "待[ま]ったり",
+      "して、三時間[さんじかん]",
+      "かかりました"
+     ],
+     "wrong": [
+      "書[か]きたり",
+      "書[か]ったり"
+     ]
+    },
+    {
+     "jp": "昨日[きのう]は雨[あめ]が降[ふ]ったり[[止[や]んだりしました]]。",
+     "vi": "Hôm qua trời lúc mưa lúc tạnh.",
+     "ctx": "doisong",
+     "chunks": [
+      "昨日[きのう]は",
+      "雨[あめ]が",
+      "降[ふ]ったり",
+      "止[や]んだりしました"
+     ],
+     "wrong": [
+      "止[や]みたりしました",
+      "止[や]んだりします"
+     ]
+    },
+    {
+     "jp": "一日[いちにち]中[じゅう]、冷凍庫[れいとうこ]と作業場[さぎょうば]を[[行[い]ったり来[き]たりします]]。",
+     "vi": "Cả ngày tôi đi tới đi lui giữa kho đông và khu làm việc.",
+     "ctx": "xuong",
+     "chunks": [
+      "一日[いちにち]中[じゅう]、",
+      "冷凍庫[れいとうこ]と",
+      "作業場[さぎょうば]を",
+      "行[い]ったり来[き]たりします"
+     ],
+     "wrong": [
+      "行[い]きたり来[き]たりします",
+      "行[い]いたり来[き]たりします"
+     ]
+    },
+    {
+     "jp": "更新[こうしん]の前[まえ]に、書類[しょるい]を[[集[あつ]めたり]]、写真[しゃしん]を撮[と]ったりします。",
+     "vi": "Trước khi gia hạn, tôi nào là gom giấy tờ, nào là chụp ảnh.",
+     "ctx": "thutuc",
+     "chunks": [
+      "更新[こうしん]の前[まえ]に、",
+      "書類[しょるい]を",
+      "集[あつ]めたり、",
+      "写真[しゃしん]を",
+      "撮[と]ったり",
+      "します"
+     ],
+     "wrong": [
+      "集[あつ]めるたり",
+      "集[あつ]めったり"
+     ]
+    },
+    {
+     "jp": "A：日曜日[にちようび]は何[なに]をしますか。B：寝[ね]たり、ゲームを[[したりします]]。",
+     "vi": "A: Chủ nhật bạn làm gì? B: Ngủ, chơi game các kiểu.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "するたりします",
+      "したります"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "日曜日[にちようび]は",
+      "洗濯[せんたく]したり、",
+      "料理[りょうり]を作[つく]るたりします"
+     ],
+     "vi": "Chủ nhật tôi nào là giặt giũ, nào là nấu ăn.",
+     "bad": 2,
+     "fix": "料理[りょうり]を作[つく]ったりします",
+     "why": "たり ghép với thể た: 作[つく]る → 作[つく]った → 作[つく]ったり. Không ghép thể từ điển."
+    },
+    {
+     "chunks": [
+      "夏休[なつやす]みは",
+      "海[うみ]で",
+      "泳[およ]ぎたり、",
+      "寝[ね]たりしました"
+     ],
+     "vi": "Kỳ nghỉ hè tôi nào là bơi ở biển, nào là ngủ.",
+     "bad": 2,
+     "fix": "泳[およ]いだり、",
+     "why": "泳[およ]ぐ đuôi ぐ → いだ: 泳[およ]いだ → 泳[およ]いだり. Không ghép thể ます 泳[およ]ぎ với たり."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Quản đốc mới hỏi anh Nguyễn ở xưởng thường làm việc gì. Anh muốn kể vài việc tiêu biểu: rửa cá, dán nhãn…",
+     "opts": [
+      "魚[さかな]を洗[あら]ったり、ラベルを貼[は]ったりします。",
+      "魚[さかな]を洗[あら]うたり、ラベルを貼[は]るたりします。",
+      "魚[さかな]を洗[あら]いたり、ラベルを貼[は]りたりします。"
+     ],
+     "ans": 0,
+     "why": "たり ghép với thể た: 洗[あら]った → 洗[あら]ったり, 貼[は]った → 貼[は]ったり. Không dùng thể từ điển hay thể ます."
+    }
+   ],
+   "shift": [
+    {
+     "from": "掃除[そうじ]したりとか、洗濯[せんたく]したりとか。",
+     "to": "掃除[そうじ]したり、洗濯[せんたく]したりします。",
+     "kind": "khaungu",
+     "note": "Khẩu ngữ hay thêm とか và bỏ します ở cuối. Nói đủ, lịch sự: 〜たり、〜たりします.",
+     "wrong": [
+      "掃除[そうじ]するたり、洗濯[せんたく]するたりします。",
+      "掃除[そうじ]したり、洗濯[せんたく]したります。"
+     ]
+    },
+    {
+     "from": "テレビ見[み]たりしとる。",
+     "to": "テレビを見[み]たりしています。",
+     "kind": "kansai",
+     "note": "Kansai: 〜とる = 〜ている. 見[み]たりしとる = 見[み]たりしている.",
+     "wrong": [
+      "テレビを見[み]るたりしています。",
+      "テレビを見[み]ったりしています。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g:〜たことがある",
+   "pattern": "〜たことがある",
+   "level": "N5",
+   "meaning": "đã từng … (kinh nghiệm trong đời)",
+   "structure": [
+    "V-た + ことがあります: 行[い]ったことがあります",
+    "Chưa từng: 〜たことがありません",
+    "Hỏi: 〜たことがありますか → はい、あります／いいえ、ありません"
+   ],
+   "explain": "Mẫu nói TRẢI NGHIỆM đã có trong đời, không quan trọng lúc nào: 京都[きょうと]へ行[い]ったことがあります (tôi đã từng đi Kyoto). Lấy thể た của động từ, thêm ことがあります.\n\nPhủ định: 〜たことがありません (chưa từng); nhấn mạnh: 一度[いちど]も〜たことがありません (chưa từng lần nào). Hỏi: 〜たことがありますか, trả lời ngắn: はい、あります / いいえ、ありません. Phỏng vấn xin việc, khám bệnh hay hỏi bằng mẫu này: 前[まえ]に魚[さかな]の加工[かこう]をしたことがありますか.\n\nKHÔNG dùng cho việc vừa xảy ra, có thời điểm gần, hay thói quen hằng ngày: 昨日[きのう]すしを食[た]べたことがあります ✗ → 昨日[きのう]すしを食[た]べました. Cẩn thận: thể từ điển + ことがある nghĩa khác — \"thỉnh thoảng có…\" (N4). Mẹo nhớ: たことがある = \"đã có trải nghiệm\".",
+   "casual": "「行[い]ったことある？」「ある」「ない」. Kansai: 「行[い]ったことある？」「あらへん」「ないわ」.",
+   "compare": [
+    {
+     "pattern": "〜ました",
+     "diff": "ました kể một việc đã làm vào lúc cụ thể; たことがある nói kinh nghiệm trong đời, không gắn thời điểm."
+    }
+   ],
+   "mistakes": [
+    "Kèm thời điểm gần: 昨日[きのう]食[た]べたことがあります ✗ → 昨日[きのう]食[た]べました.",
+    "Dùng thể từ điển: 行[い]くことがあります (= thỉnh thoảng có đi) — khác nghĩa 'đã từng đi'."
+   ],
+   "ex": [
+    {
+     "jp": "富士山[ふじさん]に[[登[のぼ]ったことがあります]]。",
+     "vi": "Tôi đã từng leo núi Phú Sĩ.",
+     "ctx": "doisong",
+     "wrong": [
+      "登[のぼ]りたことがあります",
+      "登[のぼ]ることがあります"
+     ]
+    },
+    {
+     "jp": "納豆[なっとう]を[[食[た]べたことがありません]]。",
+     "vi": "Tôi chưa từng ăn natto.",
+     "ctx": "doisong",
+     "wrong": [
+      "食[た]べてことがありません",
+      "食[た]べたことがいません"
+     ]
+    },
+    {
+     "jp": "マグロを[[切[き]ったことがありますか]]。",
+     "vi": "Bạn đã từng cắt cá ngừ chưa?",
+     "ctx": "xuong",
+     "wrong": [
+      "切[き]たことがありますか",
+      "切[き]ったことがいますか"
+     ]
+    },
+    {
+     "jp": "京都[きょうと]へ[[行[い]ったことがあります]]。",
+     "vi": "Tôi đã từng đi Kyoto.",
+     "ctx": "doisong",
+     "wrong": [
+      "行[い]いたことがあります",
+      "行[い]くことがあります"
+     ]
+    },
+    {
+     "jp": "この機械[きかい]は一度[いちど]も[[使[つか]ったことがありません]]。",
+     "vi": "Tôi chưa dùng cái máy này lần nào.",
+     "ctx": "xuong",
+     "chunks": [
+      "この",
+      "機械[きかい]は",
+      "一度[いちど]も",
+      "使[つか]ったことがありません"
+     ],
+     "wrong": [
+      "使[つか]ったことがあります",
+      "使[つか]いたことがありません"
+     ]
+    },
+    {
+     "jp": "確定申告[かくていしんこく]を[[したことがありますか]]。",
+     "vi": "Bạn đã từng tự khai thuế chưa?",
+     "ctx": "thutuc",
+     "wrong": [
+      "するたことがありますか",
+      "したことがいますか"
+     ]
+    },
+    {
+     "jp": "日本[にほん]で地震[じしん]を[[経験[けいけん]したことがあります]]。",
+     "vi": "Tôi đã từng trải qua động đất ở Nhật.",
+     "ctx": "doisong",
+     "chunks": [
+      "日本[にほん]で",
+      "地震[じしん]を",
+      "経験[けいけん]したことがあります"
+     ],
+     "wrong": [
+      "経験[けいけん]するたことがあります",
+      "経験[けいけん]したことがいます"
+     ]
+    },
+    {
+     "jp": "前[まえ]の会社[かいしゃ]でも、魚[さかな]の加工[かこう]を[[したことがあります]]。",
+     "vi": "Ở công ty trước tôi cũng đã từng làm chế biến cá.",
+     "ctx": "xuong",
+     "chunks": [
+      "前[まえ]の",
+      "会社[かいしゃ]でも、",
+      "魚[さかな]の",
+      "加工[かこう]を",
+      "したことがあります"
+     ],
+     "wrong": [
+      "してことがあります",
+      "したことがいます"
+     ]
+    },
+    {
+     "jp": "税金[ぜいきん]を[[滞納[たいのう]したことがありますか]]。",
+     "vi": "Bạn đã từng chậm nộp thuế chưa?",
+     "ctx": "thutuc",
+     "wrong": [
+      "滞納[たいのう]するたことがありますか",
+      "滞納[たいのう]したことをありますか"
+     ]
+    },
+    {
+     "jp": "A：刺身[さしみ]を[[食[た]べたことがありますか]]。B：はい、日本[にほん]で初[はじ]めて食[た]べました。",
+     "vi": "A: Bạn đã ăn sashimi bao giờ chưa? B: Rồi, lần đầu tôi ăn là ở Nhật.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "食[た]べるたことがありますか",
+      "食[た]べたことがいますか"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "昨日[きのう]",
+      "すしを",
+      "食[た]べたことがあります"
+     ],
+     "vi": "Hôm qua tôi đã ăn sushi.",
+     "bad": 2,
+     "fix": "食[た]べました",
+     "why": "Có thời điểm cụ thể gần (昨日[きのう]) thì dùng 〜ました. 〜たことがある là trải nghiệm trong đời, không gắn thời điểm."
+    },
+    {
+     "chunks": [
+      "私[わたし]は",
+      "北海道[ほっかいどう]へ",
+      "行[い]ったことがいません"
+     ],
+     "vi": "Tôi chưa từng đi Hokkaido.",
+     "bad": 2,
+     "fix": "行[い]ったことがありません",
+     "why": "こと là \"việc\" (không phải người, con vật) nên dùng ある／ありません, không dùng いる."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Phỏng vấn xin việc, người phỏng vấn hỏi: 「包丁[ほうちょう]を使[つか]ったことがありますか」. Anh Nguyễn từng dùng dao ở công ty trước.",
+     "opts": [
+      "はい、前[まえ]の会社[かいしゃ]で使[つか]ったことがあります。",
+      "はい、前[まえ]の会社[かいしゃ]で使[つか]うことがあります。",
+      "はい、前[まえ]の会社[かいしゃ]で使[つか]ったことがいます。"
+     ],
+     "ans": 0,
+     "why": "Kể kinh nghiệm: 〜たことがあります. 使[つか]うことがあります là \"thỉnh thoảng có dùng\" — sai nghĩa; こと không đi với いる."
+    },
+    {
+     "q": "Bác sĩ hỏi: 「大[おお]きい病気[びょうき]をしたことがありますか」. Anh Nguyễn chưa từng bị bệnh nặng. Trả lời ngắn thế nào?",
+     "opts": [
+      "いいえ、ありません。",
+      "いいえ、いません。",
+      "いいえ、しませんでした。"
+     ],
+     "ans": 0,
+     "why": "Trả lời ngắn câu hỏi 〜たことがありますか: はい、あります／いいえ、ありません. こと không đi với いる; しませんでした là \"(lúc đó) đã không làm\", không trả lời về kinh nghiệm."
+    }
+   ],
+   "shift": [
+    {
+     "from": "食[た]べたことある？",
+     "to": "食[た]べたことがありますか。",
+     "kind": "khaungu",
+     "note": "Thân mật bỏ が và dùng ある, lên giọng. Lịch sự: 〜たことがありますか.",
+     "wrong": [
+      "食[た]べたことがいますか。",
+      "食[た]べることがありますか。"
+     ]
+    },
+    {
+     "from": "行[い]ったことあらへん。",
+     "to": "行[い]ったことがありません。",
+     "kind": "kansai",
+     "note": "Kansai: あらへん = ない／ありません. 行[い]ったことあらへん = chưa từng đi.",
+     "wrong": [
+      "行[い]ったことがあります。",
+      "行[い]くことがありません。"
+     ]
+    }
+   ]
+  }
+ ]
 }
