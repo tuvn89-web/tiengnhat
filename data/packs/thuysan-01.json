@@ -8,7 +8,7 @@
   "topics": [
    "thuysan"
   ],
-  "version": 3,
+  "version": 4,
   "created": "2026-10-08",
   "verified_on": "",
   "note": "Gói mẫu. Tên cá/hải sản và bộ phận cá là từ chuyên ngành, không có trong JLPT — cấp ghi theo độ khó ước lượng."
@@ -32,6 +32,11 @@
      "jp": "魚[さかな]を冷蔵庫[れいぞうこ]に入[い]れます。",
      "vi": "Cho cá vào tủ lạnh.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "日曜日[にちようび]にスーパーで魚[さかな]を買[か]いました。",
+     "vi": "Chủ nhật tôi đã mua cá ở siêu thị.",
+     "ctx": "doisong"
     }
    ],
    "ctr": [
@@ -67,6 +72,11 @@
      "jp": "サーモンの皮[かわ]を引[ひ]きます。",
      "vi": "Lạng da cá hồi.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：お寿司[すし]は何[なに]が好[す]き？ B：サーモンが一番[いちばん]好[す]きです。",
+     "vi": "A: Sushi thì anh thích loại nào? B: Tôi thích cá hồi nhất.",
+     "ctx": "hoithoai"
     }
    ],
    "note": "Trong xưởng hay nói サーモン. 鮭[さけ] cũng là cá hồi.",
@@ -93,6 +103,11 @@
      "jp": "マグロを柵[さく]に切[き]ります。",
      "vi": "Cắt cá ngừ thành miếng thăn.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "スーパーのマグロは、夕方[ゆうがた]になると安[やす]くなります。",
+     "vi": "Cá ngừ ở siêu thị cứ chiều tối là rẻ đi.",
+     "ctx": "doisong"
     }
    ],
    "note": "Cá ngừ nguyên con đếm bằng 本[ほん]: マグロ一本[いっぽん].",
@@ -170,6 +185,11 @@
      "jp": "イカを細[ほそ]く切[き]ります。",
      "vi": "Thái mực thành sợi nhỏ.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：晩[ばん]ご飯[はん]、何[なに]にする？ B：イカを焼[や]いて食[た]べよう。",
+     "vi": "A: Bữa tối ăn gì đây? B: Nướng mực ăn đi.",
+     "ctx": "hoithoai"
     }
    ],
    "confuse": [
@@ -198,6 +218,11 @@
      "jp": "タコの足[あし]を切[き]ります。",
      "vi": "Cắt râu bạch tuộc.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "明石[あかし]はタコが有名[ゆうめい]です。",
+     "vi": "Akashi nổi tiếng về bạch tuộc.",
+     "ctx": "doisong"
     }
    ],
    "confuse": [
@@ -226,6 +251,11 @@
      "jp": "エビの殻[から]をむきます。",
      "vi": "Bóc vỏ tôm.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：エビ、食[た]べられる？ B：はい、大好[だいす]きです。",
+     "vi": "A: Anh ăn được tôm không? B: Có, tôi rất thích.",
+     "ctx": "hoithoai"
     }
    ],
    "note": "Trên nhãn chất gây dị ứng viết えび (hiragana). Tôm là chất gây dị ứng bắt buộc ghi nhãn.",
@@ -252,6 +282,11 @@
      "jp": "カニはアレルギーの表示[ひょうじ]が必要[ひつよう]です。",
      "vi": "Cua bắt buộc phải ghi nhãn dị ứng.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "冬[ふゆ]に、友達[ともだち]と城崎[きのさき]へカニを食[た]べに行[い]きました。",
+     "vi": "Mùa đông tôi đã cùng bạn đi Kinosaki ăn cua.",
+     "ctx": "doisong"
     }
    ],
    "note": "Trên nhãn viết かに (hiragana). Cua khi bán đếm bằng 杯[はい]: カニ一杯[いっぱい].",
@@ -348,6 +383,11 @@
      "jp": "魚[さかな]の頭[あたま]を落[お]とします。",
      "vi": "Chặt đầu cá.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "朝[あさ]から頭[あたま]が痛[いた]いです。",
+     "vi": "Từ sáng tôi đã bị đau đầu.",
+     "ctx": "doisong"
     }
    ],
    "coll": [
@@ -396,6 +436,11 @@
      "jp": "包丁[ほうちょう]で皮[かわ]を引[ひ]きます。",
      "vi": "Lạng da bằng dao.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "サーモンの皮[かわ]は、焼[や]くとおいしいです。",
+     "vi": "Da cá hồi nướng lên thì ngon.",
+     "ctx": "doisong"
     }
    ],
    "note": "皮[かわ]を引[ひ]く = lạng da cá.",
@@ -424,6 +469,11 @@
      "jp": "骨[ほね]が残[のこ]っていないか確認[かくにん]します。",
      "vi": "Kiểm tra xem còn sót xương không.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "この魚[さかな]は骨[ほね]が多[おお]いので、気[き]をつけて食[た]べてください。",
+     "vi": "Cá này nhiều xương, hãy ăn cẩn thận nhé.",
+     "ctx": "doisong"
     }
    ],
    "confuse": [

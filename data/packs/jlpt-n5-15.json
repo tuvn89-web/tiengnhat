@@ -1,884 +1,1058 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n5-15",
-    "title": "JLPT N5 15 – Chào hỏi & câu cửa miệng",
-    "type": "vocab",
-    "level": "N5",
-    "topics": [
-      "jlpt",
-      "doisong"
-    ],
-    "version": 3,
-    "created": "2026-10-11",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n5-15",
+  "title": "JLPT N5 15 – Chào hỏi & câu cửa miệng",
+  "type": "vocab",
+  "level": "N5",
+  "topics": [
+   "jlpt",
+   "doisong"
+  ],
+  "version": 4,
+  "created": "2026-10-11",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:おはようございます:おはようございます",
+   "kana": "おはようございます",
+   "kanji": "",
+   "hv": "",
+   "vi": "chào buổi sáng",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Chào hỏi",
+   "reg": "lichsu",
+   "ex": [
     {
-      "id": "v:おはようございます:おはようございます",
-      "kana": "おはようございます",
-      "kanji": "",
-      "hv": "",
-      "vi": "chào buổi sáng",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Chào hỏi",
-      "reg": "lichsu",
-      "ex": [
-        {
-          "jp": "班長[はんちょう]、おはようございます。",
-          "vi": "Chào buổi sáng tổ trưởng."
-        }
-      ],
-      "confuse": [
-        "v:こんにちは:こんにちは"
-      ],
-      "note": "Ở xưởng, ca đêm vào làm buổi tối cũng thường chào おはようございます.",
-      "reply": [
-        {
-          "jp": "おはようございます。",
-          "vi": "Chào buổi sáng."
-        },
-        {
-          "jp": "おはよう。",
-          "vi": "Chào (thân mật, với bạn bè)."
-        }
-      ]
+     "jp": "班長[はんちょう]、おはようございます。",
+     "vi": "Chào buổi sáng tổ trưởng.",
+     "ctx": "xuong"
     },
     {
-      "id": "v:こんにちは:こんにちは",
-      "kana": "こんにちは",
-      "kanji": "",
-      "hv": "",
-      "vi": "xin chào (ban ngày)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Chào hỏi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "こんにちは。いい天気[てんき]ですね。",
-          "vi": "Xin chào. Trời đẹp nhỉ."
-        }
-      ],
-      "confuse": [
-        "v:こんばんは:こんばんは"
-      ],
-      "reply": [
-        {
-          "jp": "こんにちは。",
-          "vi": "Xin chào."
-        }
-      ]
-    },
-    {
-      "id": "v:こんばんは:こんばんは",
-      "kana": "こんばんは",
-      "kanji": "",
-      "hv": "",
-      "vi": "chào buổi tối",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Chào hỏi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "こんばんは。今日[きょう]は寒[さむ]いですね。",
-          "vi": "Chào buổi tối. Hôm nay lạnh nhỉ."
-        }
-      ],
-      "confuse": [
-        "v:こんにちは:こんにちは"
-      ],
-      "reply": [
-        {
-          "jp": "こんばんは。",
-          "vi": "Chào buổi tối."
-        }
-      ]
-    },
-    {
-      "id": "v:おやすみなさい:おやすみなさい",
-      "kana": "おやすみなさい",
-      "kanji": "",
-      "hv": "",
-      "vi": "chúc ngủ ngon",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Chào hỏi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "もう寝[ね]ます。おやすみなさい。",
-          "vi": "Tôi đi ngủ đây. Chúc ngủ ngon."
-        }
-      ],
-      "reply": [
-        {
-          "jp": "おやすみなさい。",
-          "vi": "Chúc ngủ ngon."
-        },
-        {
-          "jp": "おやすみ。",
-          "vi": "Ngủ ngon (thân mật)."
-        }
-      ]
-    },
-    {
-      "id": "v:さようなら:さようなら",
-      "kana": "さようなら",
-      "kanji": "",
-      "hv": "",
-      "vi": "tạm biệt",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Chào hỏi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "先生[せんせい]、さようなら。",
-          "vi": "Chào cô ạ (tạm biệt)."
-        }
-      ],
-      "confuse": [
-        "v:失礼します:しつれいします"
-      ],
-      "note": "Giữa đồng nghiệp ít dùng; khi về nói お先[さき]に失礼[しつれい]します hoặc お疲[つか]れ様[さま]です.",
-      "reply": [
-        {
-          "jp": "さようなら。",
-          "vi": "Tạm biệt."
-        },
-        {
-          "jp": "また明日[あした]。",
-          "vi": "Hẹn mai gặp lại."
-        }
-      ]
-    },
-    {
-      "id": "v:ありがとうございます:ありがとうございます",
-      "kana": "ありがとうございます",
-      "kanji": "",
-      "hv": "",
-      "vi": "cảm ơn (lịch sự)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Cảm ơn, xin lỗi",
-      "reg": "lichsu",
-      "ex": [
-        {
-          "jp": "いつもありがとうございます。",
-          "vi": "Lúc nào cũng cảm ơn anh."
-        }
-      ],
-      "confuse": [
-        "v:どういたしまして:どういたしまして"
-      ],
-      "note": "Thân mật: ありがとう. Kansai người lớn tuổi: おおきに.",
-      "reply": [
-        {
-          "jp": "どういたしまして。",
-          "vi": "Không có gì."
-        },
-        {
-          "jp": "いいえ。",
-          "vi": "Không có gì đâu."
-        }
-      ],
-      "syn": [
-        "v:おおきに:おおきに"
-      ]
-    },
-    {
-      "id": "v:どうも:どうも",
-      "kana": "どうも",
-      "kanji": "",
-      "hv": "",
-      "vi": "cảm ơn (ngắn); rất (đi với すみません)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Cảm ơn, xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "どうもありがとうございます。",
-          "vi": "Cảm ơn rất nhiều."
-        }
-      ],
-      "reply": [
-        {
-          "jp": "いいえ。",
-          "vi": "Không có gì."
-        }
-      ]
-    },
-    {
-      "id": "v:すみません:すみません",
-      "kana": "すみません",
-      "kanji": "",
-      "hv": "",
-      "vi": "xin lỗi (lịch sự); cảm phiền, làm ơn (gọi người)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Cảm ơn, xin lỗi",
-      "reg": "lichsu",
-      "ex": [
-        {
-          "jp": "すみません、遅[おく]れました。",
-          "vi": "Xin lỗi, tôi đến muộn."
-        }
-      ],
-      "confuse": [
-        "v:ごめんなさい:ごめんなさい"
-      ],
-      "note": "Dùng cả để gọi người khác (すみません、…) và để cảm ơn khi làm phiền.",
-      "reply": [
-        {
-          "jp": "いいえ、大丈夫[だいじょうぶ]ですよ。",
-          "vi": "Không sao đâu. (khi người ta xin lỗi)"
-        },
-        {
-          "jp": "はい、何[なん]でしょうか。",
-          "vi": "Vâng, có chuyện gì ạ? (khi người ta gọi)"
-        }
-      ]
-    },
-    {
-      "id": "v:ごめんなさい:ごめんなさい",
-      "kana": "ごめんなさい",
-      "kanji": "",
-      "hv": "",
-      "vi": "xin lỗi (thân mật)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Cảm ơn, xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "あ、ごめんなさい。",
-          "vi": "À, xin lỗi."
-        }
-      ],
-      "confuse": [
-        "v:すみません:すみません"
-      ],
-      "note": "Với cấp trên ở xưởng dùng すみません hoặc 申[もう]し訳[わけ]ありません.",
-      "reply": [
-        {
-          "jp": "大丈夫[だいじょうぶ]ですよ。",
-          "vi": "Không sao đâu."
-        },
-        {
-          "jp": "ええよ。",
-          "vi": "Không sao. (Kansai)"
-        }
-      ]
-    },
-    {
-      "id": "v:失礼します:しつれいします",
-      "kana": "しつれいします",
-      "kanji": "失礼します",
-      "kf": "失礼[しつれい]します",
-      "hv": "THẤT LỄ",
-      "vi": "xin phép (vào, ra, về)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Ở chỗ làm",
-      "reg": "lichsu",
-      "ex": [
-        {
-          "jp": "失礼[しつれい]します。入[はい]ってもいいですか。",
-          "vi": "Xin phép. Tôi vào được không ạ?"
-        }
-      ],
-      "confuse": [
-        "v:お疲れ様です:おつかれさまです"
-      ],
-      "note": "Nói khi gõ cửa vào phòng, khi ra về, khi cúp máy.",
-      "reply": [
-        {
-          "jp": "どうぞ。",
-          "vi": "Mời vào. (khi người ta xin vào)"
-        },
-        {
-          "jp": "お疲[つか]れ様[さま]でした。",
-          "vi": "Anh/chị vất vả rồi. (khi người ta ra về)"
-        }
-      ]
-    },
-    {
-      "id": "v:お疲れ様です:おつかれさまです",
-      "kana": "おつかれさまです",
-      "kanji": "お疲れ様です",
-      "kf": "お疲[つか]れ様[さま]です",
-      "hv": "BÌ DẠNG",
-      "vi": "anh/chị vất vả rồi (chào ở chỗ làm)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Ở chỗ làm",
-      "reg": "lichsu",
-      "ex": [
-        {
-          "jp": "お疲[つか]れ様[さま]です。お先[さき]に失礼[しつれい]します。",
-          "vi": "Mọi người vất vả rồi. Tôi xin phép về trước."
-        }
-      ],
-      "confuse": [
-        "v:失礼します:しつれいします"
-      ],
-      "note": "Câu chào dùng nhiều nhất ở chỗ làm: gặp nhau trong ca, khi tan ca. Nói tắt: お疲[つか]れ.",
-      "reply": [
-        {
-          "jp": "お疲[つか]れ様[さま]です。",
-          "vi": "Anh/chị cũng vất vả rồi."
-        },
-        {
-          "jp": "お疲[つか]れ様[さま]でした。",
-          "vi": "Vất vả rồi, về nhé. (khi người ta về trước)"
-        }
-      ]
-    },
-    {
-      "id": "v:いただきます:いただきます",
-      "kana": "いただきます",
-      "kanji": "",
-      "hv": "",
-      "vi": "xin phép ăn (trước khi ăn)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Bữa ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "いただきます。",
-          "vi": "Mời mọi người, tôi ăn đây."
-        }
-      ],
-      "confuse": [
-        "v:ごちそうさまでした:ごちそうさまでした"
-      ],
-      "reply": [
-        {
-          "jp": "どうぞ、召[め]し上[あ]がってください。",
-          "vi": "Xin mời dùng bữa. (người mời nói)"
-        }
-      ]
-    },
-    {
-      "id": "v:ごちそうさまでした:ごちそうさまでした",
-      "kana": "ごちそうさまでした",
-      "kanji": "",
-      "hv": "",
-      "vi": "cảm ơn vì bữa ăn (sau khi ăn)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Bữa ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ごちそうさまでした。おいしかったです。",
-          "vi": "Cảm ơn vì bữa ăn. Ngon lắm."
-        }
-      ],
-      "confuse": [
-        "v:いただきます:いただきます"
-      ],
-      "reply": [
-        {
-          "jp": "お粗末[そまつ]さまでした。",
-          "vi": "Có gì đâu ạ. (chủ nhà khiêm tốn đáp)"
-        }
-      ]
-    },
-    {
-      "id": "v:お願いします:おねがいします",
-      "kana": "おねがいします",
-      "kanji": "お願いします",
-      "kf": "お願[ねが]いします",
-      "hv": "NGUYỆN",
-      "vi": "làm ơn, nhờ anh/chị (khi nhờ vả, gọi món)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Nhờ vả",
-      "reg": "lichsu",
-      "ex": [
-        {
-          "jp": "検品[けんぴん]をお願[ねが]いします。",
-          "vi": "Nhờ anh kiểm hàng giúp."
-        }
-      ],
-      "note": "Đứng sau danh từ để nhờ việc: チェックをお願[ねが]いします.",
-      "reply": [
-        {
-          "jp": "はい、わかりました。",
-          "vi": "Vâng, tôi hiểu rồi."
-        },
-        {
-          "jp": "かしこまりました。",
-          "vi": "Vâng, tôi xin làm ngay. (rất lịch sự)"
-        }
-      ]
-    },
-    {
-      "id": "v:はじめまして:はじめまして",
-      "kana": "はじめまして",
-      "kanji": "",
-      "hv": "",
-      "vi": "rất hân hạnh (lần đầu gặp)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Làm quen",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "はじめまして。アンです。",
-          "vi": "Rất hân hạnh. Tôi là An."
-        }
-      ],
-      "reply": [
-        {
-          "jp": "はじめまして。田中[たなか]です。どうぞよろしく。",
-          "vi": "Rất hân hạnh, tôi là Tanaka. Mong được giúp đỡ."
-        }
-      ]
-    },
-    {
-      "id": "v:よろしくお願いします:よろしくおねがいします",
-      "kana": "よろしくおねがいします",
-      "kanji": "よろしくお願いします",
-      "kf": "よろしくお願[ねが]いします",
-      "hv": "NGUYỆN",
-      "vi": "mong được giúp đỡ",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Làm quen",
-      "reg": "lichsu",
-      "ex": [
-        {
-          "jp": "ベトナムから来[き]ました。よろしくお願[ねが]いします。",
-          "vi": "Tôi đến từ Việt Nam. Mong được mọi người giúp đỡ."
-        }
-      ],
-      "confuse": [
-        "v:お願いします:おねがいします"
-      ],
-      "note": "Câu cuối khi tự giới thiệu, và khi nhờ việc.",
-      "reply": [
-        {
-          "jp": "こちらこそ、よろしくお願[ねが]いします。",
-          "vi": "Tôi cũng mong được anh/chị giúp đỡ."
-        }
-      ]
-    },
-    {
-      "id": "v:いってきます:いってきます",
-      "kana": "いってきます",
-      "kanji": "",
-      "hv": "",
-      "vi": "tôi đi đây",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Ra vào nhà",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "いってきます。",
-          "vi": "Con đi đây."
-        }
-      ],
-      "confuse": [
-        "v:いってらっしゃい:いってらっしゃい"
-      ],
-      "reply": [
-        {
-          "jp": "いってらっしゃい。",
-          "vi": "Đi nhé."
-        }
-      ]
-    },
-    {
-      "id": "v:いってらっしゃい:いってらっしゃい",
-      "kana": "いってらっしゃい",
-      "kanji": "",
-      "hv": "",
-      "vi": "đi nhé (người ở nhà đáp)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Ra vào nhà",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "いってらっしゃい。気[き]をつけて。",
-          "vi": "Đi nhé. Cẩn thận đấy."
-        }
-      ],
-      "confuse": [
-        "v:いってきます:いってきます"
-      ],
-      "reply": [
-        {
-          "jp": "いってきます。",
-          "vi": "Tôi đi đây."
-        }
-      ]
-    },
-    {
-      "id": "v:ただいま:ただいま",
-      "kana": "ただいま",
-      "kanji": "",
-      "hv": "",
-      "vi": "tôi về rồi",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Ra vào nhà",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ただいま。",
-          "vi": "Con về rồi."
-        }
-      ],
-      "confuse": [
-        "v:おかえりなさい:おかえりなさい"
-      ],
-      "reply": [
-        {
-          "jp": "おかえりなさい。",
-          "vi": "Mừng anh/chị về."
-        }
-      ]
-    },
-    {
-      "id": "v:おかえりなさい:おかえりなさい",
-      "kana": "おかえりなさい",
-      "kanji": "",
-      "hv": "",
-      "vi": "mừng về nhà (người ở nhà đáp)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Ra vào nhà",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "おかえりなさい。",
-          "vi": "Về rồi đấy à."
-        }
-      ],
-      "confuse": [
-        "v:ただいま:ただいま"
-      ],
-      "reply": [
-        {
-          "jp": "ただいま。",
-          "vi": "Tôi về rồi."
-        }
-      ]
-    },
-    {
-      "id": "v:どうぞ:どうぞ",
-      "kana": "どうぞ",
-      "kanji": "",
-      "hv": "",
-      "vi": "xin mời",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Nhờ vả",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "どうぞ、座[すわ]ってください。",
-          "vi": "Xin mời ngồi."
-        }
-      ],
-      "reply": [
-        {
-          "jp": "どうも。",
-          "vi": "Cảm ơn."
-        },
-        {
-          "jp": "ありがとうございます。",
-          "vi": "Cảm ơn ạ."
-        }
-      ]
-    },
-    {
-      "id": "v:はい:はい",
-      "kana": "はい",
-      "kanji": "",
-      "hv": "",
-      "vi": "vâng, có (đáp lời)",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Trả lời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "はい、そうです。",
-          "vi": "Vâng, đúng vậy."
-        }
-      ],
-      "confuse": [
-        "v:いいえ:いいえ"
-      ],
-      "note": "Ở xưởng, khi được gọi tên thì đáp to: はい！"
-    },
-    {
-      "id": "v:いいえ:いいえ",
-      "kana": "いいえ",
-      "kanji": "",
-      "hv": "",
-      "vi": "không",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Trả lời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "いいえ、違[ちが]います。",
-          "vi": "Không, không phải."
-        }
-      ],
-      "confuse": [
-        "v:はい:はい"
-      ],
-      "note": "Khẩu ngữ hay dùng いや hoặc ううん."
-    },
-    {
-      "id": "v:そうですか:そうですか",
-      "kana": "そうですか",
-      "kanji": "",
-      "hv": "",
-      "vi": "vậy à",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Trả lời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "そうですか。わかりました。",
-          "vi": "Vậy à. Tôi hiểu rồi."
-        }
-      ]
-    },
-    {
-      "id": "v:わかりました:わかりました",
-      "kana": "わかりました",
-      "kanji": "",
-      "hv": "",
-      "vi": "tôi hiểu rồi; vâng ạ",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Trả lời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "わかりました。すぐやります。",
-          "vi": "Vâng ạ. Tôi làm ngay."
-        }
-      ],
-      "note": "Với cấp trên lịch sự hơn: かしこまりました / 承知[しょうち]しました."
-    },
-    {
-      "id": "v:どういたしまして:どういたしまして",
-      "kana": "どういたしまして",
-      "kanji": "",
-      "hv": "",
-      "vi": "không có gì",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Cảm ơn, xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "A：ありがとう。B：どういたしまして。",
-          "vi": "A: Cảm ơn. B: Không có gì."
-        }
-      ],
-      "confuse": [
-        "v:ありがとうございます:ありがとうございます"
-      ]
-    },
-    {
-      "id": "v:おめでとうございます:おめでとうございます",
-      "kana": "おめでとうございます",
-      "kanji": "",
-      "hv": "",
-      "vi": "chúc mừng",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Chúc mừng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "誕生日[たんじょうび]、おめでとうございます。",
-          "vi": "Chúc mừng sinh nhật."
-        }
-      ],
-      "reply": [
-        {
-          "jp": "ありがとうございます。",
-          "vi": "Cảm ơn."
-        }
-      ]
-    },
-    {
-      "id": "v:いらっしゃいませ:いらっしゃいませ",
-      "kana": "いらっしゃいませ",
-      "kanji": "",
-      "hv": "",
-      "vi": "kính chào quý khách",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Chúc mừng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "いらっしゃいませ。",
-          "vi": "Kính chào quý khách."
-        }
-      ],
-      "note": "Câu nhân viên cửa hàng nói; khách không cần đáp."
-    },
-    {
-      "id": "v:お大事に:おだいじに",
-      "kana": "おだいじに",
-      "kanji": "お大事に",
-      "kf": "お大事[だいじ]に",
-      "hv": "ĐẠI SỰ",
-      "vi": "mau khỏe nhé",
-      "pos": "expr",
-      "level": "N5",
-      "topics": [
-        "jlpt",
-        "doisong"
-      ],
-      "sub": "Chúc mừng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "風邪[かぜ]ですか。お大事[だいじ]に。",
-          "vi": "Bị cảm à? Mau khỏe nhé."
-        }
-      ],
-      "reply": [
-        {
-          "jp": "ありがとうございます。",
-          "vi": "Cảm ơn."
-        }
-      ]
+     "jp": "A：おはようございます。ゴミの日[ひ]ですね。 B：はい、おはようございます。",
+     "vi": "A: Chào buổi sáng. Hôm nay là ngày đổ rác nhỉ. B: Vâng, chào buổi sáng.",
+     "ctx": "hoithoai"
     }
-  ]
+   ],
+   "confuse": [
+    "v:こんにちは:こんにちは"
+   ],
+   "note": "Ở xưởng, ca đêm vào làm buổi tối cũng thường chào おはようございます.",
+   "reply": [
+    {
+     "jp": "おはようございます。",
+     "vi": "Chào buổi sáng."
+    },
+    {
+     "jp": "おはよう。",
+     "vi": "Chào (thân mật, với bạn bè)."
+    }
+   ]
+  },
+  {
+   "id": "v:こんにちは:こんにちは",
+   "kana": "こんにちは",
+   "kanji": "",
+   "hv": "",
+   "vi": "xin chào (ban ngày)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Chào hỏi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "こんにちは。いい天気[てんき]ですね。",
+     "vi": "Xin chào. Trời đẹp nhỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "こんにちは。ベトナムのグエンです。",
+     "vi": "Xin chào. Tôi là Nguyễn, người Việt Nam.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:こんばんは:こんばんは"
+   ],
+   "reply": [
+    {
+     "jp": "こんにちは。",
+     "vi": "Xin chào."
+    }
+   ]
+  },
+  {
+   "id": "v:こんばんは:こんばんは",
+   "kana": "こんばんは",
+   "kanji": "",
+   "hv": "",
+   "vi": "chào buổi tối",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Chào hỏi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "こんばんは。今日[きょう]は寒[さむ]いですね。",
+     "vi": "Chào buổi tối. Hôm nay lạnh nhỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：こんばんは。仕事[しごと]の帰[かえ]りですか。 B：はい、そうです。",
+     "vi": "A: Chào buổi tối. Anh đi làm về à? B: Vâng, đúng vậy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:こんにちは:こんにちは"
+   ],
+   "reply": [
+    {
+     "jp": "こんばんは。",
+     "vi": "Chào buổi tối."
+    }
+   ]
+  },
+  {
+   "id": "v:おやすみなさい:おやすみなさい",
+   "kana": "おやすみなさい",
+   "kanji": "",
+   "hv": "",
+   "vi": "chúc ngủ ngon",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Chào hỏi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "もう寝[ね]ます。おやすみなさい。",
+     "vi": "Tôi đi ngủ đây. Chúc ngủ ngon.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：明日[あした]は五時[ごじ]に起[お]きます。 B：じゃあ、早[はや]く寝[ね]てください。おやすみなさい。",
+     "vi": "A: Mai tôi dậy lúc 5 giờ. B: Vậy thì ngủ sớm đi. Chúc ngủ ngon.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "reply": [
+    {
+     "jp": "おやすみなさい。",
+     "vi": "Chúc ngủ ngon."
+    },
+    {
+     "jp": "おやすみ。",
+     "vi": "Ngủ ngon (thân mật)."
+    }
+   ]
+  },
+  {
+   "id": "v:さようなら:さようなら",
+   "kana": "さようなら",
+   "kanji": "",
+   "hv": "",
+   "vi": "tạm biệt",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Chào hỏi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先生[せんせい]、さようなら。",
+     "vi": "Chào cô ạ (tạm biệt).",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "みなさん、さようなら。また来週[らいしゅう]。",
+     "vi": "Tạm biệt mọi người. Hẹn tuần sau.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:失礼します:しつれいします"
+   ],
+   "note": "Giữa đồng nghiệp ít dùng; khi về nói お先[さき]に失礼[しつれい]します hoặc お疲[つか]れ様[さま]です.",
+   "reply": [
+    {
+     "jp": "さようなら。",
+     "vi": "Tạm biệt."
+    },
+    {
+     "jp": "また明日[あした]。",
+     "vi": "Hẹn mai gặp lại."
+    }
+   ]
+  },
+  {
+   "id": "v:ありがとうございます:ありがとうございます",
+   "kana": "ありがとうございます",
+   "kanji": "",
+   "hv": "",
+   "vi": "cảm ơn (lịch sự)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Cảm ơn, xin lỗi",
+   "reg": "lichsu",
+   "ex": [
+    {
+     "jp": "いつもありがとうございます。",
+     "vi": "Lúc nào cũng cảm ơn anh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：はい、新[あたら]しいカードです。 B：ありがとうございます。",
+     "vi": "A: Đây, thẻ mới của anh. B: Cảm ơn ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:どういたしまして:どういたしまして"
+   ],
+   "note": "Thân mật: ありがとう. Kansai người lớn tuổi: おおきに.",
+   "reply": [
+    {
+     "jp": "どういたしまして。",
+     "vi": "Không có gì."
+    },
+    {
+     "jp": "いいえ。",
+     "vi": "Không có gì đâu."
+    }
+   ],
+   "syn": [
+    "v:おおきに:おおきに"
+   ]
+  },
+  {
+   "id": "v:どうも:どうも",
+   "kana": "どうも",
+   "kanji": "",
+   "hv": "",
+   "vi": "cảm ơn (ngắn); rất (đi với すみません)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Cảm ơn, xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "どうもありがとうございます。",
+     "vi": "Cảm ơn rất nhiều.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：はい、これ。 B：あ、どうも。",
+     "vi": "A: Đây này. B: À, cảm ơn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "reply": [
+    {
+     "jp": "いいえ。",
+     "vi": "Không có gì."
+    }
+   ]
+  },
+  {
+   "id": "v:すみません:すみません",
+   "kana": "すみません",
+   "kanji": "",
+   "hv": "",
+   "vi": "xin lỗi (lịch sự); cảm phiền, làm ơn (gọi người)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Cảm ơn, xin lỗi",
+   "reg": "lichsu",
+   "ex": [
+    {
+     "jp": "すみません、遅[おく]れました。",
+     "vi": "Xin lỗi, tôi đến muộn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "すみません、これをください。",
+     "vi": "Làm ơn, cho tôi cái này.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:ごめんなさい:ごめんなさい"
+   ],
+   "note": "Dùng cả để gọi người khác (すみません、…) và để cảm ơn khi làm phiền.",
+   "reply": [
+    {
+     "jp": "いいえ、大丈夫[だいじょうぶ]ですよ。",
+     "vi": "Không sao đâu. (khi người ta xin lỗi)"
+    },
+    {
+     "jp": "はい、何[なん]でしょうか。",
+     "vi": "Vâng, có chuyện gì ạ? (khi người ta gọi)"
+    }
+   ]
+  },
+  {
+   "id": "v:ごめんなさい:ごめんなさい",
+   "kana": "ごめんなさい",
+   "kanji": "",
+   "hv": "",
+   "vi": "xin lỗi (thân mật)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Cảm ơn, xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "あ、ごめんなさい。",
+     "vi": "À, xin lỗi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：遅[おく]れて、ごめんなさい。 B：大丈夫[だいじょうぶ]ですよ。",
+     "vi": "A: Xin lỗi, tôi đến muộn. B: Không sao đâu.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:すみません:すみません"
+   ],
+   "note": "Với cấp trên ở xưởng dùng すみません hoặc 申[もう]し訳[わけ]ありません.",
+   "reply": [
+    {
+     "jp": "大丈夫[だいじょうぶ]ですよ。",
+     "vi": "Không sao đâu."
+    },
+    {
+     "jp": "ええよ。",
+     "vi": "Không sao. (Kansai)"
+    }
+   ]
+  },
+  {
+   "id": "v:失礼します:しつれいします",
+   "kana": "しつれいします",
+   "kanji": "失礼します",
+   "kf": "失礼[しつれい]します",
+   "hv": "THẤT LỄ",
+   "vi": "xin phép (vào, ra, về)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Ở chỗ làm",
+   "reg": "lichsu",
+   "ex": [
+    {
+     "jp": "失礼[しつれい]します。入[はい]ってもいいですか。",
+     "vi": "Xin phép. Tôi vào được không ạ?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "では、これで失礼[しつれい]します。",
+     "vi": "Vậy tôi xin phép ạ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:お疲れ様です:おつかれさまです"
+   ],
+   "note": "Nói khi gõ cửa vào phòng, khi ra về, khi cúp máy.",
+   "reply": [
+    {
+     "jp": "どうぞ。",
+     "vi": "Mời vào. (khi người ta xin vào)"
+    },
+    {
+     "jp": "お疲[つか]れ様[さま]でした。",
+     "vi": "Anh/chị vất vả rồi. (khi người ta ra về)"
+    }
+   ]
+  },
+  {
+   "id": "v:お疲れ様です:おつかれさまです",
+   "kana": "おつかれさまです",
+   "kanji": "お疲れ様です",
+   "kf": "お疲[つか]れ様[さま]です",
+   "hv": "BÌ DẠNG",
+   "vi": "anh/chị vất vả rồi (chào ở chỗ làm)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Ở chỗ làm",
+   "reg": "lichsu",
+   "ex": [
+    {
+     "jp": "お疲[つか]れ様[さま]です。お先[さき]に失礼[しつれい]します。",
+     "vi": "Mọi người vất vả rồi. Tôi xin phép về trước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "お疲[つか]れ様[さま]です。グエンです。明日[あした]、少[すこ]し遅[おく]れます。",
+     "vi": "(Gọi điện) Chào anh, tôi là Nguyễn. Ngày mai tôi sẽ đến muộn một chút.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:失礼します:しつれいします"
+   ],
+   "note": "Câu chào dùng nhiều nhất ở chỗ làm: gặp nhau trong ca, khi tan ca. Nói tắt: お疲[つか]れ.",
+   "reply": [
+    {
+     "jp": "お疲[つか]れ様[さま]です。",
+     "vi": "Anh/chị cũng vất vả rồi."
+    },
+    {
+     "jp": "お疲[つか]れ様[さま]でした。",
+     "vi": "Vất vả rồi, về nhé. (khi người ta về trước)"
+    }
+   ]
+  },
+  {
+   "id": "v:いただきます:いただきます",
+   "kana": "いただきます",
+   "kanji": "",
+   "hv": "",
+   "vi": "xin phép ăn (trước khi ăn)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Bữa ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いただきます。",
+     "vi": "Mời mọi người, tôi ăn đây.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：どうぞ、食[た]べてください。 B：じゃあ、いただきます。",
+     "vi": "A: Mời anh ăn đi. B: Vậy tôi xin phép ăn ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:ごちそうさまでした:ごちそうさまでした"
+   ],
+   "reply": [
+    {
+     "jp": "どうぞ、召[め]し上[あ]がってください。",
+     "vi": "Xin mời dùng bữa. (người mời nói)"
+    }
+   ]
+  },
+  {
+   "id": "v:ごちそうさまでした:ごちそうさまでした",
+   "kana": "ごちそうさまでした",
+   "kanji": "",
+   "hv": "",
+   "vi": "cảm ơn vì bữa ăn (sau khi ăn)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Bữa ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ごちそうさまでした。おいしかったです。",
+     "vi": "Cảm ơn vì bữa ăn. Ngon lắm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：ごちそうさまでした。 B：また来[き]てくださいね。",
+     "vi": "A: Cảm ơn vì bữa ăn. B: Lần sau lại đến nhé.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:いただきます:いただきます"
+   ],
+   "reply": [
+    {
+     "jp": "お粗末[そまつ]さまでした。",
+     "vi": "Có gì đâu ạ. (chủ nhà khiêm tốn đáp)"
+    }
+   ]
+  },
+  {
+   "id": "v:お願いします:おねがいします",
+   "kana": "おねがいします",
+   "kanji": "お願いします",
+   "kf": "お願[ねが]いします",
+   "hv": "NGUYỆN",
+   "vi": "làm ơn, nhờ anh/chị (khi nhờ vả, gọi món)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhờ vả",
+   "reg": "lichsu",
+   "ex": [
+    {
+     "jp": "検品[けんぴん]をお願[ねが]いします。",
+     "vi": "Nhờ anh kiểm hàng giúp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ラーメンを一[ひと]つお願[ねが]いします。",
+     "vi": "Cho tôi một bát ramen.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Đứng sau danh từ để nhờ việc: チェックをお願[ねが]いします.",
+   "reply": [
+    {
+     "jp": "はい、わかりました。",
+     "vi": "Vâng, tôi hiểu rồi."
+    },
+    {
+     "jp": "かしこまりました。",
+     "vi": "Vâng, tôi xin làm ngay. (rất lịch sự)"
+    }
+   ]
+  },
+  {
+   "id": "v:はじめまして:はじめまして",
+   "kana": "はじめまして",
+   "kanji": "",
+   "hv": "",
+   "vi": "rất hân hạnh (lần đầu gặp)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Làm quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "はじめまして。アンです。",
+     "vi": "Rất hân hạnh. Tôi là An.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "はじめまして。グエンです。今日[きょう]から一緒[いっしょ]に働[はたら]きます。",
+     "vi": "Rất hân hạnh. Tôi là Nguyễn. Từ hôm nay tôi sẽ làm việc cùng mọi người.",
+     "ctx": "xuong"
+    }
+   ],
+   "reply": [
+    {
+     "jp": "はじめまして。田中[たなか]です。どうぞよろしく。",
+     "vi": "Rất hân hạnh, tôi là Tanaka. Mong được giúp đỡ."
+    }
+   ]
+  },
+  {
+   "id": "v:よろしくお願いします:よろしくおねがいします",
+   "kana": "よろしくおねがいします",
+   "kanji": "よろしくお願いします",
+   "kf": "よろしくお願[ねが]いします",
+   "hv": "NGUYỆN",
+   "vi": "mong được giúp đỡ",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Làm quen",
+   "reg": "lichsu",
+   "ex": [
+    {
+     "jp": "ベトナムから来[き]ました。よろしくお願[ねが]いします。",
+     "vi": "Tôi đến từ Việt Nam. Mong được mọi người giúp đỡ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：じゃあ、明日[あした]から来[き]てください。 B：はい、よろしくお願[ねが]いします。",
+     "vi": "A: Vậy từ mai anh đến làm nhé. B: Vâng, mong anh giúp đỡ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:お願いします:おねがいします"
+   ],
+   "note": "Câu cuối khi tự giới thiệu, và khi nhờ việc.",
+   "reply": [
+    {
+     "jp": "こちらこそ、よろしくお願[ねが]いします。",
+     "vi": "Tôi cũng mong được anh/chị giúp đỡ."
+    }
+   ]
+  },
+  {
+   "id": "v:いってきます:いってきます",
+   "kana": "いってきます",
+   "kanji": "",
+   "hv": "",
+   "vi": "tôi đi đây",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Ra vào nhà",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いってきます。",
+     "vi": "Con đi đây.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "じゃあ、仕事[しごと]にいってきます。",
+     "vi": "Thôi, anh đi làm đây.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:いってらっしゃい:いってらっしゃい"
+   ],
+   "reply": [
+    {
+     "jp": "いってらっしゃい。",
+     "vi": "Đi nhé."
+    }
+   ]
+  },
+  {
+   "id": "v:いってらっしゃい:いってらっしゃい",
+   "kana": "いってらっしゃい",
+   "kanji": "",
+   "hv": "",
+   "vi": "đi nhé (người ở nhà đáp)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Ra vào nhà",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いってらっしゃい。気[き]をつけて。",
+     "vi": "Đi nhé. Cẩn thận đấy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：銀行[ぎんこう]に行[い]ってきます。 B：はい、いってらっしゃい。",
+     "vi": "A: Tôi đi ngân hàng một chút. B: Vâng, anh đi nhé.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:いってきます:いってきます"
+   ],
+   "reply": [
+    {
+     "jp": "いってきます。",
+     "vi": "Tôi đi đây."
+    }
+   ]
+  },
+  {
+   "id": "v:ただいま:ただいま",
+   "kana": "ただいま",
+   "kanji": "",
+   "hv": "",
+   "vi": "tôi về rồi",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Ra vào nhà",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ただいま。",
+     "vi": "Con về rồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：ただいま戻[もど]りました。 B：お疲[つか]れ様[さま]です。",
+     "vi": "A: Tôi về rồi ạ. B: Anh vất vả rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:おかえりなさい:おかえりなさい"
+   ],
+   "reply": [
+    {
+     "jp": "おかえりなさい。",
+     "vi": "Mừng anh/chị về."
+    }
+   ]
+  },
+  {
+   "id": "v:おかえりなさい:おかえりなさい",
+   "kana": "おかえりなさい",
+   "kanji": "",
+   "hv": "",
+   "vi": "mừng về nhà (người ở nhà đáp)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Ra vào nhà",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "おかえりなさい。",
+     "vi": "Về rồi đấy à.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：ただいま。 B：おかえりなさい。寒[さむ]かったでしょう。",
+     "vi": "A: Anh về rồi đây. B: Anh về rồi à. Chắc lạnh lắm nhỉ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:ただいま:ただいま"
+   ],
+   "reply": [
+    {
+     "jp": "ただいま。",
+     "vi": "Tôi về rồi."
+    }
+   ]
+  },
+  {
+   "id": "v:どうぞ:どうぞ",
+   "kana": "どうぞ",
+   "kanji": "",
+   "hv": "",
+   "vi": "xin mời",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Nhờ vả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "どうぞ、座[すわ]ってください。",
+     "vi": "Xin mời ngồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このペン、借[か]りてもいいですか。 B：はい、どうぞ。",
+     "vi": "A: Tôi mượn cây bút này được không? B: Vâng, xin mời.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "reply": [
+    {
+     "jp": "どうも。",
+     "vi": "Cảm ơn."
+    },
+    {
+     "jp": "ありがとうございます。",
+     "vi": "Cảm ơn ạ."
+    }
+   ]
+  },
+  {
+   "id": "v:はい:はい",
+   "kana": "はい",
+   "kanji": "",
+   "hv": "",
+   "vi": "vâng, có (đáp lời)",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Trả lời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "はい、そうです。",
+     "vi": "Vâng, đúng vậy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：在留[ざいりゅう]カードはありますか。 B：はい、これです。",
+     "vi": "A: Anh có thẻ cư trú không? B: Vâng, đây ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:いいえ:いいえ"
+   ],
+   "note": "Ở xưởng, khi được gọi tên thì đáp to: はい！"
+  },
+  {
+   "id": "v:いいえ:いいえ",
+   "kana": "いいえ",
+   "kanji": "",
+   "hv": "",
+   "vi": "không",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Trả lời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いいえ、違[ちが]います。",
+     "vi": "Không, không phải.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：たばこを吸[す]いますか。 B：いいえ、吸[す]いません。",
+     "vi": "A: Anh có hút thuốc không? B: Không, tôi không hút.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:はい:はい"
+   ],
+   "note": "Khẩu ngữ hay dùng いや hoặc ううん."
+  },
+  {
+   "id": "v:そうですか:そうですか",
+   "kana": "そうですか",
+   "kanji": "",
+   "hv": "",
+   "vi": "vậy à",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Trả lời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "そうですか。わかりました。",
+     "vi": "Vậy à. Tôi hiểu rồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：明日[あした]は休[やす]みですよ。 B：あ、そうですか。",
+     "vi": "A: Mai được nghỉ đấy. B: À, vậy à.",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:わかりました:わかりました",
+   "kana": "わかりました",
+   "kanji": "",
+   "hv": "",
+   "vi": "tôi hiểu rồi; vâng ạ",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Trả lời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "わかりました。すぐやります。",
+     "vi": "Vâng ạ. Tôi làm ngay.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：来週[らいしゅう]、この紙[かみ]を持[も]って来[き]てください。 B：わかりました。",
+     "vi": "A: Tuần sau anh mang tờ giấy này đến nhé. B: Vâng, tôi hiểu rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Với cấp trên lịch sự hơn: かしこまりました / 承知[しょうち]しました."
+  },
+  {
+   "id": "v:どういたしまして:どういたしまして",
+   "kana": "どういたしまして",
+   "kanji": "",
+   "hv": "",
+   "vi": "không có gì",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Cảm ơn, xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "A：ありがとう。B：どういたしまして。",
+     "vi": "A: Cảm ơn. B: Không có gì.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "A：ペン、ありがとうございました。 B：いいえ、どういたしまして。",
+     "vi": "A: Cảm ơn anh cây bút. B: Không có gì đâu.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:ありがとうございます:ありがとうございます"
+   ]
+  },
+  {
+   "id": "v:おめでとうございます:おめでとうございます",
+   "kana": "おめでとうございます",
+   "kanji": "",
+   "hv": "",
+   "vi": "chúc mừng",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Chúc mừng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "誕生日[たんじょうび]、おめでとうございます。",
+     "vi": "Chúc mừng sinh nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：来月[らいげつ]、結婚[けっこん]します。 B：わあ、おめでとうございます。",
+     "vi": "A: Tháng sau tôi kết hôn. B: Ôi, chúc mừng anh.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "reply": [
+    {
+     "jp": "ありがとうございます。",
+     "vi": "Cảm ơn."
+    }
+   ]
+  },
+  {
+   "id": "v:いらっしゃいませ:いらっしゃいませ",
+   "kana": "いらっしゃいませ",
+   "kanji": "",
+   "hv": "",
+   "vi": "kính chào quý khách",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Chúc mừng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いらっしゃいませ。",
+     "vi": "Kính chào quý khách.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "いらっしゃいませ。こちらへどうぞ。",
+     "vi": "Kính chào quý khách. Mời quý khách đi lối này.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Câu nhân viên cửa hàng nói; khách không cần đáp."
+  },
+  {
+   "id": "v:お大事に:おだいじに",
+   "kana": "おだいじに",
+   "kanji": "お大事に",
+   "kf": "お大事[だいじ]に",
+   "hv": "ĐẠI SỰ",
+   "vi": "mau khỏe nhé",
+   "pos": "expr",
+   "level": "N5",
+   "topics": [
+    "jlpt",
+    "doisong"
+   ],
+   "sub": "Chúc mừng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "風邪[かぜ]ですか。お大事[だいじ]に。",
+     "vi": "Bị cảm à? Mau khỏe nhé.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：すみません、熱[ねつ]があります。今日[きょう]は休[やす]みます。 B：わかりました。お大事[だいじ]に。",
+     "vi": "A: Xin lỗi, tôi bị sốt. Hôm nay tôi xin nghỉ. B: Được rồi. Mau khỏe nhé.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "reply": [
+    {
+     "jp": "ありがとうございます。",
+     "vi": "Cảm ơn."
+    }
+   ]
+  }
+ ]
 }

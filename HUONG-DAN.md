@@ -858,3 +858,24 @@ Nhờ vậy các dạng bài Sắp xếp câu, Tìm chỗ sai, Chọn cách nói
 **Tệp:**
 - Mã: `css/app.css`, `js/fxcore.js`, `js/season.js`, `js/settings.js`, `js/fxpanel.js`, `js/settingspage.js`, `js/util.js`, `sw.js`.
 - Dữ liệu: `data/packs/nguphap-n5-02.json` … `nguphap-n5-12.json`, `data/manifest.json`.
+
+## 52. Bản v43 (20/10/2026): chòm sao hết giật; thêm gần 950 câu ví dụ từ vựng
+
+**Chòm sao không còn thỉnh thoảng giật.** Trước đây bầu trời đêm bị gieo lại từ đầu (chòm sao, sao, mây nhảy sang chỗ khác) trong các trường hợp sau:
+- Thanh địa chỉ của trình duyệt điện thoại hiện / ẩn khi cuộn trang.
+- Quay lại app.
+- Lưu một cài đặt bất kỳ.
+- Mỗi 10 phút app làm mới thời tiết.
+
+Nay bầu trời chỉ đặt lại khi thật sự cần: sang tháng mới (đổi chòm theo mùa), xoay máy, đổi mật độ hiệu ứng, bật / tắt chòm sao. Tên chòm sao cũng không phải đo lại mỗi khung hình.
+
+**Câu ví dụ từ vựng:** thêm 948 câu, mỗi câu một tình huống khác với các câu đã có (đời sống, ở xưởng, giấy tờ, hội thoại, giọng Kansai):
+- N5: mọi từ có ít nhất 2 câu, động từ và tính từ có ít nhất 3 câu.
+- N3: động từ và tính từ có ít nhất 3 câu.
+- Các gói chủ đề (xưởng, thủy sản, thuế – visa, Kansai) và hai gói N2.
+
+Câu ví dụ cũ chưa ghi tình huống nay được gắn nhãn, nên thẻ từ xếp câu theo nhóm tình huống.
+
+**Tệp:**
+- Mã: `js/fxcore.js`, `js/season.js`, `js/util.js`, `sw.js`.
+- Dữ liệu: các gói `jlpt-n5-*`, `jlpt-n3-*`, `xuong-*`, `thuysan-*`, `kansai-01`, `thuevisa-01`, `jlpt-n2-23`, `jlpt-n2-33`, `data/manifest.json`.

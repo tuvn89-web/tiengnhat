@@ -1,1295 +1,1305 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n3-25",
-    "title": "JLPT N3 25 – Tuổi tác, gia đình & cuộc đời",
-    "type": "vocab",
-    "level": "N3",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 5,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-25",
+  "title": "JLPT N3 25 – Tuổi tác, gia đình & cuộc đời",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 6,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:成長:せいちょう",
+   "kana": "せいちょう",
+   "kanji": "成長",
+   "hv": "THÀNH TRƯỞNG",
+   "vi": "trưởng thành, lớn lên; tăng trưởng",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:成長:せいちょう",
-      "kana": "せいちょう",
-      "kanji": "成長",
-      "hv": "THÀNH TRƯỞNG",
-      "vi": "trưởng thành, lớn lên; tăng trưởng",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "子[こ]どもの成長[せいちょう]は、本当[ほんとう]に早[はや]いです。",
-          "vi": "Trẻ con lớn nhanh thật.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "会社[かいしゃ]が、少[すこ]しずつ成長[せいちょう]しています。",
-          "vi": "Công ty đang tăng trưởng dần.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "子[こ]どもが成長[せいちょう]する",
-          "vi": "trẻ lớn lên"
-        }
-      ],
-      "syn": [
-        "v:育つ:そだつ"
-      ]
+     "jp": "子[こ]どもの成長[せいちょう]は、本当[ほんとう]に早[はや]いです。",
+     "vi": "Trẻ con lớn nhanh thật.",
+     "ctx": "doisong"
     },
     {
-      "id": "v:青年:せいねん",
-      "kana": "せいねん",
-      "kanji": "青年",
-      "hv": "THANH NIÊN",
-      "vi": "thanh niên",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "元気[げんき]な青年[せいねん]が、工場[こうじょう]に入[はい]りました。",
-          "vi": "Một thanh niên khỏe mạnh vào làm ở nhà máy.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "青年[せいねん]の時[とき]の夢[ゆめ]を、思[おも]い出[だ]しました。",
-          "vi": "Tôi nhớ lại ước mơ thời thanh niên.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:少年:しょうねん",
-      "kana": "しょうねん",
-      "kanji": "少年",
-      "hv": "THIẾU NIÊN",
-      "vi": "thiếu niên (nam)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "少年[しょうねん]が、川[かわ]で魚[さかな]を釣[つ]っています。",
-          "vi": "Một cậu thiếu niên đang câu cá ở sông.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "少年[しょうねん]の時[とき]から、サッカーをしています。",
-          "vi": "Tôi chơi bóng đá từ hồi thiếu niên.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:少女:しょうじょ"
-      ]
-    },
-    {
-      "id": "v:少女:しょうじょ",
-      "kana": "しょうじょ",
-      "kanji": "少女",
-      "hv": "THIẾU NỮ",
-      "vi": "thiếu nữ",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "少女[しょうじょ]が、花[はな]を売[う]っていました。",
-          "vi": "Một cô bé đang bán hoa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "その少女[しょうじょ]は、今[いま]は医者[いしゃ]になっている。",
-          "vi": "Cô bé ấy giờ đã thành bác sĩ.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:少年:しょうねん"
-      ]
-    },
-    {
-      "id": "v:老人:ろうじん",
-      "kana": "ろうじん",
-      "kanji": "老人",
-      "hv": "LÃO NHÂN",
-      "vi": "người già",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "町[まち]には、一人[ひとり]で暮[く]らす老人[ろうじん]が多[おお]いです。",
-          "vi": "Thị trấn có nhiều người già sống một mình.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "老人[ろうじん]ホームで、ボランティアをしました。",
-          "vi": "Tôi làm tình nguyện ở viện dưỡng lão.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:年寄り:としより"
-      ],
-      "note": "Lịch sự hơn: お年寄[としよ]り, 高齢者[こうれいしゃ]."
-    },
-    {
-      "id": "v:年寄り:としより",
-      "kana": "としより",
-      "kanji": "年寄り",
-      "kf": "年寄[としよ]り",
-      "hv": "NIÊN KÝ",
-      "vi": "người cao tuổi (thường nói kèm \"o\" lịch sự)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "お年寄[としよ]りに、席[せき]を譲[ゆず]りましょう。",
-          "vi": "Hãy nhường ghế cho người già.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "村[むら]には、お年寄[としよ]りしかいません。",
-          "vi": "Làng chỉ còn người già.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:老人:ろうじん"
-      ]
-    },
-    {
-      "id": "v:人生:じんせい",
-      "kana": "じんせい",
-      "kanji": "人生",
-      "hv": "NHÂN SINH",
-      "vi": "đời người",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "日本[にほん]に来[き]て、人生[じんせい]が変[か]わりました。",
-          "vi": "Sang Nhật, cuộc đời tôi đã thay đổi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "人生[じんせい]は一度[いちど]だけです。",
-          "vi": "Đời người chỉ có một lần.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:誕生:たんじょう",
-      "kana": "たんじょう",
-      "kanji": "誕生",
-      "hv": "ĐẢN SINH",
-      "vi": "ra đời, sinh ra",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "姉[あね]に、赤[あか]ちゃんが誕生[たんじょう]しました。",
-          "vi": "Chị gái bạn tôi vừa sinh em bé.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新[あたら]しい工場[こうじょう]が、来年[らいねん]誕生[たんじょう]します。",
-          "vi": "Nhà máy mới sẽ ra đời năm sau.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "赤[あか]ちゃんが誕生[たんじょう]する",
-          "vi": "em bé ra đời"
-        }
-      ],
-      "note": "誕生日[たんじょうび] = sinh nhật."
-    },
-    {
-      "id": "v:生まれ:うまれ",
-      "kana": "うまれ",
-      "kanji": "生まれ",
-      "kf": "生[う]まれ",
-      "hv": "SINH",
-      "vi": "nơi sinh, năm sinh",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "私[わたし]は、二[に]〇〇〇年[とし]生[う]まれです。",
-          "vi": "Tôi sinh năm 2000.",
-          "ctx": "hoithoai"
-        },
-        {
-          "jp": "田中[たなか]さんは、大阪[おおさか]の生[う]まれです。",
-          "vi": "Anh Tanaka sinh ra ở Osaka.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:生まれる:うまれる"
-      ]
-    },
-    {
-      "id": "v:孫:まご",
-      "kana": "まご",
-      "kanji": "孫",
-      "hv": "TÔN",
-      "vi": "cháu (của ông bà)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "田中[たなか]さんには、孫[まご]が三人[さんにん]います。",
-          "vi": "Anh Tanaka có ba đứa cháu.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "孫[まご]の写真[しゃしん]を見[み]せてもらいました。",
-          "vi": "Tôi được cho xem ảnh cháu.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "お孫[まご]さん = cháu (người khác)."
-    },
-    {
-      "id": "v:夫婦:ふうふ",
-      "kana": "ふうふ",
-      "kanji": "夫婦",
-      "hv": "PHU PHỤ",
-      "vi": "vợ chồng",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "隣[となり]の夫婦[ふうふ]は、とても仲[なか]がいいです。",
-          "vi": "Vợ chồng nhà bên rất hòa thuận.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "夫婦[ふうふ]で、同[おな]じ工場[こうじょう]で働[はたら]いています。",
-          "vi": "Hai vợ chồng làm cùng một nhà máy.",
-          "ctx": "xuong"
-        }
-      ]
-    },
-    {
-      "id": "v:双子:ふたご",
-      "kana": "ふたご",
-      "kanji": "双子",
-      "hv": "SONG TỬ",
-      "vi": "sinh đôi",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "鈴木[すずき]さんの子[こ]どもは、双子[ふたご]です。",
-          "vi": "Con anh Suzuki là sinh đôi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "双子[ふたご]なのに、性格[せいかく]が全然[ぜんぜん]違[ちが]う。",
-          "vi": "Sinh đôi mà tính cách khác hẳn.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:父親:ちちおや",
-      "kana": "ちちおや",
-      "kanji": "父親",
-      "hv": "PHỤ THÂN",
-      "vi": "người cha",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]は、いい父親[ちちおや]です。",
-          "vi": "Anh ấy là người cha tốt.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "父親[ちちおや]として、家族[かぞく]を守[まも]りたい。",
-          "vi": "Là cha, tôi muốn bảo vệ gia đình.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:母親:ははおや"
-      ],
-      "note": "Nói về cha mình với người ngoài: 父[ちち]."
-    },
-    {
-      "id": "v:母親:ははおや",
-      "kana": "ははおや",
-      "kanji": "母親",
-      "hv": "MẪU THÂN",
-      "vi": "người mẹ",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "母親[ははおや]に、毎週[まいしゅう]電話[でんわ]します。",
-          "vi": "Tuần nào tôi cũng gọi điện cho mẹ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "母親[ははおや]の料理[りょうり]が、一番[いちばん]おいしい。",
-          "vi": "Món mẹ nấu ngon nhất.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:父親:ちちおや"
-      ]
-    },
-    {
-      "id": "v:親戚:しんせき",
-      "kana": "しんせき",
-      "kanji": "親戚",
-      "hv": "THÂN THÍCH",
-      "vi": "thân thích, họ hàng",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "お正月[しょうがつ]に、親戚[しんせき]が集[あつ]まります。",
-          "vi": "Tết họ hàng tụ họp.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "日本[にほん]に、親戚[しんせき]はいますか。",
-          "vi": "Ở Nhật anh có họ hàng không?",
-          "ctx": "hoithoai"
-        }
-      ]
-    },
-    {
-      "id": "v:従兄弟:いとこ",
-      "kana": "いとこ",
-      "kanji": "従兄弟",
-      "hv": "TÒNG HUYNH ĐỆ",
-      "vi": "anh chị em họ",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "いとこが、大阪[おおさか]に住[す]んでいます。",
-          "vi": "Anh họ tôi sống ở Osaka.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "いとこの結婚式[けっこんしき]に行[い]きました。",
-          "vi": "Tôi đi đám cưới em họ.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Thường viết いとこ. Chữ Hán: 従兄弟[いとこ] (nam), 従姉妹[いとこ] (nữ)."
-    },
-    {
-      "id": "v:姉妹:しまい",
-      "kana": "しまい",
-      "kanji": "姉妹",
-      "hv": "TỶ MUỘI",
-      "vi": "chị em gái",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "マリアさんは、三人[さんにん]姉妹[しまい]です。",
-          "vi": "Chị Maria có ba chị em gái.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "姉妹都市[しまいとし]",
-          "vi": "thành phố kết nghĩa",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "姉妹都市[しまいとし] = thành phố kết nghĩa."
-    },
-    {
-      "id": "v:独身:どくしん",
-      "kana": "どくしん",
-      "kanji": "独身",
-      "hv": "ĐỘC THÂN",
-      "vi": "độc thân",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "佐藤[さとう]さんは、まだ独身[どくしん]です。",
-          "vi": "Anh Sato vẫn còn độc thân.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "独身[どくしん]の人[ひと]は、寮[りょう]に住[す]めます。",
-          "vi": "Người độc thân được ở ký túc xá.",
-          "ctx": "xuong"
-        }
-      ]
-    },
-    {
-      "id": "v:離婚:りこん",
-      "kana": "りこん",
-      "kanji": "離婚",
-      "hv": "LY HÔN",
-      "vi": "ly hôn",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "二人[ふたり]は、去年[きょねん]離婚[りこん]したそうです。",
-          "vi": "Nghe nói hai người đã ly hôn năm ngoái.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "離婚[りこん]の手続[てつづ]きは、市役所[しやくしょ]でします。",
-          "vi": "Thủ tục ly hôn làm ở tòa thị chính.",
-          "ctx": "thutuc"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "〜と離婚[りこん]する",
-          "vi": "ly hôn với …"
-        }
-      ]
-    },
-    {
-      "id": "v:恋:こい",
-      "kana": "こい",
-      "kanji": "恋",
-      "hv": "LUYẾN",
-      "vi": "phải lòng, yêu; tình yêu đôi lứa",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "初[はじ]めての恋[こい]は、十六歳[じゅうろくさい]でした。",
-          "vi": "Mối tình đầu năm 16 tuổi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "彼[かれ]は、恋[こい]をして、明[あか]るくなった。",
-          "vi": "Anh ấy yêu nên vui vẻ hẳn.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "恋[こい]をする",
-          "vi": "yêu, phải lòng"
-        }
-      ],
-      "note": "Đồng âm: 濃[こ]い (đậm)."
-    },
-    {
-      "id": "v:恋人:こいびと",
-      "kana": "こいびと",
-      "kanji": "恋人",
-      "hv": "LUYẾN NHÂN",
-      "vi": "người yêu",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "恋人[こいびと]は、ベトナムにいます。",
-          "vi": "Người yêu tôi ở Việt Nam.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "恋人[こいびと]と、花火[はなび]を見[み]に行[い]きました。",
-          "vi": "Tôi đi xem pháo hoa với người yêu.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        {
-          "w": "彼氏[かれし]",
-          "vi": "bạn trai"
-        },
-        {
-          "w": "彼女[かのじょ]",
-          "vi": "bạn gái"
-        }
-      ]
-    },
-    {
-      "id": "v:愛:あい",
-      "kana": "あい",
-      "kanji": "愛",
-      "hv": "ÁI",
-      "vi": "tình yêu (nói chung), lòng yêu thương",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "家族[かぞく]の愛[あい]に支[ささ]えられています。",
-          "vi": "Tôi được tình thương gia đình nâng đỡ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "愛[あい]のある仕事[しごと]をしたい。",
-          "vi": "Muốn làm việc bằng cả tấm lòng.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:愛する:あいする"
-      ]
-    },
-    {
-      "id": "v:愛情:あいじょう",
-      "kana": "あいじょう",
-      "kanji": "愛情",
-      "hv": "ÁI TÌNH",
-      "vi": "tình cảm, tình thương",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "母[はは]の愛情[あいじょう]を、今[いま]も感[かん]じます。",
-          "vi": "Đến giờ tôi vẫn cảm nhận tình thương của mẹ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "愛情[あいじょう]を込[こ]めて、料理[りょうり]を作[つく]ります。",
-          "vi": "Nấu ăn bằng cả tình cảm.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:愛する:あいする",
-      "kana": "あいする",
-      "kanji": "愛する",
-      "kf": "愛[あい]する",
-      "hv": "ÁI",
-      "vi": "yêu thương",
-      "pos": "v3",
-      "level": "N3",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "家族[かぞく]を愛[あい]しています。",
-          "vi": "Tôi yêu gia đình.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "愛[あい]する人[ひと]のために、働[はたら]いています。",
-          "vi": "Tôi làm việc vì người mình yêu thương.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "彼[かれ]は、自分[じぶん]の仕事[しごと]を愛[あい]している。",
-          "vi": "Anh ấy yêu công việc của mình.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "家族[かぞく]を愛[あい]する",
-          "vi": "yêu gia đình"
-        }
-      ],
-      "note": "Nói thường hay dùng 好[す]き / 大好[だいす]き; 愛[あい]する nghe trang trọng, văn chương."
-    },
-    {
-      "id": "v:産む:うむ",
-      "kana": "うむ",
-      "kanji": "産む",
-      "kf": "産[う]む",
-      "hv": "SẢN",
-      "vi": "sinh (con), đẻ",
-      "pos": "v5",
-      "level": "N3",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "姉[あね]が、男[おとこ]の子[こ]を産[う]みました。",
-          "vi": "Chị bạn tôi sinh con trai.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "鮭[さけ]は、川[かわ]に戻[もど]って卵[たまご]を産[う]みます。",
-          "vi": "Cá hồi quay về sông đẻ trứng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "新[あたら]しい技術[ぎじゅつ]は、新[あたら]しい仕事[しごと]を産[う]みます。",
-          "vi": "Kỹ thuật mới đẻ ra việc làm mới.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "子[こ]どもを産[う]む",
-          "vi": "sinh con"
-        },
-        {
-          "jp": "卵[たまご]を産[う]む",
-          "vi": "đẻ trứng"
-        }
-      ],
-      "note": "Đồng âm: 生[う]む (tạo ra – nghĩa rộng)."
-    },
-    {
-      "id": "v:亡くす:なくす",
-      "kana": "なくす",
-      "kanji": "亡くす",
-      "kf": "亡[な]くす",
-      "hv": "VONG",
-      "vi": "mất (người thân qua đời)",
-      "pos": "v5",
-      "level": "N3",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]は、子[こ]どもの時[とき]に父親[ちちおや]を亡[な]くしました。",
-          "vi": "Anh ấy mất cha từ nhỏ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "大切[たいせつ]な人[ひと]を亡[な]くして、悲[かな]しんでいる。",
-          "vi": "Mất người quan trọng, anh ấy đau buồn.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        {
-          "w": "無[な]くす",
-          "vi": "làm mất (đồ)"
-        }
-      ],
-      "note": "亡[な]くす = mất người (qua đời); 無[な]くす = làm mất đồ."
-    },
-    {
-      "id": "v:一家:いっか",
-      "kana": "いっか",
-      "kanji": "一家",
-      "hv": "NHẤT GIA",
-      "vi": "cả nhà (một hộ)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "鈴木[すずき]さん一家[いっか]は、海[うみ]の近[ちか]くに住[す]んでいます。",
-          "vi": "Gia đình anh Suzuki sống gần biển.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "一家[いっか]で、温泉[おんせん]に行[い]きました。",
-          "vi": "Cả nhà đi suối nước nóng.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:成人:せいじん",
-      "kana": "せいじん",
-      "kanji": "成人",
-      "hv": "THÀNH NHÂN",
-      "vi": "trưởng thành, đến tuổi thành niên; người trưởng thành",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "日本[にほん]では、十八歳[じゅうはっさい]で成人[せいじん]です。",
-          "vi": "Ở Nhật 18 tuổi là thành niên.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "成人[せいじん]の日[ひ]に、着物[きもの]を着[き]ました。",
-          "vi": "Ngày Thành nhân tôi mặc kimono.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "成人[せいじん]の日[ひ] = ngày lễ Thành nhân (thứ Hai thứ hai của tháng 1)."
-    },
-    {
-      "id": "v:共に:ともに",
-      "kana": "ともに",
-      "kanji": "共に",
-      "kf": "共[とも]に",
-      "hv": "CỘNG",
-      "vi": "cùng nhau; cùng với",
-      "pos": "adv",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "家族[かぞく]と共[とも]に、日本[にほん]で暮[く]らしたい。",
-          "vi": "Muốn sống ở Nhật cùng gia đình.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "仲間[なかま]と共[とも]に、目標[もくひょう]を達成[たっせい]しました。",
-          "vi": "Cùng đồng đội đạt mục tiêu.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        "v:一緒に:いっしょに"
-      ],
-      "note": "Ngữ pháp 〜とともに (bài 16)."
-    },
-    {
-      "id": "v:お互い:おたがい",
-      "kana": "おたがい",
-      "kanji": "お互い",
-      "kf": "お互[たが]い",
-      "hv": "HỖ",
-      "vi": "lẫn nhau",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "お互[たが]いに、助[たす]け合[あ]いましょう。",
-          "vi": "Hãy giúp đỡ lẫn nhau.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "お互[たが]いの国[くに]の言葉[ことば]を、教[おし]え合[あ]っています。",
-          "vi": "Chúng tôi dạy nhau tiếng nước mình.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "お互[たが]い様[さま] = ai cũng như nhau (khi đáp lời cảm ơn, xin lỗi)."
-    },
-    {
-      "id": "v:自身:じしん",
-      "kana": "じしん",
-      "kanji": "自身",
-      "hv": "TỰ THÂN",
-      "vi": "chính mình (nhấn mạnh)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "自分自身[じぶんじしん]で、決[き]めてください。",
-          "vi": "Hãy tự bản thân quyết định.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "彼[かれ]自身[じしん]も、ミスに気付[きづ]いていなかった。",
-          "vi": "Chính anh ấy cũng không nhận ra lỗi.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:地震:じしん"
-      ]
-    },
-    {
-      "id": "v:自己:じこ",
-      "kana": "じこ",
-      "kanji": "自己",
-      "hv": "TỰ KỶ",
-      "vi": "tự thân (trong từ ghép: tự giới thiệu…)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "面接[めんせつ]で、自己[じこ]紹介[しょうかい]をしました。",
-          "vi": "Tôi tự giới thiệu trong buổi phỏng vấn.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "自己責任[じこせきにん]で、判断[はんだん]してください。",
-          "vi": "Hãy tự chịu trách nhiệm phán đoán.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:事故:じこ"
-      ],
-      "note": "自己紹介[じこしょうかい] = tự giới thiệu."
-    },
-    {
-      "id": "v:生命:せいめい",
-      "kana": "せいめい",
-      "kanji": "生命",
-      "hv": "SINH MỆNH",
-      "vi": "sinh mạng, sự sống",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "生命保険[せいめいほけん]に入[はい]りました。",
-          "vi": "Tôi mua bảo hiểm nhân thọ.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "海[うみ]は、生命[せいめい]の始[はじ]まりです。",
-          "vi": "Biển là khởi nguồn sự sống.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:命:いのち"
-      ],
-      "note": "生命保険[せいめいほけん] = bảo hiểm nhân thọ."
-    },
-    {
-      "id": "v:命:いのち",
-      "kana": "いのち",
-      "kanji": "命",
-      "hv": "MỆNH",
-      "vi": "mạng sống",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "安全[あんぜん]は、命[いのち]を守[まも]るためのルールです。",
-          "vi": "An toàn là quy tắc để bảo vệ mạng sống.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "命[いのち]より大切[たいせつ]な物[もの]は、ありません。",
-          "vi": "Không có gì quý hơn mạng sống.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:生命:せいめい"
-      ]
-    },
-    {
-      "id": "v:したがって:したがって",
-      "kana": "したがって",
-      "kanji": "",
-      "hv": "",
-      "vi": "do đó, vì vậy (văn viết)",
-      "pos": "other",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "雨[あめ]が続[つづ]いています。したがって、作業[さぎょう]は中止[ちゅうし]です。",
-          "vi": "Mưa kéo dài. Do đó công việc hủy.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "人口[じんこう]が減[へ]っている。したがって、働[はたら]く人[ひと]も減[へ]る。",
-          "vi": "Dân số giảm. Vì vậy người lao động cũng giảm.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:だから:だから"
-      ],
-      "note": "Văn viết. Ngữ pháp 〜にしたがって (bài 16) là nghĩa khác: \"theo …, càng … càng\"."
-    },
-    {
-      "id": "v:主婦:しゅふ",
-      "kana": "しゅふ",
-      "kanji": "主婦",
-      "hv": "CHỦ PHỤ",
-      "vi": "nội trợ",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "母[はは]は、主婦[しゅふ]です。",
-          "vi": "Mẹ tôi làm nội trợ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "パートで働[はたら]く主婦[しゅふ]も多[おお]いです。",
-          "vi": "Nhiều bà nội trợ làm bán thời gian.",
-          "ctx": "xuong"
-        }
-      ]
-    },
-    {
-      "id": "v:女子:じょし",
-      "kana": "じょし",
-      "kanji": "女子",
-      "hv": "NỮ TỬ",
-      "vi": "nữ giới (khu, đội nữ), nữ sinh",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "女子[じょし]トイレは、二階[にかい]です。",
-          "vi": "Nhà vệ sinh nữ ở tầng 2.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "女子[じょし]の社員[しゃいん]が、増[ふ]えました。",
-          "vi": "Nhân viên nữ tăng lên.",
-          "ctx": "xuong"
-        }
-      ],
-      "ant": [
-        "v:男子:だんし"
-      ]
-    },
-    {
-      "id": "v:男子:だんし",
-      "kana": "だんし",
-      "kanji": "男子",
-      "hv": "NAM TỬ",
-      "vi": "nam giới (khu, đội nam), nam sinh",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "男子[だんし]の更衣室[こういしつ]は、こちらです。",
-          "vi": "Phòng thay đồ nam ở đây.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "男子[だんし]と女子[じょし]に分[わ]かれて、作業[さぎょう]します。",
-          "vi": "Chia nam nữ ra làm việc.",
-          "ctx": "xuong"
-        }
-      ],
-      "ant": [
-        "v:女子:じょし"
-      ]
-    },
-    {
-      "id": "v:居間:いま",
-      "kana": "いま",
-      "kanji": "居間",
-      "hv": "CƯ GIAN",
-      "vi": "phòng khách (gia đình)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "家族[かぞく]が、居間[いま]でテレビを見[み]ています。",
-          "vi": "Gia đình đang xem ti vi ở phòng khách.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "居間[いま]に、ソファーを置[お]きました。",
-          "vi": "Tôi đặt ghế sofa ở phòng khách.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        {
-          "w": "リビング",
-          "vi": "phòng khách"
-        }
-      ],
-      "confuse": [
-        "v:今:いま"
-      ]
-    },
-    {
-      "id": "v:家事:かじ",
-      "kana": "かじ",
-      "kanji": "家事",
-      "hv": "GIA SỰ",
-      "vi": "việc nhà",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "夫婦[ふうふ]で、家事[かじ]を分[わ]けています。",
-          "vi": "Vợ chồng chia việc nhà.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "仕事[しごと]と家事[かじ]で、毎日[まいにち]忙[いそが]しいです。",
-          "vi": "Việc làm và việc nhà, ngày nào cũng bận.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:火事:かじ"
-      ]
-    },
-    {
-      "id": "v:毛布:もうふ",
-      "kana": "もうふ",
-      "kanji": "毛布",
-      "hv": "MAO BỐ",
-      "vi": "chăn lông",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "寒[さむ]いので、毛布[もうふ]を出[だ]しました。",
-          "vi": "Lạnh nên tôi lấy chăn ra.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "毛布[もうふ]を、ベランダに干[ほ]します。",
-          "vi": "Phơi chăn ngoài ban công.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:ソファー:ソファー",
-      "kana": "ソファー",
-      "kanji": "",
-      "hv": "",
-      "vi": "ghế sofa",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Gia đình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ソファーで寝[ね]てしまいました。",
-          "vi": "Tôi lỡ ngủ quên trên sofa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "中古[ちゅうこ]のソファーを買[か]いました。",
-          "vi": "Tôi mua ghế sofa cũ.",
-          "ctx": "doisong"
-        }
-      ],
-      "goc": "sofa (tiếng Anh)"
-    },
-    {
-      "id": "v:不自由:ふじゆう",
-      "kana": "ふじゆう",
-      "kanji": "不自由",
-      "hv": "BẤT TỰ DO",
-      "vi": "khó khăn, bất tiện (đi lại, sinh hoạt); không tự do",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cuộc đời",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "言葉[ことば]が分[わ]からなくて、不自由[ふじゆう]しています。",
-          "vi": "Không biết tiếng nên bất tiện.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "足[あし]の不自由[ふじゆう]な人[ひと]のために、エレベーターがあります。",
-          "vi": "Có thang máy cho người đi lại khó khăn.",
-          "ctx": "doisong"
-        }
-      ],
-      "ant": [
-        "v:自由:じゆう"
-      ]
+     "jp": "会社[かいしゃ]が、少[すこ]しずつ成長[せいちょう]しています。",
+     "vi": "Công ty đang tăng trưởng dần.",
+     "ctx": "xuong"
     }
-  ]
+   ],
+   "coll": [
+    {
+     "jp": "子[こ]どもが成長[せいちょう]する",
+     "vi": "trẻ lớn lên"
+    }
+   ],
+   "syn": [
+    "v:育つ:そだつ"
+   ]
+  },
+  {
+   "id": "v:青年:せいねん",
+   "kana": "せいねん",
+   "kanji": "青年",
+   "hv": "THANH NIÊN",
+   "vi": "thanh niên",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "元気[げんき]な青年[せいねん]が、工場[こうじょう]に入[はい]りました。",
+     "vi": "Một thanh niên khỏe mạnh vào làm ở nhà máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "青年[せいねん]の時[とき]の夢[ゆめ]を、思[おも]い出[だ]しました。",
+     "vi": "Tôi nhớ lại ước mơ thời thanh niên.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:少年:しょうねん",
+   "kana": "しょうねん",
+   "kanji": "少年",
+   "hv": "THIẾU NIÊN",
+   "vi": "thiếu niên (nam)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "少年[しょうねん]が、川[かわ]で魚[さかな]を釣[つ]っています。",
+     "vi": "Một cậu thiếu niên đang câu cá ở sông.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "少年[しょうねん]の時[とき]から、サッカーをしています。",
+     "vi": "Tôi chơi bóng đá từ hồi thiếu niên.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:少女:しょうじょ"
+   ]
+  },
+  {
+   "id": "v:少女:しょうじょ",
+   "kana": "しょうじょ",
+   "kanji": "少女",
+   "hv": "THIẾU NỮ",
+   "vi": "thiếu nữ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "少女[しょうじょ]が、花[はな]を売[う]っていました。",
+     "vi": "Một cô bé đang bán hoa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "その少女[しょうじょ]は、今[いま]は医者[いしゃ]になっている。",
+     "vi": "Cô bé ấy giờ đã thành bác sĩ.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:少年:しょうねん"
+   ]
+  },
+  {
+   "id": "v:老人:ろうじん",
+   "kana": "ろうじん",
+   "kanji": "老人",
+   "hv": "LÃO NHÂN",
+   "vi": "người già",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "町[まち]には、一人[ひとり]で暮[く]らす老人[ろうじん]が多[おお]いです。",
+     "vi": "Thị trấn có nhiều người già sống một mình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "老人[ろうじん]ホームで、ボランティアをしました。",
+     "vi": "Tôi làm tình nguyện ở viện dưỡng lão.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:年寄り:としより"
+   ],
+   "note": "Lịch sự hơn: お年寄[としよ]り, 高齢者[こうれいしゃ]."
+  },
+  {
+   "id": "v:年寄り:としより",
+   "kana": "としより",
+   "kanji": "年寄り",
+   "kf": "年寄[としよ]り",
+   "hv": "NIÊN KÝ",
+   "vi": "người cao tuổi (thường nói kèm \"o\" lịch sự)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お年寄[としよ]りに、席[せき]を譲[ゆず]りましょう。",
+     "vi": "Hãy nhường ghế cho người già.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "村[むら]には、お年寄[としよ]りしかいません。",
+     "vi": "Làng chỉ còn người già.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:老人:ろうじん"
+   ]
+  },
+  {
+   "id": "v:人生:じんせい",
+   "kana": "じんせい",
+   "kanji": "人生",
+   "hv": "NHÂN SINH",
+   "vi": "đời người",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]に来[き]て、人生[じんせい]が変[か]わりました。",
+     "vi": "Sang Nhật, cuộc đời tôi đã thay đổi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "人生[じんせい]は一度[いちど]だけです。",
+     "vi": "Đời người chỉ có một lần.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:誕生:たんじょう",
+   "kana": "たんじょう",
+   "kanji": "誕生",
+   "hv": "ĐẢN SINH",
+   "vi": "ra đời, sinh ra",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "姉[あね]に、赤[あか]ちゃんが誕生[たんじょう]しました。",
+     "vi": "Chị gái bạn tôi vừa sinh em bé.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい工場[こうじょう]が、来年[らいねん]誕生[たんじょう]します。",
+     "vi": "Nhà máy mới sẽ ra đời năm sau.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "赤[あか]ちゃんが誕生[たんじょう]する",
+     "vi": "em bé ra đời"
+    }
+   ],
+   "note": "誕生日[たんじょうび] = sinh nhật."
+  },
+  {
+   "id": "v:生まれ:うまれ",
+   "kana": "うまれ",
+   "kanji": "生まれ",
+   "kf": "生[う]まれ",
+   "hv": "SINH",
+   "vi": "nơi sinh, năm sinh",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]は、二[に]〇〇〇年[とし]生[う]まれです。",
+     "vi": "Tôi sinh năm 2000.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "田中[たなか]さんは、大阪[おおさか]の生[う]まれです。",
+     "vi": "Anh Tanaka sinh ra ở Osaka.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:生まれる:うまれる"
+   ]
+  },
+  {
+   "id": "v:孫:まご",
+   "kana": "まご",
+   "kanji": "孫",
+   "hv": "TÔN",
+   "vi": "cháu (của ông bà)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "田中[たなか]さんには、孫[まご]が三人[さんにん]います。",
+     "vi": "Anh Tanaka có ba đứa cháu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "孫[まご]の写真[しゃしん]を見[み]せてもらいました。",
+     "vi": "Tôi được cho xem ảnh cháu.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "お孫[まご]さん = cháu (người khác)."
+  },
+  {
+   "id": "v:夫婦:ふうふ",
+   "kana": "ふうふ",
+   "kanji": "夫婦",
+   "hv": "PHU PHỤ",
+   "vi": "vợ chồng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "隣[となり]の夫婦[ふうふ]は、とても仲[なか]がいいです。",
+     "vi": "Vợ chồng nhà bên rất hòa thuận.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "夫婦[ふうふ]で、同[おな]じ工場[こうじょう]で働[はたら]いています。",
+     "vi": "Hai vợ chồng làm cùng một nhà máy.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:双子:ふたご",
+   "kana": "ふたご",
+   "kanji": "双子",
+   "hv": "SONG TỬ",
+   "vi": "sinh đôi",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "鈴木[すずき]さんの子[こ]どもは、双子[ふたご]です。",
+     "vi": "Con anh Suzuki là sinh đôi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "双子[ふたご]なのに、性格[せいかく]が全然[ぜんぜん]違[ちが]う。",
+     "vi": "Sinh đôi mà tính cách khác hẳn.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:父親:ちちおや",
+   "kana": "ちちおや",
+   "kanji": "父親",
+   "hv": "PHỤ THÂN",
+   "vi": "người cha",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は、いい父親[ちちおや]です。",
+     "vi": "Anh ấy là người cha tốt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "父親[ちちおや]として、家族[かぞく]を守[まも]りたい。",
+     "vi": "Là cha, tôi muốn bảo vệ gia đình.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:母親:ははおや"
+   ],
+   "note": "Nói về cha mình với người ngoài: 父[ちち]."
+  },
+  {
+   "id": "v:母親:ははおや",
+   "kana": "ははおや",
+   "kanji": "母親",
+   "hv": "MẪU THÂN",
+   "vi": "người mẹ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母親[ははおや]に、毎週[まいしゅう]電話[でんわ]します。",
+     "vi": "Tuần nào tôi cũng gọi điện cho mẹ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "母親[ははおや]の料理[りょうり]が、一番[いちばん]おいしい。",
+     "vi": "Món mẹ nấu ngon nhất.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:父親:ちちおや"
+   ]
+  },
+  {
+   "id": "v:親戚:しんせき",
+   "kana": "しんせき",
+   "kanji": "親戚",
+   "hv": "THÂN THÍCH",
+   "vi": "thân thích, họ hàng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お正月[しょうがつ]に、親戚[しんせき]が集[あつ]まります。",
+     "vi": "Tết họ hàng tụ họp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "日本[にほん]に、親戚[しんせき]はいますか。",
+     "vi": "Ở Nhật anh có họ hàng không?",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:従兄弟:いとこ",
+   "kana": "いとこ",
+   "kanji": "従兄弟",
+   "hv": "TÒNG HUYNH ĐỆ",
+   "vi": "anh chị em họ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いとこが、大阪[おおさか]に住[す]んでいます。",
+     "vi": "Anh họ tôi sống ở Osaka.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "いとこの結婚式[けっこんしき]に行[い]きました。",
+     "vi": "Tôi đi đám cưới em họ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Thường viết いとこ. Chữ Hán: 従兄弟[いとこ] (nam), 従姉妹[いとこ] (nữ)."
+  },
+  {
+   "id": "v:姉妹:しまい",
+   "kana": "しまい",
+   "kanji": "姉妹",
+   "hv": "TỶ MUỘI",
+   "vi": "chị em gái",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "マリアさんは、三人[さんにん]姉妹[しまい]です。",
+     "vi": "Chị Maria có ba chị em gái.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "姉妹都市[しまいとし]",
+     "vi": "thành phố kết nghĩa",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "姉妹都市[しまいとし] = thành phố kết nghĩa."
+  },
+  {
+   "id": "v:独身:どくしん",
+   "kana": "どくしん",
+   "kanji": "独身",
+   "hv": "ĐỘC THÂN",
+   "vi": "độc thân",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "佐藤[さとう]さんは、まだ独身[どくしん]です。",
+     "vi": "Anh Sato vẫn còn độc thân.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "独身[どくしん]の人[ひと]は、寮[りょう]に住[す]めます。",
+     "vi": "Người độc thân được ở ký túc xá.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:離婚:りこん",
+   "kana": "りこん",
+   "kanji": "離婚",
+   "hv": "LY HÔN",
+   "vi": "ly hôn",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "二人[ふたり]は、去年[きょねん]離婚[りこん]したそうです。",
+     "vi": "Nghe nói hai người đã ly hôn năm ngoái.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "離婚[りこん]の手続[てつづ]きは、市役所[しやくしょ]でします。",
+     "vi": "Thủ tục ly hôn làm ở tòa thị chính.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "〜と離婚[りこん]する",
+     "vi": "ly hôn với …"
+    }
+   ]
+  },
+  {
+   "id": "v:恋:こい",
+   "kana": "こい",
+   "kanji": "恋",
+   "hv": "LUYẾN",
+   "vi": "phải lòng, yêu; tình yêu đôi lứa",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "初[はじ]めての恋[こい]は、十六歳[じゅうろくさい]でした。",
+     "vi": "Mối tình đầu năm 16 tuổi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "彼[かれ]は、恋[こい]をして、明[あか]るくなった。",
+     "vi": "Anh ấy yêu nên vui vẻ hẳn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "恋[こい]をする",
+     "vi": "yêu, phải lòng"
+    }
+   ],
+   "note": "Đồng âm: 濃[こ]い (đậm)."
+  },
+  {
+   "id": "v:恋人:こいびと",
+   "kana": "こいびと",
+   "kanji": "恋人",
+   "hv": "LUYẾN NHÂN",
+   "vi": "người yêu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "恋人[こいびと]は、ベトナムにいます。",
+     "vi": "Người yêu tôi ở Việt Nam.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "恋人[こいびと]と、花火[はなび]を見[み]に行[い]きました。",
+     "vi": "Tôi đi xem pháo hoa với người yêu.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    {
+     "w": "彼氏[かれし]",
+     "vi": "bạn trai"
+    },
+    {
+     "w": "彼女[かのじょ]",
+     "vi": "bạn gái"
+    }
+   ]
+  },
+  {
+   "id": "v:愛:あい",
+   "kana": "あい",
+   "kanji": "愛",
+   "hv": "ÁI",
+   "vi": "tình yêu (nói chung), lòng yêu thương",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家族[かぞく]の愛[あい]に支[ささ]えられています。",
+     "vi": "Tôi được tình thương gia đình nâng đỡ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "愛[あい]のある仕事[しごと]をしたい。",
+     "vi": "Muốn làm việc bằng cả tấm lòng.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:愛する:あいする"
+   ]
+  },
+  {
+   "id": "v:愛情:あいじょう",
+   "kana": "あいじょう",
+   "kanji": "愛情",
+   "hv": "ÁI TÌNH",
+   "vi": "tình cảm, tình thương",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母[はは]の愛情[あいじょう]を、今[いま]も感[かん]じます。",
+     "vi": "Đến giờ tôi vẫn cảm nhận tình thương của mẹ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "愛情[あいじょう]を込[こ]めて、料理[りょうり]を作[つく]ります。",
+     "vi": "Nấu ăn bằng cả tình cảm.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:愛する:あいする",
+   "kana": "あいする",
+   "kanji": "愛する",
+   "kf": "愛[あい]する",
+   "hv": "ÁI",
+   "vi": "yêu thương",
+   "pos": "v3",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家族[かぞく]を愛[あい]しています。",
+     "vi": "Tôi yêu gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "愛[あい]する人[ひと]のために、働[はたら]いています。",
+     "vi": "Tôi làm việc vì người mình yêu thương.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "彼[かれ]は、自分[じぶん]の仕事[しごと]を愛[あい]している。",
+     "vi": "Anh ấy yêu công việc của mình.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "家族[かぞく]を愛[あい]する",
+     "vi": "yêu gia đình"
+    }
+   ],
+   "note": "Nói thường hay dùng 好[す]き / 大好[だいす]き; 愛[あい]する nghe trang trọng, văn chương."
+  },
+  {
+   "id": "v:産む:うむ",
+   "kana": "うむ",
+   "kanji": "産む",
+   "kf": "産[う]む",
+   "hv": "SẢN",
+   "vi": "sinh (con), đẻ",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "姉[あね]が、男[おとこ]の子[こ]を産[う]みました。",
+     "vi": "Chị bạn tôi sinh con trai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "鮭[さけ]は、川[かわ]に戻[もど]って卵[たまご]を産[う]みます。",
+     "vi": "Cá hồi quay về sông đẻ trứng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "新[あたら]しい技術[ぎじゅつ]は、新[あたら]しい仕事[しごと]を産[う]みます。",
+     "vi": "Kỹ thuật mới đẻ ra việc làm mới.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "子[こ]どもを産[う]む",
+     "vi": "sinh con"
+    },
+    {
+     "jp": "卵[たまご]を産[う]む",
+     "vi": "đẻ trứng"
+    }
+   ],
+   "note": "Đồng âm: 生[う]む (tạo ra – nghĩa rộng)."
+  },
+  {
+   "id": "v:亡くす:なくす",
+   "kana": "なくす",
+   "kanji": "亡くす",
+   "kf": "亡[な]くす",
+   "hv": "VONG",
+   "vi": "mất (người thân qua đời)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は、子[こ]どもの時[とき]に父親[ちちおや]を亡[な]くしました。",
+     "vi": "Anh ấy mất cha từ nhỏ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "大切[たいせつ]な人[ひと]を亡[な]くして、悲[かな]しんでいる。",
+     "vi": "Mất người quan trọng, anh ấy đau buồn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "去年[きょねん]お母[かあ]さんを亡[な]くした同僚[どうりょう]に、何[なん]と言[い]えばいいか分[わ]からなかった。",
+     "vi": "Tôi không biết nên nói gì với người đồng nghiệp năm ngoái mất mẹ.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "無[な]くす",
+     "vi": "làm mất (đồ)"
+    }
+   ],
+   "note": "亡[な]くす = mất người (qua đời); 無[な]くす = làm mất đồ."
+  },
+  {
+   "id": "v:一家:いっか",
+   "kana": "いっか",
+   "kanji": "一家",
+   "hv": "NHẤT GIA",
+   "vi": "cả nhà (một hộ)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "鈴木[すずき]さん一家[いっか]は、海[うみ]の近[ちか]くに住[す]んでいます。",
+     "vi": "Gia đình anh Suzuki sống gần biển.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一家[いっか]で、温泉[おんせん]に行[い]きました。",
+     "vi": "Cả nhà đi suối nước nóng.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:成人:せいじん",
+   "kana": "せいじん",
+   "kanji": "成人",
+   "hv": "THÀNH NHÂN",
+   "vi": "trưởng thành, đến tuổi thành niên; người trưởng thành",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]では、十八歳[じゅうはっさい]で成人[せいじん]です。",
+     "vi": "Ở Nhật 18 tuổi là thành niên.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "成人[せいじん]の日[ひ]に、着物[きもの]を着[き]ました。",
+     "vi": "Ngày Thành nhân tôi mặc kimono.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "成人[せいじん]の日[ひ] = ngày lễ Thành nhân (thứ Hai thứ hai của tháng 1)."
+  },
+  {
+   "id": "v:共に:ともに",
+   "kana": "ともに",
+   "kanji": "共に",
+   "kf": "共[とも]に",
+   "hv": "CỘNG",
+   "vi": "cùng nhau; cùng với",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家族[かぞく]と共[とも]に、日本[にほん]で暮[く]らしたい。",
+     "vi": "Muốn sống ở Nhật cùng gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "仲間[なかま]と共[とも]に、目標[もくひょう]を達成[たっせい]しました。",
+     "vi": "Cùng đồng đội đạt mục tiêu.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:一緒に:いっしょに"
+   ],
+   "note": "Ngữ pháp 〜とともに (bài 16)."
+  },
+  {
+   "id": "v:お互い:おたがい",
+   "kana": "おたがい",
+   "kanji": "お互い",
+   "kf": "お互[たが]い",
+   "hv": "HỖ",
+   "vi": "lẫn nhau",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お互[たが]いに、助[たす]け合[あ]いましょう。",
+     "vi": "Hãy giúp đỡ lẫn nhau.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "お互[たが]いの国[くに]の言葉[ことば]を、教[おし]え合[あ]っています。",
+     "vi": "Chúng tôi dạy nhau tiếng nước mình.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "お互[たが]い様[さま] = ai cũng như nhau (khi đáp lời cảm ơn, xin lỗi)."
+  },
+  {
+   "id": "v:自身:じしん",
+   "kana": "じしん",
+   "kanji": "自身",
+   "hv": "TỰ THÂN",
+   "vi": "chính mình (nhấn mạnh)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "自分自身[じぶんじしん]で、決[き]めてください。",
+     "vi": "Hãy tự bản thân quyết định.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "彼[かれ]自身[じしん]も、ミスに気付[きづ]いていなかった。",
+     "vi": "Chính anh ấy cũng không nhận ra lỗi.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:地震:じしん"
+   ]
+  },
+  {
+   "id": "v:自己:じこ",
+   "kana": "じこ",
+   "kanji": "自己",
+   "hv": "TỰ KỶ",
+   "vi": "tự thân (trong từ ghép: tự giới thiệu…)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面接[めんせつ]で、自己[じこ]紹介[しょうかい]をしました。",
+     "vi": "Tôi tự giới thiệu trong buổi phỏng vấn.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "自己責任[じこせきにん]で、判断[はんだん]してください。",
+     "vi": "Hãy tự chịu trách nhiệm phán đoán.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:事故:じこ"
+   ],
+   "note": "自己紹介[じこしょうかい] = tự giới thiệu."
+  },
+  {
+   "id": "v:生命:せいめい",
+   "kana": "せいめい",
+   "kanji": "生命",
+   "hv": "SINH MỆNH",
+   "vi": "sinh mạng, sự sống",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "生命保険[せいめいほけん]に入[はい]りました。",
+     "vi": "Tôi mua bảo hiểm nhân thọ.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "海[うみ]は、生命[せいめい]の始[はじ]まりです。",
+     "vi": "Biển là khởi nguồn sự sống.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:命:いのち"
+   ],
+   "note": "生命保険[せいめいほけん] = bảo hiểm nhân thọ."
+  },
+  {
+   "id": "v:命:いのち",
+   "kana": "いのち",
+   "kanji": "命",
+   "hv": "MỆNH",
+   "vi": "mạng sống",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "安全[あんぜん]は、命[いのち]を守[まも]るためのルールです。",
+     "vi": "An toàn là quy tắc để bảo vệ mạng sống.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "命[いのち]より大切[たいせつ]な物[もの]は、ありません。",
+     "vi": "Không có gì quý hơn mạng sống.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:生命:せいめい"
+   ]
+  },
+  {
+   "id": "v:したがって:したがって",
+   "kana": "したがって",
+   "kanji": "",
+   "hv": "",
+   "vi": "do đó, vì vậy (văn viết)",
+   "pos": "other",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]が続[つづ]いています。したがって、作業[さぎょう]は中止[ちゅうし]です。",
+     "vi": "Mưa kéo dài. Do đó công việc hủy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "人口[じんこう]が減[へ]っている。したがって、働[はたら]く人[ひと]も減[へ]る。",
+     "vi": "Dân số giảm. Vì vậy người lao động cũng giảm.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:だから:だから"
+   ],
+   "note": "Văn viết. Ngữ pháp 〜にしたがって (bài 16) là nghĩa khác: \"theo …, càng … càng\"."
+  },
+  {
+   "id": "v:主婦:しゅふ",
+   "kana": "しゅふ",
+   "kanji": "主婦",
+   "hv": "CHỦ PHỤ",
+   "vi": "nội trợ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母[はは]は、主婦[しゅふ]です。",
+     "vi": "Mẹ tôi làm nội trợ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "パートで働[はたら]く主婦[しゅふ]も多[おお]いです。",
+     "vi": "Nhiều bà nội trợ làm bán thời gian.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:女子:じょし",
+   "kana": "じょし",
+   "kanji": "女子",
+   "hv": "NỮ TỬ",
+   "vi": "nữ giới (khu, đội nữ), nữ sinh",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "女子[じょし]トイレは、二階[にかい]です。",
+     "vi": "Nhà vệ sinh nữ ở tầng 2.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "女子[じょし]の社員[しゃいん]が、増[ふ]えました。",
+     "vi": "Nhân viên nữ tăng lên.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:男子:だんし"
+   ]
+  },
+  {
+   "id": "v:男子:だんし",
+   "kana": "だんし",
+   "kanji": "男子",
+   "hv": "NAM TỬ",
+   "vi": "nam giới (khu, đội nam), nam sinh",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "男子[だんし]の更衣室[こういしつ]は、こちらです。",
+     "vi": "Phòng thay đồ nam ở đây.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "男子[だんし]と女子[じょし]に分[わ]かれて、作業[さぎょう]します。",
+     "vi": "Chia nam nữ ra làm việc.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:女子:じょし"
+   ]
+  },
+  {
+   "id": "v:居間:いま",
+   "kana": "いま",
+   "kanji": "居間",
+   "hv": "CƯ GIAN",
+   "vi": "phòng khách (gia đình)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家族[かぞく]が、居間[いま]でテレビを見[み]ています。",
+     "vi": "Gia đình đang xem ti vi ở phòng khách.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "居間[いま]に、ソファーを置[お]きました。",
+     "vi": "Tôi đặt ghế sofa ở phòng khách.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    {
+     "w": "リビング",
+     "vi": "phòng khách"
+    }
+   ],
+   "confuse": [
+    "v:今:いま"
+   ]
+  },
+  {
+   "id": "v:家事:かじ",
+   "kana": "かじ",
+   "kanji": "家事",
+   "hv": "GIA SỰ",
+   "vi": "việc nhà",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夫婦[ふうふ]で、家事[かじ]を分[わ]けています。",
+     "vi": "Vợ chồng chia việc nhà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "仕事[しごと]と家事[かじ]で、毎日[まいにち]忙[いそが]しいです。",
+     "vi": "Việc làm và việc nhà, ngày nào cũng bận.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:火事:かじ"
+   ]
+  },
+  {
+   "id": "v:毛布:もうふ",
+   "kana": "もうふ",
+   "kanji": "毛布",
+   "hv": "MAO BỐ",
+   "vi": "chăn lông",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寒[さむ]いので、毛布[もうふ]を出[だ]しました。",
+     "vi": "Lạnh nên tôi lấy chăn ra.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "毛布[もうふ]を、ベランダに干[ほ]します。",
+     "vi": "Phơi chăn ngoài ban công.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:ソファー:ソファー",
+   "kana": "ソファー",
+   "kanji": "",
+   "hv": "",
+   "vi": "ghế sofa",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ソファーで寝[ね]てしまいました。",
+     "vi": "Tôi lỡ ngủ quên trên sofa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "中古[ちゅうこ]のソファーを買[か]いました。",
+     "vi": "Tôi mua ghế sofa cũ.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "sofa (tiếng Anh)"
+  },
+  {
+   "id": "v:不自由:ふじゆう",
+   "kana": "ふじゆう",
+   "kanji": "不自由",
+   "hv": "BẤT TỰ DO",
+   "vi": "khó khăn, bất tiện (đi lại, sinh hoạt); không tự do",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cuộc đời",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "言葉[ことば]が分[わ]からなくて、不自由[ふじゆう]しています。",
+     "vi": "Không biết tiếng nên bất tiện.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "足[あし]の不自由[ふじゆう]な人[ひと]のために、エレベーターがあります。",
+     "vi": "Có thang máy cho người đi lại khó khăn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：日本[にほん]の生活[せいかつ]で、何[なに]か不自由[ふじゆう]なことはありませんか。 B：いいえ、特[とく]にありません。",
+     "vi": "A: Sống ở Nhật anh có gì bất tiện không? B: Không, không có gì đặc biệt ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "ant": [
+    "v:自由:じゆう"
+   ]
+  }
+ ]
 }

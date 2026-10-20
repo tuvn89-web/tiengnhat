@@ -1,1138 +1,1233 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n3-21",
-    "title": "JLPT N3 21 – Giá trị & chất lượng",
-    "type": "vocab",
-    "level": "N3",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 4,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-21",
+  "title": "JLPT N3 21 – Giá trị & chất lượng",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 5,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:質:しつ",
+   "kana": "しつ",
+   "kanji": "質",
+   "hv": "CHẤT",
+   "vi": "chất lượng, chất",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:質:しつ",
-      "kana": "しつ",
-      "kanji": "質",
-      "hv": "CHẤT",
-      "vi": "chất lượng, chất",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "値段[ねだん]は安[やす]いけど、質[しつ]がいいです。",
-          "vi": "Giá rẻ mà chất lượng tốt.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "量[りょう]より質[しつ]が大切[たいせつ]です。",
-          "vi": "Chất lượng quan trọng hơn số lượng.",
-          "ctx": "xuong"
-        }
-      ],
-      "ant": [
-        {
-          "w": "量[りょう]",
-          "vi": "số lượng"
-        }
-      ],
-      "note": "品質[ひんしつ] = chất lượng sản phẩm."
+     "jp": "値段[ねだん]は安[やす]いけど、質[しつ]がいいです。",
+     "vi": "Giá rẻ mà chất lượng tốt.",
+     "ctx": "doisong"
     },
     {
-      "id": "v:価値:かち",
-      "kana": "かち",
-      "kanji": "価値",
-      "hv": "GIÁ TRỊ",
-      "vi": "giá trị",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この魚[さかな]は、一匹[いっぴき]十万円[じゅうまんえん]の価値[かち]があります。",
-          "vi": "Con cá này đáng giá 100.000 yên.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "行[い]ってみる価値[かち]は、ありますよ。",
-          "vi": "Đáng để đi thử đấy.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "〜する価値[かち]がある = đáng để …."
-    },
-    {
-      "id": "v:本物:ほんもの",
-      "kana": "ほんもの",
-      "kanji": "本物",
-      "hv": "BẢN VẬT",
-      "vi": "đồ thật",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "これは、本物[ほんもの]の金[かね]ですか。",
-          "vi": "Đây có phải vàng thật không?",
-          "ctx": "hoithoai"
-        },
-        {
-          "jp": "本物[ほんもの]のマグロは、色[いろ]が違[ちが]います。",
-          "vi": "Cá ngừ thật thì màu khác.",
-          "ctx": "xuong"
-        }
-      ],
-      "ant": [
-        {
-          "w": "偽物[にせもの]",
-          "vi": "đồ giả"
-        }
-      ]
-    },
-    {
-      "id": "v:贅沢:ぜいたく",
-      "kana": "ぜいたく",
-      "kanji": "贅沢",
-      "hv": "CHUẾ TRẠCH",
-      "vi": "xa xỉ, phung phí",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "たまには、贅沢[ぜいたく]な食事[しょくじ]をしたい。",
-          "vi": "Thỉnh thoảng muốn ăn một bữa sang.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "贅沢[ぜいたく]をしないで、貯金[ちょきん]しています。",
-          "vi": "Tôi không tiêu xa xỉ mà để dành.",
-          "ctx": "doisong"
-        }
-      ],
-      "ant": [
-        {
-          "w": "節約[せつやく]",
-          "vi": "tiết kiệm"
-        }
-      ],
-      "note": "贅沢[ぜいたく]を言[い]う = đòi hỏi quá."
-    },
-    {
-      "id": "v:見事:みごと",
-      "kana": "みごと",
-      "kanji": "見事",
-      "hv": "KIẾN SỰ",
-      "vi": "tuyệt mỹ, điêu luyện",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "見事[みごと]な包丁[ほうちょう]さばきですね。",
-          "vi": "Đường dao điêu luyện quá.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "桜[さくら]が、見事[みごと]に咲[さ]いています。",
-          "vi": "Hoa anh đào nở tuyệt đẹp.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        {
-          "w": "立派[りっぱ]",
-          "vi": "tuyệt vời"
-        }
-      ]
-    },
-    {
-      "id": "v:貴重:きちょう",
-      "kana": "きちょう",
-      "kanji": "貴重",
-      "hv": "QUÝ TRỌNG",
-      "vi": "quý hiếm, quý báu",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "貴重[きちょう]な経験[けいけん]をさせていただきました。",
-          "vi": "Tôi đã được trải nghiệm quý giá.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "水[みず]は、貴重[きちょう]な資源[しげん]です。",
-          "vi": "Nước là tài nguyên quý.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "貴重品[きちょうひん] = đồ quý giá."
-    },
-    {
-      "id": "v:豪華:ごうか",
-      "kana": "ごうか",
-      "kanji": "豪華",
-      "hv": "HÀO HOA",
-      "vi": "xa hoa, hoành tráng",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "社長[しゃちょう]の家[いえ]は、とても豪華[ごうか]です。",
-          "vi": "Nhà giám đốc rất hoành tráng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "豪華[ごうか]な料理[りょうり]が並[なら]んでいます。",
-          "vi": "Những món ăn sang trọng bày ra.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:贅沢:ぜいたく"
-      ]
-    },
-    {
-      "id": "v:安定:あんてい",
-      "kana": "あんてい",
-      "kanji": "安定",
-      "hv": "AN ĐỊNH",
-      "vi": "ổn định",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "冷凍庫[れいとうこ]の温度[おんど]が、安定[あんてい]しています。",
-          "vi": "Nhiệt độ kho đông đang ổn định.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "安定[あんてい]した仕事[しごと]が欲[ほ]しいです。",
-          "vi": "Tôi muốn có công việc ổn định.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "温度[おんど]が安定[あんてい]する",
-          "vi": "nhiệt độ ổn định"
-        }
-      ]
-    },
-    {
-      "id": "v:平均:へいきん",
-      "kana": "へいきん",
-      "kanji": "平均",
-      "hv": "BÌNH QUÂN",
-      "vi": "tính trung bình; trung bình, bình quân",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一日[いちにち]の平均[へいきん]の作業時間[さぎょうじかん]は、八時間[はちじかん]です。",
-          "vi": "Thời gian làm việc trung bình một ngày là 8 tiếng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "テストの平均点[へいきんてん]は、七十点[ななじゅってん]でした。",
-          "vi": "Điểm trung bình bài kiểm tra là 70.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "平均[へいきん]すると",
-          "vi": "tính trung bình thì"
-        }
-      ]
-    },
-    {
-      "id": "v:意外:いがい",
-      "kana": "いがい",
-      "kanji": "意外",
-      "hv": "Ý NGOẠI",
-      "vi": "ngoài dự đoán",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "意外[いがい]な結果[けっか]に、みんな驚[おどろ]いた。",
-          "vi": "Ai cũng ngạc nhiên vì kết quả bất ngờ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この魚[さかな]は、意外[いがい]に高[たか]いです。",
-          "vi": "Loại cá này đắt hơn tưởng.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:案外:あんがい"
-      ],
-      "confuse": [
-        "v:以外:いがい"
-      ]
-    },
-    {
-      "id": "v:案外:あんがい",
-      "kana": "あんがい",
-      "kanji": "案外",
-      "hv": "ÁN NGOẠI",
-      "vi": "hóa ra lại (khác tưởng)",
-      "pos": "adv",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "難[むずか]しいと思[おも]ったけど、案外[あんがい]簡単[かんたん]でした。",
-          "vi": "Tưởng khó mà hóa ra lại dễ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "案外[あんがい]、早[はや]く終[お]わりました。",
-          "vi": "Hóa ra lại xong sớm.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        "v:意外:いがい"
-      ]
-    },
-    {
-      "id": "v:上等:じょうとう",
-      "kana": "じょうとう",
-      "kanji": "上等",
-      "hv": "THƯỢNG ĐẲNG",
-      "vi": "thượng hạng, hảo hạng",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "これは、上等[じょうとう]な牛肉[ぎゅうにく]です。",
-          "vi": "Đây là thịt bò hảo hạng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "上等[じょうとう]の品物[しなもの]を、お客様[きゃくさま]に出[だ]します。",
-          "vi": "Đưa hàng thượng hạng cho khách.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        {
-          "w": "高級[こうきゅう]",
-          "vi": "cao cấp"
-        }
-      ]
-    },
-    {
-      "id": "v:特徴:とくちょう",
-      "kana": "とくちょう",
-      "kanji": "特徴",
-      "hv": "ĐẶC TRƯNG",
-      "vi": "đặc trưng, nét riêng",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この魚[さかな]の特徴[とくちょう]は、背中[せなか]の黒[くろ]い線[せん]です。",
-          "vi": "Đặc trưng của loại cá này là đường đen trên lưng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "犯人[はんにん]の特徴[とくちょう]を、教[おし]えてください。",
-          "vi": "Cho biết đặc điểm thủ phạm.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:差:さ",
-      "kana": "さ",
-      "kanji": "差",
-      "hv": "SAI",
-      "vi": "chênh lệch",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "朝[あさ]と夜[よる]の気温[きおん]の差[さ]が、大[おお]きいです。",
-          "vi": "Chênh lệch nhiệt độ sáng và tối lớn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "二[ふた]つの商品[しょうひん]の差[さ]は、値段[ねだん]だけです。",
-          "vi": "Hai sản phẩm chỉ khác nhau giá.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:違い:ちがい"
-      ]
-    },
-    {
-      "id": "v:違い:ちがい",
-      "kana": "ちがい",
-      "kanji": "違い",
-      "kf": "違[ちが]い",
-      "hv": "VI",
-      "vi": "sự khác nhau",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "サバとアジの違[ちが]いが、分[わ]かりますか。",
-          "vi": "Anh phân biệt được cá thu và cá sòng không?",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "文化[ぶんか]の違[ちが]いに、驚[おどろ]きました。",
-          "vi": "Tôi ngạc nhiên trước khác biệt văn hóa.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        {
-          "w": "違[ちが]う",
-          "vi": "khác"
-        }
-      ]
-    },
-    {
-      "id": "v:比較:ひかく",
-      "kana": "ひかく",
-      "kanji": "比較",
-      "hv": "TỈ GIẢO",
-      "vi": "so sánh (văn viết)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "去年[きょねん]と比較[ひかく]すると、売上[うりあげ]が増[ふ]えた。",
-          "vi": "So với năm ngoái thì doanh thu tăng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "二[ふた]つの店[みせ]の値段[ねだん]を比較[ひかく]しました。",
-          "vi": "Tôi so sánh giá hai cửa hàng.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "AとBを比較[ひかく]する",
-          "vi": "so sánh A với B"
-        }
-      ],
-      "syn": [
-        "v:比べる:くらべる"
-      ]
-    },
-    {
-      "id": "v:逆:ぎゃく",
-      "kana": "ぎゃく",
-      "kanji": "逆",
-      "hv": "NGHỊCH",
-      "vi": "ngược (lại)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "箱[はこ]の向[む]きが逆[ぎゃく]です。",
-          "vi": "Thùng bị để ngược hướng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "逆[ぎゃく]に考[かんが]えると、いいチャンスかもしれない。",
-          "vi": "Nghĩ ngược lại thì có khi là cơ hội tốt.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "逆[ぎゃく]に = ngược lại."
-    },
-    {
-      "id": "v:同様:どうよう",
-      "kana": "どうよう",
-      "kanji": "同様",
-      "hv": "ĐỒNG DẠNG",
-      "vi": "tương tự",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "昨日[きのう]と同様[どうよう]に、作業[さぎょう]を進[すす]めてください。",
-          "vi": "Hãy tiến hành công việc tương tự hôm qua.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "この商品[しょうひん]も、同様[どうよう]の問題[もんだい]があります。",
-          "vi": "Sản phẩm này cũng có vấn đề tương tự.",
-          "ctx": "xuong"
-        }
-      ]
-    },
-    {
-      "id": "v:適切:てきせつ",
-      "kana": "てきせつ",
-      "kanji": "適切",
-      "hv": "THÍCH THIẾT",
-      "vi": "thích đáng",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "適切[てきせつ]な温度[おんど]で、保存[ほぞん]してください。",
-          "vi": "Hãy bảo quản ở nhiệt độ thích hợp.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "適切[てきせつ]な言葉[ことば]が、思[おも]い付[つ]かない。",
-          "vi": "Tôi không nghĩ ra từ phù hợp.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:適度:てきど",
-      "kana": "てきど",
-      "kanji": "適度",
-      "hv": "THÍCH ĐỘ",
-      "vi": "vừa phải (mức độ)",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "適度[てきど]な運動[うんどう]は、体[からだ]にいいです。",
-          "vi": "Vận động vừa phải tốt cho cơ thể.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "魚[さかな]は、適度[てきど]に塩[しお]をして焼[や]きます。",
-          "vi": "Cá ướp muối vừa phải rồi nướng.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:完全:かんぜん",
-      "kana": "かんぜん",
-      "kanji": "完全",
-      "hv": "HOÀN TOÀN",
-      "vi": "hoàn toàn, trọn vẹn, hoàn hảo",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "機械[きかい]が完全[かんぜん]に止[と]まってから、触[さわ]ってください。",
-          "vi": "Máy dừng hẳn rồi mới chạm vào.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "完全[かんぜん]な人[ひと]は、いません。",
-          "vi": "Không ai hoàn hảo.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "完全[かんぜん]に = hoàn toàn, hẳn."
-    },
-    {
-      "id": "v:主要:しゅよう",
-      "kana": "しゅよう",
-      "kanji": "主要",
-      "hv": "CHỦ YẾU",
-      "vi": "chủ yếu, chủ chốt, chính",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "工場[こうじょう]の主要[しゅよう]な商品[しょうひん]は、冷凍[れいとう]の魚[さかな]です。",
-          "vi": "Sản phẩm chính của nhà máy là cá đông lạnh.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "日本[にほん]の主要[しゅよう]な都市[とし]を覚[おぼ]えましょう。",
-          "vi": "Hãy nhớ các thành phố chính của Nhật.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:重要:じゅうよう",
-      "kana": "じゅうよう",
-      "kanji": "重要",
-      "hv": "TRỌNG YẾU",
-      "vi": "trọng yếu, quan trọng (văn viết)",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "重要[じゅうよう]な書類[しょるい]は、なくさないでください。",
-          "vi": "Giấy tờ quan trọng đừng làm mất.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "温度[おんど]の管理[かんり]は、とても重要[じゅうよう]です。",
-          "vi": "Quản lý nhiệt độ rất quan trọng.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        "v:大切:たいせつ",
-        "v:大事:だいじ"
-      ]
-    },
-    {
-      "id": "v:重大:じゅうだい",
-      "kana": "じゅうだい",
-      "kanji": "重大",
-      "hv": "TRỌNG ĐẠI",
-      "vi": "hệ trọng",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "重大[じゅうだい]な事故[じこ]になる前[まえ]に、止[と]めましょう。",
-          "vi": "Hãy dừng trước khi thành tai nạn nghiêm trọng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "重大[じゅうだい]なお知[し]らせがあります。",
-          "vi": "Có thông báo hệ trọng.",
-          "ctx": "xuong"
-        }
-      ]
-    },
-    {
-      "id": "v:非常:ひじょう",
-      "kana": "ひじょう",
-      "kanji": "非常",
-      "hv": "PHI THƯỜNG",
-      "vi": "tình trạng khẩn cấp (sự cố)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "非常[ひじょう]の時[とき]は、このボタンを押[お]してください。",
-          "vi": "Khi khẩn cấp hãy bấm nút này.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "非常口[ひじょうぐち]は、どこですか。",
-          "vi": "Lối thoát hiểm ở đâu?",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "非常口[ひじょうぐち] = lối thoát hiểm; 非常[ひじょう]に = rất (văn viết)."
-    },
-    {
-      "id": "v:貴重品:きちょうひん",
-      "kana": "きちょうひん",
-      "kanji": "貴重品",
-      "hv": "QUÝ TRỌNG PHẨM",
-      "vi": "đồ quý giá",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "貴重品[きちょうひん]は、ロッカーに入[い]れてください。",
-          "vi": "Đồ quý giá hãy cất vào tủ khóa.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "貴重品[きちょうひん]から目[め]を離[はな]さないで。",
-          "vi": "Đừng rời mắt khỏi đồ quý giá.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:貴重:きちょう"
-      ]
-    },
-    {
-      "id": "v:硬い:かたい",
-      "kana": "かたい",
-      "kanji": "硬い",
-      "kf": "硬[かた]い",
-      "hv": "NGẠNH",
-      "vi": "cứng (vật chất)",
-      "pos": "adj-i",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "冷凍[れいとう]した魚[さかな]は、硬[かた]くて切[き]りにくい。",
-          "vi": "Cá đông lạnh cứng, khó cắt.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "このパンは、硬[かた]すぎます。",
-          "vi": "Bánh mì này cứng quá.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "表情[ひょうじょう]が硬[かた]いですよ。",
-          "vi": "Nét mặt cứng đờ đấy.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "ant": [
-        {
-          "w": "柔[やわ]らかい",
-          "vi": "mềm"
-        }
-      ],
-      "confuse": [
-        "v:堅い:かたい"
-      ],
-      "note": "硬[かた]い = cứng (vật chất); 堅[かた]い = chắc, cứng (gỗ, người cứng nhắc); 固[かた]い = chặt."
-    },
-    {
-      "id": "v:無駄:むだ",
-      "kana": "むだ",
-      "kanji": "無駄",
-      "hv": "VÔ ĐÀ",
-      "vi": "lãng phí, vô ích",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "無駄[むだ]な時間[じかん]を、減[へ]らしましょう。",
-          "vi": "Hãy giảm thời gian lãng phí.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "言[い]っても無駄[むだ]です。",
-          "vi": "Nói cũng vô ích.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "無駄遣[むだづか]い = tiêu hoang."
-    },
-    {
-      "id": "v:もったいない:もったいない",
-      "kana": "もったいない",
-      "kanji": "",
-      "hv": "",
-      "vi": "uổng phí, tiếc của",
-      "pos": "adj-i",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "まだ食[た]べられるのに、捨[す]てるのはもったいない。",
-          "vi": "Vẫn ăn được mà vứt thì phí.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "電気[でんき]をつけっぱなしは、もったいないです。",
-          "vi": "Để đèn bật suốt thì phí.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "魚[さかな]の骨[ほね]も、スープに使[つか]わないともったいない。",
-          "vi": "Xương cá không dùng nấu súp thì phí.",
-          "ctx": "xuong"
-        }
-      ]
-    },
-    {
-      "id": "v:種類:しゅるい",
-      "kana": "しゅるい",
-      "kanji": "種類",
-      "hv": "CHỦNG LOẠI",
-      "vi": "chủng loại, loại",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この市場[しじょう]には、百[ひゃく]種類[しゅるい]の魚[さかな]があります。",
-          "vi": "Chợ này có 100 loại cá.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "ゴミの種類[しゅるい]で、出[だ]す日[ひ]が違[ちが]います。",
-          "vi": "Tùy loại rác mà ngày đổ khác nhau.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Đếm loại: 一種類[ひとしゅるい], 二種類[ふたしゅるい]."
-    },
-    {
-      "id": "v:可能:かのう",
-      "kana": "かのう",
-      "kanji": "可能",
-      "hv": "KHẢ NĂNG",
-      "vi": "khả thi, có thể (làm được)",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "明日[あした]までに、修理[しゅうり]は可能[かのう]ですか。",
-          "vi": "Sửa xong trước mai có được không?",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "可能[かのう]な限[かぎ]り、早[はや]く送[おく]ります。",
-          "vi": "Sẽ gửi sớm nhất có thể.",
-          "ctx": "thutuc"
-        }
-      ],
-      "ant": [
-        {
-          "w": "不可能[ふかのう]",
-          "vi": "không thể"
-        }
-      ],
-      "note": "可能性[かのうせい] = khả năng (xảy ra)."
-    },
-    {
-      "id": "v:最高:さいこう",
-      "kana": "さいこう",
-      "kanji": "最高",
-      "hv": "TỐI CAO",
-      "vi": "tuyệt nhất, cao nhất",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今日[きょう]の気温[きおん]は、今年[ことし]最高[さいこう]です。",
-          "vi": "Nhiệt độ hôm nay cao nhất năm nay.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "このラーメン、最高[さいこう]！",
-          "vi": "Mì này đỉnh quá!",
-          "ctx": "hoithoai"
-        }
-      ],
-      "ant": [
-        "v:最低:さいてい"
-      ]
-    },
-    {
-      "id": "v:最低:さいてい",
-      "kana": "さいてい",
-      "kanji": "最低",
-      "hv": "TỐI ĐÊ",
-      "vi": "thấp nhất, tồi nhất",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "最低[さいてい]でも、一日[いちにち]七時間[ななじかん]は寝[ね]てください。",
-          "vi": "Ít nhất cũng ngủ 7 tiếng một ngày.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "約束[やくそく]を破[やぶ]るなんて、最低[さいてい]だ。",
-          "vi": "Thất hứa thì tệ nhất.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "ant": [
-        "v:最高:さいこう"
-      ],
-      "note": "最低賃金[さいていちんぎん] = lương tối thiểu."
-    },
-    {
-      "id": "v:満足:まんぞく",
-      "kana": "まんぞく",
-      "kanji": "満足",
-      "hv": "MÃN TÚC",
-      "vi": "hài lòng",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "お客様[きゃくさま]に満足[まんぞく]していただきました。",
-          "vi": "Khách hàng đã hài lòng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "今[いま]の生活[せいかつ]に、満足[まんぞく]しています。",
-          "vi": "Tôi hài lòng với cuộc sống hiện tại.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "〜に満足[まんぞく]する",
-          "vi": "hài lòng với …"
-        }
-      ],
-      "ant": [
-        {
-          "w": "不満[ふまん]",
-          "vi": "bất mãn"
-        }
-      ]
-    },
-    {
-      "id": "v:有利:ゆうり",
-      "kana": "ゆうり",
-      "kanji": "有利",
-      "hv": "HỮU LỢI",
-      "vi": "có lợi (thế)",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "日本語[にほんご]ができると、仕事[しごと]で有利[ゆうり]です。",
-          "vi": "Biết tiếng Nhật thì có lợi trong công việc.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "資格[しかく]がある人[ひと]のほうが、有利[ゆうり]です。",
-          "vi": "Người có chứng chỉ thì có lợi thế hơn.",
-          "ctx": "doisong"
-        }
-      ],
-      "ant": [
-        {
-          "w": "不利[ふり]",
-          "vi": "bất lợi"
-        }
-      ]
-    },
-    {
-      "id": "v:容易:ようい",
-      "kana": "ようい",
-      "kanji": "容易",
-      "hv": "DUNG DỊ",
-      "vi": "dễ dàng (văn viết)",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この作業[さぎょう]は、容易[ようい]ではありません。",
-          "vi": "Việc này không dễ dàng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "容易[ようい]に想像[そうぞう]できます。",
-          "vi": "Có thể dễ dàng tưởng tượng.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:簡単:かんたん"
-      ],
-      "confuse": [
-        "v:用意:ようい"
-      ]
-    },
-    {
-      "id": "v:良い:よい",
-      "kana": "よい",
-      "kanji": "良い",
-      "kf": "良[よ]い",
-      "hv": "LƯƠNG",
-      "vi": "tốt (văn viết, trang trọng)",
-      "pos": "adj-i",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Chất lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "良[よ]い製品[せいひん]を作[つく]りましょう。",
-          "vi": "Hãy làm ra sản phẩm tốt.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "良[よ]い週末[しゅうまつ]を。",
-          "vi": "Chúc cuối tuần vui vẻ.",
-          "ctx": "hoithoai"
-        },
-        {
-          "jp": "体[からだ]に良[よ]い食[た]べ物[もの]を選[えら]びます。",
-          "vi": "Chọn đồ ăn tốt cho cơ thể.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:いい:いい"
-      ],
-      "note": "Văn viết, trang trọng của いい. Chia: 良[よ]くない, 良[よ]かった (いい không chia được)."
+     "jp": "量[りょう]より質[しつ]が大切[たいせつ]です。",
+     "vi": "Chất lượng quan trọng hơn số lượng.",
+     "ctx": "xuong"
     }
-  ]
+   ],
+   "ant": [
+    {
+     "w": "量[りょう]",
+     "vi": "số lượng"
+    }
+   ],
+   "note": "品質[ひんしつ] = chất lượng sản phẩm."
+  },
+  {
+   "id": "v:価値:かち",
+   "kana": "かち",
+   "kanji": "価値",
+   "hv": "GIÁ TRỊ",
+   "vi": "giá trị",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この魚[さかな]は、一匹[いっぴき]十万円[じゅうまんえん]の価値[かち]があります。",
+     "vi": "Con cá này đáng giá 100.000 yên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "行[い]ってみる価値[かち]は、ありますよ。",
+     "vi": "Đáng để đi thử đấy.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "〜する価値[かち]がある = đáng để …."
+  },
+  {
+   "id": "v:本物:ほんもの",
+   "kana": "ほんもの",
+   "kanji": "本物",
+   "hv": "BẢN VẬT",
+   "vi": "đồ thật",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "これは、本物[ほんもの]の金[かね]ですか。",
+     "vi": "Đây có phải vàng thật không?",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "本物[ほんもの]のマグロは、色[いろ]が違[ちが]います。",
+     "vi": "Cá ngừ thật thì màu khác.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "偽物[にせもの]",
+     "vi": "đồ giả"
+    }
+   ]
+  },
+  {
+   "id": "v:贅沢:ぜいたく",
+   "kana": "ぜいたく",
+   "kanji": "贅沢",
+   "hv": "CHUẾ TRẠCH",
+   "vi": "xa xỉ, phung phí",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "たまには、贅沢[ぜいたく]な食事[しょくじ]をしたい。",
+     "vi": "Thỉnh thoảng muốn ăn một bữa sang.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "贅沢[ぜいたく]をしないで、貯金[ちょきん]しています。",
+     "vi": "Tôi không tiêu xa xỉ mà để dành.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：給料日[きゅうりょうび]だし、焼肉[やきにく]に行[い]こうよ。 B：贅沢[ぜいたく]だなあ。でも、たまにはいいか。",
+     "vi": "A: Hôm nay ngày lĩnh lương, đi ăn thịt nướng đi. B: Xa xỉ thế. Nhưng thỉnh thoảng cũng được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "ant": [
+    {
+     "w": "節約[せつやく]",
+     "vi": "tiết kiệm"
+    }
+   ],
+   "note": "贅沢[ぜいたく]を言[い]う = đòi hỏi quá."
+  },
+  {
+   "id": "v:見事:みごと",
+   "kana": "みごと",
+   "kanji": "見事",
+   "hv": "KIẾN SỰ",
+   "vi": "tuyệt mỹ, điêu luyện",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "見事[みごと]な包丁[ほうちょう]さばきですね。",
+     "vi": "Đường dao điêu luyện quá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "桜[さくら]が、見事[みごと]に咲[さ]いています。",
+     "vi": "Hoa anh đào nở tuyệt đẹp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：昨日[きのう]の試合[しあい]、見事[みごと]だったね。 B：うん、最後[さいご]のゴールはすごかった。",
+     "vi": "A: Trận hôm qua hay tuyệt nhỉ. B: Ừ, bàn thắng cuối cùng đỉnh thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "syn": [
+    {
+     "w": "立派[りっぱ]",
+     "vi": "tuyệt vời"
+    }
+   ]
+  },
+  {
+   "id": "v:貴重:きちょう",
+   "kana": "きちょう",
+   "kanji": "貴重",
+   "hv": "QUÝ TRỌNG",
+   "vi": "quý hiếm, quý báu",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "貴重[きちょう]な経験[けいけん]をさせていただきました。",
+     "vi": "Tôi đã được trải nghiệm quý giá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "水[みず]は、貴重[きちょう]な資源[しげん]です。",
+     "vi": "Nước là tài nguyên quý.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "休[やす]みが少[すく]ないので、市役所[しやくしょ]に行[い]ける平日[へいじつ]の午前[ごぜん]はとても貴重[きちょう]だ。",
+     "vi": "Ít ngày nghỉ nên buổi sáng ngày thường đi được tòa thị chính rất quý.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "貴重品[きちょうひん] = đồ quý giá."
+  },
+  {
+   "id": "v:豪華:ごうか",
+   "kana": "ごうか",
+   "kanji": "豪華",
+   "hv": "HÀO HOA",
+   "vi": "xa hoa, hoành tráng",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]の家[いえ]は、とても豪華[ごうか]です。",
+     "vi": "Nhà giám đốc rất hoành tráng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "豪華[ごうか]な料理[りょうり]が並[なら]んでいます。",
+     "vi": "Những món ăn sang trọng bày ra.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：忘年会[ぼうねんかい]、どうだった？ B：会社[かいしゃ]の忘年会[ぼうねんかい]にしては、料理[りょうり]がすごく豪華[ごうか]だったよ。",
+     "vi": "A: Tiệc tất niên thế nào? B: So với tiệc công ty thì đồ ăn hoành tráng lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "syn": [
+    "v:贅沢:ぜいたく"
+   ]
+  },
+  {
+   "id": "v:安定:あんてい",
+   "kana": "あんてい",
+   "kanji": "安定",
+   "hv": "AN ĐỊNH",
+   "vi": "ổn định",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冷凍庫[れいとうこ]の温度[おんど]が、安定[あんてい]しています。",
+     "vi": "Nhiệt độ kho đông đang ổn định.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "安定[あんてい]した仕事[しごと]が欲[ほ]しいです。",
+     "vi": "Tôi muốn có công việc ổn định.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "温度[おんど]が安定[あんてい]する",
+     "vi": "nhiệt độ ổn định"
+    }
+   ]
+  },
+  {
+   "id": "v:平均:へいきん",
+   "kana": "へいきん",
+   "kanji": "平均",
+   "hv": "BÌNH QUÂN",
+   "vi": "tính trung bình; trung bình, bình quân",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一日[いちにち]の平均[へいきん]の作業時間[さぎょうじかん]は、八時間[はちじかん]です。",
+     "vi": "Thời gian làm việc trung bình một ngày là 8 tiếng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "テストの平均点[へいきんてん]は、七十点[ななじゅってん]でした。",
+     "vi": "Điểm trung bình bài kiểm tra là 70.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "平均[へいきん]すると",
+     "vi": "tính trung bình thì"
+    }
+   ]
+  },
+  {
+   "id": "v:意外:いがい",
+   "kana": "いがい",
+   "kanji": "意外",
+   "hv": "Ý NGOẠI",
+   "vi": "ngoài dự đoán",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "意外[いがい]な結果[けっか]に、みんな驚[おどろ]いた。",
+     "vi": "Ai cũng ngạc nhiên vì kết quả bất ngờ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この魚[さかな]は、意外[いがい]に高[たか]いです。",
+     "vi": "Loại cá này đắt hơn tưởng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]をさばく仕事[しごと]は、意外[いがい]と力[ちから]が要[い]る。",
+     "vi": "Việc làm cá cần sức hơn mình tưởng.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:案外:あんがい"
+   ],
+   "confuse": [
+    "v:以外:いがい"
+   ]
+  },
+  {
+   "id": "v:案外:あんがい",
+   "kana": "あんがい",
+   "kanji": "案外",
+   "hv": "ÁN NGOẠI",
+   "vi": "hóa ra lại (khác tưởng)",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "難[むずか]しいと思[おも]ったけど、案外[あんがい]簡単[かんたん]でした。",
+     "vi": "Tưởng khó mà hóa ra lại dễ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "案外[あんがい]、早[はや]く終[お]わりました。",
+     "vi": "Hóa ra lại xong sớm.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:意外:いがい"
+   ]
+  },
+  {
+   "id": "v:上等:じょうとう",
+   "kana": "じょうとう",
+   "kanji": "上等",
+   "hv": "THƯỢNG ĐẲNG",
+   "vi": "thượng hạng, hảo hạng",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "これは、上等[じょうとう]な牛肉[ぎゅうにく]です。",
+     "vi": "Đây là thịt bò hảo hạng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "上等[じょうとう]の品物[しなもの]を、お客様[きゃくさま]に出[だ]します。",
+     "vi": "Đưa hàng thượng hạng cho khách.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：このお茶[ちゃ]、上等[じょうとう]やなあ。 B：せやろ。京都[きょうと]のお土産[みやげ]やねん。",
+     "vi": "A: Trà này hảo hạng ghê. B: Phải không. Quà từ Kyoto đấy.",
+     "ctx": "kansai"
+    }
+   ],
+   "syn": [
+    {
+     "w": "高級[こうきゅう]",
+     "vi": "cao cấp"
+    }
+   ]
+  },
+  {
+   "id": "v:特徴:とくちょう",
+   "kana": "とくちょう",
+   "kanji": "特徴",
+   "hv": "ĐẶC TRƯNG",
+   "vi": "đặc trưng, nét riêng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この魚[さかな]の特徴[とくちょう]は、背中[せなか]の黒[くろ]い線[せん]です。",
+     "vi": "Đặc trưng của loại cá này là đường đen trên lưng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "犯人[はんにん]の特徴[とくちょう]を、教[おし]えてください。",
+     "vi": "Cho biết đặc điểm thủ phạm.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:差:さ",
+   "kana": "さ",
+   "kanji": "差",
+   "hv": "SAI",
+   "vi": "chênh lệch",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "朝[あさ]と夜[よる]の気温[きおん]の差[さ]が、大[おお]きいです。",
+     "vi": "Chênh lệch nhiệt độ sáng và tối lớn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "二[ふた]つの商品[しょうひん]の差[さ]は、値段[ねだん]だけです。",
+     "vi": "Hai sản phẩm chỉ khác nhau giá.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:違い:ちがい"
+   ]
+  },
+  {
+   "id": "v:違い:ちがい",
+   "kana": "ちがい",
+   "kanji": "違い",
+   "kf": "違[ちが]い",
+   "hv": "VI",
+   "vi": "sự khác nhau",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "サバとアジの違[ちが]いが、分[わ]かりますか。",
+     "vi": "Anh phân biệt được cá thu và cá sòng không?",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "文化[ぶんか]の違[ちが]いに、驚[おどろ]きました。",
+     "vi": "Tôi ngạc nhiên trước khác biệt văn hóa.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "違[ちが]う",
+     "vi": "khác"
+    }
+   ]
+  },
+  {
+   "id": "v:比較:ひかく",
+   "kana": "ひかく",
+   "kanji": "比較",
+   "hv": "TỈ GIẢO",
+   "vi": "so sánh (văn viết)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "去年[きょねん]と比較[ひかく]すると、売上[うりあげ]が増[ふ]えた。",
+     "vi": "So với năm ngoái thì doanh thu tăng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "二[ふた]つの店[みせ]の値段[ねだん]を比較[ひかく]しました。",
+     "vi": "Tôi so sánh giá hai cửa hàng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "AとBを比較[ひかく]する",
+     "vi": "so sánh A với B"
+    }
+   ],
+   "syn": [
+    "v:比べる:くらべる"
+   ]
+  },
+  {
+   "id": "v:逆:ぎゃく",
+   "kana": "ぎゃく",
+   "kanji": "逆",
+   "hv": "NGHỊCH",
+   "vi": "ngược (lại)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]の向[む]きが逆[ぎゃく]です。",
+     "vi": "Thùng bị để ngược hướng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "逆[ぎゃく]に考[かんが]えると、いいチャンスかもしれない。",
+     "vi": "Nghĩ ngược lại thì có khi là cơ hội tốt.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "逆[ぎゃく]に = ngược lại."
+  },
+  {
+   "id": "v:同様:どうよう",
+   "kana": "どうよう",
+   "kanji": "同様",
+   "hv": "ĐỒNG DẠNG",
+   "vi": "tương tự",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "昨日[きのう]と同様[どうよう]に、作業[さぎょう]を進[すす]めてください。",
+     "vi": "Hãy tiến hành công việc tương tự hôm qua.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この商品[しょうひん]も、同様[どうよう]の問題[もんだい]があります。",
+     "vi": "Sản phẩm này cũng có vấn đề tương tự.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "住所[じゅうしょ]が変[か]わった時[とき]と同様[どうよう]、名前[なまえ]が変[か]わった時[とき]も届[とど]け出[で]が必要[ひつよう]です。",
+     "vi": "Cũng như khi đổi địa chỉ, khi đổi tên cũng phải khai báo.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:適切:てきせつ",
+   "kana": "てきせつ",
+   "kanji": "適切",
+   "hv": "THÍCH THIẾT",
+   "vi": "thích đáng",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "適切[てきせつ]な温度[おんど]で、保存[ほぞん]してください。",
+     "vi": "Hãy bảo quản ở nhiệt độ thích hợp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "適切[てきせつ]な言葉[ことば]が、思[おも]い付[つ]かない。",
+     "vi": "Tôi không nghĩ ra từ phù hợp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "市役所[しやくしょ]の職員[しょくいん]が適切[てきせつ]に案内[あんない]してくれたので、迷[まよ]わずに済[す]んだ。",
+     "vi": "Nhân viên tòa thị chính hướng dẫn chu đáo nên tôi không bị lạc.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:適度:てきど",
+   "kana": "てきど",
+   "kanji": "適度",
+   "hv": "THÍCH ĐỘ",
+   "vi": "vừa phải (mức độ)",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "適度[てきど]な運動[うんどう]は、体[からだ]にいいです。",
+     "vi": "Vận động vừa phải tốt cho cơ thể.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]は、適度[てきど]に塩[しお]をして焼[や]きます。",
+     "vi": "Cá ướp muối vừa phải rồi nướng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "サーモンは、適度[てきど]な厚[あつ]さに切[き]ってからパックに並[なら]べます。",
+     "vi": "Cá hồi cắt dày vừa phải rồi xếp vào khay.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:完全:かんぜん",
+   "kana": "かんぜん",
+   "kanji": "完全",
+   "hv": "HOÀN TOÀN",
+   "vi": "hoàn toàn, trọn vẹn, hoàn hảo",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]が完全[かんぜん]に止[と]まってから、触[さわ]ってください。",
+     "vi": "Máy dừng hẳn rồi mới chạm vào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "完全[かんぜん]な人[ひと]は、いません。",
+     "vi": "Không ai hoàn hảo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：引[ひ]っ越[こ]しの準備[じゅんび]、終[お]わった？ B：まだ完全[かんぜん]じゃないけど、だいたい終[お]わったよ。",
+     "vi": "A: Chuẩn bị chuyển nhà xong chưa? B: Chưa hoàn toàn, nhưng gần xong rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "完全[かんぜん]に = hoàn toàn, hẳn."
+  },
+  {
+   "id": "v:主要:しゅよう",
+   "kana": "しゅよう",
+   "kanji": "主要",
+   "hv": "CHỦ YẾU",
+   "vi": "chủ yếu, chủ chốt, chính",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]の主要[しゅよう]な商品[しょうひん]は、冷凍[れいとう]の魚[さかな]です。",
+     "vi": "Sản phẩm chính của nhà máy là cá đông lạnh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本[にほん]の主要[しゅよう]な都市[とし]を覚[おぼ]えましょう。",
+     "vi": "Hãy nhớ các thành phố chính của Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：神戸[こうべ]の主要[しゅよう]な駅[えき]はどこ？ B：三宮[さんのみや]だよ。電車[でんしゃ]もバスも集[あつ]まってるから。",
+     "vi": "A: Ga chính của Kobe là ga nào? B: Sannomiya đấy. Tàu điện lẫn xe buýt đều tập trung ở đó.",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:重要:じゅうよう",
+   "kana": "じゅうよう",
+   "kanji": "重要",
+   "hv": "TRỌNG YẾU",
+   "vi": "trọng yếu, quan trọng (văn viết)",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "重要[じゅうよう]な書類[しょるい]は、なくさないでください。",
+     "vi": "Giấy tờ quan trọng đừng làm mất.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "温度[おんど]の管理[かんり]は、とても重要[じゅうよう]です。",
+     "vi": "Quản lý nhiệt độ rất quan trọng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本[にほん]の生活[せいかつ]では、時間[じかん]を守[まも]ることが何[なに]より重要[じゅうよう]だと思[おも]う。",
+     "vi": "Tôi nghĩ sống ở Nhật thì đúng giờ là quan trọng hơn hết.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:大切:たいせつ",
+    "v:大事:だいじ"
+   ]
+  },
+  {
+   "id": "v:重大:じゅうだい",
+   "kana": "じゅうだい",
+   "kanji": "重大",
+   "hv": "TRỌNG ĐẠI",
+   "vi": "hệ trọng",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "重大[じゅうだい]な事故[じこ]になる前[まえ]に、止[と]めましょう。",
+     "vi": "Hãy dừng trước khi thành tai nạn nghiêm trọng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "重大[じゅうだい]なお知[し]らせがあります。",
+     "vi": "Có thông báo hệ trọng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "自分[じぶん]のミスが思[おも]ったより重大[じゅうだい]だったと知[し]って、青[あお]くなった。",
+     "vi": "Biết lỗi của mình hệ trọng hơn mình nghĩ, tôi tái mặt.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:非常:ひじょう",
+   "kana": "ひじょう",
+   "kanji": "非常",
+   "hv": "PHI THƯỜNG",
+   "vi": "tình trạng khẩn cấp (sự cố)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "非常[ひじょう]の時[とき]は、このボタンを押[お]してください。",
+     "vi": "Khi khẩn cấp hãy bấm nút này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "非常口[ひじょうぐち]は、どこですか。",
+     "vi": "Lối thoát hiểm ở đâu?",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "非常口[ひじょうぐち] = lối thoát hiểm; 非常[ひじょう]に = rất (văn viết)."
+  },
+  {
+   "id": "v:貴重品:きちょうひん",
+   "kana": "きちょうひん",
+   "kanji": "貴重品",
+   "hv": "QUÝ TRỌNG PHẨM",
+   "vi": "đồ quý giá",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "貴重品[きちょうひん]は、ロッカーに入[い]れてください。",
+     "vi": "Đồ quý giá hãy cất vào tủ khóa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "貴重品[きちょうひん]から目[め]を離[はな]さないで。",
+     "vi": "Đừng rời mắt khỏi đồ quý giá.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:貴重:きちょう"
+   ]
+  },
+  {
+   "id": "v:硬い:かたい",
+   "kana": "かたい",
+   "kanji": "硬い",
+   "kf": "硬[かた]い",
+   "hv": "NGẠNH",
+   "vi": "cứng (vật chất)",
+   "pos": "adj-i",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冷凍[れいとう]した魚[さかな]は、硬[かた]くて切[き]りにくい。",
+     "vi": "Cá đông lạnh cứng, khó cắt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "このパンは、硬[かた]すぎます。",
+     "vi": "Bánh mì này cứng quá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "表情[ひょうじょう]が硬[かた]いですよ。",
+     "vi": "Nét mặt cứng đờ đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "ant": [
+    {
+     "w": "柔[やわ]らかい",
+     "vi": "mềm"
+    }
+   ],
+   "confuse": [
+    "v:堅い:かたい"
+   ],
+   "note": "硬[かた]い = cứng (vật chất); 堅[かた]い = chắc, cứng (gỗ, người cứng nhắc); 固[かた]い = chặt."
+  },
+  {
+   "id": "v:無駄:むだ",
+   "kana": "むだ",
+   "kanji": "無駄",
+   "hv": "VÔ ĐÀ",
+   "vi": "lãng phí, vô ích",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "無駄[むだ]な時間[じかん]を、減[へ]らしましょう。",
+     "vi": "Hãy giảm thời gian lãng phí.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "言[い]っても無駄[むだ]です。",
+     "vi": "Nói cũng vô ích.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：残[のこ]った刺身[さしみ]、どうする？ B：無駄[むだ]にしないで、みんなで食[た]べよう。",
+     "vi": "A: Sashimi còn thừa làm sao đây? B: Đừng để phí, mọi người cùng ăn đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "無駄遣[むだづか]い = tiêu hoang."
+  },
+  {
+   "id": "v:もったいない:もったいない",
+   "kana": "もったいない",
+   "kanji": "",
+   "hv": "",
+   "vi": "uổng phí, tiếc của",
+   "pos": "adj-i",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "まだ食[た]べられるのに、捨[す]てるのはもったいない。",
+     "vi": "Vẫn ăn được mà vứt thì phí.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "電気[でんき]をつけっぱなしは、もったいないです。",
+     "vi": "Để đèn bật suốt thì phí.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "魚[さかな]の骨[ほね]も、スープに使[つか]わないともったいない。",
+     "vi": "Xương cá không dùng nấu súp thì phí.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:種類:しゅるい",
+   "kana": "しゅるい",
+   "kanji": "種類",
+   "hv": "CHỦNG LOẠI",
+   "vi": "chủng loại, loại",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この市場[しじょう]には、百[ひゃく]種類[しゅるい]の魚[さかな]があります。",
+     "vi": "Chợ này có 100 loại cá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ゴミの種類[しゅるい]で、出[だ]す日[ひ]が違[ちが]います。",
+     "vi": "Tùy loại rác mà ngày đổ khác nhau.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Đếm loại: 一種類[ひとしゅるい], 二種類[ふたしゅるい]."
+  },
+  {
+   "id": "v:可能:かのう",
+   "kana": "かのう",
+   "kanji": "可能",
+   "hv": "KHẢ NĂNG",
+   "vi": "khả thi, có thể (làm được)",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "明日[あした]までに、修理[しゅうり]は可能[かのう]ですか。",
+     "vi": "Sửa xong trước mai có được không?",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "可能[かのう]な限[かぎ]り、早[はや]く送[おく]ります。",
+     "vi": "Sẽ gửi sớm nhất có thể.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "このアパートは、ペットを飼[か]うことが可能[かのう]だそうだ。",
+     "vi": "Nghe nói căn hộ này được phép nuôi thú cưng.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "不可能[ふかのう]",
+     "vi": "không thể"
+    }
+   ],
+   "note": "可能性[かのうせい] = khả năng (xảy ra)."
+  },
+  {
+   "id": "v:最高:さいこう",
+   "kana": "さいこう",
+   "kanji": "最高",
+   "hv": "TỐI CAO",
+   "vi": "tuyệt nhất, cao nhất",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今日[きょう]の気温[きおん]は、今年[ことし]最高[さいこう]です。",
+     "vi": "Nhiệt độ hôm nay cao nhất năm nay.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "このラーメン、最高[さいこう]！",
+     "vi": "Mì này đỉnh quá!",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "今月[こんげつ]の生産量[せいさんりょう]は、工場[こうじょう]ができてから最高[さいこう]の数字[すうじ]だった。",
+     "vi": "Sản lượng tháng này là con số cao nhất từ khi nhà máy thành lập.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:最低:さいてい"
+   ]
+  },
+  {
+   "id": "v:最低:さいてい",
+   "kana": "さいてい",
+   "kanji": "最低",
+   "hv": "TỐI ĐÊ",
+   "vi": "thấp nhất, tồi nhất",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "最低[さいてい]でも、一日[いちにち]七時間[ななじかん]は寝[ね]てください。",
+     "vi": "Ít nhất cũng ngủ 7 tiếng một ngày.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "約束[やくそく]を破[やぶ]るなんて、最低[さいてい]だ。",
+     "vi": "Thất hứa thì tệ nhất.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]の温度[おんど]は、一日[いちにち]に最低[さいてい]三回[さんかい]チェックしてください。",
+     "vi": "Nhiệt độ kho cấp đông thì mỗi ngày hãy kiểm tra ít nhất ba lần.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:最高:さいこう"
+   ],
+   "note": "最低賃金[さいていちんぎん] = lương tối thiểu."
+  },
+  {
+   "id": "v:満足:まんぞく",
+   "kana": "まんぞく",
+   "kanji": "満足",
+   "hv": "MÃN TÚC",
+   "vi": "hài lòng",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お客様[きゃくさま]に満足[まんぞく]していただきました。",
+     "vi": "Khách hàng đã hài lòng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今[いま]の生活[せいかつ]に、満足[まんぞく]しています。",
+     "vi": "Tôi hài lòng với cuộc sống hiện tại.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "〜に満足[まんぞく]する",
+     "vi": "hài lòng với …"
+    }
+   ],
+   "ant": [
+    {
+     "w": "不満[ふまん]",
+     "vi": "bất mãn"
+    }
+   ]
+  },
+  {
+   "id": "v:有利:ゆうり",
+   "kana": "ゆうり",
+   "kanji": "有利",
+   "hv": "HỮU LỢI",
+   "vi": "có lợi (thế)",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本語[にほんご]ができると、仕事[しごと]で有利[ゆうり]です。",
+     "vi": "Biết tiếng Nhật thì có lợi trong công việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "資格[しかく]がある人[ひと]のほうが、有利[ゆうり]です。",
+     "vi": "Người có chứng chỉ thì có lợi thế hơn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "部屋[へや]を探[さが]す時[とき]、保証人[ほしょうにん]がいると有利[ゆうり]な場合[ばあい]が多[おお]い。",
+     "vi": "Khi tìm phòng, có người bảo lãnh thì nhiều khi có lợi.",
+     "ctx": "thutuc"
+    }
+   ],
+   "ant": [
+    {
+     "w": "不利[ふり]",
+     "vi": "bất lợi"
+    }
+   ]
+  },
+  {
+   "id": "v:容易:ようい",
+   "kana": "ようい",
+   "kanji": "容易",
+   "hv": "DUNG DỊ",
+   "vi": "dễ dàng (văn viết)",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この作業[さぎょう]は、容易[ようい]ではありません。",
+     "vi": "Việc này không dễ dàng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "容易[ようい]に想像[そうぞう]できます。",
+     "vi": "Có thể dễ dàng tưởng tượng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "外国人[がいこくじん]が一人[ひとり]で部屋[へや]を借[か]りるのは、容易[ようい]なことではない。",
+     "vi": "Người nước ngoài một mình thuê phòng không phải chuyện dễ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    "v:簡単:かんたん"
+   ],
+   "confuse": [
+    "v:用意:ようい"
+   ]
+  },
+  {
+   "id": "v:良い:よい",
+   "kana": "よい",
+   "kanji": "良い",
+   "kf": "良[よ]い",
+   "hv": "LƯƠNG",
+   "vi": "tốt (văn viết, trang trọng)",
+   "pos": "adj-i",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chất lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "良[よ]い製品[せいひん]を作[つく]りましょう。",
+     "vi": "Hãy làm ra sản phẩm tốt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "良[よ]い週末[しゅうまつ]を。",
+     "vi": "Chúc cuối tuần vui vẻ.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "体[からだ]に良[よ]い食[た]べ物[もの]を選[えら]びます。",
+     "vi": "Chọn đồ ăn tốt cho cơ thể.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:いい:いい"
+   ],
+   "note": "Văn viết, trang trọng của いい. Chia: 良[よ]くない, 良[よ]かった (いい không chia được)."
+  }
+ ]
 }

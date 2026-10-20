@@ -1,1414 +1,1434 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n3-14",
-    "title": "JLPT N3 14 – Xã hội đang thay đổi",
-    "type": "vocab",
-    "level": "N3",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 2,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-14",
+  "title": "JLPT N3 14 – Xã hội đang thay đổi",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 3,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:増加:ぞうか",
+   "kana": "ぞうか",
+   "kanji": "増加",
+   "hv": "TĂNG GIA",
+   "vi": "sự gia tăng",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:増加:ぞうか",
-      "kana": "ぞうか",
-      "kanji": "増加",
-      "hv": "TĂNG GIA",
-      "vi": "sự gia tăng",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xu hướng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "外国人[がいこくじん]の労働者[ろうどうしゃ]が増加[ぞうか]しています。",
-          "vi": "Lao động người nước ngoài đang gia tăng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "注文[ちゅうもん]の増加[ぞうか]で、残業[ざんぎょう]が増[ふ]えました。",
-          "vi": "Đơn hàng tăng nên làm thêm giờ nhiều lên.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "人口[じんこう]が増加[ぞうか]する",
-          "vi": "dân số tăng"
-        }
-      ],
-      "ant": [
-        "v:減少:げんしょう"
-      ],
-      "syn": [
-        "v:増える:ふえる"
-      ]
+     "jp": "外国人[がいこくじん]の労働者[ろうどうしゃ]が増加[ぞうか]しています。",
+     "vi": "Lao động người nước ngoài đang gia tăng.",
+     "ctx": "doisong"
     },
     {
-      "id": "v:減少:げんしょう",
-      "kana": "げんしょう",
-      "kanji": "減少",
-      "hv": "GIẢM THIẾU",
-      "vi": "sự sụt giảm",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xu hướng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "日本[にほん]の人口[じんこう]は、減少[げんしょう]しています。",
-          "vi": "Dân số Nhật đang giảm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "魚[さかな]がとれる量[りょう]が、年々[ねんねん]減少[げんしょう]している。",
-          "vi": "Lượng cá đánh bắt được giảm dần qua từng năm.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "人口[じんこう]が減少[げんしょう]する",
-          "vi": "dân số giảm"
-        }
-      ],
-      "ant": [
-        "v:増加:ぞうか"
-      ],
-      "syn": [
-        "v:減る:へる"
-      ]
-    },
-    {
-      "id": "v:傾向:けいこう",
-      "kana": "けいこう",
-      "kanji": "傾向",
-      "hv": "KHUYNH HƯỚNG",
-      "vi": "khuynh hướng, xu hướng",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xu hướng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "若[わか]い人[ひと]は、魚[さかな]を食[た]べない傾向[けいこう]があります。",
-          "vi": "Người trẻ có xu hướng không ăn cá.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "冬[ふゆ]は、ミスが増[ふ]える傾向[けいこう]がある。",
-          "vi": "Mùa đông có xu hướng sai sót tăng.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "〜傾向[けいこう]がある = có xu hướng …."
-    },
-    {
-      "id": "v:環境:かんきょう",
-      "kana": "かんきょう",
-      "kanji": "環境",
-      "hv": "HOÀN CẢNH",
-      "vi": "môi trường",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "環境[かんきょう]のために、ゴミを分[わ]けて捨[す]てましょう。",
-          "vi": "Vì môi trường, hãy phân loại rác.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "働[はたら]く環境[かんきょう]が、前[まえ]よりよくなりました。",
-          "vi": "Môi trường làm việc tốt hơn trước.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "環境問題[かんきょうもんだい] = vấn đề môi trường."
-    },
-    {
-      "id": "v:汚染:おせん",
-      "kana": "おせん",
-      "kanji": "汚染",
-      "hv": "Ô NHIỄM",
-      "vi": "ô nhiễm",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "海[うみ]の汚染[おせん]で、魚[さかな]が減[へ]っています。",
-          "vi": "Vì biển ô nhiễm, cá giảm đi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "手袋[てぶくろ]が汚染[おせん]されたら、すぐ替[か]えてください。",
-          "vi": "Găng tay bị nhiễm bẩn thì thay ngay.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "水[みず]が汚染[おせん]される",
-          "vi": "nước bị ô nhiễm"
-        }
-      ]
-    },
-    {
-      "id": "v:資源:しげん",
-      "kana": "しげん",
-      "kanji": "資源",
-      "hv": "TƯ NGUYÊN",
-      "vi": "tài nguyên",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "日本[にほん]は、資源[しげん]が少[すく]ない国[くに]です。",
-          "vi": "Nhật là nước ít tài nguyên.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "紙[かみ]も大切[たいせつ]な資源[しげん]です。",
-          "vi": "Giấy cũng là tài nguyên quý.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "資源[しげん]ゴミ = rác tái chế (chai, lon, giấy)."
-    },
-    {
-      "id": "v:エネルギー:エネルギー",
-      "kana": "エネルギー",
-      "kanji": "",
-      "hv": "",
-      "vi": "năng lượng",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "工場[こうじょう]は、たくさんのエネルギーを使[つか]います。",
-          "vi": "Nhà máy dùng rất nhiều năng lượng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "エネルギーを節約[せつやく]しましょう。",
-          "vi": "Hãy tiết kiệm năng lượng.",
-          "ctx": "doisong"
-        }
-      ],
-      "goc": "Energie (tiếng Đức)"
-    },
-    {
-      "id": "v:石油:せきゆ",
-      "kana": "せきゆ",
-      "kanji": "石油",
-      "hv": "THẠCH DU",
-      "vi": "dầu mỏ",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "石油[せきゆ]の値段[ねだん]が上[あ]がると、物価[ぶっか]も上[あ]がります。",
-          "vi": "Giá dầu tăng thì vật giá cũng tăng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "冬[ふゆ]は、石油[せきゆ]ストーブを使[つか]います。",
-          "vi": "Mùa đông tôi dùng lò sưởi dầu.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:物価:ぶっか",
-      "kana": "ぶっか",
-      "kanji": "物価",
-      "hv": "VẬT GIÁ",
-      "vi": "vật giá, giá cả sinh hoạt",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "最近[さいきん]、物価[ぶっか]がどんどん上[あ]がっています。",
-          "vi": "Dạo này vật giá cứ tăng lên.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "東京[とうきょう]は、物価[ぶっか]が高[たか]いです。",
-          "vi": "Tokyo vật giá đắt đỏ.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:景気:けいき",
-      "kana": "けいき",
-      "kanji": "景気",
-      "hv": "CẢNH KHÍ",
-      "vi": "tình hình kinh tế, làm ăn",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "景気[けいき]が悪[わる]くて、仕事[しごと]が減[へ]りました。",
-          "vi": "Kinh tế đi xuống nên việc ít đi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "今年[ことし]は、景気[けいき]がいいそうです。",
-          "vi": "Nghe nói năm nay làm ăn khấm khá.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:失業:しつぎょう",
-      "kana": "しつぎょう",
-      "kanji": "失業",
-      "hv": "THẤT NGHIỆP",
-      "vi": "thất nghiệp",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "会社[かいしゃ]が倒産[とうさん]して、失業[しつぎょう]しました。",
-          "vi": "Công ty phá sản nên tôi mất việc.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "失業[しつぎょう]した時[とき]は、ハローワークに相談[そうだん]します。",
-          "vi": "Khi thất nghiệp thì hỏi ý kiến Hello Work.",
-          "ctx": "thutuc"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "会社[かいしゃ]をやめて失業[しつぎょう]する",
-          "vi": "mất việc"
-        }
-      ],
-      "note": "ハローワーク = trung tâm giới thiệu việc làm của nhà nước."
-    },
-    {
-      "id": "v:企業:きぎょう",
-      "kana": "きぎょう",
-      "kanji": "企業",
-      "hv": "XÍ NGHIỆP",
-      "vi": "doanh nghiệp",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "大[おお]きい企業[きぎょう]も、人[ひと]が足[た]りないそうです。",
-          "vi": "Nghe nói doanh nghiệp lớn cũng thiếu người.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "外国人[がいこくじん]を雇[やと]う企業[きぎょう]が増[ふ]えています。",
-          "vi": "Doanh nghiệp tuyển người nước ngoài đang tăng.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:会社:かいしゃ"
-      ]
-    },
-    {
-      "id": "v:経営:けいえい",
-      "kana": "けいえい",
-      "kanji": "経営",
-      "hv": "KINH DOANH",
-      "vi": "kinh doanh, điều hành (công ty)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "社長[しゃちょう]は、二[ふた]つの工場[こうじょう]を経営[けいえい]しています。",
-          "vi": "Giám đốc điều hành hai nhà máy.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "将来[しょうらい]、レストランを経営[けいえい]したいです。",
-          "vi": "Sau này tôi muốn mở nhà hàng kinh doanh.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "店[みせ]を経営[けいえい]する",
-          "vi": "kinh doanh cửa hàng"
-        }
-      ]
-    },
-    {
-      "id": "v:倒産:とうさん",
-      "kana": "とうさん",
-      "kanji": "倒産",
-      "hv": "ĐẢO SẢN",
-      "vi": "phá sản (công ty)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "不景気[ふけいき]で、小[ちい]さい会社[かいしゃ]が倒産[とうさん]しました。",
-          "vi": "Vì kinh tế khó khăn, công ty nhỏ phá sản.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "会社[かいしゃ]が倒産[とうさん]したら、給料[きゅうりょう]はどうなりますか。",
-          "vi": "Nếu công ty phá sản thì lương thế nào?",
-          "ctx": "thutuc"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "会社[かいしゃ]が倒産[とうさん]する",
-          "vi": "công ty phá sản"
-        }
-      ]
-    },
-    {
-      "id": "v:地球:ちきゅう",
-      "kana": "ちきゅう",
-      "kanji": "地球",
-      "hv": "ĐỊA CẦU",
-      "vi": "địa cầu, trái đất",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "地球[ちきゅう]の温度[おんど]が、少[すこ]しずつ上[あ]がっています。",
-          "vi": "Nhiệt độ trái đất tăng dần.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "地球[ちきゅう]のために、ゴミを減[へ]らしましょう。",
-          "vi": "Vì trái đất, hãy giảm rác.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:自然:しぜん",
-      "kana": "しぜん",
-      "kanji": "自然",
-      "hv": "TỰ NHIÊN",
-      "vi": "tự nhiên, thiên nhiên",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "田舎[いなか]は、自然[しぜん]が多[おお]くて静[しず]かです。",
-          "vi": "Quê nhiều thiên nhiên, yên tĩnh.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "自然[しぜん]に笑顔[えがお]が出[で]ました。",
-          "vi": "Nụ cười nở ra tự nhiên.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "自然[しぜん]に = một cách tự nhiên."
-    },
-    {
-      "id": "v:人類:じんるい",
-      "kana": "じんるい",
-      "kanji": "人類",
-      "hv": "NHÂN LOẠI",
-      "vi": "nhân loại, loài người",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "人類[じんるい]は、火[ひ]を使[つか]うことで発展[はってん]しました。",
-          "vi": "Loài người phát triển nhờ biết dùng lửa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "宇宙[うちゅう]に行[い]くのは、人類[じんるい]の夢[ゆめ]でした。",
-          "vi": "Đi lên vũ trụ là ước mơ của nhân loại.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:現代:げんだい",
-      "kana": "げんだい",
-      "kanji": "現代",
-      "hv": "HIỆN ĐẠI",
-      "vi": "hiện đại, thời nay",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "現代[げんだい]の生活[せいかつ]に、スマホは欠[か]かせません。",
-          "vi": "Cuộc sống thời nay không thể thiếu điện thoại.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "現代[げんだい]の工場[こうじょう]は、ほとんど機械[きかい]で動[うご]いています。",
-          "vi": "Nhà máy hiện đại hầu như chạy bằng máy.",
-          "ctx": "xuong"
-        }
-      ]
-    },
-    {
-      "id": "v:発展:はってん",
-      "kana": "はってん",
-      "kanji": "発展",
-      "hv": "PHÁT TRIỂN",
-      "vi": "phát triển (đi lên, mở rộng)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xu hướng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ベトナムの経済[けいざい]は、急速[きゅうそく]に発展[はってん]しています。",
-          "vi": "Kinh tế Việt Nam đang phát triển nhanh.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "町[まち]が発展[はってん]して、駅[えき]が新[あたら]しくなりました。",
-          "vi": "Thị trấn phát triển, nhà ga được làm mới.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "経済[けいざい]が発展[はってん]する",
-          "vi": "kinh tế phát triển"
-        }
-      ],
-      "confuse": [
-        "v:発達:はったつ"
-      ]
-    },
-    {
-      "id": "v:発達:はったつ",
-      "kana": "はったつ",
-      "kanji": "発達",
-      "hv": "PHÁT ĐẠT",
-      "vi": "phát triển (hoàn thiện dần: cơ thể, kỹ thuật)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xu hướng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "技術[ぎじゅつ]が発達[はったつ]して、生活[せいかつ]が便利[べんり]になった。",
-          "vi": "Kỹ thuật phát triển, đời sống tiện hơn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "台風[たいふう]が発達[はったつ]しながら、近[ちか]づいています。",
-          "vi": "Bão vừa mạnh lên vừa tiến lại gần.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "技術[ぎじゅつ]が発達[はったつ]する",
-          "vi": "kỹ thuật phát triển"
-        }
-      ],
-      "note": "発展[はってん] = mở rộng, đi lên (kinh tế, thành phố); 発達[はったつ] = hoàn thiện dần (cơ thể, kỹ thuật, bão)."
-    },
-    {
-      "id": "v:変化:へんか",
-      "kana": "へんか",
-      "kanji": "変化",
-      "hv": "BIẾN HÓA",
-      "vi": "sự biến đổi",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xu hướng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "季節[きせつ]の変化[へんか]を感[かん]じます。",
-          "vi": "Tôi cảm nhận được sự chuyển mùa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "温度[おんど]の変化[へんか]に気[き]をつけてください。",
-          "vi": "Hãy chú ý sự thay đổi nhiệt độ.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "温度[おんど]が変化[へんか]する",
-          "vi": "nhiệt độ biến đổi"
-        }
-      ],
-      "syn": [
-        "v:変わる:かわる"
-      ]
-    },
-    {
-      "id": "v:進歩:しんぽ",
-      "kana": "しんぽ",
-      "kanji": "進歩",
-      "hv": "TIẾN BỘ",
-      "vi": "tiến bộ (đi lên)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xu hướng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "医学[いがく]の進歩[しんぽ]で、病気[びょうき]が治[なお]るようになった。",
-          "vi": "Nhờ y học tiến bộ, bệnh đã chữa được.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "日本語[にほんご]が、少[すこ]しずつ進歩[しんぽ]しています。",
-          "vi": "Tiếng Nhật đang tiến bộ dần.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "技術[ぎじゅつ]が進歩[しんぽ]する",
-          "vi": "kỹ thuật tiến bộ"
-        }
-      ],
-      "syn": [
-        "v:上達:じょうたつ"
-      ]
-    },
-    {
-      "id": "v:ますます:ますます",
-      "kana": "ますます",
-      "kanji": "",
-      "hv": "",
-      "vi": "ngày càng (thêm)",
-      "pos": "adv",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xu hướng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "外国人[がいこくじん]の労働者[ろうどうしゃ]は、ますます増[ふ]えるでしょう。",
-          "vi": "Lao động nước ngoài sẽ ngày càng nhiều.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "練習[れんしゅう]するほど、ますます面白[おもしろ]くなります。",
-          "vi": "Càng tập càng thấy thú vị.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:一層:いっそう"
-      ]
-    },
-    {
-      "id": "v:急速:きゅうそく",
-      "kana": "きゅうそく",
-      "kanji": "急速",
-      "hv": "CẤP TỐC",
-      "vi": "cấp tốc (tốc độ biến đổi nhanh)",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xu hướng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "町[まち]が急速[きゅうそく]に変[か]わっています。",
-          "vi": "Thị trấn thay đổi nhanh chóng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "スマホは、急速[きゅうそく]に広[ひろ]まりました。",
-          "vi": "Điện thoại thông minh lan rộng nhanh chóng.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:急激:きゅうげき"
-      ]
-    },
-    {
-      "id": "v:急激:きゅうげき",
-      "kana": "きゅうげき",
-      "kanji": "急激",
-      "hv": "CẤP KÍCH",
-      "vi": "đột ngột, mạnh mẽ (biến đổi)",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xu hướng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "急激[きゅうげき]な温度[おんど]の変化[へんか]は、魚[さかな]に良[よ]くないです。",
-          "vi": "Nhiệt độ thay đổi đột ngột không tốt cho cá.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "物価[ぶっか]が急激[きゅうげき]に上[あ]がりました。",
-          "vi": "Vật giá tăng vọt.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "急速[きゅうそく] = nhanh (tốc độ); 急激[きゅうげき] = đột ngột, mạnh (thường không tốt)."
-    },
-    {
-      "id": "v:一層:いっそう",
-      "kana": "いっそう",
-      "kanji": "一層",
-      "hv": "NHẤT TẦNG",
-      "vi": "càng thêm",
-      "pos": "adv",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xu hướng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "これからも、一層[いっそう]頑張[がんば]ります。",
-          "vi": "Từ nay tôi sẽ cố gắng hơn nữa.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "雨[あめ]で、寒[さむ]さが一層[いっそう]厳[きび]しくなった。",
-          "vi": "Vì mưa, cái lạnh càng thêm khắc nghiệt.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Văn trang trọng. より一層[いっそう] = hơn nữa."
-    },
-    {
-      "id": "v:状況:じょうきょう",
-      "kana": "じょうきょう",
-      "kanji": "状況",
-      "hv": "TRẠNG HUỐNG",
-      "vi": "cục diện, tình hình chung",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今[いま]の状況[じょうきょう]を、班長[はんちょう]に報告[ほうこく]してください。",
-          "vi": "Hãy báo tình hình hiện tại cho tổ trưởng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "台風[たいふう]の状況[じょうきょう]を、ニュースで見[み]ています。",
-          "vi": "Tôi đang xem tình hình bão trên tin tức.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:現象:げんしょう",
-      "kana": "げんしょう",
-      "kanji": "現象",
-      "hv": "HIỆN TƯỢNG",
-      "vi": "hiện tượng",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "雪[ゆき]が少[すく]ないのは、珍[めずら]しい現象[げんしょう]です。",
-          "vi": "Ít tuyết là hiện tượng hiếm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "機械[きかい]が急[きゅう]に止[と]まる現象[げんしょう]が、何度[なんど]も起[お]きている。",
-          "vi": "Hiện tượng máy đột nhiên dừng đã xảy ra nhiều lần.",
-          "ctx": "xuong"
-        }
-      ]
-    },
-    {
-      "id": "v:宇宙:うちゅう",
-      "kana": "うちゅう",
-      "kanji": "宇宙",
-      "hv": "VŨ TRỤ",
-      "vi": "vũ trụ",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khoa học",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "宇宙[うちゅう]から見[み]た地球[ちきゅう]は、青[あお]いそうです。",
-          "vi": "Nghe nói trái đất nhìn từ vũ trụ màu xanh.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "子[こ]どものころ、宇宙[うちゅう]に行[い]きたかった。",
-          "vi": "Hồi nhỏ tôi muốn bay vào vũ trụ.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:化学:かがく",
-      "kana": "かがく",
-      "kanji": "化学",
-      "hv": "HÓA HỌC",
-      "vi": "hóa học",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khoa học",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "洗剤[せんざい]は化学[かがく]の薬[くすり]なので、手袋[てぶくろ]をしてください。",
-          "vi": "Chất tẩy là hóa chất nên hãy đeo găng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "化学[かがく]の授業[じゅぎょう]が苦手[にがて]でした。",
-          "vi": "Tôi kém môn hóa.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:科学:かがく"
-      ],
-      "note": "Phân biệt nói: 化学[かがく] hay đọc là ばけがく để khỏi nhầm với 科学[かがく] (khoa học)."
-    },
-    {
-      "id": "v:実験:じっけん",
-      "kana": "じっけん",
-      "kanji": "実験",
-      "hv": "THỰC NGHIỆM",
-      "vi": "thí nghiệm",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khoa học",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新[あたら]しい機械[きかい]で、実験[じっけん]をしています。",
-          "vi": "Đang thử nghiệm với máy mới.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "学校[がっこう]で、水[みず]の実験[じっけん]をしました。",
-          "vi": "Ở trường đã làm thí nghiệm về nước.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "実験[じっけん]をする",
-          "vi": "làm thí nghiệm"
-        }
-      ]
-    },
-    {
-      "id": "v:酸素:さんそ",
-      "kana": "さんそ",
-      "kanji": "酸素",
-      "hv": "TOAN TỐ",
-      "vi": "ôxy",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khoa học",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "水槽[すいそう]に酸素[さんそ]を入[い]れて、魚[さかな]を生[い]かします。",
-          "vi": "Bơm ôxy vào bể để giữ cá sống.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "山[やま]の上[うえ]は、酸素[さんそ]が少[すく]ないです。",
-          "vi": "Trên núi cao ít ôxy.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:電子:でんし",
-      "kana": "でんし",
-      "kanji": "電子",
-      "hv": "ĐIỆN TỬ",
-      "vi": "điện tử",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khoa học",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "電子[でんし]レンジで、お弁当[べんとう]を温[あたた]めます。",
-          "vi": "Hâm cơm hộp bằng lò vi sóng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "電子[でんし]マネーで払[はら]えますか。",
-          "vi": "Trả bằng tiền điện tử được không?",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "電子[でんし]レンジ = lò vi sóng; 電子[でんし]マネー = tiền điện tử."
-    },
-    {
-      "id": "v:人工:じんこう",
-      "kana": "じんこう",
-      "kanji": "人工",
-      "hv": "NHÂN CÔNG",
-      "vi": "nhân tạo",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khoa học",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この魚[さかな]は、人工[じんこう]の池[いけ]で育[そだ]てています。",
-          "vi": "Cá này nuôi trong ao nhân tạo.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "人工知能[じんこうちのう]が、仕事[しごと]を手伝[てつだ]う時代[じだい]です。",
-          "vi": "Thời đại trí tuệ nhân tạo giúp việc.",
-          "ctx": "doisong"
-        }
-      ],
-      "ant": [
-        "v:自然:しぜん"
-      ],
-      "confuse": [
-        "v:人口:じんこう"
-      ],
-      "note": "人工知能[じんこうちのう] = trí tuệ nhân tạo (AI)."
-    },
-    {
-      "id": "v:自動:じどう",
-      "kana": "じどう",
-      "kanji": "自動",
-      "hv": "TỰ ĐỘNG",
-      "vi": "tự động",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khoa học",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "このドアは、自動[じどう]で開[あ]きます。",
-          "vi": "Cửa này mở tự động.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "自動[じどう]の機械[きかい]が、箱[はこ]を運[はこ]んでいます。",
-          "vi": "Máy tự động đang chở thùng.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "自動的[じどうてき]に = một cách tự động; 自動車[じどうしゃ] = ô tô."
-    },
-    {
-      "id": "v:発明:はつめい",
-      "kana": "はつめい",
-      "kanji": "発明",
-      "hv": "PHÁT MINH",
-      "vi": "phát minh",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khoa học",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "電話[でんわ]は、だれが発明[はつめい]しましたか。",
-          "vi": "Điện thoại do ai phát minh?",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "便利[べんり]な道具[どうぐ]を発明[はつめい]したいです。",
-          "vi": "Tôi muốn phát minh ra dụng cụ tiện lợi.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "機械[きかい]を発明[はつめい]する",
-          "vi": "phát minh máy"
-        }
-      ]
-    },
-    {
-      "id": "v:発見:はっけん",
-      "kana": "はっけん",
-      "kanji": "発見",
-      "hv": "PHÁT KIẾN",
-      "vi": "phát hiện",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khoa học",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新[あたら]しい星[ほし]が発見[はっけん]されました。",
-          "vi": "Một ngôi sao mới được phát hiện.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "検査[けんさ]で、骨[ほね]が発見[はっけん]されました。",
-          "vi": "Kiểm tra đã phát hiện ra xương (sót trong cá).",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "異常[いじょう]を発見[はっけん]する",
-          "vi": "phát hiện bất thường"
-        }
-      ],
-      "syn": [
-        "v:見つける:みつける"
-      ]
-    },
-    {
-      "id": "v:存在:そんざい",
-      "kana": "そんざい",
-      "kanji": "存在",
-      "hv": "TỒN TẠI",
-      "vi": "tồn tại, hiện diện",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khoa học",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "宇宙[うちゅう]人[にん]は存在[そんざい]すると思[おも]いますか。",
-          "vi": "Anh nghĩ người ngoài hành tinh có tồn tại không?",
-          "ctx": "hoithoai"
-        },
-        {
-          "jp": "班長[はんちょう]は、みんなにとって大[おお]きな存在[そんざい]です。",
-          "vi": "Tổ trưởng là chỗ dựa lớn với mọi người.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "〜が存在[そんざい]する",
-          "vi": "… tồn tại"
-        }
-      ]
-    },
-    {
-      "id": "v:徐々に:じょじょに",
-      "kana": "じょじょに",
-      "kanji": "徐々に",
-      "kf": "徐々[じょじょ]に",
-      "hv": "TỪ TỪ",
-      "vi": "từ từ, dần dần",
-      "pos": "adv",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xu hướng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "冷凍庫[れいとうこ]の温度[おんど]が、徐々[じょじょ]に下[さ]がっています。",
-          "vi": "Nhiệt độ kho đông đang giảm dần.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "仕事[しごと]に、徐々[じょじょ]に慣[な]れてきました。",
-          "vi": "Tôi đã dần quen với công việc.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:だんだん:だんだん"
-      ]
-    },
-    {
-      "id": "v:深刻:しんこく",
-      "kana": "しんこく",
-      "kanji": "深刻",
-      "hv": "THÂM KHẮC",
-      "vi": "nghiêm trọng",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "人手不足[ひとでふそく]は、深刻[しんこく]な問題[もんだい]です。",
-          "vi": "Thiếu nhân lực là vấn đề nghiêm trọng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "そんなに深刻[しんこく]な顔[かお]をしないでください。",
-          "vi": "Đừng làm mặt nghiêm trọng thế.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:世紀:せいき",
-      "kana": "せいき",
-      "kanji": "世紀",
-      "hv": "THẾ KỶ",
-      "vi": "thế kỷ",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "二十一[にじゅういち]世紀[せいき]は、インターネットの時代[じだい]です。",
-          "vi": "Thế kỷ 21 là thời đại Internet.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "このお寺[てら]は、八[はち]世紀[せいき]に建[た]てられました。",
-          "vi": "Ngôi chùa này được xây vào thế kỷ 8.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:拡大:かくだい",
-      "kana": "かくだい",
-      "kanji": "拡大",
-      "hv": "KHUẾCH ĐẠI",
-      "vi": "phóng to; mở rộng quy mô",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xu hướng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "工場[こうじょう]を拡大[かくだい]して、人[ひと]を増[ふ]やします。",
-          "vi": "Mở rộng nhà máy, tăng người.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "字[じ]が小[ちい]さいので、拡大[かくだい]してください。",
-          "vi": "Chữ nhỏ quá, hãy phóng to.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "画面[がめん]を拡大[かくだい]する",
-          "vi": "phóng to màn hình"
-        }
-      ],
-      "ant": [
-        {
-          "w": "縮小[しゅくしょう]",
-          "vi": "thu nhỏ"
-        }
-      ]
-    },
-    {
-      "id": "v:巨大:きょだい",
-      "kana": "きょだい",
-      "kanji": "巨大",
-      "hv": "CỰ ĐẠI",
-      "vi": "khổng lồ",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "港[みなと]に、巨大[きょだい]な船[ふね]が来[き]ました。",
-          "vi": "Một con tàu khổng lồ cập cảng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "駅[えき]の前[まえ]に、巨大[きょだい]なビルが建[た]ちました。",
-          "vi": "Trước ga mọc lên tòa nhà khổng lồ.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:建設:けんせつ",
-      "kana": "けんせつ",
-      "kanji": "建設",
-      "hv": "KIẾN THIẾT",
-      "vi": "xây dựng (công trình)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新[あたら]しい工場[こうじょう]を建設[けんせつ]しています。",
-          "vi": "Đang xây nhà máy mới.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "建設[けんせつ]の仕事[しごと]も、人[ひと]が足[た]りません。",
-          "vi": "Ngành xây dựng cũng thiếu người.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "道路[どうろ]を建設[けんせつ]する",
-          "vi": "xây đường"
-        }
-      ]
-    },
-    {
-      "id": "v:差別:さべつ",
-      "kana": "さべつ",
-      "kanji": "差別",
-      "hv": "SAI BIỆT",
-      "vi": "phân biệt đối xử",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "国[くに]による差別[さべつ]は、あってはいけません。",
-          "vi": "Không được phân biệt đối xử vì quốc tịch.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "差別[さべつ]のない社会[しゃかい]を作[つく]りましょう。",
-          "vi": "Hãy tạo xã hội không có phân biệt đối xử.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "人[ひと]を差別[さべつ]する",
-          "vi": "phân biệt đối xử với người"
-        }
-      ],
-      "confuse": [
-        "v:区別:くべつ"
-      ],
-      "note": "区別[くべつ] = phân biệt (trung tính); 差別[さべつ] = phân biệt đối xử (xấu)."
-    },
-    {
-      "id": "v:人間:にんげん",
-      "kana": "にんげん",
-      "kanji": "人間",
-      "hv": "NHÂN GIAN",
-      "vi": "con người",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "人間[にんげん]は、失敗[しっぱい]から学[まな]びます。",
-          "vi": "Con người học từ thất bại.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "人間[にんげん]には、休[やす]みが必要[ひつよう]です。",
-          "vi": "Con người cần nghỉ ngơi.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:人:ひと"
-      ]
-    },
-    {
-      "id": "v:分野:ぶんや",
-      "kana": "ぶんや",
-      "kanji": "分野",
-      "hv": "PHÂN DÃ",
-      "vi": "lĩnh vực",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xã hội",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "食品[しょくひん]の分野[ぶんや]で、働[はたら]いています。",
-          "vi": "Tôi làm trong lĩnh vực thực phẩm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "特定[とくてい]技能[ぎのう]には、いろいろな分野[ぶんや]があります。",
-          "vi": "Kỹ năng đặc định có nhiều lĩnh vực.",
-          "ctx": "thutuc"
-        }
-      ]
+     "jp": "注文[ちゅうもん]の増加[ぞうか]で、残業[ざんぎょう]が増[ふ]えました。",
+     "vi": "Đơn hàng tăng nên làm thêm giờ nhiều lên.",
+     "ctx": "xuong"
     }
-  ]
+   ],
+   "coll": [
+    {
+     "jp": "人口[じんこう]が増加[ぞうか]する",
+     "vi": "dân số tăng"
+    }
+   ],
+   "ant": [
+    "v:減少:げんしょう"
+   ],
+   "syn": [
+    "v:増える:ふえる"
+   ]
+  },
+  {
+   "id": "v:減少:げんしょう",
+   "kana": "げんしょう",
+   "kanji": "減少",
+   "hv": "GIẢM THIẾU",
+   "vi": "sự sụt giảm",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]の人口[じんこう]は、減少[げんしょう]しています。",
+     "vi": "Dân số Nhật đang giảm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]がとれる量[りょう]が、年々[ねんねん]減少[げんしょう]している。",
+     "vi": "Lượng cá đánh bắt được giảm dần qua từng năm.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人口[じんこう]が減少[げんしょう]する",
+     "vi": "dân số giảm"
+    }
+   ],
+   "ant": [
+    "v:増加:ぞうか"
+   ],
+   "syn": [
+    "v:減る:へる"
+   ]
+  },
+  {
+   "id": "v:傾向:けいこう",
+   "kana": "けいこう",
+   "kanji": "傾向",
+   "hv": "KHUYNH HƯỚNG",
+   "vi": "khuynh hướng, xu hướng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "若[わか]い人[ひと]は、魚[さかな]を食[た]べない傾向[けいこう]があります。",
+     "vi": "Người trẻ có xu hướng không ăn cá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冬[ふゆ]は、ミスが増[ふ]える傾向[けいこう]がある。",
+     "vi": "Mùa đông có xu hướng sai sót tăng.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "〜傾向[けいこう]がある = có xu hướng …."
+  },
+  {
+   "id": "v:環境:かんきょう",
+   "kana": "かんきょう",
+   "kanji": "環境",
+   "hv": "HOÀN CẢNH",
+   "vi": "môi trường",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "環境[かんきょう]のために、ゴミを分[わ]けて捨[す]てましょう。",
+     "vi": "Vì môi trường, hãy phân loại rác.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "働[はたら]く環境[かんきょう]が、前[まえ]よりよくなりました。",
+     "vi": "Môi trường làm việc tốt hơn trước.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "環境問題[かんきょうもんだい] = vấn đề môi trường."
+  },
+  {
+   "id": "v:汚染:おせん",
+   "kana": "おせん",
+   "kanji": "汚染",
+   "hv": "Ô NHIỄM",
+   "vi": "ô nhiễm",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "海[うみ]の汚染[おせん]で、魚[さかな]が減[へ]っています。",
+     "vi": "Vì biển ô nhiễm, cá giảm đi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "手袋[てぶくろ]が汚染[おせん]されたら、すぐ替[か]えてください。",
+     "vi": "Găng tay bị nhiễm bẩn thì thay ngay.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]が汚染[おせん]される",
+     "vi": "nước bị ô nhiễm"
+    }
+   ]
+  },
+  {
+   "id": "v:資源:しげん",
+   "kana": "しげん",
+   "kanji": "資源",
+   "hv": "TƯ NGUYÊN",
+   "vi": "tài nguyên",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]は、資源[しげん]が少[すく]ない国[くに]です。",
+     "vi": "Nhật là nước ít tài nguyên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "紙[かみ]も大切[たいせつ]な資源[しげん]です。",
+     "vi": "Giấy cũng là tài nguyên quý.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "資源[しげん]ゴミ = rác tái chế (chai, lon, giấy)."
+  },
+  {
+   "id": "v:エネルギー:エネルギー",
+   "kana": "エネルギー",
+   "kanji": "",
+   "hv": "",
+   "vi": "năng lượng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]は、たくさんのエネルギーを使[つか]います。",
+     "vi": "Nhà máy dùng rất nhiều năng lượng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "エネルギーを節約[せつやく]しましょう。",
+     "vi": "Hãy tiết kiệm năng lượng.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "Energie (tiếng Đức)"
+  },
+  {
+   "id": "v:石油:せきゆ",
+   "kana": "せきゆ",
+   "kanji": "石油",
+   "hv": "THẠCH DU",
+   "vi": "dầu mỏ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "石油[せきゆ]の値段[ねだん]が上[あ]がると、物価[ぶっか]も上[あ]がります。",
+     "vi": "Giá dầu tăng thì vật giá cũng tăng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冬[ふゆ]は、石油[せきゆ]ストーブを使[つか]います。",
+     "vi": "Mùa đông tôi dùng lò sưởi dầu.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:物価:ぶっか",
+   "kana": "ぶっか",
+   "kanji": "物価",
+   "hv": "VẬT GIÁ",
+   "vi": "vật giá, giá cả sinh hoạt",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "最近[さいきん]、物価[ぶっか]がどんどん上[あ]がっています。",
+     "vi": "Dạo này vật giá cứ tăng lên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "東京[とうきょう]は、物価[ぶっか]が高[たか]いです。",
+     "vi": "Tokyo vật giá đắt đỏ.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:景気:けいき",
+   "kana": "けいき",
+   "kanji": "景気",
+   "hv": "CẢNH KHÍ",
+   "vi": "tình hình kinh tế, làm ăn",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "景気[けいき]が悪[わる]くて、仕事[しごと]が減[へ]りました。",
+     "vi": "Kinh tế đi xuống nên việc ít đi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今年[ことし]は、景気[けいき]がいいそうです。",
+     "vi": "Nghe nói năm nay làm ăn khấm khá.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:失業:しつぎょう",
+   "kana": "しつぎょう",
+   "kanji": "失業",
+   "hv": "THẤT NGHIỆP",
+   "vi": "thất nghiệp",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]が倒産[とうさん]して、失業[しつぎょう]しました。",
+     "vi": "Công ty phá sản nên tôi mất việc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "失業[しつぎょう]した時[とき]は、ハローワークに相談[そうだん]します。",
+     "vi": "Khi thất nghiệp thì hỏi ý kiến Hello Work.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "会社[かいしゃ]をやめて失業[しつぎょう]する",
+     "vi": "mất việc"
+    }
+   ],
+   "note": "ハローワーク = trung tâm giới thiệu việc làm của nhà nước."
+  },
+  {
+   "id": "v:企業:きぎょう",
+   "kana": "きぎょう",
+   "kanji": "企業",
+   "hv": "XÍ NGHIỆP",
+   "vi": "doanh nghiệp",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大[おお]きい企業[きぎょう]も、人[ひと]が足[た]りないそうです。",
+     "vi": "Nghe nói doanh nghiệp lớn cũng thiếu người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "外国人[がいこくじん]を雇[やと]う企業[きぎょう]が増[ふ]えています。",
+     "vi": "Doanh nghiệp tuyển người nước ngoài đang tăng.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:会社:かいしゃ"
+   ]
+  },
+  {
+   "id": "v:経営:けいえい",
+   "kana": "けいえい",
+   "kanji": "経営",
+   "hv": "KINH DOANH",
+   "vi": "kinh doanh, điều hành (công ty)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]は、二[ふた]つの工場[こうじょう]を経営[けいえい]しています。",
+     "vi": "Giám đốc điều hành hai nhà máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "将来[しょうらい]、レストランを経営[けいえい]したいです。",
+     "vi": "Sau này tôi muốn mở nhà hàng kinh doanh.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "店[みせ]を経営[けいえい]する",
+     "vi": "kinh doanh cửa hàng"
+    }
+   ]
+  },
+  {
+   "id": "v:倒産:とうさん",
+   "kana": "とうさん",
+   "kanji": "倒産",
+   "hv": "ĐẢO SẢN",
+   "vi": "phá sản (công ty)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不景気[ふけいき]で、小[ちい]さい会社[かいしゃ]が倒産[とうさん]しました。",
+     "vi": "Vì kinh tế khó khăn, công ty nhỏ phá sản.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]が倒産[とうさん]したら、給料[きゅうりょう]はどうなりますか。",
+     "vi": "Nếu công ty phá sản thì lương thế nào?",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "会社[かいしゃ]が倒産[とうさん]する",
+     "vi": "công ty phá sản"
+    }
+   ]
+  },
+  {
+   "id": "v:地球:ちきゅう",
+   "kana": "ちきゅう",
+   "kanji": "地球",
+   "hv": "ĐỊA CẦU",
+   "vi": "địa cầu, trái đất",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地球[ちきゅう]の温度[おんど]が、少[すこ]しずつ上[あ]がっています。",
+     "vi": "Nhiệt độ trái đất tăng dần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "地球[ちきゅう]のために、ゴミを減[へ]らしましょう。",
+     "vi": "Vì trái đất, hãy giảm rác.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:自然:しぜん",
+   "kana": "しぜん",
+   "kanji": "自然",
+   "hv": "TỰ NHIÊN",
+   "vi": "tự nhiên, thiên nhiên",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "田舎[いなか]は、自然[しぜん]が多[おお]くて静[しず]かです。",
+     "vi": "Quê nhiều thiên nhiên, yên tĩnh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "自然[しぜん]に笑顔[えがお]が出[で]ました。",
+     "vi": "Nụ cười nở ra tự nhiên.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "自然[しぜん]に = một cách tự nhiên."
+  },
+  {
+   "id": "v:人類:じんるい",
+   "kana": "じんるい",
+   "kanji": "人類",
+   "hv": "NHÂN LOẠI",
+   "vi": "nhân loại, loài người",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人類[じんるい]は、火[ひ]を使[つか]うことで発展[はってん]しました。",
+     "vi": "Loài người phát triển nhờ biết dùng lửa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "宇宙[うちゅう]に行[い]くのは、人類[じんるい]の夢[ゆめ]でした。",
+     "vi": "Đi lên vũ trụ là ước mơ của nhân loại.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:現代:げんだい",
+   "kana": "げんだい",
+   "kanji": "現代",
+   "hv": "HIỆN ĐẠI",
+   "vi": "hiện đại, thời nay",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "現代[げんだい]の生活[せいかつ]に、スマホは欠[か]かせません。",
+     "vi": "Cuộc sống thời nay không thể thiếu điện thoại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "現代[げんだい]の工場[こうじょう]は、ほとんど機械[きかい]で動[うご]いています。",
+     "vi": "Nhà máy hiện đại hầu như chạy bằng máy.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:発展:はってん",
+   "kana": "はってん",
+   "kanji": "発展",
+   "hv": "PHÁT TRIỂN",
+   "vi": "phát triển (đi lên, mở rộng)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ベトナムの経済[けいざい]は、急速[きゅうそく]に発展[はってん]しています。",
+     "vi": "Kinh tế Việt Nam đang phát triển nhanh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "町[まち]が発展[はってん]して、駅[えき]が新[あたら]しくなりました。",
+     "vi": "Thị trấn phát triển, nhà ga được làm mới.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "経済[けいざい]が発展[はってん]する",
+     "vi": "kinh tế phát triển"
+    }
+   ],
+   "confuse": [
+    "v:発達:はったつ"
+   ]
+  },
+  {
+   "id": "v:発達:はったつ",
+   "kana": "はったつ",
+   "kanji": "発達",
+   "hv": "PHÁT ĐẠT",
+   "vi": "phát triển (hoàn thiện dần: cơ thể, kỹ thuật)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "技術[ぎじゅつ]が発達[はったつ]して、生活[せいかつ]が便利[べんり]になった。",
+     "vi": "Kỹ thuật phát triển, đời sống tiện hơn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "台風[たいふう]が発達[はったつ]しながら、近[ちか]づいています。",
+     "vi": "Bão vừa mạnh lên vừa tiến lại gần.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "技術[ぎじゅつ]が発達[はったつ]する",
+     "vi": "kỹ thuật phát triển"
+    }
+   ],
+   "note": "発展[はってん] = mở rộng, đi lên (kinh tế, thành phố); 発達[はったつ] = hoàn thiện dần (cơ thể, kỹ thuật, bão)."
+  },
+  {
+   "id": "v:変化:へんか",
+   "kana": "へんか",
+   "kanji": "変化",
+   "hv": "BIẾN HÓA",
+   "vi": "sự biến đổi",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "季節[きせつ]の変化[へんか]を感[かん]じます。",
+     "vi": "Tôi cảm nhận được sự chuyển mùa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "温度[おんど]の変化[へんか]に気[き]をつけてください。",
+     "vi": "Hãy chú ý sự thay đổi nhiệt độ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "温度[おんど]が変化[へんか]する",
+     "vi": "nhiệt độ biến đổi"
+    }
+   ],
+   "syn": [
+    "v:変わる:かわる"
+   ]
+  },
+  {
+   "id": "v:進歩:しんぽ",
+   "kana": "しんぽ",
+   "kanji": "進歩",
+   "hv": "TIẾN BỘ",
+   "vi": "tiến bộ (đi lên)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "医学[いがく]の進歩[しんぽ]で、病気[びょうき]が治[なお]るようになった。",
+     "vi": "Nhờ y học tiến bộ, bệnh đã chữa được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "日本語[にほんご]が、少[すこ]しずつ進歩[しんぽ]しています。",
+     "vi": "Tiếng Nhật đang tiến bộ dần.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "技術[ぎじゅつ]が進歩[しんぽ]する",
+     "vi": "kỹ thuật tiến bộ"
+    }
+   ],
+   "syn": [
+    "v:上達:じょうたつ"
+   ]
+  },
+  {
+   "id": "v:ますます:ますます",
+   "kana": "ますます",
+   "kanji": "",
+   "hv": "",
+   "vi": "ngày càng (thêm)",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "外国人[がいこくじん]の労働者[ろうどうしゃ]は、ますます増[ふ]えるでしょう。",
+     "vi": "Lao động nước ngoài sẽ ngày càng nhiều.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "練習[れんしゅう]するほど、ますます面白[おもしろ]くなります。",
+     "vi": "Càng tập càng thấy thú vị.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:一層:いっそう"
+   ]
+  },
+  {
+   "id": "v:急速:きゅうそく",
+   "kana": "きゅうそく",
+   "kanji": "急速",
+   "hv": "CẤP TỐC",
+   "vi": "cấp tốc (tốc độ biến đổi nhanh)",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "町[まち]が急速[きゅうそく]に変[か]わっています。",
+     "vi": "Thị trấn thay đổi nhanh chóng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "スマホは、急速[きゅうそく]に広[ひろ]まりました。",
+     "vi": "Điện thoại thông minh lan rộng nhanh chóng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "切[き]った魚[さかな]は、すぐに急速[きゅうそく]冷凍[れいとう]の機械[きかい]に入[い]れてください。",
+     "vi": "Cá đã cắt thì hãy cho ngay vào máy cấp đông nhanh.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:急激:きゅうげき"
+   ]
+  },
+  {
+   "id": "v:急激:きゅうげき",
+   "kana": "きゅうげき",
+   "kanji": "急激",
+   "hv": "CẤP KÍCH",
+   "vi": "đột ngột, mạnh mẽ (biến đổi)",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "急激[きゅうげき]な温度[おんど]の変化[へんか]は、魚[さかな]に良[よ]くないです。",
+     "vi": "Nhiệt độ thay đổi đột ngột không tốt cho cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "物価[ぶっか]が急激[きゅうげき]に上[あ]がりました。",
+     "vi": "Vật giá tăng vọt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "最近[さいきん]の円安[えんやす]はあまりにも急激[きゅうげき]で、国[くに]への送金[そうきん]が大変[たいへん]だ。",
+     "vi": "Đồng yên gần đây mất giá quá đột ngột, gửi tiền về nước vất vả quá.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "急速[きゅうそく] = nhanh (tốc độ); 急激[きゅうげき] = đột ngột, mạnh (thường không tốt)."
+  },
+  {
+   "id": "v:一層:いっそう",
+   "kana": "いっそう",
+   "kanji": "一層",
+   "hv": "NHẤT TẦNG",
+   "vi": "càng thêm",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "これからも、一層[いっそう]頑張[がんば]ります。",
+     "vi": "Từ nay tôi sẽ cố gắng hơn nữa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "雨[あめ]で、寒[さむ]さが一層[いっそう]厳[きび]しくなった。",
+     "vi": "Vì mưa, cái lạnh càng thêm khắc nghiệt.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Văn trang trọng. より一層[いっそう] = hơn nữa."
+  },
+  {
+   "id": "v:状況:じょうきょう",
+   "kana": "じょうきょう",
+   "kanji": "状況",
+   "hv": "TRẠNG HUỐNG",
+   "vi": "cục diện, tình hình chung",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今[いま]の状況[じょうきょう]を、班長[はんちょう]に報告[ほうこく]してください。",
+     "vi": "Hãy báo tình hình hiện tại cho tổ trưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台風[たいふう]の状況[じょうきょう]を、ニュースで見[み]ています。",
+     "vi": "Tôi đang xem tình hình bão trên tin tức.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:現象:げんしょう",
+   "kana": "げんしょう",
+   "kanji": "現象",
+   "hv": "HIỆN TƯỢNG",
+   "vi": "hiện tượng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雪[ゆき]が少[すく]ないのは、珍[めずら]しい現象[げんしょう]です。",
+     "vi": "Ít tuyết là hiện tượng hiếm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]が急[きゅう]に止[と]まる現象[げんしょう]が、何度[なんど]も起[お]きている。",
+     "vi": "Hiện tượng máy đột nhiên dừng đã xảy ra nhiều lần.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:宇宙:うちゅう",
+   "kana": "うちゅう",
+   "kanji": "宇宙",
+   "hv": "VŨ TRỤ",
+   "vi": "vũ trụ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoa học",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "宇宙[うちゅう]から見[み]た地球[ちきゅう]は、青[あお]いそうです。",
+     "vi": "Nghe nói trái đất nhìn từ vũ trụ màu xanh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "子[こ]どものころ、宇宙[うちゅう]に行[い]きたかった。",
+     "vi": "Hồi nhỏ tôi muốn bay vào vũ trụ.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:化学:かがく",
+   "kana": "かがく",
+   "kanji": "化学",
+   "hv": "HÓA HỌC",
+   "vi": "hóa học",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoa học",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "洗剤[せんざい]は化学[かがく]の薬[くすり]なので、手袋[てぶくろ]をしてください。",
+     "vi": "Chất tẩy là hóa chất nên hãy đeo găng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "化学[かがく]の授業[じゅぎょう]が苦手[にがて]でした。",
+     "vi": "Tôi kém môn hóa.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:科学:かがく"
+   ],
+   "note": "Phân biệt nói: 化学[かがく] hay đọc là ばけがく để khỏi nhầm với 科学[かがく] (khoa học)."
+  },
+  {
+   "id": "v:実験:じっけん",
+   "kana": "じっけん",
+   "kanji": "実験",
+   "hv": "THỰC NGHIỆM",
+   "vi": "thí nghiệm",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoa học",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい機械[きかい]で、実験[じっけん]をしています。",
+     "vi": "Đang thử nghiệm với máy mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "学校[がっこう]で、水[みず]の実験[じっけん]をしました。",
+     "vi": "Ở trường đã làm thí nghiệm về nước.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "実験[じっけん]をする",
+     "vi": "làm thí nghiệm"
+    }
+   ]
+  },
+  {
+   "id": "v:酸素:さんそ",
+   "kana": "さんそ",
+   "kanji": "酸素",
+   "hv": "TOAN TỐ",
+   "vi": "ôxy",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoa học",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "水槽[すいそう]に酸素[さんそ]を入[い]れて、魚[さかな]を生[い]かします。",
+     "vi": "Bơm ôxy vào bể để giữ cá sống.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "山[やま]の上[うえ]は、酸素[さんそ]が少[すく]ないです。",
+     "vi": "Trên núi cao ít ôxy.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:電子:でんし",
+   "kana": "でんし",
+   "kanji": "電子",
+   "hv": "ĐIỆN TỬ",
+   "vi": "điện tử",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoa học",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "電子[でんし]レンジで、お弁当[べんとう]を温[あたた]めます。",
+     "vi": "Hâm cơm hộp bằng lò vi sóng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "電子[でんし]マネーで払[はら]えますか。",
+     "vi": "Trả bằng tiền điện tử được không?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "電子[でんし]レンジ = lò vi sóng; 電子[でんし]マネー = tiền điện tử."
+  },
+  {
+   "id": "v:人工:じんこう",
+   "kana": "じんこう",
+   "kanji": "人工",
+   "hv": "NHÂN CÔNG",
+   "vi": "nhân tạo",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoa học",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この魚[さかな]は、人工[じんこう]の池[いけ]で育[そだ]てています。",
+     "vi": "Cá này nuôi trong ao nhân tạo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "人工知能[じんこうちのう]が、仕事[しごと]を手伝[てつだ]う時代[じだい]です。",
+     "vi": "Thời đại trí tuệ nhân tạo giúp việc.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:自然:しぜん"
+   ],
+   "confuse": [
+    "v:人口:じんこう"
+   ],
+   "note": "人工知能[じんこうちのう] = trí tuệ nhân tạo (AI)."
+  },
+  {
+   "id": "v:自動:じどう",
+   "kana": "じどう",
+   "kanji": "自動",
+   "hv": "TỰ ĐỘNG",
+   "vi": "tự động",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoa học",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このドアは、自動[じどう]で開[あ]きます。",
+     "vi": "Cửa này mở tự động.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "自動[じどう]の機械[きかい]が、箱[はこ]を運[はこ]んでいます。",
+     "vi": "Máy tự động đang chở thùng.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "自動的[じどうてき]に = một cách tự động; 自動車[じどうしゃ] = ô tô."
+  },
+  {
+   "id": "v:発明:はつめい",
+   "kana": "はつめい",
+   "kanji": "発明",
+   "hv": "PHÁT MINH",
+   "vi": "phát minh",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoa học",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "電話[でんわ]は、だれが発明[はつめい]しましたか。",
+     "vi": "Điện thoại do ai phát minh?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "便利[べんり]な道具[どうぐ]を発明[はつめい]したいです。",
+     "vi": "Tôi muốn phát minh ra dụng cụ tiện lợi.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "機械[きかい]を発明[はつめい]する",
+     "vi": "phát minh máy"
+    }
+   ]
+  },
+  {
+   "id": "v:発見:はっけん",
+   "kana": "はっけん",
+   "kanji": "発見",
+   "hv": "PHÁT KIẾN",
+   "vi": "phát hiện",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoa học",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい星[ほし]が発見[はっけん]されました。",
+     "vi": "Một ngôi sao mới được phát hiện.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "検査[けんさ]で、骨[ほね]が発見[はっけん]されました。",
+     "vi": "Kiểm tra đã phát hiện ra xương (sót trong cá).",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "異常[いじょう]を発見[はっけん]する",
+     "vi": "phát hiện bất thường"
+    }
+   ],
+   "syn": [
+    "v:見つける:みつける"
+   ]
+  },
+  {
+   "id": "v:存在:そんざい",
+   "kana": "そんざい",
+   "kanji": "存在",
+   "hv": "TỒN TẠI",
+   "vi": "tồn tại, hiện diện",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khoa học",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "宇宙[うちゅう]人[にん]は存在[そんざい]すると思[おも]いますか。",
+     "vi": "Anh nghĩ người ngoài hành tinh có tồn tại không?",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "班長[はんちょう]は、みんなにとって大[おお]きな存在[そんざい]です。",
+     "vi": "Tổ trưởng là chỗ dựa lớn với mọi người.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "〜が存在[そんざい]する",
+     "vi": "… tồn tại"
+    }
+   ]
+  },
+  {
+   "id": "v:徐々に:じょじょに",
+   "kana": "じょじょに",
+   "kanji": "徐々に",
+   "kf": "徐々[じょじょ]に",
+   "hv": "TỪ TỪ",
+   "vi": "từ từ, dần dần",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冷凍庫[れいとうこ]の温度[おんど]が、徐々[じょじょ]に下[さ]がっています。",
+     "vi": "Nhiệt độ kho đông đang giảm dần.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "仕事[しごと]に、徐々[じょじょ]に慣[な]れてきました。",
+     "vi": "Tôi đã dần quen với công việc.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:だんだん:だんだん"
+   ]
+  },
+  {
+   "id": "v:深刻:しんこく",
+   "kana": "しんこく",
+   "kanji": "深刻",
+   "hv": "THÂM KHẮC",
+   "vi": "nghiêm trọng",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人手不足[ひとでふそく]は、深刻[しんこく]な問題[もんだい]です。",
+     "vi": "Thiếu nhân lực là vấn đề nghiêm trọng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "そんなに深刻[しんこく]な顔[かお]をしないでください。",
+     "vi": "Đừng làm mặt nghiêm trọng thế.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：病院[びょういん]で何[なん]て言[い]われた？ B：そんなに深刻[しんこく]じゃないって。安心[あんしん]したよ。",
+     "vi": "A: Ở bệnh viện người ta nói sao? B: Bảo là không nghiêm trọng lắm. Tôi yên tâm rồi.",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:世紀:せいき",
+   "kana": "せいき",
+   "kanji": "世紀",
+   "hv": "THẾ KỶ",
+   "vi": "thế kỷ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "二十一[にじゅういち]世紀[せいき]は、インターネットの時代[じだい]です。",
+     "vi": "Thế kỷ 21 là thời đại Internet.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "このお寺[てら]は、八[はち]世紀[せいき]に建[た]てられました。",
+     "vi": "Ngôi chùa này được xây vào thế kỷ 8.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:拡大:かくだい",
+   "kana": "かくだい",
+   "kanji": "拡大",
+   "hv": "KHUẾCH ĐẠI",
+   "vi": "phóng to; mở rộng quy mô",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]を拡大[かくだい]して、人[ひと]を増[ふ]やします。",
+     "vi": "Mở rộng nhà máy, tăng người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "字[じ]が小[ちい]さいので、拡大[かくだい]してください。",
+     "vi": "Chữ nhỏ quá, hãy phóng to.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "画面[がめん]を拡大[かくだい]する",
+     "vi": "phóng to màn hình"
+    }
+   ],
+   "ant": [
+    {
+     "w": "縮小[しゅくしょう]",
+     "vi": "thu nhỏ"
+    }
+   ]
+  },
+  {
+   "id": "v:巨大:きょだい",
+   "kana": "きょだい",
+   "kanji": "巨大",
+   "hv": "CỰ ĐẠI",
+   "vi": "khổng lồ",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "港[みなと]に、巨大[きょだい]な船[ふね]が来[き]ました。",
+     "vi": "Một con tàu khổng lồ cập cảng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "駅[えき]の前[まえ]に、巨大[きょだい]なビルが建[た]ちました。",
+     "vi": "Trước ga mọc lên tòa nhà khổng lồ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このマグロ、ほんまに巨大[きょだい]やな。 B：せやろ。一人[ひとり]では運[はこ]べへんで。",
+     "vi": "A: Con cá ngừ này đúng là khổng lồ. B: Phải không. Một người khiêng không nổi đâu.",
+     "ctx": "kansai"
+    }
+   ]
+  },
+  {
+   "id": "v:建設:けんせつ",
+   "kana": "けんせつ",
+   "kanji": "建設",
+   "hv": "KIẾN THIẾT",
+   "vi": "xây dựng (công trình)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい工場[こうじょう]を建設[けんせつ]しています。",
+     "vi": "Đang xây nhà máy mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "建設[けんせつ]の仕事[しごと]も、人[ひと]が足[た]りません。",
+     "vi": "Ngành xây dựng cũng thiếu người.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "道路[どうろ]を建設[けんせつ]する",
+     "vi": "xây đường"
+    }
+   ]
+  },
+  {
+   "id": "v:差別:さべつ",
+   "kana": "さべつ",
+   "kanji": "差別",
+   "hv": "SAI BIỆT",
+   "vi": "phân biệt đối xử",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "国[くに]による差別[さべつ]は、あってはいけません。",
+     "vi": "Không được phân biệt đối xử vì quốc tịch.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "差別[さべつ]のない社会[しゃかい]を作[つく]りましょう。",
+     "vi": "Hãy tạo xã hội không có phân biệt đối xử.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人[ひと]を差別[さべつ]する",
+     "vi": "phân biệt đối xử với người"
+    }
+   ],
+   "confuse": [
+    "v:区別:くべつ"
+   ],
+   "note": "区別[くべつ] = phân biệt (trung tính); 差別[さべつ] = phân biệt đối xử (xấu)."
+  },
+  {
+   "id": "v:人間:にんげん",
+   "kana": "にんげん",
+   "kanji": "人間",
+   "hv": "NHÂN GIAN",
+   "vi": "con người",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人間[にんげん]は、失敗[しっぱい]から学[まな]びます。",
+     "vi": "Con người học từ thất bại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "人間[にんげん]には、休[やす]みが必要[ひつよう]です。",
+     "vi": "Con người cần nghỉ ngơi.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:人:ひと"
+   ]
+  },
+  {
+   "id": "v:分野:ぶんや",
+   "kana": "ぶんや",
+   "kanji": "分野",
+   "hv": "PHÂN DÃ",
+   "vi": "lĩnh vực",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "食品[しょくひん]の分野[ぶんや]で、働[はたら]いています。",
+     "vi": "Tôi làm trong lĩnh vực thực phẩm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "特定[とくてい]技能[ぎのう]には、いろいろな分野[ぶんや]があります。",
+     "vi": "Kỹ năng đặc định có nhiều lĩnh vực.",
+     "ctx": "thutuc"
+    }
+   ]
+  }
+ ]
 }

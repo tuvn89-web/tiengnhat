@@ -1,969 +1,974 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n3-23",
-    "title": "JLPT N3 23 – Tin tức & con số",
-    "type": "vocab",
-    "level": "N3",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 4,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-23",
+  "title": "JLPT N3 23 – Tin tức & con số",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 5,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:記事:きじ",
+   "kana": "きじ",
+   "kanji": "記事",
+   "hv": "KÝ SỰ",
+   "vi": "bài báo",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:記事:きじ",
-      "kana": "きじ",
-      "kanji": "記事",
-      "hv": "KÝ SỰ",
-      "vi": "bài báo",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新聞[しんぶん]に、うちの工場[こうじょう]の記事[きじ]が出[で]ました。",
-          "vi": "Báo có bài về nhà máy chúng tôi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "ネットの記事[きじ]は、全部[ぜんぶ]が正[ただ]しいわけではない。",
-          "vi": "Bài trên mạng không phải bài nào cũng đúng.",
-          "ctx": "doisong"
-        }
-      ]
+     "jp": "新聞[しんぶん]に、うちの工場[こうじょう]の記事[きじ]が出[で]ました。",
+     "vi": "Báo có bài về nhà máy chúng tôi.",
+     "ctx": "xuong"
     },
     {
-      "id": "v:記者:きしゃ",
-      "kana": "きしゃ",
-      "kanji": "記者",
-      "hv": "KÝ GIẢ",
-      "vi": "phóng viên",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "テレビの記者[きしゃ]が、取材[しゅざい]に来[き]ました。",
-          "vi": "Phóng viên truyền hình đến lấy tin.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "記者[きしゃ]の質問[しつもん]に、社長[しゃちょう]が答[こた]えました。",
-          "vi": "Giám đốc trả lời câu hỏi của phóng viên.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        {
-          "w": "汽車[きしゃ]",
-          "vi": "tàu hơi nước"
-        }
-      ]
-    },
-    {
-      "id": "v:マスコミ:マスコミ",
-      "kana": "マスコミ",
-      "kanji": "",
-      "hv": "",
-      "vi": "truyền thông đại chúng",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "その事件[じけん]は、マスコミで大[おお]きく取[と]り上[あ]げられた。",
-          "vi": "Vụ đó được truyền thông đưa tin rầm rộ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "マスコミの情報[じょうほう]を、そのまま信[しん]じないで。",
-          "vi": "Đừng tin ngay thông tin của truyền thông.",
-          "ctx": "doisong"
-        }
-      ],
-      "goc": "mass communication (tiếng Anh, rút gọn)",
-      "wasei": true
-    },
-    {
-      "id": "v:率:りつ",
-      "kana": "りつ",
-      "kanji": "率",
-      "hv": "SUẤT",
-      "vi": "tỉ suất (trong từ ghép)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Con số",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "合格[ごうかく]の率[りつ]は、五十[ごじゅっ]パーセントです。",
-          "vi": "Tỉ lệ đỗ là 50%.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "不良品[ふりょうひん]の率[りつ]を、下[さ]げましょう。",
-          "vi": "Hãy giảm tỉ lệ hàng lỗi.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "Thường ghép: 合格率[ごうかくりつ] (tỉ lệ đỗ), 失業率[しつぎょうりつ] (tỉ lệ thất nghiệp), 確率[かくりつ] (xác suất)."
-    },
-    {
-      "id": "v:パーセント:パーセント",
-      "kana": "パーセント",
-      "kanji": "",
-      "hv": "",
-      "vi": "phần trăm",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Con số",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "消費税[しょうひぜい]は、十[じゅっ]パーセントです。",
-          "vi": "Thuế tiêu thụ là 10%.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "社員[しゃいん]の三十[さんじゅっ]パーセントが、外国人[がいこくじん]です。",
-          "vi": "30% nhân viên là người nước ngoài.",
-          "ctx": "xuong"
-        }
-      ],
-      "goc": "percent (tiếng Anh)"
-    },
-    {
-      "id": "v:数字:すうじ",
-      "kana": "すうじ",
-      "kanji": "数字",
-      "hv": "SỐ TỰ",
-      "vi": "chữ số, con số",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Con số",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "数字[すうじ]は、はっきり書[か]いてください。",
-          "vi": "Viết chữ số cho rõ ràng.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "今月[こんげつ]の数字[すうじ]が、よくありません。",
-          "vi": "Số liệu tháng này không tốt.",
-          "ctx": "xuong"
-        }
-      ]
-    },
-    {
-      "id": "v:事件:じけん",
-      "kana": "じけん",
-      "kanji": "事件",
-      "hv": "SỰ KIỆN",
-      "vi": "vụ việc (án)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "近所[きんじょ]で、事件[じけん]がありました。",
-          "vi": "Gần nhà có xảy ra một vụ án.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "その事件[じけん]は、まだ解決[かいけつ]していない。",
-          "vi": "Vụ đó vẫn chưa được giải quyết.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:事故:じこ"
-      ],
-      "note": "事件[じけん] = vụ việc (thường do người gây ra: trộm, án); 事故[じこ] = tai nạn."
-    },
-    {
-      "id": "v:犯罪:はんざい",
-      "kana": "はんざい",
-      "kanji": "犯罪",
-      "hv": "PHẠM TỘI",
-      "vi": "tội phạm (hành vi)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "犯罪[はんざい]が少[すく]ない町[まち]に住[す]みたいです。",
-          "vi": "Tôi muốn sống ở thị trấn ít tội phạm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "人[ひと]の在留[ざいりゅう]カードを使[つか]うのは、犯罪[はんざい]です。",
-          "vi": "Dùng thẻ cư trú của người khác là phạm tội.",
-          "ctx": "thutuc"
-        }
-      ]
-    },
-    {
-      "id": "v:犯人:はんにん",
-      "kana": "はんにん",
-      "kanji": "犯人",
-      "hv": "PHẠM NHÂN",
-      "vi": "thủ phạm",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "犯人[はんにん]は、まだ見[み]つかっていません。",
-          "vi": "Thủ phạm vẫn chưa bị tìm thấy.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "冷蔵庫[れいぞうこ]のプリンを食[た]べた犯人[はんにん]は誰[だれ]だ？",
-          "vi": "Ai là thủ phạm ăn bánh pudding trong tủ lạnh?",
-          "ctx": "hoithoai"
-        }
-      ]
-    },
-    {
-      "id": "v:逮捕:たいほ",
-      "kana": "たいほ",
-      "kanji": "逮捕",
-      "hv": "ĐÃI BỘ",
-      "vi": "bắt giữ (cảnh sát)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "犯人[はんにん]が、昨日[きのう]逮捕[たいほ]されました。",
-          "vi": "Thủ phạm đã bị bắt hôm qua.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "警察[けいさつ]が、泥棒[どろぼう]を逮捕[たいほ]しました。",
-          "vi": "Cảnh sát đã bắt tên trộm.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "犯人[はんにん]を逮捕[たいほ]する",
-          "vi": "bắt thủ phạm"
-        }
-      ],
-      "syn": [
-        "v:捕まえる:つかまえる"
-      ]
-    },
-    {
-      "id": "v:被害者:ひがいしゃ",
-      "kana": "ひがいしゃ",
-      "kanji": "被害者",
-      "hv": "BỊ HẠI GIẢ",
-      "vi": "người bị hại",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "被害者[ひがいしゃ]は、三人[さんにん]だそうです。",
-          "vi": "Nghe nói có 3 người bị hại.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "詐欺[さぎ]の被害者[ひがいしゃ]にならないように、気[き]をつけて。",
-          "vi": "Cẩn thận kẻo thành nạn nhân lừa đảo.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:被害:ひがい"
-      ]
-    },
-    {
-      "id": "v:政府:せいふ",
-      "kana": "せいふ",
-      "kanji": "政府",
-      "hv": "CHÍNH PHỦ",
-      "vi": "chính phủ",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "政府[せいふ]は、外国人[がいこくじん]の受[う]け入[い]れを増[ふ]やしています。",
-          "vi": "Chính phủ đang tăng tiếp nhận người nước ngoài.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "政府[せいふ]の発表[はっぴょう]を、ニュースで見[み]ました。",
-          "vi": "Tôi xem thông báo của chính phủ trên tin tức.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:首相:しゅしょう",
-      "kana": "しゅしょう",
-      "kanji": "首相",
-      "hv": "THỦ TƯỚNG",
-      "vi": "thủ tướng",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "首相[しゅしょう]が、外国[がいこく]を訪問[ほうもん]しています。",
-          "vi": "Thủ tướng đang thăm nước ngoài.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新[あたら]しい首相[しゅしょう]が決[き]まりました。",
-          "vi": "Thủ tướng mới đã được quyết định.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "総理大臣[そうりだいじん] = thủ tướng (tên chính thức)."
-    },
-    {
-      "id": "v:選挙:せんきょ",
-      "kana": "せんきょ",
-      "kanji": "選挙",
-      "hv": "TUYỂN CỬ",
-      "vi": "bầu cử",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "来月[らいげつ]、市長[しちょう]の選挙[せんきょ]があります。",
-          "vi": "Tháng sau có bầu cử thị trưởng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "外国人[がいこくじん]は、日本[にほん]の選挙[せんきょ]で投票[とうひょう]できません。",
-          "vi": "Người nước ngoài không bỏ phiếu được ở bầu cử Nhật.",
-          "ctx": "thutuc"
-        }
-      ]
-    },
-    {
-      "id": "v:平和:へいわ",
-      "kana": "へいわ",
-      "kanji": "平和",
-      "hv": "BÌNH HÒA",
-      "vi": "hòa bình, bình yên",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "世界[せかい]が平和[へいわ]になってほしい。",
-          "vi": "Mong thế giới hòa bình.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "平和[へいわ]な町[まち]で、のんびり暮[く]らしたい。",
-          "vi": "Muốn sống thong thả ở thị trấn bình yên.",
-          "ctx": "doisong"
-        }
-      ],
-      "ant": [
-        {
-          "w": "戦争[せんそう]",
-          "vi": "chiến tranh"
-        }
-      ]
-    },
-    {
-      "id": "v:発表:はっぴょう",
-      "kana": "はっぴょう",
-      "kanji": "発表",
-      "hv": "PHÁT BIỂU",
-      "vi": "công bố; thuyết trình",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "試験[しけん]の結果[けっか]は、来月[らいげつ]発表[はっぴょう]されます。",
-          "vi": "Kết quả thi sẽ công bố tháng sau.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "会議[かいぎ]で、改善[かいぜん]の案[あん]を発表[はっぴょう]しました。",
-          "vi": "Tôi trình bày phương án cải tiến trong cuộc họp.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "結果[けっか]を発表[はっぴょう]する",
-          "vi": "công bố kết quả"
-        }
-      ]
-    },
-    {
-      "id": "v:年齢:ねんれい",
-      "kana": "ねんれい",
-      "kanji": "年齢",
-      "hv": "NIÊN LINH",
-      "vi": "tuổi tác",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Con số",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "書類[しょるい]に、年齢[ねんれい]を書[か]いてください。",
-          "vi": "Hãy ghi tuổi vào giấy.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "年齢[ねんれい]に関係[かんけい]なく、応募[おうぼ]できます。",
-          "vi": "Ứng tuyển được không kể tuổi tác.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        {
-          "w": "年[とし]",
-          "vi": "tuổi"
-        }
-      ]
-    },
-    {
-      "id": "v:約:やく",
-      "kana": "やく",
-      "kanji": "約",
-      "hv": "ƯỚC",
-      "vi": "khoảng (văn viết, trước số)",
-      "pos": "other",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Con số",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "工場[こうじょう]には、約[やく]百人[ひゃくにん]が働[はたら]いています。",
-          "vi": "Nhà máy có khoảng 100 người làm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "駅[えき]から歩[ある]いて、約[やく]十分[じゅっぷん]です。",
-          "vi": "Từ ga đi bộ khoảng 10 phút.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:およそ:およそ"
-      ],
-      "note": "Đứng trước con số: 約[やく]〜. Văn nói hay dùng 〜ぐらい sau số."
-    },
-    {
-      "id": "v:およそ:およそ",
-      "kana": "およそ",
-      "kanji": "",
-      "hv": "",
-      "vi": "ước chừng",
-      "pos": "adv",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Con số",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "およそ一時間[いちじかん]で着[つ]きます。",
-          "vi": "Khoảng một tiếng là tới.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "費用[ひよう]は、およそ五万円[ごまんえん]です。",
-          "vi": "Chi phí khoảng 50.000 yên.",
-          "ctx": "thutuc"
-        }
-      ],
-      "syn": [
-        "v:約:やく"
-      ]
-    },
-    {
-      "id": "v:ほぼ:ほぼ",
-      "kana": "ほぼ",
-      "kanji": "",
-      "hv": "",
-      "vi": "gần như (sát mức)",
-      "pos": "adv",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Con số",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "作業[さぎょう]は、ほぼ終[お]わりました。",
-          "vi": "Công việc gần như xong.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "ほぼ毎日[まいにち]、日本語[にほんご]を勉強[べんきょう]しています。",
-          "vi": "Hầu như ngày nào tôi cũng học tiếng Nhật.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:ほとんど:ほとんど"
-      ]
-    },
-    {
-      "id": "v:ざっと:ざっと",
-      "kana": "ざっと",
-      "kanji": "",
-      "hv": "",
-      "vi": "sơ qua; tính sơ sơ",
-      "pos": "adv",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Con số",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "書類[しょるい]に、ざっと目[め]を通[とお]しました。",
-          "vi": "Tôi lướt sơ qua giấy tờ.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "ざっと計算[けいさん]すると、十万円[じゅうまんえん]ぐらいです。",
-          "vi": "Tính sơ sơ khoảng 100.000 yên.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:大半:たいはん",
-      "kana": "たいはん",
-      "kanji": "大半",
-      "hv": "ĐẠI BÁN",
-      "vi": "quá nửa, đa phần",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Con số",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "社員[しゃいん]の大半[たいはん]は、地元[じもと]の人[ひと]です。",
-          "vi": "Phần lớn nhân viên là người địa phương.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "給料[きゅうりょう]の大半[たいはん]を、家族[かぞく]に送[おく]っています。",
-          "vi": "Tôi gửi phần lớn lương về cho gia đình.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:大部分:だいぶぶん"
-      ]
-    },
-    {
-      "id": "v:大部分:だいぶぶん",
-      "kana": "だいぶぶん",
-      "kanji": "大部分",
-      "hv": "ĐẠI BỘ PHÂN",
-      "vi": "đại bộ phận",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Con số",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "雪[ゆき]で、道路[どうろ]の大部分[だいぶぶん]が通[とお]れません。",
-          "vi": "Do tuyết, đại bộ phận đường không đi được.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "作業[さぎょう]の大部分[だいぶぶん]は、機械[きかい]がします。",
-          "vi": "Đại bộ phận công việc do máy làm.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        "v:大半:たいはん"
-      ]
-    },
-    {
-      "id": "v:半ば:なかば",
-      "kana": "なかば",
-      "kanji": "半ば",
-      "kf": "半[なか]ば",
-      "hv": "BÁN",
-      "vi": "nửa chừng (giữa tháng, giữa việc)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Con số",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "来月[らいげつ]の半[なか]ばに、引[ひ]っ越[こ]します。",
-          "vi": "Giữa tháng sau tôi chuyển nhà.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "仕事[しごと]を半[なか]ばで止[と]めないでください。",
-          "vi": "Đừng bỏ việc giữa chừng.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "Văn viết: 四月[しがつ]半[なか]ば = giữa tháng 4."
-    },
-    {
-      "id": "v:全国:ぜんこく",
-      "kana": "ぜんこく",
-      "kanji": "全国",
-      "hv": "TOÀN QUỐC",
-      "vi": "toàn quốc",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "明日[あした]は、全国[ぜんこく]で雨[あめ]が降[ふ]るでしょう。",
-          "vi": "Mai cả nước sẽ có mưa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この魚[さかな]は、全国[ぜんこく]に送[おく]られます。",
-          "vi": "Cá này được gửi đi khắp cả nước.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        {
-          "w": "各地[かくち]",
-          "vi": "các nơi"
-        }
-      ]
-    },
-    {
-      "id": "v:世間:せけん",
-      "kana": "せけん",
-      "kanji": "世間",
-      "hv": "THẾ GIAN",
-      "vi": "thiên hạ, người đời",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "世間[せけん]の目[め]を、気[き]にしすぎないで。",
-          "vi": "Đừng quá để ý ánh mắt thiên hạ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "彼[かれ]は、世間[せけん]をよく知[し]っている。",
-          "vi": "Anh ấy hiểu đời.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:世の中:よのなか"
-      ]
-    },
-    {
-      "id": "v:世の中:よのなか",
-      "kana": "よのなか",
-      "kanji": "世の中",
-      "kf": "世[よ]の中[なか]",
-      "hv": "THẾ TRUNG",
-      "vi": "cuộc đời, thế gian",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "世[よ]の中[なか]は、どんどん便利[べんり]になっている。",
-          "vi": "Xã hội ngày càng tiện lợi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "世[よ]の中[なか]には、いろいろな人[ひと]がいます。",
-          "vi": "Trên đời có đủ loại người.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:噂:うわさ",
-      "kana": "うわさ",
-      "kanji": "噂",
-      "hv": "TỖN",
-      "vi": "đồn đại, bàn tán; tin đồn",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "工場[こうじょう]が大[おお]きくなるという噂[うわさ]を聞[き]きました。",
-          "vi": "Tôi nghe đồn nhà máy sẽ mở rộng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "人[ひと]の噂[うわさ]を信[しん]じすぎないで。",
-          "vi": "Đừng quá tin lời đồn.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "〜と噂[うわさ]する",
-          "vi": "đồn rằng …"
-        }
-      ],
-      "flag": true,
-      "note": "噂[うわさ]をすれば = vừa nhắc đã tới (thành ngữ). Âm Hán Việt của chữ 噂[うわさ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
-    },
-    {
-      "id": "v:評判:ひょうばん",
-      "kana": "ひょうばん",
-      "kanji": "評判",
-      "hv": "BÌNH PHÁN",
-      "vi": "tiếng tăm, đánh giá (của người đời)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "あの店[みせ]は、評判[ひょうばん]がいいです。",
-          "vi": "Quán đó được khen nhiều.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新[あたら]しい商品[しょうひん]の評判[ひょうばん]を、調[しら]べました。",
-          "vi": "Tôi tìm hiểu đánh giá về sản phẩm mới.",
-          "ctx": "xuong"
-        }
-      ]
-    },
-    {
-      "id": "v:騒ぎ:さわぎ",
-      "kana": "さわぎ",
-      "kanji": "騒ぎ",
-      "kf": "騒[さわ]ぎ",
-      "hv": "TAO",
-      "vi": "náo loạn, vụ ồn ào",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "駅[えき]で、何[なに]か騒[さわ]ぎがあったようです。",
-          "vi": "Hình như ở ga có vụ ồn ào gì đó.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "地震[じしん]の騒[さわ]ぎで、電車[でんしゃ]が止[と]まった。",
-          "vi": "Vì náo loạn do động đất, tàu dừng.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:騒ぐ:さわぐ"
-      ]
-    },
-    {
-      "id": "v:氏:し",
-      "kana": "し",
-      "kanji": "氏",
-      "hv": "THỊ",
-      "vi": "ông/bà (trong văn bản)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "社長[しゃちょう]の田中[たなか]氏[し]が、発表[はっぴょう]しました。",
-          "vi": "Giám đốc, ông Tanaka, đã công bố.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "記事[きじ]には、山田[やまだ]氏[し]の話[はなし]が載[の]っています。",
-          "vi": "Bài báo đăng lời ông Yamada.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Văn viết, báo chí: họ + 氏[し] = ông/bà …. Nói thường dùng さん."
-    },
-    {
-      "id": "v:国民:こくみん",
-      "kana": "こくみん",
-      "kanji": "国民",
-      "hv": "QUỐC DÂN",
-      "vi": "quốc dân, người dân (cả nước)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "国民[こくみん]の健康[けんこう]のために、制度[せいど]が変[か]わります。",
-          "vi": "Vì sức khỏe người dân, chế độ thay đổi.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "外国人[がいこくじん]も、国民健康保険[こくみんけんこうほけん]に入[はい]ります。",
-          "vi": "Người nước ngoài cũng tham gia bảo hiểm y tế quốc dân.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "国民健康保険[こくみんけんこうほけん] = bảo hiểm y tế quốc dân."
-    },
-    {
-      "id": "v:混乱:こんらん",
-      "kana": "こんらん",
-      "kanji": "混乱",
-      "hv": "HỖN LOẠN",
-      "vi": "hỗn loạn, rối",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tin tức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "大雪[おおゆき]で、交通[こうつう]が混乱[こんらん]しています。",
-          "vi": "Tuyết lớn làm giao thông hỗn loạn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "急[きゅう]に説明[せつめい]が変[か]わって、頭[あたま]が混乱[こんらん]した。",
-          "vi": "Lời giải thích đổi đột ngột làm đầu óc rối tung.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "交通[こうつう]が混乱[こんらん]する",
-          "vi": "giao thông hỗn loạn"
-        }
-      ]
+     "jp": "ネットの記事[きじ]は、全部[ぜんぶ]が正[ただ]しいわけではない。",
+     "vi": "Bài trên mạng không phải bài nào cũng đúng.",
+     "ctx": "doisong"
     }
-  ]
+   ]
+  },
+  {
+   "id": "v:記者:きしゃ",
+   "kana": "きしゃ",
+   "kanji": "記者",
+   "hv": "KÝ GIẢ",
+   "vi": "phóng viên",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "テレビの記者[きしゃ]が、取材[しゅざい]に来[き]ました。",
+     "vi": "Phóng viên truyền hình đến lấy tin.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "記者[きしゃ]の質問[しつもん]に、社長[しゃちょう]が答[こた]えました。",
+     "vi": "Giám đốc trả lời câu hỏi của phóng viên.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "汽車[きしゃ]",
+     "vi": "tàu hơi nước"
+    }
+   ]
+  },
+  {
+   "id": "v:マスコミ:マスコミ",
+   "kana": "マスコミ",
+   "kanji": "",
+   "hv": "",
+   "vi": "truyền thông đại chúng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "その事件[じけん]は、マスコミで大[おお]きく取[と]り上[あ]げられた。",
+     "vi": "Vụ đó được truyền thông đưa tin rầm rộ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "マスコミの情報[じょうほう]を、そのまま信[しん]じないで。",
+     "vi": "Đừng tin ngay thông tin của truyền thông.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "mass communication (tiếng Anh, rút gọn)",
+   "wasei": true
+  },
+  {
+   "id": "v:率:りつ",
+   "kana": "りつ",
+   "kanji": "率",
+   "hv": "SUẤT",
+   "vi": "tỉ suất (trong từ ghép)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Con số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "合格[ごうかく]の率[りつ]は、五十[ごじゅっ]パーセントです。",
+     "vi": "Tỉ lệ đỗ là 50%.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "不良品[ふりょうひん]の率[りつ]を、下[さ]げましょう。",
+     "vi": "Hãy giảm tỉ lệ hàng lỗi.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Thường ghép: 合格率[ごうかくりつ] (tỉ lệ đỗ), 失業率[しつぎょうりつ] (tỉ lệ thất nghiệp), 確率[かくりつ] (xác suất)."
+  },
+  {
+   "id": "v:パーセント:パーセント",
+   "kana": "パーセント",
+   "kanji": "",
+   "hv": "",
+   "vi": "phần trăm",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Con số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "消費税[しょうひぜい]は、十[じゅっ]パーセントです。",
+     "vi": "Thuế tiêu thụ là 10%.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "社員[しゃいん]の三十[さんじゅっ]パーセントが、外国人[がいこくじん]です。",
+     "vi": "30% nhân viên là người nước ngoài.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "percent (tiếng Anh)"
+  },
+  {
+   "id": "v:数字:すうじ",
+   "kana": "すうじ",
+   "kanji": "数字",
+   "hv": "SỐ TỰ",
+   "vi": "chữ số, con số",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Con số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "数字[すうじ]は、はっきり書[か]いてください。",
+     "vi": "Viết chữ số cho rõ ràng.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "今月[こんげつ]の数字[すうじ]が、よくありません。",
+     "vi": "Số liệu tháng này không tốt.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:事件:じけん",
+   "kana": "じけん",
+   "kanji": "事件",
+   "hv": "SỰ KIỆN",
+   "vi": "vụ việc (án)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "近所[きんじょ]で、事件[じけん]がありました。",
+     "vi": "Gần nhà có xảy ra một vụ án.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "その事件[じけん]は、まだ解決[かいけつ]していない。",
+     "vi": "Vụ đó vẫn chưa được giải quyết.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:事故:じこ"
+   ],
+   "note": "事件[じけん] = vụ việc (thường do người gây ra: trộm, án); 事故[じこ] = tai nạn."
+  },
+  {
+   "id": "v:犯罪:はんざい",
+   "kana": "はんざい",
+   "kanji": "犯罪",
+   "hv": "PHẠM TỘI",
+   "vi": "tội phạm (hành vi)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "犯罪[はんざい]が少[すく]ない町[まち]に住[す]みたいです。",
+     "vi": "Tôi muốn sống ở thị trấn ít tội phạm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "人[ひと]の在留[ざいりゅう]カードを使[つか]うのは、犯罪[はんざい]です。",
+     "vi": "Dùng thẻ cư trú của người khác là phạm tội.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:犯人:はんにん",
+   "kana": "はんにん",
+   "kanji": "犯人",
+   "hv": "PHẠM NHÂN",
+   "vi": "thủ phạm",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "犯人[はんにん]は、まだ見[み]つかっていません。",
+     "vi": "Thủ phạm vẫn chưa bị tìm thấy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷蔵庫[れいぞうこ]のプリンを食[た]べた犯人[はんにん]は誰[だれ]だ？",
+     "vi": "Ai là thủ phạm ăn bánh pudding trong tủ lạnh?",
+     "ctx": "hoithoai"
+    }
+   ]
+  },
+  {
+   "id": "v:逮捕:たいほ",
+   "kana": "たいほ",
+   "kanji": "逮捕",
+   "hv": "ĐÃI BỘ",
+   "vi": "bắt giữ (cảnh sát)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "犯人[はんにん]が、昨日[きのう]逮捕[たいほ]されました。",
+     "vi": "Thủ phạm đã bị bắt hôm qua.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "警察[けいさつ]が、泥棒[どろぼう]を逮捕[たいほ]しました。",
+     "vi": "Cảnh sát đã bắt tên trộm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "犯人[はんにん]を逮捕[たいほ]する",
+     "vi": "bắt thủ phạm"
+    }
+   ],
+   "syn": [
+    "v:捕まえる:つかまえる"
+   ]
+  },
+  {
+   "id": "v:被害者:ひがいしゃ",
+   "kana": "ひがいしゃ",
+   "kanji": "被害者",
+   "hv": "BỊ HẠI GIẢ",
+   "vi": "người bị hại",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "被害者[ひがいしゃ]は、三人[さんにん]だそうです。",
+     "vi": "Nghe nói có 3 người bị hại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "詐欺[さぎ]の被害者[ひがいしゃ]にならないように、気[き]をつけて。",
+     "vi": "Cẩn thận kẻo thành nạn nhân lừa đảo.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:被害:ひがい"
+   ]
+  },
+  {
+   "id": "v:政府:せいふ",
+   "kana": "せいふ",
+   "kanji": "政府",
+   "hv": "CHÍNH PHỦ",
+   "vi": "chính phủ",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "政府[せいふ]は、外国人[がいこくじん]の受[う]け入[い]れを増[ふ]やしています。",
+     "vi": "Chính phủ đang tăng tiếp nhận người nước ngoài.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "政府[せいふ]の発表[はっぴょう]を、ニュースで見[み]ました。",
+     "vi": "Tôi xem thông báo của chính phủ trên tin tức.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:首相:しゅしょう",
+   "kana": "しゅしょう",
+   "kanji": "首相",
+   "hv": "THỦ TƯỚNG",
+   "vi": "thủ tướng",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "首相[しゅしょう]が、外国[がいこく]を訪問[ほうもん]しています。",
+     "vi": "Thủ tướng đang thăm nước ngoài.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい首相[しゅしょう]が決[き]まりました。",
+     "vi": "Thủ tướng mới đã được quyết định.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "総理大臣[そうりだいじん] = thủ tướng (tên chính thức)."
+  },
+  {
+   "id": "v:選挙:せんきょ",
+   "kana": "せんきょ",
+   "kanji": "選挙",
+   "hv": "TUYỂN CỬ",
+   "vi": "bầu cử",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来月[らいげつ]、市長[しちょう]の選挙[せんきょ]があります。",
+     "vi": "Tháng sau có bầu cử thị trưởng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "外国人[がいこくじん]は、日本[にほん]の選挙[せんきょ]で投票[とうひょう]できません。",
+     "vi": "Người nước ngoài không bỏ phiếu được ở bầu cử Nhật.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:平和:へいわ",
+   "kana": "へいわ",
+   "kanji": "平和",
+   "hv": "BÌNH HÒA",
+   "vi": "hòa bình, bình yên",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "世界[せかい]が平和[へいわ]になってほしい。",
+     "vi": "Mong thế giới hòa bình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "平和[へいわ]な町[まち]で、のんびり暮[く]らしたい。",
+     "vi": "Muốn sống thong thả ở thị trấn bình yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今日[きょう]は機械[きかい]のトラブルもないし、平和[へいわ]だね。 B：このまま終[お]わってほしいな。",
+     "vi": "A: Hôm nay máy móc không trục trặc gì, bình yên ghê. B: Mong cứ thế này đến hết ca.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "ant": [
+    {
+     "w": "戦争[せんそう]",
+     "vi": "chiến tranh"
+    }
+   ]
+  },
+  {
+   "id": "v:発表:はっぴょう",
+   "kana": "はっぴょう",
+   "kanji": "発表",
+   "hv": "PHÁT BIỂU",
+   "vi": "công bố; thuyết trình",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "試験[しけん]の結果[けっか]は、来月[らいげつ]発表[はっぴょう]されます。",
+     "vi": "Kết quả thi sẽ công bố tháng sau.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会議[かいぎ]で、改善[かいぜん]の案[あん]を発表[はっぴょう]しました。",
+     "vi": "Tôi trình bày phương án cải tiến trong cuộc họp.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "結果[けっか]を発表[はっぴょう]する",
+     "vi": "công bố kết quả"
+    }
+   ]
+  },
+  {
+   "id": "v:年齢:ねんれい",
+   "kana": "ねんれい",
+   "kanji": "年齢",
+   "hv": "NIÊN LINH",
+   "vi": "tuổi tác",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Con số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "書類[しょるい]に、年齢[ねんれい]を書[か]いてください。",
+     "vi": "Hãy ghi tuổi vào giấy.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "年齢[ねんれい]に関係[かんけい]なく、応募[おうぼ]できます。",
+     "vi": "Ứng tuyển được không kể tuổi tác.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    {
+     "w": "年[とし]",
+     "vi": "tuổi"
+    }
+   ]
+  },
+  {
+   "id": "v:約:やく",
+   "kana": "やく",
+   "kanji": "約",
+   "hv": "ƯỚC",
+   "vi": "khoảng (văn viết, trước số)",
+   "pos": "other",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Con số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]には、約[やく]百人[ひゃくにん]が働[はたら]いています。",
+     "vi": "Nhà máy có khoảng 100 người làm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "駅[えき]から歩[ある]いて、約[やく]十分[じゅっぷん]です。",
+     "vi": "Từ ga đi bộ khoảng 10 phút.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:およそ:およそ"
+   ],
+   "note": "Đứng trước con số: 約[やく]〜. Văn nói hay dùng 〜ぐらい sau số."
+  },
+  {
+   "id": "v:およそ:およそ",
+   "kana": "およそ",
+   "kanji": "",
+   "hv": "",
+   "vi": "ước chừng",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Con số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "およそ一時間[いちじかん]で着[つ]きます。",
+     "vi": "Khoảng một tiếng là tới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "費用[ひよう]は、およそ五万円[ごまんえん]です。",
+     "vi": "Chi phí khoảng 50.000 yên.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    "v:約:やく"
+   ]
+  },
+  {
+   "id": "v:ほぼ:ほぼ",
+   "kana": "ほぼ",
+   "kanji": "",
+   "hv": "",
+   "vi": "gần như (sát mức)",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Con số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "作業[さぎょう]は、ほぼ終[お]わりました。",
+     "vi": "Công việc gần như xong.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ほぼ毎日[まいにち]、日本語[にほんご]を勉強[べんきょう]しています。",
+     "vi": "Hầu như ngày nào tôi cũng học tiếng Nhật.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:ほとんど:ほとんど"
+   ]
+  },
+  {
+   "id": "v:ざっと:ざっと",
+   "kana": "ざっと",
+   "kanji": "",
+   "hv": "",
+   "vi": "sơ qua; tính sơ sơ",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Con số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "書類[しょるい]に、ざっと目[め]を通[とお]しました。",
+     "vi": "Tôi lướt sơ qua giấy tờ.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "ざっと計算[けいさん]すると、十万円[じゅうまんえん]ぐらいです。",
+     "vi": "Tính sơ sơ khoảng 100.000 yên.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:大半:たいはん",
+   "kana": "たいはん",
+   "kanji": "大半",
+   "hv": "ĐẠI BÁN",
+   "vi": "quá nửa, đa phần",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Con số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社員[しゃいん]の大半[たいはん]は、地元[じもと]の人[ひと]です。",
+     "vi": "Phần lớn nhân viên là người địa phương.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "給料[きゅうりょう]の大半[たいはん]を、家族[かぞく]に送[おく]っています。",
+     "vi": "Tôi gửi phần lớn lương về cho gia đình.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:大部分:だいぶぶん"
+   ]
+  },
+  {
+   "id": "v:大部分:だいぶぶん",
+   "kana": "だいぶぶん",
+   "kanji": "大部分",
+   "hv": "ĐẠI BỘ PHÂN",
+   "vi": "đại bộ phận",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Con số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雪[ゆき]で、道路[どうろ]の大部分[だいぶぶん]が通[とお]れません。",
+     "vi": "Do tuyết, đại bộ phận đường không đi được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "作業[さぎょう]の大部分[だいぶぶん]は、機械[きかい]がします。",
+     "vi": "Đại bộ phận công việc do máy làm.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:大半:たいはん"
+   ]
+  },
+  {
+   "id": "v:半ば:なかば",
+   "kana": "なかば",
+   "kanji": "半ば",
+   "kf": "半[なか]ば",
+   "hv": "BÁN",
+   "vi": "nửa chừng (giữa tháng, giữa việc)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Con số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来月[らいげつ]の半[なか]ばに、引[ひ]っ越[こ]します。",
+     "vi": "Giữa tháng sau tôi chuyển nhà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "仕事[しごと]を半[なか]ばで止[と]めないでください。",
+     "vi": "Đừng bỏ việc giữa chừng.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Văn viết: 四月[しがつ]半[なか]ば = giữa tháng 4."
+  },
+  {
+   "id": "v:全国:ぜんこく",
+   "kana": "ぜんこく",
+   "kanji": "全国",
+   "hv": "TOÀN QUỐC",
+   "vi": "toàn quốc",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "明日[あした]は、全国[ぜんこく]で雨[あめ]が降[ふ]るでしょう。",
+     "vi": "Mai cả nước sẽ có mưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この魚[さかな]は、全国[ぜんこく]に送[おく]られます。",
+     "vi": "Cá này được gửi đi khắp cả nước.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "各地[かくち]",
+     "vi": "các nơi"
+    }
+   ]
+  },
+  {
+   "id": "v:世間:せけん",
+   "kana": "せけん",
+   "kanji": "世間",
+   "hv": "THẾ GIAN",
+   "vi": "thiên hạ, người đời",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "世間[せけん]の目[め]を、気[き]にしすぎないで。",
+     "vi": "Đừng quá để ý ánh mắt thiên hạ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "彼[かれ]は、世間[せけん]をよく知[し]っている。",
+     "vi": "Anh ấy hiểu đời.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:世の中:よのなか"
+   ]
+  },
+  {
+   "id": "v:世の中:よのなか",
+   "kana": "よのなか",
+   "kanji": "世の中",
+   "kf": "世[よ]の中[なか]",
+   "hv": "THẾ TRUNG",
+   "vi": "cuộc đời, thế gian",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "世[よ]の中[なか]は、どんどん便利[べんり]になっている。",
+     "vi": "Xã hội ngày càng tiện lợi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "世[よ]の中[なか]には、いろいろな人[ひと]がいます。",
+     "vi": "Trên đời có đủ loại người.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:噂:うわさ",
+   "kana": "うわさ",
+   "kanji": "噂",
+   "hv": "TỖN",
+   "vi": "đồn đại, bàn tán; tin đồn",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]が大[おお]きくなるという噂[うわさ]を聞[き]きました。",
+     "vi": "Tôi nghe đồn nhà máy sẽ mở rộng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "人[ひと]の噂[うわさ]を信[しん]じすぎないで。",
+     "vi": "Đừng quá tin lời đồn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "〜と噂[うわさ]する",
+     "vi": "đồn rằng …"
+    }
+   ],
+   "flag": true,
+   "note": "噂[うわさ]をすれば = vừa nhắc đã tới (thành ngữ). Âm Hán Việt của chữ 噂[うわさ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:評判:ひょうばん",
+   "kana": "ひょうばん",
+   "kanji": "評判",
+   "hv": "BÌNH PHÁN",
+   "vi": "tiếng tăm, đánh giá (của người đời)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "あの店[みせ]は、評判[ひょうばん]がいいです。",
+     "vi": "Quán đó được khen nhiều.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい商品[しょうひん]の評判[ひょうばん]を、調[しら]べました。",
+     "vi": "Tôi tìm hiểu đánh giá về sản phẩm mới.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:騒ぎ:さわぎ",
+   "kana": "さわぎ",
+   "kanji": "騒ぎ",
+   "kf": "騒[さわ]ぎ",
+   "hv": "TAO",
+   "vi": "náo loạn, vụ ồn ào",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "駅[えき]で、何[なに]か騒[さわ]ぎがあったようです。",
+     "vi": "Hình như ở ga có vụ ồn ào gì đó.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "地震[じしん]の騒[さわ]ぎで、電車[でんしゃ]が止[と]まった。",
+     "vi": "Vì náo loạn do động đất, tàu dừng.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:騒ぐ:さわぐ"
+   ]
+  },
+  {
+   "id": "v:氏:し",
+   "kana": "し",
+   "kanji": "氏",
+   "hv": "THỊ",
+   "vi": "ông/bà (trong văn bản)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]の田中[たなか]氏[し]が、発表[はっぴょう]しました。",
+     "vi": "Giám đốc, ông Tanaka, đã công bố.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "記事[きじ]には、山田[やまだ]氏[し]の話[はなし]が載[の]っています。",
+     "vi": "Bài báo đăng lời ông Yamada.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Văn viết, báo chí: họ + 氏[し] = ông/bà …. Nói thường dùng さん."
+  },
+  {
+   "id": "v:国民:こくみん",
+   "kana": "こくみん",
+   "kanji": "国民",
+   "hv": "QUỐC DÂN",
+   "vi": "quốc dân, người dân (cả nước)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "国民[こくみん]の健康[けんこう]のために、制度[せいど]が変[か]わります。",
+     "vi": "Vì sức khỏe người dân, chế độ thay đổi.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "外国人[がいこくじん]も、国民健康保険[こくみんけんこうほけん]に入[はい]ります。",
+     "vi": "Người nước ngoài cũng tham gia bảo hiểm y tế quốc dân.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "国民健康保険[こくみんけんこうほけん] = bảo hiểm y tế quốc dân."
+  },
+  {
+   "id": "v:混乱:こんらん",
+   "kana": "こんらん",
+   "kanji": "混乱",
+   "hv": "HỖN LOẠN",
+   "vi": "hỗn loạn, rối",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大雪[おおゆき]で、交通[こうつう]が混乱[こんらん]しています。",
+     "vi": "Tuyết lớn làm giao thông hỗn loạn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "急[きゅう]に説明[せつめい]が変[か]わって、頭[あたま]が混乱[こんらん]した。",
+     "vi": "Lời giải thích đổi đột ngột làm đầu óc rối tung.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "交通[こうつう]が混乱[こんらん]する",
+     "vi": "giao thông hỗn loạn"
+    }
+   ]
+  }
+ ]
 }

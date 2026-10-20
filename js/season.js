@@ -102,6 +102,7 @@ export const fxFpsNow = () => (drv && wantRun() ? FXS.fps : 0);
 export const fxQuality = () => FXS.q;
 export const fxGap = () => FXS.gap || 0; // khung nền bị nghẽn lâu nhất trong giây qua (ms)
 export const fxThread = () => drv?.kind || ''; // 'worker' = vẽ ở luồng riêng, 'main' = luồng chính
+export const fxPeek = () => drv?.peek?.() || null; // (kiểm thử, chỉ chế độ luồng chính)
 
 let cv = null;
 const reduced = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -245,7 +246,7 @@ function mainDriver() {
   eng.setHz(HZ.v);
   eng.resize(innerWidth, innerHeight, devicePixelRatio || 1);
   eng.setCanvas(cv);
-  return { kind: 'main', config: (s, e, o) => eng.config(s, e, o), resize: (w, h, d) => eng.resize(w, h, d), hz: v => eng.setHz(v), burst: (x, y, n) => eng.burst(x, y, n), tryFx: n => eng.tryFx(n) };
+  return { kind: 'main', config: (s, e, o) => eng.config(s, e, o), resize: (w, h, d) => eng.resize(w, h, d), hz: v => eng.setHz(v), burst: (x, y, n) => eng.burst(x, y, n), tryFx: n => eng.tryFx(n), peek: () => eng.peek() };
 }
 function workerDriver() {
   if (typeof OffscreenCanvas !== 'function' || !('transferControlToOffscreen' in HTMLCanvasElement.prototype) || typeof Worker !== 'function') return null;

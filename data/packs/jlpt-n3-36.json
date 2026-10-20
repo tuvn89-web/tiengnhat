@@ -1,1144 +1,1174 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n3-36",
-    "title": "JLPT N3 36 – Đồ ăn tươi & nấu nướng",
-    "type": "vocab",
-    "level": "N3",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 2,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-36",
+  "title": "JLPT N3 36 – Đồ ăn tươi & nấu nướng",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 3,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:材料:ざいりょう",
+   "kana": "ざいりょう",
+   "kanji": "材料",
+   "hv": "TÀI LIỆU",
+   "vi": "nguyên liệu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:材料:ざいりょう",
-      "kana": "ざいりょう",
-      "kanji": "材料",
-      "hv": "TÀI LIỆU",
-      "vi": "nguyên liệu",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "料理[りょうり]の材料[ざいりょう]を、スーパーで買[か]いました。",
-          "vi": "Tôi mua nguyên liệu nấu ăn ở siêu thị.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この商品[しょうひん]の材料[ざいりょう]は、サバと塩[しお]だけです。",
-          "vi": "Nguyên liệu sản phẩm này chỉ có cá thu và muối.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        "v:原材料:げんざいりょう"
-      ]
+     "jp": "料理[りょうり]の材料[ざいりょう]を、スーパーで買[か]いました。",
+     "vi": "Tôi mua nguyên liệu nấu ăn ở siêu thị.",
+     "ctx": "doisong"
     },
     {
-      "id": "v:食品:しょくひん",
-      "kana": "しょくひん",
-      "kanji": "食品",
-      "hv": "THỰC PHẨM",
-      "vi": "thực phẩm",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "食品[しょくひん]工場[こうじょう]では、衛生[えいせい]がいちばん大切[たいせつ]です。",
-          "vi": "Ở nhà máy thực phẩm, vệ sinh là quan trọng nhất.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "冷凍食品[れいとうしょくひん]は、便利[べんり]です。",
-          "vi": "Thực phẩm đông lạnh rất tiện.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:食料品:しょくりょうひん"
-      ],
-      "note": "食品表示[しょくひんひょうじ] = nhãn ghi thông tin thực phẩm."
-    },
-    {
-      "id": "v:食料:しょくりょう",
-      "kana": "しょくりょう",
-      "kanji": "食料",
-      "hv": "THỰC LIỆU",
-      "vi": "lương thực (dự trữ)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "台風[たいふう]の前[まえ]に、食料[しょくりょう]を買[か]っておきます。",
-          "vi": "Trước bão mua sẵn đồ ăn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "世界[せかい]の食料[しょくりょう]の問題[もんだい]を、考[かんが]えましょう。",
-          "vi": "Hãy nghĩ về vấn đề lương thực thế giới.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:生:せい",
-      "kana": "せい",
-      "kanji": "生",
-      "hv": "SINH",
-      "vi": "(học) sinh năm … (sau số)",
-      "pos": "other",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "妹[いもうと]は、高校[こうこう]二年[にねん]生[せい]です。",
-          "vi": "Em gái tôi học lớp 11.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "大学生[だいがくせい]のアルバイトが、来[き]ました。",
-          "vi": "Có sinh viên đến làm thêm.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "〜年生[ねんせい] = học sinh năm thứ …; 学生[がくせい], 先生[せんせい] cùng chữ."
-    },
-    {
-      "id": "v:新鮮:しんせん",
-      "kana": "しんせん",
-      "kanji": "新鮮",
-      "hv": "TÂN TIÊN",
-      "vi": "tươi (mới đánh bắt, mới hái)",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新鮮[しんせん]な魚[さかな]は、目[め]が澄[す]んでいます。",
-          "vi": "Cá tươi thì mắt trong.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "市場[しじょう]で、新鮮[しんせん]な野菜[やさい]を買[か]いました。",
-          "vi": "Tôi mua rau tươi ở chợ.",
-          "ctx": "doisong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "魚[さかな]",
-          "vi": "cá"
-        },
-        {
-          "jp": "野菜[やさい]",
-          "vi": "rau"
-        }
-      ]
-    },
-    {
-      "id": "v:鍋:なべ",
-      "kana": "なべ",
-      "kanji": "鍋",
-      "hv": "OA",
-      "vi": "cái nồi; món lẩu",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "鍋[なべ]に、水[みず]を入[い]れてください。",
-          "vi": "Cho nước vào nồi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "冬[ふゆ]は、みんなで鍋[なべ]を食[た]べます。",
-          "vi": "Mùa đông cả nhà ăn lẩu.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "鍋料理[なべりょうり] = món lẩu."
-    },
-    {
-      "id": "v:酢:す",
-      "kana": "す",
-      "kanji": "酢",
-      "hv": "TẠC",
-      "vi": "giấm",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "すし飯[めし]には、酢[す]を入[い]れます。",
-          "vi": "Cơm sushi trộn giấm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "サバを、酢[す]で締[し]めます。",
-          "vi": "Ướp cá thu với giấm.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "しめさば = cá thu ướp giấm."
-    },
-    {
-      "id": "v:胡椒:こしょう",
-      "kana": "こしょう",
-      "kanji": "胡椒",
-      "hv": "HỒ TIÊU",
-      "vi": "hồ tiêu, hạt tiêu",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "塩[しお]と胡椒[こしょう]で、味[あじ]をつけます。",
-          "vi": "Nêm bằng muối và tiêu.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "胡椒[こしょう]を、少[すこ]しかけてください。",
-          "vi": "Rắc chút tiêu nhé.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Thường viết kana: こしょう / コショウ."
-    },
-    {
-      "id": "v:粉:こな",
-      "kana": "こな",
-      "kanji": "粉",
-      "hv": "PHẤN",
-      "vi": "bột",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "魚[さかな]に、粉[こな]をつけて揚[あ]げます。",
-          "vi": "Lăn bột cá rồi chiên.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "粉[こな]の薬[くすり]は、飲[の]みにくいです。",
-          "vi": "Thuốc bột khó uống.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "小麦粉[こむぎこ] = bột mì; 片栗粉[かたくりこ] = bột năng."
-    },
-    {
-      "id": "v:小麦:こむぎ",
-      "kana": "こむぎ",
-      "kanji": "小麦",
-      "hv": "TIỂU MẠCH",
-      "vi": "lúa mì",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "パンは、小麦[こむぎ]から作[つく]ります。",
-          "vi": "Bánh mì làm từ lúa mì.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "小麦[こむぎ]のアレルギーがある人[ひと]に、注意[ちゅうい]してください。",
-          "vi": "Chú ý người dị ứng lúa mì.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "Dị ứng: 小麦[こむぎ], えび, かに… phải ghi trên nhãn."
-    },
-    {
-      "id": "v:豆:まめ",
-      "kana": "まめ",
-      "kanji": "豆",
-      "hv": "ĐẬU",
-      "vi": "đậu",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "豆[まめ]は、体[からだ]にいいです。",
-          "vi": "Đậu tốt cho sức khỏe.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "節分[せつぶん]に、豆[まめ]をまきます。",
-          "vi": "Ngày Setsubun rải đậu.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "豆腐[とうふ] = đậu phụ; 納豆[なっとう] = đậu nành lên men."
-    },
-    {
-      "id": "v:油:あぶら",
-      "kana": "あぶら",
-      "kanji": "油",
-      "hv": "DU",
-      "vi": "dầu (ăn, máy)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "油[あぶら]で、天[てん]ぷらを揚[あ]げます。",
-          "vi": "Chiên tempura bằng dầu.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "機械[きかい]に、油[あぶら]をさしてください。",
-          "vi": "Tra dầu vào máy nhé.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:脂:あぶら"
-      ],
-      "note": "Đồng âm: 脂[あぶら] = mỡ (động vật, cá)."
-    },
-    {
-      "id": "v:脂:あぶら",
-      "kana": "あぶら",
-      "kanji": "脂",
-      "hv": "CHI",
-      "vi": "mỡ (thịt, cá)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "冬[ふゆ]のブリは、脂[あぶら]がのっていて、おいしいです。",
-          "vi": "Cá cam mùa đông béo ngậy, ngon.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "肉[にく]の脂[あぶら]を、取[と]ってください。",
-          "vi": "Hãy bỏ mỡ thịt đi.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:油:あぶら"
-      ],
-      "note": "脂[あぶら]がのる = (cá) béo, ngậy."
-    },
-    {
-      "id": "v:脂肪:しぼう",
-      "kana": "しぼう",
-      "kanji": "脂肪",
-      "hv": "CHI PHƯƠNG",
-      "vi": "chất béo",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この魚[さかな]は、脂肪[しぼう]が少[すく]ないです。",
-          "vi": "Cá này ít chất béo.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "体[からだ]の脂肪[しぼう]を、減[へ]らしたいです。",
-          "vi": "Muốn giảm mỡ cơ thể.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:泡:あわ",
-      "kana": "あわ",
-      "kanji": "泡",
-      "hv": "PHAO",
-      "vi": "bọt",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "洗剤[せんざい]の泡[あわ]を、よく流[なが]してください。",
-          "vi": "Hãy xả sạch bọt chất tẩy.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "ビールの泡[あわ]が、おいしそうです。",
-          "vi": "Bọt bia trông ngon quá.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:殻:から",
-      "kana": "から",
-      "kanji": "殻",
-      "hv": "XÁC",
-      "vi": "vỏ (cứng: sò, trứng, tôm)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "卵[たまご]の殻[から]が、入[はい]らないように気[き]をつけて。",
-          "vi": "Cẩn thận đừng để vỏ trứng rơi vào.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "エビの殻[から]を、むきます。",
-          "vi": "Bóc vỏ tôm.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        {
-          "w": "空[そら]",
-          "vi": "rỗng"
-        }
-      ],
-      "note": "Đồng âm: 空[から] = rỗng."
-    },
-    {
-      "id": "v:貝:かい",
-      "kana": "かい",
-      "kanji": "貝",
-      "hv": "BỐI",
-      "vi": "sò, ốc (loài có vỏ)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "貝[かい]は、砂[すな]を吐[は]かせてから料理[りょうり]します。",
-          "vi": "Sò cho nhả cát rồi mới nấu.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "ホタテは、貝[かい]の一種[いっしゅ]です。",
-          "vi": "Sò điệp là một loại sò.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "貝類[かいるい] = các loại sò ốc."
-    },
-    {
-      "id": "v:餌:えさ",
-      "kana": "えさ",
-      "kanji": "餌",
-      "hv": "NHỊ",
-      "vi": "mồi; thức ăn (cho động vật)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "釣[つ]りの餌[えさ]を、買[か]いました。",
-          "vi": "Tôi mua mồi câu.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "猫[ねこ]に、餌[えさ]をあげます。",
-          "vi": "Cho mèo ăn.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Không dùng 餌[えさ] cho người."
-    },
-    {
-      "id": "v:香り:かおり",
-      "kana": "かおり",
-      "kanji": "香り",
-      "kf": "香[かお]り",
-      "hv": "HƯƠNG",
-      "vi": "hương thơm",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "このお茶[ちゃ]は、香[かお]りがいいです。",
-          "vi": "Trà này thơm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "ゆずの香[かお]りが、します。",
-          "vi": "Có mùi thơm quả yuzu.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:匂い:におい"
-      ],
-      "note": "香[かお]り = mùi thơm (tốt); 匂[にお]い = mùi nói chung."
-    },
-    {
-      "id": "v:すっぱい:すっぱい",
-      "kana": "すっぱい",
-      "kanji": "",
-      "hv": "",
-      "vi": "chua",
-      "pos": "adj-i",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "このみかんは、すっぱいです。",
-          "vi": "Quýt này chua.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "酢[す]を入[い]れすぎて、すっぱくなりました。",
-          "vi": "Cho nhiều giấm quá nên chua.",
-          "ctx": "doisong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "果物[くだもの]",
-          "vi": "trái cây"
-        },
-        {
-          "jp": "スープ",
-          "vi": "súp"
-        }
-      ],
-      "note": "Chữ Hán: 酸[す]っぱい."
-    },
-    {
-      "id": "v:濃い:こい",
-      "kana": "こい",
-      "kanji": "濃い",
-      "kf": "濃[こ]い",
-      "hv": "NỒNG",
-      "vi": "đậm, đặc (vị, màu)",
-      "pos": "adj-i",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "関西[かんさい]の味[あじ]は、あまり濃[こ]くないです。",
-          "vi": "Vị Kansai không đậm lắm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "濃[こ]いコーヒーが、好[す]きです。",
-          "vi": "Tôi thích cà phê đặc.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "霧[きり]が濃[こ]くて、前[まえ]が見[み]えません。",
-          "vi": "Sương mù dày, không thấy phía trước.",
-          "ctx": "doisong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "味[あじ]",
-          "vi": "vị"
-        },
-        {
-          "jp": "色[いろ]",
-          "vi": "màu"
-        }
-      ],
-      "ant": [
-        {
-          "w": "薄[うす]い",
-          "vi": "nhạt, mỏng"
-        }
-      ]
-    },
-    {
-      "id": "v:加減:かげん",
-      "kana": "かげん",
-      "kanji": "加減",
-      "hv": "GIA GIẢM",
-      "vi": "gia giảm, mức điều chỉnh (độ lửa, độ mặn)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "火加減[ひかげん]に、気[き]をつけてください。",
-          "vi": "Chú ý độ lửa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "塩[しお]の加減[かげん]が、ちょうどいいです。",
-          "vi": "Độ mặn vừa phải.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "火加減[ひかげん] = độ lửa; いい加減[かげん] = qua loa, tùy tiện."
-    },
-    {
-      "id": "v:保存:ほぞん",
-      "kana": "ほぞん",
-      "kanji": "保存",
-      "hv": "BẢO TỒN",
-      "vi": "bảo quản; lưu (dữ liệu)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "刺身[さしみ]は、冷蔵庫[れいぞうこ]で保存[ほぞん]してください。",
-          "vi": "Sashimi hãy bảo quản trong tủ lạnh.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "ファイルを、保存[ほぞん]しました。",
-          "vi": "Tôi đã lưu file.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "保存方法[ほぞんほうほう] = cách bảo quản (ghi trên nhãn)."
-    },
-    {
-      "id": "v:卸す:おろす",
-      "kana": "おろす",
-      "kanji": "卸す",
-      "kf": "卸[おろ]す",
-      "hv": "TÁ",
-      "vi": "bán sỉ; mài (củ cải)",
-      "pos": "v5",
-      "level": "N3",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この工場[こうじょう]は、スーパーに魚[さかな]を卸[おろ]しています。",
-          "vi": "Nhà máy này bán sỉ cá cho siêu thị.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "大根[だいこん]を、おろします。",
-          "vi": "Mài củ cải.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "魚[さかな]を卸[おろ]す",
-          "vi": "bán sỉ cá"
-        }
-      ],
-      "note": "卸売[おろしう]り = bán buôn; mài củ cải thường viết kana: おろす."
-    },
-    {
-      "id": "v:混じる:まじる",
-      "kana": "まじる",
-      "kanji": "混じる",
-      "kf": "混[ま]じる",
-      "hv": "HỖN",
-      "vi": "lẫn vào, trộn lẫn",
-      "pos": "v5",
-      "level": "N3",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "商品[しょうひん]に、異物[いぶつ]が混[ま]じっていました。",
-          "vi": "Trong hàng có lẫn dị vật.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "雨[あめ]に、雪[ゆき]が混[ま]じっています。",
-          "vi": "Mưa lẫn tuyết.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "異物[いぶつ]が混[ま]じる",
-          "vi": "dị vật lẫn vào"
-        }
-      ],
-      "syn": [
-        "v:混ざる:まざる"
-      ]
-    },
-    {
-      "id": "v:蕎麦:そば",
-      "kana": "そば",
-      "kanji": "蕎麦",
-      "hv": "KIỀU MẠCH",
-      "vi": "mì soba",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "昼[ひる]ご飯[はん]に、蕎麦[そば]を食[た]べました。",
-          "vi": "Trưa ăn mì soba.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "年越[としこ]し蕎麦[そば]を、食[た]べますか。",
-          "vi": "Có ăn mì soba đêm giao thừa không?",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "Thường viết kana: そば. Đừng nhầm với そば (bên cạnh)."
-    },
-    {
-      "id": "v:チーズ:チーズ",
-      "kana": "チーズ",
-      "kanji": "",
-      "hv": "",
-      "vi": "phô mai",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "チーズを、パンにのせます。",
-          "vi": "Đặt phô mai lên bánh mì.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "チーズは、冷蔵庫[れいぞうこ]に入[い]れてください。",
-          "vi": "Cho phô mai vào tủ lạnh.",
-          "ctx": "doisong"
-        }
-      ],
-      "goc": "cheese (tiếng Anh)"
-    },
-    {
-      "id": "v:スープ:スープ",
-      "kana": "スープ",
-      "kanji": "",
-      "hv": "",
-      "vi": "súp, canh (kiểu Tây)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "温[あたた]かいスープを、飲[の]みました。",
-          "vi": "Tôi uống súp nóng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "魚[さかな]の骨[ほね]で、スープを作[つく]ります。",
-          "vi": "Nấu súp bằng xương cá.",
-          "ctx": "doisong"
-        }
-      ],
-      "goc": "soup (tiếng Anh)"
-    },
-    {
-      "id": "v:クリーム:クリーム",
-      "kana": "クリーム",
-      "kanji": "",
-      "hv": "",
-      "vi": "kem (bơ sữa); kem bôi",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ケーキに、クリームをのせます。",
-          "vi": "Phết kem lên bánh.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "手[て]に、クリームを塗[ぬ]ります。",
-          "vi": "Bôi kem lên tay.",
-          "ctx": "doisong"
-        }
-      ],
-      "goc": "cream (tiếng Anh)"
-    },
-    {
-      "id": "v:アイスクリーム:アイスクリーム",
-      "kana": "アイスクリーム",
-      "kanji": "",
-      "hv": "",
-      "vi": "kem lạnh",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "暑[あつ]い日[ひ]は、アイスクリームが食[た]べたいです。",
-          "vi": "Ngày nóng muốn ăn kem.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "アイスクリームは、冷凍庫[れいとうこ]に入[い]れてください。",
-          "vi": "Cho kem vào ngăn đá.",
-          "ctx": "doisong"
-        }
-      ],
-      "goc": "ice cream (tiếng Anh)",
-      "note": "Nói tắt: アイス."
-    },
-    {
-      "id": "v:ミルク:ミルク",
-      "kana": "ミルク",
-      "kanji": "",
-      "hv": "",
-      "vi": "sữa",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "コーヒーに、ミルクを入[い]れますか。",
-          "vi": "Cho sữa vào cà phê không?",
-          "ctx": "hoithoai"
-        },
-        {
-          "jp": "赤[あか]ちゃんに、ミルクをあげます。",
-          "vi": "Cho em bé uống sữa.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:牛乳:ぎゅうにゅう"
-      ],
-      "goc": "milk (tiếng Anh)"
-    },
-    {
-      "id": "v:ワイン:ワイン",
-      "kana": "ワイン",
-      "kanji": "",
-      "hv": "",
-      "vi": "rượu vang",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "赤[あか]ワインを、一杯[いっぱい]飲[の]みました。",
-          "vi": "Tôi uống một ly vang đỏ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "魚[さかな]には、白[しろ]ワインが合[あ]います。",
-          "vi": "Cá hợp với vang trắng.",
-          "ctx": "doisong"
-        }
-      ],
-      "goc": "wine (tiếng Anh)"
-    },
-    {
-      "id": "v:昼食:ちゅうしょく",
-      "kana": "ちゅうしょく",
-      "kanji": "昼食",
-      "hv": "TRÚ THỰC",
-      "vi": "bữa trưa (trang trọng)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "昼食[ちゅうしょく]は、十二時[じゅうにじ]からです。",
-          "vi": "Bữa trưa từ 12 giờ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "社員食堂[しゃいんしょくどう]で、昼食[ちゅうしょく]をとります。",
-          "vi": "Ăn trưa ở nhà ăn công ty.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        "v:昼ご飯:ひるごはん"
-      ]
-    },
-    {
-      "id": "v:温かい:あたたかい",
-      "kana": "あたたかい",
-      "kanji": "温かい",
-      "kf": "温[あたた]かい",
-      "hv": "ÔN",
-      "vi": "ấm, nóng ấm (đồ ăn, tấm lòng)",
-      "pos": "adj-i",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "温[あたた]かいご飯[はん]を、食[た]べたいです。",
-          "vi": "Muốn ăn cơm nóng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "温[あたた]かい言葉[ことば]に、感動[かんどう]しました。",
-          "vi": "Cảm động vì lời nói ấm áp.",
-          "ctx": "doisong"
-        }
-      ],
-      "ant": [
-        "v:冷たい:つめたい"
-      ],
-      "confuse": [
-        "v:暖かい:あたたかい"
-      ],
-      "note": "温[あたた]かい = ấm (đồ vật, đồ ăn, tình cảm); 暖[あたた]かい = ấm (thời tiết, không khí)."
-    },
-    {
-      "id": "v:生地:きじ",
-      "kana": "きじ",
-      "kanji": "生地",
-      "hv": "SINH ĐỊA",
-      "vi": "bột nhào; chất vải (may áo)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "パンの生地[きじ]を、一時間[いちじかん]寝[ね]かせます。",
-          "vi": "Ủ bột bánh mì một tiếng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この服[ふく]は、生地[きじ]が厚[あつ]いです。",
-          "vi": "Áo này vải dày.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:さっぱり:さっぱり",
-      "kana": "さっぱり",
-      "kanji": "",
-      "hv": "",
-      "vi": "thanh mát (vị); sảng khoái",
-      "pos": "adv",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nấu ăn",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "このスープは、さっぱりしています。",
-          "vi": "Súp này vị thanh.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "シャワーを浴[あ]びて、さっぱりしました。",
-          "vi": "Tắm xong thấy sảng khoái.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Đi với phủ định: さっぱり分[わ]からない = chẳng hiểu gì cả."
-    },
-    {
-      "id": "v:生:なま",
-      "kana": "なま",
-      "kanji": "生",
-      "hv": "SINH",
-      "vi": "sống, tươi (chưa nấu)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この魚[さかな]は、生[なま]で食[た]べられます。",
-          "vi": "Cá này ăn sống được.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "生[なま]の肉[にく]は、よく焼[や]いてください。",
-          "vi": "Thịt sống hãy nướng kỹ.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "生食用[なましょくよう] = dùng để ăn sống (hàng xưởng mình làm); 加熱用[かねつよう] = dùng để nấu chín."
-    },
-    {
-      "id": "v:豊富:ほうふ",
-      "kana": "ほうふ",
-      "kanji": "豊富",
-      "hv": "PHONG PHÚ",
-      "vi": "phong phú, dồi dào",
-      "pos": "adj-na",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thực phẩm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "魚[さかな]は、栄養[えいよう]が豊富[ほうふ]です。",
-          "vi": "Cá giàu dinh dưỡng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "この店[みせ]は、品物[しなもの]が豊富[ほうふ]です。",
-          "vi": "Cửa hàng này hàng hóa phong phú.",
-          "ctx": "doisong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "栄養[えいよう]",
-          "vi": "dinh dưỡng"
-        },
-        {
-          "jp": "種類[しゅるい]",
-          "vi": "chủng loại"
-        }
-      ],
-      "syn": [
-        "v:豊か:ゆたか"
-      ]
+     "jp": "この商品[しょうひん]の材料[ざいりょう]は、サバと塩[しお]だけです。",
+     "vi": "Nguyên liệu sản phẩm này chỉ có cá thu và muối.",
+     "ctx": "xuong"
     }
-  ]
+   ],
+   "syn": [
+    "v:原材料:げんざいりょう"
+   ]
+  },
+  {
+   "id": "v:食品:しょくひん",
+   "kana": "しょくひん",
+   "kanji": "食品",
+   "hv": "THỰC PHẨM",
+   "vi": "thực phẩm",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "食品[しょくひん]工場[こうじょう]では、衛生[えいせい]がいちばん大切[たいせつ]です。",
+     "vi": "Ở nhà máy thực phẩm, vệ sinh là quan trọng nhất.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "冷凍食品[れいとうしょくひん]は、便利[べんり]です。",
+     "vi": "Thực phẩm đông lạnh rất tiện.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:食料品:しょくりょうひん"
+   ],
+   "note": "食品表示[しょくひんひょうじ] = nhãn ghi thông tin thực phẩm."
+  },
+  {
+   "id": "v:食料:しょくりょう",
+   "kana": "しょくりょう",
+   "kanji": "食料",
+   "hv": "THỰC LIỆU",
+   "vi": "lương thực (dự trữ)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台風[たいふう]の前[まえ]に、食料[しょくりょう]を買[か]っておきます。",
+     "vi": "Trước bão mua sẵn đồ ăn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "世界[せかい]の食料[しょくりょう]の問題[もんだい]を、考[かんが]えましょう。",
+     "vi": "Hãy nghĩ về vấn đề lương thực thế giới.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:生:せい",
+   "kana": "せい",
+   "kanji": "生",
+   "hv": "SINH",
+   "vi": "(học) sinh năm … (sau số)",
+   "pos": "other",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "妹[いもうと]は、高校[こうこう]二年[にねん]生[せい]です。",
+     "vi": "Em gái tôi học lớp 11.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "大学生[だいがくせい]のアルバイトが、来[き]ました。",
+     "vi": "Có sinh viên đến làm thêm.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "〜年生[ねんせい] = học sinh năm thứ …; 学生[がくせい], 先生[せんせい] cùng chữ."
+  },
+  {
+   "id": "v:新鮮:しんせん",
+   "kana": "しんせん",
+   "kanji": "新鮮",
+   "hv": "TÂN TIÊN",
+   "vi": "tươi (mới đánh bắt, mới hái)",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新鮮[しんせん]な魚[さかな]は、目[め]が澄[す]んでいます。",
+     "vi": "Cá tươi thì mắt trong.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "市場[しじょう]で、新鮮[しんせん]な野菜[やさい]を買[か]いました。",
+     "vi": "Tôi mua rau tươi ở chợ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：明石[あかし]の魚[さかな]は、なんでこんなに新鮮[しんせん]なの？ B：港[みなと]がすぐ近[ちか]くだからね。",
+     "vi": "A: Sao cá ở Akashi lại tươi thế? B: Vì cảng ở ngay sát bên mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "魚[さかな]",
+     "vi": "cá"
+    },
+    {
+     "jp": "野菜[やさい]",
+     "vi": "rau"
+    }
+   ]
+  },
+  {
+   "id": "v:鍋:なべ",
+   "kana": "なべ",
+   "kanji": "鍋",
+   "hv": "OA",
+   "vi": "cái nồi; món lẩu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "鍋[なべ]に、水[みず]を入[い]れてください。",
+     "vi": "Cho nước vào nồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冬[ふゆ]は、みんなで鍋[なべ]を食[た]べます。",
+     "vi": "Mùa đông cả nhà ăn lẩu.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "鍋料理[なべりょうり] = món lẩu."
+  },
+  {
+   "id": "v:酢:す",
+   "kana": "す",
+   "kanji": "酢",
+   "hv": "TẠC",
+   "vi": "giấm",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "すし飯[めし]には、酢[す]を入[い]れます。",
+     "vi": "Cơm sushi trộn giấm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "サバを、酢[す]で締[し]めます。",
+     "vi": "Ướp cá thu với giấm.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "しめさば = cá thu ướp giấm."
+  },
+  {
+   "id": "v:胡椒:こしょう",
+   "kana": "こしょう",
+   "kanji": "胡椒",
+   "hv": "HỒ TIÊU",
+   "vi": "hồ tiêu, hạt tiêu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "塩[しお]と胡椒[こしょう]で、味[あじ]をつけます。",
+     "vi": "Nêm bằng muối và tiêu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "胡椒[こしょう]を、少[すこ]しかけてください。",
+     "vi": "Rắc chút tiêu nhé.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Thường viết kana: こしょう / コショウ."
+  },
+  {
+   "id": "v:粉:こな",
+   "kana": "こな",
+   "kanji": "粉",
+   "hv": "PHẤN",
+   "vi": "bột",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]に、粉[こな]をつけて揚[あ]げます。",
+     "vi": "Lăn bột cá rồi chiên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "粉[こな]の薬[くすり]は、飲[の]みにくいです。",
+     "vi": "Thuốc bột khó uống.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "小麦粉[こむぎこ] = bột mì; 片栗粉[かたくりこ] = bột năng."
+  },
+  {
+   "id": "v:小麦:こむぎ",
+   "kana": "こむぎ",
+   "kanji": "小麦",
+   "hv": "TIỂU MẠCH",
+   "vi": "lúa mì",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "パンは、小麦[こむぎ]から作[つく]ります。",
+     "vi": "Bánh mì làm từ lúa mì.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "小麦[こむぎ]のアレルギーがある人[ひと]に、注意[ちゅうい]してください。",
+     "vi": "Chú ý người dị ứng lúa mì.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Dị ứng: 小麦[こむぎ], えび, かに… phải ghi trên nhãn."
+  },
+  {
+   "id": "v:豆:まめ",
+   "kana": "まめ",
+   "kanji": "豆",
+   "hv": "ĐẬU",
+   "vi": "đậu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "豆[まめ]は、体[からだ]にいいです。",
+     "vi": "Đậu tốt cho sức khỏe.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "節分[せつぶん]に、豆[まめ]をまきます。",
+     "vi": "Ngày Setsubun rải đậu.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "豆腐[とうふ] = đậu phụ; 納豆[なっとう] = đậu nành lên men."
+  },
+  {
+   "id": "v:油:あぶら",
+   "kana": "あぶら",
+   "kanji": "油",
+   "hv": "DU",
+   "vi": "dầu (ăn, máy)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "油[あぶら]で、天[てん]ぷらを揚[あ]げます。",
+     "vi": "Chiên tempura bằng dầu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]に、油[あぶら]をさしてください。",
+     "vi": "Tra dầu vào máy nhé.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:脂:あぶら"
+   ],
+   "note": "Đồng âm: 脂[あぶら] = mỡ (động vật, cá)."
+  },
+  {
+   "id": "v:脂:あぶら",
+   "kana": "あぶら",
+   "kanji": "脂",
+   "hv": "CHI",
+   "vi": "mỡ (thịt, cá)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冬[ふゆ]のブリは、脂[あぶら]がのっていて、おいしいです。",
+     "vi": "Cá cam mùa đông béo ngậy, ngon.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "肉[にく]の脂[あぶら]を、取[と]ってください。",
+     "vi": "Hãy bỏ mỡ thịt đi.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:油:あぶら"
+   ],
+   "note": "脂[あぶら]がのる = (cá) béo, ngậy."
+  },
+  {
+   "id": "v:脂肪:しぼう",
+   "kana": "しぼう",
+   "kanji": "脂肪",
+   "hv": "CHI PHƯƠNG",
+   "vi": "chất béo",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この魚[さかな]は、脂肪[しぼう]が少[すく]ないです。",
+     "vi": "Cá này ít chất béo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "体[からだ]の脂肪[しぼう]を、減[へ]らしたいです。",
+     "vi": "Muốn giảm mỡ cơ thể.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:泡:あわ",
+   "kana": "あわ",
+   "kanji": "泡",
+   "hv": "PHAO",
+   "vi": "bọt",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "洗剤[せんざい]の泡[あわ]を、よく流[なが]してください。",
+     "vi": "Hãy xả sạch bọt chất tẩy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ビールの泡[あわ]が、おいしそうです。",
+     "vi": "Bọt bia trông ngon quá.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:殻:から",
+   "kana": "から",
+   "kanji": "殻",
+   "hv": "XÁC",
+   "vi": "vỏ (cứng: sò, trứng, tôm)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "卵[たまご]の殻[から]が、入[はい]らないように気[き]をつけて。",
+     "vi": "Cẩn thận đừng để vỏ trứng rơi vào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "エビの殻[から]を、むきます。",
+     "vi": "Bóc vỏ tôm.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "空[そら]",
+     "vi": "rỗng"
+    }
+   ],
+   "note": "Đồng âm: 空[から] = rỗng."
+  },
+  {
+   "id": "v:貝:かい",
+   "kana": "かい",
+   "kanji": "貝",
+   "hv": "BỐI",
+   "vi": "sò, ốc (loài có vỏ)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "貝[かい]は、砂[すな]を吐[は]かせてから料理[りょうり]します。",
+     "vi": "Sò cho nhả cát rồi mới nấu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ホタテは、貝[かい]の一種[いっしゅ]です。",
+     "vi": "Sò điệp là một loại sò.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "貝類[かいるい] = các loại sò ốc."
+  },
+  {
+   "id": "v:餌:えさ",
+   "kana": "えさ",
+   "kanji": "餌",
+   "hv": "NHỊ",
+   "vi": "mồi; thức ăn (cho động vật)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "釣[つ]りの餌[えさ]を、買[か]いました。",
+     "vi": "Tôi mua mồi câu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "猫[ねこ]に、餌[えさ]をあげます。",
+     "vi": "Cho mèo ăn.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Không dùng 餌[えさ] cho người."
+  },
+  {
+   "id": "v:香り:かおり",
+   "kana": "かおり",
+   "kanji": "香り",
+   "kf": "香[かお]り",
+   "hv": "HƯƠNG",
+   "vi": "hương thơm",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このお茶[ちゃ]は、香[かお]りがいいです。",
+     "vi": "Trà này thơm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ゆずの香[かお]りが、します。",
+     "vi": "Có mùi thơm quả yuzu.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:匂い:におい"
+   ],
+   "note": "香[かお]り = mùi thơm (tốt); 匂[にお]い = mùi nói chung."
+  },
+  {
+   "id": "v:すっぱい:すっぱい",
+   "kana": "すっぱい",
+   "kanji": "",
+   "hv": "",
+   "vi": "chua",
+   "pos": "adj-i",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このみかんは、すっぱいです。",
+     "vi": "Quýt này chua.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "酢[す]を入[い]れすぎて、すっぱくなりました。",
+     "vi": "Cho nhiều giấm quá nên chua.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このレモン、そんなにすっぱくないね。 B：うん、国[くに]のレモンより甘[あま]いよ。",
+     "vi": "A: Quả chanh này không chua lắm nhỉ. B: Ừ, ngọt hơn chanh ở quê.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "果物[くだもの]",
+     "vi": "trái cây"
+    },
+    {
+     "jp": "スープ",
+     "vi": "súp"
+    }
+   ],
+   "note": "Chữ Hán: 酸[す]っぱい."
+  },
+  {
+   "id": "v:濃い:こい",
+   "kana": "こい",
+   "kanji": "濃い",
+   "kf": "濃[こ]い",
+   "hv": "NỒNG",
+   "vi": "đậm, đặc (vị, màu)",
+   "pos": "adj-i",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "関西[かんさい]の味[あじ]は、あまり濃[こ]くないです。",
+     "vi": "Vị Kansai không đậm lắm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "濃[こ]いコーヒーが、好[す]きです。",
+     "vi": "Tôi thích cà phê đặc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "霧[きり]が濃[こ]くて、前[まえ]が見[み]えません。",
+     "vi": "Sương mù dày, không thấy phía trước.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "味[あじ]",
+     "vi": "vị"
+    },
+    {
+     "jp": "色[いろ]",
+     "vi": "màu"
+    }
+   ],
+   "ant": [
+    {
+     "w": "薄[うす]い",
+     "vi": "nhạt, mỏng"
+    }
+   ]
+  },
+  {
+   "id": "v:加減:かげん",
+   "kana": "かげん",
+   "kanji": "加減",
+   "hv": "GIA GIẢM",
+   "vi": "gia giảm, mức điều chỉnh (độ lửa, độ mặn)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "火加減[ひかげん]に、気[き]をつけてください。",
+     "vi": "Chú ý độ lửa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "塩[しお]の加減[かげん]が、ちょうどいいです。",
+     "vi": "Độ mặn vừa phải.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "火加減[ひかげん] = độ lửa; いい加減[かげん] = qua loa, tùy tiện."
+  },
+  {
+   "id": "v:保存:ほぞん",
+   "kana": "ほぞん",
+   "kanji": "保存",
+   "hv": "BẢO TỒN",
+   "vi": "bảo quản; lưu (dữ liệu)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "刺身[さしみ]は、冷蔵庫[れいぞうこ]で保存[ほぞん]してください。",
+     "vi": "Sashimi hãy bảo quản trong tủ lạnh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ファイルを、保存[ほぞん]しました。",
+     "vi": "Tôi đã lưu file.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "保存方法[ほぞんほうほう] = cách bảo quản (ghi trên nhãn)."
+  },
+  {
+   "id": "v:卸す:おろす",
+   "kana": "おろす",
+   "kanji": "卸す",
+   "kf": "卸[おろ]す",
+   "hv": "TÁ",
+   "vi": "bán sỉ; mài (củ cải)",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この工場[こうじょう]は、スーパーに魚[さかな]を卸[おろ]しています。",
+     "vi": "Nhà máy này bán sỉ cá cho siêu thị.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "大根[だいこん]を、おろします。",
+     "vi": "Mài củ cải.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この工場[こうじょう]の魚[さかな]は、どこに卸[おろ]すんですか。 B：主[おも]に関西[かんさい]のスーパーだよ。",
+     "vi": "A: Cá của nhà máy này bán sỉ cho đâu ạ? B: Chủ yếu cho các siêu thị vùng Kansai.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "魚[さかな]を卸[おろ]す",
+     "vi": "bán sỉ cá"
+    }
+   ],
+   "note": "卸売[おろしう]り = bán buôn; mài củ cải thường viết kana: おろす."
+  },
+  {
+   "id": "v:混じる:まじる",
+   "kana": "まじる",
+   "kanji": "混じる",
+   "kf": "混[ま]じる",
+   "hv": "HỖN",
+   "vi": "lẫn vào, trộn lẫn",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "商品[しょうひん]に、異物[いぶつ]が混[ま]じっていました。",
+     "vi": "Trong hàng có lẫn dị vật.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "雨[あめ]に、雪[ゆき]が混[ま]じっています。",
+     "vi": "Mưa lẫn tuyết.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今[いま]の話[はな]し方[かた]、関西弁[かんさいべん]が混[ま]じったね。 B：はい、職場[しょくば]の人[ひと]がみんな関西弁[かんさいべん]なので。",
+     "vi": "A: Cách nói vừa rồi lẫn giọng Kansai nhỉ. B: Vâng, vì ở chỗ làm ai cũng nói giọng Kansai.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "異物[いぶつ]が混[ま]じる",
+     "vi": "dị vật lẫn vào"
+    }
+   ],
+   "syn": [
+    "v:混ざる:まざる"
+   ]
+  },
+  {
+   "id": "v:蕎麦:そば",
+   "kana": "そば",
+   "kanji": "蕎麦",
+   "hv": "KIỀU MẠCH",
+   "vi": "mì soba",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "昼[ひる]ご飯[はん]に、蕎麦[そば]を食[た]べました。",
+     "vi": "Trưa ăn mì soba.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "年越[としこ]し蕎麦[そば]を、食[た]べますか。",
+     "vi": "Có ăn mì soba đêm giao thừa không?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Thường viết kana: そば. Đừng nhầm với そば (bên cạnh)."
+  },
+  {
+   "id": "v:チーズ:チーズ",
+   "kana": "チーズ",
+   "kanji": "",
+   "hv": "",
+   "vi": "phô mai",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "チーズを、パンにのせます。",
+     "vi": "Đặt phô mai lên bánh mì.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "チーズは、冷蔵庫[れいぞうこ]に入[い]れてください。",
+     "vi": "Cho phô mai vào tủ lạnh.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "cheese (tiếng Anh)"
+  },
+  {
+   "id": "v:スープ:スープ",
+   "kana": "スープ",
+   "kanji": "",
+   "hv": "",
+   "vi": "súp, canh (kiểu Tây)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "温[あたた]かいスープを、飲[の]みました。",
+     "vi": "Tôi uống súp nóng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]の骨[ほね]で、スープを作[つく]ります。",
+     "vi": "Nấu súp bằng xương cá.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "soup (tiếng Anh)"
+  },
+  {
+   "id": "v:クリーム:クリーム",
+   "kana": "クリーム",
+   "kanji": "",
+   "hv": "",
+   "vi": "kem (bơ sữa); kem bôi",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ケーキに、クリームをのせます。",
+     "vi": "Phết kem lên bánh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "手[て]に、クリームを塗[ぬ]ります。",
+     "vi": "Bôi kem lên tay.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "cream (tiếng Anh)"
+  },
+  {
+   "id": "v:アイスクリーム:アイスクリーム",
+   "kana": "アイスクリーム",
+   "kanji": "",
+   "hv": "",
+   "vi": "kem lạnh",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "暑[あつ]い日[ひ]は、アイスクリームが食[た]べたいです。",
+     "vi": "Ngày nóng muốn ăn kem.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "アイスクリームは、冷凍庫[れいとうこ]に入[い]れてください。",
+     "vi": "Cho kem vào ngăn đá.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "ice cream (tiếng Anh)",
+   "note": "Nói tắt: アイス."
+  },
+  {
+   "id": "v:ミルク:ミルク",
+   "kana": "ミルク",
+   "kanji": "",
+   "hv": "",
+   "vi": "sữa",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "コーヒーに、ミルクを入[い]れますか。",
+     "vi": "Cho sữa vào cà phê không?",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "赤[あか]ちゃんに、ミルクをあげます。",
+     "vi": "Cho em bé uống sữa.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:牛乳:ぎゅうにゅう"
+   ],
+   "goc": "milk (tiếng Anh)"
+  },
+  {
+   "id": "v:ワイン:ワイン",
+   "kana": "ワイン",
+   "kanji": "",
+   "hv": "",
+   "vi": "rượu vang",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "赤[あか]ワインを、一杯[いっぱい]飲[の]みました。",
+     "vi": "Tôi uống một ly vang đỏ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]には、白[しろ]ワインが合[あ]います。",
+     "vi": "Cá hợp với vang trắng.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "wine (tiếng Anh)"
+  },
+  {
+   "id": "v:昼食:ちゅうしょく",
+   "kana": "ちゅうしょく",
+   "kanji": "昼食",
+   "hv": "TRÚ THỰC",
+   "vi": "bữa trưa (trang trọng)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "昼食[ちゅうしょく]は、十二時[じゅうにじ]からです。",
+     "vi": "Bữa trưa từ 12 giờ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "社員食堂[しゃいんしょくどう]で、昼食[ちゅうしょく]をとります。",
+     "vi": "Ăn trưa ở nhà ăn công ty.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:昼ご飯:ひるごはん"
+   ]
+  },
+  {
+   "id": "v:温かい:あたたかい",
+   "kana": "あたたかい",
+   "kanji": "温かい",
+   "kf": "温[あたた]かい",
+   "hv": "ÔN",
+   "vi": "ấm, nóng ấm (đồ ăn, tấm lòng)",
+   "pos": "adj-i",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "温[あたた]かいご飯[はん]を、食[た]べたいです。",
+     "vi": "Muốn ăn cơm nóng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "温[あたた]かい言葉[ことば]に、感動[かんどう]しました。",
+     "vi": "Cảm động vì lời nói ấm áp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]での作業[さぎょう]の後[あと]、休憩室[きゅうけいしつ]のスープは温[あたた]かくて、ほっとした。",
+     "vi": "Làm trong kho cấp đông xong, bát súp ở phòng nghỉ ấm nóng làm tôi nhẹ người.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:冷たい:つめたい"
+   ],
+   "confuse": [
+    "v:暖かい:あたたかい"
+   ],
+   "note": "温[あたた]かい = ấm (đồ vật, đồ ăn, tình cảm); 暖[あたた]かい = ấm (thời tiết, không khí)."
+  },
+  {
+   "id": "v:生地:きじ",
+   "kana": "きじ",
+   "kanji": "生地",
+   "hv": "SINH ĐỊA",
+   "vi": "bột nhào; chất vải (may áo)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "パンの生地[きじ]を、一時間[いちじかん]寝[ね]かせます。",
+     "vi": "Ủ bột bánh mì một tiếng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この服[ふく]は、生地[きじ]が厚[あつ]いです。",
+     "vi": "Áo này vải dày.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:さっぱり:さっぱり",
+   "kana": "さっぱり",
+   "kanji": "",
+   "hv": "",
+   "vi": "thanh mát (vị); sảng khoái",
+   "pos": "adv",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nấu ăn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このスープは、さっぱりしています。",
+     "vi": "Súp này vị thanh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "シャワーを浴[あ]びて、さっぱりしました。",
+     "vi": "Tắm xong thấy sảng khoái.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Đi với phủ định: さっぱり分[わ]からない = chẳng hiểu gì cả."
+  },
+  {
+   "id": "v:生:なま",
+   "kana": "なま",
+   "kanji": "生",
+   "hv": "SINH",
+   "vi": "sống, tươi (chưa nấu)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この魚[さかな]は、生[なま]で食[た]べられます。",
+     "vi": "Cá này ăn sống được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "生[なま]の肉[にく]は、よく焼[や]いてください。",
+     "vi": "Thịt sống hãy nướng kỹ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "生食用[なましょくよう] = dùng để ăn sống (hàng xưởng mình làm); 加熱用[かねつよう] = dùng để nấu chín."
+  },
+  {
+   "id": "v:豊富:ほうふ",
+   "kana": "ほうふ",
+   "kanji": "豊富",
+   "hv": "PHONG PHÚ",
+   "vi": "phong phú, dồi dào",
+   "pos": "adj-na",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thực phẩm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]は、栄養[えいよう]が豊富[ほうふ]です。",
+     "vi": "Cá giàu dinh dưỡng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この店[みせ]は、品物[しなもの]が豊富[ほうふ]です。",
+     "vi": "Cửa hàng này hàng hóa phong phú.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "経験[けいけん]が豊富[ほうふ]な通訳[つうやく]さんに、手続[てつづ]きを手伝[てつだ]ってもらった。",
+     "vi": "Tôi được một phiên dịch nhiều kinh nghiệm giúp làm thủ tục.",
+     "ctx": "thutuc"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "栄養[えいよう]",
+     "vi": "dinh dưỡng"
+    },
+    {
+     "jp": "種類[しゅるい]",
+     "vi": "chủng loại"
+    }
+   ],
+   "syn": [
+    "v:豊か:ゆたか"
+   ]
+  }
+ ]
 }

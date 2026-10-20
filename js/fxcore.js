@@ -101,35 +101,73 @@ function newPart(kind, init) {
   p.y = init ? rnd(-20, st.h) : (p.vy < 0 ? st.h + 20 : -20);
   return p;
 }
+// v43: chỉ gieo lại khi thứ quyết định hạt thay đổi (loại hạt, mật độ, mức chi tiết, màu nền). Đổi cỡ khung (thanh địa chỉ
+// điện thoại co giãn khi cuộn, xoay máy…), quay lại app, lưu cài đặt khác → giữ nguyên hạt, chỉ co giãn vị trí theo khung mới.
+let partKey = '', skyKey = '';
 function seedParts() {
+  if (!st.w || !st.h) return;
+  const key = [st.kinds.join(','), !!S.fxFall, S.fxDensity, st.q, st.w < 500, st.dark].join('|');
+  if (key === partKey && st.partW) {
+    if (st.partW !== st.w || st.partH !== st.h) { for (const p of fx.parts) { p.x *= st.w / st.partW; p.y *= st.h / st.partH; } st.partW = st.w; st.partH = st.h; }
+    return;
+  }
+  partKey = key; st.partW = st.w; st.partH = st.h;
   fx.parts = [];
   if (!S.fxFall) return;
   for (const kind of st.kinds) { const n = Math.round(KIND[kind].n * dens() * (st.w < 500 ? 0.75 : 1)); for (let i = 0; i < n; i++) fx.parts.push(newPart(kind, true)); }
 }
 function seedSky() {
-  const n = Math.round(90 * dens() * (st.w < 500 ? 0.6 : 1));
-  fx.stars = Array.from({ length: n }, () => ({ x: rnd(0, st.w), y: rnd(0, st.h * 0.65) * rnd(0.3, 1), r: rnd(0.4, 1.4), tw: rnd(0.6, 2.2), ph: rnd(0, 6.3) }));
-  if (st.hol.some(h => h.milky)) for (let i = 0; i < 160; i++) { const t = Math.random(); fx.stars.push({ x: t * st.w + rnd(-40, 40), y: (0.05 + t * 0.4) * st.h + rnd(-40, 40), r: rnd(0.3, 0.9), tw: rnd(1, 3), ph: rnd(0, 6.3), milky: 1 }); }
+  if (!st.w || !st.h) return;
+  const m = st.month, milky = st.hol.some(h => h.milky), ff = !!(S.fxFireflies && night() && m >= 6 && m <= 8);
+  const key = [m, S.fxConst !== false, milky, st.rain, S.fxDensity, st.q, st.w < 500, ff].join('|');
+  if (key === skyKey && st.skyW) { if (st.skyW !== st.w || st.skyH !== st.h) layoutSky(); return; }
+  skyKey = key;
+  const W = st.w, H = st.h;
+  // sao lưu theo tỉ lệ khung (xf, yf) để đổi cỡ khung không phải gieo lại
+  const n = Math.round(90 * dens() * (W < 500 ? 0.6 : 1));
+  fx.stars = Array.from({ length: n }, () => ({ xf: rnd(0, 1), yf: rnd(0, 0.65) * rnd(0.3, 1), r: rnd(0.4, 1.4), tw: rnd(0.6, 2.2), ph: rnd(0, 6.3) }));
+  if (milky) for (let i = 0; i < 160; i++) { const t = Math.random(); fx.stars.push({ xf: t + rnd(-40, 40) / W, yf: 0.05 + t * 0.4 + rnd(-40, 40) / H, r: rnd(0.3, 0.9), tw: rnd(1, 3), ph: rnd(0, 6.3), milky: 1 }); }
   // v42: 3 chòm sao theo mùa, đặt ở 3 vùng trời không chồng nhau
   fx.cons = [];
   if (S.fxConst !== false) {
-    let names = [...(CONS_BY_MONTH[st.month] || CONS_BY_MONTH[1])];
-    if (st.hol.some(h => h.milky)) names = ['chucnu', 'nguulang', ...names.filter(n => n !== 'chucnu' && n !== 'nguulang')];
+    let names = [...(CONS_BY_MONTH[m] || CONS_BY_MONTH[1])];
+    if (milky) names = ['chucnu', 'nguulang', ...names.filter(x => x !== 'chucnu' && x !== 'nguulang')];
     else names = names.sort(() => Math.random() - 0.5);
     // chừa góc phải trên cho mặt trăng; điện thoại 3 chòm, màn rộng 4 chòm
-    const sz = Math.min(st.w * 0.34, st.h * 0.22, 230), slots = st.w < 500 ? [[0.05, 0.1], [0.55, 0.24], [0.12, 0.42]] : [[0.05, 0.09], [0.4, 0.06], [0.62, 0.3], [0.2, 0.38]];
-    fx.cons = names.slice(0, st.w < 500 ? 3 : 4).map((n, i) => {
-      const c = CONS[n], [fx0, fy0] = slots[i], rot = rnd(-0.3, 0.3), cs = Math.cos(rot), sn = Math.sin(rot);
-      const ox = fx0 * st.w + rnd(-0.03, 0.03) * st.w, oy = fy0 * st.h + rnd(-0.02, 0.03) * st.h, k = sz * rnd(0.85, 1.1);
-      return { n, c, stars: c.s.map(([x, y]) => { const X = (x - .5) * k, Y = (y - .5) * k; return { x: ox + k / 2 + X * cs - Y * sn, y: oy + k / 2 + X * sn + Y * cs, r: rnd(1.3, 2.3), ph: rnd(0, 6.3) }; }), ph: rnd(0, 6.3) };
+    const slots = W < 500 ? [[0.05, 0.1], [0.55, 0.24], [0.12, 0.42]] : [[0.05, 0.09], [0.4, 0.06], [0.62, 0.3], [0.2, 0.38]];
+    fx.cons = names.slice(0, W < 500 ? 3 : 4).map((nm, i) => {
+      const c = CONS[nm], [fx0, fy0] = slots[i];
+      return { n: nm, c, fx: fx0 + rnd(-0.03, 0.03), fy: fy0 + rnd(-0.02, 0.03), rot: rnd(-0.3, 0.3), km: rnd(0.85, 1.1), sp: c.s.map(() => ({ r: rnd(1.3, 2.3), ph: rnd(0, 6.3) })), ph: rnd(0, 6.3), lab: `${c.vi} · ${c.jp}`, tw: 0 };
     });
   }
-  fx.clouds = Array.from({ length: st.w < 500 ? 2 : 4 }, () => ({ x: rnd(0, st.w), y: 80 + rnd(0, 0.25) * st.h, s: rnd(40, 80), v: rnd(5, 12), blobs: Array.from({ length: 5 }, () => [rnd(-1.2, 1.2), rnd(-0.35, 0.25), rnd(0.45, 0.8)]) }));
+  fx.clouds = Array.from({ length: W < 500 ? 2 : 4 }, () => ({ x: rnd(0, W), y: 80 + rnd(0, 0.25) * H, s: rnd(40, 80), v: rnd(5, 12), blobs: Array.from({ length: 5 }, () => [rnd(-1.2, 1.2), rnd(-0.35, 0.25), rnd(0.45, 0.8)]) }));
   fx.flies = [];
-  const m = st.month;
-  if (S.fxFireflies && night() && m >= 6 && m <= 8) fx.flies = Array.from({ length: Math.round(14 * dens()) }, () => ({ x: rnd(0, st.w), y: rnd(0.35, 0.95) * st.h, vx: rnd(-12, 12), vy: rnd(-8, 8), ph: rnd(0, 6.3), bl: rnd(1.5, 3.5) }));
+  if (ff) fx.flies = Array.from({ length: Math.round(14 * dens()) }, () => ({ x: rnd(0, W), y: rnd(0.35, 0.95) * H, vx: rnd(-12, 12), vy: rnd(-8, 8), ph: rnd(0, 6.3), bl: rnd(1.5, 3.5) }));
   fx.drops = [];
-  if (st.rain) for (let i = 0; i < Math.round((st.rain === 2 ? 150 : 70) * dens() * (st.w < 500 ? 0.6 : 1)); i++) fx.drops.push({ x: rnd(-50, st.w + 50), y: rnd(-st.h, st.h), v: rnd(600, 900), l: rnd(10, 18) });
+  if (st.rain) for (let i = 0; i < Math.round((st.rain === 2 ? 150 : 70) * dens() * (W < 500 ? 0.6 : 1)); i++) fx.drops.push({ x: rnd(-50, W + 50), y: rnd(-H, H), v: rnd(600, 900), l: rnd(10, 18) });
+  st.skyW = 0;
+  layoutSky();
+}
+// đặt sao, chòm sao theo cỡ khung hiện tại (không ngẫu nhiên); mây, đom đóm, mưa co giãn theo khung mới
+function layoutSky() {
+  const W = st.w, H = st.h, ow = st.skyW || W, oh = st.skyH || H;
+  // chỉ chiều cao đổi ít (thanh địa chỉ của trình duyệt điện thoại hiện / ẩn khi cuộn) → giữ nguyên chỗ, không xê dịch bầu trời
+  if (st.skyW === W && st.skyH && Math.abs(H - oh) / oh < 0.2) return;
+  for (const s of fx.stars) { s.x = s.xf * W; s.y = s.yf * H; }
+  const sz = Math.min(W * 0.34, H * 0.22, 230);
+  for (const k of fx.cons) {
+    const cs = Math.cos(k.rot), sn = Math.sin(k.rot), kk = sz * k.km, ox = k.fx * W, oy = k.fy * H;
+    k.stars = k.c.s.map(([x, y], i) => { const X = (x - 0.5) * kk, Y = (y - 0.5) * kk; return { x: ox + kk / 2 + X * cs - Y * sn, y: oy + kk / 2 + X * sn + Y * cs, r: k.sp[i].r, ph: k.sp[i].ph }; });
+    let x0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+    for (const p of k.stars) { if (p.x < x0) x0 = p.x; if (p.x > x1) x1 = p.x; if (p.y > y1) y1 = p.y; }
+    k.cx = (x0 + x1) / 2; k.bot = y1;
+  }
+  if (ow !== W || oh !== H) {
+    for (const c of fx.clouds) { c.x *= W / ow; c.y *= H / oh; }
+    for (const f of fx.flies) { f.x *= W / ow; f.y *= H / oh; }
+    for (const d of fx.drops) d.x *= W / ow;
+  }
+  st.skyW = W; st.skyH = H;
 }
 
 // ---------- sự kiện ngẫu nhiên ----------
@@ -300,11 +338,11 @@ function drawCons(t) {
       ctx.globalAlpha = 0.95; ctx.fillStyle = st.dark ? '#FFFFFF' : '#4A5C8A'; ctx.beginPath(); ctx.arc(sp.x + dx, sp.y + dy, sp.r * 0.75, 0, Math.PI * 2); ctx.fill();
     }
     // tên chòm dưới chòm sao, không tràn khỏi màn hình
-    const lab = `${k.c.vi} · ${k.c.jp}`, tw = ctx.measureText(lab).width;
-    const xs = k.stars.map(p => p.x), bot = Math.max(...k.stars.map(p => p.y));
-    const lx = Math.max(6, Math.min(st.w - tw - 6, (Math.min(...xs) + Math.max(...xs)) / 2 - tw / 2 + dx));
+    // v43: bề rộng chữ, vị trí tên tính một lần (trước đây đo chữ, dựng mảng mỗi khung → rác bộ nhớ, thỉnh thoảng khựng khi dọn rác)
+    if (!k.tw) k.tw = ctx.measureText(k.lab).width;
+    const lx = Math.max(6, Math.min(st.w - k.tw - 6, k.cx - k.tw / 2 + dx));
     ctx.globalAlpha = 0.42 + 0.14 * Math.sin(t * 0.5 + i); ctx.fillStyle = st.dark ? '#CFE0FF' : '#3E4E78';
-    ctx.fillText(lab, lx, bot + dy + 8);
+    ctx.fillText(k.lab, lx, k.bot + dy + 8);
   });
   ctx.globalAlpha = 1;
 }
@@ -571,5 +609,6 @@ function draw(now, dt) {
       return true;
     },
     stats: () => ({ fps: st.run ? st.fps : 0, q: st.q }),
+    peek: () => ({ cons: fx.cons.map(k => [k.n, Math.round(k.stars[0].x), Math.round(k.stars[0].y)]), star: fx.stars[0] && [Math.round(fx.stars[0].x), Math.round(fx.stars[0].y)], parts: fx.parts.length }),
   };
 }

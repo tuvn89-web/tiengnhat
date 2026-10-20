@@ -1,973 +1,1213 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n5-01",
-    "title": "JLPT N5 01 – Con số & cách đếm",
-    "type": "vocab",
-    "level": "N5",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 5,
-    "created": "2026-10-11",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n5-01",
+  "title": "JLPT N5 01 – Con số & cách đếm",
+  "type": "vocab",
+  "level": "N5",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 6,
+  "created": "2026-10-11",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:一:いち",
+   "kana": "いち",
+   "kanji": "一",
+   "hv": "NHẤT",
+   "vi": "một (số 1)",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:一:いち",
-      "kana": "いち",
-      "kanji": "一",
-      "hv": "NHẤT",
-      "vi": "một (số 1)",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一[いち]から十[じゅう]まで言[い]ってください。",
-          "vi": "Hãy nói từ một đến mười."
-        }
-      ],
-      "confuse": [
-        "v:一つ:ひとつ",
-        "v:一人:ひとり"
-      ]
+     "jp": "一[いち]から十[じゅう]まで言[い]ってください。",
+     "vi": "Hãy nói từ một đến mười.",
+     "ctx": "doisong"
     },
     {
-      "id": "v:二:に",
-      "kana": "に",
-      "kanji": "二",
-      "hv": "NHỊ",
-      "vi": "hai (số 2)",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "二[に]階[かい]に行[い]きます。",
-          "vi": "Tôi lên tầng hai."
-        }
-      ],
-      "confuse": [
-        "v:二つ:ふたつ",
-        "v:二人:ふたり"
-      ]
-    },
-    {
-      "id": "v:三:さん",
-      "kana": "さん",
-      "kanji": "三",
-      "hv": "TAM",
-      "vi": "ba (số 3)",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "三[さん]時[じ]に帰[かえ]ります。",
-          "vi": "Tôi về lúc ba giờ."
-        }
-      ],
-      "confuse": [
-        "v:三つ:みっつ"
-      ]
-    },
-    {
-      "id": "v:四:よん",
-      "kana": "よん",
-      "kanji": "四",
-      "hv": "TỨ",
-      "vi": "bốn (số 4)",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "四[よん]番[ばん]のラインです。",
-          "vi": "Là dây chuyền số bốn."
-        }
-      ],
-      "confuse": [
-        "v:四つ:よっつ"
-      ],
-      "note": "Còn đọc し, よ (四時[よじ], 四月[しがつ])."
-    },
-    {
-      "id": "v:五:ご",
-      "kana": "ご",
-      "kanji": "五",
-      "hv": "NGŨ",
-      "vi": "năm (số 5)",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "五[ご]分[ふん]待[ま]ってください。",
-          "vi": "Hãy đợi năm phút."
-        }
-      ],
-      "confuse": [
-        "v:五つ:いつつ"
-      ]
-    },
-    {
-      "id": "v:六:ろく",
-      "kana": "ろく",
-      "kanji": "六",
-      "hv": "LỤC",
-      "vi": "sáu (số 6)",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "朝[あさ]六[ろく]時[じ]に起[お]きます。",
-          "vi": "Tôi dậy lúc sáu giờ sáng."
-        }
-      ],
-      "confuse": [
-        "v:六つ:むっつ"
-      ]
-    },
-    {
-      "id": "v:七:なな",
-      "kana": "なな",
-      "kanji": "七",
-      "hv": "THẤT",
-      "vi": "bảy (số 7)",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "七[なな]番[ばん]の箱[はこ]をください。",
-          "vi": "Cho tôi cái hộp số bảy."
-        }
-      ],
-      "confuse": [
-        "v:七つ:ななつ"
-      ],
-      "note": "Còn đọc しち (七時[しちじ])."
-    },
-    {
-      "id": "v:八:はち",
-      "kana": "はち",
-      "kanji": "八",
-      "hv": "BÁT",
-      "vi": "tám (số 8)",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "八[はち]時[じ]から仕事[しごと]です。",
-          "vi": "Tám giờ bắt đầu làm việc."
-        }
-      ],
-      "confuse": [
-        "v:八つ:やっつ"
-      ]
-    },
-    {
-      "id": "v:九:きゅう",
-      "kana": "きゅう",
-      "kanji": "九",
-      "hv": "CỬU",
-      "vi": "chín (số 9)",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "九[きゅう]番[ばん]の部屋[へや]です。",
-          "vi": "Là phòng số chín."
-        }
-      ],
-      "confuse": [
-        "v:九つ:ここのつ"
-      ],
-      "note": "Còn đọc く (九時[くじ], 九月[くがつ])."
-    },
-    {
-      "id": "v:十:じゅう",
-      "kana": "じゅう",
-      "kanji": "十",
-      "hv": "THẬP",
-      "vi": "mười (số 10)",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "十[じゅう]人[にん]います。",
-          "vi": "Có mười người."
-        }
-      ],
-      "confuse": [
-        "v:十:とお"
-      ]
-    },
-    {
-      "id": "v:百:ひゃく",
-      "kana": "ひゃく",
-      "kanji": "百",
-      "hv": "BÁCH",
-      "vi": "một trăm",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "このペンは百[ひゃく]円[えん]です。",
-          "vi": "Cây bút này giá một trăm yên."
-        }
-      ],
-      "confuse": [
-        "v:千:せん"
-      ],
-      "note": "Biến âm: 三百[さんびゃく], 六百[ろっぴゃく], 八百[はっぴゃく]."
-    },
-    {
-      "id": "v:千:せん",
-      "kana": "せん",
-      "kanji": "千",
-      "hv": "THIÊN",
-      "vi": "một nghìn",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "シャツは三千[さんぜん]円[えん]でした。",
-          "vi": "Cái áo sơ mi giá ba nghìn yên."
-        }
-      ],
-      "confuse": [
-        "v:百:ひゃく",
-        "v:万:まん"
-      ],
-      "note": "Biến âm: 三千[さんぜん], 八千[はっせん]."
-    },
-    {
-      "id": "v:万:まん",
-      "kana": "まん",
-      "kanji": "万",
-      "hv": "VẠN",
-      "vi": "mười nghìn (một vạn)",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "自転車[じてんしゃ]は二万[にまん]円[えん]です。",
-          "vi": "Xe đạp giá hai vạn yên (20.000 yên)."
-        }
-      ],
-      "confuse": [
-        "v:千:せん"
-      ],
-      "note": "Người Nhật đếm theo vạn: 10.000 = 一万[いちまん], 100.000 = 十万[じゅうまん]."
-    },
-    {
-      "id": "v:ゼロ:ゼロ",
-      "kana": "ゼロ",
-      "kanji": "",
-      "hv": "",
-      "vi": "số không",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今[いま]、外[そと]はゼロ度[ど]です。",
-          "vi": "Bây giờ ngoài trời 0 độ."
-        }
-      ],
-      "note": "Đọc số điện thoại cũng hay nói ゼロ hoặc れい.",
-      "goc": "zero (tiếng Anh: số không)"
-    },
-    {
-      "id": "v:半分:はんぶん",
-      "kana": "はんぶん",
-      "kanji": "半分",
-      "hv": "BÁN PHÂN",
-      "vi": "một nửa (chia đôi)",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số đếm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "パンを半分[はんぶん]ください。",
-          "vi": "Cho tôi một nửa cái bánh mì."
-        }
-      ],
-      "confuse": [
-        "v:半:はん"
-      ]
-    },
-    {
-      "id": "v:一つ:ひとつ",
-      "kana": "ひとつ",
-      "kanji": "一つ",
-      "kf": "一[ひと]つ",
-      "hv": "NHẤT",
-      "vi": "một cái",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đếm đồ vật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "りんごを一[ひと]つください。",
-          "vi": "Cho tôi một quả táo."
-        }
-      ],
-      "confuse": [
-        "v:一:いち",
-        "v:一人:ひとり"
-      ],
-      "note": "Cách đếm chung cho đồ vật (〜つ), dùng được khi không biết trợ số từ riêng."
-    },
-    {
-      "id": "v:二つ:ふたつ",
-      "kana": "ふたつ",
-      "kanji": "二つ",
-      "kf": "二[ふた]つ",
-      "hv": "NHỊ",
-      "vi": "hai cái",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đếm đồ vật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "箱[はこ]が二[ふた]つあります。",
-          "vi": "Có hai cái hộp."
-        }
-      ],
-      "confuse": [
-        "v:二:に",
-        "v:二人:ふたり"
-      ]
-    },
-    {
-      "id": "v:三つ:みっつ",
-      "kana": "みっつ",
-      "kanji": "三つ",
-      "kf": "三[みっ]つ",
-      "hv": "TAM",
-      "vi": "ba cái",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đếm đồ vật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "卵[たまご]を三[みっ]つ買[か]いました。",
-          "vi": "Tôi đã mua ba quả trứng."
-        }
-      ],
-      "confuse": [
-        "v:三:さん"
-      ]
-    },
-    {
-      "id": "v:四つ:よっつ",
-      "kana": "よっつ",
-      "kanji": "四つ",
-      "kf": "四[よっ]つ",
-      "hv": "TỨ",
-      "vi": "bốn cái",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đếm đồ vật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "椅子[いす]が四[よっ]つあります。",
-          "vi": "Có bốn cái ghế."
-        }
-      ],
-      "confuse": [
-        "v:四:よん",
-        "v:八つ:やっつ"
-      ]
-    },
-    {
-      "id": "v:五つ:いつつ",
-      "kana": "いつつ",
-      "kanji": "五つ",
-      "kf": "五[いつ]つ",
-      "hv": "NGŨ",
-      "vi": "năm cái",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đếm đồ vật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "コップを五[いつ]つ並[なら]べてください。",
-          "vi": "Hãy xếp năm cái cốc."
-        }
-      ],
-      "confuse": [
-        "v:五:ご"
-      ]
-    },
-    {
-      "id": "v:六つ:むっつ",
-      "kana": "むっつ",
-      "kanji": "六つ",
-      "kf": "六[むっ]つ",
-      "hv": "LỤC",
-      "vi": "sáu cái",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đếm đồ vật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "子供[こども]は六[むっ]つです。",
-          "vi": "Đứa bé sáu tuổi."
-        }
-      ],
-      "confuse": [
-        "v:六:ろく"
-      ],
-      "note": "〜つ cũng dùng để nói tuổi của trẻ nhỏ."
-    },
-    {
-      "id": "v:七つ:ななつ",
-      "kana": "ななつ",
-      "kanji": "七つ",
-      "kf": "七[なな]つ",
-      "hv": "THẤT",
-      "vi": "bảy cái",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đếm đồ vật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "虹[にじ]には七[なな]つの色[いろ]があります。",
-          "vi": "Cầu vồng có bảy màu."
-        }
-      ],
-      "confuse": [
-        "v:七:なな"
-      ]
-    },
-    {
-      "id": "v:八つ:やっつ",
-      "kana": "やっつ",
-      "kanji": "八つ",
-      "kf": "八[やっ]つ",
-      "hv": "BÁT",
-      "vi": "tám cái",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đếm đồ vật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "おにぎりを八[やっ]つ作[つく]りました。",
-          "vi": "Tôi đã làm tám nắm cơm."
-        }
-      ],
-      "confuse": [
-        "v:八:はち",
-        "v:四つ:よっつ"
-      ]
-    },
-    {
-      "id": "v:九つ:ここのつ",
-      "kana": "ここのつ",
-      "kanji": "九つ",
-      "kf": "九[ここの]つ",
-      "hv": "CỬU",
-      "vi": "chín cái",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đếm đồ vật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "みかんが九[ここの]つあります。",
-          "vi": "Có chín quả quýt."
-        }
-      ],
-      "confuse": [
-        "v:九:きゅう"
-      ]
-    },
-    {
-      "id": "v:十:とお",
-      "kana": "とお",
-      "kanji": "十",
-      "hv": "THẬP",
-      "vi": "mười cái",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đếm đồ vật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "皿[さら]を十[とお]ください。",
-          "vi": "Cho tôi mười cái đĩa."
-        }
-      ],
-      "confuse": [
-        "v:十:じゅう"
-      ],
-      "note": "Đếm đồ vật: 一[ひと]つ…九[ここの]つ, cái thứ mười đọc là とお (không có つ)."
-    },
-    {
-      "id": "v:いくつ:いくつ",
-      "kana": "いくつ",
-      "kanji": "",
-      "hv": "",
-      "vi": "mấy cái; mấy tuổi",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Hỏi số lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "りんごはいくつありますか。",
-          "vi": "Có mấy quả táo?"
-        }
-      ],
-      "confuse": [
-        "v:いくら:いくら"
-      ],
-      "note": "Hỏi tuổi lịch sự: おいくつですか."
-    },
-    {
-      "id": "v:いくら:いくら",
-      "kana": "いくら",
-      "kanji": "",
-      "hv": "",
-      "vi": "bao nhiêu tiền",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Hỏi số lượng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "このお弁当[べんとう]はいくらですか。",
-          "vi": "Hộp cơm này bao nhiêu tiền?"
-        }
-      ],
-      "confuse": [
-        "v:いくつ:いくつ"
-      ],
-      "note": "Kansai hay nói なんぼ."
-    },
-    {
-      "id": "v:一人:ひとり",
-      "kana": "ひとり",
-      "kanji": "一人",
-      "hv": "NHẤT NHÂN",
-      "vi": "một người; một mình",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đếm người",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一人[ひとり]で住[す]んでいます。",
-          "vi": "Tôi sống một mình."
-        }
-      ],
-      "confuse": [
-        "v:二人:ふたり",
-        "v:人:にん"
-      ],
-      "note": "Chỉ 1 người và 2 người đọc kiểu riêng (ひとり, ふたり); từ 3 người: 〜にん."
-    },
-    {
-      "id": "v:二人:ふたり",
-      "kana": "ふたり",
-      "kanji": "二人",
-      "hv": "NHỊ NHÂN",
-      "vi": "hai người",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đếm người",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "二人[ふたり]で行[い]きましょう。",
-          "vi": "Hai chúng ta cùng đi nhé."
-        }
-      ],
-      "confuse": [
-        "v:一人:ひとり",
-        "v:二:に"
-      ]
-    },
-    {
-      "id": "v:人:にん",
-      "kana": "にん",
-      "kanji": "人",
-      "hv": "NHÂN",
-      "vi": "người (trợ số từ đếm người)",
-      "pos": "ctr",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Trợ số từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "このラインは五人[ごにん]です。",
-          "vi": "Dây chuyền này có năm người."
-        }
-      ],
-      "confuse": [
-        "v:一人:ひとり"
-      ],
-      "syn": [
-        "v:人:ひと"
-      ],
-      "note": "Dùng sau số từ 3 trở lên: 三[さん]人[にん], 四人[よにん], 五[ご]人[にん]…"
-    },
-    {
-      "id": "v:枚:まい",
-      "kana": "まい",
-      "kanji": "枚",
-      "hv": "MAI",
-      "vi": "tờ, tấm, cái (đồ mỏng, phẳng)",
-      "pos": "ctr",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Trợ số từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "紙[かみ]を二枚[にまい]ください。",
-          "vi": "Cho tôi hai tờ giấy."
-        }
-      ],
-      "confuse": [
-        "v:本:ほん#2"
-      ],
-      "note": "Giấy, áo, đĩa, vé, khẩu trang…"
-    },
-    {
-      "id": "v:本:ほん#2",
-      "kana": "ほん",
-      "kanji": "本",
-      "hv": "BẢN",
-      "vi": "cây, chai, que (đồ dài)",
-      "pos": "ctr",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Trợ số từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ペンを一本[いっぽん]貸[か]してください。",
-          "vi": "Cho tôi mượn một cây bút."
-        }
-      ],
-      "confuse": [
-        "v:本:ほん",
-        "v:枚:まい"
-      ],
-      "note": "Biến âm: 一本[いっぽん], 三本[さんぼん], 六本[ろっぽん]. Dùng cho bút, chai, dao, cá nguyên con dài."
-    },
-    {
-      "id": "v:個:こ",
-      "kana": "こ",
-      "kanji": "個",
-      "hv": "CÁ",
-      "vi": "cái, quả (vật nhỏ, tròn)",
-      "pos": "ctr",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Trợ số từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "卵[たまご]を三個[さんこ]使[つか]います。",
-          "vi": "Dùng ba quả trứng."
-        }
-      ],
-      "confuse": [
-        "v:一つ:ひとつ"
-      ],
-      "note": "Biến âm: 一個[いっこ], 六個[ろっこ], 十個[じゅっこ]."
-    },
-    {
-      "id": "v:台:だい",
-      "kana": "だい",
-      "kanji": "台",
-      "hv": "ĐÀI",
-      "vi": "chiếc (máy móc, xe)",
-      "pos": "ctr",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Trợ số từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "車[くるま]が二台[にだい]あります。",
-          "vi": "Có hai chiếc ô tô."
-        }
-      ],
-      "confuse": [
-        "v:回:かい"
-      ]
-    },
-    {
-      "id": "v:回:かい",
-      "kana": "かい",
-      "kanji": "回",
-      "hv": "HỒI",
-      "vi": "lần",
-      "pos": "ctr",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Trợ số từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一日[いちにち]に三回[さんかい]手[て]を洗[あら]います。",
-          "vi": "Một ngày tôi rửa tay ba lần."
-        }
-      ],
-      "confuse": [
-        "v:階:かい"
-      ],
-      "note": "Cùng âm かい với 階[かい] (tầng) — nghe kỹ ngữ cảnh."
-    },
-    {
-      "id": "v:歳:さい",
-      "kana": "さい",
-      "kanji": "歳",
-      "hv": "TUẾ",
-      "vi": "tuổi",
-      "pos": "ctr",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Trợ số từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "私[わたし]は二十五歳[にじゅうごさい]です。",
-          "vi": "Tôi hai mươi lăm tuổi."
-        }
-      ],
-      "note": "20 tuổi đọc riêng là はたち."
-    },
-    {
-      "id": "v:階:かい",
-      "kana": "かい",
-      "kanji": "階",
-      "hv": "GIAI",
-      "vi": "tầng",
-      "pos": "ctr",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Trợ số từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "食堂[しょくどう]は三階[さんがい]です。",
-          "vi": "Nhà ăn ở tầng ba."
-        }
-      ],
-      "confuse": [
-        "v:回:かい"
-      ],
-      "note": "Biến âm: 三階[さんがい], 何階[なんがい]."
-    },
-    {
-      "id": "v:円:えん",
-      "kana": "えん",
-      "kanji": "円",
-      "hv": "VIÊN",
-      "vi": "yên (tiền Nhật)",
-      "pos": "ctr",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Trợ số từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "全部[ぜんぶ]で五百円[ごひゃくえん]です。",
-          "vi": "Tất cả là năm trăm yên."
-        }
-      ],
-      "note": "Chữ 円[えん] còn nghĩa là hình tròn."
-    },
-    {
-      "id": "v:番:ばん",
-      "kana": "ばん",
-      "kanji": "番",
-      "hv": "PHIÊN",
-      "vi": "số (thứ tự); lượt",
-      "pos": "ctr",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Trợ số từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "次[つぎ]はあなたの番[ばん]です。",
-          "vi": "Tiếp theo đến lượt bạn."
-        }
-      ],
-      "confuse": [
-        "v:番号:ばんごう"
-      ]
-    },
-    {
-      "id": "v:番号:ばんごう",
-      "kana": "ばんごう",
-      "kanji": "番号",
-      "hv": "PHIÊN HIỆU",
-      "vi": "số (điện thoại, phòng…)",
-      "pos": "n",
-      "level": "N5",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Trợ số từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "電話番号[でんわばんごう]を教[おし]えてください。",
-          "vi": "Hãy cho tôi biết số điện thoại."
-        }
-      ],
-      "confuse": [
-        "v:番:ばん"
-      ]
+     "jp": "スーパーで鶏肉[とりにく]を一[いち]キロ買[か]いました。",
+     "vi": "Tôi đã mua một ký thịt gà ở siêu thị.",
+     "ctx": "doisong"
     }
-  ]
+   ],
+   "confuse": [
+    "v:一つ:ひとつ",
+    "v:一人:ひとり"
+   ]
+  },
+  {
+   "id": "v:二:に",
+   "kana": "に",
+   "kanji": "二",
+   "hv": "NHỊ",
+   "vi": "hai (số 2)",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "二[に]階[かい]に行[い]きます。",
+     "vi": "Tôi lên tầng hai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "二時[にじ]に銀行[ぎんこう]へ行[い]きます。",
+     "vi": "Hai giờ tôi đi ngân hàng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:二つ:ふたつ",
+    "v:二人:ふたり"
+   ]
+  },
+  {
+   "id": "v:三:さん",
+   "kana": "さん",
+   "kanji": "三",
+   "hv": "TAM",
+   "vi": "ba (số 3)",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "三[さん]時[じ]に帰[かえ]ります。",
+     "vi": "Tôi về lúc ba giờ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]を三[さん]キロ持[も]ってきてください。",
+     "vi": "Hãy mang ba ký cá tới đây.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:三つ:みっつ"
+   ]
+  },
+  {
+   "id": "v:四:よん",
+   "kana": "よん",
+   "kanji": "四",
+   "hv": "TỨ",
+   "vi": "bốn (số 4)",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "四[よん]番[ばん]のラインです。",
+     "vi": "Là dây chuyền số bốn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "コピーを四枚[よんまい]お願[ねが]いします。",
+     "vi": "Cho tôi photo bốn bản.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:四つ:よっつ"
+   ],
+   "note": "Còn đọc し, よ (四時[よじ], 四月[しがつ])."
+  },
+  {
+   "id": "v:五:ご",
+   "kana": "ご",
+   "kanji": "五",
+   "hv": "NGŨ",
+   "vi": "năm (số 5)",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "五[ご]分[ふん]待[ま]ってください。",
+     "vi": "Hãy đợi năm phút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今[いま]、何時[なんじ]？ B：五時[ごじ]だよ。",
+     "vi": "A: Mấy giờ rồi? B: Năm giờ đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:五つ:いつつ"
+   ]
+  },
+  {
+   "id": "v:六:ろく",
+   "kana": "ろく",
+   "kanji": "六",
+   "hv": "LỤC",
+   "vi": "sáu (số 6)",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "朝[あさ]六[ろく]時[じ]に起[お]きます。",
+     "vi": "Tôi dậy lúc sáu giờ sáng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "六番[ろくばん]の窓口[まどぐち]へどうぞ。",
+     "vi": "Mời đến quầy số sáu.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:六つ:むっつ"
+   ]
+  },
+  {
+   "id": "v:七:なな",
+   "kana": "なな",
+   "kanji": "七",
+   "hv": "THẤT",
+   "vi": "bảy (số 7)",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "七[なな]番[ばん]の箱[はこ]をください。",
+     "vi": "Cho tôi cái hộp số bảy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：明日[あした]、何人[なんにん]来[き]ますか。 B：七人[ななにん]です。",
+     "vi": "A: Ngày mai mấy người đến? B: Bảy người.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:七つ:ななつ"
+   ],
+   "note": "Còn đọc しち (七時[しちじ])."
+  },
+  {
+   "id": "v:八:はち",
+   "kana": "はち",
+   "kanji": "八",
+   "hv": "BÁT",
+   "vi": "tám (số 8)",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "八[はち]時[じ]から仕事[しごと]です。",
+     "vi": "Tám giờ bắt đầu làm việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "八月[はちがつ]はとても暑[あつ]いです。",
+     "vi": "Tháng Tám rất nóng.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:八つ:やっつ"
+   ]
+  },
+  {
+   "id": "v:九:きゅう",
+   "kana": "きゅう",
+   "kanji": "九",
+   "hv": "CỬU",
+   "vi": "chín (số 9)",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "九[きゅう]番[ばん]の部屋[へや]です。",
+     "vi": "Là phòng số chín.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：何[なん]キロありますか。 B：九[きゅう]キロです。",
+     "vi": "A: Được mấy ký? B: Chín ký.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:九つ:ここのつ"
+   ],
+   "note": "Còn đọc く (九時[くじ], 九月[くがつ])."
+  },
+  {
+   "id": "v:十:じゅう",
+   "kana": "じゅう",
+   "kanji": "十",
+   "hv": "THẬP",
+   "vi": "mười (số 10)",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "十[じゅう]人[にん]います。",
+     "vi": "Có mười người.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "毎晩[まいばん]十時[じゅうじ]に寝[ね]ます。",
+     "vi": "Tối nào tôi cũng đi ngủ lúc mười giờ.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:十:とお"
+   ]
+  },
+  {
+   "id": "v:百:ひゃく",
+   "kana": "ひゃく",
+   "kanji": "百",
+   "hv": "BÁCH",
+   "vi": "một trăm",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このペンは百[ひゃく]円[えん]です。",
+     "vi": "Cây bút này giá một trăm yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "サーモンを百[ひゃく]グラム切[き]ってください。",
+     "vi": "Hãy cắt một trăm gam cá hồi.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:千:せん"
+   ],
+   "note": "Biến âm: 三百[さんびゃく], 六百[ろっぴゃく], 八百[はっぴゃく]."
+  },
+  {
+   "id": "v:千:せん",
+   "kana": "せん",
+   "kanji": "千",
+   "hv": "THIÊN",
+   "vi": "một nghìn",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "シャツは三千[さんぜん]円[えん]でした。",
+     "vi": "Cái áo sơ mi giá ba nghìn yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：五百円[ごひゃくえん]です。 B：じゃ、千円[せんえん]でお願[ねが]いします。",
+     "vi": "A: Năm trăm yên ạ. B: Vậy tôi gửi tờ một nghìn yên.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:百:ひゃく",
+    "v:万:まん"
+   ],
+   "note": "Biến âm: 三千[さんぜん], 八千[はっせん]."
+  },
+  {
+   "id": "v:万:まん",
+   "kana": "まん",
+   "kanji": "万",
+   "hv": "VẠN",
+   "vi": "mười nghìn (một vạn)",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "自転車[じてんしゃ]は二万[にまん]円[えん]です。",
+     "vi": "Xe đạp giá hai vạn yên (20.000 yên).",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ATMで一万円[いちまんえん]を出[だ]しました。",
+     "vi": "Tôi đã rút một vạn yên ở cây ATM.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:千:せん"
+   ],
+   "note": "Người Nhật đếm theo vạn: 10.000 = 一万[いちまん], 100.000 = 十万[じゅうまん]."
+  },
+  {
+   "id": "v:ゼロ:ゼロ",
+   "kana": "ゼロ",
+   "kanji": "",
+   "hv": "",
+   "vi": "số không",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今[いま]、外[そと]はゼロ度[ど]です。",
+     "vi": "Bây giờ ngoài trời 0 độ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：テスト、何[なん]点[てん]だった？ B：ゼロ点[てん]…。",
+     "vi": "A: Bài kiểm tra được mấy điểm? B: Không điểm…",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Đọc số điện thoại cũng hay nói ゼロ hoặc れい.",
+   "goc": "zero (tiếng Anh: số không)"
+  },
+  {
+   "id": "v:半分:はんぶん",
+   "kana": "はんぶん",
+   "kanji": "半分",
+   "hv": "BÁN PHÂN",
+   "vi": "một nửa (chia đôi)",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số đếm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "パンを半分[はんぶん]ください。",
+     "vi": "Cho tôi một nửa cái bánh mì.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この魚[さかな]を半分[はんぶん]に切[き]ってください。",
+     "vi": "Hãy cắt đôi con cá này.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:半:はん"
+   ]
+  },
+  {
+   "id": "v:一つ:ひとつ",
+   "kana": "ひとつ",
+   "kanji": "一つ",
+   "kf": "一[ひと]つ",
+   "hv": "NHẤT",
+   "vi": "một cái",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đếm đồ vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "りんごを一[ひと]つください。",
+     "vi": "Cho tôi một quả táo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "箱[はこ]をもう一[ひと]つ持[も]ってきてください。",
+     "vi": "Hãy mang thêm một cái thùng nữa.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:一:いち",
+    "v:一人:ひとり"
+   ],
+   "note": "Cách đếm chung cho đồ vật (〜つ), dùng được khi không biết trợ số từ riêng."
+  },
+  {
+   "id": "v:二つ:ふたつ",
+   "kana": "ふたつ",
+   "kanji": "二つ",
+   "kf": "二[ふた]つ",
+   "hv": "NHỊ",
+   "vi": "hai cái",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đếm đồ vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]が二[ふた]つあります。",
+     "vi": "Có hai cái hộp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "コンビニでパンを二[ふた]つ買[か]いました。",
+     "vi": "Tôi đã mua hai cái bánh mì ở cửa hàng tiện lợi.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:二:に",
+    "v:二人:ふたり"
+   ]
+  },
+  {
+   "id": "v:三つ:みっつ",
+   "kana": "みっつ",
+   "kanji": "三つ",
+   "kf": "三[みっ]つ",
+   "hv": "TAM",
+   "vi": "ba cái",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đếm đồ vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "卵[たまご]を三[みっ]つ買[か]いました。",
+     "vi": "Tôi đã mua ba quả trứng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "すみません、質問[しつもん]が三[みっ]つあります。",
+     "vi": "Xin lỗi, tôi có ba câu hỏi.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:三:さん"
+   ]
+  },
+  {
+   "id": "v:四つ:よっつ",
+   "kana": "よっつ",
+   "kanji": "四つ",
+   "kf": "四[よっ]つ",
+   "hv": "TỨ",
+   "vi": "bốn cái",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đếm đồ vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "椅子[いす]が四[よっ]つあります。",
+     "vi": "Có bốn cái ghế.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "まな板[いた]を四[よっ]つ洗[あら]ってください。",
+     "vi": "Hãy rửa bốn cái thớt.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:四:よん",
+    "v:八つ:やっつ"
+   ]
+  },
+  {
+   "id": "v:五つ:いつつ",
+   "kana": "いつつ",
+   "kanji": "五つ",
+   "kf": "五[いつ]つ",
+   "hv": "NGŨ",
+   "vi": "năm cái",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đếm đồ vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "コップを五[いつ]つ並[なら]べてください。",
+     "vi": "Hãy xếp năm cái cốc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：いくつですか。 B：五[いつ]つください。",
+     "vi": "A: Mấy cái ạ? B: Cho tôi năm cái.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:五:ご"
+   ]
+  },
+  {
+   "id": "v:六つ:むっつ",
+   "kana": "むっつ",
+   "kanji": "六つ",
+   "kf": "六[むっ]つ",
+   "hv": "LỤC",
+   "vi": "sáu cái",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đếm đồ vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子供[こども]は六[むっ]つです。",
+     "vi": "Đứa bé sáu tuổi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "トレーを六[むっ]つ使[つか]います。",
+     "vi": "Dùng sáu cái khay.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:六:ろく"
+   ],
+   "note": "〜つ cũng dùng để nói tuổi của trẻ nhỏ."
+  },
+  {
+   "id": "v:七つ:ななつ",
+   "kana": "ななつ",
+   "kanji": "七つ",
+   "kf": "七[なな]つ",
+   "hv": "THẤT",
+   "vi": "bảy cái",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đếm đồ vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "虹[にじ]には七[なな]つの色[いろ]があります。",
+     "vi": "Cầu vồng có bảy màu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷蔵庫[れいぞうこ]に卵[たまご]が七[なな]つあります。",
+     "vi": "Trong tủ lạnh có bảy quả trứng.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:七:なな"
+   ]
+  },
+  {
+   "id": "v:八つ:やっつ",
+   "kana": "やっつ",
+   "kanji": "八つ",
+   "kf": "八[やっ]つ",
+   "hv": "BÁT",
+   "vi": "tám cái",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đếm đồ vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "おにぎりを八[やっ]つ作[つく]りました。",
+     "vi": "Tôi đã làm tám nắm cơm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：袋[ふくろ]はいくつありますか。 B：八[やっ]つあります。",
+     "vi": "A: Có mấy cái túi? B: Có tám cái.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:八:はち",
+    "v:四つ:よっつ"
+   ]
+  },
+  {
+   "id": "v:九つ:ここのつ",
+   "kana": "ここのつ",
+   "kanji": "九つ",
+   "kf": "九[ここの]つ",
+   "hv": "CỬU",
+   "vi": "chín cái",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đếm đồ vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "みかんが九[ここの]つあります。",
+     "vi": "Có chín quả quýt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この箱[はこ]にはパックが九[ここの]つ入[はい]っています。",
+     "vi": "Trong thùng này có chín hộp.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:九:きゅう"
+   ]
+  },
+  {
+   "id": "v:十:とお",
+   "kana": "とお",
+   "kanji": "十",
+   "hv": "THẬP",
+   "vi": "mười cái",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đếm đồ vật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "皿[さら]を十[とお]ください。",
+     "vi": "Cho tôi mười cái đĩa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "隣[となり]の人[ひと]にみかんを十[とお]もろたで。",
+     "vi": "Tôi được người hàng xóm cho mười quả quýt đấy.",
+     "ctx": "kansai"
+    }
+   ],
+   "confuse": [
+    "v:十:じゅう"
+   ],
+   "note": "Đếm đồ vật: 一[ひと]つ…九[ここの]つ, cái thứ mười đọc là とお (không có つ)."
+  },
+  {
+   "id": "v:いくつ:いくつ",
+   "kana": "いくつ",
+   "kanji": "",
+   "hv": "",
+   "vi": "mấy cái; mấy tuổi",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hỏi số lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "りんごはいくつありますか。",
+     "vi": "Có mấy quả táo?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "箱[はこ]はいくつ要[い]りますか。",
+     "vi": "Cần mấy cái thùng?",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:いくら:いくら"
+   ],
+   "note": "Hỏi tuổi lịch sự: おいくつですか."
+  },
+  {
+   "id": "v:いくら:いくら",
+   "kana": "いくら",
+   "kanji": "",
+   "hv": "",
+   "vi": "bao nhiêu tiền",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hỏi số lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このお弁当[べんとう]はいくらですか。",
+     "vi": "Hộp cơm này bao nhiêu tiền?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この部屋[へや]は一[いっ]か月[げつ]いくらですか。",
+     "vi": "Phòng này một tháng bao nhiêu tiền?",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:いくつ:いくつ"
+   ],
+   "note": "Kansai hay nói なんぼ."
+  },
+  {
+   "id": "v:一人:ひとり",
+   "kana": "ひとり",
+   "kanji": "一人",
+   "hv": "NHẤT NHÂN",
+   "vi": "một người; một mình",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đếm người",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一人[ひとり]で住[す]んでいます。",
+     "vi": "Tôi sống một mình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一人[ひとり]で市役所[しやくしょ]へ行[い]きました。",
+     "vi": "Tôi đã đi tòa thị chính một mình.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:二人:ふたり",
+    "v:人:にん"
+   ],
+   "note": "Chỉ 1 người và 2 người đọc kiểu riêng (ひとり, ふたり); từ 3 người: 〜にん."
+  },
+  {
+   "id": "v:二人:ふたり",
+   "kana": "ふたり",
+   "kanji": "二人",
+   "hv": "NHỊ NHÂN",
+   "vi": "hai người",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đếm người",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "二人[ふたり]で行[い]きましょう。",
+     "vi": "Hai chúng ta cùng đi nhé.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この箱[はこ]は重[おも]いですから、二人[ふたり]で持[も]ってください。",
+     "vi": "Thùng này nặng nên hãy hai người cùng khiêng.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:一人:ひとり",
+    "v:二:に"
+   ]
+  },
+  {
+   "id": "v:人:にん",
+   "kana": "にん",
+   "kanji": "人",
+   "hv": "NHÂN",
+   "vi": "người (trợ số từ đếm người)",
+   "pos": "ctr",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trợ số từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このラインは五人[ごにん]です。",
+     "vi": "Dây chuyền này có năm người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "私[わたし]の家族[かぞく]は四人[よにん]です。",
+     "vi": "Gia đình tôi có bốn người.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:一人:ひとり"
+   ],
+   "syn": [
+    "v:人:ひと"
+   ],
+   "note": "Dùng sau số từ 3 trở lên: 三[さん]人[にん], 四人[よにん], 五[ご]人[にん]…"
+  },
+  {
+   "id": "v:枚:まい",
+   "kana": "まい",
+   "kanji": "枚",
+   "hv": "MAI",
+   "vi": "tờ, tấm, cái (đồ mỏng, phẳng)",
+   "pos": "ctr",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trợ số từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "紙[かみ]を二枚[にまい]ください。",
+     "vi": "Cho tôi hai tờ giấy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しいマスクを一枚[いちまい]ください。",
+     "vi": "Cho tôi một cái khẩu trang mới.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:本:ほん#2"
+   ],
+   "note": "Giấy, áo, đĩa, vé, khẩu trang…"
+  },
+  {
+   "id": "v:本:ほん#2",
+   "kana": "ほん",
+   "kanji": "本",
+   "hv": "BẢN",
+   "vi": "cây, chai, que (đồ dài)",
+   "pos": "ctr",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trợ số từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ペンを一本[いっぽん]貸[か]してください。",
+     "vi": "Cho tôi mượn một cây bút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "包丁[ほうちょう]を二本[にほん]洗[あら]いました。",
+     "vi": "Tôi đã rửa hai con dao.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:本:ほん",
+    "v:枚:まい"
+   ],
+   "note": "Biến âm: 一本[いっぽん], 三本[さんぼん], 六本[ろっぽん]. Dùng cho bút, chai, dao, cá nguyên con dài."
+  },
+  {
+   "id": "v:個:こ",
+   "kana": "こ",
+   "kanji": "個",
+   "hv": "CÁ",
+   "vi": "cái, quả (vật nhỏ, tròn)",
+   "pos": "ctr",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trợ số từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "卵[たまご]を三個[さんこ]使[つか]います。",
+     "vi": "Dùng ba quả trứng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：これ、一個[いっこ]いくら？ B：百円[ひゃくえん]です。",
+     "vi": "A: Cái này bao nhiêu một cái? B: Một trăm yên.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:一つ:ひとつ"
+   ],
+   "note": "Biến âm: 一個[いっこ], 六個[ろっこ], 十個[じゅっこ]."
+  },
+  {
+   "id": "v:台:だい",
+   "kana": "だい",
+   "kanji": "台",
+   "hv": "ĐÀI",
+   "vi": "chiếc (máy móc, xe)",
+   "pos": "ctr",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trợ số từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "車[くるま]が二台[にだい]あります。",
+     "vi": "Có hai chiếc ô tô.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]に機械[きかい]が五台[ごだい]あります。",
+     "vi": "Trong xưởng có năm cái máy.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:回:かい"
+   ]
+  },
+  {
+   "id": "v:回:かい",
+   "kana": "かい",
+   "kanji": "回",
+   "hv": "HỒI",
+   "vi": "lần",
+   "pos": "ctr",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trợ số từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一日[いちにち]に三回[さんかい]手[て]を洗[あら]います。",
+     "vi": "Một ngày tôi rửa tay ba lần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "すみません、もう一回[いっかい]言[い]ってください。",
+     "vi": "Xin lỗi, xin nói lại một lần nữa.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:階:かい"
+   ],
+   "note": "Cùng âm かい với 階[かい] (tầng) — nghe kỹ ngữ cảnh."
+  },
+  {
+   "id": "v:歳:さい",
+   "kana": "さい",
+   "kanji": "歳",
+   "hv": "TUẾ",
+   "vi": "tuổi",
+   "pos": "ctr",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trợ số từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]は二十五歳[にじゅうごさい]です。",
+     "vi": "Tôi hai mươi lăm tuổi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この工場[こうじょう]で一番[いちばん]若[わか]い人[ひと]は十九歳[じゅうきゅうさい]です。",
+     "vi": "Người trẻ nhất ở xưởng này mười chín tuổi.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "20 tuổi đọc riêng là はたち."
+  },
+  {
+   "id": "v:階:かい",
+   "kana": "かい",
+   "kanji": "階",
+   "hv": "GIAI",
+   "vi": "tầng",
+   "pos": "ctr",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trợ số từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "食堂[しょくどう]は三階[さんがい]です。",
+     "vi": "Nhà ăn ở tầng ba.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "私[わたし]の部屋[へや]は五階[ごかい]です。",
+     "vi": "Phòng tôi ở tầng năm.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:回:かい"
+   ],
+   "note": "Biến âm: 三階[さんがい], 何階[なんがい]."
+  },
+  {
+   "id": "v:円:えん",
+   "kana": "えん",
+   "kanji": "円",
+   "hv": "VIÊN",
+   "vi": "yên (tiền Nhật)",
+   "pos": "ctr",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trợ số từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "全部[ぜんぶ]で五百円[ごひゃくえん]です。",
+     "vi": "Tất cả là năm trăm yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "これ、百円[ひゃくえん]やで。安[やす]いなあ。",
+     "vi": "Cái này một trăm yên đấy. Rẻ nhỉ.",
+     "ctx": "kansai"
+    }
+   ],
+   "note": "Chữ 円[えん] còn nghĩa là hình tròn."
+  },
+  {
+   "id": "v:番:ばん",
+   "kana": "ばん",
+   "kanji": "番",
+   "hv": "PHIÊN",
+   "vi": "số (thứ tự); lượt",
+   "pos": "ctr",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trợ số từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "次[つぎ]はあなたの番[ばん]です。",
+     "vi": "Tiếp theo đến lượt bạn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "三番[さんばん]のラインへ行[い]ってください。",
+     "vi": "Hãy đến dây chuyền số ba.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:番号:ばんごう"
+   ]
+  },
+  {
+   "id": "v:番号:ばんごう",
+   "kana": "ばんごう",
+   "kanji": "番号",
+   "hv": "PHIÊN HIỆU",
+   "vi": "số (điện thoại, phòng…)",
+   "pos": "n",
+   "level": "N5",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trợ số từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "電話番号[でんわばんごう]を教[おし]えてください。",
+     "vi": "Hãy cho tôi biết số điện thoại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ここに在留[ざいりゅう]カードの番号[ばんごう]を書[か]いてください。",
+     "vi": "Hãy viết số thẻ cư trú vào đây.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:番:ばん"
+   ]
+  }
+ ]
 }

@@ -1,1539 +1,1654 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "xuong-05",
-    "title": "Công xưởng 05 – Động từ, tính từ & từ tượng thanh khi làm việc",
-    "type": "vocab",
-    "level": "N2",
-    "topics": [
-      "xuong"
-    ],
-    "version": 2,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Từ hay nghe và dùng ở xưởng chế biến thủy sản. Cấp chỉ là ước lượng."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "xuong-05",
+  "title": "Công xưởng 05 – Động từ, tính từ & từ tượng thanh khi làm việc",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "xuong"
+  ],
+  "version": 3,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Từ hay nghe và dùng ở xưởng chế biến thủy sản. Cấp chỉ là ước lượng."
+ },
+ "items": [
+  {
+   "id": "v:すすぐ:すすぐ",
+   "kana": "すすぐ",
+   "kanji": "",
+   "hv": "",
+   "vi": "tráng lại bằng nước sạch; súc (miệng)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:すすぐ:すすぐ",
-      "kana": "すすぐ",
-      "kanji": "",
-      "hv": "",
-      "vi": "tráng lại bằng nước sạch; súc (miệng)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "洗剤[せんざい]で洗[あら]ったら、水[みず]でよくすすいでください。",
-          "vi": "Rửa bằng nước rửa xong thì tráng kỹ bằng nước.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "トレーは、二回[にかい]すすぎます。",
-          "vi": "Khay thì tráng hai lần.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "寝[ね]る前[まえ]に、口[くち]をすすぐ。",
-          "vi": "Súc miệng trước khi ngủ.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "水[みず]ですすぐ",
-          "vi": "tráng bằng nước"
-        }
-      ],
-      "note": "Chữ Hán: 濯[すす]ぐ / 漱[すす]ぐ (thường viết kana)."
+     "jp": "洗剤[せんざい]で洗[あら]ったら、水[みず]でよくすすいでください。",
+     "vi": "Rửa bằng nước rửa xong thì tráng kỹ bằng nước.",
+     "ctx": "xuong"
     },
     {
-      "id": "v:引っかける:ひっかける",
-      "kana": "ひっかける",
-      "kanji": "引っかける",
-      "kf": "引[ひ]っかける",
-      "hv": "DẪN",
-      "vi": "móc vào; làm vướng",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "前掛[まえか]けを、フックに引[ひ]っかけておきます。",
-          "vi": "Móc sẵn tạp dề lên móc.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "服[ふく]を、機械[きかい]に引[ひ]っかけないように注意[ちゅうい]してください。",
-          "vi": "Cẩn thận đừng để áo vướng vào máy.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "フックに引[ひ]っかける",
-          "vi": "móc lên móc"
-        }
-      ],
-      "pair": {
-        "w": "引[ひ]っかかる",
-        "vi": "bị mắc, bị vướng"
-      }
+     "jp": "トレーは、二回[にかい]すすぎます。",
+     "vi": "Khay thì tráng hai lần.",
+     "ctx": "xuong"
     },
     {
-      "id": "v:引きずる:ひきずる",
-      "kana": "ひきずる",
-      "kanji": "引きずる",
-      "kf": "引[ひ]きずる",
-      "hv": "DẪN",
-      "vi": "kéo lê",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "重[おも]い箱[はこ]を、床[ゆか]で引[ひ]きずらないでください。",
-          "vi": "Đừng kéo lê thùng nặng trên sàn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "ホースを引[ひ]きずって、移動[いどう]します。",
-          "vi": "Kéo lê ống nước để di chuyển.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "箱[はこ]を引[ひ]きずる",
-          "vi": "kéo lê thùng"
-        }
-      ]
-    },
-    {
-      "id": "v:持ち運ぶ:もちはこぶ",
-      "kana": "もちはこぶ",
-      "kanji": "持ち運ぶ",
-      "kf": "持[も]ち運[はこ]ぶ",
-      "hv": "TRÌ VẬN",
-      "vi": "cầm theo, xách đi (đồ gọn nhẹ)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この秤[はかり]は軽[かる]いので、持[も]ち運[はこ]べます。",
-          "vi": "Cái cân này nhẹ nên mang đi được.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "包丁[ほうちょう]を持[も]ち運[はこ]ぶ時[とき]は、ケースに入[い]れてください。",
-          "vi": "Khi mang dao đi hãy cho vào hộp.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "道具[どうぐ]を持[も]ち運[はこ]ぶ",
-          "vi": "mang dụng cụ đi"
-        }
-      ]
-    },
-    {
-      "id": "v:積み重ねる:つみかさねる",
-      "kana": "つみかさねる",
-      "kanji": "積み重ねる",
-      "kf": "積[つ]み重[かさ]ねる",
-      "hv": "TÍCH TRÙNG",
-      "vi": "chồng chất lên",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "トレーは、五枚[ごまい]まで積[つ]み重[かさ]ねてください。",
-          "vi": "Khay chỉ chồng tối đa năm cái.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "箱[はこ]を高[たか]く積[つ]み重[かさ]ねると、崩[くず]れます。",
-          "vi": "Chồng thùng cao quá sẽ đổ.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "箱[はこ]を積[つ]み重[かさ]ねる",
-          "vi": "chồng thùng lên"
-        }
-      ]
-    },
-    {
-      "id": "v:崩れる:くずれる",
-      "kana": "くずれる",
-      "kanji": "崩れる",
-      "kf": "崩[くず]れる",
-      "hv": "BĂNG",
-      "vi": "đổ sập (chồng hàng); bị nát (hình dạng)",
-      "pos": "v1",
-      "level": "N3",
-      "vt": "tu",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "積[つ]んだ箱[はこ]が、崩[くず]れました。",
-          "vi": "Chồng thùng đã đổ sập.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "身[み]が崩[くず]れないように、そっと置[お]いてください。",
-          "vi": "Đặt nhẹ để thịt cá không bị nát.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "午後[ごご]から、天気[てんき]が崩[くず]れるそうです。",
-          "vi": "Nghe nói từ chiều trời sẽ xấu đi.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "箱[はこ]が崩[くず]れる",
-          "vi": "thùng đổ sập"
-        }
-      ],
-      "pair": "v:崩す:くずす"
-    },
-    {
-      "id": "v:崩す:くずす",
-      "kana": "くずす",
-      "kanji": "崩す",
-      "kf": "崩[くず]す",
-      "hv": "BĂNG",
-      "vi": "làm sập (chồng hàng); đổi ra tiền lẻ",
-      "pos": "v5",
-      "level": "N3",
-      "vt": "tha",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "箱[はこ]の山[やま]を崩[くず]さないように、下[した]から取[と]らないで。",
-          "vi": "Đừng rút từ dưới kẻo làm đổ chồng thùng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "一万円[いちまんえん]札[さつ]を、崩[くず]してもらえますか。",
-          "vi": "Đổi giúp tờ 10.000 yên ra tiền lẻ được không?",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "山[やま]を崩[くず]す",
-          "vi": "làm đổ đống"
-        }
-      ],
-      "pair": "v:崩れる:くずれる"
-    },
-    {
-      "id": "v:縛る:しばる",
-      "kana": "しばる",
-      "kanji": "縛る",
-      "kf": "縛[しば]る",
-      "hv": "PHƯỢC",
-      "vi": "buộc chặt",
-      "pos": "v5",
-      "level": "N3",
-      "vt": "tha",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "袋[ふくろ]の口[くち]を、しっかり縛[しば]ってください。",
-          "vi": "Buộc chặt miệng túi lại.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "段[だん]ボールを、ひもで縛[しば]って捨[す]てます。",
-          "vi": "Buộc thùng các-tông bằng dây rồi đem bỏ.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "袋[ふくろ]の口[くち]を縛[しば]る",
-          "vi": "buộc miệng túi"
-        }
-      ],
-      "ant": [
-        "v:ほどく:ほどく"
-      ]
-    },
-    {
-      "id": "v:ほどく:ほどく",
-      "kana": "ほどく",
-      "kanji": "",
-      "hv": "",
-      "vi": "tháo (nút, dây buộc)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "結[むす]び目[め]を、ほどいてください。",
-          "vi": "Tháo nút buộc ra.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "箱[はこ]のひもをほどいて、中[なか]を確認[かくにん]します。",
-          "vi": "Tháo dây thùng ra kiểm tra bên trong.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "ひもをほどく",
-          "vi": "tháo dây"
-        }
-      ],
-      "ant": [
-        "v:縛る:しばる"
-      ],
-      "pair": {
-        "w": "ほどける",
-        "vi": "(nút) tuột ra"
-      },
-      "note": "Chữ Hán: 解[ほど]く (thường viết kana)."
-    },
-    {
-      "id": "v:剥がす:はがす",
-      "kana": "はがす",
-      "kanji": "剥がす",
-      "kf": "剥[は]がす",
-      "hv": "BÁC",
-      "vi": "bóc ra, gỡ ra",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "古[ふる]いシールを、剥[は]がしてください。",
-          "vi": "Bóc tem cũ ra.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "段[だん]ボールのテープを剥[は]がして、畳[たた]みます。",
-          "vi": "Bóc băng dính thùng rồi gấp lại.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "シールを剥[は]がす",
-          "vi": "bóc tem"
-        }
-      ],
-      "pair": "v:剥がれる:はがれる",
-      "note": "Thường viết kana: はがす."
-    },
-    {
-      "id": "v:剥がれる:はがれる",
-      "kana": "はがれる",
-      "kanji": "剥がれる",
-      "kf": "剥[は]がれる",
-      "hv": "BÁC",
-      "vi": "bị bong, bị tróc",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ラベルが、水[みず]で剥[は]がれてしまいました。",
-          "vi": "Nhãn bị bong vì dính nước.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "壁[かべ]のペンキが、剥[は]がれています。",
-          "vi": "Sơn tường bị tróc.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "シールが剥[は]がれる",
-          "vi": "tem bị bong"
-        }
-      ],
-      "pair": "v:剥がす:はがす"
-    },
-    {
-      "id": "v:貼る:はる",
-      "kana": "はる",
-      "kanji": "貼る",
-      "kf": "貼[は]る",
-      "hv": "THIẾP",
-      "vi": "dán",
-      "pos": "v5",
-      "level": "N3",
-      "vt": "tha",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "箱[はこ]に、ラベルを貼[は]ってください。",
-          "vi": "Dán nhãn lên thùng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "掲示板[けいじばん]に、お知[し]らせを貼[は]ります。",
-          "vi": "Dán thông báo lên bảng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "封筒[ふうとう]に、切手[きって]を貼[は]る。",
-          "vi": "Dán tem lên phong bì.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "ラベルを貼[は]る",
-          "vi": "dán nhãn"
-        }
-      ],
-      "note": "Đừng nhầm với 張[は]る (căng ra)."
-    },
-    {
-      "id": "v:溢れる:あふれる",
-      "kana": "あふれる",
-      "kanji": "溢れる",
-      "kf": "溢[あふ]れる",
-      "hv": "DẬT",
-      "vi": "tràn khỏi miệng (vì quá đầy)",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "バケツの水[みず]が、溢[あふ]れています。",
-          "vi": "Nước trong xô tràn ra.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "排水[はいすい]溝[こう]が詰[つ]まって、水[みず]が溢[あふ]れた。",
-          "vi": "Cống bị tắc nên nước tràn ra.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "水[みず]が溢[あふ]れる",
-          "vi": "nước tràn ra"
-        }
-      ],
-      "note": "Thường viết kana: あふれる."
-    },
-    {
-      "id": "v:垂れる:たれる",
-      "kana": "たれる",
-      "kanji": "垂れる",
-      "kf": "垂[た]れる",
-      "hv": "THÙY",
-      "vi": "rỏ xuống, nhỏ giọt",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "魚[さかな]から、水[みず]が垂[た]れています。",
-          "vi": "Nước rỏ xuống từ cá.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "汗[あせ]が垂[た]れないように、タオルを巻[ま]きます。",
-          "vi": "Quấn khăn để mồ hôi không nhỏ xuống.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "水[みず]が垂[た]れる",
-          "vi": "nước rỏ xuống"
-        }
-      ]
-    },
-    {
-      "id": "v:飛び散る:とびちる",
-      "kana": "とびちる",
-      "kanji": "飛び散る",
-      "kf": "飛[と]び散[ち]る",
-      "hv": "PHI TÁN",
-      "vi": "bắn tung tóe",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "血[ち]が飛[と]び散[ち]らないように、ゆっくり切[き]ってください。",
-          "vi": "Cắt chậm để máu không bắn tung tóe.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "鉄砲[てっぽう]の水[みず]が、周[まわ]りに飛[と]び散[ち]った。",
-          "vi": "Nước súng xịt bắn tung tóe ra xung quanh.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "水[みず]が飛[と]び散[ち]る",
-          "vi": "nước bắn tung tóe"
-        }
-      ]
-    },
-    {
-      "id": "v:跳ねる:はねる",
-      "kana": "はねる",
-      "kanji": "跳ねる",
-      "kf": "跳[は]ねる",
-      "hv": "KHIÊU",
-      "vi": "(nước, cá) bắn lên, nảy lên",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "水[みず]が跳[は]ねて、服[ふく]が濡[ぬ]れました。",
-          "vi": "Nước bắn lên làm ướt áo.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "生[い]きている魚[さかな]が、跳[は]ねています。",
-          "vi": "Cá còn sống đang nhảy.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "水[みず]が跳[は]ねる",
-          "vi": "nước bắn lên"
-        }
-      ],
-      "note": "Đừng nhầm với 撥[は]ねる (loại hàng lỗi ra)."
-    },
-    {
-      "id": "v:冷え込む:ひえこむ",
-      "kana": "ひえこむ",
-      "kanji": "冷え込む",
-      "kf": "冷[ひ]え込[こ]む",
-      "hv": "LÃNH NHẬP",
-      "vi": "trở lạnh buốt",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今朝[けさ]は、ずいぶん冷[ひ]え込[こ]みましたね。",
-          "vi": "Sáng nay trời lạnh buốt nhỉ.",
-          "ctx": "hoithoai"
-        },
-        {
-          "jp": "冷凍庫[れいとうこ]の前[まえ]は、特[とく]に冷[ひ]え込[こ]みます。",
-          "vi": "Trước kho đông đặc biệt lạnh buốt.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "朝[あさ]が冷[ひ]え込[こ]む",
-          "vi": "buổi sáng lạnh buốt"
-        }
-      ],
-      "flag": true,
-      "note": "Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
-    },
-    {
-      "id": "v:かじかむ:かじかむ",
-      "kana": "かじかむ",
-      "kanji": "",
-      "hv": "",
-      "vi": "(tay chân) tê cóng",
-      "pos": "v5",
-      "level": "N1",
-      "vt": "tu",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "手[て]がかじかんで、包丁[ほうちょう]がうまく持[も]てない。",
-          "vi": "Tay tê cóng, cầm dao không vững.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "冷[つめ]たい水[みず]で、指[ゆび]がかじかみました。",
-          "vi": "Nước lạnh làm ngón tay tê cóng.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "手[て]がかじかむ",
-          "vi": "tay tê cóng"
-        }
-      ]
-    },
-    {
-      "id": "v:凍える:こごえる",
-      "kana": "こごえる",
-      "kanji": "凍える",
-      "kf": "凍[こご]える",
-      "hv": "ĐÔNG",
-      "vi": "rét cóng người",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "冷凍庫[れいとうこ]の中[なか]で、凍[こご]えそうでした。",
-          "vi": "Ở trong kho đông tưởng cóng cả người.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "凍[こご]えないように、防寒着[ぼうかんぎ]を着[き]てください。",
-          "vi": "Mặc áo chống rét để không bị cóng.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "寒[さむ]さで凍[こご]える",
-          "vi": "cóng người vì lạnh"
-        }
-      ],
-      "confuse": [
-        "v:凍る:こおる"
-      ],
-      "note": "凍[こご]える = người bị lạnh cóng; 凍[こお]る = (nước, cá) đóng băng."
-    },
-    {
-      "id": "v:つまずく:つまずく",
-      "kana": "つまずく",
-      "kanji": "",
-      "hv": "",
-      "vi": "vấp",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ホースにつまずいて、転[ころ]びそうになった。",
-          "vi": "Vấp ống nước suýt ngã.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "段差[だんさ]でつまずかないように、足元[あしもと]を見[み]てください。",
-          "vi": "Nhìn dưới chân để không vấp ở chỗ bậc.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "ホースにつまずく",
-          "vi": "vấp ống nước"
-        }
-      ],
-      "note": "Chữ Hán: 躓[つまず]く (thường viết kana)."
-    },
-    {
-      "id": "v:傷む:いたむ",
-      "kana": "いたむ",
-      "kanji": "傷む",
-      "kf": "傷[いた]む",
-      "hv": "THƯƠNG",
-      "vi": "(cá, rau) bị hỏng, ươn; (đồ) bị hư",
-      "pos": "v5",
-      "level": "N3",
-      "vt": "tu",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "魚[さかな]は、温度[おんど]が高[たか]いとすぐ傷[いた]みます。",
-          "vi": "Cá để nhiệt độ cao là hỏng ngay.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "傷[いた]んだ魚[さかな]は、使[つか]わないでください。",
-          "vi": "Đừng dùng cá đã hỏng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "古[ふる]い家[いえ]は、屋根[やね]が傷[いた]んでいる。",
-          "vi": "Nhà cũ mái đã hư.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "魚[さかな]が傷[いた]む",
-          "vi": "cá bị ươn"
-        }
-      ],
-      "confuse": [
-        "v:腐る:くさる"
-      ],
-      "note": "Cùng âm: 痛[いた]む = đau. 傷[いた]む nhẹ hơn 腐[くさ]る (thối hẳn)."
-    },
-    {
-      "id": "v:補充:ほじゅう",
-      "kana": "ほじゅう",
-      "kanji": "補充",
-      "hv": "BỔ SUNG",
-      "vi": "bổ sung (cho đủ lại)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "手袋[てぶくろ]がなくなったら、補充[ほじゅう]してください。",
-          "vi": "Hết găng tay thì bổ sung.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "氷[こおり]の補充[ほじゅう]を、お願[ねが]いします。",
-          "vi": "Nhờ bổ sung đá.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "手袋[てぶくろ]を補充[ほじゅう]する",
-          "vi": "bổ sung găng tay"
-        }
-      ]
-    },
-    {
-      "id": "v:空ける:あける",
-      "kana": "あける",
-      "kanji": "空ける",
-      "kf": "空[あ]ける",
-      "hv": "KHÔNG",
-      "vi": "làm trống, dọn trống",
-      "pos": "v1",
-      "level": "N3",
-      "vt": "tha",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Động từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "このかごを、空[あ]けてください。",
-          "vi": "Đổ trống cái rổ này đi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "通路[つうろ]は、いつも空[あ]けておいてください。",
-          "vi": "Lối đi lúc nào cũng để trống.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "一行[いっこう]空[あ]けて書[か]きます。",
-          "vi": "Viết cách một dòng.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "かごを空[あ]ける",
-          "vi": "đổ trống rổ"
-        }
-      ],
-      "confuse": [
-        "v:開ける:あける"
-      ],
-      "pair": "v:空く:あく"
-    },
-    {
-      "id": "v:薄い:うすい",
-      "kana": "うすい",
-      "kanji": "薄い",
-      "kf": "薄[うす]い",
-      "hv": "BẠC",
-      "vi": "mỏng; nhạt (màu, vị)",
-      "pos": "adj-i",
-      "level": "N5",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tính từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "魚[さかな]を、薄[うす]く切[き]ってください。",
-          "vi": "Hãy cắt cá mỏng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "この袋[ふくろ]は薄[うす]いので、破[やぶ]れやすいです。",
-          "vi": "Túi này mỏng nên dễ rách.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "このスープは、味[あじ]が薄[うす]い。",
-          "vi": "Món súp này vị nhạt.",
-          "ctx": "doisong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "袋[ふくろ]",
-          "vi": "túi"
-        },
-        {
-          "jp": "味[あじ]",
-          "vi": "vị"
-        }
-      ],
-      "ant": [
-        "v:厚い:あつい",
-        "v:濃い:こい"
-      ],
-      "rel": [
-        {
-          "w": "薄[うす]さ",
-          "vi": "độ mỏng"
-        }
-      ]
-    },
-    {
-      "id": "v:厚い:あつい",
-      "kana": "あつい",
-      "kanji": "厚い",
-      "kf": "厚[あつ]い",
-      "hv": "HẬU",
-      "vi": "dày",
-      "pos": "adj-i",
-      "level": "N5",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tính từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "刺身[さしみ]は、もう少[すこ]し厚[あつ]く切[き]って。",
-          "vi": "Sashimi cắt dày hơn chút.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "厚[あつ]い手袋[てぶくろ]をして、冷凍庫[れいとうこ]に入[はい]ります。",
-          "vi": "Đeo găng dày rồi vào kho đông.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "厚[あつ]い本[ほん]を、一日[いちにち]で読[よ]みました。",
-          "vi": "Đọc quyển sách dày trong một ngày.",
-          "ctx": "doisong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "本[ほん]",
-          "vi": "sách"
-        },
-        {
-          "jp": "手袋[てぶくろ]",
-          "vi": "găng tay"
-        }
-      ],
-      "ant": [
-        "v:薄い:うすい"
-      ],
-      "confuse": [
-        "v:暑い:あつい",
-        "v:熱い:あつい"
-      ],
-      "rel": [
-        {
-          "w": "厚[あつ]さ",
-          "vi": "độ dày"
-        }
-      ]
-    },
-    {
-      "id": "v:重たい:おもたい",
-      "kana": "おもたい",
-      "kanji": "重たい",
-      "kf": "重[おも]たい",
-      "hv": "TRỌNG",
-      "vi": "nặng trịch",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tính từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この箱[はこ]、重[おも]たいね。",
-          "vi": "Thùng này nặng trịch nhỉ.",
-          "ctx": "hoithoai"
-        },
-        {
-          "jp": "重[おも]たい物[もの]は、二人[ふたり]で持[も]ってください。",
-          "vi": "Đồ nặng thì hai người khiêng.",
-          "ctx": "xuong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "箱[はこ]",
-          "vi": "thùng"
-        }
-      ],
-      "syn": [
-        "v:重い:おもい"
-      ],
-      "note": "Khẩu ngữ, nhấn cảm giác nặng hơn 重[おも]い."
-    },
-    {
-      "id": "v:粗い:あらい",
-      "kana": "あらい",
-      "kanji": "粗い",
-      "kf": "粗[あら]い",
-      "hv": "THÔ",
-      "vi": "thô, hạt to (không mịn)",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tính từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この網[あみ]は、目[め]が粗[あら]いです。",
-          "vi": "Lưới này mắt to.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "砥石[といし]は、粗[あら]いのから使[つか]います。",
-          "vi": "Đá mài dùng loại hạt thô trước.",
-          "ctx": "xuong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "網[あみ]の目[め]",
-          "vi": "mắt lưới"
-        }
-      ],
-      "ant": [
-        "v:細かい:こまかい"
-      ],
-      "note": "Cùng âm: 荒[あら]い = thô bạo, dữ dội (sóng, cách làm việc)."
-    },
-    {
-      "id": "v:滑りやすい:すべりやすい",
-      "kana": "すべりやすい",
-      "kanji": "滑りやすい",
-      "kf": "滑[すべ]りやすい",
-      "hv": "HOẠT",
-      "vi": "dễ trơn",
-      "pos": "adj-i",
-      "level": "N3",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tính từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "床[ゆか]が濡[ぬ]れて、滑[すべ]りやすいです。",
-          "vi": "Sàn ướt nên dễ trơn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "滑[すべ]りやすいので、走[はし]らないでください。",
-          "vi": "Dễ trơn nên đừng chạy.",
-          "ctx": "xuong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "床[ゆか]",
-          "vi": "sàn"
-        }
-      ],
-      "rel": [
-        "v:滑る:すべる"
-      ]
-    },
-    {
-      "id": "v:頑丈:がんじょう",
-      "kana": "がんじょう",
-      "kanji": "頑丈",
-      "hv": "NGOAN TRƯỢNG",
-      "vi": "bền chắc, chắc khỏe (đồ vật, thân thể)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tính từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この台車[だいしゃ]は、とても頑丈[がんじょう]です。",
-          "vi": "Xe đẩy này rất chắc chắn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "頑丈[がんじょう]な箱[はこ]に、入[い]れてください。",
-          "vi": "Hãy cho vào thùng chắc chắn.",
-          "ctx": "xuong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "台車[だいしゃ]",
-          "vi": "xe đẩy"
-        },
-        {
-          "jp": "箱[はこ]",
-          "vi": "thùng"
-        }
-      ],
-      "syn": [
-        "v:丈夫:じょうぶ"
-      ]
-    },
-    {
-      "id": "v:不潔:ふけつ",
-      "kana": "ふけつ",
-      "kanji": "不潔",
-      "hv": "BẤT KHIẾT",
-      "vi": "mất vệ sinh, bẩn thỉu",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tính từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "不潔[ふけつ]な手[て]で、魚[さかな]を触[さわ]らないでください。",
-          "vi": "Đừng chạm vào cá bằng tay mất vệ sinh.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "爪[つめ]が長[なが]いと、不潔[ふけつ]に見[み]えます。",
-          "vi": "Móng dài trông mất vệ sinh.",
-          "ctx": "xuong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "手[て]",
-          "vi": "tay"
-        }
-      ],
-      "ant": [
-        "v:清潔:せいけつ"
-      ]
-    },
-    {
-      "id": "v:衛生的:えいせいてき",
-      "kana": "えいせいてき",
-      "kanji": "衛生的",
-      "hv": "VỆ SINH ĐÍCH",
-      "vi": "hợp vệ sinh",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tính từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "工場[こうじょう]は、いつも衛生的[えいせいてき]にしておきます。",
-          "vi": "Xưởng lúc nào cũng giữ hợp vệ sinh.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "まな板[いた]は、衛生的[えいせいてき]に使[つか]ってください。",
-          "vi": "Hãy dùng thớt cho hợp vệ sinh.",
-          "ctx": "xuong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "工場[こうじょう]",
-          "vi": "xưởng"
-        }
-      ],
-      "ant": [
-        "v:不潔:ふけつ"
-      ],
-      "rel": [
-        "v:衛生:えいせい"
-      ]
-    },
-    {
-      "id": "v:生臭い:なまぐさい",
-      "kana": "なまぐさい",
-      "kanji": "生臭い",
-      "kf": "生臭[なまぐさ]い",
-      "hv": "SINH XÚ",
-      "vi": "tanh",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tính từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "手[て]が、魚[さかな]で生臭[なまぐさ]くなりました。",
-          "vi": "Tay bị tanh mùi cá.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "生臭[なまぐさ]いにおいが、なかなか取[と]れません。",
-          "vi": "Mùi tanh mãi không hết.",
-          "ctx": "xuong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "におい",
-          "vi": "mùi"
-        },
-        {
-          "jp": "手[て]",
-          "vi": "tay"
-        }
-      ]
-    },
-    {
-      "id": "v:ぬるい:ぬるい",
-      "kana": "ぬるい",
-      "kanji": "",
-      "hv": "",
-      "vi": "âm ấm (không đủ lạnh hoặc không đủ nóng)",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tính từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "氷[こおり]が溶[と]けて、水[みず]がぬるくなっています。",
-          "vi": "Đá tan nên nước thành âm ấm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "ぬるい水[みず]では、魚[さかな]が傷[いた]みます。",
-          "vi": "Nước âm ấm thì cá sẽ hỏng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "お茶[ちゃ]が、ぬるくなった。",
-          "vi": "Trà nguội bớt rồi.",
-          "ctx": "doisong"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "水[みず]",
-          "vi": "nước"
-        },
-        {
-          "jp": "お茶[ちゃ]",
-          "vi": "trà"
-        }
-      ],
-      "note": "Chữ Hán: 温[ぬる]い (thường viết kana)."
-    },
-    {
-      "id": "v:びしょびしょ:びしょびしょ",
-      "kana": "びしょびしょ",
-      "kanji": "",
-      "hv": "",
-      "vi": "ướt sũng",
-      "pos": "ono",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tượng thanh – tượng hình",
-      "reg": "khaungu",
-      "ex": [
-        {
-          "jp": "雨[あめ]で、服[ふく]がびしょびしょになった。",
-          "vi": "Mưa làm áo ướt sũng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "床[ゆか]がびしょびしょだから、水切[みずき]りして。",
-          "vi": "Sàn ướt sũng, gạt nước đi.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        "v:びしょ濡れ:びしょぬれ"
-      ]
-    },
-    {
-      "id": "v:びしょ濡れ:びしょぬれ",
-      "kana": "びしょぬれ",
-      "kanji": "びしょ濡れ",
-      "kf": "びしょ濡[ぬ]れ",
-      "hv": "NHU",
-      "vi": "ướt như chuột lột",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tượng thanh – tượng hình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "鉄砲[てっぽう]の水[みず]で、びしょ濡[ぬ]れになった。",
-          "vi": "Bị nước súng xịt làm ướt như chuột lột.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "傘[かさ]がなくて、びしょ濡[ぬ]れです。",
-          "vi": "Không có ô nên ướt như chuột lột.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:びしょびしょ:びしょびしょ"
-      ]
-    },
-    {
-      "id": "v:キンキン:キンキン",
-      "kana": "キンキン",
-      "kanji": "",
-      "hv": "",
-      "vi": "lạnh buốt (nước, đồ uống)",
-      "pos": "ono",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tượng thanh – tượng hình",
-      "reg": "khaungu",
-      "ex": [
-        {
-          "jp": "冷凍庫[れいとうこ]の中[なか]は、キンキンに冷[ひ]えています。",
-          "vi": "Trong kho đông lạnh buốt.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "キンキンに冷[ひ]えたビールが飲[の]みたい。",
-          "vi": "Muốn uống bia lạnh buốt.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Hay đi với 冷[ひ]える: キンキンに冷[ひ]えた = lạnh buốt."
-    },
-    {
-      "id": "v:がたがた:がたがた",
-      "kana": "がたがた",
-      "kanji": "",
-      "hv": "",
-      "vi": "lạch cạch, lọc cọc (vừa kêu vừa rung)",
-      "pos": "ono",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tượng thanh – tượng hình",
-      "reg": "khaungu",
-      "ex": [
-        {
-          "jp": "この台車[だいしゃ]、がたがたするね。",
-          "vi": "Xe đẩy này kêu lạch cạch nhỉ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "寒[さむ]くて、体[からだ]ががたがた震[ふる]えた。",
-          "vi": "Lạnh run cầm cập.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Còn chỉ run cầm cập vì lạnh."
-    },
-    {
-      "id": "v:ごろごろ:ごろごろ",
-      "kana": "ごろごろ",
-      "kanji": "",
-      "hv": "",
-      "vi": "lăn lông lốc; nằm ườn",
-      "pos": "ono",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tượng thanh – tượng hình",
-      "reg": "khaungu",
-      "ex": [
-        {
-          "jp": "氷[こおり]が、ごろごろ転[ころ]がっている。",
-          "vi": "Đá lăn lông lốc.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "休[やす]みの日[ひ]は、家[いえ]でごろごろしています。",
-          "vi": "Ngày nghỉ nằm ườn ở nhà.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Còn chỉ tiếng sấm ầm ì."
-    },
-    {
-      "id": "v:ぽたぽた:ぽたぽた",
-      "kana": "ぽたぽた",
-      "kanji": "",
-      "hv": "",
-      "vi": "nhỏ giọt tong tỏng",
-      "pos": "ono",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tượng thanh – tượng hình",
-      "reg": "khaungu",
-      "ex": [
-        {
-          "jp": "天井[てんじょう]から、水[みず]がぽたぽた落[お]ちています。",
-          "vi": "Nước nhỏ tong tỏng từ trần xuống.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "蛇口[じゃぐち]から、水[みず]がぽたぽた垂[た]れている。",
-          "vi": "Nước nhỏ giọt từ vòi.",
-          "ctx": "xuong"
-        }
-      ]
-    },
-    {
-      "id": "v:じゃあじゃあ:じゃあじゃあ",
-      "kana": "じゃあじゃあ",
-      "kanji": "",
-      "hv": "",
-      "vi": "(nước) chảy ào ào",
-      "pos": "ono",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tượng thanh – tượng hình",
-      "reg": "khaungu",
-      "ex": [
-        {
-          "jp": "水[みず]を、じゃあじゃあ出[だ]しっぱなしにしないで。",
-          "vi": "Đừng để nước chảy ào ào mãi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "鉄砲[てっぽう]で、じゃあじゃあ流[なが]します。",
-          "vi": "Xả ào ào bằng súng xịt.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "Cũng viết ジャージャー."
-    },
-    {
-      "id": "v:ぱんぱん:ぱんぱん",
-      "kana": "ぱんぱん",
-      "kanji": "",
-      "hv": "",
-      "vi": "căng phồng, đầy ứ",
-      "pos": "ono",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tượng thanh – tượng hình",
-      "reg": "khaungu",
-      "ex": [
-        {
-          "jp": "ゴミ袋[ぶくろ]が、ぱんぱんです。",
-          "vi": "Túi rác đầy ứ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "一日[いちにち]立[た]っていて、足[あし]がぱんぱんになった。",
-          "vi": "Đứng cả ngày, chân căng cứng.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:ぐらぐら:ぐらぐら",
-      "kana": "ぐらぐら",
-      "kanji": "",
-      "hv": "",
-      "vi": "chao đảo, lung lay",
-      "pos": "ono",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tượng thanh – tượng hình",
-      "reg": "khaungu",
-      "ex": [
-        {
-          "jp": "積[つ]んだ箱[はこ]が、ぐらぐらしています。",
-          "vi": "Chồng thùng đang chao đảo.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "脚立[きゃたつ]がぐらぐらするので、押[お]さえてください。",
-          "vi": "Thang lung lay, giữ giúp với.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "Còn chỉ nước sôi sùng sục."
-    },
-    {
-      "id": "v:ぎゅっと:ぎゅっと",
-      "kana": "ぎゅっと",
-      "kanji": "",
-      "hv": "",
-      "vi": "(siết, nắm) thật chặt",
-      "pos": "ono",
-      "level": "N2",
-      "topics": [
-        "xuong"
-      ],
-      "sub": "Tượng thanh – tượng hình",
-      "reg": "khaungu",
-      "ex": [
-        {
-          "jp": "袋[ふくろ]の口[くち]を、ぎゅっと縛[しば]ってください。",
-          "vi": "Buộc thật chặt miệng túi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "包丁[ほうちょう]を、ぎゅっと握[にぎ]りすぎないで。",
-          "vi": "Đừng nắm dao quá chặt.",
-          "ctx": "xuong"
-        }
-      ]
+     "jp": "寝[ね]る前[まえ]に、口[くち]をすすぐ。",
+     "vi": "Súc miệng trước khi ngủ.",
+     "ctx": "doisong"
     }
-  ]
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]ですすぐ",
+     "vi": "tráng bằng nước"
+    }
+   ],
+   "note": "Chữ Hán: 濯[すす]ぐ / 漱[すす]ぐ (thường viết kana)."
+  },
+  {
+   "id": "v:引っかける:ひっかける",
+   "kana": "ひっかける",
+   "kanji": "引っかける",
+   "kf": "引[ひ]っかける",
+   "hv": "DẪN",
+   "vi": "móc vào; làm vướng",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "前掛[まえか]けを、フックに引[ひ]っかけておきます。",
+     "vi": "Móc sẵn tạp dề lên móc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "服[ふく]を、機械[きかい]に引[ひ]っかけないように注意[ちゅうい]してください。",
+     "vi": "Cẩn thận đừng để áo vướng vào máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "セーターを釘[くぎ]に引[ひ]っかけて、穴[あな]が開[あ]いてしまった。",
+     "vi": "Áo len móc vào đinh nên bị thủng một lỗ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "フックに引[ひ]っかける",
+     "vi": "móc lên móc"
+    }
+   ],
+   "pair": {
+    "w": "引[ひ]っかかる",
+    "vi": "bị mắc, bị vướng"
+   }
+  },
+  {
+   "id": "v:引きずる:ひきずる",
+   "kana": "ひきずる",
+   "kanji": "引きずる",
+   "kf": "引[ひ]きずる",
+   "hv": "DẪN",
+   "vi": "kéo lê",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "重[おも]い箱[はこ]を、床[ゆか]で引[ひ]きずらないでください。",
+     "vi": "Đừng kéo lê thùng nặng trên sàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ホースを引[ひ]きずって、移動[いどう]します。",
+     "vi": "Kéo lê ống nước để di chuyển.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "キャスターが壊[こわ]れたスーツケースを、駅[えき]まで引[ひ]きずっていった。",
+     "vi": "Tôi kéo lê chiếc vali hỏng bánh xe ra tận ga.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "箱[はこ]を引[ひ]きずる",
+     "vi": "kéo lê thùng"
+    }
+   ]
+  },
+  {
+   "id": "v:持ち運ぶ:もちはこぶ",
+   "kana": "もちはこぶ",
+   "kanji": "持ち運ぶ",
+   "kf": "持[も]ち運[はこ]ぶ",
+   "hv": "TRÌ VẬN",
+   "vi": "cầm theo, xách đi (đồ gọn nhẹ)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この秤[はかり]は軽[かる]いので、持[も]ち運[はこ]べます。",
+     "vi": "Cái cân này nhẹ nên mang đi được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "包丁[ほうちょう]を持[も]ち運[はこ]ぶ時[とき]は、ケースに入[い]れてください。",
+     "vi": "Khi mang dao đi hãy cho vào hộp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "旅行[りょこう]には、持[も]ち運[はこ]びやすい小[ちい]さなかばんが便利[べんり]だ。",
+     "vi": "Đi du lịch thì túi nhỏ dễ mang theo rất tiện.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "道具[どうぐ]を持[も]ち運[はこ]ぶ",
+     "vi": "mang dụng cụ đi"
+    }
+   ]
+  },
+  {
+   "id": "v:積み重ねる:つみかさねる",
+   "kana": "つみかさねる",
+   "kanji": "積み重ねる",
+   "kf": "積[つ]み重[かさ]ねる",
+   "hv": "TÍCH TRÙNG",
+   "vi": "chồng chất lên",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "トレーは、五枚[ごまい]まで積[つ]み重[かさ]ねてください。",
+     "vi": "Khay chỉ chồng tối đa năm cái.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "箱[はこ]を高[たか]く積[つ]み重[かさ]ねると、崩[くず]れます。",
+     "vi": "Chồng thùng cao quá sẽ đổ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "読[よ]み終[お]わった雑誌[ざっし]を、部屋[へや]の隅[すみ]に積[つ]み重[かさ]ねている。",
+     "vi": "Tạp chí đọc xong tôi chồng lên ở góc phòng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "箱[はこ]を積[つ]み重[かさ]ねる",
+     "vi": "chồng thùng lên"
+    }
+   ]
+  },
+  {
+   "id": "v:崩れる:くずれる",
+   "kana": "くずれる",
+   "kanji": "崩れる",
+   "kf": "崩[くず]れる",
+   "hv": "BĂNG",
+   "vi": "đổ sập (chồng hàng); bị nát (hình dạng)",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "積[つ]んだ箱[はこ]が、崩[くず]れました。",
+     "vi": "Chồng thùng đã đổ sập.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "身[み]が崩[くず]れないように、そっと置[お]いてください。",
+     "vi": "Đặt nhẹ để thịt cá không bị nát.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "午後[ごご]から、天気[てんき]が崩[くず]れるそうです。",
+     "vi": "Nghe nói từ chiều trời sẽ xấu đi.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "箱[はこ]が崩[くず]れる",
+     "vi": "thùng đổ sập"
+    }
+   ],
+   "pair": "v:崩す:くずす"
+  },
+  {
+   "id": "v:崩す:くずす",
+   "kana": "くずす",
+   "kanji": "崩す",
+   "kf": "崩[くず]す",
+   "hv": "BĂNG",
+   "vi": "làm sập (chồng hàng); đổi ra tiền lẻ",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]の山[やま]を崩[くず]さないように、下[した]から取[と]らないで。",
+     "vi": "Đừng rút từ dưới kẻo làm đổ chồng thùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一万円[いちまんえん]札[さつ]を、崩[くず]してもらえますか。",
+     "vi": "Đổi giúp tờ 10.000 yên ra tiền lẻ được không?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "子供[こども]が、積[つ]み木[き]を崩[くず]して遊[あそ]んでいる。",
+     "vi": "Đứa trẻ đang chơi làm đổ chồng khối gỗ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "山[やま]を崩[くず]す",
+     "vi": "làm đổ đống"
+    }
+   ],
+   "pair": "v:崩れる:くずれる"
+  },
+  {
+   "id": "v:縛る:しばる",
+   "kana": "しばる",
+   "kanji": "縛る",
+   "kf": "縛[しば]る",
+   "hv": "PHƯỢC",
+   "vi": "buộc chặt",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "袋[ふくろ]の口[くち]を、しっかり縛[しば]ってください。",
+     "vi": "Buộc chặt miệng túi lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "段[だん]ボールを、ひもで縛[しば]って捨[す]てます。",
+     "vi": "Buộc thùng các-tông bằng dây rồi đem bỏ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "自転車[じてんしゃ]の荷台[にだい]に、段[だん]ボール箱[ばこ]をひもで縛[しば]りつけた。",
+     "vi": "Tôi buộc chặt thùng các-tông vào yên sau xe đạp bằng dây.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "袋[ふくろ]の口[くち]を縛[しば]る",
+     "vi": "buộc miệng túi"
+    }
+   ],
+   "ant": [
+    "v:ほどく:ほどく"
+   ]
+  },
+  {
+   "id": "v:ほどく:ほどく",
+   "kana": "ほどく",
+   "kanji": "",
+   "hv": "",
+   "vi": "tháo (nút, dây buộc)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "結[むす]び目[め]を、ほどいてください。",
+     "vi": "Tháo nút buộc ra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "箱[はこ]のひもをほどいて、中[なか]を確認[かくにん]します。",
+     "vi": "Tháo dây thùng ra kiểm tra bên trong.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "プレゼントのリボンをほどいて、箱[はこ]を開[あ]けた。",
+     "vi": "Tôi tháo ruy băng của món quà rồi mở hộp.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ひもをほどく",
+     "vi": "tháo dây"
+    }
+   ],
+   "ant": [
+    "v:縛る:しばる"
+   ],
+   "pair": {
+    "w": "ほどける",
+    "vi": "(nút) tuột ra"
+   },
+   "note": "Chữ Hán: 解[ほど]く (thường viết kana)."
+  },
+  {
+   "id": "v:剥がす:はがす",
+   "kana": "はがす",
+   "kanji": "剥がす",
+   "kf": "剥[は]がす",
+   "hv": "BÁC",
+   "vi": "bóc ra, gỡ ra",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "古[ふる]いシールを、剥[は]がしてください。",
+     "vi": "Bóc tem cũ ra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "段[だん]ボールのテープを剥[は]がして、畳[たた]みます。",
+     "vi": "Bóc băng dính thùng rồi gấp lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "引[ひ]っ越[こ]す前[まえ]に、壁[かべ]に貼[は]ったポスターを剥[は]がした。",
+     "vi": "Trước khi chuyển nhà, tôi bóc tấm áp phích dán trên tường.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "シールを剥[は]がす",
+     "vi": "bóc tem"
+    }
+   ],
+   "pair": "v:剥がれる:はがれる",
+   "note": "Thường viết kana: はがす."
+  },
+  {
+   "id": "v:剥がれる:はがれる",
+   "kana": "はがれる",
+   "kanji": "剥がれる",
+   "kf": "剥[は]がれる",
+   "hv": "BÁC",
+   "vi": "bị bong, bị tróc",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ラベルが、水[みず]で剥[は]がれてしまいました。",
+     "vi": "Nhãn bị bong vì dính nước.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "壁[かべ]のペンキが、剥[は]がれています。",
+     "vi": "Sơn tường bị tróc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：スマホの画面[がめん]のフィルム、剥[は]がれてるよ。 B：あ、本当[ほんとう]だ。",
+     "vi": "A: Miếng dán màn hình điện thoại bị bong rồi kìa. B: Ồ, đúng thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "シールが剥[は]がれる",
+     "vi": "tem bị bong"
+    }
+   ],
+   "pair": "v:剥がす:はがす"
+  },
+  {
+   "id": "v:貼る:はる",
+   "kana": "はる",
+   "kanji": "貼る",
+   "kf": "貼[は]る",
+   "hv": "THIẾP",
+   "vi": "dán",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "箱[はこ]に、ラベルを貼[は]ってください。",
+     "vi": "Dán nhãn lên thùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "掲示板[けいじばん]に、お知[し]らせを貼[は]ります。",
+     "vi": "Dán thông báo lên bảng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "封筒[ふうとう]に、切手[きって]を貼[は]る。",
+     "vi": "Dán tem lên phong bì.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ラベルを貼[は]る",
+     "vi": "dán nhãn"
+    }
+   ],
+   "note": "Đừng nhầm với 張[は]る (căng ra)."
+  },
+  {
+   "id": "v:溢れる:あふれる",
+   "kana": "あふれる",
+   "kanji": "溢れる",
+   "kf": "溢[あふ]れる",
+   "hv": "DẬT",
+   "vi": "tràn khỏi miệng (vì quá đầy)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "バケツの水[みず]が、溢[あふ]れています。",
+     "vi": "Nước trong xô tràn ra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "排水[はいすい]溝[こう]が詰[つ]まって、水[みず]が溢[あふ]れた。",
+     "vi": "Cống bị tắc nên nước tràn ra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "お湯[ゆ]を止[と]めるのを忘[わす]れて、お風呂[ふろ]から溢[あふ]れてしまった。",
+     "vi": "Quên khóa nước nóng nên nước tràn ra khỏi bồn tắm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]が溢[あふ]れる",
+     "vi": "nước tràn ra"
+    }
+   ],
+   "note": "Thường viết kana: あふれる."
+  },
+  {
+   "id": "v:垂れる:たれる",
+   "kana": "たれる",
+   "kanji": "垂れる",
+   "kf": "垂[た]れる",
+   "hv": "THÙY",
+   "vi": "rỏ xuống, nhỏ giọt",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]から、水[みず]が垂[た]れています。",
+     "vi": "Nước rỏ xuống từ cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "汗[あせ]が垂[た]れないように、タオルを巻[ま]きます。",
+     "vi": "Quấn khăn để mồ hôi không nhỏ xuống.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "アイスが溶[と]けて、手[て]に垂[た]れてきた。",
+     "vi": "Kem tan chảy rỏ xuống tay.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]が垂[た]れる",
+     "vi": "nước rỏ xuống"
+    }
+   ]
+  },
+  {
+   "id": "v:飛び散る:とびちる",
+   "kana": "とびちる",
+   "kanji": "飛び散る",
+   "kf": "飛[と]び散[ち]る",
+   "hv": "PHI TÁN",
+   "vi": "bắn tung tóe",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "血[ち]が飛[と]び散[ち]らないように、ゆっくり切[き]ってください。",
+     "vi": "Cắt chậm để máu không bắn tung tóe.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "鉄砲[てっぽう]の水[みず]が、周[まわ]りに飛[と]び散[ち]った。",
+     "vi": "Nước súng xịt bắn tung tóe ra xung quanh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "天[てん]ぷらを揚[あ]げていたら、油[あぶら]が飛[と]び散[ち]って腕[うで]にかかった。",
+     "vi": "Đang rán tempura thì dầu bắn tung tóe dính vào cánh tay.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]が飛[と]び散[ち]る",
+     "vi": "nước bắn tung tóe"
+    }
+   ]
+  },
+  {
+   "id": "v:跳ねる:はねる",
+   "kana": "はねる",
+   "kanji": "跳ねる",
+   "kf": "跳[は]ねる",
+   "hv": "KHIÊU",
+   "vi": "(nước, cá) bắn lên, nảy lên",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "水[みず]が跳[は]ねて、服[ふく]が濡[ぬ]れました。",
+     "vi": "Nước bắn lên làm ướt áo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "生[い]きている魚[さかな]が、跳[は]ねています。",
+     "vi": "Cá còn sống đang nhảy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "車[くるま]が水[みず]たまりを通[とお]って、泥[どろ]が跳[は]ねた。",
+     "vi": "Ô tô chạy qua vũng nước làm bùn bắn lên.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]が跳[は]ねる",
+     "vi": "nước bắn lên"
+    }
+   ],
+   "note": "Đừng nhầm với 撥[は]ねる (loại hàng lỗi ra)."
+  },
+  {
+   "id": "v:冷え込む:ひえこむ",
+   "kana": "ひえこむ",
+   "kanji": "冷え込む",
+   "kf": "冷[ひ]え込[こ]む",
+   "hv": "LÃNH NHẬP",
+   "vi": "trở lạnh buốt",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今朝[けさ]は、ずいぶん冷[ひ]え込[こ]みましたね。",
+     "vi": "Sáng nay trời lạnh buốt nhỉ.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]の前[まえ]は、特[とく]に冷[ひ]え込[こ]みます。",
+     "vi": "Trước kho đông đặc biệt lạnh buốt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "明日[あした]の朝[あさ]は冷[ひ]え込[こ]むそうだから、厚[あつ]いコートを出[だ]しておこう。",
+     "vi": "Nghe nói sáng mai trời trở lạnh buốt, phải lấy áo khoác dày ra sẵn thôi.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "朝[あさ]が冷[ひ]え込[こ]む",
+     "vi": "buổi sáng lạnh buốt"
+    }
+   ],
+   "flag": true,
+   "note": "Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:かじかむ:かじかむ",
+   "kana": "かじかむ",
+   "kanji": "",
+   "hv": "",
+   "vi": "(tay chân) tê cóng",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手[て]がかじかんで、包丁[ほうちょう]がうまく持[も]てない。",
+     "vi": "Tay tê cóng, cầm dao không vững.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "冷[つめ]たい水[みず]で、指[ゆび]がかじかみました。",
+     "vi": "Nước lạnh làm ngón tay tê cóng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手[て]がかじかむ",
+     "vi": "tay tê cóng"
+    }
+   ]
+  },
+  {
+   "id": "v:凍える:こごえる",
+   "kana": "こごえる",
+   "kanji": "凍える",
+   "kf": "凍[こご]える",
+   "hv": "ĐÔNG",
+   "vi": "rét cóng người",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冷凍庫[れいとうこ]の中[なか]で、凍[こご]えそうでした。",
+     "vi": "Ở trong kho đông tưởng cóng cả người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "凍[こご]えないように、防寒着[ぼうかんぎ]を着[き]てください。",
+     "vi": "Mặc áo chống rét để không bị cóng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "バス停[てい]で三十分[さんじゅっぷん]も待[ま]って、凍[こご]えてしまった。",
+     "vi": "Chờ ở bến xe buýt những ba mươi phút, tôi rét cóng cả người.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "寒[さむ]さで凍[こご]える",
+     "vi": "cóng người vì lạnh"
+    }
+   ],
+   "confuse": [
+    "v:凍る:こおる"
+   ],
+   "note": "凍[こご]える = người bị lạnh cóng; 凍[こお]る = (nước, cá) đóng băng."
+  },
+  {
+   "id": "v:つまずく:つまずく",
+   "kana": "つまずく",
+   "kanji": "",
+   "hv": "",
+   "vi": "vấp",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ホースにつまずいて、転[ころ]びそうになった。",
+     "vi": "Vấp ống nước suýt ngã.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "段差[だんさ]でつまずかないように、足元[あしもと]を見[み]てください。",
+     "vi": "Nhìn dưới chân để không vấp ở chỗ bậc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "駅[えき]の階段[かいだん]でつまずいて、スマホを落[お]とした。",
+     "vi": "Tôi vấp ở cầu thang nhà ga, làm rơi điện thoại.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ホースにつまずく",
+     "vi": "vấp ống nước"
+    }
+   ],
+   "note": "Chữ Hán: 躓[つまず]く (thường viết kana)."
+  },
+  {
+   "id": "v:傷む:いたむ",
+   "kana": "いたむ",
+   "kanji": "傷む",
+   "kf": "傷[いた]む",
+   "hv": "THƯƠNG",
+   "vi": "(cá, rau) bị hỏng, ươn; (đồ) bị hư",
+   "pos": "v5",
+   "level": "N3",
+   "vt": "tu",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]は、温度[おんど]が高[たか]いとすぐ傷[いた]みます。",
+     "vi": "Cá để nhiệt độ cao là hỏng ngay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "傷[いた]んだ魚[さかな]は、使[つか]わないでください。",
+     "vi": "Đừng dùng cá đã hỏng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "古[ふる]い家[いえ]は、屋根[やね]が傷[いた]んでいる。",
+     "vi": "Nhà cũ mái đã hư.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "魚[さかな]が傷[いた]む",
+     "vi": "cá bị ươn"
+    }
+   ],
+   "confuse": [
+    "v:腐る:くさる"
+   ],
+   "note": "Cùng âm: 痛[いた]む = đau. 傷[いた]む nhẹ hơn 腐[くさ]る (thối hẳn)."
+  },
+  {
+   "id": "v:補充:ほじゅう",
+   "kana": "ほじゅう",
+   "kanji": "補充",
+   "hv": "BỔ SUNG",
+   "vi": "bổ sung (cho đủ lại)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手袋[てぶくろ]がなくなったら、補充[ほじゅう]してください。",
+     "vi": "Hết găng tay thì bổ sung.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "氷[こおり]の補充[ほじゅう]を、お願[ねが]いします。",
+     "vi": "Nhờ bổ sung đá.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手袋[てぶくろ]を補充[ほじゅう]する",
+     "vi": "bổ sung găng tay"
+    }
+   ]
+  },
+  {
+   "id": "v:空ける:あける",
+   "kana": "あける",
+   "kanji": "空ける",
+   "kf": "空[あ]ける",
+   "hv": "KHÔNG",
+   "vi": "làm trống, dọn trống",
+   "pos": "v1",
+   "level": "N3",
+   "vt": "tha",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Động từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このかごを、空[あ]けてください。",
+     "vi": "Đổ trống cái rổ này đi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "通路[つうろ]は、いつも空[あ]けておいてください。",
+     "vi": "Lối đi lúc nào cũng để trống.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一行[いっこう]空[あ]けて書[か]きます。",
+     "vi": "Viết cách một dòng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "かごを空[あ]ける",
+     "vi": "đổ trống rổ"
+    }
+   ],
+   "confuse": [
+    "v:開ける:あける"
+   ],
+   "pair": "v:空く:あく"
+  },
+  {
+   "id": "v:薄い:うすい",
+   "kana": "うすい",
+   "kanji": "薄い",
+   "kf": "薄[うす]い",
+   "hv": "BẠC",
+   "vi": "mỏng; nhạt (màu, vị)",
+   "pos": "adj-i",
+   "level": "N5",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tính từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]を、薄[うす]く切[き]ってください。",
+     "vi": "Hãy cắt cá mỏng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この袋[ふくろ]は薄[うす]いので、破[やぶ]れやすいです。",
+     "vi": "Túi này mỏng nên dễ rách.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "このスープは、味[あじ]が薄[うす]い。",
+     "vi": "Món súp này vị nhạt.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "袋[ふくろ]",
+     "vi": "túi"
+    },
+    {
+     "jp": "味[あじ]",
+     "vi": "vị"
+    }
+   ],
+   "ant": [
+    "v:厚い:あつい",
+    "v:濃い:こい"
+   ],
+   "rel": [
+    {
+     "w": "薄[うす]さ",
+     "vi": "độ mỏng"
+    }
+   ]
+  },
+  {
+   "id": "v:厚い:あつい",
+   "kana": "あつい",
+   "kanji": "厚い",
+   "kf": "厚[あつ]い",
+   "hv": "HẬU",
+   "vi": "dày",
+   "pos": "adj-i",
+   "level": "N5",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tính từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "刺身[さしみ]は、もう少[すこ]し厚[あつ]く切[き]って。",
+     "vi": "Sashimi cắt dày hơn chút.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "厚[あつ]い手袋[てぶくろ]をして、冷凍庫[れいとうこ]に入[はい]ります。",
+     "vi": "Đeo găng dày rồi vào kho đông.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "厚[あつ]い本[ほん]を、一日[いちにち]で読[よ]みました。",
+     "vi": "Đọc quyển sách dày trong một ngày.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "本[ほん]",
+     "vi": "sách"
+    },
+    {
+     "jp": "手袋[てぶくろ]",
+     "vi": "găng tay"
+    }
+   ],
+   "ant": [
+    "v:薄い:うすい"
+   ],
+   "confuse": [
+    "v:暑い:あつい",
+    "v:熱い:あつい"
+   ],
+   "rel": [
+    {
+     "w": "厚[あつ]さ",
+     "vi": "độ dày"
+    }
+   ]
+  },
+  {
+   "id": "v:重たい:おもたい",
+   "kana": "おもたい",
+   "kanji": "重たい",
+   "kf": "重[おも]たい",
+   "hv": "TRỌNG",
+   "vi": "nặng trịch",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tính từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この箱[はこ]、重[おも]たいね。",
+     "vi": "Thùng này nặng trịch nhỉ.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "重[おも]たい物[もの]は、二人[ふたり]で持[も]ってください。",
+     "vi": "Đồ nặng thì hai người khiêng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "買[か]い物[もの]の袋[ふくろ]が重[おも]たくて、手[て]が痛[いた]くなった。",
+     "vi": "Túi đồ đi chợ nặng trịch, xách đến đau cả tay.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "箱[はこ]",
+     "vi": "thùng"
+    }
+   ],
+   "syn": [
+    "v:重い:おもい"
+   ],
+   "note": "Khẩu ngữ, nhấn cảm giác nặng hơn 重[おも]い."
+  },
+  {
+   "id": "v:粗い:あらい",
+   "kana": "あらい",
+   "kanji": "粗い",
+   "kf": "粗[あら]い",
+   "hv": "THÔ",
+   "vi": "thô, hạt to (không mịn)",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tính từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この網[あみ]は、目[め]が粗[あら]いです。",
+     "vi": "Lưới này mắt to.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "砥石[といし]は、粗[あら]いのから使[つか]います。",
+     "vi": "Đá mài dùng loại hạt thô trước.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ジャガイモは、粗[あら]くつぶしてサラダにします。",
+     "vi": "Khoai tây thì nghiền thô rồi làm salad.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "網[あみ]の目[め]",
+     "vi": "mắt lưới"
+    }
+   ],
+   "ant": [
+    "v:細かい:こまかい"
+   ],
+   "note": "Cùng âm: 荒[あら]い = thô bạo, dữ dội (sóng, cách làm việc)."
+  },
+  {
+   "id": "v:滑りやすい:すべりやすい",
+   "kana": "すべりやすい",
+   "kanji": "滑りやすい",
+   "kf": "滑[すべ]りやすい",
+   "hv": "HOẠT",
+   "vi": "dễ trơn",
+   "pos": "adj-i",
+   "level": "N3",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tính từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "床[ゆか]が濡[ぬ]れて、滑[すべ]りやすいです。",
+     "vi": "Sàn ướt nên dễ trơn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "滑[すべ]りやすいので、走[はし]らないでください。",
+     "vi": "Dễ trơn nên đừng chạy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "雪[ゆき]の日[ひ]は道[みち]が滑[すべ]りやすいから、気[き]をつけてね。",
+     "vi": "Ngày tuyết rơi đường dễ trơn, cẩn thận nhé.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "床[ゆか]",
+     "vi": "sàn"
+    }
+   ],
+   "rel": [
+    "v:滑る:すべる"
+   ]
+  },
+  {
+   "id": "v:頑丈:がんじょう",
+   "kana": "がんじょう",
+   "kanji": "頑丈",
+   "hv": "NGOAN TRƯỢNG",
+   "vi": "bền chắc, chắc khỏe (đồ vật, thân thể)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tính từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この台車[だいしゃ]は、とても頑丈[がんじょう]です。",
+     "vi": "Xe đẩy này rất chắc chắn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "頑丈[がんじょう]な箱[はこ]に、入[い]れてください。",
+     "vi": "Hãy cho vào thùng chắc chắn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "父[ちち]は七十歳[ななじゅっさい]を過[す]ぎたが、体[からだ]が頑丈[がんじょう]で病気[びょうき]ひとつしない。",
+     "vi": "Bố tôi đã ngoài bảy mươi nhưng người chắc khỏe, đến bệnh vặt cũng không mắc.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "台車[だいしゃ]",
+     "vi": "xe đẩy"
+    },
+    {
+     "jp": "箱[はこ]",
+     "vi": "thùng"
+    }
+   ],
+   "syn": [
+    "v:丈夫:じょうぶ"
+   ]
+  },
+  {
+   "id": "v:不潔:ふけつ",
+   "kana": "ふけつ",
+   "kanji": "不潔",
+   "hv": "BẤT KHIẾT",
+   "vi": "mất vệ sinh, bẩn thỉu",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tính từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不潔[ふけつ]な手[て]で、魚[さかな]を触[さわ]らないでください。",
+     "vi": "Đừng chạm vào cá bằng tay mất vệ sinh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "爪[つめ]が長[なが]いと、不潔[ふけつ]に見[み]えます。",
+     "vi": "Móng dài trông mất vệ sinh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台所[だいどころ]を不潔[ふけつ]にしておくと、ゴキブリが出[で]る。",
+     "vi": "Để bếp mất vệ sinh thì gián sẽ xuất hiện.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "手[て]",
+     "vi": "tay"
+    }
+   ],
+   "ant": [
+    "v:清潔:せいけつ"
+   ]
+  },
+  {
+   "id": "v:衛生的:えいせいてき",
+   "kana": "えいせいてき",
+   "kanji": "衛生的",
+   "hv": "VỆ SINH ĐÍCH",
+   "vi": "hợp vệ sinh",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tính từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]は、いつも衛生的[えいせいてき]にしておきます。",
+     "vi": "Xưởng lúc nào cũng giữ hợp vệ sinh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "まな板[いた]は、衛生的[えいせいてき]に使[つか]ってください。",
+     "vi": "Hãy dùng thớt cho hợp vệ sinh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この店[みせ]は衛生的[えいせいてき]なので、安心[あんしん]して食[た]べられる。",
+     "vi": "Quán này hợp vệ sinh nên có thể yên tâm ăn.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "工場[こうじょう]",
+     "vi": "xưởng"
+    }
+   ],
+   "ant": [
+    "v:不潔:ふけつ"
+   ],
+   "rel": [
+    "v:衛生:えいせい"
+   ]
+  },
+  {
+   "id": "v:生臭い:なまぐさい",
+   "kana": "なまぐさい",
+   "kanji": "生臭い",
+   "kf": "生臭[なまぐさ]い",
+   "hv": "SINH XÚ",
+   "vi": "tanh",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tính từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手[て]が、魚[さかな]で生臭[なまぐさ]くなりました。",
+     "vi": "Tay bị tanh mùi cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "生臭[なまぐさ]いにおいが、なかなか取[と]れません。",
+     "vi": "Mùi tanh mãi không hết.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この部屋[へや]、ちょっと生臭[なまぐさ]くない？ B：昨日[きのう]、魚[さかな]を焼[や]いたからかな。",
+     "vi": "A: Phòng này hơi tanh tanh phải không? B: Chắc tại hôm qua nướng cá.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "におい",
+     "vi": "mùi"
+    },
+    {
+     "jp": "手[て]",
+     "vi": "tay"
+    }
+   ]
+  },
+  {
+   "id": "v:ぬるい:ぬるい",
+   "kana": "ぬるい",
+   "kanji": "",
+   "hv": "",
+   "vi": "âm ấm (không đủ lạnh hoặc không đủ nóng)",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tính từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "氷[こおり]が溶[と]けて、水[みず]がぬるくなっています。",
+     "vi": "Đá tan nên nước thành âm ấm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ぬるい水[みず]では、魚[さかな]が傷[いた]みます。",
+     "vi": "Nước âm ấm thì cá sẽ hỏng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "お茶[ちゃ]が、ぬるくなった。",
+     "vi": "Trà nguội bớt rồi.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "水[みず]",
+     "vi": "nước"
+    },
+    {
+     "jp": "お茶[ちゃ]",
+     "vi": "trà"
+    }
+   ],
+   "note": "Chữ Hán: 温[ぬる]い (thường viết kana)."
+  },
+  {
+   "id": "v:びしょびしょ:びしょびしょ",
+   "kana": "びしょびしょ",
+   "kanji": "",
+   "hv": "",
+   "vi": "ướt sũng",
+   "pos": "ono",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tượng thanh – tượng hình",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "雨[あめ]で、服[ふく]がびしょびしょになった。",
+     "vi": "Mưa làm áo ướt sũng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "床[ゆか]がびしょびしょだから、水切[みずき]りして。",
+     "vi": "Sàn ướt sũng, gạt nước đi.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:びしょ濡れ:びしょぬれ"
+   ]
+  },
+  {
+   "id": "v:びしょ濡れ:びしょぬれ",
+   "kana": "びしょぬれ",
+   "kanji": "びしょ濡れ",
+   "kf": "びしょ濡[ぬ]れ",
+   "hv": "NHU",
+   "vi": "ướt như chuột lột",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tượng thanh – tượng hình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "鉄砲[てっぽう]の水[みず]で、びしょ濡[ぬ]れになった。",
+     "vi": "Bị nước súng xịt làm ướt như chuột lột.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "傘[かさ]がなくて、びしょ濡[ぬ]れです。",
+     "vi": "Không có ô nên ướt như chuột lột.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:びしょびしょ:びしょびしょ"
+   ]
+  },
+  {
+   "id": "v:キンキン:キンキン",
+   "kana": "キンキン",
+   "kanji": "",
+   "hv": "",
+   "vi": "lạnh buốt (nước, đồ uống)",
+   "pos": "ono",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tượng thanh – tượng hình",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "冷凍庫[れいとうこ]の中[なか]は、キンキンに冷[ひ]えています。",
+     "vi": "Trong kho đông lạnh buốt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "キンキンに冷[ひ]えたビールが飲[の]みたい。",
+     "vi": "Muốn uống bia lạnh buốt.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Hay đi với 冷[ひ]える: キンキンに冷[ひ]えた = lạnh buốt."
+  },
+  {
+   "id": "v:がたがた:がたがた",
+   "kana": "がたがた",
+   "kanji": "",
+   "hv": "",
+   "vi": "lạch cạch, lọc cọc (vừa kêu vừa rung)",
+   "pos": "ono",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tượng thanh – tượng hình",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "この台車[だいしゃ]、がたがたするね。",
+     "vi": "Xe đẩy này kêu lạch cạch nhỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "寒[さむ]くて、体[からだ]ががたがた震[ふる]えた。",
+     "vi": "Lạnh run cầm cập.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Còn chỉ run cầm cập vì lạnh."
+  },
+  {
+   "id": "v:ごろごろ:ごろごろ",
+   "kana": "ごろごろ",
+   "kanji": "",
+   "hv": "",
+   "vi": "lăn lông lốc; nằm ườn",
+   "pos": "ono",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tượng thanh – tượng hình",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "氷[こおり]が、ごろごろ転[ころ]がっている。",
+     "vi": "Đá lăn lông lốc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "休[やす]みの日[ひ]は、家[いえ]でごろごろしています。",
+     "vi": "Ngày nghỉ nằm ườn ở nhà.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Còn chỉ tiếng sấm ầm ì."
+  },
+  {
+   "id": "v:ぽたぽた:ぽたぽた",
+   "kana": "ぽたぽた",
+   "kanji": "",
+   "hv": "",
+   "vi": "nhỏ giọt tong tỏng",
+   "pos": "ono",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tượng thanh – tượng hình",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "天井[てんじょう]から、水[みず]がぽたぽた落[お]ちています。",
+     "vi": "Nước nhỏ tong tỏng từ trần xuống.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "蛇口[じゃぐち]から、水[みず]がぽたぽた垂[た]れている。",
+     "vi": "Nước nhỏ giọt từ vòi.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:じゃあじゃあ:じゃあじゃあ",
+   "kana": "じゃあじゃあ",
+   "kanji": "",
+   "hv": "",
+   "vi": "(nước) chảy ào ào",
+   "pos": "ono",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tượng thanh – tượng hình",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "水[みず]を、じゃあじゃあ出[だ]しっぱなしにしないで。",
+     "vi": "Đừng để nước chảy ào ào mãi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "鉄砲[てっぽう]で、じゃあじゃあ流[なが]します。",
+     "vi": "Xả ào ào bằng súng xịt.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Cũng viết ジャージャー."
+  },
+  {
+   "id": "v:ぱんぱん:ぱんぱん",
+   "kana": "ぱんぱん",
+   "kanji": "",
+   "hv": "",
+   "vi": "căng phồng, đầy ứ",
+   "pos": "ono",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tượng thanh – tượng hình",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "ゴミ袋[ぶくろ]が、ぱんぱんです。",
+     "vi": "Túi rác đầy ứ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一日[いちにち]立[た]っていて、足[あし]がぱんぱんになった。",
+     "vi": "Đứng cả ngày, chân căng cứng.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:ぐらぐら:ぐらぐら",
+   "kana": "ぐらぐら",
+   "kanji": "",
+   "hv": "",
+   "vi": "chao đảo, lung lay",
+   "pos": "ono",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tượng thanh – tượng hình",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "積[つ]んだ箱[はこ]が、ぐらぐらしています。",
+     "vi": "Chồng thùng đang chao đảo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "脚立[きゃたつ]がぐらぐらするので、押[お]さえてください。",
+     "vi": "Thang lung lay, giữ giúp với.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Còn chỉ nước sôi sùng sục."
+  },
+  {
+   "id": "v:ぎゅっと:ぎゅっと",
+   "kana": "ぎゅっと",
+   "kanji": "",
+   "hv": "",
+   "vi": "(siết, nắm) thật chặt",
+   "pos": "ono",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "sub": "Tượng thanh – tượng hình",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "袋[ふくろ]の口[くち]を、ぎゅっと縛[しば]ってください。",
+     "vi": "Buộc thật chặt miệng túi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "包丁[ほうちょう]を、ぎゅっと握[にぎ]りすぎないで。",
+     "vi": "Đừng nắm dao quá chặt.",
+     "ctx": "xuong"
+    }
+   ]
+  }
+ ]
 }
