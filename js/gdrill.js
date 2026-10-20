@@ -25,16 +25,28 @@ const viHint = vi => `<details class="vihint"><summary>Gợi ý: nghĩa câu</su
 const okRepeat = arr => new Set(arr.map(x => plain(x))).size === arr.length;
 
 // Phần ngữ pháp của các câu khác — đáp án nhiễu dự phòng
+// v40: bảng phần ngữ pháp của mọi câu ví dụ dựng một lần (trước đây mỗi câu hỏi dò lại cả kho), và chỉ dùng khi câu thiếu phương án sai
+let _hl = null, _hlArr = null, _hlN = -1;
+function allHL() {
+  if (_hl && _hlArr === D.grammar && _hlN === D.grammar.length) return _hl;
+  const out = [];
+  for (const o of D.grammar) for (const e of o.ex || []) { const h = hlText(e.jp); if (h) out.push([o.id, o.level, h]); }
+  _hl = out; _hlArr = D.grammar; _hlN = D.grammar.length;
+  return out;
+}
+export const warmGrammar = () => { allHL(); };
 function otherHL(g) {
   const out = [];
-  for (const o of D.grammar) if (o.id !== g.id) for (const e of o.ex || []) { const h = hlText(e.jp); if (h) out.push({ h, lv: o.level === g.level }); }
+  for (const [id, lv, h] of allHL()) if (id !== g.id) out.push({ h, lv: lv === g.level });
   return shuffle(out).sort((a, b) => b.lv - a.lv).map(x => x.h);
 }
 function blankOpts(g, ex) {
   const ans = hlText(ex.jp);
   if (!ans) return null;
   const seen = new Set([plain(ans)]), opts = [];
-  for (const w of [...(ex.wrong || []), ...otherHL(g)]) { const p = plain(w); if (seen.has(p)) continue; seen.add(p); opts.push(w); if (opts.length >= 3) break; }
+  const tryAdd = w => { const p = plain(w); if (seen.has(p)) return; seen.add(p); opts.push(w); };
+  for (const w of ex.wrong || []) { tryAdd(w); if (opts.length >= 3) break; }
+  if (opts.length < 3) for (const w of otherHL(g)) { tryAdd(w); if (opts.length >= 3) break; }
   if (opts.length < 2) return null;
   return shuffle([ans, ...opts]).map((h, i) => opt(h === ans ? 'ok' : 'x' + i, rich(h)));
 }

@@ -31,6 +31,7 @@ import { initSeason, seasonChipHTML } from './season.js';
 import { initBackFab, backFabRoute } from './backfab.js';
 import { initFxPanel } from './fxpanel.js';
 import { initMarks, renderMarked } from './marks.js';
+import { bumpGen } from './lazy.js';
 import { renderGuessLearn, renderHanViet, renderDenHam, renderGiongChu, renderCungDau, runQuick3, runRecap } from './dot6.js';
 
 const view = $('#view');
@@ -113,7 +114,8 @@ const ROUTES = [
 // v39: trang dựng lâu (lần trước ≥ 35 ms, hoặc trang vốn nặng) → hiện ngay khung trang + thanh tiến trình mảnh ở mép trên,
 // nhường trình duyệt vẽ khung đó rồi mới dựng nội dung (khung hình sau). Trang nhanh dựng thẳng, không nhấp nháy.
 const COST = new Map();
-const HEAVY0 = /^(lotrinh|nhanh3|onhon|chuhan|noiduoc|luyen|bai\/|tonghop\/|onbai\/)/;
+// v40: Lộ trình, Luyện tập, bài kiểm tra… nay tự dựng từng phần / có vòng ⟳ riêng → chỉ còn vài trang lần đầu mở còn nặng
+const HEAVY0 = /^(chuhan$|nhanh3|onhon|bai\/)/;
 const costKey = h => h.replace(/\?.*$/, '').replace(/^(bai|doc|nguphap|sua|tonghop|onbai)\/.+$/, '$1/*');
 let pendT = 0, pendN = 0;
 function route() {
@@ -158,9 +160,14 @@ function initTapFx() {
 // để bấm sang Lộ trình, Ôn hỗn hợp, Luyện dịch, bài học… không phải tính lần đầu. Mỗi việc một lượt rảnh, không chặn máy.
 async function warmUp() {
   const idle = f => new Promise(res => (window.requestIdleCallback ? requestIdleCallback(() => { try { f(); } catch { } res(); }, { timeout: 2000 }) : setTimeout(() => { try { f(); } catch { } res(); }, 50)));
-  const [{ sentences }, L, { kanjiOfDay }, { mixedDue }] = await Promise.all([import('./dich.js'), import('./lesson.js'), import('./kanji.js'), import('./practice.js')]);
-  const jobs = [() => sentences(), () => L.allLessons(), () => kanjiOfDay(), () => L.warmLessons?.(), () => mixedDue()];
+  const [{ sentences }, L, { kanjiOfDay }, { mixedDue }, { warmMeanings }, { nextFrame }] = await Promise.all([import('./dich.js'), import('./lesson.js'), import('./kanji.js'), import('./practice.js'), import('./quiz.js'), import('./lazy.js')]);
+  const { warmGrammar } = await import('./gdrill.js');
+  const jobs = [() => sentences(), () => L.allLessons(), () => kanjiOfDay(), () => L.warmLessons?.(), () => mixedDue(), () => warmGrammar()];
   for (const j of jobs) await idle(j);
+  await new Promise(r => idle(r));
+  await warmMeanings(nextFrame); // v40: tách nghĩa cả kho từng mẻ nhỏ → câu hỏi đầu tiên của lượt không phải chờ
+  await (await import('./practice.js')).warmCau(nextFrame);
+  window.__tnWarm = true; // đã tính sẵn xong (bài kiểm tự động chờ cờ này)
 }
 
 function routeBody() {
@@ -176,6 +183,7 @@ function routeBody() {
   ctx.replaceNext = false;
   ctx.idx = history.state?.tnIdx ?? ctx.idx ?? 0;
   ctx.backTo = null; ctx.inRun = false;
+  bumpGen(); // v40: việc dựng dần của trang cũ tự dừng
   leave.forEach(f => { try { f(); } catch { } });
   leave = [];
   // chuyển trang (kể cả nút Back của điện thoại) thì đóng mọi tờ thông tin đang mở
@@ -365,7 +373,6 @@ async function init() {
   try { initSeason(); initFxPanel(); } catch (e) { console.warn('season', e); }
   initMarks();
   initTapFx();
-  setTimeout(warmUp, 1200);
   chrome();
   try { initBackFab(ctx); } catch (e) { console.warn('backfab', e); }
   // v32: thanh trên trong suốt; cuộn xuống thì thành kính mờ để chữ trang không đè tiêu đề
@@ -388,6 +395,8 @@ async function init() {
     openKanji(k.textContent);
   });
   route();
+  // v40: tính sẵn lúc rảnh SAU khi đã tải xong dữ liệu (v39 hẹn 1,2 giây từ lúc mở app — trên điện thoại dữ liệu chưa tải xong nên tính sẵn trên kho rỗng)
+  setTimeout(warmUp, 1200);
   announceUpdate();
   registerSW();
   try { navigator.storage?.persist?.(); } catch { }

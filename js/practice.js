@@ -15,6 +15,7 @@ import { dueDirs, status, stats, isLeech, isStar, progVersion } from './srs.js';
 import { ttsReady } from './tts.js';
 import { recForm, weakForms } from './fstat.js';
 import { sentDue, dueSentQs } from './dich.js';
+import { fillSlots, nextFrame, loadingHTML, curGen } from './lazy.js';
 
 const cap = s => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
 const sentHTML = jp => `<p class="after-sent" lang="ja">${rubyHTML(jp, true)}</p>`;
@@ -43,16 +44,27 @@ export async function setupPage(view, ctx, { key, title, intro = '', fields, rea
       <button class="btn btn-primary btn-block" data-act="start">Bắt đầu</button>
     </form>`;
   const f = view.querySelector('.setup');
-  const upd = () => {
+  // v40: đếm số câu phù hợp phải dựng thử cả bộ câu → làm sau khi trang đã hiện (vòng ⟳ ở dòng đếm), đổi lựa chọn nhanh thì bỏ lượt cũ
+  let updN = 0;
+  const upd = async () => {
+    const my = ++updN, gen = curGen(), c = f.querySelector('.setup-count');
+    c.innerHTML = loadingHTML('Đang đếm câu…');
+    await nextFrame();
+    if (my !== updN || gen !== curGen()) return;
     const x = { ...read(f), count: +readChip(f, 'count') };
     const n = build({ ...x, count: 999 }).length;
-    f.querySelector('.setup-count').textContent = n ? `Có ${n} câu phù hợp.` : (empty || 'Chưa có câu nào cho lựa chọn này.');
+    c.textContent = n ? `Có ${n} câu phù hợp.` : (empty || 'Chưa có câu nào cho lựa chọn này.');
     f.querySelector('[data-act=start]').disabled = !n;
   };
   bindChips(f, upd); upd();
-  f.querySelector('[data-act=start]').onclick = async () => {
+  f.querySelector('[data-act=start]').onclick = async e => {
+    const b = e.currentTarget;
+    if (b.disabled) return;
     const x = { ...read(f), count: +readChip(f, 'count') };
+    b.disabled = true; b.innerHTML = '<span class="tn-spin" aria-hidden="true"></span> Đang soạn câu…';
     await kvSet(key, x);
+    await nextFrame();
+    if (!b.isConnected) return;
     ctx.backTo = route;
     runDrill(view, build(x), ctx, { title: drillTitle || title, again: () => ctx.go(route, true), ...drillOpts });
   };
@@ -60,7 +72,23 @@ export async function setupPage(view, ctx, { key, title, intro = '', fields, rea
 }
 
 // ---------- F2: ghép câu từ câu ví dụ ----------
+const _exc = new WeakMap(); // v40: nhớ cách chia mảnh của từng câu ví dụ (chia lại mỗi lần đếm / dựng câu rất tốn)
 export function exChunks(ex) {
+  if (_exc.has(ex)) return _exc.get(ex);
+  const r = exChunksNow(ex);
+  _exc.set(ex, r);
+  return r;
+}
+// lúc máy rảnh: chia mảnh trước câu ví dụ của các từ đã học (từng mẻ nhỏ) → mở "Ghép câu từ ví dụ" đếm câu ngay
+export async function warmCau(frame) {
+  let t = performance.now();
+  for (const it of D.vocab) {
+    if (!(it.ex || []).length || status(it) === 'new') continue;
+    for (const e of it.ex) if (e.vi) exChunks(e);
+    if (performance.now() - t > 6) { await frame(); t = performance.now(); }
+  }
+}
+function exChunksNow(ex) {
   const s = (ex.jp || '').replace(/\[\[|\]\]/g, '').replace(END_PUNCT, '');
   if (/^[AB]：/.test(s) || s.includes('B：')) return null; // hội thoại A–B: bỏ
   const ch = Array.isArray(ex.chunks) && ex.chunks.length >= 3 ? ex.chunks : autoChunks(s);
@@ -462,45 +490,65 @@ export async function renderMixed(view, ctx) {
 }
 
 // ---------- F1: trang các dạng bài ----------
+// v40: các con số trên thẻ (dò cả kho ~5.000 từ) điền ở các khung hình sau, thẻ hiện ngay; nhớ số cho tới khi tiến độ đổi
+let _hubKey = '', _hubN = {};
+let _verbs = null, _adjs = null, _vaKey = '';
+const verbsAdjs = () => {
+  const k = `${D.items.size}:${D.vocab.length}`;
+  if (_vaKey !== k) { _vaKey = k; _verbs = D.vocab.filter(it => verbInfo(it)); _adjs = D.vocab.filter(it => adjInfo(it)); }
+  return [_verbs, _adjs];
+};
+const HUB_N = {
+  new: () => stats(D.vocab).new,
+  hv: () => D.vocab.filter(it => it.hv && it.kanji && status(it) === 'new').length || null,
+  star: () => [...D.vocab, ...D.kanji].filter(x => isStar(x.id)).length || null,
+  conf: () => D.vocab.filter(it => (it.confuse || []).length).length || null,
+  leech: () => [...D.vocab, ...D.kanji].filter(isLeech).length || null,
+  lverbs: () => verbsAdjs()[0].filter(it => status(it) !== 'new').length,
+  verbs: () => verbsAdjs()[0].length,
+  adjs: () => verbsAdjs()[1].length,
+  doc: () => D.dialog.length + D.text.length || null,
+  sent: () => { const n = mixedDue().sent.length; return n ? n + ' đến hạn' : null; },
+  tpl: () => tplPatterns().length,
+};
 export function renderHub(view) {
-  const st = stats(D.vocab);
-  const verbs = D.vocab.filter(it => verbInfo(it)), adjs = D.vocab.filter(it => adjInfo(it));
-  const learnedVerbs = verbs.filter(it => status(it) !== 'new').length;
+  const key = `${progVersion()}:${D.items.size}:${D.dialog.length + D.text.length}:${Math.floor(Date.now() / 60e3)}`;
+  if (key !== _hubKey) { _hubKey = key; _hubN = {}; }
+  const C = _hubN;
   const due = mixedDue(), nDue = due.vocab.length + due.kanji.length + due.grammar.length + due.sent.length;
-  const newHv = D.vocab.filter(it => it.hv && it.kanji && status(it) === 'new').length || null;
-  const nConf = D.vocab.filter(it => (it.confuse || []).length).length;
-  const nLeech = [...D.vocab, ...D.kanji].filter(isLeech).length;
-  const card = (href, ic, t, d, n) => `<a class="mode" href="${href}">${icon(ic)}<span><b>${t}</b><small>${rich(d)}</small></span>${n != null ? `<span class="mode-n">${n}</span>` : ''}</a>`;
+  const num = k => (k in C ? (C[k] != null ? `<span class="mode-n">${C[k]}</span>` : '')
+    : `<span class="mode-n mode-wait" data-slot="hn-${k}"><span class="tn-loading tn-inline"><span class="tn-spin"></span></span></span>`);
+  const card = (href, ic, t, d, k) => `<a class="mode" href="${href}">${icon(ic)}<span><b>${t}</b><small>${rich(d)}</small></span>${k ? num(k) : ''}</a>`;
   view.innerHTML = `<h1 class="h1">Luyện tập</h1>${wtabs('hub')}
     <p class="muted small">Mặc định mọi bài chỉ dùng từ bạn đã học; đổi được ở phần "Lấy từ nào" của từng bài.</p>
     ${nDue ? `<a class="btn btn-primary btn-block" href="#/onhon">Ôn hỗn hợp hôm nay · ${nDue} mục đến hạn</a>` : ''}
     <h2 class="h2">Từ vựng</h2>
     <nav class="modes">
-      ${card('#/moi', 'plus', 'Học từ mới', 'Xem thẻ rồi bấm "Đã học" — không kiểm tra ngay', st.new)}
-      ${card('#/moi/doan', 'plus', 'Học từ mới — đoán nghĩa trước', 'Từ Hán: nhìn âm Hán Việt (冷凍[れいとう] = LÃNH ĐÔNG) đoán nghĩa trước, rồi mới xem thẻ', newHv)}
+      ${card('#/moi', 'plus', 'Học từ mới', 'Xem thẻ rồi bấm "Đã học" — không kiểm tra ngay', 'new')}
+      ${card('#/moi/doan', 'plus', 'Học từ mới — đoán nghĩa trước', 'Từ Hán: nhìn âm Hán Việt (冷凍[れいとう] = LÃNH ĐÔNG) đoán nghĩa trước, rồi mới xem thẻ', 'hv')}
       ${card('#/hoc', 'quiz', 'Trắc nghiệm', 'Việt ↔ Nhật, đọc chữ Hán, nghe')}
       ${card('#/ghep', 'list', 'Ghép 6 cặp', 'Việt – Nhật, thể từ điển – thể ます, tự – tha, trái nghĩa, chữ Hán – Hán Việt')}
-      ${card('#/danhdau', 'star', 'Đã đánh dấu ★', 'Từ và chữ Hán bạn bấm ★ — ôn bằng trắc nghiệm hoặc ghép 8 cặp', [...D.vocab, ...D.kanji].filter(x => isStar(x.id)).length || null)}
+      ${card('#/danhdau', 'star', 'Đã đánh dấu ★', 'Từ và chữ Hán bạn bấm ★ — ôn bằng trắc nghiệm hoặc ghép 8 cặp', 'star')}
       ${card('#/luyen/cau', 'book', 'Ghép câu từ ví dụ', 'Sắp xếp mảnh thành câu ví dụ của từ đã học')}
       ${card('#/luyen/hanviet', 'quiz', 'Đoán nghĩa từ Hán Việt', 'Thấy từ và âm Hán Việt → chọn nghĩa. Không đổi lịch ôn')}
-      ${card('#/luyen/denham', 'list', 'Phân biệt từ dễ nhầm', 'Đặt các từ, mẫu ngữ pháp dễ nhầm cạnh nhau rồi chọn đúng theo câu', nConf || null)}
-      ${card('#/luyen/cungdau', 'quiz', 'Đánh từ cứng đầu', 'Từ và chữ Hán sai từ 4 lần trở lên: xem lại thẻ đầy đủ rồi luyện', nLeech || null)}
+      ${card('#/luyen/denham', 'list', 'Phân biệt từ dễ nhầm', 'Đặt các từ, mẫu ngữ pháp dễ nhầm cạnh nhau rồi chọn đúng theo câu', 'conf')}
+      ${card('#/luyen/cungdau', 'quiz', 'Đánh từ cứng đầu', 'Từ và chữ Hán sai từ 4 lần trở lên: xem lại thẻ đầy đủ rồi luyện', 'leech')}
     </nav>
     <h2 class="h2">Động từ và tính từ</h2>
     <nav class="modes">
-      ${card('#/luyen/chia', 'list', 'Luyện thể', 'Gõ thể, chuỗi biến đổi, nhận diện ngược, đổi câu, tự – tha, kính ngữ; tính từ, danh từ + だ; 60 giây tốc độ', learnedVerbs)}
-      ${card('#/luyen/the', 'quiz', 'Thể động từ trong câu', 'Bị động, sai khiến, khả năng… trong câu ngẫu nhiên', learnedVerbs)}
-      ${card('#/nguphap/luyen?t=conj', 'list', 'Chia động từ', 'Chọn thể đúng của từng động từ, có giải thích luật chia', verbs.length)}
-      ${card('#/luyen/tinhtu', 'book', 'Tính từ trong câu', 'Không ~, đã ~, trông có vẻ ~, quá ~; 重[おも]い → 重[おも]さ; trái nghĩa', adjs.length)}
+      ${card('#/luyen/chia', 'list', 'Luyện thể', 'Gõ thể, chuỗi biến đổi, nhận diện ngược, đổi câu, tự – tha, kính ngữ; tính từ, danh từ + だ; 60 giây tốc độ', 'lverbs')}
+      ${card('#/luyen/the', 'quiz', 'Thể động từ trong câu', 'Bị động, sai khiến, khả năng… trong câu ngẫu nhiên', 'lverbs')}
+      ${card('#/nguphap/luyen?t=conj', 'list', 'Chia động từ', 'Chọn thể đúng của từng động từ, có giải thích luật chia', 'verbs')}
+      ${card('#/luyen/tinhtu', 'book', 'Tính từ trong câu', 'Không ~, đã ~, trông có vẻ ~, quá ~; 重[おも]い → 重[おも]さ; trái nghĩa', 'adjs')}
     </nav>
     <h2 class="h2">Dịch, đọc & hội thoại</h2>
     <nav class="modes">
-      ${card('#/doc', 'chat', 'Hội thoại & bài đọc', 'Đọc song ngữ, dịch, đóng vai, điền từ khóa, câu hỏi, nghe cả bài', D.dialog.length + D.text.length || null)}
-      ${card('#/dich', 'book', 'Luyện dịch theo câu', 'Nhật ↔ Việt: chọn câu đúng, tự gõ (app chấm), nghe, ghép mảnh — câu ví dụ theo cấp', due.sent.length ? due.sent.length + ' đến hạn' : null)}
+      ${card('#/doc', 'chat', 'Hội thoại & bài đọc', 'Đọc song ngữ, dịch, đóng vai, điền từ khóa, câu hỏi, nghe cả bài', 'doc')}
+      ${card('#/dich', 'book', 'Luyện dịch theo câu', 'Nhật ↔ Việt: chọn câu đúng, tự gõ (app chấm), nghe, ghép mảnh — câu ví dụ theo cấp', 'sent')}
     </nav>
     <h2 class="h2">Ngữ pháp</h2>
     <nav class="modes">
-      ${card('#/luyen/ngphap', 'quiz', 'Ghép câu theo ngữ pháp', 'Mẫu ngữ pháp + động từ đã học → câu mới có câu dịch', tplPatterns().length)}
+      ${card('#/luyen/ngphap', 'quiz', 'Ghép câu theo ngữ pháp', 'Mẫu ngữ pháp + động từ đã học → câu mới có câu dịch', 'tpl')}
       ${card('#/nguphap/luyen', 'list', 'Bài tập ngữ pháp', '10 dạng: điền, sắp xếp, câu ★, tìm chỗ sai…')}
       ${card('#/nguphap/thithu', 'book', 'Thi thử', 'Đề ngắn theo cấp, tính giờ')}
     </nav>
@@ -510,4 +558,7 @@ export function renderHub(view) {
       ${card('#/chuhan/on', 'han', 'Ôn chữ Hán', 'Chữ → Hán Việt, Hán Việt → chữ')}
       ${card('#/luyen/giongchu', 'han', 'Chữ Hán trông giống', 'Từ bị che một chữ: chọn đúng giữa các chữ trông giống (未[み] / 末[まつ], 待[ま]つ / 持[も]つ)')}
     </nav>`;
+  const fns = {};
+  for (const k of Object.keys(HUB_N)) if (!(k in C)) fns['hn-' + k] = () => { const v = HUB_N[k](); C[k] = v; return v != null ? `<span class="mode-n">${v}</span>` : ''; };
+  fillSlots(view, fns, { budget: 6 });
 }

@@ -1,5 +1,6 @@
 // Chữ Hán: thẻ chữ (bấm vào kanji), trang danh sách, ôn chữ Hán, chữ của ngày.
 // Thẻ chữ Hán là "phần học Hán": chữ đang học và câu thơ không gắn furigana.
+import { appendChunks } from './lazy.js';
 import { esc, rich, kj, wordHTML, kanjiChars, shuffle, icon, toast, debounce } from './util.js';
 import { D, LEVELS, KGROUPS, report, unreport } from './data.js';
 import { status, dueDirs, errCount, isStar, toggleStar, stats, P, TOP } from './srs.js';
@@ -163,7 +164,9 @@ export function renderKanjiList(view) {
       <p class="muted small">Tải "file gửi skill" ở trang Dữ liệu, skill sẽ làm thẻ cho các chữ này (chữ xuất hiện nhiều làm trước).</p></details>` : ''}`;
   const grid = view.querySelector('.kgrid'), q = view.querySelector('.search');
   const tile = k => `<button type="button" class="ktile" data-kopen="${esc(k.char)}" data-bare><span class="ktile-c" lang="ja">${esc(k.char)}</span><span class="ktile-hv">${esc(k.hv)}</span><span class="dot dot-${status(k)}" title="${ST_LABEL[status(k)]}"></span></button>`;
+  let drawN = 0;
   const draw = () => {
+    drawN++;
     const s = q.value.trim().toLowerCase(), gs = readChips(view, 'groups'), lv = readChips(view, 'levels');
     const okK = k => (!gs.length || (k.groups || []).some(g => gs.includes(g))) && (!lv.length || lv.includes(k.level));
     const hit = k => !s || k.char === s || (k.hv || '').toLowerCase().includes(s) || (k.nghia || '').toLowerCase().includes(s);
@@ -183,11 +186,14 @@ export function renderKanjiList(view) {
     }
     const list = D.kanji.filter(k => okK(k) && hit(k));
     // v37: danh sách dài (hơn 1.700 chữ) chia khối 60 chữ — khối nằm ngoài màn hình trình duyệt bỏ qua, mở trang và cuộn không giật
+    // v40: 2 khối đầu hiện ngay, các khối sau ghép dần (mỗi khung hình 2 khối); tìm / lọc lại thì lượt ghép cũ dừng
     if (list.length > 120) {
       grid.className = 'kgrid-wrap';
-      const out = [];
-      for (let i = 0; i < list.length; i += 60) out.push(`<div class="kgrid kchunk">${list.slice(i, i + 60).map(tile).join('')}</div>`);
-      grid.innerHTML = out.join('');
+      const blocks = [];
+      for (let i = 0; i < list.length; i += 60) blocks.push(list.slice(i, i + 60));
+      grid.innerHTML = '';
+      const my = ++drawN;
+      appendChunks(grid, blocks, b => `<div class="kgrid kchunk">${b.map(tile).join('')}</div>`, { first: 2, per: 2, alive: () => my === drawN });
     } else {
       grid.className = 'kgrid';
       grid.innerHTML = list.map(tile).join('') || emptyState('Không có chữ nào khớp.');

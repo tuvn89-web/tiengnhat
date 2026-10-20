@@ -11,6 +11,7 @@ import { chips, bindChips, readChip, emptyState, bindSay } from './ui.js';
 import { goBack, crumbHTML, resultNavHTML, bindResultNav } from './nav.js';
 import { runLearn } from './learn.js';
 import { ttsReady } from './tts.js';
+import { nextFrame, loadingHTML, curGen } from './lazy.js';
 import { kvGet, kvSet, del } from './db.js';
 
 // ---------- nhãn ----------
@@ -86,34 +87,51 @@ function sentSources(L, pool) {
 const PLACE = { jv: 3, vj: 2, kr: 1, kh: 1, g: 5 };
 const FULL = { kr: 8, jv: 6, vj: 4, kh: 4, g: 18, read: 10, listen: 5 };
 export const buildLevelQs = (L, spec) => buildPoolQs(null, spec, L);
-// pool = {vocab, grammar, kanji}: đề từ một nhóm mục cho sẵn (bài kiểm tra cuối bài, ôn bài cũ); không có thì lấy cả cấp L
+// v40: soạn đề dần từng phần (mỗi lượt vài ms rồi nhường máy) — đề 55 câu soạn liền một mạch mất hơn 1 giây trên điện thoại → đứng hình
+export const buildLevelQsAsync = (L, spec) => buildPoolQsAsync(null, spec, L);
 export function buildPoolQs(pool, spec, L) {
+  const g = poolQsGen(pool, spec, L);
+  let r;
+  while (!(r = g.next()).done);
+  return r.value;
+}
+export async function buildPoolQsAsync(pool, spec, L, budget = 8) {
+  const g = poolQsGen(pool, spec, L), gen = curGen();
+  let r, t = performance.now();
+  while (!(r = g.next()).done) if (performance.now() - t > budget) {
+    await nextFrame(); t = performance.now();
+    if (gen !== curGen()) return null; // đã sang trang khác: thôi soạn
+  }
+  return r.value;
+}
+// pool = {vocab, grammar, kanji}: đề từ một nhóm mục cho sẵn (bài kiểm tra cuối bài, ôn bài cũ); không có thì lấy cả cấp L
+function* poolQsGen(pool, spec, L) {
   const out = [], used = new Set();
   const add = q => { if (q && !used.has(q.review.id + q.sk)) { used.add(q.review.id + q.sk); out.push(q); return true; } return false; };
   // từ vựng chung trước, từ chuyên ngành chỉ dùng khi thiếu
   const vs = (pool ? pool.vocab : vocabOf(L)).filter(v => v.reg !== 'kansai');
   const vocab = [...spread(vs.filter(v => !isSpec(v))), ...spread(vs.filter(isSpec))];
-  const take = (n, mk, cands) => { let k = 0; for (const c of cands) { if (k >= n) break; if (add(mk(c))) k++; } return n - k; };
+  const take = function* (n, mk, cands) { let k = 0; for (const c of cands) { if (k >= n) break; if (add(mk(c))) k++; yield; } return n - k; };
   let short = 0;
   // thẻ chữ Hán: thiếu thì bù bằng câu từ vựng
-  short += take(spec.kh || 0, kanjiQ, spread(pool ? pool.kanji : D.kanji.filter(k => k.level === L)));
-  short += take(spec.kr || 0, v => vocabQ(v, 'kr', v.level || L), vocab.filter(v => v.kanji));
-  short += take(spec.g || 0, grammarQ, spread(pool ? pool.grammar : D.grammar.filter(g => g.level === L)));
+  short += yield* take(spec.kh || 0, kanjiQ, spread(pool ? pool.kanji : D.kanji.filter(k => k.level === L)));
+  short += yield* take(spec.kr || 0, v => vocabQ(v, 'kr', v.level || L), vocab.filter(v => v.kanji));
+  short += yield* take(spec.g || 0, grammarQ, spread(pool ? pool.grammar : D.grammar.filter(g => g.level === L)));
   if (spec.read || spec.listen) {
     const src = sentSources(L, pool);
     const exPool = shuffle(src.map(s => s.ex));
     const usedEx = new Set();
     const mkS = listen => s => { if (usedEx.has(s.ex)) return null; usedEx.add(s.ex); return sentQ(s.src, s.ex, s.sibs, exPool, s.src.level || L, listen); };
-    short += take(spec.read || 0, mkS(false), spread(src, s => s.src.id));
+    short += yield* take(spec.read || 0, mkS(false), spread(src, s => s.src.id));
     if (ttsReady()) {
       const nl = spec.listen || 0, half = Math.ceil(nl / 2);
-      short += take(half, mkS(true), spread(src, s => s.src.id));
-      short += take(nl - half, v => vocabQ(v, 'au', L), vocab);
+      short += yield* take(half, mkS(true), spread(src, s => s.src.id));
+      short += yield* take(nl - half, v => vocabQ(v, 'au', L), vocab);
     } else short += spec.listen || 0;
   }
-  short += take(spec.jv || 0, v => vocabQ(v, 'jv', v.level || L), vocab);
-  short += take(spec.vj || 0, v => vocabQ(v, 'vj', v.level || L), vocab);
-  if (short > 0) take(short, v => vocabQ(v, Math.random() < .5 ? 'jv' : 'vj', v.level || L), vocab);
+  short += yield* take(spec.jv || 0, v => vocabQ(v, 'jv', v.level || L), vocab);
+  short += yield* take(spec.vj || 0, v => vocabQ(v, 'vj', v.level || L), vocab);
+  if (short > 0) yield* take(short, v => vocabQ(v, Math.random() < .5 ? 'jv' : 'vj', v.level || L), vocab);
   // xếp theo phần như đề thật: từ vựng – chữ Hán → ngữ pháp → đọc hiểu → nghe
   const order = ['kread', 'vocab', 'kanji', 'grammar', 'read', 'listen'];
   return order.flatMap(s => shuffle(out.filter(q => q.sk === s)));
@@ -169,18 +187,33 @@ export async function renderLevelHub(view, ctx) {
       return renderLevelHub(view, ctx);
     }
     const L = readChip(f, 'level');
-    const n = L ? buildLevelQs(L, FULL).length : 0;
     const c = f.querySelector('.setup-count');
-    if (c) c.textContent = n ? `Đề ${L} có ${n} câu${readChip(f, 'timer') === 'on' ? `, ${Math.ceil(n * 40 / 60)} phút` : ''}.${n < 40 ? ' Kho cấp này còn ít dữ liệu nên đề ngắn hơn.' : ''}` : '';
+    // v40: soạn sẵn đề của cấp đang chọn ở nền (từng phần, không đứng hình); số câu hiện khi soạn xong, bấm Bắt đầu dùng luôn đề này
+    if (L && pre?.L !== L) pre = { L, p: buildLevelQsAsync(L, FULL) };
+    if (!c) return;
+    if (!L) { c.textContent = ''; return; }
+    const my = pre, gen = curGen();
+    c.innerHTML = loadingHTML('Đang soạn đề…');
+    const qs = await my.p;
+    if (!qs || gen !== curGen() || my !== pre || !c.isConnected) return;
+    const n = qs.length;
+    c.textContent = n ? `Đề ${L} có ${n} câu${readChip(f, 'timer') === 'on' ? `, ${Math.ceil(n * 40 / 60)} phút` : ''}.${n < 40 ? ' Kho cấp này còn ít dữ liệu nên đề ngắn hơn.' : ''}` : '';
   };
+  let pre = null;
   bindChips(f, upd); upd();
   f.querySelector('[data-act=remind]').onchange = async e => { await setPrefs({ lvRemind: e.target.checked }); ctx.sessionDone?.(); };
   f.querySelector('[data-act=place]').onclick = () => { ctx.backTo = '#/trinhdo'; runPlacement(view, ctx); };
-  f.querySelector('[data-act=full]').onclick = async () => {
+  f.querySelector('[data-act=full]').onclick = async e => {
     const L = readChip(f, 'level'), timer = readChip(f, 'timer');
+    const b = e.currentTarget;
+    if (b.disabled) return;
+    b.disabled = true; b.innerHTML = '<span class="tn-spin" aria-hidden="true"></span> Đang soạn đề…';
     await kvSet('lvSetup', { level: L, timer });
+    const qs = await (pre?.L === L ? pre.p : buildLevelQsAsync(L, FULL));
+    pre = null;
+    if (!qs || !b.isConnected) return;
     ctx.backTo = '#/trinhdo';
-    runFull(view, ctx, L, timer === 'on');
+    runFull(view, ctx, L, timer === 'on', qs);
   };
   f.querySelectorAll('[data-pack]').forEach(b => b.onclick = () => { ctx.backTo = '#/trinhdo'; runPackCheck(view, ctx, b.dataset.pack); });
   const u = f.querySelector('[data-act=undo]');
@@ -242,9 +275,14 @@ function runPlacement(view, ctx) {
   const lv = levelsWithData();
   const st = { results: [], i: 0, secs: 0 };
   const done = () => showResult(view, ctx, { kind: 'xeplop', results: st.results, secs: st.secs });
-  const next = () => {
+  let nextQs = null;
+  const next = async () => {
     const L = lv[st.i];
-    const qs = buildLevelQs(L, PLACE);
+    // v40: soạn đề từng phần, trong lúc soạn hiện vòng ⟳
+    view.innerHTML = `<div class="page-wait">${loadingHTML(`Đang soạn đề ${L}…`)}</div>`;
+    const gen = curGen();
+    const qs = await (nextQs?.L === L ? nextQs.p : buildLevelQsAsync(L, PLACE));
+    if (!qs || gen !== curGen()) return;
     runDrill(view, qs, ctx, {
       title: `Xếp lớp nhanh · ${L}`, mode: 'test', noReview: true,
       onDone: (res, info) => {
@@ -256,8 +294,10 @@ function runPlacement(view, ctx) {
         view.innerHTML = `<section class="result lv-step">
           <p class="lv-step-l">${esc(L)}</p>
           <p class="result-score"><b>${res.filter(r => r.ok).length}</b><span>/${res.length}</span></p>
-          <p class="result-sub">${p}% — đạt. Làm tiếp phần ${esc(N)} (${buildLevelQs(N, PLACE).length} câu)?</p>
+          <p class="result-sub">${p}% — đạt. Làm tiếp phần ${esc(N)} (<span data-n>…</span> câu)?</p>
           <div class="row-btns stack"><button class="btn btn-primary" data-act="go">Làm tiếp ${esc(N)}</button><button class="btn btn-ghost" data-act="stop">Dừng, xem kết quả</button></div></section>`;
+        nextQs = { L: N, p: buildLevelQsAsync(N, PLACE) };
+        nextQs.p.then(q => { const el = view.querySelector('[data-n]'); if (el && q) el.textContent = q.length; });
         view.querySelector('[data-act=go]').onclick = () => { st.i++; next(); };
         view.querySelector('[data-act=stop]').onclick = done;
         window.scrollTo(0, 0);
@@ -266,8 +306,8 @@ function runPlacement(view, ctx) {
   };
   next();
 }
-function runFull(view, ctx, L, timer) {
-  const qs = buildLevelQs(L, FULL);
+function runFull(view, ctx, L, timer, pre) {
+  const qs = pre || buildLevelQs(L, FULL);
   runDrill(view, qs, ctx, {
     title: `Thi vượt cấp ${L}`, mode: 'test', noReview: true, timeLimit: timer ? qs.length * 40 : 0,
     onDone: (res, info) => (info.empty ? goBack(ctx) : showResult(view, ctx, { kind: 'vuotcap', results: [{ L, res }], secs: info.secs })),

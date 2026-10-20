@@ -1,6 +1,7 @@
 // Thẻ từ đầy đủ: đồng âm, đồng nghĩa, trái nghĩa, cụm đi kèm, ví dụ theo tình huống,
 // bảng chia động từ / tính từ kèm nghĩa, cặp tự–tha, kính ngữ, trợ số từ, thang phó từ, câu đáp, từ gốc katakana.
 import { esc, rubyHTML, wordHTML, reading, icon, rich, kanjiChars } from './util.js';
+import { slotHTML, fillSlots } from './lazy.js';
 import { D, TOPICS, POS, REG, CTX } from './data.js';
 import { S } from './settings.js';
 import { FORMS, FORM_LEVEL, verbInfo, conjugate, formVi, GROUP_VI, hasForm } from './conj.js';
@@ -160,7 +161,15 @@ export function confuseCmpHTML(items, { focus = null, picked = null, title = 'So
     <td>${o.hv ? `<small class="cmp-hv">${esc(o.hv)}</small>` : ''}${esc(o.vi)}${o.id === picked ? ' <small class="cmp-mark">← bạn chọn</small>' : ''}</td></tr>`).join('')}</tbody></table></div>`;
 }
 
-export function wordDetailHTML(it, { compact = false } = {}) {
+// v40: lazyRest — phần dưới (ví dụ, bảng chia, đồng nghĩa…) dựng ở khung hình sau; người gọi phải gọi fillWordMore(root) sau khi gắn HTML
+const _rest = new Map();
+let _rn = 0;
+export function fillWordMore(root) {
+  const fns = {};
+  root.querySelectorAll('[data-slot^="wdm-"]').forEach(el => { const k = el.dataset.slot, f = _rest.get(k); _rest.delete(k); if (f) fns[k] = f; });
+  return fillSlots(root, fns);
+}
+export function wordDetailHTML(it, { compact = false, lazyRest = false } = {}) {
   const tn = (it.topics || []).map(t => TOPICS[t] || t).join(', ');
   const reg = it.reg && it.reg !== 'thuong' && !tn.includes(REG[it.reg]) ? REG[it.reg] : '';
   const meta = [POS[it.pos] || it.pos, it.level, tn, reg].filter(Boolean);
@@ -174,16 +183,21 @@ export function wordDetailHTML(it, { compact = false } = {}) {
     <p class="wd-vi">${esc(it.vi)}</p>
     ${it.std ? `<p class="wd-std">Tiếng chuẩn: <span lang="ja">${rich(it.std)}</span></p>` : ''}
     ${(it.ex || []).slice(0, 1).map(e => exampleHTML(e)).join('')}</div>`;
-  const homo = homophones(it);
-  return `<div class="wd">${head}
+  const top = `${head}
     ${kanjiStripHTML(it)}
     <p class="wd-vi">${esc(it.vi)}</p>
     ${confuseCmpHTML([it, ...confuseOf(it)].slice(0, 4), { focus: it.id, title: 'Dễ nhầm — so sánh' })}
     ${it.std ? `<p class="wd-std">Tiếng chuẩn: <span lang="ja">${rich(it.std)}</span></p>` : ''}
     <p class="wd-meta">${meta.map(esc).join(' / ')}</p>
     ${verbTagHTML(it)}
-    ${gocHTML(it)}
-    ${(it.coll || []).length ? `<h3 class="h3">Cụm hay đi kèm</h3><ul class="coll">${it.coll.map(c => `<li><span lang="ja">${rich(c.jp)}</span><small>${esc(c.vi || '')}</small></li>`).join('')}</ul>` : ''}
+    ${gocHTML(it)}`;
+  const rest = () => restHTML(it);
+  if (lazyRest) { const k = 'wdm-' + (++_rn); _rest.set(k, rest); return `<div class="wd">${top}${slotHTML(k, 'Đang tải ví dụ…', 160)}</div>`; }
+  return `<div class="wd">${top}${rest()}</div>`;
+}
+function restHTML(it) {
+  const homo = homophones(it);
+  return `${(it.coll || []).length ? `<h3 class="h3">Cụm hay đi kèm</h3><ul class="coll">${it.coll.map(c => `<li><span lang="ja">${rich(c.jp)}</span><small>${esc(c.vi || '')}</small></li>`).join('')}</ul>` : ''}
     ${examplesHTML(it, 9)}
     ${refsRow('Đồng nghĩa', it.syn) + refsRow('Trái nghĩa', it.ant) + refsRow('Đồng âm', homo.map(o => o.id)) + refsRow('Cùng gốc', it.rel) + pairHTML(it) + keigoHTML(it)}
     ${conjTableHTML(it)}
@@ -194,6 +208,5 @@ export function wordDetailHTML(it, { compact = false } = {}) {
     ${replyHTML(it)}
     ${it.note ? `<p class="wd-note">${rich(it.note)}</p>` : ''}
     ${it.flag ? `<p class="wd-flag">Mục này đang được đánh dấu cần kiểm lại.</p>` : ''}
-    ${D.reports[it.id] && !D.reports[it.id]._del ? `<p class="wd-flag">Bạn đã báo sai mục này${D.reports[it.id].note ? ': ' + rich(D.reports[it.id].note) : ''}.</p>` : ''}
-  </div>`;
+    ${D.reports[it.id] && !D.reports[it.id]._del ? `<p class="wd-flag">Bạn đã báo sai mục này${D.reports[it.id].note ? ': ' + rich(D.reports[it.id].note) : ''}.</p>` : ''}`;
 }

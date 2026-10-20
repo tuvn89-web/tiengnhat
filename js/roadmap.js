@@ -8,7 +8,8 @@ import { kvGet, kvSet } from './db.js';
 import { passedLevels, thresholds } from './level.js';
 import { kanaProgress, kanaDone } from './kana.js';
 import { mixedDue } from './practice.js';
-import { allLessons, lessonsOf, currentLesson, lessonCardHTML, lessonListHTML, lessonState, dueReviews, reviewDue, isDone, STEPS } from './lesson.js';
+import { allLessons, lessonsOf, currentLesson, lessonCardHTML, lessonListHTML, lessonRowsOf, lessonState, dueReviews, reviewDue, isDone, STEPS } from './lesson.js';
+import { slotHTML, lazyDetails, bindLazy, fillSlots, appendChunks } from './lazy.js';
 
 export const GOALS = [['N5', 'N5'], ['N4', 'N4'], ['N3', 'N3 · 特定技能2号'], ['N2', 'N2']];
 const START = [['zero', 'Chưa biết chữ nào'], ['kana', 'Đã biết kana'], ['n5', 'Khoảng N5'], ['n4', 'Khoảng N4']];
@@ -140,32 +141,44 @@ export function stageInfo() {
   const cur = kanaDone() ? (st.find(x => !x.passed)?.L || 'N1') : 'kana';
   return { st, cur };
 }
+// v40: dựng từng phần — tiêu đề + chặng đang học (đủ một màn hình) hiện ngay; các chặng sau dựng dần (⟳ "Đang tải…");
+// "Danh sách N bài", "Theo gói dữ liệu" chỉ dựng khi mở, dài thì ghép từng mẻ. Trước v40 dựng cả ~4.300 phần tử một lần → khựng.
 export function renderRoadmap(view, ctx) {
   const { st, cur } = stageInfo();
   const G = goal(), gi = LEVELS.indexOf(G), { lo } = thresholds();
   const kp = kanaProgress();
-  const fc = forecast();
+  const lazy = {};
   const stage = (x, i) => {
     const state = x.passed ? 'done' : x.L === cur ? 'cur' : 'next';
     const dim = state === 'next' || i > gi;
+    const lessons = () => {
+      const ls = lessonsOf(x.L);
+      if (!ls.length) return '';
+      const nd = ls.filter(isDone).length, cl = currentLesson(x.L);
+      lazy['ls-' + x.L] = body => {
+        const { list, row } = lessonRowsOf(x.L);
+        body.innerHTML = '<ol class="lessons"></ol>';
+        appendChunks(body.firstChild, list, row, { first: 12 });
+      };
+      return `<p class="sub-label">Bài học · xong ${nd}/${ls.length}${ls[0].auto ? ' <small class="muted">(app tự chia bài từ gói dữ liệu)</small>' : ''}</p>
+          ${state === 'cur' && cl ? lessonCardHTML(cl) : ''}
+          ${lazyDetails('ls-' + x.L, `Danh sách ${ls.length} bài`, { open: state === 'cur', label: 'Đang tải danh sách bài…' })}`;
+    };
+    const packs = () => {
+      if (!x.packs.length) return '';
+      lazy['pk-' + x.L] = body => {
+        const li = p => { const s = packStat(p); return `<li class="pack"><span class="pack-t"><b>${rich(p.title)}</b><span class="mini"><i style="width:${s.total ? (s.learned / s.total) * 100 : 0}%"></i></span><small class="muted">${{ vocab: 'Từ vựng', grammar: 'Ngữ pháp', kanji: 'Chữ Hán' }[p.type] || ''} · ${s.learned}/${s.total}</small></span>${packAction(p, s)}</li>`; };
+        body.innerHTML = '<ul class="packs"></ul>';
+        appendChunks(body.firstChild, x.packs, li, { first: 10 });
+      };
+      return lazyDetails('pk-' + x.L, `Theo gói dữ liệu · ${x.packs.length} gói`, { label: 'Đang tải các gói…' });
+    };
     return `<section class="card stage stage-${state}${dim ? ' is-dim' : ''}" id="st-${x.L}">
       <div class="stage-h"><h2 class="h2">Chặng ${esc(x.L)}${i > gi ? ' <small>(ngoài mục tiêu)</small>' : ''}</h2><span class="stage-b">${state === 'done' ? 'Đã qua' : state === 'cur' ? 'Đang học' : 'Sắp tới'}</span></div>
       ${x.total ? `<div class="stack-bar" role="img" aria-label="Đã thuộc ${x.known}, đang học ${x.learned - x.known}, tổng ${x.total}"><i class="sb-known" style="width:${(x.known / x.total) * 100}%"></i><i class="sb-learning" style="width:${((x.learned - x.known) / x.total) * 100}%"></i></div>
         <p class="small muted">${x.learned}/${x.total} mục đã học (${x.known} đã thuộc) · ${x.packs.length} gói</p>` : '<p class="small muted">Kho chưa có dữ liệu chặng này — sẽ có trong các đợt dữ liệu tới.</p>'}
-      ${(() => {
-        const ls = lessonsOf(x.L);
-        if (!ls.length) return '';
-        const nd = ls.filter(isDone).length, cl = currentLesson(x.L);
-        return `<p class="sub-label">Bài học · xong ${nd}/${ls.length}${ls[0].auto ? ' <small class="muted">(app tự chia bài từ gói dữ liệu)</small>' : ''}</p>
-          ${state === 'cur' && cl ? lessonCardHTML(cl) : ''}
-          <details ${state === 'cur' ? 'open' : ''}><summary>Danh sách ${ls.length} bài</summary>${lessonListHTML(x.L)}</details>`;
-      })()}
-      ${x.packs.length ? (() => {
-        const rows = x.packs.map(p => [p, packStat(p)]);
-        const li = ([p, s]) => `<li class="pack"><span class="pack-t"><b>${rich(p.title)}</b><span class="mini"><i style="width:${s.total ? (s.learned / s.total) * 100 : 0}%"></i></span><small class="muted">${{ vocab: 'Từ vựng', grammar: 'Ngữ pháp', kanji: 'Chữ Hán' }[p.type] || ''} · ${s.learned}/${s.total}</small></span>${packAction(p, s)}</li>`;
-        const next = rows.filter(([, s]) => s.fresh).slice(0, 4);
-        return `<details><summary>Theo gói dữ liệu · ${rows.length} gói</summary><ul class="packs">${rows.map(li).join('')}</ul></details>`;
-      })() : ''}
+      ${lessons()}
+      ${packs()}
       ${x.total ? `<p class="small">${x.passed ? `Đã qua: Thi vượt cấp ${esc(x.L)} đạt từ ${lo}%.` : `Qua chặng khi <b>Thi vượt cấp ${esc(x.L)}</b> đạt từ ${lo}%.`} <button type="button" class="btn btn-ghost btn-sm" data-test="${esc(x.L)}">Thi vượt cấp ${esc(x.L)}</button></p>` : ''}
     </section>`;
   };
@@ -176,20 +189,28 @@ export function renderRoadmap(view, ctx) {
         <tr><th scope="row">Katakana</th><td><span class="mini"><i style="width:${(kp.k / kp.kt) * 100}%"></i></span></td><td class="num">${kp.k}/${kp.kt}</td></tr></tbody></table>
       <p class="small">${D.prefs.kanaOK ? 'Đã đánh dấu: biết kana.' : 'Qua chặng khi thuộc 90% chữ cơ bản của hai bảng.'} <a class="btn btn-ghost btn-sm" href="#/kana">Mở bảng kana</a></p>
     </section>`;
-  // chặng đang học lên đầu, rồi các chặng tiếp theo; chặng đã qua xuống cuối
+  // chặng đang học lên đầu, rồi các chặng tiếp theo; chặng đã qua xuống cuối.
+  // Chặng đầu tiên (đang học) dựng ngay; các chặng còn lại là chỗ trống điền dần.
   const shown = st.slice(0, 4).map((x, i) => [x, i]);
   const open = shown.filter(([x]) => !x.passed), done = shown.filter(([x]) => x.passed);
-  const top = (cur === 'kana' ? kanaSec : '') + open.map(([x, i]) => stage(x, i)).join('');
-  const bottom = (cur !== 'kana' ? kanaSec : '') + done.map(([x, i]) => stage(x, i)).join('');
+  const slots = {};
+  const later = ([x, i]) => { slots['st-' + x.L] = () => stage(x, i); return slotHTML('st-' + x.L, `Đang tải chặng ${x.L}…`, 180); };
+  const top = (cur === 'kana' ? kanaSec : '') + open.map((xi, k) => (k === 0 ? stage(...xi) : later(xi))).join('');
+  const bottom = (cur !== 'kana' ? kanaSec : '') + done.map(later).join('');
+  slots.fc = () => { const fc = forecast(); return fc ? `<p class="note small">${fc}</p>` : ''; };
   view.innerHTML = `<h1 class="h1">Lộ trình</h1>
     <p class="lv-goal">Mục tiêu <b>${esc(GOALS.find(g => g[0] === G)?.[1] || G)}</b> · ${mins()} phút/ngày <a class="btn btn-ghost btn-sm" href="#/batdau">Đổi</a></p>
-    ${fc ? `<p class="note small">${fc}</p>` : ''}
+    ${slotHTML('fc', 'Đang tính dự báo…', 44)}
     <p class="small muted">Mỗi chặng chia thành bài học: từ mới, chữ Hán, ngữ pháp, luyện tập, đọc & hội thoại, kiểm tra cuối bài. Chặng đang học ở trên cùng, chặng đã qua ở cuối trang; bài và chặng sau vẫn mở được (không khóa).</p>
     <div class="row-btns wrap"><a class="btn btn-ghost btn-sm" href="#/noiduoc">Nói được gì</a><a class="btn btn-ghost btn-sm" href="#/doc">Hội thoại & bài đọc</a></div>
     ${top}
     ${bottom ? `<h2 class="h2 stage-sep">Chặng đã qua</h2>${bottom}` : ''}
     <p class="small muted">Chặng N1 sẽ thêm khi kho dữ liệu làm đến N1. <a href="#/huongdan">Xem bài hướng dẫn học theo từng cấp</a>.</p>`;
-  view.querySelectorAll('[data-test]').forEach(b => b.onclick = async () => {
+  const go = bindLazy(view, lazy);
+  fillSlots(view, slots, { lazy: go });
+  view.addEventListener('click', async e => {
+    const b = e.target.closest('[data-test]');
+    if (!b) return;
     await kvSet('lvSetup', { ...(await kvGet('lvSetup', {})), level: b.dataset.test });
     ctx.go('#/trinhdo');
   });
@@ -219,7 +240,15 @@ export function roadmapCardHTML() {
 
 // ---------- Kế hoạch hôm nay + dự báo ----------
 function learnedSinceT(list, t) { let n = 0; for (const it of list) { const r = P.get(it.id); if (r?.first >= t && status(it) !== 'new') n++; } return n; }
+// v40: dự báo duyệt hết mọi mục → nhớ kết quả, chỉ tính lại khi tiến độ / kho / mục tiêu / nhịp học đổi
+let _fc = null, _fcKey = '';
 export function forecast() {
+  const key = `${progVersion()}:${D.items.size}:${startOfDay()}:${goal()}:${mins()}:${JSON.stringify(pace())}`;
+  if (_fcKey === key) return _fc;
+  _fc = forecastNow(); _fcKey = key;
+  return _fc;
+}
+function forecastNow() {
   const G = goal(), gi = LEVELS.indexOf(G);
   if (gi < 0) return '';
   const lvls = LEVELS.slice(0, gi + 1);

@@ -3,7 +3,7 @@
 // riêng phần "Xem thử" chỉ đổi tạm (mở lại app là về như thật).
 import { esc, toast } from './util.js';
 import { S, saveSettings } from './settings.js';
-import { seasonTry, seasonOverride, seasonOverrides, seasonReduced, HOLIDAYS, screenHz, fxFpsNow, fxQuality } from './season.js';
+import { seasonTry, seasonOverride, seasonOverrides, seasonReduced, HOLIDAYS, screenHz, fxFpsNow, fxQuality, fxThread } from './season.js';
 
 const MONTHS = ['Tháng 1 — năm mới', 'Tháng 2 — hoa mai Nhật', 'Tháng 3 — hoa đào, hoa cải', 'Tháng 4 — anh đào', 'Tháng 5 — lá non, tử đằng', 'Tháng 6 — mùa mưa, cẩm tú cầu',
   'Tháng 7 — Thất tịch, bụi sao', 'Tháng 8 — pháo hoa, đom đóm', 'Tháng 9 — trăng thu, chuồn chuồn', 'Tháng 10 — lá bạch quả', 'Tháng 11 — lá phong', 'Tháng 12 — tuyết'];
@@ -19,7 +19,7 @@ const SEL = [ // [khoá cài đặt, nhãn, lựa chọn]
 export const FPS_OPTS = () => [['auto', `Theo màn hình (${screenHz()} Hz)`], ['60', 'Tối đa 60 khung/giây'], ['90', 'Tối đa 90 khung/giây'], ['120', 'Tối đa 120 khung/giây']];
 export function fpsText() {
   const f = fxFpsNow(), hz = screenHz(), cap = +S.fxFps || 0;
-  return `Màn hình ~${hz} Hz · nền đang vẽ ${f ? `${f} khung/giây` : '— (đang tắt)'}`
+  return `Màn hình ~${hz} Hz · nền đang vẽ ${f ? `${f} khung/giây${fxThread() === 'worker' ? ' (luồng riêng)' : ''}` : '— (đang tắt)'}`
     + (cap > hz ? ` · màn hình chỉ có ${hz} Hz nên tối đa ${hz}` : '') + (fxQuality() ? ' · đã tự giảm độ nét, số hạt cho đỡ giật' : '');
 }
 const PREVIEW = [ // xem thử tạm: [khoá, nhãn, lựa chọn] — '' = như thật

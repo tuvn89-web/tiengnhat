@@ -740,3 +740,51 @@ Rà lại nghĩa mà app tự ghép cho các thể (có thể …, đã …, đa
 **Tệp thay đổi**:
 - Mã: `js/app.js`, `js/lesson.js`, `js/dot6.js`, `js/practice.js`, `js/roadmap.js`, `js/srs.js`, `js/sync.js`, `js/kanji.js`, `js/pairs8.js`, `js/quiz.js`, `js/drill.js`, `js/marks.js`, `css/app.css`, `js/util.js`, `sw.js`.
 - `HUONG-DAN.md`.
+
+## 49. Bản v40 (20/10/2026): trang dựng từng phần, hiệu ứng nền chạy ở luồng riêng
+
+Đo trên máy giả lập chạy chậm 4 lần (gần điện thoại tầm trung), thời gian đứng hình lâu nhất khi bấm sang trang:
+
+| Trang | v39 | v40 |
+|---|---|---|
+| Kiểm tra trình độ | 1.124 ms | dưới 50 ms |
+| Dữ liệu | 452 ms | ~80–100 ms |
+| Ôn nhanh 3 phút | 260 ms | ~80–110 ms |
+| Lộ trình | 241 ms | ~70–100 ms |
+| Học từ mới · Luyện tập · Ngữ pháp · Ghép câu · Kho từ | 118–174 ms | ~50–100 ms |
+| Sang câu sau trong lượt học | 55–110 ms | phần lớn dưới 50 ms |
+
+Phần còn lại của mỗi lần chuyển trang chủ yếu là trình duyệt tính bố cục và dựng chữ Nhật lần đầu.
+
+**Dựng từng phần:**
+- Phần vừa đủ một màn hình hiện ngay; phần sau dựng dần, mỗi khung hình một mẻ nhỏ.
+- Chỗ chưa xong có vòng ⟳ "Đang tải…". Vòng chỉ lộ ra nếu chờ quá 0,15 giây, nên không nhấp nháy. Ở chế độ giảm chuyển động thì vòng đứng yên.
+- **Lộ trình:**
+  - Chặng đang học hiện ngay, các chặng sau điền dần.
+  - "Danh sách N bài" và "Theo gói dữ liệu" chỉ dựng khi mở.
+  - Cuộn tới đâu ưu tiên dựng tới đó.
+- **Kiểm tra trình độ:** đề soạn sẵn ở nền, từng phần; số câu hiện khi soạn xong; bấm Bắt đầu là dùng luôn đề đó.
+- **Kiểm tra cuối bài, Ôn bài cũ, Tình huống thật:** soạn đề từng phần, có vòng chờ.
+- **Danh sách dài (Dữ liệu, Ngữ pháp, Kho từ, Chữ Hán):** ghép dần từng mẻ. Dòng ngoài màn hình chưa được tính bố cục và vẽ cho tới khi cuộn tới.
+- **Bài học:** các câu của bài đọc, các bước và dòng từ nằm ngoài màn hình cũng chưa được tính bố cục cho tới khi cuộn tới.
+- **Luyện tập:** các thẻ hiện ngay, con số điền sau.
+- **Các trang chọn bài luyện** (Ghép câu, Thể động từ trong câu…): dòng "Có N câu phù hợp" đếm sau khi trang đã hiện.
+- **Thẻ từ mới:** phần dưới (ví dụ, bảng chia, đồng nghĩa…) dựng ở khung hình sau.
+
+**Tính nhanh hơn:**
+- Đáp án nhiễu: tra bảng "nghĩa → từ" thay vì so nghĩa với cả kho 5.000 từ, và chỉ giữ ~16 ứng viên tốt nhất thay vì xếp cả kho. Nhanh hơn khoảng 3 lần.
+- Câu kế được soạn sẵn trong lúc đang làm câu hiện tại.
+- Phần ngữ pháp của mọi câu ví dụ dựng thành bảng một lần.
+- Cách chia mảnh câu ví dụ được nhớ lại, không chia lại mỗi lần.
+- **Sửa lỗi của v39:** việc tính sẵn lúc rảnh trước đây có thể chạy khi dữ liệu chưa tải xong (điện thoại tải lâu hơn 1,2 giây), nên không có tác dụng. Nay chỉ chạy sau khi dữ liệu đã tải.
+- Trình duyệt không còn phải tính lại kiểu cả trang mỗi khi trang dài thêm.
+
+**Hiệu ứng nền chạy ở luồng riêng** (Web Worker + OffscreenCanvas):
+- Trang dựng nặng cỡ nào nền cũng vẫn trôi đều. Đo thử: luồng chính bận 1,6 giây, nền vẫn vẽ đều, không khung nào trễ quá 17 ms.
+- Máy hoặc trình duyệt không hỗ trợ thì tự vẽ ở luồng chính như trước.
+- Bảng hiệu ứng nền ghi "(luồng riêng)" cạnh số khung/giây.
+- Quầng sáng của mây, đom đóm, đèn lồng, trăng được vẽ sẵn một lần thay vì tạo lại dải màu ở mỗi khung.
+
+**Tệp:**
+- Mới: `js/lazy.js` (dựng từng phần, vòng ⟳), `js/fxcore.js` (lõi vẽ nền), `js/fxworker.js` (luồng vẽ nền).
+- Sửa: `js/app.js`, `js/roadmap.js`, `js/lesson.js`, `js/level.js`, `js/practice.js`, `js/quiz.js`, `js/drill.js`, `js/gdrill.js`, `js/grammar.js`, `js/words.js`, `js/wordx.js`, `js/learn.js`, `js/kanji.js`, `js/datapage.js`, `js/season.js`, `js/fxpanel.js`, `js/util.js`, `css/app.css`, `sw.js`.

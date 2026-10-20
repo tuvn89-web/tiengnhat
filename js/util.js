@@ -13,7 +13,7 @@ export function isKanjiCh(ch) {
 }
 export const hasKanji = s => [...(s || '')].some(isKanjiCh);
 
-export const APP_VERSION = 'v39 · 20/10/2026'; // đổi cùng lúc với VERSION trong sw.js
+export const APP_VERSION = 'v40 · 20/10/2026'; // đổi cùng lúc với VERSION trong sw.js
 
 // Cú pháp: 漢字[よみ] — phần gắn cách đọc là chuỗi kanji liền trước "[".  [[...]] = phần ngữ pháp.
 // Dấu [ ] không đứng sau kanji, hoặc bên trong không phải kana, thì giữ nguyên như chữ thường.
@@ -275,9 +275,12 @@ function syncCol() {
   if (!v) return;
   const r = v.getBoundingClientRect(), cs = getComputedStyle(v);
   const l = r.left + parseFloat(cs.paddingLeft), rr = document.documentElement.clientWidth - (r.right - parseFloat(cs.paddingRight));
-  rootStyle.setProperty('--col-l', `${Math.round(l)}px`);
-  rootStyle.setProperty('--col-r', `${Math.max(0, Math.round(rr))}px`);
+  // v40: chỉ ghi khi đổi — #view cao lên mỗi lần trang dựng thêm một mẻ, ghi lại cùng giá trị vẫn bắt trình duyệt tính lại kiểu cả trang
+  const L = `${Math.round(l)}px`, R = `${Math.max(0, Math.round(rr))}px`;
+  if (L !== _colL) { _colL = L; rootStyle.setProperty('--col-l', L); }
+  if (R !== _colR) { _colR = R; rootStyle.setProperty('--col-r', R); }
 }
+let _colL = '', _colR = '';
 if ($('#view')) { syncCol(); new ResizeObserver(syncCol).observe($('#view')); }
 addEventListener('resize', syncCol);
 

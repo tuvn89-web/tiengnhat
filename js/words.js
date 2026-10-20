@@ -2,6 +2,7 @@ import { esc, wordHTML, hasKanji, isKanjiCh, plain, reading, rubyHTML, icon, toa
 import { D, LEVELS, TOPICS, POS, REG, saveUserItem, deleteUserItem, report, unreport } from './data.js';
 import { status, isStar, toggleStar, P, TOP, isLeech } from './srs.js';
 import { markBtnHTML } from './marks.js';
+import { appendChunks } from './lazy.js';
 import { chips, bindChips, readChip, readChips, openSheet, wordDetailHTML, field, emptyState, confirmBox } from './ui.js';
 
 const ST_LABEL = { new: 'Chưa học', learning: 'Đang học', known: 'Đã thuộc' };
@@ -37,16 +38,24 @@ export function renderWordList(view, ctx) {
     });
     shown = LIMIT; draw();
   };
-  const draw = () => {
-    view.querySelector('.list-count').textContent = `${res.length} từ`;
-    ul.innerHTML = res.slice(0, shown).map(it => `<li><button type="button" class="row" data-id="${esc(it.id)}">
+  // v40: 150 dòng mỗi lần ghép dần từng mẻ (20 dòng đầu hiện ngay), lọc / tìm lại thì mẻ cũ dừng
+  const rowH = it => `<li><button type="button" class="row" data-id="${esc(it.id)}">
       <span class="row-jp" lang="ja">${wordHTML(it, 'furi')}</span>
       <span class="row-vi">${esc(it.vi)}${isLeech(it) ? ' <small class="leech-tag">cứng đầu</small>' : ''}</span>
-      <span class="dot dot-${status(it)}" title="${ST_LABEL[status(it)]}"></span></button>${markBtnHTML(it.id)}</li>`).join('')
-      || `<li>${emptyState('Không có từ nào khớp.')}</li>`;
-    more.hidden = res.length <= shown;
+      <span class="dot dot-${status(it)}" title="${ST_LABEL[status(it)]}"></span></button>${markBtnHTML(it.id)}</li>`;
+  let drawN = 0;
+  const put = (from, to) => {
+    const my = drawN;
+    more.hidden = true;
+    appendChunks(ul, res.slice(from, to), rowH, { first: 20, alive: () => my === drawN }).then(ok => { if (ok && my === drawN) more.hidden = res.length <= shown; });
   };
-  more.onclick = () => { shown += LIMIT; draw(); };
+  const draw = () => {
+    view.querySelector('.list-count').textContent = `${res.length} từ`;
+    drawN++;
+    ul.innerHTML = res.length ? '' : `<li>${emptyState('Không có từ nào khớp.')}</li>`;
+    if (res.length) put(0, shown); else more.hidden = true;
+  };
+  more.onclick = () => { const from = shown; shown += LIMIT; put(from, shown); };
   q.addEventListener('input', debounce(run, 150));
   bindChips(view, run);
   ul.addEventListener('click', e => { const b = e.target.closest('[data-id]'); if (b) showWord(b.dataset.id, ctx, run); });

@@ -2,7 +2,7 @@ import { esc, wordHTML, wordKey, normVi, shuffle, beep, buzz, icon, toast, start
 import { D, LEVELS, TOPICS, logAct, actOf } from './data.js';
 import { S } from './settings.js';
 import { review, status, dueDirs, errCount, isStar, toggleStar, stats, progDir, learnedSince, setLearned, progSnapshot, progRestore, allMastered, isLeech, SLOW_DIRS } from './srs.js';
-import { confuseCmpHTML, isConfusable } from './wordx.js';
+import { confuseCmpHTML, isConfusable, fillWordMore } from './wordx.js';
 import { leechSeen, markLeech, leechCardHTML, leechBarHTML } from './leech.js';
 import { burstAtEl } from './season.js';
 import { runLearn, learnCardHTML, learnBarHTML, applyDecision } from './learn.js';
@@ -11,6 +11,7 @@ import { chips, bindChips, readChip, readChips, bindSay, sayBtn, wordDetailHTML,
 import { kvGet, kvSet } from './db.js';
 import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from './nav.js';
 import { runPairs, pairItems, modeSwHTML } from './pairs8.js';
+import { whenIdle } from './lazy.js';
 
 export const DIRS = [['vj', 'Việt → Nhật'], ['jv', 'Nhật → Việt'], ['kr', 'Kanji → cách đọc (không furigana)'], ['au', 'Nghe → nghĩa'], ['mix', 'Trộn']];
 export const SCRIPTS = [['kana', 'Chữ mềm/cứng'], ['furi', 'Kanji + furigana']];
@@ -133,34 +134,88 @@ export function answerOf(it, dir, script) {
   if (dir === 'kr') return { key: it.kana, html: `<span lang="ja">${esc(it.kana)}</span>`, jp: true };
   return { key: normVi(it.vi), html: esc(it.vi), jp: false };
 }
+// v40: chỉ mục "lõi nghĩa → các từ có nghĩa đó". Tìm từ đụng nghĩa bằng tra bảng thay vì so nghĩa với cả kho ~5.000 từ
+// (trước đây mỗi câu hỏi so 5.000 lần → 50–110 ms trên điện thoại khi bấm sang câu sau).
+let _ci = null, _ciArr = null, _ciN = -1, _ciSig = null;
+function coreIndex() {
+  if (_ci && _ciArr === D.vocab && _ciN === D.vocab.length) return _ci;
+  // kho được dựng lại (đồng bộ, bật/tắt gói…) nhưng mã và nghĩa y như cũ → dùng lại chỉ mục, khỏi dựng lại
+  const V = D.vocab;
+  if (_ci && _ciSig && _ciSig.length === V.length * 2) {
+    let same = true;
+    for (let i = 0; i < V.length; i++) if (_ciSig[2 * i] !== V[i].id || _ciSig[2 * i + 1] !== V[i].vi) { same = false; break; }
+    if (same) { _ciArr = V; _ciN = V.length; return _ci; }
+  }
+  const m = new Map(), sig = new Array(V.length * 2);
+  V.forEach((o, i) => { sig[2 * i] = o.id; sig[2 * i + 1] = o.vi; for (const y of senses(o.vi)) { let a = m.get(y.core); if (!a) m.set(y.core, a = []); a.push([o.id, y.q]); } });
+  _ci = m; _ciArr = V; _ciN = V.length; _ciSig = sig;
+  return m;
+}
+// mã các từ có nghĩa đụng với it (đúng như viClash, kể cả chính nó)
+function clashIds(it) {
+  const idx = coreIndex(), out = new Set();
+  for (const x of senses(it.vi)) for (const [id, q] of idx.get(x.core) || []) if (!(x.q && q && x.q !== q)) out.add(id);
+  return out;
+}
+// tách nghĩa cả kho lúc máy rảnh (từng mẻ nhỏ), để câu hỏi đầu tiên của lượt không phải chờ
+export async function warmMeanings(yieldNow) {
+  if (_ci && _ciArr === D.vocab && _ciN === D.vocab.length) return;
+  let t = performance.now();
+  for (const o of D.vocab) { senses(o.vi); if (performance.now() - t > 6) { await yieldNow(); t = performance.now(); } }
+  coreIndex();
+}
 export function distractors(it, dir, script, n = 3) {
   const mine = answerOf(it, dir, script).key;
   const syn = new Set(it.syn || []);
   const conf = new Set(it.confuse || []);
-  const scored = [];
-  for (const o of D.vocab) {
-    if (o.id === it.id || syn.has(o.id) || (o.syn || []).includes(it.id)) continue;
-    if (dir === 'kr' && !o.kanji) continue;
-    if (alsoRight(it, o, dir)) continue;
+  const clash = dir === 'kr' ? null : clashIds(it);
+  const itStd = dir === 'kr' ? '' : stdOf(it), tp = it.topics || [];
+  // v40: chỉ giữ ~16 ứng viên điểm cao nhất (không xếp cả 5.000 từ), so chủ đề bằng vòng lặp thường
+  const K = 16, best = [];
+  const score = o => {
+    if (o.id === it.id || syn.has(o.id) || (o.syn && o.syn.includes(it.id))) return -1;
+    if (dir === 'kr' && !o.kanji) return -1;
+    // = alsoRight(it, o, dir), phần so nghĩa thay bằng tra bảng
+    if (it.kanji && o.kanji === it.kanji) return -1;
+    if (dir !== 'kr' && ((itStd && (o.kanji === itStd || o.kana === itStd || (o.kf && plain(o.kf) === itStd))) || (o.std && kansaiPair(o, it)))) return -1;
+    if (dir === 'au' && o.kana === it.kana) return -1;
+    if (clash && clash.has(o.id)) return -1;
     let s = Math.random() * 6;
-    if (conf.has(o.id) || (o.confuse || []).includes(it.id)) s += 100;
-    if (o.topics.some(t => it.topics.includes(t))) s += 10;
+    if (conf.has(o.id) || (o.confuse && o.confuse.includes(it.id))) s += 100;
+    for (const t of o.topics) if (tp.includes(t)) { s += 10; break; }
     if (o.sub && o.sub === it.sub) s += 4;
     if (o.pos === it.pos) s += 5;
     if (o.level === it.level) s += 2;
     if (dir === 'kr') s -= Math.abs(o.kana.length - it.kana.length) * 2;
-    scored.push([s, o]);
+    return s + 1000; // > 0 khi dùng được
+  };
+  const pick = list => {
+    const out = [], keys = new Set([mine]);
+    for (const [, o] of list) {
+      const a = answerOf(o, dir, script);
+      if (keys.has(a.key)) continue;
+      a.it = o;
+      keys.add(a.key); out.push(a);
+      if (out.length >= n) break;
+    }
+    return out;
+  };
+  for (const o of D.vocab) {
+    const s = score(o);
+    if (s < 0) continue;
+    if (best.length < K) { best.push([s, o]); if (best.length === K) best.sort((x, y) => y[0] - x[0]); continue; }
+    if (s <= best[K - 1][0]) continue;
+    let j = K - 1;
+    while (j > 0 && best[j - 1][0] < s) { best[j] = best[j - 1]; j--; }
+    best[j] = [s, o];
   }
-  scored.sort((a, b) => b[0] - a[0]);
-  const out = [], keys = new Set([mine]);
-  for (const [, o] of scored) {
-    const a = answerOf(o, dir, script);
-    if (keys.has(a.key)) continue;
-    a.it = o;
-    keys.add(a.key); out.push(a);
-    if (out.length >= n) break;
-  }
-  return out;
+  if (best.length < K) best.sort((x, y) => y[0] - x[0]);
+  const out = pick(best);
+  if (out.length >= n || best.length < K) return out;
+  // hiếm: nhiều ứng viên trùng đáp án → xếp cả kho như trước
+  const all = [];
+  for (const o of D.vocab) { const s = score(o); if (s >= 0) all.push([s, o]); }
+  return pick(all.sort((x, y) => y[0] - x[0]));
 }
 
 // ---------- màn chọn ----------
@@ -321,6 +376,7 @@ export function runQuiz(view, qs, o, ctx) {
   function intro(q) {
     const it = q.it;
     view.innerHTML = `<div class="run">${head()}${learnCardHTML(it)}${learnBarHTML(false)}</div>`;
+    fillWordMore(view);
     bindSay(view);
     view.querySelector('[data-act=quit]').onclick = quit;
     const go = async dec => { st.seen.add(it.id); await applyDecision(it, dec); st.learned = (st.learned || 0) + 1; next(); };
@@ -329,10 +385,18 @@ export function runQuiz(view, qs, o, ctx) {
     setKeys(e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go('learned'); } });
   }
 
+  // v40: lúc đang làm câu này, soạn sẵn đáp án nhiễu của câu kế (lúc máy rảnh) → bấm Tiếp hiện ngay
+  const preDs = new Map();
+  const prefetch = () => whenIdle(() => {
+    const n = st.qs[st.i + 1];
+    if (n && !preDs.has(n) && n.it && !(n.it._type && n.it._type !== 'vocab')) preDs.set(n, distractors(n.it, n.dir, script));
+  });
   function ask(q) {
     const { it, dir } = q;
     const right = answerOf(it, dir, script);
-    const opts = shuffle([right, ...distractors(it, dir, script)]);
+    const opts = shuffle([right, ...(preDs.get(q) || distractors(it, dir, script))]);
+    preDs.delete(q);
+    prefetch();
     let prompt, hint;
     if (dir === 'vj') { prompt = `<p class="prompt-vi">${esc(it.vi)}</p>`; hint = 'Chọn từ tiếng Nhật'; }
     else if (dir === 'jv') { prompt = `<div class="prompt-row"><p class="prompt-jp" lang="ja">${wordHTML(it, script)}</p>${sayBtn(it.kana)}</div>`; hint = 'Chọn nghĩa tiếng Việt'; }

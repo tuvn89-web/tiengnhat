@@ -1,4 +1,5 @@
 import { esc, rubyHTML, reading, rich, richParas } from './util.js';
+import { appendChunks } from './lazy.js';
 import { D, LEVELS, CTX } from './data.js';
 import { status, dueDirs, errCount, stats, setLearned } from './srs.js';
 import { bindSay, sayBtn, emptyState } from './ui.js';
@@ -19,7 +20,14 @@ export function renderGrammarList(view) {
   view.innerHTML = `<h1 class="h1">Ngữ pháp</h1>${gtabs('list')}
     <p class="muted small">${st.total} mẫu · đã thuộc ${st.known} · đang học ${st.learning}${st.due ? ` · <b>${st.due} mẫu đến hạn ôn</b> — vào tab Luyện tập, chọn "Đến hạn ôn"` : ''}.</p>
     ${hard.length ? `<section class="glevel"><h2 class="h2">Mẫu hay sai</h2><ul class="rows">${hard.map(row).join('')}</ul></section>` : ''}
-    ${by.map(([l, arr]) => `<section class="glevel"><h2 class="h2">${l}</h2><ul class="rows">${arr.map(row).join('')}</ul></section>`).join('')}`;
+    ${by.map(([l]) => `<section class="glevel"><h2 class="h2">${l}</h2><ul class="rows" data-gl="${l}"></ul></section>`).join('')}`;
+  // v40: hàng trăm mẫu ghép dần từng mẻ, từ cấp đầu xuống (trước đây dựng ~2.200 phần tử một lần)
+  (async () => {
+    for (const [l, arr] of by) {
+      const ul = view.querySelector(`[data-gl="${l}"]`);
+      if (!ul || !(await appendChunks(ul, arr, row, { first: l === by[0][0] ? 14 : 0 }))) return;
+    }
+  })();
 }
 
 // B1: mẫu gắn với thể động từ (〜ている, 受身形, 〜てしまう…) hoặc có khuôn câu riêng → luyện thể đó với động từ của mình

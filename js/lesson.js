@@ -2,6 +2,7 @@
 // Cấp có gói bài học (`type: lesson`) thì dùng gói đó; chưa có thì app tự chia bài từ các gói đang có:
 // bài thứ i = gói ngữ pháp thứ i + một khúc từ JLPT theo thứ tự (khúc cố định cho từng cấp, thêm từ mới không xáo bài cũ).
 import { esc, rich, plain, wordHTML, shuffle, icon, toast, DAY, startOfDay, kanjiChars, rubyHTML, stripHL, reading, fmtDate } from './util.js';
+import { loadingHTML } from './lazy.js';
 import { D, LEVELS, saveLesson, logAct } from './data.js';
 import { status, stats } from './srs.js';
 import { S } from './settings.js';
@@ -9,7 +10,7 @@ import { emptyState, bindSay, sayBtn } from './ui.js';
 import { practiceItems } from './notes.js';
 import { heartBtnHTML, heartCount, toggleHeart, hearted, clearHearts, runHeart } from './heart.js';
 import { runDrill, opt } from './drill.js';
-import { buildPoolQs } from './level.js';
+import { buildPoolQs, buildPoolQsAsync } from './level.js';
 import { answerExplainHTML } from './explain.js';
 import { passageHTML, bindPassage, viToggleHTML, bindViToggle } from './reader.js';
 import { attachRomaji, romajiToKana } from './romaji.js';
@@ -160,6 +161,11 @@ export function lessonRowHTML(x, cur) {
   return `<li class="ls ${cls}"><a href="#/bai/${encodeURIComponent(x.id)}"><span class="ls-n">${s.done ? '✓' : x.n}</span>
     <span class="ls-t"><b>${rich(x.title)}</b><small>${rich(x.goal)}</small></span>
     <span class="ls-p">${due ? '<span class="ls-due">Ôn lại</span>' : s.done ? '' : `${s.nDone}/8`}</span></a></li>`;
+}
+// v40: từng dòng của danh sách bài (để Lộ trình ghép dần từng mẻ)
+export function lessonRowsOf(L) {
+  const list = lessonsOf(L), cur = currentLesson(L);
+  return { list, cur, row: x => lessonRowHTML(x, cur) + (x.n % 5 === 0 ? thRowHTML(x) : '') };
 }
 // Danh sách bài của một cấp, kèm mục "Tình huống thật" sau mỗi 5 bài
 export function lessonListHTML(L, { limit } = {}) {
@@ -380,11 +386,14 @@ export function renderLessonSents(view, ctx, id) {
 
 // ---------- kiểm tra cuối bài ----------
 const TEST = { kr: 2, jv: 3, vj: 2, kh: 1, g: 5, read: 1, listen: 1 };
-export function runLessonTest(view, ctx, id) {
+export async function runLessonTest(view, ctx, id) {
   const x = lessonById(id);
   if (!x) return ctx.go('#/lotrinh');
   const pool = lessonPool(x);
-  const qs = buildPoolQs(pool, x.grammar.length ? TEST : { ...TEST, g: 0, jv: 5, vj: 4, read: 2 }, x.level).slice(0, 15);
+  view.innerHTML = `<div class="page-wait">${loadingHTML('Đang soạn đề…')}</div>`; // v40: soạn đề từng phần, không đứng hình
+  const all = await buildPoolQsAsync(pool, x.grammar.length ? TEST : { ...TEST, g: 0, jv: 5, vj: 4, read: 2 }, x.level);
+  if (!all) return;
+  const qs = all.slice(0, 15);
   const here = '#/bai/' + encodeURIComponent(id);
   ctx.backTo = here + '?b=8';
   if (qs.length < 5) { view.innerHTML = emptyState('Bài này chưa đủ dữ liệu để ra đề kiểm tra.', `<a class="btn btn-ghost" href="${here}">Về bài</a>`); return; }
@@ -421,10 +430,13 @@ export function runLessonTest(view, ctx, id) {
 
 // ---------- ôn bài cũ (1, 3, 7, 14 ngày) ----------
 const REVIEW = { jv: 3, vj: 2, kr: 1, kh: 1, g: 2, read: 1 };
-export function runLessonReview(view, ctx, id) {
+export async function runLessonReview(view, ctx, id) {
   const x = lessonById(id);
   if (!x) return ctx.go('#/');
-  const qs = buildPoolQs(lessonPool(x), REVIEW, x.level).slice(0, 10);
+  view.innerHTML = `<div class="page-wait">${loadingHTML('Đang soạn đề…')}</div>`; // v40: soạn đề từng phần, không đứng hình
+  const all = await buildPoolQsAsync(lessonPool(x), REVIEW, x.level);
+  if (!all) return;
+  const qs = all.slice(0, 10);
   if (!qs.length) { view.innerHTML = emptyState('Bài này chưa đủ dữ liệu để ôn.'); return; }
   runDrill(view, shuffle(qs), ctx, { title: `Ôn bài ${x.n}: ${plain(x.title)}`, onDone: async (res, info) => {
     if (info.early && !res.length) return;
@@ -435,13 +447,16 @@ export function runLessonReview(view, ctx, id) {
 
 // ---------- tình huống thật: ôn tổng hợp 5 bài (khi chưa có bài hội thoại tổng hợp) ----------
 const TH = { jv: 4, vj: 3, kr: 2, kh: 1, g: 7, read: 2, listen: 1 };
-export function runTongHop(view, ctx, id) {
+export async function runTongHop(view, ctx, id) {
   const x = lessonById(id);
   if (!x) return ctx.go('#/lotrinh');
   const five = lessonsOf(x.level).slice(Math.max(0, x.n - 5), x.n);
   const pool = { vocab: [], grammar: [], kanji: [] };
   for (const l of five) { const p = lessonPool(l); pool.vocab.push(...p.vocab); pool.grammar.push(...p.grammar); pool.kanji.push(...p.kanji); }
-  const qs = buildPoolQs(pool, TH, x.level).slice(0, 20);
+  view.innerHTML = `<div class="page-wait">${loadingHTML('Đang soạn đề…')}</div>`; // v40: soạn đề từng phần, không đứng hình
+  const all = await buildPoolQsAsync(pool, TH, x.level);
+  if (!all) return;
+  const qs = all.slice(0, 20);
   ctx.backTo = '#/lotrinh';
   runDrill(view, qs, ctx, { title: `Tình huống thật · bài ${five[0].n}–${x.n}`, mode: 'test', onDone: async (res, info) => {
     if (info.empty) return goBack(ctx);

@@ -1,5 +1,6 @@
 // Học từ mới (A1–A4): xem thẻ → "Đã học" / "Biết rồi" / "Để sau". Không kiểm tra ngay; lật lại được thẻ trước.
 import { esc, wordHTML, icon, toast, shuffle, beep, buzz } from './util.js';
+import { fillWordMore } from './wordx.js';
 import { D } from './data.js';
 import { S } from './settings.js';
 import { logAct, actOf } from './data.js';
@@ -10,10 +11,10 @@ import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from '.
 
 const DEC = { learned: 'Đã học', known: 'Biết rồi', later: 'Để sau' };
 
-export function learnCardHTML(it, dec) {
+export function learnCardHTML(it, dec, { lazyRest = true } = {}) {
   return `<article class="label-card is-intro">
       <div class="label-head"><span class="label-tag">Từ mới</span>${dec ? `<span class="label-dec">Đã chọn: ${DEC[dec]}</span>` : ''}<span class="label-lv">${esc(it.level || '')}</span></div>
-      ${wordDetailHTML(it)}
+      ${wordDetailHTML(it, { lazyRest })}
     </article>`;
 }
 export const learnBarHTML = (canBack = false) => `<div class="next-bar learn-bar">
@@ -58,6 +59,7 @@ export function runLearn(view, items, ctx, { again, onFinish, guess = false } = 
       </div>
       ${learnCardHTML(it, st.dec.get(it.id))}
       ${learnBarHTML(st.i > 0)}</div>`;
+    fillWordMore(view);
     bindSay(view);
     view.querySelector('[data-act=quit]').onclick = () => (st.i > 0 || st.dec.size ? finish(true) : goBack(ctx));
     view.querySelector('.learn-bar').onclick = e => { const b = e.target.closest('[data-l]'); if (b) act(b.dataset.l); };

@@ -1,6 +1,7 @@
 // Bộ chạy bài tập dùng chung: chọn đáp án · sắp xếp mảnh câu · chạm vào chỗ sai.
 // Dùng cho ôn chữ Hán, bài tập ngữ pháp và thi thử.
 import { esc, shuffle, beep, buzz, icon, toast, orderOK, altOrders, activeNow } from './util.js';
+import { whenIdle } from './lazy.js';
 import { S, saveSettings } from './settings.js';
 import { attachRomaji, romajiToKana, normKana } from './romaji.js';
 import { knownBtnHTML, bindKnownBtn } from './quiz.js';
@@ -116,6 +117,8 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
   function showQ(q) {
     st.lock = false;
     q._t0 = activeNow();
+    // v40: lúc máy rảnh, soạn sẵn đáp án của câu kế (đáp án nhiễu dựng lười) → bấm Tiếp hiện ngay
+    whenIdle(() => { const n = st.qs[st.i + 1]; if (n?.kind === 'choice') try { void n.opts; } catch { } });
     let body = '';
     if (q.kind === 'choice') {
       const jp = q.opts.some(o => o.jp);

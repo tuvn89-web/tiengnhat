@@ -1083,3 +1083,25 @@ html:not(.calm) .mode:active, html:not(.calm) .ls > a:active, html:not(.calm) .q
 .tile.is-extra::after, .dot-x { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--blue); opacity: .7; }
 .tile.is-extra::after { position: absolute; top: 6px; right: 6px; }
 html:not(.calm) .page.from-skel { animation: tnFadeIn .18s ease-out backwards; }
+
+/* ---------- v40: dựng trang từng phần ---------- */
+/* vòng ⟳ "Đang tải…": chỉ lộ ra nếu chờ quá 0,15 giây (đa số phần dựng xong trước đó → không nhấp nháy); xoay bằng transform nên vẫn quay khi máy bận */
+.tn-loading { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; color: var(--ink-2); font-size: 14px; opacity: 0; animation: tnFadeIn .2s ease-out .15s forwards; }
+.tn-spin { flex: none; width: 18px; height: 18px; border-radius: 50%; border: 2px solid color-mix(in srgb, var(--blue) 22%, transparent); border-top-color: var(--blue); animation: tnSpin .8s linear infinite; will-change: transform; }
+@keyframes tnSpin { to { transform: rotate(360deg); } }
+html.calm .tn-loading { opacity: 1; animation: none; }
+html.calm .tn-spin { animation: none; border-color: var(--line); border-top-color: var(--line); }
+.tn-slot { display: grid; place-items: center; margin: 12px 0; border-radius: 14px; background: color-mix(in srgb, var(--surface-2) 70%, transparent); }
+.tn-tail { margin: 4px 0 8px; }
+html:not(.calm) .tn-in { animation: tnFadeIn .22s ease-out backwards; }
+/* phần dài ngoài màn hình: trình duyệt chưa tính bố cục, vẽ cho tới khi cuộn tới */
+.cv-auto { content-visibility: auto; contain-intrinsic-size: auto 600px; }
+.cv-row { content-visibility: auto; contain-intrinsic-size: auto 64px; }
+.page-wait { min-height: 50vh; display: grid; place-items: center; }
+/* danh sách rất dài (gói dữ liệu, kho từ, mẫu ngữ pháp, bài học): dòng ngoài màn hình chưa tính bố cục / chưa vẽ */
+.packs > li, .wordrows > li, .glevel .rows > li, ol.lessons > li { content-visibility: auto; contain-intrinsic-size: auto 60px; }
+.tn-loading.tn-inline { display: inline-flex; min-height: 0; gap: 0; }
+.tn-loading.tn-inline .tn-spin { width: 14px; height: 14px; }
+.mode-n.mode-wait { background: none; }
+/* bài học: từng câu của bài đọc, từng bước, dòng từ — phần ngoài màn hình chưa tính bố cục (chữ có furigana tính bố cục rất tốn) */
+.passage > [data-i], details.lstep, .lrows > li { content-visibility: auto; contain-intrinsic-size: auto 56px; }
