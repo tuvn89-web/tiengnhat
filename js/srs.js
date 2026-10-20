@@ -16,9 +16,14 @@ export const SLOW_DIRS = new Set(['jv', 'vj', 'kr', 'kh', 'hk']);
 const fastTrack = x => !!x.k || (x.b >= 5 && !x.ok && !x.ng);
 export const P = new Map(); // id -> {id, d:{vj,jv,kr}, star, st, first, t}
 let onChange = () => { };
+// v39: số phiên bản tiến độ — tăng mỗi lần tiến độ đổi; dùng để nhớ tạm kết quả tính toán (thống kê, mục đến hạn) giữa các lần mở trang
+let PV = 0;
+export const progVersion = () => PV;
+export const bumpProgress = () => { PV++; };
 export const setOnChange = f => { onChange = f; };
 
 export async function loadProgress() {
+  PV++;
   P.clear();
   for (const r of await all('progress')) P.set(r.id, r);
 }
@@ -42,7 +47,7 @@ export async function review(id, dir, ok, { onlyIfDue = false, slow = false } = 
   r.d[d] = x; r.t = now;
   P.set(id, r);
   await put('progress', r);
-  onChange();
+  PV++; onChange();
 }
 // Làm mới lịch ôn mà không lên hộp (luyện thêm khi chưa đến hạn): hạn ôn tính lại từ hôm nay, không bao giờ kéo sớm hơn
 export async function refreshDue(id, dir) {
@@ -55,7 +60,7 @@ export async function refreshDue(id, dir) {
   r.d[d] = { ...old, due, t: now }; r.t = now;
   P.set(id, r);
   await put('progress', r);
-  onChange();
+  PV++; onChange();
 }
 export const mastered = (id, dir) => !!P.get(id)?.d?.[progDir(dir)]?.m;
 // Mục đã bấm "Đã thuộc" (mọi chiều học đều có cờ thuộc nhuần nhuyễn)
@@ -82,7 +87,7 @@ export async function setLearned(it, level = 'learned') {
   r.t = now;
   P.set(it.id, r);
   await put('progress', r);
-  onChange();
+  PV++; onChange();
 }
 // Bỏ đánh dấu (lật lại thẻ rồi bấm "Để sau"): trả về chưa học nếu chưa từng ôn
 export async function unsetLearned(it) {
@@ -94,7 +99,7 @@ export async function unsetLearned(it) {
   delete n.first; n.t = now;
   P.set(it.id, n);
   await put('progress', n);
-  onChange();
+  PV++; onChange();
 }
 // ---- Kiểm tra trình độ: đổi tiến độ hàng loạt (một lần ghi) ----
 // op: known = đã thuộc (hộp 5, ôn lại sau 16 ngày) · check = đã gặp, cần kiểm (hộp 3, ôn sau 4 ngày)
@@ -127,7 +132,7 @@ export async function bulkApply(changes, { dry = false } = {}) {
   if (dry) return out.map(r => r.id);
   for (const r of out) P.set(r.id, r);
   if (out.length) await putMany('progress', out);
-  onChange();
+  PV++; onChange();
   return out.map(r => r.id);
 }
 // Chụp tiến độ các mục trước khi đổi hàng loạt (để hoàn tác)
@@ -149,7 +154,7 @@ export async function progRestore(before) {
   }
   for (const r of out) P.set(r.id, r);
   if (out.length) await putMany('progress', out);
-  onChange();
+  PV++; onChange();
   return out.length;
 }
 
@@ -162,7 +167,7 @@ export async function toggleStar(id) {
   r.star = !r.star; r.st = now; r.t = now;
   P.set(id, r);
   await put('progress', r);
-  onChange();
+  PV++; onChange();
   return r.star;
 }
 export const isStar = id => !!P.get(id)?.star;
@@ -199,9 +204,17 @@ export function overdueMs(it, now = Date.now()) {
   return m;
 }
 
+const _st = new WeakMap();
 export function stats(items) {
+  const sod = startOfDay(), hit = _st.get(items);
+  // cùng một mảng, tiến độ chưa đổi, cùng ngày, trong vòng 1 phút → dùng lại (Trang chủ, Lộ trình gọi nhiều lần cho cùng mảng)
+  if (hit && hit.pv === PV && hit.sod === sod && Date.now() - hit.t < 60e3) return { ...hit.s };
+  const s = statsNow(items, sod);
+  _st.set(items, { pv: PV, sod, t: Date.now(), s });
+  return { ...s };
+}
+function statsNow(items, sod) {
   const s = { total: items.length, new: 0, learning: 0, known: 0, due: 0, newToday: 0 };
-  const sod = startOfDay();
   for (const it of items) {
     s[status(it)]++;
     if (dueDirs(it).length) s.due++;

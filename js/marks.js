@@ -33,9 +33,9 @@ export async function renderMarked(view, ctx) {
   const draw = () => {
     if (!view.isConnected) return removeEventListener('tn-marks', draw);
     const vs = D.vocab.filter(it => isStar(it.id)), ks = D.kanji.filter(k => isStar(k.id));
-    const btns = (k, n) => `<div class="row-btns wrap"><button type="button" class="btn btn-primary" data-run="${k}-quiz" ${n ? '' : 'disabled'}>Trắc nghiệm</button><button type="button" class="btn btn-ghost" data-run="${k}-pairs" ${n >= 3 ? '' : 'disabled'}>${icon('match')} Ghép 8 cặp</button></div>`;
+    const btns = (k, n) => `<div class="row-btns wrap"><button type="button" class="btn btn-primary" data-run="${k}-quiz" ${n ? '' : 'disabled'}>Trắc nghiệm</button><button type="button" class="btn btn-ghost" data-run="${k}-pairs" ${n ? '' : 'disabled'}>${icon('match')} Ghép 8 cặp</button></div>`;
     view.innerHTML = `<h1 class="h1">${icon('star')} Đã đánh dấu</h1>
-      <p class="muted small">Bấm ★ ở thẻ từ, thẻ chữ Hán, phần đáp án sau mỗi câu hoặc trong Kho từ để đưa vào đây. Ôn ở đây cũng tính vào lịch ôn. Bấm ★ lần nữa để bỏ.</p>
+      <p class="muted small">Bấm ★ ở thẻ từ, thẻ chữ Hán, phần đáp án sau mỗi câu hoặc trong Kho từ để đưa vào đây. Ôn ở đây cũng tính vào lịch ôn. Bấm ★ lần nữa để bỏ. Ghép 8 cặp mà đánh dấu chưa đủ 8 thì app thêm từ đến hạn ôn, sắp quên hoặc mới học cho đủ.</p>
       ${!vs.length && !ks.length ? emptyState('Chưa đánh dấu mục nào.') : ''}
       <section class="card"><h2 class="h2">Từ vựng · ${vs.length}</h2>${btns('v', vs.length)}
         ${vs.length ? `<ul class="rows mk-rows">${vs.map(it => `<li><span class="row"><span class="row-jp" lang="ja">${wordHTML(it, 'furi')}</span><span class="row-vi">${esc(it.vi)}</span></span>${markBtnHTML(it.id)}</li>`).join('')}</ul>` : '<p class="muted small">Chưa có từ nào.</p>'}</section>
@@ -56,10 +56,10 @@ export async function renderMarked(view, ctx) {
       const { S } = await import('./settings.js');
       const items = shuffle(D.vocab.filter(it => isStar(it.id))).slice(0, 50);
       const qs = items.map(it => ({ it, dir: it.kanji && Math.random() < 0.25 ? 'kr' : Math.random() < 0.5 ? 'jv' : 'vj' }));
-      return runQuiz(view, qs, { dir: 'mix', script: S.script, source: 'star', again, startPairs: mode === 'pairs', noIntro: true }, ctx); // mục tự đánh dấu: hỏi luôn, không hiện thẻ giới thiệu từ mới
+      return runQuiz(view, qs, { dir: 'mix', script: S.script, source: 'star', again, startPairs: mode === 'pairs', fillPairs: true, noIntro: true }, ctx); // mục tự đánh dấu: hỏi luôn, không hiện thẻ giới thiệu từ mới
     }
     const { buildKanjiQs } = await import('./kanji.js');
     const { runDrill } = await import('./drill.js');
-    runDrill(view, buildKanjiQs({ dir: 'mix', source: 'star', count: 50 }), ctx, { title: 'Chữ Hán đã đánh dấu', again, startPairs: mode === 'pairs' });
+    runDrill(view, buildKanjiQs({ dir: 'mix', source: 'star', count: 50 }), ctx, { title: 'Chữ Hán đã đánh dấu', again, startPairs: mode === 'pairs', fillPairs: true });
   });
 }

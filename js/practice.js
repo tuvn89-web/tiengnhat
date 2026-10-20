@@ -11,7 +11,7 @@ import { countMark, learnedForms } from './wordx.js';
 import { runDrill, opt } from './drill.js';
 import { chips, bindChips, readChip, readChips, topicOpts, emptyState, wtabs } from './ui.js';
 import { kvGet, kvSet } from './db.js';
-import { dueDirs, status, stats, isLeech, isStar } from './srs.js';
+import { dueDirs, status, stats, isLeech, isStar, progVersion } from './srs.js';
 import { ttsReady } from './tts.js';
 import { recForm, weakForms } from './fstat.js';
 import { sentDue, dueSentQs } from './dich.js';
@@ -407,18 +407,30 @@ export async function renderDem(view, ctx) {
 
 // Một câu chọn đáp án của từ vựng (dùng cho Ôn hỗn hợp, Ôn nhanh 3 phút). cmpOf: đáp án → mã từ, để so sánh khi chọn nhầm (v31).
 export function vocabChoiceQ(it, dir, { noReview = false } = {}) {
-  const right = answerOf(it, dir, 'furi'), ds = distractors(it, dir, 'furi');
-  if (ds.length < 2) return null;
+  const right = answerOf(it, dir, 'furi');
   const prompt = dir === 'vj' ? `<p class="prompt-vi">${esc(it.vi)}</p>` : dir === 'kr' ? `<p class="prompt-jp" lang="ja" data-bare>${esc(it.kanji)}</p>${readHint(it)}` : `<p class="prompt-jp" lang="ja">${wordHTML(it, 'furi')}</p>`;
-  return { kind: 'choice', tag: dir === 'kr' ? 'Từ vựng — đọc chữ Hán' : 'Từ vựng', level: it.level, promptBare: dir === 'kr', prompt,
-    hint: dir === 'vj' ? 'Chọn từ tiếng Nhật' : dir === 'kr' ? 'Chọn cách đọc' : 'Chọn nghĩa', opts: shuffle([right, ...ds]).map(a => opt(a.key, a.html, a.jp)), answer: right.key,
-    cmpOf: Object.fromEntries(ds.filter(a => a.it).map(a => [a.key, a.it.id])), cmpRight: it.id,
+  const q = { kind: 'choice', tag: dir === 'kr' ? 'Từ vựng — đọc chữ Hán' : 'Từ vựng', level: it.level, promptBare: dir === 'kr', prompt,
+    hint: dir === 'vj' ? 'Chọn từ tiếng Nhật' : dir === 'kr' ? 'Chọn cách đọc' : 'Chọn nghĩa', answer: right.key, cmpRight: it.id,
     ...(noReview ? {} : { review: { id: it.id, dir } }) };
+  // v39: đáp án nhiễu (phải dò cả kho từ) chỉ dựng khi câu được hiện ra — mở Ôn nhanh 3 phút, Ôn hỗn hợp không phải chờ dựng hết 80 câu
+  let built = null;
+  const build = () => {
+    if (!built) { const ds = distractors(it, dir, 'furi'); built = { opts: shuffle([right, ...ds]).map(a => opt(a.key, a.html, a.jp)), cmpOf: Object.fromEntries(ds.filter(a => a.it).map(a => [a.key, a.it.id])) }; }
+    return built;
+  };
+  Object.defineProperty(q, 'opts', { get: () => build().opts, enumerable: true, configurable: true });
+  Object.defineProperty(q, 'cmpOf', { get: () => build().cmpOf, enumerable: true, configurable: true });
+  return q;
 }
 
 // ---------- F7: ôn hỗn hợp hôm nay ----------
+let _md = null, _mdKey = '';
 export function mixedDue() {
-  return { vocab: D.vocab.filter(it => dueDirs(it).length), kanji: D.kanji.filter(it => dueDirs(it).length), grammar: D.grammar.filter(it => dueDirs(it).length), sent: sentDue() };
+  // v39: nhớ tạm trong 1 phút nếu tiến độ chưa đổi (Trang chủ, Luyện tập, Ôn hỗn hợp đều cần)
+  const key = `${progVersion()}:${D.items.size}:${Math.floor(Date.now() / 60e3)}`;
+  if (_md && _mdKey === key) return { vocab: [..._md.vocab], kanji: [..._md.kanji], grammar: [..._md.grammar], sent: [..._md.sent] };
+  _md = { vocab: D.vocab.filter(it => dueDirs(it).length), kanji: D.kanji.filter(it => dueDirs(it).length), grammar: D.grammar.filter(it => dueDirs(it).length), sent: sentDue() }; _mdKey = key;
+  return { vocab: [..._md.vocab], kanji: [..._md.kanji], grammar: [..._md.grammar], sent: [..._md.sent] };
 }
 export async function renderMixed(view, ctx) {
   const { buildKanjiQs } = await import('./kanji.js');

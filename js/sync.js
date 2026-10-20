@@ -1,7 +1,7 @@
 // Đồng bộ tiến độ qua một kho GitHub RIÊNG TƯ (contents API). Không cần máy chủ.
 // Gộp theo dấu thời gian: bản nào sửa sau thì thắng (theo từng từ, từng chiều học).
 import { kvGet, kvSet, putMany, all, clear } from './db.js';
-import { P } from './srs.js';
+import { P, bumpProgress } from './srs.js';
 import { D, rebuild, assemblePacks, packEntry } from './data.js';
 import { S } from './settings.js';
 
@@ -235,7 +235,7 @@ export function merge(a, b) {
 export async function applySnapshot(m) {
   const prog = Object.values(m.progress || {});
   await putMany('progress', prog);
-  P.clear(); for (const r of prog) P.set(r.id, r);
+  P.clear(); for (const r of prog) P.set(r.id, r); bumpProgress();
   const users = Object.values(m.user || {});
   await putMany('user', users);
   D.user = new Map(users.map(u => [u.id, u]));

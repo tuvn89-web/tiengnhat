@@ -262,7 +262,7 @@ export function runQuiz(view, qs, o, ctx) {
 
   // v38: đổi sang GHÉP 8 CẶP giữa lượt — các từ chưa làm đem ra ghép; đổi lại trắc nghiệm thì hỏi tiếp từ chưa ghép
   const restQs = () => st.qs.slice(st.lock ? st.i + 1 : st.i);
-  const canPairs = () => !o.noPairs && pairItems(restQs().filter(q => !st.done.has(q.it.id)).map(q => q.it)).length >= 3;
+  const canPairs = () => !o.noPairs && pairItems(restQs().filter(q => !st.done.has(q.it.id)).map(q => q.it)).length >= (o.fillPairs ? 1 : 3);
   const swHTML = () => (canPairs() ? modeSwHTML('quiz') : '');
   function bindSw() {
     const sw = view.querySelector('.mode-sw');
@@ -281,11 +281,12 @@ export function runQuiz(view, qs, o, ctx) {
         <button type="button" class="icon-btn" data-act="quit" aria-label="Dừng lượt học">${icon('close')}</button>
         <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${base + n}" aria-valuenow="${base + d}"><i style="width:${((base + d) / Math.max(1, base + n)) * 100}%"></i></div>
         <span class="run-n">${base + d}/${base + n}</span></div>`,
-      setKeys,
+      setKeys, exclude: st.qs.map(q => q.it.id),
       onQuit: () => (st.score || st.wrong.length ? finish(true) : goBack(ctx)),
       onResult: async (it, ok) => {
         if (st.done.has(it.id)) return; // từ đã trả lời ở phần trắc nghiệm: chỉ luyện thêm
         st.done.add(it.id);
+        if (ok === null) return; // xem đáp án của từ đã đánh dấu "Đã thuộc": không tính
         if (ok) st.score++; else st.wrong.push(it);
         if (!o.noReview) await review(it.id, pdir(it.id), ok);
       },
@@ -376,6 +377,7 @@ export function runQuiz(view, qs, o, ctx) {
       st.done.add(q.it.id);
       if (ok) st.score++; else st.wrong.push(q.it);
       if (!o.noReview) review(q.it.id, q.dir, ok, { slow });
+      else if (!ok && allMastered(q.it)) review(q.it.id, q.dir, false); // v40: từ "Đã thuộc" mà chọn sai (kể cả bài không đổi lịch ôn) → quay lại lịch ôn
       if (!ok && !st.again.has(q.it.id)) {
         st.again.add(q.it.id);
         st.qs.splice(Math.min(st.i + 4, st.qs.length), 0, { ...q, again: true });

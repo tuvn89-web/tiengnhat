@@ -1047,3 +1047,39 @@ body:has(#view .next-bar, #view .heart-bar) .fx-panel { bottom: calc(var(--tray-
 html:not(.calm) .fx-panel:not([hidden]) { animation: tnGrow .45s cubic-bezier(.16, 1, .3, 1) both, tnFadeIn .22s ease-out both; transform-origin: 90% 100%; }
 html:not(.calm) .fx-panel.is-closing { animation: tnSheetOut .2s cubic-bezier(.4, 0, .9, .6) both; transform-origin: 90% 100%; pointer-events: none; }
 @media print { .fx-panel { display: none; } }
+
+/* ---------- v39: bấm sang trang không khựng ---------- */
+/* thanh tiến trình mảnh ở mép trên: chỉ hiện khi trang cần dựng lâu; chạy bằng transform nên vẫn trôi khi máy đang bận */
+#tn-progress { position: fixed; left: 0; right: 0; top: 0; height: 3px; z-index: 60; pointer-events: none; overflow: hidden; opacity: 0; transition: opacity .2s ease; }
+#tn-progress.is-on { opacity: 1; }
+#tn-progress i { position: absolute; inset: 0; background: linear-gradient(90deg, transparent, var(--blue) 35%, color-mix(in srgb, var(--blue) 60%, #fff) 65%, transparent); transform: translate3d(-100%, 0, 0); }
+#tn-progress.is-on i { animation: tnBarRun 1s cubic-bezier(.4, 0, .2, 1) infinite; }
+#tn-progress.is-done i { animation: tnBarDone .25s ease-out forwards; }
+@keyframes tnBarRun { from { transform: translate3d(-100%, 0, 0); } to { transform: translate3d(100%, 0, 0); } }
+@keyframes tnBarDone { from { transform: translate3d(-10%, 0, 0); opacity: 1; } to { transform: translate3d(0, 0, 0); opacity: 0; } }
+/* khung trang (skeleton): tiêu đề thật + các khối xám lấp lánh, thay bằng nội dung ngay khi dựng xong */
+.page-skel .skel { height: 64px; margin: 12px 0; border-radius: 14px; background: var(--surface-2); position: relative; overflow: hidden; }
+.page-skel .skel-l { height: 120px; }
+.page-skel .skel-s { height: 40px; width: 60%; }
+.page-skel .skel::after { content: ""; position: absolute; inset: 0; background: linear-gradient(100deg, transparent 20%, color-mix(in srgb, var(--surface) 70%, transparent) 50%, transparent 80%); transform: translate3d(-100%, 0, 0); animation: tnShimmer 1.1s ease-in-out infinite; }
+@keyframes tnShimmer { to { transform: translate3d(100%, 0, 0); } }
+html.calm .page-skel .skel::after, html.calm #tn-progress i { animation: none; }
+/* vòng sáng loang dưới ngón tay khi chạm */
+.tap-fx { position: fixed; z-index: 70; width: 44px; height: 44px; margin: -22px 0 0 -22px; border-radius: 50%; pointer-events: none;
+  background: radial-gradient(circle, color-mix(in srgb, var(--blue) 34%, transparent) 0%, color-mix(in srgb, var(--blue) 14%, transparent) 55%, transparent 72%);
+  animation: tnTap .42s cubic-bezier(.2, .7, .3, 1) forwards; will-change: transform, opacity; }
+@keyframes tnTap { from { transform: scale(.35); opacity: .9; } to { transform: scale(2.1); opacity: 0; } }
+/* nút, thẻ, dòng bài học lún nhẹ khi đang chạm */
+html:not(.calm) .mode, html:not(.calm) .ls > a, html:not(.calm) .quick3, html:not(.calm) .lcard a.btn, html:not(.calm) .nav a { transition: transform .12s ease; }
+html:not(.calm) .mode:active, html:not(.calm) .ls > a:active, html:not(.calm) .quick3:active, html:not(.calm) .nav a:active { transform: scale(.975); }
+
+/* ---------- v40: ghép 8 cặp — xem đáp án, mục thêm cho đủ ---------- */
+.pairs-bar { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; margin: 4px 0 10px; }
+.pairs-bar .pairs-hint { margin: 0; }
+.pairs-peek { min-height: 34px; }
+.run-pairs .match .tile { min-height: var(--tile-h, 0); }
+.tile.is-peek:not(.done) { border-color: #E3A21A; background: color-mix(in srgb, #FFC93C 16%, var(--surface)); }
+.tile.is-extra { position: relative; }
+.tile.is-extra::after, .dot-x { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--blue); opacity: .7; }
+.tile.is-extra::after { position: absolute; top: 6px; right: 6px; }
+html:not(.calm) .page.from-skel { animation: tnFadeIn .18s ease-out backwards; }

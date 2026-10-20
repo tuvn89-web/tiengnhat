@@ -129,10 +129,13 @@ export function openKanji(ch) {
 }
 
 // ---------- chữ của ngày (K12) ----------
+let _kSorted = null, _kSortKey = '';
 export function kanjiOfDay(date = new Date()) {
   if (!D.kanji.length) return null;
-  const pool = D.kanji.filter(k => status(k) !== 'known');
-  const list = (pool.length ? pool : D.kanji).slice().sort((a, b) => a.id.localeCompare(b.id));
+  // v39: danh sách chữ xếp theo mã chỉ xếp lại khi kho chữ đổi (trước đây mỗi lần mở Trang chủ đều xếp lại hơn 1.700 chữ)
+  if (_kSortKey !== D.kanji.length + ':' + D.items.size) { _kSorted = D.kanji.slice().sort((a, b) => a.id.localeCompare(b.id)); _kSortKey = D.kanji.length + ':' + D.items.size; }
+  const pool = _kSorted.filter(k => status(k) !== 'known');
+  const list = pool.length ? pool : _kSorted;
   const day = Math.floor((date.getTime() - date.getTimezoneOffset() * 6e4) / 864e5);
   return list[day % list.length];
 }

@@ -2,7 +2,7 @@
 import { esc, rich, plain, DAY, startOfDay } from './util.js';
 import { recapState } from './dot6.js';
 import { D, LEVELS, setPrefs, actToday } from './data.js';
-import { status, stats, P } from './srs.js';
+import { status, stats, P, progVersion } from './srs.js';
 import { chips, bindChips, readChip } from './ui.js';
 import { kvGet, kvSet } from './db.js';
 import { passedLevels, thresholds } from './level.js';
@@ -123,15 +123,20 @@ function packAction(p, st) {
   if (p.type === 'grammar') { const g = st.items.find(it => status(it) === 'new'); return g ? `<a class="btn btn-ghost btn-sm" href="#/nguphap/${encodeURIComponent(g.id)}">Học</a>` : ''; }
   return '<a class="btn btn-ghost btn-sm" href="#/chuhan/moi">Học</a>';
 }
+let _si = null, _siKey = '';
 export function stageInfo() {
   const passed = passedLevels();
   const off = new Set(D.disabled.list || []);
+  // v39: thống kê từng cấp chỉ tính lại khi tiến độ, kho dữ liệu hay kết quả kiểm tra đổi (Trang chủ, Lộ trình đều gọi)
+  const key = `${progVersion()}:${D.items.size}:${D.disabled.t || 0}:${[...passed].join('')}:${startOfDay()}`;
+  if (_si && _siKey === key) return { st: _si, cur: kanaDone() ? (_si.find(x => !x.passed)?.L || 'N1') : 'kana' };
   const st = LEVELS.map(L => {
     const packs = D.packs.filter(p => p.level === L && p.type !== 'phrase' && !off.has(p.id)).sort((a, b) => packOrder(a) - packOrder(b));
     const items = [...D.vocab, ...D.grammar, ...D.kanji].filter(it => it.level === L);
     const s = stats(items);
     return { L, packs, total: s.total, learned: s.known + s.learning, known: s.known, passed: passed.has(L) };
   });
+  _si = st; _siKey = key;
   const cur = kanaDone() ? (st.find(x => !x.passed)?.L || 'N1') : 'kana';
   return { st, cur };
 }

@@ -16,7 +16,7 @@ import { renderData, receiveSetup } from './datapage.js';
 import { renderSettings } from './settingspage.js';
 import { syncNow, getSyncCfg, lastSync, lastSyncError } from './sync.js';
 import { emptyState } from './ui.js';
-import { initNav } from './nav.js';
+import { initNav, pageName } from './nav.js';
 import { renderLevelHub, remindHTML } from './level.js';
 import { renderStart, renderRoadmap, planToday, forecast, needsOnboard, roadmapCardHTML } from './roadmap.js';
 import { renderKana } from './kana.js';
@@ -110,7 +110,60 @@ const ROUTES = [
   [/^doc\/([^/?]+)(?:\?m=(\w+))?$/, (v, m) => renderDoc(v, ctx, decodeURIComponent(m[1]), m[2] || 'doc')],
 ];
 
+// v39: trang dựng lâu (lần trước ≥ 35 ms, hoặc trang vốn nặng) → hiện ngay khung trang + thanh tiến trình mảnh ở mép trên,
+// nhường trình duyệt vẽ khung đó rồi mới dựng nội dung (khung hình sau). Trang nhanh dựng thẳng, không nhấp nháy.
+const COST = new Map();
+const HEAVY0 = /^(lotrinh|nhanh3|onhon|chuhan|noiduoc|luyen|bai\/|tonghop\/|onbai\/)/;
+const costKey = h => h.replace(/\?.*$/, '').replace(/^(bai|doc|nguphap|sua|tonghop|onbai)\/.+$/, '$1/*');
+let pendT = 0, pendN = 0;
 function route() {
+  const h = location.hash.replace(/^#\/?/, '');
+  const c = COST.get(costKey(h)) ?? (HEAVY0.test(h) ? 80 : 0);
+  clearTimeout(pendT);
+  if (c < 35 || !view.firstElementChild) return routeNow();
+  const my = ++pendN;
+  progressBar(true);
+  view.innerHTML = `<div class="page page-skel" aria-busy="true"><h1 class="h1">${esc(pageName('#/' + h))}</h1>
+    <div class="skel skel-l"></div><div class="skel"></div><div class="skel"></div><div class="skel skel-s"></div></div>`;
+  window.scrollTo(0, 0);
+  requestAnimationFrame(() => { pendT = setTimeout(() => { if (my === pendN) routeNow(); }, 0); });
+}
+let pbT = 0;
+function progressBar(on) {
+  let b = document.getElementById('tn-progress');
+  if (!b) { b = document.createElement('div'); b.id = 'tn-progress'; b.setAttribute('aria-hidden', 'true'); b.innerHTML = '<i></i>'; document.body.appendChild(b); }
+  clearTimeout(pbT);
+  if (on) { b.classList.remove('is-done'); b.classList.add('is-on'); }
+  else if (b.classList.contains('is-on')) { b.classList.add('is-done'); pbT = setTimeout(() => b.classList.remove('is-on', 'is-done'), 260); }
+}
+function routeNow() {
+  const t0 = performance.now(), hk = costKey(location.hash.replace(/^#\/?/, ''));
+  try { routeBody(); } finally { COST.set(hk, performance.now() - t0); progressBar(false); }
+}
+// v39: chạm vào nút / thẻ / dòng → vòng sáng loang ra ngay dưới ngón tay (chạy trên GPU, vẫn chạy khi máy đang bận dựng trang)
+function initTapFx() {
+  const SEL = 'a, button, .btn, .chip, .opt, .tile, .mode, label.check';
+  addEventListener('pointerdown', e => {
+    if (e.button > 0 || document.documentElement.classList.contains('calm')) return;
+    const t = e.target.closest?.(SEL);
+    if (!t || t.disabled || t.closest('.back-fab, input, select, textarea')) return;
+    const r = document.createElement('span');
+    r.className = 'tap-fx'; r.style.left = e.clientX + 'px'; r.style.top = e.clientY + 'px';
+    document.body.appendChild(r);
+    r.addEventListener('animationend', () => r.remove());
+    setTimeout(() => r.remove(), 700);
+  }, { passive: true, capture: true });
+}
+// v39: lúc máy rảnh sau khi mở app, tính sẵn các bảng dùng chung (kho câu, danh sách bài, chỉ mục chữ Hán, trạng thái bài…)
+// để bấm sang Lộ trình, Ôn hỗn hợp, Luyện dịch, bài học… không phải tính lần đầu. Mỗi việc một lượt rảnh, không chặn máy.
+async function warmUp() {
+  const idle = f => new Promise(res => (window.requestIdleCallback ? requestIdleCallback(() => { try { f(); } catch { } res(); }, { timeout: 2000 }) : setTimeout(() => { try { f(); } catch { } res(); }, 50)));
+  const [{ sentences }, L, { kanjiOfDay }, { mixedDue }] = await Promise.all([import('./dich.js'), import('./lesson.js'), import('./kanji.js'), import('./practice.js')]);
+  const jobs = [() => sentences(), () => L.allLessons(), () => kanjiOfDay(), () => L.warmLessons?.(), () => mixedDue()];
+  for (const j of jobs) await idle(j);
+}
+
+function routeBody() {
   // nhớ trang trước (để nút "← Về …" của lượt học tự bắt đầu quay về đúng chỗ)
   const cur = location.hash || '#/';
   if (cur !== ctx.curHash) { ctx.prevHash = ctx.curHash; ctx.curHash = cur; }
@@ -132,9 +185,10 @@ function route() {
   heartRoute(h); // tim tạm ở bài học: sang trang khác thì bỏ
   const r = ROUTES.find(([re]) => re.test(h));
   // mỗi lần chuyển trang dùng một khung mới — trình nghe sự kiện của trang cũ bị bỏ theo khung cũ
+  const fromSkel = !!view.querySelector('.page-skel'); // v39: thay khung trang bằng nội dung → chỉ mờ nhanh, không trượt lần nữa
   view.innerHTML = '';
   const page = document.createElement('div');
-  page.className = 'page';
+  page.className = fromSkel ? 'page from-skel' : 'page';
   view.appendChild(page);
   if (r) r[1](page, h.match(r[0]));
   else page.innerHTML = emptyState('Không có trang này.', '<a class="btn btn-ghost" href="#/">Về trang chủ</a>');
@@ -310,6 +364,8 @@ async function init() {
   await loadSettings();
   try { initSeason(); initFxPanel(); } catch (e) { console.warn('season', e); }
   initMarks();
+  initTapFx();
+  setTimeout(warmUp, 1200);
   chrome();
   try { initBackFab(ctx); } catch (e) { console.warn('backfab', e); }
   // v32: thanh trên trong suốt; cuộn xuống thì thành kính mờ để chữ trang không đè tiêu đề

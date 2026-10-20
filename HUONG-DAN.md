@@ -704,3 +704,39 @@ Rà lại nghĩa mà app tự ghép cho các thể (có thể …, đã …, đa
 - Mã: `js/pairs8.js` (mới), `js/marks.js` (mới), `js/quiz.js`, `js/drill.js`, `js/kanji.js`, `js/words.js`, `js/wordx.js`, `js/practice.js`, `js/app.js`, `js/nav.js`, `css/app.css`, `js/util.js`, `sw.js`.
 - Dữ liệu: 57 gói từ vựng, `data/manifest.json`.
 - `HUONG-DAN.md`.
+
+## 48. Bản v39 (20/10/2026): bấm sang trang không khựng; ghép 8 cặp có "Quên — xem đáp án"
+
+**Bấm nút ở Trang chủ không còn khựng** (đo trên máy giả lập chạy chậm 4 lần, gần với điện thoại tầm trung):
+
+| Trang | Trước | Nay (thấy phản hồi) | Nay (có nội dung) |
+|---|---|---|---|
+| Lộ trình | 9,5 giây | ~0,01 giây | ~0,1–0,2 giây |
+| Ôn nhanh 3 phút | 1,8 giây | ~0,01 giây | ~0,1–0,3 giây |
+
+- **Sửa tận gốc:**
+  - Lộ trình trước đây, với mỗi bài, quét lại cả hơn 5.000 từ để tìm "từ liên quan". Nay dùng bảng tra chữ Hán → từ, dựng một lần (nhanh hơn khoảng 50 lần).
+  - Ôn nhanh 3 phút, Ôn hỗn hợp chỉ dựng đáp án nhiễu cho câu đang hiện, không dựng trước cả 80 câu.
+  - Thống kê từng cấp, danh sách mục đến hạn, chữ của ngày được nhớ tạm, chỉ tính lại khi tiến độ học đổi.
+- **Tính trước lúc rảnh:** mở app xong, lúc máy rảnh app tính sẵn kho câu, danh sách bài, chỉ mục chữ Hán, trạng thái các bài, mục đến hạn.
+- **Phản hồi ngay khi chạm:**
+  - Vòng sáng loang dưới ngón tay; thẻ, dòng bài học, nút dưới đáy lún nhẹ.
+  - Trang nào lần trước dựng lâu (từ 35 ms) thì hiện ngay khung trang (tiêu đề thật, khối xám lấp lánh) và thanh tiến trình mảnh ở mép trên, nội dung điền vào ở khung hình sau. Trang nhanh vẫn hiện thẳng, không nhấp nháy.
+  - Mọi hiệu ứng này chạy trên GPU nên vẫn trôi khi máy đang bận.
+
+**Ghép 8 cặp:**
+- **Nút "💡 Quên — xem đáp án":** cột trái đứng yên, các ô bên phải trượt lên / xuống về đúng hàng của ô đúng bên trái (mọi ô trong màn cao bằng nhau nên ngang hàng thật). Ghép lại các cặp đó để nhớ.
+- Xem đáp án tính là **sai**, trừ từ / chữ đã bấm **"Đã thuộc"**: không tính gì, vẫn giữ Đã thuộc.
+- **Màn cuối chưa đủ 8 cặp thì thêm cho đủ**, áp dụng ở mọi lượt và ở trang Đã đánh dấu (đánh dấu 1 từ cũng ghép được).
+  - Thứ tự lấy: mục đến hạn ôn (quá hạn lâu trước) → sắp quên (đến hạn trong 2 ngày, hoặc hay sai) → mới học 7 ngày qua.
+  - Chỉ lấy mục đã học và chưa "Đã thuộc"; cùng kiểu (từ hoặc chữ Hán).
+  - Ô của mục thêm có chấm nhỏ. Kết quả ghi vào lịch ôn nhưng không tính vào điểm lượt.
+
+**Từ "Đã thuộc":**
+- Không bao giờ đến hạn ôn nữa.
+- Chọn sai đáp án ở bài luyện từ vựng / chữ Hán thì quay lại lịch ôn, kể cả bài "không đổi lịch ôn" (Đoán nghĩa Hán Việt…).
+- Câu dài (dịch câu, ngữ pháp) giữ như cũ.
+
+**Tệp thay đổi**:
+- Mã: `js/app.js`, `js/lesson.js`, `js/dot6.js`, `js/practice.js`, `js/roadmap.js`, `js/srs.js`, `js/sync.js`, `js/kanji.js`, `js/pairs8.js`, `js/quiz.js`, `js/drill.js`, `js/marks.js`, `css/app.css`, `js/util.js`, `sw.js`.
+- `HUONG-DAN.md`.

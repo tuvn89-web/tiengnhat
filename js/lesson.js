@@ -85,7 +85,7 @@ export function lessonState(x) {
   const notNew = l => l.every(it => status(it) !== 'new');
   const textsDone = x.texts.length ? x.texts.every(t => D.lessons[t]?.done) : !!st.read;
   const flags = [
-    notNew(p.vocab), !!st.rel || !relatedWords(x).length, notNew(p.kanji), notNew(p.grammar),
+    notNew(p.vocab), !!st.rel || !hasRelated(x), notNew(p.kanji), notNew(p.grammar),
     !!st.pw, !!st.ps, textsDone, (rec.test?.best || 0) >= PASS,
   ];
   const nDone = flags.filter(Boolean).length;
@@ -110,6 +110,30 @@ export const dueReviews = () => allLessons().filter(x => reviewDue(x));
 
 // ---------- từ liên quan (bước 2) ----------
 const REL = { pair: 'cặp tự – tha', ant: 'trái nghĩa', syn: 'đồng nghĩa', confuse: 'dễ nhầm', rel: 'cùng gốc' };
+// v39: chỉ mục chữ Hán → các từ có chữ đó (dựng một lần) — trước đây mỗi chữ quét lại cả 5.000 từ, mở Lộ trình mất vài giây
+let _kIdx = null, _kKey = '';
+function wordsWithChar(c) {
+  const key = `${D.items.size}:${D.vocab.length}`;
+  if (!_kIdx || _kKey !== key) {
+    _kIdx = new Map(); _kKey = key;
+    for (const o of D.vocab) for (const ch of new Set(kanjiChars(o.kanji))) { let a = _kIdx.get(ch); if (!a) _kIdx.set(ch, a = []); a.push(o); }
+  }
+  return _kIdx.get(c) || [];
+}
+// Bước "Từ liên quan" có gì để học không — dừng ngay khi thấy một từ (Lộ trình gọi cho mọi bài)
+function hasRelated(x) {
+  const own = new Set(x.words), ok = id => id && D.items.get(id)?._type === 'vocab' && !own.has(id);
+  const ws = items(x.words);
+  for (const w of ws) for (const k of Object.keys(REL)) for (const r of [].concat(w[k] || [])) if (typeof r === 'string' && ok(r)) return true;
+  for (const w of ws) for (const c of kanjiChars(w.kanji)) for (const o of wordsWithChar(c)) if (o.id !== w.id && !own.has(o.id) && status(o) !== 'new') return true;
+  return false;
+}
+// v39: tính sẵn lúc rảnh (app.js warmUp): chỉ mục chữ Hán và trạng thái các bài của cấp đang học
+export function warmLessons() {
+  wordsWithChar('');
+  const cur = currentLesson();
+  if (cur) for (const x of lessonsOf(cur.level)) lessonState(x);
+}
 export function relatedWords(x) {
   const own = new Set(x.words), out = new Map();
   const add = (id, why) => { const it = D.items.get(id); if (it?._type === 'vocab' && !own.has(id) && !out.has(id)) out.set(id, { it, why }); };
@@ -121,7 +145,7 @@ export function relatedWords(x) {
   // từ đã học có chung chữ Hán
   for (const w of ws) for (const c of kanjiChars(w.kanji)) {
     let n = 0;
-    for (const o of D.vocab) { if (n >= 2) break; if (o.id !== w.id && (o.kanji || '').includes(c) && status(o) !== 'new' && !own.has(o.id) && !out.has(o.id)) { add(o.id, `chung chữ ${c} với ${w.kanji}`); n++; } }
+    for (const o of wordsWithChar(c)) { if (n >= 2) break; if (o.id !== w.id && status(o) !== 'new' && !own.has(o.id) && !out.has(o.id)) { add(o.id, `chung chữ ${c} với ${w.kanji}`); n++; } }
   }
   return [...out.values()].slice(0, 40);
 }

@@ -173,25 +173,17 @@ export function renderCungDau(view, ctx) {
 
 // ---------- M4: ôn nhanh 3 phút ----------
 export function runQuick3(view, ctx) {
+  // v39: xếp theo độ quá hạn trước (rẻ), chỉ dựng câu hỏi cho 80 mục đầu — trước đây dựng câu (kèm đáp án nhiễu) cho mọi mục đến hạn rồi mới cắt
   const now = Date.now(), list = [];
-  for (const it of D.vocab) {
-    const dd = dueDirs(it, now);
-    if (!dd.length) continue;
-    const q = vocabChoiceQ(it, dd[Math.floor(Math.random() * dd.length)]);
-    if (q) list.push([overdueMs(it, now), q]);
-  }
-  for (const k of D.kanji) {
-    const dd = dueDirs(k, now);
-    if (!dd.length) continue;
-    const q = kanjiQuestion(k, dd[Math.floor(Math.random() * dd.length)]);
-    if (q) list.push([overdueMs(k, now), q]);
-  }
+  for (const it of D.vocab) { const dd = dueDirs(it, now); if (dd.length) list.push([overdueMs(it, now), () => vocabChoiceQ(it, dd[Math.floor(Math.random() * dd.length)])]); }
+  for (const k of D.kanji) { const dd = dueDirs(k, now); if (dd.length) list.push([overdueMs(k, now), () => kanjiQuestion(k, dd[Math.floor(Math.random() * dd.length)])]); }
   for (const q of buildGrammarQs({ type: 'mix', source: 'due', count: 40 }).filter(q => q.kind === 'choice' && q.review)) {
     const g = D.items.get(q.review.id);
-    if (g) list.push([overdueMs(g, now), q]);
+    if (g) list.push([overdueMs(g, now), () => q]);
   }
   list.sort((a, b) => b[0] - a[0]);
-  let qs = list.slice(0, 80).map(x => x[1]), noReview = false;
+  let qs = [], noReview = false;
+  for (const [, mk] of list) { if (qs.length >= 80) break; const q = mk(); if (q) qs.push(q); }
   if (!qs.length) {
     const recent = D.vocab.filter(it => learnedSince(it, startOfDay() - 6 * DAY));
     qs = shuffle(recent).slice(0, 60).map((it, i) => vocabChoiceQ(it, i % 2 ? 'vj' : 'jv', { noReview: true })).filter(Boolean);

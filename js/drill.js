@@ -6,7 +6,7 @@ import { attachRomaji, romajiToKana, normKana } from './romaji.js';
 import { knownBtnHTML, bindKnownBtn } from './quiz.js';
 import { D, logAct, actOf } from './data.js';
 import { answerExplainHTML } from './explain.js';
-import { review, isLeech, SLOW_DIRS, itemType } from './srs.js';
+import { review, isLeech, SLOW_DIRS, itemType, allMastered } from './srs.js';
 import { leechSeen, markLeech, leechCardHTML, leechBarHTML } from './leech.js';
 import { confuseCmpHTML, isConfusable } from './wordx.js';
 import { isSimilar, similarCmpHTML } from './kanji.js';
@@ -24,7 +24,7 @@ import { runPairs, pairItems, pairable, modeSwHTML } from './pairs8.js';
     parts: [html…], bad: số thứ tự, fix: html,        ← spot
     accept: [chữ…], answerHTML: html, placeholder      ← type (tự gõ; so sau khi chuẩn hoá kana)
     after: html (giải thích sau khi trả lời), review: { id, dir } }  */
-export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'practice', timeLimit = 0, timeBox = 0, again, againLabel = '', noReview = false, onDone, runClass = '', noPairs = false, startPairs = false } = {}) {
+export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'practice', timeLimit = 0, timeBox = 0, again, againLabel = '', noReview = false, onDone, runClass = '', noPairs = false, startPairs = false, fillPairs = false } = {}) {
   if (!qs.length) { view.innerHTML = '<div class="empty"><p>Chưa đủ dữ liệu cho bài này.</p></div>'; return; }
   beginSession(ctx);
   if (mode === 'test') return runTest(view, qs, ctx, { title, timeLimit, again, noReview, onDone });
@@ -66,7 +66,7 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
   const pItem = q => (q.kind === 'choice' && q.review && !q._again ? D.items.get(q.review.id) : null);
   const pairQ = q => pairable(pItem(q));
   const doneIds = new Set();
-  const canPairs = () => !noPairs && !timeBox && pairItems(st.qs.slice(st.lock ? st.i + 1 : st.i).filter(q => pairQ(q) && !doneIds.has(q.review.id)).map(pItem)).length >= 3;
+  const canPairs = () => !noPairs && !timeBox && pairItems(st.qs.slice(st.lock ? st.i + 1 : st.i).filter(q => pairQ(q) && !doneIds.has(q.review.id)).map(pItem)).length >= (fillPairs ? 1 : 3);
   function toPairs() {
     setKeys(null);
     st.pending?.();
@@ -80,12 +80,13 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
         <button type="button" class="icon-btn" data-act="quit" aria-label="Dừng">${icon('close')}</button>
         <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${total(n)}" aria-valuenow="${base + d}"><i style="width:${((base + d) / Math.max(1, total(n))) * 100}%"></i></div>
         <span class="run-n">${base + d}/${total(n)}</span></div>`,
-      setKeys,
+      setKeys, exclude: st.qs.map(q => q.review?.id).filter(Boolean),
       onQuit: () => (st.res.length ? finish(true) : goBack(ctx)),
       onResult: async (it, ok) => {
         const q = firstQ.get(it.id);
         if (!q || doneIds.has(it.id)) return;
         doneIds.add(it.id);
+        if (ok === null) return; // xem đáp án của mục đã đánh dấu "Đã thuộc": không tính
         st.res.push({ q, ok }); if (ok) st.score++;
         if (!noReview) await review(q.review.id, q.review.dir, ok);
         if (q.onAnswer) q.onAnswer(ok);
@@ -212,6 +213,8 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
       if (committed) return; committed = true; st.pending = null;
       const okv = entry ? entry.ok : ok;
       const done = q.review && first && !noReview ? review(q.review.id, q.review.dir, okv, { slow: slow && okv }) : null;
+      // v40: từ / chữ "Đã thuộc" mà chọn sai ở bài không đổi lịch ôn → vẫn đưa về lịch ôn (câu dài, câu gõ… giữ như cũ)
+      if (!okv && first && q.kind === 'choice' && (noReview || !q.review)) { const mi = D.items.get(q.review?.id || q.cmpRight || ''); if (mi && ['vocab', 'kanji'].includes(itemType(mi)) && allMastered(mi)) review(mi.id, q.review?.dir || 'jv', false); }
       if (first && q.onAnswer) q.onAnswer(okv);
       return done;
     };
