@@ -1,6 +1,7 @@
 // Trang Luyện tập chung (F1) và các dạng bài dựa trên từ đã học:
 // F2 ghép câu từ ví dụ · F3 ghép câu theo ngữ pháp · F4 thể động từ trong câu · F5 tính từ trong câu · E2 đếm số · F7 ôn hỗn hợp.
 import { esc, rich, rubyHTML, plain, shuffle, autoChunks, END_PUNCT, wordHTML, icon, HL_RE } from './util.js';
+import { bareHintHTML, charsOK } from './bare.js';
 import { D, LEVELS, setPrefs } from './data.js';
 import { S } from './settings.js';
 import { selectItems, SOURCES, answerOf, distractors, readHint } from './quiz.js';
@@ -402,8 +403,10 @@ export function usedCounters() {
   return s;
 }
 function buildDem(o) {
-  const cs = o.cs?.length ? o.cs : CNT_DEFAULT;
+  // v41: mức "Theo trình độ": chỉ trợ số từ có chữ Hán đã học (つ, kana… luôn được)
+  const cs = (o.cs?.length ? o.cs : CNT_DEFAULT).filter(c => charsOK(c));
   const out = [];
+  if (!cs.length) return out;
   for (let k = 0; k < 200 && out.length < o.count; k++) {
     const c = cs[Math.floor(Math.random() * cs.length)], n = 1 + Math.floor(Math.random() * 10);
     const right = COUNTERS[c].r[n - 1], wrong = countWrong(c, n).slice(0, 3);
@@ -436,7 +439,7 @@ export async function renderDem(view, ctx) {
 // Một câu chọn đáp án của từ vựng (dùng cho Ôn hỗn hợp, Ôn nhanh 3 phút). cmpOf: đáp án → mã từ, để so sánh khi chọn nhầm (v31).
 export function vocabChoiceQ(it, dir, { noReview = false } = {}) {
   const right = answerOf(it, dir, 'furi');
-  const prompt = dir === 'vj' ? `<p class="prompt-vi">${esc(it.vi)}</p>` : dir === 'kr' ? `<p class="prompt-jp" lang="ja" data-bare>${esc(it.kanji)}</p>${readHint(it)}` : `<p class="prompt-jp" lang="ja">${wordHTML(it, 'furi')}</p>`;
+  const prompt = dir === 'vj' ? `<p class="prompt-vi">${esc(it.vi)}</p>` : dir === 'kr' ? `<p class="prompt-jp" lang="ja" data-bare>${esc(it.kanji)}</p>${bareHintHTML(it)}` : `<p class="prompt-jp" lang="ja">${wordHTML(it, 'furi')}</p>`;
   const q = { kind: 'choice', tag: dir === 'kr' ? 'Từ vựng — đọc chữ Hán' : 'Từ vựng', level: it.level, promptBare: dir === 'kr', prompt,
     hint: dir === 'vj' ? 'Chọn từ tiếng Nhật' : dir === 'kr' ? 'Chọn cách đọc' : 'Chọn nghĩa', answer: right.key, cmpRight: it.id,
     ...(noReview ? {} : { review: { id: it.id, dir } }) };

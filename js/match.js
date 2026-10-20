@@ -1,4 +1,5 @@
 import { esc, wordHTML, normVi, shuffle, beep, buzz, icon, rich, plain } from './util.js';
+import { charsOK } from './bare.js';
 import { verbInfo, conjugate } from './conj.js';
 import { D, LEVELS, logAct, actOf } from './data.js';
 import { S } from './settings.js';
@@ -82,7 +83,10 @@ export async function renderMatchSetup(view, ctx) {
   const read = () => ({ type: readChip(form, 'type'), source: readChip(form, 'source'), levels: readChips(form, 'levels'), topics: readChips(form, 'topics'), rounds: +readChip(form, 'rounds') });
   const pool = x => {
     if (!VOCAB_TYPES.includes(x.type)) return shuffle(extraPairs(x.type, x.type === 'chu-hv' ? [] : selectItems({ ...x, source: x.source === 'due' ? 'all' : x.source })));
-    const p = selectItems({ ...x, needKanji: x.type !== 'vi-kana' }); return x.source === 'new' ? p : shuffle(p);
+    // v41: Kana – Kanji (chữ để trần) ở mức "Theo trình độ": chỉ từ có mọi chữ Hán đã học
+    let p = selectItems({ ...x, needKanji: x.type !== 'vi-kana' });
+    if (x.type === 'kana-kanji') p = p.filter(it => charsOK(it.kanji));
+    return x.source === 'new' ? p : shuffle(p);
   };
   const upd = () => {
     const x = read();

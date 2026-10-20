@@ -32,6 +32,8 @@ import { initBackFab, backFabRoute } from './backfab.js';
 import { initFxPanel } from './fxpanel.js';
 import { initMarks, renderMarked } from './marks.js';
 import { bumpGen } from './lazy.js';
+import { relearnKanji } from './bare.js';
+import { setRelearn } from './srs.js';
 import { renderGuessLearn, renderHanViet, renderDenHam, renderGiongChu, renderCungDau, runQuick3, runRecap } from './dot6.js';
 
 const view = $('#view');
@@ -231,7 +233,11 @@ function learnPack(v, id) {
 }
 // Chữ Hán mới (Kế hoạch hôm nay): hỏi chữ chưa học, cấp thấp trước
 function newKanji(v) {
-  const qs = buildKanjiQs({ dir: 'mix', source: 'new', count: 999 }).sort((a, b) => LEVEL_I(a.level) - LEVEL_I(b.level)).slice(0, 10);
+  // v41: chữ gắn nhãn "cần học lại" (nút "Chưa học") lên đầu; trả lời đúng ở đây là đã học lại → gỡ nhãn
+  const rl = relearnKanji();
+  const rq = rl.length ? buildKanjiQs({ dir: 'mix', source: 'all', chars: rl.map(k => k.char), count: 10 }) : [];
+  rq.forEach(q => { const id = q.review?.id; if (id) q.onAnswer = ok => { if (ok) setRelearn(id, false); }; });
+  const qs = [...rq, ...buildKanjiQs({ dir: 'mix', source: 'new', count: 999 }).sort((a, b) => LEVEL_I(a.level) - LEVEL_I(b.level))].slice(0, Math.max(10, rq.length));
   if (!qs.length) { v.innerHTML = emptyState('Đã học hết thẻ chữ Hán trong kho.', '<a class="btn btn-primary" href="#/onchu">Ôn chữ Hán</a>'); return; }
   runDrill(v, qs, ctx, { title: 'Chữ Hán mới', again: () => ctx.go('#/chuhan/moi', true) });
 }

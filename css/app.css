@@ -1105,3 +1105,18 @@ html:not(.calm) .tn-in { animation: tnFadeIn .22s ease-out backwards; }
 .mode-n.mode-wait { background: none; }
 /* bài học: từng câu của bài đọc, từng bước, dòng từ — phần ngoài màn hình chưa tính bố cục (chữ có furigana tính bố cục rất tốn) */
 .passage > [data-i], details.lstep, .lrows > li { content-visibility: auto; contain-intrinsic-size: auto 56px; }
+
+/* ---------- v41: câu chữ Hán để trần, nút "Chưa học" ---------- */
+.rl-strip { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 12px 0 4px; padding-top: 10px; border-top: 1px dashed var(--line); }
+.rl-strip > .small { flex-basis: 100%; }
+.rl-btn { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface-2); color: var(--ink); font: inherit; cursor: pointer; }
+.rl-btn b { font-size: 1.25em; font-weight: 600; }
+.rl-btn span { font-size: 13px; color: var(--ink-2); }
+.rl-btn small { font-size: 12px; color: var(--blue); font-weight: 600; }
+.rl-btn[aria-pressed="true"] { border-color: var(--blue); background: var(--blue-soft); }
+.rl-card[aria-pressed="true"] small { color: var(--ink); }
+.kc-rl-note { color: var(--ink); background: var(--blue-soft); border-radius: 10px; padding: 8px 10px; }
+.ktile { position: relative; }
+.kt-rl { position: absolute; top: 2px; left: 4px; font-size: 12px; color: var(--blue); font-weight: 700; }
+.lv-note { margin: 10px 0 2px; }
+.lv-note li { margin: 4px 0; }

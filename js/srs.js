@@ -45,10 +45,22 @@ export async function review(id, dir, ok, { onlyIfDue = false, slow = false } = 
   x.due = startOfDay(now) + IV[x.b] * DAY;
   x.t = now;
   r.d[d] = x; r.t = now;
+  // v41: chữ Hán đang gắn nhãn "cần học lại": đúng 2 lần liền ở câu hỏi thẻ chữ thì tự gỡ nhãn
+  if (r.rl && id.startsWith('k:')) { if (ok) { r.rlok = (r.rlok || 0) + 1; if (r.rlok >= 2) { r.rl = false; r.rlok = 0; r.rlt = now; } } else r.rlok = 0; }
   P.set(id, r);
   await put('progress', r);
   PV++; onChange();
 }
+// v41: nút "Chưa học" ở chữ Hán — gắn / gỡ nhãn "cần học lại" (tiến độ cũ giữ nguyên; đồng bộ theo mốc rlt)
+export async function setRelearn(id, on) {
+  const now = Date.now();
+  const r = P.get(id) ? structuredClone(P.get(id)) : { id, d: {}, t: 0 };
+  r.rl = !!on; r.rlok = 0; r.rlt = now; r.t = now;
+  P.set(id, r);
+  await put('progress', r);
+  PV++; onChange();
+}
+export const isRelearn = id => !!P.get(id)?.rl;
 // Làm mới lịch ôn mà không lên hộp (luyện thêm khi chưa đến hạn): hạn ôn tính lại từ hôm nay, không bao giờ kéo sớm hơn
 export async function refreshDue(id, dir) {
   const now = Date.now(), d = progDir(dir);
@@ -149,6 +161,7 @@ export async function progRestore(before) {
     }
     if (!old) delete n.first;
     if (cur?.st) { n.star = cur.star; n.st = cur.st; }
+    if (cur?.rlt) { n.rl = cur.rl; n.rlok = cur.rlok; n.rlt = cur.rlt; }
     n.t = now;
     out.push(n);
   }
@@ -183,13 +196,17 @@ export function status(it) {
   if (KNOWN_DIRS[itemType(it)].every(d => (r.d[d]?.b || 0) >= 5)) return 'known';
   return 'learning';
 }
+// v41: bộ lọc hướng ôn do bare.js đặt — hướng "đọc chữ Hán" (để trần) chỉ đến hạn khi từ đủ điều kiện hỏi để trần;
+// chưa đủ thì lịch ôn hướng này chờ (không tính đến hạn, không dồn), đủ rồi chạy tiếp từ chỗ cũ
+let dirOK = null;
+export const setDirFilter = f => { dirOK = f; PV++; };
 export function dueDirs(it, now = Date.now()) {
   const r = P.get(it.id);
   if (!r) return [];
   return TYPE_DIRS[itemType(it)].filter(d => {
     const x = r.d?.[d];
     if (!x || x.b === 0 || x.m || x.due > now) return false;
-    return d !== 'kr' || !!it.kanji;
+    return d !== 'kr' || (!!it.kanji && (!dirOK || dirOK(it, d)));
   });
 }
 export const errCount = it => { const r = P.get(it.id); return r ? Object.values(r.d || {}).reduce((s, x) => s + (x.ng || 0), 0) : 0; };

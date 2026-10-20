@@ -1,13 +1,14 @@
 // Bộ chạy bài tập dùng chung: chọn đáp án · sắp xếp mảnh câu · chạm vào chỗ sai.
 // Dùng cho ôn chữ Hán, bài tập ngữ pháp và thi thử.
-import { esc, shuffle, beep, buzz, icon, toast, orderOK, altOrders, activeNow } from './util.js';
+import { esc, shuffle, beep, buzz, icon, toast, orderOK, altOrders, activeNow, wordHTML } from './util.js';
+import { relearnStripHTML, toggleRelearn } from './bare.js';
 import { whenIdle } from './lazy.js';
 import { S, saveSettings } from './settings.js';
 import { attachRomaji, romajiToKana, normKana } from './romaji.js';
 import { knownBtnHTML, bindKnownBtn } from './quiz.js';
 import { D, logAct, actOf } from './data.js';
 import { answerExplainHTML } from './explain.js';
-import { review, isLeech, SLOW_DIRS, itemType, allMastered } from './srs.js';
+import { review, isLeech, SLOW_DIRS, itemType, allMastered, progSnapshot, progRestore } from './srs.js';
 import { leechSeen, markLeech, leechCardHTML, leechBarHTML } from './leech.js';
 import { confuseCmpHTML, isConfusable } from './wordx.js';
 import { isSimilar, similarCmpHTML } from './kanji.js';
@@ -212,6 +213,9 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     // v31 (N3): câu chọn đáp án của từ vựng / chữ Hán đúng mà nghĩ quá lâu → chưa lên hộp
     const secs = Math.round((activeNow() - (q._t0 || activeNow())) / 1000);
     const slow = ok && first && !noReview && q.kind === 'choice' && S.slowSec > 0 && !!q.review && SLOW_DIRS.has(q.review.dir) && !q.noSlow && secs > S.slowSec;
+    // v41: câu "Kanji → cách đọc" (để trần) ngoài bài thi: sau khi trả lời có nút "Chưa học" ở từng chữ Hán
+    const kr = q.kind === 'choice' && q.review?.dir === 'kr' && !test ? D.items.get(q.review.id) : null;
+    const snap = kr && first && !noReview ? progSnapshot([kr.id]) : null;
     const commit = () => {
       if (committed) return; committed = true; st.pending = null;
       const okv = entry ? entry.ok : ok;
@@ -264,7 +268,17 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
       else if (ri && pi && itemType(ri) === 'vocab' && isConfusable(ri, pi)) cmp = confuseCmpHTML([ri, pi], { focus: ri.id, picked: pi.id, title: 'Hai từ này dễ nhầm' });
     }
     const slowMsg = slow ? `<p class="after-slow small">Đúng nhưng chậm (${secs} giây) — chưa lên hộp, sẽ hỏi lại sớm hơn.</p>` : '';
-    after.innerHTML = right + slowMsg + cmp + (q.after || '') + answerExplainHTML(q);
+    after.innerHTML = right + slowMsg + cmp + (q.after || '') + answerExplainHTML(q) + (kr ? relearnStripHTML(kr) : '');
+    // bấm "Chưa học": chữ gắn nhãn cần học lại; câu này trả lời sai thì bỏ tính điểm (không ghi sai vào lịch ôn, không hỏi lại)
+    after.querySelectorAll('[data-rl]').forEach(b => b.onclick = () => toggleRelearn(b.dataset.rl, { onChange: on => {
+      if (!on || !entry || entry.ok || q._nt) return;
+      q._nt = true;
+      const k = st.res.indexOf(entry); if (k >= 0) st.res.splice(k, 1);
+      if (againQ) { const j = st.qs.indexOf(againQ); if (j > st.i) st.qs.splice(j, 1); st.again.delete(st.i); }
+      if (snap) progRestore(snap);
+      const pj = view.querySelector('.prompt-jp[data-bare]'); if (pj) { pj.innerHTML = wordHTML(kr, 'furi'); pj.removeAttribute('data-bare'); }
+      after.insertAdjacentHTML('afterbegin', '<p class="after-slow small">Chưa học chữ này — câu này không tính điểm.</p>');
+    } }));
     const ov = after.querySelector('[data-act=override]');
     if (ov) ov.onclick = () => {
       if (!entry || entry.ok) return;

@@ -1,4 +1,5 @@
 import { esc, wordHTML, wordKey, normVi, shuffle, beep, buzz, icon, toast, startOfDay, DAY, plain, activeNow } from './util.js';
+import { bareOK, bareMode, bareHintHTML, relearnStripHTML, toggleRelearn } from './bare.js';
 import { D, LEVELS, TOPICS, logAct, actOf } from './data.js';
 import { S } from './settings.js';
 import { review, status, dueDirs, errCount, isStar, toggleStar, stats, progDir, learnedSince, setLearned, progSnapshot, progRestore, allMastered, isLeech, SLOW_DIRS } from './srs.js';
@@ -43,7 +44,9 @@ export function selectItems({ levels = [], topics = [], source = 'all', needKanj
 
 export function buildQuestions(o) {
   const allowMix = ['vj', 'jv', 'kr', ...(ttsReady() ? ['au'] : [])];
-  const pool = selectItems({ ...o, needKanji: o.dir === 'kr' });
+  let pool = selectItems({ ...o, needKanji: o.dir === 'kr' });
+  // v41: tự chọn kiểu "Kanji → cách đọc" ở mức "Theo trình độ": chỉ lấy từ đủ điều kiện hỏi để trần
+  if (o.dir === 'kr' && bareMode() === 'level') pool = pool.filter(bareOK);
   let qs = [];
   if (o.source === 'due') {
     for (const it of shuffle(pool)) {
@@ -58,7 +61,7 @@ export function buildQuestions(o) {
     let list = o.source === 'all' || o.source === 'star' ? shuffle(pool) : pool;
     for (const it of list) {
       let d = o.dir;
-      if (d === 'mix') { const c = allowMix.filter(x => x !== 'kr' || it.kanji); d = c[Math.floor(Math.random() * c.length)]; }
+      if (d === 'mix') { const c = allowMix.filter(x => x !== 'kr' || bareOK(it)); d = c[Math.floor(Math.random() * c.length)]; }
       qs.push({ it, dir: d });
     }
   }
@@ -400,7 +403,7 @@ export function runQuiz(view, qs, o, ctx) {
     let prompt, hint;
     if (dir === 'vj') { prompt = `<p class="prompt-vi">${esc(it.vi)}</p>`; hint = 'Chọn từ tiếng Nhật'; }
     else if (dir === 'jv') { prompt = `<div class="prompt-row"><p class="prompt-jp" lang="ja">${wordHTML(it, script)}</p>${sayBtn(it.kana)}</div>`; hint = 'Chọn nghĩa tiếng Việt'; }
-    else if (dir === 'kr') { prompt = `<p class="prompt-jp" lang="ja" data-bare>${wordHTML(it, 'bare')}</p>${readHint(it)}`; hint = 'Chọn cách đọc'; }
+    else if (dir === 'kr') { prompt = `<p class="prompt-jp" lang="ja" data-bare>${wordHTML(it, 'bare')}</p>${bareHintHTML(it)}`; hint = 'Chọn cách đọc'; }
     else { prompt = `<button type="button" class="say-big" data-say="${esc(it.kana)}" aria-label="Nghe lại">${icon('speaker')}<span>Nghe lại</span></button>`; hint = 'Nghe rồi chọn nghĩa tiếng Việt'; }
     view.innerHTML = `<div class="run">${head()}${swHTML()}
       <article class="label-card" data-nokj>${tag(it)}${prompt}<p class="prompt-hint">${hint}</p><div class="stamp" aria-hidden="true"></div></article>
@@ -437,6 +440,7 @@ export function runQuiz(view, qs, o, ctx) {
     if (S.sound) beep(ok);
     if (!ok && S.vibrate) buzz();
     if (ok) burstAtEl(view.querySelector('.opt.is-ok'));
+    const snap = q.dir === 'kr' && !q.again ? progSnapshot([q.it.id]) : null; // v41: để "Chưa học" bỏ tính điểm câu sai
     if (!q.again) {
       st.done.add(q.it.id);
       if (ok) st.score++; else st.wrong.push(q.it);
@@ -453,7 +457,17 @@ export function runQuiz(view, qs, o, ctx) {
     const cmp = picked && isConfusable(q.it, picked) ? confuseCmpHTML([q.it, picked], { focus: q.it.id, picked: picked.id, title: 'Hai từ này dễ nhầm' }) : '';
     after.innerHTML = `${ok ? '' : `<p class="after-msg">Đáp án đúng: <b>${right.html}</b>${q.again ? '' : ' — từ này sẽ hỏi lại cuối lượt.'}</p>`}
       ${slow ? `<p class="after-slow small">Đúng nhưng chậm (${secs} giây) — chưa lên hộp, sẽ hỏi lại sớm hơn.</p>` : ''}
-      ${cmp}${wordDetailHTML(q.it, { compact: true })}`;
+      ${cmp}${wordDetailHTML(q.it, { compact: true })}${q.dir === 'kr' ? relearnStripHTML(q.it) : ''}`;
+    // v41: câu để trần — bấm "Chưa học" ở chữ Hán: chữ gắn nhãn cần học lại; câu này trả lời sai thì bỏ tính điểm
+    after.querySelectorAll('[data-rl]').forEach(b => b.onclick = () => toggleRelearn(b.dataset.rl, { onChange: on => {
+      if (!on || ok || q.again || q._nt) return;
+      q._nt = true; st.nt = (st.nt || 0) + 1;
+      const w = st.wrong.lastIndexOf(q.it); if (w >= 0) st.wrong.splice(w, 1);
+      const k = st.qs.findIndex((x, j) => j > st.i && x.again && x.it.id === q.it.id); if (k > 0) st.qs.splice(k, 1);
+      if (snap) progRestore(snap);
+      const pj = view.querySelector('.prompt-jp[data-bare]'); if (pj) { pj.innerHTML = wordHTML(q.it, 'furi'); pj.removeAttribute('data-bare'); }
+      after.insertAdjacentHTML('afterbegin', '<p class="after-slow small">Chưa học chữ này — câu này không tính điểm.</p>');
+    } }));
     // nút Tiếp ghim ở đáy màn hình — không cuộn trang, để vẫn thấy đáp án và dấu chấm
     const bar = document.createElement('div');
     bar.className = 'next-bar';
@@ -470,7 +484,7 @@ export function runQuiz(view, qs, o, ctx) {
 
   function finish(early = false) {
     setKeys(null);
-    const answered = early || st.learned || st.mixed ? st.score + st.wrong.length : st.total;
+    const answered = early || st.learned || st.mixed ? st.score + st.wrong.length : st.total - (st.nt || 0);
     const wrongU = [...new Map(st.wrong.map(it => [it.id, it])).values()];
     ctx.inRun = true;
     view.innerHTML = `<section class="result">${crumbHTML(ctx)}

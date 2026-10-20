@@ -3,7 +3,8 @@
 import { appendChunks } from './lazy.js';
 import { esc, rich, kj, wordHTML, kanjiChars, shuffle, icon, toast, debounce } from './util.js';
 import { D, LEVELS, KGROUPS, report, unreport } from './data.js';
-import { status, dueDirs, errCount, isStar, toggleStar, stats, P, TOP } from './srs.js';
+import { status, dueDirs, errCount, isStar, toggleStar, stats, P, TOP, isRelearn } from './srs.js';
+import { toggleRelearn } from './bare.js';
 import { markBtnHTML } from './marks.js';
 import { chips, bindChips, readChip, readChips, openSheet, emptyState, field } from './ui.js';
 import { runDrill, opt } from './drill.js';
@@ -104,7 +105,9 @@ export function kanjiCardHTML(ch) {
     ${k.note ? `<p class="wd-note">${rich(k.note)}</p>` : ''}
     ${rep ? `<p class="wd-flag">Bạn đã báo sai thẻ này${D.reports[k.id].note ? ': ' + esc(D.reports[k.id].note) : ''}.</p>` : ''}
     <p class="muted small">Tiến độ: ${esc(prog)}.</p>
+    ${status(k) !== 'new' || isRelearn(k.id) ? `<p class="small kc-rl-note" data-for="${esc(k.id)}" ${isRelearn(k.id) ? '' : 'hidden'}>↺ Đang gắn nhãn <b>cần học lại</b>: từ có chữ này hiện furigana, chữ nằm đầu "Học chữ Hán mới". Nhãn tự gỡ khi học lại chữ ở đó hoặc trả lời đúng thẻ chữ 2 lần liền.</p>` : ''}
     <div class="row-btns wrap">
+      ${status(k) !== 'new' || isRelearn(k.id) ? `<button type="button" class="btn btn-ghost rl-btn rl-card" data-rl="${esc(k.id)}" aria-pressed="${isRelearn(k.id)}"><small>${isRelearn(k.id) ? 'Đã học lại ✓' : 'Chưa học chữ này'}</small></button>` : ''}
       <button type="button" class="btn btn-ghost" data-ka="rep">${icon('flag')} ${rep ? 'Bỏ báo sai' : 'Báo sai'}</button>
     </div>
   </div>`;
@@ -114,6 +117,8 @@ export function openKanji(ch) {
   const s = openSheet(kanjiCardHTML(ch), { label: `Chữ ${ch}` });
   const k = D.kanjiByChar.get(ch);
   s.body.addEventListener('click', async e => {
+    const rl = e.target.closest('[data-rl]');
+    if (rl) { toggleRelearn(rl.dataset.rl); return; } // v41: nút "Chưa học" / "Đã học lại"
     const a = e.target.closest('[data-ka]')?.dataset.ka;
     if (!a || !k) return;
     if (a === 'star') { const b = e.target.closest('[data-ka]'); b.setAttribute('aria-pressed', await toggleStar(k.id)); }
@@ -163,7 +168,7 @@ export function renderKanjiList(view) {
     ${miss.length ? `<details class="kmiss"><summary>${miss.length} chữ trong kho từ chưa có thẻ</summary><p class="kmiss-list" lang="ja" data-bare>${miss.map(m => `<button type="button" class="kchip" data-kopen="${esc(m.c)}">${esc(m.c)}</button>`).join('')}</p>
       <p class="muted small">Tải "file gửi skill" ở trang Dữ liệu, skill sẽ làm thẻ cho các chữ này (chữ xuất hiện nhiều làm trước).</p></details>` : ''}`;
   const grid = view.querySelector('.kgrid'), q = view.querySelector('.search');
-  const tile = k => `<button type="button" class="ktile" data-kopen="${esc(k.char)}" data-bare><span class="ktile-c" lang="ja">${esc(k.char)}</span><span class="ktile-hv">${esc(k.hv)}</span><span class="dot dot-${status(k)}" title="${ST_LABEL[status(k)]}"></span></button>`;
+  const tile = k => `<button type="button" class="ktile" data-kopen="${esc(k.char)}" data-bare><span class="ktile-c" lang="ja">${esc(k.char)}</span><span class="ktile-hv">${esc(k.hv)}</span><span class="dot dot-${status(k)}" title="${ST_LABEL[status(k)]}"></span>${isRelearn(k.id) ? '<span class="kt-rl" title="Cần học lại">↺</span>' : ''}</button>`;
   let drawN = 0;
   const draw = () => {
     drawN++;

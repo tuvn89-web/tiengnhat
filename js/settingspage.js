@@ -1,4 +1,5 @@
 import { fpsText } from './fxpanel.js';
+import { BARE_MODES, bareMode, bareHintOn, setBare } from './bare.js';
 import { esc, toast, APP_VERSION, checkUpdate } from './util.js';
 import { S, saveSettings, resetSettings } from './settings.js';
 import { jaVoices, speak, ttsReady, pickVoice } from './tts.js';
@@ -63,7 +64,10 @@ export function renderSettings(view, ctx) {
     <section class="card">
       <h2 class="h2">Hiển thị</h2>
       <fieldset><legend>Chế độ chữ mặc định</legend>${chips('script', SCRIPTS, S.script, false)}</fieldset>
-      <p class="muted small">Chữ kanji luôn có furigana nhỏ bên trên. Chỉ hai bài luyện đọc kanji (Kanji → cách đọc, ghép Chữ mềm/cứng – Kanji) mới ẩn furigana.</p>
+      <p class="muted small">Chữ kanji luôn có furigana nhỏ bên trên, trừ câu chữ Hán để trần (dưới đây) và các bài luyện mặt chữ (thẻ chữ Hán, chữ trông giống, Đếm số, ghép Kana – Kanji).</p>
+      <fieldset><legend>Câu chữ Hán để trần (không furigana)</legend>${chips('bareMode', BARE_MODES, bareMode(), false)}</fieldset>
+      <p class="muted small">Câu "Kanji → cách đọc" hiện từ bằng chữ Hán không furigana. <b>Theo trình độ</b>: chỉ hỏi từ thuộc cấp đã qua hoặc đang học <i>và</i> mọi chữ Hán trong từ đã học thẻ chữ (Đếm số, ghép Kana – Kanji cũng chỉ lấy chữ đã học). <b>Tắt</b>: không hỏi để trần ở các bài app tự trộn; lịch ôn hướng đọc tạm chờ, bật lại thì chạy tiếp. Tự chọn kiểu "Kanji → cách đọc" trong Trắc nghiệm vẫn làm được. Xếp lớp, Thi vượt cấp, Thi thử luôn như đề thật. Phần này đồng bộ giữa các máy.</p>
+      <label class="check"><input type="checkbox" name="bareHint" ${bareHintOn() ? 'checked' : ''}> Hiện nghĩa tiếng Việt dưới chữ để trần (gợi ý)</label>
       <label class="check"><input type="checkbox" name="showHv" ${S.showHv ? 'checked' : ''}> Hiện âm Hán Việt</label>
     </section>
 
@@ -109,6 +113,7 @@ export function renderSettings(view, ctx) {
   const save = () => saveSettings();
   bindChips(view, name => {
     if (name === 'minsq') return; // nút phút nhanh: phần Nhịp học tự lo
+    if (name === 'bareMode') return setBare({ bareMode: readChip(view, 'bareMode') }); // v41: lưu theo người học (đồng bộ)
     const v = readChip(view, name);
     S[name] = ['qCount', 'matchRounds', 'autoNext', 'slowSec'].includes(name) ? +v : v;
     save();
@@ -116,6 +121,7 @@ export function renderSettings(view, ctx) {
   view.addEventListener('input', e => {
     const el = e.target;
     if (!el.name || el.closest('.pace')) return;
+    if (el.name === 'bareHint') return setBare({ bareHint: el.checked });
     if (el.type === 'range') S[el.name] = +el.value;
     else if (el.type === 'checkbox') S[el.name] = el.checked;
     else S[el.name] = el.value;

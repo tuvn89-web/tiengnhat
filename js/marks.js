@@ -1,6 +1,7 @@
 // v38: ĐÁNH DẤU ★ từ vựng / chữ Hán để ôn riêng. Dấu lưu trong tiến độ học (đồng bộ, sao lưu cùng tiến độ).
 // Nút ★ có ở: thẻ từ, thẻ chữ Hán, phần đáp án sau mỗi câu, danh sách Kho từ. Ôn: Luyện tập → "Đã đánh dấu ★" (trắc nghiệm hoặc ghép 8 cặp).
 import { esc, icon, toast } from './util.js';
+import { bareOK } from './bare.js';
 import { isStar, toggleStar } from './srs.js';
 
 export const markBtnHTML = (id, { label = false } = {}) => {
@@ -55,7 +56,7 @@ export async function renderMarked(view, ctx) {
       const { runQuiz } = await import('./quiz.js');
       const { S } = await import('./settings.js');
       const items = shuffle(D.vocab.filter(it => isStar(it.id))).slice(0, 50);
-      const qs = items.map(it => ({ it, dir: it.kanji && Math.random() < 0.25 ? 'kr' : Math.random() < 0.5 ? 'jv' : 'vj' }));
+      const qs = items.map(it => ({ it, dir: bareOK(it) && Math.random() < 0.25 ? 'kr' : Math.random() < 0.5 ? 'jv' : 'vj' }));
       return runQuiz(view, qs, { dir: 'mix', script: S.script, source: 'star', again, startPairs: mode === 'pairs', fillPairs: true, noIntro: true }, ctx); // mục tự đánh dấu: hỏi luôn, không hiện thẻ giới thiệu từ mới
     }
     const { buildKanjiQs } = await import('./kanji.js');

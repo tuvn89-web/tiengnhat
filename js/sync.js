@@ -205,6 +205,8 @@ function mergeProgress(a = {}, b = {}) {
     for (const d of new Set([...Object.keys(x.d || {}), ...Object.keys(y.d || {})])) r.d[d] = newer(x.d?.[d], y.d?.[d]);
     const s = (y.st || 0) > (x.st || 0) ? y : x;
     if (s.st) { r.star = !!s.star; r.st = s.st; }
+    const q = (y.rlt || 0) > (x.rlt || 0) ? y : x; // v41: nhãn "cần học lại" của chữ Hán — bản đổi sau cùng thắng
+    if (q.rlt) { r.rl = !!q.rl; r.rlok = q.rlok || 0; r.rlt = q.rlt; }
     out[id] = r;
   }
   return out;

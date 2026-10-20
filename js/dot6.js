@@ -2,6 +2,7 @@
 // M1 học từ mới đoán nghĩa trước + luyện đoán nghĩa từ Hán Việt · L1 phân biệt từ / mẫu dễ nhầm · L2 chữ Hán trông giống
 // N5 đánh từ cứng đầu · M4 ôn nhanh 3 phút · N4 nhắc lại từ mới cuối ngày
 import { esc, rich, plain, shuffle, wordHTML, blankHTML, rubyHTML, startOfDay, DAY, toast } from './util.js';
+import { bareOK } from './bare.js';
 import { D, LEVELS, setPrefs } from './data.js';
 import { S } from './settings.js';
 import { status, dueDirs, isLeech, errCount, learnedSince, overdueMs, P } from './srs.js';
@@ -153,7 +154,7 @@ export async function renderGiongChu(view, ctx) {
 // ---------- N5: đánh từ cứng đầu ----------
 const worstDir = (it, dirs) => {
   const d = P.get(it.id)?.d || {};
-  return dirs.filter(x => x !== 'kr' || it.kanji).sort((a, b) => (d[b]?.ng || 0) - (d[a]?.ng || 0))[0];
+  return dirs.filter(x => x !== 'kr' || bareOK(it)).sort((a, b) => (d[b]?.ng || 0) - (d[a]?.ng || 0))[0];
 };
 export function renderCungDau(view, ctx) {
   const lv = D.vocab.filter(isLeech).sort((a, b) => errCount(b) - errCount(a)), lk = D.kanji.filter(isLeech).sort((a, b) => errCount(b) - errCount(a));

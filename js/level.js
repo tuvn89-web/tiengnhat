@@ -1,6 +1,7 @@
 // Kiểm tra trình độ (đợt 5a — Đ1, Đ2): Xếp lớp nhanh (thích ứng N5 → …) · Thi vượt cấp (một cấp, ~55 câu) · Kiểm tra theo gói (10 câu).
 // Kết quả đổi tiến độ theo ngưỡng (mặc định 85% / 70%), chỉ đổi khi bấm Áp dụng, hoàn tác được trong 7 ngày.
 import { esc, rich, plain, rubyHTML, stripHL, reading, shuffle, wordHTML, fmtDate, toast, DAY } from './util.js';
+import { bareOK, bareHintHTML } from './bare.js';
 import { D, LEVELS, saveTest, testList, setPrefs } from './data.js';
 import { status, bulkApply, progSnapshot, progRestore } from './srs.js';
 import { answerOf, distractors, readHint } from './quiz.js';
@@ -39,12 +40,12 @@ function spread(items, key = it => it._pack) {
 const vocabOf = L => D.vocab.filter(v => v.level === L);
 
 // ---------- từng loại câu ----------
-function vocabQ(v, dir, L) {
+function vocabQ(v, dir, L, lesson = false) {
   const right = answerOf(v, dir, 'furi');
   const ds = distractors(v, dir, 'furi');
   if (ds.length < 3) return null;
   const base = { kind: 'choice', level: L, opts: shuffle([right, ...ds]).map(a => opt(a.key, a.html, a.jp)), answer: right.key, review: { id: v.id, dir }, topic: vTopic(v) };
-  if (dir === 'kr') return { ...base, sk: 'kread', tag: SK.kread, promptBare: true, prompt: `<p class="prompt-jp" lang="ja" data-bare>${esc(v.kanji)}</p>${readHint(v)}`, hint: 'Chọn cách đọc' };
+  if (dir === 'kr') return { ...base, sk: 'kread', tag: SK.kread, promptBare: true, prompt: `<p class="prompt-jp" lang="ja" data-bare>${esc(v.kanji)}</p>${lesson ? bareHintHTML(v) : readHint(v)}`, hint: 'Chọn cách đọc' };
   if (dir === 'vj') return { ...base, sk: 'vocab', tag: SK.vocab, prompt: `<p class="prompt-vi">${esc(v.vi)}</p>`, hint: 'Chọn từ tiếng Nhật' };
   if (dir === 'au') return { ...base, sk: 'listen', tag: SK.listen, prompt: '<p class="prompt-hint">Nghe từ (bấm loa để nghe lại) rồi chọn nghĩa</p>', say: v.kana, autoSay: true };
   return { ...base, sk: 'vocab', tag: SK.vocab, prompt: `<p class="prompt-jp" lang="ja">${wordHTML(v, 'furi')}</p>`, hint: 'Chọn nghĩa' };
@@ -115,7 +116,8 @@ function* poolQsGen(pool, spec, L) {
   let short = 0;
   // thẻ chữ Hán: thiếu thì bù bằng câu từ vựng
   short += yield* take(spec.kh || 0, kanjiQ, spread(pool ? pool.kanji : D.kanji.filter(k => k.level === L)));
-  short += yield* take(spec.kr || 0, v => vocabQ(v, 'kr', v.level || L), vocab.filter(v => v.kanji));
+  // v41: Xếp lớp, Thi vượt cấp (không có pool) luôn như đề thật; bài kiểm tra trong bài học theo công tắc "câu chữ Hán để trần"
+  short += yield* take(spec.kr || 0, v => vocabQ(v, 'kr', v.level || L, !!pool), vocab.filter(v => v.kanji && (!pool || bareOK(v))));
   short += yield* take(spec.g || 0, grammarQ, spread(pool ? pool.grammar : D.grammar.filter(g => g.level === L)));
   if (spec.read || spec.listen) {
     const src = sentSources(L, pool);
@@ -318,7 +320,7 @@ function runPackCheck(view, ctx, packId) {
   if (!p) return;
   const items = p.items.map(x => D.items.get(x.id)).filter(Boolean);
   let qs;
-  if (p.type === 'vocab') qs = shuffle(items).map(v => vocabQ(v, v.kanji && Math.random() < .3 ? 'kr' : Math.random() < .5 ? 'jv' : 'vj', v.level)).filter(Boolean).slice(0, 10);
+  if (p.type === 'vocab') qs = shuffle(items).map(v => vocabQ(v, bareOK(v) && Math.random() < .3 ? 'kr' : Math.random() < .5 ? 'jv' : 'vj', v.level)).filter(Boolean).slice(0, 10);
   else if (p.type === 'grammar') { qs = []; for (let k = 0; k < 4 && qs.length < 10; k++) for (const g of shuffle(items)) { const q = grammarQ(g); if (q && qs.length < 10) qs.push(q); } }
   else qs = shuffle(items).map(k => kanjiQuestion(k, Math.random() < .5 ? 'kh' : 'hk')).filter(Boolean).map(q => ({ ...q, sk: 'kanji', topic: '' })).slice(0, 10);
   if (!qs.length) { toast('Gói này chưa đủ dữ liệu để ra đề.'); return; }
@@ -329,6 +331,20 @@ function runPackCheck(view, ctx, packId) {
 }
 
 // ---------- kết quả ----------
+// v41: nhận xét phần còn yếu (để không đánh giá nhầm: nghĩa từ tốt mà đọc chữ Hán yếu thì nói rõ, chỉ việc cần học)
+function skillNotesHTML(t, lo, L) {
+  const pc = k => (t[k] && t[k][1] >= 3 ? Math.round((t[k][0] / t[k][1]) * 100) : null);
+  const weak = k => pc(k) != null && pc(k) < lo;
+  const out = [];
+  if (weak('kread')) out.push(`<b>Đọc chữ Hán</b> còn yếu (${pc('kread')}%)${pc('vocab') != null && pc('vocab') >= lo ? ` trong khi nghĩa từ tốt (${pc('vocab')}%)` : ''} → học thẻ chữ Hán cấp ${esc(L)} (Chữ Hán → Học chữ mới) và luyện Trắc nghiệm kiểu "Kanji → cách đọc".`);
+  if (weak('vocab')) out.push(`<b>Từ vựng</b> còn yếu (${pc('vocab')}%) → học từ mới cấp ${esc(L)} theo Lộ trình, ôn từ đến hạn mỗi ngày.`);
+  if (weak('kanji')) out.push(`<b>Thẻ chữ Hán</b> còn yếu (${pc('kanji')}%) → Ôn chữ Hán.`);
+  if (weak('grammar')) out.push(`<b>Ngữ pháp</b> còn yếu (${pc('grammar')}%) → Bài tập ngữ pháp cấp ${esc(L)}.`);
+  if (weak('read')) out.push(`<b>Đọc hiểu câu</b> còn yếu (${pc('read')}%) → Luyện dịch theo câu, Hội thoại & bài đọc.`);
+  if (weak('listen')) out.push(`<b>Nghe</b> còn yếu (${pc('listen')}%) → luyện Nghe – hiểu trong bài học, bật tự đọc khi học từ.`);
+  if (!out.length) return Object.keys(t).length ? `<p class="small lv-note">Các phần đều đạt từ ${lo}%.</p>` : '';
+  return `<div class="note lv-note"><p class="small"><b>Nhận xét:</b></p><ul class="small">${out.map(x => `<li>${x}</li>`).join('')}</ul></div>`;
+}
 function barRows(map) {
   return Object.entries(map).filter(([k, [, b]]) => k && b).map(([k, [a, b]]) => `<tr><th scope="row">${esc(k)}</th><td><span class="mini"><i style="width:${(a / b) * 100}%"></i></span></td><td class="num">${a}/${b}</td></tr>`).join('');
 }
@@ -365,6 +381,7 @@ async function showResult(view, ctx, { kind, results, pack, secs }) {
     ${head}
     ${kind === 'xeplop' && results.length > 1 ? `<table class="topics"><tbody>${barRows(levels)}</tbody></table>` : ''}
     <h2 class="h2">Theo kỹ năng</h2><table class="topics bytag"><tbody>${barRows(Object.fromEntries(Object.entries(tally(all, q => q.sk)).map(([k, v]) => [SK[k] || k, v])))}</tbody></table>
+    ${skillNotesHTML(tally(all, q => q.sk), lo, kind === 'xeplop' ? (results.find(x => pctOf(x.res) < lo)?.L || results[results.length - 1].L) : results[0].L)}
     ${Object.keys(tally(all, q => q.topic)).length > 1 ? `<h2 class="h2">Theo chủ đề</h2><table class="topics bytag"><tbody>${barRows(tally(all, q => q.topic))}</tbody></table>` : ''}
     ${kind === 'goi' ? '<p class="small muted">Kết quả đã tính vào lịch ôn.</p>' : '<div class="lv-plan card" aria-live="polite"><p class="muted small">Đang tính…</p></div>'}
     <div class="row-btns stack">

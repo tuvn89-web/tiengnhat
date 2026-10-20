@@ -788,3 +788,39 @@ Phần còn lại của mỗi lần chuyển trang chủ yếu là trình duyệ
 **Tệp:**
 - Mới: `js/lazy.js` (dựng từng phần, vòng ⟳), `js/fxcore.js` (lõi vẽ nền), `js/fxworker.js` (luồng vẽ nền).
 - Sửa: `js/app.js`, `js/roadmap.js`, `js/lesson.js`, `js/level.js`, `js/practice.js`, `js/quiz.js`, `js/drill.js`, `js/gdrill.js`, `js/grammar.js`, `js/words.js`, `js/wordx.js`, `js/learn.js`, `js/kanji.js`, `js/datapage.js`, `js/season.js`, `js/fxpanel.js`, `js/util.js`, `css/app.css`, `sw.js`.
+
+## 50. Bản v41 (20/10/2026): câu chữ Hán để trần theo trình độ, nút "Chưa học" cho chữ Hán
+
+**Câu chữ Hán để trần (không furigana)** là câu "Kanji → cách đọc": hiện từ bằng chữ Hán không có furigana, chọn cách đọc. Công tắc nằm ở Cài đặt → Hiển thị, đồng bộ giữa các máy, có 3 mức:
+
+- **Theo trình độ** (mặc định): chỉ hỏi để trần từ thoả **cả hai** điều kiện:
+  - Từ thuộc cấp đã qua hoặc cấp đang học trong Lộ trình.
+  - **Mọi** chữ Hán trong từ đều đã học thẻ chữ, và không chữ nào đang gắn nhãn "cần học lại".
+- **Tắt:** không hỏi để trần ở mọi chỗ app tự trộn (Trộn, Ôn hỗn hợp, Ôn nhanh 3 phút, luyện và kiểm tra trong bài học, Đã đánh dấu, Đánh từ cứng đầu, Kiểm tra theo gói).
+- **Luôn:** như trước v41.
+
+Từ chưa đủ điều kiện thì lịch ôn hướng "đọc" của từ đó **chờ**: không tính là đến hạn, không dồn lại. Khi từ đủ điều kiện (hoặc bật lại công tắc), lịch ôn chạy tiếp từ chỗ cũ.
+
+- **Tự chọn kiểu "Kanji → cách đọc"** trong Trắc nghiệm vẫn làm được ở mọi mức. Ở mức "Theo trình độ", app chỉ lấy các từ đủ điều kiện.
+- **Gợi ý nghĩa tiếng Việt** dưới chữ để trần: mặc định bật, tắt được ở Cài đặt.
+- **Xếp lớp, Thi vượt cấp, Thi thử:** không theo công tắc, luôn làm như đề thật để không đánh giá nhầm trình độ.
+  - Màn kết quả có điểm từng phần (Từ vựng, Đọc chữ Hán, Thẻ chữ Hán, Ngữ pháp, Đọc hiểu, Nghe).
+  - Thêm khung **Nhận xét** chỉ phần còn yếu và việc nên học. Ví dụ: "Đọc chữ Hán còn yếu trong khi nghĩa từ tốt → học thẻ chữ Hán cấp này…".
+- **Nhóm luyện mặt chữ** (thẻ chữ Hán, Chữ Hán trông giống, bảng kana) giữ như cũ, không furigana.
+- **Đếm số và Ghép cặp "Kana – Kanji":** ở mức "Theo trình độ" chỉ lấy chữ Hán đã học.
+
+**Nút "Chưa học" cho chữ Hán:**
+- **Nút nằm ở:**
+  - Dải "Chữ Hán trong từ" hiện sau khi trả lời câu để trần.
+  - Thẻ chữ Hán (khi chạm vào chữ).
+- **Trong danh sách Chữ Hán,** chữ đang gắn nhãn có dấu ↺.
+- **Bấm "Chưa học" thì:**
+  1. Chữ đó gắn nhãn **cần học lại** (kể cả khi thuộc cấp đã học). Mọi từ có chữ này hiện lại furigana, không bị hỏi để trần.
+  2. Nếu câu vừa làm trả lời **sai**, câu đó không tính điểm: không ghi sai vào lịch ôn, không hỏi lại cuối lượt, và câu hiện furigana.
+  3. Chữ lên **đầu hàng "Học chữ Hán mới"**. Tiến độ cũ giữ nguyên.
+  4. **Nhãn tự gỡ** khi trả lời đúng chữ đó trong "Học chữ Hán mới", hoặc trả lời đúng câu hỏi thẻ chữ đó 2 lần liền ở bất kỳ đâu.
+  5. Thông báo có nút **Hoàn tác**. Trên thẻ chữ có nút **"Đã học lại ✓"** để tự gỡ nhãn.
+
+**Tệp:**
+- Mới: `js/bare.js`.
+- Sửa: `js/srs.js` (nhãn cần học lại, bộ lọc hướng ôn), `js/sync.js` (đồng bộ nhãn), `js/quiz.js`, `js/drill.js`, `js/practice.js`, `js/level.js`, `js/dot6.js`, `js/marks.js`, `js/notes.js`, `js/match.js`, `js/kanji.js`, `js/app.js`, `js/settingspage.js`, `js/util.js`, `css/app.css`, `sw.js`.

@@ -1,6 +1,7 @@
 // Luyện riêng một danh sách mục của bài học (trang bài học gọi). Bản v18 đã bỏ tính năng Sổ tay;
 // dữ liệu sổ cũ (nbooks, nmarks) vẫn được giữ trong bản sao lưu / đồng bộ nhưng app không dùng nữa.
 import { toast } from './util.js';
+import { bareOK } from './bare.js';
 import { status } from './srs.js';
 
 export async function practiceItems(view, ctx, kind, x, { title = 'Luyện riêng', again, onDone } = {}) {
@@ -10,7 +11,7 @@ export async function practiceItems(view, ctx, kind, x, { title = 'Luyện riên
     const { ttsReady } = await import('./tts.js');
     const { S } = await import('./settings.js');
     const dirs = ['jv', 'vj', ...(ttsReady() ? ['au'] : [])];
-    const qs = shuffle([...x.vocab]).slice(0, 30).map(it => ({ it, dir: (it.kanji && Math.random() < .25) ? 'kr' : dirs[Math.floor(Math.random() * dirs.length)] }));
+    const qs = shuffle([...x.vocab]).slice(0, 30).map(it => ({ it, dir: (bareOK(it) && Math.random() < .25) ? 'kr' : dirs[Math.floor(Math.random() * dirs.length)] }));
     return runQuiz(view, qs, { dir: 'mix', script: S.script, source: 'all', onFinish: onDone, again }, ctx);
   }
   if (kind === 'learn') {
