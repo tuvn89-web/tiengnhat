@@ -1,1409 +1,1409 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n3-32",
-  "title": "JLPT N3 32 – Mức độ & đo lường",
-  "type": "vocab",
-  "level": "N3",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 1,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:程度:ていど",
-   "kana": "ていど",
-   "kanji": "程度",
-   "hv": "TRÌNH ĐỘ",
-   "vi": "mức (nặng nhẹ, cao thấp); ước chừng (sau số)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "けがの程度[ていど]は、軽[かる]いです。",
-     "vi": "Mức độ thương tích nhẹ.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "一日[いちにち]に百箱[ひゃっぱこ]程度[ていど]、作[つく]ります。",
-     "vi": "Một ngày làm chừng 100 thùng.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Nか程度[ていど] = khoảng …; ある程度[ていど] = ở mức nào đó."
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n3-32",
+    "title": "JLPT N3 32 – Mức độ & đo lường",
+    "type": "vocab",
+    "level": "N3",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:量:りょう",
-   "kana": "りょう",
-   "kanji": "量",
-   "hv": "LƯỢNG",
-   "vi": "lượng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "今日[きょう]は、魚[さかな]の量[りょう]が多[おお]いです。",
-     "vi": "Hôm nay lượng cá nhiều.",
-     "ctx": "xuong"
+      "id": "v:程度:ていど",
+      "kana": "ていど",
+      "kanji": "程度",
+      "hv": "TRÌNH ĐỘ",
+      "vi": "mức (nặng nhẹ, cao thấp); ước chừng (sau số)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "けがの程度[ていど]は、軽[かる]いです。",
+          "vi": "Mức độ thương tích nhẹ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "一日[いちにち]に百箱[ひゃっぱこ]程度[ていど]、作[つく]ります。",
+          "vi": "Một ngày làm chừng 100 thùng.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Nか程度[ていど] = khoảng …; ある程度[ていど] = ở mức nào đó."
     },
     {
-     "jp": "塩[しお]の量[りょう]を、量[はか]ってください。",
-     "vi": "Hãy cân lượng muối.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:数:すう",
-   "kana": "すう",
-   "kanji": "数",
-   "hv": "SỐ",
-   "vi": "vài, mấy (đầu từ ghép)",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "数[すう]日[じつ]、休[やす]みます。",
-     "vi": "Tôi nghỉ vài ngày.",
-     "ctx": "xuong"
+      "id": "v:量:りょう",
+      "kana": "りょう",
+      "kanji": "量",
+      "hv": "LƯỢNG",
+      "vi": "lượng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]は、魚[さかな]の量[りょう]が多[おお]いです。",
+          "vi": "Hôm nay lượng cá nhiều.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "塩[しお]の量[りょう]を、量[はか]ってください。",
+          "vi": "Hãy cân lượng muối.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "数[すう]人[にん]の外国人[がいこくじん]が、働[はたら]いています。",
-     "vi": "Có vài người nước ngoài đang làm việc.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "数日[すうじつ] = vài ngày; 数人[すうにん] = vài người; 数回[すうかい] = vài lần."
-  },
-  {
-   "id": "v:幅:はば",
-   "kana": "はば",
-   "kanji": "幅",
-   "hv": "PHÚC",
-   "vi": "bề rộng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この通路[つうろ]の幅[はば]は、二[に]メートルです。",
-     "vi": "Bề rộng lối đi này là 2 mét.",
-     "ctx": "xuong"
+      "id": "v:数:すう",
+      "kana": "すう",
+      "kanji": "数",
+      "hv": "SỐ",
+      "vi": "vài, mấy (đầu từ ghép)",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "数[すう]日[じつ]、休[やす]みます。",
+          "vi": "Tôi nghỉ vài ngày.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "数[すう]人[にん]の外国人[がいこくじん]が、働[はたら]いています。",
+          "vi": "Có vài người nước ngoài đang làm việc.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "数日[すうじつ] = vài ngày; 数人[すうにん] = vài người; 数回[すうかい] = vài lần."
     },
     {
-     "jp": "道[みち]の幅[はば]が狭[せま]くて、車[くるま]が通[とお]れません。",
-     "vi": "Đường hẹp, xe không qua được.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    {
-     "w": "長[なが]さ",
-     "vi": "chiều dài"
-    }
-   ]
-  },
-  {
-   "id": "v:範囲:はんい",
-   "kana": "はんい",
-   "kanji": "範囲",
-   "hv": "PHẠM VI",
-   "vi": "phạm vi",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "テストの範囲[はんい]を、教[おし]えてください。",
-     "vi": "Cho tôi biết phạm vi bài kiểm tra.",
-     "ctx": "doisong"
+      "id": "v:幅:はば",
+      "kana": "はば",
+      "kanji": "幅",
+      "hv": "PHÚC",
+      "vi": "bề rộng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この通路[つうろ]の幅[はば]は、二[に]メートルです。",
+          "vi": "Bề rộng lối đi này là 2 mét.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "道[みち]の幅[はば]が狭[せま]くて、車[くるま]が通[とお]れません。",
+          "vi": "Đường hẹp, xe không qua được.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        {
+          "w": "長[なが]さ",
+          "vi": "chiều dài"
+        }
+      ]
     },
     {
-     "jp": "できる範囲[はんい]で、手伝[てつだ]います。",
-     "vi": "Tôi giúp trong phạm vi có thể.",
-     "ctx": "hoithoai"
-    }
-   ]
-  },
-  {
-   "id": "v:限界:げんかい",
-   "kana": "げんかい",
-   "kanji": "限界",
-   "hv": "HẠN GIỚI",
-   "vi": "giới hạn cuối, ngưỡng chịu đựng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "もう、体力[たいりょく]の限界[げんかい]です。",
-     "vi": "Đã tới giới hạn thể lực rồi.",
-     "ctx": "xuong"
+      "id": "v:範囲:はんい",
+      "kana": "はんい",
+      "kanji": "範囲",
+      "hv": "PHẠM VI",
+      "vi": "phạm vi",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "テストの範囲[はんい]を、教[おし]えてください。",
+          "vi": "Cho tôi biết phạm vi bài kiểm tra.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "できる範囲[はんい]で、手伝[てつだ]います。",
+          "vi": "Tôi giúp trong phạm vi có thể.",
+          "ctx": "hoithoai"
+        }
+      ]
     },
     {
-     "jp": "一人[ひとり]でやるのは、限界[げんかい]があります。",
-     "vi": "Một mình làm thì có giới hạn.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:水準:すいじゅん",
-   "kana": "すいじゅん",
-   "kanji": "水準",
-   "hv": "THỦY CHUẨN",
-   "vi": "mức chuẩn, mặt bằng chung",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]の衛生[えいせい]の水準[すいじゅん]は、高[たか]いです。",
-     "vi": "Mặt bằng vệ sinh ở Nhật cao.",
-     "ctx": "xuong"
+      "id": "v:限界:げんかい",
+      "kana": "げんかい",
+      "kanji": "限界",
+      "hv": "HẠN GIỚI",
+      "vi": "giới hạn cuối, ngưỡng chịu đựng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "もう、体力[たいりょく]の限界[げんかい]です。",
+          "vi": "Đã tới giới hạn thể lực rồi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "一人[ひとり]でやるのは、限界[げんかい]があります。",
+          "vi": "Một mình làm thì có giới hạn.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "給料[きゅうりょう]の水準[すいじゅん]が、上[あ]がりました。",
-     "vi": "Mặt bằng lương đã tăng.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    {
-     "w": "レベル",
-     "vi": "cấp độ"
-    }
-   ]
-  },
-  {
-   "id": "v:レベル:レベル",
-   "kana": "レベル",
-   "kanji": "",
-   "hv": "",
-   "vi": "trình độ, mức (level)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本語[にほんご]のレベルは、N3です。",
-     "vi": "Trình độ tiếng Nhật là N3.",
-     "ctx": "doisong"
+      "id": "v:水準:すいじゅん",
+      "kana": "すいじゅん",
+      "kanji": "水準",
+      "hv": "THỦY CHUẨN",
+      "vi": "mức chuẩn, mặt bằng chung",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]の衛生[えいせい]の水準[すいじゅん]は、高[たか]いです。",
+          "vi": "Mặt bằng vệ sinh ở Nhật cao.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "給料[きゅうりょう]の水準[すいじゅん]が、上[あ]がりました。",
+          "vi": "Mặt bằng lương đã tăng.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        {
+          "w": "レベル",
+          "vi": "cấp độ"
+        }
+      ]
     },
     {
-     "jp": "レベルの高[たか]い仕事[しごと]を、任[まか]されました。",
-     "vi": "Tôi được giao việc cấp độ cao.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:水準:すいじゅん"
-   ],
-   "goc": "level (tiếng Anh)"
-  },
-  {
-   "id": "v:トン:トン",
-   "kana": "トン",
-   "kanji": "",
-   "hv": "",
-   "vi": "tấn",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この工場[こうじょう]では、一日[いちにち]に五[ご]トンの魚[さかな]を処理[しょり]します。",
-     "vi": "Nhà máy này mỗi ngày xử lý 5 tấn cá.",
-     "ctx": "xuong"
+      "id": "v:レベル:レベル",
+      "kana": "レベル",
+      "kanji": "",
+      "hv": "",
+      "vi": "trình độ, mức (level)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本語[にほんご]のレベルは、N3です。",
+          "vi": "Trình độ tiếng Nhật là N3.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "レベルの高[たか]い仕事[しごと]を、任[まか]されました。",
+          "vi": "Tôi được giao việc cấp độ cao.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:水準:すいじゅん"
+      ],
+      "goc": "level (tiếng Anh)"
     },
     {
-     "jp": "トラックに、二[に]トン積[つ]みました。",
-     "vi": "Chất lên xe tải 2 tấn.",
-     "ctx": "xuong"
-    }
-   ],
-   "goc": "ton (tiếng Anh)"
-  },
-  {
-   "id": "v:速度:そくど",
-   "kana": "そくど",
-   "kanji": "速度",
-   "hv": "TỐC ĐỘ",
-   "vi": "vận tốc",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ラインの速度[そくど]を、少[すこ]し落[お]としてください。",
-     "vi": "Hãy giảm tốc độ dây chuyền một chút.",
-     "ctx": "xuong"
+      "id": "v:トン:トン",
+      "kana": "トン",
+      "kanji": "",
+      "hv": "",
+      "vi": "tấn",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この工場[こうじょう]では、一日[いちにち]に五[ご]トンの魚[さかな]を処理[しょり]します。",
+          "vi": "Nhà máy này mỗi ngày xử lý 5 tấn cá.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "トラックに、二[に]トン積[つ]みました。",
+          "vi": "Chất lên xe tải 2 tấn.",
+          "ctx": "xuong"
+        }
+      ],
+      "goc": "ton (tiếng Anh)"
     },
     {
-     "jp": "速度[そくど]を守[まも]って、運転[うんてん]しましょう。",
-     "vi": "Lái xe đúng tốc độ quy định.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    {
-     "w": "スピード",
-     "vi": "tốc độ"
-    }
-   ]
-  },
-  {
-   "id": "v:温度:おんど",
-   "kana": "おんど",
-   "kanji": "温度",
-   "hv": "ÔN ĐỘ",
-   "vi": "nhiệt độ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "冷凍庫[れいとうこ]の温度[おんど]を、毎[まい]時間[じかん]チェックします。",
-     "vi": "Mỗi giờ kiểm tra nhiệt độ kho đông.",
-     "ctx": "xuong"
+      "id": "v:速度:そくど",
+      "kana": "そくど",
+      "kanji": "速度",
+      "hv": "TỐC ĐỘ",
+      "vi": "tốc độ, vận tốc",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ラインの速度[そくど]を、少[すこ]し落[お]としてください。",
+          "vi": "Hãy giảm tốc độ dây chuyền một chút.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "速度[そくど]を守[まも]って、運転[うんてん]しましょう。",
+          "vi": "Lái xe đúng tốc độ quy định.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        {
+          "w": "スピード",
+          "vi": "tốc độ"
+        }
+      ]
     },
     {
-     "jp": "部屋[へや]の温度[おんど]が、高[たか]すぎます。",
-     "vi": "Nhiệt độ phòng cao quá.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "温度計[おんどけい] = nhiệt kế; 気温[きおん] = nhiệt độ không khí; 体温[たいおん] = thân nhiệt."
-  },
-  {
-   "id": "v:多少:たしょう",
-   "kana": "たしょう",
-   "kanji": "多少",
-   "hv": "ĐA THIẾU",
-   "vi": "ít nhiều, đôi chút",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "多少[たしょう]の遅[おく]れは、大丈夫[だいじょうぶ]です。",
-     "vi": "Trễ đôi chút thì không sao.",
-     "ctx": "xuong"
+      "id": "v:温度:おんど",
+      "kana": "おんど",
+      "kanji": "温度",
+      "hv": "ÔN ĐỘ",
+      "vi": "nhiệt độ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "冷凍庫[れいとうこ]の温度[おんど]を、毎[まい]時間[じかん]チェックします。",
+          "vi": "Mỗi giờ kiểm tra nhiệt độ kho đông.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "部屋[へや]の温度[おんど]が、高[たか]すぎます。",
+          "vi": "Nhiệt độ phòng cao quá.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "温度計[おんどけい] = nhiệt kế; 気温[きおん] = nhiệt độ không khí; 体温[たいおん] = thân nhiệt."
     },
     {
-     "jp": "日本語[にほんご]は、多少[たしょう]分[わ]かります。",
-     "vi": "Tiếng Nhật thì tôi hiểu ít nhiều.",
-     "ctx": "hoithoai"
-    }
-   ]
-  },
-  {
-   "id": "v:やや:やや",
-   "kana": "やや",
-   "kanji": "",
-   "hv": "",
-   "vi": "hơi hơi (văn viết)",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今日[きょう]は、やや寒[さむ]いです。",
-     "vi": "Hôm nay hơi lạnh.",
-     "ctx": "doisong"
+      "id": "v:多少:たしょう",
+      "kana": "たしょう",
+      "kanji": "多少",
+      "hv": "ĐA THIẾU",
+      "vi": "ít nhiều, đôi chút",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "多少[たしょう]の遅[おく]れは、大丈夫[だいじょうぶ]です。",
+          "vi": "Trễ đôi chút thì không sao.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本語[にほんご]は、多少[たしょう]分[わ]かります。",
+          "vi": "Tiếng Nhật thì tôi hiểu ít nhiều.",
+          "ctx": "hoithoai"
+        }
+      ]
     },
     {
-     "jp": "温度[おんど]が、やや高[たか]くなっています。",
-     "vi": "Nhiệt độ đang hơi cao lên.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:少し:すこし"
-   ],
-   "note": "Hay gặp trong bản tin thời tiết."
-  },
-  {
-   "id": "v:かなり:かなり",
-   "kana": "かなり",
-   "kanji": "",
-   "hv": "",
-   "vi": "khá, tương đối nhiều",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今日[きょう]の作業[さぎょう]は、かなり大変[たいへん]でした。",
-     "vi": "Việc hôm nay khá vất vả.",
-     "ctx": "xuong"
+      "id": "v:やや:やや",
+      "kana": "やや",
+      "kanji": "",
+      "hv": "",
+      "vi": "hơi hơi (văn viết)",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]は、やや寒[さむ]いです。",
+          "vi": "Hôm nay hơi lạnh.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "温度[おんど]が、やや高[たか]くなっています。",
+          "vi": "Nhiệt độ đang hơi cao lên.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:少し:すこし"
+      ],
+      "note": "Hay gặp trong bản tin thời tiết."
     },
     {
-     "jp": "かなり日本語[にほんご]が上手[じょうず]になりましたね。",
-     "vi": "Tiếng Nhật đã khá lên nhiều nhỉ.",
-     "ctx": "hoithoai"
-    }
-   ]
-  },
-  {
-   "id": "v:相当:そうとう",
-   "kana": "そうとう",
-   "kanji": "相当",
-   "hv": "TƯƠNG ĐƯƠNG",
-   "vi": "rất là (mức khá cao); tương đương",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "彼[かれ]は、相当[そうとう]疲[つか]れているようです。",
-     "vi": "Anh ấy có vẻ khá là mệt.",
-     "ctx": "xuong"
+      "id": "v:かなり:かなり",
+      "kana": "かなり",
+      "kanji": "",
+      "hv": "",
+      "vi": "khá, tương đối nhiều",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]の作業[さぎょう]は、かなり大変[たいへん]でした。",
+          "vi": "Việc hôm nay khá vất vả.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "かなり日本語[にほんご]が上手[じょうず]になりましたね。",
+          "vi": "Tiếng Nhật đã khá lên nhiều nhỉ.",
+          "ctx": "hoithoai"
+        }
+      ]
     },
     {
-     "jp": "一万円[いちまんえん]相当[そうとう]の商品[しょうひん]を、もらいました。",
-     "vi": "Tôi nhận món hàng trị giá tương đương 1 vạn yên.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:かなり:かなり"
-   ],
-   "note": "N + 相当[そうとう] = tương đương …."
-  },
-  {
-   "id": "v:僅か:わずか",
-   "kana": "わずか",
-   "kanji": "僅か",
-   "kf": "僅[わず]か",
-   "hv": "CẬN",
-   "vi": "ít ỏi, chút xíu",
-   "pos": "adj-na",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "残[のこ]りは、僅[わず]か十個[じゅっこ]です。",
-     "vi": "Còn lại chỉ vẻn vẹn 10 cái.",
-     "ctx": "xuong"
+      "id": "v:相当:そうとう",
+      "kana": "そうとう",
+      "kanji": "相当",
+      "hv": "TƯƠNG ĐƯƠNG",
+      "vi": "rất là (mức khá cao); tương đương",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "彼[かれ]は、相当[そうとう]疲[つか]れているようです。",
+          "vi": "Anh ấy có vẻ khá là mệt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "一万円[いちまんえん]相当[そうとう]の商品[しょうひん]を、もらいました。",
+          "vi": "Tôi nhận món hàng trị giá tương đương 1 vạn yên.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:かなり:かなり"
+      ],
+      "note": "N + 相当[そうとう] = tương đương …."
     },
     {
-     "jp": "僅[わず]かな違[ちが]いに、気[き]がつきました。",
-     "vi": "Tôi nhận ra khác biệt rất nhỏ.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Thường viết kana: わずか."
-  },
-  {
-   "id": "v:一体:いったい",
-   "kana": "いったい",
-   "kanji": "一体",
-   "hv": "NHẤT THỂ",
-   "vi": "thế quái nào, rốt cuộc là",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "一体[いったい]、何[なに]があったんですか。",
-     "vi": "Rốt cuộc đã xảy ra chuyện gì vậy?",
-     "ctx": "hoithoai"
+      "id": "v:僅か:わずか",
+      "kana": "わずか",
+      "kanji": "僅か",
+      "kf": "僅[わず]か",
+      "hv": "CẬN",
+      "vi": "ít ỏi, chút xíu",
+      "pos": "adj-na",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "残[のこ]りは、僅[わず]か十個[じゅっこ]です。",
+          "vi": "Còn lại chỉ vẻn vẹn 10 cái.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "僅[わず]かな違[ちが]いに、気[き]がつきました。",
+          "vi": "Tôi nhận ra khác biệt rất nhỏ.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Thường viết kana: わずか."
     },
     {
-     "jp": "これは、一体[いったい]誰[だれ]の物[もの]ですか。",
-     "vi": "Cái này rốt cuộc là của ai?",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Nhấn mạnh câu hỏi khi ngạc nhiên, bực mình."
-  },
-  {
-   "id": "v:一種:いっしゅ",
-   "kana": "いっしゅ",
-   "kanji": "一種",
-   "hv": "NHẤT CHỦNG",
-   "vi": "một loại, một dạng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ホタテは、貝[かい]の一種[いっしゅ]です。",
-     "vi": "Sò điệp là một loại sò.",
-     "ctx": "xuong"
+      "id": "v:一体:いったい",
+      "kana": "いったい",
+      "kanji": "一体",
+      "hv": "NHẤT THỂ",
+      "vi": "thế quái nào, rốt cuộc là",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "一体[いったい]、何[なに]があったんですか。",
+          "vi": "Rốt cuộc đã xảy ra chuyện gì vậy?",
+          "ctx": "hoithoai"
+        },
+        {
+          "jp": "これは、一体[いったい]誰[だれ]の物[もの]ですか。",
+          "vi": "Cái này rốt cuộc là của ai?",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Nhấn mạnh câu hỏi khi ngạc nhiên, bực mình."
     },
     {
-     "jp": "これも、一種[いっしゅ]の文化[ぶんか]です。",
-     "vi": "Đây cũng là một dạng văn hóa.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    {
-     "w": "種類[しゅるい]",
-     "vi": "chủng loại"
-    }
-   ]
-  },
-  {
-   "id": "v:全て:すべて",
-   "kana": "すべて",
-   "kanji": "全て",
-   "kf": "全[すべ]て",
-   "hv": "TOÀN",
-   "vi": "toàn bộ (mọi thứ)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "全[すべ]ての箱[はこ]に、ラベルを貼[は]ってください。",
-     "vi": "Hãy dán nhãn lên tất cả thùng.",
-     "ctx": "xuong"
+      "id": "v:一種:いっしゅ",
+      "kana": "いっしゅ",
+      "kanji": "一種",
+      "hv": "NHẤT CHỦNG",
+      "vi": "một loại, một dạng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ホタテは、貝[かい]の一種[いっしゅ]です。",
+          "vi": "Sò điệp là một loại sò.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "これも、一種[いっしゅ]の文化[ぶんか]です。",
+          "vi": "Đây cũng là một dạng văn hóa.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        {
+          "w": "種類[しゅるい]",
+          "vi": "chủng loại"
+        }
+      ]
     },
     {
-     "jp": "説明[せつめい]は、全[すべ]て分[わ]かりました。",
-     "vi": "Tôi hiểu toàn bộ phần giải thích.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "syn": [
-    "v:全部:ぜんぶ"
-   ]
-  },
-  {
-   "id": "v:あらゆる:あらゆる",
-   "kana": "あらゆる",
-   "kanji": "",
-   "hv": "",
-   "vi": "mọi, hết thảy",
-   "pos": "other",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "あらゆる方法[ほうほう]を、試[ため]しました。",
-     "vi": "Tôi đã thử mọi cách.",
-     "ctx": "doisong"
+      "id": "v:全て:すべて",
+      "kana": "すべて",
+      "kanji": "全て",
+      "kf": "全[すべ]て",
+      "hv": "TOÀN",
+      "vi": "toàn bộ (mọi thứ)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "全[すべ]ての箱[はこ]に、ラベルを貼[は]ってください。",
+          "vi": "Hãy dán nhãn lên tất cả thùng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "説明[せつめい]は、全[すべ]て分[わ]かりました。",
+          "vi": "Tôi hiểu toàn bộ phần giải thích.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "syn": [
+        "v:全部:ぜんぶ"
+      ]
     },
     {
-     "jp": "あらゆる場所[ばしょ]を、探[さが]しました。",
-     "vi": "Tôi tìm khắp mọi nơi.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:等しい:ひとしい",
-   "kana": "ひとしい",
-   "kanji": "等しい",
-   "kf": "等[ひと]しい",
-   "hv": "ĐẲNG",
-   "vi": "bằng nhau",
-   "pos": "adj-i",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "二[ふた]つの箱[はこ]の重[おも]さは、等[ひと]しいです。",
-     "vi": "Hai thùng nặng bằng nhau.",
-     "ctx": "xuong"
+      "id": "v:あらゆる:あらゆる",
+      "kana": "あらゆる",
+      "kanji": "",
+      "hv": "",
+      "vi": "mọi, hết thảy",
+      "pos": "other",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "あらゆる方法[ほうほう]を、試[ため]しました。",
+          "vi": "Tôi đã thử mọi cách.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "あらゆる場所[ばしょ]を、探[さが]しました。",
+          "vi": "Tôi tìm khắp mọi nơi.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "全員[ぜんいん]に、等[ひと]しく分[わ]けます。",
-     "vi": "Chia đều cho tất cả.",
-     "ctx": "xuong"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "重[おも]さ",
-     "vi": "trọng lượng"
+      "id": "v:等しい:ひとしい",
+      "kana": "ひとしい",
+      "kanji": "等しい",
+      "kf": "等[ひと]しい",
+      "hv": "ĐẲNG",
+      "vi": "bằng nhau",
+      "pos": "adj-i",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "二[ふた]つの箱[はこ]の重[おも]さは、等[ひと]しいです。",
+          "vi": "Hai thùng nặng bằng nhau.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "全員[ぜんいん]に、等[ひと]しく分[わ]けます。",
+          "vi": "Chia đều cho tất cả.",
+          "ctx": "xuong"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "重[おも]さ",
+          "vi": "trọng lượng"
+        },
+        {
+          "jp": "長[なが]さ",
+          "vi": "chiều dài"
+        }
+      ]
     },
     {
-     "jp": "長[なが]さ",
-     "vi": "chiều dài"
-    }
-   ]
-  },
-  {
-   "id": "v:余分:よぶん",
-   "kana": "よぶん",
-   "kanji": "余分",
-   "hv": "DƯ PHÂN",
-   "vi": "phần dư ra",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "余分[よぶん]な水[みず]を、切[き]ってください。",
-     "vi": "Hãy để ráo phần nước thừa.",
-     "ctx": "xuong"
+      "id": "v:余分:よぶん",
+      "kana": "よぶん",
+      "kanji": "余分",
+      "hv": "DƯ PHÂN",
+      "vi": "phần dư ra",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "余分[よぶん]な水[みず]を、切[き]ってください。",
+          "vi": "Hãy để ráo phần nước thừa.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "念[ねん]のため、余分[よぶん]に持[も]っていきます。",
+          "vi": "Cho chắc tôi mang dư ra.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "余分[よぶん]に = dư ra."
     },
     {
-     "jp": "念[ねん]のため、余分[よぶん]に持[も]っていきます。",
-     "vi": "Cho chắc tôi mang dư ra.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "余分[よぶん]に = dư ra."
-  },
-  {
-   "id": "v:余裕:よゆう",
-   "kana": "よゆう",
-   "kanji": "余裕",
-   "hv": "DƯ DỤ",
-   "vi": "dư dả (thời gian, tiền)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "時間[じかん]に余裕[よゆう]を持[も]って、出[で]かけましょう。",
-     "vi": "Hãy đi sớm cho dư thời gian.",
-     "ctx": "doisong"
+      "id": "v:余裕:よゆう",
+      "kana": "よゆう",
+      "kanji": "余裕",
+      "hv": "DƯ DỤ",
+      "vi": "dư dả (thời gian, tiền)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "時間[じかん]に余裕[よゆう]を持[も]って、出[で]かけましょう。",
+          "vi": "Hãy đi sớm cho dư thời gian.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今月[こんげつ]は、お金[かね]の余裕[よゆう]がありません。",
+          "vi": "Tháng này không dư dả tiền.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "今月[こんげつ]は、お金[かね]の余裕[よゆう]がありません。",
-     "vi": "Tháng này không dư dả tiền.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:不足:ふそく",
-   "kana": "ふそく",
-   "kanji": "不足",
-   "hv": "BẤT TÚC",
-   "vi": "thiếu, không đủ",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "人手[ひとで]が不足[ふそく]しています。",
-     "vi": "Đang thiếu người làm.",
-     "ctx": "xuong"
+      "id": "v:不足:ふそく",
+      "kana": "ふそく",
+      "kanji": "不足",
+      "hv": "BẤT TÚC",
+      "vi": "thiếu, không đủ",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "人手[ひとで]が不足[ふそく]しています。",
+          "vi": "Đang thiếu người làm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "睡眠不足[すいみんふそく]で、眠[ねむ]いです。",
+          "vi": "Thiếu ngủ nên buồn ngủ.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:余る:あまる"
+      ],
+      "note": "人手不足[ひとでぶそく] = thiếu nhân lực; 睡眠不足[すいみんぶそく] = thiếu ngủ."
     },
     {
-     "jp": "睡眠不足[すいみんふそく]で、眠[ねむ]いです。",
-     "vi": "Thiếu ngủ nên buồn ngủ.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:余る:あまる"
-   ],
-   "note": "人手不足[ひとでぶそく] = thiếu nhân lực; 睡眠不足[すいみんぶそく] = thiếu ngủ."
-  },
-  {
-   "id": "v:余る:あまる",
-   "kana": "あまる",
-   "kanji": "余る",
-   "kf": "余[あま]る",
-   "hv": "DƯ",
-   "vi": "thừa, dư ra",
-   "pos": "v5",
-   "level": "N3",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "弁当[べんとう]が、二[ふた]つ余[あま]っています。",
-     "vi": "Còn thừa hai hộp cơm.",
-     "ctx": "xuong"
+      "id": "v:余る:あまる",
+      "kana": "あまる",
+      "kanji": "余る",
+      "kf": "余[あま]る",
+      "hv": "DƯ",
+      "vi": "thừa, dư ra",
+      "pos": "v5",
+      "level": "N3",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "弁当[べんとう]が、二[ふた]つ余[あま]っています。",
+          "vi": "Còn thừa hai hộp cơm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "時間[じかん]が余[あま]ったら、掃除[そうじ]をしてください。",
+          "vi": "Thừa thời gian thì dọn dẹp nhé.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "時間[じかん]が余[あま]る",
+          "vi": "dư thời gian"
+        }
+      ]
     },
     {
-     "jp": "時間[じかん]が余[あま]ったら、掃除[そうじ]をしてください。",
-     "vi": "Thừa thời gian thì dọn dẹp nhé.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "時間[じかん]が余[あま]る",
-     "vi": "dư thời gian"
-    }
-   ]
-  },
-  {
-   "id": "v:大きさ:おおきさ",
-   "kana": "おおきさ",
-   "kanji": "大きさ",
-   "kf": "大[おお]きさ",
-   "hv": "ĐẠI",
-   "vi": "kích cỡ, độ lớn",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "魚[さかな]の大[おお]きさで、分[わ]けてください。",
-     "vi": "Hãy chia theo cỡ cá.",
-     "ctx": "xuong"
+      "id": "v:大きさ:おおきさ",
+      "kana": "おおきさ",
+      "kanji": "大きさ",
+      "kf": "大[おお]きさ",
+      "hv": "ĐẠI",
+      "vi": "kích cỡ, độ lớn",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "魚[さかな]の大[おお]きさで、分[わ]けてください。",
+          "vi": "Hãy chia theo cỡ cá.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "箱[はこ]の大[おお]きさは、どのくらいですか。",
+          "vi": "Thùng to cỡ nào?",
+          "ctx": "hoithoai"
+        }
+      ]
     },
     {
-     "jp": "箱[はこ]の大[おお]きさは、どのくらいですか。",
-     "vi": "Thùng to cỡ nào?",
-     "ctx": "hoithoai"
-    }
-   ]
-  },
-  {
-   "id": "v:重さ:おもさ",
-   "kana": "おもさ",
-   "kanji": "重さ",
-   "kf": "重[おも]さ",
-   "hv": "TRỌNG",
-   "vi": "trọng lượng, độ nặng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "箱[はこ]の重[おも]さを、量[はか]ります。",
-     "vi": "Cân trọng lượng thùng.",
-     "ctx": "xuong"
+      "id": "v:重さ:おもさ",
+      "kana": "おもさ",
+      "kanji": "重さ",
+      "kf": "重[おも]さ",
+      "hv": "TRỌNG",
+      "vi": "trọng lượng, độ nặng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "箱[はこ]の重[おも]さを、量[はか]ります。",
+          "vi": "Cân trọng lượng thùng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "この重[おも]さなら、一人[ひとり]で運[はこ]べます。",
+          "vi": "Nặng cỡ này thì một mình bê được.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "この重[おも]さなら、一人[ひとり]で運[はこ]べます。",
-     "vi": "Nặng cỡ này thì một mình bê được.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:長さ:ながさ",
-   "kana": "ながさ",
-   "kanji": "長さ",
-   "kf": "長[なが]さ",
-   "hv": "TRƯỜNG",
-   "vi": "chiều dài, độ dài",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "魚[さかな]の長[なが]さを、測[はか]ってください。",
-     "vi": "Hãy đo chiều dài con cá.",
-     "ctx": "xuong"
+      "id": "v:長さ:ながさ",
+      "kana": "ながさ",
+      "kanji": "長さ",
+      "kf": "長[なが]さ",
+      "hv": "TRƯỜNG",
+      "vi": "chiều dài, độ dài",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "魚[さかな]の長[なが]さを、測[はか]ってください。",
+          "vi": "Hãy đo chiều dài con cá.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "映画[えいが]の長[なが]さは、二時間[にじかん]です。",
+          "vi": "Phim dài 2 tiếng.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "映画[えいが]の長[なが]さは、二時間[にじかん]です。",
-     "vi": "Phim dài 2 tiếng.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:高さ:たかさ",
-   "kana": "たかさ",
-   "kanji": "高さ",
-   "kf": "高[たか]さ",
-   "hv": "CAO",
-   "vi": "độ cao (của vật)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "箱[はこ]は、この高[たか]さまで積[つ]んでください。",
-     "vi": "Hãy chồng thùng đến độ cao này.",
-     "ctx": "xuong"
+      "id": "v:高さ:たかさ",
+      "kana": "たかさ",
+      "kanji": "高さ",
+      "kf": "高[たか]さ",
+      "hv": "CAO",
+      "vi": "độ cao (của vật)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "箱[はこ]は、この高[たか]さまで積[つ]んでください。",
+          "vi": "Hãy chồng thùng đến độ cao này.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "富士山[ふじさん]の高[たか]さは、三千七百七十六[さんぜんななひゃくななじゅうろく]メートルです。",
+          "vi": "Núi Phú Sĩ cao 3.776 mét.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "富士山[ふじさん]の高[たか]さは、三千七百七十六[さんぜんななひゃくななじゅうろく]メートルです。",
-     "vi": "Núi Phú Sĩ cao 3.776 mét.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:深さ:ふかさ",
-   "kana": "ふかさ",
-   "kanji": "深さ",
-   "kf": "深[ふか]さ",
-   "hv": "THÂM",
-   "vi": "độ sâu",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "このプールの深[ふか]さは、一[いち]メートルです。",
-     "vi": "Hồ bơi này sâu 1 mét.",
-     "ctx": "doisong"
+      "id": "v:深さ:ふかさ",
+      "kana": "ふかさ",
+      "kanji": "深さ",
+      "kf": "深[ふか]さ",
+      "hv": "THÂM",
+      "vi": "độ sâu",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このプールの深[ふか]さは、一[いち]メートルです。",
+          "vi": "Hồ bơi này sâu 1 mét.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "傷[きず]の深[ふか]さを、確認[かくにん]しました。",
+          "vi": "Đã kiểm tra độ sâu vết thương.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "傷[きず]の深[ふか]さを、確認[かくにん]しました。",
-     "vi": "Đã kiểm tra độ sâu vết thương.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:ずっと:ずっと",
-   "kana": "ずっと",
-   "kanji": "",
-   "hv": "",
-   "vi": "suốt; hơn hẳn",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "朝[あさ]から、ずっと立[た]って作業[さぎょう]しています。",
-     "vi": "Từ sáng đứng làm việc suốt.",
-     "ctx": "xuong"
+      "id": "v:ずっと:ずっと",
+      "kana": "ずっと",
+      "kanji": "",
+      "hv": "",
+      "vi": "suốt; hơn hẳn",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "朝[あさ]から、ずっと立[た]って作業[さぎょう]しています。",
+          "vi": "Từ sáng đứng làm việc suốt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "去年[きょねん]より、ずっと上手[じょうず]になりました。",
+          "vi": "Giỏi hơn hẳn năm ngoái.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "So sánh: AはBよりずっと〜 = A hơn hẳn B."
     },
     {
-     "jp": "去年[きょねん]より、ずっと上手[じょうず]になりました。",
-     "vi": "Giỏi hơn hẳn năm ngoái.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "So sánh: AはBよりずっと〜 = A hơn hẳn B."
-  },
-  {
-   "id": "v:少しも:すこしも",
-   "kana": "すこしも",
-   "kanji": "少しも",
-   "kf": "少[すこ]しも",
-   "hv": "THIẾU",
-   "vi": "(không) một chút nào",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "少[すこ]しも疲[つか]れていません。",
-     "vi": "Không mệt chút nào.",
-     "ctx": "doisong"
+      "id": "v:少しも:すこしも",
+      "kana": "すこしも",
+      "kanji": "少しも",
+      "kf": "少[すこ]しも",
+      "hv": "THIẾU",
+      "vi": "(không) một chút nào",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "少[すこ]しも疲[つか]れていません。",
+          "vi": "Không mệt chút nào.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "説明[せつめい]が、少[すこ]しも分[わ]かりませんでした。",
+          "vi": "Phần giải thích tôi chẳng hiểu chút nào.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:全然:ぜんぜん"
+      ],
+      "with": "phudinh"
     },
     {
-     "jp": "説明[せつめい]が、少[すこ]しも分[わ]かりませんでした。",
-     "vi": "Phần giải thích tôi chẳng hiểu chút nào.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:全然:ぜんぜん"
-   ],
-   "with": "phudinh"
-  },
-  {
-   "id": "v:あんまり:あんまり",
-   "kana": "あんまり",
-   "kanji": "",
-   "hv": "",
-   "vi": "(không) lắm (khẩu ngữ); quá mức",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今日[きょう]は、あんまり忙[いそが]しくない。",
-     "vi": "Hôm nay không bận lắm.",
-     "ctx": "doisong"
+      "id": "v:あんまり:あんまり",
+      "kana": "あんまり",
+      "kanji": "",
+      "hv": "",
+      "vi": "(không) lắm (khẩu ngữ); quá mức",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]は、あんまり忙[いそが]しくない。",
+          "vi": "Hôm nay không bận lắm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "あんまり無理[むり]しないでね。",
+          "vi": "Đừng cố quá nhé.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "syn": [
+        "v:あまり:あまり"
+      ],
+      "with": "phudinh",
+      "note": "Khẩu ngữ của あまり."
     },
     {
-     "jp": "あんまり無理[むり]しないでね。",
-     "vi": "Đừng cố quá nhé.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "syn": [
-    "v:あまり:あまり"
-   ],
-   "with": "phudinh",
-   "note": "Khẩu ngữ của あまり."
-  },
-  {
-   "id": "v:あんなに:あんなに",
-   "kana": "あんなに",
-   "kanji": "",
-   "hv": "",
-   "vi": "đến mức như thế kia",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "あんなに練習[れんしゅう]したのに、負[ま]けました。",
-     "vi": "Tập nhiều đến thế mà vẫn thua.",
-     "ctx": "doisong"
+      "id": "v:あんなに:あんなに",
+      "kana": "あんなに",
+      "kanji": "",
+      "hv": "",
+      "vi": "đến mức như thế kia",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "あんなに練習[れんしゅう]したのに、負[ま]けました。",
+          "vi": "Tập nhiều đến thế mà vẫn thua.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "あんなに怒[おこ]った班長[はんちょう]は、初[はじ]めて見[み]ました。",
+          "vi": "Lần đầu thấy tổ trưởng giận đến thế.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "あんなに怒[おこ]った班長[はんちょう]は、初[はじ]めて見[み]ました。",
-     "vi": "Lần đầu thấy tổ trưởng giận đến thế.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:こんなに:こんなに",
-   "kana": "こんなに",
-   "kanji": "",
-   "hv": "",
-   "vi": "đến thế này",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "こんなにたくさん、食[た]べられません。",
-     "vi": "Nhiều thế này tôi không ăn hết.",
-     "ctx": "doisong"
+      "id": "v:こんなに:こんなに",
+      "kana": "こんなに",
+      "kanji": "",
+      "hv": "",
+      "vi": "đến thế này",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "こんなにたくさん、食[た]べられません。",
+          "vi": "Nhiều thế này tôi không ăn hết.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "こんなに寒[さむ]い日[ひ]は、珍[めずら]しいです。",
+          "vi": "Ngày lạnh thế này hiếm có.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "こんなに寒[さむ]い日[ひ]は、珍[めずら]しいです。",
-     "vi": "Ngày lạnh thế này hiếm có.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:どんなに:どんなに",
-   "kana": "どんなに",
-   "kanji": "",
-   "hv": "",
-   "vi": "dù … thế nào; biết bao",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "どんなに疲[つか]れても、日本語[にほんご]の勉強[べんきょう]は続[つづ]けます。",
-     "vi": "Dù mệt thế nào tôi vẫn tiếp tục học tiếng Nhật.",
-     "ctx": "doisong"
+      "id": "v:どんなに:どんなに",
+      "kana": "どんなに",
+      "kanji": "",
+      "hv": "",
+      "vi": "dù … thế nào; biết bao",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "どんなに疲[つか]れても、日本語[にほんご]の勉強[べんきょう]は続[つづ]けます。",
+          "vi": "Dù mệt thế nào tôi vẫn tiếp tục học tiếng Nhật.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "家族[かぞく]に会[あ]えたら、どんなにうれしいでしょう。",
+          "vi": "Gặp được gia đình thì vui biết bao.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "どんなに〜ても = dù … thế nào đi nữa."
     },
     {
-     "jp": "家族[かぞく]に会[あ]えたら、どんなにうれしいでしょう。",
-     "vi": "Gặp được gia đình thì vui biết bao.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "どんなに〜ても = dù … thế nào đi nữa."
-  },
-  {
-   "id": "v:滅多に:めったに",
-   "kana": "めったに",
-   "kanji": "滅多に",
-   "kf": "滅多[めった]に",
-   "hv": "DIỆT ĐA",
-   "vi": "hiếm hoi lắm mới",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "兵庫[ひょうご]では、雪[ゆき]は滅多[めった]に降[ふ]りません。",
-     "vi": "Ở Hyogo hiếm khi tuyết rơi.",
-     "ctx": "doisong"
+      "id": "v:滅多に:めったに",
+      "kana": "めったに",
+      "kanji": "滅多に",
+      "kf": "滅多[めった]に",
+      "hv": "DIỆT ĐA",
+      "vi": "hiếm hoi lắm mới",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "兵庫[ひょうご]では、雪[ゆき]は滅多[めった]に降[ふ]りません。",
+          "vi": "Ở Hyogo hiếm khi tuyết rơi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "班長[はんちょう]は、滅多[めった]に休[やす]みません。",
+          "vi": "Tổ trưởng hiếm khi nghỉ.",
+          "ctx": "xuong"
+        }
+      ],
+      "with": "phudinh",
+      "note": "Đi với phủ định: めったに〜ない. Thường viết kana."
     },
     {
-     "jp": "班長[はんちょう]は、滅多[めった]に休[やす]みません。",
-     "vi": "Tổ trưởng hiếm khi nghỉ.",
-     "ctx": "xuong"
-    }
-   ],
-   "with": "phudinh",
-   "note": "Đi với phủ định: めったに〜ない. Thường viết kana."
-  },
-  {
-   "id": "v:玉:たま",
-   "kana": "たま",
-   "kanji": "玉",
-   "hv": "NGỌC",
-   "vi": "viên, hòn (tròn); đồng xu",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Hình dạng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "百円[ひゃくえん]玉[だま]を、三[みっ]つ入[い]れてください。",
-     "vi": "Hãy bỏ vào ba đồng 100 yên.",
-     "ctx": "doisong"
+      "id": "v:玉:たま",
+      "kana": "たま",
+      "kanji": "玉",
+      "hv": "NGỌC",
+      "vi": "viên, hòn (tròn); đồng xu",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Hình dạng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "百円[ひゃくえん]玉[だま]を、三[みっ]つ入[い]れてください。",
+          "vi": "Hãy bỏ vào ba đồng 100 yên.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "玉[たま]ねぎを、切[き]ってください。",
+          "vi": "Hãy thái hành tây.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "百円[ひゃくえん]玉[だま] = xu 100 yên; 玉[たま]ねぎ = hành tây."
     },
     {
-     "jp": "玉[たま]ねぎを、切[き]ってください。",
-     "vi": "Hãy thái hành tây.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "百円[ひゃくえん]玉[だま] = xu 100 yên; 玉[たま]ねぎ = hành tây."
-  },
-  {
-   "id": "v:輪:わ",
-   "kana": "わ",
-   "kanji": "輪",
-   "hv": "LUÂN",
-   "vi": "vòng tròn",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Hình dạng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "みんなで、輪[わ]になって座[すわ]りました。",
-     "vi": "Mọi người ngồi thành vòng tròn.",
-     "ctx": "doisong"
+      "id": "v:輪:わ",
+      "kana": "わ",
+      "kanji": "輪",
+      "hv": "LUÂN",
+      "vi": "vòng tròn",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Hình dạng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "みんなで、輪[わ]になって座[すわ]りました。",
+          "vi": "Mọi người ngồi thành vòng tròn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "ゴムの輪[わ]で、袋[ふくろ]を止[と]めます。",
+          "vi": "Buộc túi bằng dây chun.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "輪[わ]ゴム = dây chun."
     },
     {
-     "jp": "ゴムの輪[わ]で、袋[ふくろ]を止[と]めます。",
-     "vi": "Buộc túi bằng dây chun.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "輪[わ]ゴム = dây chun."
-  },
-  {
-   "id": "v:四角:しかく",
-   "kana": "しかく",
-   "kanji": "四角",
-   "hv": "TỨ GIÁC",
-   "vi": "hình vuông, hình tứ giác",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Hình dạng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "四角[しかく]い箱[はこ]に、入[い]れてください。",
-     "vi": "Hãy cho vào thùng vuông.",
-     "ctx": "xuong"
+      "id": "v:四角:しかく",
+      "kana": "しかく",
+      "kanji": "四角",
+      "hv": "TỨ GIÁC",
+      "vi": "hình vuông, hình tứ giác",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Hình dạng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "四角[しかく]い箱[はこ]に、入[い]れてください。",
+          "vi": "Hãy cho vào thùng vuông.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "紙[かみ]を、四角[しかく]に切[き]ります。",
+          "vi": "Cắt giấy thành hình vuông.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "四角[しかく]い = vuông vức (tính từ)."
     },
     {
-     "jp": "紙[かみ]を、四角[しかく]に切[き]ります。",
-     "vi": "Cắt giấy thành hình vuông.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "四角[しかく]い = vuông vức (tính từ)."
-  },
-  {
-   "id": "v:大いに:おおいに",
-   "kana": "おおいに",
-   "kanji": "大いに",
-   "kf": "大[おお]いに",
-   "hv": "ĐẠI",
-   "vi": "thỏa thích, hết mình",
-   "pos": "adv",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今日[きょう]は、大[おお]いに飲[の]みましょう。",
-     "vi": "Hôm nay uống thả ga nào.",
-     "ctx": "doisong"
+      "id": "v:大いに:おおいに",
+      "kana": "おおいに",
+      "kanji": "大いに",
+      "kf": "大[おお]いに",
+      "hv": "ĐẠI",
+      "vi": "thỏa thích, hết mình",
+      "pos": "adv",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今日[きょう]は、大[おお]いに飲[の]みましょう。",
+          "vi": "Hôm nay uống thả ga nào.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "皆[みな]さんの意見[いけん]を、大[おお]いに参考[さんこう]にします。",
+          "vi": "Tôi sẽ tham khảo rất nhiều ý kiến mọi người.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "皆[みな]さんの意見[いけん]を、大[おお]いに参考[さんこう]にします。",
-     "vi": "Tôi sẽ tham khảo rất nhiều ý kiến mọi người.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:数:かず",
-   "kana": "かず",
-   "kanji": "数",
-   "hv": "SỐ",
-   "vi": "số lượng (đếm được)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "箱[はこ]の数[かず]を、数[かぞ]えてください。",
-     "vi": "Hãy đếm số thùng.",
-     "ctx": "xuong"
+      "id": "v:数:かず",
+      "kana": "かず",
+      "kanji": "数",
+      "hv": "SỐ",
+      "vi": "số lượng (đếm được)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "箱[はこ]の数[かず]を、数[かぞ]えてください。",
+          "vi": "Hãy đếm số thùng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "魚[さかな]の数[かず]が、合[あ]いません。",
+          "vi": "Số cá không khớp.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:数える:かぞえる"
+      ]
     },
     {
-     "jp": "魚[さかな]の数[かず]が、合[あ]いません。",
-     "vi": "Số cá không khớp.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:数える:かぞえる"
-   ]
-  },
-  {
-   "id": "v:間隔:かんかく",
-   "kana": "かんかく",
-   "kanji": "間隔",
-   "hv": "GIAN CÁCH",
-   "vi": "khoảng cách (giữa hai vật, hai lần)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "箱[はこ]と箱[はこ]の間隔[かんかく]を、あけて置[お]いてください。",
-     "vi": "Đặt các thùng cách nhau ra.",
-     "ctx": "xuong"
+      "id": "v:間隔:かんかく",
+      "kana": "かんかく",
+      "kanji": "間隔",
+      "hv": "GIAN CÁCH",
+      "vi": "khoảng cách (giữa hai vật, hai lần)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "箱[はこ]と箱[はこ]の間隔[かんかく]を、あけて置[お]いてください。",
+          "vi": "Đặt các thùng cách nhau ra.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "電車[でんしゃ]は、十分[じゅっぷん]間隔[かんかく]で来[き]ます。",
+          "vi": "Tàu đến cách 10 phút một chuyến.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "〜間隔[かんかく]で = cách … một lần."
     },
     {
-     "jp": "電車[でんしゃ]は、十分[じゅっぷん]間隔[かんかく]で来[き]ます。",
-     "vi": "Tàu đến cách 10 phút một chuyến.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "〜間隔[かんかく]で = cách … một lần."
-  },
-  {
-   "id": "v:位:くらい",
-   "kana": "くらい",
-   "kanji": "位",
-   "hv": "VỊ",
-   "vi": "thứ bậc; hàng (chục, trăm)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đo lường",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "百[ひゃく]の位[くらい]を、四捨五入[ししゃごにゅう]します。",
-     "vi": "Làm tròn hàng trăm.",
-     "ctx": "thutuc"
+      "id": "v:位:くらい",
+      "kana": "くらい",
+      "kanji": "位",
+      "hv": "VỊ",
+      "vi": "thứ bậc; hàng (chục, trăm)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đo lường",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "百[ひゃく]の位[くらい]を、四捨五入[ししゃごにゅう]します。",
+          "vi": "Làm tròn hàng trăm.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "位[くらい]の高[たか]い人[ひと]に会[あ]いました。",
+          "vi": "Tôi gặp người địa vị cao.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Khi nghĩa \"khoảng, chừng\" thường viết kana: 三十分[さんじゅっぷん]くらい."
     },
     {
-     "jp": "位[くらい]の高[たか]い人[ひと]に会[あ]いました。",
-     "vi": "Tôi gặp người địa vị cao.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Khi nghĩa \"khoảng, chừng\" thường viết kana: 三十分[さんじゅっぷん]くらい."
-  },
-  {
-   "id": "v:丸:まる",
-   "kana": "まる",
-   "kanji": "丸",
-   "hv": "HOÀN",
-   "vi": "hình tròn; dấu khoanh (đúng)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Hình dạng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "正[ただ]しい答[こた]えに、丸[まる]をつけてください。",
-     "vi": "Hãy khoanh vào câu trả lời đúng.",
-     "ctx": "thutuc"
+      "id": "v:丸:まる",
+      "kana": "まる",
+      "kanji": "丸",
+      "hv": "HOÀN",
+      "vi": "hình tròn; dấu khoanh (đúng)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Hình dạng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "正[ただ]しい答[こた]えに、丸[まる]をつけてください。",
+          "vi": "Hãy khoanh vào câu trả lời đúng.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "丸[まる]を、三[みっ]つ書[か]きました。",
+          "vi": "Tôi vẽ ba vòng tròn.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "○ = đúng, × (ばつ) = sai; 丸[まる]い = tròn (tính từ)."
     },
     {
-     "jp": "丸[まる]を、三[みっ]つ書[か]きました。",
-     "vi": "Tôi vẽ ba vòng tròn.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "○ = đúng, × (ばつ) = sai; 丸[まる]い = tròn (tính từ)."
-  },
-  {
-   "id": "v:アップ:アップ",
-   "kana": "アップ",
-   "kanji": "",
-   "hv": "",
-   "vi": "nâng cấp, tăng hạng",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "来月[らいげつ]から、時給[じきゅう]がアップします。",
-     "vi": "Từ tháng sau lương giờ tăng.",
-     "ctx": "xuong"
+      "id": "v:アップ:アップ",
+      "kana": "アップ",
+      "kanji": "",
+      "hv": "",
+      "vi": "nâng cấp, tăng hạng",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来月[らいげつ]から、時給[じきゅう]がアップします。",
+          "vi": "Từ tháng sau lương giờ tăng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本語[にほんご]のレベルアップを、目指[めざ]しています。",
+          "vi": "Tôi hướng tới nâng trình độ tiếng Nhật.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:ダウン:ダウン"
+      ],
+      "goc": "up (tiếng Anh)"
     },
     {
-     "jp": "日本語[にほんご]のレベルアップを、目指[めざ]しています。",
-     "vi": "Tôi hướng tới nâng trình độ tiếng Nhật.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:ダウン:ダウン"
-   ],
-   "goc": "up (tiếng Anh)"
-  },
-  {
-   "id": "v:プラス:プラス",
-   "kana": "プラス",
-   "kanji": "",
-   "hv": "",
-   "vi": "dương (+); điểm cộng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "冷蔵庫[れいぞうこ]は、プラス五度[ごど]です。",
-     "vi": "Kho mát ở dương 5 độ.",
-     "ctx": "xuong"
+      "id": "v:プラス:プラス",
+      "kana": "プラス",
+      "kanji": "",
+      "hv": "",
+      "vi": "dương (+); điểm cộng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "冷蔵庫[れいぞうこ]は、プラス五度[ごど]です。",
+          "vi": "Kho mát ở dương 5 độ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "この経験[けいけん]は、将来[しょうらい]プラスになります。",
+          "vi": "Kinh nghiệm này sau này sẽ có ích.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:マイナス:マイナス"
+      ],
+      "goc": "plus (tiếng Anh)"
     },
     {
-     "jp": "この経験[けいけん]は、将来[しょうらい]プラスになります。",
-     "vi": "Kinh nghiệm này sau này sẽ có ích.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:マイナス:マイナス"
-   ],
-   "goc": "plus (tiếng Anh)"
-  },
-  {
-   "id": "v:マイナス:マイナス",
-   "kana": "マイナス",
-   "kanji": "",
-   "hv": "",
-   "vi": "trừ; âm; điểm trừ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "冷凍庫[れいとうこ]は、マイナス二十度[にじゅうど]です。",
-     "vi": "Kho đông ở âm 20 độ.",
-     "ctx": "xuong"
+      "id": "v:マイナス:マイナス",
+      "kana": "マイナス",
+      "kanji": "",
+      "hv": "",
+      "vi": "trừ; âm; điểm trừ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "冷凍庫[れいとうこ]は、マイナス二十度[にじゅうど]です。",
+          "vi": "Kho đông ở âm 20 độ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "遅刻[ちこく]は、評価[ひょうか]にマイナスです。",
+          "vi": "Đi muộn bị trừ điểm đánh giá.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        "v:プラス:プラス"
+      ],
+      "goc": "minus (tiếng Anh)"
     },
     {
-     "jp": "遅刻[ちこく]は、評価[ひょうか]にマイナスです。",
-     "vi": "Đi muộn bị trừ điểm đánh giá.",
-     "ctx": "xuong"
+      "id": "v:ダウン:ダウン",
+      "kana": "ダウン",
+      "kanji": "",
+      "hv": "",
+      "vi": "sụt giảm; nằm bẹp (ốm)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mức độ",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "売[う]り上[あ]げが、ダウンしました。",
+          "vi": "Doanh số giảm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "風邪[かぜ]で、ダウンしています。",
+          "vi": "Bị cảm nằm bẹp.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:アップ:アップ"
+      ],
+      "goc": "down (tiếng Anh)"
     }
-   ],
-   "ant": [
-    "v:プラス:プラス"
-   ],
-   "goc": "minus (tiếng Anh)"
-  },
-  {
-   "id": "v:ダウン:ダウン",
-   "kana": "ダウン",
-   "kanji": "",
-   "hv": "",
-   "vi": "sụt giảm; nằm bẹp (ốm)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Mức độ",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "売[う]り上[あ]げが、ダウンしました。",
-     "vi": "Doanh số giảm.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "風邪[かぜ]で、ダウンしています。",
-     "vi": "Bị cảm nằm bẹp.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:アップ:アップ"
-   ],
-   "goc": "down (tiếng Anh)"
-  }
- ]
+  ]
 }

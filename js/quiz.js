@@ -10,6 +10,7 @@ import { speak, ttsReady } from './tts.js';
 import { chips, bindChips, readChip, readChips, bindSay, sayBtn, wordDetailHTML, topicOpts, emptyState, wtabs } from './ui.js';
 import { kvGet, kvSet } from './db.js';
 import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from './nav.js';
+import { runPairs, pairItems, modeSwHTML } from './pairs8.js';
 
 export const DIRS = [['vj', 'Việt → Nhật'], ['jv', 'Nhật → Việt'], ['kr', 'Kanji → cách đọc (không furigana)'], ['au', 'Nghe → nghĩa'], ['mix', 'Trộn']];
 export const SCRIPTS = [['kana', 'Chữ mềm/cứng'], ['furi', 'Kanji + furigana']];
@@ -172,9 +173,10 @@ export async function renderQuizSetup(view, ctx) {
   view.innerHTML = `
     <h1 class="h1">Luyện tập</h1>${wtabs('quiz')}
     <form class="setup" onsubmit="return false">
+      <fieldset class="f-q"><legend>Kiểu luyện</legend>${chips('mode', [['quiz', 'Trắc nghiệm'], ['pairs', 'Ghép 8 cặp']], o.mode || 'quiz', false)}<p class="small muted">Đang làm vẫn đổi qua lại được.</p></fieldset>
       <fieldset class="f-q"><legend>Kiểu câu hỏi</legend>${chips('dir', DIRS, o.dir, false)}</fieldset>
       <fieldset class="f-q"><legend>Hiển thị chữ Nhật</legend>${chips('script', SCRIPTS, o.script, false)}</fieldset>
-      <fieldset><legend>Lấy từ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['learned', 'Từ đã học', st.total - st.new], ['today', 'Học hôm nay'], ['week', '7 ngày qua'], ['new', 'Học từ mới', st.new], ['wrong', 'Hay sai'], ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
+      <fieldset><legend>Lấy từ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['learned', 'Từ đã học', st.total - st.new], ['today', 'Học hôm nay'], ['week', '7 ngày qua'], ['new', 'Học từ mới', st.new], ['wrong', 'Hay sai'], ['star', 'Đã đánh dấu ★', D.vocab.filter(it => isStar(it.id)).length], ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
       <fieldset><legend>Cấp độ <small>(không chọn = tất cả)</small></legend>${chips('levels', LEVELS.map(l => [l, l]), o.levels)}</fieldset>
       <fieldset><legend>Chủ đề <small>(không chọn = tất cả)</small></legend>${chips('topics', topicOpts(), o.topics)}</fieldset>
       <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30, 50].map(n => [String(n), String(n)]), String(o.count), false)}</fieldset>
@@ -183,7 +185,7 @@ export async function renderQuizSetup(view, ctx) {
     </form>`;
   const form = view.querySelector('.setup');
   const read = () => ({
-    dir: readChip(form, 'dir'), script: readChip(form, 'script'), source: readChip(form, 'source'),
+    dir: readChip(form, 'dir'), script: readChip(form, 'script'), source: readChip(form, 'source'), mode: readChip(form, 'mode'),
     levels: readChips(form, 'levels'), topics: readChips(form, 'topics'), count: +readChip(form, 'count'),
   });
   const upd = () => {
@@ -205,7 +207,7 @@ export async function renderQuizSetup(view, ctx) {
     const x = read();
     await kvSet('quizSetup', x);
     if (x.source === 'new') return runLearn(view, selectItems(x).slice(0, x.count), ctx, { again: () => ctx.go('#/moi', true) });
-    runQuiz(view, buildQuestions(x), x, ctx);
+    runQuiz(view, buildQuestions(x), { ...x, startPairs: x.mode === 'pairs' }, ctx);
   };
 }
 
@@ -242,7 +244,7 @@ export function bindKnownBtn(root, it, onDone, flush) {
 // ---------- chạy ----------
 export function runQuiz(view, qs, o, ctx) {
   if (!qs.length) { toast('Không có câu hỏi nào.'); return; }
-  const st = { qs: [...qs], i: 0, total: qs.length, score: 0, wrong: [], again: new Set(), seen: new Set(), lock: false };
+  const st = { qs: [...qs], i: 0, total: qs.length, score: 0, wrong: [], again: new Set(), seen: new Set(), lock: false, done: new Set(), mixed: false };
   beginSession(ctx);
   const script = fixScript(o.script || S.script);
   let keyHandler = null;
@@ -257,12 +259,50 @@ export function runQuiz(view, qs, o, ctx) {
   const tag = it => `<div class="label-head"><span class="label-tag">${esc(it.sub || TOPICS[it.topics[0]] || 'Từ vựng')}</span><span class="label-lv">${esc(it.level)}</span></div>`;
 
   function next() { st.i++; show(); }
+
+  // v38: đổi sang GHÉP 8 CẶP giữa lượt — các từ chưa làm đem ra ghép; đổi lại trắc nghiệm thì hỏi tiếp từ chưa ghép
+  const restQs = () => st.qs.slice(st.lock ? st.i + 1 : st.i);
+  const canPairs = () => !o.noPairs && pairItems(restQs().filter(q => !st.done.has(q.it.id)).map(q => q.it)).length >= 3;
+  const swHTML = () => (canPairs() ? modeSwHTML('quiz') : '');
+  function bindSw() {
+    const sw = view.querySelector('.mode-sw');
+    if (sw) sw.onclick = e => { if (e.target.closest('[data-mode=pairs]')) toPairs(); };
+  }
+  function toPairs() {
+    setKeys(null);
+    const base = st.lock ? st.i + 1 : st.i, rest = st.qs.slice(base);
+    const dirOf = new Map();
+    for (const q of rest) if (!dirOf.has(q.it.id)) dirOf.set(q.it.id, q.dir);
+    const items = pairItems(rest.filter(q => !st.done.has(q.it.id)).map(q => q.it));
+    st.mixed = true;
+    const pdir = id => (['jv', 'vj'].includes(dirOf.get(id)) ? dirOf.get(id) : 'jv');
+    runPairs(view, items, {
+      head: (d, n) => `<div class="run-top">
+        <button type="button" class="icon-btn" data-act="quit" aria-label="Dừng lượt học">${icon('close')}</button>
+        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${base + n}" aria-valuenow="${base + d}"><i style="width:${((base + d) / Math.max(1, base + n)) * 100}%"></i></div>
+        <span class="run-n">${base + d}/${base + n}</span></div>`,
+      setKeys,
+      onQuit: () => (st.score || st.wrong.length ? finish(true) : goBack(ctx)),
+      onResult: async (it, ok) => {
+        if (st.done.has(it.id)) return; // từ đã trả lời ở phần trắc nghiệm: chỉ luyện thêm
+        st.done.add(it.id);
+        if (ok) st.score++; else st.wrong.push(it);
+        if (!o.noReview) await review(it.id, pdir(it.id), ok);
+      },
+      onSwitch: left => {
+        st.qs = [...st.qs.slice(0, base), ...left.map(it => ({ it, dir: dirOf.get(it.id) || 'jv' }))];
+        st.i = base; st.lock = false;
+        show();
+      },
+      onDone: () => { st.i = st.qs.length; finish(); },
+    });
+  }
   function quit() { if (st.i > 0 || st.score || st.wrong.length) finish(true); else goBack(ctx); }
 
   function show() {
     if (st.i >= st.qs.length) return finish();
     const q = st.qs[st.i];
-    if (S.introNew && !q.again && status(q.it) === 'new' && !st.seen.has(q.it.id)) return intro(q);
+    if (S.introNew && !o.noIntro && !q.again && status(q.it) === 'new' && !st.seen.has(q.it.id)) return intro(q);
     if (!q.again && !o.noReview && isLeech(q.it) && !leechSeen(q.it.id)) return leech(q);
     ask(q);
   }
@@ -297,11 +337,11 @@ export function runQuiz(view, qs, o, ctx) {
     else if (dir === 'jv') { prompt = `<div class="prompt-row"><p class="prompt-jp" lang="ja">${wordHTML(it, script)}</p>${sayBtn(it.kana)}</div>`; hint = 'Chọn nghĩa tiếng Việt'; }
     else if (dir === 'kr') { prompt = `<p class="prompt-jp" lang="ja" data-bare>${wordHTML(it, 'bare')}</p>${readHint(it)}`; hint = 'Chọn cách đọc'; }
     else { prompt = `<button type="button" class="say-big" data-say="${esc(it.kana)}" aria-label="Nghe lại">${icon('speaker')}<span>Nghe lại</span></button>`; hint = 'Nghe rồi chọn nghĩa tiếng Việt'; }
-    view.innerHTML = `<div class="run">${head()}
+    view.innerHTML = `<div class="run">${head()}${swHTML()}
       <article class="label-card" data-nokj>${tag(it)}${prompt}<p class="prompt-hint">${hint}</p><div class="stamp" aria-hidden="true"></div></article>
       <div class="opts ${right.jp ? 'opts-jp' : ''}">${opts.map((a, k) => `<button type="button" class="opt" data-k="${esc(a.key)}"><span class="opt-n">${k + 1}</span><span class="opt-t">${a.html}</span></button>`).join('')}</div>
       <div class="after" hidden></div></div>`;
-    bindSay(view);
+    bindSay(view); bindSw();
     view.querySelector('[data-act=quit]').onclick = quit;
     if (dir === 'au' || (dir === 'jv' && S.autoSpeak)) setTimeout(() => speak(it.kana), 150);
     st.lock = false;
@@ -333,6 +373,7 @@ export function runQuiz(view, qs, o, ctx) {
     if (!ok && S.vibrate) buzz();
     if (ok) burstAtEl(view.querySelector('.opt.is-ok'));
     if (!q.again) {
+      st.done.add(q.it.id);
       if (ok) st.score++; else st.wrong.push(q.it);
       if (!o.noReview) review(q.it.id, q.dir, ok, { slow });
       if (!ok && !st.again.has(q.it.id)) {
@@ -363,7 +404,7 @@ export function runQuiz(view, qs, o, ctx) {
 
   function finish(early = false) {
     setKeys(null);
-    const answered = early || st.learned ? st.score + st.wrong.length : st.total;
+    const answered = early || st.learned || st.mixed ? st.score + st.wrong.length : st.total;
     const wrongU = [...new Map(st.wrong.map(it => [it.id, it])).values()];
     ctx.inRun = true;
     view.innerHTML = `<section class="result">${crumbHTML(ctx)}
@@ -384,5 +425,5 @@ export function runQuiz(view, qs, o, ctx) {
     ctx.sessionDone?.();
   }
 
-  show();
+  if (o.startPairs && canPairs()) toPairs(); else show();
 }

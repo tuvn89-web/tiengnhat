@@ -1,1877 +1,1877 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n2-07",
-  "title": "JLPT N2 07 – Trách nhiệm, vai trò, quyết tâm của tổ trưởng",
-  "type": "vocab",
-  "level": "N2",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 1,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:責任感:せきにんかん",
-   "kana": "せきにんかん",
-   "kanji": "責任感",
-   "hv": "TRÁCH NHIỆM CẢM",
-   "vi": "tinh thần trách nhiệm",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "グエンさんは責任感[せきにんかん]が強[つよ]いので、安心[あんしん]して仕事[しごと]を任[まか]せられる。",
-     "vi": "Anh Nguyễn có tinh thần trách nhiệm cao nên có thể yên tâm giao việc.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "親[おや]になって、初[はじ]めて本当[ほんとう]の責任感[せきにんかん]が生[う]まれた。",
-     "vi": "Làm cha rồi, tinh thần trách nhiệm thật sự mới nảy sinh.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:責任:せきにん",
-    "v:無責任:むせきにん"
-   ],
-   "note": "責任感[せきにんかん]が強[つよ]い / ない = có / thiếu tinh thần trách nhiệm."
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n2-07",
+    "title": "JLPT N2 07 – Trách nhiệm, vai trò, quyết tâm của tổ trưởng",
+    "type": "vocab",
+    "level": "N2",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:無責任:むせきにん",
-   "kana": "むせきにん",
-   "kanji": "無責任",
-   "hv": "VÔ TRÁCH NHIỆM",
-   "vi": "vô trách nhiệm",
-   "pos": "adj-na",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "途中[とちゅう]で仕事[しごと]をやめて帰[かえ]るのは、無責任[むせきにん]だ。",
-     "vi": "Bỏ việc giữa chừng mà về là vô trách nhiệm.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "ネットの無責任[むせきにん]なうわさを、信[しん]じないでください。",
-     "vi": "Đừng tin những lời đồn vô trách nhiệm trên mạng.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：知[し]らないよ。ぼくの仕事[しごと]じゃないし。B：そんな無責任[むせきにん]なこと、言[い]わないで。",
-     "vi": "A: Tôi không biết đâu, đâu phải việc của tôi. B: Đừng nói vô trách nhiệm như thế.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "発言[はつげん]",
-     "vi": "lời nói"
-    },
-    {
-     "jp": "態度[たいど]",
-     "vi": "thái độ"
-    },
-    {
-     "jp": "人[ひと]",
-     "vi": "người"
-    }
-   ],
-   "rel": [
-    "v:責任感:せきにんかん"
-   ]
-  },
-  {
-   "id": "v:自覚:じかく",
-   "kana": "じかく",
-   "kanji": "自覚",
-   "hv": "TỰ GIÁC",
-   "vi": "tự ý thức rõ (về bản thân, vai trò)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班[はん]長[ちょう]としての自覚[じかく]を持[も]って、行動[こうどう]してください。",
-     "vi": "Hãy hành động với ý thức mình là tổ trưởng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "自分[じぶん]の弱[よわ]いところは、よく自覚[じかく]している。",
-     "vi": "Tôi tự biết rõ điểm yếu của mình.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "責任[せきにん]を自覚[じかく]する",
-     "vi": "ý thức được trách nhiệm"
-    }
-   ],
-   "rel": [
-    "v:意識:いしき"
-   ],
-   "note": "自覚症状[じかくしょうじょう] = triệu chứng người bệnh tự cảm thấy."
-  },
-  {
-   "id": "v:覚悟:かくご",
-   "kana": "かくご",
-   "kanji": "覚悟",
-   "hv": "GIÁC NGỘ",
-   "vi": "chuẩn bị tinh thần (đón nhận khó khăn)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班長[はんちょう]になったら忙[いそが]しくなる覚悟[かくご]は、もうできている。",
-     "vi": "Tôi đã chuẩn bị tinh thần là lên tổ trưởng sẽ bận hơn.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "日本[にほん]に来[く]るとき、苦労[くろう]は覚悟[かくご]していた。",
-     "vi": "Lúc sang Nhật tôi đã chuẩn bị tinh thần chịu vất vả.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：この仕事[しごと]、かなりきついよ。B：覚悟[かくご]の上[うえ]です。",
-     "vi": "A: Việc này khá nặng đấy. B: Tôi đã chuẩn bị tinh thần rồi.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "苦労[くろう]を覚悟[かくご]する",
-     "vi": "chấp nhận vất vả"
-    }
-   ],
-   "confuse": [
-    "v:決心:けっしん"
-   ],
-   "note": "決心[けっしん] = quyết định làm gì; 覚悟[かくご] = chấp nhận trước hậu quả, khó khăn. 覚悟[かくご]を決[き]める = hạ quyết tâm."
-  },
-  {
-   "id": "v:誓う:ちかう",
-   "kana": "ちかう",
-   "kanji": "誓う",
-   "kf": "誓[ちか]う",
-   "hv": "THỆ",
-   "vi": "thề, nguyện (hứa chắc chắn)",
-   "pos": "v5",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "二度[にど]と同[おな]じミスはしないと、心[こころ]に誓[ちか]った。",
-     "vi": "Tôi tự thề trong lòng không mắc lại lỗi đó lần nữa.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "結婚式[けっこんしき]で、二人[ふたり]は永遠[えいえん]の愛[あい]を誓[ちか]った。",
-     "vi": "Trong lễ cưới, hai người thề nguyện yêu nhau mãi mãi.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：今年[ことし]こそ、N2に合格[ごうかく]するぞ。B：その言葉[ことば]、誓[ちか]える？",
-     "vi": "A: Năm nay nhất định phải đỗ N2. B: Câu đó cậu dám thề không?",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "心[こころ]に誓[ちか]う",
-     "vi": "tự hứa trong lòng"
-    },
-    {
-     "jp": "愛[あい]を誓[ちか]う",
-     "vi": "thề nguyện yêu thương"
-    }
-   ],
-   "rel": [
-    "v:約束:やくそく"
-   ],
-   "note": "誓[ちか]い = lời thề."
-  },
-  {
-   "id": "v:背負う:せおう",
-   "kana": "せおう",
-   "kanji": "背負う",
-   "kf": "背負[せお]う",
-   "hv": "BỐI PHỤ",
-   "vi": "đeo trên lưng; gánh vác (trách nhiệm, gia đình)",
-   "pos": "v5",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "重[おも]い荷物[にもつ]を背負[せお]って、山[やま]を登[のぼ]った。",
-     "vi": "Đeo hành lý nặng trên lưng leo núi.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "班長[はんちょう]は、班[はん]全体[ぜんたい]の責任[せきにん]を背負[せお]っている。",
-     "vi": "Tổ trưởng gánh trách nhiệm của cả tổ.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：家族[かぞく]のために、頑張[がんば]ってるんだね。B：うん、家族[かぞく]の生活[せいかつ]を背負[せお]ってるから。",
-     "vi": "A: Anh cố gắng vì gia đình nhỉ. B: Ừ, vì tôi gánh cuộc sống cả nhà mà.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "荷物[にもつ]を背負[せお]う",
-     "vi": "đeo hành lý"
-    },
-    {
-     "jp": "責任[せきにん]を背負[せお]う",
-     "vi": "gánh trách nhiệm"
-    }
-   ],
-   "rel": [
-    "v:負う:おう"
-   ],
-   "note": "Khẩu ngữ còn đọc しょう: 背負[しょ]う."
-  },
-  {
-   "id": "v:担う:になう",
-   "kana": "になう",
-   "kanji": "担う",
-   "kf": "担[にな]う",
-   "hv": "ĐẢM",
-   "vi": "đảm đương, gánh vác (vai trò quan trọng)",
-   "pos": "v5",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今[いま]では、外国人[がいこくじん]の社員[しゃいん]が工場[こうじょう]の生産[せいさん]を担[にな]っている。",
-     "vi": "Giờ đây nhân viên người nước ngoài đang gánh vác sản xuất của nhà máy.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "これからの町[まち]を担[にな]うのは、若[わか]い人[ひと]たちだ。",
-     "vi": "Người gánh vác thị trấn sau này là lớp trẻ.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：新[あたら]しいラインのリーダーを、グエンさんに担[にな]ってほしいんだ。B：はい、精[せい]一杯[いっぱい]やります。",
-     "vi": "A: Tôi muốn anh Nguyễn đảm đương vai trưởng dây chuyền mới. B: Vâng, tôi sẽ làm hết sức.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "役割[やくわり]を担[にな]う",
-     "vi": "đảm đương vai trò"
-    },
-    {
-     "jp": "責任[せきにん]を担[にな]う",
-     "vi": "gánh trách nhiệm"
-    }
-   ],
-   "confuse": [
-    "v:背負う:せおう"
-   ],
-   "note": "Văn viết, trang trọng; hay đi với 役割[やくわり], 将来[しょうらい], 中心[ちゅうしん]. 背負[せお]う gần nghĩa nhưng gợi gánh nặng, vất vả."
-  },
-  {
-   "id": "v:果たす:はたす",
-   "kana": "はたす",
-   "kanji": "果たす",
-   "kf": "果[は]たす",
-   "hv": "QUẢ",
-   "vi": "làm tròn, hoàn thành (trách nhiệm, vai trò, lời hứa)",
-   "pos": "v5",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "自分[じぶん]の役割[やくわり]を、最後[さいご]まで果[は]たしたい。",
-     "vi": "Tôi muốn làm tròn vai trò của mình đến cùng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "母[はは]との約束[やくそく]を果[は]たすために、毎月[まいつき]仕送[しおく]りをしている。",
-     "vi": "Để giữ trọn lời hứa với mẹ, tháng nào tôi cũng gửi tiền về.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：責任[せきにん]を果[は]たせなくて、すみませんでした。B：次[つぎ]、頑張[がんば]ればいいよ。",
-     "vi": "A: Xin lỗi vì không làm tròn trách nhiệm. B: Lần sau cố là được.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "責任[せきにん]を果[は]たす",
-     "vi": "làm tròn trách nhiệm"
-    },
-    {
-     "jp": "役割[やくわり]を果[は]たす",
-     "vi": "hoàn thành vai trò"
-    },
-    {
-     "jp": "約束[やくそく]を果[は]たす",
-     "vi": "giữ trọn lời hứa"
-    }
-   ],
-   "rel": [
-    "v:済ませる:すませる"
-   ],
-   "note": "済[す]ませる = làm cho xong việc nhỏ; 果[は]たす = làm tròn trách nhiệm, nhiệm vụ, mục tiêu lớn."
-  },
-  {
-   "id": "v:応える:こたえる",
-   "kana": "こたえる",
-   "kanji": "応える",
-   "kf": "応[こた]える",
-   "hv": "ỨNG",
-   "vi": "đáp lại (kỳ vọng, yêu cầu, tấm lòng)",
-   "pos": "v1",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会社[かいしゃ]の期待[きたい]に応[こた]えられるように、頑張[がんば]ります。",
-     "vi": "Tôi sẽ cố gắng để đáp lại kỳ vọng của công ty.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "声援[せいえん]に応[こた]えて、選手[せんしゅ]が手[て]を振[ふ]った。",
-     "vi": "Đáp lại tiếng cổ vũ, cầu thủ vẫy tay.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：グエンさんならできると思[おも]って、任[まか]せたんだ。B：期待[きたい]に応[こた]えられるよう、頑張[がんば]ります。",
-     "vi": "A: Tôi giao vì nghĩ anh Nguyễn làm được. B: Tôi sẽ cố để đáp lại kỳ vọng.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "期待[きたい]に応[こた]える",
-     "vi": "đáp lại kỳ vọng"
-    },
-    {
-     "jp": "要望[ようぼう]に応[こた]える",
-     "vi": "đáp ứng yêu cầu"
-    }
-   ],
-   "confuse": [
-    "v:答える:こたえる"
-   ],
-   "note": "Đồng âm: 答[こた]える = trả lời câu hỏi; 応[こた]える = đáp lại kỳ vọng, yêu cầu. Nghĩa khác: 寒[さむ]さが体[からだ]に応[こた]える = cái lạnh thấm vào người."
-  },
-  {
-   "id": "v:使命:しめい",
-   "kana": "しめい",
-   "kanji": "使命",
-   "hv": "SỬ MỆNH",
-   "vi": "sứ mệnh",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "安全[あんぜん]でおいしい魚[さかな]を届[とど]けることが、私[わたし]たちの使命[しめい]です。",
-     "vi": "Đưa tới khách cá an toàn và ngon là sứ mệnh của chúng tôi.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "医者[いしゃ]としての使命[しめい]を感[かん]じて、田舎[いなか]の病院[びょういん]で働[はたら]いている。",
-     "vi": "Cảm thấy sứ mệnh của người bác sĩ, anh ấy làm ở bệnh viện vùng quê.",
-     "ctx": "doisong"
-    }
-   ],
-   "confuse": [
-    "v:任務:にんむ"
-   ],
-   "note": "使命感[しめいかん] = ý thức về sứ mệnh. 使命[しめい] = việc lớn mình được sinh ra / được giao để làm; 任務[にんむ] = nhiệm vụ cụ thể được giao."
-  },
-  {
-   "id": "v:一旦:いったん",
-   "kana": "いったん",
-   "kanji": "一旦",
-   "hv": "NHẤT ĐÁN",
-   "vi": "một khi (đã); tạm (một chút)",
-   "pos": "adv",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Trách nhiệm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "いったん引[ひ]き受[う]けたからには、最後[さいご]までやります。",
-     "vi": "Một khi đã nhận thì tôi làm đến cùng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "いったん家[いえ]に帰[かえ]ってから、また出[で]かけます。",
-     "vi": "Tạm về nhà một chút rồi lại đi.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：機械[きかい]の音[おと]がおかしい。B：いったん止[と]めて、班[はん]長[ちょう]を呼[よ]ぼう。",
-     "vi": "A: Máy kêu lạ quá. B: Tạm dừng lại rồi gọi tổ trưởng đi.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "Thường viết bằng kana: いったん. Hay đi với 〜からには, 〜以上[いじょう]は (một khi đã…)."
-  },
-  {
-   "id": "v:役目:やくめ",
-   "kana": "やくめ",
-   "kanji": "役目",
-   "hv": "DỊCH MỤC",
-   "vi": "phận sự (việc mình phải làm)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "新人[しんじん]に仕事[しごと]を教[おし]えるのが、私[わたし]の役目[やくめ]です。",
-     "vi": "Dạy việc cho người mới là phận sự của tôi.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "朝[あさ]、子[こ]どもを学校[がっこう]まで送[おく]るのは父[ちち]の役目[やくめ]だ。",
-     "vi": "Sáng đưa con tới trường là phận sự của bố.",
-     "ctx": "doisong"
-    }
-   ],
-   "confuse": [
-    "v:役割:やくわり"
-   ],
-   "note": "役割[やくわり] = phần việc được phân trong tập thể; 役目[やくめ] = việc mình phải làm (gắn với vị trí của mình). 役目[やくめ]を果[は]たす = làm tròn phận sự."
-  },
-  {
-   "id": "v:任務:にんむ",
-   "kana": "にんむ",
-   "kanji": "任務",
-   "hv": "NHIỆM VỤ",
-   "vi": "nhiệm vụ (được giao)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "彼[かれ]の任務[にんむ]は、出荷[しゅっか]前[まえ]の最終[さいしゅう]チェックだ。",
-     "vi": "Nhiệm vụ của anh ấy là kiểm tra lần cuối trước khi xuất hàng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "警察官[けいさつかん]が、任務[にんむ]中[ちゅう]にけがをした。",
-     "vi": "Một cảnh sát bị thương khi đang làm nhiệm vụ.",
-     "ctx": "doisong"
-    }
-   ],
-   "confuse": [
-    "v:使命:しめい"
-   ],
-   "note": "Hơi trang trọng. 任務[にんむ]を果[は]たす = hoàn thành nhiệm vụ."
-  },
-  {
-   "id": "v:職務:しょくむ",
-   "kana": "しょくむ",
-   "kanji": "職務",
-   "hv": "CHỨC VỤ",
-   "vi": "chức trách (công việc theo vị trí)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "職務[しょくむ]中[ちゅう]は、私用[しよう]の電話[でんわ]をしないでください。",
-     "vi": "Trong giờ làm nhiệm vụ đừng gọi điện việc riêng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "職務[しょくむ]経歴書[けいれきしょ]に、今[いま]までの仕事[しごと]を詳[くわ]しく書[か]いた。",
-     "vi": "Tôi viết kỹ những công việc từ trước tới nay vào bản lý lịch công việc.",
-     "ctx": "thutuc"
-    }
-   ],
-   "rel": [
-    "v:業務:ぎょうむ"
-   ],
-   "note": "Văn viết. 職務経歴書[しょくむけいれきしょ] = bản lý lịch công việc (nộp khi xin việc)."
-  },
-  {
-   "id": "v:業務:ぎょうむ",
-   "kana": "ぎょうむ",
-   "kanji": "業務",
-   "hv": "NGHIỆP VỤ",
-   "vi": "nghiệp vụ, công việc (của công ty)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "来月[らいげつ]から、業務[ぎょうむ]の内容[ないよう]が少[すこ]し変[か]わります。",
-     "vi": "Từ tháng sau, nội dung công việc sẽ thay đổi chút ít.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "「本日[ほんじつ]の業務[ぎょうむ]は終了[しゅうりょう]しました」と、窓口[まどぐち]に書[か]いてあった。",
-     "vi": "Ở quầy có ghi \"Hôm nay đã hết giờ làm việc\".",
-     "ctx": "thutuc"
-    }
-   ],
-   "rel": [
-    "v:仕事:しごと",
-    "v:職務:しょくむ"
-   ],
-   "note": "Văn viết, công ty. 業務連絡[ぎょうむれんらく] = liên lạc công việc; 業務用[ぎょうむよう] = loại dùng cho kinh doanh (cỡ lớn)."
-  },
-  {
-   "id": "v:分担:ぶんたん",
-   "kana": "ぶんたん",
-   "kanji": "分担",
-   "hv": "PHÂN ĐẢM",
-   "vi": "chia nhau (việc, chi phí)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "掃除[そうじ]は、班[はん]のみんなで分担[ぶんたん]してやります。",
-     "vi": "Việc dọn dẹp cả tổ chia nhau làm.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "家賃[やちん]と光熱費[こうねつひ]を、ルームメイトと分担[ぶんたん]している。",
-     "vi": "Tôi chia tiền nhà và tiền điện nước với bạn cùng phòng.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：この作業[さぎょう]、二人[ふたり]で分担[ぶんたん]しない？B：いいね。ぼくは箱[はこ]を運[はこ]ぶよ。",
-     "vi": "A: Việc này hai đứa chia nhau làm không? B: Được đấy. Tớ chuyển thùng nhé.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "仕事[しごと]を分担[ぶんたん]する",
-     "vi": "chia việc"
-    },
-    {
-     "jp": "費用[ひよう]を分担[ぶんたん]する",
-     "vi": "chia chi phí"
-    }
-   ],
-   "note": "役割分担[やくわりぶんたん] = phân chia vai trò."
-  },
-  {
-   "id": "v:割り当てる:わりあてる",
-   "kana": "わりあてる",
-   "kanji": "割り当てる",
-   "kf": "割[わ]り当[あ]てる",
-   "hv": "CÁT ĐƯƠNG",
-   "vi": "phân công, chia phần (cho từng người)",
-   "pos": "v1",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班長[はんちょう]が、一人[ひとり]ずつに作業[さぎょう]を割[わ]り当[あ]てた。",
-     "vi": "Tổ trưởng phân công việc cho từng người.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "社宅[しゃたく]の部屋[へや]は、会社[かいしゃ]が割[わ]り当[あ]てます。",
-     "vi": "Phòng ở nhà tập thể do công ty phân.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "A：今日[きょう]、私[わたし]は何[なに]をすればいいですか。B：割[わ]り当[あ]て表[ひょう]を見[み]て。三番[さんばん]のラインだよ。",
-     "vi": "A: Hôm nay tôi làm gì ạ? B: Xem bảng phân công đi. Dây chuyền số ba đó.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "仕事[しごと]を割[わ]り当[あ]てる",
-     "vi": "phân công việc"
-    },
-    {
-     "jp": "部屋[へや]を割[わ]り当[あ]てる",
-     "vi": "phân phòng"
-    }
-   ],
-   "rel": [
-    "v:分担:ぶんたん"
-   ],
-   "note": "割[わ]り当[あ]て = sự phân công; 割[わ]り当[あ]て表[ひょう] = bảng phân công."
-  },
-  {
-   "id": "v:配置:はいち",
-   "kana": "はいち",
-   "kanji": "配置",
-   "hv": "PHỐI TRÍ",
-   "vi": "bố trí (người, đồ vào vị trí)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "忙[いそが]しい時期[じき]は、ラインに人[ひと]を多[おお]めに配置[はいち]する。",
-     "vi": "Mùa bận thì bố trí nhiều người hơn vào dây chuyền.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "部屋[へや]の家具[かぐ]の配置[はいち]を変[か]えたら、広[ひろ]く見[み]えるようになった。",
-     "vi": "Đổi cách bố trí đồ đạc thì phòng trông rộng hơn.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "人[ひと]を配置[はいち]する",
-     "vi": "bố trí người"
-    }
-   ],
-   "note": "配置転換[はいちてんかん] = điều chuyển vị trí làm việc."
-  },
-  {
-   "id": "v:任命:にんめい",
-   "kana": "にんめい",
-   "kanji": "任命",
-   "hv": "NHIỆM MỆNH",
-   "vi": "bổ nhiệm chức vụ, cử làm (chức gì)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "グエンさんが、新[あたら]しい班長[はんちょう]に任命[にんめい]された。",
-     "vi": "Anh Nguyễn được bổ nhiệm làm tổ trưởng mới.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "新[あたら]しい大臣[だいじん]が任命[にんめい]された。",
-     "vi": "Bộ trưởng mới đã được bổ nhiệm.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "班長[はんちょう]に任命[にんめい]する",
-     "vi": "bổ nhiệm làm tổ trưởng"
-    }
-   ],
-   "fx": [
-    {
-     "f": "ukemi",
-     "jp": "来月[らいげつ]から、グエンさんがリーダーに[[任命[にんめい]され]]ます。",
-     "vi": "Từ tháng sau anh Nguyễn được bổ nhiệm làm trưởng nhóm."
-    }
-   ],
-   "note": "Thường dùng bị động: 〜に任命[にんめい]される."
-  },
-  {
-   "id": "v:引き継ぐ:ひきつぐ",
-   "kana": "ひきつぐ",
-   "kanji": "引き継ぐ",
-   "kf": "引[ひ]き継[つ]ぐ",
-   "hv": "DẪN KẾ",
-   "vi": "tiếp nhận / bàn giao (công việc, cửa hàng)",
-   "pos": "v5",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "前[まえ]の班長[はんちょう]から、仕事[しごと]を引[ひ]き継[つ]いだ。",
-     "vi": "Tôi tiếp nhận công việc từ tổ trưởng trước.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "父[ちち]の店[みせ]を、息子[むすこ]が引[ひ]き継[つ]ぐことになった。",
-     "vi": "Con trai sẽ tiếp quản cửa hàng của bố.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：休[やす]む前[まえ]に、作業[さぎょう]をちゃんと引[ひ]き継[つ]いでおいてね。B：はい、メモを残[のこ]しておきます。",
-     "vi": "A: Trước khi nghỉ nhớ bàn giao công việc đàng hoàng nhé. B: Vâng, tôi sẽ để lại ghi chú.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "仕事[しごと]を引[ひ]き継[つ]ぐ",
-     "vi": "tiếp nhận công việc"
-    },
-    {
-     "jp": "店[みせ]を引[ひ]き継[つ]ぐ",
-     "vi": "tiếp quản cửa hàng"
-    }
-   ],
-   "note": "引[ひ]き継[つ]ぎ = việc bàn giao (giữa ca, khi chuyển việc)."
-  },
-  {
-   "id": "v:班員:はんいん",
-   "kana": "はんいん",
-   "kanji": "班員",
-   "hv": "BAN VIÊN",
-   "vi": "thành viên trong tổ",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班[はん]員[いん]全員[ぜんいん]で、朝[あさ]の安全[あんぜん]確認[かくにん]をする。",
-     "vi": "Cả tổ cùng kiểm tra an toàn buổi sáng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：班[はん]員[いん]は何人[なんにん]いますか。B：私[わたし]を入[い]れて八人[はちにん]です。",
-     "vi": "A: Tổ có mấy người? B: Tính cả tôi là tám người.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "rel": [
-    "v:班:はん",
-    "v:班長:はんちょう"
-   ],
-   "ctr": "人"
-  },
-  {
-   "id": "v:まとめ役:まとめやく",
-   "kana": "まとめやく",
-   "kanji": "まとめ役",
-   "kf": "まとめ役[やく]",
-   "hv": "DỊCH",
-   "vi": "người gắn kết, người điều phối (nhóm)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "田中[たなか]さんは、職場[しょくば]のまとめ役[やく]だ。",
-     "vi": "Anh Tanaka là người gắn kết ở chỗ làm.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "町内会[ちょうないかい]の行事[ぎょうじ]で、まとめ役[やく]を頼[たの]まれた。",
-     "vi": "Tôi được nhờ làm người điều phối sự kiện của hội khu phố.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:まとめる:まとめる"
-   ],
-   "note": "役[やく] = vai: 司会役[しかいやく] = vai người dẫn, まとめ役[やく] = vai người gom ý kiến, giữ nhóm đoàn kết."
-  },
-  {
-   "id": "v:教育係:きょういくがかり",
-   "kana": "きょういくがかり",
-   "kanji": "教育係",
-   "hv": "GIÁO DỤC HỆ",
-   "vi": "người phụ trách kèm cặp (người mới)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "新人[しんじん]の教育係[きょういくがかり]を任[まか]された。",
-     "vi": "Tôi được giao làm người kèm cặp người mới.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：分[わ]からないことは、だれに聞[き]けばいいですか。B：教育係[きょういくがかり]の私[わたし]に、何[なん]でも聞[き]いてね。",
-     "vi": "A: Có gì không hiểu thì hỏi ai ạ? B: Cứ hỏi tôi, người phụ trách kèm cặp, bất cứ điều gì nhé.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "rel": [
-    "v:指導:しどう"
-   ],
-   "note": "係[かかり] đứng sau từ khác đọc がかり: 教育係[きょういくがかり], 掃除係[そうじがかり]."
-  },
-  {
-   "id": "v:管理職:かんりしょく",
-   "kana": "かんりしょく",
-   "kanji": "管理職",
-   "hv": "QUẢN LÝ CHỨC",
-   "vi": "chức vụ quản lý, cán bộ quản lý",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "管理職[かんりしょく]になると、残業代[ざんぎょうだい]が出[で]なくなる会社[かいしゃ]もある。",
-     "vi": "Có công ty lên chức quản lý thì không được trả tiền tăng ca nữa.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "姉[あね]は、銀行[ぎんこう]で管理職[かんりしょく]として働[はたら]いている。",
-     "vi": "Chị tôi làm cán bộ quản lý ở ngân hàng.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:管理:かんり"
-   ],
-   "note": "Ở xưởng, 班長[はんちょう] thường chưa phải 管理職[かんりしょく]; thường từ 課長[かちょう] trở lên (tùy công ty)."
-  },
-  {
-   "id": "v:育成:いくせい",
-   "kana": "いくせい",
-   "kanji": "育成",
-   "hv": "DỤC THÀNH",
-   "vi": "đào tạo, bồi dưỡng (nhân lực)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会社[かいしゃ]は、外国人[がいこくじん]リーダーの育成[いくせい]に力[ちから]を入[い]れている。",
-     "vi": "Công ty đang chú trọng đào tạo trưởng nhóm người nước ngoài.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "この学校[がっこう]は、料理人[りょうりにん]の育成[いくせい]で有名[ゆうめい]だ。",
-     "vi": "Trường này nổi tiếng về đào tạo đầu bếp.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "人材[じんざい]を育成[いくせい]する",
-     "vi": "đào tạo nhân lực"
-    }
-   ],
-   "rel": [
-    "v:育てる:そだてる"
-   ],
-   "note": "Văn viết của 育[そだ]てる khi nói về nhân lực, cầu thủ."
-  },
-  {
-   "id": "v:半人前:はんにんまえ",
-   "kana": "はんにんまえ",
-   "kanji": "半人前",
-   "hv": "BÁN NHÂN TIỀN",
-   "vi": "(tay nghề) còn non, chưa thạo",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "まだ半人前[はんにんまえ]なので、先輩[せんぱい]に教[おそ]わってばかりです。",
-     "vi": "Tôi vẫn còn non tay nên toàn học từ đàn anh.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "料理[りょうり]はまだ半人前[はんにんまえ]だが、毎日[まいにち]練習[れんしゅう]している。",
-     "vi": "Nấu ăn tôi vẫn còn non nhưng ngày nào cũng luyện.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:一人前:いちにんまえ"
-   ]
-  },
-  {
-   "id": "v:務める:つとめる",
-   "kana": "つとめる",
-   "kanji": "務める",
-   "kf": "務[つと]める",
-   "hv": "VỤ",
-   "vi": "đảm nhiệm (vai trò, chức vụ)",
-   "pos": "v1",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vai trò",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "今年[ことし]から、班[はん]長[ちょう]を務[つと]めています。",
-     "vi": "Từ năm nay tôi đảm nhiệm vai trò tổ trưởng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "友人[ゆうじん]の結婚式[けっこんしき]で、司会[しかい]を務[つと]めた。",
-     "vi": "Tôi làm người dẫn chương trình trong đám cưới của bạn.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：だれか、今日[きょう]の司会[しかい]を務[つと]めてくれる人[ひと]いる？B：はい、私[わたし]がやります。",
-     "vi": "A: Có ai làm người dẫn hôm nay không? B: Vâng, tôi làm ạ.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "班[はん]長[ちょう]を務[つと]める",
-     "vi": "làm tổ trưởng"
-    },
-    {
-     "jp": "司会[しかい]を務[つと]める",
-     "vi": "làm người dẫn chương trình"
-    }
-   ],
-   "confuse": [
-    {
-     "w": "勤[つと]める",
-     "vi": "làm việc (ở công ty)"
-    },
-    {
-     "w": "努[つと]める",
-     "vi": "cố gắng, nỗ lực"
-    }
-   ],
-   "note": "勤[つと]める = làm việc ở đâu (会社[かいしゃ]に勤[つと]める); 務[つと]める = đảm nhiệm vai trò (〜を務[つと]める); 努[つと]める = nỗ lực (〜に努[つと]める)."
-  },
-  {
-   "id": "v:率いる:ひきいる",
-   "kana": "ひきいる",
-   "kanji": "率いる",
-   "kf": "率[ひき]いる",
-   "hv": "SUẤT",
-   "vi": "dẫn dắt, chỉ huy (một nhóm người)",
-   "pos": "v1",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Dẫn dắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "彼[かれ]は、十人[じゅうにん]の班[はん]を率[ひき]いている。",
-     "vi": "Anh ấy dẫn dắt một tổ mười người.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "新[あたら]しい監督[かんとく]がチームを率[ひき]いて、優勝[ゆうしょう]した。",
-     "vi": "Huấn luyện viên mới dẫn dắt đội giành chức vô địch.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：将来[しょうらい]は、自分[じぶん]のチームを率[ひき]いてみたいです。B：グエンさんならできるよ。",
-     "vi": "A: Sau này tôi muốn thử dẫn dắt đội của riêng mình. B: Anh Nguyễn thì làm được đấy.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "チームを率[ひき]いる",
-     "vi": "dẫn dắt đội"
-    }
-   ],
-   "rel": [
-    "v:リーダー:リーダー"
-   ]
-  },
-  {
-   "id": "v:指揮:しき",
-   "kana": "しき",
-   "kanji": "指揮",
-   "hv": "CHỈ HUY",
-   "vi": "chỉ huy, điều khiển (đội, công việc, dàn nhạc)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Dẫn dắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "火事[かじ]のときは、班[はん]長[ちょう]の指揮[しき]に従[したが]って避難[ひなん]する。",
-     "vi": "Khi có cháy, sơ tán theo sự chỉ huy của tổ trưởng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "有名[ゆうめい]な指揮者[しきしゃ]が、オーケストラを指揮[しき]した。",
-     "vi": "Một nhạc trưởng nổi tiếng chỉ huy dàn nhạc.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "現場[げんば]を指揮[しき]する",
-     "vi": "chỉ huy hiện trường"
-    }
-   ],
-   "note": "指揮者[しきしゃ] = nhạc trưởng. 指揮[しき]を執[と]る = nắm quyền chỉ huy."
-  },
-  {
-   "id": "v:仕切る:しきる",
-   "kana": "しきる",
-   "kanji": "仕切る",
-   "kf": "仕切[しき]る",
-   "hv": "SĨ THIẾT",
-   "vi": "đứng ra điều hành, quán xuyến (mọi việc)",
-   "pos": "v5",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Dẫn dắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "現場[げんば]は、ベテランの山田[やまだ]さんが仕切[しき]っている。",
-     "vi": "Hiện trường do anh Yamada kỳ cựu quán xuyến.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "飲[の]み会[かい]は、いつも彼[かれ]が仕切[しき]ってくれる。",
-     "vi": "Tiệc nhậu lúc nào cũng do anh ấy đứng ra lo liệu.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：今日[きょう]の会議[かいぎ]、だれが仕切[しき]るの？B：課長[かちょう]がいないから、グエンさんにお願[ねが]いしたい。",
-     "vi": "A: Họp hôm nay ai điều hành? B: Trưởng phòng vắng nên muốn nhờ anh Nguyễn.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "会議[かいぎ]を仕切[しき]る",
-     "vi": "điều hành cuộc họp"
-    }
-   ],
-   "note": "Nghĩa gốc: ngăn (phòng) bằng vách; 仕切[しき]り = vách ngăn."
-  },
-  {
-   "id": "v:率先:そっせん",
-   "kana": "そっせん",
-   "kanji": "率先",
-   "hv": "SUẤT TIÊN",
-   "vi": "đi đầu (làm trước làm gương)",
-   "pos": "n-suru",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Dẫn dắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班長[はんちょう]が率先[そっせん]して、床[ゆか]の掃除[そうじ]を始[はじ]めた。",
-     "vi": "Tổ trưởng đi đầu bắt tay lau sàn.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "彼[かれ]は、町[まち]のボランティア活動[かつどう]に率先[そっせん]して参加[さんか]している。",
-     "vi": "Anh ấy luôn đi đầu tham gia hoạt động tình nguyện ở thị trấn.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "自[みずか]ら率先[そっせん]する",
-     "vi": "tự mình đi đầu"
-    }
-   ],
-   "note": "Thường dùng dạng 率先[そっせん]して〜する."
-  },
-  {
-   "id": "v:手本:てほん",
-   "kana": "てほん",
-   "kanji": "手本",
-   "hv": "THỦ BẢN",
-   "vi": "mẫu để làm theo (động tác, chữ viết)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Dẫn dắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "先輩[せんぱい]の動[うご]きを手本[てほん]にして、包丁[ほうちょう]の使[つか]い方[かた]を覚[おぼ]えた。",
-     "vi": "Lấy động tác của đàn anh làm mẫu, tôi học cách dùng dao.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "親[おや]は、子[こ]どもの手本[てほん]にならなければならない。",
-     "vi": "Cha mẹ phải làm gương cho con cái.",
-     "ctx": "doisong"
-    }
-   ],
-   "confuse": [
-    "v:見本:みほん",
-    "v:模範:もはん"
-   ],
-   "note": "手本[てほん]を見[み]せる = làm mẫu cho xem; お手本[てほん] (lịch sự)."
-  },
-  {
-   "id": "v:見本:みほん",
-   "kana": "みほん",
-   "kanji": "見本",
-   "hv": "KIẾN BẢN",
-   "vi": "hàng mẫu, bản mẫu (để xem)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Dẫn dắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "店[みせ]の前[まえ]に、料理[りょうり]の見本[みほん]が並[なら]んでいる。",
-     "vi": "Trước cửa hàng bày các mẫu món ăn.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "申込書[もうしこみしょ]の書[か]き方[かた]は、見本[みほん]を見[み]てください。",
-     "vi": "Cách viết đơn đăng ký hãy xem bản mẫu.",
-     "ctx": "thutuc"
-    }
-   ],
-   "confuse": [
-    "v:手本:てほん"
-   ],
-   "note": "見本[みほん] = vật mẫu, bản mẫu để xem (hàng mẫu, mẫu điền đơn); 手本[てほん] = mẫu để bắt chước theo; 模範[もはん] = tấm gương về hành vi."
-  },
-  {
-   "id": "v:模範:もはん",
-   "kana": "もはん",
-   "kanji": "模範",
-   "hv": "MÔ PHẠM",
-   "vi": "tấm gương mẫu mực (về cách hành xử)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Dẫn dắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "グエンさんの働[はたら]き方[かた]は、みんなの模範[もはん]だ。",
-     "vi": "Cách làm việc của anh Nguyễn là tấm gương cho mọi người.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "模範[もはん]解答[かいとう]を見[み]て、答[こた]え合[あ]わせをした。",
-     "vi": "Xem đáp án mẫu để chấm lại bài.",
-     "ctx": "doisong"
-    }
-   ],
-   "confuse": [
-    "v:手本:てほん"
-   ],
-   "note": "模範的[もはんてき] = mẫu mực. 模範解答[もはんかいとう] = đáp án mẫu."
-  },
-  {
-   "id": "v:リーダーシップ:リーダーシップ",
-   "kana": "リーダーシップ",
-   "kanji": "",
-   "hv": "",
-   "vi": "khả năng lãnh đạo",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Dẫn dắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班長[はんちょう]には、リーダーシップが求[もと]められる。",
-     "vi": "Tổ trưởng cần có khả năng lãnh đạo.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "彼女[かのじょ]は学生[がくせい]のころから、リーダーシップがあった。",
-     "vi": "Cô ấy từ hồi đi học đã có tố chất lãnh đạo.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:リーダー:リーダー"
-   ],
-   "goc": "leadership (tiếng Anh)",
-   "note": "リーダーシップを取[と]る = đứng ra dẫn dắt."
-  },
-  {
-   "id": "v:頼もしい:たのもしい",
-   "kana": "たのもしい",
-   "kanji": "頼もしい",
-   "kf": "頼[たの]もしい",
-   "hv": "LẠI",
-   "vi": "đáng tin cậy, vững vàng (khiến người khác yên tâm)",
-   "pos": "adj-i",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Dẫn dắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "新人[しんじん]が成長[せいちょう]して、頼[たの]もしくなった。",
-     "vi": "Người mới đã trưởng thành, trở nên vững vàng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "地震[じしん]のとき、近所[きんじょ]の人[ひと]たちがとても頼[たの]もしかった。",
-     "vi": "Lúc động đất, hàng xóm thật đáng tin cậy.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：困[こま]ったことがあったら、何[なん]でも言[い]ってね。B：ありがとうございます。頼[たの]もしいです。",
-     "vi": "A: Có gì khó cứ nói nhé. B: Cảm ơn anh. Có anh thật yên tâm.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "先輩[せんぱい]",
-     "vi": "đàn anh"
-    },
-    {
-     "jp": "味方[みかた]",
-     "vi": "đồng minh"
-    }
-   ],
-   "ant": [
-    "v:頼りない:たよりない"
-   ],
-   "note": "Khen người làm mình yên tâm, có thể dựa vào."
-  },
-  {
-   "id": "v:頼りない:たよりない",
-   "kana": "たよりない",
-   "kanji": "頼りない",
-   "kf": "頼[たよ]りない",
-   "hv": "LẠI",
-   "vi": "không vững vàng, khó trông cậy (khiến lo lắng)",
-   "pos": "adj-i",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Dẫn dắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "新[あたら]しい班長[はんちょう]は、まだ少[すこ]し頼[たよ]りない。",
-     "vi": "Tổ trưởng mới vẫn còn hơi non.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "頼[たよ]りない返事[へんじ]をして、相手[あいて]を不安[ふあん]にさせてしまった。",
-     "vi": "Trả lời lơ mơ khiến người kia bất an.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：ぼく、班[はん]長[ちょう]なんてできるかな。B：そんな頼[たよ]りないこと、言[い]わないで。",
-     "vi": "A: Tôi liệu có làm tổ trưởng được không nhỉ. B: Đừng nói kiểu thiếu vững vàng như thế.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "返事[へんじ]",
-     "vi": "câu trả lời"
-    },
-    {
-     "jp": "人[ひと]",
-     "vi": "người"
-    }
-   ],
-   "ant": [
-    "v:頼もしい:たのもしい"
-   ],
-   "rel": [
-    "v:頼る:たよる"
-   ]
-  },
-  {
-   "id": "v:見守る:みまもる",
-   "kana": "みまもる",
-   "kanji": "見守る",
-   "kf": "見守[みまも]る",
-   "hv": "KIẾN THỦ",
-   "vi": "dõi theo, trông chừng (sẵn sàng giúp khi cần)",
-   "pos": "v5",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Dẫn dắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "新人[しんじん]が一人[ひとり]で作業[さぎょう]するのを、そばで見守[みまも]った。",
-     "vi": "Tôi đứng bên cạnh dõi theo người mới tự làm một mình.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "両親[りょうしん]は、いつも遠[とお]くから私[わたし]を見守[みまも]ってくれている。",
-     "vi": "Bố mẹ luôn dõi theo tôi từ nơi xa.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：手伝[てつだ]いましょうか。B：いや、今日[きょう]は見守[みまも]るだけにしよう。自分[じぶん]でやらせたいから。",
-     "vi": "A: Tôi giúp nhé? B: Thôi, hôm nay chỉ đứng dõi theo thôi. Muốn để cậu ấy tự làm.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "成長[せいちょう]を見守[みまも]る",
-     "vi": "dõi theo sự trưởng thành"
-    },
-    {
-     "jp": "子[こ]どもを見守[みまも]る",
-     "vi": "trông chừng trẻ"
-    }
-   ],
-   "rel": [
-    "v:支える:ささえる"
-   ]
-  },
-  {
-   "id": "v:主体的:しゅたいてき",
-   "kana": "しゅたいてき",
-   "kanji": "主体的",
-   "hv": "CHỦ THỂ ĐÍCH",
-   "vi": "tự chủ (tự suy nghĩ, tự quyết mà làm)",
-   "pos": "adj-na",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Dẫn dắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "指示[しじ]を待[ま]つだけでなく、主体的[しゅたいてき]に動[うご]いてほしい。",
-     "vi": "Mong anh không chỉ chờ chỉ thị mà tự chủ hành động.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "主体的[しゅたいてき]に勉強[べんきょう]する子[こ]どもは、伸[の]びるのが早[はや]い。",
-     "vi": "Trẻ tự chủ học tập thì tiến bộ nhanh.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：グエンさん、最近[さいきん]主体的[しゅたいてき]になったね。B：班[はん]長[ちょう]を目指[めざ]しているので。",
-     "vi": "A: Dạo này anh Nguyễn tự chủ hẳn lên nhỉ. B: Vì tôi đang nhắm làm tổ trưởng.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "行動[こうどう]",
-     "vi": "hành động"
-    },
-    {
-     "jp": "態度[たいど]",
-     "vi": "thái độ"
-    }
-   ],
-   "ant": [
-    {
-     "w": "受[う]け身[み]",
-     "vi": "bị động, chờ người khác bảo"
-    }
-   ],
-   "rel": [
-    "v:積極的:せっきょくてき"
-   ],
-   "note": "積極的[せっきょくてき] = hăng hái xông pha; 主体的[しゅたいてき] = tự mình suy nghĩ, quyết định và chịu trách nhiệm."
-  },
-  {
-   "id": "v:消極的:しょうきょくてき",
-   "kana": "しょうきょくてき",
-   "kanji": "消極的",
-   "hv": "TIÊU CỰC ĐÍCH",
-   "vi": "thụ động, rụt rè (ngại xông pha)",
-   "pos": "adj-na",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Dẫn dắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "失敗[しっぱい]を恐[おそ]れて、消極的[しょうきょくてき]になってはいけない。",
-     "vi": "Không được vì sợ thất bại mà trở nên thụ động.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "彼[かれ]は、新[あたら]しいことに消極的[しょうきょくてき]だ。",
-     "vi": "Anh ấy ngại thử những việc mới.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：会議[かいぎ]で全然[ぜんぜん]意見[いけん]を言[い]わないね。B：日本語[にほんご]に自信[じしん]がなくて、つい消極的[しょうきょくてき]になっちゃう。",
-     "vi": "A: Họp cậu chẳng nói ý kiến gì nhỉ. B: Không tự tin tiếng Nhật nên cứ rụt rè.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "態度[たいど]",
-     "vi": "thái độ"
-    },
-    {
-     "jp": "意見[いけん]",
-     "vi": "ý kiến"
-    }
-   ],
-   "ant": [
-    "v:積極的:せっきょくてき"
-   ]
-  },
-  {
-   "id": "v:宣言:せんげん",
-   "kana": "せんげん",
-   "kanji": "宣言",
-   "hv": "TUYÊN NGÔN",
-   "vi": "tuyên bố",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quyết tâm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班長[はんちょう]が、「今年[ことし]は事故[じこ]ゼロを目指[めざ]す」と宣言[せんげん]した。",
-     "vi": "Tổ trưởng tuyên bố \"Năm nay nhắm tới không có tai nạn nào\".",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "友達[ともだち]の前[まえ]で、禁煙[きんえん]を宣言[せんげん]した。",
-     "vi": "Tôi tuyên bố bỏ thuốc trước mặt bạn bè.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "禁煙[きんえん]を宣言[せんげん]する",
-     "vi": "tuyên bố bỏ thuốc"
-    }
-   ],
-   "note": "Nói ra trước mọi người để tự ràng buộc mình. 緊急事態宣言[きんきゅうじたいせんげん] = tuyên bố tình trạng khẩn cấp."
-  },
-  {
-   "id": "v:貫く:つらぬく",
-   "kana": "つらぬく",
-   "kanji": "貫く",
-   "kf": "貫[つらぬ]く",
-   "hv": "QUÁN",
-   "vi": "giữ vững đến cùng (ý chí, lập trường); xuyên thủng (qua vật)",
-   "pos": "v5",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quyết tâm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "一度[いちど]決[き]めたことは、最後[さいご]まで貫[つらぬ]きたい。",
-     "vi": "Việc đã quyết thì tôi muốn theo đến cùng.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "この工場[こうじょう]は、安全[あんぜん]第[だい]一[いち]の方針[ほうしん]を貫[つらぬ]いてきた。",
-     "vi": "Nhà máy này luôn kiên định với phương châm an toàn trên hết.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：周[まわ]りに反対[はんたい]されても、夢[ゆめ]を貫[つらぬ]くつもり？B：うん、後悔[こうかい]したくないから。",
-     "vi": "A: Dù bị xung quanh phản đối vẫn định theo đuổi ước mơ à? B: Ừ, vì không muốn hối hận.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "信念[しんねん]を貫[つらぬ]く",
-     "vi": "giữ vững niềm tin"
-    },
-    {
-     "jp": "意志[いし]を貫[つらぬ]く",
-     "vi": "giữ vững ý chí"
-    }
-   ],
-   "note": "Nghĩa gốc: xuyên qua (矢[や]が板[いた]を貫[つらぬ]く)."
-  },
-  {
-   "id": "v:信念:しんねん",
-   "kana": "しんねん",
-   "kanji": "信念",
-   "hv": "TÍN NIỆM",
-   "vi": "niềm tin (điều mình tin là đúng)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quyết tâm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "「安全[あんぜん]は何[なん]より大切[たいせつ]」というのが、班[はん]長[ちょう]の信念[しんねん]だ。",
-     "vi": "\"An toàn quan trọng hơn hết\" là niềm tin của tổ trưởng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "信念[しんねん]を持[も]って生[い]きている人[ひと]は、強[つよ]い。",
-     "vi": "Người sống có niềm tin thì vững vàng.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "信念[しんねん]を持[も]つ = có niềm tin; 信念[しんねん]を曲[ま]げない = không bẻ cong niềm tin."
-  },
-  {
-   "id": "v:姿勢:しせい",
-   "kana": "しせい",
-   "kanji": "姿勢",
-   "hv": "TƯ THẾ",
-   "vi": "tư thế; cách tiếp cận, thái độ làm việc",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quyết tâm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "重[おも]い箱[はこ]を持[も]つときは、姿勢[しせい]に気[き]をつけてください。",
-     "vi": "Khi bê thùng nặng hãy chú ý tư thế.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "何[なん]でも学[まな]ぼうとする彼[かれ]の姿勢[しせい]は、すばらしい。",
-     "vi": "Thái độ cái gì cũng muốn học của anh ấy thật tuyệt.",
-     "ctx": "doisong"
-    }
-   ],
-   "confuse": [
-    "v:態度:たいど"
-   ],
-   "note": "態度[たいど] = thái độ thể hiện ra với người khác; 姿勢[しせい] = tư thế, và tinh thần, cách tiếp cận với công việc. 前向[まえむ]きな姿勢[しせい] = thái độ tích cực."
-  },
-  {
-   "id": "v:自ら:みずから",
-   "kana": "みずから",
-   "kanji": "自ら",
-   "kf": "自[みずか]ら",
-   "hv": "TỰ",
-   "vi": "đích thân, tự thân (văn viết)",
-   "pos": "adv",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quyết tâm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班[はん]長[ちょう]自[みずか]ら、新人[しんじん]に包丁[ほうちょう]の研[と]ぎ方[かた]を教[おし]えた。",
-     "vi": "Tổ trưởng đích thân dạy người mới cách mài dao.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "彼[かれ]は自[みずか]ら進[すす]んで、難[むずか]しい仕事[しごと]に手[て]を挙[あ]げた。",
-     "vi": "Anh ấy tự mình xung phong nhận việc khó.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:自分:じぶん"
-   ],
-   "note": "Văn viết, trang trọng hơn 自分[じぶん]で. Cũng dùng như danh từ: 自[みずか]らの手[て]で = bằng chính tay mình."
-  },
-  {
-   "id": "v:けじめ:けじめ",
-   "kana": "けじめ",
-   "kanji": "",
-   "hv": "",
-   "vi": "sự phân định rõ ràng; tự xử lý cho đàng hoàng (sau lỗi)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quyết tâm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "仕事[しごと]とプライベートの、けじめをつけましょう。",
-     "vi": "Hãy phân định rõ công việc và chuyện riêng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "子[こ]どもに、遊[あそ]ぶ時間[じかん]と勉強[べんきょう]する時間[じかん]のけじめを教[おし]えている。",
-     "vi": "Tôi dạy con phân định rõ giờ chơi và giờ học.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：遅刻[ちこく]したら、まずちゃんと謝[あやま]る。それがけじめだよ。B：はい、気[き]をつけます。",
-     "vi": "A: Đi trễ thì trước hết phải xin lỗi đàng hoàng. Đó là phép tắc đấy. B: Vâng, tôi sẽ chú ý.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "けじめをつける = phân định rõ ràng; (sau sai lầm) tự nhận lỗi, chịu trách nhiệm cho đàng hoàng. Từ rất hay gặp ở công ty Nhật."
-  },
-  {
-   "id": "v:謙虚:けんきょ",
-   "kana": "けんきょ",
-   "kanji": "謙虚",
-   "hv": "KHIÊM HƯ",
-   "vi": "khiêm tốn",
-   "pos": "adj-na",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quyết tâm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "彼[かれ]は経験[けいけん]が長[なが]いのに、とても謙虚[けんきょ]だ。",
-     "vi": "Anh ấy kinh nghiệm lâu năm mà rất khiêm tốn.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "人[ひと]の意見[いけん]を謙虚[けんきょ]に聞[き]くことが大切[たいせつ]だ。",
-     "vi": "Điều quan trọng là khiêm tốn lắng nghe ý kiến người khác.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：日本語[にほんご]、本当[ほんとう]に上手[じょうず]ですね。B：いえ、まだまだです。A：謙虚[けんきょ]だなあ。",
-     "vi": "A: Tiếng Nhật anh giỏi thật đấy. B: Không, tôi còn kém lắm. A: Khiêm tốn quá nhỉ.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "態度[たいど]",
-     "vi": "thái độ"
-    },
-    {
-     "jp": "人[ひと]",
-     "vi": "người"
-    }
-   ],
-   "ant": [
-    {
-     "w": "偉[えら]そう",
-     "vi": "ra vẻ ta đây"
-    }
-   ]
-  },
-  {
-   "id": "v:一丸:いちがん",
-   "kana": "いちがん",
-   "kanji": "一丸",
-   "hv": "NHẤT HOÀN",
-   "vi": "(đồng lòng) như một khối",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quyết tâm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "班[はん]が一丸[いちがん]となって、今月[こんげつ]の目標[もくひょう]を達成[たっせい]した。",
-     "vi": "Cả tổ đồng lòng như một và đạt được mục tiêu tháng này.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "町[まち]が一丸[いちがん]となって、祭[まつ]りの準備[じゅんび]をした。",
-     "vi": "Cả thị trấn chung sức chuẩn bị lễ hội.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:協力:きょうりょく"
-   ],
-   "note": "Hầu như chỉ dùng trong cụm 一丸[いちがん]となって = đồng lòng, chung sức như một."
-  },
-  {
-   "id": "v:改める:あらためる",
-   "kana": "あらためる",
-   "kanji": "改める",
-   "kf": "改[あらた]める",
-   "hv": "CẢI",
-   "vi": "sửa đổi (cho tốt hơn); đổi sang (dịp khác)",
-   "pos": "v1",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quyết tâm",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "遅刻[ちこく]が多[おお]かったので、生活[せいかつ]を改[あらた]めた。",
-     "vi": "Vì hay đi trễ nên tôi đã sửa đổi nếp sinh hoạt.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "事故[じこ]を防[ふせ]ぐため、作業[さぎょう]の手順[てじゅん]を改[あらた]めた。",
-     "vi": "Để phòng tai nạn, đã sửa đổi quy trình làm việc.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：この件[けん]は、日[ひ]を改[あらた]めてお話[はな]ししましょう。B：はい、また連絡[れんらく]します。",
-     "vi": "A: Việc này để hôm khác ta bàn nhé. B: Vâng, tôi sẽ liên lạc lại.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "態度[たいど]を改[あらた]める",
-     "vi": "sửa thái độ"
-    },
-    {
-     "jp": "日[ひ]を改[あらた]める",
-     "vi": "để hôm khác"
-    }
-   ],
-   "pair": {
-    "w": "改[あらた]まる",
-    "vi": "được đổi mới; trở nên trang trọng"
-   },
-   "note": "改[あらた]めて = (làm) lại lần nữa; nhân dịp này (改[あらた]めてよろしくお願[ねが]いします)."
-  }
- ]
+  "items": [
+    {
+      "id": "v:責任感:せきにんかん",
+      "kana": "せきにんかん",
+      "kanji": "責任感",
+      "hv": "TRÁCH NHIỆM CẢM",
+      "vi": "tinh thần trách nhiệm",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "グエンさんは責任感[せきにんかん]が強[つよ]いので、安心[あんしん]して仕事[しごと]を任[まか]せられる。",
+          "vi": "Anh Nguyễn có tinh thần trách nhiệm cao nên có thể yên tâm giao việc.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "親[おや]になって、初[はじ]めて本当[ほんとう]の責任感[せきにんかん]が生[う]まれた。",
+          "vi": "Làm cha rồi, tinh thần trách nhiệm thật sự mới nảy sinh.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:責任:せきにん",
+        "v:無責任:むせきにん"
+      ],
+      "note": "責任感[せきにんかん]が強[つよ]い / ない = có / thiếu tinh thần trách nhiệm."
+    },
+    {
+      "id": "v:無責任:むせきにん",
+      "kana": "むせきにん",
+      "kanji": "無責任",
+      "hv": "VÔ TRÁCH NHIỆM",
+      "vi": "vô trách nhiệm",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "途中[とちゅう]で仕事[しごと]をやめて帰[かえ]るのは、無責任[むせきにん]だ。",
+          "vi": "Bỏ việc giữa chừng mà về là vô trách nhiệm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ネットの無責任[むせきにん]なうわさを、信[しん]じないでください。",
+          "vi": "Đừng tin những lời đồn vô trách nhiệm trên mạng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：知[し]らないよ。ぼくの仕事[しごと]じゃないし。B：そんな無責任[むせきにん]なこと、言[い]わないで。",
+          "vi": "A: Tôi không biết đâu, đâu phải việc của tôi. B: Đừng nói vô trách nhiệm như thế.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "発言[はつげん]",
+          "vi": "lời nói"
+        },
+        {
+          "jp": "態度[たいど]",
+          "vi": "thái độ"
+        },
+        {
+          "jp": "人[ひと]",
+          "vi": "người"
+        }
+      ],
+      "rel": [
+        "v:責任感:せきにんかん"
+      ]
+    },
+    {
+      "id": "v:自覚:じかく",
+      "kana": "じかく",
+      "kanji": "自覚",
+      "hv": "TỰ GIÁC",
+      "vi": "tự ý thức rõ (về bản thân, vai trò)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班[はん]長[ちょう]としての自覚[じかく]を持[も]って、行動[こうどう]してください。",
+          "vi": "Hãy hành động với ý thức mình là tổ trưởng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "自分[じぶん]の弱[よわ]いところは、よく自覚[じかく]している。",
+          "vi": "Tôi tự biết rõ điểm yếu của mình.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "責任[せきにん]を自覚[じかく]する",
+          "vi": "ý thức được trách nhiệm"
+        }
+      ],
+      "rel": [
+        "v:意識:いしき"
+      ],
+      "note": "自覚症状[じかくしょうじょう] = triệu chứng người bệnh tự cảm thấy."
+    },
+    {
+      "id": "v:覚悟:かくご",
+      "kana": "かくご",
+      "kanji": "覚悟",
+      "hv": "GIÁC NGỘ",
+      "vi": "chuẩn bị tinh thần (đón nhận khó khăn)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班長[はんちょう]になったら忙[いそが]しくなる覚悟[かくご]は、もうできている。",
+          "vi": "Tôi đã chuẩn bị tinh thần là lên tổ trưởng sẽ bận hơn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本[にほん]に来[く]るとき、苦労[くろう]は覚悟[かくご]していた。",
+          "vi": "Lúc sang Nhật tôi đã chuẩn bị tinh thần chịu vất vả.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：この仕事[しごと]、かなりきついよ。B：覚悟[かくご]の上[うえ]です。",
+          "vi": "A: Việc này khá nặng đấy. B: Tôi đã chuẩn bị tinh thần rồi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "苦労[くろう]を覚悟[かくご]する",
+          "vi": "chấp nhận vất vả"
+        }
+      ],
+      "confuse": [
+        "v:決心:けっしん"
+      ],
+      "note": "決心[けっしん] = quyết định làm gì; 覚悟[かくご] = chấp nhận trước hậu quả, khó khăn. 覚悟[かくご]を決[き]める = hạ quyết tâm."
+    },
+    {
+      "id": "v:誓う:ちかう",
+      "kana": "ちかう",
+      "kanji": "誓う",
+      "kf": "誓[ちか]う",
+      "hv": "THỆ",
+      "vi": "thề, nguyện (hứa chắc chắn)",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "二度[にど]と同[おな]じミスはしないと、心[こころ]に誓[ちか]った。",
+          "vi": "Tôi tự thề trong lòng không mắc lại lỗi đó lần nữa.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "結婚式[けっこんしき]で、二人[ふたり]は永遠[えいえん]の愛[あい]を誓[ちか]った。",
+          "vi": "Trong lễ cưới, hai người thề nguyện yêu nhau mãi mãi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：今年[ことし]こそ、N2に合格[ごうかく]するぞ。B：その言葉[ことば]、誓[ちか]える？",
+          "vi": "A: Năm nay nhất định phải đỗ N2. B: Câu đó cậu dám thề không?",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "心[こころ]に誓[ちか]う",
+          "vi": "tự hứa trong lòng"
+        },
+        {
+          "jp": "愛[あい]を誓[ちか]う",
+          "vi": "thề nguyện yêu thương"
+        }
+      ],
+      "rel": [
+        "v:約束:やくそく"
+      ],
+      "note": "誓[ちか]い = lời thề."
+    },
+    {
+      "id": "v:背負う:せおう",
+      "kana": "せおう",
+      "kanji": "背負う",
+      "kf": "背負[せお]う",
+      "hv": "BỐI PHỤ",
+      "vi": "đeo trên lưng; gánh vác (trách nhiệm, gia đình)",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "重[おも]い荷物[にもつ]を背負[せお]って、山[やま]を登[のぼ]った。",
+          "vi": "Đeo hành lý nặng trên lưng leo núi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "班長[はんちょう]は、班[はん]全体[ぜんたい]の責任[せきにん]を背負[せお]っている。",
+          "vi": "Tổ trưởng gánh trách nhiệm của cả tổ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：家族[かぞく]のために、頑張[がんば]ってるんだね。B：うん、家族[かぞく]の生活[せいかつ]を背負[せお]ってるから。",
+          "vi": "A: Anh cố gắng vì gia đình nhỉ. B: Ừ, vì tôi gánh cuộc sống cả nhà mà.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "荷物[にもつ]を背負[せお]う",
+          "vi": "đeo hành lý"
+        },
+        {
+          "jp": "責任[せきにん]を背負[せお]う",
+          "vi": "gánh trách nhiệm"
+        }
+      ],
+      "rel": [
+        "v:負う:おう"
+      ],
+      "note": "Khẩu ngữ còn đọc しょう: 背負[しょ]う."
+    },
+    {
+      "id": "v:担う:になう",
+      "kana": "になう",
+      "kanji": "担う",
+      "kf": "担[にな]う",
+      "hv": "ĐẢM",
+      "vi": "đảm đương, gánh vác (vai trò quan trọng)",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今[いま]では、外国人[がいこくじん]の社員[しゃいん]が工場[こうじょう]の生産[せいさん]を担[にな]っている。",
+          "vi": "Giờ đây nhân viên người nước ngoài đang gánh vác sản xuất của nhà máy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "これからの町[まち]を担[にな]うのは、若[わか]い人[ひと]たちだ。",
+          "vi": "Người gánh vác thị trấn sau này là lớp trẻ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：新[あたら]しいラインのリーダーを、グエンさんに担[にな]ってほしいんだ。B：はい、精[せい]一杯[いっぱい]やります。",
+          "vi": "A: Tôi muốn anh Nguyễn đảm đương vai trưởng dây chuyền mới. B: Vâng, tôi sẽ làm hết sức.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "役割[やくわり]を担[にな]う",
+          "vi": "đảm đương vai trò"
+        },
+        {
+          "jp": "責任[せきにん]を担[にな]う",
+          "vi": "gánh trách nhiệm"
+        }
+      ],
+      "confuse": [
+        "v:背負う:せおう"
+      ],
+      "note": "Văn viết, trang trọng; hay đi với 役割[やくわり], 将来[しょうらい], 中心[ちゅうしん]. 背負[せお]う gần nghĩa nhưng gợi gánh nặng, vất vả."
+    },
+    {
+      "id": "v:果たす:はたす",
+      "kana": "はたす",
+      "kanji": "果たす",
+      "kf": "果[は]たす",
+      "hv": "QUẢ",
+      "vi": "làm tròn, hoàn thành (trách nhiệm, vai trò, lời hứa)",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "自分[じぶん]の役割[やくわり]を、最後[さいご]まで果[は]たしたい。",
+          "vi": "Tôi muốn làm tròn vai trò của mình đến cùng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "母[はは]との約束[やくそく]を果[は]たすために、毎月[まいつき]仕送[しおく]りをしている。",
+          "vi": "Để giữ trọn lời hứa với mẹ, tháng nào tôi cũng gửi tiền về.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：責任[せきにん]を果[は]たせなくて、すみませんでした。B：次[つぎ]、頑張[がんば]ればいいよ。",
+          "vi": "A: Xin lỗi vì không làm tròn trách nhiệm. B: Lần sau cố là được.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "責任[せきにん]を果[は]たす",
+          "vi": "làm tròn trách nhiệm"
+        },
+        {
+          "jp": "役割[やくわり]を果[は]たす",
+          "vi": "hoàn thành vai trò"
+        },
+        {
+          "jp": "約束[やくそく]を果[は]たす",
+          "vi": "giữ trọn lời hứa"
+        }
+      ],
+      "rel": [
+        "v:済ませる:すませる"
+      ],
+      "note": "済[す]ませる = làm cho xong việc nhỏ; 果[は]たす = làm tròn trách nhiệm, nhiệm vụ, mục tiêu lớn."
+    },
+    {
+      "id": "v:応える:こたえる",
+      "kana": "こたえる",
+      "kanji": "応える",
+      "kf": "応[こた]える",
+      "hv": "ỨNG",
+      "vi": "đáp lại (kỳ vọng, yêu cầu, tấm lòng)",
+      "pos": "v1",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]の期待[きたい]に応[こた]えられるように、頑張[がんば]ります。",
+          "vi": "Tôi sẽ cố gắng để đáp lại kỳ vọng của công ty.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "声援[せいえん]に応[こた]えて、選手[せんしゅ]が手[て]を振[ふ]った。",
+          "vi": "Đáp lại tiếng cổ vũ, cầu thủ vẫy tay.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：グエンさんならできると思[おも]って、任[まか]せたんだ。B：期待[きたい]に応[こた]えられるよう、頑張[がんば]ります。",
+          "vi": "A: Tôi giao vì nghĩ anh Nguyễn làm được. B: Tôi sẽ cố để đáp lại kỳ vọng.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "期待[きたい]に応[こた]える",
+          "vi": "đáp lại kỳ vọng"
+        },
+        {
+          "jp": "要望[ようぼう]に応[こた]える",
+          "vi": "đáp ứng yêu cầu"
+        }
+      ],
+      "confuse": [
+        "v:答える:こたえる"
+      ],
+      "note": "Đồng âm: 答[こた]える = trả lời câu hỏi; 応[こた]える = đáp lại kỳ vọng, yêu cầu. Nghĩa khác: 寒[さむ]さが体[からだ]に応[こた]える = cái lạnh thấm vào người."
+    },
+    {
+      "id": "v:使命:しめい",
+      "kana": "しめい",
+      "kanji": "使命",
+      "hv": "SỬ MỆNH",
+      "vi": "sứ mệnh",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "安全[あんぜん]でおいしい魚[さかな]を届[とど]けることが、私[わたし]たちの使命[しめい]です。",
+          "vi": "Đưa tới khách cá an toàn và ngon là sứ mệnh của chúng tôi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "医者[いしゃ]としての使命[しめい]を感[かん]じて、田舎[いなか]の病院[びょういん]で働[はたら]いている。",
+          "vi": "Cảm thấy sứ mệnh của người bác sĩ, anh ấy làm ở bệnh viện vùng quê.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:任務:にんむ"
+      ],
+      "note": "使命感[しめいかん] = ý thức về sứ mệnh. 使命[しめい] = việc lớn mình được sinh ra / được giao để làm; 任務[にんむ] = nhiệm vụ cụ thể được giao."
+    },
+    {
+      "id": "v:一旦:いったん",
+      "kana": "いったん",
+      "kanji": "一旦",
+      "hv": "NHẤT ĐÁN",
+      "vi": "một khi (đã); tạm (một chút)",
+      "pos": "adv",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Trách nhiệm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "いったん引[ひ]き受[う]けたからには、最後[さいご]までやります。",
+          "vi": "Một khi đã nhận thì tôi làm đến cùng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "いったん家[いえ]に帰[かえ]ってから、また出[で]かけます。",
+          "vi": "Tạm về nhà một chút rồi lại đi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：機械[きかい]の音[おと]がおかしい。B：いったん止[と]めて、班[はん]長[ちょう]を呼[よ]ぼう。",
+          "vi": "A: Máy kêu lạ quá. B: Tạm dừng lại rồi gọi tổ trưởng đi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "Thường viết bằng kana: いったん. Hay đi với 〜からには, 〜以上[いじょう]は (một khi đã…)."
+    },
+    {
+      "id": "v:役目:やくめ",
+      "kana": "やくめ",
+      "kanji": "役目",
+      "hv": "DỊCH MỤC",
+      "vi": "phận sự (việc mình phải làm)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新人[しんじん]に仕事[しごと]を教[おし]えるのが、私[わたし]の役目[やくめ]です。",
+          "vi": "Dạy việc cho người mới là phận sự của tôi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "朝[あさ]、子[こ]どもを学校[がっこう]まで送[おく]るのは父[ちち]の役目[やくめ]だ。",
+          "vi": "Sáng đưa con tới trường là phận sự của bố.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:役割:やくわり"
+      ],
+      "note": "役割[やくわり] = phần việc được phân trong tập thể; 役目[やくめ] = việc mình phải làm (gắn với vị trí của mình). 役目[やくめ]を果[は]たす = làm tròn phận sự."
+    },
+    {
+      "id": "v:任務:にんむ",
+      "kana": "にんむ",
+      "kanji": "任務",
+      "hv": "NHIỆM VỤ",
+      "vi": "nhiệm vụ (được giao)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "彼[かれ]の任務[にんむ]は、出荷[しゅっか]前[まえ]の最終[さいしゅう]チェックだ。",
+          "vi": "Nhiệm vụ của anh ấy là kiểm tra lần cuối trước khi xuất hàng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "警察官[けいさつかん]が、任務[にんむ]中[ちゅう]にけがをした。",
+          "vi": "Một cảnh sát bị thương khi đang làm nhiệm vụ.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:使命:しめい"
+      ],
+      "note": "Hơi trang trọng. 任務[にんむ]を果[は]たす = hoàn thành nhiệm vụ."
+    },
+    {
+      "id": "v:職務:しょくむ",
+      "kana": "しょくむ",
+      "kanji": "職務",
+      "hv": "CHỨC VỤ",
+      "vi": "chức trách (công việc theo vị trí)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "職務[しょくむ]中[ちゅう]は、私用[しよう]の電話[でんわ]をしないでください。",
+          "vi": "Trong giờ làm nhiệm vụ đừng gọi điện việc riêng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "職務[しょくむ]経歴書[けいれきしょ]に、今[いま]までの仕事[しごと]を詳[くわ]しく書[か]いた。",
+          "vi": "Tôi viết kỹ những công việc từ trước tới nay vào bản lý lịch công việc.",
+          "ctx": "thutuc"
+        }
+      ],
+      "rel": [
+        "v:業務:ぎょうむ"
+      ],
+      "note": "Văn viết. 職務経歴書[しょくむけいれきしょ] = bản lý lịch công việc (nộp khi xin việc)."
+    },
+    {
+      "id": "v:業務:ぎょうむ",
+      "kana": "ぎょうむ",
+      "kanji": "業務",
+      "hv": "NGHIỆP VỤ",
+      "vi": "nghiệp vụ, công việc (của công ty)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来月[らいげつ]から、業務[ぎょうむ]の内容[ないよう]が少[すこ]し変[か]わります。",
+          "vi": "Từ tháng sau, nội dung công việc sẽ thay đổi chút ít.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "「本日[ほんじつ]の業務[ぎょうむ]は終了[しゅうりょう]しました」と、窓口[まどぐち]に書[か]いてあった。",
+          "vi": "Ở quầy có ghi \"Hôm nay đã hết giờ làm việc\".",
+          "ctx": "thutuc"
+        }
+      ],
+      "rel": [
+        "v:仕事:しごと",
+        "v:職務:しょくむ"
+      ],
+      "note": "Văn viết, công ty. 業務連絡[ぎょうむれんらく] = liên lạc công việc; 業務用[ぎょうむよう] = loại dùng cho kinh doanh (cỡ lớn)."
+    },
+    {
+      "id": "v:分担:ぶんたん",
+      "kana": "ぶんたん",
+      "kanji": "分担",
+      "hv": "PHÂN ĐẢM",
+      "vi": "chia nhau (việc, chi phí)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "掃除[そうじ]は、班[はん]のみんなで分担[ぶんたん]してやります。",
+          "vi": "Việc dọn dẹp cả tổ chia nhau làm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "家賃[やちん]と光熱費[こうねつひ]を、ルームメイトと分担[ぶんたん]している。",
+          "vi": "Tôi chia tiền nhà và tiền điện nước với bạn cùng phòng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：この作業[さぎょう]、二人[ふたり]で分担[ぶんたん]しない？B：いいね。ぼくは箱[はこ]を運[はこ]ぶよ。",
+          "vi": "A: Việc này hai đứa chia nhau làm không? B: Được đấy. Tớ chuyển thùng nhé.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "仕事[しごと]を分担[ぶんたん]する",
+          "vi": "chia việc"
+        },
+        {
+          "jp": "費用[ひよう]を分担[ぶんたん]する",
+          "vi": "chia chi phí"
+        }
+      ],
+      "note": "役割分担[やくわりぶんたん] = phân chia vai trò."
+    },
+    {
+      "id": "v:割り当てる:わりあてる",
+      "kana": "わりあてる",
+      "kanji": "割り当てる",
+      "kf": "割[わ]り当[あ]てる",
+      "hv": "CÁT ĐƯƠNG",
+      "vi": "phân công, chia phần (cho từng người)",
+      "pos": "v1",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班長[はんちょう]が、一人[ひとり]ずつに作業[さぎょう]を割[わ]り当[あ]てた。",
+          "vi": "Tổ trưởng phân công việc cho từng người.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "社宅[しゃたく]の部屋[へや]は、会社[かいしゃ]が割[わ]り当[あ]てます。",
+          "vi": "Phòng ở nhà tập thể do công ty phân.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：今日[きょう]、私[わたし]は何[なに]をすればいいですか。B：割[わ]り当[あ]て表[ひょう]を見[み]て。三番[さんばん]のラインだよ。",
+          "vi": "A: Hôm nay tôi làm gì ạ? B: Xem bảng phân công đi. Dây chuyền số ba đó.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "仕事[しごと]を割[わ]り当[あ]てる",
+          "vi": "phân công việc"
+        },
+        {
+          "jp": "部屋[へや]を割[わ]り当[あ]てる",
+          "vi": "phân phòng"
+        }
+      ],
+      "rel": [
+        "v:分担:ぶんたん"
+      ],
+      "note": "割[わ]り当[あ]て = sự phân công; 割[わ]り当[あ]て表[ひょう] = bảng phân công."
+    },
+    {
+      "id": "v:配置:はいち",
+      "kana": "はいち",
+      "kanji": "配置",
+      "hv": "PHỐI TRÍ",
+      "vi": "bố trí (người, đồ vào vị trí)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "忙[いそが]しい時期[じき]は、ラインに人[ひと]を多[おお]めに配置[はいち]する。",
+          "vi": "Mùa bận thì bố trí nhiều người hơn vào dây chuyền.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "部屋[へや]の家具[かぐ]の配置[はいち]を変[か]えたら、広[ひろ]く見[み]えるようになった。",
+          "vi": "Đổi cách bố trí đồ đạc thì phòng trông rộng hơn.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "人[ひと]を配置[はいち]する",
+          "vi": "bố trí người"
+        }
+      ],
+      "note": "配置転換[はいちてんかん] = điều chuyển vị trí làm việc."
+    },
+    {
+      "id": "v:任命:にんめい",
+      "kana": "にんめい",
+      "kanji": "任命",
+      "hv": "NHIỆM MỆNH",
+      "vi": "bổ nhiệm chức vụ, cử làm (chức gì)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "グエンさんが、新[あたら]しい班長[はんちょう]に任命[にんめい]された。",
+          "vi": "Anh Nguyễn được bổ nhiệm làm tổ trưởng mới.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "新[あたら]しい大臣[だいじん]が任命[にんめい]された。",
+          "vi": "Bộ trưởng mới đã được bổ nhiệm.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "班長[はんちょう]に任命[にんめい]する",
+          "vi": "bổ nhiệm làm tổ trưởng"
+        }
+      ],
+      "fx": [
+        {
+          "f": "ukemi",
+          "jp": "来月[らいげつ]から、グエンさんがリーダーに[[任命[にんめい]され]]ます。",
+          "vi": "Từ tháng sau anh Nguyễn được bổ nhiệm làm trưởng nhóm."
+        }
+      ],
+      "note": "Thường dùng bị động: 〜に任命[にんめい]される."
+    },
+    {
+      "id": "v:引き継ぐ:ひきつぐ",
+      "kana": "ひきつぐ",
+      "kanji": "引き継ぐ",
+      "kf": "引[ひ]き継[つ]ぐ",
+      "hv": "DẪN KẾ",
+      "vi": "tiếp nhận / bàn giao (công việc, cửa hàng)",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "前[まえ]の班長[はんちょう]から、仕事[しごと]を引[ひ]き継[つ]いだ。",
+          "vi": "Tôi tiếp nhận công việc từ tổ trưởng trước.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "父[ちち]の店[みせ]を、息子[むすこ]が引[ひ]き継[つ]ぐことになった。",
+          "vi": "Con trai sẽ tiếp quản cửa hàng của bố.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：休[やす]む前[まえ]に、作業[さぎょう]をちゃんと引[ひ]き継[つ]いでおいてね。B：はい、メモを残[のこ]しておきます。",
+          "vi": "A: Trước khi nghỉ nhớ bàn giao công việc đàng hoàng nhé. B: Vâng, tôi sẽ để lại ghi chú.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "仕事[しごと]を引[ひ]き継[つ]ぐ",
+          "vi": "tiếp nhận công việc"
+        },
+        {
+          "jp": "店[みせ]を引[ひ]き継[つ]ぐ",
+          "vi": "tiếp quản cửa hàng"
+        }
+      ],
+      "note": "引[ひ]き継[つ]ぎ = việc bàn giao (giữa ca, khi chuyển việc)."
+    },
+    {
+      "id": "v:班員:はんいん",
+      "kana": "はんいん",
+      "kanji": "班員",
+      "hv": "BAN VIÊN",
+      "vi": "thành viên trong tổ",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班[はん]員[いん]全員[ぜんいん]で、朝[あさ]の安全[あんぜん]確認[かくにん]をする。",
+          "vi": "Cả tổ cùng kiểm tra an toàn buổi sáng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：班[はん]員[いん]は何人[なんにん]いますか。B：私[わたし]を入[い]れて八人[はちにん]です。",
+          "vi": "A: Tổ có mấy người? B: Tính cả tôi là tám người.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "rel": [
+        "v:班:はん",
+        "v:班長:はんちょう"
+      ],
+      "ctr": "人"
+    },
+    {
+      "id": "v:まとめ役:まとめやく",
+      "kana": "まとめやく",
+      "kanji": "まとめ役",
+      "kf": "まとめ役[やく]",
+      "hv": "DỊCH",
+      "vi": "người gắn kết, người điều phối (nhóm)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "田中[たなか]さんは、職場[しょくば]のまとめ役[やく]だ。",
+          "vi": "Anh Tanaka là người gắn kết ở chỗ làm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "町内会[ちょうないかい]の行事[ぎょうじ]で、まとめ役[やく]を頼[たの]まれた。",
+          "vi": "Tôi được nhờ làm người điều phối sự kiện của hội khu phố.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:まとめる:まとめる"
+      ],
+      "note": "役[やく] = vai: 司会役[しかいやく] = vai người dẫn, まとめ役[やく] = vai người gom ý kiến, giữ nhóm đoàn kết."
+    },
+    {
+      "id": "v:教育係:きょういくがかり",
+      "kana": "きょういくがかり",
+      "kanji": "教育係",
+      "hv": "GIÁO DỤC HỆ",
+      "vi": "người phụ trách kèm cặp (người mới)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新人[しんじん]の教育係[きょういくがかり]を任[まか]された。",
+          "vi": "Tôi được giao làm người kèm cặp người mới.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：分[わ]からないことは、だれに聞[き]けばいいですか。B：教育係[きょういくがかり]の私[わたし]に、何[なん]でも聞[き]いてね。",
+          "vi": "A: Có gì không hiểu thì hỏi ai ạ? B: Cứ hỏi tôi, người phụ trách kèm cặp, bất cứ điều gì nhé.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "rel": [
+        "v:指導:しどう"
+      ],
+      "note": "係[かかり] đứng sau từ khác đọc がかり: 教育係[きょういくがかり], 掃除係[そうじがかり]."
+    },
+    {
+      "id": "v:管理職:かんりしょく",
+      "kana": "かんりしょく",
+      "kanji": "管理職",
+      "hv": "QUẢN LÝ CHỨC",
+      "vi": "chức vụ quản lý, cán bộ quản lý",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "管理職[かんりしょく]になると、残業代[ざんぎょうだい]が出[で]なくなる会社[かいしゃ]もある。",
+          "vi": "Có công ty lên chức quản lý thì không được trả tiền tăng ca nữa.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "姉[あね]は、銀行[ぎんこう]で管理職[かんりしょく]として働[はたら]いている。",
+          "vi": "Chị tôi làm cán bộ quản lý ở ngân hàng.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:管理:かんり"
+      ],
+      "note": "Ở xưởng, 班長[はんちょう] thường chưa phải 管理職[かんりしょく]; thường từ 課長[かちょう] trở lên (tùy công ty)."
+    },
+    {
+      "id": "v:育成:いくせい",
+      "kana": "いくせい",
+      "kanji": "育成",
+      "hv": "DỤC THÀNH",
+      "vi": "đào tạo, bồi dưỡng (nhân lực)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]は、外国人[がいこくじん]リーダーの育成[いくせい]に力[ちから]を入[い]れている。",
+          "vi": "Công ty đang chú trọng đào tạo trưởng nhóm người nước ngoài.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "この学校[がっこう]は、料理人[りょうりにん]の育成[いくせい]で有名[ゆうめい]だ。",
+          "vi": "Trường này nổi tiếng về đào tạo đầu bếp.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "人材[じんざい]を育成[いくせい]する",
+          "vi": "đào tạo nhân lực"
+        }
+      ],
+      "rel": [
+        "v:育てる:そだてる"
+      ],
+      "note": "Văn viết của 育[そだ]てる khi nói về nhân lực, cầu thủ."
+    },
+    {
+      "id": "v:半人前:はんにんまえ",
+      "kana": "はんにんまえ",
+      "kanji": "半人前",
+      "hv": "BÁN NHÂN TIỀN",
+      "vi": "(tay nghề) còn non, chưa thạo",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "まだ半人前[はんにんまえ]なので、先輩[せんぱい]に教[おそ]わってばかりです。",
+          "vi": "Tôi vẫn còn non tay nên toàn học từ đàn anh.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "料理[りょうり]はまだ半人前[はんにんまえ]だが、毎日[まいにち]練習[れんしゅう]している。",
+          "vi": "Nấu ăn tôi vẫn còn non nhưng ngày nào cũng luyện.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:一人前:いちにんまえ"
+      ]
+    },
+    {
+      "id": "v:務める:つとめる",
+      "kana": "つとめる",
+      "kanji": "務める",
+      "kf": "務[つと]める",
+      "hv": "VỤ",
+      "vi": "đảm nhiệm (vai trò, chức vụ)",
+      "pos": "v1",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vai trò",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今年[ことし]から、班[はん]長[ちょう]を務[つと]めています。",
+          "vi": "Từ năm nay tôi đảm nhiệm vai trò tổ trưởng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "友人[ゆうじん]の結婚式[けっこんしき]で、司会[しかい]を務[つと]めた。",
+          "vi": "Tôi làm người dẫn chương trình trong đám cưới của bạn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：だれか、今日[きょう]の司会[しかい]を務[つと]めてくれる人[ひと]いる？B：はい、私[わたし]がやります。",
+          "vi": "A: Có ai làm người dẫn hôm nay không? B: Vâng, tôi làm ạ.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "班[はん]長[ちょう]を務[つと]める",
+          "vi": "làm tổ trưởng"
+        },
+        {
+          "jp": "司会[しかい]を務[つと]める",
+          "vi": "làm người dẫn chương trình"
+        }
+      ],
+      "confuse": [
+        {
+          "w": "勤[つと]める",
+          "vi": "làm việc (ở công ty)"
+        },
+        {
+          "w": "努[つと]める",
+          "vi": "cố gắng, nỗ lực"
+        }
+      ],
+      "note": "勤[つと]める = làm việc ở đâu (会社[かいしゃ]に勤[つと]める); 務[つと]める = đảm nhiệm vai trò (〜を務[つと]める); 努[つと]める = nỗ lực (〜に努[つと]める)."
+    },
+    {
+      "id": "v:率いる:ひきいる",
+      "kana": "ひきいる",
+      "kanji": "率いる",
+      "kf": "率[ひき]いる",
+      "hv": "SUẤT",
+      "vi": "dẫn dắt, chỉ huy (một nhóm người)",
+      "pos": "v1",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Dẫn dắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "彼[かれ]は、十人[じゅうにん]の班[はん]を率[ひき]いている。",
+          "vi": "Anh ấy dẫn dắt một tổ mười người.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "新[あたら]しい監督[かんとく]がチームを率[ひき]いて、優勝[ゆうしょう]した。",
+          "vi": "Huấn luyện viên mới dẫn dắt đội giành chức vô địch.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：将来[しょうらい]は、自分[じぶん]のチームを率[ひき]いてみたいです。B：グエンさんならできるよ。",
+          "vi": "A: Sau này tôi muốn thử dẫn dắt đội của riêng mình. B: Anh Nguyễn thì làm được đấy.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "チームを率[ひき]いる",
+          "vi": "dẫn dắt đội"
+        }
+      ],
+      "rel": [
+        "v:リーダー:リーダー"
+      ]
+    },
+    {
+      "id": "v:指揮:しき",
+      "kana": "しき",
+      "kanji": "指揮",
+      "hv": "CHỈ HUY",
+      "vi": "chỉ huy, điều khiển (đội, công việc, dàn nhạc)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Dẫn dắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "火事[かじ]のときは、班[はん]長[ちょう]の指揮[しき]に従[したが]って避難[ひなん]する。",
+          "vi": "Khi có cháy, sơ tán theo sự chỉ huy của tổ trưởng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "有名[ゆうめい]な指揮者[しきしゃ]が、オーケストラを指揮[しき]した。",
+          "vi": "Một nhạc trưởng nổi tiếng chỉ huy dàn nhạc.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "現場[げんば]を指揮[しき]する",
+          "vi": "chỉ huy hiện trường"
+        }
+      ],
+      "note": "指揮者[しきしゃ] = nhạc trưởng. 指揮[しき]を執[と]る = nắm quyền chỉ huy."
+    },
+    {
+      "id": "v:仕切る:しきる",
+      "kana": "しきる",
+      "kanji": "仕切る",
+      "kf": "仕切[しき]る",
+      "hv": "SĨ THIẾT",
+      "vi": "đứng ra điều hành, quán xuyến (mọi việc)",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Dẫn dắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "現場[げんば]は、ベテランの山田[やまだ]さんが仕切[しき]っている。",
+          "vi": "Hiện trường do anh Yamada kỳ cựu quán xuyến.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "飲[の]み会[かい]は、いつも彼[かれ]が仕切[しき]ってくれる。",
+          "vi": "Tiệc nhậu lúc nào cũng do anh ấy đứng ra lo liệu.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：今日[きょう]の会議[かいぎ]、だれが仕切[しき]るの？B：課長[かちょう]がいないから、グエンさんにお願[ねが]いしたい。",
+          "vi": "A: Họp hôm nay ai điều hành? B: Trưởng phòng vắng nên muốn nhờ anh Nguyễn.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "会議[かいぎ]を仕切[しき]る",
+          "vi": "điều hành cuộc họp"
+        }
+      ],
+      "note": "Nghĩa gốc: ngăn (phòng) bằng vách; 仕切[しき]り = vách ngăn."
+    },
+    {
+      "id": "v:率先:そっせん",
+      "kana": "そっせん",
+      "kanji": "率先",
+      "hv": "SUẤT TIÊN",
+      "vi": "đi đầu (làm trước làm gương)",
+      "pos": "n-suru",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Dẫn dắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班長[はんちょう]が率先[そっせん]して、床[ゆか]の掃除[そうじ]を始[はじ]めた。",
+          "vi": "Tổ trưởng đi đầu bắt tay lau sàn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "彼[かれ]は、町[まち]のボランティア活動[かつどう]に率先[そっせん]して参加[さんか]している。",
+          "vi": "Anh ấy luôn đi đầu tham gia hoạt động tình nguyện ở thị trấn.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "自[みずか]ら率先[そっせん]する",
+          "vi": "tự mình đi đầu"
+        }
+      ],
+      "note": "Thường dùng dạng 率先[そっせん]して〜する."
+    },
+    {
+      "id": "v:手本:てほん",
+      "kana": "てほん",
+      "kanji": "手本",
+      "hv": "THỦ BẢN",
+      "vi": "mẫu để làm theo (động tác, chữ viết)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Dẫn dắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "先輩[せんぱい]の動[うご]きを手本[てほん]にして、包丁[ほうちょう]の使[つか]い方[かた]を覚[おぼ]えた。",
+          "vi": "Lấy động tác của đàn anh làm mẫu, tôi học cách dùng dao.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "親[おや]は、子[こ]どもの手本[てほん]にならなければならない。",
+          "vi": "Cha mẹ phải làm gương cho con cái.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:見本:みほん",
+        "v:模範:もはん"
+      ],
+      "note": "手本[てほん]を見[み]せる = làm mẫu cho xem; お手本[てほん] (lịch sự)."
+    },
+    {
+      "id": "v:見本:みほん",
+      "kana": "みほん",
+      "kanji": "見本",
+      "hv": "KIẾN BẢN",
+      "vi": "hàng mẫu, bản mẫu (để xem)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Dẫn dắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "店[みせ]の前[まえ]に、料理[りょうり]の見本[みほん]が並[なら]んでいる。",
+          "vi": "Trước cửa hàng bày các mẫu món ăn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "申込書[もうしこみしょ]の書[か]き方[かた]は、見本[みほん]を見[み]てください。",
+          "vi": "Cách viết đơn đăng ký hãy xem bản mẫu.",
+          "ctx": "thutuc"
+        }
+      ],
+      "confuse": [
+        "v:手本:てほん"
+      ],
+      "note": "見本[みほん] = vật mẫu, bản mẫu để xem (hàng mẫu, mẫu điền đơn); 手本[てほん] = mẫu để bắt chước theo; 模範[もはん] = tấm gương về hành vi."
+    },
+    {
+      "id": "v:模範:もはん",
+      "kana": "もはん",
+      "kanji": "模範",
+      "hv": "MÔ PHẠM",
+      "vi": "tấm gương mẫu mực (về cách hành xử)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Dẫn dắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "グエンさんの働[はたら]き方[かた]は、みんなの模範[もはん]だ。",
+          "vi": "Cách làm việc của anh Nguyễn là tấm gương cho mọi người.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "模範[もはん]解答[かいとう]を見[み]て、答[こた]え合[あ]わせをした。",
+          "vi": "Xem đáp án mẫu để chấm lại bài.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:手本:てほん"
+      ],
+      "note": "模範的[もはんてき] = mẫu mực. 模範解答[もはんかいとう] = đáp án mẫu."
+    },
+    {
+      "id": "v:リーダーシップ:リーダーシップ",
+      "kana": "リーダーシップ",
+      "kanji": "",
+      "hv": "",
+      "vi": "khả năng lãnh đạo",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Dẫn dắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班長[はんちょう]には、リーダーシップが求[もと]められる。",
+          "vi": "Tổ trưởng cần có khả năng lãnh đạo.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "彼女[かのじょ]は学生[がくせい]のころから、リーダーシップがあった。",
+          "vi": "Cô ấy từ hồi đi học đã có tố chất lãnh đạo.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:リーダー:リーダー"
+      ],
+      "goc": "leadership (tiếng Anh)",
+      "note": "リーダーシップを取[と]る = đứng ra dẫn dắt."
+    },
+    {
+      "id": "v:頼もしい:たのもしい",
+      "kana": "たのもしい",
+      "kanji": "頼もしい",
+      "kf": "頼[たの]もしい",
+      "hv": "LẠI",
+      "vi": "đáng tin cậy, vững vàng (khiến người khác yên tâm)",
+      "pos": "adj-i",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Dẫn dắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新人[しんじん]が成長[せいちょう]して、頼[たの]もしくなった。",
+          "vi": "Người mới đã trưởng thành, trở nên vững vàng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "地震[じしん]のとき、近所[きんじょ]の人[ひと]たちがとても頼[たの]もしかった。",
+          "vi": "Lúc động đất, hàng xóm thật đáng tin cậy.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：困[こま]ったことがあったら、何[なん]でも言[い]ってね。B：ありがとうございます。頼[たの]もしいです。",
+          "vi": "A: Có gì khó cứ nói nhé. B: Cảm ơn anh. Có anh thật yên tâm.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "先輩[せんぱい]",
+          "vi": "đàn anh"
+        },
+        {
+          "jp": "味方[みかた]",
+          "vi": "đồng minh"
+        }
+      ],
+      "ant": [
+        "v:頼りない:たよりない"
+      ],
+      "note": "Khen người làm mình yên tâm, có thể dựa vào."
+    },
+    {
+      "id": "v:頼りない:たよりない",
+      "kana": "たよりない",
+      "kanji": "頼りない",
+      "kf": "頼[たよ]りない",
+      "hv": "LẠI",
+      "vi": "không vững vàng, khó trông cậy (khiến lo lắng)",
+      "pos": "adj-i",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Dẫn dắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新[あたら]しい班長[はんちょう]は、まだ少[すこ]し頼[たよ]りない。",
+          "vi": "Tổ trưởng mới vẫn còn hơi non.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "頼[たよ]りない返事[へんじ]をして、相手[あいて]を不安[ふあん]にさせてしまった。",
+          "vi": "Trả lời lơ mơ khiến người kia bất an.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：ぼく、班[はん]長[ちょう]なんてできるかな。B：そんな頼[たよ]りないこと、言[い]わないで。",
+          "vi": "A: Tôi liệu có làm tổ trưởng được không nhỉ. B: Đừng nói kiểu thiếu vững vàng như thế.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "返事[へんじ]",
+          "vi": "câu trả lời"
+        },
+        {
+          "jp": "人[ひと]",
+          "vi": "người"
+        }
+      ],
+      "ant": [
+        "v:頼もしい:たのもしい"
+      ],
+      "rel": [
+        "v:頼る:たよる"
+      ]
+    },
+    {
+      "id": "v:見守る:みまもる",
+      "kana": "みまもる",
+      "kanji": "見守る",
+      "kf": "見守[みまも]る",
+      "hv": "KIẾN THỦ",
+      "vi": "dõi theo, trông chừng (sẵn sàng giúp khi cần)",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Dẫn dắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新人[しんじん]が一人[ひとり]で作業[さぎょう]するのを、そばで見守[みまも]った。",
+          "vi": "Tôi đứng bên cạnh dõi theo người mới tự làm một mình.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "両親[りょうしん]は、いつも遠[とお]くから私[わたし]を見守[みまも]ってくれている。",
+          "vi": "Bố mẹ luôn dõi theo tôi từ nơi xa.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：手伝[てつだ]いましょうか。B：いや、今日[きょう]は見守[みまも]るだけにしよう。自分[じぶん]でやらせたいから。",
+          "vi": "A: Tôi giúp nhé? B: Thôi, hôm nay chỉ đứng dõi theo thôi. Muốn để cậu ấy tự làm.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "成長[せいちょう]を見守[みまも]る",
+          "vi": "dõi theo sự trưởng thành"
+        },
+        {
+          "jp": "子[こ]どもを見守[みまも]る",
+          "vi": "trông chừng trẻ"
+        }
+      ],
+      "rel": [
+        "v:支える:ささえる"
+      ]
+    },
+    {
+      "id": "v:主体的:しゅたいてき",
+      "kana": "しゅたいてき",
+      "kanji": "主体的",
+      "hv": "CHỦ THỂ ĐÍCH",
+      "vi": "tự chủ (tự suy nghĩ, tự quyết mà làm)",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Dẫn dắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "指示[しじ]を待[ま]つだけでなく、主体的[しゅたいてき]に動[うご]いてほしい。",
+          "vi": "Mong anh không chỉ chờ chỉ thị mà tự chủ hành động.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "主体的[しゅたいてき]に勉強[べんきょう]する子[こ]どもは、伸[の]びるのが早[はや]い。",
+          "vi": "Trẻ tự chủ học tập thì tiến bộ nhanh.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：グエンさん、最近[さいきん]主体的[しゅたいてき]になったね。B：班[はん]長[ちょう]を目指[めざ]しているので。",
+          "vi": "A: Dạo này anh Nguyễn tự chủ hẳn lên nhỉ. B: Vì tôi đang nhắm làm tổ trưởng.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "行動[こうどう]",
+          "vi": "hành động"
+        },
+        {
+          "jp": "態度[たいど]",
+          "vi": "thái độ"
+        }
+      ],
+      "ant": [
+        {
+          "w": "受[う]け身[み]",
+          "vi": "bị động, chờ người khác bảo"
+        }
+      ],
+      "rel": [
+        "v:積極的:せっきょくてき"
+      ],
+      "note": "積極的[せっきょくてき] = hăng hái xông pha; 主体的[しゅたいてき] = tự mình suy nghĩ, quyết định và chịu trách nhiệm."
+    },
+    {
+      "id": "v:消極的:しょうきょくてき",
+      "kana": "しょうきょくてき",
+      "kanji": "消極的",
+      "hv": "TIÊU CỰC ĐÍCH",
+      "vi": "thụ động, rụt rè (ngại xông pha)",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Dẫn dắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "失敗[しっぱい]を恐[おそ]れて、消極的[しょうきょくてき]になってはいけない。",
+          "vi": "Không được vì sợ thất bại mà trở nên thụ động.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "彼[かれ]は、新[あたら]しいことに消極的[しょうきょくてき]だ。",
+          "vi": "Anh ấy ngại thử những việc mới.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：会議[かいぎ]で全然[ぜんぜん]意見[いけん]を言[い]わないね。B：日本語[にほんご]に自信[じしん]がなくて、つい消極的[しょうきょくてき]になっちゃう。",
+          "vi": "A: Họp cậu chẳng nói ý kiến gì nhỉ. B: Không tự tin tiếng Nhật nên cứ rụt rè.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "態度[たいど]",
+          "vi": "thái độ"
+        },
+        {
+          "jp": "意見[いけん]",
+          "vi": "ý kiến"
+        }
+      ],
+      "ant": [
+        "v:積極的:せっきょくてき"
+      ]
+    },
+    {
+      "id": "v:宣言:せんげん",
+      "kana": "せんげん",
+      "kanji": "宣言",
+      "hv": "TUYÊN NGÔN",
+      "vi": "tuyên bố; tuyên ngôn",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quyết tâm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班長[はんちょう]が、「今年[ことし]は事故[じこ]ゼロを目指[めざ]す」と宣言[せんげん]した。",
+          "vi": "Tổ trưởng tuyên bố \"Năm nay nhắm tới không có tai nạn nào\".",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "友達[ともだち]の前[まえ]で、禁煙[きんえん]を宣言[せんげん]した。",
+          "vi": "Tôi tuyên bố bỏ thuốc trước mặt bạn bè.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "禁煙[きんえん]を宣言[せんげん]する",
+          "vi": "tuyên bố bỏ thuốc"
+        }
+      ],
+      "note": "Nói ra trước mọi người để tự ràng buộc mình. 緊急事態宣言[きんきゅうじたいせんげん] = tuyên bố tình trạng khẩn cấp."
+    },
+    {
+      "id": "v:貫く:つらぬく",
+      "kana": "つらぬく",
+      "kanji": "貫く",
+      "kf": "貫[つらぬ]く",
+      "hv": "QUÁN",
+      "vi": "giữ vững đến cùng (ý chí, lập trường); xuyên thủng (qua vật)",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quyết tâm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "一度[いちど]決[き]めたことは、最後[さいご]まで貫[つらぬ]きたい。",
+          "vi": "Việc đã quyết thì tôi muốn theo đến cùng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この工場[こうじょう]は、安全[あんぜん]第[だい]一[いち]の方針[ほうしん]を貫[つらぬ]いてきた。",
+          "vi": "Nhà máy này luôn kiên định với phương châm an toàn trên hết.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：周[まわ]りに反対[はんたい]されても、夢[ゆめ]を貫[つらぬ]くつもり？B：うん、後悔[こうかい]したくないから。",
+          "vi": "A: Dù bị xung quanh phản đối vẫn định theo đuổi ước mơ à? B: Ừ, vì không muốn hối hận.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "信念[しんねん]を貫[つらぬ]く",
+          "vi": "giữ vững niềm tin"
+        },
+        {
+          "jp": "意志[いし]を貫[つらぬ]く",
+          "vi": "giữ vững ý chí"
+        }
+      ],
+      "note": "Nghĩa gốc: xuyên qua (矢[や]が板[いた]を貫[つらぬ]く)."
+    },
+    {
+      "id": "v:信念:しんねん",
+      "kana": "しんねん",
+      "kanji": "信念",
+      "hv": "TÍN NIỆM",
+      "vi": "niềm tin (điều mình tin là đúng)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quyết tâm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "「安全[あんぜん]は何[なん]より大切[たいせつ]」というのが、班[はん]長[ちょう]の信念[しんねん]だ。",
+          "vi": "\"An toàn quan trọng hơn hết\" là niềm tin của tổ trưởng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "信念[しんねん]を持[も]って生[い]きている人[ひと]は、強[つよ]い。",
+          "vi": "Người sống có niềm tin thì vững vàng.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "信念[しんねん]を持[も]つ = có niềm tin; 信念[しんねん]を曲[ま]げない = không bẻ cong niềm tin."
+    },
+    {
+      "id": "v:姿勢:しせい",
+      "kana": "しせい",
+      "kanji": "姿勢",
+      "hv": "TƯ THẾ",
+      "vi": "tư thế; cách tiếp cận, thái độ làm việc",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quyết tâm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "重[おも]い箱[はこ]を持[も]つときは、姿勢[しせい]に気[き]をつけてください。",
+          "vi": "Khi bê thùng nặng hãy chú ý tư thế.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "何[なん]でも学[まな]ぼうとする彼[かれ]の姿勢[しせい]は、すばらしい。",
+          "vi": "Thái độ cái gì cũng muốn học của anh ấy thật tuyệt.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:態度:たいど"
+      ],
+      "note": "態度[たいど] = thái độ thể hiện ra với người khác; 姿勢[しせい] = tư thế, và tinh thần, cách tiếp cận với công việc. 前向[まえむ]きな姿勢[しせい] = thái độ tích cực."
+    },
+    {
+      "id": "v:自ら:みずから",
+      "kana": "みずから",
+      "kanji": "自ら",
+      "kf": "自[みずか]ら",
+      "hv": "TỰ",
+      "vi": "đích thân, tự thân (văn viết)",
+      "pos": "adv",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quyết tâm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班[はん]長[ちょう]自[みずか]ら、新人[しんじん]に包丁[ほうちょう]の研[と]ぎ方[かた]を教[おし]えた。",
+          "vi": "Tổ trưởng đích thân dạy người mới cách mài dao.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "彼[かれ]は自[みずか]ら進[すす]んで、難[むずか]しい仕事[しごと]に手[て]を挙[あ]げた。",
+          "vi": "Anh ấy tự mình xung phong nhận việc khó.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:自分:じぶん"
+      ],
+      "note": "Văn viết, trang trọng hơn 自分[じぶん]で. Cũng dùng như danh từ: 自[みずか]らの手[て]で = bằng chính tay mình."
+    },
+    {
+      "id": "v:けじめ:けじめ",
+      "kana": "けじめ",
+      "kanji": "",
+      "hv": "",
+      "vi": "sự phân định rõ ràng; tự xử lý cho đàng hoàng (sau lỗi)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quyết tâm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]とプライベートの、けじめをつけましょう。",
+          "vi": "Hãy phân định rõ công việc và chuyện riêng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "子[こ]どもに、遊[あそ]ぶ時間[じかん]と勉強[べんきょう]する時間[じかん]のけじめを教[おし]えている。",
+          "vi": "Tôi dạy con phân định rõ giờ chơi và giờ học.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：遅刻[ちこく]したら、まずちゃんと謝[あやま]る。それがけじめだよ。B：はい、気[き]をつけます。",
+          "vi": "A: Đi trễ thì trước hết phải xin lỗi đàng hoàng. Đó là phép tắc đấy. B: Vâng, tôi sẽ chú ý.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "けじめをつける = phân định rõ ràng; (sau sai lầm) tự nhận lỗi, chịu trách nhiệm cho đàng hoàng. Từ rất hay gặp ở công ty Nhật."
+    },
+    {
+      "id": "v:謙虚:けんきょ",
+      "kana": "けんきょ",
+      "kanji": "謙虚",
+      "hv": "KHIÊM HƯ",
+      "vi": "khiêm tốn",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quyết tâm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "彼[かれ]は経験[けいけん]が長[なが]いのに、とても謙虚[けんきょ]だ。",
+          "vi": "Anh ấy kinh nghiệm lâu năm mà rất khiêm tốn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "人[ひと]の意見[いけん]を謙虚[けんきょ]に聞[き]くことが大切[たいせつ]だ。",
+          "vi": "Điều quan trọng là khiêm tốn lắng nghe ý kiến người khác.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：日本語[にほんご]、本当[ほんとう]に上手[じょうず]ですね。B：いえ、まだまだです。A：謙虚[けんきょ]だなあ。",
+          "vi": "A: Tiếng Nhật anh giỏi thật đấy. B: Không, tôi còn kém lắm. A: Khiêm tốn quá nhỉ.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "態度[たいど]",
+          "vi": "thái độ"
+        },
+        {
+          "jp": "人[ひと]",
+          "vi": "người"
+        }
+      ],
+      "ant": [
+        {
+          "w": "偉[えら]そう",
+          "vi": "ra vẻ ta đây"
+        }
+      ]
+    },
+    {
+      "id": "v:一丸:いちがん",
+      "kana": "いちがん",
+      "kanji": "一丸",
+      "hv": "NHẤT HOÀN",
+      "vi": "(đồng lòng) như một khối",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quyết tâm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "班[はん]が一丸[いちがん]となって、今月[こんげつ]の目標[もくひょう]を達成[たっせい]した。",
+          "vi": "Cả tổ đồng lòng như một và đạt được mục tiêu tháng này.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "町[まち]が一丸[いちがん]となって、祭[まつ]りの準備[じゅんび]をした。",
+          "vi": "Cả thị trấn chung sức chuẩn bị lễ hội.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:協力:きょうりょく"
+      ],
+      "note": "Hầu như chỉ dùng trong cụm 一丸[いちがん]となって = đồng lòng, chung sức như một."
+    },
+    {
+      "id": "v:改める:あらためる",
+      "kana": "あらためる",
+      "kanji": "改める",
+      "kf": "改[あらた]める",
+      "hv": "CẢI",
+      "vi": "sửa đổi (cho tốt hơn); đổi sang (dịp khác)",
+      "pos": "v1",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quyết tâm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "遅刻[ちこく]が多[おお]かったので、生活[せいかつ]を改[あらた]めた。",
+          "vi": "Vì hay đi trễ nên tôi đã sửa đổi nếp sinh hoạt.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "事故[じこ]を防[ふせ]ぐため、作業[さぎょう]の手順[てじゅん]を改[あらた]めた。",
+          "vi": "Để phòng tai nạn, đã sửa đổi quy trình làm việc.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：この件[けん]は、日[ひ]を改[あらた]めてお話[はな]ししましょう。B：はい、また連絡[れんらく]します。",
+          "vi": "A: Việc này để hôm khác ta bàn nhé. B: Vâng, tôi sẽ liên lạc lại.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "態度[たいど]を改[あらた]める",
+          "vi": "sửa thái độ"
+        },
+        {
+          "jp": "日[ひ]を改[あらた]める",
+          "vi": "để hôm khác"
+        }
+      ],
+      "pair": {
+        "w": "改[あらた]まる",
+        "vi": "được đổi mới; trở nên trang trọng"
+      },
+      "note": "改[あらた]めて = (làm) lại lần nữa; nhân dịp này (改[あらた]めてよろしくお願[ねが]いします)."
+    }
+  ]
 }

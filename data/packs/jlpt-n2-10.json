@@ -1,1775 +1,1775 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n2-10",
-  "title": "JLPT N2 10 – Điều kiện, quy định, bảo hành, phạm vi & thông tin",
-  "type": "vocab",
-  "level": "N2",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 1,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:保証書:ほしょうしょ",
-   "kana": "ほしょうしょ",
-   "kanji": "保証書",
-   "hv": "BẢO CHỨNG THƯ",
-   "vi": "phiếu bảo hành",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "修理[しゅうり]を頼[たの]むときは、保証書[ほしょうしょ]を持[も]ってきてください。",
-     "vi": "Khi nhờ sửa hãy mang theo phiếu bảo hành.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "保証書[ほしょうしょ]に、購入日[こうにゅうび]とお店[みせ]のはんこがあるか確認[かくにん]した。",
-     "vi": "Tôi kiểm tra xem phiếu bảo hành có ngày mua và dấu cửa hàng chưa.",
-     "ctx": "thutuc"
-    }
-   ],
-   "rel": [
-    "v:保証:ほしょう"
-   ],
-   "note": "Phiếu bảo hành thường cần ngày mua và dấu cửa hàng, nên cất cùng biên lai."
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n2-10",
+    "title": "JLPT N2 10 – Điều kiện, quy định, bảo hành, phạm vi & thông tin",
+    "type": "vocab",
+    "level": "N2",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:保証期間:ほしょうきかん",
-   "kana": "ほしょうきかん",
-   "kanji": "保証期間",
-   "hv": "BẢO CHỨNG KỲ GIAN",
-   "vi": "thời hạn bảo hành",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "保証期間[ほしょうきかん]が過[す]ぎていたので、修理代[しゅうりだい]を払[はら]った。",
-     "vi": "Đã quá hạn bảo hành nên phải trả tiền sửa.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "この冷蔵庫[れいぞうこ]の保証期間[ほしょうきかん]は、購入日[こうにゅうび]から一年[いちねん]間[かん]です。",
-     "vi": "Thời hạn bảo hành của tủ lạnh này là một năm kể từ ngày mua.",
-     "ctx": "thutuc"
-    }
-   ],
-   "rel": [
-    "v:保証:ほしょう",
-    "v:期間:きかん"
-   ],
-   "note": "保証期間中[ほしょうきかんちゅう]なら無料[むりょう]で修理[しゅうり]できる場合[ばあい]が多[おお]い (tùy hãng)."
-  },
-  {
-   "id": "v:期限内:きげんない",
-   "kana": "きげんない",
-   "kanji": "期限内",
-   "hv": "KỲ HẠN NỘI",
-   "vi": "trong thời hạn",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "書類[しょるい]は、必[かなら]ず期限内[きげんない]に出[だ]してください。",
-     "vi": "Giấy tờ nhất định phải nộp trong thời hạn.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "期限内[きげんない]なら、商品[しょうひん]の交換[こうかん]ができます。",
-     "vi": "Nếu trong thời hạn thì đổi được hàng.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:期限:きげん",
-    "v:期限切れ:きげんぎれ"
-   ],
-   "note": "〜内[ない] = trong (phạm vi): 期限内[きげんない], 社内[しゃない], 範囲内[はんいない]."
-  },
-  {
-   "id": "v:期限切れ:きげんぎれ",
-   "kana": "きげんぎれ",
-   "kanji": "期限切れ",
-   "kf": "期限切[きげんぎ]れ",
-   "hv": "KỲ HẠN THIẾT",
-   "vi": "đã quá hạn, hết hạn",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "冷蔵庫[れいぞうこ]の牛乳[ぎゅうにゅう]が、期限切[きげんぎ]れになっていた。",
-     "vi": "Sữa trong tủ lạnh đã quá hạn.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "期限切[きげんぎ]れの原料[げんりょう]は、絶対[ぜったい]に使[つか]わないでください。",
-     "vi": "Tuyệt đối không dùng nguyên liệu đã quá hạn.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：このクーポン、使[つか]えますか。B：申[もう]し訳[わけ]ありません、期限切[きげんぎ]れです。",
-     "vi": "A: Phiếu giảm giá này dùng được không? B: Xin lỗi, đã hết hạn rồi ạ.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "rel": [
-    "v:期限:きげん",
-    "v:切れる:きれる"
-   ],
-   "note": "Thực phẩm: 賞味期限[しょうみきげん] (hạn dùng ngon), 消費期限[しょうひきげん] (hạn an toàn). Visa: 在留期限[ざいりゅうきげん] — để quá hạn là vi phạm nặng."
-  },
-  {
-   "id": "v:失効:しっこう",
-   "kana": "しっこう",
-   "kanji": "失効",
-   "hv": "THẤT HIỆU",
-   "vi": "hết hiệu lực (giấy phép, tư cách)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "更新[こうしん]を忘[わす]れて、運転免許[うんてんめんきょ]が失効[しっこう]してしまった。",
-     "vi": "Quên gia hạn nên bằng lái hết hiệu lực.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "ポイントは、一年[いちねん]使[つか]わないと失効[しっこう]します。",
-     "vi": "Điểm tích lũy không dùng trong một năm sẽ mất hiệu lực.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "免許[めんきょ]が失効[しっこう]する",
-     "vi": "bằng lái hết hiệu lực"
-    }
-   ],
-   "rel": [
-    "v:無効:むこう",
-    "v:有効:ゆうこう"
-   ],
-   "note": "Văn viết, giấy tờ. 無効[むこう] = vô hiệu (ngay từ đầu hoặc bị tuyên bố); 失効[しっこう] = đang có hiệu lực thì hết (do quá hạn)."
-  },
-  {
-   "id": "v:満了:まんりょう",
-   "kana": "まんりょう",
-   "kanji": "満了",
-   "hv": "MÃN LIỄU",
-   "vi": "mãn hạn, hết kỳ hạn (hợp đồng, nhiệm kỳ)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "来年[らいねん]の三月[さんがつ]で、契約期間[けいやくきかん]が満了[まんりょう]する。",
-     "vi": "Tháng ba năm sau là hết thời hạn hợp đồng.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "アパートの契約[けいやく]が満了[まんりょう]する前[まえ]に、更新[こうしん]するかどうか決[き]めなければならない。",
-     "vi": "Trước khi hợp đồng thuê căn hộ hết hạn, phải quyết có gia hạn hay không.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "契約[けいやく]が満了[まんりょう]する",
-     "vi": "hợp đồng mãn hạn"
-    }
-   ],
-   "rel": [
-    "v:更新:こうしん"
-   ],
-   "note": "期間満了[きかんまんりょう] = hết thời hạn. Văn viết, hợp đồng."
-  },
-  {
-   "id": "v:延長:えんちょう",
-   "kana": "えんちょう",
-   "kanji": "延長",
-   "hv": "DIÊN TRƯỜNG",
-   "vi": "kéo dài thêm (thời gian, hạn)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "忙[いそが]しいので、今日[きょう]は作業時間[さぎょうじかん]を一時間[いちじかん]延長[えんちょう]します。",
-     "vi": "Vì bận nên hôm nay kéo dài giờ làm thêm một tiếng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "有料[ゆうりょう]で、保証期間[ほしょうきかん]を延長[えんちょう]することもできる。",
-     "vi": "Có thể trả phí để kéo dài thời hạn bảo hành.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：締[し]め切[き]り、延長[えんちょう]してもらえませんか。B：あと三日[みっか]なら、大丈夫[だいじょうぶ]ですよ。",
-     "vi": "A: Có thể lùi hạn chót cho tôi được không? B: Thêm ba ngày thì được.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "期間[きかん]を延長[えんちょう]する",
-     "vi": "kéo dài thời hạn"
-    },
-    {
-     "jp": "時間[じかん]を延長[えんちょう]する",
-     "vi": "kéo dài thời gian"
-    }
-   ],
-   "ant": [
-    {
-     "w": "短縮[たんしゅく]",
-     "vi": "rút ngắn"
-    }
-   ],
-   "rel": [
-    "v:延ばす:のばす"
-   ],
-   "note": "延長戦[えんちょうせん] = hiệp phụ. 延長保証[えんちょうほしょう] = bảo hành mở rộng (trả thêm phí)."
-  },
-  {
-   "id": "v:無償:むしょう",
-   "kana": "むしょう",
-   "kanji": "無償",
-   "hv": "VÔ THƯỜNG",
-   "vi": "không tính phí (văn viết)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "保証[ほしょう]期間内[きかんない]の故障[こしょう]は、無償[むしょう]で修理[しゅうり]いたします。",
-     "vi": "Hỏng hóc trong thời hạn bảo hành sẽ được sửa không tính phí.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "作業服[さぎょうふく]は、会社[かいしゃ]から無償[むしょう]で貸[か]し出[だ]される。",
-     "vi": "Đồ làm việc được công ty cho mượn không mất tiền.",
-     "ctx": "xuong"
-    }
-   ],
-   "ant": [
-    "v:有償:ゆうしょう"
-   ],
-   "syn": [
-    "v:無料:むりょう"
-   ],
-   "note": "Văn bản, hợp đồng thường dùng 無償[むしょう] thay 無料[むりょう]. 無償[むしょう]の愛[あい] = tình yêu vô điều kiện."
-  },
-  {
-   "id": "v:有償:ゆうしょう",
-   "kana": "ゆうしょう",
-   "kanji": "有償",
-   "hv": "HỮU THƯỜNG",
-   "vi": "có tính phí (văn viết)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "保証期間[ほしょうきかん]が過[す]ぎると、修理[しゅうり]は有償[ゆうしょう]になります。",
-     "vi": "Quá hạn bảo hành thì sửa phải tính phí.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "有償[ゆうしょう]のボランティアという働[はたら]き方[かた]もある。",
-     "vi": "Cũng có kiểu làm tình nguyện có thù lao.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:無償:むしょう"
-   ],
-   "syn": [
-    "v:有料:ゆうりょう"
-   ]
-  },
-  {
-   "id": "v:購入:こうにゅう",
-   "kana": "こうにゅう",
-   "kanji": "購入",
-   "hv": "CẤU NHẬP",
-   "vi": "mua vào (văn viết)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "商品[しょうひん]を購入[こうにゅう]する前[まえ]に、口[くち]コミを確認[かくにん]した。",
-     "vi": "Trước khi mua hàng tôi đã xem đánh giá.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "新[あたら]しい冷凍機[れいとうき]の購入[こうにゅう]が決[き]まった。",
-     "vi": "Đã quyết định mua máy cấp đông mới.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：このパソコン、いつ購入[こうにゅう]されましたか。B：去年[きょねん]の十月[じゅうがつ]です。保証書[ほしょうしょ]もあります。",
-     "vi": "A: Máy tính này quý khách mua khi nào ạ? B: Tháng mười năm ngoái. Tôi có cả phiếu bảo hành.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "商品[しょうひん]を購入[こうにゅう]する",
-     "vi": "mua hàng"
-    }
-   ],
-   "syn": [
-    "v:買う:かう"
-   ],
-   "note": "Văn viết, thông báo của 買[か]う. 購入日[こうにゅうび] = ngày mua; 購入者[こうにゅうしゃ] = người mua."
-  },
-  {
-   "id": "v:領収書:りょうしゅうしょ",
-   "kana": "りょうしゅうしょ",
-   "kanji": "領収書",
-   "hv": "LĨNH THU THƯ",
-   "vi": "biên lai thu tiền (ghi tên người trả)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "医療費[いりょうひ]の領収書[りょうしゅうしょ]は、確定申告[かくていしんこく]のために取[と]っておこう。",
-     "vi": "Biên lai chi phí y tế hãy giữ lại để khai thuế cuối năm.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "会社[かいしゃ]の物[もの]を買[か]ったときは、領収書[りょうしゅうしょ]をもらってください。",
-     "vi": "Khi mua đồ cho công ty, hãy lấy biên lai.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Khác レシート (phiếu in từ máy tính tiền): 領収書[りょうしゅうしょ] có ghi tên người trả, dùng để thanh toán với công ty. 領収書[りょうしゅうしょ]をください = cho tôi xin biên lai."
-  },
-  {
-   "id": "v:取り扱い:とりあつかい",
-   "kana": "とりあつかい",
-   "kanji": "取り扱い",
-   "kf": "取[と]り扱[あつか]い",
-   "hv": "THỦ TRÁP",
-   "vi": "cách sử dụng, xử lý (đồ vật); việc nhận làm (dịch vụ)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "刃物[はもの]の取[と]り扱[あつか]いには、十分[じゅうぶん]注意[ちゅうい]してください。",
-     "vi": "Hãy hết sức cẩn thận khi cầm dùng dao kéo.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "この郵便局[ゆうびんきょく]では、国際[こくさい]小包[こづつみ]の取[と]り扱[あつか]いもしている。",
-     "vi": "Bưu điện này cũng nhận gửi bưu kiện quốc tế.",
-     "ctx": "thutuc"
-    }
-   ],
-   "rel": [
-    "v:扱う:あつかう"
-   ],
-   "note": "取扱説明書[とりあつかいせつめいしょ] = sách hướng dẫn sử dụng (gọi tắt 取説[とりせつ]). 取[と]り扱[あつか]い注意[ちゅうい] = hàng dễ vỡ, cẩn thận."
-  },
-  {
-   "id": "v:保管:ほかん",
-   "kana": "ほかん",
-   "kanji": "保管",
-   "hv": "BẢO QUẢN",
-   "vi": "cất giữ cẩn thận (đồ, giấy tờ)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "保証書[ほしょうしょ]は、大切[たいせつ]に保管[ほかん]しておいてください。",
-     "vi": "Phiếu bảo hành hãy cất giữ cẩn thận.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "包丁[ほうちょう]は、使[つか]った後[あと]、決[き]められた場所[ばしょ]に保管[ほかん]する。",
-     "vi": "Dao dùng xong cất vào chỗ đã quy định.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：去年[きょねん]の源泉徴収票[げんせんちょうしゅうひょう]、まだある？B：うん、ファイルに保管[ほかん]してあるよ。",
-     "vi": "A: Phiếu khấu trừ thuế năm ngoái còn không? B: Còn, tôi cất trong tập hồ sơ.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "書類[しょるい]を保管[ほかん]する",
-     "vi": "cất giữ giấy tờ"
-    }
-   ],
-   "confuse": [
-    "v:保存:ほぞん"
-   ],
-   "note": "保存[ほぞん] = giữ cho không hỏng (thực phẩm, dữ liệu); 保管[ほかん] = giữ đồ ở chỗ an toàn (giấy tờ, đồ quý, dụng cụ)."
-  },
-  {
-   "id": "v:注意書き:ちゅういがき",
-   "kana": "ちゅういがき",
-   "kanji": "注意書き",
-   "kf": "注意書[ちゅういが]き",
-   "hv": "CHÚ Ý THƯ",
-   "vi": "dòng lưu ý, chú ý (in trên sản phẩm, giấy tờ)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Bảo hành",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "薬[くすり]を飲[の]む前[まえ]に、注意書[ちゅういが]きをよく読[よ]んでください。",
-     "vi": "Trước khi uống thuốc hãy đọc kỹ phần lưu ý.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "洗剤[せんざい]の注意書[ちゅういが]きに、「混[ま]ぜるな危険[きけん]」と書[か]いてある。",
-     "vi": "Trên phần lưu ý của nước tẩy có ghi \"Cấm trộn, nguy hiểm\".",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:注意:ちゅうい"
-   ],
-   "note": "〜書[が]き = phần ghi: 注意書[ちゅういが]き, 但[ただ]し書[が]き (phần ghi chú \"tuy nhiên\")."
-  },
-  {
-   "id": "v:原則:げんそく",
-   "kana": "げんそく",
-   "kanji": "原則",
-   "hv": "NGUYÊN TẮC",
-   "vi": "nguyên tắc chung (có thể có ngoại lệ)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "原則[げんそく]として、休[やす]みの日[ひ]は一[いっ]か月[げつ]前[まえ]に申請[しんせい]してください。",
-     "vi": "Theo nguyên tắc, ngày nghỉ hãy xin trước một tháng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "市役所[しやくしょ]の手続[てつづ]きは、原則[げんそく]、本人[ほんにん]が行[おこな]うことになっている。",
-     "vi": "Thủ tục ở tòa thị chính về nguyên tắc do chính người đó làm.",
-     "ctx": "thutuc"
-    }
-   ],
-   "rel": [
-    "v:例外:れいがい"
-   ],
-   "note": "原則[げんそく]として = về nguyên tắc (thường ngầm hiểu có ngoại lệ). Hay gặp trong thông báo, nội quy."
-  },
-  {
-   "id": "v:規定:きてい",
-   "kana": "きてい",
-   "kanji": "規定",
-   "hv": "QUY ĐỊNH",
-   "vi": "quy định thành văn (điều khoản)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会社[かいしゃ]の規定[きてい]により、制服[せいふく]は持[も]ち帰[かえ]れません。",
-     "vi": "Theo quy định của công ty, không được mang đồng phục về nhà.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "規定[きてい]の用紙[ようし]に記入[きにゅう]して、窓口[まどぐち]に出[だ]してください。",
-     "vi": "Điền vào mẫu giấy quy định rồi nộp ở quầy.",
-     "ctx": "thutuc"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "規則[きそく]で規定[きてい]する",
-     "vi": "quy định trong nội quy"
-    }
-   ],
-   "rel": [
-    "v:規則:きそく",
-    "v:決まり:きまり"
-   ],
-   "note": "規定[きてい] = điều quy định cụ thể trong văn bản (規定[きてい]の料金[りょうきん] = mức phí quy định)."
-  },
-  {
-   "id": "v:所定:しょてい",
-   "kana": "しょてい",
-   "kanji": "所定",
-   "hv": "SỞ ĐỊNH",
-   "vi": "(theo mẫu, nơi, cách) đã quy định sẵn",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "所定[しょてい]の用紙[ようし]に記入[きにゅう]して、提出[ていしゅつ]してください。",
-     "vi": "Hãy điền vào mẫu giấy quy định rồi nộp.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "ごみは、所定[しょてい]の場所[ばしょ]に出[だ]してください。",
-     "vi": "Rác hãy đổ ở nơi quy định.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Luôn dùng dạng 所定[しょてい]の〜: 所定[しょてい]の場所[ばしょ] / 用紙[ようし] / 時間[じかん]. 所定労働時間[しょていろうどうじかん] = giờ làm theo quy định."
-  },
-  {
-   "id": "v:条件付き:じょうけんつき",
-   "kana": "じょうけんつき",
-   "kanji": "条件付き",
-   "kf": "条件付[じょうけんつ]き",
-   "hv": "ĐIỀU KIỆN PHÓ",
-   "vi": "có kèm điều kiện",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "条件[じょうけん]付[つ]きで、アパートを借[か]りられることになった。",
-     "vi": "Tôi được thuê căn hộ với điều kiện kèm theo.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "「残業[ざんぎょう]がないなら」という条件[じょうけん]付[つ]きで、その仕事[しごと]を引[ひ]き受[う]けた。",
-     "vi": "Tôi nhận việc đó với điều kiện \"không phải tăng ca\".",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:条件:じょうけん"
-   ],
-   "note": "〜付[つ]き = có kèm: 保証付[ほしょうつ]き, 食事付[しょくじつ]き."
-  },
-  {
-   "id": "v:前提:ぜんてい",
-   "kana": "ぜんてい",
-   "kanji": "前提",
-   "hv": "TIỀN ĐỀ",
-   "vi": "tiền đề, điều kiện tiên quyết",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本語[にほんご]が話[はな]せることが、採用[さいよう]の前提[ぜんてい]です。",
-     "vi": "Nói được tiếng Nhật là điều kiện tiên quyết để được tuyển.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "安全[あんぜん]を前提[ぜんてい]に、作業[さぎょう]の速[はや]さを考[かんが]えてください。",
-     "vi": "Hãy nghĩ tới tốc độ làm việc trên tiền đề an toàn.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:条件:じょうけん"
-   ],
-   "note": "〜を前提[ぜんてい]に / 〜を前提[ぜんてい]として = lấy … làm tiền đề. 結婚[けっこん]を前提[ぜんてい]に付[つ]き合[あ]う = hẹn hò nghiêm túc tiến tới hôn nhân. 前提条件[ぜんていじょうけん] = điều kiện tiên quyết."
-  },
-  {
-   "id": "v:除外:じょがい",
-   "kana": "じょがい",
-   "kanji": "除外",
-   "hv": "TRỪ NGOẠI",
-   "vi": "gạt ra, không tính vào (phạm vi, danh sách)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "傷[きず]のある魚[さかな]は、出荷[しゅっか]から除外[じょがい]する。",
-     "vi": "Cá bị trầy xước thì loại khỏi lô xuất hàng.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "セール品[ひん]は、割引[わりびき]の対象[たいしょう]から除外[じょがい]されています。",
-     "vi": "Hàng giảm giá được loại ra khỏi đối tượng chiết khấu.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "対象[たいしょう]から除外[じょがい]する",
-     "vi": "loại khỏi đối tượng"
-    }
-   ],
-   "rel": [
-    "v:除く:のぞく"
-   ],
-   "note": "Văn viết của 除[のぞ]く."
-  },
-  {
-   "id": "v:対象外:たいしょうがい",
-   "kana": "たいしょうがい",
-   "kanji": "対象外",
-   "hv": "ĐỐI TƯỢNG NGOẠI",
-   "vi": "không thuộc đối tượng (áp dụng)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "このセールは、お酒[さけ]は対象外[たいしょうがい]です。",
-     "vi": "Đợt giảm giá này không áp dụng cho rượu.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "収入[しゅうにゅう]が多[おお]い人[ひと]は、この手当[てあて]の対象外[たいしょうがい]になります。",
-     "vi": "Người thu nhập cao không thuộc diện nhận trợ cấp này.",
-     "ctx": "thutuc"
-    }
-   ],
-   "rel": [
-    "v:対象:たいしょう"
-   ],
-   "note": "〜外[がい] = ngoài: 対象外[たいしょうがい], 範囲外[はんいがい], 想定外[そうていがい]."
-  },
-  {
-   "id": "v:該当者:がいとうしゃ",
-   "kana": "がいとうしゃ",
-   "kanji": "該当者",
-   "hv": "CAI ĐƯƠNG GIẢ",
-   "vi": "người khớp điều kiện (được nêu ra)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "該当者[がいとうしゃ]は、来週[らいしゅう]までに書類[しょるい]を出[だ]してください。",
-     "vi": "Người thuộc diện hãy nộp giấy tờ trước tuần sau.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "健康診断[けんこうしんだん]で、該当者[がいとうしゃ]には再検査[さいけんさ]のお知[し]らせが届[とど]く。",
-     "vi": "Ở khám sức khỏe, người thuộc diện sẽ nhận thông báo khám lại.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:該当:がいとう"
-   ],
-   "ctr": "人",
-   "note": "該当[がいとう]する方[かた] = người thuộc diện (lịch sự hơn)."
-  },
-  {
-   "id": "v:有資格者:ゆうしかくしゃ",
-   "kana": "ゆうしかくしゃ",
-   "kanji": "有資格者",
-   "hv": "HỮU TƯ CÁCH GIẢ",
-   "vi": "người có chứng chỉ (bằng cấp phù hợp)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "フォークリフトは、有[ゆう]資格者[しかくしゃ]しか運転[うんてん]できない。",
-     "vi": "Xe nâng chỉ người có chứng chỉ mới được lái.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "求人[きゅうじん]に「有[ゆう]資格者[しかくしゃ]優遇[ゆうぐう]」と書[か]いてある。",
-     "vi": "Tin tuyển dụng ghi \"ưu tiên người có chứng chỉ\".",
-     "ctx": "thutuc"
-    }
-   ],
-   "rel": [
-    "v:資格:しかく"
-   ],
-   "ctr": "人",
-   "note": "有[ゆう]〜 = có …: 有資格[ゆうしかく], 有料[ゆうりょう], 有効[ゆうこう]."
-  },
-  {
-   "id": "v:適正:てきせい",
-   "kana": "てきせい",
-   "kanji": "適正",
-   "hv": "THÍCH CHÍNH",
-   "vi": "đúng mức chuẩn (giá, nhiệt độ, số lượng)",
-   "pos": "adj-na",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "冷凍庫[れいとうこ]の温度[おんど]が適正[てきせい]か、毎日[まいにち]チェックする。",
-     "vi": "Hằng ngày kiểm tra nhiệt độ tủ cấp đông có đúng mức không.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "適正[てきせい]な価格[かかく]で、取引[とりひき]をしたい。",
-     "vi": "Muốn giao dịch với giá hợp lý.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：この家賃[やちん]、ちょっと高[たか]くない？B：駅[えき]に近[ちか]いから、適正[てきせい]だと思[おも]うよ。",
-     "vi": "A: Tiền nhà này hơi đắt nhỉ? B: Gần ga nên tôi nghĩ là hợp lý đấy.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "価格[かかく]",
-     "vi": "giá"
-    },
-    {
-     "jp": "温度[おんど]",
-     "vi": "nhiệt độ"
-    }
-   ],
-   "ant": [
-    "v:不適切:ふてきせつ"
-   ],
-   "confuse": [
-    "v:適切:てきせつ"
-   ],
-   "note": "適切[てきせつ] = thích đáng, phù hợp với tình huống (lời nói, cách xử lý); 適正[てきせい] = đúng mức chuẩn (giá, nhiệt độ, số người)."
-  },
-  {
-   "id": "v:不適切:ふてきせつ",
-   "kana": "ふてきせつ",
-   "kanji": "不適切",
-   "hv": "BẤT THÍCH THIẾT",
-   "vi": "không thích đáng, không phù hợp",
-   "pos": "adj-na",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "職場[しょくば]で、不適切[ふてきせつ]な発言[はつげん]をしてはいけない。",
-     "vi": "Ở chỗ làm không được phát ngôn không phù hợp.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "不適切[ふてきせつ]な温度[おんど]で保存[ほぞん]すると、細菌[さいきん]が増[ふ]える。",
-     "vi": "Bảo quản ở nhiệt độ không phù hợp thì vi khuẩn sinh sôi.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：その写真[しゃしん]、SNSに載[の]せていいの？B：あ、ちょっと不適切[ふてきせつ]かも。やめておく。",
-     "vi": "A: Ảnh đó đăng lên mạng xã hội được không? B: À, có khi không hợp. Thôi không đăng.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "発言[はつげん]",
-     "vi": "phát ngôn"
-    },
-    {
-     "jp": "表現[ひょうげん]",
-     "vi": "cách diễn đạt"
-    }
-   ],
-   "ant": [
-    "v:適切:てきせつ"
-   ]
-  },
-  {
-   "id": "v:一律:いちりつ",
-   "kana": "いちりつ",
-   "kanji": "一律",
-   "hv": "NHẤT LUẬT",
-   "vi": "đồng loạt, như nhau (cho tất cả)",
-   "pos": "adv",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "交通費[こうつうひ]は、全員[ぜんいん]一律[いちりつ]で月[つき]五千円[ごせんえん]です。",
-     "vi": "Tiền đi lại mọi người như nhau, mỗi tháng năm nghìn yên.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "店内[てんない]の商品[しょうひん]は、一律[いちりつ]三百円[さんびゃくえん]です。",
-     "vi": "Hàng trong cửa hàng đồng giá ba trăm yên.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Cũng dùng như danh từ: 一律[いちりつ]の料金[りょうきん] = mức phí chung."
-  },
-  {
-   "id": "v:各自:かくじ",
-   "kana": "かくじ",
-   "kanji": "各自",
-   "hv": "CÁC TỰ",
-   "vi": "mỗi người (tự làm phần mình)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "昼[ひる]ご飯[はん]は、各自[かくじ]で用意[ようい]してください。",
-     "vi": "Cơm trưa mỗi người tự chuẩn bị.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "必要[ひつよう]な書類[しょるい]は、各自[かくじ]で市役所[しやくしょ]に取[と]りに行[い]ってください。",
-     "vi": "Giấy tờ cần thiết mỗi người tự lên tòa thị chính lấy.",
-     "ctx": "thutuc"
-    }
-   ],
-   "rel": [
-    "v:それぞれ:それぞれ"
-   ],
-   "note": "Hay gặp trong thông báo: 各自[かくじ]持参[じさん] = mỗi người tự mang theo."
-  },
-  {
-   "id": "v:見なす:みなす",
-   "kana": "みなす",
-   "kanji": "見なす",
-   "kf": "見[み]なす",
-   "hv": "KIẾN",
-   "vi": "coi như, xem là (theo quy định)",
-   "pos": "v5",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Quy định",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "連絡[れんらく]なしで休[やす]むと、欠勤[けっきん]と見[み]なされます。",
-     "vi": "Nghỉ mà không báo sẽ bị coi là vắng mặt không phép.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "期限[きげん]までに返事[へんじ]がない場合[ばあい]は、参加[さんか]しないものと見[み]なします。",
-     "vi": "Nếu tới hạn không trả lời, sẽ coi như không tham gia.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "A：書類[しょるい]にサインがないと、どうなりますか。B：未提出[みていしゅつ]と見[み]なされるので、気[き]をつけてください。",
-     "vi": "A: Giấy tờ không có chữ ký thì sao ạ? B: Sẽ bị coi như chưa nộp, nên hãy cẩn thận.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "欠勤[けっきん]と見[み]なす",
-     "vi": "coi là vắng mặt"
-    }
-   ],
-   "fx": [
-    {
-     "f": "ukemi",
-     "jp": "遅[おく]れて出[だ]した書類[しょるい]は、無効[むこう]と[[見[み]なされ]]ます。",
-     "vi": "Giấy tờ nộp muộn bị coi là không hợp lệ."
-    }
-   ],
-   "note": "Hay dùng bị động 〜と見[み]なされる. Chữ Hán đầy đủ: 見做[みな]す (ít dùng)."
-  },
-  {
-   "id": "v:範囲内:はんいない",
-   "kana": "はんいない",
-   "kanji": "範囲内",
-   "hv": "PHẠM VI NỘI",
-   "vi": "trong phạm vi",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Phạm vi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "予算[よさん]の範囲[はんい]内[ない]で、引[ひ]っ越[こ]しの業者[ぎょうしゃ]を選[えら]んだ。",
-     "vi": "Chọn công ty chuyển nhà trong phạm vi ngân sách.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "温度[おんど]が基準[きじゅん]の範囲[はんい]内[ない]か、確認[かくにん]してから記録[きろく]する。",
-     "vi": "Kiểm tra nhiệt độ có trong phạm vi tiêu chuẩn không rồi mới ghi.",
-     "ctx": "xuong"
-    }
-   ],
-   "ant": [
-    "v:範囲外:はんいがい"
-   ],
-   "rel": [
-    "v:範囲:はんい"
-   ]
-  },
-  {
-   "id": "v:範囲外:はんいがい",
-   "kana": "はんいがい",
-   "kanji": "範囲外",
-   "hv": "PHẠM VI NGOẠI",
-   "vi": "ngoài phạm vi",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Phạm vi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この住所[じゅうしょ]は、配達[はいたつ]の範囲[はんい]外[がい]だそうだ。",
-     "vi": "Nghe nói địa chỉ này nằm ngoài phạm vi giao hàng.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "試験[しけん]の範囲[はんい]外[がい]の問題[もんだい]が出[で]て、驚[おどろ]いた。",
-     "vi": "Có câu hỏi ngoài phạm vi ôn thi, tôi bất ngờ.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:範囲内:はんいない"
-   ],
-   "rel": [
-    "v:範囲:はんい"
-   ]
-  },
-  {
-   "id": "v:限度:げんど",
-   "kana": "げんど",
-   "kanji": "限度",
-   "hv": "HẠN ĐỘ",
-   "vi": "hạn mức (tối đa cho phép)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Phạm vi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "カードの利用[りよう]限度[げんど]を超[こ]えて、買[か]い物[もの]ができなかった。",
-     "vi": "Vượt hạn mức sử dụng thẻ nên không mua được.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "我慢[がまん]にも限度[げんど]がある。",
-     "vi": "Nhẫn nhịn cũng có giới hạn.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:上限:じょうげん",
-    "v:限界:げんかい"
-   ],
-   "note": "限度額[げんどがく] = số tiền hạn mức. 限界[げんかい] = giới hạn sức chịu đựng; 限度[げんど] = mức tối đa được phép."
-  },
-  {
-   "id": "v:上限:じょうげん",
-   "kana": "じょうげん",
-   "kanji": "上限",
-   "hv": "THƯỢNG HẠN",
-   "vi": "mức trần, giới hạn trên",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Phạm vi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "残業時間[ざんぎょうじかん]には、上限[じょうげん]がある。",
-     "vi": "Giờ tăng ca có mức trần.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "一人[ひとり]三[みっ]つまでと、購入[こうにゅう]数[かず]に上限[じょうげん]があった。",
-     "vi": "Số lượng mua có giới hạn trên, mỗi người tối đa ba cái.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:下限:かげん"
-   ],
-   "rel": [
-    "v:限度:げんど"
-   ]
-  },
-  {
-   "id": "v:下限:かげん",
-   "kana": "かげん",
-   "kanji": "下限",
-   "hv": "HẠ HẠN",
-   "vi": "mức sàn, giới hạn dưới",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Phạm vi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "冷蔵庫[れいぞうこ]の温度[おんど]の下限[かげん]と上限[じょうげん]を、紙[かみ]に書[か]いて貼[は]った。",
-     "vi": "Tôi viết mức dưới và mức trên của nhiệt độ tủ lạnh ra giấy rồi dán lên.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "給料[きゅうりょう]の下限[かげん]は、法律[ほうりつ]で決[き]められている。",
-     "vi": "Mức lương thấp nhất được luật quy định.",
-     "ctx": "thutuc"
-    }
-   ],
-   "ant": [
-    "v:上限:じょうげん"
-   ],
-   "note": "Đồng âm: 加減[かげん] (mức độ, gia giảm)."
-  },
-  {
-   "id": "v:最大:さいだい",
-   "kana": "さいだい",
-   "kanji": "最大",
-   "hv": "TỐI ĐẠI",
-   "vi": "lớn nhất (về kích thước, số lượng)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Phạm vi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この冷凍庫[れいとうこ]には、最大[さいだい]で五百[ごひゃく]キロ入[はい]る。",
-     "vi": "Tủ cấp đông này chứa tối đa năm trăm ký.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "台風[たいふう]が、最大[さいだい]の勢力[せいりょく]で近[ちか]づいている。",
-     "vi": "Bão đang tiến lại gần với sức mạnh lớn nhất.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:最小:さいしょう"
-   ],
-   "note": "最大[さいだい]〜 = tối đa …: 最大[さいだい]五割[ごわり]引[びき] = giảm tối đa 50%."
-  },
-  {
-   "id": "v:最小:さいしょう",
-   "kana": "さいしょう",
-   "kanji": "最小",
-   "hv": "TỐI TIỂU",
-   "vi": "nhỏ nhất (về kích thước, số lượng)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Phạm vi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "被害[ひがい]を最小[さいしょう]に抑[おさ]えるため、すぐ機械[きかい]を止[と]めた。",
-     "vi": "Để giảm thiệt hại xuống nhỏ nhất, đã dừng máy ngay.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "これは、世界[せかい]最小[さいしょう]のカメラだそうだ。",
-     "vi": "Nghe nói đây là máy ảnh nhỏ nhất thế giới.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:最大:さいだい"
-   ],
-   "confuse": [
-    "v:最低限:さいていげん"
-   ]
-  },
-  {
-   "id": "v:最低限:さいていげん",
-   "kana": "さいていげん",
-   "kanji": "最低限",
-   "hv": "TỐI ĐÊ HẠN",
-   "vi": "mức tối thiểu (cần có)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Phạm vi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "最低限[さいていげん]のルールは、守[まも]ってください。",
-     "vi": "Những quy tắc tối thiểu thì hãy giữ.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "日本[にほん]で暮[く]らすには、最低限[さいていげん]の日本語[にほんご]が必要[ひつよう]だ。",
-     "vi": "Sống ở Nhật cần vốn tiếng Nhật tối thiểu.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:最大限:さいだいげん"
-   ],
-   "confuse": [
-    "v:最小:さいしょう"
-   ],
-   "note": "最低限[さいていげん] = mức thấp nhất phải có (cần thiết); 最小[さいしょう] = nhỏ nhất (kích thước, số lượng)."
-  },
-  {
-   "id": "v:最大限:さいだいげん",
-   "kana": "さいだいげん",
-   "kanji": "最大限",
-   "hv": "TỐI ĐẠI HẠN",
-   "vi": "mức tối đa (có thể làm được)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Phạm vi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "お客様[きゃくさま]の要望[ようぼう]に、最大限[さいだいげん]応[こた]えたい。",
-     "vi": "Muốn đáp ứng yêu cầu của khách hết mức có thể.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "時間[じかん]を最大限[さいだいげん]に使[つか]って、勉強[べんきょう]している。",
-     "vi": "Tận dụng tối đa thời gian để học.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:最低限:さいていげん"
-   ],
-   "note": "最大限[さいだいげん]に生[い]かす = tận dụng tối đa."
-  },
-  {
-   "id": "v:未満:みまん",
-   "kana": "みまん",
-   "kanji": "未満",
-   "hv": "VỊ MÃN",
-   "vi": "chưa tới, dưới mức (không tính mốc)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Phạm vi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この店[みせ]では、三歳[さんさい]未満[みまん]の子[こ]どもは無料[むりょう]です。",
-     "vi": "Ở quán này trẻ dưới ba tuổi được miễn phí.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "重[おも]さが基準[きじゅん]未満[みまん]の魚[さかな]は、別[べつ]のかごに入[い]れる。",
-     "vi": "Cá nhẹ hơn mức chuẩn thì bỏ vào giỏ khác.",
-     "ctx": "xuong"
-    }
-   ],
-   "confuse": [
-    "v:以下:いか"
-   ],
-   "note": "以下[いか] tính cả mốc (3以下[いか] = 3, 2, 1…); 未満[みまん] không tính mốc (3未満[みまん] = dưới 3)."
-  },
-  {
-   "id": "v:超過:ちょうか",
-   "kana": "ちょうか",
-   "kanji": "超過",
-   "hv": "SIÊU QUÁ",
-   "vi": "vượt mức (quy định)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tu",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Phạm vi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "荷物[にもつ]の重[おも]さが超過[ちょうか]して、追加料金[ついかりょうきん]を払[はら]った。",
-     "vi": "Hành lý vượt cân nên phải trả phí thêm.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "今月[こんげつ]は、残業[ざんぎょう]が予定[よてい]を超過[ちょうか]した。",
-     "vi": "Tháng này giờ tăng ca vượt quá dự kiến.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "時間[じかん]を超過[ちょうか]する",
-     "vi": "vượt quá thời gian"
-    }
-   ],
-   "rel": [
-    "v:超える:こえる"
-   ],
-   "note": "超過料金[ちょうかりょうきん] = phí vượt mức. 超過勤務[ちょうかきんむ] = làm vượt giờ (văn viết của 残業[ざんぎょう])."
-  },
-  {
-   "id": "v:満たす:みたす",
-   "kana": "みたす",
-   "kanji": "満たす",
-   "kf": "満[み]たす",
-   "hv": "MÃN",
-   "vi": "đạt đủ, thỏa mãn (điều kiện); rót đầy",
-   "pos": "v5",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Phạm vi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "条件[じょうけん]を満[み]たせば、だれでも申[もう]し込[こ]めます。",
-     "vi": "Đáp ứng điều kiện thì ai cũng đăng ký được.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "コップに水[みず]を満[み]たした。",
-     "vi": "Rót đầy nước vào cốc.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：特定[とくてい]技能[ぎのう]二号[にごう]の条件[じょうけん]、もう満[み]たしてる？B：試験[しけん]に受[う]かれば、満[み]たせると思[おも]います。",
-     "vi": "A: Anh đã đủ điều kiện kỹ năng đặc định số 2 chưa? B: Nếu đỗ kỳ thi thì tôi nghĩ là đủ.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "条件[じょうけん]を満[み]たす",
-     "vi": "đáp ứng điều kiện"
-    },
-    {
-     "jp": "お腹[なか]を満[み]たす",
-     "vi": "ăn no bụng"
-    }
-   ],
-   "pair": "v:満ちる:みちる",
-   "note": "基準[きじゅん]を満[み]たす = đạt tiêu chuẩn."
-  },
-  {
-   "id": "v:無制限:むせいげん",
-   "kana": "むせいげん",
-   "kanji": "無制限",
-   "hv": "VÔ CHẾ HẠN",
-   "vi": "không giới hạn",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Phạm vi",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "このプランは、データが無制限[むせいげん]で使[つか]える。",
-     "vi": "Gói này dùng dữ liệu không giới hạn.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "飲[の]み物[もの]は、時間[じかん]内[ない]なら無制限[むせいげん]におかわりできます。",
-     "vi": "Đồ uống thì trong thời gian quy định được gọi thêm không giới hạn.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:制限:せいげん"
-   ],
-   "note": "Dùng như tính từ な: 無制限[むせいげん]な / に."
-  },
-  {
-   "id": "v:及び:および",
-   "kana": "および",
-   "kanji": "及び",
-   "kf": "及[およ]び",
-   "hv": "CẬP",
-   "vi": "và (văn bản, liệt kê)",
-   "pos": "other",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thông tin",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "申込書[もうしこみしょ]及[およ]び身分証明書[みぶんしょうめいしょ]を、窓口[まどぐち]に出[だ]してください。",
-     "vi": "Hãy nộp đơn đăng ký và giấy tờ tùy thân ở quầy.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "工場[こうじょう]内[ない]での喫煙[きつえん]及[およ]び飲食[いんしょく]は、禁止[きんし]されています。",
-     "vi": "Hút thuốc và ăn uống trong nhà máy bị cấm.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:または:または"
-   ],
-   "note": "Văn bản, thông báo; nói thường: と, や. Không dùng trong hội thoại thân mật."
-  },
-  {
-   "id": "v:もしくは:もしくは",
-   "kana": "もしくは",
-   "kanji": "",
-   "hv": "",
-   "vi": "hoặc (văn bản)",
-   "pos": "other",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thông tin",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "電話[でんわ]もしくはメールで、ご連絡[れんらく]ください。",
-     "vi": "Xin liên lạc bằng điện thoại hoặc email.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "在留[ざいりゅう]カード、もしくはパスポートを見[み]せてください。",
-     "vi": "Hãy xuất trình thẻ cư trú hoặc hộ chiếu.",
-     "ctx": "thutuc"
-    }
-   ],
-   "confuse": [
-    "v:または:または"
-   ],
-   "note": "Văn viết; nghĩa giống または. Chữ Hán: 若[も]しくは (ít dùng)."
-  },
-  {
-   "id": "v:各種:かくしゅ",
-   "kana": "かくしゅ",
-   "kanji": "各種",
-   "hv": "CÁC CHỦNG",
-   "vi": "các loại",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thông tin",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "市役所[しやくしょ]で、各種[かくしゅ]証明書[しょうめいしょ]を発行[はっこう]している。",
-     "vi": "Tòa thị chính cấp các loại giấy chứng nhận.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "当店[とうてん]では、各種[かくしゅ]カードがご利用[りよう]いただけます。",
-     "vi": "Cửa hàng chúng tôi chấp nhận các loại thẻ.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:種類:しゅるい",
-    "v:様々:さまざま"
-   ],
-   "note": "Văn viết, thông báo. 各[かく]〜 = mỗi …: 各自[かくじ], 各地[かくち]."
-  },
-  {
-   "id": "v:公開:こうかい",
-   "kana": "こうかい",
-   "kanji": "公開",
-   "hv": "CÔNG KHAI",
-   "vi": "công khai, cho công chúng xem",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thông tin",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "新[あたら]しい映画[えいが]が、来月[らいげつ]公開[こうかい]される。",
-     "vi": "Phim mới sẽ công chiếu tháng sau.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "個人情報[こじんじょうほう]は、許可[きょか]なく公開[こうかい]してはいけない。",
-     "vi": "Không được công khai thông tin cá nhân khi chưa được phép.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "A：工場見学[こうじょうけんがく]って、だれでもできるの？B：一般[いっぱん]公開[こうかい]は、年[ねん]に一回[いっかい]だけなんだ。",
-     "vi": "A: Tham quan nhà máy thì ai cũng được à? B: Mở cửa cho công chúng chỉ một năm một lần thôi.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "情報[じょうほう]を公開[こうかい]する",
-     "vi": "công khai thông tin"
-    }
-   ],
-   "ant": [
-    {
-     "w": "非公開[ひこうかい]",
-     "vi": "không công khai"
-    }
-   ],
-   "rel": [
-    "v:発表:はっぴょう"
-   ]
-  },
-  {
-   "id": "v:提供:ていきょう",
-   "kana": "ていきょう",
-   "kanji": "提供",
-   "hv": "ĐỀ CUNG",
-   "vi": "cung cấp cho (khách, người dùng); tài trợ (chương trình)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thông tin",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会社[かいしゃ]は、社員[しゃいん]に寮[りょう]を提供[ていきょう]している。",
-     "vi": "Công ty cung cấp ký túc xá cho nhân viên.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "この番組[ばんぐみ]は、地元[じもと]の会社[かいしゃ]の提供[ていきょう]でお送[おく]りしています。",
-     "vi": "Chương trình này được tài trợ bởi công ty địa phương.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "A：個人情報[こじんじょうほう]を提供[ていきょう]しても、大丈夫[だいじょうぶ]ですか。B：はい、手続[てつづ]き以外[いがい]には使[つか]いません。",
-     "vi": "A: Cung cấp thông tin cá nhân có ổn không ạ? B: Vâng, chúng tôi không dùng ngoài việc làm thủ tục.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "情報[じょうほう]を提供[ていきょう]する",
-     "vi": "cung cấp thông tin"
-    },
-    {
-     "jp": "サービスを提供[ていきょう]する",
-     "vi": "cung cấp dịch vụ"
-    }
-   ],
-   "rel": [
-    "v:与える:あたえる"
-   ]
-  },
-  {
-   "id": "v:不明:ふめい",
-   "kana": "ふめい",
-   "kanji": "不明",
-   "hv": "BẤT MINH",
-   "vi": "chưa rõ, không rõ (thông tin)",
-   "pos": "adj-na",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thông tin",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "事故[じこ]の原因[げんいん]は、まだ不明[ふめい]です。",
-     "vi": "Nguyên nhân tai nạn vẫn chưa rõ.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "不明[ふめい]な点[てん]があれば、窓口[まどぐち]でお聞[き]きください。",
-     "vi": "Có điểm nào chưa rõ xin hỏi tại quầy.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "A：この荷物[にもつ]、だれのですか。B：送[おく]り主[ぬし]が不明[ふめい]なんです。",
-     "vi": "A: Gói hàng này của ai vậy? B: Không rõ người gửi.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "原因[げんいん]",
-     "vi": "nguyên nhân"
-    },
-    {
-     "jp": "点[てん]",
-     "vi": "điểm"
-    }
-   ],
-   "rel": [
-    "v:曖昧:あいまい"
-   ],
-   "note": "行方不明[ゆくえふめい] = mất tích. 不明点[ふめいてん] = điểm chưa rõ."
-  },
-  {
-   "id": "v:不確か:ふたしか",
-   "kana": "ふたしか",
-   "kanji": "不確か",
-   "kf": "不確[ふたし]か",
-   "hv": "BẤT XÁC",
-   "vi": "không chắc chắn, không đáng tin (thông tin)",
-   "pos": "adj-na",
-   "level": "N2",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thông tin",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "不確[ふたし]かな情報[じょうほう]を、人[ひと]に話[はな]さないでください。",
-     "vi": "Đừng nói với người khác những thông tin chưa chắc chắn.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "記憶[きおく]が不確[ふたし]かなので、記録[きろく]を確認[かくにん]します。",
-     "vi": "Trí nhớ không chắc nên tôi xem lại ghi chép.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：明日[あした]は休[やす]みだって、本当[ほんとう]？B：ごめん、ちょっと不確[ふたし]かだから、班長[はんちょう]に聞[き]いてみて。",
-     "vi": "A: Nghe nói mai được nghỉ, thật không? B: Xin lỗi, tôi không chắc lắm, cậu hỏi tổ trưởng thử đi.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "情報[じょうほう]",
-     "vi": "thông tin"
-    },
-    {
-     "jp": "記憶[きおく]",
-     "vi": "trí nhớ"
-    }
-   ],
-   "ant": [
-    "v:確か:たしか"
-   ]
-  },
-  {
-   "id": "v:所持:しょじ",
-   "kana": "しょじ",
-   "kanji": "所持",
-   "hv": "SỞ TRÌ",
-   "vi": "mang theo người, có trong tay (giấy tờ, vật)",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thông tin",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "外国人[がいこくじん]は、在留[ざいりゅう]カードを常[つね]に所持[しょじ]しなければならない。",
-     "vi": "Người nước ngoài phải luôn mang theo thẻ cư trú.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "刃物[はもの]の所持[しょじ]は、決[き]められた場所[ばしょ]以外[いがい]では禁止[きんし]だ。",
-     "vi": "Mang dao kéo ngoài nơi quy định là bị cấm.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "在留[ざいりゅう]カードを所持[しょじ]する",
-     "vi": "mang theo thẻ cư trú"
-    }
-   ],
-   "rel": [
-    "v:持つ:もつ"
-   ],
-   "note": "Văn viết, luật. 所持品[しょじひん] = đồ mang theo người; 所持金[しょじきん] = tiền mang theo."
-  },
-  {
-   "id": "v:有する:ゆうする",
-   "kana": "ゆうする",
-   "kanji": "有する",
-   "kf": "有[ゆう]する",
-   "hv": "HỮU",
-   "vi": "có, sở hữu (văn viết)",
-   "pos": "v3",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thông tin",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "申込者[もうしこみしゃ]は、日本語[にほんご]能力[のうりょく]を有[ゆう]することが条件[じょうけん]です。",
-     "vi": "Điều kiện là người đăng ký phải có năng lực tiếng Nhật.",
-     "ctx": "thutuc"
-    },
-    {
-     "jp": "この会社[かいしゃ]は、高[たか]い冷凍[れいとう]技術[ぎじゅつ]を有[ゆう]している。",
-     "vi": "Công ty này có kỹ thuật cấp đông cao.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "A：「有[ゆう]する」って、どういう意味[いみ]ですか。B：「持[も]っている」の硬[かた]い言[い]い方[かた]だよ。",
-     "vi": "A: \"ゆうする\" nghĩa là gì ạ? B: Là cách nói trang trọng của \"もっている\" (đang có) đấy.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "資格[しかく]を有[ゆう]する",
-     "vi": "có chứng chỉ"
-    },
-    {
-     "jp": "権利[けんり]を有[ゆう]する",
-     "vi": "có quyền"
-    }
-   ],
-   "rel": [
-    "v:持つ:もつ"
-   ],
-   "note": "Văn viết, luật, thông báo. Thường dùng dạng 有[ゆう]している, 有[ゆう]する〜."
-  }
- ]
+  "items": [
+    {
+      "id": "v:保証書:ほしょうしょ",
+      "kana": "ほしょうしょ",
+      "kanji": "保証書",
+      "hv": "BẢO CHỨNG THƯ",
+      "vi": "phiếu bảo hành",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "修理[しゅうり]を頼[たの]むときは、保証書[ほしょうしょ]を持[も]ってきてください。",
+          "vi": "Khi nhờ sửa hãy mang theo phiếu bảo hành.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "保証書[ほしょうしょ]に、購入日[こうにゅうび]とお店[みせ]のはんこがあるか確認[かくにん]した。",
+          "vi": "Tôi kiểm tra xem phiếu bảo hành có ngày mua và dấu cửa hàng chưa.",
+          "ctx": "thutuc"
+        }
+      ],
+      "rel": [
+        "v:保証:ほしょう"
+      ],
+      "note": "Phiếu bảo hành thường cần ngày mua và dấu cửa hàng, nên cất cùng biên lai."
+    },
+    {
+      "id": "v:保証期間:ほしょうきかん",
+      "kana": "ほしょうきかん",
+      "kanji": "保証期間",
+      "hv": "BẢO CHỨNG KỲ GIAN",
+      "vi": "thời hạn bảo hành",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "保証期間[ほしょうきかん]が過[す]ぎていたので、修理代[しゅうりだい]を払[はら]った。",
+          "vi": "Đã quá hạn bảo hành nên phải trả tiền sửa.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この冷蔵庫[れいぞうこ]の保証期間[ほしょうきかん]は、購入日[こうにゅうび]から一年[いちねん]間[かん]です。",
+          "vi": "Thời hạn bảo hành của tủ lạnh này là một năm kể từ ngày mua.",
+          "ctx": "thutuc"
+        }
+      ],
+      "rel": [
+        "v:保証:ほしょう",
+        "v:期間:きかん"
+      ],
+      "note": "保証期間中[ほしょうきかんちゅう]なら無料[むりょう]で修理[しゅうり]できる場合[ばあい]が多[おお]い (tùy hãng)."
+    },
+    {
+      "id": "v:期限内:きげんない",
+      "kana": "きげんない",
+      "kanji": "期限内",
+      "hv": "KỲ HẠN NỘI",
+      "vi": "trong thời hạn",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "書類[しょるい]は、必[かなら]ず期限内[きげんない]に出[だ]してください。",
+          "vi": "Giấy tờ nhất định phải nộp trong thời hạn.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "期限内[きげんない]なら、商品[しょうひん]の交換[こうかん]ができます。",
+          "vi": "Nếu trong thời hạn thì đổi được hàng.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:期限:きげん",
+        "v:期限切れ:きげんぎれ"
+      ],
+      "note": "〜内[ない] = trong (phạm vi): 期限内[きげんない], 社内[しゃない], 範囲内[はんいない]."
+    },
+    {
+      "id": "v:期限切れ:きげんぎれ",
+      "kana": "きげんぎれ",
+      "kanji": "期限切れ",
+      "kf": "期限切[きげんぎ]れ",
+      "hv": "KỲ HẠN THIẾT",
+      "vi": "đã quá hạn, hết hạn",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "冷蔵庫[れいぞうこ]の牛乳[ぎゅうにゅう]が、期限切[きげんぎ]れになっていた。",
+          "vi": "Sữa trong tủ lạnh đã quá hạn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "期限切[きげんぎ]れの原料[げんりょう]は、絶対[ぜったい]に使[つか]わないでください。",
+          "vi": "Tuyệt đối không dùng nguyên liệu đã quá hạn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：このクーポン、使[つか]えますか。B：申[もう]し訳[わけ]ありません、期限切[きげんぎ]れです。",
+          "vi": "A: Phiếu giảm giá này dùng được không? B: Xin lỗi, đã hết hạn rồi ạ.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "rel": [
+        "v:期限:きげん",
+        "v:切れる:きれる"
+      ],
+      "note": "Thực phẩm: 賞味期限[しょうみきげん] (hạn dùng ngon), 消費期限[しょうひきげん] (hạn an toàn). Visa: 在留期限[ざいりゅうきげん] — để quá hạn là vi phạm nặng."
+    },
+    {
+      "id": "v:失効:しっこう",
+      "kana": "しっこう",
+      "kanji": "失効",
+      "hv": "THẤT HIỆU",
+      "vi": "hết hiệu lực (giấy phép, tư cách)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "更新[こうしん]を忘[わす]れて、運転免許[うんてんめんきょ]が失効[しっこう]してしまった。",
+          "vi": "Quên gia hạn nên bằng lái hết hiệu lực.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "ポイントは、一年[いちねん]使[つか]わないと失効[しっこう]します。",
+          "vi": "Điểm tích lũy không dùng trong một năm sẽ mất hiệu lực.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "免許[めんきょ]が失効[しっこう]する",
+          "vi": "bằng lái hết hiệu lực"
+        }
+      ],
+      "rel": [
+        "v:無効:むこう",
+        "v:有効:ゆうこう"
+      ],
+      "note": "Văn viết, giấy tờ. 無効[むこう] = vô hiệu (ngay từ đầu hoặc bị tuyên bố); 失効[しっこう] = đang có hiệu lực thì hết (do quá hạn)."
+    },
+    {
+      "id": "v:満了:まんりょう",
+      "kana": "まんりょう",
+      "kanji": "満了",
+      "hv": "MÃN LIỄU",
+      "vi": "mãn hạn, hết kỳ hạn (hợp đồng, nhiệm kỳ)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来年[らいねん]の三月[さんがつ]で、契約期間[けいやくきかん]が満了[まんりょう]する。",
+          "vi": "Tháng ba năm sau là hết thời hạn hợp đồng.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "アパートの契約[けいやく]が満了[まんりょう]する前[まえ]に、更新[こうしん]するかどうか決[き]めなければならない。",
+          "vi": "Trước khi hợp đồng thuê căn hộ hết hạn, phải quyết có gia hạn hay không.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "契約[けいやく]が満了[まんりょう]する",
+          "vi": "hợp đồng mãn hạn"
+        }
+      ],
+      "rel": [
+        "v:更新:こうしん"
+      ],
+      "note": "期間満了[きかんまんりょう] = hết thời hạn. Văn viết, hợp đồng."
+    },
+    {
+      "id": "v:延長:えんちょう",
+      "kana": "えんちょう",
+      "kanji": "延長",
+      "hv": "DIÊN TRƯỜNG",
+      "vi": "kéo dài thêm (thời gian, hạn)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "忙[いそが]しいので、今日[きょう]は作業時間[さぎょうじかん]を一時間[いちじかん]延長[えんちょう]します。",
+          "vi": "Vì bận nên hôm nay kéo dài giờ làm thêm một tiếng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "有料[ゆうりょう]で、保証期間[ほしょうきかん]を延長[えんちょう]することもできる。",
+          "vi": "Có thể trả phí để kéo dài thời hạn bảo hành.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：締[し]め切[き]り、延長[えんちょう]してもらえませんか。B：あと三日[みっか]なら、大丈夫[だいじょうぶ]ですよ。",
+          "vi": "A: Có thể lùi hạn chót cho tôi được không? B: Thêm ba ngày thì được.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "期間[きかん]を延長[えんちょう]する",
+          "vi": "kéo dài thời hạn"
+        },
+        {
+          "jp": "時間[じかん]を延長[えんちょう]する",
+          "vi": "kéo dài thời gian"
+        }
+      ],
+      "ant": [
+        {
+          "w": "短縮[たんしゅく]",
+          "vi": "rút ngắn"
+        }
+      ],
+      "rel": [
+        "v:延ばす:のばす"
+      ],
+      "note": "延長戦[えんちょうせん] = hiệp phụ. 延長保証[えんちょうほしょう] = bảo hành mở rộng (trả thêm phí)."
+    },
+    {
+      "id": "v:無償:むしょう",
+      "kana": "むしょう",
+      "kanji": "無償",
+      "hv": "VÔ THƯỜNG",
+      "vi": "không tính phí (văn viết)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "保証[ほしょう]期間内[きかんない]の故障[こしょう]は、無償[むしょう]で修理[しゅうり]いたします。",
+          "vi": "Hỏng hóc trong thời hạn bảo hành sẽ được sửa không tính phí.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "作業服[さぎょうふく]は、会社[かいしゃ]から無償[むしょう]で貸[か]し出[だ]される。",
+          "vi": "Đồ làm việc được công ty cho mượn không mất tiền.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        "v:有償:ゆうしょう"
+      ],
+      "syn": [
+        "v:無料:むりょう"
+      ],
+      "note": "Văn bản, hợp đồng thường dùng 無償[むしょう] thay 無料[むりょう]. 無償[むしょう]の愛[あい] = tình yêu vô điều kiện."
+    },
+    {
+      "id": "v:有償:ゆうしょう",
+      "kana": "ゆうしょう",
+      "kanji": "有償",
+      "hv": "HỮU THƯỜNG",
+      "vi": "có tính phí (văn viết)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "保証期間[ほしょうきかん]が過[す]ぎると、修理[しゅうり]は有償[ゆうしょう]になります。",
+          "vi": "Quá hạn bảo hành thì sửa phải tính phí.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "有償[ゆうしょう]のボランティアという働[はたら]き方[かた]もある。",
+          "vi": "Cũng có kiểu làm tình nguyện có thù lao.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:無償:むしょう"
+      ],
+      "syn": [
+        "v:有料:ゆうりょう"
+      ]
+    },
+    {
+      "id": "v:購入:こうにゅう",
+      "kana": "こうにゅう",
+      "kanji": "購入",
+      "hv": "CẤU NHẬP",
+      "vi": "mua vào (văn viết)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "商品[しょうひん]を購入[こうにゅう]する前[まえ]に、口[くち]コミを確認[かくにん]した。",
+          "vi": "Trước khi mua hàng tôi đã xem đánh giá.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "新[あたら]しい冷凍機[れいとうき]の購入[こうにゅう]が決[き]まった。",
+          "vi": "Đã quyết định mua máy cấp đông mới.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：このパソコン、いつ購入[こうにゅう]されましたか。B：去年[きょねん]の十月[じゅうがつ]です。保証書[ほしょうしょ]もあります。",
+          "vi": "A: Máy tính này quý khách mua khi nào ạ? B: Tháng mười năm ngoái. Tôi có cả phiếu bảo hành.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "商品[しょうひん]を購入[こうにゅう]する",
+          "vi": "mua hàng"
+        }
+      ],
+      "syn": [
+        "v:買う:かう"
+      ],
+      "note": "Văn viết, thông báo của 買[か]う. 購入日[こうにゅうび] = ngày mua; 購入者[こうにゅうしゃ] = người mua."
+    },
+    {
+      "id": "v:領収書:りょうしゅうしょ",
+      "kana": "りょうしゅうしょ",
+      "kanji": "領収書",
+      "hv": "LĨNH THU THƯ",
+      "vi": "biên lai thu tiền (ghi tên người trả)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "医療費[いりょうひ]の領収書[りょうしゅうしょ]は、確定申告[かくていしんこく]のために取[と]っておこう。",
+          "vi": "Biên lai chi phí y tế hãy giữ lại để khai thuế cuối năm.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "会社[かいしゃ]の物[もの]を買[か]ったときは、領収書[りょうしゅうしょ]をもらってください。",
+          "vi": "Khi mua đồ cho công ty, hãy lấy biên lai.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Khác レシート (phiếu in từ máy tính tiền): 領収書[りょうしゅうしょ] có ghi tên người trả, dùng để thanh toán với công ty. 領収書[りょうしゅうしょ]をください = cho tôi xin biên lai."
+    },
+    {
+      "id": "v:取り扱い:とりあつかい",
+      "kana": "とりあつかい",
+      "kanji": "取り扱い",
+      "kf": "取[と]り扱[あつか]い",
+      "hv": "THỦ TRÁP",
+      "vi": "cách sử dụng, xử lý (đồ vật); việc nhận làm (dịch vụ)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "刃物[はもの]の取[と]り扱[あつか]いには、十分[じゅうぶん]注意[ちゅうい]してください。",
+          "vi": "Hãy hết sức cẩn thận khi cầm dùng dao kéo.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "この郵便局[ゆうびんきょく]では、国際[こくさい]小包[こづつみ]の取[と]り扱[あつか]いもしている。",
+          "vi": "Bưu điện này cũng nhận gửi bưu kiện quốc tế.",
+          "ctx": "thutuc"
+        }
+      ],
+      "rel": [
+        "v:扱う:あつかう"
+      ],
+      "note": "取扱説明書[とりあつかいせつめいしょ] = sách hướng dẫn sử dụng (gọi tắt 取説[とりせつ]). 取[と]り扱[あつか]い注意[ちゅうい] = hàng dễ vỡ, cẩn thận."
+    },
+    {
+      "id": "v:保管:ほかん",
+      "kana": "ほかん",
+      "kanji": "保管",
+      "hv": "BẢO QUẢN",
+      "vi": "bảo quản, cất giữ cẩn thận (đồ, giấy tờ)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "保証書[ほしょうしょ]は、大切[たいせつ]に保管[ほかん]しておいてください。",
+          "vi": "Phiếu bảo hành hãy cất giữ cẩn thận.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "包丁[ほうちょう]は、使[つか]った後[あと]、決[き]められた場所[ばしょ]に保管[ほかん]する。",
+          "vi": "Dao dùng xong cất vào chỗ đã quy định.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：去年[きょねん]の源泉徴収票[げんせんちょうしゅうひょう]、まだある？B：うん、ファイルに保管[ほかん]してあるよ。",
+          "vi": "A: Phiếu khấu trừ thuế năm ngoái còn không? B: Còn, tôi cất trong tập hồ sơ.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "書類[しょるい]を保管[ほかん]する",
+          "vi": "cất giữ giấy tờ"
+        }
+      ],
+      "confuse": [
+        "v:保存:ほぞん"
+      ],
+      "note": "保存[ほぞん] = giữ cho không hỏng (thực phẩm, dữ liệu); 保管[ほかん] = giữ đồ ở chỗ an toàn (giấy tờ, đồ quý, dụng cụ)."
+    },
+    {
+      "id": "v:注意書き:ちゅういがき",
+      "kana": "ちゅういがき",
+      "kanji": "注意書き",
+      "kf": "注意書[ちゅういが]き",
+      "hv": "CHÚ Ý THƯ",
+      "vi": "dòng lưu ý, chú ý (in trên sản phẩm, giấy tờ)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bảo hành",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "薬[くすり]を飲[の]む前[まえ]に、注意書[ちゅういが]きをよく読[よ]んでください。",
+          "vi": "Trước khi uống thuốc hãy đọc kỹ phần lưu ý.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "洗剤[せんざい]の注意書[ちゅういが]きに、「混[ま]ぜるな危険[きけん]」と書[か]いてある。",
+          "vi": "Trên phần lưu ý của nước tẩy có ghi \"Cấm trộn, nguy hiểm\".",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:注意:ちゅうい"
+      ],
+      "note": "〜書[が]き = phần ghi: 注意書[ちゅういが]き, 但[ただ]し書[が]き (phần ghi chú \"tuy nhiên\")."
+    },
+    {
+      "id": "v:原則:げんそく",
+      "kana": "げんそく",
+      "kanji": "原則",
+      "hv": "NGUYÊN TẮC",
+      "vi": "nguyên tắc chung (có thể có ngoại lệ)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "原則[げんそく]として、休[やす]みの日[ひ]は一[いっ]か月[げつ]前[まえ]に申請[しんせい]してください。",
+          "vi": "Theo nguyên tắc, ngày nghỉ hãy xin trước một tháng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "市役所[しやくしょ]の手続[てつづ]きは、原則[げんそく]、本人[ほんにん]が行[おこな]うことになっている。",
+          "vi": "Thủ tục ở tòa thị chính về nguyên tắc do chính người đó làm.",
+          "ctx": "thutuc"
+        }
+      ],
+      "rel": [
+        "v:例外:れいがい"
+      ],
+      "note": "原則[げんそく]として = về nguyên tắc (thường ngầm hiểu có ngoại lệ). Hay gặp trong thông báo, nội quy."
+    },
+    {
+      "id": "v:規定:きてい",
+      "kana": "きてい",
+      "kanji": "規定",
+      "hv": "QUY ĐỊNH",
+      "vi": "quy định thành văn (điều khoản)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]の規定[きてい]により、制服[せいふく]は持[も]ち帰[かえ]れません。",
+          "vi": "Theo quy định của công ty, không được mang đồng phục về nhà.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "規定[きてい]の用紙[ようし]に記入[きにゅう]して、窓口[まどぐち]に出[だ]してください。",
+          "vi": "Điền vào mẫu giấy quy định rồi nộp ở quầy.",
+          "ctx": "thutuc"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "規則[きそく]で規定[きてい]する",
+          "vi": "quy định trong nội quy"
+        }
+      ],
+      "rel": [
+        "v:規則:きそく",
+        "v:決まり:きまり"
+      ],
+      "note": "規定[きてい] = điều quy định cụ thể trong văn bản (規定[きてい]の料金[りょうきん] = mức phí quy định)."
+    },
+    {
+      "id": "v:所定:しょてい",
+      "kana": "しょてい",
+      "kanji": "所定",
+      "hv": "SỞ ĐỊNH",
+      "vi": "(theo mẫu, nơi, cách) đã quy định sẵn",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "所定[しょてい]の用紙[ようし]に記入[きにゅう]して、提出[ていしゅつ]してください。",
+          "vi": "Hãy điền vào mẫu giấy quy định rồi nộp.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "ごみは、所定[しょてい]の場所[ばしょ]に出[だ]してください。",
+          "vi": "Rác hãy đổ ở nơi quy định.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Luôn dùng dạng 所定[しょてい]の〜: 所定[しょてい]の場所[ばしょ] / 用紙[ようし] / 時間[じかん]. 所定労働時間[しょていろうどうじかん] = giờ làm theo quy định."
+    },
+    {
+      "id": "v:条件付き:じょうけんつき",
+      "kana": "じょうけんつき",
+      "kanji": "条件付き",
+      "kf": "条件付[じょうけんつ]き",
+      "hv": "ĐIỀU KIỆN PHÓ",
+      "vi": "có kèm điều kiện",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "条件[じょうけん]付[つ]きで、アパートを借[か]りられることになった。",
+          "vi": "Tôi được thuê căn hộ với điều kiện kèm theo.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "「残業[ざんぎょう]がないなら」という条件[じょうけん]付[つ]きで、その仕事[しごと]を引[ひ]き受[う]けた。",
+          "vi": "Tôi nhận việc đó với điều kiện \"không phải tăng ca\".",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:条件:じょうけん"
+      ],
+      "note": "〜付[つ]き = có kèm: 保証付[ほしょうつ]き, 食事付[しょくじつ]き."
+    },
+    {
+      "id": "v:前提:ぜんてい",
+      "kana": "ぜんてい",
+      "kanji": "前提",
+      "hv": "TIỀN ĐỀ",
+      "vi": "tiền đề, điều kiện tiên quyết",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本語[にほんご]が話[はな]せることが、採用[さいよう]の前提[ぜんてい]です。",
+          "vi": "Nói được tiếng Nhật là điều kiện tiên quyết để được tuyển.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "安全[あんぜん]を前提[ぜんてい]に、作業[さぎょう]の速[はや]さを考[かんが]えてください。",
+          "vi": "Hãy nghĩ tới tốc độ làm việc trên tiền đề an toàn.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:条件:じょうけん"
+      ],
+      "note": "〜を前提[ぜんてい]に / 〜を前提[ぜんてい]として = lấy … làm tiền đề. 結婚[けっこん]を前提[ぜんてい]に付[つ]き合[あ]う = hẹn hò nghiêm túc tiến tới hôn nhân. 前提条件[ぜんていじょうけん] = điều kiện tiên quyết."
+    },
+    {
+      "id": "v:除外:じょがい",
+      "kana": "じょがい",
+      "kanji": "除外",
+      "hv": "TRỪ NGOẠI",
+      "vi": "gạt ra, không tính vào (phạm vi, danh sách)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "傷[きず]のある魚[さかな]は、出荷[しゅっか]から除外[じょがい]する。",
+          "vi": "Cá bị trầy xước thì loại khỏi lô xuất hàng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "セール品[ひん]は、割引[わりびき]の対象[たいしょう]から除外[じょがい]されています。",
+          "vi": "Hàng giảm giá được loại ra khỏi đối tượng chiết khấu.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "対象[たいしょう]から除外[じょがい]する",
+          "vi": "loại khỏi đối tượng"
+        }
+      ],
+      "rel": [
+        "v:除く:のぞく"
+      ],
+      "note": "Văn viết của 除[のぞ]く."
+    },
+    {
+      "id": "v:対象外:たいしょうがい",
+      "kana": "たいしょうがい",
+      "kanji": "対象外",
+      "hv": "ĐỐI TƯỢNG NGOẠI",
+      "vi": "không thuộc đối tượng (áp dụng)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このセールは、お酒[さけ]は対象外[たいしょうがい]です。",
+          "vi": "Đợt giảm giá này không áp dụng cho rượu.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "収入[しゅうにゅう]が多[おお]い人[ひと]は、この手当[てあて]の対象外[たいしょうがい]になります。",
+          "vi": "Người thu nhập cao không thuộc diện nhận trợ cấp này.",
+          "ctx": "thutuc"
+        }
+      ],
+      "rel": [
+        "v:対象:たいしょう"
+      ],
+      "note": "〜外[がい] = ngoài: 対象外[たいしょうがい], 範囲外[はんいがい], 想定外[そうていがい]."
+    },
+    {
+      "id": "v:該当者:がいとうしゃ",
+      "kana": "がいとうしゃ",
+      "kanji": "該当者",
+      "hv": "CAI ĐƯƠNG GIẢ",
+      "vi": "người khớp điều kiện (được nêu ra)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "該当者[がいとうしゃ]は、来週[らいしゅう]までに書類[しょるい]を出[だ]してください。",
+          "vi": "Người thuộc diện hãy nộp giấy tờ trước tuần sau.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "健康診断[けんこうしんだん]で、該当者[がいとうしゃ]には再検査[さいけんさ]のお知[し]らせが届[とど]く。",
+          "vi": "Ở khám sức khỏe, người thuộc diện sẽ nhận thông báo khám lại.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:該当:がいとう"
+      ],
+      "ctr": "人",
+      "note": "該当[がいとう]する方[かた] = người thuộc diện (lịch sự hơn)."
+    },
+    {
+      "id": "v:有資格者:ゆうしかくしゃ",
+      "kana": "ゆうしかくしゃ",
+      "kanji": "有資格者",
+      "hv": "HỮU TƯ CÁCH GIẢ",
+      "vi": "người có chứng chỉ (bằng cấp phù hợp)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "フォークリフトは、有[ゆう]資格者[しかくしゃ]しか運転[うんてん]できない。",
+          "vi": "Xe nâng chỉ người có chứng chỉ mới được lái.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "求人[きゅうじん]に「有[ゆう]資格者[しかくしゃ]優遇[ゆうぐう]」と書[か]いてある。",
+          "vi": "Tin tuyển dụng ghi \"ưu tiên người có chứng chỉ\".",
+          "ctx": "thutuc"
+        }
+      ],
+      "rel": [
+        "v:資格:しかく"
+      ],
+      "ctr": "人",
+      "note": "有[ゆう]〜 = có …: 有資格[ゆうしかく], 有料[ゆうりょう], 有効[ゆうこう]."
+    },
+    {
+      "id": "v:適正:てきせい",
+      "kana": "てきせい",
+      "kanji": "適正",
+      "hv": "THÍCH CHÍNH",
+      "vi": "đúng mức chuẩn (giá, nhiệt độ, số lượng)",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "冷凍庫[れいとうこ]の温度[おんど]が適正[てきせい]か、毎日[まいにち]チェックする。",
+          "vi": "Hằng ngày kiểm tra nhiệt độ tủ cấp đông có đúng mức không.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "適正[てきせい]な価格[かかく]で、取引[とりひき]をしたい。",
+          "vi": "Muốn giao dịch với giá hợp lý.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：この家賃[やちん]、ちょっと高[たか]くない？B：駅[えき]に近[ちか]いから、適正[てきせい]だと思[おも]うよ。",
+          "vi": "A: Tiền nhà này hơi đắt nhỉ? B: Gần ga nên tôi nghĩ là hợp lý đấy.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "価格[かかく]",
+          "vi": "giá"
+        },
+        {
+          "jp": "温度[おんど]",
+          "vi": "nhiệt độ"
+        }
+      ],
+      "ant": [
+        "v:不適切:ふてきせつ"
+      ],
+      "confuse": [
+        "v:適切:てきせつ"
+      ],
+      "note": "適切[てきせつ] = thích đáng, phù hợp với tình huống (lời nói, cách xử lý); 適正[てきせい] = đúng mức chuẩn (giá, nhiệt độ, số người)."
+    },
+    {
+      "id": "v:不適切:ふてきせつ",
+      "kana": "ふてきせつ",
+      "kanji": "不適切",
+      "hv": "BẤT THÍCH THIẾT",
+      "vi": "không thích đáng, không phù hợp",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "職場[しょくば]で、不適切[ふてきせつ]な発言[はつげん]をしてはいけない。",
+          "vi": "Ở chỗ làm không được phát ngôn không phù hợp.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "不適切[ふてきせつ]な温度[おんど]で保存[ほぞん]すると、細菌[さいきん]が増[ふ]える。",
+          "vi": "Bảo quản ở nhiệt độ không phù hợp thì vi khuẩn sinh sôi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：その写真[しゃしん]、SNSに載[の]せていいの？B：あ、ちょっと不適切[ふてきせつ]かも。やめておく。",
+          "vi": "A: Ảnh đó đăng lên mạng xã hội được không? B: À, có khi không hợp. Thôi không đăng.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "発言[はつげん]",
+          "vi": "phát ngôn"
+        },
+        {
+          "jp": "表現[ひょうげん]",
+          "vi": "cách diễn đạt"
+        }
+      ],
+      "ant": [
+        "v:適切:てきせつ"
+      ]
+    },
+    {
+      "id": "v:一律:いちりつ",
+      "kana": "いちりつ",
+      "kanji": "一律",
+      "hv": "NHẤT LUẬT",
+      "vi": "đồng loạt, như nhau (cho tất cả)",
+      "pos": "adv",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "交通費[こうつうひ]は、全員[ぜんいん]一律[いちりつ]で月[つき]五千円[ごせんえん]です。",
+          "vi": "Tiền đi lại mọi người như nhau, mỗi tháng năm nghìn yên.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "店内[てんない]の商品[しょうひん]は、一律[いちりつ]三百円[さんびゃくえん]です。",
+          "vi": "Hàng trong cửa hàng đồng giá ba trăm yên.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Cũng dùng như danh từ: 一律[いちりつ]の料金[りょうきん] = mức phí chung."
+    },
+    {
+      "id": "v:各自:かくじ",
+      "kana": "かくじ",
+      "kanji": "各自",
+      "hv": "CÁC TỰ",
+      "vi": "mỗi người (tự làm phần mình)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "昼[ひる]ご飯[はん]は、各自[かくじ]で用意[ようい]してください。",
+          "vi": "Cơm trưa mỗi người tự chuẩn bị.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "必要[ひつよう]な書類[しょるい]は、各自[かくじ]で市役所[しやくしょ]に取[と]りに行[い]ってください。",
+          "vi": "Giấy tờ cần thiết mỗi người tự lên tòa thị chính lấy.",
+          "ctx": "thutuc"
+        }
+      ],
+      "rel": [
+        "v:それぞれ:それぞれ"
+      ],
+      "note": "Hay gặp trong thông báo: 各自[かくじ]持参[じさん] = mỗi người tự mang theo."
+    },
+    {
+      "id": "v:見なす:みなす",
+      "kana": "みなす",
+      "kanji": "見なす",
+      "kf": "見[み]なす",
+      "hv": "KIẾN",
+      "vi": "coi như, xem là (theo quy định)",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Quy định",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "連絡[れんらく]なしで休[やす]むと、欠勤[けっきん]と見[み]なされます。",
+          "vi": "Nghỉ mà không báo sẽ bị coi là vắng mặt không phép.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "期限[きげん]までに返事[へんじ]がない場合[ばあい]は、参加[さんか]しないものと見[み]なします。",
+          "vi": "Nếu tới hạn không trả lời, sẽ coi như không tham gia.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：書類[しょるい]にサインがないと、どうなりますか。B：未提出[みていしゅつ]と見[み]なされるので、気[き]をつけてください。",
+          "vi": "A: Giấy tờ không có chữ ký thì sao ạ? B: Sẽ bị coi như chưa nộp, nên hãy cẩn thận.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "欠勤[けっきん]と見[み]なす",
+          "vi": "coi là vắng mặt"
+        }
+      ],
+      "fx": [
+        {
+          "f": "ukemi",
+          "jp": "遅[おく]れて出[だ]した書類[しょるい]は、無効[むこう]と[[見[み]なされ]]ます。",
+          "vi": "Giấy tờ nộp muộn bị coi là không hợp lệ."
+        }
+      ],
+      "note": "Hay dùng bị động 〜と見[み]なされる. Chữ Hán đầy đủ: 見做[みな]す (ít dùng)."
+    },
+    {
+      "id": "v:範囲内:はんいない",
+      "kana": "はんいない",
+      "kanji": "範囲内",
+      "hv": "PHẠM VI NỘI",
+      "vi": "trong phạm vi",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phạm vi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "予算[よさん]の範囲[はんい]内[ない]で、引[ひ]っ越[こ]しの業者[ぎょうしゃ]を選[えら]んだ。",
+          "vi": "Chọn công ty chuyển nhà trong phạm vi ngân sách.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "温度[おんど]が基準[きじゅん]の範囲[はんい]内[ない]か、確認[かくにん]してから記録[きろく]する。",
+          "vi": "Kiểm tra nhiệt độ có trong phạm vi tiêu chuẩn không rồi mới ghi.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        "v:範囲外:はんいがい"
+      ],
+      "rel": [
+        "v:範囲:はんい"
+      ]
+    },
+    {
+      "id": "v:範囲外:はんいがい",
+      "kana": "はんいがい",
+      "kanji": "範囲外",
+      "hv": "PHẠM VI NGOẠI",
+      "vi": "ngoài phạm vi",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phạm vi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この住所[じゅうしょ]は、配達[はいたつ]の範囲[はんい]外[がい]だそうだ。",
+          "vi": "Nghe nói địa chỉ này nằm ngoài phạm vi giao hàng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "試験[しけん]の範囲[はんい]外[がい]の問題[もんだい]が出[で]て、驚[おどろ]いた。",
+          "vi": "Có câu hỏi ngoài phạm vi ôn thi, tôi bất ngờ.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:範囲内:はんいない"
+      ],
+      "rel": [
+        "v:範囲:はんい"
+      ]
+    },
+    {
+      "id": "v:限度:げんど",
+      "kana": "げんど",
+      "kanji": "限度",
+      "hv": "HẠN ĐỘ",
+      "vi": "hạn mức (tối đa cho phép)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phạm vi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "カードの利用[りよう]限度[げんど]を超[こ]えて、買[か]い物[もの]ができなかった。",
+          "vi": "Vượt hạn mức sử dụng thẻ nên không mua được.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "我慢[がまん]にも限度[げんど]がある。",
+          "vi": "Nhẫn nhịn cũng có giới hạn.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:上限:じょうげん",
+        "v:限界:げんかい"
+      ],
+      "note": "限度額[げんどがく] = số tiền hạn mức. 限界[げんかい] = giới hạn sức chịu đựng; 限度[げんど] = mức tối đa được phép."
+    },
+    {
+      "id": "v:上限:じょうげん",
+      "kana": "じょうげん",
+      "kanji": "上限",
+      "hv": "THƯỢNG HẠN",
+      "vi": "mức trần, giới hạn trên",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phạm vi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "残業時間[ざんぎょうじかん]には、上限[じょうげん]がある。",
+          "vi": "Giờ tăng ca có mức trần.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "一人[ひとり]三[みっ]つまでと、購入[こうにゅう]数[かず]に上限[じょうげん]があった。",
+          "vi": "Số lượng mua có giới hạn trên, mỗi người tối đa ba cái.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:下限:かげん"
+      ],
+      "rel": [
+        "v:限度:げんど"
+      ]
+    },
+    {
+      "id": "v:下限:かげん",
+      "kana": "かげん",
+      "kanji": "下限",
+      "hv": "HẠ HẠN",
+      "vi": "mức sàn, giới hạn dưới",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phạm vi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "冷蔵庫[れいぞうこ]の温度[おんど]の下限[かげん]と上限[じょうげん]を、紙[かみ]に書[か]いて貼[は]った。",
+          "vi": "Tôi viết mức dưới và mức trên của nhiệt độ tủ lạnh ra giấy rồi dán lên.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "給料[きゅうりょう]の下限[かげん]は、法律[ほうりつ]で決[き]められている。",
+          "vi": "Mức lương thấp nhất được luật quy định.",
+          "ctx": "thutuc"
+        }
+      ],
+      "ant": [
+        "v:上限:じょうげん"
+      ],
+      "note": "Đồng âm: 加減[かげん] (mức độ, gia giảm)."
+    },
+    {
+      "id": "v:最大:さいだい",
+      "kana": "さいだい",
+      "kanji": "最大",
+      "hv": "TỐI ĐẠI",
+      "vi": "lớn nhất (về kích thước, số lượng)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phạm vi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この冷凍庫[れいとうこ]には、最大[さいだい]で五百[ごひゃく]キロ入[はい]る。",
+          "vi": "Tủ cấp đông này chứa tối đa năm trăm ký.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "台風[たいふう]が、最大[さいだい]の勢力[せいりょく]で近[ちか]づいている。",
+          "vi": "Bão đang tiến lại gần với sức mạnh lớn nhất.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:最小:さいしょう"
+      ],
+      "note": "最大[さいだい]〜 = tối đa …: 最大[さいだい]五割[ごわり]引[びき] = giảm tối đa 50%."
+    },
+    {
+      "id": "v:最小:さいしょう",
+      "kana": "さいしょう",
+      "kanji": "最小",
+      "hv": "TỐI TIỂU",
+      "vi": "nhỏ nhất (về kích thước, số lượng)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phạm vi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "被害[ひがい]を最小[さいしょう]に抑[おさ]えるため、すぐ機械[きかい]を止[と]めた。",
+          "vi": "Để giảm thiệt hại xuống nhỏ nhất, đã dừng máy ngay.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "これは、世界[せかい]最小[さいしょう]のカメラだそうだ。",
+          "vi": "Nghe nói đây là máy ảnh nhỏ nhất thế giới.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:最大:さいだい"
+      ],
+      "confuse": [
+        "v:最低限:さいていげん"
+      ]
+    },
+    {
+      "id": "v:最低限:さいていげん",
+      "kana": "さいていげん",
+      "kanji": "最低限",
+      "hv": "TỐI ĐÊ HẠN",
+      "vi": "mức tối thiểu (cần có)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phạm vi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "最低限[さいていげん]のルールは、守[まも]ってください。",
+          "vi": "Những quy tắc tối thiểu thì hãy giữ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日本[にほん]で暮[く]らすには、最低限[さいていげん]の日本語[にほんご]が必要[ひつよう]だ。",
+          "vi": "Sống ở Nhật cần vốn tiếng Nhật tối thiểu.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:最大限:さいだいげん"
+      ],
+      "confuse": [
+        "v:最小:さいしょう"
+      ],
+      "note": "最低限[さいていげん] = mức thấp nhất phải có (cần thiết); 最小[さいしょう] = nhỏ nhất (kích thước, số lượng)."
+    },
+    {
+      "id": "v:最大限:さいだいげん",
+      "kana": "さいだいげん",
+      "kanji": "最大限",
+      "hv": "TỐI ĐẠI HẠN",
+      "vi": "mức tối đa (có thể làm được)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phạm vi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "お客様[きゃくさま]の要望[ようぼう]に、最大限[さいだいげん]応[こた]えたい。",
+          "vi": "Muốn đáp ứng yêu cầu của khách hết mức có thể.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "時間[じかん]を最大限[さいだいげん]に使[つか]って、勉強[べんきょう]している。",
+          "vi": "Tận dụng tối đa thời gian để học.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:最低限:さいていげん"
+      ],
+      "note": "最大限[さいだいげん]に生[い]かす = tận dụng tối đa."
+    },
+    {
+      "id": "v:未満:みまん",
+      "kana": "みまん",
+      "kanji": "未満",
+      "hv": "VỊ MÃN",
+      "vi": "chưa tới, dưới mức (không tính mốc)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phạm vi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この店[みせ]では、三歳[さんさい]未満[みまん]の子[こ]どもは無料[むりょう]です。",
+          "vi": "Ở quán này trẻ dưới ba tuổi được miễn phí.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "重[おも]さが基準[きじゅん]未満[みまん]の魚[さかな]は、別[べつ]のかごに入[い]れる。",
+          "vi": "Cá nhẹ hơn mức chuẩn thì bỏ vào giỏ khác.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:以下:いか"
+      ],
+      "note": "以下[いか] tính cả mốc (3以下[いか] = 3, 2, 1…); 未満[みまん] không tính mốc (3未満[みまん] = dưới 3)."
+    },
+    {
+      "id": "v:超過:ちょうか",
+      "kana": "ちょうか",
+      "kanji": "超過",
+      "hv": "SIÊU QUÁ",
+      "vi": "vượt mức (quy định)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phạm vi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "荷物[にもつ]の重[おも]さが超過[ちょうか]して、追加料金[ついかりょうきん]を払[はら]った。",
+          "vi": "Hành lý vượt cân nên phải trả phí thêm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "今月[こんげつ]は、残業[ざんぎょう]が予定[よてい]を超過[ちょうか]した。",
+          "vi": "Tháng này giờ tăng ca vượt quá dự kiến.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "時間[じかん]を超過[ちょうか]する",
+          "vi": "vượt quá thời gian"
+        }
+      ],
+      "rel": [
+        "v:超える:こえる"
+      ],
+      "note": "超過料金[ちょうかりょうきん] = phí vượt mức. 超過勤務[ちょうかきんむ] = làm vượt giờ (văn viết của 残業[ざんぎょう])."
+    },
+    {
+      "id": "v:満たす:みたす",
+      "kana": "みたす",
+      "kanji": "満たす",
+      "kf": "満[み]たす",
+      "hv": "MÃN",
+      "vi": "đạt đủ, thỏa mãn (điều kiện); rót đầy",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phạm vi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "条件[じょうけん]を満[み]たせば、だれでも申[もう]し込[こ]めます。",
+          "vi": "Đáp ứng điều kiện thì ai cũng đăng ký được.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "コップに水[みず]を満[み]たした。",
+          "vi": "Rót đầy nước vào cốc.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：特定[とくてい]技能[ぎのう]二号[にごう]の条件[じょうけん]、もう満[み]たしてる？B：試験[しけん]に受[う]かれば、満[み]たせると思[おも]います。",
+          "vi": "A: Anh đã đủ điều kiện kỹ năng đặc định số 2 chưa? B: Nếu đỗ kỳ thi thì tôi nghĩ là đủ.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "条件[じょうけん]を満[み]たす",
+          "vi": "đáp ứng điều kiện"
+        },
+        {
+          "jp": "お腹[なか]を満[み]たす",
+          "vi": "ăn no bụng"
+        }
+      ],
+      "pair": "v:満ちる:みちる",
+      "note": "基準[きじゅん]を満[み]たす = đạt tiêu chuẩn."
+    },
+    {
+      "id": "v:無制限:むせいげん",
+      "kana": "むせいげん",
+      "kanji": "無制限",
+      "hv": "VÔ CHẾ HẠN",
+      "vi": "không giới hạn",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Phạm vi",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このプランは、データが無制限[むせいげん]で使[つか]える。",
+          "vi": "Gói này dùng dữ liệu không giới hạn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "飲[の]み物[もの]は、時間[じかん]内[ない]なら無制限[むせいげん]におかわりできます。",
+          "vi": "Đồ uống thì trong thời gian quy định được gọi thêm không giới hạn.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:制限:せいげん"
+      ],
+      "note": "Dùng như tính từ な: 無制限[むせいげん]な / に."
+    },
+    {
+      "id": "v:及び:および",
+      "kana": "および",
+      "kanji": "及び",
+      "kf": "及[およ]び",
+      "hv": "CẬP",
+      "vi": "và (văn bản, liệt kê)",
+      "pos": "other",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thông tin",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "申込書[もうしこみしょ]及[およ]び身分証明書[みぶんしょうめいしょ]を、窓口[まどぐち]に出[だ]してください。",
+          "vi": "Hãy nộp đơn đăng ký và giấy tờ tùy thân ở quầy.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "工場[こうじょう]内[ない]での喫煙[きつえん]及[およ]び飲食[いんしょく]は、禁止[きんし]されています。",
+          "vi": "Hút thuốc và ăn uống trong nhà máy bị cấm.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:または:または"
+      ],
+      "note": "Văn bản, thông báo; nói thường: と, や. Không dùng trong hội thoại thân mật."
+    },
+    {
+      "id": "v:もしくは:もしくは",
+      "kana": "もしくは",
+      "kanji": "",
+      "hv": "",
+      "vi": "hoặc (văn bản)",
+      "pos": "other",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thông tin",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "電話[でんわ]もしくはメールで、ご連絡[れんらく]ください。",
+          "vi": "Xin liên lạc bằng điện thoại hoặc email.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "在留[ざいりゅう]カード、もしくはパスポートを見[み]せてください。",
+          "vi": "Hãy xuất trình thẻ cư trú hoặc hộ chiếu.",
+          "ctx": "thutuc"
+        }
+      ],
+      "confuse": [
+        "v:または:または"
+      ],
+      "note": "Văn viết; nghĩa giống または. Chữ Hán: 若[も]しくは (ít dùng)."
+    },
+    {
+      "id": "v:各種:かくしゅ",
+      "kana": "かくしゅ",
+      "kanji": "各種",
+      "hv": "CÁC CHỦNG",
+      "vi": "các loại",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thông tin",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "市役所[しやくしょ]で、各種[かくしゅ]証明書[しょうめいしょ]を発行[はっこう]している。",
+          "vi": "Tòa thị chính cấp các loại giấy chứng nhận.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "当店[とうてん]では、各種[かくしゅ]カードがご利用[りよう]いただけます。",
+          "vi": "Cửa hàng chúng tôi chấp nhận các loại thẻ.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:種類:しゅるい",
+        "v:様々:さまざま"
+      ],
+      "note": "Văn viết, thông báo. 各[かく]〜 = mỗi …: 各自[かくじ], 各地[かくち]."
+    },
+    {
+      "id": "v:公開:こうかい",
+      "kana": "こうかい",
+      "kanji": "公開",
+      "hv": "CÔNG KHAI",
+      "vi": "công khai, cho công chúng xem",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thông tin",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新[あたら]しい映画[えいが]が、来月[らいげつ]公開[こうかい]される。",
+          "vi": "Phim mới sẽ công chiếu tháng sau.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "個人情報[こじんじょうほう]は、許可[きょか]なく公開[こうかい]してはいけない。",
+          "vi": "Không được công khai thông tin cá nhân khi chưa được phép.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：工場見学[こうじょうけんがく]って、だれでもできるの？B：一般[いっぱん]公開[こうかい]は、年[ねん]に一回[いっかい]だけなんだ。",
+          "vi": "A: Tham quan nhà máy thì ai cũng được à? B: Mở cửa cho công chúng chỉ một năm một lần thôi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "情報[じょうほう]を公開[こうかい]する",
+          "vi": "công khai thông tin"
+        }
+      ],
+      "ant": [
+        {
+          "w": "非公開[ひこうかい]",
+          "vi": "không công khai"
+        }
+      ],
+      "rel": [
+        "v:発表:はっぴょう"
+      ]
+    },
+    {
+      "id": "v:提供:ていきょう",
+      "kana": "ていきょう",
+      "kanji": "提供",
+      "hv": "ĐỀ CUNG",
+      "vi": "cung cấp cho (khách, người dùng); tài trợ (chương trình)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thông tin",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]は、社員[しゃいん]に寮[りょう]を提供[ていきょう]している。",
+          "vi": "Công ty cung cấp ký túc xá cho nhân viên.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "この番組[ばんぐみ]は、地元[じもと]の会社[かいしゃ]の提供[ていきょう]でお送[おく]りしています。",
+          "vi": "Chương trình này được tài trợ bởi công ty địa phương.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：個人情報[こじんじょうほう]を提供[ていきょう]しても、大丈夫[だいじょうぶ]ですか。B：はい、手続[てつづ]き以外[いがい]には使[つか]いません。",
+          "vi": "A: Cung cấp thông tin cá nhân có ổn không ạ? B: Vâng, chúng tôi không dùng ngoài việc làm thủ tục.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "情報[じょうほう]を提供[ていきょう]する",
+          "vi": "cung cấp thông tin"
+        },
+        {
+          "jp": "サービスを提供[ていきょう]する",
+          "vi": "cung cấp dịch vụ"
+        }
+      ],
+      "rel": [
+        "v:与える:あたえる"
+      ]
+    },
+    {
+      "id": "v:不明:ふめい",
+      "kana": "ふめい",
+      "kanji": "不明",
+      "hv": "BẤT MINH",
+      "vi": "chưa rõ, không rõ (thông tin)",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thông tin",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "事故[じこ]の原因[げんいん]は、まだ不明[ふめい]です。",
+          "vi": "Nguyên nhân tai nạn vẫn chưa rõ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "不明[ふめい]な点[てん]があれば、窓口[まどぐち]でお聞[き]きください。",
+          "vi": "Có điểm nào chưa rõ xin hỏi tại quầy.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：この荷物[にもつ]、だれのですか。B：送[おく]り主[ぬし]が不明[ふめい]なんです。",
+          "vi": "A: Gói hàng này của ai vậy? B: Không rõ người gửi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "原因[げんいん]",
+          "vi": "nguyên nhân"
+        },
+        {
+          "jp": "点[てん]",
+          "vi": "điểm"
+        }
+      ],
+      "rel": [
+        "v:曖昧:あいまい"
+      ],
+      "note": "行方不明[ゆくえふめい] = mất tích. 不明点[ふめいてん] = điểm chưa rõ."
+    },
+    {
+      "id": "v:不確か:ふたしか",
+      "kana": "ふたしか",
+      "kanji": "不確か",
+      "kf": "不確[ふたし]か",
+      "hv": "BẤT XÁC",
+      "vi": "không chắc chắn, không đáng tin (thông tin)",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thông tin",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "不確[ふたし]かな情報[じょうほう]を、人[ひと]に話[はな]さないでください。",
+          "vi": "Đừng nói với người khác những thông tin chưa chắc chắn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "記憶[きおく]が不確[ふたし]かなので、記録[きろく]を確認[かくにん]します。",
+          "vi": "Trí nhớ không chắc nên tôi xem lại ghi chép.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：明日[あした]は休[やす]みだって、本当[ほんとう]？B：ごめん、ちょっと不確[ふたし]かだから、班長[はんちょう]に聞[き]いてみて。",
+          "vi": "A: Nghe nói mai được nghỉ, thật không? B: Xin lỗi, tôi không chắc lắm, cậu hỏi tổ trưởng thử đi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "情報[じょうほう]",
+          "vi": "thông tin"
+        },
+        {
+          "jp": "記憶[きおく]",
+          "vi": "trí nhớ"
+        }
+      ],
+      "ant": [
+        "v:確か:たしか"
+      ]
+    },
+    {
+      "id": "v:所持:しょじ",
+      "kana": "しょじ",
+      "kanji": "所持",
+      "hv": "SỞ TRÌ",
+      "vi": "mang theo người, có trong tay (giấy tờ, vật)",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thông tin",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "外国人[がいこくじん]は、在留[ざいりゅう]カードを常[つね]に所持[しょじ]しなければならない。",
+          "vi": "Người nước ngoài phải luôn mang theo thẻ cư trú.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "刃物[はもの]の所持[しょじ]は、決[き]められた場所[ばしょ]以外[いがい]では禁止[きんし]だ。",
+          "vi": "Mang dao kéo ngoài nơi quy định là bị cấm.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "在留[ざいりゅう]カードを所持[しょじ]する",
+          "vi": "mang theo thẻ cư trú"
+        }
+      ],
+      "rel": [
+        "v:持つ:もつ"
+      ],
+      "note": "Văn viết, luật. 所持品[しょじひん] = đồ mang theo người; 所持金[しょじきん] = tiền mang theo."
+    },
+    {
+      "id": "v:有する:ゆうする",
+      "kana": "ゆうする",
+      "kanji": "有する",
+      "kf": "有[ゆう]する",
+      "hv": "HỮU",
+      "vi": "có, sở hữu (văn viết)",
+      "pos": "v3",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thông tin",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "申込者[もうしこみしゃ]は、日本語[にほんご]能力[のうりょく]を有[ゆう]することが条件[じょうけん]です。",
+          "vi": "Điều kiện là người đăng ký phải có năng lực tiếng Nhật.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "この会社[かいしゃ]は、高[たか]い冷凍[れいとう]技術[ぎじゅつ]を有[ゆう]している。",
+          "vi": "Công ty này có kỹ thuật cấp đông cao.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：「有[ゆう]する」って、どういう意味[いみ]ですか。B：「持[も]っている」の硬[かた]い言[い]い方[かた]だよ。",
+          "vi": "A: \"ゆうする\" nghĩa là gì ạ? B: Là cách nói trang trọng của \"もっている\" (đang có) đấy.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "資格[しかく]を有[ゆう]する",
+          "vi": "có chứng chỉ"
+        },
+        {
+          "jp": "権利[けんり]を有[ゆう]する",
+          "vi": "có quyền"
+        }
+      ],
+      "rel": [
+        "v:持つ:もつ"
+      ],
+      "note": "Văn viết, luật, thông báo. Thường dùng dạng 有[ゆう]している, 有[ゆう]する〜."
+    }
+  ]
 }

@@ -3,6 +3,7 @@
 import { esc, rich, kj, wordHTML, kanjiChars, shuffle, icon, toast, debounce } from './util.js';
 import { D, LEVELS, KGROUPS, report, unreport } from './data.js';
 import { status, dueDirs, errCount, isStar, toggleStar, stats, P, TOP } from './srs.js';
+import { markBtnHTML } from './marks.js';
 import { chips, bindChips, readChip, readChips, openSheet, emptyState, field } from './ui.js';
 import { runDrill, opt } from './drill.js';
 import { kvGet, kvSet } from './db.js';
@@ -86,6 +87,7 @@ export function kanjiCardHTML(ch) {
         <p class="kc-vi">${esc(k.nghia || '')}</p>
         <p class="kc-sub">${[k.strokes ? `${k.strokes} nét` : '', k.level, ...(k.groups || []).map(g => KGROUPS[g] || g)].filter(Boolean).map(esc).join(' / ')}</p>
       </div>
+      ${markBtnHTML(k.id)}
     </div>
     ${(k.tho || []).length ? `<section class="kc-tho"><p class="kc-label">Mẹo nhớ</p><p class="kc-poem" lang="vi">${poemHTML(k.tho)}</p></section>` : ''}
     ${(k.parts || []).length ? `<h3 class="h3">Bộ phận</h3><div class="kparts">${k.parts.map(partBtn).join('')}</div>` : ''}
@@ -264,8 +266,9 @@ export async function renderKanjiQuizSetup(view, ctx) {
   view.innerHTML = `<h1 class="h1">Chữ Hán</h1>${tabs('quiz')}
     <form class="setup" onsubmit="return false">
       <p class="muted small">Đây là phần kiểm tra chữ Hán nên chữ không có furigana.</p>
+      <fieldset><legend>Kiểu luyện</legend>${chips('mode', [['quiz', 'Trắc nghiệm'], ['pairs', 'Ghép 8 cặp chữ – Hán Việt']], o.mode || 'quiz', false)}<p class="small muted">Đang làm vẫn đổi qua lại được.</p></fieldset>
       <fieldset><legend>Kiểu câu hỏi</legend>${chips('dir', KDIRS, o.dir, false)}</fieldset>
-      <fieldset><legend>Lấy chữ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['new', 'Chữ mới', st.new], ['wrong', 'Hay sai'], ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
+      <fieldset><legend>Lấy chữ nào</legend>${chips('source', [['due', 'Đến hạn ôn', st.due], ['new', 'Chữ mới', st.new], ['wrong', 'Hay sai'], ['star', 'Đã đánh dấu ★', D.kanji.filter(k => isStar(k.id)).length], ['all', 'Tất cả', st.total]], o.source, false)}</fieldset>
       <fieldset><legend>Nhóm <small>(không chọn = tất cả)</small></legend>${chips('groups', usedG.map(g => [g, KGROUPS[g]]), o.groups)}</fieldset>
       <fieldset><legend>Cấp độ <small>(không chọn = tất cả)</small></legend>${chips('levels', LEVELS.map(l => [l, l]), o.levels)}</fieldset>
       <fieldset><legend>Số câu</legend>${chips('count', [10, 20, 30].map(n => [String(n), String(n)]), String(o.count), false)}</fieldset>
@@ -273,7 +276,7 @@ export async function renderKanjiQuizSetup(view, ctx) {
       <button class="btn btn-primary btn-block" data-act="start">Bắt đầu</button>
     </form>`;
   const f = view.querySelector('.setup');
-  const read = () => ({ dir: readChip(f, 'dir'), source: readChip(f, 'source'), groups: readChips(f, 'groups'), levels: readChips(f, 'levels'), count: +readChip(f, 'count') });
+  const read = () => ({ dir: readChip(f, 'dir'), source: readChip(f, 'source'), groups: readChips(f, 'groups'), levels: readChips(f, 'levels'), count: +readChip(f, 'count'), mode: readChip(f, 'mode') });
   const upd = () => {
     const n = buildKanjiQs({ ...read(), count: 999 }).length;
     f.querySelector('.setup-count').textContent = n ? `Có ${n} câu phù hợp.` : (read().source === 'due' ? 'Không có chữ nào đến hạn ôn. Chọn "Chữ mới".' : 'Không có chữ nào khớp lựa chọn này.');
@@ -283,7 +286,7 @@ export async function renderKanjiQuizSetup(view, ctx) {
   f.querySelector('[data-act=start]').onclick = async () => {
     const x = read(); await kvSet('kanjiSetup', x);
     ctx.backTo = '#/chuhan/on';
-    runDrill(view, buildKanjiQs(x), ctx, { title: 'Ôn chữ Hán', again: () => ctx.go('#/chuhan/on', true) });
+    runDrill(view, buildKanjiQs(x), ctx, { title: 'Ôn chữ Hán', again: () => ctx.go('#/chuhan/on', true), startPairs: x.mode === 'pairs' });
   };
 }
 

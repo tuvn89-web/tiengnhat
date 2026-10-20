@@ -6,6 +6,7 @@ import { S } from './settings.js';
 import { FORMS, FORM_LEVEL, verbInfo, conjugate, formVi, GROUP_VI, hasForm } from './conj.js';
 import { AFORMS, adjInfo, adjConj, adjVi } from './adj.js';
 import { COUNTERS, counterOf, numKanji, counterMark, SCALES, NEG_ADV } from './counters.js';
+import { markBtnHTML } from './marks.js';
 
 const sayBtn = (text, label = 'Nghe') => `<button type="button" class="icon-btn say" data-say="${esc(text)}" aria-label="${label}">${icon('speaker')}</button>`;
 export const hira = s => String(s || '').replace(/[ァ-ヶ]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60));
@@ -165,7 +166,7 @@ export function wordDetailHTML(it, { compact = false } = {}) {
   const meta = [POS[it.pos] || it.pos, it.level, tn, reg].filter(Boolean);
   const head = `<div class="wd-head">
       <p class="wd-word" lang="ja">${wordHTML(it, 'furi')}${verbHeadExtra(it)}</p>
-      ${sayBtn(it.kana)}
+      ${sayBtn(it.kana)}${it.id ? markBtnHTML(it.id) : ''}
     </div>
     ${it.kanji ? `<p class="wd-kana" lang="ja">${esc(it.kana)}</p>` : ''}
     ${S.showHv && it.hv ? `<p class="wd-hv">Hán Việt: <b>${esc(it.hv)}</b></p>` : ''}`;

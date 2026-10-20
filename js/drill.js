@@ -14,6 +14,7 @@ import { burstAtEl } from './season.js';
 import { speak, ttsReady } from './tts.js';
 import { bindSay, confirmBox } from './ui.js';
 import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from './nav.js';
+import { runPairs, pairItems, pairable, modeSwHTML } from './pairs8.js';
 
 /* Một câu hỏi:
   { kind: 'choice' | 'order' | 'spot', tag: 'Điền chỗ trống', level: 'N5',
@@ -23,7 +24,7 @@ import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from '.
     parts: [html…], bad: số thứ tự, fix: html,        ← spot
     accept: [chữ…], answerHTML: html, placeholder      ← type (tự gõ; so sau khi chuẩn hoá kana)
     after: html (giải thích sau khi trả lời), review: { id, dir } }  */
-export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'practice', timeLimit = 0, timeBox = 0, again, againLabel = '', noReview = false, onDone, runClass = '' } = {}) {
+export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'practice', timeLimit = 0, timeBox = 0, again, againLabel = '', noReview = false, onDone, runClass = '', noPairs = false, startPairs = false } = {}) {
   if (!qs.length) { view.innerHTML = '<div class="empty"><p>Chưa đủ dữ liệu cho bài này.</p></div>'; return; }
   beginSession(ctx);
   if (mode === 'test') return runTest(view, qs, ctx, { title, timeLimit, again, noReview, onDone });
@@ -60,6 +61,39 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
       ${q.hint ? `<p class="prompt-hint">${q.hint}</p>` : ''}
       ${q.say ? `<div class="say-row"><button type="button" class="icon-btn say" data-say="${esc(q.say)}" aria-label="Nghe">${icon('speaker')}</button></div>` : ''}
       <div class="stamp" aria-hidden="true"></div></article>`;
+
+  // v38: câu chọn đáp án về từ vựng / chữ Hán → đổi được sang GHÉP 8 CẶP giữa lượt (câu ngữ pháp, câu gõ… vẫn hỏi như cũ)
+  const pItem = q => (q.kind === 'choice' && q.review && !q._again ? D.items.get(q.review.id) : null);
+  const pairQ = q => pairable(pItem(q));
+  const doneIds = new Set();
+  const canPairs = () => !noPairs && !timeBox && pairItems(st.qs.slice(st.lock ? st.i + 1 : st.i).filter(q => pairQ(q) && !doneIds.has(q.review.id)).map(pItem)).length >= 3;
+  function toPairs() {
+    setKeys(null);
+    st.pending?.();
+    const base = st.lock ? st.i + 1 : st.i, rest = st.qs.slice(base);
+    const firstQ = new Map(); // mã mục → câu đầu tiên của mục đó trong phần còn lại
+    for (const q of rest) if (pairQ(q) && !doneIds.has(q.review.id) && !firstQ.has(q.review.id)) firstQ.set(q.review.id, q);
+    const others = rest.filter(q => !(pairQ(q) && firstQ.has(q.review.id))); // câu không ghép được: hỏi tiếp sau phần ghép
+    const total = n => base + n + others.length;
+    runPairs(view, [...firstQ.keys()].map(id => D.items.get(id)), {
+      head: (d, n) => `<div class="run-top">
+        <button type="button" class="icon-btn" data-act="quit" aria-label="Dừng">${icon('close')}</button>
+        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${total(n)}" aria-valuenow="${base + d}"><i style="width:${((base + d) / Math.max(1, total(n))) * 100}%"></i></div>
+        <span class="run-n">${base + d}/${total(n)}</span></div>`,
+      setKeys,
+      onQuit: () => (st.res.length ? finish(true) : goBack(ctx)),
+      onResult: async (it, ok) => {
+        const q = firstQ.get(it.id);
+        if (!q || doneIds.has(it.id)) return;
+        doneIds.add(it.id);
+        st.res.push({ q, ok }); if (ok) st.score++;
+        if (!noReview) await review(q.review.id, q.review.dir, ok);
+        if (q.onAnswer) q.onAnswer(ok);
+      },
+      onSwitch: left => { st.qs = [...st.qs.slice(0, base), ...left.map(it => firstQ.get(it.id)), ...others]; st.i = base; st.lock = false; show(); },
+      onDone: () => { st.qs = [...st.qs.slice(0, base), ...others]; st.i = base; st.lock = false; show(); },
+    });
+  }
 
   function show() {
     if (st.i >= st.qs.length || st.expired) return finish();
@@ -100,8 +134,10 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
         ${q.romajiOff ? '' : `<label class="check small type-rj"><input type="checkbox" data-act="romaji" ${S.romaji ? 'checked' : ''}> Gõ romaji tự đổi sang kana</label>
         <p class="small muted type-tip">Bàn phím tiếng Việt (Telex) sẽ đổi chữ khi gõ romaji — chuyển sang bàn phím tiếng Anh hoặc tiếng Nhật.</p>`}`;
     }
-    view.innerHTML = `<div class="run ${runClass}">${head()}${card(q)}${body}<div class="after" hidden></div></div>`;
+    view.innerHTML = `<div class="run ${runClass}">${head()}${pairQ(q) && canPairs() ? modeSwHTML('quiz') : ''}${card(q)}${body}<div class="after" hidden></div></div>`;
     bindSay(view);
+    const sw = view.querySelector('.mode-sw');
+    if (sw) sw.onclick = e => { if (e.target.closest('[data-mode=pairs]')) toPairs(); };
     // đã trả lời câu nào thì dừng là ra màn kết quả (tính là đã làm), chưa trả lời thì quay lại trang trước
     view.querySelector('[data-act=quit]').onclick = () => (st.i > 0 || st.res.length ? finish(true) : goBack(ctx));
     if (q.autoSay && q.say) setTimeout(() => speak(q.say), 150);
@@ -166,7 +202,7 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     st.lock = true;
     const first = !q._again;
     const entry = first ? { q, ok } : null;
-    if (first) { st.res.push(entry); if (ok) st.score++; }
+    if (first) { st.res.push(entry); if (ok) st.score++; if (q.review && q.kind === 'choice') doneIds.add(q.review.id); }
     // ghi lịch ôn / điểm theo thể; câu tự gõ thì chờ bấm Tiếp (còn nút "Tôi gõ đúng" để chấm lại)
     let committed = false;
     // v31 (N3): câu chọn đáp án của từ vựng / chữ Hán đúng mà nghĩ quá lâu → chưa lên hộp
@@ -257,7 +293,7 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
     renderResult(view, ctx, { title, mode, test, early: early && !st.expired, res: st.res, total: st.total, score: st.score, again, againLabel, timeBox,
       redo: wrong => runDrill(view, wrong.map(w => ({ ...w.q, _again: false })), ctx, { title, mode, again, noReview }) });
   }
-  show();
+  if (startPairs && canPairs()) toPairs(); else show();
 }
 
 // Lời nhận xét bài sắp xếp câu: câu mẫu + các thứ tự khác cũng đúng

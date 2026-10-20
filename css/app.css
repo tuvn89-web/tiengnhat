@@ -666,9 +666,23 @@ button.wref:hover { border-color: var(--blue); }
 .rm-card .stack-bar { margin-top: 6px; }
 
 /* ---- v14: bài học, sổ tay, hội thoại & bài đọc ---- */
-.mark-btn { display: inline-flex; align-items: center; gap: 6px; }
-.mark-btn[aria-pressed="true"] { color: var(--blue); }
-.mark-btn[aria-pressed="true"] .ic { fill: var(--blue-soft); }
+.mark-btn { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); flex: none; }
+/* v38: ★ đã đánh dấu để ôn — tô vàng */
+.mark-btn[aria-pressed="true"] { color: #D99A00; }
+.mark-btn[aria-pressed="true"] .ic { fill: #FFC93C; }
+:root[data-theme="dark"] .mark-btn[aria-pressed="true"] { color: #FFC93C; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .mark-btn[aria-pressed="true"] { color: #FFC93C; } }
+.wd-head .mark-btn, .kc-head .mark-btn { margin-left: 2px; }
+.kc-head .mark-btn { align-self: flex-start; margin-left: auto; }
+.mk-rows .row { display: flex; gap: 10px; align-items: baseline; padding: 10px 0; flex: 1; min-width: 0; }
+.mk-rows li { display: flex; align-items: center; border-bottom: 1px solid var(--line); }
+/* v38: đổi kiểu luyện trắc nghiệm ↔ ghép 8 cặp ngay trong lượt */
+.mode-sw { display: flex; gap: 6px; margin: 8px 0 4px; }
+.mode-sw .chip { min-height: 32px; font-size: .86em; display: inline-flex; align-items: center; gap: 4px; }
+.mode-sw .chip .ic { width: 16px; height: 16px; }
+.run-pairs .pairs-hint { margin: 4px 0 10px; }
+.tile .pk-c { font-family: var(--jp); font-size: 1.7em; line-height: 1.1; }
+.tile small { display: block; color: var(--ink-2); font-size: .8em; margin-top: 2px; }
 .rows li:has(> .mark-btn) { display: flex; align-items: center; border-bottom: 1px solid var(--line); }
 .rows li:has(> .mark-btn) > .row { border-bottom: 0; flex: 1; min-width: 0; }
 .mark-l { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 6px; }

@@ -11,7 +11,7 @@ import { countMark, learnedForms } from './wordx.js';
 import { runDrill, opt } from './drill.js';
 import { chips, bindChips, readChip, readChips, topicOpts, emptyState, wtabs } from './ui.js';
 import { kvGet, kvSet } from './db.js';
-import { dueDirs, status, stats, isLeech } from './srs.js';
+import { dueDirs, status, stats, isLeech, isStar } from './srs.js';
 import { ttsReady } from './tts.js';
 import { recForm, weakForms } from './fstat.js';
 import { sentDue, dueSentQs } from './dich.js';
@@ -468,6 +468,7 @@ export function renderHub(view) {
       ${card('#/moi/doan', 'plus', 'Học từ mới — đoán nghĩa trước', 'Từ Hán: nhìn âm Hán Việt (冷凍[れいとう] = LÃNH ĐÔNG) đoán nghĩa trước, rồi mới xem thẻ', newHv)}
       ${card('#/hoc', 'quiz', 'Trắc nghiệm', 'Việt ↔ Nhật, đọc chữ Hán, nghe')}
       ${card('#/ghep', 'list', 'Ghép 6 cặp', 'Việt – Nhật, thể từ điển – thể ます, tự – tha, trái nghĩa, chữ Hán – Hán Việt')}
+      ${card('#/danhdau', 'star', 'Đã đánh dấu ★', 'Từ và chữ Hán bạn bấm ★ — ôn bằng trắc nghiệm hoặc ghép 8 cặp', [...D.vocab, ...D.kanji].filter(x => isStar(x.id)).length || null)}
       ${card('#/luyen/cau', 'book', 'Ghép câu từ ví dụ', 'Sắp xếp mảnh thành câu ví dụ của từ đã học')}
       ${card('#/luyen/hanviet', 'quiz', 'Đoán nghĩa từ Hán Việt', 'Thấy từ và âm Hán Việt → chọn nghĩa. Không đổi lịch ôn')}
       ${card('#/luyen/denham', 'list', 'Phân biệt từ dễ nhầm', 'Đặt các từ, mẫu ngữ pháp dễ nhầm cạnh nhau rồi chọn đúng theo câu', nConf || null)}

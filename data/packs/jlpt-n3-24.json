@@ -1,1074 +1,1074 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n3-24",
-  "title": "JLPT N3 24 – Vùng miền & nước Nhật",
-  "type": "vocab",
-  "level": "N3",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 2,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:地方:ちほう",
-   "kana": "ちほう",
-   "kanji": "地方",
-   "hv": "ĐỊA PHƯƠNG",
-   "vi": "địa phương, vùng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "関西[かんさい]地方[ちほう]は、食[た]べ物[もの]がおいしいです。",
-     "vi": "Vùng Kansai đồ ăn ngon.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "地方[ちほう]の工場[こうじょう]は、人[ひと]が足[た]りません。",
-     "vi": "Nhà máy ở địa phương thiếu người.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "近畿[きんき]地方[ちほう] = vùng Kinki (có Hyogo, Osaka, Kyoto…)."
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n3-24",
+    "title": "JLPT N3 24 – Vùng miền & nước Nhật",
+    "type": "vocab",
+    "level": "N3",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 3,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:地域:ちいき",
-   "kana": "ちいき",
-   "kanji": "地域",
-   "hv": "ĐỊA VỰC",
-   "vi": "khu vực (cộng đồng)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "地域[ちいき]のお祭[まつ]りに参加[さんか]しました。",
-     "vi": "Tôi tham gia lễ hội khu vực.",
-     "ctx": "doisong"
+      "id": "v:地方:ちほう",
+      "kana": "ちほう",
+      "kanji": "地方",
+      "hv": "ĐỊA PHƯƠNG",
+      "vi": "địa phương, vùng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "関西[かんさい]地方[ちほう]は、食[た]べ物[もの]がおいしいです。",
+          "vi": "Vùng Kansai đồ ăn ngon.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "地方[ちほう]の工場[こうじょう]は、人[ひと]が足[た]りません。",
+          "vi": "Nhà máy ở địa phương thiếu người.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "近畿[きんき]地方[ちほう] = vùng Kinki (có Hyogo, Osaka, Kyoto…)."
     },
     {
-     "jp": "地域[ちいき]によって、ゴミの出[だ]し方[かた]が違[ちが]います。",
-     "vi": "Tùy khu vực, cách đổ rác khác nhau.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:地方:ちほう"
-   ]
-  },
-  {
-   "id": "v:地区:ちく",
-   "kana": "ちく",
-   "kanji": "地区",
-   "hv": "ĐỊA KHU",
-   "vi": "khu (phân chia hành chính)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この地区[ちく]は、毎週[まいしゅう]火曜日[かようび]が燃[も]えるゴミの日[ひ]です。",
-     "vi": "Khu này thứ Ba hằng tuần là ngày rác cháy được.",
-     "ctx": "doisong"
+      "id": "v:地域:ちいき",
+      "kana": "ちいき",
+      "kanji": "地域",
+      "hv": "ĐỊA VỰC",
+      "vi": "khu vực (cộng đồng)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "地域[ちいき]のお祭[まつ]りに参加[さんか]しました。",
+          "vi": "Tôi tham gia lễ hội khu vực.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "地域[ちいき]によって、ゴミの出[だ]し方[かた]が違[ちが]います。",
+          "vi": "Tùy khu vực, cách đổ rác khác nhau.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:地方:ちほう"
+      ]
     },
     {
-     "jp": "地区[ちく]の避難[ひなん]場所[ばしょ]を、確認[かくにん]しておきましょう。",
-     "vi": "Hãy xem trước điểm sơ tán của khu.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:首都:しゅと",
-   "kana": "しゅと",
-   "kanji": "首都",
-   "hv": "THỦ ĐÔ",
-   "vi": "thủ đô",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]の首都[しゅと]は東京[とうきょう]です。",
-     "vi": "Thủ đô Nhật là Tokyo.",
-     "ctx": "doisong"
+      "id": "v:地区:ちく",
+      "kana": "ちく",
+      "kanji": "地区",
+      "hv": "ĐỊA KHU",
+      "vi": "khu (phân chia hành chính)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この地区[ちく]は、毎週[まいしゅう]火曜日[かようび]が燃[も]えるゴミの日[ひ]です。",
+          "vi": "Khu này thứ Ba hằng tuần là ngày rác cháy được.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "地区[ちく]の避難[ひなん]場所[ばしょ]を、確認[かくにん]しておきましょう。",
+          "vi": "Hãy xem trước điểm sơ tán của khu.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "ベトナムの首都[しゅと]は、ハノイです。",
-     "vi": "Thủ đô Việt Nam là Hà Nội.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:都市:とし",
-   "kana": "とし",
-   "kanji": "都市",
-   "hv": "ĐÔ THỊ",
-   "vi": "đô thị",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "神戸[こうべ]は、港[みなと]の都市[とし]です。",
-     "vi": "Kobe là thành phố cảng.",
-     "ctx": "doisong"
+      "id": "v:首都:しゅと",
+      "kana": "しゅと",
+      "kanji": "首都",
+      "hv": "THỦ ĐÔ",
+      "vi": "thủ đô",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]の首都[しゅと]は東京[とうきょう]です。",
+          "vi": "Thủ đô Nhật là Tokyo.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "ベトナムの首都[しゅと]は、ハノイです。",
+          "vi": "Thủ đô Việt Nam là Hà Nội.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "大都市[だいとし]は、家賃[やちん]が高[たか]いです。",
-     "vi": "Thành phố lớn tiền nhà đắt.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:都会:とかい"
-   ]
-  },
-  {
-   "id": "v:都会:とかい",
-   "kana": "とかい",
-   "kanji": "都会",
-   "hv": "ĐÔ HỘI",
-   "vi": "thành phố lớn (đối lập quê)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "都会[とかい]の生活[せいかつ]は、便利[べんり]だけど忙[いそが]しい。",
-     "vi": "Sống ở thành phố tiện nhưng bận rộn.",
-     "ctx": "doisong"
+      "id": "v:都市:とし",
+      "kana": "とし",
+      "kanji": "都市",
+      "hv": "ĐÔ THỊ",
+      "vi": "đô thị",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "神戸[こうべ]は、港[みなと]の都市[とし]です。",
+          "vi": "Kobe là thành phố cảng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "大都市[だいとし]は、家賃[やちん]が高[たか]いです。",
+          "vi": "Thành phố lớn tiền nhà đắt.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:都会:とかい"
+      ]
     },
     {
-     "jp": "若[わか]い人[ひと]は、都会[とかい]に出[で]て行[い]きます。",
-     "vi": "Người trẻ bỏ lên thành phố.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:田舎:いなか"
-   ]
-  },
-  {
-   "id": "v:県:けん",
-   "kana": "けん",
-   "kanji": "県",
-   "hv": "HUYỆN",
-   "vi": "tỉnh",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "兵庫県[ひょうごけん]に住[す]んでいます。",
-     "vi": "Tôi sống ở tỉnh Hyogo.",
-     "ctx": "thutuc"
+      "id": "v:都会:とかい",
+      "kana": "とかい",
+      "kanji": "都会",
+      "hv": "ĐÔ HỘI",
+      "vi": "thành phố lớn (đối lập quê)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "都会[とかい]の生活[せいかつ]は、便利[べんり]だけど忙[いそが]しい。",
+          "vi": "Sống ở thành phố tiện nhưng bận rộn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "若[わか]い人[ひと]は、都会[とかい]に出[で]て行[い]きます。",
+          "vi": "Người trẻ bỏ lên thành phố.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:田舎:いなか"
+      ]
     },
     {
-     "jp": "日本[にほん]には、四十七[よんじゅうなな]の都道府県[とどうふけん]があります。",
-     "vi": "Nhật có 47 tỉnh thành.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "都道府県[とどうふけん] = 47 đơn vị hành chính cấp tỉnh (都[と] Tokyo, 道[みち] Hokkaido, 府[ふ] Osaka/Kyoto, 県[けん] còn lại)."
-  },
-  {
-   "id": "v:海外:かいがい",
-   "kana": "かいがい",
-   "kanji": "海外",
-   "hv": "HẢI NGOẠI",
-   "vi": "nước ngoài (ngoài biển)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "海外[かいがい]に、魚[さかな]を輸出[ゆしゅつ]しています。",
-     "vi": "Xuất khẩu cá ra nước ngoài.",
-     "ctx": "xuong"
+      "id": "v:県:けん",
+      "kana": "けん",
+      "kanji": "県",
+      "hv": "HUYỆN",
+      "vi": "tỉnh",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "兵庫県[ひょうごけん]に住[す]んでいます。",
+          "vi": "Tôi sống ở tỉnh Hyogo.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "日本[にほん]には、四十七[よんじゅうなな]の都道府県[とどうふけん]があります。",
+          "vi": "Nhật có 47 tỉnh thành.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "都道府県[とどうふけん] = 47 đơn vị hành chính cấp tỉnh (都[と] Tokyo, 道[みち] Hokkaido, 府[ふ] Osaka/Kyoto, 県[けん] còn lại)."
     },
     {
-     "jp": "海外旅行[かいがいりょこう]に行[い]きたいです。",
-     "vi": "Tôi muốn đi du lịch nước ngoài.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:外国:がいこく"
-   ]
-  },
-  {
-   "id": "v:ヨーロッパ:ヨーロッパ",
-   "kana": "ヨーロッパ",
-   "kanji": "",
-   "hv": "",
-   "vi": "châu Âu",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ヨーロッパに、友達[ともだち]が住[す]んでいます。",
-     "vi": "Bạn tôi sống ở châu Âu.",
-     "ctx": "doisong"
+      "id": "v:海外:かいがい",
+      "kana": "かいがい",
+      "kanji": "海外",
+      "hv": "HẢI NGOẠI",
+      "vi": "hải ngoại, nước ngoài (ngoài biển)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "海外[かいがい]に、魚[さかな]を輸出[ゆしゅつ]しています。",
+          "vi": "Xuất khẩu cá ra nước ngoài.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "海外旅行[かいがいりょこう]に行[い]きたいです。",
+          "vi": "Tôi muốn đi du lịch nước ngoài.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:外国:がいこく"
+      ]
     },
     {
-     "jp": "この魚[さかな]は、ヨーロッパでも人気[にんき]です。",
-     "vi": "Loại cá này ở châu Âu cũng được ưa chuộng.",
-     "ctx": "xuong"
-    }
-   ],
-   "goc": "Europa (tiếng Bồ Đào Nha)"
-  },
-  {
-   "id": "v:中央:ちゅうおう",
-   "kana": "ちゅうおう",
-   "kanji": "中央",
-   "hv": "TRUNG ƯƠNG",
-   "vi": "chính giữa, trung ương",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "町[まち]の中央[ちゅうおう]に、市役所[しやくしょ]があります。",
-     "vi": "Tòa thị chính ở trung tâm thị trấn.",
-     "ctx": "doisong"
+      "id": "v:ヨーロッパ:ヨーロッパ",
+      "kana": "ヨーロッパ",
+      "kanji": "",
+      "hv": "",
+      "vi": "châu Âu",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ヨーロッパに、友達[ともだち]が住[す]んでいます。",
+          "vi": "Bạn tôi sống ở châu Âu.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この魚[さかな]は、ヨーロッパでも人気[にんき]です。",
+          "vi": "Loại cá này ở châu Âu cũng được ưa chuộng.",
+          "ctx": "xuong"
+        }
+      ],
+      "goc": "Europa (tiếng Bồ Đào Nha)"
     },
     {
-     "jp": "部屋[へや]の中央[ちゅうおう]に、机[つくえ]を置[お]いてください。",
-     "vi": "Hãy đặt bàn giữa phòng.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:真中:まんなか"
-   ]
-  },
-  {
-   "id": "v:中心:ちゅうしん",
-   "kana": "ちゅうしん",
-   "kanji": "中心",
-   "hv": "TRUNG TÂM",
-   "vi": "trung tâm, cốt lõi",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "大阪[おおさか]は、関西[かんさい]の経済[けいざい]の中心[ちゅうしん]です。",
-     "vi": "Osaka là trung tâm kinh tế Kansai.",
-     "ctx": "doisong"
+      "id": "v:中央:ちゅうおう",
+      "kana": "ちゅうおう",
+      "kanji": "中央",
+      "hv": "TRUNG ƯƠNG",
+      "vi": "chính giữa, trung ương",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "町[まち]の中央[ちゅうおう]に、市役所[しやくしょ]があります。",
+          "vi": "Tòa thị chính ở trung tâm thị trấn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "部屋[へや]の中央[ちゅうおう]に、机[つくえ]を置[お]いてください。",
+          "vi": "Hãy đặt bàn giữa phòng.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:真中:まんなか"
+      ]
     },
     {
-     "jp": "若[わか]い人[ひと]を中心[ちゅうしん]に、人気[にんき]があります。",
-     "vi": "Được ưa chuộng chủ yếu ở người trẻ.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "〜を中心[ちゅうしん]に = lấy … làm trung tâm (ngữ pháp bài 15)."
-  },
-  {
-   "id": "v:観光:かんこう",
-   "kana": "かんこう",
-   "kanji": "観光",
-   "hv": "QUAN QUANG",
-   "vi": "du ngoạn, tham quan danh thắng",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "京都[きょうと]を観光[かんこう]しました。",
-     "vi": "Tôi tham quan Kyoto.",
-     "ctx": "doisong"
+      "id": "v:中心:ちゅうしん",
+      "kana": "ちゅうしん",
+      "kanji": "中心",
+      "hv": "TRUNG TÂM",
+      "vi": "trung tâm, cốt lõi",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "大阪[おおさか]は、関西[かんさい]の経済[けいざい]の中心[ちゅうしん]です。",
+          "vi": "Osaka là trung tâm kinh tế Kansai.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "若[わか]い人[ひと]を中心[ちゅうしん]に、人気[にんき]があります。",
+          "vi": "Được ưa chuộng chủ yếu ở người trẻ.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "〜を中心[ちゅうしん]に = lấy … làm trung tâm (ngữ pháp bài 15)."
     },
     {
-     "jp": "観光[かんこう]の客[きゃく]が、増[ふ]えています。",
-     "vi": "Khách du lịch đang tăng.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "町[まち]を観光[かんこう]する",
-     "vi": "tham quan thị trấn"
-    }
-   ],
-   "note": "観光地[かんこうち] = điểm du lịch."
-  },
-  {
-   "id": "v:旅:たび",
-   "kana": "たび",
-   "kanji": "旅",
-   "hv": "LỮ",
-   "vi": "chuyến đi (văn chương)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "一人[ひとり]で、北海道[ほっかいどう]へ旅[たび]に出[で]ました。",
-     "vi": "Tôi một mình đi chuyến Hokkaido.",
-     "ctx": "doisong"
+      "id": "v:観光:かんこう",
+      "kana": "かんこう",
+      "kanji": "観光",
+      "hv": "QUAN QUANG",
+      "vi": "du ngoạn, tham quan danh thắng",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "京都[きょうと]を観光[かんこう]しました。",
+          "vi": "Tôi tham quan Kyoto.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "観光[かんこう]の客[きゃく]が、増[ふ]えています。",
+          "vi": "Khách du lịch đang tăng.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "町[まち]を観光[かんこう]する",
+          "vi": "tham quan thị trấn"
+        }
+      ],
+      "note": "観光地[かんこうち] = điểm du lịch."
     },
     {
-     "jp": "人生[じんせい]は、長[なが]い旅[たび]のようだ。",
-     "vi": "Đời người như một chuyến đi dài.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:旅行:りょこう"
-   ],
-   "note": "Mang sắc thái văn chương hơn 旅行[りょこう]."
-  },
-  {
-   "id": "v:名所:めいしょ",
-   "kana": "めいしょ",
-   "kanji": "名所",
-   "hv": "DANH SỞ",
-   "vi": "danh lam, địa điểm nổi tiếng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "姫路[ひめじ]城[じょう]は、兵庫[ひょうご]の名所[めいしょ]です。",
-     "vi": "Thành Himeji là danh thắng của Hyogo.",
-     "ctx": "doisong"
+      "id": "v:旅:たび",
+      "kana": "たび",
+      "kanji": "旅",
+      "hv": "LỮ",
+      "vi": "chuyến đi (văn chương)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "一人[ひとり]で、北海道[ほっかいどう]へ旅[たび]に出[で]ました。",
+          "vi": "Tôi một mình đi chuyến Hokkaido.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "人生[じんせい]は、長[なが]い旅[たび]のようだ。",
+          "vi": "Đời người như một chuyến đi dài.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:旅行:りょこう"
+      ],
+      "note": "Mang sắc thái văn chương hơn 旅行[りょこう]."
     },
     {
-     "jp": "桜[さくら]の名所[めいしょ]に、人[ひと]がたくさん来[き]ます。",
-     "vi": "Nhiều người đến nơi ngắm hoa anh đào nổi tiếng.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:伝統:でんとう",
-   "kana": "でんとう",
-   "kanji": "伝統",
-   "hv": "TRUYỀN THỐNG",
-   "vi": "truyền thống",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "着物[きもの]は、日本[にほん]の伝統[でんとう]の服[ふく]です。",
-     "vi": "Kimono là trang phục truyền thống Nhật.",
-     "ctx": "doisong"
+      "id": "v:名所:めいしょ",
+      "kana": "めいしょ",
+      "kanji": "名所",
+      "hv": "DANH SỞ",
+      "vi": "danh lam, địa điểm nổi tiếng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "姫路[ひめじ]城[じょう]は、兵庫[ひょうご]の名所[めいしょ]です。",
+          "vi": "Thành Himeji là danh thắng của Hyogo.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "桜[さくら]の名所[めいしょ]に、人[ひと]がたくさん来[き]ます。",
+          "vi": "Nhiều người đến nơi ngắm hoa anh đào nổi tiếng.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "この町[まち]には、百年[ひゃくねん]の伝統[でんとう]があるお祭[まつ]りがあります。",
-     "vi": "Thị trấn có lễ hội truyền thống trăm năm.",
-     "ctx": "doisong"
-    }
-   ],
-   "confuse": [
-    "v:電灯:でんとう"
-   ],
-   "note": "伝統的[でんとうてき] = mang tính truyền thống."
-  },
-  {
-   "id": "v:城:しろ",
-   "kana": "しろ",
-   "kanji": "城",
-   "hv": "THÀNH",
-   "vi": "lâu đài, thành (cổ)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "姫路[ひめじ]城[じょう]は、白[しろ]くてきれいな城[しろ]です。",
-     "vi": "Thành Himeji trắng và đẹp.",
-     "ctx": "doisong"
+      "id": "v:伝統:でんとう",
+      "kana": "でんとう",
+      "kanji": "伝統",
+      "hv": "TRUYỀN THỐNG",
+      "vi": "truyền thống",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "着物[きもの]は、日本[にほん]の伝統[でんとう]の服[ふく]です。",
+          "vi": "Kimono là trang phục truyền thống Nhật.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この町[まち]には、百年[ひゃくねん]の伝統[でんとう]があるお祭[まつ]りがあります。",
+          "vi": "Thị trấn có lễ hội truyền thống trăm năm.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:電灯:でんとう"
+      ],
+      "note": "伝統的[でんとうてき] = mang tính truyền thống."
     },
     {
-     "jp": "城[しろ]の中[なか]を見学[けんがく]しました。",
-     "vi": "Tôi tham quan bên trong thành.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Tên thành: 〜城[じょう] (姫路城[ひめじじょう], 大阪城[おおさかじょう])."
-  },
-  {
-   "id": "v:神:かみ",
-   "kana": "かみ",
-   "kanji": "神",
-   "hv": "THẦN",
-   "vi": "thần",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]には、たくさんの神[かみ]がいると言[い]われています。",
-     "vi": "Người ta nói Nhật có rất nhiều thần.",
-     "ctx": "doisong"
+      "id": "v:城:しろ",
+      "kana": "しろ",
+      "kanji": "城",
+      "hv": "THÀNH",
+      "vi": "lâu đài, thành (cổ)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "姫路[ひめじ]城[じょう]は、白[しろ]くてきれいな城[しろ]です。",
+          "vi": "Thành Himeji trắng và đẹp.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "城[しろ]の中[なか]を見学[けんがく]しました。",
+          "vi": "Tôi tham quan bên trong thành.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Tên thành: 〜城[じょう] (姫路城[ひめじじょう], 大阪城[おおさかじょう])."
     },
     {
-     "jp": "神社[じんじゃ]で、神[かみ]に祈[いの]りました。",
-     "vi": "Tôi cầu nguyện thần ở đền.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "神様[かみさま] = thần (cách gọi kính trọng); 神社[じんじゃ] = đền Thần đạo."
-  },
-  {
-   "id": "v:宗教:しゅうきょう",
-   "kana": "しゅうきょう",
-   "kanji": "宗教",
-   "hv": "TÔNG GIÁO",
-   "vi": "tôn giáo",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "宗教[しゅうきょう]によって、食[た]べられない物[もの]があります。",
-     "vi": "Tùy tôn giáo có những thứ không ăn được.",
-     "ctx": "doisong"
+      "id": "v:神:かみ",
+      "kana": "かみ",
+      "kanji": "神",
+      "hv": "THẦN",
+      "vi": "thần",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]には、たくさんの神[かみ]がいると言[い]われています。",
+          "vi": "Người ta nói Nhật có rất nhiều thần.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "神社[じんじゃ]で、神[かみ]に祈[いの]りました。",
+          "vi": "Tôi cầu nguyện thần ở đền.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "神様[かみさま] = thần (cách gọi kính trọng); 神社[じんじゃ] = đền Thần đạo."
     },
     {
-     "jp": "職場[しょくば]では、宗教[しゅうきょう]の話[はなし]はあまりしません。",
-     "vi": "Ở chỗ làm ít nói chuyện tôn giáo.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:桜:さくら",
-   "kana": "さくら",
-   "kanji": "桜",
-   "hv": "ANH",
-   "vi": "hoa anh đào",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "四月[しがつ]に、桜[さくら]が咲[さ]きます。",
-     "vi": "Tháng 4 hoa anh đào nở.",
-     "ctx": "doisong"
+      "id": "v:宗教:しゅうきょう",
+      "kana": "しゅうきょう",
+      "kanji": "宗教",
+      "hv": "TÔNG GIÁO",
+      "vi": "tôn giáo",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "宗教[しゅうきょう]によって、食[た]べられない物[もの]があります。",
+          "vi": "Tùy tôn giáo có những thứ không ăn được.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "職場[しょくば]では、宗教[しゅうきょう]の話[はなし]はあまりしません。",
+          "vi": "Ở chỗ làm ít nói chuyện tôn giáo.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "桜[さくら]の下[もと]で、お花見[はなみ]をしました。",
-     "vi": "Ngắm hoa dưới gốc anh đào.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:梅:うめ",
-   "kana": "うめ",
-   "kanji": "梅",
-   "hv": "MAI",
-   "vi": "mơ (cây, quả)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "梅[うめ]の花[はな]は、桜[さくら]より早[はや]く咲[さ]きます。",
-     "vi": "Hoa mơ nở sớm hơn hoa anh đào.",
-     "ctx": "doisong"
+      "id": "v:桜:さくら",
+      "kana": "さくら",
+      "kanji": "桜",
+      "hv": "ANH",
+      "vi": "hoa anh đào",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "四月[しがつ]に、桜[さくら]が咲[さ]きます。",
+          "vi": "Tháng 4 hoa anh đào nở.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "桜[さくら]の下[もと]で、お花見[はなみ]をしました。",
+          "vi": "Ngắm hoa dưới gốc anh đào.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "おにぎりに、梅干[うめぼ]しを入[い]れました。",
-     "vi": "Tôi cho ô mai vào cơm nắm.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "梅干[うめぼ]し = mơ muối; 梅雨[つゆ] = mùa mưa."
-  },
-  {
-   "id": "v:松:まつ",
-   "kana": "まつ",
-   "kanji": "松",
-   "hv": "TÙNG",
-   "vi": "cây thông",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "海[うみ]の近[ちか]くに、松[まつ]の木[き]がたくさんあります。",
-     "vi": "Gần biển có nhiều cây thông.",
-     "ctx": "doisong"
+      "id": "v:梅:うめ",
+      "kana": "うめ",
+      "kanji": "梅",
+      "hv": "MAI",
+      "vi": "mơ (cây, quả)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "梅[うめ]の花[はな]は、桜[さくら]より早[はや]く咲[さ]きます。",
+          "vi": "Hoa mơ nở sớm hơn hoa anh đào.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "おにぎりに、梅干[うめぼ]しを入[い]れました。",
+          "vi": "Tôi cho ô mai vào cơm nắm.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "梅干[うめぼ]し = mơ muối; 梅雨[つゆ] = mùa mưa."
     },
     {
-     "jp": "お正月[しょうがつ]に、門[もん]に松[まつ]を飾[かざ]ります。",
-     "vi": "Tết trang trí cành thông ở cổng.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "門松[かどまつ] = cây thông trang trí cổng dịp Tết."
-  },
-  {
-   "id": "v:四季:しき",
-   "kana": "しき",
-   "kanji": "四季",
-   "hv": "TỨ QUÝ",
-   "vi": "bốn mùa",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]には、はっきりした四季[しき]があります。",
-     "vi": "Nhật có bốn mùa rõ rệt.",
-     "ctx": "doisong"
+      "id": "v:松:まつ",
+      "kana": "まつ",
+      "kanji": "松",
+      "hv": "TÙNG",
+      "vi": "cây thông",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "海[うみ]の近[ちか]くに、松[まつ]の木[き]がたくさんあります。",
+          "vi": "Gần biển có nhiều cây thông.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "お正月[しょうがつ]に、門[もん]に松[まつ]を飾[かざ]ります。",
+          "vi": "Tết trang trí cành thông ở cổng.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "門松[かどまつ] = cây thông trang trí cổng dịp Tết."
     },
     {
-     "jp": "四季[しき]の魚[さかな]を、楽[たの]しめます。",
-     "vi": "Có thể thưởng thức cá theo bốn mùa.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:風景:ふうけい",
-   "kana": "ふうけい",
-   "kanji": "風景",
-   "hv": "PHONG CẢNH",
-   "vi": "phong cảnh",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "山[やま]の風景[ふうけい]が、ベトナムに似[に]ています。",
-     "vi": "Phong cảnh núi giống Việt Nam.",
-     "ctx": "doisong"
+      "id": "v:四季:しき",
+      "kana": "しき",
+      "kanji": "四季",
+      "hv": "TỨ QUÝ",
+      "vi": "bốn mùa",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]には、はっきりした四季[しき]があります。",
+          "vi": "Nhật có bốn mùa rõ rệt.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "四季[しき]の魚[さかな]を、楽[たの]しめます。",
+          "vi": "Có thể thưởng thức cá theo bốn mùa.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "窓[まど]から見[み]える風景[ふうけい]が好[す]きです。",
-     "vi": "Tôi thích phong cảnh nhìn từ cửa sổ.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:景色:けしき"
-   ]
-  },
-  {
-   "id": "v:温泉:おんせん",
-   "kana": "おんせん",
-   "kanji": "温泉",
-   "hv": "ÔN TUYỀN",
-   "vi": "suối nước nóng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "有馬温泉[ありまおんせん]は、兵庫[ひょうご]の有名[ゆうめい]な温泉[おんせん]です。",
-     "vi": "Arima là suối nước nóng nổi tiếng của Hyogo.",
-     "ctx": "doisong"
+      "id": "v:風景:ふうけい",
+      "kana": "ふうけい",
+      "kanji": "風景",
+      "hv": "PHONG CẢNH",
+      "vi": "phong cảnh",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "山[やま]の風景[ふうけい]が、ベトナムに似[に]ています。",
+          "vi": "Phong cảnh núi giống Việt Nam.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "窓[まど]から見[み]える風景[ふうけい]が好[す]きです。",
+          "vi": "Tôi thích phong cảnh nhìn từ cửa sổ.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:景色:けしき"
+      ]
     },
     {
-     "jp": "温泉[おんせん]に入[はい]ると、疲[つか]れがとれます。",
-     "vi": "Ngâm suối nóng là hết mệt.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Tắm onsen: không mặc đồ bơi, tắm sạch trước khi vào bồn, không cho khăn vào nước."
-  },
-  {
-   "id": "v:交流:こうりゅう",
-   "kana": "こうりゅう",
-   "kanji": "交流",
-   "hv": "GIAO LƯU",
-   "vi": "giao lưu",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "地域[ちいき]の人[ひと]と交流[こうりゅう]するのは、楽[たの]しいです。",
-     "vi": "Giao lưu với người trong khu vực thật vui.",
-     "ctx": "doisong"
+      "id": "v:温泉:おんせん",
+      "kana": "おんせん",
+      "kanji": "温泉",
+      "hv": "ÔN TUYỀN",
+      "vi": "suối nước nóng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "有馬温泉[ありまおんせん]は、兵庫[ひょうご]の有名[ゆうめい]な温泉[おんせん]です。",
+          "vi": "Arima là suối nước nóng nổi tiếng của Hyogo.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "温泉[おんせん]に入[はい]ると、疲[つか]れがとれます。",
+          "vi": "Ngâm suối nóng là hết mệt.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Tắm onsen: không mặc đồ bơi, tắm sạch trước khi vào bồn, không cho khăn vào nước."
     },
     {
-     "jp": "市役所[しやくしょ]で、国際[こくさい]交流[こうりゅう]のイベントがあります。",
-     "vi": "Tòa thị chính có sự kiện giao lưu quốc tế.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "地域[ちいき]の人[ひと]と交流[こうりゅう]する",
-     "vi": "giao lưu với người địa phương"
-    }
-   ]
-  },
-  {
-   "id": "v:各地:かくち",
-   "kana": "かくち",
-   "kanji": "各地",
-   "hv": "CÁC ĐỊA",
-   "vi": "các nơi",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "全国[ぜんこく]各地[かくち]から、観光客[かんこうきゃく]が来[き]ます。",
-     "vi": "Khách du lịch đến từ khắp nơi trong nước.",
-     "ctx": "doisong"
+      "id": "v:交流:こうりゅう",
+      "kana": "こうりゅう",
+      "kanji": "交流",
+      "hv": "GIAO LƯU",
+      "vi": "giao lưu",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "地域[ちいき]の人[ひと]と交流[こうりゅう]するのは、楽[たの]しいです。",
+          "vi": "Giao lưu với người trong khu vực thật vui.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "市役所[しやくしょ]で、国際[こくさい]交流[こうりゅう]のイベントがあります。",
+          "vi": "Tòa thị chính có sự kiện giao lưu quốc tế.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "地域[ちいき]の人[ひと]と交流[こうりゅう]する",
+          "vi": "giao lưu với người địa phương"
+        }
+      ]
     },
     {
-     "jp": "台風[たいふう]で、各地[かくち]に被害[ひがい]が出[で]ました。",
-     "vi": "Bão gây thiệt hại ở nhiều nơi.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:あちこち:あちこち",
-   "kana": "あちこち",
-   "kanji": "",
-   "hv": "",
-   "vi": "khắp nơi, đây đó",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "休[やす]みの日[ひ]に、あちこち出[で]かけました。",
-     "vi": "Ngày nghỉ tôi đi đây đi đó.",
-     "ctx": "doisong"
+      "id": "v:各地:かくち",
+      "kana": "かくち",
+      "kanji": "各地",
+      "hv": "CÁC ĐỊA",
+      "vi": "các nơi",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "全国[ぜんこく]各地[かくち]から、観光客[かんこうきゃく]が来[き]ます。",
+          "vi": "Khách du lịch đến từ khắp nơi trong nước.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "台風[たいふう]で、各地[かくち]に被害[ひがい]が出[で]ました。",
+          "vi": "Bão gây thiệt hại ở nhiều nơi.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "鍵[かぎ]を、あちこち探[さが]しました。",
-     "vi": "Tôi tìm chìa khóa khắp nơi.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:各地:かくち"
-   ]
-  },
-  {
-   "id": "v:出身:しゅっしん",
-   "kana": "しゅっしん",
-   "kanji": "出身",
-   "hv": "XUẤT THÂN",
-   "vi": "xuất thân, quê ở",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "田中[たなか]さんは、兵庫[ひょうご]の出身[しゅっしん]です。",
-     "vi": "Anh Tanaka quê ở Hyogo.",
-     "ctx": "doisong"
+      "id": "v:あちこち:あちこち",
+      "kana": "あちこち",
+      "kanji": "",
+      "hv": "",
+      "vi": "khắp nơi, đây đó",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "休[やす]みの日[ひ]に、あちこち出[で]かけました。",
+          "vi": "Ngày nghỉ tôi đi đây đi đó.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "鍵[かぎ]を、あちこち探[さが]しました。",
+          "vi": "Tôi tìm chìa khóa khắp nơi.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:各地:かくち"
+      ]
     },
     {
-     "jp": "ご出身[しゅっしん]は、どちらですか。",
-     "vi": "Anh quê ở đâu ạ?",
-     "ctx": "hoithoai"
-    }
-   ],
-   "note": "出身地[しゅっしんち] = quê quán."
-  },
-  {
-   "id": "v:王様:おうさま",
-   "kana": "おうさま",
-   "kanji": "王様",
-   "hv": "VƯƠNG DẠNG",
-   "vi": "vua",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "昔[むかし]、この国[くに]には王様[おうさま]がいました。",
-     "vi": "Ngày xưa nước này có vua.",
-     "ctx": "doisong"
+      "id": "v:出身:しゅっしん",
+      "kana": "しゅっしん",
+      "kanji": "出身",
+      "hv": "XUẤT THÂN",
+      "vi": "xuất thân, quê ở",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "田中[たなか]さんは、兵庫[ひょうご]の出身[しゅっしん]です。",
+          "vi": "Anh Tanaka quê ở Hyogo.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "ご出身[しゅっしん]は、どちらですか。",
+          "vi": "Anh quê ở đâu ạ?",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "出身地[しゅっしんち] = quê quán."
     },
     {
-     "jp": "お客様[きゃくさま]は王様[おうさま]です。",
-     "vi": "Khách hàng là thượng đế.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:鬼:おに",
-   "kana": "おに",
-   "kanji": "鬼",
-   "hv": "QUỶ",
-   "vi": "quỷ (ông ba bị)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "節分[せつぶん]の日[ひ]に、鬼[おに]に豆[まめ]をまきます。",
-     "vi": "Ngày Setsubun ném đậu vào quỷ.",
-     "ctx": "doisong"
+      "id": "v:王様:おうさま",
+      "kana": "おうさま",
+      "kanji": "王様",
+      "hv": "VƯƠNG DẠNG",
+      "vi": "vua",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "昔[むかし]、この国[くに]には王様[おうさま]がいました。",
+          "vi": "Ngày xưa nước này có vua.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "お客様[きゃくさま]は王様[おうさま]です。",
+          "vi": "Khách hàng là thượng đế.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "仕事[しごと]の時[とき]の班長[はんちょう]は、鬼[おに]のように厳[きび]しい。",
-     "vi": "Lúc làm việc tổ trưởng nghiêm như ông kẹ.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "節分[せつぶん] (đầu tháng 2): ném đậu, hô 鬼[おに]は外[そと]、福[ふく]は内[うち]!"
-  },
-  {
-   "id": "v:飾り:かざり",
-   "kana": "かざり",
-   "kanji": "飾り",
-   "kf": "飾[かざ]り",
-   "hv": "SỨC",
-   "vi": "đồ trang trí",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "お正月[しょうがつ]の飾[かざ]りを、玄関[げんかん]に付[つ]けました。",
-     "vi": "Tôi gắn đồ trang trí Tết ở cửa.",
-     "ctx": "doisong"
+      "id": "v:鬼:おに",
+      "kana": "おに",
+      "kanji": "鬼",
+      "hv": "QUỶ",
+      "vi": "quỷ (ông ba bị)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "節分[せつぶん]の日[ひ]に、鬼[おに]に豆[まめ]をまきます。",
+          "vi": "Ngày Setsubun ném đậu vào quỷ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "仕事[しごと]の時[とき]の班長[はんちょう]は、鬼[おに]のように厳[きび]しい。",
+          "vi": "Lúc làm việc tổ trưởng nghiêm như ông kẹ.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "節分[せつぶん] (đầu tháng 2): ném đậu, hô 鬼[おに]は外[そと]、福[ふく]は内[うち]!"
     },
     {
-     "jp": "七夕[たなばた]の飾[かざ]りを、みんなで作[つく]りました。",
-     "vi": "Mọi người cùng làm đồ trang trí Tanabata.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:飾る:かざる"
-   ]
-  },
-  {
-   "id": "v:活気:かっき",
-   "kana": "かっき",
-   "kanji": "活気",
-   "hv": "HOẠT KHÍ",
-   "vi": "sức sống, sôi động",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "朝[あさ]の市場[しじょう]は、活気[かっき]があります。",
-     "vi": "Chợ buổi sáng nhộn nhịp.",
-     "ctx": "doisong"
+      "id": "v:飾り:かざり",
+      "kana": "かざり",
+      "kanji": "飾り",
+      "kf": "飾[かざ]り",
+      "hv": "SỨC",
+      "vi": "đồ trang trí",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "お正月[しょうがつ]の飾[かざ]りを、玄関[げんかん]に付[つ]けました。",
+          "vi": "Tôi gắn đồ trang trí Tết ở cửa.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "七夕[たなばた]の飾[かざ]りを、みんなで作[つく]りました。",
+          "vi": "Mọi người cùng làm đồ trang trí Tanabata.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:飾る:かざる"
+      ]
     },
     {
-     "jp": "若[わか]い人[ひと]が増[ふ]えて、町[まち]に活気[かっき]が出[で]た。",
-     "vi": "Người trẻ tăng lên, thị trấn sôi động hơn.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:記念:きねん",
-   "kana": "きねん",
-   "kanji": "記念",
-   "hv": "KÝ NIỆM",
-   "vi": "kỷ niệm (dịp ghi nhớ)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "記念[きねん]に、写真[しゃしん]を撮[と]りましょう。",
-     "vi": "Chụp ảnh làm kỷ niệm nhé.",
-     "ctx": "doisong"
+      "id": "v:活気:かっき",
+      "kana": "かっき",
+      "kanji": "活気",
+      "hv": "HOẠT KHÍ",
+      "vi": "sức sống, sôi động",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "朝[あさ]の市場[しじょう]は、活気[かっき]があります。",
+          "vi": "Chợ buổi sáng nhộn nhịp.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "若[わか]い人[ひと]が増[ふ]えて、町[まち]に活気[かっき]が出[で]た。",
+          "vi": "Người trẻ tăng lên, thị trấn sôi động hơn.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "会社[かいしゃ]の五十年[ごじゅうねん]記念[きねん]のパーティーがあります。",
-     "vi": "Có tiệc kỷ niệm 50 năm công ty.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "記念日[きねんび] = ngày kỷ niệm; 記念品[きねんひん] = quà kỷ niệm."
-  },
-  {
-   "id": "v:クリスマス:クリスマス",
-   "kana": "クリスマス",
-   "kanji": "",
-   "hv": "",
-   "vi": "Giáng sinh",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]のクリスマスは、休[やす]みではありません。",
-     "vi": "Giáng sinh ở Nhật không được nghỉ.",
-     "ctx": "doisong"
+      "id": "v:記念:きねん",
+      "kana": "きねん",
+      "kanji": "記念",
+      "hv": "KÝ NIỆM",
+      "vi": "kỷ niệm (dịp ghi nhớ)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "記念[きねん]に、写真[しゃしん]を撮[と]りましょう。",
+          "vi": "Chụp ảnh làm kỷ niệm nhé.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "会社[かいしゃ]の五十年[ごじゅうねん]記念[きねん]のパーティーがあります。",
+          "vi": "Có tiệc kỷ niệm 50 năm công ty.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "記念日[きねんび] = ngày kỷ niệm; 記念品[きねんひん] = quà kỷ niệm."
     },
     {
-     "jp": "クリスマスに、ケーキを食[た]べます。",
-     "vi": "Giáng sinh ăn bánh kem.",
-     "ctx": "doisong"
-    }
-   ],
-   "goc": "Christmas (tiếng Anh)"
-  },
-  {
-   "id": "v:魅力:みりょく",
-   "kana": "みりょく",
-   "kanji": "魅力",
-   "hv": "MỊ LỰC",
-   "vi": "sức hấp dẫn",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "兵庫[ひょうご]の魅力[みりょく]は、海[うみ]と山[やま]が近[ちか]いことです。",
-     "vi": "Sức hút của Hyogo là biển và núi gần nhau.",
-     "ctx": "doisong"
+      "id": "v:クリスマス:クリスマス",
+      "kana": "クリスマス",
+      "kanji": "",
+      "hv": "",
+      "vi": "Giáng sinh",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]のクリスマスは、休[やす]みではありません。",
+          "vi": "Giáng sinh ở Nhật không được nghỉ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "クリスマスに、ケーキを食[た]べます。",
+          "vi": "Giáng sinh ăn bánh kem.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "Christmas (tiếng Anh)"
     },
     {
-     "jp": "彼[かれ]の笑顔[えがお]には、魅力[みりょく]があります。",
-     "vi": "Nụ cười anh ấy có sức hút.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "魅力的[みりょくてき] = hấp dẫn."
-  },
-  {
-   "id": "v:墓:はか",
-   "kana": "はか",
-   "kanji": "墓",
-   "hv": "MỘ",
-   "vi": "mộ",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "お盆[ぼん]に、お墓参[はかまい]りをします。",
-     "vi": "Lễ Obon đi viếng mộ.",
-     "ctx": "doisong"
+      "id": "v:魅力:みりょく",
+      "kana": "みりょく",
+      "kanji": "魅力",
+      "hv": "MỊ LỰC",
+      "vi": "sức hấp dẫn",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "兵庫[ひょうご]の魅力[みりょく]は、海[うみ]と山[やま]が近[ちか]いことです。",
+          "vi": "Sức hút của Hyogo là biển và núi gần nhau.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "彼[かれ]の笑顔[えがお]には、魅力[みりょく]があります。",
+          "vi": "Nụ cười anh ấy có sức hút.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "魅力的[みりょくてき] = hấp dẫn."
     },
     {
-     "jp": "家族[かぞく]の墓[はか]は、山[やま]の上[うえ]にあります。",
-     "vi": "Mộ gia đình ở trên núi.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "お墓参[はかまい]り = đi viếng mộ."
-  },
-  {
-   "id": "v:迷子:まいご",
-   "kana": "まいご",
-   "kanji": "迷子",
-   "hv": "MÊ TỬ",
-   "vi": "lạc (trẻ, người)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "お祭[まつ]りで、子[こ]どもが迷子[まいご]になりました。",
-     "vi": "Đứa trẻ bị lạc ở lễ hội.",
-     "ctx": "doisong"
+      "id": "v:墓:はか",
+      "kana": "はか",
+      "kanji": "墓",
+      "hv": "MỘ",
+      "vi": "mộ",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "お盆[ぼん]に、お墓参[はかまい]りをします。",
+          "vi": "Lễ Obon đi viếng mộ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "家族[かぞく]の墓[はか]は、山[やま]の上[うえ]にあります。",
+          "vi": "Mộ gia đình ở trên núi.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "お墓参[はかまい]り = đi viếng mộ."
     },
     {
-     "jp": "地図[ちず]がなくて、迷子[まいご]になった。",
-     "vi": "Không có bản đồ nên bị lạc.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:迷う:まよう"
-   ]
-  },
-  {
-   "id": "v:街:まち",
-   "kana": "まち",
-   "kanji": "街",
-   "hv": "NHAI",
-   "vi": "phố xá (khu sầm uất)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Vùng miền",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "夜[よる]の街[まち]は、きれいです。",
-     "vi": "Phố đêm thật đẹp.",
-     "ctx": "doisong"
+      "id": "v:迷子:まいご",
+      "kana": "まいご",
+      "kanji": "迷子",
+      "hv": "MÊ TỬ",
+      "vi": "lạc (trẻ, người)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "お祭[まつ]りで、子[こ]どもが迷子[まいご]になりました。",
+          "vi": "Đứa trẻ bị lạc ở lễ hội.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "地図[ちず]がなくて、迷子[まいご]になった。",
+          "vi": "Không có bản đồ nên bị lạc.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:迷う:まよう"
+      ]
     },
     {
-     "jp": "神戸[こうべ]の街[まち]を、散歩[さんぽ]しました。",
-     "vi": "Tôi tản bộ phố phường Kobe.",
-     "ctx": "doisong"
+      "id": "v:街:まち",
+      "kana": "まち",
+      "kanji": "街",
+      "hv": "NHAI",
+      "vi": "phố xá (khu sầm uất)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Vùng miền",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "夜[よる]の街[まち]は、きれいです。",
+          "vi": "Phố đêm thật đẹp.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "神戸[こうべ]の街[まち]を、散歩[さんぽ]しました。",
+          "vi": "Tôi tản bộ phố phường Kobe.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:町:まち"
+      ],
+      "note": "町[まち] = thị trấn, khu (đơn vị); 街[まち] = phố xá, khu buôn bán sầm uất."
     }
-   ],
-   "confuse": [
-    "v:町:まち"
-   ],
-   "note": "町[まち] = thị trấn, khu (đơn vị); 街[まち] = phố xá, khu buôn bán sầm uất."
-  }
- ]
+  ]
 }

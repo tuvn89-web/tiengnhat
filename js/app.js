@@ -30,6 +30,7 @@ import { openGrammarSheet } from './explain.js';
 import { initSeason, seasonChipHTML } from './season.js';
 import { initBackFab, backFabRoute } from './backfab.js';
 import { initFxPanel } from './fxpanel.js';
+import { initMarks, renderMarked } from './marks.js';
 import { renderGuessLearn, renderHanViet, renderDenHam, renderGiongChu, renderCungDau, runQuick3, runRecap } from './dot6.js';
 
 const view = $('#view');
@@ -73,6 +74,7 @@ const ROUTES = [
   [/^moi$/, v => runLearn(v, selectItems({ source: 'new' }).slice(0, S.qCount), ctx, { again: () => ctx.go('#/moi', true) })],
   [/^moi\?p=(.+)$/, (v, m) => learnPack(v, decodeURIComponent(m[1]))],
   [/^ghep$/, v => renderMatchSetup(v, ctx)],
+  [/^danhdau$/, v => renderMarked(v, ctx)],
   [/^chuhan$/, v => renderKanjiList(v)],
   [/^chuhan\/on$/, v => renderKanjiQuizSetup(v, ctx)],
   [/^chuhan\/moi$/, v => newKanji(v)],
@@ -307,6 +309,7 @@ function announceUpdate() {
 async function init() {
   await loadSettings();
   try { initSeason(); initFxPanel(); } catch (e) { console.warn('season', e); }
+  initMarks();
   chrome();
   try { initBackFab(ctx); } catch (e) { console.warn('backfab', e); }
   // v32: thanh trên trong suốt; cuộn xuống thì thành kính mờ để chữ trang không đè tiêu đề

@@ -23,6 +23,7 @@ const PAGES = [
   [/^luyen\/chia$/, () => 'Luyện thể', ['luyen']],
   [/^hoc$/, () => 'Trắc nghiệm', ['luyen']],
   [/^ghep$/, () => 'Ghép 6 cặp', ['luyen']],
+  [/^danhdau$/, () => 'Đã đánh dấu ★', ['luyen']],
   [/^onhon$/, () => 'Ôn hỗn hợp', []],
   [/^moi$/, () => 'Học từ mới', []],
   [/^moi\/doan$/, () => 'Học từ mới — đoán nghĩa trước', ['luyen']],

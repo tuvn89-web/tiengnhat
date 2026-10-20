@@ -680,3 +680,27 @@ Rà lại nghĩa mà app tự ghép cho các thể (có thể …, đã …, đa
 **Lưu ý**: một số điện thoại khóa trình duyệt ở 60 Hz khi bật tiết kiệm pin hoặc chế độ "tần số quét tiêu chuẩn". Khi đó dòng đo hiện "~60 Hz"; tắt tiết kiệm pin hoặc chọn "tần số quét cao / thích ứng" trong cài đặt màn hình của máy.
 
 **Tệp thay đổi**: `js/season.js`, `js/fxpanel.js`, `js/settingspage.js`, `js/settings.js`, `js/ui.js`, `js/kanji.js`, `css/app.css`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.
+
+## 47. Bản v38 (20/10/2026): ghép 8 cặp giữa lượt, đánh dấu ★ để ôn, nghĩa sát nhất đứng đầu
+
+- **Đổi trắc nghiệm ↔ ghép 8 cặp ngay trong lượt.** Lúc ôn, luyện từ của bài học, ôn chữ Hán, ôn bài cũ…, dưới thanh tiến độ có hai nút **Trắc nghiệm / Ghép 8 cặp**.
+  - Bấm "Ghép 8 cặp" thì các từ còn lại của lượt đem ra ghép: nghĩa Việt ↔ từ Nhật. Với chữ Hán thì ghép chữ ↔ âm Hán Việt + nghĩa. Mỗi màn tối đa 8 cặp.
+  - Bấm "Trắc nghiệm" thì quay lại hỏi tiếp những từ chưa ghép. Tiến độ và điểm của lượt giữ nguyên.
+  - Ghép đúng ngay tính là đúng. Đã từng ghép nhầm thì tính là sai, vào danh sách "Từ trả lời sai". Cả hai đều ghi vào lịch ôn như trả lời trắc nghiệm.
+  - Trang Trắc nghiệm (#/hoc) và Ôn chữ Hán có thêm mục **Kiểu luyện**, chọn được bắt đầu bằng ghép 8 cặp.
+  - Câu ngữ pháp, câu gõ, câu sắp xếp vẫn hỏi như cũ, sau phần ghép.
+- **Đánh dấu ★ để ôn riêng.**
+  - Nút ★ có ở thẻ từ, thẻ chữ Hán, phần đáp án sau mỗi câu và mỗi dòng trong Kho từ. Bấm lần nữa để bỏ.
+  - Dấu lưu cùng tiến độ học, nên đồng bộ và sao lưu được.
+  - Trang mới **Luyện tập → Đã đánh dấu ★** liệt kê các từ và chữ đã đánh dấu, mỗi phần có nút "Trắc nghiệm" và "Ghép 8 cặp". Từ chưa học cũng hỏi luôn, không hiện thẻ giới thiệu.
+  - Kho từ có bộ lọc "Đã đánh dấu ★". Trắc nghiệm và Ôn chữ Hán có nguồn "Đã đánh dấu ★".
+- **Nghĩa sát nhất đứng đầu.** Từ có từ Hán Việt tương ứng mà người Việt dùng cùng nghĩa thì từ đó đứng đầu phần dịch, ví dụ:
+  - 同時 "đồng thời, cùng lúc"; 確認 "xác nhận, kiểm tra"; 正確 "chính xác, chuẩn xác"; 突然 "đột nhiên, bất thình lình"; 管理 "quản lý, trông coi".
+  - Đã soát hơn 2.700 từ, đổi 102 từ trong 57 gói.
+  - Từ "giả bạn" giữ nguyên, ví dụ 品質 là chất lượng chứ không phải phẩm chất, 勉強 không phải miễn cưỡng, 工場 không phải công trường.
+  - Danh từ + する thì phần đầu phải dùng được như động từ, để các thể chia ra vẫn đúng ("đã xác nhận").
+
+**Tệp thay đổi**:
+- Mã: `js/pairs8.js` (mới), `js/marks.js` (mới), `js/quiz.js`, `js/drill.js`, `js/kanji.js`, `js/words.js`, `js/wordx.js`, `js/practice.js`, `js/app.js`, `js/nav.js`, `css/app.css`, `js/util.js`, `sw.js`.
+- Dữ liệu: 57 gói từ vựng, `data/manifest.json`.
+- `HUONG-DAN.md`.
