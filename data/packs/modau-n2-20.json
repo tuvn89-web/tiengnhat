@@ -1,0 +1,841 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n2-20",
+  "title": "Bài mở đầu N2 – bài 20: Tin đồn nhà máy đóng cửa",
+  "type": "dialog",
+  "level": "N2",
+  "topics": [
+   "doisong",
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n2-20",
+   "title": "Tin đồn nhà máy đóng cửa",
+   "level": "N2",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "ctx": "xuong",
+   "lesson": "l:n2-20",
+   "intro": true,
+   "setting": "Trên nhóm mạng xã hội của người Việt lan truyền tin nhà máy sắp đóng cửa, kèm ảnh máy móc bị chở đi. Linh hoảng sợ, Hoa vội đổ lỗi cho người khác. Anh Nguyễn đi tìm sự thật ở phòng Hành chính và chủ nhiệm Tanaka, rồi trưởng phòng Nakamura giải thích ở buổi họp đầu ca.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    },
+    {
+     "key": "L",
+     "name": "リン",
+     "vi": "Người mới"
+    },
+    {
+     "key": "H",
+     "name": "ホア",
+     "vi": "Đồng nghiệp"
+    },
+    {
+     "key": "Y",
+     "name": "山田[やまだ]さん",
+     "vi": "Phòng Hành chính"
+    },
+    {
+     "key": "A",
+     "name": "田中[たなか]主任[しゅにん]",
+     "vi": "Chủ nhiệm"
+    },
+    {
+     "key": "Z",
+     "name": "中村[なかむら]課長[かちょう]",
+     "vi": "Trưởng phòng"
+    }
+   ],
+   "turns": [
+    {
+     "who": "L",
+     "jp": "グエンさん……。この工場[こうじょう]が来月[らいげつ]つぶれるって、本当[ほんとう]ですか。",
+     "vi": "Anh Nguyễn… Nghe nói nhà máy này tháng sau sập tiệm, có thật không ạ?",
+     "grammar": [
+      "g:〜って（伝聞・話題）"
+     ],
+     "gloss": [
+      {
+       "w": "つぶれる",
+       "vi": "phá sản, sập tiệm"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "えっ？　だれがそんなことを言[い]ってるの？",
+     "vi": "Hả? Ai nói chuyện đó vậy?",
+     "alt": [
+      "えっ？　だれから聞[き]いたの？"
+     ],
+     "grammar": [
+      "g:〜とく・〜てる（縮約）"
+     ]
+    },
+    {
+     "who": "L",
+     "jp": "ベトナム人[じん]のSNSのグループで、拡散[かくさん]されてるんです。写真[しゃしん]もあります。",
+     "vi": "Tin đang bị lan khắp nhóm mạng xã hội của người Việt. Có cả ảnh nữa.",
+     "key": "拡散[かくさん]",
+     "grammar": [
+      "g:〜で",
+      "g:受身形（〜られる）",
+      "g:〜とく・〜てる（縮約）",
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "SNS",
+       "vi": "mạng xã hội"
+      },
+      {
+       "w": "グループ",
+       "vi": "nhóm"
+      },
+      {
+       "w": "ベトナム人[じん]",
+       "vi": "người Việt Nam"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "どれどれ……。こんなん、根[ね]も葉[は]もないデマに決[き]まってるやん！",
+     "vi": "Đâu xem nào… Cái này chắc chắn là tin bịa vô căn cứ!",
+     "std": "どれどれ……。こんなものは、根[ね]も葉[は]もないデマに決[き]まっていますよ。",
+     "key": "デマ",
+     "note": "Thể thường (danh từ, tính từ な bỏ だ) + に決[き]まっている = chắc chắn là…, nhất định là… (người nói tin chắc theo cảm nhận). Khẩu ngữ: に決[き]まってる. Với cấp trên, khách hàng nên đổi sang 〜はずです / 〜と思[おも]います. Ví dụ: そんな話[はなし]、嘘[うそ]に決[き]まっている.",
+     "grammar": [
+      "g:〜に決まっている"
+     ],
+     "gloss": [
+      {
+       "w": "どれどれ",
+       "vi": "đâu, xem nào"
+      }
+     ]
+    },
+    {
+     "who": "L",
+     "jp": "でも、機械[きかい]が運[はこ]び出[だ]されている写真[しゃしん]まで……。みんな、間違[まちが]いなく本当[ほんとう]だって言[い]ってます。",
+     "vi": "Nhưng có cả ảnh máy móc bị chở đi… Mọi người đều nói chắc chắn là thật.",
+     "key": "間違[まちが]いなく",
+     "grammar": [
+      "g:受身形（〜られる）",
+      "g:〜ています",
+      "g:〜まで（強調）",
+      "g:〜って（伝聞・話題）"
+     ],
+     "gloss": [
+      {
+       "w": "運[はこ]び出[だ]されて",
+       "vi": "bị chở ra ngoài"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "写真[しゃしん]が一枚[いちまい]あるだけじゃ、証拠[しょうこ]にはならないよ。",
+     "vi": "Chỉ có một tấm ảnh thì chưa thành bằng chứng đâu.",
+     "key": "証拠[しょうこ]",
+     "grammar": [
+      "g:〜くなる・〜になる"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "情報源[じょうほうげん]もはっきりしないし、すぐに真[ま]に受[う]けないほうがいい。",
+     "vi": "Nguồn tin cũng không rõ, đừng vội tin là thật.",
+     "key": "情報源[じょうほうげん]",
+     "alt": [
+      "どこから来[き]た話[はなし]か分[わ]からないから、まだ信[しん]じないほうがいいよ。"
+     ],
+     "grammar": [
+      "g:〜も",
+      "g:〜し、〜し",
+      "g:〜ほうがいい"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "分[わ]かった！　これ流[なが]したん、いつも大[おお]げさな佐藤[さとう]さんに決[き]まってる。",
+     "vi": "Biết rồi! Người tung tin này chắc chắn là anh Sato, cái người hay làm quá.",
+     "std": "分[わ]かりました。これを流[なが]したのは、いつも大[おお]げさな佐藤[さとう]さんに決[き]まっています。",
+     "key": "大[おお]げさ",
+     "grammar": [
+      "g:〜に決まっている"
+     ],
+     "gloss": [
+      {
+       "w": "流[なが]した",
+       "vi": "tung (tin) ra"
+      },
+      {
+       "w": "佐藤[さとう]",
+       "vi": "Sato"
+      },
+      {
+       "w": "分[わ]かった",
+       "vi": "hiểu rồi"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ホアさん、証拠[しょうこ]もないのに、決[き]めつけたらだめだよ。それも、ただの思[おも]い込[こ]みかもしれない。",
+     "vi": "Hoa, không có bằng chứng mà quy chụp là không được. Cái đó cũng có thể chỉ là do em nghĩ thế.",
+     "key": "決[き]めつけたら",
+     "grammar": [
+      "g:〜も",
+      "g:〜のに",
+      "g:〜たら",
+      "g:〜かもしれない"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "……そうですね。すみません。",
+     "vi": "…Đúng ạ. Em xin lỗi.",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "山田[やまだ]さん、お忙[いそが]しいところすみません。工場[こうじょう]が閉鎖[へいさ]されるといううわさを聞[き]いたんですが。",
+     "vi": "Chị Yamada, xin lỗi lúc chị đang bận. Tôi nghe tin đồn nhà máy sẽ đóng cửa.",
+     "alt": [
+      "山田[やまだ]さん、すみません。工場[こうじょう]が閉鎖[へいさ]されるという話[はなし]は、本当[ほんとう]ですか。"
+     ],
+     "grammar": [
+      "g:受身形（〜られる）",
+      "g:〜という",
+      "g:〜が・〜けど"
+     ],
+     "gloss": [
+      {
+       "w": "閉鎖[へいさ]",
+       "vi": "đóng cửa (nhà máy)"
+      },
+      {
+       "w": "うわさ",
+       "vi": "tin đồn"
+      }
+     ]
+    },
+    {
+     "who": "Y",
+     "jp": "ああ、その話[はなし]ですね。総務課[そうむか]にも、朝[あさ]から問[と]い合[あ]わせが来[き]ています。",
+     "vi": "À, chuyện đó. Phòng Hành chính cũng nhận câu hỏi từ sáng rồi.",
+     "grammar": [
+      "g:〜に",
+      "g:〜も",
+      "g:〜から",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "問[と]い合[あ]わせ",
+       "vi": "câu hỏi, liên hệ hỏi"
+      },
+      {
+       "w": "総務課[そうむか]",
+       "vi": "phòng Hành chính"
+      }
+     ]
+    },
+    {
+     "who": "Y",
+     "jp": "真相[しんそう]をお話[はな]しすると、古[ふる]いBラインの機械[きかい]を運[はこ]び出[だ]していたにすぎません。",
+     "vi": "Nói thật ra thì, chúng tôi chỉ đang chở máy cũ của dây chuyền B ra ngoài thôi.",
+     "key": "真相[しんそう]",
+     "note": "Thể thường / danh từ + にすぎない = chỉ là… mà thôi, không hơn (đánh giá là nhỏ, không đáng kể). Lịch sự: にすぎません. Ví dụ: それはただの噂[うわさ]にすぎない = đó chỉ là tin đồn thôi. Dùng khiêm tốn cho mình thì được, cho công sức người khác thì thành thất lễ.",
+     "grammar": [
+      "g:〜と（条件）",
+      "g:〜を",
+      "g:〜ています",
+      "g:〜にすぎない"
+     ],
+     "gloss": [
+      {
+       "w": "運[はこ]び出[だ]し",
+       "vi": "chở ra ngoài"
+      },
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      }
+     ]
+    },
+    {
+     "who": "Y",
+     "jp": "来月[らいげつ]、新[あたら]しい機械[きかい]を入[い]れる工事[こうじ]があるんです。閉鎖[へいさ]どころか、ラインが増[ふ]えるんですよ。",
+     "vi": "Tháng sau có công trình lắp máy mới. Không những không đóng cửa, dây chuyền còn tăng thêm.",
+     "grammar": [
+      "g:〜どころか"
+     ],
+     "gloss": [
+      {
+       "w": "閉鎖[へいさ]",
+       "vi": "đóng cửa (nhà máy)"
+      },
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      },
+      {
+       "w": "工事[こうじ]",
+       "vi": "thi công"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうだったんですか。じゃあ、写真[しゃしん]を撮[と]った人[ひと]の勘違[かんちが]いですね。",
+     "vi": "Ra vậy ạ. Thế thì là người chụp ảnh hiểu nhầm rồi.",
+     "key": "勘違[かんちが]い",
+     "grammar": []
+    },
+    {
+     "who": "Y",
+     "jp": "ええ。悪[わる]い意図[いと]があったわけではないと思[おも]いますよ。ほんの一部[いちぶ]を見[み]て、早合点[はやがてん]しただけでしょう。",
+     "vi": "Vâng. Tôi nghĩ không phải có ý đồ xấu gì đâu. Chỉ là nhìn một chút rồi kết luận vội thôi.",
+     "key": "意図[いと]",
+     "grammar": [
+      "g:〜わけではない",
+      "g:〜と",
+      "g:〜て、〜",
+      "g:〜でしょう"
+     ],
+     "gloss": [
+      {
+       "w": "早合点[はやがてん]",
+       "vi": "kết luận vội"
+      },
+      {
+       "w": "ほんの一部[いちぶ]",
+       "vi": "chỉ một phần nhỏ"
+      }
+     ]
+    },
+    {
+     "who": "Y",
+     "jp": "ただ、取引先[とりひきさき]から、風評[ふうひょう]を心配[しんぱい]する電話[でんわ]もありました。",
+     "vi": "Có điều, cũng có cuộc gọi từ đối tác lo ngại lời đồn ảnh hưởng xấu.",
+     "key": "風評[ふうひょう]",
+     "grammar": [
+      "g:〜から",
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "取引先[とりひきさき]",
+       "vi": "đối tác làm ăn"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "グエンさん、うわさの件[けん]、聞[き]いたよ。班[はん]のみんなは大丈夫[だいじょうぶ]？",
+     "vi": "Nguyễn, anh nghe chuyện tin đồn rồi. Mọi người trong tổ ổn chứ?",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "うわさ",
+       "vi": "tin đồn"
+      },
+      {
+       "w": "件[けん]",
+       "vi": "chuyện, vụ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。リンさんがすごく心配[しんぱい]していて……。SNSの話[はなし]を鵜呑[うの]みにしてしまったみたいです。",
+     "vi": "Dạ. Linh lo lắm… Hình như em ấy tin ngay chuyện trên mạng.",
+     "key": "鵜呑[うの]み",
+     "grammar": [
+      "g:〜ています",
+      "g:〜てしまう",
+      "g:〜みたいだ"
+     ],
+     "gloss": [
+      {
+       "w": "SNS",
+       "vi": "mạng xã hội"
+      },
+      {
+       "w": "みたい",
+       "vi": "hình như; giống như"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "無理[むり]もないよ。日本語[にほんご]のお知[し]らせだけじゃ、実態[じったい]が分[わ]かりにくいからね。",
+     "vi": "Cũng dễ hiểu thôi. Chỉ có thông báo tiếng Nhật thì khó nắm được thực trạng.",
+     "key": "実態[じったい]",
+     "grammar": [
+      "g:〜やすい・〜にくい",
+      "g:〜から"
+     ],
+     "gloss": [
+      {
+       "w": "無理[むり]もない",
+       "vi": "cũng dễ hiểu thôi"
+      },
+      {
+       "w": "お知[し]らせ",
+       "vi": "thông báo"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "うわさが広[ひろ]がったのは、会社[かいしゃ]の説明[せつめい]が足[た]りなかったからにほかならない。",
+     "vi": "Tin đồn lan ra chính là vì công ty giải thích chưa đủ.",
+     "note": "Danh từ + にほかならない = chính là…, không gì khác ngoài… (khẳng định mạnh bản chất, lý do). Nêu lý do: 〜のは、〜からにほかならない. Văn viết, nói trang trọng; lịch sự: にほかなりません. Ví dụ: 合格[ごうかく]できたのは、努力[どりょく]の結果[けっか]にほかならない.",
+     "grammar": [
+      "g:〜の・〜こと（名詞化）",
+      "g:〜にほかならない"
+     ],
+     "gloss": [
+      {
+       "w": "うわさ",
+       "vi": "tin đồn"
+      },
+      {
+       "w": "広[ひろ]がった",
+       "vi": "lan ra"
+      },
+      {
+       "w": "なかった",
+       "vi": "đã không"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "要[よう]は、不安[ふあん]な時[とき]ほど、人[ひと]は怪[あや]しい情報[じょうほう]を信[しん]じやすいんだ。",
+     "vi": "Nói gọn lại, càng lúc bất an, người ta càng dễ tin thông tin đáng ngờ.",
+     "key": "要[よう]は",
+     "grammar": [
+      "g:〜やすい・〜にくい"
+     ],
+     "gloss": [
+      {
+       "w": "不安[ふあん]",
+       "vi": "bất an"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうですね。リンさんたちには、ぼくからベトナム語[ご]で補足[ほそく]しておきます。",
+     "vi": "Đúng vậy ạ. Em sẽ nói bổ sung bằng tiếng Việt cho Linh và mọi người.",
+     "key": "補足[ほそく]",
+     "alt": [
+      "そうですね。ぼくがベトナム語[ご]で、みんなに説明[せつめい]しておきます。"
+     ],
+     "grammar": [
+      "g:〜には及ばない",
+      "g:〜から",
+      "g:〜で",
+      "g:〜ておく"
+     ],
+     "gloss": [
+      {
+       "w": "ベトナム語[ご]",
+       "vi": "tiếng Việt"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "助[たす]かる。課長[かちょう]も、明日[あした]の朝礼[ちょうれい]で解説[かいせつ]してくださるそうだよ。",
+     "vi": "Đỡ quá. Nghe nói trưởng phòng cũng sẽ giải thích ở buổi họp đầu ca sáng mai.",
+     "key": "解説[かいせつ]",
+     "grammar": [
+      "g:〜も",
+      "g:〜で",
+      "g:〜そうだ（伝聞）"
+     ],
+     "gloss": [
+      {
+       "w": "朝礼[ちょうれい]",
+       "vi": "họp đầu ca"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "皆[みな]さん、おはようございます。最近[さいきん]のうわさについて、説明[せつめい]します。",
+     "vi": "Chào mọi người. Tôi xin giải thích về tin đồn gần đây.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "うわさ",
+       "vi": "tin đồn"
+      },
+      {
+       "w": "最近[さいきん]",
+       "vi": "gần đây"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "工場[こうじょう]が閉鎖[へいさ]されるという話[はなし]は、真実[しんじつ]ではありません。根拠[こんきょ]のないうわさにすぎません。",
+     "vi": "Chuyện nhà máy đóng cửa không phải sự thật. Đó chỉ là tin đồn không có căn cứ.",
+     "key": "真実[しんじつ]",
+     "grammar": [
+      "g:受身形（〜られる）",
+      "g:〜という",
+      "g:〜にすぎない"
+     ],
+     "gloss": [
+      {
+       "w": "閉鎖[へいさ]",
+       "vi": "đóng cửa (nhà máy)"
+      },
+      {
+       "w": "うわさ",
+       "vi": "tin đồn"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "機械[きかい]の入[い]れ替[か]えは、皆[みな]さんの仕事[しごと]を守[まも]るための投資[とうし]にほかなりません。",
+     "vi": "Việc thay máy chính là khoản đầu tư để bảo vệ công việc của mọi người.",
+     "grammar": [
+      "g:〜ために（目的）",
+      "g:〜にほかならない"
+     ],
+     "gloss": [
+      {
+       "w": "入[い]れ替[か]え",
+       "vi": "thay mới"
+      },
+      {
+       "w": "投資[とうし]",
+       "vi": "đầu tư"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "新[あたら]しいラインの狙[ねら]いは、作業[さぎょう]の負担[ふたん]を減[へ]らすことです。",
+     "vi": "Mục đích của dây chuyền mới là giảm gánh nặng công việc.",
+     "key": "狙[ねら]い",
+     "grammar": [
+      "g:〜の・〜こと（名詞化）"
+     ],
+     "gloss": [
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      },
+      {
+       "w": "負担[ふたん]",
+       "vi": "gánh nặng"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "言[い]い換[か]えれば、皆[みな]さんに、もっと長[なが]く安心[あんしん]して働[はたら]いてもらうためです。",
+     "vi": "Nói cách khác, là để mọi người làm việc lâu dài và yên tâm hơn.",
+     "key": "言[い]い換[か]えれば",
+     "grammar": [
+      "g:〜ば",
+      "g:〜てもらう",
+      "g:〜ために（目的）"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "説明[せつめい]が遅[おく]れたことは、会社[かいしゃ]として弁解[べんかい]の余地[よち]もありません。申[もう]し訳[わけ]ありませんでした。",
+     "vi": "Việc giải thích chậm trễ, với tư cách công ty, chúng tôi không có gì để biện bạch. Thành thật xin lỗi.",
+     "key": "弁解[べんかい]",
+     "grammar": [
+      "g:〜の・〜こと（名詞化）",
+      "g:〜として",
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "余地[よち]",
+       "vi": "chỗ, khả năng (để …)"
+      },
+      {
+       "w": "申[もう]し訳[わけ]ありませんでした",
+       "vi": "thành thật xin lỗi"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "一概[いちがい]には言[い]えませんが、SNSの情報[じょうほう]は、一度[いちど]疑[うたが]ってみることも大切[たいせつ]です。",
+     "vi": "Không thể nói vơ đũa cả nắm, nhưng với thông tin trên mạng, thử nghi ngờ một lần cũng là điều quan trọng.",
+     "key": "一概[いちがい]には",
+     "grammar": [
+      "g:可能形（〜られる・〜える）",
+      "g:〜が・〜けど",
+      "g:〜てみる",
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "SNS",
+       "vi": "mạng xã hội"
+      },
+      {
+       "w": "疑[うたが]って",
+       "vi": "nghi ngờ"
+      }
+     ]
+    },
+    {
+     "who": "L",
+     "jp": "グエンさん、本音[ほんね]を言[い]うと、すごく怖[こわ]かったんです。国[くに]の家族[かぞく]にまで連絡[れんらく]してしまって……。",
+     "vi": "Anh Nguyễn, nói thật lòng là em sợ lắm. Em còn báo cả cho gia đình ở quê nữa…",
+     "key": "本音[ほんね]",
+     "grammar": [
+      "g:〜と（条件）",
+      "g:〜まで（強調）",
+      "g:〜てしまう"
+     ],
+     "gloss": [
+      {
+       "w": "国[くに]",
+       "vi": "quê nhà, đất nước"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ばかなことじゃないよ。不安[ふあん]な時[とき]に家族[かぞく]を思[おも]うのは、当[あ]たり前[まえ]だよ。",
+     "vi": "Đâu phải chuyện ngốc nghếch. Lúc bất an thì nghĩ đến gia đình là chuyện đương nhiên.",
+     "alt": [
+      "気[き]にしなくていいよ。不安[ふあん]な時[とき]は、だれでも家族[かぞく]のことを考[かんが]えるよ。"
+     ],
+     "grammar": [
+      "g:〜の・〜こと（名詞化）"
+     ],
+     "gloss": [
+      {
+       "w": "不安[ふあん]",
+       "vi": "bất an"
+      },
+      {
+       "w": "当[あ]たり前[まえ]",
+       "vi": "chuyện đương nhiên"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "私[わたし]も、佐藤[さとう]さんのことを偏見[へんけん]で決[き]めつけてしまいました。後[あと]で謝[あやま]ってきます。",
+     "vi": "Em cũng đã quy chụp anh Sato bằng định kiến. Lát nữa em sẽ đi xin lỗi.",
+     "key": "偏見[へんけん]",
+     "grammar": [
+      "g:〜で",
+      "g:〜てしまう"
+     ],
+     "gloss": [
+      {
+       "w": "佐藤[さとう]",
+       "vi": "Sato"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "うん。結局[けっきょく]、あの写真[しゃしん]も、所詮[しょせん]はただの勘違[かんちが]いにすぎなかったんだから。",
+     "vi": "Ừ. Rốt cuộc tấm ảnh đó cũng chẳng qua chỉ là một sự hiểu nhầm thôi mà.",
+     "key": "所詮[しょせん]",
+     "grammar": [
+      "g:〜も",
+      "g:〜にすぎない",
+      "g:〜から"
+     ],
+     "gloss": [
+      {
+       "w": "なかった",
+       "vi": "đã không"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "グエンさん、ありがとう。うわさがすぐに収[おさ]まったのは、班長[はんちょう]たちが丁寧[ていねい]に説得[せっとく]してくれたからにほかなりません。",
+     "vi": "Anh Nguyễn, cảm ơn anh. Tin đồn lắng xuống nhanh chính là vì các tổ trưởng đã kiên nhẫn thuyết phục mọi người.",
+     "key": "説得[せっとく]",
+     "grammar": [
+      "g:〜の・〜こと（名詞化）",
+      "g:〜てくれる",
+      "g:〜にほかならない"
+     ],
+     "gloss": [
+      {
+       "w": "うわさ",
+       "vi": "tin đồn"
+      },
+      {
+       "w": "収[おさ]まった",
+       "vi": "lắng xuống"
+      },
+      {
+       "w": "丁寧[ていねい]",
+       "vi": "cẩn thận, chu đáo"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いいえ。ぼくは、本当[ほんとう]のことを伝[つた]えたにすぎません。",
+     "vi": "Không đâu ạ. Tôi chỉ truyền đạt sự thật thôi.",
+     "alt": [
+      "いいえ。ぼくは、本当[ほんとう]のことを話[はな]しただけです。"
+     ],
+     "grammar": [
+      "g:〜の・〜こと（名詞化）",
+      "g:〜にすぎない"
+     ],
+     "gloss": [
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      }
+     ]
+    },
+    {
+     "who": "L",
+     "jp": "これからは、怪[あや]しい話[はなし]を聞[き]いたら、まず情報源[じょうほうげん]を確[たし]かめます。",
+     "vi": "Từ nay, nghe chuyện gì đáng ngờ, em sẽ kiểm tra nguồn tin trước.",
+     "key": "怪[あや]しい",
+     "grammar": [
+      "g:〜たら"
+     ],
+     "gloss": [
+      {
+       "w": "確[たし]かめます",
+       "vi": "kiểm tra cho chắc"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "リンさんなら、もう大丈夫[だいじょうぶ]に決[き]まってるよ。",
+     "vi": "Linh thì chắc chắn ổn rồi.",
+     "std": "リンさんなら、もう大丈夫[だいじょうぶ]に決[き]まっています。",
+     "grammar": [
+      "g:〜なら",
+      "g:〜に決まっている"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうだね。リンさん、来月[らいげつ]からは新[あたら]しいラインで、よろしく頼[たの]むよ。",
+     "vi": "Đúng vậy. Linh này, từ tháng sau ở dây chuyền mới, trông cậy vào em nhé.",
+     "alt": [
+      "そうだね。新[あたら]しいラインでも、一緒[いっしょ]にがんばろう。"
+     ],
+     "grammar": [
+      "g:〜から",
+      "g:〜で"
+     ],
+     "gloss": [
+      {
+       "w": "よろしく頼[たの]む",
+       "vi": "trông cậy vào, nhờ cả vào"
+      },
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Tin đồn lan trên mạng nói gì?",
+     "opts": [
+      "Nhà máy tháng sau sẽ đóng cửa",
+      "Nhà máy tuyển thêm người",
+      "Dây chuyền B tăng ca",
+      "Trưởng phòng sắp nghỉ việc"
+     ],
+     "ans": 0,
+     "why": "この工場[こうじょう]が来月[らいげつ]つぶれるって、本当[ほんとう]ですか。"
+    },
+    {
+     "q": "Sự thật về tấm ảnh máy móc bị chở đi là gì?",
+     "opts": [
+      "Chở máy cũ ra để lắp máy mới",
+      "Bán máy vì nhà máy sắp đóng",
+      "Máy bị hỏng nên phải vứt",
+      "Chuyển máy sang nhà máy khác"
+     ],
+     "ans": 0,
+     "why": "古[ふる]いBラインの機械[きかい]を運[はこ]び出[だ]していたにすぎません。来月[らいげつ]、新[あたら]しい機械[きかい]を入[い]れる工事[こうじ]があるんです。"
+    },
+    {
+     "q": "Theo chủ nhiệm Tanaka, vì sao tin đồn lan ra?",
+     "opts": [
+      "Vì công ty giải thích chưa đủ",
+      "Vì anh Sato cố ý tung tin",
+      "Vì Linh viết lên mạng",
+      "Vì đối tác gọi điện"
+     ],
+     "ans": 0,
+     "why": "うわさが広[ひろ]がったのは、会社[かいしゃ]の説明[せつめい]が足[た]りなかったからにほかならない。"
+    },
+    {
+     "q": "\"根拠[こんきょ]のないうわさにすぎません\" nghĩa là gì?",
+     "opts": [
+      "Chỉ là tin đồn không có căn cứ mà thôi",
+      "Chính là tin đồn có căn cứ",
+      "Chắc chắn là sự thật",
+      "Không thể là tin đồn"
+     ],
+     "ans": 0,
+     "why": "にすぎない = chỉ là… mà thôi (coi là nhỏ, không đáng kể)."
+    },
+    {
+     "q": "Vì sao anh Nguyễn nhắc Hoa khi cô nói \"佐藤[さとう]さんに決[き]まってる\"?",
+     "opts": [
+      "Không có bằng chứng mà đã quy chụp",
+      "Vì anh Sato là cấp trên",
+      "Vì Hoa nói tiếng Kansai",
+      "Vì anh Nguyễn biết ai tung tin"
+     ],
+     "ans": 0,
+     "why": "証拠[しょうこ]もないのに、決[き]めつけたらだめだよ。"
+    }
+   ]
+  }
+ ]
+}

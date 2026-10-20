@@ -1,0 +1,1666 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-12",
+  "title": "JLPT N2 12 – Kinh tế, ngành nghề, dân số và du lịch Hyogo",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:不景気:ふけいき",
+   "kana": "ふけいき",
+   "kanji": "不景気",
+   "hv": "BẤT CẢNH KHÍ",
+   "vi": "kinh tế đình trệ, làm ăn ế ẩm",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh tế",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不景気[ふけいき]で、ボーナスが減[へ]りました。",
+     "vi": "Kinh tế đình trệ nên tiền thưởng giảm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "不景気[ふけいき]になると、仕事[しごと]を探[さが]すのが大変[たいへん]です。",
+     "vi": "Khi kinh tế đi xuống, tìm việc rất vất vả.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:好景気:こうけいき"
+   ],
+   "rel": [
+    "v:景気:けいき"
+   ],
+   "note": "Tin tức, văn viết hay dùng 不況[ふきょう]."
+  },
+  {
+   "id": "v:好景気:こうけいき",
+   "kana": "こうけいき",
+   "kanji": "好景気",
+   "hv": "HẢO CẢNH KHÍ",
+   "vi": "kinh tế phát đạt",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh tế",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "好景気[こうけいき]のときは、どの会社[かいしゃ]も人[ひと]を増[ふ]やします。",
+     "vi": "Lúc kinh tế phát đạt, công ty nào cũng tuyển thêm người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "好景気[こうけいき]が、ずっと続[つづ]くとは限[かぎ]りません。",
+     "vi": "Kinh tế phát đạt chưa chắc kéo dài mãi.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:不景気:ふけいき"
+   ],
+   "rel": [
+    "v:景気:けいき"
+   ]
+  },
+  {
+   "id": "v:値上げ:ねあげ",
+   "kana": "ねあげ",
+   "kanji": "値上げ",
+   "kf": "値上[ねあ]げ",
+   "hv": "TRỊ THƯỢNG",
+   "vi": "tăng giá (người bán nâng giá)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh tế",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来月[らいげつ]から、電気代[でんきだい]が値上[ねあ]げされます。",
+     "vi": "Từ tháng sau tiền điện tăng giá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "原料[げんりょう]が高[たか]くなったので、商品[しょうひん]を値上[ねあ]げすることになった。",
+     "vi": "Nguyên liệu đắt lên nên phải tăng giá sản phẩm.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "料金[りょうきん]を値上[ねあ]げする",
+     "vi": "tăng giá cước"
+    }
+   ],
+   "ant": [
+    "v:値下げ:ねさげ"
+   ],
+   "note": "値上[ねあ]がり = giá tự tăng lên (thị trường); 値上[ねあ]げ = người bán nâng giá."
+  },
+  {
+   "id": "v:値下げ:ねさげ",
+   "kana": "ねさげ",
+   "kanji": "値下げ",
+   "kf": "値下[ねさ]げ",
+   "hv": "TRỊ HẠ",
+   "vi": "giảm giá (hạ giá niêm yết)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh tế",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ガソリンが、少[すこ]し値下[ねさ]げされました。",
+     "vi": "Xăng được hạ giá một chút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "売[う]れ残[のこ]った魚[さかな]を、夕方[ゆうがた]に値下[ねさ]げします。",
+     "vi": "Chiều tối hạ giá cá còn tồn.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "価格[かかく]を値下[ねさ]げする",
+     "vi": "hạ giá bán"
+    }
+   ],
+   "ant": [
+    "v:値上げ:ねあげ"
+   ],
+   "confuse": [
+    "v:値引き:ねびき"
+   ],
+   "note": "値下[ねさ]げ = hạ giá niêm yết cho mọi người; 値引[ねび]き = bớt tiền cho một lần mua."
+  },
+  {
+   "id": "v:円高:えんだか",
+   "kana": "えんだか",
+   "kanji": "円高",
+   "hv": "VIÊN CAO",
+   "vi": "đồng yên lên giá",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh tế",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "円高[えんだか]になると、輸入品[ゆにゅうひん]が安[やす]くなります。",
+     "vi": "Yên lên giá thì hàng nhập khẩu rẻ đi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "円高[えんだか]のときに国[くに]へお金[かね]を送[おく]ると、得[とく]をします。",
+     "vi": "Gửi tiền về nước lúc yên lên giá thì được lợi.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "円安[えんやす]",
+     "vi": "đồng yên mất giá"
+    }
+   ],
+   "note": "Người gửi tiền về nước có lợi khi 円高[えんだか] (đổi được nhiều tiền Việt hơn)."
+  },
+  {
+   "id": "v:最低賃金:さいていちんぎん",
+   "kana": "さいていちんぎん",
+   "kanji": "最低賃金",
+   "hv": "TỐI ĐÊ NHẪM KIM",
+   "vi": "lương tối thiểu",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh tế",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "最低賃金[さいていちんぎん]は、都道府県[とどうふけん]ごとに決[き]められています。",
+     "vi": "Lương tối thiểu được quy định theo từng tỉnh.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "最低賃金[さいていちんぎん]が上[あ]がったので、時給[じきゅう]も上[あ]がりました。",
+     "vi": "Lương tối thiểu tăng nên lương giờ cũng tăng.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Tính theo giờ (時給[じきゅう]). Mức cụ thể xem trang của Bộ Lao động hoặc của tỉnh."
+  },
+  {
+   "id": "v:中小企業:ちゅうしょうきぎょう",
+   "kana": "ちゅうしょうきぎょう",
+   "kanji": "中小企業",
+   "hv": "TRUNG TIỂU XÍ NGHIỆP",
+   "vi": "doanh nghiệp vừa và nhỏ",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh tế",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "うちの会社[かいしゃ]は、従業員[じゅうぎょういん]五十人[ごじゅうにん]の中小企業[ちゅうしょうきぎょう]です。",
+     "vi": "Công ty tôi là doanh nghiệp vừa và nhỏ 50 nhân viên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "兵庫県[ひょうごけん]には、技術[ぎじゅつ]の高[たか]い中小企業[ちゅうしょうきぎょう]がたくさんあります。",
+     "vi": "Ở Hyogo có nhiều doanh nghiệp vừa và nhỏ kỹ thuật cao.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "大企業[だいきぎょう]",
+     "vi": "doanh nghiệp lớn"
+    }
+   ],
+   "rel": [
+    "v:企業:きぎょう"
+   ]
+  },
+  {
+   "id": "v:失業率:しつぎょうりつ",
+   "kana": "しつぎょうりつ",
+   "kanji": "失業率",
+   "hv": "THẤT NGHIỆP SUẤT",
+   "vi": "tỷ lệ thất nghiệp",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh tế",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ニュースで、失業率[しつぎょうりつ]が下[さ]がったと言[い]っていました。",
+     "vi": "Tin tức nói tỷ lệ thất nghiệp đã giảm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "不景気[ふけいき]になると、失業率[しつぎょうりつ]が上[あ]がります。",
+     "vi": "Kinh tế đình trệ thì tỷ lệ thất nghiệp tăng.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:失業:しつぎょう"
+   ]
+  },
+  {
+   "id": "v:活性化:かっせいか",
+   "kana": "かっせいか",
+   "kanji": "活性化",
+   "hv": "HOẠT TÍNH HÓA",
+   "vi": "làm sống lại, vực dậy (kinh tế, địa phương)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh tế",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "祭[まつ]りで、商店街[しょうてんがい]を活性化[かっせいか]しようとしています。",
+     "vi": "Người ta đang cố vực dậy khu phố mua sắm bằng lễ hội.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "若[わか]い人[ひと]の意見[いけん]で、会議[かいぎ]が活性化[かっせいか]しました。",
+     "vi": "Nhờ ý kiến người trẻ, cuộc họp sôi nổi hẳn lên.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "地域[ちいき]を活性化[かっせいか]する",
+     "vi": "vực dậy địa phương"
+    },
+    {
+     "jp": "経済[けいざい]を活性化[かっせいか]する",
+     "vi": "kích thích kinh tế"
+    }
+   ],
+   "note": "地域活性化[ちいきかっせいか] = làm sống lại địa phương."
+  },
+  {
+   "id": "v:栄える:さかえる",
+   "kana": "さかえる",
+   "kanji": "栄える",
+   "kf": "栄[さか]える",
+   "hv": "VINH",
+   "vi": "phồn thịnh, thịnh vượng",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh tế",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "神戸[こうべ]は、港町[みなとまち]として栄[さか]えてきました。",
+     "vi": "Kobe phát triển thịnh vượng như một thành phố cảng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "昔[むかし]、この通[とお]りは商店街[しょうてんがい]として栄[さか]えていた。",
+     "vi": "Ngày xưa con phố này là khu buôn bán sầm uất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この町[まち]、昔[むかし]は漁業[ぎょぎょう]で栄[さか]えたらしいよ。B：だから、港[みなと]が大[おお]きいんだね。",
+     "vi": "A: Nghe nói thị trấn này xưa thịnh nhờ nghề cá. B: Hèn gì cảng to thế.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "町[まち]が栄[さか]える",
+     "vi": "thị trấn phồn thịnh"
+    },
+    {
+     "jp": "商業[しょうぎょう]で栄[さか]える",
+     "vi": "thịnh vượng nhờ buôn bán"
+    }
+   ],
+   "ant": [
+    "v:衰える:おとろえる"
+   ],
+   "note": "Danh từ: 栄[さか]え. Văn viết: 繁栄[はんえい]."
+  },
+  {
+   "id": "v:衰える:おとろえる",
+   "kana": "おとろえる",
+   "kanji": "衰える",
+   "kf": "衰[おとろ]える",
+   "hv": "SUY",
+   "vi": "suy yếu, sa sút",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh tế",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "年[とし]を取[と]ると、体力[たいりょく]が衰[おとろ]えます。",
+     "vi": "Có tuổi thì thể lực suy giảm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "若者[わかもの]が減[へ]って、町[まち]の商店街[しょうてんがい]が衰[おとろ]えてきた。",
+     "vi": "Người trẻ ít đi, khu phố mua sắm của thị trấn sa sút dần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、目[め]が衰[おとろ]えてきて、細[こま]かい骨[ほね]が見[み]えにくいんだ。B：拡大鏡[かくだいきょう]を使[つか]ったら？",
+     "vi": "A: Dạo này mắt kém đi, khó thấy xương nhỏ. B: Dùng kính lúp xem?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "体力[たいりょく]が衰[おとろ]える",
+     "vi": "thể lực suy giảm"
+    },
+    {
+     "jp": "人気[にんき]が衰[おとろ]える",
+     "vi": "mất dần sức hút"
+    }
+   ],
+   "ant": [
+    "v:栄える:さかえる"
+   ],
+   "note": "Danh từ: 衰[おとろ]え."
+  },
+  {
+   "id": "v:漁業:ぎょぎょう",
+   "kana": "ぎょぎょう",
+   "kanji": "漁業",
+   "hv": "NGƯ NGHIỆP",
+   "vi": "ngư nghiệp, nghề đánh cá",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この町[まち]では、昔[むかし]から漁業[ぎょぎょう]が盛[さか]んです。",
+     "vi": "Thị trấn này từ xưa nghề cá đã phát triển.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "漁業[ぎょぎょう]で働[はたら]く人[ひと]が、年々[ねんねん]減[へ]っています。",
+     "vi": "Người làm nghề cá giảm dần qua từng năm.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:水産業:すいさんぎょう",
+    "v:漁師:りょうし"
+   ]
+  },
+  {
+   "id": "v:水産業:すいさんぎょう",
+   "kana": "すいさんぎょう",
+   "kanji": "水産業",
+   "hv": "THỦY SẢN NGHIỆP",
+   "vi": "ngành thủy sản",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "水産業[すいさんぎょう]には、漁業[ぎょぎょう]や養殖[ようしょく]、加工[かこう]などがあります。",
+     "vi": "Ngành thủy sản gồm đánh bắt, nuôi trồng, chế biến v.v.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "外国人[がいこくじん]の力[ちから]が、日本[にほん]の水産業[すいさんぎょう]を支[ささ]えています。",
+     "vi": "Sức lao động người nước ngoài đang nâng đỡ ngành thủy sản Nhật.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:漁業:ぎょぎょう"
+   ],
+   "note": "水産加工業[すいさんかこうぎょう] = ngành chế biến thủy sản."
+  },
+  {
+   "id": "v:林業:りんぎょう",
+   "kana": "りんぎょう",
+   "kanji": "林業",
+   "hv": "LÂM NGHIỆP",
+   "vi": "lâm nghiệp",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "山[やま]が多[おお]い地域[ちいき]では、林業[りんぎょう]が盛[さか]んです。",
+     "vi": "Vùng nhiều núi thì lâm nghiệp phát triển.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "林業[りんぎょう]も、人手不足[ひとでぶそく]に困[こま]っています。",
+     "vi": "Lâm nghiệp cũng khổ vì thiếu người làm.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:農業:のうぎょう"
+   ]
+  },
+  {
+   "id": "v:観光業:かんこうぎょう",
+   "kana": "かんこうぎょう",
+   "kanji": "観光業",
+   "hv": "QUAN QUANG NGHIỆP",
+   "vi": "ngành du lịch",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "コロナのあと、観光業[かんこうぎょう]が回復[かいふく]してきました。",
+     "vi": "Sau dịch Covid, ngành du lịch đã hồi phục dần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "姉[あね]は、京都[きょうと]で観光業[かんこうぎょう]の仕事[しごと]をしています。",
+     "vi": "Chị tôi làm trong ngành du lịch ở Kyoto.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:観光:かんこう"
+   ]
+  },
+  {
+   "id": "v:製造業:せいぞうぎょう",
+   "kana": "せいぞうぎょう",
+   "kanji": "製造業",
+   "hv": "CHẾ TẠO NGHIỆP",
+   "vi": "ngành sản xuất chế tạo",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "兵庫県[ひょうごけん]は、製造業[せいぞうぎょう]が盛[さか]んな県[けん]です。",
+     "vi": "Hyogo là tỉnh có ngành chế tạo phát triển.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "食品[しょくひん]の製造業[せいぞうぎょう]では、衛生管理[えいせいかんり]がとても大切[たいせつ]です。",
+     "vi": "Trong ngành sản xuất thực phẩm, quản lý vệ sinh rất quan trọng.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:工業:こうぎょう"
+   ]
+  },
+  {
+   "id": "v:造船:ぞうせん",
+   "kana": "ぞうせん",
+   "kanji": "造船",
+   "hv": "TẠO THUYỀN",
+   "vi": "đóng tàu",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "神戸[こうべ]には、昔[むかし]から造船[ぞうせん]の会社[かいしゃ]があります。",
+     "vi": "Ở Kobe từ xưa đã có công ty đóng tàu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "造船[ぞうせん]の仕事[しごと]で、日本[にほん]に来[く]るベトナム人[じん]もいます。",
+     "vi": "Có người Việt sang Nhật làm nghề đóng tàu.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:船:ふね"
+   ],
+   "note": "造船所[ぞうせんじょ] = xưởng đóng tàu."
+  },
+  {
+   "id": "v:地場産業:じばさんぎょう",
+   "kana": "じばさんぎょう",
+   "kanji": "地場産業",
+   "hv": "ĐỊA TRƯỜNG SẢN NGHIỆP",
+   "vi": "ngành nghề truyền thống của địa phương",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "豊岡[とよおか]のかばんは、有名[ゆうめい]な地場[じば]産業[さんぎょう]です。",
+     "vi": "Túi xách Toyooka là nghề địa phương nổi tiếng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "地場[じば]産業[さんぎょう]を守[まも]るために、若[わか]い職人[しょくにん]を育[そだ]てています。",
+     "vi": "Để giữ nghề địa phương, người ta đang đào tạo thợ trẻ.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:産業:さんぎょう"
+   ]
+  },
+  {
+   "id": "v:加工:かこう",
+   "kana": "かこう",
+   "kanji": "加工",
+   "hv": "GIA CÔNG",
+   "vi": "chế biến, gia công",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この工場[こうじょう]では、生[なま]の魚[さかな]を刺身[さしみ]用[よう]に加工[かこう]しています。",
+     "vi": "Nhà máy này chế biến cá sống thành hàng làm sashimi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "木[き]を加工[かこう]して、家具[かぐ]を作[つく]ります。",
+     "vi": "Gia công gỗ để làm đồ nội thất.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "魚[さかな]を加工[かこう]する",
+     "vi": "chế biến cá"
+    },
+    {
+     "jp": "原料[げんりょう]を加工[かこう]する",
+     "vi": "chế biến nguyên liệu"
+    }
+   ],
+   "rel": [
+    "v:加工品:かこうひん"
+   ],
+   "note": "加熱[かねつ]しない加工[かこう] = chế biến không gia nhiệt."
+  },
+  {
+   "id": "v:加工品:かこうひん",
+   "kana": "かこうひん",
+   "kanji": "加工品",
+   "hv": "GIA CÔNG PHẨM",
+   "vi": "sản phẩm chế biến",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この工場[こうじょう]の加工品[かこうひん]は、全国[ぜんこく]のスーパーに出荷[しゅっか]されています。",
+     "vi": "Sản phẩm chế biến của nhà máy này được giao tới siêu thị khắp cả nước.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "かまぼこは、魚[さかな]の加工品[かこうひん]です。",
+     "vi": "Chả kamaboko là sản phẩm chế biến từ cá.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:加工:かこう"
+   ]
+  },
+  {
+   "id": "v:海産物:かいさんぶつ",
+   "kana": "かいさんぶつ",
+   "kanji": "海産物",
+   "hv": "HẢI SẢN VẬT",
+   "vi": "sản vật biển (hải sản, rong, đồ khô)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "明石[あかし]は、タコや鯛[たい]などの海産物[かいさんぶつ]で有名[ゆうめい]です。",
+     "vi": "Akashi nổi tiếng với hải sản như bạch tuộc, cá tráp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "国[くに]の家族[かぞく]に、日本[にほん]の海産物[かいさんぶつ]を送[おく]りました。",
+     "vi": "Tôi gửi hải sản Nhật cho gia đình ở quê.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "海産物[かいさんぶつ] gồm cả rong biển, đồ khô. 魚介類[ぎょかいるい] = cá và các loài có vỏ."
+  },
+  {
+   "id": "v:水揚げ:みずあげ",
+   "kana": "みずあげ",
+   "kanji": "水揚げ",
+   "kf": "水揚[みずあ]げ",
+   "hv": "THỦY DƯƠNG",
+   "vi": "đưa (cá) lên bờ; sản lượng cá lên bờ",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今朝[けさ]、港[みなと]にサバがたくさん水揚[みずあ]げされました。",
+     "vi": "Sáng nay nhiều cá thu được đưa lên cảng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今年[ことし]は、イカの水揚[みずあ]げが少[すく]ないそうです。",
+     "vi": "Nghe nói năm nay sản lượng mực lên bờ ít.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "魚[さかな]を水揚[みずあ]げする",
+     "vi": "đưa cá lên bờ"
+    }
+   ],
+   "note": "水揚[みずあ]げ量[りょう] = sản lượng cá lên bờ."
+  },
+  {
+   "id": "v:漁師:りょうし",
+   "kana": "りょうし",
+   "kanji": "漁師",
+   "hv": "NGƯ SƯ",
+   "vi": "ngư dân",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "父[ちち]は、ベトナムで漁師[りょうし]をしていました。",
+     "vi": "Bố tôi từng làm ngư dân ở Việt Nam.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "朝[あさ]早[はや]く、漁師[りょうし]さんから魚[さかな]を仕入[しい]れます。",
+     "vi": "Sáng sớm nhập cá từ ngư dân.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "猟師[りょうし]",
+     "vi": "thợ săn"
+    }
+   ],
+   "rel": [
+    "v:漁業:ぎょぎょう"
+   ],
+   "note": "Đồng âm: 猟師[りょうし] = thợ săn."
+  },
+  {
+   "id": "v:漁港:ぎょこう",
+   "kana": "ぎょこう",
+   "kanji": "漁港",
+   "hv": "NGƯ CẢNG",
+   "vi": "cảng cá",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この漁港[ぎょこう]では、毎朝[まいあさ]せりが行[おこな]われます。",
+     "vi": "Ở cảng cá này sáng nào cũng có đấu giá cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "休[やす]みの日[ひ]に、漁港[ぎょこう]の食堂[しょくどう]で海鮮丼[かいせんどん]を食[た]べました。",
+     "vi": "Ngày nghỉ tôi ăn cơm hải sản ở quán ăn cảng cá.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:港:みなと"
+   ]
+  },
+  {
+   "id": "v:後継者:こうけいしゃ",
+   "kana": "こうけいしゃ",
+   "kanji": "後継者",
+   "hv": "HẬU KẾ GIẢ",
+   "vi": "người kế nghiệp",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ngành nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "後継者[こうけいしゃ]がいなくて、店[みせ]を閉[し]めることになった。",
+     "vi": "Không có người kế nghiệp nên phải đóng cửa hàng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "農業[のうぎょう]や漁業[ぎょぎょう]では、後継者[こうけいしゃ]不足[ふそく]が問題[もんだい]になっています。",
+     "vi": "Ở nông nghiệp và ngư nghiệp, thiếu người nối nghiệp đang là vấn đề.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:継ぐ:つぐ"
+   ],
+   "note": "後継者不足[こうけいしゃぶそく] = thiếu người nối nghiệp. Văn nói: 跡継[あとつ]ぎ."
+  },
+  {
+   "id": "v:人口減少:じんこうげんしょう",
+   "kana": "じんこうげんしょう",
+   "kanji": "人口減少",
+   "hv": "NHÂN KHẨU GIẢM THIẾU",
+   "vi": "dân số giảm",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dân số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人口[じんこう]減少[げんしょう]で、町[まち]の小学校[しょうがっこう]が一[ひと]つになりました。",
+     "vi": "Do dân số giảm, thị trấn chỉ còn một trường tiểu học.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "人口[じんこう]減少[げんしょう]が続[つづ]く町[まち]では、外国人[がいこくじん]の力[ちから]が必要[ひつよう]です。",
+     "vi": "Ở thị trấn dân số cứ giảm, cần đến sức người nước ngoài.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:人口:じんこう",
+    "v:減少:げんしょう"
+   ]
+  },
+  {
+   "id": "v:少子化:しょうしか",
+   "kana": "しょうしか",
+   "kanji": "少子化",
+   "hv": "THIẾU TỬ HÓA",
+   "vi": "tỷ lệ sinh giảm (ít trẻ con)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dân số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "少子化[しょうしか]で、子供[こども]の数[かず]が減[へ]っています。",
+     "vi": "Do tỷ lệ sinh giảm, số trẻ em đang giảm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "少子化[しょうしか]は、日本[にほん]の大[おお]きな社会[しゃかい]問題[もんだい]です。",
+     "vi": "Tỷ lệ sinh giảm là vấn đề xã hội lớn của Nhật.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:高齢化:こうれいか"
+   ],
+   "note": "少子高齢化[しょうしこうれいか] = ít trẻ em, nhiều người già."
+  },
+  {
+   "id": "v:高齢化:こうれいか",
+   "kana": "こうれいか",
+   "kanji": "高齢化",
+   "hv": "CAO LINH HÓA",
+   "vi": "già hóa (dân số)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dân số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "高齢化[こうれいか]が進[すす]んで、介護[かいご]の仕事[しごと]が増[ふ]えています。",
+     "vi": "Dân số già đi nên việc chăm sóc người già tăng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この漁村[ぎょそん]は、高齢化[こうれいか]が進[すす]んでいます。",
+     "vi": "Làng chài này đang già hóa.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:少子化:しょうしか",
+    "v:高齢者:こうれいしゃ"
+   ]
+  },
+  {
+   "id": "v:高齢者:こうれいしゃ",
+   "kana": "こうれいしゃ",
+   "kanji": "高齢者",
+   "hv": "CAO LINH GIẢ",
+   "vi": "người cao tuổi",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dân số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "高齢者[こうれいしゃ]の方[かた]には、席[せき]を譲[ゆず]りましょう。",
+     "vi": "Hãy nhường ghế cho người cao tuổi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "市[し]では、高齢者[こうれいしゃ]向[む]けの無料[むりょう]バスを走[はし]らせています。",
+     "vi": "Thành phố cho chạy xe buýt miễn phí dành cho người cao tuổi.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    "v:年寄り:としより"
+   ],
+   "note": "高齢者[こうれいしゃ] dùng trong văn bản, tin tức; nói chuyện thường: お年寄[としよ]り."
+  },
+  {
+   "id": "v:若者:わかもの",
+   "kana": "わかもの",
+   "kanji": "若者",
+   "hv": "NHƯỢC GIẢ",
+   "vi": "người trẻ, giới trẻ",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dân số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "若者[わかもの]が都会[とかい]へ出[で]て行[い]き、村[むら]にはお年寄[としよ]りが残[のこ]った。",
+     "vi": "Người trẻ ra thành phố, ở làng chỉ còn người già.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この店[みせ]は、若者[わかもの]に人気[にんき]があります。",
+     "vi": "Quán này được giới trẻ ưa chuộng.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:若い:わかい"
+   ]
+  },
+  {
+   "id": "v:労働力:ろうどうりょく",
+   "kana": "ろうどうりょく",
+   "kanji": "労働力",
+   "hv": "LAO ĐỘNG LỰC",
+   "vi": "sức lao động, lực lượng lao động",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dân số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]は、外国人[がいこくじん]の労働力[ろうどうりょく]に頼[たよ]っています。",
+     "vi": "Nhật Bản dựa vào sức lao động người nước ngoài.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "機械[きかい]を入[い]れて、少[すく]ない労働力[ろうどうりょく]でも生産[せいさん]できるようにした。",
+     "vi": "Đưa máy vào để ít lao động vẫn sản xuất được.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:人手不足:ひとでぶそく"
+   ]
+  },
+  {
+   "id": "v:人手不足:ひとでぶそく",
+   "kana": "ひとでぶそく",
+   "kanji": "人手不足",
+   "hv": "NHÂN THỦ BẤT TÚC",
+   "vi": "thiếu nhân lực",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dân số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人手不足[ひとでぶそく]で、休[やす]みが取[と]りにくいです。",
+     "vi": "Thiếu người nên khó xin nghỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "介護[かいご]や水産[すいさん]加工[かこう]の仕事[しごと]は、人手不足[ひとでぶそく]が続[つづ]いています。",
+     "vi": "Nghề chăm sóc người già và chế biến thủy sản vẫn đang thiếu người.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:労働力:ろうどうりょく",
+    "v:人手:ひとで"
+   ],
+   "note": "Cũng nói 人手[ひとで]が足[た]りない."
+  },
+  {
+   "id": "v:過疎:かそ",
+   "kana": "かそ",
+   "kanji": "過疎",
+   "hv": "QUÁ SƠ",
+   "vi": "thưa dân (dân bỏ đi nơi khác)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dân số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "過疎[かそ]の村[むら]では、バスが一日[いちにち]二本[にほん]しかありません。",
+     "vi": "Ở làng thưa dân, xe buýt mỗi ngày chỉ có 2 chuyến.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "過疎[かそ]が進[すす]んで、小学校[しょうがっこう]が閉校[へいこう]になった。",
+     "vi": "Dân cư thưa dần nên trường tiểu học đã đóng cửa.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "過密[かみつ]",
+     "vi": "quá đông đúc"
+    }
+   ],
+   "note": "過疎化[かそか] = quá trình thưa dân; 過疎地[かそち] = vùng thưa dân."
+  },
+  {
+   "id": "v:移住:いじゅう",
+   "kana": "いじゅう",
+   "kanji": "移住",
+   "hv": "DI TRÚ",
+   "vi": "chuyển đến sống lâu dài (vùng khác, nước khác)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dân số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "定年後[ていねんご]、田舎[いなか]に移住[いじゅう]する人[ひと]が増[ふ]えています。",
+     "vi": "Người chuyển về quê sống sau khi nghỉ hưu đang tăng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "都会[とかい]から地方[ちほう]に移住[いじゅう]する若者[わかもの]もいます。",
+     "vi": "Cũng có người trẻ rời thành phố về địa phương sống.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：淡路島[あわじしま]に移住[いじゅう]した友達[ともだち]がいるんだ。B：へえ、海[うみ]がきれいで、いいところだよね。",
+     "vi": "A: Tôi có người bạn chuyển ra đảo Awaji sống. B: Ồ, biển đẹp, chỗ hay nhỉ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "地方[ちほう]に移住[いじゅう]する",
+     "vi": "chuyển về địa phương sống"
+    },
+    {
+     "jp": "海外[かいがい]に移住[いじゅう]する",
+     "vi": "sang nước ngoài định cư"
+    }
+   ],
+   "rel": [
+    "v:引っ越す:ひっこす"
+   ],
+   "note": "引[ひ]っ越[こ]す = chuyển nhà (bất kỳ); 移住[いじゅう]する = chuyển hẳn đến vùng khác, nước khác để sống."
+  },
+  {
+   "id": "v:流出:りゅうしゅつ",
+   "kana": "りゅうしゅつ",
+   "kanji": "流出",
+   "hv": "LƯU XUẤT",
+   "vi": "chảy ra ngoài; (người, thông tin) thất thoát ra ngoài",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dân số",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "若[わか]い人[ひと]が都会[とかい]へ流出[りゅうしゅつ]して、町[まち]の人口[じんこう]が減[へ]った。",
+     "vi": "Người trẻ đổ ra thành phố, dân số thị trấn giảm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "個人情報[こじんじょうほう]が流出[りゅうしゅつ]しないように、気[き]をつけてください。",
+     "vi": "Hãy cẩn thận để thông tin cá nhân không bị lộ ra ngoài.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人口[じんこう]が流出[りゅうしゅつ]する",
+     "vi": "dân số chảy ra nơi khác"
+    },
+    {
+     "jp": "情報[じょうほう]が流出[りゅうしゅつ]する",
+     "vi": "thông tin bị rò rỉ"
+    }
+   ],
+   "ant": [
+    {
+     "w": "流入[りゅうにゅう]",
+     "vi": "đổ vào"
+    }
+   ],
+   "note": "人口流出[じんこうりゅうしゅつ] = dân bỏ đi nơi khác."
+  },
+  {
+   "id": "v:地元:じもと",
+   "kana": "じもと",
+   "kanji": "地元",
+   "hv": "ĐỊA NGUYÊN",
+   "vi": "địa phương mình (nơi sinh ra, đang sống)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地元[じもと]の人[ひと]に、おいしい店[みせ]を教[おし]えてもらいました。",
+     "vi": "Tôi được người địa phương chỉ cho quán ngon.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この工場[こうじょう]は、地元[じもと]の魚[さかな]を使[つか]っています。",
+     "vi": "Nhà máy này dùng cá của địa phương.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：グエンさんの地元[じもと]は、どこですか。B：ベトナムのハイフォンです。",
+     "vi": "A: Quê anh Nguyễn ở đâu? B: Hải Phòng, Việt Nam.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:地域:ちいき"
+   ],
+   "note": "地元[じもと]の人[ひと] = người địa phương; 地元産[じもとさん] = sản xuất tại địa phương."
+  },
+  {
+   "id": "v:港町:みなとまち",
+   "kana": "みなとまち",
+   "kanji": "港町",
+   "hv": "CẢNG ĐINH",
+   "vi": "thành phố cảng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "神戸[こうべ]は、おしゃれな港町[みなとまち]です。",
+     "vi": "Kobe là thành phố cảng thời thượng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "港町[みなとまち]には、新鮮[しんせん]な魚[さかな]を出[だ]す店[みせ]が多[おお]いです。",
+     "vi": "Ở thành phố cảng có nhiều quán bán cá tươi.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:港:みなと"
+   ]
+  },
+  {
+   "id": "v:観光地:かんこうち",
+   "kana": "かんこうち",
+   "kanji": "観光地",
+   "hv": "QUAN QUANG ĐỊA",
+   "vi": "điểm du lịch",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休[やす]みの日[ひ]の観光地[かんこうち]は、どこも混[こ]んでいます。",
+     "vi": "Ngày nghỉ điểm du lịch nào cũng đông.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "姫路[ひめじ]城[じょう]は、外国人[がいこくじん]にも人気[にんき]の観光地[かんこうち]です。",
+     "vi": "Lâu đài Himeji là điểm du lịch được cả người nước ngoài ưa chuộng.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:名所:めいしょ"
+   ]
+  },
+  {
+   "id": "v:観光客:かんこうきゃく",
+   "kana": "かんこうきゃく",
+   "kanji": "観光客",
+   "hv": "QUAN QUANG KHÁCH",
+   "vi": "khách du lịch",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "最近[さいきん]、外国[がいこく]からの観光客[かんこうきゃく]が増[ふ]えています。",
+     "vi": "Gần đây khách du lịch nước ngoài tăng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "観光客[かんこうきゃく]に道[みち]を聞[き]かれて、英語[えいご]で答[こた]えました。",
+     "vi": "Bị khách du lịch hỏi đường, tôi trả lời bằng tiếng Anh.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:観光:かんこう"
+   ]
+  },
+  {
+   "id": "v:世界遺産:せかいいさん",
+   "kana": "せかいいさん",
+   "kanji": "世界遺産",
+   "hv": "THẾ GIỚI DI SẢN",
+   "vi": "di sản thế giới",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "姫路[ひめじ]城[じょう]は、世界[せかい]遺産[いさん]に登録[とうろく]されています。",
+     "vi": "Lâu đài Himeji đã được công nhận di sản thế giới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ベトナムのハロン湾[わん]も、世界[せかい]遺産[いさん]です。",
+     "vi": "Vịnh Hạ Long của Việt Nam cũng là di sản thế giới.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "世界遺産[せかいいさん]に登録[とうろく]される = được công nhận di sản thế giới."
+  },
+  {
+   "id": "v:城下町:じょうかまち",
+   "kana": "じょうかまち",
+   "kanji": "城下町",
+   "hv": "THÀNH HẠ ĐINH",
+   "vi": "phố hình thành quanh thành cổ",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "姫路[ひめじ]は、お城[しろ]を中心[ちゅうしん]にできた城下町[じょうかまち]です。",
+     "vi": "Himeji là phố hình thành quanh lâu đài.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "出石[いずし]の城下町[じょうかまち]で、名物[めいぶつ]のそばを食[た]べました。",
+     "vi": "Tôi ăn mì soba đặc sản ở phố cổ Izushi.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:城:しろ"
+   ]
+  },
+  {
+   "id": "v:温泉街:おんせんがい",
+   "kana": "おんせんがい",
+   "kanji": "温泉街",
+   "hv": "ÔN TUYỀN NHAI",
+   "vi": "phố suối nước nóng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "城崎[きのさき]の温泉街[おんせんがい]を、浴衣[ゆかた]で歩[ある]きました。",
+     "vi": "Tôi mặc yukata dạo phố suối nước nóng Kinosaki.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "有馬[ありま]の温泉街[おんせんがい]は、神戸[こうべ]から近[ちか]いです。",
+     "vi": "Phố suối nước nóng Arima gần Kobe.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:温泉:おんせん"
+   ]
+  },
+  {
+   "id": "v:日帰り:ひがえり",
+   "kana": "ひがえり",
+   "kanji": "日帰り",
+   "kf": "日帰[ひがえ]り",
+   "hv": "NHẬT QUY",
+   "vi": "đi về trong ngày",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "淡路島[あわじしま]なら、日帰[ひがえ]りで行[い]けます。",
+     "vi": "Đảo Awaji thì đi về trong ngày được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "日帰[ひがえ]りの出張[しゅっちょう]で、東京[とうきょう]まで行[い]ってきました。",
+     "vi": "Tôi đi công tác Tokyo về trong ngày.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：今度[こんど]の休[やす]み、どこか行[い]く？B：日帰[ひがえ]りで、有馬[ありま]温泉[おんせん]に行[い]こうかな。",
+     "vi": "A: Kỳ nghỉ tới đi đâu không? B: Chắc đi suối nước nóng Arima về trong ngày.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "日帰[ひがえ]り旅行[りょこう] = du lịch trong ngày; 日帰[ひがえ]り入浴[にゅうよく] = tắm suối không ngủ lại."
+  },
+  {
+   "id": "v:県庁:けんちょう",
+   "kana": "けんちょう",
+   "kanji": "県庁",
+   "hv": "HUYỆN SẢNH",
+   "vi": "trụ sở chính quyền tỉnh",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "兵庫県[ひょうごけん]の県庁[けんちょう]は、神戸市[こうべし]にあります。",
+     "vi": "Trụ sở tỉnh Hyogo ở thành phố Kobe.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "県[けん]庁[ちょう]のホームページで、外国人[がいこくじん]向[む]けの相談窓口[そうだんまどぐち]を調[しら]べました。",
+     "vi": "Tôi tra quầy tư vấn cho người nước ngoài trên trang web của tỉnh.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:市役所:しやくしょ"
+   ],
+   "note": "県庁所在地[けんちょうしょざいち] = thủ phủ của tỉnh."
+  },
+  {
+   "id": "v:特色:とくしょく",
+   "kana": "とくしょく",
+   "kanji": "特色",
+   "hv": "ĐẶC SẮC",
+   "vi": "nét đặc sắc",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "それぞれの地域[ちいき]に、特色[とくしょく]のある料理[りょうり]があります。",
+     "vi": "Mỗi vùng có món ăn đặc sắc riêng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この工場[こうじょう]の特色[とくしょく]は、手作業[てさぎょう]の丁寧[ていねい]さです。",
+     "vi": "Nét đặc sắc của nhà máy này là sự tỉ mỉ khi làm tay.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:特徴:とくちょう"
+   ],
+   "note": "特色[とくしょく] = nét hay, nổi bật (đánh giá tốt); 特徴[とくちょう] = đặc điểm phân biệt (trung tính)."
+  },
+  {
+   "id": "v:恵まれる:めぐまれる",
+   "kana": "めぐまれる",
+   "kanji": "恵まれる",
+   "kf": "恵[めぐ]まれる",
+   "hv": "HUỆ",
+   "vi": "được ưu đãi, may mắn có (thiên nhiên, điều kiện, người tốt)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "兵庫県[ひょうごけん]は、海[うみ]と山[やま]の自然[しぜん]に恵[めぐ]まれています。",
+     "vi": "Hyogo được thiên nhiên ưu đãi cả biển lẫn núi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "いい先輩[せんぱい]に恵[めぐ]まれて、仕事[しごと]を早[はや]く覚[おぼ]えられました。",
+     "vi": "May mắn gặp đàn anh tốt nên tôi nhớ việc nhanh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：明日[あした]の祭[まつ]り、天気[てんき]に恵[めぐ]まれるといいね。B：うん、晴[は]れそうだよ。",
+     "vi": "A: Mong mai lễ hội gặp trời đẹp nhỉ. B: Ừ, có vẻ sẽ nắng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "天気[てんき]に恵[めぐ]まれる",
+     "vi": "gặp trời đẹp"
+    },
+    {
+     "jp": "自然[しぜん]に恵[めぐ]まれる",
+     "vi": "được thiên nhiên ưu đãi"
+    },
+    {
+     "jp": "人[ひと]に恵[めぐ]まれる",
+     "vi": "gặp được người tốt"
+    }
+   ]
+  },
+  {
+   "id": "v:賑わう:にぎわう",
+   "kana": "にぎわう",
+   "kanji": "賑わう",
+   "kf": "賑[にぎ]わう",
+   "hv": "CHẨN",
+   "vi": "nhộn nhịp đông người (nơi chốn)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夏休[なつやす]みの海[うみ]は、家族連[かぞくづ]れで賑[にぎ]わっています。",
+     "vi": "Biển mùa hè nhộn nhịp các gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "年末[ねんまつ]の市場[いちば]は、買[か]い物[もの]客[きゃく]で賑[にぎ]わいます。",
+     "vi": "Chợ cuối năm đông nghịt khách mua sắm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：南京町[なんきんまち]、すごい人[ひと]だね。B：週末[しゅうまつ]はいつも賑[にぎ]わってるよ。",
+     "vi": "A: Phố người Hoa Nankinmachi đông ghê. B: Cuối tuần lúc nào cũng nhộn nhịp.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "観光客[かんこうきゃく]で賑[にぎ]わう",
+     "vi": "đông nghịt khách du lịch"
+    },
+    {
+     "jp": "町[まち]が賑[にぎ]わう",
+     "vi": "thị trấn nhộn nhịp"
+    }
+   ],
+   "rel": [
+    {
+     "w": "賑[にぎ]やか",
+     "vi": "náo nhiệt"
+    }
+   ],
+   "note": "Danh từ: 賑[にぎ]わい."
+  },
+  {
+   "id": "v:盛り上げる:もりあげる",
+   "kana": "もりあげる",
+   "kanji": "盛り上げる",
+   "kf": "盛[も]り上[あ]げる",
+   "hv": "THỊNH THƯỢNG",
+   "vi": "làm cho sôi nổi, khuấy động",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地元[じもと]の人[ひと]たちが、祭[まつ]りを盛[も]り上[あ]げています。",
+     "vi": "Người dân địa phương đang khuấy động lễ hội.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]の歓迎会[かんげいかい]を、みんなで盛[も]り上[あ]げましょう。",
+     "vi": "Mọi người cùng làm buổi chào đón người mới thêm sôi nổi nhé.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：町[まち]を盛[も]り上[あ]げるために、何[なに]ができるかな。B：特産品[とくさんひん]を使[つか]った料理[りょうり]を出[だ]すのはどう？",
+     "vi": "A: Mình làm gì để thị trấn sôi động lên nhỉ? B: Bán món dùng đặc sản thì sao?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "雰囲気[ふんいき]を盛[も]り上[あ]げる",
+     "vi": "làm không khí sôi nổi"
+    },
+    {
+     "jp": "町[まち]を盛[も]り上[あ]げる",
+     "vi": "làm sôi động thị trấn"
+    }
+   ],
+   "pair": {
+    "w": "盛[も]り上[あ]がる",
+    "vi": "sôi nổi lên (tự động từ)"
+   }
+  },
+  {
+   "id": "v:訪れる:おとずれる",
+   "kana": "おとずれる",
+   "kanji": "訪れる",
+   "kf": "訪[おとず]れる",
+   "hv": "PHỎNG",
+   "vi": "đến thăm (nơi chốn, văn viết)",
+   "pos": "v1",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Địa phương & du lịch",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎年[まいとし]、たくさんの人[ひと]が神戸[こうべ]を訪[おとず]れます。",
+     "vi": "Hằng năm rất nhiều người đến thăm Kobe.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "仕事[しごと]で、初[はじ]めて淡路島[あわじしま]を訪[おとず]れました。",
+     "vi": "Tôi lần đầu đến đảo Awaji vì công việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：日本[にほん]で一番[いちばん]訪[おとず]れたい場所[ばしょ]は、どこ？B：北海道[ほっかいどう]かな。",
+     "vi": "A: Ở Nhật nơi anh muốn đến nhất là đâu? B: Chắc là Hokkaido.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "京都[きょうと]を訪[おとず]れる",
+     "vi": "đến thăm Kyoto"
+    },
+    {
+     "jp": "春[はる]が訪[おとず]れる",
+     "vi": "mùa xuân đến"
+    }
+   ],
+   "confuse": [
+    "v:訪ねる:たずねる"
+   ],
+   "note": "訪[おとず]れる = văn viết, đến một nơi chốn; còn dùng cho mùa, cơ hội: 春[はる]が訪[おとず]れる. 訪[たず]ねる = đến thăm người, nhà ai."
+  }
+ ]
+}

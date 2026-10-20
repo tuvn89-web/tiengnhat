@@ -26,7 +26,7 @@ export const DEFAULTS = {
   season: 'auto',     // auto (theo tháng) | off | '1'…'12' (giữ một tháng)
   motion: true,       // chuyển động giao diện (trang trượt, bảng phóng to, điểm đếm lên)
   fxBg: true,         // v32: hiệu ứng nền (canvas: hạt rơi, trời, mưa…) — công tắc chung, có nút nhỏ ở góc dưới
-  fxFall: true, fxDensity: 'mid', fxSpeed: 'mid',
+  fxFall: true, fxDensity: 'mid', fxSpeed: 'mid', fxFps: 'auto',
   fxDayNight: true, fxClouds: true, fxStars: true, fxMeteor: true, fxPlane: true, fxBlackhole: true,
   fxFireworks: true, fxFireflies: true, fxLanterns: true, fxHolVN: true, fxHolJP: true, fxWind: true, fxLightning: true,
   fxRain: 'season',   // season (mùa mưa + vài ngày) | weather (thời tiết thật) | always | off

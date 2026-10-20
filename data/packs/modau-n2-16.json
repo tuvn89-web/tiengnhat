@@ -1,0 +1,713 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n2-16",
+  "title": "Bài mở đầu N2 – bài 16: Báo cáo tháng bằng con số",
+  "type": "dialog",
+  "level": "N2",
+  "topics": [
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n2-16",
+   "title": "Báo cáo tháng bằng con số",
+   "level": "N2",
+   "topics": [
+    "xuong"
+   ],
+   "ctx": "xuong",
+   "lesson": "l:n2-16",
+   "intro": true,
+   "setting": "Trưởng phòng Nakamura giao cho anh Nguyễn trình bày báo cáo tháng về tỉ lệ thành phẩm của tổ đang giảm. Anh Nguyễn hỏi cách làm ở chủ nhiệm Tanaka, cùng Hoa và Linh tổng hợp báo cáo ngày, tìm ra chỗ có vấn đề rồi trình bày ở cuộc họp.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    },
+    {
+     "key": "Z",
+     "name": "中村[なかむら]課長[かちょう]",
+     "vi": "Trưởng phòng"
+    },
+    {
+     "key": "A",
+     "name": "田中[たなか]主任[しゅにん]",
+     "vi": "Chủ nhiệm"
+    },
+    {
+     "key": "H",
+     "name": "ホア",
+     "vi": "Đồng nghiệp"
+    },
+    {
+     "key": "L",
+     "name": "リン",
+     "vi": "Người mới"
+    }
+   ],
+   "turns": [
+    {
+     "who": "Z",
+     "jp": "グエンさん、来週[らいしゅう]の会議[かいぎ]で、先月[せんげつ]の月報[げっぽう]を発表[はっぴょう]してもらえますか。",
+     "vi": "Anh Nguyễn, ở cuộc họp tuần sau, anh trình bày báo cáo tháng của tháng trước được không?",
+     "key": "月報[げっぽう]",
+     "grammar": [
+      "g:〜で",
+      "g:〜てもらえる・〜ていただける"
+     ],
+     "gloss": [
+      {
+       "w": "発表[はっぴょう]",
+       "vi": "trình bày, phát biểu"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。どんな内容[ないよう]にすればよろしいでしょうか。",
+     "vi": "Vâng. Tôi nên làm nội dung thế nào ạ?",
+     "alt": [
+      "はい。何[なに]について話[はな]せばいいでしょうか。"
+     ],
+     "grammar": [
+      "g:〜ば"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "グエンさんの班[はん]の歩留[ぶど]まりが、先月[せんげつ]から少[すこ]し下[さ]がっています。その原因[げんいん]を、具体的[ぐたいてき]な数値[すうち]に基[もと]づいて説明[せつめい]してください。",
+     "vi": "Tỉ lệ thành phẩm của tổ anh từ tháng trước giảm nhẹ. Hãy giải thích nguyên nhân dựa trên những con số cụ thể.",
+     "key": "歩留[ぶど]まり",
+     "note": "Danh từ + に基[もと]づいて = dựa trên, căn cứ vào (số liệu, quy định, sự thật); B phải bám đúng A. Trước danh từ: に基[もと]づいた / に基[もと]づく. Ví dụ: データに基[もと]づいて判断[はんだん]する = phán đoán căn cứ vào số liệu.",
+     "grammar": [
+      "g:〜に基づいて",
+      "g:〜から",
+      "g:〜ています",
+      "g:〜てください"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "分[わ]かりました。感覚[かんかく]ではなく、データで説明[せつめい]する、ということですね。",
+     "vi": "Tôi hiểu. Tức là giải thích bằng số liệu chứ không phải bằng cảm tính.",
+     "alt": [
+      "分[わ]かりました。数字[すうじ]で説明[せつめい]するんですね。"
+     ],
+     "grammar": [
+      "g:〜で"
+     ],
+     "gloss": [
+      {
+       "w": "感覚[かんかく]",
+       "vi": "cảm giác, cảm tính"
+      },
+      {
+       "w": "分[わ]かりました",
+       "vi": "tôi hiểu rồi"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "ええ。それから、前回[ぜんかい]の会議[かいぎ]で出[で]た意見[いけん]を踏[ふ]まえて、改善案[かいぜんあん]も考[かんが]えておいてください。",
+     "vi": "Đúng vậy. Ngoài ra, anh cân nhắc các ý kiến ở cuộc họp lần trước rồi nghĩ sẵn cả phương án cải tiến nhé.",
+     "note": "Danh từ + を踏[ふ]まえて = có tính đến, trên cơ sở xem xét (kết quả, ý kiến, bài học đã có) rồi mới làm. Trước danh từ: を踏[ふ]まえた. Ví dụ: 前回[ぜんかい]の反省[はんせい]を踏[ふ]まえて = rút kinh nghiệm lần trước.",
+     "grammar": [
+      "g:〜を踏まえて",
+      "g:〜で",
+      "g:〜ておく",
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "改善案[かいぜんあん]",
+       "vi": "phương án cải tiến"
+      },
+      {
+       "w": "前回[ぜんかい]",
+       "vi": "lần trước"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "田中[たなか]さん、月報[げっぽう]の資料[しりょう]って、どうやって作[つく]ればいいんでしょうか。",
+     "vi": "Anh Tanaka, tài liệu cho báo cáo tháng thì làm thế nào ạ?",
+     "key": "資料[しりょう]",
+     "grammar": [
+      "g:〜って（伝聞・話題）",
+      "g:〜ば"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "まずは、毎日[まいにち]の日報[にっぽう]を集計[しゅうけい]するところからだね。",
+     "vi": "Trước hết là bắt đầu từ việc tổng hợp các báo cáo ngày.",
+     "key": "集計[しゅうけい]",
+     "grammar": []
+    },
+    {
+     "who": "A",
+     "jp": "去年[きょねん]ぼくが作[つく]った月報[げっぽう]があるから、それをもとにして作[つく]ってみたら？",
+     "vi": "Có báo cáo tháng anh làm năm ngoái, em thử dựa vào đó mà làm xem?",
+     "note": "Danh từ + をもとに（して）= lấy … làm cơ sở, làm chất liệu để tạo ra cái mới (cái mới có thể thêm bớt). Trước danh từ: をもとにした. Ví dụ: 実話[じつわ]をもとにした映画[えいが] = phim dựa trên chuyện có thật.",
+     "grammar": [
+      "g:〜をもとに（して）",
+      "g:〜から",
+      "g:〜てみる",
+      "g:〜たら"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "助[たす]かります。グラフは、どんなものを入[い]れればいいですか。",
+     "vi": "Đỡ quá ạ. Biểu đồ thì nên đưa loại nào vào ạ?",
+     "key": "グラフ",
+     "grammar": [
+      "g:〜ば"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "歩留[ぶど]まりの推移[すいい]が、ひと目[め]で分[わ]かるグラフがいいよ。前年比[ぜんねんひ]も入[い]れておくといい。",
+     "vi": "Biểu đồ nhìn qua là thấy ngay diễn biến tỉ lệ thành phẩm là được. Nên cho thêm cả mức so với năm trước.",
+     "key": "推移[すいい]",
+     "grammar": [
+      "g:〜で",
+      "g:〜ておく"
+     ],
+     "gloss": [
+      {
+       "w": "ひと目[め]",
+       "vi": "nhìn qua một lần"
+      },
+      {
+       "w": "分[わ]かる",
+       "vi": "hiểu"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "それと、最初[さいしょ]の一枚[いちまい]に概要[がいよう]をまとめて、詳細[しょうさい]は後[うし]ろにつけること。課長[かちょう]は忙[いそが]しいからね。",
+     "vi": "Thêm nữa, tóm phần khái quát vào trang đầu, chi tiết thì đính phía sau. Trưởng phòng bận mà.",
+     "key": "概要[がいよう]",
+     "grammar": [
+      "g:〜に",
+      "g:〜て、〜",
+      "g:〜こと（指示）",
+      "g:〜から"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "グエンさん、三[さん]か月[げつ]分[ぶん]の日報[にっぽう]、ラインごとの内訳[うちわけ]まで集計[しゅうけい]し終[お]わりましたよ。",
+     "vi": "Anh Nguyễn, em tổng hợp xong báo cáo ngày của ba tháng rồi, chi tiết đến từng dây chuyền luôn.",
+     "key": "内訳[うちわけ]",
+     "grammar": [
+      "g:〜ごとに",
+      "g:〜まで（強調）",
+      "g:〜始める・〜終わる・〜続ける"
+     ],
+     "gloss": [
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "早[はや]いね、ありがとう。で、どうだった？",
+     "vi": "Nhanh thế, cảm ơn em. Thế kết quả sao?",
+     "alt": [
+      "ありがとう。結果[けっか]はどうだった？"
+     ],
+     "grammar": []
+    },
+    {
+     "who": "H",
+     "jp": "Aラインはずっと横[よこ]ばいなんですけど、Bラインだけ、不良品[ふりょうひん]の件数[けんすう]が増[ふ]えてるんです。",
+     "vi": "Dây chuyền A thì cứ đi ngang, chỉ riêng dây chuyền B là số vụ hàng lỗi tăng.",
+     "key": "件数[けんすう]",
+     "grammar": [
+      "g:〜が・〜けど",
+      "g:〜とく・〜てる（縮約）"
+     ],
+     "gloss": [
+      {
+       "w": "不良品[ふりょうひん]",
+       "vi": "hàng lỗi"
+      },
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      },
+      {
+       "w": "不良[ふりょう]",
+       "vi": "lỗi, hỏng (hàng)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "Bラインか。ばらつきが大[おお]きいのは、どの工程[こうてい]？",
+     "vi": "Dây chuyền B à. Chênh lệch lớn ở công đoạn nào?",
+     "key": "ばらつき",
+     "grammar": [
+      "g:〜の・〜こと（名詞化）"
+     ],
+     "gloss": [
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "骨抜[ほねぬ]きです。担当[たんとう]は、先月[せんげつ]入[はい]ったばかりのリンさんたちです。",
+     "vi": "Công đoạn rút xương ạ. Phụ trách là nhóm Linh, mới vào hồi tháng trước.",
+     "grammar": [
+      "g:〜たばかり"
+     ],
+     "gloss": [
+      {
+       "w": "骨抜[ほねぬ]き",
+       "vi": "công đoạn rút xương (cá)"
+      }
+     ]
+    },
+    {
+     "who": "L",
+     "jp": "すみません……。手順書[てじゅんしょ]は読[よ]んだんですが、よく分[わ]からないところがあって……。",
+     "vi": "Xin lỗi anh… Em có đọc bản quy trình rồi, nhưng có chỗ không hiểu lắm…",
+     "key": "手順書[てじゅんしょ]",
+     "grammar": [
+      "g:〜が・〜けど",
+      "g:〜て、〜"
+     ],
+     "gloss": [
+      {
+       "w": "分[わ]からない",
+       "vi": "không hiểu, không biết"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "謝[あやま]らなくていいよ。どこが分[わ]かりにくかった？",
+     "vi": "Không cần xin lỗi đâu. Chỗ nào khó hiểu?",
+     "alt": [
+      "謝[あやま]らなくても大丈夫[だいじょうぶ]だよ。どこが難[むずか]しかった？"
+     ],
+     "grammar": [
+      "g:〜なくてもいい",
+      "g:〜やすい・〜にくい"
+     ]
+    },
+    {
+     "who": "L",
+     "jp": "写真[しゃしん]が古[ふる]くて、今[いま]の機械[きかい]と違[ちが]うんです。それで、確認[かくにん]を一[ひと]つ見落[みお]としてしまって……。",
+     "vi": "Ảnh thì cũ, khác với máy bây giờ. Vì vậy em bỏ sót một bước kiểm tra…",
+     "key": "見落[みお]として",
+     "grammar": [
+      "g:〜て、〜",
+      "g:〜てしまう"
+     ],
+     "gloss": [
+      {
+       "w": "違[ちが]う",
+       "vi": "khác"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "あのマニュアル、昔[むかし]の機械[きかい]をもとに作[つく]ったままやもんね。そら分[わ]からんわ。",
+     "vi": "Cuốn hướng dẫn đó vẫn để nguyên như hồi làm theo máy cũ mà. Thế thì không hiểu là phải.",
+     "std": "あのマニュアルは、昔[むかし]の機械[きかい]をもとに作[つく]ったままですからね。それでは分[わ]かりませんよ。",
+     "key": "マニュアル",
+     "grammar": [
+      "g:〜をもとに（して）",
+      "g:〜まま"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "じゃあ、問題点[もんだいてん]は手順書[てじゅんしょ]のほうだね。リンさんのせいじゃないよ。",
+     "vi": "Vậy chỗ có vấn đề là ở bản quy trình. Không phải lỗi của Linh đâu.",
+     "key": "問題点[もんだいてん]",
+     "grammar": [
+      "g:〜せいで・〜せいか"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "写真[しゃしん]を全部[ぜんぶ]撮[と]り直[なお]して、実際[じっさい]の作業[さぎょう]に基[もと]づいた手順書[てじゅんしょ]に改訂[かいてい]しよう。",
+     "vi": "Mình chụp lại toàn bộ ảnh, rồi sửa thành bản quy trình dựa đúng trên thao tác thực tế.",
+     "key": "改訂[かいてい]",
+     "grammar": [
+      "g:〜て、〜",
+      "g:〜に基づいて"
+     ],
+     "gloss": [
+      {
+       "w": "撮[と]り直[なお]して",
+       "vi": "chụp lại"
+      }
+     ]
+    },
+    {
+     "who": "L",
+     "jp": "ありがとうございます。撮影[さつえい]、私[わたし]も手伝[てつだ]わせてください。",
+     "vi": "Cảm ơn anh. Cho em cùng giúp chụp ảnh với ạ.",
+     "grammar": [
+      "g:使役形（〜させる）",
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "撮影[さつえい]",
+       "vi": "chụp ảnh"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "お、月報[げっぽう]の準備[じゅんび]？　ちょっと見[み]せて。",
+     "vi": "Ồ, đang chuẩn bị báo cáo tháng à? Cho anh xem chút.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "見[み]せる",
+       "vi": "cho xem; tỏ ra"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。不良品[ふりょうひん]の件数[けんすう]を作業時間[さぎょうじかん]で割[わ]って、比率[ひりつ]を算出[さんしゅつ]してみたんですが、これで妥当[だとう]でしょうか。",
+     "vi": "Vâng. Em lấy số vụ hàng lỗi chia cho giờ làm để tính ra tỉ số, như vậy có hợp lý không ạ?",
+     "key": "算出[さんしゅつ]",
+     "alt": [
+      "はい。不良品[ふりょうひん]の件数[けんすう]を作業時間[さぎょうじかん]で割[わ]って、比率[ひりつ]を出[だ]しました。これでいいでしょうか。"
+     ],
+     "grammar": [
+      "g:〜で",
+      "g:〜て、〜",
+      "g:〜てみる",
+      "g:〜が・〜けど"
+     ],
+     "gloss": [
+      {
+       "w": "作業時間[さぎょうじかん]",
+       "vi": "giờ làm việc"
+      },
+      {
+       "w": "不良品[ふりょうひん]",
+       "vi": "hàng lỗi"
+      },
+      {
+       "w": "不良[ふりょう]",
+       "vi": "lỗi, hỏng (hàng)"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "うん、妥当[だとう]だと思[おも]う。ただ、新人[しんじん]が入[はい]った時期[じき]と比[くら]べないと、説得力[せっとくりょく]がないね。",
+     "vi": "Ừ, anh thấy hợp lý. Có điều, không so với thời điểm người mới vào thì không thuyết phục.",
+     "key": "妥当[だとう]",
+     "grammar": [
+      "g:〜と"
+     ],
+     "gloss": [
+      {
+       "w": "説得力[せっとくりょく]",
+       "vi": "sức thuyết phục"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "入社[にゅうしゃ]の時期[じき]と不良[ふりょう]の頻度[ひんど]を、一覧[いちらん]にしてみたら？",
+     "vi": "Em thử lập bảng liệt kê thời điểm vào làm và tần suất lỗi xem?",
+     "key": "頻度[ひんど]",
+     "grammar": [
+      "g:〜てみる",
+      "g:〜たら"
+     ],
+     "gloss": [
+      {
+       "w": "入社[にゅうしゃ]",
+       "vi": "vào làm (ở công ty)"
+      },
+      {
+       "w": "不良[ふりょう]",
+       "vi": "lỗi, hỏng (hàng)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "やってみます。日報[にっぽう]と照合[しょうごう]すれば、きちんと裏付[うらづ]けられますね。",
+     "vi": "Em sẽ làm thử. Đối chiếu với báo cáo ngày thì sẽ chứng minh được chắc chắn nhỉ.",
+     "key": "照合[しょうごう]",
+     "grammar": [
+      "g:〜てみる",
+      "g:〜ば",
+      "g:可能形（〜られる・〜える）"
+     ],
+     "gloss": [
+      {
+       "w": "裏付[うらづ]け",
+       "vi": "căn cứ chứng minh, cơ sở xác thực"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "それでは、先月[せんげつ]の月報[げっぽう]をご報告[ほうこく]いたします。全体[ぜんたい]の歩留[ぶど]まりは、前年[ぜんねん]とほぼ同[おな]じで、横[よこ]ばいです。",
+     "vi": "Sau đây tôi xin báo cáo tháng trước. Tỉ lệ thành phẩm toàn bộ gần như bằng năm trước, đi ngang.",
+     "key": "横[よこ]ばい",
+     "grammar": [
+      "g:〜で"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ただし、Bラインの骨抜[ほねぬ]きだけは、先月[せんげつ]から不良品[ふりょうひん]が増[ふ]えています。",
+     "vi": "Tuy nhiên, riêng công đoạn rút xương của dây chuyền B thì hàng lỗi tăng từ tháng trước.",
+     "grammar": [
+      "g:〜から",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "骨抜[ほねぬ]き",
+       "vi": "công đoạn rút xương (cá)"
+      },
+      {
+       "w": "不良品[ふりょうひん]",
+       "vi": "hàng lỗi"
+      },
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      },
+      {
+       "w": "不良[ふりょう]",
+       "vi": "lỗi, hỏng (hàng)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "日報[にっぽう]の記録[きろく]に基[もと]づいて調[しら]べたところ、新人[しんじん]が入[はい]った時期[じき]と一致[いっち]していました。",
+     "vi": "Điều tra căn cứ vào ghi chép trong báo cáo ngày thì thấy trùng với thời điểm người mới vào.",
+     "grammar": [
+      "g:〜に基づいて",
+      "g:〜たところ",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "一致[いっち]",
+       "vi": "trùng khớp"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ただ、原因[げんいん]は新人[しんじん]ではなく、古[ふる]い手順書[てじゅんしょ]にあると考[かんが]えています。",
+     "vi": "Nhưng tôi cho rằng nguyên nhân không nằm ở người mới mà ở bản quy trình cũ.",
+     "grammar": [
+      "g:〜と",
+      "g:〜ています"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "なるほど。根拠[こんきょ]がはっきりしていて、分[わ]かりやすい資料[しりょう]ですね。",
+     "vi": "Ra vậy. Căn cứ rõ ràng, tài liệu dễ hiểu đấy.",
+     "key": "根拠[こんきょ]",
+     "grammar": [
+      "g:〜て、〜",
+      "g:〜やすい・〜にくい"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ありがとうございます。前回[ぜんかい]のご意見[いけん]を踏[ふ]まえて、是正[ぜせい]案[あん]も用意[ようい]しました。",
+     "vi": "Cảm ơn ạ. Có tính đến ý kiến lần trước, tôi đã chuẩn bị cả phương án chấn chỉnh.",
+     "key": "是正[ぜせい]",
+     "grammar": [
+      "g:〜を踏まえて"
+     ],
+     "gloss": [
+      {
+       "w": "是正[ぜせい]案[あん]",
+       "vi": "phương án chấn chỉnh"
+      },
+      {
+       "w": "前回[ぜんかい]",
+       "vi": "lần trước"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "新人[しんじん]の意見[いけん]をもとにして、写真[しゃしん]つきの手順書[てじゅんしょ]に改訂[かいてい]するつもりです。",
+     "vi": "Tôi định lấy ý kiến của người mới làm cơ sở, sửa thành bản quy trình có kèm ảnh.",
+     "key": "改訂[かいてい]",
+     "grammar": [
+      "g:〜をもとに（して）",
+      "g:〜つもりだ"
+     ],
+     "gloss": [
+      {
+       "w": "写真[しゃしん]つき",
+       "vi": "có kèm ảnh"
+      },
+      {
+       "w": "つもり",
+       "vi": "ý định"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "いいですね。では、来月[らいげつ]の目標値[もくひょうち]はどうしますか。",
+     "vi": "Hay đấy. Vậy con số mục tiêu tháng sau anh đặt thế nào?",
+     "key": "目標値[もくひょうち]",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "これまでの実績[じっせき]を踏[ふ]まえて、歩留[ぶど]まりを一[いち]ポイント上[あ]げることを目安[めやす]にします。",
+     "vi": "Dựa trên thành tích từ trước đến nay, tôi lấy mốc là nâng tỉ lệ thành phẩm lên 1 điểm.",
+     "key": "目安[めやす]",
+     "alt": [
+      "今[いま]までの実績[じっせき]を踏[ふ]まえて、歩留[ぶど]まりを一[いち]ポイント上[あ]げることを目標[もくひょう]にします。"
+     ],
+     "grammar": [
+      "g:〜を踏まえて",
+      "g:〜の・〜こと（名詞化）"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "分[わ]かりました。達成率[たっせいりつ]は、来月[らいげつ]の会議[かいぎ]で報告[ほうこく]してください。期待[きたい]していますよ。",
+     "vi": "Được. Tỉ lệ hoàn thành thì anh báo cáo ở cuộc họp tháng sau. Tôi kỳ vọng đấy.",
+     "key": "達成率[たっせいりつ]",
+     "grammar": [
+      "g:〜で",
+      "g:〜てください",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "分[わ]かりました",
+       "vi": "tôi hiểu rồi"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "発表[はっぴょう]、聞[き]いてたよ。的確[てきかく]で、分[わ]かりやすかった。",
+     "vi": "Anh nghe bài trình bày rồi. Trúng trọng tâm, dễ hiểu lắm.",
+     "key": "的確[てきかく]",
+     "grammar": [
+      "g:〜とく・〜てる（縮約）",
+      "g:〜やすい・〜にくい"
+     ],
+     "gloss": [
+      {
+       "w": "発表[はっぴょう]",
+       "vi": "trình bày, phát biểu"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "田中[たなか]さんの月報[げっぽう]のおかげです。来月[らいげつ]は、数字[すうじ]できちんと振[ふ]り返[かえ]りをします。",
+     "vi": "Nhờ báo cáo tháng của anh đấy ạ. Tháng sau em sẽ nhìn lại cẩn thận bằng con số.",
+     "key": "振[ふ]り返[かえ]り",
+     "alt": [
+      "田中[たなか]さんのおかげです。来月[らいげつ]は、数字[すうじ]でしっかり振[ふ]り返[かえ]ります。"
+     ],
+     "grammar": [
+      "g:〜おかげで",
+      "g:〜で"
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Trưởng phòng muốn anh Nguyễn giải thích nguyên nhân tỉ lệ thành phẩm giảm như thế nào?",
+     "opts": [
+      "Dựa trên những con số cụ thể",
+      "Theo cảm giác của tổ trưởng",
+      "Hỏi ý kiến khách hàng",
+      "Chỉ cần nói ngắn gọn"
+     ],
+     "ans": 0,
+     "why": "その原因[げんいん]を、具体的[ぐたいてき]な数値[すうち]に基[もと]づいて説明[せつめい]してください。"
+    },
+    {
+     "q": "Chủ nhiệm Tanaka khuyên làm báo cáo tháng thế nào?",
+     "opts": [
+      "Lấy báo cáo tháng anh làm năm ngoái làm cơ sở",
+      "Làm lại hoàn toàn từ đầu",
+      "Nhờ Hoa làm thay",
+      "Chép nguyên sổ tay hướng dẫn"
+     ],
+     "ans": 0,
+     "why": "去年[きょねん]ぼくが作[つく]った月報[げっぽう]があるから、それをもとにして作[つく]ってみたら？"
+    },
+    {
+     "q": "Vì sao Linh bỏ sót một bước kiểm tra?",
+     "opts": [
+      "Ảnh trong bản quy trình cũ, khác với máy hiện tại",
+      "Linh không đọc bản quy trình",
+      "Máy bị hỏng giữa ca",
+      "Linh bị chuyển sang ca đêm"
+     ],
+     "ans": 0,
+     "why": "写真[しゃしん]が古[ふる]くて、今[いま]の機械[きかい]と違[ちが]うんです。"
+    },
+    {
+     "q": "\"前回[ぜんかい]のご意見[いけん]を踏[ふ]まえて\" nghĩa là gì?",
+     "opts": [
+      "Có tính đến ý kiến lần trước",
+      "Bỏ qua ý kiến lần trước",
+      "Phản đối ý kiến lần trước",
+      "Chép nguyên ý kiến lần trước"
+     ],
+     "ans": 0,
+     "why": "を踏[ふ]まえて = cân nhắc, xem xét kỹ điều đã có (kết quả, ý kiến) rồi mới làm."
+    },
+    {
+     "q": "Mục tiêu anh Nguyễn đặt cho tháng sau là gì?",
+     "opts": [
+      "Nâng tỉ lệ thành phẩm lên 1 điểm",
+      "Giảm giờ làm của tổ",
+      "Tuyển thêm người mới",
+      "Đổi sang máy mới"
+     ],
+     "ans": 0,
+     "why": "歩留[ぶど]まりを一[いち]ポイント上[あ]げることを目安[めやす]にします。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,789 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n2-26",
+  "title": "Bài mở đầu N2 – bài 26: Chưa chạy thử thì chưa dám dùng",
+  "type": "dialog",
+  "level": "N2",
+  "topics": [
+   "doisong",
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n2-26",
+   "title": "Chưa chạy thử thì chưa dám dùng",
+   "level": "N2",
+   "topics": [
+    "xuong",
+    "doisong"
+   ],
+   "ctx": "xuong",
+   "lesson": "l:n2-26",
+   "intro": true,
+   "setting": "Xưởng vừa nhận máy cắt lát mới, tuần sau ông Mori — phụ trách thu mua của một chuỗi sushi băng chuyền ở Osaka — sẽ đến tham quan. Anh Nguyễn cùng anh Suzuki chạy thử máy, tìm ra chỗ hỏng rồi tiếp khách. Cuối ngày, Hoa nhắc anh chuyện tờ đăng ký thi N2 vẫn còn viết dở.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    },
+    {
+     "key": "A",
+     "name": "田中[たなか]主任[しゅにん]",
+     "vi": "Chủ nhiệm"
+    },
+    {
+     "key": "S",
+     "name": "鈴木[すずき]さん",
+     "vi": "Phụ trách máy"
+    },
+    {
+     "key": "Z",
+     "name": "中村[なかむら]課長[かちょう]",
+     "vi": "Trưởng phòng"
+    },
+    {
+     "key": "K",
+     "name": "森[もり]さん",
+     "vi": "Khách hàng"
+    },
+    {
+     "key": "H",
+     "name": "ホア",
+     "vi": "Đồng nghiệp"
+    }
+   ],
+   "turns": [
+    {
+     "who": "A",
+     "jp": "グエンさん、新[あたら]しいスライサーが届[とど]いたよ。来週[らいしゅう]から本番[ほんばん]で使[つか]う予定[よてい]だ。",
+     "vi": "Anh Nguyễn, máy cắt lát mới tới rồi. Dự định từ tuần sau dùng chính thức.",
+     "grammar": [
+      "g:〜予定だ"
+     ],
+     "gloss": [
+      {
+       "w": "スライサー",
+       "vi": "máy cắt lát"
+      },
+      {
+       "w": "本番[ほんばん]",
+       "vi": "chính thức (dùng thật)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "来週[らいしゅう]ですか。でも、まだ試運転[しうんてん]もしていませんよね。",
+     "vi": "Tuần sau ạ? Nhưng mình còn chưa chạy thử mà.",
+     "key": "試運転[しうんてん]",
+     "grammar": [
+      "g:〜ています"
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "そうなんです。実際[じっさい]に動[うご]かしてみないことには、使[つか]えるかどうか分[わ]かりません。",
+     "vi": "Đúng vậy. Chưa cho máy chạy thật thì chưa biết có dùng được không.",
+     "note": "Vない + ことには = nếu không / chưa … thì (chưa thể) …; vế sau luôn mang ý phủ định. Ví dụ: 見[み]ないことには分[わ]からない = chưa xem thì chưa biết.",
+     "grammar": [
+      "g:〜ないことには",
+      "g:〜てみる",
+      "g:可能形（〜られる・〜える）",
+      "g:〜かどうか"
+     ],
+     "gloss": [
+      {
+       "w": "分[わ]かりません",
+       "vi": "không biết"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "カタログの写真[しゃしん]はきれいだけど、実物[じつぶつ]を見[み]ないことには何[なん]とも言[い]えないな。",
+     "vi": "Ảnh trong catalog thì đẹp đấy, nhưng chưa thấy đồ thật thì chưa nói được gì.",
+     "key": "実物[じつぶつ]",
+     "grammar": [
+      "g:〜ないことには"
+     ],
+     "gloss": [
+      {
+       "w": "カタログ",
+       "vi": "catalog, sách giới thiệu"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "それに、来週[らいしゅう]の水曜日[すいようび]に、新[あたら]しい取引先[とりひきさき]の方[かた]が見学[けんがく]に来[く]る。安全[あんぜん]の確認[かくにん]が肝心[かんじん]だよ。",
+     "vi": "Thêm nữa, thứ Tư tuần sau có người của khách hàng mới đến tham quan. Khâu kiểm tra an toàn là quan trọng nhất đấy.",
+     "key": "見学[けんがく]",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "取引先[とりひきさき]",
+       "vi": "khách hàng, đối tác"
+      },
+      {
+       "w": "方[ほう]",
+       "vi": "vị, người (kính trọng)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "分[わ]かりました。それまでに、念入[ねんい]りにチェックしておきます。",
+     "vi": "Vâng. Trước hôm đó tôi sẽ kiểm tra thật kỹ.",
+     "key": "念入[ねんい]り",
+     "alt": [
+      "分[わ]かりました。それまでに、しっかりチェックしておきます。"
+     ],
+     "grammar": [
+      "g:〜までに",
+      "g:〜ておく"
+     ],
+     "gloss": [
+      {
+       "w": "分[わ]かりました",
+       "vi": "tôi hiểu rồi"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "では、試運転[しうんてん]を始[はじ]めます。グエンさん、立[た]ち会[あ]ってもらえますか。",
+     "vi": "Vậy bắt đầu chạy thử. Anh Nguyễn đứng xem cùng tôi được không?",
+     "key": "立[た]ち会[あ]って",
+     "grammar": [
+      "g:〜てもらう",
+      "g:可能形（〜られる・〜える）"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。切[き]った身[み]の厚[あつ]さは、私[わたし]が直[じか]に測[はか]ります。",
+     "vi": "Vâng. Độ dày miếng cá đã cắt để tôi tự tay đo.",
+     "key": "直[じか]に",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "厚[あつ]さ",
+       "vi": "độ dày"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "三十分[さんじゅっぷん]、一度[いちど]も止[と]まることなく動[うご]きました。音[おと]も静[しず]かですね。",
+     "vi": "Chạy 30 phút không dừng lần nào. Tiếng cũng êm nhỉ.",
+     "key": "一度[いちど]も",
+     "note": "Vる + ことなく = mà không …, không hề … (hơi trang trọng, hay gặp trong báo cáo). Ví dụ: 休[やす]むことなく働[はたら]く = làm việc không nghỉ.",
+     "grammar": [
+      "g:〜ことなく"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "でも、これを見[み]てください。この何枚[なんまい]かだけ、厚[あつ]さがばらばらです。",
+     "vi": "Nhưng anh xem này. Riêng mấy miếng này độ dày không đều.",
+     "grammar": [
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "厚[あつ]さ",
+       "vi": "độ dày"
+      },
+      {
+       "w": "ばらばら",
+       "vi": "không đều, lộn xộn"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "本当[ほんとう]だ。原因[げんいん]を突[つ]き止[と]めないことには、本番[ほんばん]には使[つか]えませんね。",
+     "vi": "Đúng thật. Chưa tìm ra nguyên nhân thì chưa dùng chính thức được.",
+     "key": "突[つ]き止[と]め",
+     "grammar": [
+      "g:〜ないことには",
+      "g:可能形（〜られる・〜える）"
+     ],
+     "gloss": [
+      {
+       "w": "本番[ほんばん]",
+       "vi": "chính thức (dùng thật)"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いったん中断[ちゅうだん]して、設定[せってい]を一[ひと]つずつ再確認[さいかくにん]しましょう。",
+     "vi": "Tạm dừng đã, rồi kiểm lại từng mục cài đặt nhé.",
+     "key": "中断[ちゅうだん]",
+     "grammar": [
+      "g:〜て、〜",
+      "g:〜ましょう"
+     ],
+     "gloss": [
+      {
+       "w": "設定[せってい]",
+       "vi": "cài đặt"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "あっ、刃[は]を固定[こてい]するねじが緩[ゆる]んでいました。取[と]り付[つ]けた業者[ぎょうしゃ]の点検[てんけん]漏[も]れですね。",
+     "vi": "À, ốc giữ lưỡi dao bị lỏng. Là bên lắp đặt kiểm tra sót rồi.",
+     "key": "漏[も]れ",
+     "grammar": [
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "固定[こてい]",
+       "vi": "cố định"
+      },
+      {
+       "w": "ねじ",
+       "vi": "ốc vít"
+      },
+      {
+       "w": "緩[ゆる]んで",
+       "vi": "bị lỏng"
+      },
+      {
+       "w": "業者[ぎょうしゃ]",
+       "vi": "bên nhà thầu, bên cung cấp"
+      },
+      {
+       "w": "点検[てんけん]",
+       "vi": "kiểm tra (máy)"
+      },
+      {
+       "w": "取[と]り付[つ]けた",
+       "vi": "lắp đặt"
+      },
+      {
+       "w": "刃[は]",
+       "vi": "lưỡi dao"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "気[き]づいてよかった。放置[ほうち]していたら、けが人[にん]が出[で]るところでした。",
+     "vi": "May mà phát hiện ra. Cứ để vậy thì suýt nữa đã có người bị thương.",
+     "key": "放置[ほうち]",
+     "grammar": [
+      "g:〜たら",
+      "g:〜ところだった"
+     ],
+     "gloss": [
+      {
+       "w": "けが人[にん]",
+       "vi": "người bị thương"
+      },
+      {
+       "w": "よかった",
+       "vi": "may quá, tốt quá"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "ねじを締[し]め直[なお]したので、もう一度[いちど]、最初[さいしょ]からやり直[なお]しましょう。",
+     "vi": "Siết lại ốc rồi, mình làm lại từ đầu một lần nữa nhé.",
+     "key": "やり直[なお]し",
+     "grammar": [
+      "g:〜ので",
+      "g:〜ましょう"
+     ],
+     "gloss": [
+      {
+       "w": "ねじ",
+       "vi": "ốc vít"
+      },
+      {
+       "w": "締[し]め直[なお]した",
+       "vi": "siết lại"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "……今度[こんど]は厚[あつ]さもそろっています。やっと手応[てごた]えを感[かん]じました。",
+     "vi": "…Lần này độ dày đều rồi. Cuối cùng cũng thấy có kết quả.",
+     "key": "手応[てごた]え",
+     "alt": [
+      "……今度[こんど]は厚[あつ]さもそろっていますね。やっと手応[てごた]えがありました。"
+     ],
+     "grammar": [
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "厚[あつ]さ",
+       "vi": "độ dày"
+      },
+      {
+       "w": "そろって",
+       "vi": "đều nhau"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "刃[は]の状態[じょうたい]をしっかり見極[みきわ]めてから、本番[ほんばん]に入[はい]りましょう。",
+     "vi": "Theo dõi kỹ tình trạng lưỡi dao cho chắc rồi hẵng chạy chính thức.",
+     "key": "見極[みきわ]めて",
+     "grammar": [
+      "g:〜て、〜",
+      "g:〜ましょう"
+     ],
+     "gloss": [
+      {
+       "w": "本番[ほんばん]",
+       "vi": "chính thức (dùng thật)"
+      },
+      {
+       "w": "刃[は]",
+       "vi": "lưỡi dao"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "森[もり]様[さま]、本日[ほんじつ]は遠[とお]いところをお越[こ]しいただき、ありがとうございます。",
+     "vi": "Thưa ông Mori, cảm ơn ông hôm nay đã đến từ xa.",
+     "grammar": [
+      "g:謙譲語（お〜します・いただく）"
+     ],
+     "gloss": [
+      {
+       "w": "お越[こ]しいただき",
+       "vi": "đã đến (kính ngữ)"
+      }
+     ]
+    },
+    {
+     "who": "K",
+     "jp": "こちらこそ。資料[しりょう]や写真[しゃしん]だけでは、どうしても間接[かんせつ]的[てき]な情報[じょうほう]になりますから。",
+     "vi": "Tôi mới phải cảm ơn. Chỉ xem tài liệu với ảnh thì dù sao cũng là thông tin gián tiếp.",
+     "key": "間接[かんせつ]",
+     "grammar": [
+      "g:〜くなる・〜になる"
+     ]
+    },
+    {
+     "who": "K",
+     "jp": "生[なま]で食[た]べる商品[しょうひん]ですので、工場[こうじょう]を直[じか]に見[み]ないことには、契約[けいやく]は確定[かくてい]できないんです。",
+     "vi": "Đây là hàng ăn sống, nên chưa tận mắt xem xưởng thì chưa chốt hợp đồng được.",
+     "key": "確定[かくてい]",
+     "grammar": [
+      "g:〜ので",
+      "g:〜ないことには",
+      "g:可能形（〜られる・〜える）"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "ごもっともです。では、ライン担当[たんとう]の班長[はんちょう]、グエンからご説明[せつめい]いたします。",
+     "vi": "Ông nói rất phải. Vậy xin để tổ trưởng phụ trách dây chuyền là Nguyễn giải thích.",
+     "grammar": [
+      "g:謙譲語（お〜します・いただく）"
+     ],
+     "gloss": [
+      {
+       "w": "ごもっとも",
+       "vi": "ông nói rất phải"
+      },
+      {
+       "w": "担当[たんとう]",
+       "vi": "phụ trách"
+      },
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "こちらが新[あたら]しいスライサーです。先日[せんじつ]、試運転[しうんてん]を行[おこな]い、安全[あんぜん]を確認[かくにん]いたしました。",
+     "vi": "Đây là máy cắt lát mới. Hôm trước chúng tôi đã chạy thử và xác nhận an toàn.",
+     "grammar": [
+      "g:謙譲語（お〜します・いただく）"
+     ],
+     "gloss": [
+      {
+       "w": "スライサー",
+       "vi": "máy cắt lát"
+      }
+     ]
+    },
+    {
+     "who": "K",
+     "jp": "温度[おんど]の記録[きろく]は、どのように管理[かんり]されていますか。",
+     "vi": "Nhật ký nhiệt độ thì được quản lý thế nào ạ?",
+     "grammar": [
+      "g:尊敬語（いらっしゃる・お〜になる）",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "温度[おんど]",
+       "vi": "nhiệt độ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "一時間[いちじかん]ごとに記録[きろく]し、未確認[みかくにん]の項目[こうもく]が残[のこ]らないよう、終業[しゅうぎょう]時[じ]に私[わたし]が確認[かくにん]しております。",
+     "vi": "Ghi mỗi giờ một lần, và cuối ca tôi kiểm tra để không còn mục nào chưa xác nhận.",
+     "key": "未確認[みかくにん]",
+     "grammar": [
+      "g:〜ごとに",
+      "g:〜ように（目的）",
+      "g:謙譲語（お〜します・いただく）"
+     ],
+     "gloss": [
+      {
+       "w": "終業[しゅうぎょう]時[じ]",
+       "vi": "lúc hết ca"
+      },
+      {
+       "w": "項目[こうもく]",
+       "vi": "mục, hạng mục"
+      }
+     ]
+    },
+    {
+     "who": "K",
+     "jp": "なるほど。数字[すうじ]の裏付[うらづ]けがあると安心[あんしん]です。生食用[せいしょくよう]には、衛生管理[えいせいかんり]が不可欠[ふかけつ]ですからね。",
+     "vi": "Ra vậy. Có số liệu làm căn cứ thì yên tâm. Hàng ăn sống thì quản lý vệ sinh là không thể thiếu.",
+     "key": "裏付[うらづ]け",
+     "grammar": [
+      "g:〜と（条件）",
+      "g:〜から"
+     ],
+     "gloss": [
+      {
+       "w": "衛生管理[えいせいかんり]",
+       "vi": "quản lý vệ sinh"
+      },
+      {
+       "w": "生食用[せいしょくよう]",
+       "vi": "dùng để ăn sống"
+      }
+     ]
+    },
+    {
+     "who": "K",
+     "jp": "では最後[さいご]に、試食[ししょく]させていただけますか。",
+     "vi": "Vậy cuối cùng, cho phép tôi ăn thử được không?",
+     "key": "試食[ししょく]",
+     "grammar": [
+      "g:〜させてもらう・〜させていただく"
+     ]
+    },
+    {
+     "who": "K",
+     "jp": "……うん、身[み]が締[し]まっていて、味[あじ]もいい。これなら、お客様[きゃくさま]にも自信[じしん]を持[も]って出[だ]せます。",
+     "vi": "…Ừm, thịt săn chắc, vị cũng ngon. Thế này thì tôi tự tin đưa ra cho khách được.",
+     "grammar": [
+      "g:〜ています",
+      "g:〜なら",
+      "g:可能形（〜られる・〜える）"
+     ],
+     "gloss": [
+      {
+       "w": "身[み]が締[し]まって",
+       "vi": "thịt săn chắc"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ありがとうございます。今朝[けさ]、私[わたし]も味見[あじみ]しましたが、脂[あぶら]ののりもいいです。",
+     "vi": "Cảm ơn ông. Sáng nay tôi cũng đã nếm thử, độ béo cũng tốt ạ.",
+     "key": "味見[あじみ]",
+     "grammar": [
+      "g:〜が・〜けど"
+     ],
+     "gloss": [
+      {
+       "w": "脂[あぶら]ののり",
+       "vi": "độ béo (của cá)"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "ありがとうございます。納品[のうひん]の開始日[かいしび]は、まだ未定[みてい]でございますが……。",
+     "vi": "Xin cảm ơn ông. Ngày bắt đầu giao hàng thì hiện vẫn chưa định……",
+     "key": "未定[みてい]",
+     "grammar": [
+      "g:〜が・〜けど"
+     ],
+     "gloss": [
+      {
+       "w": "納品[のうひん]",
+       "vi": "giao hàng"
+      }
+     ]
+    },
+    {
+     "who": "K",
+     "jp": "社[しゃ]に戻[もど]って上[うえ]の者[もの]と相談[そうだん]し、来週[らいしゅう]中[ちゅう]にご連絡[れんらく]いたします。",
+     "vi": "Tôi sẽ về công ty bàn với cấp trên, trong tuần sau sẽ liên lạc lại.",
+     "grammar": [
+      "g:〜て、〜",
+      "g:謙譲語（お〜します・いただく）"
+     ],
+     "gloss": [
+      {
+       "w": "上[うえ]の者[もの]",
+       "vi": "cấp trên (khiêm nhường)"
+      },
+      {
+       "w": "社[しゃ]",
+       "vi": "công ty (chúng tôi)"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "班長[はんちょう]、お疲[つか]れさま！今日[きょう]のお客[きゃく]さん、ええ感[かん]じやったね。",
+     "vi": "Tổ trưởng, vất vả rồi! Vị khách hôm nay có vẻ ưng ha.",
+     "std": "班長[はんちょう]、お疲[つか]れさま！今日[きょう]のお客[きゃく]さん、いい感[かん]じだったね。",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "ええ感[かん]じ",
+       "vi": "ổn, tốt (Kansai)"
+      },
+      {
+       "w": "お客[きゃく]さん",
+       "vi": "khách"
+      },
+      {
+       "w": "お疲[つか]れさま",
+       "vi": "vất vả rồi (chào khi xong việc)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "うん。試運転[しうんてん]を先延[さきの]ばしにしなくて、本当[ほんとう]によかったよ。",
+     "vi": "Ừ. May mà không lần lữa vụ chạy thử.",
+     "key": "先延[さきの]ばし",
+     "grammar": [
+      "g:〜くする・〜にする"
+     ],
+     "gloss": [
+      {
+       "w": "よかった",
+       "vi": "may quá, tốt quá"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "ところで、N2の申[もう]し込[こ]み、もう済[す]んだ？締[し]め切[き]り、今週[こんしゅう]やで。",
+     "vi": "Mà này, đăng ký thi N2 xong chưa? Hạn chót là tuần này đấy.",
+     "std": "ところで、N2の申[もう]し込[こ]み、もう済[す]んだ？締[し]め切[き]りは今週[こんしゅう]だよ。",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "申[もう]し込[こ]み",
+       "vi": "đăng ký"
+      },
+      {
+       "w": "締[し]め切[き]り",
+       "vi": "hạn chót"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "それが……申込書[もうしこみしょ]が、まだ書[か]きかけなんだ。",
+     "vi": "Chuyện là… tờ đăng ký vẫn còn viết dở.",
+     "key": "書[か]きかけ",
+     "alt": [
+      "実[じつ]は、申込書[もうしこみしょ]がまだ書[か]きかけなんだ。"
+     ],
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "申込書[もうしこみしょ]",
+       "vi": "tờ đăng ký"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "えー！去年[きょねん]もそう言[い]って、結局[けっきょく]申[もう]し込[こ]まずじまいやったやん。",
+     "vi": "Hả! Năm ngoái anh cũng nói vậy, rốt cuộc có đăng ký được đâu.",
+     "std": "えー！去年[きょねん]もそう言[い]って、結局[けっきょく]申[もう]し込[こ]まずじまいだったじゃない。",
+     "note": "Vない bỏ ない + ずじまい = rốt cuộc đã không … (định làm mà để lỡ, kèm tiếc nuối). Ví dụ: 行[い]かずじまい = rốt cuộc không đi. Riêng する → せずじまい.",
+     "grammar": [
+      "g:〜ずじまい"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうなんだよ。去年[きょねん]買[か]った問題集[もんだいしゅう]にも、一度[いちど]も手[て]をつけずじまいで……。",
+     "vi": "Đúng thế. Cuốn sách luyện đề mua năm ngoái cũng rốt cuộc chưa đụng tới lần nào……",
+     "alt": [
+      "そうなんだ。去年[きょねん]買[か]った問題集[もんだいしゅう]にも、結局[けっきょく]一度[いちど]も手[て]をつけずじまいで……。"
+     ],
+     "grammar": [
+      "g:〜ずじまい"
+     ],
+     "gloss": [
+      {
+       "w": "問題集[もんだいしゅう]",
+       "vi": "sách luyện đề"
+      },
+      {
+       "w": "手[て]をつけず",
+       "vi": "không đụng tới, không bắt tay vào"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "やりかけのまま放[ほう]っとくの、グエンさんらしくないで。",
+     "vi": "Cứ để dở dang thế, chẳng giống anh Nguyễn chút nào.",
+     "key": "やりかけ",
+     "std": "やりかけのまま放[ほう]っておくのは、グエンさんらしくないよ。",
+     "grammar": [
+      "g:〜まま",
+      "g:〜らしい"
+     ],
+     "gloss": [
+      {
+       "w": "放[はな]っとく",
+       "vi": "bỏ mặc, để đó (khẩu ngữ)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうだね。また受[う]けずじまいになったら、心残[こころのこ]りだ。今夜[こんや]こそ仕上[しあ]げるよ。",
+     "vi": "Ừ nhỉ. Lại để lỡ không thi thì tiếc lắm. Tối nay nhất định anh làm cho xong.",
+     "key": "心残[こころのこ]り",
+     "grammar": [
+      "g:〜ずじまい",
+      "g:〜たら",
+      "g:〜こそ"
+     ],
+     "gloss": [
+      {
+       "w": "仕上[しあ]げる",
+       "vi": "hoàn thành cho xong"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "聞[き]こえたよ。グエンさんなら大丈夫[だいじょうぶ]。三年[さんねん]間[かん]、一日[いちにち]も休[やす]むことなく働[はたら]いてきたんだから。",
+     "vi": "Anh nghe thấy rồi. Nguyễn thì không sao đâu. Ba năm nay cậu làm việc không nghỉ ngày nào cơ mà.",
+     "grammar": [
+      "g:〜なら",
+      "g:〜ことなく",
+      "g:〜ていく・〜てくる",
+      "g:〜から"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ありがとうございます。今度[こんど]こそ、試験[しけん]までやり遂[と]げます。",
+     "vi": "Cảm ơn anh. Lần này nhất định tôi sẽ theo đến cùng cho tới ngày thi.",
+     "key": "やり遂[と]げ",
+     "alt": [
+      "ありがとうございます。今回[こんかい]は、試験[しけん]まで最後[さいご]までやり遂[と]げます。"
+     ],
+     "grammar": [
+      "g:〜こそ"
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Vì sao anh Suzuki nói chưa thể dùng máy chính thức?",
+     "opts": [
+      "Chưa tìm ra vì sao độ dày không đều",
+      "Máy chạy quá ồn",
+      "Khách chưa đồng ý",
+      "Chưa có người vận hành"
+     ],
+     "ans": 0,
+     "why": "原因[げんいん]を突[つ]き止[と]めないことには、本番[ほんばん]には使[つか]えませんね。"
+    },
+    {
+     "q": "Nguyên nhân của lỗi là gì?",
+     "opts": [
+      "Ốc giữ lưỡi dao bị lỏng do bên lắp đặt kiểm tra sót",
+      "Băng tải chạy quá nhanh",
+      "Cá chưa rã đông",
+      "Anh Nguyễn đo sai"
+     ],
+     "ans": 0,
+     "why": "刃[は]を固定[こてい]するねじが緩[ゆる]んでいました。取[と]り付[つ]けた業者[ぎょうしゃ]の点検[てんけん]漏[も]れですね。"
+    },
+    {
+     "q": "Theo ông Mori, phải có điều gì thì mới chốt được hợp đồng?",
+     "opts": [
+      "Tận mắt xem xưởng",
+      "Xem ảnh và tài liệu",
+      "Giảm giá",
+      "Gặp giám đốc"
+     ],
+     "ans": 0,
+     "why": "工場[こうじょう]を直[じか]に見[み]ないことには、契約[けいやく]は確定[かくてい]できないんです。"
+    },
+    {
+     "q": "\"問題集[もんだいしゅう]にも、一度[いちど]も手[て]をつけずじまいで\" nghĩa là gì?",
+     "opts": [
+      "Rốt cuộc chưa đụng tới cuốn sách lần nào",
+      "Đã làm hết cuốn sách",
+      "Làm được một nửa rồi bỏ",
+      "Không muốn mua sách"
+     ],
+     "ans": 0,
+     "why": "Vない bỏ ない + ずじまい = rốt cuộc đã không … (tiếc nuối)."
+    },
+    {
+     "q": "Anh Tanaka khen anh Nguyễn điều gì?",
+     "opts": [
+      "Ba năm làm việc không nghỉ ngày nào",
+      "Tiếng Nhật rất giỏi",
+      "Sửa máy nhanh",
+      "Đã đỗ N2"
+     ],
+     "ans": 0,
+     "why": "三年[さんねん]間[かん]、一日[いちにち]も休[やす]むことなく働[はたら]いてきたんだから。"
+    }
+   ]
+  }
+ ]
+}

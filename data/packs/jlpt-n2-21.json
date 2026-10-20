@@ -1,0 +1,1765 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-21",
+  "title": "JLPT N2 21 – Dù sao thì… (phòng ngừa, sức khỏe, lựa chọn)",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:念のため:ねんのため",
+   "kana": "ねんのため",
+   "kanji": "念のため",
+   "kf": "念[ねん]のため",
+   "hv": "NIỆM",
+   "vi": "để cho chắc, phòng hờ",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "念[ねん]のため、もう一度[いちど]温度[おんど]を確認[かくにん]してください。",
+     "vi": "Để cho chắc, hãy kiểm tra nhiệt độ lại một lần nữa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "念[ねん]のため、在留[ざいりゅう]カードのコピーも持[も]っていきます。",
+     "vi": "Để phòng hờ, tôi mang theo cả bản sao thẻ cư trú.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    "v:一応:いちおう"
+   ],
+   "note": "Cũng nói 念[ねん]のために. 念[ねん]には念[ねん]を入[い]れる = cẩn thận lại càng cẩn thận."
+  },
+  {
+   "id": "v:万が一:まんがいち",
+   "kana": "まんがいち",
+   "kanji": "万が一",
+   "kf": "万[まん]が一[いち]",
+   "hv": "VẠN NHẤT",
+   "vi": "lỡ như, vạn nhất (nhấn mạnh)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "万[まん]が一[いち]火事[かじ]になったら、この非常口[ひじょうぐち]から逃[に]げてください。",
+     "vi": "Lỡ như có cháy, hãy thoát ra từ lối thoát hiểm này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "万[まん]が一[いち]に備[そな]えて、保険[ほけん]に入[はい]っています。",
+     "vi": "Tôi tham gia bảo hiểm để phòng bất trắc.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    "v:万一:まんいち"
+   ],
+   "note": "万[まん]が一[いち]に備[そな]える = phòng khi bất trắc. Cũng dùng như danh từ: 万[まん]が一[いち]の時[とき] = lúc có chuyện."
+  },
+  {
+   "id": "v:備え:そなえ",
+   "kana": "そなえ",
+   "kanji": "備え",
+   "kf": "備[そな]え",
+   "hv": "BỊ",
+   "vi": "sự phòng bị (cho bất trắc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地震[じしん]への備[そな]えは、できていますか。",
+     "vi": "Anh đã chuẩn bị phòng động đất chưa?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "「備[そな]えあれば憂[う]いなし」と言[い]いますから、非常食[ひじょうしょく]を用意[ようい]しておきましょう。",
+     "vi": "Người ta nói \"có phòng bị thì không lo\", nên hãy chuẩn bị sẵn đồ ăn khẩn cấp.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:備える:そなえる"
+   ],
+   "note": "備[そな]えあれば憂[うれ]いなし = có phòng bị thì không phải lo (tục ngữ)."
+  },
+  {
+   "id": "v:防災グッズ:ぼうさいグッズ",
+   "kana": "ぼうさいグッズ",
+   "kanji": "防災グッズ",
+   "kf": "防災[ぼうさい]グッズ",
+   "hv": "PHÒNG TAI",
+   "vi": "đồ dùng phòng chống thiên tai",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "防災[ぼうさい]グッズを、玄関[げんかん]の近[ちか]くに置[お]いています。",
+     "vi": "Tôi để đồ phòng chống thiên tai gần cửa ra vào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "寮[りょう]の防災[ぼうさい]グッズの中身[なかみ]を、年[ねん]に一度[いちど]確認[かくにん]します。",
+     "vi": "Mỗi năm một lần tôi kiểm tra đồ bên trong túi phòng chống thiên tai của ký túc xá.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:防災:ぼうさい",
+    "v:非常食:ひじょうしょく"
+   ],
+   "goc": "goods (tiếng Anh: đồ dùng)",
+   "note": "Thường gồm nước, 非常食[ひじょうしょく], đèn pin, pin sạc dự phòng, thuốc."
+  },
+  {
+   "id": "v:予備:よび",
+   "kana": "よび",
+   "kanji": "予備",
+   "hv": "DỰ BỊ",
+   "vi": "(đồ) dự phòng, để thay thế",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "予備[よび]の手袋[てぶくろ]は、ロッカーに入[い]れてあります。",
+     "vi": "Găng tay dự phòng để sẵn trong tủ đồ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "スマホの予備[よび]のバッテリーを持[も]ち歩[ある]いています。",
+     "vi": "Tôi mang theo pin dự phòng điện thoại.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "予備知識[よびちしき] = kiến thức nền chuẩn bị trước; 予備校[よびこう] = trường luyện thi."
+  },
+  {
+   "id": "v:早期:そうき",
+   "kana": "そうき",
+   "kanji": "早期",
+   "hv": "TẢO KỲ",
+   "vi": "giai đoạn sớm (phát hiện, xử lý sớm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "がんは、早期[そうき]に見[み]つければ治[なお]ることが多[おお]いです。",
+     "vi": "Ung thư nếu phát hiện sớm thì nhiều trường hợp chữa khỏi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]の異常[いじょう]を早期[そうき]に発見[はっけん]するため、毎朝[まいあさ]点検[てんけん]します。",
+     "vi": "Để sớm phát hiện bất thường của máy, sáng nào cũng kiểm tra.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "早期発見[そうきはっけん] = phát hiện sớm; 早期退職[そうきたいしょく] = nghỉ việc sớm (trước tuổi)."
+  },
+  {
+   "id": "v:予防策:よぼうさく",
+   "kana": "よぼうさく",
+   "kanji": "予防策",
+   "hv": "DỰ PHÒNG SÁCH",
+   "vi": "biện pháp phòng ngừa",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "インフルエンザの予防策[よぼうさく]として、手洗[てあら]いとうがいをしましょう。",
+     "vi": "Biện pháp phòng cúm là rửa tay và súc họng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "事故[じこ]の予防策[よぼうさく]を、班[はん]のみんなで話[はな]し合[あ]いました。",
+     "vi": "Cả tổ đã cùng bàn biện pháp phòng tai nạn.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:予防:よぼう"
+   ],
+   "note": "〜策[さく] = biện pháp: 対策[たいさく], 解決策[かいけつさく], 予防策[よぼうさく]."
+  },
+  {
+   "id": "v:備蓄:びちく",
+   "kana": "びちく",
+   "kanji": "備蓄",
+   "hv": "BỊ SÚC",
+   "vi": "dự trữ (lương thực, vật tư phòng khẩn cấp)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "水[みず]と食料[しょくりょう]を、三日[みっか]分[ぶん]備蓄[びちく]しています。",
+     "vi": "Tôi dự trữ nước và lương thực cho ba ngày.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]は、災害[さいがい]用[よう]の食料[しょくりょう]を倉庫[そうこ]に備蓄[びちく]しています。",
+     "vi": "Công ty dự trữ lương thực phòng thiên tai trong kho.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "食料[しょくりょう]を備蓄[びちく]する",
+     "vi": "dự trữ lương thực"
+    },
+    {
+     "jp": "水[みず]を備蓄[びちく]する",
+     "vi": "dự trữ nước"
+    }
+   ],
+   "confuse": [
+    "v:蓄える:たくわえる"
+   ],
+   "note": "備蓄[びちく] dùng cho đồ dự trữ phòng thiên tai, khẩn cấp; 備蓄品[びちくひん] = đồ dự trữ."
+  },
+  {
+   "id": "v:蓄える:たくわえる",
+   "kana": "たくわえる",
+   "kanji": "蓄える",
+   "kf": "蓄[たくわ]える",
+   "hv": "SÚC",
+   "vi": "tích trữ, dành dụm (tiền, sức, kiến thức)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "将来[しょうらい]のために、少[すこ]しずつお金[かね]を蓄[たくわ]えています。",
+     "vi": "Tôi dành dụm tiền từng chút vì tương lai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冬[ふゆ]に備[そな]えて、熊[くま]は体[からだ]に脂肪[しぼう]を蓄[たくわ]えます。",
+     "vi": "Để chuẩn bị qua đông, gấu tích mỡ trong cơ thể.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：休[やす]みの日[ひ]は何[なに]してるの？B：よく寝[ね]て、体力[たいりょく]を蓄[たくわ]えてるよ。",
+     "vi": "A: Ngày nghỉ cậu làm gì? B: Ngủ cho đã, tích sức đó.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "お金[かね]を蓄[たくわ]える",
+     "vi": "dành dụm tiền"
+    },
+    {
+     "jp": "体力[たいりょく]を蓄[たくわ]える",
+     "vi": "tích sức"
+    },
+    {
+     "jp": "知識[ちしき]を蓄[たくわ]える",
+     "vi": "tích lũy kiến thức"
+    }
+   ],
+   "syn": [
+    {
+     "w": "貯[た]める",
+     "vi": "để dành (tiền)"
+    }
+   ],
+   "note": "蓄[たくわ]える trang trọng hơn 貯[た]める, dùng được cho cả sức lực, kiến thức."
+  },
+  {
+   "id": "v:万全:ばんぜん",
+   "kana": "ばんぜん",
+   "kanji": "万全",
+   "hv": "VẠN TOÀN",
+   "vi": "chu toàn, không sơ hở",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "試験[しけん]に向[む]けて、万全[ばんぜん]の準備[じゅんび]をしました。",
+     "vi": "Tôi đã chuẩn bị chu toàn cho kỳ thi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "衛生管理[えいせいかんり]には、万全[ばんぜん]を期[き]してください。",
+     "vi": "Về quản lý vệ sinh, hãy làm cho thật chu toàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：明日[あした]の監査[かんさ]、準備[じゅんび]はどう？B：万全[ばんぜん]です！",
+     "vi": "A: Đợt thanh tra ngày mai chuẩn bị sao rồi? B: Đâu vào đấy cả rồi!",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "準備[じゅんび]",
+     "vi": "sự chuẩn bị"
+    },
+    {
+     "jp": "対策[たいさく]",
+     "vi": "biện pháp"
+    },
+    {
+     "jp": "体調[たいちょう]",
+     "vi": "thể trạng"
+    }
+   ],
+   "note": "万全[ばんぜん]を期[き]す = làm cho chu toàn tuyệt đối; 万全[ばんぜん]の態勢[たいせい] = tư thế sẵn sàng hoàn hảo."
+  },
+  {
+   "id": "v:保つ:たもつ",
+   "kana": "たもつ",
+   "kanji": "保つ",
+   "kf": "保[たも]つ",
+   "hv": "BẢO",
+   "vi": "giữ, duy trì (ở một mức, trạng thái)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冷蔵庫[れいぞうこ]の温度[おんど]は、決[き]められた温度[おんど]に保[たも]ってください。",
+     "vi": "Hãy giữ nhiệt độ tủ lạnh đúng mức đã quy định.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "健康[けんこう]を保[たも]つために、毎日[まいにち]三十分[さんじゅっぷん]歩[ある]いています。",
+     "vi": "Để giữ sức khỏe, mỗi ngày tôi đi bộ ba mươi phút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：部屋[へや]、いつもきれいだね。B：清潔[せいけつ]に保[たも]つようにしてるんだ。",
+     "vi": "A: Phòng cậu lúc nào cũng sạch nhỉ. B: Tớ cố giữ cho sạch sẽ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "温度[おんど]を保[たも]つ",
+     "vi": "giữ nhiệt độ"
+    },
+    {
+     "jp": "健康[けんこう]を保[たも]つ",
+     "vi": "giữ gìn sức khỏe"
+    },
+    {
+     "jp": "距離[きょり]を保[たも]つ",
+     "vi": "giữ khoảng cách"
+    }
+   ],
+   "syn": [
+    "v:維持:いじ"
+   ]
+  },
+  {
+   "id": "v:早めに:はやめに",
+   "kana": "はやめに",
+   "kanji": "早めに",
+   "kf": "早[はや]めに",
+   "hv": "TẢO",
+   "vi": "sớm hơn một chút (cho kịp)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "道[みち]が混[こ]むので、早[はや]めに家[いえ]を出[で]ます。",
+     "vi": "Đường đông nên tôi ra khỏi nhà sớm một chút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ビザの更新[こうしん]は、早[はや]めに申請[しんせい]したほうがいいです。",
+     "vi": "Gia hạn visa thì nên nộp hồ sơ sớm.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "早[はや]め = hơi sớm; 早[はや]めの対策[たいさく] = biện pháp sớm; 早[はや]めに休[やす]む = nghỉ sớm."
+  },
+  {
+   "id": "v:油断禁物:ゆだんきんもつ",
+   "kana": "ゆだんきんもつ",
+   "kanji": "油断禁物",
+   "hv": "DU ĐOẠN CẤM VẬT",
+   "vi": "chớ lơ là, chớ chủ quan",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "慣[な]れた作業[さぎょう]でも、油断[ゆだん]禁物[きんもつ]です。",
+     "vi": "Dù là việc đã quen cũng không được lơ là.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "熱[ねつ]が下[さ]がっても、まだ油断[ゆだん]禁物[きんもつ]ですよ。",
+     "vi": "Hạ sốt rồi cũng chưa được chủ quan đâu.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:油断:ゆだん"
+   ],
+   "note": "油断[ゆだん] = lơ là, chủ quan; 禁物[きんもつ] = điều cấm kỵ."
+  },
+  {
+   "id": "v:いざ:いざ",
+   "kana": "いざ",
+   "kanji": "",
+   "hv": "",
+   "vi": "đến lúc thật sự (cần), khi hữu sự",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いざという時[とき]のために、非常口[ひじょうぐち]の場所[ばしょ]を覚[おぼ]えておきましょう。",
+     "vi": "Hãy nhớ vị trí lối thoát hiểm để phòng khi hữu sự.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "練習[れんしゅう]ではできたのに、いざ本番[ほんばん]になると緊張[きんちょう]してしまった。",
+     "vi": "Lúc tập thì làm được, đến lúc thật lại run.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "いざという時[とき] = lúc hữu sự; いざとなると = đến lúc thật sự thì."
+  },
+  {
+   "id": "v:確保:かくほ",
+   "kana": "かくほ",
+   "kanji": "確保",
+   "hv": "XÁC BẢO",
+   "vi": "bảo đảm có được, giữ lấy (chỗ, người, thời gian)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "避難[ひなん]経路[けいろ]は、いつも確保[かくほ]しておいてください。",
+     "vi": "Hãy luôn giữ thông lối thoát nạn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "勉強[べんきょう]の時間[じかん]を確保[かくほ]するために、早起[はやお]きしています。",
+     "vi": "Để có thời gian học, tôi dậy sớm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：席[せき]、確保[かくほ]しといたよ。B：ありがとう、助[たす]かる！",
+     "vi": "A: Tớ giữ chỗ rồi đấy. B: Cảm ơn, đỡ quá!",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人手[ひとで]を確保[かくほ]する",
+     "vi": "bảo đảm đủ người"
+    },
+    {
+     "jp": "時間[じかん]を確保[かくほ]する",
+     "vi": "dành ra thời gian"
+    },
+    {
+     "jp": "安全[あんぜん]を確保[かくほ]する",
+     "vi": "bảo đảm an toàn"
+    }
+   ]
+  },
+  {
+   "id": "v:常備:じょうび",
+   "kana": "じょうび",
+   "kanji": "常備",
+   "hv": "THƯỜNG BỊ",
+   "vi": "luôn để sẵn (thuốc, đồ dùng)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]には、各階[かくかい]に救急箱[きゅうきゅうばこ]を常備[じょうび]しています。",
+     "vi": "Nhà máy tầng nào cũng để sẵn hộp cứu thương.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "家[いえ]に風邪薬[かぜぐすり]を常備[じょうび]しておくと安心[あんしん]です。",
+     "vi": "Để sẵn thuốc cảm ở nhà thì yên tâm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "薬[くすり]を常備[じょうび]する",
+     "vi": "để sẵn thuốc"
+    }
+   ],
+   "note": "常備薬[じょうびやく] = thuốc để sẵn trong nhà."
+  },
+  {
+   "id": "v:あらかじめ:あらかじめ",
+   "kana": "あらかじめ",
+   "kanji": "",
+   "hv": "",
+   "vi": "(làm) trước, từ trước",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休[やす]みを取[と]る時[とき]は、あらかじめ班長[はんちょう]に伝[つた]えてください。",
+     "vi": "Khi xin nghỉ, hãy báo trước cho tổ trưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "必要[ひつよう]な書類[しょるい]を、あらかじめ確認[かくにん]しておきましょう。",
+     "vi": "Hãy kiểm tra trước các giấy tờ cần thiết.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    "v:前もって:まえもって"
+   ],
+   "note": "Chữ Hán: 予[あらかじ]め. Hay gặp trong thông báo: あらかじめご了承[りょうしょう]ください = mong quý khách thông cảm trước."
+  },
+  {
+   "id": "v:用心深い:ようじんぶかい",
+   "kana": "ようじんぶかい",
+   "kanji": "用心深い",
+   "kf": "用心深[ようじんぶか]い",
+   "hv": "DỤNG TÂM THÂM",
+   "vi": "cẩn trọng, hay đề phòng",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は用心深[ようじんぶか]い人[ひと]で、出[で]かける前[まえ]に何度[なんど]もガスを確認[かくにん]します。",
+     "vi": "Anh ấy là người cẩn trọng, trước khi ra ngoài kiểm tra ga mấy lần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "知[し]らない番号[ばんごう]からの電話[でんわ]には、用心深[ようじんぶか]く対応[たいおう]しましょう。",
+     "vi": "Hãy cảnh giác khi nghe điện thoại từ số lạ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：知[し]らない人[ひと]から荷物[にもつ]が届[とど]いたんだけど…。B：開[あ]ける前[まえ]に、用心深[ようじんぶか]く確[たし]かめたほうがいいよ。",
+     "vi": "A: Có bưu kiện của người lạ gửi đến… B: Trước khi mở nên kiểm tra cẩn thận đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    },
+    {
+     "jp": "性格[せいかく]",
+     "vi": "tính cách"
+    }
+   ],
+   "ant": [
+    {
+     "w": "不用心[ぶようじん]",
+     "vi": "sơ hở, thiếu cảnh giác"
+    }
+   ],
+   "rel": [
+    "v:用心:ようじん"
+   ]
+  },
+  {
+   "id": "v:応急処置:おうきゅうしょち",
+   "kana": "おうきゅうしょち",
+   "kanji": "応急処置",
+   "hv": "ỨNG CẤP XỬ TRÍ",
+   "vi": "sơ cứu",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phòng ngừa",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "けがをしたら、まず応急処置[おうきゅうしょち]をしてから病院[びょういん]へ行[い]きます。",
+     "vi": "Bị thương thì sơ cứu trước rồi mới đến bệnh viện.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "応急処置[おうきゅうしょち]の講習[こうしゅう]を、会社[かいしゃ]で受[う]けました。",
+     "vi": "Tôi đã học lớp sơ cứu ở công ty.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:応急手当:おうきゅうてあて"
+   ],
+   "note": "応急[おうきゅう] = tạm thời, khẩn cấp; 処置[しょち] = xử trí (vết thương, sự việc)."
+  },
+  {
+   "id": "v:生活習慣病:せいかつしゅうかんびょう",
+   "kana": "せいかつしゅうかんびょう",
+   "kanji": "生活習慣病",
+   "hv": "SINH HOẠT TẬP QUÁN BỆNH",
+   "vi": "bệnh do lối sống (tiểu đường, huyết áp cao…)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "生活習慣病[せいかつしゅうかんびょう]を防[ふせ]ぐには、食事[しょくじ]と運動[うんどう]が大切[たいせつ]です。",
+     "vi": "Để phòng bệnh do lối sống thì ăn uống và vận động là quan trọng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "健康診断[けんこうしんだん]で、生活習慣病[せいかつしゅうかんびょう]の検査[けんさ]も受[う]けました。",
+     "vi": "Trong buổi khám sức khỏe tôi được kiểm tra cả các bệnh do lối sống.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Ví dụ: 糖尿病[とうにょうびょう] (tiểu đường), 高血圧[こうけつあつ] (huyết áp cao)."
+  },
+  {
+   "id": "v:健康診断:けんこうしんだん",
+   "kana": "けんこうしんだん",
+   "kanji": "健康診断",
+   "hv": "KIỆN KHANG CHẨN ĐOẠN",
+   "vi": "khám sức khỏe (định kỳ)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "うちの会社[かいしゃ]では、年[ねん]に一回[いっかい]健康診断[けんこうしんだん]があります。",
+     "vi": "Công ty tôi mỗi năm có một lần khám sức khỏe.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "健康診断[けんこうしんだん]の結果[けっか]が、郵送[ゆうそう]で届[とど]きました。",
+     "vi": "Kết quả khám sức khỏe đã được gửi qua bưu điện.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:健康:けんこう"
+   ],
+   "note": "Gọi tắt: 健診[けんしん]. 健康診断書[けんこうしんだんしょ] = giấy khám sức khỏe (hay cần khi nộp hồ sơ)."
+  },
+  {
+   "id": "v:予防接種:よぼうせっしゅ",
+   "kana": "よぼうせっしゅ",
+   "kanji": "予防接種",
+   "hv": "DỰ PHÒNG TIẾP CHỦNG",
+   "vi": "tiêm phòng, tiêm chủng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冬[ふゆ]の前[まえ]に、インフルエンザの予防接種[よぼうせっしゅ]を受[う]けました。",
+     "vi": "Trước mùa đông tôi đã tiêm phòng cúm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "予防接種[よぼうせっしゅ]を受[う]けられる病院[びょういん]は、市[し]のホームページで調[しら]べられます。",
+     "vi": "Có thể tra các bệnh viện tiêm chủng trên trang web của thành phố.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:予防:よぼう"
+   ],
+   "note": "予防接種[よぼうせっしゅ]を受[う]ける = đi tiêm phòng. Cũng nói ワクチンを打[う]つ."
+  },
+  {
+   "id": "v:免疫:めんえき",
+   "kana": "めんえき",
+   "kanji": "免疫",
+   "hv": "MIỄN DỊCH",
+   "vi": "miễn dịch, sức đề kháng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寝不足[ねぶそく]が続[つづ]くと、免疫[めんえき]が下[さ]がります。",
+     "vi": "Thiếu ngủ kéo dài thì sức đề kháng giảm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一度[いちど]かかると、免疫[めんえき]ができる病気[びょうき]もあります。",
+     "vi": "Có những bệnh mắc một lần thì cơ thể có miễn dịch.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "免疫力[めんえきりょく] = sức đề kháng; 免疫力[めんえきりょく]を高[たか]める = tăng sức đề kháng."
+  },
+  {
+   "id": "v:感染症:かんせんしょう",
+   "kana": "かんせんしょう",
+   "kanji": "感染症",
+   "hv": "CẢM NHIỄM CHỨNG",
+   "vi": "bệnh truyền nhiễm",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "感染症[かんせんしょう]を防[ふせ]ぐため、作業[さぎょう]の前[まえ]に必[かなら]ず手[て]を洗[あら]います。",
+     "vi": "Để phòng bệnh truyền nhiễm, trước khi làm việc nhất định phải rửa tay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "感染症[かんせんしょう]にかかったら、無理[むり]をしないで休[やす]んでください。",
+     "vi": "Nếu mắc bệnh truyền nhiễm, đừng cố mà hãy nghỉ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "感染[かんせん] = lây nhiễm; 感染症[かんせんしょう]にかかる = mắc bệnh truyền nhiễm. Ở xưởng thực phẩm, bị tiêu chảy, nôn, sốt phải báo trước khi vào ca."
+  },
+  {
+   "id": "v:熱中症:ねっちゅうしょう",
+   "kana": "ねっちゅうしょう",
+   "kanji": "熱中症",
+   "hv": "NHIỆT TRUNG CHỨNG",
+   "vi": "say nắng, sốc nhiệt",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "暑[あつ]い日[ひ]は、熱中症[ねっちゅうしょう]に気[き]をつけてください。",
+     "vi": "Ngày nóng hãy cẩn thận say nắng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "熱中症[ねっちゅうしょう]にならないように、こまめに水[みず]を飲[の]みましょう。",
+     "vi": "Hãy uống nước thường xuyên để không bị sốc nhiệt.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:補給:ほきゅう"
+   ],
+   "note": "Dấu hiệu: chóng mặt, đau đầu, buồn nôn. Hay đi với こまめな水分補給[すいぶんほきゅう] (uống nước thường xuyên)."
+  },
+  {
+   "id": "v:安静:あんせい",
+   "kana": "あんせい",
+   "kanji": "安静",
+   "hv": "AN TĨNH",
+   "vi": "nằm nghỉ yên (theo lời bác sĩ)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "医者[いしゃ]に、数[すう]日[じつ]は安静[あんせい]にするように言[い]われました。",
+     "vi": "Bác sĩ dặn nằm nghỉ yên vài ngày.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "腰[こし]を痛[いた]めたので、今週[こんしゅう]は家[いえ]で安静[あんせい]にしています。",
+     "vi": "Bị đau lưng nên tuần này tôi nằm nghỉ ở nhà.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "安静[あんせい]にする = nghỉ ngơi tĩnh dưỡng; 絶対安静[ぜったいあんせい] = tuyệt đối nằm yên."
+  },
+  {
+   "id": "v:受診:じゅしん",
+   "kana": "じゅしん",
+   "kanji": "受診",
+   "hv": "THỤ CHẨN",
+   "vi": "đi khám (bác sĩ)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "熱[ねつ]が下[さ]がらない場合[ばあい]は、早[はや]めに受診[じゅしん]してください。",
+     "vi": "Nếu không hạ sốt thì hãy đi khám sớm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "何科[なにか]を受診[じゅしん]すればいいか、受付[うけつけ]で聞[き]きました。",
+     "vi": "Tôi hỏi quầy tiếp nhận xem nên khám khoa nào.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：まだせきが出[で]てるね。B：うん、明日[あした]、内科[ないか]を受診[じゅしん]するつもり。",
+     "vi": "A: Vẫn còn ho nhỉ. B: Ừ, mai tớ định đi khám nội khoa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "病院[びょういん]を受診[じゅしん]する",
+     "vi": "đi khám ở bệnh viện"
+    },
+    {
+     "jp": "内科[ないか]を受診[じゅしん]する",
+     "vi": "khám nội khoa"
+    }
+   ],
+   "rel": [
+    "v:診察:しんさつ"
+   ],
+   "note": "受診[じゅしん] = người bệnh đi khám; 診察[しんさつ] = bác sĩ khám."
+  },
+  {
+   "id": "v:服用:ふくよう",
+   "kana": "ふくよう",
+   "kanji": "服用",
+   "hv": "PHỤC DỤNG",
+   "vi": "uống thuốc (văn viết, trên hướng dẫn)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この薬[くすり]は、一日[いちにち]三回[さんかい]、食後[しょくご]に服用[ふくよう]してください。",
+     "vi": "Thuốc này uống ngày ba lần sau bữa ăn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "服用[ふくよう]中[ちゅう]の薬[くすり]があれば、医師[いし]に伝[つた]えてください。",
+     "vi": "Nếu đang uống thuốc gì thì hãy báo bác sĩ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "薬[くすり]を服用[ふくよう]する",
+     "vi": "uống thuốc"
+    }
+   ],
+   "note": "Văn viết (tờ hướng dẫn thuốc, giấy khám); nói thường: 薬[くすり]を飲[の]む."
+  },
+  {
+   "id": "v:副作用:ふくさよう",
+   "kana": "ふくさよう",
+   "kanji": "副作用",
+   "hv": "PHÓ TÁC DỤNG",
+   "vi": "tác dụng phụ",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "眠[ねむ]くなる副作用[ふくさよう]があるので、薬[くすり]を飲[の]んだ日[ひ]はフォークリフトに乗[の]りません。",
+     "vi": "Thuốc có tác dụng phụ gây buồn ngủ nên hôm uống thuốc tôi không lái xe nâng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "副作用[ふくさよう]が出[で]たら、すぐに医師[いし]か薬剤師[やくざいし]に相談[そうだん]してください。",
+     "vi": "Nếu thấy tác dụng phụ, hãy hỏi ngay bác sĩ hoặc dược sĩ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "副作用[ふくさよう]が出[で]る = bị tác dụng phụ."
+  },
+  {
+   "id": "v:仮眠:かみん",
+   "kana": "かみん",
+   "kanji": "仮眠",
+   "hv": "GIẢ MIÊN",
+   "vi": "chợp mắt, ngủ tạm một lúc",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜勤[やきん]の休憩時間[きゅうけいじかん]に、少[すこ]し仮眠[かみん]を取[と]ります。",
+     "vi": "Giờ nghỉ ca đêm tôi chợp mắt một chút.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "運転中[うんてんちゅう]に眠[ねむ]くなったら、無理[むり]をしないで仮眠[かみん]してください。",
+     "vi": "Đang lái xe mà buồn ngủ thì đừng cố, hãy chợp mắt một lát.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "車[くるま]の中[なか]で仮眠[かみん]する",
+     "vi": "chợp mắt trong xe"
+    }
+   ],
+   "note": "仮眠[かみん]を取[と]る = chợp mắt; 仮眠室[かみんしつ] = phòng nghỉ ngắn."
+  },
+  {
+   "id": "v:運動不足:うんどうぶそく",
+   "kana": "うんどうぶそく",
+   "kanji": "運動不足",
+   "hv": "VẬN ĐỘNG BẤT TÚC",
+   "vi": "thiếu vận động",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "運動不足[うんどうぶそく]なので、階段[かいだん]を使[つか]うようにしています。",
+     "vi": "Vì thiếu vận động nên tôi cố đi cầu thang bộ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "立[た]ち仕事[しごと]でも、同[おな]じ姿勢[しせい]のままだと運動不足[うんどうぶそく]になります。",
+     "vi": "Dù làm việc đứng nhưng giữ nguyên một tư thế thì vẫn thiếu vận động.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:不足:ふそく"
+   ],
+   "note": "〜不足[ぶそく]: 寝不足[ねぶそく] (thiếu ngủ), 人手不足[ひとでぶそく] (thiếu người)."
+  },
+  {
+   "id": "v:偏る:かたよる",
+   "kana": "かたよる",
+   "kanji": "偏る",
+   "kf": "偏[かたよ]る",
+   "hv": "THIÊN",
+   "vi": "thiên lệch, dồn về một phía",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "コンビニ弁当[べんとう]ばかりだと、栄養[えいよう]が偏[かたよ]ります。",
+     "vi": "Toàn ăn cơm hộp cửa hàng tiện lợi thì dinh dưỡng mất cân đối.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "仕事[しごと]が一人[ひとり]に偏[かたよ]らないように、分担[ぶんたん]を決[き]めましょう。",
+     "vi": "Hãy chia phần việc để công việc không dồn vào một người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：最近[さいきん]、肉[にく]ばっかり食[た]べてる。B：食事[しょくじ]が偏[かたよ]ってるね。野菜[やさい]も食[た]べなよ。",
+     "vi": "A: Dạo này toàn ăn thịt. B: Ăn uống lệch quá. Ăn cả rau đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "栄養[えいよう]が偏[かたよ]る",
+     "vi": "dinh dưỡng mất cân đối"
+    },
+    {
+     "jp": "考[かんが]え方[かた]が偏[かたよ]る",
+     "vi": "suy nghĩ phiến diện"
+    }
+   ],
+   "note": "偏[かたよ]った食事[しょくじ] = bữa ăn lệch chất. Danh từ: 偏[かたよ]り."
+  },
+  {
+   "id": "v:補う:おぎなう",
+   "kana": "おぎなう",
+   "kanji": "補う",
+   "kf": "補[おぎな]う",
+   "hv": "BỔ",
+   "vi": "bù vào, bổ sung (chỗ thiếu)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "足[た]りない栄養[えいよう]を、サプリで補[おぎな]っています。",
+     "vi": "Tôi bù chất dinh dưỡng còn thiếu bằng thực phẩm chức năng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "人[ひと]が足[た]りない分[ぶん]は、残業[ざんぎょう]で補[おぎな]うしかない。",
+     "vi": "Phần thiếu người thì chỉ còn cách bù bằng tăng ca.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：日本語[にほんご]、まだ下手[へた]で…。B：経験[けいけん]で補[おぎな]えばいいよ。",
+     "vi": "A: Tiếng Nhật tôi còn kém… B: Lấy kinh nghiệm bù vào là được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "栄養[えいよう]を補[おぎな]う",
+     "vi": "bổ sung dinh dưỡng"
+    },
+    {
+     "jp": "欠点[けってん]を補[おぎな]う",
+     "vi": "bù khuyết điểm"
+    }
+   ],
+   "confuse": [
+    "v:補充:ほじゅう"
+   ],
+   "note": "補[おぎな]う = bù chỗ thiếu (cả nghĩa trừu tượng). 補充[ほじゅう] = châm thêm cho đủ lại số lượng."
+  },
+  {
+   "id": "v:欠かす:かかす",
+   "kana": "かかす",
+   "kanji": "欠かす",
+   "kf": "欠[か]かす",
+   "hv": "KHIẾM",
+   "vi": "bỏ sót, bỏ qua (thường dùng phủ định: không bỏ)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎朝[まいあさ]の体温[たいおん]チェックは、欠[か]かさずやっています。",
+     "vi": "Việc đo nhiệt độ mỗi sáng tôi làm đều không bỏ hôm nào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本語[にほんご]の勉強[べんきょう]は、一日[いちにち]も欠[か]かしたことがありません。",
+     "vi": "Việc học tiếng Nhật tôi chưa bỏ ngày nào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：毎日[まいにち]走[はし]ってるの？B：うん、雨[あめ]の日[ひ]以外[いがい]は欠[か]かさないよ。",
+     "vi": "A: Ngày nào cậu cũng chạy à? B: Ừ, trừ ngày mưa ra thì không bỏ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "練習[れんしゅう]を欠[か]かす",
+     "vi": "bỏ buổi tập"
+    },
+    {
+     "jp": "一日[いちにち]も欠[か]かす",
+     "vi": "bỏ dù một ngày"
+    }
+   ],
+   "pair": "v:欠ける:かける",
+   "note": "Hay dùng: 欠[か]かさず = đều đặn không bỏ; 欠[か]かせない = không thể thiếu."
+  },
+  {
+   "id": "v:補給:ほきゅう",
+   "kana": "ほきゅう",
+   "kanji": "補給",
+   "hv": "BỔ CẤP",
+   "vi": "tiếp thêm, bù (nước, nhiên liệu đang hao)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休憩[きゅうけい]のたびに、水分[すいぶん]を補給[ほきゅう]してください。",
+     "vi": "Mỗi lần nghỉ hãy uống nước bù.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "長[なが]い距離[きょり]を運転[うんてん]する前[まえ]に、ガソリンを補給[ほきゅう]しました。",
+     "vi": "Trước khi lái đường dài, tôi đã đổ thêm xăng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水分[すいぶん]を補給[ほきゅう]する",
+     "vi": "bù nước"
+    },
+    {
+     "jp": "燃料[ねんりょう]を補給[ほきゅう]する",
+     "vi": "tiếp nhiên liệu"
+    }
+   ],
+   "confuse": [
+    "v:補充:ほじゅう"
+   ],
+   "note": "水分補給[すいぶんほきゅう] = uống bù nước. 補給[ほきゅう] = bù thứ đang hao dần; 補充[ほじゅう] = châm cho đủ lại số lượng."
+  },
+  {
+   "id": "v:ベスト:ベスト",
+   "kana": "ベスト",
+   "kanji": "",
+   "hv": "",
+   "vi": "tốt nhất (hết sức mình)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休[やす]める時[とき]に休[やす]むのが、ベストです。",
+     "vi": "Nghỉ được lúc nào thì nghỉ lúc đó là tốt nhất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "試験[しけん]まであと一[いっ]か月[げつ]、ベストを尽[つ]くします。",
+     "vi": "Còn một tháng nữa là thi, tôi sẽ dốc hết sức.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:最善:さいぜん"
+   ],
+   "goc": "best (tiếng Anh)",
+   "note": "ベストを尽[つ]くす = cố hết sức. Đồng âm: ベスト = áo gi-lê (vest)."
+  },
+  {
+   "id": "v:最善:さいぜん",
+   "kana": "さいぜん",
+   "kanji": "最善",
+   "hv": "TỐI THIỆN",
+   "vi": "tốt nhất có thể (phương án, nỗ lực)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今[いま]できる最善[さいぜん]の方法[ほうほう]を考[かんが]えましょう。",
+     "vi": "Hãy nghĩ cách tốt nhất có thể làm lúc này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "最善[さいぜん]の策[さく]は、早[はや]めに専門家[せんもんか]に相談[そうだん]することです。",
+     "vi": "Cách tốt nhất là sớm hỏi ý kiến chuyên gia.",
+     "ctx": "thutuc"
+    }
+   ],
+   "ant": [
+    "v:最悪:さいあく"
+   ],
+   "syn": [
+    "v:ベスト:ベスト"
+   ],
+   "note": "最善[さいぜん]を尽[つ]くす = làm hết sức mình. Khác 最良[さいりょう] (tốt nhất về chất lượng)."
+  },
+  {
+   "id": "v:最悪:さいあく",
+   "kana": "さいあく",
+   "kanji": "最悪",
+   "hv": "TỐI ÁC",
+   "vi": "tồi tệ nhất; (khẩu ngữ) tệ quá",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "最悪[さいあく]の場合[ばあい]、ラインを止[と]めることになります。",
+     "vi": "Trường hợp xấu nhất thì sẽ phải dừng dây chuyền.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "最悪[さいあく]の事態[じたい]に備[そな]えて、計画[けいかく]を立[た]てておきます。",
+     "vi": "Lập kế hoạch sẵn để phòng tình huống tồi tệ nhất.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：雨[あめ]で電車[でんしゃ]が止[と]まったって。B：え、最悪[さいあく]！",
+     "vi": "A: Nghe nói mưa làm tàu dừng rồi. B: Hả, tệ quá!",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "場合[ばあい]",
+     "vi": "trường hợp"
+    },
+    {
+     "jp": "事態[じたい]",
+     "vi": "tình huống"
+    }
+   ],
+   "ant": [
+    "v:最善:さいぜん",
+    "v:最高:さいこう"
+   ],
+   "note": "最悪[さいあく]の場合[ばあい] = trường hợp xấu nhất."
+  },
+  {
+   "id": "v:無難:ぶなん",
+   "kana": "ぶなん",
+   "kanji": "無難",
+   "hv": "VÔ NAN",
+   "vi": "chắc ăn, không có gì sai",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "迷[まよ]ったら、無難[ぶなん]な色[いろ]を選[えら]んだほうがいいです。",
+     "vi": "Phân vân thì nên chọn màu an toàn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "送別会[そうべつかい]のスピーチは、無難[ぶなん]な内容[ないよう]にしました。",
+     "vi": "Bài phát biểu ở tiệc chia tay, tôi chọn nội dung không có gì sai.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：面接[めんせつ]、何[なに]を着[き]ていけばいい？B：黒[くろ]いスーツが無難[ぶなん]だよ。",
+     "vi": "A: Đi phỏng vấn nên mặc gì? B: Com-lê đen là chắc ăn nhất.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "色[いろ]",
+     "vi": "màu"
+    },
+    {
+     "jp": "選択[せんたく]",
+     "vi": "lựa chọn"
+    }
+   ],
+   "note": "無難[ぶなん] = không nổi bật nhưng không sai. Khác 安全[あんぜん] = không nguy hiểm."
+  },
+  {
+   "id": "v:望ましい:のぞましい",
+   "kana": "のぞましい",
+   "kanji": "望ましい",
+   "kf": "望[のぞ]ましい",
+   "hv": "VỌNG",
+   "vi": "nên là, tốt nhất là (theo chuẩn mong muốn)",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "書類[しょるい]は、黒[くろ]のボールペンで書[か]くことが望[のぞ]ましいです。",
+     "vi": "Giấy tờ tốt nhất là viết bằng bút bi đen.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "睡眠[すいみん]は、七時間[ななじかん]ぐらい取[と]るのが望[のぞ]ましいと言[い]われています。",
+     "vi": "Người ta nói ngủ khoảng bảy tiếng là tốt nhất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：次[つぎ]の班長[はんちょう]、日本語[にほんご]ができる人[ひと]がいいかな。B：そうだね。N2ぐらいあるのが望[のぞ]ましいね。",
+     "vi": "A: Tổ trưởng tới nên là người giỏi tiếng Nhật nhỉ. B: Ừ, có khoảng N2 thì tốt nhất.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "条件[じょうけん]",
+     "vi": "điều kiện"
+    },
+    {
+     "jp": "方法[ほうほう]",
+     "vi": "cách làm"
+    }
+   ],
+   "confuse": [
+    "v:好ましい:このましい"
+   ],
+   "note": "望[のぞ]ましい = nên như thế (chuẩn lý tưởng), gần nghĩa mẫu 〜に越[こ]したことはない. 好[この]ましい = gây cảm tình, dễ ưa."
+  },
+  {
+   "id": "v:好ましい:このましい",
+   "kana": "このましい",
+   "kanji": "好ましい",
+   "kf": "好[この]ましい",
+   "hv": "HẢO",
+   "vi": "dễ ưa, đáng có (gây ấn tượng tốt)",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "明[あか]るい挨拶[あいさつ]は、誰[だれ]にとっても好[この]ましいものです。",
+     "vi": "Lời chào vui vẻ thì ai cũng thấy dễ chịu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "遅刻[ちこく]が多[おお]いのは、好[この]ましくありません。",
+     "vi": "Hay đi muộn là điều không hay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの新人[しんじん]、どう？B：まじめで、好[この]ましい印象[いんしょう]だね。",
+     "vi": "A: Cậu người mới đó thế nào? B: Chăm chỉ, ấn tượng tốt.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "印象[いんしょう]",
+     "vi": "ấn tượng"
+    },
+    {
+     "jp": "態度[たいど]",
+     "vi": "thái độ"
+    }
+   ],
+   "confuse": [
+    "v:望ましい:のぞましい"
+   ],
+   "note": "Phủ định 好[この]ましくない = không hay, không nên (cách nói tế nhị)."
+  },
+  {
+   "id": "v:割高:わりだか",
+   "kana": "わりだか",
+   "kanji": "割高",
+   "hv": "CÁT CAO",
+   "vi": "(tính ra) đắt hơn",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小[ちい]さいパックは、量[りょう]のわりに割高[わりだか]です。",
+     "vi": "Gói nhỏ tính theo lượng thì đắt hơn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "コンビニは便利[べんり]ですが、スーパーより割高[わりだか]です。",
+     "vi": "Cửa hàng tiện lợi thì tiện nhưng đắt hơn siêu thị.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：送料[そうりょう]を入[い]れると、ネットのほうが割高[わりだか]だね。B：じゃあ、店[みせ]で買[か]おう。",
+     "vi": "A: Tính cả phí ship thì mua trên mạng lại đắt hơn nhỉ. B: Vậy ra cửa hàng mua đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "値段[ねだん]",
+     "vi": "giá"
+    },
+    {
+     "jp": "料金[りょうきん]",
+     "vi": "phí"
+    }
+   ],
+   "ant": [
+    "v:割安:わりやす"
+   ]
+  },
+  {
+   "id": "v:長期的:ちょうきてき",
+   "kana": "ちょうきてき",
+   "kanji": "長期的",
+   "hv": "TRƯỜNG KỲ ĐÍCH",
+   "vi": "về lâu dài, mang tính dài hạn",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "長期的[ちょうきてき]に見[み]れば、資格[しかく]を取[と]ったほうが得[とく]です。",
+     "vi": "Nhìn về lâu dài thì lấy chứng chỉ có lợi hơn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "長期的[ちょうきてき]な計画[けいかく]を立[た]てて、貯金[ちょきん]しています。",
+     "vi": "Tôi lập kế hoạch dài hạn và tiết kiệm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：安[やす]い長靴[ながぐつ]、すぐ破[やぶ]れちゃった。B：長期的[ちょうきてき]に考[かんが]えたら、いい物[もの]を買[か]ったほうが安[やす]いよ。",
+     "vi": "A: Đôi ủng rẻ rách ngay rồi. B: Nghĩ về lâu dài thì mua đồ tốt lại rẻ hơn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "計画[けいかく]",
+     "vi": "kế hoạch"
+    },
+    {
+     "jp": "目標[もくひょう]",
+     "vi": "mục tiêu"
+    }
+   ],
+   "ant": [
+    {
+     "w": "短期的[たんきてき]",
+     "vi": "ngắn hạn"
+    }
+   ],
+   "note": "長期的[ちょうきてき]に見[み]る = nhìn về lâu dài."
+  },
+  {
+   "id": "v:一応:いちおう",
+   "kana": "いちおう",
+   "kanji": "一応",
+   "hv": "NHẤT ỨNG",
+   "vi": "cho chắc, tạm gọi là (ở mức tối thiểu)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ & cụm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一応[いちおう]、班長[はんちょう]にも聞[き]いておきます。",
+     "vi": "Cho chắc, tôi hỏi cả tổ trưởng luôn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "書類[しょるい]は一応[いちおう]そろいましたが、もう一度[いちど]見[み]てもらえますか。",
+     "vi": "Giấy tờ tạm đủ rồi, nhưng anh xem lại giúp một lần được không?",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：傘[かさ]、持[も]っていく？B：一応[いちおう]持[も]っていこう。",
+     "vi": "A: Có mang ô không? B: Cứ mang cho chắc.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "syn": [
+    "v:念のため:ねんのため"
+   ],
+   "note": "一応[いちおう] = ở mức tối thiểu, chưa hẳn hoàn hảo. Còn dùng khi khiêm tốn: 一応[いちおう]、フォークリフトの免許[めんきょ]はあります = Tôi cũng có bằng lái xe nâng."
+  },
+  {
+   "id": "v:とりあえず:とりあえず",
+   "kana": "とりあえず",
+   "kanji": "",
+   "hv": "",
+   "vi": "trước mắt cứ (làm việc cần nhất đã)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ & cụm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "とりあえず、ビールを二[ふた]つお願[ねが]いします。",
+     "vi": "Trước mắt cho hai cốc bia.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "原因[げんいん]はまだ分[わ]かりませんが、とりあえず機械[きかい]を止[と]めましょう。",
+     "vi": "Chưa rõ nguyên nhân nhưng trước mắt cứ dừng máy đã.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：どうしよう…。B：とりあえず、班長[はんちょう]に連絡[れんらく]しよう。",
+     "vi": "A: Làm sao giờ… B: Trước hết báo tổ trưởng đã.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:一応:いちおう"
+   ],
+   "note": "とりあえず = làm việc cần nhất trước, việc khác tính sau. 一応[いちおう] = làm cho chắc, ở mức tối thiểu."
+  },
+  {
+   "id": "v:どちらにしても:どちらにしても",
+   "kana": "どちらにしても",
+   "kanji": "",
+   "hv": "",
+   "vi": "đằng nào thì, dù thế nào (trong hai khả năng)",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ & cụm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "行[い]っても行[い]かなくても、どちらにしても連絡[れんらく]はください。",
+     "vi": "Đi hay không đi thì đằng nào cũng hãy báo cho tôi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "明日[あした]は雨[あめ]でも晴[は]れでも、どちらにしても作業[さぎょう]はあります。",
+     "vi": "Mai mưa hay nắng thì đằng nào cũng có việc.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:いずれにしても:いずれにしても",
+    "v:どのみち:どのみち"
+   ],
+   "note": "Thân mật: どっちにしても / どっちにしろ."
+  },
+  {
+   "id": "v:いずれにしても:いずれにしても",
+   "kana": "いずれにしても",
+   "kanji": "",
+   "hv": "",
+   "vi": "dù sao đi nữa (trang trọng)",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ & cụm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いずれにしても、結果[けっか]が出[で]たらご連絡[れんらく]します。",
+     "vi": "Dù sao đi nữa, có kết quả tôi sẽ liên lạc.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "原因[げんいん]はまだ調査[ちょうさ]中[ちゅう]ですが、いずれにしても再発防止策[さいはつぼうしさく]が必要[ひつよう]です。",
+     "vi": "Nguyên nhân còn đang điều tra, nhưng dù sao cũng cần biện pháp chống tái diễn.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:どちらにしても:どちらにしても"
+   ],
+   "rel": [
+    "v:いずれ:いずれ"
+   ],
+   "note": "Cùng nghĩa, trang trọng hơn: いずれにせよ / いずれにしろ."
+  },
+  {
+   "id": "v:どのみち:どのみち",
+   "kana": "どのみち",
+   "kanji": "",
+   "hv": "",
+   "vi": "kiểu gì cũng, đường nào cũng (kết quả như nhau)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ & cụm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "どのみち残業[ざんぎょう]になるから、先[さき]にご飯[はん]を食[た]べておこう。",
+     "vi": "Đằng nào cũng phải tăng ca, ăn cơm trước đã.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今日[きょう]やらなくても、どのみちやらなければならない。",
+     "vi": "Hôm nay không làm thì đằng nào cũng phải làm.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:どちらにしても:どちらにしても"
+   ],
+   "note": "Khẩu ngữ. Chữ Hán: 何[ど]の道[みち]."
+  },
+  {
+   "id": "v:仮に:かりに",
+   "kana": "かりに",
+   "kanji": "仮に",
+   "kf": "仮[かり]に",
+   "hv": "GIẢ",
+   "vi": "giả sử, giả như",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ & cụm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仮[かり]に台風[たいふう]で電車[でんしゃ]が止[と]まったら、どうやって出勤[しゅっきん]しますか。",
+     "vi": "Giả sử bão làm tàu dừng thì anh đi làm bằng cách nào?",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "仮[かり]に合格[ごうかく]できなくても、また来年[らいねん]受[う]ければいい。",
+     "vi": "Giả sử không đỗ thì sang năm thi lại là được.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:もし:もし"
+   ],
+   "note": "Hay đi với 〜たら, 〜ても, 〜としても. 仮[かり] = tạm (仮免許[かりめんきょ] = bằng tạm)."
+  }
+ ]
+}

@@ -1,0 +1,1638 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-35",
+  "title": "JLPT N2 35 – Nào là… nào là",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:忙しさ:いそがしさ",
+   "kana": "いそがしさ",
+   "kanji": "忙しさ",
+   "kf": "忙[いそが]しさ",
+   "hv": "MANG",
+   "vi": "sự bận rộn",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bận rộn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "年末[ねんまつ]の忙[いそが]しさは、想像[そうぞう]以上[いじょう]だった。",
+     "vi": "Sự bận rộn cuối năm vượt ngoài tưởng tượng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "忙[いそが]しさを理由[りゆう]に、家族[かぞく]との時間[じかん]を減[へ]らしたくない。",
+     "vi": "Tôi không muốn lấy cớ bận rộn mà bớt thời gian với gia đình.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:忙しい:いそがしい"
+   ]
+  },
+  {
+   "id": "v:慌ただしい:あわただしい",
+   "kana": "あわただしい",
+   "kanji": "慌ただしい",
+   "kf": "慌[あわ]ただしい",
+   "hv": "HOẢNG",
+   "vi": "tất tả, rối rít (ngày tháng, sự việc)",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bận rộn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "引[ひ]っ越[こ]しやら手続[てつづ]きやらで、慌[あわ]ただしい一週間[いっしゅうかん]だった。",
+     "vi": "Nào chuyển nhà nào làm thủ tục, một tuần thật tất tả.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "朝[あさ]は出荷[しゅっか]の準備[じゅんび]で、工場[こうじょう]が慌[あわ]ただしい。",
+     "vi": "Buổi sáng nhà máy rối rít chuẩn bị xuất hàng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：最近[さいきん]、どう？B：子供[こども]が生[う]まれて、毎日[まいにち]慌[あわ]ただしいよ。",
+     "vi": "A: Dạo này thế nào? B: Con mới sinh, ngày nào cũng tất tả.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "毎日[まいにち]",
+     "vi": "mỗi ngày"
+    },
+    {
+     "jp": "朝[あさ]",
+     "vi": "buổi sáng"
+    }
+   ],
+   "rel": [
+    "v:慌てる:あわてる",
+    "v:ばたばた:ばたばた"
+   ]
+  },
+  {
+   "id": "v:目が回る:めがまわる",
+   "kana": "めがまわる",
+   "kanji": "目が回る",
+   "kf": "目[め]が回[まわ]る",
+   "hv": "MỤC HỒI",
+   "vi": "bận tối mắt tối mũi; hoa mắt",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bận rộn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "繁忙期[はんぼうき]は、目[め]が回[まわ]るほど忙[いそが]しい。",
+     "vi": "Mùa cao điểm bận tối mắt tối mũi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "急[きゅう]に立[た]ち上[あ]がったら、目[め]が回[まわ]った。",
+     "vi": "Đứng dậy đột ngột thì hoa mắt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今日[きょう]の注文[ちゅうもん]、すごい量[りょう]だね。B：本当[ほんとう]、目[め]が回[まわ]りそうだよ。",
+     "vi": "A: Đơn hôm nay nhiều ghê nhỉ. B: Thật đấy, bận muốn xỉu luôn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "忙[いそが]しくて目[め]が回[まわ]る",
+     "vi": "bận tối mắt"
+    }
+   ],
+   "rel": [
+    "v:めまい:めまい"
+   ],
+   "note": "Hay dùng: 目[め]が回[まわ]るほど忙[いそが]しい."
+  },
+  {
+   "id": "v:大忙し:おおいそがし",
+   "kana": "おおいそがし",
+   "kanji": "大忙し",
+   "kf": "大忙[おおいそが]し",
+   "hv": "ĐẠI MANG",
+   "vi": "cực kỳ bận",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bận rộn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お盆[ぼん]の前[まえ]は、どこの店[みせ]も大忙[おおいそが]しだ。",
+     "vi": "Trước lễ Obon cửa hàng nào cũng cực kỳ bận.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "注文[ちゅうもん]が重[かさ]なって、今日[きょう]は朝[あさ]から大忙[おおいそが]しだった。",
+     "vi": "Đơn hàng dồn dập, hôm nay bận túi bụi từ sáng.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:忙しさ:いそがしさ"
+   ]
+  },
+  {
+   "id": "v:せかせか:せかせか",
+   "kana": "せかせか",
+   "kanji": "",
+   "hv": "",
+   "vi": "hối hả, lật đật (vội vã không yên)",
+   "pos": "ono",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bận rộn",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "彼[かれ]はいつもせかせかと歩[ある]いている。",
+     "vi": "Anh ấy lúc nào cũng đi lật đật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "そんなにせかせかしないで、落[お]ち着[つ]いて作業[さぎょう]しよう。",
+     "vi": "Đừng hối hả thế, bình tĩnh mà làm.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Dùng: せかせかする / せかせかと歩[ある]く. Gần nghĩa: 落[お]ち着[つ]きがない."
+  },
+  {
+   "id": "v:手が離せない:てがはなせない",
+   "kana": "てがはなせない",
+   "kanji": "手が離せない",
+   "kf": "手[て]が離[はな]せない",
+   "hv": "THỦ LY",
+   "vi": "đang bận tay, không dứt ra được",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bận rộn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今[いま]、手[て]が離[はな]せないので、後[あと]で電話[でんわ]します。",
+     "vi": "Giờ tôi đang bận tay, lát nữa tôi gọi lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：ちょっと手伝[てつだ]ってくれない？B：ごめん、今[こん]料理[りょうり]中[ちゅう]で手[て]が離[はな]せないんだ。",
+     "vi": "A: Giúp tớ một tí được không? B: Xin lỗi, tớ đang nấu nên không dứt tay ra được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:離す:はなす"
+   ],
+   "note": "Dùng để từ chối lịch sự khi đang dở việc."
+  },
+  {
+   "id": "v:雑用:ざつよう",
+   "kana": "ざつよう",
+   "kanji": "雑用",
+   "hv": "TẠP DỤNG",
+   "vi": "việc vặt",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bận rộn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新人[しんじん]のころは、雑用[ざつよう]ばかりしていた。",
+     "vi": "Hồi mới vào, toàn làm việc vặt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "週末[しゅうまつ]は、買[か]い物[もの]やら掃除[そうじ]やら、雑用[ざつよう]で終[お]わってしまった。",
+     "vi": "Cuối tuần nào là đi chợ nào là dọn dẹp, hết cả vào việc vặt.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:雑務:ざつむ"
+   ],
+   "note": "雑用[ざつよう] = việc vặt nói chung (cả việc nhà). 雑務[ざつむ] = việc vặt trong công việc (văn viết)."
+  },
+  {
+   "id": "v:雑務:ざつむ",
+   "kana": "ざつむ",
+   "kanji": "雑務",
+   "hv": "TẠP VỤ",
+   "vi": "việc giấy tờ lặt vặt (trong công việc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bận rộn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班長[はんちょう]になって、雑務[ざつむ]が増[ふ]えた。",
+     "vi": "Lên tổ trưởng thì việc giấy tờ lặt vặt tăng lên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "雑務[ざつむ]に追[お]われて、本来[ほんらい]の仕事[しごと]が進[すす]まない。",
+     "vi": "Bị việc lặt vặt đuổi theo, công việc chính không tiến triển.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:雑用:ざつよう"
+   ]
+  },
+  {
+   "id": "v:何かと:なにかと",
+   "kana": "なにかと",
+   "kanji": "何かと",
+   "kf": "何[なに]かと",
+   "hv": "HÀ",
+   "vi": "đủ thứ chuyện, việc này việc nọ",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bận rộn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "年末[ねんまつ]は、何[なに]かと忙[いそが]しい。",
+     "vi": "Cuối năm bận đủ thứ chuyện.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "何[なに]かとお世話[せわ]になり、ありがとうございました。",
+     "vi": "Cảm ơn anh đã giúp đỡ tôi nhiều việc.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "何[なに]かとお世話[せわ]になります = câu chào hay dùng khi nhờ vả lâu dài."
+  },
+  {
+   "id": "v:あれこれ:あれこれ",
+   "kana": "あれこれ",
+   "kanji": "",
+   "hv": "",
+   "vi": "cái này cái kia, đủ điều",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bận rộn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "引[ひ]っ越[こ]しの前[まえ]に、あれこれ準備[じゅんび]することがある。",
+     "vi": "Trước khi chuyển nhà có đủ thứ cần chuẩn bị.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "あれこれ考[かんが]えすぎて、なかなか決[き]められない。",
+     "vi": "Nghĩ cái này cái kia quá nhiều nên mãi không quyết được.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Cũng là danh từ: あれこれと = đủ chuyện."
+  },
+  {
+   "id": "v:何もかも:なにもかも",
+   "kana": "なにもかも",
+   "kanji": "何もかも",
+   "kf": "何[なに]もかも",
+   "hv": "HÀ",
+   "vi": "tất tần tật, mọi thứ",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bận rộn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "火事[かじ]で、何[なに]もかも失[うしな]ってしまった。",
+     "vi": "Vì hỏa hoạn mà mất sạch mọi thứ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一人[ひとり]で何[なに]もかもやろうとしないで、班[はん]のみんなに頼[たよ]ってください。",
+     "vi": "Đừng định một mình làm tất cả, hãy dựa vào mọi người trong tổ.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Nhấn mạnh hơn 全部[ぜんぶ]."
+  },
+  {
+   "id": "v:相次ぐ:あいつぐ",
+   "kana": "あいつぐ",
+   "kanji": "相次ぐ",
+   "kf": "相次[あいつ]ぐ",
+   "hv": "TƯƠNG THỨ",
+   "vi": "liên tiếp xảy ra",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bận rộn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今月[こんげつ]は、機械[きかい]の故障[こしょう]が相[あい]次[つ]いだ。",
+     "vi": "Tháng này máy hỏng liên tiếp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台風[たいふう]の影響[えいきょう]で、電車[でんしゃ]の運休[うんきゅう]が相[あい]次[つ]いでいる。",
+     "vi": "Do ảnh hưởng của bão, tàu liên tiếp bị hủy chuyến.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、詐欺[さぎ]の電話[でんわ]が多[おお]いね。B：うん、被害[ひがい]が相[あい]次[つ]いでいるらしいよ。",
+     "vi": "A: Dạo này nhiều cuộc gọi lừa đảo nhỉ. B: Ừ, nghe nói thiệt hại xảy ra liên tiếp.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事故[じこ]が相次[あいつ]ぐ",
+     "vi": "tai nạn liên tiếp xảy ra"
+    },
+    {
+     "jp": "注文[ちゅうもん]が相次[あいつ]ぐ",
+     "vi": "đơn hàng dồn dập"
+    }
+   ],
+   "note": "Văn viết, hay gặp trong tin tức. Dạng nối: 相次[あいつ]いで = liên tiếp."
+  },
+  {
+   "id": "v:兼ねる:かねる",
+   "kana": "かねる",
+   "kanji": "兼ねる",
+   "kf": "兼[か]ねる",
+   "hv": "KIÊM",
+   "vi": "kiêm, đồng thời là",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bận rộn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "散歩[さんぽ]を兼[か]ねて、スーパーまで歩[ある]いて行[い]った。",
+     "vi": "Tôi đi bộ ra siêu thị, kiêm luôn đi dạo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この部屋[へや]は、休憩室[きゅうけいしつ]と会議室[かいぎしつ]を兼[か]ねている。",
+     "vi": "Phòng này vừa là phòng nghỉ vừa là phòng họp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：今日[きょう]の集[あつ]まり、何[なん]の会[かい]？B：歓迎会[かんげいかい]と親睦会[しんぼくかい]を兼[か]ねているんだって。",
+     "vi": "A: Buổi gặp hôm nay là gì thế? B: Nghe nói vừa là tiệc chào mừng vừa là buổi giao lưu.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "趣味[しゅみ]と実益[じつえき]を兼[か]ねる",
+     "vi": "vừa là sở thích vừa có lợi"
+    },
+    {
+     "jp": "二[ふた]つの役[やく]を兼[か]ねる",
+     "vi": "kiêm hai vai trò"
+    }
+   ],
+   "note": "Mẫu ngữ pháp: 〜かねる (khó lòng) viết bằng kana sau thân ます."
+  },
+  {
+   "id": "v:両立:りょうりつ",
+   "kana": "りょうりつ",
+   "kanji": "両立",
+   "hv": "LƯỠNG LẬP",
+   "vi": "cân bằng được cả hai, vẹn cả đôi đường",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仕事[しごと]と勉強[べんきょう]を両立[りょうりつ]するのは、簡単[かんたん]ではない。",
+     "vi": "Cân bằng giữa công việc và học hành không dễ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]は、仕事[しごと]と育児[いくじ]の両立[りょうりつ]を支援[しえん]している。",
+     "vi": "Công ty hỗ trợ để vừa làm việc vừa nuôi con được.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]と家庭[かてい]を両立[りょうりつ]する",
+     "vi": "cân bằng công việc và gia đình"
+    }
+   ]
+  },
+  {
+   "id": "v:共働き:ともばたらき",
+   "kana": "ともばたらき",
+   "kanji": "共働き",
+   "kf": "共働[ともばたら]き",
+   "hv": "CỘNG ĐỘNG",
+   "vi": "vợ chồng cùng đi làm",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "共働[ともばたら]きの家庭[かてい]が、年々[ねんねん]増[ふ]えている。",
+     "vi": "Gia đình vợ chồng cùng đi làm tăng lên hằng năm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "うちは共働[ともばたら]きなので、家事[かじ]は二人[ふたり]で分[わ]けている。",
+     "vi": "Nhà tôi vợ chồng cùng đi làm nên chia nhau việc nhà.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Cũng nói 共稼[ともかせ]ぎ."
+  },
+  {
+   "id": "v:家計:かけい",
+   "kana": "かけい",
+   "kanji": "家計",
+   "hv": "GIA KẾ",
+   "vi": "chi tiêu gia đình, kinh tế gia đình",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "物価[ぶっか]が上[あ]がって、家計[かけい]が苦[くる]しい。",
+     "vi": "Vật giá tăng, kinh tế gia đình chật vật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "毎月[まいつき]、家計簿[かけいぼ]をつけている。",
+     "vi": "Hằng tháng tôi ghi sổ chi tiêu gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "給料[きゅうりょう]が上[あ]がれば、国[くに]の家計[かけい]も助[たす]かる。",
+     "vi": "Lương tăng thì chi tiêu gia đình ở quê cũng đỡ.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "家計簿[かけいぼ] = sổ thu chi gia đình."
+  },
+  {
+   "id": "v:育児:いくじ",
+   "kana": "いくじ",
+   "kanji": "育児",
+   "hv": "DỤC NHI",
+   "vi": "nuôi dạy con nhỏ",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "育児[いくじ]のために、一年[いちねん]間[かん]休[やす]みを取[と]った。",
+     "vi": "Tôi nghỉ một năm để nuôi con nhỏ.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "夫婦[ふうふ]で協力[きょうりょく]して、育児[いくじ]をしている。",
+     "vi": "Vợ chồng cùng hợp sức nuôi con.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "育児[いくじ]休業[きゅうぎょう] (育休[いくきゅう]) = nghỉ chăm con có chế độ."
+  },
+  {
+   "id": "v:介護:かいご",
+   "kana": "かいご",
+   "kanji": "介護",
+   "hv": "GIỚI HỘ",
+   "vi": "chăm nuôi, săn sóc (người già, người bệnh)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母[はは]は、祖母[そぼ]の介護[かいご]をしている。",
+     "vi": "Mẹ tôi đang chăm sóc bà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "介護[かいご]の仕事[しごと]も、特定[とくてい]技能[ぎのう]の分野[ぶんや]の一[ひと]つだ。",
+     "vi": "Nghề chăm sóc người già cũng là một ngành của kỹ năng đặc định.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "親[おや]を介護[かいご]する",
+     "vi": "chăm sóc bố mẹ"
+    }
+   ],
+   "rel": [
+    "v:世話:せわ"
+   ],
+   "note": "介護士[かいごし] = nhân viên điều dưỡng chăm sóc; 介護[かいご]保険[ほけん] = bảo hiểm chăm sóc."
+  },
+  {
+   "id": "v:送り迎え:おくりむかえ",
+   "kana": "おくりむかえ",
+   "kanji": "送り迎え",
+   "kf": "送[おく]り迎[むか]え",
+   "hv": "TỐNG NGHÊNH",
+   "vi": "đưa đón",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子供[こども]の保育園[ほいくえん]の送[おく]り迎[むか]えは、私[わたし]の担当[たんとう]だ。",
+     "vi": "Đưa đón con ở nhà trẻ là phần việc của tôi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]のバスが、駅[えき]と寮[りょう]の送[おく]り迎[むか]えをしてくれる。",
+     "vi": "Xe buýt công ty đưa đón giữa ga và ký túc xá.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "子供[こども]を送[おく]り迎[むか]えする",
+     "vi": "đưa đón con"
+    }
+   ]
+  },
+  {
+   "id": "v:末っ子:すえっこ",
+   "kana": "すえっこ",
+   "kanji": "末っ子",
+   "kf": "末[すえ]っ子[こ]",
+   "hv": "MẠT TỬ",
+   "vi": "con út",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]は五人[ごにん]兄弟[きょうだい]の末[すえ]っ子[こ]です。",
+     "vi": "Tôi là con út trong nhà năm anh chị em.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "末[すえ]っ子[こ]なので、家族[かぞく]みんなに甘[あま]やかされて育[そだ]った。",
+     "vi": "Là con út nên tôi lớn lên trong sự cưng chiều của cả nhà.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "長男[ちょうなん]",
+     "vi": "con trai cả"
+    }
+   ]
+  },
+  {
+   "id": "v:単身赴任:たんしんふにん",
+   "kana": "たんしんふにん",
+   "kanji": "単身赴任",
+   "hv": "ĐƠN THÂN PHÓ NHIỆM",
+   "vi": "đi làm xa một mình (gia đình ở lại)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Gia đình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "父[ちち]は、大阪[おおさか]に単身赴任[たんしんふにん]している。",
+     "vi": "Bố tôi đi làm một mình ở Osaka.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "単身赴任[たんしんふにん]の手当[てあて]が、毎月[まいつき]出[で]る。",
+     "vi": "Hằng tháng có phụ cấp đi làm xa một mình.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "地方[ちほう]に単身赴任[たんしんふにん]する",
+     "vi": "đi công tác dài hạn một mình ở tỉnh"
+    }
+   ],
+   "note": "Người Việt làm ở Nhật xa vợ con cũng giống 単身赴任[たんしんふにん]."
+  },
+  {
+   "id": "v:長所:ちょうしょ",
+   "kana": "ちょうしょ",
+   "kanji": "長所",
+   "hv": "TRƯỜNG SỞ",
+   "vi": "ưu điểm (của người, vật)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]の長所[ちょうしょ]は、誰[だれ]にでも優[やさ]しいところだ。",
+     "vi": "Ưu điểm của anh ấy là hiền với tất cả mọi người.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "面接[めんせつ]で、自分[じぶん]の長所[ちょうしょ]と短所[たんしょ]を聞[き]かれた。",
+     "vi": "Ở buổi phỏng vấn tôi bị hỏi ưu điểm và nhược điểm của mình.",
+     "ctx": "thutuc"
+    }
+   ],
+   "ant": [
+    "v:短所:たんしょ"
+   ],
+   "rel": [
+    "v:利点:りてん"
+   ]
+  },
+  {
+   "id": "v:短所:たんしょ",
+   "kana": "たんしょ",
+   "kanji": "短所",
+   "hv": "ĐOẢN SỞ",
+   "vi": "nhược điểm (của người, vật)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]の短所[たんしょ]は、せっかちなところです。",
+     "vi": "Nhược điểm của tôi là hay sốt ruột.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "短所[たんしょ]も、見方[みかた]を変[か]えれば長所[ちょうしょ]になる。",
+     "vi": "Nhược điểm đổi cách nhìn cũng thành ưu điểm.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:長所:ちょうしょ"
+   ],
+   "syn": [
+    "v:欠点:けってん"
+   ]
+  },
+  {
+   "id": "v:個性:こせい",
+   "kana": "こせい",
+   "kanji": "個性",
+   "hv": "CÁ TÍNH",
+   "vi": "cá tính",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班[はん]のメンバーは、みんな個性[こせい]が強[つよ]い。",
+     "vi": "Thành viên trong tổ ai cũng cá tính mạnh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子供[こども]の個性[こせい]を大切[たいせつ]にしたい。",
+     "vi": "Tôi muốn trân trọng cá tính của con.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "個性的[こせいてき] = có cá tính, độc đáo."
+  },
+  {
+   "id": "v:持ち味:もちあじ",
+   "kana": "もちあじ",
+   "kanji": "持ち味",
+   "kf": "持[も]ち味[あじ]",
+   "hv": "TRÌ VỊ",
+   "vi": "nét đặc sắc vốn có (người, món ăn)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "丁寧[ていねい]なところが、グエンさんの持[も]ち味[あじ]だ。",
+     "vi": "Sự chu đáo là nét đặc sắc của anh Nguyễn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この料理[りょうり]は、魚[さかな]の持[も]ち味[あじ]を生[い]かしている。",
+     "vi": "Món này phát huy được vị vốn có của cá.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "持[も]ち味[あじ]を生[い]かす = phát huy nét riêng, vị riêng."
+  },
+  {
+   "id": "v:取り柄:とりえ",
+   "kana": "とりえ",
+   "kanji": "取り柄",
+   "kf": "取[と]り柄[え]",
+   "hv": "THỦ BÍNH",
+   "vi": "điểm được, cái hay (duy nhất)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]の取[と]り柄[え]は、元気[げんき]なことだけです。",
+     "vi": "Điểm được của tôi chỉ là khỏe khoắn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "誰[だれ]にでも、何[なに]か一[ひと]つは取[と]り柄[え]がある。",
+     "vi": "Ai cũng có ít nhất một cái hay.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:長所:ちょうしょ"
+   ],
+   "note": "Hay đi với だけ / 何[なん]の取[と]り柄[え]もない = chẳng có gì hay."
+  },
+  {
+   "id": "v:愛想:あいそ",
+   "kana": "あいそ",
+   "kanji": "愛想",
+   "hv": "ÁI TƯỞNG",
+   "vi": "sự niềm nở (với người khác)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "あの店員[てんいん]さんは、いつも愛想[あいそ]がいい。",
+     "vi": "Nhân viên cửa hàng kia lúc nào cũng niềm nở.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "疲[つか]れていても、お客[きゃく]さんに愛想[あいそ]よくするのが接客[せっきゃく]だ。",
+     "vi": "Dù mệt vẫn niềm nở với khách, đó là tiếp khách.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "愛想[あいそ]がいい / 悪[わる]い = niềm nở / lạnh nhạt. 愛想[あいそ]が尽[つ]きる = chán ngán hết thiện cảm. Cũng đọc あいそう."
+  },
+  {
+   "id": "v:気さく:きさく",
+   "kana": "きさく",
+   "kanji": "気さく",
+   "kf": "気[き]さく",
+   "hv": "KHÍ",
+   "vi": "xởi lởi, dễ gần",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]は、気[き]さくに話[はな]しかけてくれる。",
+     "vi": "Giám đốc xởi lởi bắt chuyện với chúng tôi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "大家[おおや]さんは気[き]さくな人[ひと]で、何[なん]でも相談[そうだん]できる。",
+     "vi": "Chủ nhà dễ gần nên chuyện gì cũng hỏi được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新[あたら]しい課長[かちょう]、どう？B：気[き]さくで、話[はな]しやすいよ。",
+     "vi": "A: Trưởng phòng mới thế nào? B: Xởi lởi, dễ nói chuyện lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    },
+    {
+     "jp": "人柄[ひとがら]",
+     "vi": "tính cách"
+    }
+   ],
+   "rel": [
+    "v:社交的:しゃこうてき"
+   ]
+  },
+  {
+   "id": "v:大らか:おおらか",
+   "kana": "おおらか",
+   "kanji": "大らか",
+   "kf": "大[おお]らか",
+   "hv": "ĐẠI",
+   "vi": "phóng khoáng, rộng lượng (không câu nệ)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "父[ちち]は大[おお]らかな性格[せいかく]で、細[こま]かいことは気[き]にしない。",
+     "vi": "Bố tôi tính phóng khoáng, không để ý chuyện nhỏ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "班長[はんちょう]は大[おお]らかで、ミスをしても怒[おこ]らない。",
+     "vi": "Tổ trưởng rộng lượng, mắc lỗi cũng không giận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの人[ひと]、小[ちい]さいことで怒[おこ]らないね。B：うん、大[おお]らかな人[ひと]だよね。",
+     "vi": "A: Người đó không giận vì chuyện nhỏ nhỉ. B: Ừ, là người phóng khoáng mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "性格[せいかく]",
+     "vi": "tính cách"
+    },
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    }
+   ],
+   "note": "Thường viết おおらか."
+  },
+  {
+   "id": "v:社交的:しゃこうてき",
+   "kana": "しゃこうてき",
+   "kanji": "社交的",
+   "hv": "XÃ GIAO ĐÍCH",
+   "vi": "hòa đồng, thích giao tiếp",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼女[かのじょ]は社交的[しゃこうてき]で、すぐに友達[ともだち]ができる。",
+     "vi": "Cô ấy hòa đồng nên kết bạn ngay.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "社交的[しゃこうてき]な人[ひと]が多[おお]い班[はん]なので、新人[しんじん]もすぐなじめる。",
+     "vi": "Tổ nhiều người hòa đồng nên người mới cũng hòa nhập ngay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：君[きみ]は社交的[しゃこうてき]だね。B：いや、本当[ほんとう]は人見知[ひとみし]りなんだ。",
+     "vi": "A: Cậu hòa đồng nhỉ. B: Không, thật ra tớ ngại người lạ lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "性格[せいかく]",
+     "vi": "tính cách"
+    }
+   ],
+   "ant": [
+    "v:内気:うちき"
+   ],
+   "rel": [
+    "v:気さく:きさく"
+   ]
+  },
+  {
+   "id": "v:働き者:はたらきもの",
+   "kana": "はたらきもの",
+   "kanji": "働き者",
+   "kf": "働[はたら]き者[もの]",
+   "hv": "ĐỘNG GIẢ",
+   "vi": "người chăm chỉ làm lụng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼女[かのじょ]は働[はたら]き者[もの]で、休[やす]まず働[はたら]いている。",
+     "vi": "Cô ấy chăm chỉ, làm không nghỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "母[はは]は働[はたら]き者[もの]で、朝[あさ]から晩[ばん]まで動[うご]いていた。",
+     "vi": "Mẹ tôi tần tảo, từ sáng đến tối không ngơi tay.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:怠け者:なまけもの"
+   ]
+  },
+  {
+   "id": "v:怠け者:なまけもの",
+   "kana": "なまけもの",
+   "kanji": "怠け者",
+   "kf": "怠[なま]け者[もの]",
+   "hv": "ĐÃI GIẢ",
+   "vi": "người lười biếng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "怠[なま]け者[もの]だと思[おも]われたくない。",
+     "vi": "Tôi không muốn bị nghĩ là kẻ lười.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "休[やす]みの日[ひ]の私[わたし]は、ただの怠[なま]け者[もの]です。",
+     "vi": "Ngày nghỉ tôi chỉ là kẻ lười biếng.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:働き者:はたらきもの"
+   ],
+   "rel": [
+    "v:怠ける:なまける"
+   ]
+  },
+  {
+   "id": "v:しっかり者:しっかりもの",
+   "kana": "しっかりもの",
+   "kanji": "しっかり者",
+   "kf": "しっかり者[もの]",
+   "hv": "GIẢ",
+   "vi": "người đảm đang, tháo vát (đáng tin cậy)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "妹[いもうと]はしっかり者[もの]で、家計[かけい]を管理[かんり]している。",
+     "vi": "Em gái tôi đảm đang, lo quản lý chi tiêu gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]だけど、しっかり者[もの]で安心[あんしん]して任[まか]せられる。",
+     "vi": "Người mới nhưng tháo vát, giao việc yên tâm.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "しっかり",
+     "vi": "chắc chắn, vững vàng"
+    }
+   ]
+  },
+  {
+   "id": "v:利点:りてん",
+   "kana": "りてん",
+   "kanji": "利点",
+   "hv": "LỢI ĐIỂM",
+   "vi": "lợi điểm, điểm có lợi (cách làm, đồ vật)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この機械[きかい]の利点[りてん]は、操作[そうさ]が簡単[かんたん]なことだ。",
+     "vi": "Lợi điểm của máy này là thao tác đơn giản.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "寮[りょう]に住[す]む利点[りてん]は、会社[かいしゃ]に近[ちか]いことだ。",
+     "vi": "Lợi ích khi ở ký túc xá là gần công ty.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:長所:ちょうしょ"
+   ],
+   "note": "利点[りてん] = mặt có lợi của cách làm, đồ vật. 長所[ちょうしょ] = ưu điểm (thường của người)."
+  },
+  {
+   "id": "v:外見:がいけん",
+   "kana": "がいけん",
+   "kanji": "外見",
+   "hv": "NGOẠI KIẾN",
+   "vi": "diện mạo, vẻ ngoài (văn viết)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人[ひと]を外見[がいけん]で判断[はんだん]してはいけない。",
+     "vi": "Không được đánh giá người qua vẻ ngoài.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "外見[がいけん]は同[おな]じでも、品質[ひんしつ]は全然[ぜんぜん]違[ちが]う。",
+     "vi": "Bề ngoài giống nhau nhưng chất lượng hoàn toàn khác.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:中身:なかみ"
+   ],
+   "syn": [
+    "v:見た目:みため",
+    "v:見かけ:みかけ"
+   ]
+  },
+  {
+   "id": "v:見た目:みため",
+   "kana": "みため",
+   "kanji": "見た目",
+   "kf": "見[み]た目[め]",
+   "hv": "KIẾN MỤC",
+   "vi": "trông bề ngoài, vẻ ngoài (khẩu ngữ)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この刺身[さしみ]は見[み]た目[め]もいいし、味[あじ]もいい。",
+     "vi": "Món sashimi này trông đã đẹp mà vị cũng ngon.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "見[み]た目[め]が悪[わる]い魚[さかな]は、加工[かこう]用[よう]に回[まわ]す。",
+     "vi": "Cá trông xấu thì chuyển sang làm hàng chế biến.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:中身:なかみ"
+   ],
+   "syn": [
+    "v:外見:がいけん",
+    "v:見かけ:みかけ"
+   ]
+  },
+  {
+   "id": "v:見栄え:みばえ",
+   "kana": "みばえ",
+   "kanji": "見栄え",
+   "kf": "見栄[みば]え",
+   "hv": "KIẾN VINH",
+   "vi": "vẻ bắt mắt, trông đẹp mắt",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "刺身[さしみ]は、盛[も]り付[つ]けで見栄[みば]えが大[おお]きく変[か]わる。",
+     "vi": "Sashimi thì cách bày biện làm vẻ bắt mắt thay đổi hẳn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "安[やす]い材料[ざいりょう]でも、見栄[みば]えのいい料理[りょうり]が作[つく]れる。",
+     "vi": "Nguyên liệu rẻ vẫn nấu được món đẹp mắt.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:見た目:みため"
+   ],
+   "note": "見栄[みば]えがする = trông đẹp, bắt mắt."
+  },
+  {
+   "id": "v:性能:せいのう",
+   "kana": "せいのう",
+   "kanji": "性能",
+   "hv": "TÍNH NĂNG",
+   "vi": "tính năng, hiệu năng (máy móc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい冷凍庫[れいとうこ]は、性能[せいのう]がいい。",
+     "vi": "Kho đông mới có tính năng tốt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "このスマホは、値段[ねだん]のわりに性能[せいのう]が高[たか]い。",
+     "vi": "Điện thoại này hiệu năng cao so với giá.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:機能:きのう"
+   ],
+   "note": "性能[せいのう] = máy làm tốt đến đâu. 機能[きのう] = máy làm được những gì."
+  },
+  {
+   "id": "v:使い勝手:つかいがって",
+   "kana": "つかいがって",
+   "kanji": "使い勝手",
+   "kf": "使[つか]い勝手[がって]",
+   "hv": "SỬ THẮNG THỦ",
+   "vi": "sự tiện dụng (khi dùng)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この包丁[ほうちょう]は軽[かる]くて、使[つか]い勝手[がって]がいい。",
+     "vi": "Con dao này nhẹ, dùng rất tiện tay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台所[だいどころ]の使[つか]い勝手[がって]が悪[わる]くて、料理[りょうり]がしにくい。",
+     "vi": "Bếp dùng bất tiện nên khó nấu nướng.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "使[つか]い勝手[がって]がいい / 悪[わる]い = dễ dùng / khó dùng."
+  },
+  {
+   "id": "v:手軽:てがる",
+   "kana": "てがる",
+   "kanji": "手軽",
+   "hv": "THỦ KHINH",
+   "vi": "gọn nhẹ, dễ làm (không tốn công)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "コンビニで、手軽[てがる]に昼[ひる]ご飯[はん]が買[か]える。",
+     "vi": "Ở cửa hàng tiện lợi mua bữa trưa thật gọn nhẹ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この機械[きかい]なら、誰[だれ]でも手軽[てがる]に魚[さかな]の骨[ほね]が取[と]れる。",
+     "vi": "Máy này thì ai cũng dễ dàng lấy xương cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：何[なに]か簡単[かんたん]な料理[りょうり]ない？B：鍋[なべ]なら手軽[てがる]で、野菜[やさい]もたくさん食[た]べられるよ。",
+     "vi": "A: Có món nào đơn giản không? B: Lẩu thì vừa dễ làm vừa ăn được nhiều rau.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "料理[りょうり]",
+     "vi": "món ăn"
+    },
+    {
+     "jp": "方法[ほうほう]",
+     "vi": "cách"
+    }
+   ],
+   "confuse": [
+    "v:気軽:きがる"
+   ],
+   "note": "手軽[てがる] = làm, dùng mà không tốn công. 気軽[きがる] = không ngần ngại (về mặt tâm lý)."
+  },
+  {
+   "id": "v:品揃え:しなぞろえ",
+   "kana": "しなぞろえ",
+   "kanji": "品揃え",
+   "kf": "品揃[しなぞろ]え",
+   "hv": "PHẨM TIỄN",
+   "vi": "sự đa dạng mặt hàng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "あのスーパーは、品揃[しなぞろ]えといい値段[ねだん]といい、申[もう]し分[ぶん]ない。",
+     "vi": "Siêu thị đó cả về mặt hàng lẫn giá cả đều không chê vào đâu được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "アジア食品[しょくひん]の品揃[しなぞろ]えが豊富[ほうふ]な店[みせ]を見[み]つけた。",
+     "vi": "Tôi tìm được cửa hàng có nhiều mặt hàng thực phẩm châu Á.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "品揃[しなぞろ]えが豊富[ほうふ] / いい = nhiều mặt hàng."
+  },
+  {
+   "id": "v:接客:せっきゃく",
+   "kana": "せっきゃく",
+   "kanji": "接客",
+   "hv": "TIẾP KHÁCH",
+   "vi": "tiếp khách, phục vụ khách",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この店[みせ]は、接客[せっきゃく]がとても丁寧[ていねい]だ。",
+     "vi": "Cửa hàng này phục vụ khách rất chu đáo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "直売所[ちょくばいじょ]では、私[わたし]たちも接客[せっきゃく]することがある。",
+     "vi": "Ở quầy bán trực tiếp, chúng tôi cũng có lúc tiếp khách.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "笑顔[えがお]で接客[せっきゃく]する",
+     "vi": "tiếp khách với nụ cười"
+    }
+   ],
+   "note": "接客業[せっきゃくぎょう] = ngành dịch vụ tiếp khách."
+  },
+  {
+   "id": "v:立地:りっち",
+   "kana": "りっち",
+   "kanji": "立地",
+   "hv": "LẬP ĐỊA",
+   "vi": "vị trí đặt (cửa hàng, nhà, nhà máy)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この店[みせ]は、駅前[えきまえ]という立地[りっち]がいいので、客[きゃく]が多[おお]い。",
+     "vi": "Quán này đặt ở trước ga, vị trí tốt nên đông khách.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "港[みなと]に近[ちか]い立地[りっち]を生[い]かして、新鮮[しんせん]な魚[さかな]を加工[かこう]している。",
+     "vi": "Tận dụng vị trí gần cảng, nhà máy chế biến cá tươi.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:位置:いち"
+   ],
+   "note": "立地条件[りっちじょうけん] = điều kiện vị trí."
+  },
+  {
+   "id": "v:歯ごたえ:はごたえ",
+   "kana": "はごたえ",
+   "kanji": "歯ごたえ",
+   "kf": "歯[は]ごたえ",
+   "hv": "XỈ",
+   "vi": "độ giòn dai (khi cắn)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このイカは、歯[は]ごたえがあっておいしい。",
+     "vi": "Mực này giòn dai, ngon.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "煮[に]すぎて、野菜[やさい]の歯[は]ごたえがなくなった。",
+     "vi": "Nấu quá lâu nên rau mất độ giòn.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:食感:しょっかん"
+   ],
+   "note": "歯[は]ごたえがある = giòn dai, có độ nhai."
+  },
+  {
+   "id": "v:食感:しょっかん",
+   "kana": "しょっかん",
+   "kanji": "食感",
+   "hv": "THỰC CẢM",
+   "vi": "cảm giác khi ăn (giòn, mềm, dai)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "生[なま]のイカは、もちもちした食感[しょっかん]が人気[にんき]だ。",
+     "vi": "Mực sống được ưa vì cảm giác dẻo dai khi ăn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "このパンは、外[そと]はカリカリ、中[なか]はふわふわの食感[しょっかん]だ。",
+     "vi": "Bánh mì này ngoài giòn rụm, trong mềm xốp.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:歯ごたえ:はごたえ"
+   ]
+  },
+  {
+   "id": "v:申し分ない:もうしぶんない",
+   "kana": "もうしぶんない",
+   "kanji": "申し分ない",
+   "kf": "申[もう]し分[ぶん]ない",
+   "hv": "THÂN PHÂN",
+   "vi": "không có gì để chê, mỹ mãn",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "味[あじ]といい量[りょう]といい、申[もう]し分[ぶん]ない。",
+     "vi": "Cả vị lẫn lượng đều không có gì để chê.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "彼[かれ]の仕事[しごと]ぶりは、申[もう]し分[ぶん]ない。",
+     "vi": "Cách làm việc của anh ấy không chê vào đâu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：新[あたら]しい部屋[へや]、どう？B：広[ひろ]さも家賃[やちん]も申[もう]し分[ぶん]ないよ。",
+     "vi": "A: Phòng mới thế nào? B: Rộng rãi, tiền thuê cũng không có gì để chê.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "出来[でき]",
+     "vi": "kết quả làm ra"
+    },
+    {
+     "jp": "条件[じょうけん]",
+     "vi": "điều kiện"
+    }
+   ],
+   "rel": [
+    "v:完璧:かんぺき"
+   ]
+  },
+  {
+   "id": "v:いまいち:いまいち",
+   "kana": "いまいち",
+   "kanji": "",
+   "hv": "",
+   "vi": "chưa tới, hơi kém (khẩu ngữ)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "この料理[りょうり]、味[あじ]がいまいちだね。",
+     "vi": "Món này vị chưa tới nhỉ.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "説明[せつめい]を聞[き]いたけど、いまいち分[わ]からなかった。",
+     "vi": "Nghe giải thích rồi mà vẫn chưa hiểu lắm.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Dùng như tính từ: いまいちだ. Cũng viết いま一[いち]."
+  },
+  {
+   "id": "v:物足りない:ものたりない",
+   "kana": "ものたりない",
+   "kanji": "物足りない",
+   "kf": "物足[ものた]りない",
+   "hv": "VẬT TÚC",
+   "vi": "thiêu thiếu, chưa thấy đã",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この量[りょう]では、少[すこ]し物[もの]足[た]りない。",
+     "vi": "Lượng này hơi thiêu thiếu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "簡単[かんたん]な作業[さぎょう]ばかりで、物[もの]足[た]りなく感[かん]じる。",
+     "vi": "Toàn việc đơn giản nên thấy chưa đã.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：このスープ、どう？B：おいしいけど、ちょっと物[もの]足[た]りないかな。塩[しお]を足[た]そう。",
+     "vi": "A: Canh này thế nào? B: Ngon nhưng hơi thiếu thiếu. Thêm muối đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "量[りょう]",
+     "vi": "lượng"
+    },
+    {
+     "jp": "味[あじ]",
+     "vi": "vị"
+    }
+   ],
+   "rel": [
+    "v:申し分ない:もうしぶんない"
+   ]
+  },
+  {
+   "id": "v:居心地:いごこち",
+   "kana": "いごこち",
+   "kanji": "居心地",
+   "hv": "CƯ TÂM ĐỊA",
+   "vi": "cảm giác khi ở (một nơi)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この寮[りょう]は、居心地[いごこち]がいい。",
+     "vi": "Ký túc xá này ở thấy dễ chịu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "人間関係[にんげんかんけい]がよくて、居心地[いごこち]のいい職場[しょくば]だ。",
+     "vi": "Quan hệ tốt nên chỗ làm này ở rất thoải mái.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "居心地[いごこち]がいい / 悪[わる]い = ở thấy thoải mái / không thoải mái."
+  }
+ ]
+}

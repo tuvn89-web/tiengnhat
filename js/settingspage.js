@@ -1,3 +1,4 @@
+import { fpsText } from './fxpanel.js';
 import { esc, toast, APP_VERSION, checkUpdate } from './util.js';
 import { S, saveSettings, resetSettings } from './settings.js';
 import { jaVoices, speak, ttsReady, pickVoice } from './tts.js';
@@ -48,6 +49,9 @@ export function renderSettings(view, ctx) {
       <label class="check"><input type="checkbox" name="motion" ${S.motion ? 'checked' : ''}> Chuyển động mượt (trang trượt, bảng hiện từ nhỏ thành to, điểm đếm lên). Máy bật "giảm chuyển động" thì app tự tắt.</label>
       <fieldset><legend>Mật độ hạt</legend>${chips('fxDensity', [['low', 'Ít'], ['mid', 'Vừa'], ['high', 'Nhiều']], S.fxDensity, false)}</fieldset>
       <fieldset><legend>Tốc độ rơi</legend>${chips('fxSpeed', [['slow', 'Chậm'], ['mid', 'Vừa'], ['fast', 'Nhanh']], S.fxSpeed, false)}</fieldset>
+      <fieldset><legend>Khung hình hiệu ứng nền</legend>${chips('fxFps', [['auto', 'Theo màn hình'], ['60', '60'], ['90', '90'], ['120', '120']], S.fxFps || 'auto', false)}
+        <p class="small muted">"Theo màn hình": màn hình 60, 90, 120 Hz… thì nền vẽ đủ bấy nhiêu khung mỗi giây, mượt nhất. Chọn số nhỏ hơn để đỡ tốn pin. Máy không theo kịp thì app tự giảm độ nét, số hạt. Chuyển trang, bảng chi tiết luôn chạy theo màn hình.</p>
+        <p class="small fx-fps">${esc(fpsText())}</p></fieldset>
       <fieldset><legend>Bật / tắt từng hiệu ứng</legend><div class="fx-grid">${[['fxFall', 'Hạt rơi theo tháng'], ['fxDayNight', 'Ngày – đêm'], ['fxClouds', 'Mây'], ['fxStars', 'Sao & trăng'], ['fxMeteor', 'Sao băng, mưa sao băng'], ['fxPlane', 'Máy bay bay qua'], ['fxBlackhole', 'Hố đen'], ['fxFireworks', 'Pháo hoa'], ['fxFireflies', 'Đom đóm'], ['fxLanterns', 'Đèn lồng ngày lễ'], ['fxHolVN', 'Ngày lễ Việt Nam'], ['fxHolJP', 'Ngày lễ Nhật'], ['fxWind', 'Gió'], ['fxLightning', 'Chớp khi mưa to'], ['fxBurst', 'Chùm hạt khi trả lời đúng']].map(([k, t]) => `<label class="check"><input type="checkbox" name="${k}" ${S[k] ? 'checked' : ''}> ${t}</label>`).join('')}</div></fieldset>
       <fieldset><legend>Mưa</legend>${chips('fxRain', [['season', 'Theo mùa mưa'], ['weather', 'Theo thời tiết thật'], ['always', 'Luôn có mưa'], ['off', 'Tắt']], S.fxRain, false)}</fieldset>
       ${field('Thành phố (cho "Theo thời tiết thật")', `<input class="input" name="fxCity" value="${esc(S.fxCity || '')}" placeholder="vd. Kobe, Himeji, Akashi">`, 'Cần có mạng. App gửi tên thành phố tới dịch vụ thời tiết miễn phí Open-Meteo, không dùng định vị GPS. Mất mạng thì quay về mưa theo mùa.')}
@@ -140,6 +144,7 @@ export function renderSettings(view, ctx) {
     view.querySelectorAll('.chips[data-multi="0"]').forEach(g => { if (g.dataset.name in S) g.querySelectorAll('.chip').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.v === String(S[g.dataset.name])))); });
   };
   addEventListener('tn-settings', syncFx);
+  const fpsT = setInterval(() => { const p = view.querySelector('.fx-fps'); if (!p || !p.isConnected) return clearInterval(fpsT); p.textContent = fpsText(); }, 500);
   view.querySelector('[data-act=test]').onclick = () => { if (!speak('作業の前に手を洗ってください。')) toast('Máy chưa có giọng đọc tiếng Nhật.'); };
   view.querySelector('[data-act=upd]').onclick = async e => {
     const b = e.currentTarget; b.disabled = true;

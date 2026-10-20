@@ -176,9 +176,17 @@ export function renderKanjiList(view) {
       grid.querySelectorAll('.kfam-g').forEach(d => { if (d.open) fill(d); d.addEventListener('toggle', () => d.open && fill(d)); });
       return;
     }
-    grid.className = 'kgrid';
     const list = D.kanji.filter(k => okK(k) && hit(k));
-    grid.innerHTML = list.map(tile).join('') || emptyState('Không có chữ nào khớp.');
+    // v37: danh sách dài (hơn 1.700 chữ) chia khối 60 chữ — khối nằm ngoài màn hình trình duyệt bỏ qua, mở trang và cuộn không giật
+    if (list.length > 120) {
+      grid.className = 'kgrid-wrap';
+      const out = [];
+      for (let i = 0; i < list.length; i += 60) out.push(`<div class="kgrid kchunk">${list.slice(i, i + 60).map(tile).join('')}</div>`);
+      grid.innerHTML = out.join('');
+    } else {
+      grid.className = 'kgrid';
+      grid.innerHTML = list.map(tile).join('') || emptyState('Không có chữ nào khớp.');
+    }
   };
   q.addEventListener('input', debounce(draw, 120));
   bindChips(view, draw);

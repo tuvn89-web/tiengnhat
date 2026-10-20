@@ -1,0 +1,1907 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-24",
+  "title": "JLPT N2 24 – Buộc phải / không thể không (bắt buộc, cảm xúc, bất đắc dĩ)",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:強制:きょうせい",
+   "kana": "きょうせい",
+   "kanji": "強制",
+   "hv": "CƯỜNG CHẾ",
+   "vi": "ép buộc, cưỡng chế",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bắt buộc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "残業[ざんぎょう]を強制[きょうせい]することは、法律[ほうりつ]で認[みと]められていません。",
+     "vi": "Ép buộc tăng ca là điều pháp luật không cho phép.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "飲[の]み会[かい]への参加[さんか]は強制[きょうせい]ではないので、気[き]にしないでください。",
+     "vi": "Đi nhậu không bắt buộc nên đừng bận tâm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この研修[けんしゅう]、出[で]なきゃだめ？B：強制[きょうせい]じゃないけど、出[で]たほうがいいよ。",
+     "vi": "A: Khóa đào tạo này có phải dự không? B: Không bắt buộc nhưng nên dự.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "参加[さんか]を強制[きょうせい]する",
+     "vi": "ép tham gia"
+    },
+    {
+     "jp": "残業[ざんぎょう]を強制[きょうせい]する",
+     "vi": "ép tăng ca"
+    }
+   ],
+   "ant": [
+    "v:自主的:じしゅてき"
+   ],
+   "syn": [
+    "v:強いる:しいる"
+   ],
+   "note": "強制送還[きょうせいそうかん] = trục xuất cưỡng chế (thuật ngữ nhập cư); 強制的[きょうせいてき] = mang tính cưỡng chế."
+  },
+  {
+   "id": "v:強制的:きょうせいてき",
+   "kana": "きょうせいてき",
+   "kanji": "強制的",
+   "hv": "CƯỜNG CHẾ ĐÍCH",
+   "vi": "mang tính cưỡng chế",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bắt buộc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社員[しゃいん]を強制的[きょうせいてき]に休日出勤[きゅうじつしゅっきん]させるのは問題[もんだい]です。",
+     "vi": "Bắt nhân viên đi làm ngày nghỉ một cách cưỡng ép là có vấn đề.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "税金[ぜいきん]を払[はら]わないと、財産[ざいさん]を強制的[きょうせいてき]に差[さ]し押[お]さえられることがある。",
+     "vi": "Không nộp thuế thì có khi bị cưỡng chế tịch thu tài sản.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：アプリが強制的[きょうせいてき]に終了[しゅうりょう]しちゃった。B：再起動[さいきどう]してみて。",
+     "vi": "A: Ứng dụng bị tắt ngang rồi. B: Thử khởi động lại xem.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "措置[そち]",
+     "vi": "biện pháp"
+    },
+    {
+     "jp": "終了[しゅうりょう]",
+     "vi": "sự kết thúc"
+    }
+   ],
+   "ant": [
+    "v:自主的:じしゅてき"
+   ],
+   "rel": [
+    "v:強制:きょうせい"
+   ]
+  },
+  {
+   "id": "v:義務付ける:ぎむづける",
+   "kana": "ぎむづける",
+   "kanji": "義務付ける",
+   "kf": "義務付[ぎむづ]ける",
+   "hv": "NGHĨA VỤ PHÓ",
+   "vi": "quy định bắt buộc (phải làm)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bắt buộc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]では、帽子[ぼうし]とマスクの着用[ちゃくよう]が義務付[ぎむづ]けられています。",
+     "vi": "Ở xưởng bắt buộc phải đội mũ và đeo khẩu trang.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "法律[ほうりつ]で、会社[かいしゃ]は年[ねん]に一回[いっかい]健康診断[けんこうしんだん]をすることが義務付[ぎむづ]けられている。",
+     "vi": "Luật quy định công ty bắt buộc mỗi năm khám sức khỏe một lần.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：自転車[じてんしゃ]のヘルメットって、必要[ひつよう]なの？B：今[いま]は、かぶるように義務付[ぎむづ]けられてるよ。",
+     "vi": "A: Mũ bảo hiểm xe đạp có cần không? B: Giờ đã quy định phải đội rồi đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "着用[ちゃくよう]を義務付[ぎむづ]ける",
+     "vi": "quy định bắt buộc mặc (đeo)"
+    },
+    {
+     "jp": "報告[ほうこく]を義務付[ぎむづ]ける",
+     "vi": "quy định bắt buộc báo cáo"
+    }
+   ],
+   "rel": [
+    "v:義務:ぎむ"
+   ],
+   "note": "Hay dùng bị động: 〜が義務付[ぎむづ]けられている = bị bắt buộc… Một số quy định mới chỉ là 努力義務[どりょくぎむ] (nghĩa vụ cố gắng, không phạt)."
+  },
+  {
+   "id": "v:強いる:しいる",
+   "kana": "しいる",
+   "kanji": "強いる",
+   "kf": "強[し]いる",
+   "hv": "CƯỜNG",
+   "vi": "bắt ép (ai chịu điều không muốn)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bắt buộc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "上司[じょうし]に無理[むり]な残業[ざんぎょう]を強[し]いられて、体[からだ]を壊[こわ]した。",
+     "vi": "Bị cấp trên ép tăng ca quá sức, tôi đổ bệnh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子[こ]どもに勉強[べんきょう]を強[し]いても、やる気[き]は出[で]ない。",
+     "vi": "Ép con học cũng không làm nó có hứng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：みんなに我慢[がまん]を強[し]いるのは、よくないよね。B：うん、別[べつ]の方法[ほうほう]を考[かんが]えよう。",
+     "vi": "A: Bắt mọi người chịu đựng thì không hay nhỉ. B: Ừ, nghĩ cách khác đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "我慢[がまん]を強[し]いる",
+     "vi": "bắt chịu đựng"
+    },
+    {
+     "jp": "犠牲[ぎせい]を強[し]いる",
+     "vi": "bắt hy sinh"
+    },
+    {
+     "jp": "苦労[くろう]を強[し]いる",
+     "vi": "bắt chịu vất vả"
+    }
+   ],
+   "syn": [
+    "v:強制:きょうせい"
+   ],
+   "note": "Văn viết. Hay gặp bị động: 〜を強[し]いられる = bị buộc phải chịu…"
+  },
+  {
+   "id": "v:迫る:せまる",
+   "kana": "せまる",
+   "kanji": "迫る",
+   "kf": "迫[せま]る",
+   "hv": "BÁCH",
+   "vi": "cận kề, đến sát (thời hạn); ép, thúc (ai làm gì)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bắt buộc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "納期[のうき]が迫[せま]っているので、今週[こんしゅう]は残業[ざんぎょう]せざるを得[え]ない。",
+     "vi": "Hạn giao hàng đã cận kề nên tuần này buộc phải tăng ca.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台風[たいふう]が迫[せま]っているため、船[ふね]は全部[ぜんぶ]港[こう]に戻[もど]りました。",
+     "vi": "Vì bão đang đến gần nên tàu đã về cảng hết.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：大家[おおや]さんに、早[はや]く決[き]めろって迫[せま]られてるんだ。B：急[いそ]がないで、ゆっくり考[かんが]えなよ。",
+     "vi": "A: Chủ nhà đang thúc tôi quyết nhanh. B: Đừng vội, cứ nghĩ cho kỹ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "期限[きげん]が迫[せま]る",
+     "vi": "hạn chót đến gần"
+    },
+    {
+     "jp": "決断[けつだん]を迫[せま]る",
+     "vi": "ép phải quyết định"
+    },
+    {
+     "jp": "危険[きけん]が迫[せま]る",
+     "vi": "nguy hiểm cận kề"
+    }
+   ],
+   "note": "Bị động 迫[せま]られる = bị dồn, bị ép (選択[せんたく]を迫[せま]られる = bị buộc phải chọn). 〜に迫[せま]られて = bị thúc ép bởi (必要[ひつよう]に迫[せま]られて = vì cần mà buộc phải)."
+  },
+  {
+   "id": "v:拘束:こうそく",
+   "kana": "こうそく",
+   "kanji": "拘束",
+   "hv": "CÂU THÚC",
+   "vi": "ràng buộc, giữ chân (thời gian, tự do)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bắt buộc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この仕事[しごと]は、拘束時間[こうそくじかん]が長[なが]いわりに給料[きゅうりょう]が安[やす]い。",
+     "vi": "Việc này thời gian bị giữ ở chỗ làm dài mà lương lại thấp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "容疑者[ようぎしゃ]は、警察[けいさつ]に身柄[みがら]を拘束[こうそく]された。",
+     "vi": "Nghi phạm đã bị cảnh sát tạm giữ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "時間[じかん]を拘束[こうそく]する",
+     "vi": "giữ chân về thời gian"
+    },
+    {
+     "jp": "身柄[みがら]を拘束[こうそく]する",
+     "vi": "tạm giữ (người)"
+    }
+   ],
+   "note": "拘束時間[こうそくじかん] = tổng thời gian bị ràng buộc ở chỗ làm (gồm cả giờ nghỉ), hay gặp trong tin tuyển dụng."
+  },
+  {
+   "id": "v:押し付ける:おしつける",
+   "kana": "おしつける",
+   "kanji": "押し付ける",
+   "kf": "押[お]し付[つ]ける",
+   "hv": "ÁP PHÓ",
+   "vi": "đùn đẩy, áp đặt (việc, ý kiến cho người khác)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bắt buộc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面倒[めんどう]な仕事[しごと]を、新人[しんじん]に押[お]し付[つ]けないでください。",
+     "vi": "Đừng đùn việc phiền phức cho người mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "自分[じぶん]の考[かんが]えを、人[ひと]に押[お]し付[つ]けるのはよくない。",
+     "vi": "Áp đặt suy nghĩ của mình lên người khác là không tốt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：掃除[そうじ]当番[とうばん]、また私[わたし]に押[お]し付[つ]けられたよ。B：それはひどいね。班長[はんちょう]に言[い]おう。",
+     "vi": "A: Phiên trực dọn dẹp lại bị đẩy cho tôi. B: Quá đáng thật. Nói với tổ trưởng đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]を押[お]し付[つ]ける",
+     "vi": "đùn việc"
+    },
+    {
+     "jp": "責任[せきにん]を押[お]し付[つ]ける",
+     "vi": "đổ trách nhiệm"
+    },
+    {
+     "jp": "意見[いけん]を押[お]し付[つ]ける",
+     "vi": "áp đặt ý kiến"
+    }
+   ],
+   "note": "Nghĩa đen: ấn sát vào (壁[かべ]に押[お]し付[つ]ける = ép vào tường)."
+  },
+  {
+   "id": "v:無理やり:むりやり",
+   "kana": "むりやり",
+   "kanji": "無理やり",
+   "kf": "無理[むり]やり",
+   "hv": "VÔ LÝ",
+   "vi": "cưỡng ép, gượng ép",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bắt buộc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "嫌[いや]がる子[こ]どもに、無理[むり]やり薬[くすり]を飲[の]ませた。",
+     "vi": "Đứa bé không chịu mà tôi bắt uống thuốc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "箱[はこ]に無理[むり]やり詰[つ]めると、魚[さかな]がつぶれます。",
+     "vi": "Nhét cá vào thùng một cách gượng ép thì cá bị dập.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:無理:むり",
+    "v:強引:ごういん"
+   ],
+   "note": "Chữ Hán: 無理矢理[むりやり]. 無理[むり]やり〜させる = bắt ép ai làm."
+  },
+  {
+   "id": "v:強引:ごういん",
+   "kana": "ごういん",
+   "kanji": "強引",
+   "hv": "CƯỜNG DẪN",
+   "vi": "ngang nhiên, bất chấp ý người khác",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bắt buộc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "営業[えいぎょう]の人[ひと]に強引[ごういん]に勧[すす]められて、高[たか]い布団[ふとん]を買[か]ってしまった。",
+     "vi": "Bị người bán hàng nài ép, tôi lỡ mua bộ chăn đệm đắt tiền.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "反対[はんたい]意見[いけん]を聞[き]かずに強引[ごういん]に決[き]めるのは、よくない。",
+     "vi": "Không nghe ý kiến phản đối mà quyết bừa thì không tốt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの人[ひと]の誘[さそ]い、断[ことわ]れなかった。B：強引[ごういん]な人[ひと]だからね。",
+     "vi": "A: Không từ chối được lời mời của người đó. B: Vì người đó hay ép người khác mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "やり方[かた]",
+     "vi": "cách làm"
+    },
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    }
+   ],
+   "rel": [
+    "v:無理やり:むりやり"
+   ],
+   "note": "強引[ごういん]に〜する = làm một cách ép buộc, bất chấp."
+  },
+  {
+   "id": "v:自主的:じしゅてき",
+   "kana": "じしゅてき",
+   "kanji": "自主的",
+   "hv": "TỰ CHỦ ĐÍCH",
+   "vi": "tự giác, tự nguyện (không ai bảo)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bắt buộc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は、誰[だれ]にも言[い]われずに自主的[じしゅてき]に掃除[そうじ]をしている。",
+     "vi": "Anh ấy tự giác dọn dẹp mà không ai bảo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この勉強会[べんきょうかい]は、社員[しゃいん]が自主的[じしゅてき]に始[はじ]めたものです。",
+     "vi": "Nhóm học này do nhân viên tự lập ra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：日曜[にちよう]の練習[れんしゅう]って、強制[きょうせい]？B：ううん、自主的[じしゅてき]な参加[さんか]だよ。",
+     "vi": "A: Buổi tập chủ nhật bắt buộc à? B: Không, tham gia tự nguyện thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "参加[さんか]",
+     "vi": "sự tham gia"
+    },
+    {
+     "jp": "行動[こうどう]",
+     "vi": "hành động"
+    }
+   ],
+   "ant": [
+    "v:強制的:きょうせいてき",
+    "v:強制:きょうせい"
+   ],
+   "note": "自主[じしゅ] = tự chủ; 自主回収[じしゅかいしゅう] = (công ty) tự thu hồi sản phẩm."
+  },
+  {
+   "id": "v:やむを得ない:やむをえない",
+   "kana": "やむをえない",
+   "kanji": "やむを得ない",
+   "kf": "やむを得[え]ない",
+   "hv": "ĐẮC",
+   "vi": "bất đắc dĩ, không tránh được",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bất đắc dĩ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "やむを得[え]ない理由[りゆう]で欠勤[けっきん]する場合[ばあい]は、必[かなら]ず連絡[れんらく]してください。",
+     "vi": "Nếu phải nghỉ làm vì lý do bất khả kháng, nhất định phải báo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台風[たいふう]のため、やむを得[え]ず工場[こうじょう]を休[やす]みにしました。",
+     "vi": "Vì bão nên bất đắc dĩ phải cho xưởng nghỉ.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:仕方がない:しかたがない"
+   ],
+   "note": "Chữ Hán: 止[や]むを得[え]ない. Trạng từ: やむを得[え]ず = đành phải. Trang trọng hơn 仕方[しかた]がない, hay gặp trong thông báo, giấy tờ."
+  },
+  {
+   "id": "v:余儀ない:よぎない",
+   "kana": "よぎない",
+   "kanji": "余儀ない",
+   "kf": "余儀[よぎ]ない",
+   "hv": "DƯ NGHI",
+   "vi": "(bị) buộc phải, không còn cách nào khác",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bất đắc dĩ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大雨[おおあめ]で、工事[こうじ]は中止[ちゅうし]を余儀[よぎ]なくされた。",
+     "vi": "Do mưa lớn, công trình buộc phải dừng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "余儀[よぎ]ない事情[じじょう]により、本日[ほんじつ]の説明会[せつめいかい]は中止[ちゅうし]いたします。",
+     "vi": "Vì lý do bất khả kháng, buổi giới thiệu hôm nay xin được hủy.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Văn viết, tin tức; hầu như chỉ dùng mẫu 〜を余儀[よぎ]なくされる = bị buộc phải… (do hoàn cảnh). Gần nghĩa 〜ざるを得[え]ない."
+  },
+  {
+   "id": "v:仕方なく:しかたなく",
+   "kana": "しかたなく",
+   "kanji": "仕方なく",
+   "kf": "仕方[しかた]なく",
+   "hv": "SĨ PHƯƠNG",
+   "vi": "đành phải (vì không có cách khác)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bất đắc dĩ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "終電[しゅうでん]に乗[の]り遅[おく]れて、仕方[しかた]なくタクシーで帰[かえ]った。",
+     "vi": "Lỡ chuyến tàu cuối nên đành về bằng taxi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "誰[だれ]も手[て]を挙[あ]げないので、仕方[しかた]なく私[わたし]がやることにした。",
+     "vi": "Không ai giơ tay nên đành là tôi làm.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:やむを得ない:やむをえない"
+   ],
+   "rel": [
+    "v:仕方がない:しかたがない"
+   ],
+   "note": "Khẩu ngữ: しょうがなく."
+  },
+  {
+   "id": "v:嫌々:いやいや",
+   "kana": "いやいや",
+   "kanji": "嫌々",
+   "hv": "HIỀM HIỀM",
+   "vi": "miễn cưỡng, không muốn mà vẫn làm",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bất đắc dĩ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子[こ]どもが、嫌々[いやいや]ピーマンを食[た]べている。",
+     "vi": "Đứa bé ăn ớt chuông một cách miễn cưỡng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "嫌々[いやいや]やっていると、仕事[しごと]も楽[たの]しくない。",
+     "vi": "Cứ làm miễn cưỡng thì công việc cũng chẳng vui.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:渋々:しぶしぶ"
+   ],
+   "note": "Cũng viết いやいや. Đồng âm: いやいや (lắc đầu) = không không (phủ định)."
+  },
+  {
+   "id": "v:渋々:しぶしぶ",
+   "kana": "しぶしぶ",
+   "kanji": "渋々",
+   "hv": "SÁP SÁP",
+   "vi": "miễn cưỡng, chẳng đặng đừng (vẫn đồng ý)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bất đắc dĩ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "父[ちち]は、私[わたし]の日本[にほん]行[い]きを渋々[しぶしぶ]認[みと]めてくれた。",
+     "vi": "Bố miễn cưỡng đồng ý cho tôi sang Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "何度[なんど]も頼[たの]まれて、渋々[しぶしぶ]引[ひ]き受[う]けた。",
+     "vi": "Bị nhờ mãi, tôi miễn cưỡng nhận lời.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:嫌々:いやいや"
+   ],
+   "note": "渋々[しぶしぶ] = ban đầu không muốn rồi cũng chấp nhận (đồng ý, nhận lời). 嫌々[いやいや] = vừa làm vừa ghét."
+  },
+  {
+   "id": "v:板挟み:いたばさみ",
+   "kana": "いたばさみ",
+   "kanji": "板挟み",
+   "kf": "板挟[いたばさ]み",
+   "hv": "BẢN HIỆP",
+   "vi": "kẹt giữa hai bên",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bất đắc dĩ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班長[はんちょう]は、上司[じょうし]と部下[ぶか]の板挟[いたばさ]みになって大変[たいへん]だ。",
+     "vi": "Tổ trưởng kẹt giữa cấp trên và cấp dưới, vất vả lắm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "母[はは]と妻[つま]の板挟[いたばさ]みで、どうしたらいいか分[わ]からない。",
+     "vi": "Kẹt giữa mẹ và vợ, tôi không biết phải làm sao.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "〜と〜の板挟[いたばさ]みになる = bị kẹt giữa… Hình ảnh: bị kẹp giữa hai tấm ván."
+  },
+  {
+   "id": "v:義理:ぎり",
+   "kana": "ぎり",
+   "kanji": "義理",
+   "hv": "NGHĨA LÝ",
+   "vi": "tình nghĩa, bổn phận (phải đáp lễ)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bất đắc dĩ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お世話[せわ]になった先輩[せんぱい]の頼[たの]みだから、義理[ぎり]で断[ことわ]れない。",
+     "vi": "Là lời nhờ của tiền bối từng giúp mình nên vì tình nghĩa không từ chối được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "義理[ぎり]で行[い]った飲[の]み会[かい]だったが、楽[たの]しかった。",
+     "vi": "Buổi nhậu đi vì nể nhưng lại vui.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "義理[ぎり]の〜 = (họ hàng) bên vợ, chồng: 義理[ぎり]の母[はは] = mẹ vợ / mẹ chồng. 義理[ぎり]チョコ = sô-cô-la tặng vì phép lịch sự (ngày Valentine)."
+  },
+  {
+   "id": "v:黙認:もくにん",
+   "kana": "もくにん",
+   "kanji": "黙認",
+   "hv": "MẶC NHẬN",
+   "vi": "ngầm chấp nhận (biết mà không cấm)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bất đắc dĩ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小[ちい]さなルール違反[いはん]を黙認[もくにん]していると、大[おお]きな事故[じこ]につながる。",
+     "vi": "Làm ngơ những vi phạm nhỏ sẽ dẫn đến tai nạn lớn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "会社[かいしゃ]は、休憩時間[きゅうけいじかん]のスマホ使用[しよう]を黙認[もくにん]している。",
+     "vi": "Công ty ngầm cho phép dùng điện thoại giờ nghỉ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "違反[いはん]を黙認[もくにん]する",
+     "vi": "làm ngơ vi phạm"
+    }
+   ],
+   "rel": [
+    "v:見過ごす:みすごす"
+   ],
+   "note": "黙[だま]って認[みと]める = im lặng chấp nhận."
+  },
+  {
+   "id": "v:委ねる:ゆだねる",
+   "kana": "ゆだねる",
+   "kanji": "委ねる",
+   "kf": "委[ゆだ]ねる",
+   "hv": "ỦY",
+   "vi": "giao toàn quyền (cho ai quyết)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bất đắc dĩ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "最終的[さいしゅうてき]な判断[はんだん]は、医者[いしゃ]に委[ゆだ]ねるしかない。",
+     "vi": "Quyết định cuối cùng chỉ còn cách phó thác cho bác sĩ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "細[こま]かいことは、現場[げんば]の班長[はんちょう]に委[ゆだ]ねています。",
+     "vi": "Chuyện chi tiết tôi giao hết cho tổ trưởng ở hiện trường.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：引[ひ]っ越[こ]し先[さき]、どうする？B：家族[かぞく]の意見[いけん]に委[ゆだ]ねるよ。",
+     "vi": "A: Chuyển đến đâu đây? B: Để gia đình quyết.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "判断[はんだん]を委[ゆだ]ねる",
+     "vi": "giao quyền phán quyết"
+    },
+    {
+     "jp": "運命[うんめい]に身[み]を委[ゆだ]ねる",
+     "vi": "phó mặc cho số phận"
+    }
+   ],
+   "confuse": [
+    "v:任せる:まかせる"
+   ],
+   "note": "Văn viết hơn 任[まか]せる, nhấn mạnh trao toàn quyền quyết định."
+  },
+  {
+   "id": "v:休業:きゅうぎょう",
+   "kana": "きゅうぎょう",
+   "kanji": "休業",
+   "hv": "HƯU NGHIỆP",
+   "vi": "tạm ngừng kinh doanh, nghỉ hoạt động",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bất đắc dĩ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]の故障[こしょう]で、工場[こうじょう]は三日[みっか]間[かん]休業[きゅうぎょう]した。",
+     "vi": "Vì máy hỏng, nhà máy nghỉ hoạt động ba ngày.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "本日[ほんじつ]は、臨時休業[りんじきゅうぎょう]とさせていただきます。",
+     "vi": "Hôm nay cửa hàng xin phép nghỉ đột xuất.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "店[みせ]を休業[きゅうぎょう]する",
+     "vi": "cho cửa hàng nghỉ"
+    }
+   ],
+   "note": "休業手当[きゅうぎょうてあて] = tiền trợ cấp khi công ty cho nghỉ vì lý do phía công ty. 育児休業[いくじきゅうぎょう] = nghỉ chăm con."
+  },
+  {
+   "id": "v:欠員:けついん",
+   "kana": "けついん",
+   "kanji": "欠員",
+   "hv": "KHIẾM VIÊN",
+   "vi": "vị trí khuyết người (thiếu so với định biên)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bất đắc dĩ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "急[きゅう]に一人[ひとり]辞[や]めて、欠員[けついん]が出[で]た。",
+     "vi": "Đột nhiên một người nghỉ việc nên thiếu một chỗ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "欠員[けついん]を補[おぎな]うため、派遣社員[はけんしゃいん]を頼[たの]みました。",
+     "vi": "Để bù chỗ trống, đã nhờ nhân viên phái cử.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:人手:ひとで",
+    "v:補う:おぎなう"
+   ],
+   "note": "欠員[けついん]が出[で]る = thiếu người; 欠員補充[けついんほじゅう] = tuyển bổ sung chỗ trống."
+  },
+  {
+   "id": "v:穴埋め:あなうめ",
+   "kana": "あなうめ",
+   "kanji": "穴埋め",
+   "kf": "穴埋[あなう]め",
+   "hv": "HUYỆT MAI",
+   "vi": "bù vào chỗ thiếu (người, tiền); điền vào chỗ trống",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bất đắc dĩ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休[やす]んだ人[ひと]の穴埋[あなう]めで、今日[きょう]は二[ふた]つのラインを担当[たんとう]した。",
+     "vi": "Để bù chỗ người nghỉ, hôm nay tôi phụ trách hai dây chuyền.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "赤字[あかじ]の穴埋[あなう]めに、貯金[ちょきん]を使[つか]った。",
+     "vi": "Tôi dùng tiền tiết kiệm bù vào khoản thiếu hụt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：試験[しけん]、穴埋[あなう]め問題[もんだい]が多[おお]かった？B：うん、文法[ぶんぽう]の穴埋[あなう]めばっかりだったよ。",
+     "vi": "A: Đề thi nhiều câu điền vào chỗ trống không? B: Ừ, toàn điền ngữ pháp.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "欠員[けついん]を穴埋[あなう]めする",
+     "vi": "bù chỗ thiếu người"
+    }
+   ],
+   "rel": [
+    "v:埋める:うめる"
+   ],
+   "note": "穴埋[あなう]め問題[もんだい] = câu hỏi điền vào chỗ trống."
+  },
+  {
+   "id": "v:急遽:きゅうきょ",
+   "kana": "きゅうきょ",
+   "kanji": "急遽",
+   "hv": "CẤP CỰ",
+   "vi": "gấp, đột xuất (thay đổi kế hoạch)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bất đắc dĩ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "注文[ちゅうもん]が増[ふ]えたため、急遽[きゅうきょ]土曜日[どようび]も出勤[しゅっきん]することになった。",
+     "vi": "Vì đơn hàng tăng nên đột xuất phải đi làm cả thứ bảy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "母[はは]が入院[にゅういん]したので、急遽[きゅうきょ]帰国[きこく]しました。",
+     "vi": "Mẹ nhập viện nên tôi về nước gấp.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Văn viết, thông báo; nói thường: 急[きゅう]に."
+  },
+  {
+   "id": "v:気になる:きになる",
+   "kana": "きになる",
+   "kanji": "気になる",
+   "kf": "気[き]になる",
+   "hv": "KHÍ",
+   "vi": "cứ bận lòng, thấy lấn cấn",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]から変[へん]な音[おと]がして、気[き]になります。",
+     "vi": "Máy có tiếng lạ, tôi thấy bận tâm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "テストの結果[けっか]が気[き]になって、仕事[しごと]に集中[しゅうちゅう]できない。",
+     "vi": "Cứ nghĩ đến kết quả thi nên không tập trung làm việc được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの箱[はこ]、何[なに]が入[はい]ってるんだろう。B：気[き]になるなら、開[あ]けてみたら？",
+     "vi": "A: Hộp kia đựng gì nhỉ? B: Tò mò thì mở ra xem?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "気[き]にする",
+     "vi": "để tâm, lo (chủ động)"
+    }
+   ],
+   "note": "気[き]になる = tự nhiên thấy bận lòng, chú ý; 気[き]にする = (chủ động) để tâm, lo lắng. 気[き]にしないで = đừng bận tâm. 〜が気[き]になって仕方[しかた]がない = cứ thấp thỏm không yên."
+  },
+  {
+   "id": "v:感情的:かんじょうてき",
+   "kana": "かんじょうてき",
+   "kanji": "感情的",
+   "hv": "CẢM TÌNH ĐÍCH",
+   "vi": "(hành xử) theo cảm tính, nóng nảy",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "部下[ぶか]を感情的[かんじょうてき]に叱[しか]っても、何[なに]も解決[かいけつ]しない。",
+     "vi": "Mắng cấp dưới theo cảm tính thì chẳng giải quyết được gì.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "疲[つか]れていると、つい感情的[かんじょうてき]になってしまう。",
+     "vi": "Lúc mệt là dễ nóng nảy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：さっきは感情的[かんじょうてき]になって、ごめん。B：いいよ、私[わたし]も言[い]いすぎた。",
+     "vi": "A: Lúc nãy tớ nóng quá, xin lỗi. B: Không sao, tớ cũng nói quá lời.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "態度[たいど]",
+     "vi": "thái độ"
+    },
+    {
+     "jp": "意見[いけん]",
+     "vi": "ý kiến"
+    }
+   ],
+   "ant": [
+    "v:冷静:れいせい"
+   ],
+   "rel": [
+    "v:感情:かんじょう"
+   ]
+  },
+  {
+   "id": "v:衝動:しょうどう",
+   "kana": "しょうどう",
+   "kanji": "衝動",
+   "hv": "XUNG ĐỘNG",
+   "vi": "sự bốc đồng, thôi thúc (bất chợt)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仕事[しごと]を辞[や]めたい衝動[しょうどう]に駆[か]られることもある。",
+     "vi": "Cũng có lúc bị thôi thúc muốn bỏ việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "セールの時[とき]は、衝動買[しょうどうが]いに気[き]をつけています。",
+     "vi": "Lúc giảm giá tôi cẩn thận để không mua theo bốc đồng.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "衝動買[しょうどうが]い = mua sắm bốc đồng; 衝動的[しょうどうてき] = bốc đồng (衝動的[しょうどうてき]に決[き]める = quyết định bốc đồng); 衝動[しょうどう]に駆[か]られる = bị thôi thúc."
+  },
+  {
+   "id": "v:好奇心:こうきしん",
+   "kana": "こうきしん",
+   "kanji": "好奇心",
+   "hv": "HẢO KỲ TÂM",
+   "vi": "tính tò mò, ham hiểu biết",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子[こ]どもは好奇心[こうきしん]が強[つよ]いので、何[なん]でも触[さわ]りたがる。",
+     "vi": "Trẻ con tò mò nên cái gì cũng muốn sờ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "好奇心[こうきしん]から、新[あたら]しい機械[きかい]の使[つか]い方[かた]を調[しら]べてみた。",
+     "vi": "Vì tò mò nên tôi thử tìm hiểu cách dùng máy mới.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:興味:きょうみ"
+   ],
+   "note": "好奇心[こうきしん]が強[つよ]い / 旺盛[おうせい] = rất tò mò; 好奇心[こうきしん]を持[も]つ = có óc tò mò."
+  },
+  {
+   "id": "v:抑える:おさえる",
+   "kana": "おさえる",
+   "kanji": "抑える",
+   "kf": "抑[おさ]える",
+   "hv": "ỨC",
+   "vi": "kiềm chế, kìm (cảm xúc); ghìm, kìm hãm (chi phí, mức)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "腹[はら]が立[た]ったが、気持[きも]ちを抑[おさ]えて話[はなし]を聞[き]いた。",
+     "vi": "Tôi bực nhưng kìm lòng nghe hết câu chuyện.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "電気代[でんきだい]を抑[おさ]えるために、エアコンの温度[おんど]を変[か]えた。",
+     "vi": "Để hạn chế tiền điện, tôi đã đổi nhiệt độ điều hòa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：涙[なみだ]が出[で]そうで、抑[おさ]えられなかった。B：それだけ嬉[うれ]しかったんだね。",
+     "vi": "A: Muốn khóc, không kìm được. B: Vì vui quá mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "怒[いか]りを抑[おさ]える",
+     "vi": "kìm cơn giận"
+    },
+    {
+     "jp": "費用[ひよう]を抑[おさ]える",
+     "vi": "hạn chế chi phí"
+    },
+    {
+     "jp": "感情[かんじょう]を抑[おさ]える",
+     "vi": "kiềm chế cảm xúc"
+    }
+   ],
+   "confuse": [
+    "v:堪える:こらえる"
+   ],
+   "note": "Đồng âm: 押[お]さえる = giữ chặt, ấn giữ (bằng tay). 抑[おさ]える = kiềm chế, kìm hãm."
+  },
+  {
+   "id": "v:込み上げる:こみあげる",
+   "kana": "こみあげる",
+   "kanji": "込み上げる",
+   "kf": "込[こ]み上[あ]げる",
+   "hv": "NHẬP THƯỢNG",
+   "vi": "trào dâng (cảm xúc, nước mắt)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母[はは]の声[こえ]を聞[き]いたら、涙[なみだ]が込[こ]み上[あ]げてきた。",
+     "vi": "Nghe giọng mẹ, nước mắt trào lên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "合格[ごうかく]の知[し]らせを見[み]て、喜[よろこ]びが込[こ]み上[あ]げた。",
+     "vi": "Thấy tin đỗ, niềm vui dâng trào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：その話[はなし]を聞[き]いて、どう思[おも]った？B：怒[いか]りが込[こ]み上[あ]げてきたよ。",
+     "vi": "A: Nghe chuyện đó anh nghĩ sao? B: Cơn giận trào lên.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "涙[なみだ]が込[こ]み上[あ]げる",
+     "vi": "nước mắt trào lên"
+    },
+    {
+     "jp": "怒[いか]りが込[こ]み上[あ]げる",
+     "vi": "cơn giận dâng lên"
+    },
+    {
+     "jp": "笑[わら]いが込[こ]み上[あ]げる",
+     "vi": "buồn cười không nhịn được"
+    }
+   ],
+   "flag": true,
+   "note": "Hay dùng 込[こ]み上[あ]げてくる. Cảm xúc dâng lên tự nhiên, gần mẫu 〜ずにはいられない. Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:涙ぐむ:なみだぐむ",
+   "kana": "なみだぐむ",
+   "kanji": "涙ぐむ",
+   "kf": "涙[なみだ]ぐむ",
+   "hv": "LỆ",
+   "vi": "rưng rưng nước mắt",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "送別会[そうべつかい]で、班長[はんちょう]が涙[なみだ]ぐんでいた。",
+     "vi": "Ở tiệc chia tay, tổ trưởng rưng rưng nước mắt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "久[ひさ]しぶりに家族[かぞく]と話[はな]して、思[おも]わず涙[なみだ]ぐんだ。",
+     "vi": "Lâu lắm mới nói chuyện với gia đình, tôi bất giác rưng rưng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あれ、目[め]が赤[あか]いよ。B：映画[えいが]を見[み]て、ちょっと涙[なみだ]ぐんじゃった。",
+     "vi": "A: Ơ, mắt đỏ kìa. B: Xem phim nên hơi rưng rưng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "思[おも]わず涙[なみだ]ぐむ",
+     "vi": "bất giác rưng rưng"
+    }
+   ],
+   "rel": [
+    "v:涙:なみだ",
+    "v:泣く:なく"
+   ],
+   "note": "〜ぐむ = bắt đầu có dấu hiệu (nước mắt sắp rơi, chưa khóc thành tiếng)."
+  },
+  {
+   "id": "v:吹き出す:ふきだす",
+   "kana": "ふきだす",
+   "kanji": "吹き出す",
+   "kf": "吹[ふ]き出[だ]す",
+   "hv": "XUY XUẤT",
+   "vi": "bật cười; phun ra, trào ra (khí, nước)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]の変[へん]な顔[かお]を見[み]て、思[おも]わず吹[ふ]き出[だ]してしまった。",
+     "vi": "Thấy mặt anh ta nhăn nhó buồn cười, tôi bất giác bật cười.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "配管[はいかん]から、急[きゅう]に蒸気[じょうき]が吹[ふ]き出[だ]した。",
+     "vi": "Hơi nước đột nhiên phun ra từ đường ống.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：会議[かいぎ]中[ちゅう]に吹[ふ]き出[だ]しそうになったよ。B：あの冗談[じょうだん]はずるいよね。",
+     "vi": "A: Đang họp suýt bật cười. B: Câu đùa đó ác thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "思[おも]わず吹[ふ]き出[だ]す",
+     "vi": "bất giác bật cười"
+    },
+    {
+     "jp": "汗[あせ]が吹[ふ]き出[だ]す",
+     "vi": "mồ hôi vã ra"
+    }
+   ],
+   "rel": [
+    "v:笑う:わらう"
+   ],
+   "note": "吹[ふ]き出[だ]し = bong bóng lời thoại trong truyện tranh."
+  },
+  {
+   "id": "v:恨む:うらむ",
+   "kana": "うらむ",
+   "kanji": "恨む",
+   "kf": "恨[うら]む",
+   "hv": "HẬN",
+   "vi": "oán hận, hận",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "厳[きび]しく注意[ちゅうい]されたが、班長[はんちょう]を恨[うら]んではいない。",
+     "vi": "Bị nhắc nhở nghiêm khắc nhưng tôi không oán tổ trưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "人[ひと]を恨[うら]んでも、何[なに]もいいことはない。",
+     "vi": "Oán hận người khác chẳng được gì tốt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの時[とき]、手伝[てつだ]ってくれなかったこと、まだ恨[うら]んでる？B：もう忘[わす]れたよ。",
+     "vi": "A: Còn giận chuyện lúc đó tớ không giúp à? B: Quên lâu rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人[ひと]を恨[うら]む",
+     "vi": "oán người"
+    },
+    {
+     "jp": "運命[うんめい]を恨[うら]む",
+     "vi": "oán số phận"
+    }
+   ],
+   "note": "Danh từ: 恨[うら]み = mối hận. 恨[うら]みを買[か]う = chuốc lấy oán hận."
+  },
+  {
+   "id": "v:同情:どうじょう",
+   "kana": "どうじょう",
+   "kanji": "同情",
+   "hv": "ĐỒNG TÌNH",
+   "vi": "thương cảm, thương hại (cho nỗi khổ người khác)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事故[じこ]にあった彼[かれ]に、みんなが同情[どうじょう]した。",
+     "vi": "Mọi người đều thương cảm cho anh ấy bị tai nạn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "同情[どうじょう]されるより、手伝[てつだ]ってほしい。",
+     "vi": "Tôi muốn được giúp đỡ hơn là được thương hại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの人[ひと]、大変[たいへん]らしいね。B：同情[どうじょう]はするけど、私[わたし]たちにできることは少[すく]ないよ。",
+     "vi": "A: Người đó nghe nói khổ lắm. B: Thương thì thương nhưng mình giúp được ít lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "被害者[ひがいしゃ]に同情[どうじょう]する",
+     "vi": "thương cảm người bị hại"
+    }
+   ],
+   "confuse": [
+    "v:共感:きょうかん"
+   ],
+   "rel": [
+    "v:気の毒:きのどく"
+   ],
+   "note": "同情[どうじょう] = thương người đang gặp khổ (đôi khi mang ý thương hại). 共感[きょうかん] = cùng cảm nhận, tán đồng."
+  },
+  {
+   "id": "v:共感:きょうかん",
+   "kana": "きょうかん",
+   "kanji": "共感",
+   "hv": "CỘNG CẢM",
+   "vi": "đồng cảm, cùng chung cảm nhận",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先輩[せんぱい]の話[はなし]に、とても共感[きょうかん]しました。",
+     "vi": "Tôi rất đồng cảm với câu chuyện của tiền bối.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "外国[がいこく]で働[はたら]く人[ひと]の苦労[くろう]が書[か]かれた本[ほん]に、共感[きょうかん]せずにはいられなかった。",
+     "vi": "Đọc cuốn sách viết về nỗi vất vả của người làm việc ở nước ngoài, tôi không khỏi đồng cảm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：班長[はんちょう]の話[はなし]、どうだった？B：うん、すごく共感[きょうかん]できたよ。",
+     "vi": "A: Câu chuyện của tổ trưởng thế nào? B: Ừ, tớ rất đồng cảm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "意見[いけん]に共感[きょうかん]する",
+     "vi": "tán đồng ý kiến"
+    }
+   ],
+   "confuse": [
+    "v:同情:どうじょう"
+   ],
+   "note": "共感[きょうかん]を呼[よ]ぶ = khiến nhiều người đồng cảm."
+  },
+  {
+   "id": "v:たまらない:たまらない",
+   "kana": "たまらない",
+   "kanji": "",
+   "hv": "",
+   "vi": "không chịu nổi; … quá đi mất",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "足[あし]が痛[いた]くてたまらない。",
+     "vi": "Chân đau không chịu nổi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "試験[しけん]に合格[ごうかく]して、嬉[うれ]しくてたまらない。",
+     "vi": "Thi đỗ, tôi vui không tả xiết.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：仕事[しごと]のあとのビール、たまらないね！B：最高[さいこう]だね。",
+     "vi": "A: Bia sau giờ làm thì tuyệt cú mèo! B: Đỉnh thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:我慢:がまん"
+   ],
+   "note": "Chữ Hán: 堪[たま]らない. 〜てたまらない = … quá, không chịu nổi (cảm giác của bản thân), gần 〜て仕方[しかた]がない. Đứng một mình = tuyệt quá (khẩu ngữ)."
+  },
+  {
+   "id": "v:切実:せつじつ",
+   "kana": "せつじつ",
+   "kanji": "切実",
+   "hv": "THIẾT THỰC",
+   "vi": "cấp thiết, tha thiết (thấm thía)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人手不足[ひとでふそく]は、この工場[こうじょう]にとって切実[せつじつ]な問題[もんだい]だ。",
+     "vi": "Thiếu người là vấn đề cấp thiết với nhà máy này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "家族[かぞく]と一緒[いっしょ]に暮[く]らしたいという切実[せつじつ]な願[ねが]いがある。",
+     "vi": "Tôi có mong muốn tha thiết được sống cùng gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：家賃[やちん]、また上[あ]がるんだって。B：それは切実[せつじつ]だね。",
+     "vi": "A: Nghe nói tiền nhà lại tăng. B: Vậy thì nhức nhối thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "問題[もんだい]",
+     "vi": "vấn đề"
+    },
+    {
+     "jp": "願[ねが]い",
+     "vi": "mong muốn"
+    }
+   ],
+   "note": "切実[せつじつ]に感[かん]じる = cảm nhận thấm thía."
+  },
+  {
+   "id": "v:痛感:つうかん",
+   "kana": "つうかん",
+   "kanji": "痛感",
+   "hv": "THỐNG CẢM",
+   "vi": "thấm thía, cảm nhận sâu sắc (bài học, thiếu sót)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班長[はんちょう]になって、責任[せきにん]の重[おも]さを痛感[つうかん]しています。",
+     "vi": "Lên tổ trưởng rồi, tôi thấm thía sức nặng của trách nhiệm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本語[にほんご]の勉強[べんきょう]の必要性[ひつようせい]を、改[あらた]めて痛感[つうかん]した。",
+     "vi": "Tôi lại một lần nữa thấm thía sự cần thiết của việc học tiếng Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今回[こんかい]のミス、どう思[おも]う？B：確認[かくにん]の大切[たいせつ]さを痛感[つうかん]したよ。",
+     "vi": "A: Lỗi lần này cậu thấy sao? B: Tôi thấm thía tầm quan trọng của việc kiểm tra.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "責任[せきにん]を痛感[つうかん]する",
+     "vi": "thấm thía trách nhiệm"
+    },
+    {
+     "jp": "必要性[ひつようせい]を痛感[つうかん]する",
+     "vi": "thấm thía sự cần thiết"
+    }
+   ],
+   "note": "Thường dùng cho điều tiêu cực, bài học (thiếu sót của mình)."
+  },
+  {
+   "id": "v:腹立たしい:はらだたしい",
+   "kana": "はらだたしい",
+   "kanji": "腹立たしい",
+   "kf": "腹立[はらだ]たしい",
+   "hv": "PHÚC LẬP",
+   "vi": "đáng bực, gây bực tức",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "約束[やくそく]を何度[なんど]も破[やぶ]られて、腹立[はらだ]たしい。",
+     "vi": "Bị thất hứa nhiều lần, thật bực mình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ルールを守[まも]らない人[ひと]がいるのは、腹立[はらだ]たしいことだ。",
+     "vi": "Có người không tuân thủ quy định thì thật đáng bực.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：また順番[じゅんばん]を抜[ぬ]かされたよ。B：それは腹立[はらだ]たしいね。",
+     "vi": "A: Lại bị chen ngang hàng rồi. B: Bực thật đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "態度[たいど]",
+     "vi": "thái độ"
+    },
+    {
+     "jp": "出来事[できごと]",
+     "vi": "sự việc"
+    }
+   ],
+   "rel": [
+    "v:腹:はら",
+    "v:怒る:おこる"
+   ],
+   "note": "腹[はら]が立[た]つ = bực mình, nổi giận (cách nói thường)."
+  },
+  {
+   "id": "v:苛立つ:いらだつ",
+   "kana": "いらだつ",
+   "kanji": "苛立つ",
+   "kf": "苛立[いらだ]つ",
+   "hv": "HÀ LẬP",
+   "vi": "bực dọc, cáu bẳn (văn viết)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]がなかなか直[なお]らなくて、みんな苛立[いらだ]っている。",
+     "vi": "Máy mãi không sửa xong nên ai cũng bực bội.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "疲[つか]れていると、小[ちい]さなことにも苛立[いらだ]ってしまう。",
+     "vi": "Lúc mệt thì chuyện nhỏ cũng dễ cáu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：返事[へんじ]が来[こ]なくて、苛立[いらだ]ってたんだ。B：そういう時[とき]は、少[すこ]し休[やす]んだほうがいいよ。",
+     "vi": "A: Mãi không có trả lời nên tớ sốt ruột. B: Những lúc như thế nên nghỉ một chút.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "小[ちい]さなことに苛立[いらだ]つ",
+     "vi": "cáu vì chuyện nhỏ"
+    }
+   ],
+   "syn": [
+    "v:いらいら:いらいら"
+   ],
+   "note": "Văn viết hơn イライラする. Danh từ: 苛立[いらだ]ち."
+  },
+  {
+   "id": "v:怒鳴る:どなる",
+   "kana": "どなる",
+   "kanji": "怒鳴る",
+   "kf": "怒鳴[どな]る",
+   "hv": "NỘ MINH",
+   "vi": "quát tháo, gào lên",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]の音[おと]が大[おお]きいので、怒鳴[どな]らないと聞[き]こえない。",
+     "vi": "Tiếng máy to quá, không hét lên thì không nghe thấy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "部下[ぶか]に怒鳴[どな]っても、ミスは減[へ]らない。",
+     "vi": "Quát cấp dưới thì lỗi cũng không giảm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：隣[となり]の人[ひと]、夜中[よなか]に怒鳴[どな]ってたね。B：うん、ちょっと怖[こわ]かった。",
+     "vi": "A: Người phòng bên nửa đêm gào thét nhỉ. B: Ừ, hơi sợ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "部下[ぶか]を怒鳴[どな]る",
+     "vi": "quát cấp dưới"
+    },
+    {
+     "jp": "大声[おおごえ]で怒鳴[どな]る",
+     "vi": "quát to"
+    }
+   ],
+   "confuse": [
+    "v:叱る:しかる",
+    "v:叫ぶ:さけぶ"
+   ],
+   "note": "怒鳴[どな]る = quát to tiếng (thường vì giận). 叱[しか]る = mắng để dạy; 叫[さけ]ぶ = hét lên (vì sợ, đau, vui)."
+  },
+  {
+   "id": "v:我に返る:われにかえる",
+   "kana": "われにかえる",
+   "kanji": "我に返る",
+   "kf": "我[われ]に返[かえ]る",
+   "hv": "NGÃ PHẢN",
+   "vi": "tỉnh lại, lấy lại bình tĩnh (sau khi mải mê, nổi nóng)",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "かっとなった時[とき]は、深呼吸[しんこきゅう]して我[われ]に返[かえ]るようにしています。",
+     "vi": "Khi nổi nóng, tôi cố hít thở sâu để lấy lại bình tĩnh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "班長[はんちょう]の声[こえ]で、はっと我[われ]に返[かえ]った。",
+     "vi": "Nghe tiếng tổ trưởng, tôi sực tỉnh.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "我[われ] = bản thân. はっと我[われ]に返[かえ]る = giật mình tỉnh ra."
+  },
+  {
+   "id": "v:放っておく:ほうっておく",
+   "kana": "ほうっておく",
+   "kanji": "放っておく",
+   "kf": "放[ほう]っておく",
+   "hv": "PHÓNG",
+   "vi": "để mặc, bỏ mặc",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Can thiệp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小[ちい]さな傷[きず]でも、放[ほう]っておくと悪[わる]くなります。",
+     "vi": "Dù vết thương nhỏ, để mặc thì sẽ nặng thêm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "困[こま]っている新人[しんじん]を、放[ほう]っておけない。",
+     "vi": "Không thể bỏ mặc người mới đang gặp khó.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの人[ひと]、また一人[ひとり]で怒[おこ]ってるよ。B：放[ほう]っておこう。そのうち落[お]ち着[つ]くよ。",
+     "vi": "A: Người đó lại một mình nổi giận kìa. B: Kệ đi. Một lúc là bình tĩnh lại thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "問題[もんだい]を放[ほう]っておく",
+     "vi": "để mặc vấn đề"
+    },
+    {
+     "jp": "子[こ]どもを放[ほう]っておく",
+     "vi": "bỏ mặc con"
+    }
+   ],
+   "syn": [
+    "v:放置:ほうち"
+   ],
+   "rel": [
+    "v:無視:むし"
+   ],
+   "note": "Khẩu ngữ: ほっとく. 放[ほう]っておけない = không thể làm ngơ (dẫn tới 〜ずにはいられない: 助[たす]けずにはいられない)."
+  },
+  {
+   "id": "v:見過ごす:みすごす",
+   "kana": "みすごす",
+   "kanji": "見過ごす",
+   "kf": "見過[みす]ごす",
+   "hv": "KIẾN QUÁ",
+   "vi": "để lọt, bỏ qua không xử lý (điều đã thấy)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Can thiệp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "危[あぶ]ない作業[さぎょう]を見過[みす]ごすわけにはいかない。",
+     "vi": "Không thể làm ngơ trước thao tác nguy hiểm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "小[ちい]さな異常[いじょう]を見過[みす]ごしたことが、事故[じこ]の原因[げんいん]だった。",
+     "vi": "Việc bỏ qua bất thường nhỏ là nguyên nhân tai nạn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの人[ひと]、また手袋[てぶくろ]をしてないよ。B：見過[みす]ごせないね。注意[ちゅうい]しよう。",
+     "vi": "A: Người đó lại không đeo găng tay kìa. B: Không thể làm ngơ được. Nhắc thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ミスを見過[みす]ごす",
+     "vi": "bỏ qua lỗi"
+    },
+    {
+     "jp": "不正[ふせい]を見過[みす]ごす",
+     "vi": "làm ngơ sai phạm"
+    }
+   ],
+   "confuse": [
+    "v:見逃す:みのがす"
+   ],
+   "note": "見過[みす]ごす = thấy mà để yên; 見逃[みのが]す = không nhận ra, hoặc tha cho."
+  },
+  {
+   "id": "v:見捨てる:みすてる",
+   "kana": "みすてる",
+   "kanji": "見捨てる",
+   "kf": "見捨[みす]てる",
+   "hv": "KIẾN XẢ",
+   "vi": "bỏ rơi, ruồng bỏ",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Can thiệp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "困[こま]っている仲間[なかま]を、見捨[みす]てることはできない。",
+     "vi": "Không thể bỏ rơi đồng đội đang gặp khó.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "家族[かぞく]に見捨[みす]てられたと感[かん]じて、落[お]ち込[こ]んだ。",
+     "vi": "Cảm thấy bị gia đình bỏ rơi, tôi suy sụp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：もう彼[かれ]のことは見捨[みす]てたら？B：いや、もう一度[いちど]だけ話[はな]してみる。",
+     "vi": "A: Bỏ mặc cậu ta đi? B: Không, tớ thử nói chuyện thêm lần nữa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仲間[なかま]を見捨[みす]てる",
+     "vi": "bỏ rơi đồng đội"
+    },
+    {
+     "jp": "ふるさとを見捨[みす]てる",
+     "vi": "bỏ quê"
+    }
+   ],
+   "note": "Mạnh hơn 放[ほう]っておく: cắt đứt, không quan tâm nữa."
+  },
+  {
+   "id": "v:口出し:くちだし",
+   "kana": "くちだし",
+   "kanji": "口出し",
+   "kf": "口出[くちだ]し",
+   "hv": "KHẨU XUẤT",
+   "vi": "xen vào, chõ mồm (chuyện người khác)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Can thiệp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "他人[たにん]の家庭[かてい]のことに、口出[くちだ]しすべきではない。",
+     "vi": "Không nên xen vào chuyện gia đình người khác.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]のくせに口出[くちだ]しするなと言[い]われた。",
+     "vi": "Tôi bị nói \"người mới thì đừng có xen vào\".",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人[ひと]のことに口出[くちだ]しする",
+     "vi": "xen vào chuyện người khác"
+    }
+   ],
+   "rel": [
+    "v:お節介:おせっかい"
+   ],
+   "note": "口[くち]を出[だ]す = xen lời. Khi góp ý lịch sự: 口出[くちだ]しするようですが… = tôi xin phép có ý kiến…"
+  },
+  {
+   "id": "v:お節介:おせっかい",
+   "kana": "おせっかい",
+   "kanji": "お節介",
+   "kf": "お節介[せっかい]",
+   "hv": "TIẾT GIỚI",
+   "vi": "(tính) hay xía vào, lo chuyện bao đồng",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Can thiệp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お節介[せっかい]かもしれないけど、病院[びょういん]に行[い]ったほうがいいよ。",
+     "vi": "Có thể là lo chuyện bao đồng, nhưng anh nên đi viện đi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "隣[となり]のおばさんはお節介[せっかい]だけど、優[やさ]しい人[ひと]です。",
+     "vi": "Bác hàng xóm hay xía vào nhưng là người tốt bụng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：余計[よけい]なお節介[せっかい]だったらごめんね。B：ううん、心配[しんぱい]してくれてありがとう。",
+     "vi": "A: Nếu tớ lo chuyện không đâu thì xin lỗi nhé. B: Không, cảm ơn đã lo cho tớ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    }
+   ],
+   "rel": [
+    "v:口出し:くちだし",
+    "v:余計:よけい"
+   ],
+   "note": "Cũng viết おせっかい. Người Kansai hay được cho là お節介[せっかい] nhưng tình cảm."
+  },
+  {
+   "id": "v:余計:よけい",
+   "kana": "よけい",
+   "kanji": "余計",
+   "hv": "DƯ KẾ",
+   "vi": "thừa thãi, không cần thiết; (dạng phó từ) lại càng",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Can thiệp",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "余計[よけい]なことを言[い]って、班長[はんちょう]を怒[おこ]らせてしまった。",
+     "vi": "Tôi nói điều không cần thiết làm tổ trưởng nổi giận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ダメと言[い]われると、余計[よけい]にやりたくなる。",
+     "vi": "Bị cấm thì lại càng muốn làm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：手伝[てつだ]おうか？B：余計[よけい]なお世話[せわ]だよ。一人[ひとり]でできる。",
+     "vi": "A: Để tớ giúp nhé? B: Không cần lo chuyện bao đồng. Tớ tự làm được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "こと",
+     "vi": "chuyện"
+    },
+    {
+     "jp": "心配[しんぱい]",
+     "vi": "sự lo lắng"
+    }
+   ],
+   "confuse": [
+    "v:余分:よぶん"
+   ],
+   "rel": [
+    "v:お節介:おせっかい"
+   ],
+   "note": "余計[よけい]なお世話[せわ] = lo chuyện bao đồng (câu khá gắt). 余計[よけい]に = càng thêm. 余分[よぶん] = phần dư ra (số lượng)."
+  }
+ ]
+}

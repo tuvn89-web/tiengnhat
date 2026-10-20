@@ -1,0 +1,1542 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-14",
+  "title": "JLPT N2 14 – Tuyển dụng, điều kiện ứng tuyển và đãi ngộ",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:求人:きゅうじん",
+   "kana": "きゅうじん",
+   "kanji": "求人",
+   "hv": "CẦU NHÂN",
+   "vi": "việc tuyển người; tin tuyển dụng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ハローワークで、求人[きゅうじん]を探[さが]しました。",
+     "vi": "Tôi tìm tin tuyển dụng ở Hello Work.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "水産[すいさん]加工[かこう]の工場[こうじょう]は、いつも求人[きゅうじん]を出[だ]しています。",
+     "vi": "Nhà máy chế biến thủy sản lúc nào cũng đăng tin tuyển người.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:募集:ぼしゅう"
+   ],
+   "note": "求人[きゅうじん]を出[だ]す = đăng tuyển; 求人広告[きゅうじんこうこく] = quảng cáo tuyển dụng; 求人[きゅうじん]サイト = trang tuyển dụng. ハローワーク = trung tâm giới thiệu việc làm của nhà nước."
+  },
+  {
+   "id": "v:求人票:きゅうじんひょう",
+   "kana": "きゅうじんひょう",
+   "kanji": "求人票",
+   "hv": "CẦU NHÂN PHIẾU",
+   "vi": "phiếu thông tin tuyển dụng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "求人[きゅうじん]票[ひょう]で、給料[きゅうりょう]と休[やす]みの日[ひ]を確認[かくにん]しました。",
+     "vi": "Tôi xem lương và ngày nghỉ trên phiếu tuyển dụng.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "求人[きゅうじん]票[ひょう]に書[か]いてある条件[じょうけん]と、実際[じっさい]の条件[じょうけん]が違[ちが]った。",
+     "vi": "Điều kiện ghi trên phiếu tuyển dụng khác với thực tế.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:求人:きゅうじん"
+   ]
+  },
+  {
+   "id": "v:募集:ぼしゅう",
+   "kana": "ぼしゅう",
+   "kanji": "募集",
+   "hv": "MỘ TẬP",
+   "vi": "đăng tuyển, kêu gọi (người tham gia)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]で、夜勤[やきん]のスタッフを募集[ぼしゅう]しています。",
+     "vi": "Nhà máy đang tuyển nhân viên ca đêm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "町内会[ちょうないかい]が、祭[まつ]りの手伝[てつだ]いを募集[ぼしゅう]している。",
+     "vi": "Hội khu phố đang kêu gọi người phụ giúp lễ hội.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "スタッフを募集[ぼしゅう]する",
+     "vi": "tuyển nhân viên"
+    },
+    {
+     "jp": "参加者[さんかしゃ]を募集[ぼしゅう]する",
+     "vi": "kêu gọi người tham gia"
+    }
+   ],
+   "confuse": [
+    "v:応募:おうぼ"
+   ],
+   "note": "募集[ぼしゅう] = bên tuyển kêu gọi; 応募[おうぼ] = người nộp đơn. 募集中[ぼしゅうちゅう] = đang tuyển."
+  },
+  {
+   "id": "v:応募資格:おうぼしかく",
+   "kana": "おうぼしかく",
+   "kanji": "応募資格",
+   "hv": "ỨNG MỘ TƯ CÁCH",
+   "vi": "điều kiện ứng tuyển",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "応募[おうぼ]資格[しかく]は、「十八歳[じゅうはっさい]以上[いじょう]」だけです。",
+     "vi": "Điều kiện ứng tuyển chỉ là \"từ 18 tuổi trở lên\".",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "特定[とくてい]技能[ぎのう]の資格[しかく]を持[も]っていることが、応募[おうぼ]資格[しかく]になっています。",
+     "vi": "Có tư cách Kỹ năng đặc định là điều kiện ứng tuyển.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:応募:おうぼ",
+    "v:資格:しかく"
+   ]
+  },
+  {
+   "id": "v:不問:ふもん",
+   "kana": "ふもん",
+   "kanji": "不問",
+   "hv": "BẤT VẤN",
+   "vi": "không xét đến, không đòi hỏi (điều kiện)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この仕事[しごと]は、経験[けいけん]不問[ふもん]です。",
+     "vi": "Việc này không đòi hỏi kinh nghiệm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "求人[きゅうじん]票[ひょう]に、「年齢[ねんれい]・学歴[がくれき]不問[ふもん]」と書[か]いてありました。",
+     "vi": "Trên phiếu tuyển dụng ghi \"không xét tuổi, học vấn\".",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:問う:とう"
+   ],
+   "note": "Hay gặp trên tin tuyển: 経験不問[けいけんふもん], 学歴不問[がくれきふもん], 年齢不問[ねんれいふもん]. Cách nói đầy đủ: 〜を問[と]わない."
+  },
+  {
+   "id": "v:応相談:おうそうだん",
+   "kana": "おうそうだん",
+   "kanji": "応相談",
+   "hv": "ỨNG TƯƠNG ĐÀM",
+   "vi": "có thể thỏa thuận (ghi trên tin tuyển, bảng giá)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "勤務時間[きんむじかん]は、応相談[おうそうだん]です。",
+     "vi": "Giờ làm có thể thỏa thuận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "求人[きゅうじん]票[ひょう]に、「給与[きゅうよ]：応相談[おうそうだん]」と書[か]いてあった。",
+     "vi": "Phiếu tuyển dụng ghi \"Lương: thỏa thuận\".",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Nghĩa là 相談[そうだん]に応[おう]じます = sẵn sàng bàn bạc. Chỉ dùng trong văn bản ngắn (tin tuyển, bảng giá)."
+  },
+  {
+   "id": "v:優遇:ゆうぐう",
+   "kana": "ゆうぐう",
+   "kanji": "優遇",
+   "hv": "ƯU NGỘ",
+   "vi": "ưu đãi (người có điều kiện tốt)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "フォークリフトの免許[めんきょ]がある方[かた]は、優遇[ゆうぐう]します。",
+     "vi": "Người có bằng lái xe nâng sẽ được ưu tiên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本語[にほんご]能力[のうりょく]試験[しけん]に合格[ごうかく]した人[ひと]は、優遇[ゆうぐう]されることがあります。",
+     "vi": "Người đỗ kỳ thi năng lực tiếng Nhật có khi được ưu tiên.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "経験者[けいけんしゃ]を優遇[ゆうぐう]する",
+     "vi": "ưu tiên người có kinh nghiệm"
+    }
+   ],
+   "note": "Tin tuyển hay ghi: 経験者優遇[けいけんしゃゆうぐう] = ưu tiên người có kinh nghiệm."
+  },
+  {
+   "id": "v:職種:しょくしゅ",
+   "kana": "しょくしゅ",
+   "kanji": "職種",
+   "hv": "CHỨC CHỦNG",
+   "vi": "loại công việc (vị trí làm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面接[めんせつ]で、希望[きぼう]の職種[しょくしゅ]を聞[き]かれました。",
+     "vi": "Khi phỏng vấn tôi bị hỏi loại công việc mong muốn.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "同[おな]じ工場[こうじょう]でも、職種[しょくしゅ]によって給料[きゅうりょう]が違[ちが]います。",
+     "vi": "Cùng nhà máy nhưng lương khác nhau tùy loại công việc.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "職種[しょくしゅ] = loại công việc (vận hành máy, kiểm hàng, văn phòng…); 業種[ぎょうしゅ] = ngành kinh doanh của công ty."
+  },
+  {
+   "id": "v:勤務地:きんむち",
+   "kana": "きんむち",
+   "kanji": "勤務地",
+   "hv": "CẦN VỤ ĐỊA",
+   "vi": "địa điểm làm việc (ghi trên tin tuyển)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "勤務地[きんむち]は、兵庫県明石市[あかしし]です。",
+     "vi": "Địa điểm làm việc là thành phố Akashi, Hyogo.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "勤務地[きんむち]が家[いえ]から遠[とお]いので、引[ひ]っ越[こ]しを考[かんが]えています。",
+     "vi": "Chỗ làm xa nhà nên tôi đang tính chuyển nhà.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "勤務[きんむ] = làm việc (từ dùng trong văn bản)."
+  },
+  {
+   "id": "v:勤務時間:きんむじかん",
+   "kana": "きんむじかん",
+   "kanji": "勤務時間",
+   "hv": "CẦN VỤ THỜI GIAN",
+   "vi": "giờ làm việc (theo quy định)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "勤務時間[きんむじかん]は、朝[あさ]八時[はちじ]から夕方[ゆうがた]五時[ごじ]までです。",
+     "vi": "Giờ làm từ 8 giờ sáng đến 5 giờ chiều.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "妻[つま]は、勤務時間[きんむじかん]が短[みじか]いパートを探[さが]しています。",
+     "vi": "Vợ tôi đang tìm việc bán thời gian có giờ làm ngắn.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "勤務時間外[きんむじかんがい] = ngoài giờ làm."
+  },
+  {
+   "id": "v:休日:きゅうじつ",
+   "kana": "きゅうじつ",
+   "kanji": "休日",
+   "hv": "HƯU NHẬT",
+   "vi": "ngày nghỉ định kỳ (theo lịch)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]の休日[きゅうじつ]は、日曜日[にちようび]と祝日[しゅくじつ]です。",
+     "vi": "Ngày nghỉ của nhà máy là chủ nhật và ngày lễ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "休日[きゅうじつ]は、家族[かぞく]とビデオ通話[つうわ]をします。",
+     "vi": "Ngày nghỉ tôi gọi video với gia đình.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:休み:やすみ"
+   ],
+   "note": "年間休日[ねんかんきゅうじつ] = số ngày nghỉ trong năm (ghi trên tin tuyển); 休日出勤[きゅうじつしゅっきん] = đi làm ngày nghỉ."
+  },
+  {
+   "id": "v:週休二日:しゅうきゅうふつか",
+   "kana": "しゅうきゅうふつか",
+   "kanji": "週休二日",
+   "hv": "CHU HƯU NHỊ NHẬT",
+   "vi": "nghỉ hai ngày mỗi tuần",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "週休[しゅうきゅう]二日[ふつか]の会社[かいしゃ]に、移[うつ]りたいです。",
+     "vi": "Tôi muốn chuyển sang công ty nghỉ hai ngày mỗi tuần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "うちの工場[こうじょう]は、週休[しゅうきゅう]二日[ふつか]制[せい]です。",
+     "vi": "Nhà máy tôi theo chế độ nghỉ hai ngày mỗi tuần.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Đọc tin tuyển cần phân biệt: 週休[しゅうきゅう]二日[ふつか]制[せい] = trong tháng có tuần được nghỉ 2 ngày (không phải tuần nào cũng vậy); 完全[かんぜん]週休[しゅうきゅう]二日[ふつか]制[せい] = tuần nào cũng nghỉ 2 ngày."
+  },
+  {
+   "id": "v:性別:せいべつ",
+   "kana": "せいべつ",
+   "kanji": "性別",
+   "hv": "TÍNH BIỆT",
+   "vi": "giới tính",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "書類[しょるい]の性別[せいべつ]の欄[らん]に、「男[おとこ]」と書[か]きました。",
+     "vi": "Ô giới tính trên giấy tờ tôi ghi \"Nam\".",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "性別[せいべつ]に関係[かんけい]なく、だれでも班長[はんちょう]になれます。",
+     "vi": "Không phân biệt giới tính, ai cũng có thể làm tổ trưởng.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:男女:だんじょ"
+   ]
+  },
+  {
+   "id": "v:男女:だんじょ",
+   "kana": "だんじょ",
+   "kanji": "男女",
+   "hv": "NAM NỮ",
+   "vi": "nam nữ",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tin tuyển dụng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この工場[こうじょう]では、男女[だんじょ]とも同[おな]じ仕事[しごと]をしています。",
+     "vi": "Ở nhà máy này cả nam lẫn nữ làm cùng việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "このトイレは、男女[だんじょ]共用[きょうよう]です。",
+     "vi": "Nhà vệ sinh này dùng chung cho nam và nữ.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:性別:せいべつ"
+   ],
+   "note": "男女別[だんじょべつ] = riêng nam nữ; 男女共用[だんじょきょうよう] = dùng chung nam nữ."
+  },
+  {
+   "id": "v:応募者:おうぼしゃ",
+   "kana": "おうぼしゃ",
+   "kanji": "応募者",
+   "hv": "ỨNG MỘ GIẢ",
+   "vi": "người ứng tuyển",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "応募者[おうぼしゃ]が多[おお]くて、面接[めんせつ]は三日[みっか]間[かん]かかりました。",
+     "vi": "Người ứng tuyển đông nên phỏng vấn mất 3 ngày.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "応募者[おうぼしゃ]全員[ぜんいん]に、結果[けっか]をメールで連絡[れんらく]します。",
+     "vi": "Sẽ báo kết quả qua email cho tất cả người ứng tuyển.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:応募:おうぼ"
+   ]
+  },
+  {
+   "id": "v:履歴書:りれきしょ",
+   "kana": "りれきしょ",
+   "kanji": "履歴書",
+   "hv": "LÝ LỊCH THƯ",
+   "vi": "sơ yếu lý lịch",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "履歴書[りれきしょ]の写真[しゃしん]を、駅[えき]の前[まえ]の機械[きかい]で撮[と]りました。",
+     "vi": "Tôi chụp ảnh dán sơ yếu lý lịch ở máy chụp trước ga.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "履歴書[りれきしょ]は、手書[てが]きでもパソコンでもいいそうです。",
+     "vi": "Nghe nói sơ yếu lý lịch viết tay hay đánh máy đều được.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:職務経歴書:しょくむけいれきしょ"
+   ]
+  },
+  {
+   "id": "v:職務経歴書:しょくむけいれきしょ",
+   "kana": "しょくむけいれきしょ",
+   "kanji": "職務経歴書",
+   "hv": "CHỨC VỤ KINH LỊCH THƯ",
+   "vi": "bản kê kinh nghiệm làm việc (nộp kèm sơ yếu lý lịch)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "転職[てんしょく]するときは、履歴書[りれきしょ]と職務[しょくむ]経歴書[けいれきしょ]を出[だ]します。",
+     "vi": "Khi chuyển việc thì nộp sơ yếu lý lịch và bản kê kinh nghiệm làm việc.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：職務[しょくむ]経歴書[けいれきしょ]って、何[なに]を書[か]けばいいですか。B：今[いま]までの仕事[しごと]の内容[ないよう]と、できることを書[か]いてください。",
+     "vi": "A: Bản kê kinh nghiệm làm việc thì viết gì ạ? B: Hãy viết nội dung công việc từ trước tới nay và những việc anh làm được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:履歴書:りれきしょ"
+   ]
+  },
+  {
+   "id": "v:経歴:けいれき",
+   "kana": "けいれき",
+   "kanji": "経歴",
+   "hv": "KINH LỊCH",
+   "vi": "lý lịch (học tập và làm việc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面接[めんせつ]で、今[いま]までの経歴[けいれき]を説明[せつめい]しました。",
+     "vi": "Khi phỏng vấn, tôi trình bày quá trình của mình từ trước tới nay.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "新[あたら]しい課長[かちょう]は、面白[おもしろ]い経歴[けいれき]の持[も]ち主[ぬし]です。",
+     "vi": "Trưởng phòng mới có lý lịch thú vị.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:職歴:しょくれき"
+   ],
+   "note": "経歴[けいれき] gồm cả học tập lẫn công việc; 職歴[しょくれき] chỉ các nơi đã làm."
+  },
+  {
+   "id": "v:職歴:しょくれき",
+   "kana": "しょくれき",
+   "kanji": "職歴",
+   "hv": "CHỨC LỊCH",
+   "vi": "quá trình làm việc (các nơi đã làm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "履歴書[りれきしょ]の職歴[しょくれき]の欄[らん]に、前[まえ]の会社[かいしゃ]の名前[なまえ]を書[か]きます。",
+     "vi": "Ở ô \"quá trình làm việc\" trong sơ yếu lý lịch, ghi tên công ty trước.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "職歴[しょくれき]がなくても、応募[おうぼ]できます。",
+     "vi": "Chưa từng đi làm cũng ứng tuyển được.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:経歴:けいれき"
+   ],
+   "rel": [
+    "v:学歴:がくれき"
+   ]
+  },
+  {
+   "id": "v:書類選考:しょるいせんこう",
+   "kana": "しょるいせんこう",
+   "kanji": "書類選考",
+   "hv": "THƯ LOẠI TUYỂN KHẢO",
+   "vi": "vòng xét hồ sơ",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "書類[しょるい]選考[せんこう]に通[とお]ったので、来週[らいしゅう]面接[めんせつ]です。",
+     "vi": "Qua vòng hồ sơ nên tuần sau phỏng vấn.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：書類[しょるい]選考[せんこう]、どうだった？B：通[とお]ったよ！次[つぎ]は面接[めんせつ]。",
+     "vi": "A: Vòng hồ sơ thế nào? B: Qua rồi! Tiếp theo là phỏng vấn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:選考:せんこう"
+   ]
+  },
+  {
+   "id": "v:面接官:めんせつかん",
+   "kana": "めんせつかん",
+   "kanji": "面接官",
+   "hv": "DIỆN TIẾP QUAN",
+   "vi": "người phỏng vấn",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面接官[めんせつかん]に、日本[にほん]に来[き]た理由[りゆう]を聞[き]かれました。",
+     "vi": "Tôi bị người phỏng vấn hỏi lý do sang Nhật.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "今年[ことし]は、私[わたし]も面接官[めんせつかん]として新人[しんじん]の面接[めんせつ]に出[で]ます。",
+     "vi": "Năm nay tôi cũng ngồi phỏng vấn người mới.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:面接:めんせつ"
+   ]
+  },
+  {
+   "id": "v:面談:めんだん",
+   "kana": "めんだん",
+   "kanji": "面談",
+   "hv": "DIỆN ĐÀM",
+   "vi": "gặp mặt trao đổi riêng",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "年[ねん]に一回[いっかい]、課長[かちょう]と個人[こじん]面談[めんだん]があります。",
+     "vi": "Mỗi năm một lần có buổi trao đổi riêng với trưởng phòng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子供[こども]の学校[がっこう]で、先生[せんせい]と面談[めんだん]しました。",
+     "vi": "Tôi gặp trao đổi với giáo viên ở trường con.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "上司[じょうし]と面談[めんだん]する",
+     "vi": "trao đổi riêng với cấp trên"
+    }
+   ],
+   "confuse": [
+    "v:面接:めんせつ"
+   ],
+   "note": "面接[めんせつ] = phỏng vấn để chọn người; 面談[めんだん] = gặp mặt trao đổi (đánh giá, tư vấn, họp phụ huynh). 三者面談[さんしゃめんだん] = họp ba bên."
+  },
+  {
+   "id": "v:志望動機:しぼうどうき",
+   "kana": "しぼうどうき",
+   "kanji": "志望動機",
+   "hv": "CHÍ VỌNG ĐỘNG CƠ",
+   "vi": "lý do ứng tuyển",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面接[めんせつ]で、志望[しぼう]動機[どうき]を聞[き]かれました。",
+     "vi": "Khi phỏng vấn tôi bị hỏi lý do ứng tuyển.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：志望[しぼう]動機[どうき]は何[なん]ですか。B：魚[さかな]の加工[かこう]の技術[ぎじゅつ]を、もっと身[み]につけたいからです。",
+     "vi": "A: Lý do anh ứng tuyển là gì? B: Vì tôi muốn học thêm kỹ thuật chế biến cá.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:志望:しぼう"
+   ]
+  },
+  {
+   "id": "v:採用:さいよう",
+   "kana": "さいよう",
+   "kanji": "採用",
+   "hv": "THẢI DỤNG",
+   "vi": "nhận vào làm (sau tuyển chọn); chọn áp dụng (ý kiến)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面接[めんせつ]に合格[ごうかく]して、採用[さいよう]されました。",
+     "vi": "Qua phỏng vấn, tôi được nhận vào làm.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "今年[ことし]は、ベトナム人[じん]を三人[さんにん]採用[さいよう]する予定[よてい]です。",
+     "vi": "Năm nay công ty dự định tuyển 3 người Việt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "グエンさんの意見[いけん]が、採用[さいよう]されました。",
+     "vi": "Ý kiến của anh Nguyễn đã được chọn áp dụng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "新人[しんじん]を採用[さいよう]する",
+     "vi": "tuyển người mới"
+    },
+    {
+     "jp": "意見[いけん]を採用[さいよう]する",
+     "vi": "chọn dùng ý kiến"
+    }
+   ],
+   "ant": [
+    "v:不採用:ふさいよう"
+   ],
+   "rel": [
+    "v:雇う:やとう"
+   ],
+   "note": "採用通知[さいようつうち] = thông báo trúng tuyển."
+  },
+  {
+   "id": "v:不採用:ふさいよう",
+   "kana": "ふさいよう",
+   "kanji": "不採用",
+   "hv": "BẤT THẢI DỤNG",
+   "vi": "không được tuyển, trượt (tuyển dụng)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "残念[ざんねん]ながら、不採用[ふさいよう]の連絡[れんらく]が来[き]ました。",
+     "vi": "Tiếc là nhận được báo không trúng tuyển.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "不採用[ふさいよう]でも、あきらめずにほかの会社[かいしゃ]に応募[おうぼ]します。",
+     "vi": "Dù trượt tôi cũng không bỏ cuộc mà nộp công ty khác.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:採用:さいよう"
+   ]
+  },
+  {
+   "id": "v:内定:ないてい",
+   "kana": "ないてい",
+   "kanji": "内定",
+   "hv": "NỘI ĐỊNH",
+   "vi": "được báo trúng tuyển (trước ngày vào làm)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "兵庫[ひょうご]の水産[すいさん]会社[かいしゃ]から、内定[ないてい]をもらいました。",
+     "vi": "Tôi nhận được báo trúng tuyển từ công ty thủy sản ở Hyogo.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：内定[ないてい]、おめでとう！B：ありがとう。四月[しがつ]から新[あたら]しい会社[かいしゃ]だよ。",
+     "vi": "A: Chúc mừng trúng tuyển! B: Cảm ơn. Từ tháng tư là công ty mới rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "大手企業[おおてきぎょう]に内定[ないてい]する",
+     "vi": "trúng tuyển vào công ty lớn"
+    }
+   ],
+   "note": "内定[ないてい]をもらう = được báo trúng tuyển; 内定者[ないていしゃ] = người đã trúng tuyển; 内定[ないてい]を取[と]り消[け]す = hủy kết quả trúng tuyển."
+  },
+  {
+   "id": "v:入社:にゅうしゃ",
+   "kana": "にゅうしゃ",
+   "kanji": "入社",
+   "hv": "NHẬP XÃ",
+   "vi": "vào làm ở công ty",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "去年[きょねん]の四月[しがつ]に、この会社[かいしゃ]に入社[にゅうしゃ]しました。",
+     "vi": "Tôi vào công ty này tháng tư năm ngoái.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "入社[にゅうしゃ]の手続[てつづ]きで、在留[ざいりゅう]カードのコピーを出[だ]しました。",
+     "vi": "Làm thủ tục vào công ty, tôi nộp bản sao thẻ cư trú.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "メーカーに入社[にゅうしゃ]する",
+     "vi": "vào làm ở hãng sản xuất"
+    }
+   ],
+   "ant": [
+    {
+     "w": "退社[たいしゃ]",
+     "vi": "rời công ty; tan làm"
+    }
+   ],
+   "confuse": [
+    "v:就職:しゅうしょく"
+   ],
+   "note": "入社式[にゅうしゃしき] = lễ đón nhân viên mới. 就職[しゅうしょく] = có việc làm nói chung; 入社[にゅうしゃ] = vào một công ty cụ thể."
+  },
+  {
+   "id": "v:中途採用:ちゅうとさいよう",
+   "kana": "ちゅうとさいよう",
+   "kanji": "中途採用",
+   "hv": "TRUNG ĐỒ THẢI DỤNG",
+   "vi": "tuyển người đã có kinh nghiệm đi làm",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この会社[かいしゃ]は、中途採用[ちゅうとさいよう]にも力[ちから]を入[い]れています。",
+     "vi": "Công ty này cũng chú trọng tuyển người đã đi làm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "中途採用[ちゅうとさいよう]の人[ひと]は、四月[しがつ]以外[いがい]に入社[にゅうしゃ]することが多[おお]いです。",
+     "vi": "Người được tuyển giữa chừng thường vào công ty vào lúc khác tháng tư.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:新卒:しんそつ"
+   ],
+   "note": "Đối lập: 新卒採用[しんそつさいよう] = tuyển người vừa ra trường."
+  },
+  {
+   "id": "v:新卒:しんそつ",
+   "kana": "しんそつ",
+   "kanji": "新卒",
+   "hv": "TÂN TỐT",
+   "vi": "người mới tốt nghiệp",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ứng tuyển & tuyển chọn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新卒[しんそつ]の社員[しゃいん]が、五人[ごにん]入[はい]りました。",
+     "vi": "Có 5 nhân viên mới ra trường vào làm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本[にほん]では、大学[だいがく]を出[で]てすぐ新卒[しんそつ]で入社[にゅうしゃ]する人[ひと]が多[おお]いです。",
+     "vi": "Ở Nhật nhiều người vào công ty ngay khi vừa tốt nghiệp đại học.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:中途採用:ちゅうとさいよう"
+   ],
+   "note": "Nói tắt của 新規卒業者[しんきそつぎょうしゃ]."
+  },
+  {
+   "id": "v:正社員:せいしゃいん",
+   "kana": "せいしゃいん",
+   "kanji": "正社員",
+   "hv": "CHÍNH XÃ VIÊN",
+   "vi": "nhân viên chính thức",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hình thức & lương",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "三年[さんねん]働[はたら]いて、正社員[せいしゃいん]になれました。",
+     "vi": "Làm 3 năm, tôi được lên nhân viên chính thức.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "正社員[せいしゃいん]の仕事[しごと]を探[さが]していますが、なかなか見[み]つかりません。",
+     "vi": "Tôi đang tìm việc nhân viên chính thức nhưng mãi không thấy.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:契約社員:けいやくしゃいん",
+    "v:派遣社員:はけんしゃいん"
+   ]
+  },
+  {
+   "id": "v:契約社員:けいやくしゃいん",
+   "kana": "けいやくしゃいん",
+   "kanji": "契約社員",
+   "hv": "KHẾ ƯỚC XÃ VIÊN",
+   "vi": "nhân viên hợp đồng (có thời hạn)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hình thức & lương",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "最初[さいしょ]の一年[いちねん]は、契約社員[けいやくしゃいん]として働[はたら]きます。",
+     "vi": "Năm đầu làm với tư cách nhân viên hợp đồng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この会社[かいしゃ]の契約社員[けいやくしゃいん]は、一年[いちねん]ごとに契約[けいやく]を更新[こうしん]します。",
+     "vi": "Nhân viên hợp đồng của công ty này gia hạn hợp đồng mỗi năm.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:正社員:せいしゃいん"
+   ]
+  },
+  {
+   "id": "v:派遣社員:はけんしゃいん",
+   "kana": "はけんしゃいん",
+   "kanji": "派遣社員",
+   "hv": "PHÁI KHIỂN XÃ VIÊN",
+   "vi": "nhân viên phái cử (qua công ty phái cử)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hình thức & lương",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "繁忙期[はんぼうき]には、派遣社員[はけんしゃいん]の人[ひと]も来[き]ます。",
+     "vi": "Mùa cao điểm có cả nhân viên phái cử đến làm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "派遣社員[はけんしゃいん]の給料[きゅうりょう]は、派遣[はけん]会社[かいしゃ]から払[はら]われます。",
+     "vi": "Lương nhân viên phái cử do công ty phái cử trả.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:正社員:せいしゃいん"
+   ],
+   "note": "派遣会社[はけんがいしゃ] = công ty phái cử; 派遣先[はけんさき] = nơi được cử đến làm."
+  },
+  {
+   "id": "v:時給:じきゅう",
+   "kana": "じきゅう",
+   "kanji": "時給",
+   "hv": "THỜI CẤP",
+   "vi": "lương theo giờ",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hình thức & lương",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このアルバイトは、時給[じきゅう]千二百円[せんにひゃくえん]です。",
+     "vi": "Việc làm thêm này lương 1.200 yên một giờ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "夜勤[やきん]は、時給[じきゅう]が高[たか]くなります。",
+     "vi": "Ca đêm lương giờ cao hơn.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:日給:にっきゅう",
+    "v:月給:げっきゅう"
+   ]
+  },
+  {
+   "id": "v:日給:にっきゅう",
+   "kana": "にっきゅう",
+   "kanji": "日給",
+   "hv": "NHẬT CẤP",
+   "vi": "lương theo ngày",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hình thức & lương",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日給[にっきゅう]一万円[いちまんえん]の仕事[しごと]を見[み]つけました。",
+     "vi": "Tôi tìm được việc lương 10.000 yên một ngày.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "日給[にっきゅう]なので、休[やす]むとその日[ひ]の給料[きゅうりょう]は出[で]ません。",
+     "vi": "Lương theo ngày nên nghỉ thì ngày đó không có lương.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:時給:じきゅう",
+    "v:月給:げっきゅう"
+   ],
+   "note": "日給月給[にっきゅうげっきゅう] = lương tính theo tháng nhưng trừ ngày nghỉ."
+  },
+  {
+   "id": "v:月給:げっきゅう",
+   "kana": "げっきゅう",
+   "kanji": "月給",
+   "hv": "NGUYỆT CẤP",
+   "vi": "lương tháng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hình thức & lương",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "月給[げっきゅう]は、毎月[まいつき]二十五日[にじゅうごにち]に振[ふ]り込[こ]まれます。",
+     "vi": "Lương tháng được chuyển khoản ngày 25 hằng tháng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "月給[げっきゅう]から、税金[ぜいきん]と保険料[ほけんりょう]が引[ひ]かれます。",
+     "vi": "Thuế và phí bảo hiểm bị trừ vào lương tháng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:手取り:てどり"
+   ]
+  },
+  {
+   "id": "v:年収:ねんしゅう",
+   "kana": "ねんしゅう",
+   "kanji": "年収",
+   "hv": "NIÊN THU",
+   "vi": "thu nhập một năm",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hình thức & lương",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "年収[ねんしゅう]は、源泉徴収票[げんせんちょうしゅうひょう]で確認[かくにん]できます。",
+     "vi": "Thu nhập năm có thể xem trên phiếu khấu trừ thuế tại nguồn.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "正社員[せいしゃいん]になって、年収[ねんしゅう]が上[あ]がりました。",
+     "vi": "Lên nhân viên chính thức, thu nhập năm tăng.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:手取り:てどり"
+   ],
+   "note": "Thường tính trước thuế (額面[がくめん]); 手取[てど]り = số thực nhận sau khấu trừ."
+  },
+  {
+   "id": "v:昇給:しょうきゅう",
+   "kana": "しょうきゅう",
+   "kanji": "昇給",
+   "hv": "THĂNG CẤP",
+   "vi": "tăng lương (theo bậc, định kỳ)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hình thức & lương",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "昇給[しょうきゅう]は、年[ねん]に一回[いっかい]あります。",
+     "vi": "Mỗi năm tăng lương một lần.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "資格[しかく]を取[と]ったら、昇給[しょうきゅう]しました。",
+     "vi": "Lấy được chứng chỉ thì tôi được tăng lương.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：今年[ことし]、昇給[しょうきゅう]あった？B：うん、時給[じきゅう]が五十円[ごじゅうえん]上[あ]がったよ。",
+     "vi": "A: Năm nay có tăng lương không? B: Có, lương giờ tăng 50 yên.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "毎年[まいとし]昇給[しょうきゅう]する",
+     "vi": "tăng lương hằng năm"
+    }
+   ],
+   "confuse": [
+    "v:昇進:しょうしん"
+   ],
+   "note": "昇給[しょうきゅう] = lên lương; 昇進[しょうしん] = lên chức."
+  },
+  {
+   "id": "v:待遇:たいぐう",
+   "kana": "たいぐう",
+   "kanji": "待遇",
+   "hv": "ĐÃI NGỘ",
+   "vi": "chế độ đãi ngộ (lương, phúc lợi); cách đối xử",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đãi ngộ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "待遇[たいぐう]がいい会社[かいしゃ]に移[うつ]りたいです。",
+     "vi": "Tôi muốn chuyển sang công ty đãi ngộ tốt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "面接[めんせつ]で、給料[きゅうりょう]や休[やす]みなどの待遇[たいぐう]について質問[しつもん]しました。",
+     "vi": "Khi phỏng vấn tôi hỏi về đãi ngộ như lương, ngày nghỉ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "待遇改善[たいぐうかいぜん] = cải thiện đãi ngộ."
+  },
+  {
+   "id": "v:福利厚生:ふくりこうせい",
+   "kana": "ふくりこうせい",
+   "kanji": "福利厚生",
+   "hv": "PHÚC LỢI HẬU SINH",
+   "vi": "phúc lợi cho nhân viên",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đãi ngộ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この会社[かいしゃ]は、福利厚生[ふくりこうせい]が充実[じゅうじつ]しています。",
+     "vi": "Công ty này có phúc lợi đầy đủ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "社宅[しゃたく]や食事代[しょくじだい]の補助[ほじょ]も、福利厚生[ふくりこうせい]の一[ひと]つです。",
+     "vi": "Nhà ở công ty và hỗ trợ tiền ăn cũng là một phần phúc lợi.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:待遇:たいぐう"
+   ]
+  },
+  {
+   "id": "v:社会保険:しゃかいほけん",
+   "kana": "しゃかいほけん",
+   "kanji": "社会保険",
+   "hv": "XÃ HỘI BẢO HIỂM",
+   "vi": "bảo hiểm xã hội (đóng qua công ty)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đãi ngộ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この会社[かいしゃ]では、入社[にゅうしゃ]した日[ひ]から社会保険[しゃかいほけん]に入[はい]ります。",
+     "vi": "Ở công ty này, từ ngày vào làm là tham gia bảo hiểm xã hội.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "社会保険料[しゃかいほけんりょう]は、毎月[まいつき]の給料[きゅうりょう]から引[ひ]かれます。",
+     "vi": "Phí bảo hiểm xã hội bị trừ vào lương hằng tháng.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Thường chỉ 健康保険[けんこうほけん] và 厚生年金[こうせいねんきん] đóng qua công ty. Tin tuyển ghi 社会保険完備[しゃかいほけんかんび] = có đủ bảo hiểm xã hội."
+  },
+  {
+   "id": "v:交通費:こうつうひ",
+   "kana": "こうつうひ",
+   "kanji": "交通費",
+   "hv": "GIAO THÔNG PHÍ",
+   "vi": "tiền đi lại",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đãi ngộ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "交通費[こうつうひ]は、会社[かいしゃ]から全額[ぜんがく]出[で]ます。",
+     "vi": "Tiền đi lại công ty trả toàn bộ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "市役所[しやくしょ]まで行[い]く交通費[こうつうひ]が、意外[いがい]と高[たか]かった。",
+     "vi": "Tiền đi lại tới tòa thị chính đắt bất ngờ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "交通費支給[こうつうひしきゅう] = có trả tiền đi lại; 通勤手当[つうきんてあて] = phụ cấp đi làm."
+  },
+  {
+   "id": "v:社宅:しゃたく",
+   "kana": "しゃたく",
+   "kanji": "社宅",
+   "hv": "XÃ TRẠCH",
+   "vi": "nhà ở công ty cho thuê",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đãi ngộ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社宅[しゃたく]は、工場[こうじょう]から歩[ある]いて五分[ごふん]です。",
+     "vi": "Nhà công ty cách nhà máy 5 phút đi bộ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "社宅[しゃたく]の家賃[やちん]は、給料[きゅうりょう]から引[ひ]かれます。",
+     "vi": "Tiền thuê nhà công ty bị trừ vào lương.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:寮:りょう"
+   ],
+   "note": "寮[りょう] = ký túc xá (thường ở chung); 社宅[しゃたく] = nhà, căn hộ công ty cho thuê (thường ở riêng, cả gia đình)."
+  },
+  {
+   "id": "v:未経験者:みけいけんしゃ",
+   "kana": "みけいけんしゃ",
+   "kanji": "未経験者",
+   "hv": "VỊ KINH NGHIỆM GIẢ",
+   "vi": "người chưa có kinh nghiệm",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Người & phẩm chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "未経験者[みけいけんしゃ]でも、先輩[せんぱい]が丁寧[ていねい]に教[おし]えます。",
+     "vi": "Người chưa có kinh nghiệm cũng được đàn anh dạy tận tình.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "未経験者[みけいけんしゃ]歓迎[かんげい]の仕事[しごと]を、探[さが]しています。",
+     "vi": "Tôi đang tìm việc chào đón người chưa có kinh nghiệm.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:経験:けいけん"
+   ],
+   "note": "未経験者歓迎[みけいけんしゃかんげい] = chào đón người chưa có kinh nghiệm (hay gặp trên tin tuyển)."
+  },
+  {
+   "id": "v:人材:じんざい",
+   "kana": "じんざい",
+   "kanji": "人材",
+   "hv": "NHÂN TÀI",
+   "vi": "nhân lực (xét theo năng lực)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Người & phẩm chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]は、日本語[にほんご]ができる人材[じんざい]を求[もと]めています。",
+     "vi": "Công ty đang cần nhân lực biết tiếng Nhật.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "人材派遣[じんざいはけん]の会社[かいしゃ]に、仕事[しごと]を紹介[しょうかい]してもらいました。",
+     "vi": "Tôi được công ty cung ứng nhân lực giới thiệu việc.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "人材不足[じんざいぶそく] = thiếu nhân lực; 人材派遣[じんざいはけん] = cung ứng nhân lực; 人材育成[じんざいいくせい] = đào tạo nhân lực."
+  },
+  {
+   "id": "v:人柄:ひとがら",
+   "kana": "ひとがら",
+   "kanji": "人柄",
+   "hv": "NHÂN BÍNH",
+   "vi": "nhân cách, phẩm chất con người",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Người & phẩm chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面接[めんせつ]では、人柄[ひとがら]も見[み]られます。",
+     "vi": "Khi phỏng vấn, người ta còn xem cả con người mình.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "班長[はんちょう]は人柄[ひとがら]がよくて、みんなに好[す]かれています。",
+     "vi": "Tổ trưởng là người tốt nên được mọi người quý.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:性格:せいかく"
+   ],
+   "note": "人柄[ひとがら]がいい = người tử tế, dễ mến."
+  },
+  {
+   "id": "v:即戦力:そくせんりょく",
+   "kana": "そくせんりょく",
+   "kanji": "即戦力",
+   "hv": "TỨC CHIẾN LỰC",
+   "vi": "người làm được việc ngay (không cần đào tạo)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Người & phẩm chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "経験者[けいけんしゃ]は、即戦力[そくせんりょく]として期待[きたい]されます。",
+     "vi": "Người có kinh nghiệm được kỳ vọng làm được việc ngay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "人手不足[ひとでぶそく]の会社[かいしゃ]は、即戦力[そくせんりょく]になる人[ひと]を探[さが]しています。",
+     "vi": "Công ty thiếu người đang tìm người làm được việc ngay.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:体力:たいりょく",
+   "kana": "たいりょく",
+   "kanji": "体力",
+   "hv": "THỂ LỰC",
+   "vi": "thể lực (sức để làm việc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Người & phẩm chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冷凍庫[れいとうこ]での作業[さぎょう]は、体力[たいりょく]が必要[ひつよう]です。",
+     "vi": "Làm việc trong kho đông lạnh cần thể lực.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "体力[たいりょく]をつけるために、毎朝[まいあさ]走[はし]っています。",
+     "vi": "Để tăng thể lực, tôi chạy mỗi sáng.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "体力[たいりょく]に自信[じしん]がある = tự tin về thể lực (hay viết trong đơn); 体力[たいりょく]をつける = rèn thể lực."
+  },
+  {
+   "id": "v:勤勉:きんべん",
+   "kana": "きんべん",
+   "kanji": "勤勉",
+   "hv": "CẦN MIỄN",
+   "vi": "cần cù, siêng năng",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Người & phẩm chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ベトナム人[じん]は勤勉[きんべん]だと、よく言[い]われます。",
+     "vi": "Người Việt hay được khen là cần cù.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "勤勉[きんべん]な働[はたら]きぶりが、評価[ひょうか]されました。",
+     "vi": "Cách làm việc cần cù đã được đánh giá cao.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：グエンさんは、いつも一番[いちばん]早[はや]く来[く]るね。B：本当[ほんとう]に勤勉[きんべん]な人[ひと]だよ。",
+     "vi": "A: Anh Nguyễn lúc nào cũng đến sớm nhất nhỉ. B: Đúng là người cần cù thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    },
+    {
+     "jp": "態度[たいど]",
+     "vi": "thái độ"
+    }
+   ],
+   "ant": [
+    {
+     "w": "怠惰[たいだ]",
+     "vi": "lười biếng"
+    }
+   ]
+  },
+  {
+   "id": "v:勤める:つとめる",
+   "kana": "つとめる",
+   "kanji": "勤める",
+   "kf": "勤[つと]める",
+   "hv": "CẦN",
+   "vi": "làm (nhân viên) ở (công ty, cơ quan)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Người & phẩm chất",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "兄[あに]は、神戸[こうべ]の銀行[ぎんこう]に勤[つと]めています。",
+     "vi": "Anh trai tôi làm ở một ngân hàng tại Kobe.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この工場[こうじょう]に勤[つと]めて、もう五年[ごねん]になります。",
+     "vi": "Tôi làm ở nhà máy này đã 5 năm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：どちらにお勤[つと]めですか。B：明石[あかし]の水産[すいさん]会社[かいしゃ]です。",
+     "vi": "A: Anh làm ở đâu ạ? B: Ở một công ty thủy sản tại Akashi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "会社[かいしゃ]に勤[つと]める",
+     "vi": "làm ở công ty"
+    },
+    {
+     "jp": "市役所[しやくしょ]に勤[つと]める",
+     "vi": "làm ở tòa thị chính"
+    }
+   ],
+   "confuse": [
+    "v:働く:はたらく"
+   ],
+   "note": "勤[つと]める đi với に (nơi làm); 働[はたら]く đi với で. Đồng âm: 務[つと]める = đảm nhận vai trò; 努[つと]める = nỗ lực. お勤[つと]め先[さき] = nơi làm việc (lịch sự)."
+  }
+ ]
+}

@@ -1,956 +1,956 @@
 {
- "schema": 1,
- "pack": {
-  "id": "thuysan-04",
-  "title": "Thủy sản 04 – Cách cắt, phần cá, cân & kiểm tra hàng",
-  "type": "vocab",
-  "level": "N1",
-  "topics": [
-   "thuysan"
-  ],
-  "version": 1,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Từ hay nghe và dùng ở xưởng chế biến thủy sản. Phần lớn là từ chuyên ngành, cấp chỉ là ước lượng. Một số cách gọi (アラ桶, 鉄砲…) là cách nói riêng ở xưởng, nơi khác có thể gọi khác."
- },
- "items": [
-  {
-   "id": "v:斜め切り:ななめぎり",
-   "kana": "ななめぎり",
-   "kanji": "斜め切り",
-   "kf": "斜[なな]め切[ぎ]り",
-   "hv": "TÀ THIẾT",
-   "vi": "cắt xéo, lát chéo",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Cách cắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "サーモンを、斜[なな]め切[ぎ]りにしてください。",
-     "vi": "Hãy cắt xéo cá hồi.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "斜[なな]め切[ぎ]りにすると、切[き]り身[み]が大[おお]きく見[み]えます。",
-     "vi": "Cắt xéo thì miếng cá trông to hơn.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "斜[なな]め切[ぎ]りにする",
-     "vi": "cắt xéo"
-    }
-   ],
-   "confuse": [
-    "v:そぎ切り:そぎぎり"
-   ]
+  "schema": 1,
+  "pack": {
+    "id": "thuysan-04",
+    "title": "Thủy sản 04 – Cách cắt, phần cá, cân & kiểm tra hàng",
+    "type": "vocab",
+    "level": "N1",
+    "topics": [
+      "thuysan"
+    ],
+    "version": 2,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Từ hay nghe và dùng ở xưởng chế biến thủy sản. Phần lớn là từ chuyên ngành, cấp chỉ là ước lượng. Một số cách gọi (アラ桶, 鉄砲…) là cách nói riêng ở xưởng, nơi khác có thể gọi khác."
   },
-  {
-   "id": "v:そぎ切り:そぎぎり",
-   "kana": "そぎぎり",
-   "kanji": "そぎ切り",
-   "kf": "そぎ切[ぎ]り",
-   "hv": "THIẾT",
-   "vi": "cắt nghiêng dao (lát mỏng, rộng bản)",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Cách cắt",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "包丁[ほうちょう]を寝[ね]かせて、そぎ切[ぎ]りにします。",
-     "vi": "Đặt nghiêng dao để cắt lát mỏng rộng bản.",
-     "ctx": "xuong"
+      "id": "v:斜め切り:ななめぎり",
+      "kana": "ななめぎり",
+      "kanji": "斜め切り",
+      "kf": "斜[なな]め切[ぎ]り",
+      "hv": "TÀ THIẾT",
+      "vi": "cắt xéo, lát chéo",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Cách cắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "サーモンを、斜[なな]め切[ぎ]りにしてください。",
+          "vi": "Hãy cắt xéo cá hồi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "斜[なな]め切[ぎ]りにすると、切[き]り身[み]が大[おお]きく見[み]えます。",
+          "vi": "Cắt xéo thì miếng cá trông to hơn.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "斜[なな]め切[ぎ]りにする",
+          "vi": "cắt xéo"
+        }
+      ],
+      "confuse": [
+        "v:そぎ切り:そぎぎり"
+      ]
     },
     {
-     "jp": "柵[さく]を、そぎ切[ぎ]りで薄[うす]く切[き]ってください。",
-     "vi": "Thái thăn cá mỏng theo kiểu nghiêng dao.",
-     "ctx": "xuong"
-    }
-   ],
-   "confuse": [
-    "v:斜め切り:ななめぎり"
-   ],
-   "rel": [
-    "v:削ぐ:そぐ"
-   ],
-   "note": "Chữ Hán: 削[そ]ぎ切[ぎ]り. Dao đặt gần như nằm ngang để lát mỏng mà rộng."
-  },
-  {
-   "id": "v:削ぐ:そぐ",
-   "kana": "そぐ",
-   "kanji": "削ぐ",
-   "kf": "削[そ]ぐ",
-   "hv": "TƯỚC",
-   "vi": "xắt vát, lạng mỏng",
-   "pos": "v5",
-   "level": "N1",
-   "vt": "tha",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Cách cắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "包丁[ほうちょう]で、身[み]を薄[うす]く削[そ]ぎます。",
-     "vi": "Lạng mỏng thịt cá bằng dao.",
-     "ctx": "xuong"
+      "id": "v:そぎ切り:そぎぎり",
+      "kana": "そぎぎり",
+      "kanji": "そぎ切り",
+      "kf": "そぎ切[ぎ]り",
+      "hv": "THIẾT",
+      "vi": "cắt nghiêng dao (lát mỏng, rộng bản)",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Cách cắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "包丁[ほうちょう]を寝[ね]かせて、そぎ切[ぎ]りにします。",
+          "vi": "Đặt nghiêng dao để cắt lát mỏng rộng bản.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "柵[さく]を、そぎ切[ぎ]りで薄[うす]く切[き]ってください。",
+          "vi": "Thái thăn cá mỏng theo kiểu nghiêng dao.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:斜め切り:ななめぎり"
+      ],
+      "rel": [
+        "v:削ぐ:そぐ"
+      ],
+      "note": "Chữ Hán: 削[そ]ぎ切[ぎ]り. Dao đặt gần như nằm ngang để lát mỏng mà rộng."
     },
     {
-     "jp": "皮[かわ]の近[ちか]くの身[み]を、削[そ]いでください。",
-     "vi": "Hãy lạng phần thịt sát da ra.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "身[み]を削[そ]ぐ",
-     "vi": "lạng thịt cá"
-    }
-   ],
-   "note": "Thường viết kana: そぐ."
-  },
-  {
-   "id": "v:平行:へいこう",
-   "kana": "へいこう",
-   "kanji": "平行",
-   "hv": "BÌNH HÀNG",
-   "vi": "song song",
-   "pos": "adj-na",
-   "level": "N2",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Cách cắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "線[せん]と平行[へいこう]に、切[き]ってください。",
-     "vi": "Hãy cắt song song với đường kẻ.",
-     "ctx": "xuong"
+      "id": "v:削ぐ:そぐ",
+      "kana": "そぐ",
+      "kanji": "削ぐ",
+      "kf": "削[そ]ぐ",
+      "hv": "TƯỚC",
+      "vi": "xắt vát, lạng mỏng",
+      "pos": "v5",
+      "level": "N1",
+      "vt": "tha",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Cách cắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "包丁[ほうちょう]で、身[み]を薄[うす]く削[そ]ぎます。",
+          "vi": "Lạng mỏng thịt cá bằng dao.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "皮[かわ]の近[ちか]くの身[み]を、削[そ]いでください。",
+          "vi": "Hãy lạng phần thịt sát da ra.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "身[み]を削[そ]ぐ",
+          "vi": "lạng thịt cá"
+        }
+      ],
+      "note": "Thường viết kana: そぐ."
     },
     {
-     "jp": "包丁[ほうちょう]を、まな板[いた]と平行[へいこう]に動[うご]かします。",
-     "vi": "Di chuyển dao song song với thớt.",
-     "ctx": "xuong"
+      "id": "v:平行:へいこう",
+      "kana": "へいこう",
+      "kanji": "平行",
+      "hv": "BÌNH HÀNH",
+      "vi": "song song",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Cách cắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "線[せん]と平行[へいこう]に、切[き]ってください。",
+          "vi": "Hãy cắt song song với đường kẻ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "包丁[ほうちょう]を、まな板[いた]と平行[へいこう]に動[うご]かします。",
+          "vi": "Di chuyển dao song song với thớt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "二本[にほん]の線[せん]が、平行[へいこう]になっています。",
+          "vi": "Hai đường thẳng song song nhau.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "平行[へいこう]に切[き]る",
+          "vi": "cắt song song"
+        }
+      ],
+      "note": "Đừng nhầm 並行[へいこう] (làm hai việc song song cùng lúc)."
     },
     {
-     "jp": "二本[にほん]の線[せん]が、平行[へいこう]になっています。",
-     "vi": "Hai đường thẳng song song nhau.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "平行[へいこう]に切[き]る",
-     "vi": "cắt song song"
-    }
-   ],
-   "note": "Đừng nhầm 並行[へいこう] (làm hai việc song song cùng lúc)."
-  },
-  {
-   "id": "v:押し切り:おしぎり",
-   "kana": "おしぎり",
-   "kanji": "押し切り",
-   "kf": "押[お]し切[ぎ]り",
-   "hv": "ÁP THIẾT",
-   "vi": "cắt đẩy dao (đẩy dao về phía trước)",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Cách cắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "押[お]し切[き]りは、包丁[ほうちょう]を前[まえ]に押[お]しながら切[き]る方法[ほうほう]です。",
-     "vi": "Cắt đẩy dao là vừa đẩy dao về phía trước vừa cắt.",
-     "ctx": "xuong"
+      "id": "v:押し切り:おしぎり",
+      "kana": "おしぎり",
+      "kanji": "押し切り",
+      "kf": "押[お]し切[ぎ]り",
+      "hv": "ÁP THIẾT",
+      "vi": "cắt đẩy dao (đẩy dao về phía trước)",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Cách cắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "押[お]し切[き]りは、包丁[ほうちょう]を前[まえ]に押[お]しながら切[き]る方法[ほうほう]です。",
+          "vi": "Cắt đẩy dao là vừa đẩy dao về phía trước vừa cắt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "押[お]し切[き]りと引[ひ]き切[き]りを、使[つか]い分[わ]けてください。",
+          "vi": "Hãy phân biệt lúc nào cắt đẩy dao, lúc nào kéo dao.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        "v:引き切り:ひきぎり"
+      ]
     },
     {
-     "jp": "押[お]し切[き]りと引[ひ]き切[き]りを、使[つか]い分[わ]けてください。",
-     "vi": "Hãy phân biệt lúc nào cắt đẩy dao, lúc nào kéo dao.",
-     "ctx": "xuong"
-    }
-   ],
-   "ant": [
-    "v:引き切り:ひきぎり"
-   ]
-  },
-  {
-   "id": "v:引き切り:ひきぎり",
-   "kana": "ひきぎり",
-   "kanji": "引き切り",
-   "kf": "引[ひ]き切[ぎ]り",
-   "hv": "DẪN THIẾT",
-   "vi": "cắt kéo dao (kéo dao về phía mình)",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Cách cắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "引[ひ]き切[き]りは、包丁[ほうちょう]を手前[てまえ]に引[ひ]きながら切[き]る方法[ほうほう]です。",
-     "vi": "Cắt kéo dao là vừa kéo dao về phía mình vừa cắt.",
-     "ctx": "xuong"
+      "id": "v:引き切り:ひきぎり",
+      "kana": "ひきぎり",
+      "kanji": "引き切り",
+      "kf": "引[ひ]き切[ぎ]り",
+      "hv": "DẪN THIẾT",
+      "vi": "cắt kéo dao (kéo dao về phía mình)",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Cách cắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "引[ひ]き切[き]りは、包丁[ほうちょう]を手前[てまえ]に引[ひ]きながら切[き]る方法[ほうほう]です。",
+          "vi": "Cắt kéo dao là vừa kéo dao về phía mình vừa cắt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "刺身[さしみ]は、引[ひ]き切[き]りで一回[いっかい]で切[き]ります。",
+          "vi": "Sashimi thì kéo dao một lần là đứt.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        "v:押し切り:おしぎり"
+      ],
+      "note": "Thái sashimi bằng 柳刃包丁[やなぎばぼうちょう] thường dùng kiểu này."
     },
     {
-     "jp": "刺身[さしみ]は、引[ひ]き切[き]りで一回[いっかい]で切[き]ります。",
-     "vi": "Sashimi thì kéo dao một lần là đứt.",
-     "ctx": "xuong"
-    }
-   ],
-   "ant": [
-    "v:押し切り:おしぎり"
-   ],
-   "note": "Thái sashimi bằng 柳刃包丁[やなぎばぼうちょう] thường dùng kiểu này."
-  },
-  {
-   "id": "v:切れ端:きれはし",
-   "kana": "きれはし",
-   "kanji": "切れ端",
-   "kf": "切[き]れ端[はし]",
-   "hv": "THIẾT ĐOAN",
-   "vi": "mẩu vụn, đầu thừa",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Phần cá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "切[き]れ端[はし]は、別[べつ]のかごに入[い]れてください。",
-     "vi": "Mẩu vụn hãy bỏ vào rổ riêng.",
-     "ctx": "xuong"
+      "id": "v:切れ端:きれはし",
+      "kana": "きれはし",
+      "kanji": "切れ端",
+      "kf": "切[き]れ端[はし]",
+      "hv": "THIẾT ĐOAN",
+      "vi": "mẩu vụn, đầu thừa",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Phần cá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "切[き]れ端[はし]は、別[べつ]のかごに入[い]れてください。",
+          "vi": "Mẩu vụn hãy bỏ vào rổ riêng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "切[き]れ端[はし]は、捨[す]てないで集[あつ]めておいて。",
+          "vi": "Mẩu vụn đừng bỏ, gom lại sẵn.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:アラ:アラ"
+      ]
     },
     {
-     "jp": "切[き]れ端[はし]は、捨[す]てないで集[あつ]めておいて。",
-     "vi": "Mẩu vụn đừng bỏ, gom lại sẵn.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:アラ:アラ"
-   ]
-  },
-  {
-   "id": "v:アラ:アラ",
-   "kana": "アラ",
-   "kanji": "",
-   "hv": "",
-   "vi": "vụn cá (đầu, xương còn lại sau khi lọc)",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Phần cá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "三枚[さんまい]おろしの後[あと]のアラは、アラ桶[おけ]に入[い]れます。",
-     "vi": "Vụn cá sau khi lọc ba phần thì bỏ vào thùng vụn.",
-     "ctx": "xuong"
+      "id": "v:アラ:アラ",
+      "kana": "アラ",
+      "kanji": "",
+      "hv": "",
+      "vi": "vụn cá (đầu, xương còn lại sau khi lọc)",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Phần cá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "三枚[さんまい]おろしの後[あと]のアラは、アラ桶[おけ]に入[い]れます。",
+          "vi": "Vụn cá sau khi lọc ba phần thì bỏ vào thùng vụn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "アラで、おいしい味噌汁[みそしる]が作[つく]れます。",
+          "vi": "Có thể nấu canh miso ngon từ vụn cá.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:アラ桶:アラおけ",
+        "v:中骨:なかぼね"
+      ],
+      "note": "Chữ Hán: 粗[あら] (thường viết アラ). Món ăn: アラ煮[に] (đầu cá kho)."
     },
     {
-     "jp": "アラで、おいしい味噌汁[みそしる]が作[つく]れます。",
-     "vi": "Có thể nấu canh miso ngon từ vụn cá.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    "v:アラ桶:アラおけ",
-    "v:中骨:なかぼね"
-   ],
-   "note": "Chữ Hán: 粗[あら] (thường viết アラ). Món ăn: アラ煮[に] (đầu cá kho)."
-  },
-  {
-   "id": "v:アラ桶:アラおけ",
-   "kana": "アラおけ",
-   "kanji": "アラ桶",
-   "kf": "アラ桶[おけ]",
-   "hv": "DŨNG",
-   "vi": "thùng đựng vụn cá",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Phần cá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "アラ桶[おけ]が一杯[いっぱい]になったら、外[そと]に運[はこ]んでください。",
-     "vi": "Thùng vụn đầy thì mang ra ngoài.",
-     "ctx": "xuong"
+      "id": "v:アラ桶:アラおけ",
+      "kana": "アラおけ",
+      "kanji": "アラ桶",
+      "kf": "アラ桶[おけ]",
+      "hv": "DŨNG",
+      "vi": "thùng đựng vụn cá",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Phần cá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "アラ桶[おけ]が一杯[いっぱい]になったら、外[そと]に運[はこ]んでください。",
+          "vi": "Thùng vụn đầy thì mang ra ngoài.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "アラ桶[おけ]に、手袋[てぶくろ]を捨[す]てないで。",
+          "vi": "Đừng vứt găng tay vào thùng vụn cá.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:アラ:アラ"
+      ],
+      "ctr": "個",
+      "note": "桶[おけ] = thùng, chậu. Cách gọi ở xưởng, nơi khác có thể gọi khác."
     },
     {
-     "jp": "アラ桶[おけ]に、手袋[てぶくろ]を捨[す]てないで。",
-     "vi": "Đừng vứt găng tay vào thùng vụn cá.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:アラ:アラ"
-   ],
-   "ctr": "個",
-   "note": "桶[おけ] = thùng, chậu. Cách gọi ở xưởng, nơi khác có thể gọi khác."
-  },
-  {
-   "id": "v:ばらす:ばらす",
-   "kana": "ばらす",
-   "kanji": "",
-   "hv": "",
-   "vi": "tách rời ra (khối cá đông, hàng dính nhau)",
-   "pos": "v5",
-   "level": "N2",
-   "vt": "tha",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Thao tác",
-   "reg": "khaungu",
-   "ex": [
-    {
-     "jp": "冷凍[れいとう]の魚[さかな]を、一匹[いっぴき]ずつばらしてください。",
-     "vi": "Tách từng con cá đông ra.",
-     "ctx": "xuong"
+      "id": "v:ばらす:ばらす",
+      "kana": "ばらす",
+      "kanji": "",
+      "hv": "",
+      "vi": "tách rời ra (khối cá đông, hàng dính nhau)",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Thao tác",
+      "reg": "khaungu",
+      "ex": [
+        {
+          "jp": "冷凍[れいとう]の魚[さかな]を、一匹[いっぴき]ずつばらしてください。",
+          "vi": "Tách từng con cá đông ra.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "くっついた切[き]り身[み]を、ばらして並[なら]べます。",
+          "vi": "Tách các miếng cá dính nhau rồi xếp ra.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "魚[さかな]をばらす",
+          "vi": "tách cá ra"
+        }
+      ],
+      "rel": [
+        "v:ばらばら:ばらばら"
+      ],
+      "note": "Danh từ: ばらし (việc tách rời). Cũng viết バラす. Nghĩa khác (khẩu ngữ): tiết lộ bí mật."
     },
     {
-     "jp": "くっついた切[き]り身[み]を、ばらして並[なら]べます。",
-     "vi": "Tách các miếng cá dính nhau rồi xếp ra.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "魚[さかな]をばらす",
-     "vi": "tách cá ra"
-    }
-   ],
-   "rel": [
-    "v:ばらばら:ばらばら"
-   ],
-   "note": "Danh từ: ばらし (việc tách rời). Cũng viết バラす. Nghĩa khác (khẩu ngữ): tiết lộ bí mật."
-  },
-  {
-   "id": "v:刃:は",
-   "kana": "は",
-   "kanji": "刃",
-   "hv": "NHẬN",
-   "vi": "lưỡi dao",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Dao",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "包丁[ほうちょう]の刃[は]に、触[さわ]らないでください。",
-     "vi": "Đừng chạm vào lưỡi dao.",
-     "ctx": "xuong"
+      "id": "v:刃:は",
+      "kana": "は",
+      "kanji": "刃",
+      "hv": "NHẬN",
+      "vi": "lưỡi dao",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Dao",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "包丁[ほうちょう]の刃[は]に、触[さわ]らないでください。",
+          "vi": "Đừng chạm vào lưỡi dao.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "刃[は]が欠[か]けたら、すぐ班長[はんちょう]に言[い]ってください。",
+          "vi": "Lưỡi dao sứt mẻ thì báo tổ trưởng ngay.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:刃先:はさき"
+      ],
+      "note": "Cùng âm は: 歯[は] (răng), 葉[は] (lá)."
     },
     {
-     "jp": "刃[は]が欠[か]けたら、すぐ班長[はんちょう]に言[い]ってください。",
-     "vi": "Lưỡi dao sứt mẻ thì báo tổ trưởng ngay.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:刃先:はさき"
-   ],
-   "note": "Cùng âm は: 歯[は] (răng), 葉[は] (lá)."
-  },
-  {
-   "id": "v:刃先:はさき",
-   "kana": "はさき",
-   "kanji": "刃先",
-   "hv": "NHẬN TIÊN",
-   "vi": "mũi dao, đầu lưỡi dao",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Dao",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "刃先[はさき]で、腹[はら]を切[き]ります。",
-     "vi": "Rạch bụng cá bằng mũi dao.",
-     "ctx": "xuong"
+      "id": "v:刃先:はさき",
+      "kana": "はさき",
+      "kanji": "刃先",
+      "hv": "NHẬN TIÊN",
+      "vi": "mũi dao, đầu lưỡi dao",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Dao",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "刃先[はさき]で、腹[はら]を切[き]ります。",
+          "vi": "Rạch bụng cá bằng mũi dao.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "刃先[はさき]を、人[ひと]に向[む]けないでください。",
+          "vi": "Đừng chĩa mũi dao vào người.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:刃:は"
+      ]
     },
     {
-     "jp": "刃先[はさき]を、人[ひと]に向[む]けないでください。",
-     "vi": "Đừng chĩa mũi dao vào người.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:刃:は"
-   ]
-  },
-  {
-   "id": "v:尾:お",
-   "kana": "お",
-   "kanji": "尾",
-   "hv": "VĨ",
-   "vi": "đuôi (cá; văn viết)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Phần cá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "尾[お]の近[ちか]くは、身[み]が薄[うす]いです。",
-     "vi": "Gần đuôi thịt mỏng.",
-     "ctx": "xuong"
+      "id": "v:尾:お",
+      "kana": "お",
+      "kanji": "尾",
+      "hv": "VĨ",
+      "vi": "đuôi (cá; văn viết)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Phần cá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "尾[お]の近[ちか]くは、身[み]が薄[うす]いです。",
+          "vi": "Gần đuôi thịt mỏng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "尾[お]を、切[き]り落[お]としてください。",
+          "vi": "Hãy cắt bỏ đuôi.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:尻尾:しっぽ"
+      ],
+      "note": "Còn là trợ số từ đếm cá: 一尾[いちび] (một con). Nói thường: 尻尾[しっぽ]."
     },
     {
-     "jp": "尾[お]を、切[き]り落[お]としてください。",
-     "vi": "Hãy cắt bỏ đuôi.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:尻尾:しっぽ"
-   ],
-   "note": "Còn là trợ số từ đếm cá: 一尾[いちび] (một con). Nói thường: 尻尾[しっぽ]."
-  },
-  {
-   "id": "v:尻尾:しっぽ",
-   "kana": "しっぽ",
-   "kanji": "尻尾",
-   "hv": "KHÀO VĨ",
-   "vi": "cái đuôi (khẩu ngữ)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Phần cá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "魚[さかな]の尻尾[しっぽ]を持[も]って、運[はこ]ばないで。",
-     "vi": "Đừng cầm đuôi cá để mang đi.",
-     "ctx": "xuong"
+      "id": "v:尻尾:しっぽ",
+      "kana": "しっぽ",
+      "kanji": "尻尾",
+      "hv": "KHÀO VĨ",
+      "vi": "cái đuôi (khẩu ngữ)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Phần cá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "魚[さかな]の尻尾[しっぽ]を持[も]って、運[はこ]ばないで。",
+          "vi": "Đừng cầm đuôi cá để mang đi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "犬[いぬ]が、尻尾[しっぽ]を振[ふ]っています。",
+          "vi": "Con chó đang vẫy đuôi.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:尾:お"
+      ]
     },
     {
-     "jp": "犬[いぬ]が、尻尾[しっぽ]を振[ふ]っています。",
-     "vi": "Con chó đang vẫy đuôi.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:尾:お"
-   ]
-  },
-  {
-   "id": "v:切り口:きりぐち",
-   "kana": "きりぐち",
-   "kanji": "切り口",
-   "kf": "切[き]り口[ぐち]",
-   "hv": "THIẾT KHẨU",
-   "vi": "mặt cắt, vết cắt",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Cách cắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "切[き]り口[くち]が、きれいですね。",
-     "vi": "Mặt cắt đẹp nhỉ.",
-     "ctx": "xuong"
+      "id": "v:切り口:きりぐち",
+      "kana": "きりぐち",
+      "kanji": "切り口",
+      "kf": "切[き]り口[ぐち]",
+      "hv": "THIẾT KHẨU",
+      "vi": "mặt cắt, vết cắt",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Cách cắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "切[き]り口[くち]が、きれいですね。",
+          "vi": "Mặt cắt đẹp nhỉ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "切[き]り口[くち]が変色[へんしょく]したら、使[つか]えません。",
+          "vi": "Mặt cắt đổi màu thì không dùng được.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "切[き]り口[くち]が変色[へんしょく]したら、使[つか]えません。",
-     "vi": "Mặt cắt đổi màu thì không dùng được.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:均等:きんとう",
-   "kana": "きんとう",
-   "kanji": "均等",
-   "hv": "QUÂN ĐẲNG",
-   "vi": "đều nhau",
-   "pos": "adj-na",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Cách cắt",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "同[おな]じ厚[あつ]さに、均等[きんとう]に切[き]ってください。",
-     "vi": "Hãy cắt đều nhau cùng độ dày.",
-     "ctx": "xuong"
+      "id": "v:均等:きんとう",
+      "kana": "きんとう",
+      "kanji": "均等",
+      "hv": "QUÂN ĐẲNG",
+      "vi": "đều nhau",
+      "pos": "adj-na",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Cách cắt",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "同[おな]じ厚[あつ]さに、均等[きんとう]に切[き]ってください。",
+          "vi": "Hãy cắt đều nhau cùng độ dày.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "重[おも]さを、均等[きんとう]に分[わ]けます。",
+          "vi": "Chia đều trọng lượng.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "均等[きんとう]に切[き]る",
+          "vi": "cắt đều"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "厚[あつ]さ",
+          "vi": "độ dày"
+        }
+      ]
     },
     {
-     "jp": "重[おも]さを、均等[きんとう]に分[わ]けます。",
-     "vi": "Chia đều trọng lượng.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "均等[きんとう]に切[き]る",
-     "vi": "cắt đều"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "厚[あつ]さ",
-     "vi": "độ dày"
-    }
-   ]
-  },
-  {
-   "id": "v:重量:じゅうりょう",
-   "kana": "じゅうりょう",
-   "kanji": "重量",
-   "hv": "TRỌNG LƯỢNG",
-   "vi": "trọng lượng",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Cân",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "一[ひと]パックの重量[じゅうりょう]は、二百[にひゃく]グラムです。",
-     "vi": "Trọng lượng một hộp là 200 gam.",
-     "ctx": "xuong"
+      "id": "v:重量:じゅうりょう",
+      "kana": "じゅうりょう",
+      "kanji": "重量",
+      "hv": "TRỌNG LƯỢNG",
+      "vi": "trọng lượng",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Cân",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "一[ひと]パックの重量[じゅうりょう]は、二百[にひゃく]グラムです。",
+          "vi": "Trọng lượng một hộp là 200 gam.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "重量[じゅうりょう]が、少[すこ]しオーバーしています。",
+          "vi": "Trọng lượng hơi dư.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:重さ:おもさ"
+      ],
+      "note": "Văn viết, trên nhãn hàng. Nói thường: 重[おも]さ."
     },
     {
-     "jp": "重量[じゅうりょう]が、少[すこ]しオーバーしています。",
-     "vi": "Trọng lượng hơi dư.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:重さ:おもさ"
-   ],
-   "note": "Văn viết, trên nhãn hàng. Nói thường: 重[おも]さ."
-  },
-  {
-   "id": "v:目方:めかた",
-   "kana": "めかた",
-   "kanji": "目方",
-   "hv": "MỤC PHƯƠNG",
-   "vi": "số cân (khẩu ngữ ở chợ, xưởng)",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Cân",
-   "reg": "khaungu",
-   "ex": [
-    {
-     "jp": "目方[めかた]を量[はか]ってから、パックに詰[つ]めます。",
-     "vi": "Cân xong rồi mới cho vào hộp.",
-     "ctx": "xuong"
+      "id": "v:目方:めかた",
+      "kana": "めかた",
+      "kanji": "目方",
+      "hv": "MỤC PHƯƠNG",
+      "vi": "số cân (khẩu ngữ ở chợ, xưởng)",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Cân",
+      "reg": "khaungu",
+      "ex": [
+        {
+          "jp": "目方[めかた]を量[はか]ってから、パックに詰[つ]めます。",
+          "vi": "Cân xong rồi mới cho vào hộp.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "目方[めかた]が足[た]りないよ。もう一切[ひとき]れ入[い]れて。",
+          "vi": "Thiếu cân đấy. Cho thêm một miếng.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "syn": [
+        "v:重量:じゅうりょう"
+      ]
     },
     {
-     "jp": "目方[めかた]が足[た]りないよ。もう一切[ひとき]れ入[い]れて。",
-     "vi": "Thiếu cân đấy. Cho thêm một miếng.",
-     "ctx": "hoithoai"
-    }
-   ],
-   "syn": [
-    "v:重量:じゅうりょう"
-   ]
-  },
-  {
-   "id": "v:誤差:ごさ",
-   "kana": "ごさ",
-   "kanji": "誤差",
-   "hv": "NGỘ SAI",
-   "vi": "sai số",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Cân",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "秤[はかり]の誤差[ごさ]は、二[に]グラムまでです。",
-     "vi": "Sai số của cân tối đa 2 gam.",
-     "ctx": "xuong"
+      "id": "v:誤差:ごさ",
+      "kana": "ごさ",
+      "kanji": "誤差",
+      "hv": "NGỘ SAI",
+      "vi": "sai số",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Cân",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "秤[はかり]の誤差[ごさ]は、二[に]グラムまでです。",
+          "vi": "Sai số của cân tối đa 2 gam.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "誤差[ごさ]の範囲[はんい]なので、大丈夫[だいじょうぶ]です。",
+          "vi": "Trong phạm vi sai số nên không sao.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "誤差[ごさ]の範囲[はんい]なので、大丈夫[だいじょうぶ]です。",
-     "vi": "Trong phạm vi sai số nên không sao.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:ひれ:ひれ",
-   "kana": "ひれ",
-   "kanji": "",
-   "hv": "",
-   "vi": "vây cá",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Phần cá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ひれが固[かた]いので、気[き]をつけて。",
-     "vi": "Vây cứng, cẩn thận đấy.",
-     "ctx": "xuong"
+      "id": "v:ひれ:ひれ",
+      "kana": "ひれ",
+      "kanji": "",
+      "hv": "",
+      "vi": "vây cá",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Phần cá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ひれが固[かた]いので、気[き]をつけて。",
+          "vi": "Vây cứng, cẩn thận đấy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ひれを、はさみで切[き]り落[お]とします。",
+          "vi": "Cắt bỏ vây bằng kéo.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Chữ Hán: 鰭[ひれ] (thường viết kana). 背[せ]びれ = vây lưng."
     },
     {
-     "jp": "ひれを、はさみで切[き]り落[お]とします。",
-     "vi": "Cắt bỏ vây bằng kéo.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Chữ Hán: 鰭[ひれ] (thường viết kana). 背[せ]びれ = vây lưng."
-  },
-  {
-   "id": "v:えら:えら",
-   "kana": "えら",
-   "kanji": "",
-   "hv": "",
-   "vi": "mang cá",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Phần cá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "えらの色[いろ]で、鮮度[せんど]が分[わ]かります。",
-     "vi": "Nhìn màu mang biết độ tươi.",
-     "ctx": "xuong"
+      "id": "v:えら:えら",
+      "kana": "えら",
+      "kanji": "",
+      "hv": "",
+      "vi": "mang cá",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Phần cá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "えらの色[いろ]で、鮮度[せんど]が分[わ]かります。",
+          "vi": "Nhìn màu mang biết độ tươi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "えらを取[と]って、水[みず]で洗[あら]います。",
+          "vi": "Bỏ mang rồi rửa bằng nước.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:鮮度:せんど"
+      ],
+      "note": "Chữ Hán: 鰓[えら] (thường viết kana). Mang đỏ tươi là cá còn tươi."
     },
     {
-     "jp": "えらを取[と]って、水[みず]で洗[あら]います。",
-     "vi": "Bỏ mang rồi rửa bằng nước.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:鮮度:せんど"
-   ],
-   "note": "Chữ Hán: 鰓[えら] (thường viết kana). Mang đỏ tươi là cá còn tươi."
-  },
-  {
-   "id": "v:はらわた:はらわた",
-   "kana": "はらわた",
-   "kanji": "",
-   "hv": "",
-   "vi": "ruột cá",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Phần cá",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "はらわたを、きれいに取[と]ってください。",
-     "vi": "Hãy lấy sạch ruột cá.",
-     "ctx": "xuong"
+      "id": "v:はらわた:はらわた",
+      "kana": "はらわた",
+      "kanji": "",
+      "hv": "",
+      "vi": "ruột cá",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Phần cá",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "はらわたを、きれいに取[と]ってください。",
+          "vi": "Hãy lấy sạch ruột cá.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "はらわたが残[のこ]っていると、臭[くさ]くなります。",
+          "vi": "Còn sót ruột thì sẽ bốc mùi.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:内臓:ないぞう"
+      ],
+      "note": "Chữ Hán: 腸[はらわた]. Văn viết: 内臓[ないぞう]."
     },
     {
-     "jp": "はらわたが残[のこ]っていると、臭[くさ]くなります。",
-     "vi": "Còn sót ruột thì sẽ bốc mùi.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:内臓:ないぞう"
-   ],
-   "note": "Chữ Hán: 腸[はらわた]. Văn viết: 内臓[ないぞう]."
-  },
-  {
-   "id": "v:異物:いぶつ",
-   "kana": "いぶつ",
-   "kanji": "異物",
-   "hv": "DỊ VẬT",
-   "vi": "dị vật",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Kiểm tra",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "異物[いぶつ]が入[はい]っていないか、よく見[み]てください。",
-     "vi": "Hãy xem kỹ có dị vật lẫn vào không.",
-     "ctx": "xuong"
+      "id": "v:異物:いぶつ",
+      "kana": "いぶつ",
+      "kanji": "異物",
+      "hv": "DỊ VẬT",
+      "vi": "dị vật",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Kiểm tra",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "異物[いぶつ]が入[はい]っていないか、よく見[み]てください。",
+          "vi": "Hãy xem kỹ có dị vật lẫn vào không.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "異物[いぶつ]を見[み]つけたら、すぐ班長[はんちょう]に報告[ほうこく]します。",
+          "vi": "Thấy dị vật thì báo tổ trưởng ngay.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "異物混入[いぶつこんにゅう] = lẫn dị vật (lỗi nghiêm trọng ở xưởng thực phẩm)."
     },
     {
-     "jp": "異物[いぶつ]を見[み]つけたら、すぐ班長[はんちょう]に報告[ほうこく]します。",
-     "vi": "Thấy dị vật thì báo tổ trưởng ngay.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "異物混入[いぶつこんにゅう] = lẫn dị vật (lỗi nghiêm trọng ở xưởng thực phẩm)."
-  },
-  {
-   "id": "v:毛髪:もうはつ",
-   "kana": "もうはつ",
-   "kanji": "毛髪",
-   "hv": "MAO PHÁT",
-   "vi": "sợi tóc (văn viết: biển báo, phiếu kiểm)",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Kiểm tra",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "毛髪[もうはつ]混入[こんにゅう]を防[ふせ]ぐため、ローラーをかけます。",
-     "vi": "Lăn cây lăn bụi để tránh lẫn tóc.",
-     "ctx": "xuong"
+      "id": "v:毛髪:もうはつ",
+      "kana": "もうはつ",
+      "kanji": "毛髪",
+      "hv": "MAO PHÁT",
+      "vi": "sợi tóc (văn viết: biển báo, phiếu kiểm)",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Kiểm tra",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "毛髪[もうはつ]混入[こんにゅう]を防[ふせ]ぐため、ローラーをかけます。",
+          "vi": "Lăn cây lăn bụi để tránh lẫn tóc.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "製品[せいひん]から、毛髪[もうはつ]が見[み]つかりました。",
+          "vi": "Phát hiện sợi tóc trong sản phẩm.",
+          "ctx": "xuong"
+        }
+      ],
+      "syn": [
+        "v:髪の毛:かみのけ"
+      ],
+      "confuse": [
+        "v:手紙:てがみ"
+      ],
+      "note": "Nói thường: 髪[かみ]の毛[け], hoặc chỉ 毛[け] (毛[け]が入[はい]ってる！). 髪[かみ] = tóc nói chung. Đừng nhầm 手紙[てがみ] = lá thư."
     },
     {
-     "jp": "製品[せいひん]から、毛髪[もうはつ]が見[み]つかりました。",
-     "vi": "Phát hiện sợi tóc trong sản phẩm.",
-     "ctx": "xuong"
-    }
-   ],
-   "syn": [
-    "v:髪の毛:かみのけ"
-   ],
-   "confuse": [
-    "v:手紙:てがみ"
-   ],
-   "note": "Nói thường: 髪[かみ]の毛[け], hoặc chỉ 毛[け] (毛[け]が入[はい]ってる！). 髪[かみ] = tóc nói chung. Đừng nhầm 手紙[てがみ] = lá thư."
-  },
-  {
-   "id": "v:身割れ:みわれ",
-   "kana": "みわれ",
-   "kanji": "身割れ",
-   "kf": "身割[みわ]れ",
-   "hv": "THÂN CÁT",
-   "vi": "thịt cá bị nứt",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Kiểm tra",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "身割[みわ]れした刺身[さしみ]は、別[べつ]にしてください。",
-     "vi": "Sashimi bị nứt thịt thì để riêng.",
-     "ctx": "xuong"
+      "id": "v:身割れ:みわれ",
+      "kana": "みわれ",
+      "kanji": "身割れ",
+      "kf": "身割[みわ]れ",
+      "hv": "THÂN CÁT",
+      "vi": "thịt cá bị nứt",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Kiểm tra",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "身割[みわ]れした刺身[さしみ]は、別[べつ]にしてください。",
+          "vi": "Sashimi bị nứt thịt thì để riêng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "強[つよ]く押[お]すと、身割[みわ]れします。",
+          "vi": "Ấn mạnh là thịt bị nứt.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:身崩れ:みくずれ"
+      ]
     },
     {
-     "jp": "強[つよ]く押[お]すと、身割[みわ]れします。",
-     "vi": "Ấn mạnh là thịt bị nứt.",
-     "ctx": "xuong"
-    }
-   ],
-   "confuse": [
-    "v:身崩れ:みくずれ"
-   ]
-  },
-  {
-   "id": "v:身崩れ:みくずれ",
-   "kana": "みくずれ",
-   "kanji": "身崩れ",
-   "kf": "身崩[みくず]れ",
-   "hv": "THÂN BĂNG",
-   "vi": "thịt cá bị nát",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Kiểm tra",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "解凍[かいとう]しすぎると、身[み]崩[くず]れします。",
-     "vi": "Rã đông quá thì thịt bị nát.",
-     "ctx": "xuong"
+      "id": "v:身崩れ:みくずれ",
+      "kana": "みくずれ",
+      "kanji": "身崩れ",
+      "kf": "身崩[みくず]れ",
+      "hv": "THÂN BĂNG",
+      "vi": "thịt cá bị nát",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Kiểm tra",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "解凍[かいとう]しすぎると、身[み]崩[くず]れします。",
+          "vi": "Rã đông quá thì thịt bị nát.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "身[み]崩[くず]れしないように、そっと扱[あつか]ってください。",
+          "vi": "Xử lý nhẹ tay để thịt không bị nát.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:身割れ:みわれ"
+      ]
     },
     {
-     "jp": "身[み]崩[くず]れしないように、そっと扱[あつか]ってください。",
-     "vi": "Xử lý nhẹ tay để thịt không bị nát.",
-     "ctx": "xuong"
-    }
-   ],
-   "confuse": [
-    "v:身割れ:みわれ"
-   ]
-  },
-  {
-   "id": "v:変色:へんしょく",
-   "kana": "へんしょく",
-   "kanji": "変色",
-   "hv": "BIẾN SẮC",
-   "vi": "đổi màu, biến màu",
-   "pos": "n-suru",
-   "level": "N2",
-   "vt": "tu",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Kiểm tra",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "変色[へんしょく]した身[み]は、取[と]り除[のぞ]いてください。",
-     "vi": "Phần thịt đổi màu hãy loại bỏ.",
-     "ctx": "xuong"
+      "id": "v:変色:へんしょく",
+      "kana": "へんしょく",
+      "kanji": "変色",
+      "hv": "BIẾN SẮC",
+      "vi": "đổi màu, biến màu",
+      "pos": "n-suru",
+      "level": "N2",
+      "vt": "tu",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Kiểm tra",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "変色[へんしょく]した身[み]は、取[と]り除[のぞ]いてください。",
+          "vi": "Phần thịt đổi màu hãy loại bỏ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "空気[くうき]に触[ふ]れると、マグロは変色[へんしょく]します。",
+          "vi": "Cá ngừ tiếp xúc không khí thì đổi màu.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "身[み]が変色[へんしょく]する",
+          "vi": "thịt đổi màu"
+        }
+      ]
     },
     {
-     "jp": "空気[くうき]に触[ふ]れると、マグロは変色[へんしょく]します。",
-     "vi": "Cá ngừ tiếp xúc không khí thì đổi màu.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "身[み]が変色[へんしょく]する",
-     "vi": "thịt đổi màu"
-    }
-   ]
-  },
-  {
-   "id": "v:黒ずみ:くろずみ",
-   "kana": "くろずみ",
-   "kanji": "黒ずみ",
-   "kf": "黒[くろ]ずみ",
-   "hv": "HẮC",
-   "vi": "vết thâm đen",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Kiểm tra",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "黒[くろ]ずみがある所[ところ]は、切[き]り取[と]ります。",
-     "vi": "Chỗ có vết thâm đen thì cắt bỏ.",
-     "ctx": "xuong"
+      "id": "v:黒ずみ:くろずみ",
+      "kana": "くろずみ",
+      "kanji": "黒ずみ",
+      "kf": "黒[くろ]ずみ",
+      "hv": "HẮC",
+      "vi": "vết thâm đen",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Kiểm tra",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "黒[くろ]ずみがある所[ところ]は、切[き]り取[と]ります。",
+          "vi": "Chỗ có vết thâm đen thì cắt bỏ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "血合[ちあ]いの黒[くろ]ずみを、チェックしてください。",
+          "vi": "Kiểm tra vết thâm ở phần thịt máu.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        {
+          "w": "黒[くろ]ずむ",
+          "vi": "bị thâm đen"
+        }
+      ]
     },
     {
-     "jp": "血合[ちあ]いの黒[くろ]ずみを、チェックしてください。",
-     "vi": "Kiểm tra vết thâm ở phần thịt máu.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    {
-     "w": "黒[くろ]ずむ",
-     "vi": "bị thâm đen"
-    }
-   ]
-  },
-  {
-   "id": "v:打ち身:うちみ",
-   "kana": "うちみ",
-   "kanji": "打ち身",
-   "kf": "打[う]ち身[み]",
-   "hv": "ĐẢ THÂN",
-   "vi": "vết dập, vết bầm",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Kiểm tra",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "打[う]ち身[み]のある魚[さかな]は、刺身[さしみ]に使[つか]えません。",
-     "vi": "Cá có vết dập không dùng làm sashimi được.",
-     "ctx": "xuong"
+      "id": "v:打ち身:うちみ",
+      "kana": "うちみ",
+      "kanji": "打ち身",
+      "kf": "打[う]ち身[み]",
+      "hv": "ĐẢ THÂN",
+      "vi": "vết dập, vết bầm",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Kiểm tra",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "打[う]ち身[み]のある魚[さかな]は、刺身[さしみ]に使[つか]えません。",
+          "vi": "Cá có vết dập không dùng làm sashimi được.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "転[ころ]んで、足[あし]に打[う]ち身[み]ができた。",
+          "vi": "Ngã nên chân bị bầm.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "転[ころ]んで、足[あし]に打[う]ち身[み]ができた。",
-     "vi": "Ngã nên chân bị bầm.",
-     "ctx": "doisong"
+      "id": "v:雑:ざつ",
+      "kana": "ざつ",
+      "kanji": "雑",
+      "hv": "TẠP",
+      "vi": "ẩu, cẩu thả",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "thuysan"
+      ],
+      "sub": "Kiểm tra",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]が雑[ざつ]だと、やり直[なお]しになります。",
+          "vi": "Làm ẩu thì phải làm lại.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "雑[ざつ]に切[き]らないで、丁寧[ていねい]に切[き]ってください。",
+          "vi": "Đừng cắt ẩu, hãy cắt cẩn thận.",
+          "ctx": "xuong"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "仕事[しごと]",
+          "vi": "công việc"
+        }
+      ],
+      "ant": [
+        "v:丁寧:ていねい"
+      ],
+      "note": "Ở Kansai hay nghe: 雑[ざつ]やなあ."
     }
-   ]
-  },
-  {
-   "id": "v:雑:ざつ",
-   "kana": "ざつ",
-   "kanji": "雑",
-   "hv": "TẠP",
-   "vi": "ẩu, cẩu thả",
-   "pos": "adj-na",
-   "level": "N2",
-   "topics": [
-    "thuysan"
-   ],
-   "sub": "Kiểm tra",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "仕事[しごと]が雑[ざつ]だと、やり直[なお]しになります。",
-     "vi": "Làm ẩu thì phải làm lại.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "雑[ざつ]に切[き]らないで、丁寧[ていねい]に切[き]ってください。",
-     "vi": "Đừng cắt ẩu, hãy cắt cẩn thận.",
-     "ctx": "xuong"
-    }
-   ],
-   "subj": [
-    {
-     "jp": "仕事[しごと]",
-     "vi": "công việc"
-    }
-   ],
-   "ant": [
-    "v:丁寧:ていねい"
-   ],
-   "note": "Ở Kansai hay nghe: 雑[ざつ]やなあ."
-  }
- ]
+  ]
 }

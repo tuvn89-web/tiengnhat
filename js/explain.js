@@ -41,6 +41,8 @@ function detIndex() {
 const hira = s => String(s || '').replace(/[ァ-ヶ]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60));
 const NUM_ID = { 一: 'v:一:いち', 二: 'v:二:に', 三: 'v:三:さん', 四: 'v:四:よん', 五: 'v:五:ご', 六: 'v:六:ろく', 七: 'v:七:なな', 八: 'v:八:はち', 九: 'v:九:きゅう', 十: 'v:十:じゅう', 百: 'v:百:ひゃく', 千: 'v:千:せん', 万: 'v:万:まん' };
 const NUM_GROUP = /^([〇一二三四五六七八九十百千万]+)(本|個|枚|冊|円|分|時間|時|人|歳|回|階|杯|匹|度|番|台|か月|週間|年|月|軒|件|箱|着|足|通|泊|点)?$/;
+const VSTEM_NEXT = /^(?:ます|まし|ませ|たい|たく|たか|たけ|ながら|なさい|やす|にく)/;
+const VERBISH = new Set(['v1', 'v5', 'v3', 'adj-i']);
 // Trả về mã từ theo thứ tự xuất hiện trong câu
 export function detectWords(jp) {
   const segs = parseJP(stripHL(jp || ''));
@@ -75,6 +77,8 @@ export function detectWords(jp) {
       if (used.slice(i, j).some(Boolean)) continue;
       let ok = cands.filter(c => !c.need || j >= text.length || !isKanjiCh(text[j]));
       if (!ok.length) continue;
+      // danh từ gốc động từ (行き, 休み, 思い…) mà sau là đuôi chia (ます, たい, ながら…) thì là động từ: 行きます → 行く
+      if (/[ぁ-ゖ]$/.test(surf) && VSTEM_NEXT.test(text.slice(j))) { ok = ok.filter(c => VERBISH.has(D.items.get(c.id)?.pos)); if (!ok.length) continue; }
       if (ok[0].next) { if (j >= text.length || !ok[0].next.includes(text[j]) || (i > 0 && 'てでは'.includes(text[i - 1]))) continue; } // 〜てください, 〜てはいけません là mẫu ngữ pháp
       else if (ok[0].hira && j < text.length && 'りるれろらっ'.includes(text[j])) continue; // じゃあ ⊂ じゃありません
       if (!ok[0].hira) {

@@ -1,0 +1,1734 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-39",
+  "title": "JLPT N2 39 – Nội quy & thông báo công ty",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:規程:きてい",
+   "kana": "きてい",
+   "kanji": "規程",
+   "hv": "QUY TRÌNH",
+   "vi": "quy chế (bộ văn bản quy định nội bộ)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]の規程[きてい]は、総務[そうむ]の棚[たな]にあります。",
+     "vi": "Quy chế công ty để trên kệ phòng hành chính.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "出張[しゅっちょう]の費用[ひよう]は、旅費[りょひ]規程[きてい]によって決[き]まっている。",
+     "vi": "Chi phí công tác được quyết định theo quy chế công tác phí.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:規定:きてい"
+   ],
+   "rel": [
+    "v:就業規則:しゅうぎょうきそく"
+   ],
+   "note": "Đồng âm: 規定[きてい] = từng điều khoản quy định; 規程[きてい] = cả bộ văn bản quy định (旅費[りょひ]規程[きてい], 給与[きゅうよ]規程[きてい])."
+  },
+  {
+   "id": "v:条:じょう",
+   "kana": "じょう",
+   "kanji": "条",
+   "hv": "ĐIỀU",
+   "vi": "điều (khoản trong luật, nội quy)",
+   "pos": "ctr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休[やす]みの取[と]り方[かた]は、就業規則[しゅうぎょうきそく]の第[だい]十[じゅう]条[じょう]に書[か]いてあります。",
+     "vi": "Cách xin nghỉ được ghi ở điều mười của nội quy lao động.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "契約書[けいやくしょ]の第[だい]三[さん]条[じょう]を、もう一度[いちど]読[よ]んでください。",
+     "vi": "Hãy đọc lại điều ba của hợp đồng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "第[だい]〜条[じょう] = điều thứ …; 条文[じょうぶん] = văn bản điều khoản; 条件[じょうけん] = điều kiện."
+  },
+  {
+   "id": "v:定める:さだめる",
+   "kana": "さだめる",
+   "kanji": "定める",
+   "kf": "定[さだ]める",
+   "hv": "ĐỊNH",
+   "vi": "quy định, đặt ra (luật, quy tắc)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]は、作業中[さぎょうちゅう]の服装[ふくそう]を細[こま]かく定[さだ]めている。",
+     "vi": "Công ty quy định chi tiết trang phục khi làm việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "目標[もくひょう]を定[さだ]めて、毎日[まいにち]少[すこ]しずつ勉強[べんきょう]する。",
+     "vi": "Đặt ra mục tiêu rồi mỗi ngày học một chút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：休憩[きゅうけい]は何分[なにぶん]？B：就業規則[しゅうぎょうきそく]で定[さだ]められているとおりだよ。確認[かくにん]してみて。",
+     "vi": "A: Nghỉ giải lao mấy phút? B: Theo đúng như nội quy quy định. Cậu xem thử đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "規則[きそく]を定[さだ]める",
+     "vi": "đặt ra quy tắc"
+    },
+    {
+     "jp": "目標[もくひょう]を定[さだ]める",
+     "vi": "đặt mục tiêu"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "残業[ざんぎょう]のルールは、規程[きてい]で[[定[さだ]められ]]ています。",
+     "vi": "Quy tắc tăng ca được quy định trong quy chế."
+    }
+   ],
+   "note": "Văn bản hay gặp: 〜に定[さだ]める = được quy định ở …; 定[さだ]め = điều quy định."
+  },
+  {
+   "id": "v:施行:しこう",
+   "kana": "しこう",
+   "kanji": "施行",
+   "hv": "THI HÀNH",
+   "vi": "bắt đầu có hiệu lực, đưa vào áp dụng (luật, quy chế)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい規則[きそく]は、来月一日[ついたち]から施行[しこう]されます。",
+     "vi": "Quy định mới có hiệu lực từ ngày mùng một tháng sau.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "法律[ほうりつ]が施行[しこう]されると、手続[てつづ]きが変[か]わることがある。",
+     "vi": "Luật có hiệu lực thì thủ tục có khi thay đổi.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "規則[きそく]を施行[しこう]する",
+     "vi": "thi hành quy định"
+    },
+    {
+     "jp": "法律[ほうりつ]を施行[しこう]する",
+     "vi": "thi hành luật"
+    }
+   ],
+   "rel": [
+    "v:実施:じっし"
+   ],
+   "note": "Cũng đọc せこう. Văn bản: 本[ほん]規程[きてい]は〜から施行[しこう]する = quy chế này có hiệu lực từ …."
+  },
+  {
+   "id": "v:適用:てきよう",
+   "kana": "てきよう",
+   "kanji": "適用",
+   "hv": "THÍCH DỤNG",
+   "vi": "áp dụng (quy định, chế độ)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この割引[わりびき]は、会員[かいいん]だけに適用[てきよう]されます。",
+     "vi": "Mức giảm giá này chỉ áp dụng cho hội viên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい給与規程[きゅうよきてい]は、全員[ぜんいん]に適用[てきよう]される。",
+     "vi": "Quy chế lương mới áp dụng cho tất cả.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "規則[きそく]を適用[てきよう]する",
+     "vi": "áp dụng quy định"
+    },
+    {
+     "jp": "保険[ほけん]を適用[てきよう]する",
+     "vi": "áp dụng bảo hiểm"
+    }
+   ],
+   "note": "保険[ほけん]適用[てきよう] = được bảo hiểm chi trả; 適用外[てきようがい] = không thuộc diện áp dụng."
+  },
+  {
+   "id": "v:効力:こうりょく",
+   "kana": "こうりょく",
+   "kanji": "効力",
+   "hv": "HIỆU LỰC",
+   "vi": "hiệu lực (pháp lý)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "サインがない契約書[けいやくしょ]には、効力[こうりょく]がありません。",
+     "vi": "Hợp đồng không có chữ ký thì không có hiệu lực.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "この薬[くすり]の効力[こうりょく]は、半日[はんにち]ぐらい続[つづ]きます。",
+     "vi": "Thuốc này có tác dụng khoảng nửa ngày.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:有効:ゆうこう",
+    "v:無効:むこう"
+   ],
+   "note": "効力[こうりょく]を持[も]つ / 失[うしな]う = có / mất hiệu lực. Cũng nói về thuốc: tác dụng."
+  },
+  {
+   "id": "v:改定:かいてい",
+   "kana": "かいてい",
+   "kanji": "改定",
+   "hv": "CẢI ĐỊNH",
+   "vi": "sửa đổi (mức, giá, quy chế)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "四月[しがつ]から、給与規程[きゅうよきてい]が改定[かいてい]されます。",
+     "vi": "Từ tháng tư, quy chế lương được sửa đổi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "電気料金[でんきりょうきん]が改定[かいてい]されて、高[たか]くなった。",
+     "vi": "Giá điện được điều chỉnh, đắt lên.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "料金[りょうきん]を改定[かいてい]する",
+     "vi": "điều chỉnh giá"
+    },
+    {
+     "jp": "規程[きてい]を改定[かいてい]する",
+     "vi": "sửa quy chế"
+    }
+   ],
+   "confuse": [
+    "v:改正:かいせい"
+   ],
+   "note": "改定[かいてい] = sửa lại mức, giá, quy chế đã định; 改正[かいせい] = sửa luật, quy định cho đúng hơn."
+  },
+  {
+   "id": "v:廃止:はいし",
+   "kana": "はいし",
+   "kanji": "廃止",
+   "hv": "PHẾ CHỈ",
+   "vi": "bãi bỏ",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "古[ふる]い手当[てあて]は、来年[らいねん]廃止[はいし]されることになった。",
+     "vi": "Khoản phụ cấp cũ đã được quyết định bãi bỏ từ năm sau.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "このバスの路線[ろせん]は、去年[きょねん]廃止[はいし]された。",
+     "vi": "Tuyến xe buýt này đã bị bỏ năm ngoái.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "制度[せいど]を廃止[はいし]する",
+     "vi": "bãi bỏ chế độ"
+    },
+    {
+     "jp": "規則[きそく]を廃止[はいし]する",
+     "vi": "bãi bỏ quy định"
+    }
+   ],
+   "note": "Trái nghĩa gần: 新設[しんせつ] = lập mới."
+  },
+  {
+   "id": "v:遵守:じゅんしゅ",
+   "kana": "じゅんしゅ",
+   "kanji": "遵守",
+   "hv": "TUÂN THỦ",
+   "vi": "tuân thủ (nghiêm luật lệ)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "全員[ぜんいん]、安全[あんぜん]のルールを遵守[じゅんしゅ]してください。",
+     "vi": "Tất cả hãy tuân thủ quy tắc an toàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "会社[かいしゃ]は、法令[ほうれい]を遵守[じゅんしゅ]しなければならない。",
+     "vi": "Công ty phải tuân thủ pháp luật.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "規則[きそく]を遵守[じゅんしゅ]する",
+     "vi": "tuân thủ quy định"
+    },
+    {
+     "jp": "法令[ほうれい]を遵守[じゅんしゅ]する",
+     "vi": "tuân thủ pháp luật"
+    }
+   ],
+   "rel": [
+    "v:守る:まもる"
+   ],
+   "note": "法令[ほうれい]遵守[じゅんしゅ] = コンプライアンス (tuân thủ pháp luật)."
+  },
+  {
+   "id": "v:禁じる:きんじる",
+   "kana": "きんじる",
+   "kanji": "禁じる",
+   "kf": "禁[きん]じる",
+   "hv": "CẤM",
+   "vi": "ra lệnh cấm, ngăn cấm (văn viết)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]では、私物[しぶつ]の持[も]ち込[こ]みを禁[きん]じています。",
+     "vi": "Nhà máy cấm mang đồ cá nhân vào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "医者[いしゃ]に、お酒[さけ]を禁[きん]じられた。",
+     "vi": "Tôi bị bác sĩ cấm uống rượu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：ここで写真[しゃしん]、撮[と]ってもいい？B：だめ。規則[きそく]で禁[きん]じられてるよ。",
+     "vi": "A: Chụp ảnh ở đây được không? B: Không được. Quy định cấm đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "使用[しよう]を禁[きん]じる",
+     "vi": "cấm sử dụng"
+    },
+    {
+     "jp": "持[も]ち込[こ]みを禁[きん]じる",
+     "vi": "cấm mang vào"
+    }
+   ],
+   "rel": [
+    "v:禁止:きんし"
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "作業中[さぎょうちゅう]のスマホの使用[しよう]は、[[禁[きん]じられ]]ています。",
+     "vi": "Việc dùng điện thoại trong giờ làm bị cấm."
+    }
+   ],
+   "note": "Dạng khác cùng nghĩa: 禁[きん]ずる (văn viết cũ)."
+  },
+  {
+   "id": "v:設ける:もうける",
+   "kana": "もうける",
+   "kanji": "設ける",
+   "kf": "設[もう]ける",
+   "hv": "THIẾT",
+   "vi": "đặt ra, lập ra (quy định, chỗ, dịp)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]は、外国人[がいこくじん]のための相談窓口[そうだんまどぐち]を設[もう]けた。",
+     "vi": "Công ty đã lập quầy tư vấn cho người nước ngoài.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "話[はな]し合[あ]いの場[ば]を設[もう]けてください。",
+     "vi": "Hãy tạo dịp để mọi người trao đổi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：休憩室[きゅうけいしつ]、新[あたら]しくなったね。B：うん、喫煙所[きつえんじょ]も外[そと]に設[もう]けたんだって。",
+     "vi": "A: Phòng nghỉ mới nhỉ. B: Ừ, nghe nói còn lập chỗ hút thuốc ở ngoài.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ルールを設[もう]ける",
+     "vi": "đặt ra quy tắc"
+    },
+    {
+     "jp": "場[ば]を設[もう]ける",
+     "vi": "tạo dịp, tạo chỗ"
+    }
+   ],
+   "note": "Đồng âm: 儲[もう]ける = kiếm lời."
+  },
+  {
+   "id": "v:守秘義務:しゅひぎむ",
+   "kana": "しゅひぎむ",
+   "kanji": "守秘義務",
+   "hv": "THỦ BÍ NGHĨA VỤ",
+   "vi": "nghĩa vụ giữ bí mật",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仕事[しごと]で知[し]ったことには、守秘[しゅひ]義務[ぎむ]があります。",
+     "vi": "Những gì biết được qua công việc thì có nghĩa vụ giữ bí mật.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "通訳[つうやく]の人[ひと]にも、守秘[しゅひ]義務[ぎむ]がある。",
+     "vi": "Người phiên dịch cũng có nghĩa vụ giữ bí mật.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:秘密:ひみつ"
+   ],
+   "note": "Thường ghi trong 誓約書[せいやくしょ] (giấy cam kết) khi vào công ty."
+  },
+  {
+   "id": "v:個人情報:こじんじょうほう",
+   "kana": "こじんじょうほう",
+   "kanji": "個人情報",
+   "hv": "CÁ NHÂN TÌNH BÁO",
+   "vi": "thông tin cá nhân",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "個人情報[こじんじょうほう]が書[か]いてある紙[かみ]は、シュレッダーにかけてください。",
+     "vi": "Giấy có thông tin cá nhân hãy cho vào máy hủy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "電話[でんわ]で、個人情報[こじんじょうほう]を聞[き]かれても答[こた]えないでください。",
+     "vi": "Bị hỏi thông tin cá nhân qua điện thoại cũng đừng trả lời.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:情報:じょうほう",
+    "v:個人:こじん"
+   ],
+   "note": "個人情報[こじんじょうほう]の取[と]り扱[あつか]い = việc xử lý thông tin cá nhân."
+  },
+  {
+   "id": "v:漏らす:もらす",
+   "kana": "もらす",
+   "kanji": "漏らす",
+   "kf": "漏[も]らす",
+   "hv": "LẬU",
+   "vi": "để lộ, làm rò rỉ (bí mật, thông tin)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]の秘密[ひみつ]を、外[そと]に漏[も]らしてはいけない。",
+     "vi": "Không được để lộ bí mật công ty ra ngoài.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子供[こども]が、おしっこを漏[も]らしてしまった。",
+     "vi": "Đứa bé lỡ tè ra quần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この話[はなし]、だれにも言[い]わないでね。B：大丈夫[だいじょうぶ]、絶対[ぜったい]に漏[も]らさないよ。",
+     "vi": "A: Chuyện này đừng nói với ai nhé. B: Yên tâm, tuyệt đối không để lộ đâu.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "秘密[ひみつ]を漏[も]らす",
+     "vi": "để lộ bí mật"
+    },
+    {
+     "jp": "情報[じょうほう]を漏[も]らす",
+     "vi": "làm lộ thông tin"
+    }
+   ],
+   "pair": "v:漏れる:もれる",
+   "note": "Danh từ: 漏洩[ろうえい] (văn viết), 情報[じょうほう]漏[も]れ = rò rỉ thông tin."
+  },
+  {
+   "id": "v:副業:ふくぎょう",
+   "kana": "ふくぎょう",
+   "kanji": "副業",
+   "hv": "PHÓ NGHIỆP",
+   "vi": "nghề phụ, việc làm thêm (ngoài việc chính)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "就業規則[しゅうぎょうきそく]で、副業[ふくぎょう]が認[みと]められているか確認[かくにん]した。",
+     "vi": "Tôi đã kiểm tra xem nội quy có cho phép làm thêm nghề phụ không.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "最近[さいきん]は、副業[ふくぎょう]をする会社員[かいしゃいん]が増[ふ]えている。",
+     "vi": "Dạo này nhân viên công ty làm thêm nghề phụ ngày càng nhiều.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Người nước ngoài làm thêm việc khác ngoài công việc đã đăng ký có thể vướng quy định về tư cách lưu trú; nên hỏi cơ quan xuất nhập cảnh trước. Trái nghĩa: 本業[ほんぎょう] = nghề chính."
+  },
+  {
+   "id": "v:貸与:たいよ",
+   "kana": "たいよ",
+   "kanji": "貸与",
+   "hv": "THẢI DỮ",
+   "vi": "cấp cho dùng (đồ của công ty, phải trả lại)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "制服[せいふく]と長靴[ながぐつ]は、会社[かいしゃ]から貸与[たいよ]されます。",
+     "vi": "Đồng phục và ủng do công ty cấp cho dùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "奨学金[しょうがくきん]を貸与[たいよ]する制度[せいど]がある。",
+     "vi": "Có chế độ cho vay học bổng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "制服[せいふく]を貸与[たいよ]する",
+     "vi": "cấp đồng phục"
+    },
+    {
+     "jp": "パソコンを貸与[たいよ]する",
+     "vi": "cấp máy tính dùng"
+    }
+   ],
+   "ant": [
+    "v:返却:へんきゃく"
+   ],
+   "note": "貸与品[たいよひん] = đồ được cấp dùng (nghỉ việc phải trả lại)."
+  },
+  {
+   "id": "v:返却:へんきゃく",
+   "kana": "へんきゃく",
+   "kanji": "返却",
+   "hv": "PHẢN KHƯỚC",
+   "vi": "hoàn trả (đồ đã mượn — văn viết)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "退職[たいしょく]するときは、制服[せいふく]を返却[へんきゃく]してください。",
+     "vi": "Khi nghỉ việc hãy trả lại đồng phục.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "図書館[としょかん]の本[ほん]を、期限[きげん]までに返却[へんきゃく]した。",
+     "vi": "Tôi trả sách thư viện trước hạn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "制服[せいふく]を返却[へんきゃく]する",
+     "vi": "trả đồng phục"
+    },
+    {
+     "jp": "本[ほん]を返却[へんきゃく]する",
+     "vi": "trả sách"
+    }
+   ],
+   "ant": [
+    "v:貸与:たいよ"
+   ],
+   "rel": [
+    "v:返す:かえす"
+   ]
+  },
+  {
+   "id": "v:ハラスメント:ハラスメント",
+   "kana": "ハラスメント",
+   "kanji": "",
+   "hv": "",
+   "vi": "hành vi quấy rối (nơi làm việc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ハラスメントを受[う]けたら、一人[ひとり]で悩[なや]まないで相談[そうだん]してください。",
+     "vi": "Nếu bị quấy rối, đừng chịu đựng một mình mà hãy tìm người hỏi ý kiến.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "会社[かいしゃ]で、ハラスメント防止[ぼうし]の研修[けんしゅう]があった。",
+     "vi": "Ở công ty có buổi đào tạo phòng chống quấy rối.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "harassment (tiếng Anh)",
+   "note": "パワハラ = lạm dụng quyền lực (cấp trên chèn ép); セクハラ = quấy rối tình dục. Công ty phải có nơi tiếp nhận tư vấn (相談[そうだん]窓口[まどぐち])."
+  },
+  {
+   "id": "v:配慮:はいりょ",
+   "kana": "はいりょ",
+   "kanji": "配慮",
+   "hv": "PHỐI LỰ",
+   "vi": "quan tâm chu đáo, lưu ý (đến người khác)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nội quy",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新人[しんじん]の体調[たいちょう]に配慮[はいりょ]して、休憩[きゅうけい]を増[ふ]やした。",
+     "vi": "Lưu ý đến sức khỏe người mới nên tăng giờ nghỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "近所[きんじょ]に配慮[はいりょ]して、夜[よる]は静[しず]かにしています。",
+     "vi": "Để ý hàng xóm nên buổi tối tôi giữ yên lặng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "健康[けんこう]に配慮[はいりょ]する",
+     "vi": "quan tâm sức khỏe"
+    },
+    {
+     "jp": "環境[かんきょう]に配慮[はいりょ]する",
+     "vi": "chú ý tới môi trường"
+    }
+   ],
+   "note": "ご配慮[はいりょ]ありがとうございます = cảm ơn sự quan tâm chu đáo (lịch sự)."
+  },
+  {
+   "id": "v:勤務:きんむ",
+   "kana": "きんむ",
+   "kanji": "勤務",
+   "hv": "CẦN VỤ",
+   "vi": "công tác, làm việc tại (văn viết)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nhân sự",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]は、神戸[こうべ]の水産[すいさん]工場[こうじょう]で勤務[きんむ]しています。",
+     "vi": "Tôi đang làm việc tại nhà máy thủy sản ở Kobe.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "勤務時間[きんむじかん]は、朝[あさ]八時[はちじ]から夕方[ゆうがた]五時[ごじ]までです。",
+     "vi": "Giờ làm việc từ tám giờ sáng đến năm giờ chiều.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "工場[こうじょう]で勤務[きんむ]する",
+     "vi": "làm việc tại nhà máy"
+    },
+    {
+     "jp": "交代[こうたい]で勤務[きんむ]する",
+     "vi": "làm theo ca"
+    }
+   ],
+   "rel": [
+    "v:出勤:しゅっきん"
+   ],
+   "note": "勤務先[きんむさき] = nơi làm việc; 勤務[きんむ]態度[たいど] = thái độ làm việc."
+  },
+  {
+   "id": "v:部署:ぶしょ",
+   "kana": "ぶしょ",
+   "kanji": "部署",
+   "hv": "BỘ THỰ",
+   "vi": "phòng ban, đơn vị công tác (trong công ty)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nhân sự",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来月[らいげつ]から、ほかの部署[ぶしょ]に移[うつ]ります。",
+     "vi": "Từ tháng sau tôi chuyển sang bộ phận khác.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "どの部署[ぶしょ]に連絡[れんらく]すればいいか、教[おし]えてください。",
+     "vi": "Hãy cho biết tôi nên liên lạc với phòng ban nào.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:異動:いどう"
+   ]
+  },
+  {
+   "id": "v:人事:じんじ",
+   "kana": "じんじ",
+   "kanji": "人事",
+   "hv": "NHÂN SỰ",
+   "vi": "nhân sự (bổ nhiệm, điều chuyển, tuyển dụng)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nhân sự",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休職[きゅうしょく]の相談[そうだん]は、人事部[じんじぶ]にしてください。",
+     "vi": "Muốn bàn về nghỉ tạm thời thì hãy liên hệ phòng nhân sự.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "四月[しがつ]は、人事異動[じんじいどう]の季節[きせつ]です。",
+     "vi": "Tháng tư là mùa điều chuyển nhân sự.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:異動:いどう"
+   ],
+   "note": "人事部[じんじぶ] = phòng nhân sự; 人事[じんじ]異動[いどう] = điều chuyển nhân sự."
+  },
+  {
+   "id": "v:所属:しょぞく",
+   "kana": "しょぞく",
+   "kanji": "所属",
+   "hv": "SỞ THUỘC",
+   "vi": "trực thuộc (bộ phận, tổ chức)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nhân sự",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]は、加工[かこう]課[か]に所属[しょぞく]しています。",
+     "vi": "Tôi thuộc bộ phận chế biến.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "弟[おとうと]は、大学[だいがく]のサッカー部[ぶ]に所属[しょぞく]している。",
+     "vi": "Em trai tôi ở trong câu lạc bộ bóng đá của trường đại học.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "部署[ぶしょ]に所属[しょぞく]する",
+     "vi": "thuộc bộ phận"
+    },
+    {
+     "jp": "チームに所属[しょぞく]する",
+     "vi": "thuộc đội"
+    }
+   ],
+   "note": "所属[しょぞく]機関[きかん] = cơ quan tiếp nhận (với visa 特定技能[とくていぎのう] là công ty tuyển dụng)."
+  },
+  {
+   "id": "v:配属:はいぞく",
+   "kana": "はいぞく",
+   "kanji": "配属",
+   "hv": "PHỐI THUỘC",
+   "vi": "phân công về (bộ phận)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nhân sự",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新人[しんじん]は、全員[ぜんいん]包装[ほうそう]ラインに配属[はいぞく]された。",
+     "vi": "Người mới đều được phân về dây chuyền đóng gói.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "配属先[はいぞくさき]は、研修[けんしゅう]の後[あと]で決[き]まります。",
+     "vi": "Nơi được phân về sẽ quyết định sau khóa đào tạo.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "新人[しんじん]を配属[はいぞく]する",
+     "vi": "phân công người mới"
+    },
+    {
+     "jp": "現場[げんば]に配属[はいぞく]する",
+     "vi": "phân về xưởng"
+    }
+   ],
+   "rel": [
+    "v:所属:しょぞく"
+   ],
+   "note": "配属先[はいぞくさき] = nơi được phân về."
+  },
+  {
+   "id": "v:後任:こうにん",
+   "kana": "こうにん",
+   "kanji": "後任",
+   "hv": "HẬU NHIỆM",
+   "vi": "người kế nhiệm",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nhân sự",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班[はん]長[ちょう]の後任[こうにん]は、グエンさんに決[き]まった。",
+     "vi": "Người kế nhiệm tổ trưởng đã được quyết là anh Nguyễn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "後任[こうにん]が見[み]つかるまで、もう少[すこ]し働[はたら]いてほしいと言[い]われた。",
+     "vi": "Tôi được nhờ làm thêm ít lâu cho tới khi tìm được người thay.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "前任[ぜんにん]",
+     "vi": "người tiền nhiệm"
+    }
+   ],
+   "rel": [
+    "v:引き継ぎ:ひきつぎ"
+   ],
+   "note": "後任者[こうにんしゃ] = người kế nhiệm."
+  },
+  {
+   "id": "v:引き継ぎ:ひきつぎ",
+   "kana": "ひきつぎ",
+   "kanji": "引き継ぎ",
+   "kf": "引[ひ]き継[つ]ぎ",
+   "hv": "DẪN KẾ",
+   "vi": "việc bàn giao (công việc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nhân sự",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "辞[や]める前[まえ]に、仕事[しごと]の引[ひ]き継[つ]ぎをしっかりしてください。",
+     "vi": "Trước khi nghỉ hãy bàn giao công việc cẩn thận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "夜勤[やきん]の人[ひと]との引[ひ]き継[つ]ぎに、十分[じゅっぷん]かかった。",
+     "vi": "Bàn giao với người ca đêm mất mười phút.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:引き継ぐ:ひきつぐ",
+    "v:後任:こうにん"
+   ],
+   "note": "引[ひ]き継[つ]ぎ書[しょ] = bản ghi bàn giao; 申[もう]し送[おく]り = dặn lại khi giao ca."
+  },
+  {
+   "id": "v:試用期間:しようきかん",
+   "kana": "しようきかん",
+   "kanji": "試用期間",
+   "hv": "THÍ DỤNG KỲ GIAN",
+   "vi": "thời gian thử việc",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nhân sự",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "試用期間[しようきかん]の間[あいだ]も、社会保険[しゃかいほけん]に入[はい]ります。",
+     "vi": "Trong thời gian thử việc cũng tham gia bảo hiểm xã hội.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "試用期間[しようきかん]が終[お]わって、本採用[ほんさいよう]になった。",
+     "vi": "Hết thời gian thử việc, tôi được nhận chính thức.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "本採用[ほんさいよう] = tuyển chính thức. Thời gian và điều kiện thử việc ghi trong hợp đồng."
+  },
+  {
+   "id": "v:賞与:しょうよ",
+   "kana": "しょうよ",
+   "kanji": "賞与",
+   "hv": "THƯỞNG DỮ",
+   "vi": "tiền thưởng (cách gọi trên giấy tờ)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nhân sự",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "賞与[しょうよ]は、会社[かいしゃ]の業績[ぎょうせき]によって変[か]わります。",
+     "vi": "Tiền thưởng thay đổi theo kết quả kinh doanh của công ty.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "賞与[しょうよ]からも、税金[ぜいきん]や保険料[ほけんりょう]が引[ひ]かれる。",
+     "vi": "Từ tiền thưởng cũng bị trừ thuế và phí bảo hiểm.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Nói thường: ボーナス. Có hay không, bao nhiêu lần tùy hợp đồng, quy chế công ty."
+  },
+  {
+   "id": "v:差し引く:さしひく",
+   "kana": "さしひく",
+   "kanji": "差し引く",
+   "kf": "差[さ]し引[ひ]く",
+   "hv": "SAI DẪN",
+   "vi": "trừ đi, trừ bớt (khỏi số tiền)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nhân sự",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "給料[きゅうりょう]から、寮費[りょうひ]が差[さ]し引[ひ]かれています。",
+     "vi": "Tiền ký túc xá bị trừ vào lương.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "売[う]り上[あ]げから経費[けいひ]を差[さ]し引[ひ]くと、利益[りえき]はあまりない。",
+     "vi": "Lấy doanh thu trừ chi phí thì lợi nhuận chẳng bao nhiêu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：手取[てど]り、思[おも]ったより少[すく]ないね。B：税金[ぜいきん]と保険料[ほけんりょう]が差[さ]し引[ひ]かれるからね。",
+     "vi": "A: Lương thực nhận ít hơn tưởng nhỉ. B: Vì bị trừ thuế và phí bảo hiểm mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "給料[きゅうりょう]から差[さ]し引[ひ]く",
+     "vi": "trừ vào lương"
+    },
+    {
+     "jp": "税金[ぜいきん]を差[さ]し引[ひ]く",
+     "vi": "trừ tiền thuế"
+    }
+   ],
+   "rel": [
+    "v:控除:こうじょ",
+    "v:手取り:てどり"
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "遅刻[ちこく]した分[ぶん]は、給料[きゅうりょう]から[[差[さ]し引[ひ]かれ]]ます。",
+     "vi": "Phần đi muộn bị trừ vào lương."
+    }
+   ]
+  },
+  {
+   "id": "v:減給:げんきゅう",
+   "kana": "げんきゅう",
+   "kanji": "減給",
+   "hv": "GIẢM CẤP",
+   "vi": "giảm lương (hình thức kỷ luật)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kỷ luật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "規則[きそく]違反[いはん]で、減給[げんきゅう]の処分[しょぶん]を受[う]けた。",
+     "vi": "Bị xử lý giảm lương vì vi phạm quy định.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "会社[かいしゃ]の業績[ぎょうせき]が悪[わる]くて、全員[ぜんいん]減給[げんきゅう]になった。",
+     "vi": "Kết quả kinh doanh xấu nên mọi người đều bị giảm lương.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "社員[しゃいん]を減給[げんきゅう]する",
+     "vi": "giảm lương nhân viên"
+    }
+   ],
+   "note": "Trái nghĩa: 昇給[しょうきゅう] = tăng lương."
+  },
+  {
+   "id": "v:懲戒:ちょうかい",
+   "kana": "ちょうかい",
+   "kanji": "懲戒",
+   "hv": "TRỪNG GIỚI",
+   "vi": "xử lý kỷ luật (nhân viên vi phạm)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kỷ luật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]の秘密[ひみつ]を漏[も]らすと、懲戒[ちょうかい]の対象[たいしょう]になります。",
+     "vi": "Để lộ bí mật công ty sẽ thuộc diện bị kỷ luật.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "懲戒[ちょうかい]の種類[しゅるい]は、就業規則[しゅうぎょうきそく]に書[か]いてあります。",
+     "vi": "Các hình thức kỷ luật được ghi trong nội quy lao động.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "社員[しゃいん]を懲戒[ちょうかい]する",
+     "vi": "kỷ luật nhân viên"
+    }
+   ],
+   "rel": [
+    "v:処分:しょぶん"
+   ],
+   "note": "懲戒[ちょうかい]処分[しょぶん] = hình thức kỷ luật; 懲戒[ちょうかい]解雇[かいこ] = sa thải do kỷ luật (nặng nhất)."
+  },
+  {
+   "id": "v:処分:しょぶん",
+   "kana": "しょぶん",
+   "kanji": "処分",
+   "hv": "XỬ PHÂN",
+   "vi": "vứt bỏ, thanh lý (đồ); hình thức xử lý (người vi phạm)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kỷ luật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "古[ふる]い冷蔵庫[れいぞうこ]を処分[しょぶん]した。",
+     "vi": "Tôi đã bỏ cái tủ lạnh cũ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "遅刻[ちこく]を繰[く]り返[かえ]して、処分[しょぶん]を受[う]けた。",
+     "vi": "Đi muộn nhiều lần nên bị xử phạt.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ごみを処分[しょぶん]する",
+     "vi": "xử lý rác"
+    },
+    {
+     "jp": "違反者[いはんしゃ]を処分[しょぶん]する",
+     "vi": "xử phạt người vi phạm"
+    }
+   ],
+   "rel": [
+    "v:懲戒:ちょうかい"
+   ],
+   "note": "Đồ lớn (粗大[そだい]ごみ) phải đăng ký với địa phương để vứt."
+  },
+  {
+   "id": "v:解雇:かいこ",
+   "kana": "かいこ",
+   "kanji": "解雇",
+   "hv": "GIẢI CỐ",
+   "vi": "sa thải",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kỷ luật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "理由[りゆう]もなく、急[きゅう]に解雇[かいこ]されることはありません。",
+     "vi": "Không có chuyện tự nhiên bị sa thải mà không có lý do.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "会社[かいしゃ]の経営[けいえい]が苦[くる]しくて、何人[なんにん]か解雇[かいこ]された。",
+     "vi": "Công ty làm ăn khó khăn nên vài người bị sa thải.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "従業員[じゅうぎょういん]を解雇[かいこ]する",
+     "vi": "sa thải nhân viên"
+    }
+   ],
+   "note": "Khẩu ngữ: クビになる = bị đuổi việc. Bị sa thải là 会社[かいしゃ]都合[つごう], khác 自己[じこ]都合[つごう]."
+  },
+  {
+   "id": "v:退職:たいしょく",
+   "kana": "たいしょく",
+   "kanji": "退職",
+   "hv": "THOÁI CHỨC",
+   "vi": "nghỉ việc, thôi việc (chấm dứt hợp đồng)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghỉ việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "父[ちち]は、来年[らいねん]会社[かいしゃ]を退職[たいしょく]します。",
+     "vi": "Năm sau bố tôi nghỉ việc ở công ty.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "退職[たいしょく]の手続[てつづ]きについて、総務[そうむ]に聞[き]いた。",
+     "vi": "Tôi hỏi phòng hành chính về thủ tục nghỉ việc.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "会社[かいしゃ]を退職[たいしょく]する",
+     "vi": "nghỉ việc ở công ty"
+    },
+    {
+     "jp": "定年[ていねん]で退職[たいしょく]する",
+     "vi": "nghỉ hưu"
+    }
+   ],
+   "confuse": [
+    "v:辞める:やめる"
+   ],
+   "note": "辞[や]める (nói thường) → 退職[たいしょく]する (văn bản, lịch sự)."
+  },
+  {
+   "id": "v:退職届:たいしょくとどけ",
+   "kana": "たいしょくとどけ",
+   "kanji": "退職届",
+   "hv": "THOÁI CHỨC GIỚI",
+   "vi": "đơn báo nghỉ việc",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghỉ việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "上司[じょうし]に、退職届[たいしょくとどけ]を出[だ]しました。",
+     "vi": "Tôi đã nộp đơn nghỉ việc cho cấp trên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "退職届[たいしょくとどけ]の書[か]き方[かた]を、インターネットで調[しら]べた。",
+     "vi": "Tôi tra cách viết đơn nghỉ việc trên mạng.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:辞表:じひょう"
+   ],
+   "rel": [
+    "v:退職:たいしょく"
+   ],
+   "note": "退職願[たいしょくねがい] = đơn xin nghỉ (còn chờ duyệt); 退職届[たいしょくとどけ] = đơn báo nghỉ (đã quyết)."
+  },
+  {
+   "id": "v:辞表:じひょう",
+   "kana": "じひょう",
+   "kanji": "辞表",
+   "hv": "TỪ BIỂU",
+   "vi": "đơn từ chức (người có chức vụ)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghỉ việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "部長[ぶちょう]は、責任[せきにん]を取[と]って辞表[じひょう]を出[だ]した。",
+     "vi": "Trưởng ban nộp đơn từ chức để nhận trách nhiệm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "辞表[じひょう]を出[だ]す前[まえ]に、家族[かぞく]とよく話[はな]し合[あ]った。",
+     "vi": "Trước khi nộp đơn từ chức, tôi đã bàn kỹ với gia đình.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:退職届:たいしょくとどけ"
+   ],
+   "note": "辞表[じひょう] dùng cho người có chức vụ, công chức; nhân viên thường viết 退職届[たいしょくとどけ]."
+  },
+  {
+   "id": "v:退職金:たいしょくきん",
+   "kana": "たいしょくきん",
+   "kanji": "退職金",
+   "hv": "THOÁI CHỨC KIM",
+   "vi": "tiền trợ cấp thôi việc",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghỉ việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "退職金[たいしょくきん]があるかどうかは、会社[かいしゃ]によって違[ちが]う。",
+     "vi": "Có tiền trợ cấp thôi việc hay không tùy từng công ty.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "父[ちち]は、退職金[たいしょくきん]で家[いえ]を直[なお]した。",
+     "vi": "Bố tôi dùng tiền trợ cấp thôi việc sửa nhà.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:退職:たいしょく"
+   ],
+   "note": "Không phải công ty nào cũng có; xem quy chế (退職金[たいしょくきん]規程[きてい])."
+  },
+  {
+   "id": "v:定年:ていねん",
+   "kana": "ていねん",
+   "kanji": "定年",
+   "hv": "ĐỊNH NIÊN",
+   "vi": "tuổi về hưu (theo quy định công ty)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghỉ việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "祖父[そふ]は、定年[ていねん]まで同[おな]じ会社[かいしゃ]で働[はたら]いた。",
+     "vi": "Ông tôi làm ở cùng một công ty đến tuổi về hưu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "定年[ていねん]の後[あと]も、工場[こうじょう]で働[はたら]き続[つづ]ける人[ひと]がいる。",
+     "vi": "Có người sau tuổi về hưu vẫn tiếp tục làm ở nhà máy.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:退職:たいしょく"
+   ],
+   "note": "定年[ていねん]退職[たいしょく] = nghỉ hưu do đến tuổi; 再雇用[さいこよう] = tuyển lại sau tuổi hưu."
+  },
+  {
+   "id": "v:休職:きゅうしょく",
+   "kana": "きゅうしょく",
+   "kanji": "休職",
+   "hv": "HƯU CHỨC",
+   "vi": "nghỉ việc tạm thời (vẫn giữ chỗ làm)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghỉ việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "病気[びょうき]で、三[さん]か月[げつ]休職[きゅうしょく]することになった。",
+     "vi": "Vì bệnh tôi phải nghỉ tạm ba tháng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "休職中[きゅうしょくちゅう]も、保険料[ほけんりょう]を払[はら]う必要[ひつよう]がある。",
+     "vi": "Trong thời gian nghỉ tạm vẫn phải đóng phí bảo hiểm.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "病気[びょうき]で休職[きゅうしょく]する",
+     "vi": "nghỉ tạm vì bệnh"
+    }
+   ],
+   "confuse": [
+    "v:欠勤:けっきん"
+   ],
+   "note": "休職[きゅうしょく] = nghỉ dài, có giấy tờ; 欠勤[けっきん] = vắng mặt một ngày làm. Quay lại làm: 復職[ふくしょく]."
+  },
+  {
+   "id": "v:申し出る:もうしでる",
+   "kana": "もうしでる",
+   "kanji": "申し出る",
+   "kf": "申[もう]し出[で]る",
+   "hv": "THÂN XUẤT",
+   "vi": "trình bày nguyện vọng, xin (với cấp trên, cơ quan)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghỉ việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "辞[や]めたいときは、早[はや]めに上司[じょうし]に申[もう]し出[で]てください。",
+     "vi": "Muốn nghỉ thì hãy báo sớm với cấp trên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "落[お]とし物[もの]を拾[ひろ]ったので、交番[こうばん]に申[もう]し出[で]た。",
+     "vi": "Nhặt được đồ rơi nên tôi trình báo ở đồn cảnh sát.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：夜勤[やきん]、ちょっときついな。B：無理[むり]しないで、班長[はんちょう]に申[もう]し出[で]たら？",
+     "vi": "A: Ca đêm hơi mệt nhỉ. B: Đừng cố quá, thử đề nghị với tổ trưởng xem?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "退職[たいしょく]を申[もう]し出[で]る",
+     "vi": "xin nghỉ việc"
+    },
+    {
+     "jp": "協力[きょうりょく]を申[もう]し出[で]る",
+     "vi": "đề nghị giúp đỡ"
+    }
+   ],
+   "note": "Danh từ: 申[もう]し出[で] = lời đề nghị."
+  },
+  {
+   "id": "v:一身上の都合:いっしんじょうのつごう",
+   "kana": "いっしんじょうのつごう",
+   "kanji": "一身上の都合",
+   "kf": "一身上[いっしんじょう]の都合[つごう]",
+   "hv": "NHẤT THÂN THƯỢNG ĐÔ HỢP",
+   "vi": "lý do cá nhân (câu ghi trong đơn nghỉ việc)",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghỉ việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "退職届[たいしょくとどけ]に、「一身上[いっしんじょう]の都合[つごう]により」と書[か]きました。",
+     "vi": "Trong đơn nghỉ việc tôi ghi \"vì lý do cá nhân\".",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "一身上[いっしんじょう]の都合[つごう]で、今月末[こんげつまつ]で退職[たいしょく]いたします。",
+     "vi": "Vì lý do cá nhân, tôi xin nghỉ việc vào cuối tháng này.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:自己都合:じこつごう"
+   ],
+   "note": "Câu mẫu trong đơn: 一身上[いっしんじょう]の都合[つごう]により、退職[たいしょく]いたします. Không cần ghi lý do chi tiết."
+  },
+  {
+   "id": "v:自己都合:じこつごう",
+   "kana": "じこつごう",
+   "kanji": "自己都合",
+   "hv": "TỰ KỶ ĐÔ HỢP",
+   "vi": "lý do của bản thân (khi nghỉ việc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghỉ việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "自己都合[じこつごう]で辞[や]めるので、退職届[たいしょくとどけ]を出[だ]します。",
+     "vi": "Tôi nghỉ vì lý do bản thân nên nộp đơn báo nghỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "自己都合[じこつごう]の退職[たいしょく]か会社都合[かいしゃつごう]の退職[たいしょく]かで、手続[てつづ]きが変[か]わる。",
+     "vi": "Thủ tục khác nhau tùy nghỉ vì lý do bản thân hay do công ty.",
+     "ctx": "thutuc"
+    }
+   ],
+   "ant": [
+    {
+     "w": "会社都合[かいしゃつごう]",
+     "vi": "do phía công ty"
+    }
+   ],
+   "rel": [
+    "v:一身上の都合:いっしんじょうのつごう"
+   ],
+   "note": "Ảnh hưởng tới trợ cấp bảo hiểm việc làm; hỏi ハローワーク nếu không rõ."
+  },
+  {
+   "id": "v:円満:えんまん",
+   "kana": "えんまん",
+   "kanji": "円満",
+   "hv": "VIÊN MÃN",
+   "vi": "êm đẹp, êm thấm (quan hệ, kết thúc)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghỉ việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "みんなに感謝[かんしゃ]して、円満[えんまん]に退職[たいしょく]した。",
+     "vi": "Tôi cảm ơn mọi người và nghỉ việc êm đẹp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "両親[りょうしん]は、とても円満[えんまん]な夫婦[ふうふ]です。",
+     "vi": "Bố mẹ tôi là cặp vợ chồng rất êm ấm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：前[まえ]の会社[かいしゃ]、どうやって辞[や]めたの？B：引[ひ]き継[つ]ぎもちゃんとして、円満[えんまん]に辞[や]めたよ。",
+     "vi": "A: Cậu nghỉ công ty cũ thế nào? B: Bàn giao đàng hoàng, nghỉ êm đẹp.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "家庭[かてい]",
+     "vi": "gia đình"
+    },
+    {
+     "jp": "関係[かんけい]",
+     "vi": "quan hệ"
+    }
+   ],
+   "note": "円満[えんまん]退社[たいしゃ] = nghỉ việc êm đẹp; 円満[えんまん]解決[かいけつ] = giải quyết êm thấm."
+  },
+  {
+   "id": "v:退社:たいしゃ",
+   "kana": "たいしゃ",
+   "kanji": "退社",
+   "hv": "THOÁI XÃ",
+   "vi": "rời công ty (tan ca về; thôi việc)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghỉ việc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今日[きょう]は、六時[ろくじ]に退社[たいしゃ]します。",
+     "vi": "Hôm nay tôi rời công ty lúc sáu giờ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "田中[たなか]さんは、先月[せんげつ]退社[たいしゃ]しました。",
+     "vi": "Anh Tanaka đã thôi việc tháng trước.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "定時[ていじ]に退社[たいしゃ]する",
+     "vi": "về đúng giờ"
+    },
+    {
+     "jp": "会社[かいしゃ]を退社[たいしゃ]する",
+     "vi": "thôi việc"
+    }
+   ],
+   "ant": [
+    {
+     "w": "出社[しゅっしゃ]",
+     "vi": "đến công ty"
+    }
+   ],
+   "confuse": [
+    "v:退職:たいしょく"
+   ],
+   "note": "Hai nghĩa: tan làm về (một ngày) và nghỉ hẳn công ty. Xem ngữ cảnh."
+  },
+  {
+   "id": "v:終了:しゅうりょう",
+   "kana": "しゅうりょう",
+   "kanji": "終了",
+   "hv": "CHUNG LIỄU",
+   "vi": "chấm dứt, hoàn tất (văn viết, thông báo)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thông báo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "本日[ほんじつ]の作業[さぎょう]は、これで終了[しゅうりょう]です。",
+     "vi": "Công việc hôm nay đến đây là kết thúc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "受付[うけつけ]は、五時[ごじ]で終了[しゅうりょう]しました。",
+     "vi": "Quầy tiếp nhận đã đóng lúc năm giờ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "作業[さぎょう]を終了[しゅうりょう]する",
+     "vi": "kết thúc công việc"
+    },
+    {
+     "jp": "契約[けいやく]を終了[しゅうりょう]する",
+     "vi": "chấm dứt hợp đồng"
+    }
+   ],
+   "ant": [
+    "v:開始:かいし"
+   ],
+   "note": "Thông báo hay gặp: 本日[ほんじつ]の営業[えいぎょう]は終了[しゅうりょう]しました = hôm nay đã hết giờ phục vụ."
+  },
+  {
+   "id": "v:閉店:へいてん",
+   "kana": "へいてん",
+   "kanji": "閉店",
+   "hv": "BẾ ĐIẾM",
+   "vi": "đóng cửa tiệm (hết giờ; ngừng kinh doanh)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thông báo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このスーパーは、夜[よる]十時[じゅうじ]に閉店[へいてん]します。",
+     "vi": "Siêu thị này đóng cửa lúc mười giờ tối.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "駅前[えきまえ]のパン屋[や]が、今月[こんげつ]で閉店[へいてん]するそうだ。",
+     "vi": "Nghe nói tiệm bánh trước ga đóng cửa hẳn từ tháng này.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "早[はや]めに閉店[へいてん]する",
+     "vi": "đóng cửa sớm"
+    },
+    {
+     "jp": "今月[こんげつ]で閉店[へいてん]する",
+     "vi": "đóng cửa từ tháng này"
+    }
+   ],
+   "ant": [
+    {
+     "w": "開店[かいてん]",
+     "vi": "mở cửa tiệm"
+    }
+   ],
+   "note": "閉店[へいてん]時間[じかん] = giờ đóng cửa; 閉店[へいてん]セール = bán xả hàng đóng cửa."
+  },
+  {
+   "id": "v:各位:かくい",
+   "kana": "かくい",
+   "kanji": "各位",
+   "hv": "CÁC VỊ",
+   "vi": "kính gửi các vị (đầu văn bản thông báo)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thông báo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "掲示板[けいじばん]に、「従業員[じゅうぎょういん]各位[かくい]」という紙[かみ]が貼[は]ってあった。",
+     "vi": "Trên bảng tin có dán tờ giấy \"Kính gửi toàn thể nhân viên\".",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "関係者[かんけいしゃ]各位[かくい]、明日[あした]の会議[かいぎ]は十時[じゅうじ]からです。",
+     "vi": "Kính gửi các bên liên quan, cuộc họp ngày mai từ mười giờ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Đặt sau danh từ chỉ người nhận: 社員[しゃいん]各位[かくい], お客様[きゃくさま]各位[かくい]. Đã mang nghĩa kính trọng, không thêm 様[さま]."
+  }
+ ]
+}

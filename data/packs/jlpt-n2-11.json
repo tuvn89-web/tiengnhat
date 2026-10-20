@@ -1,0 +1,1703 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-11",
+  "title": "JLPT N2 11 – Khuyến mãi, ưu đãi, giới hạn và thời hạn",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:割引:わりびき",
+   "kana": "わりびき",
+   "kanji": "割引",
+   "hv": "CÁT DẪN",
+   "vi": "giảm giá (theo phần trăm)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khuyến mãi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "学生[がくせい]は、二割[にわり]引[びき]になります。",
+     "vi": "Sinh viên được giảm 20%.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会員[かいいん]カードを見[み]せると、一割[いちわり]引[びき]してもらえます。",
+     "vi": "Xuất trình thẻ hội viên thì được giảm 10%.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "料金[りょうきん]を割引[わりびき]する",
+     "vi": "giảm giá cước"
+    }
+   ],
+   "confuse": [
+    "v:値引き:ねびき"
+   ],
+   "note": "割[わり] = 10%: 二割[にわり]引[びき] = giảm 20%. 割引券[わりびきけん] = phiếu giảm giá."
+  },
+  {
+   "id": "v:値引き:ねびき",
+   "kana": "ねびき",
+   "kanji": "値引き",
+   "kf": "値引[ねび]き",
+   "hv": "TRỊ DẪN",
+   "vi": "bớt giá (trừ thẳng một khoản tiền)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khuyến mãi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "閉店[へいてん]前[まえ]は、お弁当[べんとう]が値引[ねび]きされます。",
+     "vi": "Trước giờ đóng cửa, cơm hộp được bớt giá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "箱[はこ]に傷[きず]があったので、百円[ひゃくえん]値引[ねび]きしてもらいました。",
+     "vi": "Thùng bị trầy nên tôi được bớt 100 yên.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "商品[しょうひん]を値引[ねび]きする",
+     "vi": "bớt giá sản phẩm"
+    }
+   ],
+   "confuse": [
+    "v:割引:わりびき"
+   ],
+   "note": "値引[ねび]きシール = tem giảm giá dán trên hàng (siêu thị buổi tối)."
+  },
+  {
+   "id": "v:半額:はんがく",
+   "kana": "はんがく",
+   "kanji": "半額",
+   "hv": "BÁN NGẠCH",
+   "vi": "nửa giá",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khuyến mãi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜[よる]八時[はちじ]を過[す]ぎると、刺身[さしみ]が半額[はんがく]になります。",
+     "vi": "Qua 8 giờ tối, sashimi được giảm còn nửa giá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "子供[こども]の料金[りょうきん]は、大人[おとな]の半額[はんがく]です。",
+     "vi": "Giá vé trẻ em bằng nửa giá người lớn.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "半額[はんがく]シール = tem nửa giá."
+  },
+  {
+   "id": "v:セール:セール",
+   "kana": "セール",
+   "kanji": "",
+   "hv": "",
+   "vi": "đợt bán giảm giá",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khuyến mãi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "駅前[えきまえ]のスーパーで、冬物[ふゆもの]のセールをしています。",
+     "vi": "Siêu thị trước ga đang có đợt giảm giá đồ mùa đông.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "セールの期間中[きかんちゅう]は、返品[へんぴん]できない商品[しょうひん]もあります。",
+     "vi": "Trong đợt giảm giá có những hàng không được trả lại.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "sale (tiếng Anh)"
+  },
+  {
+   "id": "v:特売:とくばい",
+   "kana": "とくばい",
+   "kanji": "特売",
+   "hv": "ĐẶC MẠI",
+   "vi": "bán hạ giá đặc biệt (theo ngày, theo đợt)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khuyến mãi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎週[まいしゅう]火曜日[かようび]は、卵[たまご]の特売日[とくばいび]です。",
+     "vi": "Thứ ba hàng tuần là ngày trứng hạ giá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "特売[とくばい]のチラシを見[み]てから、買[か]い物[もの]に行[い]きます。",
+     "vi": "Xem tờ rơi hạ giá rồi mới đi chợ.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:特価:とっか"
+   ],
+   "note": "特売日[とくばいび] = ngày hạ giá."
+  },
+  {
+   "id": "v:特価:とっか",
+   "kana": "とっか",
+   "kanji": "特価",
+   "hv": "ĐẶC GIÁ",
+   "vi": "giá đặc biệt (rẻ hơn giá thường)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khuyến mãi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この冷蔵庫[れいぞうこ]は、今[いま]だけ特価[とっか]です。",
+     "vi": "Tủ lạnh này chỉ bây giờ có giá đặc biệt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "特価[とっか]品[ひん]は、交換[こうかん]や返品[へんぴん]ができません。",
+     "vi": "Hàng giá đặc biệt không đổi trả được.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:特売:とくばい"
+   ],
+   "note": "特価品[とっかひん] = hàng giá đặc biệt."
+  },
+  {
+   "id": "v:特典:とくてん",
+   "kana": "とくてん",
+   "kanji": "特典",
+   "hv": "ĐẶC ĐIỂN",
+   "vi": "quyền lợi ưu đãi (dành riêng cho một nhóm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khuyến mãi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会員[かいいん]には、誕生日[たんじょうび]の特典[とくてん]があります。",
+     "vi": "Hội viên có ưu đãi vào ngày sinh nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "早[はや]く申[もう]し込[こ]んだ人[ひと]に限[かぎ]り、特典[とくてん]がもらえます。",
+     "vi": "Chỉ người đăng ký sớm mới nhận được ưu đãi.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Hay gặp: 会員特典[かいいんとくてん], 特典付[とくてんつ]き."
+  },
+  {
+   "id": "v:クーポン:クーポン",
+   "kana": "クーポン",
+   "kanji": "",
+   "hv": "",
+   "vi": "phiếu giảm giá (coupon)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khuyến mãi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "アプリのクーポンを使[つか]うと、百円[ひゃくえん]安[やす]くなります。",
+     "vi": "Dùng coupon trên ứng dụng thì rẻ đi 100 yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "このクーポンは、一回[いっかい]に限[かぎ]り使[つか]えます。",
+     "vi": "Phiếu này chỉ dùng được một lần.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "coupon (tiếng Pháp)"
+  },
+  {
+   "id": "v:ポイント:ポイント",
+   "kana": "ポイント",
+   "kanji": "",
+   "hv": "",
+   "vi": "điểm tích lũy; điểm mấu chốt",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khuyến mãi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "買[か]い物[もの]をすると、ポイントが貯[た]まります。",
+     "vi": "Mua sắm thì được tích điểm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "作業[さぎょう]のポイントを、新人[しんじん]に説明[せつめい]しました。",
+     "vi": "Tôi giải thích những điểm mấu chốt của công việc cho người mới.",
+     "ctx": "xuong"
+    }
+   ],
+   "goc": "point (tiếng Anh)",
+   "note": "ポイントが貯[た]まる = tích được điểm; ポイントカード = thẻ tích điểm."
+  },
+  {
+   "id": "v:お得:おとく",
+   "kana": "おとく",
+   "kanji": "お得",
+   "kf": "お得[とく]",
+   "hv": "ĐẮC",
+   "vi": "hời, được lợi (về tiền)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khuyến mãi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "まとめて買[か]うと、お得[とく]です。",
+     "vi": "Mua gộp một lần thì hời.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "平日[へいじつ]の昼[ひる]に行[い]くほうが、料金[りょうきん]がお得[とく]です。",
+     "vi": "Đi trưa ngày thường thì giá có lợi hơn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このセット、一[ひと]つずつ買[か]うよりお得[とく]だよ。B：じゃ、それにしよう。",
+     "vi": "A: Bộ này hời hơn mua lẻ từng cái đấy. B: Vậy lấy cái đó đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "セット",
+     "vi": "bộ (combo)"
+    },
+    {
+     "jp": "料金[りょうきん]",
+     "vi": "giá cước"
+    }
+   ],
+   "ant": [
+    "v:損:そん"
+   ],
+   "note": "お得[とく]な情報[じょうほう] = thông tin có lợi."
+  },
+  {
+   "id": "v:割安:わりやす",
+   "kana": "わりやす",
+   "kanji": "割安",
+   "hv": "CÁT AN",
+   "vi": "tính ra rẻ (so với lượng, chất lượng)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khuyến mãi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大[おお]きい袋[ふくろ]のほうが、割安[わりやす]です。",
+     "vi": "Túi to thì tính ra rẻ hơn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "定期券[ていきけん]は、毎日[まいにち]乗[の]る人[ひと]には割安[わりやす]です。",
+     "vi": "Vé tháng tính ra rẻ với người đi hằng ngày.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：この店[みせ]、刺身[さしみ]が割安[わりやす]だね。B：うん、港[みなと]の近[ちか]くだからね。",
+     "vi": "A: Quán này sashimi rẻ nhỉ. B: Ừ, vì gần cảng mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "料金[りょうきん]",
+     "vi": "giá cước"
+    },
+    {
+     "jp": "商品[しょうひん]",
+     "vi": "sản phẩm"
+    }
+   ],
+   "ant": [
+    {
+     "w": "割高[わりだか]",
+     "vi": "tính ra đắt"
+    }
+   ]
+  },
+  {
+   "id": "v:大幅:おおはば",
+   "kana": "おおはば",
+   "kanji": "大幅",
+   "hv": "ĐẠI PHÚC",
+   "vi": "đáng kể (mức tăng giảm, thay đổi)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khuyến mãi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冬物[ふゆもの]が、大幅[おおはば]に値下[ねさ]げされました。",
+     "vi": "Đồ mùa đông được giảm giá mạnh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "台風[たいふう]で、電車[でんしゃ]の時間[じかん]が大幅[おおはば]に乱[みだ]れています。",
+     "vi": "Do bão, giờ tàu bị xáo trộn nhiều.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]を入[い]れて、作業時間[さぎょうじかん]が大幅[おおはば]に減[へ]りました。",
+     "vi": "Đưa máy vào, thời gian làm việc giảm hẳn.",
+     "ctx": "xuong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "値下[ねさ]げ",
+     "vi": "giảm giá"
+    },
+    {
+     "jp": "変更[へんこう]",
+     "vi": "thay đổi"
+    }
+   ],
+   "ant": [
+    {
+     "w": "小幅[こはば]",
+     "vi": "(thay đổi) nhỏ"
+    }
+   ],
+   "note": "Hay dùng 大幅[おおはば]に + động từ: 増[ふ]える, 減[へ]る, 変[か]わる, 遅[おく]れる."
+  },
+  {
+   "id": "v:手頃:てごろ",
+   "kana": "てごろ",
+   "kanji": "手頃",
+   "hv": "THỦ KHOẢNH",
+   "vi": "(giá) phải chăng; vừa tầm",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khuyến mãi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この店[みせ]は、値段[ねだん]が手頃[てごろ]で美味[おい]しいです。",
+     "vi": "Quán này giá phải chăng mà ngon.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "手頃[てごろ]な大[おお]きさの箱[はこ]を、探[さが]しています。",
+     "vi": "Tôi đang tìm cái thùng cỡ vừa tầm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：引[ひ]っ越[こ]し祝[いわ]い、何[なに]がいいかな。B：手頃[てごろ]な値段[ねだん]のタオルセットはどう？",
+     "vi": "A: Quà mừng chuyển nhà tặng gì nhỉ? B: Bộ khăn giá phải chăng thì sao?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "値段[ねだん]",
+     "vi": "giá"
+    },
+    {
+     "jp": "大[おお]きさ",
+     "vi": "kích cỡ"
+    }
+   ],
+   "note": "手頃[てごろ]な値段[ねだん] = giá phải chăng."
+  },
+  {
+   "id": "v:限定:げんてい",
+   "kana": "げんてい",
+   "kanji": "限定",
+   "hv": "HẠN ĐỊNH",
+   "vi": "chỉ dành riêng cho (giới hạn phạm vi)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このお菓子[かし]は、兵庫県[ひょうごけん]限定[げんてい]です。",
+     "vi": "Bánh này chỉ bán ở tỉnh Hyogo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "見学[けんがく]できる人[ひと]を、社員[しゃいん]に限定[げんてい]します。",
+     "vi": "Chỉ cho nhân viên công ty tham quan.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人数[にんずう]を限定[げんてい]する",
+     "vi": "giới hạn số người"
+    },
+    {
+     "jp": "対象[たいしょう]を限定[げんてい]する",
+     "vi": "giới hạn đối tượng"
+    }
+   ],
+   "rel": [
+    "v:限る:かぎる"
+   ],
+   "note": "地域限定[ちいきげんてい] = chỉ bán ở vùng đó; 限定品[げんていひん] = hàng phiên bản giới hạn."
+  },
+  {
+   "id": "v:期間限定:きかんげんてい",
+   "kana": "きかんげんてい",
+   "kanji": "期間限定",
+   "hv": "KỲ GIAN HẠN ĐỊNH",
+   "vi": "chỉ có trong một thời gian",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "期間[きかん]限定[げんてい]のメニューが、始[はじ]まりました。",
+     "vi": "Món chỉ có trong mùa này đã bắt đầu bán.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この割引[わりびき]は期間[きかん]限定[げんてい]なので、早[はや]めに使[つか]ってください。",
+     "vi": "Giảm giá này có thời hạn nên hãy dùng sớm.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:期間:きかん"
+   ]
+  },
+  {
+   "id": "v:数量限定:すうりょうげんてい",
+   "kana": "すうりょうげんてい",
+   "kanji": "数量限定",
+   "hv": "SỐ LƯỢNG HẠN ĐỊNH",
+   "vi": "số lượng có hạn",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "数量[すうりょう]限定[げんてい]なので、早[はや]く行[い]かないとなくなります。",
+     "vi": "Số lượng có hạn nên không đi sớm là hết.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しいお弁当[べんとう]は、一日[いちにち]百個[ひゃっこ]の数量[すうりょう]限定[げんてい]です。",
+     "vi": "Cơm hộp mới chỉ bán 100 hộp mỗi ngày.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:数量:すうりょう"
+   ]
+  },
+  {
+   "id": "v:先着:せんちゃく",
+   "kana": "せんちゃく",
+   "kanji": "先着",
+   "hv": "TIÊN TRƯỚC",
+   "vi": "đến trước (được ưu tiên)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先着[せんちゃく]五十名[ごじゅうめい]様[さま]に、プレゼントがあります。",
+     "vi": "50 vị khách đến đầu tiên được tặng quà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "席[せき]は予約[よやく]できません。先着順[せんちゃくじゅん]です。",
+     "vi": "Không đặt chỗ được, ai đến trước ngồi trước.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "先着順[せんちゃくじゅん] = theo thứ tự đến trước."
+  },
+  {
+   "id": "v:限り:かぎり",
+   "kana": "かぎり",
+   "kanji": "限り",
+   "kf": "限[かぎ]り",
+   "hv": "HẠN",
+   "vi": "sự có hạn; chỉ tới (mức đó)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このセールは、本日[ほんじつ]限[かぎ]りです。",
+     "vi": "Đợt giảm giá này chỉ hôm nay.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "卵[たまご]は、お一人[ひとり]様[さま]二[に]パック限[かぎ]りです。",
+     "vi": "Trứng mỗi khách tối đa hai vỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "体力[たいりょく]には限[かぎ]りがあるので、無理[むり]しないでください。",
+     "vi": "Sức người có hạn, đừng cố quá.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:限る:かぎる"
+   ],
+   "note": "本日[ほんじつ]限[かぎ]り = chỉ hôm nay; 数[かず]に限[かぎ]りがある = số lượng có hạn. Mẫu ngữ pháp: 〜に限[かぎ]り = chỉ riêng …."
+  },
+  {
+   "id": "v:お一人様:おひとりさま",
+   "kana": "おひとりさま",
+   "kanji": "お一人様",
+   "kf": "お一人[ひとり]様[さま]",
+   "hv": "NHẤT NHÂN DẠNG",
+   "vi": "mỗi (một) vị khách",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "特売[とくばい]の卵[たまご]は、お一人[ひとり]様[さま]一[ひと]パックまでです。",
+     "vi": "Trứng hạ giá mỗi khách chỉ được một vỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：お一人[ひとり]様[さま]ですか。B：はい、一人[ひとり]です。",
+     "vi": "A: Quý khách đi một mình ạ? B: Vâng, một người.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Cách nói lịch sự của 一人[ひとり] trong cửa hàng. お一人[ひとり]様[さま]〜限[かぎ]り = mỗi khách tối đa …. Ngày nay còn chỉ người đi ăn, đi chơi một mình."
+  },
+  {
+   "id": "v:対象者:たいしょうしゃ",
+   "kana": "たいしょうしゃ",
+   "kanji": "対象者",
+   "hv": "ĐỐI TƯỢNG GIẢ",
+   "vi": "người là đối tượng (của ưu đãi, chính sách)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "割引[わりびき]の対象者[たいしょうしゃ]は、六十五歳[ろくじゅうごさい]以上[いじょう]の方[かた]です。",
+     "vi": "Người được giảm giá là người từ 65 tuổi trở lên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "健康診断[けんこうしんだん]の対象者[たいしょうしゃ]に、お知[し]らせが届[とど]きます。",
+     "vi": "Người thuộc diện khám sức khỏe sẽ nhận được thông báo.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:対象:たいしょう"
+   ]
+  },
+  {
+   "id": "v:予約制:よやくせい",
+   "kana": "よやくせい",
+   "kanji": "予約制",
+   "hv": "DỰ ƯỚC CHẾ",
+   "vi": "chế độ phải đặt trước",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この歯医者[はいしゃ]は、予約制[よやくせい]です。",
+     "vi": "Phòng khám nha này phải đặt hẹn trước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "市役所[しやくしょ]の相談窓口[そうだんまどぐち]は、予約制[よやくせい]になりました。",
+     "vi": "Quầy tư vấn của tòa thị chính đã chuyển sang hẹn trước.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:整理券:せいりけん",
+   "kana": "せいりけん",
+   "kanji": "整理券",
+   "hv": "CHỈNH LÝ KHOÁN",
+   "vi": "phiếu số thứ tự",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "朝[あさ]九時[くじ]から、整理券[せいりけん]を配[くば]ります。",
+     "vi": "Từ 9 giờ sáng sẽ phát phiếu số thứ tự.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "整理券[せいりけん]の番号[ばんごう]順[じゅん]に、お呼[よ]びします。",
+     "vi": "Chúng tôi sẽ gọi theo số trên phiếu.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Cũng là vé rút khi lên xe buýt (tính tiền theo chặng)."
+  },
+  {
+   "id": "v:抽選:ちゅうせん",
+   "kana": "ちゅうせん",
+   "kanji": "抽選",
+   "hv": "TRỪU TUYỂN",
+   "vi": "bốc thăm, quay số",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "応募者[おうぼしゃ]が多[おお]い場合[ばあい]は、抽選[ちゅうせん]になります。",
+     "vi": "Nếu nhiều người đăng ký thì sẽ bốc thăm.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "抽選[ちゅうせん]で、十名[じゅうめい]様[さま]に旅行券[りょこうけん]が当[あ]たります。",
+     "vi": "Quay số, 10 vị sẽ trúng phiếu du lịch.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "公平[こうへい]に抽選[ちゅうせん]する",
+     "vi": "bốc thăm công bằng"
+    }
+   ],
+   "note": "抽選会[ちゅうせんかい] = buổi quay số; 抽選[ちゅうせん]に外[はず]れる = trượt bốc thăm."
+  },
+  {
+   "id": "v:当選:とうせん",
+   "kana": "とうせん",
+   "kanji": "当選",
+   "hv": "ĐƯƠNG TUYỂN",
+   "vi": "trúng thưởng, trúng thăm; trúng cử",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "キャンペーンに当選[とうせん]して、お米[こめ]が届[とど]きました。",
+     "vi": "Trúng giải khuyến mãi nên được gửi gạo đến.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "当選[とうせん]した方[かた]には、メールでお知[し]らせします。",
+     "vi": "Người trúng sẽ được báo qua email.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "抽選[ちゅうせん]に当選[とうせん]する",
+     "vi": "trúng bốc thăm"
+    }
+   ],
+   "ant": [
+    {
+     "w": "落選[らくせん]",
+     "vi": "trượt (thăm, bầu cử)"
+    }
+   ],
+   "rel": [
+    "v:当たる:あたる"
+   ],
+   "note": "当選者[とうせんしゃ] = người trúng. 選挙[せんきょ]に当選[とうせん]する = trúng cử."
+  },
+  {
+   "id": "v:応募:おうぼ",
+   "kana": "おうぼ",
+   "kanji": "応募",
+   "hv": "ỨNG MỘ",
+   "vi": "gửi đơn dự (tuyển, thi, rút thăm)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "抽選[ちゅうせん]に応募[おうぼ]したけど、外[はず]れました。",
+     "vi": "Tôi gửi đơn bốc thăm nhưng trượt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "求人[きゅうじん]に応募[おうぼ]するときは、履歴書[りれきしょ]が必要[ひつよう]です。",
+     "vi": "Khi ứng tuyển cần sơ yếu lý lịch.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：このプレゼント、だれでも応募[おうぼ]できるの？B：二十歳[はたち]以上[いじょう]なら大丈夫[だいじょうぶ]だよ。",
+     "vi": "A: Quà này ai cũng gửi đơn được à? B: Từ 20 tuổi trở lên là được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "求人[きゅうじん]に応募[おうぼ]する",
+     "vi": "ứng tuyển vào tin tuyển dụng"
+    },
+    {
+     "jp": "キャンペーンに応募[おうぼ]する",
+     "vi": "tham gia khuyến mãi"
+    }
+   ],
+   "confuse": [
+    "v:申し込む:もうしこむ"
+   ],
+   "note": "応募[おうぼ] = gửi đơn để được chọn (tuyển dụng, rút thăm, cuộc thi). 申[もう]し込[こ]む = đăng ký dùng dịch vụ, học, thi."
+  },
+  {
+   "id": "v:会員証:かいいんしょう",
+   "kana": "かいいんしょう",
+   "kanji": "会員証",
+   "hv": "HỘI VIÊN CHỨNG",
+   "vi": "thẻ hội viên",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "レジで会員[かいいん]証[しょう]を出[だ]すと、ポイントが付[つ]きます。",
+     "vi": "Đưa thẻ hội viên ở quầy thu ngân thì được cộng điểm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ジムに入[はい]るときは、会員[かいいん]証[しょう]を見[み]せてください。",
+     "vi": "Khi vào phòng gym hãy xuất trình thẻ hội viên.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:会員:かいいん"
+   ]
+  },
+  {
+   "id": "v:但し:ただし",
+   "kana": "ただし",
+   "kanji": "但し",
+   "kf": "但[ただ]し",
+   "hv": "ĐÃN",
+   "vi": "có điều, với điều kiện là (văn thông báo)",
+   "pos": "other",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giới hạn & đối tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "全品[ぜんぴん]半額[はんがく]です。但[ただ]し、お酒[さけ]は除[のぞ]きます。",
+     "vi": "Tất cả hàng nửa giá. Có điều, trừ rượu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "明日[あした]は休[やす]みです。但[ただ]し、急[きゅう]な注文[ちゅうもん]があれば出勤[しゅっきん]してもらいます。",
+     "vi": "Mai được nghỉ. Có điều, nếu có đơn gấp thì phải đi làm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "書類[しょるい]は郵送[ゆうそう]でも受[う]け付[つ]けます。但[ただ]し、締[し]め切[き]り日[び]の消印[けしいん]まで有効[ゆうこう]です。",
+     "vi": "Hồ sơ gửi bưu điện cũng được nhận. Có điều, chỉ tính đến dấu bưu điện ngày hạn chót.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:しかし:しかし"
+   ],
+   "note": "但[ただ]し thêm điều kiện, ngoại lệ cho câu trước (hay gặp trên thông báo, hợp đồng); thường viết bằng かな: ただし. しかし = nhưng (ý trái ngược)."
+  },
+  {
+   "id": "v:在庫:ざいこ",
+   "kana": "ざいこ",
+   "kanji": "在庫",
+   "hv": "TẠI KHỐ",
+   "vi": "hàng tồn kho",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このサイズは、在庫[ざいこ]がありません。",
+     "vi": "Cỡ này trong kho hết rồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "毎週[まいしゅう]金曜日[きんようび]に、冷凍庫[れいとうこ]の在庫[ざいこ]を数[かぞ]えます。",
+     "vi": "Thứ sáu hàng tuần đếm hàng tồn trong kho đông lạnh.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "在庫切[ざいこぎ]れ = hết hàng tồn; 在庫管理[ざいこかんり] = quản lý tồn kho."
+  },
+  {
+   "id": "v:品切れ:しなぎれ",
+   "kana": "しなぎれ",
+   "kanji": "品切れ",
+   "kf": "品切[しなぎ]れ",
+   "hv": "PHẨM THIẾT",
+   "vi": "tạm hết hàng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人気[にんき]の商品[しょうひん]は、すぐ品切[しなぎ]れになります。",
+     "vi": "Hàng được ưa chuộng nhanh chóng hết.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：すみません、この魚[さかな]はもうないですか。B：申[もう]し訳[わけ]ありません、ただいま品切[しなぎ]れです。",
+     "vi": "A: Xin lỗi, cá này hết rồi à? B: Xin lỗi, hiện đang tạm hết hàng ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:売り切れ:うりきれ"
+   ],
+   "note": "品切[しなぎ]れ = trong kho cũng không còn, chờ hàng về. 売[う]り切[き]れ = đã bán hết sạch."
+  },
+  {
+   "id": "v:売り切れ:うりきれ",
+   "kana": "うりきれ",
+   "kanji": "売り切れ",
+   "kf": "売[う]り切[き]れ",
+   "hv": "MẠI THIẾT",
+   "vi": "bán hết sạch",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "限定[げんてい]のケーキは、昼前[ひるまえ]に売[う]り切[き]れになりました。",
+     "vi": "Bánh giới hạn đã bán hết trước trưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "店[みせ]の前[まえ]に、「売[う]り切[き]れ」の札[ふだ]が出[で]ていました。",
+     "vi": "Trước cửa hàng có treo biển \"đã bán hết\".",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:品切れ:しなぎれ"
+   ],
+   "rel": [
+    {
+     "w": "売[う]り切[き]れる",
+     "vi": "bán hết"
+    }
+   ]
+  },
+  {
+   "id": "v:品薄:しなうす",
+   "kana": "しなうす",
+   "kanji": "品薄",
+   "hv": "PHẨM BẠC",
+   "vi": "khan hàng, hàng ít",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台風[たいふう]のあと、野菜[やさい]が品薄[しなうす]になっています。",
+     "vi": "Sau bão rau đang khan.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "不漁[ふりょう]で、サンマが品薄[しなうす]です。",
+     "vi": "Do mất mùa cá, cá thu đao đang khan hàng.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "品薄状態[しなうすじょうたい] = tình trạng khan hàng."
+  },
+  {
+   "id": "v:入荷:にゅうか",
+   "kana": "にゅうか",
+   "kanji": "入荷",
+   "hv": "NHẬP HÀ",
+   "vi": "hàng về (nhập vào cửa hàng, kho)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しいサイズは、来週[らいしゅう]入荷[にゅうか]します。",
+     "vi": "Cỡ mới tuần sau về hàng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今朝[けさ]入荷[にゅうか]した魚[さかな]を、すぐに検品[けんぴん]してください。",
+     "vi": "Hãy kiểm ngay cá về sáng nay.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "商品[しょうひん]が入荷[にゅうか]する",
+     "vi": "hàng về"
+    }
+   ],
+   "ant": [
+    "v:出荷:しゅっか"
+   ],
+   "note": "再入荷[さいにゅうか] = hàng về lại."
+  },
+  {
+   "id": "v:発売:はつばい",
+   "kana": "はつばい",
+   "kanji": "発売",
+   "hv": "PHÁT MẠI",
+   "vi": "bắt đầu bán, tung ra (sản phẩm mới)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しいゲームが、来月[らいげつ]発売[はつばい]されます。",
+     "vi": "Trò chơi mới sẽ phát hành tháng sau.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "春[はる]の新商品[しんしょうひん]の発売日[はつばいび]が、決[き]まりました。",
+     "vi": "Đã chốt ngày bán sản phẩm mới mùa xuân.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "新商品[しんしょうひん]を発売[はつばい]する",
+     "vi": "tung ra sản phẩm mới"
+    }
+   ],
+   "note": "新発売[しんはつばい] = mới ra mắt; 発売日[はつばいび] = ngày phát hành."
+  },
+  {
+   "id": "v:店頭:てんとう",
+   "kana": "てんとう",
+   "kanji": "店頭",
+   "hv": "ĐIẾM ĐẦU",
+   "vi": "trước cửa hàng; tại cửa hàng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "店頭[てんとう]に、セールの案内[あんない]が貼[は]ってあります。",
+     "vi": "Trước cửa hàng có dán thông báo giảm giá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この商品[しょうひん]は、店頭[てんとう]でのみ販売[はんばい]しています。",
+     "vi": "Sản phẩm này chỉ bán tại cửa hàng.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:通販:つうはん"
+   ],
+   "note": "店頭販売[てんとうはんばい] = bán tại cửa hàng."
+  },
+  {
+   "id": "v:通販:つうはん",
+   "kana": "つうはん",
+   "kanji": "通販",
+   "hv": "THÔNG PHIẾN",
+   "vi": "mua bán qua mạng, đặt hàng gửi về",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "重[おも]い米[こめ]は、通販[つうはん]で買[か]っています。",
+     "vi": "Gạo nặng nên tôi mua qua mạng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "通販[つうはん]で買[か]った靴[くつ]を、返品[へんぴん]しました。",
+     "vi": "Tôi trả lại đôi giày mua qua mạng.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:店頭:てんとう"
+   ],
+   "note": "Nói tắt của 通信販売[つうしんはんばい]. ネット通販[つうはん] = mua bán qua mạng."
+  },
+  {
+   "id": "v:送料:そうりょう",
+   "kana": "そうりょう",
+   "kanji": "送料",
+   "hv": "TỐNG LIỆU",
+   "vi": "phí gửi hàng (ship)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "三千円[さんぜんえん]以上[いじょう]買[か]うと、送料[そうりょう]が無料[むりょう]になります。",
+     "vi": "Mua từ 3.000 yên thì miễn phí ship.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "国[くに]へ荷物[にもつ]を送[おく]る送料[そうりょう]を、郵便局[ゆうびんきょく]で聞[き]きました。",
+     "vi": "Tôi hỏi phí gửi đồ về nước ở bưu điện.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "送料無料[そうりょうむりょう] = miễn phí vận chuyển; 送料込[そうりょうこ]み = đã gồm phí ship."
+  },
+  {
+   "id": "v:有料:ゆうりょう",
+   "kana": "ゆうりょう",
+   "kanji": "有料",
+   "hv": "HỮU LIỆU",
+   "vi": "mất phí, có thu phí",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "レジ袋[ふくろ]は有料[ゆうりょう]です。",
+     "vi": "Túi ni-lông ở quầy phải trả tiền.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]の駐車場[ちゅうしゃじょう]は、来月[らいげつ]から有料[ゆうりょう]になります。",
+     "vi": "Bãi đỗ xe của nhà máy từ tháng sau thu phí.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:無料:むりょう"
+   ],
+   "note": "有料道路[ゆうりょうどうろ] = đường thu phí."
+  },
+  {
+   "id": "v:来店:らいてん",
+   "kana": "らいてん",
+   "kanji": "来店",
+   "hv": "LAI ĐIẾM",
+   "vi": "(khách) đến cửa hàng",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ご来店[らいてん]、ありがとうございます。",
+     "vi": "Cảm ơn quý khách đã đến cửa hàng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "来店[らいてん]の際[さい]は、予約[よやく]番号[ばんごう]をお伝[つた]えください。",
+     "vi": "Khi đến cửa hàng xin cho biết số đặt chỗ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "予約[よやく]して来店[らいてん]する",
+     "vi": "đặt trước rồi đến cửa hàng"
+    }
+   ],
+   "note": "Từ phía cửa hàng nói: ご来店[らいてん]ください = mời quý khách đến. Khách tự nói: 店[みせ]に行[い]く."
+  },
+  {
+   "id": "v:税込:ぜいこみ",
+   "kana": "ぜいこみ",
+   "kanji": "税込",
+   "hv": "THUẾ NHẬP",
+   "vi": "đã gồm thuế",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この値段[ねだん]は、税込[ぜいこみ]ですか。",
+     "vi": "Giá này đã gồm thuế chưa?",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "税込[ぜいこみ]で、千百円[せんひゃくえん]になります。",
+     "vi": "Đã gồm thuế là 1.100 yên ạ.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:税抜き:ぜいぬき"
+   ],
+   "flag": true,
+   "note": "Cũng viết 税込[ぜいこ]み. 税込価格[ぜいこみかかく] = giá đã gồm thuế. Âm Hán Việt của chữ thứ 2 (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:税抜き:ぜいぬき",
+   "kana": "ぜいぬき",
+   "kanji": "税抜き",
+   "kf": "税抜[ぜいぬ]き",
+   "hv": "THUẾ BẠT",
+   "vi": "chưa gồm thuế",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "税抜[ぜいぬ]きの値段[ねだん]だと、安[やす]く見[み]えます。",
+     "vi": "Ghi giá chưa thuế thì trông rẻ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "見積[みつ]もりは、税抜[ぜいぬ]きで計算[けいさん]してあります。",
+     "vi": "Báo giá đã tính theo giá chưa thuế.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:税込:ぜいこみ"
+   ]
+  },
+  {
+   "id": "v:消費税:しょうひぜい",
+   "kana": "しょうひぜい",
+   "kanji": "消費税",
+   "hv": "TIÊU PHÍ THUẾ",
+   "vi": "thuế tiêu dùng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hàng hóa & mua bán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "持[も]ち帰[かえ]りと店内[てんない]で食[た]べるのとでは、消費税[しょうひぜい]の税率[ぜいりつ]が違[ちが]います。",
+     "vi": "Mua mang về và ăn tại quán có thuế suất tiêu dùng khác nhau.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "消費税[しょうひぜい]の金額[きんがく]は、レシートに書[か]いてあります。",
+     "vi": "Tiền thuế tiêu dùng có ghi trên hóa đơn.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:消費:しょうひ"
+   ]
+  },
+  {
+   "id": "v:締め切る:しめきる",
+   "kana": "しめきる",
+   "kanji": "締め切る",
+   "kf": "締[し]め切[き]る",
+   "hv": "ĐẾ THIẾT",
+   "vi": "khóa sổ, dừng nhận (đơn)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời hạn & đổi trả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "応募[おうぼ]は、今月末[こんげつまつ]で締[し]め切[き]ります。",
+     "vi": "Việc nhận đơn sẽ khóa vào cuối tháng này.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "定員[ていいん]になったので、受付[うけつけ]を締[し]め切[き]りました。",
+     "vi": "Đã đủ số người nên dừng nhận đăng ký.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：説明会[せつめいかい]、まだ申[もう]し込[こ]めますか。B：すみません、昨日[きのう]締[し]め切[き]りました。",
+     "vi": "A: Buổi giới thiệu còn đăng ký được không? B: Xin lỗi, hôm qua đã khóa sổ rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "受付[うけつけ]を締[し]め切[き]る",
+     "vi": "dừng nhận đăng ký"
+    },
+    {
+     "jp": "応募[おうぼ]を締[し]め切[き]る",
+     "vi": "khóa nhận đơn"
+    }
+   ],
+   "rel": [
+    {
+     "w": "締[し]め切[き]り",
+     "vi": "hạn chót"
+    }
+   ]
+  },
+  {
+   "id": "v:以降:いこう",
+   "kana": "いこう",
+   "kanji": "以降",
+   "hv": "DĨ GIÁNG",
+   "vi": "từ … trở đi",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời hạn & đổi trả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "午後[ごご]五時[ごじ]以降[いこう]は、受付[うけつけ]できません。",
+     "vi": "Từ 5 giờ chiều trở đi không tiếp nhận.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "来月[らいげつ]以降[いこう]のシフトは、来週[らいしゅう]発表[はっぴょう]します。",
+     "vi": "Lịch ca từ tháng sau trở đi sẽ công bố vào tuần sau.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:以前:いぜん"
+   ],
+   "note": "以降[いこう] tính cả mốc đó: 五時[ごじ]以降[いこう] = từ 5 giờ (gồm 5 giờ). Văn nói hay dùng 〜から."
+  },
+  {
+   "id": "v:返品:へんぴん",
+   "kana": "へんぴん",
+   "kanji": "返品",
+   "hv": "PHẢN PHẨM",
+   "vi": "trả lại hàng",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời hạn & đổi trả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "サイズが合[あ]わなかったので、返品[へんぴん]しました。",
+     "vi": "Không vừa cỡ nên tôi trả hàng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "セール品[ひん]の返品[へんぴん]は、受[う]け付[つ]けておりません。",
+     "vi": "Hàng giảm giá không nhận trả lại.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "商品[しょうひん]を返品[へんぴん]する",
+     "vi": "trả lại hàng"
+    }
+   ],
+   "rel": [
+    "v:返金:へんきん"
+   ],
+   "note": "返品[へんぴん]・交換[こうかん] = đổi trả."
+  },
+  {
+   "id": "v:返金:へんきん",
+   "kana": "へんきん",
+   "kanji": "返金",
+   "hv": "PHẢN KIM",
+   "vi": "hoàn tiền",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời hạn & đổi trả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "商品[しょうひん]が届[とど]かなかったので、返金[へんきん]してもらいました。",
+     "vi": "Hàng không đến nên tôi được hoàn tiền.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "返金[へんきん]は、カード会社[かいしゃ]を通[とお]して行[おこな]います。",
+     "vi": "Việc hoàn tiền thực hiện qua công ty thẻ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "代金[だいきん]を返金[へんきん]する",
+     "vi": "hoàn trả tiền hàng"
+    }
+   ],
+   "rel": [
+    "v:返品:へんぴん"
+   ],
+   "note": "払[はら]い戻[もど]し = hoàn lại tiền (vé, phí đã nộp)."
+  },
+  {
+   "id": "v:取り消す:とりけす",
+   "kana": "とりけす",
+   "kanji": "取り消す",
+   "kf": "取[と]り消[け]す",
+   "hv": "THỦ TIÊU",
+   "vi": "hủy bỏ (đặt chỗ, đơn, quyết định)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời hạn & đổi trả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ホテルの予約[よやく]を取[と]り消[け]しました。",
+     "vi": "Tôi đã hủy đặt phòng khách sạn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一度[いちど]送[おく]った注文[ちゅうもん]は、取[と]り消[け]せません。",
+     "vi": "Đơn đã gửi thì không hủy được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "嘘[うそ]の申請[しんせい]をすると、在留資格[ざいりゅうしかく]が取[と]り消[け]されることがあります。",
+     "vi": "Nộp đơn gian dối có thể bị hủy tư cách lưu trú.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "予約[よやく]を取[と]り消[け]す",
+     "vi": "hủy đặt chỗ"
+    },
+    {
+     "jp": "注文[ちゅうもん]を取[と]り消[け]す",
+     "vi": "hủy đơn hàng"
+    }
+   ],
+   "syn": [
+    {
+     "w": "キャンセル",
+     "vi": "hủy (nói thường)"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "知[し]らないうちに、予約[よやく]が[[取[と]り消[け]され]]ていました。",
+     "vi": "Không biết từ lúc nào, đặt chỗ đã bị hủy mất."
+    }
+   ],
+   "note": "取[と]り消[け]し = sự hủy bỏ. Văn nói thường dùng キャンセルする."
+  },
+  {
+   "id": "v:受け付ける:うけつける",
+   "kana": "うけつける",
+   "kanji": "受け付ける",
+   "kf": "受[う]け付[つ]ける",
+   "hv": "THỤ PHÓ",
+   "vi": "thụ lý, nhận vào (đơn, hồ sơ, yêu cầu)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời hạn & đổi trả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "申請[しんせい]は、窓口[まどぐち]とインターネットで受[う]け付[つ]けています。",
+     "vi": "Đơn được nhận ở quầy và qua mạng.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "電話[でんわ]での注文[ちゅうもん]は、午後[ごご]三時[さんじ]まで受[う]け付[つ]けます。",
+     "vi": "Đơn đặt qua điện thoại nhận đến 3 giờ chiều.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：日曜日[にちようび]も相談[そうだん]を受[う]け付[つ]けていますか。B：いいえ、平日[へいじつ]だけです。",
+     "vi": "A: Chủ nhật có nhận tư vấn không ạ? B: Không, chỉ ngày thường thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "申[もう]し込[こ]みを受[う]け付[つ]ける",
+     "vi": "nhận đăng ký"
+    },
+    {
+     "jp": "注文[ちゅうもん]を受[う]け付[つ]ける",
+     "vi": "nhận đơn hàng"
+    }
+   ],
+   "rel": [
+    "v:受付:うけつけ"
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "書類[しょるい]に不備[ふび]がなければ、申請[しんせい]は[[受[う]け付[つ]けられ]]ます。",
+     "vi": "Hồ sơ không thiếu sót thì đơn sẽ được tiếp nhận."
+    }
+   ]
+  },
+  {
+   "id": "v:見逃す:みのがす",
+   "kana": "みのがす",
+   "kanji": "見逃す",
+   "kf": "見逃[みのが]す",
+   "hv": "KIẾN ĐÀO",
+   "vi": "bỏ lỡ (không kịp xem); bỏ sót (lỗi)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời hạn & đổi trả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "好[す]きなドラマを、見逃[みのが]してしまった。",
+     "vi": "Tôi lỡ mất tập phim yêu thích.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "小[ちい]さな骨[ほね]も見逃[みのが]さないように、よく確認[かくにん]してください。",
+     "vi": "Hãy kiểm tra kỹ để không bỏ sót cả xương nhỏ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：セール、明日[あした]までだって。B：じゃあ、見逃[みのが]さないように今日[きょう]行[い]こう。",
+     "vi": "A: Nghe nói giảm giá chỉ đến mai. B: Vậy đi hôm nay cho khỏi lỡ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "チャンスを見逃[みのが]す",
+     "vi": "bỏ lỡ cơ hội"
+    },
+    {
+     "jp": "ミスを見逃[みのが]す",
+     "vi": "bỏ sót lỗi"
+    }
+   ],
+   "note": "お見逃[みのが]しなく = đừng bỏ lỡ (hay gặp trên quảng cáo)."
+  },
+  {
+   "id": "v:気軽:きがる",
+   "kana": "きがる",
+   "kanji": "気軽",
+   "hv": "KHÍ KHINH",
+   "vi": "thoải mái (không ngại làm, ngại hỏi)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời hạn & đổi trả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "分[わ]からないことがあれば、気軽[きがる]に聞[き]いてください。",
+     "vi": "Có gì không hiểu cứ thoải mái hỏi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "入会[にゅうかい]金[きん]がないので、気軽[きがる]に始[はじ]められます。",
+     "vi": "Không mất phí vào hội nên dễ bắt đầu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：ちょっと相談[そうだん]したいことがあるんですが…。B：どうぞ、お気軽[きがる]に。",
+     "vi": "A: Tôi có chút việc muốn hỏi ý kiến… B: Cứ tự nhiên ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "気持[きも]ち",
+     "vi": "tâm trạng"
+    },
+    {
+     "jp": "服装[ふくそう]",
+     "vi": "trang phục"
+    }
+   ],
+   "note": "お気軽[きがる]にお問[と]い合[あ]わせください = cứ thoải mái liên hệ (hay gặp trên thông báo)."
+  }
+ ]
+}

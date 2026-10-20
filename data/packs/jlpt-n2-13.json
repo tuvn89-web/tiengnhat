@@ -1,0 +1,1706 @@
+{
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n2-13",
+    "title": "JLPT N2 13 – Mùa cao điểm, bận rộn, ưu tiên và nghỉ phép",
+    "type": "vocab",
+    "level": "N2",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 1,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+  },
+  "items": [
+    {
+      "id": "v:繁忙期:はんぼうき",
+      "kana": "はんぼうき",
+      "kanji": "繁忙期",
+      "hv": "PHỒN MANG KỲ",
+      "vi": "mùa cao điểm (bận nhất)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa cao điểm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "年末[ねんまつ]は、水産[すいさん]加工[かこう]の繁忙期[はんぼうき]です。",
+          "vi": "Cuối năm là mùa cao điểm của chế biến thủy sản.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "引[ひ]っ越[こ]しの繁忙期[はんぼうき]は、三月[さんがつ]です。",
+          "vi": "Mùa cao điểm chuyển nhà là tháng ba.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:閑散期:かんさんき"
+      ],
+      "note": "Văn nói: 忙[いそが]しい時期[じき]."
+    },
+    {
+      "id": "v:閑散期:かんさんき",
+      "kana": "かんさんき",
+      "kanji": "閑散期",
+      "hv": "NHÀN TÁN KỲ",
+      "vi": "mùa thấp điểm, mùa vắng khách",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa cao điểm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "閑散期[かんさんき]に、まとめて有給[ゆうきゅう]を取[と]ります。",
+          "vi": "Tôi lấy phép năm dồn vào mùa thấp điểm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "旅行[りょこう]は、閑散期[かんさんき]のほうが安[やす]いです。",
+          "vi": "Du lịch mùa vắng khách thì rẻ hơn.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:繁忙期:はんぼうき"
+      ]
+    },
+    {
+      "id": "v:書き入れ時:かきいれどき",
+      "kana": "かきいれどき",
+      "kanji": "書き入れ時",
+      "kf": "書[か]き入[い]れ時[どき]",
+      "hv": "THƯ NHẬP THỜI",
+      "vi": "lúc đắt hàng nhất (kiếm tiền tốt nhất)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa cao điểm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "年末[ねんまつ]は、魚屋[さかなや]の書[か]き入[い]れ時[とき]です。",
+          "vi": "Cuối năm là lúc đắt hàng nhất của tiệm cá.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "書[か]き入[い]れ時[とき]に機械[きかい]が壊[こわ]れて、大変[たいへん]でした。",
+          "vi": "Đúng lúc làm ăn đắt hàng thì máy hỏng, khổ sở.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:繁忙期:はんぼうき"
+      ],
+      "note": "Gốc: lúc bán chạy phải ghi (書[か]き入[い]れる) liên tục vào sổ bán hàng."
+    },
+    {
+      "id": "v:ピーク:ピーク",
+      "kana": "ピーク",
+      "kanji": "",
+      "hv": "",
+      "vi": "đỉnh điểm, lúc đông nhất",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa cao điểm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "注文[ちゅうもん]のピークは、十二月[じゅうにがつ]の後半[こうはん]です。",
+          "vi": "Đỉnh điểm đơn hàng là nửa cuối tháng mười hai.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "朝[あさ]の電車[でんしゃ]は、八時[はちじ]ごろがピークです。",
+          "vi": "Tàu buổi sáng đông nhất vào khoảng 8 giờ.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "peak (tiếng Anh)",
+      "note": "ピークを過[す]ぎる = qua đỉnh điểm."
+    },
+    {
+      "id": "v:最盛期:さいせいき",
+      "kana": "さいせいき",
+      "kanji": "最盛期",
+      "hv": "TỐI THỊNH KỲ",
+      "vi": "thời kỳ rộ nhất, thời kỳ thịnh nhất",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa cao điểm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今[いま]は、カキの最盛期[さいせいき]です。",
+          "vi": "Bây giờ là mùa rộ nhất của hàu.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "この港町[みなとまち]の最盛期[さいせいき]は、五十年[ごじゅうねん]ほど前[まえ]でした。",
+          "vi": "Thời thịnh nhất của thành phố cảng này là khoảng 50 năm trước.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:旬:しゅん"
+      ]
+    },
+    {
+      "id": "v:旬:しゅん",
+      "kana": "しゅん",
+      "kanji": "旬",
+      "hv": "TUẦN",
+      "vi": "mùa ngon nhất (của thực phẩm)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa cao điểm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "秋[あき]は、サンマが旬[しゅん]です。",
+          "vi": "Mùa thu là mùa ngon nhất của cá thu đao.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "旬[しゅん]の魚[さかな]は、脂[あぶら]がのっていておいしいです。",
+          "vi": "Cá đúng mùa béo ngậy và ngon.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：今[いま]、何[なに]が旬[しゅん]ですか。B：冬[ふゆ]だから、ブリがおいしいですよ。",
+          "vi": "A: Bây giờ mùa này món gì ngon ạ? B: Mùa đông nên cá cam ngon lắm.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "note": "旬[しゅん]の食材[しょくざい] = nguyên liệu đúng mùa; 旬[しゅん]を過[す]ぎる = quá mùa."
+    },
+    {
+      "id": "v:年末年始:ねんまつねんし",
+      "kana": "ねんまつねんし",
+      "kanji": "年末年始",
+      "hv": "NIÊN MẠT NIÊN THỦY",
+      "vi": "dịp cuối năm đầu năm",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa cao điểm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "年末年始[ねんまつねんし]は、工場[こうじょう]も五日[いつか]間[かん]休[やす]みです。",
+          "vi": "Dịp cuối năm đầu năm nhà máy nghỉ 5 ngày.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "年末年始[ねんまつねんし]は、役所[やくしょ]の窓口[まどぐち]が閉[し]まります。",
+          "vi": "Dịp cuối năm đầu năm, quầy cơ quan hành chính đóng cửa.",
+          "ctx": "thutuc"
+        }
+      ],
+      "rel": [
+        "v:正月:しょうがつ"
+      ]
+    },
+    {
+      "id": "v:お盆:おぼん",
+      "kana": "おぼん",
+      "kanji": "お盆",
+      "kf": "お盆[ぼん]",
+      "hv": "BỒN",
+      "vi": "lễ Obon (giữa tháng 8)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa cao điểm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "お盆[ぼん]には、多[おお]くの人[ひと]が実家[じっか]に帰[かえ]ります。",
+          "vi": "Dịp Obon nhiều người về quê.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "お盆[ぼん]の前[まえ]は、注文[ちゅうもん]が増[ふ]えて忙[いそが]しくなります。",
+          "vi": "Trước Obon đơn hàng tăng nên bận.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Phần lớn nơi nghỉ khoảng giữa tháng 8; お盆休[ぼんやす]み = kỳ nghỉ Obon. Còn có nghĩa: cái khay."
+    },
+    {
+      "id": "v:稼働:かどう",
+      "kana": "かどう",
+      "kanji": "稼働",
+      "hv": "GIÁ ĐỘNG",
+      "vi": "vận hành (máy móc, nhà máy)",
+      "pos": "n-suru",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa cao điểm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "繁忙期[はんぼうき]は、工場[こうじょう]を二十四時間[にじゅうよじかん]稼働[かどう]させます。",
+          "vi": "Mùa cao điểm cho nhà máy chạy 24 giờ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "新[あたら]しい機械[きかい]が、来月[らいげつ]から稼働[かどう]します。",
+          "vi": "Máy mới sẽ vận hành từ tháng sau.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "ラインが稼働[かどう]する",
+          "vi": "dây chuyền chạy"
+        },
+        {
+          "jp": "機械[きかい]が稼働[かどう]する",
+          "vi": "máy vận hành"
+        }
+      ],
+      "note": "稼働率[かどうりつ] = tỷ lệ vận hành; 稼働日[かどうび] = ngày nhà máy chạy."
+    },
+    {
+      "id": "v:人手:ひとで",
+      "kana": "ひとで",
+      "kanji": "人手",
+      "hv": "NHÂN THỦ",
+      "vi": "người làm, sức người",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa cao điểm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "繁忙期[はんぼうき]は、人手[ひとで]が足[た]りません。",
+          "vi": "Mùa cao điểm thiếu người làm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "引[ひ]っ越[こ]しには、人手[ひとで]が必要[ひつよう]です。",
+          "vi": "Chuyển nhà cần người phụ.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:人手不足:ひとでぶそく"
+      ],
+      "note": "人手[ひとで]が足[た]りない = thiếu người. Đồng âm: 人出[ひとで] = lượng người ra đường."
+    },
+    {
+      "id": "v:人員:じんいん",
+      "kana": "じんいん",
+      "kanji": "人員",
+      "hv": "NHÂN VIÊN",
+      "vi": "số nhân sự (được bố trí)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa cao điểm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "繁忙期[はんぼうき]に向[む]けて、人員[じんいん]を増[ふ]やします。",
+          "vi": "Hướng tới mùa cao điểm, tăng số nhân sự.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "人員[じんいん]が足[た]りないので、ほかの班[はん]から応援[おうえん]を呼[よ]びました。",
+          "vi": "Thiếu nhân sự nên gọi người tổ khác sang hỗ trợ.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:人手:ひとで"
+      ],
+      "note": "人員配置[じんいんはいち] = bố trí nhân sự."
+    },
+    {
+      "id": "v:助っ人:すけっと",
+      "kana": "すけっと",
+      "kanji": "助っ人",
+      "kf": "助[すけ]っ人[と]",
+      "hv": "TRỢ NHÂN",
+      "vi": "người đến giúp (tạm thời)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Mùa cao điểm",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "忙[いそが]しい日[ひ]は、本社[ほんしゃ]から助[すけ]っ人[と]が来[き]ます。",
+          "vi": "Ngày bận có người từ trụ sở chính đến giúp.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "引[ひ]っ越[こ]しの助[すけ]っ人[と]を、友達[ともだち]に頼[たの]みました。",
+          "vi": "Tôi nhờ bạn đến phụ chuyển nhà.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:手伝い:てつだい"
+      ]
+    },
+    {
+      "id": "v:多忙:たぼう",
+      "kana": "たぼう",
+      "kanji": "多忙",
+      "hv": "ĐA MANG",
+      "vi": "bận rộn (văn viết)",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bận rộn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "多忙[たぼう]な時期[じき]に休[やす]んでしまって、申[もう]し訳[わけ]ありません。",
+          "vi": "Xin lỗi vì đã nghỉ đúng thời kỳ bận rộn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ご多忙[たぼう]のところ、ありがとうございます。",
+          "vi": "Cảm ơn anh/chị đã dành thời gian trong lúc bận rộn.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：部長[ぶちょう]、最近[さいきん]お忙[いそが]しそうですね。B：ええ、年末[ねんまつ]は多忙[たぼう]でね。",
+          "vi": "A: Dạo này trưởng phòng có vẻ bận nhỉ. B: Ừ, cuối năm bận lắm.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "時期[じき]",
+          "vi": "thời kỳ"
+        },
+        {
+          "jp": "毎日[まいにち]",
+          "vi": "mỗi ngày"
+        }
+      ],
+      "ant": [
+        "v:暇:ひま"
+      ],
+      "syn": [
+        "v:忙しい:いそがしい"
+      ],
+      "note": "ご多忙[たぼう]のところ = trong lúc bận rộn (câu lịch sự trong thư, lời cảm ơn)."
+    },
+    {
+      "id": "v:てんてこ舞い:てんてこまい",
+      "kana": "てんてこまい",
+      "kanji": "てんてこ舞い",
+      "kf": "てんてこ舞[ま]い",
+      "hv": "VŨ",
+      "vi": "bận tối mặt tối mũi",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bận rộn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "注文[ちゅうもん]が重[かさ]なって、朝[あさ]からてんてこ舞[ま]いです。",
+          "vi": "Đơn hàng dồn dập, từ sáng đã bận tối mặt.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "子供[こども]が三人[さんにん]いるので、毎朝[まいあさ]てんてこ舞[ま]いです。",
+          "vi": "Có ba đứa con nên sáng nào cũng cuống cuồng.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:多忙:たぼう"
+      ],
+      "note": "Khẩu ngữ, thường viết bằng かな."
+    },
+    {
+      "id": "v:手一杯:ていっぱい",
+      "kana": "ていっぱい",
+      "kanji": "手一杯",
+      "hv": "THỦ NHẤT BÔI",
+      "vi": "kín việc, không kham thêm được",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bận rộn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今[いま]の仕事[しごと]で手[て]一杯[いっぱい]で、新[あたら]しい仕事[しごと]は受[う]けられません。",
+          "vi": "Việc hiện tại đã kín, không nhận thêm việc mới được.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "自分[じぶん]のことで手[て]一杯[いっぱい]で、人[ひと]を手伝[てつだ]う余裕[よゆう]がない。",
+          "vi": "Lo việc mình đã hết sức, không còn sức giúp người khác.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：これもお願[ねが]いできる？B：すみません、今日[きょう]はもう手[て]一杯[いっぱい]なんです。",
+          "vi": "A: Nhờ cậu cái này được không? B: Xin lỗi, hôm nay tôi kín việc rồi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "仕事[しごと]",
+          "vi": "công việc"
+        }
+      ],
+      "rel": [
+        "v:余裕:よゆう"
+      ],
+      "note": "〜で手一杯[いっぱい] = chỉ … thôi đã hết sức."
+    },
+    {
+      "id": "v:立て込む:たてこむ",
+      "kana": "たてこむ",
+      "kanji": "立て込む",
+      "kf": "立[た]て込[こ]む",
+      "hv": "LẬP NHẬP",
+      "vi": "(việc, khách) dồn dập, chồng chất",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bận rộn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "今週[こんしゅう]は仕事[しごと]が立[た]て込[こ]んでいて、残業[ざんぎょう]が続[つづ]いています。",
+          "vi": "Tuần này việc dồn dập nên tăng ca liên tục.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "昼[ひる]の時間[じかん]は、店[みせ]が立[た]て込[こ]みます。",
+          "vi": "Giờ trưa quán đông khách dồn dập.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：明日[あした]、少[すこ]し話[はな]せる？B：午前中[ごぜんちゅう]は立[た]て込[こ]んでるから、午後[ごご]でもいい？",
+          "vi": "A: Mai nói chuyện chút được không? B: Buổi sáng tôi kẹt việc, chiều được không?",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "仕事[しごと]が立[た]て込[こ]む",
+          "vi": "việc dồn dập"
+        },
+        {
+          "jp": "予定[よてい]が立[た]て込[こ]む",
+          "vi": "lịch kín mít"
+        }
+      ],
+      "flag": true,
+      "note": "Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+    },
+    {
+      "id": "v:ばたばた:ばたばた",
+      "kana": "ばたばた",
+      "kanji": "",
+      "hv": "",
+      "vi": "tất bật, cuống cuồng",
+      "pos": "ono",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bận rộn",
+      "reg": "khaungu",
+      "ex": [
+        {
+          "jp": "引[ひ]っ越[こ]しで、先週[せんしゅう]はばたばたしていました。",
+          "vi": "Chuyển nhà nên tuần trước tôi tất bật.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "朝[あさ]からばたばたして、昼[ひる]ご飯[はん]を食[た]べる時間[じかん]もなかった。",
+          "vi": "Từ sáng cuống cuồng, không có cả thời gian ăn trưa.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "ばたばたする",
+          "vi": "tất bật"
+        }
+      ],
+      "note": "Còn tả tiếng chân chạy, cánh vỗ: ばたばた走[はし]る."
+    },
+    {
+      "id": "v:へとへと:へとへと",
+      "kana": "へとへと",
+      "kanji": "",
+      "hv": "",
+      "vi": "mệt lả, kiệt sức",
+      "pos": "ono",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bận rộn",
+      "reg": "khaungu",
+      "ex": [
+        {
+          "jp": "十二時間[じゅうにじかん]働[はたら]いて、へとへとです。",
+          "vi": "Làm 12 tiếng, tôi mệt lả.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "山登[やまのぼ]りで、へとへとになった。",
+          "vi": "Leo núi mệt lử.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:くたくた:くたくた"
+      ],
+      "note": "Dùng: へとへとだ / へとへとになる."
+    },
+    {
+      "id": "v:最中:さいちゅう",
+      "kana": "さいちゅう",
+      "kanji": "最中",
+      "hv": "TỐI TRUNG",
+      "vi": "đúng giữa lúc đang",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bận rộn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "作業[さぎょう]の最中[さいちゅう]に、電話[でんわ]が鳴[な]った。",
+          "vi": "Đang giữa lúc làm việc thì điện thoại reo.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "食事[しょくじ]の最中[さいちゅう]に、地震[じしん]があった。",
+          "vi": "Đang ăn thì có động đất.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "〜の最中[さいちゅう]に / 〜ている最中[さいちゅう]に = đúng lúc đang …."
+    },
+    {
+      "id": "v:合間:あいま",
+      "kana": "あいま",
+      "kanji": "合間",
+      "hv": "HỢP GIAN",
+      "vi": "khoảng trống xen giữa",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bận rộn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]の合間[あいま]に、日本語[にほんご]の単語[たんご]を覚[おぼ]えます。",
+          "vi": "Tranh thủ khoảng trống giữa giờ làm, tôi học từ tiếng Nhật.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "雨[あめ]の合間[あいま]に、洗濯物[せんたくもの]を干[ほ]しました。",
+          "vi": "Tranh thủ lúc ngớt mưa, tôi phơi đồ.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "〜の合間[あいま]に = tranh thủ khoảng trống giữa …."
+    },
+    {
+      "id": "v:一息:ひといき",
+      "kana": "ひといき",
+      "kanji": "一息",
+      "hv": "NHẤT TỨC",
+      "vi": "nghỉ lấy hơi; một hơi",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bận rộn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "注文[ちゅうもん]が一段落[いちだんらく]して、やっと一息[ひといき]つけました。",
+          "vi": "Đơn hàng tạm xong, cuối cùng cũng được nghỉ lấy hơi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "喉[のど]が渇[かわ]いていたので、水[みず]を一息[ひといき]に飲[の]んだ。",
+          "vi": "Khát nên uống cạn nước một hơi.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "一息[ひといき]つく = nghỉ xả hơi; 一息[ひといき]に = một mạch, một hơi."
+    },
+    {
+      "id": "v:こなす:こなす",
+      "kana": "こなす",
+      "kanji": "",
+      "hv": "",
+      "vi": "xử lý xong (khối lượng việc); làm thạo",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bận rộn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "一日[いちにち]に、五百[ごひゃく]キロの魚[さかな]をこなします。",
+          "vi": "Một ngày xử lý xong 500 cân cá.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "仕事[しごと]と勉強[べんきょう]を両方[りょうほう]こなすのは、大変[たいへん]です。",
+          "vi": "Lo trọn cả việc làm lẫn việc học thì vất vả.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：グエンさん、もう一人[ひとり]で全部[ぜんぶ]こなせるね。B：ありがとうございます。",
+          "vi": "A: Anh Nguyễn tự làm hết được rồi nhỉ. B: Cảm ơn anh.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "仕事[しごと]をこなす",
+          "vi": "xử lý xong việc"
+        },
+        {
+          "jp": "量[りょう]をこなす",
+          "vi": "làm đủ số lượng"
+        }
+      ],
+      "fx": [
+        {
+          "f": "kano",
+          "jp": "新人[しんじん]でも、この作業[さぎょう]なら[[こなせ]]ます。",
+          "vi": "Người mới cũng làm được việc này."
+        }
+      ]
+    },
+    {
+      "id": "v:はかどる:はかどる",
+      "kana": "はかどる",
+      "kanji": "",
+      "hv": "",
+      "vi": "(việc) trôi chảy, tiến triển nhanh",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tu",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bận rộn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "静[しず]かな部屋[へや]だと、勉強[べんきょう]がはかどります。",
+          "vi": "Phòng yên tĩnh thì học vào nhanh.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "新[あたら]しい包丁[ほうちょう]にしたら、作業[さぎょう]がはかどった。",
+          "vi": "Đổi dao mới thì việc trôi hẳn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：レポート、はかどってる？B：全然[ぜんぜん]。昨日[きのう]から一[いち]ページも進[すす]んでない。",
+          "vi": "A: Báo cáo có chạy không? B: Chẳng ăn thua. Từ hôm qua chưa được trang nào.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "仕事[しごと]がはかどる",
+          "vi": "công việc trôi chảy"
+        },
+        {
+          "jp": "勉強[べんきょう]がはかどる",
+          "vi": "học vào nhanh"
+        }
+      ],
+      "note": "Kanji: 捗[はかど]る (ít dùng). Hay gặp thể phủ định: はかどらない = mãi không xong."
+    },
+    {
+      "id": "v:詰め込む:つめこむ",
+      "kana": "つめこむ",
+      "kanji": "詰め込む",
+      "kf": "詰[つ]め込[こ]む",
+      "hv": "CẬT NHẬP",
+      "vi": "nhồi nhét, xếp kín",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Bận rộn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "休[やす]みの日[ひ]に、予定[よてい]を詰[つ]め込[こ]みすぎた。",
+          "vi": "Tôi nhồi quá nhiều lịch vào ngày nghỉ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "箱[はこ]に魚[さかな]を詰[つ]め込[こ]みすぎないでください。",
+          "vi": "Đừng nhồi quá nhiều cá vào thùng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：試験[しけん]の前[まえ]の日[ひ]に全部[ぜんぶ]詰[つ]め込[こ]むのは、無理[むり]だよ。B：分[わ]かってるけど、時間[じかん]がなかったんだ。",
+          "vi": "A: Nhồi hết vào ngày trước kỳ thi là không được đâu. B: Biết vậy, nhưng không có thời gian mà.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "予定[よてい]を詰[つ]め込[こ]む",
+          "vi": "nhồi kín lịch"
+        },
+        {
+          "jp": "荷物[にもつ]を詰[つ]め込[こ]む",
+          "vi": "nhét đồ"
+        }
+      ],
+      "rel": [
+        "v:詰める:つめる"
+      ],
+      "flag": true,
+      "note": "Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+    },
+    {
+      "id": "v:優先:ゆうせん",
+      "kana": "ゆうせん",
+      "kanji": "優先",
+      "hv": "ƯU TIÊN",
+      "vi": "ưu tiên",
+      "pos": "n-suru",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "安全[あんぜん]を、何[なに]よりも優先[ゆうせん]してください。",
+          "vi": "Hãy ưu tiên an toàn hơn mọi thứ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "この席[せき]は、お年寄[としよ]りや妊婦[にんぷ]さんが優先[ゆうせん]です。",
+          "vi": "Ghế này ưu tiên người già và phụ nữ mang thai.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "安全[あんぜん]を優先[ゆうせん]する",
+          "vi": "ưu tiên an toàn"
+        },
+        {
+          "jp": "仕事[しごと]を優先[ゆうせん]する",
+          "vi": "ưu tiên công việc"
+        }
+      ],
+      "note": "優先席[ゆうせんせき] = ghế ưu tiên."
+    },
+    {
+      "id": "v:優先順位:ゆうせんじゅんい",
+      "kana": "ゆうせんじゅんい",
+      "kanji": "優先順位",
+      "hv": "ƯU TIÊN THUẬN VỊ",
+      "vi": "thứ tự ưu tiên",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "仕事[しごと]が多[おお]いときは、優先順位[ゆうせんじゅんい]を決[き]めましょう。",
+          "vi": "Khi nhiều việc hãy định thứ tự ưu tiên.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "生活費[せいかつひ]の中[なか]で、何[なに]を先[さき]に払[はら]うか優先順位[ゆうせんじゅんい]を考[かんが]えます。",
+          "vi": "Trong chi phí sinh hoạt, tôi tính thứ tự ưu tiên khoản nào trả trước.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:優先:ゆうせん"
+      ],
+      "note": "優先順位[ゆうせんじゅんい]をつける = sắp thứ tự ưu tiên."
+    },
+    {
+      "id": "v:最優先:さいゆうせん",
+      "kana": "さいゆうせん",
+      "kanji": "最優先",
+      "hv": "TỐI ƯU TIÊN",
+      "vi": "ưu tiên hàng đầu",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "品質[ひんしつ]と安全[あんぜん]が、最優先[さいゆうせん]です。",
+          "vi": "Chất lượng và an toàn là ưu tiên hàng đầu.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "体調[たいちょう]が悪[わる]いときは、休[やす]むことを最優先[さいゆうせん]にしてください。",
+          "vi": "Khi không khỏe hãy ưu tiên nghỉ ngơi trước hết.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:優先:ゆうせん"
+      ]
+    },
+    {
+      "id": "v:後回し:あとまわし",
+      "kana": "あとまわし",
+      "kanji": "後回し",
+      "kf": "後回[あとまわ]し",
+      "hv": "HẬU HỒI",
+      "vi": "để lại làm sau",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "掃除[そうじ]は後回[あとまわ]しにして、先[さき]に出荷[しゅっか]の準備[じゅんび]をしよう。",
+          "vi": "Để dọn dẹp làm sau, chuẩn bị xuất hàng trước đã.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "嫌[いや]なことを後回[あとまわ]しにすると、あとで困[こま]ります。",
+          "vi": "Để việc khó chịu lại sau thì sau này khổ.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:優先:ゆうせん"
+      ],
+      "confuse": [
+        "v:先送り:さきおくり"
+      ],
+      "note": "後回[あとまわ]しにする = để sau, nhưng vẫn sẽ làm; 先送[さきおく]り = hoãn quyết định, vấn đề sang kỳ sau."
+    },
+    {
+      "id": "v:先送り:さきおくり",
+      "kana": "さきおくり",
+      "kanji": "先送り",
+      "kf": "先送[さきおく]り",
+      "hv": "TIÊN TỐNG",
+      "vi": "gác lại, hoãn sang sau (quyết định, vấn đề)",
+      "pos": "n-suru",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "新[あたら]しい機械[きかい]の購入[こうにゅう]は、来年[らいねん]に先送[さきおく]りされた。",
+          "vi": "Việc mua máy mới đã bị gác sang năm sau.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "問題[もんだい]を先送[さきおく]りしても、解決[かいけつ]しません。",
+          "vi": "Gác vấn đề lại cũng không giải quyết được.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "結論[けつろん]を先送[さきおく]りする",
+          "vi": "gác lại kết luận"
+        },
+        {
+          "jp": "問題[もんだい]を先送[さきおく]りする",
+          "vi": "đẩy vấn đề về sau"
+        }
+      ],
+      "confuse": [
+        "v:後回し:あとまわし"
+      ],
+      "rel": [
+        "v:延期:えんき"
+      ]
+    },
+    {
+      "id": "v:急ぎ:いそぎ",
+      "kana": "いそぎ",
+      "kanji": "急ぎ",
+      "kf": "急[いそ]ぎ",
+      "hv": "CẤP",
+      "vi": "sự gấp gáp, cần gấp",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "急[いそ]ぎの仕事[しごと]が入[はい]ったので、今日[きょう]は残業[ざんぎょう]します。",
+          "vi": "Có việc gấp nên hôm nay tăng ca.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "お急[いそ]ぎの方[かた]は、こちらの窓口[まどぐち]へどうぞ。",
+          "vi": "Quý khách nào đang vội xin mời sang quầy này.",
+          "ctx": "thutuc"
+        }
+      ],
+      "rel": [
+        "v:急ぐ:いそぐ"
+      ],
+      "note": "急[いそ]ぎで = gấp; 大急[おおいそ]ぎ = rất gấp; お急[いそ]ぎのところ = trong lúc anh chị đang vội (lời lịch sự)."
+    },
+    {
+      "id": "v:急用:きゅうよう",
+      "kana": "きゅうよう",
+      "kanji": "急用",
+      "hv": "CẤP DỤNG",
+      "vi": "việc riêng gấp (đột xuất)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "急用[きゅうよう]ができたので、早退[そうたい]させてください。",
+          "vi": "Tôi có việc gấp, cho tôi về sớm ạ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "急用[きゅうよう]のときは、この番号[ばんごう]に電話[でんわ]してください。",
+          "vi": "Lúc có việc gấp hãy gọi số này.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        "v:急ぎ:いそぎ"
+      ]
+    },
+    {
+      "id": "v:早急:さっきゅう",
+      "kana": "さっきゅう",
+      "kanji": "早急",
+      "hv": "TẢO CẤP",
+      "vi": "gấp rút, cấp tốc (văn trang trọng)",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "早急[さっきゅう]に、対応[たいおう]をお願[ねが]いします。",
+          "vi": "Mong anh/chị xử lý khẩn trương.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "この書類[しょるい]は、早急[さっきゅう]に出[だ]してください。",
+          "vi": "Tài liệu này hãy nộp gấp.",
+          "ctx": "thutuc"
+        },
+        {
+          "jp": "A：機械[きかい]の修理[しゅうり]、いつ来[き]てもらえますか。B：早急[さっきゅう]に担当者[たんとうしゃ]を向[む]かわせます。",
+          "vi": "A: Bao giờ có người đến sửa máy ạ? B: Chúng tôi sẽ cho người phụ trách đến ngay.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "対応[たいおう]",
+          "vi": "xử lý"
+        }
+      ],
+      "syn": [
+        "v:至急:しきゅう"
+      ],
+      "note": "Cũng đọc そうきゅう. Hay dùng dạng 早急[さっきゅう]に (trang trọng)."
+    },
+    {
+      "id": "v:段取り:だんどり",
+      "kana": "だんどり",
+      "kanji": "段取り",
+      "kf": "段取[だんど]り",
+      "hv": "ĐOẠN THỦ",
+      "vi": "trình tự sắp xếp công việc",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "段取[だんど]りがいいと、仕事[しごと]が早[はや]く終[お]わります。",
+          "vi": "Sắp xếp trình tự tốt thì việc xong sớm.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "引[ひ]っ越[こ]しの段取[だんど]りを、ノートに書[か]きました。",
+          "vi": "Tôi ghi các bước chuẩn bị chuyển nhà vào vở.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "段取[だんど]りを決[き]める / 段取[だんど]りをつける = sắp xếp trình tự. 段取[だんど]り八分[はっぷん] = chuẩn bị tốt là xong 80% công việc (câu nói ở xưởng)."
+    },
+    {
+      "id": "v:調整:ちょうせい",
+      "kana": "ちょうせい",
+      "kanji": "調整",
+      "hv": "ĐIỀU CHỈNH",
+      "vi": "điều chỉnh, sắp xếp cho khớp",
+      "pos": "n-suru",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "シフトを調整[ちょうせい]して、休[やす]みを取[と]りました。",
+          "vi": "Điều chỉnh lịch ca để lấy ngày nghỉ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "会議[かいぎ]の日程[にってい]を、調整[ちょうせい]してもらえますか。",
+          "vi": "Anh có thể sắp xếp lại lịch họp không?",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "エアコンの温度[おんど]を、少[すこ]し調整[ちょうせい]しました。",
+          "vi": "Tôi chỉnh nhiệt độ máy lạnh một chút.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "日程[にってい]を調整[ちょうせい]する",
+          "vi": "sắp xếp lịch"
+        },
+        {
+          "jp": "温度[おんど]を調整[ちょうせい]する",
+          "vi": "điều chỉnh nhiệt độ"
+        }
+      ],
+      "note": "日程調整[にっていちょうせい] = sắp lịch; 調整中[ちょうせいちゅう] = đang điều chỉnh."
+    },
+    {
+      "id": "v:手配:てはい",
+      "kana": "てはい",
+      "kanji": "手配",
+      "hv": "THỦ PHỐI",
+      "vi": "lo liệu, bố trí (người, xe, đồ)",
+      "pos": "n-suru",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "繁忙期[はんぼうき]の応援[おうえん]を、派遣[はけん]会社[かいしゃ]に手配[てはい]しました。",
+          "vi": "Đã đặt người hỗ trợ mùa cao điểm qua công ty phái cử.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "タクシーを手配[てはい]しておきます。",
+          "vi": "Tôi sẽ gọi sẵn taxi.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "車[くるま]を手配[てはい]する",
+          "vi": "bố trí xe"
+        },
+        {
+          "jp": "人[ひと]を手配[てはい]する",
+          "vi": "bố trí người"
+        }
+      ],
+      "note": "指名手配[しめいてはい] = truy nã (trên tin tức)."
+    },
+    {
+      "id": "v:計画的:けいかくてき",
+      "kana": "けいかくてき",
+      "kanji": "計画的",
+      "hv": "KẾ HOẠCH ĐÍCH",
+      "vi": "có kế hoạch",
+      "pos": "adj-na",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "有給[ゆうきゅう]は、計画的[けいかくてき]に取[と]りましょう。",
+          "vi": "Hãy lấy phép năm có kế hoạch.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "計画的[けいかくてき]にお金[かね]を貯[た]めて、国[くに]に家[いえ]を建[た]てたいです。",
+          "vi": "Tôi muốn để dành tiền có kế hoạch rồi xây nhà ở quê.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：試験[しけん]まであと三[さん]か月[げつ]だね。B：うん、計画的[けいかくてき]に勉強[べんきょう]しないと。",
+          "vi": "A: Còn ba tháng nữa là thi nhỉ. B: Ừ, phải học có kế hoạch mới được.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "subj": [
+        {
+          "jp": "勉強[べんきょう]",
+          "vi": "việc học"
+        },
+        {
+          "jp": "貯金[ちょきん]",
+          "vi": "tiết kiệm"
+        }
+      ],
+      "rel": [
+        "v:計画:けいかく"
+      ],
+      "note": "Ngược lại: 行[い]き当[あ]たりばったり = tới đâu hay tới đó."
+    },
+    {
+      "id": "v:目処:めど",
+      "kana": "めど",
+      "kanji": "目処",
+      "hv": "MỤC XỬ",
+      "vi": "mốc dự kiến, triển vọng (xong việc)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "修理[しゅうり]の目処[めど]が、まだ立[た]ちません。",
+          "vi": "Việc sửa chữa vẫn chưa biết bao giờ xong.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "来週[らいしゅう]を目処[めど]に、書類[しょるい]を出[だ]してください。",
+          "vi": "Hãy nộp hồ sơ, lấy mốc dự kiến là tuần sau.",
+          "ctx": "thutuc"
+        }
+      ],
+      "note": "Thường viết かな: めど. めどが立[た]つ = thấy được triển vọng; 〜をめどに = lấy … làm mốc."
+    },
+    {
+      "id": "v:仕上げる:しあげる",
+      "kana": "しあげる",
+      "kanji": "仕上げる",
+      "kf": "仕上[しあ]げる",
+      "hv": "SĨ THƯỢNG",
+      "vi": "hoàn thiện, làm xong (khâu cuối)",
+      "pos": "v1",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Ưu tiên & sắp xếp",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この書類[しょるい]を、今日中[きょうじゅう]に仕上[しあ]げてください。",
+          "vi": "Hãy hoàn thành tài liệu này trong hôm nay.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "最後[さいご]に、包丁[ほうちょう]で形[かたち]をきれいに仕上[しあ]げます。",
+          "vi": "Cuối cùng dùng dao chỉnh hình cho đẹp.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "A：年賀状[ねんがじょう]、もう書[か]いた？B：まだ。週末[しゅうまつ]に仕上[しあ]げるつもり。",
+          "vi": "A: Viết thiệp năm mới chưa? B: Chưa. Định cuối tuần làm xong.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "書類[しょるい]を仕上[しあ]げる",
+          "vi": "hoàn thành tài liệu"
+        },
+        {
+          "jp": "作品[さくひん]を仕上[しあ]げる",
+          "vi": "hoàn thiện tác phẩm"
+        }
+      ],
+      "pair": {
+        "w": "仕上[しあ]がる",
+        "vi": "được hoàn thiện (tự động từ)"
+      },
+      "note": "仕上[しあ]げ = khâu hoàn thiện."
+    },
+    {
+      "id": "v:連休:れんきゅう",
+      "kana": "れんきゅう",
+      "kanji": "連休",
+      "hv": "LIÊN HƯU",
+      "vi": "kỳ nghỉ liền nhiều ngày",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lịch & nghỉ phép",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "三連休[さんれんきゅう]に、家族[かぞく]と旅行[りょこう]します。",
+          "vi": "Ba ngày nghỉ liền, tôi đi du lịch với gia đình.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "連休[れんきゅう]の前[まえ]は、注文[ちゅうもん]が増[ふ]えます。",
+          "vi": "Trước kỳ nghỉ dài đơn hàng tăng.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "三連休[さんれんきゅう] = nghỉ 3 ngày liền; 大型連休[おおがたれんきゅう] = kỳ nghỉ dài (Tuần lễ vàng, Obon, Tết)."
+    },
+    {
+      "id": "v:有給:ゆうきゅう",
+      "kana": "ゆうきゅう",
+      "kanji": "有給",
+      "hv": "HỮU CẤP",
+      "vi": "phép năm có lương (nói tắt)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lịch & nghỉ phép",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来月[らいげつ]、有給[ゆうきゅう]を三日[みっか]取[と]ります。",
+          "vi": "Tháng sau tôi lấy 3 ngày phép.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "有給[ゆうきゅう]の残[のこ]りの日数[にっすう]を、事務所[じむしょ]で確認[かくにん]しました。",
+          "vi": "Tôi kiểm tra số ngày phép còn lại ở văn phòng.",
+          "ctx": "thutuc"
+        }
+      ],
+      "syn": [
+        "v:有給休暇:ゆうきゅうきゅうか"
+      ],
+      "note": "Nói tắt của 有給休暇[ゆうきゅうきゅうか]. 有給[ゆうきゅう]を取[と]る / 使[つか]う = lấy phép năm."
+    },
+    {
+      "id": "v:休日出勤:きゅうじつしゅっきん",
+      "kana": "きゅうじつしゅっきん",
+      "kanji": "休日出勤",
+      "hv": "HƯU NHẬT XUẤT CẦN",
+      "vi": "đi làm vào ngày nghỉ",
+      "pos": "n-suru",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lịch & nghỉ phép",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "繁忙期[はんぼうき]は、休日出勤[きゅうじつしゅっきん]が多[おお]くなります。",
+          "vi": "Mùa cao điểm hay phải đi làm ngày nghỉ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日曜日[にちようび]に休日出勤[きゅうじつしゅっきん]したので、水曜日[すいようび]に代休[だいきゅう]を取[と]ります。",
+          "vi": "Chủ nhật đi làm nên thứ tư nghỉ bù.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "日曜日[にちようび]に休日出勤[きゅうじつしゅっきん]する",
+          "vi": "đi làm ngày chủ nhật"
+        }
+      ],
+      "rel": [
+        "v:代休:だいきゅう"
+      ],
+      "note": "休日出勤手当[きゅうじつしゅっきんてあて] = phụ cấp làm ngày nghỉ."
+    },
+    {
+      "id": "v:代休:だいきゅう",
+      "kana": "だいきゅう",
+      "kanji": "代休",
+      "hv": "ĐẠI HƯU",
+      "vi": "ngày nghỉ bù (vì đã làm ngày nghỉ)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lịch & nghỉ phép",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "土曜日[どようび]に働[はたら]いたので、月曜日[げつようび]は代休[だいきゅう]です。",
+          "vi": "Thứ bảy đi làm nên thứ hai được nghỉ bù.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "代休[だいきゅう]は、今月中[こんげつちゅう]に取[と]ってください。",
+          "vi": "Hãy lấy ngày nghỉ bù trong tháng này.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:振替休日:ふりかえきゅうじつ"
+      ],
+      "note": "代休[だいきゅう] = công ty cho nghỉ bù vì đã làm ngày nghỉ; 振替休日[ふりかえきゅうじつ] = ngày lễ trùng chủ nhật thì nghỉ bù ngày sau."
+    },
+    {
+      "id": "v:振替休日:ふりかえきゅうじつ",
+      "kana": "ふりかえきゅうじつ",
+      "kanji": "振替休日",
+      "hv": "CHẤN THẾ HƯU NHẬT",
+      "vi": "ngày nghỉ bù (khi ngày lễ trùng chủ nhật)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lịch & nghỉ phép",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "祝日[しゅくじつ]が日曜日[にちようび]なので、月曜日[げつようび]が振替[ふりかえ]休日[きゅうじつ]になります。",
+          "vi": "Ngày lễ trùng chủ nhật nên thứ hai thành ngày nghỉ bù.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "振替休日[ふりかえきゅうじつ]でも、工場[こうじょう]は動[うご]いています。",
+          "vi": "Ngày nghỉ bù nhà máy vẫn chạy.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:代休:だいきゅう"
+      ]
+    },
+    {
+      "id": "v:休み明け:やすみあけ",
+      "kana": "やすみあけ",
+      "kanji": "休み明け",
+      "kf": "休[やす]み明[あ]け",
+      "hv": "HƯU MINH",
+      "vi": "ngày trở lại sau kỳ nghỉ",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lịch & nghỉ phép",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "休[やす]み明[あ]けは、体[からだ]が重[おも]く感[かん]じます。",
+          "vi": "Ngày đầu sau kỳ nghỉ thấy người nặng nề.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "連休明[れんきゅうあ]けの月曜日[げつようび]は、注文[ちゅうもん]がたくさん入[はい]ります。",
+          "vi": "Thứ hai sau kỳ nghỉ dài có nhiều đơn hàng.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "〜明[あ]け = sau khi … kết thúc: 連休明[れんきゅうあ]け, 正月明[しょうがつあ]け, 梅雨明[つゆあ]け."
+    },
+    {
+      "id": "v:交代制:こうたいせい",
+      "kana": "こうたいせい",
+      "kanji": "交代制",
+      "hv": "GIAO ĐẠI CHẾ",
+      "vi": "chế độ làm luân phiên (theo ca)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lịch & nghỉ phép",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この工場[こうじょう]は、二[に]交代制[こうたいせい]です。",
+          "vi": "Nhà máy này làm hai ca luân phiên.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "休憩[きゅうけい]は、交代制[こうたいせい]で取[と]ってください。",
+          "vi": "Hãy nghỉ giải lao luân phiên.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:交代:こうたい"
+      ],
+      "note": "二交代制[にこうたいせい] = 2 ca; 三交代制[さんこうたいせい] = 3 ca."
+    },
+    {
+      "id": "v:日勤:にっきん",
+      "kana": "にっきん",
+      "kanji": "日勤",
+      "hv": "NHẬT CẦN",
+      "vi": "ca ngày",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lịch & nghỉ phép",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "来週[らいしゅう]から、日勤[にっきん]に変[か]わります。",
+          "vi": "Từ tuần sau tôi chuyển sang ca ngày.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "日勤[にっきん]の人[ひと]は、朝[あさ]八時[はちじ]に集[あつ]まってください。",
+          "vi": "Người làm ca ngày tập trung lúc 8 giờ sáng.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        "v:夜勤:やきん"
+      ]
+    },
+    {
+      "id": "v:前倒し:まえだおし",
+      "kana": "まえだおし",
+      "kanji": "前倒し",
+      "kf": "前倒[まえだお]し",
+      "hv": "TIỀN ĐẢO",
+      "vi": "làm sớm hơn dự định",
+      "pos": "n-suru",
+      "level": "N2",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lịch & nghỉ phép",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "繁忙期[はんぼうき]の前[まえ]に、清掃[せいそう]を前倒[まえだお]しで行[おこな]います。",
+          "vi": "Trước mùa cao điểm, việc vệ sinh được làm sớm hơn kế hoạch.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "納期[のうき]を、一週間[いっしゅうかん]前倒[まえだお]しすることになった。",
+          "vi": "Hạn giao hàng bị đẩy sớm lên một tuần.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "予定[よてい]を前倒[まえだお]しする",
+          "vi": "làm sớm hơn lịch"
+        },
+        {
+          "jp": "納期[のうき]を前倒[まえだお]しする",
+          "vi": "đẩy hạn giao lên sớm"
+        }
+      ],
+      "ant": [
+        "v:先送り:さきおくり"
+      ]
+    },
+    {
+      "id": "v:繰り上げる:くりあげる",
+      "kana": "くりあげる",
+      "kanji": "繰り上げる",
+      "kf": "繰[く]り上[あ]げる",
+      "hv": "SÀO THƯỢNG",
+      "vi": "dời lên sớm hơn (giờ, lịch); làm tròn lên",
+      "pos": "v1",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lịch & nghỉ phép",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "台風[たいふう]が来[く]るので、終業時間[しゅうぎょうじかん]を一時間[いちじかん]繰[く]り上[あ]げます。",
+          "vi": "Vì bão đến nên giờ tan ca dời sớm một tiếng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "出発[しゅっぱつ]の時間[じかん]を、少[すこ]し繰[く]り上[あ]げてもいいですか。",
+          "vi": "Cho tôi dời giờ xuất phát sớm một chút được không?",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：会議[かいぎ]、三時[さんじ]からだっけ？B：二時[にじ]に繰[く]り上[あ]げになったよ。",
+          "vi": "A: Họp từ 3 giờ à? B: Dời lên 2 giờ rồi.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "予定[よてい]を繰[く]り上[あ]げる",
+          "vi": "dời lịch lên sớm"
+        },
+        {
+          "jp": "時間[じかん]を繰[く]り上[あ]げる",
+          "vi": "đẩy giờ lên sớm"
+        }
+      ],
+      "ant": [
+        {
+          "w": "繰[く]り下[さ]げる",
+          "vi": "lùi lại muộn hơn"
+        }
+      ],
+      "rel": [
+        "v:前倒し:まえだおし"
+      ],
+      "note": "小数点[しょうすうてん]以下[いか]を繰[く]り上[あ]げる = làm tròn lên phần thập phân."
+    },
+    {
+      "id": "v:ずらす:ずらす",
+      "kana": "ずらす",
+      "kanji": "",
+      "hv": "",
+      "vi": "làm lệch, dời đi chút (vị trí, giờ giấc)",
+      "pos": "v5",
+      "level": "N2",
+      "vt": "tha",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Lịch & nghỉ phép",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "休憩[きゅうけい]の時間[じかん]を、三十分[さんじゅっぷん]ずらしてください。",
+          "vi": "Hãy lùi giờ nghỉ giải lao 30 phút.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "机[つくえ]を、少[すこ]し右[みぎ]にずらしました。",
+          "vi": "Tôi xê cái bàn sang phải một chút.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "A：みんな同[おな]じ日[ひ]に休[やす]みたいんだけど…。B：じゃあ、一日[いちにち]ずつずらして取[と]ろう。",
+          "vi": "A: Mọi người đều muốn nghỉ cùng ngày… B: Vậy mỗi người lệch nhau một ngày mà nghỉ.",
+          "ctx": "hoithoai"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "時間[じかん]をずらす",
+          "vi": "dời giờ"
+        },
+        {
+          "jp": "日程[にってい]をずらす",
+          "vi": "dời lịch"
+        }
+      ],
+      "pair": "v:ずれる:ずれる"
+    }
+  ]
+}

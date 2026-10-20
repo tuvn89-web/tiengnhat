@@ -1,0 +1,742 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n2-39",
+  "title": "Bài mở đầu N2 – bài 39: Thông báo sửa đổi nội quy lao động",
+  "type": "text",
+  "level": "N2",
+  "topics": [
+   "doisong",
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "t:md-n2-39",
+   "title": "Thông báo sửa đổi nội quy lao động",
+   "level": "N2",
+   "topics": [
+    "xuong",
+    "doisong"
+   ],
+   "ctx": "xuong",
+   "lesson": "l:n2-39",
+   "intro": true,
+   "setting": "Phòng Hành chính dán thông báo nội bộ về việc sửa một phần nội quy lao động: nghề phụ, nghĩa vụ bảo mật, phòng chống quấy rối, hoàn trả đồ được cấp và thủ tục nghỉ việc. Là tổ trưởng, anh Nguyễn phải đọc kỹ để giải thích lại cho cả tổ.",
+   "kind": "thongbao",
+   "sents": [
+    {
+     "fmt": "r",
+     "jp": "令和[れいわ]八年[はちねん]十月[じゅうがつ]十五日[じゅうごにち]",
+     "vi": "Ngày 15 tháng 10 năm Reiwa 8 (2026)",
+     "grammar": []
+    },
+    {
+     "jp": "従業員[じゅうぎょういん]各位[かくい]",
+     "vi": "Kính gửi toàn thể nhân viên",
+     "key": "各位[かくい]",
+     "grammar": []
+    },
+    {
+     "fmt": "r",
+     "jp": "総務課[そうむか]",
+     "vi": "Phòng Hành chính",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "総務課[そうむか]",
+       "vi": "Phòng Hành chính – Tổng vụ"
+      }
+     ]
+    },
+    {
+     "fmt": "h",
+     "jp": "就業規則[しゅうぎょうきそく]の一部[いちぶ]改定[かいてい]について",
+     "vi": "Về việc sửa đổi một phần nội quy lao động",
+     "key": "改定[かいてい]",
+     "grammar": [
+      "g:〜の"
+     ]
+    },
+    {
+     "br": true,
+     "jp": "このたび、会社[かいしゃ]は就業規則[しゅうぎょうきそく]の一部[いちぶ]を改定[かいてい]し、令和[れいわ]八年[はちねん]十一月[じゅういちがつ]一日[ついたち]から施行[しこう]することとしました。",
+     "vi": "Lần này, công ty đã quyết định sửa đổi một phần nội quy lao động và áp dụng từ ngày 1 tháng 11 năm Reiwa 8.",
+     "key": "施行[しこう]",
+     "note": "Vる / Vない + こととする (こととします・こととしました) = (tổ chức, người có quyền) quyết định chính thức là …, từ nay sẽ …; văn thông báo của công ty, cơ quan. Ví dụ: 雨[あめ]の場合[ばあい]、運動会[うんどうかい]は中止[ちゅうし]することとします.",
+     "grammar": [
+      "g:〜の",
+      "g:〜を",
+      "g:〜から",
+      "g:〜こととする"
+     ]
+    },
+    {
+     "jp": "今回[こんかい]の改定[かいてい]は、働[はたら]き方[かた]の多様化[たようか]や、外国人[がいこくじん]従業員[じゅうぎょういん]の増加[ぞうか]に対応[たいおう]するためのものです。",
+     "vi": "Lần sửa đổi này nhằm đáp ứng sự đa dạng trong cách làm việc và số nhân viên người nước ngoài tăng lên.",
+     "key": "従業員[じゅうぎょういん]",
+     "grammar": [
+      "g:〜の",
+      "g:〜方",
+      "g:〜に",
+      "g:〜ために（目的）"
+     ],
+     "gloss": [
+      {
+       "w": "働[はたら]き方[かた]",
+       "vi": "cách làm việc"
+      },
+      {
+       "w": "多様化[たようか]",
+       "vi": "đa dạng hóa"
+      }
+     ]
+    },
+    {
+     "jp": "改定[かいてい]後[ご]の規則[きそく]は、パート・アルバイトを含[ふく]む全従業員[ぜんじゅうぎょういん]に適用[てきよう]します。",
+     "vi": "Nội quy sau sửa đổi áp dụng cho toàn bộ nhân viên, kể cả nhân viên bán thời gian, làm thêm.",
+     "key": "適用[てきよう]",
+     "grammar": [
+      "g:〜の",
+      "g:〜を",
+      "g:〜に"
+     ],
+     "gloss": [
+      {
+       "w": "全従業員[ぜんじゅうぎょういん]",
+       "vi": "toàn bộ nhân viên"
+      }
+     ]
+    },
+    {
+     "jp": "従業員[じゅうぎょういん]は、以下[いか]の内容[ないよう]をよく確認[かくにん]し、遵守[じゅんしゅ]するものとします。",
+     "vi": "Nhân viên phải đọc kỹ các nội dung dưới đây và tuân thủ.",
+     "key": "遵守[じゅんしゅ]",
+     "note": "Vる / Vない + ものとする = được quy định là …, phải … (câu văn điển hình của nội quy, hợp đồng, luật). Dạng 〜たものとする / 〜ないものとする còn có nghĩa \"coi như (đã) …\". Ví dụ: 作業者[さぎょうしゃ]は手[て]を洗[あら]ってから作業場[さぎょうば]に入[はい]るものとする.",
+     "grammar": [
+      "g:〜の",
+      "g:〜を",
+      "g:〜ものとする"
+     ]
+    },
+    {
+     "fmt": "h",
+     "jp": "１．副業[ふくぎょう]について（第[だい]十二[じゅうに]条[じょう]）",
+     "vi": "1. Về nghề phụ (Điều 12)",
+     "key": "副業[ふくぎょう]",
+     "grammar": []
+    },
+    {
+     "br": true,
+     "jp": "これまで副業[ふくぎょう]は原則[げんそく]として禁[きん]じていましたが、今後[こんご]は、事前[じぜん]に申[もう]し出[で]て許可[きょか]を得[え]た場合[ばあい]に限[かぎ]り、認[みと]めることとします。",
+     "vi": "Từ trước đến nay về nguyên tắc nghề phụ bị cấm, nhưng từ nay, chỉ khi báo trước và được cho phép thì công ty sẽ chấp nhận.",
+     "key": "禁[きん]じて",
+     "grammar": [
+      "g:〜として",
+      "g:〜ています",
+      "g:〜が・〜けど",
+      "g:〜に",
+      "g:〜て、〜",
+      "g:〜に限り",
+      "g:〜こととする"
+     ]
+    },
+    {
+     "jp": "副業[ふくぎょう]を希望[きぼう]する者[もの]は、所定[しょてい]の用紙[ようし]により、所属長[しょぞくちょう]に申[もう]し出[で]るものとします。",
+     "vi": "Người muốn làm nghề phụ phải dùng mẫu đơn quy định để trình lên cấp trên trực tiếp.",
+     "key": "申[もう]し出[で]る",
+     "grammar": [
+      "g:〜を",
+      "g:〜に",
+      "g:〜ものとする"
+     ],
+     "gloss": [
+      {
+       "w": "者[もの]",
+       "vi": "người (văn viết)"
+      },
+      {
+       "w": "所属長[しょぞくちょう]",
+       "vi": "cấp trên trực tiếp (trưởng bộ phận)"
+      }
+     ]
+    },
+    {
+     "jp": "ただし、本来[ほんらい]の勤務[きんむ]に支障[ししょう]が出[で]るおそれがある場合[ばあい]は、許可[きょか]しないこととします。",
+     "vi": "Tuy nhiên, trường hợp có nguy cơ ảnh hưởng đến công việc chính thì sẽ không cho phép.",
+     "key": "勤務[きんむ]",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜おそれがある",
+      "g:〜場合は",
+      "g:〜こととする"
+     ]
+    },
+    {
+     "jp": "届出[とどけで]がない場合[ばあい]は、副業[ふくぎょう]を行[おこな]っていないものとします。",
+     "vi": "Trường hợp không khai báo thì coi như không làm nghề phụ.",
+     "grammar": [
+      "g:〜場合は",
+      "g:〜を",
+      "g:〜ています",
+      "g:〜ものとする"
+     ]
+    },
+    {
+     "jp": "なお、在留資格[ざいりゅうしかく]によっては副業[ふくぎょう]が認[みと]められない場合[ばあい]がありますので、外国人[がいこくじん]従業員[じゅうぎょういん]は必[かなら]ず事前[じぜん]に総務課[そうむか]に相談[そうだん]してください。",
+     "vi": "Lưu ý: tùy tư cách lưu trú mà có trường hợp không được làm nghề phụ, nên nhân viên người nước ngoài nhất thiết phải hỏi Phòng Hành chính trước.",
+     "grammar": [
+      "g:〜によって・〜による",
+      "g:受身形（〜られる）",
+      "g:〜ので",
+      "g:〜に",
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "総務課[そうむか]",
+       "vi": "Phòng Hành chính – Tổng vụ"
+      },
+      {
+       "w": "在留資格[ざいりゅうしかく]",
+       "vi": "tư cách lưu trú"
+      }
+     ]
+    },
+    {
+     "fmt": "h",
+     "jp": "２．守秘義務[しゅひぎむ]と個人情報[こじんじょうほう]（第[だい]十八条[じゅうはちじょう]）",
+     "vi": "2. Nghĩa vụ bảo mật và thông tin cá nhân (Điều 18)",
+     "key": "守秘義務[しゅひぎむ]",
+     "grammar": [
+      "g:〜と"
+     ]
+    },
+    {
+     "br": true,
+     "jp": "従業員[じゅうぎょういん]は、業務上[ぎょうむじょう]知[し]り得[え]た会社[かいしゃ]の情報[じょうほう]や、取引先[とりひきさき]・お客様[きゃくさま]の個人情報[こじんじょうほう]を、外部[がいぶ]に漏[も]らさないものとします。",
+     "vi": "Nhân viên không được để lộ ra ngoài thông tin của công ty biết được trong công việc, cũng như thông tin cá nhân của đối tác, khách hàng.",
+     "key": "漏[も]らさない",
+     "grammar": [
+      "g:〜の",
+      "g:〜を",
+      "g:〜に",
+      "g:〜ものとする"
+     ],
+     "gloss": [
+      {
+       "w": "業務上[ぎょうむじょう]",
+       "vi": "trong công việc"
+      },
+      {
+       "w": "外部[がいぶ]",
+       "vi": "bên ngoài"
+      }
+     ]
+    },
+    {
+     "jp": "この義務[ぎむ]は、退職[たいしょく]した後[あと]も効力[こうりょく]を有[ゆう]するものとします。",
+     "vi": "Nghĩa vụ này vẫn còn hiệu lực cả sau khi đã nghỉ việc.",
+     "key": "効力[こうりょく]",
+     "grammar": [
+      "g:〜後で",
+      "g:〜も",
+      "g:〜を",
+      "g:〜ものとする"
+     ]
+    },
+    {
+     "jp": "また、作業場[さぎょうば]内[ない]での写真[しゃしん]や動画[どうが]の撮影[さつえい]、SNSへの投稿[とうこう]は、これを禁[きん]じます。",
+     "vi": "Ngoài ra, cấm chụp ảnh, quay phim trong khu sản xuất và đăng lên mạng xã hội.",
+     "key": "禁[きん]じます",
+     "grammar": [
+      "g:〜で",
+      "g:〜の",
+      "g:〜へ",
+      "g:〜を"
+     ],
+     "gloss": [
+      {
+       "w": "動画[どうが]",
+       "vi": "video"
+      },
+      {
+       "w": "撮影[さつえい]",
+       "vi": "chụp, quay"
+      },
+      {
+       "w": "SNS",
+       "vi": "mạng xã hội"
+      },
+      {
+       "w": "投稿[とうこう]",
+       "vi": "đăng bài"
+      }
+     ]
+    },
+    {
+     "fmt": "h",
+     "jp": "３．ハラスメントの防止[ぼうし]（第[だい]二十[にじゅう]条[じょう]）",
+     "vi": "3. Phòng chống quấy rối (Điều 20)",
+     "key": "ハラスメント",
+     "grammar": [
+      "g:〜の"
+     ]
+    },
+    {
+     "br": true,
+     "jp": "職場[しょくば]でのハラスメントを防[ふせ]ぐため、総務課[そうむか]に新[あら]たに相談窓口[そうだんまどぐち]を設[もう]けることとします。",
+     "vi": "Để phòng chống quấy rối nơi làm việc, công ty quyết định lập thêm một quầy tư vấn mới tại Phòng Hành chính.",
+     "key": "設[もう]ける",
+     "grammar": [
+      "g:〜で",
+      "g:〜の",
+      "g:〜を",
+      "g:〜ために（目的）",
+      "g:〜に",
+      "g:〜こととする"
+     ],
+     "gloss": [
+      {
+       "w": "総務課[そうむか]",
+       "vi": "Phòng Hành chính – Tổng vụ"
+      },
+      {
+       "w": "職場[しょくば]",
+       "vi": "nơi làm việc"
+      },
+      {
+       "w": "相談窓口[そうだんまどぐち]",
+       "vi": "quầy tư vấn"
+      }
+     ]
+    },
+    {
+     "jp": "ハラスメントには、乱暴[らんぼう]な言葉[ことば]のほか、国籍[こくせき]や言葉[ことば]の違[ちが]いを理由[りゆう]にした差別[さべつ]も含[ふく]まれます。",
+     "vi": "Quấy rối bao gồm lời lẽ thô bạo, và cả sự phân biệt đối xử vì khác quốc tịch hay ngôn ngữ.",
+     "key": "差別[さべつ]",
+     "grammar": [
+      "g:〜に",
+      "g:〜の",
+      "g:〜を",
+      "g:〜も",
+      "g:受身形（〜られる）"
+     ]
+    },
+    {
+     "jp": "相談[そうだん]は日本語[にほんご]のほか、ベトナム語[ご]でも受[う]け付[つ]けます。相談[そうだん]を受[う]けた者[もの]は、相談者[そうだんしゃ]のプライバシーに十分[じゅうぶん]配慮[はいりょ]するものとします。",
+     "vi": "Có thể tư vấn bằng tiếng Nhật, ngoài ra cả tiếng Việt. Người nhận tư vấn phải hết sức lưu ý giữ kín chuyện riêng của người đến tư vấn.",
+     "key": "配慮[はいりょ]",
+     "grammar": [
+      "g:〜で",
+      "g:〜も",
+      "g:〜を",
+      "g:〜の",
+      "g:〜に",
+      "g:〜ものとする"
+     ],
+     "gloss": [
+      {
+       "w": "者[もの]",
+       "vi": "người (văn viết)"
+      },
+      {
+       "w": "ベトナム語[ご]",
+       "vi": "tiếng Việt"
+      },
+      {
+       "w": "プライバシー",
+       "vi": "đời tư, chuyện riêng"
+      },
+      {
+       "w": "相談者[そうだんしゃ]",
+       "vi": "người đến tư vấn"
+      }
+     ]
+    },
+    {
+     "jp": "ハラスメントを行[おこな]った者[もの]は、規程[きてい]に定[さだ]める懲戒処分[ちょうかいしょぶん]の対象[たいしょう]とします。",
+     "vi": "Người có hành vi quấy rối sẽ bị xem xét xử lý kỷ luật theo quy chế.",
+     "key": "懲戒処分[ちょうかいしょぶん]",
+     "grammar": [
+      "g:〜を",
+      "g:〜に",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "者[もの]",
+       "vi": "người (văn viết)"
+      },
+      {
+       "w": "懲戒処分[ちょうかいしょぶん]",
+       "vi": "xử lý kỷ luật"
+      }
+     ]
+    },
+    {
+     "fmt": "h",
+     "jp": "４．退職[たいしょく]・休職[きゅうしょく]（第[だい]三十[さんじゅう]条[じょう]・第[だい]三十一[さんじゅういち]条[じょう]）",
+     "vi": "4. Nghỉ việc và nghỉ tạm thời (Điều 30, Điều 31)",
+     "key": "休職[きゅうしょく]",
+     "grammar": []
+    },
+    {
+     "br": true,
+     "jp": "退職[たいしょく]の申[もう]し出[で]は、退職届[たいしょくとどけ]をもって行[おこな]うものとし、口頭[こうとう]のみの申[もう]し出[で]は受[う]け付[つ]けません。",
+     "vi": "Việc xin nghỉ việc phải làm bằng đơn xin nghỉ; chỉ nói miệng sẽ không được chấp nhận.",
+     "key": "退職届[たいしょくとどけ]",
+     "note": "Danh từ + をもって có hai nghĩa: (1) bằng … (phương tiện, cách thức): 書面[しょめん]をもって通知[つうち]する = thông báo bằng văn bản; (2) đến hết …, lấy … làm mốc kết thúc: 本日[ほんじつ]をもって閉店[へいてん]いたします = hôm nay là ngày bán cuối cùng. Văn rất trang trọng.",
+     "grammar": [
+      "g:〜の",
+      "g:〜をもって",
+      "g:〜ものとする",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "口頭[こうとう]",
+       "vi": "nói miệng"
+      }
+     ]
+    },
+    {
+     "jp": "自己都合[じこつごう]で退職[たいしょく]する場合[ばあい]、退職届[たいしょくとどけ]の理由[りゆう]は「一身上[いっしんじょう]の都合[つごう]により」と書[か]けば足[た]ります。",
+     "vi": "Trường hợp nghỉ việc vì lý do bản thân, phần lý do trong đơn chỉ cần ghi \"vì lý do cá nhân\" là đủ.",
+     "key": "一身上[いっしんじょう]の都合[つごう]",
+     "grammar": [
+      "g:〜で",
+      "g:〜場合は",
+      "g:〜の",
+      "g:〜と",
+      "g:〜ば"
+     ],
+     "gloss": [
+      {
+       "w": "足[た]ります",
+       "vi": "là đủ"
+      }
+     ]
+    },
+    {
+     "jp": "引[ひ]き継[つ]ぎに必要[ひつよう]な期間[きかん]を考[かんが]え、退職[たいしょく]を希望[きぼう]する者[もの]は、できるだけ早[はや]く所属長[しょぞくちょう]に申[もう]し出[で]てください。",
+     "vi": "Xét đến thời gian cần cho việc bàn giao, ai muốn nghỉ việc xin trình với cấp trên trực tiếp càng sớm càng tốt.",
+     "key": "引[ひ]き継[つ]ぎ",
+     "grammar": [
+      "g:〜に",
+      "g:〜を",
+      "g:〜て、〜",
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "者[もの]",
+       "vi": "người (văn viết)"
+      },
+      {
+       "w": "所属長[しょぞくちょう]",
+       "vi": "cấp trên trực tiếp (trưởng bộ phận)"
+      }
+     ]
+    },
+    {
+     "jp": "退職[たいしょく]するときは、会社[かいしゃ]が貸与[たいよ]した制服[せいふく]、長靴[ながぐつ]、社員[しゃいん]証[しょう]などを、最終[さいしゅう]出勤日[しゅっきんび]までに返却[へんきゃく]するものとします。",
+     "vi": "Khi nghỉ việc, phải hoàn trả đồng phục, ủng, thẻ nhân viên… do công ty cấp, trước ngày làm việc cuối cùng.",
+     "key": "貸与[たいよ]",
+     "grammar": [
+      "g:〜とき",
+      "g:〜を",
+      "g:〜までに",
+      "g:〜ものとする"
+     ],
+     "gloss": [
+      {
+       "w": "制服[せいふく]",
+       "vi": "đồng phục"
+      },
+      {
+       "w": "社員[しゃいん]証[しょう]",
+       "vi": "thẻ nhân viên"
+      },
+      {
+       "w": "出勤日[しゅっきんび]",
+       "vi": "ngày đi làm"
+      }
+     ]
+    },
+    {
+     "jp": "退職金[たいしょくきん]および賞与[しょうよ]の扱[あつか]いは、別[べつ]に定[さだ]める規程[きてい]によるものとします。",
+     "vi": "Cách xử lý tiền trợ cấp thôi việc và tiền thưởng theo quy chế quy định riêng.",
+     "key": "退職金[たいしょくきん]",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜によって・〜による",
+      "g:〜ものとする"
+     ],
+     "gloss": [
+      {
+       "w": "扱[あつか]い",
+       "vi": "cách xử lý"
+      }
+     ]
+    },
+    {
+     "jp": "病気[びょうき]やけがのため、長[なが]く勤務[きんむ]できない者[もの]は、医師[いし]の診断書[しんだんしょ]を提出[ていしゅつ]し、休職[きゅうしょく]を申[もう]し出[で]ることができます。",
+     "vi": "Người không thể làm việc lâu dài vì bệnh hay chấn thương có thể nộp giấy chẩn đoán của bác sĩ và xin nghỉ tạm thời.",
+     "key": "診断書[しんだんしょ]",
+     "grammar": [
+      "g:可能形（〜られる・〜える）",
+      "g:〜の",
+      "g:〜を",
+      "g:〜ことができる"
+     ],
+     "gloss": [
+      {
+       "w": "者[もの]",
+       "vi": "người (văn viết)"
+      },
+      {
+       "w": "けが",
+       "vi": "chấn thương"
+      },
+      {
+       "w": "診断書[しんだんしょ]",
+       "vi": "giấy chẩn đoán"
+      }
+     ]
+    },
+    {
+     "fmt": "h",
+     "jp": "５．その他[た]",
+     "vi": "5. Các nội dung khác",
+     "grammar": []
+    },
+    {
+     "br": true,
+     "jp": "旧[きゅう]規程[きてい]の第[だい]十二[じゅうに]条[じょう]「副業[ふくぎょう]の禁止[きんし]」は、令和[れいわ]八年[はちねん]十月[じゅうがつ]三十一日[さんじゅういちにち]をもって廃止[はいし]します。",
+     "vi": "Điều 12 \"Cấm nghề phụ\" của quy chế cũ được bãi bỏ kể từ hết ngày 31 tháng 10 năm Reiwa 8.",
+     "key": "廃止[はいし]",
+     "grammar": [
+      "g:〜の",
+      "g:〜をもって"
+     ],
+     "gloss": [
+      {
+       "w": "旧[きゅう]",
+       "vi": "cũ"
+      }
+     ]
+    },
+    {
+     "jp": "改定[かいてい]後[ご]の就業規則[しゅうぎょうきそく]は、各[かく]部署[ぶしょ]の掲示板[けいじばん]に掲示[けいじ]するほか、やさしい日本語[にほんご]版[ばん]とベトナム語[ご]版[ばん]も用意[ようい]することとしました。",
+     "vi": "Nội quy sau sửa đổi sẽ được dán ở bảng thông báo của từng bộ phận; ngoài ra công ty đã quyết định chuẩn bị cả bản tiếng Nhật dễ hiểu và bản tiếng Việt.",
+     "key": "部署[ぶしょ]",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜と",
+      "g:〜も",
+      "g:〜こととする"
+     ],
+     "gloss": [
+      {
+       "w": "ベトナム語[ご]",
+       "vi": "tiếng Việt"
+      },
+      {
+       "w": "掲示板[けいじばん]",
+       "vi": "bảng thông báo"
+      },
+      {
+       "w": "版[ばん]",
+       "vi": "bản"
+      }
+     ]
+    },
+    {
+     "jp": "改定[かいてい]についての説明会[せつめいかい]は、十月[じゅうがつ]下旬[げじゅん]に各[かく]部署[ぶしょ]で行[おこな]います。",
+     "vi": "Buổi giải thích về nội dung sửa đổi sẽ được tổ chức ở từng bộ phận vào cuối tháng 10.",
+     "key": "説明会[せつめいかい]",
+     "grammar": [
+      "g:〜に",
+      "g:〜で"
+     ]
+    },
+    {
+     "jp": "各[かく]班[はん]の班長[はんちょう]は、班員[はんいん]に内容[ないよう]を説明[せつめい]し、質問[しつもん]があれば総務課[そうむか]に伝[つた]えてください。",
+     "vi": "Tổ trưởng các tổ xin giải thích nội dung cho tổ viên, có câu hỏi thì báo lại Phòng Hành chính.",
+     "key": "班員[はんいん]",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜を",
+      "g:〜ば",
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "総務課[そうむか]",
+       "vi": "Phòng Hành chính – Tổng vụ"
+      }
+     ]
+    },
+    {
+     "jp": "改定[かいてい]に関[かん]するご意見[いけん]は、十月[じゅうがつ]二十六日[にじゅうろくにち]までに、書面[しょめん]をもって総務課[そうむか]に提出[ていしゅつ]してください。",
+     "vi": "Ý kiến về việc sửa đổi xin nộp cho Phòng Hành chính bằng văn bản trước ngày 26 tháng 10.",
+     "key": "書面[しょめん]",
+     "grammar": [
+      "g:〜に関して・〜に関する",
+      "g:〜までに",
+      "g:〜をもって",
+      "g:〜に",
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "総務課[そうむか]",
+       "vi": "Phòng Hành chính – Tổng vụ"
+      },
+      {
+       "w": "関[かん]する",
+       "vi": "liên quan đến"
+      },
+      {
+       "w": "書面[しょめん]",
+       "vi": "văn bản"
+      }
+     ]
+    },
+    {
+     "jp": "また、総務課[そうむか]の木村[きむら]課長[かちょう]は、十月[じゅうがつ]三十一日[さんじゅういちにち]をもって定年退職[ていねんたいしょく]となります。",
+     "vi": "Ngoài ra, trưởng phòng Kimura của Phòng Hành chính sẽ nghỉ hưu theo tuổi vào hết ngày 31 tháng 10.",
+     "key": "定年退職[ていねんたいしょく]",
+     "grammar": [
+      "g:〜の",
+      "g:〜をもって",
+      "g:〜くなる・〜になる"
+     ],
+     "gloss": [
+      {
+       "w": "総務課[そうむか]",
+       "vi": "Phòng Hành chính – Tổng vụ"
+      },
+      {
+       "w": "定年退職[ていねんたいしょく]",
+       "vi": "nghỉ hưu theo tuổi quy định"
+      }
+     ]
+    },
+    {
+     "jp": "後任[こうにん]は、本社[ほんしゃ]人事部[じんじぶ]の佐藤[さとう]課長[かちょう]が務[つと]めることになりました。",
+     "vi": "Người kế nhiệm là trưởng phòng Sato thuộc phòng Nhân sự ở trụ sở chính.",
+     "key": "後任[こうにん]",
+     "grammar": [
+      "g:〜の",
+      "g:〜ことになる"
+     ],
+     "gloss": [
+      {
+       "w": "本社[ほんしゃ]",
+       "vi": "trụ sở chính"
+      },
+      {
+       "w": "人事部[じんじぶ]",
+       "vi": "phòng Nhân sự"
+      }
+     ]
+    },
+    {
+     "jp": "本件[ほんけん]に関[かん]するお問[と]い合[あ]わせは、総務課[そうむか]（担当[たんとう]：山田[やまだ]）までお願[ねが]いします。",
+     "vi": "Mọi thắc mắc về việc này xin liên hệ Phòng Hành chính (phụ trách: Yamada).",
+     "key": "本件[ほんけん]",
+     "grammar": [
+      "g:〜に関して・〜に関する",
+      "g:〜から〜まで"
+     ],
+     "gloss": [
+      {
+       "w": "総務課[そうむか]",
+       "vi": "Phòng Hành chính – Tổng vụ"
+      },
+      {
+       "w": "関[かん]する",
+       "vi": "liên quan đến"
+      },
+      {
+       "w": "本件[ほんけん]",
+       "vi": "việc này"
+      }
+     ]
+    },
+    {
+     "fmt": "r",
+     "jp": "以上[いじょう]",
+     "vi": "Hết.",
+     "grammar": []
+    }
+   ],
+   "questions": [
+    {
+     "q": "Nội quy mới bắt đầu áp dụng từ khi nào?",
+     "opts": [
+      "Ngày 1 tháng 11",
+      "Ngày 15 tháng 10",
+      "Ngày 31 tháng 10",
+      "Ngày 26 tháng 10"
+     ],
+     "ans": 0,
+     "why": "令和[れいわ]八年[はちねん]十一月[じゅういちがつ]一日[ついたち]から施行[しこう]することとしました。"
+    },
+    {
+     "q": "Từ nay, nghề phụ được quy định thế nào?",
+     "opts": [
+      "Được làm nếu báo trước và được cho phép",
+      "Vẫn bị cấm hoàn toàn",
+      "Ai cũng được làm tự do",
+      "Chỉ người Nhật được làm"
+     ],
+     "ans": 0,
+     "why": "事前[じぜん]に申[もう]し出[で]て許可[きょか]を得[え]た場合[ばあい]に限[かぎ]り、認[みと]めることとします。"
+    },
+    {
+     "q": "\"届出[とどけで]がない場合[ばあい]は、副業[ふくぎょう]を行[おこな]っていないものとします\" nghĩa là gì?",
+     "opts": [
+      "Không khai báo thì coi như không làm nghề phụ",
+      "Không khai báo thì bị sa thải",
+      "Phải khai báo dù không làm nghề phụ",
+      "Không khai báo thì được làm nghề phụ"
+     ],
+     "ans": 0,
+     "why": "〜ないものとする = coi như không …."
+    },
+    {
+     "q": "Muốn nghỉ việc thì phải xin bằng cách nào?",
+     "opts": [
+      "Nộp đơn xin nghỉ việc",
+      "Chỉ cần nói miệng với tổ trưởng",
+      "Gửi tin nhắn LINE",
+      "Không cần báo"
+     ],
+     "ans": 0,
+     "why": "退職[たいしょく]の申[もう]し出[で]は、退職届[たいしょくとどけ]をもって行[おこな]うものとし、口頭[こうとう]のみの申[もう]し出[で]は受[う]け付[つ]けません。"
+    },
+    {
+     "q": "Nhân viên người nước ngoài cần lưu ý gì về nghề phụ?",
+     "opts": [
+      "Phải hỏi Phòng Hành chính trước vì tùy tư cách lưu trú có thể không được làm",
+      "Được làm tự do không cần hỏi",
+      "Phải hỏi tòa thị chính",
+      "Chỉ cần báo tổ trưởng sau khi làm"
+     ],
+     "ans": 0,
+     "why": "在留[ざいりゅう]資格[しかく]によっては副業[ふくぎょう]が認[みと]められない場合[ばあい]がありますので、… 必[かなら]ず事前[じぜん]に総務課[そうむか]に相談[そうだん]してください。"
+    }
+   ]
+  }
+ ]
+}

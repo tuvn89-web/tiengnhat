@@ -121,7 +121,26 @@ const OV = {};
 export function seasonOverride(o) { for (const k of Object.keys(o)) { if (o[k] == null) delete OV[k]; else OV[k] = o[k]; } refresh(); }
 
 // ---------- trạng thái ----------
-const st = { on: false, dark: true, month: 10, hol: [], phase: 'day', rain: 0, snowW: false, thunder: false, wind: 0, gust: 0, gustT: 0, w: 0, h: 0, dpr: 1, run: false, last: 0 };
+const st = { on: false, dark: true, month: 10, hol: [], phase: 'day', rain: 0, snowW: false, thunder: false, wind: 0, gust: 0, gustT: 0, w: 0, h: 0, dpr: 1, run: false, last: 0, prev: 0, acc: 0, fc: 0, fT: 0, fps: 0, work: 0, slow: 0, q: 0 };
+// v37: tần số quét màn hình (đo bằng khoảng cách các khung requestAnimationFrame) và mức chi tiết tự giảm khi máy không theo kịp
+const HZ = { v: 60, ok: false };
+const HZ_STEPS = [30, 48, 50, 60, 72, 75, 90, 100, 120, 144, 165, 180, 240];
+function measureHz() {
+  if (document.hidden) return;
+  const d = []; let last = 0;
+  const f = t => { if (last) d.push(t - last); last = t; if (d.length < 40) return requestAnimationFrame(f);
+    d.sort((a, b) => a - b); const med = d[d.length >> 1] || 16.7;
+    const hz = HZ_STEPS.reduce((a, b) => (Math.abs(b - 1000 / med) < Math.abs(a - 1000 / med) ? b : a));
+    const ch = hz !== HZ.v; HZ.v = hz; HZ.ok = true; if (ch) dispatchEvent(new CustomEvent('tn-hz')); };
+  requestAnimationFrame(f);
+}
+export const screenHz = () => HZ.v;
+export const fxFpsNow = () => (st.run ? st.fps : 0);
+export const fxQuality = () => st.q;
+// giới hạn khung hình của nền: 'auto' = theo màn hình (mỗi lần màn hình làm mới vẽ một khung); 60 / 90 / 120 = tối đa bấy nhiêu
+const fpsCap = () => { const c = +S.fxFps || 0; return c && c < HZ.v - 2 ? c : 0; };
+const Q = [{ dpr: 1.5, n: 1 }, { dpr: 1.25, n: 0.8 }, { dpr: 1, n: 0.6 }]; // mức chi tiết: 0 đầy đủ → 2 nhẹ nhất
+
 const fx = { parts: [], stars: [], clouds: [], meteors: [], planes: [], holes: [], fw: [], sparks: [], flies: [], lanterns: [], drops: [], bursts: [], flash: 0, bolt: null, koi: [] };
 const timers = {};
 let cv = null, ctx = null;
@@ -132,7 +151,7 @@ const motionOK = () => S.motion !== false && !reduced(); // chuyển động gia
 // v32: hiệu ứng nền (canvas) có công tắc riêng S.fxBg — không phụ thuộc "Chuyển động mượt"
 const bgWanted = () => st.on && S.fxBg !== false;
 const bgOK = () => bgWanted() && !reduced();
-const dens = () => ({ low: 0.5, mid: 1, high: 1.8 })[S.fxDensity] || 1;
+const dens = () => (({ low: 0.5, mid: 1, high: 1.8 })[S.fxDensity] || 1) * Q[st.q].n;
 const spd = () => ({ slow: 0.55, mid: 1, fast: 1.6 })[S.fxSpeed] || 1;
 const isDarkTheme = () => S.theme === 'dark' || (S.theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
 function phaseOf(d) { const h = d.getHours() + d.getMinutes() / 60; return h >= 5 && h < 7 ? 'dawn' : h >= 7 && h < 17 ? 'day' : h >= 17 && h < 19 ? 'dusk' : 'night'; }
@@ -324,9 +343,9 @@ function schedule() {
 
 // ---------- vẽ ----------
 function drawPart(p) {
-  ctx.save();
-  ctx.translate(p.x, p.y);
   if (p.k.fly) { // chuồn chuồn
+    ctx.save();
+    ctx.translate(p.x, p.y);
     ctx.rotate(p.dir > 0 ? 0 : Math.PI); ctx.globalAlpha = p.a;
     ctx.strokeStyle = p.col; ctx.lineWidth = 2; ctx.lineCap = 'round';
     ctx.beginPath(); ctx.moveTo(-p.size * 0.5, 0); ctx.lineTo(p.size * 0.5, 0); ctx.stroke();
@@ -335,16 +354,29 @@ function drawPart(p) {
     for (const sx of [0.12, -0.05]) for (const sy of [-1, 1]) { ctx.beginPath(); ctx.ellipse(p.size * sx, sy * p.size * 0.26 * fl, p.size * 0.32, p.size * 0.1, sy * 0.25, 0, Math.PI * 2); ctx.fill(); }
     ctx.restore(); return;
   }
-  ctx.rotate(p.rot);
-  const s = p.size / 20;
-  ctx.scale(s, s);
   let a = p.a;
   if (p.k.tw) a *= 0.45 + 0.55 * (0.5 + 0.5 * Math.sin(p.ph * 3));
+  if (a <= 0.01) return;
+  const s = p.size / 20 * st.dpr, c = Math.cos(p.rot) * s, n = Math.sin(p.rot) * s;
+  ctx.setTransform(c, n, -n, c, p.x * st.dpr, p.y * st.dpr);
   ctx.globalAlpha = a;
-  if (p.flake) { ctx.strokeStyle = p.col; ctx.lineWidth = 2; ctx.lineCap = 'round'; ctx.stroke(SHAPE.flake); }
-  else if (p.k.fill === 1 && p.k.s === 'ginkgo') { ctx.fillStyle = p.col; ctx.fill(SHAPE.ginkgo); ctx.strokeStyle = 'rgba(0,0,0,.15)'; ctx.stroke(SHAPE.ginkgo); }
-  else { ctx.fillStyle = p.col; ctx.fill(SHAPE[p.k.s] || SHAPE.dot); }
-  ctx.restore();
+  ctx.drawImage(sprite(p), -SPR_B / 2, -SPR_B / 2, SPR_B, SPR_B);
+  ctx.setTransform(st.dpr, 0, 0, st.dpr, 0, 0); ctx.globalAlpha = 1;
+}
+// v37: mỗi kiểu hạt (hình + màu) vẽ sẵn một lần ra ảnh nhỏ; mỗi khung chỉ việc đặt ảnh (nhanh hơn tô hình từng hạt)
+const SPR = new Map(), SPR_B = 26, SPR_U = 3;
+function sprite(p) {
+  const key = (p.flake ? 'flake' : p.k.s) + '|' + p.col + (p.k.fill === 1 ? '|1' : '');
+  let c = SPR.get(key);
+  if (c) return c;
+  c = document.createElement('canvas'); c.width = c.height = SPR_B * SPR_U;
+  const g = c.getContext('2d');
+  g.setTransform(SPR_U, 0, 0, SPR_U, SPR_B * SPR_U / 2, SPR_B * SPR_U / 2);
+  if (p.flake) { g.strokeStyle = p.col; g.lineWidth = 2; g.lineCap = 'round'; g.stroke(SHAPE.flake); }
+  else if (p.k.fill === 1 && p.k.s === 'ginkgo') { g.fillStyle = p.col; g.fill(SHAPE.ginkgo); g.strokeStyle = 'rgba(0,0,0,.15)'; g.stroke(SHAPE.ginkgo); }
+  else { g.fillStyle = p.col; g.fill(SHAPE[p.k.s] || SHAPE.dot); }
+  SPR.set(key, c);
+  return c;
 }
 function drawMoon(big) {
   const age = moonAge(), k = age / SYN, f = (1 - Math.cos(2 * Math.PI * k)) / 2;
@@ -401,18 +433,41 @@ function drawHole(hb, dt) {
 function step(now) {
   if (!st.run) return;
   requestAnimationFrame(step);
-  if (now - st.last < 32) return; // ~30 khung hình/giây là đủ, đỡ tốn pin
+  // v37: vẽ theo tần số quét của màn hình (60 / 90 / 120 Hz…); chọn giới hạn thấp hơn thì bỏ bớt khung theo nhịp đều
+  const cap = fpsCap();
+  if (cap) {
+    st.acc += now - st.prev; st.prev = now;
+    const iv = 1000 / cap;
+    if (st.acc < iv - 1) return;
+    st.acc = Math.min(st.acc - iv, iv);
+  } else st.prev = now;
   const dt = Math.min(0.1, (now - st.last) / 1000) * spd();
   st.last = now;
+  st.fc++; if (now - st.fT >= 1000) { st.fps = Math.round(st.fc * 1000 / (now - st.fT)); st.fc = 0; st.fT = now; }
+  const w0 = performance.now();
+  draw(now, dt);
+  // máy không theo kịp (vẽ một khung tốn quá nửa thời gian cho phép) liên tục ~1,5 giây thì giảm độ nét và số hạt một bậc
+  const work = performance.now() - w0, budget = 1000 / (cap || HZ.v);
+  st.work = st.work * 0.9 + work * 0.1;
+  if (st.work > budget * 0.5) { if (++st.slow > (cap || HZ.v) * 1.5 && st.q < Q.length - 1) { st.q++; st.slow = 0; st.work = 0; resize(); } } else st.slow = 0;
+}
+function draw(now, dt) {
   const W = st.w, H = st.h, t = now / 1000;
-  ctx.setTransform(st.dpr, 0, 0, st.dpr, 0, 0);
+  // v37: hệ số giảm dần trước đây tính cho 30 khung/giây — đổi theo thời gian thật để 60 / 90 / 120 khung chuyển động y như nhau
+  const rdt = dt / spd(), k = x => Math.pow(x, rdt * 30);
+  const g96 = k(0.96), g985 = k(0.985), g98 = Math.pow(0.98, dt * 30);
+  ctx.setTransform(st.dpr, 0, 0, st.dpr, 0, 0); ctx.globalAlpha = 1;
   ctx.clearRect(0, 0, W, H);
   // gió
-  if (st.gustT > 0) st.gustT -= dt; else st.gust *= 0.96;
+  if (st.gustT > 0) st.gustT -= dt; else st.gust *= g96;
   const wind = (S.fxWind ? st.wind + st.gust : 0);
   // bầu trời
   if (S.fxStars && night()) {
-    for (const s of fx.stars) { ctx.globalAlpha = (s.milky ? 0.45 : 0.35) + 0.5 * (0.5 + 0.5 * Math.sin(t * s.tw + s.ph)); ctx.fillStyle = st.dark ? '#E8F0FF' : '#5C6F86'; ctx.beginPath(); ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2); ctx.fill(); }
+    // v37: gom sao theo 8 bậc sáng, mỗi bậc tô một lần (đỡ hàng trăm lần tô mỗi khung)
+    const B = 8, paths = Array.from({ length: B }, () => new Path2D());
+    for (const s of fx.stars) { const a = (s.milky ? 0.45 : 0.35) + 0.5 * (0.5 + 0.5 * Math.sin(t * s.tw + s.ph)); const i = Math.min(B - 1, Math.max(0, Math.round((a - 0.35) / 0.6 * (B - 1)))); paths[i].moveTo(s.x + s.r, s.y); paths[i].arc(s.x, s.y, s.r, 0, Math.PI * 2); }
+    ctx.fillStyle = st.dark ? '#E8F0FF' : '#5C6F86';
+    for (let i = 0; i < B; i++) { ctx.globalAlpha = 0.35 + 0.6 * i / (B - 1); ctx.fill(paths[i]); }
     ctx.globalAlpha = 1;
     drawMoon(st.hol.some(h => h.bigMoon));
   }
@@ -457,7 +512,7 @@ function step(now) {
     if (f.y <= f.ty || f.vy >= -40) { f.done = 1; for (let i = 0; i < 56; i++) { const a = rnd(0, Math.PI * 2), v = rnd(60, 190); fx.sparks.push({ x: f.x, y: f.y, vx: Math.cos(a) * v, vy: Math.sin(a) * v, life: 0, max: rnd(1.2, 1.9), hue: f.hue }); } }
   }
   fx.fw = fx.fw.filter(f => !f.done);
-  for (const s of fx.sparks) { s.life += dt; s.vx *= 0.985; s.vy = s.vy * 0.985 + 70 * dt; s.x += s.vx * dt; s.y += s.vy * dt; const a = Math.max(0, 1 - s.life / s.max); ctx.fillStyle = `rgba(${s.hue.join(',')},${a})`; ctx.beginPath(); ctx.arc(s.x, s.y, 1.8, 0, Math.PI * 2); ctx.fill(); }
+  for (const s of fx.sparks) { s.life += dt; s.vx *= Math.pow(0.985, dt * 30); s.vy = s.vy * Math.pow(0.985, dt * 30) + 70 * dt; s.x += s.vx * dt; s.y += s.vy * dt; const a = Math.max(0, 1 - s.life / s.max); ctx.fillStyle = `rgba(${s.hue.join(',')},${a})`; ctx.beginPath(); ctx.arc(s.x, s.y, 1.8, 0, Math.PI * 2); ctx.fill(); }
   fx.sparks = fx.sparks.filter(s => s.life < s.max);
   // đèn lồng
   for (const l of fx.lanterns) {
@@ -473,7 +528,7 @@ function step(now) {
   fx.lanterns = fx.lanterns.filter(l => l.y > -60);
   // đom đóm
   for (const f of fx.flies) {
-    f.ph += dt; f.vx += rnd(-20, 20) * dt; f.vy += rnd(-20, 20) * dt; f.vx *= 0.98; f.vy *= 0.98; f.x += f.vx * dt; f.y += f.vy * dt;
+    f.ph += dt; f.vx += rnd(-20, 20) * dt; f.vy += rnd(-20, 20) * dt; f.vx *= g98; f.vy *= g98; f.x += f.vx * dt; f.y += f.vy * dt;
     if (f.x < 0) f.x = W; if (f.x > W) f.x = 0; if (f.y < H * 0.3) f.vy += 10 * dt; if (f.y > H) f.y = H * 0.4;
     const a = 0.1 + 0.9 * Math.max(0, Math.sin(f.ph * f.bl));
     const g = ctx.createRadialGradient(f.x, f.y, 0, f.x, f.y, 9); g.addColorStop(0, `rgba(255,246,170,${a})`); g.addColorStop(1, 'rgba(255,236,140,0)');
@@ -490,7 +545,7 @@ function step(now) {
     drawPart(p);
   }
   // chùm hạt khi trả lời đúng
-  for (const b of fx.bursts) { b.life += dt / spd(); b.vy += 260 * dt / spd(); b.vx *= 0.985; b.x += b.vx * dt / spd(); b.y += b.vy * dt / spd(); b.rot += b.vr * dt; b.a = Math.max(0, 1 - b.life / b.max); drawPart(b); }
+  for (const b of fx.bursts) { b.life += dt / spd(); b.vy += 260 * dt / spd(); b.vx *= g985; b.x += b.vx * dt / spd(); b.y += b.vy * dt / spd(); b.rot += b.vr * dt; b.a = Math.max(0, 1 - b.life / b.max); drawPart(b); }
   fx.bursts = fx.bursts.filter(b => b.life < b.max);
   // mưa
   if (fx.drops.length) {
@@ -510,14 +565,14 @@ function step(now) {
 // ---------- khung vẽ ----------
 function resize() {
   if (!cv) return;
-  st.dpr = Math.min(devicePixelRatio || 1, 1.5);
+  st.dpr = Math.min(devicePixelRatio || 1, Q[st.q].dpr);
   st.w = innerWidth; st.h = innerHeight;
   cv.width = Math.round(st.w * st.dpr); cv.height = Math.round(st.h * st.dpr);
   seedParts(); seedSky();
 }
 function startLoop() {
   const want = bgOK() && !document.hidden;
-  if (want && !st.run) { st.run = true; st.last = performance.now(); requestAnimationFrame(step); }
+  if (want && !st.run) { st.run = true; st.last = st.prev = st.fT = performance.now(); st.acc = st.fc = st.slow = 0; requestAnimationFrame(step); }
   if (!want) { st.run = false; if (ctx) ctx.clearRect(0, 0, cv.width, cv.height); }
   if (cv) cv.hidden = !want;
 }
@@ -573,10 +628,11 @@ export function initSeason() {
   document.body.prepend(cv);
   ctx = cv.getContext('2d');
   resize();
+  setTimeout(measureHz, 600); // v37: đo tần số quét khi app đã mở xong (lúc đầu máy còn bận nạp dữ liệu)
   let rsT = 0, wfT = 0;
-  addEventListener('resize', () => { clearTimeout(rsT); rsT = setTimeout(resize, 150); });
-  document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); else startLoop(); });
-  addEventListener('tn-settings', () => { refresh(); clearTimeout(wfT); wfT = setTimeout(fetchWeather, 1500); });
+  addEventListener('resize', () => { clearTimeout(rsT); rsT = setTimeout(() => { resize(); measureHz(); }, 150); }); // kéo cửa sổ sang màn hình khác
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) { refresh(); setTimeout(measureHz, 300); } else startLoop(); });
+  addEventListener('tn-settings', () => { if (st.q) { st.q = 0; resize(); } refresh(); clearTimeout(wfT); wfT = setTimeout(fetchWeather, 1500); });
   matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', refresh);
   matchMedia('(prefers-reduced-motion: reduce)').addEventListener?.('change', refresh);
   setInterval(() => { refresh(); fetchWeather(); }, 10 * 60e3); // đổi giờ (ngày – đêm), đổi ngày, thời tiết

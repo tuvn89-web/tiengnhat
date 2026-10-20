@@ -50,6 +50,8 @@ export function openSheet(html, { onClose, label = 'Chi tiết' } = {}) {
     <button type="button" class="icon-btn sheet-x" aria-label="Đóng">${icon('close')}</button>
     <div class="sheet-body">${html}</div></div>`;
   document.body.appendChild(wrap);
+  // v37: chờ trình duyệt dựng xong nội dung bảng (2 khung) rồi mới chạy hiệu ứng mở — khung đầu không bị nuốt, bảng trượt lên đều
+  if (!document.documentElement.classList.contains('calm')) { wrap.classList.add('tn-wait'); requestAnimationFrame(() => requestAnimationFrame(() => wrap.classList.remove('tn-wait'))); }
   const prev = document.activeElement;
   // v32: đóng bảng cũng mượt (mờ dần, thu nhỏ nhẹ) rồi mới gỡ khỏi trang; chế độ yên (tắt chuyển động) thì gỡ ngay
   let closed = false;

@@ -1,0 +1,968 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n2-12",
+  "title": "Bài mở đầu N2 – bài 12: Bài báo: Thành phố cảng sôi động trở lại",
+  "type": "text",
+  "level": "N2",
+  "topics": [
+   "doisong",
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "t:md-n2-12",
+   "title": "Bài báo: Thành phố cảng sôi động trở lại",
+   "level": "N2",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "ctx": "doisong",
+   "lesson": "l:n2-12",
+   "intro": true,
+   "setting": "Bài báo trang kinh tế địa phương viết về thành phố cảng Minato (Hyogo): dân số giảm, nghề cá sa sút, rồi công ty chế biến thủy sản Yamamoto nhận lao động nước ngoài và du lịch giúp thành phố có sức sống mới. Anh Nguyễn và trưởng phòng Nakamura được phỏng vấn.",
+   "kind": "doanvan",
+   "sents": [
+    {
+     "fmt": "h",
+     "jp": "港町[みなとまち]の水産業[すいさんぎょう]、外国人材[がいこくじんざい]とともに再[ふたた]び活気[かっき]",
+     "vi": "Ngành thủy sản ở thành phố cảng sôi động trở lại cùng lao động nước ngoài",
+     "key": "水産業[すいさんぎょう]",
+     "grammar": [
+      "g:〜の",
+      "g:〜とともに"
+     ],
+     "gloss": [
+      {
+       "w": "外国人材[がいこくじんざい]",
+       "vi": "lao động nước ngoài"
+      },
+      {
+       "w": "活気[かっき]",
+       "vi": "sức sống, sự sôi động"
+      }
+     ]
+    },
+    {
+     "br": true,
+     "jp": "兵庫県[ひょうごけん]の瀬戸内海[せとないかい]側[がわ]にあるみなと市[し]は、昔[むかし]から漁業[ぎょぎょう]と水産[すいさん]加工[かこう]で栄[さか]えてきた港町[みなとまち]である。",
+     "vi": "Thành phố Minato bên bờ biển nội địa Seto của tỉnh Hyogo là thành phố cảng từ xưa đã thịnh vượng nhờ nghề cá và chế biến thủy sản.",
+     "key": "港町[みなとまち]",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜で",
+      "g:〜ていく・〜てくる"
+     ],
+     "gloss": [
+      {
+       "w": "瀬戸内海[せとないかい]",
+       "vi": "biển nội địa Seto"
+      },
+      {
+       "w": "みなと市[し]",
+       "vi": "thành phố Minato"
+      },
+      {
+       "w": "水産[すいさん]加工[かこう]",
+       "vi": "chế biến thủy sản"
+      },
+      {
+       "w": "側[がわ]",
+       "vi": "phía, bên (lập trường)"
+      }
+     ]
+    },
+    {
+     "jp": "朝[あさ]の漁港[ぎょこう]は、とれたての魚[さかな]を運[はこ]ぶ漁師[りょうし]たちで、いつも賑[にぎ]わっていた。",
+     "vi": "Cảng cá buổi sáng lúc nào cũng nhộn nhịp những ngư dân chở cá vừa đánh bắt.",
+     "key": "漁港[ぎょこう]",
+     "grammar": [
+      "g:〜の",
+      "g:〜たて",
+      "g:〜を",
+      "g:〜で",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "とれたて",
+       "vi": "vừa đánh bắt"
+      }
+     ]
+    },
+    {
+     "jp": "港[みなと]の近[ちか]くには造船所[ぞうせんしょ]もあり、製造業[せいぞうぎょう]の町[まち]としても知[し]られていた。",
+     "vi": "Gần cảng còn có xưởng đóng tàu, thành phố cũng từng được biết đến như một nơi có ngành sản xuất chế tạo.",
+     "key": "製造業[せいぞうぎょう]",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜も",
+      "g:〜として",
+      "g:受身形（〜られる）",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "造船所[ぞうせんしょ]",
+       "vi": "xưởng đóng tàu"
+      }
+     ]
+    },
+    {
+     "jp": "しかし、ここ十年[じゅうねん]ほどで、町[まち]の様子[ようす]は大[おお]きく変[か]わった。",
+     "vi": "Thế nhưng khoảng mười năm gần đây, diện mạo thành phố đã đổi khác nhiều.",
+     "grammar": [
+      "g:〜の",
+      "g:〜で"
+     ],
+     "gloss": [
+      {
+       "w": "様子[ようす]",
+       "vi": "diện mạo, tình hình"
+      }
+     ]
+    },
+    {
+     "br": true,
+     "jp": "最大[さいだい]の問題[もんだい]は、人口減少[じんこうげんしょう]である。",
+     "vi": "Vấn đề lớn nhất là dân số giảm.",
+     "key": "人口減少[じんこうげんしょう]",
+     "grammar": [
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "最大[さいだい]",
+       "vi": "lớn nhất"
+      }
+     ]
+    },
+    {
+     "jp": "少子化[しょうしか]と高齢化[こうれいか]が進[すす]んだばかりか、仕事[しごと]を求[もと]めて大阪[おおさか]や神戸[こうべ]へ出[で]ていく若者[わかもの]まで増[ふ]え、若[わか]い世代[せだい]の流出[りゅうしゅつ]が止[と]まらない。",
+     "vi": "Chẳng những tỷ lệ sinh giảm và dân số già đi, mà số người trẻ rời đi Osaka, Kobe tìm việc cũng tăng, thế hệ trẻ cứ thế chảy ra ngoài không dừng.",
+     "key": "少子化[しょうしか]",
+     "note": "〜ばかりか = không những … mà còn … (vế sau còn hơn, bất ngờ hơn; hay đi với も / まで / さえ). Nối: V / Aい thể thường, Aな + な, N + ばかりか. Ví dụ: 遅[おく]れたばかりか、連絡[れんらく]もなかった.",
+     "grammar": [
+      "g:〜と",
+      "g:〜ばかりか",
+      "g:〜を",
+      "g:〜へ",
+      "g:〜ていく・〜てくる",
+      "g:〜まで（強調）"
+     ],
+     "gloss": [
+      {
+       "w": "世代[せだい]",
+       "vi": "thế hệ"
+      },
+      {
+       "w": "止[と]まらない",
+       "vi": "không dừng"
+      }
+     ]
+    },
+    {
+     "jp": "漁師[りょうし]の後継者[こうけいしゃ]も見[み]つからず、漁[りょう]に出[で]る船[ふね]は年々[ねんねん]少[すく]なくなっている。",
+     "vi": "Ngư dân cũng không tìm được người nối nghiệp, số thuyền ra khơi mỗi năm một ít đi.",
+     "key": "後継者[こうけいしゃ]",
+     "grammar": [
+      "g:〜の",
+      "g:〜も",
+      "g:〜に",
+      "g:〜くなる・〜になる",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "年々[ねんねん]",
+       "vi": "từng năm"
+      }
+     ]
+    },
+    {
+     "jp": "水揚[みずあ]げが減[へ]れば、それを加工[かこう]する工場[こうじょう]の仕事[しごと]も減[へ]ってしまう。",
+     "vi": "Sản lượng cá lên bờ giảm thì việc ở các xưởng chế biến cũng giảm theo.",
+     "key": "水揚[みずあ]げ",
+     "grammar": [
+      "g:〜ば",
+      "g:〜を",
+      "g:〜の",
+      "g:〜も",
+      "g:〜てしまう"
+     ]
+    },
+    {
+     "jp": "不景気[ふけいき]が続[つづ]いた時期[じき]には、利益[りえき]が出[で]るどころか、何[なん]年[ねん]も赤字[あかじ]が続[つづ]いた中小企業[ちゅうしょうきぎょう]も少[すく]なくない。",
+     "vi": "Những năm kinh tế ế ẩm kéo dài, không ít doanh nghiệp vừa và nhỏ chẳng những không có lãi mà còn lỗ mấy năm liền.",
+     "key": "中小企業[ちゅうしょうきぎょう]",
+     "note": "〜どころか: (1) A どころか B も…ない = đừng nói A, đến B cũng không; (2) A どころか (ngược lại) B = chẳng những không A mà trái lại B. Nối: N / V / Aい thể thường + どころか. Ví dụ: 貯金[ちょきん]どころか、毎月[まいつき]赤字[あかじ]だ.",
+     "grammar": [
+      "g:〜に",
+      "g:〜どころか",
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "利益[りえき]",
+       "vi": "lợi nhuận"
+      },
+      {
+       "w": "赤字[あかじ]",
+       "vi": "thua lỗ"
+      },
+      {
+       "w": "時期[じき]",
+       "vi": "thời kỳ"
+      }
+     ]
+    },
+    {
+     "jp": "円高[えんだか]の時代[じだい]には、安[やす]い輸入品[ゆにゅうひん]に押[お]されて、地元[じもと]の加工品[かこうひん]が売[う]れなくなったこともある。",
+     "vi": "Thời đồng yên lên giá, bị hàng nhập rẻ lấn át, sản phẩm chế biến của địa phương cũng từng có lúc bán không chạy.",
+     "key": "円高[えんだか]",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:受身形（〜られる）",
+      "g:〜て、〜",
+      "g:〜くなる・〜になる",
+      "g:〜たことがある"
+     ],
+     "gloss": [
+      {
+       "w": "輸入品[ゆにゅうひん]",
+       "vi": "hàng nhập khẩu"
+      },
+      {
+       "w": "押[お]されて",
+       "vi": "bị lấn át"
+      }
+     ]
+    },
+    {
+     "jp": "ある社長[しゃちょう]は、「新[あたら]しい人[ひと]を雇[やと]うどころか、今[いま]いる社員[しゃいん]の給料[きゅうりょう]を払[はら]うのもやっとだった」と振[ふ]り返[かえ]る。",
+     "vi": "Một vị giám đốc nhớ lại: \"Đừng nói tuyển thêm người, đến trả lương cho nhân viên đang có cũng đã chật vật.\"",
+     "grammar": [
+      "g:〜を",
+      "g:〜どころか",
+      "g:〜の",
+      "g:〜の・〜こと（名詞化）",
+      "g:〜も",
+      "g:〜と"
+     ],
+     "gloss": [
+      {
+       "w": "社員[しゃいん]",
+       "vi": "nhân viên"
+      },
+      {
+       "w": "雇[やと]う",
+       "vi": "thuê, tuyển (người)"
+      },
+      {
+       "w": "給料[きゅうりょう]",
+       "vi": "tiền lương"
+      },
+      {
+       "w": "やっと",
+       "vi": "vừa đủ, chật vật lắm mới"
+      },
+      {
+       "w": "振[ふ]り返[かえ]る",
+       "vi": "nhìn lại"
+      }
+     ]
+    },
+    {
+     "br": true,
+     "jp": "そんな中[なか]、市[し]内[ない]の水産[すいさん]加工[かこう]会社[かいしゃ]「山本[やまもと]水産[すいさん]」は、外国人材[がいこくじんざい]の受[う]け入[い]れに力[ちから]を入[い]れてきた。",
+     "vi": "Giữa lúc đó, công ty chế biến thủy sản \"Yamamoto Suisan\" trong thành phố đã dồn sức vào việc tiếp nhận lao động nước ngoài.",
+     "key": "加工[かこう]",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜を",
+      "g:〜ていく・〜てくる"
+     ],
+     "gloss": [
+      {
+       "w": "外国人材[がいこくじんざい]",
+       "vi": "lao động nước ngoài"
+      },
+      {
+       "w": "水産[すいさん]加工[かこう]",
+       "vi": "chế biến thủy sản"
+      },
+      {
+       "w": "受[う]け入[い]れ",
+       "vi": "tiếp nhận"
+      },
+      {
+       "w": "力[ちから]を入[い]れて",
+       "vi": "dồn sức"
+      },
+      {
+       "w": "山本[やまもと]水産[すいさん]",
+       "vi": "công ty Yamamoto Suisan"
+      }
+     ]
+    },
+    {
+     "jp": "今[いま]、工場[こうじょう]では、日本人[にほんじん]のみならず、ベトナムやフィリピンから来[き]た社員[しゃいん]も一緒[いっしょ]に働[はたら]いている。",
+     "vi": "Hiện nay ở nhà máy, không chỉ người Nhật mà cả nhân viên đến từ Việt Nam, Philippines cũng cùng làm việc.",
+     "note": "〜のみならず = không chỉ … mà còn … (văn viết, trang trọng; nói thường: 〜だけじゃなくて). Nối: N + のみならず; V / Aい thể thường + のみならず; Aな / N làm vị ngữ + である + のみならず. Ví dụ: 国内[こくない]のみならず、海外[かいがい]でも売[う]れている.",
+     "grammar": [
+      "g:〜で",
+      "g:〜のみならず",
+      "g:〜から",
+      "g:〜も",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "社員[しゃいん]",
+       "vi": "nhân viên"
+      },
+      {
+       "w": "フィリピン",
+       "vi": "Philippines"
+      },
+      {
+       "w": "日本人[にほんじん]",
+       "vi": "người Nhật"
+      }
+     ]
+    },
+    {
+     "jp": "同社[どうしゃ]が作[つく]っているのは、生[なま]で食[た]べられる刺身[さしみ]用[よう]の加工品[かこうひん]だ。",
+     "vi": "Thứ công ty này làm là sản phẩm chế biến dùng làm sashimi, ăn sống được.",
+     "key": "加工品[かこうひん]",
+     "grammar": [
+      "g:〜ています",
+      "g:〜の・〜こと（名詞化）",
+      "g:〜で",
+      "g:可能形（〜られる・〜える）"
+     ],
+     "gloss": [
+      {
+       "w": "同社[どうしゃ]",
+       "vi": "công ty đó"
+      },
+      {
+       "w": "刺身[さしみ]用[よう]",
+       "vi": "dùng làm sashimi"
+      }
+     ]
+    },
+    {
+     "jp": "熱[ねつ]を加[くわ]えないため、温度[おんど]や衛生[えいせい]の管理[かんり]は特[とく]に厳[きび]しい。",
+     "vi": "Vì không gia nhiệt nên việc quản lý nhiệt độ và vệ sinh đặc biệt nghiêm ngặt.",
+     "grammar": [
+      "g:〜を",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "熱[ねつ]を加[くわ]えない",
+       "vi": "không gia nhiệt"
+      },
+      {
+       "w": "衛生[えいせい]",
+       "vi": "vệ sinh"
+      },
+      {
+       "w": "管理[かんり]",
+       "vi": "quản lý"
+      },
+      {
+       "w": "温度[おんど]",
+       "vi": "nhiệt độ"
+      }
+     ]
+    },
+    {
+     "jp": "その現場[げんば]で班長[はんちょう]を務[つと]めているのが、ベトナム出身[しゅっしん]のグエンさんだ。",
+     "vi": "Người đang làm tổ trưởng ở hiện trường đó là anh Nguyễn, quê Việt Nam.",
+     "grammar": [
+      "g:〜で",
+      "g:〜を",
+      "g:〜ています",
+      "g:〜の・〜こと（名詞化）",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "現場[げんば]",
+       "vi": "hiện trường, nơi làm"
+      },
+      {
+       "w": "務[つと]めて",
+       "vi": "đảm nhận"
+      },
+      {
+       "w": "出身[しゅっしん]",
+       "vi": "quê, xuất thân"
+      }
+     ]
+    },
+    {
+     "jp": "グエンさんは、毎日[まいにち]のライン管理[かんり]ばかりか、新[あたら]しく入[はい]った外国人社員[がいこくじんしゃいん]の指導[しどう]まで任[まか]されている。",
+     "vi": "Anh Nguyễn không những lo quản lý dây chuyền hằng ngày mà còn được giao kèm cặp cả nhân viên nước ngoài mới vào.",
+     "key": "指導[しどう]",
+     "grammar": [
+      "g:〜の",
+      "g:〜ばかりか",
+      "g:〜まで（強調）",
+      "g:受身形（〜られる）",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "社員[しゃいん]",
+       "vi": "nhân viên"
+      },
+      {
+       "w": "外国人社員[がいこくじんしゃいん]",
+       "vi": "nhân viên người nước ngoài"
+      },
+      {
+       "w": "管理[かんり]",
+       "vi": "quản lý"
+      },
+      {
+       "w": "ライン管理[かんり]",
+       "vi": "quản lý dây chuyền"
+      },
+      {
+       "w": "指導[しどう]",
+       "vi": "hướng dẫn, kèm cặp"
+      },
+      {
+       "w": "任[まか]されて",
+       "vi": "được giao"
+      }
+     ]
+    },
+    {
+     "jp": "「来日[らいにち]したころは、日本語[にほんご]どころか、包丁[ほうちょう]の持[も]ち方[かた]も分[わ]からなかったんです」と、グエンさんは笑[わら]う。",
+     "vi": "\"Hồi mới sang Nhật, đừng nói tiếng Nhật, đến cách cầm dao tôi cũng không biết,\" anh Nguyễn cười.",
+     "grammar": [
+      "g:〜どころか",
+      "g:〜の",
+      "g:〜方",
+      "g:〜も",
+      "g:〜と"
+     ],
+     "gloss": [
+      {
+       "w": "分[わ]からなかった",
+       "vi": "đã không biết"
+      },
+      {
+       "w": "来日[らいにち]",
+       "vi": "sang Nhật"
+      },
+      {
+       "w": "包丁[ほうちょう]",
+       "vi": "dao bếp"
+      },
+      {
+       "w": "持[も]ち方[かた]",
+       "vi": "cách cầm"
+      },
+      {
+       "w": "なかった",
+       "vi": "đã không"
+      }
+     ]
+    },
+    {
+     "jp": "今[いま]では、日本人[にほんじん]の若[わか]い社員[しゃいん]に、魚[さかな]のさばき方[かた]を教[おし]えることもある。",
+     "vi": "Giờ đây, có lúc anh còn dạy nhân viên trẻ người Nhật cách làm cá.",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜方",
+      "g:〜を",
+      "g:〜こともある・〜ことがある（時々）"
+     ],
+     "gloss": [
+      {
+       "w": "社員[しゃいん]",
+       "vi": "nhân viên"
+      },
+      {
+       "w": "さばき方[かた]",
+       "vi": "cách làm (cá)"
+      },
+      {
+       "w": "日本人[にほんじん]",
+       "vi": "người Nhật"
+      }
+     ]
+    },
+    {
+     "jp": "中村[なかむら]課長[かちょう]は、「外国人材[がいこくじんざい]は、労働力[ろうどうりょく]として大切[たいせつ]であるのみならず、職場[しょくば]に新[あたら]しい考[かんが]え方[かた]を持[も]ち込[こ]んでくれる」と話[はな]す。",
+     "vi": "Trưởng phòng Nakamura nói: \"Lao động nước ngoài không chỉ quan trọng với tư cách nguồn lao động, mà còn mang vào nơi làm việc những cách nghĩ mới.\"",
+     "key": "労働力[ろうどうりょく]",
+     "grammar": [
+      "g:〜として",
+      "g:〜のみならず",
+      "g:〜に",
+      "g:〜方",
+      "g:〜を",
+      "g:〜てくれる",
+      "g:〜と"
+     ],
+     "gloss": [
+      {
+       "w": "外国人材[がいこくじんざい]",
+       "vi": "lao động nước ngoài"
+      },
+      {
+       "w": "職場[しょくば]",
+       "vi": "nơi làm việc"
+      },
+      {
+       "w": "考[かんが]え方[かた]",
+       "vi": "cách nghĩ"
+      },
+      {
+       "w": "持[も]ち込[こ]んで",
+       "vi": "mang vào"
+      }
+     ]
+    },
+    {
+     "br": true,
+     "jp": "町[まち]の活性化[かっせいか]には、観光業[かんこうぎょう]の力[ちから]も欠[か]かせない。",
+     "vi": "Để vực dậy thành phố, sức mạnh của ngành du lịch cũng không thể thiếu.",
+     "key": "活性化[かっせいか]",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "欠[か]かせない",
+       "vi": "không thể thiếu"
+      }
+     ]
+    },
+    {
+     "jp": "みなと市[し]から電車[でんしゃ]で一時間[いちじかん]ほどの姫路[ひめじ]には、世界遺産[せかいいさん]の姫路[ひめじ]城[じょう]があり、城下町[じょうかまち]を歩[ある]く観光客[かんこうきゃく]が絶[た]えない。",
+     "vi": "Từ thành phố Minato đi tàu khoảng một tiếng là tới Himeji, nơi có lâu đài Himeji – di sản thế giới; khách du lịch dạo phố quanh thành không lúc nào ngớt.",
+     "key": "世界遺産[せかいいさん]",
+     "grammar": [
+      "g:〜から",
+      "g:〜で",
+      "g:〜の",
+      "g:〜に",
+      "g:〜があります・〜がいます",
+      "g:〜を"
+     ],
+     "gloss": [
+      {
+       "w": "みなと市[し]",
+       "vi": "thành phố Minato"
+      },
+      {
+       "w": "姫路[ひめじ]",
+       "vi": "Himeji"
+      },
+      {
+       "w": "姫路[ひめじ]城[じょう]",
+       "vi": "lâu đài Himeji"
+      },
+      {
+       "w": "絶[た]えない",
+       "vi": "không ngớt"
+      }
+     ]
+    },
+    {
+     "jp": "県[けん]の北部[ほくぶ]には温泉街[おんせんがい]もあり、日帰[ひがえ]りで訪[おとず]れる人[ひと]も多[おお]い。",
+     "vi": "Phía bắc tỉnh còn có phố suối nước nóng, nhiều người đến chơi rồi về trong ngày.",
+     "key": "日帰[ひがえ]り",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜も",
+      "g:〜で"
+     ],
+     "gloss": [
+      {
+       "w": "北部[ほくぶ]",
+       "vi": "phía bắc"
+      }
+     ]
+    },
+    {
+     "jp": "最近[さいきん]は、こうした観光地[かんこうち]を訪[おとず]れた人[ひと]が、帰[かえ]りにみなと市[し]の漁港[ぎょこう]に立[た]ち寄[よ]るようになった。",
+     "vi": "Gần đây, những người đi các điểm du lịch đó đã bắt đầu ghé cảng cá thành phố Minato trên đường về.",
+     "key": "観光地[かんこうち]",
+     "grammar": [
+      "g:〜を",
+      "g:〜に",
+      "g:〜の",
+      "g:〜ようになる"
+     ],
+     "gloss": [
+      {
+       "w": "みなと市[し]",
+       "vi": "thành phố Minato"
+      },
+      {
+       "w": "立[た]ち寄[よ]る",
+       "vi": "ghé qua"
+      }
+     ]
+    },
+    {
+     "jp": "漁港[ぎょこう]の市場[いちば]では、新鮮[しんせん]な海産物[かいさんぶつ]ばかりか、地元[じもと]の高校生[こうこうせい]が考[かんが]えた特色[とくしょく]ある加工品[かこうひん]まで並[なら]んでいる。",
+     "vi": "Ở chợ cảng cá, chẳng những có hải sản tươi mà cả những sản phẩm chế biến đầy nét riêng do học sinh cấp ba địa phương nghĩ ra cũng được bày bán.",
+     "key": "海産物[かいさんぶつ]",
+     "grammar": [
+      "g:〜の",
+      "g:〜で",
+      "g:〜ばかりか",
+      "g:〜まで（強調）",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "市場[いちば]",
+       "vi": "chợ"
+      },
+      {
+       "w": "新鮮[しんせん]",
+       "vi": "tươi"
+      },
+      {
+       "w": "高校生[こうこうせい]",
+       "vi": "học sinh cấp ba"
+      }
+     ]
+    },
+    {
+     "jp": "週末[しゅうまつ]には、県外[けんがい]のみならず、海外[かいがい]から来[き]た観光客[かんこうきゃく]で賑[にぎ]わう日[ひ]もある。",
+     "vi": "Cuối tuần có những ngày nhộn nhịp khách du lịch không chỉ từ ngoài tỉnh mà từ cả nước ngoài.",
+     "key": "観光客[かんこうきゃく]",
+     "grammar": [
+      "g:〜に",
+      "g:〜のみならず",
+      "g:〜から",
+      "g:〜で",
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "県外[けんがい]",
+       "vi": "ngoài tỉnh"
+      }
+     ]
+    },
+    {
+     "br": true,
+     "jp": "もちろん、課題[かだい]はまだ多[おお]い。",
+     "vi": "Tất nhiên, khó khăn vẫn còn nhiều.",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "課題[かだい]",
+       "vi": "vấn đề cần giải quyết"
+      }
+     ]
+    },
+    {
+     "jp": "燃料[ねんりょう]や電気代[でんきだい]の値上[ねあ]げが続[つづ]き、商品[しょうひん]を値下[ねさ]げする余裕[よゆう]はない。",
+     "vi": "Giá nhiên liệu, tiền điện liên tục tăng, công ty không còn dư địa để hạ giá sản phẩm.",
+     "key": "値上[ねあ]げ",
+     "grammar": [
+      "g:〜の",
+      "g:〜を"
+     ],
+     "gloss": [
+      {
+       "w": "燃料[ねんりょう]",
+       "vi": "nhiên liệu"
+      },
+      {
+       "w": "電気代[でんきだい]",
+       "vi": "tiền điện"
+      },
+      {
+       "w": "余裕[よゆう]",
+       "vi": "dư địa, dư dả"
+      }
+     ]
+    },
+    {
+     "jp": "最低賃金[さいていちんぎん]も上[あ]がり続[つづ]けており、中小企業[ちゅうしょうきぎょう]にとっては厳[きび]しい状況[じょうきょう]が続[つづ]く。",
+     "vi": "Lương tối thiểu cũng không ngừng tăng, với doanh nghiệp vừa và nhỏ, tình hình vẫn khó khăn.",
+     "key": "最低賃金[さいていちんぎん]",
+     "grammar": [
+      "g:〜も",
+      "g:〜始める・〜終わる・〜続ける",
+      "g:〜ています",
+      "g:〜にとって"
+     ],
+     "gloss": [
+      {
+       "w": "状況[じょうきょう]",
+       "vi": "tình hình"
+      }
+     ]
+    },
+    {
+     "jp": "それでも、人手不足[ひとでぶそく]の時代[じだい]に、働[はたら]く人[ひと]を大切[たいせつ]にしない会社[かいしゃ]は生[い]き残[のこ]れない。",
+     "vi": "Dẫu vậy, trong thời thiếu nhân lực, công ty không trân trọng người lao động sẽ không trụ nổi.",
+     "key": "人手不足[ひとでぶそく]",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜を",
+      "g:〜くする・〜にする",
+      "g:可能形（〜られる・〜える）"
+     ],
+     "gloss": [
+      {
+       "w": "生[い]き残[のこ]れない",
+       "vi": "không trụ được"
+      }
+     ]
+    },
+    {
+     "jp": "山本[やまもと]水産[すいさん]では、寮[りょう]の家賃[やちん]を下[さ]げた上[うえ]に、仕事[しごと]の後[あと]の日本語[にほんご]教室[きょうしつ]も開[あ]いている。",
+     "vi": "Yamamoto Suisan đã giảm tiền thuê ký túc xá, lại còn mở lớp tiếng Nhật sau giờ làm.",
+     "grammar": [
+      "g:〜で",
+      "g:〜の",
+      "g:〜を",
+      "g:〜上に",
+      "g:〜も",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "山本[やまもと]水産[すいさん]",
+       "vi": "công ty Yamamoto Suisan"
+      },
+      {
+       "w": "寮[りょう]",
+       "vi": "ký túc xá"
+      },
+      {
+       "w": "家賃[やちん]",
+       "vi": "tiền thuê nhà"
+      }
+     ]
+    },
+    {
+     "jp": "グエンさんも、その教室[きょうしつ]で、日本語[にほんご]能力[のうりょく]試験[しけん]N2の合格[ごうかく]を目指[めざ]している。",
+     "vi": "Anh Nguyễn cũng đang theo lớp đó, đặt mục tiêu đỗ kỳ thi năng lực tiếng Nhật N2.",
+     "grammar": [
+      "g:〜も",
+      "g:〜で",
+      "g:〜の",
+      "g:〜を",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "日本語[にほんご]能力[のうりょく]試験[しけん]",
+       "vi": "kỳ thi năng lực tiếng Nhật"
+      },
+      {
+       "w": "合格[ごうかく]",
+       "vi": "đỗ"
+      }
+     ]
+    },
+    {
+     "br": true,
+     "jp": "「この町[まち]は、きれいな海[うみ]と温[あたた]かい人[ひと]に恵[めぐ]まれています」と、グエンさんは言[い]う。",
+     "vi": "\"Thành phố này may mắn có biển đẹp và những con người ấm áp,\" anh Nguyễn nói.",
+     "key": "恵[めぐ]まれて",
+     "grammar": [
+      "g:〜と",
+      "g:〜に",
+      "g:〜ています"
+     ]
+    },
+    {
+     "jp": "「仕事[しごと]を覚[おぼ]えるだけでなく、地元[じもと]の祭[まつ]りにも参加[さんか]して、町[まち]を盛[も]り上[あ]げたいです」。",
+     "vi": "\"Không chỉ học việc, tôi còn muốn tham gia lễ hội địa phương, góp phần làm thành phố sôi động lên.\"",
+     "key": "盛[も]り上[あ]げ",
+     "grammar": [
+      "g:〜を",
+      "g:〜だけでなく・〜だけじゃなく",
+      "g:〜の",
+      "g:〜に",
+      "g:〜も",
+      "g:〜て、〜",
+      "g:〜たい"
+     ],
+     "gloss": [
+      {
+       "w": "祭[まつ]り",
+       "vi": "lễ hội"
+      }
+     ]
+    },
+    {
+     "jp": "最近[さいきん]では、都会[とかい]から移住[いじゅう]して漁師[りょうし]になる若者[わかもの]も、少[すこ]しずつ現[あらわ]れ始[はじ]めた。",
+     "vi": "Gần đây cũng dần xuất hiện những người trẻ từ thành phố lớn chuyển về sống và làm ngư dân.",
+     "key": "移住[いじゅう]",
+     "grammar": [
+      "g:〜で",
+      "g:〜から",
+      "g:〜て、〜",
+      "g:〜くなる・〜になる",
+      "g:〜も",
+      "g:〜始める・〜終わる・〜続ける"
+     ],
+     "gloss": [
+      {
+       "w": "都会[とかい]",
+       "vi": "thành phố lớn"
+      },
+      {
+       "w": "現[あらわ]れ始[はじ]めた",
+       "vi": "bắt đầu xuất hiện"
+      }
+     ]
+    },
+    {
+     "jp": "衰[おとろ]える一方[いっぽう]だと言[い]われてきた港町[みなとまち]に、新[あたら]しい風[かぜ]が吹[ふ]き始[はじ]めている。",
+     "vi": "Thành phố cảng từng bị cho là chỉ ngày một suy tàn, nay đang đón làn gió mới.",
+     "key": "衰[おとろ]える",
+     "grammar": [
+      "g:〜一方だ",
+      "g:〜と",
+      "g:受身形（〜られる）",
+      "g:〜ていく・〜てくる",
+      "g:〜に",
+      "g:〜始める・〜終わる・〜続ける",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "吹[ふ]き始[はじ]めている",
+       "vi": "đang bắt đầu thổi"
+      },
+      {
+       "w": "風[かぜ]",
+       "vi": "gió"
+      }
+     ]
+    },
+    {
+     "jp": "好景気[こうけいき]の時代[じだい]に戻[もど]るのは簡単[かんたん]ではないが、町[まち]の挑戦[ちょうせん]はまだ始[はじ]まったばかりだ。",
+     "vi": "Quay lại thời kinh tế phát đạt không dễ, nhưng nỗ lực của thành phố chỉ mới bắt đầu.",
+     "key": "好景気[こうけいき]",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜の・〜こと（名詞化）",
+      "g:〜が・〜けど",
+      "g:〜たばかり"
+     ],
+     "gloss": [
+      {
+       "w": "挑戦[ちょうせん]",
+       "vi": "thử thách, nỗ lực vượt khó"
+      }
+     ]
+    },
+    {
+     "fmt": "r",
+     "jp": "十月[じゅうがつ]十九日[じゅうくにち]",
+     "vi": "Ngày 19 tháng 10",
+     "grammar": []
+    },
+    {
+     "fmt": "r",
+     "jp": "（記者[きしゃ]　小林[こばやし]）",
+     "vi": "(Phóng viên Kobayashi)",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "記者[きしゃ]",
+       "vi": "phóng viên"
+      },
+      {
+       "w": "小林[こばやし]",
+       "vi": "Kobayashi"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo bài báo, vấn đề lớn nhất của thành phố Minato là gì?",
+     "opts": [
+      "Dân số giảm",
+      "Biển bị ô nhiễm",
+      "Thiếu khách du lịch",
+      "Hàng nhập khẩu quá đắt"
+     ],
+     "ans": 0,
+     "why": "最大[さいだい]の問題[もんだい]は、人口減少[じんこうげんしょう]である。"
+    },
+    {
+     "q": "\"利益[りえき]が出[で]るどころか、何年[なんねん]も赤字[あかじ]が続[つづ]いた\" nghĩa là gì?",
+     "opts": [
+      "Chẳng những không có lãi mà còn lỗ mấy năm liền",
+      "Có lãi nhưng rất ít",
+      "Có lãi nhiều năm liền",
+      "Lỗ một năm rồi có lãi trở lại"
+     ],
+     "ans": 0,
+     "why": "〜どころか = chẳng những không … mà trái lại …."
+    },
+    {
+     "q": "Anh Nguyễn được giao những việc gì?",
+     "opts": [
+      "Quản lý dây chuyền và kèm cặp nhân viên nước ngoài mới",
+      "Chỉ quản lý dây chuyền",
+      "Bán hàng ở chợ cảng cá",
+      "Dạy lớp tiếng Nhật sau giờ làm"
+     ],
+     "ans": 0,
+     "why": "毎日[まいにち]のライン管理[かんり]ばかりか、新[あたら]しく入[はい]った外国人[がいこくじん]社員[しゃいん]の指導[しどう]まで任[まか]されている。"
+    },
+    {
+     "q": "Trưởng phòng Nakamura nói gì về lao động nước ngoài?",
+     "opts": [
+      "Không chỉ là nguồn lao động mà còn mang tới cách nghĩ mới",
+      "Chỉ quan trọng vì là nguồn lao động",
+      "Không cần thiết cho nhà máy",
+      "Nên làm ở ngành du lịch"
+     ],
+     "ans": 0,
+     "why": "労働力[ろうどうりょく]として大切[たいせつ]であるのみならず、職場[しょくば]に新[あたら]しい考[かんが]え方[かた]を持[も]ち込[こ]んでくれる"
+    },
+    {
+     "q": "Ở chợ cảng cá có bán gì?",
+     "opts": [
+      "Hải sản tươi và cả sản phẩm chế biến do học sinh cấp ba nghĩ ra",
+      "Chỉ có hải sản tươi",
+      "Chỉ có đồ lưu niệm lâu đài Himeji",
+      "Chỉ có hàng nhập khẩu giá rẻ"
+     ],
+     "ans": 0,
+     "why": "新鮮[しんせん]な海産物[かいさんぶつ]ばかりか、地元[じもと]の高校生[こうこうせい]が考[かんが]えた特色[とくしょく]ある加工品[かこうひん]まで並[なら]んでいる。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,970 +1,970 @@
 {
- "schema": 1,
- "pack": {
-  "id": "thuysan-03",
-  "title": "Thủy sản 03 – HACCP, mối nguy, nhãn hàng, máy móc",
-  "type": "vocab",
-  "level": "N3",
-  "topics": [
-   "thuysan",
-   "xuong"
-  ],
-  "version": 1,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Từ chuyên ngành chế biến thủy sản không gia nhiệt (生食用): cấp là ước lượng. Kiến thức vệ sinh thực phẩm ở mức chung để hiểu chỉ thị trong xưởng — làm theo quy trình của công ty."
- },
- "items": [
-  {
-   "id": "v:ハサップ:ハサップ",
-   "kana": "ハサップ",
-   "kanji": "",
-   "hv": "",
-   "vi": "HACCP (hệ thống phân tích mối nguy và điểm kiểm soát tới hạn)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Vệ sinh",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]の食品[しょくひん]工場[こうじょう]は、ハサップ（HACCP）に沿[そ]って衛生管理[えいせいかんり]をしています。",
-     "vi": "Nhà máy thực phẩm Nhật quản lý vệ sinh theo HACCP.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "ハサップの記録[きろく]は毎日[まいにち]書[か]きます。",
-     "vi": "Hồ sơ HACCP ghi mỗi ngày.",
-     "ctx": "xuong"
-    }
-   ],
-   "goc": "Hazard Analysis and Critical Control Point (tiếng Anh)",
-   "note": "Viết tắt: HACCP."
+  "schema": 1,
+  "pack": {
+    "id": "thuysan-03",
+    "title": "Thủy sản 03 – HACCP, mối nguy, nhãn hàng, máy móc",
+    "type": "vocab",
+    "level": "N3",
+    "topics": [
+      "thuysan",
+      "xuong"
+    ],
+    "version": 2,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Từ chuyên ngành chế biến thủy sản không gia nhiệt (生食用): cấp là ước lượng. Kiến thức vệ sinh thực phẩm ở mức chung để hiểu chỉ thị trong xưởng — làm theo quy trình của công ty."
   },
-  {
-   "id": "v:危害要因:きがいよういん",
-   "kana": "きがいよういん",
-   "kanji": "危害要因",
-   "hv": "NGUY HẠI YẾU NHÂN",
-   "vi": "mối nguy (nguyên nhân gây hại)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Vệ sinh",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "生[なま]の魚[さかな]の危害[きがい]要因[よういん]には、寄生虫[きせいちゅう]や細菌[さいきん]があります。",
-     "vi": "Mối nguy của cá sống gồm ký sinh trùng và vi khuẩn.",
-     "ctx": "xuong"
+      "id": "v:ハサップ:ハサップ",
+      "kana": "ハサップ",
+      "kanji": "",
+      "hv": "",
+      "vi": "HACCP (hệ thống phân tích mối nguy và điểm kiểm soát tới hạn)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Vệ sinh",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]の食品[しょくひん]工場[こうじょう]は、ハサップ（HACCP）に沿[そ]って衛生管理[えいせいかんり]をしています。",
+          "vi": "Nhà máy thực phẩm Nhật quản lý vệ sinh theo HACCP.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ハサップの記録[きろく]は毎日[まいにち]書[か]きます。",
+          "vi": "Hồ sơ HACCP ghi mỗi ngày.",
+          "ctx": "xuong"
+        }
+      ],
+      "goc": "Hazard Analysis and Critical Control Point (tiếng Anh)",
+      "note": "Viết tắt: HACCP."
     },
     {
-     "jp": "工程[こうてい]ごとに危害[きがい]要因[よういん]を考[かんが]えます。",
-     "vi": "Xem xét mối nguy theo từng công đoạn.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:重要管理点:じゅうようかんりてん",
-   "kana": "じゅうようかんりてん",
-   "kanji": "重要管理点",
-   "hv": "TRỌNG YẾU QUẢN LÝ ĐIỂM",
-   "vi": "điểm kiểm soát tới hạn (CCP)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Vệ sinh",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "温度[おんど]の確認[かくにん]は、重要[じゅうよう]管理[かんり]点[てん]の一[ひと]つです。",
-     "vi": "Kiểm tra nhiệt độ là một điểm kiểm soát tới hạn.",
-     "ctx": "xuong"
+      "id": "v:危害要因:きがいよういん",
+      "kana": "きがいよういん",
+      "kanji": "危害要因",
+      "hv": "NGUY HẠI YẾU NHÂN",
+      "vi": "mối nguy (nguyên nhân gây hại)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Vệ sinh",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "生[なま]の魚[さかな]の危害[きがい]要因[よういん]には、寄生虫[きせいちゅう]や細菌[さいきん]があります。",
+          "vi": "Mối nguy của cá sống gồm ký sinh trùng và vi khuẩn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "工程[こうてい]ごとに危害[きがい]要因[よういん]を考[かんが]えます。",
+          "vi": "Xem xét mối nguy theo từng công đoạn.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "重要[じゅうよう]管理[かんり]点[てん]では、必[かなら]ず記録[きろく]を残[のこ]します。",
-     "vi": "Ở điểm kiểm soát tới hạn nhất định phải lưu hồ sơ.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:記録:きろく",
-   "kana": "きろく",
-   "kanji": "記録",
-   "hv": "KÝ LỤC",
-   "vi": "ghi chép, hồ sơ",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Vệ sinh",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "温度[おんど]を記録[きろく]してください。",
-     "vi": "Hãy ghi lại nhiệt độ.",
-     "ctx": "xuong"
+      "id": "v:重要管理点:じゅうようかんりてん",
+      "kana": "じゅうようかんりてん",
+      "kanji": "重要管理点",
+      "hv": "TRỌNG YẾU QUẢN LÝ ĐIỂM",
+      "vi": "điểm kiểm soát tới hạn (CCP)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Vệ sinh",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "温度[おんど]の確認[かくにん]は、重要[じゅうよう]管理[かんり]点[てん]の一[ひと]つです。",
+          "vi": "Kiểm tra nhiệt độ là một điểm kiểm soát tới hạn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "重要[じゅうよう]管理[かんり]点[てん]では、必[かなら]ず記録[きろく]を残[のこ]します。",
+          "vi": "Ở điểm kiểm soát tới hạn nhất định phải lưu hồ sơ.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "記録[きろく]用[よう]紙[し]は、班長[はんちょう]に出[だ]します。",
-     "vi": "Giấy ghi chép nộp cho tổ trưởng.",
-     "ctx": "xuong"
+      "id": "v:記録:きろく",
+      "kana": "きろく",
+      "kanji": "記録",
+      "hv": "KÝ LỤC",
+      "vi": "ghi chép, hồ sơ",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Vệ sinh",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "温度[おんど]を記録[きろく]してください。",
+          "vi": "Hãy ghi lại nhiệt độ.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "記録[きろく]用[よう]紙[し]は、班長[はんちょう]に出[だ]します。",
+          "vi": "Giấy ghi chép nộp cho tổ trưởng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "毎日[まいにち]の体重[たいじゅう]を記録[きろく]しています。",
+          "vi": "Tôi ghi cân nặng mỗi ngày.",
+          "ctx": "doisong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "温度[おんど]を記録[きろく]する",
+          "vi": "ghi nhiệt độ"
+        }
+      ]
     },
     {
-     "jp": "毎日[まいにち]の体重[たいじゅう]を記録[きろく]しています。",
-     "vi": "Tôi ghi cân nặng mỗi ngày.",
-     "ctx": "doisong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "温度[おんど]を記録[きろく]する",
-     "vi": "ghi nhiệt độ"
-    }
-   ]
-  },
-  {
-   "id": "v:点検:てんけん",
-   "kana": "てんけん",
-   "kanji": "点検",
-   "hv": "ĐIỂM KIỂM",
-   "vi": "kiểm tra định kỳ, rà soát (máy, dụng cụ)",
-   "pos": "n-suru",
-   "level": "N3",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Vệ sinh",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "始業[しぎょう]前[まえ]に機械[きかい]を点検[てんけん]します。",
-     "vi": "Trước giờ làm kiểm tra máy.",
-     "ctx": "xuong"
+      "id": "v:点検:てんけん",
+      "kana": "てんけん",
+      "kanji": "点検",
+      "hv": "ĐIỂM KIỂM",
+      "vi": "kiểm tra định kỳ, rà soát (máy, dụng cụ)",
+      "pos": "n-suru",
+      "level": "N3",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Vệ sinh",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "始業[しぎょう]前[まえ]に機械[きかい]を点検[てんけん]します。",
+          "vi": "Trước giờ làm kiểm tra máy.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "包丁[ほうちょう]の刃[は]が欠[か]けていないか点検[てんけん]してください。",
+          "vi": "Kiểm tra lưỡi dao có bị mẻ không.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "機械[きかい]を点検[てんけん]する",
+          "vi": "kiểm tra máy"
+        }
+      ],
+      "confuse": [
+        "v:確認:かくにん"
+      ]
     },
     {
-     "jp": "包丁[ほうちょう]の刃[は]が欠[か]けていないか点検[てんけん]してください。",
-     "vi": "Kiểm tra lưỡi dao có bị mẻ không.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "機械[きかい]を点検[てんけん]する",
-     "vi": "kiểm tra máy"
-    }
-   ],
-   "confuse": [
-    "v:確認:かくにん"
-   ]
-  },
-  {
-   "id": "v:温度計:おんどけい",
-   "kana": "おんどけい",
-   "kanji": "温度計",
-   "hv": "ÔN ĐỘ KẾ",
-   "vi": "nhiệt kế",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Vệ sinh",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "温度計[おんどけい]で魚[さかな]の温度[おんど]を測[はか]ります。",
-     "vi": "Đo nhiệt độ cá bằng nhiệt kế.",
-     "ctx": "xuong"
+      "id": "v:温度計:おんどけい",
+      "kana": "おんどけい",
+      "kanji": "温度計",
+      "hv": "ÔN ĐỘ KẾ",
+      "vi": "nhiệt kế",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Vệ sinh",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "温度計[おんどけい]で魚[さかな]の温度[おんど]を測[はか]ります。",
+          "vi": "Đo nhiệt độ cá bằng nhiệt kế.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "温度計[おんどけい]は使[つか]う前[まえ]に消毒[しょうどく]してください。",
+          "vi": "Khử trùng nhiệt kế trước khi dùng.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "温度計[おんどけい]で測[はか]る",
+          "vi": "đo bằng nhiệt kế"
+        }
+      ]
     },
     {
-     "jp": "温度計[おんどけい]は使[つか]う前[まえ]に消毒[しょうどく]してください。",
-     "vi": "Khử trùng nhiệt kế trước khi dùng.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "温度計[おんどけい]で測[はか]る",
-     "vi": "đo bằng nhiệt kế"
-    }
-   ]
-  },
-  {
-   "id": "v:中心温度:ちゅうしんおんど",
-   "kana": "ちゅうしんおんど",
-   "kanji": "中心温度",
-   "hv": "TRUNG TÂM ÔN ĐỘ",
-   "vi": "nhiệt độ lõi (tâm sản phẩm)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Vệ sinh",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "冷凍[れいとう]の後[あと]、中心[ちゅうしん]温度[おんど]を確認[かくにん]します。",
-     "vi": "Sau cấp đông kiểm tra nhiệt độ lõi.",
-     "ctx": "xuong"
+      "id": "v:中心温度:ちゅうしんおんど",
+      "kana": "ちゅうしんおんど",
+      "kanji": "中心温度",
+      "hv": "TRUNG TÂM ÔN ĐỘ",
+      "vi": "nhiệt độ lõi (tâm sản phẩm)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Vệ sinh",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "冷凍[れいとう]の後[あと]、中心[ちゅうしん]温度[おんど]を確認[かくにん]します。",
+          "vi": "Sau cấp đông kiểm tra nhiệt độ lõi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "中心[ちゅうしん]温度[おんど]は、一番[いちばん]厚[あつ]い所[ところ]で測[はか]ります。",
+          "vi": "Nhiệt độ lõi đo ở chỗ dày nhất.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:品温:ひんおん"
+      ]
     },
     {
-     "jp": "中心[ちゅうしん]温度[おんど]は、一番[いちばん]厚[あつ]い所[ところ]で測[はか]ります。",
-     "vi": "Nhiệt độ lõi đo ở chỗ dày nhất.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:品温:ひんおん"
-   ]
-  },
-  {
-   "id": "v:食中毒:しょくちゅうどく",
-   "kana": "しょくちゅうどく",
-   "kanji": "食中毒",
-   "hv": "THỰC TRUNG ĐỘC",
-   "vi": "ngộ độc thực phẩm",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Mối nguy",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "生[なま]の魚[さかな]は、温度[おんど]が高[たか]いと食中毒[しょくちゅうどく]の原因[げんいん]になります。",
-     "vi": "Cá sống để nhiệt độ cao là nguyên nhân ngộ độc.",
-     "ctx": "xuong"
+      "id": "v:食中毒:しょくちゅうどく",
+      "kana": "しょくちゅうどく",
+      "kanji": "食中毒",
+      "hv": "THỰC TRÚNG ĐỘC",
+      "vi": "ngộ độc thực phẩm",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Mối nguy",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "生[なま]の魚[さかな]は、温度[おんど]が高[たか]いと食中毒[しょくちゅうどく]の原因[げんいん]になります。",
+          "vi": "Cá sống để nhiệt độ cao là nguyên nhân ngộ độc.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "夏[なつ]は食中毒[しょくちゅうどく]に気[き]をつけましょう。",
+          "vi": "Mùa hè hãy cẩn thận ngộ độc thực phẩm.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "夏[なつ]は食中毒[しょくちゅうどく]に気[き]をつけましょう。",
-     "vi": "Mùa hè hãy cẩn thận ngộ độc thực phẩm.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:寄生虫:きせいちゅう",
-   "kana": "きせいちゅう",
-   "kanji": "寄生虫",
-   "hv": "KÝ SINH TRÙNG",
-   "vi": "ký sinh trùng",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Mối nguy",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "刺身[さしみ]用[よう]の魚[さかな]は、寄生虫[きせいちゅう]がいないか確認[かくにん]します。",
-     "vi": "Cá làm sashimi phải kiểm tra có ký sinh trùng không.",
-     "ctx": "xuong"
+      "id": "v:寄生虫:きせいちゅう",
+      "kana": "きせいちゅう",
+      "kanji": "寄生虫",
+      "hv": "KÝ SINH TRÙNG",
+      "vi": "ký sinh trùng",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Mối nguy",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "刺身[さしみ]用[よう]の魚[さかな]は、寄生虫[きせいちゅう]がいないか確認[かくにん]します。",
+          "vi": "Cá làm sashimi phải kiểm tra có ký sinh trùng không.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "冷凍[れいとう]すると、寄生虫[きせいちゅう]は死[し]にます。",
+          "vi": "Cấp đông thì ký sinh trùng chết.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:アニサキス:アニサキス"
+      ]
     },
     {
-     "jp": "冷凍[れいとう]すると、寄生虫[きせいちゅう]は死[し]にます。",
-     "vi": "Cấp đông thì ký sinh trùng chết.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:アニサキス:アニサキス"
-   ]
-  },
-  {
-   "id": "v:細菌:さいきん",
-   "kana": "さいきん",
-   "kanji": "細菌",
-   "hv": "TẾ KHUẨN",
-   "vi": "vi khuẩn",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Mối nguy",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "手[て]には細菌[さいきん]がたくさんついています。",
-     "vi": "Trên tay có rất nhiều vi khuẩn.",
-     "ctx": "xuong"
+      "id": "v:細菌:さいきん",
+      "kana": "さいきん",
+      "kanji": "細菌",
+      "hv": "TẾ KHUẨN",
+      "vi": "vi khuẩn",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Mối nguy",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "手[て]には細菌[さいきん]がたくさんついています。",
+          "vi": "Trên tay có rất nhiều vi khuẩn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "低[ひく]い温度[おんど]では、細菌[さいきん]が増[ふ]えにくいです。",
+          "vi": "Ở nhiệt độ thấp vi khuẩn khó sinh sôi.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:最近:さいきん"
+      ],
+      "note": "Đồng âm với 最近[さいきん] (gần đây)."
     },
     {
-     "jp": "低[ひく]い温度[おんど]では、細菌[さいきん]が増[ふ]えにくいです。",
-     "vi": "Ở nhiệt độ thấp vi khuẩn khó sinh sôi.",
-     "ctx": "xuong"
-    }
-   ],
-   "confuse": [
-    "v:最近:さいきん"
-   ],
-   "note": "Đồng âm với 最近[さいきん] (gần đây)."
-  },
-  {
-   "id": "v:ノロウイルス:ノロウイルス",
-   "kana": "ノロウイルス",
-   "kanji": "",
-   "hv": "",
-   "vi": "vi-rút Norovirus",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Mối nguy",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "牡蠣[かき]はノロウイルスに注意[ちゅうい]が必要[ひつよう]です。",
-     "vi": "Hàu cần chú ý vi-rút Noro.",
-     "ctx": "xuong"
+      "id": "v:ノロウイルス:ノロウイルス",
+      "kana": "ノロウイルス",
+      "kanji": "",
+      "hv": "",
+      "vi": "vi-rút Norovirus",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Mối nguy",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "牡蠣[かき]はノロウイルスに注意[ちゅうい]が必要[ひつよう]です。",
+          "vi": "Hàu cần chú ý vi-rút Noro.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "下痢[げり]や吐[は]き気[け]があったら、出勤[しゅっきん]しないで連絡[れんらく]してください。",
+          "vi": "Nếu tiêu chảy hay buồn nôn thì đừng đi làm mà hãy báo.",
+          "ctx": "xuong"
+        }
+      ],
+      "goc": "Norovirus (tiếng Anh)"
     },
     {
-     "jp": "下痢[げり]や吐[は]き気[け]があったら、出勤[しゅっきん]しないで連絡[れんらく]してください。",
-     "vi": "Nếu tiêu chảy hay buồn nôn thì đừng đi làm mà hãy báo.",
-     "ctx": "xuong"
-    }
-   ],
-   "goc": "Norovirus (tiếng Anh)"
-  },
-  {
-   "id": "v:腸炎ビブリオ:ちょうえんビブリオ",
-   "kana": "ちょうえんビブリオ",
-   "kanji": "腸炎ビブリオ",
-   "kf": "腸炎[ちょうえん]ビブリオ",
-   "hv": "TRÀNG VIÊM",
-   "vi": "vi khuẩn Vibrio parahaemolyticus (gây viêm ruột)",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Mối nguy",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "腸炎[ちょうえん]ビブリオは、海[うみ]の魚[さかな]に多[おお]い細菌[さいきん]です。",
-     "vi": "Vibrio là vi khuẩn hay có ở cá biển.",
-     "ctx": "xuong"
+      "id": "v:腸炎ビブリオ:ちょうえんビブリオ",
+      "kana": "ちょうえんビブリオ",
+      "kanji": "腸炎ビブリオ",
+      "kf": "腸炎[ちょうえん]ビブリオ",
+      "hv": "TRÀNG VIÊM",
+      "vi": "vi khuẩn Vibrio parahaemolyticus (gây viêm ruột)",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Mối nguy",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "腸炎[ちょうえん]ビブリオは、海[うみ]の魚[さかな]に多[おお]い細菌[さいきん]です。",
+          "vi": "Vibrio là vi khuẩn hay có ở cá biển.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "腸炎[ちょうえん]ビブリオは真水[まみず]で洗[あら]うと減[へ]ります。",
+          "vi": "Rửa bằng nước ngọt thì Vibrio giảm.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Vi khuẩn này sợ nước ngọt và nhiệt độ thấp — vì vậy cá sống được rửa bằng nước sạch và giữ lạnh."
     },
     {
-     "jp": "腸炎[ちょうえん]ビブリオは真水[まみず]で洗[あら]うと減[へ]ります。",
-     "vi": "Rửa bằng nước ngọt thì Vibrio giảm.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Vi khuẩn này sợ nước ngọt và nhiệt độ thấp — vì vậy cá sống được rửa bằng nước sạch và giữ lạnh."
-  },
-  {
-   "id": "v:洗浄:せんじょう",
-   "kana": "せんじょう",
-   "kanji": "洗浄",
-   "hv": "TẨY TỊNH",
-   "vi": "rửa sạch (thiết bị, nguyên liệu)",
-   "pos": "n-suru",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Vệ sinh",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "作業[さぎょう]の後[あと]、まな板[いた]を洗浄[せんじょう]して消毒[しょうどく]します。",
-     "vi": "Sau giờ làm rửa thớt rồi khử trùng.",
-     "ctx": "xuong"
+      "id": "v:洗浄:せんじょう",
+      "kana": "せんじょう",
+      "kanji": "洗浄",
+      "hv": "TẨY TỊNH",
+      "vi": "rửa sạch (thiết bị, nguyên liệu)",
+      "pos": "n-suru",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Vệ sinh",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "作業[さぎょう]の後[あと]、まな板[いた]を洗浄[せんじょう]して消毒[しょうどく]します。",
+          "vi": "Sau giờ làm rửa thớt rồi khử trùng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "洗浄機[せんじょうき]で、トレーを洗[あら]います。",
+          "vi": "Rửa khay bằng máy rửa.",
+          "ctx": "xuong"
+        }
+      ],
+      "coll": [
+        {
+          "jp": "器具[きぐ]を洗浄[せんじょう]する",
+          "vi": "rửa dụng cụ"
+        }
+      ],
+      "syn": [
+        "v:洗う:あらう"
+      ]
     },
     {
-     "jp": "洗浄機[せんじょうき]で、トレーを洗[あら]います。",
-     "vi": "Rửa khay bằng máy rửa.",
-     "ctx": "xuong"
-    }
-   ],
-   "coll": [
-    {
-     "jp": "器具[きぐ]を洗浄[せんじょう]する",
-     "vi": "rửa dụng cụ"
-    }
-   ],
-   "syn": [
-    "v:洗う:あらう"
-   ]
-  },
-  {
-   "id": "v:殺菌:さっきん",
-   "kana": "さっきん",
-   "kanji": "殺菌",
-   "hv": "SÁT KHUẨN",
-   "vi": "diệt khuẩn",
-   "pos": "n-suru",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Vệ sinh",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "熱湯[ねっとう]で包丁[ほうちょう]を殺菌[さっきん]します。",
-     "vi": "Diệt khuẩn dao bằng nước sôi.",
-     "ctx": "xuong"
+      "id": "v:殺菌:さっきん",
+      "kana": "さっきん",
+      "kanji": "殺菌",
+      "hv": "SÁT KHUẨN",
+      "vi": "diệt khuẩn",
+      "pos": "n-suru",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Vệ sinh",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "熱湯[ねっとう]で包丁[ほうちょう]を殺菌[さっきん]します。",
+          "vi": "Diệt khuẩn dao bằng nước sôi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "殺菌[さっきん]した水[みず]で魚[さかな]を洗[あら]います。",
+          "vi": "Rửa cá bằng nước đã diệt khuẩn.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:消毒:しょうどく"
+      ]
     },
     {
-     "jp": "殺菌[さっきん]した水[みず]で魚[さかな]を洗[あら]います。",
-     "vi": "Rửa cá bằng nước đã diệt khuẩn.",
-     "ctx": "xuong"
-    }
-   ],
-   "confuse": [
-    "v:消毒:しょうどく"
-   ]
-  },
-  {
-   "id": "v:次亜塩素酸ナトリウム:じあえんそさんナトリウム",
-   "kana": "じあえんそさんナトリウム",
-   "kanji": "次亜塩素酸ナトリウム",
-   "kf": "次亜塩素酸[じあえんそさん]ナトリウム",
-   "hv": "THỨ Á DIÊM TỐ TOAN",
-   "vi": "natri hypoclorit (thuốc tẩy khử trùng)",
-   "pos": "n",
-   "level": "N1",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Vệ sinh",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "床[ゆか]は次亜[じあ]塩素酸[えんそさん]ナトリウムで消毒[しょうどく]します。",
-     "vi": "Sàn khử trùng bằng natri hypoclorit.",
-     "ctx": "xuong"
+      "id": "v:次亜塩素酸ナトリウム:じあえんそさんナトリウム",
+      "kana": "じあえんそさんナトリウム",
+      "kanji": "次亜塩素酸ナトリウム",
+      "kf": "次亜塩素酸[じあえんそさん]ナトリウム",
+      "hv": "THỨ Á DIÊM TỐ TOAN",
+      "vi": "natri hypoclorit (thuốc tẩy khử trùng)",
+      "pos": "n",
+      "level": "N1",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Vệ sinh",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "床[ゆか]は次亜[じあ]塩素酸[えんそさん]ナトリウムで消毒[しょうどく]します。",
+          "vi": "Sàn khử trùng bằng natri hypoclorit.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "次亜[じあ]塩素酸[えんそさん]ナトリウムを使[つか]う時[とき]は、手袋[てぶくろ]をしてください。",
+          "vi": "Khi dùng natri hypoclorit hãy đeo găng.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "Thường gọi tắt 次亜塩[じあえん]. Không trộn với chất tẩy có axit (nguy hiểm)."
     },
     {
-     "jp": "次亜[じあ]塩素酸[えんそさん]ナトリウムを使[つか]う時[とき]は、手袋[てぶくろ]をしてください。",
-     "vi": "Khi dùng natri hypoclorit hãy đeo găng.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "Thường gọi tắt 次亜塩[じあえん]. Không trộn với chất tẩy có axit (nguy hiểm)."
-  },
-  {
-   "id": "v:原材料:げんざいりょう",
-   "kana": "げんざいりょう",
-   "kanji": "原材料",
-   "hv": "NGUYÊN TÀI LIỆU",
-   "vi": "nguyên liệu",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Nhãn hàng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ラベルに原材料[げんざいりょう]が書[か]いてあります。",
-     "vi": "Trên nhãn có ghi nguyên liệu.",
-     "ctx": "xuong"
+      "id": "v:原材料:げんざいりょう",
+      "kana": "げんざいりょう",
+      "kanji": "原材料",
+      "hv": "NGUYÊN TÀI LIỆU",
+      "vi": "nguyên liệu",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Nhãn hàng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ラベルに原材料[げんざいりょう]が書[か]いてあります。",
+          "vi": "Trên nhãn có ghi nguyên liệu.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "原材料[げんざいりょう]の産地[さんち]を確認[かくにん]します。",
+          "vi": "Kiểm tra nơi sản xuất nguyên liệu.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "原材料[げんざいりょう]の産地[さんち]を確認[かくにん]します。",
-     "vi": "Kiểm tra nơi sản xuất nguyên liệu.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:原産地:げんさんち",
-   "kana": "げんさんち",
-   "kanji": "原産地",
-   "hv": "NGUYÊN SẢN ĐỊA",
-   "vi": "nơi xuất xứ",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Nhãn hàng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "このエビの原産地[げんさんち]はベトナムです。",
-     "vi": "Xuất xứ tôm này là Việt Nam.",
-     "ctx": "xuong"
+      "id": "v:原産地:げんさんち",
+      "kana": "げんさんち",
+      "kanji": "原産地",
+      "hv": "NGUYÊN SẢN ĐỊA",
+      "vi": "nơi xuất xứ",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Nhãn hàng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このエビの原産地[げんさんち]はベトナムです。",
+          "vi": "Xuất xứ tôm này là Việt Nam.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "魚[さかな]のラベルには、原産地[げんさんち]を書[か]かなければなりません。",
+          "vi": "Nhãn cá phải ghi xuất xứ.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "魚[さかな]のラベルには、原産地[げんさんち]を書[か]かなければなりません。",
-     "vi": "Nhãn cá phải ghi xuất xứ.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:内容量:ないようりょう",
-   "kana": "ないようりょう",
-   "kanji": "内容量",
-   "hv": "NỘI DUNG LƯỢNG",
-   "vi": "khối lượng tịnh",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Nhãn hàng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "内容量[ないようりょう]は二百[にひゃく]グラムです。",
-     "vi": "Khối lượng tịnh là 200 gam.",
-     "ctx": "xuong"
+      "id": "v:内容量:ないようりょう",
+      "kana": "ないようりょう",
+      "kanji": "内容量",
+      "hv": "NỘI DUNG LƯỢNG",
+      "vi": "khối lượng tịnh",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Nhãn hàng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "内容量[ないようりょう]は二百[にひゃく]グラムです。",
+          "vi": "Khối lượng tịnh là 200 gam.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "内容量[ないようりょう]が足[た]りないと、出荷[しゅっか]できません。",
+          "vi": "Thiếu khối lượng tịnh thì không xuất hàng được.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "内容量[ないようりょう]が足[た]りないと、出荷[しゅっか]できません。",
-     "vi": "Thiếu khối lượng tịnh thì không xuất hàng được.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:保存方法:ほぞんほうほう",
-   "kana": "ほぞんほうほう",
-   "kanji": "保存方法",
-   "hv": "BẢO TỒN PHƯƠNG PHÁP",
-   "vi": "cách bảo quản",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Nhãn hàng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "保存[ほぞん]方法[ほうほう]：要[よう]冷凍[れいとう]（マイナス十八[じゅうはち]度[ど]以下[いか]）。",
-     "vi": "Cách bảo quản: cần cấp đông (âm 18 độ trở xuống).",
-     "ctx": "xuong"
+      "id": "v:保存方法:ほぞんほうほう",
+      "kana": "ほぞんほうほう",
+      "kanji": "保存方法",
+      "hv": "BẢO TỒN PHƯƠNG PHÁP",
+      "vi": "cách bảo quản",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Nhãn hàng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "保存[ほぞん]方法[ほうほう]：要[よう]冷凍[れいとう]（マイナス十八[じゅうはち]度[ど]以下[いか]）。",
+          "vi": "Cách bảo quản: cần cấp đông (âm 18 độ trở xuống).",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ラベルの保存[ほぞん]方法[ほうほう]を見[み]てから、冷蔵庫[れいぞうこ]に入[い]れます。",
+          "vi": "Xem cách bảo quản trên nhãn rồi cho vào tủ lạnh.",
+          "ctx": "doisong"
+        }
+      ],
+      "rel": [
+        {
+          "w": "要冷蔵[ようれいぞう]",
+          "vi": "cần bảo quản lạnh"
+        }
+      ]
     },
     {
-     "jp": "ラベルの保存[ほぞん]方法[ほうほう]を見[み]てから、冷蔵庫[れいぞうこ]に入[い]れます。",
-     "vi": "Xem cách bảo quản trên nhãn rồi cho vào tủ lạnh.",
-     "ctx": "doisong"
-    }
-   ],
-   "rel": [
-    {
-     "w": "要冷蔵[ようれいぞう]",
-     "vi": "cần bảo quản lạnh"
-    }
-   ]
-  },
-  {
-   "id": "v:製造者:せいぞうしゃ",
-   "kana": "せいぞうしゃ",
-   "kanji": "製造者",
-   "hv": "CHẾ TẠO GIẢ",
-   "vi": "nhà sản xuất",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Nhãn hàng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ラベルに製造者[せいぞうしゃ]の名前[なまえ]と住所[じゅうしょ]があります。",
-     "vi": "Trên nhãn có tên và địa chỉ nhà sản xuất.",
-     "ctx": "xuong"
+      "id": "v:製造者:せいぞうしゃ",
+      "kana": "せいぞうしゃ",
+      "kanji": "製造者",
+      "hv": "CHẾ TẠO GIẢ",
+      "vi": "nhà sản xuất",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Nhãn hàng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ラベルに製造者[せいぞうしゃ]の名前[なまえ]と住所[じゅうしょ]があります。",
+          "vi": "Trên nhãn có tên và địa chỉ nhà sản xuất.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "製造者[せいぞうしゃ]に問[と]い合[あ]わせてください。",
+          "vi": "Hãy hỏi nhà sản xuất.",
+          "ctx": "thutuc"
+        }
+      ]
     },
     {
-     "jp": "製造者[せいぞうしゃ]に問[と]い合[あ]わせてください。",
-     "vi": "Hãy hỏi nhà sản xuất.",
-     "ctx": "thutuc"
-    }
-   ]
-  },
-  {
-   "id": "v:加工日:かこうび",
-   "kana": "かこうび",
-   "kanji": "加工日",
-   "hv": "GIA CÔNG NHẬT",
-   "vi": "ngày chế biến",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Nhãn hàng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "加工[かこう]日[ひ]はラベルの右[みぎ]に印字[いんじ]されています。",
-     "vi": "Ngày chế biến in ở bên phải nhãn.",
-     "ctx": "xuong"
+      "id": "v:加工日:かこうび",
+      "kana": "かこうび",
+      "kanji": "加工日",
+      "hv": "GIA CÔNG NHẬT",
+      "vi": "ngày chế biến",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Nhãn hàng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "加工[かこう]日[ひ]はラベルの右[みぎ]に印字[いんじ]されています。",
+          "vi": "Ngày chế biến in ở bên phải nhãn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "加工[かこう]日[ひ]と消費期限[しょうひきげん]を確認[かくにん]してください。",
+          "vi": "Kiểm tra ngày chế biến và hạn sử dụng.",
+          "ctx": "xuong"
+        }
+      ],
+      "confuse": [
+        "v:消費期限:しょうひきげん"
+      ]
     },
     {
-     "jp": "加工[かこう]日[ひ]と消費期限[しょうひきげん]を確認[かくにん]してください。",
-     "vi": "Kiểm tra ngày chế biến và hạn sử dụng.",
-     "ctx": "xuong"
-    }
-   ],
-   "confuse": [
-    "v:消費期限:しょうひきげん"
-   ]
-  },
-  {
-   "id": "v:ロット番号:ロットばんごう",
-   "kana": "ロットばんごう",
-   "kanji": "ロット番号",
-   "kf": "ロット番号[ばんごう]",
-   "hv": "PHIÊN HIỆU",
-   "vi": "số lô",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Nhãn hàng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "箱[はこ]にロット番号[ばんごう]を書[か]いてください。",
-     "vi": "Ghi số lô lên thùng.",
-     "ctx": "xuong"
+      "id": "v:ロット番号:ロットばんごう",
+      "kana": "ロットばんごう",
+      "kanji": "ロット番号",
+      "kf": "ロット番号[ばんごう]",
+      "hv": "PHIÊN HIỆU",
+      "vi": "số lô",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Nhãn hàng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "箱[はこ]にロット番号[ばんごう]を書[か]いてください。",
+          "vi": "Ghi số lô lên thùng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "問題[もんだい]があったら、ロット番号[ばんごう]で調[しら]べます。",
+          "vi": "Có vấn đề thì tra theo số lô.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "問題[もんだい]があったら、ロット番号[ばんごう]で調[しら]べます。",
-     "vi": "Có vấn đề thì tra theo số lô.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:アレルギー:アレルギー",
-   "kana": "アレルギー",
-   "kanji": "",
-   "hv": "",
-   "vi": "dị ứng",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Nhãn hàng",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "えびとかには、アレルギー表示[ひょうじ]が必要[ひつよう]です。",
-     "vi": "Tôm và cua cần ghi cảnh báo dị ứng.",
-     "ctx": "xuong"
+      "id": "v:アレルギー:アレルギー",
+      "kana": "アレルギー",
+      "kanji": "",
+      "hv": "",
+      "vi": "dị ứng",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Nhãn hàng",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "えびとかには、アレルギー表示[ひょうじ]が必要[ひつよう]です。",
+          "vi": "Tôm và cua cần ghi cảnh báo dị ứng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "私[わたし]は卵[たまご]のアレルギーがあります。",
+          "vi": "Tôi bị dị ứng trứng.",
+          "ctx": "doisong"
+        }
+      ],
+      "goc": "Allergie (tiếng Đức)",
+      "note": "アレルギー表示[ひょうじ] = ghi chú chất gây dị ứng trên nhãn."
     },
     {
-     "jp": "私[わたし]は卵[たまご]のアレルギーがあります。",
-     "vi": "Tôi bị dị ứng trứng.",
-     "ctx": "doisong"
-    }
-   ],
-   "goc": "Allergie (tiếng Đức)",
-   "note": "アレルギー表示[ひょうじ] = ghi chú chất gây dị ứng trên nhãn."
-  },
-  {
-   "id": "v:養殖:ようしょく",
-   "kana": "ようしょく",
-   "kanji": "養殖",
-   "hv": "DƯỠNG THỰC",
-   "vi": "nuôi trồng (thủy sản)",
-   "pos": "n-suru",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Nguyên liệu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "このサーモンは養殖[ようしょく]です。",
-     "vi": "Cá hồi này là cá nuôi.",
-     "ctx": "xuong"
+      "id": "v:養殖:ようしょく",
+      "kana": "ようしょく",
+      "kanji": "養殖",
+      "hv": "DƯỠNG THỰC",
+      "vi": "nuôi trồng (thủy sản)",
+      "pos": "n-suru",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Nguyên liệu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "このサーモンは養殖[ようしょく]です。",
+          "vi": "Cá hồi này là cá nuôi.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "愛媛県[えひめけん]はブリの養殖[ようしょく]が盛[さか]んです。",
+          "vi": "Tỉnh Ehime nuôi cá cam rất phát triển.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        "v:天然:てんねん"
+      ]
     },
     {
-     "jp": "愛媛県[えひめけん]はブリの養殖[ようしょく]が盛[さか]んです。",
-     "vi": "Tỉnh Ehime nuôi cá cam rất phát triển.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    "v:天然:てんねん"
-   ]
-  },
-  {
-   "id": "v:天然:てんねん",
-   "kana": "てんねん",
-   "kanji": "天然",
-   "hv": "THIÊN NHIÊN",
-   "vi": "tự nhiên, đánh bắt tự nhiên",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Nguyên liệu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "天然[てんねん]のマグロは値段[ねだん]が高[たか]いです。",
-     "vi": "Cá ngừ tự nhiên giá cao.",
-     "ctx": "xuong"
+      "id": "v:天然:てんねん",
+      "kana": "てんねん",
+      "kanji": "天然",
+      "hv": "THIÊN NHIÊN",
+      "vi": "tự nhiên, đánh bắt tự nhiên",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Nguyên liệu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "天然[てんねん]のマグロは値段[ねだん]が高[たか]いです。",
+          "vi": "Cá ngừ tự nhiên giá cao.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "天然[てんねん]か養殖[ようしょく]か、ラベルに書[か]きます。",
+          "vi": "Ghi trên nhãn là tự nhiên hay nuôi.",
+          "ctx": "xuong"
+        }
+      ],
+      "ant": [
+        "v:養殖:ようしょく"
+      ]
     },
     {
-     "jp": "天然[てんねん]か養殖[ようしょく]か、ラベルに書[か]きます。",
-     "vi": "Ghi trên nhãn là tự nhiên hay nuôi.",
-     "ctx": "xuong"
-    }
-   ],
-   "ant": [
-    "v:養殖:ようしょく"
-   ]
-  },
-  {
-   "id": "v:解凍品:かいとうひん",
-   "kana": "かいとうひん",
-   "kanji": "解凍品",
-   "hv": "GIẢI ĐÔNG PHẨM",
-   "vi": "hàng đã rã đông",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Nguyên liệu",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "解凍[かいとう]品[ひん]は、もう一度[いちど]冷凍[れいとう]してはいけません。",
-     "vi": "Hàng đã rã đông không được cấp đông lại.",
-     "ctx": "xuong"
+      "id": "v:解凍品:かいとうひん",
+      "kana": "かいとうひん",
+      "kanji": "解凍品",
+      "hv": "GIẢI ĐÔNG PHẨM",
+      "vi": "hàng đã rã đông",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Nguyên liệu",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "解凍[かいとう]品[ひん]は、もう一度[いちど]冷凍[れいとう]してはいけません。",
+          "vi": "Hàng đã rã đông không được cấp đông lại.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ラベルに「解凍[かいとう]」と書[か]いてあれば、解凍[かいとう]品[ひん]です。",
+          "vi": "Nhãn ghi \"解凍[かいとう]\" là hàng rã đông.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:解凍:かいとう"
+      ]
     },
     {
-     "jp": "ラベルに「解凍[かいとう]」と書[か]いてあれば、解凍[かいとう]品[ひん]です。",
-     "vi": "Nhãn ghi \"解凍[かいとう]\" là hàng rã đông.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:解凍:かいとう"
-   ]
-  },
-  {
-   "id": "v:急速冷凍:きゅうそくれいとう",
-   "kana": "きゅうそくれいとう",
-   "kanji": "急速冷凍",
-   "hv": "CẤP TỐC LÃNH ĐÔNG",
-   "vi": "cấp đông nhanh",
-   "pos": "n-suru",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Máy móc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "刺身[さしみ]用[よう]の魚[さかな]は、急速[きゅうそく]冷凍[れいとう]します。",
-     "vi": "Cá làm sashimi được cấp đông nhanh.",
-     "ctx": "xuong"
+      "id": "v:急速冷凍:きゅうそくれいとう",
+      "kana": "きゅうそくれいとう",
+      "kanji": "急速冷凍",
+      "hv": "CẤP TỐC LÃNH ĐÔNG",
+      "vi": "cấp đông nhanh",
+      "pos": "n-suru",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Máy móc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "刺身[さしみ]用[よう]の魚[さかな]は、急速[きゅうそく]冷凍[れいとう]します。",
+          "vi": "Cá làm sashimi được cấp đông nhanh.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "急速[きゅうそく]冷凍[れいとう]すると、味[あじ]が落[お]ちにくいです。",
+          "vi": "Cấp đông nhanh thì vị ít bị giảm.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:冷凍:れいとう"
+      ]
     },
     {
-     "jp": "急速[きゅうそく]冷凍[れいとう]すると、味[あじ]が落[お]ちにくいです。",
-     "vi": "Cấp đông nhanh thì vị ít bị giảm.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:冷凍:れいとう"
-   ]
-  },
-  {
-   "id": "v:氷水:こおりみず",
-   "kana": "こおりみず",
-   "kanji": "氷水",
-   "hv": "BĂNG THỦY",
-   "vi": "nước đá (nước lạnh có đá)",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Máy móc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "魚[さかな]を氷水[こおりみず]で冷[ひ]やします。",
-     "vi": "Làm lạnh cá bằng nước đá.",
-     "ctx": "xuong"
+      "id": "v:氷水:こおりみず",
+      "kana": "こおりみず",
+      "kanji": "氷水",
+      "hv": "BĂNG THỦY",
+      "vi": "nước đá (nước lạnh có đá)",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Máy móc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "魚[さかな]を氷水[こおりみず]で冷[ひ]やします。",
+          "vi": "Làm lạnh cá bằng nước đá.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "氷水[こおりみず]の温度[おんど]は五[ご]度[ど]以下[いか]にしてください。",
+          "vi": "Giữ nhiệt độ nước đá dưới 5 độ.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "氷水[こおりみず]の温度[おんど]は五[ご]度[ど]以下[いか]にしてください。",
-     "vi": "Giữ nhiệt độ nước đá dưới 5 độ.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:スライサー:スライサー",
-   "kana": "スライサー",
-   "kanji": "",
-   "hv": "",
-   "vi": "máy thái lát",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Máy móc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "スライサーで刺身[さしみ]を切[き]ります。",
-     "vi": "Thái sashimi bằng máy thái lát.",
-     "ctx": "xuong"
+      "id": "v:スライサー:スライサー",
+      "kana": "スライサー",
+      "kanji": "",
+      "hv": "",
+      "vi": "máy thái lát",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Máy móc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "スライサーで刺身[さしみ]を切[き]ります。",
+          "vi": "Thái sashimi bằng máy thái lát.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "スライサーの刃[は]は、とても危[あぶ]ないです。",
+          "vi": "Lưỡi máy thái rất nguy hiểm.",
+          "ctx": "xuong"
+        }
+      ],
+      "goc": "slicer (tiếng Anh)"
     },
     {
-     "jp": "スライサーの刃[は]は、とても危[あぶ]ないです。",
-     "vi": "Lưỡi máy thái rất nguy hiểm.",
-     "ctx": "xuong"
-    }
-   ],
-   "goc": "slicer (tiếng Anh)"
-  },
-  {
-   "id": "v:包装機:ほうそうき",
-   "kana": "ほうそうき",
-   "kanji": "包装機",
-   "hv": "BAO TRANG CƠ",
-   "vi": "máy đóng gói",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Máy móc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "包装[ほうそう]機[き]にフィルムを入[い]れます。",
-     "vi": "Lắp màng vào máy đóng gói.",
-     "ctx": "xuong"
+      "id": "v:包装機:ほうそうき",
+      "kana": "ほうそうき",
+      "kanji": "包装機",
+      "hv": "BAO TRANG CƠ",
+      "vi": "máy đóng gói",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Máy móc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "包装[ほうそう]機[き]にフィルムを入[い]れます。",
+          "vi": "Lắp màng vào máy đóng gói.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "包装[ほうそう]機[き]が止[と]まったら、班長[はんちょう]に知[し]らせてください。",
+          "vi": "Máy đóng gói dừng thì báo tổ trưởng.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:包装:ほうそう"
+      ]
     },
     {
-     "jp": "包装[ほうそう]機[き]が止[と]まったら、班長[はんちょう]に知[し]らせてください。",
-     "vi": "Máy đóng gói dừng thì báo tổ trưởng.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:包装:ほうそう"
-   ]
-  },
-  {
-   "id": "v:ベルトコンベア:ベルトコンベア",
-   "kana": "ベルトコンベア",
-   "kanji": "",
-   "hv": "",
-   "vi": "băng chuyền",
-   "pos": "n",
-   "level": "N3",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Máy móc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "ベルトコンベアの上[うえ]に魚[さかな]を並[なら]べます。",
-     "vi": "Xếp cá lên băng chuyền.",
-     "ctx": "xuong"
+      "id": "v:ベルトコンベア:ベルトコンベア",
+      "kana": "ベルトコンベア",
+      "kanji": "",
+      "hv": "",
+      "vi": "băng chuyền",
+      "pos": "n",
+      "level": "N3",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Máy móc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "ベルトコンベアの上[うえ]に魚[さかな]を並[なら]べます。",
+          "vi": "Xếp cá lên băng chuyền.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "ベルトコンベアに手[て]を近[ちか]づけないでください。",
+          "vi": "Đừng đưa tay lại gần băng chuyền.",
+          "ctx": "xuong"
+        }
+      ],
+      "goc": "belt conveyor (tiếng Anh)"
     },
     {
-     "jp": "ベルトコンベアに手[て]を近[ちか]づけないでください。",
-     "vi": "Đừng đưa tay lại gần băng chuyền.",
-     "ctx": "xuong"
+      "id": "v:計量器:けいりょうき",
+      "kana": "けいりょうき",
+      "kanji": "計量器",
+      "hv": "KẾ LƯỢNG KHÍ",
+      "vi": "máy cân (thiết bị)",
+      "pos": "n",
+      "level": "N2",
+      "topics": [
+        "thuysan",
+        "xuong"
+      ],
+      "sub": "Máy móc",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "計量器[けいりょうき]で一[いち]パックずつ重[おも]さを量[はか]ります。",
+          "vi": "Cân từng gói trên máy cân.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "計量器[けいりょうき]は毎朝[まいあさ]ゼロに合[あ]わせます。",
+          "vi": "Mỗi sáng chỉnh cân về 0.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:計量:けいりょう"
+      ]
     }
-   ],
-   "goc": "belt conveyor (tiếng Anh)"
-  },
-  {
-   "id": "v:計量器:けいりょうき",
-   "kana": "けいりょうき",
-   "kanji": "計量器",
-   "hv": "KẾ LƯỢNG KHÍ",
-   "vi": "máy cân (thiết bị)",
-   "pos": "n",
-   "level": "N2",
-   "topics": [
-    "thuysan",
-    "xuong"
-   ],
-   "sub": "Máy móc",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "計量器[けいりょうき]で一[いち]パックずつ重[おも]さを量[はか]ります。",
-     "vi": "Cân từng gói trên máy cân.",
-     "ctx": "xuong"
-    },
-    {
-     "jp": "計量器[けいりょうき]は毎朝[まいあさ]ゼロに合[あ]わせます。",
-     "vi": "Mỗi sáng chỉnh cân về 0.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:計量:けいりょう"
-   ]
-  }
- ]
+  ]
 }

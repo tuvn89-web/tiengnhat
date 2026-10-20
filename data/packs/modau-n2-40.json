@@ -1,0 +1,690 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n2-40",
+  "title": "Bài mở đầu N2 – bài 40: Thi N2 và chặng đường phía trước",
+  "type": "dialog",
+  "level": "N2",
+  "topics": [
+   "doisong",
+   "jlpt",
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n2-40",
+   "title": "Thi N2 và chặng đường phía trước",
+   "level": "N2",
+   "topics": [
+    "doisong",
+    "xuong",
+    "jlpt"
+   ],
+   "ctx": "xuong",
+   "lesson": "l:n2-40",
+   "intro": true,
+   "setting": "Từ những tuần ôn thi nước rút, ngày đi thi ở Kobe, những ngày chờ kết quả đến hôm nhận tin đỗ N2: anh Nguyễn cùng Hoa, chủ nhiệm Tanaka và trưởng phòng Nakamura nhìn lại chặng đường đã qua và nói về kế hoạch tương lai.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    },
+    {
+     "key": "H",
+     "name": "ホア",
+     "vi": "Đồng nghiệp"
+    },
+    {
+     "key": "A",
+     "name": "田中[たなか]主任[しゅにん]",
+     "vi": "Chủ nhiệm"
+    },
+    {
+     "key": "Z",
+     "name": "中村[なかむら]課長[かちょう]",
+     "vi": "Trưởng phòng"
+    }
+   ],
+   "turns": [
+    {
+     "who": "H",
+     "jp": "グエンさん、休憩[きゅうけい]中[ちゅう]も単語帳[たんごちょう]ですか。試験[しけん]まで、あと二週間[にしゅうかん]ですもんね。",
+     "vi": "Anh Nguyễn, giờ nghỉ cũng cầm sổ từ à. Còn hai tuần nữa là thi rồi nhỉ.",
+     "std": "グエンさん、休憩[きゅうけい]中[ちゅう]も単語帳[たんごちょう]ですか。試験[しけん]まで、あと二週間[にしゅうかん]ですからね。",
+     "grammar": [
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "単語帳[たんごちょう]",
+       "vi": "sổ từ vựng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "うん。もう追[お]い込[こ]みの時期[じき]だから、のんびりしてはいられないよ。",
+     "vi": "Ừ. Đang giai đoạn nước rút rồi, không thể thong thả được.",
+     "key": "追[お]い込[こ]み",
+     "note": "Vて + はいられない = không thể cứ … mãi, không thể ngồi yên … (tình hình gấp nên phải hành động ngay). Ví dụ: 試験[しけん]が近[ちか]いので、遊[あそ]んではいられない.",
+     "grammar": [
+      "g:〜の",
+      "g:〜から",
+      "g:〜てはいられない"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "模擬試験[もぎしけん]の結果[けっか]は、どうでした？",
+     "vi": "Kết quả thi thử thế nào anh?",
+     "key": "模擬試験[もぎしけん]",
+     "grammar": [
+      "g:〜の"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "読解[どっかい]と語彙[ごい]はまあまあだけど、聴解[ちょうかい]が弱点[じゃくてん]なんだ。得点[とくてん]が、なかなか伸[の]びなくて。",
+     "vi": "Đọc hiểu với từ vựng thì tạm được, nhưng nghe hiểu là điểm yếu. Điểm mãi không lên.",
+     "key": "弱点[じゃくてん]",
+     "grammar": [
+      "g:〜と",
+      "g:〜が・〜けど",
+      "g:〜て、〜"
+     ],
+     "gloss": [
+      {
+       "w": "まあまあ",
+       "vi": "tàm tạm"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "二人[ふたり]とも、何[なん]の話[はなし]？……ああ、N2か。過去問[かこもん]は、もうひととおりやったの？",
+     "vi": "Hai đứa nói chuyện gì thế? …… À, N2 hả. Đề các năm trước làm hết một lượt chưa?",
+     "key": "過去問[かこもん]",
+     "grammar": [
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "ひととおり",
+       "vi": "một lượt (từ đầu đến cuối)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。三年[さんねん]分[ぶん]をひととおり解[と]きました。今[いま]は、間違[まちが]えた問題[もんだい]を中心[ちゅうしん]に、徹底的[てっていてき]に総復習[そうふくしゅう]しています。",
+     "vi": "Rồi ạ. Em đã giải một lượt đề ba năm. Giờ em đang ôn tổng hợp thật kỹ, tập trung vào những câu làm sai.",
+     "key": "徹底的[てっていてき]",
+     "grammar": [
+      "g:〜を",
+      "g:〜を中心に（して）",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "ひととおり",
+       "vi": "một lượt (từ đầu đến cuối)"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "えらいね。聴解[ちょうかい]なら、昼休[ひるやす]みに、私[わたし]が問題[もんだい]を読[よ]んであげようか。",
+     "vi": "Giỏi đấy. Nghe hiểu thì giờ nghỉ trưa anh đọc đề cho mà nghe nhé?",
+     "grammar": [
+      "g:〜なら",
+      "g:〜に",
+      "g:〜を",
+      "g:〜てあげる"
+     ],
+     "gloss": [
+      {
+       "w": "えらい",
+       "vi": "giỏi (lời khen)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ありがとうございます。でも、主任[しゅにん]にそこまでしていただくには及[およ]びません。音声[おんせい]のアプリがありますから。",
+     "vi": "Cảm ơn anh. Nhưng không cần phiền anh đến mức đó đâu ạ. Em có ứng dụng nghe rồi.",
+     "note": "Vる / Danh từ + には及[およ]ばない = không cần phải …, chưa đến mức phải … (lịch sự; hay dùng để trấn an hoặc từ chối khéo lời đề nghị). Ví dụ: ご心配[しんぱい]には及[およ]びません = xin đừng lo.",
+     "alt": [
+      "ありがとうございます。でも、そこまでしていただかなくても大丈夫[だいじょうぶ]です。"
+     ],
+     "grammar": [
+      "g:〜に",
+      "g:〜には及ばない",
+      "g:〜があります・〜がいます",
+      "g:〜から"
+     ],
+     "gloss": [
+      {
+       "w": "音声[おんせい]",
+       "vi": "âm thanh"
+      },
+      {
+       "w": "アプリ",
+       "vi": "ứng dụng"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "そうか。でも、たまには息抜[いきぬ]きもしなよ。集中力[しゅうちゅうりょく]が続[つづ]かないからね。",
+     "vi": "Vậy à. Nhưng thỉnh thoảng cũng phải xả hơi chứ. Không thì sức tập trung không bền được.",
+     "key": "息抜[いきぬ]き",
+     "std": "そうか。でも、たまには息抜[いきぬ]きもしたほうがいいよ。集中力[しゅうちゅうりょく]が続[つづ]かないからね。",
+     "grammar": [
+      "g:〜も",
+      "g:〜から"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "グエンさん、おはようございます！受験票[じゅけんひょう]、ちゃんと持[も]ってきましたか。",
+     "vi": "Anh Nguyễn, chào buổi sáng! Mang phiếu dự thi đầy đủ chưa?",
+     "key": "受験票[じゅけんひょう]",
+     "grammar": [
+      "g:〜ていく・〜てくる"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "うん、三回[さんかい]確認[かくにん]した。ホアさんも、今日[きょう]はN3の本番[ほんばん]だね。",
+     "vi": "Ừ, kiểm tra ba lần rồi. Hôm nay Hoa cũng thi N3 thật nhỉ.",
+     "key": "本番[ほんばん]",
+     "grammar": [
+      "g:〜も"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "はい。なんだか、緊張[きんちょう]してきました……。",
+     "vi": "Vâng. Em bắt đầu thấy run rồi……",
+     "grammar": [
+      "g:〜ていく・〜てくる"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "大丈夫[だいじょうぶ]。今[いま]まで勉強[べんきょう]してきたことを、落[お]ち着[つ]いて発揮[はっき]すればいいんだよ。",
+     "vi": "Không sao. Cứ bình tĩnh phát huy những gì đã học là được.",
+     "key": "発揮[はっき]",
+     "grammar": [
+      "g:〜ていく・〜てくる",
+      "g:〜を",
+      "g:〜て、〜",
+      "g:〜ば"
+     ],
+     "gloss": [
+      {
+       "w": "今[いま]まで",
+       "vi": "đến giờ"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "終[お]わった……。聴解[ちょうかい]、難[むずか]しかったですね。私[わたし]、たぶんだめです。",
+     "vi": "Xong rồi…… Nghe hiểu khó nhỉ. Chắc em trượt rồi.",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "ホアさんは、模擬試験[もぎしけん]でもよくできていたから、心配[しんぱい]するには及[およ]ばないよ。",
+     "vi": "Hoa thi thử cũng làm tốt mà, không cần phải lo đâu.",
+     "alt": [
+      "ホアさんなら大丈夫[だいじょうぶ]だよ。心配[しんぱい]しなくていいよ。"
+     ],
+     "grammar": [
+      "g:〜で",
+      "g:〜も",
+      "g:〜ています",
+      "g:〜から",
+      "g:〜には及ばない"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "せっかく神戸[こうべ]まで来[き]たんだから、気分転換[きぶんてんかん]がてら、港[みなと]のほうを歩[ある]いて帰[かえ]ろうか。",
+     "vi": "Đã lên tận Kobe rồi, tiện đổi gió, mình đi bộ về phía cảng rồi hẵng về nhé.",
+     "note": "Danh từ chỉ hành động / Vます (bỏ ます) + がてら = tiện thể …, nhân tiện … (đi đâu đó và tận dụng chuyến đi làm luôn việc khác; vế sau thường là đi, ghé, về). Ví dụ: 散歩[さんぽ]がてら、パンを買[か]いに行[い]った.",
+     "grammar": [
+      "g:〜から〜まで",
+      "g:〜から",
+      "g:〜がてら",
+      "g:〜を",
+      "g:〜て、〜"
+     ],
+     "gloss": [
+      {
+       "w": "気分転換[きぶんてんかん]",
+       "vi": "đổi gió, thay đổi không khí"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "いいですね。南京町[なんきんまち]にも寄[よ]り道[みち]しましょう！",
+     "vi": "Hay đấy. Ghé cả phố người Hoa Nankinmachi nữa nhé!",
+     "key": "寄[よ]り道[みち]",
+     "grammar": [
+      "g:〜に",
+      "g:〜も",
+      "g:〜ましょう"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "グエンさん、最近[さいきん]、ため息[いき]が多[おお]いね。結果[けっか]が気[き]になるのか。",
+     "vi": "Nguyễn, dạo này hay thở dài nhỉ. Lo kết quả à?",
+     "grammar": [
+      "g:〜か"
+     ],
+     "gloss": [
+      {
+       "w": "気[き]になる",
+       "vi": "bận tâm, lo lắng"
+      },
+      {
+       "w": "ため息[いき]",
+       "vi": "tiếng thở dài"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。合否[ごうひ]が分[わ]かるのは、まだ先[さき]なんですが、どうしても気[き]になって。",
+     "vi": "Vâng. Biết đỗ hay trượt thì còn lâu, nhưng em cứ thấy bồn chồn.",
+     "key": "合否[ごうひ]",
+     "grammar": [
+      "g:〜の・〜こと（名詞化）",
+      "g:〜が・〜けど",
+      "g:〜て、〜"
+     ],
+     "gloss": [
+      {
+       "w": "まだ先[さき]",
+       "vi": "còn lâu mới tới"
+      },
+      {
+       "w": "気[き]になって",
+       "vi": "bận tâm, lo lắng"
+      },
+      {
+       "w": "分[わ]かる",
+       "vi": "hiểu"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "でも、ただ待[ま]ってはいられないので、もう次[つぎ]の勉強[べんきょう]を始[はじ]めました。",
+     "vi": "Nhưng không thể chỉ ngồi chờ, nên em đã bắt đầu học tiếp rồi.",
+     "alt": [
+      "でも、待[ま]っているだけではもったいないので、もう次[つぎ]の勉強[べんきょう]を始[はじ]めました。"
+     ],
+     "grammar": [
+      "g:〜てはいられない",
+      "g:〜ので",
+      "g:〜の",
+      "g:〜を"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "次[つぎ]って、N1かい？",
+     "vi": "Tiếp theo là N1 à?",
+     "grammar": [
+      "g:〜って（伝聞・話題）"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "それもありますが、まずは仕事[しごと]で使[つか]える日本語[にほんご]です。N2の文法[ぶんぽう]がちゃんと身[み]についたか、振[ふ]り返[かえ]っています。",
+     "vi": "Cũng có, nhưng trước hết là tiếng Nhật dùng được trong công việc. Em đang nhìn lại xem ngữ pháp N2 đã thật sự thấm chưa.",
+     "key": "身[み]についた",
+     "grammar": [
+      "g:〜も",
+      "g:〜が・〜けど",
+      "g:〜で",
+      "g:可能形（〜られる・〜える）",
+      "g:〜の",
+      "g:〜ています"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "なるほど。覚[おぼ]えたことを定着[ていちゃく]させて、現場[げんば]で応用[おうよう]する。それが一番[いちばん]だね。",
+     "vi": "Ra vậy. Làm cho điều đã học bám chắc, rồi áp dụng ở hiện trường. Thế là tốt nhất.",
+     "key": "定着[ていちゃく]",
+     "grammar": [
+      "g:〜を",
+      "g:使役形（〜させる）",
+      "g:〜て、〜",
+      "g:〜で",
+      "g:〜がいちばん"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "で、将来設計[しょうらいせっけい]は？いつかは帰国[きこく]するつもりなのか。",
+     "vi": "Thế còn kế hoạch tương lai? Có định một lúc nào đó về nước không?",
+     "key": "将来設計[しょうらいせっけい]",
+     "grammar": [
+      "g:〜つもりだ"
+     ],
+     "gloss": [
+      {
+       "w": "つもり",
+       "vi": "ý định"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "当面[とうめん]は、日本[にほん]で働[はたら]き続[つづ]けたいです。特定技能[とくていぎのう]二号[にごう]の試験[しけん]にも、挑戦[ちょうせん]したいと思[おも]っています。",
+     "vi": "Trước mắt em muốn tiếp tục làm việc ở Nhật. Em cũng định thử sức với kỳ thi kỹ năng đặc định số 2.",
+     "key": "当面[とうめん]",
+     "grammar": [
+      "g:〜で",
+      "g:〜始める・〜終わる・〜続ける",
+      "g:〜たい",
+      "g:〜の",
+      "g:〜に",
+      "g:〜も",
+      "g:〜と",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "特定技能[とくていぎのう]",
+       "vi": "kỹ năng đặc định (loại visa)"
+      },
+      {
+       "w": "二号[にごう]",
+       "vi": "số 2 (loại 2)"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "そうか。条件[じょうけん]や手続[てつづ]きは、山田[やまだ]さんに確認[かくにん]しておくといいよ。",
+     "vi": "Vậy à. Điều kiện với thủ tục thì nên hỏi trước chị Yamada bên Hành chính.",
+     "grammar": [
+      "g:〜に",
+      "g:〜ておく",
+      "g:〜と（条件）"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。班長[はんちょう]の仕事[しごと]はやりがいがありますし、ここでキャリアを積[つ]みたいんです。",
+     "vi": "Vâng. Việc tổ trưởng rất đáng làm, em muốn gây dựng sự nghiệp ở đây.",
+     "key": "やりがい",
+     "grammar": [
+      "g:〜の",
+      "g:〜し、〜し",
+      "g:〜で",
+      "g:〜を",
+      "g:〜たい"
+     ],
+     "gloss": [
+      {
+       "w": "みたい",
+       "vi": "hình như; giống như"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "主任[しゅにん]！合格[ごうかく]しました！",
+     "vi": "Anh ơi! Em đỗ rồi!",
+     "grammar": []
+    },
+    {
+     "who": "A",
+     "jp": "おめでとう！よく頑張[がんば]ったな。",
+     "vi": "Chúc mừng! Cố gắng giỏi lắm.",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "昼休[ひるやす]みに銀行[ぎんこう]へ行[い]きがてら、みんなにケーキを買[か]ってきました。",
+     "vi": "Giờ nghỉ trưa tiện đi ngân hàng, em mua bánh ngọt về cho mọi người.",
+     "grammar": [
+      "g:〜に",
+      "g:〜へ",
+      "g:〜がてら",
+      "g:〜を",
+      "g:〜ていく・〜てくる"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "わあ、ありがとうございます！グエンさん、もしかして満点[まんてん]ですか。",
+     "vi": "Oa, cảm ơn anh! Anh Nguyễn, không lẽ được điểm tối đa?",
+     "key": "満点[まんてん]",
+     "grammar": [
+      "g:〜か"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "まさか。満点[まんてん]には遠[とお]いよ。でも、読解[どっかい]の得点[とくてん]は、思[おも]ったより高[たか]かった。",
+     "vi": "Làm gì có. Còn xa điểm tối đa lắm. Nhưng điểm đọc hiểu cao hơn anh nghĩ.",
+     "key": "得点[とくてん]",
+     "grammar": [
+      "g:〜に",
+      "g:〜の",
+      "g:〜と"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "実[じつ]は私[わたし]も、N3合格[ごうかく]でした！グエンさんに負[ま]けてはいられないので、次[つぎ]はN2です。",
+     "vi": "Thật ra em cũng đỗ N3 rồi! Không thể chịu thua anh Nguyễn được, nên lần tới em thi N2.",
+     "grammar": [
+      "g:〜も",
+      "g:〜に",
+      "g:〜てはいられない",
+      "g:〜ので"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "グエンさん、合格[ごうかく]おめでとうございます。",
+     "vi": "Anh Nguyễn, chúc mừng anh thi đỗ.",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "課長[かちょう]、ありがとうございます。わざわざ来[き]てくださって、すみません。",
+     "vi": "Cảm ơn trưởng phòng. Trưởng phòng cất công đến tận đây, tôi ngại quá.",
+     "key": "わざわざ",
+     "grammar": [
+      "g:〜てくれる",
+      "g:〜て、〜"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "いえ、ついでですよ。現場[げんば]の様子[ようす]を見[み]がてら、立[た]ち寄[よ]っただけです。",
+     "vi": "Không, tiện thôi mà. Tôi tiện xem tình hình hiện trường nên ghé qua thôi.",
+     "key": "立[た]ち寄[よ]った",
+     "grammar": [
+      "g:〜の",
+      "g:〜を",
+      "g:〜がてら"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "課長[かちょう]にも、いろいろお世話[せわ]になりました。本当[ほんとう]にありがとうございました。",
+     "vi": "Tôi cũng được trưởng phòng giúp đỡ rất nhiều. Thật sự cảm ơn trưởng phòng.",
+     "grammar": [
+      "g:〜に",
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "お世話[せわ]になりました",
+       "vi": "đã được giúp đỡ nhiều"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "お礼[れい]には及[およ]びませんよ。N2を取得[しゅとく]できたのは、グエンさん自身[じしん]の努力[どりょく]ですから。",
+     "vi": "Không cần cảm ơn đâu. Lấy được N2 là nhờ nỗ lực của chính anh.",
+     "key": "取得[しゅとく]",
+     "grammar": [
+      "g:〜には及ばない",
+      "g:〜を",
+      "g:可能形（〜られる・〜える）",
+      "g:〜の・〜こと（名詞化）",
+      "g:〜から"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "これで、一区切[ひとくぎ]りだね。今夜[こんや]は、ゆっくり休[やす]むといい。",
+     "vi": "Thế là xong một chặng. Tối nay cứ nghỉ ngơi thong thả.",
+     "grammar": [
+      "g:〜で",
+      "g:〜と（条件）"
+     ],
+     "gloss": [
+      {
+       "w": "一区切[ひとくぎ]り",
+       "vi": "xong một chặng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。今夜[こんや]は久[ひさ]しぶりに自炊[じすい]して、ベトナム料理[りょうり]を作[つく]ります。",
+     "vi": "Vâng. Tối nay lâu lắm em mới tự nấu, làm món Việt.",
+     "key": "自炊[じすい]",
+     "grammar": [
+      "g:〜に",
+      "g:〜て、〜",
+      "g:〜を"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "いいね。でも、N2はゴールじゃないぞ。引[ひ]き続[つづ]き、班長[はんちょう]としてよろしく頼[たの]むよ。",
+     "vi": "Hay đấy. Nhưng N2 chưa phải là đích đâu nhé. Tiếp tục làm tổ trưởng cho tốt nhé.",
+     "key": "引[ひ]き続[つづ]き",
+     "grammar": [
+      "g:〜として"
+     ],
+     "gloss": [
+      {
+       "w": "よろしく頼[たの]む",
+       "vi": "nhờ cậy cả vào (cậu)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。N2はスタートです。いつか、この仕事[しごと]が自分[じぶん]の生[い]きがいだと言[い]えるように、毎日[まいにち]を充実[じゅうじつ]させたいです。",
+     "vi": "Vâng. N2 mới là điểm xuất phát. Em muốn sống mỗi ngày thật trọn vẹn, để một ngày có thể nói công việc này là lẽ sống của mình.",
+     "key": "充実[じゅうじつ]",
+     "alt": [
+      "はい。N2はスタートだと思[おも]っています。毎日[まいにち]を充実[じゅうじつ]させて、いつかこの仕事[しごと]が生[い]きがいだと言[い]えるようになりたいです。"
+     ],
+     "grammar": [
+      "g:〜の",
+      "g:〜と",
+      "g:可能形（〜られる・〜える）",
+      "g:〜ように（目的）",
+      "g:〜を",
+      "g:使役形（〜させる）",
+      "g:〜たい"
+     ],
+     "gloss": [
+      {
+       "w": "スタート",
+       "vi": "điểm xuất phát"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Hai tuần trước kỳ thi, anh Nguyễn thấy mình yếu nhất ở phần nào?",
+     "opts": [
+      "Nghe hiểu",
+      "Đọc hiểu",
+      "Từ vựng",
+      "Chữ Hán"
+     ],
+     "ans": 0,
+     "why": "読解[どっかい]と語彙[ごい]はまあまあだけど、聴解[ちょうかい]が弱点[じゃくてん]なんだ。"
+    },
+    {
+     "q": "\"主任[しゅにん]にそこまでしていただくには及[およ]びません\" — anh Nguyễn muốn nói gì?",
+     "opts": [
+      "Khéo léo từ chối vì không cần phiền chủ nhiệm đến mức đó",
+      "Nhờ chủ nhiệm đọc đề giúp ngay",
+      "Chê chủ nhiệm đọc không hay",
+      "Nói rằng mình không theo kịp chủ nhiệm"
+     ],
+     "ans": 0,
+     "why": "〜には及[およ]ばない = không cần phải … (lịch sự, dùng để từ chối khéo)."
+    },
+    {
+     "q": "Thi xong, anh Nguyễn rủ Hoa làm gì?",
+     "opts": [
+      "Tiện đổi gió, đi bộ về phía cảng rồi về",
+      "Về thẳng ký túc xá",
+      "Đi làm ca chiều",
+      "Ở lại ôn bài"
+     ],
+     "ans": 0,
+     "why": "気分転換[きぶんてんかん]がてら、港[みなと]のほうを歩[ある]いて帰[かえ]ろうか。"
+    },
+    {
+     "q": "Trong lúc chờ kết quả, anh Nguyễn làm gì?",
+     "opts": [
+      "Bắt đầu học tiếp vì không thể chỉ ngồi chờ",
+      "Nghỉ học hẳn cho thoải mái",
+      "Ngày nào cũng gọi hỏi kết quả",
+      "Xin nghỉ phép về nước"
+     ],
+     "ans": 0,
+     "why": "ただ待[ま]ってはいられないので、もう次[つぎ]の勉強[べんきょう]を始[はじ]めました。"
+    },
+    {
+     "q": "Trước mắt, anh Nguyễn định thế nào?",
+     "opts": [
+      "Tiếp tục làm ở Nhật và thử sức kỳ thi kỹ năng đặc định số 2",
+      "Về nước ngay",
+      "Chuyển sang công ty khác",
+      "Nghỉ làm để học N1"
+     ],
+     "ans": 0,
+     "why": "当面[とうめん]は、日本[にほん]で働[はたら]き続[つづ]けたいです。特定技能[とくていぎのう]二号[にごう]の試験[しけん]にも、挑戦[ちょうせん]したいと思[おも]っています。"
+    }
+   ]
+  }
+ ]
+}

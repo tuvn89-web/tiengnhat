@@ -641,3 +641,42 @@ Rà lại nghĩa mà app tự ghép cho các thể (có thể …, đã …, đa
 - Chữ người Nhật hay viết bằng kana (けんか, まぶしい, ほうき, つまずく, しつけ…) có ghi "thường viết …" trong ghi chú. 躾 là chữ người Nhật tự đặt, app tạm đọc MỸ.
 
 **Tệp thay đổi**: `data/packs/chuhan-48.json`, `chuhan-49.json`, `chuhan-50.json` (mới), `data/manifest.json`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.
+
+## 45. Bản v36 (20/10/2026): giáo trình N2 đủ 40 bài
+
+- **Giáo trình N2 (gói `baihoc-n2`)**: 40 bài theo mẫu ngữ pháp, mỗi bài có bài mở đầu, ngữ pháp, từ vựng và 5 chữ Hán mới. Trước đây N2 chỉ có bài tự sinh; nay giống N3.
+  - Ngữ pháp: 40 gói `nguphap-n2-01` … `40`, **120 mẫu** (〜上で, 〜に際して, 〜あげく, 〜ばかりに, 〜限り, 〜にかかわらず, 〜に基づいて, 〜をめぐって, 〜かねない, 〜ざるを得ない, 〜ものの, 〜ことか, 〜つつ, 〜ものとする…). Mỗi mẫu đủ 7 phần và 10 câu ví dụ, có dữ liệu cho các bài tập.
+  - Từ vựng: 40 gói `jlpt-n2-01` … `40`, **1.943 từ** theo chủ đề từng bài (hợp đồng, an toàn, đơn hàng, tuyển dụng, thuế và bảo hiểm, nội quy…). Câu ví dụ sát việc ở xưởng thủy sản, giấy tờ và đời sống ở Hyogo.
+  - Bài mở đầu: 40 gói `modau-n2-01` … `40` (34 hội thoại, 6 bài đọc: thông báo thi công, bài báo kinh tế Hyogo, bản tin, thư trang trọng, thông báo của tòa thị chính, thông báo sửa nội quy). Câu chuyện nối tiếp: anh Nguyễn làm tổ trưởng, ôn và thi N2. Mỗi bài có 5 câu hỏi.
+- **Thẻ chữ Hán**: thêm 9 gói `chuhan-51` … `chuhan-59`, tổng **256 thẻ**, gồm mọi chữ trong từ và câu N2 và các chữ thường dùng còn thiếu (竹, 往, 系, 童, 透, 露…). Có thêm chữ ngành thủy sản 鯛, 蟹, 鰹, 苔, 昆.
+- **Sửa âm Hán Việt** của chữ nhiều âm ở 49 từ cũ, ví dụ:
+  - 流行 LƯU HÀNH, 行動 HÀNH ĐỘNG, 計画 KẾ HOẠCH;
+  - 社長 XÃ TRƯỞNG, 成長 THÀNH TRƯỞNG, 楽しい LẠC;
+  - 貿易 MẬU DỊCH, 首相 THỦ TƯỚNG, 適当 THÍCH ĐÁNG, 食中毒 THỰC TRÚNG ĐỘC, 興味 HỨNG VỊ…
+- **Chạm vào câu để xem nghĩa từ**: câu có 行きます, 休みたい, 思います trước đây bị dò thành danh từ (行き "lượt đi", 休み "ngày nghỉ"). Nay app nhận đúng là động từ 行く, 休む, 思う.
+
+**Tệp thay đổi**: 
+- Gói mới: `data/packs/baihoc-n2.json`, `nguphap-n2-*.json`, `jlpt-n2-*.json`, `modau-n2-*.json`, `chuhan-51` … `chuhan-59.json`.
+- Gói sửa âm Hán Việt: 24 gói từ vựng N3, N4, thủy sản và xưởng.
+- Khác: `data/manifest.json`, `js/explain.js`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.
+
+## 46. Bản v37 (20/10/2026): hiệu ứng mượt theo tần số quét màn hình (60 / 90 / 120 Hz)
+
+- **Hiệu ứng nền**: trước đây tối đa 30 khung/giây. Nay vẽ theo tần số quét của màn hình: 60, 90, 120 Hz… thì vẽ đủ bấy nhiêu khung mỗi giây.
+  - App tự đo tần số quét khi mở và khi đổi màn hình.
+  - Ở Cài đặt → "Khung hình hiệu ứng nền" (hoặc bảng "Bật / tắt hiệu ứng nền") chọn được: **Theo màn hình** (mặc định), **60**, **90**, **120**. Chọn số nhỏ để đỡ tốn pin. Chọn số lớn hơn màn hình thì chạy tối đa bằng màn hình.
+  - Có dòng đo trực tiếp, ví dụ: "Màn hình ~120 Hz · nền đang vẽ 120 khung/giây".
+  - Tốc độ rơi, gió, pháo hoa tính theo thời gian thật, nên ở 60, 90 hay 120 khung trông như nhau, chỉ mượt hơn.
+  - Máy không theo kịp (vẽ một khung tốn quá nửa thời gian cho phép, liên tục khoảng 1,5 giây) thì app tự giảm độ nét và số hạt một bậc, đỡ giật.
+  - Vẽ nhẹ hơn: hạt vẽ sẵn thành ảnh nhỏ; sao gom theo độ sáng, mỗi nhóm tô một lần.
+- **Chuyển trang, bảng chi tiết, màn kết quả** chạy hoàn toàn trên GPU, theo tần số quét màn hình.
+  - Trang mới hiện bằng mờ + dịch (transform) thay vì đổi vị trí `top` (trước đây trình duyệt phải dựng lại bố cục mỗi khung).
+  - Bảng chi tiết chờ dựng xong nội dung (2 khung) rồi mới trượt lên. Trên điện thoại bảng chỉ trượt, không phóng to, nên chữ nét và mượt hơn.
+  - Nút nổi nhấc lên bằng translate. Đáp án đúng chỉ phóng nhẹ, bỏ vầng bóng phải vẽ lại mỗi khung.
+- **Trang nặng mở nhanh hơn**: trang Chữ Hán (1.743 thẻ) chia khối 60 chữ, và các danh sách dài (Ngữ pháp, Từ vựng…) chỉ dựng phần đang thấy trên màn hình. Đo trên máy giả lập điện thoại chậm:
+  - Chữ Hán: thời gian dựng bố cục từ 373 ms còn 29 ms; khung giật dài nhất khi mở trang từ 650 ms còn 117 ms.
+  - Ngữ pháp: 146 ms còn 37 ms.
+
+**Lưu ý**: một số điện thoại khóa trình duyệt ở 60 Hz khi bật tiết kiệm pin hoặc chế độ "tần số quét tiêu chuẩn". Khi đó dòng đo hiện "~60 Hz"; tắt tiết kiệm pin hoặc chọn "tần số quét cao / thích ứng" trong cài đặt màn hình của máy.
+
+**Tệp thay đổi**: `js/season.js`, `js/fxpanel.js`, `js/settingspage.js`, `js/settings.js`, `js/ui.js`, `js/kanji.js`, `css/app.css`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.

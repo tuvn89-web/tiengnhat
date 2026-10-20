@@ -291,6 +291,8 @@ legend small { font-weight: 400; color: var(--ink-2); }
 
 /* ---------- danh sách ---------- */
 .rows { list-style: none; padding: 0; margin: 0; }
+/* v37: danh sách dài — dòng nằm ngoài màn hình trình duyệt bỏ qua khi dựng trang (mở trang Ngữ pháp, Từ vựng nhanh hơn, cuộn mượt) */
+.rows > li { content-visibility: auto; contain-intrinsic-size: auto 58px; }
 .row { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 52px; padding: 10px 4px; border: 0; border-bottom: 1px solid var(--line); background: none; text-align: left; color: var(--ink); text-decoration: none; cursor: pointer; }
 .row-jp { flex: 0 0 auto; min-width: 38%; font-size: 1.15em; line-height: 1.7; }
 .row-vi { flex: 1; color: var(--ink-2); }
@@ -455,6 +457,7 @@ button.ksim-c { cursor: pointer; border-color: var(--blue); }
 
 /* trang Chữ Hán */
 .kgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 10px; margin-top: 10px; }
+.kchunk { content-visibility: auto; contain-intrinsic-size: auto 1000px; } /* v37: khối 60 chữ */
 .ktile { position: relative; display: grid; justify-items: center; gap: 2px; padding: 10px 4px 8px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); cursor: pointer; }
 .ktile-c { font-family: var(--jp); font-size: 2.3em; line-height: 1.1; }
 .ktile-hv { font-size: .78em; font-weight: 700; letter-spacing: .03em; }
@@ -898,8 +901,11 @@ html[data-season] .sheet, html[data-season] .nav { background: var(--surface-sol
 .season-x { font-size: .9em; color: var(--ink-2); }
 
 /* ---- v31: chuyển động mượt (tắt khi máy bật "giảm chuyển động" hoặc tắt ở Cài đặt → html.calm) ---- */
-/* trang mới: trượt bằng top (không dùng transform để thanh nút cố định bên trong không bị lệch) */
-html:not(.calm) .page { position: relative; animation: tnEnter .32s cubic-bezier(.2, .7, .2, 1) both; }
+/* v37: trang mới hiện bằng độ mờ + dịch (transform) — chạy trên GPU theo tần số quét màn hình (60 / 90 / 120 Hz), không bắt trình duyệt dựng lại bố cục mỗi khung.
+   Trang có thanh nút cố định (.next-bar) thì chỉ mờ dần: transform trên trang sẽ kéo thanh cố định lệch chỗ trong lúc chạy. */
+html:not(.calm) .page { animation: tnPageIn .34s cubic-bezier(.2, .7, .2, 1) backwards; }
+html:not(.calm) .page:has(.next-bar) { animation: tnFadeIn .26s ease-out backwards; }
+@keyframes tnPageIn { from { opacity: 0; transform: translate3d(0, 14px, 0); } to { opacity: 1; transform: none; } }
 /* v32: màn kết quả, bảng chi tiết hiện mượt hơn — phóng từ nhỏ ra, chậm dần về cuối (không nảy), độ mờ tách riêng; các dòng kết quả nối nhau hiện lên */
 html:not(.calm) .result { animation: tnGrow .62s cubic-bezier(.16, 1, .3, 1) both, tnFadeIn .32s ease-out both; transform-origin: 50% 22%; }
 html:not(.calm) .result > * { animation: tnRise .55s cubic-bezier(.16, 1, .3, 1) both; }
@@ -909,13 +915,17 @@ html:not(.calm) .result > :nth-child(4) { animation-delay: .18s; }
 html:not(.calm) .result > :nth-child(5) { animation-delay: .24s; }
 html:not(.calm) .result > :nth-child(n+6) { animation-delay: .3s; }
 html:not(.calm) .sheet-wrap { animation: tnFadeIn .3s ease-out both; }
-html:not(.calm) .sheet { animation: tnSheet .58s cubic-bezier(.16, 1, .3, 1) both, tnFadeIn .26s ease-out both; transform-origin: 50% 100%; }
-@media (min-width: 700px) { html:not(.calm) .sheet { animation-name: tnGrow, tnFadeIn; transform-origin: 50% 50%; } }
+html:not(.calm) .sheet { animation: tnSheet .48s cubic-bezier(.16, 1, .3, 1) both, tnFadeIn .22s ease-out both; transform-origin: 50% 100%; }
+@media (min-width: 700px) { html:not(.calm) .sheet { animation-name: tnSheetD, tnFadeIn; transform-origin: 50% 50%; } }
+/* v37: chưa dựng xong nội dung thì đứng chờ ở khung đầu (ẩn), dựng xong mới chạy */
+html:not(.calm) .sheet-wrap.tn-wait, html:not(.calm) .sheet-wrap.tn-wait .sheet { animation-play-state: paused; }
 html:not(.calm) .sheet-wrap.is-closing { animation: tnFadeOut .26s ease-in both; pointer-events: none; }
 html:not(.calm) .sheet-wrap.is-closing .sheet { animation: tnSheetOut .26s cubic-bezier(.4, 0, .9, .6) both; }
-@keyframes tnGrow { from { transform: translateY(12px) scale(.82); } to { transform: none; } }
-@keyframes tnSheet { from { transform: translateY(36px) scale(.86); } to { transform: none; } }
-@keyframes tnSheetOut { from { opacity: 1; transform: none; } to { opacity: 0; transform: translateY(20px) scale(.93); } }
+@keyframes tnGrow { from { transform: translate3d(0, 14px, 0) scale(.9); } to { transform: none; } }
+/* v37: bảng trên điện thoại chỉ trượt lên (không phóng to) — chữ không phải vẽ lại theo cỡ mỗi khung, mượt và nét hơn */
+@keyframes tnSheet { from { transform: translate3d(0, 56px, 0); } to { transform: none; } }
+@keyframes tnSheetD { from { transform: translate3d(0, 18px, 0) scale(.96); } to { transform: none; } }
+@keyframes tnSheetOut { from { opacity: 1; transform: none; } to { opacity: 0; transform: translate3d(0, 28px, 0); } }
 @keyframes tnFadeIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes tnFadeOut { from { opacity: 1; } to { opacity: 0; } }
 @media (min-width: 700px) { html:not(.calm) .sheet { transform-origin: 50% 50%; } }
@@ -928,13 +938,12 @@ html:not(.calm) .opt, html:not(.calm) .btn { transition: transform .12s ease, ba
 html:not(.calm) .opt.is-ok { animation: tnOk .45s ease; }
 html:not(.calm) .opt.is-ng { animation: tnShake .38s ease; }
 html:not(.calm) .kfam-g[open] .kgrid, html:not(.calm) details[open] > *:not(summary) { animation: tnRise .25s ease both; }
-@keyframes tnEnter { from { opacity: 0; top: 14px; } to { opacity: 1; top: 0; } }
 @keyframes tnZoom { from { opacity: 0; transform: scale(.6); } 70% { opacity: 1; } to { opacity: 1; transform: none; } }
 @keyframes tnPop { from { opacity: 0; transform: scale(.94); } to { opacity: 1; transform: none; } }
 @keyframes tnRise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 @keyframes tnBar { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
 @keyframes tnFade { from { opacity: 0; } to { opacity: 1; } }
-@keyframes tnOk { 0% { transform: scale(1); } 40% { transform: scale(1.03); box-shadow: 0 0 0 6px color-mix(in srgb, var(--ok) 28%, transparent); } 100% { transform: scale(1); box-shadow: 0 0 0 0 transparent; } }
+@keyframes tnOk { 0% { transform: scale(1); } 40% { transform: scale(1.035); } 100% { transform: scale(1); } } /* v37: chỉ phóng nhẹ (GPU), bỏ vầng bóng phải vẽ lại mỗi khung */
 @keyframes tnShake { 0%, 100% { transform: none; } 20% { transform: translateX(-6px); } 40% { transform: translateX(5px); } 60% { transform: translateX(-3px); } 80% { transform: translateX(2px); } }
 /* bảng cài đặt hiệu ứng */
 .fx-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 2px 12px; }
@@ -952,8 +961,9 @@ html:not(.calm) .kfam-g[open] .kgrid, html:not(.calm) details[open] > *:not(summ
 .fx-fab:hover, .fx-fab:focus-visible { opacity: 1; }
 /* khay nút hiện (sau khi trả lời, màn học…) thì nút nổi lên trên khay; lúc đang hỏi thì nằm sát thanh công cụ */
 body:has(#view .next-bar, #view .heart-bar) .fx-fab,
-body:has(#view .next-bar, #view .heart-bar) .back-fab:not(.is-free) { bottom: calc(var(--tray-b) + var(--tray-real, var(--tray-h)) + 8px); }
-html:not(.calm) .fx-fab, html:not(.calm) .back-fab { transition: bottom .25s cubic-bezier(.2, .8, .2, 1), transform .15s ease, opacity .15s ease, box-shadow .15s ease; }
+body:has(#view .next-bar, #view .heart-bar) .back-fab:not(.is-free) { translate: 0 calc(-1 * var(--tray-real, var(--tray-h))); }
+/* v37: nút nổi nhấc lên bằng translate (GPU) thay vì đổi bottom — không bắt dựng lại bố cục mỗi khung */
+html:not(.calm) .fx-fab, html:not(.calm) .back-fab { transition: translate .25s cubic-bezier(.2, .8, .2, 1), transform .15s ease, opacity .15s ease, box-shadow .15s ease; }
 html:not(.calm) .fx-fab:active { transform: scale(.94); }
 /* Ôn nhanh 3 phút (đáp án dồn xuống nửa dưới): chừa chỗ cho các nút nổi */
 .run-quick .opts { padding-bottom: max(8px, calc(var(--fab-sp, 0px) - 12px)); }

@@ -1,0 +1,702 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n2-35",
+  "title": "Bài mở đầu N2 – bài 35: Tuần bận tối mắt trước mùa cuối năm",
+  "type": "dialog",
+  "level": "N2",
+  "topics": [
+   "doisong",
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n2-35",
+   "title": "Tuần bận tối mắt trước mùa cuối năm",
+   "level": "N2",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "ctx": "xuong",
+   "lesson": "l:n2-35",
+   "intro": true,
+   "setting": "Gần cuối năm, đơn hàng ở xưởng đổ về liên tiếp. Chủ nhiệm Tanaka vừa lo việc xưởng vừa lo con nhỏ, trưởng phòng Nakamura hỏi anh Nguyễn nhận xét từng người trong tổ, rồi một khách hàng bên siêu thị đến nếm thử sản phẩm mới.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    },
+    {
+     "key": "H",
+     "name": "ホア",
+     "vi": "Đồng nghiệp"
+    },
+    {
+     "key": "S",
+     "name": "鈴木[すずき]さん",
+     "vi": "Phụ trách máy"
+    },
+    {
+     "key": "A",
+     "name": "田中[たなか]主任[しゅにん]",
+     "vi": "Chủ nhiệm"
+    },
+    {
+     "key": "Z",
+     "name": "中村[なかむら]課長[かちょう]",
+     "vi": "Trưởng phòng"
+    },
+    {
+     "key": "M",
+     "name": "森[もり]さん",
+     "vi": "Khách hàng (siêu thị)"
+    }
+   ],
+   "turns": [
+    {
+     "who": "H",
+     "jp": "グエンさん、今週[こんしゅう]の注文[ちゅうもん]、見[み]ました？年末[ねんまつ]前[まえ]で、もう注文[ちゅうもん]が相[あい]次[つ]いでいますよ。",
+     "vi": "Anh Nguyễn, anh xem đơn hàng tuần này chưa? Sắp cuối năm nên đơn đổ về liên tiếp rồi.",
+     "key": "相[あい]次[つ]いで",
+     "grammar": [
+      "g:〜の",
+      "g:〜で",
+      "g:〜ています"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "うん、先週[せんしゅう]の倍[ばい]だ。今週[こんしゅう]は大忙[おおいそが]しになりそうだね。",
+     "vi": "Ừ, gấp đôi tuần trước. Tuần này chắc bận tối mắt đây.",
+     "key": "大忙[おおいそが]し",
+     "grammar": [
+      "g:〜の",
+      "g:〜は〜です",
+      "g:〜くなる・〜になる",
+      "g:〜そうだ（様態）"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "朝[あさ]から、ラベルの貼[は]り替[か]えやら、箱[はこ]の組[く]み立[た]てやらで、もう目[め]が回[まわ]りそうです。",
+     "vi": "Từ sáng nào là dán lại nhãn, nào là gấp thùng, em hoa cả mắt rồi.",
+     "key": "目[め]が回[まわ]り",
+     "note": "N / Vる / tính từ + やら、… + やら = nào là… nào là… (kể vài thứ tiêu biểu, ngụ ý còn nhiều thứ khác; thường kèm cảm giác bề bộn, vất vả hoặc cảm xúc lẫn lộn). Hay kết thúc bằng 〜やら〜やらで + 忙[いそが]しい / 大変[たいへん]だ.",
+     "grammar": [
+      "g:〜から",
+      "g:〜の",
+      "g:〜やら〜やら",
+      "g:〜で",
+      "g:〜そうだ（様態）"
+     ],
+     "gloss": [
+      {
+       "w": "貼[は]り替[か]え",
+       "vi": "dán lại"
+      },
+      {
+       "w": "組[く]み立[た]て",
+       "vi": "lắp, gấp (thùng)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "鈴木[すずき]さん、Bラインの機械[きかい]は、どうですか。",
+     "vi": "Anh Suzuki, máy ở dây chuyền B thế nào rồi ạ?",
+     "grammar": [
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "点検[てんけん]やら部品[ぶひん]の交換[こうかん]やらで、今日[きょう]は手[て]が離[はな]せないんだ。午後[ごご]まで待[ま]ってくれる？",
+     "vi": "Nào là kiểm tra, nào là thay linh kiện, hôm nay tôi không dứt tay ra được. Đợi đến chiều được không?",
+     "key": "手[て]が離[はな]せない",
+     "grammar": [
+      "g:〜やら〜やら",
+      "g:〜の",
+      "g:〜で",
+      "g:〜から〜まで",
+      "g:〜てくれる"
+     ],
+     "gloss": [
+      {
+       "w": "部品[ぶひん]",
+       "vi": "linh kiện"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "分[わ]かりました。じゃあ、午前中[ごぜんちゅう]はAラインだけで回[まわ]しましょう。",
+     "vi": "Vâng. Vậy buổi sáng mình chạy mỗi dây chuyền A thôi.",
+     "grammar": [
+      "g:〜で",
+      "g:〜ましょう"
+     ],
+     "gloss": [
+      {
+       "w": "ライン",
+       "vi": "dây chuyền"
+      },
+      {
+       "w": "午前中[ごぜんちゅう]",
+       "vi": "buổi sáng"
+      },
+      {
+       "w": "分[わ]かりました",
+       "vi": "tôi hiểu rồi"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ほかに手伝[てつだ]えることがあったら、言[い]ってください。",
+     "vi": "Có việc gì khác em giúp được thì anh cứ nói nhé.",
+     "grammar": [
+      "g:可能形（〜られる・〜える）",
+      "g:〜たら",
+      "g:〜てください"
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "ありがとう。グエンさんは、いつも気[き]さくに声[こえ]をかけてくれるから、助[たす]かるよ。",
+     "vi": "Cảm ơn nhé. Nguyễn lúc nào cũng xởi lởi hỏi han nên đỡ cho tôi lắm.",
+     "key": "気[き]さく",
+     "grammar": [
+      "g:〜に",
+      "g:〜てくれる",
+      "g:〜から"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "慌[あわ]ただしい時[とき]ほど、班長[はんちょう]の指示[しじ]が速[はや]くて、頼[たよ]りになりますね。",
+     "vi": "Càng lúc tất bật, tổ trưởng chỉ đạo càng nhanh, đáng tin thật đấy.",
+     "key": "慌[あわ]ただしい",
+     "grammar": [
+      "g:〜の",
+      "g:〜て、〜",
+      "g:〜に"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "田中[たなか]さん、顔色[かおいろ]が悪[わる]いですよ。大丈夫[だいじょうぶ]ですか。",
+     "vi": "Anh Tanaka, sắc mặt anh kém quá. Anh có sao không?",
+     "grammar": [
+      "g:〜が・〜けど"
+     ],
+     "gloss": [
+      {
+       "w": "顔色[かおいろ]",
+       "vi": "sắc mặt"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "ああ……。今週[こんしゅう]は妻[つま]が出張[しゅっちょう]でね。うちは共働[ともばたら]きやから、家[いえ]のことが全部[ぜんぶ]ぼくに回[まわ]ってくるんや。",
+     "vi": "À… Tuần này vợ anh đi công tác. Nhà anh hai vợ chồng cùng đi làm, nên việc nhà dồn hết cho anh.",
+     "key": "共働[ともばたら]き",
+     "std": "今週[こんしゅう]は妻[つま]が出張[しゅっちょう]でね。うちは共働[ともばたら]きだから、家[いえ]のことが全部[ぜんぶ]私[わたし]に回[まわ]ってくるんだ。",
+     "grammar": [
+      "g:〜で",
+      "g:〜から",
+      "g:〜の",
+      "g:〜に",
+      "g:〜ていく・〜てくる"
+     ],
+     "gloss": [
+      {
+       "w": "出張[しゅっちょう]",
+       "vi": "đi công tác"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "朝[あさ]は子[こ]どもの送[おく]り迎[むか]えもあれば、夜[よる]は夕飯[ゆうはん]の支度[したく]もある。",
+     "vi": "Sáng thì có đưa đón con, tối lại còn nấu cơm.",
+     "key": "送[おく]り迎[むか]え",
+     "note": "N1 も + thể ば… N2 も… = cũng… mà cũng…, có… lại có… (nêu hai điều cùng tồn tại; ở đây ば không mang nghĩa \"nếu\"). Động từ: あれば / いれば; tính từ い: 〜ければ (いい → よければ); tính từ な, danh từ: 〜なら. Ví dụ: 雨[あめ]も降[ふ]れば風[かぜ]も吹[ふ]く.",
+     "grammar": [
+      "g:〜の",
+      "g:〜も〜ば〜も"
+     ],
+     "gloss": [
+      {
+       "w": "夕飯[ゆうはん]",
+       "vi": "bữa tối"
+      }
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "上[うえ]の子[こ]の宿題[しゅくだい]やら、末[すえ]っ子[こ]のお風呂[ふろ]やらで、毎晩[まいばん]ばたばたや。",
+     "vi": "Nào là xem bài cho đứa lớn, nào là tắm cho đứa út, tối nào cũng chạy cuống lên.",
+     "key": "末[すえ]っ子[こ]",
+     "std": "上[うえ]の子[こ]の宿題[しゅくだい]やら、末[すえ]っ子[こ]のお風呂[ふろ]やらで、毎晩[まいばん]ばたばただ。",
+     "grammar": [
+      "g:〜の",
+      "g:〜やら〜やら",
+      "g:〜で"
+     ],
+     "gloss": [
+      {
+       "w": "ばたばた",
+       "vi": "tất bật, chạy cuống"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "大変[たいへん]ですね。仕事[しごと]と育児[いくじ]の両立[りょうりつ]って、本当[ほんとう]に難[むずか]しいんですね。",
+     "vi": "Vất vả quá. Vừa làm vừa nuôi con nhỏ đúng là khó thật.",
+     "key": "両立[りょうりつ]",
+     "grammar": [
+      "g:〜と",
+      "g:〜の",
+      "g:〜って（伝聞・話題）"
+     ],
+     "gloss": [
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "日報[にっぽう]やら在庫[ざいこ]の確認[かくにん]やら、細[こま]かい雑務[ざつむ]は、今週[こんしゅう]はぼくがやります。",
+     "vi": "Mấy việc giấy tờ lặt vặt như báo cáo ngày, kiểm tra hàng tồn, tuần này để em làm.",
+     "key": "雑務[ざつむ]",
+     "alt": [
+      "日報[にっぽう]や在庫[ざいこ]の確認[かくにん]などの雑務[ざつむ]は、今週[こんしゅう]は私[わたし]がやります。"
+     ],
+     "grammar": [
+      "g:〜やら〜やら",
+      "g:〜の"
+     ]
+    },
+    {
+     "who": "A",
+     "jp": "助[たす]かるわ。グエンさんは、ほんまにしっかり者[もの]やなあ。",
+     "vi": "Đỡ cho anh quá. Nguyễn đúng là người tháo vát thật.",
+     "key": "しっかり者[もの]",
+     "std": "助[たす]かるよ。グエンさんは、本当[ほんとう]にしっかり者[もの]だね。",
+     "grammar": []
+    },
+    {
+     "who": "A",
+     "jp": "まあ、単身赴任[たんしんふにん]の人[ひと]に比[くら]べたら、家族[かぞく]と一緒[いっしょ]にいられるだけ、幸[しあわ]せやけどな。",
+     "vi": "Mà thôi, so với người phải đi làm xa một mình thì được ở cùng gia đình đã là hạnh phúc rồi.",
+     "key": "単身赴任[たんしんふにん]",
+     "std": "まあ、単身赴任[たんしんふにん]の人[ひと]に比[くら]べたら、家族[かぞく]と一緒[いっしょ]にいられるだけ、幸[しあわ]せだけどね。",
+     "grammar": [
+      "g:〜の",
+      "g:〜に比べて・〜に比べると",
+      "g:〜たら",
+      "g:〜と",
+      "g:可能形（〜られる・〜える）",
+      "g:〜が・〜けど"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "グエンさん、来月[らいげつ]の面談[めんだん]の前[まえ]に、班[はん]のメンバーについて、意見[いけん]を聞[き]かせてください。",
+     "vi": "Anh Nguyễn, trước buổi trao đổi đánh giá tháng sau, anh cho tôi nghe ý kiến về các thành viên trong tổ nhé.",
+     "grammar": [
+      "g:〜の",
+      "g:〜前に",
+      "g:〜を",
+      "g:〜させてください"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "まず、ホアさんは、どうですか。",
+     "vi": "Trước hết, chị Hoa thì sao?",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "ホアさんは、仕事[しごと]の速[はや]さといい、正確[せいかく]さといい、申[もう]し分[ぶん]ありません。",
+     "vi": "Chị Hoa thì cả tốc độ lẫn độ chính xác trong công việc đều không có gì để chê.",
+     "key": "申[もう]し分[ぶん]",
+     "note": "N1 といい、N2 といい + nhận xét chung = cả… lẫn…, xét về… hay về… thì đều… (nêu hai mặt tiêu biểu của MỘT đối tượng rồi đánh giá chung; ngụ ý các mặt khác cũng vậy). Ví dụ: 味[あじ]といい値段[ねだん]といい、最高[さいこう]だ.",
+     "grammar": [
+      "g:〜の",
+      "g:〜といい〜といい"
+     ],
+     "gloss": [
+      {
+       "w": "速[はや]さ",
+       "vi": "tốc độ"
+      },
+      {
+       "w": "申[もう]し分[ぶん]ありません",
+       "vi": "không có gì để chê"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ただ、少[すこ]しせかせかしすぎて、新人[しんじん]が質問[しつもん]しにくいこともあるようです。",
+     "vi": "Có điều chị ấy hơi hấp tấp quá, nên đôi khi người mới ngại hỏi.",
+     "key": "せかせか",
+     "grammar": [
+      "g:〜すぎる",
+      "g:〜やすい・〜にくい",
+      "g:〜こともある・〜ことがある（時々）",
+      "g:〜ようだ"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "なるほど。それが、彼女[かのじょ]の短所[たんしょ]でもあり、持[も]ち味[あじ]でもあるわけですね。",
+     "vi": "Ra vậy. Đó vừa là nhược điểm, vừa là nét riêng của cô ấy nhỉ.",
+     "key": "持[も]ち味[あじ]",
+     "grammar": [
+      "g:〜の",
+      "g:〜も",
+      "g:〜わけだ"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "リンさんは、口数[くちかず]は少[すく]ないですが、作業[さぎょう]も丁寧[ていねい]なら、後輩[こうはい]への教[おし]え方[かた]も上手[じょうず]です。",
+     "vi": "Linh thì ít nói, nhưng vừa làm việc cẩn thận, lại vừa biết cách chỉ cho người vào sau.",
+     "key": "丁寧[ていねい]",
+     "grammar": [
+      "g:〜が・〜けど",
+      "g:〜も〜ば〜も",
+      "g:〜の",
+      "g:〜方"
+     ],
+     "gloss": [
+      {
+       "w": "口数[くちかず]",
+       "vi": "lượng lời nói (ít lời = ít nói)"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "最初[さいしょ]は不安[ふあん]げでしたが、ずいぶん成長[せいちょう]しましたね。",
+     "vi": "Lúc đầu cô ấy trông lo lắng lắm, vậy mà đã trưởng thành nhiều.",
+     "key": "成長[せいちょう]",
+     "grammar": [
+      "g:〜げ",
+      "g:〜が・〜けど"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "トゥアンくんは、愛想[あいそ]もよければ、体力[たいりょく]もあります。本当[ほんとう]に働[はたら]き者[もの]です。",
+     "vi": "Tuấn thì vừa niềm nở, lại vừa khỏe. Đúng là người chăm chỉ.",
+     "key": "働[はたら]き者[もの]",
+     "grammar": [
+      "g:〜も〜ば〜も"
+     ],
+     "gloss": [
+      {
+       "w": "トゥアン",
+       "vi": "Tuấn (tên)"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "みんなの長所[ちょうしょ]を、よく見[み]ていますね。では、グエンさん自身[じしん]の長所[ちょうしょ]は何[なん]ですか。",
+     "vi": "Anh nắm rõ ưu điểm của từng người nhỉ. Vậy ưu điểm của chính anh là gì?",
+     "key": "長所[ちょうしょ]",
+     "grammar": [
+      "g:〜の",
+      "g:〜を",
+      "g:〜ています"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ぼくですか……。取[と]り柄[え]は、まじめなところくらいです。",
+     "vi": "Tôi ạ… Điểm được của tôi chắc chỉ có mỗi tính nghiêm túc.",
+     "key": "取[と]り柄[え]",
+     "alt": [
+      "私[わたし]ですか。取[と]り柄[え]と言[い]えば、まじめなところぐらいです。"
+     ],
+     "grammar": [
+      "g:〜ほど・〜くらい（程度）"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "謙虚[けんきょ]ですね。人[ひと]を見[み]る目[め]といい、責任感[せきにんかん]といい、班長[はんちょう]にぴったりだと思[おも]いますよ。",
+     "vi": "Anh khiêm tốn quá. Cả con mắt nhìn người lẫn tinh thần trách nhiệm, tôi nghĩ anh rất hợp làm tổ trưởng.",
+     "grammar": [
+      "g:〜を",
+      "g:〜といい〜といい",
+      "g:〜に",
+      "g:〜と"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "森[もり]さん、本日[ほんじつ]はわざわざありがとうございます。こちらが、新商品[しんしょうひん]の真鯛[まだい]のお刺身[さしみ]セットです。",
+     "vi": "Anh Mori, cảm ơn anh hôm nay đã cất công ghé. Đây là sản phẩm mới: set sashimi cá tráp đỏ.",
+     "grammar": [
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "新商品[しんしょうひん]",
+       "vi": "sản phẩm mới"
+      },
+      {
+       "w": "真鯛[まだい]",
+       "vi": "cá tráp đỏ (madai)"
+      },
+      {
+       "w": "わざわざ",
+       "vi": "cất công, mất công (đặc biệt làm)"
+      }
+     ]
+    },
+    {
+     "who": "M",
+     "jp": "では、いただきます。……うん、見[み]た目[め]といい、歯[は]ごたえといい、文句[もんく]なしですね。",
+     "vi": "Vậy tôi xin phép. … Ừm, cả vẻ ngoài lẫn độ giòn dai đều không chê vào đâu được.",
+     "key": "歯[は]ごたえ",
+     "grammar": [
+      "g:〜といい〜といい"
+     ]
+    },
+    {
+     "who": "M",
+     "jp": "切[き]り身[み]の見栄[みば]えもよければ、身[み]の締[し]まった食感[しょっかん]もいい。お客様[きゃくさま]に喜[よろこ]ばれますよ。",
+     "vi": "Miếng cá vừa bắt mắt, thịt lại săn chắc. Chắc chắn khách sẽ thích.",
+     "key": "食感[しょっかん]",
+     "grammar": [
+      "g:〜の",
+      "g:〜も〜ば〜も",
+      "g:〜に",
+      "g:受身形（〜られる）"
+     ],
+     "gloss": [
+      {
+       "w": "締[し]まった",
+       "vi": "săn chắc"
+      },
+      {
+       "w": "切[き]り身[み]",
+       "vi": "miếng cá cắt (phi lê)"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ありがとうございます。生食用[せいしょくよう]なので、温度管理[おんどかんり]を特[とく]に厳[きび]しくしています。",
+     "vi": "Cảm ơn anh. Vì là hàng ăn sống nên bên tôi kiểm soát nhiệt độ đặc biệt chặt chẽ.",
+     "grammar": [
+      "g:〜ので",
+      "g:〜を",
+      "g:〜くする・〜にする",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "温度[おんど]",
+       "vi": "nhiệt độ"
+      },
+      {
+       "w": "温度管理[おんどかんり]",
+       "vi": "quản lý nhiệt độ"
+      },
+      {
+       "w": "生食用[せいしょくよう]",
+       "vi": "dùng để ăn sống"
+      }
+     ]
+    },
+    {
+     "who": "M",
+     "jp": "ただ、一人前[いちにんまえ]にしては、量[りょう]がいまいち物[もの]足[た]りないかな。",
+     "vi": "Có điều, gọi là suất một người thì lượng hơi ít, ăn chưa đã.",
+     "key": "物[もの]足[た]りない",
+     "grammar": [
+      "g:〜にしては"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "ご指摘[してき]ありがとうございます。量[りょう]を増[ふ]やしたセットも、すぐにご用意[ようい]いたします。",
+     "vi": "Cảm ơn anh đã góp ý. Chúng tôi sẽ chuẩn bị ngay một set lượng nhiều hơn.",
+     "key": "指摘[してき]",
+     "grammar": [
+      "g:〜を",
+      "g:〜も",
+      "g:〜に",
+      "g:謙譲語（お〜します・いただく）"
+     ]
+    },
+    {
+     "who": "M",
+     "jp": "ぜひ。それなら、年末[ねんまつ]は、うちの全店[ぜんてん]で扱[あつか]わせていただきます。",
+     "vi": "Nhất định nhé. Nếu vậy thì dịp cuối năm, toàn bộ cửa hàng bên tôi sẽ nhận bán.",
+     "grammar": [
+      "g:〜なら",
+      "g:〜で",
+      "g:〜させてもらう・〜させていただく"
+     ],
+     "gloss": [
+      {
+       "w": "全店[ぜんてん]",
+       "vi": "toàn bộ cửa hàng"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "全店[ぜんてん]って……。注文[ちゅうもん]、また増[ふ]えるんですか。",
+     "vi": "Toàn bộ cửa hàng… Vậy là đơn hàng lại tăng nữa à?",
+     "grammar": [
+      "g:〜って（伝聞・話題）"
+     ],
+     "gloss": [
+      {
+       "w": "全店[ぜんてん]",
+       "vi": "toàn bộ cửa hàng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうみたい。うれしいやら、大変[たいへん]やら、複雑[ふくざつ]な気持[きも]ちだね。",
+     "vi": "Có vẻ thế. Vừa mừng vừa ngán, cảm xúc lẫn lộn ghê.",
+     "alt": [
+      "そうらしい。うれしいやら大変[たいへん]やらで、複雑[ふくざつ]な気持[きも]ちだよ。"
+     ],
+     "grammar": [
+      "g:〜みたいだ",
+      "g:〜やら〜やら"
+     ],
+     "gloss": [
+      {
+       "w": "みたい",
+       "vi": "hình như; giống như"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "でも、うちの班[はん]は、チームワークといい、やる気[き]といい、どこにも負[ま]けませんよ。",
+     "vi": "Nhưng tổ mình thì cả tinh thần đồng đội lẫn nhiệt huyết, chẳng thua ai đâu.",
+     "grammar": [
+      "g:〜の",
+      "g:〜といい〜といい",
+      "g:〜に",
+      "g:〜も"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "それに、この班[はん]は居心地[いごこち]がいいから、忙[いそが]しくても頑張[がんば]れます。",
+     "vi": "Với lại, tổ này làm việc dễ chịu nên dù bận em vẫn cố được.",
+     "key": "居心地[いごこち]",
+     "grammar": [
+      "g:この・その・あの",
+      "g:〜から",
+      "g:〜ても",
+      "g:可能形（〜られる・〜える）"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ありがとう。年末[ねんまつ]まで、みんなで乗[の]り切[き]ろう。",
+     "vi": "Cảm ơn em. Cả tổ cùng nhau vượt qua đến cuối năm nào.",
+     "grammar": [
+      "g:〜から〜まで",
+      "g:〜で"
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Vì sao hôm nay anh Suzuki không dứt tay ra được?",
+     "opts": [
+      "Vì phải kiểm tra máy và thay linh kiện",
+      "Vì phải dán lại nhãn",
+      "Vì phải đưa đón con",
+      "Vì phải tiếp khách"
+     ],
+     "ans": 0,
+     "why": "点検[てんけん]やら部品[ぶひん]の交換[こうかん]やらで、今日[きょう]は手[て]が離[はな]せないんだ。"
+    },
+    {
+     "q": "\"子[こ]どもの送[おく]り迎[むか]えもあれば、夕飯[ゆうはん]の支度[したく]もある\" nghĩa là gì?",
+     "opts": [
+      "Có đưa đón con, lại có cả nấu cơm",
+      "Nếu đưa đón con thì không phải nấu cơm",
+      "Đưa đón con hay nấu cơm đều được",
+      "Chỉ cần đưa đón con là đủ"
+     ],
+     "ans": 0,
+     "why": "N1 も + thể ば + N2 も = có… lại có… (ば không mang nghĩa \"nếu\")."
+    },
+    {
+     "q": "Anh Nguyễn nhận xét chị Hoa thế nào?",
+     "opts": [
+      "Nhanh và chính xác, nhưng hơi hấp tấp",
+      "Chậm nhưng cẩn thận",
+      "Ít nói nhưng dạy người mới giỏi",
+      "Niềm nở và khỏe"
+     ],
+     "ans": 0,
+     "why": "仕事[しごと]の速[はや]さといい、正確[せいかく]さといい、申[もう]し分[ぶん]ありません。ただ、少[すこ]しせかせかしすぎて…"
+    },
+    {
+     "q": "Khách hàng Mori chưa hài lòng điểm nào ở sản phẩm mới?",
+     "opts": [
+      "Lượng hơi ít so với một suất",
+      "Vẻ ngoài chưa đẹp",
+      "Thịt cá không săn chắc",
+      "Giá quá cao"
+     ],
+     "ans": 0,
+     "why": "一人前[いちにんまえ]にしては、量[りょう]がいまいち物足[ものた]りないかな。"
+    },
+    {
+     "q": "\"うれしいやら、大変[たいへん]やら\" thể hiện cảm xúc gì?",
+     "opts": [
+      "Vừa mừng vừa ngán, lẫn lộn",
+      "Chỉ có vui mừng",
+      "Chỉ thấy vất vả",
+      "Không vui cũng không buồn"
+     ],
+     "ans": 0,
+     "why": "〜やら〜やら với tính từ cảm xúc = cảm xúc lẫn lộn."
+    }
+   ]
+  }
+ ]
+}

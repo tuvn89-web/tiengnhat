@@ -1,0 +1,763 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "modau-n2-37",
+  "title": "Bài mở đầu N2 – bài 37: Ai để cửa kho lạnh mở?",
+  "type": "dialog",
+  "level": "N2",
+  "topics": [
+   "doisong",
+   "xuong"
+  ],
+  "version": 1,
+  "created": "2026-10-17",
+  "note": ""
+ },
+ "items": [
+  {
+   "id": "d:md-n2-37",
+   "title": "Ai để cửa kho lạnh mở?",
+   "level": "N2",
+   "topics": [
+    "xuong",
+    "doisong"
+   ],
+   "ctx": "xuong",
+   "lesson": "l:n2-37",
+   "intro": true,
+   "setting": "Sáng ra, bảng ghi nhiệt độ kho lạnh cho thấy nửa đêm nhiệt độ tăng vọt. Anh Nguyễn cùng Hoa và anh Suzuki (phụ trách máy) lần ra nguyên nhân; Linh, người mới, rụt rè kể lại điều mình thấy tối qua. Cuối cùng anh Nguyễn báo cáo với trưởng phòng Nakamura.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    },
+    {
+     "key": "H",
+     "name": "ホア",
+     "vi": "Đồng nghiệp"
+    },
+    {
+     "key": "S",
+     "name": "鈴木[すずき]さん",
+     "vi": "Phụ trách máy"
+    },
+    {
+     "key": "L",
+     "name": "リン",
+     "vi": "Người mới"
+    },
+    {
+     "key": "Z",
+     "name": "中村[なかむら]課長[かちょう]",
+     "vi": "Trưởng phòng"
+    }
+   ],
+   "turns": [
+    {
+     "who": "H",
+     "jp": "グエンさん、冷蔵庫[れいぞうこ]の温度[おんど]記録[きろく]を見[み]てください。夜中[よなか]に一度[いちど]、急[きゅう]に上[あ]がっています。",
+     "vi": "Anh Nguyễn, xem bảng ghi nhiệt độ kho lạnh này. Nửa đêm có một lần nhiệt độ tăng vọt.",
+     "grammar": [
+      "g:〜の",
+      "g:〜を",
+      "g:〜てください",
+      "g:〜に",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "温度[おんど]",
+       "vi": "nhiệt độ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "本当[ほんとう]だ。棚[たな]の鯛[たい]も見[み]せて。……うーん、目[め]の色[いろ]が少[すこ]しおかしいな。",
+     "vi": "Đúng thật. Cho anh xem cá tráp trên kệ. …… Ừm, màu mắt hơi lạ.",
+     "grammar": [
+      "g:〜の",
+      "g:〜も"
+     ],
+     "gloss": [
+      {
+       "w": "鯛[たい]",
+       "vi": "cá tráp"
+      },
+      {
+       "w": "本当[ほんとう]",
+       "vi": "thật"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "やっぱり。魚[さかな]の鮮度[せんど]を見分[みわ]けることにかけては、グエンさんは工場[こうじょう]で一番[いちばん]ですからね。",
+     "vi": "Đúng như em nghĩ. Về khoản nhìn độ tươi của cá thì anh Nguyễn nhất xưởng mà.",
+     "key": "見分[みわ]ける",
+     "note": "Danh từ (hoặc Vる + こと) + にかけては = về khoản …, xét về mặt … thì (không ai bằng); dùng để khen tài hoặc nói điều mình rất tự tin, không dùng để chê. Ví dụ: 料理[りょうり]にかけては、母[はは]が一番[いちばん]だ.",
+     "grammar": [
+      "g:〜の",
+      "g:〜を",
+      "g:〜の・〜こと（名詞化）",
+      "g:〜にかけては",
+      "g:〜で",
+      "g:〜がいちばん",
+      "g:〜から"
+     ],
+     "gloss": [
+      {
+       "w": "やっぱり",
+       "vi": "quả nhiên, đúng như nghĩ"
+      },
+      {
+       "w": "鮮度[せんど]",
+       "vi": "độ tươi"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いや、達人[たつじん]ってほどじゃないよ。でも、念[ねん]のため、この棚[たな]の分[ぶん]は出荷[しゅっか]を止[と]めておこう。",
+     "vi": "Không, chưa tới mức bậc thầy đâu. Nhưng để chắc ăn, phần trên kệ này tạm dừng xuất hàng đã.",
+     "key": "達人[たつじん]",
+     "alt": [
+      "いや、達人[たつじん]ほどじゃないよ。でも、念[ねん]のため、この棚[たな]の商品[しょうひん]は出荷[しゅっか]を止[と]めておこう。"
+     ],
+     "grammar": [
+      "g:〜の",
+      "g:〜を",
+      "g:〜ておく"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "鈴木[すずき]さん、冷蔵庫[れいぞうこ]の機械[きかい]を見[み]ていただけますか。",
+     "vi": "Anh Suzuki, anh xem giúp máy của kho lạnh được không ạ?",
+     "grammar": [
+      "g:〜の",
+      "g:〜を",
+      "g:〜てもらえる・〜ていただける"
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "任[まか]せとき。機械[きかい]のことにかけては、だれにも負[ま]けへんで。",
+     "vi": "Cứ để anh. Về khoản máy móc thì anh không thua ai đâu.",
+     "std": "任[まか]せておいて。機械[きかい]のことにかけては、だれにも負[ま]けないよ。",
+     "grammar": [
+      "g:〜の",
+      "g:〜にかけては",
+      "g:〜に",
+      "g:〜も"
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "……コンプレッサーも、ドアのゴムも正常[せいじょう]だ。故障[こしょう]ではないね。",
+     "vi": "…… Máy nén lẫn gioăng cửa đều bình thường. Không phải hỏng hóc.",
+     "grammar": [
+      "g:〜も",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "コンプレッサー",
+       "vi": "máy nén"
+      },
+      {
+       "w": "ゴム",
+       "vi": "gioăng cao su"
+      },
+      {
+       "w": "正常[せいじょう]",
+       "vi": "bình thường"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "えっ、てっきり機械[きかい]の故障[こしょう]だと思[おも]っていました。",
+     "vi": "Ơ, em cứ đinh ninh là máy hỏng chứ.",
+     "key": "てっきり",
+     "grammar": [
+      "g:〜の",
+      "g:〜と",
+      "g:〜ています"
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "記録[きろく]を見[み]てごらん。温度[おんど]が上[あ]がったのは二十分[にじゅっぷん]ほどで、そのあとは元[もと]に戻[もど]っている。",
+     "vi": "Nhìn bảng ghi xem. Nhiệt độ chỉ tăng chừng hai mươi phút, sau đó trở lại như cũ.",
+     "grammar": [
+      "g:〜を",
+      "g:〜てみる",
+      "g:〜の・〜こと（名詞化）",
+      "g:〜で",
+      "g:〜に",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "見[み]てごらん",
+       "vi": "thử nhìn xem"
+      },
+      {
+       "w": "温度[おんど]",
+       "vi": "nhiệt độ"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "どうやら、夜中[よなか]にだれかが、ドアをきちんと閉[し]めなかったとみえる。",
+     "vi": "Xem ra nửa đêm có ai đó đã không đóng cửa cho kỹ.",
+     "key": "どうやら",
+     "note": "Thể thường + とみえる / とみえて = có vẻ như …, hình như … (nhìn thấy dấu hiệu rồi đoán; nói về người khác, sự việc, không nói về mình). Ví dụ: 疲[つか]れていたとみえて、すぐ寝[ね]てしまった.",
+     "grammar": [
+      "g:〜に",
+      "g:〜を",
+      "g:〜とみえる・〜とみえて"
+     ],
+     "gloss": [
+      {
+       "w": "なかった",
+       "vi": "đã không"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "ひょっとすると、最後[さいご]に台車[だいしゃ]を出[だ]した人[ひと]かもしれませんね。",
+     "vi": "Biết đâu là người cuối cùng đẩy xe hàng ra.",
+     "key": "ひょっとすると",
+     "grammar": [
+      "g:〜に",
+      "g:〜を",
+      "g:〜かもしれない"
+     ],
+     "gloss": [
+      {
+       "w": "台車[だいしゃ]",
+       "vi": "xe đẩy hàng (sàn phẳng, 4 bánh)"
+      }
+     ]
+    },
+    {
+     "who": "S",
+     "jp": "そやな。でも、推測[すいそく]だけで人[ひと]を疑[うたが]うのはあかんで。証言[しょうげん]とか、決定的[けっていてき]な証拠[しょうこ]がないとな。",
+     "vi": "Ừ. Nhưng chỉ dựa vào suy đoán mà nghi người ta thì không được. Phải có lời kể hay bằng chứng rõ ràng.",
+     "key": "推測[すいそく]",
+     "std": "そうだね。でも、推測[すいそく]だけで人[ひと]を疑[うたが]うのはだめだよ。証言[しょうげん]とか、決定的[けっていてき]な証拠[しょうこ]がないとね。",
+     "grammar": [
+      "g:〜で",
+      "g:〜を",
+      "g:〜の・〜こと（名詞化）",
+      "g:〜と（条件）"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "そうですね。推理[すいり]ドラマじゃないんですから、仮定[かてい]の話[はなし]で決[き]めつけるのはやめましょう。",
+     "vi": "Đúng ạ. Đâu phải phim trinh thám, đừng lấy giả thiết mà quy chụp người ta.",
+     "key": "推理[すいり]",
+     "grammar": [
+      "g:〜から",
+      "g:〜の・〜こと（名詞化）"
+     ],
+     "gloss": [
+      {
+       "w": "決[き]めつける",
+       "vi": "kết luận vội, quy chụp"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "グエンさん、リンさんが、何[なに]か言[い]いたいことがあるとみえて、さっきからずっとこっちを見[み]ていますよ。",
+     "vi": "Anh Nguyễn, Linh có vẻ có chuyện muốn nói, nãy giờ cứ nhìn sang bên này.",
+     "grammar": [
+      "g:疑問詞＋か（何・いつ・どこ…か）",
+      "g:〜たい",
+      "g:〜とみえる・〜とみえて",
+      "g:〜から",
+      "g:〜を",
+      "g:〜ています"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "リンさん、どうしたの？何[なん]でも話[はな]していいよ。",
+     "vi": "Linh, sao thế em? Chuyện gì cũng cứ nói nhé.",
+     "grammar": []
+    },
+    {
+     "who": "L",
+     "jp": "あの……昨日[きのう]の夜[よる]、最後[さいご]に台車[だいしゃ]を出[だ]したのは、私[わたし]なんです。",
+     "vi": "Dạ…… tối qua người cuối cùng đẩy xe hàng ra là em ạ.",
+     "grammar": [
+      "g:〜の",
+      "g:〜に",
+      "g:〜を",
+      "g:〜の・〜こと（名詞化）"
+     ],
+     "gloss": [
+      {
+       "w": "台車[だいしゃ]",
+       "vi": "xe đẩy hàng (sàn phẳng, 4 bánh)"
+      }
+     ]
+    },
+    {
+     "who": "L",
+     "jp": "その時[とき]、ドアのアラームが鳴[な]ったような気[き]がしたんです。でも、ちゃんと閉[し]めたと思[おも]って、そのまま帰[かえ]ってしまいました。",
+     "vi": "Lúc đó em thấy hình như chuông báo cửa có kêu. Nhưng em nghĩ là đã đóng kỹ rồi nên cứ thế về luôn.",
+     "grammar": [
+      "g:〜の",
+      "g:〜ようだ",
+      "g:〜と",
+      "g:〜て、〜",
+      "g:〜まま",
+      "g:〜てしまう"
+     ],
+     "gloss": [
+      {
+       "w": "アラーム",
+       "vi": "chuông báo"
+      },
+      {
+       "w": "気[き]がした",
+       "vi": "có cảm giác"
+      }
+     ]
+    },
+    {
+     "who": "L",
+     "jp": "すみません。言[い]わなきゃと思[おも]っていたんですけど、怖[こわ]くて……。",
+     "vi": "Em xin lỗi. Em biết là phải nói mà sợ quá……",
+     "std": "すみません。言[い]わなければと思[おも]っていたんですけど、怖[こわ]くて……。",
+     "grammar": [
+      "g:〜なきゃ・〜なくちゃ",
+      "g:〜と",
+      "g:〜ています",
+      "g:〜が・〜けど",
+      "g:〜て、〜"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "話[はな]してくれて、ありがとう。リンさんの証言[しょうげん]のおかげで、原因[げんいん]が分[わ]かったよ。",
+     "vi": "Cảm ơn em đã nói ra. Nhờ lời kể của em mà biết được nguyên nhân.",
+     "key": "証言[しょうげん]",
+     "grammar": [
+      "g:〜てくれる",
+      "g:〜の",
+      "g:〜おかげで"
+     ],
+     "gloss": [
+      {
+       "w": "分[わ]かった",
+       "vi": "hiểu rồi"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "アラームの音[おと]まで覚[おぼ]えていたなんて、リンさんは物覚[ものおぼ]えがいいね。そういう素質[そしつ]は大事[だいじ]なんだ。",
+     "vi": "Nhớ được cả tiếng chuông báo, Linh nhớ giỏi đấy. Tố chất ấy quan trọng lắm.",
+     "key": "物覚[ものおぼ]え",
+     "grammar": [
+      "g:〜まで（強調）",
+      "g:〜ています",
+      "g:〜なんか・〜なんて"
+     ],
+     "gloss": [
+      {
+       "w": "アラーム",
+       "vi": "chuông báo"
+      }
+     ]
+    },
+    {
+     "who": "L",
+     "jp": "でも、私[わたし]、手[て]が不器用[ぶきよう]で、細[こま]かい作業[さぎょう]は不得意[ふとくい]なんです。",
+     "vi": "Nhưng em tay chân vụng về, mấy việc tỉ mỉ em kém lắm.",
+     "key": "不器用[ぶきよう]",
+     "grammar": [
+      "g:〜で"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "だれにでも、強[つよ]みと弱[よわ]みがあるよ。作業[さぎょう]は要領[ようりょう]を覚[おぼ]えれば、すぐ人並[ひとな]みにできるようになる。",
+     "vi": "Ai cũng có điểm mạnh, điểm yếu. Việc tay chân thì nắm được mẹo là chẳng mấy chốc làm bằng người ta.",
+     "key": "強[つよ]み",
+     "alt": [
+      "だれにでも、得意[とくい]なことと苦手[にがて]なことがあるよ。作業[さぎょう]は、慣[な]れればすぐできるようになる。"
+     ],
+     "grammar": [
+      "g:〜と",
+      "g:〜を",
+      "g:〜ば",
+      "g:〜ようになる"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "課長[かちょう]、冷蔵庫[れいぞうこ]の件[けん]をご報告[ほうこく]します。",
+     "vi": "Thưa trưởng phòng, tôi xin báo cáo về vụ kho lạnh.",
+     "grammar": [
+      "g:〜の",
+      "g:〜を",
+      "g:謙譲語（お〜します・いただく）"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "温度[おんど]記録[きろく]と作業者[さぎょうしゃ]の証言[しょうげん]から推定[すいてい]しますと、原因[げんいん]はドアの閉[し]め忘[わす]れに相違[そうい]ありません。",
+     "vi": "Ước đoán từ bảng ghi nhiệt độ và lời kể của nhân viên, nguyên nhân chắc chắn là quên đóng cửa.",
+     "key": "推定[すいてい]",
+     "note": "Thể thường (danh từ, tính từ な bỏ だ) + に相違[そうい]ない = chắc chắn là …, ắt hẳn là … (rất tin vào phán đoán; văn viết, lời nói trang trọng; lịch sự: に相違[そうい]ありません). Nói chuyện thường ngày dùng に違[ちが]いない. Ví dụ: 犯人[はんにん]は彼[かれ]に相違[そうい]ない.",
+     "grammar": [
+      "g:〜と",
+      "g:〜の",
+      "g:〜から",
+      "g:〜と（条件）",
+      "g:〜に相違ない"
+     ],
+     "gloss": [
+      {
+       "w": "作業者[さぎょうしゃ]",
+       "vi": "người làm việc, nhân viên"
+      },
+      {
+       "w": "温度[おんど]",
+       "vi": "nhiệt độ"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "ドアの閉[し]め忘[わす]れだと、断言[だんげん]できますか。",
+     "vi": "Anh có dám khẳng định là do quên đóng cửa không?",
+     "key": "断言[だんげん]",
+     "grammar": [
+      "g:〜と",
+      "g:可能形（〜られる・〜える）"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。温度[おんど]の上[あ]がり方[かた]も、ドアが開[あ]いていた時[とき]と同[おな]じです。間違[まちが]いないと確信[かくしん]しています。",
+     "vi": "Vâng. Cách nhiệt độ tăng cũng giống hệt những lần cửa để mở. Tôi tin chắc là không sai.",
+     "key": "確信[かくしん]",
+     "grammar": [
+      "g:〜方",
+      "g:〜も",
+      "g:〜ています",
+      "g:〜と"
+     ],
+     "gloss": [
+      {
+       "w": "温度[おんど]",
+       "vi": "nhiệt độ"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "機械[きかい]の故障[こしょう]ではないことは、鈴木[すずき]さんにも確認[かくにん]していただきました。",
+     "vi": "Việc không phải do hỏng máy, tôi cũng đã nhờ anh Suzuki xác nhận.",
+     "grammar": [
+      "g:〜の・〜こと（名詞化）",
+      "g:〜に",
+      "g:〜も"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "そうですか。品質[ひんしつ]への影響[えいきょう]は、どう判断[はんだん]しましたか。",
+     "vi": "Vậy à. Ảnh hưởng đến chất lượng, anh đánh giá thế nào?",
+     "grammar": [
+      "g:〜へ",
+      "g:〜の"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "まだ断定[だんてい]はできませんので、念[ねん]のため、その棚[たな]の商品[しょうひん]は出荷[しゅっか]を止[と]めてあります。",
+     "vi": "Vì chưa thể kết luận chắc chắn nên để phòng, hàng trên kệ đó tôi đã cho dừng xuất.",
+     "key": "断定[だんてい]",
+     "grammar": [
+      "g:可能形（〜られる・〜える）",
+      "g:〜ので",
+      "g:〜の",
+      "g:〜を",
+      "g:〜てある"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "適切[てきせつ]な判断[はんだん]です。生食用[せいしょくよう]ですから、お客様[きゃくさま]の安全[あんぜん]が第[だい]一[いち]です。",
+     "vi": "Quyết định đúng đắn. Hàng ăn sống nên an toàn của khách hàng là trên hết.",
+     "grammar": [
+      "g:〜から",
+      "g:〜の"
+     ],
+     "gloss": [
+      {
+       "w": "生食用[せいしょくよう]",
+       "vi": "dùng để ăn sống"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "そういえば先週[せんしゅう]も、ドアが重[おも]いという声[こえ]がありました。あれが前兆[ぜんちょう]だったのかもしれません。",
+     "vi": "Nhắc mới nhớ, tuần trước cũng có người kêu cửa nặng. Có khi đó là điềm báo trước.",
+     "key": "前兆[ぜんちょう]",
+     "grammar": [
+      "g:〜も",
+      "g:〜という",
+      "g:〜があります・〜がいます",
+      "g:〜かもしれない"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "なるほど。では、ドアにセンサーを付[つ]けて、開[あ]いたままなら事務所[じむしょ]に知[し]らせが来[く]るようにしましょう。",
+     "vi": "Ra vậy. Thế thì gắn cảm biến lên cửa, hễ cửa để mở là báo về văn phòng.",
+     "grammar": [
+      "g:〜に",
+      "g:〜を",
+      "g:〜て、〜",
+      "g:〜まま",
+      "g:〜なら",
+      "g:〜ようにする",
+      "g:〜ましょう"
+     ],
+     "gloss": [
+      {
+       "w": "センサー",
+       "vi": "cảm biến"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "それにしても、早[はや]い報告[ほうこく]でした。これで、お客様[きゃくさま]の信用[しんよう]も守[まも]れたに相違[そうい]ありません。",
+     "vi": "Dù sao thì báo cáo rất nhanh. Nhờ vậy chắc chắn đã giữ được lòng tin của khách hàng.",
+     "grammar": [
+      "g:〜の",
+      "g:〜も",
+      "g:可能形（〜られる・〜える）",
+      "g:〜に相違ない"
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "グエンさんは、問題[もんだい]の原因[げんいん]を見抜[みぬ]くことにかけては、なかなかの実力者[じつりょくしゃ]ですね。",
+     "vi": "Anh Nguyễn, về khoản nhìn ra nguyên nhân sự cố thì anh đúng là người có thực lực.",
+     "key": "見抜[みぬ]く",
+     "grammar": [
+      "g:〜の",
+      "g:〜を",
+      "g:〜の・〜こと（名詞化）",
+      "g:〜にかけては"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "いえ、リンさんの証言[しょうげん]がなければ、分[わ]かりませんでした。",
+     "vi": "Không ạ, nếu không có lời kể của Linh thì tôi đã không tìm ra.",
+     "alt": [
+      "いえ、リンさんが話[はな]してくれなかったら、分[わ]かりませんでした。"
+     ],
+     "grammar": [
+      "g:〜の",
+      "g:〜ば"
+     ],
+     "gloss": [
+      {
+       "w": "分[わ]かりませんでした",
+       "vi": "đã không biết"
+      },
+      {
+       "w": "なければ",
+       "vi": "nếu không có"
+      }
+     ]
+    },
+    {
+     "who": "Z",
+     "jp": "リンさん、勇気[ゆうき]を出[だ]してくれて、ありがとう。有望[ゆうぼう]な新人[しんじん]ですね。",
+     "vi": "Linh, cảm ơn em đã dũng cảm nói ra. Đúng là người mới đầy triển vọng.",
+     "key": "有望[ゆうぼう]",
+     "grammar": [
+      "g:〜を",
+      "g:〜てくれる",
+      "g:〜て、〜"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "リンさん、課長[かちょう]にほめられて、よほどうれしかったとみえて、ずっとにこにこしていますね。",
+     "vi": "Linh được trưởng phòng khen, chắc vui lắm, cứ cười tủm tỉm mãi.",
+     "grammar": [
+      "g:〜に",
+      "g:受身形（〜られる）",
+      "g:〜て、〜",
+      "g:〜とみえる・〜とみえて",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "よほど",
+       "vi": "hẳn là rất"
+      },
+      {
+       "w": "にこにこ",
+       "vi": "tươi cười"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "うん。昨日[きのう]の夜[よる]から、さぞ不安[ふあん]だっただろうね。",
+     "vi": "Ừ. Từ tối qua chắc con bé lo lắm.",
+     "key": "さぞ",
+     "grammar": [
+      "g:〜の",
+      "g:〜から"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "グエンさんの勘[かん]も、さすがですね。魚[さかな]の目[め]を見[み]ただけで、すぐ気[き]づくんですから。",
+     "vi": "Linh cảm của anh Nguyễn cũng đúng là siêu. Chỉ nhìn mắt cá là nhận ra ngay.",
+     "key": "勘[かん]",
+     "grammar": [
+      "g:〜の",
+      "g:〜も",
+      "g:〜を",
+      "g:〜から"
+     ],
+     "gloss": [
+      {
+       "w": "魚[さかな]の目[め]",
+       "vi": "mắt (con) cá"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "勘[かん]だけじゃないよ。毎日[まいにち]、魚[さかな]を見[み]ているからね。N2の勉強[べんきょう]も、きっと同[おな]じだな。",
+     "vi": "Không chỉ là linh cảm đâu. Là vì ngày nào cũng nhìn cá. Học N2 chắc cũng thế thôi.",
+     "grammar": [
+      "g:〜を",
+      "g:〜ています",
+      "g:〜から",
+      "g:〜の",
+      "g:〜も"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "グエンさん、もう魚[さかな]の専門家[せんもんか]ですね。",
+     "vi": "Anh Nguyễn thành chuyên gia về cá luôn rồi.",
+     "key": "専門家[せんもんか]",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "まだまだアマチュアだよ。機械[きかい]に長[た]けた鈴木[すずき]さんみたいに、自分[じぶん]の特技[とくぎ]をもっと伸[の]ばしたいな。",
+     "vi": "Vẫn là dân nghiệp dư thôi. Anh muốn như anh Suzuki rành máy móc, mài giũa thêm sở trường của mình.",
+     "key": "特技[とくぎ]",
+     "alt": [
+      "まだまだアマチュアだよ。鈴木[すずき]さんみたいに、自分[じぶん]の得意[とくい]なことをもっと伸[の]ばしたい。"
+     ],
+     "grammar": [
+      "g:〜みたいだ",
+      "g:〜を",
+      "g:〜たい"
+     ],
+     "gloss": [
+      {
+       "w": "伸[の]ばしたい",
+       "vi": "muốn phát triển thêm"
+      },
+      {
+       "w": "まだまだ",
+       "vi": "vẫn còn kém, chưa tới đâu"
+      },
+      {
+       "w": "みたい",
+       "vi": "hình như; giống như"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Sáng ra, Hoa thấy điều gì bất thường?",
+     "opts": [
+      "Nửa đêm nhiệt độ kho lạnh tăng vọt một lần",
+      "Kho lạnh lạnh quá mức cả ngày",
+      "Máy ghi nhiệt độ bị hỏng",
+      "Cá trên kệ bị mất"
+     ],
+     "ans": 0,
+     "why": "夜中[よなか]に一度[いちど]、急[きゅう]に上[あ]がっています。"
+    },
+    {
+     "q": "\"機械[きかい]のことにかけては、だれにも負[ま]けへんで\" — anh Suzuki muốn nói gì?",
+     "opts": [
+      "Về khoản máy móc thì anh không thua ai",
+      "Máy móc thì ai cũng thua anh nên anh không làm",
+      "Anh không rành máy móc",
+      "Máy hỏng không phải lỗi của anh"
+     ],
+     "ans": 0,
+     "why": "〜にかけては = về khoản … thì (rất giỏi, rất tự tin)."
+    },
+    {
+     "q": "Vì sao Hoa đoán là Linh có chuyện muốn nói?",
+     "opts": [
+      "Vì Linh cứ nhìn sang suốt",
+      "Vì Linh viết giấy nhắn",
+      "Vì Linh đang khóc",
+      "Vì trưởng phòng dặn"
+     ],
+     "ans": 0,
+     "why": "何[なに]か言[い]いたいことがあるとみえて、さっきからずっとこっちを見[み]ていますよ。"
+    },
+    {
+     "q": "Theo báo cáo của anh Nguyễn, nguyên nhân là gì?",
+     "opts": [
+      "Cửa kho không được đóng kỹ",
+      "Máy nén bị hỏng",
+      "Bị mất điện",
+      "Cá nhập về đã không tươi"
+     ],
+     "ans": 0,
+     "why": "原因[げんいん]はドアの閉[し]め忘[わす]れに相違[そうい]ありません。"
+    },
+    {
+     "q": "Trưởng phòng quyết định làm gì để không lặp lại?",
+     "opts": [
+      "Gắn cảm biến cửa báo về văn phòng",
+      "Phạt Linh",
+      "Thay máy lạnh mới",
+      "Bỏ ca đêm"
+     ],
+     "ans": 0,
+     "why": "ドアにセンサーを付[つ]けて、開[あ]いたままなら事務所[じむしょ]に知[し]らせが来[く]るようにしましょう。"
+    }
+   ]
+  }
+ ]
+}

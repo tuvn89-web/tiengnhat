@@ -1,1207 +1,1207 @@
 {
- "schema": 1,
- "pack": {
-  "id": "jlpt-n4-17",
-  "title": "JLPT N4 17 – Thiên nhiên, thiên tai, nơi chốn, đi lại",
-  "type": "vocab",
-  "level": "N4",
-  "topics": [
-   "jlpt"
-  ],
-  "version": 1,
-  "created": "2026-10-12",
-  "verified_on": "",
-  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
- },
- "items": [
-  {
-   "id": "v:台風:たいふう",
-   "kana": "たいふう",
-   "kanji": "台風",
-   "hv": "ĐÀI PHONG",
-   "vi": "bão",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên tai",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "台風[たいふう]が来[く]るので、早[はや]く帰[かえ]りましょう。",
-     "vi": "Bão đến nên về sớm thôi.",
-     "ctx": "doisong"
-    },
-    {
-     "jp": "台風[たいふう]の日[ひ]は、工場[こうじょう]が休[やす]みになることがあります。",
-     "vi": "Ngày bão có khi nhà máy nghỉ.",
-     "ctx": "xuong"
-    }
-   ]
+  "schema": 1,
+  "pack": {
+    "id": "jlpt-n4-17",
+    "title": "JLPT N4 17 – Thiên nhiên, thiên tai, nơi chốn, đi lại",
+    "type": "vocab",
+    "level": "N4",
+    "topics": [
+      "jlpt"
+    ],
+    "version": 2,
+    "created": "2026-10-12",
+    "verified_on": "",
+    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
   },
-  {
-   "id": "v:地震:じしん",
-   "kana": "じしん",
-   "kanji": "地震",
-   "hv": "ĐỊA CHẤN",
-   "vi": "động đất",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên tai",
-   "reg": "thuong",
-   "ex": [
+  "items": [
     {
-     "jp": "昨日[きのう]の夜[よる]、地震[じしん]がありました。",
-     "vi": "Đêm qua có động đất.",
-     "ctx": "doisong"
+      "id": "v:台風:たいふう",
+      "kana": "たいふう",
+      "kanji": "台風",
+      "hv": "ĐÀI PHONG",
+      "vi": "bão",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên tai",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "台風[たいふう]が来[く]るので、早[はや]く帰[かえ]りましょう。",
+          "vi": "Bão đến nên về sớm thôi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "台風[たいふう]の日[ひ]は、工場[こうじょう]が休[やす]みになることがあります。",
+          "vi": "Ngày bão có khi nhà máy nghỉ.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "地震[じしん]の時[とき]は、まず机[つくえ]の下[した]に入[はい]ります。",
-     "vi": "Khi động đất, trước hết chui xuống gầm bàn.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:火事:かじ",
-   "kana": "かじ",
-   "kanji": "火事",
-   "hv": "HỎA SỰ",
-   "vi": "hỏa hoạn, vụ cháy",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên tai",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "近[ちか]くで火事[かじ]がありました。",
-     "vi": "Gần đây có vụ cháy.",
-     "ctx": "doisong"
+      "id": "v:地震:じしん",
+      "kana": "じしん",
+      "kanji": "地震",
+      "hv": "ĐỊA CHẤN",
+      "vi": "động đất",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên tai",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "昨日[きのう]の夜[よる]、地震[じしん]がありました。",
+          "vi": "Đêm qua có động đất.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "地震[じしん]の時[とき]は、まず机[つくえ]の下[した]に入[はい]ります。",
+          "vi": "Khi động đất, trước hết chui xuống gầm bàn.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "火事[かじ]を見[み]つけたら、119番[ばん]に電話[でんわ]します。",
-     "vi": "Thấy cháy thì gọi 119.",
-     "ctx": "thutuc"
-    }
-   ]
-  },
-  {
-   "id": "v:事故:じこ",
-   "kana": "じこ",
-   "kanji": "事故",
-   "hv": "SỰ CỐ",
-   "vi": "tai nạn, sự cố",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên tai",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "交通事故[こうつうじこ]で電車[でんしゃ]が止[と]まっています。",
-     "vi": "Tàu dừng vì tai nạn giao thông.",
-     "ctx": "doisong"
+      "id": "v:火事:かじ",
+      "kana": "かじ",
+      "kanji": "火事",
+      "hv": "HỎA SỰ",
+      "vi": "hỏa hoạn, vụ cháy",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên tai",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "近[ちか]くで火事[かじ]がありました。",
+          "vi": "Gần đây có vụ cháy.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "火事[かじ]を見[み]つけたら、119番[ばん]に電話[でんわ]します。",
+          "vi": "Thấy cháy thì gọi 119.",
+          "ctx": "thutuc"
+        }
+      ]
     },
     {
-     "jp": "事故[じこ]を防[ふせ]ぐために、ルールを守[まも]りましょう。",
-     "vi": "Hãy tuân thủ quy tắc để phòng tai nạn.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:星:ほし",
-   "kana": "ほし",
-   "kanji": "星",
-   "hv": "TINH",
-   "vi": "ngôi sao",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "田舎[いなか]は星[ほし]がきれいに見[み]えます。",
-     "vi": "Ở quê nhìn thấy sao rất đẹp.",
-     "ctx": "doisong"
+      "id": "v:事故:じこ",
+      "kana": "じこ",
+      "kanji": "事故",
+      "hv": "SỰ CỐ",
+      "vi": "tai nạn, sự cố",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên tai",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "交通事故[こうつうじこ]で電車[でんしゃ]が止[と]まっています。",
+          "vi": "Tàu dừng vì tai nạn giao thông.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "事故[じこ]を防[ふせ]ぐために、ルールを守[まも]りましょう。",
+          "vi": "Hãy tuân thủ quy tắc để phòng tai nạn.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "夜勤[やきん]の帰[かえ]りに、星[ほし]を見[み]ました。",
-     "vi": "Đi ca đêm về tôi ngắm sao.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:雲:くも",
-   "kana": "くも",
-   "kanji": "雲",
-   "hv": "VÂN",
-   "vi": "mây",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "空[そら]に雲[くも]が一[ひと]つもありません。",
-     "vi": "Trên trời không có một gợn mây.",
-     "ctx": "doisong"
+      "id": "v:星:ほし",
+      "kana": "ほし",
+      "kanji": "星",
+      "hv": "TINH",
+      "vi": "ngôi sao",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "田舎[いなか]は星[ほし]がきれいに見[み]えます。",
+          "vi": "Ở quê nhìn thấy sao rất đẹp.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "夜勤[やきん]の帰[かえ]りに、星[ほし]を見[み]ました。",
+          "vi": "Đi ca đêm về tôi ngắm sao.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "黒[くろ]い雲[くも]が出[で]てきたから、雨[あめ]が降[ふ]りそうです。",
-     "vi": "Mây đen kéo đến, có vẻ sắp mưa.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:林:はやし",
-   "kana": "はやし",
-   "kanji": "林",
-   "hv": "LÂM",
-   "vi": "rừng thưa, rừng nhỏ",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "家[いえ]の後[うし]ろに林[はやし]があります。",
-     "vi": "Sau nhà có khu rừng nhỏ.",
-     "ctx": "doisong"
+      "id": "v:雲:くも",
+      "kana": "くも",
+      "kanji": "雲",
+      "hv": "VÂN",
+      "vi": "mây",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "空[そら]に雲[くも]が一[ひと]つもありません。",
+          "vi": "Trên trời không có một gợn mây.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "黒[くろ]い雲[くも]が出[で]てきたから、雨[あめ]が降[ふ]りそうです。",
+          "vi": "Mây đen kéo đến, có vẻ sắp mưa.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "林[はやし]の中[なか]を散歩[さんぽ]しました。",
-     "vi": "Tôi đi dạo trong rừng.",
-     "ctx": "doisong"
-    }
-   ],
-   "confuse": [
-    "v:森:もり"
-   ]
-  },
-  {
-   "id": "v:森:もり",
-   "kana": "もり",
-   "kanji": "森",
-   "hv": "SÂM",
-   "vi": "rừng (rậm)",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "森[もり]の中[なか]は涼[すず]しいです。",
-     "vi": "Trong rừng mát.",
-     "ctx": "doisong"
+      "id": "v:林:はやし",
+      "kana": "はやし",
+      "kanji": "林",
+      "hv": "LÂM",
+      "vi": "rừng thưa, rừng nhỏ",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "家[いえ]の後[うし]ろに林[はやし]があります。",
+          "vi": "Sau nhà có khu rừng nhỏ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "林[はやし]の中[なか]を散歩[さんぽ]しました。",
+          "vi": "Tôi đi dạo trong rừng.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:森:もり"
+      ]
     },
     {
-     "jp": "日本[にほん]は森[もり]が多[おお]い国[くに]です。",
-     "vi": "Nhật là nước nhiều rừng.",
-     "ctx": "doisong"
-    }
-   ],
-   "confuse": [
-    "v:林:はやし"
-   ]
-  },
-  {
-   "id": "v:坂:さか",
-   "kana": "さか",
-   "kanji": "坂",
-   "hv": "PHẢN",
-   "vi": "con dốc",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "寮[りょう]までの坂[さか]がきついです。",
-     "vi": "Con dốc về ký túc xá dốc lắm.",
-     "ctx": "doisong"
+      "id": "v:森:もり",
+      "kana": "もり",
+      "kanji": "森",
+      "hv": "SÂM",
+      "vi": "rừng (rậm)",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "森[もり]の中[なか]は涼[すず]しいです。",
+          "vi": "Trong rừng mát.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "日本[にほん]は森[もり]が多[おお]い国[くに]です。",
+          "vi": "Nhật là nước nhiều rừng.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:林:はやし"
+      ]
     },
     {
-     "jp": "神戸[こうべ]は坂[さか]の多[おお]い町[まち]です。",
-     "vi": "Kobe là thành phố nhiều dốc.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:島:しま",
-   "kana": "しま",
-   "kanji": "島",
-   "hv": "ĐẢO",
-   "vi": "đảo",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]は島[しま]の国[くに]です。",
-     "vi": "Nhật là đảo quốc.",
-     "ctx": "doisong"
+      "id": "v:坂:さか",
+      "kana": "さか",
+      "kanji": "坂",
+      "hv": "PHẢN",
+      "vi": "con dốc",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "寮[りょう]までの坂[さか]がきついです。",
+          "vi": "Con dốc về ký túc xá dốc lắm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "神戸[こうべ]は坂[さか]の多[おお]い町[まち]です。",
+          "vi": "Kobe là thành phố nhiều dốc.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "淡路島[あわじしま]の玉[たま]ねぎは有名[ゆうめい]です。",
-     "vi": "Hành tây đảo Awaji nổi tiếng.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:港:みなと",
-   "kana": "みなと",
-   "kanji": "港",
-   "hv": "CẢNG",
-   "vi": "cảng",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "朝[あさ]、港[みなと]に船[ふね]が帰[かえ]ってきます。",
-     "vi": "Sáng tàu cá về cảng.",
-     "ctx": "xuong"
+      "id": "v:島:しま",
+      "kana": "しま",
+      "kanji": "島",
+      "hv": "ĐẢO",
+      "vi": "đảo",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]は島[しま]の国[くに]です。",
+          "vi": "Nhật là đảo quốc.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "淡路島[あわじしま]の玉[たま]ねぎは有名[ゆうめい]です。",
+          "vi": "Hành tây đảo Awaji nổi tiếng.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "神戸港[こうべこう]はとてもきれいです。",
-     "vi": "Cảng Kobe rất đẹp.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:湖:みずうみ",
-   "kana": "みずうみ",
-   "kanji": "湖",
-   "hv": "HỒ",
-   "vi": "hồ",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "琵琶湖[びわこ]は日本[にほん]で一番[いちばん]大[おお]きい湖[みずうみ]です。",
-     "vi": "Hồ Biwa là hồ lớn nhất Nhật.",
-     "ctx": "doisong"
+      "id": "v:港:みなと",
+      "kana": "みなと",
+      "kanji": "港",
+      "hv": "CẢNG",
+      "vi": "cảng",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "朝[あさ]、港[みなと]に船[ふね]が帰[かえ]ってきます。",
+          "vi": "Sáng tàu cá về cảng.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "神戸港[こうべこう]はとてもきれいです。",
+          "vi": "Cảng Kobe rất đẹp.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "湖[みずうみ]でボートに乗[の]りました。",
-     "vi": "Tôi chèo thuyền trên hồ.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:海岸:かいがん",
-   "kana": "かいがん",
-   "kanji": "海岸",
-   "hv": "HẢI NGẠN",
-   "vi": "bờ biển",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "海岸[かいがん]を散歩[さんぽ]しました。",
-     "vi": "Tôi đi dạo bờ biển.",
-     "ctx": "doisong"
+      "id": "v:湖:みずうみ",
+      "kana": "みずうみ",
+      "kanji": "湖",
+      "hv": "HỒ",
+      "vi": "hồ",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "琵琶湖[びわこ]は日本[にほん]で一番[いちばん]大[おお]きい湖[みずうみ]です。",
+          "vi": "Hồ Biwa là hồ lớn nhất Nhật.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "湖[みずうみ]でボートに乗[の]りました。",
+          "vi": "Tôi chèo thuyền trên hồ.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "台風[たいふう]の時[とき]は、海岸[かいがん]に近[ちか]づかないでください。",
-     "vi": "Khi bão đừng lại gần bờ biển.",
-     "ctx": "thutuc"
-    }
-   ]
-  },
-  {
-   "id": "v:石:いし",
-   "kana": "いし",
-   "kanji": "石",
-   "hv": "THẠCH",
-   "vi": "đá, hòn đá",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "道[みち]に大[おお]きい石[いし]があります。",
-     "vi": "Trên đường có hòn đá to.",
-     "ctx": "doisong"
+      "id": "v:海岸:かいがん",
+      "kana": "かいがん",
+      "kanji": "海岸",
+      "hv": "HẢI NGẠN",
+      "vi": "bờ biển",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "海岸[かいがん]を散歩[さんぽ]しました。",
+          "vi": "Tôi đi dạo bờ biển.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "台風[たいふう]の時[とき]は、海岸[かいがん]に近[ちか]づかないでください。",
+          "vi": "Khi bão đừng lại gần bờ biển.",
+          "ctx": "thutuc"
+        }
+      ]
     },
     {
-     "jp": "貝[かい]の中[なか]に小[ちい]さい石[いし]が入[はい]っていることがあります。",
-     "vi": "Đôi khi trong sò có viên đá nhỏ.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:砂:すな",
-   "kana": "すな",
-   "kanji": "砂",
-   "hv": "SA",
-   "vi": "cát",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "子供[こども]が砂[すな]で遊[あそ]んでいます。",
-     "vi": "Trẻ con đang chơi cát.",
-     "ctx": "doisong"
+      "id": "v:石:いし",
+      "kana": "いし",
+      "kanji": "石",
+      "hv": "THẠCH",
+      "vi": "đá, hòn đá",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "道[みち]に大[おお]きい石[いし]があります。",
+          "vi": "Trên đường có hòn đá to.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "貝[かい]の中[なか]に小[ちい]さい石[いし]が入[はい]っていることがあります。",
+          "vi": "Đôi khi trong sò có viên đá nhỏ.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "アサリの砂[すな]を取[と]ってから、包装[ほうそう]します。",
-     "vi": "Nhả cát nghêu rồi mới đóng gói.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:草:くさ",
-   "kana": "くさ",
-   "kanji": "草",
-   "hv": "THẢO",
-   "vi": "cỏ",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "庭[にわ]の草[くさ]を取[と]りました。",
-     "vi": "Tôi nhổ cỏ ngoài vườn.",
-     "ctx": "doisong"
+      "id": "v:砂:すな",
+      "kana": "すな",
+      "kanji": "砂",
+      "hv": "SA",
+      "vi": "cát",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "子供[こども]が砂[すな]で遊[あそ]んでいます。",
+          "vi": "Trẻ con đang chơi cát.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "アサリの砂[すな]を取[と]ってから、包装[ほうそう]します。",
+          "vi": "Nhả cát nghêu rồi mới đóng gói.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "草[くさ]の上[うえ]に座[すわ]って、お弁当[べんとう]を食[た]べました。",
-     "vi": "Ngồi trên cỏ ăn cơm hộp.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:枝:えだ",
-   "kana": "えだ",
-   "kanji": "枝",
-   "hv": "CHI",
-   "vi": "cành cây",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "台風[たいふう]で木[き]の枝[えだ]が折[お]れました。",
-     "vi": "Bão làm gãy cành cây.",
-     "ctx": "doisong"
+      "id": "v:草:くさ",
+      "kana": "くさ",
+      "kanji": "草",
+      "hv": "THẢO",
+      "vi": "cỏ",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "庭[にわ]の草[くさ]を取[と]りました。",
+          "vi": "Tôi nhổ cỏ ngoài vườn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "草[くさ]の上[うえ]に座[すわ]って、お弁当[べんとう]を食[た]べました。",
+          "vi": "Ngồi trên cỏ ăn cơm hộp.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "桜[さくら]の枝[えだ]を折[お]ってはいけません。",
-     "vi": "Không được bẻ cành anh đào.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:葉:は",
-   "kana": "は",
-   "kanji": "葉",
-   "hv": "DIỆP",
-   "vi": "lá cây",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "秋[あき]になると、葉[は]が赤[あか]くなります。",
-     "vi": "Sang thu lá chuyển đỏ.",
-     "ctx": "doisong"
+      "id": "v:枝:えだ",
+      "kana": "えだ",
+      "kanji": "枝",
+      "hv": "CHI",
+      "vi": "cành cây",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "台風[たいふう]で木[き]の枝[えだ]が折[お]れました。",
+          "vi": "Bão làm gãy cành cây.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "桜[さくら]の枝[えだ]を折[お]ってはいけません。",
+          "vi": "Không được bẻ cành anh đào.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "刺身[さしみ]の横[よこ]に、緑[みどり]の葉[は]を飾[かざ]ります。",
-     "vi": "Trang trí lá xanh bên cạnh sashimi.",
-     "ctx": "xuong"
-    }
-   ],
-   "ctr": "枚"
-  },
-  {
-   "id": "v:小鳥:ことり",
-   "kana": "ことり",
-   "kanji": "小鳥",
-   "hv": "TIỂU ĐIỂU",
-   "vi": "chim nhỏ",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "朝[あさ]、小鳥[ことり]が鳴[な]いています。",
-     "vi": "Sáng chim hót.",
-     "ctx": "doisong"
+      "id": "v:葉:は",
+      "kana": "は",
+      "kanji": "葉",
+      "hv": "DIỆP",
+      "vi": "lá cây",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "秋[あき]になると、葉[は]が赤[あか]くなります。",
+          "vi": "Sang thu lá chuyển đỏ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "刺身[さしみ]の横[よこ]に、緑[みどり]の葉[は]を飾[かざ]ります。",
+          "vi": "Trang trí lá xanh bên cạnh sashimi.",
+          "ctx": "xuong"
+        }
+      ],
+      "ctr": "枚"
     },
     {
-     "jp": "公園[こうえん]で小鳥[ことり]にえさをやりました。",
-     "vi": "Tôi cho chim ăn ở công viên.",
-     "ctx": "doisong"
-    }
-   ],
-   "ctr": "羽[わ]"
-  },
-  {
-   "id": "v:虫:むし",
-   "kana": "むし",
-   "kanji": "虫",
-   "hv": "TRÙNG",
-   "vi": "côn trùng, sâu bọ",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "夏[なつ]は虫[むし]が多[おお]いです。",
-     "vi": "Mùa hè nhiều côn trùng.",
-     "ctx": "doisong"
+      "id": "v:小鳥:ことり",
+      "kana": "ことり",
+      "kanji": "小鳥",
+      "hv": "TIỂU ĐIỂU",
+      "vi": "chim nhỏ",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "朝[あさ]、小鳥[ことり]が鳴[な]いています。",
+          "vi": "Sáng chim hót.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "公園[こうえん]で小鳥[ことり]にえさをやりました。",
+          "vi": "Tôi cho chim ăn ở công viên.",
+          "ctx": "doisong"
+        }
+      ],
+      "ctr": "羽[わ]"
     },
     {
-     "jp": "工場[こうじょう]に虫[むし]が入[はい]らないように、ドアを閉[し]めてください。",
-     "vi": "Đóng cửa để côn trùng không vào xưởng.",
-     "ctx": "xuong"
-    }
-   ],
-   "ctr": "匹"
-  },
-  {
-   "id": "v:空気:くうき",
-   "kana": "くうき",
-   "kanji": "空気",
-   "hv": "KHÔNG KHÍ",
-   "vi": "không khí",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "田舎[いなか]は空気[くうき]がきれいです。",
-     "vi": "Ở quê không khí trong lành.",
-     "ctx": "doisong"
+      "id": "v:虫:むし",
+      "kana": "むし",
+      "kanji": "虫",
+      "hv": "TRÙNG",
+      "vi": "côn trùng, sâu bọ",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "夏[なつ]は虫[むし]が多[おお]いです。",
+          "vi": "Mùa hè nhiều côn trùng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "工場[こうじょう]に虫[むし]が入[はい]らないように、ドアを閉[し]めてください。",
+          "vi": "Đóng cửa để côn trùng không vào xưởng.",
+          "ctx": "xuong"
+        }
+      ],
+      "ctr": "匹"
     },
     {
-     "jp": "窓[まど]を開[あ]けて、空気[くうき]を入[い]れ替[か]えましょう。",
-     "vi": "Mở cửa sổ thay không khí.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:光:ひかり",
-   "kana": "ひかり",
-   "kanji": "光",
-   "hv": "QUANG",
-   "vi": "ánh sáng",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "朝[あさ]の光[ひかり]で目[め]が覚[さ]めました。",
-     "vi": "Tôi tỉnh dậy vì ánh nắng sớm.",
-     "ctx": "doisong"
+      "id": "v:空気:くうき",
+      "kana": "くうき",
+      "kanji": "空気",
+      "hv": "KHÔNG KHÍ",
+      "vi": "không khí",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "田舎[いなか]は空気[くうき]がきれいです。",
+          "vi": "Ở quê không khí trong lành.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "窓[まど]を開[あ]けて、空気[くうき]を入[い]れ替[か]えましょう。",
+          "vi": "Mở cửa sổ thay không khí.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "魚[さかな]は光[ひかり]に当[あ]てないで保存[ほぞん]してください。",
-     "vi": "Bảo quản cá tránh ánh sáng.",
-     "ctx": "xuong"
-    }
-   ],
-   "rel": [
-    "v:光る:ひかる"
-   ]
-  },
-  {
-   "id": "v:景色:けしき",
-   "kana": "けしき",
-   "kanji": "景色",
-   "hv": "CẢNH SẮC",
-   "vi": "phong cảnh",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "山[やま]の上[うえ]からの景色[けしき]はすばらしいです。",
-     "vi": "Phong cảnh từ trên núi tuyệt đẹp.",
-     "ctx": "doisong"
+      "id": "v:光:ひかり",
+      "kana": "ひかり",
+      "kanji": "光",
+      "hv": "QUANG",
+      "vi": "ánh sáng",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "朝[あさ]の光[ひかり]で目[め]が覚[さ]めました。",
+          "vi": "Tôi tỉnh dậy vì ánh nắng sớm.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "魚[さかな]は光[ひかり]に当[あ]てないで保存[ほぞん]してください。",
+          "vi": "Bảo quản cá tránh ánh sáng.",
+          "ctx": "xuong"
+        }
+      ],
+      "rel": [
+        "v:光る:ひかる"
+      ]
     },
     {
-     "jp": "電車[でんしゃ]の窓[まど]から、海[うみ]の景色[けしき]が見[み]えます。",
-     "vi": "Từ cửa sổ tàu nhìn thấy cảnh biển.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:季節:きせつ",
-   "kana": "きせつ",
-   "kanji": "季節",
-   "hv": "QUÝ TIẾT",
-   "vi": "mùa",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日本[にほん]には四[よん]つの季節[きせつ]があります。",
-     "vi": "Nhật có bốn mùa.",
-     "ctx": "doisong"
+      "id": "v:景色:けしき",
+      "kana": "けしき",
+      "kanji": "景色",
+      "hv": "CẢNH SẮC",
+      "vi": "phong cảnh",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "山[やま]の上[うえ]からの景色[けしき]はすばらしいです。",
+          "vi": "Phong cảnh từ trên núi tuyệt đẹp.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "電車[でんしゃ]の窓[まど]から、海[うみ]の景色[けしき]が見[み]えます。",
+          "vi": "Từ cửa sổ tàu nhìn thấy cảnh biển.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "季節[きせつ]によって、取[と]れる魚[さかな]が変[か]わります。",
-     "vi": "Tùy mùa mà loại cá đánh bắt được thay đổi.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:天気予報:てんきよほう",
-   "kana": "てんきよほう",
-   "kanji": "天気予報",
-   "hv": "THIÊN KHÍ DỰ BÁO",
-   "vi": "dự báo thời tiết",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Thiên nhiên",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "天気予報[てんきよほう]では、明日[あした]は雨[あめ]です。",
-     "vi": "Theo dự báo thời tiết, mai mưa.",
-     "ctx": "doisong"
+      "id": "v:季節:きせつ",
+      "kana": "きせつ",
+      "kanji": "季節",
+      "hv": "QUÝ TIẾT",
+      "vi": "mùa",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日本[にほん]には四[よん]つの季節[きせつ]があります。",
+          "vi": "Nhật có bốn mùa.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "季節[きせつ]によって、取[と]れる魚[さかな]が変[か]わります。",
+          "vi": "Tùy mùa mà loại cá đánh bắt được thay đổi.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "天気予報[てんきよほう]を見[み]て、傘[かさ]を持[も]って行[い]きます。",
-     "vi": "Xem dự báo rồi mang ô theo.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:田舎:いなか",
-   "kana": "いなか",
-   "kanji": "田舎",
-   "hv": "ĐIỀN XÁ",
-   "vi": "quê, nông thôn",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Nơi chốn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "私[わたし]の田舎[いなか]は海[うみ]の近[ちか]くです。",
-     "vi": "Quê tôi gần biển.",
-     "ctx": "doisong"
+      "id": "v:天気予報:てんきよほう",
+      "kana": "てんきよほう",
+      "kanji": "天気予報",
+      "hv": "THIÊN KHÍ DỰ BÁO",
+      "vi": "dự báo thời tiết",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Thiên nhiên",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "天気予報[てんきよほう]では、明日[あした]は雨[あめ]です。",
+          "vi": "Theo dự báo thời tiết, mai mưa.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "天気予報[てんきよほう]を見[み]て、傘[かさ]を持[も]って行[い]きます。",
+          "vi": "Xem dự báo rồi mang ô theo.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "田舎[いなか]の両親[りょうしん]に電話[でんわ]しました。",
-     "vi": "Tôi gọi điện cho bố mẹ ở quê.",
-     "ctx": "doisong"
-    }
-   ],
-   "ant": [
-    {
-     "w": "都会[とかい]",
-     "vi": "thành thị"
-    }
-   ]
-  },
-  {
-   "id": "v:郊外:こうがい",
-   "kana": "こうがい",
-   "kanji": "郊外",
-   "hv": "GIAO NGOẠI",
-   "vi": "ngoại ô",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Nơi chốn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "工場[こうじょう]は町[まち]の郊外[こうがい]にあります。",
-     "vi": "Nhà máy ở ngoại ô thị trấn.",
-     "ctx": "xuong"
+      "id": "v:田舎:いなか",
+      "kana": "いなか",
+      "kanji": "田舎",
+      "hv": "ĐIỀN XÁ",
+      "vi": "quê, nông thôn",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nơi chốn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "私[わたし]の田舎[いなか]は海[うみ]の近[ちか]くです。",
+          "vi": "Quê tôi gần biển.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "田舎[いなか]の両親[りょうしん]に電話[でんわ]しました。",
+          "vi": "Tôi gọi điện cho bố mẹ ở quê.",
+          "ctx": "doisong"
+        }
+      ],
+      "ant": [
+        {
+          "w": "都会[とかい]",
+          "vi": "thành thị"
+        }
+      ]
     },
     {
-     "jp": "郊外[こうがい]のアパートは家賃[やちん]が安[やす]いです。",
-     "vi": "Căn hộ ngoại ô tiền thuê rẻ.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:寺:てら",
-   "kana": "てら",
-   "kanji": "寺",
-   "hv": "TỰ",
-   "vi": "chùa",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Nơi chốn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "京都[きょうと]には古[ふる]いお寺[てら]がたくさんあります。",
-     "vi": "Kyoto có nhiều chùa cổ.",
-     "ctx": "doisong"
+      "id": "v:郊外:こうがい",
+      "kana": "こうがい",
+      "kanji": "郊外",
+      "hv": "GIAO NGOẠI",
+      "vi": "ngoại ô",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nơi chốn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "工場[こうじょう]は町[まち]の郊外[こうがい]にあります。",
+          "vi": "Nhà máy ở ngoại ô thị trấn.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "郊外[こうがい]のアパートは家賃[やちん]が安[やす]いです。",
+          "vi": "Căn hộ ngoại ô tiền thuê rẻ.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "正月[しょうがつ]にお寺[てら]に行[い]きました。",
-     "vi": "Tết tôi đi chùa.",
-     "ctx": "doisong"
-    }
-   ],
-   "note": "Thường nói お寺[てら]."
-  },
-  {
-   "id": "v:神社:じんじゃ",
-   "kana": "じんじゃ",
-   "kanji": "神社",
-   "hv": "THẦN XÃ",
-   "vi": "đền thần đạo",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Nơi chốn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "神社[じんじゃ]でお守[まも]りを買[か]いました。",
-     "vi": "Tôi mua bùa hộ mệnh ở đền.",
-     "ctx": "doisong"
+      "id": "v:寺:てら",
+      "kana": "てら",
+      "kanji": "寺",
+      "hv": "TỰ",
+      "vi": "chùa",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nơi chốn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "京都[きょうと]には古[ふる]いお寺[てら]がたくさんあります。",
+          "vi": "Kyoto có nhiều chùa cổ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "正月[しょうがつ]にお寺[てら]に行[い]きました。",
+          "vi": "Tết tôi đi chùa.",
+          "ctx": "doisong"
+        }
+      ],
+      "note": "Thường nói お寺[てら]."
     },
     {
-     "jp": "正月[しょうがつ]は神社[じんじゃ]がとても込[こ]みます。",
-     "vi": "Tết đền rất đông.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:教会:きょうかい",
-   "kana": "きょうかい",
-   "kanji": "教会",
-   "hv": "GIÁO HỘI",
-   "vi": "nhà thờ",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Nơi chốn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "日曜日[にちようび]に教会[きょうかい]に行[い]きます。",
-     "vi": "Chủ nhật tôi đi nhà thờ.",
-     "ctx": "doisong"
+      "id": "v:神社:じんじゃ",
+      "kana": "じんじゃ",
+      "kanji": "神社",
+      "hv": "THẦN XÃ",
+      "vi": "đền thần đạo",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nơi chốn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "神社[じんじゃ]でお守[まも]りを買[か]いました。",
+          "vi": "Tôi mua bùa hộ mệnh ở đền.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "正月[しょうがつ]は神社[じんじゃ]がとても込[こ]みます。",
+          "vi": "Tết đền rất đông.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "教会[きょうかい]でベトナム語[ご]のミサがあります。",
-     "vi": "Ở nhà thờ có thánh lễ tiếng Việt.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:美術館:びじゅつかん",
-   "kana": "びじゅつかん",
-   "kanji": "美術館",
-   "hv": "MỸ THUẬT QUÁN",
-   "vi": "bảo tàng mỹ thuật",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Nơi chốn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "休[やす]みの日[ひ]に美術館[びじゅつかん]に行[い]きました。",
-     "vi": "Ngày nghỉ tôi đi bảo tàng mỹ thuật.",
-     "ctx": "doisong"
+      "id": "v:教会:きょうかい",
+      "kana": "きょうかい",
+      "kanji": "教会",
+      "hv": "GIÁO HỘI",
+      "vi": "nhà thờ",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nơi chốn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "日曜日[にちようび]に教会[きょうかい]に行[い]きます。",
+          "vi": "Chủ nhật tôi đi nhà thờ.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "教会[きょうかい]でベトナム語[ご]のミサがあります。",
+          "vi": "Ở nhà thờ có thánh lễ tiếng Việt.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "美術館[びじゅつかん]の中[なか]では、写真[しゃしん]を撮[と]らないでください。",
-     "vi": "Trong bảo tàng đừng chụp ảnh.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:動物園:どうぶつえん",
-   "kana": "どうぶつえん",
-   "kanji": "動物園",
-   "hv": "ĐỘNG VẬT VIÊN",
-   "vi": "sở thú",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Nơi chốn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "子供[こども]と動物園[どうぶつえん]に行[い]きました。",
-     "vi": "Tôi đưa con đi sở thú.",
-     "ctx": "doisong"
+      "id": "v:美術館:びじゅつかん",
+      "kana": "びじゅつかん",
+      "kanji": "美術館",
+      "hv": "MỸ THUẬT QUÁN",
+      "vi": "bảo tàng mỹ thuật",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nơi chốn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "休[やす]みの日[ひ]に美術館[びじゅつかん]に行[い]きました。",
+          "vi": "Ngày nghỉ tôi đi bảo tàng mỹ thuật.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "美術館[びじゅつかん]の中[なか]では、写真[しゃしん]を撮[と]らないでください。",
+          "vi": "Trong bảo tàng đừng chụp ảnh.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "動物園[どうぶつえん]でパンダを見[み]ました。",
-     "vi": "Tôi xem gấu trúc ở sở thú.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:展覧会:てんらんかい",
-   "kana": "てんらんかい",
-   "kanji": "展覧会",
-   "hv": "TRIỂN LÃM HỘI",
-   "vi": "triển lãm",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Nơi chốn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "写真[しゃしん]の展覧会[てんらんかい]を見[み]に行[い]きました。",
-     "vi": "Tôi đi xem triển lãm ảnh.",
-     "ctx": "doisong"
+      "id": "v:動物園:どうぶつえん",
+      "kana": "どうぶつえん",
+      "kanji": "動物園",
+      "hv": "ĐỘNG VẬT VIÊN",
+      "vi": "sở thú",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nơi chốn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "子供[こども]と動物園[どうぶつえん]に行[い]きました。",
+          "vi": "Tôi đưa con đi sở thú.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "動物園[どうぶつえん]でパンダを見[み]ました。",
+          "vi": "Tôi xem gấu trúc ở sở thú.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "食品[しょくひん]の展覧会[てんらんかい]に、会社[かいしゃ]の商品[しょうひん]を出[だ]しました。",
-     "vi": "Công ty trưng bày sản phẩm ở triển lãm thực phẩm.",
-     "ctx": "xuong"
-    }
-   ]
-  },
-  {
-   "id": "v:空港:くうこう",
-   "kana": "くうこう",
-   "kanji": "空港",
-   "hv": "KHÔNG CẢNG",
-   "vi": "sân bay",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Nơi chốn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "関西空港[かんさいくうこう]から国[くに]に帰[かえ]ります。",
-     "vi": "Tôi về nước từ sân bay Kansai.",
-     "ctx": "doisong"
+      "id": "v:展覧会:てんらんかい",
+      "kana": "てんらんかい",
+      "kanji": "展覧会",
+      "hv": "TRIỂN LÃM HỘI",
+      "vi": "triển lãm",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nơi chốn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "写真[しゃしん]の展覧会[てんらんかい]を見[み]に行[い]きました。",
+          "vi": "Tôi đi xem triển lãm ảnh.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "食品[しょくひん]の展覧会[てんらんかい]に、会社[かいしゃ]の商品[しょうひん]を出[だ]しました。",
+          "vi": "Công ty trưng bày sản phẩm ở triển lãm thực phẩm.",
+          "ctx": "xuong"
+        }
+      ]
     },
     {
-     "jp": "空港[くうこう]まで迎[むか]えに来[き]てくれました。",
-     "vi": "Có người đón tôi ở sân bay.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:飛行場:ひこうじょう"
-   ]
-  },
-  {
-   "id": "v:飛行場:ひこうじょう",
-   "kana": "ひこうじょう",
-   "kanji": "飛行場",
-   "hv": "PHI HÀNG TRƯỜNG",
-   "vi": "sân bay (cách nói cũ)",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Nơi chốn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "飛行場[ひこうじょう]の近[ちか]くは、飛行機[ひこうき]の音[おと]がうるさいです。",
-     "vi": "Gần sân bay tiếng máy bay ồn.",
-     "ctx": "doisong"
+      "id": "v:空港:くうこう",
+      "kana": "くうこう",
+      "kanji": "空港",
+      "hv": "KHÔNG CẢNG",
+      "vi": "sân bay",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nơi chốn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "関西空港[かんさいくうこう]から国[くに]に帰[かえ]ります。",
+          "vi": "Tôi về nước từ sân bay Kansai.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "空港[くうこう]まで迎[むか]えに来[き]てくれました。",
+          "vi": "Có người đón tôi ở sân bay.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:飛行場:ひこうじょう"
+      ]
     },
     {
-     "jp": "小[ちい]さい飛行場[ひこうじょう]から、島[しま]へ行[い]きます。",
-     "vi": "Từ sân bay nhỏ đi ra đảo.",
-     "ctx": "doisong"
-    }
-   ],
-   "syn": [
-    "v:空港:くうこう"
-   ]
-  },
-  {
-   "id": "v:駐車場:ちゅうしゃじょう",
-   "kana": "ちゅうしゃじょう",
-   "kanji": "駐車場",
-   "hv": "TRÚ XA TRƯỜNG",
-   "vi": "bãi đỗ xe",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Nơi chốn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "会社[かいしゃ]の駐車場[ちゅうしゃじょう]に車[くるま]を止[と]めます。",
-     "vi": "Đỗ xe ở bãi xe công ty.",
-     "ctx": "xuong"
+      "id": "v:飛行場:ひこうじょう",
+      "kana": "ひこうじょう",
+      "kanji": "飛行場",
+      "hv": "PHI HÀNH TRƯỜNG",
+      "vi": "sân bay (cách nói cũ)",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nơi chốn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "飛行場[ひこうじょう]の近[ちか]くは、飛行機[ひこうき]の音[おと]がうるさいです。",
+          "vi": "Gần sân bay tiếng máy bay ồn.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "小[ちい]さい飛行場[ひこうじょう]から、島[しま]へ行[い]きます。",
+          "vi": "Từ sân bay nhỏ đi ra đảo.",
+          "ctx": "doisong"
+        }
+      ],
+      "syn": [
+        "v:空港:くうこう"
+      ]
     },
     {
-     "jp": "スーパーの駐車場[ちゅうしゃじょう]は無料[むりょう]です。",
-     "vi": "Bãi đỗ xe siêu thị miễn phí.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:旅館:りょかん",
-   "kana": "りょかん",
-   "kanji": "旅館",
-   "hv": "LỮ QUÁN",
-   "vi": "lữ quán (khách sạn kiểu Nhật)",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Nơi chốn",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "温泉[おんせん]の旅館[りょかん]に泊[と]まりました。",
-     "vi": "Tôi nghỉ ở lữ quán suối nước nóng.",
-     "ctx": "doisong"
+      "id": "v:駐車場:ちゅうしゃじょう",
+      "kana": "ちゅうしゃじょう",
+      "kanji": "駐車場",
+      "hv": "TRÚ XA TRƯỜNG",
+      "vi": "bãi đỗ xe",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nơi chốn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "会社[かいしゃ]の駐車場[ちゅうしゃじょう]に車[くるま]を止[と]めます。",
+          "vi": "Đỗ xe ở bãi xe công ty.",
+          "ctx": "xuong"
+        },
+        {
+          "jp": "スーパーの駐車場[ちゅうしゃじょう]は無料[むりょう]です。",
+          "vi": "Bãi đỗ xe siêu thị miễn phí.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "旅館[りょかん]の朝[あさ]ご飯[はん]はおいしかったです。",
-     "vi": "Bữa sáng ở lữ quán ngon.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:乗り物:のりもの",
-   "kana": "のりもの",
-   "kanji": "乗り物",
-   "kf": "乗[の]り物[もの]",
-   "hv": "THỪA VẬT",
-   "vi": "phương tiện đi lại",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đi lại",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "電車[でんしゃ]は便利[べんり]な乗[の]り物[もの]です。",
-     "vi": "Tàu là phương tiện tiện lợi.",
-     "ctx": "doisong"
+      "id": "v:旅館:りょかん",
+      "kana": "りょかん",
+      "kanji": "旅館",
+      "hv": "LỮ QUÁN",
+      "vi": "lữ quán (khách sạn kiểu Nhật)",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Nơi chốn",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "温泉[おんせん]の旅館[りょかん]に泊[と]まりました。",
+          "vi": "Tôi nghỉ ở lữ quán suối nước nóng.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "旅館[りょかん]の朝[あさ]ご飯[はん]はおいしかったです。",
+          "vi": "Bữa sáng ở lữ quán ngon.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "子供[こども]は乗[の]り物[もの]が大好[だいす]きです。",
-     "vi": "Trẻ con rất thích các loại xe.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:急行:きゅうこう",
-   "kana": "きゅうこう",
-   "kanji": "急行",
-   "hv": "CẤP HÀNG",
-   "vi": "tàu nhanh (dừng ít ga)",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đi lại",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "急行[きゅうこう]に乗[の]れば、二十[にじゅっ]分[ぷん]で着[つ]きます。",
-     "vi": "Đi tàu nhanh thì 20 phút là đến.",
-     "ctx": "doisong"
+      "id": "v:乗り物:のりもの",
+      "kana": "のりもの",
+      "kanji": "乗り物",
+      "kf": "乗[の]り物[もの]",
+      "hv": "THỪA VẬT",
+      "vi": "phương tiện đi lại",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đi lại",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "電車[でんしゃ]は便利[べんり]な乗[の]り物[もの]です。",
+          "vi": "Tàu là phương tiện tiện lợi.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "子供[こども]は乗[の]り物[もの]が大好[だいす]きです。",
+          "vi": "Trẻ con rất thích các loại xe.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "この駅[えき]に急行[きゅうこう]は止[と]まりません。",
-     "vi": "Tàu nhanh không dừng ở ga này.",
-     "ctx": "doisong"
-    }
-   ],
-   "confuse": [
-    "v:特急:とっきゅう"
-   ]
-  },
-  {
-   "id": "v:特急:とっきゅう",
-   "kana": "とっきゅう",
-   "kanji": "特急",
-   "hv": "ĐẶC CẤP",
-   "vi": "tàu tốc hành đặc biệt",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đi lại",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "特急[とっきゅう]は、特急券[とっきゅうけん]が必要[ひつよう]です。",
-     "vi": "Tàu tốc hành cần vé tốc hành.",
-     "ctx": "doisong"
+      "id": "v:急行:きゅうこう",
+      "kana": "きゅうこう",
+      "kanji": "急行",
+      "hv": "CẤP HÀNH",
+      "vi": "tàu nhanh (dừng ít ga)",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đi lại",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "急行[きゅうこう]に乗[の]れば、二十[にじゅっ]分[ぷん]で着[つ]きます。",
+          "vi": "Đi tàu nhanh thì 20 phút là đến.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "この駅[えき]に急行[きゅうこう]は止[と]まりません。",
+          "vi": "Tàu nhanh không dừng ở ga này.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:特急:とっきゅう"
+      ]
     },
     {
-     "jp": "特急[とっきゅう]で大阪[おおさか]から金沢[かなざわ]まで行[い]きました。",
-     "vi": "Tôi đi tàu tốc hành từ Osaka đến Kanazawa.",
-     "ctx": "doisong"
-    }
-   ],
-   "confuse": [
-    "v:急行:きゅうこう"
-   ]
-  },
-  {
-   "id": "v:オートバイ:オートバイ",
-   "kana": "オートバイ",
-   "kanji": "",
-   "hv": "",
-   "vi": "xe máy, mô tô",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đi lại",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "オートバイで通勤[つうきん]しています。",
-     "vi": "Tôi đi làm bằng xe máy.",
-     "ctx": "doisong"
+      "id": "v:特急:とっきゅう",
+      "kana": "とっきゅう",
+      "kanji": "特急",
+      "hv": "ĐẶC CẤP",
+      "vi": "tàu tốc hành đặc biệt",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đi lại",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "特急[とっきゅう]は、特急券[とっきゅうけん]が必要[ひつよう]です。",
+          "vi": "Tàu tốc hành cần vé tốc hành.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "特急[とっきゅう]で大阪[おおさか]から金沢[かなざわ]まで行[い]きました。",
+          "vi": "Tôi đi tàu tốc hành từ Osaka đến Kanazawa.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:急行:きゅうこう"
+      ]
     },
     {
-     "jp": "オートバイの免許[めんきょ]を取[と]りたいです。",
-     "vi": "Tôi muốn lấy bằng lái xe máy.",
-     "ctx": "thutuc"
-    }
-   ],
-   "syn": [
-    {
-     "w": "バイク",
-     "vi": "xe máy"
-    }
-   ],
-   "goc": "auto + bicycle (ghép kiểu Nhật)",
-   "wasei": true
-  },
-  {
-   "id": "v:汽車:きしゃ",
-   "kana": "きしゃ",
-   "kanji": "汽車",
-   "hv": "KHÍ XA",
-   "vi": "tàu hỏa hơi nước (cách nói cũ)",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đi lại",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "昔[むかし]は汽車[きしゃ]で旅行[りょこう]しました。",
-     "vi": "Ngày xưa người ta đi du lịch bằng tàu hơi nước.",
-     "ctx": "doisong"
+      "id": "v:オートバイ:オートバイ",
+      "kana": "オートバイ",
+      "kanji": "",
+      "hv": "",
+      "vi": "xe máy, mô tô",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đi lại",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "オートバイで通勤[つうきん]しています。",
+          "vi": "Tôi đi làm bằng xe máy.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "オートバイの免許[めんきょ]を取[と]りたいです。",
+          "vi": "Tôi muốn lấy bằng lái xe máy.",
+          "ctx": "thutuc"
+        }
+      ],
+      "syn": [
+        {
+          "w": "バイク",
+          "vi": "xe máy"
+        }
+      ],
+      "goc": "auto + bicycle (ghép kiểu Nhật)",
+      "wasei": true
     },
     {
-     "jp": "博物館[はくぶつかん]で古[ふる]い汽車[きしゃ]を見[み]ました。",
-     "vi": "Tôi xem đầu máy hơi nước cũ ở bảo tàng.",
-     "ctx": "doisong"
-    }
-   ]
-  },
-  {
-   "id": "v:船:ふね",
-   "kana": "ふね",
-   "kanji": "船",
-   "hv": "THUYỀN",
-   "vi": "tàu, thuyền",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đi lại",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "船[ふね]で島[しま]に行[い]きます。",
-     "vi": "Đi thuyền ra đảo.",
-     "ctx": "doisong"
+      "id": "v:汽車:きしゃ",
+      "kana": "きしゃ",
+      "kanji": "汽車",
+      "hv": "KHÍ XA",
+      "vi": "tàu hỏa hơi nước (cách nói cũ)",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đi lại",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "昔[むかし]は汽車[きしゃ]で旅行[りょこう]しました。",
+          "vi": "Ngày xưa người ta đi du lịch bằng tàu hơi nước.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "博物館[はくぶつかん]で古[ふる]い汽車[きしゃ]を見[み]ました。",
+          "vi": "Tôi xem đầu máy hơi nước cũ ở bảo tàng.",
+          "ctx": "doisong"
+        }
+      ]
     },
     {
-     "jp": "船[ふね]から魚[さかな]を下[お]ろします。",
-     "vi": "Dỡ cá từ tàu xuống.",
-     "ctx": "xuong"
-    }
-   ],
-   "note": "舟[ふね] = thuyền nhỏ; 船[ふね] = tàu thuyền nói chung."
-  },
-  {
-   "id": "v:通り:とおり",
-   "kana": "とおり",
-   "kanji": "通り",
-   "kf": "通[とお]り",
-   "hv": "THÔNG",
-   "vi": "đường phố, con phố",
-   "pos": "n",
-   "level": "N4",
-   "topics": [
-    "jlpt"
-   ],
-   "sub": "Đi lại",
-   "reg": "thuong",
-   "ex": [
-    {
-     "jp": "この通[とお]りはいつも込[こ]んでいます。",
-     "vi": "Con phố này lúc nào cũng đông.",
-     "ctx": "doisong"
+      "id": "v:船:ふね",
+      "kana": "ふね",
+      "kanji": "船",
+      "hv": "THUYỀN",
+      "vi": "tàu, thuyền",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đi lại",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "船[ふね]で島[しま]に行[い]きます。",
+          "vi": "Đi thuyền ra đảo.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "船[ふね]から魚[さかな]を下[お]ろします。",
+          "vi": "Dỡ cá từ tàu xuống.",
+          "ctx": "xuong"
+        }
+      ],
+      "note": "舟[ふね] = thuyền nhỏ; 船[ふね] = tàu thuyền nói chung."
     },
     {
-     "jp": "駅前[えきまえ]の通[とお]りに、新[あたら]しい店[みせ]ができました。",
-     "vi": "Trên phố trước ga mở cửa hàng mới.",
-     "ctx": "doisong"
+      "id": "v:通り:とおり",
+      "kana": "とおり",
+      "kanji": "通り",
+      "kf": "通[とお]り",
+      "hv": "THÔNG",
+      "vi": "đường phố, con phố",
+      "pos": "n",
+      "level": "N4",
+      "topics": [
+        "jlpt"
+      ],
+      "sub": "Đi lại",
+      "reg": "thuong",
+      "ex": [
+        {
+          "jp": "この通[とお]りはいつも込[こ]んでいます。",
+          "vi": "Con phố này lúc nào cũng đông.",
+          "ctx": "doisong"
+        },
+        {
+          "jp": "駅前[えきまえ]の通[とお]りに、新[あたら]しい店[みせ]ができました。",
+          "vi": "Trên phố trước ga mở cửa hàng mới.",
+          "ctx": "doisong"
+        }
+      ],
+      "confuse": [
+        "v:道:みち"
+      ]
     }
-   ],
-   "confuse": [
-    "v:道:みち"
-   ]
-  }
- ]
+  ]
 }

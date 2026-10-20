@@ -1,0 +1,774 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "nguphap-n2-27",
+  "title": "Ngữ pháp N2 27 – Tuy… nhưng / nếu mà… được thì / vì… nên (xin lỗi): ものの・ものなら・もので",
+  "type": "grammar",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
+ },
+ "items": [
+  {
+   "id": "g:〜ものの",
+   "pattern": "〜ものの",
+   "level": "N2",
+   "meaning": "tuy… nhưng (thực tế không được như mong đợi)",
+   "structure": [
+    "Động từ / tính từ い thể thường + ものの: 買[か]ったものの, 安[やす]いものの",
+    "Tính từ な + な / である + ものの: 便利[べんり]なものの; Danh từ + である + ものの: 経験者[けいけんしゃ]であるものの",
+    "Cụm cố định: とはいうものの (tuy nói là… nhưng)"
+   ],
+   "explain": "〜ものの = TUY… NHƯNG…: thừa nhận việc A là thật, nhưng việc B lại KHÔNG như người ta chờ đợi từ A. 免許[めんきょ]は取[と]ったものの、まだ一度[いちど]も運転[うんてん]していない = tuy đã lấy bằng lái nhưng vẫn chưa lái lần nào. Vế sau thường là việc chưa làm được, chưa tiến triển, đáng tiếc.\n\nCách ghép: động từ, tính từ い thể thường (rất hay dùng thể た) + ものの; tính từ な + な / である + ものの; danh từ + である + ものの. Cụm hay gặp: 〜とはいうものの = tuy nói là… nhưng: 春[はる]とはいうものの、まだ寒[さむ]い.\n\nMức lịch sự: hơi cứng, hay gặp trong văn viết, báo cáo, lời nói nghiêm túc. Nói chuyện thường dùng 〜けど / 〜けれども. Vế sau KHÔNG dùng mệnh lệnh, rủ rê, ý chí của mình (〜てください, 〜ましょう, 〜つもりだ) — vì ものの chỉ để kể một kết quả trái mong đợi.\n\nMẹo nhớ: ものの = \"có cái đó (もの) thật đấy, nhưng…\" — có A rồi mà B thì chưa tới.",
+   "casual": "Nói thường: 〜けど: 買[か]ったけど、全然[ぜんぜん]使[つか]ってない. Kansai: 買[こ]うたけど、まだ使[つか]ってへん.",
+   "compare": [
+    {
+     "pattern": "〜のに（N4）",
+     "diff": "のに: bất mãn, trách móc, cảm xúc mạnh, dùng nhiều khi nói. ものの: bình tĩnh hơn, văn viết, chỉ \"tuy A nhưng B chưa như mong đợi\"."
+    },
+    {
+     "pattern": "〜ながら（も）",
+     "diff": "ながらも: cũng là \"tuy… nhưng\", gắn sau thân động từ / tính từ (狭[せま]いながらも). ものの: gắn sau thể thường, nhấn kết quả chưa như mong đợi."
+    }
+   ],
+   "mistakes": [
+    "Vế sau là rủ rê / ý chí: 雨[あめ]が降[ふ]っているものの、出[で]かけましょう ✗ → 雨[あめ]が降[ふ]っているけど、出[で]かけましょう.",
+    "Danh từ gắn thẳng: 経験者[けいけんしゃ]ものの ✗ → 経験者[けいけんしゃ]であるものの."
+   ],
+   "ex": [
+    {
+     "jp": "運転免許[うんてんめんきょ]は取[と]った[[ものの]]、まだ一度[いちど]も運転[うんてん]していない。",
+     "vi": "Tuy đã lấy bằng lái nhưng vẫn chưa lái lần nào.",
+     "ctx": "doisong",
+     "chunks": [
+      "運転免許[うんてんめんきょ]は",
+      "取[と]った",
+      "ものの、",
+      "まだ一度[いちど]も",
+      "運転[うんてん]",
+      "していない"
+     ],
+     "wrong": [
+      "ものなら",
+      "もので"
+     ]
+    },
+    {
+     "jp": "日本語[にほんご]の本[ほん]を買[か]った[[ものの]]、忙[いそが]しくてまだ読[よ]んでいない。",
+     "vi": "Tuy đã mua sách tiếng Nhật nhưng bận quá nên vẫn chưa đọc.",
+     "ctx": "doisong",
+     "chunks": [
+      "日本語[にほんご]の",
+      "本[ほん]を買[か]った",
+      "ものの、",
+      "忙[いそが]しくて",
+      "まだ",
+      "読[よ]んでいない"
+     ],
+     "wrong": [
+      "ものなら",
+      "ものか"
+     ]
+    },
+    {
+     "jp": "ジムに入会[にゅうかい]した[[ものの]]、三回[さんかい]しか行[い]っていない。",
+     "vi": "Tuy đã đăng ký phòng tập nhưng mới đi có ba lần.",
+     "ctx": "doisong",
+     "chunks": [
+      "ジムに",
+      "入会[にゅうかい]",
+      "した",
+      "ものの、",
+      "三回[さんかい]しか",
+      "行[い]っていない"
+     ],
+     "wrong": [
+      "もので",
+      "ものなら"
+     ]
+    },
+    {
+     "jp": "春[はる]になった[[とはいうものの]]、朝晩[あさばん]はまだ寒[さむ]い。",
+     "vi": "Tuy nói là đã sang xuân nhưng sáng tối vẫn còn lạnh.",
+     "ctx": "doisong",
+     "chunks": [
+      "春[はる]に",
+      "なったとはいうものの、",
+      "朝晩[あさばん]は",
+      "まだ",
+      "寒[さむ]い"
+     ],
+     "wrong": [
+      "とはいうもので",
+      "とはいうものなら"
+     ]
+    },
+    {
+     "jp": "新[あたら]しい機械[きかい]が入[はい]った[[ものの]]、使[つか]い方[かた]を知[し]っている人[ひと]がいない。",
+     "vi": "Tuy đã có máy mới nhưng không ai biết cách dùng.",
+     "ctx": "xuong",
+     "chunks": [
+      "新[あたら]しい機械[きかい]が",
+      "入[はい]った",
+      "ものの、",
+      "使[つか]い方[かた]を",
+      "知[し]っている",
+      "人[ひと]がいない"
+     ],
+     "wrong": [
+      "ものなら",
+      "ものか"
+     ]
+    },
+    {
+     "jp": "マニュアルは読[よ]んだ[[ものの]]、実際[じっさい]にやってみると難[むずか]しい。",
+     "vi": "Tuy đã đọc sách hướng dẫn nhưng làm thử thực tế thì thấy khó.",
+     "ctx": "xuong",
+     "chunks": [
+      "マニュアルは",
+      "読[よ]んだ",
+      "ものの、",
+      "実際[じっさい]に",
+      "やってみると",
+      "難[むずか]しい"
+     ],
+     "wrong": [
+      "もので",
+      "ものなら"
+     ]
+    },
+    {
+     "jp": "この包丁[ほうちょう]は軽[かる]くて便利[べんり]な[[ものの]]、すぐに切[き]れなくなる。",
+     "vi": "Con dao này nhẹ và tiện, nhưng mau cùn.",
+     "ctx": "xuong",
+     "chunks": [
+      "この包丁[ほうちょう]は",
+      "軽[かる]くて便利[べんり]な",
+      "ものの、",
+      "すぐに",
+      "切[き]れなく",
+      "なる"
+     ],
+     "wrong": [
+      "ものなら",
+      "もので"
+     ]
+    },
+    {
+     "jp": "申請書[しんせいしょ]は出[だ]した[[ものの]]、まだ結果[けっか]の連絡[れんらく]が来[こ]ない。",
+     "vi": "Tuy đã nộp đơn nhưng vẫn chưa có thông báo kết quả.",
+     "ctx": "thutuc",
+     "chunks": [
+      "申請書[しんせいしょ]は",
+      "出[だ]した",
+      "ものの、",
+      "まだ結果[けっか]の",
+      "連絡[れんらく]が",
+      "来[こ]ない"
+     ],
+     "wrong": [
+      "ものなら",
+      "もので"
+     ]
+    },
+    {
+     "jp": "確定申告[かくていしんこく]のやり方[かた]を調[しら]べた[[ものの]]、よく分[わ]からなかった。",
+     "vi": "Tuy đã tìm hiểu cách khai thuế cuối năm nhưng vẫn không hiểu rõ.",
+     "ctx": "thutuc",
+     "chunks": [
+      "確定申告[かくていしんこく]の",
+      "やり方[かた]を",
+      "調[しら]べた",
+      "ものの、",
+      "よく",
+      "分[わ]からなかった"
+     ],
+     "wrong": [
+      "ものなら",
+      "ものか"
+     ]
+    },
+    {
+     "jp": "A：引[ひ]っ越[こ]し先[さき]、決[き]まった？B：いい部屋[へや]は見[み]つかった[[ものの]]、家賃[やちん]がちょっと高[たか]くてね。",
+     "vi": "A: Đã chọn được chỗ chuyển đến chưa? B: Tìm được phòng tốt rồi nhưng tiền thuê hơi cao.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "ものなら",
+      "もので"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "彼[かれ]は経験者[けいけんしゃ]ものの",
+      "包丁[ほうちょう]の使[つか]い方[かた]が",
+      "下手[へた]だ"
+     ],
+     "vi": "Anh ấy tuy là người có kinh nghiệm nhưng dùng dao vụng.",
+     "bad": 0,
+     "fix": "経験者[けいけんしゃ]であるものの",
+     "why": "Danh từ + である + ものの (không gắn thẳng)."
+    },
+    {
+     "chunks": [
+      "免許[めんきょ]は取[と]ったものの",
+      "毎日[まいにち]運転[うんてん]するつもりだ",
+      "。"
+     ],
+     "vi": "Tuy đã lấy bằng nhưng vẫn chưa lái lần nào.",
+     "bad": 1,
+     "fix": "まだ一度[いちど]も運転[うんてん]していない",
+     "why": "Vế sau của ものの là kết quả trái mong đợi, không dùng ý chí (つもりだ)."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Bạn viết báo cáo cho tổ trưởng: tuy đã sửa máy nhưng vẫn còn tiếng kêu lạ.",
+     "opts": [
+      "機械[きかい]を修理[しゅうり]したものの、まだ異音[いおん]がします。",
+      "機械[きかい]を修理[しゅうり]したものなら、まだ異音[いおん]がします。",
+      "機械[きかい]を修理[しゅうり]したもので、まだ異音[いおん]がします。"
+     ],
+     "ans": 0,
+     "why": "Tuy A nhưng B chưa như mong đợi → ものの. ものなら = nếu mà được; もので = vì (sai logic)."
+    }
+   ],
+   "shift": [
+    {
+     "from": "免許[めんきょ]取[と]ったけど、まだ全然[ぜんぜん]運転[うんてん]してへんねん。",
+     "to": "免許[めんきょ]は取[と]ったものの、まだ一度[いちど]も運転[うんてん]していません。",
+     "kind": "kansai",
+     "note": "Kansai: してへん = していない; ねん = のだ. Văn trang trọng: ものの.",
+     "wrong": [
+      "免許[めんきょ]は取[と]ったものなら、まだ一度[いちど]も運転[うんてん]していません。",
+      "免許[めんきょ]は取[と]るものの、まだ一度[いちど]も運転[うんてん]していません。"
+     ]
+    }
+   ],
+   "tpl": [
+    {
+     "f": "ta",
+     "tail": [
+      "ものの",
+      "うまくいきませんでした"
+     ],
+     "vi": "Tuy đã {VP} nhưng không suôn sẻ."
+    }
+   ]
+  },
+  {
+   "id": "g:〜ものなら",
+   "pattern": "〜ものなら",
+   "level": "N2",
+   "meaning": "(1) nếu mà… được thì (việc khó); (2) nếu lỡ mà… thì (hậu quả nặng)",
+   "structure": [
+    "Động từ thể khả năng + ものなら: できるものなら, 帰[かえ]れるものなら (nếu mà được thì)",
+    "Động từ thể ý chí + ものなら: 遅刻[ちこく]しようものなら (nếu lỡ mà… thì nguy)",
+    "Vế sau (1): 〜たい / 〜てみろ; vế sau (2): hậu quả xấu (大変[たいへん]だ, 怒[おこ]られる)"
+   ],
+   "explain": "〜ものなら có hai cách dùng. (1) Thể khả năng + ものなら = NẾU MÀ LÀM ĐƯỢC… THÌ: dùng cho việc khó hoặc gần như không thể. できるものなら、もう一度[いちど]学生[がくせい]に戻[もど]りたい = nếu mà được thì tôi muốn quay lại làm học sinh. Vế sau thường là mong muốn (〜たい), hoặc lời thách (やれるものならやってみろ = giỏi thì làm thử xem).\n\n(2) Thể ý chí (〜よう / 〜おう) + ものなら = NẾU LỠ MÀ… THÌ (sẽ có hậu quả nghiêm trọng): 遅刻[ちこく]しようものなら、班長[はんちょう]にひどく怒[おこ]られる = nếu lỡ đi muộn thì bị tổ trưởng mắng nặng. Vế sau là kết quả xấu, nói hơi phóng đại.\n\nCách ghép: (1) động từ thể khả năng (dạng từ điển): 行[い]ける, 休[やす]める, 戻[もど]れる + ものなら; (2) thể ý chí: しよう, 言[い]おう, 忘[わす]れよう + ものなら. Dùng cả khi nói và viết; cách (1) mang cảm xúc mong mỏi, cách (2) hơi cường điệu. Không dùng cho việc dễ, chắc chắn làm được — khi đó dùng 〜たら / 〜ば.\n\nMẹo nhớ: ものなら = \"nếu có chuyện (もの) đó thật\" — đi với thể khả năng thì thành ƯỚC, đi với thể ý chí thì thành TAI HỌA.",
+   "casual": "Nói thường: 〜もんなら: 行[い]けるもんなら行[い]きたいわ. 〜しようもんなら、えらいことになるで (Kansai: えらい = nghiêm trọng).",
+   "compare": [
+    {
+     "pattern": "〜たら / 〜ば（N4）",
+     "diff": "Điều kiện bình thường. ものなら: việc khó, hiếm (thể khả năng) hoặc hậu quả nặng (thể ý chí)."
+    },
+    {
+     "pattern": "〜ものの",
+     "diff": "Tuy… nhưng (nhượng bộ, việc đã xảy ra). ものなら: nếu mà… (giả định)."
+    }
+   ],
+   "mistakes": [
+    "Dùng thể từ điển thường thay vì thể khả năng: 帰[かえ]るものなら帰[かえ]りたい ✗ → 帰[かえ]れるものなら帰[かえ]りたい.",
+    "Nghĩa \"nếu lỡ… thì nguy\" nhưng dùng thể khả năng: 遅刻[ちこく]できるものなら怒[おこ]られる ✗ → 遅刻[ちこく]しようものなら怒[おこ]られる."
+   ],
+   "ex": [
+    {
+     "jp": "できる[[ものなら]]、もう一度[いちど]学生[がくせい]に戻[もど]りたい。",
+     "vi": "Nếu mà được thì tôi muốn quay lại làm học sinh một lần nữa.",
+     "ctx": "doisong",
+     "chunks": [
+      "できる",
+      "ものなら、",
+      "もう",
+      "一度[いちど]",
+      "学生[がくせい]に",
+      "戻[もど]りたい"
+     ],
+     "wrong": [
+      "ものの",
+      "もので"
+     ]
+    },
+    {
+     "jp": "行[い]ける[[ものなら]]、今年[ことし]の夏[なつ]は北海道[ほっかいどう]へ行[い]ってみたい。",
+     "vi": "Nếu mà đi được thì hè năm nay tôi muốn đi Hokkaido thử.",
+     "ctx": "doisong",
+     "chunks": [
+      "行[い]ける",
+      "ものなら、",
+      "今年[ことし]の",
+      "夏[なつ]は",
+      "北海道[ほっかいどう]へ",
+      "行[い]ってみたい"
+     ],
+     "wrong": [
+      "ものの",
+      "もので"
+     ]
+    },
+    {
+     "jp": "空[そら]を飛[と]べる[[ものなら]]、飛[と]んで家族[かぞく]のところへ帰[かえ]りたい。",
+     "vi": "Nếu mà bay được thì tôi muốn bay về chỗ gia đình.",
+     "ctx": "doisong",
+     "chunks": [
+      "空[そら]を飛[と]べる",
+      "ものなら、",
+      "飛[と]んで",
+      "家族[かぞく]の",
+      "ところへ",
+      "帰[かえ]りたい"
+     ],
+     "wrong": [
+      "ものの",
+      "ものか"
+     ]
+    },
+    {
+     "jp": "妻[つま]の誕生日[たんじょうび]を忘[わす]れよう[[ものなら]]、一週間[いっしゅうかん]は口[くち]をきいてもらえない。",
+     "vi": "Nếu lỡ quên sinh nhật vợ thì cả tuần không được vợ nói chuyện với.",
+     "ctx": "doisong",
+     "chunks": [
+      "妻[つま]の誕生日[たんじょうび]を",
+      "忘[わす]れよう",
+      "ものなら、",
+      "一週間[いっしゅうかん]は",
+      "口[くち]を",
+      "きいてもらえない"
+     ],
+     "wrong": [
+      "ものの",
+      "もので"
+     ]
+    },
+    {
+     "jp": "時間[じかん]を戻[もど]せる[[ものなら]]、あのミスをする前[まえ]に戻[もど]りたい。",
+     "vi": "Nếu mà quay ngược thời gian được thì tôi muốn quay về trước lúc mắc lỗi đó.",
+     "ctx": "xuong",
+     "chunks": [
+      "時間[じかん]を",
+      "戻[もど]せる",
+      "ものなら、",
+      "あのミスを",
+      "する前[まえ]に",
+      "戻[もど]りたい"
+     ],
+     "wrong": [
+      "ものの",
+      "もので"
+     ]
+    },
+    {
+     "jp": "衛生[えいせい]検査[けんさ]の日[ひ]に遅刻[ちこく]しよう[[ものなら]]、工場長[こうじょうちょう]にひどく怒[おこ]られる。",
+     "vi": "Nếu lỡ đi muộn vào ngày kiểm tra vệ sinh thì sẽ bị giám đốc xưởng mắng nặng.",
+     "ctx": "xuong",
+     "chunks": [
+      "衛生[えいせい]検査[けんさ]の",
+      "日[ひ]に遅刻[ちこく]しよう",
+      "ものなら、",
+      "工場長[こうじょうちょう]に",
+      "ひどく",
+      "怒[おこ]られる"
+     ],
+     "wrong": [
+      "ものの",
+      "もので"
+     ]
+    },
+    {
+     "jp": "生食用[なましょくよう]の魚[さかな]を常温[じょうおん]に置[お]きっぱなしにしよう[[ものなら]]、すぐに菌[きん]が増[ふ]えてしまう。",
+     "vi": "Nếu lỡ để cá dùng ăn sống ở nhiệt độ thường thì vi khuẩn sẽ sinh sôi ngay.",
+     "ctx": "xuong",
+     "chunks": [
+      "生食用[なましょくよう]の",
+      "魚[さかな]を常温[じょうおん]に",
+      "置[お]きっぱなしに",
+      "しようものなら、",
+      "すぐに菌[きん]が",
+      "増[ふ]えてしまう"
+     ],
+     "wrong": [
+      "ものの",
+      "もので"
+     ]
+    },
+    {
+     "jp": "オンラインで申請[しんせい]できる[[ものなら]]、そうしたい。",
+     "vi": "Nếu mà nộp đơn qua mạng được thì tôi muốn làm thế.",
+     "ctx": "thutuc",
+     "chunks": [
+      "オンラインで",
+      "申請[しんせい]",
+      "できる",
+      "ものなら、",
+      "そう",
+      "したい"
+     ],
+     "wrong": [
+      "ものの",
+      "もので"
+     ]
+    },
+    {
+     "jp": "在留[ざいりゅう]カードの更新[こうしん]を忘[わす]れよう[[ものなら]]、大変[たいへん]なことになる。",
+     "vi": "Nếu lỡ quên gia hạn thẻ lưu trú thì sẽ thành chuyện lớn.",
+     "ctx": "thutuc",
+     "chunks": [
+      "在留[ざいりゅう]カードの",
+      "更新[こうしん]を",
+      "忘[わす]れよう",
+      "ものなら、",
+      "大変[たいへん]な",
+      "ことになる"
+     ],
+     "wrong": [
+      "ものの",
+      "もので"
+     ]
+    },
+    {
+     "jp": "A：明日[あした]、休[やす]みを取[と]れば？B：休[やす]める[[ものなら]]休[やす]みたいけど、人[ひと]が足[た]りないんだよ。",
+     "vi": "A: Mai xin nghỉ đi? B: Nghỉ được thì tôi muốn nghỉ lắm chứ, nhưng thiếu người.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "ものの",
+      "もので"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "帰[かえ]るものなら",
+      "今[いま]すぐ",
+      "帰[かえ]りたい"
+     ],
+     "vi": "Nếu mà về được thì tôi muốn về ngay.",
+     "bad": 0,
+     "fix": "帰[かえ]れるものなら",
+     "why": "Nghĩa \"nếu mà được\" → thể khả năng + ものなら."
+    },
+    {
+     "chunks": [
+      "遅刻[ちこく]できるものなら",
+      "班長[はんちょう]にひどく",
+      "怒[おこ]られる"
+     ],
+     "vi": "Nếu lỡ đi muộn thì bị tổ trưởng mắng nặng.",
+     "bad": 0,
+     "fix": "遅刻[ちこく]しようものなら",
+     "why": "Nghĩa \"nếu lỡ… thì hậu quả xấu\" → thể ý chí + ものなら."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Đồng nghiệp hỏi: có muốn chuyển sang ca ngày không? Bạn trả lời: nếu mà chuyển được thì muốn chuyển lắm (nhưng khó).",
+     "opts": [
+      "日勤[にっきん]に変[か]われるものなら、変[か]わりたいです。",
+      "日勤[にっきん]に変[か]われるものの、変[か]わりたいです。",
+      "日勤[にっきん]に変[か]わるものなら、変[か]わりたいです。"
+     ],
+     "ans": 0,
+     "why": "Việc khó, mong muốn → thể khả năng + ものなら. ものの = tuy… nhưng; thể từ điển 変[か]わる là sai."
+    }
+   ],
+   "shift": [
+    {
+     "from": "行[い]けるもんなら行[い]きたいわ。",
+     "to": "行[い]けるものなら、行[い]きたいです。",
+     "kind": "khaungu",
+     "note": "Khẩu ngữ: もの → もん; わ cuối câu (Kansai, nam cũng dùng) = nhấn giọng. Chuẩn: ものなら.",
+     "wrong": [
+      "行[い]けるものの、行[い]きたいです。",
+      "行[い]くものなら、行[い]きたいです。"
+     ]
+    }
+   ],
+   "tpl": [
+    {
+     "f": "kano",
+     "tail": [
+      "ものなら",
+      "そうしたいです"
+     ],
+     "vi": "Nếu mà {VP} được thì tôi muốn làm vậy."
+    },
+    {
+     "f": "ikou",
+     "tail": [
+      "ものなら",
+      "大変[たいへん]なことになります"
+     ],
+     "vi": "Nếu lỡ {VP} thì sẽ thành chuyện lớn."
+    }
+   ]
+  },
+  {
+   "id": "g:〜もので・〜ものですから（お詫び）",
+   "pattern": "〜もので・〜ものですから（お詫[わ]び）",
+   "level": "N2",
+   "meaning": "vì… nên (giải thích lý do khi xin lỗi, xin thông cảm)",
+   "structure": [
+    "Thể thường + もので / ものですから: 遅[おく]れたもので, 混[こ]んでいたものですから",
+    "Danh từ / tính từ な + な + もので: 初[はじ]めてなもので, 不慣[ふな]れなもので",
+    "Bỏ lửng cuối câu khi từ chối khéo: 今日[きょう]はちょっと用事[ようじ]があるもので…"
+   ],
+   "explain": "〜もので (lịch sự hơn: 〜ものですから) = VÌ… NÊN…, dùng khi GIẢI THÍCH LÝ DO để xin lỗi hoặc mong người nghe thông cảm. 電車[でんしゃ]が止[と]まったもので、遅[おそ]くなってしまいました = vì tàu dừng nên tôi đến muộn. Người nói nhún mình: \"chuyện là như vậy, mong anh thông cảm\".\n\nCách ghép: thể thường (động từ, tính từ い) + もので; danh từ, tính từ な + な + もので (初[はじ]めてなもので, 不慣[ふな]れなもので). Lịch sự hơn: 〜ものですから. Có thể BỎ LỬNG ở cuối câu để từ chối nhẹ nhàng: 今日[きょう]はちょっと用事[ようじ]があるもので… = hôm nay tôi có chút việc nên… (ý: xin phép không đi).\n\nAi nói với ai: cấp dưới nói với cấp trên, nhân viên nói với khách, người làm thủ tục nói với nhân viên quầy. Vế sau là chuyện đã xảy ra (〜てしまいました), lời xin lỗi, xin phép. KHÔNG dùng khi vế sau là mệnh lệnh, nhờ người khác làm, rủ rê: ✗ 時間[じかん]がないもので、急[いそ]いでください → 時間[じかん]がないので.\n\nỞ N3 bạn đã gặp 〜ものだから (cùng nghĩa, nghe biện minh mạnh hơn); ở N2 cần dùng thành thạo もので / ものですから trong lời xin lỗi công việc. Mẹo nhớ: もので = \"do chuyện (もの) là thế nên (で)…\" — kèm một cái cúi đầu.",
+   "casual": "Nói thường: 〜もんで / 〜もんだから; thân mật: 〜んだもん. Kansai: ちょっと用事[ようじ]あるもんで、先[さき]帰[かえ]るわ.",
+   "compare": [
+    {
+     "pattern": "〜ものだから・〜もので・〜もん（N3）",
+     "diff": "Cùng nghĩa. ものだから nghe biện minh mạnh hơn; もので / ものですから nhẹ, khiêm tốn, hợp khi xin lỗi cấp trên, khách."
+    },
+    {
+     "pattern": "〜ので",
+     "diff": "Lý do khách quan, dùng được trước mệnh lệnh, nhờ vả (〜ので、〜てください). もので: lý do riêng xin thông cảm, vế sau không phải mệnh lệnh."
+    }
+   ],
+   "mistakes": [
+    "Vế sau là nhờ / ra lệnh: 急[いそ]いでいるもので、早[はや]くしてください ✗ → 急[いそ]いでいるので、早[はや]くしてください.",
+    "Danh từ thiếu な: 初[はじ]めてもので ✗ → 初[はじ]めてなもので."
+   ],
+   "ex": [
+    {
+     "jp": "道[みち]が混[こ]んでいた[[もので]]、遅[おそ]くなってすみません。",
+     "vi": "Vì đường tắc nên tôi đến muộn, xin lỗi.",
+     "ctx": "doisong",
+     "chunks": [
+      "道[みち]が",
+      "混[こ]んでいた",
+      "もので、",
+      "遅[おそ]く",
+      "なって",
+      "すみません"
+     ],
+     "wrong": [
+      "ものの",
+      "ものなら"
+     ]
+    },
+    {
+     "jp": "この辺[あた]りは初[はじ]めてな[[もので]]、道[みち]に迷[まよ]ってしまいました。",
+     "vi": "Vì lần đầu đến vùng này nên tôi bị lạc đường.",
+     "ctx": "doisong",
+     "chunks": [
+      "この",
+      "辺[あた]りは",
+      "初[はじ]めてな",
+      "もので、",
+      "道[みち]に",
+      "迷[まよ]ってしまいました"
+     ],
+     "wrong": [
+      "ものの",
+      "ものなら"
+     ]
+    },
+    {
+     "jp": "スマホの電池[でんち]が切[き]れていた[[もので]]、お返事[へんじ]が遅[おく]れました。",
+     "vi": "Vì điện thoại hết pin nên tôi trả lời muộn.",
+     "ctx": "doisong",
+     "chunks": [
+      "スマホの",
+      "電池[でんち]が",
+      "切[き]れていた",
+      "もので、",
+      "お返事[へんじ]が",
+      "遅[おく]れました"
+     ],
+     "wrong": [
+      "ものの",
+      "ものなら"
+     ]
+    },
+    {
+     "jp": "今日[きょう]はちょっと用事[ようじ]がある[[もので]]、お先[さき]に失礼[しつれい]します。",
+     "vi": "Hôm nay tôi có chút việc nên xin phép về trước.",
+     "ctx": "doisong",
+     "chunks": [
+      "今日[きょう]は",
+      "ちょっと",
+      "用事[ようじ]がある",
+      "もので、",
+      "お先[さき]に失礼[しつれい]",
+      "します"
+     ],
+     "wrong": [
+      "ものの",
+      "ものなら"
+     ]
+    },
+    {
+     "jp": "手袋[てぶくろ]が破[やぶ]れていた[[もので]]、新[あたら]しいのに替[か]えました。",
+     "vi": "Vì găng tay bị rách nên tôi đã thay cái mới.",
+     "ctx": "xuong",
+     "chunks": [
+      "手袋[てぶくろ]が",
+      "破[やぶ]れていた",
+      "もので、",
+      "新[あたら]しいのに",
+      "替[か]えました"
+     ],
+     "wrong": [
+      "ものの",
+      "ものなら"
+     ]
+    },
+    {
+     "jp": "まだこの作業[さぎょう]に慣[な]れていない[[もので]]、時間[じかん]がかかってしまいました。申[もう]し訳[わけ]ありません。",
+     "vi": "Vì chưa quen công việc này nên tôi đã làm mất thời gian. Tôi xin lỗi.",
+     "ctx": "xuong",
+     "chunks": [
+      "まだこの作業[さぎょう]に",
+      "慣[な]れていない",
+      "もので、時間[じかん]が",
+      "かかってしまいました。",
+      "申[もう]し訳[わけ]",
+      "ありません"
+     ],
+     "wrong": [
+      "ものの",
+      "ものなら"
+     ]
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]の温度[おんど]表示[ひょうじ]が見[み]えにくかった[[もので]]、確認[かくにん]が遅[おく]れてしまいました。",
+     "vi": "Vì đồng hồ nhiệt độ của tủ cấp đông khó nhìn nên tôi kiểm tra chậm.",
+     "ctx": "xuong",
+     "chunks": [
+      "冷凍庫[れいとうこ]の",
+      "温度[おんど]表示[ひょうじ]が",
+      "見[み]えにくかった",
+      "もので、",
+      "確認[かくにん]が",
+      "遅[おく]れてしまいました"
+     ],
+     "wrong": [
+      "ものの",
+      "ものなら"
+     ]
+    },
+    {
+     "jp": "必要[ひつよう]な書類[しょるい]が一枚[いちまい]足[た]りなかった[[もので]]、申請[しんせい]は来週[らいしゅう]になりました。",
+     "vi": "Vì thiếu một tờ giấy cần thiết nên việc nộp đơn dời sang tuần sau.",
+     "ctx": "thutuc",
+     "chunks": [
+      "必要[ひつよう]な",
+      "書類[しょるい]が一枚[いちまい]",
+      "足[た]りなかった",
+      "もので、",
+      "申請[しんせい]は来週[らいしゅう]に",
+      "なりました"
+     ],
+     "wrong": [
+      "ものの",
+      "ものなら"
+     ]
+    },
+    {
+     "jp": "会社[かいしゃ]の証明書[しょうめいしょ]をもらうのに時間[じかん]がかかった[[ものですから]]、提出[ていしゅつ]が期限[きげん]ぎりぎりになってしまいました。",
+     "vi": "Vì xin giấy chứng nhận của công ty mất thời gian nên tôi nộp sát hạn chót.",
+     "ctx": "thutuc",
+     "chunks": [
+      "会社[かいしゃ]の証明書[しょうめいしょ]を",
+      "もらうのに",
+      "時間[じかん]がかかった",
+      "ものですから、",
+      "提出[ていしゅつ]が期限[きげん]ぎりぎりに",
+      "なってしまいました"
+     ],
+     "wrong": [
+      "ものの",
+      "ものなら"
+     ]
+    },
+    {
+     "jp": "A：グエンさん、昨日[きのう]の飲[の]み会[かい]、来[こ]なかったね。B：すみません、ちょっと体調[たいちょう]が悪[わる]かった[[もので]]。",
+     "vi": "A: Anh Nguyễn, hôm qua không đến buổi nhậu nhỉ. B: Xin lỗi, vì tôi thấy hơi mệt trong người ạ.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "ものの",
+      "ものなら"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "時間[じかん]がないもので",
+      "急[いそ]いで",
+      "ください"
+     ],
+     "vi": "Vì không có thời gian, xin hãy nhanh lên.",
+     "bad": 0,
+     "fix": "時間[じかん]がないので",
+     "why": "Vế sau là nhờ / ra lệnh cho người khác → ので, không dùng もので."
+    },
+    {
+     "chunks": [
+      "この作業[さぎょう]は初[はじ]めてもので",
+      "時間[じかん]がかかって",
+      "しまいました"
+     ],
+     "vi": "Vì là lần đầu làm việc này nên tôi đã làm mất thời gian.",
+     "bad": 0,
+     "fix": "この作業[さぎょう]は初[はじ]めてなもので",
+     "why": "Danh từ / tính từ な + な + もので."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Bạn gọi điện cho tổ trưởng buổi sáng: vì tàu dừng do tai nạn nên sẽ đến muộn khoảng 30 phút, xin lỗi.",
+     "opts": [
+      "事故[じこ]で電車[でんしゃ]が止[と]まっているもので、三十分[さんじゅっぷん]ほど遅[おく]れます。申[もう]し訳[わけ]ありません。",
+      "事故[じこ]で電車[でんしゃ]が止[と]まっているものの、三十分[さんじゅっぷん]ほど遅[おく]れます。申[もう]し訳[わけ]ありません。",
+      "事故[じこ]で電車[でんしゃ]が止[と]まっているものなら、三十分[さんじゅっぷん]ほど遅[おく]れます。申[もう]し訳[わけ]ありません。"
+     ],
+     "ans": 0,
+     "why": "Giải thích lý do + xin lỗi cấp trên → もので. ものの = tuy… nhưng (sai logic); ものなら = nếu mà."
+    }
+   ],
+   "shift": [
+    {
+     "from": "ちょっと用事[ようじ]あるもんで、先[さき]帰[かえ]るわ。",
+     "to": "ちょっと用事[ようじ]があるもので、お先[さき]に失礼[しつれい]します。",
+     "kind": "lichsu",
+     "note": "Khẩu ngữ もんで → もので; 先[さき]帰[かえ]るわ (Kansai, thân mật) → お先[さき]に失礼[しつれい]します (lịch sự với cấp trên).",
+     "wrong": [
+      "ちょっと用事[ようじ]があるものの、お先[さき]に失礼[しつれい]します。",
+      "ちょっと用事[ようじ]があるものなら、お先[さき]に失礼[しつれい]します。"
+     ]
+    }
+   ],
+   "tpl": [
+    {
+     "f": "ta",
+     "tail": [
+      "もので",
+      "連絡[れんらく]が遅[おく]れました"
+     ],
+     "vi": "Vì tôi {VP} nên liên lạc chậm."
+    }
+   ]
+  }
+ ]
+}
