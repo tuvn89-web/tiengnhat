@@ -42,7 +42,7 @@ export function renderDoc(view, ctx, id, mode = 'doc') {
   const L = it.lesson && D.items.get(it.lesson);
   const modes = MODES.filter(([m]) => (m !== 'vai' || isDialog(it)) && (m !== 'khoa' || linesOf(it).some(t => t.key)) && (m !== 'nghe' || ttsReady()));
   if (!modes.some(([m]) => m === mode)) mode = 'doc';
-  const back = L ? `#/bai/${encodeURIComponent(L.id)}?b=${it.intro ? 0 : 7}` : '#/doc';
+  const back = L ? `#/bai/${encodeURIComponent(L.id)}?b=${it.intro ? 1 : 6}` : '#/doc';
   view.innerHTML = `<a class="back" href="${back}">${L ? `Bài ${L.order}: ${esc(L.title)}` : 'Hội thoại & bài đọc'}</a>
     <h1 class="h1">${esc(it.title)}${docDone(id) ? ' <small class="muted">✓</small>' : ''}</h1>
     <p class="small muted">${esc(it.level)} · ${esc(isDialog(it) ? MEDIUM[it.medium] || 'Hội thoại' : KIND[it.kind] || 'Bài đọc')} · ${esc(CTX[it.ctx] || '')}</p>

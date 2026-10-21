@@ -45,22 +45,67 @@ export async function review(id, dir, ok, { onlyIfDue = false, slow = false } = 
   x.due = startOfDay(now) + IV[x.b] * DAY;
   x.t = now;
   r.d[d] = x; r.t = now;
-  // v41: chữ Hán đang gắn nhãn "cần học lại": đúng 2 lần liền ở câu hỏi thẻ chữ thì tự gỡ nhãn
-  if (r.rl && id.startsWith('k:')) { if (ok) { r.rlok = (r.rlok || 0) + 1; if (r.rlok >= 2) { r.rl = false; r.rlok = 0; r.rlt = now; } } else r.rlok = 0; }
+  rlStep(r, id, ok, now);
   P.set(id, r);
   await put('progress', r);
   PV++; onChange();
 }
 // v41: nút "Chưa học" ở chữ Hán — gắn / gỡ nhãn "cần học lại" (tiến độ cũ giữ nguyên; đồng bộ theo mốc rlt)
-export async function setRelearn(id, on) {
+// v41: chữ Hán gắn nhãn "cần học lại" bằng nút "Chưa học": đúng 2 lần liền ở câu hỏi thẻ chữ thì tự gỡ nhãn
+// v50: nhãn gắn từ "Kiểm tra nhanh" (Học lại) — từ, ngữ pháp, chữ Hán: đúng ở 2 ngày khác nhau thì gỡ; sai thì đếm lại
+function rlStep(r, id, ok, now) {
+  if (!r.rl) return;
+  if (id.startsWith('k:') && !r.rlk) { if (ok) { r.rlok = (r.rlok || 0) + 1; if (r.rlok >= 2) { r.rl = false; r.rlok = 0; r.rlt = now; } } else r.rlok = 0; return; }
+  const day = startOfDay(now);
+  if (!ok) { r.rlok = 0; r.rld = 0; r.rlt = now; }
+  else if (day !== r.rld) { r.rlok = (r.rlok || 0) + 1; r.rld = day; r.rlt = now; if (r.rlok >= 2) { r.rl = false; r.rlok = 0; r.rlk = ''; } }
+}
+// v50: lượt "Học lại": trả lời đúng chỉ đếm cho nhãn, không lên hộp (để hôm sau vẫn hỏi lại)
+export async function rlMark(id, ok) {
+  const cur = P.get(id);
+  if (!cur?.rl) return;
+  const now = Date.now(), r = structuredClone(cur);
+  rlStep(r, id, ok, now); r.t = now;
+  P.set(id, r);
+  await put('progress', r);
+  PV++; onChange();
+}
+// v50: kind 'kt' = gắn từ Kiểm tra nhanh (gỡ khi đúng ở 2 ngày khác nhau)
+export async function setRelearn(id, on, kind = '') {
   const now = Date.now();
   const r = P.get(id) ? structuredClone(P.get(id)) : { id, d: {}, t: 0 };
-  r.rl = !!on; r.rlok = 0; r.rlt = now; r.t = now;
+  r.rl = !!on; r.rlok = 0; r.rld = 0; r.rlk = on ? kind : ''; r.rlt = now; r.t = now;
   P.set(id, r);
   await put('progress', r);
   PV++; onChange();
 }
 export const isRelearn = id => !!P.get(id)?.rl;
+// v50: gắn nhãn "cần học lại" cho nhiều mục một lần ghi (Kiểm tra nhanh)
+export async function setRelearnMany(ids, kind = 'kt') {
+  const now = Date.now(), out = [];
+  for (const id of new Set(ids)) {
+    const r = P.get(id) ? structuredClone(P.get(id)) : { id, d: {}, t: 0 };
+    r.rl = true; r.rlok = 0; r.rld = 0; r.rlk = kind; r.rlt = now; r.t = now;
+    P.set(id, r); out.push(r);
+  }
+  if (out.length) await putMany('progress', out);
+  PV++; onChange();
+}
+// v50: "Học lại từ đầu" — đưa các mục về chưa học (mọi chiều hộp 0), bỏ nhãn; mốc thời gian mới để đồng bộ sang máy khác
+export async function resetItems(ids) {
+  const now = Date.now(), out = [];
+  for (const id of new Set(ids)) {
+    const r = P.get(id);
+    if (!r) continue;
+    const n = { id, d: {}, t: now };
+    for (const d of Object.keys(r.d || {})) n.d[d] = { b: 0, due: 0, ok: 0, ng: 0, t: now };
+    if (r.st) { n.star = r.star; n.st = r.st; }
+    if (r.rlt) { n.rl = false; n.rlok = 0; n.rld = 0; n.rlk = ''; n.rlt = now; }
+    P.set(id, n); out.push(n);
+  }
+  if (out.length) await putMany('progress', out);
+  PV++; onChange();
+}
 // Làm mới lịch ôn mà không lên hộp (luyện thêm khi chưa đến hạn): hạn ôn tính lại từ hôm nay, không bao giờ kéo sớm hơn
 export async function refreshDue(id, dir) {
   const now = Date.now(), d = progDir(dir);
@@ -161,7 +206,7 @@ export async function progRestore(before) {
     }
     if (!old) delete n.first;
     if (cur?.st) { n.star = cur.star; n.st = cur.st; }
-    if (cur?.rlt) { n.rl = cur.rl; n.rlok = cur.rlok; n.rlt = cur.rlt; }
+    if (old?.rlt || cur?.rlt) { const q = old?.rlt ? old : cur; n.rl = q.rl; n.rlok = q.rlok; n.rld = q.rld; n.rlk = q.rlk; n.rlt = now; }
     n.t = now;
     out.push(n);
   }

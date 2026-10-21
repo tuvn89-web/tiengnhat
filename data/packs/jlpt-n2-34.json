@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -94,7 +94,8 @@
      "vi": "cùng nhau đoàn kết"
     }
    ],
-   "note": "団結力[だんけつりょく] = sức mạnh đoàn kết."
+   "note": "団結力[だんけつりょく] = sức mạnh đoàn kết.",
+   "vt": "tu"
   },
   {
    "id": "v:促進:そくしん",
@@ -137,7 +138,8 @@
      "vi": "thúc đẩy, đẩy mạnh (kế hoạch, chính sách)"
     }
    ],
-   "note": "販売[はんばい]促進[そくしん] (販促[はんそく]) = khuyến mãi, xúc tiến bán hàng."
+   "note": "販売[はんばい]促進[そくしん] (販促[はんそく]) = khuyến mãi, xúc tiến bán hàng.",
+   "vt": "tha"
   },
   {
    "id": "v:取り組み:とりくみ",
@@ -201,7 +203,8 @@
    "rel": [
     "v:寄付:きふ"
    ],
-   "note": "募金[ぼきん] = kêu gọi nhiều người góp tiền. 寄付[きふ] = tự mình tặng tiền, đồ."
+   "note": "募金[ぼきん] = kêu gọi nhiều người góp tiền. 寄付[きふ] = tự mình tặng tiền, đồ.",
+   "vt": "tu"
   },
   {
    "id": "v:募る:つのる",
@@ -343,7 +346,8 @@
    "rel": [
     "v:捨てる:すてる"
    ],
-   "note": "ポイ = tiếng tả động tác vứt nhẹ."
+   "note": "ポイ = tiếng tả động tác vứt nhẹ.",
+   "vt": "tha"
   },
   {
    "id": "v:節電:せつでん",
@@ -379,7 +383,8 @@
    "rel": [
     "v:節約:せつやく",
     "v:節水:せっすい"
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:節水:せっすい",
@@ -414,7 +419,8 @@
    ],
    "rel": [
     "v:節電:せつでん"
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:省エネ:しょうエネ",
@@ -475,7 +481,8 @@
      "vi": "tái chế giấy"
     }
    ],
-   "goc": "recycle (tiếng Anh)"
+   "goc": "recycle (tiếng Anh)",
+   "vt": "tha"
   },
   {
    "id": "v:助け合う:たすけあう",
@@ -1058,7 +1065,8 @@
    ],
    "ant": [
     "v:けんか:けんか"
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:声をかける:こえをかける",
@@ -1166,7 +1174,8 @@
    ],
    "confuse": [
     "v:世間話:せけんばなし"
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:世間話:せけんばなし",

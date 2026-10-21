@@ -140,6 +140,7 @@ export function runDrill(view, qs, ctx, { title = 'Luyện tập', mode = 'pract
         <p class="small muted type-tip">Bàn phím tiếng Việt (Telex) sẽ đổi chữ khi gõ romaji — chuyển sang bàn phím tiếng Anh hoặc tiếng Nhật.</p>`}`;
     }
     view.innerHTML = `<div class="run ${runClass}">${head()}${pairQ(q) && canPairs() ? modeSwHTML('quiz') : ''}${card(q)}${body}<div class="after" hidden></div></div>`;
+    view.querySelector('.run')._q = q; // (để kiểm thử tự động đọc được câu đang hiện)
     bindSay(view);
     const sw = view.querySelector('.mode-sw');
     if (sw) sw.onclick = e => { if (e.target.closest('[data-mode=pairs]')) toPairs(); };

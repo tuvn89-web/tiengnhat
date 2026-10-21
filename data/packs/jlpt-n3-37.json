@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 5,
+  "version": 6,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -39,7 +39,8 @@
      "ctx": "xuong"
     }
    ],
-   "note": "品質管理[ひんしつかんり] = quản lý chất lượng; 衛生管理[えいせいかんり] = quản lý vệ sinh."
+   "note": "品質管理[ひんしつかんり] = quản lý chất lượng; 衛生管理[えいせいかんり] = quản lý vệ sinh.",
+   "vt": "tha"
   },
   {
    "id": "v:改善:かいぜん",
@@ -120,7 +121,8 @@
      "ctx": "thutuc"
     }
    ],
-   "note": "検査[けんさ]に合格[ごうかく]する = đạt kiểm tra."
+   "note": "検査[けんさ]に合格[ごうかく]する = đạt kiểm tra.",
+   "vt": "tha"
   },
   {
    "id": "v:積極的:せっきょくてき",
@@ -513,7 +515,8 @@
      "vi": "Phân tích số liệu rồi báo cáo.",
      "ctx": "xuong"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:対策:たいさく",
@@ -570,7 +573,8 @@
    "confuse": [
     "v:改善:かいぜん"
    ],
-   "note": "改良[かいりょう] = làm cho đồ vật tốt hơn; 改善[かいぜん] = làm cho tình trạng, cách làm tốt hơn."
+   "note": "改良[かいりょう] = làm cho đồ vật tốt hơn; 改善[かいぜん] = làm cho tình trạng, cách làm tốt hơn.",
+   "vt": "tha"
   },
   {
    "id": "v:進行:しんこう",
@@ -622,7 +626,8 @@
      "vi": "Tôi làm hoạt động tình nguyện.",
      "ctx": "doisong"
     }
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:活用:かつよう",
@@ -674,7 +679,8 @@
      "vi": "Tập thể dục để duy trì sức khỏe.",
      "ctx": "doisong"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:監督:かんとく",
@@ -700,7 +706,8 @@
      "vi": "Tôi gặp đạo diễn phim.",
      "ctx": "doisong"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:管理者:かんりしゃ",
@@ -752,7 +759,8 @@
      "vi": "Chỉnh sửa kế hoạch một chút.",
      "ctx": "xuong"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:修理:しゅうり",
@@ -781,7 +789,8 @@
    ],
    "syn": [
     "v:直す:なおす"
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:仕組み:しくみ",
@@ -834,7 +843,8 @@
      "vi": "Đứa trẻ đang quan sát côn trùng.",
      "ctx": "doisong"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:強力:きょうりょく",
@@ -951,7 +961,8 @@
      "vi": "Nói thì dễ, làm mới khó.",
      "ctx": "doisong"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:設計:せっけい",
@@ -978,7 +989,8 @@
      "ctx": "xuong"
     }
    ],
-   "note": "設計図[せっけいず] = bản vẽ thiết kế."
+   "note": "設計図[せっけいず] = bản vẽ thiết kế.",
+   "vt": "tha"
   }
  ]
 }

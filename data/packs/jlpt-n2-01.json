@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 3,
+  "version": 4,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -111,7 +111,8 @@
    "rel": [
     "v:契約:けいやく"
    ],
-   "note": "違約金[いやくきん] = tiền phạt vi phạm hợp đồng. 解約[かいやく] = chấm dứt hợp đồng đang có; キャンセル = hủy việc đã đặt."
+   "note": "違約金[いやくきん] = tiền phạt vi phạm hợp đồng. 解約[かいやく] = chấm dứt hợp đồng đang có; キャンセル = hủy việc đã đặt.",
+   "vt": "tha"
   },
   {
    "id": "v:規約:きやく",
@@ -182,7 +183,8 @@
     "v:同意:どうい",
     "v:了承:りょうしょう"
    ],
-   "note": "承諾[しょうだく] = nhận lời một yêu cầu, đề nghị. 同意[どうい] = đồng ý với ý kiến, nội dung. 了承[りょうしょう] = hiểu rồi chấp nhận."
+   "note": "承諾[しょうだく] = nhận lời một yêu cầu, đề nghị. 同意[どうい] = đồng ý với ý kiến, nội dung. 了承[りょうしょう] = hiểu rồi chấp nhận.",
+   "vt": "tha"
   },
   {
    "id": "v:同意:どうい",
@@ -227,7 +229,8 @@
    ],
    "confuse": [
     "v:合意:ごうい"
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:合意:ごうい",
@@ -263,7 +266,8 @@
    "confuse": [
     "v:同意:どうい"
    ],
-   "note": "合意[ごうい] = hai bên cùng nhất trí. 同意[どうい] = một người đồng ý với ý của người khác. 合意[ごうい]に達[たっ]する = đi đến thỏa thuận."
+   "note": "合意[ごうい] = hai bên cùng nhất trí. 同意[どうい] = một người đồng ý với ý của người khác. 合意[ごうい]に達[たっ]する = đi đến thỏa thuận.",
+   "vt": "tu"
   },
   {
    "id": "v:保証人:ほしょうにん",
@@ -450,7 +454,8 @@
    "confuse": [
     "v:承諾:しょうだく"
    ],
-   "note": "ご了承[りょうしょう]ください = mong quý khách thông cảm (câu thông báo rất hay gặp). 了承[りょうしょう] = hiểu và chấp nhận; 承諾[しょうだく] = nhận lời một yêu cầu."
+   "note": "ご了承[りょうしょう]ください = mong quý khách thông cảm (câu thông báo rất hay gặp). 了承[りょうしょう] = hiểu và chấp nhận; 承諾[しょうだく] = nhận lời một yêu cầu.",
+   "vt": "tha"
   },
   {
    "id": "v:入居:にゅうきょ",
@@ -487,7 +492,8 @@
      "vi": "vào ở ký túc xá"
     }
    ],
-   "note": "入居者[にゅうきょしゃ] = người ở (thuê). Ngược lại: 退去[たいきょ] = dọn đi, trả phòng."
+   "note": "入居者[にゅうきょしゃ] = người ở (thuê). Ngược lại: 退去[たいきょ] = dọn đi, trả phòng.",
+   "vt": "tu"
   },
   {
    "id": "v:有効期限:ゆうこうきげん",
@@ -696,7 +702,8 @@
    "confuse": [
     "v:記入:きにゅう"
    ],
-   "note": "記載[きさい] = văn bản có ghi nội dung. 記入[きにゅう] = người dùng tự điền vào ô trống. 記載[きさい]漏[も]れ = ghi sót."
+   "note": "記載[きさい] = văn bản có ghi nội dung. 記入[きにゅう] = người dùng tự điền vào ô trống. 記載[きさい]漏[も]れ = ghi sót.",
+   "vt": "tha"
   },
   {
    "id": "v:明記:めいき",
@@ -731,7 +738,8 @@
    ],
    "rel": [
     "v:明確:めいかく"
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:必須:ひっす",
@@ -883,7 +891,8 @@
    "rel": [
     "v:印鑑:いんかん"
    ],
-   "note": "Nói thường: はんこを押[お]す."
+   "note": "Nói thường: はんこを押[お]す.",
+   "vt": "tu"
   },
   {
    "id": "v:印鑑:いんかん",
@@ -1006,7 +1015,8 @@
    "rel": [
     "v:違い:ちがい"
    ],
-   "note": "上記[じょうき]の通[とお]り相違[そうい]ありません = cam đoan nội dung trên đây là đúng (câu cuối đơn từ)."
+   "note": "上記[じょうき]の通[とお]り相違[そうい]ありません = cam đoan nội dung trên đây là đúng (câu cuối đơn từ).",
+   "vt": "tu"
   },
   {
    "id": "v:受理:じゅり",
@@ -1039,7 +1049,8 @@
      "vi": "tiếp nhận đơn"
     }
    ],
-   "note": "Thường dùng ở thể bị động: 受理[じゅり]される = (đơn) được tiếp nhận."
+   "note": "Thường dùng ở thể bị động: 受理[じゅり]される = (đơn) được tiếp nhận.",
+   "vt": "tha"
   },
   {
    "id": "v:交付:こうふ",
@@ -1075,7 +1086,8 @@
    "confuse": [
     "v:発行:はっこう"
    ],
-   "note": "交付[こうふ] = (cơ quan) trao giấy tờ tận tay người được nhận. 発行[はっこう] = làm ra, phát hành giấy tờ."
+   "note": "交付[こうふ] = (cơ quan) trao giấy tờ tận tay người được nhận. 発行[はっこう] = làm ra, phát hành giấy tờ.",
+   "vt": "tha"
   },
   {
    "id": "v:提示:ていじ",
@@ -1111,7 +1123,8 @@
      "jp": "条件[じょうけん]を提示[ていじ]する",
      "vi": "đưa ra điều kiện"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:不備:ふび",
@@ -1174,7 +1187,8 @@
    "confuse": [
     "v:修正:しゅうせい"
    ],
-   "note": "訂正[ていせい] = sửa chỗ sai cho đúng (chữ, số, lời nói). 修正[しゅうせい] = chỉnh sửa cho tốt hơn. Giấy tờ Nhật: gạch hai đường (二重線[にじゅうせん]) rồi đóng dấu sửa (訂正印[ていせいいん])."
+   "note": "訂正[ていせい] = sửa chỗ sai cho đúng (chữ, số, lời nói). 修正[しゅうせい] = chỉnh sửa cho tốt hơn. Giấy tờ Nhật: gạch hai đường (二重線[にじゅうせん]) rồi đóng dấu sửa (訂正印[ていせいいん]).",
+   "vt": "tha"
   },
   {
    "id": "v:書き直す:かきなおす",
@@ -1315,7 +1329,8 @@
      "jp": "申請[しんせい]を撤回[てっかい]する",
      "vi": "rút đơn"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:締め切り:しめきり",
@@ -1445,7 +1460,8 @@
    "syn": [
     "v:雇う:やとう"
    ],
-   "note": "雇用契約[こようけいやく] = hợp đồng lao động. 雇用保険[こようほけん] = bảo hiểm việc làm (thất nghiệp)."
+   "note": "雇用契約[こようけいやく] = hợp đồng lao động. 雇用保険[こようほけん] = bảo hiểm việc làm (thất nghiệp).",
+   "vt": "tha"
   },
   {
    "id": "v:賃金:ちんぎん",

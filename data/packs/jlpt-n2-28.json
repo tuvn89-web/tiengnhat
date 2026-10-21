@@ -1,1654 +1,1659 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n2-28",
-    "title": "JLPT N2 28 – Cảm thán & phản bác: nghệ thuật, cảm động, lẽ thường",
-    "type": "vocab",
-    "level": "N2",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 2,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-28",
+  "title": "JLPT N2 28 – Cảm thán & phản bác: nghệ thuật, cảm động, lẽ thường",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 3,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:美術:びじゅつ",
+   "kana": "びじゅつ",
+   "kanji": "美術",
+   "hv": "MỸ THUẬT",
+   "vi": "mỹ thuật",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:美術:びじゅつ",
-      "kana": "びじゅつ",
-      "kanji": "美術",
-      "hv": "MỸ THUẬT",
-      "vi": "mỹ thuật",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "高校[こうこう]のとき、美術[びじゅつ]の授業[じゅぎょう]が一番[いちばん]好[す]きでした。",
-          "vi": "Hồi cấp ba tôi thích giờ mỹ thuật nhất.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "姫路[ひめじ]の美術館[びじゅつかん]で、日本[にほん]の美術[びじゅつ]を見[み]てきました。",
-          "vi": "Tôi đã đi xem mỹ thuật Nhật Bản ở bảo tàng mỹ thuật Himeji.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:芸術:げいじゅつ",
-        "v:美術館:びじゅつかん"
-      ],
-      "note": "美術品[びじゅつひん] = tác phẩm mỹ thuật. 芸術[げいじゅつ] rộng hơn (cả âm nhạc, sân khấu); 美術[びじゅつ] chủ yếu là tranh, tượng, đồ thủ công."
+     "jp": "高校[こうこう]のとき、美術[びじゅつ]の授業[じゅぎょう]が一番[いちばん]好[す]きでした。",
+     "vi": "Hồi cấp ba tôi thích giờ mỹ thuật nhất.",
+     "ctx": "doisong"
     },
     {
-      "id": "v:名作:めいさく",
-      "kana": "めいさく",
-      "kanji": "名作",
-      "hv": "DANH TÁC",
-      "vi": "danh tác, tác phẩm nổi tiếng, kiệt tác được công nhận",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この映画[えいが]は、何度[なんど]見[み]ても泣[な]ける名作[めいさく]だ。",
-          "vi": "Phim này là tác phẩm nổi tiếng xem bao lần vẫn khóc.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "名作[めいさく]と呼[よ]ばれる本[ほん]を、日本語[にほんご]で読[よ]んでみたい。",
-          "vi": "Tôi muốn thử đọc bằng tiếng Nhật những cuốn sách được gọi là kinh điển.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:傑作:けっさく"
-      ],
-      "note": "名作[めいさく] = tác phẩm hay nổi tiếng, được nhiều người biết đến lâu dài."
-    },
-    {
-      "id": "v:傑作:けっさく",
-      "kana": "けっさく",
-      "kanji": "傑作",
-      "hv": "KIỆT TÁC",
-      "vi": "kiệt tác (xuất sắc nhất); (đùa) buồn cười hết chỗ nói",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この絵[え]は、画家[がか]の最高[さいこう]の傑作[けっさく]と言[い]われている。",
-          "vi": "Bức tranh này được cho là kiệt tác đỉnh cao của họa sĩ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：班[はん]長[ちょう]の変[へん]な顔[かお]の写真[しゃしん]、見[み]た？B：見[み]た見[み]た。あれは傑作[けっさく]だったね。",
-          "vi": "A: Thấy ảnh mặt hài của tổ trưởng chưa? B: Thấy rồi. Cái đó buồn cười hết chỗ nói.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "confuse": [
-        "v:名作:めいさく"
-      ],
-      "note": "傑作[けっさく] nhấn \"xuất sắc nhất\" của một tác giả. Khẩu ngữ: 傑作[けっさく]だ = buồn cười quá."
-    },
-    {
-      "id": "v:画家:がか",
-      "kana": "がか",
-      "kanji": "画家",
-      "hv": "HỌA GIA",
-      "vi": "họa sĩ",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "将来[しょうらい]は、画家[がか]になるのが夢[ゆめ]でした。",
-          "vi": "Hồi nhỏ ước mơ của tôi là trở thành họa sĩ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "有名[ゆうめい]な画家[がか]の絵[え]が、神戸[こうべ]で展示[てんじ]されている。",
-          "vi": "Tranh của họa sĩ nổi tiếng đang được trưng bày ở Kobe.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:絵画:かいが"
-      ]
-    },
-    {
-      "id": "v:彫刻:ちょうこく",
-      "kana": "ちょうこく",
-      "kanji": "彫刻",
-      "hv": "ĐIÊU KHẮC",
-      "vi": "điêu khắc, tượng",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "公園[こうえん]に、大[おお]きな彫刻[ちょうこく]が置[お]いてある。",
-          "vi": "Trong công viên có đặt một bức tượng điêu khắc lớn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "木[き]の彫刻[ちょうこく]は、職人[しょくにん]の手[て]の技[わざ]が見事[みごと]だ。",
-          "vi": "Tượng gỗ điêu khắc thể hiện tay nghề tuyệt vời của người thợ.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "彫刻家[ちょうこくか] = nhà điêu khắc. Động từ gốc: 彫[ほ]る (khắc, chạm)."
-    },
-    {
-      "id": "v:演技:えんぎ",
-      "kana": "えんぎ",
-      "kanji": "演技",
-      "hv": "DIỄN KỸ",
-      "vi": "diễn xuất; đóng kịch, giả vờ",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "あの俳優[はいゆう]の演技[えんぎ]には、胸[むね]に迫[せま]るものがある。",
-          "vi": "Diễn xuất của diễn viên đó có cái gì đó khiến lòng xao động.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "泣[な]いているのは演技[えんぎ]だよ。だまされないで。",
-          "vi": "Khóc là đóng kịch thôi. Đừng để bị lừa.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "役[やく]を演技[えんぎ]する",
-          "vi": "diễn vai"
-        }
-      ],
-      "note": "演技[えんぎ]が上手[じょうず] / 下手[へた] = diễn giỏi / dở. 演技力[えんぎりょく] = khả năng diễn xuất."
-    },
-    {
-      "id": "v:歌声:うたごえ",
-      "kana": "うたごえ",
-      "kanji": "歌声",
-      "hv": "CA THANH",
-      "vi": "giọng hát, tiếng hát",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼女[かのじょ]の歌声[うたごえ]は、本当[ほんとう]に美[うつく]しい。",
-          "vi": "Giọng hát của cô ấy thật sự rất đẹp.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "祭[まつ]りの夜[よる]、どこからか子供[こども]たちの歌声[うたごえ]が聞[き]こえた。",
-          "vi": "Đêm lễ hội, từ đâu đó vọng lại tiếng hát của bọn trẻ.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:歌手:かしゅ"
-      ]
-    },
-    {
-      "id": "v:鑑賞:かんしょう",
-      "kana": "かんしょう",
-      "kanji": "鑑賞",
-      "hv": "GIÁM THƯỞNG",
-      "vi": "thưởng thức (nghệ thuật, phim, nhạc)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "趣味[しゅみ]は、映画[えいが]鑑賞[かんしょう]です。",
-          "vi": "Sở thích của tôi là xem phim.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "宝塚[たからづか]で、初[はじ]めて舞台[ぶたい]を鑑賞[かんしょう]しました。",
-          "vi": "Lần đầu tôi được thưởng thức kịch ở Takarazuka.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "音楽[おんがく]を鑑賞[かんしょう]する",
-          "vi": "thưởng thức âm nhạc"
-        },
-        {
-          "jp": "絵[え]を鑑賞[かんしょう]する",
-          "vi": "ngắm tranh"
-        }
-      ],
-      "note": "Hay ghi ở mục sở thích trong sơ yếu lý lịch: 映画[えいが]鑑賞[かんしょう], 音楽[おんがく]鑑賞[かんしょう]. Đồng âm: 感傷[かんしょう] (đa cảm), 干渉[かんしょう] (can thiệp)."
-    },
-    {
-      "id": "v:夕日:ゆうひ",
-      "kana": "ゆうひ",
-      "kanji": "夕日",
-      "hv": "TỊCH NHẬT",
-      "vi": "mặt trời lúc chiều tà, nắng chiều",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "明石[あかし]の海[うみ]に沈[しず]む夕日[ゆうひ]は、言葉[ことば]にならないほどきれいだ。",
-          "vi": "Mặt trời lặn trên biển Akashi đẹp không lời nào tả xiết.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "仕事[しごと]の帰[かえ]りに、夕日[ゆうひ]を見[み]ながら自転車[じてんしゃ]をこいだ。",
-          "vi": "Trên đường đi làm về tôi vừa ngắm hoàng hôn vừa đạp xe.",
-          "ctx": "doisong"
-        }
-      ],
-      "ant": [
-        {
-          "w": "朝日[あさひ]",
-          "vi": "mặt trời buổi sáng"
-        }
-      ],
-      "note": "夕日[ゆうひ]が沈[しず]む = mặt trời lặn. 夕焼[ゆうや]け = ráng chiều (bầu trời đỏ)."
-    },
-    {
-      "id": "v:見応え:みごたえ",
-      "kana": "みごたえ",
-      "kanji": "見応え",
-      "kf": "見応[みごた]え",
-      "hv": "KIẾN ỨNG",
-      "vi": "đáng xem (nội dung phong phú, hấp dẫn)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この映画[えいが]は三時間[さんじかん]もあるが、見応[みごた]えがあった。",
-          "vi": "Phim này dài tới ba tiếng nhưng rất đáng xem.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "姫路[ひめじ]城[じょう]は、どこを見[み]ても見応[みごた]えがある。",
-          "vi": "Thành Himeji nhìn chỗ nào cũng đáng xem.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "見応[みごた]えがある = đáng xem. Tương tự: 読[よ]み応[ごた]え (đáng đọc), 食[た]べ応[ごた]え (ăn đã, chắc bụng)."
-    },
-    {
-      "id": "v:斬新:ざんしん",
-      "kana": "ざんしん",
-      "kanji": "斬新",
-      "hv": "TRẢM TÂN",
-      "vi": "mới mẻ, khác lạ (chưa từng có)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "このデザインは、とても斬新[ざんしん]だ。",
-          "vi": "Thiết kế này rất mới lạ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "斬新[ざんしん]なアイデアで、作業時間[さぎょうじかん]が半分[はんぶん]になった。",
-          "vi": "Nhờ ý tưởng mới lạ mà thời gian làm giảm một nửa.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：この包装[ほうそう]、見[み]たことない形[かたち]だね。B：うん、斬新[ざんしん]でしょう？",
-          "vi": "A: Bao bì này hình dạng chưa thấy bao giờ nhỉ. B: Ừ, độc đáo đúng không?",
-          "ctx": "hoithoai"
-        }
-      ],
-      "rel": [
-        "v:独特:どくとく"
-      ],
-      "note": "Hay dùng: 斬新[ざんしん]なデザイン / 斬新[ざんしん]なアイデア. Mang nghĩa khen."
-    },
-    {
-      "id": "v:繊細:せんさい",
-      "kana": "せんさい",
-      "kanji": "繊細",
-      "hv": "TIÊM TẾ",
-      "vi": "tinh vi, mảnh mai (đồ vật, hương vị); nhạy cảm (tâm hồn)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "和菓子[わがし]は、色[いろ]も形[かたち]も繊細[せんさい]だ。",
-          "vi": "Bánh ngọt Nhật cả màu lẫn hình dáng đều tinh tế.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "刺身[さしみ]の盛[も]り付[つ]けは、繊細[せんさい]な作業[さぎょう]です。",
-          "vi": "Bày sashimi là công việc tinh tế.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：あの人[ひと]、ちょっとしたことで落[お]ち込[こ]むね。B：繊細[せんさい]な人[ひと]なんだよ。",
-          "vi": "A: Người đó chuyện nhỏ cũng buồn nhỉ. B: Người ấy nhạy cảm mà.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "ant": [
-        {
-          "w": "大雑把[おおざっぱ]",
-          "vi": "qua loa, đại khái"
-        }
-      ],
-      "note": "繊細[せんさい]な味[あじ] = vị thanh tao. 繊細[せんさい]な人[ひと] = người tâm hồn nhạy cảm, dễ tổn thương."
-    },
-    {
-      "id": "v:華やか:はなやか",
-      "kana": "はなやか",
-      "kanji": "華やか",
-      "kf": "華[はな]やか",
-      "hv": "HOA",
-      "vi": "rực rỡ, lộng lẫy (sôi động)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "宝塚[たからづか]の舞台[ぶたい]は、衣装[いしょう]がとても華[はな]やかだ。",
-          "vi": "Sân khấu Takarazuka trang phục rất lộng lẫy.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "結婚式場[けっこんしきじょう]は、花[はな]で華[はな]やかに飾[かざ]られていた。",
-          "vi": "Hội trường cưới được trang trí rực rỡ bằng hoa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：今日[きょう]の忘年会[ぼうねんかい]、華[はな]やかだったね。B：うん、みんなおしゃれしてたからね。",
-          "vi": "A: Tiệc cuối năm hôm nay rực rỡ nhỉ. B: Ừ, vì ai cũng diện đẹp mà.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "ant": [
-        "v:地味:じみ"
-      ],
-      "confuse": [
-        "v:派手:はで"
-      ],
-      "note": "華[はな]やか = rực rỡ, mang nghĩa khen. 派手[はで] = sặc sỡ, lòe loẹt (có thể chê)."
-    },
-    {
-      "id": "v:鮮やか:あざやか",
-      "kana": "あざやか",
-      "kanji": "鮮やか",
-      "kf": "鮮[あざ]やか",
-      "hv": "TIÊN",
-      "vi": "tươi tắn, rõ nét (màu); gọn ghẽ (tay nghề)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "秋[あき]の山[やま]は、紅葉[こうよう]の色[いろ]が鮮[あざ]やかだ。",
-          "vi": "Núi mùa thu màu lá đỏ thật tươi tắn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "鮮[あざ]やかな包丁[ほうちょう]さばきで、マグロが解体[かいたい]された。",
-          "vi": "Con cá ngừ được xẻ bằng đường dao điêu luyện.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：このマグロの赤[あか]、きれいだね。B：鮮[あざ]やかな色[いろ]は、新[あたら]しい証拠[しょうこ]だよ。",
-          "vi": "A: Màu đỏ con cá ngừ này đẹp nhỉ. B: Màu tươi rõ là bằng chứng của độ tươi đấy.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "色鮮[いろあざ]やか = màu tươi rói. 鮮[あざ]やかに + động từ = làm gọn gàng, điêu luyện."
-    },
-    {
-      "id": "v:素朴:そぼく",
-      "kana": "そぼく",
-      "kanji": "素朴",
-      "hv": "TỐ PHÁC",
-      "vi": "mộc mạc, chân chất",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "田舎[いなか]の祖母[そぼ]の料理[りょうり]は、素朴[そぼく]でおいしい。",
-          "vi": "Món ăn của bà ở quê mộc mạc mà ngon.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新人[しんじん]から、素朴[そぼく]な質問[しつもん]をされた。",
-          "vi": "Tôi bị người mới hỏi một câu hỏi rất đơn giản.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：この村[むら]の人[ひと]たち、温[あたた]かいね。B：うん、素朴[そぼく]な人[ひと]ばかりだよ。",
-          "vi": "A: Người làng này ấm áp nhỉ. B: Ừ, toàn người chân chất.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "素朴[そぼく]な疑問[ぎもん] / 素朴[そぼく]な質問[しつもん] = thắc mắc đơn giản (ai cũng có thể nghĩ tới)."
-    },
-    {
-      "id": "v:優雅:ゆうが",
-      "kana": "ゆうが",
-      "kanji": "優雅",
-      "hv": "ƯU NHÃ",
-      "vi": "thanh lịch, tao nhã; thong dong",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "白鳥[はくちょう]が、湖[みずうみ]を優雅[ゆうが]に泳[およ]いでいる。",
-          "vi": "Thiên nga đang bơi thong dong trên hồ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "彼女[かのじょ]の踊[おど]りは、とても優雅[ゆうが]だ。",
-          "vi": "Điệu múa của cô ấy rất thanh lịch.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：休[やす]みの日[ひ]は何[なん]してるの？B：コーヒーを飲[の]んで、優雅[ゆうが]に過[す]ごしてるよ。",
-          "vi": "A: Ngày nghỉ cậu làm gì? B: Uống cà phê, sống thong dong thôi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "優雅[ゆうが]な生活[せいかつ] = cuộc sống nhàn nhã, sang trọng (có khi nói đùa, mỉa)."
-    },
-    {
-      "id": "v:雄大:ゆうだい",
-      "kana": "ゆうだい",
-      "kanji": "雄大",
-      "hv": "HÙNG ĐẠI",
-      "vi": "hùng vĩ",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nghệ thuật",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "六甲山[ろっこうさん]からの景色[けしき]は、雄大[ゆうだい]だ。",
-          "vi": "Cảnh nhìn từ núi Rokko thật hùng vĩ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "雄大[ゆうだい]な自然[しぜん]の中[なか]で、ゆっくり休[やす]みたい。",
-          "vi": "Tôi muốn thư thả nghỉ ngơi giữa thiên nhiên hùng vĩ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：富士山[ふじさん]、近[ちか]くで見[み]るとどう？B：本当[ほんとう]に雄大[ゆうだい]で、言葉[ことば]が出[で]なかったよ。",
-          "vi": "A: Núi Phú Sĩ nhìn gần thế nào? B: Hùng vĩ thật, tôi không nói nên lời.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "Hay đi với 自然[しぜん], 景色[けしき], 山[やま], 海[うみ]."
-    },
-    {
-      "id": "v:感動的:かんどうてき",
-      "kana": "かんどうてき",
-      "kanji": "感動的",
-      "hv": "CẢM ĐỘNG ĐÍCH",
-      "vi": "cảm động, lay động lòng người, đầy xúc động",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "卒業式[そつぎょうしき]のスピーチは、とても感動的[かんどうてき]だった。",
-          "vi": "Bài phát biểu ở lễ tốt nghiệp rất cảm động.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "十年[じゅうねん]ぶりの家族[かぞく]との再会[さいかい]は、感動的[かんどうてき]だった。",
-          "vi": "Cuộc đoàn tụ với gia đình sau mười năm thật xúc động.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：あの映画[えいが]、どうだった？B：最後[さいご]が感動的[かんどうてき]で、泣[な]いちゃったよ。",
-          "vi": "A: Phim đó thế nào? B: Đoạn cuối cảm động quá, tớ khóc luôn.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "rel": [
-        "v:感動:かんどう"
-      ]
-    },
-    {
-      "id": "v:迫力:はくりょく",
-      "kana": "はくりょく",
-      "kanji": "迫力",
-      "hv": "BÁCH LỰC",
-      "vi": "sức lôi cuốn mạnh mẽ, độ hoành tráng",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "大[おお]きな画面[がめん]で見[み]ると、迫力[はくりょく]が違[ちが]う。",
-          "vi": "Xem trên màn hình lớn thì độ choáng ngợp khác hẳn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "太鼓[たいこ]の演奏[えんそう]には、すごい迫力[はくりょく]があった。",
-          "vi": "Màn biểu diễn trống taiko có khí thế ghê gớm.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "迫力[はくりょく]がある / 迫力[はくりょく]満点[まんてん] = đầy khí thế. Cũng tả người: 課長[かちょう]の話[はな]し方[かた]には迫力[はくりょく]がある."
-    },
-    {
-      "id": "v:魅力的:みりょくてき",
-      "kana": "みりょくてき",
-      "kanji": "魅力的",
-      "hv": "MỊ LỰC ĐÍCH",
-      "vi": "hấp dẫn, quyến rũ (lôi cuốn người khác)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この会社[かいしゃ]は、給料[きゅうりょう]より休[やす]みの多[おお]さが魅力的[みりょくてき]だ。",
-          "vi": "Công ty này, số ngày nghỉ nhiều hấp dẫn hơn cả lương.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "神戸[こうべ]は、海[うみ]と山[やま]が近[ちか]い魅力的[みりょくてき]な町[まち]だ。",
-          "vi": "Kobe là thành phố hấp dẫn với biển và núi ở gần nhau.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：特定[とくてい]技能[ぎのう]二号[にごう]、どう思[おも]う？B：家族[かぞく]を呼[よ]べるのは、魅力的[みりょくてき]だよね。",
-          "vi": "A: Cậu nghĩ sao về kỹ năng đặc định số 2? B: Được đưa gia đình sang là hấp dẫn đấy.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "rel": [
-        "v:魅力:みりょく",
-        "v:魅了:みりょう"
-      ]
-    },
-    {
-      "id": "v:圧倒的:あっとうてき",
-      "kana": "あっとうてき",
-      "kanji": "圧倒的",
-      "hv": "ÁP ĐẢO ĐÍCH",
-      "vi": "áp đảo, vượt trội hẳn",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "試合[しあい]は、圧倒的[あっとうてき]な差[さ]で勝[か]った。",
-          "vi": "Trận đấu thắng với cách biệt áp đảo.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この作業[さぎょう]は、機械[きかい]より人[ひと]の手[て]のほうが圧倒的[あっとうてき]に速[はや]い。",
-          "vi": "Công việc này tay người nhanh vượt trội so với máy.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：投票[とうひょう]の結果[けっか]はどうだった？B：グエンさんが圧倒的[あっとうてき]に多[おお]かったよ。",
-          "vi": "A: Kết quả bỏ phiếu sao rồi? B: Anh Nguyễn được nhiều phiếu áp đảo.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "Động từ gốc: 圧倒[あっとう]する (áp đảo, làm choáng ngợp). 圧倒[あっとう]される = bị choáng ngợp."
-    },
-    {
-      "id": "v:感銘:かんめい",
-      "kana": "かんめい",
-      "kanji": "感銘",
-      "hv": "CẢM MINH",
-      "vi": "ấn tượng sâu sắc, xúc động ghi lòng",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "社長[しゃちょう]の話[はなし]に、深[ふか]い感銘[かんめい]を受[う]けました。",
-          "vi": "Tôi đã rất xúc động trước bài nói của giám đốc.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "被災地[ひさいち]の人々[ひとびと]の強[つよ]さに、感銘[かんめい]を受[う]けた。",
-          "vi": "Tôi ghi lòng trước sự mạnh mẽ của người dân vùng thiên tai.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:感動:かんどう"
-      ],
-      "note": "Hầu như dùng 感銘[かんめい]を受[う]ける. Trang trọng hơn 感動[かんどう]."
-    },
-    {
-      "id": "v:胸を打つ:むねをうつ",
-      "kana": "むねをうつ",
-      "kanji": "胸を打つ",
-      "kf": "胸[むね]を打[う]つ",
-      "hv": "HUNG ĐẢ",
-      "vi": "làm xúc động, chạm đến trái tim",
-      "pos": "expr",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "母[はは]の手紙[てがみ]には、胸[むね]を打[う]つものがあった。",
-          "vi": "Lá thư của mẹ có điều gì đó làm tôi xúc động.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "選手[せんしゅ]の最後[さいご]まで諦[あきら]めない姿[すがた]が、人々[ひとびと]の胸[むね]を打[う]った。",
-          "vi": "Hình ảnh vận động viên không bỏ cuộc tới phút cuối đã chạm đến trái tim mọi người.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Chia như động từ 打[う]つ: 胸[むね]を打[う]たれる = bị làm cho xúc động. Gần nghĩa: 心[こころ]に響[ひび]く."
-    },
-    {
-      "id": "v:見とれる:みとれる",
-      "kana": "みとれる",
-      "kanji": "見とれる",
-      "kf": "見[み]とれる",
-      "hv": "KIẾN",
-      "vi": "ngắm say mê, nhìn đến ngây người",
-      "pos": "v1",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "あまりにきれいな夜景[やけい]に、思[おも]わず見[み]とれてしまった。",
-          "vi": "Cảnh đêm đẹp quá, tôi bất giác đứng ngắm ngây người.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "先輩[せんぱい]の包丁[ほうちょう]さばきに、新人[しんじん]たちが見[み]とれている。",
-          "vi": "Đám người mới đang say mê nhìn đường dao của tiền bối.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：何[なに]をぼーっとしてるの？B：ごめん、海[うみ]に見[み]とれてた。",
-          "vi": "A: Đang ngẩn người gì thế? B: Xin lỗi, tớ mải ngắm biển.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "景色[けしき]に見[み]とれる",
-          "vi": "mải ngắm cảnh"
-        }
-      ],
-      "note": "Chữ Hán: 見惚[みと]れる (ít dùng). 〜に見[み]とれる."
-    },
-    {
-      "id": "v:魅了:みりょう",
-      "kana": "みりょう",
-      "kanji": "魅了",
-      "hv": "MỊ LIỄU",
-      "vi": "mê hoặc, làm say mê",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼女[かのじょ]の歌声[うたごえ]は、世界中[せかいじゅう]の人[ひと]を魅了[みりょう]した。",
-          "vi": "Giọng hát của cô ấy đã làm say mê người trên khắp thế giới.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "日本[にほん]の祭[まつ]りに、すっかり魅了[みりょう]されてしまった。",
-          "vi": "Tôi hoàn toàn bị lễ hội Nhật Bản mê hoặc.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "観客[かんきゃく]を魅了[みりょう]する",
-          "vi": "làm khán giả say mê"
-        }
-      ],
-      "rel": [
-        "v:魅力:みりょく"
-      ],
-      "note": "Hay dùng bị động: 〜に魅了[みりょう]される."
-    },
-    {
-      "id": "v:鳥肌:とりはだ",
-      "kana": "とりはだ",
-      "kanji": "鳥肌",
-      "hv": "ĐIỂU CƠ",
-      "vi": "nổi da gà",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "歌[うた]があまりに上手[じょうず]で、鳥肌[とりはだ]が立[た]った。",
-          "vi": "Hát hay quá làm tôi nổi da gà.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "冷凍庫[れいとうこ]に長[なが]くいると、寒[さむ]さで鳥肌[とりはだ]が立[た]つ。",
-          "vi": "Ở lâu trong kho đông lạnh là nổi da gà vì lạnh.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "鳥肌[とりはだ]が立[た]つ = nổi da gà (vì lạnh, sợ, hoặc xúc động mạnh)."
-    },
-    {
-      "id": "v:余韻:よいん",
-      "kana": "よいん",
-      "kanji": "余韻",
-      "hv": "DƯ VẬN",
-      "vi": "dư âm",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "映画[えいが]を見[み]終[お]わっても、しばらく余韻[よいん]が残[のこ]った。",
-          "vi": "Xem phim xong, dư âm vẫn còn mãi một lúc.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "旅行[りょこう]の余韻[よいん]に浸[ひた]りながら、写真[しゃしん]を見返[みかえ]した。",
-          "vi": "Vừa đắm trong dư âm chuyến du lịch vừa xem lại ảnh.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "余韻[よいん]に浸[ひた]る = đắm chìm trong dư âm. 余韻[よいん]が残[のこ]る = còn dư âm."
-    },
-    {
-      "id": "v:印象的:いんしょうてき",
-      "kana": "いんしょうてき",
-      "kanji": "印象的",
-      "hv": "ẤN TƯỢNG ĐÍCH",
-      "vi": "gây ấn tượng, đáng nhớ",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "面接官[めんせつかん]の優[やさ]しい笑顔[えがお]が、印象的[いんしょうてき]でした。",
-          "vi": "Nụ cười hiền của người phỏng vấn để lại ấn tượng.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "旅行[りょこう]で一番[いちばん]印象的[いんしょうてき]だったのは、淡路島[あわじしま]の海[うみ]だ。",
-          "vi": "Điều đáng nhớ nhất trong chuyến đi là biển đảo Awaji.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：日本[にほん]に来[き]て、何[なに]が印象的[いんしょうてき]だった？B：電車[でんしゃ]が時間通[じかんどお]りに来[く]ることかな。",
-          "vi": "A: Sang Nhật, điều gì làm cậu ấn tượng? B: Chắc là tàu đến đúng giờ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "rel": [
-        "v:印象:いんしょう"
-      ]
-    },
-    {
-      "id": "v:味わう:あじわう",
-      "kana": "あじわう",
-      "kanji": "味わう",
-      "kf": "味[あじ]わう",
-      "hv": "VỊ",
-      "vi": "thưởng thức (vị); nếm trải (cảm giác)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "地元[じもと]の魚[さかな]を、ゆっくり味[あじ]わって食[た]べた。",
-          "vi": "Tôi chậm rãi thưởng thức cá địa phương.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "初[はじ]めて班[はん]長[ちょう]として、責任[せきにん]の重[おも]さを味[あじ]わった。",
-          "vi": "Lần đầu làm tổ trưởng, tôi nếm trải sức nặng của trách nhiệm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：日本[にほん]で一番[いちばん]うれしかったことは？B：資格[しかく]に合格[ごうかく]して、達成感[たっせいかん]を味[あじ]わったときかな。",
-          "vi": "A: Điều vui nhất ở Nhật là gì? B: Chắc là lúc thi đỗ chứng chỉ, nếm trải cảm giác thành công.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "料理[りょうり]を味[あじ]わう",
-          "vi": "thưởng thức món ăn"
-        },
-        {
-          "jp": "喜[よろこ]びを味[あじ]わう",
-          "vi": "nếm trải niềm vui"
-        }
-      ],
-      "note": "Danh từ: 味[あじ]わい (hương vị, nét đặc sắc)."
-    },
-    {
-      "id": "v:感性:かんせい",
-      "kana": "かんせい",
-      "kanji": "感性",
-      "hv": "CẢM TÍNH",
-      "vi": "sự nhạy cảm (với cái đẹp, cảm xúc)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "子供[こども]の感性[かんせい]は、大人[おとな]より豊[ゆた]かだ。",
-          "vi": "Cảm quan của trẻ con phong phú hơn người lớn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この盛[も]り付[つ]けには、作[つく]った人[ひと]の感性[かんせい]が表[あらわ]れている。",
-          "vi": "Cách bày món này thể hiện cảm quan của người làm.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "感性[かんせい]が豊[ゆた]か = giàu cảm xúc, nhạy với cái đẹp. 感性[かんせい]を磨[みが]く = trau dồi cảm quan."
-    },
-    {
-      "id": "v:立派:りっぱ",
-      "kana": "りっぱ",
-      "kanji": "立派",
-      "hv": "LẬP PHÁI",
-      "vi": "đáng nể, đường hoàng (đáng khâm phục)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一人[ひとり]で子供[こども]を育[そだ]てて、本当[ほんとう]に立派[りっぱ]だ。",
-          "vi": "Một mình nuôi con, thật đáng nể.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新人[しんじん]だったグエンさんも、立派[りっぱ]なリーダーになった。",
-          "vi": "Anh Nguyễn hồi mới vào giờ đã thành trưởng nhóm đáng nể.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：今度[こんど]、家[いえ]を建[た]てるんだ。B：へえ、立派[りっぱ]な家[いえ]ができそうだね。",
-          "vi": "A: Sắp tới tôi xây nhà. B: Ồ, chắc sẽ có ngôi nhà đường hoàng lắm nhỉ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "Khen người, việc làm, vật to đẹp. 立派[りっぱ]に + động từ = làm đàng hoàng, xuất sắc."
-    },
-    {
-      "id": "v:称賛:しょうさん",
-      "kana": "しょうさん",
-      "kanji": "称賛",
-      "hv": "XƯNG TÁN",
-      "vi": "khen ngợi, tán dương (văn viết)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]の勇気[ゆうき]ある行動[こうどう]は、多[おお]くの人[ひと]に称賛[しょうさん]された。",
-          "vi": "Hành động dũng cảm của anh ấy được nhiều người khen ngợi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "事故[じこ]を防[ふせ]いだ班[はん]長[ちょう]の判断[はんだん]を、会社[かいしゃ]が称賛[しょうさん]した。",
-          "vi": "Công ty đã tán dương quyết định ngăn được tai nạn của tổ trưởng.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "努力[どりょく]を称賛[しょうさん]する",
-          "vi": "tán dương nỗ lực"
-        }
-      ],
-      "rel": [
-        "v:褒める:ほめる"
-      ],
-      "note": "Văn viết, tin tức. Nói thường ngày: 褒[ほ]める. Cũng viết 賞賛[しょうさん]."
-    },
-    {
-      "id": "v:非常識:ひじょうしき",
-      "kana": "ひじょうしき",
-      "kanji": "非常識",
-      "hv": "PHI THƯỜNG THỨC",
-      "vi": "thiếu ý thức, trái lẽ thường",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Lẽ thường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "夜中[よなか]に大[おお]きな音[おと]で音楽[おんがく]を聴[き]くのは、非常識[ひじょうしき]だ。",
-          "vi": "Nửa đêm nghe nhạc to là thiếu ý thức.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "連絡[れんらく]なしで休[やす]むなんて、非常識[ひじょうしき]というものだ。",
-          "vi": "Nghỉ mà không báo gì thì đúng là thiếu ý thức.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：駅[えき]のホームで、たばこを吸[す]ってる人[ひと]がいたよ。B：非常識[ひじょうしき]だね。",
-          "vi": "A: Có người hút thuốc trên sân ga đấy. B: Thiếu ý thức thật.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "ant": [
-        "v:常識:じょうしき"
-      ],
-      "note": "非常識[ひじょうしき]な時間[じかん] = giờ không phải phép (quá sớm, quá khuya để gọi điện, đến thăm)."
-    },
-    {
-      "id": "v:道理:どうり",
-      "kana": "どうり",
-      "kanji": "道理",
-      "hv": "ĐẠO LÝ",
-      "vi": "lẽ phải, lý lẽ đương nhiên",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Lẽ thường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "自分[じぶん]のミスを人[ひと]のせいにするのは、道理[どうり]に合[あ]わない。",
-          "vi": "Đổ lỗi của mình cho người khác là trái lẽ phải.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "道理[どうり]で寒[さむ]いわけだ。窓[まど]が開[あ]いていたよ。",
-          "vi": "Thảo nào lạnh thế. Cửa sổ đang mở.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "道理[どうり]に合[あ]わない / 道理[どうり]が通[とお]らない = trái lẽ. 道理[どうり]で = thảo nào (khẩu ngữ)."
-    },
-    {
-      "id": "v:筋が通る:すじがとおる",
-      "kana": "すじがとおる",
-      "kanji": "筋が通る",
-      "kf": "筋[すじ]が通[とお]る",
-      "hv": "CÂN THÔNG",
-      "vi": "hợp lý, có đầu có đuôi",
-      "pos": "expr",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Lẽ thường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]の説明[せつめい]は、筋[すじ]が通[とお]っている。",
-          "vi": "Lời giải thích của anh ấy hợp lý.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "筋[すじ]が通[とお]る理由[りゆう]がなければ、急[きゅう]な休[やす]みは認[みと]められない。",
-          "vi": "Không có lý do hợp lý thì nghỉ đột xuất không được duyệt.",
-          "ctx": "xuong"
-        }
-      ],
-      "ant": [
-        "v:筋違い:すじちがい"
-      ],
-      "rel": [
-        "v:筋:すじ"
-      ],
-      "note": "Hay dùng 筋[すじ]が通[とお]っている / 筋[すじ]の通[とお]った話[はなし]. Tha động từ: 筋[すじ]を通[とお]す = làm đúng lẽ, đúng trình tự."
-    },
-    {
-      "id": "v:筋違い:すじちがい",
-      "kana": "すじちがい",
-      "kanji": "筋違い",
-      "kf": "筋違[すじちが]い",
-      "hv": "CÂN VI",
-      "vi": "sai đối tượng, không đúng chỗ (trách nhầm người)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Lẽ thường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "私[わたし]に文句[もんく]を言[い]うのは、筋違[すじちが]いですよ。",
-          "vi": "Phàn nàn với tôi là nhầm người rồi đấy.",
-          "ctx": "hoithoai"
-        },
-        {
-          "jp": "会社[かいしゃ]の問題[もんだい]を、新人[しんじん]のせいにするのは筋違[すじちが]いだ。",
-          "vi": "Đổ vấn đề của công ty lên đầu người mới là sai đối tượng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：派遣[はけん]会社[かいしゃ]に言[い]えばいいかな？B：それは筋違[すじちが]いだよ。工場[こうじょう]の担当者[たんとうしゃ]に言[い]わないと。",
-          "vi": "A: Nói với công ty phái cử là được nhỉ? B: Thế là sai chỗ rồi. Phải nói với người phụ trách nhà máy.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "ant": [
-        "v:筋が通る:すじがとおる"
-      ]
-    },
-    {
-      "id": "v:正論:せいろん",
-      "kana": "せいろん",
-      "kanji": "正論",
-      "hv": "CHÍNH LUẬN",
-      "vi": "lý lẽ đúng đắn (về lý thuyết)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Lẽ thường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]の言[い]うことは正論[せいろん]だが、現場[げんば]では難[むずか]しい。",
-          "vi": "Điều anh ta nói về lý thì đúng, nhưng ở hiện trường thì khó.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "正論[せいろん]ばかり言[い]っていると、人[ひと]はついてこない。",
-          "vi": "Cứ nói toàn lý lẽ đúng đắn thì người ta không theo.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Hay hàm ý \"đúng nhưng cứng nhắc\": 正論[せいろん]だけど…. Gần nghĩa: 道理[どうり]."
-    },
-    {
-      "id": "v:人情:にんじょう",
-      "kana": "にんじょう",
-      "kanji": "人情",
-      "hv": "NHÂN TÌNH",
-      "vi": "tình người",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Lẽ thường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "下町[したまち]には、人情[にんじょう]が残[のこ]っている。",
-          "vi": "Khu phố cũ vẫn còn tình người.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "困[こま]っている人[ひと]を助[たす]けるのが、人情[にんじょう]というものだ。",
-          "vi": "Giúp người đang gặp khó, đó mới là tình người.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "人情[にんじょう]がある / 人情味[にんじょうみ]のある人[ひと] = người giàu tình người."
-    },
-    {
-      "id": "v:わきまえる:わきまえる",
-      "kana": "わきまえる",
-      "kanji": "",
-      "hv": "",
-      "vi": "biết điều, biết phân biệt (vị trí, phép tắc)",
-      "pos": "v1",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Lẽ thường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "立場[たちば]をわきまえて、発言[はつげん]してください。",
-          "vi": "Hãy biết vị trí của mình mà phát biểu.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "公共[こうきょう]の場所[ばしょ]では、マナーをわきまえるべきだ。",
-          "vi": "Ở nơi công cộng nên biết giữ phép tắc.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：あの新人[しんじん]、社長[しゃちょう]にため口[ぐち]だったよ。B：礼儀[れいぎ]をわきまえないとね。",
-          "vi": "A: Cậu mới vào đó nói trống không với giám đốc đấy. B: Phải biết lễ phép chứ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "立場[たちば]をわきまえる",
-          "vi": "biết vị trí của mình"
-        },
-        {
-          "jp": "礼儀[れいぎ]をわきまえる",
-          "vi": "biết lễ phép"
-        }
-      ],
-      "note": "Chữ Hán: 弁[わきま]える (ít dùng)."
-    },
-    {
-      "id": "v:大人げない:おとなげない",
-      "kana": "おとなげない",
-      "kanji": "大人げない",
-      "kf": "大人[おとな]げない",
-      "hv": "ĐẠI NHÂN",
-      "vi": "không ra dáng người lớn, xử sự như con nít",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Lẽ thường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "子供[こども]と本気[ほんき]でけんかするなんて、大人[おとな]げない。",
-          "vi": "Cãi nhau thật với trẻ con thì trẻ con quá.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "小[ちい]さなミスで怒鳴[どな]るのは、大人[おとな]げないと思[おも]う。",
-          "vi": "Tôi nghĩ quát tháo vì lỗi nhỏ là không ra dáng người lớn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：ゲームで子供[こども]に勝[か]って、喜[よろこ]んでたよね。B：うん、ちょっと大人[おとな]げなかったね。",
-          "vi": "A: Thắng con trong trò chơi mà hớn hở nhỉ. B: Ừ, hơi trẻ con thật.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "Chỉ dùng để nói người lớn cư xử thiếu chín chắn."
-    },
-    {
-      "id": "v:身勝手:みがって",
-      "kana": "みがって",
-      "kanji": "身勝手",
-      "hv": "THÂN THẮNG THỦ",
-      "vi": "chỉ biết mình, tự tiện (gây hại người khác)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Lẽ thường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "休[やす]みの日[ひ]を勝手[かって]に変[か]えるのは、身勝手[みがって]だ。",
-          "vi": "Tự ý đổi ngày nghỉ là ích kỷ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "身勝手[みがって]な理由[りゆう]で、約束[やくそく]を破[やぶ]られた。",
-          "vi": "Tôi bị thất hứa vì một lý do ích kỷ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：あの人[ひと]、また自分[じぶん]の分[ぶん]だけ片付[かたづ]けて帰[かえ]ったよ。B：身勝手[みがって]だなあ。",
-          "vi": "A: Người đó lại chỉ dọn phần mình rồi về. B: Ích kỷ thật.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "confuse": [
-        "v:わがまま:わがまま"
-      ],
-      "note": "身勝手[みがって] nặng hơn わがまま, hàm ý gây hại cho người khác."
-    },
-    {
-      "id": "v:図々しい:ずうずうしい",
-      "kana": "ずうずうしい",
-      "kanji": "図々しい",
-      "kf": "図々[ずうずう]しい",
-      "hv": "ĐỒ ĐỒ",
-      "vi": "trơ trẽn, mặt dày",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Lẽ thường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "列[れつ]に割[わ]り込[こ]むなんて、図々[ずうずう]しい人[ひと]だ。",
-          "vi": "Chen ngang hàng, đúng là người mặt dày.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "図々[ずうずう]しいお願[ねが]いですが、車[くるま]で駅[えき]まで送[おく]ってもらえませんか。",
-          "vi": "Nhờ thế này thật mặt dày, nhưng anh chở tôi ra ga được không?",
-          "ctx": "hoithoai"
-        },
-        {
-          "jp": "A：新人[しんじん]なのに、いきなり休[やす]みを三日[みっか]ください、だって。B：ずいぶん図々[ずうずう]しいね。",
-          "vi": "A: Mới vào mà đòi ngay nghỉ ba ngày. B: Mặt dày ghê.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "図々[ずうずう]しいお願[ねが]いですが… = tôi biết là hơi quá nhưng… (lời nhờ khiêm tốn)."
-    },
-    {
-      "id": "v:無茶:むちゃ",
-      "kana": "むちゃ",
-      "kanji": "無茶",
-      "hv": "VÔ TRÀ",
-      "vi": "liều lĩnh, vô lý quá mức",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Lẽ thường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一人[ひとり]で百箱[ひゃっぱこ]運[はこ]ぶなんて、無茶[むちゃ]だよ。",
-          "vi": "Một mình chuyển trăm thùng thì liều quá.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "熱[ねつ]があるのに無茶[むちゃ]をして、倒[たお]れてしまった。",
-          "vi": "Đang sốt mà cố liều nên bị ngã quỵ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：明日[あした]までに全部[ぜんぶ]終[お]わらせて。B：それは無茶[むちゃ]ですよ。",
-          "vi": "A: Làm xong hết trước ngày mai đi. B: Thế thì quá đáng lắm ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "confuse": [
-        "v:無理:むり"
-      ],
-      "note": "無茶[むちゃ]をする = làm liều. 無茶[むちゃ]な要求[ようきゅう] = yêu cầu vô lý. Khẩu ngữ: 無茶苦茶[むちゃくちゃ]."
-    },
-    {
-      "id": "v:くだらない:くだらない",
-      "kana": "くだらない",
-      "kanji": "",
-      "hv": "",
-      "vi": "vớ vẩn, vô bổ",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Phản bác",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "くだらない話[はなし]で、時間[じかん]を無駄[むだ]にしたくない。",
-          "vi": "Tôi không muốn phí thời gian vào chuyện vớ vẩn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "そんなくだらないミスで、一日[いちにち]の作業[さぎょう]が止[と]まった。",
-          "vi": "Chỉ vì lỗi vớ vẩn đó mà công việc cả ngày bị dừng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：このテレビ番組[ばんぐみ]、面白[おもしろ]い？B：くだらないけど、つい見[み]ちゃうんだ。",
-          "vi": "A: Chương trình TV này hay không? B: Vớ vẩn nhưng cứ lỡ xem.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "syn": [
-        "v:ばかばかしい:ばかばかしい"
-      ],
-      "note": "Chữ Hán: 下[くだ]らない (ít dùng)."
-    },
-    {
-      "id": "v:ばかばかしい:ばかばかしい",
-      "kana": "ばかばかしい",
-      "kanji": "",
-      "hv": "",
-      "vi": "ngớ ngẩn, nực cười",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Phản bác",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "そんなばかばかしい話[はなし]、誰[だれ]が信[しん]じるものか。",
-          "vi": "Chuyện ngớ ngẩn như thế ai mà tin cho được.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "こんなことで喧嘩[けんか]するのは、ばかばかしい。",
-          "vi": "Cãi nhau vì chuyện thế này thật nực cười.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：五分[ごふん]遅[おく]れただけで、始末書[しまつしょ]だって。B：ばかばかしい規則[きそく]だね。",
-          "vi": "A: Chỉ muộn năm phút mà phải viết bản kiểm điểm. B: Quy định nực cười thật.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "syn": [
-        "v:くだらない:くだらない"
-      ],
-      "note": "Chữ Hán: 馬鹿馬鹿[ばかばか]しい."
-    },
-    {
-      "id": "v:言い返す:いいかえす",
-      "kana": "いいかえす",
-      "kanji": "言い返す",
-      "kf": "言[い]い返[かえ]す",
-      "hv": "NGÔN PHẢN",
-      "vi": "đáp trả, nói lại (khi bị nói)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Phản bác",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "先輩[せんぱい]に怒[おこ]られても、言[い]い返[かえ]さなかった。",
-          "vi": "Bị tiền bối mắng nhưng tôi không cãi lại.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "言[い]い返[かえ]したかったが、うまい言葉[ことば]が出[で]てこなかった。",
-          "vi": "Tôi muốn đáp trả nhưng không nghĩ ra câu nào hay.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：あんなこと言[い]われて、黙[だま]ってたの？B：うん、言[い]い返[かえ]すものか。相手[あいて]にしないよ。",
-          "vi": "A: Bị nói thế mà cậu im à? B: Ừ, đời nào tớ cãi lại. Không thèm chấp.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "相手[あいて]に言[い]い返[かえ]す",
-          "vi": "cãi lại người ta"
-        }
-      ],
-      "confuse": [
-        "v:口答え:くちごたえ"
-      ]
-    },
-    {
-      "id": "v:口答え:くちごたえ",
-      "kana": "くちごたえ",
-      "kanji": "口答え",
-      "kf": "口答[くちごた]え",
-      "hv": "KHẨU ĐÁP",
-      "vi": "cãi lời (người trên)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Phản bác",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "子供[こども]のころ、親[おや]に口答[くちごた]えしてよく叱[しか]られた。",
-          "vi": "Hồi nhỏ tôi hay cãi bố mẹ nên hay bị mắng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "上司[じょうし]に口答[くちごた]えするのは、よくないとされている。",
-          "vi": "Cãi lại cấp trên bị coi là không hay.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "親[おや]に口答[くちごた]えする",
-          "vi": "cãi lại bố mẹ"
-        }
-      ],
-      "confuse": [
-        "v:言い返す:いいかえす"
-      ],
-      "note": "口答[くちごた]え = cãi lại người trên (cha mẹ, thầy, sếp), mang ý chê. 言[い]い返[かえ]す = đáp trả nói chung."
-    },
-    {
-      "id": "v:異議:いぎ",
-      "kana": "いぎ",
-      "kanji": "異議",
-      "hv": "DỊ NGHỊ",
-      "vi": "ý kiến phản đối (chính thức)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Phản bác",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この案[あん]に異議[いぎ]のある方[かた]は、手[て]を挙[あ]げてください。",
-          "vi": "Ai có ý kiến phản đối phương án này xin giơ tay.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "税金[ぜいきん]の決定[けってい]に異議[いぎ]がある場合[ばあい]は、申[もう]し立[た]てができる。",
-          "vi": "Nếu không đồng ý với quyết định về thuế thì có thể khiếu nại.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "異議[いぎ]あり = phản đối! 異議[いぎ]なし = không phản đối. 異議[いぎ]を唱[とな]える / 申[もう]し立[た]てる = nêu phản đối chính thức."
-    },
-    {
-      "id": "v:断じて:だんじて",
-      "kana": "だんじて",
-      "kanji": "断じて",
-      "kf": "断[だん]じて",
-      "hv": "ĐOẠN",
-      "vi": "nhất quyết (không), dứt khoát (không)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Phản bác",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "そんなことは、断[だん]じて許[ゆる]さない。",
-          "vi": "Chuyện như thế tuyệt nhiên không thể tha thứ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "私[わたし]は、断[だん]じて嘘[うそ]をついていません。",
-          "vi": "Tôi tuyệt nhiên không nói dối.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "syn": [
-        "v:決して:けっして"
-      ],
-      "with": "phudinh",
-      "note": "Mạnh và trang trọng hơn 決[けっ]して. Hầu như đi với phủ định."
-    },
-    {
-      "id": "v:二度と:にどと",
-      "kana": "にどと",
-      "kanji": "二度と",
-      "kf": "二度[にど]と",
-      "hv": "NHỊ ĐỘ",
-      "vi": "(không bao giờ) lần thứ hai nữa",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Phản bác",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "あんな店[みせ]には、二度[にど]と行[い]くものか。",
-          "vi": "Cái quán đó đời nào tôi đến lần nữa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "同[おな]じミスは、二度[にど]としません。",
-          "vi": "Lỗi tương tự tôi sẽ không bao giờ phạm lại.",
-          "ctx": "xuong"
-        }
-      ],
-      "with": "phudinh",
-      "note": "Đi với phủ định: 二度[にど]と〜ない / 二度[にど]と〜ものか."
+     "jp": "姫路[ひめじ]の美術館[びじゅつかん]で、日本[にほん]の美術[びじゅつ]を見[み]てきました。",
+     "vi": "Tôi đã đi xem mỹ thuật Nhật Bản ở bảo tàng mỹ thuật Himeji.",
+     "ctx": "doisong"
     }
-  ]
+   ],
+   "rel": [
+    "v:芸術:げいじゅつ",
+    "v:美術館:びじゅつかん"
+   ],
+   "note": "美術品[びじゅつひん] = tác phẩm mỹ thuật. 芸術[げいじゅつ] rộng hơn (cả âm nhạc, sân khấu); 美術[びじゅつ] chủ yếu là tranh, tượng, đồ thủ công."
+  },
+  {
+   "id": "v:名作:めいさく",
+   "kana": "めいさく",
+   "kanji": "名作",
+   "hv": "DANH TÁC",
+   "vi": "danh tác, tác phẩm nổi tiếng, kiệt tác được công nhận",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この映画[えいが]は、何度[なんど]見[み]ても泣[な]ける名作[めいさく]だ。",
+     "vi": "Phim này là tác phẩm nổi tiếng xem bao lần vẫn khóc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "名作[めいさく]と呼[よ]ばれる本[ほん]を、日本語[にほんご]で読[よ]んでみたい。",
+     "vi": "Tôi muốn thử đọc bằng tiếng Nhật những cuốn sách được gọi là kinh điển.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:傑作:けっさく"
+   ],
+   "note": "名作[めいさく] = tác phẩm hay nổi tiếng, được nhiều người biết đến lâu dài."
+  },
+  {
+   "id": "v:傑作:けっさく",
+   "kana": "けっさく",
+   "kanji": "傑作",
+   "hv": "KIỆT TÁC",
+   "vi": "kiệt tác (xuất sắc nhất); (đùa) buồn cười hết chỗ nói",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この絵[え]は、画家[がか]の最高[さいこう]の傑作[けっさく]と言[い]われている。",
+     "vi": "Bức tranh này được cho là kiệt tác đỉnh cao của họa sĩ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：班[はん]長[ちょう]の変[へん]な顔[かお]の写真[しゃしん]、見[み]た？B：見[み]た見[み]た。あれは傑作[けっさく]だったね。",
+     "vi": "A: Thấy ảnh mặt hài của tổ trưởng chưa? B: Thấy rồi. Cái đó buồn cười hết chỗ nói.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:名作:めいさく"
+   ],
+   "note": "傑作[けっさく] nhấn \"xuất sắc nhất\" của một tác giả. Khẩu ngữ: 傑作[けっさく]だ = buồn cười quá."
+  },
+  {
+   "id": "v:画家:がか",
+   "kana": "がか",
+   "kanji": "画家",
+   "hv": "HỌA GIA",
+   "vi": "họa sĩ",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "将来[しょうらい]は、画家[がか]になるのが夢[ゆめ]でした。",
+     "vi": "Hồi nhỏ ước mơ của tôi là trở thành họa sĩ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "有名[ゆうめい]な画家[がか]の絵[え]が、神戸[こうべ]で展示[てんじ]されている。",
+     "vi": "Tranh của họa sĩ nổi tiếng đang được trưng bày ở Kobe.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:絵画:かいが"
+   ]
+  },
+  {
+   "id": "v:彫刻:ちょうこく",
+   "kana": "ちょうこく",
+   "kanji": "彫刻",
+   "hv": "ĐIÊU KHẮC",
+   "vi": "điêu khắc, tượng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "公園[こうえん]に、大[おお]きな彫刻[ちょうこく]が置[お]いてある。",
+     "vi": "Trong công viên có đặt một bức tượng điêu khắc lớn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "木[き]の彫刻[ちょうこく]は、職人[しょくにん]の手[て]の技[わざ]が見事[みごと]だ。",
+     "vi": "Tượng gỗ điêu khắc thể hiện tay nghề tuyệt vời của người thợ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "彫刻家[ちょうこくか] = nhà điêu khắc. Động từ gốc: 彫[ほ]る (khắc, chạm)."
+  },
+  {
+   "id": "v:演技:えんぎ",
+   "kana": "えんぎ",
+   "kanji": "演技",
+   "hv": "DIỄN KỸ",
+   "vi": "diễn xuất; đóng kịch, giả vờ",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "あの俳優[はいゆう]の演技[えんぎ]には、胸[むね]に迫[せま]るものがある。",
+     "vi": "Diễn xuất của diễn viên đó có cái gì đó khiến lòng xao động.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "泣[な]いているのは演技[えんぎ]だよ。だまされないで。",
+     "vi": "Khóc là đóng kịch thôi. Đừng để bị lừa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "役[やく]を演技[えんぎ]する",
+     "vi": "diễn vai"
+    }
+   ],
+   "note": "演技[えんぎ]が上手[じょうず] / 下手[へた] = diễn giỏi / dở. 演技力[えんぎりょく] = khả năng diễn xuất.",
+   "vt": "tu"
+  },
+  {
+   "id": "v:歌声:うたごえ",
+   "kana": "うたごえ",
+   "kanji": "歌声",
+   "hv": "CA THANH",
+   "vi": "giọng hát, tiếng hát",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼女[かのじょ]の歌声[うたごえ]は、本当[ほんとう]に美[うつく]しい。",
+     "vi": "Giọng hát của cô ấy thật sự rất đẹp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "祭[まつ]りの夜[よる]、どこからか子供[こども]たちの歌声[うたごえ]が聞[き]こえた。",
+     "vi": "Đêm lễ hội, từ đâu đó vọng lại tiếng hát của bọn trẻ.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:歌手:かしゅ"
+   ]
+  },
+  {
+   "id": "v:鑑賞:かんしょう",
+   "kana": "かんしょう",
+   "kanji": "鑑賞",
+   "hv": "GIÁM THƯỞNG",
+   "vi": "thưởng thức (nghệ thuật, phim, nhạc)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "趣味[しゅみ]は、映画[えいが]鑑賞[かんしょう]です。",
+     "vi": "Sở thích của tôi là xem phim.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "宝塚[たからづか]で、初[はじ]めて舞台[ぶたい]を鑑賞[かんしょう]しました。",
+     "vi": "Lần đầu tôi được thưởng thức kịch ở Takarazuka.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "音楽[おんがく]を鑑賞[かんしょう]する",
+     "vi": "thưởng thức âm nhạc"
+    },
+    {
+     "jp": "絵[え]を鑑賞[かんしょう]する",
+     "vi": "ngắm tranh"
+    }
+   ],
+   "note": "Hay ghi ở mục sở thích trong sơ yếu lý lịch: 映画[えいが]鑑賞[かんしょう], 音楽[おんがく]鑑賞[かんしょう]. Đồng âm: 感傷[かんしょう] (đa cảm), 干渉[かんしょう] (can thiệp).",
+   "vt": "tha"
+  },
+  {
+   "id": "v:夕日:ゆうひ",
+   "kana": "ゆうひ",
+   "kanji": "夕日",
+   "hv": "TỊCH NHẬT",
+   "vi": "mặt trời lúc chiều tà, nắng chiều",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "明石[あかし]の海[うみ]に沈[しず]む夕日[ゆうひ]は、言葉[ことば]にならないほどきれいだ。",
+     "vi": "Mặt trời lặn trên biển Akashi đẹp không lời nào tả xiết.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "仕事[しごと]の帰[かえ]りに、夕日[ゆうひ]を見[み]ながら自転車[じてんしゃ]をこいだ。",
+     "vi": "Trên đường đi làm về tôi vừa ngắm hoàng hôn vừa đạp xe.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "朝日[あさひ]",
+     "vi": "mặt trời buổi sáng"
+    }
+   ],
+   "note": "夕日[ゆうひ]が沈[しず]む = mặt trời lặn. 夕焼[ゆうや]け = ráng chiều (bầu trời đỏ)."
+  },
+  {
+   "id": "v:見応え:みごたえ",
+   "kana": "みごたえ",
+   "kanji": "見応え",
+   "kf": "見応[みごた]え",
+   "hv": "KIẾN ỨNG",
+   "vi": "đáng xem (nội dung phong phú, hấp dẫn)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この映画[えいが]は三時間[さんじかん]もあるが、見応[みごた]えがあった。",
+     "vi": "Phim này dài tới ba tiếng nhưng rất đáng xem.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "姫路[ひめじ]城[じょう]は、どこを見[み]ても見応[みごた]えがある。",
+     "vi": "Thành Himeji nhìn chỗ nào cũng đáng xem.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "見応[みごた]えがある = đáng xem. Tương tự: 読[よ]み応[ごた]え (đáng đọc), 食[た]べ応[ごた]え (ăn đã, chắc bụng)."
+  },
+  {
+   "id": "v:斬新:ざんしん",
+   "kana": "ざんしん",
+   "kanji": "斬新",
+   "hv": "TRẢM TÂN",
+   "vi": "mới mẻ, khác lạ (chưa từng có)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このデザインは、とても斬新[ざんしん]だ。",
+     "vi": "Thiết kế này rất mới lạ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "斬新[ざんしん]なアイデアで、作業時間[さぎょうじかん]が半分[はんぶん]になった。",
+     "vi": "Nhờ ý tưởng mới lạ mà thời gian làm giảm một nửa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この包装[ほうそう]、見[み]たことない形[かたち]だね。B：うん、斬新[ざんしん]でしょう？",
+     "vi": "A: Bao bì này hình dạng chưa thấy bao giờ nhỉ. B: Ừ, độc đáo đúng không?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:独特:どくとく"
+   ],
+   "note": "Hay dùng: 斬新[ざんしん]なデザイン / 斬新[ざんしん]なアイデア. Mang nghĩa khen."
+  },
+  {
+   "id": "v:繊細:せんさい",
+   "kana": "せんさい",
+   "kanji": "繊細",
+   "hv": "TIÊM TẾ",
+   "vi": "tinh vi, mảnh mai (đồ vật, hương vị); nhạy cảm (tâm hồn)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "和菓子[わがし]は、色[いろ]も形[かたち]も繊細[せんさい]だ。",
+     "vi": "Bánh ngọt Nhật cả màu lẫn hình dáng đều tinh tế.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "刺身[さしみ]の盛[も]り付[つ]けは、繊細[せんさい]な作業[さぎょう]です。",
+     "vi": "Bày sashimi là công việc tinh tế.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの人[ひと]、ちょっとしたことで落[お]ち込[こ]むね。B：繊細[せんさい]な人[ひと]なんだよ。",
+     "vi": "A: Người đó chuyện nhỏ cũng buồn nhỉ. B: Người ấy nhạy cảm mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "ant": [
+    {
+     "w": "大雑把[おおざっぱ]",
+     "vi": "qua loa, đại khái"
+    }
+   ],
+   "note": "繊細[せんさい]な味[あじ] = vị thanh tao. 繊細[せんさい]な人[ひと] = người tâm hồn nhạy cảm, dễ tổn thương."
+  },
+  {
+   "id": "v:華やか:はなやか",
+   "kana": "はなやか",
+   "kanji": "華やか",
+   "kf": "華[はな]やか",
+   "hv": "HOA",
+   "vi": "rực rỡ, lộng lẫy (sôi động)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "宝塚[たからづか]の舞台[ぶたい]は、衣装[いしょう]がとても華[はな]やかだ。",
+     "vi": "Sân khấu Takarazuka trang phục rất lộng lẫy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "結婚式場[けっこんしきじょう]は、花[はな]で華[はな]やかに飾[かざ]られていた。",
+     "vi": "Hội trường cưới được trang trí rực rỡ bằng hoa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今日[きょう]の忘年会[ぼうねんかい]、華[はな]やかだったね。B：うん、みんなおしゃれしてたからね。",
+     "vi": "A: Tiệc cuối năm hôm nay rực rỡ nhỉ. B: Ừ, vì ai cũng diện đẹp mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "ant": [
+    "v:地味:じみ"
+   ],
+   "confuse": [
+    "v:派手:はで"
+   ],
+   "note": "華[はな]やか = rực rỡ, mang nghĩa khen. 派手[はで] = sặc sỡ, lòe loẹt (có thể chê)."
+  },
+  {
+   "id": "v:鮮やか:あざやか",
+   "kana": "あざやか",
+   "kanji": "鮮やか",
+   "kf": "鮮[あざ]やか",
+   "hv": "TIÊN",
+   "vi": "tươi tắn, rõ nét (màu); gọn ghẽ (tay nghề)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "秋[あき]の山[やま]は、紅葉[こうよう]の色[いろ]が鮮[あざ]やかだ。",
+     "vi": "Núi mùa thu màu lá đỏ thật tươi tắn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "鮮[あざ]やかな包丁[ほうちょう]さばきで、マグロが解体[かいたい]された。",
+     "vi": "Con cá ngừ được xẻ bằng đường dao điêu luyện.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：このマグロの赤[あか]、きれいだね。B：鮮[あざ]やかな色[いろ]は、新[あたら]しい証拠[しょうこ]だよ。",
+     "vi": "A: Màu đỏ con cá ngừ này đẹp nhỉ. B: Màu tươi rõ là bằng chứng của độ tươi đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "色鮮[いろあざ]やか = màu tươi rói. 鮮[あざ]やかに + động từ = làm gọn gàng, điêu luyện."
+  },
+  {
+   "id": "v:素朴:そぼく",
+   "kana": "そぼく",
+   "kanji": "素朴",
+   "hv": "TỐ PHÁC",
+   "vi": "mộc mạc, chân chất",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "田舎[いなか]の祖母[そぼ]の料理[りょうり]は、素朴[そぼく]でおいしい。",
+     "vi": "Món ăn của bà ở quê mộc mạc mà ngon.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]から、素朴[そぼく]な質問[しつもん]をされた。",
+     "vi": "Tôi bị người mới hỏi một câu hỏi rất đơn giản.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この村[むら]の人[ひと]たち、温[あたた]かいね。B：うん、素朴[そぼく]な人[ひと]ばかりだよ。",
+     "vi": "A: Người làng này ấm áp nhỉ. B: Ừ, toàn người chân chất.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "素朴[そぼく]な疑問[ぎもん] / 素朴[そぼく]な質問[しつもん] = thắc mắc đơn giản (ai cũng có thể nghĩ tới)."
+  },
+  {
+   "id": "v:優雅:ゆうが",
+   "kana": "ゆうが",
+   "kanji": "優雅",
+   "hv": "ƯU NHÃ",
+   "vi": "thanh lịch, tao nhã; thong dong",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "白鳥[はくちょう]が、湖[みずうみ]を優雅[ゆうが]に泳[およ]いでいる。",
+     "vi": "Thiên nga đang bơi thong dong trên hồ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "彼女[かのじょ]の踊[おど]りは、とても優雅[ゆうが]だ。",
+     "vi": "Điệu múa của cô ấy rất thanh lịch.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：休[やす]みの日[ひ]は何[なん]してるの？B：コーヒーを飲[の]んで、優雅[ゆうが]に過[す]ごしてるよ。",
+     "vi": "A: Ngày nghỉ cậu làm gì? B: Uống cà phê, sống thong dong thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "優雅[ゆうが]な生活[せいかつ] = cuộc sống nhàn nhã, sang trọng (có khi nói đùa, mỉa)."
+  },
+  {
+   "id": "v:雄大:ゆうだい",
+   "kana": "ゆうだい",
+   "kanji": "雄大",
+   "hv": "HÙNG ĐẠI",
+   "vi": "hùng vĩ",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghệ thuật",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "六甲山[ろっこうさん]からの景色[けしき]は、雄大[ゆうだい]だ。",
+     "vi": "Cảnh nhìn từ núi Rokko thật hùng vĩ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "雄大[ゆうだい]な自然[しぜん]の中[なか]で、ゆっくり休[やす]みたい。",
+     "vi": "Tôi muốn thư thả nghỉ ngơi giữa thiên nhiên hùng vĩ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：富士山[ふじさん]、近[ちか]くで見[み]るとどう？B：本当[ほんとう]に雄大[ゆうだい]で、言葉[ことば]が出[で]なかったよ。",
+     "vi": "A: Núi Phú Sĩ nhìn gần thế nào? B: Hùng vĩ thật, tôi không nói nên lời.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Hay đi với 自然[しぜん], 景色[けしき], 山[やま], 海[うみ]."
+  },
+  {
+   "id": "v:感動的:かんどうてき",
+   "kana": "かんどうてき",
+   "kanji": "感動的",
+   "hv": "CẢM ĐỘNG ĐÍCH",
+   "vi": "cảm động, lay động lòng người, đầy xúc động",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "卒業式[そつぎょうしき]のスピーチは、とても感動的[かんどうてき]だった。",
+     "vi": "Bài phát biểu ở lễ tốt nghiệp rất cảm động.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "十年[じゅうねん]ぶりの家族[かぞく]との再会[さいかい]は、感動的[かんどうてき]だった。",
+     "vi": "Cuộc đoàn tụ với gia đình sau mười năm thật xúc động.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの映画[えいが]、どうだった？B：最後[さいご]が感動的[かんどうてき]で、泣[な]いちゃったよ。",
+     "vi": "A: Phim đó thế nào? B: Đoạn cuối cảm động quá, tớ khóc luôn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:感動:かんどう"
+   ]
+  },
+  {
+   "id": "v:迫力:はくりょく",
+   "kana": "はくりょく",
+   "kanji": "迫力",
+   "hv": "BÁCH LỰC",
+   "vi": "sức lôi cuốn mạnh mẽ, độ hoành tráng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大[おお]きな画面[がめん]で見[み]ると、迫力[はくりょく]が違[ちが]う。",
+     "vi": "Xem trên màn hình lớn thì độ choáng ngợp khác hẳn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "太鼓[たいこ]の演奏[えんそう]には、すごい迫力[はくりょく]があった。",
+     "vi": "Màn biểu diễn trống taiko có khí thế ghê gớm.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "迫力[はくりょく]がある / 迫力[はくりょく]満点[まんてん] = đầy khí thế. Cũng tả người: 課長[かちょう]の話[はな]し方[かた]には迫力[はくりょく]がある."
+  },
+  {
+   "id": "v:魅力的:みりょくてき",
+   "kana": "みりょくてき",
+   "kanji": "魅力的",
+   "hv": "MỊ LỰC ĐÍCH",
+   "vi": "hấp dẫn, quyến rũ (lôi cuốn người khác)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この会社[かいしゃ]は、給料[きゅうりょう]より休[やす]みの多[おお]さが魅力的[みりょくてき]だ。",
+     "vi": "Công ty này, số ngày nghỉ nhiều hấp dẫn hơn cả lương.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "神戸[こうべ]は、海[うみ]と山[やま]が近[ちか]い魅力的[みりょくてき]な町[まち]だ。",
+     "vi": "Kobe là thành phố hấp dẫn với biển và núi ở gần nhau.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：特定[とくてい]技能[ぎのう]二号[にごう]、どう思[おも]う？B：家族[かぞく]を呼[よ]べるのは、魅力的[みりょくてき]だよね。",
+     "vi": "A: Cậu nghĩ sao về kỹ năng đặc định số 2? B: Được đưa gia đình sang là hấp dẫn đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:魅力:みりょく",
+    "v:魅了:みりょう"
+   ]
+  },
+  {
+   "id": "v:圧倒的:あっとうてき",
+   "kana": "あっとうてき",
+   "kanji": "圧倒的",
+   "hv": "ÁP ĐẢO ĐÍCH",
+   "vi": "áp đảo, vượt trội hẳn",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "試合[しあい]は、圧倒的[あっとうてき]な差[さ]で勝[か]った。",
+     "vi": "Trận đấu thắng với cách biệt áp đảo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この作業[さぎょう]は、機械[きかい]より人[ひと]の手[て]のほうが圧倒的[あっとうてき]に速[はや]い。",
+     "vi": "Công việc này tay người nhanh vượt trội so với máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：投票[とうひょう]の結果[けっか]はどうだった？B：グエンさんが圧倒的[あっとうてき]に多[おお]かったよ。",
+     "vi": "A: Kết quả bỏ phiếu sao rồi? B: Anh Nguyễn được nhiều phiếu áp đảo.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Động từ gốc: 圧倒[あっとう]する (áp đảo, làm choáng ngợp). 圧倒[あっとう]される = bị choáng ngợp."
+  },
+  {
+   "id": "v:感銘:かんめい",
+   "kana": "かんめい",
+   "kanji": "感銘",
+   "hv": "CẢM MINH",
+   "vi": "ấn tượng sâu sắc, xúc động ghi lòng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]の話[はなし]に、深[ふか]い感銘[かんめい]を受[う]けました。",
+     "vi": "Tôi đã rất xúc động trước bài nói của giám đốc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "被災地[ひさいち]の人々[ひとびと]の強[つよ]さに、感銘[かんめい]を受[う]けた。",
+     "vi": "Tôi ghi lòng trước sự mạnh mẽ của người dân vùng thiên tai.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:感動:かんどう"
+   ],
+   "note": "Hầu như dùng 感銘[かんめい]を受[う]ける. Trang trọng hơn 感動[かんどう]."
+  },
+  {
+   "id": "v:胸を打つ:むねをうつ",
+   "kana": "むねをうつ",
+   "kanji": "胸を打つ",
+   "kf": "胸[むね]を打[う]つ",
+   "hv": "HUNG ĐẢ",
+   "vi": "làm xúc động, chạm đến trái tim",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母[はは]の手紙[てがみ]には、胸[むね]を打[う]つものがあった。",
+     "vi": "Lá thư của mẹ có điều gì đó làm tôi xúc động.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "選手[せんしゅ]の最後[さいご]まで諦[あきら]めない姿[すがた]が、人々[ひとびと]の胸[むね]を打[う]った。",
+     "vi": "Hình ảnh vận động viên không bỏ cuộc tới phút cuối đã chạm đến trái tim mọi người.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Chia như động từ 打[う]つ: 胸[むね]を打[う]たれる = bị làm cho xúc động. Gần nghĩa: 心[こころ]に響[ひび]く."
+  },
+  {
+   "id": "v:見とれる:みとれる",
+   "kana": "みとれる",
+   "kanji": "見とれる",
+   "kf": "見[み]とれる",
+   "hv": "KIẾN",
+   "vi": "ngắm say mê, nhìn đến ngây người",
+   "pos": "v1",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "あまりにきれいな夜景[やけい]に、思[おも]わず見[み]とれてしまった。",
+     "vi": "Cảnh đêm đẹp quá, tôi bất giác đứng ngắm ngây người.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "先輩[せんぱい]の包丁[ほうちょう]さばきに、新人[しんじん]たちが見[み]とれている。",
+     "vi": "Đám người mới đang say mê nhìn đường dao của tiền bối.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：何[なに]をぼーっとしてるの？B：ごめん、海[うみ]に見[み]とれてた。",
+     "vi": "A: Đang ngẩn người gì thế? B: Xin lỗi, tớ mải ngắm biển.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "景色[けしき]に見[み]とれる",
+     "vi": "mải ngắm cảnh"
+    }
+   ],
+   "note": "Chữ Hán: 見惚[みと]れる (ít dùng). 〜に見[み]とれる."
+  },
+  {
+   "id": "v:魅了:みりょう",
+   "kana": "みりょう",
+   "kanji": "魅了",
+   "hv": "MỊ LIỄU",
+   "vi": "mê hoặc, làm say mê",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼女[かのじょ]の歌声[うたごえ]は、世界中[せかいじゅう]の人[ひと]を魅了[みりょう]した。",
+     "vi": "Giọng hát của cô ấy đã làm say mê người trên khắp thế giới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "日本[にほん]の祭[まつ]りに、すっかり魅了[みりょう]されてしまった。",
+     "vi": "Tôi hoàn toàn bị lễ hội Nhật Bản mê hoặc.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "観客[かんきゃく]を魅了[みりょう]する",
+     "vi": "làm khán giả say mê"
+    }
+   ],
+   "rel": [
+    "v:魅力:みりょく"
+   ],
+   "note": "Hay dùng bị động: 〜に魅了[みりょう]される.",
+   "vt": "tha"
+  },
+  {
+   "id": "v:鳥肌:とりはだ",
+   "kana": "とりはだ",
+   "kanji": "鳥肌",
+   "hv": "ĐIỂU CƠ",
+   "vi": "nổi da gà",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "歌[うた]があまりに上手[じょうず]で、鳥肌[とりはだ]が立[た]った。",
+     "vi": "Hát hay quá làm tôi nổi da gà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]に長[なが]くいると、寒[さむ]さで鳥肌[とりはだ]が立[た]つ。",
+     "vi": "Ở lâu trong kho đông lạnh là nổi da gà vì lạnh.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "鳥肌[とりはだ]が立[た]つ = nổi da gà (vì lạnh, sợ, hoặc xúc động mạnh)."
+  },
+  {
+   "id": "v:余韻:よいん",
+   "kana": "よいん",
+   "kanji": "余韻",
+   "hv": "DƯ VẬN",
+   "vi": "dư âm",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "映画[えいが]を見[み]終[お]わっても、しばらく余韻[よいん]が残[のこ]った。",
+     "vi": "Xem phim xong, dư âm vẫn còn mãi một lúc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "旅行[りょこう]の余韻[よいん]に浸[ひた]りながら、写真[しゃしん]を見返[みかえ]した。",
+     "vi": "Vừa đắm trong dư âm chuyến du lịch vừa xem lại ảnh.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "余韻[よいん]に浸[ひた]る = đắm chìm trong dư âm. 余韻[よいん]が残[のこ]る = còn dư âm."
+  },
+  {
+   "id": "v:印象的:いんしょうてき",
+   "kana": "いんしょうてき",
+   "kanji": "印象的",
+   "hv": "ẤN TƯỢNG ĐÍCH",
+   "vi": "gây ấn tượng, đáng nhớ",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面接官[めんせつかん]の優[やさ]しい笑顔[えがお]が、印象的[いんしょうてき]でした。",
+     "vi": "Nụ cười hiền của người phỏng vấn để lại ấn tượng.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "旅行[りょこう]で一番[いちばん]印象的[いんしょうてき]だったのは、淡路島[あわじしま]の海[うみ]だ。",
+     "vi": "Điều đáng nhớ nhất trong chuyến đi là biển đảo Awaji.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：日本[にほん]に来[き]て、何[なに]が印象的[いんしょうてき]だった？B：電車[でんしゃ]が時間通[じかんどお]りに来[く]ることかな。",
+     "vi": "A: Sang Nhật, điều gì làm cậu ấn tượng? B: Chắc là tàu đến đúng giờ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:印象:いんしょう"
+   ]
+  },
+  {
+   "id": "v:味わう:あじわう",
+   "kana": "あじわう",
+   "kanji": "味わう",
+   "kf": "味[あじ]わう",
+   "hv": "VỊ",
+   "vi": "thưởng thức (vị); nếm trải (cảm giác)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地元[じもと]の魚[さかな]を、ゆっくり味[あじ]わって食[た]べた。",
+     "vi": "Tôi chậm rãi thưởng thức cá địa phương.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "初[はじ]めて班[はん]長[ちょう]として、責任[せきにん]の重[おも]さを味[あじ]わった。",
+     "vi": "Lần đầu làm tổ trưởng, tôi nếm trải sức nặng của trách nhiệm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：日本[にほん]で一番[いちばん]うれしかったことは？B：資格[しかく]に合格[ごうかく]して、達成感[たっせいかん]を味[あじ]わったときかな。",
+     "vi": "A: Điều vui nhất ở Nhật là gì? B: Chắc là lúc thi đỗ chứng chỉ, nếm trải cảm giác thành công.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "料理[りょうり]を味[あじ]わう",
+     "vi": "thưởng thức món ăn"
+    },
+    {
+     "jp": "喜[よろこ]びを味[あじ]わう",
+     "vi": "nếm trải niềm vui"
+    }
+   ],
+   "note": "Danh từ: 味[あじ]わい (hương vị, nét đặc sắc)."
+  },
+  {
+   "id": "v:感性:かんせい",
+   "kana": "かんせい",
+   "kanji": "感性",
+   "hv": "CẢM TÍNH",
+   "vi": "sự nhạy cảm (với cái đẹp, cảm xúc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子供[こども]の感性[かんせい]は、大人[おとな]より豊[ゆた]かだ。",
+     "vi": "Cảm quan của trẻ con phong phú hơn người lớn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この盛[も]り付[つ]けには、作[つく]った人[ひと]の感性[かんせい]が表[あらわ]れている。",
+     "vi": "Cách bày món này thể hiện cảm quan của người làm.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "感性[かんせい]が豊[ゆた]か = giàu cảm xúc, nhạy với cái đẹp. 感性[かんせい]を磨[みが]く = trau dồi cảm quan."
+  },
+  {
+   "id": "v:立派:りっぱ",
+   "kana": "りっぱ",
+   "kanji": "立派",
+   "hv": "LẬP PHÁI",
+   "vi": "đáng nể, đường hoàng (đáng khâm phục)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一人[ひとり]で子供[こども]を育[そだ]てて、本当[ほんとう]に立派[りっぱ]だ。",
+     "vi": "Một mình nuôi con, thật đáng nể.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]だったグエンさんも、立派[りっぱ]なリーダーになった。",
+     "vi": "Anh Nguyễn hồi mới vào giờ đã thành trưởng nhóm đáng nể.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：今度[こんど]、家[いえ]を建[た]てるんだ。B：へえ、立派[りっぱ]な家[いえ]ができそうだね。",
+     "vi": "A: Sắp tới tôi xây nhà. B: Ồ, chắc sẽ có ngôi nhà đường hoàng lắm nhỉ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Khen người, việc làm, vật to đẹp. 立派[りっぱ]に + động từ = làm đàng hoàng, xuất sắc."
+  },
+  {
+   "id": "v:称賛:しょうさん",
+   "kana": "しょうさん",
+   "kanji": "称賛",
+   "hv": "XƯNG TÁN",
+   "vi": "khen ngợi, tán dương (văn viết)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]の勇気[ゆうき]ある行動[こうどう]は、多[おお]くの人[ひと]に称賛[しょうさん]された。",
+     "vi": "Hành động dũng cảm của anh ấy được nhiều người khen ngợi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "事故[じこ]を防[ふせ]いだ班[はん]長[ちょう]の判断[はんだん]を、会社[かいしゃ]が称賛[しょうさん]した。",
+     "vi": "Công ty đã tán dương quyết định ngăn được tai nạn của tổ trưởng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "努力[どりょく]を称賛[しょうさん]する",
+     "vi": "tán dương nỗ lực"
+    }
+   ],
+   "rel": [
+    "v:褒める:ほめる"
+   ],
+   "note": "Văn viết, tin tức. Nói thường ngày: 褒[ほ]める. Cũng viết 賞賛[しょうさん].",
+   "vt": "tha"
+  },
+  {
+   "id": "v:非常識:ひじょうしき",
+   "kana": "ひじょうしき",
+   "kanji": "非常識",
+   "hv": "PHI THƯỜNG THỨC",
+   "vi": "thiếu ý thức, trái lẽ thường",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lẽ thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜中[よなか]に大[おお]きな音[おと]で音楽[おんがく]を聴[き]くのは、非常識[ひじょうしき]だ。",
+     "vi": "Nửa đêm nghe nhạc to là thiếu ý thức.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "連絡[れんらく]なしで休[やす]むなんて、非常識[ひじょうしき]というものだ。",
+     "vi": "Nghỉ mà không báo gì thì đúng là thiếu ý thức.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：駅[えき]のホームで、たばこを吸[す]ってる人[ひと]がいたよ。B：非常識[ひじょうしき]だね。",
+     "vi": "A: Có người hút thuốc trên sân ga đấy. B: Thiếu ý thức thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "ant": [
+    "v:常識:じょうしき"
+   ],
+   "note": "非常識[ひじょうしき]な時間[じかん] = giờ không phải phép (quá sớm, quá khuya để gọi điện, đến thăm)."
+  },
+  {
+   "id": "v:道理:どうり",
+   "kana": "どうり",
+   "kanji": "道理",
+   "hv": "ĐẠO LÝ",
+   "vi": "lẽ phải, lý lẽ đương nhiên",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lẽ thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "自分[じぶん]のミスを人[ひと]のせいにするのは、道理[どうり]に合[あ]わない。",
+     "vi": "Đổ lỗi của mình cho người khác là trái lẽ phải.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "道理[どうり]で寒[さむ]いわけだ。窓[まど]が開[あ]いていたよ。",
+     "vi": "Thảo nào lạnh thế. Cửa sổ đang mở.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "道理[どうり]に合[あ]わない / 道理[どうり]が通[とお]らない = trái lẽ. 道理[どうり]で = thảo nào (khẩu ngữ)."
+  },
+  {
+   "id": "v:筋が通る:すじがとおる",
+   "kana": "すじがとおる",
+   "kanji": "筋が通る",
+   "kf": "筋[すじ]が通[とお]る",
+   "hv": "CÂN THÔNG",
+   "vi": "hợp lý, có đầu có đuôi",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lẽ thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]の説明[せつめい]は、筋[すじ]が通[とお]っている。",
+     "vi": "Lời giải thích của anh ấy hợp lý.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "筋[すじ]が通[とお]る理由[りゆう]がなければ、急[きゅう]な休[やす]みは認[みと]められない。",
+     "vi": "Không có lý do hợp lý thì nghỉ đột xuất không được duyệt.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:筋違い:すじちがい"
+   ],
+   "rel": [
+    "v:筋:すじ"
+   ],
+   "note": "Hay dùng 筋[すじ]が通[とお]っている / 筋[すじ]の通[とお]った話[はなし]. Tha động từ: 筋[すじ]を通[とお]す = làm đúng lẽ, đúng trình tự."
+  },
+  {
+   "id": "v:筋違い:すじちがい",
+   "kana": "すじちがい",
+   "kanji": "筋違い",
+   "kf": "筋違[すじちが]い",
+   "hv": "CÂN VI",
+   "vi": "sai đối tượng, không đúng chỗ (trách nhầm người)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lẽ thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]に文句[もんく]を言[い]うのは、筋違[すじちが]いですよ。",
+     "vi": "Phàn nàn với tôi là nhầm người rồi đấy.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "会社[かいしゃ]の問題[もんだい]を、新人[しんじん]のせいにするのは筋違[すじちが]いだ。",
+     "vi": "Đổ vấn đề của công ty lên đầu người mới là sai đối tượng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：派遣[はけん]会社[かいしゃ]に言[い]えばいいかな？B：それは筋違[すじちが]いだよ。工場[こうじょう]の担当者[たんとうしゃ]に言[い]わないと。",
+     "vi": "A: Nói với công ty phái cử là được nhỉ? B: Thế là sai chỗ rồi. Phải nói với người phụ trách nhà máy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "ant": [
+    "v:筋が通る:すじがとおる"
+   ]
+  },
+  {
+   "id": "v:正論:せいろん",
+   "kana": "せいろん",
+   "kanji": "正論",
+   "hv": "CHÍNH LUẬN",
+   "vi": "lý lẽ đúng đắn (về lý thuyết)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lẽ thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]の言[い]うことは正論[せいろん]だが、現場[げんば]では難[むずか]しい。",
+     "vi": "Điều anh ta nói về lý thì đúng, nhưng ở hiện trường thì khó.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "正論[せいろん]ばかり言[い]っていると、人[ひと]はついてこない。",
+     "vi": "Cứ nói toàn lý lẽ đúng đắn thì người ta không theo.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Hay hàm ý \"đúng nhưng cứng nhắc\": 正論[せいろん]だけど…. Gần nghĩa: 道理[どうり]."
+  },
+  {
+   "id": "v:人情:にんじょう",
+   "kana": "にんじょう",
+   "kanji": "人情",
+   "hv": "NHÂN TÌNH",
+   "vi": "tình người",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lẽ thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "下町[したまち]には、人情[にんじょう]が残[のこ]っている。",
+     "vi": "Khu phố cũ vẫn còn tình người.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "困[こま]っている人[ひと]を助[たす]けるのが、人情[にんじょう]というものだ。",
+     "vi": "Giúp người đang gặp khó, đó mới là tình người.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "人情[にんじょう]がある / 人情味[にんじょうみ]のある人[ひと] = người giàu tình người."
+  },
+  {
+   "id": "v:わきまえる:わきまえる",
+   "kana": "わきまえる",
+   "kanji": "",
+   "hv": "",
+   "vi": "biết điều, biết phân biệt (vị trí, phép tắc)",
+   "pos": "v1",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lẽ thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "立場[たちば]をわきまえて、発言[はつげん]してください。",
+     "vi": "Hãy biết vị trí của mình mà phát biểu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "公共[こうきょう]の場所[ばしょ]では、マナーをわきまえるべきだ。",
+     "vi": "Ở nơi công cộng nên biết giữ phép tắc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの新人[しんじん]、社長[しゃちょう]にため口[ぐち]だったよ。B：礼儀[れいぎ]をわきまえないとね。",
+     "vi": "A: Cậu mới vào đó nói trống không với giám đốc đấy. B: Phải biết lễ phép chứ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "立場[たちば]をわきまえる",
+     "vi": "biết vị trí của mình"
+    },
+    {
+     "jp": "礼儀[れいぎ]をわきまえる",
+     "vi": "biết lễ phép"
+    }
+   ],
+   "note": "Chữ Hán: 弁[わきま]える (ít dùng)."
+  },
+  {
+   "id": "v:大人げない:おとなげない",
+   "kana": "おとなげない",
+   "kanji": "大人げない",
+   "kf": "大人[おとな]げない",
+   "hv": "ĐẠI NHÂN",
+   "vi": "không ra dáng người lớn, xử sự như con nít",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lẽ thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子供[こども]と本気[ほんき]でけんかするなんて、大人[おとな]げない。",
+     "vi": "Cãi nhau thật với trẻ con thì trẻ con quá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "小[ちい]さなミスで怒鳴[どな]るのは、大人[おとな]げないと思[おも]う。",
+     "vi": "Tôi nghĩ quát tháo vì lỗi nhỏ là không ra dáng người lớn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：ゲームで子供[こども]に勝[か]って、喜[よろこ]んでたよね。B：うん、ちょっと大人[おとな]げなかったね。",
+     "vi": "A: Thắng con trong trò chơi mà hớn hở nhỉ. B: Ừ, hơi trẻ con thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Chỉ dùng để nói người lớn cư xử thiếu chín chắn."
+  },
+  {
+   "id": "v:身勝手:みがって",
+   "kana": "みがって",
+   "kanji": "身勝手",
+   "hv": "THÂN THẮNG THỦ",
+   "vi": "chỉ biết mình, tự tiện (gây hại người khác)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lẽ thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "休[やす]みの日[ひ]を勝手[かって]に変[か]えるのは、身勝手[みがって]だ。",
+     "vi": "Tự ý đổi ngày nghỉ là ích kỷ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "身勝手[みがって]な理由[りゆう]で、約束[やくそく]を破[やぶ]られた。",
+     "vi": "Tôi bị thất hứa vì một lý do ích kỷ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの人[ひと]、また自分[じぶん]の分[ぶん]だけ片付[かたづ]けて帰[かえ]ったよ。B：身勝手[みがって]だなあ。",
+     "vi": "A: Người đó lại chỉ dọn phần mình rồi về. B: Ích kỷ thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:わがまま:わがまま"
+   ],
+   "note": "身勝手[みがって] nặng hơn わがまま, hàm ý gây hại cho người khác."
+  },
+  {
+   "id": "v:図々しい:ずうずうしい",
+   "kana": "ずうずうしい",
+   "kanji": "図々しい",
+   "kf": "図々[ずうずう]しい",
+   "hv": "ĐỒ ĐỒ",
+   "vi": "trơ trẽn, mặt dày",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lẽ thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "列[れつ]に割[わ]り込[こ]むなんて、図々[ずうずう]しい人[ひと]だ。",
+     "vi": "Chen ngang hàng, đúng là người mặt dày.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "図々[ずうずう]しいお願[ねが]いですが、車[くるま]で駅[えき]まで送[おく]ってもらえませんか。",
+     "vi": "Nhờ thế này thật mặt dày, nhưng anh chở tôi ra ga được không?",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "A：新人[しんじん]なのに、いきなり休[やす]みを三日[みっか]ください、だって。B：ずいぶん図々[ずうずう]しいね。",
+     "vi": "A: Mới vào mà đòi ngay nghỉ ba ngày. B: Mặt dày ghê.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "図々[ずうずう]しいお願[ねが]いですが… = tôi biết là hơi quá nhưng… (lời nhờ khiêm tốn)."
+  },
+  {
+   "id": "v:無茶:むちゃ",
+   "kana": "むちゃ",
+   "kanji": "無茶",
+   "hv": "VÔ TRÀ",
+   "vi": "liều lĩnh, vô lý quá mức",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lẽ thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一人[ひとり]で百箱[ひゃっぱこ]運[はこ]ぶなんて、無茶[むちゃ]だよ。",
+     "vi": "Một mình chuyển trăm thùng thì liều quá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "熱[ねつ]があるのに無茶[むちゃ]をして、倒[たお]れてしまった。",
+     "vi": "Đang sốt mà cố liều nên bị ngã quỵ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：明日[あした]までに全部[ぜんぶ]終[お]わらせて。B：それは無茶[むちゃ]ですよ。",
+     "vi": "A: Làm xong hết trước ngày mai đi. B: Thế thì quá đáng lắm ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:無理:むり"
+   ],
+   "note": "無茶[むちゃ]をする = làm liều. 無茶[むちゃ]な要求[ようきゅう] = yêu cầu vô lý. Khẩu ngữ: 無茶苦茶[むちゃくちゃ]."
+  },
+  {
+   "id": "v:くだらない:くだらない",
+   "kana": "くだらない",
+   "kanji": "",
+   "hv": "",
+   "vi": "vớ vẩn, vô bổ",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phản bác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "くだらない話[はなし]で、時間[じかん]を無駄[むだ]にしたくない。",
+     "vi": "Tôi không muốn phí thời gian vào chuyện vớ vẩn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "そんなくだらないミスで、一日[いちにち]の作業[さぎょう]が止[と]まった。",
+     "vi": "Chỉ vì lỗi vớ vẩn đó mà công việc cả ngày bị dừng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：このテレビ番組[ばんぐみ]、面白[おもしろ]い？B：くだらないけど、つい見[み]ちゃうんだ。",
+     "vi": "A: Chương trình TV này hay không? B: Vớ vẩn nhưng cứ lỡ xem.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "syn": [
+    "v:ばかばかしい:ばかばかしい"
+   ],
+   "note": "Chữ Hán: 下[くだ]らない (ít dùng)."
+  },
+  {
+   "id": "v:ばかばかしい:ばかばかしい",
+   "kana": "ばかばかしい",
+   "kanji": "",
+   "hv": "",
+   "vi": "ngớ ngẩn, nực cười",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phản bác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "そんなばかばかしい話[はなし]、誰[だれ]が信[しん]じるものか。",
+     "vi": "Chuyện ngớ ngẩn như thế ai mà tin cho được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "こんなことで喧嘩[けんか]するのは、ばかばかしい。",
+     "vi": "Cãi nhau vì chuyện thế này thật nực cười.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：五分[ごふん]遅[おく]れただけで、始末書[しまつしょ]だって。B：ばかばかしい規則[きそく]だね。",
+     "vi": "A: Chỉ muộn năm phút mà phải viết bản kiểm điểm. B: Quy định nực cười thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "syn": [
+    "v:くだらない:くだらない"
+   ],
+   "note": "Chữ Hán: 馬鹿馬鹿[ばかばか]しい."
+  },
+  {
+   "id": "v:言い返す:いいかえす",
+   "kana": "いいかえす",
+   "kanji": "言い返す",
+   "kf": "言[い]い返[かえ]す",
+   "hv": "NGÔN PHẢN",
+   "vi": "đáp trả, nói lại (khi bị nói)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phản bác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先輩[せんぱい]に怒[おこ]られても、言[い]い返[かえ]さなかった。",
+     "vi": "Bị tiền bối mắng nhưng tôi không cãi lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "言[い]い返[かえ]したかったが、うまい言葉[ことば]が出[で]てこなかった。",
+     "vi": "Tôi muốn đáp trả nhưng không nghĩ ra câu nào hay.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あんなこと言[い]われて、黙[だま]ってたの？B：うん、言[い]い返[かえ]すものか。相手[あいて]にしないよ。",
+     "vi": "A: Bị nói thế mà cậu im à? B: Ừ, đời nào tớ cãi lại. Không thèm chấp.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "相手[あいて]に言[い]い返[かえ]す",
+     "vi": "cãi lại người ta"
+    }
+   ],
+   "confuse": [
+    "v:口答え:くちごたえ"
+   ]
+  },
+  {
+   "id": "v:口答え:くちごたえ",
+   "kana": "くちごたえ",
+   "kanji": "口答え",
+   "kf": "口答[くちごた]え",
+   "hv": "KHẨU ĐÁP",
+   "vi": "cãi lời (người trên)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phản bác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子供[こども]のころ、親[おや]に口答[くちごた]えしてよく叱[しか]られた。",
+     "vi": "Hồi nhỏ tôi hay cãi bố mẹ nên hay bị mắng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "上司[じょうし]に口答[くちごた]えするのは、よくないとされている。",
+     "vi": "Cãi lại cấp trên bị coi là không hay.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "親[おや]に口答[くちごた]えする",
+     "vi": "cãi lại bố mẹ"
+    }
+   ],
+   "confuse": [
+    "v:言い返す:いいかえす"
+   ],
+   "note": "口答[くちごた]え = cãi lại người trên (cha mẹ, thầy, sếp), mang ý chê. 言[い]い返[かえ]す = đáp trả nói chung.",
+   "vt": "tu"
+  },
+  {
+   "id": "v:異議:いぎ",
+   "kana": "いぎ",
+   "kanji": "異議",
+   "hv": "DỊ NGHỊ",
+   "vi": "ý kiến phản đối (chính thức)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phản bác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この案[あん]に異議[いぎ]のある方[かた]は、手[て]を挙[あ]げてください。",
+     "vi": "Ai có ý kiến phản đối phương án này xin giơ tay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "税金[ぜいきん]の決定[けってい]に異議[いぎ]がある場合[ばあい]は、申[もう]し立[た]てができる。",
+     "vi": "Nếu không đồng ý với quyết định về thuế thì có thể khiếu nại.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "異議[いぎ]あり = phản đối! 異議[いぎ]なし = không phản đối. 異議[いぎ]を唱[とな]える / 申[もう]し立[た]てる = nêu phản đối chính thức."
+  },
+  {
+   "id": "v:断じて:だんじて",
+   "kana": "だんじて",
+   "kanji": "断じて",
+   "kf": "断[だん]じて",
+   "hv": "ĐOẠN",
+   "vi": "nhất quyết (không), dứt khoát (không)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phản bác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "そんなことは、断[だん]じて許[ゆる]さない。",
+     "vi": "Chuyện như thế tuyệt nhiên không thể tha thứ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "私[わたし]は、断[だん]じて嘘[うそ]をついていません。",
+     "vi": "Tôi tuyệt nhiên không nói dối.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "syn": [
+    "v:決して:けっして"
+   ],
+   "with": "phudinh",
+   "note": "Mạnh và trang trọng hơn 決[けっ]して. Hầu như đi với phủ định."
+  },
+  {
+   "id": "v:二度と:にどと",
+   "kana": "にどと",
+   "kanji": "二度と",
+   "kf": "二度[にど]と",
+   "hv": "NHỊ ĐỘ",
+   "vi": "(không bao giờ) lần thứ hai nữa",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phản bác",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "あんな店[みせ]には、二度[にど]と行[い]くものか。",
+     "vi": "Cái quán đó đời nào tôi đến lần nữa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "同[おな]じミスは、二度[にど]としません。",
+     "vi": "Lỗi tương tự tôi sẽ không bao giờ phạm lại.",
+     "ctx": "xuong"
+    }
+   ],
+   "with": "phudinh",
+   "note": "Đi với phủ định: 二度[にど]と〜ない / 二度[にど]と〜ものか."
+  }
+ ]
 }

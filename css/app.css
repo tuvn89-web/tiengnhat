@@ -706,7 +706,7 @@ button.wref:hover { border-color: var(--blue); }
 .nb-edit { margin-top: 20px; }
 .nb-edit summary { cursor: pointer; color: var(--ink-2); padding: 8px 0; }
 
-.lsteps { list-style: none; padding: 0; margin: 10px 0 6px; display: grid; grid-template-columns: repeat(8, 1fr); gap: 4px; }
+.lsteps { list-style: none; padding: 0; margin: 10px 0 6px; display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
 .lsteps li { height: 30px; border-radius: 8px; background: var(--surface-2); display: grid; place-items: center; font-size: .8em; font-weight: 700; color: var(--ink-2); }
 .lsteps li.is-done { background: var(--ok-soft); color: var(--ok); }
 .lsteps li.is-next { background: var(--blue-soft); color: var(--blue); outline: 2px solid var(--blue); outline-offset: -2px; }
@@ -735,7 +735,7 @@ button.wref:hover { border-color: var(--blue); }
 .lstep[open] > summary { border-bottom: 1px solid var(--line); }
 .lstep-b { padding: 4px 14px 14px; }
 .lstep-hd { display: flex; align-items: center; gap: 10px; margin: 0; padding: 14px; font-size: 1em; font-weight: 700; border-bottom: 1px solid var(--line); }
-/* v47: tab của trang bài học — 5 cột (2 hàng); bước xong có ✓ xanh, bước kế tiếp viền xanh dương */
+/* v50: tab của trang bài học — điện thoại 5 cột (2 hàng), màn rộng 1 hàng; bước xong có ✓ xanh, bước kế tiếp viền xanh dương */
 .ltabs { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; padding: 4px; margin: 10px 0 14px; background: var(--surface-2); border-radius: 12px; }
 .ltab { display: grid; justify-items: center; gap: 2px; min-height: 54px; padding: 6px 2px; border: 0; border-radius: 9px; background: none; color: var(--ink-2); font: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
 .ltab .lt-n { width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; font-size: .78em; font-weight: 700; border: 1.5px solid var(--line); }
@@ -746,6 +746,7 @@ button.wref:hover { border-color: var(--blue); }
 .ltab[aria-selected="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 0 var(--line), 0 0 0 1px var(--line); }
 .ltab:focus-visible { outline: 2px solid var(--blue); outline-offset: 1px; }
 section.lpanel[hidden] { display: none; }
+@media (min-width: 620px) { .ltabs { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 1fr; } }
 .lintro-h { display: flex; align-items: center; gap: 8px; margin: 4px 0 6px; }
 .lstep-b .row-btns { margin-top: 10px; }
 .lrows { margin: 6px 0; }
@@ -1132,3 +1133,23 @@ html:not(.calm) .tn-in { animation: tnFadeIn .22s ease-out backwards; }
 .jt-plan .topics th { white-space: normal; }
 .doc-intros { margin: 6px 0 14px; }
 .doc-intros > summary { cursor: pointer; padding: 8px 0; color: var(--ink-2, #4A5C68); }
+/* v50: Học lại — huy hiệu ↺, đi lại bài (✓ lần đầu để mờ), 3 cách học lại */
+.ls-rl { color: var(--blue); font-weight: 700; }
+.ltab.is-first .lt-n, .lt-first { border-color: var(--line); color: var(--ok); opacity: .45; }
+.lt-first { display: inline-grid; place-items: center; width: 18px; height: 18px; border: 1.5px solid; border-radius: 50%; font-size: .75em; }
+.lredo p { margin: 0 0 6px; }
+.lredo-s { margin: 6px 0; }
+.lrl { margin: 6px 0 2px; }
+.rl-opt h2 { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.rl-tag { font-size: .7em; font-weight: 700; padding: 2px 8px; border-radius: 999px; background: var(--ok-soft); color: var(--ok); }
+.rl-c { border-color: color-mix(in srgb, var(--ng) 30%, var(--line)); }
+.rl-cards { list-style: none; padding: 0; margin: 10px 0; display: grid; gap: 8px; }
+.rl-card { padding: 12px 14px; margin: 0; }
+.rl-jp { font-size: 1.35em; margin: 0 0 2px; }
+.rl-vi { margin: 0 0 6px; font-weight: 600; }
+.wd-trap { margin: 6px 0; padding: 8px 10px; border-radius: 8px; background: var(--ng-soft); font-size: .92em; line-height: 1.45; }
+/* v50: Gỡ câu 2 bước — phần bổ nghĩa gạch dưới, danh từ trung tâm in đậm */
+.gc-cl { text-decoration: underline 2px var(--blue); text-underline-offset: 5px; }
+.gc-h { color: var(--ok); }
+.gc-undo { margin: 8px 0 0; padding: 8px 10px; border-radius: 8px; background: var(--surface-2); line-height: 1.7; }
+.gc-n { font-size: .78em; font-weight: 700; padding: 1px 6px; border-radius: 6px; background: var(--blue-soft); color: var(--blue); }

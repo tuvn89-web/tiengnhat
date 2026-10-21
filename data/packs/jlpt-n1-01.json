@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -52,7 +52,8 @@
     "v:作動:さどう",
     "v:誤報:ごほう"
    ],
-   "note": "誤[ご]作動[さどう]を起[お]こす = bị hoạt động sai. 故障[こしょう] = hỏng hẳn, không chạy; 誤[ご]作動[さどう] = máy vẫn chạy nhưng phản ứng sai (báo nhầm, tự khởi động)."
+   "note": "誤[ご]作動[さどう]を起[お]こす = bị hoạt động sai. 故障[こしょう] = hỏng hẳn, không chạy; 誤[ご]作動[さどう] = máy vẫn chạy nhưng phản ứng sai (báo nhầm, tự khởi động).",
+   "vt": "tu"
   },
   {
    "id": "v:作動:さどう",
@@ -92,7 +93,8 @@
    "confuse": [
     "v:稼働:かどう"
    ],
-   "note": "作動[さどう] = một thiết bị, cơ cấu bắt đầu làm việc (thường là tự động). 稼働[かどう] = máy, nhà máy chạy sản xuất."
+   "note": "作動[さどう] = một thiết bị, cơ cấu bắt đầu làm việc (thường là tự động). 稼働[かどう] = máy, nhà máy chạy sản xuất.",
+   "vt": "tu"
   },
   {
    "id": "v:異音:いおん",
@@ -222,7 +224,8 @@
    "rel": [
     "v:劣化:れっか"
    ],
-   "note": "Nói thường: すり減[へ]る. 摩耗品[まもうひん] = linh kiện hao mòn (phải thay định kỳ)."
+   "note": "Nói thường: すり減[へ]る. 摩耗品[まもうひん] = linh kiện hao mòn (phải thay định kỳ).",
+   "vt": "tu"
   },
   {
    "id": "v:劣化:れっか",
@@ -258,7 +261,8 @@
    "rel": [
     "v:摩耗:まもう"
    ],
-   "note": "経年劣化[けいねんれっか] = xuống cấp theo năm tháng. Dùng cả cho chất lượng hàng: 鮮度[せんど]の劣化[れっか] = độ tươi giảm."
+   "note": "経年劣化[けいねんれっか] = xuống cấp theo năm tháng. Dùng cả cho chất lượng hàng: 鮮度[せんど]の劣化[れっか] = độ tươi giảm.",
+   "vt": "tu"
   },
   {
    "id": "v:制御:せいぎょ",
@@ -291,7 +295,8 @@
      "vi": "điều khiển nhiệt độ"
     }
    ],
-   "note": "制御盤[せいぎょばん] = tủ điều khiển. 制御不能[せいぎょふのう] = mất kiểm soát."
+   "note": "制御盤[せいぎょばん] = tủ điều khiển. 制御不能[せいぎょふのう] = mất kiểm soát.",
+   "vt": "tha"
   },
   {
    "id": "v:暴走:ぼうそう",
@@ -327,7 +332,8 @@
    "rel": [
     "v:制御:せいぎょ"
    ],
-   "note": "Nghĩa bóng: hành động bất chấp (感情[かんじょう]の暴走[ぼうそう]). 暴走族[ぼうそうぞく] = băng đua xe."
+   "note": "Nghĩa bóng: hành động bất chấp (感情[かんじょう]の暴走[ぼうそう]). 暴走族[ぼうそうぞく] = băng đua xe.",
+   "vt": "tu"
   },
   {
    "id": "v:誤操作:ごそうさ",
@@ -364,7 +370,8 @@
     "v:操作:そうさ",
     "v:誤作動:ごさどう"
    ],
-   "note": "誤操作[ごそうさ] = lỗi do người thao tác. 誤[ご]作動[さどう] = lỗi do máy tự phản ứng sai."
+   "note": "誤操作[ごそうさ] = lỗi do người thao tác. 誤[ご]作動[さどう] = lỗi do máy tự phản ứng sai.",
+   "vt": "tha"
   },
   {
    "id": "v:過熱:かねつ",
@@ -397,7 +404,8 @@
      "vi": "mô-tơ quá nhiệt"
     }
    ],
-   "note": "Đồng âm: 加熱[かねつ] = gia nhiệt, đun nóng (xưởng không gia nhiệt = 非加熱[ひかねつ])."
+   "note": "Đồng âm: 加熱[かねつ] = gia nhiệt, đun nóng (xưởng không gia nhiệt = 非加熱[ひかねつ]).",
+   "vt": "tu"
   },
   {
    "id": "v:手動:しゅどう",
@@ -462,7 +470,8 @@
    ],
    "rel": [
     "v:漏電:ろうでん"
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:予兆:よちょう",
@@ -566,7 +575,8 @@
     "v:ブレーカー:ブレーカー",
     "v:断線:だんせん"
    ],
-   "note": "漏電遮断器[ろうでんしゃだんき] = aptomat chống giật."
+   "note": "漏電遮断器[ろうでんしゃだんき] = aptomat chống giật.",
+   "vt": "tu"
   },
   {
    "id": "v:漏洩:ろうえい",
@@ -642,7 +652,8 @@
    "confuse": [
     "v:引火:いんか"
    ],
-   "note": "発火[はっか] = tự phát ra lửa (do nhiệt, chập điện). 引火[いんか] = bắt lửa từ ngọn lửa khác. 発火点[はっかてん] = điểm bốc cháy."
+   "note": "発火[はっか] = tự phát ra lửa (do nhiệt, chập điện). 引火[いんか] = bắt lửa từ ngọn lửa khác. 発火点[はっかてん] = điểm bốc cháy.",
+   "vt": "tu"
   },
   {
    "id": "v:引火:いんか",
@@ -678,7 +689,8 @@
    "confuse": [
     "v:発火:はっか"
    ],
-   "note": "引火性[いんかせい] = tính dễ bắt lửa. 火気厳禁[かきげんきん] = nghiêm cấm lửa."
+   "note": "引火性[いんかせい] = tính dễ bắt lửa. 火気厳禁[かきげんきん] = nghiêm cấm lửa.",
+   "vt": "tu"
   },
   {
    "id": "v:充満:じゅうまん",
@@ -714,7 +726,8 @@
    "rel": [
     "v:立ち込める:たちこめる"
    ],
-   "note": "Nghĩa bóng: 不満[ふまん]が充満[じゅうまん]する = bất mãn dồn nén."
+   "note": "Nghĩa bóng: 不満[ふまん]が充満[じゅうまん]する = bất mãn dồn nén.",
+   "vt": "tu"
   },
   {
    "id": "v:立ち込める:たちこめる",
@@ -877,7 +890,8 @@
     "v:消火器:しょうかき",
     "v:消防:しょうぼう"
    ],
-   "note": "鎮火[ちんか] = lửa đã tắt hẳn (tin tức). 消火[しょうか] = hành động chữa cháy."
+   "note": "鎮火[ちんか] = lửa đã tắt hẳn (tin tức). 消火[しょうか] = hành động chữa cháy.",
+   "vt": "tu"
   },
   {
    "id": "v:延焼:えんしょう",
@@ -913,7 +927,8 @@
    "rel": [
     "v:燃え移る:もえうつる"
    ],
-   "note": "Tin tức hay dùng: 〜棟[とう]に延焼[えんしょう] = cháy lan sang … căn."
+   "note": "Tin tức hay dùng: 〜棟[とう]に延焼[えんしょう] = cháy lan sang … căn.",
+   "vt": "tu"
   },
   {
    "id": "v:燃え移る:もえうつる",
@@ -1133,7 +1148,8 @@
    "rel": [
     "v:封鎖:ふうさ"
    ],
-   "note": "遮断機[しゃだんき] = thanh chắn (đường tàu)."
+   "note": "遮断機[しゃだんき] = thanh chắn (đường tàu).",
+   "vt": "tha"
   },
   {
    "id": "v:食い止める:くいとめる",
@@ -1216,7 +1232,8 @@
    "confuse": [
     "v:緊張:きんちょう"
    ],
-   "note": "Hay dùng 緊迫[きんぱく]した〜 (緊迫[きんぱく]した場面[ばめん] = cảnh căng thẳng). 緊張[きんちょう] = căng thẳng, hồi hộp trong lòng người; 緊迫[きんぱく] = tình thế căng như dây đàn."
+   "note": "Hay dùng 緊迫[きんぱく]した〜 (緊迫[きんぱく]した場面[ばめん] = cảnh căng thẳng). 緊張[きんちょう] = căng thẳng, hồi hộp trong lòng người; 緊迫[きんぱく] = tình thế căng như dây đàn.",
+   "vt": "tu"
   },
   {
    "id": "v:警戒:けいかい",
@@ -1252,7 +1269,8 @@
    "rel": [
     "v:警報:けいほう"
    ],
-   "note": "警戒[けいかい]レベル = cấp độ cảnh báo (thiên tai). 警戒心[けいかいしん] = lòng cảnh giác."
+   "note": "警戒[けいかい]レベル = cấp độ cảnh báo (thiên tai). 警戒心[けいかいしん] = lòng cảnh giác.",
+   "vt": "tha"
   },
   {
    "id": "v:誘導:ゆうどう",
@@ -1292,7 +1310,8 @@
    "rel": [
     "v:案内:あんない"
    ],
-   "note": "誘導係[ゆうどうがかり] = người hướng dẫn (khi sơ tán, đỗ xe). Nghĩa khác: dẫn dắt khéo (誘導尋問[ゆうどうじんもん] = hỏi gài)."
+   "note": "誘導係[ゆうどうがかり] = người hướng dẫn (khi sơ tán, đỗ xe). Nghĩa khác: dẫn dắt khéo (誘導尋問[ゆうどうじんもん] = hỏi gài).",
+   "vt": "tha"
   },
   {
    "id": "v:退避:たいひ",
@@ -1328,7 +1347,8 @@
    "confuse": [
     "v:避難:ひなん"
    ],
-   "note": "退避[たいひ] = rút khỏi chỗ nguy hiểm ngay trước mắt (thường trong thời gian ngắn). 避難[ひなん] = lánh nạn, sơ tán (có thể ở lại nơi lánh nạn lâu)."
+   "note": "退避[たいひ] = rút khỏi chỗ nguy hiểm ngay trước mắt (thường trong thời gian ngắn). 避難[ひなん] = lánh nạn, sơ tán (có thể ở lại nơi lánh nạn lâu).",
+   "vt": "tu"
   },
   {
    "id": "v:点呼:てんこ",
@@ -1364,7 +1384,8 @@
    "rel": [
     "v:安否:あんぴ"
    ],
-   "note": "点呼[てんこ]を取[と]る = điểm danh. Sau sơ tán, điểm danh để xác nhận 安否[あんぴ] (ai còn ở lại bên trong)."
+   "note": "点呼[てんこ]を取[と]る = điểm danh. Sau sơ tán, điểm danh để xác nhận 安否[あんぴ] (ai còn ở lại bên trong).",
+   "vt": "tha"
   },
   {
    "id": "v:封鎖:ふうさ",
@@ -1400,7 +1421,8 @@
    "rel": [
     "v:遮断:しゃだん"
    ],
-   "note": "Tin tức: 都市封鎖[としふうさ] = phong tỏa thành phố."
+   "note": "Tin tức: 都市封鎖[としふうさ] = phong tỏa thành phố.",
+   "vt": "tha"
   },
   {
    "id": "v:駆けつける:かけつける",
@@ -1480,7 +1502,8 @@
    "rel": [
     "v:救急車:きゅうきゅうしゃ"
    ],
-   "note": "Tin tức: 救急搬送[きゅうきゅうはんそう] = chở đi cấp cứu. Trong xưởng còn nghĩa chuyển hàng (搬送[はんそう]コンベア = băng tải chuyển hàng)."
+   "note": "Tin tức: 救急搬送[きゅうきゅうはんそう] = chở đi cấp cứu. Trong xưởng còn nghĩa chuyển hàng (搬送[はんそう]コンベア = băng tải chuyển hàng).",
+   "vt": "tha"
   },
   {
    "id": "v:二次災害:にじさいがい",

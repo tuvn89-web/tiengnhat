@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -102,7 +102,8 @@
      "vi": "quyết ngay (thường đi cặp: 即断即決)"
     }
    ],
-   "note": "即断[そくだん] = phán đoán và quyết ngay. 即断即決[そくだんそっけつ] = quyết ngay, làm ngay. 即断[そくだん]は避[さ]ける = tránh quyết vội."
+   "note": "即断[そくだん] = phán đoán và quyết ngay. 即断即決[そくだんそっけつ] = quyết ngay, làm ngay. 即断[そくだん]は避[さ]ける = tránh quyết vội.",
+   "vt": "tha"
   },
   {
    "id": "v:独断:どくだん",
@@ -199,7 +200,8 @@
    "rel": [
     "v:承認:しょうにん"
    ],
-   "note": "決裁[けっさい] = người có thẩm quyền xem rồi quyết duyệt hay không (決裁権[けっさいけん] = quyền phê duyệt, 決裁[けっさい]が下[お]りる = được duyệt, 決裁者[けっさいしゃ]). Đồng âm 決済[けっさい] = thanh toán (カード決済[けっさい])."
+   "note": "決裁[けっさい] = người có thẩm quyền xem rồi quyết duyệt hay không (決裁権[けっさいけん] = quyền phê duyệt, 決裁[けっさい]が下[お]りる = được duyệt, 決裁者[けっさいしゃ]). Đồng âm 決済[けっさい] = thanh toán (カード決済[けっさい]).",
+   "vt": "tha"
   },
   {
    "id": "v:裁量:さいりょう",
@@ -286,7 +288,8 @@
     "v:任せる:まかせる",
     "v:委ねる:ゆだねる"
    ],
-   "note": "一任[いちにん] = giao hết quyền quyết cho một người (văn trang trọng: 議長[ぎちょう]に一任[いちにん]する). 任[まか]せる = giao (nói chung). 委[ゆだ]ねる = phó thác (văn viết)."
+   "note": "一任[いちにん] = giao hết quyền quyết cho một người (văn trang trọng: 議長[ぎちょう]に一任[いちにん]する). 任[まか]せる = giao (nói chung). 委[ゆだ]ねる = phó thác (văn viết).",
+   "vt": "tha"
   },
   {
    "id": "v:熟慮:じゅくりょ",
@@ -338,7 +341,8 @@
     "v:検討:けんとう",
     "v:慎重:しんちょう"
    ],
-   "note": "熟慮[じゅくりょ]の末[すえ] = sau khi suy nghĩ kỹ (rất hay gặp). 熟慮[じゅくりょ]を重[かさ]ねる = cân nhắc nhiều lần. 熟慮断行[じゅくりょだんこう] = nghĩ kỹ rồi quyết làm."
+   "note": "熟慮[じゅくりょ]の末[すえ] = sau khi suy nghĩ kỹ (rất hay gặp). 熟慮[じゅくりょ]を重[かさ]ねる = cân nhắc nhiều lần. 熟慮断行[じゅくりょだんこう] = nghĩ kỹ rồi quyết làm.",
+   "vt": "tha"
   },
   {
    "id": "v:早計:そうけい",
@@ -499,7 +503,8 @@
     "v:延期:えんき",
     "v:棚上げ:たなあげ"
    ],
-   "note": "保留[ほりゅう] = để đó chưa quyết (保留[ほりゅう]にする, 保留中[ほりゅうちゅう]). Điện thoại: 保留[ほりゅう]ボタン = nút giữ máy chờ. 延期[えんき] = dời lịch sang ngày khác. 棚上[たなあ]げ = gác lại lâu, có ý né tránh."
+   "note": "保留[ほりゅう] = để đó chưa quyết (保留[ほりゅう]にする, 保留中[ほりゅうちゅう]). Điện thoại: 保留[ほりゅう]ボタン = nút giữ máy chờ. 延期[えんき] = dời lịch sang ngày khác. 棚上[たなあ]げ = gác lại lâu, có ý né tránh.",
+   "vt": "tha"
   },
   {
    "id": "v:棚上げ:たなあげ",
@@ -541,7 +546,8 @@
     "v:保留:ほりゅう",
     "v:先送り:さきおくり"
    ],
-   "note": "棚上[たなあ]げ = gác lên kệ: để yên không giải quyết (thường có ý né). 自分[じぶん]のことは棚[たな]に上[あ]げて = lờ lỗi của mình đi mà trách người."
+   "note": "棚上[たなあ]げ = gác lên kệ: để yên không giải quyết (thường có ý né). 自分[じぶん]のことは棚[たな]に上[あ]げて = lờ lỗi của mình đi mà trách người.",
+   "vt": "tha"
   },
   {
    "id": "v:あえて:あえて",
@@ -778,7 +784,8 @@
     "v:懸念:けねん",
     "v:危ぶむ:あやぶむ"
    ],
-   "note": "危惧[きぐ] = lo sợ điều xấu có thể xảy ra (văn viết; 絶滅危惧種[ぜつめつきぐしゅ] = loài có nguy cơ tuyệt chủng). 懸念[けねん] = băn khoăn, lo ngại (dùng rộng hơn)."
+   "note": "危惧[きぐ] = lo sợ điều xấu có thể xảy ra (văn viết; 絶滅危惧種[ぜつめつきぐしゅ] = loài có nguy cơ tuyệt chủng). 懸念[けねん] = băn khoăn, lo ngại (dùng rộng hơn).",
+   "vt": "tha"
   },
   {
    "id": "v:危ぶむ:あやぶむ",
@@ -1282,7 +1289,8 @@
     "v:補償:ほしょう",
     "v:穴埋め:あなうめ"
    ],
-   "note": "補填[ほてん] = lấp chỗ thiếu bằng khoản tiền khác (損失[そんしつ]補填[ほてん], 赤字[あかじ]補填[ほてん]). 補償[ほしょう] = đền bù thiệt hại cho người bị hại. 穴埋[あなう]め = lấp chỗ trống (khẩu ngữ)."
+   "note": "補填[ほてん] = lấp chỗ thiếu bằng khoản tiền khác (損失[そんしつ]補填[ほてん], 赤字[あかじ]補填[ほてん]). 補償[ほしょう] = đền bù thiệt hại cho người bị hại. 穴埋[あなう]め = lấp chỗ trống (khẩu ngữ).",
+   "vt": "tha"
   },
   {
    "id": "v:見舞金:みまいきん",
@@ -1554,7 +1562,8 @@
    "rel": [
     "v:優遇:ゆうぐう"
    ],
-   "note": "処遇[しょぐう] = cách xếp đặt, đối xử với người (chức vụ, lương, vị trí) — từ của văn bản nhân sự. 処遇[しょぐう]改善[かいぜん] = cải thiện đãi ngộ. 待遇[たいぐう] = điều kiện đãi ngộ (lương, chế độ)."
+   "note": "処遇[しょぐう] = cách xếp đặt, đối xử với người (chức vụ, lương, vị trí) — từ của văn bản nhân sự. 処遇[しょぐう]改善[かいぜん] = cải thiện đãi ngộ. 待遇[たいぐう] = điều kiện đãi ngộ (lương, chế độ).",
+   "vt": "tha"
   },
   {
    "id": "v:享受:きょうじゅ",
@@ -1594,7 +1603,8 @@
    "rel": [
     "v:恩恵:おんけい"
    ],
-   "note": "享受[きょうじゅ] = nhận và hưởng (văn viết): 恩恵[おんけい] / 権利[けんり] / 自由[じゆう] / 豊[ゆた]かさを享受[きょうじゅ]する."
+   "note": "享受[きょうじゅ] = nhận và hưởng (văn viết): 恩恵[おんけい] / 権利[けんり] / 自由[じゆう] / 豊[ゆた]かさを享受[きょうじゅ]する.",
+   "vt": "tha"
   },
   {
    "id": "v:恩恵:おんけい",
@@ -1685,7 +1695,8 @@
    "rel": [
     "v:権利:けんり"
    ],
-   "note": "侵害[しんがい] = xâm phạm quyền lợi, lợi ích (権利[けんり]侵害[しんがい], 著作権[ちょさくけん]侵害[しんがい], プライバシーの侵害[しんがい]). 侵入[しんにゅう] = đột nhập vào nơi chốn."
+   "note": "侵害[しんがい] = xâm phạm quyền lợi, lợi ích (権利[けんり]侵害[しんがい], 著作権[ちょさくけん]侵害[しんがい], プライバシーの侵害[しんがい]). 侵入[しんにゅう] = đột nhập vào nơi chốn.",
+   "vt": "tha"
   },
   {
    "id": "v:行使:こうし",
@@ -1731,7 +1742,8 @@
     "v:権利:けんり",
     "v:権限:けんげん"
    ],
-   "note": "行使[こうし] = đem quyền, sức mạnh ra dùng thực tế (権利[けんり]の行使[こうし], 実力[じつりょく]行使[こうし] = dùng biện pháp mạnh). Đồng âm: 公使[こうし] = công sứ."
+   "note": "行使[こうし] = đem quyền, sức mạnh ra dùng thực tế (権利[けんり]の行使[こうし], 実力[じつりょく]行使[こうし] = dùng biện pháp mạnh). Đồng âm: 公使[こうし] = công sứ.",
+   "vt": "tha"
   },
   {
    "id": "v:申し立てる:もうしたてる",
@@ -1861,7 +1873,8 @@
    "rel": [
     "v:不服:ふふく"
    ],
-   "note": "泣[な]き寝入[ねい]り = bị thiệt mà không làm gì được, đành im (nghĩa gốc: khóc rồi ngủ thiếp). 泣[な]き寝入[ねい]りしない = không chịu im."
+   "note": "泣[な]き寝入[ねい]り = bị thiệt mà không làm gì được, đành im (nghĩa gốc: khóc rồi ngủ thiếp). 泣[な]き寝入[ねい]りしない = không chịu im.",
+   "vt": "tu"
   },
   {
    "id": "v:正当:せいとう",
@@ -2011,7 +2024,8 @@
    "rel": [
     "v:分け隔て:わけへだて"
    ],
-   "note": "えこひいき (依怙[えこ]贔屓[ひいき]) = ưu ái người mình thích một cách bất công (sắc thái chê). ひいき = ủng hộ, quý (ひいきの店[みせ] = quán ruột — không chê)."
+   "note": "えこひいき (依怙[えこ]贔屓[ひいき]) = ưu ái người mình thích một cách bất công (sắc thái chê). ひいき = ủng hộ, quý (ひいきの店[みせ] = quán ruột — không chê).",
+   "vt": "tha"
   },
   {
    "id": "v:分け隔て:わけへだて",
@@ -2185,7 +2199,8 @@
     "v:見誤る:みあやまる",
     "v:甘く見る:あまくみる"
    ],
-   "note": "過小[かしょう]評価[ひょうか] ↔ 過大評価[かだいひょうか] (đánh giá quá cao). 過小[かしょう]評価[ひょうか]されている = bị đánh giá thấp hơn thực lực."
+   "note": "過小[かしょう]評価[ひょうか] ↔ 過大評価[かだいひょうか] (đánh giá quá cao). 過小[かしょう]評価[ひょうか]されている = bị đánh giá thấp hơn thực lực.",
+   "vt": "tha"
   }
  ]
 }

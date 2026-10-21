@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -271,7 +271,8 @@
     "v:維持:いじ",
     "v:保つ:たもつ"
    ],
-   "note": "保持[ほじ] = giữ nguyên thứ đang có, không để mất (鮮度保持剤[せんどほじざい] = chất giữ tươi; 記録[きろく]保持[ほじ]者[しゃ] = người giữ kỷ lục). 維持[いじ] = duy trì một trạng thái, mức độ liên tục."
+   "note": "保持[ほじ] = giữ nguyên thứ đang có, không để mất (鮮度保持剤[せんどほじざい] = chất giữ tươi; 記録[きろく]保持[ほじ]者[しゃ] = người giữ kỷ lục). 維持[いじ] = duy trì một trạng thái, mức độ liên tục.",
+   "vt": "tha"
   },
   {
    "id": "v:偽装:ぎそう",
@@ -317,7 +318,8 @@
     "v:偽る:いつわる",
     "v:不祥事:ふしょうじ"
    ],
-   "note": "偽装[ぎそう] = làm giả vẻ bên ngoài để che mắt (産地[さんち]偽装[ぎそう], 食品[しょくひん]偽装[ぎそう], 偽装[ぎそう]工作[こうさく] = dàn dựng). 偽[いつわ]る = khai gian (động từ thường dùng)."
+   "note": "偽装[ぎそう] = làm giả vẻ bên ngoài để che mắt (産地[さんち]偽装[ぎそう], 食品[しょくひん]偽装[ぎそう], 偽装[ぎそう]工作[こうさく] = dàn dựng). 偽[いつわ]る = khai gian (động từ thường dùng).",
+   "vt": "tha"
   },
   {
    "id": "v:威信:いしん",
@@ -480,7 +482,8 @@
     "v:汚名:おめい",
     "v:挽回:ばんかい"
    ],
-   "note": "返上[へんじょう] = trả lại thứ đã nhận (タイトル返上[へんじょう] = trả lại danh hiệu). 休日[きゅうじつ]返上[へんじょう]で働[はたら]く = làm cả ngày nghỉ. 汚名[おめい]返上[へんじょう] = rửa tiếng xấu."
+   "note": "返上[へんじょう] = trả lại thứ đã nhận (タイトル返上[へんじょう] = trả lại danh hiệu). 休日[きゅうじつ]返上[へんじょう]で働[はたら]く = làm cả ngày nghỉ. 汚名[おめい]返上[へんじょう] = rửa tiếng xấu.",
+   "vt": "tha"
   },
   {
    "id": "v:失墜:しっつい",
@@ -866,7 +869,8 @@
     "v:自慢:じまん",
     "v:誇り:ほこり"
    ],
-   "note": "自負[じふ] = tự tin vào năng lực, thành quả của mình (自負[じふ]がある / 〜と自負[じふ]している) — trang trọng, không mang nghĩa xấu. 自慢[じまん] = khoe khoang (nói ra cho người khác). 自負心[じふしん] = lòng tự tôn."
+   "note": "自負[じふ] = tự tin vào năng lực, thành quả của mình (自負[じふ]がある / 〜と自負[じふ]している) — trang trọng, không mang nghĩa xấu. 自慢[じまん] = khoe khoang (nói ra cho người khác). 自負心[じふしん] = lòng tự tôn.",
+   "vt": "tha"
   },
   {
    "id": "v:余波:よは",
@@ -1124,7 +1128,8 @@
    "confuse": [
     "v:引き起こす:ひきおこす"
    ],
-   "note": "誘発[ゆうはつ] = làm cho sự việc khác (thường xấu) phát sinh theo (văn viết, báo chí). 引[ひ]き起[お]こす = gây nên (dùng rộng hơn)."
+   "note": "誘発[ゆうはつ] = làm cho sự việc khác (thường xấu) phát sinh theo (văn viết, báo chí). 引[ひ]き起[お]こす = gây nên (dùng rộng hơn).",
+   "vt": "tha"
   },
   {
    "id": "v:被る:こうむる",
@@ -1448,7 +1453,8 @@
     "v:関税:かんぜい",
     "v:検疫:けんえき"
    ],
-   "note": "通関[つうかん] = qua cửa hải quan (khai báo, nộp thuế rồi được phép xuất / nhập). 通関[つうかん]業[ぎょう]者[しゃ] = công ty làm thủ tục hải quan. 税関[ぜいかん] = cơ quan hải quan."
+   "note": "通関[つうかん] = qua cửa hải quan (khai báo, nộp thuế rồi được phép xuất / nhập). 通関[つうかん]業[ぎょう]者[しゃ] = công ty làm thủ tục hải quan. 税関[ぜいかん] = cơ quan hải quan.",
+   "vt": "tu"
   },
   {
    "id": "v:検疫:けんえき",
@@ -1494,7 +1500,8 @@
     "v:通関:つうかん",
     "v:衛生:えいせい"
    ],
-   "note": "検疫[けんえき] = kiểm tra để ngăn bệnh, sâu bệnh từ nước ngoài vào (動物[どうぶつ]検疫[けんえき], 植物[しょくぶつ]検疫[けんえき]). 検疫所[けんえきしょ] = trạm kiểm dịch. 検疫[けんえき]証明書[しょうめいしょ] = giấy chứng nhận kiểm dịch."
+   "note": "検疫[けんえき] = kiểm tra để ngăn bệnh, sâu bệnh từ nước ngoài vào (動物[どうぶつ]検疫[けんえき], 植物[しょくぶつ]検疫[けんえき]). 検疫所[けんえきしょ] = trạm kiểm dịch. 検疫[けんえき]証明書[しょうめいしょ] = giấy chứng nhận kiểm dịch.",
+   "vt": "tha"
   },
   {
    "id": "v:認証:にんしょう",
@@ -1540,7 +1547,8 @@
     "v:証明書:しょうめいしょ",
     "v:規格:きかく"
    ],
-   "note": "認証[にんしょう]を取得[しゅとく]する = lấy được chứng nhận; 認証[にんしょう]機関[きかん] = tổ chức chứng nhận. Nghĩa IT: xác thực (顔[かお]認証[にんしょう], 二段階認証[にだんかいにんしょう])."
+   "note": "認証[にんしょう]を取得[しゅとく]する = lấy được chứng nhận; 認証[にんしょう]機関[きかん] = tổ chức chứng nhận. Nghĩa IT: xác thực (顔[かお]認証[にんしょう], 二段階認証[にだんかいにんしょう]).",
+   "vt": "tha"
   },
   {
    "id": "v:為替:かわせ",
@@ -1616,7 +1624,8 @@
      "vi": "dỡ lệnh cấm"
     }
    ],
-   "note": "禁輸[きんゆ] = cấm nhập khẩu hoặc xuất khẩu (禁輸措置[きんゆそち] = biện pháp cấm vận). 禁輸[きんゆ]を解除[かいじょ]する = dỡ bỏ lệnh cấm. 解禁[かいきん] = dỡ cấm (cả mùa đánh bắt: カニ漁[りょう]の解禁[かいきん])."
+   "note": "禁輸[きんゆ] = cấm nhập khẩu hoặc xuất khẩu (禁輸措置[きんゆそち] = biện pháp cấm vận). 禁輸[きんゆ]を解除[かいじょ]する = dỡ bỏ lệnh cấm. 解禁[かいきん] = dỡ cấm (cả mùa đánh bắt: カニ漁[りょう]の解禁[かいきん]).",
+   "vt": "tha"
   },
   {
    "id": "v:相場:そうば",
@@ -1688,7 +1697,8 @@
    "confuse": [
     "v:競争:きょうそう"
    ],
-   "note": "競合[きょうごう] = cùng nhắm một thị trường, khách hàng nên đụng nhau (競合他社[きょうごうたしゃ] = đối thủ cạnh tranh, 競合[きょうごう]店[てん]). 競争[きょうそう] = cạnh tranh nói chung, thi đua."
+   "note": "競合[きょうごう] = cùng nhắm một thị trường, khách hàng nên đụng nhau (競合他社[きょうごうたしゃ] = đối thủ cạnh tranh, 競合[きょうごう]店[てん]). 競争[きょうそう] = cạnh tranh nói chung, thi đua.",
+   "vt": "tu"
   },
   {
    "id": "v:差別化:さべつか",
@@ -1729,7 +1739,8 @@
     "v:独自:どくじ",
     "v:付加価値:ふかかち"
    ],
-   "note": "差別化[さべつか]を図[はか]る = tìm cách tạo khác biệt. Không mang nghĩa \"phân biệt đối xử\" (差別[さべつ])."
+   "note": "差別化[さべつか]を図[はか]る = tìm cách tạo khác biệt. Không mang nghĩa \"phân biệt đối xử\" (差別[さべつ]).",
+   "vt": "tha"
   },
   {
    "id": "v:付加価値:ふかかち",
@@ -1857,7 +1868,8 @@
    "rel": [
     "v:引けを取らない:ひけをとらない"
    ],
-   "note": "Hầu như dùng phủ định: 〜に太刀打[たちう]ちできない / 太刀打[たちう]ちできる相手[あいて]ではない. Nghĩa gốc: đấu kiếm."
+   "note": "Hầu như dùng phủ định: 〜に太刀打[たちう]ちできない / 太刀打[たちう]ちできる相手[あいて]ではない. Nghĩa gốc: đấu kiếm.",
+   "vt": "tu"
   },
   {
    "id": "v:引けを取らない:ひけをとらない",

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 3,
+  "version": 4,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -158,7 +158,8 @@
     "v:主催:しゅさい",
     "v:開会:かいかい"
    ],
-   "note": "開催地[かいさいち] = nơi tổ chức. Hay gặp thể bị động: 〜が開催[かいさい]される."
+   "note": "開催地[かいさいち] = nơi tổ chức. Hay gặp thể bị động: 〜が開催[かいさい]される.",
+   "vt": "tha"
   },
   {
    "id": "v:主催:しゅさい",
@@ -194,7 +195,8 @@
    "confuse": [
     "v:開催:かいさい"
    ],
-   "note": "主催者[しゅさいしゃ] = ban tổ chức. 〜主催[しゅさい] = do … tổ chức (市[し]主催[しゅさい] = thành phố tổ chức)."
+   "note": "主催者[しゅさいしゃ] = ban tổ chức. 〜主催[しゅさい] = do … tổ chức (市[し]主催[しゅさい] = thành phố tổ chức).",
+   "vt": "tha"
   },
   {
    "id": "v:来賓:らいひん",
@@ -287,7 +289,8 @@
      "vi": "nâng ly bia"
     }
    ],
-   "note": "乾杯[かんぱい]の音頭[おんど]を取[と]る = đứng hô nâng ly (thường người có chức vụ làm)."
+   "note": "乾杯[かんぱい]の音頭[おんど]を取[と]る = đứng hô nâng ly (thường người có chức vụ làm).",
+   "vt": "tu"
   },
   {
    "id": "v:入社式:にゅうしゃしき",
@@ -603,7 +606,8 @@
      "vi": "khen thưởng nhân viên"
     }
    ],
-   "note": "表彰状[ひょうしょうじょう] = giấy khen. 表彰式[ひょうしょうしき] = lễ trao thưởng."
+   "note": "表彰状[ひょうしょうじょう] = giấy khen. 表彰式[ひょうしょうしき] = lễ trao thưởng.",
+   "vt": "tha"
   },
   {
    "id": "v:来場:らいじょう",
@@ -636,7 +640,8 @@
      "vi": "đến (hội trường) bằng ô tô"
     }
    ],
-   "note": "来場者[らいじょうしゃ] = khách đến dự. ご来場[らいじょう]ください = mời quý vị đến dự."
+   "note": "来場者[らいじょうしゃ] = khách đến dự. ご来場[らいじょう]ください = mời quý vị đến dự.",
+   "vt": "tu"
   },
   {
    "id": "v:議題:ぎだい",
@@ -729,7 +734,8 @@
    "rel": [
     "v:進行:しんこう"
    ],
-   "note": "司会者[しかいしゃ] = người dẫn chương trình. 司会[しかい]を務[つと]める = đảm nhận vai trò dẫn chương trình."
+   "note": "司会者[しかいしゃ] = người dẫn chương trình. 司会[しかい]を務[つと]める = đảm nhận vai trò dẫn chương trình.",
+   "vt": "tha"
   },
   {
    "id": "v:発言:はつげん",
@@ -765,7 +771,8 @@
    "confuse": [
     "v:挨拶:あいさつ"
    ],
-   "note": "発言[はつげん] = nói ý kiến của mình (trong họp, trên báo đài). 挨拶[あいさつ] = lời chào, bài phát biểu nghi thức."
+   "note": "発言[はつげん] = nói ý kiến của mình (trong họp, trên báo đài). 挨拶[あいさつ] = lời chào, bài phát biểu nghi thức.",
+   "vt": "tu"
   },
   {
    "id": "v:打ち合わせ:うちあわせ",
@@ -802,7 +809,8 @@
    "rel": [
     "v:会議:かいぎ"
    ],
-   "note": "打[う]ち合[あ]わせ = buổi trao đổi nhỏ, thường ít người, để thống nhất trước khi làm. 会議[かいぎ] = cuộc họp chính thức."
+   "note": "打[う]ち合[あ]わせ = buổi trao đổi nhỏ, thường ít người, để thống nhất trước khi làm. 会議[かいぎ] = cuộc họp chính thức.",
+   "vt": "tu"
   },
   {
    "id": "v:定例:ていれい",
@@ -1114,7 +1122,8 @@
    "ant": [
     "v:退任:たいにん"
    ],
-   "note": "就任式[しゅうにんしき] = lễ nhậm chức."
+   "note": "就任式[しゅうにんしき] = lễ nhậm chức.",
+   "vt": "tu"
   },
   {
    "id": "v:着任:ちゃくにん",
@@ -1151,7 +1160,8 @@
     "v:就任:しゅうにん",
     "v:赴任:ふにん"
    ],
-   "note": "就任[しゅうにん] = nhận chức vụ. 着任[ちゃくにん] = đến nơi làm mới để bắt đầu nhiệm vụ."
+   "note": "就任[しゅうにん] = nhận chức vụ. 着任[ちゃくにん] = đến nơi làm mới để bắt đầu nhiệm vụ.",
+   "vt": "tu"
   },
   {
    "id": "v:退任:たいにん",
@@ -1187,7 +1197,8 @@
    "ant": [
     "v:就任:しゅうにん"
    ],
-   "note": "退任[たいにん] = thôi giữ chức (có thể vẫn ở công ty). Nghỉ hẳn công ty: 退職[たいしょく]."
+   "note": "退任[たいにん] = thôi giữ chức (có thể vẫn ở công ty). Nghỉ hẳn công ty: 退職[たいしょく].",
+   "vt": "tu"
   },
   {
    "id": "v:転勤:てんきん",
@@ -1223,7 +1234,8 @@
    "rel": [
     "v:異動:いどう"
    ],
-   "note": "転勤[てんきん] = đổi nơi làm (thường phải chuyển nhà). 異動[いどう] = đổi bộ phận, chức vụ trong công ty."
+   "note": "転勤[てんきん] = đổi nơi làm (thường phải chuyển nhà). 異動[いどう] = đổi bộ phận, chức vụ trong công ty.",
+   "vt": "tu"
   },
   {
    "id": "v:赴任:ふにん",
@@ -1259,7 +1271,8 @@
    "rel": [
     "v:転勤:てんきん"
    ],
-   "note": "単身赴任[たんしんふにん] = đi làm xa một mình (để gia đình ở lại)."
+   "note": "単身赴任[たんしんふにん] = đi làm xa một mình (để gia đình ở lại).",
+   "vt": "tu"
   },
   {
    "id": "v:始業:しぎょう",
@@ -1289,7 +1302,8 @@
    "ant": [
     "v:終業:しゅうぎょう"
    ],
-   "note": "始業時間[しぎょうじかん] = giờ vào làm. 始業式[しぎょうしき] = lễ khai giảng (trường học)."
+   "note": "始業時間[しぎょうじかん] = giờ vào làm. 始業式[しぎょうしき] = lễ khai giảng (trường học).",
+   "vt": "tu"
   },
   {
    "id": "v:終業:しゅうぎょう",
@@ -1319,7 +1333,8 @@
    "ant": [
     "v:始業:しぎょう"
    ],
-   "note": "終業時間[しゅうぎょうじかん] = giờ tan làm. 終業式[しゅうぎょうしき] = lễ bế giảng (trường học)."
+   "note": "終業時間[しゅうぎょうじかん] = giờ tan làm. 終業式[しゅうぎょうしき] = lễ bế giảng (trường học).",
+   "vt": "tu"
   },
   {
    "id": "v:一同:いちどう",

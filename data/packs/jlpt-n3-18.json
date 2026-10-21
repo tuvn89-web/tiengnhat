@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 4,
+  "version": 5,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -218,7 +218,8 @@
      "vi": "phụ trách công việc"
     }
    ],
-   "note": "担当者[たんとうしゃ] = người phụ trách."
+   "note": "担当者[たんとうしゃ] = người phụ trách.",
+   "vt": "tha"
   },
   {
    "id": "v:係:かかり",
@@ -281,7 +282,8 @@
      "vi": "ký hợp đồng với công ty"
     }
    ],
-   "note": "契約書[けいやくしょ] = bản hợp đồng; 雇用契約[こようけいやく] = hợp đồng lao động."
+   "note": "契約書[けいやくしょ] = bản hợp đồng; 雇用契約[こようけいやく] = hợp đồng lao động.",
+   "vt": "tha"
   },
   {
    "id": "v:条件:じょうけん",
@@ -402,7 +404,8 @@
      "jp": "ルールに違反[いはん]する",
      "vi": "vi phạm quy tắc"
     }
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:禁止:きんし",
@@ -438,7 +441,8 @@
    "ant": [
     "v:許可:きょか"
    ],
-   "note": "立入禁止[たちいりきんし] = cấm vào."
+   "note": "立入禁止[たちいりきんし] = cấm vào.",
+   "vt": "tha"
   },
   {
    "id": "v:許可:きょか",
@@ -473,7 +477,8 @@
    ],
    "ant": [
     "v:禁止:きんし"
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:制限:せいげん",
@@ -505,7 +510,8 @@
      "jp": "時間[じかん]を制限[せいげん]する",
      "vi": "giới hạn thời gian"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:当然:とうぜん",
@@ -699,7 +705,8 @@
      "vi": "bảo đảm chất lượng"
     }
    ],
-   "note": "保証書[ほしょうしょ] = phiếu bảo hành; 保証人[ほしょうにん] = người bảo lãnh."
+   "note": "保証書[ほしょうしょ] = phiếu bảo hành; 保証人[ほしょうにん] = người bảo lãnh.",
+   "vt": "tha"
   },
   {
    "id": "v:保護:ほご",
@@ -731,7 +738,8 @@
      "jp": "目[め]を保護[ほご]する",
      "vi": "bảo vệ mắt"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:損:そん",

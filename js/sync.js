@@ -206,7 +206,7 @@ function mergeProgress(a = {}, b = {}) {
     const s = (y.st || 0) > (x.st || 0) ? y : x;
     if (s.st) { r.star = !!s.star; r.st = s.st; }
     const q = (y.rlt || 0) > (x.rlt || 0) ? y : x; // v41: nhãn "cần học lại" của chữ Hán — bản đổi sau cùng thắng
-    if (q.rlt) { r.rl = !!q.rl; r.rlok = q.rlok || 0; r.rlt = q.rlt; }
+    if (q.rlt) { r.rl = !!q.rl; r.rlok = q.rlok || 0; r.rlt = q.rlt; if (q.rld) r.rld = q.rld; if (q.rlk) r.rlk = q.rlk; }
     out[id] = r;
   }
   return out;

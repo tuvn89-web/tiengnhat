@@ -8,6 +8,7 @@ import { setLearned, unsetLearned, status } from './srs.js';
 import { speak } from './tts.js';
 import { bindSay, wordDetailHTML, emptyState } from './ui.js';
 import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from './nav.js';
+import { hvTrap } from './hvbay.js';
 
 const DEC = { learned: 'Đã học', known: 'Biết rồi', later: 'Để sau' };
 
@@ -37,7 +38,8 @@ export function hvBreakdownHTML(it) {
   if (!cs.length) return '';
   return `<div class="hvb" data-bare>${cs.map((c, i) => { const k = D.kanjiByChar.get(c); return `<${k ? `button type="button" data-kopen="${esc(c)}"` : 'span'} class="hvb-c"><b lang="ja">${esc(c)}</b><span>${esc(k?.hv || hv[i] || '')}${k?.nghia ? ` — ${esc(k.nghia)}` : ''}</span></${k ? 'button' : 'span'}>`; }).join('<span class="hvb-plus">+</span>')}</div>`;
 }
-export const canGuess = it => !!(it.kanji && it.hv && /[\u4e00-\u9fff]/.test(it.kanji));
+// v50: từ "bẫy Hán Việt" không cho đoán nghĩa từ âm (đoán theo tiếng Việt là sai) — thẻ từ hiện nhãn cảnh báo thay vào đó
+export const canGuess = it => !!(it.kanji && it.hv && /[\u4e00-\u9fff]/.test(it.kanji)) && !hvTrap(it);
 
 export function runLearn(view, items, ctx, { again, onFinish, guess = false } = {}) {
   if (!items.length) { view.innerHTML = emptyState('Đã học hết từ mới trong kho (theo bộ lọc đang chọn). Nhập thêm gói từ ở trang Dữ liệu.', '<a class="btn btn-primary" href="#/luyen">Về Luyện tập</a>'); return; }

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -55,7 +55,8 @@
    "confuse": [
     "v:注文:ちゅうもん"
    ],
-   "note": "発注[はっちゅう] dùng giữa các doanh nghiệp; người mua lẻ nói 注文[ちゅうもん]する. 発注書[はっちゅうしょ] = đơn đặt hàng."
+   "note": "発注[はっちゅう] dùng giữa các doanh nghiệp; người mua lẻ nói 注文[ちゅうもん]する. 発注書[はっちゅうしょ] = đơn đặt hàng.",
+   "vt": "tha"
   },
   {
    "id": "v:受注:じゅちゅう",
@@ -91,7 +92,8 @@
    "ant": [
     "v:発注:はっちゅう"
    ],
-   "note": "受注生産[じゅちゅうせいさん] = có đơn mới sản xuất."
+   "note": "受注生産[じゅちゅうせいさん] = có đơn mới sản xuất.",
+   "vt": "tha"
   },
   {
    "id": "v:納品:のうひん",
@@ -132,7 +134,8 @@
     "v:納期:のうき",
     "v:納める:おさめる"
    ],
-   "note": "納品書[のうひんしょ] = phiếu giao hàng."
+   "note": "納品書[のうひんしょ] = phiếu giao hàng.",
+   "vt": "tha"
   },
   {
    "id": "v:納期:のうき",
@@ -202,7 +205,8 @@
    "ant": [
     "v:入荷:にゅうか"
    ],
-   "note": "出荷停止[しゅっかていし] = dừng xuất hàng (khi có vấn đề an toàn thực phẩm)."
+   "note": "出荷停止[しゅっかていし] = dừng xuất hàng (khi có vấn đề an toàn thực phẩm).",
+   "vt": "tha"
   },
   {
    "id": "v:発送:はっそう",
@@ -238,7 +242,8 @@
    "rel": [
     "v:送る:おくる"
    ],
-   "note": "発送[はっそう] = bên gửi gửi đi; 配送[はいそう] = bên vận chuyển đưa đến tay người nhận."
+   "note": "発送[はっそう] = bên gửi gửi đi; 配送[はいそう] = bên vận chuyển đưa đến tay người nhận.",
+   "vt": "tha"
   },
   {
    "id": "v:配送:はいそう",
@@ -278,7 +283,8 @@
    "rel": [
     "v:配達:はいたつ"
    ],
-   "note": "配送料[はいそうりょう] = phí vận chuyển."
+   "note": "配送料[はいそうりょう] = phí vận chuyển.",
+   "vt": "tha"
   },
   {
    "id": "v:伝票:でんぴょう",
@@ -408,7 +414,8 @@
    "rel": [
     "v:加える:くわえる"
    ],
-   "note": "追加料金[ついかりょうきん] = phụ phí."
+   "note": "追加料金[ついかりょうきん] = phụ phí.",
+   "vt": "tha"
   },
   {
    "id": "v:数量:すうりょう",
@@ -850,7 +857,8 @@
    "confuse": [
     "v:応対:おうたい"
    ],
-   "note": "対応[たいおう] = xử lý việc, đáp ứng yêu cầu; 応対[おうたい] = tiếp chuyện người đối diện. 〜に対応[たいおう]している = có hỗ trợ …."
+   "note": "対応[たいおう] = xử lý việc, đáp ứng yêu cầu; 応対[おうたい] = tiếp chuyện người đối diện. 〜に対応[たいおう]している = có hỗ trợ ….",
+   "vt": "tu"
   },
   {
    "id": "v:応対:おうたい",
@@ -890,7 +898,8 @@
    "confuse": [
     "v:対応:たいおう"
    ],
-   "note": "電話応対[でんわおうたい] = cách tiếp điện thoại (kỹ năng văn phòng)."
+   "note": "電話応対[でんわおうたい] = cách tiếp điện thoại (kỹ năng văn phòng).",
+   "vt": "tu"
   },
   {
    "id": "v:柔軟:じゅうなん",
@@ -1136,7 +1145,8 @@
      "vi": "chỉ định địa điểm"
     }
    ],
-   "note": "指定通[していどお]り = đúng như chỉ định; 指定席[していせき] = ghế đặt trước (tàu)."
+   "note": "指定通[していどお]り = đúng như chỉ định; 指定席[していせき] = ghế đặt trước (tàu).",
+   "vt": "tha"
   },
   {
    "id": "v:寸法:すんぽう",
@@ -1422,7 +1432,8 @@
    "confuse": [
     "v:仕分け:しわけ"
    ],
-   "note": "選別[せんべつ] = chọn ra cái tốt, cái xấu; 仕分[しわ]け = chia ra theo nhóm (nơi gửi, loại hàng)."
+   "note": "選別[せんべつ] = chọn ra cái tốt, cái xấu; 仕分[しわ]け = chia ra theo nhóm (nơi gửi, loại hàng).",
+   "vt": "tha"
   },
   {
    "id": "v:仕分け:しわけ",
@@ -1462,7 +1473,8 @@
    ],
    "confuse": [
     "v:選別:せんべつ"
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:皮引き:かわひき",
@@ -1563,7 +1575,8 @@
    "confuse": [
     "v:包装:ほうそう"
    ],
-   "note": "包装[ほうそう] = gói từng sản phẩm; 梱包[こんぽう] = đóng thùng, kiện để vận chuyển."
+   "note": "包装[ほうそう] = gói từng sản phẩm; 梱包[こんぽう] = đóng thùng, kiện để vận chuyển.",
+   "vt": "tha"
   },
   {
    "id": "v:小分け:こわけ",
@@ -1597,7 +1610,8 @@
      "vi": "chia nhỏ thịt"
     }
    ],
-   "note": "小分[こわ]けにする = chia nhỏ ra."
+   "note": "小分[こわ]けにする = chia nhỏ ra.",
+   "vt": "tha"
   },
   {
    "id": "v:個包装:こほうそう",
@@ -1691,7 +1705,8 @@
    "rel": [
     "v:梱包:こんぽう"
    ],
-   "note": "Tương tự: 袋詰[ふくろづ]め = cho vào túi; パック詰[づ]め = cho vào khay."
+   "note": "Tương tự: 袋詰[ふくろづ]め = cho vào túi; パック詰[づ]め = cho vào khay.",
+   "vt": "tha"
   }
  ]
 }

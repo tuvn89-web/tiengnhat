@@ -1,1012 +1,1029 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n3-41",
-    "title": "JLPT N3 41 – Thông báo, quy định & giấy tờ",
-    "type": "vocab",
-    "level": "N3",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 4,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Ví dụ về thuế, giấy tờ chỉ để học từ; không nêu số tiền, thời hạn cụ thể. Thủ tục thật hãy hỏi ở quầy hoặc xem trang chính thức."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n3-41",
+  "title": "JLPT N3 41 – Thông báo, quy định & giấy tờ",
+  "type": "vocab",
+  "level": "N3",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 5,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Ví dụ về thuế, giấy tờ chỉ để học từ; không nêu số tiền, thời hạn cụ thể. Thủ tục thật hãy hỏi ở quầy hoặc xem trang chính thức."
+ },
+ "items": [
+  {
+   "id": "v:掲示:けいじ",
+   "kana": "けいじ",
+   "kanji": "掲示",
+   "hv": "YẾT THỊ",
+   "vi": "niêm yết, dán thông báo",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thông báo",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:掲示:けいじ",
-      "kana": "けいじ",
-      "kanji": "掲示",
-      "hv": "YẾT THỊ",
-      "vi": "niêm yết, dán thông báo",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thông báo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "休[やす]みの予定[よてい]は、掲示板[けいじばん]に貼[は]ってあります。",
-          "vi": "Lịch nghỉ đã dán ở bảng thông báo.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "新[あたら]しいルールを、掲示[けいじ]しました。",
-          "vi": "Đã dán thông báo quy định mới.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "掲示板[けいじばん] = bảng thông báo."
+     "jp": "休[やす]みの予定[よてい]は、掲示板[けいじばん]に貼[は]ってあります。",
+     "vi": "Lịch nghỉ đã dán ở bảng thông báo.",
+     "ctx": "xuong"
     },
     {
-      "id": "v:禁煙:きんえん",
-      "kana": "きんえん",
-      "kanji": "禁煙",
-      "hv": "CẤM YÊN",
-      "vi": "cấm hút thuốc; cai thuốc",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thông báo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "工場[こうじょう]の中[なか]は、全部[ぜんぶ]禁煙[きんえん]です。",
-          "vi": "Trong nhà máy cấm hút thuốc toàn bộ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "健康[けんこう]のために、禁煙[きんえん]しました。",
-          "vi": "Vì sức khỏe tôi đã bỏ thuốc.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "喫煙所[きつえんじょ] = khu hút thuốc."
-    },
-    {
-      "id": "v:申告:しんこく",
-      "kana": "しんこく",
-      "kanji": "申告",
-      "hv": "THÂN CÁO",
-      "vi": "khai báo (thuế, hải quan)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "税金[ぜいきん]の申告[しんこく]は、自分[じぶん]でしました。",
-          "vi": "Tôi tự khai thuế.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "空港[くうこう]で、荷物[にもつ]を申告[しんこく]しました。",
-          "vi": "Tôi khai báo hành lý ở sân bay.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "確定申告[かくていしんこく] = quyết toán thuế (khai thuế cuối năm)."
-    },
-    {
-      "id": "v:記入:きにゅう",
-      "kana": "きにゅう",
-      "kanji": "記入",
-      "hv": "KÝ NHẬP",
-      "vi": "điền vào (giấy tờ)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この用紙[ようし]に、記入[きにゅう]してください。",
-          "vi": "Hãy điền vào mẫu này.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "記入[きにゅう]の仕方[しかた]が、分[わ]かりません。",
-          "vi": "Tôi không biết cách điền.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "記入例[きにゅうれい] = mẫu điền sẵn để tham khảo."
-    },
-    {
-      "id": "v:署名:しょめい",
-      "kana": "しょめい",
-      "kanji": "署名",
-      "hv": "THỰ DANH",
-      "vi": "ký tên (chữ ký trên giấy tờ)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ここに、署名[しょめい]してください。",
-          "vi": "Hãy ký tên vào đây.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "本人[ほんにん]の署名[しょめい]が、必要[ひつよう]です。",
-          "vi": "Cần chữ ký của chính người đó.",
-          "ctx": "thutuc"
-        }
-      ],
-      "syn": [
-        "v:サイン:サイン"
-      ],
-      "note": "Giấy tờ chính thức hay ghi: 署名[しょめい] (ký tay) hoặc 記名押印[きめいおういん] (ghi tên + đóng dấu)."
-    },
-    {
-      "id": "v:姓:せい",
-      "kana": "せい",
-      "kanji": "姓",
-      "hv": "TÍNH",
-      "vi": "tên họ (phần họ)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "姓[せい]と名[な]を、分[わ]けて書[か]いてください。",
-          "vi": "Hãy viết họ và tên tách riêng.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "日本[にほん]では、姓[せい]を先[さき]に書[か]きます。",
-          "vi": "Ở Nhật viết họ trước.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "姓[せい] = họ; 名[めい] = tên. Người Việt: Nguyễn là 姓[せい]."
-    },
-    {
-      "id": "v:生年月日:せいねんがっぴ",
-      "kana": "せいねんがっぴ",
-      "kanji": "生年月日",
-      "hv": "SINH NIÊN NGUYỆT NHẬT",
-      "vi": "ngày tháng năm sinh",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "生年月日[せいねんがっぴ]を、西暦[せいれき]で書[か]いてください。",
-          "vi": "Hãy ghi ngày sinh theo dương lịch.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "生年月日[せいねんがっぴ]は、パスポートと同[おな]じに書[か]きます。",
-          "vi": "Ghi ngày sinh giống hộ chiếu.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "西暦[せいれき] = năm dương lịch; 和暦[われき] = niên hiệu Nhật (令和[れいわ]…)."
-    },
-    {
-      "id": "v:住民:じゅうみん",
-      "kana": "じゅうみん",
-      "kanji": "住民",
-      "hv": "TRÚ DÂN",
-      "vi": "cư dân",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "外国人[がいこくじん]の住民[じゅうみん]も、増[ふ]えています。",
-          "vi": "Cư dân người nước ngoài cũng đang tăng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "住民票[じゅうみんひょう]を、市役所[しやくしょ]でもらいました。",
-          "vi": "Tôi lấy phiếu cư trú ở tòa thị chính.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "住民票[じゅうみんひょう] = phiếu cư trú; 住民税[じゅうみんぜい] = thuế cư trú."
-    },
-    {
-      "id": "v:証明:しょうめい",
-      "kana": "しょうめい",
-      "kanji": "証明",
-      "hv": "CHỨNG MINH",
-      "vi": "chứng minh (bằng giấy tờ)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "収入[しゅうにゅう]を証明[しょうめい]する書類[しょるい]が、必要[ひつよう]です。",
-          "vi": "Cần giấy tờ chứng minh thu nhập.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "本人[ほんにん]だと証明[しょうめい]してください。",
-          "vi": "Hãy chứng minh là chính anh.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "証明書[しょうめいしょ] = giấy chứng nhận; 課税証明書[かぜいしょうめいしょ] = giấy chứng nhận thuế."
-    },
-    {
-      "id": "v:発行:はっこう",
-      "kana": "はっこう",
-      "kanji": "発行",
-      "hv": "PHÁT HÀNH",
-      "vi": "phát hành; cấp (giấy tờ)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "証明書[しょうめいしょ]の発行[はっこう]には、少[すこ]し時間[じかん]がかかります。",
-          "vi": "Cấp giấy chứng nhận mất chút thời gian.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "会社[かいしゃ]が、ニュースを発行[はっこう]しています。",
-          "vi": "Công ty phát hành bản tin.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "再発行[さいはっこう] = cấp lại."
-    },
-    {
-      "id": "v:期限:きげん",
-      "kana": "きげん",
-      "kanji": "期限",
-      "hv": "KỲ HẠN",
-      "vi": "kỳ hạn, hạn chót",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "提出[ていしゅつ]の期限[きげん]を、守[まも]ってください。",
-          "vi": "Hãy giữ đúng hạn nộp.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "ビザの期限[きげん]が、近[ちか]いです。",
-          "vi": "Visa sắp hết hạn.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "消費期限[しょうひきげん] / 賞味期限[しょうみきげん] cũng có 期限[きげん]."
-    },
-    {
-      "id": "v:税:ぜい",
-      "kana": "ぜい",
-      "kanji": "税",
-      "hv": "THUẾ",
-      "vi": "thuế (trong từ ghép)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この値段[ねだん]は、税込[ぜいこ]みです。",
-          "vi": "Giá này đã gồm thuế.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "税抜[ぜいぬ]きの値段[ねだん]を、教[おし]えてください。",
-          "vi": "Cho tôi biết giá chưa thuế.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "税込[ぜいこ]み = đã gồm thuế; 税抜[ぜいぬ]き = chưa thuế; 所得税[しょとくぜい] = thuế thu nhập."
-    },
-    {
-      "id": "v:税金:ぜいきん",
-      "kana": "ぜいきん",
-      "kanji": "税金",
-      "hv": "THUẾ KIM",
-      "vi": "tiền thuế",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "給料[きゅうりょう]から、税金[ぜいきん]が引[ひ]かれます。",
-          "vi": "Tiền thuế bị trừ vào lương.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "税金[ぜいきん]を、きちんと払[はら]っています。",
-          "vi": "Tôi đóng thuế đầy đủ.",
-          "ctx": "thutuc"
-        }
-      ],
-      "rel": [
-        "v:税:ぜい"
-      ]
-    },
-    {
-      "id": "v:請求:せいきゅう",
-      "kana": "せいきゅう",
-      "kanji": "請求",
-      "hv": "THỈNH CẦU",
-      "vi": "yêu cầu thanh toán, đòi (tiền)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "電気代[でんきだい]の請求[せいきゅう]が、来[き]ました。",
-          "vi": "Hóa đơn tiền điện đã tới.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "交通費[こうつうひ]を、会社[かいしゃ]に請求[せいきゅう]しました。",
-          "vi": "Tôi đề nghị công ty thanh toán tiền đi lại.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "請求書[せいきゅうしょ] = hóa đơn đòi tiền."
-    },
-    {
-      "id": "v:滞在:たいざい",
-      "kana": "たいざい",
-      "kanji": "滞在",
-      "hv": "TRỆ TẠI",
-      "vi": "lưu trú (một thời gian)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "日本[にほん]に、三年[さんねん]滞在[たいざい]しています。",
-          "vi": "Tôi đã ở Nhật ba năm.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "滞在[たいざい]の目的[もくてき]を、書[か]いてください。",
-          "vi": "Hãy ghi mục đích lưu trú.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "在留[ざいりゅう] = cư trú (từ dùng trong giấy tờ visa): 在留[ざいりゅう]カード."
-    },
-    {
-      "id": "v:パスポート:パスポート",
-      "kana": "パスポート",
-      "kanji": "",
-      "hv": "",
-      "vi": "hộ chiếu",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "パスポートを、見[み]せてください。",
-          "vi": "Cho xem hộ chiếu.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "パスポートの期限[きげん]を、確認[かくにん]しました。",
-          "vi": "Tôi đã kiểm tra hạn hộ chiếu.",
-          "ctx": "thutuc"
-        }
-      ],
-      "syn": [
-        {
-          "w": "旅券[りょけん]",
-          "vi": "hộ chiếu (văn bản pháp luật)"
-        }
-      ],
-      "goc": "passport (tiếng Anh)"
-    },
-    {
-      "id": "v:国籍:こくせき",
-      "kana": "こくせき",
-      "kanji": "国籍",
-      "hv": "QUỐC TỊCH",
-      "vi": "quốc tịch",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "国籍[こくせき]は、ベトナムです。",
-          "vi": "Quốc tịch là Việt Nam.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "この工場[こうじょう]には、いろいろな国籍[こくせき]の人[ひと]がいます。",
-          "vi": "Nhà máy này có người nhiều quốc tịch.",
-          "ctx": "xuong"
-        }
-      ]
-    },
-    {
-      "id": "v:免許証:めんきょしょう",
-      "kana": "めんきょしょう",
-      "kanji": "免許証",
-      "hv": "MIỄN HỨA CHỨNG",
-      "vi": "bằng lái, giấy phép",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "運転免許証[うんてんめんきょしょう]を、持[も]っています。",
-          "vi": "Tôi có bằng lái xe.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "フォークリフトの免許証[めんきょしょう]を、取[と]りました。",
-          "vi": "Tôi đã lấy chứng chỉ lái xe nâng.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        "v:免許:めんきょ"
-      ]
-    },
-    {
-      "id": "v:手続き:てつづき",
-      "kana": "てつづき",
-      "kanji": "手続き",
-      "kf": "手続[てつづ]き",
-      "hv": "THỦ TỤC",
-      "vi": "thủ tục",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "引[ひ]っ越[こ]しの手続[てつづ]きを、しました。",
-          "vi": "Tôi đã làm thủ tục chuyển nhà.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "ビザの手続[てつづ]きは、早[はや]めにしましょう。",
-          "vi": "Thủ tục visa nên làm sớm.",
-          "ctx": "thutuc"
-        }
-      ]
-    },
-    {
-      "id": "v:用紙:ようし",
-      "kana": "ようし",
-      "kanji": "用紙",
-      "hv": "DỤNG CHỈ",
-      "vi": "mẫu giấy (để điền)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "申[もう]し込[こ]みの用紙[ようし]を、ください。",
-          "vi": "Cho tôi mẫu đơn đăng ký.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "用紙[ようし]は、窓口[まどぐち]にあります。",
-          "vi": "Mẫu giấy có ở quầy.",
-          "ctx": "thutuc"
-        }
-      ]
-    },
-    {
-      "id": "v:印:しるし",
-      "kana": "しるし",
-      "kanji": "印",
-      "hv": "ẤN",
-      "vi": "dấu (đánh dấu)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "必要[ひつよう]なところに、印[しるし]を付[つ]けてください。",
-          "vi": "Đánh dấu vào chỗ cần thiết.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "地図[ちず]の印[しるし]のところが、駅[えき]です。",
-          "vi": "Chỗ có dấu trên bản đồ là ga.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Đọc いん = con dấu (印鑑[いんかん]): 印[いん]を押[お]す = đóng dấu."
-    },
-    {
-      "id": "v:有無:うむ",
-      "kana": "うむ",
-      "kanji": "有無",
-      "hv": "HỮU VÔ",
-      "vi": "có hay không",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "病気[びょうき]の有無[うむ]を、書[か]いてください。",
-          "vi": "Ghi có bệnh hay không.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "扶養家族[ふようかぞく]の有無[うむ]を、確認[かくにん]します。",
-          "vi": "Kiểm tra có người phụ thuộc hay không.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "Hay gặp trên mẫu đơn: 有[う]・無[む] (khoanh tròn một)."
-    },
-    {
-      "id": "v:該当:がいとう",
-      "kana": "がいとう",
-      "kanji": "該当",
-      "hv": "CAI ĐƯƠNG",
-      "vi": "thuộc diện, tương ứng",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "該当[がいとう]するところに、丸[まる]をつけてください。",
-          "vi": "Khoanh vào mục tương ứng.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "この条件[じょうけん]に、該当[がいとう]しますか。",
-          "vi": "Anh có thuộc diện điều kiện này không?",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "該当[がいとう]なし = không thuộc diện nào."
-    },
-    {
-      "id": "v:変更:へんこう",
-      "kana": "へんこう",
-      "kanji": "変更",
-      "hv": "BIẾN CANH",
-      "vi": "thay đổi (kế hoạch, thông tin)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "住所[じゅうしょ]が変[か]わったら、変更[へんこう]の届[とど]けを出[だ]します。",
-          "vi": "Đổi địa chỉ thì nộp đơn thay đổi.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "予定[よてい]が、変更[へんこう]になりました。",
-          "vi": "Lịch đã bị thay đổi.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "変更届[へんこうとどけ] = đơn khai thay đổi."
-    },
-    {
-      "id": "v:延期:えんき",
-      "kana": "えんき",
-      "kanji": "延期",
-      "hv": "DIÊN KỲ",
-      "vi": "sự hoãn lại (lịch, sự kiện)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "雨[あめ]で、運動会[うんどうかい]が延期[えんき]になりました。",
-          "vi": "Hội thao bị hoãn vì mưa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "会議[かいぎ]を、来週[らいしゅう]に延期[えんき]します。",
-          "vi": "Hoãn cuộc họp sang tuần sau.",
-          "ctx": "xuong"
-        }
-      ],
-      "ant": [
-        "v:中止:ちゅうし"
-      ]
-    },
-    {
-      "id": "v:本人:ほんにん",
-      "kana": "ほんにん",
-      "kanji": "本人",
-      "hv": "BẢN NHÂN",
-      "vi": "chính người đó (đương sự)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "本人[ほんにん]が、窓口[まどぐち]に来[き]てください。",
-          "vi": "Đương sự hãy tự đến quầy.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "本人確認[ほんにんかくにん]の書類[しょるい]を、見[み]せてください。",
-          "vi": "Cho xem giấy tờ xác minh nhân thân.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "本人確認[ほんにんかくにん] = xác minh danh tính."
-    },
-    {
-      "id": "v:代理人:だいりにん",
-      "kana": "だいりにん",
-      "kanji": "代理人",
-      "hv": "ĐẠI LÝ NHÂN",
-      "vi": "người đại diện (được ủy quyền)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "代理人[だいりにん]が申請[しんせい]する時[とき]は、委任状[いにんじょう]が必要[ひつよう]です。",
-          "vi": "Người đại diện nộp đơn thì cần giấy ủy quyền.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "代理人[だいりにん]の名前[なまえ]を、書[か]いてください。",
-          "vi": "Ghi tên người đại diện.",
-          "ctx": "thutuc"
-        }
-      ],
-      "rel": [
-        "v:代理:だいり"
-      ],
-      "note": "委任状[いにんじょう] = giấy ủy quyền."
-    },
-    {
-      "id": "v:郵便:ゆうびん",
-      "kana": "ゆうびん",
-      "kanji": "郵便",
-      "hv": "BƯU TIỆN",
-      "vi": "bưu chính, thư từ gửi bưu điện",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "書類[しょるい]を、郵便[ゆうびん]で送[おく]りました。",
-          "vi": "Tôi gửi giấy tờ qua bưu điện.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "郵便[ゆうびん]が、届[とど]いています。",
-          "vi": "Có thư đến.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "郵便局[ゆうびんきょく] = bưu điện; 郵便番号[ゆうびんばんごう] = mã bưu chính."
-    },
-    {
-      "id": "v:小包:こづつみ",
-      "kana": "こづつみ",
-      "kanji": "小包",
-      "hv": "TIỂU BAO",
-      "vi": "bưu kiện",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "国[くに]に、小包[こづつみ]を送[おく]りました。",
-          "vi": "Tôi gửi bưu kiện về nước.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "小包[こづつみ]の重[おも]さを、量[はか]ります。",
-          "vi": "Cân bưu kiện.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:便:びん",
-      "kana": "びん",
-      "kanji": "便",
-      "hv": "TIỆN",
-      "vi": "chuyến (bay, hàng); đường gửi",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "次[つぎ]の便[びん]で、送[おく]ります。",
-          "vi": "Gửi chuyến sau.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "午後[ごご]の便[びん]は、何時[なんじ]ですか。",
-          "vi": "Chuyến buổi chiều mấy giờ?",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "航空便[こうくうびん] = gửi đường hàng không; 船便[ふなびん] = gửi đường biển."
-    },
-    {
-      "id": "v:配達:はいたつ",
-      "kana": "はいたつ",
-      "kanji": "配達",
-      "hv": "PHỐI ĐẠT",
-      "vi": "giao hàng (tận nơi)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "荷物[にもつ]は、明日[あした]の午前[ごぜん]に配達[はいたつ]されます。",
-          "vi": "Hàng được giao sáng mai.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新聞[しんぶん]を、配達[はいたつ]しています。",
-          "vi": "Tôi đi giao báo.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "再配達[さいはいたつ] = giao lại (khi vắng nhà)."
-    },
-    {
-      "id": "v:表示:ひょうじ",
-      "kana": "ひょうじ",
-      "kanji": "表示",
-      "hv": "BIỂU THỊ",
-      "vi": "ghi, hiển thị (trên nhãn, màn hình)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "商品[しょうひん]に、産地[さんち]を表示[ひょうじ]します。",
-          "vi": "Ghi nơi sản xuất lên sản phẩm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "画面[がめん]に、エラーが表示[ひょうじ]されました。",
-          "vi": "Màn hình hiện báo lỗi.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "食品表示[しょくひんひょうじ] = nhãn thông tin thực phẩm."
-    },
-    {
-      "id": "v:使用:しよう",
-      "kana": "しよう",
-      "kanji": "使用",
-      "hv": "SỬ DỤNG",
-      "vi": "sử dụng (văn viết)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "使用[しよう]した道具[どうぐ]は、元[もと]に戻[もど]してください。",
-          "vi": "Dụng cụ đã dùng hãy để lại chỗ cũ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "携帯電話[けいたいでんわ]の使用[しよう]は、禁止[きんし]です。",
-          "vi": "Cấm dùng điện thoại di động.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        "v:使う:つかう",
-        "v:利用:りよう",
-        "v:用いる:もちいる"
-      ],
-      "note": "使用中[しようちゅう] = đang sử dụng."
-    },
-    {
-      "id": "v:実施:じっし",
-      "kana": "じっし",
-      "kanji": "実施",
-      "hv": "THỰC THI",
-      "vi": "tiến hành (chính thức: kiểm tra, quy định)",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "来月[らいげつ]、健康診断[けんこうしんだん]を実施[じっし]します。",
-          "vi": "Tháng sau tiến hành khám sức khỏe.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "新[あたら]しいルールは、四月[しがつ]から実施[じっし]されます。",
-          "vi": "Quy định mới áp dụng từ tháng 4.",
-          "ctx": "xuong"
-        }
-      ]
-    },
-    {
-      "id": "v:際:さい",
-      "kana": "さい",
-      "kanji": "際",
-      "hv": "TẾ",
-      "vi": "khi, lúc (văn viết)",
-      "pos": "n",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thông báo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "お帰[かえ]りの際[さい]は、電気[でんき]を消[け]してください。",
-          "vi": "Khi ra về xin tắt điện.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "地震[じしん]の際[さい]は、机[つくえ]の下[した]に入[はい]ってください。",
-          "vi": "Khi động đất hãy chui xuống gầm bàn.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Hay gặp trong thông báo: 〜の際[さい]は = khi …."
-    },
-    {
-      "id": "v:サイン:サイン",
-      "kana": "サイン",
-      "kanji": "",
-      "hv": "",
-      "vi": "ký tên; chữ ký",
-      "pos": "n-suru",
-      "level": "N3",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giấy tờ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "荷物[にもつ]を受[う]け取[と]って、サインしました。",
-          "vi": "Nhận hàng rồi ký.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "こちらに、サインをお願[ねが]いします。",
-          "vi": "Xin ký vào đây.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "syn": [
-        "v:署名:しょめい"
-      ],
-      "goc": "sign (tiếng Anh)"
+     "jp": "新[あたら]しいルールを、掲示[けいじ]しました。",
+     "vi": "Đã dán thông báo quy định mới.",
+     "ctx": "xuong"
     }
-  ]
+   ],
+   "note": "掲示板[けいじばん] = bảng thông báo.",
+   "vt": "tha"
+  },
+  {
+   "id": "v:禁煙:きんえん",
+   "kana": "きんえん",
+   "kanji": "禁煙",
+   "hv": "CẤM YÊN",
+   "vi": "cấm hút thuốc; cai thuốc",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thông báo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]の中[なか]は、全部[ぜんぶ]禁煙[きんえん]です。",
+     "vi": "Trong nhà máy cấm hút thuốc toàn bộ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "健康[けんこう]のために、禁煙[きんえん]しました。",
+     "vi": "Vì sức khỏe tôi đã bỏ thuốc.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "喫煙所[きつえんじょ] = khu hút thuốc.",
+   "vt": "tu"
+  },
+  {
+   "id": "v:申告:しんこく",
+   "kana": "しんこく",
+   "kanji": "申告",
+   "hv": "THÂN CÁO",
+   "vi": "khai báo (thuế, hải quan)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "税金[ぜいきん]の申告[しんこく]は、自分[じぶん]でしました。",
+     "vi": "Tôi tự khai thuế.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "空港[くうこう]で、荷物[にもつ]を申告[しんこく]しました。",
+     "vi": "Tôi khai báo hành lý ở sân bay.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "確定申告[かくていしんこく] = quyết toán thuế (khai thuế cuối năm).",
+   "vt": "tha"
+  },
+  {
+   "id": "v:記入:きにゅう",
+   "kana": "きにゅう",
+   "kanji": "記入",
+   "hv": "KÝ NHẬP",
+   "vi": "điền vào (giấy tờ)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この用紙[ようし]に、記入[きにゅう]してください。",
+     "vi": "Hãy điền vào mẫu này.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "記入[きにゅう]の仕方[しかた]が、分[わ]かりません。",
+     "vi": "Tôi không biết cách điền.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "記入例[きにゅうれい] = mẫu điền sẵn để tham khảo.",
+   "vt": "tha"
+  },
+  {
+   "id": "v:署名:しょめい",
+   "kana": "しょめい",
+   "kanji": "署名",
+   "hv": "THỰ DANH",
+   "vi": "ký tên (chữ ký trên giấy tờ)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ここに、署名[しょめい]してください。",
+     "vi": "Hãy ký tên vào đây.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "本人[ほんにん]の署名[しょめい]が、必要[ひつよう]です。",
+     "vi": "Cần chữ ký của chính người đó.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    "v:サイン:サイン"
+   ],
+   "note": "Giấy tờ chính thức hay ghi: 署名[しょめい] (ký tay) hoặc 記名押印[きめいおういん] (ghi tên + đóng dấu).",
+   "vt": "tu"
+  },
+  {
+   "id": "v:姓:せい",
+   "kana": "せい",
+   "kanji": "姓",
+   "hv": "TÍNH",
+   "vi": "tên họ (phần họ)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "姓[せい]と名[な]を、分[わ]けて書[か]いてください。",
+     "vi": "Hãy viết họ và tên tách riêng.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "日本[にほん]では、姓[せい]を先[さき]に書[か]きます。",
+     "vi": "Ở Nhật viết họ trước.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "姓[せい] = họ; 名[めい] = tên. Người Việt: Nguyễn là 姓[せい]."
+  },
+  {
+   "id": "v:生年月日:せいねんがっぴ",
+   "kana": "せいねんがっぴ",
+   "kanji": "生年月日",
+   "hv": "SINH NIÊN NGUYỆT NHẬT",
+   "vi": "ngày tháng năm sinh",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "生年月日[せいねんがっぴ]を、西暦[せいれき]で書[か]いてください。",
+     "vi": "Hãy ghi ngày sinh theo dương lịch.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "生年月日[せいねんがっぴ]は、パスポートと同[おな]じに書[か]きます。",
+     "vi": "Ghi ngày sinh giống hộ chiếu.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "西暦[せいれき] = năm dương lịch; 和暦[われき] = niên hiệu Nhật (令和[れいわ]…)."
+  },
+  {
+   "id": "v:住民:じゅうみん",
+   "kana": "じゅうみん",
+   "kanji": "住民",
+   "hv": "TRÚ DÂN",
+   "vi": "cư dân",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "外国人[がいこくじん]の住民[じゅうみん]も、増[ふ]えています。",
+     "vi": "Cư dân người nước ngoài cũng đang tăng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "住民票[じゅうみんひょう]を、市役所[しやくしょ]でもらいました。",
+     "vi": "Tôi lấy phiếu cư trú ở tòa thị chính.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "住民票[じゅうみんひょう] = phiếu cư trú; 住民税[じゅうみんぜい] = thuế cư trú."
+  },
+  {
+   "id": "v:証明:しょうめい",
+   "kana": "しょうめい",
+   "kanji": "証明",
+   "hv": "CHỨNG MINH",
+   "vi": "chứng minh (bằng giấy tờ)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "収入[しゅうにゅう]を証明[しょうめい]する書類[しょるい]が、必要[ひつよう]です。",
+     "vi": "Cần giấy tờ chứng minh thu nhập.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "本人[ほんにん]だと証明[しょうめい]してください。",
+     "vi": "Hãy chứng minh là chính anh.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "証明書[しょうめいしょ] = giấy chứng nhận; 課税証明書[かぜいしょうめいしょ] = giấy chứng nhận thuế.",
+   "vt": "tha"
+  },
+  {
+   "id": "v:発行:はっこう",
+   "kana": "はっこう",
+   "kanji": "発行",
+   "hv": "PHÁT HÀNH",
+   "vi": "phát hành; cấp (giấy tờ)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "証明書[しょうめいしょ]の発行[はっこう]には、少[すこ]し時間[じかん]がかかります。",
+     "vi": "Cấp giấy chứng nhận mất chút thời gian.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "会社[かいしゃ]が、ニュースを発行[はっこう]しています。",
+     "vi": "Công ty phát hành bản tin.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "再発行[さいはっこう] = cấp lại.",
+   "vt": "tha"
+  },
+  {
+   "id": "v:期限:きげん",
+   "kana": "きげん",
+   "kanji": "期限",
+   "hv": "KỲ HẠN",
+   "vi": "kỳ hạn, hạn chót",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "提出[ていしゅつ]の期限[きげん]を、守[まも]ってください。",
+     "vi": "Hãy giữ đúng hạn nộp.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "ビザの期限[きげん]が、近[ちか]いです。",
+     "vi": "Visa sắp hết hạn.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "消費期限[しょうひきげん] / 賞味期限[しょうみきげん] cũng có 期限[きげん]."
+  },
+  {
+   "id": "v:税:ぜい",
+   "kana": "ぜい",
+   "kanji": "税",
+   "hv": "THUẾ",
+   "vi": "thuế (trong từ ghép)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この値段[ねだん]は、税込[ぜいこ]みです。",
+     "vi": "Giá này đã gồm thuế.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "税抜[ぜいぬ]きの値段[ねだん]を、教[おし]えてください。",
+     "vi": "Cho tôi biết giá chưa thuế.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "税込[ぜいこ]み = đã gồm thuế; 税抜[ぜいぬ]き = chưa thuế; 所得税[しょとくぜい] = thuế thu nhập."
+  },
+  {
+   "id": "v:税金:ぜいきん",
+   "kana": "ぜいきん",
+   "kanji": "税金",
+   "hv": "THUẾ KIM",
+   "vi": "tiền thuế",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "給料[きゅうりょう]から、税金[ぜいきん]が引[ひ]かれます。",
+     "vi": "Tiền thuế bị trừ vào lương.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "税金[ぜいきん]を、きちんと払[はら]っています。",
+     "vi": "Tôi đóng thuế đầy đủ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:税:ぜい"
+   ]
+  },
+  {
+   "id": "v:請求:せいきゅう",
+   "kana": "せいきゅう",
+   "kanji": "請求",
+   "hv": "THỈNH CẦU",
+   "vi": "yêu cầu thanh toán, đòi (tiền)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "電気代[でんきだい]の請求[せいきゅう]が、来[き]ました。",
+     "vi": "Hóa đơn tiền điện đã tới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "交通費[こうつうひ]を、会社[かいしゃ]に請求[せいきゅう]しました。",
+     "vi": "Tôi đề nghị công ty thanh toán tiền đi lại.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "請求書[せいきゅうしょ] = hóa đơn đòi tiền.",
+   "vt": "tha"
+  },
+  {
+   "id": "v:滞在:たいざい",
+   "kana": "たいざい",
+   "kanji": "滞在",
+   "hv": "TRỆ TẠI",
+   "vi": "lưu trú (một thời gian)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]に、三年[さんねん]滞在[たいざい]しています。",
+     "vi": "Tôi đã ở Nhật ba năm.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "滞在[たいざい]の目的[もくてき]を、書[か]いてください。",
+     "vi": "Hãy ghi mục đích lưu trú.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "在留[ざいりゅう] = cư trú (từ dùng trong giấy tờ visa): 在留[ざいりゅう]カード.",
+   "vt": "tu"
+  },
+  {
+   "id": "v:パスポート:パスポート",
+   "kana": "パスポート",
+   "kanji": "",
+   "hv": "",
+   "vi": "hộ chiếu",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "パスポートを、見[み]せてください。",
+     "vi": "Cho xem hộ chiếu.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "パスポートの期限[きげん]を、確認[かくにん]しました。",
+     "vi": "Tôi đã kiểm tra hạn hộ chiếu.",
+     "ctx": "thutuc"
+    }
+   ],
+   "syn": [
+    {
+     "w": "旅券[りょけん]",
+     "vi": "hộ chiếu (văn bản pháp luật)"
+    }
+   ],
+   "goc": "passport (tiếng Anh)"
+  },
+  {
+   "id": "v:国籍:こくせき",
+   "kana": "こくせき",
+   "kanji": "国籍",
+   "hv": "QUỐC TỊCH",
+   "vi": "quốc tịch",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "国籍[こくせき]は、ベトナムです。",
+     "vi": "Quốc tịch là Việt Nam.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "この工場[こうじょう]には、いろいろな国籍[こくせき]の人[ひと]がいます。",
+     "vi": "Nhà máy này có người nhiều quốc tịch.",
+     "ctx": "xuong"
+    }
+   ]
+  },
+  {
+   "id": "v:免許証:めんきょしょう",
+   "kana": "めんきょしょう",
+   "kanji": "免許証",
+   "hv": "MIỄN HỨA CHỨNG",
+   "vi": "bằng lái, giấy phép",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "運転免許証[うんてんめんきょしょう]を、持[も]っています。",
+     "vi": "Tôi có bằng lái xe.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "フォークリフトの免許証[めんきょしょう]を、取[と]りました。",
+     "vi": "Tôi đã lấy chứng chỉ lái xe nâng.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:免許:めんきょ"
+   ]
+  },
+  {
+   "id": "v:手続き:てつづき",
+   "kana": "てつづき",
+   "kanji": "手続き",
+   "kf": "手続[てつづ]き",
+   "hv": "THỦ TỤC",
+   "vi": "thủ tục",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "引[ひ]っ越[こ]しの手続[てつづ]きを、しました。",
+     "vi": "Tôi đã làm thủ tục chuyển nhà.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "ビザの手続[てつづ]きは、早[はや]めにしましょう。",
+     "vi": "Thủ tục visa nên làm sớm.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:用紙:ようし",
+   "kana": "ようし",
+   "kanji": "用紙",
+   "hv": "DỤNG CHỈ",
+   "vi": "mẫu giấy (để điền)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "申[もう]し込[こ]みの用紙[ようし]を、ください。",
+     "vi": "Cho tôi mẫu đơn đăng ký.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "用紙[ようし]は、窓口[まどぐち]にあります。",
+     "vi": "Mẫu giấy có ở quầy.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:印:しるし",
+   "kana": "しるし",
+   "kanji": "印",
+   "hv": "ẤN",
+   "vi": "dấu (đánh dấu)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "必要[ひつよう]なところに、印[しるし]を付[つ]けてください。",
+     "vi": "Đánh dấu vào chỗ cần thiết.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "地図[ちず]の印[しるし]のところが、駅[えき]です。",
+     "vi": "Chỗ có dấu trên bản đồ là ga.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Đọc いん = con dấu (印鑑[いんかん]): 印[いん]を押[お]す = đóng dấu."
+  },
+  {
+   "id": "v:有無:うむ",
+   "kana": "うむ",
+   "kanji": "有無",
+   "hv": "HỮU VÔ",
+   "vi": "có hay không",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "病気[びょうき]の有無[うむ]を、書[か]いてください。",
+     "vi": "Ghi có bệnh hay không.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "扶養家族[ふようかぞく]の有無[うむ]を、確認[かくにん]します。",
+     "vi": "Kiểm tra có người phụ thuộc hay không.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Hay gặp trên mẫu đơn: 有[う]・無[む] (khoanh tròn một)."
+  },
+  {
+   "id": "v:該当:がいとう",
+   "kana": "がいとう",
+   "kanji": "該当",
+   "hv": "CAI ĐƯƠNG",
+   "vi": "thuộc diện, tương ứng",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "該当[がいとう]するところに、丸[まる]をつけてください。",
+     "vi": "Khoanh vào mục tương ứng.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "この条件[じょうけん]に、該当[がいとう]しますか。",
+     "vi": "Anh có thuộc diện điều kiện này không?",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "該当[がいとう]なし = không thuộc diện nào.",
+   "vt": "tu"
+  },
+  {
+   "id": "v:変更:へんこう",
+   "kana": "へんこう",
+   "kanji": "変更",
+   "hv": "BIẾN CANH",
+   "vi": "thay đổi (kế hoạch, thông tin)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "住所[じゅうしょ]が変[か]わったら、変更[へんこう]の届[とど]けを出[だ]します。",
+     "vi": "Đổi địa chỉ thì nộp đơn thay đổi.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "予定[よてい]が、変更[へんこう]になりました。",
+     "vi": "Lịch đã bị thay đổi.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "変更届[へんこうとどけ] = đơn khai thay đổi.",
+   "vt": "tha"
+  },
+  {
+   "id": "v:延期:えんき",
+   "kana": "えんき",
+   "kanji": "延期",
+   "hv": "DIÊN KỲ",
+   "vi": "sự hoãn lại (lịch, sự kiện)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]で、運動会[うんどうかい]が延期[えんき]になりました。",
+     "vi": "Hội thao bị hoãn vì mưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会議[かいぎ]を、来週[らいしゅう]に延期[えんき]します。",
+     "vi": "Hoãn cuộc họp sang tuần sau.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:中止:ちゅうし"
+   ],
+   "vt": "tha"
+  },
+  {
+   "id": "v:本人:ほんにん",
+   "kana": "ほんにん",
+   "kanji": "本人",
+   "hv": "BẢN NHÂN",
+   "vi": "chính người đó (đương sự)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "本人[ほんにん]が、窓口[まどぐち]に来[き]てください。",
+     "vi": "Đương sự hãy tự đến quầy.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "本人確認[ほんにんかくにん]の書類[しょるい]を、見[み]せてください。",
+     "vi": "Cho xem giấy tờ xác minh nhân thân.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "本人確認[ほんにんかくにん] = xác minh danh tính."
+  },
+  {
+   "id": "v:代理人:だいりにん",
+   "kana": "だいりにん",
+   "kanji": "代理人",
+   "hv": "ĐẠI LÝ NHÂN",
+   "vi": "người đại diện (được ủy quyền)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "代理人[だいりにん]が申請[しんせい]する時[とき]は、委任状[いにんじょう]が必要[ひつよう]です。",
+     "vi": "Người đại diện nộp đơn thì cần giấy ủy quyền.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "代理人[だいりにん]の名前[なまえ]を、書[か]いてください。",
+     "vi": "Ghi tên người đại diện.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:代理:だいり"
+   ],
+   "note": "委任状[いにんじょう] = giấy ủy quyền."
+  },
+  {
+   "id": "v:郵便:ゆうびん",
+   "kana": "ゆうびん",
+   "kanji": "郵便",
+   "hv": "BƯU TIỆN",
+   "vi": "bưu chính, thư từ gửi bưu điện",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "書類[しょるい]を、郵便[ゆうびん]で送[おく]りました。",
+     "vi": "Tôi gửi giấy tờ qua bưu điện.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "郵便[ゆうびん]が、届[とど]いています。",
+     "vi": "Có thư đến.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "郵便局[ゆうびんきょく] = bưu điện; 郵便番号[ゆうびんばんごう] = mã bưu chính."
+  },
+  {
+   "id": "v:小包:こづつみ",
+   "kana": "こづつみ",
+   "kanji": "小包",
+   "hv": "TIỂU BAO",
+   "vi": "bưu kiện",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "国[くに]に、小包[こづつみ]を送[おく]りました。",
+     "vi": "Tôi gửi bưu kiện về nước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "小包[こづつみ]の重[おも]さを、量[はか]ります。",
+     "vi": "Cân bưu kiện.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:便:びん",
+   "kana": "びん",
+   "kanji": "便",
+   "hv": "TIỆN",
+   "vi": "chuyến (bay, hàng); đường gửi",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "次[つぎ]の便[びん]で、送[おく]ります。",
+     "vi": "Gửi chuyến sau.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "午後[ごご]の便[びん]は、何時[なんじ]ですか。",
+     "vi": "Chuyến buổi chiều mấy giờ?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "航空便[こうくうびん] = gửi đường hàng không; 船便[ふなびん] = gửi đường biển."
+  },
+  {
+   "id": "v:配達:はいたつ",
+   "kana": "はいたつ",
+   "kanji": "配達",
+   "hv": "PHỐI ĐẠT",
+   "vi": "giao hàng (tận nơi)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "荷物[にもつ]は、明日[あした]の午前[ごぜん]に配達[はいたつ]されます。",
+     "vi": "Hàng được giao sáng mai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新聞[しんぶん]を、配達[はいたつ]しています。",
+     "vi": "Tôi đi giao báo.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "再配達[さいはいたつ] = giao lại (khi vắng nhà).",
+   "vt": "tha"
+  },
+  {
+   "id": "v:表示:ひょうじ",
+   "kana": "ひょうじ",
+   "kanji": "表示",
+   "hv": "BIỂU THỊ",
+   "vi": "ghi, hiển thị (trên nhãn, màn hình)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "商品[しょうひん]に、産地[さんち]を表示[ひょうじ]します。",
+     "vi": "Ghi nơi sản xuất lên sản phẩm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "画面[がめん]に、エラーが表示[ひょうじ]されました。",
+     "vi": "Màn hình hiện báo lỗi.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "食品表示[しょくひんひょうじ] = nhãn thông tin thực phẩm.",
+   "vt": "tha"
+  },
+  {
+   "id": "v:使用:しよう",
+   "kana": "しよう",
+   "kanji": "使用",
+   "hv": "SỬ DỤNG",
+   "vi": "sử dụng (văn viết)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "使用[しよう]した道具[どうぐ]は、元[もと]に戻[もど]してください。",
+     "vi": "Dụng cụ đã dùng hãy để lại chỗ cũ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "携帯電話[けいたいでんわ]の使用[しよう]は、禁止[きんし]です。",
+     "vi": "Cấm dùng điện thoại di động.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:使う:つかう",
+    "v:利用:りよう",
+    "v:用いる:もちいる"
+   ],
+   "note": "使用中[しようちゅう] = đang sử dụng.",
+   "vt": "tha"
+  },
+  {
+   "id": "v:実施:じっし",
+   "kana": "じっし",
+   "kanji": "実施",
+   "hv": "THỰC THI",
+   "vi": "tiến hành (chính thức: kiểm tra, quy định)",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来月[らいげつ]、健康診断[けんこうしんだん]を実施[じっし]します。",
+     "vi": "Tháng sau tiến hành khám sức khỏe.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "新[あたら]しいルールは、四月[しがつ]から実施[じっし]されます。",
+     "vi": "Quy định mới áp dụng từ tháng 4.",
+     "ctx": "xuong"
+    }
+   ],
+   "vt": "tha"
+  },
+  {
+   "id": "v:際:さい",
+   "kana": "さい",
+   "kanji": "際",
+   "hv": "TẾ",
+   "vi": "khi, lúc (văn viết)",
+   "pos": "n",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thông báo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お帰[かえ]りの際[さい]は、電気[でんき]を消[け]してください。",
+     "vi": "Khi ra về xin tắt điện.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地震[じしん]の際[さい]は、机[つくえ]の下[した]に入[はい]ってください。",
+     "vi": "Khi động đất hãy chui xuống gầm bàn.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Hay gặp trong thông báo: 〜の際[さい]は = khi …."
+  },
+  {
+   "id": "v:サイン:サイン",
+   "kana": "サイン",
+   "kanji": "",
+   "hv": "",
+   "vi": "ký tên; chữ ký",
+   "pos": "n-suru",
+   "level": "N3",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giấy tờ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "荷物[にもつ]を受[う]け取[と]って、サインしました。",
+     "vi": "Nhận hàng rồi ký.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "こちらに、サインをお願[ねが]いします。",
+     "vi": "Xin ký vào đây.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "syn": [
+    "v:署名:しょめい"
+   ],
+   "goc": "sign (tiếng Anh)",
+   "vt": "tu"
+  }
+ ]
 }

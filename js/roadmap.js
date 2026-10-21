@@ -8,7 +8,7 @@ import { kvGet, kvSet } from './db.js';
 import { passedLevels, thresholds } from './level.js';
 import { kanaProgress, kanaDone } from './kana.js';
 import { mixedDue } from './practice.js';
-import { allLessons, lessonsOf, currentLesson, lessonCardHTML, lessonListHTML, lessonRowsOf, lessonState, dueReviews, reviewDue, isDone, STEPS } from './lesson.js';
+import { allLessons, lessonsOf, currentLesson, lessonCardHTML, lessonListHTML, lessonRowsOf, lessonState, dueReviews, reviewDue, isDone, STEPS, redoOf, needRelearn } from './lesson.js';
 import { slotHTML, lazyDetails, bindLazy, fillSlots, appendChunks } from './lazy.js';
 
 export const GOALS = [['N5', 'N5'], ['N4', 'N4'], ['N3', 'N3 · 特定技能2号'], ['N2', 'N2'], ['N1', 'N1']];
@@ -155,13 +155,16 @@ export function renderRoadmap(view, ctx) {
       const ls = lessonsOf(x.L);
       if (!ls.length) return '';
       const nd = ls.filter(isDone).length, cl = currentLesson(x.L);
+      const sr = D.lessons['lv:' + x.L]?.redo, rc = sr && !sr.done ? ls.find(l => redoOf(l)) : null, nr = ls.filter(l => isDone(l) && needRelearn(l)).length;
       lazy['ls-' + x.L] = body => {
         const { list, row } = lessonRowsOf(x.L);
         body.innerHTML = '<ol class="lessons"></ol>';
         appendChunks(body.firstChild, list, row, { first: 12 });
       };
       return `<p class="sub-label">Bài học · xong ${nd}/${ls.length}${ls[0].auto ? ' <small class="muted">(app tự chia bài từ gói dữ liệu)</small>' : ''}</p>
-          ${state === 'cur' && cl ? lessonCardHTML(cl) : ''}
+          ${rc ? `<p class="small lredo-s">↺ <b>Đang đi lại chặng ${esc(x.L)}</b> — xong ${ls.filter(l => (D.lessons[l.id]?.redo?.done || 0) >= sr.t).length}/${ls.length} bài.</p>${lessonCardHTML(rc)}` : ''}
+          ${state === 'cur' && cl && !rc ? lessonCardHTML(cl) : ''}
+          ${x.passed || nd >= 5 || nr ? `<div class="row-btns"><a class="btn btn-ghost btn-sm" href="#/hoclai/${esc(x.L)}">↺ Học lại chặng ${esc(x.L)}${nr ? ` · ${nr} bài cần học lại` : ''}</a></div>` : ''}
           ${lazyDetails('ls-' + x.L, `Danh sách ${ls.length} bài`, { open: state === 'cur', label: 'Đang tải danh sách bài…' })}`;
     };
     const packs = () => {
@@ -294,10 +297,10 @@ export function planToday() {
   for (const l of dueReviews().slice(0, 2)) out.push({ done: false, label: `Ôn bài cũ: bài ${l.n} (${l.level})`, sub: `Lần ${reviewDue(l).k + 1}/4 · ${plain(l.title)}`, href: `#/onbai/${encodeURIComponent(l.id)}`, btn: 'Ôn' });
   // bài đang học: bước tiếp theo
   const cl = currentLesson(cur);
-  if (cl) { const s = lessonState(cl), nx = s.next >= 0 ? s.next : 7, did = actToday('lesson'); out.push({ done: did > 0, label: `Bài ${cl.n}: ${plain(cl.title)}`, sub: `${s.nDone}/8 bước${did ? ` · hôm nay đã làm ${did} lượt` : ''} · tiếp: ${STEPS[nx][1]}`, href: `#/bai/${encodeURIComponent(cl.id)}?b=${nx + 1}`, btn: 'Học' }); }
+  if (cl) { const s = lessonState(cl), nx = s.next >= 0 ? s.next : STEPS.length - 1, did = actToday('lesson'); out.push({ done: did > 0, label: `Bài ${cl.n}: ${plain(cl.title)}`, sub: `${s.nDone}/${STEPS.length} bước${did ? ` · hôm nay đã làm ${did} lượt` : ''} · tiếp: ${STEPS[nx][1]}`, href: `#/bai/${encodeURIComponent(cl.id)}?b=${nx + 1}`, btn: 'Học' }); }
   const hasNewV = D.vocab.some(it => status(it) === 'new');
   const lnew = cl && cl.words.some(id => { const it = D.items.get(id); return it && status(it) === 'new'; });
-  if (hasNewV && plan.v > 0) out.push({ done: newV >= plan.v, label: `Học ${plan.v} từ mới`, sub: `Hôm nay đã học ${newV}${lnew ? ` · từ của bài ${cl.n}` : ''}`, href: lnew ? `#/bai/${encodeURIComponent(cl.id)}?b=1` : '#/moi', btn: 'Học' });
+  if (hasNewV && plan.v > 0) out.push({ done: newV >= plan.v, label: `Học ${plan.v} từ mới`, sub: `Hôm nay đã học ${newV}${lnew ? ` · từ của bài ${cl.n}` : ''}`, href: lnew ? `#/bai/${encodeURIComponent(cl.id)}?b=2` : '#/moi', btn: 'Học' });
   // v31 (N4): nhắc lại từ mới học hôm nay, sau ít nhất 4 giờ
   const rc = recapState();
   if (rc.ready.length) out.push({ done: false, label: `Nhắc lại ${rc.ready.length} từ mới hôm nay`, sub: 'Học từ 4 giờ trước — lượt ngắn, không đổi lịch ôn', href: '#/nhaclai', btn: 'Nhắc lại' });

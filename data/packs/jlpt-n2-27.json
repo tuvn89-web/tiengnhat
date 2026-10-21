@@ -1,1662 +1,1669 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n2-27",
-    "title": "JLPT N2 27 – Tuy… nhưng: xin lỗi, giải thích, khó khăn, thất bại",
-    "type": "vocab",
-    "level": "N2",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 1,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-27",
+  "title": "JLPT N2 27 – Tuy… nhưng: xin lỗi, giải thích, khó khăn, thất bại",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 2,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:お詫び:おわび",
+   "kana": "おわび",
+   "kanji": "お詫び",
+   "kf": "お詫[わ]び",
+   "hv": "SÁ",
+   "vi": "lời xin lỗi (trang trọng)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:お詫び:おわび",
-      "kana": "おわび",
-      "kanji": "お詫び",
-      "kf": "お詫[わ]び",
-      "hv": "SÁ",
-      "vi": "lời xin lỗi (trang trọng)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "配達[はいたつ]が遅[おく]れたことについて、お詫[わ]び申[もう]し上[あ]げます。",
-          "vi": "Chúng tôi xin gửi lời xin lỗi về việc giao hàng chậm trễ.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "お詫[わ]びのしるしに、お菓子[かし]を持[も]って行[い]った。",
-          "vi": "Tôi mang bánh kẹo đến làm quà tạ lỗi.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:詫びる:わびる"
-      ],
-      "note": "お詫[わ]び申[もう]し上[あ]げます = xin gửi lời xin lỗi (rất trang trọng, trong thông báo, thư). お詫[わ]びの品[しな] = quà tạ lỗi."
+     "jp": "配達[はいたつ]が遅[おく]れたことについて、お詫[わ]び申[もう]し上[あ]げます。",
+     "vi": "Chúng tôi xin gửi lời xin lỗi về việc giao hàng chậm trễ.",
+     "ctx": "thutuc"
     },
     {
-      "id": "v:詫びる:わびる",
-      "kana": "わびる",
-      "kanji": "詫びる",
-      "kf": "詫[わ]びる",
-      "hv": "SÁ",
-      "vi": "tạ lỗi, xin lỗi (trang trọng)",
-      "pos": "v1",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "課長[かちょう]は、お客様[きゃくさま]に深[ふか]く詫[わ]びた。",
-          "vi": "Trưởng phòng đã tạ lỗi sâu sắc với khách hàng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "遅[おく]れたことを詫[わ]びる手紙[てがみ]を書[か]いた。",
-          "vi": "Tôi viết thư xin lỗi vì đã chậm trễ.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：あの件[けん]、ちゃんと謝[あやま]った？B：うん、心[こころ]から詫[わ]びたよ。許[ゆる]してもらえた。",
-          "vi": "A: Vụ đó cậu đã xin lỗi đàng hoàng chưa? B: Ừ, tớ đã tạ lỗi thật lòng. Được tha rồi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "失礼[しつれい]を詫[わ]びる",
-          "vi": "tạ lỗi vì thất lễ"
-        },
-        {
-          "jp": "心[こころ]から詫[わ]びる",
-          "vi": "thành tâm tạ lỗi"
-        }
-      ],
-      "confuse": [
-        "v:謝る:あやまる"
-      ],
-      "note": "詫[わ]びる trang trọng hơn 謝[あやま]る, hay dùng trong văn viết. Danh từ: お詫[わ]び."
-    },
-    {
-      "id": "v:恐縮:きょうしゅく",
-      "kana": "きょうしゅく",
-      "kanji": "恐縮",
-      "hv": "KHỦNG SÚC",
-      "vi": "ngại quá, thấy áy náy (khiêm nhường)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "お忙[いそが]しいところ恐縮[きょうしゅく]ですが、書類[しょるい]を確認[かくにん]していただけますか。",
-          "vi": "Xin lỗi đã làm phiền lúc anh bận, anh xem giúp giấy tờ được không ạ?",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "褒[ほ]めていただいて、恐縮[きょうしゅく]です。",
-          "vi": "Được khen thế này, tôi thấy ngại quá.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "ご親切[しんせつ]に恐縮[きょうしゅく]する",
-          "vi": "áy náy trước lòng tốt"
-        }
-      ],
-      "note": "恐縮[きょうしゅく]ですが… = xin lỗi vì làm phiền, nhưng… (mở đầu lời nhờ lịch sự với người trên, khách)."
-    },
-    {
-      "id": "v:恐れ入る:おそれいる",
-      "kana": "おそれいる",
-      "kanji": "恐れ入る",
-      "kf": "恐[おそ]れ入[い]る",
-      "hv": "KHỦNG NHẬP",
-      "vi": "xin lỗi vì làm phiền (rất lịch sự)",
-      "pos": "v5",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "恐[おそ]れ入[い]りますが、こちらにお名前[なまえ]をお書[か]きください。",
-          "vi": "Làm phiền anh, xin hãy viết tên vào đây.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "わざわざ届[とど]けていただいて、恐[おそ]れ入[い]ります。",
-          "vi": "Anh cất công mang đến tận nơi, thật ngại quá ạ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：恐[おそ]れ入[い]りますが、在留[ざいりゅう]カードを見[み]せていただけますか。B：はい、どうぞ。",
-          "vi": "A: Làm phiền anh, cho tôi xem thẻ cư trú được không ạ? B: Vâng, đây ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "ご親切[しんせつ]に恐[おそ]れ入[い]る",
-          "vi": "cảm kích trước lòng tốt"
-        }
-      ],
-      "note": "Hầu như dùng dạng 恐[おそ]れ入[い]ります: mở đầu lời nhờ (= すみませんが), hoặc cảm ơn kèm áy náy. Hay nghe ở quầy thủ tục."
-    },
-    {
-      "id": "v:心苦しい:こころぐるしい",
-      "kana": "こころぐるしい",
-      "kanji": "心苦しい",
-      "kf": "心苦[こころぐる]しい",
-      "hv": "TÂM KHỔ",
-      "vi": "cắn rứt, áy náy trong lòng (vì làm phiền người khác)",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "忙[いそが]しい時期[じき]に休[やす]みをもらうのは、心苦[こころぐる]しいです。",
-          "vi": "Xin nghỉ vào mùa bận tôi thấy áy náy.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "何度[なんど]もお願[ねが]いするのは心苦[こころぐる]しいのですが、もう一度[いちど]教[おし]えていただけますか。",
-          "vi": "Nhờ nhiều lần thật áy náy, nhưng anh chỉ lại giúp tôi một lần nữa được không?",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：手伝[てつだ]ってもらってばかりで、心苦[こころぐる]しいよ。B：気[き]にしないで。お互[たが]い様[さま]だから。",
-          "vi": "A: Toàn được cậu giúp, tớ áy náy lắm. B: Đừng bận tâm. Có qua có lại mà.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "Hay dùng khi nhờ vả hoặc từ chối: 心苦[こころぐる]しいのですが… = thật áy náy nhưng…."
-    },
-    {
-      "id": "v:面目ない:めんぼくない",
-      "kana": "めんぼくない",
-      "kanji": "面目ない",
-      "kf": "面目[めんぼく]ない",
-      "hv": "DIỆN MỤC",
-      "vi": "xấu hổ không dám nhìn mặt (vì làm hỏng việc)",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新人[しんじん]に教[おし]える立場[たちば]なのに、同[おな]じミスをして面目[めんぼく]ない。",
-          "vi": "Ở vị trí dạy người mới mà lại mắc cùng lỗi, thật xấu hổ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "友達[ともだち]の引[ひ]っ越[こ]しを手伝[てつだ]う約束[やくそく]を忘[わす]れていて、面目[めんぼく]ない。",
-          "vi": "Quên mất lời hứa giúp bạn chuyển nhà, thật hổ thẹn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：また遅刻[ちこく]？B：面目[めんぼく]ない…。明日[あした]から気[き]をつけます。",
-          "vi": "A: Lại muộn à? B: Xấu hổ quá… Từ mai tôi sẽ chú ý.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "Hơi cũ, hay nghe từ đàn ông lớn tuổi. Lịch sự: 面目[めんぼく]ありません."
-    },
-    {
-      "id": "v:勘弁:かんべん",
-      "kana": "かんべん",
-      "kanji": "勘弁",
-      "hv": "KHÁM BIỆN",
-      "vi": "bỏ qua, tha cho (lỗi)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今回[こんかい]だけは、勘弁[かんべん]してください。",
-          "vi": "Lần này thôi, xin bỏ qua cho tôi.",
-          "ctx": "hoithoai"
-        },
-        {
-          "jp": "また残業[ざんぎょう]か。もう勘弁[かんべん]してほしいよ。",
-          "vi": "Lại tăng ca à. Xin kiếu, chán lắm rồi.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "ミスを勘弁[かんべん]する",
-          "vi": "bỏ qua lỗi"
-        }
-      ],
-      "rel": [
-        "v:許す:ゆるす"
-      ],
-      "note": "勘弁[かんべん]してください = xin bỏ qua cho (xin lỗi); cũng dùng để than \"thôi xin kiếu\". Khẩu ngữ, không dùng với khách."
-    },
-    {
-      "id": "v:大目に見る:おおめにみる",
-      "kana": "おおめにみる",
-      "kanji": "大目に見る",
-      "kf": "大目[おおめ]に見[み]る",
-      "hv": "ĐẠI MỤC KIẾN",
-      "vi": "nhắm mắt cho qua, châm chước",
-      "pos": "expr",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "初[はじ]めてのミスなら、大目[おおめ]に見[み]ることにしている。",
-          "vi": "Nếu là lỗi lần đầu thì tôi thường châm chước.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "子供[こども]のいたずらだから、大目[おおめ]に見[み]てやってください。",
-          "vi": "Trò nghịch của trẻ con thôi, xin anh bỏ qua cho.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Chia như động từ 見[み]る: 大目[おおめ]に見[み]て, 大目[おおめ]に見[み]てもらう (được châm chước)."
-    },
-    {
-      "id": "v:弁償:べんしょう",
-      "kana": "べんしょう",
-      "kanji": "弁償",
-      "hv": "BIỆN THƯỜNG",
-      "vi": "đền (đồ làm hỏng, làm mất)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "会社[かいしゃ]の包丁[ほうちょう]をなくしたら、弁償[べんしょう]しなければなりませんか。",
-          "vi": "Làm mất dao của công ty thì có phải đền không?",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "借[か]りた傘[かさ]を壊[こわ]してしまい、弁償[べんしょう]しました。",
-          "vi": "Tôi làm hỏng cái ô đã mượn nên đã đền.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "壊[こわ]した物[もの]を弁償[べんしょう]する",
-          "vi": "đền đồ đã làm hỏng"
-        }
-      ],
-      "confuse": [
-        "v:償う:つぐなう"
-      ],
-      "note": "弁償[べんしょう] = đền bằng tiền, bằng đồ cho thứ cụ thể. Bồi thường thiệt hại lớn (pháp lý) là 賠償[ばいしょう]."
-    },
-    {
-      "id": "v:償う:つぐなう",
-      "kana": "つぐなう",
-      "kanji": "償う",
-      "kf": "償[つぐな]う",
-      "hv": "THƯỜNG",
-      "vi": "chuộc lỗi, bù đắp (lỗi lầm, tổn thất)",
-      "pos": "v5",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "自分[じぶん]の失敗[しっぱい]は、自分[じぶん]で償[つぐな]うつもりです。",
-          "vi": "Lỗi của mình, tôi định tự mình chuộc lại.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "罪[つみ]を償[つぐな]って、新[あたら]しい人生[じんせい]を始[はじ]めた。",
-          "vi": "Anh ta chuộc tội xong rồi bắt đầu cuộc đời mới.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：迷惑[めいわく]をかけた分[ぶん]、どうやって償[つぐな]えばいい？B：これから頑張[がんば]ってくれれば、それでいいよ。",
-          "vi": "A: Tôi đã gây phiền, phải bù đắp thế nào đây? B: Từ giờ cố gắng là được rồi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "罪[つみ]を償[つぐな]う",
-          "vi": "chuộc tội"
-        },
-        {
-          "jp": "損害[そんがい]を償[つぐな]う",
-          "vi": "bù đắp tổn thất"
-        }
-      ],
-      "confuse": [
-        "v:弁償:べんしょう"
-      ]
-    },
-    {
-      "id": "v:埋め合わせ:うめあわせ",
-      "kana": "うめあわせ",
-      "kanji": "埋め合わせ",
-      "kf": "埋[う]め合[あ]わせ",
-      "hv": "MAI HỢP",
-      "vi": "bù lại (lần sau, cho người mình đã lỡ hẹn)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今日[きょう]は行[い]けなくてごめん。今度[こんど]、埋[う]め合[あ]わせするから。",
-          "vi": "Hôm nay không đi được, xin lỗi nhé. Lần sau mình sẽ bù lại.",
-          "ctx": "hoithoai"
-        },
-        {
-          "jp": "休[やす]んだ分[ぶん]の埋[う]め合[あ]わせに、土曜日[どようび]に出勤[しゅっきん]した。",
-          "vi": "Để bù cho phần đã nghỉ, tôi đi làm thứ bảy.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "約束[やくそく]の埋[う]め合[あ]わせをする",
-          "vi": "bù lại cho lần lỡ hẹn"
-        }
-      ],
-      "note": "Động từ: 埋[う]め合[あ]わせる = bù vào chỗ thiếu."
-    },
-    {
-      "id": "v:至らない:いたらない",
-      "kana": "いたらない",
-      "kanji": "至らない",
-      "kf": "至[いた]らない",
-      "hv": "CHÍ",
-      "vi": "còn nhiều thiếu sót, non kém (khiêm tốn về mình)",
-      "pos": "expr",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Xin lỗi",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "至[いた]らない点[てん]も多[おお]いですが、よろしくお願[ねが]いします。",
-          "vi": "Tôi còn nhiều điểm thiếu sót, mong được chỉ bảo.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "至[いた]らない点[てん]がございましたら、ご連絡[れんらく]ください。",
-          "vi": "Nếu có điểm nào thiếu sót, xin hãy liên hệ ạ.",
-          "ctx": "thutuc"
-        }
-      ],
-      "rel": [
-        "v:未熟:みじゅく"
-      ],
-      "note": "Lời khiêm tốn khi chào hỏi, nhận chức, xin lỗi: 至[いた]らない点[てん] / 至[いた]らないところ. Không dùng để chê người khác."
-    },
-    {
-      "id": "v:不手際:ふてぎわ",
-      "kana": "ふてぎわ",
-      "kanji": "不手際",
-      "hv": "BẤT THỦ TẾ",
-      "vi": "sơ suất (trong cách xử lý, sắp xếp)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sơ suất, lỗi lầm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "こちらの不手際[ふてぎわ]で、ご迷惑[めいわく]をおかけしました。",
-          "vi": "Do sơ suất của chúng tôi mà đã gây phiền cho quý khách.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "出荷[しゅっか]の不手際[ふてぎわ]で、納品[のうひん]が一日[いちにち]遅[おく]れた。",
-          "vi": "Do sơ suất khâu xuất hàng mà giao hàng trễ một ngày.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:手違い:てちがい"
-      ],
-      "note": "Hay dùng trong lời xin lỗi chính thức của công ty: 弊社[へいしゃ]の不手際[ふてぎわ]により…."
-    },
-    {
-      "id": "v:手違い:てちがい",
-      "kana": "てちがい",
-      "kanji": "手違い",
-      "kf": "手違[てちが]い",
-      "hv": "THỦ VI",
-      "vi": "nhầm lẫn (khâu sắp xếp, liên lạc)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sơ suất, lỗi lầm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "手違[てちが]いで、違[ちが]う商品[しょうひん]が届[とど]いてしまいました。",
-          "vi": "Do nhầm lẫn mà hàng khác đã được giao tới.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "連絡[れんらく]の手違[てちが]いで、二人[ふたり]とも同[おな]じ日[ひ]に休[やす]みを取[と]ってしまった。",
-          "vi": "Do nhầm lẫn khâu liên lạc mà cả hai người đều xin nghỉ cùng một ngày.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:不手際:ふてぎわ"
-      ],
-      "note": "手違[てちが]い = nhầm lẫn khâu sắp xếp (thường không cố ý, không rõ ai sai). 不手際[ふてぎわ] = xử lý vụng về, thiếu sót (nhận lỗi về mình)."
-    },
-    {
-      "id": "v:落ち度:おちど",
-      "kana": "おちど",
-      "kanji": "落ち度",
-      "kf": "落[お]ち度[ど]",
-      "hv": "LẠC ĐỘ",
-      "vi": "phần lỗi, chỗ sai sót (thuộc về ai)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sơ suất, lỗi lầm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今回[こんかい]の事故[じこ]は、こちらに落[お]ち度[ど]はありません。",
-          "vi": "Vụ tai nạn lần này, phía chúng tôi không có lỗi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "自分[じぶん]の落[お]ち度[ど]を、素直[すなお]に認[みと]めることが大切[たいせつ]だ。",
-          "vi": "Thừa nhận thật lòng phần lỗi của mình là điều quan trọng.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "落[お]ち度[ど]がある / ない = có / không có lỗi. Hay dùng khi phân định trách nhiệm (tai nạn, khiếu nại)."
-    },
-    {
-      "id": "v:過ち:あやまち",
-      "kana": "あやまち",
-      "kanji": "過ち",
-      "kf": "過[あやま]ち",
-      "hv": "QUÁ",
-      "vi": "lỗi lầm (hành vi, quyết định sai)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sơ suất, lỗi lầm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "若[わか]いころの過[あやま]ちを、今[いま]も後悔[こうかい]している。",
-          "vi": "Đến giờ tôi vẫn hối hận về lỗi lầm thời trẻ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "同[おな]じ過[あやま]ちを、二度[にど]と繰[く]り返[かえ]さないようにします。",
-          "vi": "Tôi sẽ cố không bao giờ lặp lại lỗi lầm tương tự.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:誤り:あやまり"
-      ],
-      "note": "過[あやま]ち = lỗi lầm (hành vi, đạo đức). 誤[あやま]り = chỗ sai (số liệu, chữ viết)."
-    },
-    {
-      "id": "v:しくじる:しくじる",
-      "kana": "しくじる",
-      "kanji": "",
-      "hv": "",
-      "vi": "làm hỏng việc, thất bại (khẩu ngữ)",
-      "pos": "v5",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sơ suất, lỗi lầm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "面接[めんせつ]でしくじって、落[お]ちてしまった。",
-          "vi": "Làm hỏng buổi phỏng vấn nên trượt mất.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "魚[さかな]のおろし方[かた]をしくじって、身[み]がぼろぼろになった。",
-          "vi": "Làm hỏng khâu lọc cá nên thịt nát bét.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：昨日[きのう]のプレゼン、どうだった？B：しくじったよ。緊張[きんちょう]して何[なに]も言[い]えなかった。",
-          "vi": "A: Bài thuyết trình hôm qua thế nào? B: Hỏng rồi. Căng thẳng quá chẳng nói được gì.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "仕事[しごと]をしくじる",
-          "vi": "làm hỏng việc"
-        },
-        {
-          "jp": "試験[しけん]をしくじる",
-          "vi": "thi hỏng"
-        }
-      ],
-      "syn": [
-        "v:失敗:しっぱい"
-      ],
-      "note": "Khẩu ngữ của 失敗[しっぱい]する. Không dùng trong văn bản trang trọng."
-    },
-    {
-      "id": "v:誤る:あやまる",
-      "kana": "あやまる",
-      "kanji": "誤る",
-      "kf": "誤[あやま]る",
-      "hv": "NGỘ",
-      "vi": "làm sai, nhầm (văn viết)",
-      "pos": "v5",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sơ suất, lỗi lầm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "操作[そうさ]を誤[あやま]ると、大[おお]きな事故[じこ]につながる。",
-          "vi": "Thao tác sai có thể dẫn tới tai nạn lớn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "誤[あやま]った情報[じょうほう]に、気[き]をつけてください。",
-          "vi": "Hãy cẩn thận với thông tin sai lệch.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：これ、誤[あやま]って捨[す]てちゃったみたい。B：え、大事[だいじ]な書類[しょるい]だよ！",
-          "vi": "A: Hình như tớ lỡ vứt nhầm cái này rồi. B: Hả, giấy tờ quan trọng đấy!",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "操作[そうさ]を誤[あやま]る",
-          "vi": "thao tác sai"
-        },
-        {
-          "jp": "判断[はんだん]を誤[あやま]る",
-          "vi": "phán đoán sai"
-        }
-      ],
-      "syn": [
-        "v:間違える:まちがえる"
-      ],
-      "note": "Văn viết của 間違[まちが]える. 誤[あやま]って = lỡ, do nhầm. Đồng âm: 謝[あやま]る (xin lỗi). Danh từ: 誤[あやま]り."
-    },
-    {
-      "id": "v:不慣れ:ふなれ",
-      "kana": "ふなれ",
-      "kanji": "不慣れ",
-      "kf": "不慣[ふな]れ",
-      "hv": "BẤT QUÁN",
-      "vi": "chưa quen, còn lạ lẫm (công việc, nơi chốn)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sơ suất, lỗi lầm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "不慣[ふな]れな作業[さぎょう]なので、ゆっくり教[おし]えてください。",
-          "vi": "Là công việc tôi chưa quen nên xin hãy chỉ từ từ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "日本[にほん]の生活[せいかつ]に不慣[ふな]れなころは、ごみの出[だ]し方[かた]で困[こま]った。",
-          "vi": "Hồi chưa quen cuộc sống ở Nhật, tôi khổ vì cách đổ rác.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：何分[なにぶん]不慣[ふな]れなもので、すみません。B：大丈夫[だいじょうぶ]。最初[さいしょ]はみんなそうだよ。",
-          "vi": "A: Tôi còn chưa quen việc, xin lỗi anh. B: Không sao. Lúc đầu ai cũng vậy.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "rel": [
-        "v:慣れる:なれる"
-      ],
-      "note": "不慣[ふな]れなもので = vì còn chưa quen (lời xin lỗi khiêm tốn)."
-    },
-    {
-      "id": "v:未熟:みじゅく",
-      "kana": "みじゅく",
-      "kanji": "未熟",
-      "hv": "VỊ THỤC",
-      "vi": "non tay, chưa thành thạo",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sơ suất, lỗi lầm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "まだ未熟[みじゅく]ですが、精一杯[いっぱい]頑張[がんば]ります。",
-          "vi": "Tôi còn non tay nhưng sẽ cố gắng hết sức.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "運転[うんてん]が未熟[みじゅく]なうちは、夜[よる]の高速道路[こうそくどうろ]は避[さ]けたほうがいい。",
-          "vi": "Khi còn non tay lái thì nên tránh đường cao tốc ban đêm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：グエンさん、包丁[ほうちょう]の使[つか]い方[かた]が上手[じょうず]になったね。B：いえ、まだまだ未熟[みじゅく]です。",
-          "vi": "A: Anh Nguyễn dùng dao giỏi lên rồi nhỉ. B: Không, tôi vẫn còn non lắm ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "ant": [
-        "v:一人前:いちにんまえ"
-      ],
-      "note": "未熟[みじゅく]者[しゃ] = người còn non kém (khiêm tốn). 未熟[みじゅく]な果物[くだもの] = trái cây chưa chín."
-    },
-    {
-      "id": "v:力不足:ちからぶそく",
-      "kana": "ちからぶそく",
-      "kanji": "力不足",
-      "hv": "LỰC BẤT TÚC",
-      "vi": "không đủ sức, năng lực chưa tới",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sơ suất, lỗi lầm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "私[わたし]の力不足[ちからぶそく]で、目標[もくひょう]を達成[たっせい]できませんでした。",
-          "vi": "Do năng lực tôi chưa tới mà không đạt được mục tiêu.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "試合[しあい]に負[ま]けたのは、私[わたし]の力不足[ちからぶそく]です。",
-          "vi": "Trận đấu thua là do tôi chưa đủ sức.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Hay dùng khiêm tốn khi nhận lỗi: 私[わたし]の力不足[ちからぶそく]です. Chú ý: 役不足[やくぶそく] lại là \"vai trò quá nhỏ so với tài năng\" (hay bị dùng nhầm)."
-    },
-    {
-      "id": "v:甘く見る:あまくみる",
-      "kana": "あまくみる",
-      "kanji": "甘く見る",
-      "kf": "甘[あま]く見[み]る",
-      "hv": "CAM KIẾN",
-      "vi": "xem nhẹ, đánh giá thấp (khó khăn, nguy hiểm)",
-      "pos": "expr",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sơ suất, lỗi lầm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "小[ちい]さなけがを甘[あま]く見[み]ると、大変[たいへん]なことになる。",
-          "vi": "Xem nhẹ vết thương nhỏ thì sẽ thành chuyện lớn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "冬[ふゆ]の山[やま]を甘[あま]く見[み]てはいけない。",
-          "vi": "Không được coi thường núi mùa đông.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Bị động: 甘[あま]く見[み]られる (bị coi thường). Gần nghĩa: 軽[かる]く見[み]る, 侮[あなど]る (văn viết)."
-    },
-    {
-      "id": "v:欠陥:けっかん",
-      "kana": "けっかん",
-      "kanji": "欠陥",
-      "hv": "KHIẾM HÃM",
-      "vi": "khiếm khuyết, lỗi thiết kế (sản phẩm)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sơ suất, lỗi lầm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ブレーキに欠陥[けっかん]が見[み]つかり、車[くるま]が回収[かいしゅう]された。",
-          "vi": "Phát hiện khiếm khuyết ở phanh nên xe bị thu hồi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "欠陥[けっかん]のある製品[せいひん]を、出荷[しゅっか]してはいけない。",
-          "vi": "Không được xuất hàng sản phẩm có khiếm khuyết.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:不具合:ふぐあい"
-      ],
-      "note": "欠陥[けっかん]商品[しょうひん] / 欠陥[けっかん]住宅[じゅうたく] = hàng / nhà có lỗi từ thiết kế, xây dựng. Nặng hơn 不具合[ふぐあい]."
-    },
-    {
-      "id": "v:不具合:ふぐあい",
-      "kana": "ふぐあい",
-      "kanji": "不具合",
-      "hv": "BẤT CỤ HỢP",
-      "vi": "trục trặc, chỗ chưa ổn (máy, hệ thống)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sơ suất, lỗi lầm",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "機械[きかい]に不具合[ふぐあい]があったら、すぐ班長[はんちょう]に知[し]らせてください。",
-          "vi": "Máy có trục trặc gì thì báo tổ trưởng ngay.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "スマホのアプリに、不具合[ふぐあい]が出[で]ている。",
-          "vi": "Ứng dụng điện thoại đang bị trục trặc.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:故障:こしょう",
-        "v:欠陥:けっかん"
-      ],
-      "note": "不具合[ふぐあい] = chạy chưa ổn, có lỗi nhỏ (vẫn có thể hoạt động). 故障[こしょう] = hỏng, không chạy được. 欠陥[けっかん] = lỗi từ thiết kế."
-    },
-    {
-      "id": "v:経緯:けいい",
-      "kana": "けいい",
-      "kanji": "経緯",
-      "hv": "KINH VĨ",
-      "vi": "đầu đuôi sự việc, ngọn ngành",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giải thích lý do",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "事故[じこ]の経緯[けいい]を、報告書[ほうこくしょ]にまとめてください。",
-          "vi": "Hãy tóm tắt diễn biến vụ tai nạn vào báo cáo.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "遅[おく]れた経緯[けいい]を、きちんと説明[せつめい]しました。",
-          "vi": "Tôi đã giải thích đàng hoàng đầu đuôi vì sao bị chậm.",
-          "ctx": "thutuc"
-        }
-      ],
-      "rel": [
-        "v:事情:じじょう"
-      ],
-      "note": "Cũng đọc いきさつ (khẩu ngữ hơn). Hay đi với 説明[せつめい]する, 報告[ほうこく]する."
-    },
-    {
-      "id": "v:支障:ししょう",
-      "kana": "ししょう",
-      "kanji": "支障",
-      "hv": "CHI CHƯỚNG",
-      "vi": "trở ngại, ảnh hưởng xấu (đến việc gì)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giải thích lý do",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "機械[きかい]の故障[こしょう]で、生産[せいさん]に支障[ししょう]が出[で]ています。",
-          "vi": "Do máy hỏng mà sản xuất đang bị ảnh hưởng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "寝不足[ねぶそく]は、仕事[しごと]に支障[ししょう]をきたす。",
-          "vi": "Thiếu ngủ gây trở ngại cho công việc.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:差し支え:さしつかえ"
-      ],
-      "note": "支障[ししょう]が出[で]る / 支障[ししょう]をきたす (văn viết) = gây trở ngại. 支障[ししょう]がない = không ảnh hưởng gì."
-    },
-    {
-      "id": "v:差し支え:さしつかえ",
-      "kana": "さしつかえ",
-      "kanji": "差し支え",
-      "kf": "差[さ]し支[つか]え",
-      "hv": "SAI CHI",
-      "vi": "điều bất tiện (dùng trong câu hỏi lịch sự)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giải thích lý do",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "差[さ]し支[つか]えなければ、ご住所[じゅうしょ]を教[おし]えていただけますか。",
-          "vi": "Nếu không phiền, xin cho biết địa chỉ được không ạ?",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "明日[あした]休[やす]んでも、仕事[しごと]に差[さ]し支[つか]えはありません。",
-          "vi": "Mai tôi nghỉ cũng không ảnh hưởng gì đến công việc.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:支障:ししょう"
-      ],
-      "note": "差[さ]し支[つか]えなければ = nếu không có gì bất tiện (mở đầu câu hỏi lịch sự). Động từ: 差[さ]し支[つか]える."
-    },
-    {
-      "id": "v:遅延:ちえん",
-      "kana": "ちえん",
-      "kanji": "遅延",
-      "hv": "TRÌ DIÊN",
-      "vi": "chậm trễ (tàu xe, thanh toán)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giải thích lý do",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "人身[じんしん]事故[じこ]で、電車[でんしゃ]が三十分[さんじゅっぷん]遅延[ちえん]しています。",
-          "vi": "Do tai nạn người mà tàu điện đang chậm ba mươi phút.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "電車[でんしゃ]の遅延[ちえん]で遅刻[ちこく]したときは、遅延[ちえん]証明書[しょうめいしょ]をもらってください。",
-          "vi": "Khi đi muộn vì tàu trễ, hãy lấy giấy chứng nhận tàu trễ.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "電車[でんしゃ]が遅延[ちえん]する",
-          "vi": "tàu trễ"
-        },
-        {
-          "jp": "支払[しはら]いが遅延[ちえん]する",
-          "vi": "chậm thanh toán"
-        }
-      ],
-      "rel": [
-        "v:遅れ:おくれ"
-      ],
-      "note": "遅延[ちえん]証明書[しょうめいしょ] = giấy chứng nhận tàu trễ (nhà ga phát, nộp cho công ty). Văn viết, thông báo."
-    },
-    {
-      "id": "v:何分:なにぶん",
-      "kana": "なにぶん",
-      "kanji": "何分",
-      "hv": "HÀ PHÂN",
-      "vi": "dù gì đi nữa (lời xin thông cảm, lịch sự)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giải thích lý do",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "何分[なにぶん]初[はじ]めてなもので、ご迷惑[めいわく]をおかけするかもしれません。",
-          "vi": "Dù gì tôi cũng mới làm lần đầu nên có thể sẽ làm phiền, mong thông cảm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "何分[なにぶん]古[ふる]い建物[たてもの]ですので、音[おと]が響[ひび]きます。",
-          "vi": "Dù gì cũng là tòa nhà cũ nên tiếng động vang ra ạ.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:何しろ:なにしろ"
-      ],
-      "note": "Lịch sự, hay đi với もので / ので để xin thông cảm. Đọc なにぶん; 何分[なんぷん] = mấy phút."
-    },
-    {
-      "id": "v:何しろ:なにしろ",
-      "kana": "なにしろ",
-      "kanji": "何しろ",
-      "kf": "何[なに]しろ",
-      "hv": "HÀ",
-      "vi": "nói gì thì nói, (chủ yếu) là vì",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giải thích lý do",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "何[なに]しろ忙[いそが]しくて、連絡[れんらく]できませんでした。",
-          "vi": "Nói gì thì nói, bận quá nên tôi không liên lạc được.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "何[なに]しろ人[ひと]が足[た]りないので、毎日[まいにち]残業[ざんぎょう]です。",
-          "vi": "Chủ yếu là vì thiếu người nên ngày nào cũng tăng ca.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:何分:なにぶん"
-      ],
-      "note": "Nhấn mạnh lý do chính: 何[なに]しろ〜ので / 〜から. Thân mật hơn 何分[なにぶん]. Cũng viết kana: なにしろ."
-    },
-    {
-      "id": "v:とはいえ:とはいえ",
-      "kana": "とはいえ",
-      "kanji": "",
-      "hv": "",
-      "vi": "tuy nói vậy nhưng",
-      "pos": "other",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giải thích lý do",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "春[はる]とはいえ、朝[あさ]はまだ寒[さむ]い。",
-          "vi": "Tuy nói là mùa xuân nhưng buổi sáng vẫn lạnh.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "慣[な]れたとはいえ、刃物[はもの]を使[つか]う作業[さぎょう]は油断[ゆだん]できない。",
-          "vi": "Tuy đã quen nhưng việc dùng dao thì không được lơ là.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "Văn viết, trang trọng hơn けれども. Cũng đứng đầu câu: とはいえ、… = tuy vậy, …. Gần nghĩa mẫu 〜ものの."
-    },
-    {
-      "id": "v:不本意:ふほんい",
-      "kana": "ふほんい",
-      "kanji": "不本意",
-      "hv": "BẤT BẢN Ý",
-      "vi": "trái với ý mình, không như mong muốn",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giải thích lý do",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "不本意[ふほんい]ですが、今回[こんかい]は辞退[じたい]させていただきます。",
-          "vi": "Tuy trái ý mình nhưng lần này tôi xin rút lui.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "不本意[ふほんい]な結果[けっか]に終[お]わって、悔[くや]しい。",
-          "vi": "Kết thúc với kết quả không như ý, thấy cay cú.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：引[ひ]っ越[こ]すの？B：うん、会社[かいしゃ]の都合[つごう]で不本意[ふほんい]だけど、仕方[しかた]ないんだ。",
-          "vi": "A: Cậu chuyển nhà à? B: Ừ, vì công ty sắp xếp nên trái ý mình, nhưng đành vậy.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "不本意[ふほんい]ながら = dù trái với ý mình."
-    },
-    {
-      "id": "v:気まずい:きまずい",
-      "kana": "きまずい",
-      "kanji": "気まずい",
-      "kf": "気[き]まずい",
-      "hv": "KHÍ",
-      "vi": "ngượng ngùng, khó xử (không khí, quan hệ)",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Giải thích lý do",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "けんかした後[あと]で同[おな]じシフトになって、気[き]まずい。",
-          "vi": "Sau khi cãi nhau lại bị xếp cùng ca, thấy khó xử.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "名前[なまえ]を間違[まちが]えて呼[よ]んでしまい、気[き]まずい雰囲気[ふんいき]になった。",
-          "vi": "Lỡ gọi nhầm tên nên không khí trở nên ngượng ngùng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：昨日[きのう]、課長[かちょう]に謝[あやま]った？B：まだ。なんか気[き]まずくて…。",
-          "vi": "A: Hôm qua xin lỗi trưởng phòng chưa? B: Chưa. Kiểu ngại ngại sao ấy…",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "気[き]まずい雰囲気[ふんいき] = bầu không khí ngượng ngập. 気[き]まずくなる = (quan hệ) trở nên khó xử."
-    },
-    {
-      "id": "v:行き詰まる:いきづまる",
-      "kana": "いきづまる",
-      "kanji": "行き詰まる",
-      "kf": "行[い]き詰[づ]まる",
-      "hv": "HÀNH CẬT",
-      "vi": "bế tắc, đi vào ngõ cụt",
-      "pos": "v5",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khó khăn, thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "話[はな]し合[あ]いが行[い]き詰[づ]まって、何[なに]も決[き]まらなかった。",
-          "vi": "Cuộc bàn bạc bế tắc, chẳng quyết được gì.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "生活[せいかつ]が行[い]き詰[づ]まったら、一人[ひとり]で悩[なや]まずに相談[そうだん]してください。",
-          "vi": "Nếu cuộc sống bế tắc, đừng phiền muộn một mình mà hãy tìm người tư vấn.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：最近[さいきん]、日本語[にほんご]の勉強[べんきょう]に行[い]き詰[づ]まってるんだ。B：じゃあ、やり方[かた]を変[か]えてみたら？",
-          "vi": "A: Dạo này tớ bế tắc trong việc học tiếng Nhật. B: Vậy thử đổi cách học xem?",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "話[はな]し合[あ]いが行[い]き詰[づ]まる",
-          "vi": "cuộc bàn bạc bế tắc"
-        },
-        {
-          "jp": "経営[けいえい]が行[い]き詰[づ]まる",
-          "vi": "kinh doanh lâm vào bế tắc"
-        }
-      ],
-      "note": "Cũng đọc ゆきづまる. Danh từ: 行[い]き詰[づ]まり."
-    },
-    {
-      "id": "v:苦戦:くせん",
-      "kana": "くせん",
-      "kanji": "苦戦",
-      "hv": "KHỔ CHIẾN",
-      "vi": "vật lộn vất vả (để đạt kết quả)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khó khăn, thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新[あたら]しい機械[きかい]の使[つか]い方[かた]に、みんな苦戦[くせん]している。",
-          "vi": "Mọi người đang vật lộn với cách dùng máy mới.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "初[はじ]めての確定申告[かくていしんこく]に、かなり苦戦[くせん]した。",
-          "vi": "Lần đầu tự khai quyết toán thuế, tôi khá vất vả.",
-          "ctx": "thutuc"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "敬語[けいご]に苦戦[くせん]する",
-          "vi": "vật lộn với kính ngữ"
-        }
-      ],
-      "note": "Vốn nghĩa là trận đánh khó khăn; hay dùng cho thi đấu, kinh doanh, học tập."
-    },
-    {
-      "id": "v:手こずる:てこずる",
-      "kana": "てこずる",
-      "kanji": "手こずる",
-      "kf": "手[て]こずる",
-      "hv": "THỦ",
-      "vi": "chật vật (vì khó xử lý)",
-      "pos": "v5",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khó khăn, thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "固[かた]く凍[こお]った魚[さかな]を切[き]るのに、手[て]こずった。",
-          "vi": "Tôi chật vật mãi mới cắt được con cá đông cứng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "子供[こども]の寝[ね]かしつけに、毎晩[まいばん]手[て]こずっています。",
-          "vi": "Tối nào tôi cũng chật vật dỗ con ngủ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：その書類[しょるい]、まだ終[お]わらないの？B：うん、書[か]き方[かた]が難[むずか]しくて手[て]こずってるんだ。",
-          "vi": "A: Giấy đó vẫn chưa xong à? B: Ừ, cách điền khó nên đang chật vật.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "作業[さぎょう]に手[て]こずる",
-          "vi": "chật vật với công việc"
-        }
-      ],
-      "confuse": [
-        "v:手間取る:てまどる"
-      ],
-      "note": "〜に手[て]こずる. Thường viết kana phần こずる."
-    },
-    {
-      "id": "v:手間取る:てまどる",
-      "kana": "てまどる",
-      "kanji": "手間取る",
-      "kf": "手間取[てまど]る",
-      "hv": "THỦ GIAN THỦ",
-      "vi": "tốn thời gian, mất công hơn dự tính",
-      "pos": "v5",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khó khăn, thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "手続[てつづ]きに手間取[てまど]って、会社[かいしゃ]に遅[おく]れてしまった。",
-          "vi": "Thủ tục mất nhiều thời gian nên tôi đến công ty muộn.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "箱詰[はこづ]めに手間取[てまど]ると、出荷[しゅっか]に間[ま]に合[あ]わない。",
-          "vi": "Đóng thùng mà tốn thời gian thì không kịp xuất hàng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：遅[おそ]かったね。B：ごめん、駐車場[ちゅうしゃじょう]を探[さが]すのに手間取[てまど]ったんだ。",
-          "vi": "A: Muộn thế. B: Xin lỗi, tìm chỗ đỗ xe mất thời gian quá.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "準備[じゅんび]に手間取[てまど]る",
-          "vi": "tốn công chuẩn bị"
-        }
-      ],
-      "confuse": [
-        "v:手こずる:てこずる"
-      ],
-      "note": "手間取[てまど]る = tốn thời gian hơn dự tính. 手[て]こずる = khó xử lý, chật vật. Gốc: 手間[てま] (công sức)."
-    },
-    {
-      "id": "v:一向に:いっこうに",
-      "kana": "いっこうに",
-      "kanji": "一向に",
-      "kf": "一向[いっこう]に",
-      "hv": "NHẤT HƯỚNG",
-      "vi": "mãi mà vẫn (không)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khó khăn, thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "薬[くすり]を飲[の]んでも、熱[ねつ]が一向[いっこう]に下[さ]がらない。",
-          "vi": "Uống thuốc rồi mà sốt mãi vẫn không hạ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "何度[なんど]言[い]っても、ミスが一向[いっこう]に減[へ]らない。",
-          "vi": "Nói bao nhiêu lần rồi mà lỗi mãi vẫn không giảm.",
-          "ctx": "xuong"
-        }
-      ],
-      "with": "phudinh",
-      "note": "Đi với phủ định, hàm ý sốt ruột: 一向[いっこう]に〜ない. 一向[いっこう]に構[かま]わない = hoàn toàn không sao."
-    },
-    {
-      "id": "v:ろくに:ろくに",
-      "kana": "ろくに",
-      "kanji": "",
-      "hv": "",
-      "vi": "(không) ra hồn, (chẳng) được bao nhiêu",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khó khăn, thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "忙[いそが]しくて、昼[ひる]ご飯[はん]もろくに食[た]べられなかった。",
-          "vi": "Bận quá, cơm trưa cũng chẳng ăn được ra hồn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "昨日[きのう]はろくに寝[ね]ていないので、眠[ねむ]い。",
-          "vi": "Hôm qua chẳng ngủ được bao nhiêu nên buồn ngủ.",
-          "ctx": "doisong"
-        }
-      ],
-      "with": "phudinh",
-      "note": "Đi với phủ định, mang ý chê: ろくに〜ない. ろくな + danh từ + ない = chẳng ra gì."
-    },
-    {
-      "id": "v:計画倒れ:けいかくだおれ",
-      "kana": "けいかくだおれ",
-      "kanji": "計画倒れ",
-      "kf": "計画倒[けいかくだお]れ",
-      "hv": "KẾ HOẠCH ĐẢO",
-      "vi": "kế hoạch đổ bể (chỉ nằm trên giấy)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khó khăn, thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "毎朝[まいあさ]走[はし]るつもりだったが、計画[けいかく]倒[だお]れに終[お]わった。",
-          "vi": "Định sáng nào cũng chạy bộ, nhưng kế hoạch đổ bể.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "準備[じゅんび]が足[た]りないと、計画[けいかく]倒[だお]れになりやすい。",
-          "vi": "Chuẩn bị không đủ thì kế hoạch dễ đổ bể.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:三日坊主:みっかぼうず"
-      ],
-      "note": "Danh từ + 倒[たお]れ = có tiếng mà không thành."
-    },
-    {
-      "id": "v:三日坊主:みっかぼうず",
-      "kana": "みっかぼうず",
-      "kanji": "三日坊主",
-      "hv": "TAM NHẬT PHƯỜNG CHỦ",
-      "vi": "cả thèm chóng chán, làm được dăm bữa",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khó khăn, thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "日記[にっき]を始[はじ]めたが、三日[みっか]坊主[ぼうず]で終[お]わった。",
-          "vi": "Bắt đầu viết nhật ký nhưng được dăm bữa rồi bỏ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "日本語[にほんご]の勉強[べんきょう]が三日[みっか]坊主[ぼうず]にならないように、毎日[まいにち]五分[ごふん]だけでも続[つづ]けています。",
-          "vi": "Để việc học tiếng Nhật không bỏ dở sau dăm bữa, mỗi ngày tôi đều duy trì dù chỉ năm phút.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:計画倒れ:けいかくだおれ"
-      ],
-      "note": "Nghĩa đen: nhà sư ba ngày (tu được ba ngày rồi bỏ)."
-    },
-    {
-      "id": "v:失望:しつぼう",
-      "kana": "しつぼう",
-      "kanji": "失望",
-      "hv": "THẤT VỌNG",
-      "vi": "thất vọng (về người, việc)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khó khăn, thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "結果[けっか]を聞[き]いて、みんな失望[しつぼう]した。",
-          "vi": "Nghe kết quả, mọi người đều thất vọng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "約束[やくそく]を守[まも]らない人[ひと]に、失望[しつぼう]しました。",
-          "vi": "Tôi thất vọng về người không giữ lời hứa.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "結果[けっか]に失望[しつぼう]する",
-          "vi": "thất vọng về kết quả"
-        }
-      ],
-      "syn": [
-        "v:がっかり:がっかり"
-      ],
-      "note": "失望[しつぼう] trang trọng, nặng hơn がっかり. Gần nghĩa: 落胆[らくたん] (văn viết)."
-    },
-    {
-      "id": "v:悔やむ:くやむ",
-      "kana": "くやむ",
-      "kanji": "悔やむ",
-      "kf": "悔[く]やむ",
-      "hv": "HỐI",
-      "vi": "hối tiếc, ân hận",
-      "pos": "v5",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Khó khăn, thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今[いま]さら悔[く]やんでも、仕方[しかた]がない。",
-          "vi": "Bây giờ có hối tiếc cũng chẳng ích gì.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "確認[かくにん]しなかったことを、今[いま]も悔[く]やんでいる。",
-          "vi": "Đến giờ tôi vẫn ân hận vì đã không kiểm tra.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：あのとき、もっと勉強[べんきょう]すればよかった。B：悔[く]やむより、これから頑張[がんば]ろうよ。",
-          "vi": "A: Giá như lúc đó học nhiều hơn. B: Thay vì hối tiếc, từ giờ cố gắng thôi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "失敗[しっぱい]を悔[く]やむ",
-          "vi": "hối tiếc vì thất bại"
-        }
-      ],
-      "rel": [
-        "v:後悔:こうかい",
-        "v:悔しい:くやしい"
-      ],
-      "note": "お悔[く]やみ = lời chia buồn (đám tang): お悔[く]やみ申[もう]し上[あ]げます."
-    },
-    {
-      "id": "v:教訓:きょうくん",
-      "kana": "きょうくん",
-      "kanji": "教訓",
-      "hv": "GIÁO HUẤN",
-      "vi": "bài học rút ra (từ thất bại, kinh nghiệm)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đứng dậy sau thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この失敗[しっぱい]を教訓[きょうくん]にして、確認[かくにん]の手順[てじゅん]を見直[みなお]した。",
-          "vi": "Lấy thất bại này làm bài học, chúng tôi đã xem lại trình tự kiểm tra.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "震災[しんさい]の教訓[きょうくん]を、次[つぎ]の世代[せだい]に伝[つた]えたい。",
-          "vi": "Tôi muốn truyền lại bài học từ trận động đất cho thế hệ sau.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "〜を教訓[きょうくん]にする / 〜を教訓[きょうくん]とする = lấy … làm bài học."
-    },
-    {
-      "id": "v:取り返し:とりかえし",
-      "kana": "とりかえし",
-      "kanji": "取り返し",
-      "kf": "取[と]り返[かえ]し",
-      "hv": "THỦ PHẢN",
-      "vi": "sự cứu vãn (thường: không cứu vãn được)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đứng dậy sau thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "取[と]り返[かえ]しのつかないミスをしてしまった。",
-          "vi": "Tôi đã phạm một sai lầm không thể cứu vãn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "体[からだ]を壊[こわ]したら、取[と]り返[かえ]しがつかない。",
-          "vi": "Hỏng sức khỏe thì không cứu vãn được.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Hầu như dùng 取[と]り返[かえ]しがつかない / 取[と]り返[かえ]しのつかない = không thể cứu vãn. Động từ: 取[と]り返[かえ]す = lấy lại."
-    },
-    {
-      "id": "v:挽回:ばんかい",
-      "kana": "ばんかい",
-      "kanji": "挽回",
-      "hv": "VÃN HỒI",
-      "vi": "gỡ lại, vãn hồi (danh dự, điểm số)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đứng dậy sau thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "先月[せんげつ]の遅[おく]れを、今月[こんげつ]で挽回[ばんかい]しよう。",
-          "vi": "Hãy gỡ lại phần chậm của tháng trước trong tháng này.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "失[うしな]った信用[しんよう]を挽回[ばんかい]するのは、簡単[かんたん]ではない。",
-          "vi": "Lấy lại uy tín đã mất không hề dễ.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "遅[おく]れを挽回[ばんかい]する",
-          "vi": "gỡ lại phần chậm trễ"
-        },
-        {
-          "jp": "名誉[めいよ]を挽回[ばんかい]する",
-          "vi": "lấy lại danh dự"
-        }
-      ],
-      "note": "名誉[めいよ]挽回[ばんかい] = gỡ lại danh dự."
-    },
-    {
-      "id": "v:立て直す:たてなおす",
-      "kana": "たてなおす",
-      "kanji": "立て直す",
-      "kf": "立[た]て直[なお]す",
-      "hv": "LẬP TRỰC",
-      "vi": "vực dậy, xây dựng lại (kế hoạch, tổ chức)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đứng dậy sau thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "計画[けいかく]を、最初[さいしょ]から立[た]て直[なお]しましょう。",
-          "vi": "Hãy lập lại kế hoạch từ đầu.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "赤字[あかじ]の会社[かいしゃ]を、新[あたら]しい社長[しゃちょう]が立[た]て直[なお]した。",
-          "vi": "Giám đốc mới đã vực dậy công ty đang lỗ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：今月[こんげつ]、お金[かね]を使[つか]いすぎちゃった。B：来月[らいげつ]から家計[かけい]を立[た]て直[なお]さないとね。",
-          "vi": "A: Tháng này tớ tiêu quá tay rồi. B: Từ tháng sau phải chấn chỉnh lại chi tiêu thôi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "計画[けいかく]を立[た]て直[なお]す",
-          "vi": "lập lại kế hoạch"
-        },
-        {
-          "jp": "会社[かいしゃ]を立[た]て直[なお]す",
-          "vi": "vực dậy công ty"
-        }
-      ],
-      "pair": "v:立ち直る:たちなおる"
-    },
-    {
-      "id": "v:立ち直る:たちなおる",
-      "kana": "たちなおる",
-      "kanji": "立ち直る",
-      "kf": "立[た]ち直[なお]る",
-      "hv": "LẬP TRỰC",
-      "vi": "gượng dậy, đứng lên lại (sau cú sốc, thất bại)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đứng dậy sau thất bại",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "失恋[しつれん]から、やっと立[た]ち直[なお]った。",
-          "vi": "Cuối cùng tôi đã gượng dậy sau thất tình.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "大[おお]きなミスの後[あと]でも、すぐ立[た]ち直[なお]れる人[ひと]は強[つよ]い。",
-          "vi": "Người dù mắc lỗi lớn vẫn đứng lên lại ngay là người mạnh mẽ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：最近[さいきん]、元気[げんき]になったね。B：うん、みんなのおかげで立[た]ち直[なお]れたよ。",
-          "vi": "A: Dạo này cậu tươi tỉnh lại rồi nhỉ. B: Ừ, nhờ mọi người mà tớ gượng dậy được.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "ショックから立[た]ち直[なお]る",
-          "vi": "gượng dậy sau cú sốc"
-        },
-        {
-          "jp": "不景気[ふけいき]から立[た]ち直[なお]る",
-          "vi": "thoát khỏi suy thoái"
-        }
-      ],
-      "pair": "v:立て直す:たてなおす"
+     "jp": "お詫[わ]びのしるしに、お菓子[かし]を持[も]って行[い]った。",
+     "vi": "Tôi mang bánh kẹo đến làm quà tạ lỗi.",
+     "ctx": "doisong"
     }
-  ]
+   ],
+   "rel": [
+    "v:詫びる:わびる"
+   ],
+   "note": "お詫[わ]び申[もう]し上[あ]げます = xin gửi lời xin lỗi (rất trang trọng, trong thông báo, thư). お詫[わ]びの品[しな] = quà tạ lỗi."
+  },
+  {
+   "id": "v:詫びる:わびる",
+   "kana": "わびる",
+   "kanji": "詫びる",
+   "kf": "詫[わ]びる",
+   "hv": "SÁ",
+   "vi": "tạ lỗi, xin lỗi (trang trọng)",
+   "pos": "v1",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "課長[かちょう]は、お客様[きゃくさま]に深[ふか]く詫[わ]びた。",
+     "vi": "Trưởng phòng đã tạ lỗi sâu sắc với khách hàng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "遅[おく]れたことを詫[わ]びる手紙[てがみ]を書[か]いた。",
+     "vi": "Tôi viết thư xin lỗi vì đã chậm trễ.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：あの件[けん]、ちゃんと謝[あやま]った？B：うん、心[こころ]から詫[わ]びたよ。許[ゆる]してもらえた。",
+     "vi": "A: Vụ đó cậu đã xin lỗi đàng hoàng chưa? B: Ừ, tớ đã tạ lỗi thật lòng. Được tha rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "失礼[しつれい]を詫[わ]びる",
+     "vi": "tạ lỗi vì thất lễ"
+    },
+    {
+     "jp": "心[こころ]から詫[わ]びる",
+     "vi": "thành tâm tạ lỗi"
+    }
+   ],
+   "confuse": [
+    "v:謝る:あやまる"
+   ],
+   "note": "詫[わ]びる trang trọng hơn 謝[あやま]る, hay dùng trong văn viết. Danh từ: お詫[わ]び."
+  },
+  {
+   "id": "v:恐縮:きょうしゅく",
+   "kana": "きょうしゅく",
+   "kanji": "恐縮",
+   "hv": "KHỦNG SÚC",
+   "vi": "ngại quá, thấy áy náy (khiêm nhường)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お忙[いそが]しいところ恐縮[きょうしゅく]ですが、書類[しょるい]を確認[かくにん]していただけますか。",
+     "vi": "Xin lỗi đã làm phiền lúc anh bận, anh xem giúp giấy tờ được không ạ?",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "褒[ほ]めていただいて、恐縮[きょうしゅく]です。",
+     "vi": "Được khen thế này, tôi thấy ngại quá.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ご親切[しんせつ]に恐縮[きょうしゅく]する",
+     "vi": "áy náy trước lòng tốt"
+    }
+   ],
+   "note": "恐縮[きょうしゅく]ですが… = xin lỗi vì làm phiền, nhưng… (mở đầu lời nhờ lịch sự với người trên, khách).",
+   "vt": "tu"
+  },
+  {
+   "id": "v:恐れ入る:おそれいる",
+   "kana": "おそれいる",
+   "kanji": "恐れ入る",
+   "kf": "恐[おそ]れ入[い]る",
+   "hv": "KHỦNG NHẬP",
+   "vi": "xin lỗi vì làm phiền (rất lịch sự)",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "恐[おそ]れ入[い]りますが、こちらにお名前[なまえ]をお書[か]きください。",
+     "vi": "Làm phiền anh, xin hãy viết tên vào đây.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "わざわざ届[とど]けていただいて、恐[おそ]れ入[い]ります。",
+     "vi": "Anh cất công mang đến tận nơi, thật ngại quá ạ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：恐[おそ]れ入[い]りますが、在留[ざいりゅう]カードを見[み]せていただけますか。B：はい、どうぞ。",
+     "vi": "A: Làm phiền anh, cho tôi xem thẻ cư trú được không ạ? B: Vâng, đây ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ご親切[しんせつ]に恐[おそ]れ入[い]る",
+     "vi": "cảm kích trước lòng tốt"
+    }
+   ],
+   "note": "Hầu như dùng dạng 恐[おそ]れ入[い]ります: mở đầu lời nhờ (= すみませんが), hoặc cảm ơn kèm áy náy. Hay nghe ở quầy thủ tục."
+  },
+  {
+   "id": "v:心苦しい:こころぐるしい",
+   "kana": "こころぐるしい",
+   "kanji": "心苦しい",
+   "kf": "心苦[こころぐる]しい",
+   "hv": "TÂM KHỔ",
+   "vi": "cắn rứt, áy náy trong lòng (vì làm phiền người khác)",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "忙[いそが]しい時期[じき]に休[やす]みをもらうのは、心苦[こころぐる]しいです。",
+     "vi": "Xin nghỉ vào mùa bận tôi thấy áy náy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "何度[なんど]もお願[ねが]いするのは心苦[こころぐる]しいのですが、もう一度[いちど]教[おし]えていただけますか。",
+     "vi": "Nhờ nhiều lần thật áy náy, nhưng anh chỉ lại giúp tôi một lần nữa được không?",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：手伝[てつだ]ってもらってばかりで、心苦[こころぐる]しいよ。B：気[き]にしないで。お互[たが]い様[さま]だから。",
+     "vi": "A: Toàn được cậu giúp, tớ áy náy lắm. B: Đừng bận tâm. Có qua có lại mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Hay dùng khi nhờ vả hoặc từ chối: 心苦[こころぐる]しいのですが… = thật áy náy nhưng…."
+  },
+  {
+   "id": "v:面目ない:めんぼくない",
+   "kana": "めんぼくない",
+   "kanji": "面目ない",
+   "kf": "面目[めんぼく]ない",
+   "hv": "DIỆN MỤC",
+   "vi": "xấu hổ không dám nhìn mặt (vì làm hỏng việc)",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新人[しんじん]に教[おし]える立場[たちば]なのに、同[おな]じミスをして面目[めんぼく]ない。",
+     "vi": "Ở vị trí dạy người mới mà lại mắc cùng lỗi, thật xấu hổ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "友達[ともだち]の引[ひ]っ越[こ]しを手伝[てつだ]う約束[やくそく]を忘[わす]れていて、面目[めんぼく]ない。",
+     "vi": "Quên mất lời hứa giúp bạn chuyển nhà, thật hổ thẹn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：また遅刻[ちこく]？B：面目[めんぼく]ない…。明日[あした]から気[き]をつけます。",
+     "vi": "A: Lại muộn à? B: Xấu hổ quá… Từ mai tôi sẽ chú ý.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Hơi cũ, hay nghe từ đàn ông lớn tuổi. Lịch sự: 面目[めんぼく]ありません."
+  },
+  {
+   "id": "v:勘弁:かんべん",
+   "kana": "かんべん",
+   "kanji": "勘弁",
+   "hv": "KHÁM BIỆN",
+   "vi": "bỏ qua, tha cho (lỗi)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今回[こんかい]だけは、勘弁[かんべん]してください。",
+     "vi": "Lần này thôi, xin bỏ qua cho tôi.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "また残業[ざんぎょう]か。もう勘弁[かんべん]してほしいよ。",
+     "vi": "Lại tăng ca à. Xin kiếu, chán lắm rồi.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ミスを勘弁[かんべん]する",
+     "vi": "bỏ qua lỗi"
+    }
+   ],
+   "rel": [
+    "v:許す:ゆるす"
+   ],
+   "note": "勘弁[かんべん]してください = xin bỏ qua cho (xin lỗi); cũng dùng để than \"thôi xin kiếu\". Khẩu ngữ, không dùng với khách.",
+   "vt": "tha"
+  },
+  {
+   "id": "v:大目に見る:おおめにみる",
+   "kana": "おおめにみる",
+   "kanji": "大目に見る",
+   "kf": "大目[おおめ]に見[み]る",
+   "hv": "ĐẠI MỤC KIẾN",
+   "vi": "nhắm mắt cho qua, châm chước",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "初[はじ]めてのミスなら、大目[おおめ]に見[み]ることにしている。",
+     "vi": "Nếu là lỗi lần đầu thì tôi thường châm chước.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子供[こども]のいたずらだから、大目[おおめ]に見[み]てやってください。",
+     "vi": "Trò nghịch của trẻ con thôi, xin anh bỏ qua cho.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Chia như động từ 見[み]る: 大目[おおめ]に見[み]て, 大目[おおめ]に見[み]てもらう (được châm chước)."
+  },
+  {
+   "id": "v:弁償:べんしょう",
+   "kana": "べんしょう",
+   "kanji": "弁償",
+   "hv": "BIỆN THƯỜNG",
+   "vi": "đền (đồ làm hỏng, làm mất)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]の包丁[ほうちょう]をなくしたら、弁償[べんしょう]しなければなりませんか。",
+     "vi": "Làm mất dao của công ty thì có phải đền không?",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "借[か]りた傘[かさ]を壊[こわ]してしまい、弁償[べんしょう]しました。",
+     "vi": "Tôi làm hỏng cái ô đã mượn nên đã đền.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "壊[こわ]した物[もの]を弁償[べんしょう]する",
+     "vi": "đền đồ đã làm hỏng"
+    }
+   ],
+   "confuse": [
+    "v:償う:つぐなう"
+   ],
+   "note": "弁償[べんしょう] = đền bằng tiền, bằng đồ cho thứ cụ thể. Bồi thường thiệt hại lớn (pháp lý) là 賠償[ばいしょう].",
+   "vt": "tha"
+  },
+  {
+   "id": "v:償う:つぐなう",
+   "kana": "つぐなう",
+   "kanji": "償う",
+   "kf": "償[つぐな]う",
+   "hv": "THƯỜNG",
+   "vi": "chuộc lỗi, bù đắp (lỗi lầm, tổn thất)",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "自分[じぶん]の失敗[しっぱい]は、自分[じぶん]で償[つぐな]うつもりです。",
+     "vi": "Lỗi của mình, tôi định tự mình chuộc lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "罪[つみ]を償[つぐな]って、新[あたら]しい人生[じんせい]を始[はじ]めた。",
+     "vi": "Anh ta chuộc tội xong rồi bắt đầu cuộc đời mới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：迷惑[めいわく]をかけた分[ぶん]、どうやって償[つぐな]えばいい？B：これから頑張[がんば]ってくれれば、それでいいよ。",
+     "vi": "A: Tôi đã gây phiền, phải bù đắp thế nào đây? B: Từ giờ cố gắng là được rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "罪[つみ]を償[つぐな]う",
+     "vi": "chuộc tội"
+    },
+    {
+     "jp": "損害[そんがい]を償[つぐな]う",
+     "vi": "bù đắp tổn thất"
+    }
+   ],
+   "confuse": [
+    "v:弁償:べんしょう"
+   ]
+  },
+  {
+   "id": "v:埋め合わせ:うめあわせ",
+   "kana": "うめあわせ",
+   "kanji": "埋め合わせ",
+   "kf": "埋[う]め合[あ]わせ",
+   "hv": "MAI HỢP",
+   "vi": "bù lại (lần sau, cho người mình đã lỡ hẹn)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今日[きょう]は行[い]けなくてごめん。今度[こんど]、埋[う]め合[あ]わせするから。",
+     "vi": "Hôm nay không đi được, xin lỗi nhé. Lần sau mình sẽ bù lại.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "休[やす]んだ分[ぶん]の埋[う]め合[あ]わせに、土曜日[どようび]に出勤[しゅっきん]した。",
+     "vi": "Để bù cho phần đã nghỉ, tôi đi làm thứ bảy.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "約束[やくそく]の埋[う]め合[あ]わせをする",
+     "vi": "bù lại cho lần lỡ hẹn"
+    }
+   ],
+   "note": "Động từ: 埋[う]め合[あ]わせる = bù vào chỗ thiếu."
+  },
+  {
+   "id": "v:至らない:いたらない",
+   "kana": "いたらない",
+   "kanji": "至らない",
+   "kf": "至[いた]らない",
+   "hv": "CHÍ",
+   "vi": "còn nhiều thiếu sót, non kém (khiêm tốn về mình)",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "至[いた]らない点[てん]も多[おお]いですが、よろしくお願[ねが]いします。",
+     "vi": "Tôi còn nhiều điểm thiếu sót, mong được chỉ bảo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "至[いた]らない点[てん]がございましたら、ご連絡[れんらく]ください。",
+     "vi": "Nếu có điểm nào thiếu sót, xin hãy liên hệ ạ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:未熟:みじゅく"
+   ],
+   "note": "Lời khiêm tốn khi chào hỏi, nhận chức, xin lỗi: 至[いた]らない点[てん] / 至[いた]らないところ. Không dùng để chê người khác."
+  },
+  {
+   "id": "v:不手際:ふてぎわ",
+   "kana": "ふてぎわ",
+   "kanji": "不手際",
+   "hv": "BẤT THỦ TẾ",
+   "vi": "sơ suất (trong cách xử lý, sắp xếp)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sơ suất, lỗi lầm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "こちらの不手際[ふてぎわ]で、ご迷惑[めいわく]をおかけしました。",
+     "vi": "Do sơ suất của chúng tôi mà đã gây phiền cho quý khách.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "出荷[しゅっか]の不手際[ふてぎわ]で、納品[のうひん]が一日[いちにち]遅[おく]れた。",
+     "vi": "Do sơ suất khâu xuất hàng mà giao hàng trễ một ngày.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:手違い:てちがい"
+   ],
+   "note": "Hay dùng trong lời xin lỗi chính thức của công ty: 弊社[へいしゃ]の不手際[ふてぎわ]により…."
+  },
+  {
+   "id": "v:手違い:てちがい",
+   "kana": "てちがい",
+   "kanji": "手違い",
+   "kf": "手違[てちが]い",
+   "hv": "THỦ VI",
+   "vi": "nhầm lẫn (khâu sắp xếp, liên lạc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sơ suất, lỗi lầm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手違[てちが]いで、違[ちが]う商品[しょうひん]が届[とど]いてしまいました。",
+     "vi": "Do nhầm lẫn mà hàng khác đã được giao tới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "連絡[れんらく]の手違[てちが]いで、二人[ふたり]とも同[おな]じ日[ひ]に休[やす]みを取[と]ってしまった。",
+     "vi": "Do nhầm lẫn khâu liên lạc mà cả hai người đều xin nghỉ cùng một ngày.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:不手際:ふてぎわ"
+   ],
+   "note": "手違[てちが]い = nhầm lẫn khâu sắp xếp (thường không cố ý, không rõ ai sai). 不手際[ふてぎわ] = xử lý vụng về, thiếu sót (nhận lỗi về mình)."
+  },
+  {
+   "id": "v:落ち度:おちど",
+   "kana": "おちど",
+   "kanji": "落ち度",
+   "kf": "落[お]ち度[ど]",
+   "hv": "LẠC ĐỘ",
+   "vi": "phần lỗi, chỗ sai sót (thuộc về ai)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sơ suất, lỗi lầm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今回[こんかい]の事故[じこ]は、こちらに落[お]ち度[ど]はありません。",
+     "vi": "Vụ tai nạn lần này, phía chúng tôi không có lỗi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "自分[じぶん]の落[お]ち度[ど]を、素直[すなお]に認[みと]めることが大切[たいせつ]だ。",
+     "vi": "Thừa nhận thật lòng phần lỗi của mình là điều quan trọng.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "落[お]ち度[ど]がある / ない = có / không có lỗi. Hay dùng khi phân định trách nhiệm (tai nạn, khiếu nại)."
+  },
+  {
+   "id": "v:過ち:あやまち",
+   "kana": "あやまち",
+   "kanji": "過ち",
+   "kf": "過[あやま]ち",
+   "hv": "QUÁ",
+   "vi": "lỗi lầm (hành vi, quyết định sai)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sơ suất, lỗi lầm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "若[わか]いころの過[あやま]ちを、今[いま]も後悔[こうかい]している。",
+     "vi": "Đến giờ tôi vẫn hối hận về lỗi lầm thời trẻ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "同[おな]じ過[あやま]ちを、二度[にど]と繰[く]り返[かえ]さないようにします。",
+     "vi": "Tôi sẽ cố không bao giờ lặp lại lỗi lầm tương tự.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:誤り:あやまり"
+   ],
+   "note": "過[あやま]ち = lỗi lầm (hành vi, đạo đức). 誤[あやま]り = chỗ sai (số liệu, chữ viết)."
+  },
+  {
+   "id": "v:しくじる:しくじる",
+   "kana": "しくじる",
+   "kanji": "",
+   "hv": "",
+   "vi": "làm hỏng việc, thất bại (khẩu ngữ)",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sơ suất, lỗi lầm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面接[めんせつ]でしくじって、落[お]ちてしまった。",
+     "vi": "Làm hỏng buổi phỏng vấn nên trượt mất.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "魚[さかな]のおろし方[かた]をしくじって、身[み]がぼろぼろになった。",
+     "vi": "Làm hỏng khâu lọc cá nên thịt nát bét.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：昨日[きのう]のプレゼン、どうだった？B：しくじったよ。緊張[きんちょう]して何[なに]も言[い]えなかった。",
+     "vi": "A: Bài thuyết trình hôm qua thế nào? B: Hỏng rồi. Căng thẳng quá chẳng nói được gì.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]をしくじる",
+     "vi": "làm hỏng việc"
+    },
+    {
+     "jp": "試験[しけん]をしくじる",
+     "vi": "thi hỏng"
+    }
+   ],
+   "syn": [
+    "v:失敗:しっぱい"
+   ],
+   "note": "Khẩu ngữ của 失敗[しっぱい]する. Không dùng trong văn bản trang trọng."
+  },
+  {
+   "id": "v:誤る:あやまる",
+   "kana": "あやまる",
+   "kanji": "誤る",
+   "kf": "誤[あやま]る",
+   "hv": "NGỘ",
+   "vi": "làm sai, nhầm (văn viết)",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sơ suất, lỗi lầm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "操作[そうさ]を誤[あやま]ると、大[おお]きな事故[じこ]につながる。",
+     "vi": "Thao tác sai có thể dẫn tới tai nạn lớn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "誤[あやま]った情報[じょうほう]に、気[き]をつけてください。",
+     "vi": "Hãy cẩn thận với thông tin sai lệch.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：これ、誤[あやま]って捨[す]てちゃったみたい。B：え、大事[だいじ]な書類[しょるい]だよ！",
+     "vi": "A: Hình như tớ lỡ vứt nhầm cái này rồi. B: Hả, giấy tờ quan trọng đấy!",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "操作[そうさ]を誤[あやま]る",
+     "vi": "thao tác sai"
+    },
+    {
+     "jp": "判断[はんだん]を誤[あやま]る",
+     "vi": "phán đoán sai"
+    }
+   ],
+   "syn": [
+    "v:間違える:まちがえる"
+   ],
+   "note": "Văn viết của 間違[まちが]える. 誤[あやま]って = lỡ, do nhầm. Đồng âm: 謝[あやま]る (xin lỗi). Danh từ: 誤[あやま]り."
+  },
+  {
+   "id": "v:不慣れ:ふなれ",
+   "kana": "ふなれ",
+   "kanji": "不慣れ",
+   "kf": "不慣[ふな]れ",
+   "hv": "BẤT QUÁN",
+   "vi": "chưa quen, còn lạ lẫm (công việc, nơi chốn)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sơ suất, lỗi lầm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不慣[ふな]れな作業[さぎょう]なので、ゆっくり教[おし]えてください。",
+     "vi": "Là công việc tôi chưa quen nên xin hãy chỉ từ từ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本[にほん]の生活[せいかつ]に不慣[ふな]れなころは、ごみの出[だ]し方[かた]で困[こま]った。",
+     "vi": "Hồi chưa quen cuộc sống ở Nhật, tôi khổ vì cách đổ rác.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：何分[なにぶん]不慣[ふな]れなもので、すみません。B：大丈夫[だいじょうぶ]。最初[さいしょ]はみんなそうだよ。",
+     "vi": "A: Tôi còn chưa quen việc, xin lỗi anh. B: Không sao. Lúc đầu ai cũng vậy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:慣れる:なれる"
+   ],
+   "note": "不慣[ふな]れなもので = vì còn chưa quen (lời xin lỗi khiêm tốn)."
+  },
+  {
+   "id": "v:未熟:みじゅく",
+   "kana": "みじゅく",
+   "kanji": "未熟",
+   "hv": "VỊ THỤC",
+   "vi": "non tay, chưa thành thạo",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sơ suất, lỗi lầm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "まだ未熟[みじゅく]ですが、精一杯[いっぱい]頑張[がんば]ります。",
+     "vi": "Tôi còn non tay nhưng sẽ cố gắng hết sức.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "運転[うんてん]が未熟[みじゅく]なうちは、夜[よる]の高速道路[こうそくどうろ]は避[さ]けたほうがいい。",
+     "vi": "Khi còn non tay lái thì nên tránh đường cao tốc ban đêm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：グエンさん、包丁[ほうちょう]の使[つか]い方[かた]が上手[じょうず]になったね。B：いえ、まだまだ未熟[みじゅく]です。",
+     "vi": "A: Anh Nguyễn dùng dao giỏi lên rồi nhỉ. B: Không, tôi vẫn còn non lắm ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "ant": [
+    "v:一人前:いちにんまえ"
+   ],
+   "note": "未熟[みじゅく]者[しゃ] = người còn non kém (khiêm tốn). 未熟[みじゅく]な果物[くだもの] = trái cây chưa chín."
+  },
+  {
+   "id": "v:力不足:ちからぶそく",
+   "kana": "ちからぶそく",
+   "kanji": "力不足",
+   "hv": "LỰC BẤT TÚC",
+   "vi": "không đủ sức, năng lực chưa tới",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sơ suất, lỗi lầm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]の力不足[ちからぶそく]で、目標[もくひょう]を達成[たっせい]できませんでした。",
+     "vi": "Do năng lực tôi chưa tới mà không đạt được mục tiêu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "試合[しあい]に負[ま]けたのは、私[わたし]の力不足[ちからぶそく]です。",
+     "vi": "Trận đấu thua là do tôi chưa đủ sức.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Hay dùng khiêm tốn khi nhận lỗi: 私[わたし]の力不足[ちからぶそく]です. Chú ý: 役不足[やくぶそく] lại là \"vai trò quá nhỏ so với tài năng\" (hay bị dùng nhầm)."
+  },
+  {
+   "id": "v:甘く見る:あまくみる",
+   "kana": "あまくみる",
+   "kanji": "甘く見る",
+   "kf": "甘[あま]く見[み]る",
+   "hv": "CAM KIẾN",
+   "vi": "xem nhẹ, đánh giá thấp (khó khăn, nguy hiểm)",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sơ suất, lỗi lầm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小[ちい]さなけがを甘[あま]く見[み]ると、大変[たいへん]なことになる。",
+     "vi": "Xem nhẹ vết thương nhỏ thì sẽ thành chuyện lớn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "冬[ふゆ]の山[やま]を甘[あま]く見[み]てはいけない。",
+     "vi": "Không được coi thường núi mùa đông.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Bị động: 甘[あま]く見[み]られる (bị coi thường). Gần nghĩa: 軽[かる]く見[み]る, 侮[あなど]る (văn viết)."
+  },
+  {
+   "id": "v:欠陥:けっかん",
+   "kana": "けっかん",
+   "kanji": "欠陥",
+   "hv": "KHIẾM HÃM",
+   "vi": "khiếm khuyết, lỗi thiết kế (sản phẩm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sơ suất, lỗi lầm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ブレーキに欠陥[けっかん]が見[み]つかり、車[くるま]が回収[かいしゅう]された。",
+     "vi": "Phát hiện khiếm khuyết ở phanh nên xe bị thu hồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "欠陥[けっかん]のある製品[せいひん]を、出荷[しゅっか]してはいけない。",
+     "vi": "Không được xuất hàng sản phẩm có khiếm khuyết.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:不具合:ふぐあい"
+   ],
+   "note": "欠陥[けっかん]商品[しょうひん] / 欠陥[けっかん]住宅[じゅうたく] = hàng / nhà có lỗi từ thiết kế, xây dựng. Nặng hơn 不具合[ふぐあい]."
+  },
+  {
+   "id": "v:不具合:ふぐあい",
+   "kana": "ふぐあい",
+   "kanji": "不具合",
+   "hv": "BẤT CỤ HỢP",
+   "vi": "trục trặc, chỗ chưa ổn (máy, hệ thống)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sơ suất, lỗi lầm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]に不具合[ふぐあい]があったら、すぐ班長[はんちょう]に知[し]らせてください。",
+     "vi": "Máy có trục trặc gì thì báo tổ trưởng ngay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "スマホのアプリに、不具合[ふぐあい]が出[で]ている。",
+     "vi": "Ứng dụng điện thoại đang bị trục trặc.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:故障:こしょう",
+    "v:欠陥:けっかん"
+   ],
+   "note": "不具合[ふぐあい] = chạy chưa ổn, có lỗi nhỏ (vẫn có thể hoạt động). 故障[こしょう] = hỏng, không chạy được. 欠陥[けっかん] = lỗi từ thiết kế."
+  },
+  {
+   "id": "v:経緯:けいい",
+   "kana": "けいい",
+   "kanji": "経緯",
+   "hv": "KINH VĨ",
+   "vi": "đầu đuôi sự việc, ngọn ngành",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải thích lý do",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事故[じこ]の経緯[けいい]を、報告書[ほうこくしょ]にまとめてください。",
+     "vi": "Hãy tóm tắt diễn biến vụ tai nạn vào báo cáo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "遅[おく]れた経緯[けいい]を、きちんと説明[せつめい]しました。",
+     "vi": "Tôi đã giải thích đàng hoàng đầu đuôi vì sao bị chậm.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:事情:じじょう"
+   ],
+   "note": "Cũng đọc いきさつ (khẩu ngữ hơn). Hay đi với 説明[せつめい]する, 報告[ほうこく]する."
+  },
+  {
+   "id": "v:支障:ししょう",
+   "kana": "ししょう",
+   "kanji": "支障",
+   "hv": "CHI CHƯỚNG",
+   "vi": "trở ngại, ảnh hưởng xấu (đến việc gì)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải thích lý do",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]の故障[こしょう]で、生産[せいさん]に支障[ししょう]が出[で]ています。",
+     "vi": "Do máy hỏng mà sản xuất đang bị ảnh hưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "寝不足[ねぶそく]は、仕事[しごと]に支障[ししょう]をきたす。",
+     "vi": "Thiếu ngủ gây trở ngại cho công việc.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:差し支え:さしつかえ"
+   ],
+   "note": "支障[ししょう]が出[で]る / 支障[ししょう]をきたす (văn viết) = gây trở ngại. 支障[ししょう]がない = không ảnh hưởng gì."
+  },
+  {
+   "id": "v:差し支え:さしつかえ",
+   "kana": "さしつかえ",
+   "kanji": "差し支え",
+   "kf": "差[さ]し支[つか]え",
+   "hv": "SAI CHI",
+   "vi": "điều bất tiện (dùng trong câu hỏi lịch sự)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải thích lý do",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "差[さ]し支[つか]えなければ、ご住所[じゅうしょ]を教[おし]えていただけますか。",
+     "vi": "Nếu không phiền, xin cho biết địa chỉ được không ạ?",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "明日[あした]休[やす]んでも、仕事[しごと]に差[さ]し支[つか]えはありません。",
+     "vi": "Mai tôi nghỉ cũng không ảnh hưởng gì đến công việc.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:支障:ししょう"
+   ],
+   "note": "差[さ]し支[つか]えなければ = nếu không có gì bất tiện (mở đầu câu hỏi lịch sự). Động từ: 差[さ]し支[つか]える."
+  },
+  {
+   "id": "v:遅延:ちえん",
+   "kana": "ちえん",
+   "kanji": "遅延",
+   "hv": "TRÌ DIÊN",
+   "vi": "chậm trễ (tàu xe, thanh toán)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải thích lý do",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人身[じんしん]事故[じこ]で、電車[でんしゃ]が三十分[さんじゅっぷん]遅延[ちえん]しています。",
+     "vi": "Do tai nạn người mà tàu điện đang chậm ba mươi phút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "電車[でんしゃ]の遅延[ちえん]で遅刻[ちこく]したときは、遅延[ちえん]証明書[しょうめいしょ]をもらってください。",
+     "vi": "Khi đi muộn vì tàu trễ, hãy lấy giấy chứng nhận tàu trễ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "電車[でんしゃ]が遅延[ちえん]する",
+     "vi": "tàu trễ"
+    },
+    {
+     "jp": "支払[しはら]いが遅延[ちえん]する",
+     "vi": "chậm thanh toán"
+    }
+   ],
+   "rel": [
+    "v:遅れ:おくれ"
+   ],
+   "note": "遅延[ちえん]証明書[しょうめいしょ] = giấy chứng nhận tàu trễ (nhà ga phát, nộp cho công ty). Văn viết, thông báo.",
+   "vt": "tu"
+  },
+  {
+   "id": "v:何分:なにぶん",
+   "kana": "なにぶん",
+   "kanji": "何分",
+   "hv": "HÀ PHÂN",
+   "vi": "dù gì đi nữa (lời xin thông cảm, lịch sự)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải thích lý do",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "何分[なにぶん]初[はじ]めてなもので、ご迷惑[めいわく]をおかけするかもしれません。",
+     "vi": "Dù gì tôi cũng mới làm lần đầu nên có thể sẽ làm phiền, mong thông cảm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "何分[なにぶん]古[ふる]い建物[たてもの]ですので、音[おと]が響[ひび]きます。",
+     "vi": "Dù gì cũng là tòa nhà cũ nên tiếng động vang ra ạ.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:何しろ:なにしろ"
+   ],
+   "note": "Lịch sự, hay đi với もので / ので để xin thông cảm. Đọc なにぶん; 何分[なんぷん] = mấy phút."
+  },
+  {
+   "id": "v:何しろ:なにしろ",
+   "kana": "なにしろ",
+   "kanji": "何しろ",
+   "kf": "何[なに]しろ",
+   "hv": "HÀ",
+   "vi": "nói gì thì nói, (chủ yếu) là vì",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải thích lý do",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "何[なに]しろ忙[いそが]しくて、連絡[れんらく]できませんでした。",
+     "vi": "Nói gì thì nói, bận quá nên tôi không liên lạc được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "何[なに]しろ人[ひと]が足[た]りないので、毎日[まいにち]残業[ざんぎょう]です。",
+     "vi": "Chủ yếu là vì thiếu người nên ngày nào cũng tăng ca.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:何分:なにぶん"
+   ],
+   "note": "Nhấn mạnh lý do chính: 何[なに]しろ〜ので / 〜から. Thân mật hơn 何分[なにぶん]. Cũng viết kana: なにしろ."
+  },
+  {
+   "id": "v:とはいえ:とはいえ",
+   "kana": "とはいえ",
+   "kanji": "",
+   "hv": "",
+   "vi": "tuy nói vậy nhưng",
+   "pos": "other",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải thích lý do",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "春[はる]とはいえ、朝[あさ]はまだ寒[さむ]い。",
+     "vi": "Tuy nói là mùa xuân nhưng buổi sáng vẫn lạnh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "慣[な]れたとはいえ、刃物[はもの]を使[つか]う作業[さぎょう]は油断[ゆだん]できない。",
+     "vi": "Tuy đã quen nhưng việc dùng dao thì không được lơ là.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Văn viết, trang trọng hơn けれども. Cũng đứng đầu câu: とはいえ、… = tuy vậy, …. Gần nghĩa mẫu 〜ものの."
+  },
+  {
+   "id": "v:不本意:ふほんい",
+   "kana": "ふほんい",
+   "kanji": "不本意",
+   "hv": "BẤT BẢN Ý",
+   "vi": "trái với ý mình, không như mong muốn",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải thích lý do",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不本意[ふほんい]ですが、今回[こんかい]は辞退[じたい]させていただきます。",
+     "vi": "Tuy trái ý mình nhưng lần này tôi xin rút lui.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "不本意[ふほんい]な結果[けっか]に終[お]わって、悔[くや]しい。",
+     "vi": "Kết thúc với kết quả không như ý, thấy cay cú.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：引[ひ]っ越[こ]すの？B：うん、会社[かいしゃ]の都合[つごう]で不本意[ふほんい]だけど、仕方[しかた]ないんだ。",
+     "vi": "A: Cậu chuyển nhà à? B: Ừ, vì công ty sắp xếp nên trái ý mình, nhưng đành vậy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "不本意[ふほんい]ながら = dù trái với ý mình."
+  },
+  {
+   "id": "v:気まずい:きまずい",
+   "kana": "きまずい",
+   "kanji": "気まずい",
+   "kf": "気[き]まずい",
+   "hv": "KHÍ",
+   "vi": "ngượng ngùng, khó xử (không khí, quan hệ)",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải thích lý do",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "けんかした後[あと]で同[おな]じシフトになって、気[き]まずい。",
+     "vi": "Sau khi cãi nhau lại bị xếp cùng ca, thấy khó xử.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "名前[なまえ]を間違[まちが]えて呼[よ]んでしまい、気[き]まずい雰囲気[ふんいき]になった。",
+     "vi": "Lỡ gọi nhầm tên nên không khí trở nên ngượng ngùng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：昨日[きのう]、課長[かちょう]に謝[あやま]った？B：まだ。なんか気[き]まずくて…。",
+     "vi": "A: Hôm qua xin lỗi trưởng phòng chưa? B: Chưa. Kiểu ngại ngại sao ấy…",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "気[き]まずい雰囲気[ふんいき] = bầu không khí ngượng ngập. 気[き]まずくなる = (quan hệ) trở nên khó xử."
+  },
+  {
+   "id": "v:行き詰まる:いきづまる",
+   "kana": "いきづまる",
+   "kanji": "行き詰まる",
+   "kf": "行[い]き詰[づ]まる",
+   "hv": "HÀNH CẬT",
+   "vi": "bế tắc, đi vào ngõ cụt",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khó khăn, thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "話[はな]し合[あ]いが行[い]き詰[づ]まって、何[なに]も決[き]まらなかった。",
+     "vi": "Cuộc bàn bạc bế tắc, chẳng quyết được gì.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "生活[せいかつ]が行[い]き詰[づ]まったら、一人[ひとり]で悩[なや]まずに相談[そうだん]してください。",
+     "vi": "Nếu cuộc sống bế tắc, đừng phiền muộn một mình mà hãy tìm người tư vấn.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：最近[さいきん]、日本語[にほんご]の勉強[べんきょう]に行[い]き詰[づ]まってるんだ。B：じゃあ、やり方[かた]を変[か]えてみたら？",
+     "vi": "A: Dạo này tớ bế tắc trong việc học tiếng Nhật. B: Vậy thử đổi cách học xem?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "話[はな]し合[あ]いが行[い]き詰[づ]まる",
+     "vi": "cuộc bàn bạc bế tắc"
+    },
+    {
+     "jp": "経営[けいえい]が行[い]き詰[づ]まる",
+     "vi": "kinh doanh lâm vào bế tắc"
+    }
+   ],
+   "note": "Cũng đọc ゆきづまる. Danh từ: 行[い]き詰[づ]まり."
+  },
+  {
+   "id": "v:苦戦:くせん",
+   "kana": "くせん",
+   "kanji": "苦戦",
+   "hv": "KHỔ CHIẾN",
+   "vi": "vật lộn vất vả (để đạt kết quả)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khó khăn, thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい機械[きかい]の使[つか]い方[かた]に、みんな苦戦[くせん]している。",
+     "vi": "Mọi người đang vật lộn với cách dùng máy mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "初[はじ]めての確定申告[かくていしんこく]に、かなり苦戦[くせん]した。",
+     "vi": "Lần đầu tự khai quyết toán thuế, tôi khá vất vả.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "敬語[けいご]に苦戦[くせん]する",
+     "vi": "vật lộn với kính ngữ"
+    }
+   ],
+   "note": "Vốn nghĩa là trận đánh khó khăn; hay dùng cho thi đấu, kinh doanh, học tập.",
+   "vt": "tu"
+  },
+  {
+   "id": "v:手こずる:てこずる",
+   "kana": "てこずる",
+   "kanji": "手こずる",
+   "kf": "手[て]こずる",
+   "hv": "THỦ",
+   "vi": "chật vật (vì khó xử lý)",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khó khăn, thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "固[かた]く凍[こお]った魚[さかな]を切[き]るのに、手[て]こずった。",
+     "vi": "Tôi chật vật mãi mới cắt được con cá đông cứng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子供[こども]の寝[ね]かしつけに、毎晩[まいばん]手[て]こずっています。",
+     "vi": "Tối nào tôi cũng chật vật dỗ con ngủ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：その書類[しょるい]、まだ終[お]わらないの？B：うん、書[か]き方[かた]が難[むずか]しくて手[て]こずってるんだ。",
+     "vi": "A: Giấy đó vẫn chưa xong à? B: Ừ, cách điền khó nên đang chật vật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "作業[さぎょう]に手[て]こずる",
+     "vi": "chật vật với công việc"
+    }
+   ],
+   "confuse": [
+    "v:手間取る:てまどる"
+   ],
+   "note": "〜に手[て]こずる. Thường viết kana phần こずる."
+  },
+  {
+   "id": "v:手間取る:てまどる",
+   "kana": "てまどる",
+   "kanji": "手間取る",
+   "kf": "手間取[てまど]る",
+   "hv": "THỦ GIAN THỦ",
+   "vi": "tốn thời gian, mất công hơn dự tính",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khó khăn, thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手続[てつづ]きに手間取[てまど]って、会社[かいしゃ]に遅[おく]れてしまった。",
+     "vi": "Thủ tục mất nhiều thời gian nên tôi đến công ty muộn.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "箱詰[はこづ]めに手間取[てまど]ると、出荷[しゅっか]に間[ま]に合[あ]わない。",
+     "vi": "Đóng thùng mà tốn thời gian thì không kịp xuất hàng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：遅[おそ]かったね。B：ごめん、駐車場[ちゅうしゃじょう]を探[さが]すのに手間取[てまど]ったんだ。",
+     "vi": "A: Muộn thế. B: Xin lỗi, tìm chỗ đỗ xe mất thời gian quá.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "準備[じゅんび]に手間取[てまど]る",
+     "vi": "tốn công chuẩn bị"
+    }
+   ],
+   "confuse": [
+    "v:手こずる:てこずる"
+   ],
+   "note": "手間取[てまど]る = tốn thời gian hơn dự tính. 手[て]こずる = khó xử lý, chật vật. Gốc: 手間[てま] (công sức)."
+  },
+  {
+   "id": "v:一向に:いっこうに",
+   "kana": "いっこうに",
+   "kanji": "一向に",
+   "kf": "一向[いっこう]に",
+   "hv": "NHẤT HƯỚNG",
+   "vi": "mãi mà vẫn (không)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khó khăn, thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "薬[くすり]を飲[の]んでも、熱[ねつ]が一向[いっこう]に下[さ]がらない。",
+     "vi": "Uống thuốc rồi mà sốt mãi vẫn không hạ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "何度[なんど]言[い]っても、ミスが一向[いっこう]に減[へ]らない。",
+     "vi": "Nói bao nhiêu lần rồi mà lỗi mãi vẫn không giảm.",
+     "ctx": "xuong"
+    }
+   ],
+   "with": "phudinh",
+   "note": "Đi với phủ định, hàm ý sốt ruột: 一向[いっこう]に〜ない. 一向[いっこう]に構[かま]わない = hoàn toàn không sao."
+  },
+  {
+   "id": "v:ろくに:ろくに",
+   "kana": "ろくに",
+   "kanji": "",
+   "hv": "",
+   "vi": "(không) ra hồn, (chẳng) được bao nhiêu",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khó khăn, thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "忙[いそが]しくて、昼[ひる]ご飯[はん]もろくに食[た]べられなかった。",
+     "vi": "Bận quá, cơm trưa cũng chẳng ăn được ra hồn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "昨日[きのう]はろくに寝[ね]ていないので、眠[ねむ]い。",
+     "vi": "Hôm qua chẳng ngủ được bao nhiêu nên buồn ngủ.",
+     "ctx": "doisong"
+    }
+   ],
+   "with": "phudinh",
+   "note": "Đi với phủ định, mang ý chê: ろくに〜ない. ろくな + danh từ + ない = chẳng ra gì."
+  },
+  {
+   "id": "v:計画倒れ:けいかくだおれ",
+   "kana": "けいかくだおれ",
+   "kanji": "計画倒れ",
+   "kf": "計画倒[けいかくだお]れ",
+   "hv": "KẾ HOẠCH ĐẢO",
+   "vi": "kế hoạch đổ bể (chỉ nằm trên giấy)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khó khăn, thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎朝[まいあさ]走[はし]るつもりだったが、計画[けいかく]倒[だお]れに終[お]わった。",
+     "vi": "Định sáng nào cũng chạy bộ, nhưng kế hoạch đổ bể.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "準備[じゅんび]が足[た]りないと、計画[けいかく]倒[だお]れになりやすい。",
+     "vi": "Chuẩn bị không đủ thì kế hoạch dễ đổ bể.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:三日坊主:みっかぼうず"
+   ],
+   "note": "Danh từ + 倒[たお]れ = có tiếng mà không thành."
+  },
+  {
+   "id": "v:三日坊主:みっかぼうず",
+   "kana": "みっかぼうず",
+   "kanji": "三日坊主",
+   "hv": "TAM NHẬT PHƯỜNG CHỦ",
+   "vi": "cả thèm chóng chán, làm được dăm bữa",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khó khăn, thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日記[にっき]を始[はじ]めたが、三日[みっか]坊主[ぼうず]で終[お]わった。",
+     "vi": "Bắt đầu viết nhật ký nhưng được dăm bữa rồi bỏ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "日本語[にほんご]の勉強[べんきょう]が三日[みっか]坊主[ぼうず]にならないように、毎日[まいにち]五分[ごふん]だけでも続[つづ]けています。",
+     "vi": "Để việc học tiếng Nhật không bỏ dở sau dăm bữa, mỗi ngày tôi đều duy trì dù chỉ năm phút.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:計画倒れ:けいかくだおれ"
+   ],
+   "note": "Nghĩa đen: nhà sư ba ngày (tu được ba ngày rồi bỏ)."
+  },
+  {
+   "id": "v:失望:しつぼう",
+   "kana": "しつぼう",
+   "kanji": "失望",
+   "hv": "THẤT VỌNG",
+   "vi": "thất vọng (về người, việc)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khó khăn, thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "結果[けっか]を聞[き]いて、みんな失望[しつぼう]した。",
+     "vi": "Nghe kết quả, mọi người đều thất vọng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "約束[やくそく]を守[まも]らない人[ひと]に、失望[しつぼう]しました。",
+     "vi": "Tôi thất vọng về người không giữ lời hứa.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "結果[けっか]に失望[しつぼう]する",
+     "vi": "thất vọng về kết quả"
+    }
+   ],
+   "syn": [
+    "v:がっかり:がっかり"
+   ],
+   "note": "失望[しつぼう] trang trọng, nặng hơn がっかり. Gần nghĩa: 落胆[らくたん] (văn viết).",
+   "vt": "tu"
+  },
+  {
+   "id": "v:悔やむ:くやむ",
+   "kana": "くやむ",
+   "kanji": "悔やむ",
+   "kf": "悔[く]やむ",
+   "hv": "HỐI",
+   "vi": "hối tiếc, ân hận",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khó khăn, thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今[いま]さら悔[く]やんでも、仕方[しかた]がない。",
+     "vi": "Bây giờ có hối tiếc cũng chẳng ích gì.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "確認[かくにん]しなかったことを、今[いま]も悔[く]やんでいる。",
+     "vi": "Đến giờ tôi vẫn ân hận vì đã không kiểm tra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あのとき、もっと勉強[べんきょう]すればよかった。B：悔[く]やむより、これから頑張[がんば]ろうよ。",
+     "vi": "A: Giá như lúc đó học nhiều hơn. B: Thay vì hối tiếc, từ giờ cố gắng thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "失敗[しっぱい]を悔[く]やむ",
+     "vi": "hối tiếc vì thất bại"
+    }
+   ],
+   "rel": [
+    "v:後悔:こうかい",
+    "v:悔しい:くやしい"
+   ],
+   "note": "お悔[く]やみ = lời chia buồn (đám tang): お悔[く]やみ申[もう]し上[あ]げます."
+  },
+  {
+   "id": "v:教訓:きょうくん",
+   "kana": "きょうくん",
+   "kanji": "教訓",
+   "hv": "GIÁO HUẤN",
+   "vi": "bài học rút ra (từ thất bại, kinh nghiệm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đứng dậy sau thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この失敗[しっぱい]を教訓[きょうくん]にして、確認[かくにん]の手順[てじゅん]を見直[みなお]した。",
+     "vi": "Lấy thất bại này làm bài học, chúng tôi đã xem lại trình tự kiểm tra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "震災[しんさい]の教訓[きょうくん]を、次[つぎ]の世代[せだい]に伝[つた]えたい。",
+     "vi": "Tôi muốn truyền lại bài học từ trận động đất cho thế hệ sau.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "〜を教訓[きょうくん]にする / 〜を教訓[きょうくん]とする = lấy … làm bài học."
+  },
+  {
+   "id": "v:取り返し:とりかえし",
+   "kana": "とりかえし",
+   "kanji": "取り返し",
+   "kf": "取[と]り返[かえ]し",
+   "hv": "THỦ PHẢN",
+   "vi": "sự cứu vãn (thường: không cứu vãn được)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đứng dậy sau thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "取[と]り返[かえ]しのつかないミスをしてしまった。",
+     "vi": "Tôi đã phạm một sai lầm không thể cứu vãn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "体[からだ]を壊[こわ]したら、取[と]り返[かえ]しがつかない。",
+     "vi": "Hỏng sức khỏe thì không cứu vãn được.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Hầu như dùng 取[と]り返[かえ]しがつかない / 取[と]り返[かえ]しのつかない = không thể cứu vãn. Động từ: 取[と]り返[かえ]す = lấy lại."
+  },
+  {
+   "id": "v:挽回:ばんかい",
+   "kana": "ばんかい",
+   "kanji": "挽回",
+   "hv": "VÃN HỒI",
+   "vi": "gỡ lại, vãn hồi (danh dự, điểm số)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đứng dậy sau thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先月[せんげつ]の遅[おく]れを、今月[こんげつ]で挽回[ばんかい]しよう。",
+     "vi": "Hãy gỡ lại phần chậm của tháng trước trong tháng này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "失[うしな]った信用[しんよう]を挽回[ばんかい]するのは、簡単[かんたん]ではない。",
+     "vi": "Lấy lại uy tín đã mất không hề dễ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "遅[おく]れを挽回[ばんかい]する",
+     "vi": "gỡ lại phần chậm trễ"
+    },
+    {
+     "jp": "名誉[めいよ]を挽回[ばんかい]する",
+     "vi": "lấy lại danh dự"
+    }
+   ],
+   "note": "名誉[めいよ]挽回[ばんかい] = gỡ lại danh dự.",
+   "vt": "tha"
+  },
+  {
+   "id": "v:立て直す:たてなおす",
+   "kana": "たてなおす",
+   "kanji": "立て直す",
+   "kf": "立[た]て直[なお]す",
+   "hv": "LẬP TRỰC",
+   "vi": "vực dậy, xây dựng lại (kế hoạch, tổ chức)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đứng dậy sau thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "計画[けいかく]を、最初[さいしょ]から立[た]て直[なお]しましょう。",
+     "vi": "Hãy lập lại kế hoạch từ đầu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "赤字[あかじ]の会社[かいしゃ]を、新[あたら]しい社長[しゃちょう]が立[た]て直[なお]した。",
+     "vi": "Giám đốc mới đã vực dậy công ty đang lỗ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今月[こんげつ]、お金[かね]を使[つか]いすぎちゃった。B：来月[らいげつ]から家計[かけい]を立[た]て直[なお]さないとね。",
+     "vi": "A: Tháng này tớ tiêu quá tay rồi. B: Từ tháng sau phải chấn chỉnh lại chi tiêu thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "計画[けいかく]を立[た]て直[なお]す",
+     "vi": "lập lại kế hoạch"
+    },
+    {
+     "jp": "会社[かいしゃ]を立[た]て直[なお]す",
+     "vi": "vực dậy công ty"
+    }
+   ],
+   "pair": "v:立ち直る:たちなおる"
+  },
+  {
+   "id": "v:立ち直る:たちなおる",
+   "kana": "たちなおる",
+   "kanji": "立ち直る",
+   "kf": "立[た]ち直[なお]る",
+   "hv": "LẬP TRỰC",
+   "vi": "gượng dậy, đứng lên lại (sau cú sốc, thất bại)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đứng dậy sau thất bại",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "失恋[しつれん]から、やっと立[た]ち直[なお]った。",
+     "vi": "Cuối cùng tôi đã gượng dậy sau thất tình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "大[おお]きなミスの後[あと]でも、すぐ立[た]ち直[なお]れる人[ひと]は強[つよ]い。",
+     "vi": "Người dù mắc lỗi lớn vẫn đứng lên lại ngay là người mạnh mẽ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：最近[さいきん]、元気[げんき]になったね。B：うん、みんなのおかげで立[た]ち直[なお]れたよ。",
+     "vi": "A: Dạo này cậu tươi tỉnh lại rồi nhỉ. B: Ừ, nhờ mọi người mà tớ gượng dậy được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ショックから立[た]ち直[なお]る",
+     "vi": "gượng dậy sau cú sốc"
+    },
+    {
+     "jp": "不景気[ふけいき]から立[た]ち直[なお]る",
+     "vi": "thoát khỏi suy thoái"
+    }
+   ],
+   "pair": "v:立て直す:たてなおす"
+  }
+ ]
 }

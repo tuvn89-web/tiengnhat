@@ -234,9 +234,11 @@ function suggestLevel() {
 // Cấp đã qua: Thi vượt cấp đạt ngưỡng, hoặc Xếp lớp đạt ngưỡng "đã thuộc" ở cấp đó
 export function passedLevels() {
   const { hi, lo } = thresholds(), s = new Set();
+  // v50: "Học lại từ đầu" cả chặng → kết quả thi trước mốc đó không tính nữa (chặng về "Đang học")
+  const old = (t, L) => (t.at || t.t || 0) < (D.lessons['lv:' + L]?.reset || 0);
   for (const t of testList()) {
-    if (t.kind === 'vuotcap' && t.pct >= lo) s.add(t.level);
-    if (t.kind === 'xeplop') for (const [L, [a, b]] of Object.entries(t.levels || {})) if (b && (a / b) * 100 >= hi) s.add(L);
+    if (t.kind === 'vuotcap' && t.pct >= lo && !old(t, t.level)) s.add(t.level);
+    if (t.kind === 'xeplop') for (const [L, [a, b]] of Object.entries(t.levels || {})) if (b && (a / b) * 100 >= hi && !old(t, L)) s.add(L);
   }
   return s;
 }

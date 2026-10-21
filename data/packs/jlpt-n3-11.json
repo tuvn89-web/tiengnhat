@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 7,
+  "version": 8,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -322,7 +322,8 @@
      "jp": "金額[きんがく]を合計[ごうけい]する",
      "vi": "cộng tổng số tiền"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:袋:ふくろ",
@@ -408,7 +409,8 @@
      "jp": "円[えん]に両替[りょうがえ]する",
      "vi": "đổi sang yên"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:料金:りょうきん",
@@ -608,7 +610,8 @@
      "vi": "trả bù tiền vé"
     }
    ],
-   "note": "精算機[せいさんき] = máy trả bù tiền vé ở ga."
+   "note": "精算機[せいさんき] = máy trả bù tiền vé ở ga.",
+   "vt": "tha"
   },
   {
    "id": "v:盛り:もり",
@@ -730,7 +733,8 @@
      "vi": "bán hàng"
     }
    ],
-   "note": "自動販売機[じどうはんばいき] (自販機[じはんき]) = máy bán hàng tự động."
+   "note": "自動販売機[じどうはんばいき] (自販機[じはんき]) = máy bán hàng tự động.",
+   "vt": "tha"
   },
   {
    "id": "v:宣伝:せんでん",
@@ -765,7 +769,8 @@
    ],
    "confuse": [
     "v:広告:こうこく"
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:広告:こうこく",
@@ -854,7 +859,8 @@
    ],
    "rel": [
     "v:流行る:はやる"
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:お洒落:おしゃれ",
@@ -1303,7 +1309,8 @@
    ],
    "syn": [
     "v:会計:かいけい"
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:グラス:グラス",
@@ -1394,7 +1401,8 @@
      "vi": "cài hẹn giờ"
     }
    ],
-   "goc": "set (tiếng Anh)"
+   "goc": "set (tiếng Anh)",
+   "vt": "tha"
   },
   {
    "id": "v:模様:もよう",
@@ -1481,7 +1489,8 @@
      "vi": "gọi món"
     }
    ],
-   "note": "ご注文[ちゅうもん]は？ = Quý khách gọi gì ạ?"
+   "note": "ご注文[ちゅうもん]は？ = Quý khách gọi gì ạ?",
+   "vt": "tha"
   },
   {
    "id": "v:布:ぬの",
@@ -1618,7 +1627,8 @@
      "vi": "thiết kế nhãn"
     }
    ],
-   "goc": "design (tiếng Anh)"
+   "goc": "design (tiếng Anh)",
+   "vt": "tha"
   }
  ]
 }

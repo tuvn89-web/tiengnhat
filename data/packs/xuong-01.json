@@ -8,7 +8,7 @@
   "topics": [
    "xuong"
   ],
-  "version": 6,
+  "version": 7,
   "created": "2026-10-11",
   "verified_on": "",
   "note": "Từ giao tiếp công xưởng phần lớn không có trong danh sách JLPT; cấp ghi theo thời điểm nên học (N4–N3)."
@@ -147,7 +147,8 @@
     "v:連絡:れんらく",
     "v:相談:そうだん"
    ],
-   "note": "Việc ĐÃ xảy ra, kết quả công việc → 報告[ほうこく]."
+   "note": "Việc ĐÃ xảy ra, kết quả công việc → 報告[ほうこく].",
+   "vt": "tha"
   },
   {
    "id": "v:連絡:れんらく",
@@ -178,7 +179,8 @@
     "v:報告:ほうこく",
     "v:相談:そうだん"
    ],
-   "note": "Báo tin, thông tin cho người liên quan → 連絡[れんらく]."
+   "note": "Báo tin, thông tin cho người liên quan → 連絡[れんらく].",
+   "vt": "tha"
   },
   {
    "id": "v:相談:そうだん",
@@ -209,7 +211,8 @@
     "v:報告:ほうこく",
     "v:連絡:れんらく"
    ],
-   "note": "Chưa biết làm sao, cần ý kiến → 相談[そうだん]."
+   "note": "Chưa biết làm sao, cần ý kiến → 相談[そうだん].",
+   "vt": "tha"
   },
   {
    "id": "v:確認:かくにん",
@@ -238,7 +241,8 @@
    ],
    "confuse": [
     "v:検品:けんぴん"
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:指示:しじ",
@@ -264,7 +268,8 @@
      "vi": "Tôi đang uống thuốc đúng theo chỉ dẫn của bác sĩ.",
      "ctx": "doisong"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:作業:さぎょう",
@@ -294,7 +299,8 @@
    "confuse": [
     "v:仕事:しごと"
    ],
-   "note": "作業[さぎょう] = thao tác cụ thể trên dây chuyền; 仕事[しごと] = công việc nói chung."
+   "note": "作業[さぎょう] = thao tác cụ thể trên dây chuyền; 仕事[しごと] = công việc nói chung.",
+   "vt": "tu"
   },
   {
    "id": "v:作業場:さぎょうば",
@@ -353,7 +359,8 @@
    "confuse": [
     "v:休憩室:きゅうけいしつ",
     "v:休み:やすみ"
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:休憩室:きゅうけいしつ",
@@ -612,7 +619,8 @@
      "vi": "A: Hôm nay tăng ca được không? B: Xin lỗi, hôm nay tôi phải đi bệnh viện nên không được.",
      "ctx": "hoithoai"
     }
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:早番:はやばん",
@@ -699,7 +707,8 @@
    ],
    "confuse": [
     "v:遅番:おそばん"
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:シフト:シフト",
@@ -756,7 +765,8 @@
    "confuse": [
     "v:早退:そうたい",
     "v:欠勤:けっきん"
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:早退:そうたい",
@@ -786,7 +796,8 @@
    "confuse": [
     "v:遅刻:ちこく",
     "v:欠勤:けっきん"
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:欠勤:けっきん",
@@ -817,7 +828,8 @@
     "v:遅刻:ちこく",
     "v:有給休暇:ゆうきゅうきゅうか"
    ],
-   "note": "Nghỉ không dùng phép có lương thường bị trừ lương ngày đó."
+   "note": "Nghỉ không dùng phép có lương thường bị trừ lương ngày đó.",
+   "vt": "tu"
   },
   {
    "id": "v:有給休暇:ゆうきゅうきゅうか",
@@ -953,7 +965,8 @@
    "confuse": [
     "v:確認:かくにん"
    ],
-   "note": "Chỉ tay vào chỗ cần kiểm và hô to: 「スイッチ、ヨシ！」."
+   "note": "Chỉ tay vào chỗ cần kiểm và hô to: 「スイッチ、ヨシ！」.",
+   "vt": "tha"
   },
   {
    "id": "v:ヒヤリハット:ヒヤリハット",

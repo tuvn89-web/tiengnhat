@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 5,
+  "version": 6,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -67,7 +67,8 @@
      "ctx": "hoithoai"
     }
    ],
-   "note": "宿泊料[しゅくはくりょう] = tiền phòng."
+   "note": "宿泊料[しゅくはくりょう] = tiền phòng.",
+   "vt": "tu"
   },
   {
    "id": "v:宿:やど",
@@ -205,7 +206,8 @@
      "ctx": "xuong"
     }
    ],
-   "note": "歓迎会[かんげいかい] = tiệc chào mừng."
+   "note": "歓迎会[かんげいかい] = tiệc chào mừng.",
+   "vt": "tha"
   },
   {
    "id": "v:少々:しょうしょう",
@@ -440,7 +442,8 @@
      "ctx": "xuong"
     }
    ],
-   "note": "営業中[えいぎょうちゅう] = đang mở cửa."
+   "note": "営業中[えいぎょうちゅう] = đang mở cửa.",
+   "vt": "tu"
   },
   {
    "id": "v:商売:しょうばい",
@@ -466,7 +469,8 @@
      "vi": "Việc buôn bán thuận lợi.",
      "ctx": "doisong"
     }
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:お客様:おきゃくさま",
@@ -522,7 +526,8 @@
      "vi": "Gọi điện hẹn trước khi đến thăm.",
      "ctx": "xuong"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:到着:とうちゃく",
@@ -551,7 +556,8 @@
    ],
    "ant": [
     "v:出発:しゅっぱつ"
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:発車:はっしゃ",
@@ -577,7 +583,8 @@
      "vi": "Tôi trễ giờ xe chạy.",
      "ctx": "doisong"
     }
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:通過:つうか",
@@ -604,7 +611,8 @@
      "ctx": "doisong"
     }
    ],
-   "note": "通過駅[つうかえき] = ga tàu chạy thẳng không dừng."
+   "note": "通過駅[つうかえき] = ga tàu chạy thẳng không dừng.",
+   "vt": "tu"
   },
   {
    "id": "v:経由:けいゆ",
@@ -630,7 +638,8 @@
      "vi": "Tôi đi máy bay quá cảnh Narita.",
      "ctx": "doisong"
     }
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:ホーム:ホーム",
@@ -944,7 +953,8 @@
      "ctx": "doisong"
     }
    ],
-   "note": "入場料[にゅうじょうりょう] = phí vào cửa."
+   "note": "入場料[にゅうじょうりょう] = phí vào cửa.",
+   "vt": "tu"
   },
   {
    "id": "v:ノック:ノック",
@@ -972,7 +982,8 @@
     }
    ],
    "goc": "knock (tiếng Anh)",
-   "note": "Phỏng vấn ở Nhật: gõ 3 lần là lịch sự."
+   "note": "Phỏng vấn ở Nhật: gõ 3 lần là lịch sự.",
+   "vt": "tha"
   }
  ]
 }

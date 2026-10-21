@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 6,
+  "version": 7,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -405,7 +405,8 @@
    "rel": [
     "v:駐車場:ちゅうしゃじょう"
    ],
-   "note": "駐車禁止[ちゅうしゃきんし] = cấm đỗ xe."
+   "note": "駐車禁止[ちゅうしゃきんし] = cấm đỗ xe.",
+   "vt": "tu"
   },
   {
    "id": "v:通行:つうこう",
@@ -432,7 +433,8 @@
      "ctx": "xuong"
     }
    ],
-   "note": "通行止[つうこうど]め = cấm đường, cấm lưu thông."
+   "note": "通行止[つうこうど]め = cấm đường, cấm lưu thông.",
+   "vt": "tu"
   },
   {
    "id": "v:横断:おうだん",
@@ -464,7 +466,8 @@
      "jp": "道路[どうろ]を横断[おうだん]する",
      "vi": "băng qua đường"
     }
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:信号:しんごう",
@@ -823,7 +826,8 @@
      "jp": "米[こめ]を収穫[しゅうかく]する",
      "vi": "thu hoạch lúa"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:作物:さくもつ",
@@ -1288,7 +1292,8 @@
    "syn": [
     "v:込む:こむ"
    ],
-   "note": "Nói thường: 混[こ]んでいる."
+   "note": "Nói thường: 混[こ]んでいる.",
+   "vt": "tu"
   },
   {
    "id": "v:向かい:むかい",

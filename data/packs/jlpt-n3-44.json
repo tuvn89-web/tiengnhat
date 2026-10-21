@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 4,
+  "version": 5,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -38,7 +38,8 @@
      "vi": "Đã lập một nhóm mới.",
      "ctx": "xuong"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:代表:だいひょう",
@@ -65,7 +66,8 @@
      "ctx": "xuong"
     }
    ],
-   "note": "代表者[だいひょうしゃ] = người đại diện."
+   "note": "代表者[だいひょうしゃ] = người đại diện.",
+   "vt": "tha"
   },
   {
    "id": "v:責任者:せきにんしゃ",
@@ -257,7 +259,8 @@
      "ctx": "xuong"
     }
    ],
-   "note": "協調性[きょうちょうせい] = khả năng hòa đồng (hay gặp trong đánh giá, phỏng vấn)."
+   "note": "協調性[きょうちょうせい] = khả năng hòa đồng (hay gặp trong đánh giá, phỏng vấn).",
+   "vt": "tu"
   },
   {
    "id": "v:方針:ほうしん",
@@ -313,7 +316,8 @@
    "confuse": [
     "v:信用:しんよう"
    ],
-   "note": "信頼[しんらい] = tin vào con người, năng lực; 信用[しんよう] = tin vào lời nói, uy tín (cả tiền bạc)."
+   "note": "信頼[しんらい] = tin vào con người, năng lực; 信用[しんよう] = tin vào lời nói, uy tín (cả tiền bạc).",
+   "vt": "tha"
   },
   {
    "id": "v:信用:しんよう",
@@ -342,7 +346,8 @@
    ],
    "confuse": [
     "v:信頼:しんらい"
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:期待:きたい",
@@ -369,7 +374,8 @@
      "ctx": "xuong"
     }
    ],
-   "note": "期待[きたい]に応[こた]える = đáp lại kỳ vọng."
+   "note": "期待[きたい]に応[こた]える = đáp lại kỳ vọng.",
+   "vt": "tha"
   },
   {
    "id": "v:評価:ひょうか",
@@ -395,7 +401,8 @@
      "vi": "Không chỉ tốc độ mà độ chính xác cũng được đánh giá.",
      "ctx": "xuong"
     }
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:実績:じっせき",
@@ -474,7 +481,8 @@
      "vi": "Mọi người cùng ăn mừng thăng chức.",
      "ctx": "xuong"
     }
-   ]
+   ],
+   "vt": "tu"
   },
   {
    "id": "v:選考:せんこう",
@@ -501,7 +509,8 @@
      "ctx": "thutuc"
     }
    ],
-   "note": "書類選考[しょるいせんこう] = vòng xét hồ sơ."
+   "note": "書類選考[しょるいせんこう] = vòng xét hồ sơ.",
+   "vt": "tha"
   },
   {
    "id": "v:候補:こうほ",
@@ -555,7 +564,8 @@
      "ctx": "xuong"
     }
    ],
-   "note": "指導者[しどうしゃ] = người hướng dẫn."
+   "note": "指導者[しどうしゃ] = người hướng dẫn.",
+   "vt": "tha"
   },
   {
    "id": "v:研修:けんしゅう",
@@ -582,7 +592,8 @@
      "ctx": "xuong"
     }
    ],
-   "note": "研修生[けんしゅうせい] = thực tập sinh (đang được đào tạo)."
+   "note": "研修生[けんしゅうせい] = thực tập sinh (đang được đào tạo).",
+   "vt": "tu"
   },
   {
    "id": "v:決心:けっしん",
@@ -609,7 +620,8 @@
      "ctx": "xuong"
     }
    ],
-   "note": "決心[けっしん]がつく = quyết định được (sau khi đắn đo)."
+   "note": "決心[けっしん]がつく = quyết định được (sau khi đắn đo).",
+   "vt": "tha"
   },
   {
    "id": "v:自信:じしん",

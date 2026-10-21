@@ -108,6 +108,8 @@ const ROUTES = [
   [/^bai\/([^/?]+)\/cau$/, (v, m) => renderLessonSents(v, ctx, decodeURIComponent(m[1]))],
   [/^bai\/([^/?]+)\/kiemtra$/, (v, m) => runLessonTest(v, ctx, decodeURIComponent(m[1]))],
   [/^onbai\/([^/?]+)$/, (v, m) => runLessonReview(v, ctx, decodeURIComponent(m[1]))],
+  [/^gocau\/([^/?]+)$/, async (v, m) => (await import('./gocau.js')).runGoCau(v, ctx, decodeURIComponent(m[1]))],
+  [/^hoclai\/([^/?]+)(?:\/(kt|hoc))?$/, async (v, m) => { const R = await import('./relearn.js'); const k = decodeURIComponent(m[1]); return m[2] === 'kt' ? R.runQuickCheck(v, ctx, k) : m[2] === 'hoc' ? R.runRelearnItems(v, ctx, k) : R.renderRelearn(v, ctx, k); }],
   [/^tonghop\/([^/?]+)$/, (v, m) => runTongHop(v, ctx, decodeURIComponent(m[1]))],
   [/^noiduoc$/, v => renderCanDo(v)],
   [/^doc$/, v => renderDocList(v)],
@@ -388,6 +390,7 @@ async function init() {
   const tb = $('#topbar'), tbSync = () => tb.classList.toggle('is-scrolled', scrollY > 4);
   addEventListener('scroll', tbSync, { passive: true }); tbSync();
   view.innerHTML = '<p class="muted loading">Đang tải dữ liệu…</p>';
+  import('./hvbay.js').then(m => m.loadHvBay()); // v50: nhãn "bẫy Hán Việt" (tải song song, không chặn mở app)
   try { await loadAll(); } catch (e) { D.errors.push('Lỗi tải dữ liệu: ' + (e?.message || e)); }
   await loadProgress();
   window.addEventListener('hashchange', route);

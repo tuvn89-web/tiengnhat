@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -167,7 +167,8 @@
     "v:決定:けってい",
     "v:決意:けつい"
    ],
-   "note": "決断[けつだん] = dám chọn dứt khoát trong lúc khó. 決断力[けつだんりょく] = sự quyết đoán."
+   "note": "決断[けつだん] = dám chọn dứt khoát trong lúc khó. 決断力[けつだんりょく] = sự quyết đoán.",
+   "vt": "tha"
   },
   {
    "id": "v:決意:けつい",
@@ -204,7 +205,8 @@
     "v:決心:けっしん",
     "v:決断:けつだん"
    ],
-   "note": "決意[けつい] = quyết tâm mạnh, thường nói ra trước người khác (決意[けつい]を固[かた]める). 決心[けっしん] = quyết định trong lòng sau khi suy nghĩ."
+   "note": "決意[けつい] = quyết tâm mạnh, thường nói ra trước người khác (決意[けつい]を固[かた]める). 決心[けっしん] = quyết định trong lòng sau khi suy nghĩ.",
+   "vt": "tha"
   },
   {
    "id": "v:選択肢:せんたくし",
@@ -544,7 +546,8 @@
      "vi": "mày mò thử nhiều cách"
     }
    ],
-   "note": "試行錯誤[しこうさくご]を重[かさ]ねる = thử sai nhiều lần."
+   "note": "試行錯誤[しこうさくご]を重[かさ]ねる = thử sai nhiều lần.",
+   "vt": "tu"
   },
   {
    "id": "v:試み:こころみ",
@@ -608,7 +611,8 @@
      "vi": "làm thử sản phẩm mới"
     }
    ],
-   "note": "試作品[しさくひん] = sản phẩm mẫu, hàng làm thử."
+   "note": "試作品[しさくひん] = sản phẩm mẫu, hàng làm thử.",
+   "vt": "tha"
   },
   {
    "id": "v:試しに:ためしに",
@@ -747,7 +751,8 @@
    "rel": [
     "v:仮説:かせつ"
    ],
-   "note": "現場[げんば]検証[けんしょう] = khám nghiệm hiện trường."
+   "note": "現場[げんば]検証[けんしょう] = khám nghiệm hiện trường.",
+   "vt": "tha"
   },
   {
    "id": "v:判明:はんめい",
@@ -783,7 +788,8 @@
    "confuse": [
     "v:解明:かいめい"
    ],
-   "note": "判明[はんめい] = (sự thật) tự lộ ra, rõ ra (tự động). 解明[かいめい] = người tìm cách làm sáng tỏ."
+   "note": "判明[はんめい] = (sự thật) tự lộ ra, rõ ra (tự động). 解明[かいめい] = người tìm cách làm sáng tỏ.",
+   "vt": "tu"
   },
   {
    "id": "v:解明:かいめい",
@@ -818,7 +824,8 @@
    ],
    "confuse": [
     "v:判明:はんめい"
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:手探り:てさぐり",
@@ -946,14 +953,15 @@
    "confuse": [
     "v:改良:かいりょう"
    ],
-   "note": "改造[かいぞう] = thay đổi cấu tạo. 改良[かいりょう] = cải tiến cho tốt hơn."
+   "note": "改造[かいぞう] = thay đổi cấu tạo. 改良[かいりょう] = cải tiến cho tốt hơn.",
+   "vt": "tha"
   },
   {
    "id": "v:工夫:くふう",
    "kana": "くふう",
    "kanji": "工夫",
    "hv": "CÔNG PHU",
-   "vi": "công phu, nghĩ cách (để làm tốt hơn)",
+   "vi": "nghĩ cách, tìm tòi cách làm (để làm tốt hơn)",
    "pos": "n-suru",
    "level": "N2",
    "topics": [
@@ -986,7 +994,8 @@
    "rel": [
     "v:改善:かいぜん"
    ],
-   "note": "Không đọc là こうふ. 工夫[こうふ] (cách đọc cổ) = công nhân."
+   "note": "Không đọc là こうふ. 工夫[こうふ] (cách đọc cổ) = công nhân.",
+   "vt": "tha"
   },
   {
    "id": "v:改善策:かいぜんさく",
@@ -1053,7 +1062,8 @@
    "rel": [
     "v:苦労:くろう"
    ],
-   "note": "苦心[くしん] = lao tâm tìm cách. 苦労[くろう] = vất vả (cả thân lẫn tâm)."
+   "note": "苦心[くしん] = lao tâm tìm cách. 苦労[くろう] = vất vả (cả thân lẫn tâm).",
+   "vt": "tu"
   },
   {
    "id": "v:手直し:てなおし",
@@ -1089,7 +1099,8 @@
    ],
    "rel": [
     "v:修正:しゅうせい"
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:効率的:こうりつてき",
@@ -1286,7 +1297,8 @@
    "rel": [
     "v:考え:かんがえ"
    ],
-   "note": "発想[はっそう]を変[か]える = đổi cách nghĩ. 発想[はっそう]の転換[てんかん] = chuyển hướng tư duy."
+   "note": "発想[はっそう]を変[か]える = đổi cách nghĩ. 発想[はっそう]の転換[てんかん] = chuyển hướng tư duy.",
+   "vt": "tha"
   },
   {
    "id": "v:名案:めいあん",

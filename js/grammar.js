@@ -42,7 +42,7 @@ export function renderGrammar(view, id) {
       <span class="label-lv">${esc(g.level)}</span>
     </header>
     <p class="gram-meaning">${rich(g.meaning)}</p>
-    <div class="row-btns wrap"><a class="btn btn-primary" href="#/nguphap/luyen?g=${encodeURIComponent(g.id)}">Luyện mẫu này</a>${formsBtn(g)}</div>
+    <div class="row-btns wrap"><a class="btn btn-primary" href="#/nguphap/luyen?g=${encodeURIComponent(g.id)}">Luyện mẫu này</a>${/^caunoi-0[23]$/.test(g._pack || '') ? `<a class="btn btn-primary" href="#/gocau/${encodeURIComponent(g.id)}">Gỡ câu 2 bước</a>` : ''}${formsBtn(g)}</div>
 
     <h2 class="h2">Cấu trúc</h2>
     <ul class="gram-struct">${(g.structure || []).map(s => `<li>${rich(s)}</li>`).join('')}</ul>

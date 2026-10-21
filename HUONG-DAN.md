@@ -1028,3 +1028,39 @@ Máy chưa có giọng đọc tiếng Nhật thì đề bỏ phần nghe và kh�
 - Dữ liệu (mới): `jlpt-n1-49`, `jlpt-n1-50`, `modau-n1-43` … `modau-n1-50`, `chuhan-67`, `chuhan-68`.
 - Dữ liệu (sửa): `baihoc-n1`, `chuhan-66` và vài gói sửa cách đọc (xem danh sách trong gói cập nhật).
 - `data/manifest.json`.
+
+## 59. Bản v50 (21/10/2026): Bài học 7 bước; nút Học lại; 6 bài cầu nối N4 → N3; nhãn Hán Việt
+
+Bản này làm theo đề xuất "Lộ trình học hiệu quả cho người Việt" (bản có nghiên cứu) đã được duyệt.
+
+**Bài học sắp lại thành 7 bước** (Lộ trình → mở một bài):
+- 1 **Mở đầu** (đọc lướt) · 2 **Từ mới** · 3 **Chữ Hán** · 4 **Ngữ pháp** · 5 **Luyện** · 6 **Đọc hiểu** · 7 **Kiểm tra**. Thêm hai tab không phải bước: **Liên quan**, **Viết**.
+- **Luyện**: nút chính là **Luyện trộn 15 câu** — nghĩa từ, đọc chữ Hán, ngữ pháp, hiểu câu, nghe xen kẽ, chỉ dùng từ và mẫu của bài. Các bài luyện riêng (trắc nghiệm, ghép cặp, gõ từ, ghép câu, thể động từ, dịch) vẫn ở bên dưới.
+- **Đọc hiểu**: đọc lại bài mở đầu khi đã biết từ và mẫu, trả lời câu hỏi hiểu bài (từ 50% là xong bước); có thêm bài đọc khác của bài và "Nghe – hiểu 10 câu".
+- **Từ liên quan** (dễ nhầm, trái nghĩa, cặp tự – tha) thôi là một bước: nên xem khi đã học từ của bài được vài ngày, và nay được hỏi xen vào lượt **ôn bài cũ**. Lịch ôn bài cũ thêm mốc **30 ngày** (1, 3, 7, 14, 30).
+- Tiến độ cũ giữ nguyên; địa chỉ tab cũ vẫn mở đúng. Trên điện thoại tab xếp 2 hàng, màn rộng 1 hàng.
+
+**Nút ↺ Học lại** — bài đã xong có "Học lại bài"; chặng đã qua (hoặc đã xong từ 5 bài) có "Học lại chặng" trong Lộ trình. Ba cách:
+- **A. Kiểm tra nhanh rồi học lại phần đã quên** (nên dùng): bài 15 câu, chặng 40 câu (10 bài lâu chưa kiểm, làm vài lần là phủ cả chặng). Mục làm đúng chỉ dời lịch ôn; mục sai gắn nhãn **"cần học lại"** (giữ tiến độ cũ), bấm "Học lại N mục ngay" để xem lại thẻ + câu ví dụ rồi trả lời lại; hôm sau app hỏi lại, đúng ở 2 ngày khác nhau thì gỡ nhãn. Bài dưới 70% hiện **↺ Học lại** trong danh sách bài. Không tự xoá dấu "Đã qua".
+- **B. Đi lại từng bài (giữ tiến độ)**: các bước hiện lại từ đầu, ✓ lần học đầu để mờ, ✓ lần đi lại đánh riêng; làm lại bài kiểm tra cuối bài. Đi lại cả chặng thì Lộ trình hiện bài đang đi lại.
+- **C. Học lại từ đầu (xoá tiến độ)**: hỏi lại 2 lần; từ, ngữ pháp, chữ Hán của bài / chặng về "chưa học" (câu tự viết giữ lại). Xoá cả chặng thì kết quả Thi vượt cấp cũ không tính nữa. App giữ bản sao ngay trước khi xoá — **khôi phục** được ở trang Học lại (có nút "Hoàn tác" ngay sau khi xoá).
+
+**6 bài cầu nối N4 → N3** (chặng N4, bài 28–33 — gói `caunoi-01` … `caunoi-06`, `baihoc-caunoi`):
+- Vì sao: nhiều người thuộc mẫu N4 mà lên N3 vẫn không hiểu câu dài. Gốc là **cách đọc câu**: tiếng Nhật dồn ý chính vào **đuôi câu** và đặt **phần bổ nghĩa trước danh từ** — ngược với tiếng Việt. Mỗi bài dạy một kỹ năng đọc câu, giải thích bằng cách đặt câu Việt cạnh câu Nhật, rồi luyện bằng câu dài dần (bối cảnh xưởng, thủ tục, đời sống).
+- Bài 28 **Nhìn đuôi câu trước** (〜させられた, 〜たくなかった, 〜てしまっていた, 〜ないわけではない…) · Bài 29 **Gỡ câu 2 bước**: tìm danh từ được bổ nghĩa → đưa lên trước như tiếng Việt · Bài 30 **Bị động, sai khiến, てもらう trong phần bổ nghĩa** (先輩[せんぱい]に注意[ちゅうい]された人[ひと], 手伝[てつだ]ってもらった仕事[しごと]) · Bài 31 **Trợ từ báo trước ai làm gì** (〜に〜された / 〜を〜した, は và が) · Bài 32 **Câu hai vế cách xa** (〜ば, 〜たら, 〜ので, 〜のに, 〜ても) · Bài 33 **Đối chiếu Việt – Nhật**: "bị / được" ↔ bị động hay tự động từ (機械[きかい]が壊[こわ]れた), "nhờ / cho / để" ↔ てもらう, させてもらう, させてくれる.
+- Mỗi bài: 3 mục giải thích (mỗi mục 10 câu ví dụ, đủ bài tập như mẫu ngữ pháp), 15 từ hay gặp ở xưởng và thủ tục (giấy lương, an toàn, ngân hàng, phòng khám…), 4–6 chữ Hán.
+- Bài 29–30 có bài luyện mới **Gỡ câu 2 bước** (tab Luyện, hoặc nút ở trang mẫu ngữ pháp): bước 1 bấm chọn danh từ được bổ nghĩa, bước 2 thấy phần bổ nghĩa gạch dưới, danh từ đưa lên trước, rồi chọn nghĩa cả câu.
+
+**Hán Việt:**
+- **Nhãn ⚠ Bẫy Hán Việt** trên thẻ từ: 166 từ có âm Hán Việt trùng một từ tiếng Việt quen nhưng nghĩa khác — 勉強[べんきょう] (MIỄN CƯỠNG = học), 階段[かいだん] (GIAI ĐOẠN = cầu thang), 入口[いりぐち] (NHẬP KHẨU = lối vào), 試験[しけん] (THÍ NGHIỆM = kỳ thi), 親切[しんせつ] (THÂN THIẾT = tử tế), 利用[りよう] (LỢI DỤNG = sử dụng), 丁寧[ていねい], 緊張[きんちょう], 情報[じょうほう], 提出[ていしゅつ]… Nhãn ghi tiếng Việt hiểu thế nào và tiếng Nhật nghĩa gì.
+- **Từ chặng N3 trở lên**, khi học từ mới của bài, trước mỗi thẻ có bước **đoán nghĩa từ âm Hán Việt** (ở N2–N1 khoảng 60% từ hai chữ Hán đoán được nghĩa). Từ "bẫy" không có bước đoán.
+- **Tự / tha động từ** cho danh từ + する: 832 từ N5–N1 nay ghi "tự động từ (〜が する)" hay "tha động từ (〜を する)" trên thẻ từ. Từ dùng được cả hai kiểu thì để trống.
+- Sửa nghĩa 工夫[くふう]: "nghĩ cách, tìm tòi cách làm" (bỏ chữ "công phu" dễ hiểu nhầm).
+
+**Tệp:**
+- Mã: `js/lesson.js`, `js/relearn.js` (mới), `js/gocau.js` (mới), `js/hvbay.js` (mới), `js/srs.js`, `js/sync.js`, `js/level.js`, `js/roadmap.js`, `js/reader.js`, `js/drill.js`, `js/learn.js`, `js/wordx.js`, `js/grammar.js`, `js/guides.js`, `js/nav.js`, `js/app.js`, `js/util.js`, `css/app.css`, `sw.js`.
+- Dữ liệu riêng của app (mới): `data/hvbay.json` (danh sách bẫy Hán Việt).
+- Dữ liệu (mới): `caunoi-01` … `caunoi-06`, `baihoc-caunoi`.
+- Dữ liệu (sửa): các gói từ vựng có danh từ + する (thêm tự / tha), `jlpt-n2-05` (工夫) — xem danh sách trong gói cập nhật.
+- `data/manifest.json`.
+- Bài hướng dẫn trong app: thêm "Một bài học: 7 bước và nút Học lại"; "Học N4 thế nào" có phần 6 bài cầu nối; "Học N3 thế nào" có phần bẫy Hán Việt.

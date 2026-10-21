@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -95,7 +95,8 @@
    "rel": [
     "v:閉店:へいてん"
    ],
-   "note": "閉鎖[へいさ] = đóng cửa, ngừng sử dụng một cơ sở (nhà máy, trường, đường, trang web). 封鎖[ふうさ] = phong tỏa, chặn ra vào (cảnh sát, sự cố). 閉鎖的[へいさてき] = khép kín."
+   "note": "閉鎖[へいさ] = đóng cửa, ngừng sử dụng một cơ sở (nhà máy, trường, đường, trang web). 封鎖[ふうさ] = phong tỏa, chặn ra vào (cảnh sát, sự cố). 閉鎖的[へいさてき] = khép kín.",
+   "vt": "tha"
   },
   {
    "id": "v:廃業:はいぎょう",
@@ -215,7 +216,8 @@
    "confuse": [
     "v:精算:せいさん"
    ],
-   "note": "Đồng âm: 精算[せいさん] = tính lại cho đúng số tiền (乗[の]り越[こ]し精算[せいさん] = bù tiền vé đi quá ga; 経費[けいひ]の精算[せいさん] = thanh toán công tác phí). 清算[せいさん] = kết thúc, làm sạch hẳn (nợ, công ty, quan hệ)."
+   "note": "Đồng âm: 精算[せいさん] = tính lại cho đúng số tiền (乗[の]り越[こ]し精算[せいさん] = bù tiền vé đi quá ga; 経費[けいひ]の精算[せいさん] = thanh toán công tác phí). 清算[せいさん] = kết thúc, làm sạch hẳn (nợ, công ty, quan hệ).",
+   "vt": "tha"
   },
   {
    "id": "v:撤去:てっきょ",
@@ -258,7 +260,8 @@
    "rel": [
     "v:解体:かいたい"
    ],
-   "note": "撤去[てっきょ] = dỡ, dời vật đi khỏi chỗ đặt (thiết bị, biển, xe bỏ lại). 放置自転車[ほうちじてんしゃ]の撤去[てっきょ] = dọn xe đạp bỏ."
+   "note": "撤去[てっきょ] = dỡ, dời vật đi khỏi chỗ đặt (thiết bị, biển, xe bỏ lại). 放置自転車[ほうちじてんしゃ]の撤去[てっきょ] = dọn xe đạp bỏ.",
+   "vt": "tha"
   },
   {
    "id": "v:店じまい:みせじまい",
@@ -301,7 +304,8 @@
     "v:閉店:へいてん",
     "v:廃業:はいぎょう"
    ],
-   "note": "Hai nghĩa: dọn hàng cuối ngày và thôi buôn bán hẳn. Cũng viết 店仕舞[みせじま]い. Nghĩa bóng: kết thúc việc gì (今日[きょう]はこれで店[みせ]じまい = hôm nay đến đây thôi)."
+   "note": "Hai nghĩa: dọn hàng cuối ngày và thôi buôn bán hẳn. Cũng viết 店仕舞[みせじま]い. Nghĩa bóng: kết thúc việc gì (今日[きょう]はこれで店[みせ]じまい = hôm nay đến đây thôi).",
+   "vt": "tu"
   },
   {
    "id": "v:明け渡す:あけわたす",
@@ -523,7 +527,8 @@
    "confuse": [
     "v:合併:がっぺい"
    ],
-   "note": "統合[とうごう] = gộp nhiều cái thành một khối thống nhất (phòng ban, dữ liệu, trường học). 経営[けいえい]統合[とうごう] = hợp nhất kinh doanh (về chung một công ty mẹ)."
+   "note": "統合[とうごう] = gộp nhiều cái thành một khối thống nhất (phòng ban, dữ liệu, trường học). 経営[けいえい]統合[とうごう] = hợp nhất kinh doanh (về chung một công ty mẹ).",
+   "vt": "tha"
   },
   {
    "id": "v:買収:ばいしゅう",
@@ -566,7 +571,8 @@
    "rel": [
     "v:売却:ばいきゃく"
    ],
-   "note": "Hai nghĩa: mua lại doanh nghiệp, đất (văn kinh tế) và mua chuộc bằng tiền (tin tức). 買収[ばいしゅう]された = bị mua lại / bị mua chuộc."
+   "note": "Hai nghĩa: mua lại doanh nghiệp, đất (văn kinh tế) và mua chuộc bằng tiền (tin tức). 買収[ばいしゅう]された = bị mua lại / bị mua chuộc.",
+   "vt": "tha"
   },
   {
    "id": "v:譲渡:じょうと",
@@ -609,7 +615,8 @@
    "rel": [
     "v:売却:ばいきゃく"
    ],
-   "note": "Văn bản pháp lý: 譲渡契約[じょうとけいやく] = hợp đồng chuyển nhượng; 譲渡[じょうと]禁止[きんし] = cấm chuyển nhượng. Nói thường: 譲[ゆず]る."
+   "note": "Văn bản pháp lý: 譲渡契約[じょうとけいやく] = hợp đồng chuyển nhượng; 譲渡[じょうと]禁止[きんし] = cấm chuyển nhượng. Nói thường: 譲[ゆず]る.",
+   "vt": "tha"
   },
   {
    "id": "v:売却:ばいきゃく",
@@ -653,7 +660,8 @@
     "v:買収:ばいしゅう",
     "v:譲渡:じょうと"
    ],
-   "note": "売却[ばいきゃく] = bán tài sản lớn (đất, nhà, cổ phần, mảng kinh doanh) — văn viết, tin tức. Bán hàng hằng ngày dùng 販売[はんばい]."
+   "note": "売却[ばいきゃく] = bán tài sản lớn (đất, nhà, cổ phần, mảng kinh doanh) — văn viết, tin tức. Bán hàng hằng ngày dùng 販売[はんばい].",
+   "vt": "tha"
   },
   {
    "id": "v:継承:けいしょう",
@@ -697,7 +705,8 @@
     "v:受け継ぐ:うけつぐ",
     "v:引き継ぐ:ひきつぐ"
    ],
-   "note": "継承[けいしょう] = kế thừa thứ có giá trị lâu dài (truyền thống, kỹ thuật, ngôi vị) — văn viết. 受[う]け継[つ]ぐ = nhận lấy, nối tiếp (cách nói thường). 引[ひ]き継[つ]ぐ = nhận bàn giao công việc. 技術[ぎじゅつ]継承[けいしょう] = truyền nghề."
+   "note": "継承[けいしょう] = kế thừa thứ có giá trị lâu dài (truyền thống, kỹ thuật, ngôi vị) — văn viết. 受[う]け継[つ]ぐ = nhận lấy, nối tiếp (cách nói thường). 引[ひ]き継[つ]ぐ = nhận bàn giao công việc. 技術[ぎじゅつ]継承[けいしょう] = truyền nghề.",
+   "vt": "tha"
   },
   {
    "id": "v:移管:いかん",
@@ -733,7 +742,8 @@
    "confuse": [
     "v:引き継ぎ:ひきつぎ"
    ],
-   "note": "移管[いかん] = chuyển quyền quản lý, phụ trách từ tổ chức này sang tổ chức khác (văn bản công ty, hành chính). Đồng âm: 遺憾[いかん] = đáng tiếc."
+   "note": "移管[いかん] = chuyển quyền quản lý, phụ trách từ tổ chức này sang tổ chức khác (văn bản công ty, hành chính). Đồng âm: 遺憾[いかん] = đáng tiếc.",
+   "vt": "tha"
   },
   {
    "id": "v:託す:たくす",
@@ -912,7 +922,8 @@
     "v:退任:たいにん",
     "v:退職:たいしょく"
    ],
-   "note": "辞任[じにん] = tự xin thôi một chức vụ (社長[しゃちょう], 大臣[だいじん], 委員長[いいんちょう]). 退任[たいにん] = rời chức (hết nhiệm kỳ, đúng lệ). 退職[たいしょく] = nghỉ hẳn công ty. 辞任[じにん]に追[お]い込[こ]まれる = bị dồn đến chỗ phải từ chức."
+   "note": "辞任[じにん] = tự xin thôi một chức vụ (社長[しゃちょう], 大臣[だいじん], 委員長[いいんちょう]). 退任[たいにん] = rời chức (hết nhiệm kỳ, đúng lệ). 退職[たいしょく] = nghỉ hẳn công ty. 辞任[じにん]に追[お]い込[こ]まれる = bị dồn đến chỗ phải từ chức.",
+   "vt": "tu"
   },
   {
    "id": "v:勇退:ゆうたい",
@@ -949,7 +960,8 @@
     "v:引退:いんたい",
     "v:辞任:じにん"
    ],
-   "note": "Từ mang sắc thái khen: rời chức đường hoàng, tự nguyện để nhường người trẻ (không phải bị ép). Hay gặp trong thông báo nội bộ, tin tức."
+   "note": "Từ mang sắc thái khen: rời chức đường hoàng, tự nguyện để nhường người trẻ (không phải bị ép). Hay gặp trong thông báo nội bộ, tin tức.",
+   "vt": "tu"
   },
   {
    "id": "v:任期:にんき",
@@ -1054,7 +1066,8 @@
    "rel": [
     "v:退職金:たいしょくきん"
    ],
-   "note": "勤続[きんぞく]年数[ねんすう] = số năm làm việc liên tục (ảnh hưởng tiền thôi việc, ngày nghỉ phép). 永年勤続表彰[えいねんきんぞくひょうしょう] = khen thưởng thâm niên."
+   "note": "勤続[きんぞく]年数[ねんすう] = số năm làm việc liên tục (ảnh hưởng tiền thôi việc, ngày nghỉ phép). 永年勤続表彰[えいねんきんぞくひょうしょう] = khen thưởng thâm niên.",
+   "vt": "tu"
   },
   {
    "id": "v:功労:こうろう",
@@ -1123,7 +1136,8 @@
    "rel": [
     "v:送別会:そうべつかい"
    ],
-   "note": "慰労会[いろうかい] = tiệc khao, tiệc tri ân. 慰労[いろう]金[きん] = tiền thưởng tri ân (khi nghỉ). Người trên làm cho người dưới."
+   "note": "慰労会[いろうかい] = tiệc khao, tiệc tri ân. 慰労[いろう]金[きん] = tiền thưởng tri ân (khi nghỉ). Người trên làm cho người dưới.",
+   "vt": "tha"
   },
   {
    "id": "v:再雇用:さいこよう",
@@ -1160,7 +1174,8 @@
     "v:定年:ていねん",
     "v:雇用:こよう"
    ],
-   "note": "再雇用[さいこよう]制度[せいど] = chế độ tuyển lại người qua tuổi hưu, thường ký hợp đồng có thời hạn (嘱託[しょくたく]社員[しゃいん], 契約社員[けいやくしゃいん])."
+   "note": "再雇用[さいこよう]制度[せいど] = chế độ tuyển lại người qua tuổi hưu, thường ký hợp đồng có thời hạn (嘱託[しょくたく]社員[しゃいん], 契約社員[けいやくしゃいん]).",
+   "vt": "tha"
   },
   {
    "id": "v:餞別:せんべつ",
@@ -1646,7 +1661,8 @@
      "vi": "chấm dứt hẳn"
     }
    ],
-   "note": "Đồng âm: 終息[しゅうそく] = chấm dứt hoàn toàn. 収束[しゅうそく] = được kiểm soát, đi vào ổn định (có thể vẫn còn sót lại). Tin về dịch bệnh hay dùng cả hai."
+   "note": "Đồng âm: 終息[しゅうそく] = chấm dứt hoàn toàn. 収束[しゅうそく] = được kiểm soát, đi vào ổn định (có thể vẫn còn sót lại). Tin về dịch bệnh hay dùng cả hai.",
+   "vt": "tu"
   },
   {
    "id": "v:見届ける:みとどける",

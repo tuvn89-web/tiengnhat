@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -48,7 +48,8 @@
    "confuse": [
     "v:値引き:ねびき"
    ],
-   "note": "割[わり] = 10%: 二割[にわり]引[びき] = giảm 20%. 割引券[わりびきけん] = phiếu giảm giá."
+   "note": "割[わり] = 10%: 二割[にわり]引[びき] = giảm 20%. 割引券[わりびきけん] = phiếu giảm giá.",
+   "vt": "tha"
   },
   {
    "id": "v:値引き:ねびき",
@@ -85,7 +86,8 @@
    "confuse": [
     "v:割引:わりびき"
    ],
-   "note": "値引[ねび]きシール = tem giảm giá dán trên hàng (siêu thị buổi tối)."
+   "note": "値引[ねび]きシール = tem giảm giá dán trên hàng (siêu thị buổi tối).",
+   "vt": "tha"
   },
   {
    "id": "v:半額:はんがく",
@@ -504,7 +506,8 @@
    "rel": [
     "v:限る:かぎる"
    ],
-   "note": "地域限定[ちいきげんてい] = chỉ bán ở vùng đó; 限定品[げんていひん] = hàng phiên bản giới hạn."
+   "note": "地域限定[ちいきげんてい] = chỉ bán ở vùng đó; 限定品[げんていひん] = hàng phiên bản giới hạn.",
+   "vt": "tha"
   },
   {
    "id": "v:期間限定:きかんげんてい",
@@ -768,7 +771,8 @@
      "vi": "bốc thăm công bằng"
     }
    ],
-   "note": "抽選会[ちゅうせんかい] = buổi quay số; 抽選[ちゅうせん]に外[はず]れる = trượt bốc thăm."
+   "note": "抽選会[ちゅうせんかい] = buổi quay số; 抽選[ちゅうせん]に外[はず]れる = trượt bốc thăm.",
+   "vt": "tu"
   },
   {
    "id": "v:当選:とうせん",
@@ -810,7 +814,8 @@
    "rel": [
     "v:当たる:あたる"
    ],
-   "note": "当選者[とうせんしゃ] = người trúng. 選挙[せんきょ]に当選[とうせん]する = trúng cử."
+   "note": "当選者[とうせんしゃ] = người trúng. 選挙[せんきょ]に当選[とうせん]する = trúng cử.",
+   "vt": "tu"
   },
   {
    "id": "v:応募:おうぼ",
@@ -855,7 +860,8 @@
    "confuse": [
     "v:申し込む:もうしこむ"
    ],
-   "note": "応募[おうぼ] = gửi đơn để được chọn (tuyển dụng, rút thăm, cuộc thi). 申[もう]し込[こ]む = đăng ký dùng dịch vụ, học, thi."
+   "note": "応募[おうぼ] = gửi đơn để được chọn (tuyển dụng, rút thăm, cuộc thi). 申[もう]し込[こ]む = đăng ký dùng dịch vụ, học, thi.",
+   "vt": "tu"
   },
   {
    "id": "v:会員証:かいいんしょう",
@@ -1110,7 +1116,8 @@
      "vi": "tung ra sản phẩm mới"
     }
    ],
-   "note": "新発売[しんはつばい] = mới ra mắt; 発売日[はつばいび] = ngày phát hành."
+   "note": "新発売[しんはつばい] = mới ra mắt; 発売日[はつばいび] = ngày phát hành.",
+   "vt": "tha"
   },
   {
    "id": "v:店頭:てんとう",
@@ -1260,7 +1267,8 @@
      "vi": "đặt trước rồi đến cửa hàng"
     }
    ],
-   "note": "Từ phía cửa hàng nói: ご来店[らいてん]ください = mời quý khách đến. Khách tự nói: 店[みせ]に行[い]く."
+   "note": "Từ phía cửa hàng nói: ご来店[らいてん]ください = mời quý khách đến. Khách tự nói: 店[みせ]に行[い]く.",
+   "vt": "tu"
   },
   {
    "id": "v:税込:ぜいこみ",
@@ -1465,7 +1473,8 @@
    "rel": [
     "v:返金:へんきん"
    ],
-   "note": "返品[へんぴん]・交換[こうかん] = đổi trả."
+   "note": "返品[へんぴん]・交換[こうかん] = đổi trả.",
+   "vt": "tha"
   },
   {
    "id": "v:返金:へんきん",
@@ -1501,7 +1510,8 @@
    "rel": [
     "v:返品:へんぴん"
    ],
-   "note": "払[はら]い戻[もど]し = hoàn lại tiền (vé, phí đã nộp)."
+   "note": "払[はら]い戻[もど]し = hoàn lại tiền (vé, phí đã nộp).",
+   "vt": "tha"
   },
   {
    "id": "v:取り消す:とりけす",

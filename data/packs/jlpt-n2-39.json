@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -163,7 +163,8 @@
    "rel": [
     "v:実施:じっし"
    ],
-   "note": "Cũng đọc せこう. Văn bản: 本[ほん]規程[きてい]は〜から施行[しこう]する = quy chế này có hiệu lực từ …."
+   "note": "Cũng đọc せこう. Văn bản: 本[ほん]規程[きてい]は〜から施行[しこう]する = quy chế này có hiệu lực từ ….",
+   "vt": "tha"
   },
   {
    "id": "v:適用:てきよう",
@@ -200,7 +201,8 @@
      "vi": "áp dụng bảo hiểm"
     }
    ],
-   "note": "保険[ほけん]適用[てきよう] = được bảo hiểm chi trả; 適用外[てきようがい] = không thuộc diện áp dụng."
+   "note": "保険[ほけん]適用[てきよう] = được bảo hiểm chi trả; 適用外[てきようがい] = không thuộc diện áp dụng.",
+   "vt": "tha"
   },
   {
    "id": "v:効力:こうりょく",
@@ -271,7 +273,8 @@
    "confuse": [
     "v:改正:かいせい"
    ],
-   "note": "改定[かいてい] = sửa lại mức, giá, quy chế đã định; 改正[かいせい] = sửa luật, quy định cho đúng hơn."
+   "note": "改定[かいてい] = sửa lại mức, giá, quy chế đã định; 改正[かいせい] = sửa luật, quy định cho đúng hơn.",
+   "vt": "tha"
   },
   {
    "id": "v:廃止:はいし",
@@ -308,7 +311,8 @@
      "vi": "bãi bỏ quy định"
     }
    ],
-   "note": "Trái nghĩa gần: 新設[しんせつ] = lập mới."
+   "note": "Trái nghĩa gần: 新設[しんせつ] = lập mới.",
+   "vt": "tha"
   },
   {
    "id": "v:遵守:じゅんしゅ",
@@ -348,7 +352,8 @@
    "rel": [
     "v:守る:まもる"
    ],
-   "note": "法令[ほうれい]遵守[じゅんしゅ] = コンプライアンス (tuân thủ pháp luật)."
+   "note": "法令[ほうれい]遵守[じゅんしゅ] = コンプライアンス (tuân thủ pháp luật).",
+   "vt": "tha"
   },
   {
    "id": "v:禁じる:きんじる",
@@ -619,7 +624,8 @@
    "ant": [
     "v:返却:へんきゃく"
    ],
-   "note": "貸与品[たいよひん] = đồ được cấp dùng (nghỉ việc phải trả lại)."
+   "note": "貸与品[たいよひん] = đồ được cấp dùng (nghỉ việc phải trả lại).",
+   "vt": "tha"
   },
   {
    "id": "v:返却:へんきゃく",
@@ -661,7 +667,8 @@
    ],
    "rel": [
     "v:返す:かえす"
-   ]
+   ],
+   "vt": "tha"
   },
   {
    "id": "v:ハラスメント:ハラスメント",
@@ -726,7 +733,8 @@
      "vi": "chú ý tới môi trường"
     }
    ],
-   "note": "ご配慮[はいりょ]ありがとうございます = cảm ơn sự quan tâm chu đáo (lịch sự)."
+   "note": "ご配慮[はいりょ]ありがとうございます = cảm ơn sự quan tâm chu đáo (lịch sự).",
+   "vt": "tu"
   },
   {
    "id": "v:勤務:きんむ",
@@ -766,7 +774,8 @@
    "rel": [
     "v:出勤:しゅっきん"
    ],
-   "note": "勤務先[きんむさき] = nơi làm việc; 勤務[きんむ]態度[たいど] = thái độ làm việc."
+   "note": "勤務先[きんむさき] = nơi làm việc; 勤務[きんむ]態度[たいど] = thái độ làm việc.",
+   "vt": "tu"
   },
   {
    "id": "v:部署:ぶしょ",
@@ -862,7 +871,8 @@
      "vi": "thuộc đội"
     }
    ],
-   "note": "所属[しょぞく]機関[きかん] = cơ quan tiếp nhận (với visa 特定技能[とくていぎのう] là công ty tuyển dụng)."
+   "note": "所属[しょぞく]機関[きかん] = cơ quan tiếp nhận (với visa 特定技能[とくていぎのう] là công ty tuyển dụng).",
+   "vt": "tu"
   },
   {
    "id": "v:配属:はいぞく",
@@ -902,7 +912,8 @@
    "rel": [
     "v:所属:しょぞく"
    ],
-   "note": "配属先[はいぞくさき] = nơi được phân về."
+   "note": "配属先[はいぞくさき] = nơi được phân về.",
+   "vt": "tha"
   },
   {
    "id": "v:後任:こうにん",
@@ -1111,7 +1122,8 @@
      "vi": "giảm lương nhân viên"
     }
    ],
-   "note": "Trái nghĩa: 昇給[しょうきゅう] = tăng lương."
+   "note": "Trái nghĩa: 昇給[しょうきゅう] = tăng lương.",
+   "vt": "tha"
   },
   {
    "id": "v:懲戒:ちょうかい",
@@ -1147,7 +1159,8 @@
    "rel": [
     "v:処分:しょぶん"
    ],
-   "note": "懲戒[ちょうかい]処分[しょぶん] = hình thức kỷ luật; 懲戒[ちょうかい]解雇[かいこ] = sa thải do kỷ luật (nặng nhất)."
+   "note": "懲戒[ちょうかい]処分[しょぶん] = hình thức kỷ luật; 懲戒[ちょうかい]解雇[かいこ] = sa thải do kỷ luật (nặng nhất).",
+   "vt": "tha"
   },
   {
    "id": "v:処分:しょぶん",
@@ -1187,7 +1200,8 @@
    "rel": [
     "v:懲戒:ちょうかい"
    ],
-   "note": "Đồ lớn (粗大[そだい]ごみ) phải đăng ký với địa phương để vứt."
+   "note": "Đồ lớn (粗大[そだい]ごみ) phải đăng ký với địa phương để vứt.",
+   "vt": "tha"
   },
   {
    "id": "v:解雇:かいこ",
@@ -1220,7 +1234,8 @@
      "vi": "sa thải nhân viên"
     }
    ],
-   "note": "Khẩu ngữ: クビになる = bị đuổi việc. Bị sa thải là 会社[かいしゃ]都合[つごう], khác 自己[じこ]都合[つごう]."
+   "note": "Khẩu ngữ: クビになる = bị đuổi việc. Bị sa thải là 会社[かいしゃ]都合[つごう], khác 自己[じこ]都合[つごう].",
+   "vt": "tha"
   },
   {
    "id": "v:退職:たいしょく",
@@ -1260,7 +1275,8 @@
    "confuse": [
     "v:辞める:やめる"
    ],
-   "note": "辞[や]める (nói thường) → 退職[たいしょく]する (văn bản, lịch sự)."
+   "note": "辞[や]める (nói thường) → 退職[たいしょく]する (văn bản, lịch sự).",
+   "vt": "tu"
   },
   {
    "id": "v:退職届:たいしょくとどけ",
@@ -1419,7 +1435,8 @@
    "confuse": [
     "v:欠勤:けっきん"
    ],
-   "note": "休職[きゅうしょく] = nghỉ dài, có giấy tờ; 欠勤[けっきん] = vắng mặt một ngày làm. Quay lại làm: 復職[ふくしょく]."
+   "note": "休職[きゅうしょく] = nghỉ dài, có giấy tờ; 欠勤[けっきん] = vắng mặt một ngày làm. Quay lại làm: 復職[ふくしょく].",
+   "vt": "tu"
   },
   {
    "id": "v:申し出る:もうしでる",
@@ -1618,7 +1635,8 @@
    "confuse": [
     "v:退職:たいしょく"
    ],
-   "note": "Hai nghĩa: tan làm về (một ngày) và nghỉ hẳn công ty. Xem ngữ cảnh."
+   "note": "Hai nghĩa: tan làm về (một ngày) và nghỉ hẳn công ty. Xem ngữ cảnh.",
+   "vt": "tu"
   },
   {
    "id": "v:終了:しゅうりょう",
@@ -1701,7 +1719,8 @@
      "vi": "mở cửa tiệm"
     }
    ],
-   "note": "閉店[へいてん]時間[じかん] = giờ đóng cửa; 閉店[へいてん]セール = bán xả hàng đóng cửa."
+   "note": "閉店[へいてん]時間[じかん] = giờ đóng cửa; 閉店[へいてん]セール = bán xả hàng đóng cửa.",
+   "vt": "tu"
   },
   {
    "id": "v:各位:かくい",
