@@ -1,1744 +1,1744 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n2-37",
-    "title": "JLPT N2 37 – Phán đoán",
-    "type": "vocab",
-    "level": "N2",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 2,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-37",
+  "title": "JLPT N2 37 – Phán đoán",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 3,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:特技:とくぎ",
+   "kana": "とくぎ",
+   "kanji": "特技",
+   "hv": "ĐẶC KỸ",
+   "vi": "tài riêng, kỹ năng đặc biệt",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sở trường",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:特技:とくぎ",
-      "kana": "とくぎ",
-      "kanji": "特技",
-      "hv": "ĐẶC KỸ",
-      "vi": "tài riêng, kỹ năng đặc biệt",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sở trường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "私[わたし]の特技[とくぎ]は、魚[さかな]を速[はや]くさばくことです。",
-          "vi": "Tài riêng của tôi là làm cá nhanh.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "履歴書[りれきしょ]の「特技[とくぎ]」の欄[らん]に、何[なに]を書[か]けばいいですか。",
-          "vi": "Ô \"kỹ năng đặc biệt\" trong sơ yếu lý lịch nên viết gì?",
-          "ctx": "thutuc"
-        }
-      ],
-      "rel": [
-        "v:得意:とくい"
-      ],
-      "note": "Hay gặp trong 履歴書[りれきしょ] (sơ yếu lý lịch) và phỏng vấn: 特技[とくぎ]は何[なん]ですか."
+     "jp": "私[わたし]の特技[とくぎ]は、魚[さかな]を速[はや]くさばくことです。",
+     "vi": "Tài riêng của tôi là làm cá nhanh.",
+     "ctx": "xuong"
     },
     {
-      "id": "v:不得意:ふとくい",
-      "kana": "ふとくい",
-      "kanji": "不得意",
-      "hv": "BẤT ĐẮC Ý",
-      "vi": "kém, không sở trường (về môn, việc)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sở trường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "私[わたし]は、計算[けいさん]が不得意[ふとくい]です。",
-          "vi": "Tôi kém tính toán.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "不得意[ふとくい]な作業[さぎょう]も、練習[れんしゅう]すればできるようになる。",
-          "vi": "Việc mình không giỏi thì luyện tập cũng sẽ làm được.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：漢字[かんじ]は得意[とくい]？B：読[よ]むのはいいけど、書[か]くのは不得意[ふとくい]なんです。",
-          "vi": "A: Chữ Hán có giỏi không? B: Đọc thì được nhưng viết thì kém.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "科目[かもく]",
-          "vi": "môn học"
-        },
-        {
-          "jp": "分野[ぶんや]",
-          "vi": "lĩnh vực"
-        }
-      ],
-      "ant": [
-        "v:得意:とくい"
-      ],
-      "confuse": [
-        "v:苦手:にがて"
-      ],
-      "note": "不得意[ふとくい] = khả năng kém (nói khách quan); 苦手[にがて] = kém và ngại, không thích."
-    },
-    {
-      "id": "v:強み:つよみ",
-      "kana": "つよみ",
-      "kanji": "強み",
-      "kf": "強[つよ]み",
-      "hv": "CƯỜNG",
-      "vi": "điểm mạnh, lợi thế",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sở trường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "二[に]か国[こく]語[ご]が話[はな]せるのが、私[わたし]の強[つよ]みです。",
-          "vi": "Nói được hai thứ tiếng là điểm mạnh của tôi.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "この工場[こうじょう]の強[つよ]みは、魚[さかな]の新鮮[しんせん]さです。",
-          "vi": "Điểm mạnh của nhà máy này là độ tươi của cá.",
-          "ctx": "xuong"
-        }
-      ],
-      "ant": [
-        "v:弱み:よわみ"
-      ],
-      "note": "Câu hỏi phỏng vấn hay gặp: あなたの強[つよ]みは何[なん]ですか."
-    },
-    {
-      "id": "v:弱み:よわみ",
-      "kana": "よわみ",
-      "kanji": "弱み",
-      "kf": "弱[よわ]み",
-      "hv": "NHƯỢC",
-      "vi": "điểm yếu, chỗ yếu (dễ bị lợi dụng)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sở trường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "自分[じぶん]の弱[よわ]みを知[し]ることも、大切[たいせつ]だ。",
-          "vi": "Biết điểm yếu của mình cũng quan trọng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "面接[めんせつ]で、自分[じぶん]の弱[よわ]みをどう話[はな]すか考[かんが]えた。",
-          "vi": "Tôi nghĩ cách nói về điểm yếu của mình trong phỏng vấn.",
-          "ctx": "thutuc"
-        }
-      ],
-      "ant": [
-        "v:強み:つよみ"
-      ],
-      "note": "弱[よわ]みを握[にぎ]られる = bị nắm thóp; 弱[よわ]みにつけこむ = lợi dụng chỗ yếu."
-    },
-    {
-      "id": "v:不器用:ぶきよう",
-      "kana": "ぶきよう",
-      "kanji": "不器用",
-      "hv": "BẤT KHÍ DỤNG",
-      "vi": "vụng về (tay chân, cách cư xử)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sở trường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "私[わたし]は不器用[ぶきよう]なので、細[こま]かい作業[さぎょう]に時間[じかん]がかかる。",
-          "vi": "Tôi vụng nên việc tỉ mỉ mất nhiều thời gian.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "父[ちち]は不器用[ぶきよう]だけど、家族[かぞく]思[おも]いの人[ひと]だ。",
-          "vi": "Bố tôi vụng về trong cách thể hiện nhưng rất thương gia đình.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：このひも、うまく結[むす]べない。B：貸[か]して。不器用[ぶきよう]だなあ。",
-          "vi": "A: Sợi dây này buộc mãi không được. B: Đưa đây. Vụng thế.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "手[て]",
-          "vi": "tay"
-        },
-        {
-          "jp": "人[ひと]",
-          "vi": "người"
-        }
-      ],
-      "ant": [
-        "v:器用:きよう"
-      ],
-      "note": "Nghĩa bóng: vụng trong giao tiếp, không khéo thể hiện (不器用[ぶきよう]な人[ひと])."
-    },
-    {
-      "id": "v:長ける:たける",
-      "kana": "たける",
-      "kanji": "長ける",
-      "kf": "長[た]ける",
-      "hv": "TRƯỜNG",
-      "vi": "tinh thông, thạo (về mặt nào)",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sở trường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]は、人[ひと]をまとめる力[ちから]に長[た]けている。",
-          "vi": "Anh ấy giỏi gắn kết mọi người.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "祖母[そぼ]は、料理[りょうり]の工夫[くふう]に長[た]けていた。",
-          "vi": "Bà tôi rất thạo biến tấu món ăn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：新[あたら]しい班[はん]長[ちょう]、どんな人[ひと]？B：段取[だんど]りに長[た]けた人[ひと]だよ。",
-          "vi": "A: Tổ trưởng mới là người thế nào? B: Là người giỏi sắp xếp công việc.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "語学[ごがく]に長[た]ける",
-          "vi": "giỏi ngoại ngữ"
-        },
-        {
-          "jp": "交渉[こうしょう]に長[た]ける",
-          "vi": "giỏi đàm phán"
-        }
-      ],
-      "note": "Hầu như chỉ dùng dạng 〜に長[た]けている / 〜に長[た]けた + danh từ (văn viết)."
-    },
-    {
-      "id": "v:勝る:まさる",
-      "kana": "まさる",
-      "kanji": "勝る",
-      "kf": "勝[まさ]る",
-      "hv": "THẮNG",
-      "vi": "hơn, vượt trội (so với)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sở trường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "経験[けいけん]は、何[なに]にも勝[まさ]る宝[たから]です。",
-          "vi": "Kinh nghiệm là báu vật hơn mọi thứ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新[あたら]しい機械[きかい]は、スピードで古[ふる]い機械[きかい]に勝[まさ]っている。",
-          "vi": "Máy mới hơn máy cũ về tốc độ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：やっぱり家[いえ]で作[つく]ったご飯[はん]が一番[いちばん]だね。B：うん、どんな店[みせ]の味[あじ]にも勝[まさ]るよ。",
-          "vi": "A: Đúng là cơm nhà nấu ngon nhất nhỉ. B: Ừ, hơn hẳn vị của bất kỳ quán nào.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "何[なに]にも勝[まさ]る",
-          "vi": "hơn mọi thứ"
-        },
-        {
-          "jp": "相手[あいて]に勝[まさ]る",
-          "vi": "hơn đối phương"
-        }
-      ],
-      "ant": [
-        "v:劣る:おとる"
-      ],
-      "note": "〜に勝[まさ]るとも劣[おと]らない = không hề thua kém …. Cùng chữ: 勝[か]つ = thắng (trận)."
-    },
-    {
-      "id": "v:見分ける:みわける",
-      "kana": "みわける",
-      "kanji": "見分ける",
-      "kf": "見分[みわ]ける",
-      "hv": "KIẾN PHÂN",
-      "vi": "nhìn mà phân biệt được, nhận ra (khác nhau)",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sở trường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新鮮[しんせん]な魚[さかな]と古[ふる]い魚[さかな]を、見分[みわ]けられますか。",
-          "vi": "Bạn có phân biệt được cá tươi và cá cũ không?",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "双子[ふたご]なので、見分[みわ]けるのが難[むずか]しい。",
-          "vi": "Là sinh đôi nên khó phân biệt.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：これ、本物[ほんもの]？B：うーん、偽物[にせもの]と見分[みわ]けがつかないね。",
-          "vi": "A: Cái này là hàng thật à? B: Hừm, không phân biệt được với hàng giả.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "色[いろ]を見分[みわ]ける",
-          "vi": "phân biệt màu"
-        },
-        {
-          "jp": "本物[ほんもの]を見分[みわ]ける",
-          "vi": "nhận ra hàng thật"
-        }
-      ],
-      "rel": [
-        "v:区別:くべつ"
-      ],
-      "fx": [
-        {
-          "f": "kano",
-          "jp": "慣[な]れれば、良[よ]い魚[さかな]と悪[わる]い魚[さかな]を[[見分[みわ]けられ]]ます。",
-          "vi": "Quen rồi sẽ phân biệt được cá tốt và cá xấu."
-        }
-      ],
-      "note": "見分[みわ]けがつく = phân biệt được."
-    },
-    {
-      "id": "v:見抜く:みぬく",
-      "kana": "みぬく",
-      "kanji": "見抜く",
-      "kf": "見抜[みぬ]く",
-      "hv": "KIẾN BẠT",
-      "vi": "nhìn thấu, nhìn ra (bản chất, lời nói dối)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sở trường",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "班長[はんちょう]は、私[わたし]が疲[つか]れていることをすぐに見抜[みぬ]いた。",
-          "vi": "Tổ trưởng nhìn ra ngay là tôi đang mệt.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "子供[こども]のうそは、すぐ見抜[みぬ]ける。",
-          "vi": "Lời nói dối của trẻ con nhìn là biết ngay.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：その話[はなし]、うそでしょ？B：え、見抜[みぬ]かれちゃった？",
-          "vi": "A: Chuyện đó xạo đúng không? B: Ơ, bị nhìn thấu rồi à?",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "うそを見抜[みぬ]く",
-          "vi": "nhìn thấu lời nói dối"
-        },
-        {
-          "jp": "本質[ほんしつ]を見抜[みぬ]く",
-          "vi": "nhìn ra bản chất"
-        }
-      ],
-      "fx": [
-        {
-          "f": "ukemi",
-          "jp": "母[はは]には、何[なん]でもすぐ[[見抜[みぬ]かれ]]ます。",
-          "vi": "Cái gì cũng bị mẹ nhìn thấu ngay."
-        }
-      ]
-    },
-    {
-      "id": "v:実力者:じつりょくしゃ",
-      "kana": "じつりょくしゃ",
-      "kanji": "実力者",
-      "hv": "THỰC LỰC GIẢ",
-      "vi": "người có thực lực, người có thế lực",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Năng lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]は、この業界[ぎょうかい]の実力者[じつりょくしゃ]です。",
-          "vi": "Ông ấy là người có thế lực trong ngành này.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "班[はん]の中[なか]で一番[いちばん]の実力者[じつりょくしゃ]は、田中[たなか]さんだ。",
-          "vi": "Người giỏi thật sự nhất trong tổ là anh Tanaka.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:実力:じつりょく"
-      ]
-    },
-    {
-      "id": "v:達人:たつじん",
-      "kana": "たつじん",
-      "kanji": "達人",
-      "hv": "ĐẠT NHÂN",
-      "vi": "người tinh thông, bậc thầy (nhờ rèn luyện lâu)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Năng lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "田中[たなか]さんは、包丁[ほうちょう]の達人[たつじん]です。",
-          "vi": "Anh Tanaka là bậc thầy dùng dao.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "祖父[そふ]は、釣[つ]りの達人[たつじん]だった。",
-          "vi": "Ông tôi là cao thủ câu cá.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:名人:めいじん"
-      ]
-    },
-    {
-      "id": "v:専門家:せんもんか",
-      "kana": "せんもんか",
-      "kanji": "専門家",
-      "hv": "CHUYÊN MÔN GIA",
-      "vi": "chuyên gia",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Năng lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "専門家[せんもんか]の意見[いけん]を聞[き]いてから、決[き]めましょう。",
-          "vi": "Nghe ý kiến chuyên gia rồi hãy quyết định.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "税金[ぜいきん]のことは、専門家[せんもんか]に相談[そうだん]したほうがいい。",
-          "vi": "Chuyện thuế thì nên hỏi chuyên gia.",
-          "ctx": "thutuc"
-        }
-      ],
-      "ant": [
-        "v:素人:しろうと"
-      ],
-      "rel": [
-        "v:専門:せんもん"
-      ]
-    },
-    {
-      "id": "v:アマチュア:アマチュア",
-      "kana": "アマチュア",
-      "kanji": "",
-      "hv": "",
-      "vi": "nghiệp dư (người chơi)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Năng lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]は、アマチュアのサッカーチームに入[はい]っている。",
-          "vi": "Anh ấy ở trong một đội bóng nghiệp dư.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "会社[かいしゃ]のアマチュア写真[しゃしん]クラブに入[はい]った。",
-          "vi": "Tôi vào câu lạc bộ ảnh nghiệp dư của công ty.",
-          "ctx": "xuong"
-        }
-      ],
-      "ant": [
-        "v:プロ:プロ"
-      ],
-      "goc": "amateur (tiếng Anh)",
-      "note": "Nói tắt: アマ."
-    },
-    {
-      "id": "v:有能:ゆうのう",
-      "kana": "ゆうのう",
-      "kanji": "有能",
-      "hv": "HỮU NĂNG",
-      "vi": "có năng lực, giỏi giang (trong công việc)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Năng lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新[あたら]しい課長[かちょう]は、とても有能[ゆうのう]な人[ひと]です。",
-          "vi": "Trưởng phòng mới là người rất giỏi giang.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "有能[ゆうのう]な人[ひと]ほど、人[ひと]の話[はなし]をよく聞[き]く。",
-          "vi": "Người càng có năng lực càng biết lắng nghe.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：佐藤[さとう]さんって、仕事[しごと]が早[はや]いね。B：うん、本当[ほんとう]に有能[ゆうのう]だよ。",
-          "vi": "A: Chị Sato làm việc nhanh nhỉ. B: Ừ, giỏi thật đấy.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "社員[しゃいん]",
-          "vi": "nhân viên"
-        },
-        {
-          "jp": "人[ひと]",
-          "vi": "người"
-        }
-      ],
-      "ant": [
-        {
-          "w": "無能[むのう]",
-          "vi": "bất tài"
-        }
-      ],
-      "rel": [
-        "v:能力:のうりょく"
-      ]
-    },
-    {
-      "id": "v:素質:そしつ",
-      "kana": "そしつ",
-      "kanji": "素質",
-      "hv": "TỐ CHẤT",
-      "vi": "tố chất, năng khiếu sẵn có",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Năng lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "君[きみ]には、リーダーの素質[そしつ]がある。",
-          "vi": "Cậu có tố chất làm người dẫn dắt.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "娘[むすめ]には、音楽[おんがく]の素質[そしつ]があるようだ。",
-          "vi": "Con gái tôi hình như có năng khiếu âm nhạc.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:才能:さいのう"
-      ],
-      "note": "素質[そしつ] = tố chất có sẵn, cần rèn mới thành; 才能[さいのう] = tài năng đã bộc lộ."
-    },
-    {
-      "id": "v:適性:てきせい",
-      "kana": "てきせい",
-      "kanji": "適性",
-      "hv": "THÍCH TÍNH",
-      "vi": "sự phù hợp, năng khiếu (với công việc)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Năng lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この仕事[しごと]には、細[こま]かい作業[さぎょう]への適性[てきせい]が必要[ひつよう]だ。",
-          "vi": "Việc này cần người hợp với thao tác tỉ mỉ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "入社[にゅうしゃ]する前[まえ]に、適性検査[てきせいけんさ]を受[う]けました。",
-          "vi": "Trước khi vào công ty, tôi làm bài kiểm tra năng khiếu.",
-          "ctx": "thutuc"
-        }
-      ],
-      "rel": [
-        "v:適する:てきする"
-      ],
-      "note": "適性[てきせい]検査[けんさ] = bài kiểm tra mức độ hợp nghề; 適性[てきせい]がある = hợp với việc đó."
-    },
-    {
-      "id": "v:素早い:すばやい",
-      "kana": "すばやい",
-      "kanji": "素早い",
-      "kf": "素早[すばや]い",
-      "hv": "TỐ TẢO",
-      "vi": "nhanh nhẹn, lanh lẹ",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Năng lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]は、動[うご]きが素早[すばや]い。",
-          "vi": "Anh ấy động tác nhanh nhẹn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "猫[ねこ]は、素早[すばや]く逃[に]げていった。",
-          "vi": "Con mèo chạy vụt mất.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：もう片付[かたづ]けたの？B：うん、素早[すばや]いでしょ。",
-          "vi": "A: Dọn xong rồi à? B: Ừ, nhanh chưa.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "動[うご]き",
-          "vi": "động tác"
-        },
-        {
-          "jp": "対応[たいおう]",
-          "vi": "cách ứng phó"
-        }
-      ],
-      "ant": [
-        {
-          "w": "のろい",
-          "vi": "chậm chạp"
-        }
-      ],
-      "rel": [
-        "v:速い:はやい"
-      ]
-    },
-    {
-      "id": "v:向上:こうじょう",
-      "kana": "こうじょう",
-      "kanji": "向上",
-      "hv": "HƯỚNG THƯỢNG",
-      "vi": "được nâng cao (trình độ, chất lượng)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Năng lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "品質[ひんしつ]の向上[こうじょう]のために、毎朝[まいあさ]ミーティングをしています。",
-          "vi": "Để nâng cao chất lượng, mỗi sáng đều họp.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "日本語[にほんご]の力[ちから]を、もっと向上[こうじょう]させたい。",
-          "vi": "Tôi muốn nâng cao năng lực tiếng Nhật hơn nữa.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "品質[ひんしつ]が向上[こうじょう]する",
-          "vi": "chất lượng được nâng lên"
-        },
-        {
-          "jp": "能力[のうりょく]が向上[こうじょう]する",
-          "vi": "năng lực tăng lên"
-        }
-      ],
-      "ant": [
-        {
-          "w": "低下[ていか]",
-          "vi": "giảm sút"
-        }
-      ],
-      "rel": [
-        "v:向上心:こうじょうしん"
-      ]
-    },
-    {
-      "id": "v:人並み:ひとなみ",
-      "kana": "ひとなみ",
-      "kanji": "人並み",
-      "kf": "人並[ひとな]み",
-      "hv": "NHÂN TỊNH",
-      "vi": "bằng người ta, ở mức như mọi người",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Năng lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "日本語[にほんご]は、やっと人並[ひとな]みに話[はな]せるようになった。",
-          "vi": "Tiếng Nhật, cuối cùng tôi cũng nói được bằng người ta.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "人並[ひとな]み以上[いじょう]に努力[どりょく]しないと、リーダーにはなれない。",
-          "vi": "Không cố gắng hơn người thường thì không làm trưởng nhóm được.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "人並[ひとな]みの生活[せいかつ] = cuộc sống như bao người; 人並[ひとな]み外[はず]れた = khác thường, phi thường."
-    },
-    {
-      "id": "v:要領:ようりょう",
-      "kana": "ようりょう",
-      "kanji": "要領",
-      "hv": "YẾU LĨNH",
-      "vi": "bí quyết làm việc (cho trôi chảy); ý then chốt (của lời nói)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Năng lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]は要領[ようりょう]がいいから、仕事[しごと]が早[はや]く終[お]わる。",
-          "vi": "Anh ấy khéo xoay xở nên làm xong việc sớm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "説明[せつめい]が長[なが]くて、要領[ようりょう]を得[え]ない。",
-          "vi": "Giải thích dài dòng, chẳng rõ ý chính.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "要領[ようりょう]がいい = khéo xoay xở (đôi khi ý chê: khôn lỏi); 要領[ようりょう]を得[え]ない = không rõ ý; 要領[ようりょう]をつかむ = nắm được cách làm."
-    },
-    {
-      "id": "v:物覚え:ものおぼえ",
-      "kana": "ものおぼえ",
-      "kanji": "物覚え",
-      "kf": "物覚[ものおぼ]え",
-      "hv": "VẬT GIÁC",
-      "vi": "khả năng nhớ (mau nhớ hay chậm nhớ)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Năng lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新人[しんじん]は物覚[ものおぼ]えがよくて、もう一人[ひとり]で作業[さぎょう]できる。",
-          "vi": "Người mới nhớ nhanh, đã làm được một mình.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "年[とし]を取[と]って、物覚[ものおぼ]えが悪[わる]くなった。",
-          "vi": "Có tuổi rồi nên trí nhớ kém đi.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:記憶:きおく"
-      ],
-      "note": "物覚[ものおぼ]えがいい / 悪[わる]い = nhớ nhanh / chậm."
-    },
-    {
-      "id": "v:有望:ゆうぼう",
-      "kana": "ゆうぼう",
-      "kanji": "有望",
-      "hv": "HỮU VỌNG",
-      "vi": "có triển vọng",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Năng lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "グエンさんは、将来[しょうらい]有望[ゆうぼう]な若手[わかて]です。",
-          "vi": "Anh Nguyễn là người trẻ có triển vọng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "この分野[ぶんや]は、これから有望[ゆうぼう]だと言[い]われている。",
-          "vi": "Người ta nói lĩnh vực này sắp tới có triển vọng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：新人[しんじん]の中[なか]で、だれが一番[いちばん]有望[ゆうぼう]？B：やっぱりグエンさんかな。",
-          "vi": "A: Trong số người mới, ai triển vọng nhất? B: Chắc là anh Nguyễn.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "若手[わかて]",
-          "vi": "người trẻ"
-        },
-        {
-          "jp": "分野[ぶんや]",
-          "vi": "lĩnh vực"
-        }
-      ],
-      "note": "将来[しょうらい]有望[ゆうぼう] = có tương lai."
-    },
-    {
-      "id": "v:推測:すいそく",
-      "kana": "すいそく",
-      "kanji": "推測",
-      "hv": "SUY TRẮC",
-      "vi": "suy đoán (từ thông tin có sẵn)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Suy đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "音[おと]から、機械[きかい]の故障[こしょう]の原因[げんいん]を推測[すいそく]した。",
-          "vi": "Từ tiếng máy, tôi suy đoán nguyên nhân hỏng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "これは私[わたし]の推測[すいそく]ですが、田中[たなか]さんは来月[らいげつ]辞[や]めるかもしれません。",
-          "vi": "Đây là suy đoán của tôi, có thể tháng sau anh Tanaka nghỉ việc.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "原因[げんいん]を推測[すいそく]する",
-          "vi": "đoán nguyên nhân"
-        },
-        {
-          "jp": "気持[きも]ちを推測[すいそく]する",
-          "vi": "đoán tâm trạng"
-        }
-      ],
-      "confuse": [
-        "v:予測:よそく"
-      ],
-      "note": "推測[すいそく] = đoán điều chưa biết dựa trên thông tin có; 予測[よそく] = tính trước điều sẽ xảy ra."
-    },
-    {
-      "id": "v:推理:すいり",
-      "kana": "すいり",
-      "kanji": "推理",
-      "hv": "SUY LÝ",
-      "vi": "suy luận (bằng lý lẽ, tìm ra sự thật)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Suy đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "推理[すいり]小説[しょうせつ]を読[よ]むのが好[す]きです。",
-          "vi": "Tôi thích đọc tiểu thuyết trinh thám.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "状況[じょうきょう]から推理[すいり]すると、冷凍庫[れいとうこ]のドアが開[あ]いていたようだ。",
-          "vi": "Suy luận từ tình hình thì có vẻ cửa kho đông đã bị mở.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "犯人[はんにん]を推理[すいり]する",
-          "vi": "suy luận ra thủ phạm"
-        },
-        {
-          "jp": "原因[げんいん]を推理[すいり]する",
-          "vi": "suy luận nguyên nhân"
-        }
-      ],
-      "note": "推理[すいり]小説[しょうせつ] = tiểu thuyết trinh thám."
-    },
-    {
-      "id": "v:推定:すいてい",
-      "kana": "すいてい",
-      "kanji": "推定",
-      "hv": "THÔI ĐỊNH",
-      "vi": "ước đoán, ước tính (có căn cứ, văn viết)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Suy đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "火事[かじ]の原因[げんいん]は、たばこと推定[すいてい]されている。",
-          "vi": "Nguyên nhân vụ cháy được ước đoán là thuốc lá.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "推定[すいてい]の出荷量[しゅっかりょう]を、表[ひょう]にまとめてください。",
-          "vi": "Hãy tổng hợp lượng hàng xuất ước tính thành bảng.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "原因[げんいん]を推定[すいてい]する",
-          "vi": "ước đoán nguyên nhân"
-        },
-        {
-          "jp": "年齢[ねんれい]を推定[すいてい]する",
-          "vi": "ước đoán tuổi"
-        }
-      ],
-      "note": "Hay gặp trong tin tức: 〜と推定[すいてい]される."
-    },
-    {
-      "id": "v:察する:さっする",
-      "kana": "さっする",
-      "kanji": "察する",
-      "kf": "察[さっ]する",
-      "hv": "SÁT",
-      "vi": "đoán biết, thấu hiểu (lòng người)",
-      "pos": "v3",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Suy đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "相手[あいて]の気持[きも]ちを察[さっ]して、話[はな]し方[かた]を変[か]えた。",
-          "vi": "Đoán được tâm trạng người kia, tôi đổi cách nói.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "言[い]われなくても、相手[あいて]の気持[きも]ちを察[さっ]することが大切[たいせつ]だ。",
-          "vi": "Dù không được nói ra, thấu hiểu lòng người kia là điều quan trọng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：最近[さいきん]、元気[げんき]ないね。B：察[さっ]してよ。彼女[かのじょ]とけんかしたんだ。",
-          "vi": "A: Dạo này trông cậu ủ rũ nhỉ. B: Đoán xem nào. Tôi cãi nhau với bạn gái.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "気持[きも]ちを察[さっ]する",
-          "vi": "thấu hiểu tâm trạng"
-        },
-        {
-          "jp": "事情[じじょう]を察[さっ]する",
-          "vi": "hiểu được hoàn cảnh"
-        }
-      ],
-      "note": "お察[さっ]しします = tôi rất thông cảm (lời an ủi lịch sự)."
-    },
-    {
-      "id": "v:勘:かん",
-      "kana": "かん",
-      "kanji": "勘",
-      "hv": "KHÁM",
-      "vi": "trực giác, sự nhạy bén (do kinh nghiệm)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Suy đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "長年[ながねん]の勘[かん]で、魚[さかな]の鮮度[せんど]が分[わ]かる。",
-          "vi": "Nhờ trực giác nhiều năm, tôi biết được độ tươi của cá.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "何[なに]か変[へん]だと思[おも]ったら、勘[かん]が当[あ]たった。",
-          "vi": "Thấy có gì đó lạ, và trực giác đã đúng.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:予感:よかん"
-      ],
-      "note": "勘[かん]がいい = nhạy, mau hiểu ý; 勘[かん]が当[あ]たる / 外[はず]れる = đoán đúng / sai."
-    },
-    {
-      "id": "v:仮定:かてい",
-      "kana": "かてい",
-      "kanji": "仮定",
-      "hv": "GIẢ ĐỊNH",
-      "vi": "giả định, đặt giả thiết (nếu như … thì)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Suy đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "停電[ていでん]が起[お]きたと仮定[かてい]して、訓練[くんれん]をしました。",
-          "vi": "Giả định đã mất điện rồi tập huấn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "仮定[かてい]の話[はなし]ですが、もし宝[たから]くじが当[あ]たったらどうしますか。",
-          "vi": "Chỉ là chuyện giả sử thôi, nếu trúng xổ số thì anh làm gì?",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "最悪[さいあく]の場合[ばあい]を仮定[かてい]する",
-          "vi": "giả định trường hợp xấu nhất"
-        },
-        {
-          "jp": "事故[じこ]が起[お]きたと仮定[かてい]する",
-          "vi": "giả định có tai nạn"
-        }
-      ],
-      "confuse": [
-        "v:想定:そうてい"
-      ],
-      "rel": [
-        "v:仮に:かりに"
-      ],
-      "note": "仮定[かてい]の話[はなし] = chuyện giả sử. Đồng âm: 家庭[かてい] = gia đình, 過程[かてい] = quá trình."
-    },
-    {
-      "id": "v:確信:かくしん",
-      "kana": "かくしん",
-      "kanji": "確信",
-      "hv": "XÁC TÍN",
-      "vi": "tin chắc (có cơ sở), niềm tin vững chắc",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Suy đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この方法[ほうほう]なら、うまくいくと確信[かくしん]しています。",
-          "vi": "Tôi tin chắc cách này sẽ thành công.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "試験[しけん]に合格[ごうかく]できるという確信[かくしん]は、まだない。",
-          "vi": "Tôi vẫn chưa tin chắc mình sẽ đỗ.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "成功[せいこう]を確信[かくしん]する",
-          "vi": "tin chắc thành công"
-        },
-        {
-          "jp": "勝[か]ちを確信[かくしん]する",
-          "vi": "tin chắc sẽ thắng"
-        }
-      ],
-      "note": "確信[かくしん]を持[も]つ = có niềm tin chắc chắn."
-    },
-    {
-      "id": "v:断言:だんげん",
-      "kana": "だんげん",
-      "kanji": "断言",
-      "hv": "ĐOẠN NGÔN",
-      "vi": "khẳng định chắc nịch, quả quyết",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Suy đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "絶対[ぜったい]に大丈夫[だいじょうぶ]だとは、断言[だんげん]できません。",
-          "vi": "Tôi không thể quả quyết là tuyệt đối ổn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "医者[いしゃ]は、手術[しゅじゅつ]すれば治[なお]ると断言[だんげん]した。",
-          "vi": "Bác sĩ quả quyết rằng phẫu thuật là khỏi.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "はっきり断言[だんげん]する",
-          "vi": "nói chắc như đinh đóng cột"
-        },
-        {
-          "jp": "成功[せいこう]を断言[だんげん]する",
-          "vi": "quả quyết sẽ thành công"
-        }
-      ],
-      "confuse": [
-        "v:断定:だんてい"
-      ],
-      "note": "断言[だんげん] = nói ra một cách chắc chắn; 断定[だんてい] = kết luận dứt khoát sau khi xét."
-    },
-    {
-      "id": "v:断定:だんてい",
-      "kana": "だんてい",
-      "kanji": "断定",
-      "hv": "ĐOẠN ĐỊNH",
-      "vi": "kết luận dứt khoát (sau khi xem xét)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Suy đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "事故[じこ]の原因[げんいん]は、まだ断定[だんてい]できない。",
-          "vi": "Nguyên nhân tai nạn vẫn chưa thể kết luận dứt khoát.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "証拠[しょうこ]がないのに、犯人[はんにん]だと断定[だんてい]するのはおかしい。",
-          "vi": "Không có chứng cứ mà kết luận là thủ phạm thì thật vô lý.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "原因[げんいん]を断定[だんてい]する",
-          "vi": "kết luận nguyên nhân"
-        },
-        {
-          "jp": "犯人[はんにん]と断定[だんてい]する",
-          "vi": "kết luận là thủ phạm"
-        }
-      ],
-      "confuse": [
-        "v:断言:だんげん"
-      ],
-      "rel": [
-        "v:結論:けつろん"
-      ]
-    },
-    {
-      "id": "v:間違いない:まちがいない",
-      "kana": "まちがいない",
-      "kanji": "間違いない",
-      "kf": "間違[まちが]いない",
-      "hv": "GIAN VI",
-      "vi": "chắc chắn đúng, không thể sai",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Suy đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "田中[たなか]さんが言[い]うなら、間違[まちが]いない。",
-          "vi": "Anh Tanaka nói thì chắc chắn đúng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "この店[みせ]のラーメンは、間違[まちが]いなくおいしい。",
-          "vi": "Ramen quán này chắc chắn ngon.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：本当[ほんとう]に今日[きょう]が締[し]め切[き]り？B：うん、間違[まちが]いないよ。メールで確認[かくにん]した。",
-          "vi": "A: Thật hôm nay là hạn chót à? B: Ừ, chắc chắn. Tôi đã xem mail.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "情報[じょうほう]",
-          "vi": "thông tin"
-        },
-        {
-          "jp": "話[はなし]",
-          "vi": "chuyện"
-        }
-      ],
-      "rel": [
-        "v:間違い:まちがい"
-      ],
-      "note": "Phó từ: 間違[まちが]いなく = chắc chắn, không sai. Mẫu ngữ pháp gần: 〜に違[ちが]いない = chắc chắn là …."
-    },
-    {
-      "id": "v:案の定:あんのじょう",
-      "kana": "あんのじょう",
-      "kanji": "案の定",
-      "kf": "案[あん]の定[じょう]",
-      "hv": "ÁN ĐỊNH",
-      "vi": "y như rằng (điều đã lo)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Phó từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "雨[あめ]が降[ふ]りそうだと思[おも]ったら、案[あん]の定[じょう]降[ふ]ってきた。",
-          "vi": "Thấy trời sắp mưa, y như rằng mưa thật.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "確認[かくにん]しなかったら、案[あん]の定[じょう]ミスがあった。",
-          "vi": "Không kiểm tra, y như rằng có lỗi.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:やはり:やはり"
-      ],
-      "note": "Thường dùng khi điều không hay xảy ra đúng như đã đoán."
-    },
-    {
-      "id": "v:てっきり:てっきり",
-      "kana": "てっきり",
-      "kanji": "",
-      "hv": "",
-      "vi": "cứ đinh ninh là (nhưng hóa ra sai)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Phó từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "てっきり今日[きょう]は休[やす]みだと思[おも]っていたら、出勤日[しゅっきんび]だった。",
-          "vi": "Cứ đinh ninh hôm nay nghỉ, hóa ra là ngày đi làm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "てっきり日本人[にほんじん]だと思[おも]ったら、韓国[かんこく]の人[ひと]だった。",
-          "vi": "Cứ ngỡ là người Nhật, hóa ra là người Hàn.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Thường đi với 〜と思[おも]っていた / 〜と思[おも]ったら (sau đó biết là sai)."
-    },
-    {
-      "id": "v:ひょっとすると:ひょっとすると",
-      "kana": "ひょっとすると",
-      "kanji": "",
-      "hv": "",
-      "vi": "biết đâu chừng (khả năng thấp)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Phó từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ひょっとすると、明日[あした]は雪[ゆき]かもしれない。",
-          "vi": "Biết đâu chừng mai có tuyết.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "ひょっとすると、機械[きかい]の設定[せってい]が間違[まちが]っているのかもしれない。",
-          "vi": "Không chừng cài đặt máy bị sai.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        "v:もしかすると:もしかすると"
-      ],
-      "note": "Đi với 〜かもしれない. Biến thể: ひょっとしたら."
-    },
-    {
-      "id": "v:どうやら:どうやら",
-      "kana": "どうやら",
-      "kanji": "",
-      "hv": "",
-      "vi": "xem ra, có vẻ như (đoán từ tình hình)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Phó từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "どうやら、風邪[かぜ]をひいたらしい。",
-          "vi": "Xem ra tôi bị cảm rồi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "どうやら、今日[きょう]の出荷[しゅっか]は間[ま]に合[あ]いそうだ。",
-          "vi": "Có vẻ như chuyến xuất hàng hôm nay kịp.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "Đi với 〜らしい, 〜ようだ, 〜そうだ. Nghĩa khác: rốt cuộc cũng, khó khăn lắm mới (どうやら間[ま]に合[あ]った)."
-    },
-    {
-      "id": "v:さぞ:さぞ",
-      "kana": "さぞ",
-      "kanji": "",
-      "hv": "",
-      "vi": "chắc hẳn là (rất…)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Phó từ",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一人[ひとり]で引[ひ]っ越[こ]しなんて、さぞ大変[たいへん]だったでしょう。",
-          "vi": "Chuyển nhà một mình chắc hẳn vất vả lắm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "初[はじ]めての夜勤[やきん]は、さぞ疲[つか]れたでしょう。",
-          "vi": "Ca đêm đầu tiên chắc hẳn mệt lắm.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "Đi với 〜でしょう / 〜だろう, đoán cảm xúc người khác. Dạng nhấn: さぞかし."
-    },
-    {
-      "id": "v:決定的:けっていてき",
-      "kana": "けっていてき",
-      "kanji": "決定的",
-      "hv": "QUYẾT ĐỊNH ĐÍCH",
-      "vi": "mang tính quyết định, rõ ràng không chối được",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Bằng chứng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "防犯[ぼうはん]カメラの映像[えいぞう]が、決定的[けっていてき]な証拠[しょうこ]になった。",
-          "vi": "Hình ảnh camera an ninh đã thành bằng chứng quyết định.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この失敗[しっぱい]が、契約[けいやく]を失[うしな]った決定的[けっていてき]な原因[げんいん]だった。",
-          "vi": "Thất bại này là nguyên nhân quyết định khiến mất hợp đồng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：あの二人[ふたり]、付[つ]き合[あ]ってるの？B：手[て]をつないでるところを見[み]たよ。決定的[けっていてき]でしょ。",
-          "vi": "A: Hai người đó hẹn hò à? B: Tôi thấy họ nắm tay. Thế là rõ rồi còn gì.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "証拠[しょうこ]",
-          "vi": "chứng cứ"
-        },
-        {
-          "jp": "違[ちが]い",
-          "vi": "khác biệt"
-        }
-      ],
-      "rel": [
-        "v:決定:けってい"
-      ]
-    },
-    {
-      "id": "v:不自然:ふしぜん",
-      "kana": "ふしぜん",
-      "kanji": "不自然",
-      "hv": "BẤT TỰ NHIÊN",
-      "vi": "không tự nhiên, gượng gạo (lời nói, hành động)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Bằng chứng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]の説明[せつめい]には、不自然[ふしぜん]なところがある。",
-          "vi": "Lời giải thích của anh ta có chỗ bất thường.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "箱[はこ]の積[つ]み方[かた]が不自然[ふしぜん]で、倒[たお]れそうだった。",
-          "vi": "Cách chồng thùng không bình thường, trông sắp đổ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：この文[ぶん]、どう？B：意味[いみ]は分[わ]かるけど、ちょっと不自然[ふしぜん]かな。",
-          "vi": "A: Câu này thế nào? B: Hiểu nghĩa nhưng hơi gượng.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "笑顔[えがお]",
-          "vi": "nụ cười"
-        },
-        {
-          "jp": "文[ぶん]",
-          "vi": "câu văn"
-        }
-      ],
-      "ant": [
-        "v:自然:しぜん"
-      ]
-    },
-    {
-      "id": "v:兆し:きざし",
-      "kana": "きざし",
-      "kanji": "兆し",
-      "kf": "兆[きざ]し",
-      "hv": "TRIỆU",
-      "vi": "dấu hiệu (bắt đầu), mầm mống",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Bằng chứng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "景気[けいき]に、回復[かいふく]の兆[きざ]しが見[み]えてきた。",
-          "vi": "Kinh tế đã thấy dấu hiệu hồi phục.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "注文[ちゅうもん]が増[ふ]えて、忙[いそが]しくなる兆[きざ]しがある。",
-          "vi": "Đơn hàng tăng, có dấu hiệu sắp bận.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:前兆:ぜんちょう"
-      ],
-      "note": "兆[きざ]し = dấu hiệu sự việc bắt đầu (thường là tốt: 回復[かいふく]の兆[きざ]し); 前兆[ぜんちょう] = điềm báo trước (thường là việc xấu, thiên tai)."
-    },
-    {
-      "id": "v:前兆:ぜんちょう",
-      "kana": "ぜんちょう",
-      "kanji": "前兆",
-      "hv": "TIỀN TRIỆU",
-      "vi": "điềm báo trước (sự việc lớn)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Bằng chứng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "大[おお]きな地震[じしん]の前兆[ぜんちょう]かもしれないと、ニュースで言[い]っていた。",
-          "vi": "Tin tức nói có thể là điềm báo động đất lớn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "機械[きかい]の変[へん]な音[おと]は、故障[こしょう]の前兆[ぜんちょう]だ。",
-          "vi": "Tiếng lạ của máy là điềm báo sắp hỏng.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:兆し:きざし"
-      ]
-    },
-    {
-      "id": "v:目撃:もくげき",
-      "kana": "もくげき",
-      "kanji": "目撃",
-      "hv": "MỤC KÍCH",
-      "vi": "chứng kiến tận mắt",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Bằng chứng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "駅[えき]の前[まえ]で、事故[じこ]を目撃[もくげき]しました。",
-          "vi": "Tôi tận mắt chứng kiến tai nạn trước ga.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "事故[じこ]を目撃[もくげき]した人[ひと]は、班長[はんちょう]に報告[ほうこく]してください。",
-          "vi": "Ai chứng kiến tai nạn hãy báo cho tổ trưởng.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "事故[じこ]を目撃[もくげき]する",
-          "vi": "chứng kiến tai nạn"
-        },
-        {
-          "jp": "現場[げんば]を目撃[もくげき]する",
-          "vi": "tận mắt thấy hiện trường"
-        }
-      ],
-      "note": "目撃者[もくげきしゃ] = người chứng kiến, nhân chứng."
-    },
-    {
-      "id": "v:証言:しょうげん",
-      "kana": "しょうげん",
-      "kanji": "証言",
-      "hv": "CHỨNG NGÔN",
-      "vi": "lời khai, làm chứng",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Bằng chứng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "見[み]ていた人[ひと]の証言[しょうげん]で、事故[じこ]の原因[げんいん]が分[わ]かった。",
-          "vi": "Nhờ lời khai của người chứng kiến mà biết nguyên nhân tai nạn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "警察[けいさつ]で、見[み]たことをそのまま証言[しょうげん]した。",
-          "vi": "Ở đồn cảnh sát, tôi khai lại đúng những gì đã thấy.",
-          "ctx": "thutuc"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "事実[じじつ]を証言[しょうげん]する",
-          "vi": "làm chứng sự thật"
-        },
-        {
-          "jp": "裁判[さいばん]で証言[しょうげん]する",
-          "vi": "làm chứng ở tòa"
-        }
-      ],
-      "rel": [
-        "v:証明:しょうめい"
-      ],
-      "note": "証人[しょうにん] = người làm chứng."
-    },
-    {
-      "id": "v:疑い:うたがい",
-      "kana": "うたがい",
-      "kanji": "疑い",
-      "kf": "疑[うたが]い",
-      "hv": "NGHI",
-      "vi": "sự nghi ngờ; nghi (mắc bệnh)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Bằng chứng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "検査[けんさ]の結果[けっか]、病気[びょうき]の疑[うたが]いはないと言[い]われた。",
-          "vi": "Kết quả khám, được bảo không có nghi bệnh gì.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "異物[いぶつ]が入[はい]った疑[うたが]いがある製品[せいひん]は、すべて止[と]めてください。",
-          "vi": "Sản phẩm nghi bị lẫn dị vật thì dừng hết lại.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:疑う:うたがう"
-      ],
-      "note": "〜の疑[うたが]いがある = có nghi vấn …; 疑[うたが]いが晴[は]れる = hết bị nghi."
-    },
-    {
-      "id": "v:物語る:ものがたる",
-      "kana": "ものがたる",
-      "kanji": "物語る",
-      "kf": "物語[ものがた]る",
-      "hv": "VẬT NGỮ",
-      "vi": "nói lên, chứng tỏ (sự việc)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Bằng chứng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]の手[て]の傷[きず]が、長年[ながねん]の苦労[くろう]を物語[ものがた]っている。",
-          "vi": "Vết sẹo trên tay ông nói lên bao năm vất vả.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この数字[すうじ]は、品質[ひんしつ]管理[かんり]の大切[たいせつ]さを物語[ものがた]っている。",
-          "vi": "Con số này cho thấy tầm quan trọng của quản lý chất lượng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：この写真[しゃしん]、すごいね。B：うん、当時[とうじ]の生活[せいかつ]をよく物語[ものがた]ってるね。",
-          "vi": "A: Bức ảnh này hay nhỉ. B: Ừ, nói lên rõ cuộc sống hồi đó.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "事実[じじつ]を物語[ものがた]る",
-          "vi": "nói lên sự thật"
-        },
-        {
-          "jp": "苦労[くろう]を物語[ものがた]る",
-          "vi": "cho thấy sự vất vả"
-        }
-      ],
-      "rel": [
-        "v:物語:ものがたり"
-      ],
-      "note": "Nghĩa gốc: kể chuyện."
-    },
-    {
-      "id": "v:読み取る:よみとる",
-      "kana": "よみとる",
-      "kanji": "読み取る",
-      "kf": "読[よ]み取[と]る",
-      "hv": "ĐỘC THỦ",
-      "vi": "đọc ra, nắm bắt (ý, thông tin); nhận dạng (mã, thẻ bằng máy)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Bằng chứng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "グラフから、売[う]り上[あ]げの変化[へんか]を読[よ]み取[と]ってください。",
-          "vi": "Hãy đọc ra sự thay đổi doanh số từ biểu đồ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "相手[あいて]の表情[ひょうじょう]から、気持[きも]ちを読[よ]み取[と]る。",
-          "vi": "Đọc được tâm trạng từ nét mặt người kia.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：このバーコード、読[よ]み取[と]れないよ。B：汚[よご]れてるのかな。拭[ふ]いてみて。",
-          "vi": "A: Mã vạch này không quét được. B: Chắc bị bẩn. Thử lau xem.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "気持[きも]ちを読[よ]み取[と]る",
-          "vi": "đọc được tâm trạng"
-        },
-        {
-          "jp": "バーコードを読[よ]み取[と]る",
-          "vi": "quét mã vạch"
-        }
-      ],
-      "fx": [
-        {
-          "f": "kano",
-          "jp": "文章[ぶんしょう]の意味[いみ]が、正[ただ]しく[[読[よ]み取[と]れ]]ましたか。",
-          "vi": "Bạn đã đọc ra đúng ý bài văn chưa?"
-        }
-      ]
+     "jp": "履歴書[りれきしょ]の「特技[とくぎ]」の欄[らん]に、何[なに]を書[か]けばいいですか。",
+     "vi": "Ô \"kỹ năng đặc biệt\" trong sơ yếu lý lịch nên viết gì?",
+     "ctx": "thutuc"
     }
-  ]
+   ],
+   "rel": [
+    "v:得意:とくい"
+   ],
+   "note": "Hay gặp trong 履歴書[りれきしょ] (sơ yếu lý lịch) và phỏng vấn: 特技[とくぎ]は何[なん]ですか."
+  },
+  {
+   "id": "v:不得意:ふとくい",
+   "kana": "ふとくい",
+   "kanji": "不得意",
+   "hv": "BẤT ĐẮC Ý",
+   "vi": "kém, không sở trường (về môn, việc)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sở trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]は、計算[けいさん]が不得意[ふとくい]です。",
+     "vi": "Tôi kém tính toán.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "不得意[ふとくい]な作業[さぎょう]も、練習[れんしゅう]すればできるようになる。",
+     "vi": "Việc mình không giỏi thì luyện tập cũng sẽ làm được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：漢字[かんじ]は得意[とくい]？B：読[よ]むのはいいけど、書[か]くのは不得意[ふとくい]なんです。",
+     "vi": "A: Chữ Hán có giỏi không? B: Đọc thì được nhưng viết thì kém.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "科目[かもく]",
+     "vi": "môn học"
+    },
+    {
+     "jp": "分野[ぶんや]",
+     "vi": "lĩnh vực"
+    }
+   ],
+   "ant": [
+    "v:得意:とくい"
+   ],
+   "confuse": [
+    "v:苦手:にがて"
+   ],
+   "note": "不得意[ふとくい] = khả năng kém (nói khách quan); 苦手[にがて] = kém và ngại, không thích."
+  },
+  {
+   "id": "v:強み:つよみ",
+   "kana": "つよみ",
+   "kanji": "強み",
+   "kf": "強[つよ]み",
+   "hv": "CƯỜNG",
+   "vi": "điểm mạnh, lợi thế",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sở trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "二[に]か国[こく]語[ご]が話[はな]せるのが、私[わたし]の強[つよ]みです。",
+     "vi": "Nói được hai thứ tiếng là điểm mạnh của tôi.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "この工場[こうじょう]の強[つよ]みは、魚[さかな]の新鮮[しんせん]さです。",
+     "vi": "Điểm mạnh của nhà máy này là độ tươi của cá.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:弱み:よわみ"
+   ],
+   "note": "Câu hỏi phỏng vấn hay gặp: あなたの強[つよ]みは何[なん]ですか."
+  },
+  {
+   "id": "v:弱み:よわみ",
+   "kana": "よわみ",
+   "kanji": "弱み",
+   "kf": "弱[よわ]み",
+   "hv": "NHƯỢC",
+   "vi": "điểm yếu, chỗ yếu (dễ bị lợi dụng)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sở trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "自分[じぶん]の弱[よわ]みを知[し]ることも、大切[たいせつ]だ。",
+     "vi": "Biết điểm yếu của mình cũng quan trọng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "面接[めんせつ]で、自分[じぶん]の弱[よわ]みをどう話[はな]すか考[かんが]えた。",
+     "vi": "Tôi nghĩ cách nói về điểm yếu của mình trong phỏng vấn.",
+     "ctx": "thutuc"
+    }
+   ],
+   "ant": [
+    "v:強み:つよみ"
+   ],
+   "note": "弱[よわ]みを握[にぎ]られる = bị nắm thóp; 弱[よわ]みにつけこむ = lợi dụng chỗ yếu."
+  },
+  {
+   "id": "v:不器用:ぶきよう",
+   "kana": "ぶきよう",
+   "kanji": "不器用",
+   "hv": "BẤT KHÍ DỤNG",
+   "vi": "vụng về (tay chân, cách cư xử)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sở trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]は不器用[ぶきよう]なので、細[こま]かい作業[さぎょう]に時間[じかん]がかかる。",
+     "vi": "Tôi vụng nên việc tỉ mỉ mất nhiều thời gian.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "父[ちち]は不器用[ぶきよう]だけど、家族[かぞく]思[おも]いの人[ひと]だ。",
+     "vi": "Bố tôi vụng về trong cách thể hiện nhưng rất thương gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このひも、うまく結[むす]べない。B：貸[か]して。不器用[ぶきよう]だなあ。",
+     "vi": "A: Sợi dây này buộc mãi không được. B: Đưa đây. Vụng thế.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "手[て]",
+     "vi": "tay"
+    },
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    }
+   ],
+   "ant": [
+    "v:器用:きよう"
+   ],
+   "note": "Nghĩa bóng: vụng trong giao tiếp, không khéo thể hiện (不器用[ぶきよう]な人[ひと])."
+  },
+  {
+   "id": "v:長ける:たける",
+   "kana": "たける",
+   "kanji": "長ける",
+   "kf": "長[た]ける",
+   "hv": "TRƯỜNG",
+   "vi": "tinh thông, thạo (về mặt nào)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sở trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は、人[ひと]をまとめる力[ちから]に長[た]けている。",
+     "vi": "Anh ấy giỏi gắn kết mọi người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "祖母[そぼ]は、料理[りょうり]の工夫[くふう]に長[た]けていた。",
+     "vi": "Bà tôi rất thạo biến tấu món ăn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新[あたら]しい班[はん]長[ちょう]、どんな人[ひと]？B：段取[だんど]りに長[た]けた人[ひと]だよ。",
+     "vi": "A: Tổ trưởng mới là người thế nào? B: Là người giỏi sắp xếp công việc.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "語学[ごがく]に長[た]ける",
+     "vi": "giỏi ngoại ngữ"
+    },
+    {
+     "jp": "交渉[こうしょう]に長[た]ける",
+     "vi": "giỏi đàm phán"
+    }
+   ],
+   "note": "Hầu như chỉ dùng dạng 〜に長[た]けている / 〜に長[た]けた + danh từ (văn viết)."
+  },
+  {
+   "id": "v:勝る:まさる",
+   "kana": "まさる",
+   "kanji": "勝る",
+   "kf": "勝[まさ]る",
+   "hv": "THẮNG",
+   "vi": "hơn, vượt trội (so với)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sở trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "経験[けいけん]は、何[なに]にも勝[まさ]る宝[たから]です。",
+     "vi": "Kinh nghiệm là báu vật hơn mọi thứ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい機械[きかい]は、スピードで古[ふる]い機械[きかい]に勝[まさ]っている。",
+     "vi": "Máy mới hơn máy cũ về tốc độ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：やっぱり家[いえ]で作[つく]ったご飯[はん]が一番[いちばん]だね。B：うん、どんな店[みせ]の味[あじ]にも勝[まさ]るよ。",
+     "vi": "A: Đúng là cơm nhà nấu ngon nhất nhỉ. B: Ừ, hơn hẳn vị của bất kỳ quán nào.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "何[なに]にも勝[まさ]る",
+     "vi": "hơn mọi thứ"
+    },
+    {
+     "jp": "相手[あいて]に勝[まさ]る",
+     "vi": "hơn đối phương"
+    }
+   ],
+   "ant": [
+    "v:劣る:おとる"
+   ],
+   "note": "〜に勝[まさ]るとも劣[おと]らない = không hề thua kém …. Cùng chữ: 勝[か]つ = thắng (trận)."
+  },
+  {
+   "id": "v:見分ける:みわける",
+   "kana": "みわける",
+   "kanji": "見分ける",
+   "kf": "見分[みわ]ける",
+   "hv": "KIẾN PHÂN",
+   "vi": "nhìn mà phân biệt được, nhận ra (khác nhau)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sở trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新鮮[しんせん]な魚[さかな]と古[ふる]い魚[さかな]を、見分[みわ]けられますか。",
+     "vi": "Bạn có phân biệt được cá tươi và cá cũ không?",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "双子[ふたご]なので、見分[みわ]けるのが難[むずか]しい。",
+     "vi": "Là sinh đôi nên khó phân biệt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：これ、本物[ほんもの]？B：うーん、偽物[にせもの]と見分[みわ]けがつかないね。",
+     "vi": "A: Cái này là hàng thật à? B: Hừm, không phân biệt được với hàng giả.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "色[いろ]を見分[みわ]ける",
+     "vi": "phân biệt màu"
+    },
+    {
+     "jp": "本物[ほんもの]を見分[みわ]ける",
+     "vi": "nhận ra hàng thật"
+    }
+   ],
+   "rel": [
+    "v:区別:くべつ"
+   ],
+   "fx": [
+    {
+     "f": "kano",
+     "jp": "慣[な]れれば、良[よ]い魚[さかな]と悪[わる]い魚[さかな]を[[見分[みわ]けられ]]ます。",
+     "vi": "Quen rồi sẽ phân biệt được cá tốt và cá xấu."
+    }
+   ],
+   "note": "見分[みわ]けがつく = phân biệt được."
+  },
+  {
+   "id": "v:見抜く:みぬく",
+   "kana": "みぬく",
+   "kanji": "見抜く",
+   "kf": "見抜[みぬ]く",
+   "hv": "KIẾN BẠT",
+   "vi": "nhìn thấu, nhìn ra (bản chất, lời nói dối)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sở trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班長[はんちょう]は、私[わたし]が疲[つか]れていることをすぐに見抜[みぬ]いた。",
+     "vi": "Tổ trưởng nhìn ra ngay là tôi đang mệt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子供[こども]のうそは、すぐ見抜[みぬ]ける。",
+     "vi": "Lời nói dối của trẻ con nhìn là biết ngay.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：その話[はなし]、うそでしょ？B：え、見抜[みぬ]かれちゃった？",
+     "vi": "A: Chuyện đó xạo đúng không? B: Ơ, bị nhìn thấu rồi à?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "うそを見抜[みぬ]く",
+     "vi": "nhìn thấu lời nói dối"
+    },
+    {
+     "jp": "本質[ほんしつ]を見抜[みぬ]く",
+     "vi": "nhìn ra bản chất"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "母[はは]には、何[なん]でもすぐ[[見抜[みぬ]かれ]]ます。",
+     "vi": "Cái gì cũng bị mẹ nhìn thấu ngay."
+    }
+   ]
+  },
+  {
+   "id": "v:実力者:じつりょくしゃ",
+   "kana": "じつりょくしゃ",
+   "kanji": "実力者",
+   "hv": "THỰC LỰC GIẢ",
+   "vi": "người có thực lực, người có thế lực",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Năng lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は、この業界[ぎょうかい]の実力者[じつりょくしゃ]です。",
+     "vi": "Ông ấy là người có thế lực trong ngành này.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "班[はん]の中[なか]で一番[いちばん]の実力者[じつりょくしゃ]は、田中[たなか]さんだ。",
+     "vi": "Người giỏi thật sự nhất trong tổ là anh Tanaka.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:実力:じつりょく"
+   ]
+  },
+  {
+   "id": "v:達人:たつじん",
+   "kana": "たつじん",
+   "kanji": "達人",
+   "hv": "ĐẠT NHÂN",
+   "vi": "người tinh thông, bậc thầy (nhờ rèn luyện lâu)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Năng lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "田中[たなか]さんは、包丁[ほうちょう]の達人[たつじん]です。",
+     "vi": "Anh Tanaka là bậc thầy dùng dao.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "祖父[そふ]は、釣[つ]りの達人[たつじん]だった。",
+     "vi": "Ông tôi là cao thủ câu cá.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:名人:めいじん"
+   ]
+  },
+  {
+   "id": "v:専門家:せんもんか",
+   "kana": "せんもんか",
+   "kanji": "専門家",
+   "hv": "CHUYÊN MÔN GIA",
+   "vi": "chuyên gia",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Năng lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "専門家[せんもんか]の意見[いけん]を聞[き]いてから、決[き]めましょう。",
+     "vi": "Nghe ý kiến chuyên gia rồi hãy quyết định.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "税金[ぜいきん]のことは、専門家[せんもんか]に相談[そうだん]したほうがいい。",
+     "vi": "Chuyện thuế thì nên hỏi chuyên gia.",
+     "ctx": "thutuc"
+    }
+   ],
+   "ant": [
+    "v:素人:しろうと"
+   ],
+   "rel": [
+    "v:専門:せんもん"
+   ]
+  },
+  {
+   "id": "v:アマチュア:アマチュア",
+   "kana": "アマチュア",
+   "kanji": "",
+   "hv": "",
+   "vi": "nghiệp dư (người chơi)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Năng lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は、アマチュアのサッカーチームに入[はい]っている。",
+     "vi": "Anh ấy ở trong một đội bóng nghiệp dư.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]のアマチュア写真[しゃしん]クラブに入[はい]った。",
+     "vi": "Tôi vào câu lạc bộ ảnh nghiệp dư của công ty.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:プロ:プロ"
+   ],
+   "goc": "amateur (tiếng Anh)",
+   "note": "Nói tắt: アマ."
+  },
+  {
+   "id": "v:有能:ゆうのう",
+   "kana": "ゆうのう",
+   "kanji": "有能",
+   "hv": "HỮU NĂNG",
+   "vi": "có năng lực, giỏi giang (trong công việc)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Năng lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい課長[かちょう]は、とても有能[ゆうのう]な人[ひと]です。",
+     "vi": "Trưởng phòng mới là người rất giỏi giang.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "有能[ゆうのう]な人[ひと]ほど、人[ひと]の話[はなし]をよく聞[き]く。",
+     "vi": "Người càng có năng lực càng biết lắng nghe.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：佐藤[さとう]さんって、仕事[しごと]が早[はや]いね。B：うん、本当[ほんとう]に有能[ゆうのう]だよ。",
+     "vi": "A: Chị Sato làm việc nhanh nhỉ. B: Ừ, giỏi thật đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "社員[しゃいん]",
+     "vi": "nhân viên"
+    },
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    }
+   ],
+   "ant": [
+    {
+     "w": "無能[むのう]",
+     "vi": "bất tài"
+    }
+   ],
+   "rel": [
+    "v:能力:のうりょく"
+   ]
+  },
+  {
+   "id": "v:素質:そしつ",
+   "kana": "そしつ",
+   "kanji": "素質",
+   "hv": "TỐ CHẤT",
+   "vi": "tố chất, năng khiếu sẵn có",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Năng lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "君[きみ]には、リーダーの素質[そしつ]がある。",
+     "vi": "Cậu có tố chất làm người dẫn dắt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "娘[むすめ]には、音楽[おんがく]の素質[そしつ]があるようだ。",
+     "vi": "Con gái tôi hình như có năng khiếu âm nhạc.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:才能:さいのう"
+   ],
+   "note": "素質[そしつ] = tố chất có sẵn, cần rèn mới thành; 才能[さいのう] = tài năng đã bộc lộ."
+  },
+  {
+   "id": "v:適性:てきせい",
+   "kana": "てきせい",
+   "kanji": "適性",
+   "hv": "THÍCH TÍNH",
+   "vi": "sự phù hợp, năng khiếu (với công việc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Năng lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この仕事[しごと]には、細[こま]かい作業[さぎょう]への適性[てきせい]が必要[ひつよう]だ。",
+     "vi": "Việc này cần người hợp với thao tác tỉ mỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "入社[にゅうしゃ]する前[まえ]に、適性検査[てきせいけんさ]を受[う]けました。",
+     "vi": "Trước khi vào công ty, tôi làm bài kiểm tra năng khiếu.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:適する:てきする"
+   ],
+   "note": "適性[てきせい]検査[けんさ] = bài kiểm tra mức độ hợp nghề; 適性[てきせい]がある = hợp với việc đó."
+  },
+  {
+   "id": "v:素早い:すばやい",
+   "kana": "すばやい",
+   "kanji": "素早い",
+   "kf": "素早[すばや]い",
+   "hv": "TỐ TẢO",
+   "vi": "nhanh nhẹn, lanh lẹ",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Năng lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は、動[うご]きが素早[すばや]い。",
+     "vi": "Anh ấy động tác nhanh nhẹn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "猫[ねこ]は、素早[すばや]く逃[に]げていった。",
+     "vi": "Con mèo chạy vụt mất.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：もう片付[かたづ]けたの？B：うん、素早[すばや]いでしょ。",
+     "vi": "A: Dọn xong rồi à? B: Ừ, nhanh chưa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "動[うご]き",
+     "vi": "động tác"
+    },
+    {
+     "jp": "対応[たいおう]",
+     "vi": "cách ứng phó"
+    }
+   ],
+   "ant": [
+    {
+     "w": "のろい",
+     "vi": "chậm chạp"
+    }
+   ],
+   "rel": [
+    "v:速い:はやい"
+   ]
+  },
+  {
+   "id": "v:向上:こうじょう",
+   "kana": "こうじょう",
+   "kanji": "向上",
+   "hv": "HƯỚNG THƯỢNG",
+   "vi": "được nâng cao (trình độ, chất lượng)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Năng lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "品質[ひんしつ]の向上[こうじょう]のために、毎朝[まいあさ]ミーティングをしています。",
+     "vi": "Để nâng cao chất lượng, mỗi sáng đều họp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本語[にほんご]の力[ちから]を、もっと向上[こうじょう]させたい。",
+     "vi": "Tôi muốn nâng cao năng lực tiếng Nhật hơn nữa.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "品質[ひんしつ]が向上[こうじょう]する",
+     "vi": "chất lượng được nâng lên"
+    },
+    {
+     "jp": "能力[のうりょく]が向上[こうじょう]する",
+     "vi": "năng lực tăng lên"
+    }
+   ],
+   "ant": [
+    {
+     "w": "低下[ていか]",
+     "vi": "giảm sút"
+    }
+   ],
+   "rel": [
+    "v:向上心:こうじょうしん"
+   ]
+  },
+  {
+   "id": "v:人並み:ひとなみ",
+   "kana": "ひとなみ",
+   "kanji": "人並み",
+   "kf": "人並[ひとな]み",
+   "hv": "NHÂN TỊNH",
+   "vi": "bằng người ta, ở mức như mọi người",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Năng lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本語[にほんご]は、やっと人並[ひとな]みに話[はな]せるようになった。",
+     "vi": "Tiếng Nhật, cuối cùng tôi cũng nói được bằng người ta.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "人並[ひとな]み以上[いじょう]に努力[どりょく]しないと、リーダーにはなれない。",
+     "vi": "Không cố gắng hơn người thường thì không làm trưởng nhóm được.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "人並[ひとな]みの生活[せいかつ] = cuộc sống như bao người; 人並[ひとな]み外[はず]れた = khác thường, phi thường."
+  },
+  {
+   "id": "v:要領:ようりょう",
+   "kana": "ようりょう",
+   "kanji": "要領",
+   "hv": "YẾU LĨNH",
+   "vi": "bí quyết làm việc (cho trôi chảy); ý then chốt (của lời nói)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Năng lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は要領[ようりょう]がいいから、仕事[しごと]が早[はや]く終[お]わる。",
+     "vi": "Anh ấy khéo xoay xở nên làm xong việc sớm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "説明[せつめい]が長[なが]くて、要領[ようりょう]を得[え]ない。",
+     "vi": "Giải thích dài dòng, chẳng rõ ý chính.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "要領[ようりょう]がいい = khéo xoay xở (đôi khi ý chê: khôn lỏi); 要領[ようりょう]を得[え]ない = không rõ ý; 要領[ようりょう]をつかむ = nắm được cách làm."
+  },
+  {
+   "id": "v:物覚え:ものおぼえ",
+   "kana": "ものおぼえ",
+   "kanji": "物覚え",
+   "kf": "物覚[ものおぼ]え",
+   "hv": "VẬT GIÁC",
+   "vi": "khả năng nhớ (mau nhớ hay chậm nhớ)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Năng lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新人[しんじん]は物覚[ものおぼ]えがよくて、もう一人[ひとり]で作業[さぎょう]できる。",
+     "vi": "Người mới nhớ nhanh, đã làm được một mình.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "年[とし]を取[と]って、物覚[ものおぼ]えが悪[わる]くなった。",
+     "vi": "Có tuổi rồi nên trí nhớ kém đi.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:記憶:きおく"
+   ],
+   "note": "物覚[ものおぼ]えがいい / 悪[わる]い = nhớ nhanh / chậm."
+  },
+  {
+   "id": "v:有望:ゆうぼう",
+   "kana": "ゆうぼう",
+   "kanji": "有望",
+   "hv": "HỮU VỌNG",
+   "vi": "có triển vọng",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Năng lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "グエンさんは、将来[しょうらい]有望[ゆうぼう]な若手[わかて]です。",
+     "vi": "Anh Nguyễn là người trẻ có triển vọng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この分野[ぶんや]は、これから有望[ゆうぼう]だと言[い]われている。",
+     "vi": "Người ta nói lĩnh vực này sắp tới có triển vọng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新人[しんじん]の中[なか]で、だれが一番[いちばん]有望[ゆうぼう]？B：やっぱりグエンさんかな。",
+     "vi": "A: Trong số người mới, ai triển vọng nhất? B: Chắc là anh Nguyễn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "若手[わかて]",
+     "vi": "người trẻ"
+    },
+    {
+     "jp": "分野[ぶんや]",
+     "vi": "lĩnh vực"
+    }
+   ],
+   "note": "将来[しょうらい]有望[ゆうぼう] = có tương lai."
+  },
+  {
+   "id": "v:推測:すいそく",
+   "kana": "すいそく",
+   "kanji": "推測",
+   "hv": "SUY TRẮC",
+   "vi": "suy đoán (từ thông tin có sẵn)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "音[おと]から、機械[きかい]の故障[こしょう]の原因[げんいん]を推測[すいそく]した。",
+     "vi": "Từ tiếng máy, tôi suy đoán nguyên nhân hỏng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "これは私[わたし]の推測[すいそく]ですが、田中[たなか]さんは来月[らいげつ]辞[や]めるかもしれません。",
+     "vi": "Đây là suy đoán của tôi, có thể tháng sau anh Tanaka nghỉ việc.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "原因[げんいん]を推測[すいそく]する",
+     "vi": "đoán nguyên nhân"
+    },
+    {
+     "jp": "気持[きも]ちを推測[すいそく]する",
+     "vi": "đoán tâm trạng"
+    }
+   ],
+   "confuse": [
+    "v:予測:よそく"
+   ],
+   "note": "推測[すいそく] = đoán điều chưa biết dựa trên thông tin có; 予測[よそく] = tính trước điều sẽ xảy ra."
+  },
+  {
+   "id": "v:推理:すいり",
+   "kana": "すいり",
+   "kanji": "推理",
+   "hv": "SUY LÝ",
+   "vi": "suy luận (bằng lý lẽ, tìm ra sự thật)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "推理[すいり]小説[しょうせつ]を読[よ]むのが好[す]きです。",
+     "vi": "Tôi thích đọc tiểu thuyết trinh thám.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "状況[じょうきょう]から推理[すいり]すると、冷凍庫[れいとうこ]のドアが開[あ]いていたようだ。",
+     "vi": "Suy luận từ tình hình thì có vẻ cửa kho đông đã bị mở.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "犯人[はんにん]を推理[すいり]する",
+     "vi": "suy luận ra thủ phạm"
+    },
+    {
+     "jp": "原因[げんいん]を推理[すいり]する",
+     "vi": "suy luận nguyên nhân"
+    }
+   ],
+   "note": "推理[すいり]小説[しょうせつ] = tiểu thuyết trinh thám."
+  },
+  {
+   "id": "v:推定:すいてい",
+   "kana": "すいてい",
+   "kanji": "推定",
+   "hv": "SUY ĐỊNH",
+   "vi": "ước đoán, ước tính (có căn cứ, văn viết)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "火事[かじ]の原因[げんいん]は、たばこと推定[すいてい]されている。",
+     "vi": "Nguyên nhân vụ cháy được ước đoán là thuốc lá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "推定[すいてい]の出荷量[しゅっかりょう]を、表[ひょう]にまとめてください。",
+     "vi": "Hãy tổng hợp lượng hàng xuất ước tính thành bảng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "原因[げんいん]を推定[すいてい]する",
+     "vi": "ước đoán nguyên nhân"
+    },
+    {
+     "jp": "年齢[ねんれい]を推定[すいてい]する",
+     "vi": "ước đoán tuổi"
+    }
+   ],
+   "note": "Hay gặp trong tin tức: 〜と推定[すいてい]される."
+  },
+  {
+   "id": "v:察する:さっする",
+   "kana": "さっする",
+   "kanji": "察する",
+   "kf": "察[さっ]する",
+   "hv": "SÁT",
+   "vi": "đoán biết, thấu hiểu (lòng người)",
+   "pos": "v3",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "相手[あいて]の気持[きも]ちを察[さっ]して、話[はな]し方[かた]を変[か]えた。",
+     "vi": "Đoán được tâm trạng người kia, tôi đổi cách nói.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "言[い]われなくても、相手[あいて]の気持[きも]ちを察[さっ]することが大切[たいせつ]だ。",
+     "vi": "Dù không được nói ra, thấu hiểu lòng người kia là điều quan trọng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：最近[さいきん]、元気[げんき]ないね。B：察[さっ]してよ。彼女[かのじょ]とけんかしたんだ。",
+     "vi": "A: Dạo này trông cậu ủ rũ nhỉ. B: Đoán xem nào. Tôi cãi nhau với bạn gái.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "気持[きも]ちを察[さっ]する",
+     "vi": "thấu hiểu tâm trạng"
+    },
+    {
+     "jp": "事情[じじょう]を察[さっ]する",
+     "vi": "hiểu được hoàn cảnh"
+    }
+   ],
+   "note": "お察[さっ]しします = tôi rất thông cảm (lời an ủi lịch sự)."
+  },
+  {
+   "id": "v:勘:かん",
+   "kana": "かん",
+   "kanji": "勘",
+   "hv": "KHÁM",
+   "vi": "trực giác, sự nhạy bén (do kinh nghiệm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "長年[ながねん]の勘[かん]で、魚[さかな]の鮮度[せんど]が分[わ]かる。",
+     "vi": "Nhờ trực giác nhiều năm, tôi biết được độ tươi của cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "何[なに]か変[へん]だと思[おも]ったら、勘[かん]が当[あ]たった。",
+     "vi": "Thấy có gì đó lạ, và trực giác đã đúng.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:予感:よかん"
+   ],
+   "note": "勘[かん]がいい = nhạy, mau hiểu ý; 勘[かん]が当[あ]たる / 外[はず]れる = đoán đúng / sai."
+  },
+  {
+   "id": "v:仮定:かてい",
+   "kana": "かてい",
+   "kanji": "仮定",
+   "hv": "GIẢ ĐỊNH",
+   "vi": "giả định, đặt giả thiết (nếu như … thì)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "停電[ていでん]が起[お]きたと仮定[かてい]して、訓練[くんれん]をしました。",
+     "vi": "Giả định đã mất điện rồi tập huấn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "仮定[かてい]の話[はなし]ですが、もし宝[たから]くじが当[あ]たったらどうしますか。",
+     "vi": "Chỉ là chuyện giả sử thôi, nếu trúng xổ số thì anh làm gì?",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "最悪[さいあく]の場合[ばあい]を仮定[かてい]する",
+     "vi": "giả định trường hợp xấu nhất"
+    },
+    {
+     "jp": "事故[じこ]が起[お]きたと仮定[かてい]する",
+     "vi": "giả định có tai nạn"
+    }
+   ],
+   "confuse": [
+    "v:想定:そうてい"
+   ],
+   "rel": [
+    "v:仮に:かりに"
+   ],
+   "note": "仮定[かてい]の話[はなし] = chuyện giả sử. Đồng âm: 家庭[かてい] = gia đình, 過程[かてい] = quá trình."
+  },
+  {
+   "id": "v:確信:かくしん",
+   "kana": "かくしん",
+   "kanji": "確信",
+   "hv": "XÁC TÍN",
+   "vi": "tin chắc (có cơ sở), niềm tin vững chắc",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この方法[ほうほう]なら、うまくいくと確信[かくしん]しています。",
+     "vi": "Tôi tin chắc cách này sẽ thành công.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "試験[しけん]に合格[ごうかく]できるという確信[かくしん]は、まだない。",
+     "vi": "Tôi vẫn chưa tin chắc mình sẽ đỗ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "成功[せいこう]を確信[かくしん]する",
+     "vi": "tin chắc thành công"
+    },
+    {
+     "jp": "勝[か]ちを確信[かくしん]する",
+     "vi": "tin chắc sẽ thắng"
+    }
+   ],
+   "note": "確信[かくしん]を持[も]つ = có niềm tin chắc chắn."
+  },
+  {
+   "id": "v:断言:だんげん",
+   "kana": "だんげん",
+   "kanji": "断言",
+   "hv": "ĐOẠN NGÔN",
+   "vi": "khẳng định chắc nịch, quả quyết",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "絶対[ぜったい]に大丈夫[だいじょうぶ]だとは、断言[だんげん]できません。",
+     "vi": "Tôi không thể quả quyết là tuyệt đối ổn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "医者[いしゃ]は、手術[しゅじゅつ]すれば治[なお]ると断言[だんげん]した。",
+     "vi": "Bác sĩ quả quyết rằng phẫu thuật là khỏi.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "はっきり断言[だんげん]する",
+     "vi": "nói chắc như đinh đóng cột"
+    },
+    {
+     "jp": "成功[せいこう]を断言[だんげん]する",
+     "vi": "quả quyết sẽ thành công"
+    }
+   ],
+   "confuse": [
+    "v:断定:だんてい"
+   ],
+   "note": "断言[だんげん] = nói ra một cách chắc chắn; 断定[だんてい] = kết luận dứt khoát sau khi xét."
+  },
+  {
+   "id": "v:断定:だんてい",
+   "kana": "だんてい",
+   "kanji": "断定",
+   "hv": "ĐOẠN ĐỊNH",
+   "vi": "kết luận dứt khoát (sau khi xem xét)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事故[じこ]の原因[げんいん]は、まだ断定[だんてい]できない。",
+     "vi": "Nguyên nhân tai nạn vẫn chưa thể kết luận dứt khoát.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "証拠[しょうこ]がないのに、犯人[はんにん]だと断定[だんてい]するのはおかしい。",
+     "vi": "Không có chứng cứ mà kết luận là thủ phạm thì thật vô lý.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "原因[げんいん]を断定[だんてい]する",
+     "vi": "kết luận nguyên nhân"
+    },
+    {
+     "jp": "犯人[はんにん]と断定[だんてい]する",
+     "vi": "kết luận là thủ phạm"
+    }
+   ],
+   "confuse": [
+    "v:断言:だんげん"
+   ],
+   "rel": [
+    "v:結論:けつろん"
+   ]
+  },
+  {
+   "id": "v:間違いない:まちがいない",
+   "kana": "まちがいない",
+   "kanji": "間違いない",
+   "kf": "間違[まちが]いない",
+   "hv": "GIAN VI",
+   "vi": "chắc chắn đúng, không thể sai",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "田中[たなか]さんが言[い]うなら、間違[まちが]いない。",
+     "vi": "Anh Tanaka nói thì chắc chắn đúng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この店[みせ]のラーメンは、間違[まちが]いなくおいしい。",
+     "vi": "Ramen quán này chắc chắn ngon.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：本当[ほんとう]に今日[きょう]が締[し]め切[き]り？B：うん、間違[まちが]いないよ。メールで確認[かくにん]した。",
+     "vi": "A: Thật hôm nay là hạn chót à? B: Ừ, chắc chắn. Tôi đã xem mail.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "情報[じょうほう]",
+     "vi": "thông tin"
+    },
+    {
+     "jp": "話[はなし]",
+     "vi": "chuyện"
+    }
+   ],
+   "rel": [
+    "v:間違い:まちがい"
+   ],
+   "note": "Phó từ: 間違[まちが]いなく = chắc chắn, không sai. Mẫu ngữ pháp gần: 〜に違[ちが]いない = chắc chắn là …."
+  },
+  {
+   "id": "v:案の定:あんのじょう",
+   "kana": "あんのじょう",
+   "kanji": "案の定",
+   "kf": "案[あん]の定[じょう]",
+   "hv": "ÁN ĐỊNH",
+   "vi": "y như rằng (điều đã lo)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]が降[ふ]りそうだと思[おも]ったら、案[あん]の定[じょう]降[ふ]ってきた。",
+     "vi": "Thấy trời sắp mưa, y như rằng mưa thật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "確認[かくにん]しなかったら、案[あん]の定[じょう]ミスがあった。",
+     "vi": "Không kiểm tra, y như rằng có lỗi.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:やはり:やはり"
+   ],
+   "note": "Thường dùng khi điều không hay xảy ra đúng như đã đoán."
+  },
+  {
+   "id": "v:てっきり:てっきり",
+   "kana": "てっきり",
+   "kanji": "",
+   "hv": "",
+   "vi": "cứ đinh ninh là (nhưng hóa ra sai)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "てっきり今日[きょう]は休[やす]みだと思[おも]っていたら、出勤日[しゅっきんび]だった。",
+     "vi": "Cứ đinh ninh hôm nay nghỉ, hóa ra là ngày đi làm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "てっきり日本人[にほんじん]だと思[おも]ったら、韓国[かんこく]の人[ひと]だった。",
+     "vi": "Cứ ngỡ là người Nhật, hóa ra là người Hàn.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Thường đi với 〜と思[おも]っていた / 〜と思[おも]ったら (sau đó biết là sai)."
+  },
+  {
+   "id": "v:ひょっとすると:ひょっとすると",
+   "kana": "ひょっとすると",
+   "kanji": "",
+   "hv": "",
+   "vi": "biết đâu chừng (khả năng thấp)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ひょっとすると、明日[あした]は雪[ゆき]かもしれない。",
+     "vi": "Biết đâu chừng mai có tuyết.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ひょっとすると、機械[きかい]の設定[せってい]が間違[まちが]っているのかもしれない。",
+     "vi": "Không chừng cài đặt máy bị sai.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:もしかすると:もしかすると"
+   ],
+   "note": "Đi với 〜かもしれない. Biến thể: ひょっとしたら."
+  },
+  {
+   "id": "v:どうやら:どうやら",
+   "kana": "どうやら",
+   "kanji": "",
+   "hv": "",
+   "vi": "xem ra, có vẻ như (đoán từ tình hình)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "どうやら、風邪[かぜ]をひいたらしい。",
+     "vi": "Xem ra tôi bị cảm rồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "どうやら、今日[きょう]の出荷[しゅっか]は間[ま]に合[あ]いそうだ。",
+     "vi": "Có vẻ như chuyến xuất hàng hôm nay kịp.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Đi với 〜らしい, 〜ようだ, 〜そうだ. Nghĩa khác: rốt cuộc cũng, khó khăn lắm mới (どうやら間[ま]に合[あ]った)."
+  },
+  {
+   "id": "v:さぞ:さぞ",
+   "kana": "さぞ",
+   "kanji": "",
+   "hv": "",
+   "vi": "chắc hẳn là (rất…)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一人[ひとり]で引[ひ]っ越[こ]しなんて、さぞ大変[たいへん]だったでしょう。",
+     "vi": "Chuyển nhà một mình chắc hẳn vất vả lắm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "初[はじ]めての夜勤[やきん]は、さぞ疲[つか]れたでしょう。",
+     "vi": "Ca đêm đầu tiên chắc hẳn mệt lắm.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Đi với 〜でしょう / 〜だろう, đoán cảm xúc người khác. Dạng nhấn: さぞかし."
+  },
+  {
+   "id": "v:決定的:けっていてき",
+   "kana": "けっていてき",
+   "kanji": "決定的",
+   "hv": "QUYẾT ĐỊNH ĐÍCH",
+   "vi": "mang tính quyết định, rõ ràng không chối được",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bằng chứng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "防犯[ぼうはん]カメラの映像[えいぞう]が、決定的[けっていてき]な証拠[しょうこ]になった。",
+     "vi": "Hình ảnh camera an ninh đã thành bằng chứng quyết định.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この失敗[しっぱい]が、契約[けいやく]を失[うしな]った決定的[けっていてき]な原因[げんいん]だった。",
+     "vi": "Thất bại này là nguyên nhân quyết định khiến mất hợp đồng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの二人[ふたり]、付[つ]き合[あ]ってるの？B：手[て]をつないでるところを見[み]たよ。決定的[けっていてき]でしょ。",
+     "vi": "A: Hai người đó hẹn hò à? B: Tôi thấy họ nắm tay. Thế là rõ rồi còn gì.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "証拠[しょうこ]",
+     "vi": "chứng cứ"
+    },
+    {
+     "jp": "違[ちが]い",
+     "vi": "khác biệt"
+    }
+   ],
+   "rel": [
+    "v:決定:けってい"
+   ]
+  },
+  {
+   "id": "v:不自然:ふしぜん",
+   "kana": "ふしぜん",
+   "kanji": "不自然",
+   "hv": "BẤT TỰ NHIÊN",
+   "vi": "không tự nhiên, gượng gạo (lời nói, hành động)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bằng chứng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]の説明[せつめい]には、不自然[ふしぜん]なところがある。",
+     "vi": "Lời giải thích của anh ta có chỗ bất thường.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "箱[はこ]の積[つ]み方[かた]が不自然[ふしぜん]で、倒[たお]れそうだった。",
+     "vi": "Cách chồng thùng không bình thường, trông sắp đổ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この文[ぶん]、どう？B：意味[いみ]は分[わ]かるけど、ちょっと不自然[ふしぜん]かな。",
+     "vi": "A: Câu này thế nào? B: Hiểu nghĩa nhưng hơi gượng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "笑顔[えがお]",
+     "vi": "nụ cười"
+    },
+    {
+     "jp": "文[ぶん]",
+     "vi": "câu văn"
+    }
+   ],
+   "ant": [
+    "v:自然:しぜん"
+   ]
+  },
+  {
+   "id": "v:兆し:きざし",
+   "kana": "きざし",
+   "kanji": "兆し",
+   "kf": "兆[きざ]し",
+   "hv": "TRIỆU",
+   "vi": "dấu hiệu (bắt đầu), mầm mống",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bằng chứng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "景気[けいき]に、回復[かいふく]の兆[きざ]しが見[み]えてきた。",
+     "vi": "Kinh tế đã thấy dấu hiệu hồi phục.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "注文[ちゅうもん]が増[ふ]えて、忙[いそが]しくなる兆[きざ]しがある。",
+     "vi": "Đơn hàng tăng, có dấu hiệu sắp bận.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:前兆:ぜんちょう"
+   ],
+   "note": "兆[きざ]し = dấu hiệu sự việc bắt đầu (thường là tốt: 回復[かいふく]の兆[きざ]し); 前兆[ぜんちょう] = điềm báo trước (thường là việc xấu, thiên tai)."
+  },
+  {
+   "id": "v:前兆:ぜんちょう",
+   "kana": "ぜんちょう",
+   "kanji": "前兆",
+   "hv": "TIỀN TRIỆU",
+   "vi": "điềm báo trước (sự việc lớn)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bằng chứng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大[おお]きな地震[じしん]の前兆[ぜんちょう]かもしれないと、ニュースで言[い]っていた。",
+     "vi": "Tin tức nói có thể là điềm báo động đất lớn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "機械[きかい]の変[へん]な音[おと]は、故障[こしょう]の前兆[ぜんちょう]だ。",
+     "vi": "Tiếng lạ của máy là điềm báo sắp hỏng.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:兆し:きざし"
+   ]
+  },
+  {
+   "id": "v:目撃:もくげき",
+   "kana": "もくげき",
+   "kanji": "目撃",
+   "hv": "MỤC KÍCH",
+   "vi": "chứng kiến tận mắt",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bằng chứng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "駅[えき]の前[まえ]で、事故[じこ]を目撃[もくげき]しました。",
+     "vi": "Tôi tận mắt chứng kiến tai nạn trước ga.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "事故[じこ]を目撃[もくげき]した人[ひと]は、班長[はんちょう]に報告[ほうこく]してください。",
+     "vi": "Ai chứng kiến tai nạn hãy báo cho tổ trưởng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事故[じこ]を目撃[もくげき]する",
+     "vi": "chứng kiến tai nạn"
+    },
+    {
+     "jp": "現場[げんば]を目撃[もくげき]する",
+     "vi": "tận mắt thấy hiện trường"
+    }
+   ],
+   "note": "目撃者[もくげきしゃ] = người chứng kiến, nhân chứng."
+  },
+  {
+   "id": "v:証言:しょうげん",
+   "kana": "しょうげん",
+   "kanji": "証言",
+   "hv": "CHỨNG NGÔN",
+   "vi": "lời khai, làm chứng",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bằng chứng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "見[み]ていた人[ひと]の証言[しょうげん]で、事故[じこ]の原因[げんいん]が分[わ]かった。",
+     "vi": "Nhờ lời khai của người chứng kiến mà biết nguyên nhân tai nạn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "警察[けいさつ]で、見[み]たことをそのまま証言[しょうげん]した。",
+     "vi": "Ở đồn cảnh sát, tôi khai lại đúng những gì đã thấy.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事実[じじつ]を証言[しょうげん]する",
+     "vi": "làm chứng sự thật"
+    },
+    {
+     "jp": "裁判[さいばん]で証言[しょうげん]する",
+     "vi": "làm chứng ở tòa"
+    }
+   ],
+   "rel": [
+    "v:証明:しょうめい"
+   ],
+   "note": "証人[しょうにん] = người làm chứng."
+  },
+  {
+   "id": "v:疑い:うたがい",
+   "kana": "うたがい",
+   "kanji": "疑い",
+   "kf": "疑[うたが]い",
+   "hv": "NGHI",
+   "vi": "sự nghi ngờ; nghi (mắc bệnh)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bằng chứng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "検査[けんさ]の結果[けっか]、病気[びょうき]の疑[うたが]いはないと言[い]われた。",
+     "vi": "Kết quả khám, được bảo không có nghi bệnh gì.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "異物[いぶつ]が入[はい]った疑[うたが]いがある製品[せいひん]は、すべて止[と]めてください。",
+     "vi": "Sản phẩm nghi bị lẫn dị vật thì dừng hết lại.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:疑う:うたがう"
+   ],
+   "note": "〜の疑[うたが]いがある = có nghi vấn …; 疑[うたが]いが晴[は]れる = hết bị nghi."
+  },
+  {
+   "id": "v:物語る:ものがたる",
+   "kana": "ものがたる",
+   "kanji": "物語る",
+   "kf": "物語[ものがた]る",
+   "hv": "VẬT NGỮ",
+   "vi": "nói lên, chứng tỏ (sự việc)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bằng chứng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]の手[て]の傷[きず]が、長年[ながねん]の苦労[くろう]を物語[ものがた]っている。",
+     "vi": "Vết sẹo trên tay ông nói lên bao năm vất vả.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この数字[すうじ]は、品質[ひんしつ]管理[かんり]の大切[たいせつ]さを物語[ものがた]っている。",
+     "vi": "Con số này cho thấy tầm quan trọng của quản lý chất lượng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この写真[しゃしん]、すごいね。B：うん、当時[とうじ]の生活[せいかつ]をよく物語[ものがた]ってるね。",
+     "vi": "A: Bức ảnh này hay nhỉ. B: Ừ, nói lên rõ cuộc sống hồi đó.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事実[じじつ]を物語[ものがた]る",
+     "vi": "nói lên sự thật"
+    },
+    {
+     "jp": "苦労[くろう]を物語[ものがた]る",
+     "vi": "cho thấy sự vất vả"
+    }
+   ],
+   "rel": [
+    "v:物語:ものがたり"
+   ],
+   "note": "Nghĩa gốc: kể chuyện."
+  },
+  {
+   "id": "v:読み取る:よみとる",
+   "kana": "よみとる",
+   "kanji": "読み取る",
+   "kf": "読[よ]み取[と]る",
+   "hv": "ĐỘC THỦ",
+   "vi": "đọc ra, nắm bắt (ý, thông tin); nhận dạng (mã, thẻ bằng máy)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bằng chứng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "グラフから、売[う]り上[あ]げの変化[へんか]を読[よ]み取[と]ってください。",
+     "vi": "Hãy đọc ra sự thay đổi doanh số từ biểu đồ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "相手[あいて]の表情[ひょうじょう]から、気持[きも]ちを読[よ]み取[と]る。",
+     "vi": "Đọc được tâm trạng từ nét mặt người kia.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このバーコード、読[よ]み取[と]れないよ。B：汚[よご]れてるのかな。拭[ふ]いてみて。",
+     "vi": "A: Mã vạch này không quét được. B: Chắc bị bẩn. Thử lau xem.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "気持[きも]ちを読[よ]み取[と]る",
+     "vi": "đọc được tâm trạng"
+    },
+    {
+     "jp": "バーコードを読[よ]み取[と]る",
+     "vi": "quét mã vạch"
+    }
+   ],
+   "fx": [
+    {
+     "f": "kano",
+     "jp": "文章[ぶんしょう]の意味[いみ]が、正[ただ]しく[[読[よ]み取[と]れ]]ましたか。",
+     "vi": "Bạn đã đọc ra đúng ý bài văn chưa?"
+    }
+   ]
+  }
+ ]
 }

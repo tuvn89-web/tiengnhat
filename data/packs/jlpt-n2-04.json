@@ -1,1688 +1,1688 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n2-04",
-    "title": "JLPT N2 04 – Vừa mới… thì đã…",
-    "type": "vocab",
-    "level": "N2",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 2,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-04",
+  "title": "JLPT N2 04 – Vừa mới… thì đã…",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 3,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:晴れる:はれる",
+   "kana": "はれる",
+   "kanji": "晴れる",
+   "kf": "晴[は]れる",
+   "hv": "TÌNH",
+   "vi": "(trời) quang, tạnh; được giải tỏa (nghi ngờ)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:晴れる:はれる",
-      "kana": "はれる",
-      "kanji": "晴れる",
-      "kf": "晴[は]れる",
-      "hv": "TÌNH",
-      "vi": "(trời) quang, tạnh; được giải tỏa (nghi ngờ)",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "午後[ごご]から晴[は]れるそうなので、洗濯物[せんたくもの]を外[そと]に干[ほ]しました。",
-          "vi": "Nghe nói chiều trời quang nên tôi phơi đồ ngoài trời.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "話[はなし]を聞[き]いて、疑[うたが]いが晴[は]れました。",
-          "vi": "Nghe chuyện xong, mối nghi ngờ đã được giải tỏa.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：明日[あした]の運動会[うんどうかい]、晴[は]れるかな。B：予報[よほう]では、晴[は]れのち曇[くも]りだって。",
-          "vi": "A: Mai đại hội thể thao trời có nắng không nhỉ? B: Dự báo nói nắng rồi chuyển mây.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "空[そら]が晴[は]れる",
-          "vi": "trời quang"
-        },
-        {
-          "jp": "疑[うたが]いが晴[は]れる",
-          "vi": "hết bị nghi ngờ"
-        },
-        {
-          "jp": "気分[きぶん]が晴[は]れる",
-          "vi": "tâm trạng nhẹ nhõm"
-        }
-      ],
-      "ant": [
-        "v:曇る:くもる"
-      ],
-      "rel": [
-        "v:晴れ:はれ"
-      ],
-      "pair": {
-        "w": "晴[は]らす",
-        "vi": "làm tan, giải tỏa (nỗi buồn, nghi ngờ)"
-      }
+     "jp": "午後[ごご]から晴[は]れるそうなので、洗濯物[せんたくもの]を外[そと]に干[ほ]しました。",
+     "vi": "Nghe nói chiều trời quang nên tôi phơi đồ ngoài trời.",
+     "ctx": "doisong"
     },
     {
-      "id": "v:曇る:くもる",
-      "kana": "くもる",
-      "kanji": "曇る",
-      "kf": "曇[くも]る",
-      "hv": "ĐÀM",
-      "vi": "(trời) u ám, nhiều mây; mờ đi (kính)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "朝[あさ]は晴[は]れていたのに、昼[ひる]から曇[くも]ってきました。",
-          "vi": "Sáng còn nắng mà trưa trời đã kéo mây.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "冷凍庫[れいとうこ]から出[で]ると、眼鏡[めがね]が曇[くも]って何[なに]も見[み]えません。",
-          "vi": "Ra khỏi kho cấp đông là kính mờ, chẳng thấy gì.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：なんだか空[そら]が曇[くも]ってきたね。B：うん、傘[かさ]を持[も]っていこう。",
-          "vi": "A: Trời hơi u ám rồi nhỉ. B: Ừ, mang ô theo đi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "空[そら]が曇[くも]る",
-          "vi": "trời u ám"
-        },
-        {
-          "jp": "眼鏡[めがね]が曇[くも]る",
-          "vi": "kính mờ"
-        }
-      ],
-      "ant": [
-        "v:晴れる:はれる"
-      ],
-      "rel": [
-        "v:曇り:くもり"
-      ],
-      "note": "Nghĩa bóng: 表情[ひょうじょう]が曇[くも]る = nét mặt sầm lại."
+     "jp": "話[はなし]を聞[き]いて、疑[うたが]いが晴[は]れました。",
+     "vi": "Nghe chuyện xong, mối nghi ngờ đã được giải tỏa.",
+     "ctx": "xuong"
     },
     {
-      "id": "v:荒れる:あれる",
-      "kana": "あれる",
-      "kanji": "荒れる",
-      "kf": "荒[あ]れる",
-      "hv": "HOANG",
-      "vi": "(trời, biển) động, dữ dội; nứt nẻ (da)",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今夜[こんや]は、海[うみ]が荒[あ]れるので船[ふね]は出[で]ません。",
-          "vi": "Tối nay biển động nên thuyền không ra khơi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "冬[ふゆ]は水仕事[みずしごと]で、手[て]が荒[あ]れてしまいます。",
-          "vi": "Mùa đông làm việc với nước nên tay bị nứt nẻ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：週末[しゅうまつ]の天気[てんき]、どう？B：台風[たいふう]が近[ちか]づいて、かなり荒[あ]れるらしいよ。",
-          "vi": "A: Thời tiết cuối tuần thế nào? B: Bão đến gần, nghe nói sẽ dữ dội lắm.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "海[うみ]が荒[あ]れる",
-          "vi": "biển động"
-        },
-        {
-          "jp": "手[て]が荒[あ]れる",
-          "vi": "tay nứt nẻ"
-        },
-        {
-          "jp": "会議[かいぎ]が荒[あ]れる",
-          "vi": "cuộc họp náo loạn"
-        }
-      ],
-      "pair": {
-        "w": "荒[あ]らす",
-        "vi": "phá, làm tan hoang"
-      },
-      "note": "荒[あ]れた天気[てんき] = thời tiết xấu, mưa gió. 肌荒[はだあ]れ = da khô ráp."
-    },
-    {
-      "id": "v:降り出す:ふりだす",
-      "kana": "ふりだす",
-      "kanji": "降り出す",
-      "kf": "降[ふ]り出[だ]す",
-      "hv": "GIÁNG XUẤT",
-      "vi": "bắt đầu mưa, bắt đầu rơi (mưa, tuyết)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "家[いえ]を出[で]た途端[とたん]に、雨[あめ]が降[ふ]り出[だ]しました。",
-          "vi": "Vừa ra khỏi nhà thì trời đổ mưa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "雪[ゆき]が降[ふ]り出[だ]したので、トラックの出発[しゅっぱつ]を早[はや]めました。",
-          "vi": "Tuyết bắt đầu rơi nên cho xe tải xuất phát sớm hơn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：あ、降[ふ]り出[だ]した。B：本当[ほんとう]だ。急[いそ]いで洗濯物[せんたくもの]を入[い]れよう。",
-          "vi": "A: A, mưa rồi. B: Thật này. Mau mang đồ phơi vào thôi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "雨[あめ]が降[ふ]り出[だ]す",
-          "vi": "trời bắt đầu mưa"
-        }
-      ],
-      "rel": [
-        "v:降る:ふる",
-        "v:降り続く:ふりつづく"
-      ],
-      "note": "〜出[だ]す = bắt đầu (đột ngột) …: 泣[な]き出[だ]す, 走[はし]り出[だ]す."
-    },
-    {
-      "id": "v:降り続く:ふりつづく",
-      "kana": "ふりつづく",
-      "kanji": "降り続く",
-      "kf": "降[ふ]り続[つづ]く",
-      "hv": "GIÁNG TỤC",
-      "vi": "mưa mãi, rơi liên tục (mưa, tuyết)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "三日[みっか]間[かん]雨[あめ]が降[ふ]り続[つづ]いて、川[かわ]の水[みず]が増[ふ]えています。",
-          "vi": "Mưa liên tục ba ngày, nước sông đang dâng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "雪[ゆき]が降[ふ]り続[つづ]いたので、港[みなと]の作業[さぎょう]は休[やす]みになりました。",
-          "vi": "Tuyết rơi liên tục nên công việc ở cảng được nghỉ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：今週[こんしゅう]は、ずっと雨[あめ]ですね。B：ええ、金曜日[きんようび]まで降[ふ]り続[つづ]くそうですよ。",
-          "vi": "A: Tuần này mưa suốt nhỉ. B: Vâng, nghe nói mưa đến tận thứ sáu.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "雨[あめ]が降[ふ]り続[つづ]く",
-          "vi": "mưa mãi không dứt"
-        }
-      ],
-      "rel": [
-        "v:降り出す:ふりだす",
-        "v:止む:やむ"
-      ]
-    },
-    {
-      "id": "v:晴れ間:はれま",
-      "kana": "はれま",
-      "kanji": "晴れ間",
-      "kf": "晴[は]れ間[ま]",
-      "hv": "TÌNH GIAN",
-      "vi": "khoảng trời tạnh (giữa những cơn mưa)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "梅雨[つゆ]の晴[は]れ間[ま]に、布団[ふとん]を干[ほ]しました。",
-          "vi": "Tranh thủ hôm tạnh giữa mùa mưa, tôi phơi chăn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "雨[あめ]の晴[は]れ間[ま]を見[み]て、外[そと]の掃除[そうじ]をします。",
-          "vi": "Canh lúc ngớt mưa để dọn bên ngoài.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:晴れ:はれ"
-      ],
-      "note": "晴[は]れ間[ま]が出[で]る / のぞく = trời hửng lên một lúc."
-    },
-    {
-      "id": "v:にわか雨:にわかあめ",
-      "kana": "にわかあめ",
-      "kanji": "にわか雨",
-      "kf": "にわか雨[あめ]",
-      "hv": "VŨ",
-      "vi": "mưa rào bất chợt",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "午後[ごご]は、にわか雨[あめ]に注意[ちゅうい]してください。",
-          "vi": "Buổi chiều hãy đề phòng mưa rào bất chợt.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "にわか雨[あめ]で、干[ほ]していた網[あみ]がぬれてしまった。",
-          "vi": "Cơn mưa bất chợt làm ướt lưới đang phơi.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:夕立:ゆうだち"
-      ],
-      "note": "にわか = bất chợt, đột ngột (にわかに = đột nhiên, văn viết)."
-    },
-    {
-      "id": "v:夕立:ゆうだち",
-      "kana": "ゆうだち",
-      "kanji": "夕立",
-      "hv": "TỊCH LẬP",
-      "vi": "mưa rào chiều hè",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "夏[なつ]の夕方[ゆうがた]は、よく夕立[ゆうだち]が降[ふ]ります。",
-          "vi": "Chiều hè hay có mưa rào.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "夕立[ゆうだち]が過[す]ぎたら、少[すこ]し涼[すず]しくなりました。",
-          "vi": "Cơn mưa rào qua đi, trời mát hơn chút.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:にわか雨:にわかあめ"
-      ],
-      "note": "Mưa rào ngắn, to, hay có sấm, thường vào chiều mùa hè."
-    },
-    {
-      "id": "v:突風:とっぷう",
-      "kana": "とっぷう",
-      "kanji": "突風",
-      "hv": "ĐỘT PHONG",
-      "vi": "cơn gió giật",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "突風[とっぷう]で、テントが飛[と]ばされました。",
-          "vi": "Cơn gió giật làm bay cả lều.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "突風[とっぷう]に注意[ちゅうい]して、屋外[おくがい]の箱[はこ]をしっかり固定[こてい]してください。",
-          "vi": "Đề phòng gió giật, hãy cố định chắc các thùng ngoài trời.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:強風:きょうふう"
-      ]
-    },
-    {
-      "id": "v:雷雨:らいう",
-      "kana": "らいう",
-      "kanji": "雷雨",
-      "hv": "LÔI VŨ",
-      "vi": "mưa giông (có sấm)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "夕方[ゆうがた]から、激[はげ]しい雷雨[らいう]になるでしょう。",
-          "vi": "Từ chiều tối có thể có mưa giông dữ dội.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "雷雨[らいう]のときは、屋外[おくがい]での作業[さぎょう]をやめてください。",
-          "vi": "Khi có mưa giông hãy ngừng làm việc ngoài trời.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:雷:かみなり",
-        "v:落雷:らくらい"
-      ]
-    },
-    {
-      "id": "v:落雷:らくらい",
-      "kana": "らくらい",
-      "kanji": "落雷",
-      "hv": "LẠC LÔI",
-      "vi": "sét đánh",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "落雷[らくらい]で、工場[こうじょう]の電気[でんき]が止[と]まりました。",
-          "vi": "Sét đánh làm mất điện nhà máy.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "近[ちか]くの木[き]に落雷[らくらい]して、大[おお]きな音[おと]がしました。",
-          "vi": "Sét đánh vào cái cây gần đó, phát ra tiếng nổ lớn.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "木[き]に落雷[らくらい]する",
-          "vi": "sét đánh vào cây"
-        }
-      ],
-      "rel": [
-        "v:雷:かみなり"
-      ],
-      "note": "落雷[らくらい]による停電[ていでん] = mất điện do sét đánh."
-    },
-    {
-      "id": "v:豪雨:ごうう",
-      "kana": "ごうう",
-      "kanji": "豪雨",
-      "hv": "HÀO VŨ",
-      "vi": "mưa như trút (rất lớn)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "豪雨[ごうう]で、川[かわ]があふれそうになりました。",
-          "vi": "Mưa như trút làm sông suýt tràn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "豪雨[ごうう]の影響[えいきょう]で、魚[さかな]が港[みなと]に届[とど]きませんでした。",
-          "vi": "Do ảnh hưởng của mưa rất lớn, cá đã không về đến cảng.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        "v:大雨:おおあめ"
-      ],
-      "note": "豪雨[ごうう] = văn viết, tin tức. 集中豪雨[しゅうちゅうごうう] = mưa lớn tập trung một vùng. ゲリラ豪雨[ごうう] = mưa lớn bất chợt."
-    },
-    {
-      "id": "v:大雨:おおあめ",
-      "kana": "おおあめ",
-      "kanji": "大雨",
-      "hv": "ĐẠI VŨ",
-      "vi": "mưa lớn",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "大雨[おおあめ]で、電車[でんしゃ]が止[と]まっています。",
-          "vi": "Mưa lớn làm tàu đang ngừng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "大雨[おおあめ]のときは、早[はや]めに帰[かえ]ってもいいと言[い]われました。",
-          "vi": "Tôi được bảo hôm mưa lớn có thể về sớm.",
-          "ctx": "xuong"
-        }
-      ],
-      "ant": [
-        {
-          "w": "小雨[こさめ]",
-          "vi": "mưa nhỏ, mưa phùn"
-        }
-      ],
-      "syn": [
-        "v:豪雨:ごうう"
-      ],
-      "note": "大雨警報[おおあめけいほう] = cảnh báo mưa lớn. Đọc là おおあめ, không phải だいう."
-    },
-    {
-      "id": "v:快晴:かいせい",
-      "kana": "かいせい",
-      "kanji": "快晴",
-      "hv": "KHOÁI TÌNH",
-      "vi": "trời quang đãng (không gợn mây)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今日[きょう]は快晴[かいせい]で、富士山[ふじさん]がきれいに見[み]えます。",
-          "vi": "Hôm nay trời quang đãng, nhìn rõ núi Phú Sĩ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "快晴[かいせい]の日[ひ]は、港[みなと]の作業[さぎょう]がはかどります。",
-          "vi": "Ngày trời quang thì công việc ở cảng trôi chảy.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:晴れ:はれ"
-      ]
-    },
-    {
-      "id": "v:日差し:ひざし",
-      "kana": "ひざし",
-      "kanji": "日差し",
-      "kf": "日差[ひざ]し",
-      "hv": "NHẬT SAI",
-      "vi": "ánh nắng (chiếu xuống)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "夏[なつ]の日差[ひざ]しは強[つよ]いので、帽子[ぼうし]をかぶってください。",
-          "vi": "Nắng mùa hè gắt nên hãy đội mũ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "日差[ひざ]しが当[あ]たらない所[ところ]に、箱[はこ]を置[お]いてください。",
-          "vi": "Hãy để thùng ở chỗ không có nắng chiếu.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "日差[ひざ]しが強[つよ]い = nắng gắt. 日差[ひざ]しを浴[あ]びる = tắm nắng."
-    },
-    {
-      "id": "v:強風:きょうふう",
-      "kana": "きょうふう",
-      "kanji": "強風",
-      "hv": "CƯỜNG PHONG",
-      "vi": "gió mạnh",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "強風[きょうふう]のため、明石[あかし]海峡[かいきょう]大橋[おおはし]は通行止[つうこうど]めです。",
-          "vi": "Do gió mạnh, cầu Akashi Kaikyo bị cấm lưu thông.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "強風[きょうふう]の日[ひ]は、フォークリフトを外[そと]で使[つか]わないでください。",
-          "vi": "Ngày gió mạnh đừng dùng xe nâng ngoài trời.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:突風:とっぷう",
-        "v:暴風:ぼうふう"
-      ],
-      "note": "強風注意報[きょうふうちゅういほう] = khuyến cáo gió mạnh."
-    },
-    {
-      "id": "v:暴風:ぼうふう",
-      "kana": "ぼうふう",
-      "kanji": "暴風",
-      "hv": "BẠO PHONG",
-      "vi": "gió bão (cực mạnh)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "暴風警報[ぼうふうけいほう]が出[で]たので、学校[がっこう]は休[やす]みになりました。",
-          "vi": "Có cảnh báo gió bão nên trường được nghỉ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "暴風[ぼうふう]の中[なか]を、無理[むり]に出勤[しゅっきん]しないでください。",
-          "vi": "Đừng cố đi làm giữa lúc gió bão.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:強風:きょうふう",
-        "v:台風:たいふう"
-      ],
-      "note": "暴風雨[ぼうふうう] = mưa bão. 暴風警報[ぼうふうけいほう] = cảnh báo gió bão."
-    },
-    {
-      "id": "v:気圧:きあつ",
-      "kana": "きあつ",
-      "kanji": "気圧",
-      "hv": "KHÍ ÁP",
-      "vi": "khí áp",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "低気圧[ていきあつ]が近[ちか]づいて、明日[あした]は雨[あめ]になりそうです。",
-          "vi": "Áp thấp đến gần, mai có lẽ mưa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "気圧[きあつ]が下[さ]がると、頭[あたま]が痛[いた]くなる人[ひと]もいます。",
-          "vi": "Có người hễ khí áp giảm là đau đầu.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "高気圧[こうきあつ] = áp cao (trời đẹp). 低気圧[ていきあつ] = áp thấp (trời xấu)."
-    },
-    {
-      "id": "v:雨雲:あまぐも",
-      "kana": "あまぐも",
-      "kanji": "雨雲",
-      "hv": "VŨ VÂN",
-      "vi": "mây mưa",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "西[にし]の空[そら]に、黒[くろ]い雨雲[あまぐも]が出[で]てきました。",
-          "vi": "Mây mưa đen kéo đến ở phía tây.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "雨雲[あまぐも]レーダーを見[み]てから、網[あみ]を外[そと]に干[ほ]すか決[き]めます。",
-          "vi": "Xem ra-đa mây mưa rồi mới quyết có phơi lưới ngoài trời không.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:雨:あめ"
-      ],
-      "note": "Đọc あまぐも (không phải あめぐも). 雨雲[あまぐも]レーダー = bản đồ ra-đa mây mưa (ứng dụng thời tiết)."
-    },
-    {
-      "id": "v:雨宿り:あまやどり",
-      "kana": "あまやどり",
-      "kanji": "雨宿り",
-      "kf": "雨宿[あまやど]り",
-      "hv": "VŨ TÚC",
-      "vi": "trú mưa",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "急[きゅう]に雨[あめ]が降[ふ]ってきたので、コンビニで雨宿[あまやど]りしました。",
-          "vi": "Trời đổ mưa bất ngờ nên tôi trú mưa ở cửa hàng tiện lợi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "傘[かさ]がなくて、駅[えき]でしばらく雨宿[あまやど]りしました。",
-          "vi": "Không có ô, tôi trú mưa ở ga một lúc.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "軒下[のきした]で雨宿[あまやど]りする",
-          "vi": "trú mưa dưới mái hiên"
-        }
-      ],
-      "rel": [
-        "v:傘:かさ"
-      ]
-    },
-    {
-      "id": "v:予報士:よほうし",
-      "kana": "よほうし",
-      "kanji": "予報士",
-      "hv": "DỰ BÁO SĨ",
-      "vi": "chuyên viên dự báo (thời tiết)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "気象予報士[きしょうよほうし]によると、週末[しゅうまつ]は大雨[おおあめ]になるそうです。",
-          "vi": "Theo chuyên viên dự báo thời tiết, cuối tuần sẽ mưa lớn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "テレビの予報士[よほうし]が、台風[たいふう]の進[すす]み方[かた]を説明[せつめい]していました。",
-          "vi": "Chuyên viên dự báo trên TV đang giải thích đường đi của cơn bão.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:予報:よほう"
-      ],
-      "note": "Tên đầy đủ: 気象予報士[きしょうよほうし] (có chứng chỉ quốc gia)."
-    },
-    {
-      "id": "v:注意報:ちゅういほう",
-      "kana": "ちゅういほう",
-      "kanji": "注意報",
-      "hv": "CHÚ Ý BÁO",
-      "vi": "bản tin khuyến cáo (thời tiết — nhẹ hơn cảnh báo)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "大雨注意報[おおあめちゅういほう]が、警報[けいほう]に変[か]わりました。",
-          "vi": "Khuyến cáo mưa lớn đã chuyển thành cảnh báo.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "波浪注意報[はろうちゅういほう]が出[で]ているので、船[ふね]の出入[でい]りに気[き]をつけてください。",
-          "vi": "Đang có khuyến cáo sóng lớn nên chú ý tàu ra vào.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:警報:けいほう"
-      ],
-      "note": "Mức độ tăng dần: 注意報[ちゅういほう] (khuyến cáo) → 警報[けいほう] (cảnh báo) → 特別警報[とくべつけいほう] (cảnh báo đặc biệt)."
-    },
-    {
-      "id": "v:発令:はつれい",
-      "kana": "はつれい",
-      "kanji": "発令",
-      "hv": "PHÁT LỆNH",
-      "vi": "phát lệnh, ban bố (lệnh, cảnh báo)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "大雨警報[おおあめけいほう]が発令[はつれい]されたので、早[はや]めに作業[さぎょう]を終[お]えました。",
-          "vi": "Có cảnh báo mưa lớn được ban bố nên kết thúc việc sớm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "市[し]から、避難[ひなん]指示[しじ]が発令[はつれい]されました。",
-          "vi": "Thành phố đã ban bố lệnh sơ tán.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "警報[けいほう]を発令[はつれい]する",
-          "vi": "ban bố cảnh báo"
-        }
-      ],
-      "ant": [
-        "v:解除:かいじょ"
-      ],
-      "note": "Hay gặp ở thể bị động: 〜が発令[はつれい]される."
-    },
-    {
-      "id": "v:解除:かいじょ",
-      "kana": "かいじょ",
-      "kanji": "解除",
-      "hv": "GIẢI TRỪ",
-      "vi": "dỡ bỏ, gỡ (lệnh, khóa, hạn chế)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Thời tiết",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "警報[けいほう]が解除[かいじょ]されたら、作業[さぎょう]を再開[さいかい]します。",
-          "vi": "Khi cảnh báo được dỡ bỏ sẽ làm tiếp.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "スマホの画面[がめん]ロックを解除[かいじょ]してください。",
-          "vi": "Hãy mở khóa màn hình điện thoại.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "警報[けいほう]を解除[かいじょ]する",
-          "vi": "dỡ bỏ cảnh báo"
-        },
-        {
-          "jp": "ロックを解除[かいじょ]する",
-          "vi": "mở khóa"
-        }
-      ],
-      "ant": [
-        "v:発令:はつれい"
-      ],
-      "note": "Cũng dùng cho hợp đồng: 契約[けいやく]を解除[かいじょ]する = hủy hợp đồng (văn viết)."
-    },
-    {
-      "id": "v:急変:きゅうへん",
-      "kana": "きゅうへん",
-      "kanji": "急変",
-      "hv": "CẤP BIẾN",
-      "vi": "thay đổi đột ngột (bệnh, thời tiết, tình hình)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "山[やま]の天気[てんき]は、急変[きゅうへん]することがあります。",
-          "vi": "Thời tiết trên núi có khi thay đổi đột ngột.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "祖父[そふ]の容体[ようだい]が急変[きゅうへん]して、急[いそ]いで国[くに]へ帰[かえ]りました。",
-          "vi": "Bệnh tình của ông tôi trở nặng đột ngột nên tôi vội về nước.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "天気[てんき]が急変[きゅうへん]する",
-          "vi": "thời tiết thay đổi đột ngột"
-        }
-      ],
-      "rel": [
-        "v:急激:きゅうげき",
-        "v:一変:いっぺん"
-      ]
-    },
-    {
-      "id": "v:一変:いっぺん",
-      "kana": "いっぺん",
-      "kanji": "一変",
-      "hv": "NHẤT BIẾN",
-      "vi": "đổi khác hẳn (hoàn toàn)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新[あたら]しい機械[きかい]が入[はい]って、作業[さぎょう]のやり方[かた]が一変[いっぺん]しました。",
-          "vi": "Máy mới về, cách làm việc đổi khác hẳn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "地震[じしん]で、町[まち]の様子[ようす]が一変[いっぺん]してしまった。",
-          "vi": "Động đất làm diện mạo thị trấn thay đổi hoàn toàn.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "生活[せいかつ]が一変[いっぺん]する",
-          "vi": "cuộc sống đổi khác hẳn"
-        }
-      ],
-      "rel": [
-        "v:急変:きゅうへん"
-      ],
-      "note": "Đồng âm: 一遍[いっぺん] = một lần."
-    },
-    {
-      "id": "v:途端:とたん",
-      "kana": "とたん",
-      "kanji": "途端",
-      "hv": "ĐỒ ĐOAN",
-      "vi": "ngay lúc (vừa… thì)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "外[そと]に出[で]た途端[とたん]、雨[あめ]が降[ふ]ってきた。",
-          "vi": "Vừa ra ngoài thì trời đổ mưa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "スイッチを入[い]れた途端[とたん]に、機械[きかい]が止[と]まりました。",
-          "vi": "Vừa bật công tắc thì máy dừng.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "Mẫu: Vた + 途端[とたん]に = vừa … thì (việc bất ngờ xảy ra). Không dùng cho ý muốn của người nói."
-    },
-    {
-      "id": "v:たちまち:たちまち",
-      "kana": "たちまち",
-      "kanji": "",
-      "hv": "",
-      "vi": "ngay tức thì, trong chốc lát",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新[あたら]しい商品[しょうひん]は、たちまち売[う]り切[き]れました。",
-          "vi": "Sản phẩm mới bán hết ngay tức thì.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "冷凍庫[れいとうこ]を開[あ]けると、眼鏡[めがね]がたちまち曇[くも]ります。",
-          "vi": "Mở kho cấp đông là kính mờ ngay lập tức.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:瞬く間:またたくま"
-      ],
-      "note": "Văn viết, tả sự thay đổi diễn ra rất nhanh."
-    },
-    {
-      "id": "v:突如:とつじょ",
-      "kana": "とつじょ",
-      "kanji": "突如",
-      "hv": "ĐỘT NHƯ",
-      "vi": "bất thình lình (văn viết)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "突如[とつじょ]、大[おお]きな音[おと]がして、ラインが止[と]まった。",
-          "vi": "Bất thình lình có tiếng động lớn và dây chuyền dừng lại.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "静[しず]かな町[まち]に、突如[とつじょ]として事件[じけん]が起[お]きた。",
-          "vi": "Ở thị trấn yên bình, bất ngờ xảy ra một vụ án.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:突然:とつぜん",
-        "v:不意に:ふいに"
-      ],
-      "note": "Văn viết, tin tức. 突如[とつじょ]として = đột ngột. Nói thường: 突然[とつぜん]."
-    },
-    {
-      "id": "v:いきなり:いきなり",
-      "kana": "いきなり",
-      "kanji": "",
-      "hv": "",
-      "vi": "đột ngột, chẳng báo trước (bỗng dưng làm)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "課長[かちょう]に、いきなり明日[あした]から夜勤[やきん]だと言[い]われた。",
-          "vi": "Trưởng ban bất ngờ bảo tôi từ mai làm ca đêm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "子供[こども]が、いきなり道[みち]に飛[と]び出[だ]してきました。",
-          "vi": "Đứa trẻ đột ngột lao ra đường.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:突然:とつぜん",
-        "v:急に:きゅうに"
-      ],
-      "note": "Khẩu ngữ, nhấn mạnh không có bước chuẩn bị: いきなり本番[ほんばん] = vào thật luôn không tập."
-    },
-    {
-      "id": "v:一斉:いっせい",
-      "kana": "いっせい",
-      "kanji": "一斉",
-      "hv": "NHẤT TỀ",
-      "vi": "đồng loạt (cùng lúc)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "地震[じしん]の時[とき]、みんなのスマホが一斉[いっせい]に鳴[な]りました。",
-          "vi": "Lúc động đất, điện thoại của mọi người đồng loạt reo.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "五時[ごじ]になると、機械[きかい]が一斉[いっせい]に止[と]まります。",
-          "vi": "Đến 5 giờ máy móc đồng loạt dừng.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "Hay dùng 一斉[いっせい]に. 一斉[いっせい]清掃[せいそう] = tổng vệ sinh đồng loạt."
-    },
-    {
-      "id": "v:一気に:いっきに",
-      "kana": "いっきに",
-      "kanji": "一気に",
-      "kf": "一気[いっき]に",
-      "hv": "NHẤT KHÍ",
-      "vi": "một mạch, một lèo (dồn một lần)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "雨[あめ]が降[ふ]り出[だ]して、気温[きおん]が一気[いっき]に下[さ]がった。",
-          "vi": "Mưa xuống, nhiệt độ giảm hẳn một lúc.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "残[のこ]りの作業[さぎょう]を、一気[いっき]に片付[かたづ]けましょう。",
-          "vi": "Làm một lèo cho xong phần việc còn lại nào.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "一気飲[いっきの]み = uống cạn một hơi (dễ nguy hiểm)."
-    },
-    {
-      "id": "v:瞬く間:またたくま",
-      "kana": "またたくま",
-      "kanji": "瞬く間",
-      "kf": "瞬[またた]く間[ま]",
-      "hv": "THUẤN GIAN",
-      "vi": "trong nháy mắt",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "火[ひ]は、瞬[しばたた]く間[あいだ]に倉庫[そうこ]全体[ぜんたい]に広[ひろ]がった。",
-          "vi": "Lửa lan ra toàn bộ nhà kho trong nháy mắt.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "一年[いちねん]は、瞬[しばたた]く間[あいだ]に過[す]ぎてしまいました。",
-          "vi": "Một năm trôi qua trong chớp nhoáng.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:一瞬:いっしゅん"
-      ],
-      "note": "Hay dùng 瞬[しばたた]く間[あいだ]に. Nói thường: あっという間[ま]に."
-    },
-    {
-      "id": "v:見る見る:みるみる",
-      "kana": "みるみる",
-      "kanji": "見る見る",
-      "kf": "見[み]る見[み]る",
-      "hv": "KIẾN KIẾN",
-      "vi": "trông thấy rõ (thay đổi nhanh trước mắt)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "薬[くすり]を飲[の]んだら、熱[ねつ]が見[み]る見[み]る下[さ]がりました。",
-          "vi": "Uống thuốc xong, cơn sốt hạ trông thấy.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "空[そら]が見[み]る見[み]る暗[くら]くなって、雨[あめ]が降[ふ]ってきた。",
-          "vi": "Trời tối sầm lại trước mắt rồi đổ mưa.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Hay viết みるみる / 見[み]る見[み]るうちに."
-    },
-    {
-      "id": "v:異変:いへん",
-      "kana": "いへん",
-      "kanji": "異変",
-      "hv": "DỊ BIẾN",
-      "vi": "điều bất thường, sự cố lạ (khác thường)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "機械[きかい]の音[おと]に異変[いへん]を感[かん]じたら、すぐに止[と]めてください。",
-          "vi": "Nghe tiếng máy có gì khác thường thì dừng ngay.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "体[からだ]に異変[いへん]を感[かん]じて、病院[びょういん]に行[い]きました。",
-          "vi": "Thấy trong người có gì bất thường nên tôi đã đi viện.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:異常:いじょう"
-      ],
-      "note": "異変[いへん] = sự thay đổi khác thường (vừa xuất hiện). 異常[いじょう] = trạng thái không bình thường."
-    },
-    {
-      "id": "v:停止:ていし",
-      "kana": "ていし",
-      "kanji": "停止",
-      "hv": "ĐÌNH CHỈ",
-      "vi": "dừng hẳn, ngừng (máy, hoạt động)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "センサーが反応[はんのう]して、ラインが自動[じどう]で停止[ていし]しました。",
-          "vi": "Cảm biến phản ứng, dây chuyền tự động dừng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "料金[りょうきん]を払[はら]わないと、電気[でんき]が停止[ていし]されます。",
-          "vi": "Không trả tiền thì bị cắt điện.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "機械[きかい]を停止[ていし]する",
-          "vi": "dừng máy"
-        },
-        {
-          "jp": "営業[えいぎょう]を停止[ていし]する",
-          "vi": "ngừng kinh doanh"
-        }
-      ],
-      "ant": [
-        "v:再開:さいかい"
-      ],
-      "note": "緊急停止[きんきゅうていし] = dừng khẩn cấp. 一時[いちじ]停止[ていし] = dừng tạm (biển báo giao thông)."
-    },
-    {
-      "id": "v:復旧:ふっきゅう",
-      "kana": "ふっきゅう",
-      "kanji": "復旧",
-      "hv": "PHỤC CỰU",
-      "vi": "khôi phục (điện, đường, hệ thống sau sự cố)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "停電[ていでん]は、二時間[にじかん]後[ご]に復旧[ふっきゅう]しました。",
-          "vi": "Hai tiếng sau điện đã có lại.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "システムが復旧[ふっきゅう]するまで、手[て]で記録[きろく]してください。",
-          "vi": "Cho đến khi hệ thống khôi phục, hãy ghi chép bằng tay.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "電気[でんき]が復旧[ふっきゅう]する",
-          "vi": "có điện trở lại"
-        },
-        {
-          "jp": "線路[せんろ]を復旧[ふっきゅう]する",
-          "vi": "khôi phục đường ray"
-        }
-      ],
-      "rel": [
-        "v:回復:かいふく"
-      ],
-      "note": "復旧[ふっきゅう] = sửa cho hạ tầng, máy móc hoạt động lại như cũ. 回復[かいふく] = hồi phục (sức khỏe, thời tiết, kinh tế)."
-    },
-    {
-      "id": "v:緊急:きんきゅう",
-      "kana": "きんきゅう",
-      "kanji": "緊急",
-      "hv": "KHẨN CẤP",
-      "vi": "khẩn cấp, cấp bách (sự cố, cấp cứu)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đột ngột",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "緊急[きんきゅう]の時[とき]は、この番号[ばんごう]に電話[でんわ]してください。",
-          "vi": "Khi có việc khẩn cấp hãy gọi số này.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "緊急[きんきゅう]地震[じしん]速報[そくほう]が鳴[な]って、みんな机[つくえ]の下[した]に隠[かく]れました。",
-          "vi": "Báo động động đất khẩn cấp vang lên, mọi người nấp xuống gầm bàn.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:至急:しきゅう"
-      ],
-      "note": "緊急[きんきゅう] = tình huống nguy cấp (tai nạn, thiên tai). 至急[しきゅう] = việc cần làm gấp. 緊急[きんきゅう]停止[ていし]ボタン = nút dừng khẩn cấp."
-    },
-    {
-      "id": "v:次第に:しだいに",
-      "kana": "しだいに",
-      "kanji": "次第に",
-      "kf": "次第[しだい]に",
-      "hv": "THỨ ĐỆ",
-      "vi": "dần dần (theo đà)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Diễn biến & kết quả",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "雨[あめ]は、夜[よる]になって次第[しだい]に強[つよ]くなりました。",
-          "vi": "Về đêm mưa dần nặng hạt hơn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "仕事[しごと]にも、次第[しだい]に慣[な]れてきました。",
-          "vi": "Tôi cũng dần quen với công việc.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        "v:徐々に:じょじょに",
-        "v:だんだん:だんだん"
-      ],
-      "note": "Văn viết hơn だんだん. Khác mẫu ngữ pháp 〜次第[しだい] (= tùy vào, ngay khi)."
-    },
-    {
-      "id": "v:刻々:こっこく",
-      "kana": "こっこく",
-      "kanji": "刻々",
-      "hv": "KHẮC KHẮC",
-      "vi": "từng giây phút (thay đổi liên tục)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Diễn biến & kết quả",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "台風[たいふう]の情報[じょうほう]は、刻々[こっこく]と変[か]わっています。",
-          "vi": "Thông tin về cơn bão thay đổi từng giờ từng phút.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "出荷[しゅっか]の時間[じかん]が、刻々[こっこく]と近[ちか]づいてきた。",
-          "vi": "Giờ xuất hàng đang đến gần từng phút.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "Hay dùng 刻々[こっこく]と. Cũng đọc こくこく."
-    },
-    {
-      "id": "v:経過:けいか",
-      "kana": "けいか",
-      "kanji": "経過",
-      "hv": "KINH QUÁ",
-      "vi": "quá trình diễn biến (bệnh, công việc); trôi đi (thời gian — văn viết)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Diễn biến & kết quả",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "手術[しゅじゅつ]の後[あと]の経過[けいか]は、順調[じゅんちょう]です。",
-          "vi": "Diễn biến sau ca mổ thuận lợi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "事故[じこ]から一時間[いちじかん]が経過[けいか]して、やっと道路[どうろ]が通[とお]れるようになった。",
-          "vi": "Một tiếng sau tai nạn, đường mới đi lại được.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "時間[じかん]が経過[けいか]する",
-          "vi": "thời gian trôi qua"
-        }
-      ],
-      "rel": [
-        "v:経つ:たつ",
-        "v:成り行き:なりゆき"
-      ],
-      "note": "経過[けいか]を見[み]る = theo dõi diễn biến."
-    },
-    {
-      "id": "v:情勢:じょうせい",
-      "kana": "じょうせい",
-      "kanji": "情勢",
-      "hv": "TÌNH THẾ",
-      "vi": "tình thế, thời cuộc, thế cục (xã hội, chính trị)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Diễn biến & kết quả",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "世界[せかい]の情勢[じょうせい]によって、魚[さかな]の値段[ねだん]も変[か]わります。",
-          "vi": "Giá cá cũng thay đổi theo tình hình thế giới.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "国[くに]の情勢[じょうせい]が不安[ふあん]で、家族[かぞく]が心配[しんぱい]です。",
-          "vi": "Tình hình đất nước bất ổn nên tôi lo cho gia đình.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:状況:じょうきょう"
-      ],
-      "note": "情勢[じょうせい] = tình hình lớn (thế giới, kinh tế, chính trị). 状況[じょうきょう] = tình trạng cụ thể trước mắt."
-    },
-    {
-      "id": "v:成り行き:なりゆき",
-      "kana": "なりゆき",
-      "kanji": "成り行き",
-      "kf": "成[な]り行[ゆ]き",
-      "hv": "THÀNH HÀNH",
-      "vi": "diễn tiến tự nhiên (tình hình)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Diễn biến & kết quả",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "話[はな]し合[あ]いの成[な]り行[ゆ]きを、静[しず]かに見守[みまも]りました。",
-          "vi": "Tôi lặng lẽ theo dõi diễn tiến cuộc bàn bạc.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "成[な]り行[ゆ]きで、班[はん]長[ちょう]を引[ひ]き受[う]けることになった。",
-          "vi": "Chuyện đẩy đưa thế nào mà tôi thành người nhận làm tổ trưởng.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:経過:けいか"
-      ],
-      "note": "成[な]り行[ゆ]きに任[まか]せる = để mặc mọi chuyện tự diễn ra."
-    },
-    {
-      "id": "v:展開:てんかい",
-      "kana": "てんかい",
-      "kanji": "展開",
-      "hv": "TRIỂN KHAI",
-      "vi": "triển khai; diễn biến (câu chuyện, trận đấu)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Diễn biến & kết quả",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "試合[しあい]は、思[おも]いがけない展開[てんかい]になりました。",
-          "vi": "Trận đấu có diễn biến bất ngờ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "会社[かいしゃ]は、海外[かいがい]にも店[みせ]を展開[てんかい]しています。",
-          "vi": "Công ty cũng đang mở rộng cửa hàng ra nước ngoài.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "事業[じぎょう]を展開[てんかい]する",
-          "vi": "triển khai kinh doanh"
-        },
-        {
-          "jp": "話[はなし]が展開[てんかい]する",
-          "vi": "câu chuyện diễn biến"
-        }
-      ]
-    },
-    {
-      "id": "v:見通し:みとおし",
-      "kana": "みとおし",
-      "kanji": "見通し",
-      "kf": "見通[みとお]し",
-      "hv": "KIẾN THÔNG",
-      "vi": "dự đoán (tình hình sắp tới); tầm nhìn xa (đường)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Diễn biến & kết quả",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "電車[でんしゃ]の運転[うんてん]再開[さいかい]の見通[みとお]しは、まだ立[た]っていません。",
-          "vi": "Vẫn chưa có dự đoán khi nào tàu chạy lại.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "このカーブは見通[みとお]しが悪[わる]いので、ゆっくり走[はし]ってください。",
-          "vi": "Khúc cua này tầm nhìn kém nên chạy chậm thôi.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:見込み:みこみ"
-      ],
-      "rel": [
-        "v:予想:よそう"
-      ],
-      "note": "見通[みとお]しが立[た]つ = có thể đoán trước. 見通[みとお]しが甘[あま]い = tính toán lạc quan quá."
-    },
-    {
-      "id": "v:収まる:おさまる",
-      "kana": "おさまる",
-      "kanji": "収まる",
-      "kf": "収[おさ]まる",
-      "hv": "THU",
-      "vi": "lắng xuống, dịu đi (gió, cơn đau, tranh cãi); nằm gọn (trong hộp, khung)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Diễn biến & kết quả",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "風[かぜ]が収[おさ]まるまで、船[ふね]は港[みなと]で待[ま]ちます。",
-          "vi": "Thuyền đợi ở cảng cho tới khi gió lặng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "二人[ふたり]のけんかは、班長[はんちょう]が入[はい]ってやっと収[おさ]まった。",
-          "vi": "Hai người cãi nhau, tổ trưởng vào can mới yên.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：まだ揺[ゆ]れてる？B：もう収[おさ]まったみたい。",
-          "vi": "A: Còn rung không? B: Hình như đã ngừng rồi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "風[かぜ]が収[おさ]まる",
-          "vi": "gió lặng"
-        },
-        {
-          "jp": "騒[さわ]ぎが収[おさ]まる",
-          "vi": "yên ổn lại"
-        },
-        {
-          "jp": "箱[はこ]に収[おさ]まる",
-          "vi": "nằm gọn trong thùng"
-        }
-      ],
-      "pair": "v:収める:おさめる",
-      "note": "Đau bụng dịu đi thường viết 治[おさ]まる."
-    },
-    {
-      "id": "v:好転:こうてん",
-      "kana": "こうてん",
-      "kanji": "好転",
-      "hv": "HẢO CHUYỂN",
-      "vi": "chuyển biến tốt",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Diễn biến & kết quả",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新[あたら]しい機械[きかい]のおかげで、作業[さぎょう]の状況[じょうきょう]が好転[こうてん]しました。",
-          "vi": "Nhờ máy mới, tình hình công việc đã chuyển biến tốt.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "景気[けいき]が好転[こうてん]すれば、給料[きゅうりょう]も上[あ]がるかもしれません。",
-          "vi": "Kinh tế khởi sắc thì lương có khi cũng tăng.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "状況[じょうきょう]が好転[こうてん]する",
-          "vi": "tình hình chuyển biến tốt"
-        }
-      ],
-      "ant": [
-        {
-          "w": "悪化[あっか]",
-          "vi": "trở nên xấu đi"
-        }
-      ],
-      "rel": [
-        "v:回復:かいふく"
-      ]
-    },
-    {
-      "id": "v:逆転:ぎゃくてん",
-      "kana": "ぎゃくてん",
-      "kanji": "逆転",
-      "hv": "NGHỊCH CHUYỂN",
-      "vi": "lật ngược (tình thế)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Diễn biến & kết quả",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "最後[さいご]の一分[いっぷん]で、試合[しあい]が逆転[ぎゃくてん]しました。",
-          "vi": "Phút cuối cùng trận đấu bị lật ngược.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "売[う]り上[あ]げが、去年[きょねん]と今年[ことし]で逆転[ぎゃくてん]しました。",
-          "vi": "Doanh thu năm ngoái và năm nay đã đổi ngôi.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "試合[しあい]を逆転[ぎゃくてん]する",
-          "vi": "lật ngược trận đấu"
-        }
-      ],
-      "note": "逆転[ぎゃくてん]勝[か]ち = thắng ngược. 逆転[ぎゃくてん]負[ま]け = thua ngược."
-    },
-    {
-      "id": "v:場合によっては:ばあいによっては",
-      "kana": "ばあいによっては",
-      "kanji": "場合によっては",
-      "kf": "場合[ばあい]によっては",
-      "hv": "TRƯỜNG HỢP",
-      "vi": "tùy trường hợp, có khi",
-      "pos": "expr",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Diễn biến & kết quả",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "天気[てんき]次第[しだい]で、場合[ばあい]によっては作業[さぎょう]が中止[ちゅうし]になります。",
-          "vi": "Tùy thời tiết, có khi công việc bị hủy.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "場合[ばあい]によっては、もう一度[いちど]書類[しょるい]を出[だ]してもらうことがあります。",
-          "vi": "Tùy trường hợp, có thể phải nộp lại giấy tờ.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "Dùng khi báo trước khả năng xảy ra việc không mong muốn. Gần nghĩa: 状況[じょうきょう]によっては."
+     "jp": "A：明日[あした]の運動会[うんどうかい]、晴[は]れるかな。B：予報[よほう]では、晴[は]れのち曇[くも]りだって。",
+     "vi": "A: Mai đại hội thể thao trời có nắng không nhỉ? B: Dự báo nói nắng rồi chuyển mây.",
+     "ctx": "hoithoai"
     }
-  ]
+   ],
+   "coll": [
+    {
+     "jp": "空[そら]が晴[は]れる",
+     "vi": "trời quang"
+    },
+    {
+     "jp": "疑[うたが]いが晴[は]れる",
+     "vi": "hết bị nghi ngờ"
+    },
+    {
+     "jp": "気分[きぶん]が晴[は]れる",
+     "vi": "tâm trạng nhẹ nhõm"
+    }
+   ],
+   "ant": [
+    "v:曇る:くもる"
+   ],
+   "rel": [
+    "v:晴れ:はれ"
+   ],
+   "pair": {
+    "w": "晴[は]らす",
+    "vi": "làm tan, giải tỏa (nỗi buồn, nghi ngờ)"
+   }
+  },
+  {
+   "id": "v:曇る:くもる",
+   "kana": "くもる",
+   "kanji": "曇る",
+   "kf": "曇[くも]る",
+   "hv": "ĐÀM",
+   "vi": "(trời) u ám, nhiều mây; mờ đi (kính)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "朝[あさ]は晴[は]れていたのに、昼[ひる]から曇[くも]ってきました。",
+     "vi": "Sáng còn nắng mà trưa trời đã kéo mây.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]から出[で]ると、眼鏡[めがね]が曇[くも]って何[なに]も見[み]えません。",
+     "vi": "Ra khỏi kho cấp đông là kính mờ, chẳng thấy gì.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：なんだか空[そら]が曇[くも]ってきたね。B：うん、傘[かさ]を持[も]っていこう。",
+     "vi": "A: Trời hơi u ám rồi nhỉ. B: Ừ, mang ô theo đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "空[そら]が曇[くも]る",
+     "vi": "trời u ám"
+    },
+    {
+     "jp": "眼鏡[めがね]が曇[くも]る",
+     "vi": "kính mờ"
+    }
+   ],
+   "ant": [
+    "v:晴れる:はれる"
+   ],
+   "rel": [
+    "v:曇り:くもり"
+   ],
+   "note": "Nghĩa bóng: 表情[ひょうじょう]が曇[くも]る = nét mặt sầm lại."
+  },
+  {
+   "id": "v:荒れる:あれる",
+   "kana": "あれる",
+   "kanji": "荒れる",
+   "kf": "荒[あ]れる",
+   "hv": "HOANG",
+   "vi": "(trời, biển) động, dữ dội; nứt nẻ (da)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今夜[こんや]は、海[うみ]が荒[あ]れるので船[ふね]は出[で]ません。",
+     "vi": "Tối nay biển động nên thuyền không ra khơi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "冬[ふゆ]は水仕事[みずしごと]で、手[て]が荒[あ]れてしまいます。",
+     "vi": "Mùa đông làm việc với nước nên tay bị nứt nẻ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：週末[しゅうまつ]の天気[てんき]、どう？B：台風[たいふう]が近[ちか]づいて、かなり荒[あ]れるらしいよ。",
+     "vi": "A: Thời tiết cuối tuần thế nào? B: Bão đến gần, nghe nói sẽ dữ dội lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "海[うみ]が荒[あ]れる",
+     "vi": "biển động"
+    },
+    {
+     "jp": "手[て]が荒[あ]れる",
+     "vi": "tay nứt nẻ"
+    },
+    {
+     "jp": "会議[かいぎ]が荒[あ]れる",
+     "vi": "cuộc họp náo loạn"
+    }
+   ],
+   "pair": {
+    "w": "荒[あ]らす",
+    "vi": "phá, làm tan hoang"
+   },
+   "note": "荒[あ]れた天気[てんき] = thời tiết xấu, mưa gió. 肌荒[はだあ]れ = da khô ráp."
+  },
+  {
+   "id": "v:降り出す:ふりだす",
+   "kana": "ふりだす",
+   "kanji": "降り出す",
+   "kf": "降[ふ]り出[だ]す",
+   "hv": "GIÁNG XUẤT",
+   "vi": "bắt đầu mưa, bắt đầu rơi (mưa, tuyết)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家[いえ]を出[で]た途端[とたん]に、雨[あめ]が降[ふ]り出[だ]しました。",
+     "vi": "Vừa ra khỏi nhà thì trời đổ mưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "雪[ゆき]が降[ふ]り出[だ]したので、トラックの出発[しゅっぱつ]を早[はや]めました。",
+     "vi": "Tuyết bắt đầu rơi nên cho xe tải xuất phát sớm hơn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あ、降[ふ]り出[だ]した。B：本当[ほんとう]だ。急[いそ]いで洗濯物[せんたくもの]を入[い]れよう。",
+     "vi": "A: A, mưa rồi. B: Thật này. Mau mang đồ phơi vào thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "雨[あめ]が降[ふ]り出[だ]す",
+     "vi": "trời bắt đầu mưa"
+    }
+   ],
+   "rel": [
+    "v:降る:ふる",
+    "v:降り続く:ふりつづく"
+   ],
+   "note": "〜出[だ]す = bắt đầu (đột ngột) …: 泣[な]き出[だ]す, 走[はし]り出[だ]す."
+  },
+  {
+   "id": "v:降り続く:ふりつづく",
+   "kana": "ふりつづく",
+   "kanji": "降り続く",
+   "kf": "降[ふ]り続[つづ]く",
+   "hv": "GIÁNG TỤC",
+   "vi": "mưa mãi, rơi liên tục (mưa, tuyết)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "三日[みっか]間[かん]雨[あめ]が降[ふ]り続[つづ]いて、川[かわ]の水[みず]が増[ふ]えています。",
+     "vi": "Mưa liên tục ba ngày, nước sông đang dâng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "雪[ゆき]が降[ふ]り続[つづ]いたので、港[みなと]の作業[さぎょう]は休[やす]みになりました。",
+     "vi": "Tuyết rơi liên tục nên công việc ở cảng được nghỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：今週[こんしゅう]は、ずっと雨[あめ]ですね。B：ええ、金曜日[きんようび]まで降[ふ]り続[つづ]くそうですよ。",
+     "vi": "A: Tuần này mưa suốt nhỉ. B: Vâng, nghe nói mưa đến tận thứ sáu.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "雨[あめ]が降[ふ]り続[つづ]く",
+     "vi": "mưa mãi không dứt"
+    }
+   ],
+   "rel": [
+    "v:降り出す:ふりだす",
+    "v:止む:やむ"
+   ]
+  },
+  {
+   "id": "v:晴れ間:はれま",
+   "kana": "はれま",
+   "kanji": "晴れ間",
+   "kf": "晴[は]れ間[ま]",
+   "hv": "TÌNH GIAN",
+   "vi": "khoảng trời tạnh (giữa những cơn mưa)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "梅雨[つゆ]の晴[は]れ間[ま]に、布団[ふとん]を干[ほ]しました。",
+     "vi": "Tranh thủ hôm tạnh giữa mùa mưa, tôi phơi chăn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "雨[あめ]の晴[は]れ間[ま]を見[み]て、外[そと]の掃除[そうじ]をします。",
+     "vi": "Canh lúc ngớt mưa để dọn bên ngoài.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:晴れ:はれ"
+   ],
+   "note": "晴[は]れ間[ま]が出[で]る / のぞく = trời hửng lên một lúc."
+  },
+  {
+   "id": "v:にわか雨:にわかあめ",
+   "kana": "にわかあめ",
+   "kanji": "にわか雨",
+   "kf": "にわか雨[あめ]",
+   "hv": "VŨ",
+   "vi": "mưa rào bất chợt",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "午後[ごご]は、にわか雨[あめ]に注意[ちゅうい]してください。",
+     "vi": "Buổi chiều hãy đề phòng mưa rào bất chợt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "にわか雨[あめ]で、干[ほ]していた網[あみ]がぬれてしまった。",
+     "vi": "Cơn mưa bất chợt làm ướt lưới đang phơi.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:夕立:ゆうだち"
+   ],
+   "note": "にわか = bất chợt, đột ngột (にわかに = đột nhiên, văn viết)."
+  },
+  {
+   "id": "v:夕立:ゆうだち",
+   "kana": "ゆうだち",
+   "kanji": "夕立",
+   "hv": "TỊCH LẬP",
+   "vi": "mưa rào chiều hè",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夏[なつ]の夕方[ゆうがた]は、よく夕立[ゆうだち]が降[ふ]ります。",
+     "vi": "Chiều hè hay có mưa rào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "夕立[ゆうだち]が過[す]ぎたら、少[すこ]し涼[すず]しくなりました。",
+     "vi": "Cơn mưa rào qua đi, trời mát hơn chút.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:にわか雨:にわかあめ"
+   ],
+   "note": "Mưa rào ngắn, to, hay có sấm, thường vào chiều mùa hè."
+  },
+  {
+   "id": "v:突風:とっぷう",
+   "kana": "とっぷう",
+   "kanji": "突風",
+   "hv": "ĐỘT PHONG",
+   "vi": "cơn gió giật",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "突風[とっぷう]で、テントが飛[と]ばされました。",
+     "vi": "Cơn gió giật làm bay cả lều.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "突風[とっぷう]に注意[ちゅうい]して、屋外[おくがい]の箱[はこ]をしっかり固定[こてい]してください。",
+     "vi": "Đề phòng gió giật, hãy cố định chắc các thùng ngoài trời.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:強風:きょうふう"
+   ]
+  },
+  {
+   "id": "v:雷雨:らいう",
+   "kana": "らいう",
+   "kanji": "雷雨",
+   "hv": "LÔI VŨ",
+   "vi": "mưa giông (có sấm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夕方[ゆうがた]から、激[はげ]しい雷雨[らいう]になるでしょう。",
+     "vi": "Từ chiều tối có thể có mưa giông dữ dội.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "雷雨[らいう]のときは、屋外[おくがい]での作業[さぎょう]をやめてください。",
+     "vi": "Khi có mưa giông hãy ngừng làm việc ngoài trời.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:雷:かみなり",
+    "v:落雷:らくらい"
+   ]
+  },
+  {
+   "id": "v:落雷:らくらい",
+   "kana": "らくらい",
+   "kanji": "落雷",
+   "hv": "LẠC LÔI",
+   "vi": "sét đánh",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "落雷[らくらい]で、工場[こうじょう]の電気[でんき]が止[と]まりました。",
+     "vi": "Sét đánh làm mất điện nhà máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "近[ちか]くの木[き]に落雷[らくらい]して、大[おお]きな音[おと]がしました。",
+     "vi": "Sét đánh vào cái cây gần đó, phát ra tiếng nổ lớn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "木[き]に落雷[らくらい]する",
+     "vi": "sét đánh vào cây"
+    }
+   ],
+   "rel": [
+    "v:雷:かみなり"
+   ],
+   "note": "落雷[らくらい]による停電[ていでん] = mất điện do sét đánh."
+  },
+  {
+   "id": "v:豪雨:ごうう",
+   "kana": "ごうう",
+   "kanji": "豪雨",
+   "hv": "HÀO VŨ",
+   "vi": "mưa như trút (rất lớn)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "豪雨[ごうう]で、川[かわ]があふれそうになりました。",
+     "vi": "Mưa như trút làm sông suýt tràn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "豪雨[ごうう]の影響[えいきょう]で、魚[さかな]が港[みなと]に届[とど]きませんでした。",
+     "vi": "Do ảnh hưởng của mưa rất lớn, cá đã không về đến cảng.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:大雨:おおあめ"
+   ],
+   "note": "豪雨[ごうう] = văn viết, tin tức. 集中豪雨[しゅうちゅうごうう] = mưa lớn tập trung một vùng. ゲリラ豪雨[ごうう] = mưa lớn bất chợt."
+  },
+  {
+   "id": "v:大雨:おおあめ",
+   "kana": "おおあめ",
+   "kanji": "大雨",
+   "hv": "ĐẠI VŨ",
+   "vi": "mưa lớn",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大雨[おおあめ]で、電車[でんしゃ]が止[と]まっています。",
+     "vi": "Mưa lớn làm tàu đang ngừng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "大雨[おおあめ]のときは、早[はや]めに帰[かえ]ってもいいと言[い]われました。",
+     "vi": "Tôi được bảo hôm mưa lớn có thể về sớm.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "小雨[こさめ]",
+     "vi": "mưa nhỏ, mưa phùn"
+    }
+   ],
+   "syn": [
+    "v:豪雨:ごうう"
+   ],
+   "note": "大雨警報[おおあめけいほう] = cảnh báo mưa lớn. Đọc là おおあめ, không phải だいう."
+  },
+  {
+   "id": "v:快晴:かいせい",
+   "kana": "かいせい",
+   "kanji": "快晴",
+   "hv": "KHOÁI TÌNH",
+   "vi": "trời quang đãng (không gợn mây)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今日[きょう]は快晴[かいせい]で、富士山[ふじさん]がきれいに見[み]えます。",
+     "vi": "Hôm nay trời quang đãng, nhìn rõ núi Phú Sĩ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "快晴[かいせい]の日[ひ]は、港[みなと]の作業[さぎょう]がはかどります。",
+     "vi": "Ngày trời quang thì công việc ở cảng trôi chảy.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:晴れ:はれ"
+   ]
+  },
+  {
+   "id": "v:日差し:ひざし",
+   "kana": "ひざし",
+   "kanji": "日差し",
+   "kf": "日差[ひざ]し",
+   "hv": "NHẬT SAI",
+   "vi": "ánh nắng (chiếu xuống)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夏[なつ]の日差[ひざ]しは強[つよ]いので、帽子[ぼうし]をかぶってください。",
+     "vi": "Nắng mùa hè gắt nên hãy đội mũ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "日差[ひざ]しが当[あ]たらない所[ところ]に、箱[はこ]を置[お]いてください。",
+     "vi": "Hãy để thùng ở chỗ không có nắng chiếu.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "日差[ひざ]しが強[つよ]い = nắng gắt. 日差[ひざ]しを浴[あ]びる = tắm nắng."
+  },
+  {
+   "id": "v:強風:きょうふう",
+   "kana": "きょうふう",
+   "kanji": "強風",
+   "hv": "CƯỜNG PHONG",
+   "vi": "gió mạnh",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "強風[きょうふう]のため、明石[あかし]海峡[かいきょう]大橋[おおはし]は通行止[つうこうど]めです。",
+     "vi": "Do gió mạnh, cầu Akashi Kaikyo bị cấm lưu thông.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "強風[きょうふう]の日[ひ]は、フォークリフトを外[そと]で使[つか]わないでください。",
+     "vi": "Ngày gió mạnh đừng dùng xe nâng ngoài trời.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:突風:とっぷう",
+    "v:暴風:ぼうふう"
+   ],
+   "note": "強風注意報[きょうふうちゅういほう] = khuyến cáo gió mạnh."
+  },
+  {
+   "id": "v:暴風:ぼうふう",
+   "kana": "ぼうふう",
+   "kanji": "暴風",
+   "hv": "BẠO PHONG",
+   "vi": "gió bão (cực mạnh)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "暴風警報[ぼうふうけいほう]が出[で]たので、学校[がっこう]は休[やす]みになりました。",
+     "vi": "Có cảnh báo gió bão nên trường được nghỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "暴風[ぼうふう]の中[なか]を、無理[むり]に出勤[しゅっきん]しないでください。",
+     "vi": "Đừng cố đi làm giữa lúc gió bão.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:強風:きょうふう",
+    "v:台風:たいふう"
+   ],
+   "note": "暴風雨[ぼうふうう] = mưa bão. 暴風警報[ぼうふうけいほう] = cảnh báo gió bão."
+  },
+  {
+   "id": "v:気圧:きあつ",
+   "kana": "きあつ",
+   "kanji": "気圧",
+   "hv": "KHÍ ÁP",
+   "vi": "khí áp",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "低気圧[ていきあつ]が近[ちか]づいて、明日[あした]は雨[あめ]になりそうです。",
+     "vi": "Áp thấp đến gần, mai có lẽ mưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "気圧[きあつ]が下[さ]がると、頭[あたま]が痛[いた]くなる人[ひと]もいます。",
+     "vi": "Có người hễ khí áp giảm là đau đầu.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "高気圧[こうきあつ] = áp cao (trời đẹp). 低気圧[ていきあつ] = áp thấp (trời xấu)."
+  },
+  {
+   "id": "v:雨雲:あまぐも",
+   "kana": "あまぐも",
+   "kanji": "雨雲",
+   "hv": "VŨ VÂN",
+   "vi": "mây mưa",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "西[にし]の空[そら]に、黒[くろ]い雨雲[あまぐも]が出[で]てきました。",
+     "vi": "Mây mưa đen kéo đến ở phía tây.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "雨雲[あまぐも]レーダーを見[み]てから、網[あみ]を外[そと]に干[ほ]すか決[き]めます。",
+     "vi": "Xem ra-đa mây mưa rồi mới quyết có phơi lưới ngoài trời không.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:雨:あめ"
+   ],
+   "note": "Đọc あまぐも (không phải あめぐも). 雨雲[あまぐも]レーダー = bản đồ ra-đa mây mưa (ứng dụng thời tiết)."
+  },
+  {
+   "id": "v:雨宿り:あまやどり",
+   "kana": "あまやどり",
+   "kanji": "雨宿り",
+   "kf": "雨宿[あまやど]り",
+   "hv": "VŨ TÚC",
+   "vi": "trú mưa",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "急[きゅう]に雨[あめ]が降[ふ]ってきたので、コンビニで雨宿[あまやど]りしました。",
+     "vi": "Trời đổ mưa bất ngờ nên tôi trú mưa ở cửa hàng tiện lợi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "傘[かさ]がなくて、駅[えき]でしばらく雨宿[あまやど]りしました。",
+     "vi": "Không có ô, tôi trú mưa ở ga một lúc.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "軒下[のきした]で雨宿[あまやど]りする",
+     "vi": "trú mưa dưới mái hiên"
+    }
+   ],
+   "rel": [
+    "v:傘:かさ"
+   ]
+  },
+  {
+   "id": "v:予報士:よほうし",
+   "kana": "よほうし",
+   "kanji": "予報士",
+   "hv": "DỰ BÁO SĨ",
+   "vi": "chuyên viên dự báo (thời tiết)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "気象予報士[きしょうよほうし]によると、週末[しゅうまつ]は大雨[おおあめ]になるそうです。",
+     "vi": "Theo chuyên viên dự báo thời tiết, cuối tuần sẽ mưa lớn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "テレビの予報士[よほうし]が、台風[たいふう]の進[すす]み方[かた]を説明[せつめい]していました。",
+     "vi": "Chuyên viên dự báo trên TV đang giải thích đường đi của cơn bão.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:予報:よほう"
+   ],
+   "note": "Tên đầy đủ: 気象予報士[きしょうよほうし] (có chứng chỉ quốc gia)."
+  },
+  {
+   "id": "v:注意報:ちゅういほう",
+   "kana": "ちゅういほう",
+   "kanji": "注意報",
+   "hv": "CHÚ Ý BÁO",
+   "vi": "bản tin khuyến cáo (thời tiết — nhẹ hơn cảnh báo)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大雨注意報[おおあめちゅういほう]が、警報[けいほう]に変[か]わりました。",
+     "vi": "Khuyến cáo mưa lớn đã chuyển thành cảnh báo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "波浪注意報[はろうちゅういほう]が出[で]ているので、船[ふね]の出入[でい]りに気[き]をつけてください。",
+     "vi": "Đang có khuyến cáo sóng lớn nên chú ý tàu ra vào.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:警報:けいほう"
+   ],
+   "note": "Mức độ tăng dần: 注意報[ちゅういほう] (khuyến cáo) → 警報[けいほう] (cảnh báo) → 特別警報[とくべつけいほう] (cảnh báo đặc biệt)."
+  },
+  {
+   "id": "v:発令:はつれい",
+   "kana": "はつれい",
+   "kanji": "発令",
+   "hv": "PHÁT LỆNH",
+   "vi": "phát lệnh, ban bố (lệnh, cảnh báo)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大雨警報[おおあめけいほう]が発令[はつれい]されたので、早[はや]めに作業[さぎょう]を終[お]えました。",
+     "vi": "Có cảnh báo mưa lớn được ban bố nên kết thúc việc sớm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "市[し]から、避難[ひなん]指示[しじ]が発令[はつれい]されました。",
+     "vi": "Thành phố đã ban bố lệnh sơ tán.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "警報[けいほう]を発令[はつれい]する",
+     "vi": "ban bố cảnh báo"
+    }
+   ],
+   "ant": [
+    "v:解除:かいじょ"
+   ],
+   "note": "Hay gặp ở thể bị động: 〜が発令[はつれい]される."
+  },
+  {
+   "id": "v:解除:かいじょ",
+   "kana": "かいじょ",
+   "kanji": "解除",
+   "hv": "GIẢI TRỪ",
+   "vi": "dỡ bỏ, gỡ (lệnh, khóa, hạn chế)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thời tiết",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "警報[けいほう]が解除[かいじょ]されたら、作業[さぎょう]を再開[さいかい]します。",
+     "vi": "Khi cảnh báo được dỡ bỏ sẽ làm tiếp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "スマホの画面[がめん]ロックを解除[かいじょ]してください。",
+     "vi": "Hãy mở khóa màn hình điện thoại.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "警報[けいほう]を解除[かいじょ]する",
+     "vi": "dỡ bỏ cảnh báo"
+    },
+    {
+     "jp": "ロックを解除[かいじょ]する",
+     "vi": "mở khóa"
+    }
+   ],
+   "ant": [
+    "v:発令:はつれい"
+   ],
+   "note": "Cũng dùng cho hợp đồng: 契約[けいやく]を解除[かいじょ]する = hủy hợp đồng (văn viết)."
+  },
+  {
+   "id": "v:急変:きゅうへん",
+   "kana": "きゅうへん",
+   "kanji": "急変",
+   "hv": "CẤP BIẾN",
+   "vi": "thay đổi đột ngột (bệnh, thời tiết, tình hình)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "山[やま]の天気[てんき]は、急変[きゅうへん]することがあります。",
+     "vi": "Thời tiết trên núi có khi thay đổi đột ngột.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "祖父[そふ]の容体[ようだい]が急変[きゅうへん]して、急[いそ]いで国[くに]へ帰[かえ]りました。",
+     "vi": "Bệnh tình của ông tôi trở nặng đột ngột nên tôi vội về nước.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "天気[てんき]が急変[きゅうへん]する",
+     "vi": "thời tiết thay đổi đột ngột"
+    }
+   ],
+   "rel": [
+    "v:急激:きゅうげき",
+    "v:一変:いっぺん"
+   ]
+  },
+  {
+   "id": "v:一変:いっぺん",
+   "kana": "いっぺん",
+   "kanji": "一変",
+   "hv": "NHẤT BIẾN",
+   "vi": "đổi khác hẳn (hoàn toàn)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい機械[きかい]が入[はい]って、作業[さぎょう]のやり方[かた]が一変[いっぺん]しました。",
+     "vi": "Máy mới về, cách làm việc đổi khác hẳn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地震[じしん]で、町[まち]の様子[ようす]が一変[いっぺん]してしまった。",
+     "vi": "Động đất làm diện mạo thị trấn thay đổi hoàn toàn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "生活[せいかつ]が一変[いっぺん]する",
+     "vi": "cuộc sống đổi khác hẳn"
+    }
+   ],
+   "rel": [
+    "v:急変:きゅうへん"
+   ],
+   "note": "Đồng âm: 一遍[いっぺん] = một lần."
+  },
+  {
+   "id": "v:途端:とたん",
+   "kana": "とたん",
+   "kanji": "途端",
+   "hv": "ĐỒ ĐOAN",
+   "vi": "ngay lúc (vừa… thì)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "外[そと]に出[で]た途端[とたん]、雨[あめ]が降[ふ]ってきた。",
+     "vi": "Vừa ra ngoài thì trời đổ mưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "スイッチを入[い]れた途端[とたん]に、機械[きかい]が止[と]まりました。",
+     "vi": "Vừa bật công tắc thì máy dừng.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Mẫu: Vた + 途端[とたん]に = vừa … thì (việc bất ngờ xảy ra). Không dùng cho ý muốn của người nói."
+  },
+  {
+   "id": "v:たちまち:たちまち",
+   "kana": "たちまち",
+   "kanji": "",
+   "hv": "",
+   "vi": "ngay tức thì, trong chốc lát",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい商品[しょうひん]は、たちまち売[う]り切[き]れました。",
+     "vi": "Sản phẩm mới bán hết ngay tức thì.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍庫[れいとうこ]を開[あ]けると、眼鏡[めがね]がたちまち曇[くも]ります。",
+     "vi": "Mở kho cấp đông là kính mờ ngay lập tức.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:瞬く間:またたくま"
+   ],
+   "note": "Văn viết, tả sự thay đổi diễn ra rất nhanh."
+  },
+  {
+   "id": "v:突如:とつじょ",
+   "kana": "とつじょ",
+   "kanji": "突如",
+   "hv": "ĐỘT NHƯ",
+   "vi": "bất thình lình (văn viết)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "突如[とつじょ]、大[おお]きな音[おと]がして、ラインが止[と]まった。",
+     "vi": "Bất thình lình có tiếng động lớn và dây chuyền dừng lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "静[しず]かな町[まち]に、突如[とつじょ]として事件[じけん]が起[お]きた。",
+     "vi": "Ở thị trấn yên bình, bất ngờ xảy ra một vụ án.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:突然:とつぜん",
+    "v:不意に:ふいに"
+   ],
+   "note": "Văn viết, tin tức. 突如[とつじょ]として = đột ngột. Nói thường: 突然[とつぜん]."
+  },
+  {
+   "id": "v:いきなり:いきなり",
+   "kana": "いきなり",
+   "kanji": "",
+   "hv": "",
+   "vi": "đột ngột, chẳng báo trước (bỗng dưng làm)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "課長[かちょう]に、いきなり明日[あした]から夜勤[やきん]だと言[い]われた。",
+     "vi": "Trưởng ban bất ngờ bảo tôi từ mai làm ca đêm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子供[こども]が、いきなり道[みち]に飛[と]び出[だ]してきました。",
+     "vi": "Đứa trẻ đột ngột lao ra đường.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:突然:とつぜん",
+    "v:急に:きゅうに"
+   ],
+   "note": "Khẩu ngữ, nhấn mạnh không có bước chuẩn bị: いきなり本番[ほんばん] = vào thật luôn không tập."
+  },
+  {
+   "id": "v:一斉:いっせい",
+   "kana": "いっせい",
+   "kanji": "一斉",
+   "hv": "NHẤT TỀ",
+   "vi": "đồng loạt (cùng lúc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地震[じしん]の時[とき]、みんなのスマホが一斉[いっせい]に鳴[な]りました。",
+     "vi": "Lúc động đất, điện thoại của mọi người đồng loạt reo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "五時[ごじ]になると、機械[きかい]が一斉[いっせい]に止[と]まります。",
+     "vi": "Đến 5 giờ máy móc đồng loạt dừng.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Hay dùng 一斉[いっせい]に. 一斉[いっせい]清掃[せいそう] = tổng vệ sinh đồng loạt."
+  },
+  {
+   "id": "v:一気に:いっきに",
+   "kana": "いっきに",
+   "kanji": "一気に",
+   "kf": "一気[いっき]に",
+   "hv": "NHẤT KHÍ",
+   "vi": "một mạch, một lèo (dồn một lần)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]が降[ふ]り出[だ]して、気温[きおん]が一気[いっき]に下[さ]がった。",
+     "vi": "Mưa xuống, nhiệt độ giảm hẳn một lúc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "残[のこ]りの作業[さぎょう]を、一気[いっき]に片付[かたづ]けましょう。",
+     "vi": "Làm một lèo cho xong phần việc còn lại nào.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "一気飲[いっきの]み = uống cạn một hơi (dễ nguy hiểm)."
+  },
+  {
+   "id": "v:瞬く間:またたくま",
+   "kana": "またたくま",
+   "kanji": "瞬く間",
+   "kf": "瞬[またた]く間[ま]",
+   "hv": "THUẤN GIAN",
+   "vi": "trong nháy mắt",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "火[ひ]は、瞬[またた]く間[ま]に倉庫[そうこ]全体[ぜんたい]に広[ひろ]がった。",
+     "vi": "Lửa lan ra toàn bộ nhà kho trong nháy mắt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一年[いちねん]は、瞬[またた]く間[ま]に過[す]ぎてしまいました。",
+     "vi": "Một năm trôi qua trong chớp nhoáng.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:一瞬:いっしゅん"
+   ],
+   "note": "Hay dùng 瞬[またた]く間[ま]に. Nói thường: あっという間[ま]に."
+  },
+  {
+   "id": "v:見る見る:みるみる",
+   "kana": "みるみる",
+   "kanji": "見る見る",
+   "kf": "見[み]る見[み]る",
+   "hv": "KIẾN KIẾN",
+   "vi": "trông thấy rõ (thay đổi nhanh trước mắt)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "薬[くすり]を飲[の]んだら、熱[ねつ]が見[み]る見[み]る下[さ]がりました。",
+     "vi": "Uống thuốc xong, cơn sốt hạ trông thấy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "空[そら]が見[み]る見[み]る暗[くら]くなって、雨[あめ]が降[ふ]ってきた。",
+     "vi": "Trời tối sầm lại trước mắt rồi đổ mưa.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Hay viết みるみる / 見[み]る見[み]るうちに."
+  },
+  {
+   "id": "v:異変:いへん",
+   "kana": "いへん",
+   "kanji": "異変",
+   "hv": "DỊ BIẾN",
+   "vi": "điều bất thường, sự cố lạ (khác thường)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]の音[おと]に異変[いへん]を感[かん]じたら、すぐに止[と]めてください。",
+     "vi": "Nghe tiếng máy có gì khác thường thì dừng ngay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "体[からだ]に異変[いへん]を感[かん]じて、病院[びょういん]に行[い]きました。",
+     "vi": "Thấy trong người có gì bất thường nên tôi đã đi viện.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:異常:いじょう"
+   ],
+   "note": "異変[いへん] = sự thay đổi khác thường (vừa xuất hiện). 異常[いじょう] = trạng thái không bình thường."
+  },
+  {
+   "id": "v:停止:ていし",
+   "kana": "ていし",
+   "kanji": "停止",
+   "hv": "ĐÌNH CHỈ",
+   "vi": "dừng hẳn, ngừng (máy, hoạt động)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "センサーが反応[はんのう]して、ラインが自動[じどう]で停止[ていし]しました。",
+     "vi": "Cảm biến phản ứng, dây chuyền tự động dừng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "料金[りょうきん]を払[はら]わないと、電気[でんき]が停止[ていし]されます。",
+     "vi": "Không trả tiền thì bị cắt điện.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "機械[きかい]を停止[ていし]する",
+     "vi": "dừng máy"
+    },
+    {
+     "jp": "営業[えいぎょう]を停止[ていし]する",
+     "vi": "ngừng kinh doanh"
+    }
+   ],
+   "ant": [
+    "v:再開:さいかい"
+   ],
+   "note": "緊急停止[きんきゅうていし] = dừng khẩn cấp. 一時[いちじ]停止[ていし] = dừng tạm (biển báo giao thông)."
+  },
+  {
+   "id": "v:復旧:ふっきゅう",
+   "kana": "ふっきゅう",
+   "kanji": "復旧",
+   "hv": "PHỤC CỰU",
+   "vi": "khôi phục (điện, đường, hệ thống sau sự cố)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "停電[ていでん]は、二時間[にじかん]後[ご]に復旧[ふっきゅう]しました。",
+     "vi": "Hai tiếng sau điện đã có lại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "システムが復旧[ふっきゅう]するまで、手[て]で記録[きろく]してください。",
+     "vi": "Cho đến khi hệ thống khôi phục, hãy ghi chép bằng tay.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "電気[でんき]が復旧[ふっきゅう]する",
+     "vi": "có điện trở lại"
+    },
+    {
+     "jp": "線路[せんろ]を復旧[ふっきゅう]する",
+     "vi": "khôi phục đường ray"
+    }
+   ],
+   "rel": [
+    "v:回復:かいふく"
+   ],
+   "note": "復旧[ふっきゅう] = sửa cho hạ tầng, máy móc hoạt động lại như cũ. 回復[かいふく] = hồi phục (sức khỏe, thời tiết, kinh tế)."
+  },
+  {
+   "id": "v:緊急:きんきゅう",
+   "kana": "きんきゅう",
+   "kanji": "緊急",
+   "hv": "KHẨN CẤP",
+   "vi": "khẩn cấp, cấp bách (sự cố, cấp cứu)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đột ngột",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "緊急[きんきゅう]の時[とき]は、この番号[ばんごう]に電話[でんわ]してください。",
+     "vi": "Khi có việc khẩn cấp hãy gọi số này.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "緊急[きんきゅう]地震[じしん]速報[そくほう]が鳴[な]って、みんな机[つくえ]の下[した]に隠[かく]れました。",
+     "vi": "Báo động động đất khẩn cấp vang lên, mọi người nấp xuống gầm bàn.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:至急:しきゅう"
+   ],
+   "note": "緊急[きんきゅう] = tình huống nguy cấp (tai nạn, thiên tai). 至急[しきゅう] = việc cần làm gấp. 緊急[きんきゅう]停止[ていし]ボタン = nút dừng khẩn cấp."
+  },
+  {
+   "id": "v:次第に:しだいに",
+   "kana": "しだいに",
+   "kanji": "次第に",
+   "kf": "次第[しだい]に",
+   "hv": "THỨ ĐỆ",
+   "vi": "dần dần (theo đà)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Diễn biến & kết quả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]は、夜[よる]になって次第[しだい]に強[つよ]くなりました。",
+     "vi": "Về đêm mưa dần nặng hạt hơn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "仕事[しごと]にも、次第[しだい]に慣[な]れてきました。",
+     "vi": "Tôi cũng dần quen với công việc.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:徐々に:じょじょに",
+    "v:だんだん:だんだん"
+   ],
+   "note": "Văn viết hơn だんだん. Khác mẫu ngữ pháp 〜次第[しだい] (= tùy vào, ngay khi)."
+  },
+  {
+   "id": "v:刻々:こっこく",
+   "kana": "こっこく",
+   "kanji": "刻々",
+   "hv": "KHẮC KHẮC",
+   "vi": "từng giây phút (thay đổi liên tục)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Diễn biến & kết quả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台風[たいふう]の情報[じょうほう]は、刻々[こっこく]と変[か]わっています。",
+     "vi": "Thông tin về cơn bão thay đổi từng giờ từng phút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "出荷[しゅっか]の時間[じかん]が、刻々[こっこく]と近[ちか]づいてきた。",
+     "vi": "Giờ xuất hàng đang đến gần từng phút.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Hay dùng 刻々[こっこく]と. Cũng đọc こくこく."
+  },
+  {
+   "id": "v:経過:けいか",
+   "kana": "けいか",
+   "kanji": "経過",
+   "hv": "KINH QUÁ",
+   "vi": "quá trình diễn biến (bệnh, công việc); trôi đi (thời gian — văn viết)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Diễn biến & kết quả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手術[しゅじゅつ]の後[あと]の経過[けいか]は、順調[じゅんちょう]です。",
+     "vi": "Diễn biến sau ca mổ thuận lợi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "事故[じこ]から一時間[いちじかん]が経過[けいか]して、やっと道路[どうろ]が通[とお]れるようになった。",
+     "vi": "Một tiếng sau tai nạn, đường mới đi lại được.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "時間[じかん]が経過[けいか]する",
+     "vi": "thời gian trôi qua"
+    }
+   ],
+   "rel": [
+    "v:経つ:たつ",
+    "v:成り行き:なりゆき"
+   ],
+   "note": "経過[けいか]を見[み]る = theo dõi diễn biến."
+  },
+  {
+   "id": "v:情勢:じょうせい",
+   "kana": "じょうせい",
+   "kanji": "情勢",
+   "hv": "TÌNH THẾ",
+   "vi": "tình thế, thời cuộc, thế cục (xã hội, chính trị)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Diễn biến & kết quả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "世界[せかい]の情勢[じょうせい]によって、魚[さかな]の値段[ねだん]も変[か]わります。",
+     "vi": "Giá cá cũng thay đổi theo tình hình thế giới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "国[くに]の情勢[じょうせい]が不安[ふあん]で、家族[かぞく]が心配[しんぱい]です。",
+     "vi": "Tình hình đất nước bất ổn nên tôi lo cho gia đình.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:状況:じょうきょう"
+   ],
+   "note": "情勢[じょうせい] = tình hình lớn (thế giới, kinh tế, chính trị). 状況[じょうきょう] = tình trạng cụ thể trước mắt."
+  },
+  {
+   "id": "v:成り行き:なりゆき",
+   "kana": "なりゆき",
+   "kanji": "成り行き",
+   "kf": "成[な]り行[ゆ]き",
+   "hv": "THÀNH HÀNH",
+   "vi": "diễn tiến tự nhiên (tình hình)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Diễn biến & kết quả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "話[はな]し合[あ]いの成[な]り行[ゆ]きを、静[しず]かに見守[みまも]りました。",
+     "vi": "Tôi lặng lẽ theo dõi diễn tiến cuộc bàn bạc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "成[な]り行[ゆ]きで、班[はん]長[ちょう]を引[ひ]き受[う]けることになった。",
+     "vi": "Chuyện đẩy đưa thế nào mà tôi thành người nhận làm tổ trưởng.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:経過:けいか"
+   ],
+   "note": "成[な]り行[ゆ]きに任[まか]せる = để mặc mọi chuyện tự diễn ra."
+  },
+  {
+   "id": "v:展開:てんかい",
+   "kana": "てんかい",
+   "kanji": "展開",
+   "hv": "TRIỂN KHAI",
+   "vi": "triển khai; diễn biến (câu chuyện, trận đấu)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Diễn biến & kết quả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "試合[しあい]は、思[おも]いがけない展開[てんかい]になりました。",
+     "vi": "Trận đấu có diễn biến bất ngờ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]は、海外[かいがい]にも店[みせ]を展開[てんかい]しています。",
+     "vi": "Công ty cũng đang mở rộng cửa hàng ra nước ngoài.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事業[じぎょう]を展開[てんかい]する",
+     "vi": "triển khai kinh doanh"
+    },
+    {
+     "jp": "話[はなし]が展開[てんかい]する",
+     "vi": "câu chuyện diễn biến"
+    }
+   ]
+  },
+  {
+   "id": "v:見通し:みとおし",
+   "kana": "みとおし",
+   "kanji": "見通し",
+   "kf": "見通[みとお]し",
+   "hv": "KIẾN THÔNG",
+   "vi": "dự đoán (tình hình sắp tới); tầm nhìn xa (đường)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Diễn biến & kết quả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "電車[でんしゃ]の運転[うんてん]再開[さいかい]の見通[みとお]しは、まだ立[た]っていません。",
+     "vi": "Vẫn chưa có dự đoán khi nào tàu chạy lại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "このカーブは見通[みとお]しが悪[わる]いので、ゆっくり走[はし]ってください。",
+     "vi": "Khúc cua này tầm nhìn kém nên chạy chậm thôi.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:見込み:みこみ"
+   ],
+   "rel": [
+    "v:予想:よそう"
+   ],
+   "note": "見通[みとお]しが立[た]つ = có thể đoán trước. 見通[みとお]しが甘[あま]い = tính toán lạc quan quá."
+  },
+  {
+   "id": "v:収まる:おさまる",
+   "kana": "おさまる",
+   "kanji": "収まる",
+   "kf": "収[おさ]まる",
+   "hv": "THU",
+   "vi": "lắng xuống, dịu đi (gió, cơn đau, tranh cãi); nằm gọn (trong hộp, khung)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Diễn biến & kết quả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "風[かぜ]が収[おさ]まるまで、船[ふね]は港[みなと]で待[ま]ちます。",
+     "vi": "Thuyền đợi ở cảng cho tới khi gió lặng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "二人[ふたり]のけんかは、班長[はんちょう]が入[はい]ってやっと収[おさ]まった。",
+     "vi": "Hai người cãi nhau, tổ trưởng vào can mới yên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：まだ揺[ゆ]れてる？B：もう収[おさ]まったみたい。",
+     "vi": "A: Còn rung không? B: Hình như đã ngừng rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "風[かぜ]が収[おさ]まる",
+     "vi": "gió lặng"
+    },
+    {
+     "jp": "騒[さわ]ぎが収[おさ]まる",
+     "vi": "yên ổn lại"
+    },
+    {
+     "jp": "箱[はこ]に収[おさ]まる",
+     "vi": "nằm gọn trong thùng"
+    }
+   ],
+   "pair": "v:収める:おさめる",
+   "note": "Đau bụng dịu đi thường viết 治[おさ]まる."
+  },
+  {
+   "id": "v:好転:こうてん",
+   "kana": "こうてん",
+   "kanji": "好転",
+   "hv": "HẢO CHUYỂN",
+   "vi": "chuyển biến tốt",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Diễn biến & kết quả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい機械[きかい]のおかげで、作業[さぎょう]の状況[じょうきょう]が好転[こうてん]しました。",
+     "vi": "Nhờ máy mới, tình hình công việc đã chuyển biến tốt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "景気[けいき]が好転[こうてん]すれば、給料[きゅうりょう]も上[あ]がるかもしれません。",
+     "vi": "Kinh tế khởi sắc thì lương có khi cũng tăng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "状況[じょうきょう]が好転[こうてん]する",
+     "vi": "tình hình chuyển biến tốt"
+    }
+   ],
+   "ant": [
+    {
+     "w": "悪化[あっか]",
+     "vi": "trở nên xấu đi"
+    }
+   ],
+   "rel": [
+    "v:回復:かいふく"
+   ]
+  },
+  {
+   "id": "v:逆転:ぎゃくてん",
+   "kana": "ぎゃくてん",
+   "kanji": "逆転",
+   "hv": "NGHỊCH CHUYỂN",
+   "vi": "lật ngược (tình thế)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Diễn biến & kết quả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "最後[さいご]の一分[いっぷん]で、試合[しあい]が逆転[ぎゃくてん]しました。",
+     "vi": "Phút cuối cùng trận đấu bị lật ngược.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "売[う]り上[あ]げが、去年[きょねん]と今年[ことし]で逆転[ぎゃくてん]しました。",
+     "vi": "Doanh thu năm ngoái và năm nay đã đổi ngôi.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "試合[しあい]を逆転[ぎゃくてん]する",
+     "vi": "lật ngược trận đấu"
+    }
+   ],
+   "note": "逆転[ぎゃくてん]勝[か]ち = thắng ngược. 逆転[ぎゃくてん]負[ま]け = thua ngược."
+  },
+  {
+   "id": "v:場合によっては:ばあいによっては",
+   "kana": "ばあいによっては",
+   "kanji": "場合によっては",
+   "kf": "場合[ばあい]によっては",
+   "hv": "TRƯỜNG HỢP",
+   "vi": "tùy trường hợp, có khi",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Diễn biến & kết quả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "天気[てんき]次第[しだい]で、場合[ばあい]によっては作業[さぎょう]が中止[ちゅうし]になります。",
+     "vi": "Tùy thời tiết, có khi công việc bị hủy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "場合[ばあい]によっては、もう一度[いちど]書類[しょるい]を出[だ]してもらうことがあります。",
+     "vi": "Tùy trường hợp, có thể phải nộp lại giấy tờ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Dùng khi báo trước khả năng xảy ra việc không mong muốn. Gần nghĩa: 状況[じょうきょう]によっては."
+  }
+ ]
 }

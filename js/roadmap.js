@@ -297,7 +297,7 @@ export function planToday() {
   if (cl) { const s = lessonState(cl), nx = s.next >= 0 ? s.next : 7, did = actToday('lesson'); out.push({ done: did > 0, label: `Bài ${cl.n}: ${plain(cl.title)}`, sub: `${s.nDone}/8 bước${did ? ` · hôm nay đã làm ${did} lượt` : ''} · tiếp: ${STEPS[nx][1]}`, href: `#/bai/${encodeURIComponent(cl.id)}?b=${nx + 1}`, btn: 'Học' }); }
   const hasNewV = D.vocab.some(it => status(it) === 'new');
   const lnew = cl && cl.words.some(id => { const it = D.items.get(id); return it && status(it) === 'new'; });
-  if (hasNewV && plan.v > 0) out.push({ done: newV >= plan.v, label: `Học ${plan.v} từ mới`, sub: `Hôm nay đã học ${newV}${lnew ? ` · từ của bài ${cl.n}` : ''}`, href: lnew ? `#/bai/${encodeURIComponent(cl.id)}/hoc` : '#/moi', btn: 'Học' });
+  if (hasNewV && plan.v > 0) out.push({ done: newV >= plan.v, label: `Học ${plan.v} từ mới`, sub: `Hôm nay đã học ${newV}${lnew ? ` · từ của bài ${cl.n}` : ''}`, href: lnew ? `#/bai/${encodeURIComponent(cl.id)}?b=1` : '#/moi', btn: 'Học' });
   // v31 (N4): nhắc lại từ mới học hôm nay, sau ít nhất 4 giờ
   const rc = recapState();
   if (rc.ready.length) out.push({ done: false, label: `Nhắc lại ${rc.ready.length} từ mới hôm nay`, sub: 'Học từ 4 giờ trước — lượt ngắn, không đổi lịch ôn', href: '#/nhaclai', btn: 'Nhắc lại' });

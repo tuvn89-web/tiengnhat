@@ -987,3 +987,27 @@ Máy chưa có giọng đọc tiếng Nhật thì đề bỏ phần nghe và kh�
 - Dữ liệu (mới): `modau-n1-37`, `modau-n1-38`, `modau-n1-39`, `chuhan-60`, `chuhan-61`.
 - Dữ liệu (sửa): `baihoc-n1`.
 - `data/manifest.json`.
+
+## 57. Bản v48 (21/10/2026): Trang bài học chia tab; "Học từ mới" mở thẳng tab Từ mới; N1 thêm bài 40–48
+
+**Trang bài học (Lộ trình → một bài) chia tab.** Trước đây các bước xếp dọc thành một trang dài, bấm để mở / thu gọn. Nay có 10 tab, xếp 2 hàng:
+- **Mở đầu** (bài mở đầu: hội thoại hoặc bài đọc) · **1 Từ mới** · **2 Liên quan** · **3 Chữ Hán** · **4 Ngữ pháp** · **5 Luyện từ** · **6 Luyện câu** · **7 Đọc** · **8 Kiểm tra** · **Viết** (viết 3 câu).
+- Bước đã xong có dấu ✓ xanh; bước nên làm tiếp có vòng xanh dương. Thanh 8 ô tiến độ ở đầu trang bỏ đi vì tab đã cho biết.
+- Mở bài lần đầu: bài mở đầu chưa đọc thì vào tab **Mở đầu**, đọc rồi thì vào bước nên làm tiếp.
+- Tab nằm trên địa chỉ (`#/bai/…?b=1`): làm xong một lượt luyện, bấm quay lại là về đúng tab vừa làm; tải lại trang vẫn giữ tab. Trên máy tính dùng phím ← → để đổi tab.
+- Từ trang bài đọc / hội thoại quay lại: bài mở đầu về tab Mở đầu, bài đọc thêm về tab Đọc.
+
+**Trang chủ → Kế hoạch hôm nay → "Học … từ mới":** khi bài đang học còn từ mới, bấm vào là mở **tab Từ mới** của bài đó trong Lộ trình (thấy danh sách từ của bài, nút "Học … từ mới", thả tim từ muốn luyện thêm). Trước đây nút này vào thẳng lượt học.
+
+**Giáo trình N1:**
+- Từ vựng bài 40–48: lộ trình N1 có 48 bài, khoảng 2.370 từ.
+- Bài mở đầu 40–42: xã luận "thám tử mạng" (bài đọc), ngày thi N1 lần hai, món おせち và chồng thùng đổ ở xưởng. 42 bài N1 đã có bài mở đầu.
+- 150 thẻ chữ Hán N1 mới nữa (gói `chuhan-62` … `chuhan-66`) — tổng cộng 210 thẻ N1 làm trong đợt này.
+
+**Sửa:** âm Hán Việt 推 mang nghĩa suy đoán đọc SUY (推定 SUY ĐỊNH, 推計 SUY KẾ, 推し量る SUY LƯỢNG, 邪推 TÀ SUY); 爪痕 TRẢO NGÂN. Cách đọc: 〜を得る (える), 実を結ぶ (み), 憂い (うれい), 瞬く間 (またたくま), 夜が明ける (よ), 一回り (ひとまわり)… trong một số gói.
+
+**Tệp:**
+- Mã: `js/lesson.js`, `js/roadmap.js`, `js/reader.js`, `js/app.js`, `css/app.css`, `js/util.js`, `sw.js`.
+- Dữ liệu (mới): `jlpt-n1-40` … `jlpt-n1-48`, `modau-n1-40`, `modau-n1-41`, `modau-n1-42`, `chuhan-62` … `chuhan-66`.
+- Dữ liệu (sửa): `baihoc-n1` và các gói sửa cách đọc / âm Hán Việt (xem danh sách trong gói cập nhật).
+- `data/manifest.json`.

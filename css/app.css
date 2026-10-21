@@ -734,6 +734,19 @@ button.wref:hover { border-color: var(--blue); }
 .lstep.is-done .lstep-n { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
 .lstep[open] > summary { border-bottom: 1px solid var(--line); }
 .lstep-b { padding: 4px 14px 14px; }
+.lstep-hd { display: flex; align-items: center; gap: 10px; margin: 0; padding: 14px; font-size: 1em; font-weight: 700; border-bottom: 1px solid var(--line); }
+/* v47: tab của trang bài học — 5 cột (2 hàng); bước xong có ✓ xanh, bước kế tiếp viền xanh dương */
+.ltabs { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; padding: 4px; margin: 10px 0 14px; background: var(--surface-2); border-radius: 12px; }
+.ltab { display: grid; justify-items: center; gap: 2px; min-height: 54px; padding: 6px 2px; border: 0; border-radius: 9px; background: none; color: var(--ink-2); font: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.ltab .lt-n { width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; font-size: .78em; font-weight: 700; border: 1.5px solid var(--line); }
+.ltab .lt-n svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; }
+.ltab .lt-l { font-size: .74em; font-weight: 600; line-height: 1.2; text-align: center; }
+.ltab.is-done .lt-n { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+.ltab.is-next .lt-n { border-color: var(--blue); color: var(--blue); background: var(--blue-soft); }
+.ltab[aria-selected="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 0 var(--line), 0 0 0 1px var(--line); }
+.ltab:focus-visible { outline: 2px solid var(--blue); outline-offset: 1px; }
+section.lpanel[hidden] { display: none; }
+.lintro-h { display: flex; align-items: center; gap: 8px; margin: 4px 0 6px; }
 .lstep-b .row-btns { margin-top: 10px; }
 .lrows { margin: 6px 0; }
 .lrel { font-size: .85em; }

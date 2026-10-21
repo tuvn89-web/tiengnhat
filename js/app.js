@@ -103,7 +103,7 @@ const ROUTES = [
   [/^kana$/, v => renderKana(v, ctx)],
   [/^huongdan$/, v => renderGuides(v)],
   [/^huongdan\/(.+)$/, (v, m) => renderGuide(v, decodeURIComponent(m[1]))],
-  [/^bai\/([^/?]+)(?:\?b=(\d))?$/, (v, m) => renderLesson(v, ctx, decodeURIComponent(m[1]), m[2] ? +m[2] : 0)],
+  [/^bai\/([^/?]+)(?:\?b=(\d))?$/, (v, m) => renderLesson(v, ctx, decodeURIComponent(m[1]), m[2] != null ? +m[2] : null)],
   [/^bai\/([^/?]+)\/hoc$/, (v, m) => learnLesson(v, ctx, decodeURIComponent(m[1]))],
   [/^bai\/([^/?]+)\/cau$/, (v, m) => renderLessonSents(v, ctx, decodeURIComponent(m[1]))],
   [/^bai\/([^/?]+)\/kiemtra$/, (v, m) => runLessonTest(v, ctx, decodeURIComponent(m[1]))],

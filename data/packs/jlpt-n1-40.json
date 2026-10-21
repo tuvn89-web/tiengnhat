@@ -1,0 +1,2415 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n1-40",
+  "title": "JLPT N1 40 – Suy đoán, nghi phạm, hiện tượng & xu hướng xã hội",
+  "type": "vocab",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:推論:すいろん",
+   "kana": "すいろん",
+   "kanji": "推論",
+   "hv": "SUY LUẬN",
+   "vi": "suy luận (từ dữ kiện ra kết luận)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "温度[おんど]記録[きろく]のデータから推論[すいろん]すると、冷凍庫[れいとうこ]の扉[とびら]が夜中[よなか]に開[あ]いていた可能性[かのうせい]が高[たか]い。",
+     "vi": "Suy luận từ dữ liệu ghi nhiệt độ thì khả năng cao là cửa kho đông đã mở lúc nửa đêm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "限[かぎ]られた情報[じょうほう]から推論[すいろん]を重[かさ]ねても、確[たし]かな結論[けつろん]にはたどり着[つ]けない。",
+     "vi": "Dù suy luận chồng chất từ thông tin hạn chế cũng không đi tới kết luận chắc chắn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：異物[いぶつ]が入[はい]った原因[げんいん]、もう分[わ]かりましたか。B：まだ推論[すいろん]の段階[だんかい]です。ただ、包丁[ほうちょう]の刃[は]が欠[か]けていたことから、それが原因[げんいん]ではあるまいかと考[かんが]えています。",
+     "vi": "A: Đã biết nguyên nhân dị vật lẫn vào chưa? B: Vẫn ở giai đoạn suy luận. Nhưng vì lưỡi dao bị mẻ nên tôi nghĩ phải chăng đó là nguyên nhân.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "原因[げんいん]を推論[すいろん]する",
+     "vi": "suy luận ra nguyên nhân"
+    },
+    {
+     "jp": "データから推論[すいろん]する",
+     "vi": "suy luận từ dữ liệu"
+    }
+   ],
+   "confuse": [
+    "v:推理:すいり",
+    "v:推測:すいそく"
+   ],
+   "note": "推論[すいろん] = dựa vào dữ kiện, tiền đề rồi lập luận ra kết luận (văn viết, báo cáo: 推論[すいろん]を重[かさ]ねる / 推論[すいろん]が成[な]り立[た]つ). 推理[すいり] = suy luận để tìm ra sự thật (vụ án, câu đố). 推測[すいそく] = phỏng đoán từ thông tin có sẵn. Câu 3 có mẫu 〜ではあるまいか của bài này."
+  },
+  {
+   "id": "v:推察:すいさつ",
+   "kana": "すいさつ",
+   "kanji": "推察",
+   "hv": "SUY SÁT",
+   "vi": "đoán (hoàn cảnh, tâm tư người khác)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "取引先[とりひきさき]の担当者[たんとうしゃ]の口[くち]ぶりから、値上[ねあ]げを考[かんが]えているのだと推察[すいさつ]した。",
+     "vi": "Từ giọng điệu của người phụ trách bên khách hàng, tôi đoán họ đang tính tăng giá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "突然[とつぜん]のことで、ご家族[かぞく]もさぞお困[こま]りのことと推察[すいさつ]いたします。",
+     "vi": "Việc xảy ra đột ngột, tôi đoán chắc gia đình cũng rất khó khăn.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：新人[しんじん]のリンさん、最近[さいきん]元気[げんき]がないですね。B：私[わたし]も気[き]になっていた。家族[かぞく]と離[はな]れて寂[さび]しいのではないかと推察[すいさつ]しているんだが、一度[いちど]話[はなし]を聞[き]いてみよう。",
+     "vi": "A: Bạn mới Linh dạo này không được vui nhỉ. B: Tôi cũng để ý. Tôi đoán là xa gia đình nên buồn, để tôi thử nói chuyện một lần.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "心中[しんちゅう]を推察[すいさつ]する",
+     "vi": "đoán tâm tư"
+    },
+    {
+     "jp": "事情[じじょう]を推察[すいさつ]する",
+     "vi": "đoán hoàn cảnh"
+    }
+   ],
+   "confuse": [
+    "v:推測:すいそく",
+    "v:察する:さっする"
+   ],
+   "note": "推察[すいさつ] = dựa vào tình hình mà đoán hoàn cảnh, tâm trạng người khác (心中[しんちゅう] / 事情[じじょう]を推察[すいさつ]する). Lịch sự: ご推察[すいさつ]の通[とお]りです (đúng như anh/chị đoán), 〜と推察[すいさつ]いたします (thư từ). 推測[すいそく] = đoán sự việc nói chung. 察[さっ]する = cảm nhận, thấu hiểu lòng người."
+  },
+  {
+   "id": "v:察知:さっち",
+   "kana": "さっち",
+   "kanji": "察知",
+   "hv": "SÁT TRI",
+   "vi": "nhận biết trước, đánh hơi thấy (nguy cơ)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]の異音[いおん]をいち早[はや]く察知[さっち]したおかげで、大[おお]きな故障[こしょう]を防[ふせ]げた。",
+     "vi": "Nhờ sớm nhận ra tiếng kêu lạ của máy mà ngăn được hỏng hóc lớn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "猫[ねこ]は地震[じしん]を察知[さっち]すると、落[お]ち着[つ]きがなくなるという。",
+     "vi": "Nghe nói mèo hễ nhận biết trước động đất là bồn chồn không yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：班長[はんちょう]は、どうしてトラブルに早[はや]く気[き]づくんですか。B：作業員[さぎょういん]の表情[ひょうじょう]を見[み]ていると、何[なに]かおかしいと察知[さっち]できることがあるんだよ。",
+     "vi": "A: Sao tổ trưởng phát hiện sự cố sớm vậy ạ? B: Nhìn nét mặt công nhân, có khi nhận ra ngay là có gì đó không ổn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "危険[きけん]を察知[さっち]する",
+     "vi": "nhận biết trước nguy hiểm"
+    },
+    {
+     "jp": "異変[いへん]を察知[さっち]する",
+     "vi": "phát hiện điều bất thường"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "感知[かんち]",
+     "vi": "cảm biết (bằng cảm biến, giác quan)"
+    },
+    "v:嗅ぎつける:かぎつける"
+   ],
+   "note": "察知[さっち] = đoán biết, nhận ra trước điều chưa lộ rõ (危険[きけん] / 気配[けはい] / 異変[いへん]を察知[さっち]する; văn viết). 感知[かんち] = máy, giác quan cảm nhận được (煙[けむり]を感知[かんち]するセンサー). 嗅[か]ぎつける = đánh hơi ra (thường là chuyện bí mật)."
+  },
+  {
+   "id": "v:目星:めぼし",
+   "kana": "めぼし",
+   "kanji": "目星",
+   "hv": "MỤC TINH",
+   "vi": "sự nhắm sẵn, dự đoán đại khái (đối tượng, chỗ)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不良品[ふりょうひん]の原因[げんいん]は、二号[にごう]ラインの温度計[おんどけい]だと目星[めぼし]をつけている。",
+     "vi": "Chúng tôi đang nhắm nguyên nhân hàng lỗi là nhiệt kế ở dây chuyền số hai.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "警察[けいさつ]は、すでに犯人[はんにん]の目星[めぼし]がついているらしい。",
+     "vi": "Nghe nói cảnh sát đã nhắm được thủ phạm rồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：引[ひ]っ越[こ]し先[さき]、もう決[き]めましたか。B：まだですが、子[こ]どもの学校[がっこう]に近[ちか]い地区[ちく]に目星[めぼし]をつけています。週末[しゅうまつ]に見[み]に行[い]くつもりです。",
+     "vi": "A: Đã chọn được chỗ chuyển nhà chưa? B: Chưa ạ, nhưng tôi đã nhắm khu gần trường của con. Định cuối tuần đi xem.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "目星[めぼし]をつける",
+     "vi": "nhắm sẵn, phỏng đoán"
+    },
+    {
+     "jp": "目星[めぼし]がつく",
+     "vi": "đã có dự đoán"
+    }
+   ],
+   "confuse": [
+    "v:見当:けんとう",
+    "v:当て:あて"
+   ],
+   "note": "目星[めぼし] = dự đoán, nhắm sẵn đại khái đối tượng, chỗ, nguyên nhân (目星[めぼし]をつける / 目星[めぼし]がつく). 見当[けんとう] = ước đoán (phương hướng, số lượng: 見当[けんとう]がつかない). Hay gặp trong tin điều tra: 犯人[はんにん]の目星[めぼし]がつく."
+  },
+  {
+   "id": "v:当て推量:あてずいりょう",
+   "kana": "あてずいりょう",
+   "kanji": "当て推量",
+   "kf": "当[あ]て推量[ずいりょう]",
+   "hv": "ĐƯƠNG SUY LƯỢNG",
+   "vi": "sự đoán mò, đoán phỏng",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "当[あ]て推量[ずいりょう]で原因[げんいん]を決[き]めつけず、記録[きろく]を確認[かくにん]してから報告[ほうこく]してください。",
+     "vi": "Đừng đoán mò mà quy kết nguyên nhân, hãy kiểm tra hồ sơ rồi báo cáo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "当[あ]て推量[ずいりょう]で物[もの]を言[い]うと、人[ひと]を傷[きず]つけることがある。",
+     "vi": "Nói dựa trên đoán mò có khi làm tổn thương người khác.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：昨日[きのう]の停電[ていでん]、たぶん雷[かみなり]のせいですよね。B：当[あ]て推量[ずいりょう]じゃなくて、電気[でんき]屋[や]さんに調[しら]べてもらおう。違[ちが]う原因[げんいん]だったら、また止[と]まるかもしれない。",
+     "vi": "A: Vụ mất điện hôm qua chắc do sét nhỉ. B: Đừng đoán mò, nhờ thợ điện kiểm tra đi. Nếu nguyên nhân khác thì có thể lại mất nữa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "当[あ]て推量[ずいりょう]で言[い]う",
+     "vi": "nói theo đoán mò"
+    },
+    {
+     "jp": "当[あ]て推量[ずいりょう]にすぎない",
+     "vi": "chỉ là đoán mò"
+    }
+   ],
+   "confuse": [
+    "v:当てずっぽう:あてずっぽう",
+    "v:憶測:おくそく"
+   ],
+   "note": "当[あ]て推量[ずいりょう] = đoán chừng không có căn cứ chắc chắn (当[あ]て推量[ずいりょう]で言[い]う / 当[あ]て推量[ずいりょう]にすぎない). 当[あ]てずっぽう = đoán bừa (khẩu ngữ hơn). 憶測[おくそく] = phỏng đoán chủ quan (憶測[おくそく]を呼[よ]ぶ)."
+  },
+  {
+   "id": "v:見受ける:みうける",
+   "kana": "みうける",
+   "kanji": "見受ける",
+   "kf": "見受[みう]ける",
+   "hv": "KIẾN THỤ",
+   "vi": "nhận thấy (qua quan sát), thấy có vẻ",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "最近[さいきん]、手袋[てぶくろ]を外[はず]したまま作業[さぎょう]する人[ひと]が見受[みう]けられる。",
+     "vi": "Gần đây thấy có người tháo găng tay ra mà làm việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "お見受[みう]けしたところ、旅行[りょこう]の方[かた]のようですね。",
+     "vi": "Nhìn qua thì có vẻ anh/chị là khách du lịch nhỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新[あたら]しい手順[てじゅん]、みんな守[まも]っていますか。B：おおむね守[まも]られていますが、夜勤[やきん]では一部[いちぶ]省略[しょうりゃく]しているように見受[みう]けられます。",
+     "vi": "A: Quy trình mới mọi người có tuân thủ không? B: Nhìn chung có, nhưng ca đêm có vẻ đang bỏ bớt một phần.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "同[おな]じような例[れい]を見受[みう]ける",
+     "vi": "thấy những trường hợp tương tự"
+    },
+    {
+     "jp": "時折[ときおり]見受[みう]ける",
+     "vi": "thỉnh thoảng thấy"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "見[み]かける",
+     "vi": "tình cờ bắt gặp"
+    },
+    {
+     "w": "見[み]て取[と]る",
+     "vi": "nhìn là nhận ra ngay"
+    }
+   ],
+   "note": "見受[みう]ける = nhìn rồi nhận định, thấy (văn viết, lịch sự). Hay dùng bị động: 〜が見受[みう]けられる (thấy có ~), 〜ように見受[みう]けられる (có vẻ ~) trong báo cáo, nhận xét. お見受[みう]けする = (khiêm nhường) nhìn thấy. 見[み]かける = tình cờ thấy."
+  },
+  {
+   "id": "v:嗅ぎつける:かぎつける",
+   "kana": "かぎつける",
+   "kanji": "嗅ぎつける",
+   "kf": "嗅[か]ぎつける",
+   "hv": "KHỨU",
+   "vi": "đánh hơi thấy, đánh hơi ra (chuyện bị giấu)",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子[こ]どもたちは、母[はは]がケーキを隠[かく]したのをすぐに嗅[か]ぎつけた。",
+     "vi": "Bọn trẻ đánh hơi ra ngay việc mẹ giấu bánh kem.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "どこで嗅[か]ぎつけたのか、業界紙[ぎょうかいし]の記者[きしゃ]が新[しん]工場[こうじょう]の計画[けいかく]について取材[しゅざい]に来[き]た。",
+     "vi": "Không biết đánh hơi ở đâu, phóng viên báo ngành tới hỏi về kế hoạch xưởng mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：猫[ねこ]がまた台所[だいどころ]に来[き]ていますよ。B：魚[さかな]を焼[や]く匂[にお]いを嗅[か]ぎつけたんだね。窓[まど]を閉[し]めておこう。",
+     "vi": "A: Con mèo lại vào bếp kìa. B: Nó đánh hơi được mùi nướng cá đấy. Đóng cửa sổ lại thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "匂[にお]いを嗅[か]ぎつける",
+     "vi": "đánh hơi thấy mùi"
+    },
+    {
+     "jp": "秘密[ひみつ]を嗅[か]ぎつける",
+     "vi": "đánh hơi ra bí mật"
+    }
+   ],
+   "confuse": [
+    "v:察知:さっち",
+    "v:嗅ぐ:かぐ"
+   ],
+   "note": "嗅[か]ぎつける (嗅[か]ぎ付[つ]ける) = (1) đánh hơi tìm ra mùi; (2) nghĩa bóng: phát hiện ra chuyện bị giấu, điều có lợi (秘密[ひみつ] / うわさを嗅[か]ぎつける). 嗅[か]ぐ = ngửi. 察知[さっち] = nhận biết trước (trung tính, văn viết)."
+  },
+  {
+   "id": "v:怪しむ:あやしむ",
+   "kana": "あやしむ",
+   "kanji": "怪しむ",
+   "kf": "怪[あや]しむ",
+   "hv": "QUÁI",
+   "vi": "sinh nghi, thấy khả nghi (vì điều lạ)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜中[よなか]に倉庫[そうこ]の前[まえ]をうろうろしていた男[おとこ]を、警備員[けいびいん]が怪[あや]しんで声[こえ]をかけた。",
+     "vi": "Thấy khả nghi gã đàn ông lảng vảng trước kho lúc nửa đêm, nhân viên bảo vệ lên tiếng hỏi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "急[きゅう]に優[やさ]しくなった夫[おっと]を、妻[つま]は何[なに]かあるのではと怪[あや]しんだ。",
+     "vi": "Chồng bỗng dịu dàng hẳn, vợ nghi chắc có chuyện gì.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このメール、銀行[ぎんこう]からみたいですけど、リンクを押[お]してもいいですか。B：ちょっと待[ま]って。急[きゅう]に暗証番号[あんしょうばんごう]を聞[き]いてくるなんて、怪[あや]しむべきだよ。銀行[ぎんこう]に直接[ちょくせつ]電話[でんわ]して確認[かくにん]しよう。",
+     "vi": "A: Email này hình như từ ngân hàng, bấm vào link được không? B: Khoan. Tự dưng hỏi mã PIN thì nên nghi. Gọi thẳng cho ngân hàng xác nhận.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人[ひと]を怪[あや]しむ",
+     "vi": "nghi người"
+    },
+    {
+     "jp": "行動[こうどう]を怪[あや]しむ",
+     "vi": "nghi ngờ hành động"
+    }
+   ],
+   "confuse": [
+    "v:疑う:うたがう",
+    {
+     "w": "訝[いぶか]る",
+     "vi": "lấy làm ngờ vực"
+    }
+   ],
+   "rel": [
+    "v:怪しい:あやしい"
+   ],
+   "note": "怪[あや]しむ = thấy lạ, khả nghi rồi nghi ngờ (〜を怪[あや]しむ / 怪[あや]しまれる; văn viết hơn 疑[うたが]う). 疑[うたが]う = nghi ngờ (dùng rộng: 疑[うたが]う余地[よち]がない). Tính từ: 怪[あや]しい (khả nghi)."
+  },
+  {
+   "id": "v:訝しい:いぶかしい",
+   "kana": "いぶかしい",
+   "kanji": "訝しい",
+   "kf": "訝[いぶか]しい",
+   "hv": "NHẠ",
+   "vi": "ngờ ngợ, lấy làm lạ (vì không rõ lý do)",
+   "pos": "adj-i",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "検査[けんさ]の数値[すうち]が毎回[まいかい]まったく同[おな]じなのは、訝[いぶか]しいと言[い]わざるを得[え]ない。",
+     "vi": "Số đo kiểm tra lần nào cũng y hệt thì phải nói là đáng ngờ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "店員[てんいん]の訝[いぶか]しげな視線[しせん]に、少[すこ]し居心地[いごこち]が悪[わる]くなった。",
+     "vi": "Trước ánh mắt nghi hoặc của nhân viên cửa hàng, tôi thấy hơi khó chịu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの業者[ぎょうしゃ]、急[きゅう]に安[やす]い値段[ねだん]を出[だ]してきましたね。B：うん、少[すこ]し訝[いぶか]しい。品質[ひんしつ]や産地[さんち]を、もう一度[いちど]確認[かくにん]したほうがいい。",
+     "vi": "A: Nhà cung cấp đó tự nhiên đưa giá rẻ nhỉ. B: Ừ, hơi đáng ngờ. Nên xác nhận lại chất lượng và nơi sản xuất.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "顔[かお]",
+     "vi": "nét mặt"
+    },
+    {
+     "jp": "点[てん]",
+     "vi": "điểm"
+    },
+    {
+     "jp": "様子[ようす]",
+     "vi": "dáng vẻ"
+    }
+   ],
+   "confuse": [
+    "v:怪しい:あやしい",
+    "v:疑わしい:うたがわしい"
+   ],
+   "rel": [
+    {
+     "w": "訝[いぶか]しげ",
+     "vi": "vẻ nghi hoặc"
+    },
+    {
+     "w": "訝[いぶか]る",
+     "vi": "lấy làm ngờ vực"
+    }
+   ],
+   "note": "訝[いぶか]しい = thấy khó hiểu, đáng ngờ vì không rõ lý do (văn viết). Hay gặp: 訝[いぶか]しげな顔[かお] / 訝[いぶか]しげに見[み]る. Động từ: 訝[いぶか]る. 怪[あや]しい = khả nghi (dùng rộng, khẩu ngữ). 疑[うたが]わしい = đáng ngờ, khó tin là thật."
+  },
+  {
+   "id": "v:定か:さだか",
+   "kana": "さだか",
+   "kanji": "定か",
+   "kf": "定[さだ]か",
+   "hv": "ĐỊNH",
+   "vi": "rõ ràng chắc chắn (thường phủ định: chưa rõ)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "出荷[しゅっか]の記録[きろく]がなく、いつ冷凍庫[れいとうこ]に入[い]れたのか定[さだ]かではない。",
+     "vi": "Không có hồ sơ xuất hàng nên không rõ đã cho vào kho đông lúc nào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "その話[はなし]が本当[ほんとう]かどうかは定[さだ]かでないが、町[まち]ではうわさになっている。",
+     "vi": "Chuyện đó thật hay không chưa rõ, nhưng trong thị trấn đang đồn ầm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：昨日[きのう]、倉庫[そうこ]の鍵[かぎ]を最後[さいご]に閉[し]めたのは誰[だれ]ですか。B：記憶[きおく]が定[さだ]かじゃないんですが、たぶん私[わたし]です。日誌[にっし]を見[み]て確[たし]かめます。",
+     "vi": "A: Hôm qua ai khóa kho sau cùng? B: Tôi không nhớ rõ, nhưng chắc là tôi. Tôi sẽ xem nhật ký để kiểm tra.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "記憶[きおく]",
+     "vi": "trí nhớ"
+    },
+    {
+     "jp": "理由[りゆう]",
+     "vi": "lý do"
+    },
+    {
+     "jp": "原因[げんいん]",
+     "vi": "nguyên nhân"
+    }
+   ],
+   "confuse": [
+    "v:明らか:あきらか",
+    "v:確か:たしか"
+   ],
+   "note": "定[さだ]か = rõ ràng, chắc chắn (gần như chỉ dùng phủ định: 定[さだ]かではない / 定[さだ]かでない; văn viết). 確[たし]か = chắc chắn, đáng tin. 明[あき]らか = hiển nhiên, ai cũng thấy."
+  },
+  {
+   "id": "v:さも:さも",
+   "kana": "さも",
+   "kanji": "",
+   "hv": "",
+   "vi": "(làm) ra vẻ như thể, trông như thật",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]はさも自分[じぶん]が考[かんが]えたかのように、先輩[せんぱい]の改善案[かいぜんあん]を発表[はっぴょう]した。",
+     "vi": "Anh ta trình bày phương án cải tiến của đàn anh làm như thể mình nghĩ ra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "弟[おとうと]はさもおいしそうに、私[わたし]のアイスを食[た]べてみせた。",
+     "vi": "Em trai ăn kem của tôi ra vẻ ngon lành lắm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの人[ひと]、さも全部[ぜんぶ]知[し]っているような顔[かお]で話[はな]していましたね。B：うん。でも、話[はなし]の中身[なかみ]はほとんどうわさだったよ。",
+     "vi": "A: Người đó nói chuyện với vẻ mặt như thể biết hết nhỉ. B: Ừ. Nhưng nội dung toàn là tin đồn thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "さも〜かのように",
+     "vi": "làm như thể ~"
+    },
+    {
+     "jp": "さも〜そうに",
+     "vi": "ra vẻ ~ lắm"
+    }
+   ],
+   "confuse": [
+    "v:いかにも:いかにも",
+    {
+     "w": "あたかも",
+     "vi": "cứ như thể (so sánh)"
+    }
+   ],
+   "note": "さも = ra vẻ, làm như thật (さも〜かのように / さも〜そうに / さも〜げに; thường hàm ý thật ra không phải vậy). いかにも = trông đúng là, quả thật. あたかも = cứ như là (so sánh, văn viết)."
+  },
+  {
+   "id": "v:紛れもない:まぎれもない",
+   "kana": "まぎれもない",
+   "kanji": "紛れもない",
+   "kf": "紛[まぎ]れもない",
+   "hv": "PHÂN",
+   "vi": "không thể nhầm lẫn, không lẫn vào đâu được",
+   "pos": "adj-i",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Suy đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "防犯[ぼうはん]カメラの映像[えいぞう]は、紛[まぎ]れもない証拠[しょうこ]となった。",
+     "vi": "Hình ảnh camera an ninh trở thành bằng chứng không thể chối cãi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "このラベルは紛[まぎ]れもなく当社[とうしゃ]のものだが、中身[なかみ]は違[ちが]う商品[しょうひん]だった。",
+     "vi": "Nhãn này rõ ràng là của công ty ta, nhưng hàng bên trong là sản phẩm khác.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この製品[せいひん]の改善[かいぜん]は、グエンさんの提案[ていあん]ですよね。B：ええ、紛[まぎ]れもなくグエンさんの功績[こうせき]です。発表会[はっぴょうかい]でも紹介[しょうかい]しましょう。",
+     "vi": "A: Cải tiến sản phẩm này là đề xuất của anh Nguyễn nhỉ. B: Vâng, rõ ràng là công lao của anh Nguyễn. Giới thiệu ở hội báo cáo luôn đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "事実[じじつ]",
+     "vi": "sự thật"
+    },
+    {
+     "jp": "証拠[しょうこ]",
+     "vi": "bằng chứng"
+    },
+    {
+     "jp": "本物[ほんもの]",
+     "vi": "hàng thật"
+    }
+   ],
+   "confuse": [
+    "v:明白:めいはく",
+    "v:明らか:あきらか"
+   ],
+   "note": "紛[まぎ]れもない = rõ ràng đến mức không thể lẫn với cái khác (紛[まぎ]れもない事実[じじつ] / 紛[まぎ]れもなく〜だ). 明白[めいはく] = rành rành, không chối được. Gốc: 紛[まぎ]れる (lẫn vào)."
+  },
+  {
+   "id": "v:容疑者:ようぎしゃ",
+   "kana": "ようぎしゃ",
+   "kanji": "容疑者",
+   "hv": "DUNG NGHI GIẢ",
+   "vi": "nghi phạm (bị tình nghi phạm tội)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghi phạm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "倉庫[そうこ]荒[あ]らしの容疑者[ようぎしゃ]が、防犯[ぼうはん]カメラの映像[えいぞう]から特定[とくてい]された。",
+     "vi": "Nghi phạm phá kho đã được xác định từ hình ảnh camera an ninh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ニュースで、容疑者[ようぎしゃ]とおぼしき男[おとこ]が駅[えき]で目撃[もくげき]されたと伝[つた]えていた。",
+     "vi": "Bản tin nói một người đàn ông có vẻ là nghi phạm đã được nhìn thấy ở ga.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：容疑者[ようぎしゃ]って、もう犯人[はんにん]だと決[き]まったわけじゃないんですよね。B：そうだよ。裁判[さいばん]で有罪[ゆうざい]にならない限[かぎ]り、犯人[はんにん]と決[き]めつけてはいけないんだ。",
+     "vi": "A: Nghi phạm không có nghĩa là đã kết luận là thủ phạm đúng không ạ? B: Đúng vậy. Chừng nào tòa chưa tuyên có tội thì không được quy là thủ phạm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "容疑者[ようぎしゃ]を逮捕[たいほ]する",
+     "vi": "bắt nghi phạm"
+    },
+    {
+     "jp": "容疑者[ようぎしゃ]が浮[う]かぶ",
+     "vi": "lộ ra nghi phạm"
+    }
+   ],
+   "confuse": [
+    "v:被疑者:ひぎしゃ",
+    "v:犯人:はんにん"
+   ],
+   "note": "容疑者[ようぎしゃ] = người bị nghi là đã phạm tội (từ dùng trong tin tức; đặt sau tên người: 〜容疑者[ようぎしゃ]). 被疑者[ひぎしゃ] = thuật ngữ pháp lý cùng nghĩa. 犯人[はんにん] = thủ phạm (người đã gây ra). Câu 2 có mẫu 〜とおぼしき của bài này."
+  },
+  {
+   "id": "v:被疑者:ひぎしゃ",
+   "kana": "ひぎしゃ",
+   "kanji": "被疑者",
+   "hv": "BỊ NGHI GIẢ",
+   "vi": "bị can (thuật ngữ pháp lý, chưa bị khởi tố)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghi phạm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "警察[けいさつ]は被疑者[ひぎしゃ]から任意[にんい]で事情[じじょう]を聞[き]いている。",
+     "vi": "Cảnh sát đang hỏi chuyện bị can trên cơ sở tự nguyện.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "被疑者[ひぎしゃ]の権利[けんり]として、弁護士[べんごし]を呼[よ]ぶことが認[みと]められている。",
+     "vi": "Quyền của bị can bao gồm việc được gọi luật sư.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：ニュースでは「容疑者[ようぎしゃ]」と言[い]うのに、この本[ほん]には「被疑者[ひぎしゃ]」と書[か]いてありますね。B：法律[ほうりつ]の言葉[ことば]では被疑者[ひぎしゃ]なんだ。起訴[きそ]されると、今度[こんど]は「被告人[ひこくにん]」と呼[よ]ばれるよ。",
+     "vi": "A: Tin tức thì nói \"nghi phạm\" mà sách này lại viết \"bị can\" nhỉ. B: Trong ngôn ngữ pháp luật thì là bị can. Khi bị khởi tố thì lại được gọi là \"bị cáo\".",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:容疑者:ようぎしゃ",
+    {
+     "w": "被告[ひこく]",
+     "vi": "bị cáo"
+    }
+   ],
+   "note": "被疑者[ひぎしゃ] = người bị cơ quan điều tra nghi là phạm tội, chưa bị khởi tố (thuật ngữ pháp lý; báo chí thường nói 容疑者[ようぎしゃ]). Sau khi bị khởi tố (起訴[きそ]) gọi là 被告人[ひこくにん] (báo chí: 被告[ひこく])."
+  },
+  {
+   "id": "v:嫌疑:けんぎ",
+   "kana": "けんぎ",
+   "kanji": "嫌疑",
+   "hv": "HIỀM NGHI",
+   "vi": "mối nghi (bị nghi có tội, làm sai)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghi phạm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "現金[げんきん]がなくなった件[けん]で、たまたま近[ちか]くにいたアルバイトに嫌疑[けんぎ]がかかった。",
+     "vi": "Vụ mất tiền mặt, mối nghi đổ lên người làm thêm tình cờ ở gần đó.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "防犯[ぼうはん]カメラの映像[えいぞう]が見[み]つかり、彼[かれ]の嫌疑[けんぎ]はようやく晴[は]れた。",
+     "vi": "Tìm được hình ảnh camera, mối nghi đối với anh ấy cuối cùng cũng được giải tỏa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：証拠[しょうこ]もないのに、新人[しんじん]を疑[うたが]うのはかわいそうですよ。B：そうだね。嫌疑[けんぎ]をかける前[まえ]に、まず在庫[ざいこ]の記録[きろく]を全部[ぜんぶ]確認[かくにん]しよう。",
+     "vi": "A: Không có bằng chứng mà nghi người mới thì tội lắm. B: Đúng. Trước khi nghi ai, hãy kiểm tra hết hồ sơ tồn kho đã.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "嫌疑[けんぎ]がかかる",
+     "vi": "bị nghi"
+    },
+    {
+     "jp": "嫌疑[けんぎ]が晴[は]れる",
+     "vi": "được giải nghi"
+    },
+    {
+     "jp": "嫌疑[けんぎ]をかける",
+     "vi": "nghi cho ai"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "容疑[ようぎ]",
+     "vi": "nghi vấn phạm một tội cụ thể"
+    },
+    "v:疑い:うたがい"
+   ],
+   "note": "嫌疑[けんぎ] = sự nghi ngờ là đã phạm tội, làm điều xấu (嫌疑[けんぎ]がかかる / 嫌疑[けんぎ]をかける / 嫌疑[けんぎ]が晴[は]れる; văn viết). 容疑[ようぎ] = nghi vấn phạm một tội cụ thể (窃盗[せっとう]の容疑[ようぎ]で逮捕[たいほ]). 疑[うたが]い = sự nghi ngờ (dùng rộng)."
+  },
+  {
+   "id": "v:犯行:はんこう",
+   "kana": "はんこう",
+   "kanji": "犯行",
+   "hv": "PHẠM HÀNH",
+   "vi": "hành vi phạm tội, vụ gây án",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghi phạm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "犯行[はんこう]は、従業員[じゅうぎょういん]が帰[かえ]った夜中[よなか]に行[おこな]われたとみられる。",
+     "vi": "Vụ gây án được cho là xảy ra lúc nửa đêm khi nhân viên đã về.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "容疑者[ようぎしゃ]は犯行[はんこう]を認[みと]め、「お金[かね]に困[こま]っていた」と話[はな]している。",
+     "vi": "Nghi phạm thừa nhận hành vi phạm tội và nói \"đang túng tiền\".",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：ニュースで「計画的[けいかくてき]な犯行[はんこう]」って言[い]っていましたけど、どういう意味[いみ]ですか。B：その場[ば]の思[おも]いつきじゃなくて、前[まえ]もって準備[じゅんび]してやったってことだよ。",
+     "vi": "A: Tin tức nói \"hành vi phạm tội có kế hoạch\", nghĩa là sao ạ? B: Nghĩa là không phải bộc phát, mà đã chuẩn bị trước rồi mới làm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "犯行[はんこう]に及[およ]ぶ",
+     "vi": "ra tay gây án"
+    },
+    {
+     "jp": "犯行[はんこう]を認[みと]める",
+     "vi": "thừa nhận hành vi phạm tội"
+    }
+   ],
+   "confuse": [
+    "v:犯罪:はんざい",
+    "v:犯人:はんにん"
+   ],
+   "note": "犯行[はんこう] = hành động phạm tội cụ thể (犯行[はんこう]時刻[じこく] / 犯行[はんこう]現場[げんば] / 犯行[はんこう]に及[およ]ぶ; tin tức). 犯罪[はんざい] = tội phạm (khái niệm chung: 犯罪[はんざい]を防[ふせ]ぐ). 犯人[はんにん] = người gây án."
+  },
+  {
+   "id": "v:逃走:とうそう",
+   "kana": "とうそう",
+   "kanji": "逃走",
+   "hv": "ĐÀO TẨU",
+   "vi": "bỏ trốn, tẩu thoát",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghi phạm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "男[おとこ]は店[みせ]の商品[しょうひん]を持[も]ったまま、車[くるま]で逃走[とうそう]した。",
+     "vi": "Gã đàn ông mang theo hàng của cửa hàng rồi lái xe tẩu thoát.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]の駐車場[ちゅうしゃじょう]で車[くるま]をぶつけた人物[じんぶつ]が、そのまま逃走[とうそう]したらしい。",
+     "vi": "Hình như người đâm xe ở bãi đỗ xe của xưởng đã bỏ chạy luôn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：駅前[えきまえ]で事件[じけん]があったみたいですね。B：うん、犯人[はんにん]はまだ逃走中[とうそうちゅう]だって。今日[きょう]は子[こ]どもを一人[ひとり]で帰[かえ]らせないほうがいいね。",
+     "vi": "A: Hình như có vụ án ở trước ga nhỉ. B: Ừ, nghe nói hung thủ vẫn đang lẩn trốn. Hôm nay không nên cho con về một mình.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "現場[げんば]から逃走[とうそう]する",
+     "vi": "bỏ trốn khỏi hiện trường"
+    },
+    {
+     "jp": "車[くるま]で逃走[とうそう]する",
+     "vi": "tẩu thoát bằng xe"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "逃亡[とうぼう]",
+     "vi": "trốn chạy (đi xa, lâu dài)"
+    },
+    {
+     "w": "脱走[だっそう]",
+     "vi": "trốn khỏi nơi bị giam"
+    }
+   ],
+   "note": "逃走[とうそう] = chạy trốn khỏi hiện trường, khỏi sự truy đuổi (逃走中[とうそうちゅう] / 逃走[とうそう]経路[けいろ] / 逃走[とうそう]を図[はか]る; tin tức). 逃亡[とうぼう] = trốn đi xa trong thời gian dài. 脱走[だっそう] = trốn khỏi nơi bị nhốt."
+  },
+  {
+   "id": "v:身柄:みがら",
+   "kana": "みがら",
+   "kanji": "身柄",
+   "hv": "THÂN BÍNH",
+   "vi": "thân (người bị bắt giữ, giao nộp)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghi phạm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]で暴[あば]れた男[おとこ]は、駆[か]けつけた警察官[けいさつかん]に身柄[みがら]を拘束[こうそく]された。",
+     "vi": "Gã đàn ông quậy phá ở xưởng bị cảnh sát đến kịp khống chế.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "万引[まんび]きをした少年[しょうねん]の身柄[みがら]は、店[みせ]から連絡[れんらく]を受[う]けた保護者[ほごしゃ]に引[ひ]き渡[わた]された。",
+     "vi": "Cậu thiếu niên ăn cắp vặt được giao lại cho phụ huynh, người nhận điện báo từ cửa hàng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：昨日[きのう]の事件[じけん]の犯人[はんにん]、捕[つか]まったそうですね。B：ええ、今朝[けさ]、隣[となり]の町[まち]で身柄[みがら]を確保[かくほ]されたそうです。これで安心[あんしん]して子[こ]どもを外[そと]で遊[あそ]ばせられますね。",
+     "vi": "A: Nghe nói hung thủ vụ hôm qua bị bắt rồi nhỉ. B: Vâng, nghe nói sáng nay đã bị khống chế ở thị trấn bên cạnh. Giờ có thể yên tâm cho con chơi ngoài trời rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "身柄[みがら]を確保[かくほ]する",
+     "vi": "khống chế được người"
+    },
+    {
+     "jp": "身柄[みがら]を引[ひ]き渡[わた]す",
+     "vi": "giao người"
+    }
+   ],
+   "confuse": [
+    "v:身元:みもと",
+    {
+     "w": "身分[みぶん]",
+     "vi": "thân phận, địa vị"
+    }
+   ],
+   "note": "身柄[みがら] = bản thân người đó, xét như đối tượng bị giữ, giao nộp (tin tức: 身柄[みがら]を確保[かくほ] / 拘束[こうそく] / 引[ひ]き渡[わた]す / 身柄[みがら]引受人[ひきうけにん]). 身元[みもと] = lai lịch, danh tính. 身分[みぶん] = địa vị, thân phận (身分証明書[みぶんしょうめいしょ])."
+  },
+  {
+   "id": "v:供述:きょうじゅつ",
+   "kana": "きょうじゅつ",
+   "kanji": "供述",
+   "hv": "CUNG THUẬT",
+   "vi": "khai (trước cảnh sát, tòa)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghi phạm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "容疑者[ようぎしゃ]は「金[かね]が欲[ほ]しかった」と供述[きょうじゅつ]している。",
+     "vi": "Nghi phạm khai \"muốn có tiền\".",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "供述[きょうじゅつ]調書[ちょうしょ]に署名[しょめい]する前[まえ]に、内容[ないよう]をよく読[よ]んで確認[かくにん]してください。",
+     "vi": "Trước khi ký vào biên bản lời khai, hãy đọc kỹ và xác nhận nội dung.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：容疑者[ようぎしゃ]の話[はなし]、ころころ変[か]わっているらしいですね。B：うん、供述[きょうじゅつ]があいまいで、まだ動機[どうき]ははっきりしないそうだ。",
+     "vi": "A: Nghe nói lời nghi phạm cứ thay đổi xoành xoạch nhỉ. B: Ừ, lời khai mập mờ nên động cơ vẫn chưa rõ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "〜と供述[きょうじゅつ]する",
+     "vi": "khai rằng ~"
+    },
+    {
+     "jp": "動機[どうき]を供述[きょうじゅつ]する",
+     "vi": "khai động cơ"
+    }
+   ],
+   "confuse": [
+    "v:証言:しょうげん",
+    {
+     "w": "自白[じはく]",
+     "vi": "tự thú nhận tội"
+    }
+   ],
+   "note": "供述[きょうじゅつ] = lời khai (của nghi phạm, nhân chứng) trước cảnh sát, tòa (〜と供述[きょうじゅつ]する / 供述[きょうじゅつ]調書[ちょうしょ]; tin tức). 証言[しょうげん] = làm chứng (nhân chứng nói điều mình biết). 自白[じはく] = tự thừa nhận tội."
+  },
+  {
+   "id": "v:黙秘:もくひ",
+   "kana": "もくひ",
+   "kanji": "黙秘",
+   "hv": "MẶC BÍ",
+   "vi": "giữ im lặng (không khai)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghi phạm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "容疑者[ようぎしゃ]は取[と]り調[しら]べに対[たい]して黙秘[もくひ]を続[つづ]けている。",
+     "vi": "Nghi phạm tiếp tục giữ im lặng trước việc thẩm vấn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "取[と]り調[しら]べでは、言[い]いたくないことは黙秘[もくひ]することができる。",
+     "vi": "Khi bị thẩm vấn, điều không muốn nói thì có thể giữ im lặng.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：子[こ]どもに「誰[だれ]が窓[まど]を割[わ]ったの」と聞[き]いても、黙秘[もくひ]しているんです。B：ははは、黙秘権[もくひけん]を使[つか]っているのかな。怒[おこ]らないから話[はな]してごらん、と言[い]ってみたら？",
+     "vi": "A: Hỏi con \"ai làm vỡ cửa kính\" mà nó cứ im thin thít. B: Haha, nó dùng quyền im lặng à. Thử nói \"bố không mắng đâu, kể đi\" xem?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "一貫[いっかん]して黙秘[もくひ]する",
+     "vi": "một mực giữ im lặng"
+    },
+    {
+     "jp": "動機[どうき]について黙秘[もくひ]する",
+     "vi": "im lặng về động cơ"
+    }
+   ],
+   "confuse": [
+    "v:黙る:だまる",
+    {
+     "w": "沈黙[ちんもく]",
+     "vi": "sự im lặng"
+    }
+   ],
+   "rel": [
+    {
+     "w": "黙秘権[もくひけん]",
+     "vi": "quyền giữ im lặng"
+    }
+   ],
+   "note": "黙秘[もくひ] = cố ý không khai, giữ im lặng trước cảnh sát, tòa (黙秘[もくひ]を続[つづ]ける / 黙秘権[もくひけん] = quyền im lặng; tin tức). Đời sống: nói đùa khi ai đó không chịu khai. 黙[だま]る = im lặng (chung). 沈黙[ちんもく] = sự im lặng (văn viết)."
+  },
+  {
+   "id": "v:白を切る:しらをきる",
+   "kana": "しらをきる",
+   "kanji": "白を切る",
+   "kf": "白[しら]を切[き]る",
+   "hv": "BẠCH THIẾT",
+   "vi": "giả vờ không biết, chối phăng",
+   "pos": "expr",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghi phạm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "段[だん]ボールを片付[かたづ]けなかったのは誰[だれ]かと聞[き]いても、みんな白[しら]を切[き]っている。",
+     "vi": "Hỏi ai không dọn thùng các-tông thì ai cũng giả vờ không biết.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "証拠[しょうこ]を見[み]せられても、男[おとこ]は「知[し]らない」と白[しら]を切[き]るばかりだった。",
+     "vi": "Dù bị đưa bằng chứng ra, gã chỉ một mực chối \"không biết\".",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：冷蔵庫[れいぞうこ]のプリン、食[た]べたでしょう。B：え、何[なん]のこと？…ごめん、白[しら]を切[き]っても無駄[むだ]だね。私[わたし]が食[た]べた。",
+     "vi": "A: Anh ăn bánh flan trong tủ lạnh rồi phải không. B: Hả, chuyện gì cơ? …Xin lỗi, giả vờ cũng vô ích nhỉ. Anh ăn đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "白[しら]を切[き]り通[とお]す",
+     "vi": "chối đến cùng"
+    },
+    {
+     "jp": "最後[さいご]まで白[しら]を切[き]る",
+     "vi": "giả vờ không biết đến cùng"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "とぼける",
+     "vi": "giả ngây, làm như không biết"
+    },
+    {
+     "w": "しらばくれる",
+     "vi": "giả vờ không biết (khẩu ngữ)"
+    }
+   ],
+   "note": "白[しら]を切[き]る = biết mà giả vờ không biết (khẩu ngữ, tin tức). Đọc しら (không đọc しろ). Gần nghĩa: しらばくれる, とぼける."
+  },
+  {
+   "id": "v:冤罪:えんざい",
+   "kana": "えんざい",
+   "kanji": "冤罪",
+   "hv": "OAN TỘI",
+   "vi": "án oan, sự bị kết tội oan",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghi phạm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "長年[ながねん]の冤罪[えんざい]が晴[は]れ、男性[だんせい]は家族[かぞく]のもとに戻[もど]った。",
+     "vi": "Án oan nhiều năm được rửa sạch, người đàn ông trở về với gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "品質[ひんしつ]事故[じこ]の調査[ちょうさ]でも、思[おも]い込[こ]みで担当者[たんとうしゃ]を責[せ]めると冤罪[えんざい]を生[う]みかねない。",
+     "vi": "Ngay cả điều tra sự cố chất lượng, nếu vì định kiến mà trách người phụ trách thì có thể gây oan.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：店[みせ]で、万引[まんび]きと間違[まちが]われたことがあるんです。B：それはひどいね。冤罪[えんざい]は、疑[うたが]われた人[ひと]の心[こころ]にずっと傷[きず]が残[のこ]るからね。",
+     "vi": "A: Tôi từng bị nhầm là ăn cắp ở cửa hàng. B: Thế thì tệ quá. Bị oan thì lòng người bị nghi mang vết thương mãi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "冤罪[えんざい]が晴[は]れる",
+     "vi": "được minh oan"
+    },
+    {
+     "jp": "冤罪[えんざい]を生[う]む",
+     "vi": "gây ra án oan"
+    }
+   ],
+   "confuse": [
+    "v:濡れ衣:ぬれぎぬ",
+    "v:誤認:ごにん"
+   ],
+   "note": "冤罪[えんざい] = tội oan, bị kết tội khi không làm (冤罪[えんざい]事件[じけん] / 冤罪[えんざい]を晴[は]らす; tin tức, văn viết). 濡[ぬ]れ衣[ぎぬ] = tiếng oan (khẩu ngữ hơn: 濡[ぬ]れ衣[ぎぬ]を着[き]せられる). 誤認[ごにん] = nhận nhầm."
+  },
+  {
+   "id": "v:不審者:ふしんしゃ",
+   "kana": "ふしんしゃ",
+   "kanji": "不審者",
+   "hv": "BẤT THẨM GIẢ",
+   "vi": "kẻ khả nghi",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghi phạm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]の敷地内[しきちない]で不審者[ふしんしゃ]を見[み]かけたら、すぐに警備[けいび]室[しつ]に連絡[れんらく]してください。",
+     "vi": "Nếu thấy kẻ khả nghi trong khuôn viên xưởng, hãy báo ngay cho phòng bảo vệ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "学校[がっこう]から、通学路[つうがくろ]に不審者[ふしんしゃ]が出[で]たというお知[し]らせが届[とど]いた。",
+     "vi": "Trường gửi thông báo có kẻ khả nghi xuất hiện trên đường đi học.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：夕方[ゆうがた]、家[いえ]の前[まえ]に知[し]らない車[くるま]がずっと止[と]まっていたんです。B：不審者[ふしんしゃ]かもしれないね。ナンバーを控[ひか]えて、交番[こうばん]に相談[そうだん]したらどう？",
+     "vi": "A: Chiều tối có chiếc xe lạ đỗ mãi trước nhà. B: Có thể là kẻ khả nghi. Ghi lại biển số rồi báo đồn cảnh sát thì sao?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "不審者[ふしんしゃ]を見[み]かける",
+     "vi": "thấy kẻ khả nghi"
+    },
+    {
+     "jp": "不審者[ふしんしゃ]に注意[ちゅうい]する",
+     "vi": "cảnh giác kẻ khả nghi"
+    }
+   ],
+   "confuse": [
+    "v:容疑者:ようぎしゃ",
+    "v:不審:ふしん"
+   ],
+   "note": "不審者[ふしんしゃ] = người có hành động, dáng vẻ đáng ngờ (chưa chắc phạm tội; hay gặp trên thông báo trường, khu phố: 不審者[ふしんしゃ]情報[じょうほう] / 不審者[ふしんしゃ]に注意[ちゅうい]). 容疑者[ようぎしゃ] = đã bị nghi phạm một tội cụ thể."
+  },
+  {
+   "id": "v:捜査:そうさ",
+   "kana": "そうさ",
+   "kanji": "捜査",
+   "hv": "SƯU TRA",
+   "vi": "điều tra (của cảnh sát)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Điều tra",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "警察[けいさつ]は、倉庫[そうこ]から商品[しょうひん]が盗[ぬす]まれた事件[じけん]の捜査[そうさ]を進[すす]めている。",
+     "vi": "Cảnh sát đang tiến hành điều tra vụ hàng bị trộm khỏi kho.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "事件[じけん]の捜査[そうさ]に協力[きょうりょく]するため、近所[きんじょ]の人[ひと]たちが防犯[ぼうはん]カメラの映像[えいぞう]を提供[ていきょう]した。",
+     "vi": "Để hợp tác điều tra vụ án, người dân quanh đó đã cung cấp hình ảnh camera.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：駅前[えきまえ]の事件[じけん]、まだ犯人[はんにん]は捕[つか]まっていないんですか。B：うん、警察[けいさつ]が捜査[そうさ]を続[つづ]けているらしい。見[み]た人[ひと]は連絡[れんらく]してほしいって、ポスターが貼[は]ってあったよ。",
+     "vi": "A: Vụ án trước ga vẫn chưa bắt được hung thủ ạ? B: Ừ, nghe nói cảnh sát vẫn đang tiếp tục điều tra. Có dán áp phích nhờ ai nhìn thấy thì liên lạc.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事件[じけん]を捜査[そうさ]する",
+     "vi": "điều tra vụ án"
+    },
+    {
+     "jp": "慎重[しんちょう]に捜査[そうさ]する",
+     "vi": "điều tra thận trọng"
+    }
+   ],
+   "confuse": [
+    "v:調査:ちょうさ",
+    "v:操作:そうさ"
+   ],
+   "note": "捜査[そうさ] = cảnh sát, cơ quan điều tra tìm thủ phạm, thu thập chứng cứ (捜査中[そうさちゅう] / 捜査[そうさ]が難航[なんこう]する / 捜査[そうさ]の手[て]が伸[の]びる; tin tức). 調査[ちょうさ] = điều tra, khảo sát (chung). Đồng âm: 操作[そうさ] (thao tác máy)."
+  },
+  {
+   "id": "v:聞き込み:ききこみ",
+   "kana": "ききこみ",
+   "kanji": "聞き込み",
+   "kf": "聞[き]き込[こ]み",
+   "hv": "VĂN NHẬP",
+   "vi": "sự đi hỏi thăm (thu thập lời kể)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Điều tra",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "刑事[けいじ]が近所[きんじょ]で聞[き]き込[こ]みをしていたが、何[なに]があったのだろう。",
+     "vi": "Thanh tra đi hỏi thăm quanh xóm, không biết đã xảy ra chuyện gì.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "異物[いぶつ]混入[こんにゅう]の原因[げんいん]を探[さぐ]るため、各[かく]班[はん]への聞[き]き込[こ]みから始[はじ]めた。",
+     "vi": "Để tìm nguyên nhân dị vật lẫn vào, chúng tôi bắt đầu từ việc hỏi chuyện từng tổ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：取引先[とりひきさき]の新[あたら]しい担当[たんとう]の方[かた]、どんな人[ひと]なんでしょう。B：営業[えいぎょう]の田中[たなか]さんに聞[き]き込[こ]みをしておいたよ。細[こま]かいけど、約束[やくそく]は必[かなら]ず守[まも]る人[ひと]だって。",
+     "vi": "A: Người phụ trách mới bên khách hàng là người thế nào nhỉ? B: Tôi đã dò hỏi anh Tanaka bên kinh doanh rồi. Nghe nói kỹ tính nhưng luôn giữ lời hứa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "聞[き]き込[こ]みをする",
+     "vi": "đi hỏi thăm"
+    },
+    {
+     "jp": "聞[き]き込[こ]み捜査[そうさ]",
+     "vi": "điều tra bằng cách hỏi thăm"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "聞[き]き取[と]り",
+     "vi": "nghe lấy ý kiến (phỏng vấn trực tiếp)"
+    },
+    "v:捜査:そうさ"
+   ],
+   "flag": true,
+   "note": "聞[き]き込[こ]み = đi khắp nơi hỏi chuyện để thu thập thông tin (vốn là từ điều tra của cảnh sát: 聞[き]き込[こ]み捜査[そうさ]). Nói vui trong công việc: dò hỏi trước. 聞[き]き取[と]り = nghe lấy ý kiến (聞[き]き取[と]り調査[ちょうさ]). Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:痕跡:こんせき",
+   "kana": "こんせき",
+   "kanji": "痕跡",
+   "hv": "NGÂN TÍCH",
+   "vi": "vết tích, dấu vết sót lại (cho thấy việc đã xảy ra)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Điều tra",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冷凍庫[れいとうこ]の床[ゆか]に、何者[なにもの]かが侵入[しんにゅう]した痕跡[こんせき]が残[のこ]っていた。",
+     "vi": "Trên sàn kho đông còn dấu vết ai đó đột nhập.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この地層[ちそう]には、昔[むかし]大[おお]きな津波[つなみ]が来[き]た痕跡[こんせき]がある。",
+     "vi": "Lớp địa tầng này có dấu vết sóng thần lớn từng ập tới ngày xưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：ネズミがいるかもしれないって、本当[ほんとう]ですか。B：段[だん]ボールにかじった痕跡[こんせき]があったんだ。すぐに業者[ぎょうしゃ]を呼[よ]んで、侵入[しんにゅう]経路[けいろ]を調[しら]べてもらおう。",
+     "vi": "A: Có thể có chuột, thật không ạ? B: Có dấu vết gặm trên thùng các-tông. Gọi ngay bên diệt côn trùng để kiểm tra đường vào.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "痕跡[こんせき]を残[のこ]す",
+     "vi": "để lại dấu vết"
+    },
+    {
+     "jp": "痕跡[こんせき]をとどめる",
+     "vi": "còn lưu dấu vết"
+    }
+   ],
+   "confuse": [
+    "v:跡:あと",
+    {
+     "w": "形跡[けいせき]",
+     "vi": "dấu hiệu cho thấy đã có việc gì"
+    }
+   ],
+   "note": "痕跡[こんせき] = dấu vết còn lại cho thấy việc gì đã xảy ra (侵入[しんにゅう]の痕跡[こんせき] / 痕跡[こんせき]を残[のこ]す / 痕跡[こんせき]もない; văn viết). 跡[あと] = vết (chung). 形跡[けいせき] = dấu hiệu, hình tích (〜した形跡[けいせき]がある)."
+  },
+  {
+   "id": "v:足取り:あしどり",
+   "kana": "あしどり",
+   "kanji": "足取り",
+   "kf": "足取[あしど]り",
+   "hv": "TÚC THỦ",
+   "vi": "hành tung, đường đi (của người); bước chân",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Điều tra",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "警察[けいさつ]は防犯[ぼうはん]カメラの映像[えいぞう]から、男[おとこ]の足取[あしど]りを追[お]っている。",
+     "vi": "Cảnh sát lần theo hành tung của gã đàn ông từ hình ảnh camera.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "夜勤[やきん]明[あ]けの作業員[さぎょういん]たちは、重[おも]い足取[あしど]りで更衣室[こういしつ]に向[む]かった。",
+     "vi": "Công nhân vừa xong ca đêm lê bước nặng nề về phòng thay đồ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：迷子[まいご]になった犬[いぬ]、見[み]つかりましたか。B：まだなんだ。近所[きんじょ]の人[ひと]の話[はなし]から、足取[あしど]りを少[すこ]しずつたどっているところだよ。",
+     "vi": "A: Con chó đi lạc tìm được chưa? B: Chưa. Đang lần theo đường đi của nó dần dần từ lời kể hàng xóm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "足取[あしど]りを追[お]う",
+     "vi": "lần theo hành tung"
+    },
+    {
+     "jp": "足取[あしど]りが軽[かる]い",
+     "vi": "bước chân nhẹ nhàng"
+    },
+    {
+     "jp": "足取[あしど]りが重[おも]い",
+     "vi": "bước chân nặng nề"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "足跡[あしあと]",
+     "vi": "dấu chân"
+    },
+    {
+     "w": "行方[ゆくえ]",
+     "vi": "tung tích (nơi đã đi)"
+    }
+   ],
+   "note": "足取[あしど]り = (1) dáng bước, bước chân (足取[あしど]りが重[おも]い / 軽[かる]い); (2) hành tung, đường đi của người, con vật (足取[あしど]りを追[お]う / たどる / つかむ; tin tức). 足跡[あしあと] = vết chân. 行方[ゆくえ] = nơi người, vật đã đi tới (行方不明[ゆくえふめい])."
+  },
+  {
+   "id": "v:物色:ぶっしょく",
+   "kana": "ぶっしょく",
+   "kanji": "物色",
+   "hv": "VẬT SẮC",
+   "vi": "lục lọi tìm (đồ để lấy); lựa tìm",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Điều tra",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事務所[じむしょ]の机[つくえ]の引[ひ]き出[だ]しが、何者[なにもの]かに物色[ぶっしょく]された跡[あと]があった。",
+     "vi": "Ngăn kéo bàn văn phòng có dấu vết bị ai đó lục lọi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "休日[きゅうじつ]は、ホームセンターで釣[つ]り道具[どうぐ]を物色[ぶっしょく]するのが楽[たの]しみだ。",
+     "vi": "Ngày nghỉ, lựa tìm đồ câu ở cửa hàng đồ gia dụng là thú vui của tôi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：空[あ]き巣[す]に入[はい]られたって、本当[ほんとう]ですか。B：ええ。部屋中[へやじゅう]を物色[ぶっしょく]されて、もうめちゃくちゃでした。幸[さいわ]い、通帳[つうちょう]は無事[ぶじ]でしたが。",
+     "vi": "A: Nghe nói nhà anh bị trộm, thật không? B: Vâng. Cả phòng bị lục tung, bừa bộn hết. May mà sổ ngân hàng không sao.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "室内[しつない]を物色[ぶっしょく]する",
+     "vi": "lục lọi trong nhà"
+    },
+    {
+     "jp": "商品[しょうひん]を物色[ぶっしょく]する",
+     "vi": "lựa tìm hàng"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "あさる",
+     "vi": "bới tìm, lục lọi"
+    },
+    "v:探す:さがす"
+   ],
+   "note": "物色[ぶっしょく] = (1) lục lọi tìm đồ đáng giá (kẻ trộm: 室内[しつない]を物色[ぶっしょく]する; tin tức); (2) lựa chọn, tìm thứ hợp ý (店[みせ]で物色[ぶっしょく]する / 人材[じんざい]を物色[ぶっしょく]する). あさる = bới tìm (thức ăn, đồ cũ)."
+  },
+  {
+   "id": "v:割り出す:わりだす",
+   "kana": "わりだす",
+   "kanji": "割り出す",
+   "kf": "割[わ]り出[だ]す",
+   "hv": "CÁT XUẤT",
+   "vi": "xác định ra, tính ra (từ dữ liệu, manh mối)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Điều tra",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "出荷[しゅっか]記録[きろく]から、問題[もんだい]の商品[しょうひん]がどの店[みせ]に届[とど]いたかを割[わ]り出[だ]した。",
+     "vi": "Từ hồ sơ xuất hàng, đã xác định được sản phẩm có vấn đề tới cửa hàng nào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "警察[けいさつ]は、車[くるま]のナンバーから持[も]ち主[ぬし]を割[わ]り出[だ]した。",
+     "vi": "Cảnh sát tìm ra chủ xe từ biển số.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：来月[らいげつ]のシフト、何人[なんにん]必要[ひつよう]ですか。B：注文[ちゅうもん]の数[かず]から割[わ]り出[だ]すと、一日[いちにち]十二人[じゅうににん]は要[い]るね。",
+     "vi": "A: Lịch ca tháng sau cần mấy người ạ? B: Tính ra từ số đơn hàng thì mỗi ngày cần mười hai người.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "原因[げんいん]を割[わ]り出[だ]す",
+     "vi": "tìm ra nguyên nhân"
+    },
+    {
+     "jp": "費用[ひよう]を割[わ]り出[だ]す",
+     "vi": "tính ra chi phí"
+    },
+    {
+     "jp": "身元[みもと]を割[わ]り出[だ]す",
+     "vi": "xác định danh tính"
+    }
+   ],
+   "confuse": [
+    "v:突き止める:つきとめる",
+    {
+     "w": "特定[とくてい]",
+     "vi": "xác định cụ thể"
+    }
+   ],
+   "note": "割[わ]り出[だ]す = dựa trên tính toán, dữ liệu, manh mối để suy ra con số hoặc xác định người, nơi (原価[げんか] / 人数[にんずう]を割[わ]り出[だ]す; 犯人[はんにん] / 身元[みもと]を割[わ]り出[だ]す). 突[つ]き止[と]める = truy tới cùng tìm ra (nguyên nhân, chỗ ở)."
+  },
+  {
+   "id": "v:足がつく:あしがつく",
+   "kana": "あしがつく",
+   "kanji": "足がつく",
+   "kf": "足[あし]がつく",
+   "hv": "TÚC",
+   "vi": "lộ dấu vết, bị lần ra",
+   "pos": "expr",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Điều tra",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "盗[ぬす]んだ品物[しなもの]をネットで売[う]れば、すぐに足[あし]がつく。今[いま]はどこにでも記録[きろく]が残[のこ]るからだ。",
+     "vi": "Đem đồ ăn trộm bán trên mạng thì bị lần ra ngay. Vì bây giờ đâu cũng lưu lại dấu vết.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "横流[よこなが]しした商品[しょうひん]が転売[てんばい]サイトに出[で]ていたことから足[あし]がついた。",
+     "vi": "Hàng bị tuồn ra ngoài xuất hiện trên trang bán lại nên đã bị lần ra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの事件[じけん]の犯人[はんにん]、どうして捕[つか]まったんですか。B：犯行[はんこう]に使[つか]った車[くるま]がレンタカーで、そこから足[あし]がついたらしいよ。",
+     "vi": "A: Thủ phạm vụ đó sao lại bị bắt vậy? B: Nghe nói xe dùng để gây án là xe thuê, từ đó bị lần ra.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "〜から足[あし]がつく",
+     "vi": "bị lần ra từ ~"
+    }
+   ],
+   "confuse": [
+    "v:発覚:はっかく",
+    {
+     "w": "ばれる",
+     "vi": "bị lộ"
+    }
+   ],
+   "note": "足[あし]がつく = (kẻ phạm tội) để lại manh mối khiến bị biết danh tính, nơi ở (〜から足[あし]がつく; khẩu ngữ, tin tức). Không nhầm với 足[あし]が着[つ]く (chân chạm đất). 発覚[はっかく] = việc xấu bị phát giác."
+  },
+  {
+   "id": "v:身元:みもと",
+   "kana": "みもと",
+   "kanji": "身元",
+   "hv": "THÂN NGUYÊN",
+   "vi": "danh tính, lý lịch (cá nhân)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Điều tra",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しく入[はい]る派遣[はけん]スタッフの身元[みもと]は、派遣[はけん]会社[かいしゃ]が確認[かくにん]している。",
+     "vi": "Lai lịch của nhân viên phái cử mới do công ty phái cử xác nhận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "アパートを借[か]りるとき、身元保証人[みもとほしょうにん]を頼[たの]まれた。",
+     "vi": "Khi thuê căn hộ, tôi được yêu cầu người bảo lãnh.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：海[うみ]で見[み]つかった財布[さいふ]、持[も]ち主[ぬし]は分[わ]かったんですか。B：中[なか]に免許証[めんきょしょう]があったから、すぐ身元[みもと]が分[わ]かったそうだよ。",
+     "vi": "A: Cái ví tìm thấy ở biển, đã biết chủ chưa? B: Bên trong có bằng lái nên biết danh tính ngay.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "身元[みもと]を確認[かくにん]する",
+     "vi": "xác nhận danh tính"
+    },
+    {
+     "jp": "身元[みもと]が判明[はんめい]する",
+     "vi": "danh tính được làm rõ"
+    },
+    {
+     "jp": "身元保証人[みもとほしょうにん]",
+     "vi": "người bảo lãnh"
+    }
+   ],
+   "confuse": [
+    "v:身柄:みがら",
+    {
+     "w": "素性[すじょう]",
+     "vi": "xuất thân, gốc gác"
+    }
+   ],
+   "note": "身元[みもと] = danh tính, lai lịch, xuất thân của một người (身元確認[みもとかくにん] / 身元[みもと]不明[ふめい] / 身元保証人[みもとほしょうにん] — thủ tục thuê nhà, xin việc). 身柄[みがら] = bản thân người bị giữ. 素性[すじょう] = gốc gác (hơi tiêu cực: 素性[すじょう]の知[し]れない人[ひと])."
+  },
+  {
+   "id": "v:如実:にょじつ",
+   "kana": "にょじつ",
+   "kanji": "如実",
+   "hv": "NHƯ THỰC",
+   "vi": "rõ rệt, đúng như thực tế (hiện ra)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hiện tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "衛生[えいせい]教育[きょういく]の効果[こうか]は、検査結果[けんさけっか]に如実[にょじつ]に表[あらわ]れている。",
+     "vi": "Hiệu quả đào tạo vệ sinh thể hiện rõ rệt trên kết quả kiểm tra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "このアンケートは、子育[こそだ]て世代[せだい]の悩[なや]みを如実[にょじつ]に物語[ものがた]っている。",
+     "vi": "Bản khảo sát này nói lên rõ ràng nỗi trăn trở của thế hệ đang nuôi con.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：気温[きおん]が上[あ]がると、クレームも増[ふ]えるんですか。B：うん、去年[きょねん]のデータを見[み]ると、それが如実[にょじつ]に分[わ]かるよ。夏場[なつば]の温度[おんど]管理[かんり]が鍵[かぎ]だね。",
+     "vi": "A: Nhiệt độ lên thì khiếu nại cũng tăng ạ? B: Ừ, nhìn dữ liệu năm ngoái là thấy rõ. Quản lý nhiệt độ mùa hè là then chốt.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "差[さ]",
+     "vi": "sự chênh lệch"
+    },
+    {
+     "jp": "変化[へんか]",
+     "vi": "thay đổi"
+    },
+    {
+     "jp": "違[ちが]い",
+     "vi": "khác biệt"
+    }
+   ],
+   "confuse": [
+    "v:顕著:けんちょ",
+    "v:ありありと:ありありと"
+   ],
+   "note": "如実[にょじつ] = đúng như sự thật, hiện ra rõ ràng (gần như chỉ dùng 如実[にょじつ]に: 如実[にょじつ]に表[あらわ]れる / 物語[ものがた]る / 示[しめ]す; văn viết, báo chí). 顕著[けんちょ] = nổi bật, rõ rệt (xu hướng, hiệu quả). ありありと = rõ mồn một như đang thấy."
+  },
+  {
+   "id": "v:頻発:ひんぱつ",
+   "kana": "ひんぱつ",
+   "kanji": "頻発",
+   "hv": "TẦN PHÁT",
+   "vi": "xảy ra thường xuyên (việc không hay)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hiện tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この交差点[こうさてん]では事故[じこ]が頻発[ひんぱつ]しているので、信号[しんごう]が新[あたら]しく付[つ]けられた。",
+     "vi": "Ngã tư này hay xảy ra tai nạn nên đã lắp đèn tín hiệu mới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "梅雨[つゆ]の時期[じき]は、包装[ほうそう]機[き]のトラブルが頻発[ひんぱつ]する。",
+     "vi": "Mùa mưa, sự cố máy đóng gói xảy ra thường xuyên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：最近[さいきん]、似[に]たようなミスが頻発[ひんぱつ]していますね。B：個人[こじん]の不注意[ふちゅうい]ではなく、手順[てじゅん]に問題[もんだい]があるのではあるまいか。一度[いちど]見直[みなお]してみよう。",
+     "vi": "A: Gần đây lỗi tương tự xảy ra liên tục nhỉ. B: Phải chăng vấn đề không phải do bất cẩn cá nhân mà nằm ở quy trình? Thử xem lại một lần.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事故[じこ]が頻発[ひんぱつ]する",
+     "vi": "tai nạn xảy ra liên tục"
+    },
+    {
+     "jp": "苦情[くじょう]が頻発[ひんぱつ]する",
+     "vi": "khiếu nại dồn dập"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "多発[たはつ]",
+     "vi": "xảy ra nhiều (nhấn số lượng)"
+    },
+    "v:続発:ぞくはつ"
+   ],
+   "note": "頻発[ひんぱつ] = (việc không hay) xảy ra nhiều lần với tần suất cao (事故[じこ] / トラブル / 地震[じしん]が頻発[ひんぱつ]する; văn viết, tin tức). 多発[たはつ] = xảy ra nhiều (nhấn số lượng). 続発[ぞくはつ] = nối nhau xảy ra liên tiếp. Câu 3 có mẫu 〜ではあるまいか của bài này."
+  },
+  {
+   "id": "v:続発:ぞくはつ",
+   "kana": "ぞくはつ",
+   "kanji": "続発",
+   "hv": "TỤC PHÁT",
+   "vi": "liên tiếp phát sinh (sự cố, vụ việc)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hiện tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大雨[おおあめ]のあと、県内[けんない]各地[かくち]で土砂[どしゃ]崩[くず]れが続発[ぞくはつ]した。",
+     "vi": "Sau mưa lớn, sạt lở đất liên tiếp xảy ra khắp nơi trong tỉnh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "同[おな]じ機械[きかい]で故障[こしょう]が続発[ぞくはつ]したため、メーカーに点検[てんけん]を依頼[いらい]した。",
+     "vi": "Vì cùng một máy liên tiếp hỏng nên đã nhờ hãng kiểm tra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：駅[えき]の近[ちか]くで自転[じてん]車[しゃ]の盗難[とうなん]が続発[ぞくはつ]しているそうですよ。B：うちも二重[にじゅう]ロックにしよう。安[やす]い鍵[かぎ]だけだと心配[しんぱい]だね。",
+     "vi": "A: Nghe nói gần ga liên tiếp mất trộm xe đạp. B: Nhà mình cũng khóa hai lớp thôi. Chỉ ổ khóa rẻ thì lo lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事件[じけん]が続発[ぞくはつ]する",
+     "vi": "vụ việc liên tiếp xảy ra"
+    },
+    {
+     "jp": "トラブルが続発[ぞくはつ]する",
+     "vi": "sự cố liên tiếp"
+    }
+   ],
+   "confuse": [
+    "v:頻発:ひんぱつ",
+    "v:相次ぐ:あいつぐ"
+   ],
+   "note": "続発[ぞくはつ] = sự việc cùng loại xảy ra nối tiếp nhau trong thời gian ngắn (văn viết, tin tức). 相[あい]次[つ]ぐ = nối nhau (động từ thuần Nhật, dùng rộng). 頻発[ひんぱつ] = xảy ra với tần suất cao."
+  },
+  {
+   "id": "v:散見:さんけん",
+   "kana": "さんけん",
+   "kanji": "散見",
+   "hv": "TÁN KIẾN",
+   "vi": "thấy rải rác, lác đác",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hiện tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "報告書[ほうこくしょ]には、単純[たんじゅん]な計算[けいさん]ミスが散見[さんけん]される。",
+     "vi": "Trong báo cáo thấy lác đác những lỗi tính toán đơn giản.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ネットの口[くち]コミには、事実[じじつ]と異[こと]なる情報[じょうほう]も散見[さんけん]される。",
+     "vi": "Trong các đánh giá trên mạng, thấy rải rác cả thông tin khác sự thật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新[あたら]しいラベル、問題[もんだい]なく貼[は]れていますか。B：だいたい大丈夫[だいじょうぶ]ですが、少[すこ]し曲[ま]がっているものが散見[さんけん]されます。機械[きかい]の位置[いち]を調整[ちょうせい]します。",
+     "vi": "A: Nhãn mới dán có ổn không? B: Cơ bản ổn, nhưng thấy lác đác cái hơi lệch. Tôi sẽ chỉnh vị trí máy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "随所[ずいしょ]に散見[さんけん]する",
+     "vi": "thấy rải rác khắp nơi"
+    }
+   ],
+   "confuse": [
+    "v:見受ける:みうける",
+    {
+     "w": "目立[めだ]つ",
+     "vi": "nổi bật, dễ thấy"
+    }
+   ],
+   "note": "散見[さんけん] = thấy chỗ này chỗ kia, rải rác (gần như chỉ dùng bị động 〜が散見[さんけん]される; văn viết, báo cáo, nhận xét). Khác 目立[めだ]つ (nổi bật, nhiều). 〜が見受[みう]けられる gần nghĩa."
+  },
+  {
+   "id": "v:表面化:ひょうめんか",
+   "kana": "ひょうめんか",
+   "kanji": "表面化",
+   "hv": "BIỂU DIỆN HÓA",
+   "vi": "lộ ra bề mặt, bộc lộ ra",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hiện tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人手不足[ひとでふそく]の問題[もんだい]が、繁忙期[はんぼうき]になって一気[いっき]に表面化[ひょうめんか]した。",
+     "vi": "Vấn đề thiếu người bộc lộ ra một lượt khi vào mùa cao điểm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "二人[ふたり]の意見[いけん]の対立[たいりつ]が、引[ひ]っ越[こ]しをきっかけに表面化[ひょうめんか]した。",
+     "vi": "Mâu thuẫn ý kiến của hai người lộ ra từ chuyện chuyển nhà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの会社[かいしゃ]の不正[ふせい]、どうして今[いま]になって分[わ]かったんですか。B：内部[ないぶ]の人[ひと]が告発[こくはつ]して、表面化[ひょうめんか]したらしい。問題[もんだい]自体[じたい]は何年[なんねん]も前[まえ]からあったそうだよ。",
+     "vi": "A: Sai phạm công ty đó sao giờ mới biết? B: Hình như người nội bộ tố giác nên lộ ra. Nghe nói bản thân vấn đề đã có từ nhiều năm trước.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "問題[もんだい]が表面化[ひょうめんか]する",
+     "vi": "vấn đề lộ ra"
+    },
+    {
+     "jp": "対立[たいりつ]が表面化[ひょうめんか]する",
+     "vi": "mâu thuẫn bộc lộ"
+    }
+   ],
+   "confuse": [
+    "v:顕在化:けんざいか",
+    "v:発覚:はっかく"
+   ],
+   "note": "表面化[ひょうめんか] = điều vốn ẩn bên trong lộ ra ngoài, ai cũng thấy (問題[もんだい] / 対立[たいりつ] / 不満[ふまん]が表面化[ひょうめんか]する; báo chí). 顕在化[けんざいか] = (nguy cơ tiềm ẩn) hiện rõ (văn viết hơn). 発覚[はっかく] = việc xấu bị phát giác."
+  },
+  {
+   "id": "v:一過性:いっかせい",
+   "kana": "いっかせい",
+   "kanji": "一過性",
+   "hv": "NHẤT QUÁ TÍNH",
+   "vi": "tính nhất thời, thoáng qua",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hiện tượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今回[こんかい]の売[う]り上[あ]げの落[お]ち込[こ]みは一過性[いっかせい]のもので、来月[らいげつ]には回復[かいふく]する見込[みこ]みだ。",
+     "vi": "Doanh số sụt lần này là nhất thời, dự kiến tháng sau sẽ hồi phục.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一過性[いっかせい]のブームで終[お]わらせないために、地元[じもと]の魚[さかな]の魅力[みりょく]を伝[つた]え続[つづ]けたい。",
+     "vi": "Để không dừng lại ở trào lưu thoáng qua, tôi muốn tiếp tục truyền tải sức hấp dẫn của cá địa phương.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、少[すこ]し目[め]まいがするんです。B：一過性[いっかせい]のものならいいけど、続[つづ]くようなら一度[いちど]病院[びょういん]で診[み]てもらったほうがいいよ。",
+     "vi": "A: Dạo này tôi hơi chóng mặt. B: Nếu là nhất thời thì không sao, nhưng nếu kéo dài thì nên đi bệnh viện khám một lần.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "一過性[いっかせい]のブーム",
+     "vi": "trào lưu nhất thời"
+    },
+    {
+     "jp": "一過性[いっかせい]に終[お]わる",
+     "vi": "chỉ là nhất thời"
+    }
+   ],
+   "confuse": [
+    "v:一時的:いちじてき",
+    "v:下火:したび"
+   ],
+   "note": "一過性[いっかせい] = chỉ xảy ra một lúc rồi qua, không kéo dài (一過性[いっかせい]の現象[げんしょう] / ブーム / 症状[しょうじょう]; văn viết, y học). 一時[いちじ]的[てき] = tạm thời (dùng rộng)."
+  },
+  {
+   "id": "v:風潮:ふうちょう",
+   "kana": "ふうちょう",
+   "kanji": "風潮",
+   "hv": "PHONG TRIỀU",
+   "vi": "trào lưu xã hội, không khí chung của thời thế",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "「長[なが]く働[はたら]くほど偉[えら]い」という風潮[ふうちょう]は、少[すこ]しずつ変[か]わってきた。",
+     "vi": "Trào lưu \"càng làm lâu càng giỏi\" đã dần thay đổi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "何[なん]でもすぐにネットで批判[ひはん]する風潮[ふうちょう]には、疑問[ぎもん]を感[かん]じる。",
+     "vi": "Tôi thấy ngờ vực khuynh hướng việc gì cũng lên mạng chỉ trích ngay.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]は、男性[だんせい]も育児休業[いくじきゅうぎょう]を取[と]る人[ひと]が増[ふ]えていますね。B：そういう風潮[ふうちょう]になってきたのは、いいことだと思[おも]うよ。うちの工場[こうじょう]でも、取[と]りやすくしたいね。",
+     "vi": "A: Gần đây đàn ông nghỉ chăm con cũng tăng nhỉ. B: Có được khuynh hướng như vậy là điều tốt. Xưởng mình cũng nên tạo điều kiện dễ nghỉ hơn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "〜という風潮[ふうちょう]",
+     "vi": "trào lưu cho rằng ~"
+    },
+    {
+     "jp": "風潮[ふうちょう]に流[なが]される",
+     "vi": "bị cuốn theo trào lưu"
+    }
+   ],
+   "confuse": [
+    "v:傾向:けいこう",
+    "v:趨勢:すうせい"
+   ],
+   "note": "風潮[ふうちょう] = khuynh hướng, bầu không khí chung của xã hội một thời (〜という風潮[ふうちょう] / 世[よ]の風潮[ふうちょう]; hay mang sắc thái phê phán). 傾向[けいこう] = khuynh hướng (chung, cả cá nhân). 趨勢[すうせい] = chiều hướng lớn của thời đại."
+  },
+  {
+   "id": "v:趨勢:すうせい",
+   "kana": "すうせい",
+   "kanji": "趨勢",
+   "hv": "XU THẾ",
+   "vi": "xu thế, chiều hướng chung",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人口[じんこう]減少[げんしょう]の趨勢[すうせい]を考[かんが]えると、工場[こうじょう]の自動化[じどうか]は避[さ]けて通[とお]れない。",
+     "vi": "Xét xu thế dân số giảm, tự động hóa nhà máy là không tránh được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "時代[じだい]の趨勢[すうせい]に逆[さか]らって、昔[むかし]ながらの手作[てづく]りにこだわる店[みせ]もある。",
+     "vi": "Cũng có cửa hàng đi ngược xu thế thời đại, giữ cách làm thủ công từ xưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：キャッシュレス払[はら]い、うちの売店[ばいてん]でも始[はじ]めますか。B：うん、時代[じだい]の趨勢[すうせい]だからね。ただ、現金[げんきん]しか使[つか]わないお客[きゃく]さんのためにレジも残[のこ]そう。",
+     "vi": "A: Thanh toán không tiền mặt, quầy bán của mình có làm không? B: Ừ, xu thế thời đại mà. Nhưng giữ cả máy tính tiền cho khách chỉ dùng tiền mặt.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "時代[じだい]の趨勢[すうせい]",
+     "vi": "xu thế thời đại"
+    },
+    {
+     "jp": "趨勢[すうせい]に逆[さか]らう",
+     "vi": "đi ngược xu thế"
+    }
+   ],
+   "confuse": [
+    "v:動向:どうこう",
+    "v:風潮:ふうちょう"
+   ],
+   "note": "趨勢[すうせい] = chiều hướng chung mà sự việc đang đi tới (時代[じだい] / 世界[せかい]の趨勢[すうせい]; văn viết, báo chí). 動向[どうこう] = diễn biến, động thái (thị trường, đối thủ). 風潮[ふうちょう] = trào lưu (bầu không khí xã hội)."
+  },
+  {
+   "id": "v:世相:せそう",
+   "kana": "せそう",
+   "kanji": "世相",
+   "hv": "THẾ TƯƠNG",
+   "vi": "bộ mặt xã hội, thế thái (một thời)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "年末[ねんまつ]に発表[はっぴょう]される「今年[ことし]の漢字[かんじ]」は、その年[とし]の世相[せそう]を表[あらわ]している。",
+     "vi": "\"Chữ Hán của năm\" công bố cuối năm thể hiện bộ mặt xã hội năm đó.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "魚[さかな]の売[う]れ方[かた]にも世相[せそう]が表[あらわ]れる。不景気[ふけいき]になると、安[やす]い切[き]り身[み]がよく売[う]れる。",
+     "vi": "Cách cá bán chạy cũng phản ánh bộ mặt xã hội. Khi kinh tế đi xuống thì miếng cá cắt sẵn giá rẻ bán chạy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：昔[むかし]の新聞[しんぶん]って、読[よ]むと面白[おもしろ]いですね。B：そうだね。広告[こうこく]を見[み]るだけでも、当時[とうじ]の世相[せそう]がよく分[わ]かるよ。",
+     "vi": "A: Đọc báo cũ thú vị nhỉ. B: Đúng thế. Chỉ nhìn quảng cáo cũng hiểu rõ thế thái thời đó.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "世相[せそう]を反映[はんえい]する",
+     "vi": "phản ánh bộ mặt xã hội"
+    },
+    {
+     "jp": "世相[せそう]を表[あらわ]す",
+     "vi": "thể hiện thế thái"
+    }
+   ],
+   "confuse": [
+    "v:風潮:ふうちょう",
+    {
+     "w": "世情[せじょう]",
+     "vi": "tình hình thế sự"
+    }
+   ],
+   "note": "世相[せそう] = dáng vẻ, tình trạng của xã hội trong một thời kỳ (世相[せそう]を反映[はんえい]する / 表[あらわ]す / 世相[せそう]を切[き]る). 風潮[ふうちょう] = khuynh hướng, trào lưu. 世情[せじょう] = tình hình xã hội, nhân tình thế thái."
+  },
+  {
+   "id": "v:風靡:ふうび",
+   "kana": "ふうび",
+   "kanji": "風靡",
+   "hv": "PHONG MỸ",
+   "vi": "làm mưa làm gió, thịnh hành khắp nơi",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "九十年[きゅうじゅうねん]代[だい]に一世[いっせい]を風靡[ふうび]した歌手[かしゅ]が、久[ひさ]しぶりにテレビに出[で]た。",
+     "vi": "Ca sĩ từng làm mưa làm gió một thời những năm 90 lâu lắm mới lên TV.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この冷凍[れいとう]技術[ぎじゅつ]は、一時[いちじ]期[き]業界[ぎょうかい]を風靡[ふうび]したが、今[いま]はより新[あたら]しい方法[ほうほう]に替[か]わっている。",
+     "vi": "Công nghệ cấp đông này từng thịnh hành khắp ngành một thời, nay đã được thay bằng cách mới hơn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：このキャラクター、昔[むかし]すごく人気[にんき]でしたよね。B：ええ、私[わたし]が子[こ]どものころ、一世[いっせい]を風靡[ふうび]したんです。今[いま]の子[こ]は知[し]らないかもしれませんね。",
+     "vi": "A: Nhân vật này hồi xưa nổi tiếng lắm nhỉ. B: Vâng, hồi tôi còn nhỏ nó làm mưa làm gió một thời. Trẻ bây giờ có khi không biết.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "一世[いっせい]を風靡[ふうび]する",
+     "vi": "làm mưa làm gió một thời"
+    },
+    {
+     "jp": "業界[ぎょうかい]を風靡[ふうび]する",
+     "vi": "thịnh hành khắp ngành"
+    }
+   ],
+   "confuse": [
+    "v:流行:りゅうこう",
+    {
+     "w": "席巻[せっけん]",
+     "vi": "càn quét, chiếm lĩnh (thị trường)"
+    }
+   ],
+   "note": "風靡[ふうび] (gió thổi cỏ rạp) = thịnh hành, lôi cuốn cả xã hội (gần như chỉ dùng 一世[いっせい]を風靡[ふうび]する = nổi đình nổi đám một thời). 流行[りゅうこう] = thịnh hành (chung). 席巻[せっけん] = chiếm lĩnh nhanh, càn quét."
+  },
+  {
+   "id": "v:台頭:たいとう",
+   "kana": "たいとう",
+   "kanji": "台頭",
+   "hv": "ĐÀI ĐẦU",
+   "vi": "trỗi dậy, ngóc đầu lên (thế lực mới)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ネット通販[つうはん]の台頭[たいとう]で、町[まち]の小[ちい]さな魚屋[さかなや]は厳[きび]しい状況[じょうきょう]にある。",
+     "vi": "Do sự trỗi dậy của mua bán trực tuyến, các tiệm cá nhỏ trong phố gặp khó khăn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "若手[わかて]の台頭[たいとう]が著[いちじる]しく、ベテランも負[ま]けていられない。",
+     "vi": "Lớp trẻ nổi lên mạnh mẽ, người kỳ cựu cũng không thể chịu thua.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：最近[さいきん]、取引先[とりひきさき]に新[あたら]しい会社[かいしゃ]が増[ふ]えましたね。B：新[あたら]しい加工[かこう]会社[かいしゃ]が次々[つぎつぎ]と台頭[たいとう]してきたからね。品質[ひんしつ]で差[さ]をつけないと、生[い]き残[のこ]れないよ。",
+     "vi": "A: Gần đây đối tác của mình nhiều công ty mới nhỉ. B: Vì các công ty chế biến mới lần lượt nổi lên. Không tạo khác biệt bằng chất lượng thì không trụ được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "新[しん]勢力[せいりょく]が台頭[たいとう]する",
+     "vi": "thế lực mới trỗi dậy"
+    },
+    {
+     "jp": "若手[わかて]が台頭[たいとう]する",
+     "vi": "lớp trẻ nổi lên"
+    }
+   ],
+   "confuse": [
+    "v:躍進:やくしん",
+    {
+     "w": "興隆[こうりゅう]",
+     "vi": "hưng thịnh"
+    }
+   ],
+   "note": "台頭[たいとう] = (người, thế lực, xu hướng mới) ngóc đầu dậy, có thế lực (〜の台頭[たいとう] / 〜が台頭[たいとう]する; báo chí). 躍進[やくしん] = tiến vọt. Đồng âm: 対[たい]等[とう] (ngang hàng)."
+  },
+  {
+   "id": "v:二極化:にきょくか",
+   "kana": "にきょくか",
+   "kanji": "二極化",
+   "hv": "NHỊ CỰC HÓA",
+   "vi": "phân hóa hai cực",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "消費[しょうひ]が二[に]極[きょく]化[か]し、高級[こうきゅう]品[ひん]と格安[かくやす]品[ひん]はよく売[う]れるが、その中間[ちゅうかん]の価格帯[かかくたい]は売[う]れにくい。",
+     "vi": "Tiêu dùng phân hóa hai cực: hàng cao cấp và hàng siêu rẻ bán chạy, tầm giá ở giữa thì khó bán.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "職場[しょくば]でも、残業[ざんぎょう]が多[おお]い人[ひと]とほとんどない人[ひと]に二極化[にきょくか]している。",
+     "vi": "Ở nơi làm việc cũng phân hóa hai cực: người tăng ca nhiều và người hầu như không tăng ca.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：お刺身[さしみ]の注文[ちゅうもん]、最近[さいきん]どうですか。B：高[たか]い本[ほん]マグロと、安[やす]いパック商品[しょうひん]に二極化[にきょくか]しているね。中間[ちゅうかん]の商品[しょうひん]をどうするか、考[かんが]えないと。",
+     "vi": "A: Đơn hàng sashimi gần đây thế nào? B: Đang phân hóa hai cực: cá ngừ vây xanh đắt và hàng hộp rẻ. Phải nghĩ xem làm gì với hàng tầm trung.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "所得[しょとく]が二[に]極[きょく]化[か]する",
+     "vi": "thu nhập phân hóa hai cực"
+    },
+    {
+     "jp": "消費[しょうひ]が二[に]極[きょく]化[か]する",
+     "vi": "tiêu dùng phân hóa hai cực"
+    }
+   ],
+   "confuse": [
+    "v:格差:かくさ",
+    {
+     "w": "両極端[りょうきょくたん]",
+     "vi": "hai thái cực"
+    }
+   ],
+   "note": "二極化[にきょくか] = phân chia thành hai nhóm đối lập, phần ở giữa mất đi (所得[しょとく] / 消費[しょうひ] / 意見[いけん]の二[に]極[きょく]化[か]; báo chí). 格差[かくさ] = khoảng cách chênh lệch."
+  },
+  {
+   "id": "v:拍車をかける:はくしゃをかける",
+   "kana": "はくしゃをかける",
+   "kanji": "拍車をかける",
+   "kf": "拍車[はくしゃ]をかける",
+   "hv": "PHÁCH XA",
+   "vi": "đẩy nhanh thêm (xu hướng, thường xấu)",
+   "pos": "expr",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "燃料費[ねんりょうひ]の高騰[こうとう]が、漁業者[ぎょぎょうしゃ]の減少[げんしょう]に拍車[はくしゃ]をかけている。",
+     "vi": "Chi phí nhiên liệu tăng vọt đang đẩy nhanh việc số ngư dân giảm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "スマートフォンの普及[ふきゅう]が、新聞[しんぶん]離[はな]れに拍車[はくしゃ]をかける形[かたち]になった。",
+     "vi": "Sự phổ cập điện thoại thông minh đã góp phần đẩy nhanh việc rời bỏ báo giấy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今年[ことし]の夏[なつ]は人[ひと]が足[た]りなくて大変[たいへん]でしたね。B：うん。そこに猛暑[もうしょ]が拍車[はくしゃ]をかけて、体調[たいちょう]を崩[くず]す人[ひと]も多[おお]かった。来年[らいねん]は早[はや]めに応援[おうえん]を頼[たの]もう。",
+     "vi": "A: Hè năm nay thiếu người vất vả nhỉ. B: Ừ. Thêm nắng nóng gay gắt càng làm tình hình tệ hơn, nhiều người đổ bệnh. Năm sau nhờ hỗ trợ sớm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "〜に拍車[はくしゃ]をかける",
+     "vi": "đẩy nhanh ~"
+    },
+    {
+     "jp": "拍車[はくしゃ]がかかる",
+     "vi": "được đẩy nhanh hơn"
+    }
+   ],
+   "confuse": [
+    "v:促進:そくしん",
+    {
+     "w": "加速[かそく]",
+     "vi": "tăng tốc"
+    }
+   ],
+   "note": "拍車[はくしゃ]をかける (thúc cựa ngựa) = làm cho xu hướng, tình trạng tiến nhanh hơn (〜に拍車[はくしゃ]をかける / 〜に拍車[はくしゃ]がかかる; báo chí; hay dùng cho xu hướng xấu: 人口[じんこう]減少[げんしょう]に拍車[はくしゃ]がかかる). 促進[そくしん] = thúc đẩy (có chủ đích, tích cực)."
+  },
+  {
+   "id": "v:鈍化:どんか",
+   "kana": "どんか",
+   "kanji": "鈍化",
+   "hv": "ĐỘN HÓA",
+   "vi": "chậm lại (đà tăng, tốc độ thay đổi)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "物価[ぶっか]の上昇[じょうしょう]は、秋[あき]以降[いこう]やや鈍化[どんか]している。",
+     "vi": "Đà tăng vật giá từ mùa thu trở đi có phần chậm lại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冷凍食品[れいとうしょくひん]の売[う]り上[あ]げの伸[の]びが鈍化[どんか]し、新商品[しんしょうひん]の開発[かいはつ]が急[いそ]がれている。",
+     "vi": "Đà tăng doanh số thực phẩm đông lạnh chậm lại, việc phát triển sản phẩm mới đang gấp rút.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：今年[ことし]の注文[ちゅうもん]、去年[きょねん]より増[ふ]えていますか。B：増[ふ]えてはいるけど、伸[の]びが鈍化[どんか]しているね。来年[らいねん]は新[あたら]しい取引先[とりひきさき]を探[さが]す必要[ひつよう]があるよ。",
+     "vi": "A: Đơn hàng năm nay có tăng so với năm ngoái không? B: Có tăng, nhưng đà tăng đang chậm lại. Năm sau cần tìm đối tác mới.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "成長[せいちょう]が鈍化[どんか]する",
+     "vi": "tăng trưởng chậm lại"
+    },
+    {
+     "jp": "伸[の]びが鈍化[どんか]する",
+     "vi": "đà tăng chậm lại"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "減速[げんそく]",
+     "vi": "giảm tốc"
+    },
+    {
+     "w": "停滞[ていたい]",
+     "vi": "đình trệ"
+    }
+   ],
+   "note": "鈍化[どんか] = (tốc độ tăng, thay đổi) trở nên chậm lại (成長[せいちょう] / 伸[の]び / 上昇[じょうしょう]が鈍化[どんか]する; báo chí kinh tế). Lưu ý: vẫn tăng nhưng chậm hơn, khác 減少[げんしょう] (giảm). 停滞[ていたい] = đứng lại, không tiến."
+  },
+  {
+   "id": "v:下火:したび",
+   "kana": "したび",
+   "kanji": "下火",
+   "hv": "HẠ HỎA",
+   "vi": "sự lắng xuống, suy giảm (đà, trào lưu)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一時[いちじ]期[き]大流行[だいりゅうこう]したタピオカも、すっかり下火[したび]になった。",
+     "vi": "Trà sữa trân châu từng cực thịnh một thời nay đã lắng xuống hẳn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "年末[ねんまつ]の注文[ちゅうもん]が下火[したび]になるまで、休[やす]みはしばらく取[と]れない。",
+     "vi": "Cho tới khi đơn hàng cuối năm lắng xuống, tạm thời chưa nghỉ được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：インフルエンザ、まだはやっていますか。B：学校[がっこう]では下火[したび]になってきたらしいけど、油断[ゆだん]はできないね。手洗[てあら]いは続[つづ]けよう。",
+     "vi": "A: Cúm còn đang lây lan không? B: Ở trường nghe nói đã giảm rồi, nhưng không được lơ là. Tiếp tục rửa tay nhé.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "下火[したび]になる",
+     "vi": "lắng xuống, suy giảm"
+    },
+    {
+     "jp": "下火[したび]に向[む]かう",
+     "vi": "đang giảm dần"
+    }
+   ],
+   "confuse": [
+    "v:廃れる:すたれる",
+    "v:沈静化:ちんせいか"
+   ],
+   "note": "下火[したび] = (gốc: lửa nhỏ dần) trào lưu, phong trào, dịch bệnh, đám cháy yếu đi (下火[したび]になる; báo chí, đời sống). 廃[すた]れる = mai một hẳn. 沈静[ちんせい]化[か] = lắng dịu (tình hình, dư luận)."
+  },
+  {
+   "id": "v:物議を醸す:ぶつぎをかもす",
+   "kana": "ぶつぎをかもす",
+   "kanji": "物議を醸す",
+   "kf": "物議[ぶつぎ]を醸[かも]す",
+   "hv": "VẬT NGHỊ NHƯỠNG",
+   "vi": "gây tranh cãi, gây xôn xao dư luận",
+   "pos": "expr",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]の「残業[ざんぎょう]は美徳[びとく]だ」という発言[はつげん]が、社内[しゃない]で物議[ぶつぎ]を醸[かも]した。",
+     "vi": "Phát ngôn \"tăng ca là đức tính tốt\" của giám đốc đã gây tranh cãi trong công ty.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "有名人[ゆうめいじん]の何気[なにげ]ない一言[ひとこと]が、物議[ぶつぎ]を醸[かも]すことも少[すく]なくない。",
+     "vi": "Một câu nói vô tình của người nổi tiếng cũng không ít khi gây tranh cãi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新[あたら]しい制服[せいふく]のデザイン、評判[ひょうばん]はどうですか。B：かなり物議[ぶつぎ]を醸[かも]しているよ。動[うご]きにくいって声[こえ]が多[おお]いから、意見[いけん]を集[あつ]めて会社[かいしゃ]に伝[つた]えよう。",
+     "vi": "A: Thiết kế đồng phục mới được đánh giá thế nào? B: Đang gây tranh cãi khá nhiều. Nhiều ý kiến là khó cử động, nên thu thập ý kiến báo lên công ty.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "物議[ぶつぎ]を醸[かも]す発言[はつげん]",
+     "vi": "phát ngôn gây tranh cãi"
+    },
+    {
+     "jp": "大[おお]きな物議[ぶつぎ]を醸[かも]す",
+     "vi": "gây tranh cãi lớn"
+    }
+   ],
+   "confuse": [
+    "v:波紋:はもん",
+    {
+     "w": "議論[ぎろん]を呼[よ]ぶ",
+     "vi": "gây ra tranh luận"
+    }
+   ],
+   "note": "物議[ぶつぎ]を醸[かも]す = gây ra tranh luận, phê phán trong xã hội (発言[はつげん] / 決定[けってい]が物議[ぶつぎ]を醸[かも]す; báo chí). 物議[ぶつぎ] = sự bàn tán của dư luận. 醸[かも]す = gây nên (vốn là ủ rượu). 波紋[はもん]を呼[よ]ぶ = gây làn sóng phản ứng."
+  },
+  {
+   "id": "v:とかく:とかく",
+   "kana": "とかく",
+   "kanji": "",
+   "hv": "",
+   "vi": "thường hay mắc (điều không tốt)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "忙[いそが]しいと、とかく安全[あんぜん]確認[かくにん]がおろそかになりがちだ。",
+     "vi": "Khi bận thì thường hay lơ là việc kiểm tra an toàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "人[ひと]はとかく自分[じぶん]に都合[つごう]のいい情報[じょうほう]ばかり信[しん]じてしまう。",
+     "vi": "Con người thường hay chỉ tin những thông tin có lợi cho mình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの人[ひと]、いろいろうわさされていますね。B：目立[めだ]つ人[ひと]は、とかく悪[わる]く言[い]われがちなものだよ。自分[じぶん]の目[め]で確[たし]かめよう。",
+     "vi": "A: Người đó bị đồn đủ thứ nhỉ. B: Người nổi bật thì thường hay bị nói xấu. Tự mình kiểm chứng đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:ともすれば:ともすれば",
+    "v:ややもすると:ややもすると"
+   ],
+   "note": "とかく = có xu hướng dễ trở nên (thường là điều không tốt) (とかく〜しがちだ / 〜やすい). Nghĩa khác: とかくのうわさ (đủ thứ lời đồn), とかくするうちに (trong lúc này lúc nọ). ややもすると, ともすれば gần nghĩa."
+  },
+  {
+   "id": "v:ややもすると:ややもすると",
+   "kana": "ややもすると",
+   "kanji": "",
+   "hv": "",
+   "vi": "hơi một chút là, dễ có xu hướng (rơi vào)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xu hướng xã hội",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "慣[な]れた作業[さぎょう]ほど、ややもすると手順[てじゅん]を省[はぶ]きたくなる。",
+     "vi": "Việc càng quen tay thì hơi lơ là là muốn bỏ bớt bước.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "便利[べんり]な世[よ]の中[なか]では、ややもすると体[からだ]を動[うご]かすことを忘[わす]れてしまう。",
+     "vi": "Trong xã hội tiện lợi, hơi không để ý là quên vận động cơ thể.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新人[しんじん]に注意[ちゅうい]するとき、気[き]をつけていることはありますか。B：ややもすると感情的[かんじょうてき]になりがちだから、まず一呼吸[ひとこきゅう]置[お]くようにしているよ。",
+     "vi": "A: Khi nhắc nhở người mới anh có lưu ý gì không? B: Hơi một chút là dễ nóng nảy, nên tôi luôn dừng lại hít một hơi trước.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:ともすれば:ともすれば",
+    "v:とかく:とかく"
+   ],
+   "note": "ややもすると (ややもすれば) = hơi không chú ý là dễ rơi vào tình trạng không mong muốn (văn viết; ややもすると〜しがちだ / 〜かねない). ともすれば, ともすると gần nghĩa. とかく = thường hay."
+  }
+ ]
+}

@@ -1,1876 +1,1876 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n2-18",
-    "title": "JLPT N2 18 – Làm bằng cả tấm lòng",
-    "type": "vocab",
-    "level": "N2",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 2,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-18",
+  "title": "JLPT N2 18 – Làm bằng cả tấm lòng",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 3,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:真心:まごころ",
+   "kana": "まごころ",
+   "kanji": "真心",
+   "hv": "CHÂN TÂM",
+   "vi": "tấm lòng chân thành",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:真心:まごころ",
-      "kana": "まごころ",
-      "kanji": "真心",
-      "hv": "CHÂN TÂM",
-      "vi": "tấm lòng chân thành",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一枚[いちまい]一枚[いちまい]、真心[まごころ]を込[こ]めて年賀状[ねんがじょう]を書[か]いた。",
-          "vi": "Tôi viết từng tấm thiệp năm mới bằng cả tấm lòng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "真心[まごころ]のこもったサービスが、この店[みせ]の自慢[じまん]です。",
-          "vi": "Sự phục vụ chân thành là niềm tự hào của cửa hàng này.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "真心[まごころ]を込[こ]める = làm bằng cả tấm lòng; 真心[まごころ]のこもった〜 = 〜 chứa chan tấm lòng."
+     "jp": "一枚[いちまい]一枚[いちまい]、真心[まごころ]を込[こ]めて年賀状[ねんがじょう]を書[か]いた。",
+     "vi": "Tôi viết từng tấm thiệp năm mới bằng cả tấm lòng.",
+     "ctx": "doisong"
     },
     {
-      "id": "v:誠意:せいい",
-      "kana": "せいい",
-      "kanji": "誠意",
-      "hv": "THÀNH Ý",
-      "vi": "thành ý (thể hiện bằng hành động)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ミスをしたときは、誠意[せいい]を持[も]って謝[あやま]ることが大切[たいせつ]だ。",
-          "vi": "Khi mắc lỗi, điều quan trọng là xin lỗi với thái độ thành tâm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "大家[おおや]さんの対応[たいおう]からは、誠意[せいい]が感[かん]じられなかった。",
-          "vi": "Tôi không cảm thấy chút thiện chí nào từ cách xử lý của chủ nhà.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "誠意[せいい]を見[み]せる = tỏ ra có thiện chí; 誠意[せいい]のある対応[たいおう] = cách xử lý có thiện chí."
-    },
-    {
-      "id": "v:思い:おもい",
-      "kana": "おもい",
-      "kanji": "思い",
-      "kf": "思[おも]い",
-      "hv": "TƯ",
-      "vi": "tâm tình gửi gắm; cảm giác đã trải qua",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "家族[かぞく]への思[おも]いを、手紙[てがみ]に書[か]いた。",
-          "vi": "Tôi viết nỗi nhớ thương gia đình vào thư.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この商品[しょうひん]には、作[つく]った人[ひと]の思[おも]いが込[こ]められている。",
-          "vi": "Sản phẩm này chứa đựng tâm huyết của người làm ra nó.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：先週[せんしゅう]は嫌[いや]な思[おも]いをさせて、ごめんね。 B：いえ、もう気[き]にしていません。",
-          "vi": "A: Tuần trước làm cậu thấy khó chịu, xin lỗi nhé. B: Không sao, tôi không để bụng nữa rồi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "嫌[いや]な思[おも]いをする = gặp chuyện khó chịu; 思[おも]いを込[こ]める = gửi gắm tâm tư. Khi nói tình cảm sâu đậm cũng viết 想[おも]い."
-    },
-    {
-      "id": "v:込める:こめる",
-      "kana": "こめる",
-      "kanji": "込める",
-      "kf": "込[こ]める",
-      "hv": "NHẬP",
-      "vi": "gửi gắm (tình cảm, tâm huyết) vào; dồn (sức)",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一[ひと]つ一[ひと]つ、心[こころ]を込[こ]めて手[て]で包[つつ]みます。",
-          "vi": "Gói từng cái bằng tay với cả tấm lòng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "感謝[かんしゃ]の気持[きも]ちを込[こ]めて、先輩[せんぱい]に手紙[てがみ]を書[か]いた。",
-          "vi": "Tôi viết thư cho đàn anh, gửi gắm lòng biết ơn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：このお弁当[べんとう]、すごくおいしい！ B：心[こころ]を込[こ]めて作[つく]ったからね。",
-          "vi": "A: Hộp cơm này ngon quá! B: Vì tớ làm bằng cả tấm lòng mà.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "心[こころ]を込[こ]める",
-          "vi": "làm bằng cả tấm lòng"
-        },
-        {
-          "jp": "力[ちから]を込[こ]める",
-          "vi": "dồn sức"
-        },
-        {
-          "jp": "気持[きも]ちを込[こ]める",
-          "vi": "gửi gắm tình cảm"
-        }
-      ],
-      "flag": true,
-      "note": "〜を込[こ]めて = gửi gắm … vào. Bị động: 〜が込[こ]められている = chứa đựng …. Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
-    },
-    {
-      "id": "v:心遣い:こころづかい",
-      "kana": "こころづかい",
-      "kanji": "心遣い",
-      "kf": "心遣[こころづか]い",
-      "hv": "TÂM KHIỂN",
-      "vi": "sự quan tâm ân cần (dành cho một người)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "温[あたた]かいお心遣[こころづか]い、ありがとうございます。",
-          "vi": "Cảm ơn sự quan tâm ân cần của anh chị.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "寒[さむ]い日[ひ]に、先輩[せんぱい]が温[あたた]かいお茶[ちゃ]を入[い]れてくれた。その心遣[こころづか]いがうれしかった。",
-          "vi": "Hôm trời lạnh đàn anh pha cho tôi trà nóng. Sự quan tâm đó làm tôi vui.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:気配り:きくばり"
-      ],
-      "note": "心遣[こころづか]い = lòng quan tâm hướng tới một người cụ thể; 気配[きくば]り = để ý chu đáo tới mọi người, mọi mặt. Cũng viết 心[こころ]づかい."
-    },
-    {
-      "id": "v:気配り:きくばり",
-      "kana": "きくばり",
-      "kanji": "気配り",
-      "kf": "気配[きくば]り",
-      "hv": "KHÍ PHỐI",
-      "vi": "sự để ý chu toàn (tới mọi người xung quanh)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "班長[はんちょう]には、メンバー全員[ぜんいん]への気配[きくば]りが必要[ひつよう]だ。",
-          "vi": "Tổ trưởng cần biết để ý chu đáo tới mọi thành viên.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "彼女[かのじょ]は気配[きくば]りができて、みんなに好[す]かれている。",
-          "vi": "Cô ấy biết để ý chu toàn nên được mọi người quý.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:心遣い:こころづかい"
-      ],
-      "note": "気配[きくば]りができる人[ひと] = người chu đáo, biết để ý. Động từ: 気[き]を配[くば]る."
-    },
-    {
-      "id": "v:思いやり:おもいやり",
-      "kana": "おもいやり",
-      "kanji": "思いやり",
-      "kf": "思[おも]いやり",
-      "hv": "TƯ",
-      "vi": "lòng biết nghĩ cho người khác",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "思[おも]いやりのある人[ひと]になりたい。",
-          "vi": "Tôi muốn trở thành người biết nghĩ cho người khác.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新人[しんじん]には、思[おも]いやりを持[も]って接[せっ]してください。",
-          "vi": "Hãy đối xử với người mới bằng lòng thông cảm.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "思[おも]いやる = nghĩ cho, thông cảm cho (người khác)."
-    },
-    {
-      "id": "v:熱意:ねつい",
-      "kana": "ねつい",
-      "kanji": "熱意",
-      "hv": "NHIỆT Ý",
-      "vi": "nhiệt huyết (muốn làm một việc)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "面接[めんせつ]で、仕事[しごと]への熱意[ねつい]を伝[つた]えました。",
-          "vi": "Ở buổi phỏng vấn tôi đã thể hiện nhiệt huyết với công việc.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "彼[かれ]の熱意[ねつい]に負[ま]けて、班長[はんちょう]は仕事[しごと]を任[まか]せた。",
-          "vi": "Trước nhiệt huyết của anh ấy, tổ trưởng đã giao việc.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:情熱:じょうねつ"
-      ],
-      "note": "熱意[ねつい] = nhiệt huyết muốn làm một việc cụ thể (hay dùng ở phỏng vấn, công việc); 情熱[じょうねつ] = đam mê mãnh liệt, lâu dài."
-    },
-    {
-      "id": "v:情熱:じょうねつ",
-      "kana": "じょうねつ",
-      "kanji": "情熱",
-      "hv": "TÌNH NHIỆT",
-      "vi": "niềm đam mê (mãnh liệt)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "社長[しゃちょう]は、六十歳[ろくじゅっさい]を過[す]ぎても魚[さかな]への情熱[じょうねつ]を失[うしな]っていない。",
-          "vi": "Giám đốc dù đã quá sáu mươi tuổi vẫn không mất niềm đam mê với cá.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "若[わか]いころの情熱[じょうねつ]を、ずっと忘[わす]れたくない。",
-          "vi": "Tôi không bao giờ muốn quên niềm đam mê thời trẻ.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:熱意:ねつい"
-      ],
-      "note": "情熱的[じょうねつてき] = nồng nhiệt; 情熱[じょうねつ]を注[そそ]ぐ = dồn đam mê vào."
-    },
-    {
-      "id": "v:意気込み:いきごみ",
-      "kana": "いきごみ",
-      "kanji": "意気込み",
-      "kf": "意気込[いきご]み",
-      "hv": "Ý KHÍ NHẬP",
-      "vi": "tinh thần hăng hái lúc bắt đầu",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新年[しんねん]の意気込[いきご]みを、一人[ひとり]ずつ発表[はっぴょう]した。",
-          "vi": "Mỗi người lần lượt nói quyết tâm đầu năm mới.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "「今年[ことし]こそN2に合格[ごうかく]する」という意気込[いきご]みで、毎日[まいにち]勉強[べんきょう]している。",
-          "vi": "Tôi học mỗi ngày với quyết tâm \"năm nay nhất định đỗ N2\".",
-          "ctx": "doisong"
-        }
-      ],
-      "flag": true,
-      "note": "意気込[いきご]む = hăng hái, hừng hực khí thế. Âm Hán Việt của chữ thứ 3 (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
-    },
-    {
-      "id": "v:誠実:せいじつ",
-      "kana": "せいじつ",
-      "kanji": "誠実",
-      "hv": "THÀNH THỰC",
-      "vi": "thành thực, chân thành, đáng tin (trong cách đối xử)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "誠実[せいじつ]な人[ひと]は、みんなに信頼[しんらい]される。",
-          "vi": "Người chân thành được mọi người tin cậy.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "お客様[きゃくさま]の苦情[くじょう]には、誠実[せいじつ]に対応[たいおう]してください。",
-          "vi": "Hãy xử lý khiếu nại của khách một cách thành tâm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：新[あたら]しく来[き]たグエンさん、どう？ B：とても誠実[せいじつ]で、仕事[しごと]もまじめですよ。",
-          "vi": "A: Anh Nguyễn mới đến thế nào? B: Rất đáng tin, làm việc cũng chăm chỉ ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "人[ひと]",
-          "vi": "người"
-        },
-        {
-          "jp": "態度[たいど]",
-          "vi": "thái độ"
-        },
-        {
-          "jp": "対応[たいおう]",
-          "vi": "cách xử lý"
-        }
-      ],
-      "ant": [
-        {
-          "w": "不誠実[ふせいじつ]",
-          "vi": "thiếu thành thật"
-        }
-      ],
-      "rel": [
-        "v:正直:しょうじき"
-      ],
-      "note": "誠実[せいじつ] = sống thật lòng, có trách nhiệm với người khác; 正直[しょうじき] = không nói dối."
-    },
-    {
-      "id": "v:お世辞:おせじ",
-      "kana": "おせじ",
-      "kanji": "お世辞",
-      "kf": "お世辞[せじ]",
-      "hv": "THẾ TỪ",
-      "vi": "lời khen xã giao, lời nịnh",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "お世辞[せじ]じゃなくて、本当[ほんとう]に日本語[にほんご]が上手[じょうず]ですね。",
-          "vi": "Không phải khen xã giao đâu, tiếng Nhật của anh giỏi thật đấy.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "彼[かれ]はお世辞[せじ]ばかり言[い]うので、あまり信用[しんよう]できない。",
-          "vi": "Anh ta toàn nói lời nịnh nên không tin lắm được.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "お世辞[せじ]を言[い]う = nói lời khen xã giao; お世辞[せじ]にも〜とは言[い]えない = có khen xã giao cũng không thể gọi là …."
-    },
-    {
-      "id": "v:お返し:おかえし",
-      "kana": "おかえし",
-      "kanji": "お返し",
-      "kf": "お返[かえ]し",
-      "hv": "PHẢN",
-      "vi": "quà đáp lễ; sự đáp lại",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "結婚[けっこん]祝[いわ]いのお返[かえ]しに、タオルを送[おく]った。",
-          "vi": "Tôi gửi khăn làm quà đáp lễ cho quà mừng cưới.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "手伝[てつだ]ってもらったお返[かえ]しに、今度[こんど]は私[わたし]が手伝[てつだ]います。",
-          "vi": "Để đáp lại việc được giúp, lần này tôi sẽ giúp.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "お返[かえ]しをする = đáp lễ. Ở Nhật, ngày 14/3 (ホワイトデー) là ngày đáp lễ quà Valentine."
-    },
-    {
-      "id": "v:恩返し:おんがえし",
-      "kana": "おんがえし",
-      "kanji": "恩返し",
-      "kf": "恩返[おんがえ]し",
-      "hv": "ÂN PHẢN",
-      "vi": "báo ơn, đền ơn",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "育[そだ]ててくれた両親[りょうしん]に、恩返[おんがえ]しがしたい。",
-          "vi": "Tôi muốn báo hiếu bố mẹ đã nuôi nấng mình.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "先輩[せんぱい]への恩返[おんがえ]しのつもりで、新人[しんじん]に丁寧[ていねい]に教[おし]えている。",
-          "vi": "Tôi tận tình dạy người mới, coi như đền ơn đàn anh.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "両親[りょうしん]に恩返[おんがえ]しする",
-          "vi": "báo hiếu bố mẹ"
-        },
-        {
-          "jp": "地域[ちいき]に恩返[おんがえ]しする",
-          "vi": "đền ơn địa phương"
-        }
-      ],
-      "note": "恩[おん] = ơn; 恩人[おんじん] = ân nhân."
-    },
-    {
-      "id": "v:添える:そえる",
-      "kana": "そえる",
-      "kanji": "添える",
-      "kf": "添[そ]える",
-      "hv": "THIÊM",
-      "vi": "kèm thêm (cho đủ, cho đẹp)",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tấm lòng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "プレゼントに、短[みじか]い手紙[てがみ]を添[そ]えました。",
-          "vi": "Tôi kèm một lá thư ngắn vào món quà.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "刺身[さしみ]には、大葉[おおば]と大根[だいこん]を添[そ]えて出[だ]します。",
-          "vi": "Sashimi thì bày kèm lá tía tô và củ cải.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：申込書[もうしこみしょ]、これでいいですか。 B：はい。在留[ざいりゅう]カードのコピーも添[そ]えてください。",
-          "vi": "A: Đơn đăng ký thế này được chưa ạ? B: Được rồi. Anh kèm thêm bản sao thẻ cư trú nhé.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "手紙[てがみ]を添[そ]える",
-          "vi": "kèm thư"
-        },
-        {
-          "jp": "写真[しゃしん]を添[そ]える",
-          "vi": "kèm ảnh"
-        }
-      ],
-      "note": "〜に花[はな]を添[そ]える = làm cho … thêm rực rỡ. Đơn từ hay ghi 「写[うつ]しを添[そ]えて提出[ていしゅつ]」 (nộp kèm bản sao)."
-    },
-    {
-      "id": "v:手作り:てづくり",
-      "kana": "てづくり",
-      "kanji": "手作り",
-      "kf": "手作[てづく]り",
-      "hv": "THỦ TÁC",
-      "vi": "tự tay làm, đồ thủ công",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tay nghề",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "母[はは]の手作[てづく]りの料理[りょうり]が、懐[なつ]かしい。",
-          "vi": "Tôi nhớ món ăn mẹ tự tay nấu.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この工場[こうじょう]の練[ね]り物[もの]は、今[いま]も一部[いちぶ]が手作[てづく]りです。",
-          "vi": "Đồ chả cá của nhà máy này đến giờ vẫn có phần làm thủ công.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "手作[てづく]りの〜 = 〜 tự làm (handmade)."
-    },
-    {
-      "id": "v:手間暇:てまひま",
-      "kana": "てまひま",
-      "kanji": "手間暇",
-      "hv": "THỦ GIAN HẠ",
-      "vi": "công sức và thời gian (bỏ ra)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tay nghề",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "昆布[こんぶ]で、手間暇[てまひま]をかけてだしを取[と]ります。",
-          "vi": "Bỏ công sức thời gian nấu nước dùng từ tảo kombu.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "手間暇[てまひま]かけて作[つく]ったものは、お客様[きゃくさま]にも伝[つた]わる。",
-          "vi": "Thứ làm ra bằng công sức và thời gian thì khách hàng cũng cảm nhận được.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:手間:てま"
-      ],
-      "note": "手間暇[てまひま]をかける = bỏ công sức và thời gian. Cũng viết 手間[てま]ひま."
-    },
-    {
-      "id": "v:丹念:たんねん",
-      "kana": "たんねん",
-      "kanji": "丹念",
-      "hv": "ĐAN NIỆM",
-      "vi": "kỹ lưỡng từng chút (tốn công)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tay nghề",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "小骨[こぼね]を、一本[いっぽん]ずつ丹念[たんねん]に抜[ぬ]いていきます。",
-          "vi": "Nhổ từng cái xương dăm một cách kỹ lưỡng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "契約書[けいやくしょ]を丹念[たんねん]に読[よ]んでから、サインした。",
-          "vi": "Tôi đọc kỹ từng chữ hợp đồng rồi mới ký.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：この彫[ほ]り物[もの]、細[こま]かいね。 B：職人[しょくにん]が一[ひと]つずつ丹念[たんねん]に彫[ほ]ったそうですよ。",
-          "vi": "A: Đồ chạm này tinh xảo nhỉ. B: Nghe nói người thợ đã chạm từng chi tiết một cách kỹ lưỡng ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "作業[さぎょう]",
-          "vi": "công việc"
-        },
-        {
-          "jp": "調査[ちょうさ]",
-          "vi": "cuộc điều tra"
-        }
-      ],
-      "confuse": [
-        "v:丁寧:ていねい"
-      ],
-      "note": "Hay dùng dạng 丹念[たんねん]に + động từ. 丹念[たんねん] = kỹ từng chi tiết, tốn công; 丁寧[ていねい] = cẩn thận, lịch sự nói chung."
-    },
-    {
-      "id": "v:職人技:しょくにんわざ",
-      "kana": "しょくにんわざ",
-      "kanji": "職人技",
-      "hv": "CHỨC NHÂN KỸ",
-      "vi": "tay nghề bậc thầy (của thợ lành nghề)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tay nghề",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "包丁[ほうちょう]一本[いっぽん]でマグロをさばくのは、まさに職人技[しょくにんわざ]だ。",
-          "vi": "Chỉ một con dao mà xẻ được cá ngừ, đúng là tay nghề bậc thầy.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "テレビで、すし屋[や]の職人技[しょくにんわざ]を紹介[しょうかい]していた。",
-          "vi": "Ti vi giới thiệu tay nghề bậc thầy của tiệm sushi.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:技:わざ"
-      ]
-    },
-    {
-      "id": "v:技:わざ",
-      "kana": "わざ",
-      "kanji": "技",
-      "hv": "KỸ",
-      "vi": "ngón nghề, đòn (luyện mà có)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tay nghề",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "先輩[せんぱい]の技[わざ]を、見[み]て覚[おぼ]えました。",
-          "vi": "Tôi nhìn và học ngón nghề của đàn anh.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "柔道[じゅうどう]の技[わざ]を、テレビで見[み]た。",
-          "vi": "Tôi xem các đòn judo trên ti vi.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:技術:ぎじゅつ"
-      ],
-      "note": "技[わざ]を磨[みが]く = mài giũa tay nghề. 技術[ぎじゅつ] = kỹ thuật, công nghệ nói chung; 技[わざ] = ngón nghề của một người, đòn (võ)."
-    },
-    {
-      "id": "v:受け継ぐ:うけつぐ",
-      "kana": "うけつぐ",
-      "kanji": "受け継ぐ",
-      "kf": "受[う]け継[つ]ぐ",
-      "hv": "THỤ KẾ",
-      "vi": "tiếp nối (truyền thống, tay nghề từ đời trước)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tay nghề",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "父[ちち]の店[みせ]を受[う]け継[つ]いで、三代目[さんだいめ]になった。",
-          "vi": "Tôi tiếp nối cửa hàng của bố, thành đời thứ ba.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この町[まち]では、昔[むかし]の祭[まつ]りが今[いま]も受[う]け継[つ]がれている。",
-          "vi": "Ở thị trấn này, lễ hội ngày xưa đến nay vẫn được tiếp nối.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：この切[き]り方[かた]、誰[だれ]に教[おそ]わったの？ B：前[まえ]の班長[はんちょう]から受[う]け継[つ]いだやり方[かた]です。",
-          "vi": "A: Cách cắt này ai dạy cậu thế? B: Đây là cách làm tôi nhận lại từ tổ trưởng trước ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "伝統[でんとう]を受[う]け継[つ]ぐ",
-          "vi": "tiếp nối truyền thống"
-        },
-        {
-          "jp": "技[わざ]を受[う]け継[つ]ぐ",
-          "vi": "kế thừa tay nghề"
-        }
-      ],
-      "rel": [
-        "v:継ぐ:つぐ"
-      ],
-      "fx": [
-        {
-          "f": "ukemi",
-          "jp": "祖父[そふ]の味[あじ]が、父[ちち]から私[わたし]へと[[受[う]け継[つ]がれ]]た。",
-          "vi": "Hương vị của ông đã được truyền từ bố sang tôi."
-        }
-      ]
-    },
-    {
-      "id": "v:鍛える:きたえる",
-      "kana": "きたえる",
-      "kanji": "鍛える",
-      "kf": "鍛[きた]える",
-      "hv": "ĐOÁN",
-      "vi": "rèn luyện (cơ thể, kỹ năng, con người)",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tay nghề",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "毎朝[まいあさ]走[はし]って、体[からだ]を鍛[きた]えています。",
-          "vi": "Mỗi sáng tôi chạy bộ để rèn luyện cơ thể.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新人[しんじん]を一人前[いちにんまえ]に鍛[きた]えるのも、班[はん]長[ちょう]の仕事[しごと]だ。",
-          "vi": "Rèn người mới thành thạo nghề cũng là việc của tổ trưởng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：力[ちから]、強[つよ]いね。何[なに]かしてるの？ B：休[やす]みの日[ひ]に、ジムで鍛[きた]えているんです。",
-          "vi": "A: Khỏe thế. Có tập gì không? B: Ngày nghỉ tôi tập ở phòng gym ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "体[からだ]を鍛[きた]える",
-          "vi": "rèn luyện cơ thể"
-        },
-        {
-          "jp": "腕[うで]を鍛[きた]える",
-          "vi": "rèn tay nghề"
-        }
-      ],
-      "fx": [
-        {
-          "f": "ukemi",
-          "jp": "若[わか]いころ、厳[きび]しい先輩[せんぱい]に[[鍛[きた]えられ]]ました。",
-          "vi": "Hồi trẻ tôi được một đàn anh nghiêm khắc rèn giũa."
-        }
-      ]
-    },
-    {
-      "id": "v:見習い:みならい",
-      "kana": "みならい",
-      "kanji": "見習い",
-      "kf": "見習[みなら]い",
-      "hv": "KIẾN TẬP",
-      "vi": "người học nghề; thời gian học nghề",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tay nghề",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "最初[さいしょ]の三[さん]か月[げつ]は、見習[みなら]いとして働[はたら]きます。",
-          "vi": "Ba tháng đầu làm việc với tư cách học việc.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "見習[みなら]いの間[あいだ]は、時給[じきゅう]が少[すこ]し安[やす]い。",
-          "vi": "Trong thời gian học việc, lương giờ hơi thấp.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "見習[みなら]う = học theo, noi gương."
-    },
-    {
-      "id": "v:弟子:でし",
-      "kana": "でし",
-      "kanji": "弟子",
-      "hv": "ĐỆ TỬ",
-      "vi": "đệ tử, học trò (theo thầy học nghề)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tay nghề",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "有名[ゆうめい]なすし職人[しょくにん]の弟子[でし]になった。",
-          "vi": "Tôi trở thành đệ tử của một thợ sushi nổi tiếng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "親方[おやかた]は、弟子[でし]にとても厳[きび]しい。",
-          "vi": "Ông thầy rất nghiêm khắc với đệ tử.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "師匠[ししょう] / 親方[おやかた] = thầy (dạy nghề); 弟子入[でしい]り = xin làm đệ tử."
-    },
-    {
-      "id": "v:仕上がり:しあがり",
-      "kana": "しあがり",
-      "kanji": "仕上がり",
-      "kf": "仕上[しあ]がり",
-      "hv": "SĨ THƯỢNG",
-      "vi": "độ hoàn thiện; lúc xong (thành phẩm)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tay nghề",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "仕上[しあ]がりがきれいだと、お客様[きゃくさま]に喜[よろこ]ばれる。",
-          "vi": "Thành phẩm hoàn thiện đẹp thì được khách hàng vui lòng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "クリーニングの仕上[しあ]がりは、水曜日[すいようび]になります。",
-          "vi": "Đồ giặt khô sẽ xong vào thứ tư.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "仕上[しあ]げる = hoàn thiện (tha); 仕上[しあ]がる = được hoàn thành (tự)."
-    },
-    {
-      "id": "v:手際:てぎわ",
-      "kana": "てぎわ",
-      "kanji": "手際",
-      "hv": "THỦ TẾ",
-      "vi": "sự nhanh gọn, thạo việc (khi xử lý công việc)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tay nghề",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "先輩[せんぱい]は手際[てぎわ]がよくて、作業[さぎょう]がとても速[はや]い。",
-          "vi": "Đàn anh làm nhanh gọn, thao tác rất nhanh.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "手際[てぎわ]よく夕飯[ゆうはん]を作[つく]って、子供[こども]に食[た]べさせた。",
-          "vi": "Tôi nhanh tay nấu bữa tối rồi cho con ăn.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "手際[てぎわ]がいい / 悪[わる]い = làm nhanh gọn / lóng ngóng; 手際[てぎわ]よく = nhanh gọn."
-    },
-    {
-      "id": "v:手抜き:てぬき",
-      "kana": "てぬき",
-      "kanji": "手抜き",
-      "kf": "手抜[てぬ]き",
-      "hv": "THỦ BẠT",
-      "vi": "ăn bớt công đoạn, làm qua quýt",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tay nghề",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "忙[いそが]しくても、衛生管理[えいせいかんり]の手抜[てぬ]きは許[ゆる]されない。",
-          "vi": "Dù bận cũng không được làm ẩu khâu quản lý vệ sinh.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "今日[きょう]の夕飯[ゆうはん]は、ちょっと手抜[てぬ]きしてカレーにした。",
-          "vi": "Bữa tối hôm nay tôi làm qua loa, nấu cà ri cho nhanh.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "仕事[しごと]を手抜[てぬ]きする",
-          "vi": "làm ẩu công việc"
-        },
-        {
-          "jp": "掃除[そうじ]を手抜[てぬ]きする",
-          "vi": "dọn dẹp qua loa"
-        }
-      ],
-      "note": "手[て]を抜[ぬ]く = làm qua loa; 手抜[てぬ]き工事[こうじ] = công trình ăn bớt."
-    },
-    {
-      "id": "v:全力:ぜんりょく",
-      "kana": "ぜんりょく",
-      "kanji": "全力",
-      "hv": "TOÀN LỰC",
-      "vi": "toàn lực, hết sức lực",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nỗ lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "駅[えき]まで全力[ぜんりょく]で走[はし]って、電車[でんしゃ]に間[ま]に合[あ]った。",
-          "vi": "Tôi chạy hết sức tới ga và kịp tàu.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "お客様[きゃくさま]の期待[きたい]に応[こた]えられるよう、全力[ぜんりょく]を尽[つ]くします。",
-          "vi": "Chúng tôi sẽ dốc toàn lực để đáp ứng kỳ vọng của khách hàng.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "全力[ぜんりょく]を尽[つ]くす = dốc toàn lực; 全力投球[ぜんりょくとうきゅう] = dốc hết sức vào việc gì."
-    },
-    {
-      "id": "v:本気:ほんき",
-      "kana": "ほんき",
-      "kanji": "本気",
-      "hv": "BẢN KHÍ",
-      "vi": "quyết tâm thật (không phải đùa)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nỗ lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "本気[ほんき]で日本語[にほんご]がうまくなりたいなら、毎日[まいにち]続[つづ]けることだ。",
-          "vi": "Nếu thật lòng muốn giỏi tiếng Nhật thì phải duy trì mỗi ngày.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "班長[はんちょう]が本気[ほんき]で怒[おこ]ったのを、初[はじ]めて見[み]た。",
-          "vi": "Lần đầu tôi thấy tổ trưởng giận thật sự.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：会社[かいしゃ]を辞[や]めるって、本気[ほんき]？ B：うん、本気[ほんき]だよ。国[くに]に帰[かえ]って店[みせ]を開[ひら]くんだ。",
-          "vi": "A: Nghỉ việc á, thật không đấy? B: Ừ, thật đấy. Tôi về nước mở quán.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "本気[ほんき]を出[だ]す = dốc sức thật sự; 本気[ほんき]にする = tin là thật."
-    },
-    {
-      "id": "v:本腰:ほんごし",
-      "kana": "ほんごし",
-      "kanji": "本腰",
-      "hv": "BẢN YÊU",
-      "vi": "sự dốc tâm làm thật sự",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nỗ lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "試験[しけん]まで三[さん]か月[げつ]なので、本腰[ほんごし]を入[い]れて勉強[べんきょう]する。",
-          "vi": "Còn ba tháng nữa là thi nên tôi bắt đầu học thật sự.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "会社[かいしゃ]は、人手不足[ひとでふそく]の対策[たいさく]に本腰[ほんごし]を入[い]れ始[はじ]めた。",
-          "vi": "Công ty bắt đầu nghiêm túc giải quyết tình trạng thiếu người.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "本腰[ほんごし]を入[い]れる = bắt tay vào làm một cách nghiêm túc (gần như chỉ dùng trong cụm này)."
-    },
-    {
-      "id": "v:精一杯:せいいっぱい",
-      "kana": "せいいっぱい",
-      "kanji": "精一杯",
-      "hv": "TINH NHẤT BÔI",
-      "vi": "cố hết mức có thể",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nỗ lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "結果[けっか]は分[わ]からないけど、精[せい]一杯[いっぱい]やります。",
-          "vi": "Kết quả thế nào chưa biết, nhưng tôi sẽ làm hết mức có thể.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "今[いま]の給料[きゅうりょう]では、生活[せいかつ]するだけで精[せい]一杯[いっぱい]だ。",
-          "vi": "Với mức lương hiện tại, chỉ sống thôi đã chật vật lắm rồi.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:一生懸命:いっしょうけんめい"
-      ],
-      "note": "〜だけで精[せい]一杯[いっぱい] = chỉ … thôi đã hết sức. Cũng dùng như danh từ: 精[せい]一杯[いっぱい]の努力[どりょく]."
-    },
-    {
-      "id": "v:懸命:けんめい",
-      "kana": "けんめい",
-      "kanji": "懸命",
-      "hv": "HUYỀN MỆNH",
-      "vi": "dốc lòng dốc sức (văn viết)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nỗ lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "懸命[けんめい]な救助[きゅうじょ]活動[かつどう]が、今[いま]も続[つづ]いている。",
-          "vi": "Hoạt động cứu hộ dốc toàn lực vẫn đang tiếp diễn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "家族[かぞく]のために、懸命[けんめい]に働[はたら]いています。",
-          "vi": "Tôi làm việc hết sức vì gia đình.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：あの新人[しんじん]、どう？ B：まだ遅[おそ]いけど、懸命[けんめい]に覚[おぼ]えようとしていますよ。",
-          "vi": "A: Người mới đó thế nào? B: Vẫn còn chậm nhưng đang cố hết sức để học việc ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "努力[どりょく]",
-          "vi": "nỗ lực"
-        },
-        {
-          "jp": "練習[れんしゅう]",
-          "vi": "luyện tập"
-        }
-      ],
-      "rel": [
-        "v:一生懸命:いっしょうけんめい"
-      ],
-      "note": "Văn viết, tin tức; nói chuyện thường dùng 一生懸命[いっしょうけんめい]."
-    },
-    {
-      "id": "v:尽くす:つくす",
-      "kana": "つくす",
-      "kanji": "尽くす",
-      "kf": "尽[つ]くす",
-      "hv": "TẬN",
-      "vi": "dốc hết (sức, khả năng); tận tụy (vì ai)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nỗ lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "医者[いしゃ]は最善[さいぜん]を尽[つ]くしたが、助[たす]からなかった。",
-          "vi": "Bác sĩ đã làm hết sức nhưng không cứu được.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "三十年[さんじゅうねん]間[かん]、この会社[かいしゃ]に尽[つ]くしてきた。",
-          "vi": "Ba mươi năm nay tôi đã tận tụy với công ty này.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：試合[しあい]、負[ま]けちゃったね。 B：でも、全力[ぜんりょく]を尽[つ]くしたから悔[く]いはないよ。",
-          "vi": "A: Thua trận mất rồi nhỉ. B: Nhưng đã dốc toàn lực rồi nên chẳng hối tiếc gì.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "全力[ぜんりょく]を尽[つ]くす",
-          "vi": "dốc toàn lực"
-        },
-        {
-          "jp": "最善[さいぜん]を尽[つ]くす",
-          "vi": "làm hết sức có thể"
-        },
-        {
-          "jp": "会社[かいしゃ]に尽[つ]くす",
-          "vi": "tận tụy với công ty"
-        }
-      ],
-      "rel": [
-        "v:最善:さいぜん"
-      ],
-      "note": "〜し尽[つ]くす = làm … đến hết (食[た]べ尽[つ]くす = ăn sạch)."
-    },
-    {
-      "id": "v:打ち込む:うちこむ",
-      "kana": "うちこむ",
-      "kanji": "打ち込む",
-      "kf": "打[う]ち込[こ]む",
-      "hv": "ĐẢ NHẬP",
-      "vi": "dồn tâm sức (vào việc); gõ nhập (dữ liệu)",
-      "pos": "v5",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nỗ lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今[いま]は、日本語[にほんご]の勉強[べんきょう]に打[う]ち込[こ]みたい。",
-          "vi": "Bây giờ tôi muốn dồn tâm sức vào việc học tiếng Nhật.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "検品[けんぴん]の数字[すうじ]を、パソコンに打[う]ち込[こ]んでください。",
-          "vi": "Hãy gõ số liệu kiểm hàng vào máy tính.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：学生[がくせい]のころ、何[なに]かしてた？ B：サッカーに打[う]ち込[こ]んでいました。",
-          "vi": "A: Hồi đi học cậu có chơi gì không? B: Tôi dồn hết sức vào bóng đá ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "仕事[しごと]に打[う]ち込[こ]む",
-          "vi": "dồn sức vào công việc"
-        },
-        {
-          "jp": "データを打[う]ち込[こ]む",
-          "vi": "nhập dữ liệu"
-        }
-      ],
-      "rel": [
-        "v:熱中:ねっちゅう"
-      ],
-      "flag": true,
-      "note": "打[う]ち込[こ]む = dồn sức lâu dài, nghiêm túc; 熱中[ねっちゅう] = say mê (cả nhất thời). Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
-    },
-    {
-      "id": "v:励む:はげむ",
-      "kana": "はげむ",
-      "kanji": "励む",
-      "kf": "励[はげ]む",
-      "hv": "LỆ",
-      "vi": "miệt mài, chuyên cần (luyện tập, làm việc)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nỗ lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "仕事[しごと]と勉強[べんきょう]に、毎日[まいにち]励[はげ]んでいます。",
-          "vi": "Ngày nào tôi cũng miệt mài với công việc và việc học.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新人[しんじん]たちは、早[はや]く一人前[いちにんまえ]になろうと仕事[しごと]に励[はげ]んでいる。",
-          "vi": "Những người mới đang miệt mài làm việc để sớm thạo nghề.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：最近[さいきん]、どう？ B：資格[しかく]を取[と]るために、勉強[べんきょう]に励[はげ]んでいます。",
-          "vi": "A: Dạo này thế nào? B: Tôi đang miệt mài học để lấy chứng chỉ ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "練習[れんしゅう]に励[はげ]む",
-          "vi": "miệt mài luyện tập"
-        },
-        {
-          "jp": "仕事[しごと]に励[はげ]む",
-          "vi": "chăm chỉ làm việc"
-        }
-      ],
-      "confuse": [
-        "v:励ます:はげます"
-      ],
-      "note": "励[はげ]む = tự mình nỗ lực; 励[はげ]ます = động viên người khác."
-    },
-    {
-      "id": "v:地道:じみち",
-      "kana": "じみち",
-      "kanji": "地道",
-      "hv": "ĐỊA ĐẠO",
-      "vi": "bền bỉ, đi từng bước (không phô trương)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nỗ lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "地道[じみち]な努力[どりょく]が、やっと実[じつ]を結[むす]んだ。",
-          "vi": "Sự nỗ lực bền bỉ cuối cùng đã đơm hoa kết trái.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "毎日[まいにち]の清掃[せいそう]という地道[じみち]な作業[さぎょう]が、品質[ひんしつ]を守[まも]っている。",
-          "vi": "Việc vệ sinh hằng ngày âm thầm bền bỉ đang giữ gìn chất lượng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：どうやって日本語[にほんご]、上手[じょうず]になったの？ B：地道[じみち]に毎日[まいにち]単語[たんご]を覚[おぼ]えただけですよ。",
-          "vi": "A: Làm sao mà cậu giỏi tiếng Nhật thế? B: Tôi chỉ bền bỉ học từ mỗi ngày thôi ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "努力[どりょく]",
-          "vi": "nỗ lực"
-        },
-        {
-          "jp": "作業[さぎょう]",
-          "vi": "công việc"
-        },
-        {
-          "jp": "活動[かつどう]",
-          "vi": "hoạt động"
-        }
-      ],
-      "confuse": [
-        "v:地味:じみ"
-      ],
-      "note": "地道[じみち]に = bền bỉ, từng bước. Khác 地味[じみ] = giản dị, không nổi bật."
-    },
-    {
-      "id": "v:こつこつ:こつこつ",
-      "kana": "こつこつ",
-      "kanji": "",
-      "hv": "",
-      "vi": "cần mẫn từng chút một",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nỗ lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "毎日[まいにち]こつこつ単語[たんご]を覚[おぼ]えています。",
-          "vi": "Mỗi ngày tôi cần mẫn học từng từ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "こつこつ練習[れんしゅう]して、包丁[ほうちょう]の使[つか]い方[かた]がうまくなった。",
-          "vi": "Cần mẫn luyện tập nên tôi dùng dao khá lên.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "こつこつ貯[た]めたお金[かね]で、母[はは]に家[いえ]を建[た]てた。",
-          "vi": "Bằng số tiền dành dụm từng chút, tôi xây nhà cho mẹ.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Cũng nói こつこつと. Còn là tiếng gõ nhẹ, tiếng bước chân (こつこつと歩[ある]く)."
-    },
-    {
-      "id": "v:着実:ちゃくじつ",
-      "kana": "ちゃくじつ",
-      "kanji": "着実",
-      "hv": "TRƯỚC THỰC",
-      "vi": "vững vàng (tiến từng bước)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nỗ lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "日本語[にほんご]の力[ちから]が、着実[ちゃくじつ]に伸[の]びている。",
-          "vi": "Năng lực tiếng Nhật đang tiến bộ vững vàng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "一[ひと]つ一[ひと]つの作業[さぎょう]を、着実[ちゃくじつ]にこなすことが大切[たいせつ]だ。",
-          "vi": "Điều quan trọng là làm xong từng việc một cách vững vàng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：工事[こうじ]、予定[よてい]通[とお]り進[すす]んでる？ B：はい、少[すこ]しずつですが着実[ちゃくじつ]に進[すす]んでいます。",
-          "vi": "A: Công trình có đúng tiến độ không? B: Vâng, tuy từng chút nhưng đang tiến triển vững vàng ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "進歩[しんぽ]",
-          "vi": "sự tiến bộ"
-        },
-        {
-          "jp": "方法[ほうほう]",
-          "vi": "cách làm"
-        }
-      ],
-      "confuse": [
-        "v:確実:かくじつ"
-      ],
-      "note": "着実[ちゃくじつ] = từng bước chắc (quá trình); 確実[かくじつ] = chắc chắn đúng, chắc chắn xảy ra (kết quả)."
-    },
-    {
-      "id": "v:怠る:おこたる",
-      "kana": "おこたる",
-      "kanji": "怠る",
-      "kf": "怠[おこた]る",
-      "hv": "ĐÃI",
-      "vi": "sao nhãng, bỏ bê (việc phải làm)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Nỗ lực",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "確認[かくにん]を怠[おこた]ったせいで、異物[いぶつ]が混入[こんにゅう]した。",
-          "vi": "Vì lơ là việc kiểm tra mà dị vật lẫn vào.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "健康[けんこう]のために、毎日[まいにち]の運動[うんどう]を怠[おこた]らないようにしている。",
-          "vi": "Vì sức khỏe, tôi cố không sao nhãng việc vận động hằng ngày.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：毎日[まいにち]、機械[きかい]の点検[てんけん]って必要[ひつよう]ですか。 B：うん。点検[てんけん]を怠[おこた]ると、大[おお]きな事故[じこ]になるからね。",
-          "vi": "A: Ngày nào cũng phải kiểm tra máy ạ? B: Ừ. Lơ là kiểm tra là thành tai nạn lớn đấy.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "確認[かくにん]を怠[おこた]る",
-          "vi": "lơ là việc kiểm tra"
-        },
-        {
-          "jp": "注意[ちゅうい]を怠[おこた]る",
-          "vi": "thiếu chú ý"
-        }
-      ],
-      "confuse": [
-        "v:怠ける:なまける"
-      ],
-      "note": "怠[おこた]る = bỏ bê việc đáng phải làm (văn viết, hay gặp trong quy định); 怠[なま]ける = lười biếng."
-    },
-    {
-      "id": "v:粘り強い:ねばりづよい",
-      "kana": "ねばりづよい",
-      "kanji": "粘り強い",
-      "kf": "粘[ねば]り強[づよ]い",
-      "hv": "NIÊM CƯỜNG",
-      "vi": "bền bỉ, lì (không bỏ cuộc)",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kiên trì",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "粘[ねば]り強[づよ]く交渉[こうしょう]して、値段[ねだん]を下[さ]げてもらった。",
-          "vi": "Kiên trì thương lượng nên đã được giảm giá.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "彼[かれ]は粘[ねば]り強[づよ]い性格[せいかく]で、最後[さいご]まで諦[あきら]めない。",
-          "vi": "Anh ấy tính bền bỉ, không bỏ cuộc tới cùng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：また断[ことわ]られた……。 B：粘[ねば]り強[づよ]く頼[たの]めば、きっと分[わ]かってくれるよ。",
-          "vi": "A: Lại bị từ chối rồi... B: Cứ kiên trì nhờ thì chắc chắn họ sẽ hiểu thôi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "性格[せいかく]",
-          "vi": "tính cách"
-        },
-        {
-          "jp": "努力[どりょく]",
-          "vi": "nỗ lực"
-        },
-        {
-          "jp": "交渉[こうしょう]",
-          "vi": "cuộc thương lượng"
-        }
-      ],
-      "ant": [
-        {
-          "w": "飽[あ]きっぽい",
-          "vi": "mau chán"
-        }
-      ],
-      "rel": [
-        "v:粘る:ねばる"
-      ]
-    },
-    {
-      "id": "v:粘る:ねばる",
-      "kana": "ねばる",
-      "kanji": "粘る",
-      "kf": "粘[ねば]る",
-      "hv": "NIÊM",
-      "vi": "kiên trì bám trụ (đến cùng); (đồ ăn) dẻo dính",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kiên trì",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "不良[ふりょう]の原因[げんいん]が分[わ]かるまで、班長[はんちょう]は粘[ねば]って調[しら]べた。",
-          "vi": "Tổ trưởng kiên trì tìm hiểu đến khi biết nguyên nhân hàng lỗi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "納豆[なっとう]はよく混[ま]ぜると、もっと粘[ねば]る。",
-          "vi": "Natto trộn kỹ thì càng dính.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：すみません、もう閉店[へいてん]です。 B：あ、つい長[なが]く粘[ねば]ってしまって、すみません。",
-          "vi": "A: Xin lỗi, quán sắp đóng cửa ạ. B: À, tôi lỡ ngồi lì lâu quá, xin lỗi nhé.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "最後[さいご]まで粘[ねば]る",
-          "vi": "kiên trì đến cùng"
-        },
-        {
-          "jp": "店[みせ]で粘[ねば]る",
-          "vi": "ngồi lì ở quán"
-        }
-      ],
-      "note": "粘[ねば]り = độ dính; sự bền bỉ."
-    },
-    {
-      "id": "v:根気:こんき",
-      "kana": "こんき",
-      "kanji": "根気",
-      "hv": "CĂN KHÍ",
-      "vi": "sự nhẫn nại (với việc lâu, lặp lại)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kiên trì",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "小骨[こぼね]を抜[ぬ]くのは、根気[こんき]のいる作業[さぎょう]だ。",
-          "vi": "Nhổ xương dăm là việc cần nhẫn nại.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "先生[せんせい]は、根気[こんき]よく日本語[にほんご]を教[おし]えてくれた。",
-          "vi": "Thầy giáo đã kiên nhẫn dạy tôi tiếng Nhật.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "根気[こんき]よく = kiên nhẫn; 根気[こんき]がいる = cần nhẫn nại."
-    },
-    {
-      "id": "v:根性:こんじょう",
-      "kana": "こんじょう",
-      "kanji": "根性",
-      "hv": "CĂN TÍNH",
-      "vi": "gan lì, ý chí chịu đựng; tính nết (xấu)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kiên trì",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "根性[こんじょう]があるから、きつい仕事[しごと]でも続[つづ]けられる。",
-          "vi": "Có gan lì nên việc vất vả cũng theo được.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "最後[さいご]は、根性[こんじょう]で走[はし]りきった。",
-          "vi": "Cuối cùng tôi chạy hết bằng ý chí.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "根性[こんじょう]がある / ない = có / không có gan; 根性[こんじょう]が悪[わる]い = tính xấu xa."
-    },
-    {
-      "id": "v:やり抜く:やりぬく",
-      "kana": "やりぬく",
-      "kanji": "やり抜く",
-      "kf": "やり抜[ぬ]く",
-      "hv": "BẠT",
-      "vi": "làm đến cùng",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kiên trì",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一度[いちど]始[はじ]めたことは、最後[さいご]までやり抜[ぬ]きたい。",
-          "vi": "Việc đã bắt đầu thì tôi muốn làm đến cùng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "大変[たいへん]な注文[ちゅうもん]だったが、班[はん]のみんなでやり抜[ぬ]いた。",
-          "vi": "Đơn hàng vất vả nhưng cả tổ đã cùng làm đến nơi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：途中[とちゅう]でやめたくならなかった？ B：何度[なんど]も思[おも]ったけど、やり抜[ぬ]いてよかったです。",
-          "vi": "A: Có lúc nào muốn bỏ giữa chừng không? B: Nhiều lần lắm ạ, nhưng làm đến cùng thật là tốt.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "最後[さいご]までやり抜[ぬ]く",
-          "vi": "làm đến cùng"
-        },
-        {
-          "jp": "仕事[しごと]をやり抜[ぬ]く",
-          "vi": "làm trọn công việc"
-        }
-      ],
-      "syn": [
-        "v:やり遂げる:やりとげる"
-      ],
-      "note": "〜抜[ぬ]く = làm … đến cùng: 考[かんが]え抜[ぬ]く (nghĩ thấu), 走[はし]り抜[ぬ]く (chạy đến đích)."
-    },
-    {
-      "id": "v:継続:けいぞく",
-      "kana": "けいぞく",
-      "kanji": "継続",
-      "hv": "KẾ TỤC",
-      "vi": "duy trì liên tục (không gián đoạn)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kiên trì",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "毎日[まいにち]の勉強[べんきょう]を、継続[けいぞく]することが大切[たいせつ]だ。",
-          "vi": "Điều quan trọng là duy trì việc học mỗi ngày.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "会社[かいしゃ]との雇用契約[こようけいやく]を、継続[けいぞく]することになった。",
-          "vi": "Hợp đồng lao động với công ty đã được quyết định tiếp tục.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：この新[あたら]しいやり方[かた]、続[つづ]けますか。 B：効果[こうか]が出[で]ているので、継続[けいぞく]しましょう。",
-          "vi": "A: Cách làm mới này có tiếp tục không ạ? B: Có hiệu quả rồi nên mình duy trì đi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "契約[けいやく]を継続[けいぞく]する",
-          "vi": "tiếp tục hợp đồng"
-        },
-        {
-          "jp": "治療[ちりょう]を継続[けいぞく]する",
-          "vi": "tiếp tục điều trị"
-        }
-      ],
-      "rel": [
-        "v:続ける:つづける"
-      ],
-      "note": "継続[けいぞく]は力[ちから]なり = kiên trì là sức mạnh (thành ngữ)."
-    },
-    {
-      "id": "v:成し遂げる:なしとげる",
-      "kana": "なしとげる",
-      "kanji": "成し遂げる",
-      "kf": "成[な]し遂[と]げる",
-      "hv": "THÀNH TOẠI",
-      "vi": "làm nên, hoàn tất (việc lớn, khó)",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kiên trì",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "大[おお]きな仕事[しごと]を成[な]し遂[と]げて、ほっとした。",
-          "vi": "Hoàn thành việc lớn, tôi thở phào.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "一人[ひとり]では無理[むり]でも、みんなで協力[きょうりょく]すれば成[な]し遂[と]げられる。",
-          "vi": "Một mình thì không nổi nhưng cùng hợp sức thì làm nên được.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：社長[しゃちょう]、この会社[かいしゃ]を作[つく]るの、大変[たいへん]でしたか。 B：ああ。でも、仲間[なかま]がいたから成[な]し遂[と]げられたんだ。",
-          "vi": "A: Giám đốc ơi, lập công ty này có vất vả không ạ? B: Ừ. Nhưng có bạn bè đồng hành nên mới làm nên được.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "目標[もくひょう]を成[な]し遂[と]げる",
-          "vi": "hoàn thành mục tiêu"
-        },
-        {
-          "jp": "改革[かいかく]を成[な]し遂[と]げる",
-          "vi": "thực hiện trọn vẹn cải cách"
-        }
-      ],
-      "syn": [
-        "v:やり遂げる:やりとげる"
-      ],
-      "rel": [
-        "v:達成:たっせい"
-      ]
-    },
-    {
-      "id": "v:乗り越える:のりこえる",
-      "kana": "のりこえる",
-      "kanji": "乗り越える",
-      "kf": "乗[の]り越[こ]える",
-      "hv": "THỪA VIỆT",
-      "vi": "vượt qua được (khó khăn, thử thách)",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kiên trì",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "家族[かぞく]の支[ささ]えがあったから、つらい時期[じき]を乗[の]り越[こ]えられた。",
-          "vi": "Nhờ gia đình nâng đỡ nên tôi vượt qua được thời kỳ khó khăn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "繁忙期[はんぼうき]を、班[はん]のみんなで乗[の]り越[こ]えた。",
-          "vi": "Cả tổ cùng nhau vượt qua mùa cao điểm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：言葉[ことば]の壁[かべ]、どうやって乗[の]り越[こ]えたの？ B：とにかく毎日[まいにち]、日本人[にほんじん]と話[はな]しました。",
-          "vi": "A: Rào cản ngôn ngữ, cậu vượt qua thế nào? B: Tôi cứ nói chuyện với người Nhật mỗi ngày thôi ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "困難[こんなん]を乗[の]り越[こ]える",
-          "vi": "vượt qua khó khăn"
-        },
-        {
-          "jp": "壁[かべ]を乗[の]り越[こ]える",
-          "vi": "vượt qua rào cản"
-        }
-      ],
-      "rel": [
-        "v:克服:こくふく"
-      ]
-    },
-    {
-      "id": "v:挫折:ざせつ",
-      "kana": "ざせつ",
-      "kanji": "挫折",
-      "hv": "TỎA CHIẾT",
-      "vi": "vấp ngã, bỏ dở giữa chừng (vì nản)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kiên trì",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一度[いちど]は日本語[にほんご]の勉強[べんきょう]に挫折[ざせつ]したが、また始[はじ]めた。",
-          "vi": "Tôi từng bỏ dở việc học tiếng Nhật một lần, nhưng đã bắt đầu lại.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新人[しんじん]が仕事[しごと]に挫折[ざせつ]しないように、班長[はんちょう]が声[こえ]をかけている。",
-          "vi": "Tổ trưởng hỏi han để người mới không nản mà bỏ việc.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "途中[とちゅう]で挫折[ざせつ]する",
-          "vi": "bỏ cuộc giữa chừng"
-        },
-        {
-          "jp": "計画[けいかく]が挫折[ざせつ]する",
-          "vi": "kế hoạch đổ bể"
-        }
-      ],
-      "note": "挫折感[ざせつかん] = cảm giác thất bại, nản lòng."
-    },
-    {
-      "id": "v:投げ出す:なげだす",
-      "kana": "なげだす",
-      "kanji": "投げ出す",
-      "kf": "投[な]げ出[だ]す",
-      "hv": "ĐẦU XUẤT",
-      "vi": "bỏ ngang, buông xuôi (việc đang làm); buông (người) xuống",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kiên trì",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "難[むずか]しくても、途中[とちゅう]で仕事[しごと]を投[な]げ出[だ]してはいけない。",
-          "vi": "Dù khó cũng không được bỏ ngang công việc giữa chừng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "疲[つか]れて、ソファーに体[からだ]を投[な]げ出[だ]した。",
-          "vi": "Mệt quá, tôi buông người xuống ghế sofa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：もう、全部[ぜんぶ]投[な]げ出[だ]したい気分[きぶん]だよ。 B：少[すこ]し休[やす]んでから、また考[かんが]えよう。",
-          "vi": "A: Tớ chỉ muốn buông bỏ tất cả. B: Nghỉ một chút rồi tính tiếp nhé.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "仕事[しごと]を投[な]げ出[だ]す",
-          "vi": "bỏ ngang công việc"
-        },
-        {
-          "jp": "途中[とちゅう]で投[な]げ出[だ]す",
-          "vi": "buông xuôi giữa chừng"
-        }
-      ],
-      "confuse": [
-        "v:諦める:あきらめる"
-      ],
-      "note": "投[な]げ出[だ]す = bỏ ngang việc đang làm (thiếu trách nhiệm); 諦[あきら]める = từ bỏ ý định, ước mơ."
-    },
-    {
-      "id": "v:抜き:ぬき",
-      "kana": "ぬき",
-      "kanji": "抜き",
-      "kf": "抜[ぬ]き",
-      "hv": "BẠT",
-      "vi": "sự bỏ đi, không kèm (một thứ vốn có)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kiên trì",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "冗談[じょうだん]抜[ぬ]きで、ここの刺身[さしみ]は日本一[にほんいち]おいしいと思[おも]う。",
-          "vi": "Nói thật không đùa, tôi nghĩ sashimi ở đây ngon nhất Nhật Bản.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "朝[あさ]ご飯[はん]抜[ぬ]きで働[はたら]くと、集中[しゅうちゅう]できない。",
-          "vi": "Làm việc mà nhịn bữa sáng thì không tập trung được.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：堅[かた]い話[はなし]は抜[ぬ]きにして、今日[きょう]は楽[たの]しく飲[の]もう。 B：いいですね。乾杯[かんぱい]！",
-          "vi": "A: Gác chuyện nghiêm túc lại, hôm nay uống cho vui nào. B: Hay quá. Cạn ly!",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "〜抜[ぬ]きで = không có …; 〜を抜[ぬ]きにして = gác … sang một bên. Cũng là hậu tố: 骨抜[ほねぬ]き (rút xương), 冗談抜[じょうだんぬ]き (nói thật)."
+     "jp": "真心[まごころ]のこもったサービスが、この店[みせ]の自慢[じまん]です。",
+     "vi": "Sự phục vụ chân thành là niềm tự hào của cửa hàng này.",
+     "ctx": "xuong"
     }
-  ]
+   ],
+   "note": "真心[まごころ]を込[こ]める = làm bằng cả tấm lòng; 真心[まごころ]のこもった〜 = 〜 chứa chan tấm lòng."
+  },
+  {
+   "id": "v:誠意:せいい",
+   "kana": "せいい",
+   "kanji": "誠意",
+   "hv": "THÀNH Ý",
+   "vi": "thành ý (thể hiện bằng hành động)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ミスをしたときは、誠意[せいい]を持[も]って謝[あやま]ることが大切[たいせつ]だ。",
+     "vi": "Khi mắc lỗi, điều quan trọng là xin lỗi với thái độ thành tâm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "大家[おおや]さんの対応[たいおう]からは、誠意[せいい]が感[かん]じられなかった。",
+     "vi": "Tôi không cảm thấy chút thiện chí nào từ cách xử lý của chủ nhà.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "誠意[せいい]を見[み]せる = tỏ ra có thiện chí; 誠意[せいい]のある対応[たいおう] = cách xử lý có thiện chí."
+  },
+  {
+   "id": "v:思い:おもい",
+   "kana": "おもい",
+   "kanji": "思い",
+   "kf": "思[おも]い",
+   "hv": "TƯ",
+   "vi": "tâm tình gửi gắm; cảm giác đã trải qua",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家族[かぞく]への思[おも]いを、手紙[てがみ]に書[か]いた。",
+     "vi": "Tôi viết nỗi nhớ thương gia đình vào thư.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この商品[しょうひん]には、作[つく]った人[ひと]の思[おも]いが込[こ]められている。",
+     "vi": "Sản phẩm này chứa đựng tâm huyết của người làm ra nó.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：先週[せんしゅう]は嫌[いや]な思[おも]いをさせて、ごめんね。 B：いえ、もう気[き]にしていません。",
+     "vi": "A: Tuần trước làm cậu thấy khó chịu, xin lỗi nhé. B: Không sao, tôi không để bụng nữa rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "嫌[いや]な思[おも]いをする = gặp chuyện khó chịu; 思[おも]いを込[こ]める = gửi gắm tâm tư. Khi nói tình cảm sâu đậm cũng viết 想[おも]い."
+  },
+  {
+   "id": "v:込める:こめる",
+   "kana": "こめる",
+   "kanji": "込める",
+   "kf": "込[こ]める",
+   "hv": "NHẬP",
+   "vi": "gửi gắm (tình cảm, tâm huyết) vào; dồn (sức)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一[ひと]つ一[ひと]つ、心[こころ]を込[こ]めて手[て]で包[つつ]みます。",
+     "vi": "Gói từng cái bằng tay với cả tấm lòng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "感謝[かんしゃ]の気持[きも]ちを込[こ]めて、先輩[せんぱい]に手紙[てがみ]を書[か]いた。",
+     "vi": "Tôi viết thư cho đàn anh, gửi gắm lòng biết ơn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このお弁当[べんとう]、すごくおいしい！ B：心[こころ]を込[こ]めて作[つく]ったからね。",
+     "vi": "A: Hộp cơm này ngon quá! B: Vì tớ làm bằng cả tấm lòng mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "心[こころ]を込[こ]める",
+     "vi": "làm bằng cả tấm lòng"
+    },
+    {
+     "jp": "力[ちから]を込[こ]める",
+     "vi": "dồn sức"
+    },
+    {
+     "jp": "気持[きも]ちを込[こ]める",
+     "vi": "gửi gắm tình cảm"
+    }
+   ],
+   "flag": true,
+   "note": "〜を込[こ]めて = gửi gắm … vào. Bị động: 〜が込[こ]められている = chứa đựng …. Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:心遣い:こころづかい",
+   "kana": "こころづかい",
+   "kanji": "心遣い",
+   "kf": "心遣[こころづか]い",
+   "hv": "TÂM KHIỂN",
+   "vi": "sự quan tâm ân cần (dành cho một người)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "温[あたた]かいお心遣[こころづか]い、ありがとうございます。",
+     "vi": "Cảm ơn sự quan tâm ân cần của anh chị.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "寒[さむ]い日[ひ]に、先輩[せんぱい]が温[あたた]かいお茶[ちゃ]を入[い]れてくれた。その心遣[こころづか]いがうれしかった。",
+     "vi": "Hôm trời lạnh đàn anh pha cho tôi trà nóng. Sự quan tâm đó làm tôi vui.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:気配り:きくばり"
+   ],
+   "note": "心遣[こころづか]い = lòng quan tâm hướng tới một người cụ thể; 気配[きくば]り = để ý chu đáo tới mọi người, mọi mặt. Cũng viết 心[こころ]づかい."
+  },
+  {
+   "id": "v:気配り:きくばり",
+   "kana": "きくばり",
+   "kanji": "気配り",
+   "kf": "気配[きくば]り",
+   "hv": "KHÍ PHỐI",
+   "vi": "sự để ý chu toàn (tới mọi người xung quanh)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班長[はんちょう]には、メンバー全員[ぜんいん]への気配[きくば]りが必要[ひつよう]だ。",
+     "vi": "Tổ trưởng cần biết để ý chu đáo tới mọi thành viên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "彼女[かのじょ]は気配[きくば]りができて、みんなに好[す]かれている。",
+     "vi": "Cô ấy biết để ý chu toàn nên được mọi người quý.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:心遣い:こころづかい"
+   ],
+   "note": "気配[きくば]りができる人[ひと] = người chu đáo, biết để ý. Động từ: 気[き]を配[くば]る."
+  },
+  {
+   "id": "v:思いやり:おもいやり",
+   "kana": "おもいやり",
+   "kanji": "思いやり",
+   "kf": "思[おも]いやり",
+   "hv": "TƯ",
+   "vi": "lòng biết nghĩ cho người khác",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "思[おも]いやりのある人[ひと]になりたい。",
+     "vi": "Tôi muốn trở thành người biết nghĩ cho người khác.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]には、思[おも]いやりを持[も]って接[せっ]してください。",
+     "vi": "Hãy đối xử với người mới bằng lòng thông cảm.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "思[おも]いやる = nghĩ cho, thông cảm cho (người khác)."
+  },
+  {
+   "id": "v:熱意:ねつい",
+   "kana": "ねつい",
+   "kanji": "熱意",
+   "hv": "NHIỆT Ý",
+   "vi": "nhiệt huyết (muốn làm một việc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面接[めんせつ]で、仕事[しごと]への熱意[ねつい]を伝[つた]えました。",
+     "vi": "Ở buổi phỏng vấn tôi đã thể hiện nhiệt huyết với công việc.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "彼[かれ]の熱意[ねつい]に負[ま]けて、班長[はんちょう]は仕事[しごと]を任[まか]せた。",
+     "vi": "Trước nhiệt huyết của anh ấy, tổ trưởng đã giao việc.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:情熱:じょうねつ"
+   ],
+   "note": "熱意[ねつい] = nhiệt huyết muốn làm một việc cụ thể (hay dùng ở phỏng vấn, công việc); 情熱[じょうねつ] = đam mê mãnh liệt, lâu dài."
+  },
+  {
+   "id": "v:情熱:じょうねつ",
+   "kana": "じょうねつ",
+   "kanji": "情熱",
+   "hv": "TÌNH NHIỆT",
+   "vi": "niềm đam mê (mãnh liệt)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]は、六十歳[ろくじゅっさい]を過[す]ぎても魚[さかな]への情熱[じょうねつ]を失[うしな]っていない。",
+     "vi": "Giám đốc dù đã quá sáu mươi tuổi vẫn không mất niềm đam mê với cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "若[わか]いころの情熱[じょうねつ]を、ずっと忘[わす]れたくない。",
+     "vi": "Tôi không bao giờ muốn quên niềm đam mê thời trẻ.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:熱意:ねつい"
+   ],
+   "note": "情熱的[じょうねつてき] = nồng nhiệt; 情熱[じょうねつ]を注[そそ]ぐ = dồn đam mê vào."
+  },
+  {
+   "id": "v:意気込み:いきごみ",
+   "kana": "いきごみ",
+   "kanji": "意気込み",
+   "kf": "意気込[いきご]み",
+   "hv": "Ý KHÍ NHẬP",
+   "vi": "tinh thần hăng hái lúc bắt đầu",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新年[しんねん]の意気込[いきご]みを、一人[ひとり]ずつ発表[はっぴょう]した。",
+     "vi": "Mỗi người lần lượt nói quyết tâm đầu năm mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "「今年[ことし]こそN2に合格[ごうかく]する」という意気込[いきご]みで、毎日[まいにち]勉強[べんきょう]している。",
+     "vi": "Tôi học mỗi ngày với quyết tâm \"năm nay nhất định đỗ N2\".",
+     "ctx": "doisong"
+    }
+   ],
+   "flag": true,
+   "note": "意気込[いきご]む = hăng hái, hừng hực khí thế. Âm Hán Việt của chữ thứ 3 (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:誠実:せいじつ",
+   "kana": "せいじつ",
+   "kanji": "誠実",
+   "hv": "THÀNH THỰC",
+   "vi": "thành thực, chân thành, đáng tin (trong cách đối xử)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "誠実[せいじつ]な人[ひと]は、みんなに信頼[しんらい]される。",
+     "vi": "Người chân thành được mọi người tin cậy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "お客様[きゃくさま]の苦情[くじょう]には、誠実[せいじつ]に対応[たいおう]してください。",
+     "vi": "Hãy xử lý khiếu nại của khách một cách thành tâm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：新[あたら]しく来[き]たグエンさん、どう？ B：とても誠実[せいじつ]で、仕事[しごと]もまじめですよ。",
+     "vi": "A: Anh Nguyễn mới đến thế nào? B: Rất đáng tin, làm việc cũng chăm chỉ ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    },
+    {
+     "jp": "態度[たいど]",
+     "vi": "thái độ"
+    },
+    {
+     "jp": "対応[たいおう]",
+     "vi": "cách xử lý"
+    }
+   ],
+   "ant": [
+    {
+     "w": "不誠実[ふせいじつ]",
+     "vi": "thiếu thành thật"
+    }
+   ],
+   "rel": [
+    "v:正直:しょうじき"
+   ],
+   "note": "誠実[せいじつ] = sống thật lòng, có trách nhiệm với người khác; 正直[しょうじき] = không nói dối."
+  },
+  {
+   "id": "v:お世辞:おせじ",
+   "kana": "おせじ",
+   "kanji": "お世辞",
+   "kf": "お世辞[せじ]",
+   "hv": "THẾ TỪ",
+   "vi": "lời khen xã giao, lời nịnh",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お世辞[せじ]じゃなくて、本当[ほんとう]に日本語[にほんご]が上手[じょうず]ですね。",
+     "vi": "Không phải khen xã giao đâu, tiếng Nhật của anh giỏi thật đấy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "彼[かれ]はお世辞[せじ]ばかり言[い]うので、あまり信用[しんよう]できない。",
+     "vi": "Anh ta toàn nói lời nịnh nên không tin lắm được.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "お世辞[せじ]を言[い]う = nói lời khen xã giao; お世辞[せじ]にも〜とは言[い]えない = có khen xã giao cũng không thể gọi là …."
+  },
+  {
+   "id": "v:お返し:おかえし",
+   "kana": "おかえし",
+   "kanji": "お返し",
+   "kf": "お返[かえ]し",
+   "hv": "PHẢN",
+   "vi": "quà đáp lễ; sự đáp lại",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "結婚[けっこん]祝[いわ]いのお返[かえ]しに、タオルを送[おく]った。",
+     "vi": "Tôi gửi khăn làm quà đáp lễ cho quà mừng cưới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "手伝[てつだ]ってもらったお返[かえ]しに、今度[こんど]は私[わたし]が手伝[てつだ]います。",
+     "vi": "Để đáp lại việc được giúp, lần này tôi sẽ giúp.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "お返[かえ]しをする = đáp lễ. Ở Nhật, ngày 14/3 (ホワイトデー) là ngày đáp lễ quà Valentine."
+  },
+  {
+   "id": "v:恩返し:おんがえし",
+   "kana": "おんがえし",
+   "kanji": "恩返し",
+   "kf": "恩返[おんがえ]し",
+   "hv": "ÂN PHẢN",
+   "vi": "báo ơn, đền ơn",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "育[そだ]ててくれた両親[りょうしん]に、恩返[おんがえ]しがしたい。",
+     "vi": "Tôi muốn báo hiếu bố mẹ đã nuôi nấng mình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "先輩[せんぱい]への恩返[おんがえ]しのつもりで、新人[しんじん]に丁寧[ていねい]に教[おし]えている。",
+     "vi": "Tôi tận tình dạy người mới, coi như đền ơn đàn anh.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "両親[りょうしん]に恩返[おんがえ]しする",
+     "vi": "báo hiếu bố mẹ"
+    },
+    {
+     "jp": "地域[ちいき]に恩返[おんがえ]しする",
+     "vi": "đền ơn địa phương"
+    }
+   ],
+   "note": "恩[おん] = ơn; 恩人[おんじん] = ân nhân."
+  },
+  {
+   "id": "v:添える:そえる",
+   "kana": "そえる",
+   "kanji": "添える",
+   "kf": "添[そ]える",
+   "hv": "THIÊM",
+   "vi": "kèm thêm (cho đủ, cho đẹp)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tấm lòng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "プレゼントに、短[みじか]い手紙[てがみ]を添[そ]えました。",
+     "vi": "Tôi kèm một lá thư ngắn vào món quà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "刺身[さしみ]には、大葉[おおば]と大根[だいこん]を添[そ]えて出[だ]します。",
+     "vi": "Sashimi thì bày kèm lá tía tô và củ cải.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：申込書[もうしこみしょ]、これでいいですか。 B：はい。在留[ざいりゅう]カードのコピーも添[そ]えてください。",
+     "vi": "A: Đơn đăng ký thế này được chưa ạ? B: Được rồi. Anh kèm thêm bản sao thẻ cư trú nhé.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手紙[てがみ]を添[そ]える",
+     "vi": "kèm thư"
+    },
+    {
+     "jp": "写真[しゃしん]を添[そ]える",
+     "vi": "kèm ảnh"
+    }
+   ],
+   "note": "〜に花[はな]を添[そ]える = làm cho … thêm rực rỡ. Đơn từ hay ghi 「写[うつ]しを添[そ]えて提出[ていしゅつ]」 (nộp kèm bản sao)."
+  },
+  {
+   "id": "v:手作り:てづくり",
+   "kana": "てづくり",
+   "kanji": "手作り",
+   "kf": "手作[てづく]り",
+   "hv": "THỦ TÁC",
+   "vi": "tự tay làm, đồ thủ công",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母[はは]の手作[てづく]りの料理[りょうり]が、懐[なつ]かしい。",
+     "vi": "Tôi nhớ món ăn mẹ tự tay nấu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この工場[こうじょう]の練[ね]り物[もの]は、今[いま]も一部[いちぶ]が手作[てづく]りです。",
+     "vi": "Đồ chả cá của nhà máy này đến giờ vẫn có phần làm thủ công.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "手作[てづく]りの〜 = 〜 tự làm (handmade)."
+  },
+  {
+   "id": "v:手間暇:てまひま",
+   "kana": "てまひま",
+   "kanji": "手間暇",
+   "hv": "THỦ GIAN HẠ",
+   "vi": "công sức và thời gian (bỏ ra)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "昆布[こんぶ]で、手間暇[てまひま]をかけてだしを取[と]ります。",
+     "vi": "Bỏ công sức thời gian nấu nước dùng từ tảo kombu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "手間暇[てまひま]かけて作[つく]ったものは、お客様[きゃくさま]にも伝[つた]わる。",
+     "vi": "Thứ làm ra bằng công sức và thời gian thì khách hàng cũng cảm nhận được.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:手間:てま"
+   ],
+   "note": "手間暇[てまひま]をかける = bỏ công sức và thời gian. Cũng viết 手間[てま]ひま."
+  },
+  {
+   "id": "v:丹念:たんねん",
+   "kana": "たんねん",
+   "kanji": "丹念",
+   "hv": "ĐAN NIỆM",
+   "vi": "kỹ lưỡng từng chút (tốn công)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小骨[こぼね]を、一本[いっぽん]ずつ丹念[たんねん]に抜[ぬ]いていきます。",
+     "vi": "Nhổ từng cái xương dăm một cách kỹ lưỡng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "契約書[けいやくしょ]を丹念[たんねん]に読[よ]んでから、サインした。",
+     "vi": "Tôi đọc kỹ từng chữ hợp đồng rồi mới ký.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：この彫[ほ]り物[もの]、細[こま]かいね。 B：職人[しょくにん]が一[ひと]つずつ丹念[たんねん]に彫[ほ]ったそうですよ。",
+     "vi": "A: Đồ chạm này tinh xảo nhỉ. B: Nghe nói người thợ đã chạm từng chi tiết một cách kỹ lưỡng ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "作業[さぎょう]",
+     "vi": "công việc"
+    },
+    {
+     "jp": "調査[ちょうさ]",
+     "vi": "cuộc điều tra"
+    }
+   ],
+   "confuse": [
+    "v:丁寧:ていねい"
+   ],
+   "note": "Hay dùng dạng 丹念[たんねん]に + động từ. 丹念[たんねん] = kỹ từng chi tiết, tốn công; 丁寧[ていねい] = cẩn thận, lịch sự nói chung."
+  },
+  {
+   "id": "v:職人技:しょくにんわざ",
+   "kana": "しょくにんわざ",
+   "kanji": "職人技",
+   "hv": "CHỨC NHÂN KỸ",
+   "vi": "tay nghề bậc thầy (của thợ lành nghề)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "包丁[ほうちょう]一本[いっぽん]でマグロをさばくのは、まさに職人技[しょくにんわざ]だ。",
+     "vi": "Chỉ một con dao mà xẻ được cá ngừ, đúng là tay nghề bậc thầy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "テレビで、すし屋[や]の職人技[しょくにんわざ]を紹介[しょうかい]していた。",
+     "vi": "Ti vi giới thiệu tay nghề bậc thầy của tiệm sushi.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:技:わざ"
+   ]
+  },
+  {
+   "id": "v:技:わざ",
+   "kana": "わざ",
+   "kanji": "技",
+   "hv": "KỸ",
+   "vi": "ngón nghề, đòn (luyện mà có)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先輩[せんぱい]の技[わざ]を、見[み]て覚[おぼ]えました。",
+     "vi": "Tôi nhìn và học ngón nghề của đàn anh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "柔道[じゅうどう]の技[わざ]を、テレビで見[み]た。",
+     "vi": "Tôi xem các đòn judo trên ti vi.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:技術:ぎじゅつ"
+   ],
+   "note": "技[わざ]を磨[みが]く = mài giũa tay nghề. 技術[ぎじゅつ] = kỹ thuật, công nghệ nói chung; 技[わざ] = ngón nghề của một người, đòn (võ)."
+  },
+  {
+   "id": "v:受け継ぐ:うけつぐ",
+   "kana": "うけつぐ",
+   "kanji": "受け継ぐ",
+   "kf": "受[う]け継[つ]ぐ",
+   "hv": "THỤ KẾ",
+   "vi": "tiếp nối (truyền thống, tay nghề từ đời trước)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "父[ちち]の店[みせ]を受[う]け継[つ]いで、三代目[さんだいめ]になった。",
+     "vi": "Tôi tiếp nối cửa hàng của bố, thành đời thứ ba.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この町[まち]では、昔[むかし]の祭[まつ]りが今[いま]も受[う]け継[つ]がれている。",
+     "vi": "Ở thị trấn này, lễ hội ngày xưa đến nay vẫn được tiếp nối.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この切[き]り方[かた]、誰[だれ]に教[おそ]わったの？ B：前[まえ]の班長[はんちょう]から受[う]け継[つ]いだやり方[かた]です。",
+     "vi": "A: Cách cắt này ai dạy cậu thế? B: Đây là cách làm tôi nhận lại từ tổ trưởng trước ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "伝統[でんとう]を受[う]け継[つ]ぐ",
+     "vi": "tiếp nối truyền thống"
+    },
+    {
+     "jp": "技[わざ]を受[う]け継[つ]ぐ",
+     "vi": "kế thừa tay nghề"
+    }
+   ],
+   "rel": [
+    "v:継ぐ:つぐ"
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "祖父[そふ]の味[あじ]が、父[ちち]から私[わたし]へと[[受[う]け継[つ]がれ]]た。",
+     "vi": "Hương vị của ông đã được truyền từ bố sang tôi."
+    }
+   ]
+  },
+  {
+   "id": "v:鍛える:きたえる",
+   "kana": "きたえる",
+   "kanji": "鍛える",
+   "kf": "鍛[きた]える",
+   "hv": "ĐOÁN",
+   "vi": "rèn luyện (cơ thể, kỹ năng, con người)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎朝[まいあさ]走[はし]って、体[からだ]を鍛[きた]えています。",
+     "vi": "Mỗi sáng tôi chạy bộ để rèn luyện cơ thể.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]を一人前[いちにんまえ]に鍛[きた]えるのも、班[はん]長[ちょう]の仕事[しごと]だ。",
+     "vi": "Rèn người mới thành thạo nghề cũng là việc của tổ trưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：力[ちから]、強[つよ]いね。何[なに]かしてるの？ B：休[やす]みの日[ひ]に、ジムで鍛[きた]えているんです。",
+     "vi": "A: Khỏe thế. Có tập gì không? B: Ngày nghỉ tôi tập ở phòng gym ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "体[からだ]を鍛[きた]える",
+     "vi": "rèn luyện cơ thể"
+    },
+    {
+     "jp": "腕[うで]を鍛[きた]える",
+     "vi": "rèn tay nghề"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "若[わか]いころ、厳[きび]しい先輩[せんぱい]に[[鍛[きた]えられ]]ました。",
+     "vi": "Hồi trẻ tôi được một đàn anh nghiêm khắc rèn giũa."
+    }
+   ]
+  },
+  {
+   "id": "v:見習い:みならい",
+   "kana": "みならい",
+   "kanji": "見習い",
+   "kf": "見習[みなら]い",
+   "hv": "KIẾN TẬP",
+   "vi": "người học nghề; thời gian học nghề",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "最初[さいしょ]の三[さん]か月[げつ]は、見習[みなら]いとして働[はたら]きます。",
+     "vi": "Ba tháng đầu làm việc với tư cách học việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "見習[みなら]いの間[あいだ]は、時給[じきゅう]が少[すこ]し安[やす]い。",
+     "vi": "Trong thời gian học việc, lương giờ hơi thấp.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "見習[みなら]う = học theo, noi gương."
+  },
+  {
+   "id": "v:弟子:でし",
+   "kana": "でし",
+   "kanji": "弟子",
+   "hv": "ĐỆ TỬ",
+   "vi": "đệ tử, học trò (theo thầy học nghề)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "有名[ゆうめい]なすし職人[しょくにん]の弟子[でし]になった。",
+     "vi": "Tôi trở thành đệ tử của một thợ sushi nổi tiếng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "親方[おやかた]は、弟子[でし]にとても厳[きび]しい。",
+     "vi": "Ông thầy rất nghiêm khắc với đệ tử.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "師匠[ししょう] / 親方[おやかた] = thầy (dạy nghề); 弟子入[でしい]り = xin làm đệ tử."
+  },
+  {
+   "id": "v:仕上がり:しあがり",
+   "kana": "しあがり",
+   "kanji": "仕上がり",
+   "kf": "仕上[しあ]がり",
+   "hv": "SĨ THƯỢNG",
+   "vi": "độ hoàn thiện; lúc xong (thành phẩm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仕上[しあ]がりがきれいだと、お客様[きゃくさま]に喜[よろこ]ばれる。",
+     "vi": "Thành phẩm hoàn thiện đẹp thì được khách hàng vui lòng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "クリーニングの仕上[しあ]がりは、水曜日[すいようび]になります。",
+     "vi": "Đồ giặt khô sẽ xong vào thứ tư.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "仕上[しあ]げる = hoàn thiện (tha); 仕上[しあ]がる = được hoàn thành (tự)."
+  },
+  {
+   "id": "v:手際:てぎわ",
+   "kana": "てぎわ",
+   "kanji": "手際",
+   "hv": "THỦ TẾ",
+   "vi": "sự nhanh gọn, thạo việc (khi xử lý công việc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先輩[せんぱい]は手際[てぎわ]がよくて、作業[さぎょう]がとても速[はや]い。",
+     "vi": "Đàn anh làm nhanh gọn, thao tác rất nhanh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "手際[てぎわ]よく夕飯[ゆうはん]を作[つく]って、子供[こども]に食[た]べさせた。",
+     "vi": "Tôi nhanh tay nấu bữa tối rồi cho con ăn.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "手際[てぎわ]がいい / 悪[わる]い = làm nhanh gọn / lóng ngóng; 手際[てぎわ]よく = nhanh gọn."
+  },
+  {
+   "id": "v:手抜き:てぬき",
+   "kana": "てぬき",
+   "kanji": "手抜き",
+   "kf": "手抜[てぬ]き",
+   "hv": "THỦ BẠT",
+   "vi": "ăn bớt công đoạn, làm qua quýt",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "忙[いそが]しくても、衛生管理[えいせいかんり]の手抜[てぬ]きは許[ゆる]されない。",
+     "vi": "Dù bận cũng không được làm ẩu khâu quản lý vệ sinh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今日[きょう]の夕飯[ゆうはん]は、ちょっと手抜[てぬ]きしてカレーにした。",
+     "vi": "Bữa tối hôm nay tôi làm qua loa, nấu cà ri cho nhanh.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]を手抜[てぬ]きする",
+     "vi": "làm ẩu công việc"
+    },
+    {
+     "jp": "掃除[そうじ]を手抜[てぬ]きする",
+     "vi": "dọn dẹp qua loa"
+    }
+   ],
+   "note": "手[て]を抜[ぬ]く = làm qua loa; 手抜[てぬ]き工事[こうじ] = công trình ăn bớt."
+  },
+  {
+   "id": "v:全力:ぜんりょく",
+   "kana": "ぜんりょく",
+   "kanji": "全力",
+   "hv": "TOÀN LỰC",
+   "vi": "toàn lực, hết sức lực",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nỗ lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "駅[えき]まで全力[ぜんりょく]で走[はし]って、電車[でんしゃ]に間[ま]に合[あ]った。",
+     "vi": "Tôi chạy hết sức tới ga và kịp tàu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "お客様[きゃくさま]の期待[きたい]に応[こた]えられるよう、全力[ぜんりょく]を尽[つ]くします。",
+     "vi": "Chúng tôi sẽ dốc toàn lực để đáp ứng kỳ vọng của khách hàng.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "全力[ぜんりょく]を尽[つ]くす = dốc toàn lực; 全力投球[ぜんりょくとうきゅう] = dốc hết sức vào việc gì."
+  },
+  {
+   "id": "v:本気:ほんき",
+   "kana": "ほんき",
+   "kanji": "本気",
+   "hv": "BẢN KHÍ",
+   "vi": "quyết tâm thật (không phải đùa)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nỗ lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "本気[ほんき]で日本語[にほんご]がうまくなりたいなら、毎日[まいにち]続[つづ]けることだ。",
+     "vi": "Nếu thật lòng muốn giỏi tiếng Nhật thì phải duy trì mỗi ngày.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "班長[はんちょう]が本気[ほんき]で怒[おこ]ったのを、初[はじ]めて見[み]た。",
+     "vi": "Lần đầu tôi thấy tổ trưởng giận thật sự.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：会社[かいしゃ]を辞[や]めるって、本気[ほんき]？ B：うん、本気[ほんき]だよ。国[くに]に帰[かえ]って店[みせ]を開[ひら]くんだ。",
+     "vi": "A: Nghỉ việc á, thật không đấy? B: Ừ, thật đấy. Tôi về nước mở quán.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "本気[ほんき]を出[だ]す = dốc sức thật sự; 本気[ほんき]にする = tin là thật."
+  },
+  {
+   "id": "v:本腰:ほんごし",
+   "kana": "ほんごし",
+   "kanji": "本腰",
+   "hv": "BẢN YÊU",
+   "vi": "sự dốc tâm làm thật sự",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nỗ lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "試験[しけん]まで三[さん]か月[げつ]なので、本腰[ほんごし]を入[い]れて勉強[べんきょう]する。",
+     "vi": "Còn ba tháng nữa là thi nên tôi bắt đầu học thật sự.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]は、人手不足[ひとでふそく]の対策[たいさく]に本腰[ほんごし]を入[い]れ始[はじ]めた。",
+     "vi": "Công ty bắt đầu nghiêm túc giải quyết tình trạng thiếu người.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "本腰[ほんごし]を入[い]れる = bắt tay vào làm một cách nghiêm túc (gần như chỉ dùng trong cụm này)."
+  },
+  {
+   "id": "v:精一杯:せいいっぱい",
+   "kana": "せいいっぱい",
+   "kanji": "精一杯",
+   "hv": "TINH NHẤT BÔI",
+   "vi": "cố hết mức có thể",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nỗ lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "結果[けっか]は分[わ]からないけど、精[せい]一杯[いっぱい]やります。",
+     "vi": "Kết quả thế nào chưa biết, nhưng tôi sẽ làm hết mức có thể.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今[いま]の給料[きゅうりょう]では、生活[せいかつ]するだけで精[せい]一杯[いっぱい]だ。",
+     "vi": "Với mức lương hiện tại, chỉ sống thôi đã chật vật lắm rồi.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:一生懸命:いっしょうけんめい"
+   ],
+   "note": "〜だけで精[せい]一杯[いっぱい] = chỉ … thôi đã hết sức. Cũng dùng như danh từ: 精[せい]一杯[いっぱい]の努力[どりょく]."
+  },
+  {
+   "id": "v:懸命:けんめい",
+   "kana": "けんめい",
+   "kanji": "懸命",
+   "hv": "HUYỀN MỆNH",
+   "vi": "dốc lòng dốc sức (văn viết)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nỗ lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "懸命[けんめい]な救助[きゅうじょ]活動[かつどう]が、今[いま]も続[つづ]いている。",
+     "vi": "Hoạt động cứu hộ dốc toàn lực vẫn đang tiếp diễn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "家族[かぞく]のために、懸命[けんめい]に働[はたら]いています。",
+     "vi": "Tôi làm việc hết sức vì gia đình.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの新人[しんじん]、どう？ B：まだ遅[おそ]いけど、懸命[けんめい]に覚[おぼ]えようとしていますよ。",
+     "vi": "A: Người mới đó thế nào? B: Vẫn còn chậm nhưng đang cố hết sức để học việc ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "努力[どりょく]",
+     "vi": "nỗ lực"
+    },
+    {
+     "jp": "練習[れんしゅう]",
+     "vi": "luyện tập"
+    }
+   ],
+   "rel": [
+    "v:一生懸命:いっしょうけんめい"
+   ],
+   "note": "Văn viết, tin tức; nói chuyện thường dùng 一生懸命[いっしょうけんめい]."
+  },
+  {
+   "id": "v:尽くす:つくす",
+   "kana": "つくす",
+   "kanji": "尽くす",
+   "kf": "尽[つ]くす",
+   "hv": "TẬN",
+   "vi": "dốc hết (sức, khả năng); tận tụy (vì ai)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nỗ lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "医者[いしゃ]は最善[さいぜん]を尽[つ]くしたが、助[たす]からなかった。",
+     "vi": "Bác sĩ đã làm hết sức nhưng không cứu được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "三十年[さんじゅうねん]間[かん]、この会社[かいしゃ]に尽[つ]くしてきた。",
+     "vi": "Ba mươi năm nay tôi đã tận tụy với công ty này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：試合[しあい]、負[ま]けちゃったね。 B：でも、全力[ぜんりょく]を尽[つ]くしたから悔[く]いはないよ。",
+     "vi": "A: Thua trận mất rồi nhỉ. B: Nhưng đã dốc toàn lực rồi nên chẳng hối tiếc gì.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "全力[ぜんりょく]を尽[つ]くす",
+     "vi": "dốc toàn lực"
+    },
+    {
+     "jp": "最善[さいぜん]を尽[つ]くす",
+     "vi": "làm hết sức có thể"
+    },
+    {
+     "jp": "会社[かいしゃ]に尽[つ]くす",
+     "vi": "tận tụy với công ty"
+    }
+   ],
+   "rel": [
+    "v:最善:さいぜん"
+   ],
+   "note": "〜し尽[つ]くす = làm … đến hết (食[た]べ尽[つ]くす = ăn sạch)."
+  },
+  {
+   "id": "v:打ち込む:うちこむ",
+   "kana": "うちこむ",
+   "kanji": "打ち込む",
+   "kf": "打[う]ち込[こ]む",
+   "hv": "ĐẢ NHẬP",
+   "vi": "dồn tâm sức (vào việc); gõ nhập (dữ liệu)",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nỗ lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今[いま]は、日本語[にほんご]の勉強[べんきょう]に打[う]ち込[こ]みたい。",
+     "vi": "Bây giờ tôi muốn dồn tâm sức vào việc học tiếng Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "検品[けんぴん]の数字[すうじ]を、パソコンに打[う]ち込[こ]んでください。",
+     "vi": "Hãy gõ số liệu kiểm hàng vào máy tính.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：学生[がくせい]のころ、何[なに]かしてた？ B：サッカーに打[う]ち込[こ]んでいました。",
+     "vi": "A: Hồi đi học cậu có chơi gì không? B: Tôi dồn hết sức vào bóng đá ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]に打[う]ち込[こ]む",
+     "vi": "dồn sức vào công việc"
+    },
+    {
+     "jp": "データを打[う]ち込[こ]む",
+     "vi": "nhập dữ liệu"
+    }
+   ],
+   "rel": [
+    "v:熱中:ねっちゅう"
+   ],
+   "flag": true,
+   "note": "打[う]ち込[こ]む = dồn sức lâu dài, nghiêm túc; 熱中[ねっちゅう] = say mê (cả nhất thời). Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:励む:はげむ",
+   "kana": "はげむ",
+   "kanji": "励む",
+   "kf": "励[はげ]む",
+   "hv": "LỆ",
+   "vi": "miệt mài, chuyên cần (luyện tập, làm việc)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nỗ lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仕事[しごと]と勉強[べんきょう]に、毎日[まいにち]励[はげ]んでいます。",
+     "vi": "Ngày nào tôi cũng miệt mài với công việc và việc học.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]たちは、早[はや]く一人前[いちにんまえ]になろうと仕事[しごと]に励[はげ]んでいる。",
+     "vi": "Những người mới đang miệt mài làm việc để sớm thạo nghề.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：最近[さいきん]、どう？ B：資格[しかく]を取[と]るために、勉強[べんきょう]に励[はげ]んでいます。",
+     "vi": "A: Dạo này thế nào? B: Tôi đang miệt mài học để lấy chứng chỉ ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "練習[れんしゅう]に励[はげ]む",
+     "vi": "miệt mài luyện tập"
+    },
+    {
+     "jp": "仕事[しごと]に励[はげ]む",
+     "vi": "chăm chỉ làm việc"
+    }
+   ],
+   "confuse": [
+    "v:励ます:はげます"
+   ],
+   "note": "励[はげ]む = tự mình nỗ lực; 励[はげ]ます = động viên người khác."
+  },
+  {
+   "id": "v:地道:じみち",
+   "kana": "じみち",
+   "kanji": "地道",
+   "hv": "ĐỊA ĐẠO",
+   "vi": "bền bỉ, đi từng bước (không phô trương)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nỗ lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地道[じみち]な努力[どりょく]が、やっと実[み]を結[むす]んだ。",
+     "vi": "Sự nỗ lực bền bỉ cuối cùng đã đơm hoa kết trái.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "毎日[まいにち]の清掃[せいそう]という地道[じみち]な作業[さぎょう]が、品質[ひんしつ]を守[まも]っている。",
+     "vi": "Việc vệ sinh hằng ngày âm thầm bền bỉ đang giữ gìn chất lượng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：どうやって日本語[にほんご]、上手[じょうず]になったの？ B：地道[じみち]に毎日[まいにち]単語[たんご]を覚[おぼ]えただけですよ。",
+     "vi": "A: Làm sao mà cậu giỏi tiếng Nhật thế? B: Tôi chỉ bền bỉ học từ mỗi ngày thôi ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "努力[どりょく]",
+     "vi": "nỗ lực"
+    },
+    {
+     "jp": "作業[さぎょう]",
+     "vi": "công việc"
+    },
+    {
+     "jp": "活動[かつどう]",
+     "vi": "hoạt động"
+    }
+   ],
+   "confuse": [
+    "v:地味:じみ"
+   ],
+   "note": "地道[じみち]に = bền bỉ, từng bước. Khác 地味[じみ] = giản dị, không nổi bật."
+  },
+  {
+   "id": "v:こつこつ:こつこつ",
+   "kana": "こつこつ",
+   "kanji": "",
+   "hv": "",
+   "vi": "cần mẫn từng chút một",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nỗ lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎日[まいにち]こつこつ単語[たんご]を覚[おぼ]えています。",
+     "vi": "Mỗi ngày tôi cần mẫn học từng từ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "こつこつ練習[れんしゅう]して、包丁[ほうちょう]の使[つか]い方[かた]がうまくなった。",
+     "vi": "Cần mẫn luyện tập nên tôi dùng dao khá lên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "こつこつ貯[た]めたお金[かね]で、母[はは]に家[いえ]を建[た]てた。",
+     "vi": "Bằng số tiền dành dụm từng chút, tôi xây nhà cho mẹ.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Cũng nói こつこつと. Còn là tiếng gõ nhẹ, tiếng bước chân (こつこつと歩[ある]く)."
+  },
+  {
+   "id": "v:着実:ちゃくじつ",
+   "kana": "ちゃくじつ",
+   "kanji": "着実",
+   "hv": "TRƯỚC THỰC",
+   "vi": "vững vàng (tiến từng bước)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nỗ lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本語[にほんご]の力[ちから]が、着実[ちゃくじつ]に伸[の]びている。",
+     "vi": "Năng lực tiếng Nhật đang tiến bộ vững vàng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一[ひと]つ一[ひと]つの作業[さぎょう]を、着実[ちゃくじつ]にこなすことが大切[たいせつ]だ。",
+     "vi": "Điều quan trọng là làm xong từng việc một cách vững vàng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：工事[こうじ]、予定[よてい]通[とお]り進[すす]んでる？ B：はい、少[すこ]しずつですが着実[ちゃくじつ]に進[すす]んでいます。",
+     "vi": "A: Công trình có đúng tiến độ không? B: Vâng, tuy từng chút nhưng đang tiến triển vững vàng ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "進歩[しんぽ]",
+     "vi": "sự tiến bộ"
+    },
+    {
+     "jp": "方法[ほうほう]",
+     "vi": "cách làm"
+    }
+   ],
+   "confuse": [
+    "v:確実:かくじつ"
+   ],
+   "note": "着実[ちゃくじつ] = từng bước chắc (quá trình); 確実[かくじつ] = chắc chắn đúng, chắc chắn xảy ra (kết quả)."
+  },
+  {
+   "id": "v:怠る:おこたる",
+   "kana": "おこたる",
+   "kanji": "怠る",
+   "kf": "怠[おこた]る",
+   "hv": "ĐÃI",
+   "vi": "sao nhãng, bỏ bê (việc phải làm)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nỗ lực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "確認[かくにん]を怠[おこた]ったせいで、異物[いぶつ]が混入[こんにゅう]した。",
+     "vi": "Vì lơ là việc kiểm tra mà dị vật lẫn vào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "健康[けんこう]のために、毎日[まいにち]の運動[うんどう]を怠[おこた]らないようにしている。",
+     "vi": "Vì sức khỏe, tôi cố không sao nhãng việc vận động hằng ngày.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：毎日[まいにち]、機械[きかい]の点検[てんけん]って必要[ひつよう]ですか。 B：うん。点検[てんけん]を怠[おこた]ると、大[おお]きな事故[じこ]になるからね。",
+     "vi": "A: Ngày nào cũng phải kiểm tra máy ạ? B: Ừ. Lơ là kiểm tra là thành tai nạn lớn đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "確認[かくにん]を怠[おこた]る",
+     "vi": "lơ là việc kiểm tra"
+    },
+    {
+     "jp": "注意[ちゅうい]を怠[おこた]る",
+     "vi": "thiếu chú ý"
+    }
+   ],
+   "confuse": [
+    "v:怠ける:なまける"
+   ],
+   "note": "怠[おこた]る = bỏ bê việc đáng phải làm (văn viết, hay gặp trong quy định); 怠[なま]ける = lười biếng."
+  },
+  {
+   "id": "v:粘り強い:ねばりづよい",
+   "kana": "ねばりづよい",
+   "kanji": "粘り強い",
+   "kf": "粘[ねば]り強[づよ]い",
+   "hv": "NIÊM CƯỜNG",
+   "vi": "bền bỉ, lì (không bỏ cuộc)",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiên trì",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "粘[ねば]り強[づよ]く交渉[こうしょう]して、値段[ねだん]を下[さ]げてもらった。",
+     "vi": "Kiên trì thương lượng nên đã được giảm giá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "彼[かれ]は粘[ねば]り強[づよ]い性格[せいかく]で、最後[さいご]まで諦[あきら]めない。",
+     "vi": "Anh ấy tính bền bỉ, không bỏ cuộc tới cùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：また断[ことわ]られた……。 B：粘[ねば]り強[づよ]く頼[たの]めば、きっと分[わ]かってくれるよ。",
+     "vi": "A: Lại bị từ chối rồi... B: Cứ kiên trì nhờ thì chắc chắn họ sẽ hiểu thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "性格[せいかく]",
+     "vi": "tính cách"
+    },
+    {
+     "jp": "努力[どりょく]",
+     "vi": "nỗ lực"
+    },
+    {
+     "jp": "交渉[こうしょう]",
+     "vi": "cuộc thương lượng"
+    }
+   ],
+   "ant": [
+    {
+     "w": "飽[あ]きっぽい",
+     "vi": "mau chán"
+    }
+   ],
+   "rel": [
+    "v:粘る:ねばる"
+   ]
+  },
+  {
+   "id": "v:粘る:ねばる",
+   "kana": "ねばる",
+   "kanji": "粘る",
+   "kf": "粘[ねば]る",
+   "hv": "NIÊM",
+   "vi": "kiên trì bám trụ (đến cùng); (đồ ăn) dẻo dính",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiên trì",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不良[ふりょう]の原因[げんいん]が分[わ]かるまで、班長[はんちょう]は粘[ねば]って調[しら]べた。",
+     "vi": "Tổ trưởng kiên trì tìm hiểu đến khi biết nguyên nhân hàng lỗi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "納豆[なっとう]はよく混[ま]ぜると、もっと粘[ねば]る。",
+     "vi": "Natto trộn kỹ thì càng dính.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：すみません、もう閉店[へいてん]です。 B：あ、つい長[なが]く粘[ねば]ってしまって、すみません。",
+     "vi": "A: Xin lỗi, quán sắp đóng cửa ạ. B: À, tôi lỡ ngồi lì lâu quá, xin lỗi nhé.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "最後[さいご]まで粘[ねば]る",
+     "vi": "kiên trì đến cùng"
+    },
+    {
+     "jp": "店[みせ]で粘[ねば]る",
+     "vi": "ngồi lì ở quán"
+    }
+   ],
+   "note": "粘[ねば]り = độ dính; sự bền bỉ."
+  },
+  {
+   "id": "v:根気:こんき",
+   "kana": "こんき",
+   "kanji": "根気",
+   "hv": "CĂN KHÍ",
+   "vi": "sự nhẫn nại (với việc lâu, lặp lại)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiên trì",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小骨[こぼね]を抜[ぬ]くのは、根気[こんき]のいる作業[さぎょう]だ。",
+     "vi": "Nhổ xương dăm là việc cần nhẫn nại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "先生[せんせい]は、根気[こんき]よく日本語[にほんご]を教[おし]えてくれた。",
+     "vi": "Thầy giáo đã kiên nhẫn dạy tôi tiếng Nhật.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "根気[こんき]よく = kiên nhẫn; 根気[こんき]がいる = cần nhẫn nại."
+  },
+  {
+   "id": "v:根性:こんじょう",
+   "kana": "こんじょう",
+   "kanji": "根性",
+   "hv": "CĂN TÍNH",
+   "vi": "gan lì, ý chí chịu đựng; tính nết (xấu)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiên trì",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "根性[こんじょう]があるから、きつい仕事[しごと]でも続[つづ]けられる。",
+     "vi": "Có gan lì nên việc vất vả cũng theo được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "最後[さいご]は、根性[こんじょう]で走[はし]りきった。",
+     "vi": "Cuối cùng tôi chạy hết bằng ý chí.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "根性[こんじょう]がある / ない = có / không có gan; 根性[こんじょう]が悪[わる]い = tính xấu xa."
+  },
+  {
+   "id": "v:やり抜く:やりぬく",
+   "kana": "やりぬく",
+   "kanji": "やり抜く",
+   "kf": "やり抜[ぬ]く",
+   "hv": "BẠT",
+   "vi": "làm đến cùng",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiên trì",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一度[いちど]始[はじ]めたことは、最後[さいご]までやり抜[ぬ]きたい。",
+     "vi": "Việc đã bắt đầu thì tôi muốn làm đến cùng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "大変[たいへん]な注文[ちゅうもん]だったが、班[はん]のみんなでやり抜[ぬ]いた。",
+     "vi": "Đơn hàng vất vả nhưng cả tổ đã cùng làm đến nơi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：途中[とちゅう]でやめたくならなかった？ B：何度[なんど]も思[おも]ったけど、やり抜[ぬ]いてよかったです。",
+     "vi": "A: Có lúc nào muốn bỏ giữa chừng không? B: Nhiều lần lắm ạ, nhưng làm đến cùng thật là tốt.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "最後[さいご]までやり抜[ぬ]く",
+     "vi": "làm đến cùng"
+    },
+    {
+     "jp": "仕事[しごと]をやり抜[ぬ]く",
+     "vi": "làm trọn công việc"
+    }
+   ],
+   "syn": [
+    "v:やり遂げる:やりとげる"
+   ],
+   "note": "〜抜[ぬ]く = làm … đến cùng: 考[かんが]え抜[ぬ]く (nghĩ thấu), 走[はし]り抜[ぬ]く (chạy đến đích)."
+  },
+  {
+   "id": "v:継続:けいぞく",
+   "kana": "けいぞく",
+   "kanji": "継続",
+   "hv": "KẾ TỤC",
+   "vi": "duy trì liên tục (không gián đoạn)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiên trì",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎日[まいにち]の勉強[べんきょう]を、継続[けいぞく]することが大切[たいせつ]だ。",
+     "vi": "Điều quan trọng là duy trì việc học mỗi ngày.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]との雇用契約[こようけいやく]を、継続[けいぞく]することになった。",
+     "vi": "Hợp đồng lao động với công ty đã được quyết định tiếp tục.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：この新[あたら]しいやり方[かた]、続[つづ]けますか。 B：効果[こうか]が出[で]ているので、継続[けいぞく]しましょう。",
+     "vi": "A: Cách làm mới này có tiếp tục không ạ? B: Có hiệu quả rồi nên mình duy trì đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "契約[けいやく]を継続[けいぞく]する",
+     "vi": "tiếp tục hợp đồng"
+    },
+    {
+     "jp": "治療[ちりょう]を継続[けいぞく]する",
+     "vi": "tiếp tục điều trị"
+    }
+   ],
+   "rel": [
+    "v:続ける:つづける"
+   ],
+   "note": "継続[けいぞく]は力[ちから]なり = kiên trì là sức mạnh (thành ngữ)."
+  },
+  {
+   "id": "v:成し遂げる:なしとげる",
+   "kana": "なしとげる",
+   "kanji": "成し遂げる",
+   "kf": "成[な]し遂[と]げる",
+   "hv": "THÀNH TOẠI",
+   "vi": "làm nên, hoàn tất (việc lớn, khó)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiên trì",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大[おお]きな仕事[しごと]を成[な]し遂[と]げて、ほっとした。",
+     "vi": "Hoàn thành việc lớn, tôi thở phào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一人[ひとり]では無理[むり]でも、みんなで協力[きょうりょく]すれば成[な]し遂[と]げられる。",
+     "vi": "Một mình thì không nổi nhưng cùng hợp sức thì làm nên được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：社長[しゃちょう]、この会社[かいしゃ]を作[つく]るの、大変[たいへん]でしたか。 B：ああ。でも、仲間[なかま]がいたから成[な]し遂[と]げられたんだ。",
+     "vi": "A: Giám đốc ơi, lập công ty này có vất vả không ạ? B: Ừ. Nhưng có bạn bè đồng hành nên mới làm nên được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "目標[もくひょう]を成[な]し遂[と]げる",
+     "vi": "hoàn thành mục tiêu"
+    },
+    {
+     "jp": "改革[かいかく]を成[な]し遂[と]げる",
+     "vi": "thực hiện trọn vẹn cải cách"
+    }
+   ],
+   "syn": [
+    "v:やり遂げる:やりとげる"
+   ],
+   "rel": [
+    "v:達成:たっせい"
+   ]
+  },
+  {
+   "id": "v:乗り越える:のりこえる",
+   "kana": "のりこえる",
+   "kanji": "乗り越える",
+   "kf": "乗[の]り越[こ]える",
+   "hv": "THỪA VIỆT",
+   "vi": "vượt qua được (khó khăn, thử thách)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiên trì",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家族[かぞく]の支[ささ]えがあったから、つらい時期[じき]を乗[の]り越[こ]えられた。",
+     "vi": "Nhờ gia đình nâng đỡ nên tôi vượt qua được thời kỳ khó khăn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "繁忙期[はんぼうき]を、班[はん]のみんなで乗[の]り越[こ]えた。",
+     "vi": "Cả tổ cùng nhau vượt qua mùa cao điểm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：言葉[ことば]の壁[かべ]、どうやって乗[の]り越[こ]えたの？ B：とにかく毎日[まいにち]、日本人[にほんじん]と話[はな]しました。",
+     "vi": "A: Rào cản ngôn ngữ, cậu vượt qua thế nào? B: Tôi cứ nói chuyện với người Nhật mỗi ngày thôi ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "困難[こんなん]を乗[の]り越[こ]える",
+     "vi": "vượt qua khó khăn"
+    },
+    {
+     "jp": "壁[かべ]を乗[の]り越[こ]える",
+     "vi": "vượt qua rào cản"
+    }
+   ],
+   "rel": [
+    "v:克服:こくふく"
+   ]
+  },
+  {
+   "id": "v:挫折:ざせつ",
+   "kana": "ざせつ",
+   "kanji": "挫折",
+   "hv": "TỎA CHIẾT",
+   "vi": "vấp ngã, bỏ dở giữa chừng (vì nản)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiên trì",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一度[いちど]は日本語[にほんご]の勉強[べんきょう]に挫折[ざせつ]したが、また始[はじ]めた。",
+     "vi": "Tôi từng bỏ dở việc học tiếng Nhật một lần, nhưng đã bắt đầu lại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]が仕事[しごと]に挫折[ざせつ]しないように、班長[はんちょう]が声[こえ]をかけている。",
+     "vi": "Tổ trưởng hỏi han để người mới không nản mà bỏ việc.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "途中[とちゅう]で挫折[ざせつ]する",
+     "vi": "bỏ cuộc giữa chừng"
+    },
+    {
+     "jp": "計画[けいかく]が挫折[ざせつ]する",
+     "vi": "kế hoạch đổ bể"
+    }
+   ],
+   "note": "挫折感[ざせつかん] = cảm giác thất bại, nản lòng."
+  },
+  {
+   "id": "v:投げ出す:なげだす",
+   "kana": "なげだす",
+   "kanji": "投げ出す",
+   "kf": "投[な]げ出[だ]す",
+   "hv": "ĐẦU XUẤT",
+   "vi": "bỏ ngang, buông xuôi (việc đang làm); buông (người) xuống",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiên trì",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "難[むずか]しくても、途中[とちゅう]で仕事[しごと]を投[な]げ出[だ]してはいけない。",
+     "vi": "Dù khó cũng không được bỏ ngang công việc giữa chừng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "疲[つか]れて、ソファーに体[からだ]を投[な]げ出[だ]した。",
+     "vi": "Mệt quá, tôi buông người xuống ghế sofa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：もう、全部[ぜんぶ]投[な]げ出[だ]したい気分[きぶん]だよ。 B：少[すこ]し休[やす]んでから、また考[かんが]えよう。",
+     "vi": "A: Tớ chỉ muốn buông bỏ tất cả. B: Nghỉ một chút rồi tính tiếp nhé.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]を投[な]げ出[だ]す",
+     "vi": "bỏ ngang công việc"
+    },
+    {
+     "jp": "途中[とちゅう]で投[な]げ出[だ]す",
+     "vi": "buông xuôi giữa chừng"
+    }
+   ],
+   "confuse": [
+    "v:諦める:あきらめる"
+   ],
+   "note": "投[な]げ出[だ]す = bỏ ngang việc đang làm (thiếu trách nhiệm); 諦[あきら]める = từ bỏ ý định, ước mơ."
+  },
+  {
+   "id": "v:抜き:ぬき",
+   "kana": "ぬき",
+   "kanji": "抜き",
+   "kf": "抜[ぬ]き",
+   "hv": "BẠT",
+   "vi": "sự bỏ đi, không kèm (một thứ vốn có)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiên trì",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冗談[じょうだん]抜[ぬ]きで、ここの刺身[さしみ]は日本一[にほんいち]おいしいと思[おも]う。",
+     "vi": "Nói thật không đùa, tôi nghĩ sashimi ở đây ngon nhất Nhật Bản.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "朝[あさ]ご飯[はん]抜[ぬ]きで働[はたら]くと、集中[しゅうちゅう]できない。",
+     "vi": "Làm việc mà nhịn bữa sáng thì không tập trung được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：堅[かた]い話[はなし]は抜[ぬ]きにして、今日[きょう]は楽[たの]しく飲[の]もう。 B：いいですね。乾杯[かんぱい]！",
+     "vi": "A: Gác chuyện nghiêm túc lại, hôm nay uống cho vui nào. B: Hay quá. Cạn ly!",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "〜抜[ぬ]きで = không có …; 〜を抜[ぬ]きにして = gác … sang một bên. Cũng là hậu tố: 骨抜[ほねぬ]き (rút xương), 冗談抜[じょうだんぬ]き (nói thật)."
+  }
+ ]
 }

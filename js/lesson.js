@@ -18,6 +18,7 @@ import { ttsReady } from './tts.js';
 import { goBack, crumbHTML, resultNavHTML, bindResultNav, beginSession } from './nav.js';
 
 export const STEPS = [['words', 'Từ mới'], ['rel', 'Từ liên quan'], ['kanji', 'Chữ Hán'], ['gram', 'Ngữ pháp'], ['pw', 'Luyện từ'], ['ps', 'Luyện câu'], ['read', 'Đọc & hội thoại'], ['test', 'Kiểm tra cuối bài']];
+const SHORT = ['Từ mới', 'Liên quan', 'Chữ Hán', 'Ngữ pháp', 'Luyện từ', 'Luyện câu', 'Đọc', 'Kiểm tra']; // nhãn tab
 export const PASS = 80;               // % đạt bài kiểm tra cuối bài
 export const REV = [1, 3, 7, 14];     // ôn bài cũ: số ngày sau khi xong bài
 const W_PER = { N5: 35, N4: 26, N3: 35, N2: 30, N1: 30 };
@@ -199,14 +200,15 @@ export function renderLesson(view, ctx, id, openStep) {
   const x = lessonById(id);
   if (!x) { view.innerHTML = emptyState('Không có bài này (có thể gói dữ liệu đã đổi).', '<a class="btn btn-ghost" href="#/lotrinh">Về Lộ trình</a>'); return; }
   const s = lessonState(x), p = s.p;
-  const open = openStep ? openStep - 1 : (s.next >= 0 ? s.next : -1);
   const list = lessonsOf(x.level), prev = list[x.n - 2], next = list[x.n];
   const rel = relatedWords(x);
   const sv = stats(p.vocab), sk = stats(p.kanji), sg = stats(p.grammar);
   const here = '#/bai/' + encodeURIComponent(x.id);
   const wRow = it => `<li><button type="button" class="row" data-wopen="${esc(it.id)}"><span class="row-jp" lang="ja">${wordHTML(it, 'furi')}</span><span class="row-vi">${esc(it.vi)}</span><span class="dot dot-${status(it)}"></span></button>${heartBtnHTML(x.id, it.id)}</li>`;
-  const step = (i, body, extra = '') => `<details class="card lstep${s.flags[i] ? ' is-done' : ''}" id="b${i + 1}" ${i === open ? 'open' : ''}>
-    <summary><span class="lstep-n">${s.flags[i] ? '✓' : i + 1}</span><span class="lstep-t">${esc(STEPS[i][1])}${extra ? ` <small class="muted">${extra}</small>` : ''}</span></summary><div class="lstep-b">${body}</div></details>`;
+  // v47: trang bài chia tab — 0 Mở đầu · 1–8 tám bước · 9 Viết 3 câu; tab nằm trên địa chỉ (?b=N)
+  const panel = (k, cls, inner) => `<section class="card ${cls} lpanel" id="b${k}" data-ltab="${k}" role="tabpanel" aria-labelledby="lt-${k}"${k === cur ? '' : ' hidden'}>${inner}</section>`;
+  const step = (i, body, extra = '') => panel(i + 1, `lstep${s.flags[i] ? ' is-done' : ''}`,
+    `<h2 class="lstep-hd"><span class="lstep-n">${s.flags[i] ? '✓' : i + 1}</span><span class="lstep-t">${esc(STEPS[i][1])}${extra ? ` <small class="muted">${extra}</small>` : ''}</span></h2><div class="lstep-b">${body}</div>`);
   const nH = heartCount(x.id);
   const heartTip = `<p class="small muted heart-tip">Bấm ${icon('heart')} ở từ muốn luyện thêm (từ 2 từ trở lên), rồi bấm "Luyện từ đã tim". Tim chỉ giữ khi còn ở bài này.</p>`;
   const heartBar = () => `<div class="row-btns heart-bar"><button type="button" class="btn btn-ghost" data-p="heart" ${nH < 2 ? 'disabled' : ''}>${icon('heart')} Luyện từ đã tim${nH ? ` (${nH})` : ''}</button><button type="button" class="btn btn-ghost" data-p="unheart" ${nH ? '' : 'disabled'}>Bỏ tim tất cả</button></div>`;
@@ -214,20 +216,23 @@ export function renderLesson(view, ctx, id, openStep) {
   const all = x.texts.map(t => D.items.get(t)).filter(Boolean);
   const intro = all.find(t => t.intro), texts = all.filter(t => t !== intro);
   const introDone = intro && D.lessons[intro.id]?.done;
+  const tabs = [...(intro ? [[0, 'Mở đầu', introDone, icon(intro._type === 'dialog' ? 'chat' : 'book')]] : []), ...STEPS.map((st, i) => [i + 1, SHORT[i], s.flags[i], i + 1]), [9, 'Viết', (rec.writes || []).length >= 3, icon('pen')]];
+  const has = k => tabs.some(t => t[0] === k);
+  const cur = openStep != null && has(+openStep) ? +openStep : intro && !introDone ? 0 : s.next >= 0 ? s.next + 1 : 8;
   view.innerHTML = `<a class="back" href="#/lotrinh">Lộ trình</a>
     <p class="small muted">Chặng ${esc(x.level)} · Bài ${x.n}/${x.total}${x.auto ? ' · app tự chia từ gói dữ liệu' : ''}</p>
     <h1 class="h1">${rich(x.title)}</h1>
     ${x.goal ? `<p class="lgoal">🎯 <b>Sau bài này:</b> ${rich(x.goal)}</p>` : ''}
-    ${stepsBarHTML(s)}
     <p class="small muted">${s.done ? `Đã xong bài${rec.done ? ' ngày ' + fmtDate(rec.done) : ''}.` : `${s.nDone}/8 bước. Bài có ✓ khi bài kiểm tra cuối bài đạt từ ${PASS}%.`}</p>
-    ${intro ? `<details class="card lintro" id="b0" ${introDone && openStep ? '' : 'open'}>
-      <summary class="h2">${icon(intro._type === 'dialog' ? 'chat' : 'book')} Bài mở đầu: ${esc(intro.title)}${introDone ? ' <small class="muted">· đã đọc ✓</small>' : ''}</summary>
+    ${due ? `<div class="note"><b>Đến lịch ôn bài này</b> (lần ${due.k + 1}/4). <a class="btn btn-primary btn-sm" href="#/onbai/${encodeURIComponent(x.id)}">Ôn 10 câu</a></div>` : ''}
+    <div class="ltabs" role="tablist" aria-label="Các phần của bài">${tabs.map(([k, l, ok, n]) => `<button type="button" class="ltab${ok ? ' is-done' : ''}${k >= 1 && k <= 8 && k - 1 === s.next ? ' is-next' : ''}" role="tab" id="lt-${k}" data-lt="${k}" aria-controls="b${k}" aria-selected="${k === cur}"><span class="lt-n">${ok ? '✓' : n}</span><span class="lt-l">${l}</span></button>`).join('')}</div>
+    ${intro ? panel(0, 'lintro', `
+      <h2 class="h2 lintro-h">${icon(intro._type === 'dialog' ? 'chat' : 'book')} Bài mở đầu: ${esc(intro.title)}${introDone ? ' <small class="muted">· đã đọc ✓</small>' : ''}</h2>
       ${intro.setting ? `<p class="doc-set">${rich(intro.setting)}</p>` : ''}
       <div class="row-btns wrap lintro-t">${viToggleHTML(true)}<span class="small muted">Chạm vào câu để xem nghĩa từng từ, cụm từ, ngữ pháp.</span></div>
       ${passageHTML(intro)}
       <div class="row-btns wrap"><a class="btn btn-ghost" href="#/doc/${encodeURIComponent(intro.id)}?m=hoi">Câu hỏi hiểu bài</a>${ttsReady() ? `<a class="btn btn-ghost" href="#/doc/${encodeURIComponent(intro.id)}?m=nghe">Nghe cả bài</a>` : ''}<a class="btn btn-ghost" href="#/doc/${encodeURIComponent(intro.id)}?m=dich">Dịch từng câu</a>${introDone ? '' : '<button type="button" class="btn btn-primary" data-p="introok">Đã đọc xong</button>'}</div>
-    </details>` : ''}
-    ${due ? `<div class="note"><b>Đến lịch ôn bài này</b> (lần ${due.k + 1}/4). <a class="btn btn-primary btn-sm" href="#/onbai/${encodeURIComponent(x.id)}">Ôn 10 câu</a></div>` : ''}
+    `) : ''}
 
     ${step(0, `${sv.new ? `<div class="row-btns"><a class="btn btn-primary" href="${here}/hoc">Học ${Math.min(sv.new, S.qCount)} từ mới</a></div>` : '<p class="small">Đã học hết từ mới của bài.</p>'}
       ${heartTip}<ul class="rows lrows">${p.vocab.map(wRow).join('')}</ul>${heartBar()}`, `${sv.total - sv.new}/${sv.total}`)}
@@ -250,7 +255,7 @@ export function renderLesson(view, ctx, id, openStep) {
       <div class="row-btns wrap"><button class="btn btn-primary" data-p="cau">Ghép câu</button>${p.vocab.some(it => ['v1', 'v5', 'v3'].includes(it.pos)) ? '<button class="btn btn-ghost" data-p="the">Thể động từ trong câu</button>' : ''}<button class="btn btn-ghost" data-p="dich">Dịch Việt ↔ Nhật</button></div>`)}
 
     ${step(6, texts.length ? `<ul class="rows lrows">${texts.map(t => `<li><a class="row" href="#/doc/${encodeURIComponent(t.id)}"><span class="row-jp">${icon(t._type === 'dialog' ? 'chat' : 'book')} <b>${esc(t.title)}</b></span><span class="row-vi small">${esc(t._type === 'dialog' ? 'Hội thoại' : 'Bài đọc')}${D.lessons[t.id]?.done ? ' · ✓' : ''}</span></a></li>`).join('')}</ul>`
-      : intro ? `<p class="small">Bài đọc chính của bài này là <a href="#/bai/${encodeURIComponent(x.id)}">bài mở đầu</a> ở đầu trang. Làm thêm: nghe và hiểu câu ví dụ của bài.</p>
+      : intro ? `<p class="small">Bài đọc chính của bài này là <a href="${here}?b=0" data-goto="0">bài mở đầu</a> (tab Mở đầu). Làm thêm: nghe và hiểu câu ví dụ của bài.</p>
       <div class="row-btns wrap"><a class="btn btn-ghost" href="${here}/cau">Đọc câu của bài</a><button class="btn btn-primary" data-p="hieu">Nghe – hiểu 10 câu</button></div>`
       : `<p class="small muted">Bài đọc / hội thoại cho bài này đang được soạn. Trong lúc chờ: đọc và nghe các câu ví dụ của bài.</p>
       <div class="row-btns wrap"><a class="btn btn-ghost" href="${here}/cau">Đọc câu của bài</a><button class="btn btn-primary" data-p="hieu">Nghe – hiểu 10 câu</button></div>`)}
@@ -259,11 +264,24 @@ export function renderLesson(view, ctx, id, openStep) {
       ${rec.test ? `<p class="small">Lần gần nhất: <b>${rec.test.pct}%</b> (${fmtDate(rec.test.t)}) · cao nhất ${rec.test.best}%</p>` : ''}
       <div class="row-btns"><a class="btn btn-primary" href="${here}/kiemtra">Làm bài kiểm tra</a></div>`)}
 
-    <details class="card lwrite"><summary class="h2">${icon('pen')} Viết 3 câu${(rec.writes || []).length ? ` <small class="muted">· đã viết ${(rec.writes || []).length}</small>` : ''}</summary>${writeHTML(x)}</details>
+    ${panel(9, 'lwrite', `<h2 class="h2">${icon('pen')} Viết 3 câu${(rec.writes || []).length ? ` <small class="muted">· đã viết ${(rec.writes || []).length}</small>` : ''}</h2>${writeHTML(x)}`)}
     ${rec.done ? `<p class="small muted">Ôn bài cũ: ${REV.map((d, i) => `${(rec.rev || [])[i] ? '✓' : '·'} sau ${d} ngày`).join(' · ')}</p>` : ''}
     <div class="row-btns lnav">${prev ? `<a class="btn btn-ghost" href="#/bai/${encodeURIComponent(prev.id)}">← Bài ${prev.n}</a>` : '<span></span>'}${next ? `<a class="btn btn-ghost" href="#/bai/${encodeURIComponent(next.id)}">Bài ${next.n} →</a>` : ''}</div>`;
   bindSay(view);
-  if (open >= 0 && openStep) setTimeout(() => view.querySelector('#b' + (open + 1))?.scrollIntoView({ block: 'start' }), 50);
+  const tabBar = view.querySelector('.ltabs');
+  const show = k => {
+    view.querySelectorAll('[data-lt]').forEach(b => b.setAttribute('aria-selected', String(+b.dataset.lt === k)));
+    view.querySelectorAll('section[data-ltab]').forEach(sx => { sx.hidden = +sx.dataset.ltab !== k; });
+    try { history.replaceState(history.state, '', `${here}?b=${k}`); } catch { }
+    if (tabBar.getBoundingClientRect().top < 0) tabBar.scrollIntoView({ block: 'start' });
+  };
+  tabBar.addEventListener('click', e => { const b = e.target.closest('[data-lt]'); if (b) show(+b.dataset.lt); });
+  tabBar.addEventListener('keydown', e => {
+    if (!['ArrowLeft', 'ArrowRight'].includes(e.key)) return;
+    const bs = [...tabBar.querySelectorAll('[data-lt]')], i = bs.indexOf(document.activeElement); if (i < 0) return;
+    const n = bs[(i + (e.key === 'ArrowRight' ? 1 : bs.length - 1)) % bs.length]; n.focus(); show(+n.dataset.lt); e.preventDefault();
+  });
+  view.querySelector('[data-goto]')?.addEventListener('click', e => { e.preventDefault(); show(+e.currentTarget.dataset.goto); });
   bindWrite(view, x, ctx);
   if (intro) { bindPassage(view.querySelector('.lintro'), intro); bindViToggle(view.querySelector('.lintro')); }
   const heartSync = () => { // cập nhật nút "Luyện từ đã tim" mà không vẽ lại trang
@@ -285,7 +303,7 @@ export function renderLesson(view, ctx, id, openStep) {
     if (k !== 'relok' && k !== 'introok') view.onclick = null; // trang chuyển sang lượt luyện
     if (k !== 'heart' && k !== 'relok' && k !== 'introok') clearHearts(); // sang bài luyện khác của bài: bỏ tim
     const vocab = p.vocab;
-    ctx.backTo = here + (b.closest('.lstep') ? '?b=' + b.closest('.lstep').id.slice(1) : '');
+    ctx.backTo = here + (b.closest('.lpanel') ? '?b=' + b.closest('.lpanel').dataset.ltab : '');
     const again = () => ctx.go(ctx.backTo, true);
     const mark = key => () => { logAct('lesson'); return saveLesson(x.id, { steps: { ...(D.lessons[x.id]?.steps || {}), [key]: Date.now() } }); };
     if (k === 'introok') { await saveLesson(intro.id, { done: Date.now(), read: true }); logAct('lesson'); ctx.sessionDone?.(); toast('Đã đọc xong bài mở đầu.'); return renderLesson(view, ctx, id, 1); }
