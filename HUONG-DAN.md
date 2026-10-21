@@ -942,3 +942,30 @@ Máy chưa có giọng đọc tiếng Nhật thì đề bỏ phần nghe và kh�
 - Dữ liệu (gói mới): `nguphap-n1-01` … `nguphap-n1-50`, `jlpt-n1-01` … `jlpt-n1-36`, `modau-n1-01` … `modau-n1-33`, `baihoc-n1`, `hoithoai-n1-01`.
 - Dữ liệu (gói sửa cách đọc): `baidoc-n2-01`, `jlpt-n2-02`, `jlpt-n2-05`, `jlpt-n2-07`, `jlpt-n2-09`, `jlpt-n2-26`, `jlpt-n2-39`, `jlpt-n3-04`, `jlpt-n3-39`, `jlpt-n4-03`, `jlpt-n4-17`, `jlpt-n5-02`, `modau-n2-11`, `modau-n3-01`, `nguphap-n2-38`, `nguphap-n2-39`, `nguphap-n3-19`, `nguphap-n3-30`, `nguphap-n3-33`, `thuysan-03`.
 - `data/manifest.json`.
+
+## 55. Bản v46 (21/10/2026): Hiệu ứng nền chỉnh ở Cài đặt, nhớ khung cảnh; N1 thêm bài 37–39, 7 bài đọc luyện thêm
+
+**Hiệu ứng nền — mọi chỉnh nằm ở một chỗ.**
+- Bỏ nút nổi "Bật / tắt hiệu ứng nền" ở góc dưới bên phải và bảng chỉnh nhanh.
+- Mọi thứ trong bảng cũ nay ở **Cài đặt → Giao diện mùa & hiệu ứng**. Trên điện thoại, mở bằng nút hình mặt trời ở góc trên bên phải, cạnh nút đồng bộ. Gồm: bật / tắt hiệu ứng nền, tháng, mật độ, tốc độ rơi, khung hình (kèm dòng "Màn hình ~… Hz · nền đang vẽ … khung/giây"), từng hiệu ứng, mưa, thành phố, các nút "Thử ngay".
+- **Mới — giữ cố định khung cảnh, app nhớ lại mỗi lần mở:**
+  - **Buổi trong ngày:** Theo giờ thật / Bình minh / Ban ngày / Hoàng hôn / Ban đêm.
+  - **Ngày lễ:** Theo ngày thật, hoặc luôn là một ngày lễ (Tết, Trung thu, Tanabata…).
+  - **Mưa:** thêm "Luôn mưa to, có giông" (bên cạnh Theo mùa mưa, Theo thời tiết thật, Luôn mưa nhẹ, Tắt).
+  - Nút **Về như thật**: trời, mưa, ngày lễ lại đổi theo thực tế.
+  - Bản cũ, phần "Xem thử" chỉ là tạm thời, mở lại app thì mất.
+- App xin trình duyệt **giữ dữ liệu lâu dài**, để cài đặt và tiến độ học không bị xoá khi máy thiếu bộ nhớ.
+
+**Giáo trình N1:**
+- Thêm từ vựng bài 37–39. Lộ trình N1 có 39 bài, khoảng 1.930 từ.
+- Bài mở đầu 34–36: 36 bài đã có bài mở đầu.
+- **7 bài đọc luyện thêm N1** (gói mới `baidoc-n1-01`): xã luận về ăn cá sống, tùy bút về "mùa" của đầu bếp, trích nội quy công ty, email xin dời lịch, hai ý kiến A – B về máy móc thay người, bài luận học ngoại ngữ khi đã lớn, thông báo lễ hội của hội cư dân. Câu hỏi kiểu đề N1. Đề thi thử N1 có thêm các bài này ở phần đọc hiểu.
+
+**Sửa cách đọc:** 一問, 上品, 人繰り, 束の間, 注意深い, 忍耐強い… trong một số gói N1 và N2. Bộ gắn furigana nay đọc đúng ngày viết bằng số (5月1日[たち], 28日[にち], 2日[か]).
+
+**Tệp:**
+- Mã: `js/settingspage.js`, `js/season.js`, `js/settings.js`, `js/app.js`, `js/guides.js`, `css/app.css`, `js/util.js`, `sw.js`.
+- **Xoá trên kho:** `js/fxpanel.js`.
+- Dữ liệu (mới): `jlpt-n1-37`, `jlpt-n1-38`, `jlpt-n1-39`, `modau-n1-34`, `modau-n1-35`, `modau-n1-36`, `baidoc-n1-01`.
+- Dữ liệu (sửa): `baihoc-n1`, `jlpt-n1-33`, `jlpt-n2-06`, `modau-n1-17`, `modau-n1-20`, `modau-n1-21`, `modau-n1-22`.
+- `data/manifest.json`.

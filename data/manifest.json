@@ -441,8 +441,8 @@
     "jlpt"
    ],
    "count": 49,
-   "version": 1,
-   "hash": "84c4fa5a6a"
+   "version": 2,
+   "hash": "46b1e6f2c2"
   },
   {
    "id": "jlpt-n1-34",
@@ -482,6 +482,45 @@
    "count": 50,
    "version": 1,
    "hash": "501f64325e"
+  },
+  {
+   "id": "jlpt-n1-37",
+   "file": "jlpt-n1-37.json",
+   "title": "JLPT N1 37 – Nỗ lực, bệnh, mệt mỏi & mùa cao điểm",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "163082bc25"
+  },
+  {
+   "id": "jlpt-n1-38",
+   "file": "jlpt-n1-38.json",
+   "title": "JLPT N1 38 – Hy sinh, vay nợ, lý do & suy nghĩ thấu đáo",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "2d619acc37"
+  },
+  {
+   "id": "jlpt-n1-39",
+   "file": "jlpt-n1-39.json",
+   "title": "JLPT N1 39 – Quan điểm, kết luận định sẵn, phê bình & chuyên gia",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "8ffc0d5212"
   },
   {
    "id": "jlpt-n2-01",
@@ -558,8 +597,8 @@
     "jlpt"
    ],
    "count": 49,
-   "version": 2,
-   "hash": "d1b9a2b051"
+   "version": 3,
+   "hash": "dd463d192a"
   },
   {
    "id": "jlpt-n2-07",
@@ -5155,9 +5194,9 @@
    "topics": [
     "jlpt"
    ],
-   "count": 36,
-   "version": 1,
-   "hash": "578976d671"
+   "count": 39,
+   "version": 2,
+   "hash": "e4f6ef9a6a"
   },
   {
    "id": "baihoc-n2",
@@ -5526,8 +5565,8 @@
     "xuong"
    ],
    "count": 1,
-   "version": 1,
-   "hash": "830b707255",
+   "version": 2,
+   "hash": "ddcc380b4f",
    "turns": 45
   },
   {
@@ -5556,8 +5595,8 @@
     "jlpt"
    ],
    "count": 1,
-   "version": 1,
-   "hash": "505ba31357",
+   "version": 2,
+   "hash": "79e7b099f8",
    "turns": 42
   },
   {
@@ -5571,8 +5610,8 @@
     "xuong"
    ],
    "count": 1,
-   "version": 1,
-   "hash": "dda5008adc",
+   "version": 2,
+   "hash": "d0d211593d",
    "turns": 44
   },
   {
@@ -5586,8 +5625,8 @@
     "jlpt"
    ],
    "count": 1,
-   "version": 1,
-   "hash": "df3e8dbdad",
+   "version": 2,
+   "hash": "e895da3b1f",
    "turns": 43
   },
   {
@@ -5722,6 +5761,51 @@
    "version": 1,
    "hash": "b942842043",
    "turns": 41
+  },
+  {
+   "id": "modau-n1-34",
+   "file": "modau-n1-34.json",
+   "title": "Bài mở đầu N1 – bài 34: Bóng người mặc toàn đồ đen",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "thuysan"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "bc8bfacc7e",
+   "turns": 45
+  },
+  {
+   "id": "modau-n1-35",
+   "file": "modau-n1-35.json",
+   "title": "Bài mở đầu N1 – bài 35: Người mới ra vẻ đàn anh",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "9f88077e69",
+   "turns": 45
+  },
+  {
+   "id": "modau-n1-36",
+   "file": "modau-n1-36.json",
+   "title": "Bài mở đầu N1 – bài 36: Một khi virus đã lọt vào",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "thuysan",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "7777ef6519",
+   "turns": 44
   },
   {
    "id": "modau-n2-01",
@@ -7314,6 +7398,22 @@
    "version": 1,
    "hash": "e2c30ec095",
    "sents": 11
+  },
+  {
+   "id": "baidoc-n1-01",
+   "file": "baidoc-n1-01.json",
+   "title": "Bài đọc luyện thêm N1",
+   "type": "text",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "thuysan",
+    "xuong"
+   ],
+   "count": 7,
+   "version": 20,
+   "hash": "f2673a46fa",
+   "sents": 196
   },
   {
    "id": "baidoc-n2-01",

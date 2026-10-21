@@ -79,6 +79,7 @@ export const SYN = SYN0;
 
 // ---------- bản thử (demo): ép tháng, buổi, nền, mưa, ngày lễ, mưa sao băng ----------
 const OV = {};
+export const PHASES = ['dawn', 'day', 'dusk', 'night'];
 export function seasonOverride(o) { for (const k of Object.keys(o)) { if (o[k] == null) delete OV[k]; else OV[k] = o[k]; } refresh(); }
 
 
@@ -158,6 +159,7 @@ function rainState(d) {
   st.snowW = false; st.thunder = false;
   if (S.fxRain === 'off') return 0;
   if (S.fxRain === 'always') return 1;
+  if (S.fxRain === 'storm') { st.thunder = true; return 2; }
   if (S.fxRain === 'weather') {
     const w = readW();
     if (w && w.city === (S.fxCity || '').trim() && w.code != null && Date.now() - w.t < 3 * 3600e3) {
@@ -279,8 +281,10 @@ function refresh({ requality = false } = {}) {
   st.on = S.season !== 'off';
   st.dark = OV.dark ?? isDarkTheme();
   st.month = OV.month ?? curMonth(d);
-  st.phase = OV.phase ?? (S.fxDayNight ? phaseOf(d) : (st.dark ? 'night' : 'day'));
-  st.hol = !st.on ? [] : OV.hol ? [{ ...HOL[OV.hol], fw: ['tet', 'quockhanh', 'oomisoka', 'shogatsu'].includes(OV.hol) }] : holidays(d);
+  // v46: buổi / ngày lễ giữ cố định theo Cài đặt (nhớ lại khi mở app); OV chỉ còn dùng khi thử nhanh
+  const fixPh = PHASES.includes(S.fxPhase) ? S.fxPhase : null, hk = OV.hol || (HOL[S.fxHol] ? S.fxHol : '');
+  st.phase = OV.phase ?? fixPh ?? (S.fxDayNight ? phaseOf(d) : (st.dark ? 'night' : 'day'));
+  st.hol = !st.on ? [] : hk ? [{ ...HOL[hk], fw: ['tet', 'quockhanh', 'oomisoka', 'shogatsu'].includes(hk) }] : holidays(d);
   st.rain = !st.on ? 0 : OV.rain ?? rainState(d);
   if (OV.rain != null) { st.thunder = OV.rain === 2; st.snowW = false; }
   st.shower = OV.shower ?? (S.fxMeteor ? showerOf(d) : '');

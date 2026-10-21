@@ -30,7 +30,6 @@ import { renderDocList, renderDoc } from './reader.js';
 import { openGrammarSheet } from './explain.js';
 import { initSeason, seasonChipHTML } from './season.js';
 import { initBackFab, backFabRoute } from './backfab.js';
-import { initFxPanel } from './fxpanel.js';
 import { initMarks, renderMarked } from './marks.js';
 import { bumpGen } from './lazy.js';
 import { relearnKanji } from './bare.js';
@@ -378,7 +377,9 @@ function announceUpdate() {
 
 async function init() {
   await loadSettings();
-  try { initSeason(); initFxPanel(); } catch (e) { console.warn('season', e); }
+  try { initSeason(); } catch (e) { console.warn('season', e); }
+  // v46: xin trình duyệt giữ dữ liệu lâu dài (cài đặt, tiến độ) — không bị xoá khi máy thiếu bộ nhớ
+  try { navigator.storage?.persist?.().catch(() => { }); } catch { }
   initMarks();
   initTapFx();
   chrome();

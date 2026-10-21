@@ -25,11 +25,13 @@ export const DEFAULTS = {
   // v31: giao diện mùa & hiệu ứng (bật / tắt riêng từng thứ)
   season: 'auto',     // auto (theo tháng) | off | '1'…'12' (giữ một tháng)
   motion: true,       // chuyển động giao diện (trang trượt, bảng phóng to, điểm đếm lên)
-  fxBg: true,         // v32: hiệu ứng nền (canvas: hạt rơi, trời, mưa…) — công tắc chung, có nút nhỏ ở góc dưới
+  fxBg: true,         // v32: hiệu ứng nền (canvas: hạt rơi, trời, mưa…) — công tắc chung (v46: chỉnh ở Cài đặt → Giao diện mùa & hiệu ứng)
   fxFall: true, fxDensity: 'mid', fxSpeed: 'mid', fxFps: 'auto',
   fxDayNight: true, fxClouds: true, fxStars: true, fxMeteor: true, fxPlane: true, fxBlackhole: true, fxConst: true, fxMilky: true,
   fxFireworks: true, fxFireflies: true, fxLanterns: true, fxHolVN: true, fxHolJP: true, fxWind: true, fxLightning: true,
-  fxRain: 'season',   // season (mùa mưa + vài ngày) | weather (thời tiết thật) | always | off
+  fxRain: 'season',   // season (mùa mưa + vài ngày) | weather (thời tiết thật) | always (mưa nhẹ) | storm (v46: mưa to, có giông) | off
+  fxPhase: 'auto',    // v46: buổi trong ngày — auto (theo giờ thật) | dawn | day | dusk | night (giữ cố định, nhớ lại khi mở app)
+  fxHol: '',          // v46: ngày lễ — '' (theo ngày thật) | mã ngày lễ (giữ cố định cảnh ngày lễ đó)
   fxCity: '',         // thành phố lấy thời tiết thật
   fxBurst: true,      // chùm hạt khi trả lời đúng, ở màn kết quả
   deviceName: '',

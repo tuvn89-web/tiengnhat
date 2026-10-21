@@ -1,4 +1,3 @@
-import { fpsText } from './fxpanel.js';
 import { BARE_MODES, bareMode, bareHintOn, setBare } from './bare.js';
 import { esc, toast, APP_VERSION, checkUpdate } from './util.js';
 import { S, saveSettings, resetSettings } from './settings.js';
@@ -7,8 +6,16 @@ import { chips, bindChips, readChip, field } from './ui.js';
 import { SCRIPTS } from './quiz.js';
 import { paceFieldsHTML, bindPaceFields, readPace } from './roadmap.js';
 import { setPrefs } from './data.js';
-import { seasonTry, weatherText } from './season.js';
+import { seasonTry, weatherText, seasonReduced, screenHz, fxFpsNow, fxQuality, fxThread, HOLIDAYS } from './season.js';
 import { JP_FONTS, VI_FONTS, FONT_GROUPS, SAMPLE, fontOf, fallback, pvFamily, loadPreview } from './fonts.js';
+
+// v37: dòng tình trạng khung hình của hiệu ứng nền (v46: chuyển từ bảng nổi đã bỏ về đây)
+export function fpsText() {
+  const f = fxFpsNow(), hz = screenHz(), cap = +S.fxFps || 0;
+  return `Màn hình ~${hz} Hz · nền đang vẽ ${f ? `${f} khung/giây${fxThread() === 'worker' ? ' (luồng riêng)' : ''}` : '— (đang tắt)'}`
+    + (cap > hz ? ` · màn hình chỉ có ${hz} Hz nên tối đa ${hz}` : '') + (fxQuality() ? ' · đã tự giảm độ nét, số hạt cho đỡ giật' : '');
+}
+const PHASE_OPTS = [['auto', 'Theo giờ thật'], ['dawn', 'Bình minh'], ['day', 'Ban ngày'], ['dusk', 'Hoàng hôn'], ['night', 'Ban đêm']];
 
 // v32: chọn phông chữ — bấm mở mới tải mẫu xem trước (vài KB mỗi phông)
 function fontPicker(kind, cur, legend) {
@@ -46,7 +53,7 @@ export function renderSettings(view, ctx) {
       <h2 class="h2">Giao diện mùa & hiệu ứng</h2>
       <p class="muted small">Mỗi tháng một họa tiết (hoa anh đào, mưa, pháo hoa, lá phong, tuyết…), trời đổi theo giờ, ngày lễ Nhật và Việt Nam. Hiệu ứng nằm phía sau thẻ. Máy yếu hoặc muốn đỡ tốn pin thì giảm mật độ hoặc tắt bớt.</p>
       <fieldset><legend>Giao diện mùa</legend>${chips('season', [['auto', 'Theo tháng'], ['off', 'Tắt'], ...Array.from({ length: 12 }, (_, i) => [String(i + 1), `T${i + 1}`])], S.season, false)}</fieldset>
-      <label class="check"><input type="checkbox" name="fxBg" ${S.fxBg !== false ? 'checked' : ''}> <b>Hiệu ứng nền</b> (hạt rơi, trời, mưa, sao băng…). Tắt thì màu và hoa văn theo mùa vẫn giữ. Nút nhỏ "Bật / tắt hiệu ứng nền" ở góc dưới bên phải mở bảng chỉnh nhanh ở mọi trang.</label>
+      <label class="check"><input type="checkbox" name="fxBg" ${S.fxBg !== false ? 'checked' : ''}> <span><b>Hiệu ứng nền</b> (hạt rơi, trời, mưa, sao băng…). Tắt thì màu và hoa văn theo mùa vẫn giữ.</span></label>
       <label class="check"><input type="checkbox" name="motion" ${S.motion ? 'checked' : ''}> Chuyển động mượt (trang trượt, bảng hiện từ nhỏ thành to, điểm đếm lên). Máy bật "giảm chuyển động" thì app tự tắt.</label>
       <fieldset><legend>Mật độ hạt</legend>${chips('fxDensity', [['low', 'Ít'], ['mid', 'Vừa'], ['high', 'Nhiều']], S.fxDensity, false)}</fieldset>
       <fieldset><legend>Tốc độ rơi</legend>${chips('fxSpeed', [['slow', 'Chậm'], ['mid', 'Vừa'], ['fast', 'Nhanh']], S.fxSpeed, false)}</fieldset>
@@ -54,7 +61,10 @@ export function renderSettings(view, ctx) {
         <p class="small muted">"Theo màn hình": màn hình 60, 90, 120 Hz… thì nền vẽ đủ bấy nhiêu khung mỗi giây, mượt nhất. Chọn số nhỏ hơn để đỡ tốn pin. Máy không theo kịp thì app tự giảm độ nét, số hạt. Chuyển trang, bảng chi tiết luôn chạy theo màn hình.</p>
         <p class="small fx-fps">${esc(fpsText())}</p></fieldset>
       <fieldset><legend>Bật / tắt từng hiệu ứng</legend><div class="fx-grid">${[['fxFall', 'Hạt rơi theo tháng'], ['fxDayNight', 'Ngày – đêm'], ['fxClouds', 'Mây'], ['fxStars', 'Sao & trăng'], ['fxConst', 'Chòm sao (Bắc Đẩu, Song Tử, Xử Nữ…)'], ['fxMilky', 'Dải ngân hà'], ['fxMeteor', 'Sao băng, mưa sao băng'], ['fxPlane', 'Máy bay bay qua'], ['fxBlackhole', 'Hố đen'], ['fxFireworks', 'Pháo hoa'], ['fxFireflies', 'Đom đóm'], ['fxLanterns', 'Đèn lồng ngày lễ, đèn trời ban đêm'], ['fxHolVN', 'Ngày lễ Việt Nam'], ['fxHolJP', 'Ngày lễ Nhật'], ['fxWind', 'Gió'], ['fxLightning', 'Chớp khi mưa to'], ['fxBurst', 'Chùm hạt khi trả lời đúng']].map(([k, t]) => `<label class="check"><input type="checkbox" name="${k}" ${S[k] ? 'checked' : ''}> ${t}</label>`).join('')}</div></fieldset>
-      <fieldset><legend>Mưa</legend>${chips('fxRain', [['season', 'Theo mùa mưa'], ['weather', 'Theo thời tiết thật'], ['always', 'Luôn có mưa'], ['off', 'Tắt']], S.fxRain, false)}</fieldset>
+      <fieldset><legend>Mưa</legend>${chips('fxRain', [['season', 'Theo mùa mưa'], ['weather', 'Theo thời tiết thật'], ['always', 'Luôn mưa nhẹ'], ['storm', 'Luôn mưa to, có giông'], ['off', 'Tắt']], S.fxRain, false)}</fieldset>
+      <fieldset><legend>Buổi trong ngày</legend>${chips('fxPhase', PHASE_OPTS, PHASE_OPTS.some(o => o[0] === S.fxPhase) ? S.fxPhase : 'auto', false)}</fieldset>
+      ${field('Ngày lễ', `<select class="input" name="fxHol"><option value="">Theo ngày thật</option>${HOLIDAYS.map(([v, t]) => `<option value="${esc(v)}" ${S.fxHol === v ? 'selected' : ''}>Luôn là: ${esc(t)}</option>`).join('')}</select>`)}
+      <p class="small muted">Buổi, ngày lễ, mưa chọn ở đây được <b>nhớ lại</b> mỗi lần mở app. Muốn trời và ngày lễ đổi theo thực tế thì chọn "Theo giờ thật", "Theo ngày thật". <button type="button" class="btn btn-ghost btn-sm" data-act="fxreal">Về như thật</button></p>
       ${field('Thành phố (cho "Theo thời tiết thật")', `<input class="input" name="fxCity" value="${esc(S.fxCity || '')}" placeholder="vd. Kobe, Himeji, Akashi">`, 'Cần có mạng. App gửi tên thành phố tới dịch vụ thời tiết miễn phí Open-Meteo, không dùng định vị GPS. Mất mạng thì quay về mưa theo mùa.')}
       <p class="small muted fx-w">${esc(weatherText())}</p>
       <p class="small">Thử ngay:</p>
@@ -126,6 +136,7 @@ export function renderSettings(view, ctx) {
     else if (el.type === 'checkbox') S[el.name] = el.checked;
     else S[el.name] = el.value;
     save();
+    if (el.name === 'fxBg' && el.checked && seasonReduced()) toast('Máy đang bật "giảm chuyển động" nên app không chạy hiệu ứng nền.');
   });
   const paceBox = view.querySelector('[data-pace]');
   let paceT = 0;
@@ -142,11 +153,16 @@ export function renderSettings(view, ctx) {
       if (!navigator.onLine && fontOf(kind, b.dataset.font)[3]) toast('Đang không có mạng: phông này hiện khi có mạng (lần đầu), tạm dùng phông của máy.');
     });
   });
+  view.querySelector('[data-act=fxreal]').onclick = async () => {
+    Object.assign(S, { fxPhase: 'auto', fxHol: '', fxRain: ['always', 'storm'].includes(S.fxRain) ? 'season' : S.fxRain });
+    await saveSettings(); toast('Trời, mưa, ngày lễ đã về theo thực tế.');
+  };
   view.querySelectorAll('[data-fxtry]').forEach(b => b.onclick = () => { if (!seasonTry(b.dataset.fxtry)) toast('Hiệu ứng nền đang tắt (hoặc giao diện mùa tắt, hoặc máy đang bật giảm chuyển động).'); });
-  // đổi trong bảng "Bật / tắt hiệu ứng nền" khi đang ở trang này → cập nhật các ô đánh dấu và chip
+  // cài đặt đổi ở chỗ khác (đặt lại, đồng bộ…) khi đang ở trang này → cập nhật các ô đánh dấu, chip, ô chọn
   const syncFx = () => {
     if (!view.querySelector('.fxcard')) return removeEventListener('tn-settings', syncFx);
     view.querySelectorAll('.fxcard input[type=checkbox][name]').forEach(c => { c.checked = S[c.name] !== false; });
+    view.querySelectorAll('.fxcard select[name]').forEach(x => { x.value = String(S[x.name] ?? ''); });
     view.querySelectorAll('.chips[data-multi="0"]').forEach(g => { if (g.dataset.name in S) g.querySelectorAll('.chip').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.v === String(S[g.dataset.name])))); });
   };
   addEventListener('tn-settings', syncFx);
