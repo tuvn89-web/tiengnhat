@@ -1,0 +1,2094 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n1-16",
+  "title": "JLPT N1 16 – Vệ sinh thực phẩm, nghiêm ngặt & tay nghề lâu năm",
+  "type": "vocab",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:滅菌:めっきん",
+   "kana": "めっきん",
+   "kanji": "滅菌",
+   "hv": "DIỆT KHUẨN",
+   "vi": "tiệt trùng (diệt sạch mọi vi sinh vật)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "検査[けんさ]に使[つか]う器具[きぐ]は、使[つか]う前[まえ]に高温[こうおん]で滅菌[めっきん]しておく。",
+     "vi": "Dụng cụ dùng để xét nghiệm được tiệt trùng ở nhiệt độ cao trước khi dùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "病院[びょういん]の注射[ちゅうしゃ]針[はり]は、滅菌[めっきん]された状態[じょうたい]で一本[いっぽん]ずつ包装[ほうそう]されている。",
+     "vi": "Kim tiêm ở bệnh viện được đóng gói từng chiếc ở trạng thái đã tiệt trùng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "器具[きぐ]を滅菌[めっきん]する",
+     "vi": "tiệt trùng dụng cụ"
+    },
+    {
+     "jp": "高温[こうおん]で滅菌[めっきん]する",
+     "vi": "tiệt trùng ở nhiệt độ cao"
+    }
+   ],
+   "confuse": [
+    "v:殺菌:さっきん",
+    "v:除菌:じょきん"
+   ],
+   "note": "Mức độ: 滅菌[めっきん] (diệt sạch mọi vi sinh vật, kể cả bào tử) > 殺菌[さっきん] (giết vi khuẩn) > 除菌[じょきん] (loại bớt, làm giảm vi khuẩn). 滅菌[めっきん]済[ず]み = đã tiệt trùng."
+  },
+  {
+   "id": "v:除菌:じょきん",
+   "kana": "じょきん",
+   "kanji": "除菌",
+   "hv": "TRỪ KHUẨN",
+   "vi": "khử khuẩn, loại bớt vi khuẩn",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "まな板[いた]は、使[つか]い終[お]わったら除菌[じょきん]スプレーをかけて乾[かわ]かしている。",
+     "vi": "Thớt dùng xong thì xịt bình khử khuẩn rồi để khô.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子[こ]どもが生[う]まれてから、ドアノブもこまめに除菌[じょきん]するようになった。",
+     "vi": "Từ khi có con, tôi chịu khó khử khuẩn cả tay nắm cửa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このテーブル、拭[ふ]いておいたよ。B：ありがとう。アルコールで除菌[じょきん]もしておいてくれる？",
+     "vi": "A: Tôi lau cái bàn này rồi đấy. B: Cảm ơn. Khử khuẩn bằng cồn luôn giúp tôi nhé?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手指[しゅし]を除菌[じょきん]する",
+     "vi": "khử khuẩn tay"
+    },
+    {
+     "jp": "まな板[いた]を除菌[じょきん]する",
+     "vi": "khử khuẩn thớt"
+    }
+   ],
+   "confuse": [
+    "v:殺菌:さっきん",
+    "v:滅菌:めっきん"
+   ],
+   "note": "除菌[じょきん] = loại bỏ, làm giảm số vi khuẩn (không nhất thiết giết hết). Hay thấy trên nhãn: 除菌[じょきん]スプレー, 除菌[じょきん]シート, 除菌[じょきん]効果[こうか]. 殺菌[さっきん] = giết vi khuẩn; 滅菌[めっきん] = diệt sạch hoàn toàn."
+  },
+  {
+   "id": "v:雑菌:ざっきん",
+   "kana": "ざっきん",
+   "kanji": "雑菌",
+   "hv": "TẠP KHUẨN",
+   "vi": "tạp khuẩn, vi khuẩn lẫn tạp",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "濡[ぬ]れたままの布巾[ふきん]は、雑菌[ざっきん]が繁殖[はんしょく]しやすい。",
+     "vi": "Khăn lau để ướt dễ sinh sôi tạp khuẩn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "加湿器[かしつき]の水[みず]を毎日[まいにち]替[か]えないと、雑菌[ざっきん]が増[ふ]えて嫌[いや]なにおいがする。",
+     "vi": "Không thay nước máy tạo ẩm mỗi ngày thì tạp khuẩn tăng lên, bốc mùi khó chịu.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:細菌:さいきん",
+    "v:繁殖:はんしょく"
+   ],
+   "note": "雑菌[ざっきん] = các loại vi khuẩn lẫn vào từ môi trường (không chỉ đích danh loài nào): 雑菌[ざっきん]が入[はい]る / 繁殖[はんしょく]する / 増[ふ]える. 細菌[さいきん] = vi khuẩn (thuật ngữ khoa học)."
+  },
+  {
+   "id": "v:繁殖:はんしょく",
+   "kana": "はんしょく",
+   "kanji": "繁殖",
+   "hv": "PHỒN THỰC",
+   "vi": "sinh sôi, nảy nở (vi khuẩn, nấm mốc, động vật)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "温度[おんど]が上[あ]がると、細菌[さいきん]は急速[きゅうそく]に繁殖[はんしょく]する。",
+     "vi": "Khi nhiệt độ tăng, vi khuẩn sinh sôi nhanh chóng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "梅雨[つゆ]の時期[じき]は、浴室[よくしつ]にカビが繁殖[はんしょく]しやすい。",
+     "vi": "Mùa mưa dầm, nấm mốc dễ sinh sôi trong phòng tắm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この川[かわ]、最近[さいきん]鮭[さけ]が戻[もど]ってきたらしいね。B：うん。上流[じょうりゅう]で繁殖[はんしょく]できるように、地元[じもと]の人[ひと]たちが川[かわ]をきれいにしたんだって。",
+     "vi": "A: Nghe nói dạo này cá hồi quay về con sông này nhỉ. B: Ừ. Nghe đâu người địa phương đã làm sạch sông để chúng sinh sản được ở thượng nguồn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "菌[きん]が繁殖[はんしょく]する",
+     "vi": "vi khuẩn sinh sôi"
+    },
+    {
+     "jp": "カビが繁殖[はんしょく]する",
+     "vi": "nấm mốc sinh sôi"
+    }
+   ],
+   "confuse": [
+    "v:増殖:ぞうしょく"
+   ],
+   "note": "繁殖[はんしょく] = sinh sôi nảy nở (vi khuẩn, nấm mốc; động thực vật sinh sản). 繁殖[はんしょく]期[き] = mùa sinh sản. 増殖[ぞうしょく] = số lượng tự tăng lên (tế bào, vi khuẩn nhân lên)."
+  },
+  {
+   "id": "v:増殖:ぞうしょく",
+   "kana": "ぞうしょく",
+   "kanji": "増殖",
+   "hv": "TĂNG THỰC",
+   "vi": "tăng sinh, nhân lên (tế bào, vi khuẩn)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一度[いちど]解凍[かいとう]した魚[さかな]を室温[しつおん]に置[お]いておくと、菌[きん]が一気[いっき]に増殖[ぞうしょく]する。",
+     "vi": "Cá đã rã đông một lần mà để ở nhiệt độ phòng thì vi khuẩn tăng sinh ồ ạt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "がん細胞[さいぼう]が増殖[ぞうしょく]するしくみについて、テレビで解説[かいせつ]していた。",
+     "vi": "Trên tivi có giải thích về cơ chế tế bào ung thư tăng sinh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、駅前[えきまえ]にコンビニが増殖[ぞうしょく]してるね。B：ほんと。歩[ある]いて三分[さんぷん]の範囲[はんい]に三軒[さんげん]もあるよ。",
+     "vi": "A: Dạo này cửa hàng tiện lợi trước ga mọc lên như nấm nhỉ. B: Thật đấy. Đi bộ ba phút mà có tới ba cửa hàng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "細胞[さいぼう]が増殖[ぞうしょく]する",
+     "vi": "tế bào tăng sinh"
+    },
+    {
+     "jp": "ウイルスが増殖[ぞうしょく]する",
+     "vi": "virus nhân lên"
+    }
+   ],
+   "confuse": [
+    "v:繁殖:はんしょく"
+   ],
+   "note": "増殖[ぞうしょく] = số lượng tự tăng lên (tế bào phân chia, vi khuẩn nhân lên). Nghĩa bóng, đùa: (cửa hàng, đồ đạc) mọc lên nhiều. 繁殖[はんしょく] = sinh sản, nảy nở."
+  },
+  {
+   "id": "v:付着:ふちゃく",
+   "kana": "ふちゃく",
+   "kanji": "付着",
+   "hv": "PHÓ TRƯỚC",
+   "vi": "dính bám, bám dính (lên bề mặt)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手袋[てぶくろ]に付着[ふちゃく]した魚[さかな]のうろこは、こまめに洗[あら]い流[なが]すこと。",
+     "vi": "Vảy cá bám vào găng tay phải chịu khó rửa trôi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "服[ふく]に付着[ふちゃく]した花粉[かふん]を、玄関[げんかん]で払[はら]ってから家[いえ]に入[はい]る。",
+     "vi": "Phủi phấn hoa dính trên áo ở cửa rồi mới vào nhà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このまな板[いた]、黒[くろ]い点[てん]がついてるよ。B：カビが付着[ふちゃく]してるのかもしれない。すぐ交換[こうかん]しよう。",
+     "vi": "A: Cái thớt này có chấm đen này. B: Có lẽ nấm mốc bám vào rồi. Thay ngay thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "汚[よご]れが付着[ふちゃく]する",
+     "vi": "vết bẩn bám vào"
+    },
+    {
+     "jp": "菌[きん]が付着[ふちゃく]する",
+     "vi": "vi khuẩn bám vào"
+    }
+   ],
+   "rel": [
+    "v:付く:つく",
+    "v:異物:いぶつ"
+   ],
+   "note": "付着[ふちゃく] = (vật nhỏ) dính, bám vào bề mặt (văn viết, báo cáo). 付着[ふちゃく]物[ぶつ] = vật bám dính. Văn nói thường dùng 付[つ]く."
+  },
+  {
+   "id": "v:腐敗:ふはい",
+   "kana": "ふはい",
+   "kanji": "腐敗",
+   "hv": "HỦ BẠI",
+   "vi": "thối rữa; (tổ chức) mục nát, hủ bại",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夏場[なつば]は魚[さかな]の腐敗[ふはい]が早[はや]いので、温度[おんど]管理[かんり]を一層[いっそう]厳[きび]しくしている。",
+     "vi": "Mùa hè cá thối rữa nhanh nên việc quản lý nhiệt độ càng được siết chặt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "生[なま]ごみを出[だ]し忘[わす]れたら、腐敗[ふはい]して強[つよ]いにおいがした。",
+     "vi": "Quên đổ rác thực phẩm thì nó thối rữa, bốc mùi nồng nặc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "権力[けんりょく]が長[なが]く一人[ひとり]に集中[しゅうちゅう]すると、組織[そしき]は腐敗[ふはい]しやすい。",
+     "vi": "Quyền lực tập trung lâu vào một người thì tổ chức dễ mục nát.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "食品[しょくひん]が腐敗[ふはい]する",
+     "vi": "thực phẩm bị thối"
+    },
+    {
+     "jp": "組織[そしき]が腐敗[ふはい]する",
+     "vi": "tổ chức mục nát"
+    }
+   ],
+   "confuse": [
+    "v:腐る:くさる",
+    "v:劣化:れっか"
+   ],
+   "note": "腐敗[ふはい] = (thực phẩm) bị vi khuẩn phân hủy, thối (văn viết); nghĩa bóng: (tổ chức) mục nát, tham nhũng. 腐[くさ]る = thối (văn nói). 劣化[れっか] = xuống cấp dần."
+  },
+  {
+   "id": "v:変質:へんしつ",
+   "kana": "へんしつ",
+   "kanji": "変質",
+   "hv": "BIẾN CHẤT",
+   "vi": "biến chất (tính chất đổi đi, thường xấu đi)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "直射日光[ちょくしゃにっこう]が当[あ]たると、油[あぶら]が変質[へんしつ]して味[あじ]が落[お]ちる。",
+     "vi": "Bị ánh nắng chiếu trực tiếp thì dầu biến chất, vị kém đi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "開封[かいふう]した調味料[ちょうみりょう]は、変質[へんしつ]を防[ふせ]ぐため冷蔵庫[れいぞうこ]で保存[ほぞん]してください。",
+     "vi": "Gia vị đã mở hãy bảo quản trong tủ lạnh để tránh biến chất.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "油[あぶら]が変質[へんしつ]する",
+     "vi": "dầu bị biến chất"
+    },
+    {
+     "jp": "薬品[やくひん]が変質[へんしつ]する",
+     "vi": "hóa chất bị biến chất"
+    }
+   ],
+   "confuse": [
+    "v:劣化:れっか"
+   ],
+   "note": "変質[へんしつ] = tính chất thay đổi (thường xấu đi) do nhiệt, ánh sáng, thời gian. 劣化[れっか] = xuống cấp dần theo thời gian (vật liệu, chất lượng). 変質者[へんしつしゃ] = kẻ biến thái (nghĩa khác hẳn)."
+  },
+  {
+   "id": "v:媒介:ばいかい",
+   "kana": "ばいかい",
+   "kanji": "媒介",
+   "hv": "MÔI GIỚI",
+   "vi": "làm trung gian truyền (bệnh); môi giới",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ネズミやハエは、食中毒[しょくちゅうどく]の原因[げんいん]となる菌[きん]を媒介[ばいかい]することがある。",
+     "vi": "Chuột và ruồi có khi làm trung gian truyền vi khuẩn gây ngộ độc thực phẩm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "蚊[か]が媒介[ばいかい]する病気[びょうき]を防[ふせ]ぐため、公園[こうえん]の水[みず]たまりをなくしている。",
+     "vi": "Để phòng bệnh do muỗi truyền, người ta xóa các vũng nước đọng trong công viên.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "病原菌[びょうげんきん]を媒介[ばいかい]する",
+     "vi": "truyền mầm bệnh"
+    },
+    {
+     "jp": "ウイルスを媒介[ばいかい]する",
+     "vi": "làm trung gian truyền virus"
+    }
+   ],
+   "rel": [
+    "v:食中毒:しょくちゅうどく"
+   ],
+   "note": "媒介[ばいかい] = đứng giữa làm cầu nối truyền từ cái này sang cái kia (côn trùng truyền bệnh). Còn nghĩa: môi giới (不動産[ふどうさん]の媒介[ばいかい] = môi giới bất động sản)."
+  },
+  {
+   "id": "v:潜伏:せんぷく",
+   "kana": "せんぷく",
+   "kanji": "潜伏",
+   "hv": "TIỀM PHỤC",
+   "vi": "ủ bệnh (trong cơ thể); ẩn nấp",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "症状[しょうじょう]が出[で]ていなくても、ウイルスが潜伏[せんぷく]していることがあるので、体調[たいちょう]の変化[へんか]はすぐ報告[ほうこく]すること。",
+     "vi": "Dù chưa có triệu chứng vẫn có thể virus đang ủ trong người, nên thay đổi sức khỏe phải báo ngay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "潜伏[せんぷく]期間中[きかんちゅう]でも、ほかの人[ひと]にうつる病気[びょうき]がある。",
+     "vi": "Có những bệnh dù đang trong thời gian ủ bệnh vẫn lây sang người khác.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ウイルスが潜伏[せんぷく]する",
+     "vi": "virus ủ trong cơ thể"
+    },
+    {
+     "jp": "山中[さんちゅう]に潜伏[せんぷく]する",
+     "vi": "ẩn náu trong núi"
+    }
+   ],
+   "rel": [
+    "v:症状:しょうじょう",
+    "v:発症:はっしょう"
+   ],
+   "note": "潜伏[せんぷく]期間[きかん] = thời gian ủ bệnh. Nghĩa khác: (kẻ phạm tội) ẩn náu, lẩn trốn (犯人[はんにん]が潜伏[せんぷく]する)."
+  },
+  {
+   "id": "v:発症:はっしょう",
+   "kana": "はっしょう",
+   "kanji": "発症",
+   "hv": "PHÁT CHỨNG",
+   "vi": "phát bệnh, bắt đầu có triệu chứng",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "食中毒[しょくちゅうどく]は、食事[しょくじ]をしてから数時間[すうじかん]後[ご]に発症[はっしょう]することが多[おお]い。",
+     "vi": "Ngộ độc thực phẩm thường phát bệnh sau bữa ăn vài tiếng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "従業員[じゅうぎょういん]が発症[はっしょう]した場合[ばあい]に備[そな]えて、連絡[れんらく]の手順[てじゅん]を決[き]めておく。",
+     "vi": "Định sẵn trình tự liên lạc phòng khi nhân viên phát bệnh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：花粉症[かふんしょう]って、いつから？B：日本[にほん]に来[き]て三年[さんねん]目[め]に、急[きゅう]に発症[はっしょう]したんだ。",
+     "vi": "A: Anh bị dị ứng phấn hoa từ bao giờ? B: Năm thứ ba sang Nhật thì tự dưng phát bệnh.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "突然[とつぜん]発症[はっしょう]する",
+     "vi": "phát bệnh đột ngột"
+    },
+    {
+     "jp": "花粉症[かふんしょう]を発症[はっしょう]する",
+     "vi": "bị dị ứng phấn hoa"
+    }
+   ],
+   "confuse": [
+    "v:発祥:はっしょう"
+   ],
+   "rel": [
+    "v:潜伏:せんぷく",
+    "v:症状:しょうじょう"
+   ],
+   "note": "発症[はっしょう] = triệu chứng bắt đầu xuất hiện (〜が発症[はっしょう]する / 〜を発症[はっしょう]する). Đồng âm 発祥[はっしょう] = khởi nguồn, phát tích (văn hóa, món ăn)."
+  },
+  {
+   "id": "v:嘔吐:おうと",
+   "kana": "おうと",
+   "kanji": "嘔吐",
+   "hv": "ẨU THỔ",
+   "vi": "nôn mửa",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "嘔吐[おうと]物[ぶつ]を処理[しょり]するときは、使[つか]い捨[す]ての手袋[てぶくろ]とマスクを着用[ちゃくよう]する。",
+     "vi": "Khi xử lý chất nôn phải đeo găng tay dùng một lần và khẩu trang.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子[こ]どもが夜中[よなか]に嘔吐[おうと]したので、朝一番[あさいちばん]で病院[びょういん]に連[つ]れて行[い]った。",
+     "vi": "Con nôn lúc nửa đêm nên sáng sớm tôi đưa đi viện ngay.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "激[はげ]しく嘔吐[おうと]する",
+     "vi": "nôn dữ dội"
+    }
+   ],
+   "rel": [
+    "v:吐く:はく",
+    "v:吐き気:はきけ"
+   ],
+   "note": "Từ y học, văn viết; văn nói dùng 吐[は]く / もどす. 嘔吐物[おうとぶつ] = chất nôn (xử lý theo quy trình riêng vì có thể chứa norovirus)."
+  },
+  {
+   "id": "v:不衛生:ふえいせい",
+   "kana": "ふえいせい",
+   "kanji": "不衛生",
+   "hv": "BẤT VỆ SINH",
+   "vi": "thiếu vệ sinh (môi trường, cách làm)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不衛生[ふえいせい]な環境[かんきょう]で作[つく]られた食品[しょくひん]は、どれほど安[やす]くても買[か]いたくない。",
+     "vi": "Thực phẩm làm trong môi trường mất vệ sinh thì rẻ đến mấy tôi cũng không muốn mua.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "長[なが]い爪[つめ]は不衛生[ふえいせい]なので、作業[さぎょう]前[まえ]に必[かなら]ず切[き]っておくこと。",
+     "vi": "Móng tay dài là mất vệ sinh nên trước khi làm việc nhất định phải cắt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：このタオル、みんなで使[つか]ってるの？B：うん。でも共用[きょうよう]は不衛生[ふえいせい]だから、ペーパータオルに変[か]えようと思[おも]って。",
+     "vi": "A: Cái khăn này mọi người dùng chung à? B: Ừ. Nhưng dùng chung thì mất vệ sinh, nên tôi định đổi sang khăn giấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "環境[かんきょう]",
+     "vi": "môi trường"
+    },
+    {
+     "jp": "爪[つめ]",
+     "vi": "móng tay"
+    }
+   ],
+   "ant": [
+    "v:清潔:せいけつ"
+   ],
+   "confuse": [
+    "v:不潔:ふけつ"
+   ],
+   "rel": [
+    "v:衛生:えいせい"
+   ],
+   "note": "不衛生[ふえいせい] = không đảm bảo vệ sinh, có nguy cơ gây bệnh (môi trường, cách làm). 不潔[ふけつ] = bẩn thỉu, gây cảm giác ghê."
+  },
+  {
+   "id": "v:駆除:くじょ",
+   "kana": "くじょ",
+   "kanji": "駆除",
+   "hv": "KHU TRỪ",
+   "vi": "diệt trừ (sâu bọ, chuột)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]の周[まわ]りでネズミが見[み]つかったので、専門[せんもん]業[ぎょう]者[しゃ]に駆除[くじょ]を依頼[いらい]した。",
+     "vi": "Phát hiện chuột quanh xưởng nên đã nhờ công ty chuyên nghiệp diệt trừ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "庭[にわ]に蜂[はち]の巣[す]ができたので、市役所[しやくしょ]に駆除[くじょ]の方法[ほうほう]を相談[そうだん]した。",
+     "vi": "Vườn có tổ ong nên tôi hỏi tòa thị chính cách diệt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、倉庫[そうこ]で虫[むし]をよく見[み]かけるね。B：月[つき]に一度[いちど]の害虫[がいちゅう]駆除[くじょ]だけじゃ、足[た]りないのかもしれない。",
+     "vi": "A: Dạo này hay thấy côn trùng trong kho nhỉ. B: Diệt côn trùng mỗi tháng một lần có lẽ không đủ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "害虫[がいちゅう]を駆除[くじょ]する",
+     "vi": "diệt côn trùng có hại"
+    },
+    {
+     "jp": "ネズミを駆除[くじょ]する",
+     "vi": "diệt chuột"
+    }
+   ],
+   "note": "Dùng cho sinh vật có hại: 害虫[がいちゅう]駆除[くじょ] = diệt côn trùng có hại; 駆除[くじょ]業[ぎょう]者[しゃ] = công ty diệt côn trùng. Máy tính: ウイルスを駆除[くじょ]する = diệt virus."
+  },
+  {
+   "id": "v:残留:ざんりゅう",
+   "kana": "ざんりゅう",
+   "kanji": "残留",
+   "hv": "TÀN LƯU",
+   "vi": "tồn dư, còn sót lại (hóa chất, chất tẩy)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "洗浄[せんじょう]後[ご]、塩素[えんそ]が残留[ざんりゅう]していないか、試験紙[しけんし]で確認[かくにん]する。",
+     "vi": "Sau khi rửa, kiểm tra bằng giấy thử xem có clo tồn dư không.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "残留[ざんりゅう]農薬[のうやく]が気[き]になるので、野菜[やさい]はよく洗[あら]ってから食[た]べている。",
+     "vi": "Tôi lo dư lượng thuốc trừ sâu nên rửa rau thật kỹ rồi mới ăn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "薬剤[やくざい]が残留[ざんりゅう]する",
+     "vi": "hóa chất tồn dư"
+    },
+    {
+     "jp": "塩素[えんそ]が残留[ざんりゅう]する",
+     "vi": "clo còn sót lại"
+    }
+   ],
+   "rel": [
+    "v:残る:のこる"
+   ],
+   "note": "残留[ざんりゅう]農薬[のうやく] = dư lượng thuốc trừ sâu; 残留[ざんりゅう]塩素[えんそ] = clo dư. Nghĩa khác: ở lại (チームに残留[ざんりゅう]する = ở lại đội)."
+  },
+  {
+   "id": "v:希釈:きしゃく",
+   "kana": "きしゃく",
+   "kanji": "希釈",
+   "hv": "HY THÍCH",
+   "vi": "pha loãng",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "次亜[じあ]塩素酸[えんそさん]ナトリウムは、決[き]められた濃度[のうど]に希釈[きしゃく]してから使[つか]う。",
+     "vi": "Natri hypoclorit phải pha loãng đúng nồng độ quy định rồi mới dùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この洗剤[せんざい]は水[みず]で薄[うす]めて使[つか]うタイプだが、希釈[きしゃく]の割合[わりあい]が分[わ]かりにくい。",
+     "vi": "Chất tẩy này là loại pha với nước để dùng, nhưng tỉ lệ pha loãng khó hiểu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：消毒液[しょうどくえき]、原液[げんえき]のまま使[つか]っちゃだめ？B：だめだよ。ちゃんと希釈[きしゃく]しないと、手[て]が荒[あ]れるし、かえって危[あぶ]ない。",
+     "vi": "A: Dung dịch khử trùng dùng nguyên chất không được à? B: Không được. Không pha loãng đúng thì tay bị nứt nẻ, mà còn nguy hiểm nữa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "水[みず]で希釈[きしゃく]する",
+     "vi": "pha loãng với nước"
+    },
+    {
+     "jp": "原液[げんえき]を希釈[きしゃく]する",
+     "vi": "pha loãng dung dịch gốc"
+    }
+   ],
+   "rel": [
+    "v:濃い:こい"
+   ],
+   "note": "希釈[きしゃく] = thêm nước để làm loãng (văn bản kỹ thuật, nhãn hóa chất). 希釈[きしゃく]倍率[ばいりつ] = tỉ lệ pha. Văn nói: 薄[うす]める."
+  },
+  {
+   "id": "v:拭う:ぬぐう",
+   "kana": "ぬぐう",
+   "kanji": "拭う",
+   "kf": "拭[ぬぐ]う",
+   "hv": "THỨC",
+   "vi": "lau (mồ hôi, nước mắt); xóa đi (nỗi bất an, nghi ngờ)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vi khuẩn & vệ sinh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "額[ひたい]の汗[あせ]を拭[ぬぐ]いながら、炎天下[えんてんか]で荷物[にもつ]を運[はこ]んだ。",
+     "vi": "Vừa lau mồ hôi trán vừa khuân hàng dưới trời nắng gắt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一度[いちど]生[う]まれた不信感[ふしんかん]は、簡単[かんたん]には拭[ぬぐ]えない。",
+     "vi": "Sự ngờ vực một khi đã nảy sinh thì không dễ xóa đi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：新[あたら]しい取引先[とりひきさき]、大丈夫[だいじょうぶ]かな。B：説明[せつめい]は丁寧[ていねい]だったけど、なんとなく不安[ふあん]が拭[ぬぐ]えないんだよね。",
+     "vi": "A: Đối tác mới ổn không nhỉ. B: Giải thích thì chu đáo, nhưng sao tôi vẫn không gạt được nỗi bất an.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "汗[あせ]を拭[ぬぐ]う",
+     "vi": "lau mồ hôi"
+    },
+    {
+     "jp": "不安[ふあん]を拭[ぬぐ]う",
+     "vi": "xóa tan bất an"
+    },
+    {
+     "jp": "疑[うたが]いを拭[ぬぐ]う",
+     "vi": "gột bỏ nghi ngờ"
+    }
+   ],
+   "confuse": [
+    "v:拭く:ふく"
+   ],
+   "note": "Cùng chữ Hán với 拭[ふ]く (lau). 拭[ぬぐ]う văn viết hơn, hay dùng với mồ hôi, nước mắt; nghĩa bóng: 不安[ふあん] / 疑念[ぎねん] / 違和感[いわかん]が拭[ぬぐ]えない = không gạt đi được. 口[くち]を拭[ぬぐ]う = giả vờ như không biết."
+  },
+  {
+   "id": "v:励行:れいこう",
+   "kana": "れいこう",
+   "kanji": "励行",
+   "hv": "LỆ HÀNH",
+   "vi": "thực hiện nghiêm, đều đặn (quy tắc đã định)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghiêm ngặt, không lơ là",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "作業場[さぎょうば]に入[はい]る前[まえ]の手洗[てあら]いと消毒[しょうどく]を、全員[ぜんいん]に励行[れいこう]させている。",
+     "vi": "Bắt mọi người thực hiện nghiêm việc rửa tay và khử trùng trước khi vào khu làm việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "学校[がっこう]では、毎朝[まいあさ]の検温[けんおん]を励行[れいこう]するよう呼[よ]びかけている。",
+     "vi": "Nhà trường kêu gọi thực hiện nghiêm việc đo thân nhiệt mỗi sáng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手洗[てあら]いを励行[れいこう]する",
+     "vi": "thực hiện nghiêm việc rửa tay"
+    },
+    {
+     "jp": "節電[せつでん]を励行[れいこう]する",
+     "vi": "thực hiện nghiêm tiết kiệm điện"
+    }
+   ],
+   "confuse": [
+    "v:徹底:てってい",
+    "v:遵守:じゅんしゅ"
+   ],
+   "note": "励行[れいこう] = cố gắng thực hiện đều đặn, đúng như quy định (biển hiệu, thông báo: 手洗[てあら]い励行[れいこう], 安全[あんぜん]運転[うんてん]励行[れいこう]). 徹底[てってい] = làm triệt để tới từng chỗ. 遵守[じゅんしゅ] = tuân thủ (luật, quy định)."
+  },
+  {
+   "id": "v:鉄則:てっそく",
+   "kana": "てっそく",
+   "kanji": "鉄則",
+   "hv": "THIẾT TẮC",
+   "vi": "nguyên tắc bất di bất dịch",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghiêm ngặt, không lơ là",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "生食用[せいしょくよう]の魚[さかな]は、決[き]められた温度[おんど]以下[いか]で保管[ほかん]するのが鉄則[てっそく]だ。",
+     "vi": "Cá ăn sống phải bảo quản dưới nhiệt độ quy định, đó là nguyên tắc bất di bất dịch.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "安[やす]く仕入[しい]れて高[たか]く売[う]るのが、商売[しょうばい]の鉄則[てっそく]だ。",
+     "vi": "Nhập rẻ bán đắt là nguyên tắc sắt của buôn bán.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:原則:げんそく"
+   ],
+   "rel": [
+    "v:規則:きそく"
+   ],
+   "note": "鉄則[てっそく] = quy tắc cứng như sắt, không được phá (〜のが鉄則[てっそく]だ). 原則[げんそく] = nguyên tắc chung, có thể có ngoại lệ."
+  },
+  {
+   "id": "v:厳格:げんかく",
+   "kana": "げんかく",
+   "kanji": "厳格",
+   "hv": "NGHIÊM CÁCH",
+   "vi": "nghiêm cẩn, không nới lỏng (quy định, kỷ luật, tính người)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghiêm ngặt, không lơ là",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "生食用[せいしょくよう]の加工[かこう]場[じょう]では、温度[おんど]管理[かんり]の基準[きじゅん]が厳格[げんかく]に定[さだ]められている。",
+     "vi": "Ở xưởng chế biến đồ ăn sống, tiêu chuẩn quản lý nhiệt độ được quy định chặt chẽ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "父[ちち]は厳格[げんかく]な人[ひと]で、食事[しょくじ]中[ちゅう]にテレビを見[み]ることも許[ゆる]さなかった。",
+     "vi": "Bố tôi là người nghiêm khắc, đến xem tivi trong bữa ăn cũng không cho.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今度[こんど]の監査[かんさ]、どこまで見[み]られるのかな。B：取引先[とりひきさき]の基準[きじゅん]はかなり厳格[げんかく]だから、記録[きろく]は一枚[いちまい]残[のこ]らずチェックされると思[おも]うよ。",
+     "vi": "A: Đợt kiểm tra lần này họ xem tới đâu nhỉ. B: Tiêu chuẩn của đối tác khá chặt chẽ nên chắc họ soát không sót một tờ ghi chép nào.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "規則[きそく]",
+     "vi": "quy định"
+    },
+    {
+     "jp": "父親[ちちおや]",
+     "vi": "người cha"
+    }
+   ],
+   "ant": [
+    "v:寛大:かんだい"
+   ],
+   "confuse": [
+    "v:厳重:げんじゅう",
+    "v:厳密:げんみつ"
+   ],
+   "note": "厳格[げんかく] = nghiêm, không nới lỏng (quy định, kỷ luật, tính cách). 厳重[げんじゅう] = nghiêm ngặt về canh phòng, cảnh giác (厳重[げんじゅう]注意[ちゅうい], 厳重[げんじゅう]に保管[ほかん]). 厳密[げんみつ] = chính xác tới chi tiết (厳密[げんみつ]に言[い]えば)."
+  },
+  {
+   "id": "v:周到:しゅうとう",
+   "kana": "しゅうとう",
+   "kanji": "周到",
+   "hv": "CHU ĐÁO",
+   "vi": "chu đáo mọi bề, lo trước (chuẩn bị, kế hoạch)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghiêm ngặt, không lơ là",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "取引先[とりひきさき]の監査[かんさ]に、周到[しゅうとう]な準備[じゅんび]をして臨[のぞ]んだ。",
+     "vi": "Đã chuẩn bị chu đáo rồi mới bước vào đợt kiểm tra của đối tác.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "用意[ようい]周到[しゅうとう]な妻[つま]は、旅行[りょこう]のときも必[かなら]ず予備[よび]の薬[くすり]を持[も]っていく。",
+     "vi": "Vợ tôi chuẩn bị kỹ càng, đi du lịch cũng nhất định mang theo thuốc dự phòng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：明日[あした]の工場見学[こうじょうけんがく]、雨[あめ]が降[ふ]ったらどうする？B：準備[じゅんび]は周到[しゅうとう]にしてあるよ。傘[かさ]も替[か]えの長靴[ながぐつ]も、人数分[にんずうぶん]そろえてある。",
+     "vi": "A: Mai đoàn tham quan xưởng mà mưa thì sao? B: Chuẩn bị kỹ rồi. Ô với ủng thay đều đủ cho từng người.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "準備[じゅんび]",
+     "vi": "sự chuẩn bị"
+    },
+    {
+     "jp": "計画[けいかく]",
+     "vi": "kế hoạch"
+    }
+   ],
+   "rel": [
+    "v:綿密:めんみつ",
+    "v:入念:にゅうねん"
+   ],
+   "note": "周到[しゅうとう] = lo trước mọi khả năng, không sót (周到[しゅうとう]な準備[じゅんび] / 計画[けいかく]; 用意周到[よういしゅうとう] = chuẩn bị kỹ càng). Có khi mang ý chê: 周到[しゅうとう]に仕組[しく]まれた詐欺[さぎ] = vụ lừa được sắp đặt tinh vi."
+  },
+  {
+   "id": "v:抜かり:ぬかり",
+   "kana": "ぬかり",
+   "kanji": "抜かり",
+   "kf": "抜[ぬ]かり",
+   "hv": "BẠT",
+   "vi": "sơ suất (do lơ đễnh, hay dùng phủ định)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghiêm ngặt, không lơ là",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "出荷[しゅっか]前[まえ]の確認[かくにん]に抜[ぬ]かりはない。",
+     "vi": "Khâu kiểm tra trước khi xuất hàng không có sơ suất nào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "旅行[りょこう]の準備[じゅんび]は抜[ぬ]かりなく済[す]ませたつもりだったが、パスポートを忘[わす]れてしまった。",
+     "vi": "Cứ tưởng chuẩn bị du lịch đâu vào đấy, ai ngờ quên hộ chiếu.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "抜[ぬ]かりなく準備[じゅんび]する",
+     "vi": "chuẩn bị đâu vào đấy"
+    }
+   ],
+   "rel": [
+    "v:手抜かり:てぬかり",
+    "v:油断:ゆだん"
+   ],
+   "note": "Hầu như dùng phủ định: 抜[ぬ]かりはない / 抜[ぬ]かりなく (đâu vào đấy, không sơ suất). 手抜[てぬ]かり = sơ suất trong công việc (chỉ lỗi cụ thể)."
+  },
+  {
+   "id": "v:寸分:すんぶん",
+   "kana": "すんぶん",
+   "kanji": "寸分",
+   "hv": "THỐN PHÂN",
+   "vi": "mảy may, một li (đi với phủ định)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghiêm ngặt, không lơ là",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "職人[しょくにん]が切[き]った刺身[さしみ]は、厚[あつ]さが寸分[すんぶん]の狂[くる]いもなくそろっている。",
+     "vi": "Những lát sashimi người thợ cắt có độ dày đều nhau, không lệch một li.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "復元[ふくげん]された城[しろ]は、昔[むかし]の図面[ずめん]と寸分[すんぶん]違[たが]わない姿[すがた]で建[た]てられた。",
+     "vi": "Tòa thành được phục dựng theo đúng bản vẽ ngày xưa, không sai một li.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "寸分[すんぶん] = lượng cực nhỏ (một 寸[すん] xưa khoảng 3cm). Cụm cố định: 寸分[すんぶん]の狂[くる]いもない / 寸分[すんぶん]違[たが]わず = chính xác tuyệt đối, không sai mảy may."
+  },
+  {
+   "id": "v:微塵:みじん",
+   "kana": "みじん",
+   "kanji": "微塵",
+   "hv": "VI TRẦN",
+   "vi": "mảy may (dùng với phủ định); mảnh vụn",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghiêm ngặt, không lơ là",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "品質[ひんしつ]に関[かん]しては、妥協[だきょう]するつもりは微塵[みじん]もない。",
+     "vi": "Về chất lượng, tôi không có ý thỏa hiệp dù chỉ mảy may.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "彼[かれ]の態度[たいど]には、反省[はんせい]の色[いろ]が微塵[みじん]も見[み]られなかった。",
+     "vi": "Thái độ của hắn không hề có mảy may hối lỗi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "玉[たま]ねぎをみじん切[ぎ]りにして、ひき肉[にく]に混[ま]ぜる。",
+     "vi": "Băm nhỏ hành tây rồi trộn vào thịt xay.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:毛頭:もうとう",
+    "v:少しも:すこしも"
+   ],
+   "note": "微塵[みじん]も〜ない = không mảy may (văn viết, mạnh). みじん切[ぎ]り = băm nhỏ (nấu ăn). 木[こ]っ端[ぱ]微塵[みじん] = vỡ tan tành."
+  },
+  {
+   "id": "v:皆無:かいむ",
+   "kana": "かいむ",
+   "kanji": "皆無",
+   "hv": "GIAI VÔ",
+   "vi": "hoàn toàn không có",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghiêm ngặt, không lơ là",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この金属[きんぞく]探知機[たんちき]を入[い]れてから、金属片[きんぞくへん]の混入[こんにゅう]は皆無[かいむ]だ。",
+     "vi": "Từ khi đưa máy dò kim loại này vào, chưa hề có vụ lẫn mảnh kim loại nào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "このあたりは、夜[よる]になると人通[ひとどお]りが皆無[かいむ]に等[ひと]しい。",
+     "vi": "Vùng này cứ tối đến là gần như không một bóng người qua lại.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:一切:いっさい"
+   ],
+   "note": "皆無[かいむ] = hoàn toàn không có (văn viết; mạnh hơn ほとんどない). 皆無[かいむ]に等[ひと]しい = gần như không có. 皆無[かいむ]だ / 皆無[かいむ]である."
+  },
+  {
+   "id": "v:隙:すき",
+   "kana": "すき",
+   "kanji": "隙",
+   "hv": "KHÍCH",
+   "vi": "sơ hở, kẽ hở (lơ là)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghiêm ngặt, không lơ là",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "忙[いそが]しいときほど、心[こころ]に隙[すき]が生[う]まれやすい。",
+     "vi": "Càng lúc bận càng dễ sinh lơi lỏng trong lòng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "泥棒[どろぼう]は、住人[じゅうにん]の隙[すき]をついて家[いえ]に入[はい]ったらしい。",
+     "vi": "Nghe nói tên trộm lợi dụng lúc người nhà sơ hở mà lẻn vào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新[あたら]しい課長[かちょう]、どんな人[ひと]？B：仕事[しごと]に隙[すき]がなくて、ちょっと近寄[ちかよ]りがたい感[かん]じかな。",
+     "vi": "A: Trưởng phòng mới là người thế nào? B: Làm việc không có kẽ hở, cảm giác hơi khó gần.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "隙[すき]を見[み]せる",
+     "vi": "để lộ sơ hở"
+    },
+    {
+     "jp": "隙[すき]をつく",
+     "vi": "lợi dụng sơ hở"
+    }
+   ],
+   "rel": [
+    "v:油断:ゆだん"
+   ],
+   "note": "隙[すき]がない = không có sơ hở (chu toàn). 隙[すき]を見[み]せる = để lộ sơ hở. 隙[すき]をつく / 隙[すき]を狙[ねら]う = lợi dụng sơ hở. 隙間[すきま] = khe hở (vật lý)."
+  },
+  {
+   "id": "v:緩み:ゆるみ",
+   "kana": "ゆるみ",
+   "kanji": "緩み",
+   "kf": "緩[ゆる]み",
+   "hv": "HOÃN",
+   "vi": "sự lơi lỏng, lỏng lẻo (tinh thần, ốc vít)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghiêm ngặt, không lơ là",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事故[じこ]の多[おお]くは、慣[な]れからくる気[き]の緩[ゆる]みが原因[げんいん]だと言[い]われる。",
+     "vi": "Người ta nói phần lớn tai nạn bắt nguồn từ sự lơ là do đã quen việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "靴[くつ]ひもの緩[ゆる]みに気[き]づかず、階段[かいだん]でつまずいてしまった。",
+     "vi": "Không để ý dây giày bị lỏng nên vấp ở cầu thang.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:緩む:ゆるむ",
+    "v:油断:ゆだん"
+   ],
+   "note": "気[き]の緩[ゆる]み = sự lơ là, chủ quan; 規律[きりつ]の緩[ゆる]み = kỷ luật lỏng lẻo; ねじの緩[ゆる]み = ốc bị lỏng. Động từ: 緩[ゆる]む, 緩[ゆる]める."
+  },
+  {
+   "id": "v:過信:かしん",
+   "kana": "かしん",
+   "kanji": "過信",
+   "hv": "QUÁ TÍN",
+   "vi": "quá tin, tin quá mức",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghiêm ngặt, không lơ là",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "経験[けいけん]を過信[かしん]すると、思[おも]わぬミスにつながる。",
+     "vi": "Quá tin vào kinh nghiệm dễ dẫn đến sai sót không ngờ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "天気予報[てんきよほう]を過信[かしん]して傘[かさ]を持[も]たずに出[で]かけたら、大雨[おおあめ]に降[ふ]られた。",
+     "vi": "Quá tin dự báo thời tiết, ra ngoài không mang ô thì gặp mưa to.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：ベテランの山田[やまだ]さんにしてこのミスとは、珍[めずら]しいね。B：自分[じぶん]の腕[うで]を過信[かしん]していたって、本人[ほんにん]も反省[はんせい]していたよ。",
+     "vi": "A: Đến anh Yamada lâu năm mà còn mắc lỗi này, hiếm thấy nhỉ. B: Chính anh ấy cũng tự kiểm điểm là đã quá tin tay nghề của mình.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "自分[じぶん]の力[ちから]を過信[かしん]する",
+     "vi": "quá tin vào sức mình"
+    },
+    {
+     "jp": "機械[きかい]を過信[かしん]する",
+     "vi": "quá tin vào máy móc"
+    }
+   ],
+   "rel": [
+    "v:自信:じしん",
+    "v:油断:ゆだん"
+   ],
+   "note": "過信[かしん] = tin quá mức thực tế (năng lực, máy móc, số liệu) — thường dẫn tới sai lầm. 過信[かしん]は禁物[きんもつ] = chớ có quá tin."
+  },
+  {
+   "id": "v:なおざり:なおざり",
+   "kana": "なおざり",
+   "kanji": "",
+   "hv": "",
+   "vi": "bỏ bê, làm chiếu lệ (biết mà không chú tâm)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghiêm ngặt, không lơ là",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "忙[いそが]しさを理由[りゆう]に、清掃[せいそう]をなおざりにしてはいけない。",
+     "vi": "Không được lấy cớ bận mà làm qua loa việc dọn vệ sinh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "仕事[しごと]ばかりで、家族[かぞく]との時間[じかん]をなおざりにしてきたことを後悔[こうかい]している。",
+     "vi": "Tôi hối hận vì chỉ lo công việc mà bỏ bê thời gian với gia đình.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：温度[おんど]の記録[きろく]、今日[きょう]ぐらい後[あと]でまとめて書[か]いてもいいかな。B：だめだよ。一日[いちにち]たりともなおざりにはできない。",
+     "vi": "A: Sổ ghi nhiệt độ, riêng hôm nay để lát ghi gộp được không nhỉ. B: Không được. Dù chỉ một ngày cũng không được làm qua loa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "確認[かくにん]",
+     "vi": "việc kiểm tra"
+    },
+    {
+     "jp": "安全[あんぜん]対策[たいさく]",
+     "vi": "biện pháp an toàn"
+    }
+   ],
+   "confuse": [
+    "v:疎か:おろそか"
+   ],
+   "rel": [
+    "v:怠る:おこたる"
+   ],
+   "note": "Dạng hay gặp: 〜をなおざりにする = làm qua loa, bỏ bê. 疎[おろそ]か = lơ là vì thiếu chú ý. Chữ Hán 等閑[なおざり] ít dùng."
+  },
+  {
+   "id": "v:徹する:てっする",
+   "kana": "てっする",
+   "kanji": "徹する",
+   "kf": "徹[てっ]する",
+   "hv": "TRIỆT",
+   "vi": "dồn hết vào, chuyên tâm (một vai trò, nguyên tắc); thức trọn (đêm)",
+   "pos": "v3",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Nghiêm ngặt, không lơ là",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい主任[しゅにん]は、最初[さいしょ]の一[いっ]か月[げつ]は聞[き]き役[やく]に徹[てっ]することにした。",
+     "vi": "Chủ nhiệm mới quyết định tháng đầu chỉ chuyên tâm lắng nghe.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "うちのチームは守[まも]りに徹[てっ]して、一点[いってん]差[さ]を守[まも]り切[き]った。",
+     "vi": "Đội chúng tôi dồn toàn lực phòng thủ, giữ vững cách biệt một điểm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今回[こんかい]の監査[かんさ]、どう対応[たいおう]すればいいでしょうか。B：基本[きほん]に徹[てっ]することだね。いつもの手順[てじゅん]を、一[ひと]つずつ丁寧[ていねい]に見[み]せればいい。",
+     "vi": "A: Đợt kiểm tra lần này nên ứng phó thế nào ạ? B: Bám chắc cái cơ bản. Cứ trình bày cẩn thận từng bước quy trình như mọi khi là được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "裏方[うらかた]に徹[てっ]する",
+     "vi": "chuyên tâm làm hậu cần"
+    },
+    {
+     "jp": "基本[きほん]に徹[てっ]する",
+     "vi": "bám chắc cái cơ bản"
+    },
+    {
+     "jp": "夜[よ]を徹[てっ]する",
+     "vi": "thức suốt đêm"
+    }
+   ],
+   "rel": [
+    "v:徹底:てってい"
+   ],
+   "note": "〜に徹[てっ]する = dồn hết vào một vai trò, một nguyên tắc, không làm gì khác (聞[き]き役[やく]に徹[てっ]する = chỉ lắng nghe). 夜[よ]を徹[てっ]して = suốt đêm (徹夜[てつや])."
+  },
+  {
+   "id": "v:熟達:じゅくたつ",
+   "kana": "じゅくたつ",
+   "kanji": "熟達",
+   "hv": "THỤC ĐẠT",
+   "vi": "thành thạo, tinh thông (qua rèn luyện lâu)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "包丁[ほうちょう]の扱[あつか]いに熟達[じゅくたつ]するには、何[なん]年[ねん]もの経験[けいけん]が必要[ひつよう]だ。",
+     "vi": "Để thành thạo dùng dao cần nhiều năm kinh nghiệm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "祖母[そぼ]は書道[しょどう]に熟達[じゅくたつ]していて、近所[きんじょ]の子[こ]どもたちに教[おし]えている。",
+     "vi": "Bà tôi tinh thông thư pháp, dạy cho bọn trẻ hàng xóm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "技術[ぎじゅつ]に熟達[じゅくたつ]する",
+     "vi": "thành thạo kỹ thuật"
+    },
+    {
+     "jp": "語学[ごがく]に熟達[じゅくたつ]する",
+     "vi": "tinh thông ngoại ngữ"
+    }
+   ],
+   "confuse": [
+    "v:習熟:しゅうじゅく",
+    "v:熟練:じゅくれん"
+   ],
+   "note": "熟達[じゅくたつ] = đạt tới trình độ cao, tinh thông (〜に熟達[じゅくたつ]する; văn viết). 習熟[しゅうじゅく] = học cho thuần thục (thao tác, quy trình). 熟練[じゅくれん] = tay nghề lão luyện (熟練工[じゅくれんこう], 熟練[じゅくれん]の技[わざ])."
+  },
+  {
+   "id": "v:円熟:えんじゅく",
+   "kana": "えんじゅく",
+   "kanji": "円熟",
+   "hv": "VIÊN THỤC",
+   "vi": "chín chắn, già dặn (tay nghề, nhân cách)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "円熟[えんじゅく]した職人[しょくにん]の包丁[ほうちょう]さばきは、見[み]ていて飽[あ]きない。",
+     "vi": "Đường dao của người thợ đã chín nghề xem mãi không chán.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "年[とし]を重[かさ]ねて、その俳優[はいゆう]の演技[えんぎ]はますます円熟味[えんじゅくみ]を増[ま]した。",
+     "vi": "Càng có tuổi, diễn xuất của nam diễn viên ấy càng thêm phần già dặn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "芸[げい]が円熟[えんじゅく]する",
+     "vi": "nghệ thuật đạt độ chín"
+    },
+    {
+     "jp": "人柄[ひとがら]が円熟[えんじゅく]する",
+     "vi": "tính cách trở nên chín chắn"
+    }
+   ],
+   "rel": [
+    "v:老練:ろうれん",
+    "v:熟練:じゅくれん"
+   ],
+   "note": "円熟[えんじゅく] = (tay nghề, nghệ thuật, nhân cách) đạt độ chín, tròn trịa sau nhiều năm. 円熟[えんじゅく]期[き] = thời kỳ chín muồi; 円熟味[えんじゅくみ] = vẻ già dặn, đằm thắm."
+  },
+  {
+   "id": "v:古参:こさん",
+   "kana": "こさん",
+   "kanji": "古参",
+   "hv": "CỔ THAM",
+   "vi": "người lâu năm, kỳ cựu (trong tổ chức)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]はこの工場[こうじょう]で一番[いちばん]の古参[こさん]で、機械[きかい]のくせを誰[だれ]よりも知[し]っている。",
+     "vi": "Ông ấy là người lâu năm nhất xưởng này, biết tật của máy móc hơn ai hết.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "町内会[ちょうないかい]では、古参[こさん]の住民[じゅうみん]の意見[いけん]が通[とお]りやすい。",
+     "vi": "Ở hội khu phố, ý kiến của cư dân lâu năm dễ được thông qua.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "新参[しんざん]",
+     "vi": "người mới đến"
+    }
+   ],
+   "rel": [
+    "v:ベテラン:ベテラン",
+    "v:年季:ねんき"
+   ],
+   "note": "古参[こさん] = người vào tổ chức từ sớm (古参[こさん]社員[しゃいん]; 最[さい]古参[こさん] = người lâu năm nhất). Văn nói: 古株[ふるかぶ]. Trái nghĩa: 新参[しんざん] = người mới đến."
+  },
+  {
+   "id": "v:熟知:じゅくち",
+   "kana": "じゅくち",
+   "kanji": "熟知",
+   "hv": "THỤC TRI",
+   "vi": "biết tường tận, am hiểu kỹ",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "現場[げんば]を熟知[じゅくち]している人[ひと]の意見[いけん]は、やはり説得力[せっとくりょく]がある。",
+     "vi": "Ý kiến của người am tường hiện trường quả nhiên có sức thuyết phục.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地元[じもと]の道[みち]を熟知[じゅくち]したタクシー運転手[うんてんしゅ]のおかげで、渋滞[じゅうたい]を避[さ]けられた。",
+     "vi": "Nhờ tài xế taxi thuộc làu đường địa phương mà tránh được kẹt xe.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新[あたら]しい規則[きそく]のこと、誰[だれ]に聞[き]けばいい？B：品質[ひんしつ]管理[かんり]の佐藤[さとう]さんが熟知[じゅくち]してるから、聞[き]いてみたら？",
+     "vi": "A: Chuyện quy định mới thì nên hỏi ai? B: Anh Sato bên quản lý chất lượng nắm rất kỹ, hỏi thử xem?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "現場[げんば]を熟知[じゅくち]する",
+     "vi": "am tường hiện trường"
+    },
+    {
+     "jp": "規則[きそく]を熟知[じゅくち]する",
+     "vi": "nắm kỹ quy định"
+    }
+   ],
+   "confuse": [
+    "v:精通:せいつう"
+   ],
+   "note": "熟知[じゅくち] = biết rất rõ, tường tận (〜を熟知[じゅくち]する / 熟知[じゅくち]している). 精通[せいつう] = am hiểu sâu một lĩnh vực chuyên môn (〜に精通[せいつう]する — trợ từ に)."
+  },
+  {
+   "id": "v:研鑽:けんさん",
+   "kana": "けんさん",
+   "kanji": "研鑽",
+   "hv": "NGHIÊN TOẢN",
+   "vi": "sự trau dồi, mài giũa (học vấn, nghề)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一人前[いちにんまえ]の職人[しょくにん]になるまで、日々[ひび]研鑽[けんさん]を積[つ]んできた。",
+     "vi": "Để trở thành người thợ lành nghề, ngày ngày tôi đã ra sức trau dồi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "医師[いし]は、資格[しかく]を取[と]った後[あと]も研鑽[けんさん]を続[つづ]けなければならない。",
+     "vi": "Bác sĩ dù đã có chứng chỉ vẫn phải tiếp tục trau dồi.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "研鑽[けんさん]を積[つ]む",
+     "vi": "ra sức trau dồi"
+    },
+    {
+     "jp": "研鑽[けんさん]に励[はげ]む",
+     "vi": "chăm chỉ mài giũa"
+    }
+   ],
+   "rel": [
+    "v:修業:しゅぎょう"
+   ],
+   "note": "研鑽[けんさん] = mài giũa, trau dồi học vấn, nghề nghiệp lâu dài (văn viết, trang trọng). Cũng dùng như động từ: 研鑽[けんさん]する."
+  },
+  {
+   "id": "v:手慣れる:てなれる",
+   "kana": "てなれる",
+   "kanji": "手慣れる",
+   "kf": "手慣[てな]れる",
+   "hv": "THỦ QUÁN",
+   "vi": "quen tay, thành thạo (do làm nhiều)",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ベテランの彼女[かのじょ]は、手慣[てな]れた様子[ようす]で次々[つぎつぎ]と魚[さかな]をさばいていく。",
+     "vi": "Chị ấy là người lâu năm, thoăn thoắt làm cá hết con này đến con khác.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "母[はは]は手慣[てな]れた手[て]つきで、あっという間[ま]に餃子[ぎょうざ]を包[つつ]んだ。",
+     "vi": "Mẹ với đôi tay thạo việc gói xong sủi cảo trong nháy mắt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：グエンさん、検品[けんぴん]の作業[さぎょう]、もう手慣[てな]れたものだね。B：はい、毎日[まいにち]やっているので、だいぶ慣[な]れました。",
+     "vi": "A: Anh Nguyễn, việc kiểm hàng anh thạo tay lắm rồi nhỉ. B: Vâng, làm hằng ngày nên quen nhiều rồi ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]に手慣[てな]れる",
+     "vi": "quen tay với công việc"
+    },
+    {
+     "jp": "扱[あつか]いに手慣[てな]れる",
+     "vi": "thạo cách xử lý"
+    }
+   ],
+   "rel": [
+    "v:慣れる:なれる",
+    "v:手際:てぎわ"
+   ],
+   "note": "Thường dùng dạng 手慣[てな]れた + danh từ (手慣[てな]れた手[て]つき / 様子[ようす] = vẻ thạo tay) hoặc 手慣[てな]れたものだ = đã quá quen tay. Cũng viết 手馴[てな]れる."
+  },
+  {
+   "id": "v:巧み:たくみ",
+   "kana": "たくみ",
+   "kanji": "巧み",
+   "kf": "巧[たく]み",
+   "hv": "XẢO",
+   "vi": "tài tình, khéo léo tinh xảo (tay nghề, lời nói)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は包丁[ほうちょう]を巧[たく]みに使[つか]い、身[み]を傷[きず]つけずに骨[ほね]だけを外[はず]した。",
+     "vi": "Anh ấy dùng dao khéo léo, chỉ gỡ xương mà không làm tổn thương thịt cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "巧[たく]みな話術[わじゅつ]に乗[の]せられて、高[たか]い布団[ふとん]を買[か]ってしまった。",
+     "vi": "Bị lời lẽ khéo léo dẫn dắt, tôi lỡ mua bộ chăn đắt tiền.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの営業[えいぎょう]の人[ひと]、話[はなし]がうまいね。B：うん。こっちの悩[なや]みを巧[たく]みに聞[き]き出[だ]して、提案[ていあん]につなげるんだよ。",
+     "vi": "A: Người bên kinh doanh đó nói chuyện giỏi nhỉ. B: Ừ. Khéo moi ra những băn khoăn của mình rồi dẫn tới đề xuất.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "手[て]つき",
+     "vi": "động tác tay"
+    },
+    {
+     "jp": "話術[わじゅつ]",
+     "vi": "tài ăn nói"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "巧妙[こうみょう]",
+     "vi": "tinh vi, xảo diệu (thường ý xấu)"
+    }
+   ],
+   "rel": [
+    "v:器用:きよう",
+    "v:腕前:うでまえ"
+   ],
+   "note": "巧[たく]みな / 巧[たく]みに = khéo léo, điêu luyện (dùng tay, lời nói, kỹ thuật). 巧妙[こうみょう] = tinh vi (巧妙[こうみょう]な手口[てぐち] = thủ đoạn tinh vi). Đồng âm với 匠[たくみ] (người thợ giỏi)."
+  },
+  {
+   "id": "v:卓越:たくえつ",
+   "kana": "たくえつ",
+   "kanji": "卓越",
+   "hv": "TRÁC VIỆT",
+   "vi": "xuất sắc vượt trội, kiệt xuất",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼女[かのじょ]は卓越[たくえつ]した技術[ぎじゅつ]で、数々[かずかず]の賞[しょう]を受[う]けてきた。",
+     "vi": "Cô ấy đã nhận nhiều giải thưởng nhờ kỹ thuật xuất sắc vượt trội.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この工場[こうじょう]の冷凍[れいとう]技術[ぎじゅつ]は、業界[ぎょうかい]でも卓越[たくえつ]していると評価[ひょうか]されている。",
+     "vi": "Kỹ thuật cấp đông của xưởng này được đánh giá là vượt trội trong ngành.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:抜群:ばつぐん",
+    "v:秀でる:ひいでる"
+   ],
+   "note": "Hầu như dùng dạng 卓越[たくえつ]した + danh từ (卓越[たくえつ]した技術[ぎじゅつ] / 才能[さいのう] / 指導力[しどうりょく]) hoặc 卓越[たくえつ]している. Văn viết, lời khen trang trọng."
+  },
+  {
+   "id": "v:叩き上げ:たたきあげ",
+   "kana": "たたきあげ",
+   "kanji": "叩き上げ",
+   "kf": "叩[たた]き上[あ]げ",
+   "hv": "KHẤU THƯỢNG",
+   "vi": "người đi lên từ dưới (tự rèn luyện mà thành)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今[いま]の工場長[こうじょうちょう]は、現場[げんば]からの叩[たた]き上[あ]げで、どの工程[こうてい]にも詳[くわ]しい。",
+     "vi": "Giám đốc xưởng hiện nay đi lên từ hiện trường, rành mọi công đoạn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "叩[たた]き上[あ]げの料理人[りょうりにん]である父[ちち]は、レシピをほとんど書[か]き残[のこ]していない。",
+     "vi": "Bố tôi là đầu bếp tự rèn từ dưới lên, hầu như chẳng ghi chép công thức nào.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:職人:しょくにん",
+    {
+     "w": "生[は]え抜[ぬ]き",
+     "vi": "người gắn bó với tổ chức từ đầu"
+    }
+   ],
+   "note": "叩[たた]き上[あ]げ = không qua trường lớp hay ưu đãi, tự rèn luyện từ vị trí thấp nhất mà đi lên (叩[たた]き上[あ]げの職人[しょくにん] / 社長[しゃちょう]). 生[は]え抜[ぬ]き = người ở một tổ chức từ đầu đến nay."
+  },
+  {
+   "id": "v:伝授:でんじゅ",
+   "kana": "でんじゅ",
+   "kanji": "伝授",
+   "hv": "TRUYỀN THỤ",
+   "vi": "truyền dạy (bí quyết, kỹ thuật)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先輩[せんぱい]から、マグロを素早[すばや]く解体[かいたい]するコツを伝授[でんじゅ]してもらった。",
+     "vi": "Được đàn anh truyền dạy bí quyết pha cá ngừ cho nhanh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "祖母[そぼ]は、秘伝[ひでん]の漬物[つけもの]の作[つく]り方[かた]を母[はは]に伝授[でんじゅ]した。",
+     "vi": "Bà truyền lại cho mẹ cách muối dưa gia truyền.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：グエンさん、包丁[ほうちょう]の研[と]ぎ方[かた]、上手[じょうず]だね。B：前[まえ]の班長[はんちょう]に伝授[でんじゅ]してもらったんです。",
+     "vi": "A: Anh Nguyễn mài dao giỏi nhỉ. B: Tôi được tổ trưởng trước truyền dạy cho đấy ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "技[わざ]を伝授[でんじゅ]する",
+     "vi": "truyền dạy kỹ thuật"
+    },
+    {
+     "jp": "コツを伝授[でんじゅ]する",
+     "vi": "truyền bí quyết"
+    }
+   ],
+   "confuse": [
+    "v:伝承:でんしょう",
+    "v:継承:けいしょう"
+   ],
+   "note": "伝授[でんじゅ] = người giỏi trực tiếp dạy lại bí quyết, kỹ thuật cho người khác. 伝承[でんしょう] = truyền lại qua nhiều đời (truyền thuyết, phong tục). 継承[けいしょう] = kế thừa (ngôi vị, kỹ thuật, tài sản)."
+  },
+  {
+   "id": "v:我流:がりゅう",
+   "kana": "がりゅう",
+   "kanji": "我流",
+   "hv": "NGÃ LƯU",
+   "vi": "lối làm theo kiểu riêng (không theo bài bản)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ずっと我流[がりゅう]でやってきたが、基本[きほん]を学[まな]び直[なお]したら作業[さぎょう]が速[はや]くなった。",
+     "vi": "Trước giờ cứ làm theo kiểu riêng, học lại từ cơ bản thì làm nhanh hơn hẳn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "我流[がりゅう]のフォームで走[はし]っていたら、膝[ひざ]を痛[いた]めてしまった。",
+     "vi": "Chạy theo tư thế tự mày mò nên bị đau đầu gối.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "自己流[じこりゅう]",
+     "vi": "kiểu tự mày mò"
+    },
+    "v:修業:しゅぎょう"
+   ],
+   "note": "我流[がりゅう] = cách làm tự nghĩ ra, không học theo thầy, theo bài bản (thường hàm ý chưa chuẩn). Gần nghĩa 自己流[じこりゅう]."
+  },
+  {
+   "id": "v:研ぎ澄ます:とぎすます",
+   "kana": "とぎすます",
+   "kanji": "研ぎ澄ます",
+   "kf": "研[と]ぎ澄[す]ます",
+   "hv": "NGHIÊN TRỪNG",
+   "vi": "mài sắc; làm cho (giác quan, tinh thần) sắc bén",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "職人[しょくにん]は、毎朝[まいあさ]包丁[ほうちょう]を研[と]ぎ澄[す]ましてから仕事[しごと]を始[はじ]める。",
+     "vi": "Người thợ sáng nào cũng mài sắc dao rồi mới bắt đầu làm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "静[しず]かな部屋[へや]で神経[しんけい]を研[と]ぎ澄[す]まして、試験[しけん]に臨[のぞ]んだ。",
+     "vi": "Tập trung cao độ trong căn phòng yên tĩnh rồi bước vào thi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：目視[もくし]検査[けんさ]って、何[なに]がコツですか。B：慣[な]れても気[き]を抜[ぬ]かず、感覚[かんかく]を研[と]ぎ澄[す]ましておくことだね。",
+     "vi": "A: Kiểm tra bằng mắt thì bí quyết là gì ạ? B: Dù quen rồi cũng không lơ là, luôn giữ giác quan sắc bén.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "刃[は]を研[と]ぎ澄[す]ます",
+     "vi": "mài sắc lưỡi dao"
+    },
+    {
+     "jp": "感覚[かんかく]を研[と]ぎ澄[す]ます",
+     "vi": "mài giũa giác quan"
+    },
+    {
+     "jp": "神経[しんけい]を研[と]ぎ澄[す]ます",
+     "vi": "căng thần kinh tập trung"
+    }
+   ],
+   "rel": [
+    "v:研ぐ:とぐ",
+    "v:磨く:みがく"
+   ],
+   "note": "Hay dùng dạng 研[と]ぎ澄[す]まされた + danh từ (研[と]ぎ澄[す]まされた感性[かんせい] = cảm quan sắc bén). Nghĩa gốc: mài cho thật sắc."
+  },
+  {
+   "id": "v:手早い:てばやい",
+   "kana": "てばやい",
+   "kanji": "手早い",
+   "kf": "手早[てばや]い",
+   "hv": "THỦ TẢO",
+   "vi": "nhanh tay",
+   "pos": "adj-i",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "解凍[かいとう]した魚[さかな]は、手早[てばや]く処理[しょり]しないと鮮度[せんど]が落[お]ちる。",
+     "vi": "Cá đã rã đông không xử lý nhanh tay thì độ tươi giảm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "母[はは]は手早[てばや]く朝食[ちょうしょく]を作[つく]って、仕事[しごと]に出[で]かけた。",
+     "vi": "Mẹ nhanh tay làm bữa sáng rồi đi làm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：もう全部[ぜんぶ]包[つつ]んだの？手早[てばや]いね。B：毎年[まいとし]やってるからね。",
+     "vi": "A: Gói xong hết rồi à? Nhanh tay thế. B: Năm nào cũng làm mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "作業[さぎょう]",
+     "vi": "thao tác"
+    },
+    {
+     "jp": "処理[しょり]",
+     "vi": "xử lý"
+    }
+   ],
+   "rel": [
+    "v:素早い:すばやい",
+    "v:手際:てぎわ"
+   ],
+   "note": "Hay dùng 手早[てばや]く + động từ (手早[てばや]く片付[かたづ]ける = dọn nhanh gọn). 素早[すばや]い = nhanh nhẹn (động tác, phản ứng nói chung); 手早[てばや]い = làm việc bằng tay nhanh, gọn."
+  },
+  {
+   "id": "v:目利き:めきき",
+   "kana": "めきき",
+   "kanji": "目利き",
+   "kf": "目利[めき]き",
+   "hv": "MỤC LỢI",
+   "vi": "con mắt sành, người sành hàng (nhìn ra tốt xấu, thật giả)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh nghiệm & tay nghề",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "市場[いちば]では、目利[めき]きの仲買人[なかがいにん]が一匹[いっぴき]ずつ魚[さかな]の質[しつ]を見極[みきわ]めている。",
+     "vi": "Ở chợ, những người buôn sành sỏi xem xét chất lượng từng con cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "骨董品[こっとうひん]の目利[めき]きになるには、長年[ながねん]の経験[けいけん]が必要[ひつよう]だ。",
+     "vi": "Muốn thành người sành đồ cổ cần nhiều năm kinh nghiệm.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:見極める:みきわめる",
+    "v:鑑定:かんてい"
+   ],
+   "note": "目利[めき]き = khả năng nhìn ra hàng tốt, xấu, thật, giả; cũng chỉ người có khả năng đó. 魚[さかな]の目利[めき]き = người chọn cá giỏi. 目利[めき]きが利[き]く = có con mắt sành."
+  },
+  {
+   "id": "v:責務:せきむ",
+   "kana": "せきむ",
+   "kanji": "責務",
+   "hv": "TRÁCH VỤ",
+   "vi": "trách nhiệm phải gánh (văn viết)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm & nhấn mạnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "安全[あんぜん]な食品[しょくひん]を届[とど]けることは、私[わたし]たちの責務[せきむ]だ。",
+     "vi": "Đưa thực phẩm an toàn đến tay khách là trách nhiệm của chúng ta.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "親[おや]として、子[こ]どもの安全[あんぜん]を守[まも]る責務[せきむ]がある。",
+     "vi": "Là cha mẹ, có trách nhiệm bảo vệ an toàn cho con.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "責務[せきむ]を果[は]たす",
+     "vi": "làm tròn trách nhiệm"
+    },
+    {
+     "jp": "責務[せきむ]を負[お]う",
+     "vi": "gánh trách nhiệm"
+    }
+   ],
+   "confuse": [
+    "v:責任:せきにん",
+    "v:職責:しょくせき"
+   ],
+   "rel": [
+    "v:義務:ぎむ"
+   ],
+   "note": "責務[せきむ] = việc phải làm vì trách nhiệm (văn viết). 責任[せきにん] = trách nhiệm (cả việc chịu hậu quả). 職責[しょくせき] = trách nhiệm của chức vụ."
+  },
+  {
+   "id": "v:本分:ほんぶん",
+   "kana": "ほんぶん",
+   "kanji": "本分",
+   "hv": "BẢN PHÂN",
+   "vi": "bổn phận (việc chính của vị trí đó)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm & nhấn mạnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "学生[がくせい]の本分[ほんぶん]は勉強[べんきょう]だと、父[ちち]によく言[い]われた。",
+     "vi": "Bố thường bảo tôi bổn phận của học sinh là học.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "班[はん]長[ちょう]ともあろう者[もの]が、自分[じぶん]の本分[ほんぶん]を忘[わす]れて私語[しご]ばかりしていてはいけない。",
+     "vi": "Đường đường là tổ trưởng mà quên bổn phận, chỉ lo nói chuyện riêng thì không được.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "本分[ほんぶん]を尽[つ]くす",
+     "vi": "làm tròn bổn phận"
+    },
+    {
+     "jp": "本分[ほんぶん]を守[まも]る",
+     "vi": "giữ đúng bổn phận"
+    }
+   ],
+   "rel": [
+    "v:責務:せきむ",
+    "v:使命:しめい"
+   ],
+   "note": "本分[ほんぶん] = việc chính người ở vị trí đó phải làm (学生[がくせい]の本分[ほんぶん], 社員[しゃいん]の本分[ほんぶん]). 本分[ほんぶん]を尽[つ]くす = làm tròn bổn phận. Đồng âm 本文[ほんぶん] = phần thân văn bản."
+  },
+  {
+   "id": "v:ゆめゆめ:ゆめゆめ",
+   "kana": "ゆめゆめ",
+   "kanji": "",
+   "hv": "",
+   "vi": "chớ có, tuyệt đối đừng (văn cổ, nghiêm trang)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm & nhấn mạnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "生食用[せいしょくよう]の魚[さかな]を扱[あつか]っていることを、ゆめゆめ忘[わす]れてはならない。",
+     "vi": "Tuyệt đối không được quên rằng mình đang xử lý cá để ăn sống.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "うまい話[はなし]には、ゆめゆめ乗[の]らないように。",
+     "vi": "Tuyệt đối đừng sa vào những lời dụ dỗ ngon ngọt.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:決して:けっして",
+    "v:断じて:だんじて"
+   ],
+   "with": "phudinh",
+   "note": "ゆめゆめ〜ない / 〜てはならない / 〜な = tuyệt đối không (văn viết, cổ, nghiêm trang). Chữ Hán 努々[ゆめゆめ] ít dùng. Gần nghĩa 決[けっ]して."
+  },
+  {
+   "id": "v:金輪際:こんりんざい",
+   "kana": "こんりんざい",
+   "kanji": "金輪際",
+   "hv": "KIM LUÂN TẾ",
+   "vi": "không bao giờ nữa, tuyệt đối không (nói mạnh)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm & nhấn mạnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "約束[やくそく]を平気[へいき]で破[やぶ]るような業者[ぎょうしゃ]とは、金輪際[こんりんざい]取引[とりひき]しない。",
+     "vi": "Tôi tuyệt đối không bao giờ giao dịch với nhà cung cấp coi thường lời hứa như thế nữa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "こんな危[あぶ]ない運転[うんてん]は、金輪際[こんりんざい]しないと約束[やくそく]してください。",
+     "vi": "Hãy hứa không bao giờ lái xe nguy hiểm thế này nữa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：また飲[の]みすぎたの？B：うん…。もう金輪際[こんりんざい]、平日[へいじつ]には飲[の]まないよ。",
+     "vi": "A: Lại uống quá chén à? B: Ừ… Từ giờ không bao giờ uống vào ngày thường nữa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:二度と:にどと",
+    "v:断じて:だんじて"
+   ],
+   "with": "phudinh",
+   "note": "金輪際[こんりんざい]〜ない = (từ nay) tuyệt đối không bao giờ (văn nói, cảm xúc mạnh: tức giận, quyết tâm). Nghĩa gốc Phật giáo: tận đáy đất."
+  },
+  {
+   "id": "v:くれぐれも:くれぐれも",
+   "kana": "くれぐれも",
+   "kanji": "",
+   "hv": "",
+   "vi": "nhất thiết, hết sức lưu ý (khi dặn dò, nhờ cậy)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm & nhấn mạnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "刃物[はもの]を扱[あつか]うときは、くれぐれも気[き]をつけてください。",
+     "vi": "Khi cầm dao kéo hãy hết sức cẩn thận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ご家族[かぞく]の皆[みな]様[さま]にも、くれぐれもよろしくお伝[つた]えください。",
+     "vi": "Cho tôi gửi lời hỏi thăm nồng hậu đến cả gia đình anh.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:何卒:なにとぞ"
+   ],
+   "note": "Dùng khi dặn dò, nhờ cậy tha thiết: くれぐれも〜ないように / くれぐれもよろしくお伝[つた]えください (thư, lời chào). Chữ Hán 呉々[くれぐれ]も ít dùng."
+  },
+  {
+   "id": "v:長らく:ながらく",
+   "kana": "ながらく",
+   "kanji": "長らく",
+   "kf": "長[なが]らく",
+   "hv": "TRƯỜNG",
+   "vi": "lâu, bấy lâu (trang trọng)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm & nhấn mạnh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "長[なが]らくお待[ま]たせいたしました。ただいまより受付[うけつけ]を開始[かいし]いたします。",
+     "vi": "Xin lỗi đã để quý khách chờ lâu. Bây giờ chúng tôi bắt đầu tiếp nhận.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "長[なが]らく続[つづ]いた工事[こうじ]が終[お]わって、駅前[えきまえ]がきれいになった。",
+     "vi": "Công trình kéo dài bấy lâu đã xong, trước ga sạch đẹp hẳn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "長[なが]らく勤[つと]めた先輩[せんぱい]が、今月[こんげつ]で退職[たいしょく]する。",
+     "vi": "Anh tiền bối gắn bó bấy lâu sẽ nghỉ việc trong tháng này.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Trang trọng hơn 長[なが]い間[あいだ]. Câu cố định: 長[なが]らくお待[ま]たせいたしました (xin lỗi vì để chờ lâu); 長[なが]らくお世話[せわ]になりました (cảm ơn đã giúp đỡ bấy lâu)."
+  }
+ ]
+}

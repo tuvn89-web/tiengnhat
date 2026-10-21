@@ -1,0 +1,1872 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n1-05",
+  "title": "JLPT N1 05 – Chức vụ, phẩm chất lãnh đạo & truyền thống địa phương",
+  "type": "vocab",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:重役:じゅうやく",
+   "kana": "じゅうやく",
+   "kanji": "重役",
+   "hv": "TRỌNG DỊCH",
+   "vi": "lãnh đạo cấp cao (giám đốc, thành viên HĐQT)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chức vụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい工場[こうじょう]の建設[けんせつ]は、重役[じゅうやく]会議[かいぎ]で正式[せいしき]に決[き]まった。",
+     "vi": "Việc xây xưởng mới đã được quyết chính thức tại cuộc họp ban lãnh đạo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "重役[じゅうやく]ともなると、休日[きゅうじつ]でも取引先[とりひきさき]との付[つ]き合[あ]いがあるらしい。",
+     "vi": "Đã là lãnh đạo cấp cao thì hình như ngày nghỉ cũng phải giao thiệp với đối tác.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:幹部:かんぶ"
+   ],
+   "rel": [
+    {
+     "w": "役員[やくいん]",
+     "vi": "thành viên ban giám đốc"
+    }
+   ],
+   "note": "重役[じゅうやく] = người giữ chức vụ cao trong công ty (取締役[とりしまりやく], 役員[やくいん]) — cách nói thường; văn bản dùng 役員[やくいん]. 重役出勤[じゅうやくしゅっきん] = (đùa) đi làm muộn như sếp lớn."
+  },
+  {
+   "id": "v:幹部:かんぶ",
+   "kana": "かんぶ",
+   "kanji": "幹部",
+   "hv": "CÁN BỘ",
+   "vi": "cán bộ chủ chốt (cấp quản lý của tổ chức)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chức vụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]の幹部[かんぶ]が集[あつ]まって、来年度[らいねんど]の生産[せいさん]計画[けいかく]を話[はな]し合[あ]った。",
+     "vi": "Các cán bộ chủ chốt của nhà máy họp bàn kế hoạch sản xuất năm tới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "事件[じけん]に関[かか]わった暴力団[ぼうりょくだん]の幹部[かんぶ]が逮捕[たいほ]された。",
+     "vi": "Một nhân vật cấp cao của băng xã hội đen liên quan vụ án đã bị bắt.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:重役:じゅうやく"
+   ],
+   "rel": [
+    "v:管理職:かんりしょく"
+   ],
+   "note": "幹部[かんぶ] = nhóm nòng cốt nắm quyền trong tổ chức (công ty, đảng, công đoàn, cả băng nhóm). 幹部候補[かんぶこうほ] = ứng viên cán bộ chủ chốt. 重役[じゅうやく] chỉ dùng cho công ty."
+  },
+  {
+   "id": "v:首脳:しゅのう",
+   "kana": "しゅのう",
+   "kanji": "首脳",
+   "hv": "THỦ NÃO",
+   "vi": "lãnh đạo cấp cao nhất (nhà nước, tập đoàn)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chức vụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日米[にちべい]の首脳[しゅのう]が会談[かいだん]し、経済[けいざい]協力[きょうりょく]について合意[ごうい]した。",
+     "vi": "Lãnh đạo hai nước Nhật – Mỹ hội đàm và nhất trí về hợp tác kinh tế.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "親会社[おやがいしゃ]の首脳[しゅのう]陣[じん]が、来月[らいげつ]この工場[こうじょう]を視察[しさつ]に来[く]る。",
+     "vi": "Ban lãnh đạo cao nhất của công ty mẹ tháng sau sẽ đến thị sát nhà máy này.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:幹部:かんぶ"
+   ],
+   "note": "首脳会談[しゅのうかいだん] = hội đàm thượng đỉnh. 首脳陣[しゅのうじん] = ban lãnh đạo chóp bu. Hay gặp trong tin tức chính trị, kinh tế."
+  },
+  {
+   "id": "v:降格:こうかく",
+   "kana": "こうかく",
+   "kanji": "降格",
+   "hv": "GIÁNG CÁCH",
+   "vi": "giáng chức, xuống hạng",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chức vụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "品質[ひんしつ]事故[じこ]の責任[せきにん]を問[と]われ、課長[かちょう]は係長[かかりちょう]に降格[こうかく]された。",
+     "vi": "Bị quy trách nhiệm sự cố chất lượng, trưởng phòng bị giáng xuống làm trưởng nhóm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "成績[せいせき]が悪[わる]かったチームは、来季[らいき]二部[にぶ]に降格[こうかく]する。",
+     "vi": "Đội thành tích kém sẽ xuống hạng hai mùa sau.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "係長[かかりちょう]に降格[こうかく]する",
+     "vi": "bị giáng xuống trưởng nhóm"
+    },
+    {
+     "jp": "二部[にぶ]に降格[こうかく]する",
+     "vi": "xuống hạng hai"
+    }
+   ],
+   "ant": [
+    "v:昇格:しょうかく"
+   ],
+   "rel": [
+    {
+     "w": "左遷[させん]",
+     "vi": "điều đi nơi kém hơn (giáng chức trá hình)"
+    }
+   ],
+   "note": "降格[こうかく] = hạ chức vụ, hạ hạng (thể thao). 左遷[させん] = điều chuyển về nơi, vị trí kém hơn."
+  },
+  {
+   "id": "v:抜擢:ばってき",
+   "kana": "ばってき",
+   "kanji": "抜擢",
+   "hv": "BẠT TRẠC",
+   "vi": "đề bạt, cất nhắc (vượt cấp, người trẻ)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chức vụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "入社[にゅうしゃ]五年[ごねん]目[め]の彼[かれ]が、新[しん]工場[こうじょう]の責任者[せきにんしゃ]に抜擢[ばってき]された。",
+     "vi": "Anh ấy mới vào công ty năm thứ năm đã được đề bạt làm người phụ trách xưởng mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "新人[しんじん]の女優[じょゆう]が、主役[しゅやく]に抜擢[ばってき]されて話題[わだい]になった。",
+     "vi": "Nữ diễn viên mới được chọn đóng vai chính, gây xôn xao.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：グエンさん、主任[しゅにん]候補[こうほ]に抜擢[ばってき]されたんだって？B：はい。まだ実感[じっかん]がないんですが、頑張[がんば]ります。",
+     "vi": "A: Nghe nói anh Nguyễn được chọn làm ứng viên chủ nhiệm à? B: Vâng. Tôi vẫn chưa thấy thật lắm, nhưng sẽ cố gắng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "若手[わかて]を抜擢[ばってき]する",
+     "vi": "đề bạt người trẻ"
+    },
+    {
+     "jp": "リーダーに抜擢[ばってき]する",
+     "vi": "cất nhắc làm trưởng nhóm"
+    }
+   ],
+   "confuse": [
+    "v:任命:にんめい",
+    "v:昇進:しょうしん"
+   ],
+   "note": "抜擢[ばってき] = chọn người (thường trẻ, ít thâm niên) vượt lên đặt vào vị trí quan trọng — sắc thái bất ngờ, được đánh giá cao. 任命[にんめい] = bổ nhiệm (thủ tục). 昇進[しょうしん] = lên chức theo thứ bậc."
+  },
+  {
+   "id": "v:権限:けんげん",
+   "kana": "けんげん",
+   "kanji": "権限",
+   "hv": "QUYỀN HẠN",
+   "vi": "quyền hạn",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chức vụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "出荷[しゅっか]を止[と]める権限[けんげん]は、品質[ひんしつ]管理[かんり]の責任者[せきにんしゃ]にある。",
+     "vi": "Quyền dừng xuất hàng thuộc về người phụ trách quản lý chất lượng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この書類[しょるい]を見[み]る権限[けんげん]がないので、課長[かちょう]に頼[たの]んでください。",
+     "vi": "Anh không có quyền xem tài liệu này nên hãy nhờ trưởng phòng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "権限[けんげん]を与[あた]える",
+     "vi": "trao quyền hạn"
+    },
+    {
+     "jp": "権限[けんげん]を持[も]つ",
+     "vi": "có quyền hạn"
+    }
+   ],
+   "confuse": [
+    "v:権利:けんり"
+   ],
+   "note": "権限[けんげん] = phạm vi được phép làm do chức vụ, quy định giao (決裁権限[けっさいけんげん] = quyền phê duyệt). 権利[けんり] = quyền lợi của cá nhân (権利[けんり]と義務[ぎむ]). 権限[けんげん]を委譲[いじょう]する = ủy quyền xuống cấp dưới."
+  },
+  {
+   "id": "v:職責:しょくせき",
+   "kana": "しょくせき",
+   "kanji": "職責",
+   "hv": "CHỨC TRÁCH",
+   "vi": "chức trách (trách nhiệm gắn với chức vụ)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chức vụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班[はん]長[ちょう]としての職責[しょくせき]を果[は]たすため、毎朝[まいあさ]ラインを見回[みまわ]っている。",
+     "vi": "Để làm tròn chức trách tổ trưởng, sáng nào tôi cũng đi tuần dây chuyền.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "大臣[だいじん]は、職責[しょくせき]の重[おも]さを自覚[じかく]して発言[はつげん]すべきだ。",
+     "vi": "Bộ trưởng nên ý thức sức nặng chức trách mà phát ngôn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "職責[しょくせき]を果[は]たす",
+     "vi": "làm tròn chức trách"
+    }
+   ],
+   "confuse": [
+    "v:職務:しょくむ",
+    {
+     "w": "責務[せきむ]",
+     "vi": "trách nhiệm và nghĩa vụ"
+    }
+   ],
+   "note": "職責[しょくせき] = trách nhiệm đi kèm chức vụ. 職務[しょくむ] = công việc của chức vụ. 責務[せきむ] = trách nhiệm, nghĩa vụ phải làm (rộng hơn, không chỉ chức vụ)."
+  },
+  {
+   "id": "v:肩書き:かたがき",
+   "kana": "かたがき",
+   "kanji": "肩書き",
+   "kf": "肩書[かたが]き",
+   "hv": "KIÊN THƯ",
+   "vi": "chức danh (ghi trên danh thiếp)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chức vụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "名刺[めいし]の肩書[かたが]きが「主任[しゅにん]」に変[か]わって、少[すこ]し誇[ほこ]らしかった。",
+     "vi": "Chức danh trên danh thiếp đổi thành \"chủ nhiệm\", tôi thấy hơi tự hào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "肩書[かたが]きだけで人[ひと]を判断[はんだん]してはいけない。",
+     "vi": "Không được đánh giá con người chỉ qua chức danh.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:名刺:めいし",
+    "v:役職:やくしょく"
+   ],
+   "note": "Cũng viết 肩書[かたがき]. 肩書[かたが]きにこだわる = câu nệ chức danh. 肩書[かたが]きのない人[ひと] = người không có chức danh."
+  },
+  {
+   "id": "v:統括:とうかつ",
+   "kana": "とうかつ",
+   "kanji": "統括",
+   "hv": "THỐNG QUÁT",
+   "vi": "phụ trách chung, quản lý tổng thể (nhiều bộ phận)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chức vụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼女[かのじょ]は、三[みっ]つの工場[こうじょう]の品質[ひんしつ]管理[かんり]を統括[とうかつ]している。",
+     "vi": "Cô ấy phụ trách chung việc quản lý chất lượng của ba nhà máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地域[ちいき]の防災[ぼうさい]活動[かつどう]は、市[し]の危機[きき]管理課[かんりか]が統括[とうかつ]する。",
+     "vi": "Hoạt động phòng chống thiên tai ở địa phương do phòng quản lý khủng hoảng của thành phố phụ trách chung.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "部門[ぶもん]を統括[とうかつ]する",
+     "vi": "phụ trách chung bộ phận"
+    },
+    {
+     "jp": "業務[ぎょうむ]を統括[とうかつ]する",
+     "vi": "quản lý tổng thể công việc"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "総括[そうかつ]",
+     "vi": "tổng kết (nhìn lại)"
+    },
+    "v:統率:とうそつ"
+   ],
+   "note": "統括[とうかつ] = nắm và điều phối nhiều bộ phận dưới quyền (統括[とうかつ]部[ぶ]長[ちょう] = trưởng phòng phụ trách chung). Âm gần: 総括[そうかつ] = tổng kết. 統率[とうそつ] = dẫn dắt con người."
+  },
+  {
+   "id": "v:中堅:ちゅうけん",
+   "kana": "ちゅうけん",
+   "kanji": "中堅",
+   "hv": "TRUNG KIÊN",
+   "vi": "lớp nòng cốt (có kinh nghiệm, chưa là lãnh đạo); tầm trung",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chức vụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "入社[にゅうしゃ]して十年[じゅうねん]が過[す]ぎ、中堅[ちゅうけん]社員[しゃいん]として後輩[こうはい]の指導[しどう]も任[まか]されるようになった。",
+     "vi": "Vào công ty đã hơn 10 năm, là nhân viên nòng cốt, tôi được giao cả việc hướng dẫn đàn em.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地元[じもと]の中堅[ちゅうけん]企業[きぎょう]が、海外[かいがい]に工場[こうじょう]を建[た]てた。",
+     "vi": "Một doanh nghiệp tầm trung ở địa phương đã xây nhà máy ở nước ngoài.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "若手[わかて]",
+     "vi": "lớp trẻ"
+    },
+    "v:ベテラン:ベテラン"
+   ],
+   "note": "中堅[ちゅうけん]社員[しゃいん] = nhân viên nòng cốt, gánh phần việc chính. 中堅[ちゅうけん]企業[きぎょう] = doanh nghiệp tầm trung (giữa lớn và nhỏ)."
+  },
+  {
+   "id": "v:重鎮:じゅうちん",
+   "kana": "じゅうちん",
+   "kanji": "重鎮",
+   "hv": "TRỌNG TRẤN",
+   "vi": "nhân vật trụ cột, có uy tín hàng đầu (lâu năm trong ngành)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chức vụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は、水産業[すいさんぎょう]界[かい]の重鎮[じゅうちん]として知[し]られている。",
+     "vi": "Ông ấy được biết đến là nhân vật trụ cột của ngành thủy sản.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地元[じもと]の漁協[ぎょきょう]の重鎮[じゅうちん]が、新[あたら]しい養殖[ようしょく]事業[じぎょう]に反対[はんたい]した。",
+     "vi": "Một nhân vật có tiếng nói nặng ký trong hợp tác xã nghề cá địa phương đã phản đối dự án nuôi trồng mới.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:中堅:ちゅうけん"
+   ],
+   "rel": [
+    "v:ベテラン:ベテラン"
+   ],
+   "note": "重鎮[じゅうちん] = nhân vật có ảnh hưởng lớn nhờ thâm niên và uy tín (政界[せいかい]の重鎮[じゅうちん], 業界[ぎょうかい]の重鎮[じゅうちん]). Nói thân mật: 大御所[おおごしょ]."
+  },
+  {
+   "id": "v:後進:こうしん",
+   "kana": "こうしん",
+   "kanji": "後進",
+   "hv": "HẬU TIẾN",
+   "vi": "lớp sau, thế hệ đi sau (trong nghề)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chức vụ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "定年[ていねん]まで残[のこ]り二年[にねん]、後進[こうしん]の育成[いくせい]に力[ちから]を入[い]れたい。",
+     "vi": "Còn 2 năm nữa là về hưu, tôi muốn dồn sức đào tạo lớp sau.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "彼[かれ]は会長[かいちょう]を退[しりぞ]き、後進[こうしん]に道[みち]を譲[ゆず]った。",
+     "vi": "Ông ấy rời ghế chủ tịch, nhường đường cho lớp sau.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "後進[こうしん]を育[そだ]てる",
+     "vi": "đào tạo lớp sau"
+    },
+    {
+     "jp": "後進[こうしん]に道[みち]を譲[ゆず]る",
+     "vi": "nhường đường cho lớp sau"
+    }
+   ],
+   "rel": [
+    "v:後輩:こうはい",
+    "v:育成:いくせい"
+   ],
+   "note": "後進[こうしん] = những người đi sau trong cùng nghề (văn trang trọng). 後輩[こうはい] = đàn em (cùng trường, cùng nơi làm). Nghĩa khác: 後進国[こうしんこく] = nước chậm phát triển (cách nói cũ, nay dùng 途上国[とじょうこく])."
+  },
+  {
+   "id": "v:統率:とうそつ",
+   "kana": "とうそつ",
+   "kanji": "統率",
+   "hv": "THỐNG SUẤT",
+   "vi": "thống lĩnh, dẫn dắt (một tập thể)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phẩm chất lãnh đạo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班長[はんちょう]には、班[はん]全体[ぜんたい]を統率[とうそつ]する力[ちから]が求[もと]められる。",
+     "vi": "Tổ trưởng cần có năng lực dẫn dắt cả tổ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "監督[かんとく]の見事[みごと]な統率[とうそつ]で、チームは一[ひと]つにまとまった。",
+     "vi": "Nhờ sự dẫn dắt tài tình của huấn luyện viên, cả đội đồng lòng làm một.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "部下[ぶか]を統率[とうそつ]する",
+     "vi": "dẫn dắt cấp dưới"
+    },
+    {
+     "jp": "チームを統率[とうそつ]する",
+     "vi": "thống lĩnh đội"
+    }
+   ],
+   "confuse": [
+    "v:統括:とうかつ"
+   ],
+   "rel": [
+    "v:率いる:ひきいる",
+    "v:指揮:しき"
+   ],
+   "note": "統率力[とうそつりょく] = năng lực lãnh đạo, quy tụ. 統率[とうそつ] = làm cho cả tập thể hành động thống nhất; 統括[とうかつ] = quản lý tổng thể công việc, bộ phận."
+  },
+  {
+   "id": "v:采配:さいはい",
+   "kana": "さいはい",
+   "kanji": "采配",
+   "hv": "THÁI PHỐI",
+   "vi": "sự điều hành, chỉ huy (phân người, ra quyết định)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phẩm chất lãnh đạo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "主任[しゅにん]の的確[てきかく]な采配[さいはい]で、急[きゅう]な大量[たいりょう]注文[ちゅうもん]にも間[ま]に合[あ]った。",
+     "vi": "Nhờ sự điều hành chính xác của chủ nhiệm, kịp cả đơn hàng lớn đột xuất.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "監督[かんとく]の采配[さいはい]が当[あ]たって、チームは逆転[ぎゃくてん]勝[か]ちした。",
+     "vi": "Quyết sách của huấn luyện viên trúng đích, đội lội ngược dòng thắng trận.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "采配[さいはい]を振[ふ]る",
+     "vi": "cầm trịch, chỉ huy"
+    }
+   ],
+   "rel": [
+    "v:指揮:しき"
+   ],
+   "note": "采配[さいはい]を振[ふ]る / 采配[さいはい]を振[ふ]るう = cầm trịch, điều hành mọi việc. Gốc: cây cờ lệnh tướng dùng chỉ huy quân. Hay dùng trong thể thao (監督[かんとく]の采配[さいはい])."
+  },
+  {
+   "id": "v:束ねる:たばねる",
+   "kana": "たばねる",
+   "kanji": "束ねる",
+   "kf": "束[たば]ねる",
+   "hv": "THÚC",
+   "vi": "bó lại; quy tụ, gắn kết (một nhóm người)",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phẩm chất lãnh đạo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "古[ふる]い段[だん]ボールは、ひもで束[たば]ねて資源[しげん]ごみに出[だ]してください。",
+     "vi": "Thùng các-tông cũ hãy buộc dây thành bó rồi để ra rác tái chế.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "三十人[さんじゅうにん]のパートさんを束[たば]ねるのは、簡単[かんたん]なことではない。",
+     "vi": "Quản lý ba mươi chị làm bán thời gian chẳng phải chuyện dễ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：新[あたら]しい班[はん]長[ちょう]、どう？B：みんなをうまく束[たば]ねてくれて、雰囲気[ふんいき]がよくなったよ。",
+     "vi": "A: Tổ trưởng mới thế nào? B: Anh ấy gắn kết mọi người rất khéo, không khí khá hẳn lên.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "髪[かみ]を束[たば]ねる",
+     "vi": "buộc tóc"
+    },
+    {
+     "jp": "組織[そしき]を束[たば]ねる",
+     "vi": "quy tụ, quản lý tổ chức"
+    }
+   ],
+   "rel": [
+    "v:束:たば",
+    "v:まとめる:まとめる"
+   ],
+   "note": "Nghĩa đen: bó, buộc (新聞[しんぶん], 髪[かみ], 花[はな]). Nghĩa bóng: đứng đầu và giữ cho nhóm người gắn kết. 束[たば]ね役[やく] = người đứng ra quy tụ."
+  },
+  {
+   "id": "v:手腕:しゅわん",
+   "kana": "しゅわん",
+   "kanji": "手腕",
+   "hv": "THỦ OẢN",
+   "vi": "tài cán, năng lực điều hành",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phẩm chất lãnh đạo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい工場長[こうじょうちょう]は、赤字[あかじ]の工場[こうじょう]を一年[いちねん]で立[た]て直[なお]した手腕[しゅわん]の持[も]ち主[ぬし]だ。",
+     "vi": "Giám đốc xưởng mới là người có tài, từng vực dậy xưởng thua lỗ trong một năm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "市長[しちょう]の手腕[しゅわん]が問[と]われるのは、これからだ。",
+     "vi": "Năng lực của thị trưởng sẽ bị thử thách từ bây giờ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "手腕[しゅわん]を発揮[はっき]する",
+     "vi": "phát huy tài cán"
+    },
+    {
+     "jp": "手腕[しゅわん]を振[ふ]るう",
+     "vi": "trổ tài"
+    }
+   ],
+   "rel": [
+    "v:腕前:うでまえ",
+    "v:実力:じつりょく"
+   ],
+   "note": "手腕[しゅわん] = tài xoay xở, điều hành (kinh doanh, chính trị). 腕前[うでまえ] = tay nghề, kỹ năng (nấu ăn, thủ công). 経営手腕[けいえいしゅわん] = tài kinh doanh."
+  },
+  {
+   "id": "v:器:うつわ",
+   "kana": "うつわ",
+   "kanji": "器",
+   "hv": "KHÍ",
+   "vi": "tầm vóc (con người); bát đĩa đựng món ăn",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phẩm chất lãnh đạo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "部下[ぶか]の失敗[しっぱい]を自分[じぶん]の責任[せきにん]として受[う]け止[と]めるとは、さすが器[うつわ]が大[おお]きい。",
+     "vi": "Nhận lỗi của cấp dưới về mình, đúng là người có tầm vóc lớn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "正直[しょうじき]に言[い]うと、私[わたし]は社長[しゃちょう]の器[うつわ]ではない。",
+     "vi": "Nói thật, tôi không đủ tầm làm giám đốc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この煮物[にもの]、きれいな器[うつわ]に盛[も]ると、おいしそうに見[み]えるね。B：でしょう。器[うつわ]も料理[りょうり]のうちだよ。",
+     "vi": "A: Món ninh này bày vào cái bát đẹp trông ngon hẳn nhỉ. B: Thấy chưa. Bát đĩa cũng là một phần của món ăn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:器用:きよう"
+   ],
+   "rel": [
+    "v:度量:どりょう"
+   ],
+   "note": "Nghĩa đen: bát đĩa, đồ đựng. Nghĩa bóng: tầm vóc, độ lượng con người. 器[うつわ]が大[おお]きい / 器[うつわ]が小[ちい]さい = rộng lượng / hẹp hòi. 〜の器[うつわ]ではない = không đủ tầm làm… Trong từ ghép, chữ này đọc き (食器[しょっき], 器用[きよう])."
+  },
+  {
+   "id": "v:度量:どりょう",
+   "kana": "どりょう",
+   "kanji": "度量",
+   "hv": "ĐỘ LƯỢNG",
+   "vi": "lòng bao dung, độ lượng (chấp nhận người khác)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phẩm chất lãnh đạo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "反対[はんたい]意見[いけん]にも耳[みみ]を傾[かたむ]けるのは、リーダーとしての度量[どりょう]だ。",
+     "vi": "Lắng nghe cả ý kiến phản đối là độ lượng của người lãnh đạo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "彼[かれ]は、失礼[しつれい]な相手[あいて]にも笑[わら]って対応[たいおう]する度量[どりょう]の大[おお]きい人[ひと]だ。",
+     "vi": "Anh ấy là người độ lượng, cười mà đối đáp được cả với người vô lễ.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:器:うつわ",
+    "v:寛大:かんだい"
+   ],
+   "note": "度量[どりょう]が大[おお]きい / 度量[どりょう]が広[ひろ]い = độ lượng. 度量[どりょう]が狭[せま]い = hẹp lượng. Nghĩa gốc: đo lường (度量衡[どりょうこう] = đo lường cân đong)."
+  },
+  {
+   "id": "v:人望:じんぼう",
+   "kana": "じんぼう",
+   "kanji": "人望",
+   "hv": "NHÂN VỌNG",
+   "vi": "sự tin mến (của mọi người dành cho ai)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phẩm chất lãnh đạo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は仕事[しごと]ができるうえに人望[じんぼう]も厚[あつ]いので、次[つぎ]の主任[しゅにん]にふさわしい。",
+     "vi": "Anh ấy vừa giỏi việc lại được mọi người tin mến nên hợp làm chủ nhiệm kế tiếp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "いくら能力[のうりょく]があっても、人望[じんぼう]がなければ人[ひと]はついてこない。",
+     "vi": "Dù có năng lực đến đâu, không được lòng người thì chẳng ai đi theo.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人望[じんぼう]が厚[あつ]い",
+     "vi": "được nhiều người tin mến"
+    },
+    {
+     "jp": "人望[じんぼう]を集[あつ]める",
+     "vi": "được lòng người"
+    }
+   ],
+   "rel": [
+    "v:信頼:しんらい",
+    "v:人柄:ひとがら"
+   ],
+   "note": "人望[じんぼう] = sự tin mến, kính trọng mà mọi người dành cho ai đó (nhờ nhân cách, năng lực). Hay dùng: 人望[じんぼう]が厚[あつ]い / 人望[じんぼう]がある."
+  },
+  {
+   "id": "v:貫禄:かんろく",
+   "kana": "かんろく",
+   "kanji": "貫禄",
+   "hv": "QUÁN LỘC",
+   "vi": "phong thái đĩnh đạc, có uy (do từng trải)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phẩm chất lãnh đạo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "二十年[にじゅうねん]現場[げんば]にいるだけあって、工場長[こうじょうちょう]には貫禄[かんろく]がある。",
+     "vi": "Không hổ là người 20 năm ở hiện trường, giám đốc xưởng có phong thái đĩnh đạc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "まだ三十代[さんじゅうだい]なのに、彼[かれ]にはもう社長[しゃちょう]の貫禄[かんろく]がある。",
+     "vi": "Mới ngoài ba mươi mà anh ấy đã có phong thái của giám đốc.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "貫禄[かんろく]がある",
+     "vi": "có uy, đĩnh đạc"
+    },
+    {
+     "jp": "貫禄[かんろく]がつく",
+     "vi": "ngày càng có uy"
+    }
+   ],
+   "rel": [
+    "v:品格:ひんかく"
+   ],
+   "note": "貫禄[かんろく] = vẻ đĩnh đạc, có uy toát ra nhờ tuổi tác, kinh nghiệm, địa vị. 貫禄[かんろく]負[ま]け = bị lép vế trước uy của đối phương. Có lúc nói đùa về dáng người đẫy đà (貫禄[かんろく]が出[で]てきた)."
+  },
+  {
+   "id": "v:品格:ひんかく",
+   "kana": "ひんかく",
+   "kanji": "品格",
+   "hv": "PHẨM CÁCH",
+   "vi": "phẩm cách, phong thái đáng kính",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phẩm chất lãnh đạo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "上[うえ]に立[た]つ者[もの]には、能力[のうりょく]だけでなく品格[ひんかく]も求[もと]められる。",
+     "vi": "Người đứng trên không chỉ cần năng lực mà còn cần phẩm cách.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "横綱[よこづな]には、強[つよ]さとともに品格[ひんかく]が必要[ひつよう]だと言[い]われる。",
+     "vi": "Người ta nói Yokozuna cần phẩm cách bên cạnh sức mạnh.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:貫禄:かんろく"
+   ],
+   "rel": [
+    "v:人柄:ひとがら"
+   ],
+   "note": "品格[ひんかく] = phẩm giá, phong thái đáng kính (lời nói, cách cư xử). 品格[ひんかく]がある / 品格[ひんかく]に欠[か]ける = có / thiếu phẩm cách. 貫禄[かんろく] = vẻ có uy do từng trải; 品格[ひんかく] = sự cao quý trong cách cư xử."
+  },
+  {
+   "id": "v:見識:けんしき",
+   "kana": "けんしき",
+   "kanji": "見識",
+   "hv": "KIẾN THỨC",
+   "vi": "hiểu biết sáng suốt (phán đoán đúng)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phẩm chất lãnh đạo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]は、食品[しょくひん]の安全[あんぜん]について高[たか]い見識[けんしき]を持[も]っている。",
+     "vi": "Giám đốc có hiểu biết sâu sắc về an toàn thực phẩm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "専門家[せんもんか]の見識[けんしき]に基[もと]づいて、町[まち]は防災[ぼうさい]計画[けいかく]を見直[みなお]した。",
+     "vi": "Dựa trên ý kiến sáng suốt của chuyên gia, thị trấn đã xem lại kế hoạch phòng chống thiên tai.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:知識:ちしき",
+    "v:見解:けんかい"
+   ],
+   "note": "見識[けんしき] = hiểu biết kèm khả năng phán đoán đúng đắn (高[たか]い見識[けんしき], 見識[けんしき]がある). 知識[ちしき] = kiến thức đơn thuần. 見解[けんかい] = quan điểm về một vấn đề cụ thể. 見識[けんしき]を疑[うたが]う = nghi ngờ sự sáng suốt của ai."
+  },
+  {
+   "id": "v:寛大:かんだい",
+   "kana": "かんだい",
+   "kanji": "寛大",
+   "hv": "KHOAN ĐẠI",
+   "vi": "khoan dung, rộng lượng (tha thứ)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thái độ & chuẩn mực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "初[はじ]めてのミスだったので、主任[しゅにん]は寛大[かんだい]に許[ゆる]してくれた。",
+     "vi": "Vì là lỗi lần đầu nên chủ nhiệm đã rộng lượng bỏ qua.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "寛大[かんだい]な処置[しょち]をお願[ねが]い申[もう]し上[あ]げます。",
+     "vi": "Kính mong quý vị xử lý khoan hồng.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：遅刻[ちこく]したのに、部長[ぶちょう]、何[なに]も言[い]わなかったね。B：寛大[かんだい]な人[ひと]だけど、二回[にかい]目[め]はないと思[おも]うよ。",
+     "vi": "A: Đi muộn mà trưởng phòng chẳng nói gì nhỉ. B: Ông ấy rộng lượng, nhưng lần hai thì không có đâu.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "処置[しょち]",
+     "vi": "cách xử lý"
+    },
+    {
+     "jp": "心[こころ]",
+     "vi": "tấm lòng"
+    }
+   ],
+   "ant": [
+    {
+     "w": "厳格[げんかく]",
+     "vi": "nghiêm khắc"
+    }
+   ],
+   "rel": [
+    {
+     "w": "寛容[かんよう]",
+     "vi": "khoan dung (chấp nhận khác biệt)"
+    },
+    "v:度量:どりょう"
+   ],
+   "note": "寛大[かんだい] = rộng lòng tha thứ, không trách phạt nặng. 寛容[かんよう] = chấp nhận quan điểm, lối sống khác mình. 寛大[かんだい]な処置[しょち] = xử lý khoan hồng (văn bản xin giảm nhẹ)."
+  },
+  {
+   "id": "v:毅然:きぜん",
+   "kana": "きぜん",
+   "kanji": "毅然",
+   "hv": "NGHỊ NHIÊN",
+   "vi": "cứng rắn, kiên quyết (không nao núng)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thái độ & chuẩn mực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "クレームを受[う]けても、主任[しゅにん]は毅然[きぜん]とした態度[たいど]で対応[たいおう]した。",
+     "vi": "Dù bị khiếu nại, chủ nhiệm vẫn ứng phó với thái độ cứng rắn đúng mực.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "不当[ふとう]な要求[ようきゅう]には、毅然[きぜん]として断[ことわ]るべきだ。",
+     "vi": "Trước yêu cầu vô lý thì nên kiên quyết từ chối.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：取引先[とりひきさき]に値下[ねさ]げを強[つよ]く迫[せま]られたら、どうする？B：品質[ひんしつ]を守[まも]るためにも、毅然[きぜん]と断[ことわ]るよ。",
+     "vi": "A: Nếu đối tác ép giảm giá dữ thì sao? B: Để giữ chất lượng, tôi sẽ kiên quyết từ chối.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    {
+     "w": "断固[だんこ]",
+     "vi": "quyết không lay chuyển"
+    }
+   ],
+   "note": "Luôn dùng 毅然[きぜん]と / 毅然[きぜん]として / 毅然[きぜん]とした (態度[たいど], 対応[たいおう]); không nói 毅然[きぜん]な. Thái độ đường hoàng, không khuất phục trước áp lực."
+  },
+  {
+   "id": "v:潔い:いさぎよい",
+   "kana": "いさぎよい",
+   "kanji": "潔い",
+   "kf": "潔[いさぎよ]い",
+   "hv": "KHIẾT",
+   "vi": "dứt khoát, đường hoàng (nhận lỗi, rút lui không vương vấn)",
+   "pos": "adj-i",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thái độ & chuẩn mực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "自分[じぶん]のミスを潔[いさぎよ]く認[みと]めた新人[しんじん]を、班長[はんちょう]は責[せ]めなかった。",
+     "vi": "Tổ trưởng không trách người mới đã thẳng thắn nhận lỗi của mình.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "負[ま]けを潔[いさぎよ]く認[みと]めるのも、強[つよ]さの一[ひと]つだ。",
+     "vi": "Đường hoàng chấp nhận thua cũng là một kiểu mạnh mẽ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：言[い]い訳[わけ]ばかりしないで、潔[いさぎよ]く謝[あやま]ったら？B：そうだね。明日[あした]、ちゃんと謝[あやま]るよ。",
+     "vi": "A: Đừng toàn viện cớ nữa, xin lỗi cho đàng hoàng đi? B: Ừ nhỉ. Mai tớ sẽ xin lỗi tử tế.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "態度[たいど]",
+     "vi": "thái độ"
+    },
+    {
+     "jp": "引[ひ]き際[ぎわ]",
+     "vi": "cách rút lui"
+    }
+   ],
+   "ant": [
+    {
+     "w": "未練[みれん]がましい",
+     "vi": "dây dưa, không dứt khoát"
+    }
+   ],
+   "rel": [
+    "v:引き際:ひきぎわ"
+   ],
+   "note": "Hay dùng dạng phó từ 潔[いさぎよ]く (潔[いさぎよ]く認[みと]める, 潔[いさぎよ]く身[み]を引[ひ]く). 潔[いさぎよ]さ = sự dứt khoát, đường hoàng."
+  },
+  {
+   "id": "v:律する:りっする",
+   "kana": "りっする",
+   "kanji": "律する",
+   "kf": "律[りっ]する",
+   "hv": "LUẬT",
+   "vi": "nghiêm khắc với, tự kiềm chế (bản thân)",
+   "pos": "v3",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thái độ & chuẩn mực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "上[うえ]に立[た]つ者[もの]は、まず自[みずか]らを律[りっ]しなければならない。",
+     "vi": "Người đứng trên trước hết phải nghiêm khắc với chính mình.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "健康[けんこう]のために、食事[しょくじ]も酒[さけ]も自分[じぶん]を律[りっ]することにした。",
+     "vi": "Vì sức khỏe, tôi quyết định kỷ luật bản thân cả chuyện ăn lẫn rượu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：グエンさん、毎朝[まいあさ]早[はや]く来[き]て勉強[べんきょう]してるね。B：はい、自分[じぶん]を律[りっ]しないと、すぐ怠[なま]けてしまうので。",
+     "vi": "A: Anh Nguyễn sáng nào cũng đến sớm học nhỉ. B: Vâng, không nghiêm với bản thân là tôi lười ngay.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "自[みずか]らを律[りっ]する",
+     "vi": "nghiêm khắc với chính mình"
+    },
+    {
+     "jp": "自分[じぶん]を律[りっ]する",
+     "vi": "tự kiềm chế bản thân"
+    }
+   ],
+   "rel": [
+    "v:けじめ:けじめ"
+   ],
+   "note": "Văn trang trọng, thường đi với 自[みずか]らを / 自分[じぶん]を / 己[おのれ]を. Còn nghĩa: lấy một chuẩn mà xét (一[ひと]つの基準[きじゅん]で律[りっ]する = đánh giá theo một chuẩn)."
+  },
+  {
+   "id": "v:示し:しめし",
+   "kana": "しめし",
+   "kanji": "示し",
+   "kf": "示[しめ]し",
+   "hv": "THỊ",
+   "vi": "sự làm gương (cho người dưới)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thái độ & chuẩn mực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班長[はんちょう]が遅刻[ちこく]ばかりしていては、部下[ぶか]に示[しめ]しがつかない。",
+     "vi": "Tổ trưởng cứ đi muộn hoài thì chẳng làm gương được cho cấp dưới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "親[おや]がスマホばかり見[み]ていたら、子[こ]どもに示[しめ]しがつかないよ。",
+     "vi": "Bố mẹ toàn dán mắt vào điện thoại thì sao làm gương cho con được.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "示[しめ]しがつかない",
+     "vi": "không làm gương được"
+    }
+   ],
+   "rel": [
+    "v:手本:てほん",
+    "v:模範:もはん"
+   ],
+   "note": "Hầu như chỉ dùng dạng phủ định 示[しめ]しがつかない (không làm gương được, mất uy với người dưới). 示[しめ]しをつける = làm gương, giữ kỷ cương."
+  },
+  {
+   "id": "v:一目置く:いちもくおく",
+   "kana": "いちもくおく",
+   "kanji": "一目置く",
+   "kf": "一目置[いちもくお]く",
+   "hv": "NHẤT MỤC TRÍ",
+   "vi": "nể phục, kiêng nể (thừa nhận hơn mình)",
+   "pos": "expr",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thái độ & chuẩn mực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]の包丁[ほうちょう]さばきには、ベテランの職人[しょくにん]たちも一目[いちもく]置[お]いている。",
+     "vi": "Đến cả các thợ kỳ cựu cũng nể tay dao của anh ấy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "近所[きんじょ]の人[ひと]たちは、町内会[ちょうないかい]をまとめる山田[やまだ]さんに一目[いちもく]置[お]いている。",
+     "vi": "Hàng xóm ai cũng nể ông Yamada, người lo liệu hội khu phố.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新[あたら]しい主任[しゅにん]、若[わか]いのにしっかりしてるね。B：うん。課長[かちょう]も一目[いちもく]置[お]くほどだよ。",
+     "vi": "A: Chủ nhiệm mới trẻ mà vững vàng nhỉ. B: Ừ. Đến trưởng phòng cũng phải nể.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:尊敬:そんけい"
+   ],
+   "note": "Gốc từ cờ vây: người yếu được đặt trước một quân. 一目[いちもく]置[お]かれる = được nể trọng. Đọc いちもく (không đọc ひとめ)."
+  },
+  {
+   "id": "v:慕う:したう",
+   "kana": "したう",
+   "kanji": "慕う",
+   "kf": "慕[した]う",
+   "hv": "MỘ",
+   "vi": "kính mến, quý mến (người trên, người tài)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thái độ & chuẩn mực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "面倒[めんどう]見[み]がいい工場長[こうじょうちょう]は、多[おお]くの従業員[じゅうぎょういん]に慕[した]われている。",
+     "vi": "Giám đốc xưởng hay quan tâm người khác được nhiều công nhân kính mến.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子[こ]どもたちは、優[やさ]しい先生[せんせい]を母親[ははおや]のように慕[した]っていた。",
+     "vi": "Bọn trẻ quý mến cô giáo hiền như mẹ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：グエンさん、後輩[こうはい]から人気[にんき]ありますね。B：いえいえ。でも、慕[した]ってもらえるのはありがたいですね。",
+     "vi": "A: Anh Nguyễn được đàn em quý ghê. B: Đâu có. Nhưng được quý mến thì tôi biết ơn lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "先輩[せんぱい]を慕[した]う",
+     "vi": "quý mến đàn anh"
+    },
+    {
+     "jp": "故郷[こきょう]を慕[した]う",
+     "vi": "nhớ thương quê hương"
+    }
+   ],
+   "rel": [
+    "v:尊敬:そんけい",
+    {
+     "w": "敬[うやま]う",
+     "vi": "kính trọng"
+    }
+   ],
+   "note": "慕[した]う = quý mến, muốn gần gũi người mình kính trọng (hay dùng bị động 慕[した]われる = được quý mến). Còn nghĩa: nhớ thương (quê hương, người đã mất)."
+  },
+  {
+   "id": "v:いやしくも:いやしくも",
+   "kana": "いやしくも",
+   "kanji": "",
+   "hv": "",
+   "vi": "đã là… thì (phải) (văn viết)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thái độ & chuẩn mực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いやしくも食品[しょくひん]を扱[あつか]う者[もの]なら、衛生管理[えいせいかんり]を怠[おこた]ってはならない。",
+     "vi": "Đã là người làm thực phẩm thì không được lơ là quản lý vệ sinh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "いやしくも教師[きょうし]たる者[もの]、生徒[せいと]の前[まえ]でうそをつくべきではない。",
+     "vi": "Đã là giáo viên thì không nên nói dối trước mặt học sinh.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:仮にも:かりにも"
+   ],
+   "note": "Văn viết, trang trọng; hay đi với ngữ pháp bài này: いやしくも〜たる者[もの] / いやしくも〜なら + phải, không được. Chữ Hán 苟[いやし]くも ít dùng."
+  },
+  {
+   "id": "v:仮にも:かりにも",
+   "kana": "かりにも",
+   "kanji": "仮にも",
+   "kf": "仮[かり]にも",
+   "hv": "GIẢ",
+   "vi": "dù gì cũng là (…mà lại / …thì phải)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thái độ & chuẩn mực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仮[かり]にもプロなら、言[い]い訳[わけ]はしないでほしい。",
+     "vi": "Dù gì cũng là dân chuyên nghiệp thì đừng viện cớ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "仮[かり]にも親[おや]に向[む]かって、そんな言[い]い方[かた]はないだろう。",
+     "vi": "Dẫu sao cũng là bố mẹ, ai lại nói kiểu đó.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの人[ひと]、仮[かり]にも課長[かちょう]なのに、ルールを守[まも]らないんだよ。B：それは困[こま]るね。下[した]の人[ひと]がまねしちゃう。",
+     "vi": "A: Người đó dù gì cũng là trưởng phòng mà chẳng giữ quy định. B: Thế thì gay. Người dưới sẽ bắt chước mất.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:いやしくも:いやしくも"
+   ],
+   "note": "仮[かり]にも〜なのに / 仮[かり]にも〜なら = dù sao cũng là… (mà lại / thì phải). Đi với phủ định: 仮[かり]にもそんなことを口[くち]にするな = tuyệt đối đừng nói điều đó. いやしくも trang trọng hơn."
+  },
+  {
+   "id": "v:ひとえに:ひとえに",
+   "kana": "ひとえに",
+   "kanji": "",
+   "hv": "",
+   "vi": "hoàn toàn là (nhờ, do)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thái độ & chuẩn mực",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "無事故[むじこ]で一年[いちねん]を終[お]えられたのは、ひとえに皆[みな]さんのおかげです。",
+     "vi": "Kết thúc một năm không sự cố hoàn toàn là nhờ mọi người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今回[こんかい]の失敗[しっぱい]は、ひとえに私[わたし]の確認[かくにん]不足[ふそく]によるものです。",
+     "vi": "Thất bại lần này hoàn toàn do tôi kiểm tra không kỹ.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：主任[しゅにん]昇格[しょうかく]、おめでとうございます。B：ありがとう。ひとえに班[はん]のみんなが支[ささ]えてくれたおかげだよ。",
+     "vi": "A: Chúc mừng anh lên chủ nhiệm. B: Cảm ơn. Hoàn toàn nhờ cả tổ đã hỗ trợ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "Văn trang trọng, hay dùng trong lời cảm ơn, xin lỗi: ひとえに〜のおかげ / ひとえに〜のせい / ひとえに〜による. Chữ Hán 偏[ひとえ]に ít dùng. ひとえにお願[ねが]い申[もう]し上[あ]げます = khẩn thiết mong…"
+  },
+  {
+   "id": "v:郷土:きょうど",
+   "kana": "きょうど",
+   "kanji": "郷土",
+   "hv": "HƯƠNG THỔ",
+   "vi": "đất quê (văn hóa, lịch sử, sản vật của vùng)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "兵庫[ひょうご]には、ぼっかけやいかなごのくぎ煮[に]など、様々[さまざま]な郷土[きょうど]料理[りょうり]がある。",
+     "vi": "Hyogo có nhiều món ăn quê như bokkake hay cá cát kho gừng (ikanago no kugini).",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "うちの工場[こうじょう]で作[つく]った郷土[きょうど]の特産品[とくさんひん]が、ふるさと納税[のうぜい]の返礼品[へんれいひん]に選[えら]ばれた。",
+     "vi": "Đặc sản quê nhà do xưởng mình làm ra đã được chọn làm quà đáp lễ của chương trình \"thuế quê hương\".",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:故郷:こきょう",
+    "v:地元:じもと"
+   ],
+   "note": "郷土料理[きょうどりょうり] = món ăn đặc trưng vùng. 郷土愛[きょうどあい] = lòng yêu quê. 郷土[きょうど] dùng cho văn hóa, lịch sử, sản vật vùng; 故郷[こきょう] = quê mình, nơi mình sinh ra."
+  },
+  {
+   "id": "v:地場:じば",
+   "kana": "じば",
+   "kanji": "地場",
+   "hv": "ĐỊA TRƯỜNG",
+   "vi": "bản địa, tại chỗ (doanh nghiệp, sản phẩm của vùng)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地場[じば]の水産[すいさん]加工[かこう]会社[かいしゃ]が集[あつ]まって、新[あたら]しいブランドを立[た]ち上[あ]げた。",
+     "vi": "Các công ty chế biến thủy sản địa phương hợp lại, tung ra thương hiệu mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "給食[きゅうしょく]には、なるべく地場[じば]の野菜[やさい]が使[つか]われている。",
+     "vi": "Bữa trưa ở trường dùng rau địa phương nhiều nhất có thể.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:地元:じもと"
+   ],
+   "note": "Thường làm từ ghép: 地場産業[じばさんぎょう] = ngành nghề địa phương; 地場産[じばさん] = sản xuất tại địa phương; 地場[じば]企業[きぎょう] = doanh nghiệp địa phương. Đồng âm: 磁場[じば] = từ trường."
+  },
+  {
+   "id": "v:銘柄:めいがら",
+   "kana": "めいがら",
+   "kanji": "銘柄",
+   "hv": "MINH BÍNH",
+   "vi": "nhãn hàng có tiếng (rượu, gạo, thịt); mã cổ phiếu",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "灘[なだ]の酒蔵[さかぐら]では、それぞれ自慢[じまん]の銘柄[めいがら]を造[つく]っている。",
+     "vi": "Các lò rượu ở Nada đều nấu những nhãn rượu riêng mà họ tự hào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この牡蠣[かき]は、地域[ちいき]の銘柄[めいがら]として売[う]り出[だ]されている。",
+     "vi": "Hàu này được tung ra như một nhãn hàng có tiếng của vùng.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:ブランド:ブランド"
+   ],
+   "note": "Dùng cho rượu, gạo, thuốc lá, thịt, cá có thương hiệu (銘柄牛[めいがらぎゅう] = bò thương hiệu) và cổ phiếu (人気[にんき]銘柄[めいがら] = mã cổ phiếu được ưa chuộng)."
+  },
+  {
+   "id": "v:銘菓:めいか",
+   "kana": "めいか",
+   "kanji": "銘菓",
+   "hv": "MINH QUẢ",
+   "vi": "bánh kẹo nổi tiếng (của vùng, tiệm lâu năm)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "取引先[とりひきさき]へのお土産[みやげ]に、神戸[こうべ]の銘菓[めいか]を持[も]っていった。",
+     "vi": "Tôi mang bánh nổi tiếng của Kobe làm quà cho đối tác.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この銘菓[めいか]は、創業[そうぎょう]百年[ひゃくねん]の老舗[しにせ]で作[つく]られている。",
+     "vi": "Món bánh nổi tiếng này được làm ở một tiệm lâu đời trăm năm.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:名物:めいぶつ",
+    "v:老舗:しにせ"
+   ],
+   "note": "銘菓[めいか] = bánh kẹo có tên tuổi, gắn với vùng hoặc tiệm lâu đời (hay ghi trên hộp quà). 名物[めいぶつ] = đặc sản nổi tiếng nói chung."
+  },
+  {
+   "id": "v:名だたる:なだたる",
+   "kana": "なだたる",
+   "kanji": "名だたる",
+   "kf": "名[な]だたる",
+   "hv": "DANH",
+   "vi": "lừng danh, có tiếng (đứng trước danh từ)",
+   "pos": "other",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "灘[なだ]には、名[な]だたる酒蔵[さかぐら]が集[あつ]まっている。",
+     "vi": "Ở Nada tập trung những lò rượu lừng danh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "名[な]だたる料亭[りょうてい]が、この港[みなと]の魚[さかな]を仕入[しい]れている。",
+     "vi": "Những nhà hàng Nhật danh tiếng nhập cá của cảng này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：明日[あした]の見学[けんがく]、どこの会社[かいしゃ]が来[く]るの？B：名[な]だたる大手[おおて]スーパーのバイヤーばかりだよ。",
+     "vi": "A: Mai tham quan, công ty nào đến vậy? B: Toàn người thu mua của các chuỗi siêu thị lớn có tiếng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "syn": [
+    "v:名高い:なだかい"
+   ],
+   "note": "Chỉ đứng trước danh từ (名[な]だたる企業[きぎょう], 名[な]だたる選手[せんしゅ]). Văn trang trọng. 名高[なだか]い = nổi tiếng (tính từ, dùng được cuối câu)."
+  },
+  {
+   "id": "v:匠:たくみ",
+   "kana": "たくみ",
+   "kanji": "匠",
+   "hv": "TƯỢNG",
+   "vi": "bậc thầy tay nghề, nghệ nhân bậc thầy",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この包丁[ほうちょう]は、堺[さかい]の匠[たくみ]が一本[いっぽん]ずつ手作[てづく]りしている。",
+     "vi": "Con dao này được nghệ nhân ở Sakai làm thủ công từng chiếc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "マグロを一瞬[いっしゅん]でさばく技術[ぎじゅつ]は、まさに匠[たくみ]の技[わざ]だ。",
+     "vi": "Kỹ thuật xẻ cá ngừ trong chớp mắt ấy đúng là tay nghề bậc thầy.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:職人:しょくにん",
+    "v:熟練:じゅくれん"
+   ],
+   "note": "匠[たくみ] = nghệ nhân tay nghề siêu việt (trang trọng, hay gặp trong quảng cáo: 匠[たくみ]の技[わざ] = tay nghề bậc thầy). 職人[しょくにん] = thợ thủ công nói chung."
+  },
+  {
+   "id": "v:風土:ふうど",
+   "kana": "ふうど",
+   "kanji": "風土",
+   "hv": "PHONG THỔ",
+   "vi": "thủy thổ (khí hậu, đất đai, nếp sống của vùng); nếp văn hóa (của tổ chức)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本酒[にほんしゅ]の味[あじ]は、その土地[とち]の風土[ふうど]によって変[か]わる。",
+     "vi": "Vị rượu sake thay đổi theo thủy thổ của vùng đất đó.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "意見[いけん]を言[い]いやすい職場[しょくば]の風土[ふうど]を作[つく]ることが、事故[じこ]の防止[ぼうし]にもつながる。",
+     "vi": "Tạo nếp nơi làm việc dễ nói ý kiến cũng góp phần phòng ngừa sự cố.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:気候:きこう",
+    "v:土地柄:とちがら"
+   ],
+   "note": "風土[ふうど] = khí hậu, đất đai và nếp sống đặc trưng của vùng. Nghĩa bóng: nếp văn hóa của tổ chức (企業[きぎょう]風土[ふうど], 職場[しょくば]の風土[ふうど] = văn hóa công ty)."
+  },
+  {
+   "id": "v:土地柄:とちがら",
+   "kana": "とちがら",
+   "kanji": "土地柄",
+   "hv": "THỔ ĐỊA BÍNH",
+   "vi": "nét đặc trưng của vùng (tính người, nếp sống)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "港町[みなとまち]という土地柄[とちがら]、この辺[あた]りには魚[さかな]料理[りょうり]の店[みせ]が多[おお]い。",
+     "vi": "Vì là phố cảng, quanh đây nhiều quán món cá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "関西[かんさい]という土地柄[とちがら]か、取引先[とりひきさき]との会話[かいわ]にも冗談[じょうだん]が多[おお]い。",
+     "vi": "Có lẽ do nét vùng Kansai mà nói chuyện với đối tác cũng lắm câu đùa.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:風土:ふうど"
+   ],
+   "rel": [
+    {
+     "w": "お国柄[くにがら]",
+     "vi": "nét đặc trưng của một nước"
+    }
+   ],
+   "note": "Dạng hay gặp: 〜という土地柄[とちがら] / 土地柄[とちがら]か = do đặc trưng vùng. 風土[ふうど] nhấn vào tự nhiên – khí hậu; 土地柄[とちがら] nhấn vào tính người, nếp sinh hoạt."
+  },
+  {
+   "id": "v:酒蔵:さかぐら",
+   "kana": "さかぐら",
+   "kanji": "酒蔵",
+   "hv": "TỬU TÀNG",
+   "vi": "lò nấu rượu sake, kho ủ rượu",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冬[ふゆ]になると、灘[なだ]の酒蔵[さかぐら]では新酒[しんしゅ]の仕込[しこ]みが始[はじ]まる。",
+     "vi": "Vào đông, các lò rượu ở Nada bắt đầu nấu rượu mới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "社員旅行[しゃいんりょこう]で、西宮[にしのみや]の酒蔵[さかぐら]を見学[けんがく]した。",
+     "vi": "Trong chuyến du lịch công ty, chúng tôi tham quan lò rượu ở Nishinomiya.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:蔵元:くらもと",
+    "v:醸造:じょうぞう"
+   ],
+   "note": "Vùng Nada (灘[なだ]: Kobe – Nishinomiya, Hyogo) là vùng làm rượu sake lớn nhất Nhật Bản. 酒蔵開[さかぐらびら]き = ngày lò rượu mở cửa đón khách."
+  },
+  {
+   "id": "v:醸造:じょうぞう",
+   "kana": "じょうぞう",
+   "kanji": "醸造",
+   "hv": "NHƯỠNG TẠO",
+   "vi": "ủ lên men (rượu, nước tương, giấm)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この地方[ちほう]では、昔[むかし]から酒[さけ]やしょうゆの醸造[じょうぞう]が盛[さか]んだ。",
+     "vi": "Vùng này từ xưa đã phát triển nghề nấu rượu, làm nước tương.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "当社[とうしゃ]の調味[ちょうみ]液[えき]には、地元[じもと]で醸造[じょうぞう]された酢[す]を使[つか]っている。",
+     "vi": "Nước ướp của công ty dùng giấm ủ tại địa phương.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "日本酒[にほんしゅ]を醸造[じょうぞう]する",
+     "vi": "nấu rượu sake"
+    },
+    {
+     "jp": "しょうゆを醸造[じょうぞう]する",
+     "vi": "làm nước tương"
+    }
+   ],
+   "rel": [
+    "v:酒蔵:さかぐら"
+   ],
+   "note": "醸造[じょうぞう] = làm rượu, tương, giấm… bằng lên men. 醸造[じょうぞう]所[じょ] = cơ sở ủ. 醸造酒[じょうぞうしゅ] = rượu lên men (sake, bia, vang). Động từ liên quan: 醸[かも]す."
+  },
+  {
+   "id": "v:蔵元:くらもと",
+   "kana": "くらもと",
+   "kanji": "蔵元",
+   "hv": "TÀNG NGUYÊN",
+   "vi": "lò rượu, nhà làm rượu (sake, nước tương)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "蔵元[くらもと]の話[はなし]によると、今年[ことし]は酒米[さかまい]の出来[でき]がいいそうだ。",
+     "vi": "Theo nhà làm rượu, năm nay lúa làm rượu được mùa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "地元[じもと]の蔵元[くらもと]と協力[きょうりょく]して、酒[さけ]かすを使[つか]った漬[つ]け魚[さかな]を開発[かいはつ]した。",
+     "vi": "Hợp tác với lò rượu địa phương, chúng tôi đã phát triển cá ướp bã rượu.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:酒蔵:さかぐら"
+   ],
+   "note": "蔵元[くらもと] = nơi (hoặc người chủ) làm rượu sake, nước tương. 酒蔵[さかぐら] = tòa nhà, xưởng nấu rượu. 酒[さけ]かす = bã rượu (dùng ướp cá: 粕漬[かすづ]け)."
+  },
+  {
+   "id": "v:習わし:ならわし",
+   "kana": "ならわし",
+   "kanji": "習わし",
+   "kf": "習[なら]わし",
+   "hv": "TẬP",
+   "vi": "tục lệ, lệ thường (làm theo từ lâu)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この町[まち]では、正月[しょうがつ]に海[うみ]の神[かみ]様[さま]に魚[さかな]を供[そな]えるのが習[なら]わしだ。",
+     "vi": "Ở thị trấn này, ngày Tết dâng cá lên thần biển là tục lệ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しく入[はい]った人[ひと]が朝礼[ちょうれい]で自己[じこ]紹介[しょうかい]をするのが、この工場[こうじょう]の習[なら]わしだ。",
+     "vi": "Người mới vào giới thiệu bản thân trong buổi họp sáng là lệ của xưởng này.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:しきたり:しきたり",
+    "v:風習:ふうしゅう"
+   ],
+   "note": "習[なら]わし = điều đã thành lệ, làm theo từ lâu (〜のが習[なら]わしだ). しきたり = lề lối, quy củ phải theo (nặng tính bắt buộc hơn). 風習[ふうしゅう] = phong tục của một vùng, một dân tộc."
+  },
+  {
+   "id": "v:しきたり:しきたり",
+   "kana": "しきたり",
+   "kanji": "",
+   "hv": "",
+   "vi": "lề lối, quy củ (truyền lại, phải tuân theo)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "古[ふる]いしきたりに縛[しば]られて、新[あたら]しいことが始[はじ]められない。",
+     "vi": "Bị trói buộc bởi lề lối cũ, chẳng bắt đầu được điều gì mới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "漁師[りょうし]の世界[せかい]には、よそ者[もの]には分[わ]からないしきたりが多[おお]い。",
+     "vi": "Giới ngư dân có nhiều lề lối mà người ngoài không hiểu được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：結婚式[けっこんしき]のご祝儀[しゅうぎ]って、いくら包[つつ]めばいいの？B：地域[ちいき]のしきたりもあるから、先輩[せんぱい]に聞[き]いてみたら？",
+     "vi": "A: Tiền mừng đám cưới nên bỏ bao nhiêu nhỉ? B: Còn tùy lệ của vùng nữa, thử hỏi đàn anh xem?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:習わし:ならわし"
+   ],
+   "rel": [
+    "v:慣習:かんしゅう"
+   ],
+   "note": "Chữ Hán 仕来[しきた]り ít dùng. しきたりを守[まも]る / しきたりに従[したが]う / しきたりを破[やぶ]る."
+  },
+  {
+   "id": "v:祭礼:さいれい",
+   "kana": "さいれい",
+   "kanji": "祭礼",
+   "hv": "TẾ LỄ",
+   "vi": "lễ tế, lễ hội đền (văn trang trọng)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "秋[あき]の祭礼[さいれい]では、町内[ちょうない]を屋台[やたい]が練[ね]り歩[ある]く。",
+     "vi": "Trong lễ hội mùa thu, kiệu yatai diễu khắp khu phố.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "祭礼[さいれい]の日[ひ]は道路[どうろ]が混[こ]むので、出荷[しゅっか]のトラックは早[はや]めに出発[しゅっぱつ]する。",
+     "vi": "Ngày lễ hội đường đông nên xe tải xuất hàng khởi hành sớm.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:神社:じんじゃ"
+   ],
+   "note": "祭礼[さいれい] = lễ hội gắn với đền thờ (văn trang trọng, thông báo). Nói thường: 祭[まつ]り. Vùng Harima (Hyogo) nổi tiếng lễ hội kiệu 屋台[やたい] mùa thu."
+  },
+  {
+   "id": "v:伝承:でんしょう",
+   "kana": "でんしょう",
+   "kanji": "伝承",
+   "hv": "TRUYỀN THỪA",
+   "vi": "truyền lại qua nhiều đời; truyền thuyết",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "昔[むかし]ながらの干物[ひもの]の作[つく]り方[かた]を、地元[じもと]の漁師[りょうし]が子[こ]どもたちに伝承[でんしょう]している。",
+     "vi": "Ngư dân địa phương truyền lại cho bọn trẻ cách làm cá khô theo lối xưa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この村[むら]には、竜神[りゅうじん]にまつわる伝承[でんしょう]が残[のこ]っている。",
+     "vi": "Ngôi làng này còn lưu truyền những truyền thuyết về thần rồng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "技[わざ]を伝承[でんしょう]する",
+     "vi": "truyền lại tay nghề"
+    },
+    {
+     "jp": "民話[みんわ]を伝承[でんしょう]する",
+     "vi": "truyền lại truyện dân gian"
+    }
+   ],
+   "confuse": [
+    "v:継承:けいしょう"
+   ],
+   "rel": [
+    "v:伝える:つたえる"
+   ],
+   "note": "伝承[でんしょう] = truyền miệng, truyền tay từ đời này sang đời khác (kỹ thuật, lễ hội, truyện cổ); danh từ: điều được lưu truyền. 継承[けいしょう] = kế thừa (ngôi vị, quyền, kỹ thuật) — nhấn vào phía người nhận."
+  },
+  {
+   "id": "v:由緒:ゆいしょ",
+   "kana": "ゆいしょ",
+   "kanji": "由緒",
+   "hv": "DO TỰ",
+   "vi": "lai lịch lâu đời, nguồn gốc danh giá",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この神社[じんじゃ]は、千年[せんねん]以上[いじょう]の歴史[れきし]を持[も]つ由緒[ゆいしょ]ある神社[じんじゃ]だ。",
+     "vi": "Đền này là ngôi đền có lai lịch hơn nghìn năm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "由緒[ゆいしょ]ある料亭[りょうてい]に魚[さかな]を納[おさ]めることになり、検品[けんぴん]がいつも以上[いじょう]に厳[きび]しくなった。",
+     "vi": "Được giao cung cấp cá cho một nhà hàng lâu đời danh giá, khâu kiểm hàng gắt hơn mọi khi.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:由来:ゆらい",
+    "v:歴史:れきし"
+   ],
+   "note": "Hầu như dùng dạng 由緒[ゆいしょ]ある / 由緒[ゆいしょ]正[ただ]しい (có lai lịch, danh giá). 由来[ゆらい] = nguồn gốc (của tên, phong tục). Đọc ゆいしょ (không đọc ゆうしょ)."
+  },
+  {
+   "id": "v:跡継ぎ:あとつぎ",
+   "kana": "あとつぎ",
+   "kanji": "跡継ぎ",
+   "kf": "跡継[あとつ]ぎ",
+   "hv": "TÍCH KẾ",
+   "vi": "người nối nghiệp (gia đình, cửa tiệm)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "跡継[あとつ]ぎがいないため、老舗[しにせ]のかまぼこ屋[や]が店[みせ]を閉[し]めた。",
+     "vi": "Vì không có người nối nghiệp, tiệm chả cá lâu đời đã đóng cửa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "社長[しゃちょう]の息子[むすこ]は、跡継[あとつ]ぎとして現場[げんば]で修業[しゅぎょう]している。",
+     "vi": "Con trai giám đốc đang rèn nghề ở hiện trường với tư cách người nối nghiệp.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:後継者:こうけいしゃ"
+   ],
+   "rel": [
+    "v:継ぐ:つぐ"
+   ],
+   "note": "跡継[あとつ]ぎ = người kế nghiệp trong gia đình, cửa hàng (cách nói thường). 後継者[こうけいしゃ] = người kế nhiệm (dùng chung cho công ty, nghề, chức vụ). Cũng viết 後継[あとつ]ぎ."
+  },
+  {
+   "id": "v:代々:だいだい",
+   "kana": "だいだい",
+   "kanji": "代々",
+   "hv": "ĐẠI ĐẠI",
+   "vi": "đời đời, qua nhiều đời",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đặc sản & truyền thống",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "山本[やまもと]さんの家[いえ]は、代々[だいだい]漁師[りょうし]をしている。",
+     "vi": "Nhà ông Yamamoto đời đời làm nghề đánh cá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この漬[つ]けだれの作[つく]り方[かた]は、代々[だいだい]受[う]け継[つ]がれてきた。",
+     "vi": "Cách làm nước ướp này được truyền qua nhiều đời.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの酒蔵[さかぐら]、何代目[なんだいめ]なの？B：今[いま]の社長[しゃちょう]で十五代目[じゅうごだいめ]だって。代々[だいだい]続[つづ]いてるんだね。",
+     "vi": "A: Lò rượu đó đến đời thứ mấy rồi? B: Nghe nói giám đốc bây giờ là đời thứ 15. Truyền nhiều đời ghê.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:世代:せだい",
+    "v:跡継ぎ:あとつぎ"
+   ],
+   "note": "代々[だいだい] = qua nhiều thế hệ liên tiếp. 先祖代々[せんぞだいだい] = từ đời tổ tiên. 〜代目[だいめ] = đời thứ… (三代目[さんだいめ] = đời thứ ba)."
+  }
+ ]
+}

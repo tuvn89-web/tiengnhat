@@ -1,0 +1,2047 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n1-13",
+  "title": "JLPT N1 13 – Thiên tai, hủy bỏ, mong ước & cảm thông",
+  "type": "vocab",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:天災:てんさい",
+   "kana": "てんさい",
+   "kanji": "天災",
+   "hv": "THIÊN TAI",
+   "vi": "tai họa thiên nhiên (đối lại nhân tai)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地震[じしん]や台風[たいふう]などの天災[てんさい]は、いつ起[お]こるかわからない。",
+     "vi": "Thiên tai như động đất hay bão thì không biết lúc nào xảy ra.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]が天災[てんさい]で止[と]まった場合[ばあい]に備[そな]えて、取引先[とりひきさき]との連絡[れんらく]方法[ほうほう]を決[き]めておいた。",
+     "vi": "Phòng trường hợp xưởng ngừng vì thiên tai, đã định sẵn cách liên lạc với đối tác.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "人災[じんさい]",
+     "vi": "tai họa do con người gây ra"
+    }
+   ],
+   "confuse": [
+    "v:災害:さいがい"
+   ],
+   "note": "天災[てんさい] = tai họa do tự nhiên (động đất, bão, núi lửa), đối lại 人災[じんさい] = tai họa do con người (sơ suất, quản lý kém). Câu quen thuộc: 天災[てんさい]は忘[わす]れた頃[ころ]にやってくる = thiên tai ập đến đúng lúc người ta vừa quên nó. 災害[さいがい] = thảm họa nói chung (cả tai nạn lớn)."
+  },
+  {
+   "id": "v:被災:ひさい",
+   "kana": "ひさい",
+   "kanji": "被災",
+   "hv": "BỊ TAI",
+   "vi": "bị thiên tai, gặp nạn (do thảm họa)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "被災[ひさい]した地域[ちいき]では、今[いま]も多[おお]くの人[ひと]が仮設[かせつ]住宅[じゅうたく]で暮[く]らしている。",
+     "vi": "Ở các vùng bị thiên tai, đến nay vẫn còn nhiều người sống trong nhà tạm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "被災地[ひさいち]の工場[こうじょう]から原料[げんりょう]が届[とど]かず、生産[せいさん]の縮小[しゅくしょう]を余儀[よぎ]なくされた。",
+     "vi": "Nguyên liệu từ nhà máy ở vùng bị nạn không về được, xưởng buộc phải thu hẹp sản xuất.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：実家[じっか]のほうは大丈夫[だいじょうぶ]だった？B：うん、親戚[しんせき]の家[いえ]が少[すこ]し被災[ひさい]したけど、みんな無事[ぶじ]だったよ。",
+     "vi": "A: Bên nhà bố mẹ có sao không? B: Ừ, nhà họ hàng bị thiệt hại chút ít, nhưng mọi người đều bình an.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "地震[じしん]で被災[ひさい]する",
+     "vi": "bị thiệt hại vì động đất"
+    },
+    {
+     "jp": "豪雨[ごうう]で被災[ひさい]する",
+     "vi": "gặp nạn vì mưa lớn"
+    }
+   ],
+   "rel": [
+    "v:被害:ひがい",
+    "v:災害:さいがい"
+   ],
+   "note": "被災地[ひさいち] = vùng bị thiên tai; 被災者[ひさいしゃ] = người bị nạn; 被災状況[ひさいじょうきょう] = tình hình thiệt hại. 被害[ひがい] = thiệt hại nói chung (cả trộm cắp, lừa đảo); 被災[ひさい] chỉ dùng cho thiên tai, thảm họa."
+  },
+  {
+   "id": "v:猛威:もうい",
+   "kana": "もうい",
+   "kanji": "猛威",
+   "hv": "MÃNH UY",
+   "vi": "sức tàn phá dữ dội (bão, dịch bệnh)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大型[おおがた]の台風[たいふう]が猛威[もうい]を振[ふ]るい、各地[かくち]で停電[ていでん]が相[あい]次[つ]いだ。",
+     "vi": "Cơn bão lớn hoành hành dữ dội, mất điện liên tiếp ở nhiều nơi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "冬[ふゆ]になるとノロウイルスが猛威[もうい]を振[ふ]るうので、手洗[てあら]いを徹底[てってい]している。",
+     "vi": "Mùa đông norovirus hoành hành mạnh nên xưởng thực hiện rửa tay triệt để.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "猛威[もうい]を振[ふ]るう",
+     "vi": "hoành hành dữ dội"
+    }
+   ],
+   "rel": [
+    "v:猛暑:もうしょ"
+   ],
+   "note": "Hầu như chỉ dùng trong cụm 猛威[もうい]を振[ふ]るう: bão, dịch bệnh, cái nóng, cái lạnh hoành hành. Chủ ngữ là thiên nhiên, bệnh dịch, không phải người."
+  },
+  {
+   "id": "v:襲う:おそう",
+   "kana": "おそう",
+   "kanji": "襲う",
+   "kf": "襲[おそ]う",
+   "hv": "TẬP",
+   "vi": "ập đến, ập vào (bão, động đất, cơn đau)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜中[よなか]に激[はげ]しい揺[ゆ]れが町[まち]を襲[おそ]った。",
+     "vi": "Nửa đêm, cơn rung lắc dữ dội ập xuống thị trấn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "作業中[さぎょうちゅう]に急[きゅう]に強[つよ]い眠気[ねむけ]に襲[おそ]われ、班長[はんちょう]に申[もう]し出[で]て休憩[きゅうけい]をとった。",
+     "vi": "Đang làm việc thì bỗng bị cơn buồn ngủ ập đến, tôi xin tổ trưởng cho nghỉ giải lao.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：昨日[きのう]の雷[かみなり]、すごかったね。B：うん、帰[かえ]り道[みち]で急[きゅう]に激[はげ]しい雨[あめ]に襲[おそ]われて、びしょぬれになったよ。",
+     "vi": "A: Sấm hôm qua kinh thật. B: Ừ, trên đường về bất ngờ gặp mưa dữ, ướt sũng luôn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "台風[たいふう]が町[まち]を襲[おそ]う",
+     "vi": "bão ập vào thị trấn"
+    },
+    {
+     "jp": "不安[ふあん]が襲[おそ]う",
+     "vi": "nỗi bất an ập đến"
+    }
+   ],
+   "rel": [
+    "v:見舞われる:みまわれる"
+   ],
+   "note": "Chủ ngữ là thiên tai, cơn đau, cảm xúc (不安[ふあん], 眠気[ねむけ]). Dạng bị động 〜に襲[おそ]われる (bị … ập đến) rất hay gặp trong tin tức. Nghĩa gốc: tấn công (người, thú dữ)."
+  },
+  {
+   "id": "v:見舞われる:みまわれる",
+   "kana": "みまわれる",
+   "kanji": "見舞われる",
+   "kf": "見舞[みま]われる",
+   "hv": "KIẾN VŨ",
+   "vi": "gặp phải, hứng chịu (thiên tai, sự cố)",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この地方[ちほう]は、毎年[まいとし]のように大雨[おおあめ]に見舞[みま]われている。",
+     "vi": "Vùng này gần như năm nào cũng hứng chịu mưa lớn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]が停電[ていでん]に見舞[みま]われ、冷凍庫[れいとうこ]の温度[おんど]管理[かんり]に追[お]われた。",
+     "vi": "Xưởng gặp sự cố mất điện, mọi người tất bật kiểm soát nhiệt độ tủ đông.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：旅行[りょこう]、どうだった？B：それが、ずっと悪天候[あくてんこう]に見舞[みま]われて、ほとんどホテルにいたよ。",
+     "vi": "A: Chuyến du lịch thế nào? B: Chuyện là gặp toàn thời tiết xấu, gần như chỉ ở trong khách sạn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "災害[さいがい]に見舞[みま]われる",
+     "vi": "gặp thiên tai"
+    },
+    {
+     "jp": "不運[ふうん]に見舞[みま]われる",
+     "vi": "gặp vận rủi"
+    }
+   ],
+   "rel": [
+    "v:襲う:おそう",
+    "v:お見舞い:おみまい"
+   ],
+   "note": "Vốn là bị động của 見舞[みま]う nhưng dùng như một động từ riêng: 〜に見舞[みま]われる = gặp phải điều không may (thiên tai, mất điện, tai nạn). Văn tin tức. Đừng nhầm với お見舞[みま]い (thăm người ốm)."
+  },
+  {
+   "id": "v:氾濫:はんらん",
+   "kana": "はんらん",
+   "kanji": "氾濫",
+   "hv": "PHIẾM LẠM",
+   "vi": "(sông) tràn bờ; tràn lan (thông tin, hàng hóa)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大雨[おおあめ]で川[かわ]が氾濫[はんらん]し、近[ちか]くの住宅[じゅうたく]が水[みず]につかった。",
+     "vi": "Mưa lớn làm sông tràn bờ, nhà cửa gần đó bị ngập nước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ネットには、根拠[こんきょ]のない情報[じょうほう]が氾濫[はんらん]している。",
+     "vi": "Trên mạng tràn lan thông tin không có căn cứ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "川[かわ]の氾濫[はんらん]に備[そな]えて、倉庫[そうこ]の原料[げんりょう]を高[たか]い場所[ばしょ]に移[うつ]した。",
+     "vi": "Phòng sông tràn bờ, đã chuyển nguyên liệu trong kho lên chỗ cao.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "河川[かせん]が氾濫[はんらん]する",
+     "vi": "sông ngòi tràn bờ"
+    },
+    {
+     "jp": "情報[じょうほう]が氾濫[はんらん]する",
+     "vi": "thông tin tràn lan"
+    }
+   ],
+   "confuse": [
+    "v:決壊:けっかい"
+   ],
+   "note": "氾濫[はんらん] = nước sông dâng tràn qua bờ. Nghĩa bóng: tràn ngập, tràn lan (情報[じょうほう], 商品[しょうひん], 広告[こうこく]). 決壊[けっかい] = đê, đập bị vỡ. 洪水[こうずい] = lũ lụt."
+  },
+  {
+   "id": "v:決壊:けっかい",
+   "kana": "けっかい",
+   "kanji": "決壊",
+   "hv": "QUYẾT HOẠI",
+   "vi": "vỡ (đê, đập)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "堤防[ていぼう]が決壊[けっかい]して、町[まち]の広[ひろ]い範囲[はんい]が浸水[しんすい]した。",
+     "vi": "Đê bị vỡ, một vùng rộng của thị trấn bị ngập.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ため池[いけ]が決壊[けっかい]するおそれがあるとして、付近[ふきん]の住民[じゅうみん]に避難[ひなん]の指示[しじ]が出[だ]された。",
+     "vi": "Vì có nguy cơ hồ chứa nước bị vỡ, lệnh sơ tán đã được đưa ra cho cư dân lân cận.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "堤防[ていぼう]が決壊[けっかい]する",
+     "vi": "đê vỡ"
+    },
+    {
+     "jp": "ダムが決壊[けっかい]する",
+     "vi": "đập vỡ"
+    }
+   ],
+   "confuse": [
+    "v:氾濫:はんらん"
+   ],
+   "note": "決壊[けっかい] = công trình giữ nước (堤防[ていぼう], ダム, ため池[いけ]) bị nước phá vỡ. 氾濫[はんらん] = nước tràn qua bờ. Khẩu ngữ đùa: 涙腺[るいせん]が決壊[けっかい]する = nước mắt trào ra không kìm được."
+  },
+  {
+   "id": "v:浸水:しんすい",
+   "kana": "しんすい",
+   "kanji": "浸水",
+   "hv": "TẨM THỦY",
+   "vi": "ngập nước, nước tràn vào (nhà, xe, tàu)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この地区[ちく]では、床下[ゆかした]まで浸水[しんすい]した家[いえ]が何軒[なんけん]もあった。",
+     "vi": "Ở khu này có nhiều nhà bị ngập đến dưới sàn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]の一階[いっかい]が浸水[しんすい]したため、機械[きかい]の点検[てんけん]が終[お]わるまで操業[そうぎょう]を停止[ていし]した。",
+     "vi": "Vì tầng một của xưởng bị ngập nước, đã ngừng hoạt động cho đến khi kiểm tra máy xong.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "住宅[じゅうたく]が浸水[しんすい]する",
+     "vi": "nhà bị ngập"
+    },
+    {
+     "jp": "床上[ゆかうえ]まで浸水[しんすい]する",
+     "vi": "ngập lên trên sàn"
+    }
+   ],
+   "rel": [
+    "v:氾濫:はんらん"
+   ],
+   "note": "床上浸水[ゆかうえしんすい] = ngập lên trên sàn nhà; 床下浸水[ゆかしたしんすい] = ngập dưới sàn. 冠水[かんすい] = đường, ruộng bị nước phủ lên. Tàu, thuyền: 浸水[しんすい]する = nước tràn vào thân."
+  },
+  {
+   "id": "v:土砂崩れ:どしゃくずれ",
+   "kana": "どしゃくずれ",
+   "kanji": "土砂崩れ",
+   "kf": "土砂崩[どしゃくず]れ",
+   "hv": "THỔ SA BĂNG",
+   "vi": "sạt lở đất",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "土砂[どしゃ]崩[くず]れで道路[どうろ]がふさがれ、山[やま]あいの集落[しゅうらく]が孤立[こりつ]した。",
+     "vi": "Sạt lở đất chặn đường, xóm làng trong núi bị cô lập.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "土砂[どしゃ]崩[くず]れの影響[えいきょう]で、トラックの到着[とうちゃく]が半日[はんにち]遅[おく]れるそうだ。",
+     "vi": "Do ảnh hưởng sạt lở đất, nghe nói xe tải sẽ đến muộn nửa ngày.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:二次災害:にじさいがい"
+   ],
+   "note": "Thường do mưa lớn, động đất. 土砂災害[どしゃさいがい] = thiên tai do đất đá (sạt lở, lũ bùn đá); 土石流[どせきりゅう] = lũ bùn đá; がけ崩[くず]れ = lở vách núi."
+  },
+  {
+   "id": "v:倒壊:とうかい",
+   "kana": "とうかい",
+   "kanji": "倒壊",
+   "hv": "ĐẢO HOẠI",
+   "vi": "đổ sập (nhà, công trình)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "古[ふる]い木造[もくぞう]の家[いえ]が、強[つよ]い揺[ゆ]れで倒壊[とうかい]した。",
+     "vi": "Ngôi nhà gỗ cũ đổ sập do rung lắc mạnh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "倉庫[そうこ]の棚[たな]が倒壊[とうかい]しないよう、壁[かべ]にしっかり固定[こてい]してある。",
+     "vi": "Kệ trong kho được cố định chắc vào tường để không đổ sập.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "家屋[かおく]が倒壊[とうかい]する",
+     "vi": "nhà cửa đổ sập"
+    },
+    {
+     "jp": "ブロック塀[へい]が倒壊[とうかい]する",
+     "vi": "tường gạch block đổ"
+    }
+   ],
+   "rel": [
+    "v:崩れる:くずれる"
+   ],
+   "note": "倒壊[とうかい] = công trình đứng (nhà, tường, cột) đổ xuống. 全壊[ぜんかい] = hư hại hoàn toàn; 半壊[はんかい] = hư hại một nửa. 崩壊[ほうかい] = sụp đổ, tan rã (cả nghĩa bóng: tổ chức)."
+  },
+  {
+   "id": "v:寸断:すんだん",
+   "kana": "すんだん",
+   "kanji": "寸断",
+   "hv": "THỐN ĐOẠN",
+   "vi": "cắt đứt nhiều đoạn, chia cắt (đường, mạng lưới)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地震[じしん]で道路[どうろ]や線路[せんろ]が寸断[すんだん]され、物資[ぶっし]を運[はこ]べなくなった。",
+     "vi": "Động đất làm đường bộ và đường ray bị chia cắt nhiều đoạn, không chở được hàng tiếp tế.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "物流[ぶつりゅう]網[もう]が寸断[すんだん]されて、原料[げんりょう]の仕入[しい]れ先[さき]を急[いそ]いで変[か]えることになった。",
+     "vi": "Mạng lưới vận chuyển bị chia cắt, công ty phải vội đổi nơi nhập nguyên liệu.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "交通網[こうつうもう]を寸断[すんだん]する",
+     "vi": "chia cắt mạng giao thông"
+    },
+    {
+     "jp": "物流[ぶつりゅう]を寸断[すんだん]する",
+     "vi": "cắt đứt việc vận chuyển"
+    }
+   ],
+   "note": "Hầu như dùng thể bị động: 〜が寸断[すんだん]される = bị cắt thành từng khúc (道路[どうろ], 線路[せんろ], 交通網[こうつうもう], 通信[つうしん], 物流[ぶつりゅう]). Nghĩa gốc: cắt vụn từng tấc."
+  },
+  {
+   "id": "v:余震:よしん",
+   "kana": "よしん",
+   "kanji": "余震",
+   "hv": "DƯ CHẤN",
+   "vi": "dư chấn (sau trận động đất chính)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大[おお]きな地震[じしん]のあとは、しばらく余震[よしん]が続[つづ]くので注意[ちゅうい]が必要[ひつよう]だ。",
+     "vi": "Sau trận động đất lớn, dư chấn còn kéo dài một thời gian nên cần chú ý.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "余震[よしん]に備[そな]えて、高[たか]い棚[たな]の上[うえ]の物[もの]を下[お]ろしておいた。",
+     "vi": "Phòng dư chấn, đã hạ đồ trên kệ cao xuống.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:地震:じしん"
+   ],
+   "note": "本震[ほんしん] = trận chính; 前震[ぜんしん] = động đất báo trước; 震源[しんげん] = tâm chấn; 震度[しんど] = cấp độ rung (thang của Nhật)."
+  },
+  {
+   "id": "v:壊滅的:かいめつてき",
+   "kana": "かいめつてき",
+   "kanji": "壊滅的",
+   "hv": "HOẠI DIỆT ĐÍCH",
+   "vi": "(thiệt hại) tan hoang, mang tính hủy diệt",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台風[たいふう]で、今年[ことし]のりんごは壊滅[かいめつ]的[てき]な被害[ひがい]を受[う]けた。",
+     "vi": "Vì bão, táo năm nay bị thiệt hại tan hoang.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "港[みなと]の施設[しせつ]が壊滅[かいめつ]的[てき]な打撃[だげき]を受[う]け、しばらく水揚[みずあ]げができなくなった。",
+     "vi": "Cơ sở cảng bị thiệt hại nặng nề, một thời gian không thể dỡ cá lên bờ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの店[みせ]、まだ再開[さいかい]しないの？B：浸水[しんすい]で店内[てんない]が壊滅[かいめつ]的[てき]な状態[じょうたい]になったらしくて、時間[じかん]がかかるみたい。",
+     "vi": "A: Quán đó vẫn chưa mở lại à? B: Nghe nói bị ngập nên bên trong tan hoang, có vẻ mất thời gian.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "被害[ひがい]",
+     "vi": "thiệt hại"
+    },
+    {
+     "jp": "打撃[だげき]",
+     "vi": "đòn giáng"
+    }
+   ],
+   "rel": [
+    "v:甚大:じんだい",
+    {
+     "w": "壊滅[かいめつ]",
+     "vi": "bị phá hủy hoàn toàn"
+    }
+   ],
+   "note": "Hay đi với 被害[ひがい], 打撃[だげき], 状態[じょうたい]. 壊滅[かいめつ]する = bị phá hủy hoàn toàn. Khẩu ngữ đùa: 料理[りょうり]が壊滅[かいめつ]的[てき]に下手[へた] = nấu ăn dở tệ hại."
+  },
+  {
+   "id": "v:爪痕:つめあと",
+   "kana": "つめあと",
+   "kanji": "爪痕",
+   "hv": "TRẢO NGẤN",
+   "vi": "vết tích tàn phá (thiên tai để lại); vết móng cào",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "町[まち]のあちこちに、台風[たいふう]の爪痕[つめあと]が今[いま]も残[のこ]っている。",
+     "vi": "Khắp nơi trong thị trấn, vết tích tàn phá của cơn bão đến nay vẫn còn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "浸水[しんすい]の爪痕[つめあと]は、工場[こうじょう]の壁[かべ]にもはっきり残[のこ]っていた。",
+     "vi": "Dấu tích ngập nước còn hằn rõ cả trên tường xưởng.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "傷跡[きずあと]",
+     "vi": "vết sẹo, vết thương để lại"
+    }
+   ],
+   "note": "Nghĩa gốc: vết móng cào. Nghĩa bóng (tin tức): 台風[たいふう]の爪痕[つめあと] / 災害[さいがい]の爪痕[つめあと] = dấu tích tàn phá để lại. 爪痕[つめあと]を残[のこ]す = để lại vết tích."
+  },
+  {
+   "id": "v:未曾有:みぞう",
+   "kana": "みぞう",
+   "kanji": "未曾有",
+   "hv": "VỊ TẰNG HỮU",
+   "vi": "chưa từng có (văn viết)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "未曾有[みぞう]の大災害[だいさいがい]に、国中[くにじゅう]が衝撃[しょうげき]を受[う]けた。",
+     "vi": "Trước thảm họa lớn chưa từng có, cả nước bị chấn động.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "未曾有[みぞう]の原料[げんりょう]不足[ふそく]で、多[おお]くの加工[かこう]会社[かいしゃ]が生産[せいさん]の見直[みなお]しを迫[せま]られた。",
+     "vi": "Do thiếu nguyên liệu chưa từng có, nhiều công ty chế biến buộc phải xem lại sản xuất.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "前代未聞[ぜんだいみもん]",
+     "vi": "chưa từng nghe thấy (chuyện lạ, bê bối)"
+    }
+   ],
+   "note": "Dùng dạng 未曾有[みぞう]の + danh từ (未曾有[みぞう]の災害[さいがい], 未曾有[みぞう]の危機[きき]). Văn viết, tin tức. Hay bị đọc sai thành みぞうゆう — đọc đúng là みぞう. 前代未聞[ぜんだいみもん] = chưa từng nghe (thường cho chuyện tiêu cực, kỳ quặc)."
+  },
+  {
+   "id": "v:刻一刻:こくいっこく",
+   "kana": "こくいっこく",
+   "kanji": "刻一刻",
+   "hv": "KHẮC NHẤT KHẮC",
+   "vi": "từng giây từng phút (biến đổi, đến gần)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thiên tai",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台風[たいふう]が近[ちか]づき、状況[じょうきょう]は刻[こく]一刻[いっこく]と変化[へんか]している。",
+     "vi": "Bão đang tới gần, tình hình thay đổi từng giây từng phút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "出荷[しゅっか]の締[し]め切[き]りが刻[こく]一刻[いっこく]と迫[せま]り、ライン全体[ぜんたい]に緊張[きんちょう]が走[はし]った。",
+     "vi": "Hạn chót xuất hàng mỗi lúc một gần, cả dây chuyền căng thẳng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：川[かわ]の水位[すいい]、どう？B：刻[こく]一刻[いっこく]と上[あ]がってるよ。早[はや]めに避難[ひなん]したほうがいい。",
+     "vi": "A: Mực nước sông thế nào? B: Đang dâng lên từng phút. Nên đi sơ tán sớm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "syn": [
+    "v:刻々:こっこく"
+   ],
+   "note": "Dùng dạng 刻[こく]一刻[いっこく]と + động từ biến đổi (変[か]わる, 迫[せま]る, 近[ちか]づく, 悪化[あっか]する). Gần nghĩa 刻々[こっこく]と. Nhấn ý: thời gian trôi, tình hình đổi rất nhanh."
+  },
+  {
+   "id": "v:救援:きゅうえん",
+   "kana": "きゅうえん",
+   "kanji": "救援",
+   "hv": "CỨU VIỆN",
+   "vi": "cứu trợ, cứu viện (người, hàng đến vùng gặp nạn)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cứu trợ & phục hồi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "被災地[ひさいち]には、全国[ぜんこく]から救援[きゅうえん]物資[ぶっし]が届[とど]けられた。",
+     "vi": "Hàng cứu trợ từ khắp cả nước được gửi đến vùng bị thiên tai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]として被災地[ひさいち]の救援[きゅうえん]に協力[きょうりょく]するため、社内[しゃない]で募金[ぼきん]を呼[よ]びかけた。",
+     "vi": "Để công ty góp phần cứu trợ vùng bị nạn, đã kêu gọi quyên góp trong nội bộ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "被災者[ひさいしゃ]を救援[きゅうえん]する",
+     "vi": "cứu trợ người bị nạn"
+    },
+    {
+     "jp": "孤立[こりつ]した村[むら]を救援[きゅうえん]する",
+     "vi": "cứu viện ngôi làng bị cô lập"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "救助[きゅうじょ]",
+     "vi": "cứu (người đang gặp nguy hiểm)"
+    },
+    "v:支援:しえん"
+   ],
+   "note": "救援[きゅうえん] = đưa người, hàng, tiền đến giúp nơi gặp nạn (救援[きゅうえん]物資[ぶっし], 救援[きゅうえん]隊[たい]). 救助[きゅうじょ] = cứu người khỏi nguy hiểm trực tiếp (人命[じんめい]救助[きゅうじょ]). 支援[しえん] = hỗ trợ (lâu dài, rộng)."
+  },
+  {
+   "id": "v:物資:ぶっし",
+   "kana": "ぶっし",
+   "kanji": "物資",
+   "hv": "VẬT TƯ",
+   "vi": "vật tư, hàng thiết yếu (lương thực, nước, đồ dùng)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cứu trợ & phục hồi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "避難[ひなん]所[しょ]に、水[みず]や毛布[もうふ]などの物資[ぶっし]が運[はこ]び込[こ]まれた。",
+     "vi": "Vật tư như nước, chăn được chuyển vào nơi lánh nạn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "災害[さいがい]時[じ]に備[そな]えて、会社[かいしゃ]でも食料[しょくりょう]などの物資[ぶっし]を備蓄[びちく]している。",
+     "vi": "Để phòng khi có thiên tai, công ty cũng dự trữ vật tư như lương thực.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:備蓄:びちく",
+    "v:救援:きゅうえん"
+   ],
+   "note": "救援[きゅうえん]物資[ぶっし] / 支援[しえん]物資[ぶっし] = hàng cứu trợ; 生活[せいかつ]物資[ぶっし] = nhu yếu phẩm; 物資[ぶっし]不足[ふそく] = thiếu hàng thiết yếu."
+  },
+  {
+   "id": "v:義援金:ぎえんきん",
+   "kana": "ぎえんきん",
+   "kanji": "義援金",
+   "hv": "NGHĨA VIỆN KIM",
+   "vi": "tiền quyên góp cứu trợ (gửi người bị nạn)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cứu trợ & phục hồi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "駅前[えきまえ]で、被災地[ひさいち]への義援金[ぎえんきん]を呼[よ]びかける声[こえ]が聞[き]こえた。",
+     "vi": "Trước ga nghe thấy tiếng kêu gọi quyên góp tiền cứu trợ cho vùng bị nạn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "社員[しゃいん]から集[あつ]めた義援金[ぎえんきん]に会社[かいしゃ]からの分[ぶん]を加[くわ]えて、被災地[ひさいち]へ送[おく]った。",
+     "vi": "Tiền quyên góp từ nhân viên cộng thêm phần của công ty đã được gửi đến vùng bị nạn.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:募金:ぼきん",
+    "v:寄付:きふ"
+   ],
+   "note": "義援金[ぎえんきん] = tiền gửi thẳng đến người bị nạn (qua hội chữ thập đỏ, chính quyền). Cũng viết 義捐金[ぎえんきん]. 支援金[しえんきん] = tiền cho các đoàn hoạt động cứu trợ. 募金[ぼきん] = việc kêu gọi góp tiền."
+  },
+  {
+   "id": "v:炊き出し:たきだし",
+   "kana": "たきだし",
+   "kanji": "炊き出し",
+   "kf": "炊[た]き出[だ]し",
+   "hv": "XUY XUẤT",
+   "vi": "nấu cơm phát cho người dân (lúc thiên tai)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cứu trợ & phục hồi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "避難[ひなん]所[しょ]では、地元[じもと]のボランティアが炊[た]き出[だ]しをしている。",
+     "vi": "Ở nơi lánh nạn, tình nguyện viên địa phương đang nấu cơm phát cho mọi người.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "うちの会社[かいしゃ]も、地域[ちいき]の炊[た]き出[だ]しに冷凍[れいとう]の魚[さかな]を提供[ていきょう]した。",
+     "vi": "Công ty tôi cũng góp cá đông lạnh cho buổi nấu ăn phát cho người dân trong vùng.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:避難所:ひなんじょ",
+    "v:ボランティア:ボランティア"
+   ],
+   "note": "炊[た]き出[だ]しをする / 炊[た]き出[だ]しを行[おこな]う: nấu cơm, súp số lượng lớn phát miễn phí cho người bị nạn, người khó khăn. Diễn tập phòng chống thiên tai của khu phố thường có tập 炊[た]き出[だ]し."
+  },
+  {
+   "id": "v:仮設住宅:かせつじゅうたく",
+   "kana": "かせつじゅうたく",
+   "kanji": "仮設住宅",
+   "hv": "GIẢ THIẾT TRÚ TRẠCH",
+   "vi": "nhà tạm (dựng cho người bị thiên tai)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cứu trợ & phục hồi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家[いえ]を失[うしな]った人[ひと]たちは、仮設[かせつ]住宅[じゅうたく]での生活[せいかつ]を余儀[よぎ]なくされた。",
+     "vi": "Những người mất nhà buộc phải sống trong nhà tạm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "仮設[かせつ]住宅[じゅうたく]への入居[にゅうきょ]を申[もう]し込[こ]むには、市役所[しやくしょ]で手続[てつづ]きが必要[ひつよう]だ。",
+     "vi": "Muốn đăng ký vào ở nhà tạm cần làm thủ tục ở tòa thị chính.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:復興:ふっこう"
+   ],
+   "note": "仮設[かせつ] = dựng tạm (仮設[かせつ]トイレ = nhà vệ sinh tạm). 入居[にゅうきょ]する = dọn vào ở. Sau đó người dân có thể chuyển sang 災害[さいがい]公営[こうえい]住宅[じゅうたく] (nhà công lập xây lâu dài)."
+  },
+  {
+   "id": "v:再起:さいき",
+   "kana": "さいき",
+   "kanji": "再起",
+   "hv": "TÁI KHỞI",
+   "vi": "gượng dậy, đứng lên lại (sau thất bại, tai họa)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cứu trợ & phục hồi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "店[みせ]は津波[つなみ]で流[なが]されたが、店主[てんしゅ]は再起[さいき]を誓[ちか]って営業[えいぎょう]を再開[さいかい]した。",
+     "vi": "Cửa hàng bị sóng thần cuốn trôi nhưng chủ quán thề gượng dậy và đã mở lại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一度[いちど]は倒産[とうさん]しかけた会社[かいしゃ]が、新商品[しんしょうひん]で再起[さいき]を果[は]たした。",
+     "vi": "Công ty từng suýt phá sản đã đứng dậy lại nhờ sản phẩm mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：けがはもう大丈夫[だいじょうぶ]？B：うん、リハビリを続[つづ]けて、必[かなら]ず再起[さいき]してみせるよ。",
+     "vi": "A: Vết thương ổn chưa? B: Ừ, tôi sẽ tiếp tục tập phục hồi chức năng, nhất định sẽ đứng dậy lại cho mà xem.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "病[やまい]から再起[さいき]する",
+     "vi": "gượng dậy sau bệnh"
+    },
+    {
+     "jp": "失敗[しっぱい]から再起[さいき]する",
+     "vi": "đứng dậy sau thất bại"
+    }
+   ],
+   "rel": [
+    "v:立ち直る:たちなおる",
+    "v:再建:さいけん"
+   ],
+   "note": "再起[さいき]を図[はか]る = tìm cách gượng dậy; 再起[さいき]を誓[ちか]う = thề đứng dậy; 再起不能[さいきふのう] = không thể gượng dậy được nữa. 立[た]ち直[なお]る = lấy lại tinh thần (dùng rộng, khẩu ngữ hơn)."
+  },
+  {
+   "id": "v:風化:ふうか",
+   "kana": "ふうか",
+   "kanji": "風化",
+   "hv": "PHONG HÓA",
+   "vi": "phai nhạt dần (ký ức, bài học); phong hóa (đá)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cứu trợ & phục hồi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "震災[しんさい]の記憶[きおく]を風化[ふうか]させないため、毎年[まいとし]防災[ぼうさい]訓練[くんれん]が行[おこな]われている。",
+     "vi": "Để ký ức về trận động đất không phai nhạt, năm nào cũng tổ chức diễn tập phòng chống thiên tai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "事故[じこ]から時間[じかん]がたつと、教訓[きょうくん]が風化[ふうか]しやすい。だからこそ朝礼[ちょうれい]で繰[く]り返[かえ]し伝[つた]えている。",
+     "vi": "Thời gian trôi đi sau sự cố thì bài học dễ phai nhạt. Chính vì thế chúng tôi nhắc lại nhiều lần trong buổi họp sáng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この岩[いわ]、形[かたち]がおもしろいね。B：長[なが]い年月[としつき]をかけて風化[ふうか]して、こんな形[かたち]になったんだって。",
+     "vi": "A: Tảng đá này hình thù thú vị nhỉ. B: Nghe nói qua năm tháng dài bị phong hóa nên mới thành hình thế này.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "記憶[きおく]が風化[ふうか]する",
+     "vi": "ký ức phai nhạt"
+    },
+    {
+     "jp": "岩石[がんせき]が風化[ふうか]する",
+     "vi": "đá bị phong hóa"
+    }
+   ],
+   "rel": [
+    "v:語り継ぐ:かたりつぐ"
+   ],
+   "note": "Nghĩa gốc: đá bị gió, mưa bào mòn (phong hóa). Nghĩa bóng hay gặp trên báo: ký ức, bài học về thảm họa, sự cố bị lãng quên dần. 風化[ふうか]させない = không để phai nhạt."
+  },
+  {
+   "id": "v:語り継ぐ:かたりつぐ",
+   "kana": "かたりつぐ",
+   "kanji": "語り継ぐ",
+   "kf": "語[かた]り継[つ]ぐ",
+   "hv": "NGỮ KẾ",
+   "vi": "kể truyền lại (cho đời sau)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cứu trợ & phục hồi",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地域[ちいき]のお年寄[としよ]りが、昔[むかし]の大[だい]水害[すいがい]の体験[たいけん]を子[こ]どもたちに語[かた]り継[つ]いでいる。",
+     "vi": "Người cao tuổi trong vùng kể truyền lại cho trẻ em trải nghiệm về trận lũ lớn ngày xưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "創業者[そうぎょうしゃ]の苦労[くろう]話[はなし]は、社員[しゃいん]の間[あいだ]で今[いま]も語[かた]り継[つ]がれている。",
+     "vi": "Chuyện gian khổ của người sáng lập đến nay vẫn được truyền miệng trong nhân viên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この町[まち]の祭[まつ]り、昔[むかし]からあるの？B：うん、昔[むかし]の津波[つなみ]の教訓[きょうくん]を語[かた]り継[つ]ぐために始[はじ]まったんだって。",
+     "vi": "A: Lễ hội của thị trấn này có từ xưa à? B: Ừ, nghe nói bắt đầu để kể truyền lại bài học về trận sóng thần ngày trước.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "体験[たいけん]を語[かた]り継[つ]ぐ",
+     "vi": "kể truyền lại trải nghiệm"
+    },
+    {
+     "jp": "教訓[きょうくん]を語[かた]り継[つ]ぐ",
+     "vi": "truyền lại bài học"
+    }
+   ],
+   "rel": [
+    "v:風化:ふうか"
+   ],
+   "note": "語[かた]る (kể) + 継[つ]ぐ (nối tiếp). Bị động 語[かた]り継[つ]がれる = được truyền lại qua nhiều đời. Gần nghĩa: 言[い]い伝[つた]える."
+  },
+  {
+   "id": "v:頓挫:とんざ",
+   "kana": "とんざ",
+   "kanji": "頓挫",
+   "hv": "ĐỐN TỎA",
+   "vi": "đổ bể giữa chừng, bị khựng lại (kế hoạch, dự án)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hủy bỏ & đình chỉ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "資金[しきん]不足[ふそく]で、新[しん]工場[こうじょう]の建設[けんせつ]計画[けいかく]が頓挫[とんざ]した。",
+     "vi": "Vì thiếu vốn, kế hoạch xây xưởng mới bị đổ bể giữa chừng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地震[じしん]の影響[えいきょう]で、家[いえ]を建[た]て替[か]える計画[けいかく]が頓挫[とんざ]してしまった。",
+     "vi": "Do ảnh hưởng động đất, kế hoạch xây lại nhà bị khựng lại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：例[れい]の新商品[しんしょうひん]の話[はなし]、どうなったの？B：原料[げんりょう]が集[あつ]まらなくて、いったん頓挫[とんざ]したらしいよ。",
+     "vi": "A: Vụ sản phẩm mới đó sao rồi? B: Nghe nói không gom đủ nguyên liệu nên tạm đổ bể rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "計画[けいかく]が頓挫[とんざ]する",
+     "vi": "kế hoạch đổ bể"
+    },
+    {
+     "jp": "交渉[こうしょう]が頓挫[とんざ]する",
+     "vi": "đàm phán bế tắc giữa chừng"
+    }
+   ],
+   "confuse": [
+    "v:断念:だんねん",
+    "v:中断:ちゅうだん"
+   ],
+   "note": "頓挫[とんざ] = đang tiến hành thì gặp trở ngại, không đi tiếp được (không do mình chủ động dừng). 断念[だんねん] = tự mình từ bỏ. 中断[ちゅうだん] = tạm dừng giữa chừng (có thể tiếp tục)."
+  },
+  {
+   "id": "v:欠航:けっこう",
+   "kana": "けっこう",
+   "kanji": "欠航",
+   "hv": "KHIẾM HÀNG",
+   "vi": "hủy chuyến (máy bay, tàu thủy)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hủy bỏ & đình chỉ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "台風[たいふう]の接近[せっきん]で、明日[あした]の午前[ごぜん]の便[びん]はすべて欠航[けっこう]が決[き]まった。",
+     "vi": "Do bão đến gần, tất cả chuyến bay buổi sáng ngày mai đã được quyết định hủy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "船[ふね]が欠航[けっこう]したため、島[しま]からの鮮魚[せんぎょ]が今日[きょう]は入荷[にゅうか]しない。",
+     "vi": "Vì tàu hủy chuyến nên hôm nay cá tươi từ đảo không về.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：ベトナムへの便[びん]、欠航[けっこう]になったって本当[ほんとう]？B：うん、航空会社[こうくうがいしゃ]から連絡[れんらく]が来[き]た。振替[ふりかえ]便[びん]を探[さが]さないと。",
+     "vi": "A: Chuyến bay về Việt Nam bị hủy thật à? B: Ừ, hãng bay báo rồi. Phải tìm chuyến thay thế thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "全[ぜん]便[びん]が欠航[けっこう]する",
+     "vi": "toàn bộ chuyến bị hủy"
+    },
+    {
+     "jp": "悪天候[あくてんこう]で欠航[けっこう]する",
+     "vi": "hủy chuyến vì thời tiết xấu"
+    }
+   ],
+   "confuse": [
+    "v:運休:うんきゅう",
+    "v:遅延:ちえん"
+   ],
+   "note": "欠航[けっこう] = chuyến bay, tàu thủy theo lịch bị hủy (do thời tiết, sự cố). 運休[うんきゅう] = tàu hỏa, xe buýt tạm ngưng chạy. 遅延[ちえん] = chậm trễ. 振替便[ふりかえびん] = chuyến thay thế. Đồng âm với 結構[けっこう] (khác chữ)."
+  },
+  {
+   "id": "v:白紙:はくし",
+   "kana": "はくし",
+   "kanji": "白紙",
+   "hv": "BẠCH CHỈ",
+   "vi": "(trở về) con số không, như chưa từng bàn; giấy trắng",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hủy bỏ & đình chỉ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "予算[よさん]が足[た]りず、新[あたら]しいラインの導入[どうにゅう]計画[けいかく]は白紙[はくし]に戻[もど]された。",
+     "vi": "Thiếu ngân sách nên kế hoạch đưa dây chuyền mới vào bị trả về con số không.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "二人[ふたり]は話[はな]し合[あ]って、結婚[けっこん]の話[はなし]をいったん白紙[はくし]に戻[もど]した。",
+     "vi": "Hai người bàn bạc và tạm gác chuyện cưới như chưa từng bàn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "白紙[はくし]に戻[もど]す",
+     "vi": "hủy, trở về như chưa bàn"
+    },
+    {
+     "jp": "白紙[はくし]撤回[てっかい]する",
+     "vi": "rút lại hoàn toàn"
+    }
+   ],
+   "rel": [
+    "v:撤回:てっかい"
+   ],
+   "note": "Nghĩa gốc: giấy trắng (白紙[はくし]の答案[とうあん] = bài thi để trắng). Nghĩa bóng: 白紙[はくし]に戻[もど]す / 白紙[はくし]撤回[てっかい] = hủy toàn bộ, coi như chưa quyết. 白紙[はくし]の状態[じょうたい]で = với đầu óc chưa định kiến gì."
+  },
+  {
+   "id": "v:不可抗力:ふかこうりょく",
+   "kana": "ふかこうりょく",
+   "kanji": "不可抗力",
+   "hv": "BẤT KHẢ KHÁNG LỰC",
+   "vi": "bất khả kháng",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hủy bỏ & đình chỉ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "天災[てんさい]などの不可抗力[ふかこうりょく]による遅[おく]れについては、責任[せきにん]を負[お]いかねます。",
+     "vi": "Đối với chậm trễ do bất khả kháng như thiên tai, chúng tôi không thể chịu trách nhiệm.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "停電[ていでん]は不可抗力[ふかこうりょく]だったとはいえ、お客様[きゃくさま]にはもっと早[はや]く連絡[れんらく]すべきだった。",
+     "vi": "Mất điện là bất khả kháng thật, nhưng lẽ ra phải báo cho khách sớm hơn.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:天災:てんさい"
+   ],
+   "note": "Hay gặp trong hợp đồng, điều khoản: 不可抗力[ふかこうりょく]条項[じょうこう] = điều khoản bất khả kháng. Chỉ sự việc ngoài khả năng kiểm soát (thiên tai, dịch bệnh lớn…) nên không bị quy trách nhiệm."
+  },
+  {
+   "id": "v:自粛:じしゅく",
+   "kana": "じしゅく",
+   "kanji": "自粛",
+   "hv": "TỰ TÚC",
+   "vi": "tự kiềm chế, tự hạn chế (hoạt động)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hủy bỏ & đình chỉ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "被災地[ひさいち]への配慮[はいりょ]から、今年[ことし]の花火[はなび]大会[たいかい]は開催[かいさい]を自粛[じしゅく]することになった。",
+     "vi": "Vì nghĩ cho vùng bị thiên tai, lễ hội pháo hoa năm nay quyết định tự hạn chế không tổ chức.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "感染[かんせん]が広[ひろ]がっている間[あいだ]は、社員[しゃいん]同士[どうし]の飲[の]み会[かい]を自粛[じしゅく]するよう通達[つうたつ]が出[で]た。",
+     "vi": "Trong thời gian dịch lây lan, đã có thông báo yêu cầu nhân viên tự hạn chế tiệc nhậu với nhau.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：今年[ことし]の忘年会[ぼうねんかい]はどうする？B：大雨[おおあめ]の被害[ひがい]を受[う]けた社員[しゃいん]もいるし、今年[ことし]は自粛[じしゅく]しよう。",
+     "vi": "A: Tiệc tất niên năm nay tính sao? B: Có nhân viên bị thiệt hại vì mưa lớn, năm nay mình tự hạn chế, không tổ chức đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "外出[がいしゅつ]を自粛[じしゅく]する",
+     "vi": "hạn chế ra ngoài"
+    },
+    {
+     "jp": "営業[えいぎょう]を自粛[じしゅく]する",
+     "vi": "tự hạn chế kinh doanh"
+    }
+   ],
+   "rel": [
+    "v:中止:ちゅうし"
+   ],
+   "note": "自粛[じしゅく] = tự mình (hoặc theo lời kêu gọi) kiềm chế không làm, nhất là sau thiên tai, sự cố, trong mùa dịch: 自粛[じしゅく]ムード = không khí tự hạn chế; 外出[がいしゅつ]自粛[じしゅく] = hạn chế ra đường. Chủ ngữ là người, tổ chức tự quyết."
+  },
+  {
+   "id": "v:差し止める:さしとめる",
+   "kana": "さしとめる",
+   "kanji": "差し止める",
+   "kf": "差[さ]し止[と]める",
+   "hv": "SAI CHỈ",
+   "vi": "ra lệnh đình chỉ (bán, phát hành, xuất hàng)",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hủy bỏ & đình chỉ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "裁判所[さいばんしょ]は、その商品[しょうひん]の販売[はんばい]を差[さ]し止[と]める決定[けってい]を出[だ]した。",
+     "vi": "Tòa án ra quyết định đình chỉ việc bán sản phẩm đó.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "異物[いぶつ]混入[こんにゅう]の疑[うたが]いがあるため、このロットの出荷[しゅっか]を差[さ]し止[と]めてください。",
+     "vi": "Vì nghi có dị vật lẫn vào, hãy đình chỉ xuất hàng lô này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：例[れい]の記事[きじ]、出[で]なかったね。B：うん、事実[じじつ]と違[ちが]う点[てん]があって、掲載[けいさい]が差[さ]し止[と]められたらしい。",
+     "vi": "A: Bài báo đó không đăng nhỉ. B: Ừ, có điểm sai sự thật nên nghe nói bị đình chỉ đăng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "出荷[しゅっか]を差[さ]し止[と]める",
+     "vi": "đình chỉ xuất hàng"
+    },
+    {
+     "jp": "販売[はんばい]を差[さ]し止[と]める",
+     "vi": "cấm bán"
+    }
+   ],
+   "confuse": [
+    "v:停止:ていし"
+   ],
+   "rel": [
+    {
+     "w": "差[さ]し止[と]め",
+     "vi": "lệnh đình chỉ"
+    }
+   ],
+   "note": "差[さ]し止[と]める = người có quyền (tòa án, cấp trên) ra lệnh dừng, không cho làm (販売[はんばい], 出版[しゅっぱん], 支払[しはら]い, 出荷[しゅっか]). Danh từ: 差[さ]し止[と]め (出荷[しゅっか]差[さ]し止[と]め, 差[さ]し止[と]め請求[せいきゅう]). 停止[ていし] = dừng (máy, hoạt động) nói chung."
+  },
+  {
+   "id": "v:苦渋:くじゅう",
+   "kana": "くじゅう",
+   "kanji": "苦渋",
+   "hv": "KHỔ SÁP",
+   "vi": "đắng cay, đau khổ (khi phải quyết định khó)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hủy bỏ & đình chỉ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]は、工場[こうじょう]の閉鎖[へいさ]という苦渋[くじゅう]の決断[けつだん]を下[くだ]した。",
+     "vi": "Giám đốc đã đưa ra quyết định đau lòng là đóng cửa xưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "長年[ながねん]続[つづ]いた夏祭[なつまつ]りの中止[ちゅうし]は、主催者[しゅさいしゃ]にとって苦渋[くじゅう]の選択[せんたく]だった。",
+     "vi": "Việc hủy lễ hội mùa hè đã duy trì nhiều năm là một lựa chọn đau lòng với ban tổ chức.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:断念:だんねん",
+    "v:やむを得ない:やむをえない"
+   ],
+   "note": "Hầu như dùng 苦渋[くじゅう]の決断[けつだん] / 苦渋[くじゅう]の選択[せんたく] = quyết định, lựa chọn đầy đau đớn (buộc phải làm dù không muốn). 苦渋[くじゅう]をなめる = nếm trải đắng cay. 苦渋[くじゅう]に満[み]ちた表情[ひょうじょう] = vẻ mặt đầy khổ sở."
+  },
+  {
+   "id": "v:致し方ない:いたしかたない",
+   "kana": "いたしかたない",
+   "kanji": "致し方ない",
+   "kf": "致[いた]し方[かた]ない",
+   "hv": "TRÍ PHƯƠNG",
+   "vi": "đành chịu, không còn cách nào (trang trọng)",
+   "pos": "adj-i",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hủy bỏ & đình chỉ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "天候[てんこう]が理由[りゆう]なら、試合[しあい]の中止[ちゅうし]も致[いた]し方[かた]ない。",
+     "vi": "Nếu lý do là thời tiết thì hủy trận đấu cũng đành chịu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "原料[げんりょう]が届[とど]かない以上[いじょう]、今日[きょう]の生産[せいさん]を止[と]めるのは致[いた]し方[かた]ないことです。",
+     "vi": "Một khi nguyên liệu không về, việc dừng sản xuất hôm nay là điều không còn cách nào khác.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：急[きゅう]な変更[へんこう]で、本当[ほんとう]に申[もう]し訳[わけ]ございません。B：いえ、台風[たいふう]ですから致[いた]し方[かた]ありません。",
+     "vi": "A: Thay đổi đột ngột, thật vô cùng xin lỗi. B: Không sao, do bão nên đành chịu thôi ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "こと",
+     "vi": "việc"
+    },
+    {
+     "jp": "変更[へんこう]",
+     "vi": "sự thay đổi"
+    }
+   ],
+   "syn": [
+    "v:やむを得ない:やむをえない",
+    "v:仕方がない:しかたがない"
+   ],
+   "note": "Dạng trang trọng của 仕方[しかた]がない (致[いた]す = khiêm nhường của する). Lịch sự hơn nữa: 致[いた]し方[かた]ありません / 致[いた]し方[かた]ございません. Dùng khi chấp nhận một tình huống ngoài ý muốn."
+  },
+  {
+   "id": "v:泣く泣く:なくなく",
+   "kana": "なくなく",
+   "kanji": "泣く泣く",
+   "kf": "泣[な]く泣[な]く",
+   "hv": "KHẤP KHẤP",
+   "vi": "đành lòng, ngậm ngùi (làm điều không muốn)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hủy bỏ & đình chỉ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大雨[おおあめ]で道[みち]が通[とお]れず、楽[たの]しみにしていた旅行[りょこう]を泣[な]く泣[な]くあきらめた。",
+     "vi": "Mưa lớn làm đường không đi được, tôi đành ngậm ngùi bỏ chuyến du lịch hằng mong đợi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "人手[ひとで]が足[た]りず、泣[な]く泣[な]く注文[ちゅうもん]の一部[いちぶ]を断[ことわ]った。",
+     "vi": "Thiếu người nên đành lòng từ chối một phần đơn hàng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの車[くるま]、売[う]っちゃったの？B：うん、駐車場代[ちゅうしゃじょうだい]が高[たか]くて泣[な]く泣[な]く手放[てばな]したんだ。",
+     "vi": "A: Cậu bán chiếc xe đó rồi à? B: Ừ, tiền bãi đỗ đắt quá nên đành ngậm ngùi bán đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:やむなく:やむなく"
+   ],
+   "note": "泣[な]く泣[な]く + động từ = vừa khóc vừa làm, tức là rất không muốn nhưng buộc phải làm (あきらめる, 手放[てばな]す, 断[ことわ]る). やむなく = đành phải (văn viết, không mang cảm xúc buồn rõ như 泣[な]く泣[な]く)."
+  },
+  {
+   "id": "v:不測:ふそく",
+   "kana": "ふそく",
+   "kanji": "不測",
+   "hv": "BẤT TRẮC",
+   "vi": "bất trắc (sự cố ngoài dự liệu)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Hủy bỏ & đình chỉ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不測[ふそく]の事態[じたい]に備[そな]えて、予備[よび]の発電機[はつでんき]を用意[ようい]している。",
+     "vi": "Để phòng tình huống bất trắc, xưởng chuẩn bị sẵn máy phát điện dự phòng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "不測[ふそく]の事態[じたい]により、本日[ほんじつ]のイベントは中止[ちゅうし]とさせていただきます。",
+     "vi": "Do tình huống bất trắc, sự kiện hôm nay xin được hủy.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:想定外:そうていがい"
+   ],
+   "note": "Hầu như dùng 不測[ふそく]の事態[じたい] = sự cố không lường trước (thông báo, văn bản, quy trình khẩn cấp). Đồng nghĩa văn viết: 予期[よき]せぬ事態[じたい]. Đồng âm 不足[ふそく] (thiếu) — khác chữ."
+  },
+  {
+   "id": "v:切望:せつぼう",
+   "kana": "せつぼう",
+   "kanji": "切望",
+   "hv": "THIẾT VỌNG",
+   "vi": "tha thiết mong mỏi",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mong ước",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "被災地[ひさいち]の人々[ひとびと]は、一日[いちにち]も早[はや]い復旧[ふっきゅう]を切望[せつぼう]している。",
+     "vi": "Người dân vùng bị thiên tai tha thiết mong được khôi phục sớm ngày nào hay ngày đó.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "現場[げんば]からは、人員[じんいん]の増加[ぞうか]を切望[せつぼう]する声[こえ]が上[あ]がっている。",
+     "vi": "Từ hiện trường đang có tiếng nói tha thiết mong tăng thêm nhân lực.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：新[あたら]しい冷凍庫[れいとうこ]、ついに入[はい]るんだって？B：うん、みんなが切望[せつぼう]していたからね。やっとだよ。",
+     "vi": "A: Nghe nói tủ đông mới cuối cùng cũng về à? B: Ừ, mọi người mong mỏi lắm mà. Mãi mới được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "早期[そうき]解決[かいけつ]を切望[せつぼう]する",
+     "vi": "tha thiết mong giải quyết sớm"
+    },
+    {
+     "jp": "支援[しえん]を切望[せつぼう]する",
+     "vi": "mong mỏi được hỗ trợ"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "熱望[ねつぼう]",
+     "vi": "nhiệt thành mong muốn"
+    },
+    "v:希望:きぼう"
+   ],
+   "note": "切望[せつぼう] = mong một cách tha thiết, bức thiết (thường vì đang khó khăn). 熱望[ねつぼう] = mong với nhiệt huyết. 渇望[かつぼう] = khao khát như khát nước. Văn viết, tin tức."
+  },
+  {
+   "id": "v:待望:たいぼう",
+   "kana": "たいぼう",
+   "kanji": "待望",
+   "hv": "ĐÃI VỌNG",
+   "vi": "điều mong đợi bấy lâu (đứng trước danh từ với の)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mong ước",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "待望[たいぼう]の新[しん]工場[こうじょう]が、ついに完成[かんせい]した。",
+     "vi": "Xưởng mới mong đợi bấy lâu cuối cùng đã hoàn thành.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "結婚[けっこん]して五年[ごねん]、待望[たいぼう]の第一子[だいいっし]が生[う]まれた。",
+     "vi": "Cưới được năm năm, đứa con đầu lòng mong đợi bấy lâu đã chào đời.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：駅前[えきまえ]に待望[たいぼう]のスーパーができたね。B：うん、もう遠[とお]くまで買[か]い物[もの]に行[い]かなくていいから助[たす]かるよ。",
+     "vi": "A: Siêu thị mong đợi bấy lâu đã mở trước ga rồi nhỉ. B: Ừ, không phải đi mua sắm xa nữa, đỡ quá.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:待ちわびる:まちわびる",
+    "v:待ち遠しい:まちどおしい"
+   ],
+   "note": "Hầu như dùng 待望[たいぼう]の + danh từ (待望[たいぼう]の新作[しんさく], 待望[たいぼう]の雨[あめ], 待望[たいぼう]の第一子[だいいっし]). Động từ cùng nghĩa: 待[ま]ち望[のぞ]む = mong chờ."
+  },
+  {
+   "id": "v:待ちわびる:まちわびる",
+   "kana": "まちわびる",
+   "kanji": "待ちわびる",
+   "kf": "待[ま]ちわびる",
+   "hv": "ĐÃI",
+   "vi": "mỏi mòn chờ đợi, ngóng chờ",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mong ước",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子[こ]どもたちは、父親[ちちおや]の帰国[きこく]を待[ま]ちわびている。",
+     "vi": "Bọn trẻ mỏi mòn chờ bố về nước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "待[ま]ちわびた部品[ぶひん]がやっと届[とど]き、止[と]まっていたラインが動[うご]き出[だ]した。",
+     "vi": "Linh kiện ngóng chờ mãi cuối cùng cũng về, dây chuyền đang dừng đã chạy lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：春[はる]が来[く]るのが待[ま]ち遠[どお]しいね。B：本当[ほんとう]に。この寒[さむ]さで、みんな春[はる]を待[ま]ちわびてるよ。",
+     "vi": "A: Mong mùa xuân đến quá nhỉ. B: Thật đấy. Lạnh thế này mọi người ngóng xuân lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "連絡[れんらく]を待[ま]ちわびる",
+     "vi": "mỏi mòn chờ tin"
+    },
+    {
+     "jp": "春[はる]を待[ま]ちわびる",
+     "vi": "ngóng chờ mùa xuân"
+    }
+   ],
+   "rel": [
+    "v:待ち遠しい:まちどおしい",
+    "v:待望:たいぼう"
+   ],
+   "note": "待[ま]つ + わびる (buồn khổ): chờ lâu đến mức sốt ruột, mỏi mòn. Thường dùng 待[ま]ちわびている / 待[ま]ちわびた + danh từ. 待[ま]ち遠[どお]しい = mong từng ngày (tính từ)."
+  },
+  {
+   "id": "v:祈願:きがん",
+   "kana": "きがん",
+   "kanji": "祈願",
+   "hv": "KỲ NGUYỆN",
+   "vi": "cầu khấn (ở đền chùa, cho một điều cụ thể)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mong ước",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "正月[しょうがつ]に神社[じんじゃ]へ行[い]き、家族[かぞく]の健康[けんこう]を祈願[きがん]した。",
+     "vi": "Tết tôi đi đền cầu cho gia đình mạnh khỏe.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "毎年[まいとし]一月[いちがつ]に、工場[こうじょう]の安全[あんぜん]祈願[きがん]を行[おこな]っている。",
+     "vi": "Tháng một hằng năm, xưởng tổ chức lễ cầu an toàn cho nhà máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：その赤[あか]いお守[まも]り、何[なん]？B：合格[ごうかく]祈願[きがん]のお守[まも]りだよ。N1の試験[しけん]のために妻[つま]がくれたんだ。",
+     "vi": "A: Cái bùa đỏ đó là gì vậy? B: Bùa cầu thi đỗ đấy. Vợ tôi cho để thi N1.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "合格[ごうかく]を祈願[きがん]する",
+     "vi": "cầu thi đỗ"
+    },
+    {
+     "jp": "安全[あんぜん]を祈願[きがん]する",
+     "vi": "cầu an toàn"
+    }
+   ],
+   "rel": [
+    "v:祈る:いのる"
+   ],
+   "note": "祈願[きがん] = cầu thần Phật cho một điều cụ thể (合格[ごうかく]祈願[きがん], 安全[あんぜん]祈願[きがん], 商売[しょうばい]繁盛[はんじょう]). 祈[いの]る = cầu nguyện, cầu chúc nói chung. Đầu năm nhiều công ty tổ chức 安全[あんぜん]祈願[きがん]祭[さい] ở đền."
+  },
+  {
+   "id": "v:平穏:へいおん",
+   "kana": "へいおん",
+   "kanji": "平穏",
+   "hv": "BÌNH ỔN",
+   "vi": "yên ổn, êm ả (không biến cố)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mong ước",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "被災[ひさい]から一年[いちねん]がたち、町[まち]はようやく平穏[へいおん]を取[と]り戻[もど]しつつある。",
+     "vi": "Một năm sau thiên tai, thị trấn cuối cùng đang dần lấy lại bình yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "大[おお]きなトラブルもなく、今週[こんしゅう]は平穏[へいおん]に過[す]ぎた。",
+     "vi": "Không có rắc rối lớn nào, tuần này trôi qua yên ổn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：最近[さいきん]どう？B：おかげさまで、家族[かぞく]みんな元気[げんき]で平穏[へいおん]に暮[く]らしてるよ。",
+     "vi": "A: Dạo này thế nào? B: Nhờ trời, cả nhà khỏe mạnh, sống yên ổn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "日々[ひび]",
+     "vi": "ngày tháng"
+    },
+    {
+     "jp": "生活[せいかつ]",
+     "vi": "cuộc sống"
+    }
+   ],
+   "ant": [
+    {
+     "w": "波乱[はらん]",
+     "vi": "sóng gió"
+    }
+   ],
+   "confuse": [
+    "v:穏やか:おだやか"
+   ],
+   "note": "平穏[へいおん] = không có biến cố, sóng gió (平穏[へいおん]な日々[ひび], 平穏[へいおん]無事[ぶじ] = bình an vô sự). 穏[おだ]やか = êm dịu, hiền hòa (tính cách, thời tiết, biển). Câu chúc: 平穏[へいおん]な毎日[まいにち]が続[つづ]くよう願[ねが]ってやまない."
+  },
+  {
+   "id": "v:願わくは:ねがわくは",
+   "kana": "ねがわくは",
+   "kanji": "願わくは",
+   "kf": "願[ねが]わくは",
+   "hv": "NGUYỆN",
+   "vi": "cầu mong rằng, ước gì (văn viết)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mong ước",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "願[ねが]わくは、この穏[おだ]やかな日々[ひび]がいつまでも続[つづ]きますように。",
+     "vi": "Cầu mong những ngày yên bình này mãi kéo dài.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "願[ねが]わくは、今回[こんかい]の研修[けんしゅう]で学[まな]んだことを各[かく]班[はん]で生[い]かしてほしい。",
+     "vi": "Mong rằng mọi người sẽ áp dụng những gì đã học trong đợt đào tạo này vào từng tổ.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:願う:ねがう"
+   ],
+   "note": "Văn viết, phát biểu trang trọng; cuối câu thường là 〜ますように / 〜てほしい / 〜たい. Cũng đọc ねがわくば."
+  },
+  {
+   "id": "v:心中:しんちゅう",
+   "kana": "しんちゅう",
+   "kanji": "心中",
+   "hv": "TÂM TRUNG",
+   "vi": "nỗi lòng (điều thầm kín, không nói ra)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm thông & chia buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ご家族[かぞく]の心中[しんちゅう]を思[おも]うと、言葉[ことば]が見[み]つからない。",
+     "vi": "Nghĩ đến nỗi lòng của gia đình họ, tôi không tìm ra lời nào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "心中[しんちゅう]お察[さっ]しいたします。何[なに]かできることがあれば、遠慮[えんりょ]なくおっしゃってください。",
+     "vi": "Tôi xin thấu hiểu nỗi lòng của anh. Nếu có việc gì tôi làm được, xin đừng ngại nói.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "心中[しんじゅう]",
+     "vi": "cùng nhau tự tử"
+    }
+   ],
+   "rel": [
+    "v:察する:さっする",
+    {
+     "w": "胸中[きょうちゅう]",
+     "vi": "nỗi lòng (văn viết)"
+    }
+   ],
+   "note": "Cùng chữ nhưng đọc しんじゅう nghĩa là cùng tự tử — đọc nhầm rất thất lễ. Câu chia buồn chuẩn: 心中[しんちゅう]お察[さっ]しいたします. 胸中[きょうちゅう] = nỗi lòng (văn viết)."
+  },
+  {
+   "id": "v:痛ましい:いたましい",
+   "kana": "いたましい",
+   "kanji": "痛ましい",
+   "kf": "痛[いた]ましい",
+   "hv": "THỐNG",
+   "vi": "thương tâm, xót xa (sự việc người khác gặp)",
+   "pos": "adj-i",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm thông & chia buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "痛[いた]ましい事故[じこ]が二度[にど]と起[お]きないよう、安全[あんぜん]対策[たいさく]を見直[みなお]した。",
+     "vi": "Để tai nạn thương tâm không lặp lại, công ty đã xem lại biện pháp an toàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ニュースで痛[いた]ましい事件[じけん]を見[み]るたびに、胸[むね]が苦[くる]しくなる。",
+     "vi": "Mỗi lần xem tin về vụ việc thương tâm, lòng tôi lại thắt lại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの火事[かじ]、子[こ]どもが巻[ま]き込[こ]まれたんだって。B：本当[ほんとう]に痛[いた]ましいね。言葉[ことば]もないよ。",
+     "vi": "A: Nghe nói vụ cháy đó có trẻ em bị liên lụy. B: Thật thương tâm. Không nói nên lời.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "事故[じこ]",
+     "vi": "tai nạn"
+    },
+    {
+     "jp": "事件[じけん]",
+     "vi": "vụ việc"
+    }
+   ],
+   "confuse": [
+    "v:悲惨:ひさん"
+   ],
+   "note": "痛[いた]ましい = (sự việc) khiến người ta đau lòng, xót xa (事故[じこ], 事件[じけん], 姿[すがた]). Dùng cho chuyện người khác gặp. 悲惨[ひさん] = bi thảm (nhấn vào sự khốc liệt của tình cảnh)."
+  },
+  {
+   "id": "v:悲惨:ひさん",
+   "kana": "ひさん",
+   "kanji": "悲惨",
+   "hv": "BI THẢM",
+   "vi": "bi thảm, thảm khốc",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm thông & chia buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地震[じしん]直後[ちょくご]の町[まち]は、悲惨[ひさん]な状況[じょうきょう]だった。",
+     "vi": "Thị trấn ngay sau động đất ở trong tình cảnh bi thảm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "安全[あんぜん]装置[そうち]を外[はず]して作業[さぎょう]すると、悲惨[ひさん]な事故[じこ]につながりかねない。",
+     "vi": "Tháo thiết bị an toàn ra để làm việc có thể dẫn tới tai nạn thảm khốc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：試験[しけん]、どうだった？B：聞[き]かないで。悲惨[ひさん]な結果[けっか]だったよ。",
+     "vi": "A: Thi thế nào? B: Đừng hỏi. Kết quả thê thảm lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "状況[じょうきょう]",
+     "vi": "tình cảnh"
+    },
+    {
+     "jp": "事故[じこ]",
+     "vi": "tai nạn"
+    }
+   ],
+   "confuse": [
+    "v:痛ましい:いたましい"
+   ],
+   "rel": [
+    {
+     "w": "無残[むざん]",
+     "vi": "tan hoang, thảm hại"
+    }
+   ],
+   "note": "悲惨[ひさん] = tình cảnh đau khổ, thảm khốc (悲惨[ひさん]な事故[じこ] / 状況[じょうきょう] / 光景[こうけい]). Khẩu ngữ dùng nhẹ: kết quả thê thảm (悲惨[ひさん]な点数[てんすう])."
+  },
+  {
+   "id": "v:痛切:つうせつ",
+   "kana": "つうせつ",
+   "kanji": "痛切",
+   "hv": "THỐNG THIẾT",
+   "vi": "thấm thía, sâu sắc (cảm nhận)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm thông & chia buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "災害[さいがい]を経験[けいけん]して、日頃[ひごろ]の備[そな]えの大切[たいせつ]さを痛切[つうせつ]に感[かん]じた。",
+     "vi": "Trải qua thiên tai, tôi thấm thía tầm quan trọng của việc chuẩn bị thường ngày.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "人手不足[ひとでふそく]の中[なか]、一人[ひとり]ひとりの経験[けいけん]の重[おも]みを痛切[つうせつ]に実感[じっかん]している。",
+     "vi": "Trong lúc thiếu người, tôi cảm nhận sâu sắc sức nặng kinh nghiệm của từng người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：日本語[にほんご]、もっと勉強[べんきょう]しとけばよかったな。B：会議[かいぎ]に出[で]ると、痛切[つうせつ]にそう思[おも]うよね。",
+     "vi": "A: Giá mà mình học tiếng Nhật kỹ hơn. B: Đi họp là thấy thấm thía điều đó nhỉ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "思[おも]い",
+     "vi": "nỗi niềm"
+    },
+    {
+     "jp": "願[ねが]い",
+     "vi": "mong ước"
+    }
+   ],
+   "confuse": [
+    "v:切実:せつじつ"
+   ],
+   "note": "Hầu như dùng 痛切[つうせつ]に + 感[かん]じる / 思[おも]う / 実感[じっかん]する / 反省[はんせい]する. 痛切[つうせつ]な願[ねが]い = mong ước da diết. 切実[せつじつ] = cấp thiết (vấn đề sát sườn)."
+  },
+  {
+   "id": "v:いたわる:いたわる",
+   "kana": "いたわる",
+   "kanji": "",
+   "hv": "",
+   "vi": "quan tâm chăm lo (người yếu, người vất vả); giữ gìn (cơ thể)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm thông & chia buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "被災[ひさい]した同僚[どうりょう]をいたわって、班[はん]のみんなでシフトを代[か]わった。",
+     "vi": "Thương đồng nghiệp bị thiên tai, cả tổ đổi ca thay cho anh ấy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "年[とし]をとった両親[りょうしん]をいたわるのは、子[こ]どもとして当然[とうぜん]のことだ。",
+     "vi": "Quan tâm chăm lo cho bố mẹ già là điều đương nhiên của con cái.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、腰[こし]が痛[いた]くてね。B：無理[むり]しないで、体[からだ]をいたわってくださいね。",
+     "vi": "A: Dạo này tôi đau lưng. B: Đừng cố quá, giữ gìn sức khỏe nhé.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "体[からだ]をいたわる",
+     "vi": "giữ gìn sức khỏe"
+    },
+    {
+     "jp": "お年寄[としよ]りをいたわる",
+     "vi": "quan tâm người già"
+    }
+   ],
+   "confuse": [
+    "v:気遣う:きづかう",
+    "v:慰める:なぐさめる"
+   ],
+   "note": "いたわる = đối xử dịu dàng, quan tâm người đang yếu, mệt, gặp khó (病人[びょうにん], お年寄[としよ]り, 被災者[ひさいしゃ]); với 体[からだ] = giữ gìn. Chữ Hán 労[いたわ]る ít dùng. Danh từ: いたわり (いたわりの言葉[ことば]). 慰[なぐさ]める = an ủi bằng lời. 気遣[きづか]う = để ý lo cho."
+  },
+  {
+   "id": "v:寄り添う:よりそう",
+   "kana": "よりそう",
+   "kanji": "寄り添う",
+   "kf": "寄[よ]り添[そ]う",
+   "hv": "KÝ THIÊM",
+   "vi": "đồng hành, thấu hiểu (nỗi lòng người khác); nép sát vào nhau",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm thông & chia buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "被災者[ひさいしゃ]の気持[きも]ちに寄[よ]り添[そ]った支援[しえん]が求[もと]められている。",
+     "vi": "Cần sự hỗ trợ biết đồng hành với tâm tư người bị nạn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しく来[き]た実習生[じっしゅうせい]の不安[ふあん]に寄[よ]り添[そ]い、困[こま]ったことがあればすぐ相談[そうだん]に乗[の]っている。",
+     "vi": "Tôi lắng nghe nỗi lo của thực tập sinh mới đến, có chuyện khó là sẵn sàng tư vấn ngay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：公園[こうえん]のベンチの老夫婦[ろうふうふ]、仲[なか]がよさそうだね。B：うん、寄[よ]り添[そ]って座[すわ]ってる姿[すがた]がすてきだね。",
+     "vi": "A: Đôi vợ chồng già ở ghế công viên trông tình cảm nhỉ. B: Ừ, cảnh ngồi nép bên nhau đẹp thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "気持[きも]ちに寄[よ]り添[そ]う",
+     "vi": "thấu hiểu, đồng hành với tâm tư"
+    },
+    {
+     "jp": "患者[かんじゃ]に寄[よ]り添[そ]う",
+     "vi": "ở bên bệnh nhân"
+    }
+   ],
+   "rel": [
+    "v:共感:きょうかん",
+    "v:いたわる:いたわる"
+   ],
+   "note": "Nghĩa gốc: nép sát vào nhau. Nghĩa hay gặp (báo chí, y tế, dịch vụ): 〜に寄[よ]り添[そ]う = đứng về phía, thấu hiểu và đồng hành với người đang khổ (被災者[ひさいしゃ]に寄[よ]り添[そ]う支援[しえん])."
+  },
+  {
+   "id": "v:やるせない:やるせない",
+   "kana": "やるせない",
+   "kanji": "",
+   "hv": "",
+   "vi": "buồn day dứt, không biết giãi bày cùng ai",
+   "pos": "adj-i",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm thông & chia buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "長年[ながねん]勤[つと]めた工場[こうじょう]が閉鎖[へいさ]されると聞[き]き、やるせない気持[きも]ちになった。",
+     "vi": "Nghe tin xưởng mình làm bao năm sẽ đóng cửa, tôi thấy buồn day dứt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "家[いえ]を失[うしな]った人々[ひとびと]の姿[すがた]をテレビで見[み]て、やるせない思[おも]いがした。",
+     "vi": "Nhìn hình ảnh những người mất nhà trên TV, tôi thấy buồn khôn nguôi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あんなに頑張[がんば]ったのに、大会[たいかい]が中止[ちゅうし]なんてね。B：うん、選手[せんしゅ]たちの気持[きも]ちを思[おも]うとやるせないよ。",
+     "vi": "A: Cố gắng bao nhiêu mà giải đấu lại bị hủy. B: Ừ, nghĩ đến tâm trạng các vận động viên mà thấy xót xa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "気持[きも]ち",
+     "vi": "tâm trạng"
+    },
+    {
+     "jp": "思[おも]い",
+     "vi": "nỗi lòng"
+    }
+   ],
+   "confuse": [
+    "v:やりきれない:やりきれない"
+   ],
+   "note": "やるせない = buồn, bực mà không có cách nào giải tỏa (vì bất lực trước hoàn cảnh). Chữ Hán 遣[や]る瀬[せ]ない ít dùng. やりきれない = không chịu nổi (cả nghĩa bực mình, quá sức)."
+  },
+  {
+   "id": "v:冥福:めいふく",
+   "kana": "めいふく",
+   "kanji": "冥福",
+   "hv": "MINH PHÚC",
+   "vi": "sự siêu thoát, phúc ở thế giới bên kia",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm thông & chia buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "亡[な]くなった方々[かたがた]のご冥福[めいふく]を、心[こころ]からお祈[いの]りいたします。",
+     "vi": "Thành tâm cầu nguyện cho những người đã khuất được siêu thoát.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "朝礼[ちょうれい]で、亡[な]くなった元[もと]社長[しゃちょう]の冥福[めいふく]を祈[いの]って黙祷[もくとう]をささげた。",
+     "vi": "Trong buổi họp sáng, mọi người mặc niệm cầu cho cựu giám đốc đã mất được siêu thoát.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:哀悼:あいとう"
+   ],
+   "note": "Gần như chỉ dùng: ご冥福[めいふく]をお祈[いの]りいたします / 申[もう]し上[あ]げます (câu chia buồn chuẩn). Là từ gốc Phật giáo; với người theo đạo Thiên Chúa thường nói 安[やす]らかな眠[ねむ]りをお祈[いの]りいたします."
+  },
+  {
+   "id": "v:哀悼:あいとう",
+   "kana": "あいとう",
+   "kanji": "哀悼",
+   "hv": "AI ĐIỆU",
+   "vi": "ai điếu, tưởng tiếc (người đã mất)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm thông & chia buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事故[じこ]で亡[な]くなった方[かた]に、深[ふか]い哀悼[あいとう]の意[い]を表[ひょう]します。",
+     "vi": "Xin bày tỏ lòng thương tiếc sâu sắc tới người đã mất trong tai nạn.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "会社[かいしゃ]を代表[だいひょう]して、ご遺族[いぞく]に哀悼[あいとう]の言葉[ことば]を伝[つた]えた。",
+     "vi": "Thay mặt công ty, tôi gửi lời chia buồn tới gia quyến.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:冥福:めいふく"
+   ],
+   "note": "Văn viết, phát biểu: 哀悼[あいとう]の意[い]を表[ひょう]する = bày tỏ lòng thương tiếc. 追悼[ついとう] = tưởng niệm (追悼式[ついとうしき] = lễ tưởng niệm). 遺族[いぞく] = gia quyến người mất."
+  },
+  {
+   "id": "v:胸を痛める:むねをいためる",
+   "kana": "むねをいためる",
+   "kanji": "胸を痛める",
+   "kf": "胸[むね]を痛[いた]める",
+   "hv": "HUNG THỐNG",
+   "vi": "xót xa trong lòng (vì chuyện người khác gặp)",
+   "pos": "expr",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm thông & chia buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "被災地[ひさいち]のニュースを見[み]て胸[むね]を痛[いた]める人[ひと]は多[おお]い。",
+     "vi": "Nhiều người xót xa khi xem tin về vùng bị thiên tai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "社長[しゃちょう]は、けがをした社員[しゃいん]のことにひどく胸[むね]を痛[いた]めていた。",
+     "vi": "Giám đốc vô cùng đau lòng về chuyện nhân viên bị thương.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：故郷[こきょう]の台風[たいふう]、大丈夫[だいじょうぶ]だった？B：家族[かぞく]は無事[ぶじ]だったけど、町[まち]の様子[ようす]を聞[き]いて胸[むね]を痛[いた]めてるよ。",
+     "vi": "A: Bão ở quê có sao không? B: Gia đình thì bình an, nhưng nghe tình hình thị trấn mà xót xa lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:同情:どうじょう",
+    "v:悲しむ:かなしむ"
+   ],
+   "note": "Trang trọng hơn 心配[しんぱい]する / 悲[かな]しむ: lòng đau vì chuyện người khác gặp (災害[さいがい], 事故[じこ], 病気[びょうき]). Dạng tự động từ: 胸[むね]が痛[いた]む = thấy đau lòng."
+  }
+ ]
+}

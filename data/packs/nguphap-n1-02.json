@@ -1,0 +1,749 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "nguphap-n1-02",
+  "title": "Ngữ pháp N1 02 – Vừa xong lại / kể từ khi / mở đầu bằng: そばから・てからというもの・を皮切[かわき]りに",
+  "type": "grammar",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
+ },
+ "items": [
+  {
+   "id": "g:〜そばから",
+   "pattern": "〜そばから",
+   "level": "N1",
+   "meaning": "vừa… xong thì lại… ngay (lặp đi lặp lại, công sức thành vô ích)",
+   "structure": [
+    "Động từ thể từ điển + そばから: 教[おし]えるそばから忘[わす]れる (vừa dạy xong là quên)",
+    "Động từ thể た + そばから: 片付[かたづ]けたそばから散[ち]らかす (vừa dọn xong là bày ra)",
+    "Vế sau: việc lặp lại làm hỏng / xóa đi công vừa làm — thường ở thể hiện tại, giọng than phiền"
+   ],
+   "explain": "〜そばから = VỪA… XONG THÌ LẠI… NGAY, và chuyện đó LẶP ĐI LẶP LẠI: công sức vừa bỏ ra lập tức bị xóa đi, thành vô ích. 漢字[かんじ]は覚[おぼ]えるそばから忘[わす]れてしまう = chữ Hán vừa nhớ xong là lại quên. 部屋[へや]を片付[かたづ]けるそばから、子[こ]どもが散[ち]らかす = vừa dọn phòng là bọn trẻ lại bày bừa ra.\n\nCách ghép: động từ thể từ điển hoặc thể た + そばから. Vì nói về chuyện lặp lại như một thói quen nên vế sau thường ở thể hiện tại (〜てしまう, 〜ていく, 〜する). Không dùng cho chuyện chỉ xảy ra MỘT lần (ドアを開[あ]けたそばから、猫[ねこ]が飛[と]び出[だ]した ✗ → 開[あ]けたとたん). Không dùng cho mệnh lệnh, ý chí ở vế sau.\n\nMức độ: hơi sách vở, gặp trong văn viết và cả khi than thở bằng lời; sắc thái bực mình, bất lực, chán nản. So với 〜たびに (N3-02): たびに = \"mỗi lần… thì…\" (trung tính, không cần ngay lập tức); そばから nhấn \"vừa xong là bị phá ngay\". So với 〜たとたん (N3-02): たとたん kể một lần; そばから kể chuyện cứ lặp lại mãi.\n\nMẹo nhớ: そば = \"ngay bên cạnh\" → việc xấu đến sát bên cạnh việc vừa làm, chưa kịp quay lưng đã… Giống như vừa lau sàn xưởng xong thì nước đá tan lại làm ướt ngay.",
+   "casual": "Nói thường: 〜てもすぐ / 〜たと思[おも]ったらすぐ: 片付[かたづ]けてもすぐ散[ち]らかすねん (Kansai: ねん = のだ).",
+   "compare": [
+    {
+     "pattern": "〜たびに（N3-02）",
+     "diff": "Mỗi lần… thì… (trung tính, không cần ngay lập tức). そばから: vừa xong là bị… ngay, lặp lại, kèm ý than phiền."
+    },
+    {
+     "pattern": "〜たとたん（に）（N3-02）",
+     "diff": "Chuyện xảy ra một lần, vế sau bất ngờ. そばから: chuyện lặp đi lặp lại, công vừa làm bị xóa ngay."
+    }
+   ],
+   "mistakes": [
+    "Dùng cho chuyện chỉ xảy ra một lần: ドアを開[あ]けたそばから、猫[ねこ]が飛[と]び出[だ]した ✗ → ドアを開[あ]けたとたん、猫[ねこ]が飛[と]び出[だ]した.",
+    "Đổi trợ từ: 覚[おぼ]えるそばに忘[わす]れる ✗ → 覚[おぼ]えるそばから忘[わす]れる (luôn là から)."
+   ],
+   "ex": [
+    {
+     "jp": "漢字[かんじ]は覚[おぼ]える[[そばから]]忘[わす]れてしまう。",
+     "vi": "Chữ Hán thì vừa nhớ xong là lại quên ngay.",
+     "ctx": "doisong",
+     "chunks": [
+      "漢字[かんじ]は",
+      "覚[おぼ]える",
+      "そばから",
+      "忘[わす]れてしまう"
+     ],
+     "wrong": [
+      "そばに",
+      "ばかりか"
+     ]
+    },
+    {
+     "jp": "部屋[へや]を片付[かたづ]ける[[そばから]]、子[こ]どもたちが散[ち]らかしていく。",
+     "vi": "Vừa dọn phòng xong là bọn trẻ lại bày bừa ra ngay.",
+     "ctx": "doisong",
+     "chunks": [
+      "部屋[へや]を",
+      "片付[かたづ]ける",
+      "そばから、",
+      "子[こ]どもたちが",
+      "散[ち]らかしていく"
+     ],
+     "wrong": [
+      "そばまで",
+      "あまり"
+     ]
+    },
+    {
+     "jp": "妻[つま]が洗濯物[せんたくもの]をたたむ[[そばから]]、下[した]の娘[むすめ]がそれを広[ひろ]げて遊[あそ]んでいる。",
+     "vi": "Vợ tôi vừa gấp quần áo xong là con gái út lại giũ tung ra chơi.",
+     "ctx": "doisong",
+     "chunks": [
+      "妻[つま]が洗濯物[せんたくもの]を",
+      "たたむ",
+      "そばから、",
+      "下[した]の娘[むすめ]が",
+      "それを広[ひろ]げて",
+      "遊[あそ]んでいる"
+     ],
+     "wrong": [
+      "ばかりか",
+      "そばまで"
+     ]
+    },
+    {
+     "jp": "給料[きゅうりょう]が入[はい]った[[そばから]]、家賃[やちん]や光熱費[こうねつひ]で消[き]えていく。",
+     "vi": "Lương vừa vào là đã bay mất vào tiền nhà, tiền điện nước.",
+     "ctx": "doisong",
+     "chunks": [
+      "給料[きゅうりょう]が",
+      "入[はい]った",
+      "そばから、",
+      "家賃[やちん]や",
+      "光熱費[こうねつひ]で",
+      "消[き]えていく"
+     ],
+     "wrong": [
+      "そばに",
+      "あまり"
+     ]
+    },
+    {
+     "jp": "床[ゆか]を掃除[そうじ]する[[そばから]]、魚[さかな]のうろこが落[お]ちてくる。",
+     "vi": "Vừa lau sàn xong là vảy cá lại rơi xuống ngay.",
+     "ctx": "xuong",
+     "chunks": [
+      "床[ゆか]を掃除[そうじ]",
+      "する",
+      "そばから、",
+      "魚[さかな]の",
+      "うろこが",
+      "落[お]ちてくる"
+     ],
+     "wrong": [
+      "ばかりか",
+      "あまり"
+     ]
+    },
+    {
+     "jp": "あの新人[しんじん]は、教[おし]えた[[そばから]]同[おな]じミスを繰[く]り返[かえ]す。",
+     "vi": "Cậu nhân viên mới đó vừa được dạy xong là lại lặp lại đúng lỗi cũ.",
+     "ctx": "xuong",
+     "chunks": [
+      "あの",
+      "新人[しんじん]は、",
+      "教[おし]えた",
+      "そばから",
+      "同[おな]じミスを",
+      "繰[く]り返[かえ]す"
+     ],
+     "wrong": [
+      "そばに",
+      "あまり"
+     ]
+    },
+    {
+     "jp": "注文[ちゅうもん]を処理[しょり]する[[そばから]]、次[つぎ]の注文[ちゅうもん]がファックスで届[とど]く。",
+     "vi": "Vừa xử lý xong một đơn hàng là đơn tiếp theo lại tới qua fax.",
+     "ctx": "xuong",
+     "chunks": [
+      "注文[ちゅうもん]を",
+      "処理[しょり]する",
+      "そばから、",
+      "次[つぎ]の注文[ちゅうもん]が",
+      "ファックスで",
+      "届[とど]く"
+     ],
+     "wrong": [
+      "そばまで",
+      "ばかりか"
+     ]
+    },
+    {
+     "jp": "書類[しょるい]を出[だ]した[[そばから]]、また別[べつ]の書類[しょるい]を求[もと]められる。",
+     "vi": "Vừa nộp giấy tờ xong là lại bị yêu cầu thêm loại giấy tờ khác.",
+     "ctx": "thutuc",
+     "wrong": [
+      "そばに",
+      "あまり"
+     ]
+    },
+    {
+     "jp": "カードの支払[しはら]いを済[す]ませる[[そばから]]、彼[かれ]はまた買[か]い物[もの]をしてしまう。",
+     "vi": "Anh ấy vừa trả xong nợ thẻ tín dụng là lại đi mua sắm tiếp.",
+     "ctx": "thutuc",
+     "chunks": [
+      "カードの支払[しはら]いを",
+      "済[す]ませる",
+      "そばから、",
+      "彼[かれ]はまた",
+      "買[か]い物[もの]を",
+      "してしまう"
+     ],
+     "wrong": [
+      "そばまで",
+      "あまり"
+     ]
+    },
+    {
+     "jp": "A：あれ、床[ゆか]、さっき拭[ふ]いたばかりですよね？B：ええ。でも氷[こおり]が溶[と]けて、拭[ふ]いた[[そばから]]濡[ぬ]れていくんですよ。",
+     "vi": "A: Ơ, sàn vừa lau lúc nãy mà nhỉ? B: Vâng. Nhưng đá tan nên vừa lau xong là lại ướt ngay.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "そばに",
+      "あまり"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "ドアを開[あ]けたそばから",
+      "猫[ねこ]が外[そと]へ飛[と]び出[だ]した",
+      "。"
+     ],
+     "vi": "Vừa mở cửa thì con mèo phóng ra ngoài.",
+     "bad": 0,
+     "fix": "ドアを開[あ]けたとたん",
+     "why": "Chuyện xảy ra MỘT lần → たとたん. そばから dùng cho chuyện lặp đi lặp lại."
+    },
+    {
+     "chunks": [
+      "漢字[かんじ]は",
+      "覚[おぼ]えるそばに",
+      "忘[わす]れてしまう",
+      "。"
+     ],
+     "vi": "Chữ Hán thì vừa nhớ xong là lại quên ngay.",
+     "bad": 1,
+     "fix": "覚[おぼ]えるそばから",
+     "why": "Mẫu luôn là そばから (から chỉ điểm bắt đầu), không phải そばに."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Bạn than với đồng nghiệp trong giờ nghỉ: cậu nhân viên mới cứ vừa dạy xong là quên.",
+     "opts": [
+      "あの新人[しんじん]、教[おし]えるそばから忘[わす]れちゃうんだよ。",
+      "あの新人[しんじん]、教[おし]えるそばに忘[わす]れちゃうんだよ。",
+      "あの新人[しんじん]、教[おし]えるばかりか忘[わす]れちゃうんだよ。"
+     ],
+     "ans": 0,
+     "why": "Than phiền chuyện lặp lại \"vừa… xong là…\" → そばから. そばに sai trợ từ; ばかりか = không những… mà còn (không hợp nghĩa)."
+    }
+   ],
+   "shift": [
+    {
+     "from": "片付[かたづ]けてもすぐ散[ち]らかすねん。",
+     "to": "片付[かたづ]けるそばから散[ち]らかされてしまいます。",
+     "kind": "kansai",
+     "note": "Kansai: ねん = のだ. Chuẩn: 辞書形[じしょけい] + そばから (than phiền chuyện lặp lại).",
+     "wrong": [
+      "片付[かたづ]けるそばに散[ち]らかされてしまいます。",
+      "片付[かたづ]けますそばから散[ち]らかされてしまいます。"
+     ]
+    }
+   ],
+   "tpl": [
+    {
+     "f": "dict",
+     "tail": [
+      "そばから",
+      "またやり直[なお]しになります"
+     ],
+     "vi": "Vừa {VP} xong là lại phải làm lại từ đầu."
+    }
+   ]
+  },
+  {
+   "id": "g:〜てからというもの",
+   "pattern": "〜てからというもの",
+   "level": "N1",
+   "meaning": "kể từ khi… (thì mọi thứ thay đổi hẳn và kéo dài đến nay)",
+   "structure": [
+    "Động từ thể て + からというもの: 日本[にほん]に来[き]てからというもの",
+    "Vế sau: trạng thái mới kéo dài đến nay (〜ている, 〜ようになった, 〜ばかりだ)",
+    "Văn viết / lời kể giàu cảm xúc; ≈ 〜てから（ずっと） nhưng nhấn mạnh hơn"
+   ],
+   "explain": "〜てからというもの = KỂ TỪ KHI… (THÌ THAY ĐỔI HẲN): từ một bước ngoặt A, mọi thứ thay đổi rõ rệt và trạng thái mới cứ thế kéo dài đến tận bây giờ. 子[こ]どもが生[う]まれてからというもの、生活[せいかつ]がすっかり変[か]わった = kể từ khi con ra đời, cuộc sống đã đổi khác hoàn toàn. 班長[はんちょう]になってからというもの、毎晩[まいばん]日報[にっぽう]を見直[みなお]している = từ khi làm tổ trưởng, tối nào cũng xem lại nhật ký công việc.\n\nCách ghép: động từ thể て + からというもの. Vế sau là trạng thái, thói quen kéo dài (〜ている, 〜ようになった, 〜ばかりだ, 〜続[つづ]けている), KHÔNG dùng cho một việc xảy ra một lần (日本[にほん]に来[き]てからというもの、一度[いちど]京都[きょうと]に行[い]った ✗). Không dùng mệnh lệnh, ý chí ở vế sau.\n\nMức độ: văn viết, bài phát biểu, lời kể nhìn lại quãng thời gian với cảm xúc (xúc động, biết ơn, than thở). So với 〜て以来[いらい] (N3-03): て以来[いらい] trung tính, khách quan, dùng được trong báo cáo; てからというもの chủ quan, nhấn \"thay đổi lớn\". So với 〜てから (N5): chỉ nói thứ tự trước sau.\n\nMẹo nhớ: というもの = \"cái quãng thời gian gọi là…\" → nhìn lại cả một quãng thời gian dài tính từ mốc đó.",
+   "casual": "Nói thường: 〜てから（ずっと）: 子[こ]どもが生[う]まれてから、ずっと早起[はやお]きやねん (Kansai: やねん = なんだ).",
+   "compare": [
+    {
+     "pattern": "〜て以来[いらい]（N3-03）",
+     "diff": "Kể từ khi (trung tính, khách quan, dùng được trong báo cáo). てからというもの: nhấn thay đổi lớn, giọng kể có cảm xúc."
+    },
+    {
+     "pattern": "〜をきっかけに（N2-17）",
+     "diff": "Nhân dịp A mà bắt đầu / thay đổi (nhấn nguyên nhân khởi đầu). てからというもの: nhấn trạng thái mới kéo dài từ mốc đó đến nay."
+    }
+   ],
+   "mistakes": [
+    "Vế sau là việc xảy ra một lần: 日本[にほん]に来[き]てからというもの、一度[いちど]京都[きょうと]に行[い]った ✗ → 日本[にほん]に来[き]てから、一度[いちど]京都[きょうと]に行[い]った.",
+    "Dùng thể た + から: 結婚[けっこん]したからというもの ✗ → 結婚[けっこん]してからというもの."
+   ],
+   "ex": [
+    {
+     "jp": "子[こ]どもが生[う]まれて[[からというもの]]、生活[せいかつ]がすっかり変[か]わった。",
+     "vi": "Kể từ khi con ra đời, cuộc sống đã thay đổi hoàn toàn.",
+     "ctx": "doisong",
+     "chunks": [
+      "子[こ]どもが",
+      "生[う]まれてからというもの、",
+      "生活[せいかつ]が",
+      "すっかり",
+      "変[か]わった"
+     ],
+     "wrong": [
+      "からといって",
+      "からには"
+     ]
+    },
+    {
+     "jp": "たばこをやめて[[からというもの]]、体[からだ]の調子[ちょうし]がとてもいい。",
+     "vi": "Từ khi bỏ thuốc lá, sức khỏe tốt hẳn lên.",
+     "ctx": "doisong",
+     "chunks": [
+      "たばこを",
+      "やめてからというもの、",
+      "体[からだ]の",
+      "調子[ちょうし]が",
+      "とてもいい"
+     ],
+     "wrong": [
+      "からといって",
+      "からには"
+     ]
+    },
+    {
+     "jp": "妻[つま]は家庭菜園[かていさいえん]を始[はじ]めて[[からというもの]]、毎朝[まいあさ]早[はや]く起[お]きるようになった。",
+     "vi": "Từ khi bắt đầu trồng rau ở nhà, sáng nào vợ tôi cũng dậy sớm.",
+     "ctx": "doisong",
+     "chunks": [
+      "妻[つま]は",
+      "家庭菜園[かていさいえん]を",
+      "始[はじ]めてからというもの、",
+      "毎朝[まいあさ]早[はや]く",
+      "起[お]きるように",
+      "なった"
+     ],
+     "wrong": [
+      "からといって",
+      "からには"
+     ]
+    },
+    {
+     "jp": "母[はは]が入院[にゅういん]して[[からというもの]]、父[ちち]はすっかり元気[げんき]をなくしている。",
+     "vi": "Kể từ khi mẹ nhập viện, bố tôi mất hẳn sức sống.",
+     "ctx": "doisong",
+     "chunks": [
+      "母[はは]が入院[にゅういん]",
+      "してからというもの、",
+      "父[ちち]は",
+      "すっかり",
+      "元気[げんき]を",
+      "なくしている"
+     ],
+     "wrong": [
+      "からといって",
+      "からには"
+     ]
+    },
+    {
+     "jp": "HACCPを導入[どうにゅう]して[[からというもの]]、クレームの件数[けんすう]は減[へ]り続[つづ]けている。",
+     "vi": "Kể từ khi áp dụng HACCP, số vụ khiếu nại cứ giảm dần.",
+     "ctx": "xuong",
+     "chunks": [
+      "HACCPを",
+      "導入[どうにゅう]",
+      "してからというもの、",
+      "クレームの",
+      "件数[けんすう]は減[へ]り",
+      "続[つづ]けている"
+     ],
+     "wrong": [
+      "からといって",
+      "からには"
+     ]
+    },
+    {
+     "jp": "班長[はんちょう]になって[[からというもの]]、グエンさんは毎晩[まいばん]作業[さぎょう]日報[にっぽう]を見直[みなお]している。",
+     "vi": "Từ khi làm tổ trưởng, tối nào anh Nguyễn cũng xem lại nhật ký công việc.",
+     "ctx": "xuong",
+     "chunks": [
+      "班長[はんちょう]に",
+      "なってからというもの、",
+      "グエンさんは",
+      "毎晩[まいばん]作業[さぎょう]",
+      "日報[にっぽう]を",
+      "見直[みなお]している"
+     ],
+     "wrong": [
+      "からといって",
+      "からには"
+     ]
+    },
+    {
+     "jp": "海外[かいがい]への輸出[ゆしゅつ]が始[はじ]まって[[からというもの]]、工場[こうじょう]は休[やす]む暇[ひま]もないほど忙[いそが]しい。",
+     "vi": "Kể từ khi bắt đầu xuất khẩu ra nước ngoài, xưởng bận đến mức không có lúc nào nghỉ.",
+     "ctx": "xuong",
+     "chunks": [
+      "海外[かいがい]への",
+      "輸出[ゆしゅつ]が",
+      "始[はじ]まってからというもの、",
+      "工場[こうじょう]は休[やす]む",
+      "暇[ひま]もないほど",
+      "忙[いそが]しい"
+     ],
+     "wrong": [
+      "からといって",
+      "からには"
+     ]
+    },
+    {
+     "jp": "マイナンバーカードを作[つく]って[[からというもの]]、住民票[じゅうみんひょう]はいつもコンビニで取[と]っている。",
+     "vi": "Từ khi làm thẻ My Number, tôi toàn lấy phiếu cư trú ở cửa hàng tiện lợi.",
+     "ctx": "thutuc",
+     "chunks": [
+      "マイナンバーカードを",
+      "作[つく]ってからというもの、",
+      "住民票[じゅうみんひょう]は",
+      "いつも",
+      "コンビニで",
+      "取[と]っている"
+     ],
+     "wrong": [
+      "からといって",
+      "からには"
+     ]
+    },
+    {
+     "jp": "在留資格[ざいりゅうしかく]が特定[とくてい]技能[ぎのう]2号[ごう]に変[か]わって[[からというもの]]、家族[かぞく]と一緒[いっしょ]に日本[にほん]で暮[く]らせるようになった。",
+     "vi": "Kể từ khi tư cách lưu trú chuyển sang Kỹ năng đặc định số 2, tôi đã được sống cùng gia đình ở Nhật.",
+     "ctx": "thutuc",
+     "chunks": [
+      "在留資格[ざいりゅうしかく]が",
+      "特定[とくてい]技能[ぎのう]2号[ごう]に",
+      "変[か]わってからというもの、",
+      "家族[かぞく]と一緒[いっしょ]に",
+      "日本[にほん]で暮[く]らせる",
+      "ようになった"
+     ],
+     "wrong": [
+      "からといって",
+      "からには"
+     ]
+    },
+    {
+     "jp": "A：最近[さいきん]、元気[げんき]そうですね。B：ええ、毎朝[まいあさ]走[はし]るようにして[[からというもの]]、夜[よる]よく眠[ねむ]れるようになったんです。",
+     "vi": "A: Dạo này trông anh khỏe khoắn nhỉ. B: Vâng, từ khi tập chạy mỗi sáng, tối tôi ngủ ngon hẳn.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "からといって",
+      "からには"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "日本[にほん]に来[き]てからというもの",
+      "一度[いちど]だけ京都[きょうと]に行[い]った",
+      "。"
+     ],
+     "vi": "Từ khi sang Nhật, mỗi ngày là một chuỗi phát hiện mới.",
+     "bad": 1,
+     "fix": "毎日[まいにち]が新[あたら]しい発見[はっけん]の連続[れんぞく]だ",
+     "why": "Vế sau của てからというもの là trạng thái mới kéo dài đến nay, không phải việc xảy ra một lần."
+    },
+    {
+     "chunks": [
+      "結婚[けっこん]したからというもの",
+      "彼[かれ]は酒[さけ]を",
+      "一滴[いってき]も飲[の]んでいない",
+      "。"
+     ],
+     "vi": "Kể từ khi kết hôn, anh ấy không uống một giọt rượu nào.",
+     "bad": 0,
+     "fix": "結婚[けっこん]してからというもの",
+     "why": "Ghép với thể て: 〜てからというもの (không dùng thể た + から)."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Trong buổi họp tổng kết cuối năm, bạn phát biểu: kể từ khi cả tổ bắt đầu họp ngắn mỗi sáng, lỗi giảm thấy rõ.",
+     "opts": [
+      "毎朝[まいあさ]ミーティングを始[はじ]めてからというもの、ミスが目[め]に見[み]えて減[へ]りました。",
+      "毎朝[まいあさ]ミーティングを始[はじ]めたからというもの、ミスが目[め]に見[み]えて減[へ]りました。",
+      "毎朝[まいあさ]ミーティングを始[はじ]めてからといって、ミスが目[め]に見[み]えて減[へ]りました。"
+     ],
+     "ans": 0,
+     "why": "Kể thay đổi kéo dài từ một mốc, giọng trang trọng → thể て + からというもの. Không dùng thể た + から; からといって = \"chỉ vì… mà\" (sai nghĩa)."
+    }
+   ],
+   "shift": [
+    {
+     "from": "子[こ]どもが生[う]まれてから、ずっと早起[はやお]きやねん。",
+     "to": "子[こ]どもが生[う]まれてからというもの、毎朝[まいあさ]早[はや]く起[お]きるようになりました。",
+     "kind": "kansai",
+     "note": "Kansai: やねん = なんだ. Kể trang trọng, nhấn thay đổi: thể て + からというもの.",
+     "wrong": [
+      "子[こ]どもが生[う]まれたからというもの、毎朝[まいあさ]早[はや]く起[お]きるようになりました。",
+      "子[こ]どもが生[う]まれてからといって、毎朝[まいあさ]早[はや]く起[お]きるようになりました。"
+     ]
+    }
+   ],
+   "tpl": [
+    {
+     "f": "te",
+     "tail": [
+      "からというもの",
+      "生活[せいかつ]がすっかり変[か]わりました"
+     ],
+     "vi": "Kể từ khi {VP}, cuộc sống đã thay đổi hẳn."
+    }
+   ]
+  },
+  {
+   "id": "g:〜を皮切りに（して）",
+   "pattern": "〜を皮切[かわき]りに（して）",
+   "level": "N1",
+   "meaning": "mở đầu bằng…, bắt đầu từ… rồi lần lượt…",
+   "structure": [
+    "Danh từ + を皮切[かわき]りに（して）: 神戸[こうべ]公演[こうえん]を皮切[かわき]りに (mở màn bằng buổi diễn ở Kobe)",
+    "Động từ + の + を皮切[かわき]りに: 一人[ひとり]が声[こえ]を上[あ]げたのを皮切[かわき]りに",
+    "Dạng khác: 〜を皮切[かわき]りとして / 〜が皮切[かわき]りとなって; vế sau: một loạt việc cùng loại nối tiếp, lan rộng (次々[つぎつぎ]に, 相[あい]次[つ]いで, 順次[じゅんじ])"
+   ],
+   "explain": "〜を皮切[かわき]りに = MỞ ĐẦU BẰNG…, BẮT ĐẦU TỪ…: A là điểm khởi đầu, sau đó một loạt sự việc CÙNG LOẠI diễn ra liên tiếp, lan rộng. 神戸[こうべ]公演[こうえん]を皮切[かわき]りに、全国[ぜんこく]ツアーが始[はじ]まった = mở màn bằng buổi diễn ở Kobe, tour diễn toàn quốc bắt đầu. 香港[ほんこん]への輸出[ゆしゅつ]を皮切[かわき]りに、アジア各国[かっこく]へ販路[はんろ]を広[ひろ]げた = mở đầu bằng xuất khẩu sang Hồng Kông rồi mở rộng sang các nước châu Á.\n\nCách ghép: danh từ + を皮切[かわき]りに（して）; với động từ thì thêm の: 〜たのを皮切[かわき]りに. Vế sau là một CHUỖI sự kiện nối tiếp, mở rộng (thường là kinh doanh, sự kiện, phong trào, tin tức), hay đi với 次々[つぎつぎ]に, 相[あい]次[つ]いで, 順次[じゅんじ], 各地[かくち]で. Không dùng cho một việc đơn lẻ hay việc vặt hằng ngày (朝[あさ]ご飯[はん]を皮切[かわき]りに… ✗).\n\nMức độ: văn viết — tin tức, báo cáo kinh doanh, thông báo, phát biểu trong cuộc họp. So với 〜をはじめ（として） (N3-15): をはじめ = \"tiêu biểu là A, cùng với B, C\" (liệt kê, không nhấn thứ tự thời gian); を皮切[かわき]りに = A trước, rồi B, C lần lượt theo sau. So với 〜をきっかけに (N2-17): nhấn nguyên nhân gây ra thay đổi; を皮切[かわき]りに nhấn \"phát súng mở màn\" của cả chuỗi.\n\nMẹo nhớ: 皮切[かわき]り = \"nhát cắt da đầu tiên\" — giống nhát dao đầu tiên khi lọc cá: một nhát mở đầu, rồi cả quy trình cứ thế tiếp diễn.",
+   "casual": "Nói thường: 〜から始[はじ]まって / 〜を最初[さいしょ]に: 東京[とうきょう]から始[はじ]まって、大阪[おおさか]、福岡[ふくおか]って回[まわ]るんやって (Kansai: 〜んやって = 〜んだって).",
+   "compare": [
+    {
+     "pattern": "〜をはじめ（として）（N3-15）",
+     "diff": "Tiêu biểu là A, cùng với B, C (liệt kê, không nhấn thứ tự thời gian). を皮切[かわき]りに: A là điểm khởi đầu, sau đó lần lượt B, C theo thời gian."
+    },
+    {
+     "pattern": "〜をきっかけに（N2-17）",
+     "diff": "Nhân dịp A mà bắt đầu / thay đổi (nhấn nguyên nhân). を皮切[かわき]りに: A mở màn cho một chuỗi sự việc cùng loại."
+    }
+   ],
+   "mistakes": [
+    "Dùng cho việc vặt, đơn lẻ: 朝[あさ]ご飯[はん]を皮切[かわき]りに、歯[は]を磨[みが]いた ✗ → 朝[あさ]ご飯[はん]を食[た]べてから、歯[は]を磨[みが]いた.",
+    "Gắn thẳng sau động từ: 社長[しゃちょう]が挨拶[あいさつ]したを皮切[かわき]りに ✗ → 社長[しゃちょう]が挨拶[あいさつ]したのを皮切[かわき]りに."
+   ],
+   "ex": [
+    {
+     "jp": "人気[にんき]バンドの全国[ぜんこく]ツアーが、神戸[こうべ]公演[こうえん][[を皮切[かわき]りに]]始[はじ]まった。",
+     "vi": "Tour diễn toàn quốc của ban nhạc nổi tiếng đã bắt đầu, mở màn bằng buổi diễn ở Kobe.",
+     "ctx": "doisong",
+     "chunks": [
+      "人気[にんき]バンドの",
+      "全国[ぜんこく]",
+      "ツアーが、",
+      "神戸[こうべ]",
+      "公演[こうえん]を皮切[かわき]りに",
+      "始[はじ]まった"
+     ],
+     "wrong": [
+      "に皮切[かわき]りに",
+      "を皮切[かわき]りで"
+     ]
+    },
+    {
+     "jp": "駅前[えきまえ]のカフェ[[を皮切[かわき]りに]]、町[まち]に新[あたら]しい店[みせ]が次々[つぎつぎ]とオープンした。",
+     "vi": "Mở đầu là quán cà phê trước ga, các cửa hàng mới lần lượt khai trương trong thị trấn.",
+     "ctx": "doisong",
+     "chunks": [
+      "駅前[えきまえ]の",
+      "カフェを皮切[かわき]りに、",
+      "町[まち]に新[あたら]しい",
+      "店[みせ]が次々[つぎつぎ]と",
+      "オープン",
+      "した"
+     ],
+     "wrong": [
+      "が皮切[かわき]りに",
+      "を皮切[かわき]って"
+     ]
+    },
+    {
+     "jp": "姉[あね]の結婚[けっこん][[を皮切[かわき]りに]]、いとこたちも次々[つぎつぎ]に結婚[けっこん]していった。",
+     "vi": "Mở đầu bằng đám cưới của chị gái, các anh chị em họ cũng lần lượt lập gia đình.",
+     "ctx": "doisong",
+     "chunks": [
+      "姉[あね]の",
+      "結婚[けっこん]を皮切[かわき]りに、",
+      "いとこたちも",
+      "次々[つぎつぎ]に",
+      "結婚[けっこん]",
+      "していった"
+     ],
+     "wrong": [
+      "に皮切[かわき]りに",
+      "を皮切[かわき]りで"
+     ]
+    },
+    {
+     "jp": "一人[ひとり]の住民[じゅうみん]が声[こえ]を上[あ]げたの[[を皮切[かわき]りに]]、各地[かくち]で反対[はんたい]運動[うんどう]が広[ひろ]がった。",
+     "vi": "Mở đầu từ việc một người dân lên tiếng, phong trào phản đối đã lan rộng khắp nơi.",
+     "ctx": "doisong",
+     "chunks": [
+      "一人[ひとり]の",
+      "住民[じゅうみん]が声[こえ]を",
+      "上[あ]げたのを皮切[かわき]りに、",
+      "各地[かくち]で反対[はんたい]",
+      "運動[うんどう]が",
+      "広[ひろ]がった"
+     ],
+     "wrong": [
+      "が皮切[かわき]りに",
+      "を皮切[かわき]って"
+     ]
+    },
+    {
+     "jp": "この工場[こうじょう]は、香港[ほんこん]への輸出[ゆしゅつ][[を皮切[かわき]りに]]、アジア各国[かっこく]へ販路[はんろ]を広[ひろ]げてきた。",
+     "vi": "Xưởng này mở đầu bằng xuất khẩu sang Hồng Kông, rồi mở rộng kênh tiêu thụ sang các nước châu Á.",
+     "ctx": "xuong",
+     "chunks": [
+      "この工場[こうじょう]は、",
+      "香港[ほんこん]への",
+      "輸出[ゆしゅつ]を皮切[かわき]りに、",
+      "アジア各国[かっこく]へ",
+      "販路[はんろ]を",
+      "広[ひろ]げてきた"
+     ],
+     "wrong": [
+      "に皮切[かわき]りに",
+      "を皮切[かわき]りで"
+     ]
+    },
+    {
+     "jp": "一件[いっけん]のクレーム[[を皮切[かわき]りに]]、同[おな]じロットについての問[と]い合[あ]わせが相[あい]次[つ]いだ。",
+     "vi": "Mở đầu từ một vụ khiếu nại, các câu hỏi về cùng lô hàng liên tiếp đổ về.",
+     "ctx": "xuong",
+     "chunks": [
+      "一件[いっけん]の",
+      "クレームを皮切[かわき]りに、",
+      "同[おな]じロットに",
+      "ついての",
+      "問[と]い合[あ]わせが",
+      "相[あい]次[つ]いだ"
+     ],
+     "wrong": [
+      "が皮切[かわき]りに",
+      "を皮切[かわき]って"
+     ]
+    },
+    {
+     "jp": "来月[らいげつ]の姫路[ひめじ]工場[こうじょう]での研修[けんしゅう][[を皮切[かわき]りに]]、全[ぜん]工場[こうじょう]で新[あたら]しい衛生[えいせい]マニュアルの説明会[せつめいかい]が開[ひら]かれる。",
+     "vi": "Mở đầu bằng buổi đào tạo ở xưởng Himeji tháng sau, các buổi giới thiệu sổ tay vệ sinh mới sẽ được tổ chức ở tất cả các xưởng.",
+     "ctx": "xuong",
+     "chunks": [
+      "来月[らいげつ]の姫路[ひめじ]工場[こうじょう]での",
+      "研修[けんしゅう]を皮切[かわき]りに、",
+      "全[ぜん]工場[こうじょう]で",
+      "新[あたら]しい衛生[えいせい]",
+      "マニュアルの",
+      "説明会[せつめいかい]が開[ひら]かれる"
+     ],
+     "wrong": [
+      "に皮切[かわき]りに",
+      "を皮切[かわき]りで"
+     ]
+    },
+    {
+     "jp": "神戸市[こうべし][[を皮切[かわき]りに]]、県[けん]内[ない]の多[おお]くの市[し]で外国人[がいこくじん]向[む]けの相談窓口[そうだんまどぐち]が開設[かいせつ]された。",
+     "vi": "Mở đầu là thành phố Kobe, nhiều thành phố trong tỉnh đã mở quầy tư vấn dành cho người nước ngoài.",
+     "ctx": "thutuc",
+     "chunks": [
+      "神戸市[こうべし]を皮切[かわき]りに、",
+      "県[けん]内[ない]の",
+      "多[おお]くの市[し]で",
+      "外国人[がいこくじん]向[む]けの",
+      "相談窓口[そうだんまどぐち]が",
+      "開設[かいせつ]された"
+     ],
+     "wrong": [
+      "が皮切[かわき]りに",
+      "を皮切[かわき]って"
+     ]
+    },
+    {
+     "jp": "オンライン申請[しんせい]の導入[どうにゅう][[を皮切[かわき]りに]]、行政[ぎょうせい]手続[てつづ]きのデジタル化[か]が一気[いっき]に進[すす]んだ。",
+     "vi": "Mở đầu bằng việc áp dụng nộp hồ sơ trực tuyến, số hóa thủ tục hành chính đã tiến triển nhanh chóng.",
+     "ctx": "thutuc",
+     "chunks": [
+      "オンライン申請[しんせい]の",
+      "導入[どうにゅう]を皮切[かわき]りに、",
+      "行政[ぎょうせい]手続[てつづ]きの",
+      "デジタル化[か]が",
+      "一気[いっき]に",
+      "進[すす]んだ"
+     ],
+     "wrong": [
+      "に皮切[かわき]りに",
+      "を皮切[かわき]りで"
+     ]
+    },
+    {
+     "jp": "A：新商品[しんしょうひん]の販売[はんばい]計画[けいかく]を説明[せつめい]してください。B：はい。来月[らいげつ]の大阪[おおさか]の展示会[てんじかい][[を皮切[かわき]りに]]、全国[ぜんこく]のスーパーで順次[じゅんじ]販売[はんばい]を始[はじ]める予定[よてい]です。",
+     "vi": "A: Anh hãy trình bày kế hoạch bán sản phẩm mới. B: Vâng. Mở màn bằng hội chợ ở Osaka tháng sau, chúng tôi dự định lần lượt bán ở các siêu thị trên toàn quốc.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "が皮切[かわき]りに",
+      "を皮切[かわき]って"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "社長[しゃちょう]が挨拶[あいさつ]したを皮切[かわき]りに",
+      "各部[かくぶ]の報告[ほうこく]が",
+      "続[つづ]いた",
+      "。"
+     ],
+     "vi": "Mở đầu bằng lời chào của giám đốc, các bộ phận lần lượt báo cáo.",
+     "bad": 0,
+     "fix": "社長[しゃちょう]が挨拶[あいさつ]したのを皮切[かわき]りに",
+     "why": "Động từ phải thêm の để thành danh từ: 〜たのを皮切[かわき]りに."
+    },
+    {
+     "chunks": [
+      "朝[あさ]ご飯[はん]を皮切[かわき]りに",
+      "歯[は]を磨[みが]いて",
+      "会社[かいしゃ]へ行[い]った",
+      "。"
+     ],
+     "vi": "Ăn sáng xong, tôi đánh răng rồi đi làm.",
+     "bad": 0,
+     "fix": "朝[あさ]ご飯[はん]を食[た]べてから",
+     "why": "を皮切[かわき]りに dùng cho điểm mở màn của một chuỗi sự kiện lớn (tour diễn, mở rộng thị trường…), không dùng cho việc vặt hằng ngày."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Trong báo cáo kinh doanh, bạn viết: bắt đầu từ thị trường Singapore, công ty sẽ lần lượt mở rộng xuất khẩu sang các nước Đông Nam Á.",
+     "opts": [
+      "シンガポール市場[しじょう]を皮切[かわき]りに、東南[とうなん]アジア各国[かっこく]へ順次[じゅんじ]輸出[ゆしゅつ]を広[ひろ]げていく。",
+      "シンガポール市場[しじょう]を最後[さいご]に、東南[とうなん]アジア各国[かっこく]へ順次[じゅんじ]輸出[ゆしゅつ]を広[ひろ]げていく。",
+      "シンガポール市場[しじょう]に皮切[かわき]りに、東南[とうなん]アジア各国[かっこく]へ順次[じゅんじ]輸出[ゆしゅつ]を広[ひろ]げていく。"
+     ],
+     "ans": 0,
+     "why": "Điểm mở màn của một chuỗi việc → Danh từ + を皮切[かわき]りに. を最後[さいご]に = lấy… làm lần cuối (ngược nghĩa); trợ từ luôn là を."
+    }
+   ],
+   "shift": [
+    {
+     "from": "東京[とうきょう]から始[はじ]まって、大阪[おおさか]、福岡[ふくおか]って回[まわ]るんやって。",
+     "to": "ツアーは東京[とうきょう]公演[こうえん]を皮切[かわき]りに、大阪[おおさか]、福岡[ふくおか]を回[まわ]るそうです。",
+     "kind": "kansai",
+     "note": "Kansai: 〜んやって = 〜んだって (nghe nói); って = と. Trang trọng: Danh từ + を皮切[かわき]りに.",
+     "wrong": [
+      "ツアーは東京[とうきょう]公演[こうえん]に皮切[かわき]りに、大阪[おおさか]、福岡[ふくおか]を回[まわ]るそうです。",
+      "ツアーは東京[とうきょう]公演[こうえん]を皮切[かわき]って、大阪[おおさか]、福岡[ふくおか]を回[まわ]るそうです。"
+     ]
+    }
+   ]
+  }
+ ]
+}

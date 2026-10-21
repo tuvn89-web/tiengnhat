@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -602,7 +602,7 @@
      ]
     },
     {
-     "jp": "A：あれ、今日[きょう]何曜[なんよう]日[ひ][[だっけ]]？B：木曜日[もくようび]だよ。",
+     "jp": "A：あれ、今日[きょう]何曜日[なんようび][[だっけ]]？B：木曜日[もくようび]だよ。",
      "vi": "A: Ơ, hôm nay thứ mấy ấy nhỉ? B: Thứ năm.",
      "ctx": "hoithoai",
      "wrong": [
@@ -650,7 +650,7 @@
    ],
    "shift": [
     {
-     "from": "今日[きょう]何曜[なんよう]日[ひ]やったっけ？",
+     "from": "今日[きょう]何曜日[なんようび]やったっけ？",
      "to": "今日[きょう]は何曜日[なんようび]でしたっけ。",
      "kind": "kansai",
      "note": "Kansai: やった = だった.",

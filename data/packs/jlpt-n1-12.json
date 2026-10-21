@@ -1,0 +1,2104 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n1-12",
+  "title": "JLPT N1 12 – Trách nhiệm, xin lỗi, bồi thường & xử lý sự cố",
+  "type": "vocab",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:引責:いんせき",
+   "kana": "いんせき",
+   "kanji": "引責",
+   "hv": "DẪN TRÁCH",
+   "vi": "nhận trách nhiệm (bằng cách từ chức, rút lui)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一連[いちれん]の不祥事[ふしょうじ]を受[う]けて、社長[しゃちょう]が引責[いんせき]辞任[じにん]した。",
+     "vi": "Sau hàng loạt bê bối, giám đốc đã từ chức nhận trách nhiệm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "監督[かんとく]は、チームの成績[せいせき]不振[ふしん]の責任[せきにん]を取[と]って引責[いんせき]辞任[じにん]した。",
+     "vi": "Huấn luyện viên đã từ chức nhận trách nhiệm vì thành tích kém của đội.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事故[じこ]の責任[せきにん]を感[かん]じて引責[いんせき]する",
+     "vi": "từ chức vì thấy mình có trách nhiệm về tai nạn"
+    }
+   ],
+   "rel": [
+    "v:辞任:じにん",
+    "v:責任:せきにん"
+   ],
+   "note": "Hầu như dùng: 引責辞任[いんせきじにん] = từ chức để nhận trách nhiệm (văn báo chí). 辞任[じにん] = từ nhiệm."
+  },
+  {
+   "id": "v:転嫁:てんか",
+   "kana": "てんか",
+   "kanji": "転嫁",
+   "hv": "CHUYỂN GIÁ",
+   "vi": "đổ (trách nhiệm, chi phí) sang người khác",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "自分[じぶん]のミスを新人[しんじん]に転嫁[てんか]するなんて、班[はん]長[ちょう]として許[ゆる]されない。",
+     "vi": "Đổ lỗi của mình cho người mới thì với tư cách tổ trưởng là không thể chấp nhận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "電気代[でんきだい]の値上[ねあ]がりが価格[かかく]に転嫁[てんか]され、パンもまた高[たか]くなった。",
+     "vi": "Giá điện tăng bị đẩy vào giá bán nên bánh mì lại đắt lên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：トラブルの原因[げんいん]、取引先[とりひきさき]のせいにしてたよね。B：責任[せきにん]転嫁[てんか]はよくないよ。こっちの確認[かくにん]不足[ふそく]もあったんだから。",
+     "vi": "A: Nguyên nhân sự cố, họ đổ cho đối tác nhỉ. B: Đổ trách nhiệm là không hay. Bên mình cũng thiếu kiểm tra mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "責任[せきにん]を転嫁[てんか]する",
+     "vi": "đổ trách nhiệm"
+    },
+    {
+     "jp": "コストを価格[かかく]に転嫁[てんか]する",
+     "vi": "đẩy chi phí vào giá bán"
+    }
+   ],
+   "rel": [
+    "v:責任逃れ:せきにんのがれ",
+    "v:言い逃れ:いいのがれ"
+   ],
+   "note": "責任転嫁[せきにんてんか] = đổ trách nhiệm cho người khác (rất hay dùng). 価格[かかく]転嫁[てんか] = chuyển chi phí tăng vào giá bán. Đồng âm: 添加[てんか] = cho thêm vào (食品[しょくひん]添加物[てんかぶつ] = phụ gia thực phẩm), 点火[てんか] = châm lửa."
+  },
+  {
+   "id": "v:責任逃れ:せきにんのがれ",
+   "kana": "せきにんのがれ",
+   "kanji": "責任逃れ",
+   "kf": "責任逃[せきにんのが]れ",
+   "hv": "TRÁCH NHIỆM ĐÀO",
+   "vi": "trốn tránh trách nhiệm",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "「聞[き]いていませんでした」は、ただの責任[せきにん]逃[のが]れだ。",
+     "vi": "\"Tôi không được nghe báo\" chỉ là trốn tránh trách nhiệm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "責任[せきにん]逃[のが]れをする大人[おとな]の姿[すがた]を、子[こ]どもはよく見[み]ている。",
+     "vi": "Trẻ con nhìn rất rõ hình ảnh người lớn trốn tránh trách nhiệm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "責任[せきにん]逃[のが]れをする",
+     "vi": "trốn tránh trách nhiệm"
+    }
+   ],
+   "confuse": [
+    "v:言い逃れ:いいのがれ"
+   ],
+   "rel": [
+    "v:転嫁:てんか"
+   ],
+   "note": "〜逃[のが]れ = tránh, thoát khỏi (責任[せきにん]逃[のが]れ, 言[い]い逃[のが]れ, その場[ば]逃[のが]れ = chữa cháy cho qua chuyện). 責任[せきにん]逃[のが]れの発言[はつげん]."
+  },
+  {
+   "id": "v:言い逃れ:いいのがれ",
+   "kana": "いいのがれ",
+   "kanji": "言い逃れ",
+   "kf": "言[い]い逃[のが]れ",
+   "hv": "NGÔN ĐÀO",
+   "vi": "lời chối quanh, lời thoái thác (để thoát trách nhiệm)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "記録[きろく]が残[のこ]っている以上[いじょう]、言[い]い逃[のが]れはできない。",
+     "vi": "Một khi hồ sơ ghi chép còn lưu lại thì không thể chối quanh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "遅刻[ちこく]の理由[りゆう]を聞[き]かれて、彼[かれ]は苦[くる]しい言[い]い逃[のが]れをした。",
+     "vi": "Bị hỏi lý do đi muộn, anh ta chối quanh gượng gạo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：温度[おんど]の記録[きろく]を書[か]き忘[わす]れたのは、私[わたし]じゃないと思[おも]います。B：言[い]い逃[のが]れはいいから、まず事実[じじつ]を確認[かくにん]しよう。",
+     "vi": "A: Tôi nghĩ người quên ghi nhiệt độ không phải tôi. B: Thôi đừng chối quanh, trước hết xác nhận sự thật đã.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "その場[ば]で言[い]い逃[のが]れする",
+     "vi": "chối quanh cho qua"
+    }
+   ],
+   "confuse": [
+    "v:責任逃れ:せきにんのがれ",
+    "v:言い訳:いいわけ"
+   ],
+   "note": "言[い]い逃[のが]れ = nói lý lẽ để thoát trách nhiệm, tránh bị truy (言[い]い逃[のが]れができない = không chối được). 言[い]い訳[わけ] = lời bào chữa (nhẹ hơn)."
+  },
+  {
+   "id": "v:免れる:まぬかれる",
+   "kana": "まぬかれる",
+   "kanji": "免れる",
+   "kf": "免[まぬか]れる",
+   "hv": "MIỄN",
+   "vi": "thoát khỏi, tránh được (tai họa, trách nhiệm)",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "早[はや]めに気[き]づいたので、大[おお]きな事故[じこ]は免[まぬか]れた。",
+     "vi": "Nhận ra sớm nên đã tránh được tai nạn lớn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台風[たいふう]で屋根[やね]が壊[こわ]れたが、家族[かぞく]はけがを免[まぬか]れた。",
+     "vi": "Mái nhà bị bão làm hỏng nhưng cả nhà thoát khỏi thương tích.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今回[こんかい]のミスで、処分[しょぶん]を受[う]けるんでしょうか。B：すぐ報告[ほうこく]したから、処分[しょぶん]は免[まぬか]れると思[おも]うよ。でも、責任[せきにん]は免[まぬか]れないからね。",
+     "vi": "A: Vì lỗi lần này, tôi có bị kỷ luật không ạ? B: Báo cáo ngay nên chắc tránh được kỷ luật. Nhưng trách nhiệm thì không thoát được đâu.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "責任[せきにん]を免[まぬか]れる",
+     "vi": "thoát trách nhiệm"
+    },
+    {
+     "jp": "被害[ひがい]を免[まぬか]れる",
+     "vi": "tránh được thiệt hại"
+    },
+    {
+     "jp": "批判[ひはん]を免[まぬか]れる",
+     "vi": "tránh bị chỉ trích"
+    }
+   ],
+   "rel": [
+    {
+     "w": "逃[のが]れる",
+     "vi": "trốn thoát"
+    }
+   ],
+   "note": "Đọc まぬかれる hoặc まぬがれる (cả hai đều đúng). Hay dùng phủ định: 〜は免[まぬか]れない = không tránh khỏi (批判[ひはん]は免[まぬか]れない)."
+  },
+  {
+   "id": "v:甘んじる:あまんじる",
+   "kana": "あまんじる",
+   "kanji": "甘んじる",
+   "kf": "甘[あま]んじる",
+   "hv": "CAM",
+   "vi": "cam chịu, chấp nhận (dù không muốn)",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今回[こんかい]の処分[しょぶん]は、甘[あま]んじて受[う]けるつもりだ。",
+     "vi": "Tôi định cam chịu nhận hình thức kỷ luật lần này.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "才能[さいのう]がありながら、彼[かれ]は今[いま]の地位[ちい]に甘[あま]んじている。",
+     "vi": "Có tài mà anh ta lại an phận với vị trí hiện tại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：二位[にい]だったけど、悔[くや]しくないの？B：悔[くや]しいよ。二位[にい]に甘[あま]んじるつもりはないから、来年[らいねん]また挑戦[ちょうせん]する。",
+     "vi": "A: Đứng thứ hai, không tiếc à? B: Tiếc chứ. Không định cam chịu vị trí thứ hai, năm sau lại thử sức.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "処分[しょぶん]に甘[あま]んじる",
+     "vi": "cam chịu kỷ luật"
+    },
+    {
+     "jp": "現状[げんじょう]に甘[あま]んじる",
+     "vi": "an phận với hiện trạng"
+    }
+   ],
+   "rel": [
+    "v:潔い:いさぎよい"
+   ],
+   "note": "甘[あま]んじる (甘[あま]んずる) = chấp nhận mà không phàn nàn (甘[あま]んじて受[う]ける = cam chịu nhận lấy), hoặc an phận không cố tiến lên (現状[げんじょう]に甘[あま]んじる, sắc thái chê)."
+  },
+  {
+   "id": "v:一身:いっしん",
+   "kana": "いっしん",
+   "kanji": "一身",
+   "hv": "NHẤT THÂN",
+   "vi": "bản thân mình (dồn hết vào một người)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事故[じこ]の責任[せきにん]を、班長[はんちょう]が一身[いっしん]に背負[せお]うことになった。",
+     "vi": "Tổ trưởng phải một mình gánh hết trách nhiệm về tai nạn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一身上[いっしんじょう]の都合[つごう]により、三月[さんがつ]末[まつ]で退職[たいしょく]いたします。",
+     "vi": "Vì lý do cá nhân, tôi xin nghỉ việc vào cuối tháng ba.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "一身[いっしん]に背負[せお]う",
+     "vi": "một mình gánh hết"
+    },
+    {
+     "jp": "期待[きたい]を一身[いっしん]に集[あつ]める",
+     "vi": "được mọi người dồn kỳ vọng"
+    }
+   ],
+   "rel": [
+    "v:背負う:せおう"
+   ],
+   "note": "一身[いっしん]に〜 = dồn hết vào một người. 一身上[いっしんじょう]の都合[つごう] = lý do cá nhân (câu chuẩn trong đơn xin nghỉ việc)."
+  },
+  {
+   "id": "v:不行き届き:ふゆきとどき",
+   "kana": "ふゆきとどき",
+   "kanji": "不行き届き",
+   "kf": "不行[ふゆ]き届[とど]き",
+   "hv": "BẤT HÀNH GIỚI",
+   "vi": "thiếu chu đáo, sơ suất (trong trông coi, quản lý)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今回[こんかい]の事故[じこ]は、私[わたし]の監督[かんとく]不行[ふゆ]き届[とど]きによるものです。",
+     "vi": "Tai nạn lần này là do tôi giám sát không chu đáo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "掃除[そうじ]が不行[ふゆ]き届[とど]きで、お客様[きゃくさま]に不快[ふかい]な思[おも]いをさせてしまった。",
+     "vi": "Dọn dẹp không chu đáo nên đã làm khách khó chịu.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "監督[かんとく]不行[ふゆ]き届[とど]き",
+     "vi": "giám sát không chu đáo"
+    },
+    {
+     "jp": "管理[かんり]が不行[ふゆ]き届[とど]きだ",
+     "vi": "quản lý thiếu chu đáo"
+    }
+   ],
+   "rel": [
+    "v:不手際:ふてぎわ",
+    "v:落ち度:おちど"
+   ],
+   "note": "Văn xin lỗi: 監督[かんとく]不行[ふゆ]き届[とど]き / 管理[かんり]不行[ふゆ]き届[とど]き = lỗi do người phụ trách không trông coi đến nơi (cấp trên nhận lỗi thay cấp dưới). 不手際[ふてぎわ] = xử lý vụng, sai sót."
+  },
+  {
+   "id": "v:故意:こい",
+   "kana": "こい",
+   "kanji": "故意",
+   "hv": "CỐ Ý",
+   "vi": "sự cố ý (văn pháp lý)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "故意[こい]ではなかったとしても、ミスを隠[かく]したことは問題[もんだい]だ。",
+     "vi": "Dù không cố ý, việc che giấu lỗi vẫn là vấn đề.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "故意[こい]に他人[たにん]の物[もの]を壊[こわ]した場合[ばあい]は、弁償[べんしょう]しなければならない。",
+     "vi": "Trường hợp cố ý làm hỏng đồ của người khác thì phải bồi thường.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "故意[こい]に壊[こわ]す",
+     "vi": "cố ý làm hỏng"
+    }
+   ],
+   "ant": [
+    "v:過失:かしつ"
+   ],
+   "confuse": [
+    "v:わざと:わざと"
+   ],
+   "note": "故意[こい] = cố ý (từ pháp lý, văn viết: 故意[こい]に, 故意[こい]か過失[かしつ]か). わざと = khẩu ngữ. Đối lập: 過失[かしつ] (sơ suất, vô ý)."
+  },
+  {
+   "id": "v:連帯責任:れんたいせきにん",
+   "kana": "れんたいせきにん",
+   "kanji": "連帯責任",
+   "hv": "LIÊN ĐỚI TRÁCH NHIỆM",
+   "vi": "trách nhiệm liên đới (cả nhóm cùng chịu)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一人[ひとり]のミスでも、班[はん]全体[ぜんたい]の連帯[れんたい]責任[せきにん]になる。",
+     "vi": "Dù là lỗi của một người cũng thành trách nhiệm liên đới của cả tổ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "部活[ぶかつ]で一人[ひとり]が遅刻[ちこく]すると、連帯[れんたい]責任[せきにん]で全員[ぜんいん]が走[はし]らされた。",
+     "vi": "Ở câu lạc bộ, một người đi muộn là cả đội bị phạt chạy vì trách nhiệm liên đới.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "連帯[れんたい]責任[せきにん]を負[お]う",
+     "vi": "chịu trách nhiệm liên đới"
+    }
+   ],
+   "rel": [
+    "v:責任:せきにん",
+    {
+     "w": "連帯保証人[れんたいほしょうにん]",
+     "vi": "người bảo lãnh liên đới"
+    }
+   ],
+   "note": "連帯[れんたい]責任[せきにん] = cả tập thể cùng chịu trách nhiệm cho lỗi của một người. Giấy tờ thuê nhà, vay tiền: 連帯保証人[れんたいほしょうにん] = người bảo lãnh liên đới."
+  },
+  {
+   "id": "v:尻拭い:しりぬぐい",
+   "kana": "しりぬぐい",
+   "kanji": "尻拭い",
+   "kf": "尻拭[しりぬぐ]い",
+   "hv": "KHÀO THỨC",
+   "vi": "dọn hậu quả (cho người khác), gánh hộ",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "後輩[こうはい]のミスの尻拭[しりぬぐ]いで、残業[ざんぎょう]する羽目[はめ]になった。",
+     "vi": "Vì phải dọn hậu quả lỗi của đàn em mà tôi phải tăng ca.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "息子[むすこ]の借金[しゃっきん]の尻拭[しりぬぐ]いをさせられた。",
+     "vi": "Tôi bị buộc phải trả nợ thay cho con trai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：また課長[かちょう]がトラブルの尻拭[しりぬぐ]いをしてるよ。B：大変[たいへん]だね。でも、部下[ぶか]の失敗[しっぱい]を引[ひ]き受[う]けるのも上司[じょうし]の仕事[しごと]なんだろうね。",
+     "vi": "A: Trưởng phòng lại đang dọn hậu quả sự cố kìa. B: Vất vả nhỉ. Nhưng gánh thất bại của cấp dưới cũng là việc của cấp trên mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "失敗[しっぱい]の尻拭[しりぬぐ]いをする",
+     "vi": "dọn hậu quả thất bại"
+    },
+    {
+     "jp": "人[ひと]の尻拭[しりぬぐ]いをする",
+     "vi": "gánh hậu quả hộ người khác"
+    }
+   ],
+   "rel": [
+    "v:後始末:あとしまつ"
+   ],
+   "note": "尻拭[しりぬぐ]い = lau mông cho người khác: xử lý hậu quả người khác gây ra (khẩu ngữ, sắc thái bực). 後始末[あとしまつ] = dọn dẹp, giải quyết phần sau (của mình hoặc chung)."
+  },
+  {
+   "id": "v:示しがつかない:しめしがつかない",
+   "kana": "しめしがつかない",
+   "kanji": "示しがつかない",
+   "kf": "示[しめ]しがつかない",
+   "hv": "THỊ",
+   "vi": "không làm gương được (cho cấp dưới, con cái)",
+   "pos": "expr",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班長[はんちょう]が遅刻[ちこく]ばかりしていては、部下[ぶか]に示[しめ]しがつかない。",
+     "vi": "Tổ trưởng mà cứ đi muộn thì không làm gương được cho cấp dưới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "親[おや]がルールを守[まも]らなければ、子[こ]どもに示[しめ]しがつかない。",
+     "vi": "Bố mẹ không giữ quy tắc thì không thể làm gương cho con.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：ベテランだから、少[すこ]しの手順[てじゅん]違反[いはん]は見逃[みのが]しませんか。B：いや、それでは新人[しんじん]に示[しめ]しがつかないよ。",
+     "vi": "A: Là thợ lâu năm, bỏ qua chút vi phạm quy trình được không ạ? B: Không, như thế thì không làm gương được cho người mới.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:けじめ:けじめ"
+   ],
+   "note": "示[しめ]し = sự làm gương. 示[しめ]しがつかない = không còn uy để dạy người dưới (vì mình làm sai hoặc dung túng). Hay đi với 部下[ぶか]に, 子[こ]どもに, 下[した]の者[もの]に."
+  },
+  {
+   "id": "v:咎める:とがめる",
+   "kana": "とがめる",
+   "kanji": "咎める",
+   "kf": "咎[とが]める",
+   "hv": "CỮU",
+   "vi": "bắt lỗi (chỉ ra cái sai mà trách); (lương tâm) cắn rứt",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Trách nhiệm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小[ちい]さなミスをいちいち咎[とが]めていたら、誰[だれ]も報告[ほうこく]しなくなる。",
+     "vi": "Cứ hở chút lỗi nhỏ là bắt lỗi thì sẽ chẳng ai báo cáo nữa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "嘘[うそ]をついたことに、気[き]が咎[とが]めている。",
+     "vi": "Tôi thấy cắn rứt vì đã nói dối.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：休憩[きゅうけい]を少[すこ]し長[なが]く取[と]りすぎたのに、班長[はんちょう]は何[なに]も言[い]わなかったね。B：咎[とが]められなかったからって、甘[あま]えちゃだめだよ。",
+     "vi": "A: Nghỉ giải lao hơi lâu mà tổ trưởng không nói gì nhỉ. B: Không bị trách không có nghĩa là được nhờn đâu.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "失敗[しっぱい]を咎[とが]める",
+     "vi": "bắt lỗi thất bại"
+    },
+    {
+     "jp": "気[き]が咎[とが]める",
+     "vi": "cắn rứt lương tâm"
+    }
+   ],
+   "confuse": [
+    "v:責める:せめる"
+   ],
+   "note": "咎[とが]める = chỉ ra lỗi mà trách (văn viết hơn 責[せ]める). 気[き]が咎[とが]める = lương tâm cắn rứt. Danh từ: 咎[とが]め (お咎[とが]めなし = không bị phạt)."
+  },
+  {
+   "id": "v:陳謝:ちんしゃ",
+   "kana": "ちんしゃ",
+   "kanji": "陳謝",
+   "hv": "TRẦN TẠ",
+   "vi": "tạ lỗi (chính thức, trang trọng)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]は記者[きしゃ]会見[かいけん]で、商品[しょうひん]の回収[かいしゅう]について陳謝[ちんしゃ]した。",
+     "vi": "Giám đốc đã tạ lỗi về việc thu hồi sản phẩm tại buổi họp báo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "列車[れっしゃ]の大幅[おおはば]な遅[おく]れについて、鉄道会社[てつどうかいしゃ]が陳謝[ちんしゃ]した。",
+     "vi": "Công ty đường sắt đã tạ lỗi về việc tàu trễ nhiều.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今回[こんかい]の件[けん]、社長[しゃちょう]が出[で]てくるかな。B：ここまで騒[さわ]ぎが大[おお]きくなったら、社長[しゃちょう]が陳謝[ちんしゃ]せずにはすまないだろうね。",
+     "vi": "A: Vụ lần này giám đốc có ra mặt không nhỉ. B: Ồn ào đến mức này thì giám đốc không thể không tạ lỗi đâu.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "深[ふか]く陳謝[ちんしゃ]する",
+     "vi": "thành khẩn tạ lỗi"
+    },
+    {
+     "jp": "公式[こうしき]に陳謝[ちんしゃ]する",
+     "vi": "tạ lỗi chính thức"
+    }
+   ],
+   "confuse": [
+    "v:謝罪:しゃざい"
+   ],
+   "rel": [
+    "v:お詫び:おわび"
+   ],
+   "note": "陳謝[ちんしゃ] = trình bày sự việc và xin lỗi (văn báo chí, công ty: 〜について陳謝[ちんしゃ]する). 謝罪[しゃざい] = xin lỗi (dùng rộng hơn). Không dùng trong hội thoại hằng ngày."
+  },
+  {
+   "id": "v:遺憾:いかん",
+   "kana": "いかん",
+   "kanji": "遺憾",
+   "hv": "DI HÁM",
+   "vi": "lấy làm tiếc (văn rất trang trọng, công văn)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このような事態[じたい]になったことは、誠[まこと]に遺憾[いかん]です。",
+     "vi": "Sự việc trở nên như thế này thật đáng tiếc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "職員[しょくいん]による個人情報[こじんじょうほう]の流出[りゅうしゅつ]について、市[し]は「誠[まこと]に遺憾[いかん]に思[おも]う」とコメントした。",
+     "vi": "Về việc nhân viên làm lộ thông tin cá nhân, thành phố bình luận \"vô cùng lấy làm tiếc\".",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：「遺憾[いかん]に思[おも]います」って、謝[あやま]っているんですか。B：残念[ざんねん]だという意味[いみ]で、はっきり謝[あやま]ってはいないんだよ。",
+     "vi": "A: \"Lấy làm tiếc\" là đang xin lỗi ạ? B: Nghĩa là thấy đáng tiếc, chứ chưa xin lỗi rõ ràng đâu.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "事態[じたい]",
+     "vi": "sự việc"
+    },
+    {
+     "jp": "結果[けっか]",
+     "vi": "kết quả"
+    }
+   ],
+   "rel": [
+    "v:残念:ざんねん",
+    "v:陳謝:ちんしゃ"
+   ],
+   "note": "遺憾[いかん] = đáng tiếc (rất trang trọng): 遺憾[いかん]に思[おも]う / 遺憾[いかん]の意[い]を表[あらわ]す. Thường dùng để bày tỏ tiếc nuối mà không trực tiếp nhận lỗi. 遺憾[いかん]なく = trọn vẹn, không thiếu sót (実力[じつりょく]を遺憾[いかん]なく発揮[はっき]する)."
+  },
+  {
+   "id": "v:痛恨:つうこん",
+   "kana": "つうこん",
+   "kanji": "痛恨",
+   "hv": "THỐNG HẬN",
+   "vi": "hối tiếc đau đớn (vì lỗi nặng)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "最後[さいご]の確認[かくにん]を怠[おこた]ったのは、痛恨[つうこん]のミスだった。",
+     "vi": "Bỏ sót lần kiểm tra cuối là một sai lầm vô cùng đau đớn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "決勝[けっしょう]での失点[しってん]は、痛恨[つうこん]の極[きわ]みだった。",
+     "vi": "Bàn thua ở trận chung kết là nỗi hối tiếc tột cùng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "痛恨[つうこん]のミス",
+     "vi": "sai lầm đau đớn"
+    },
+    {
+     "jp": "痛恨[つうこん]の極[きわ]み",
+     "vi": "hối tiếc tột cùng"
+    }
+   ],
+   "rel": [
+    "v:無念:むねん",
+    "v:悔やむ:くやむ"
+   ],
+   "note": "痛恨[つうこん] = hối tiếc đến đau lòng (痛恨[つうこん]のミス / エラー; 痛恨[つうこん]の極[きわ]み = vô cùng hối tiếc — hay dùng trong lời xin lỗi trang trọng)."
+  },
+  {
+   "id": "v:猛省:もうせい",
+   "kana": "もうせい",
+   "kanji": "猛省",
+   "hv": "MÃNH TỈNH",
+   "vi": "tự kiểm điểm nghiêm khắc, hối lỗi sâu sắc",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今回[こんかい]の不手際[ふてぎわ]を猛省[もうせい]し、再発防止[さいはつぼうし]に努[つと]めます。",
+     "vi": "Chúng tôi nghiêm khắc kiểm điểm sai sót lần này và nỗ lực phòng ngừa tái phát.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "試験[しけん]に落[お]ちた原因[げんいん]を考[かんが]え、勉強[べんきょう]のやり方[かた]を猛省[もうせい]した。",
+     "vi": "Nghĩ về nguyên nhân thi trượt, tôi đã tự kiểm điểm nghiêm khắc cách học của mình.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "深[ふか]く猛省[もうせい]する",
+     "vi": "tự kiểm điểm sâu sắc"
+    }
+   ],
+   "confuse": [
+    "v:反省:はんせい"
+   ],
+   "note": "猛省[もうせい] = 猛[もう] (mãnh liệt) + 省[せい] (xét lại mình): kiểm điểm rất nghiêm (猛省[もうせい]を促[うなが]す = yêu cầu kiểm điểm nghiêm túc). 反省[はんせい] = kiểm điểm (thường)."
+  },
+  {
+   "id": "v:肝に銘じる:きもにめいじる",
+   "kana": "きもにめいじる",
+   "kanji": "肝に銘じる",
+   "kf": "肝[きも]に銘[めい]じる",
+   "hv": "CAN MINH",
+   "vi": "khắc cốt ghi tâm (ghi nhớ sâu sắc)",
+   "pos": "expr",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ご指摘[してき]いただいた点[てん]は、肝[きも]に銘[めい]じて改善[かいぜん]いたします。",
+     "vi": "Những điểm quý vị chỉ ra, chúng tôi xin khắc ghi và cải thiện.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "先輩[せんぱい]の「確認[かくにん]を怠[おこた]るな」という言葉[ことば]を、毎日[まいにち]肝[きも]に銘[めい]じるようにしている。",
+     "vi": "Ngày nào tôi cũng cố khắc ghi lời tiền bối: \"Đừng lơ là kiểm tra\".",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今回[こんかい]の入院[にゅういん]で、健康[けんこう]あっての仕事[しごと]だと肝[きも]に銘[めい]じた。",
+     "vi": "Qua lần nhập viện này, tôi khắc cốt ghi tâm rằng có sức khỏe mới làm được việc.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:反省:はんせい"
+   ],
+   "note": "肝[きも] = gan ruột: khắc vào gan ruột. Hay dùng trong lời xin lỗi, hứa hẹn: 肝[きも]に銘[めい]じます. Cũng nói 肝[きも]に銘[めい]ずる."
+  },
+  {
+   "id": "v:非:ひ",
+   "kana": "ひ",
+   "kanji": "非",
+   "hv": "PHI",
+   "vi": "cái sai, điều trái lẽ (văn trang trọng)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "自分[じぶん]の非[ひ]を素直[すなお]に認[みと]めることが、信頼[しんらい]回復[かいふく]の第一歩[だいいっぽ]だ。",
+     "vi": "Thật lòng nhận cái sai của mình là bước đầu tiên để lấy lại lòng tin.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "相手[あいて]の非[ひ]を責[せ]めるより、まず話[はなし]を聞[き]こう。",
+     "vi": "Thay vì trách lỗi của đối phương, hãy nghe họ nói trước đã.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "非[ひ]を認[みと]める",
+     "vi": "nhận lỗi"
+    },
+    {
+     "jp": "非[ひ]を詫[わ]びる",
+     "vi": "xin lỗi về sai sót"
+    }
+   ],
+   "rel": [
+    "v:落ち度:おちど",
+    "v:過失:かしつ"
+   ],
+   "note": "非[ひ] = cái sai, lỗi (văn trang trọng: 非[ひ]を認[みと]める, 非[ひ]を詫[わ]びる, 非[ひ]の打[う]ち所[どころ]がない = hoàn hảo, không chê vào đâu được). Cũng là tiền tố phủ định: 非常識[ひじょうしき], 非公開[ひこうかい]."
+  },
+  {
+   "id": "v:弁明:べんめい",
+   "kana": "べんめい",
+   "kanji": "弁明",
+   "hv": "BIỆN MINH",
+   "vi": "giải trình, biện minh (lý do, hoàn cảnh)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "遅[おく]れた理由[りゆう]について、彼[かれ]は何[なに]も弁明[べんめい]しなかった。",
+     "vi": "Về lý do chậm trễ, anh ấy không biện minh gì cả.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "処分[しょぶん]を決[き]める前[まえ]に、本人[ほんにん]に弁明[べんめい]の機会[きかい]が与[あた]えられる。",
+     "vi": "Trước khi quyết định kỷ luật, đương sự được trao cơ hội giải trình.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：説明[せつめい]させてください。B：弁明[べんめい]は後[あと]で聞[き]く。まず、お客様[きゃくさま]への対応[たいおう]を優先[ゆうせん]しよう。",
+     "vi": "A: Xin để tôi giải thích. B: Giải trình thì nghe sau. Trước hết ưu tiên xử lý với khách hàng đã.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事情[じじょう]を弁明[べんめい]する",
+     "vi": "giải trình hoàn cảnh"
+    },
+    {
+     "jp": "必死[ひっし]に弁明[べんめい]する",
+     "vi": "ra sức biện minh"
+    }
+   ],
+   "confuse": [
+    "v:弁解:べんかい",
+    "v:釈明:しゃくめい"
+   ],
+   "note": "弁明[べんめい] = nói rõ lý do để được hiểu (弁明[べんめい]の機会[きかい] = cơ hội giải trình). 弁解[べんかい] = bào chữa (sắc thái tìm cớ). 釈明[しゃくめい] = giải thích để được thông cảm, tháo gỡ hiểu lầm."
+  },
+  {
+   "id": "v:申し開き:もうしひらき",
+   "kana": "もうしひらき",
+   "kanji": "申し開き",
+   "kf": "申[もう]し開[ひら]き",
+   "hv": "THÂN KHAI",
+   "vi": "lời biện bạch, giải trình (trước người có quyền)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お客様[きゃくさま]に迷惑[めいわく]をおかけし、申[もう]し開[ひら]きのしようもございません。",
+     "vi": "Đã gây phiền cho quý khách, chúng tôi không có lời nào để biện bạch.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "約束[やくそく]を破[やぶ]ったのは事実[じじつ]なので、申[もう]し開[ひら]きはできない。",
+     "vi": "Thất hứa là sự thật nên không thể biện bạch.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "申[もう]し開[ひら]きができない",
+     "vi": "không thể biện bạch"
+    }
+   ],
+   "rel": [
+    "v:弁明:べんめい",
+    "v:言い訳:いいわけ"
+   ],
+   "note": "Hầu như dùng phủ định trong lời xin lỗi: 申[もう]し開[ひら]きのしようもございません / 申[もう]し開[ひら]きができない = không còn lời nào để biện minh."
+  },
+  {
+   "id": "v:悪びれる:わるびれる",
+   "kana": "わるびれる",
+   "kanji": "悪びれる",
+   "kf": "悪[わる]びれる",
+   "hv": "ÁC",
+   "vi": "tỏ ra áy náy, ngượng ngập (hầu như dùng phủ định)",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は遅刻[ちこく]しても、悪[わる]びれる様子[ようす]がまったくない。",
+     "vi": "Anh ta đi muộn mà chẳng có chút vẻ áy náy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子[こ]どもは悪[わる]びれずに「僕[ぼく]がやった」と言[い]った。",
+     "vi": "Đứa trẻ thản nhiên nói: \"Con làm đấy.\"",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの人[ひと]、ミスを指摘[してき]されても全然[ぜんぜん]悪[わる]びれないね。B：そうだね。少[すこ]しは反省[はんせい]してほしいよ。",
+     "vi": "A: Người đó bị chỉ ra lỗi mà chẳng chút áy náy nhỉ. B: Ừ. Mong là họ biết kiểm điểm chút.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人前[ひとまえ]で悪[わる]びれる",
+     "vi": "rụt rè, ngượng ngập trước người khác"
+    }
+   ],
+   "rel": [
+    "v:開き直る:ひらきなおる",
+    "v:居直る:いなおる"
+   ],
+   "note": "Hầu như dùng phủ định: 悪[わる]びれる様子[ようす]もない / 悪[わる]びれずに / 悪[わる]びれもせず = chẳng chút áy náy, thản nhiên (thường chê). Nghĩa gốc: rụt rè, ngượng ngập."
+  },
+  {
+   "id": "v:居直る:いなおる",
+   "kana": "いなおる",
+   "kanji": "居直る",
+   "kf": "居直[いなお]る",
+   "hv": "CƯ TRỰC",
+   "vi": "trở mặt, quay sang ngang ngược (khi bị bắt lỗi)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "注意[ちゅうい]された客[きゃく]は、謝[あやま]るどころか居直[いなお]って大声[おおごえ]を出[だ]した。",
+     "vi": "Vị khách bị nhắc nhở chẳng những không xin lỗi mà còn trở mặt lớn tiếng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "ミスを指摘[してき]されて居直[いなお]るようでは、主任[しゅにん]は任[まか]せられない。",
+     "vi": "Bị chỉ ra lỗi mà trở mặt thì không thể giao chức chủ nhiệm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの業者[ぎょうしゃ]、納期[のうき]が遅[おく]れたのに「じゃあ、ほかに頼[たの]めば」って言[い]ってきたよ。B：居直[いなお]られても困[こま]るね。契約[けいやく]の内容[ないよう]を確認[かくにん]しよう。",
+     "vi": "A: Nhà cung cấp đó trễ hạn mà còn bảo \"Vậy thì nhờ chỗ khác đi\". B: Bị trở mặt thế thì khó xử thật. Kiểm tra lại nội dung hợp đồng đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "注意[ちゅうい]されて居直[いなお]る",
+     "vi": "bị nhắc thì trở mặt"
+    },
+    {
+     "jp": "急[きゅう]に居直[いなお]る",
+     "vi": "đột nhiên trở mặt"
+    }
+   ],
+   "confuse": [
+    "v:開き直る:ひらきなおる"
+   ],
+   "note": "居直[いなお]る = đang yếu thế (bị bắt lỗi) bỗng đổi thái độ, ngang ngược đáp trả (居直[いなお]り強盗[ごうとう] = kẻ trộm bị phát hiện liền thành cướp). 開[ひら]き直[なお]る = bất chấp, nói thẳng không e dè (có khi tích cực)."
+  },
+  {
+   "id": "v:真摯:しんし",
+   "kana": "しんし",
+   "kanji": "真摯",
+   "hv": "CHÂN CHÍ",
+   "vi": "thành khẩn, nghiêm cẩn (thái độ đối diện vấn đề)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "お客様[きゃくさま]の声[こえ]に、真摯[しんし]に耳[みみ]を傾[かたむ]けることが大切[たいせつ]だ。",
+     "vi": "Điều quan trọng là thành tâm lắng nghe tiếng nói của khách hàng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "真摯[しんし]な態度[たいど]で謝[あやま]れば、相手[あいて]もきっとわかってくれる。",
+     "vi": "Nếu xin lỗi với thái độ thành khẩn, đối phương chắc chắn sẽ hiểu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今回[こんかい]の件[けん]、どう対応[たいおう]すればいいでしょうか。B：言[い]い訳[わけ]をせず、真摯[しんし]に謝罪[しゃざい]することだね。",
+     "vi": "A: Vụ lần này nên xử lý thế nào ạ? B: Đừng bào chữa, hãy xin lỗi một cách thành khẩn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "態度[たいど]",
+     "vi": "thái độ"
+    },
+    {
+     "jp": "姿勢[しせい]",
+     "vi": "tư thế, cách hành xử"
+    }
+   ],
+   "confuse": [
+    "v:誠実:せいじつ"
+   ],
+   "rel": [
+    "v:誠意:せいい"
+   ],
+   "note": "真摯[しんし] = nghiêm túc, hết lòng, không qua loa (văn viết: 真摯[しんし]に受[う]け止[と]める / 向[む]き合[あ]う / 対応[たいおう]する — rất hay gặp trong lời xin lỗi của công ty). 誠実[せいじつ] = thật thà, đáng tin (tính cách)."
+  },
+  {
+   "id": "v:重々:じゅうじゅう",
+   "kana": "じゅうじゅう",
+   "kanji": "重々",
+   "hv": "TRỌNG TRỌNG",
+   "vi": "rất rõ, thấu (hiểu, biết); hết mực (cẩn thận, xin lỗi)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ご迷惑[めいわく]をおかけしたことは、重々[じゅうじゅう]承知[しょうち]しております。",
+     "vi": "Chúng tôi hiểu rất rõ là đã gây phiền phức cho quý vị.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "無理[むり]なお願[ねが]いだとは重々[じゅうじゅう]わかっていますが、何[なん]とかお願[ねが]いできませんか。",
+     "vi": "Tôi biết rất rõ là nhờ vả quá sức, nhưng liệu có thể giúp tôi được không.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：危[あぶ]ないから、一人[ひとり]で機械[きかい]を触[さわ]らないように。B：はい、重々[じゅうじゅう]気[き]をつけます。",
+     "vi": "A: Nguy hiểm nên đừng một mình động vào máy. B: Vâng, tôi sẽ hết sức cẩn thận.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    {
+     "w": "くれぐれも",
+     "vi": "nhất định, hết sức (dặn dò)"
+    },
+    "v:誠に:まことに"
+   ],
+   "note": "Hay đi với 承知[しょうち], わかる, 気[き]をつける, お詫[わ]び: 重々[じゅうじゅう]承知[しょうち]しております = biết rất rõ (khiêm nhường). Khác 重々[おもおも]しい = nặng nề, trang nghiêm."
+  },
+  {
+   "id": "v:切に:せつに",
+   "kana": "せつに",
+   "kanji": "切に",
+   "kf": "切[せつ]に",
+   "hv": "THIẾT",
+   "vi": "tha thiết, khẩn thiết (mong, cầu)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一日[いちにち]も早[はや]い回復[かいふく]を、切[せつ]に願[ねが]っております。",
+     "vi": "Tôi tha thiết mong anh sớm bình phục.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "再発防止[さいはつぼうし]に向[む]けて、関係者[かんけいしゃ]のご協力[きょうりょく]を切[せつ]にお願[ねが]い申[もう]し上[あ]げます。",
+     "vi": "Chúng tôi khẩn thiết đề nghị sự hợp tác của các bên liên quan để phòng ngừa tái phát.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "心[こころ]から",
+     "vi": "từ đáy lòng"
+    }
+   ],
+   "note": "切[せつ]に = khẩn thiết (văn trang trọng, đi với 願[ねが]う, 望[のぞ]む, お願[ねが]いする, 祈[いの]る). Không dùng với hành động thông thường."
+  },
+  {
+   "id": "v:深々:ふかぶか",
+   "kana": "ふかぶか",
+   "kanji": "深々",
+   "hv": "THÂM THÂM",
+   "vi": "(cúi) thật sâu; (ngồi) lún sâu",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場長[こうじょうちょう]は、お客様[きゃくさま]の前[まえ]で深々[ふかぶか]と頭[あたま]を下[さ]げた。",
+     "vi": "Xưởng trưởng cúi đầu thật sâu trước khách hàng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ソファに深々[ふかぶか]と腰[こし]を下[お]ろした。",
+     "vi": "Tôi ngồi lún sâu xuống ghế sofa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：謝罪[しゃざい]のとき、どのくらい頭[あたま]を下[さ]げればいいですか。B：深々[ふかぶか]と、ゆっくり下[さ]げて、しばらく止[と]めるんだ。",
+     "vi": "A: Khi xin lỗi nên cúi đầu đến mức nào ạ? B: Cúi thật sâu, chậm rãi, rồi giữ một lúc.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:頭を下げる:あたまをさげる"
+   ],
+   "note": "深々[ふかぶか]と + 頭[あたま]を下[さ]げる / お辞儀[じぎ]する / 腰掛[こしか]ける. Cùng mặt chữ nhưng đọc しんしん: 深々[しんしん]と = (đêm) tĩnh mịch, (lạnh) thấu xương."
+  },
+  {
+   "id": "v:今一度:いまいちど",
+   "kana": "いまいちど",
+   "kanji": "今一度",
+   "hv": "KIM NHẤT ĐỘ",
+   "vi": "một lần nữa (cách nói trang trọng)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "作業[さぎょう]手順[てじゅん]を、今一度[いまいちど]全員[ぜんいん]で確認[かくにん]してください。",
+     "vi": "Xin mọi người cùng kiểm tra lại quy trình làm việc thêm một lần nữa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "申込書[もうしこみしょ]に記入漏[きにゅうも]れがないか、今一度[いまいちど]ご確認[かくにん]ください。",
+     "vi": "Xin quý khách kiểm tra lại một lần nữa xem đơn đăng ký có thiếu mục nào không.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:改めて:あらためて"
+   ],
+   "rel": [
+    {
+     "w": "もう一度[いちど]",
+     "vi": "thêm một lần nữa"
+    }
+   ],
+   "note": "今[いま]一度[いちど] = もう一度[いちど] nhưng trang trọng, hay dùng trong thông báo, lời xin lỗi (今[いま]一度[いちど]徹底[てってい]する = quán triệt lại lần nữa). 改[あらた]めて = lại lần nữa (làm lại cho kỹ, hoặc nhân dịp khác)."
+  },
+  {
+   "id": "v:始末書:しまつしょ",
+   "kana": "しまつしょ",
+   "kanji": "始末書",
+   "hv": "THỦY MẠT THƯ",
+   "vi": "bản kiểm điểm (nộp công ty)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "無断欠勤[むだんけっきん]をして、始末書[しまつしょ]を書[か]かされた。",
+     "vi": "Nghỉ không phép nên tôi bị bắt viết bản kiểm điểm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "始末書[しまつしょ]には、事故[じこ]の経緯[けいい]と反省[はんせい]、今後[こんご]の対策[たいさく]を書[か]く。",
+     "vi": "Trong bản kiểm điểm ghi diễn biến sự cố, lời hối lỗi và biện pháp sắp tới.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "始末書[しまつしょ]を書[か]く",
+     "vi": "viết bản kiểm điểm"
+    },
+    {
+     "jp": "始末書[しまつしょ]を提出[ていしゅつ]する",
+     "vi": "nộp bản kiểm điểm"
+    }
+   ],
+   "rel": [
+    "v:顛末:てんまつ",
+    "v:報告書:ほうこくしょ"
+   ],
+   "note": "始末書[しまつしょ] = bản tự kiểm điểm, xin lỗi kèm cam kết không tái phạm (một dạng kỷ luật nhẹ). 顛末書[てんまつしょ] = bản tường trình diễn biến (không nhất thiết nhận lỗi)."
+  },
+  {
+   "id": "v:顔向け:かおむけ",
+   "kana": "かおむけ",
+   "kanji": "顔向け",
+   "kf": "顔向[かおむ]け",
+   "hv": "NHAN HƯỚNG",
+   "vi": "(không) dám nhìn mặt (vì xấu hổ)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xin lỗi & kiểm điểm",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "こんなミスをしては、指導[しどう]してくれた先輩[せんぱい]に顔向[かおむ]けできない。",
+     "vi": "Phạm lỗi thế này thì không dám nhìn mặt tiền bối đã dạy mình.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "試験[しけん]に落[お]ちて、応援[おうえん]してくれた家族[かぞく]に顔向[かおむ]けできないと思[おも]った。",
+     "vi": "Thi trượt, tôi thấy không dám nhìn mặt gia đình đã ủng hộ mình.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "顔向[かおむ]けできない",
+     "vi": "không dám nhìn mặt"
+    }
+   ],
+   "rel": [
+    "v:面目ない:めんぼくない",
+    {
+     "w": "合[あ]わせる顔[かお]がない",
+     "vi": "không còn mặt mũi nào gặp"
+    }
+   ],
+   "note": "Hầu như dùng phủ định: 〜に顔向[かおむ]けできない = xấu hổ đến không dám gặp…. Gần nghĩa: 合[あ]わせる顔[かお]がない, 面目[めんぼく]ない."
+  },
+  {
+   "id": "v:損害賠償:そんがいばいしょう",
+   "kana": "そんがいばいしょう",
+   "kanji": "損害賠償",
+   "hv": "TỔN HẠI BỒI THƯỜNG",
+   "vi": "bồi thường thiệt hại",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bồi thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "納品[のうひん]の遅[おく]れで、取引先[とりひきさき]から損害賠償[そんがいばいしょう]を求[もと]められた。",
+     "vi": "Vì giao hàng trễ, đối tác yêu cầu bồi thường thiệt hại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "隣[となり]の家[いえ]の車[くるま]に傷[きず]をつけ、損害賠償[そんがいばいしょう]として修理代[しゅうりだい]を払[はら]った。",
+     "vi": "Làm xước xe nhà bên cạnh, tôi đã trả tiền sửa như khoản bồi thường thiệt hại.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "損害賠償[そんがいばいしょう]を請求[せいきゅう]する",
+     "vi": "đòi bồi thường thiệt hại"
+    },
+    {
+     "jp": "損害賠償[そんがいばいしょう]を求[もと]める",
+     "vi": "yêu cầu bồi thường"
+    }
+   ],
+   "rel": [
+    "v:賠償:ばいしょう",
+    "v:弁償:べんしょう"
+   ],
+   "note": "損害賠償[そんがいばいしょう] = bồi thường thiệt hại theo trách nhiệm pháp lý (損害賠償[そんがいばいしょう]請求[せいきゅう], 損害賠償[そんがいばいしょう]責任[せきにん]). 弁償[べんしょう] = đền đồ làm hỏng (đời thường). 補償[ほしょう] = đền bù tổn thất."
+  },
+  {
+   "id": "v:示談:じだん",
+   "kana": "じだん",
+   "kanji": "示談",
+   "hv": "THỊ ĐÀM",
+   "vi": "thỏa thuận hòa giải (ngoài tòa án)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bồi thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "交通事故[こうつうじこ]は、保険会社[ほけんがいしゃ]を通[つう]じて示談[じだん]が成立[せいりつ]した。",
+     "vi": "Vụ tai nạn giao thông đã đạt thỏa thuận hòa giải qua công ty bảo hiểm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "双方[そうほう]が話[はな]し合[あ]い、示談[じだん]で解決[かいけつ]することになった。",
+     "vi": "Hai bên trao đổi và quyết định giải quyết bằng thỏa thuận hòa giải.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "示談[じだん]が成立[せいりつ]する",
+     "vi": "đạt thỏa thuận hòa giải"
+    },
+    {
+     "jp": "示談[じだん]で済[す]ませる",
+     "vi": "giải quyết êm bằng thỏa thuận"
+    }
+   ],
+   "rel": [
+    "v:慰謝料:いしゃりょう",
+    {
+     "w": "和解[わかい]",
+     "vi": "hòa giải (thường có tòa án đứng giữa)"
+    }
+   ],
+   "note": "示談[じだん] = hai bên tự thỏa thuận tiền bồi thường, điều kiện mà không ra tòa (示談金[じだんきん] = tiền hòa giải, 示談[じだん]交渉[こうしょう] = đàm phán hòa giải)."
+  },
+  {
+   "id": "v:慰謝料:いしゃりょう",
+   "kana": "いしゃりょう",
+   "kanji": "慰謝料",
+   "hv": "ÚY TẠ LIỆU",
+   "vi": "tiền bồi thường tổn thất tinh thần",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bồi thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事故[じこ]の被害者[ひがいしゃ]には、治療費[ちりょうひ]とは別[べつ]に慰謝料[いしゃりょう]が支払[しはら]われた。",
+     "vi": "Ngoài tiền điều trị, nạn nhân vụ tai nạn còn được trả tiền bồi thường tổn thất tinh thần.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "離婚[りこん]の際[さい]に、慰謝料[いしゃりょう]を請求[せいきゅう]する人[ひと]もいる。",
+     "vi": "Khi ly hôn, có người đòi tiền bồi thường tổn thất tinh thần.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "慰謝料[いしゃりょう]を請求[せいきゅう]する",
+     "vi": "đòi tiền bồi thường tinh thần"
+    },
+    {
+     "jp": "慰謝料[いしゃりょう]を支払[しはら]う",
+     "vi": "trả tiền bồi thường tinh thần"
+    }
+   ],
+   "rel": [
+    "v:示談:じだん",
+    "v:損害賠償:そんがいばいしょう"
+   ],
+   "note": "慰謝料[いしゃりょう] = khoản tiền bù cho nỗi đau tinh thần (một phần của 損害賠償[そんがいばいしょう]). Cũng viết 慰藉料[いしゃりょう]."
+  },
+  {
+   "id": "v:免責:めんせき",
+   "kana": "めんせき",
+   "kanji": "免責",
+   "hv": "MIỄN TRÁCH",
+   "vi": "miễn trách nhiệm",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bồi thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "天災[てんさい]による損害[そんがい]は、免責[めんせき]の対象[たいしょう]になる場合[ばあい]がある。",
+     "vi": "Thiệt hại do thiên tai có trường hợp thuộc diện miễn trách nhiệm.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "契約書[けいやくしょ]の免責[めんせき]事項[じこう]は、サインする前[まえ]によく読[よ]んでおこう。",
+     "vi": "Điều khoản miễn trách nhiệm trong hợp đồng nên đọc kỹ trước khi ký.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "免責[めんせき]事項[じこう]",
+     "vi": "điều khoản miễn trách"
+    },
+    {
+     "jp": "免責[めんせき]される",
+     "vi": "được miễn trách"
+    }
+   ],
+   "rel": [
+    "v:免除:めんじょ"
+   ],
+   "note": "免責[めんせき] = được miễn trách nhiệm (pháp lý, bảo hiểm): 免責[めんせき]事項[じこう] / 免責[めんせき]条項[じょうこう] = điều khoản miễn trách; 免責[めんせき]金額[きんがく] = phần khách tự chịu (bảo hiểm). 免除[めんじょ] = miễn (nghĩa vụ, phí)."
+  },
+  {
+   "id": "v:帳消し:ちょうけし",
+   "kana": "ちょうけし",
+   "kanji": "帳消し",
+   "kf": "帳消[ちょうけ]し",
+   "hv": "TRƯỚNG TIÊU",
+   "vi": "xóa sổ (nợ); công tội bù trừ hết",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bồi thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "たった一度[いちど]の大[おお]きなミスで、これまでの努力[どりょく]が帳消[ちょうけ]しになった。",
+     "vi": "Chỉ một lỗi lớn mà công sức bấy lâu bị xóa sạch.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "友人[ゆうじん]に借[か]りていたお金[かね]を、帳消[ちょうけ]しにしてもらった。",
+     "vi": "Khoản tiền vay bạn, bạn đã xóa nợ cho tôi.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "帳消[ちょうけ]しにする",
+     "vi": "xóa sổ, xóa nợ"
+    },
+    {
+     "jp": "帳消[ちょうけ]しになる",
+     "vi": "bị xóa sạch"
+    }
+   ],
+   "rel": [
+    "v:相殺:そうさい"
+   ],
+   "note": "帳消[ちょうけ]し = gạch tên trong sổ nợ: xóa nợ; nghĩa bóng: công và tội bù trừ nhau, mất hết (ミスで手柄[てがら]が帳消[ちょうけ]しになる)."
+  },
+  {
+   "id": "v:相殺:そうさい",
+   "kana": "そうさい",
+   "kanji": "相殺",
+   "hv": "TƯƠNG SÁI",
+   "vi": "bù trừ, triệt tiêu (lẫn nhau)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bồi thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "売[う]り上[あ]げは伸[の]びたが、原料[げんりょう]費[ひ]の値上[ねあ]がりで利益[りえき]は相殺[そうさい]された。",
+     "vi": "Doanh số tăng nhưng lợi nhuận bị giá nguyên liệu tăng triệt tiêu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "立[た]て替[か]えたお金[かね]と借[か]りていたお金[かね]を相殺[そうさい]して、残[のこ]りだけ払[はら]った。",
+     "vi": "Bù trừ tiền tôi trả hộ với tiền tôi đã vay, rồi chỉ trả phần còn lại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：残業代[ざんぎょうだい]が増[ふ]えたのに、手取[てど]りがあまり変[か]わらないんです。B：税金[ぜいきん]や保険料[ほけんりょう]が上[あ]がって、相殺[そうさい]されたんだろうね。",
+     "vi": "A: Tiền tăng ca tăng mà lương thực nhận không mấy thay đổi. B: Chắc thuế và phí bảo hiểm tăng nên bị bù trừ mất.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "貸[か]し借[か]りを相殺[そうさい]する",
+     "vi": "bù trừ khoản cho vay và đi vay"
+    },
+    {
+     "jp": "効果[こうか]を相殺[そうさい]する",
+     "vi": "triệt tiêu hiệu quả"
+    }
+   ],
+   "rel": [
+    "v:帳消し:ちょうけし"
+   ],
+   "note": "Đọc そうさい (không đọc そうさつ — そうさつ là giết hại lẫn nhau, nghĩa khác). 相殺[そうさい] = trừ qua trừ lại cho bằng nhau (văn kinh tế, kế toán)."
+  },
+  {
+   "id": "v:加害者:かがいしゃ",
+   "kana": "かがいしゃ",
+   "kanji": "加害者",
+   "hv": "GIA HẠI GIẢ",
+   "vi": "người gây hại, bên gây ra (tai nạn, thiệt hại)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bồi thường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "自転車[じてんしゃ]でも、事故[じこ]を起[お]こせば加害者[かがいしゃ]として責任[せきにん]を問[と]われる。",
+     "vi": "Dù là xe đạp, gây tai nạn thì cũng bị truy trách nhiệm với tư cách bên gây ra.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "加害者[かがいしゃ]側[がわ]の保険会社[ほけんがいしゃ]から、示談[じだん]の連絡[れんらく]があった。",
+     "vi": "Có liên lạc về việc hòa giải từ công ty bảo hiểm phía bên gây tai nạn.",
+     "ctx": "thutuc"
+    }
+   ],
+   "ant": [
+    "v:被害者:ひがいしゃ"
+   ],
+   "rel": [
+    "v:損害賠償:そんがいばいしょう"
+   ],
+   "note": "加害者[かがいしゃ] = người gây thiệt hại, tổn thương cho người khác (tai nạn, bắt nạt, tội phạm). 加害[かがい] = gây hại. Đối lập: 被害者[ひがいしゃ]."
+  },
+  {
+   "id": "v:究明:きゅうめい",
+   "kana": "きゅうめい",
+   "kanji": "究明",
+   "hv": "CỨU MINH",
+   "vi": "làm sáng tỏ, truy rõ (nguyên nhân, sự thật)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xử lý sự cố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "異物[いぶつ]混入[こんにゅう]の原因[げんいん]を究明[きゅうめい]するまで、ラインは停止[ていし]する。",
+     "vi": "Dây chuyền sẽ ngừng cho đến khi làm rõ nguyên nhân lẫn dị vật.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "専門家[せんもんか]が、火災[かさい]の原因[げんいん]を究明[きゅうめい]している。",
+     "vi": "Các chuyên gia đang làm rõ nguyên nhân vụ hỏa hoạn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：同[おな]じクレームが、これで三回[さんかい]目[め]だよ。B：今度[こんど]こそ、原因[げんいん]を究明[きゅうめい]しないといけませんね。",
+     "vi": "A: Cùng một khiếu nại, đây là lần thứ ba rồi. B: Lần này phải làm rõ nguyên nhân mới được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "原因[げんいん]を究明[きゅうめい]する",
+     "vi": "làm rõ nguyên nhân"
+    },
+    {
+     "jp": "真相[しんそう]を究明[きゅうめい]する",
+     "vi": "làm rõ sự thật"
+    }
+   ],
+   "confuse": [
+    "v:解明:かいめい",
+    "v:追及:ついきゅう"
+   ],
+   "note": "究明[きゅうめい] = truy đến cùng cho rõ (原因[げんいん]究明[きゅうめい], 真相[しんそう]究明[きゅうめい]). 解明[かいめい] = làm sáng tỏ cơ chế, điều bí ẩn. Dễ nhầm với nhóm đồng âm ついきゅう (xem 追及[ついきゅう])."
+  },
+  {
+   "id": "v:追及:ついきゅう",
+   "kana": "ついきゅう",
+   "kanji": "追及",
+   "hv": "TRUY CẬP",
+   "vi": "truy hỏi, truy trách nhiệm (lỗi của người khác)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xử lý sự cố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "責任[せきにん]の追及[ついきゅう]よりも、まず再発[さいはつ]を防[ふせ]ぐことが大事[だいじ]だ。",
+     "vi": "Hơn cả việc truy cứu trách nhiệm, trước hết quan trọng là ngăn tái phát.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "記者[きしゃ]たちは、会社[かいしゃ]の対応[たいおう]の遅[おく]れを厳[きび]しく追及[ついきゅう]した。",
+     "vi": "Các phóng viên truy hỏi gắt gao sự chậm trễ trong xử lý của công ty.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：誰[だれ]がミスしたか、追及[ついきゅう]しないんですか。B：犯人[はんにん]探[さが]しをすると、みんな隠[かく]すようになるからね。仕組[しく]みを直[なお]そう。",
+     "vi": "A: Không truy xem ai mắc lỗi ạ? B: Đi tìm thủ phạm thì mọi người sẽ đâm ra che giấu. Sửa cơ chế đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "責任[せきにん]を追及[ついきゅう]する",
+     "vi": "truy cứu trách nhiệm"
+    },
+    {
+     "jp": "厳[きび]しく追及[ついきゅう]する",
+     "vi": "truy hỏi gắt gao"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "追求[ついきゅう]",
+     "vi": "theo đuổi (lợi nhuận, hạnh phúc)"
+    },
+    {
+     "w": "追究[ついきゅう]",
+     "vi": "nghiên cứu đến cùng (chân lý)"
+    }
+   ],
+   "rel": [
+    "v:究明:きゅうめい"
+   ],
+   "note": "Ba từ đồng âm ついきゅう: 追及[ついきゅう] = truy (trách nhiệm, lỗi của người), 追求[ついきゅう] = theo đuổi (利益[りえき] / 幸福[こうふく]を追求[ついきゅう]する), 追究[ついきゅう] = tìm tòi đến cùng (真理[しんり]を追究[ついきゅう]する)."
+  },
+  {
+   "id": "v:発覚:はっかく",
+   "kana": "はっかく",
+   "kanji": "発覚",
+   "hv": "PHÁT GIÁC",
+   "vi": "(việc xấu) bị phát giác, lộ ra",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xử lý sự cố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "検査[けんさ]記録[きろく]の書[か]き換[か]えが発覚[はっかく]し、取引[とりひき]が停止[ていし]された。",
+     "vi": "Việc sửa đổi hồ sơ kiểm tra bị phát giác, giao dịch đã bị đình chỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "嘘[うそ]が発覚[はっかく]して、彼[かれ]は信用[しんよう]を失[うしな]った。",
+     "vi": "Lời nói dối bị lộ, anh ta mất hết uy tín.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：小[ちい]さなミスでも、隠[かく]していたことが後[あと]で発覚[はっかく]すると大[だい]問題[もんだい]になるよ。B：はい。何[なに]かあったら、すぐ報告[ほうこく]します。",
+     "vi": "A: Dù lỗi nhỏ, nếu sau này lộ ra là đã che giấu thì thành chuyện lớn đấy. B: Vâng. Có gì tôi sẽ báo cáo ngay.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "不正[ふせい]が発覚[はっかく]する",
+     "vi": "gian lận bị phát giác"
+    },
+    {
+     "jp": "ミスが発覚[はっかく]する",
+     "vi": "lỗi bị lộ"
+    }
+   ],
+   "confuse": [
+    "v:露見:ろけん",
+    "v:判明:はんめい"
+   ],
+   "note": "発覚[はっかく] = điều xấu được giấu kín bị lộ ra (不正[ふせい] / 偽装[ぎそう] / 隠蔽[いんぺい]が発覚[はっかく]する). Không dùng cho phát hiện tốt (dùng 発見[はっけん]). 判明[はんめい] = trở nên rõ ràng (trung tính)."
+  },
+  {
+   "id": "v:露見:ろけん",
+   "kana": "ろけん",
+   "kanji": "露見",
+   "hv": "LỘ KIẾN",
+   "vi": "bại lộ (điều giấu kín)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xử lý sự cố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "産地[さんち]を偽[いつわ]っていたことが露見[ろけん]し、店[みせ]は営業[えいぎょう]停止[ていし]になった。",
+     "vi": "Việc gian dối xuất xứ bị bại lộ, cửa hàng bị đình chỉ kinh doanh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "隠[かく]し事[ごと]は、いつか必[かなら]ず露見[ろけん]するものだ。",
+     "vi": "Chuyện giấu giếm rồi một ngày chắc chắn sẽ bại lộ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "秘密[ひみつ]が露見[ろけん]する",
+     "vi": "bí mật bại lộ"
+    },
+    {
+     "jp": "悪事[あくじ]が露見[ろけん]する",
+     "vi": "việc xấu bị lộ"
+    }
+   ],
+   "confuse": [
+    "v:発覚:はっかく"
+   ],
+   "rel": [
+    "v:明るみ:あかるみ"
+   ],
+   "note": "露見[ろけん] = điều giấu kín bị lộ ra ngoài (văn viết; gần nghĩa 発覚[はっかく], sắc thái cổ hơn). Cũng viết 露顕[ろけん]."
+  },
+  {
+   "id": "v:明るみ:あかるみ",
+   "kana": "あかるみ",
+   "kanji": "明るみ",
+   "kf": "明[あか]るみ",
+   "hv": "MINH",
+   "vi": "chỗ sáng; (đưa) ra ánh sáng (cho mọi người biết)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xử lý sự cố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "内部[ないぶ]からの通報[つうほう]で、長年[ながねん]の不正[ふせい]が明[あか]るみに出[で]た。",
+     "vi": "Nhờ tố giác từ nội bộ, gian lận nhiều năm đã bị đưa ra ánh sáng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "隠[かく]していた借金[しゃっきん]が、一通[いっつう]の手紙[てがみ]で明[あか]るみになった。",
+     "vi": "Khoản nợ giấu giếm bị lộ chỉ vì một lá thư.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "明[あか]るみに出[で]る",
+     "vi": "bị đưa ra ánh sáng"
+    },
+    {
+     "jp": "明[あか]るみに出[だ]す",
+     "vi": "phơi bày"
+    }
+   ],
+   "rel": [
+    "v:発覚:はっかく",
+    "v:露見:ろけん"
+   ],
+   "note": "Hầu như dùng: 明[あか]るみに出[で]る / 明[あか]るみになる = (sự thật bị giấu) được công khai. Nghĩa gốc: chỗ sáng sủa."
+  },
+  {
+   "id": "v:隠蔽:いんぺい",
+   "kana": "いんぺい",
+   "kanji": "隠蔽",
+   "hv": "ẨN TẾ",
+   "vi": "che đậy, ém nhẹm (sự thật bất lợi)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xử lý sự cố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事故[じこ]を隠蔽[いんぺい]しようとしたことが、かえって会社[かいしゃ]の信用[しんよう]を落[お]とした。",
+     "vi": "Việc cố che giấu tai nạn lại càng làm mất uy tín công ty.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "都合[つごう]の悪[わる]い事実[じじつ]を隠蔽[いんぺい]しても、いずれは明[あか]るみに出[で]る。",
+     "vi": "Che đậy sự thật bất lợi thì sớm muộn cũng bị đưa ra ánh sáng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このミス、黙[だま]っていればわからないよね。B：それは隠蔽[いんぺい]だよ。ばれたら、ただではすまされないよ。",
+     "vi": "A: Lỗi này im lặng thì không ai biết nhỉ. B: Thế là che giấu đấy. Lộ ra thì không thể cho qua đâu.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事実[じじつ]を隠蔽[いんぺい]する",
+     "vi": "che giấu sự thật"
+    },
+    {
+     "jp": "証拠[しょうこ]を隠蔽[いんぺい]する",
+     "vi": "phi tang chứng cứ"
+    }
+   ],
+   "rel": [
+    "v:隠す:かくす",
+    "v:発覚:はっかく"
+   ],
+   "note": "隠蔽[いんぺい] = cố tình che đậy điều bất lợi (隠蔽[いんぺい]工作[こうさく] = hành vi che đậy, 隠蔽[いんぺい]体質[たいしつ] = văn hóa che giấu của tổ chức). Báo chí hay viết 隠[いん]ぺい. 隠[かく]す = giấu (thường)."
+  },
+  {
+   "id": "v:収拾:しゅうしゅう",
+   "kana": "しゅうしゅう",
+   "kanji": "収拾",
+   "hv": "THU THẬP",
+   "vi": "dàn xếp, vãn hồi (tình hình rối ren)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xử lý sự cố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "現場[げんば]が混乱[こんらん]し、事態[じたい]の収拾[しゅうしゅう]に半日[はんにち]かかった。",
+     "vi": "Hiện trường hỗn loạn, mất nửa ngày mới vãn hồi được tình hình.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子[こ]どもたちのけんかが収拾[しゅうしゅう]がつかなくなり、先生[せんせい]が止[と]めに入[はい]った。",
+     "vi": "Trận cãi nhau của bọn trẻ không dàn xếp nổi, giáo viên phải vào can.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：お客様[きゃくさま]が怒[おこ]って、話[はなし]が収拾[しゅうしゅう]つかないんです。B：わかった。私[わたし]が代[か]わるよ。",
+     "vi": "A: Khách nổi giận, câu chuyện không dàn xếp nổi ạ. B: Được rồi. Để tôi thay.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事態[じたい]を収拾[しゅうしゅう]する",
+     "vi": "dàn xếp tình hình"
+    },
+    {
+     "jp": "混乱[こんらん]を収拾[しゅうしゅう]する",
+     "vi": "vãn hồi trật tự"
+    }
+   ],
+   "confuse": [
+    "v:収束:しゅうそく",
+    {
+     "w": "収集[しゅうしゅう]",
+     "vi": "thu thập (đồng âm)"
+    }
+   ],
+   "note": "収拾[しゅうしゅう] = thu xếp cho tình hình rối loạn trở lại trật tự (収拾[しゅうしゅう]がつかない = rối không gỡ nổi). Đồng âm 収集[しゅうしゅう] = thu thập (情報[じょうほう]収集[しゅうしゅう], ゴミ収集[しゅうしゅう]). 収束[しゅうそく] = (sự việc, dịch bệnh) lắng xuống, kết thúc."
+  },
+  {
+   "id": "v:沈静化:ちんせいか",
+   "kana": "ちんせいか",
+   "kanji": "沈静化",
+   "hv": "TRẦM TĨNH HÓA",
+   "vi": "lắng dịu, lắng xuống (tình hình, dư luận, giá cả)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xử lý sự cố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]が謝罪[しゃざい]したことで、批判[ひはん]はようやく沈静[ちんせい]化[か]した。",
+     "vi": "Nhờ giám đốc xin lỗi, chỉ trích cuối cùng cũng lắng xuống.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一時[いちじ]高騰[こうとう]した野菜[やさい]の値段[ねだん]も、最近[さいきん]は沈静[ちんせい]化[か]してきた。",
+     "vi": "Giá rau từng tăng vọt một thời, dạo này cũng đã dịu xuống.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "騒[さわ]ぎが沈静[ちんせい]化[か]する",
+     "vi": "vụ ồn ào lắng xuống"
+    },
+    {
+     "jp": "物価[ぶっか]が沈静[ちんせい]化[か]する",
+     "vi": "vật giá dịu xuống"
+    }
+   ],
+   "rel": [
+    "v:収束:しゅうそく"
+   ],
+   "note": "沈静[ちんせい]化[か] = trạng thái sôi sục lắng xuống (騒[さわ]ぎ / 批判[ひはん] / 物価[ぶっか]が沈静[ちんせい]化[か]する). Khi chủ động làm dịu thì viết 鎮静[ちんせい]化[か]; 鎮静剤[ちんせいざい] = thuốc an thần."
+  },
+  {
+   "id": "v:善処:ぜんしょ",
+   "kana": "ぜんしょ",
+   "kanji": "善処",
+   "hv": "THIỆN XỬ",
+   "vi": "xử lý thỏa đáng (lời hứa trang trọng)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xử lý sự cố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ご指摘[してき]の件[けん]については、早急[さっきゅう]に善処[ぜんしょ]いたします。",
+     "vi": "Về việc quý khách đã chỉ ra, chúng tôi sẽ sớm xử lý thỏa đáng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "住民[じゅうみん]の要望[ようぼう]に対[たい]し、市[し]は「善処[ぜんしょ]します」と答[こた]えた。",
+     "vi": "Trước nguyện vọng của cư dân, thành phố trả lời \"sẽ xem xét xử lý thỏa đáng\".",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：「善処[ぜんしょ]します」って言[い]われたけど、本当[ほんとう]にやってくれるのかな。B：便利[べんり]な言葉[ことば]だからね。いつまでにやるのか、確認[かくにん]したほうがいいよ。",
+     "vi": "A: Họ bảo \"sẽ xử lý thỏa đáng\", liệu có làm thật không nhỉ. B: Từ đó tiện lắm mà. Nên xác nhận đến khi nào họ làm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "前向[まえむ]きに善処[ぜんしょ]する",
+     "vi": "xử lý theo hướng tích cực"
+    },
+    {
+     "jp": "早急[さっきゅう]に善処[ぜんしょ]する",
+     "vi": "sớm xử lý thỏa đáng"
+    }
+   ],
+   "rel": [
+    "v:対処:たいしょ",
+    "v:処置:しょち"
+   ],
+   "note": "善処[ぜんしょ] = xử lý cho thỏa đáng (lời hứa trang trọng: 善処[ぜんしょ]いたします). Lưu ý: ở cơ quan, công ty có khi là cách nói né, không cam kết cụ thể."
+  },
+  {
+   "id": "v:リコール:リコール",
+   "kana": "リコール",
+   "kanji": "",
+   "hv": "",
+   "vi": "thu hồi sản phẩm lỗi (do nhà sản xuất)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xử lý sự cố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ブレーキの不具合[ふぐあい]で、メーカーが同[おな]じ型[かた]の車[くるま]をリコールした。",
+     "vi": "Do trục trặc phanh, hãng đã thu hồi các xe cùng mẫu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "金属片[きんぞくへん]が混入[こんにゅう]したおそれがあり、商品[しょうひん]のリコールを決[き]めた。",
+     "vi": "Do có nguy cơ lẫn mảnh kim loại, đã quyết định thu hồi sản phẩm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：リコールになったら、費用[ひよう]はどのくらいかかるんですか。B：回収[かいしゅう]の費用[ひよう]だけじゃなく、信用[しんよう]を失[うしな]うのが一番[いちばん]大[おお]きいよ。だから毎日[まいにち]の検査[けんさ]が大切[たいせつ]なんだ。",
+     "vi": "A: Nếu phải thu hồi thì tốn bao nhiêu ạ? B: Không chỉ chi phí thu hồi, mất uy tín mới là lớn nhất. Vì thế kiểm tra hằng ngày mới quan trọng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "製品[せいひん]をリコールする",
+     "vi": "thu hồi sản phẩm"
+    }
+   ],
+   "confuse": [
+    "v:回収:かいしゅう"
+   ],
+   "rel": [
+    {
+     "w": "自主[じしゅ]回収[かいしゅう]",
+     "vi": "tự nguyện thu hồi"
+    }
+   ],
+   "goc": "recall (tiếng Anh: gọi về, thu hồi)",
+   "note": "リコール = nhà sản xuất thu hồi, sửa chữa sản phẩm lỗi (xe, đồ điện). Thực phẩm thường nói 自主回収[じしゅかいしゅう]."
+  },
+  {
+   "id": "v:顛末:てんまつ",
+   "kana": "てんまつ",
+   "kanji": "顛末",
+   "hv": "ĐIÊN MẠT",
+   "vi": "toàn bộ diễn biến (một sự cố, từ đầu đến kết thúc)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xử lý sự cố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事故[じこ]の顛末[てんまつ]を、報告書[ほうこくしょ]にまとめて提出[ていしゅつ]した。",
+     "vi": "Đã tổng hợp đầu đuôi vụ tai nạn vào báo cáo và nộp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "引[ひ]っ越[こ]しの日[ひ]の大騒[おおさわ]ぎの顛末[てんまつ]を友達[ともだち]に話[はな]したら、大笑[おおわら]いされた。",
+     "vi": "Kể cho bạn nghe đầu đuôi vụ náo loạn hôm chuyển nhà, bị bạn cười cho một trận.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "事[こと]の顛末[てんまつ]",
+     "vi": "đầu đuôi sự việc"
+    },
+    {
+     "jp": "顛末[てんまつ]を報告[ほうこく]する",
+     "vi": "báo cáo đầu đuôi"
+    }
+   ],
+   "rel": [
+    "v:経緯:けいい",
+    "v:始末書:しまつしょ"
+   ],
+   "note": "顛末[てんまつ] = toàn bộ diễn biến từ lúc bắt đầu đến khi kết thúc (thường là chuyện rắc rối). 顛末書[てんまつしょ] = bản tường trình sự cố. 経緯[けいい] = quá trình, diễn biến (dẫn đến hiện tại)."
+  },
+  {
+   "id": "v:後始末:あとしまつ",
+   "kana": "あとしまつ",
+   "kanji": "後始末",
+   "hv": "HẬU THỦY MẠT",
+   "vi": "dọn dẹp sau cùng; giải quyết hậu quả",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Xử lý sự cố",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "作業[さぎょう]が終[お]わったら、道具[どうぐ]の後始末[あとしまつ]まできちんとすること。",
+     "vi": "Xong việc thì phải dọn dẹp dụng cụ đâu ra đấy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "キャンプの後[あと]は、火[ひ]の後始末[あとしまつ]を忘[わす]れずに。",
+     "vi": "Sau khi cắm trại, đừng quên dập lửa cho tắt hẳn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今回[こんかい]のトラブルの後始末[あとしまつ]は、誰[だれ]がやるんですか。B：起[お]こした部署[ぶしょ]が、責任[せきにん]を持[も]ってやることになったよ。",
+     "vi": "A: Giải quyết hậu quả sự cố lần này ai làm ạ? B: Đã quyết bộ phận gây ra phải chịu trách nhiệm làm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "火[ひ]の後始末[あとしまつ]をする",
+     "vi": "dập lửa cho tắt hẳn"
+    },
+    {
+     "jp": "事故[じこ]の後始末[あとしまつ]をする",
+     "vi": "giải quyết hậu quả tai nạn"
+    }
+   ],
+   "rel": [
+    "v:尻拭い:しりぬぐい"
+   ],
+   "note": "後始末[あとしまつ] = dọn dẹp sau khi xong việc (火[ひ]の後始末[あとしまつ] = dập lửa cho tắt hẳn) hoặc giải quyết hậu quả. 尻拭[しりぬぐ]い = gánh hậu quả cho người khác."
+  }
+ ]
+}

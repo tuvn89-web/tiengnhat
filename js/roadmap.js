@@ -11,7 +11,7 @@ import { mixedDue } from './practice.js';
 import { allLessons, lessonsOf, currentLesson, lessonCardHTML, lessonListHTML, lessonRowsOf, lessonState, dueReviews, reviewDue, isDone, STEPS } from './lesson.js';
 import { slotHTML, lazyDetails, bindLazy, fillSlots, appendChunks } from './lazy.js';
 
-export const GOALS = [['N5', 'N5'], ['N4', 'N4'], ['N3', 'N3 · 特定技能2号'], ['N2', 'N2']];
+export const GOALS = [['N5', 'N5'], ['N4', 'N4'], ['N3', 'N3 · 特定技能2号'], ['N2', 'N2'], ['N1', 'N1']];
 const START = [['zero', 'Chưa biết chữ nào'], ['kana', 'Đã biết kana'], ['n5', 'Khoảng N5'], ['n4', 'Khoảng N4']];
 // Nhịp học (v22): số phút mỗi ngày tự nhập (5–180). Từ mới / chữ Hán mỗi ngày: tự nhập, hoặc tự động theo số phút.
 // Đây là MỤC TIÊU cho Kế hoạch hôm nay, không phải giới hạn — học thêm lúc nào cũng được.
@@ -191,7 +191,7 @@ export function renderRoadmap(view, ctx) {
     </section>`;
   // chặng đang học lên đầu, rồi các chặng tiếp theo; chặng đã qua xuống cuối.
   // Chặng đầu tiên (đang học) dựng ngay; các chặng còn lại là chỗ trống điền dần.
-  const shown = st.slice(0, 4).map((x, i) => [x, i]);
+  const shown = st.map((x, i) => [x, i]);
   const open = shown.filter(([x]) => !x.passed), done = shown.filter(([x]) => x.passed);
   const slots = {};
   const later = ([x, i]) => { slots['st-' + x.L] = () => stage(x, i); return slotHTML('st-' + x.L, `Đang tải chặng ${x.L}…`, 180); };
@@ -205,7 +205,7 @@ export function renderRoadmap(view, ctx) {
     <div class="row-btns wrap"><a class="btn btn-ghost btn-sm" href="#/noiduoc">Nói được gì</a><a class="btn btn-ghost btn-sm" href="#/doc">Hội thoại & bài đọc</a></div>
     ${top}
     ${bottom ? `<h2 class="h2 stage-sep">Chặng đã qua</h2>${bottom}` : ''}
-    <p class="small muted">Chặng N1 sẽ thêm khi kho dữ liệu làm đến N1. <a href="#/huongdan">Xem bài hướng dẫn học theo từng cấp</a>.</p>`;
+    <p class="small muted"><a href="#/huongdan">Xem bài hướng dẫn học theo từng cấp</a>.</p>`;
   const go = bindLazy(view, lazy);
   fillSlots(view, slots, { lazy: go });
   view.addEventListener('click', async e => {

@@ -1,0 +1,1740 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n1-03",
+  "title": "JLPT N1 03 – Tình hình kinh doanh & kiểm tra toàn diện",
+  "type": "vocab",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:不振:ふしん",
+   "kana": "ふしん",
+   "kanji": "不振",
+   "hv": "BẤT CHẤN",
+   "vi": "làm ăn kém, ế ẩm (kinh doanh, phong độ)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tình hình kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "主力[しゅりょく]商品[しょうひん]の売[う]れ行[ゆ]き不振[ふしん]で、会社[かいしゃ]の業績[ぎょうせき]が悪化[あっか]した。",
+     "vi": "Vì mặt hàng chủ lực bán ế, kết quả kinh doanh của công ty xấu đi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "夏[なつ]バテで、食欲[しょくよく]不振[ふしん]が続[つづ]いている。",
+     "vi": "Do mệt mỏi vì nóng, tôi chán ăn suốt.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:低迷:ていめい",
+    "v:不調:ふちょう"
+   ],
+   "note": "業績不振[ぎょうせきふしん] = làm ăn sa sút; 販売不振[はんばいふしん] = bán ế; 食欲不振[しょくよくふしん] = chán ăn. 不振[ふしん] = kết quả kém (hay đứng sau danh từ). 低迷[ていめい] = trì trệ kéo dài ở mức thấp."
+  },
+  {
+   "id": "v:不況:ふきょう",
+   "kana": "ふきょう",
+   "kanji": "不況",
+   "hv": "BẤT HUỐNG",
+   "vi": "suy thoái kinh tế",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tình hình kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不況[ふきょう]が長引[ながび]き、地元[じもと]の工場[こうじょう]が次々[つぎつぎ]に閉鎖[へいさ]された。",
+     "vi": "Suy thoái kéo dài, các xưởng ở địa phương lần lượt đóng cửa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "不況[ふきょう]のときこそ、品質[ひんしつ]で勝負[しょうぶ]しなければならない。",
+     "vi": "Chính lúc suy thoái càng phải cạnh tranh bằng chất lượng.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:好況:こうきょう"
+   ],
+   "syn": [
+    "v:不景気:ふけいき"
+   ],
+   "note": "不況[ふきょう] = văn viết, tin tức; 不景気[ふけいき] = nói thường. 不況[ふきょう]に強[つよ]い = trụ vững khi suy thoái."
+  },
+  {
+   "id": "v:好況:こうきょう",
+   "kana": "こうきょう",
+   "kanji": "好況",
+   "hv": "HẢO HUỐNG",
+   "vi": "kinh tế phồn thịnh (thời làm ăn thuận lợi)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tình hình kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "好況[こうきょう]が続[つづ]き、どの会社[かいしゃ]も人手不足[ひとでふそく]に悩[なや]んでいる。",
+     "vi": "Kinh tế phồn thịnh kéo dài, công ty nào cũng khổ vì thiếu người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "好況[こうきょう]の時期[じき]にこそ、将来[しょうらい]に備[そな]えて貯金[ちょきん]しておくべきだ。",
+     "vi": "Chính thời kinh tế tốt mới nên tiết kiệm phòng tương lai.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:不況:ふきょう"
+   ],
+   "syn": [
+    "v:好景気:こうけいき"
+   ],
+   "note": "Văn viết; nói thường: 好景気[こうけいき]."
+  },
+  {
+   "id": "v:減益:げんえき",
+   "kana": "げんえき",
+   "kanji": "減益",
+   "hv": "GIẢM ÍCH",
+   "vi": "lợi nhuận giảm (so với kỳ trước)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tình hình kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "原料高[げんりょうだか]の影響[えいきょう]で、今期[こんき]は大幅[おおはば]な減益[げんえき]となった。",
+     "vi": "Do giá nguyên liệu cao, kỳ này lợi nhuận giảm mạnh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "株[かぶ]を持[も]っている会社[かいしゃ]が減益[げんえき]を発表[はっぴょう]して、株価[かぶか]が下[さ]がった。",
+     "vi": "Công ty tôi có cổ phiếu công bố lợi nhuận giảm, giá cổ phiếu tụt xuống.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "増益[ぞうえき]",
+     "vi": "lợi nhuận tăng"
+    }
+   ],
+   "rel": [
+    "v:収益:しゅうえき"
+   ],
+   "note": "Báo cáo tài chính: 増収減益[ぞうしゅうげんえき] = doanh thu tăng, lợi nhuận giảm. 減収[げんしゅう] = doanh thu giảm."
+  },
+  {
+   "id": "v:先行き:さきゆき",
+   "kana": "さきゆき",
+   "kanji": "先行き",
+   "kf": "先行[さきゆ]き",
+   "hv": "TIÊN HÀNH",
+   "vi": "chiều hướng sắp tới, triển vọng (tình hình)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tình hình kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "景気[けいき]の先行[さきゆ]きが不透明[ふとうめい]で、設備[せつび]投資[とうし]を控[ひか]える会社[かいしゃ]が多[おお]い。",
+     "vi": "Triển vọng kinh tế mờ mịt, nhiều công ty hạn chế đầu tư thiết bị.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "物価[ぶっか]が上[あ]がり続[つづ]けて、生活[せいかつ]の先行[さきゆ]きが不安[ふあん]だ。",
+     "vi": "Vật giá cứ tăng, tôi lo cho cuộc sống những ngày tới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この工場[こうじょう]、先行[さきゆ]きはどうなんでしょうか。B：受注[じゅちゅう]は安定[あんてい]しているから、心配[しんぱい]いらないよ。",
+     "vi": "A: Tương lai xưởng này thế nào ạ? B: Đơn hàng ổn định nên không phải lo đâu.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:見通し:みとおし"
+   ],
+   "note": "Cũng đọc さきいき. 先行[さきゆ]き不透明[ふとうめい] = triển vọng mờ mịt (tin tức rất hay dùng). 見通[みとお]し = dự báo có tính toán; 先行[さきゆ]き = chiều hướng sắp tới (hay đi với 不安[ふあん], 不透明[ふとうめい])."
+  },
+  {
+   "id": "v:動向:どうこう",
+   "kana": "どうこう",
+   "kanji": "動向",
+   "hv": "ĐỘNG HƯỚNG",
+   "vi": "động thái, diễn biến (thị trường, sự việc)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tình hình kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "為替[かわせ]の動向[どうこう]を見[み]ながら、輸入[ゆにゅう]の量[りょう]を決[き]める。",
+     "vi": "Vừa theo dõi diễn biến tỷ giá vừa quyết định lượng nhập khẩu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台風[たいふう]の動向[どうこう]に注意[ちゅうい]して、旅行[りょこう]の予定[よてい]を決[き]めよう。",
+     "vi": "Hãy để ý đường đi của bão rồi quyết định lịch du lịch.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:傾向:けいこう"
+   ],
+   "note": "動向[どうこう] = chuyển động, diễn biến đang xảy ra (thị trường, đối thủ, bão). 傾向[けいこう] = khuynh hướng nghiêng về một phía. 市場動向[しじょうどうこう] = diễn biến thị trường."
+  },
+  {
+   "id": "v:現状:げんじょう",
+   "kana": "げんじょう",
+   "kanji": "現状",
+   "hv": "HIỆN TRẠNG",
+   "vi": "hiện trạng, tình trạng hiện nay",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tình hình kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "まずは現状[げんじょう]を正確[せいかく]に把握[はあく]することが大切[たいせつ]だ。",
+     "vi": "Trước hết quan trọng là nắm chính xác hiện trạng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "給料[きゅうりょう]は上[あ]がらないのに物価[ぶっか]は上[あ]がる、これが多[おお]くの家庭[かてい]の現状[げんじょう]だ。",
+     "vi": "Lương không tăng mà vật giá thì tăng, đó là hiện trạng của nhiều gia đình.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:状況:じょうきょう"
+   ],
+   "note": "現状維持[げんじょういじ] = giữ nguyên hiện trạng. 現状[げんじょう]では = ở thời điểm hiện tại."
+  },
+  {
+   "id": "v:堅調:けんちょう",
+   "kana": "けんちょう",
+   "kanji": "堅調",
+   "hv": "KIÊN ĐIỀU",
+   "vi": "vững giá, đi lên đều (doanh số, thị trường)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tình hình kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "海外[かいがい]向[む]けの冷凍[れいとう]ホタテの売[う]れ行[ゆ]きは、堅調[けんちょう]に推移[すいい]している。",
+     "vi": "Sức bán sò điệp đông lạnh hướng ra nước ngoài đang diễn biến ổn định.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "株価[かぶか]は、今週[こんしゅう]も堅調[けんちょう]だった。",
+     "vi": "Giá cổ phiếu tuần này cũng vững.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今月[こんげつ]の受注[じゅちゅう]、どうですか。B：堅調[けんちょう]だよ。去年[きょねん]と同[おな]じくらいの数字[すうじ]は出[で]ている。",
+     "vi": "A: Đơn hàng tháng này thế nào ạ? B: Ổn định đấy. Số liệu ngang năm ngoái.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "売[う]れ行[ゆ]き",
+     "vi": "sức bán"
+    },
+    {
+     "jp": "株価[かぶか]",
+     "vi": "giá cổ phiếu"
+    }
+   ],
+   "ant": [
+    {
+     "w": "軟調[なんちょう]",
+     "vi": "yếu, đi xuống (thị trường)"
+    }
+   ],
+   "confuse": [
+    "v:好調:こうちょう"
+   ],
+   "note": "Từ ngữ kinh tế. 堅調[けんちょう] = vững, không tăng vọt nhưng không giảm. 好調[こうちょう] = đang rất tốt."
+  },
+  {
+   "id": "v:頭打ち:あたまうち",
+   "kana": "あたまうち",
+   "kanji": "頭打ち",
+   "kf": "頭打[あたまう]ち",
+   "hv": "ĐẦU ĐẢ",
+   "vi": "chạm trần (không tăng thêm được)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tình hình kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "国内[こくない]の売上[うりあげ]は頭打[あたまう]ちで、海外[かいがい]に活路[かつろ]を求[もと]めるしかない。",
+     "vi": "Doanh thu trong nước đã chạm trần, chỉ còn cách tìm lối ra ở nước ngoài.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "給料[きゅうりょう]が頭打[あたまう]ちになって、転職[てんしょく]を考[かんが]え始[はじ]めた。",
+     "vi": "Lương chạm trần không tăng nữa nên tôi bắt đầu nghĩ đến chuyện chuyển việc.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:伸び悩む:のびなやむ",
+    "v:横ばい:よこばい"
+   ],
+   "note": "頭打[あたまう]ちになる = chạm trần. 横[よこ]ばい = đi ngang (không tăng không giảm); 頭打[あたまう]ち = đã lên đến giới hạn, không tăng được nữa."
+  },
+  {
+   "id": "v:先細り:さきぼそり",
+   "kana": "さきぼそり",
+   "kanji": "先細り",
+   "kf": "先細[さきぼそ]り",
+   "hv": "TIÊN TẾ",
+   "vi": "teo dần, ngày càng thu hẹp",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tình hình kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人口[じんこう]が減[へ]って、地元[じもと]の市場[しじょう]は先細[さきぼそ]りしている。",
+     "vi": "Dân số giảm nên thị trường địa phương ngày càng thu hẹp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "漁獲量[ぎょかくりょう]が減[へ]り、業界[ぎょうかい]の先細[さきぼそ]りが心配[しんぱい]されている。",
+     "vi": "Sản lượng đánh bắt giảm, người ta lo ngành sẽ teo dần.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "需要[じゅよう]が先細[さきぼそ]りする",
+     "vi": "nhu cầu teo dần"
+    }
+   ],
+   "note": "Nghĩa gốc: đầu nhọn dần. Thường nói về thị trường, nhu cầu, thu nhập."
+  },
+  {
+   "id": "v:軒並み:のきなみ",
+   "kana": "のきなみ",
+   "kanji": "軒並み",
+   "kf": "軒並[のきな]み",
+   "hv": "HIÊN TỊNH",
+   "vi": "nhất loạt, hầu như tất cả đều",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tình hình kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "原料高[げんりょうだか]で、食品[しょくひん]の値段[ねだん]が軒並[のきな]み上[あ]がっている。",
+     "vi": "Do giá nguyên liệu cao, giá thực phẩm nhất loạt tăng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "台風[たいふう]の影響[えいきょう]で、近[ちか]くの港[みなと]の水揚[みずあ]げが軒並[のきな]み減[へ]った。",
+     "vi": "Do bão, lượng cá cập các cảng gần đây đều giảm.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:一斉:いっせい"
+   ],
+   "note": "Nghĩa gốc (danh từ): dãy nhà nối mái. Phó từ: hầu như tất cả đều (tăng, giảm, đóng cửa). 一斉[いっせい]に = cùng một lúc."
+  },
+  {
+   "id": "v:盛り返す:もりかえす",
+   "kana": "もりかえす",
+   "kanji": "盛り返す",
+   "kf": "盛[も]り返[かえ]す",
+   "hv": "THỊNH PHẢN",
+   "vi": "lấy lại đà, vực lại thế (sau khi sa sút)",
+   "pos": "v5",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tình hình kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一時[いちじ]は赤字[あかじ]だったが、新商品[しんしょうひん]のヒットで盛[も]り返[かえ]した。",
+     "vi": "Có lúc lỗ nhưng nhờ sản phẩm mới ăn khách mà đã lấy lại đà.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "後半[こうはん]に入[はい]って、相手[あいて]チームが一気[いっき]に盛[も]り返[かえ]してきた。",
+     "vi": "Sang hiệp hai, đội đối phương lấy lại thế trận một mạch.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、駅前[えきまえ]の商店街[しょうてんがい]、少[すこ]し盛[も]り返[かえ]してきたね。B：うん、若[わか]い人[ひと]向[む]けの店[みせ]が増[ふ]えたからね。",
+     "vi": "A: Dạo này khu phố buôn bán trước ga đông vui trở lại nhỉ. B: Ừ, vì quán dành cho người trẻ nhiều lên.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "勢[いきお]いを盛[も]り返[かえ]す",
+     "vi": "lấy lại khí thế"
+    }
+   ],
+   "confuse": [
+    "v:持ち直す:もちなおす"
+   ],
+   "note": "盛[も]り返[かえ]す = vực lại thế mạnh (cạnh tranh, khí thế). 持[も]ち直[なお]す = hồi lại (tình hình, sức khỏe, thời tiết) sau khi xấu đi."
+  },
+  {
+   "id": "v:規模:きぼ",
+   "kana": "きぼ",
+   "kanji": "規模",
+   "hv": "QUY MÔ",
+   "vi": "quy mô",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tình hình kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]の規模[きぼ]を縮小[しゅくしょう]して、経費[けいひ]を減[へ]らした。",
+     "vi": "Thu hẹp quy mô xưởng để giảm chi phí.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地震[じしん]の規模[きぼ]を示[しめ]す数字[すうじ]を、マグニチュードという。",
+     "vi": "Con số biểu thị quy mô động đất gọi là độ Richter (magnitude).",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:縮小:しゅくしょう"
+   ],
+   "note": "大規模[だいきぼ] = quy mô lớn; 小規模[しょうきぼ] = quy mô nhỏ. 規模[きぼ]を拡大[かくだい] / 縮小[しゅくしょう]する = mở rộng / thu hẹp quy mô."
+  },
+  {
+   "id": "v:危機:きき",
+   "kana": "きき",
+   "kanji": "危機",
+   "hv": "NGUY CƠ",
+   "vi": "khủng hoảng, nguy cơ (cơn nguy kịch)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]は今[いま]、倒産[とうさん]の危機[きき]に直面[ちょくめん]している。",
+     "vi": "Công ty hiện đang đối mặt nguy cơ phá sản.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "多[おお]くの生[い]き物[もの]が、絶滅[ぜつめつ]の危機[きき]にある。",
+     "vi": "Nhiều loài sinh vật đang đứng trước nguy cơ tuyệt chủng.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:危険:きけん"
+   ],
+   "note": "危機感[ききかん] = ý thức về nguy cơ. 危機一髪[ききいっぱつ] = ngàn cân treo sợi tóc. 危機[きき]を乗[の]り越[こ]える = vượt qua khủng hoảng."
+  },
+  {
+   "id": "v:窮地:きゅうち",
+   "kana": "きゅうち",
+   "kanji": "窮地",
+   "hv": "CÙNG ĐỊA",
+   "vi": "thế bí, đường cùng",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大口[おおぐち]の取引先[とりひきさき]を失[うしな]い、会社[かいしゃ]は窮地[きゅうち]に立[た]たされた。",
+     "vi": "Mất đối tác lớn, công ty bị dồn vào thế bí.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "窮地[きゅうち]に陥[おちい]ったとき、友人[ゆうじん]が助[たす]けてくれた。",
+     "vi": "Khi tôi lâm vào thế bí, bạn bè đã giúp.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:苦境:くきょう"
+   ],
+   "note": "窮地[きゅうち]に陥[おちい]る = lâm vào thế bí. 窮地[きゅうち]を脱[だっ]する = thoát thế bí. 窮地[きゅうち] = bị dồn tới đường cùng; 苦境[くきょう] = hoàn cảnh khó khăn, vất vả kéo dài."
+  },
+  {
+   "id": "v:苦境:くきょう",
+   "kana": "くきょう",
+   "kanji": "苦境",
+   "hv": "KHỔ CẢNH",
+   "vi": "cảnh khốn khó, nghịch cảnh",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "燃料費[ねんりょうひ]の高騰[こうとう]で、漁業者[ぎょぎょうしゃ]は苦境[くきょう]に立[た]たされている。",
+     "vi": "Do giá nhiên liệu tăng vọt, ngư dân đang lâm vào cảnh khốn khó.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "彼[かれ]は苦境[くきょう]にあっても、決[けっ]して弱音[よわね]を吐[は]かなかった。",
+     "vi": "Dù trong nghịch cảnh, anh ấy chưa bao giờ than thở.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:窮地:きゅうち"
+   ],
+   "rel": [
+    "v:試練:しれん"
+   ],
+   "note": "苦境[くきょう]に立[た]つ = rơi vào cảnh khó. 苦境[くきょう]を乗[の]り切[き]る = vượt qua cảnh khó."
+  },
+  {
+   "id": "v:存続:そんぞく",
+   "kana": "そんぞく",
+   "kanji": "存続",
+   "hv": "TỒN TỤC",
+   "vi": "tiếp tục tồn tại (tổ chức, chế độ)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]が存続[そんぞく]するためには、新[あたら]しい事業[じぎょう]が必要[ひつよう]だ。",
+     "vi": "Để công ty tiếp tục tồn tại, cần có mảng kinh doanh mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "利用者[りようしゃ]が減[へ]り、このローカル線[せん]の存続[そんぞく]が危[あや]ぶまれている。",
+     "vi": "Người đi giảm, sự tồn tại của tuyến đường sắt địa phương này đang bị lo ngại.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "会社[かいしゃ]が存続[そんぞく]する",
+     "vi": "công ty tiếp tục tồn tại"
+    }
+   ],
+   "confuse": [
+    "v:継続:けいぞく"
+   ],
+   "note": "存続[そんぞく] = tiếp tục tồn tại (tổ chức, chế độ). 継続[けいぞく] = tiếp tục làm (hoạt động). 存続[そんぞく]の危機[きき] = nguy cơ không còn tồn tại."
+  },
+  {
+   "id": "v:破綻:はたん",
+   "kana": "はたん",
+   "kanji": "破綻",
+   "hv": "PHÁ TRÁN",
+   "vi": "đổ vỡ, phá sản (tài chính, kế hoạch)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "借金[しゃっきん]が膨[ふく]らみ、会社[かいしゃ]の経営[けいえい]が破綻[はたん]した。",
+     "vi": "Nợ phình to, việc kinh doanh của công ty đổ vỡ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "無理[むり]な計画[けいかく]は、いつか必[かなら]ず破綻[はたん]する。",
+     "vi": "Kế hoạch gượng ép thì sớm muộn cũng đổ bể.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "経営[けいえい]が破綻[はたん]する",
+     "vi": "kinh doanh đổ vỡ"
+    },
+    {
+     "jp": "計画[けいかく]が破綻[はたん]する",
+     "vi": "kế hoạch đổ bể"
+    }
+   ],
+   "confuse": [
+    "v:倒産:とうさん"
+   ],
+   "note": "経営破綻[けいえいはたん] = phá sản (tin tức). 倒産[とうさん] = công ty phá sản (nói thường). 破綻[はたん] còn dùng cho kế hoạch, hôn nhân, lập luận (論理[ろんり]が破綻[はたん]する = lập luận đổ vỡ)."
+  },
+  {
+   "id": "v:再建:さいけん",
+   "kana": "さいけん",
+   "kanji": "再建",
+   "hv": "TÁI KIẾN",
+   "vi": "tái thiết, vực dậy lại (tổ chức, công trình)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい社長[しゃちょう]のもとで、会社[かいしゃ]の再建[さいけん]が進[すす]められている。",
+     "vi": "Dưới thời giám đốc mới, việc vực dậy công ty đang được tiến hành.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地震[じしん]で壊[こわ]れた神社[じんじゃ]が、十年[じゅうねん]ぶりに再建[さいけん]された。",
+     "vi": "Ngôi đền bị hỏng do động đất đã được dựng lại sau 10 năm.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "経営[けいえい]を再建[さいけん]する",
+     "vi": "vực dậy việc kinh doanh"
+    },
+    {
+     "jp": "財政[ざいせい]を再建[さいけん]する",
+     "vi": "tái thiết tài chính"
+    }
+   ],
+   "confuse": [
+    "v:立て直す:たてなおす"
+   ],
+   "note": "再建[さいけん] = (văn viết) xây dựng lại tổ chức, tài chính, công trình. 立[た]て直[なお]す = cách nói thường (vực lại kế hoạch, tổ chức)."
+  },
+  {
+   "id": "v:打撃:だげき",
+   "kana": "だげき",
+   "kanji": "打撃",
+   "hv": "ĐẢ KÍCH",
+   "vi": "đòn giáng, thiệt hại nặng (kinh tế, ngành)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "輸入[ゆにゅう]禁止[きんし]の措置[そち]は、地元[じもと]の水産業[すいさんぎょう]に大[おお]きな打撃[だげき]を与[あた]えた。",
+     "vi": "Biện pháp cấm nhập khẩu đã giáng đòn nặng vào ngành thủy sản địa phương.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "長雨[ながあめ]で、野菜[やさい]農家[のうか]は深刻[しんこく]な打撃[だげき]を受[う]けた。",
+     "vi": "Do mưa dầm, nông dân trồng rau bị thiệt hại nặng nề.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:痛手:いたで"
+   ],
+   "note": "打撃[だげき]を受[う]ける / 与[あた]える = chịu / gây thiệt hại nặng. Trong bóng chày: việc đánh bóng. 打撃[だげき] = thiệt hại khách quan (kinh tế, ngành); 痛手[いたで] = cú đau (cả tinh thần)."
+  },
+  {
+   "id": "v:痛手:いたで",
+   "kana": "いたで",
+   "kanji": "痛手",
+   "hv": "THỐNG THỦ",
+   "vi": "cú đau, tổn thất nặng (cả tinh thần)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ベテランの班長[はんちょう]が辞[や]めたのは、職場[しょくば]にとって大[おお]きな痛手[いたで]だ。",
+     "vi": "Tổ trưởng kỳ cựu nghỉ việc là tổn thất lớn cho nơi làm việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "失恋[しつれん]の痛手[いたで]から、なかなか立[た]ち直[なお]れない。",
+     "vi": "Mãi không gượng dậy được sau cú đau thất tình.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:打撃:だげき"
+   ],
+   "note": "痛手[いたで]を負[お]う = chịu tổn thất nặng."
+  },
+  {
+   "id": "v:逼迫:ひっぱく",
+   "kana": "ひっぱく",
+   "kanji": "逼迫",
+   "hv": "BỨC BÁCH",
+   "vi": "eo hẹp, quá tải (thiếu hụt nghiêm trọng)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冬[ふゆ]は電力[でんりょく]の需給[じゅきゅう]が逼迫[ひっぱく]しやすい。",
+     "vi": "Mùa đông cung cầu điện dễ rơi vào tình trạng eo hẹp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "人手不足[ひとでふそく]で、現場[げんば]の人員[じんいん]がかなり逼迫[ひっぱく]している。",
+     "vi": "Do thiếu nhân lực, nhân sự ở hiện trường đang rất eo hẹp.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "財政[ざいせい]が逼迫[ひっぱく]する",
+     "vi": "tài chính eo hẹp"
+    }
+   ],
+   "rel": [
+    "v:不足:ふそく"
+   ],
+   "note": "Cũng viết ひっ迫[ぱく]. Tin tức: 医療逼迫[いりょうひっぱく] = y tế quá tải; 需給逼迫[じゅきゅうひっぱく] = cung không đủ cầu."
+  },
+  {
+   "id": "v:削減:さくげん",
+   "kana": "さくげん",
+   "kanji": "削減",
+   "hv": "TƯỚC GIẢM",
+   "vi": "cắt bớt (chi phí, nhân sự, lượng thải)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "経費削減[けいひさくげん]のため、使[つか]わない照明[しょうめい]はこまめに消[け]しましょう。",
+     "vi": "Để cắt bớt chi phí, hãy chịu khó tắt đèn không dùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "国[くに]は、二酸化炭素[にさんかたんそ]の排出量[はいしゅつりょう]を削減[さくげん]する目標[もくひょう]を掲[かか]げている。",
+     "vi": "Nhà nước đề ra mục tiêu cắt bớt lượng khí CO2 thải ra.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "コストを削減[さくげん]する",
+     "vi": "cắt bớt chi phí"
+    },
+    {
+     "jp": "人員[じんいん]を削減[さくげん]する",
+     "vi": "cắt giảm nhân sự"
+    }
+   ],
+   "confuse": [
+    "v:縮小:しゅくしょう",
+    "v:減らす:へらす"
+   ],
+   "note": "削減[さくげん] = cắt bớt lượng, số (tiền, người, khí thải). 縮小[しゅくしょう] = thu hẹp quy mô, phạm vi. Nói thường: 減[へ]らす."
+  },
+  {
+   "id": "v:歯止め:はどめ",
+   "kana": "はどめ",
+   "kanji": "歯止め",
+   "kf": "歯止[はど]め",
+   "hv": "XỈ CHỈ",
+   "vi": "cái phanh (kìm đà xấu lại)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人口[じんこう]減少[げんしょう]に歯止[はど]めがかからない。",
+     "vi": "Không kìm được đà giảm dân số.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "不良品[ふりょうひん]の増加[ぞうか]に歯止[はど]めをかけるため、検査[けんさ]を強化[きょうか]した。",
+     "vi": "Để kìm đà gia tăng hàng lỗi, đã tăng cường kiểm tra.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:食い止める:くいとめる"
+   ],
+   "note": "歯止[はど]めをかける = kìm lại, chặn đà. 歯止[はど]めがかからない = không kìm lại được. Nghĩa gốc: cái chèn bánh xe."
+  },
+  {
+   "id": "v:持ちこたえる:もちこたえる",
+   "kana": "もちこたえる",
+   "kanji": "持ちこたえる",
+   "kf": "持[も]ちこたえる",
+   "hv": "TRÌ",
+   "vi": "cầm cự, trụ được (không sụp)",
+   "pos": "v1",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "資金[しきん]が尽[つ]きる前[まえ]に、なんとか半年[はんとし]は持[も]ちこたえたい。",
+     "vi": "Trước khi cạn vốn, tôi muốn cầm cự được ít nhất nửa năm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "患者[かんじゃ]は、手術[しゅじゅつ]までなんとか持[も]ちこたえた。",
+     "vi": "Bệnh nhân đã cầm cự được đến lúc phẫu thuật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：台風[たいふう]、すごい風[かぜ]だったね。B：うん。古[ふる]い倉庫[そうこ]の屋根[やね]、よく持[も]ちこたえたよ。",
+     "vi": "A: Bão gió dữ quá nhỉ. B: Ừ. Mái kho cũ trụ được hay thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "なんとか持[も]ちこたえる",
+     "vi": "cầm cự được bằng cách nào đó"
+    }
+   ],
+   "confuse": [
+    "v:踏ん張る:ふんばる",
+    "v:乗り切る:のりきる"
+   ],
+   "note": "Chữ Hán: 持[も]ち堪[こた]える (ít dùng). 持[も]ちこたえる = giữ được trạng thái, không sụp trước áp lực. 乗[の]り切[き]る = vượt qua hết giai đoạn khó."
+  },
+  {
+   "id": "v:打開:だかい",
+   "kana": "だかい",
+   "kanji": "打開",
+   "hv": "ĐẢ KHAI",
+   "vi": "phá thế bế tắc, khai thông",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "状況[じょうきょう]を打開[だかい]するために、新[あたら]しい販路[はんろ]を探[さが]し始[はじ]めた。",
+     "vi": "Để phá thế bế tắc, chúng tôi bắt đầu tìm đầu ra mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "両国[りょうこく]の首脳[しゅのう]が会[あ]って、関係[かんけい]の打開[だかい]を図[はか]った。",
+     "vi": "Lãnh đạo hai nước gặp nhau để tìm cách khai thông quan hệ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "局面[きょくめん]を打開[だかい]する",
+     "vi": "phá thế bế tắc"
+    },
+    {
+     "jp": "現状[げんじょう]を打開[だかい]する",
+     "vi": "thoát khỏi tình trạng hiện tại"
+    }
+   ],
+   "rel": [
+    "v:打開策:だかいさく",
+    "v:行き詰まる:いきづまる"
+   ]
+  },
+  {
+   "id": "v:抜本的:ばっぽんてき",
+   "kana": "ばっぽんてき",
+   "kanji": "抜本的",
+   "hv": "BẠT BẢN ĐÍCH",
+   "vi": "căn cơ, triệt để từ gốc",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "赤字[あかじ]を解消[かいしょう]するには、抜本的[ばっぽんてき]な改革[かいかく]が必要[ひつよう]だ。",
+     "vi": "Để xóa lỗ cần cải cách căn cơ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "少子化[しょうしか]対策[たいさく]を抜本的[ばっぽんてき]に見直[みなお]すべきだという声[こえ]が強[つよ]い。",
+     "vi": "Nhiều ý kiến cho rằng nên xem xét lại tận gốc biện pháp đối phó giảm sinh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：また同[おな]じミスが出[で]たね。B：はい。注意[ちゅうい]するだけじゃなく、抜本的[ばっぽんてき]な対策[たいさく]が要[い]りますね。",
+     "vi": "A: Lại cùng một lỗi nhỉ. B: Vâng. Không chỉ nhắc nhở mà cần biện pháp căn cơ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "改革[かいかく]",
+     "vi": "cải cách"
+    },
+    {
+     "jp": "対策[たいさく]",
+     "vi": "biện pháp"
+    }
+   ],
+   "syn": [
+    "v:根本的:こんぽんてき"
+   ],
+   "note": "Văn viết, chính trị, kinh tế. 抜本[ばっぽん] = nhổ cả gốc. Hay đi với 改革[かいかく], 見直[みなお]し, 対策[たいさく]."
+  },
+  {
+   "id": "v:急務:きゅうむ",
+   "kana": "きゅうむ",
+   "kanji": "急務",
+   "hv": "CẤP VỤ",
+   "vi": "việc cấp bách",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Khủng hoảng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人手不足[ひとでふそく]の解消[かいしょう]が、業界[ぎょうかい]全体[ぜんたい]の急務[きゅうむ]となっている。",
+     "vi": "Giải quyết tình trạng thiếu nhân lực đã thành việc cấp bách của toàn ngành.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "高齢者[こうれいしゃ]が安心[あんしん]して暮[く]らせる町[まち]づくりが急務[きゅうむ]だ。",
+     "vi": "Xây dựng khu phố để người già sống yên tâm là việc cấp bách.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:緊急:きんきゅう"
+   ],
+   "note": "〜が急務[きゅうむ]だ = … là việc cấp bách. Văn báo chí, văn bản."
+  },
+  {
+   "id": "v:総点検:そうてんけん",
+   "kana": "そうてんけん",
+   "kanji": "総点検",
+   "hv": "TỔNG ĐIỂM KIỂM",
+   "vi": "tổng kiểm tra (rà soát toàn bộ)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiểm tra toàn diện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事故[じこ]を受[う]けて、全[ぜん]工場[こうじょう]の設備[せつび]を総[そう]点検[てんけん]することになった。",
+     "vi": "Sau sự cố, đã quyết định tổng kiểm tra thiết bị ở tất cả các xưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "年末[ねんまつ]に、家計[かけい]の支出[ししゅつ]を総[そう]点検[てんけん]してみた。",
+     "vi": "Cuối năm, tôi thử rà soát lại toàn bộ chi tiêu gia đình.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "設備[せつび]を総[そう]点検[てんけん]する",
+     "vi": "tổng kiểm tra thiết bị"
+    }
+   ],
+   "rel": [
+    "v:点検:てんけん"
+   ],
+   "note": "総[そう]〜 = toàn bộ (総[そう]点検[てんけん], 総合[そうごう], 総額[そうがく])."
+  },
+  {
+   "id": "v:網羅:もうら",
+   "kana": "もうら",
+   "kanji": "網羅",
+   "hv": "VÕNG LA",
+   "vi": "bao quát hết, gom trọn",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiểm tra toàn diện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このマニュアルは、衛生管理[えいせいかんり]のポイントを網羅[もうら]している。",
+     "vi": "Sổ tay này bao quát hết các điểm về quản lý vệ sinh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "N1の文法[ぶんぽう]を網羅[もうら]した参考書[さんこうしょ]を買[か]った。",
+     "vi": "Tôi đã mua cuốn sách tham khảo gom trọn ngữ pháp N1.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "要点[ようてん]を網羅[もうら]する",
+     "vi": "bao quát hết các ý chính"
+    }
+   ],
+   "note": "網羅的[もうらてき] = mang tính bao quát. Nghĩa gốc: lưới bắt cá (網[あみ]) và lưới bắt chim (羅[ら]) → gom hết."
+  },
+  {
+   "id": "v:洗い出す:あらいだす",
+   "kana": "あらいだす",
+   "kanji": "洗い出す",
+   "kf": "洗[あら]い出[だ]す",
+   "hv": "TẨY XUẤT",
+   "vi": "rà soát tìm ra hết (vấn đề, việc cần làm)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiểm tra toàn diện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "作業[さぎょう]の手順[てじゅん]を見直[みなお]して、危険[きけん]な箇所[かしょ]を洗[あら]い出[だ]した。",
+     "vi": "Xem lại quy trình làm việc và rà ra hết các điểm nguy hiểm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "引[ひ]っ越[こ]しの前[まえ]に、やるべきことを全部[ぜんぶ]洗[あら]い出[だ]しておこう。",
+     "vi": "Trước khi chuyển nhà, hãy liệt kê ra hết những việc cần làm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今回[こんかい]のクレーム、原因[げんいん]は分[わ]かった？B：まだです。考[かんが]えられる原因[げんいん]を、まず全部[ぜんぶ]洗[あら]い出[だ]してみます。",
+     "vi": "A: Khiếu nại lần này đã rõ nguyên nhân chưa? B: Chưa ạ. Tôi sẽ thử rà ra hết các nguyên nhân có thể trước đã.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "問題点[もんだいてん]を洗[あら]い出[だ]す",
+     "vi": "rà ra các vấn đề"
+    },
+    {
+     "jp": "課題[かだい]を洗[あら]い出[だ]す",
+     "vi": "liệt kê hết các việc cần giải quyết"
+    }
+   ],
+   "rel": [
+    "v:精査:せいさ"
+   ],
+   "note": "Nghĩa gốc: rửa cho lộ ra. Văn công sở rất hay dùng: 課題[かだい]の洗[あら]い出[だ]し = việc rà soát vấn đề."
+  },
+  {
+   "id": "v:精査:せいさ",
+   "kana": "せいさ",
+   "kanji": "精査",
+   "hv": "TINH TRA",
+   "vi": "thẩm tra kỹ lưỡng (giấy tờ, số liệu)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiểm tra toàn diện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "提出[ていしゅつ]された書類[しょるい]を精査[せいさ]したうえで、結論[けつろん]を出[だ]します。",
+     "vi": "Sau khi thẩm tra kỹ giấy tờ đã nộp, chúng tôi sẽ đưa ra kết luận.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "事故[じこ]の原因[げんいん]については、データを精査[せいさ]して報告[ほうこく]します。",
+     "vi": "Về nguyên nhân sự cố, chúng tôi sẽ thẩm tra kỹ dữ liệu rồi báo cáo.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "データを精査[せいさ]する",
+     "vi": "thẩm tra kỹ dữ liệu"
+    }
+   ],
+   "confuse": [
+    "v:検証:けんしょう"
+   ],
+   "note": "精査[せいさ] = xem xét kỹ từng chi tiết (văn bản, số liệu). 検証[けんしょう] = kiểm chứng xem giả thuyết, nội dung có đúng không."
+  },
+  {
+   "id": "v:監査:かんさ",
+   "kana": "かんさ",
+   "kanji": "監査",
+   "hv": "GIÁM TRA",
+   "vi": "kiểm toán, thanh tra (theo quy định)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiểm tra toàn diện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来週[らいしゅう]、取引先[とりひきさき]による品質[ひんしつ]監査[かんさ]がある。",
+     "vi": "Tuần sau có đợt thanh tra chất lượng của đối tác.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "会計監査[かいけいかんさ]で、帳簿[ちょうぼ]のミスが見[み]つかった。",
+     "vi": "Trong đợt kiểm toán kế toán đã phát hiện lỗi trong sổ sách.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "帳簿[ちょうぼ]を監査[かんさ]する",
+     "vi": "kiểm toán sổ sách"
+    }
+   ],
+   "rel": [
+    "v:点検:てんけん"
+   ],
+   "note": "監査[かんさ] = bên thứ ba hoặc bộ phận chuyên trách kiểm tra xem có làm đúng quy định không. 内部監査[ないぶかんさ] = kiểm tra nội bộ. 監査役[かんさやく] = kiểm soát viên."
+  },
+  {
+   "id": "v:抜き打ち:ぬきうち",
+   "kana": "ぬきうち",
+   "kanji": "抜き打ち",
+   "kf": "抜[ぬ]き打[う]ち",
+   "hv": "BẠT ĐẢ",
+   "vi": "bất ngờ không báo trước (kiểm tra)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiểm tra toàn diện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "保健所[ほけんじょ]の抜[ぬ]き打[う]ち検査[けんさ]に備[そな]えて、毎日[まいにち]清掃[せいそう]を徹底[てってい]している。",
+     "vi": "Để sẵn sàng cho đợt kiểm tra đột xuất của trung tâm y tế, ngày nào cũng dọn vệ sinh kỹ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "先生[せんせい]が、抜[ぬ]き打[う]ちで漢字[かんじ]のテストをした。",
+     "vi": "Thầy giáo kiểm tra chữ Hán đột xuất.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:監査:かんさ"
+   ],
+   "note": "抜[ぬ]き打[う]ち検査[けんさ] / 抜[ぬ]き打[う]ちテスト = kiểm tra đột xuất. Nghĩa gốc: rút kiếm chém ngay."
+  },
+  {
+   "id": "v:全面的:ぜんめんてき",
+   "kana": "ぜんめんてき",
+   "kanji": "全面的",
+   "hv": "TOÀN DIỆN ĐÍCH",
+   "vi": "toàn diện (mọi mặt)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiểm tra toàn diện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場[こうじょう]のレイアウトを、全面的[ぜんめんてき]に見直[みなお]すことになった。",
+     "vi": "Đã quyết định xem lại bố trí xưởng một cách toàn diện.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "私[わたし]は、あなたの意見[いけん]を全面的[ぜんめんてき]に支持[しじ]します。",
+     "vi": "Tôi ủng hộ ý kiến của anh về mọi mặt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この計画[けいかく]、上[うえ]はどう言[い]ってる？B：全面的[ぜんめんてき]に賛成[さんせい]だって。予算[よさん]も出[で]るらしいよ。",
+     "vi": "A: Kế hoạch này cấp trên nói sao? B: Nghe nói tán thành hoàn toàn. Hình như có cả ngân sách.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "見直[みなお]し",
+     "vi": "sự xem xét lại"
+    },
+    {
+     "jp": "協力[きょうりょく]",
+     "vi": "sự hợp tác"
+    }
+   ],
+   "ant": [
+    {
+     "w": "部分的[ぶぶんてき]",
+     "vi": "một phần"
+    }
+   ],
+   "syn": [
+    "v:全面:ぜんめん"
+   ],
+   "note": "Hay dùng 全面的[ぜんめんてき]に + 見直[みなお]す / 協力[きょうりょく]する / 支持[しじ]する. 全面禁止[ぜんめんきんし] = cấm hoàn toàn."
+  },
+  {
+   "id": "v:隅々:すみずみ",
+   "kana": "すみずみ",
+   "kanji": "隅々",
+   "hv": "NGUNG NGUNG",
+   "vi": "mọi ngóc ngách",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiểm tra toàn diện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "清掃[せいそう]のあと、機械[きかい]の隅々[すみずみ]までチェックした。",
+     "vi": "Sau khi dọn vệ sinh, đã kiểm tra đến mọi ngóc ngách của máy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "彼[かれ]はこの町[まち]の隅々[すみずみ]まで知[し]っている。",
+     "vi": "Anh ấy biết đến từng ngóc ngách của thị trấn này.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:隅:すみ"
+   ],
+   "note": "隅々[すみずみ]まで = đến từng ngóc ngách, không sót chỗ nào."
+  },
+  {
+   "id": "v:くまなく:くまなく",
+   "kana": "くまなく",
+   "kanji": "",
+   "hv": "",
+   "vi": "khắp lượt, không chừa chỗ nào",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiểm tra toàn diện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "部屋[へや]の中[なか]をくまなく探[さが]したが、鍵[かぎ]は見[み]つからなかった。",
+     "vi": "Tìm khắp lượt trong phòng mà không thấy chìa khóa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "異物[いぶつ]がないか、ラインをくまなく点検[てんけん]した。",
+     "vi": "Kiểm tra khắp lượt dây chuyền xem có dị vật không.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:隅々:すみずみ"
+   ],
+   "note": "Chữ Hán: 隈[くま]なく (ít dùng). Hay đi với 探[さが]す, 調[しら]べる, 点検[てんけん]する."
+  },
+  {
+   "id": "v:漏れなく:もれなく",
+   "kana": "もれなく",
+   "kanji": "漏れなく",
+   "kf": "漏[も]れなく",
+   "hv": "LẬU",
+   "vi": "không sót (ai, mục nào)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiểm tra toàn diện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "書類[しょるい]には、必要事項[ひつようじこう]を漏[も]れなく記入[きにゅう]してください。",
+     "vi": "Hãy điền đầy đủ, không sót mục cần thiết nào vào giấy tờ.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "アンケートに答[こた]えた方[かた]には、漏[も]れなくプレゼントを差[さ]し上[あ]げます。",
+     "vi": "Quý khách trả lời phiếu khảo sát đều được nhận quà, không sót ai.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:漏れ:もれ"
+   ],
+   "note": "漏[も]れなく = (cho tất cả) không bỏ sót. Trong quảng cáo: もれなく〜をプレゼント = ai cũng được tặng."
+  },
+  {
+   "id": "v:ことごとく:ことごとく",
+   "kana": "ことごとく",
+   "kanji": "",
+   "hv": "",
+   "vi": "tất thảy, sạch trơn (văn viết)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kiểm tra toàn diện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "提案[ていあん]した改善案[かいぜんあん]は、ことごとく却下[きゃっか]された。",
+     "vi": "Các phương án cải tiến tôi đề xuất bị bác bỏ tất thảy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今年[ことし]の予想[よそう]は、ことごとく外[はず]れた。",
+     "vi": "Dự đoán năm nay sai hết thảy.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Chữ Hán: 悉[ことごと]く (ít dùng). Văn viết, hay đi với kết quả xấu: ことごとく失敗[しっぱい]する / 外[はず]れる / 断[ことわ]られる."
+  },
+  {
+   "id": "v:細部:さいぶ",
+   "kana": "さいぶ",
+   "kanji": "細部",
+   "hv": "TẾ BỘ",
+   "vi": "phần chi tiết, từng phần nhỏ (trong tổng thể)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chi tiết nhỏ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "細部[さいぶ]にまで気[き]を配[くば]るのが、この職人[しょくにん]のこだわりだ。",
+     "vi": "Để ý đến từng chi tiết nhỏ là sự cầu toàn của người thợ này.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "計画[けいかく]の細部[さいぶ]は、来週[らいしゅう]の会議[かいぎ]で詰[つ]めましょう。",
+     "vi": "Chi tiết của kế hoạch, ta chốt ở cuộc họp tuần sau.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:詳細:しょうさい"
+   ],
+   "note": "細部[さいぶ] = phần nhỏ trong tổng thể (bản vẽ, kế hoạch, tác phẩm). 詳細[しょうさい] = thông tin chi tiết cụ thể. 神[かみ]は細部[さいぶ]に宿[やど]る = cái thần nằm ở chi tiết."
+  },
+  {
+   "id": "v:微細:びさい",
+   "kana": "びさい",
+   "kanji": "微細",
+   "hv": "VI TẾ",
+   "vi": "li ti, cực nhỏ",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chi tiết nhỏ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "微細[びさい]な骨[ほね]も見逃[みのが]さないよう、X線[せん]で検査[けんさ]している。",
+     "vi": "Để không bỏ sót cả xương li ti, chúng tôi kiểm tra bằng máy X-quang.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "顕微鏡[けんびきょう]で見[み]ると、微細[びさい]な傷[きず]がたくさんあった。",
+     "vi": "Nhìn qua kính hiển vi thì có rất nhiều vết xước li ti.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "骨[ほね]",
+     "vi": "xương"
+    },
+    {
+     "jp": "傷[きず]",
+     "vi": "vết xước"
+    }
+   ],
+   "rel": [
+    "v:些細:ささい"
+   ],
+   "note": "微細[びさい] = nhỏ về kích thước. 些細[ささい] = nhỏ nhặt về mức độ quan trọng. 微細[びさい]な違[ちが]い = khác biệt rất nhỏ."
+  },
+  {
+   "id": "v:綿密:めんみつ",
+   "kana": "めんみつ",
+   "kanji": "綿密",
+   "hv": "MIÊN MẬT",
+   "vi": "kín kẽ, chu toàn từng chi tiết (kế hoạch, điều tra)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chi tiết nhỏ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "綿密[めんみつ]な計画[けいかく]を立[た]てたおかげで、移転[いてん]作業[さぎょう]は予定[よてい]どおり終[お]わった。",
+     "vi": "Nhờ lập kế hoạch tỉ mỉ, việc chuyển xưởng đã xong đúng dự kiến.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "警察[けいさつ]は、現場[げんば]を綿密[めんみつ]に調[しら]べた。",
+     "vi": "Cảnh sát đã điều tra hiện trường tỉ mỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：来月[らいげつ]の監査[かんさ]、準備[じゅんび]は大丈夫[だいじょうぶ]？B：はい、チェックリストを作[つく]って、綿密[めんみつ]に確認[かくにん]しています。",
+     "vi": "A: Đợt thanh tra tháng sau chuẩn bị ổn chưa? B: Vâng, tôi đã lập danh sách kiểm tra và đang soát tỉ mỉ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "計画[けいかく]",
+     "vi": "kế hoạch"
+    },
+    {
+     "jp": "調査[ちょうさ]",
+     "vi": "cuộc điều tra"
+    }
+   ],
+   "confuse": [
+    "v:入念:にゅうねん"
+   ],
+   "note": "綿密[めんみつ] = kín kẽ, tính toán chi tiết (kế hoạch, điều tra, bàn bạc). 入念[にゅうねん] = làm kỹ càng từng bước (thao tác, kiểm tra)."
+  },
+  {
+   "id": "v:入念:にゅうねん",
+   "kana": "にゅうねん",
+   "kanji": "入念",
+   "hv": "NHẬP NIỆM",
+   "vi": "chăm chút kỹ lưỡng (từng bước thao tác)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chi tiết nhỏ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "出荷[しゅっか]の前[まえ]に、ラベルを入念[にゅうねん]にチェックしてください。",
+     "vi": "Trước khi xuất hàng, hãy kiểm tra nhãn kỹ càng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "試合[しあい]の前[まえ]は、入念[にゅうねん]にストレッチをする。",
+     "vi": "Trước trận đấu, tôi giãn cơ kỹ càng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：包丁[ほうちょう]の消毒[しょうどく]、もう終[お]わった？B：はい、いつもより入念[にゅうねん]にやっておきました。",
+     "vi": "A: Khử trùng dao xong chưa? B: Vâng, tôi đã làm kỹ hơn mọi khi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "準備[じゅんび]",
+     "vi": "sự chuẩn bị"
+    },
+    {
+     "jp": "点検[てんけん]",
+     "vi": "việc kiểm tra"
+    }
+   ],
+   "confuse": [
+    "v:綿密:めんみつ",
+    "v:丁寧:ていねい"
+   ],
+   "note": "入念[にゅうねん] = để tâm làm kỹ từng bước. Hay đi với 入念[にゅうねん]に + 確認[かくにん]する / 準備[じゅんび]する / 手入[てい]れする."
+  },
+  {
+   "id": "v:克明:こくめい",
+   "kana": "こくめい",
+   "kanji": "克明",
+   "hv": "KHẮC MINH",
+   "vi": "rõ từng li từng tí (ghi chép, miêu tả)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chi tiết nhỏ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は毎日[まいにち]の作業[さぎょう]内容[ないよう]を、ノートに克明[こくめい]に記録[きろく]している。",
+     "vi": "Anh ấy ghi chép rõ từng li từng tí nội dung công việc mỗi ngày vào sổ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "その本[ほん]には、戦時[せんじ]中[ちゅう]の暮[く]らしが克明[こくめい]に描[えが]かれている。",
+     "vi": "Cuốn sách đó miêu tả rõ từng chi tiết cuộc sống thời chiến.",
+     "ctx": "doisong"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "記録[きろく]",
+     "vi": "bản ghi chép"
+    },
+    {
+     "jp": "描写[びょうしゃ]",
+     "vi": "sự miêu tả"
+    }
+   ],
+   "rel": [
+    "v:詳しい:くわしい"
+   ],
+   "note": "Hay đi với 克明[こくめい]に + 記録[きろく]する / 描[えが]く / 覚[おぼ]えている."
+  },
+  {
+   "id": "v:逐一:ちくいち",
+   "kana": "ちくいち",
+   "kanji": "逐一",
+   "hv": "TRỤC NHẤT",
+   "vi": "từng việc một, nhất nhất (báo cáo)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chi tiết nhỏ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "作業[さぎょう]の進[すす]み具合[ぐあい]は、逐一[ちくいち]報告[ほうこく]してください。",
+     "vi": "Hãy báo cáo từng việc một về tiến độ công việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "母[はは]は、私[わたし]の行動[こうどう]を逐一[ちくいち]知[し]りたがる。",
+     "vi": "Mẹ tôi muốn biết nhất cử nhất động của tôi.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "逐一[ちくいち] = từng việc một, không bỏ qua (văn viết, công sở). Nói thường: いちいち (có sắc thái phiền)."
+  },
+  {
+   "id": "v:つぶさに:つぶさに",
+   "kana": "つぶさに",
+   "kanji": "",
+   "hv": "",
+   "vi": "kỹ lưỡng từng chi tiết (văn viết)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chi tiết nhỏ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場長[こうじょうちょう]は、現場[げんば]をつぶさに見[み]て回[まわ]った。",
+     "vi": "Xưởng trưởng đi xem kỹ lưỡng khắp hiện trường.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "被災地[ひさいち]の状況[じょうきょう]を、記者[きしゃ]がつぶさに伝[つた]えた。",
+     "vi": "Phóng viên đã truyền tải kỹ lưỡng tình hình vùng thiên tai.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:克明:こくめい"
+   ],
+   "note": "Chữ Hán: 具[つぶさ]に (ít dùng). Văn viết; hay đi với 見[み]る, 調[しら]べる, 観察[かんさつ]する, 伝[つた]える."
+  },
+  {
+   "id": "v:細心:さいしん",
+   "kana": "さいしん",
+   "kanji": "細心",
+   "hv": "TẾ TÂM",
+   "vi": "hết sức cẩn trọng, để ý từng li",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chi tiết nhỏ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "生食用[なましょくよう]の刺身[さしみ]は、細心[さいしん]の注意[ちゅうい]を払[はら]って扱[あつか]わなければならない。",
+     "vi": "Sashimi dùng ăn sống phải được xử lý hết sức cẩn trọng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "赤[あか]ちゃんの肌[はだ]に触[ふ]れるものは、細心[さいしん]の注意[ちゅうい]を払[はら]って選[えら]んでいる。",
+     "vi": "Đồ chạm vào da em bé, tôi chọn hết sức cẩn trọng.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:慎重:しんちょう"
+   ],
+   "note": "Hầu như chỉ dùng trong cụm 細心[さいしん]の注意[ちゅうい]を払[はら]う = hết sức chú ý, cẩn trọng tối đa."
+  },
+  {
+   "id": "v:手抜かり:てぬかり",
+   "kana": "てぬかり",
+   "kanji": "手抜かり",
+   "kf": "手抜[てぬ]かり",
+   "hv": "THỦ BẠT",
+   "vi": "sơ hở, chỗ sơ suất (do thiếu chu đáo)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chi tiết nhỏ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "準備[じゅんび]に手抜[てぬ]かりがないよう、チェックリストを使[つか]っている。",
+     "vi": "Để chuẩn bị không có sơ hở, tôi dùng danh sách kiểm tra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "申請書類[しんせいしょるい]に手抜[てぬ]かりがあって、もう一度[いちど]役所[やくしょ]に行[い]く羽目[はめ]になった。",
+     "vi": "Hồ sơ xin có chỗ sơ suất nên tôi lại phải lên cơ quan lần nữa.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:手抜き:てぬき",
+    "v:不手際:ふてぎわ"
+   ],
+   "note": "手抜[てぬ]かり = sót, sơ suất do không chu đáo (vô ý). 手抜[てぬ]き = cố ý làm qua quýt. Ngắn: 抜[ぬ]かり (抜[ぬ]かりはない = không sơ hở)."
+  },
+  {
+   "id": "v:盲点:もうてん",
+   "kana": "もうてん",
+   "kanji": "盲点",
+   "hv": "MANH ĐIỂM",
+   "vi": "điểm mù, chỗ hở (không ai để ý)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chi tiết nhỏ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎日[まいにち]見[み]ている場所[ばしょ]ほど、点検[てんけん]の盲点[もうてん]になりやすい。",
+     "vi": "Chỗ càng nhìn hằng ngày càng dễ thành điểm mù khi kiểm tra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "その質問[しつもん]は、私[わたし]たちの計画[けいかく]の盲点[もうてん]を突[つ]いていた。",
+     "vi": "Câu hỏi đó chọc trúng điểm mù trong kế hoạch của chúng tôi.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:見落とす:みおとす"
+   ],
+   "note": "盲点[もうてん]を突[つ]く = đánh trúng chỗ hở. Nghĩa gốc: điểm mù của mắt."
+  }
+ ]
+}

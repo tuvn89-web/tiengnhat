@@ -1,0 +1,772 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "nguphap-n1-19",
+  "title": "Ngữ pháp N1 19 – Không được phép / không thể nào: まじき・べからず・べくもない",
+  "type": "grammar",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
+ },
+ "items": [
+  {
+   "id": "g:〜まじき",
+   "pattern": "〜まじき",
+   "level": "N1",
+   "meaning": "không được phép có, không thể chấp nhận (ở người có tư cách, cương vị đó) — luôn đứng trước danh từ",
+   "structure": [
+    "Động từ thể từ điển + まじき + danh từ: 許[ゆる]すまじき行為[こうい] (hành vi không thể tha thứ)",
+    "Khung hay gặp nhất: 〈cương vị〉 + として / に + あるまじき + danh từ: 社会人[しゃかいじん]としてあるまじき態度[たいど]",
+    "する → すまじき (cũng gặp するまじき); cuối câu: 〜まじき行為[こうい]だ / 〜まじきことだ (không dừng ở まじき)"
+   ],
+   "explain": "〜まじき = KHÔNG ĐƯỢC PHÉP CÓ, KHÔNG THỂ CHẤP NHẬN: người nói phê phán gay gắt một hành vi trái với đạo đức, trái với tư cách, cương vị của người làm ra nó. 社会人[しゃかいじん]としてあるまじき行為[こうい] = hành vi không được phép có ở một người đi làm. 食品[しょくひん]を扱[あつか]う者[もの]としてあるまじきミスだ = là người làm thực phẩm thì đó là lỗi không thể chấp nhận.\n\nCách ghép: động từ thể từ điển + まじき + danh từ (行為[こうい], 態度[たいど], 発言[はつげん], 振[ふ]る舞[ま]い, こと…). Hay gặp nhất là あるまじき trong khung 「〈cương vị〉 として / 〈cương vị〉 に + あるまじき + danh từ」: 医者[いしゃ]にあるまじき発言[はつげん] (phát ngôn không thể có ở bác sĩ), 班[はん]長[ちょう]としてあるまじき態度[たいど] (thái độ không thể chấp nhận ở tổ trưởng). Ngoài ra: 許[ゆる]すまじき (không thể tha thứ), 言[い]うまじき (không được nói). する → すまじき (cũng gặp するまじき). まじき luôn đứng trước danh từ; muốn kết câu thì thêm danh từ: あるまじきことだ, あるまじき行為[こうい]だ — không nói あるまじきだ.\n\nMức độ: văn viết, rất cứng — báo chí đưa tin bê bối, thông báo kỷ luật, họp báo xin lỗi, phát biểu nghiêm khắc. Giọng phê phán rất nặng, gần như kết tội, nên không dùng cho lỗi vặt hằng ngày và không nói thẳng vào mặt cấp trên, khách hàng. So với 〜べきではない (N3-21): べきではない = \"không nên\" (lời khuyên, ý kiến, đứng cuối câu); まじき = \"không được phép có\" (đánh giá đạo đức, đứng trước danh từ). So với 〜まい (N2-33): まい = \"quyết không / chắc không\" (ý chí, phỏng đoán); まじき cùng gốc cổ nhưng nghĩa là \"không được phép\". Ngược với 〜たるもの (N1-05): たるもの〜べきだ nói điều NÊN làm khi ở cương vị đó; まじき nói điều KHÔNG ĐƯỢC làm.\n\nMẹo nhớ: まじき ≈ \"べきではない\" bản cổ, biến thành tính từ đứng trước danh từ. Học thuộc cả khối: 〜としてあるまじき行為[こうい] = \"hành vi không thể có ở một người là…\".",
+   "casual": "Nói thường: 〜として、ありえない / 〜なんて最低[さいてい]: プロとして、ありえへんわ (Kansai: ありえへん = ありえない; わ: cảm thán).",
+   "compare": [
+    {
+     "pattern": "〜べきではない（N3-21）",
+     "diff": "Không nên (lời khuyên, ý kiến; đứng cuối câu). まじき: không được phép có — phê phán đạo đức rất nặng, đứng trước danh từ (あるまじき行為[こうい])."
+    },
+    {
+     "pattern": "〜まい（N2-33）",
+     "diff": "Quyết không / chắc là không (ý chí, phỏng đoán phủ định: 二度[にど]と遅刻[ちこく]するまい). まじき: đánh giá một hành vi là không thể chấp nhận với tư cách của người làm."
+    }
+   ],
+   "mistakes": [
+    "Để まじき đứng cuối câu như tính từ: 班[はん]長[ちょう]としてあるまじきだ ✗ → 班[はん]長[ちょう]としてあるまじき行為[こうい]だ / あるまじきことだ.",
+    "Chia thể ない vì nghĩ \"không được\" phải có phủ định: 許[ゆる]さないまじき行為[こうい] ✗ → 許[ゆる]すまじき行為[こうい] (まじき đã mang nghĩa phủ định, trước nó là thể từ điển)."
+   ],
+   "ex": [
+    {
+     "jp": "弱[よわ]い者[もの]いじめは、人[ひと]として[[あるまじき]]行為[こうい]だ。",
+     "vi": "Bắt nạt kẻ yếu là hành vi không thể chấp nhận ở một con người.",
+     "ctx": "doisong",
+     "chunks": [
+      "弱[よわ]い",
+      "者[もの]",
+      "いじめは、",
+      "人[ひと]と",
+      "してあるまじき",
+      "行為[こうい]だ"
+     ],
+     "wrong": [
+      "あるべき",
+      "あるまじく"
+     ]
+    },
+    {
+     "jp": "試合中[しあいちゅう]に審判[しんぱん]を怒鳴[どな]りつけるなど、スポーツ選手[せんしゅ]に[[あるまじき]]態度[たいど]だ。",
+     "vi": "Quát tháo trọng tài giữa trận đấu là thái độ không thể chấp nhận ở một vận động viên.",
+     "ctx": "doisong",
+     "chunks": [
+      "試合中[しあいちゅう]に審判[しんぱん]を",
+      "怒鳴[どな]りつけるなど、",
+      "スポーツ",
+      "選手[せんしゅ]に",
+      "あるまじき",
+      "態度[たいど]だ"
+     ],
+     "wrong": [
+      "あるべき",
+      "あったまじき"
+     ]
+    },
+    {
+     "jp": "子[こ]どもの前[まえ]で平気[へいき]で信号[しんごう]無視[むし]をするなど、親[おや]として[[あるまじき]]ことだ。",
+     "vi": "Thản nhiên vượt đèn đỏ trước mặt con là điều không thể chấp nhận ở người làm cha mẹ.",
+     "ctx": "doisong",
+     "chunks": [
+      "子[こ]どもの",
+      "前[まえ]で平気[へいき]で",
+      "信号[しんごう]無視[むし]を",
+      "するなど、親[おや]と",
+      "してあるまじき",
+      "ことだ"
+     ],
+     "wrong": [
+      "あるべき",
+      "ないまじき"
+     ]
+    },
+    {
+     "jp": "一人[ひとり]暮[ぐ]らしの高齢者[こうれいしゃ]をねらった詐欺[さぎ]は、[[許[ゆる]すまじき]]犯罪[はんざい]だ。",
+     "vi": "Lừa đảo nhắm vào người già sống một mình là tội ác không thể tha thứ.",
+     "ctx": "doisong",
+     "chunks": [
+      "一人[ひとり]暮[ぐ]らしの",
+      "高齢者[こうれいしゃ]を",
+      "ねらった",
+      "詐欺[さぎ]は、",
+      "許[ゆる]すまじき",
+      "犯罪[はんざい]だ"
+     ],
+     "wrong": [
+      "許[ゆる]すべき",
+      "許[ゆる]さないまじき"
+     ]
+    },
+    {
+     "jp": "手[て]を洗[あら]わずに生魚[なまざかな]に触[さわ]るなど、食品[しょくひん]工場[こうじょう]で働[はたら]く者[もの]として[[あるまじき]]ことだ。",
+     "vi": "Không rửa tay mà sờ vào cá sống là điều không được phép đối với người làm ở nhà máy thực phẩm.",
+     "ctx": "xuong",
+     "chunks": [
+      "手[て]を洗[あら]わずに",
+      "生魚[なまざかな]に触[さわ]るなど、",
+      "食品[しょくひん]工場[こうじょう]で",
+      "働[はたら]く者[もの]と",
+      "してあるまじき",
+      "ことだ"
+     ],
+     "wrong": [
+      "あるべき",
+      "あるまじく"
+     ]
+    },
+    {
+     "jp": "検査[けんさ]記録[きろく]を書[か]き換[か]えて数値[すうち]をごまかすのは、品質[ひんしつ]管理[かんり]の担当者[たんとうしゃ]に[[あるまじき]]不正[ふせい]だ。",
+     "vi": "Sửa hồ sơ kiểm tra để gian lận số liệu là sự gian dối không thể chấp nhận ở người phụ trách quản lý chất lượng.",
+     "ctx": "xuong",
+     "chunks": [
+      "検査[けんさ]記録[きろく]を",
+      "書[か]き換[か]えて数値[すうち]を",
+      "ごまかすのは、",
+      "品質[ひんしつ]管理[かんり]の",
+      "担当者[たんとうしゃ]に",
+      "あるまじき不正[ふせい]だ"
+     ],
+     "wrong": [
+      "あるべき",
+      "あったまじき"
+     ]
+    },
+    {
+     "jp": "輸入[ゆにゅう]したサバを国産[こくさん]と偽[いつわ]って出荷[しゅっか]するなど、水産[すいさん]加工[かこう]会社[かいしゃ]として[[あるまじき]]行為[こうい]だ。",
+     "vi": "Gắn mác hàng trong nước cho cá thu nhập khẩu rồi xuất đi là hành vi không được phép đối với một công ty chế biến thủy sản.",
+     "ctx": "xuong",
+     "chunks": [
+      "輸入[ゆにゅう]したサバを国産[こくさん]と",
+      "偽[いつわ]って出荷[しゅっか]",
+      "するなど、",
+      "水産[すいさん]加工[かこう]会社[かいしゃ]と",
+      "してあるまじき",
+      "行為[こうい]だ"
+     ],
+     "wrong": [
+      "あるべき",
+      "ないまじき"
+     ]
+    },
+    {
+     "jp": "市[し]の職員[しょくいん]が住民[じゅうみん]の個人情報[こじんじょうほう]を外部[がいぶ]に漏[も]らすなど、公務員[こうむいん]として[[あるまじき]]行為[こうい]だ。",
+     "vi": "Nhân viên thành phố làm lộ thông tin cá nhân của cư dân ra ngoài là hành vi không thể chấp nhận ở một công chức.",
+     "ctx": "thutuc",
+     "chunks": [
+      "市[し]の職員[しょくいん]が住民[じゅうみん]の",
+      "個人情報[こじんじょうほう]を外部[がいぶ]に",
+      "漏[も]らすなど、",
+      "公務員[こうむいん]と",
+      "してあるまじき",
+      "行為[こうい]だ"
+     ],
+     "wrong": [
+      "あるべき",
+      "あるまじく"
+     ]
+    },
+    {
+     "jp": "外国人[がいこくじん]だというだけで入居[にゅうきょ]を断[ことわ]るのは、不動産会社[ふどうさんがいしゃ]として[[あるまじき]]対応[たいおう]だ。",
+     "vi": "Chỉ vì là người nước ngoài mà từ chối cho vào ở là cách đối xử không thể chấp nhận ở một công ty bất động sản.",
+     "ctx": "thutuc",
+     "chunks": [
+      "外国人[がいこくじん]だと",
+      "いうだけで入居[にゅうきょ]を",
+      "断[ことわ]るのは、",
+      "不動産会社[ふどうさんがいしゃ]と",
+      "してあるまじき",
+      "対応[たいおう]だ"
+     ],
+     "wrong": [
+      "あるべき",
+      "あったまじき"
+     ]
+    },
+    {
+     "jp": "A：社長[しゃちょう]、今回[こんかい]の不正[ふせい]について一言[ひとこと]お願[ねが]いします。B：検査[けんさ]データの改[かい]ざんは、メーカーとして[[あるまじき]]行為[こうい]であり、深[ふか]くお詫[わ]び申[もう]し上[あ]げます。",
+     "vi": "A: Thưa giám đốc, xin ông nói đôi lời về vụ gian lận lần này. B: Việc sửa đổi dữ liệu kiểm tra là hành vi không được phép đối với một nhà sản xuất, chúng tôi thành thật xin lỗi.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "あるべき",
+      "あるまじく"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "部下[ぶか]にミスを押[お]しつけるのは",
+      "班[はん]長[ちょう]としてあるまじきだ",
+      "。"
+     ],
+     "vi": "Đổ lỗi cho cấp dưới là hành vi không thể chấp nhận ở một tổ trưởng.",
+     "bad": 1,
+     "fix": "班長[はんちょう]としてあるまじき行為[こうい]だ",
+     "why": "まじき luôn đứng trước danh từ (行為[こうい], こと…); không kết câu bằng まじきだ."
+    },
+    {
+     "chunks": [
+      "産地[さんち]を偽[いつわ]って売[う]るなど",
+      "許[ゆる]さないまじき行為[こうい]だ",
+      "。"
+     ],
+     "vi": "Gian dối nơi sản xuất để bán là hành vi không thể tha thứ.",
+     "bad": 1,
+     "fix": "許[ゆる]すまじき行為[こうい]だ",
+     "why": "まじき tự mang nghĩa \"không được\"; trước nó dùng thể từ điển 許[ゆる]す, không dùng thể ない."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Anh viết bản tường trình gửi công ty sau khi một nhân viên trong tổ bị phát hiện làm giả sổ ghi nhiệt độ: đó là hành vi không được phép đối với người làm thực phẩm.",
+     "opts": [
+      "温度[おんど]記録[きろく]の改[かい]ざんは、食品[しょくひん]を扱[あつか]う者[もの]としてあるまじき行為[こうい]です。",
+      "温度[おんど]記録[きろく]の改[かい]ざんは、食品[しょくひん]を扱[あつか]う者[もの]としてあるべき行為[こうい]です。",
+      "温度[おんど]記録[きろく]の改[かい]ざんは、食品[しょくひん]を扱[あつか]う者[もの]としてあるまじきです。"
+     ],
+     "ans": 0,
+     "why": "Phê phán hành vi trái tư cách, văn viết → として + あるまじき + danh từ. あるべき = nên có (ngược nghĩa); まじき không kết câu trực tiếp với です."
+    }
+   ],
+   "shift": [
+    {
+     "from": "お客[きゃく]さんに嘘[うそ]つくとか、プロとしてありえへんわ。",
+     "to": "お客様[きゃくさま]に嘘[うそ]をつくなど、プロとしてあるまじき行為[こうい]です。",
+     "kind": "kansai",
+     "note": "Kansai: ありえへん = ありえない; 嘘[うそ]つく (bỏ を, nói thường). Trang trọng, văn viết: 〜としてあるまじき行為[こうい]です.",
+     "wrong": [
+      "お客様[きゃくさま]に嘘[うそ]をつくなど、プロとしてあるべき行為[こうい]です。",
+      "お客様[きゃくさま]に嘘[うそ]をつくなど、プロとしてあるまじきです。"
+     ]
+    }
+   ],
+   "tpl": [
+    {
+     "f": "dict",
+     "pre": [
+      "社員[しゃいん]として"
+     ],
+     "tail": [
+      "まじき",
+      "行為[こうい]です"
+     ],
+     "vi": "Với tư cách nhân viên, {VP} là hành vi không được phép."
+    }
+   ]
+  },
+  {
+   "id": "g:〜べからず・〜べからざる",
+   "pattern": "〜べからず・〜べからざる",
+   "level": "N1",
+   "meaning": "cấm…, không được… (biển báo, nội quy, câu răn); べからざる + danh từ: không thể…, không được phép…",
+   "structure": [
+    "Động từ thể từ điển + べからず (cuối câu, biển cấm): 立[た]ち入[い]るべからず (cấm vào)",
+    "Động từ thể từ điển + べからざる + danh từ: 欠[か]くべからざる条件[じょうけん] (điều kiện không thể thiếu), 許[ゆる]すべからざる行為[こうい]",
+    "する → すべからず / すべからざる (cũng gặp するべからず); câu răn cổ: 初心[しょしん]忘[わす]るべからず"
+   ],
+   "explain": "〜べからず = CẤM…, KHÔNG ĐƯỢC…: lời cấm đoán mạnh, dạng cổ của 〜てはいけない, chủ yếu thấy trên biển báo, bảng nội quy, khẩu hiệu và câu răn. 芝生[しばふ]に入[はい]るべからず = cấm giẫm lên cỏ. 関係者[かんけいしゃ]以外[いがい]立[た]ち入[い]るべからず = không phận sự miễn vào. Câu răn nổi tiếng: 初心[しょしん]忘[わす]るべからず = đừng quên tâm thế ban đầu (忘[わす]る là dạng cổ của 忘[わす]れる); 働[はたら]かざる者[もの]食[く]うべからず = không làm thì không được ăn.\n\n〜べからざる là dạng đứng TRƯỚC DANH TỪ, nghĩa \"KHÔNG THỂ…, KHÔNG ĐƯỢC PHÉP…\": 欠[か]くべからざる人材[じんざい] = người không thể thiếu; 許[ゆる]すべからざる行為[こうい] = hành vi không thể dung thứ. Cách ghép: động từ thể từ điển + べからず / べからざる; する → すべからず / すべからざる (ngày nay cũng gặp するべからず). Quy tắc vị trí: べからず đứng cuối câu (cuối biển báo); べからざる luôn đi trước danh từ. Cụm hay gặp nhất: 欠[か]くべからざる (không thể thiếu).\n\nMức độ: văn viết rất cứng, cổ — biển báo, nội quy dán tường, châm ngôn, văn bản trang trọng. Không dùng khi nhắc nhở trực tiếp bằng lời: nói với người mới thì dùng 〜てはいけません / 〜ないでください / 〜は禁止[きんし]です. So với 〜べきではない (N3-21): cùng gốc べし, nhưng べきではない là lời khuyên \"không nên\", còn べからず là lệnh cấm. So với 〜べく (N1-11) và 〜べくもない (mẫu sau): べく = để mà…; べくもない = không thể nào… — cùng gốc べし nhưng nghĩa khác hẳn.\n\nMẹo nhớ: べから + ず (ず = không) → \"không được phép\". べからず ở cuối biển báo; べからざる + danh từ ở giữa câu. Nhớ cặp câu: 初心[しょしん]忘[わす]るべからず — 欠[か]くべからざる存在[そんざい].",
+   "casual": "Nói thường: 〜てはいけない / 〜禁止[きんし] / 〜たらあかん: ここ、入[はい]ったらあかんで (Kansai: あかん = だめ; で = よ).",
+   "compare": [
+    {
+     "pattern": "〜べきではない（N3-21）",
+     "diff": "Không nên (lời khuyên, ý kiến của người nói). べからず: lệnh cấm dạng cổ trên biển báo, nội quy — mạnh và cứng hơn nhiều."
+    },
+    {
+     "pattern": "〜べく（N1-11）",
+     "diff": "Để mà… (mục đích: 間[ま]に合[あ]わせるべく急[いそ]いだ). べからず: cấm…; べからざる: không thể…. Cùng gốc べし nhưng nghĩa khác hẳn."
+    }
+   ],
+   "mistakes": [
+    "Dùng べからず trước danh từ: 欠[か]くべからず条件[じょうけん] ✗ → 欠[か]くべからざる条件[じょうけん] (trước danh từ phải là べからざる).",
+    "Gắn sau thể ない vì nghĩ \"cấm\" phải có phủ định: 立[た]ち入[い]らないべからず ✗ → 立[た]ち入[い]るべからず (べからず đã mang nghĩa cấm)."
+   ],
+   "ex": [
+    {
+     "jp": "「ここにゴミを捨[す]てる[[べからず]]」という看板[かんばん]が立[た]っている。",
+     "vi": "Có tấm biển ghi \"Cấm vứt rác ở đây\".",
+     "ctx": "doisong",
+     "chunks": [
+      "「ここに",
+      "ゴミを",
+      "捨[す]てるべからず」と",
+      "いう",
+      "看板[かんばん]が",
+      "立[た]っている"
+     ],
+     "wrong": [
+      "べからざる",
+      "べきだ"
+     ]
+    },
+    {
+     "jp": "門[もん]には「関係者[かんけいしゃ]以外[いがい]立[た]ち入[い]る[[べからず]]」と書[か]かれた札[ふだ]がかかっている。",
+     "vi": "Ở cổng có treo tấm bảng ghi \"Không phận sự miễn vào\".",
+     "ctx": "doisong",
+     "chunks": [
+      "門[もん]には「",
+      "関係者[かんけいしゃ]以外[いがい]",
+      "立[た]ち入[い]るべからず」と",
+      "書[か]かれた",
+      "札[ふだ]が",
+      "かかっている"
+     ],
+     "wrong": [
+      "べからざる",
+      "べく"
+     ]
+    },
+    {
+     "jp": "「働[はたら]かざる者[もの]食[く]う[[べからず]]」と、祖父[そふ]によく言[い]われたものだ。",
+     "vi": "Ông tôi hay bảo: \"Không làm thì không được ăn.\"",
+     "ctx": "doisong",
+     "chunks": [
+      "「働[はたら]かざる",
+      "者[もの]",
+      "食[く]うべからず」と、",
+      "祖父[そふ]によく",
+      "言[い]われた",
+      "ものだ"
+     ],
+     "wrong": [
+      "べからざる",
+      "べきだ"
+     ]
+    },
+    {
+     "jp": "健康[けんこう]は、幸[しあわ]せな生活[せいかつ]に欠[か]く[[べからざる]]ものだ。",
+     "vi": "Sức khỏe là thứ không thể thiếu cho một cuộc sống hạnh phúc.",
+     "ctx": "doisong",
+     "chunks": [
+      "健康[けんこう]は、",
+      "幸[しあわ]せな",
+      "生活[せいかつ]に",
+      "欠[か]くべからざる",
+      "ものだ"
+     ],
+     "wrong": [
+      "べからず",
+      "べき"
+     ]
+    },
+    {
+     "jp": "加工[かこう]室[しつ]の入口[いりぐち]には「素手[すで]で魚[さかな]に触[ふ]れる[[べからず]]」という注意書[ちゅういが]きが貼[は]ってある。",
+     "vi": "Ở cửa phòng sơ chế có dán tờ lưu ý \"Cấm chạm vào cá bằng tay trần\".",
+     "ctx": "xuong",
+     "chunks": [
+      "加工[かこう]室[しつ]の",
+      "入口[いりぐち]には「",
+      "素手[すで]で魚[さかな]に",
+      "触[ふ]れるべからず」と",
+      "いう注意書[ちゅういが]きが",
+      "貼[は]ってある"
+     ],
+     "wrong": [
+      "べからざる",
+      "べきだ"
+     ]
+    },
+    {
+     "jp": "ベテラン社員[しゃいん]の経験[けいけん]は、品質[ひんしつ]を守[まも]るうえで欠[か]く[[べからざる]]ものだ。",
+     "vi": "Kinh nghiệm của nhân viên kỳ cựu là thứ không thể thiếu để giữ chất lượng.",
+     "ctx": "xuong",
+     "chunks": [
+      "ベテラン社員[しゃいん]の",
+      "経験[けいけん]は、",
+      "品質[ひんしつ]を守[まも]る",
+      "うえで",
+      "欠[か]くべからざる",
+      "ものだ"
+     ],
+     "wrong": [
+      "べからず",
+      "べく"
+     ]
+    },
+    {
+     "jp": "温度[おんど]記録[きろく]の改[かい]ざんは、許[ゆる]す[[べからざる]]行為[こうい]として厳[きび]しく処分[しょぶん]された。",
+     "vi": "Việc sửa hồ sơ nhiệt độ đã bị xử lý nghiêm khắc như một hành vi không thể dung thứ.",
+     "ctx": "xuong",
+     "chunks": [
+      "温度[おんど]記録[きろく]の",
+      "改[かい]ざんは、",
+      "許[ゆる]すべからざる",
+      "行為[こうい]として",
+      "厳[きび]しく処分[しょぶん]",
+      "された"
+     ],
+     "wrong": [
+      "べからず",
+      "べき"
+     ]
+    },
+    {
+     "jp": "マイナンバーは、むやみに他人[たにん]に教[おし]える[[べからざる]]大切[たいせつ]な個人情報[こじんじょうほう]だ。",
+     "vi": "Mã số My Number là thông tin cá nhân quan trọng, không được tùy tiện cho người khác biết.",
+     "ctx": "thutuc",
+     "chunks": [
+      "マイナンバーは、",
+      "むやみに",
+      "他人[たにん]に",
+      "教[おし]えるべからざる",
+      "大切[たいせつ]な",
+      "個人情報[こじんじょうほう]だ"
+     ],
+     "wrong": [
+      "べからず",
+      "べき"
+     ]
+    },
+    {
+     "jp": "重要[じゅうよう]事項[じこう]の説明[せつめい]は、賃貸契約[ちんたいけいやく]において欠[か]く[[べからざる]]手続[てつづ]きだ。",
+     "vi": "Phần giải thích các điều khoản quan trọng là thủ tục không thể thiếu trong hợp đồng thuê nhà.",
+     "ctx": "thutuc",
+     "chunks": [
+      "重要[じゅうよう]事項[じこう]の",
+      "説明[せつめい]は、",
+      "賃貸契約[ちんたいけいやく]に",
+      "おいて",
+      "欠[か]くべからざる",
+      "手続[てつづ]きだ"
+     ],
+     "wrong": [
+      "べからず",
+      "べく"
+     ]
+    },
+    {
+     "jp": "A：新人研修[しんじんけんしゅう]の最後[さいご]に、工場長[こうじょうちょう]から一言[ひとこと]お願[ねが]いします。B：「初心[しょしん]忘[わす]る[[べからず]]」。最初[さいしょ]の緊張感[きんちょうかん]を忘[わす]れず、安全[あんぜん]第[だい]一[いち]で働[はたら]いてください。",
+     "vi": "A: Cuối buổi đào tạo người mới, xin giám đốc xưởng nói đôi lời. B: \"Đừng quên tâm thế ban đầu.\" Hãy giữ sự căng thẳng của những ngày đầu, làm việc với an toàn là trên hết.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "べからざる",
+      "べく"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "彼[かれ]は",
+      "この仕事[しごと]に欠[か]くべからず人材[じんざい]だ",
+      "。"
+     ],
+     "vi": "Anh ấy là người không thể thiếu cho công việc này.",
+     "bad": 1,
+     "fix": "この仕事[しごと]に欠[か]くべからざる人材[じんざい]だ",
+     "why": "Trước danh từ (人材[じんざい]) phải dùng べからざる; べからず chỉ đứng cuối câu."
+    },
+    {
+     "chunks": [
+      "関係者[かんけいしゃ]以外[いがい]",
+      "立[た]ち入[い]らないべからず",
+      "。"
+     ],
+     "vi": "Không phận sự miễn vào.",
+     "bad": 1,
+     "fix": "立[た]ち入[い]るべからず",
+     "why": "べからず tự mang nghĩa cấm; trước nó là thể từ điển 立[た]ち入[い]る, không dùng thể ない."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Anh làm tấm biển dán ở cửa kho cấp đông theo kiểu biển cấm truyền thống: \"Không phận sự cấm vào\".",
+     "opts": [
+      "関係者[かんけいしゃ]以外[いがい]立[た]ち入[い]るべからず",
+      "関係者[かんけいしゃ]以外[いがい]立[た]ち入[い]るべからざる",
+      "関係者[かんけいしゃ]以外[いがい]立[た]ち入[い]らないべからず"
+     ],
+     "ans": 0,
+     "why": "Biển cấm, cuối câu → thể từ điển + べからず. べからざる phải đứng trước danh từ; không dùng thể ない trước べからず."
+    }
+   ],
+   "shift": [
+    {
+     "from": "ここ、関係[かんけい]ない人[ひと]は入[はい]ったらあかんで。",
+     "to": "関係者[かんけいしゃ]以外[いがい]立[た]ち入[い]るべからず。",
+     "kind": "kansai",
+     "note": "Kansai: 〜たらあかん = 〜てはいけない; で = よ. Biển báo văn viết, cổ: thể từ điển + べからず.",
+     "wrong": [
+      "関係者[かんけいしゃ]以外[いがい]立[た]ち入[い]るべからざる。",
+      "関係者[かんけいしゃ]以外[いがい]立[た]ち入[い]らないべからず。"
+     ]
+    }
+   ],
+   "tpl": [
+    {
+     "f": "dict",
+     "pre": [
+      "ここで"
+     ],
+     "tail": [
+      "べからず"
+     ],
+     "vi": "Cấm {VP} ở đây (biển báo)."
+    }
+   ]
+  },
+  {
+   "id": "g:〜べくもない",
+   "pattern": "〜べくもない",
+   "level": "N1",
+   "meaning": "không thể nào… được (dù có muốn), hoàn toàn ngoài tầm với",
+   "structure": [
+    "Động từ thể từ điển + べくもない: 知[し]るべくもない (không thể nào biết được)",
+    "Động từ hay đi kèm: 望[のぞ]む, 比[くら]べる, 知[し]る, 疑[うたが]う, 及[およ]ぶ, 避[さ]ける, 求[もと]める; する → すべくもない",
+    "Lịch sự: 〜べくもありません; quá khứ: 〜べくもなかった"
+   ],
+   "explain": "〜べくもない = KHÔNG THỂ NÀO… ĐƯỢC: người nói khẳng định điều đó hoàn toàn nằm ngoài khả năng — có muốn cũng không làm được, có mong cũng không có. Thường kèm cảm giác tiếc nuối, bất lực, hoặc tự nhận mình kém xa. 当時[とうじ]の給料[きゅうりょう]では、マイホームなど望[のぞ]むべくもなかった = với đồng lương hồi đó, nhà riêng là điều không thể mong. プロの腕前[うでまえ]とは比[くら]べるべくもない = không thể nào so được với tay nghề dân chuyên.\n\nCách ghép: động từ thể từ điển + べくもない (する → すべくもない). Động từ đi kèm khá cố định, nên học theo cụm: 望[のぞ]むべくもない (không thể mong), 比[くら]べるべくもない (không thể so), 知[し]るべくもない (không thể biết), 疑[うたが]うべくもない (không thể nghi ngờ = hiển nhiên), 及[およ]ぶべくもない (không thể sánh kịp), 避[さ]けるべくもない (không thể tránh). Mẫu nói về khả năng ngoài tầm tay, KHÔNG dùng cho ý chí của mình (\"tôi quyết không làm\" → dùng 〜まい).\n\nMức độ: văn viết, trang trọng, hơi văn chương — bài báo, tiểu luận, hồi ký, phát biểu. Nói thường dùng 〜わけがない / 〜なんて無理[むり]だ / 〜ようがない. So với 〜ようがない (N2-23): ようがない = không có cách nào để làm (thiếu phương tiện: 連絡[れんらく]のしようがない); べくもない = điều đó vốn ở ngoài tầm với, không thể mong, không thể so — giọng văn chương hơn. So với 〜っこない (N2-23): っこない là khẩu ngữ \"làm gì có chuyện\". Đừng lẫn với 〜べからず (mẫu trước): べからず = cấm; べくもない = không thể nào.\n\nMẹo nhớ: べく (để có thể) + も + ない → \"đến cả khả năng để… cũng không có\". Học thuộc ba cụm hay ra đề: 望[のぞ]むべくもない・比[くら]べるべくもない・知[し]るべくもない.",
+   "casual": "Nói thường: 〜わけがない / 〜なんて無理[むり]: プロの腕[うで]と比[くら]べられるわけないやん (Kansai: やん = じゃない).",
+   "compare": [
+    {
+     "pattern": "〜ようがない（N2-23）",
+     "diff": "Không có cách nào để làm (thiếu phương tiện: 連絡[れんらく]のしようがない). べくもない: điều đó vốn ngoài tầm với — không thể mong, không thể so (văn chương hơn, đi với 望[のぞ]む, 比[くら]べる, 知[し]る)."
+    },
+    {
+     "pattern": "〜っこない（N2-23）",
+     "diff": "Làm gì có chuyện… (khẩu ngữ, nói với bạn bè). べくもない: cùng ý \"không thể\" nhưng là văn viết, trang trọng."
+    }
+   ],
+   "mistakes": [
+    "Dùng thể ない trước: 知[し]らないべくもない ✗ → 知[し]るべくもない (べくもない đã mang nghĩa phủ định).",
+    "Dùng cho quyết tâm của mình: もう二度[にど]と遅刻[ちこく]するべくもない ✗ → 二度[にど]と遅刻[ちこく]するまい (まい = quyết không)."
+   ],
+   "ex": [
+    {
+     "jp": "当時[とうじ]の私[わたし]の給料[きゅうりょう]では、マイホームなど[[望[のぞ]むべくもなかった]]。",
+     "vi": "Với đồng lương của tôi hồi đó, nhà riêng là điều không thể mong.",
+     "ctx": "doisong",
+     "chunks": [
+      "当時[とうじ]の",
+      "私[わたし]の",
+      "給料[きゅうりょう]では、",
+      "マイホームなど",
+      "望[のぞ]むべくもなかった"
+     ],
+     "wrong": [
+      "望[のぞ]まないべくもなかった",
+      "望[のぞ]むべきもなかった"
+     ]
+    },
+    {
+     "jp": "私[わたし]の料理[りょうり]など、プロの料理人[りょうりにん]の腕前[うでまえ]とは[[比[くら]べるべくもない]]。",
+     "vi": "Món ăn của tôi thì không thể nào so được với tay nghề của đầu bếp chuyên nghiệp.",
+     "ctx": "doisong",
+     "chunks": [
+      "私[わたし]の",
+      "料理[りょうり]など、",
+      "プロの",
+      "料理人[りょうりにん]の",
+      "腕前[うでまえ]とは",
+      "比[くら]べるべくもない"
+     ],
+     "wrong": [
+      "比[くら]べないべくもない",
+      "比[くら]べたべくもない"
+     ]
+    },
+    {
+     "jp": "祖父[そふ]が若[わか]い頃[ころ]どんな苦労[くろう]をしたのか、今[いま]となっては[[知[し]るべくもない]]。",
+     "vi": "Ông tôi thời trẻ đã chịu vất vả thế nào, đến giờ thì không cách gì biết được.",
+     "ctx": "doisong",
+     "chunks": [
+      "祖父[そふ]が若[わか]い頃[ころ]",
+      "どんな苦労[くろう]を",
+      "したのか、",
+      "今[いま]と",
+      "なっては",
+      "知[し]るべくもない"
+     ],
+     "wrong": [
+      "知[し]らないべくもない",
+      "知[し]るべきもない"
+     ]
+    },
+    {
+     "jp": "彼[かれ]が誠実[せいじつ]な人[ひと]であることは、[[疑[うたが]うべくもない]]。",
+     "vi": "Anh ấy là người thành thật — điều đó không thể nghi ngờ.",
+     "ctx": "doisong",
+     "chunks": [
+      "彼[かれ]が",
+      "誠実[せいじつ]な",
+      "人[ひと]である",
+      "ことは、",
+      "疑[うたが]うべくもない"
+     ],
+     "wrong": [
+      "疑[うたが]わないべくもない",
+      "疑[うたが]ったべくもない"
+     ]
+    },
+    {
+     "jp": "人[ひと]の手[て]で切[き]る以上[いじょう]、切[き]り身[み]の重[おも]さに多少[たしょう]のばらつきが出[で]るのは[[避[さ]けるべくもない]]。",
+     "vi": "Đã cắt bằng tay người thì trọng lượng các miếng cá chênh nhau đôi chút là điều không thể tránh.",
+     "ctx": "xuong",
+     "chunks": [
+      "人[ひと]の手[て]で切[き]る",
+      "以上[いじょう]、切[き]り身[み]の",
+      "重[おも]さに多少[たしょう]の",
+      "ばらつきが",
+      "出[で]るのは",
+      "避[さ]けるべくもない"
+     ],
+     "wrong": [
+      "避[さ]けないべくもない",
+      "避[さ]けるべきもない"
+     ]
+    },
+    {
+     "jp": "人手不足[ひとでふそく]の今[いま]の現場[げんば]では、新人[しんじん]ひとりひとりへの丁寧[ていねい]な研修[けんしゅう]など[[望[のぞ]むべくもない]]。",
+     "vi": "Ở xưởng thiếu người như hiện nay, đào tạo chu đáo cho từng người mới là điều không thể mong.",
+     "ctx": "xuong",
+     "chunks": [
+      "人手不足[ひとでふそく]の今[いま]の",
+      "現場[げんば]では、新人[しんじん]",
+      "ひとりひとりへの",
+      "丁寧[ていねい]な",
+      "研修[けんしゅう]など",
+      "望[のぞ]むべくもない"
+     ],
+     "wrong": [
+      "望[のぞ]まないべくもない",
+      "望[のぞ]んだべくもない"
+     ]
+    },
+    {
+     "jp": "入社[にゅうしゃ]して日[ひ]の浅[あさ]い私[わたし]の腕[うで]では、ベテランのグエンさんには[[及[およ]ぶべくもない]]。",
+     "vi": "Tay nghề của tôi, người mới vào công ty chưa lâu, không thể nào sánh kịp anh Nguyễn kỳ cựu.",
+     "ctx": "xuong",
+     "chunks": [
+      "入社[にゅうしゃ]して",
+      "日[ひ]の浅[あさ]い私[わたし]の",
+      "腕[うで]では、",
+      "ベテランの",
+      "グエンさんには",
+      "及[およ]ぶべくもない"
+     ],
+     "wrong": [
+      "及[およ]ばないべくもない",
+      "及[およ]ぶべきもない"
+     ]
+    },
+    {
+     "jp": "審査[しんさ]の基準[きじゅん]は公開[こうかい]されていないので、ローンが通[とお]らなかった本当[ほんとう]の理由[りゆう]は[[知[し]るべくもない]]。",
+     "vi": "Tiêu chuẩn thẩm định không được công khai nên lý do thật sự khoản vay không được duyệt thì không cách gì biết được.",
+     "ctx": "thutuc",
+     "chunks": [
+      "審査[しんさ]の基準[きじゅん]は公開[こうかい]",
+      "されていないので、",
+      "ローンが",
+      "通[とお]らなかった",
+      "本当[ほんとう]の理由[りゆう]は",
+      "知[し]るべくもない"
+     ],
+     "wrong": [
+      "知[し]らないべくもない",
+      "知[し]ったべくもない"
+     ]
+    },
+    {
+     "jp": "保険料[ほけんりょう]の安[やす]さだけで選[えら]んだ保険[ほけん]に、手厚[てあつ]い保障[ほしょう]まで[[求[もと]めるべくもない]]。",
+     "vi": "Bảo hiểm chọn chỉ vì phí rẻ thì không thể nào đòi hỏi cả mức bảo vệ chu đáo.",
+     "ctx": "thutuc",
+     "chunks": [
+      "保険料[ほけんりょう]の",
+      "安[やす]さだけで",
+      "選[えら]んだ保険[ほけん]に、",
+      "手厚[てあつ]い",
+      "保障[ほしょう]まで",
+      "求[もと]めるべくもない"
+     ],
+     "wrong": [
+      "求[もと]めないべくもない",
+      "求[もと]めるべきもない"
+     ]
+    },
+    {
+     "jp": "A：小[ちい]さな町工場[まちこうば]が大手[おおて]と価格[かかく]で勝負[しょうぶ]するのは難[むずか]しいですか。B：ええ、規模[きぼ]の点[てん]では大手[おおて]とは[[比[くら]べるべくもありません]]。ですから品質[ひんしつ]で勝負[しょうぶ]したいと考[かんが]えています。",
+     "vi": "A: Xưởng nhỏ cạnh tranh giá với công ty lớn có khó không? B: Vâng, về quy mô thì không thể nào so được với công ty lớn. Vì thế chúng tôi muốn cạnh tranh bằng chất lượng.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "比[くら]べないべくもありません",
+      "比[くら]べるべきもありません"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "祖父[そふ]の若[わか]い頃[ころ]の苦労[くろう]は",
+      "今[いま]となっては知[し]らないべくもない",
+      "。"
+     ],
+     "vi": "Nỗi vất vả thời trẻ của ông, đến giờ thì không cách gì biết được.",
+     "bad": 1,
+     "fix": "今[いま]となっては知[し]るべくもない",
+     "why": "べくもない tự mang nghĩa phủ định; trước nó dùng thể từ điển 知[し]る."
+    },
+    {
+     "chunks": [
+      "もう二度[にど]と",
+      "遅刻[ちこく]するべくもない",
+      "。"
+     ],
+     "vi": "Tôi quyết sẽ không bao giờ đi muộn nữa.",
+     "bad": 1,
+     "fix": "遅刻[ちこく]するまい",
+     "why": "べくもない = không thể nào (khả năng ngoài tầm), không dùng cho quyết tâm của mình. \"Quyết không…\" → まい."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Trong bài phát biểu ở tiệc cuối năm của công ty, anh nói: hồi mới sang Nhật, được làm tổ trưởng là điều tôi không dám mơ tới.",
+     "opts": [
+      "来日[らいにち]した当時[とうじ]は、班長[はんちょう]になることなど望[のぞ]むべくもありませんでした。",
+      "来日[らいにち]した当時[とうじ]は、班長[はんちょう]になることなど望[のぞ]まないべくもありませんでした。",
+      "来日[らいにち]した当時[とうじ]は、班長[はんちょう]になることなど望[のぞ]むべからずでした。"
+     ],
+     "ans": 0,
+     "why": "Điều ngoài tầm với, không thể mong → 辞書形[じしょけい] + べくもない. Không dùng thể ない trước; べからず = cấm (sai nghĩa, sai dạng)."
+    }
+   ],
+   "shift": [
+    {
+     "from": "プロの腕[うで]と比[くら]べられるわけないやん。",
+     "to": "プロの腕前[うでまえ]とは比[くら]べるべくもありません。",
+     "kind": "kansai",
+     "note": "Kansai: やん = じゃない (nhấn); 〜わけない = 〜わけがない. Văn trang trọng: 辞書形[じしょけい] + べくもありません.",
+     "wrong": [
+      "プロの腕前[うでまえ]とは比[くら]べないべくもありません。",
+      "プロの腕前[うでまえ]とは比[くら]べるべきもありません。"
+     ]
+    }
+   ],
+   "tpl": [
+    {
+     "f": "dict",
+     "pre": [
+      "今[いま]の私[わたし]には"
+     ],
+     "tail": [
+      "べくもありません"
+     ],
+     "vi": "Với tôi bây giờ, không thể nào {VP} được."
+    }
+   ]
+  }
+ ]
+}

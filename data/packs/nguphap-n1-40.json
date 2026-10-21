@@ -1,0 +1,761 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "nguphap-n1-40",
+  "title": "Ngữ pháp N1 40 – Có vẻ là… / có thể gọi là… / phải chăng…: とおぼしき・とでもいうべき・ではあるまいか",
+  "type": "grammar",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
+ },
+ "items": [
+  {
+   "id": "g:〜とおぼしき",
+   "pattern": "〜とおぼしき",
+   "level": "N1",
+   "meaning": "(danh từ) có vẻ là…, trông như là…, được cho là… — đoán từ vẻ bề ngoài, chưa chắc chắn (văn báo chí, báo cáo)",
+   "structure": [
+    "Danh từ + とおぼしき + Danh từ: 犯人[はんにん]とおぼしき男[おとこ] (người đàn ông có vẻ là thủ phạm), 四十代[よんじゅうだい]とおぼしき女性[じょせい]",
+    "Động từ / tính từ thể thường + とおぼしき + Danh từ: 誰[だれ]かが置[お]き忘[わす]れたとおぼしき傘[かさ] (chiếc ô có vẻ do ai đó bỏ quên)",
+    "Luôn đứng TRƯỚC danh từ; chữ Hán: 〜と思[おぼ]しき (ít gặp, thường viết かな); văn viết, cứng"
+   ],
+   "explain": "〜とおぼしき = CÓ VẺ LÀ…, TRÔNG NHƯ LÀ…, ĐƯỢC CHO LÀ…: người viết nhìn vẻ bề ngoài, dấu vết, tình huống rồi đoán danh tính hoặc tính chất của một người, một vật — nhưng chưa xác nhận được. 防犯[ぼうはん]カメラには、犯人[はんにん]とおぼしき男[おとこ]が映[うつ]っていた = camera an ninh ghi lại hình một người đàn ông có vẻ là thủ phạm (chưa chắc là thủ phạm). 骨抜[ほねぬ]きの際[さい]に折[お]れたとおぼしき小骨[こぼね] = chiếc xương nhỏ có vẻ đã gãy lúc nhổ xương. Gốc của nó là tính từ cổ おぼしい (思[おぼ]しい = được nghĩ là, trông như), き là đuôi bổ nghĩa danh từ kiểu cổ.\n\nCách ghép: danh từ + とおぼしき + danh từ (犯人[はんにん]とおぼしき男[おとこ], 観光客[かんこうきゃく]とおぼしき家族[かぞく]); hoặc động từ, tính từ thể thường + とおぼしき + danh từ (侵入[しんにゅう]したとおぼしき跡[あと] = dấu vết có vẻ như đã bị đột nhập). Trợ từ luôn là と (không dùng の); danh từ gắn thẳng vào と, thường không chen だ. とおぼしき LUÔN đứng trước một danh từ — không đặt ở cuối câu (あの男[おとこ]が犯人[はんにん]とおぼしき。✗). Danh từ phía sau thường là 人物[じんぶつ], 男[おとこ], 女性[じょせい], 車[くるま], 跡[あと], 物[もの], 異物[いぶつ]….\n\nMức độ: văn viết cứng — tin tức, phóng sự, báo cáo sự cố, tiểu thuyết trinh thám. Người viết dùng nó để giữ thái độ khách quan: \"tôi chỉ đoán, chưa khẳng định\". Nói chuyện thường dùng 〜らしい, 〜っぽい, 〜みたいな. So với 〜らしい (N4-05): らしい đứng được cả cuối câu lẫn trước danh từ, dùng cả khi nói; とおぼしき chỉ bổ nghĩa danh từ, văn viết. So với 〜とみえる (N2-37): とみえる đứng cuối câu, suy luận từ dấu hiệu (よほど疲[つか]れているとみえる); とおぼしき gắn tên gọi phỏng đoán cho một người / vật cụ thể.\n\nMẹo nhớ: おぼしき ≈ \"思[おぼ]しき\" = \"được nghĩ là\". Nhớ nguyên khuôn tin tức: 〈犯人[はんにん]／関係者[かんけいしゃ]／外国人[がいこくじん]〉とおぼしき〈人物[じんぶつ]〉 — \"một nhân vật có vẻ là…\".",
+   "casual": "Nói thường: 〜っぽい / 〜みたいな / 〜らしい: 犯人[はんにん]っぽい男[おとこ]が映[うつ]っとったで (Kansai: 映[うつ]っとった = 映[うつ]っていた; で = よ).",
+   "compare": [
+    {
+     "pattern": "〜らしい（N4-05）",
+     "diff": "Có vẻ là… (dùng cả khi nói, đứng cuối câu hoặc trước danh từ: 犯人[はんにん]らしい). とおぼしき: chỉ đứng trước danh từ, văn viết báo chí, báo cáo; giọng khách quan, dè dặt."
+    },
+    {
+     "pattern": "〜とみえる・〜とみえて（N2-37）",
+     "diff": "Có vẻ như… (suy luận từ dấu hiệu, đứng cuối câu hoặc nối câu: よほど疲[つか]れているとみえる). とおぼしき: không đứng cuối câu, chỉ bổ nghĩa cho danh từ (犯人[はんにん]とおぼしき男[おとこ])."
+    }
+   ],
+   "mistakes": [
+    "Dùng trợ từ の thay cho と: 犯人[はんにん]のおぼしき男[おとこ] ✗ → 犯人[はんにん]とおぼしき男[おとこ].",
+    "Kết thúc câu bằng とおぼしき: どうやらあの男[おとこ]が犯人[はんにん]とおぼしき。✗ → どうやらあの男[おとこ]が犯人[はんにん]らしい。/ 犯人[はんにん]とおぼしき男[おとこ]が映[うつ]っていた (phải có danh từ phía sau)."
+   ],
+   "ex": [
+    {
+     "jp": "駅前[えきまえ]で、観光客[かんこうきゃく][[とおぼしき]]外国人[がいこくじん]の家族[かぞく]に道[みち]を聞[き]かれた。",
+     "vi": "Ở trước ga, tôi được một gia đình người nước ngoài có vẻ là khách du lịch hỏi đường.",
+     "ctx": "doisong",
+     "chunks": [
+      "駅前[えきまえ]で、",
+      "観光客[かんこうきゃく]とおぼしき",
+      "外国人[がいこくじん]の",
+      "家族[かぞく]に",
+      "道[みち]を",
+      "聞[き]かれた"
+     ],
+     "wrong": [
+      "のおぼしき",
+      "とおぼしく"
+     ]
+    },
+    {
+     "jp": "防犯[ぼうはん]カメラには、犯人[はんにん][[とおぼしき]]男[おとこ]の姿[すがた]が映[うつ]っていた。",
+     "vi": "Camera an ninh đã ghi lại hình ảnh một người đàn ông có vẻ là thủ phạm.",
+     "ctx": "doisong",
+     "chunks": [
+      "防犯[ぼうはん]",
+      "カメラには、",
+      "犯人[はんにん]とおぼしき",
+      "男[おとこ]の",
+      "姿[すがた]が",
+      "映[うつ]っていた"
+     ],
+     "wrong": [
+      "のおぼしき",
+      "とおぼしくて"
+     ]
+    },
+    {
+     "jp": "公園[こうえん]のベンチに、誰[だれ]かが置[お]き忘[わす]れた[[とおぼしき]]傘[かさ]が一本[いっぽん]残[のこ]っていた。",
+     "vi": "Trên ghế công viên còn sót lại một chiếc ô có vẻ do ai đó bỏ quên.",
+     "ctx": "doisong",
+     "chunks": [
+      "公園[こうえん]の",
+      "ベンチに、",
+      "誰[だれ]かが置[お]き",
+      "忘[わす]れたとおぼしき",
+      "傘[かさ]が一本[いっぽん]",
+      "残[のこ]っていた"
+     ],
+     "wrong": [
+      "をおぼしき",
+      "とおぼしく"
+     ]
+    },
+    {
+     "jp": "現場[げんば]近[ちか]くでは、事件[じけん]に関係[かんけい]している[[とおぼしき]]車[くるま]が何度[なんど]も目撃[もくげき]されている。",
+     "vi": "Gần hiện trường, người ta đã nhiều lần trông thấy một chiếc xe được cho là có liên quan đến vụ án.",
+     "ctx": "doisong",
+     "chunks": [
+      "現場[げんば]近[ちか]くでは、",
+      "事件[じけん]に関係[かんけい]",
+      "しているとおぼしき",
+      "車[くるま]が何度[なんど]も",
+      "目撃[もくげき]",
+      "されている"
+     ],
+     "wrong": [
+      "のおぼしき",
+      "とおぼしく"
+     ]
+    },
+    {
+     "jp": "検品[けんぴん]中[ちゅう]、骨抜[ほねぬ]きの際[さい]に折[お]れた[[とおぼしき]]小骨[こぼね]が一本[いっぽん]見[み]つかった。",
+     "vi": "Trong lúc kiểm hàng, phát hiện một chiếc xương nhỏ có vẻ đã bị gãy khi nhổ xương.",
+     "ctx": "xuong",
+     "chunks": [
+      "検品[けんぴん]中[ちゅう]、",
+      "骨抜[ほねぬ]きの",
+      "際[さい]に",
+      "折[お]れたとおぼしき",
+      "小骨[こぼね]が一本[いっぽん]",
+      "見[み]つかった"
+     ],
+     "wrong": [
+      "をおぼしき",
+      "とおぼしくて"
+     ]
+    },
+    {
+     "jp": "朝礼[ちょうれい]の前[まえ]に、保健所[ほけんじょ]の職員[しょくいん][[とおぼしき]]二人[ふたり]組[ぐみ]が工場長[こうじょうちょう]と話[はな]していた。",
+     "vi": "Trước buổi họp sáng, có hai người có vẻ là nhân viên trung tâm y tế công cộng đang nói chuyện với giám đốc xưởng.",
+     "ctx": "xuong",
+     "chunks": [
+      "朝礼[ちょうれい]の前[まえ]に、",
+      "保健所[ほけんじょ]の",
+      "職員[しょくいん]とおぼしき",
+      "二人[ふたり]組[ぐみ]が",
+      "工場長[こうじょうちょう]と",
+      "話[はな]していた"
+     ],
+     "wrong": [
+      "のおぼしき",
+      "とおぼしく"
+     ]
+    },
+    {
+     "jp": "回収[かいしゅう]したサンプルからは、ビニール手袋[てぶくろ]の破片[はへん][[とおぼしき]]青[あお]い異物[いぶつ]が検出[けんしゅつ]された。",
+     "vi": "Từ mẫu thu hồi đã phát hiện một dị vật màu xanh được cho là mảnh găng tay nilon.",
+     "ctx": "xuong",
+     "chunks": [
+      "回収[かいしゅう]した",
+      "サンプルからは、",
+      "ビニール手袋[てぶくろ]の",
+      "破片[はへん]とおぼしき",
+      "青[あお]い異物[いぶつ]が",
+      "検出[けんしゅつ]された"
+     ],
+     "wrong": [
+      "のおぼしき",
+      "とおぼしくて"
+     ]
+    },
+    {
+     "jp": "郵便受[ゆうびんう]けに、銀行[ぎんこう]を装[よそお]った[[とおぼしき]]不審[ふしん]な手紙[てがみ]が届[とど]いていた。",
+     "vi": "Trong hộp thư có một lá thư đáng ngờ, có vẻ là giả danh ngân hàng.",
+     "ctx": "thutuc",
+     "chunks": [
+      "郵便受[ゆうびんう]けに、",
+      "銀行[ぎんこう]を",
+      "装[よそお]ったとおぼしき",
+      "不審[ふしん]な",
+      "手紙[てがみ]が",
+      "届[とど]いていた"
+     ],
+     "wrong": [
+      "をおぼしき",
+      "とおぼしく"
+     ]
+    },
+    {
+     "jp": "市[し]の広報[こうほう]によると、在留[ざいりゅう]外国人[がいこくじん]を狙[ねら]った[[とおぼしき]]詐欺[さぎ]の電話[でんわ]が増[ふ]えているという。",
+     "vi": "Theo bản tin của thành phố, các cuộc gọi lừa đảo có vẻ nhắm vào người nước ngoài đang cư trú đang gia tăng.",
+     "ctx": "thutuc",
+     "chunks": [
+      "市[し]の広報[こうほう]に",
+      "よると、在留[ざいりゅう]",
+      "外国人[がいこくじん]を",
+      "狙[ねら]ったとおぼしき",
+      "詐欺[さぎ]の電話[でんわ]が",
+      "増[ふ]えているという"
+     ],
+     "wrong": [
+      "をおぼしき",
+      "とおぼしくて"
+     ]
+    },
+    {
+     "jp": "A：防犯[ぼうはん]カメラの映像[えいぞう]はどうでしたか。B：はい、深夜[しんや]二時[にじ]ごろ、外部[がいぶ]の者[もの][[とおぼしき]]人物[じんぶつ]が裏口[うらぐち]付近[ふきん]を歩[ある]いているのが確認[かくにん]できました。",
+     "vi": "A: Hình ảnh camera an ninh thế nào? B: Vâng, đã xác nhận được khoảng 2 giờ đêm có một nhân vật có vẻ là người ngoài đi lại gần cửa sau.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "のおぼしき",
+      "とおぼしく"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "防犯[ぼうはん]カメラに",
+      "犯人[はんにん]のおぼしき男[おとこ]が",
+      "映[うつ]っていた"
+     ],
+     "vi": "Camera an ninh đã ghi lại một người đàn ông có vẻ là thủ phạm.",
+     "bad": 1,
+     "fix": "犯人[はんにん]とおぼしき男[おとこ]が",
+     "why": "Danh từ + と + おぼしき (trợ từ と, không phải の)."
+    },
+    {
+     "chunks": [
+      "防犯[ぼうはん]カメラの映像[えいぞう]を見[み]ると",
+      "どうやらあの男[おとこ]が犯人[はんにん]とおぼしき",
+      "。"
+     ],
+     "vi": "Xem hình ảnh camera thì có vẻ người đàn ông đó là thủ phạm.",
+     "bad": 1,
+     "fix": "どうやらあの男[おとこ]が犯人[はんにん]らしい",
+     "why": "とおぼしき là dạng bổ nghĩa, luôn đứng trước danh từ (犯人[はんにん]とおぼしき男[おとこ]); không kết thúc câu bằng とおぼしき. Cuối câu → らしい."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Anh viết báo cáo sự cố gửi phòng quản lý chất lượng: trong lô cá thu có lẫn một mảnh nhỏ màu trắng, được cho là mảnh nhựa của thớt.",
+     "opts": [
+      "サバの中[なか]に、まな板[いた]の破片[はへん]とおぼしき白[しろ]い異物[いぶつ]が混入[こんにゅう]していた。",
+      "サバの中[なか]に、まな板[いた]の破片[はへん]のおぼしき白[しろ]い異物[いぶつ]が混入[こんにゅう]していた。",
+      "サバの中[なか]に混入[こんにゅう]していた白[しろ]い異物[いぶつ]は、まな板[いた]の破片[はへん]とおぼしき。"
+     ],
+     "ans": 0,
+     "why": "Đoán danh tính dị vật, văn báo cáo → N + とおぼしき + N. Trợ từ là と; とおぼしき không đứng cuối câu."
+    }
+   ],
+   "shift": [
+    {
+     "from": "防犯[ぼうはん]カメラに、犯人[はんにん]っぽい男[おとこ]が映[うつ]っとったで。",
+     "to": "防犯[ぼうはん]カメラには、犯人[はんにん]とおぼしき男[おとこ]が映[うつ]っていました。",
+     "kind": "kansai",
+     "note": "Kansai: 映[うつ]っとった = 映[うつ]っていた; で = よ. っぽい (khẩu ngữ) → とおぼしき (văn viết, báo cáo).",
+     "wrong": [
+      "防犯[ぼうはん]カメラには、犯人[はんにん]のおぼしき男[おとこ]が映[うつ]っていました。",
+      "防犯[ぼうはん]カメラには、犯人[はんにん]とおぼしく男[おとこ]が映[うつ]っていました。"
+     ]
+    }
+   ],
+   "tpl": [
+    {
+     "f": "ta",
+     "pre": [
+      "誰[だれ]かが"
+     ],
+     "tail": [
+      "とおぼしき",
+      "跡[あと]が残[のこ]っていました"
+     ],
+     "vi": "Còn lại dấu vết có vẻ như ai đó đã {VP}."
+    }
+   ]
+  },
+  {
+   "id": "g:〜とでもいうべき",
+   "pattern": "〜とでもいうべき",
+   "level": "N1",
+   "meaning": "có thể gọi là…, có lẽ phải gọi là… — chọn cách gọi, cách ví von gần đúng nhất cho sự vật (văn viết)",
+   "structure": [
+    "Danh từ + とでもいうべき + Danh từ: 第二[だいに]の故郷[こきょう]とでもいうべき町[まち] (thành phố có thể gọi là quê hương thứ hai)",
+    "Cuối câu: Danh từ + とでもいうべきだ / とでもいうべきだろう / とでもいうべきものだ",
+    "Chữ Hán: とでも言[い]うべき; gần nghĩa: 〜とでもいおうか, 言[い]ってみれば〜"
+   ],
+   "explain": "〜とでもいうべき = CÓ THỂ GỌI LÀ…, CÓ LẼ PHẢI GỌI LÀ…: người nói muốn diễn tả bản chất của một sự vật nhưng không có từ nào thật chính xác, nên chọn một cách gọi, một hình ảnh ví von gần đúng nhất. 私[わたし]にとって神戸[こうべ]は、第[だい]二[に]の故郷[こきょう]とでもいうべき町[まち]だ = với tôi Kobe là thành phố có thể gọi là quê hương thứ hai. 山本[やまもと]さんは現場[げんば]の生[い]き字引[じびき]とでもいうべき人[ひと]だ = anh Yamamoto là người có thể gọi là \"cuốn từ điển sống\" của hiện trường.\n\nCách ghép: danh từ + とでもいうべき + danh từ. Phân tích: と (trích dẫn cách gọi) + でも (chẳng hạn, có lẽ — làm giọng mềm, dè dặt) + いう (gọi) + べき (nên). Cuối câu dùng とでもいうべきだ / だろう / ものだ. Trợ từ luôn là と; trước danh từ phải là いうべき (không dùng べく, べし). Phía sau thường là danh từ chung chung: 存在[そんざい], もの, 人[ひと], 場所[ばしょ], 町[まち], 仕組[しく]み.\n\nMức độ: văn viết và phát biểu trang trọng — bài luận, xã luận, bài viết giới thiệu, lời phát biểu khi chia tay, khi nhận giải. Sắc thái: có chút hình ảnh, cảm xúc, nhưng vẫn khiêm tốn (\"có lẽ nên gọi là\"). Nói thường: 〜みたいなもの, 言[い]ってみれば〜. So với 〜にほかならない (N2-20): にほかならない khẳng định chắc nịch \"chính là\"; とでもいうべき mềm hơn, chỉ \"đề nghị một cách gọi\". So với 〜かのようだ (N3-34): かのようだ = \"như thể\" (so sánh với điều không có thật); とでもいうべき đặt một cái tên tượng trưng cho sự vật.\n\nMẹo nhớ: でも = \"chẳng hạn\"; いうべき = \"nên gọi\" → \"chẳng hạn nên gọi là…\". Thấy câu dạng 〈A〉は〈B〉とでもいうべき〈N〉だ thì B là cách ví von, không phải nghĩa đen.",
+   "casual": "Nói thường: 〜みたいなもの / 言[い]ってみれば〜: あの人[ひと]、うちの現場[げんば]の生[い]き字引[じびき]みたいなもんやな (Kansai: もん = もの; やな = だね).",
+   "compare": [
+    {
+     "pattern": "〜にほかならない（N2-20）",
+     "diff": "Chính là… (khẳng định chắc chắn bản chất, lý do). とでもいうべき: \"có lẽ nên gọi là…\" — chọn cách gọi, ví von gần đúng, giọng mềm, dè dặt hơn."
+    },
+    {
+     "pattern": "〜かのように・〜かのようだ（N3-34）",
+     "diff": "Như thể… (so sánh với điều không có thật: まるで夢[ゆめ]を見[み]ているかのようだ). とでもいうべき: đặt cho sự vật một cái tên tượng trưng (第二[だいに]の故郷[こきょう]とでもいうべき町[まち])."
+    }
+   ],
+   "mistakes": [
+    "Đổi trợ từ と thành に: 第[だい]二[に]の故郷[こきょう]にでもいうべき町[まち] ✗ → 第[だい]二[に]の故郷[こきょう]とでもいうべき町[まち].",
+    "Dùng cho tên gọi đúng nghĩa đen, không có ý ví von: 富士山[ふじさん]は日本一[にほんいち]高[たか]い山[やま]とでもいうべきだ ✗ → 富士山[ふじさん]は日本一[にほんいち]高[たか]い山[やま]だ (sự thật thì nói thẳng)."
+   ],
+   "ex": [
+    {
+     "jp": "私[わたし]にとって神戸[こうべ]は、第[だい]二[に]の故郷[こきょう][[とでもいうべき]]町[まち]だ。",
+     "vi": "Với tôi, Kobe là thành phố có thể gọi là quê hương thứ hai.",
+     "ctx": "doisong",
+     "chunks": [
+      "私[わたし]に",
+      "とって",
+      "神戸[こうべ]は、",
+      "第[だい]二[に]の",
+      "故郷[こきょう]とでもいうべき",
+      "町[まち]だ"
+     ],
+     "wrong": [
+      "にでもいうべき",
+      "とでもいうべく"
+     ]
+    },
+    {
+     "jp": "スマートフォンは、今[いま]や体[からだ]の一部[いちぶ][[とでもいうべき]]存在[そんざい]になった。",
+     "vi": "Điện thoại thông minh giờ đây đã trở thành thứ có thể gọi là một phần cơ thể.",
+     "ctx": "doisong",
+     "chunks": [
+      "スマートフォンは、",
+      "今[いま]や",
+      "体[からだ]の",
+      "一部[いちぶ]とでもいうべき",
+      "存在[そんざい]に",
+      "なった"
+     ],
+     "wrong": [
+      "でもいうべき",
+      "とでもいうべし"
+     ]
+    },
+    {
+     "jp": "週末[しゅうまつ]になると行列[ぎょうれつ]ができるこのパン屋[や]は、町[まち]の名物[めいぶつ][[とでもいうべき]]店[みせ]だ。",
+     "vi": "Tiệm bánh mì cứ cuối tuần là có hàng dài này là cửa hàng có thể gọi là đặc sản của thị trấn.",
+     "ctx": "doisong",
+     "chunks": [
+      "週末[しゅうまつ]になると",
+      "行列[ぎょうれつ]が",
+      "できるこの",
+      "パン屋[や]は、町[まち]の",
+      "名物[めいぶつ]とでもいうべき",
+      "店[みせ]だ"
+     ],
+     "wrong": [
+      "にでもいうべき",
+      "とでもいうべく"
+     ]
+    },
+    {
+     "jp": "若者[わかもの]の間[あいだ]で広[ひろ]がる節約[せつやく]志向[しこう]は、一種[いっしゅ]の社会[しゃかい]現象[げんしょう][[とでもいうべき]]ものだ。",
+     "vi": "Xu hướng tiết kiệm lan rộng trong giới trẻ là thứ có thể gọi là một hiện tượng xã hội.",
+     "ctx": "doisong",
+     "chunks": [
+      "若者[わかもの]の間[あいだ]で",
+      "広[ひろ]がる節約[せつやく]",
+      "志向[しこう]は、",
+      "一種[いっしゅ]の社会[しゃかい]",
+      "現象[げんしょう]とでもいうべき",
+      "ものだ"
+     ],
+     "wrong": [
+      "でもいうべき",
+      "とでもいうべし"
+     ]
+    },
+    {
+     "jp": "長年[ながねん]この工場[こうじょう]を支[ささ]えてきた山本[やまもと]さんは、現場[げんば]の生[い]き字引[じびき][[とでもいうべき]]人[ひと]だ。",
+     "vi": "Anh Yamamoto, người đã gánh vác xưởng này nhiều năm, là người có thể gọi là \"cuốn từ điển sống\" của hiện trường.",
+     "ctx": "xuong",
+     "chunks": [
+      "長年[ながねん]この工場[こうじょう]を",
+      "支[ささ]えてきた",
+      "山本[やまもと]さんは、",
+      "現場[げんば]の",
+      "生[い]き字引[じびき]とでもいうべき",
+      "人[ひと]だ"
+     ],
+     "wrong": [
+      "にでもいうべき",
+      "とでもいうべく"
+     ]
+    },
+    {
+     "jp": "毎朝[まいあさ]の温度[おんど]記録[きろく]は、品質[ひんしつ]管理[かんり]の基本中[ちゅう]の基本[きほん][[とでもいうべき]]作業[さぎょう]だ。",
+     "vi": "Ghi nhiệt độ mỗi sáng là công việc có thể gọi là cơ bản của cơ bản trong quản lý chất lượng.",
+     "ctx": "xuong",
+     "chunks": [
+      "毎朝[まいあさ]の温度[おんど]",
+      "記録[きろく]は、",
+      "品質[ひんしつ]管理[かんり]の",
+      "基本中[ちゅう]の",
+      "基本[きほん]とでもいうべき",
+      "作業[さぎょう]だ"
+     ],
+     "wrong": [
+      "でもいうべき",
+      "とでもいうべし"
+     ]
+    },
+    {
+     "jp": "HACCPは、食品[しょくひん]工場[こうじょう]にとって安全[あんぜん]の土台[どだい][[とでもいうべき]]仕組[しく]みである。",
+     "vi": "HACCP là cơ chế có thể gọi là nền móng của an toàn đối với nhà máy thực phẩm.",
+     "ctx": "xuong",
+     "chunks": [
+      "HACCPは、",
+      "食品[しょくひん]工場[こうじょう]に",
+      "とって",
+      "安全[あんぜん]の",
+      "土台[どだい]とでもいうべき",
+      "仕組[しく]みである"
+     ],
+     "wrong": [
+      "にでもいうべき",
+      "とでもいうべく"
+     ]
+    },
+    {
+     "jp": "在留[ざいりゅう]カードは、日本[にほん]で暮[く]らす外国人[がいこくじん]にとって身分証明[みぶんしょうめい]の要[かなめ][[とでもいうべき]]ものだ。",
+     "vi": "Thẻ lưu trú là thứ có thể gọi là \"trụ cột\" của việc chứng minh thân phận đối với người nước ngoài sống ở Nhật.",
+     "ctx": "thutuc",
+     "chunks": [
+      "在留[ざいりゅう]カードは、",
+      "日本[にほん]で暮[く]らす",
+      "外国人[がいこくじん]にとって",
+      "身分証明[みぶんしょうめい]の",
+      "要[かなめ]とでもいうべき",
+      "ものだ"
+     ],
+     "wrong": [
+      "でもいうべき",
+      "とでもいうべし"
+     ]
+    },
+    {
+     "jp": "マイナンバーは、行政[ぎょうせい]手続[てつづ]きのパスポート[[とでもいうべき]]番号[ばんごう]で、さまざまな場面[ばめん]で提示[ていじ]を求[もと]められる。",
+     "vi": "Mã số cá nhân là con số có thể gọi là \"hộ chiếu\" của thủ tục hành chính, được yêu cầu xuất trình trong nhiều trường hợp.",
+     "ctx": "thutuc",
+     "chunks": [
+      "マイナンバーは、",
+      "行政[ぎょうせい]手続[てつづ]きの",
+      "パスポートとでもいうべき",
+      "番号[ばんごう]で、さまざまな",
+      "場面[ばめん]で提示[ていじ]を",
+      "求[もと]められる"
+     ],
+     "wrong": [
+      "にでもいうべき",
+      "とでもいうべく"
+     ]
+    },
+    {
+     "jp": "A：日本[にほん]での十年[じゅうねん]を振[ふ]り返[かえ]って、いかがですか。B：一言[ひとこと]で言[い]えば、人生[じんせい]の修業[しゅぎょう]期間[きかん][[とでもいうべき]]十年[じゅうねん]でした。",
+     "vi": "A: Nhìn lại mười năm ở Nhật, anh thấy thế nào? B: Nói gọn một câu thì đó là mười năm có thể gọi là thời kỳ tu luyện của đời tôi.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "でもいうべき",
+      "とでもいうべく"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "私[わたし]にとって神戸[こうべ]は",
+      "第[だい]二[に]の故郷[こきょう]にでもいうべき",
+      "町[まち]だ"
+     ],
+     "vi": "Với tôi Kobe là thành phố có thể gọi là quê hương thứ hai.",
+     "bad": 1,
+     "fix": "第二[だいに]の故郷[こきょう]とでもいうべき",
+     "why": "Trợ từ trích dẫn cách gọi là と: N + とでもいうべき (không phải に)."
+    },
+    {
+     "chunks": [
+      "山本[やまもと]さんは",
+      "現場[げんば]の生[い]き字引[じびき]とでもいうべく",
+      "人[ひと]だ"
+     ],
+     "vi": "Anh Yamamoto là người có thể gọi là cuốn từ điển sống của hiện trường.",
+     "bad": 1,
+     "fix": "現場[げんば]の生[い]き字引[じびき]とでもいうべき",
+     "why": "Trước danh từ (人[ひと]) phải là いうべき. べく = \"để mà\" (N1-11), không bổ nghĩa cho danh từ."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Trong buổi chia tay khi chuyển sang xưởng mới, anh phát biểu: tổ trưởng cũ là người có thể gọi là \"người cha\" của tôi ở Nhật.",
+     "opts": [
+      "前[まえ]の班長[はんちょう]は、私[わたし]にとって日本[にほん]の父[ちち]とでもいうべき方[かた]です。",
+      "前[まえ]の班長[はんちょう]は、私[わたし]にとって日本[にほん]の父[ちち]にでもいうべき方[かた]です。",
+      "前[まえ]の班長[はんちょう]は、私[わたし]にとって日本[にほん]の父[ちち]とでもいうべく方[かた]です。"
+     ],
+     "ans": 0,
+     "why": "Chọn cách gọi mang tính ví von, giọng trang trọng → N + とでもいうべき + N. Trợ từ là と; trước danh từ dùng いうべき, không dùng べく."
+    }
+   ],
+   "shift": [
+    {
+     "from": "あの人[ひと]、うちの現場[げんば]の生[い]き字引[じびき]みたいなもんやな。",
+     "to": "あの方[かた]は、この現場[げんば]の生[い]き字引[じびき]とでもいうべき方[かた]です。",
+     "kind": "kansai",
+     "note": "Kansai: もん = もの; やな = だね. 〜みたいなもの (nói thường) → 〜とでもいうべき (trang trọng, văn viết).",
+     "wrong": [
+      "あの方[かた]は、この現場[げんば]の生[い]き字引[じびき]にでもいうべき方[かた]です。",
+      "あの方[かた]は、この現場[げんば]の生[い]き字引[じびき]とでもいうべく方[かた]です。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g:〜ではあるまいか",
+   "pattern": "〜ではあるまいか",
+   "level": "N1",
+   "meaning": "phải chăng là…, chẳng phải là… hay sao — nêu suy đoán, ý kiến của mình một cách dè dặt (văn viết, = ではないだろうか)",
+   "structure": [
+    "Danh từ / tính từ な + ではあるまいか: 原因[げんいん]は点検[てんけん]不足[ぶそく]ではあるまいか",
+    "Động từ / tính từ い thể thường + のではあるまいか: 物価[ぶっか]はまだ上[あ]がるのではあるまいか; lý do: 〜からではあるまいか",
+    "Hay đi với と思[おも]う / と考[かんが]える / と思[おも]われる; văn viết, phát biểu"
+   ],
+   "explain": "〜ではあるまいか = PHẢI CHĂNG LÀ…, CHẲNG PHẢI LÀ… HAY SAO: người viết đưa ra suy đoán hoặc ý kiến riêng của mình, nhưng nói theo kiểu câu hỏi tu từ cho mềm, dè dặt. Nghĩa thật là KHẲNG ĐỊNH nhẹ: \"tôi nghĩ là…\". 今回[こんかい]の異物[いぶつ]混入[こんにゅう]の原因[げんいん]は、作業[さぎょう]前[まえ]の点検[てんけん]不足[ふそく]ではあるまいか = phải chăng nguyên nhân vụ lẫn dị vật lần này là do kiểm tra trước giờ làm chưa đủ (tôi nghĩ vậy). 私[わたし]たちは大切[たいせつ]な何[なに]かを失[うしな]ってしまったのではあるまいか = phải chăng chúng ta đã đánh mất điều gì đó quan trọng.\n\nCách ghép: danh từ, tính từ な + ではあるまいか; động từ, tính từ い thể thường + のではあるまいか (phải có の); nêu lý do: 〜のは、〜からではあるまいか. Phân tích: で + は + ある + まい (phủ định phỏng đoán, như 〜まい N2-33) + か (câu hỏi) = \"chắc không phải là… sao?\" → tức là \"phải chăng là…\". まい gắn sau ある thể từ điển: あるまい (không có ありまい, ないまい). Danh từ thì KHÔNG chen の (点検[てんけん]不足[ふそく]のではあるまいか ✗).\n\nMức độ: văn viết cứng, hơi cổ — xã luận, bài luận, báo cáo phân tích, phát biểu trong hội nghị. Cùng nghĩa với 〜ではないだろうか / 〜のではないか (dùng cả khi nói), nhưng trang trọng hơn hẳn. Nói chuyện thường: 〜んじゃないかな; Kansai: 〜んちゃうかな. Đừng nhầm với 〜じゃあるまいし (N2-34): じゃあるまいし = \"có phải là… đâu mà…\" (phủ định, trách móc, khẩu ngữ); ではあるまいか = \"phải chăng là…\" (khẳng định nhẹ). Bỏ か đi (ではあるまい) thì nghĩa đảo ngược thành \"chắc không phải là…\".\n\nMẹo nhớ: あるまい + か = \"chắc không phải… à?\" → hỏi ngược lại tức là \"chắc là phải\". Đọc báo gặp 〜のではあるまいか thì hiểu ngay: đây là ý kiến của người viết.",
+   "casual": "Nói thường: 〜んじゃないかな / 〜んじゃないか; Kansai: 〜んちゃうかな: 原因[げんいん]は点検[てんけん]不足[ぶそく]なんちゃうかな.",
+   "compare": [
+    {
+     "pattern": "〜ではないだろうか・〜のではないか",
+     "diff": "Cùng nghĩa \"phải chăng\", dùng được cả khi nói lẫn viết. ではあるまいか: cứng, cổ hơn, chỉ dùng trong văn viết và phát biểu trang trọng."
+    },
+    {
+     "pattern": "〜じゃあるまいし（N2-34）",
+     "diff": "Có phải là… đâu mà… (phủ định, trách móc, khẩu ngữ: 子[こ]どもじゃあるまいし). ではあるまいか: phỏng đoán mang nghĩa khẳng định nhẹ \"phải chăng là…\", văn viết."
+    }
+   ],
+   "mistakes": [
+    "Chen の sau danh từ: 原因[げんいん]は点検[てんけん]不足[ふそく]のではあるまいか ✗ → 原因[げんいん]は点検[てんけん]不足[ふそく]ではあるまいか (động từ mới cần の: 続[つづ]くのではあるまいか).",
+    "Hiểu thành phủ định: 原因[げんいん]は温度[おんど]管理[かんり]ではあるまいか = \"nguyên nhân không phải là quản lý nhiệt độ\" ✗ → nghĩa đúng: \"phải chăng nguyên nhân là quản lý nhiệt độ\"."
+   ],
+   "ex": [
+    {
+     "jp": "この長雨[ながあめ]は、異常気象[いじょうきしょう]の表[あらわ]れ[[ではあるまいか]]。",
+     "vi": "Đợt mưa dầm kéo dài này phải chăng là biểu hiện của thời tiết bất thường.",
+     "ctx": "doisong",
+     "chunks": [
+      "この",
+      "長雨[ながあめ]は、",
+      "異常気象[いじょうきしょう]の",
+      "表[あらわ]れではあるまいか"
+     ],
+     "wrong": [
+      "のではあるまいか",
+      "ではないまいか"
+     ]
+    },
+    {
+     "jp": "人々[ひとびと]が家[いえ]で過[す]ごす時間[じかん]が増[ふ]えたのは、物価[ぶっか]高[だか]の影響[えいきょう]もある[[のではあるまいか]]。",
+     "vi": "Việc mọi người dành nhiều thời gian ở nhà hơn, phải chăng cũng có ảnh hưởng của giá cả leo thang.",
+     "ctx": "doisong",
+     "chunks": [
+      "人々[ひとびと]が家[いえ]で",
+      "過[す]ごす時間[じかん]が",
+      "増[ふ]えたのは、",
+      "物価[ぶっか]高[だか]の",
+      "影響[えいきょう]も",
+      "あるのではあるまいか"
+     ],
+     "wrong": [
+      "のではありまいか",
+      "のではないまいか"
+     ]
+    },
+    {
+     "jp": "若者[わかもの]の車[くるま]離[はな]れは、単[たん]なる流行[りゅうこう]ではなく、価値観[かちかん]そのものの変化[へんか][[ではあるまいか]]。",
+     "vi": "Việc giới trẻ không còn mặn mà với ô tô, phải chăng không chỉ là trào lưu mà là sự thay đổi của chính hệ giá trị.",
+     "ctx": "doisong",
+     "chunks": [
+      "若者[わかもの]の車[くるま]",
+      "離[はな]れは、単[たん]なる",
+      "流行[りゅうこう]ではなく、",
+      "価値観[かちかん]その",
+      "ものの",
+      "変化[へんか]ではあるまいか"
+     ],
+     "wrong": [
+      "のではあるまいか",
+      "ではありまいか"
+     ]
+    },
+    {
+     "jp": "便利[べんり]さばかりを追[お]い求[もと]めた結果[けっか]、私[わたし]たちは大切[たいせつ]な何[なに]かを失[うしな]ってしまった[[のではあるまいか]]。",
+     "vi": "Mải chạy theo sự tiện lợi, phải chăng chúng ta đã đánh mất một điều gì đó quan trọng.",
+     "ctx": "doisong",
+     "chunks": [
+      "便利[べんり]さばかりを",
+      "追[お]い求[もと]めた",
+      "結果[けっか]、",
+      "私[わたし]たちは",
+      "大切[たいせつ]な何[なに]かを",
+      "失[うしな]ってしまったのではあるまいか"
+     ],
+     "wrong": [
+      "のではありまいか",
+      "のではないまいか"
+     ]
+    },
+    {
+     "jp": "今回[こんかい]の異物[いぶつ]混入[こんにゅう]の原因[げんいん]は、作業[さぎょう]前[まえ]の点検[てんけん]不足[ふそく][[ではあるまいか]]。",
+     "vi": "Phải chăng nguyên nhân vụ lẫn dị vật lần này là do kiểm tra trước giờ làm chưa đủ.",
+     "ctx": "xuong",
+     "chunks": [
+      "今回[こんかい]の異物[いぶつ]",
+      "混入[こんにゅう]の",
+      "原因[げんいん]は、",
+      "作業[さぎょう]前[まえ]の",
+      "点検[てんけん]",
+      "不足[ふそく]ではあるまいか"
+     ],
+     "wrong": [
+      "のではあるまいか",
+      "ではないまいか"
+     ]
+    },
+    {
+     "jp": "最近[さいきん]、手洗[てあら]いの時間[じかん]が短[みじか]くなっているのは、ルールに慣[な]れて気[き]が緩[ゆる]んでいる[[からではあるまいか]]。",
+     "vi": "Gần đây thời gian rửa tay ngắn đi, phải chăng là vì đã quen quy định nên lơ là.",
+     "ctx": "xuong",
+     "chunks": [
+      "最近[さいきん]、手洗[てあら]いの",
+      "時間[じかん]が短[みじか]く",
+      "なっているのは、",
+      "ルールに",
+      "慣[な]れて気[き]が",
+      "緩[ゆる]んでいるからではあるまいか"
+     ],
+     "wrong": [
+      "からのではあるまいか",
+      "からではありまいか"
+     ]
+    },
+    {
+     "jp": "夏場[なつば]の不良品[ふりょうひん]の増加[ぞうか]は、冷凍庫[れいとうこ]の扉[とびら]の開[あ]け閉[し]めが多[おお]いことと関係[かんけい]がある[[のではあるまいか]]。",
+     "vi": "Hàng lỗi tăng vào mùa hè, phải chăng có liên quan đến việc đóng mở cửa kho cấp đông quá nhiều.",
+     "ctx": "xuong",
+     "chunks": [
+      "夏場[なつば]の不良品[ふりょうひん]の",
+      "増加[ぞうか]は、",
+      "冷凍庫[れいとうこ]の扉[とびら]の",
+      "開[あ]け閉[し]めが",
+      "多[おお]いことと関係[かんけい]が",
+      "あるのではあるまいか"
+     ],
+     "wrong": [
+      "のではありまいか",
+      "のではないまいか"
+     ]
+    },
+    {
+     "jp": "手続[てつづ]きのオンライン化[か]は進[すす]んでいるが、高齢者[こうれいしゃ]や外国人[がいこくじん]にとってはかえって不便[ふべん]になった面[めん]もある[[のではあるまいか]]。",
+     "vi": "Thủ tục đang được đưa lên mạng, nhưng phải chăng với người già và người nước ngoài thì lại có mặt trở nên bất tiện hơn.",
+     "ctx": "thutuc",
+     "chunks": [
+      "手続[てつづ]きのオンライン化[か]は",
+      "進[すす]んでいるが、",
+      "高齢者[こうれいしゃ]や外国人[がいこくじん]に",
+      "とってはかえって不便[ふべん]に",
+      "なった面[めん]も",
+      "あるのではあるまいか"
+     ],
+     "wrong": [
+      "のではありまいか",
+      "のではないまいか"
+     ]
+    },
+    {
+     "jp": "外国人[がいこくじん]住民[じゅうみん]向[む]けの相談窓口[そうだんまどぐち]が少[すく]ないことが、届[とど]け出[で]の遅[おく]れにつながっている[[のではあるまいか]]。",
+     "vi": "Phải chăng việc có ít quầy tư vấn dành cho cư dân nước ngoài đã dẫn đến việc khai báo bị chậm.",
+     "ctx": "thutuc",
+     "chunks": [
+      "外国人[がいこくじん]",
+      "住民[じゅうみん]向[む]けの",
+      "相談窓口[そうだんまどぐち]が",
+      "少[すく]ないことが、",
+      "届[とど]け出[で]の遅[おく]れに",
+      "つながっているのではあるまいか"
+     ],
+     "wrong": [
+      "のではありまいか",
+      "のではないまいか"
+     ]
+    },
+    {
+     "jp": "A：離職率[りしょくりつ]が下[さ]がらない理由[りゆう]について、グエンさんはどうお考[かんが]えですか。B：新人[しんじん]教育[きょういく]の時間[じかん]が十分[じゅうぶん]に取[と]れていないこと[[ではあるまいか]]と考[かんが]えております。",
+     "vi": "A: Về lý do tỷ lệ nghỉ việc không giảm, anh Nguyễn nghĩ thế nào? B: Tôi cho rằng phải chăng là do chưa dành đủ thời gian đào tạo người mới.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "ことのではあるまいか",
+      "ことではありまいか"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "事故[じこ]の原因[げんいん]は",
+      "確認[かくにん]不足[ふそく]のではあるまいか",
+      "。"
+     ],
+     "vi": "Phải chăng nguyên nhân vụ tai nạn là do thiếu kiểm tra.",
+     "bad": 1,
+     "fix": "確認[かくにん]不足[ぶそく]ではあるまいか",
+     "why": "Danh từ + ではあるまいか (không chen の). Chỉ động từ, tính từ い mới cần の: 〜のではあるまいか."
+    },
+    {
+     "chunks": [
+      "物価[ぶっか]はこれからも上[あ]がり続[つづ]ける",
+      "のではありまいか",
+      "と心配[しんぱい]している"
+     ],
+     "vi": "Tôi lo rằng phải chăng giá cả sẽ còn tiếp tục tăng.",
+     "bad": 1,
+     "fix": "のではあるまいか",
+     "why": "まい gắn sau ある thể từ điển: あるまい (không có ありまい)."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Anh viết bản phân tích nộp giám đốc xưởng, nêu ý kiến của mình một cách dè dặt: phải chăng nguyên nhân hàng lỗi tăng là do thiếu thời gian đào tạo người mới.",
+     "opts": [
+      "不良品[ふりょうひん]が増[ふ]えた原因[げんいん]は、新人研修[しんじんけんしゅう]の時間[じかん]不足[ふそく]ではあるまいか。",
+      "不良品[ふりょうひん]が増[ふ]えた原因[げんいん]は、新人研修[しんじんけんしゅう]の時間[じかん]不足[ふそく]ではあるまい。",
+      "不良品[ふりょうひん]が増[ふ]えた原因[げんいん]は、新人研修[しんじんけんしゅう]の時間[じかん]不足[ふそく]じゃあるまいし。"
+     ],
+     "ans": 0,
+     "why": "Nêu suy đoán của mình một cách dè dặt, văn viết → ではあるまいか. Bỏ か (ではあるまい) thành \"chắc không phải là…\" — ngược nghĩa; じゃあるまいし = \"có phải… đâu mà\" (khẩu ngữ, trách móc)."
+    }
+   ],
+   "shift": [
+    {
+     "from": "原因[げんいん]は、温度[おんど]管理[かんり]が甘[あま]かったんちゃうかな。",
+     "to": "原因[げんいん]は、温度[おんど]管理[かんり]の甘[あま]さにあったのではあるまいか。",
+     "kind": "kansai",
+     "note": "Kansai: 〜んちゃうかな = 〜んじゃないかな (phải chăng). Văn viết, báo cáo: 〜のではあるまいか.",
+     "wrong": [
+      "原因[げんいん]は、温度[おんど]管理[かんり]の甘[あま]さにあったのではありまいか。",
+      "原因[げんいん]は、温度[おんど]管理[かんり]の甘[あま]さにあったのではないまいか。"
+     ]
+    }
+   ],
+   "tpl": [
+    {
+     "f": "ta",
+     "pre": [
+      "彼[かれ]はもう"
+     ],
+     "tail": [
+      "のではあるまいか"
+     ],
+     "vi": "Phải chăng anh ấy đã {VP} rồi?"
+    }
+   ]
+  }
+ ]
+}

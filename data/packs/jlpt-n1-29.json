@@ -1,0 +1,2243 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n1-29",
+  "title": "JLPT N1 29 – Cá ngừ, kích cỡ, giá cả, ước lượng & vui buồn",
+  "type": "vocab",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:赤身:あかみ",
+   "kana": "あかみ",
+   "kanji": "赤身",
+   "hv": "XÍCH THÂN",
+   "vi": "thịt nạc đỏ (cá ngừ, thịt bò)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cá ngừ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "マグロは部位[ぶい]によって、赤身[あかみ]、中[ちゅう]トロ、大[おお]トロに分[わ]けられる。",
+     "vi": "Cá ngừ được chia theo phần thành thịt nạc đỏ, chutoro và otoro.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "最近[さいきん]は、脂[あぶら]の少[すく]ない赤身[あかみ]を好[この]む客[きゃく]も増[ふ]えている。",
+     "vi": "Gần đây khách thích thịt nạc đỏ ít mỡ cũng tăng lên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：赤身[あかみ]とトロ、どっちが好[す]き？B：私[わたし]は赤身[あかみ]派[は]。さっぱりしていて、いくらでも食[た]べられるよ。",
+     "vi": "A: Thịt nạc đỏ với toro, thích cái nào? B: Tôi phe nạc đỏ. Thanh mát, ăn bao nhiêu cũng được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "ant": [
+    {
+     "w": "トロ",
+     "vi": "phần bụng béo (cá ngừ)"
+    }
+   ],
+   "rel": [
+    "v:血合い:ちあい",
+    {
+     "w": "白身[しろみ]",
+     "vi": "cá thịt trắng"
+    }
+   ],
+   "note": "赤身[あかみ] = phần thịt đỏ, ít mỡ (của cá ngừ, cá ngừ sọc, thịt bò...). Cá ngừ chia theo độ béo: 赤身[あかみ] → 中[ちゅう]トロ → 大[おお]トロ. 白身[しろみ] = cá thịt trắng (鯛[たい], ヒラメ). 赤身[あかみ]の魚[さかな] = cá thịt đỏ (マグロ, カツオ)."
+  },
+  {
+   "id": "v:競り:せり",
+   "kana": "せり",
+   "kanji": "競り",
+   "kf": "競[せ]り",
+   "hv": "CẠNH",
+   "vi": "phiên đấu giá (chợ cá, chợ đầu mối)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cá ngừ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎朝[まいあさ]五時[ごじ]から、市場[いちば]でマグロの競[せ]りが行[おこな]われる。",
+     "vi": "Mỗi sáng từ năm giờ, ở chợ có phiên đấu giá cá ngừ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "観光客[かんこうきゃく]が競[せ]りの様子[ようす]を見学[けんがく]できる市場[いちば]もある。",
+     "vi": "Cũng có chợ cho khách du lịch tham quan cảnh đấu giá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今朝[けさ]の競[せ]り、どうだった？B：二百[にひゃく]キロからあるマグロが出[で]て、すごい値[ね]がついたらしいよ。",
+     "vi": "A: Phiên đấu giá sáng nay thế nào? B: Nghe nói có con cá ngừ nặng tới hai trăm ký, được trả giá kinh khủng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "競[せ]りにかける",
+     "vi": "đưa ra đấu giá"
+    },
+    {
+     "jp": "競[せ]りで落[お]とす",
+     "vi": "mua được qua đấu giá"
+    }
+   ],
+   "rel": [
+    "v:競り落とす:せりおとす",
+    "v:仲買人:なかがいにん",
+    "v:落札:らくさつ"
+   ],
+   "note": "競[せ]り = hình thức bán đấu giá trực tiếp ở chợ (魚市場[うおいちば]の競[せ]り, 初競[はつせ]り = phiên đầu năm). Báo chí hay viết セリ. Đấu giá nói chung: 競売[きょうばい], オークション."
+  },
+  {
+   "id": "v:競り落とす:せりおとす",
+   "kana": "せりおとす",
+   "kanji": "競り落とす",
+   "kf": "競[せ]り落[お]とす",
+   "hv": "CẠNH LẠC",
+   "vi": "mua được qua đấu giá (trả giá cao nhất)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cá ngừ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仲買人[なかがいにん]は、目当[めあ]てのマグロを予算内[よさんない]で競[せ]り落[お]とした。",
+     "vi": "Thương lái đã mua được con cá ngừ nhắm tới trong phạm vi ngân sách.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "祖父[そふ]の古[ふる]い時計[とけい]が、ネットオークションで思[おも]わぬ高値[たかね]で競[せ]り落[お]とされた。",
+     "vi": "Chiếc đồng hồ cũ của ông tôi được người ta đấu giá trên mạng với giá cao không ngờ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：社長[しゃちょう]、あのマグロ、本当[ほんとう]に競[せ]り落[お]としたんですか。B：ああ。年[ねん]に一度[いちど]のことだから、思[おも]い切[き]ったよ。",
+     "vi": "A: Giám đốc, con cá ngừ đó anh đấu được thật ạ? B: Ừ. Mỗi năm một lần nên mạnh tay luôn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "マグロを競[せ]り落[お]とす",
+     "vi": "đấu giá mua được cá ngừ"
+    },
+    {
+     "jp": "高値[たかね]で競[せ]り落[お]とす",
+     "vi": "đấu được với giá cao"
+    }
+   ],
+   "rel": [
+    "v:競り:せり",
+    "v:落札:らくさつ"
+   ],
+   "note": "競[せ]り落[お]とす = trả giá cao nhất trong phiên đấu giá để giành được hàng; bị động 競[せ]り落[お]とされる (bị / được người khác mua). 落札[らくさつ]する = trúng đấu giá, trúng thầu (văn viết, dùng cả cho đấu thầu công trình)."
+  },
+  {
+   "id": "v:仲買人:なかがいにん",
+   "kana": "なかがいにん",
+   "kanji": "仲買人",
+   "hv": "TRỌNG MÃI NHÂN",
+   "vi": "thương lái, người trung gian (mua ở chợ đầu mối)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cá ngừ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仲買人[なかがいにん]は、競[せ]りで買[か]った魚[さかな]を飲食店[いんしょくてん]やスーパーに卸[おろ]している。",
+     "vi": "Thương lái bán sỉ lại cá mua ở phiên đấu giá cho quán ăn và siêu thị.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "市場[いちば]で長年[ながねん]働[はたら]く仲買人[なかがいにん]の話[はなし]は、どれも面白[おもしろ]い。",
+     "vi": "Chuyện của những thương lái làm ở chợ lâu năm, chuyện nào cũng thú vị.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:競り:せり",
+    "v:卸売:おろしうり",
+    {
+     "w": "仲卸[なかおろし]",
+     "vi": "nhà buôn trung gian trong chợ"
+    }
+   ],
+   "note": "仲買人[なかがいにん] = người trung gian mua hàng (cá, rau, cổ phiếu...) rồi bán lại; ở chợ cá còn gọi 仲卸[なかおろし] (業者[ぎょうしゃ]). Người môi giới nhà đất là 不動産[ふどうさん]仲介業[ちゅうかいぎょう]者[しゃ]."
+  },
+  {
+   "id": "v:脂が乗る:あぶらがのる",
+   "kana": "あぶらがのる",
+   "kanji": "脂が乗る",
+   "kf": "脂[あぶら]が乗[の]る",
+   "hv": "CHI THỪA",
+   "vi": "béo ngậy (cá đúng mùa); đang độ sung sức",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cá ngừ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冬[ふゆ]のマグロは脂[あぶら]が乗[の]っていて、刺身[さしみ]にすると特[とく]においしい。",
+     "vi": "Cá ngừ mùa đông béo ngậy, làm sashimi đặc biệt ngon.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "脂[あぶら]が乗[の]った魚[さかな]は傷[いた]みやすいので、温度[おんど]管理[かんり]を一層[いっそう]厳[きび]しくする。",
+     "vi": "Cá béo dễ hỏng nên quản lý nhiệt độ càng phải nghiêm ngặt hơn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：最近[さいきん]の山田[やまだ]さん、仕事[しごと]に脂[あぶら]が乗[の]ってるね。B：うん、主任[しゅにん]になってから見違[みちが]えるようだよ。",
+     "vi": "A: Dạo này anh Yamada làm việc đang độ sung sức nhỉ. B: Ừ, từ khi lên chủ nhiệm trông khác hẳn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "身[み]に脂[あぶら]が乗[の]る",
+     "vi": "thịt cá béo ngậy"
+    },
+    {
+     "jp": "仕事[しごと]に脂[あぶら]が乗[の]る",
+     "vi": "công việc đang độ sung sức"
+    }
+   ],
+   "rel": [
+    "v:脂:あぶら",
+    "v:旬:しゅん"
+   ],
+   "note": "脂[あぶら]が乗[の]る = (1) cá, thịt béo ngậy vì đúng mùa (脂[あぶら]の乗[の]ったサンマ); (2) (nghĩa bóng) người đang ở độ sung sức, làm việc trơn tru (仕事[しごと]に脂[あぶら]が乗[の]る / 脂[あぶら]の乗[の]った年代[ねんだい]). Nghĩa bóng đôi khi viết 油[あぶら]が乗[の]る."
+  },
+  {
+   "id": "v:一本釣り:いっぽんづり",
+   "kana": "いっぽんづり",
+   "kanji": "一本釣り",
+   "kf": "一本釣[いっぽんづ]り",
+   "hv": "NHẤT BẢN ĐIẾU",
+   "vi": "câu từng con bằng cần; \"câu\" từng người tài",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cá ngừ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一本[いっぽん]釣[づ]りのマグロは魚体[ぎょたい]に傷[きず]が少[すく]なく、高値[たかね]で取引[とりひき]される。",
+     "vi": "Cá ngừ câu từng con thân ít trầy xước nên được giao dịch giá cao.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "他社[たしゃ]の技術者[ぎじゅつしゃ]を一本[いっぽん]釣[づ]りで引[ひ]き抜[ぬ]く会社[かいしゃ]もある。",
+     "vi": "Cũng có công ty lôi kéo kỹ sư của công ty khác bằng cách nhắm từng người.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    {
+     "w": "延縄[はえなわ]",
+     "vi": "câu giăng (dây dài nhiều lưỡi)"
+    },
+    "v:漁師:りょうし"
+   ],
+   "note": "一本[いっぽん]釣[づ]り = câu từng con một bằng cần, dây câu; cá ít bị tổn thương nên giá cao. Nghĩa bóng: nhắm và lôi kéo từng người cụ thể (人材[じんざい]の一本[いっぽん]釣[づ]り). Cách đánh bắt khác: 網[あみ]で獲[と]る (đánh lưới), 延縄[はえなわ]."
+  },
+  {
+   "id": "v:天然物:てんねんもの",
+   "kana": "てんねんもの",
+   "kanji": "天然物",
+   "hv": "THIÊN NHIÊN VẬT",
+   "vi": "hàng tự nhiên (đánh bắt ngoài biển, không nuôi)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cá ngừ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "天然物[てんねんもの]のマグロは、養殖物[ようしょくもの]に比[くら]べて身[み]が締[し]まっている。",
+     "vi": "Cá ngừ tự nhiên thịt săn chắc hơn so với cá nuôi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "天然物[てんねんもの]か養殖物[ようしょくもの]かは、ラベルを見[み]れば分[わ]かる。",
+     "vi": "Là hàng tự nhiên hay hàng nuôi thì xem nhãn là biết.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：このブリ、天然物[てんねんもの]？B：いや、養殖[ようしょく]だよ。でも最近[さいきん]の養殖[ようしょく]は質[しつ]が高[たか]いから、天然物[てんねんもの]にも負[ま]けないよ。",
+     "vi": "A: Cá cam này là hàng tự nhiên à? B: Không, cá nuôi đấy. Nhưng cá nuôi giờ chất lượng cao, chẳng thua hàng tự nhiên.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "ant": [
+    {
+     "w": "養殖物[ようしょくもの]",
+     "vi": "hàng nuôi"
+    }
+   ],
+   "rel": [
+    "v:天然:てんねん",
+    "v:養殖:ようしょく"
+   ],
+   "note": "天然物[てんねんもの] = cá, hải sản đánh bắt trong tự nhiên (không nuôi); đọc てんねんもの. Đối lập: 養殖物[ようしょくもの]. Nhãn hàng thủy sản ở Nhật thường ghi rõ 養殖[ようしょく] hay 天然[てんねん], và 解凍[かいとう] nếu đã rã đông."
+  },
+  {
+   "id": "v:回遊:かいゆう",
+   "kana": "かいゆう",
+   "kanji": "回遊",
+   "hv": "HỒI DU",
+   "vi": "di cư theo đàn (cá, theo mùa)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cá ngừ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "マグロは、広[ひろ]い海[うみ]を回遊[かいゆう]しながら成長[せいちょう]する。",
+     "vi": "Cá ngừ vừa di cư khắp biển rộng vừa lớn lên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今年[ことし]は潮[しお]の流[なが]れが変[か]わり、回遊[かいゆう]してくる魚[さかな]の量[りょう]が減[へ]ったそうだ。",
+     "vi": "Nghe nói năm nay dòng hải lưu thay đổi nên lượng cá di cư tới giảm.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "海[うみ]を回遊[かいゆう]する",
+     "vi": "di cư khắp biển"
+    },
+    {
+     "jp": "沿岸[えんがん]を回遊[かいゆう]する",
+     "vi": "bơi dọc vùng ven biển"
+    }
+   ],
+   "rel": [
+    {
+     "w": "回遊[かいゆう]魚[ぎょ]",
+     "vi": "cá di cư (cá ngừ, cá ngừ sọc)"
+    }
+   ],
+   "note": "回遊[かいゆう] = (cá) di chuyển theo đàn từ vùng này sang vùng khác theo mùa, để kiếm mồi hoặc đẻ (回遊[かいゆう]魚[ぎょ] = cá di cư: マグロ, カツオ, サンマ). Nghĩa khác: đi một vòng tham quan (回遊[かいゆう]式[しき]庭園[ていえん])."
+  },
+  {
+   "id": "v:乱獲:らんかく",
+   "kana": "らんかく",
+   "kanji": "乱獲",
+   "hv": "LOẠN HOẠCH",
+   "vi": "đánh bắt bừa bãi, khai thác quá mức",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cá ngừ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "乱獲[らんかく]が続[つづ]けば、マグロはいずれ食卓[しょくたく]から消[き]えてしまうかもしれない。",
+     "vi": "Nếu cứ đánh bắt bừa bãi thì có thể một ngày cá ngừ sẽ biến mất khỏi mâm cơm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "乱獲[らんかく]を防[ふせ]ぐため、漁[りょう]の時期[じき]や量[りょう]を決[き]めている地域[ちいき]もある。",
+     "vi": "Để ngăn đánh bắt quá mức, có vùng quy định thời gian và lượng đánh bắt.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "魚[さかな]を乱獲[らんかく]する",
+     "vi": "đánh bắt cá bừa bãi"
+    }
+   ],
+   "rel": [
+    "v:枯渇:こかつ",
+    "v:資源:しげん"
+   ],
+   "note": "乱獲[らんかく] = đánh bắt, săn bắt bừa bãi vượt quá khả năng tái sinh của loài (văn viết, hay gặp trên báo khi nói về nguồn lợi biển). 獲[かく] = bắt được (漁獲[ぎょかく] = đánh bắt; 漁獲量[ぎょかくりょう] = sản lượng đánh bắt)."
+  },
+  {
+   "id": "v:枯渇:こかつ",
+   "kana": "こかつ",
+   "kanji": "枯渇",
+   "hv": "KHÔ KHÁT",
+   "vi": "cạn kiệt (tài nguyên, nguồn nước, ý tưởng)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cá ngừ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このまま獲[と]り続[つづ]ければ、近海[きんかい]の資源[しげん]が枯渇[こかつ]するおそれがある。",
+     "vi": "Cứ đánh bắt thế này thì e là nguồn lợi vùng biển gần bờ sẽ cạn kiệt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日照[ひで]りが続[つづ]いて、村[むら]の井戸[いど]が枯渇[こかつ]しかけた。",
+     "vi": "Hạn hán kéo dài, giếng làng suýt cạn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、改善[かいぜん]のアイデアが枯渇[こかつ]気味[ぎみ]で…。B：たまには他[た]の工場[こうじょう]を見学[けんがく]してみたら？ヒントがあるかもしれないよ。",
+     "vi": "A: Dạo này ý tưởng cải tiến có vẻ cạn rồi... B: Thỉnh thoảng thử đi tham quan nhà máy khác xem? Biết đâu có gợi ý.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "資源[しげん]が枯渇[こかつ]する",
+     "vi": "tài nguyên cạn kiệt"
+    },
+    {
+     "jp": "資金[しきん]が枯渇[こかつ]する",
+     "vi": "cạn vốn"
+    }
+   ],
+   "rel": [
+    "v:乱獲:らんかく",
+    {
+     "w": "尽[つ]きる",
+     "vi": "cạn, hết"
+    }
+   ],
+   "note": "枯渇[こかつ] = (nước) khô cạn; (tài nguyên, tiền, ý tưởng) cạn kiệt (資源[しげん]の枯渇[こかつ] / 財源[ざいげん]が枯渇[こかつ]する). Văn viết; văn nói dùng なくなる / 尽[つ]きる."
+  },
+  {
+   "id": "v:大振り:おおぶり",
+   "kana": "おおぶり",
+   "kanji": "大振り",
+   "kf": "大振[おおぶ]り",
+   "hv": "ĐẠI CHẤN",
+   "vi": "cỡ to, to hơn thường lệ (đồ vật, cá, trái cây)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kích cỡ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今日[きょう]入[はい]ったサバは大振[おおぶ]りで、身[み]も厚[あつ]い。",
+     "vi": "Cá thu hôm nay về cỡ to, thịt cũng dày.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "大振[おおぶ]りのカップに、たっぷりコーヒーを入[い]れて飲[の]むのが好[す]きだ。",
+     "vi": "Tôi thích rót đầy cà phê vào cái cốc cỡ to mà uống.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このリンゴ、大振[おおぶ]りだね。B：一個[いっこ]三百[さんびゃく]グラムからあるんだって。",
+     "vi": "A: Táo này to nhỉ. B: Nghe nói mỗi quả nặng tới ba trăm gram.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "魚[さかな]",
+     "vi": "cá"
+    },
+    {
+     "jp": "器[うつわ]",
+     "vi": "đồ đựng"
+    }
+   ],
+   "ant": [
+    "v:小振り:こぶり"
+   ],
+   "note": "大振[おおぶ]り = kích thước khá to so với loại thông thường (大振[おおぶ]りの魚[さかな] / 器[うつわ] / イヤリング). Nghĩa khác (động tác): vung mạnh (バットを大振[おおぶ]りする). 大型[おおがた] = loại cỡ lớn (máy, xe, bão)."
+  },
+  {
+   "id": "v:小振り:こぶり",
+   "kana": "こぶり",
+   "kanji": "小振り",
+   "kf": "小振[こぶ]り",
+   "hv": "TIỂU CHẤN",
+   "vi": "cỡ nhỏ, nhỏ hơn thường lệ (đồ vật, cá, trái cây)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kích cỡ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今年[ことし]のサンマは、小振[こぶ]りなものが多[おお]い。",
+     "vi": "Cá thu đao năm nay nhiều con cỡ nhỏ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "小振[こぶ]りの魚[さかな]は、規格[きかく]に合[あ]わせて別[べつ]の箱[はこ]に分[わ]ける。",
+     "vi": "Cá cỡ nhỏ được chia vào thùng riêng theo quy cách.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この小振[こぶ]りなお弁当箱[べんとうばこ]、どう？B：かわいいね。でも、グエンさんにはちょっと足[た]りないかも。",
+     "vi": "A: Hộp cơm cỡ nhỏ này thế nào? B: Xinh đấy. Nhưng với anh Nguyễn có khi hơi ít.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "魚[さかな]",
+     "vi": "cá"
+    },
+    {
+     "jp": "果物[くだもの]",
+     "vi": "trái cây"
+    }
+   ],
+   "ant": [
+    "v:大振り:おおぶり"
+   ],
+   "rel": [
+    "v:小柄:こがら"
+   ],
+   "note": "小振[こぶ]り = cỡ hơi nhỏ (đồ vật, cá, trái cây; 小振[こぶ]りなバッグ). Với người dùng 小柄[こがら]. Đừng nhầm 小降[こぶ]り (mưa nhỏ lại)."
+  },
+  {
+   "id": "v:小柄:こがら",
+   "kana": "こがら",
+   "kanji": "小柄",
+   "hv": "TIỂU BÍNH",
+   "vi": "nhỏ người, vóc dáng nhỏ",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kích cỡ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小柄[こがら]な体[からだ]なのに、彼女[かのじょ]は重[おも]い箱[はこ]を軽々[かるがる]と運[はこ]ぶ。",
+     "vi": "Người nhỏ con vậy mà cô ấy khuân thùng nặng nhẹ tênh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "祖母[そぼ]は小柄[こがら]で、いつも服[ふく]のサイズ選[えら]びに困[こま]っている。",
+     "vi": "Bà tôi nhỏ người nên lúc nào cũng khó chọn cỡ quần áo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：作業服[さぎょうふく]、Sサイズでも大[おお]きいです。B：小柄[こがら]な人[ひと]用[よう]のサイズもあるから、総務[そうむ]に聞[き]いてみて。",
+     "vi": "A: Đồ bảo hộ cỡ S vẫn rộng ạ. B: Có cỡ cho người nhỏ con đấy, thử hỏi phòng hành chính xem.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "体[からだ]",
+     "vi": "cơ thể"
+    },
+    {
+     "jp": "女性[じょせい]",
+     "vi": "phụ nữ"
+    }
+   ],
+   "ant": [
+    {
+     "w": "大柄[おおがら]",
+     "vi": "to con, vóc dáng lớn"
+    }
+   ],
+   "confuse": [
+    "v:小振り:こぶり"
+   ],
+   "note": "小柄[こがら] = vóc người nhỏ (小柄[こがら]な女性[じょせい]); cũng nói hoa văn nhỏ (小柄[こがら]な模様[もよう]). Trái nghĩa: 大柄[おおがら]. Đồ vật cỡ nhỏ thì nói 小振[こぶ]り."
+  },
+  {
+   "id": "v:体長:たいちょう",
+   "kana": "たいちょう",
+   "kanji": "体長",
+   "hv": "THỂ TRƯỜNG",
+   "vi": "chiều dài thân (động vật, cá)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kích cỡ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "体長[たいちょう]二[に]メートルからあるマグロが、港[みなと]に水揚[みずあ]げされた。",
+     "vi": "Một con cá ngừ dài tới hai mét đã được đưa lên bến cảng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "水族館[すいぞくかん]で、体長[たいちょう]五[ご]メートルのサメを見[み]た。",
+     "vi": "Ở thủy cung tôi đã xem con cá mập thân dài năm mét.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:身長:しんちょう",
+    "v:体重:たいじゅう",
+    {
+     "w": "全長[ぜんちょう]",
+     "vi": "tổng chiều dài (tàu, cầu, đường)"
+    }
+   ],
+   "note": "体長[たいちょう] = chiều dài cơ thể của động vật (cá: từ mõm đến đuôi). Với người dùng 身長[しんちょう] (chiều cao). Tàu, cầu, đường: 全長[ぜんちょう]."
+  },
+  {
+   "id": "v:肉厚:にくあつ",
+   "kana": "にくあつ",
+   "kanji": "肉厚",
+   "hv": "NHỤC HẬU",
+   "vi": "dày thịt, dày dặn",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kích cỡ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この時期[じき]のホタテは肉厚[にくあつ]で、甘[あま]みが強[つよ]い。",
+     "vi": "Sò điệp mùa này dày thịt, vị ngọt đậm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "肉厚[にくあつ]の切[き]り身[み]は、中[なか]まで凍[こお]るのに時間[じかん]がかかる。",
+     "vi": "Miếng cá dày thịt mất nhiều thời gian mới đông đến tận trong.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：このシイタケ、肉厚[にくあつ]だね。B：でしょう？焼[や]くだけでおいしいよ。",
+     "vi": "A: Nấm hương này dày thịt nhỉ. B: Đúng không? Chỉ cần nướng là ngon.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "切[き]り身[み]",
+     "vi": "miếng cá"
+    },
+    {
+     "jp": "貝[かい]",
+     "vi": "sò"
+    }
+   ],
+   "rel": [
+    {
+     "w": "分厚[ぶあつ]い",
+     "vi": "dày cộp"
+    },
+    {
+     "w": "厚[あつ]み",
+     "vi": "độ dày"
+    }
+   ],
+   "note": "肉厚[にくあつ] = phần thịt (của cá, sò, nấm, lá...) dày (肉厚[にくあつ]な椎茸[しいたけ] / ホタテ); cũng dùng cho vật liệu có thành dày (肉厚[にくあつ]のパイプ)."
+  },
+  {
+   "id": "v:粒揃い:つぶぞろい",
+   "kana": "つぶぞろい",
+   "kanji": "粒揃い",
+   "kf": "粒揃[つぶぞろ]い",
+   "hv": "LẠP TIỄN",
+   "vi": "đều tăm tắp, toàn loại tốt (cả nhóm, không cái nào kém)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kích cỡ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今日[きょう]のホタテは粒揃[つぶぞろ]いで、検品[けんぴん]がすぐに終[お]わった。",
+     "vi": "Sò điệp hôm nay con nào cũng đều đẹp nên kiểm hàng xong ngay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この店[みせ]のイチゴは粒揃[つぶぞろ]いで、贈[おく]り物[もの]にぴったりだ。",
+     "vi": "Dâu tây tiệm này quả nào cũng đều đẹp, rất hợp để làm quà.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今年[ことし]の新人[しんじん]、どう？B：粒揃[つぶぞろ]いだよ。誰[だれ]に任[まか]せても安心[あんしん]だね。",
+     "vi": "A: Lứa nhân viên mới năm nay thế nào? B: Toàn người được việc. Giao cho ai cũng yên tâm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "商品[しょうひん]",
+     "vi": "hàng hóa"
+    },
+    {
+     "jp": "人材[じんざい]",
+     "vi": "nhân lực"
+    }
+   ],
+   "ant": [
+    "v:不揃い:ふぞろい"
+   ],
+   "rel": [
+    "v:揃う:そろう"
+   ],
+   "note": "粒揃[つぶぞろ]い = (hạt nào cũng đều) cả nhóm đều tốt, không có cái kém (hàng hóa, trái cây; cũng dùng cho người: 粒揃[つぶぞろ]いの選手[せんしゅ] / メンバー). Trái nghĩa: 不揃[ふぞろ]い."
+  },
+  {
+   "id": "v:図体:ずうたい",
+   "kana": "ずうたい",
+   "kanji": "図体",
+   "hv": "ĐỒ THỂ",
+   "vi": "thân hình to xác, khổ người (hàm ý chê)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kích cỡ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "図体[ずうたい]ばかり大[おお]きくて、力仕事[ちからしごと]はさっぱりだ。",
+     "vi": "To xác thế thôi chứ việc nặng thì chịu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "図体[ずうたい]の大[おお]きい冷凍[れいとう]マグロは、二人[ふたり]がかりでないと台[だい]に載[の]せられない。",
+     "vi": "Con cá ngừ đông lạnh to xác phải hai người mới đặt lên bàn được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あのトラック、図体[ずうたい]が大[おお]きいから、この道[みち]は通[とお]れないよ。B：じゃあ、裏[うら]の広[ひろ]い道[みち]から入[はい]ってもらおう。",
+     "vi": "A: Xe tải đó to xác, không đi lọt đường này đâu. B: Vậy bảo họ vào bằng đường lớn phía sau.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    {
+     "w": "巨体[きょたい]",
+     "vi": "thân hình khổng lồ"
+    },
+    {
+     "w": "体格[たいかく]",
+     "vi": "vóc dáng, thể hình"
+    }
+   ],
+   "note": "図体[ずうたい] = thân hình, khổ người to lớn (thường hàm ý chê: to mà vụng, cồng kềnh): 図体[ずうたい]ばかり大[おお]きい / 図体[ずうたい]がでかい. Dùng cả cho đồ vật lớn cồng kềnh (トラック, 機械[きかい])."
+  },
+  {
+   "id": "v:優に:ゆうに",
+   "kana": "ゆうに",
+   "kanji": "優に",
+   "kf": "優[ゆう]に",
+   "hv": "ƯU",
+   "vi": "thừa sức, dư (vượt hơn con số nêu ra)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kích cỡ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "このマグロは、優[ゆう]に三百[さんびゃく]キロはあるだろう。",
+     "vi": "Con cá ngừ này chắc chắn phải trên ba trăm ký.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "駅[えき]から会社[かいしゃ]まで歩[ある]けば、優[ゆう]に一時間[いちじかん]はかかる。",
+     "vi": "Từ ga đến công ty mà đi bộ thì mất hơn một tiếng là chắc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この倉庫[そうこ]、何箱[なんはこ]くらい入[はい]るかな。B：優[ゆう]に五百箱[ごひゃっぱこ]は入[はい]るよ。棚[たな]を増[ふ]やせばもっとだね。",
+     "vi": "A: Kho này chứa được khoảng bao nhiêu thùng nhỉ? B: Dư sức năm trăm thùng. Thêm kệ thì còn nhiều hơn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:およそ:およそ"
+   ],
+   "note": "優[ゆう]に = dư sức, hơn hẳn (con số nêu ra là mức thấp nhất): 優[ゆう]に〜を超[こ]える / 優[ゆう]に〜はある. Thường đi với は / を超[こ]える / 以上[いじょう]. Cũng viết kana: ゆうに."
+  },
+  {
+   "id": "v:不揃い:ふぞろい",
+   "kana": "ふぞろい",
+   "kanji": "不揃い",
+   "kf": "不揃[ふぞろ]い",
+   "hv": "BẤT TIỄN",
+   "vi": "không đồng đều, so le (kích cỡ, hình dạng)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kích cỡ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "切[き]り身[み]の大[おお]きさが不揃[ふぞろ]いだと、重[おも]さの検査[けんさ]で引[ひ]っかかる。",
+     "vi": "Miếng cá to nhỏ không đều thì sẽ vướng ở khâu kiểm tra trọng lượng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "形[かたち]は不揃[ふぞろ]いだが味[あじ]は変[か]わらない野菜[やさい]を、安[やす]く売[う]っている。",
+     "vi": "Rau hình dáng không đều nhưng vị chẳng khác được bán rẻ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このエビ、サイズが不揃[ふぞろ]いですね。B：規格外[きかくがい]品[ひん]だからね。加工[かこう]用[よう]に回[まわ]そう。",
+     "vi": "A: Tôm này cỡ không đều nhỉ. B: Hàng ngoài quy cách mà. Chuyển sang dùng để chế biến.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "大[おお]きさ",
+     "vi": "kích cỡ"
+    },
+    {
+     "jp": "形[かたち]",
+     "vi": "hình dạng"
+    }
+   ],
+   "ant": [
+    "v:粒揃い:つぶぞろい"
+   ],
+   "rel": [
+    "v:ばらつき:ばらつき",
+    "v:揃える:そろえる"
+   ],
+   "note": "不揃[ふぞろ]い = kích cỡ, hình dạng, màu sắc không đồng đều (不揃[ふぞろ]いな野菜[やさい] / 歯並[はなら]びが不揃[ふぞろ]い). Trái nghĩa: 揃[そろ]っている / 粒揃[つぶぞろ]い. Trong xưởng hay nói サイズのばらつき."
+  },
+  {
+   "id": "v:急騰:きゅうとう",
+   "kana": "きゅうとう",
+   "kanji": "急騰",
+   "hv": "CẤP ĐẰNG",
+   "vi": "tăng vọt (giá, trong thời gian ngắn)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "燃料費[ねんりょうひ]の急騰[きゅうとう]で、漁[りょう]に出[で]る回数[かいすう]を減[へ]らす漁師[りょうし]もいる。",
+     "vi": "Vì phí nhiên liệu tăng vọt, có ngư dân giảm số lần ra khơi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "野菜[やさい]の値段[ねだん]が急騰[きゅうとう]して、家計[かけい]が苦[くる]しい。",
+     "vi": "Giá rau tăng vọt nên chi tiêu gia đình chật vật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：エビの仕入[しい]れ値[ね]、また上[あ]がったの？B：うん、先月[せんげつ]から急騰[きゅうとう]してるんだ。メニューの値段[ねだん]も考[かんが]え直[なお]さないと。",
+     "vi": "A: Giá nhập tôm lại lên à? B: Ừ, tăng vọt từ tháng trước. Phải tính lại giá thực đơn thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "価格[かかく]が急騰[きゅうとう]する",
+     "vi": "giá tăng vọt"
+    },
+    {
+     "jp": "株価[かぶか]が急騰[きゅうとう]する",
+     "vi": "giá cổ phiếu tăng vọt"
+    }
+   ],
+   "ant": [
+    {
+     "w": "急落[きゅうらく]",
+     "vi": "giảm mạnh đột ngột"
+    }
+   ],
+   "confuse": [
+    "v:高騰:こうとう"
+   ],
+   "rel": [
+    "v:跳ね上がる:はねあがる"
+   ],
+   "note": "急騰[きゅうとう] = (giá) tăng vọt trong thời gian ngắn (nhấn tốc độ). 高騰[こうとう] = giá lên cao (nhấn mức cao, kéo dài). 暴騰[ぼうとう] = tăng phi mã. Trái nghĩa: 急落[きゅうらく] / 暴落[ぼうらく]."
+  },
+  {
+   "id": "v:暴落:ぼうらく",
+   "kana": "ぼうらく",
+   "kanji": "暴落",
+   "hv": "BẠO LẠC",
+   "vi": "(giá) lao dốc, rớt thê thảm",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大漁[たいりょう]が続[つづ]いてイワシの値[ね]が暴落[ぼうらく]し、漁師[りょうし]たちは頭[あたま]を抱[かか]えている。",
+     "vi": "Được mùa liên tiếp, giá cá mòi rớt thê thảm khiến ngư dân đau đầu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "株価[かぶか]の暴落[ぼうらく]で、老後[ろうご]のための蓄[たくわ]えが大[おお]きく減[へ]った。",
+     "vi": "Vì giá cổ phiếu lao dốc, khoản dành dụm cho tuổi già giảm mạnh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：キャベツ、一玉[ひとたま]五十円[ごじゅうえん]だって。B：豊作[ほうさく]で暴落[ぼうらく]してるらしいよ。農家[のうか]の人[ひと]は大変[たいへん]だね。",
+     "vi": "A: Bắp cải năm mươi yên một bắp kìa. B: Nghe nói được mùa nên giá rớt thê thảm. Nhà nông vất vả rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "価格[かかく]が暴落[ぼうらく]する",
+     "vi": "giá rớt thê thảm"
+    },
+    {
+     "jp": "株[かぶ]が暴落[ぼうらく]する",
+     "vi": "cổ phiếu lao dốc"
+    }
+   ],
+   "ant": [
+    {
+     "w": "暴騰[ぼうとう]",
+     "vi": "tăng phi mã"
+    }
+   ],
+   "confuse": [
+    "v:値崩れ:ねくずれ"
+   ],
+   "rel": [
+    {
+     "w": "下落[げらく]",
+     "vi": "giảm giá (nói chung)"
+    }
+   ],
+   "note": "暴落[ぼうらく] = giá giảm mạnh, đột ngột (株価[かぶか] / 相場[そうば]の暴落[ぼうらく]). 下落[げらく] = giảm (trung tính). 値崩[ねくず]れ = giá một mặt hàng sụp vì cung vượt cầu."
+  },
+  {
+   "id": "v:値崩れ:ねくずれ",
+   "kana": "ねくずれ",
+   "kanji": "値崩れ",
+   "kf": "値崩[ねくず]れ",
+   "hv": "TRỊ BĂNG",
+   "vi": "rớt giá (vì hàng thừa, cung vượt cầu)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "豊漁[ほうりょう]でサンマが値崩[ねくず]れし、一匹[いっぴき]百円[ひゃくえん]以下[いか]で売[う]られている。",
+     "vi": "Được mùa nên cá thu đao rớt giá, bán dưới một trăm yên một con.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "値崩[ねくず]れを防[ふせ]ぐため、一部[いちぶ]を冷凍[れいとう]して出荷[しゅっか]の時期[じき]をずらした。",
+     "vi": "Để chặn rớt giá, một phần được cấp đông và lùi thời điểm xuất hàng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "野菜[やさい]が値崩[ねくず]れする",
+     "vi": "rau rớt giá"
+    },
+    {
+     "jp": "品物[しなもの]が値崩[ねくず]れする",
+     "vi": "hàng hóa rớt giá"
+    }
+   ],
+   "confuse": [
+    "v:暴落:ぼうらく"
+   ],
+   "rel": [
+    "v:値下げ:ねさげ"
+   ],
+   "note": "値崩[ねくず]れ = giá thị trường của một mặt hàng sụt mạnh vì hàng nhiều quá, cung vượt cầu (豊作[ほうさく]で値崩[ねくず]れする / 値崩[ねくず]れを起[お]こす). 値下[ねさ]げ = người bán chủ động hạ giá. 暴落[ぼうらく] = lao dốc (cổ phiếu, tiền tệ...)."
+  },
+  {
+   "id": "v:時価:じか",
+   "kana": "じか",
+   "kanji": "時価",
+   "hv": "THỜI GIÁ",
+   "vi": "giá thời điểm (theo thị trường)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寿司屋[すしや]のメニューに「マグロ 時価[じか]」と書[か]いてあった。",
+     "vi": "Thực đơn quán sushi ghi \"cá ngừ: giá theo thời điểm\".",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "中古車[ちゅうこしゃ]の値段[ねだん]は時価[じか]で決[き]まるので、店[みせ]によって違[ちが]う。",
+     "vi": "Giá xe cũ tính theo giá thị trường lúc đó nên mỗi tiệm một khác.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：「時価[じか]」って書[か]いてあるけど、いくらぐらいなの？B：今日[きょう]は仕入[しい]れが高[たか]かったから、一皿[ひとさら]二千円[にせんえん]といったところかな。",
+     "vi": "A: Ghi \"giá thời điểm\", vậy khoảng bao nhiêu? B: Hôm nay giá nhập cao nên tầm hai nghìn yên một đĩa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:相場:そうば",
+    "v:価格:かかく",
+    {
+     "w": "定価[ていか]",
+     "vi": "giá niêm yết"
+    }
+   ],
+   "note": "時価[じか] = giá tại thời điểm đó, thay đổi theo thị trường (時価[じか]で取引[とりひき]する / メニューの時価[じか]). Trên báo kinh tế: 時価総額[じかそうがく] = giá trị vốn hóa thị trường. 定価[ていか] = giá niêm yết cố định."
+  },
+  {
+   "id": "v:言い値:いいね",
+   "kana": "いいね",
+   "kanji": "言い値",
+   "kf": "言[い]い値[ね]",
+   "hv": "NGÔN TRỊ",
+   "vi": "giá người bán đưa ra (chưa mặc cả)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "骨董品[こっとうひん]を言[い]い値[ね]で買[か]うと、損[そん]をすることが多[おお]い。",
+     "vi": "Mua đồ cổ theo giá người bán hét thì thường bị thiệt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "急[いそ]ぎの部品[ぶひん]だったので、業者[ぎょうしゃ]の言[い]い値[ね]で買[か]うしかなかった。",
+     "vi": "Linh kiện cần gấp nên đành mua theo giá nhà cung cấp đưa ra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この車[くるま]、いくらで買[か]ったの？B：言[い]い値[ね]の一割[いちわり]引[び]きで買[か]えたよ。交渉[こうしょう]してみるもんだね。",
+     "vi": "A: Xe này mua bao nhiêu thế? B: Mua được rẻ hơn giá người bán đưa một chục phần trăm. Đúng là cứ thử mặc cả.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "言[い]い値[ね]で買[か]う",
+     "vi": "mua theo giá người bán đưa"
+    },
+    {
+     "jp": "言[い]い値[ね]をのむ",
+     "vi": "chấp nhận giá người bán"
+    }
+   ],
+   "ant": [
+    {
+     "w": "付[つ]け値[ね]",
+     "vi": "giá người mua trả"
+    }
+   ],
+   "rel": [
+    {
+     "w": "値切[ねぎ]る",
+     "vi": "mặc cả, trả giá"
+    }
+   ],
+   "note": "言[い]い値[ね] = giá do người bán tự đặt ra, chưa thương lượng (言[い]い値[ね]で買[か]う = mua không mặc cả). Ngược lại 付[つ]け値[ね] = giá người mua đề nghị."
+  },
+  {
+   "id": "v:値が張る:ねがはる",
+   "kana": "ねがはる",
+   "kanji": "値が張る",
+   "kf": "値[ね]が張[は]る",
+   "hv": "TRỊ TRƯƠNG",
+   "vi": "giá khá cao, khá tốn tiền",
+   "pos": "expr",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "本[ほん]マグロの大[おお]トロは、やはり値[ね]が張[は]る。",
+     "vi": "Otoro cá ngừ vây xanh quả là đắt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "値[ね]が張[は]っても、長[なが]く使[つか]える包丁[ほうちょう]を選[えら]んだほうが結局[けっきょく]得[とく]だ。",
+     "vi": "Dù đắt tiền, chọn con dao dùng được lâu thì rốt cuộc vẫn lời.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：このコート、ちょっと値[ね]が張[は]るけど、暖[あたた]かそう。B：冬[ふゆ]は長[なが]いし、いい物[もの]を買[か]ったほうがいいよ。",
+     "vi": "A: Áo khoác này hơi đắt, nhưng trông ấm. B: Mùa đông dài mà, mua đồ tốt thì hơn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:割高:わりだか",
+    "v:高価:こうか"
+   ],
+   "note": "値[ね]が張[は]る = giá khá cao (thường kèm ý đáng tiền hoặc hơi tiếc tiền: 少々[しょうしょう]値[ね]が張[は]る); nghe lịch sự hơn 高[たか]い. 張[は]る ở đây = vượt mức thường."
+  },
+  {
+   "id": "v:法外:ほうがい",
+   "kana": "ほうがい",
+   "kanji": "法外",
+   "hv": "PHÁP NGOẠI",
+   "vi": "vượt quá mức hợp lý, cắt cổ (giá, yêu cầu)",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "修理業[しゅうりぎょう]者[しゃ]に法外[ほうがい]な料金[りょうきん]を請求[せいきゅう]され、消費[しょうひ]生活[せいかつ]センターに相談[そうだん]した。",
+     "vi": "Bị thợ sửa chữa đòi phí cắt cổ, tôi đã hỏi trung tâm tư vấn người tiêu dùng.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "観光地[かんこうち]では、法外[ほうがい]な値段[ねだん]で売[う]りつける店[みせ]に気[き]をつけよう。",
+     "vi": "Ở điểm du lịch hãy cảnh giác với tiệm bán ép giá cắt cổ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：駅前[えきまえ]の駐車場[ちゅうしゃじょう]、一時間[いちじかん]二千円[にせんえん]だって。B：それは法外[ほうがい]だね。少[すこ]し歩[ある]いても、別[べつ]の所[ところ]に止[と]めよう。",
+     "vi": "A: Bãi đỗ trước ga hai nghìn yên một tiếng đấy. B: Thế thì cắt cổ quá. Đi bộ xa chút cũng được, đỗ chỗ khác thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "値段[ねだん]",
+     "vi": "giá"
+    },
+    {
+     "jp": "要求[ようきゅう]",
+     "vi": "yêu cầu"
+    }
+   ],
+   "ant": [
+    "v:手頃:てごろ"
+   ],
+   "rel": [
+    "v:割高:わりだか"
+   ],
+   "note": "法外[ほうがい] = vượt quá mức hợp lý (vốn: ngoài phép tắc): 法外[ほうがい]な値段[ねだん] / 料金[りょうきん] / 要求[ようきゅう]. Không mang nghĩa \"trái luật\" trong cách dùng thường ngày; trái luật là 違法[いほう]."
+  },
+  {
+   "id": "v:跳ね上がる:はねあがる",
+   "kana": "はねあがる",
+   "kanji": "跳ね上がる",
+   "kf": "跳[は]ね上[あ]がる",
+   "hv": "KHIÊU THƯỢNG",
+   "vi": "nhảy vọt (giá, con số); bắn tung lên",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "円安[えんやす]の影響[えいきょう]で、輸入[ゆにゅう]エビの仕入[しい]れ値[ね]が跳[は]ね上[あ]がった。",
+     "vi": "Do đồng yên yếu, giá nhập tôm nhập khẩu nhảy vọt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台風[たいふう]の後[あと]は、野菜[やさい]の値段[ねだん]が一気[いっき]に跳[は]ね上[あ]がる。",
+     "vi": "Sau bão, giá rau nhảy vọt một lèo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：電気代[でんきだい]の請求書[せいきゅうしょ]、見[み]た？B：見[み]たよ。冬[ふゆ]は暖房[だんぼう]を使[つか]うから跳[は]ね上[あ]がるよね。",
+     "vi": "A: Thấy hóa đơn tiền điện chưa? B: Thấy rồi. Mùa đông dùng sưởi nên nhảy vọt nhỉ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "値段[ねだん]が跳[は]ね上[あ]がる",
+     "vi": "giá nhảy vọt"
+    },
+    {
+     "jp": "水[みず]が跳[は]ね上[あ]がる",
+     "vi": "nước bắn tung lên"
+    }
+   ],
+   "rel": [
+    "v:急騰:きゅうとう"
+   ],
+   "note": "跳[は]ね上[あ]がる = (1) bật, nảy, bắn tung lên (水[みず]しぶきが跳[は]ね上[あ]がる); (2) (giá, con số) tăng vọt đột ngột (価格[かかく] / 数値[すうち]が跳[は]ね上[あ]がる). Văn nói dùng nhiều hơn 急騰[きゅうとう]."
+  },
+  {
+   "id": "v:吊り上げる:つりあげる",
+   "kana": "つりあげる",
+   "kanji": "吊り上げる",
+   "kf": "吊[つ]り上[あ]げる",
+   "hv": "ĐIẾU THƯỢNG",
+   "vi": "đẩy giá lên (cố ý); cẩu, nhấc lên cao",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "買[か]い占[し]めで品物[しなもの]の値段[ねだん]を吊[つ]り上[あ]げる行為[こうい]は許[ゆる]されない。",
+     "vi": "Hành vi gom hàng để đẩy giá lên là không thể chấp nhận.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "クレーンで冷凍[れいとう]コンテナを吊[つ]り上[あ]げて、トラックに載[の]せた。",
+     "vi": "Dùng cần cẩu nhấc container lạnh lên rồi đặt lên xe tải.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：競[せ]りって、どうやって値段[ねだん]が決[き]まるの？B：欲[ほ]しい人[ひと]が多[おお]いと、お互[たが]いに値[ね]を吊[つ]り上[あ]げていくんだよ。",
+     "vi": "A: Đấu giá thì giá được quyết thế nào? B: Người muốn mua đông thì họ cứ đẩy giá lên nhau đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "価格[かかく]を吊[つ]り上[あ]げる",
+     "vi": "đẩy giá lên"
+    },
+    {
+     "jp": "クレーンで吊[つ]り上[あ]げる",
+     "vi": "nhấc lên bằng cần cẩu"
+    }
+   ],
+   "pair": {
+    "w": "吊[つ]り上[あ]がる",
+    "vi": "bị kéo lên, xếch lên (tự động từ)"
+   },
+   "note": "吊[つ]り上[あ]げる = (1) treo, móc rồi nhấc lên cao (クレーンで吊[つ]り上[あ]げる); (2) cố ý đẩy giá lên cao (値段[ねだん] / 相場[そうば]を吊[つ]り上[あ]げる); (3) 目[め]を吊[つ]り上[あ]げる = trợn mắt (vì giận). Tự động từ: 吊[つ]り上[あ]がる. Cũng viết つり上[あ]げる."
+  },
+  {
+   "id": "v:落札:らくさつ",
+   "kana": "らくさつ",
+   "kanji": "落札",
+   "hv": "LẠC TRÁT",
+   "vi": "trúng đấu giá, trúng thầu",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giá cả",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "港[みなと]の新[あたら]しい倉庫[そうこ]の建設[けんせつ]工事[こうじ]は、地元[じもと]の会社[かいしゃ]が落札[らくさつ]した。",
+     "vi": "Công trình xây kho mới ở cảng do một công ty địa phương trúng thầu.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "ネットオークションで、欲[ほ]しかったカメラを安[やす]く落札[らくさつ]できた。",
+     "vi": "Tôi đã đấu giá được chiếc máy ảnh mong muốn với giá rẻ trên mạng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：例[れい]のマグロ、どこが落札[らくさつ]したの？B：駅前[えきまえ]の寿司屋[すしや]さんだって。今夜[こんや]行[い]ってみようか。",
+     "vi": "A: Con cá ngừ đó ai đấu được thế? B: Nghe nói là quán sushi trước ga. Tối nay thử đến không?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "工事[こうじ]を落札[らくさつ]する",
+     "vi": "trúng thầu công trình"
+    },
+    {
+     "jp": "高値[たかね]で落札[らくさつ]する",
+     "vi": "trúng đấu giá với giá cao"
+    }
+   ],
+   "rel": [
+    "v:競り落とす:せりおとす",
+    {
+     "w": "入札[にゅうさつ]",
+     "vi": "bỏ thầu, đấu thầu"
+    }
+   ],
+   "note": "落札[らくさつ] = giành được quyền mua (đấu giá) hoặc quyền nhận thầu (đấu thầu) vì đưa ra giá tốt nhất; danh từ ghép: 落札[らくさつ]価格[かかく], 落札者[らくさつしゃ]. 入札[にゅうさつ] = bỏ giá thầu."
+  },
+  {
+   "id": "v:概算:がいさん",
+   "kana": "がいさん",
+   "kanji": "概算",
+   "hv": "KHÁI TOÁN",
+   "vi": "tính phỏng, ước tính sơ bộ",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ước lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "引[ひ]っ越[こ]しの費用[ひよう]を概算[がいさん]すると、二十万円[にじゅうまんえん]ほどになる。",
+     "vi": "Tính sơ bộ chi phí chuyển nhà thì khoảng hai trăm nghìn yên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しいラインの導入[どうにゅう]について、まず概算[がいさん]の見積[みつ]もりを出[だ]してもらった。",
+     "vi": "Về việc lắp dây chuyền mới, trước hết nhờ bên kia đưa báo giá sơ bộ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：修理代[しゅうりだい]、いくらくらいかかりますか。B：概算[がいさん]ですが、三万円[さんまんえん]から四万円[よんまんえん]といったところですね。",
+     "vi": "A: Tiền sửa khoảng bao nhiêu ạ? B: Ước tính sơ bộ thì tầm ba đến bốn vạn yên.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "費用[ひよう]を概算[がいさん]する",
+     "vi": "tính sơ bộ chi phí"
+    },
+    {
+     "jp": "工事費[こうじひ]を概算[がいさん]する",
+     "vi": "ước tính phí xây dựng"
+    }
+   ],
+   "confuse": [
+    "v:試算:しさん",
+    "v:推計:すいけい"
+   ],
+   "rel": [
+    "v:見積もり:みつもり"
+   ],
+   "note": "概算[がいさん] = tính toán đại khái, chưa chính xác (概算[がいさん]見積[みつ]もり / 概算[がいさん]払[はら]い). 試算[しさん] = tính thử để xem kết quả. 推計[すいけい] = ước tính tổng thể dựa trên số liệu thống kê."
+  },
+  {
+   "id": "v:目分量:めぶんりょう",
+   "kana": "めぶんりょう",
+   "kanji": "目分量",
+   "hv": "MỤC PHÂN LƯỢNG",
+   "vi": "ước lượng bằng mắt (không cân đo)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ước lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母[はは]は料理[りょうり]のとき、調味料[ちょうみりょう]をいつも目[め]分量[ぶんりょう]で入[い]れる。",
+     "vi": "Mẹ tôi lúc nấu ăn luôn cho gia vị theo ước lượng bằng mắt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "塩水[しおみず]の濃度[のうど]は目分[めぶん]量[りょう]で決[き]めず、必[かなら]ず量[はか]って作[つく]ること。",
+     "vi": "Nồng độ nước muối không được ước bằng mắt, nhất định phải đong đo mà pha.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：これ、何[なん]グラムぐらい？B：目分[めぶん]量[りょう]だと二百[にひゃく]グラムといったところかな。でも念[ねん]のため量[はか]ってね。",
+     "vi": "A: Cái này khoảng bao nhiêu gram? B: Nhìn bằng mắt thì tầm hai trăm gram. Nhưng cân lại cho chắc nhé.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "目分[めぶん]量[りょう]で入[い]れる",
+     "vi": "cho vào theo ước lượng mắt"
+    },
+    {
+     "jp": "目分[めぶん]量[りょう]で測[はか]る",
+     "vi": "đo phỏng bằng mắt"
+    }
+   ],
+   "rel": [
+    "v:目方:めかた",
+    "v:見当:けんとう"
+   ],
+   "note": "目分[めぶん]量[りょう] = đoán lượng, kích thước bằng mắt mà không cân đo (目分[めぶん]量[りょう]で入[い]れる / 測[はか]る). Trong sản xuất thực phẩm, công đoạn cần chính xác thì không được làm theo 目分[めぶん]量[りょう]."
+  },
+  {
+   "id": "v:推計:すいけい",
+   "kana": "すいけい",
+   "kanji": "推計",
+   "hv": "THÔI KẾ",
+   "vi": "ước tính (bằng phương pháp thống kê)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ước lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この町[まち]の人口[じんこう]は、今後[こんご]も減[へ]り続[つづ]けると推計[すいけい]されている。",
+     "vi": "Dân số thị trấn này được ước tính sẽ tiếp tục giảm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "過去[かこ]のデータから、来月[らいげつ]必要[ひつよう]な人員[じんいん]を推計[すいけい]した。",
+     "vi": "Từ số liệu quá khứ, chúng tôi ước tính số nhân lực cần cho tháng tới.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人口[じんこう]を推計[すいけい]する",
+     "vi": "ước tính dân số"
+    },
+    {
+     "jp": "被害[ひがい]額[がく]を推計[すいけい]する",
+     "vi": "ước tính giá trị thiệt hại"
+    }
+   ],
+   "confuse": [
+    "v:推定:すいてい",
+    "v:概算:がいさん"
+   ],
+   "note": "推計[すいけい] = ước tính tổng thể dựa trên một phần số liệu, bằng phương pháp thống kê (推計値[すいけいち] / 将来[しょうらい]推計[すいけい]); hay gặp trên báo, văn bản hành chính. 推定[すいてい] = suy đoán từ căn cứ (推定[すいてい]年齢[ねんれい])."
+  },
+  {
+   "id": "v:試算:しさん",
+   "kana": "しさん",
+   "kanji": "試算",
+   "hv": "THÍ TOÁN",
+   "vi": "tính thử (theo một giả định)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ước lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜勤[やきん]を週[しゅう]二回[にかい]に増[ふ]やした場合[ばあい]の手取[てど]りを試算[しさん]してみた。",
+     "vi": "Tôi đã thử tính lương thực nhận nếu tăng ca đêm lên hai lần một tuần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい包装材[ほうそうざい]に変[か]えると、年間[ねんかん]でどれだけ節約[せつやく]できるか試算[しさん]した。",
+     "vi": "Đã tính thử xem đổi sang vật liệu đóng gói mới thì một năm tiết kiệm được bao nhiêu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：住宅[じゅうたく]ローン、毎月[まいつき]いくらになるかな。B：銀行[ぎんこう]のサイトで試算[しさん]できるよ。",
+     "vi": "A: Vay mua nhà thì mỗi tháng trả bao nhiêu nhỉ? B: Có thể tính thử trên trang web của ngân hàng đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "費用[ひよう]を試算[しさん]する",
+     "vi": "tính thử chi phí"
+    },
+    {
+     "jp": "効果[こうか]を試算[しさん]する",
+     "vi": "tính thử hiệu quả"
+    }
+   ],
+   "confuse": [
+    "v:概算:がいさん"
+   ],
+   "note": "試算[しさん] = tính thử theo một giả định để xem kết quả (〜した場合[ばあい]を試算[しさん]する / 試算[しさん]結果[けっか]). 概算[がいさん] = tính phỏng chừng."
+  },
+  {
+   "id": "v:概ね:おおむね",
+   "kana": "おおむね",
+   "kanji": "概ね",
+   "kf": "概[おおむ]ね",
+   "hv": "KHÁI",
+   "vi": "đại thể, về cơ bản (văn báo cáo, họp)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ước lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい作業[さぎょう]手順[てじゅん]は、概[おおむ]ね順調[じゅんちょう]に定着[ていちゃく]している。",
+     "vi": "Quy trình làm việc mới nhìn chung đã đi vào nề nếp suôn sẻ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "週末[しゅうまつ]の天気[てんき]は概[おおむ]ね晴[は]れで、洗濯[せんたく]日和[ひより]になりそうだ。",
+     "vi": "Thời tiết cuối tuần nhìn chung nắng, có vẻ là ngày đẹp để giặt giũ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：面接[めんせつ]の結果[けっか]、どうだった？B：概[おおむ]ね好評[こうひょう]だったって。あとは書類[しょるい]をそろえるだけだよ。",
+     "vi": "A: Kết quả phỏng vấn thế nào? B: Nghe nói nhìn chung được đánh giá tốt. Giờ chỉ còn chuẩn bị đủ giấy tờ thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "syn": [
+    "v:大体:だいたい"
+   ],
+   "rel": [
+    "v:およそ:およそ",
+    "v:概して:がいして"
+   ],
+   "note": "概[おおむ]ね = phần lớn, về cơ bản (văn viết, báo cáo, cuộc họp: 概[おおむ]ね良好[りょうこう] / 概[おおむ]ね了承[りょうしょう]). 概[がい]して = nhìn chung mà nói (khái quát xu hướng). Văn nói: だいたい."
+  },
+  {
+   "id": "v:高々:たかだか",
+   "kana": "たかだか",
+   "kanji": "高々",
+   "hv": "CAO CAO",
+   "vi": "cùng lắm, chỉ đến (chẳng đáng là bao)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ước lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "残業[ざんぎょう]といっても、高々[たかだか]一時間[いちじかん]ほどだ。",
+     "vi": "Gọi là tăng ca nhưng cùng lắm chỉ khoảng một tiếng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "高々[たかだか]千円[せんえん]の違[ちが]いなら、近[ちか]い店[みせ]で買[か]ったほうがいい。",
+     "vi": "Nếu chênh nhau cùng lắm một nghìn yên thì mua ở tiệm gần còn hơn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この荷物[にもつ]、重[おも]そうだね。B：高々[たかだか]五[ご]キロだよ。一人[ひとり]で運[はこ]べる。",
+     "vi": "A: Hành lý này trông nặng nhỉ. B: Cùng lắm năm ký thôi. Một mình khuân được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:精々:せいぜい"
+   ],
+   "note": "高々[たかだか] = (con số, mức độ) nhiều nhất cũng chỉ ~; hàm ý \"chẳng đáng là bao\" (高々[たかだか]〜だ / 高々[たかだか]〜にすぎない). 精々[せいぜい] = cùng lắm (gần nghĩa) và còn nghĩa \"cố hết mức\" (精々[せいぜい]頑張[がんば]る). Thường viết kana: たかだか."
+  },
+  {
+   "id": "v:かれこれ:かれこれ",
+   "kana": "かれこれ",
+   "kanji": "",
+   "hv": "",
+   "vi": "ngót nghét, đã gần (thời gian, số lượng đã qua)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ước lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この工場[こうじょう]で働[はたら]き始[はじ]めて、かれこれ八年[はちねん]になる。",
+     "vi": "Bắt đầu làm ở xưởng này đã ngót nghét tám năm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "友人[ゆうじん]とは、かれこれ一時間[いちじかん]も電話[でんわ]で話[はな]していた。",
+     "vi": "Tôi nói chuyện điện thoại với bạn gần cả tiếng đồng hồ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：待[ま]った？B：かれこれ三十分[さんじゅっぷん]くらいかな。でも本[ほん]を読[よ]んでたから平気[へいき]だよ。",
+     "vi": "A: Đợi lâu không? B: Ngót ba mươi phút. Nhưng đọc sách nên không sao.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:およそ:およそ",
+    "v:ほぼ:ほぼ"
+   ],
+   "note": "かれこれ = (1) ngót, gần (thời gian, số lượng đã trôi qua: かれこれ十年[じゅうねん] / 一時間[いちじかん]); (2) cái này cái kia, đủ thứ (かれこれ言[い]う = nói này nói nọ). Chữ Hán: 彼此[かれこれ] (ít dùng)."
+  },
+  {
+   "id": "v:端数:はすう",
+   "kana": "はすう",
+   "kanji": "端数",
+   "hv": "ĐOAN SỐ",
+   "vi": "số lẻ, phần lẻ (không tròn)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ước lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "合計金額[ごうけいきんがく]の端数[はすう]は、切[き]り捨[す]てて請求[せいきゅう]いたします。",
+     "vi": "Phần lẻ của tổng số tiền sẽ được bỏ đi khi lập hóa đơn.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "箱[はこ]に詰[つ]めて余[あま]った端数[はすう]の切[き]り身[み]は、別[べつ]のトレーにまとめる。",
+     "vi": "Các miếng cá lẻ thừa ra sau khi đóng thùng được gom vào khay riêng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：割[わ]り勘[かん]だと、一人[ひとり]二千三百四十円[にせんさんびゃくよんじゅうえん]だって。B：端数[はすう]は僕[ぼく]が出[だ]すから、二千円[にせんえん]ずつでいいよ。",
+     "vi": "A: Chia đều thì mỗi người hai nghìn ba trăm bốn mươi yên. B: Phần lẻ để tôi trả, mỗi người hai nghìn thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "端数[はすう]を切[き]り捨[す]てる",
+     "vi": "bỏ phần lẻ"
+    },
+    {
+     "jp": "端数[はすう]を切[き]り上[あ]げる",
+     "vi": "làm tròn lên"
+    }
+   ],
+   "rel": [
+    "v:切り捨てる:きりすてる",
+    {
+     "w": "四捨五入[ししゃごにゅう]",
+     "vi": "làm tròn"
+    }
+   ],
+   "note": "端数[はすう] = phần lẻ không tròn số (ví dụ 1.234 yên thì 34 yên là 端数[はすう]). Cách xử lý: 切[き]り捨[す]て (bỏ đi), 切[き]り上[あ]げ (làm tròn lên), 四捨五入[ししゃごにゅう] (làm tròn)."
+  },
+  {
+   "id": "v:切り捨てる:きりすてる",
+   "kana": "きりすてる",
+   "kanji": "切り捨てる",
+   "kf": "切[き]り捨[す]てる",
+   "hv": "THIẾT XẢ",
+   "vi": "bỏ phần lẻ, làm tròn xuống; gạt bỏ",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ước lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小数点[しょうすうてん]以下[いか]は切[き]り捨[す]てて、整数[せいすう]で記入[きにゅう]してください。",
+     "vi": "Phần sau dấu thập phân thì bỏ đi, ghi bằng số nguyên.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "効率[こうりつ]だけを考[かんが]えて、少数[しょうすう]意見[いけん]を切[き]り捨[す]ててはいけない。",
+     "vi": "Không được chỉ nghĩ đến hiệu suất mà gạt bỏ ý kiến thiểu số.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：小数点[しょうすうてん]以下[いか]は、切[き]り捨[す]てでいいですか。B：いや、箱[はこ]の数[かず]だから、切[き]り捨[す]てたら足[た]りなくなる。切[き]り上[あ]げて。",
+     "vi": "A: Phần thập phân bỏ đi được không ạ? B: Không, số thùng mà bỏ đi thì sẽ thiếu. Làm tròn lên đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "端数[はすう]を切[き]り捨[す]てる",
+     "vi": "bỏ phần lẻ"
+    },
+    {
+     "jp": "意見[いけん]を切[き]り捨[す]てる",
+     "vi": "gạt bỏ ý kiến"
+    }
+   ],
+   "ant": [
+    {
+     "w": "切[き]り上[あ]げる",
+     "vi": "làm tròn lên"
+    }
+   ],
+   "rel": [
+    "v:端数:はすう"
+   ],
+   "note": "切[き]り捨[す]てる = (1) cắt bỏ phần thừa; (2) (toán) bỏ phần lẻ, làm tròn xuống (端数[はすう]を切[き]り捨[す]てる); (3) gạt bỏ, bỏ rơi người, ý kiến không cần (弱者[じゃくしゃ]を切[き]り捨[す]てる). Danh từ: 切[き]り捨[す]て."
+  },
+  {
+   "id": "v:当てずっぽう:あてずっぽう",
+   "kana": "あてずっぽう",
+   "kanji": "当てずっぽう",
+   "kf": "当[あ]てずっぽう",
+   "hv": "ĐƯƠNG",
+   "vi": "đoán mò, nói bừa (không căn cứ)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ước lượng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "当[あ]てずっぽうで答[こた]えたら、偶然[ぐうぜん]正解[せいかい]だった。",
+     "vi": "Đoán mò trả lời thì tình cờ đúng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "原因[げんいん]を当[あ]てずっぽうで決[き]めつけず、データで確[たし]かめよう。",
+     "vi": "Đừng đoán mò mà quy kết nguyên nhân, hãy kiểm chứng bằng số liệu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：在庫[ざいこ]、あと何[なん]ケースある？B：数[かぞ]えてないから当[あ]てずっぽうだけど、二十[にじゅう]ケースといったところかな。",
+     "vi": "A: Hàng tồn còn mấy thùng? B: Chưa đếm nên chỉ đoán mò thôi, tầm hai mươi thùng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    {
+     "w": "当[あ]て推量[ずいりょう]",
+     "vi": "phỏng đoán vô căn cứ"
+    },
+    "v:見当:けんとう"
+   ],
+   "note": "当[あ]てずっぽう = đoán đại không có căn cứ (当[あ]てずっぽうに言[い]う / 当[あ]てずっぽうで答[こた]える); khẩu ngữ. Văn viết: 当[あ]て推量[ずいりょう]."
+  },
+  {
+   "id": "v:喜ばしい:よろこばしい",
+   "kana": "よろこばしい",
+   "kanji": "喜ばしい",
+   "kf": "喜[よろこ]ばしい",
+   "hv": "HỶ",
+   "vi": "đáng mừng (văn trang trọng)",
+   "pos": "adj-i",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vui buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今年[ことし]は一件[いっけん]も労働災害[ろうどうさいがい]がなかったことは、大変[たいへん]喜[よろこ]ばしい。",
+     "vi": "Năm nay không có vụ tai nạn lao động nào, quả là điều rất đáng mừng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "長年[ながねん]の友人[ゆうじん]が結婚[けっこん]するという喜[よろこ]ばしい知[し]らせが届[とど]いた。",
+     "vi": "Nhận được tin vui là người bạn lâu năm sắp kết hôn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：息子[むすこ]さん、大学[だいがく]に合格[ごうかく]したそうですね。B：はい、親[おや]としても喜[よろこ]ばしい限[かぎ]りです。",
+     "vi": "A: Nghe nói con trai anh đỗ đại học rồi. B: Vâng, làm cha mẹ cũng mừng vô cùng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "知[し]らせ",
+     "vi": "tin tức"
+    },
+    {
+     "jp": "こと",
+     "vi": "việc"
+    }
+   ],
+   "ant": [
+    "v:嘆かわしい:なげかわしい"
+   ],
+   "rel": [
+    "v:喜び:よろこび",
+    "v:嬉しい:うれしい"
+   ],
+   "note": "喜[よろこ]ばしい = đáng mừng, khiến người ta vui (văn viết, phát biểu: 喜[よろこ]ばしい知[し]らせ / 喜[よろこ]ばしい限[かぎ]りだ). 嬉[うれ]しい nói cảm xúc cá nhân, còn 喜[よろこ]ばしい thường đánh giá một sự việc là đáng mừng."
+  },
+  {
+   "id": "v:物悲しい:ものがなしい",
+   "kana": "ものがなしい",
+   "kanji": "物悲しい",
+   "kf": "物悲[ものがな]しい",
+   "hv": "VẬT BI",
+   "vi": "buồn man mác (không rõ vì sao)",
+   "pos": "adj-i",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vui buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "秋[あき]の夕暮[ゆうぐ]れは、なんとなく物悲[ものがな]しい。",
+     "vi": "Chiều tà mùa thu không hiểu sao buồn man mác.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "最後[さいご]の出荷[しゅっか]を終[お]えて空[から]になった倉庫[そうこ]は、どこか物悲[ものがな]しかった。",
+     "vi": "Nhà kho trống trơn sau chuyến xuất hàng cuối cùng có gì đó buồn man mác.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この曲[きょく]、聞[き]くと物悲[ものがな]しくなるね。B：うん、故郷[こきょう]を思[おも]い出[だ]すよ。",
+     "vi": "A: Bài này nghe thấy buồn man mác nhỉ. B: Ừ, làm tôi nhớ quê.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "夕暮[ゆうぐ]れ",
+     "vi": "chiều tà"
+    },
+    {
+     "jp": "音楽[おんがく]",
+     "vi": "âm nhạc"
+    }
+   ],
+   "rel": [
+    "v:悲しい:かなしい",
+    "v:寂しい:さびしい"
+   ],
+   "note": "物悲[ものがな]しい = buồn mơ hồ, man mác (không vì lý do rõ ràng); 物[もの]〜 = \"có phần, không rõ vì sao\" (物寂[ものさび]しい, 物憂[ものう]い). 悲[かな]しい = buồn vì nguyên nhân rõ ràng."
+  },
+  {
+   "id": "v:悲嘆:ひたん",
+   "kana": "ひたん",
+   "kanji": "悲嘆",
+   "hv": "BI THÁN",
+   "vi": "sự đau buồn than khóc (văn viết)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vui buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "突然[とつぜん]の事故[じこ]で息子[むすこ]を亡[な]くし、両親[りょうしん]は悲嘆[ひたん]に暮[く]れている。",
+     "vi": "Mất con trai vì tai nạn đột ngột, cha mẹ chìm trong đau buồn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]の閉鎖[へいさ]を知[し]った従業員[じゅうぎょういん]たちは、悲嘆[ひたん]に暮[く]れる暇[ひま]もなく再就職[さいしゅうしょく]の準備[じゅんび]を始[はじ]めた。",
+     "vi": "Biết tin nhà máy đóng cửa, công nhân chẳng có thì giờ than khóc mà bắt tay chuẩn bị tìm việc mới.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "悲嘆[ひたん]に暮[く]れる",
+     "vi": "chìm trong đau buồn"
+    },
+    {
+     "jp": "悲嘆[ひたん]の涙[なみだ]",
+     "vi": "giọt nước mắt đau buồn"
+    }
+   ],
+   "rel": [
+    "v:嘆く:なげく",
+    "v:悲しみ:かなしみ"
+   ],
+   "note": "悲嘆[ひたん] = buồn đau than khóc (văn viết); gần như chỉ dùng 悲嘆[ひたん]に暮[く]れる (chìm trong đau buồn), 悲嘆[ひたん]の涙[なみだ]. Văn nói: とても悲[かな]しむ / 落[お]ち込[こ]む."
+  },
+  {
+   "id": "v:舞い上がる:まいあがる",
+   "kana": "まいあがる",
+   "kanji": "舞い上がる",
+   "kf": "舞[ま]い上[あ]がる",
+   "hv": "VŨ THƯỢNG",
+   "vi": "bay vút lên; mừng quýnh (đến mất bình tĩnh)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vui buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "強[つよ]い風[かぜ]で、砂[すな]ぼこりが舞[ま]い上[あ]がった。",
+     "vi": "Gió mạnh làm bụi cát bay mù lên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "主任[しゅにん]に褒[ほ]められて舞[ま]い上[あ]がり、確認[かくにん]を一[ひと]つ忘[わす]れてしまった。",
+     "vi": "Được chủ nhiệm khen nên lâng lâng, quên mất một bước kiểm tra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：昨日[きのう]、好[す]きな歌手[かしゅ]に会[あ]えたんです！B：舞[ま]い上[あ]がるのも分[わ]かるけど、仕事中[しごとちゅう]はちゃんと集中[しゅうちゅう]してね。",
+     "vi": "A: Hôm qua tôi được gặp ca sĩ mình thích! B: Hiểu là đang lâng lâng, nhưng trong giờ làm thì tập trung nhé.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ほこりが舞[ま]い上[あ]がる",
+     "vi": "bụi bay mù lên"
+    },
+    {
+     "jp": "嬉[うれ]しくて舞[ま]い上[あ]がる",
+     "vi": "mừng quýnh lên"
+    }
+   ],
+   "rel": [
+    "v:浮かれる:うかれる",
+    "v:有頂天:うちょうてん"
+   ],
+   "note": "舞[ま]い上[あ]がる = (1) bay lượn lên cao (ほこり / 花[はな]びら / 鳥[とり]); (2) (nghĩa bóng) vui quá hóa lâng lâng, mất bình tĩnh (褒[ほ]められて舞[ま]い上[あ]がる). 浮[う]かれる = vui vẻ phấn khích, hớn hở."
+  },
+  {
+   "id": "v:意気消沈:いきしょうちん",
+   "kana": "いきしょうちん",
+   "kanji": "意気消沈",
+   "hv": "Ý KHÍ TIÊU TRẦM",
+   "vi": "ủ rũ mất hết tinh thần (sau thất bại)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vui buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "大[おお]きな契約[けいやく]を逃[のが]し、営業部[えいぎょうぶ]は意気消沈[いきしょうちん]している。",
+     "vi": "Lỡ mất hợp đồng lớn, phòng kinh doanh ủ rũ cả.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "試合[しあい]に負[ま]けて意気消沈[いきしょうちん]する息子[むすこ]の肩[かた]を、父[ちち]は黙[だま]ってたたいた。",
+     "vi": "Người cha lặng lẽ vỗ vai đứa con trai đang ủ rũ vì thua trận.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：試験[しけん]、だめだったよ…。B：そんなに意気消沈[いきしょうちん]しないで。次[つぎ]があるじゃない。",
+     "vi": "A: Thi trượt rồi... B: Đừng ủ rũ thế. Còn lần sau mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "失敗[しっぱい]して意気消沈[いきしょうちん]する",
+     "vi": "ủ rũ vì thất bại"
+    },
+    {
+     "jp": "すっかり意気消沈[いきしょうちん]する",
+     "vi": "mất hết tinh thần"
+    }
+   ],
+   "ant": [
+    {
+     "w": "意気揚々[いきようよう]",
+     "vi": "hăm hở, phấn chấn"
+    }
+   ],
+   "rel": [
+    "v:落ち込む:おちこむ",
+    "v:落胆:らくたん"
+   ],
+   "note": "意気消沈[いきしょうちん] = (thành ngữ bốn chữ) tinh thần sa sút, nhụt chí (意気消沈[いきしょうちん]する / している). Trái nghĩa: 意気揚々[いきようよう] (hăm hở, đắc ý). Văn nói: 落[お]ち込[こ]む / がっかりする."
+  },
+  {
+   "id": "v:しんみり:しんみり",
+   "kana": "しんみり",
+   "kanji": "",
+   "hv": "",
+   "vi": "(lặng đi) buồn buồn; tâm tình sâu lắng",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vui buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "送別会[そうべつかい]の最後[さいご]は、みんなしんみりしてしまった。",
+     "vi": "Cuối buổi tiệc chia tay, ai nấy đều lặng đi xúc động.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "久[ひさ]しぶりに父[ちち]と二人[ふたり]で、しんみりと昔話[むかしばなし]をした。",
+     "vi": "Lâu lắm rồi mới ngồi riêng với bố, tâm tình chuyện ngày xưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：なんだか、しんみりしちゃったね。B：うん。でも最後[さいご]は笑[わら]って送[おく]り出[だ]そうよ。",
+     "vi": "A: Tự dưng thấy lặng cả người nhỉ. B: Ừ. Nhưng cuối cùng hãy cười mà tiễn nhau đi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "しんみりする",
+     "vi": "lặng đi, chùng xuống"
+    },
+    {
+     "jp": "しんみりと語[かた]る",
+     "vi": "tâm tình sâu lắng"
+    }
+   ],
+   "rel": [
+    "v:しみじみ:しみじみ"
+   ],
+   "note": "しんみり = không khí, tâm trạng lặng xuống, buồn buồn hoặc trầm lắng thân tình (しんみりする / しんみりと話[はな]す). しみじみ = thấm thía tận đáy lòng."
+  },
+  {
+   "id": "v:一喜一憂:いっきいちゆう",
+   "kana": "いっきいちゆう",
+   "kanji": "一喜一憂",
+   "hv": "NHẤT HỶ NHẤT ƯU",
+   "vi": "lúc mừng lúc lo (theo từng thay đổi nhỏ)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vui buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎日[まいにち]の売[う]り上[あ]げに一喜一憂[いっきいちゆう]せず、長[なが]い目[め]で見[み]ることが大切[たいせつ]だ。",
+     "vi": "Quan trọng là không mừng lo theo doanh thu từng ngày mà nhìn về lâu dài.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子[こ]どものテストの点数[てんすう]に一喜一憂[いっきいちゆう]するのは、もうやめた。",
+     "vi": "Tôi đã thôi mừng lo theo điểm kiểm tra của con.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：体重計[たいじゅうけい]、毎朝[まいあさ]乗[の]ってるの？B：うん。でも一喜一憂[いっきいちゆう]しちゃうから、週[しゅう]に一回[いっかい]にしようかな。",
+     "vi": "A: Sáng nào cũng lên cân à? B: Ừ. Nhưng cứ mừng lo thất thường nên chắc chuyển sang tuần một lần.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "結果[けっか]に一喜一憂[いっきいちゆう]する",
+     "vi": "mừng lo theo kết quả"
+    },
+    {
+     "jp": "数字[すうじ]に一喜一憂[いっきいちゆう]する",
+     "vi": "mừng lo theo từng con số"
+    }
+   ],
+   "rel": [
+    "v:悲喜こもごも:ひきこもごも"
+   ],
+   "note": "一喜一憂[いっきいちゆう] = (thành ngữ bốn chữ) mỗi khi tình hình thay đổi lại vui hay lo theo (〜に一喜一憂[いっきいちゆう]する); thường dùng phủ định: 一喜一憂[いっきいちゆう]しない."
+  },
+  {
+   "id": "v:悲喜こもごも:ひきこもごも",
+   "kana": "ひきこもごも",
+   "kanji": "悲喜こもごも",
+   "kf": "悲喜[ひき]こもごも",
+   "hv": "BI HỶ",
+   "vi": "buồn vui lẫn lộn, người vui kẻ buồn",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vui buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "合格[ごうかく]発表[はっぴょう]の会場[かいじょう]は、悲喜[ひき]こもごもの光景[こうけい]だった。",
+     "vi": "Nơi công bố kết quả thi là cảnh người vui kẻ buồn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "人事異動[じんじいどう]の発表[はっぴょう]があり、職場[しょくば]は悲喜[ひき]こもごもだった。",
+     "vi": "Có công bố điều chuyển nhân sự, nơi làm việc người vui kẻ buồn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：昨日[きのう]の忘年会[ぼうねんかい]、どうだった？B：ビンゴで当[あ]たった人[ひと]、外[はず]れた人[ひと]、悲喜[ひき]こもごもだったよ。",
+     "vi": "A: Tiệc tất niên hôm qua thế nào? B: Người trúng bingo, người trượt, vui buồn lẫn lộn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:一喜一憂:いっきいちゆう",
+    {
+     "w": "喜怒哀楽[きどあいらく]",
+     "vi": "hỷ nộ ái lạc"
+    }
+   ],
+   "note": "悲喜[ひき]こもごも = buồn vui lẫn lộn (trong một người, hoặc người vui kẻ buồn trong một tập thể); こもごも = lần lượt, đan xen (交々[こもごも]). Hay dùng: 悲喜[ひき]こもごもの人生[じんせい] / 光景[こうけい]."
+  },
+  {
+   "id": "v:胸を撫で下ろす:むねをなでおろす",
+   "kana": "むねをなでおろす",
+   "kanji": "胸を撫で下ろす",
+   "kf": "胸[むね]を撫[な]で下[お]ろす",
+   "hv": "HUNG PHỦ HẠ",
+   "vi": "thở phào nhẹ nhõm",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vui buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "検査[けんさ]の結果[けっか]に異常[いじょう]がなく、ほっと胸[むね]を撫[な]で下[お]ろした。",
+     "vi": "Kết quả khám không có gì bất thường, tôi thở phào nhẹ nhõm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "出荷[しゅっか]した製品[せいひん]に問題[もんだい]がないと分[わ]かり、品質[ひんしつ]管理[かんり]の担当者[たんとうしゃ]は胸[むね]を撫[な]で下[お]ろした。",
+     "vi": "Biết hàng đã xuất không có vấn đề, người phụ trách quản lý chất lượng thở phào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：在留[ざいりゅう]カード、無事[ぶじ]に更新[こうしん]できました。B：よかったね。これでようやく胸[むね]を撫[な]で下[お]ろせるね。",
+     "vi": "A: Thẻ cư trú gia hạn suôn sẻ rồi ạ. B: Tốt quá. Giờ thì thở phào được rồi nhỉ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ほっと胸[むね]を撫[な]で下[お]ろす",
+     "vi": "thở phào nhẹ nhõm"
+    }
+   ],
+   "rel": [
+    "v:安堵:あんど",
+    "v:ほっと:ほっと"
+   ],
+   "note": "胸[むね]を撫[な]で下[お]ろす = (vuốt ngực) yên tâm, thở phào khi nỗi lo qua đi (ほっと胸[むね]を撫[な]で下[お]ろす). Văn viết: 安堵[あんど]する. Cũng viết 胸[むね]をなで下[お]ろす."
+  },
+  {
+   "id": "v:小躍り:こおどり",
+   "kana": "こおどり",
+   "kanji": "小躍り",
+   "kf": "小躍[こおど]り",
+   "hv": "TIỂU DƯỢC",
+   "vi": "nhảy cẫng lên (vì vui sướng)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Vui buồn",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "合格[ごうかく]の知[し]らせを聞[き]いて、思[おも]わず小躍[こおど]りした。",
+     "vi": "Nghe tin đỗ, tôi bất giác nhảy cẫng lên.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "改善[かいぜん]提案[ていあん]が社長[しゃちょう]賞[しょう]に選[えら]ばれ、班[はん]のみんなは小躍[こおど]りして喜[よろこ]んだ。",
+     "vi": "Đề xuất cải tiến được chọn trao giải của giám đốc, cả tổ nhảy cẫng lên vui mừng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：宝[たから]くじ、三千円[さんぜんえん]当[あ]たったよ！B：小躍[こおど]りするほどの額[がく]じゃないでしょ。",
+     "vi": "A: Trúng xổ số ba nghìn yên này! B: Đâu phải số tiền đáng để nhảy cẫng lên.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "思[おも]わず小躍[こおど]りする",
+     "vi": "bất giác nhảy cẫng lên"
+    },
+    {
+     "jp": "喜[よろこ]びに小躍[こおど]りする",
+     "vi": "nhảy cẫng lên vì vui"
+    }
+   ],
+   "rel": [
+    "v:舞い上がる:まいあがる",
+    "v:有頂天:うちょうてん"
+   ],
+   "note": "小躍[こおど]り = nhảy nhót vì quá vui (hay gặp: 小躍[こおど]りして喜[よろこ]ぶ / 小躍[こおど]りしたい気分[きぶん]); hơi văn vẻ. 舞[ま]い上[あ]がる = vui đến lâng lâng mất bình tĩnh."
+  }
+ ]
+}

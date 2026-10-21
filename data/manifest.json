@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "packs": [
   {
    "id": "doisong-01",
@@ -14,6 +14,474 @@
    "count": 31,
    "version": 3,
    "hash": "59b78756e1"
+  },
+  {
+   "id": "jlpt-n1-01",
+   "file": "jlpt-n1-01.json",
+   "title": "JLPT N1 01 – Sự cố, báo động & sơ tán",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "d75d9fd3e8"
+  },
+  {
+   "id": "jlpt-n1-02",
+   "file": "jlpt-n1-02.json",
+   "title": "JLPT N1 02 – Bước ngoặt & mở rộng thị trường",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "85e74b68e1"
+  },
+  {
+   "id": "jlpt-n1-03",
+   "file": "jlpt-n1-03.json",
+   "title": "JLPT N1 03 – Tình hình kinh doanh & kiểm tra toàn diện",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "f2adc1acaa"
+  },
+  {
+   "id": "jlpt-n1-04",
+   "file": "jlpt-n1-04.json",
+   "title": "JLPT N1 04 – Giải thể, nghỉ hưu & chuyển giao",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "1d4febafa5"
+  },
+  {
+   "id": "jlpt-n1-05",
+   "file": "jlpt-n1-05.json",
+   "title": "JLPT N1 05 – Chức vụ, phẩm chất lãnh đạo & truyền thống địa phương",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "8aff209c5f"
+  },
+  {
+   "id": "jlpt-n1-06",
+   "file": "jlpt-n1-06.json",
+   "title": "JLPT N1 06 – Khó khăn, phản đối & thời tiết khắc nghiệt",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "8e3519f37f"
+  },
+  {
+   "id": "jlpt-n1-07",
+   "file": "jlpt-n1-07.json",
+   "title": "JLPT N1 07 – Thẩm định, kết quả kiểm tra & tuyển chọn",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "87fd87bfdf"
+  },
+  {
+   "id": "jlpt-n1-08",
+   "file": "jlpt-n1-08.json",
+   "title": "JLPT N1 08 – Chất lượng, uy tín & thị trường xuất khẩu",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "685287d1b9"
+  },
+  {
+   "id": "jlpt-n1-09",
+   "file": "jlpt-n1-09.json",
+   "title": "JLPT N1 09 – Sai sót, tiêu chuẩn, tay nghề & khách khó tính",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "9b8994ad31"
+  },
+  {
+   "id": "jlpt-n1-10",
+   "file": "jlpt-n1-10.json",
+   "title": "JLPT N1 10 – Quyết định, rủi ro, đền bù & quyền lợi",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "9b7c8b3f38"
+  },
+  {
+   "id": "jlpt-n1-11",
+   "file": "jlpt-n1-11.json",
+   "title": "JLPT N1 11 – Mục tiêu, nỗ lực, thi tay nghề & cảm xúc mạnh",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "0aa445f027"
+  },
+  {
+   "id": "jlpt-n1-12",
+   "file": "jlpt-n1-12.json",
+   "title": "JLPT N1 12 – Trách nhiệm, xin lỗi, bồi thường & xử lý sự cố",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "9b83287ef8"
+  },
+  {
+   "id": "jlpt-n1-13",
+   "file": "jlpt-n1-13.json",
+   "title": "JLPT N1 13 – Thiên tai, hủy bỏ, mong ước & cảm thông",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "dfc50bfe41"
+  },
+  {
+   "id": "jlpt-n1-14",
+   "file": "jlpt-n1-14.json",
+   "title": "JLPT N1 14 – Lễ nghi, phát biểu, cảm tạ, hổ thẹn & vinh dự",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "0ddb3c4681"
+  },
+  {
+   "id": "jlpt-n1-15",
+   "file": "jlpt-n1-15.json",
+   "title": "JLPT N1 15 – Cảm xúc, phàn nàn, hàng xóm, con cái & thời tiết",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "4fc9aeda4e"
+  },
+  {
+   "id": "jlpt-n1-16",
+   "file": "jlpt-n1-16.json",
+   "title": "JLPT N1 16 – Vệ sinh thực phẩm, nghiêm ngặt & tay nghề lâu năm",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "7117b1816c"
+  },
+  {
+   "id": "jlpt-n1-17",
+   "file": "jlpt-n1-17.json",
+   "title": "JLPT N1 17 – Lựa chọn, giải pháp, thi đấu & giằng co",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 48,
+   "version": 1,
+   "hash": "0ca941d9cb"
+  },
+  {
+   "id": "jlpt-n1-18",
+   "file": "jlpt-n1-18.json",
+   "title": "JLPT N1 18 – Nội quy, ngoại lệ, quốc tịch & chức vụ",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "68ae6cc5ef"
+  },
+  {
+   "id": "jlpt-n1-19",
+   "file": "jlpt-n1-19.json",
+   "title": "JLPT N1 19 – Đạo đức, gian lận, nhãn mác, cấm đoán & công bằng",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "62f5a4e6c0"
+  },
+  {
+   "id": "jlpt-n1-20",
+   "file": "jlpt-n1-20.json",
+   "title": "JLPT N1 20 – Mức độ, kỳ vọng, khả năng & thỏa hiệp",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "d062cc6d2c"
+  },
+  {
+   "id": "jlpt-n1-21",
+   "file": "jlpt-n1-21.json",
+   "title": "JLPT N1 21 – Nghịch lý, giới hạn, kinh nghiệm, người mới & chuyên gia",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "197b22d0b1"
+  },
+  {
+   "id": "jlpt-n1-22",
+   "file": "jlpt-n1-22.json",
+   "title": "JLPT N1 22 – Tiếc nuối, lời mời, bất ngờ & hiểu lầm",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "efc5d550d1"
+  },
+  {
+   "id": "jlpt-n1-23",
+   "file": "jlpt-n1-23.json",
+   "title": "JLPT N1 23 – Thông báo, xin lỗi, sự kiện, người mới & quen thuộc",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "203f3766e3"
+  },
+  {
+   "id": "jlpt-n1-24",
+   "file": "jlpt-n1-24.json",
+   "title": "JLPT N1 24 – Thể diện, lời hứa, gia đình, động cơ & hy sinh",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "16f9ce7d06"
+  },
+  {
+   "id": "jlpt-n1-25",
+   "file": "jlpt-n1-25.json",
+   "title": "JLPT N1 25 – Khách hàng, đồng đội, tin tưởng, nền tảng & hợp tác",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "0d465cff2c"
+  },
+  {
+   "id": "jlpt-n1-26",
+   "file": "jlpt-n1-26.json",
+   "title": "JLPT N1 26 – Khả năng, lo lắng, ngạc nhiên & phòng ngừa",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "5bff03e284"
+  },
+  {
+   "id": "jlpt-n1-27",
+   "file": "jlpt-n1-27.json",
+   "title": "JLPT N1 27 – Đánh giá, tin cậy, thảm cảnh, tưởng tượng & phê bình",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "2f27c91b1e"
+  },
+  {
+   "id": "jlpt-n1-28",
+   "file": "jlpt-n1-28.json",
+   "title": "JLPT N1 28 – Kỹ thuật, năng lực, khó khăn & tưởng tượng",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "06f7806935"
+  },
+  {
+   "id": "jlpt-n1-29",
+   "file": "jlpt-n1-29.json",
+   "title": "JLPT N1 29 – Cá ngừ, kích cỡ, giá cả, ước lượng & vui buồn",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "c9264a5f01"
+  },
+  {
+   "id": "jlpt-n1-30",
+   "file": "jlpt-n1-30.json",
+   "title": "JLPT N1 30 – Cải tiến, thực tế, quy định, tiêu chuẩn & yếu tố",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "20f4875c56"
+  },
+  {
+   "id": "jlpt-n1-31",
+   "file": "jlpt-n1-31.json",
+   "title": "JLPT N1 31 – Quy trình, các bước, quyết định, phê duyệt & thẩm định",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "d23b98bf54"
+  },
+  {
+   "id": "jlpt-n1-32",
+   "file": "jlpt-n1-32.json",
+   "title": "JLPT N1 32 – Thăm hỏi, học tập, vừa làm vừa học & vội vã",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 48,
+   "version": 1,
+   "hash": "c63e262490"
+  },
+  {
+   "id": "jlpt-n1-33",
+   "file": "jlpt-n1-33.json",
+   "title": "JLPT N1 33 – Thói quen, kết cục, khó chịu, nóng bức & ồn ào",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 49,
+   "version": 1,
+   "hash": "84c4fa5a6a"
+  },
+  {
+   "id": "jlpt-n1-34",
+   "file": "jlpt-n1-34.json",
+   "title": "JLPT N1 34 – Bẩn, mùa xuân, bí ẩn & may mắn liên tiếp",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "c04cd0f426"
+  },
+  {
+   "id": "jlpt-n1-35",
+   "file": "jlpt-n1-35.json",
+   "title": "JLPT N1 35 – Thái độ, tính cách, tính trẻ con, tỏ vẻ & ép buộc",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "9dadd82c81"
+  },
+  {
+   "id": "jlpt-n1-36",
+   "file": "jlpt-n1-36.json",
+   "title": "JLPT N1 36 – Rủi ro, lây nhiễm, mất lòng tin & bất lực",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "501f64325e"
   },
   {
    "id": "jlpt-n2-01",
@@ -38,8 +506,8 @@
     "jlpt"
    ],
    "count": 48,
-   "version": 2,
-   "hash": "2fdc55cdb7"
+   "version": 3,
+   "hash": "5895788dea"
   },
   {
    "id": "jlpt-n2-03",
@@ -77,8 +545,8 @@
     "jlpt"
    ],
    "count": 46,
-   "version": 1,
-   "hash": "ea47c6756e"
+   "version": 2,
+   "hash": "53d5155a2a"
   },
   {
    "id": "jlpt-n2-06",
@@ -103,8 +571,8 @@
     "jlpt"
    ],
    "count": 49,
-   "version": 2,
-   "hash": "9c69a225c4"
+   "version": 3,
+   "hash": "623b6f4b6f"
   },
   {
    "id": "jlpt-n2-08",
@@ -129,8 +597,8 @@
     "jlpt"
    ],
    "count": 50,
-   "version": 2,
-   "hash": "9b90fe9d13"
+   "version": 3,
+   "hash": "ec0e7eaf73"
   },
   {
    "id": "jlpt-n2-10",
@@ -350,8 +818,8 @@
     "jlpt"
    ],
    "count": 48,
-   "version": 2,
-   "hash": "02263f9248"
+   "version": 3,
+   "hash": "7b296a9b64"
   },
   {
    "id": "jlpt-n2-27",
@@ -519,8 +987,8 @@
     "jlpt"
    ],
    "count": 47,
-   "version": 1,
-   "hash": "d18361ec0a"
+   "version": 2,
+   "hash": "91dbb9a846"
   },
   {
    "id": "jlpt-n2-40",
@@ -584,8 +1052,8 @@
     "jlpt"
    ],
    "count": 35,
-   "version": 6,
-   "hash": "327101fbf7"
+   "version": 7,
+   "hash": "9ddc3df77c"
   },
   {
    "id": "jlpt-n3-05",
@@ -1039,8 +1507,8 @@
     "jlpt"
    ],
    "count": 35,
-   "version": 3,
-   "hash": "664f881d45"
+   "version": 4,
+   "hash": "faed07aa14"
   },
   {
    "id": "jlpt-n3-40",
@@ -1143,8 +1611,8 @@
     "jlpt"
    ],
    "count": 24,
-   "version": 1,
-   "hash": "c087e07821"
+   "version": 2,
+   "hash": "21871b01e1"
   },
   {
    "id": "jlpt-n4-04",
@@ -1328,8 +1796,8 @@
     "jlpt"
    ],
    "count": 44,
-   "version": 2,
-   "hash": "ffc8fd58b0"
+   "version": 3,
+   "hash": "f763603607"
   },
   {
    "id": "jlpt-n4-18",
@@ -1393,8 +1861,8 @@
     "jlpt"
    ],
    "count": 40,
-   "version": 4,
-   "hash": "d6e6a8b3dc"
+   "version": 5,
+   "hash": "50ec5468de"
   },
   {
    "id": "jlpt-n5-03",
@@ -1642,8 +2110,8 @@
     "xuong"
    ],
    "count": 32,
-   "version": 3,
-   "hash": "1a70722ae8"
+   "version": 4,
+   "hash": "fb7f79fc8d"
   },
   {
    "id": "thuysan-04",
@@ -1737,6 +2205,656 @@
    "count": 43,
    "version": 3,
    "hash": "f9dad5748a"
+  },
+  {
+   "id": "nguphap-n1-01",
+   "file": "nguphap-n1-01.json",
+   "title": "Ngữ pháp N1 01 – Vừa… là ngay: が早[はや]いか・や否[いな]や・なり",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "d67ec12fa4"
+  },
+  {
+   "id": "nguphap-n1-02",
+   "file": "nguphap-n1-02.json",
+   "title": "Ngữ pháp N1 02 – Vừa xong lại / kể từ khi / mở đầu bằng: そばから・てからというもの・を皮切[かわき]りに",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "710347fe89"
+  },
+  {
+   "id": "nguphap-n1-03",
+   "file": "nguphap-n1-03.json",
+   "title": "Ngữ pháp N1 03 – Trong hoàn cảnh / đến mức / đến tận: にあって・に至[いた]って（は／も）・に至[いた]るまで",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "0b013164d2"
+  },
+  {
+   "id": "nguphap-n1-04",
+   "file": "nguphap-n1-04.json",
+   "title": "Ngữ pháp N1 04 – Mốc chấm dứt / bước ngoặt / lần cuối: を限[かぎ]りに・を境[さかい]に（して）・を最後[さいご]に",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "bfa930d695"
+  },
+  {
+   "id": "nguphap-n1-05",
+   "file": "nguphap-n1-05.json",
+   "title": "Ngữ pháp N1 05 – Đã đến mức… / đã là… thì phải / chỉ… mới có: ともなると・たるもの・ならでは",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "eeeb402aff"
+  },
+  {
+   "id": "nguphap-n1-06",
+   "file": "nguphap-n1-06.json",
+   "title": "Ngữ pháp N1 06 – Trái hẳn với / mặc kệ / chẳng nao núng trước: にひきかえ・をよそに・をものともせず（に）",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "e6e7fe4f41"
+  },
+  {
+   "id": "nguphap-n1-07",
+   "file": "nguphap-n1-07.json",
+   "title": "Ngữ pháp N1 07 – Tùy vào / bất kể / ngoài… ra không ai: いかんで・いかんにかかわらず・をおいて",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "4cc9144003"
+  },
+  {
+   "id": "nguphap-n1-08",
+   "file": "nguphap-n1-08.json",
+   "title": "Ngữ pháp N1 08 – … thì đã đành / đừng nói… / không dừng ở: もさることながら・はおろか・にとどまらず",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "e021c15bf5"
+  },
+  {
+   "id": "nguphap-n1-09",
+   "file": "nguphap-n1-09.json",
+   "title": "Ngữ pháp N1 09 – … thì còn được / … thì không nói / … thì khỏi phải nói: ならまだしも・ならいざしらず・は言[い]うに及[およ]ばず",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "9cb03da095"
+  },
+  {
+   "id": "nguphap-n1-10",
+   "file": "nguphap-n1-10.json",
+   "title": "Ngữ pháp N1 10 – Chỉ còn cách… / lẽ đương nhiên: ばそれまでだ・までだ・てしかるべきだ",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "a1c98399fd"
+  },
+  {
+   "id": "nguphap-n1-11",
+   "file": "nguphap-n1-11.json",
+   "title": "Ngữ pháp N1 11 – Để mà… / như sắp…: べく・んがため（に）・んばかりに",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "f5514368b3"
+  },
+  {
+   "id": "nguphap-n1-12",
+   "file": "nguphap-n1-12.json",
+   "title": "Ngữ pháp N1 12 – Không thể không…: ずにはおかない・ずにはすまない・ではすまされない",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "21c6c0c545"
+  },
+  {
+   "id": "nguphap-n1-13",
+   "file": "nguphap-n1-13.json",
+   "title": "Ngữ pháp N1 13 – Không kìm được / buộc phải: を禁[きん]じ得[え]ない・を余儀[よぎ]なくされる・てやまない",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "f8756b4f11"
+  },
+  {
+   "id": "nguphap-n1-14",
+   "file": "nguphap-n1-14.json",
+   "title": "Ngữ pháp N1 14 – Hết sức…: 極[きわ]まる・極[きわ]まりない・の至[いた]り・の極[きわ]み",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "ff6d3d719e"
+  },
+  {
+   "id": "nguphap-n1-15",
+   "file": "nguphap-n1-15.json",
+   "title": "Ngữ pháp N1 15 – Thật là…!: といったらない・ことこの上[うえ]ない・ときたら",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "e634ae253b"
+  },
+  {
+   "id": "nguphap-n1-16",
+   "file": "nguphap-n1-16.json",
+   "title": "Ngữ pháp N1 16 – Đường đường là… mà / dù chỉ một… cũng không / phải là… mới: ともあろう・たりとも・にして",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "81df5f0ace"
+  },
+  {
+   "id": "nguphap-n1-17",
+   "file": "nguphap-n1-17.json",
+   "title": "Ngữ pháp N1 17 – Dù là… hay… / hoặc… hoặc… / lúc… lúc…: であれ〜であれ・なり〜なり・つ〜つ",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "941c1cd875"
+  },
+  {
+   "id": "nguphap-n1-18",
+   "file": "nguphap-n1-18.json",
+   "title": "Ngữ pháp N1 18 – Dù có… hay không / dù là… đi nữa / không kể… hay…: （よ）うが〜まいが・であろうと・といわず〜といわず",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "55a36186ea"
+  },
+  {
+   "id": "nguphap-n1-19",
+   "file": "nguphap-n1-19.json",
+   "title": "Ngữ pháp N1 19 – Không được phép / không thể nào: まじき・べからず・べくもない",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "ceedfcc89e"
+  },
+  {
+   "id": "nguphap-n1-20",
+   "file": "nguphap-n1-20.json",
+   "title": "Ngữ pháp N1 20 – Dù không… cũng / không phải là không: ずとも・ないまでも・なくもない",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "c22dce0893"
+  },
+  {
+   "id": "nguphap-n1-21",
+   "file": "nguphap-n1-21.json",
+   "title": "Ngữ pháp N1 21 – Tuy… nhưng: ながらも・とはいえ・といえども",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "63ff08aef3"
+  },
+  {
+   "id": "nguphap-n1-22",
+   "file": "nguphap-n1-22.json",
+   "title": "Ngữ pháp N1 22 – Giá mà… / lẽ ra… / tưởng là…: ものを・ところを・と思[おも]いきや",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "449250f45b"
+  },
+  {
+   "id": "nguphap-n1-23",
+   "file": "nguphap-n1-23.json",
+   "title": "Ngữ pháp N1 23 – Vì là… nên: とあって・ゆえ（に）・こととて",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "daf40a4162"
+  },
+  {
+   "id": "nguphap-n1-24",
+   "file": "nguphap-n1-24.json",
+   "title": "Ngữ pháp N1 24 – Chính vì… / vì thể diện / nếu là vì…: ばこそ・手前[てまえ]・とあれば",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "fa8fc5fe0d"
+  },
+  {
+   "id": "nguphap-n1-25",
+   "file": "nguphap-n1-25.json",
+   "title": "Ngữ pháp N1 25 – Không… thì không thể / không có… thì không / có… mới có: ことなしに・なくして（は）・あっての",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "39964eed44"
+  },
+  {
+   "id": "nguphap-n1-26",
+   "file": "nguphap-n1-26.json",
+   "title": "Ngữ pháp N1 26 – Không hẳn là không / không đáng phải / biết đâu lại: ないものでもない・にはあたらない・ないとも限[かぎ]らない",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "7783f007cb"
+  },
+  {
+   "id": "nguphap-n1-27",
+   "file": "nguphap-n1-27.json",
+   "title": "Ngữ pháp N1 27 – Đáng… / không chịu nổi… / dễ hình dung: に足[た]る・に堪[た]えない・にかたくない",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "91311aa6dc"
+  },
+  {
+   "id": "nguphap-n1-28",
+   "file": "nguphap-n1-28.json",
+   "title": "Ngữ pháp N1 28 – Ngay cả… / chỉ nghĩ thôi cũng… / dù với… cũng: すら・だに・をもってしても",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "80ebcb9733"
+  },
+  {
+   "id": "nguphap-n1-29",
+   "file": "nguphap-n1-29.json",
+   "title": "Ngữ pháp N1 29 – Có đến… / cùng lắm khoảng… / thật là… vô cùng: からある・といったところだ・かぎりだ",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "322e33fb4d"
+  },
+  {
+   "id": "nguphap-n1-30",
+   "file": "nguphap-n1-30.json",
+   "title": "Ngữ pháp N1 30 – Cộng hưởng với… / bám sát… / đối chiếu với…: と相[あい]まって・に即[そく]して・に照[て]らして",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "b24ea48e0e"
+  },
+  {
+   "id": "nguphap-n1-31",
+   "file": "nguphap-n1-31.json",
+   "title": "Ngữ pháp N1 31 – Theo đúng quy định / trước sự việc… / trải qua…: に則[のっと]って・を受[う]けて・を経[へ]て",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "4f7e5d7efc"
+  },
+  {
+   "id": "nguphap-n1-32",
+   "file": "nguphap-n1-32.json",
+   "title": "Ngữ pháp N1 32 – Nhân tiện / bên cạnh việc chính / làm qua loa rồi…: かたがた・かたわら・もそこそこに",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "18265477e4"
+  },
+  {
+   "id": "nguphap-n1-33",
+   "file": "nguphap-n1-33.json",
+   "title": "Ngữ pháp N1 33 – Có tật… / rốt cuộc đến mức… / … không chịu nổi: きらいがある・始末[しまつ]だ・てかなわない",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "da5ad12c42"
+  },
+  {
+   "id": "nguphap-n1-34",
+   "file": "nguphap-n1-34.json",
+   "title": "Ngữ pháp N1 34 – Dính đầy… / toàn là… / có hơi hướng…: まみれ・ずくめ・めく",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "ca5cc88ee9"
+  },
+  {
+   "id": "nguphap-n1-35",
+   "file": "nguphap-n1-35.json",
+   "title": "Ngữ pháp N1 35 – Mang tính… / nhuốm vẻ… / làm bộ…: がましい・じみる・ぶる",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "b755661be9"
+  },
+  {
+   "id": "nguphap-n1-36",
+   "file": "nguphap-n1-36.json",
+   "title": "Ngữ pháp N1 36 – Hễ… là hết đường / lỡ mà… thì nguy / muốn… cũng không được: たら最後[さいご]・（よ）うものなら・（よ）うにも〜ない",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "1e2f219452"
+  },
+  {
+   "id": "nguphap-n1-37",
+   "file": "nguphap-n1-37.json",
+   "title": "Ngữ pháp N1 37 – Hơn cả… / khó khăn có là gì / gắng gượng dù bệnh…: にもまして・もなんのその・をおして",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "d07c6295cf"
+  },
+  {
+   "id": "nguphap-n1-38",
+   "file": "nguphap-n1-38.json",
+   "title": "Ngữ pháp N1 38 – Đến mức phải… / làm đến cả… / là có lý do cả: てまで・までして・てのことだ",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "093a5195d7"
+  },
+  {
+   "id": "nguphap-n1-39",
+   "file": "nguphap-n1-39.json",
+   "title": "Ngữ pháp N1 39 – Lấy… làm tiền đề / không có… thì không / theo ý ai đó: ありき・なしに（は）・に言[い]わせれば",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "95b908773b"
+  },
+  {
+   "id": "nguphap-n1-40",
+   "file": "nguphap-n1-40.json",
+   "title": "Ngữ pháp N1 40 – Có vẻ là… / có thể gọi là… / phải chăng…: とおぼしき・とでもいうべき・ではあるまいか",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "1363467a18"
+  },
+  {
+   "id": "nguphap-n1-41",
+   "file": "nguphap-n1-41.json",
+   "title": "Ngữ pháp N1 41 – Sắp sửa… / vừa thấy… là / vô thức mà…: んとする・と見[み]るや・ともなく",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "279fcd69c4"
+  },
+  {
+   "id": "nguphap-n1-42",
+   "file": "nguphap-n1-42.json",
+   "title": "Ngữ pháp N1 42 – Bất chấp… / mải… mà bỏ bê / viện cớ…: をかえりみず・にかまけて・にかこつけて",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "be79cb0491"
+  },
+  {
+   "id": "nguphap-n1-43",
+   "file": "nguphap-n1-43.json",
+   "title": "Ngữ pháp N1 43 – Theo cách riêng / vẫn y như… / như là…: なりに・ながらに・ごとき",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "b3550edc3b"
+  },
+  {
+   "id": "nguphap-n1-44",
+   "file": "nguphap-n1-44.json",
+   "title": "Ngữ pháp N1 44 – Cả… cùng / bằng sức, bằng tiền… / dính líu đến…: ぐるみ・ずくで・がらみ",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "852ca6e1c7"
+  },
+  {
+   "id": "nguphap-n1-45",
+   "file": "nguphap-n1-45.json",
+   "title": "Ngữ pháp N1 45 – Tạm gác… / dù có… thì cũng / hễ lơ là là dễ…: はさておき・としたところで・ともすると",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "0f5d377963"
+  },
+  {
+   "id": "nguphap-n1-46",
+   "file": "nguphap-n1-46.json",
+   "title": "Ngữ pháp N1 46 – Như thể muốn nói… / chỉ có…: とばかりに・と言[い]わんばかりに・ただ〜のみ（ならず）",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "d69aef65b3"
+  },
+  {
+   "id": "nguphap-n1-47",
+   "file": "nguphap-n1-47.json",
+   "title": "Ngữ pháp N1 47 – Đi trước… / lấy… làm tiền đề / lợi dụng…: に先駆[さきが]けて・を前提[ぜんてい]として・をいいことに",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "e5a5a46fc3"
+  },
+  {
+   "id": "nguphap-n1-48",
+   "file": "nguphap-n1-48.json",
+   "title": "Ngữ pháp N1 48 – Không ngại… / không nỡ… / còn may là…: てはばからない・に忍[しの]びない・だけまし（だ）",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "9a238efcbe"
+  },
+  {
+   "id": "nguphap-n1-49",
+   "file": "nguphap-n1-49.json",
+   "title": "Ngữ pháp N1 49 – Chỉ còn chờ… / làm… cũng không sao / được (mời, khen, hưởng ân huệ): ばかりになっている・てもさしつかえない・にあずかる",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "bb64f0abfc"
+  },
+  {
+   "id": "nguphap-n1-50",
+   "file": "nguphap-n1-50.json",
+   "title": "Ngữ pháp N1 50 – Tổng kết: sớm muộn, ít nhiều / phải… / có hay không: かれ〜かれ・べし・か否[いな]か",
+   "type": "grammar",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 3,
+   "version": 1,
+   "hash": "db2eee0be7"
   },
   {
    "id": "nguphap-n2-01",
@@ -2229,8 +3347,8 @@
     "jlpt"
    ],
    "count": 3,
-   "version": 1,
-   "hash": "47ea6980a8"
+   "version": 2,
+   "hash": "8a88644579"
   },
   {
    "id": "nguphap-n2-39",
@@ -2242,8 +3360,8 @@
     "jlpt"
    ],
    "count": 3,
-   "version": 1,
-   "hash": "35bd2e17a6"
+   "version": 2,
+   "hash": "6b1f7ae1b5"
   },
   {
    "id": "nguphap-n2-40",
@@ -2502,8 +3620,8 @@
     "jlpt"
    ],
    "count": 3,
-   "version": 2,
-   "hash": "dbc8db0191"
+   "version": 3,
+   "hash": "1a9b6103dc"
   },
   {
    "id": "nguphap-n3-20",
@@ -2645,8 +3763,8 @@
     "jlpt"
    ],
    "count": 3,
-   "version": 2,
-   "hash": "72d0d69390"
+   "version": 3,
+   "hash": "83f587aab7"
   },
   {
    "id": "nguphap-n3-31",
@@ -2684,8 +3802,8 @@
     "jlpt"
    ],
    "count": 3,
-   "version": 1,
-   "hash": "c3643fbf8c"
+   "version": 2,
+   "hash": "0bae3816bb"
   },
   {
    "id": "nguphap-n3-34",
@@ -4029,6 +5147,19 @@
    "hash": "21531af6f4"
   },
   {
+   "id": "baihoc-n1",
+   "file": "baihoc-n1.json",
+   "title": "Bài học N1 – 50 bài theo mẫu ngữ pháp",
+   "type": "lesson",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 36,
+   "version": 1,
+   "hash": "578976d671"
+  },
+  {
    "id": "baihoc-n2",
    "file": "baihoc-n2.json",
    "title": "Bài học N2 – 40 bài theo mẫu ngữ pháp",
@@ -4096,6 +5227,23 @@
    "turns": 54
   },
   {
+   "id": "hoithoai-n1-01",
+   "file": "hoithoai-n1-01.json",
+   "title": "Hội thoại luyện thêm N1",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "kansai",
+    "thuysan",
+    "xuong"
+   ],
+   "count": 8,
+   "version": 18,
+   "hash": "a98a5fcf91",
+   "turns": 125
+  },
+  {
    "id": "hoithoai-n2-01",
    "file": "hoithoai-n2-01.json",
    "title": "Hội thoại luyện thêm N2",
@@ -4160,6 +5308,420 @@
    "version": 4,
    "hash": "a776f61617",
    "turns": 96
+  },
+  {
+   "id": "modau-n1-01",
+   "file": "modau-n1-01.json",
+   "title": "Bài mở đầu N1 – bài 1: Khói bốc lên ở máy đóng gói",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "7659f14c2e",
+   "turns": 45
+  },
+  {
+   "id": "modau-n1-02",
+   "file": "modau-n1-02.json",
+   "title": "Bài mở đầu N1 – bài 2: Lô hàng đầu tiên đi Singapore",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "1621ec1587",
+   "turns": 43
+  },
+  {
+   "id": "modau-n1-04",
+   "file": "modau-n1-04.json",
+   "title": "Bài mở đầu N1 – bài 4: Ngày cuối của xưởng số 2",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "0016b5bd50",
+   "turns": 44
+  },
+  {
+   "id": "modau-n1-05",
+   "file": "modau-n1-05.json",
+   "title": "Bài mở đầu N1 – bài 5: Khóa đào tạo cán bộ và lò rượu Hyogo",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "313ccd626f",
+   "turns": 43
+  },
+  {
+   "id": "modau-n1-06",
+   "file": "modau-n1-06.json",
+   "title": "Bài mở đầu N1 – bài 6: Đợt rét kỷ lục",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "a29798ad74",
+   "turns": 44
+  },
+  {
+   "id": "modau-n1-07",
+   "file": "modau-n1-07.json",
+   "title": "Bài mở đầu N1 – bài 7: Xét duyệt lên chủ nhiệm",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "ded774f03e",
+   "turns": 44
+  },
+  {
+   "id": "modau-n1-08",
+   "file": "modau-n1-08.json",
+   "title": "Bài mở đầu N1 – bài 8: Khách Singapore đến thăm xưởng",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "thuysan",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "9a10464136",
+   "turns": 45
+  },
+  {
+   "id": "modau-n1-09",
+   "file": "modau-n1-09.json",
+   "title": "Bài mở đầu N1 – bài 9: Bếp trưởng khó tính",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "thuysan",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "6c598b8b3c",
+   "turns": 44
+  },
+  {
+   "id": "modau-n1-10",
+   "file": "modau-n1-10.json",
+   "title": "Bài mở đầu N1 – bài 10: Ngày công bố bổ nhiệm",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "de4022b80a",
+   "turns": 43
+  },
+  {
+   "id": "modau-n1-11",
+   "file": "modau-n1-11.json",
+   "title": "Bài mở đầu N1 – bài 11: Hội thi tay nghề của Linh",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "74d23c8e80",
+   "turns": 45
+  },
+  {
+   "id": "modau-n1-12",
+   "file": "modau-n1-12.json",
+   "title": "Bài mở đầu N1 – bài 12: Nhãn hạn sử dụng in sai",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "thuysan",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "97ba6570f0",
+   "turns": 42
+  },
+  {
+   "id": "modau-n1-14",
+   "file": "modau-n1-14.json",
+   "title": "Bài mở đầu N1 – bài 14: Lời cảm tạ ở tòa thị chính",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "188f9898dc",
+   "turns": 42
+  },
+  {
+   "id": "modau-n1-15",
+   "file": "modau-n1-15.json",
+   "title": "Bài mở đầu N1 – bài 15: Mùa mưa, hàng xóm và bé Mai",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "b6e69da602",
+   "turns": 44
+  },
+  {
+   "id": "modau-n1-16",
+   "file": "modau-n1-16.json",
+   "title": "Bài mở đầu N1 – bài 16: Tay nghề năm mươi năm và nguyên tắc vệ sinh",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "thuysan",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "eb3b0c54e6",
+   "turns": 40
+  },
+  {
+   "id": "modau-n1-17",
+   "file": "modau-n1-17.json",
+   "title": "Bài mở đầu N1 – bài 17: Máy rút xương hay đôi tay lành nghề",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "830b707255",
+   "turns": 45
+  },
+  {
+   "id": "modau-n1-18",
+   "file": "modau-n1-18.json",
+   "title": "Bài mở đầu N1 – bài 18: Dù là giám đốc đi nữa",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "thuysan",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "5d6c203249",
+   "turns": 40
+  },
+  {
+   "id": "modau-n1-20",
+   "file": "modau-n1-20.json",
+   "title": "Bài mở đầu N1 – bài 20: Ngày thi N1 tháng 7",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "jlpt"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "505ba31357",
+   "turns": 42
+  },
+  {
+   "id": "modau-n1-21",
+   "file": "modau-n1-21.json",
+   "title": "Bài mở đầu N1 – bài 21: Chuyên gia, người mới và mẻ cá ngâm bã rượu",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "thuysan",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "dda5008adc",
+   "turns": 44
+  },
+  {
+   "id": "modau-n1-22",
+   "file": "modau-n1-22.json",
+   "title": "Bài mở đầu N1 – bài 22: Thiếu vài điểm",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "jlpt"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "df3e8dbdad",
+   "turns": 43
+  },
+  {
+   "id": "modau-n1-24",
+   "file": "modau-n1-24.json",
+   "title": "Bài mở đầu N1 – bài 24: Đăng ký lại kỳ tháng 12",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "jlpt"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "03c6a421b2",
+   "turns": 42
+  },
+  {
+   "id": "modau-n1-25",
+   "file": "modau-n1-25.json",
+   "title": "Bài mở đầu N1 – bài 25: Không có lòng tin thì không có làm ăn",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "ac44c421cc",
+   "turns": 44
+  },
+  {
+   "id": "modau-n1-26",
+   "file": "modau-n1-26.json",
+   "title": "Bài mở đầu N1 – bài 26: Buổi bán hàng lần hai: lo trước cho chắc",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "2232d3110d",
+   "turns": 44
+  },
+  {
+   "id": "modau-n1-27",
+   "file": "modau-n1-27.json",
+   "title": "Bài mở đầu N1 – bài 27: Ghi lại ký ức trận mưa lớn",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "8d147e9c1e",
+   "turns": 44
+  },
+  {
+   "id": "modau-n1-28",
+   "file": "modau-n1-28.json",
+   "title": "Bài mở đầu N1 – bài 28: Một tấc, hai mươi bốn nhát dao",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "90b828d073",
+   "turns": 45
+  },
+  {
+   "id": "modau-n1-29",
+   "file": "modau-n1-29.json",
+   "title": "Bài mở đầu N1 – bài 29: Con cá ngừ hai trăm ký",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "thuysan"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "83c6270bdd",
+   "turns": 43
+  },
+  {
+   "id": "modau-n1-31",
+   "file": "modau-n1-31.json",
+   "title": "Bài mở đầu N1 – bài 31: Đường vòng mới là đường tắt",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "c61953fbfa",
+   "turns": 45
+  },
+  {
+   "id": "modau-n1-32",
+   "file": "modau-n1-32.json",
+   "title": "Bài mở đầu N1 – bài 32: Cuốn sổ chọn cá của bác Hamaguchi",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "thuysan"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "925246fcab",
+   "turns": 43
+  },
+  {
+   "id": "modau-n1-33",
+   "file": "modau-n1-33.json",
+   "title": "Bài mở đầu N1 – bài 33: Cái tật ôm hết việc vào mình",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "b942842043",
+   "turns": 41
   },
   {
    "id": "modau-n2-01",
@@ -4303,8 +5865,8 @@
     "xuong"
    ],
    "count": 1,
-   "version": 1,
-   "hash": "a589a7493e",
+   "version": 2,
+   "hash": "4ab25b66d1",
    "turns": 40
   },
   {
@@ -4675,8 +6237,8 @@
     "xuong"
    ],
    "count": 1,
-   "version": 2,
-   "hash": "b4152f98e7",
+   "version": 3,
+   "hash": "c7add42997",
    "turns": 56
   },
   {
@@ -5765,8 +7327,8 @@
     "xuong"
    ],
    "count": 7,
-   "version": 16,
-   "hash": "9d82f1c53d",
+   "version": 17,
+   "hash": "88606dbd34",
    "sents": 177
   },
   {
@@ -5816,6 +7378,79 @@
    "version": 15,
    "hash": "44cafbcd24",
    "sents": 85
+  },
+  {
+   "id": "modau-n1-03",
+   "file": "modau-n1-03.json",
+   "title": "Bài mở đầu N1 – bài 3: Thông báo của giám đốc: kết quả nửa đầu năm",
+   "type": "text",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "cf32679fba",
+   "sents": 42
+  },
+  {
+   "id": "modau-n1-13",
+   "file": "modau-n1-13.json",
+   "title": "Bài mở đầu N1 – bài 13: Bài báo: Sau trận mưa lớn kỷ lục",
+   "type": "text",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "df7b0b1d0a",
+   "sents": 44
+  },
+  {
+   "id": "modau-n1-19",
+   "file": "modau-n1-19.json",
+   "title": "Bài mở đầu N1 – bài 19: Quy tắc ứng xử: ghi nhãn trung thực",
+   "type": "text",
+   "level": "N1",
+   "topics": [
+    "thuysan",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "834e84c039",
+   "sents": 44
+  },
+  {
+   "id": "modau-n1-23",
+   "file": "modau-n1-23.json",
+   "title": "Bài mở đầu N1 – bài 23: Thư xin lỗi sau buổi bán hàng tại xưởng",
+   "type": "text",
+   "level": "N1",
+   "topics": [
+    "thuysan",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "efb33af8df",
+   "sents": 45
+  },
+  {
+   "id": "modau-n1-30",
+   "file": "modau-n1-30.json",
+   "title": "Bài mở đầu N1 – bài 30: Đề xuất kế hoạch cải tiến của tổ chế biến",
+   "type": "text",
+   "level": "N1",
+   "topics": [
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "be808237ed",
+   "sents": 45
   },
   {
    "id": "modau-n2-03",

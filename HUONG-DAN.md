@@ -921,3 +921,24 @@ Máy chưa có giọng đọc tiếng Nhật thì đề bỏ phần nghe và kh�
 - Dữ liệu (gói mới): `hoithoai-n5-01`, `hoithoai-n4-01`, `hoithoai-n3-01`, `hoithoai-n2-01`, `baidoc-n5-01`, `baidoc-n4-01`, `baidoc-n3-01`, `baidoc-n2-01`.
 - Dữ liệu (gói sửa cách đọc): `nguphap-n2-01`, `nguphap-n3-15`, `nguphap-n3-28`, `jlpt-n2-01`, `jlpt-n2-14`, `jlpt-n3-40`, `modau-n3-10`, `modau-n4-13`, `modau-n5-04`.
 - `data/manifest.json`.
+
+## 54. Bản v45 (21/10/2026): Giáo trình N1 (36 bài đầu); chặng N1 trong Lộ trình; phần nghe cho đề thi thử N1
+
+**Giáo trình N1** (Lộ trình → Chặng N1). Bản này có 36 bài đầu trong 50 bài; các bài còn lại có trong các bản cập nhật tới.
+- Mỗi bài: khoảng 50 từ mới N1, 3 mẫu ngữ pháp N1, chữ Hán, luyện tập, kiểm tra cuối bài.
+- 33 bài có **bài mở đầu**: hội thoại dài hoặc bài đọc (báo cáo, thông báo, bài báo), câu hỏi tiếng Nhật kiểu đề JLPT. Các bài nối thành một mạch truyện: anh Nguyễn lên 主任[しゅにん], lo việc ở xưởng, trượt sát nút kỳ thi tháng 7 và ôn lại cho kỳ tháng 12.
+- **Ngữ pháp N1** có đủ 150 mẫu (cả 50 bài), mỗi mẫu đủ phần giải thích, 10 câu ví dụ và dữ liệu bài tập.
+
+**Lộ trình:** thêm chặng N1. Màn Bắt đầu cho chọn mục tiêu **N1**.
+
+**Hướng dẫn:** thêm bài "Học N1 thế nào": lượng cần biết, lỗi người Việt hay mắc, cấu trúc đề N1 theo jlpt.jp (Kiến thức ngôn ngữ · Đọc hiểu 110 phút, Nghe 55 phút; đỗ khi tổng từ 100/180 và mỗi phần từ 19/60).
+
+**Đề thi thử JLPT N1:** có phần **nghe** từ 8 hội thoại luyện thêm N1 mới (họp giao ban, phỏng vấn tuyển người, khách gọi khiếu nại, thương lượng giá, bài giảng về nghề cá Akashi, phỏng vấn trên radio…), câu hỏi kiểu 聴解 N1: ý chính, ý định thật của người nói, việc làm tiếp theo. Phần đọc hiểu N1 lấy bài đọc của các bài mở đầu N1 (báo cáo, thông báo, bài báo). Đề N1 nay đủ các phần như đề N2.
+
+**Sửa cách đọc** (bộ gắn furigana và dữ liệu): 大掃除[おおそうじ], 一晩[ひとばん], 一晩中[ひとばんじゅう], 四[よっ]つ, 今週中[こんしゅうじゅう], 何[なに]より, 何曜日[なんようび], 一[ひと]パック, 御社[おんしゃ]… trong 20 gói cũ.
+
+**Tệp:**
+- Mã: `js/roadmap.js`, `js/guides.js`, `js/util.js`, `sw.js`.
+- Dữ liệu (gói mới): `nguphap-n1-01` … `nguphap-n1-50`, `jlpt-n1-01` … `jlpt-n1-36`, `modau-n1-01` … `modau-n1-33`, `baihoc-n1`, `hoithoai-n1-01`.
+- Dữ liệu (gói sửa cách đọc): `baidoc-n2-01`, `jlpt-n2-02`, `jlpt-n2-05`, `jlpt-n2-07`, `jlpt-n2-09`, `jlpt-n2-26`, `jlpt-n2-39`, `jlpt-n3-04`, `jlpt-n3-39`, `jlpt-n4-03`, `jlpt-n4-17`, `jlpt-n5-02`, `modau-n2-11`, `modau-n3-01`, `nguphap-n2-38`, `nguphap-n2-39`, `nguphap-n3-19`, `nguphap-n3-30`, `nguphap-n3-33`, `thuysan-03`.
+- `data/manifest.json`.

@@ -1,0 +1,1805 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n1-02",
+  "title": "JLPT N1 02 – Bước ngoặt & mở rộng thị trường",
+  "type": "vocab",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:転身:てんしん",
+   "kana": "てんしん",
+   "kanji": "転身",
+   "hv": "CHUYỂN THÂN",
+   "vi": "đổi hướng nghề nghiệp (sang lĩnh vực khác)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bước ngoặt",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "元[もと]プロ野球[やきゅう]選手[せんしゅ]が、ラーメン店[てん]の経営者[けいえいしゃ]に転身[てんしん]した。",
+     "vi": "Cựu cầu thủ bóng chày chuyên nghiệp đã chuyển sang làm chủ quán ramen.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "漁師[りょうし]から水産[すいさん]加工[かこう]会社[かいしゃ]の社員[しゃいん]に転身[てんしん]した先輩[せんぱい]がいる。",
+     "vi": "Có một đàn anh đã chuyển từ ngư dân sang làm nhân viên công ty chế biến thủy sản.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "経営者[けいえいしゃ]に転身[てんしん]する",
+     "vi": "chuyển sang làm chủ doanh nghiệp"
+    }
+   ],
+   "confuse": [
+    "v:転職:てんしょく"
+   ],
+   "note": "転身[てんしん] = đổi hẳn hướng đi (nghề, lĩnh vực). 転職[てんしょく] = đổi chỗ làm (có thể vẫn cùng nghề)."
+  },
+  {
+   "id": "v:変貌:へんぼう",
+   "kana": "へんぼう",
+   "kanji": "変貌",
+   "hv": "BIẾN MẠO",
+   "vi": "thay da đổi thịt (thành bộ mặt mới)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bước ngoặt",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小[ちい]さな漁村[ぎょそん]だったこの町[まち]は、観光地[かんこうち]へと変貌[へんぼう]を遂[と]げた。",
+     "vi": "Thị trấn vốn là làng chài nhỏ này đã thay da đổi thịt thành khu du lịch.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[しん]工場[こうじょう]ができて、周[まわ]りの風景[ふうけい]も大[おお]きく変貌[へんぼう]した。",
+     "vi": "Xưởng mới mọc lên, cảnh quan xung quanh cũng đổi khác hẳn.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "大都市[だいとし]に変貌[へんぼう]する",
+     "vi": "biến thành đô thị lớn"
+    }
+   ],
+   "confuse": [
+    "v:様変わり:さまがわり"
+   ],
+   "note": "変貌[へんぼう]を遂[と]げる = trải qua sự biến đổi hoàn toàn (văn viết). 様変[さまが]わり = đổi khác về bề ngoài, cách thức; 変貌[へんぼう] = đổi hẳn diện mạo, tính chất."
+  },
+  {
+   "id": "v:激変:げきへん",
+   "kana": "げきへん",
+   "kanji": "激変",
+   "hv": "KÍCH BIẾN",
+   "vi": "biến đổi dữ dội (tình hình, môi trường)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bước ngoặt",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "コロナをきっかけに、人々[ひとびと]の働[はたら]き方[かた]が激変[げきへん]した。",
+     "vi": "Từ dịch Covid, cách làm việc của mọi người thay đổi dữ dội.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "円安[えんやす]で、原料[げんりょう]の仕入[しい]れ環境[かんきょう]が激変[げきへん]している。",
+     "vi": "Do đồng yên yếu, môi trường thu mua nguyên liệu đang biến động dữ dội.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "環境[かんきょう]が激変[げきへん]する",
+     "vi": "môi trường thay đổi dữ dội"
+    }
+   ],
+   "rel": [
+    "v:一変:いっぺん"
+   ],
+   "note": "激[げき]〜 = dữ dội (激減[げきげん] = giảm mạnh, 激増[げきぞう] = tăng vọt)."
+  },
+  {
+   "id": "v:一新:いっしん",
+   "kana": "いっしん",
+   "kanji": "一新",
+   "hv": "NHẤT TÂN",
+   "vi": "thay mới toàn bộ, làm mới hoàn toàn",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bước ngoặt",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい工場長[こうじょうちょう]のもとで、作業[さぎょう]のルールが一新[いっしん]された。",
+     "vi": "Dưới thời xưởng trưởng mới, quy tắc làm việc được làm mới hoàn toàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "引[ひ]っ越[こ]しを機[き]に、家具[かぐ]を一新[いっしん]した。",
+     "vi": "Nhân dịp chuyển nhà, tôi thay mới toàn bộ đồ nội thất.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "気分[きぶん]を一新[いっしん]する",
+     "vi": "làm mới tinh thần"
+    },
+    {
+     "jp": "デザインを一新[いっしん]する",
+     "vi": "đổi mới hoàn toàn thiết kế"
+    }
+   ],
+   "confuse": [
+    "v:刷新:さっしん"
+   ],
+   "note": "一新[いっしん] = thay mới toàn bộ (đồ vật, không khí, cách làm). 刷新[さっしん] = cải tổ, quét bỏ cái cũ kém (tổ chức, nhân sự)."
+  },
+  {
+   "id": "v:刷新:さっしん",
+   "kana": "さっしん",
+   "kanji": "刷新",
+   "hv": "LOÁT TÂN",
+   "vi": "cải tổ, đổi mới triệt để (tổ chức, chế độ)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bước ngoặt",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不祥事[ふしょうじ]の後[あと]、会社[かいしゃ]は経営[けいえい]陣[じん]を刷新[さっしん]した。",
+     "vi": "Sau vụ bê bối, công ty đã cải tổ ban lãnh đạo.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "市[し]は、古[ふる]くなった制度[せいど]を刷新[さっしん]すると発表[はっぴょう]した。",
+     "vi": "Thành phố công bố sẽ cải tổ chế độ đã lỗi thời.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人事[じんじ]を刷新[さっしん]する",
+     "vi": "cải tổ nhân sự"
+    },
+    {
+     "jp": "体制[たいせい]を刷新[さっしん]する",
+     "vi": "cải tổ bộ máy"
+    }
+   ],
+   "confuse": [
+    "v:一新:いっしん",
+    "v:改革:かいかく"
+   ],
+   "note": "刷新[さっしん] nhấn mạnh việc loại bỏ cái cũ kém để làm mới. 改革[かいかく] = cải cách chế độ, xã hội quy mô lớn."
+  },
+  {
+   "id": "v:移行:いこう",
+   "kana": "いこう",
+   "kanji": "移行",
+   "hv": "DI HÀNH",
+   "vi": "chuyển sang (chế độ, hệ thống mới)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bước ngoặt",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "来月[らいげつ]から、勤怠管理[きんたいかんり]が紙[かみ]からアプリに移行[いこう]する。",
+     "vi": "Từ tháng sau, quản lý chấm công chuyển từ giấy sang ứng dụng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "新[あたら]しい制度[せいど]への移行[いこう]には、時間[じかん]がかかる。",
+     "vi": "Việc chuyển sang chế độ mới cần có thời gian.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "新[しん]システムに移行[いこう]する",
+     "vi": "chuyển sang hệ thống mới"
+    }
+   ],
+   "rel": [
+    "v:転換:てんかん",
+    "v:過渡期:かとき"
+   ],
+   "note": "移行期間[いこうきかん] = giai đoạn chuyển tiếp."
+  },
+  {
+   "id": "v:一転:いってん",
+   "kana": "いってん",
+   "kanji": "一転",
+   "hv": "NHẤT CHUYỂN",
+   "vi": "quay ngoắt, đổi chiều hẳn",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bước ngoặt",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]の一言[ひとこと]で、会議[かいぎ]の雰囲気[ふんいき]が一転[いってん]した。",
+     "vi": "Chỉ một câu của giám đốc, bầu không khí cuộc họp quay ngoắt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "午後[ごご]から天気[てんき]が一転[いってん]して、激[はげ]しい雨[あめ]になった。",
+     "vi": "Từ chiều thời tiết đổi chiều hẳn, mưa to dữ dội.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：例[れい]の工場[こうじょう]移転[いてん]の話[はなし]、どうなった？B：それが、一転[いってん]して中止[ちゅうし]になったんです。",
+     "vi": "A: Chuyện chuyển xưởng đó sao rồi? B: Chuyện là quay ngoắt thành bị hủy luôn rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "態度[たいど]が一転[いってん]する",
+     "vi": "thái độ quay ngoắt"
+    }
+   ],
+   "confuse": [
+    "v:一変:いっぺん"
+   ],
+   "note": "一転[いってん] = chuyển hẳn sang hướng ngược lại (thường đột ngột). 一変[いっぺん] = khác hẳn so với trước."
+  },
+  {
+   "id": "v:岐路:きろ",
+   "kana": "きろ",
+   "kanji": "岐路",
+   "hv": "KỲ LỘ",
+   "vi": "ngã rẽ (cuộc đời, vận mệnh)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bước ngoặt",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "帰国[きこく]するか日本[にほん]に残[のこ]るか、今[いま]、人生[じんせい]の岐路[きろ]に立[た]っている。",
+     "vi": "Về nước hay ở lại Nhật, giờ tôi đang đứng trước ngã rẽ cuộc đời.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "水産業[すいさんぎょう]界[かい]全体[ぜんたい]が、大[おお]きな岐路[きろ]に差[さ]しかかっている。",
+     "vi": "Cả ngành thủy sản đang tiến đến một ngã rẽ lớn.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:分岐点:ぶんきてん",
+    "v:転機:てんき"
+   ],
+   "note": "岐路[きろ]に立[た]つ = đứng trước ngã rẽ. Văn viết, nặng nghĩa lựa chọn quyết định."
+  },
+  {
+   "id": "v:分岐点:ぶんきてん",
+   "kana": "ぶんきてん",
+   "kanji": "分岐点",
+   "hv": "PHÂN KỲ ĐIỂM",
+   "vi": "điểm rẽ nhánh (đường đi, số phận)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bước ngoặt",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "あの時[とき]の決断[けつだん]が、私[わたし]の人生[じんせい]の分岐点[ぶんきてん]だった。",
+     "vi": "Quyết định lúc ấy là điểm rẽ nhánh của đời tôi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "売上[うりあげ]が伸[の]びるかどうかの分岐点[ぶんきてん]は、新商品[しんしょうひん]の評判[ひょうばん]だ。",
+     "vi": "Điểm quyết định doanh thu có tăng hay không là đánh giá về sản phẩm mới.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:岐路:きろ"
+   ],
+   "note": "Nghĩa gốc: chỗ đường, đường ray rẽ nhánh."
+  },
+  {
+   "id": "v:過渡期:かとき",
+   "kana": "かとき",
+   "kanji": "過渡期",
+   "hv": "QUÁ ĐỘ KỲ",
+   "vi": "thời kỳ quá độ, giai đoạn chuyển tiếp",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bước ngoặt",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "業界[ぎょうかい]は今[いま]、手作業[てさぎょう]から自動化[じどうか]への過渡期[かとき]にある。",
+     "vi": "Ngành đang ở giai đoạn chuyển tiếp từ làm tay sang tự động hóa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "思春期[ししゅんき]は、子[こ]どもから大人[おとな]への過渡期[かとき]だ。",
+     "vi": "Tuổi dậy thì là thời kỳ quá độ từ trẻ con sang người lớn.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:移行:いこう"
+   ],
+   "note": "過渡期[かとき]にある = đang ở giai đoạn chuyển tiếp (chưa ổn định)."
+  },
+  {
+   "id": "v:幕開け:まくあけ",
+   "kana": "まくあけ",
+   "kanji": "幕開け",
+   "kf": "幕開[まくあ]け",
+   "hv": "MẠC KHAI",
+   "vi": "sự mở màn (thời đại, giai đoạn mới)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bước ngoặt",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "インターネットの普及[ふきゅう]は、新[あたら]しい時代[じだい]の幕開[まくあ]けだった。",
+     "vi": "Sự phổ cập Internet là màn mở đầu cho một thời đại mới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[しん]工場[こうじょう]の稼働[かどう]は、会社[かいしゃ]にとって新[あら]たな挑戦[ちょうせん]の幕開[まくあ]けとなった。",
+     "vi": "Việc xưởng mới đi vào vận hành là màn mở đầu cho thử thách mới của công ty.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:始まり:はじまり"
+   ],
+   "note": "〜の幕開[まくあ]け = khởi đầu của …. 幕[まく]が開[あ]く = mở màn. Ngược lại: 幕切[まくぎ]れ = màn kết."
+  },
+  {
+   "id": "v:心機一転:しんきいってん",
+   "kana": "しんきいってん",
+   "kanji": "心機一転",
+   "hv": "TÂM CƠ NHẤT CHUYỂN",
+   "vi": "làm lại với tâm thế mới",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Bước ngoặt",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "転勤[てんきん]を機[き]に、心機一転[しんきいってん]、新[あたら]しい職場[しょくば]で頑張[がんば]るつもりだ。",
+     "vi": "Nhân dịp chuyển công tác, tôi định làm lại với tâm thế mới, cố gắng ở chỗ làm mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "年[とし]が明[あ]けたので、心機一転[しんきいってん]、日記[にっき]を書[か]き始[はじ]めた。",
+     "vi": "Sang năm mới, tôi làm lại với tâm thế mới, bắt đầu viết nhật ký.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：昇進[しょうしん]、おめでとう。B：ありがとうございます。心機一転[しんきいってん]して頑張[がんば]ります。",
+     "vi": "A: Chúc mừng thăng chức. B: Cảm ơn anh. Tôi sẽ cố gắng với tâm thế mới.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "新天地[しんてんち]で心機一転[しんきいってん]する",
+     "vi": "làm lại với tinh thần mới ở nơi mới"
+    }
+   ],
+   "note": "Thành ngữ bốn chữ. Hay dùng như trạng từ: 心機一転[しんきいってん]、〜する."
+  },
+  {
+   "id": "v:断つ:たつ",
+   "kana": "たつ",
+   "kanji": "断つ",
+   "kf": "断[た]つ",
+   "hv": "ĐOẠN",
+   "vi": "cắt đứt, cai hẳn (thói quen, quan hệ)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "健康[けんこう]のために、酒[さけ]を断[た]つことにした。",
+     "vi": "Vì sức khỏe, tôi quyết định cai hẳn rượu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "事故[じこ]の連鎖[れんさ]を断[た]つために、原因[げんいん]を一[ひと]つずつ潰[つぶ]していく。",
+     "vi": "Để cắt đứt chuỗi sự cố, chúng tôi xử lý dứt điểm từng nguyên nhân một.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：最近[さいきん]、たばこ吸[す]わないね。B：うん、子[こ]どもが生[う]まれたのを機[き]に、きっぱり断[た]ったんだ。",
+     "vi": "A: Dạo này không thấy cậu hút thuốc nhỉ. B: Ừ, nhân dịp con ra đời tớ bỏ dứt khoát luôn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "酒[さけ]を断[た]つ",
+     "vi": "cai rượu"
+    },
+    {
+     "jp": "関係[かんけい]を断[た]つ",
+     "vi": "cắt đứt quan hệ"
+    },
+    {
+     "jp": "退路[たいろ]を断[た]つ",
+     "vi": "tự cắt đường lui"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "絶[た]つ",
+     "vi": "cắt đứt hẳn (liên lạc, sự sống)"
+    }
+   ],
+   "note": "Cùng âm: 絶[た]つ (消息[しょうそく]を絶[た]つ = bặt tin), 裁[た]つ = cắt vải. 断[た]つ = cắt đứt thói quen, quan hệ, nguồn."
+  },
+  {
+   "id": "v:悪癖:あくへき",
+   "kana": "あくへき",
+   "kanji": "悪癖",
+   "hv": "ÁC PHÍCH",
+   "vi": "thói hư, tật xấu (văn viết)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜中[よなか]にスマホを見[み]る悪癖[あくへき]を、なかなかやめられない。",
+     "vi": "Tôi mãi không bỏ được thói xấu xem điện thoại lúc nửa đêm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "確認[かくにん]を省[はぶ]くという悪癖[あくへき]が、現場[げんば]に広[ひろ]がってしまった。",
+     "vi": "Thói xấu bỏ qua bước kiểm tra đã lan khắp hiện trường.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:癖:くせ"
+   ],
+   "note": "Văn viết; nói thường: 悪[わる]い癖[くせ]. 悪癖[あくへき]を断[た]つ = bỏ thói xấu."
+  },
+  {
+   "id": "v:節制:せっせい",
+   "kana": "せっせい",
+   "kanji": "節制",
+   "hv": "TIẾT CHẾ",
+   "vi": "tiết chế, điều độ (ăn uống, sinh hoạt)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "健康診断[けんこうしんだん]の結果[けっか]が悪[わる]かったので、食事[しょくじ]を節制[せっせい]している。",
+     "vi": "Kết quả khám sức khỏe xấu nên tôi đang tiết chế ăn uống.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "夜勤[やきん]が続[つづ]く時期[じき]こそ、節制[せっせい]した生活[せいかつ]が大切[たいせつ]だ。",
+     "vi": "Chính lúc ca đêm kéo dài mới cần sinh hoạt điều độ.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "酒[さけ]を節制[せっせい]する",
+     "vi": "tiết chế rượu"
+    }
+   ],
+   "rel": [
+    "v:規則正しい:きそくただしい"
+   ],
+   "note": "Ngược nghĩa: 不摂生[ふせっせい] = sống không điều độ (chữ 摂[せつ] khác chữ 節[せつ])."
+  },
+  {
+   "id": "v:根付く:ねづく",
+   "kana": "ねづく",
+   "kanji": "根付く",
+   "kf": "根付[ねづ]く",
+   "hv": "CĂN PHÓ",
+   "vi": "bén rễ, ăn sâu (thói quen, văn hóa)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "5Sの考[かんが]え方[かた]が、ようやく現場[げんば]に根付[ねづ]いてきた。",
+     "vi": "Tư duy 5S cuối cùng cũng dần bén rễ ở hiện trường.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地域[ちいき]に根付[ねづ]いた祭[まつ]りを、これからも守[まも]っていきたい。",
+     "vi": "Tôi muốn tiếp tục gìn giữ lễ hội đã ăn sâu vào địa phương.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：在宅勤務[ざいたくきんむ]って、日本[にほん]でも定着[ていちゃく]しましたか。B：うーん、まだ十分[じゅうぶん]根付[ねづ]いたとは言[い]えませんね。",
+     "vi": "A: Làm việc tại nhà đã thành nếp ở Nhật chưa? B: Ừm, chưa thể nói là đã bén rễ hẳn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "習慣[しゅうかん]が根付[ねづ]く",
+     "vi": "thói quen bén rễ"
+    },
+    {
+     "jp": "文化[ぶんか]が根付[ねづ]く",
+     "vi": "văn hóa ăn sâu"
+    }
+   ],
+   "confuse": [
+    "v:定着:ていちゃく"
+   ],
+   "note": "Nghĩa gốc: cây bén rễ. 根付[ねづ]く = ăn sâu tự nhiên vào nơi đó. 定着[ていちゃく] = trụ lại, ổn định (kiến thức, người, chế độ)."
+  },
+  {
+   "id": "v:根強い:ねづよい",
+   "kana": "ねづよい",
+   "kanji": "根強い",
+   "kf": "根強[ねづよ]い",
+   "hv": "CĂN CƯỜNG",
+   "vi": "ăn sâu, bền bỉ khó lay (sự ưa chuộng, nhu cầu, định kiến)",
+   "pos": "adj-i",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]では、現金払[げんきんばら]いの人気[にんき]がまだ根強[ねづよ]い。",
+     "vi": "Ở Nhật, thanh toán tiền mặt vẫn còn được ưa chuộng bền bỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "国産[こくさん]の魚[さかな]に対[たい]する需要[じゅよう]は、今[いま]も根強[ねづよ]い。",
+     "vi": "Nhu cầu đối với cá trong nước đến nay vẫn bền vững.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：外国人[がいこくじん]は長[なが]く続[つづ]かない、っていう偏見[へんけん]、まだあるんですかね。B：残念[ざんねん]だけど、根強[ねづよ]いね。だから結果[けっか]で見[み]せるしかないよ。",
+     "vi": "A: Định kiến rằng người nước ngoài không làm lâu được, vẫn còn à? B: Tiếc là vẫn ăn sâu lắm. Nên chỉ còn cách chứng minh bằng kết quả thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人気[にんき]",
+     "vi": "sự ưa chuộng"
+    },
+    {
+     "jp": "需要[じゅよう]",
+     "vi": "nhu cầu"
+    },
+    {
+     "jp": "偏見[へんけん]",
+     "vi": "định kiến"
+    }
+   ],
+   "rel": [
+    "v:根付く:ねづく"
+   ],
+   "note": "根強[ねづよ]い人気[にんき] = được ưa chuộng bền bỉ. 根強[ねづよ]く残[のこ]る = vẫn còn dai dẳng."
+  },
+  {
+   "id": "v:廃れる:すたれる",
+   "kana": "すたれる",
+   "kanji": "廃れる",
+   "kf": "廃[すた]れる",
+   "hv": "PHẾ",
+   "vi": "mai một, tàn lụi (vì không ai dùng nữa)",
+   "pos": "v1",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手紙[てがみ]を書[か]く習慣[しゅうかん]は、すっかり廃[すた]れてしまった。",
+     "vi": "Thói quen viết thư đã hoàn toàn mai một.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "昔[むかし]ながらの干物[ひもの]作[つく]りの技術[ぎじゅつ]が、廃[すた]れつつある。",
+     "vi": "Kỹ thuật làm cá khô truyền thống đang dần mai một.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この商店街[しょうてんがい]、昔[むかし]はにぎやかだったんですか。B：ええ、大型[おおがた]スーパーができてから、すっかり廃[すた]れちゃってね。",
+     "vi": "A: Khu phố buôn bán này ngày xưa đông vui lắm hả? B: Ừ, từ khi có siêu thị lớn là tàn lụi hẳn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "習慣[しゅうかん]が廃[すた]れる",
+     "vi": "thói quen mai một"
+    },
+    {
+     "jp": "流行[りゅうこう]が廃[すた]れる",
+     "vi": "mốt qua thời"
+    }
+   ],
+   "ant": [
+    "v:流行る:はやる"
+   ],
+   "rel": [
+    "v:廃止:はいし"
+   ],
+   "note": "廃[すた]れる = tự mất dần vì không ai dùng nữa. 廃止[はいし] = (cơ quan) bãi bỏ."
+  },
+  {
+   "id": "v:浸透:しんとう",
+   "kana": "しんとう",
+   "kanji": "浸透",
+   "hv": "TẨM THẤU",
+   "vi": "thấm sâu, lan khắp (ý thức, quy tắc)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手洗[てあら]いの大切[たいせつ]さが、従業員[じゅうぎょういん]に浸透[しんとう]してきた。",
+     "vi": "Tầm quan trọng của rửa tay đã thấm sâu vào ý thức công nhân.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "キャッシュレス決済[けっさい]は、地方[ちほう]にも浸透[しんとう]しつつある。",
+     "vi": "Thanh toán không tiền mặt đang dần lan cả xuống địa phương.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "社員[しゃいん]に浸透[しんとう]する",
+     "vi": "thấm vào nhân viên"
+    },
+    {
+     "jp": "意識[いしき]が浸透[しんとう]する",
+     "vi": "ý thức lan khắp"
+    }
+   ],
+   "confuse": [
+    "v:普及:ふきゅう"
+   ],
+   "note": "Nghĩa gốc: (nước) thấm vào. 浸透[しんとう] = ăn vào ý thức, nếp nghĩ. 普及[ふきゅう] = (đồ vật, dịch vụ) trở nên phổ biến."
+  },
+  {
+   "id": "v:脱却:だっきゃく",
+   "kana": "だっきゃく",
+   "kanji": "脱却",
+   "hv": "THOÁT KHƯỚC",
+   "vi": "thoát khỏi (tình trạng, lối cũ)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "長時間労働[ちょうじかんろうどう]からの脱却[だっきゃく]が、会社[かいしゃ]の課題[かだい]だ。",
+     "vi": "Thoát khỏi tình trạng làm việc nhiều giờ là bài toán của công ty.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "デフレから脱却[だっきゃく]するには、賃金[ちんぎん]の上昇[じょうしょう]が欠[か]かせない。",
+     "vi": "Để thoát khỏi giảm phát, không thể thiếu việc tăng lương.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "赤字[あかじ]から脱却[だっきゃく]する",
+     "vi": "thoát khỏi thua lỗ"
+    },
+    {
+     "jp": "古[ふる]い体質[たいしつ]から脱却[だっきゃく]する",
+     "vi": "thoát khỏi lề lối cũ"
+    }
+   ],
+   "note": "Văn viết, báo chí: 〜からの脱却[だっきゃく] = thoát khỏi …."
+  },
+  {
+   "id": "v:一念発起:いちねんほっき",
+   "kana": "いちねんほっき",
+   "kanji": "一念発起",
+   "hv": "NHẤT NIỆM PHÁT KHỞI",
+   "vi": "hạ quyết tâm (bắt đầu việc lớn)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "四十歳[よんじゅっさい]を前[まえ]に一念[いちねん]発起[ほっき]して、N1の勉強[べんきょう]を始[はじ]めた。",
+     "vi": "Trước tuổi 40, tôi hạ quyết tâm bắt đầu học N1.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "彼[かれ]は一念[いちねん]発起[ほっき]して、フォークリフトや危険物[きけんぶつ]の資格[しかく]を次々[つぎつぎ]に取[と]った。",
+     "vi": "Anh ấy hạ quyết tâm, lần lượt lấy các chứng chỉ xe nâng, hàng nguy hiểm.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "四十歳[よんじゅっさい]で一念[いちねん]発起[ほっき]する",
+     "vi": "hạ quyết tâm ở tuổi 40"
+    }
+   ],
+   "note": "Thành ngữ bốn chữ: 一念[いちねん] (một ý nghĩ) + 発起[ほっき] (khởi lên). Hay dùng: 一念[いちねん]発起[ほっき]して〜する."
+  },
+  {
+   "id": "v:めっきり:めっきり",
+   "kana": "めっきり",
+   "kanji": "",
+   "hv": "",
+   "vi": "(đổi) rõ rệt, hẳn đi (dần dần)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "子[こ]どもが生[う]まれてから、外食[がいしょく]がめっきり減[へ]った。",
+     "vi": "Từ khi có con, chuyện ăn ngoài giảm hẳn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "円安[えんやす]で、輸入品[ゆにゅうひん]の注文[ちゅうもん]がめっきり少[すく]なくなった。",
+     "vi": "Do yên yếu, đơn hàng nhập khẩu ít hẳn đi.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:がらりと:がらりと"
+   ],
+   "note": "Dùng cho thay đổi dần nhưng thấy rõ, thường theo hướng giảm, yếu đi (減[へ]る, 少[すく]なくなる, 寒[さむ]くなる). めっきり増[ふ]えた ít gặp hơn."
+  },
+  {
+   "id": "v:がらりと:がらりと",
+   "kana": "がらりと",
+   "kanji": "",
+   "hv": "",
+   "vi": "đổi hẳn (trong chốc lát, toàn bộ)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "家具[かぐ]を替[か]えたら、部屋[へや]の雰囲気[ふんいき]ががらりと変[か]わった。",
+     "vi": "Thay đồ nội thất thì không khí căn phòng đổi khác hoàn toàn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい主任[しゅにん]になってから、朝礼[ちょうれい]のやり方[かた]ががらりと変[か]わった。",
+     "vi": "Từ khi có chủ nhiệm mới, cách họp đầu ca đổi hẳn.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:めっきり:めっきり"
+   ],
+   "note": "がらりと変[か]わる = đổi hẳn trong chốc lát, toàn bộ. めっきり = thay đổi dần nhưng rõ. Còn nghĩa: tiếng cửa kéo mở soạt (戸[と]をがらりと開[あ]ける)."
+  },
+  {
+   "id": "v:打って変わって:うってかわって",
+   "kana": "うってかわって",
+   "kanji": "打って変わって",
+   "kf": "打[う]って変[か]わって",
+   "hv": "ĐẢ BIẾN",
+   "vi": "khác hẳn, trái ngược hẳn (với lúc trước)",
+   "pos": "expr",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thói quen",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "昨日[きのう]の大雨[おおあめ]とは打[う]って変[か]わって、今日[きょう]はいい天気[てんき]だ。",
+     "vi": "Khác hẳn trận mưa to hôm qua, hôm nay trời đẹp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "注意[ちゅうい]された後[あと]、彼[かれ]は打[う]って変[か]わって真面目[まじめ]に働[はたら]くようになった。",
+     "vi": "Sau khi bị nhắc nhở, cậu ta thay đổi hẳn, làm việc nghiêm túc.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:一転:いってん"
+   ],
+   "note": "Dạng: Aとは打[う]って変[か]わって = khác hẳn A. Dùng tả thái độ, thời tiết, không khí đổi ngược."
+  },
+  {
+   "id": "v:連鎖:れんさ",
+   "kana": "れんさ",
+   "kanji": "連鎖",
+   "hv": "LIÊN TỎA",
+   "vi": "dây chuyền, chuỗi nối tiếp",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chuỗi sự kiện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一[ひと]つの小[ちい]さなミスが、事故[じこ]の連鎖[れんさ]を引[ひ]き起[お]こした。",
+     "vi": "Một lỗi nhỏ đã gây ra chuỗi sự cố nối tiếp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "大手企業[おおてきぎょう]の倒産[とうさん]が連鎖[れんさ]して、下請[したう]けも次々[つぎつぎ]に潰[つぶ]れた。",
+     "vi": "Phá sản của doanh nghiệp lớn kéo theo dây chuyền, các nhà thầu phụ cũng lần lượt sụp đổ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "倒産[とうさん]が連鎖[れんさ]する",
+     "vi": "phá sản dây chuyền"
+    }
+   ],
+   "rel": [
+    "v:波及:はきゅう"
+   ],
+   "note": "連鎖反応[れんさはんのう] = phản ứng dây chuyền. 負[ふ]の連鎖[れんさ] = vòng luẩn quẩn tiêu cực."
+  },
+  {
+   "id": "v:波及:はきゅう",
+   "kana": "はきゅう",
+   "kanji": "波及",
+   "hv": "BA CẬP",
+   "vi": "lan tỏa, lan sang (ảnh hưởng)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chuỗi sự kiện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "原油[げんゆ]価格[かかく]の上昇[じょうしょう]は、あらゆる業界[ぎょうかい]に波及[はきゅう]する。",
+     "vi": "Giá dầu thô tăng sẽ lan sang mọi ngành.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "一[ひと]つのラインの遅[おく]れが、出荷[しゅっか]作業[さぎょう]全体[ぜんたい]に波及[はきゅう]した。",
+     "vi": "Sự chậm trễ của một dây chuyền đã lan sang toàn bộ khâu xuất hàng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "業界[ぎょうかい]全体[ぜんたい]に波及[はきゅう]する",
+     "vi": "lan ra toàn ngành"
+    }
+   ],
+   "rel": [
+    "v:影響:えいきょう",
+    "v:連鎖:れんさ"
+   ],
+   "note": "波及効果[はきゅうこうか] = hiệu ứng lan tỏa."
+  },
+  {
+   "id": "v:発端:ほったん",
+   "kana": "ほったん",
+   "kanji": "発端",
+   "hv": "PHÁT ĐOAN",
+   "vi": "căn nguyên, điểm khởi phát (của sự việc)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chuỗi sự kiện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事件[じけん]の発端[ほったん]は、一本[いっぽん]の電話[でんわ]だった。",
+     "vi": "Khởi đầu của vụ việc là một cuộc điện thoại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今回[こんかい]のトラブルの発端[ほったん]は、伝達[でんたつ]ミスにあった。",
+     "vi": "Căn nguyên của rắc rối lần này nằm ở lỗi truyền đạt.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:きっかけ:きっかけ",
+    "v:端緒:たんしょ"
+   ],
+   "note": "Đọc ほったん (không phải はったん). 発端[ほったん] = điểm khởi đầu của một chuỗi sự việc (thường là rắc rối). きっかけ = cái cớ dẫn tới việc gì (nói thường)."
+  },
+  {
+   "id": "v:端緒:たんしょ",
+   "kana": "たんしょ",
+   "kanji": "端緒",
+   "hv": "ĐOAN TỰ",
+   "vi": "bước mở đầu, khởi điểm (cho việc lớn)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chuỗi sự kiện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "その論文[ろんぶん]が、新[あたら]しい研究[けんきゅう]の端緒[たんしょ]となった。",
+     "vi": "Bài nghiên cứu đó trở thành bước mở đầu cho hướng nghiên cứu mới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "小[ちい]さな改善[かいぜん]提案[ていあん]が、工程[こうてい]全体[ぜんたい]を見直[みなお]す端緒[たんしょ]になった。",
+     "vi": "Một đề xuất cải tiến nhỏ đã thành khởi điểm để xem lại toàn bộ quy trình.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:発端:ほったん"
+   ],
+   "note": "Cũng đọc たんちょ. 端緒[たんしょ]を開[ひら]く = mở đầu, khơi mào. 発端[ほったん] = gốc của chuyện (hay là rắc rối); 端緒[たんしょ] = bước mở đầu (hay là tích cực), manh mối."
+  },
+  {
+   "id": "v:一連:いちれん",
+   "kana": "いちれん",
+   "kanji": "一連",
+   "hv": "NHẤT LIÊN",
+   "vi": "một loạt (liên quan nhau)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chuỗi sự kiện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一連[いちれん]の不祥事[ふしょうじ]を受[う]けて、社長[しゃちょう]が辞任[じにん]した。",
+     "vi": "Trước một loạt vụ bê bối, giám đốc đã từ chức.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "解凍[かいとう]から包装[ほうそう]までの一連[いちれん]の作業[さぎょう]を、一人[ひとり]でこなせるようになった。",
+     "vi": "Tôi đã làm được một mình cả loạt công việc từ rã đông đến đóng gói.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:連鎖:れんさ"
+   ],
+   "note": "Luôn dùng dạng 一連[いちれん]の〜 (一連[いちれん]の流[なが]れ = cả quy trình liền mạch)."
+  },
+  {
+   "id": "v:立て続け:たてつづけ",
+   "kana": "たてつづけ",
+   "kanji": "立て続け",
+   "kf": "立[た]て続[つづ]け",
+   "hv": "LẬP TỤC",
+   "vi": "liền một mạch, dồn dập (sự việc nối nhau)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chuỗi sự kiện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先週[せんしゅう]は、機械[きかい]のトラブルが立[た]て続[つづ]けに起[お]きた。",
+     "vi": "Tuần trước, sự cố máy móc xảy ra liên tiếp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "立[た]て続[つづ]けに質問[しつもん]されて、答[こた]えに困[こま]った。",
+     "vi": "Bị hỏi dồn dập, tôi lúng túng không biết trả lời.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:相次ぐ:あいつぐ",
+    "v:次々:つぎつぎ"
+   ],
+   "note": "Dùng dạng 立[た]て続[つづ]けに = dồn dập, liền một mạch, không có khoảng nghỉ. 相[あい]次[つ]ぐ = động từ (sự việc liên tiếp xảy ra, văn viết)."
+  },
+  {
+   "id": "v:引き金:ひきがね",
+   "kana": "ひきがね",
+   "kanji": "引き金",
+   "kf": "引[ひ]き金[がね]",
+   "hv": "DẪN KIM",
+   "vi": "ngòi nổ, nguyên nhân trực tiếp",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chuỗi sự kiện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小[ちい]さな口論[こうろん]が、大[おお]きなけんかの引[ひ]き金[がね]になった。",
+     "vi": "Một cuộc cãi vã nhỏ đã thành ngòi nổ cho trận cãi nhau lớn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "温度[おんど]管理[かんり]の甘[あま]さが、食中毒[しょくちゅうどく]の引[ひ]き金[がね]になりかねない。",
+     "vi": "Quản lý nhiệt độ lỏng lẻo có thể thành nguyên nhân trực tiếp gây ngộ độc thực phẩm.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:きっかけ:きっかけ"
+   ],
+   "note": "Nghĩa gốc: cò súng. 〜の引[ひ]き金[がね]になる = thành ngòi nổ cho …. 引[ひ]き金[がね]を引[ひ]く = bóp cò; châm ngòi."
+  },
+  {
+   "id": "v:口火:くちび",
+   "kana": "くちび",
+   "kanji": "口火",
+   "hv": "KHẨU HỎA",
+   "vi": "mồi lửa, ngòi (khơi mào)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chuỗi sự kiện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]の発言[はつげん]が口火[くちび]となって、議論[ぎろん]が一気[いっき]に盛[も]り上[あ]がった。",
+     "vi": "Phát biểu của anh ta khơi mào, cuộc thảo luận sôi nổi hẳn lên.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一人[ひとり]の母親[ははおや]の投稿[とうこう]が口火[くちび]となり、通学路[つうがくろ]の安全[あんぜん]を見直[みなお]す運動[うんどう]が広[ひろ]がった。",
+     "vi": "Bài đăng của một bà mẹ đã khơi mào, phong trào xem lại an toàn đường đến trường lan rộng.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:引き金:ひきがね"
+   ],
+   "note": "口火[くちび]を切[き]る = mở lời đầu tiên, khơi mào (会議[かいぎ]で主任[しゅにん]が口火[くちび]を切[き]った = trong cuộc họp, chủ nhiệm mở lời đầu tiên). Nghĩa gốc: mồi lửa (bếp ga, súng)."
+  },
+  {
+   "id": "v:発祥:はっしょう",
+   "kana": "はっしょう",
+   "kanji": "発祥",
+   "hv": "PHÁT TƯỜNG",
+   "vi": "khởi nguồn (ở nơi nào)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chuỗi sự kiện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "回転寿司[かいてんずし]は、大阪[おおさか]で発祥[はっしょう]したと言[い]われている。",
+     "vi": "Người ta nói sushi băng chuyền khởi nguồn ở Osaka.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "そばめしは、神戸[こうべ]の長田[ながた]が発祥[はっしょう]だそうだ。",
+     "vi": "Nghe nói món sobameshi khởi nguồn ở khu Nagata, Kobe.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "大阪[おおさか]で発祥[はっしょう]する",
+     "vi": "khởi nguồn ở Osaka"
+    }
+   ],
+   "rel": [
+    "v:由来:ゆらい"
+   ],
+   "note": "〜発祥[はっしょう]の地[ち] = nơi khai sinh ra …. Hay dùng dạng danh từ hơn dạng する."
+  },
+  {
+   "id": "v:原点:げんてん",
+   "kana": "げんてん",
+   "kanji": "原点",
+   "hv": "NGUYÊN ĐIỂM",
+   "vi": "cái gốc ban đầu, điểm xuất phát",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Chuỗi sự kiện",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "迷[まよ]ったときは、原点[げんてん]に戻[もど]って考[かんが]えることにしている。",
+     "vi": "Khi phân vân, tôi thường quay về cái gốc ban đầu để suy nghĩ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "お客様[きゃくさま]に安全[あんぜん]な刺身[さしみ]を届[とど]けることが、この工場[こうじょう]の原点[げんてん]だ。",
+     "vi": "Mang sashimi an toàn đến khách hàng là cái gốc của xưởng này.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "原点[げんてん]に立[た]ち返[かえ]る = trở về cái gốc ban đầu. Nghĩa toán học: gốc tọa độ."
+  },
+  {
+   "id": "v:進出:しんしゅつ",
+   "kana": "しんしゅつ",
+   "kanji": "進出",
+   "hv": "TIẾN XUẤT",
+   "vi": "vươn ra, tiến vào (khu vực, thị trường mới)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]は、ベトナムへの進出[しんしゅつ]を検討[けんとう]している。",
+     "vi": "Công ty đang cân nhắc tiến vào Việt Nam.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "大手[おおて]のコンビニが、地方[ちほう]の小[ちい]さな町[まち]にも進出[しんしゅつ]してきた。",
+     "vi": "Chuỗi cửa hàng tiện lợi lớn đã tiến vào cả thị trấn nhỏ ở địa phương.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "海外[かいがい]に進出[しんしゅつ]する",
+     "vi": "vươn ra nước ngoài"
+    },
+    {
+     "jp": "決勝[けっしょう]に進出[しんしゅつ]する",
+     "vi": "vào chung kết"
+    }
+   ],
+   "confuse": [
+    "v:参入:さんにゅう"
+   ],
+   "note": "進出[しんしゅつ] = vươn ra, mở cơ sở ở nơi mới (khu vực, nước). 参入[さんにゅう] = gia nhập một ngành, thị trường đã có đối thủ. Thể thao: 決勝[けっしょう]進出[しんしゅつ] = vào chung kết."
+  },
+  {
+   "id": "v:参入:さんにゅう",
+   "kana": "さんにゅう",
+   "kanji": "参入",
+   "hv": "THAM NHẬP",
+   "vi": "gia nhập (ngành, thị trường)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "異[い]業種[ぎょうしゅ]からの参入[さんにゅう]が相[あい]次[つ]ぎ、競争[きょうそう]が激[はげ]しくなった。",
+     "vi": "Doanh nghiệp từ ngành khác liên tiếp gia nhập, cạnh tranh gay gắt hơn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "電力[でんりょく]の自由化[じゆうか]で、多[おお]くの会社[かいしゃ]が市場[しじょう]に参入[さんにゅう]した。",
+     "vi": "Nhờ tự do hóa ngành điện, nhiều công ty đã gia nhập thị trường.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "市場[しじょう]に参入[さんにゅう]する",
+     "vi": "gia nhập thị trường"
+    }
+   ],
+   "ant": [
+    "v:撤退:てったい"
+   ],
+   "confuse": [
+    "v:進出:しんしゅつ"
+   ],
+   "note": "新規参入[しんきさんにゅう] = doanh nghiệp mới gia nhập."
+  },
+  {
+   "id": "v:販路:はんろ",
+   "kana": "はんろ",
+   "kanji": "販路",
+   "hv": "PHIẾN LỘ",
+   "vi": "đầu ra, kênh tiêu thụ (hàng hóa)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "販路[はんろ]を広[ひろ]げるため、ネット販売[はんばい]も始[はじ]めた。",
+     "vi": "Để mở rộng kênh tiêu thụ, chúng tôi bắt đầu bán cả trên mạng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地元[じもと]の農家[のうか]は、新[あたら]しい販路[はんろ]を探[さが]している。",
+     "vi": "Nông dân địa phương đang tìm đầu ra mới.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:開拓:かいたく"
+   ],
+   "note": "販路[はんろ]を開拓[かいたく]する / 販路[はんろ]を拡大[かくだい]する = mở rộng đầu ra."
+  },
+  {
+   "id": "v:開拓:かいたく",
+   "kana": "かいたく",
+   "kanji": "開拓",
+   "hv": "KHAI THÁC",
+   "vi": "khai phá, khai khẩn (thị trường, đất mới)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "営業部[えいぎょうぶ]は、海外[かいがい]の新[あたら]しい取引先[とりひきさき]を開拓[かいたく]している。",
+     "vi": "Phòng kinh doanh đang khai phá đối tác mới ở nước ngoài.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この土地[とち]は、明治[めいじ]時代[じだい]に開拓[かいたく]された。",
+     "vi": "Vùng đất này được khai khẩn vào thời Minh Trị.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "販路[はんろ]を開拓[かいたく]する",
+     "vi": "mở đầu ra mới"
+    },
+    {
+     "jp": "新[あたら]しい分野[ぶんや]を開拓[かいたく]する",
+     "vi": "khai phá lĩnh vực mới"
+    }
+   ],
+   "rel": [
+    "v:販路:はんろ"
+   ],
+   "note": "開拓者[かいたくしゃ] = người khai phá. 新規開拓[しんきかいたく] = tìm khách hàng mới."
+  },
+  {
+   "id": "v:新興:しんこう",
+   "kana": "しんこう",
+   "kanji": "新興",
+   "hv": "TÂN HƯNG",
+   "vi": "mới nổi",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新興国[しんこうこく]でも、日本[にほん]の水産物[すいさんぶつ]を求[もと]める声[こえ]が増[ふ]えている。",
+     "vi": "Ở các nước mới nổi, người muốn mua thủy sản Nhật cũng đang tăng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "駅[えき]の北側[きたがわ]に、新興[しんこう]の住宅地[じゅうたくち]が広[ひろ]がっている。",
+     "vi": "Phía bắc ga có khu dân cư mới mọc lên.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "新興国[しんこうこく] = nước mới nổi. 新興企業[しんこうきぎょう] = doanh nghiệp mới nổi. Đồng âm: 振興[しんこう] = chấn hưng (地域[ちいき]振興[しんこう])."
+  },
+  {
+   "id": "v:先駆け:さきがけ",
+   "kana": "さきがけ",
+   "kanji": "先駆け",
+   "kf": "先駆[さきが]け",
+   "hv": "TIÊN KHU",
+   "vi": "người đi đầu, sự tiên phong",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この会社[かいしゃ]は、冷凍[れいとう]刺身[さしみ]を海外[かいがい]に輸出[ゆしゅつ]した先駆[さきが]けだ。",
+     "vi": "Công ty này là đơn vị tiên phong xuất khẩu sashimi đông lạnh ra nước ngoài.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "梅[うめ]の花[はな]は、春[はる]の先駆[さきが]けとして咲[さ]く。",
+     "vi": "Hoa mơ nở như người báo trước mùa xuân.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "〜に先駆[さきが]けて = đi trước, trước cả … (他社[たしゃ]に先駆[さきが]けて発売[はつばい]する = bán ra trước các công ty khác)."
+  },
+  {
+   "id": "v:足掛かり:あしがかり",
+   "kana": "あしがかり",
+   "kanji": "足掛かり",
+   "kf": "足掛[あしが]かり",
+   "hv": "TÚC QUẢI",
+   "vi": "bàn đạp, chỗ đặt chân đầu tiên",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "タイの工場[こうじょう]を足掛[あしが]かりに、東南[とうなん]アジア全体[ぜんたい]に販売[はんばい]を広[ひろ]げる計画[けいかく]だ。",
+     "vi": "Kế hoạch là lấy xưởng ở Thái Lan làm bàn đạp để mở rộng bán hàng ra toàn Đông Nam Á.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "アルバイトの経験[けいけん]が、正社員[せいしゃいん]になる足掛[あしが]かりになった。",
+     "vi": "Kinh nghiệm làm thêm đã thành bàn đạp để trở thành nhân viên chính thức.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:足場:あしば",
+    "v:手がかり:てがかり"
+   ],
+   "note": "〜を足掛[あしが]かりに(して) = lấy … làm bàn đạp. Cũng viết 足[あし]がかり."
+  },
+  {
+   "id": "v:拠点:きょてん",
+   "kana": "きょてん",
+   "kanji": "拠点",
+   "hv": "CỨ ĐIỂM",
+   "vi": "cứ điểm, nơi đặt cơ sở hoạt động",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]は、九州[きゅうしゅう]に新[あたら]しい物流[ぶつりゅう]拠点[きょてん]を作[つく]った。",
+     "vi": "Công ty đã xây cơ sở hậu cần mới ở Kyushu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "彼[かれ]は、神戸[こうべ]を拠点[きょてん]に活動[かつどう]している写真家[しゃしんか]だ。",
+     "vi": "Anh ấy là nhiếp ảnh gia hoạt động lấy Kobe làm cơ sở.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:支店:してん"
+   ],
+   "note": "〜を拠点[きょてん]に(して) = lấy … làm cứ điểm. 生産拠点[せいさんきょてん] = cơ sở sản xuất."
+  },
+  {
+   "id": "v:拡充:かくじゅう",
+   "kana": "かくじゅう",
+   "kanji": "拡充",
+   "hv": "KHUẾCH SUNG",
+   "vi": "mở rộng và bổ sung (cho đầy đủ hơn)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "外国人社員[がいこくじんしゃいん]のために、日本語[にほんご]研修[けんしゅう]を拡充[かくじゅう]する予定[よてい]だ。",
+     "vi": "Công ty dự định mở rộng các khóa học tiếng Nhật cho nhân viên nước ngoài.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "市[し]は、子育[こそだ]て支援[しえん]を拡充[かくじゅう]すると発表[はっぴょう]した。",
+     "vi": "Thành phố công bố sẽ mở rộng hỗ trợ nuôi con.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "設備[せつび]を拡充[かくじゅう]する",
+     "vi": "bổ sung, mở rộng thiết bị"
+    },
+    {
+     "jp": "サービスを拡充[かくじゅう]する",
+     "vi": "mở rộng dịch vụ"
+    }
+   ],
+   "confuse": [
+    "v:拡大:かくだい"
+   ],
+   "note": "拡充[かくじゅう] = làm cho nhiều hơn và đầy đủ hơn (chế độ, dịch vụ, thiết bị). 拡大[かくだい] = làm to, rộng ra (quy mô, phạm vi)."
+  },
+  {
+   "id": "v:躍進:やくしん",
+   "kana": "やくしん",
+   "kanji": "躍進",
+   "hv": "DƯỢC TIẾN",
+   "vi": "tiến vọt, phát triển nhảy vọt",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "海外[かいがい]での販売[はんばい]が好調[こうちょう]で、会社[かいしゃ]は大[おお]きく躍進[やくしん]した。",
+     "vi": "Bán hàng ở nước ngoài thuận lợi, công ty đã phát triển nhảy vọt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "地元[じもと]の高校[こうこう]が、全国大会[ぜんこくたいかい]でベスト4に躍進[やくしん]した。",
+     "vi": "Trường cấp ba địa phương tiến vọt vào top 4 giải toàn quốc.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "上位[じょうい]に躍進[やくしん]する",
+     "vi": "tiến vọt lên tốp đầu"
+    }
+   ],
+   "rel": [
+    "v:一躍:いちやく"
+   ],
+   "note": "Văn báo chí. 目覚[めざ]ましい躍進[やくしん] = bước tiến vượt bậc."
+  },
+  {
+   "id": "v:一躍:いちやく",
+   "kana": "いちやく",
+   "kanji": "一躍",
+   "hv": "NHẤT DƯỢC",
+   "vi": "nhảy vọt một bước (thành nổi tiếng)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "テレビで紹介[しょうかい]されて、この店[みせ]は一躍[いちやく]有名[ゆうめい]になった。",
+     "vi": "Được giới thiệu trên TV, quán này bỗng chốc nổi tiếng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新商品[しんしょうひん]のヒットで、小[ちい]さな工場[こうじょう]が一躍[いちやく]注目[ちゅうもく]を集[あつ]めた。",
+     "vi": "Nhờ sản phẩm mới ăn khách, xưởng nhỏ bỗng chốc được chú ý.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:躍進:やくしん"
+   ],
+   "note": "Hay đi với 有名[ゆうめい]になる, 人気者[にんきもの]になる, 注目[ちゅうもく]を集[あつ]める."
+  },
+  {
+   "id": "v:目覚ましい:めざましい",
+   "kana": "めざましい",
+   "kanji": "目覚ましい",
+   "kf": "目覚[めざ]ましい",
+   "hv": "MỤC GIÁC",
+   "vi": "vượt bậc, đáng kinh ngạc (tiến bộ, phát triển)",
+   "pos": "adj-i",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この数十[すうじゅう]年[ねん]で、アジアの経済[けいざい]は目覚[めざ]ましい発展[はってん]を遂[と]げた。",
+     "vi": "Trong vài chục năm qua, kinh tế châu Á đã phát triển vượt bậc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "入社[にゅうしゃ]して一年[いちねん]で、彼[かれ]の日本語[にほんご]は目覚[めざ]ましく上達[じょうたつ]した。",
+     "vi": "Vào công ty một năm, tiếng Nhật của anh ấy tiến bộ vượt bậc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：新人[しんじん]のチャンさん、最近[さいきん]すごいね。B：ええ、目覚[めざ]ましい成長[せいちょう]ぶりですよ。もう一人[ひとり]でラインを任[まか]せられます。",
+     "vi": "A: Bạn Trang mới vào dạo này giỏi ghê. B: Vâng, tiến bộ vượt bậc ạ. Giờ đã giao dây chuyền cho một mình bạn ấy được rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "発展[はってん]",
+     "vi": "sự phát triển"
+    },
+    {
+     "jp": "進歩[しんぽ]",
+     "vi": "sự tiến bộ"
+    },
+    {
+     "jp": "成長[せいちょう]",
+     "vi": "sự trưởng thành"
+    }
+   ],
+   "rel": [
+    "v:躍進:やくしん"
+   ],
+   "note": "Hay đi với 目覚[めざ]ましい + 発展[はってん] / 進歩[しんぽ] / 成長[せいちょう] / 活躍[かつやく]. Khác 目覚[めざ]まし時計[どけい] = đồng hồ báo thức."
+  },
+  {
+   "id": "v:軌道:きどう",
+   "kana": "きどう",
+   "kanji": "軌道",
+   "hv": "QUỸ ĐẠO",
+   "vi": "quỹ đạo; guồng (đi vào ổn định)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい事業[じぎょう]が、ようやく軌道[きどう]に乗[の]ってきた。",
+     "vi": "Mảng kinh doanh mới cuối cùng cũng đi vào guồng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "人工衛星[じんこうえいせい]が、予定[よてい]の軌道[きどう]に入[はい]った。",
+     "vi": "Vệ tinh nhân tạo đã vào quỹ đạo dự kiến.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "軌道[きどう]に乗[の]る = đi vào guồng, ổn định. 軌道修正[きどうしゅうせい] = điều chỉnh hướng đi."
+  },
+  {
+   "id": "v:乗り出す:のりだす",
+   "kana": "のりだす",
+   "kanji": "乗り出す",
+   "kf": "乗[の]り出[だ]す",
+   "hv": "THỪA XUẤT",
+   "vi": "bắt tay vào, dấn thân vào (việc mới, quy mô lớn)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]は、養殖[ようしょく]事業[じぎょう]に乗[の]り出[だ]すことを決[き]めた。",
+     "vi": "Công ty quyết định bắt tay vào mảng nuôi trồng thủy sản.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "警察[けいさつ]は、事件[じけん]の本格的[ほんかくてき]な捜査[そうさ]に乗[の]り出[だ]した。",
+     "vi": "Cảnh sát đã vào cuộc điều tra vụ án một cách bài bản.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：課長[かちょう]、最近[さいきん]忙[いそが]しそうですね。B：うん、会社[かいしゃ]が海外[かいがい]販売[はんばい]に乗[の]り出[だ]したから、資料[しりょう]作[つく]りが大変[たいへん]なんだ。",
+     "vi": "A: Trưởng nhóm dạo này có vẻ bận nhỉ. B: Ừ, công ty bắt tay vào bán hàng ra nước ngoài nên làm tài liệu vất vả lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "新[しん]事業[じぎょう]に乗[の]り出[だ]す",
+     "vi": "bắt tay vào mảng kinh doanh mới"
+    },
+    {
+     "jp": "調査[ちょうさ]に乗[の]り出[だ]す",
+     "vi": "vào cuộc điều tra"
+    }
+   ],
+   "confuse": [
+    "v:着手:ちゃくしゅ"
+   ],
+   "note": "Nghĩa khác: nhoài người ra (身[み]を乗[の]り出[だ]す). 乗[の]り出[だ]す = mạnh dạn bước vào lĩnh vực mới. 着手[ちゃくしゅ] = bắt đầu động tay vào một việc cụ thể."
+  },
+  {
+   "id": "v:踏み出す:ふみだす",
+   "kana": "ふみだす",
+   "kanji": "踏み出す",
+   "kf": "踏[ふ]み出[だ]す",
+   "hv": "ĐẠP XUẤT",
+   "vi": "bước ra, bắt đầu bước đầu tiên",
+   "pos": "v5",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "失敗[しっぱい]を恐[おそ]れずに、新[あたら]しい一歩[いっぽ]を踏[ふ]み出[だ]そう。",
+     "vi": "Đừng sợ thất bại, hãy bước bước đầu tiên mới.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会社[かいしゃ]は、環境[かんきょう]に優[やさ]しい包装[ほうそう]への切[き]り替[か]えに踏[ふ]み出[だ]した。",
+     "vi": "Công ty đã bắt đầu chuyển sang bao bì thân thiện môi trường.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：日本[にほん]で家[いえ]を買[か]うって、本当[ほんとう]？B：うん。迷[まよ]ったけど、思[おも]い切[き]って踏[ふ]み出[だ]すことにしたんだ。",
+     "vi": "A: Mua nhà ở Nhật thật hả? B: Ừ. Phân vân mãi nhưng tôi quyết mạnh dạn bước tới.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "一歩[いっぽ]を踏[ふ]み出[だ]す",
+     "vi": "bước bước đầu tiên"
+    },
+    {
+     "jp": "新[あたら]しい人生[じんせい]に踏[ふ]み出[だ]す",
+     "vi": "bước vào cuộc đời mới"
+    }
+   ],
+   "confuse": [
+    "v:踏み切る:ふみきる"
+   ],
+   "note": "踏[ふ]み出[だ]す = bắt đầu bước (lần đầu, thận trọng). 踏[ふ]み切[き]る = dứt khoát quyết làm sau khi đắn đo."
+  },
+  {
+   "id": "v:着々:ちゃくちゃく",
+   "kana": "ちゃくちゃく",
+   "kanji": "着々",
+   "hv": "TRƯỚC TRƯỚC",
+   "vi": "(tiến hành) đều đặn, từng bước chắc chắn",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở rộng thị trường",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[しん]工場[こうじょう]の建設[けんせつ]は、着々[ちゃくちゃく]と進[すす]んでいる。",
+     "vi": "Việc xây xưởng mới đang tiến triển từng bước chắc chắn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "彼[かれ]は着々[ちゃくちゃく]と貯金[ちょきん]を増[ふ]やして、ついに家[いえ]を買[か]った。",
+     "vi": "Anh ấy đều đặn tăng tiền tiết kiệm và cuối cùng đã mua nhà.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:着実:ちゃくじつ"
+   ],
+   "note": "Luôn dùng 着々[ちゃくちゃく]と + 進[すす]む / 準備[じゅんび]する / 増[ふ]やす. 着実[ちゃくじつ] = tính từ (vững vàng); 着々[ちゃくちゃく]と = phó từ (từng bước)."
+  }
+ ]
+}

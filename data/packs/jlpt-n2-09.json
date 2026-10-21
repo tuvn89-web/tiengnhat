@@ -1,1903 +1,1903 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n2-09",
-    "title": "JLPT N2 09 – Cảm xúc, căng thẳng, sức khỏe & tính cách",
-    "type": "vocab",
-    "level": "N2",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 2,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-09",
+  "title": "JLPT N2 09 – Cảm xúc, căng thẳng, sức khỏe & tính cách",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 3,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:悲しみ:かなしみ",
+   "kana": "かなしみ",
+   "kanji": "悲しみ",
+   "kf": "悲[かな]しみ",
+   "hv": "BI",
+   "vi": "nỗi buồn, nỗi đau buồn",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:悲しみ:かなしみ",
-      "kana": "かなしみ",
-      "kanji": "悲しみ",
-      "kf": "悲[かな]しみ",
-      "hv": "BI",
-      "vi": "nỗi buồn, nỗi đau buồn",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm xúc",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "祖母[そぼ]が亡[な]くなった悲[かな]しみは、なかなか消[き]えない。",
-          "vi": "Nỗi buồn mất bà mãi không nguôi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "悲[かな]しみのあまり、何[なに]も食[た]べられなかった。",
-          "vi": "Buồn quá đến mức không ăn được gì.",
-          "ctx": "doisong"
-        }
-      ],
-      "ant": [
-        "v:喜び:よろこび"
-      ],
-      "rel": [
-        "v:悲しい:かなしい",
-        "v:悲しむ:かなしむ"
-      ],
-      "note": "悲[かな]しみに暮[く]れる = chìm trong đau buồn."
+     "jp": "祖母[そぼ]が亡[な]くなった悲[かな]しみは、なかなか消[き]えない。",
+     "vi": "Nỗi buồn mất bà mãi không nguôi.",
+     "ctx": "doisong"
     },
     {
-      "id": "v:感激:かんげき",
-      "kana": "かんげき",
-      "kanji": "感激",
-      "hv": "CẢM KÍCH",
-      "vi": "cảm kích, xúc động mạnh (vì biết ơn, vui sướng)",
-      "pos": "n-suru",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm xúc",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "社長[しゃちょう]に直接[ちょくせつ]褒[ほ]められて、感激[かんげき]した。",
-          "vi": "Được giám đốc khen trực tiếp, tôi xúc động vô cùng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "母[はは]から手紙[てがみ]が届[とど]いて、感激[かんげき]のあまり泣[な]いてしまった。",
-          "vi": "Nhận thư mẹ gửi, xúc động quá mà bật khóc.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：誕生日[たんじょうび]に、班[はん]のみんながケーキをくれたんだ。B：へえ、感激[かんげき]したでしょう。",
-          "vi": "A: Sinh nhật, cả tổ tặng tôi bánh kem. B: Ồ, chắc cảm động lắm nhỉ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "親切[しんせつ]に感激[かんげき]する",
-          "vi": "cảm kích trước lòng tốt"
-        }
-      ],
-      "confuse": [
-        "v:感動:かんどう"
-      ],
-      "note": "感動[かんどう] = cảm động (trước phim, cảnh đẹp…); 感激[かんげき] = xúc động mạnh, thường vì việc người khác làm cho mình."
-    },
-    {
-      "id": "v:憂うつ:ゆううつ",
-      "kana": "ゆううつ",
-      "kanji": "憂うつ",
-      "kf": "憂[ゆう]うつ",
-      "hv": "ƯU",
-      "vi": "u uất, nặng nề trong lòng (không muốn làm gì)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm xúc",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "雨[あめ]の月曜日[げつようび]は、なんだか憂[ゆう]うつだ。",
-          "vi": "Thứ hai trời mưa sao thấy nặng nề trong lòng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "明日[あした]の面談[めんだん]のことを考[かんが]えると、憂[ゆう]うつになる。",
-          "vi": "Nghĩ tới buổi trao đổi ngày mai là thấy nặng lòng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：税金[ぜいきん]の書類[しょるい]、まだ書[か]いてないんだ。B：あれは憂[ゆう]うつだよね。一緒[いっしょ]にやろうか。",
-          "vi": "A: Giấy tờ thuế tôi vẫn chưa viết. B: Cái đó ngán thật nhỉ. Làm cùng nhé?",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "気分[きぶん]",
-          "vi": "tâm trạng"
-        },
-        {
-          "jp": "月曜日[げつようび]",
-          "vi": "thứ hai"
-        },
-        {
-          "jp": "天気[てんき]",
-          "vi": "thời tiết"
-        }
-      ],
-      "note": "Chữ Hán đầy đủ: 憂鬱[ゆううつ] (khó viết, hay viết 憂[ゆう]うつ)."
-    },
-    {
-      "id": "v:落ち込む:おちこむ",
-      "kana": "おちこむ",
-      "kanji": "落ち込む",
-      "kf": "落[お]ち込[こ]む",
-      "hv": "LẠC NHẬP",
-      "vi": "suy sụp, chán nản (tinh thần); tụt xuống (doanh số)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm xúc",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "試験[しけん]に落[お]ちて、すっかり落[お]ち込[こ]んでしまった。",
-          "vi": "Thi trượt, tôi suy sụp hẳn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "班長[はんちょう]に注意[ちゅうい]されて落[お]ち込[こ]んでいる新人[しんじん]を、励[はげ]ました。",
-          "vi": "Tôi động viên người mới đang buồn vì bị tổ trưởng nhắc nhở.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：元気[げんき]ないね。何[なに]かあった？B：ミスしちゃって、ちょっと落[お]ち込[こ]んでるんだ。",
-          "vi": "A: Trông cậu không vui. Có chuyện gì à? B: Tôi lỡ làm sai, đang hơi buồn.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "気分[きぶん]が落[お]ち込[こ]む",
-          "vi": "tâm trạng sa sút"
-        },
-        {
-          "jp": "売[う]り上[あ]げが落[お]ち込[こ]む",
-          "vi": "doanh thu sụt giảm"
-        }
-      ],
-      "ant": [
-        "v:張り切る:はりきる"
-      ],
-      "flag": true,
-      "note": "Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
-    },
-    {
-      "id": "v:張り切る:はりきる",
-      "kana": "はりきる",
-      "kanji": "張り切る",
-      "kf": "張[は]り切[き]る",
-      "hv": "TRƯƠNG THIẾT",
-      "vi": "hăng say, phấn chấn (muốn làm thật tốt)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm xúc",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "初[はじ]めての夜勤[やきん]なので、張[は]り切[き]っている。",
-          "vi": "Ca đêm đầu tiên nên tôi rất hăng hái.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "子[こ]どもは、運動会[うんどうかい]に向[む]けて張[は]り切[き]って練習[れんしゅう]している。",
-          "vi": "Con tôi hăng say luyện tập cho hội thao.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：今日[きょう]、すごく張[は]り切[き]ってるね。B：はい、初[はじ]めてリーダーを任[まか]されたので。",
-          "vi": "A: Hôm nay cậu hăng hái ghê. B: Vâng, vì lần đầu được giao làm trưởng nhóm.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "朝[あさ]から張[は]り切[き]る",
-          "vi": "hăng hái từ sáng"
-        }
-      ],
-      "ant": [
-        "v:落ち込む:おちこむ"
-      ],
-      "note": "張[は]り切[き]りすぎる = hăng quá đà (dễ mệt, dễ sai)."
-    },
-    {
-      "id": "v:照れる:てれる",
-      "kana": "てれる",
-      "kanji": "照れる",
-      "kf": "照[て]れる",
-      "hv": "CHIẾU",
-      "vi": "ngượng, thẹn (khi được khen, bị chú ý)",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm xúc",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "みんなの前[まえ]で褒[ほ]められて、照[て]れてしまった。",
-          "vi": "Được khen trước mặt mọi người, tôi ngượng đỏ mặt.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "父[ちち]は、照[て]れながら「ありがとう」と言[い]った。",
-          "vi": "Bố vừa ngượng vừa nói \"cảm ơn\".",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：日本語[にほんご]のスピーチ、最高[さいこう]だったよ。B：そんなに言[い]われると、照[て]れますね。",
-          "vi": "A: Bài phát biểu tiếng Nhật tuyệt lắm. B: Anh nói thế làm tôi ngượng.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "褒[ほ]められて照[て]れる",
-          "vi": "ngượng vì được khen"
-        }
-      ],
-      "confuse": [
-        "v:恥ずかしい:はずかしい"
-      ],
-      "note": "照[て]れくさい = ngượng ngùng. 恥[は]ずかしい = xấu hổ (cả khi làm sai); 照[て]れる = ngượng vì được để ý, được khen."
-    },
-    {
-      "id": "v:うんざり:うんざり",
-      "kana": "うんざり",
-      "kanji": "",
-      "hv": "",
-      "vi": "chán ngấy, ngán tận cổ (vì lặp lại mãi)",
-      "pos": "ono",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm xúc",
-      "reg": "khaungu",
-      "ex": [
-        {
-          "jp": "毎日[まいにち]同[おな]じ弁当[べんとう]で、もううんざりだ。",
-          "vi": "Ngày nào cũng một món cơm hộp, ngán tận cổ rồi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "同[おな]じ注意[ちゅうい]を何度[なんど]もされて、うんざりした。",
-          "vi": "Bị nhắc mãi một chuyện, tôi chán ngấy.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:飽きる:あきる"
-      ],
-      "note": "うんざりする / うんざりだ. Mạnh hơn 飽[あ]きる, có cả cảm giác bực."
-    },
-    {
-      "id": "v:くよくよ:くよくよ",
-      "kana": "くよくよ",
-      "kanji": "",
-      "hv": "",
-      "vi": "buồn rầu day dứt (mãi về chuyện đã qua)",
-      "pos": "ono",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm xúc",
-      "reg": "khaungu",
-      "ex": [
-        {
-          "jp": "終[お]わったことを、いつまでもくよくよするな。",
-          "vi": "Chuyện qua rồi thì đừng day dứt mãi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "小[ちい]さいミスでくよくよしないで、次[つぎ]に生[い]かそう。",
-          "vi": "Đừng ủ rũ vì lỗi nhỏ, hãy rút kinh nghiệm cho lần sau.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "くよくよする. Hay dùng dạng khuyên: くよくよしないで."
-    },
-    {
-      "id": "v:没頭:ぼっとう",
-      "kana": "ぼっとう",
-      "kanji": "没頭",
-      "hv": "MỘT ĐẦU",
-      "vi": "vùi đầu vào, đắm chìm (vào việc gì)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm xúc",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "仕事[しごと]に没頭[ぼっとう]して、昼[ひる]ご飯[はん]を食[た]べるのを忘[わす]れた。",
-          "vi": "Vùi đầu vào việc, quên cả ăn trưa.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "弟[おとうと]はゲームに没頭[ぼっとう]して、呼[よ]んでも返事[へんじ]をしない。",
-          "vi": "Em trai mải mê chơi game, gọi cũng không thưa.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "仕事[しごと]に没頭[ぼっとう]する",
-          "vi": "vùi đầu vào công việc"
-        },
-        {
-          "jp": "研究[けんきゅう]に没頭[ぼっとう]する",
-          "vi": "đắm chìm trong nghiên cứu"
-        }
-      ],
-      "rel": [
-        "v:夢中:むちゅう",
-        "v:熱中:ねっちゅう"
-      ],
-      "note": "Mạnh hơn 夢中[むちゅう], 熱中[ねっちゅう]: quên hết mọi thứ xung quanh."
-    },
-    {
-      "id": "v:つい:つい",
-      "kana": "つい",
-      "kanji": "",
-      "hv": "",
-      "vi": "lỡ, buột (theo thói quen, không kìm được)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm xúc",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "疲[つか]れていると、つい甘[あま]い物[もの]を食[た]べてしまう。",
-          "vi": "Mệt là tôi lại lỡ ăn đồ ngọt.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "急[いそ]いでいて、つい確認[かくにん]を飛[と]ばしてしまった。",
-          "vi": "Vội quá nên lỡ bỏ qua bước kiểm tra.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：また夜中[よなか]までスマホ見[み]てたの？B：うん、つい。",
-          "vi": "A: Lại xem điện thoại tới nửa đêm à? B: Ừ, lỡ mất.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "confuse": [
-        "v:うっかり:うっかり",
-        "v:思わず:おもわず"
-      ],
-      "note": "Hay đi với 〜てしまう. うっかり = sơ ý quên; つい = biết là không nên nhưng vẫn làm theo thói quen. つい先日[せんじつ] = mới hôm trước."
-    },
-    {
-      "id": "v:気のせい:きのせい",
-      "kana": "きのせい",
-      "kanji": "気のせい",
-      "kf": "気[き]のせい",
-      "hv": "KHÍ",
-      "vi": "chỉ là do mình tưởng (thật ra không có gì)",
-      "pos": "expr",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Cảm xúc",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "機械[きかい]の音[おと]が変[へん]だと思[おも]ったが、気[き]のせいだった。",
-          "vi": "Tưởng máy kêu lạ, hóa ra chỉ là do mình tưởng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：最近[さいきん]、太[ふと]った気[き]がする。B：気[き]のせいだよ。",
-          "vi": "A: Dạo này hình như tôi béo lên. B: Cậu tưởng tượng thôi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "note": "気[き]のせいか = không biết có phải do mình tưởng không (気[き]のせいか、顔色[かおいろ]が悪[わる]い)."
-    },
-    {
-      "id": "v:プレッシャー:プレッシャー",
-      "kana": "プレッシャー",
-      "kanji": "",
-      "hv": "",
-      "vi": "sức ép, áp lực (phải làm tốt)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Căng thẳng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "班長[はんちょう]になって、プレッシャーを感[かん]じている。",
-          "vi": "Lên tổ trưởng, tôi thấy áp lực.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "家族[かぞく]の期待[きたい]が、大[おお]きなプレッシャーになった。",
-          "vi": "Kỳ vọng của gia đình thành áp lực lớn.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:ストレス:ストレス"
-      ],
-      "goc": "pressure (tiếng Anh)",
-      "note": "プレッシャーをかける = gây sức ép; プレッシャーに弱[よわ]い = dễ run khi bị áp lực."
-    },
-    {
-      "id": "v:精神的:せいしんてき",
-      "kana": "せいしんてき",
-      "kanji": "精神的",
-      "hv": "TINH THẦN ĐÍCH",
-      "vi": "về mặt tinh thần",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Căng thẳng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "夜勤[やきん]が続[つづ]いて、精神的[せいしんてき]にも疲[つか]れている。",
-          "vi": "Làm ca đêm liên tục, tôi mệt cả về tinh thần.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "家族[かぞく]の言葉[ことば]が、精神的[せいしんてき]な支[ささ]えになった。",
-          "vi": "Lời nói của gia đình là chỗ dựa tinh thần.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：一人[ひとり]で暮[く]らすのは寂[さび]しくない？B：最初[さいしょ]は精神的[せいしんてき]につらかったけど、もう慣[な]れたよ。",
-          "vi": "A: Sống một mình không buồn sao? B: Lúc đầu tinh thần khổ lắm, nhưng giờ quen rồi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "負担[ふたん]",
-          "vi": "gánh nặng"
-        },
-        {
-          "jp": "ショック",
-          "vi": "cú sốc"
-        }
-      ],
-      "ant": [
-        {
-          "w": "肉体的[にくたいてき]",
-          "vi": "về mặt thể chất"
-        }
-      ],
-      "rel": [
-        "v:精神:せいしん"
-      ]
-    },
-    {
-      "id": "v:心身:しんしん",
-      "kana": "しんしん",
-      "kanji": "心身",
-      "hv": "TÂM THÂN",
-      "vi": "thể xác và tinh thần",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Căng thẳng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "心身[しんしん]ともに健康[けんこう]でいることが、何[なん]より大切[たいせつ]だ。",
-          "vi": "Khỏe cả thể xác lẫn tinh thần là quan trọng hơn hết.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "長時間[ちょうじかん]の残業[ざんぎょう]は、心身[しんしん]に悪[わる]い影響[えいきょう]を与[あた]える。",
-          "vi": "Tăng ca kéo dài ảnh hưởng xấu tới cả thân lẫn tâm.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "心身[しんしん]ともに = cả thân lẫn tâm. Văn viết."
-    },
-    {
-      "id": "v:負担:ふたん",
-      "kana": "ふたん",
-      "kanji": "負担",
-      "hv": "PHỤ ĐẢM",
-      "vi": "gánh nặng; chịu (chi phí)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Căng thẳng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "重[おも]い箱[はこ]を一人[ひとり]で運[はこ]ぶのは、腰[こし]に負担[ふたん]がかかる。",
-          "vi": "Một mình khiêng thùng nặng gây gánh nặng cho lưng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "交通費[こうつうひ]は、会社[かいしゃ]が負担[ふたん]してくれる。",
-          "vi": "Tiền đi lại công ty chịu cho.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：仕事[しごと]、増[ふ]えてない？負担[ふたん]になってない？B：大丈夫[だいじょうぶ]です。でも、ありがとうございます。",
-          "vi": "A: Việc có nhiều thêm không? Có thành gánh nặng không? B: Không sao ạ. Nhưng cảm ơn anh.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "費用[ひよう]を負担[ふたん]する",
-          "vi": "chịu chi phí"
-        }
-      ],
-      "note": "負担[ふたん]がかかる = bị gánh nặng; 負担[ふたん]を減[へ]らす = giảm gánh nặng. 自己負担[じこふたん] = tự chi trả (bảo hiểm y tế)."
-    },
-    {
-      "id": "v:疲労:ひろう",
-      "kana": "ひろう",
-      "kanji": "疲労",
-      "hv": "BÌ LAO",
-      "vi": "sự mệt mỏi (văn viết, y tế)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Căng thẳng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "疲労[ひろう]がたまると、事故[じこ]が起[お]きやすい。",
-          "vi": "Mệt mỏi tích lại thì dễ xảy ra tai nạn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "疲労[ひろう]回復[かいふく]には、ぐっすり眠[ねむ]るのが一番[いちばん]だ。",
-          "vi": "Để hồi phục sức thì ngủ say là tốt nhất.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:疲れ:つかれ"
-      ],
-      "note": "Văn viết của 疲[つか]れ. 疲労回復[ひろうかいふく] = hồi phục sức lực; 疲労[ひろう]がたまる = mệt mỏi tích tụ."
-    },
-    {
-      "id": "v:過労:かろう",
-      "kana": "かろう",
-      "kanji": "過労",
-      "hv": "QUÁ LAO",
-      "vi": "làm việc quá sức (đến kiệt sức)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Căng thẳng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "過労[かろう]で倒[たお]れる前[まえ]に、休[やす]みを取[と]ってください。",
-          "vi": "Hãy nghỉ trước khi gục vì làm quá sức.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "過労[かろう]が原因[げんいん]で、体[からだ]を壊[こわ]す人[ひと]もいる。",
-          "vi": "Có người hỏng sức khỏe vì làm việc quá sức.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:疲労:ひろう"
-      ],
-      "note": "過労死[かろうし] = chết vì làm việc quá sức (vấn đề xã hội ở Nhật)."
-    },
-    {
-      "id": "v:ぐったり:ぐったり",
-      "kana": "ぐったり",
-      "kanji": "",
-      "hv": "",
-      "vi": "lả người, mềm oặt (vì mệt, nóng)",
-      "pos": "ono",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Căng thẳng",
-      "reg": "khaungu",
-      "ex": [
-        {
-          "jp": "十二時間[じゅうにじかん]働[はたら]いて、ぐったりした。",
-          "vi": "Làm mười hai tiếng, mệt rã rời.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "暑[あつ]さで、犬[いぬ]がぐったりしている。",
-          "vi": "Vì nóng mà con chó nằm lả người.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:へとへと:へとへと"
-      ],
-      "note": "ぐったりする. へとへと nhấn mệt kiệt sức; ぐったり nhấn dáng người mềm oặt, không còn sức."
-    },
-    {
-      "id": "v:気分転換:きぶんてんかん",
-      "kana": "きぶんてんかん",
-      "kanji": "気分転換",
-      "hv": "KHÍ PHÂN CHUYỂN HOÁN",
-      "vi": "thay đổi không khí (cho đầu óc thoải mái)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Căng thẳng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "気分転換[きぶんてんかん]に、海[うみ]まで散歩[さんぽ]した。",
-          "vi": "Đi dạo ra biển để thay đổi không khí.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "休憩時間[きゅうけいじかん]に外[そと]の空気[くうき]を吸[す]うと、いい気分転換[きぶんてんかん]になる。",
-          "vi": "Giờ nghỉ ra hít khí trời bên ngoài là cách đổi gió tốt.",
-          "ctx": "xuong"
-        }
-      ],
-      "syn": [
-        "v:気晴らし:きばらし"
-      ],
-      "rel": [
-        "v:気分:きぶん"
-      ],
-      "note": "気分転換[きぶんてんかん]に〜 = làm … để đổi gió."
-    },
-    {
-      "id": "v:気晴らし:きばらし",
-      "kana": "きばらし",
-      "kanji": "気晴らし",
-      "kf": "気晴[きば]らし",
-      "hv": "KHÍ TÌNH",
-      "vi": "giải khuây, giải sầu",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Căng thẳng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "気晴[きば]らしに、友達[ともだち]とカラオケに行[い]った。",
-          "vi": "Đi karaoke với bạn cho khuây khỏa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "釣[つ]りは、私[わたし]の一番[いちばん]の気晴[きば]らしだ。",
-          "vi": "Câu cá là thú giải khuây số một của tôi.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:気分転換:きぶんてんかん"
-      ],
-      "note": "Chữ 晴[は]らす = làm tan (mây, nỗi buồn)."
-    },
-    {
-      "id": "v:発散:はっさん",
-      "kana": "はっさん",
-      "kanji": "発散",
-      "hv": "PHÁT TÁN",
-      "vi": "xả, giải tỏa (stress, năng lượng)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Căng thẳng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "週末[しゅうまつ]にサッカーをして、ストレスを発散[はっさん]している。",
-          "vi": "Cuối tuần đá bóng để xả stress.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "子[こ]どもは、外[そと]で遊[あそ]んでエネルギーを発散[はっさん]させたほうがいい。",
-          "vi": "Trẻ con nên chơi ngoài trời cho xả năng lượng.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "ストレスを発散[はっさん]する",
-          "vi": "xả stress"
-        }
-      ],
-      "note": "ストレス発散[はっさん] = giải tỏa căng thẳng. Nghĩa gốc: tỏa ra (mùi, nhiệt)."
-    },
-    {
-      "id": "v:和らぐ:やわらぐ",
-      "kana": "やわらぐ",
-      "kanji": "和らぐ",
-      "kf": "和[やわ]らぐ",
-      "hv": "HÒA",
-      "vi": "dịu đi, bớt (đau, lạnh, căng thẳng)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Căng thẳng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "薬[くすり]を飲[の]んだら、痛[いた]みが和[やわ]らいだ。",
-          "vi": "Uống thuốc xong cơn đau dịu đi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "三月[さんがつ]になって、寒[さむ]さが和[やわ]らいできた。",
-          "vi": "Sang tháng ba, cái lạnh đã dịu bớt.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：初日[しょにち]は緊張[きんちょう]したでしょう。B：はい。でも、先輩[せんぱい]が笑[わら]ってくれて、緊張[きんちょう]が和[やわ]らぎました。",
-          "vi": "A: Ngày đầu chắc căng thẳng lắm nhỉ. B: Vâng, nhưng đàn anh cười với tôi nên đỡ căng thẳng.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "痛[いた]みが和[やわ]らぐ",
-          "vi": "cơn đau dịu đi"
-        },
-        {
-          "jp": "寒[さむ]さが和[やわ]らぐ",
-          "vi": "cái lạnh dịu bớt"
-        }
-      ],
-      "pair": {
-        "w": "和[やわ]らげる",
-        "vi": "làm dịu, xoa dịu"
-      }
-    },
-    {
-      "id": "v:休養:きゅうよう",
-      "kana": "きゅうよう",
-      "kanji": "休養",
-      "hv": "HƯU DƯỠNG",
-      "vi": "nghỉ dưỡng sức (để hồi phục)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Căng thẳng",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "医者[いしゃ]に、一週間[いっしゅうかん]休養[きゅうよう]するように言[い]われた。",
-          "vi": "Bác sĩ bảo tôi nghỉ dưỡng sức một tuần.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "体調[たいちょう]が戻[もど]るまで、しっかり休養[きゅうよう]を取[と]ってください。",
-          "vi": "Hãy nghỉ ngơi thật tốt cho tới khi khỏe lại.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "しっかり休養[きゅうよう]する",
-          "vi": "nghỉ dưỡng đầy đủ"
-        }
-      ],
-      "rel": [
-        "v:休む:やすむ"
-      ],
-      "note": "休養[きゅうよう]を取[と]る = dành thời gian nghỉ dưỡng."
-    },
-    {
-      "id": "v:体調不良:たいちょうふりょう",
-      "kana": "たいちょうふりょう",
-      "kanji": "体調不良",
-      "hv": "THỂ ĐIỀU BẤT LƯƠNG",
-      "vi": "sức khỏe không tốt, khó ở",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sức khỏe",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "体調不良[たいちょうふりょう]のため、今日[きょう]は休[やす]ませていただきます。",
-          "vi": "Vì không được khỏe, hôm nay tôi xin phép nghỉ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "季節[きせつ]の変[か]わり目[め]は、体調不良[たいちょうふりょう]になりやすい。",
-          "vi": "Giao mùa dễ bị khó ở.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:体調:たいちょう"
-      ],
-      "note": "Lý do xin nghỉ rất hay dùng ở công ty Nhật."
-    },
-    {
-      "id": "v:寝不足:ねぶそく",
-      "kana": "ねぶそく",
-      "kanji": "寝不足",
-      "hv": "TẨM BẤT TÚC",
-      "vi": "thiếu ngủ",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sức khỏe",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "寝不足[ねぶそく]で、仕事中[しごとちゅう]に何度[なんど]もあくびが出[で]た。",
-          "vi": "Thiếu ngủ nên trong giờ làm ngáp mãi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "寝不足[ねぶそく]が続[つづ]くと、肌[はだ]が荒[あ]れる。",
-          "vi": "Thiếu ngủ kéo dài thì da sần sùi.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:睡眠不足:すいみんぶそく"
-      ],
-      "note": "Khẩu ngữ. Văn viết: 睡眠不足[すいみんぶそく]."
-    },
-    {
-      "id": "v:睡眠不足:すいみんぶそく",
-      "kana": "すいみんぶそく",
-      "kanji": "睡眠不足",
-      "hv": "THỤY MIÊN BẤT TÚC",
-      "vi": "tình trạng thiếu ngủ (văn viết)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sức khỏe",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "睡眠不足[すいみんぶそく]は、事故[じこ]の大[おお]きな要因[よういん]の一[ひと]つだ。",
-          "vi": "Thiếu ngủ là một trong những yếu tố lớn gây tai nạn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "睡眠不足[すいみんぶそく]が続[つづ]いて、集中[しゅうちゅう]できない。",
-          "vi": "Thiếu ngủ triền miên nên không tập trung được.",
-          "ctx": "doisong"
-        }
-      ],
-      "syn": [
-        "v:寝不足:ねぶそく"
-      ],
-      "rel": [
-        "v:睡眠:すいみん"
-      ]
-    },
-    {
-      "id": "v:寝付く:ねつく",
-      "kana": "ねつく",
-      "kanji": "寝付く",
-      "kf": "寝付[ねつ]く",
-      "hv": "TẨM PHÓ",
-      "vi": "ngủ thiếp đi, chợp mắt được",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sức khỏe",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "夜勤[やきん]の後[あと]は、なかなか寝付[ねつ]けない。",
-          "vi": "Sau ca đêm khó mà ngủ được.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "子[こ]どもが寝付[ねつ]いてから、日本語[にほんご]の勉強[べんきょう]をする。",
-          "vi": "Con ngủ rồi tôi mới học tiếng Nhật.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：最近[さいきん]、よく眠[ねむ]れてる？B：それが、寝付[ねつ]くまでに一時間[いちじかん]もかかるんです。",
-          "vi": "A: Dạo này ngủ ngon không? B: Khổ là phải mất cả tiếng mới ngủ được.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "子[こ]どもが寝付[ねつ]く",
-          "vi": "con ngủ thiếp đi"
-        }
-      ],
-      "rel": [
-        "v:眠る:ねむる"
-      ],
-      "note": "Hay dùng phủ định khả năng: 寝付[ねつ]けない = khó ngủ. 寝付[ねつ]きが悪[わる]い = khó vào giấc."
-    },
-    {
-      "id": "v:胃痛:いつう",
-      "kana": "いつう",
-      "kanji": "胃痛",
-      "hv": "VỊ THỐNG",
-      "vi": "đau dạ dày",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sức khỏe",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ストレスで、胃痛[いつう]がひどい。",
-          "vi": "Vì stress mà đau dạ dày dữ dội.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "胃痛[いつう]が続[つづ]くなら、病院[びょういん]で診[み]てもらったほうがいい。",
-          "vi": "Đau dạ dày kéo dài thì nên đi khám.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:胃:い",
-        "v:頭痛:ずつう"
-      ],
-      "note": "Nói thường: 胃[い]が痛[いた]い."
-    },
-    {
-      "id": "v:食欲不振:しょくよくふしん",
-      "kana": "しょくよくふしん",
-      "kanji": "食欲不振",
-      "hv": "THỰC DỤC BẤT CHẤN",
-      "vi": "chán ăn, ăn không ngon miệng",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sức khỏe",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "夏[なつ]は暑[あつ]さで、食欲[しょくよく]不振[ふしん]になる人[ひと]が多[おお]い。",
-          "vi": "Mùa hè vì nóng nhiều người chán ăn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "医者[いしゃ]に、最近[さいきん]の食欲[しょくよく]不振[ふしん]について相談[そうだん]した。",
-          "vi": "Tôi trao đổi với bác sĩ về chuyện dạo này chán ăn.",
-          "ctx": "thutuc"
-        }
-      ],
-      "rel": [
-        "v:食欲:しょくよく"
-      ],
-      "note": "Văn viết, y tế. Nói thường: 食欲[しょくよく]がない."
-    },
-    {
-      "id": "v:めまい:めまい",
-      "kana": "めまい",
-      "kanji": "",
-      "hv": "",
-      "vi": "chóng mặt",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sức khỏe",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "急[きゅう]に立[た]ち上[あ]がったら、めまいがした。",
-          "vi": "Đứng dậy đột ngột thì bị chóng mặt.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "めまいがしたら、すぐ作業[さぎょう]をやめて座[すわ]ってください。",
-          "vi": "Thấy chóng mặt thì ngừng việc ngay và ngồi xuống.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "めまいがする = bị chóng mặt. Chữ Hán: 目眩[めまい] (ít dùng)."
-    },
-    {
-      "id": "v:吐き気:はきけ",
-      "kana": "はきけ",
-      "kanji": "吐き気",
-      "kf": "吐[は]き気[け]",
-      "hv": "THỔ KHÍ",
-      "vi": "cảm giác buồn nôn",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sức khỏe",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "船[ふね]に酔[よ]って、吐[は]き気[け]がする。",
-          "vi": "Say sóng, thấy buồn nôn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "吐[は]き気[け]がある場合[ばあい]は、食品[しょくひん]を扱[あつか]う作業[さぎょう]をしないでください。",
-          "vi": "Khi buồn nôn thì đừng làm công việc tiếp xúc thực phẩm.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:吐く:はく"
-      ],
-      "note": "吐[は]き気[け]がする = buồn nôn. 気[け] ở đây đọc け."
-    },
-    {
-      "id": "v:寒気:さむけ",
-      "kana": "さむけ",
-      "kanji": "寒気",
-      "hv": "HÀN KHÍ",
-      "vi": "cơn ớn lạnh (khi sắp ốm)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sức khỏe",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "朝[あさ]から寒気[さむけ]がして、熱[ねつ]を測[はか]ったら三十八度[さんじゅうはちど]だった。",
-          "vi": "Từ sáng thấy ớn lạnh, đo thì sốt 38 độ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "寒気[さむけ]がするなら、無理[むり]しないで早[はや]く帰[かえ]りなさい。",
-          "vi": "Ớn lạnh thì đừng cố, về sớm đi.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:風邪:かぜ"
-      ],
-      "note": "寒気[さむけ]がする. Đọc かんき thì là \"khí lạnh\" (thời tiết): 寒気[かんき]が流[なが]れ込[こ]む."
-    },
-    {
-      "id": "v:肩こり:かたこり",
-      "kana": "かたこり",
-      "kanji": "肩こり",
-      "kf": "肩[かた]こり",
-      "hv": "KIÊN",
-      "vi": "mỏi vai, cứng vai",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sức khỏe",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "同[おな]じ姿勢[しせい]で魚[さかな]をさばいていると、肩[かた]こりがひどくなる。",
-          "vi": "Làm cá mãi một tư thế thì mỏi vai nặng hơn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "お風呂[ふろ]で温[あたた]まると、肩[かた]こりが楽[らく]になる。",
-          "vi": "Ngâm bồn cho ấm người thì đỡ mỏi vai.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "肩[かた]が凝[こ]る = mỏi vai. Ở Nhật rất hay nói về 肩[かた]こり."
-    },
-    {
-      "id": "v:だるい:だるい",
-      "kana": "だるい",
-      "kanji": "",
-      "hv": "",
-      "vi": "uể oải, nặng người (không có sức)",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sức khỏe",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "風邪[かぜ]のせいか、体[からだ]がだるい。",
-          "vi": "Có lẽ vì cảm mà người uể oải.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "夜勤[やきん]明[あ]けは、体[からだ]がだるくて何[なに]もしたくない。",
-          "vi": "Sau ca đêm người rã rời, chẳng muốn làm gì.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：顔色[かおいろ]が悪[わる]いよ。B：朝[あさ]から、なんだかだるいんです。",
-          "vi": "A: Sắc mặt kém thế. B: Từ sáng tôi thấy cứ uể oải sao đó.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "体[からだ]",
-          "vi": "cơ thể"
-        },
-        {
-          "jp": "足[あし]",
-          "vi": "chân"
-        }
-      ],
-      "note": "Nói về cơ thể. Khẩu ngữ trẻ còn dùng cho việc phiền: 宿題[しゅくだい]、だるい = bài tập, ngán quá."
-    },
-    {
-      "id": "v:しんどい:しんどい",
-      "kana": "しんどい",
-      "kanji": "",
-      "hv": "",
-      "vi": "mệt nhọc, cực (khẩu ngữ gốc Kansai)",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sức khỏe",
-      "reg": "khaungu",
-      "ex": [
-        {
-          "jp": "毎日[まいにち]残業[ざんぎょう]で、正直[しょうじき]しんどい。",
-          "vi": "Ngày nào cũng tăng ca, nói thật là cực.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "階段[かいだん]を上[あ]がるのが、しんどくなってきた。",
-          "vi": "Leo cầu thang bắt đầu thấy mệt.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：今日[きょう]の仕事[しごと]、しんどかったなあ。B：ほんまやな。はよ帰[かえ]って寝[ね]よ。",
-          "vi": "A: Việc hôm nay cực thật. B: Thật đấy. Về sớm ngủ thôi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "仕事[しごと]",
-          "vi": "công việc"
-        },
-        {
-          "jp": "体[からだ]",
-          "vi": "cơ thể"
-        }
-      ],
-      "note": "Gốc tiếng Kansai, nay dùng khắp nơi. Ở Hyogo rất hay nghe. Tiếng chuẩn lịch sự: つらい, 疲[つか]れる, 大変[たいへん]."
-    },
-    {
-      "id": "v:持病:じびょう",
-      "kana": "じびょう",
-      "kanji": "持病",
-      "hv": "TRÌ BỆNH",
-      "vi": "bệnh mãn tính (mắc từ lâu)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Sức khỏe",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "父[ちち]には、腰痛[ようつう]の持病[じびょう]がある。",
-          "vi": "Bố tôi có bệnh đau lưng lâu năm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "健康診断[けんこうしんだん]の問診票[もんしんひょう]に、持病[じびょう]を書[か]いてください。",
-          "vi": "Hãy ghi bệnh mãn tính vào phiếu hỏi bệnh khi khám sức khỏe.",
-          "ctx": "thutuc"
-        }
-      ],
-      "rel": [
-        "v:病気:びょうき"
-      ],
-      "note": "持病[じびょう]がある = có bệnh mãn tính."
-    },
-    {
-      "id": "v:心配性:しんぱいしょう",
-      "kana": "しんぱいしょう",
-      "kanji": "心配性",
-      "hv": "TÂM PHỐI TÍNH",
-      "vi": "tính hay lo",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "母[はは]は心配性[しんぱいしょう]で、毎日[まいにち]電話[でんわ]をかけてくる。",
-          "vi": "Mẹ tôi tính hay lo, ngày nào cũng gọi điện.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "心配性[しんぱいしょう]なので、ガスの元栓[もとせん]を何度[なんど]も確[たし]かめてしまう。",
-          "vi": "Tính hay lo nên tôi cứ kiểm tra van gas mấy lần.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:心配:しんぱい"
-      ],
-      "note": "〜性[しょう] = tính hay …: 心配性[しんぱいしょう], 冷[ひ]え性[しょう] (người hay lạnh tay chân)."
-    },
-    {
-      "id": "v:几帳面:きちょうめん",
-      "kana": "きちょうめん",
-      "kanji": "几帳面",
-      "hv": "KỶ TRƯỚNG DIỆN",
-      "vi": "chỉn chu, ngăn nắp (tính cách)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]は几帳面[きちょうめん]で、道具[どうぐ]をいつも同[おな]じ場所[ばしょ]に戻[もど]す。",
-          "vi": "Anh ấy chỉn chu, luôn để dụng cụ về đúng chỗ cũ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "几帳面[きちょうめん]な人[ひと]は、家計簿[かけいぼ]も毎日[まいにち]つけている。",
-          "vi": "Người ngăn nắp thì sổ chi tiêu cũng ghi mỗi ngày.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：グエンさんのロッカー、きれいだね。B：几帳面[きちょうめん]ってよく言[い]われます。",
-          "vi": "A: Tủ đồ của anh Nguyễn gọn gàng ghê. B: Tôi hay bị bảo là chỉn chu lắm.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "人[ひと]",
-          "vi": "người"
-        },
-        {
-          "jp": "性格[せいかく]",
-          "vi": "tính cách"
-        }
-      ],
-      "ant": [
-        "v:大雑把:おおざっぱ"
-      ]
-    },
-    {
-      "id": "v:いい加減:いいかげん",
-      "kana": "いいかげん",
-      "kanji": "いい加減",
-      "kf": "いい加減[かげん]",
-      "hv": "GIA GIẢM",
-      "vi": "làm ẩu, hời hợt (thiếu trách nhiệm)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "いい加減[かげん]な仕事[しごと]をすると、お客様[きゃくさま]に迷惑[めいわく]がかかる。",
-          "vi": "Làm việc cẩu thả sẽ gây phiền cho khách hàng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "あの人[ひと]の話[はなし]は、いつもいい加減[かげん]だ。",
-          "vi": "Lời người đó lúc nào cũng hời hợt.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：もう、いい加減[かげん]にして！B：ごめん、もう言[い]わない。",
-          "vi": "A: Thôi, đủ rồi đấy! B: Xin lỗi, không nói nữa.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "返事[へんじ]",
-          "vi": "câu trả lời"
-        },
-        {
-          "jp": "仕事[しごと]",
-          "vi": "công việc"
-        }
-      ],
-      "confuse": [
-        "v:適当:てきとう"
-      ],
-      "note": "いい加減[かげん]にして = thôi đủ rồi (khi bực). いい加減[かげん] (phó từ) = khá là, lâu quá rồi: いい加減[かげん]疲[つか]れた."
-    },
-    {
-      "id": "v:大雑把:おおざっぱ",
-      "kana": "おおざっぱ",
-      "kanji": "大雑把",
-      "hv": "ĐẠI TẠP BẢ",
-      "vi": "xuề xòa, sơ sài (không để ý chi tiết)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "私[わたし]は大雑把[おおざっぱ]な性格[せいかく]なので、細[こま]かい作業[さぎょう]は苦手[にがて]だ。",
-          "vi": "Tôi tính xuề xòa nên ngại việc tỉ mỉ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "大雑把[おおざっぱ]に計算[けいさん]すると、一日[いちにち]に五百匹[ごひゃくひき]さばいている。",
-          "vi": "Tính đại khái thì một ngày làm khoảng năm trăm con cá.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：材料[ざいりょう]の量[りょう]、測[はか]らないの？B：うちの料理[りょうり]は大雑把[おおざっぱ]でいいんだよ。",
-          "vi": "A: Không cân nguyên liệu à? B: Món nhà tôi làm đại khái cũng được.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "性格[せいかく]",
-          "vi": "tính cách"
-        },
-        {
-          "jp": "計算[けいさん]",
-          "vi": "phép tính"
-        }
-      ],
-      "ant": [
-        "v:几帳面:きちょうめん"
-      ]
-    },
-    {
-      "id": "v:せっかち:せっかち",
-      "kana": "せっかち",
-      "kanji": "",
-      "hv": "",
-      "vi": "tính nóng vội, sốt sắng",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "父[ちち]はせっかちで、いつも約束[やくそく]の三十分[さんじゅっぷん]前[まえ]に着[つ]く。",
-          "vi": "Bố tôi tính nóng vội, lúc nào cũng tới trước giờ hẹn ba mươi phút.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "せっかちな人[ひと]ほど、手順[てじゅん]を飛[と]ばしてミスをしやすい。",
-          "vi": "Người càng nóng vội càng dễ bỏ bước rồi làm sai.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：まだ？早[はや]く行[い]こうよ。B：せっかちだなあ。あと五分[ごふん]待[ま]って。",
-          "vi": "A: Chưa xong à? Đi nhanh đi. B: Nóng vội thế. Đợi năm phút nữa.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "人[ひと]",
-          "vi": "người"
-        },
-        {
-          "jp": "性格[せいかく]",
-          "vi": "tính cách"
-        }
-      ],
-      "ant": [
-        "v:のんびり:のんびり"
-      ],
-      "rel": [
-        "v:焦る:あせる"
-      ]
-    },
-    {
-      "id": "v:頑固:がんこ",
-      "kana": "がんこ",
-      "kanji": "頑固",
-      "hv": "NGOAN CỐ",
-      "vi": "ngoan cố, cứng đầu, bướng bỉnh",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "祖父[そふ]は頑固[がんこ]で、人[ひと]の意見[いけん]を聞[き]かない。",
-          "vi": "Ông tôi cứng đầu, không nghe ý người khác.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "頑固[がんこ]な汚[よご]れは、洗剤[せんざい]につけてから洗[あら]ってください。",
-          "vi": "Vết bẩn cứng đầu thì ngâm nước tẩy rồi mới rửa.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：一度[いちど]決[き]めたら、絶対[ぜったい]に変[か]えないね。B：頑固[がんこ]なんじゃなくて、信念[しんねん]があるんです。",
-          "vi": "A: Đã quyết là nhất định không đổi nhỉ. B: Không phải cứng đầu, mà là có niềm tin.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "人[ひと]",
-          "vi": "người"
-        },
-        {
-          "jp": "汚[よご]れ",
-          "vi": "vết bẩn"
-        }
-      ],
-      "ant": [
-        "v:素直:すなお"
-      ],
-      "note": "頑固[がんこ]な汚[よご]れ = vết bẩn cứng đầu (quảng cáo nước tẩy). 頑固一徹[がんこいってつ] = cứng đầu đến cùng."
-    },
-    {
-      "id": "v:短気:たんき",
-      "kana": "たんき",
-      "kanji": "短気",
-      "hv": "ĐOẢN KHÍ",
-      "vi": "nóng tính",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]は短気[たんき]で、すぐに怒[おこ]る。",
-          "vi": "Anh ấy nóng tính, dễ nổi giận.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "短気[たんき]を起[お]こすと、けがのもとになる。",
-          "vi": "Nổi nóng là mầm mống của tai nạn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：また大[おお]きい声[こえ]を出[だ]しちゃった。B：短気[たんき]は損気[そんき]だよ。",
-          "vi": "A: Tôi lại lỡ to tiếng rồi. B: Nóng tính thì thiệt thân đấy.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "人[ひと]",
-          "vi": "người"
-        },
-        {
-          "jp": "性格[せいかく]",
-          "vi": "tính cách"
-        }
-      ],
-      "rel": [
-        "v:怒る:おこる"
-      ],
-      "note": "短気[たんき]は損気[そんき] = nóng tính thì thiệt (tục ngữ). 気[き]が短[みじか]い = nóng tính."
-    },
-    {
-      "id": "v:内気:うちき",
-      "kana": "うちき",
-      "kanji": "内気",
-      "hv": "NỘI KHÍ",
-      "vi": "nhút nhát, hướng nội",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "内気[うちき]な性格[せいかく]を直[なお]したい。",
-          "vi": "Tôi muốn sửa tính nhút nhát.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "内気[うちき]な新人[しんじん]も、だんだん自分[じぶん]から話[はな]すようになった。",
-          "vi": "Người mới nhút nhát cũng dần tự bắt chuyện.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：彼女[かのじょ]、あまり話[はな]さないね。B：内気[うちき]なだけで、仕事[しごと]はとても丁寧[ていねい]だよ。",
-          "vi": "A: Cô ấy ít nói nhỉ. B: Chỉ nhút nhát thôi, làm việc rất cẩn thận đấy.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "性格[せいかく]",
-          "vi": "tính cách"
-        },
-        {
-          "jp": "子[こ]ども",
-          "vi": "đứa trẻ"
-        }
-      ],
-      "ant": [
-        "v:陽気:ようき"
-      ],
-      "rel": [
-        "v:人見知り:ひとみしり"
-      ]
-    },
-    {
-      "id": "v:陽気:ようき",
-      "kana": "ようき",
-      "kanji": "陽気",
-      "hv": "DƯƠNG KHÍ",
-      "vi": "vui tính, hồ hởi; (trời) ấm áp dễ chịu",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼[かれ]は陽気[ようき]で、いつも周[まわ]りを笑[わら]わせている。",
-          "vi": "Anh ấy vui tính, lúc nào cũng làm mọi người cười.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "春[はる]らしい陽気[ようき]になってきた。",
-          "vi": "Trời đã ấm áp đúng kiểu mùa xuân.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：新[あたら]しい班[はん]長[ちょう]、どんな人[ひと]？B：明[あか]るくて陽気[ようき]な人[ひと]だよ。",
-          "vi": "A: Tổ trưởng mới là người thế nào? B: Người tươi tắn vui tính.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "人[ひと]",
-          "vi": "người"
-        },
-        {
-          "jp": "性格[せいかく]",
-          "vi": "tính cách"
-        }
-      ],
-      "ant": [
-        "v:内気:うちき"
-      ],
-      "rel": [
-        "v:明るい:あかるい"
-      ],
-      "note": "Danh từ 陽気[ようき] còn là tiết trời: いい陽気[ようき]ですね = trời đẹp nhỉ."
-    },
-    {
-      "id": "v:神経質:しんけいしつ",
-      "kana": "しんけいしつ",
-      "kanji": "神経質",
-      "hv": "THẦN KINH CHẤT",
-      "vi": "hay để ý quá mức, dễ căng thẳng",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "彼女[かのじょ]は神経質[しんけいしつ]で、少[すこ]しの音[おと]でも目[め]が覚[さ]める。",
-          "vi": "Cô ấy nhạy cảm, tiếng động nhỏ cũng tỉnh giấc.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "食品[しょくひん]の衛生[えいせい]には、神経質[しんけいしつ]なくらい気[き]をつけたほうがいい。",
-          "vi": "Vệ sinh thực phẩm thì nên cẩn thận đến mức kỹ tính.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：何度[なんど]も鍵[かぎ]を確認[かくにん]するね。B：神経質[しんけいしつ]だって、よく言[い]われるんです。",
-          "vi": "A: Cậu kiểm tra chìa khóa mãi nhỉ. B: Tôi hay bị bảo là quá kỹ tính.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "人[ひと]",
-          "vi": "người"
-        },
-        {
-          "jp": "性格[せいかく]",
-          "vi": "tính cách"
-        }
-      ],
-      "ant": [
-        "v:大雑把:おおざっぱ"
-      ],
-      "note": "Có thể khen (cẩn thận) hoặc chê (khó chịu, hay lo). 神経[しんけい] = thần kinh."
-    },
-    {
-      "id": "v:悲観的:ひかんてき",
-      "kana": "ひかんてき",
-      "kanji": "悲観的",
-      "hv": "BI QUAN ĐÍCH",
-      "vi": "bi quan",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一度[いちど]の失敗[しっぱい]で、悲観的[ひかんてき]になる必要[ひつよう]はない。",
-          "vi": "Không cần bi quan vì một lần thất bại.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "売[う]り上[あ]げについて、課長[かちょう]は悲観的[ひかんてき]な見方[みかた]をしている。",
-          "vi": "Về doanh thu, trưởng phòng có cái nhìn bi quan.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：どうせ試験[しけん]に落[お]ちるよ。B：そんなに悲観的[ひかんてき]にならないで。",
-          "vi": "A: Đằng nào cũng trượt thôi. B: Đừng bi quan thế.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "考[かんが]え",
-          "vi": "suy nghĩ"
-        },
-        {
-          "jp": "見方[みかた]",
-          "vi": "cách nhìn"
-        }
-      ],
-      "ant": [
-        {
-          "w": "楽観的[らっかんてき]",
-          "vi": "lạc quan"
-        }
-      ],
-      "rel": [
-        "v:後ろ向き:うしろむき"
-      ]
-    },
-    {
-      "id": "v:前向き:まえむき",
-      "kana": "まえむき",
-      "kanji": "前向き",
-      "kf": "前向[まえむ]き",
-      "hv": "TIỀN HƯỚNG",
-      "vi": "suy nghĩ tích cực, hướng về phía trước",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "失敗[しっぱい]しても、前向[まえむ]きに考[かんが]えるようにしている。",
-          "vi": "Dù thất bại tôi cũng cố nghĩ theo hướng tích cực.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新[あたら]しい仕事[しごと]に前向[まえむ]きに取[と]り組[く]んでいる。",
-          "vi": "Đang hăng hái bắt tay vào công việc mới.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：班[はん]長[ちょう]の話[はなし]、どうするの？B：前向[まえむ]きに考[かんが]えています。",
-          "vi": "A: Chuyện làm tổ trưởng anh tính sao? B: Tôi đang cân nhắc theo hướng nhận.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "考[かんが]え方[かた]",
-          "vi": "cách nghĩ"
-        },
-        {
-          "jp": "姿勢[しせい]",
-          "vi": "thái độ"
-        }
-      ],
-      "ant": [
-        "v:後ろ向き:うしろむき"
-      ],
-      "rel": [
-        "v:積極的:せっきょくてき"
-      ],
-      "note": "前向[まえむ]きに検討[けんとう]する = xem xét theo hướng chấp nhận (lời trả lời lịch sự; đôi khi chỉ là từ chối khéo)."
-    },
-    {
-      "id": "v:人見知り:ひとみしり",
-      "kana": "ひとみしり",
-      "kanji": "人見知り",
-      "kf": "人見知[ひとみし]り",
-      "hv": "NHÂN KIẾN TRI",
-      "vi": "ngại người lạ",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "私[わたし]は人見知[ひとみし]りなので、初[はじ]めての人[ひと]と話[はな]すのが苦手[にがて]だ。",
-          "vi": "Tôi ngại người lạ nên không giỏi nói chuyện với người mới gặp.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "うちの子[こ]は人見知[ひとみし]りして、お客[きゃく]さんが来[く]ると隠[かく]れる。",
-          "vi": "Con tôi ngại người lạ, khách tới là trốn.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "子[こ]どもが人見知[ひとみし]りする",
-          "vi": "trẻ ngại người lạ"
-        }
-      ],
-      "rel": [
-        "v:内気:うちき"
-      ]
-    },
-    {
-      "id": "v:気難しい:きむずかしい",
-      "kana": "きむずかしい",
-      "kanji": "気難しい",
-      "kf": "気難[きむずか]しい",
-      "hv": "KHÍ NAN",
-      "vi": "khó tính, khó chiều",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Tính cách",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "工場長[こうじょうちょう]は気難[きむずか]しいが、仕事[しごと]は公平[こうへい]だ。",
-          "vi": "Giám đốc xưởng khó tính nhưng công bằng trong công việc.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "大家[おおや]さんは少[すこ]し気難[きむずか]しい人[ひと]だ。",
-          "vi": "Chủ nhà hơi khó tính.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：あのお客[きゃく]さん、気難[きむずか]しいことで有名[ゆうめい]なんだ。B：じゃあ、いつも以上[いじょう]に丁寧[ていねい]に対応[たいおう]します。",
-          "vi": "A: Vị khách đó nổi tiếng khó tính. B: Vậy tôi sẽ tiếp đón chu đáo hơn mọi khi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "人[ひと]",
-          "vi": "người"
-        },
-        {
-          "jp": "客[きゃく]",
-          "vi": "khách"
-        }
-      ],
-      "note": "Nói về tính cách khó làm vừa lòng."
+     "jp": "悲[かな]しみのあまり、何[なに]も食[た]べられなかった。",
+     "vi": "Buồn quá đến mức không ăn được gì.",
+     "ctx": "doisong"
     }
-  ]
+   ],
+   "ant": [
+    "v:喜び:よろこび"
+   ],
+   "rel": [
+    "v:悲しい:かなしい",
+    "v:悲しむ:かなしむ"
+   ],
+   "note": "悲[かな]しみに暮[く]れる = chìm trong đau buồn."
+  },
+  {
+   "id": "v:感激:かんげき",
+   "kana": "かんげき",
+   "kanji": "感激",
+   "hv": "CẢM KÍCH",
+   "vi": "cảm kích, xúc động mạnh (vì biết ơn, vui sướng)",
+   "pos": "n-suru",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]に直接[ちょくせつ]褒[ほ]められて、感激[かんげき]した。",
+     "vi": "Được giám đốc khen trực tiếp, tôi xúc động vô cùng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "母[はは]から手紙[てがみ]が届[とど]いて、感激[かんげき]のあまり泣[な]いてしまった。",
+     "vi": "Nhận thư mẹ gửi, xúc động quá mà bật khóc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：誕生日[たんじょうび]に、班[はん]のみんながケーキをくれたんだ。B：へえ、感激[かんげき]したでしょう。",
+     "vi": "A: Sinh nhật, cả tổ tặng tôi bánh kem. B: Ồ, chắc cảm động lắm nhỉ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "親切[しんせつ]に感激[かんげき]する",
+     "vi": "cảm kích trước lòng tốt"
+    }
+   ],
+   "confuse": [
+    "v:感動:かんどう"
+   ],
+   "note": "感動[かんどう] = cảm động (trước phim, cảnh đẹp…); 感激[かんげき] = xúc động mạnh, thường vì việc người khác làm cho mình."
+  },
+  {
+   "id": "v:憂うつ:ゆううつ",
+   "kana": "ゆううつ",
+   "kanji": "憂うつ",
+   "kf": "憂[ゆう]うつ",
+   "hv": "ƯU",
+   "vi": "u uất, nặng nề trong lòng (không muốn làm gì)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]の月曜日[げつようび]は、なんだか憂[ゆう]うつだ。",
+     "vi": "Thứ hai trời mưa sao thấy nặng nề trong lòng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "明日[あした]の面談[めんだん]のことを考[かんが]えると、憂[ゆう]うつになる。",
+     "vi": "Nghĩ tới buổi trao đổi ngày mai là thấy nặng lòng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：税金[ぜいきん]の書類[しょるい]、まだ書[か]いてないんだ。B：あれは憂[ゆう]うつだよね。一緒[いっしょ]にやろうか。",
+     "vi": "A: Giấy tờ thuế tôi vẫn chưa viết. B: Cái đó ngán thật nhỉ. Làm cùng nhé?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "気分[きぶん]",
+     "vi": "tâm trạng"
+    },
+    {
+     "jp": "月曜日[げつようび]",
+     "vi": "thứ hai"
+    },
+    {
+     "jp": "天気[てんき]",
+     "vi": "thời tiết"
+    }
+   ],
+   "note": "Chữ Hán đầy đủ: 憂鬱[ゆううつ] (khó viết, hay viết 憂[ゆう]うつ)."
+  },
+  {
+   "id": "v:落ち込む:おちこむ",
+   "kana": "おちこむ",
+   "kanji": "落ち込む",
+   "kf": "落[お]ち込[こ]む",
+   "hv": "LẠC NHẬP",
+   "vi": "suy sụp, chán nản (tinh thần); tụt xuống (doanh số)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "試験[しけん]に落[お]ちて、すっかり落[お]ち込[こ]んでしまった。",
+     "vi": "Thi trượt, tôi suy sụp hẳn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "班長[はんちょう]に注意[ちゅうい]されて落[お]ち込[こ]んでいる新人[しんじん]を、励[はげ]ました。",
+     "vi": "Tôi động viên người mới đang buồn vì bị tổ trưởng nhắc nhở.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：元気[げんき]ないね。何[なに]かあった？B：ミスしちゃって、ちょっと落[お]ち込[こ]んでるんだ。",
+     "vi": "A: Trông cậu không vui. Có chuyện gì à? B: Tôi lỡ làm sai, đang hơi buồn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "気分[きぶん]が落[お]ち込[こ]む",
+     "vi": "tâm trạng sa sút"
+    },
+    {
+     "jp": "売[う]り上[あ]げが落[お]ち込[こ]む",
+     "vi": "doanh thu sụt giảm"
+    }
+   ],
+   "ant": [
+    "v:張り切る:はりきる"
+   ],
+   "flag": true,
+   "note": "Âm Hán Việt của chữ 込[こ] (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:張り切る:はりきる",
+   "kana": "はりきる",
+   "kanji": "張り切る",
+   "kf": "張[は]り切[き]る",
+   "hv": "TRƯƠNG THIẾT",
+   "vi": "hăng say, phấn chấn (muốn làm thật tốt)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "初[はじ]めての夜勤[やきん]なので、張[は]り切[き]っている。",
+     "vi": "Ca đêm đầu tiên nên tôi rất hăng hái.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子[こ]どもは、運動会[うんどうかい]に向[む]けて張[は]り切[き]って練習[れんしゅう]している。",
+     "vi": "Con tôi hăng say luyện tập cho hội thao.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今日[きょう]、すごく張[は]り切[き]ってるね。B：はい、初[はじ]めてリーダーを任[まか]されたので。",
+     "vi": "A: Hôm nay cậu hăng hái ghê. B: Vâng, vì lần đầu được giao làm trưởng nhóm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "朝[あさ]から張[は]り切[き]る",
+     "vi": "hăng hái từ sáng"
+    }
+   ],
+   "ant": [
+    "v:落ち込む:おちこむ"
+   ],
+   "note": "張[は]り切[き]りすぎる = hăng quá đà (dễ mệt, dễ sai)."
+  },
+  {
+   "id": "v:照れる:てれる",
+   "kana": "てれる",
+   "kanji": "照れる",
+   "kf": "照[て]れる",
+   "hv": "CHIẾU",
+   "vi": "ngượng, thẹn (khi được khen, bị chú ý)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "みんなの前[まえ]で褒[ほ]められて、照[て]れてしまった。",
+     "vi": "Được khen trước mặt mọi người, tôi ngượng đỏ mặt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "父[ちち]は、照[て]れながら「ありがとう」と言[い]った。",
+     "vi": "Bố vừa ngượng vừa nói \"cảm ơn\".",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：日本語[にほんご]のスピーチ、最高[さいこう]だったよ。B：そんなに言[い]われると、照[て]れますね。",
+     "vi": "A: Bài phát biểu tiếng Nhật tuyệt lắm. B: Anh nói thế làm tôi ngượng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "褒[ほ]められて照[て]れる",
+     "vi": "ngượng vì được khen"
+    }
+   ],
+   "confuse": [
+    "v:恥ずかしい:はずかしい"
+   ],
+   "note": "照[て]れくさい = ngượng ngùng. 恥[は]ずかしい = xấu hổ (cả khi làm sai); 照[て]れる = ngượng vì được để ý, được khen."
+  },
+  {
+   "id": "v:うんざり:うんざり",
+   "kana": "うんざり",
+   "kanji": "",
+   "hv": "",
+   "vi": "chán ngấy, ngán tận cổ (vì lặp lại mãi)",
+   "pos": "ono",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "毎日[まいにち]同[おな]じ弁当[べんとう]で、もううんざりだ。",
+     "vi": "Ngày nào cũng một món cơm hộp, ngán tận cổ rồi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "同[おな]じ注意[ちゅうい]を何度[なんど]もされて、うんざりした。",
+     "vi": "Bị nhắc mãi một chuyện, tôi chán ngấy.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:飽きる:あきる"
+   ],
+   "note": "うんざりする / うんざりだ. Mạnh hơn 飽[あ]きる, có cả cảm giác bực."
+  },
+  {
+   "id": "v:くよくよ:くよくよ",
+   "kana": "くよくよ",
+   "kanji": "",
+   "hv": "",
+   "vi": "buồn rầu day dứt (mãi về chuyện đã qua)",
+   "pos": "ono",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "終[お]わったことを、いつまでもくよくよするな。",
+     "vi": "Chuyện qua rồi thì đừng day dứt mãi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "小[ちい]さいミスでくよくよしないで、次[つぎ]に生[い]かそう。",
+     "vi": "Đừng ủ rũ vì lỗi nhỏ, hãy rút kinh nghiệm cho lần sau.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "くよくよする. Hay dùng dạng khuyên: くよくよしないで."
+  },
+  {
+   "id": "v:没頭:ぼっとう",
+   "kana": "ぼっとう",
+   "kanji": "没頭",
+   "hv": "MỘT ĐẦU",
+   "vi": "vùi đầu vào, đắm chìm (vào việc gì)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仕事[しごと]に没頭[ぼっとう]して、昼[ひる]ご飯[はん]を食[た]べるのを忘[わす]れた。",
+     "vi": "Vùi đầu vào việc, quên cả ăn trưa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "弟[おとうと]はゲームに没頭[ぼっとう]して、呼[よ]んでも返事[へんじ]をしない。",
+     "vi": "Em trai mải mê chơi game, gọi cũng không thưa.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "仕事[しごと]に没頭[ぼっとう]する",
+     "vi": "vùi đầu vào công việc"
+    },
+    {
+     "jp": "研究[けんきゅう]に没頭[ぼっとう]する",
+     "vi": "đắm chìm trong nghiên cứu"
+    }
+   ],
+   "rel": [
+    "v:夢中:むちゅう",
+    "v:熱中:ねっちゅう"
+   ],
+   "note": "Mạnh hơn 夢中[むちゅう], 熱中[ねっちゅう]: quên hết mọi thứ xung quanh."
+  },
+  {
+   "id": "v:つい:つい",
+   "kana": "つい",
+   "kanji": "",
+   "hv": "",
+   "vi": "lỡ, buột (theo thói quen, không kìm được)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "疲[つか]れていると、つい甘[あま]い物[もの]を食[た]べてしまう。",
+     "vi": "Mệt là tôi lại lỡ ăn đồ ngọt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "急[いそ]いでいて、つい確認[かくにん]を飛[と]ばしてしまった。",
+     "vi": "Vội quá nên lỡ bỏ qua bước kiểm tra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：また夜中[よなか]までスマホ見[み]てたの？B：うん、つい。",
+     "vi": "A: Lại xem điện thoại tới nửa đêm à? B: Ừ, lỡ mất.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    "v:うっかり:うっかり",
+    "v:思わず:おもわず"
+   ],
+   "note": "Hay đi với 〜てしまう. うっかり = sơ ý quên; つい = biết là không nên nhưng vẫn làm theo thói quen. つい先日[せんじつ] = mới hôm trước."
+  },
+  {
+   "id": "v:気のせい:きのせい",
+   "kana": "きのせい",
+   "kanji": "気のせい",
+   "kf": "気[き]のせい",
+   "hv": "KHÍ",
+   "vi": "chỉ là do mình tưởng (thật ra không có gì)",
+   "pos": "expr",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Cảm xúc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]の音[おと]が変[へん]だと思[おも]ったが、気[き]のせいだった。",
+     "vi": "Tưởng máy kêu lạ, hóa ra chỉ là do mình tưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：最近[さいきん]、太[ふと]った気[き]がする。B：気[き]のせいだよ。",
+     "vi": "A: Dạo này hình như tôi béo lên. B: Cậu tưởng tượng thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "気[き]のせいか = không biết có phải do mình tưởng không (気[き]のせいか、顔色[かおいろ]が悪[わる]い)."
+  },
+  {
+   "id": "v:プレッシャー:プレッシャー",
+   "kana": "プレッシャー",
+   "kanji": "",
+   "hv": "",
+   "vi": "sức ép, áp lực (phải làm tốt)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Căng thẳng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班長[はんちょう]になって、プレッシャーを感[かん]じている。",
+     "vi": "Lên tổ trưởng, tôi thấy áp lực.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "家族[かぞく]の期待[きたい]が、大[おお]きなプレッシャーになった。",
+     "vi": "Kỳ vọng của gia đình thành áp lực lớn.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:ストレス:ストレス"
+   ],
+   "goc": "pressure (tiếng Anh)",
+   "note": "プレッシャーをかける = gây sức ép; プレッシャーに弱[よわ]い = dễ run khi bị áp lực."
+  },
+  {
+   "id": "v:精神的:せいしんてき",
+   "kana": "せいしんてき",
+   "kanji": "精神的",
+   "hv": "TINH THẦN ĐÍCH",
+   "vi": "về mặt tinh thần",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Căng thẳng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜勤[やきん]が続[つづ]いて、精神的[せいしんてき]にも疲[つか]れている。",
+     "vi": "Làm ca đêm liên tục, tôi mệt cả về tinh thần.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "家族[かぞく]の言葉[ことば]が、精神的[せいしんてき]な支[ささ]えになった。",
+     "vi": "Lời nói của gia đình là chỗ dựa tinh thần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：一人[ひとり]で暮[く]らすのは寂[さび]しくない？B：最初[さいしょ]は精神的[せいしんてき]につらかったけど、もう慣[な]れたよ。",
+     "vi": "A: Sống một mình không buồn sao? B: Lúc đầu tinh thần khổ lắm, nhưng giờ quen rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "負担[ふたん]",
+     "vi": "gánh nặng"
+    },
+    {
+     "jp": "ショック",
+     "vi": "cú sốc"
+    }
+   ],
+   "ant": [
+    {
+     "w": "肉体的[にくたいてき]",
+     "vi": "về mặt thể chất"
+    }
+   ],
+   "rel": [
+    "v:精神:せいしん"
+   ]
+  },
+  {
+   "id": "v:心身:しんしん",
+   "kana": "しんしん",
+   "kanji": "心身",
+   "hv": "TÂM THÂN",
+   "vi": "thể xác và tinh thần",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Căng thẳng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "心身[しんしん]ともに健康[けんこう]でいることが、何[なに]より大切[たいせつ]だ。",
+     "vi": "Khỏe cả thể xác lẫn tinh thần là quan trọng hơn hết.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "長時間[ちょうじかん]の残業[ざんぎょう]は、心身[しんしん]に悪[わる]い影響[えいきょう]を与[あた]える。",
+     "vi": "Tăng ca kéo dài ảnh hưởng xấu tới cả thân lẫn tâm.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "心身[しんしん]ともに = cả thân lẫn tâm. Văn viết."
+  },
+  {
+   "id": "v:負担:ふたん",
+   "kana": "ふたん",
+   "kanji": "負担",
+   "hv": "PHỤ ĐẢM",
+   "vi": "gánh nặng; chịu (chi phí)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Căng thẳng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "重[おも]い箱[はこ]を一人[ひとり]で運[はこ]ぶのは、腰[こし]に負担[ふたん]がかかる。",
+     "vi": "Một mình khiêng thùng nặng gây gánh nặng cho lưng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "交通費[こうつうひ]は、会社[かいしゃ]が負担[ふたん]してくれる。",
+     "vi": "Tiền đi lại công ty chịu cho.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：仕事[しごと]、増[ふ]えてない？負担[ふたん]になってない？B：大丈夫[だいじょうぶ]です。でも、ありがとうございます。",
+     "vi": "A: Việc có nhiều thêm không? Có thành gánh nặng không? B: Không sao ạ. Nhưng cảm ơn anh.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "費用[ひよう]を負担[ふたん]する",
+     "vi": "chịu chi phí"
+    }
+   ],
+   "note": "負担[ふたん]がかかる = bị gánh nặng; 負担[ふたん]を減[へ]らす = giảm gánh nặng. 自己負担[じこふたん] = tự chi trả (bảo hiểm y tế)."
+  },
+  {
+   "id": "v:疲労:ひろう",
+   "kana": "ひろう",
+   "kanji": "疲労",
+   "hv": "BÌ LAO",
+   "vi": "sự mệt mỏi (văn viết, y tế)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Căng thẳng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "疲労[ひろう]がたまると、事故[じこ]が起[お]きやすい。",
+     "vi": "Mệt mỏi tích lại thì dễ xảy ra tai nạn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "疲労[ひろう]回復[かいふく]には、ぐっすり眠[ねむ]るのが一番[いちばん]だ。",
+     "vi": "Để hồi phục sức thì ngủ say là tốt nhất.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:疲れ:つかれ"
+   ],
+   "note": "Văn viết của 疲[つか]れ. 疲労回復[ひろうかいふく] = hồi phục sức lực; 疲労[ひろう]がたまる = mệt mỏi tích tụ."
+  },
+  {
+   "id": "v:過労:かろう",
+   "kana": "かろう",
+   "kanji": "過労",
+   "hv": "QUÁ LAO",
+   "vi": "làm việc quá sức (đến kiệt sức)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Căng thẳng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "過労[かろう]で倒[たお]れる前[まえ]に、休[やす]みを取[と]ってください。",
+     "vi": "Hãy nghỉ trước khi gục vì làm quá sức.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "過労[かろう]が原因[げんいん]で、体[からだ]を壊[こわ]す人[ひと]もいる。",
+     "vi": "Có người hỏng sức khỏe vì làm việc quá sức.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:疲労:ひろう"
+   ],
+   "note": "過労死[かろうし] = chết vì làm việc quá sức (vấn đề xã hội ở Nhật)."
+  },
+  {
+   "id": "v:ぐったり:ぐったり",
+   "kana": "ぐったり",
+   "kanji": "",
+   "hv": "",
+   "vi": "lả người, mềm oặt (vì mệt, nóng)",
+   "pos": "ono",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Căng thẳng",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "十二時間[じゅうにじかん]働[はたら]いて、ぐったりした。",
+     "vi": "Làm mười hai tiếng, mệt rã rời.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "暑[あつ]さで、犬[いぬ]がぐったりしている。",
+     "vi": "Vì nóng mà con chó nằm lả người.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:へとへと:へとへと"
+   ],
+   "note": "ぐったりする. へとへと nhấn mệt kiệt sức; ぐったり nhấn dáng người mềm oặt, không còn sức."
+  },
+  {
+   "id": "v:気分転換:きぶんてんかん",
+   "kana": "きぶんてんかん",
+   "kanji": "気分転換",
+   "hv": "KHÍ PHÂN CHUYỂN HOÁN",
+   "vi": "thay đổi không khí (cho đầu óc thoải mái)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Căng thẳng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "気分転換[きぶんてんかん]に、海[うみ]まで散歩[さんぽ]した。",
+     "vi": "Đi dạo ra biển để thay đổi không khí.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "休憩時間[きゅうけいじかん]に外[そと]の空気[くうき]を吸[す]うと、いい気分転換[きぶんてんかん]になる。",
+     "vi": "Giờ nghỉ ra hít khí trời bên ngoài là cách đổi gió tốt.",
+     "ctx": "xuong"
+    }
+   ],
+   "syn": [
+    "v:気晴らし:きばらし"
+   ],
+   "rel": [
+    "v:気分:きぶん"
+   ],
+   "note": "気分転換[きぶんてんかん]に〜 = làm … để đổi gió."
+  },
+  {
+   "id": "v:気晴らし:きばらし",
+   "kana": "きばらし",
+   "kanji": "気晴らし",
+   "kf": "気晴[きば]らし",
+   "hv": "KHÍ TÌNH",
+   "vi": "giải khuây, giải sầu",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Căng thẳng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "気晴[きば]らしに、友達[ともだち]とカラオケに行[い]った。",
+     "vi": "Đi karaoke với bạn cho khuây khỏa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "釣[つ]りは、私[わたし]の一番[いちばん]の気晴[きば]らしだ。",
+     "vi": "Câu cá là thú giải khuây số một của tôi.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:気分転換:きぶんてんかん"
+   ],
+   "note": "Chữ 晴[は]らす = làm tan (mây, nỗi buồn)."
+  },
+  {
+   "id": "v:発散:はっさん",
+   "kana": "はっさん",
+   "kanji": "発散",
+   "hv": "PHÁT TÁN",
+   "vi": "xả, giải tỏa (stress, năng lượng)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Căng thẳng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "週末[しゅうまつ]にサッカーをして、ストレスを発散[はっさん]している。",
+     "vi": "Cuối tuần đá bóng để xả stress.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "子[こ]どもは、外[そと]で遊[あそ]んでエネルギーを発散[はっさん]させたほうがいい。",
+     "vi": "Trẻ con nên chơi ngoài trời cho xả năng lượng.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ストレスを発散[はっさん]する",
+     "vi": "xả stress"
+    }
+   ],
+   "note": "ストレス発散[はっさん] = giải tỏa căng thẳng. Nghĩa gốc: tỏa ra (mùi, nhiệt)."
+  },
+  {
+   "id": "v:和らぐ:やわらぐ",
+   "kana": "やわらぐ",
+   "kanji": "和らぐ",
+   "kf": "和[やわ]らぐ",
+   "hv": "HÒA",
+   "vi": "dịu đi, bớt (đau, lạnh, căng thẳng)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Căng thẳng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "薬[くすり]を飲[の]んだら、痛[いた]みが和[やわ]らいだ。",
+     "vi": "Uống thuốc xong cơn đau dịu đi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "三月[さんがつ]になって、寒[さむ]さが和[やわ]らいできた。",
+     "vi": "Sang tháng ba, cái lạnh đã dịu bớt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：初日[しょにち]は緊張[きんちょう]したでしょう。B：はい。でも、先輩[せんぱい]が笑[わら]ってくれて、緊張[きんちょう]が和[やわ]らぎました。",
+     "vi": "A: Ngày đầu chắc căng thẳng lắm nhỉ. B: Vâng, nhưng đàn anh cười với tôi nên đỡ căng thẳng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "痛[いた]みが和[やわ]らぐ",
+     "vi": "cơn đau dịu đi"
+    },
+    {
+     "jp": "寒[さむ]さが和[やわ]らぐ",
+     "vi": "cái lạnh dịu bớt"
+    }
+   ],
+   "pair": {
+    "w": "和[やわ]らげる",
+    "vi": "làm dịu, xoa dịu"
+   }
+  },
+  {
+   "id": "v:休養:きゅうよう",
+   "kana": "きゅうよう",
+   "kanji": "休養",
+   "hv": "HƯU DƯỠNG",
+   "vi": "nghỉ dưỡng sức (để hồi phục)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Căng thẳng",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "医者[いしゃ]に、一週間[いっしゅうかん]休養[きゅうよう]するように言[い]われた。",
+     "vi": "Bác sĩ bảo tôi nghỉ dưỡng sức một tuần.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "体調[たいちょう]が戻[もど]るまで、しっかり休養[きゅうよう]を取[と]ってください。",
+     "vi": "Hãy nghỉ ngơi thật tốt cho tới khi khỏe lại.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "しっかり休養[きゅうよう]する",
+     "vi": "nghỉ dưỡng đầy đủ"
+    }
+   ],
+   "rel": [
+    "v:休む:やすむ"
+   ],
+   "note": "休養[きゅうよう]を取[と]る = dành thời gian nghỉ dưỡng."
+  },
+  {
+   "id": "v:体調不良:たいちょうふりょう",
+   "kana": "たいちょうふりょう",
+   "kanji": "体調不良",
+   "hv": "THỂ ĐIỀU BẤT LƯƠNG",
+   "vi": "sức khỏe không tốt, khó ở",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "体調不良[たいちょうふりょう]のため、今日[きょう]は休[やす]ませていただきます。",
+     "vi": "Vì không được khỏe, hôm nay tôi xin phép nghỉ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "季節[きせつ]の変[か]わり目[め]は、体調不良[たいちょうふりょう]になりやすい。",
+     "vi": "Giao mùa dễ bị khó ở.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:体調:たいちょう"
+   ],
+   "note": "Lý do xin nghỉ rất hay dùng ở công ty Nhật."
+  },
+  {
+   "id": "v:寝不足:ねぶそく",
+   "kana": "ねぶそく",
+   "kanji": "寝不足",
+   "hv": "TẨM BẤT TÚC",
+   "vi": "thiếu ngủ",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "寝不足[ねぶそく]で、仕事中[しごとちゅう]に何度[なんど]もあくびが出[で]た。",
+     "vi": "Thiếu ngủ nên trong giờ làm ngáp mãi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "寝不足[ねぶそく]が続[つづ]くと、肌[はだ]が荒[あ]れる。",
+     "vi": "Thiếu ngủ kéo dài thì da sần sùi.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:睡眠不足:すいみんぶそく"
+   ],
+   "note": "Khẩu ngữ. Văn viết: 睡眠不足[すいみんぶそく]."
+  },
+  {
+   "id": "v:睡眠不足:すいみんぶそく",
+   "kana": "すいみんぶそく",
+   "kanji": "睡眠不足",
+   "hv": "THỤY MIÊN BẤT TÚC",
+   "vi": "tình trạng thiếu ngủ (văn viết)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "睡眠不足[すいみんぶそく]は、事故[じこ]の大[おお]きな要因[よういん]の一[ひと]つだ。",
+     "vi": "Thiếu ngủ là một trong những yếu tố lớn gây tai nạn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "睡眠不足[すいみんぶそく]が続[つづ]いて、集中[しゅうちゅう]できない。",
+     "vi": "Thiếu ngủ triền miên nên không tập trung được.",
+     "ctx": "doisong"
+    }
+   ],
+   "syn": [
+    "v:寝不足:ねぶそく"
+   ],
+   "rel": [
+    "v:睡眠:すいみん"
+   ]
+  },
+  {
+   "id": "v:寝付く:ねつく",
+   "kana": "ねつく",
+   "kanji": "寝付く",
+   "kf": "寝付[ねつ]く",
+   "hv": "TẨM PHÓ",
+   "vi": "ngủ thiếp đi, chợp mắt được",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜勤[やきん]の後[あと]は、なかなか寝付[ねつ]けない。",
+     "vi": "Sau ca đêm khó mà ngủ được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子[こ]どもが寝付[ねつ]いてから、日本語[にほんご]の勉強[べんきょう]をする。",
+     "vi": "Con ngủ rồi tôi mới học tiếng Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、よく眠[ねむ]れてる？B：それが、寝付[ねつ]くまでに一時間[いちじかん]もかかるんです。",
+     "vi": "A: Dạo này ngủ ngon không? B: Khổ là phải mất cả tiếng mới ngủ được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "子[こ]どもが寝付[ねつ]く",
+     "vi": "con ngủ thiếp đi"
+    }
+   ],
+   "rel": [
+    "v:眠る:ねむる"
+   ],
+   "note": "Hay dùng phủ định khả năng: 寝付[ねつ]けない = khó ngủ. 寝付[ねつ]きが悪[わる]い = khó vào giấc."
+  },
+  {
+   "id": "v:胃痛:いつう",
+   "kana": "いつう",
+   "kanji": "胃痛",
+   "hv": "VỊ THỐNG",
+   "vi": "đau dạ dày",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ストレスで、胃痛[いつう]がひどい。",
+     "vi": "Vì stress mà đau dạ dày dữ dội.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "胃痛[いつう]が続[つづ]くなら、病院[びょういん]で診[み]てもらったほうがいい。",
+     "vi": "Đau dạ dày kéo dài thì nên đi khám.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:胃:い",
+    "v:頭痛:ずつう"
+   ],
+   "note": "Nói thường: 胃[い]が痛[いた]い."
+  },
+  {
+   "id": "v:食欲不振:しょくよくふしん",
+   "kana": "しょくよくふしん",
+   "kanji": "食欲不振",
+   "hv": "THỰC DỤC BẤT CHẤN",
+   "vi": "chán ăn, ăn không ngon miệng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夏[なつ]は暑[あつ]さで、食欲[しょくよく]不振[ふしん]になる人[ひと]が多[おお]い。",
+     "vi": "Mùa hè vì nóng nhiều người chán ăn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "医者[いしゃ]に、最近[さいきん]の食欲[しょくよく]不振[ふしん]について相談[そうだん]した。",
+     "vi": "Tôi trao đổi với bác sĩ về chuyện dạo này chán ăn.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:食欲:しょくよく"
+   ],
+   "note": "Văn viết, y tế. Nói thường: 食欲[しょくよく]がない."
+  },
+  {
+   "id": "v:めまい:めまい",
+   "kana": "めまい",
+   "kanji": "",
+   "hv": "",
+   "vi": "chóng mặt",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "急[きゅう]に立[た]ち上[あ]がったら、めまいがした。",
+     "vi": "Đứng dậy đột ngột thì bị chóng mặt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "めまいがしたら、すぐ作業[さぎょう]をやめて座[すわ]ってください。",
+     "vi": "Thấy chóng mặt thì ngừng việc ngay và ngồi xuống.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "めまいがする = bị chóng mặt. Chữ Hán: 目眩[めまい] (ít dùng)."
+  },
+  {
+   "id": "v:吐き気:はきけ",
+   "kana": "はきけ",
+   "kanji": "吐き気",
+   "kf": "吐[は]き気[け]",
+   "hv": "THỔ KHÍ",
+   "vi": "cảm giác buồn nôn",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "船[ふね]に酔[よ]って、吐[は]き気[け]がする。",
+     "vi": "Say sóng, thấy buồn nôn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "吐[は]き気[け]がある場合[ばあい]は、食品[しょくひん]を扱[あつか]う作業[さぎょう]をしないでください。",
+     "vi": "Khi buồn nôn thì đừng làm công việc tiếp xúc thực phẩm.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:吐く:はく"
+   ],
+   "note": "吐[は]き気[け]がする = buồn nôn. 気[け] ở đây đọc け."
+  },
+  {
+   "id": "v:寒気:さむけ",
+   "kana": "さむけ",
+   "kanji": "寒気",
+   "hv": "HÀN KHÍ",
+   "vi": "cơn ớn lạnh (khi sắp ốm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "朝[あさ]から寒気[さむけ]がして、熱[ねつ]を測[はか]ったら三十八度[さんじゅうはちど]だった。",
+     "vi": "Từ sáng thấy ớn lạnh, đo thì sốt 38 độ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "寒気[さむけ]がするなら、無理[むり]しないで早[はや]く帰[かえ]りなさい。",
+     "vi": "Ớn lạnh thì đừng cố, về sớm đi.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:風邪:かぜ"
+   ],
+   "note": "寒気[さむけ]がする. Đọc かんき thì là \"khí lạnh\" (thời tiết): 寒気[かんき]が流[なが]れ込[こ]む."
+  },
+  {
+   "id": "v:肩こり:かたこり",
+   "kana": "かたこり",
+   "kanji": "肩こり",
+   "kf": "肩[かた]こり",
+   "hv": "KIÊN",
+   "vi": "mỏi vai, cứng vai",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "同[おな]じ姿勢[しせい]で魚[さかな]をさばいていると、肩[かた]こりがひどくなる。",
+     "vi": "Làm cá mãi một tư thế thì mỏi vai nặng hơn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "お風呂[ふろ]で温[あたた]まると、肩[かた]こりが楽[らく]になる。",
+     "vi": "Ngâm bồn cho ấm người thì đỡ mỏi vai.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "肩[かた]が凝[こ]る = mỏi vai. Ở Nhật rất hay nói về 肩[かた]こり."
+  },
+  {
+   "id": "v:だるい:だるい",
+   "kana": "だるい",
+   "kanji": "",
+   "hv": "",
+   "vi": "uể oải, nặng người (không có sức)",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "風邪[かぜ]のせいか、体[からだ]がだるい。",
+     "vi": "Có lẽ vì cảm mà người uể oải.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "夜勤[やきん]明[あ]けは、体[からだ]がだるくて何[なに]もしたくない。",
+     "vi": "Sau ca đêm người rã rời, chẳng muốn làm gì.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：顔色[かおいろ]が悪[わる]いよ。B：朝[あさ]から、なんだかだるいんです。",
+     "vi": "A: Sắc mặt kém thế. B: Từ sáng tôi thấy cứ uể oải sao đó.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "体[からだ]",
+     "vi": "cơ thể"
+    },
+    {
+     "jp": "足[あし]",
+     "vi": "chân"
+    }
+   ],
+   "note": "Nói về cơ thể. Khẩu ngữ trẻ còn dùng cho việc phiền: 宿題[しゅくだい]、だるい = bài tập, ngán quá."
+  },
+  {
+   "id": "v:しんどい:しんどい",
+   "kana": "しんどい",
+   "kanji": "",
+   "hv": "",
+   "vi": "mệt nhọc, cực (khẩu ngữ gốc Kansai)",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "khaungu",
+   "ex": [
+    {
+     "jp": "毎日[まいにち]残業[ざんぎょう]で、正直[しょうじき]しんどい。",
+     "vi": "Ngày nào cũng tăng ca, nói thật là cực.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "階段[かいだん]を上[あ]がるのが、しんどくなってきた。",
+     "vi": "Leo cầu thang bắt đầu thấy mệt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今日[きょう]の仕事[しごと]、しんどかったなあ。B：ほんまやな。はよ帰[かえ]って寝[ね]よ。",
+     "vi": "A: Việc hôm nay cực thật. B: Thật đấy. Về sớm ngủ thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "仕事[しごと]",
+     "vi": "công việc"
+    },
+    {
+     "jp": "体[からだ]",
+     "vi": "cơ thể"
+    }
+   ],
+   "note": "Gốc tiếng Kansai, nay dùng khắp nơi. Ở Hyogo rất hay nghe. Tiếng chuẩn lịch sự: つらい, 疲[つか]れる, 大変[たいへん]."
+  },
+  {
+   "id": "v:持病:じびょう",
+   "kana": "じびょう",
+   "kanji": "持病",
+   "hv": "TRÌ BỆNH",
+   "vi": "bệnh mãn tính (mắc từ lâu)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Sức khỏe",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "父[ちち]には、腰痛[ようつう]の持病[じびょう]がある。",
+     "vi": "Bố tôi có bệnh đau lưng lâu năm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "健康診断[けんこうしんだん]の問診票[もんしんひょう]に、持病[じびょう]を書[か]いてください。",
+     "vi": "Hãy ghi bệnh mãn tính vào phiếu hỏi bệnh khi khám sức khỏe.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:病気:びょうき"
+   ],
+   "note": "持病[じびょう]がある = có bệnh mãn tính."
+  },
+  {
+   "id": "v:心配性:しんぱいしょう",
+   "kana": "しんぱいしょう",
+   "kanji": "心配性",
+   "hv": "TÂM PHỐI TÍNH",
+   "vi": "tính hay lo",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "母[はは]は心配性[しんぱいしょう]で、毎日[まいにち]電話[でんわ]をかけてくる。",
+     "vi": "Mẹ tôi tính hay lo, ngày nào cũng gọi điện.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "心配性[しんぱいしょう]なので、ガスの元栓[もとせん]を何度[なんど]も確[たし]かめてしまう。",
+     "vi": "Tính hay lo nên tôi cứ kiểm tra van gas mấy lần.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:心配:しんぱい"
+   ],
+   "note": "〜性[しょう] = tính hay …: 心配性[しんぱいしょう], 冷[ひ]え性[しょう] (người hay lạnh tay chân)."
+  },
+  {
+   "id": "v:几帳面:きちょうめん",
+   "kana": "きちょうめん",
+   "kanji": "几帳面",
+   "hv": "KỶ TRƯỚNG DIỆN",
+   "vi": "chỉn chu, ngăn nắp (tính cách)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は几帳面[きちょうめん]で、道具[どうぐ]をいつも同[おな]じ場所[ばしょ]に戻[もど]す。",
+     "vi": "Anh ấy chỉn chu, luôn để dụng cụ về đúng chỗ cũ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "几帳面[きちょうめん]な人[ひと]は、家計簿[かけいぼ]も毎日[まいにち]つけている。",
+     "vi": "Người ngăn nắp thì sổ chi tiêu cũng ghi mỗi ngày.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：グエンさんのロッカー、きれいだね。B：几帳面[きちょうめん]ってよく言[い]われます。",
+     "vi": "A: Tủ đồ của anh Nguyễn gọn gàng ghê. B: Tôi hay bị bảo là chỉn chu lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    },
+    {
+     "jp": "性格[せいかく]",
+     "vi": "tính cách"
+    }
+   ],
+   "ant": [
+    "v:大雑把:おおざっぱ"
+   ]
+  },
+  {
+   "id": "v:いい加減:いいかげん",
+   "kana": "いいかげん",
+   "kanji": "いい加減",
+   "kf": "いい加減[かげん]",
+   "hv": "GIA GIẢM",
+   "vi": "làm ẩu, hời hợt (thiếu trách nhiệm)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "いい加減[かげん]な仕事[しごと]をすると、お客様[きゃくさま]に迷惑[めいわく]がかかる。",
+     "vi": "Làm việc cẩu thả sẽ gây phiền cho khách hàng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "あの人[ひと]の話[はなし]は、いつもいい加減[かげん]だ。",
+     "vi": "Lời người đó lúc nào cũng hời hợt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：もう、いい加減[かげん]にして！B：ごめん、もう言[い]わない。",
+     "vi": "A: Thôi, đủ rồi đấy! B: Xin lỗi, không nói nữa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "返事[へんじ]",
+     "vi": "câu trả lời"
+    },
+    {
+     "jp": "仕事[しごと]",
+     "vi": "công việc"
+    }
+   ],
+   "confuse": [
+    "v:適当:てきとう"
+   ],
+   "note": "いい加減[かげん]にして = thôi đủ rồi (khi bực). いい加減[かげん] (phó từ) = khá là, lâu quá rồi: いい加減[かげん]疲[つか]れた."
+  },
+  {
+   "id": "v:大雑把:おおざっぱ",
+   "kana": "おおざっぱ",
+   "kanji": "大雑把",
+   "hv": "ĐẠI TẠP BẢ",
+   "vi": "xuề xòa, sơ sài (không để ý chi tiết)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]は大雑把[おおざっぱ]な性格[せいかく]なので、細[こま]かい作業[さぎょう]は苦手[にがて]だ。",
+     "vi": "Tôi tính xuề xòa nên ngại việc tỉ mỉ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "大雑把[おおざっぱ]に計算[けいさん]すると、一日[いちにち]に五百匹[ごひゃっぴき]さばいている。",
+     "vi": "Tính đại khái thì một ngày làm khoảng năm trăm con cá.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：材料[ざいりょう]の量[りょう]、測[はか]らないの？B：うちの料理[りょうり]は大雑把[おおざっぱ]でいいんだよ。",
+     "vi": "A: Không cân nguyên liệu à? B: Món nhà tôi làm đại khái cũng được.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "性格[せいかく]",
+     "vi": "tính cách"
+    },
+    {
+     "jp": "計算[けいさん]",
+     "vi": "phép tính"
+    }
+   ],
+   "ant": [
+    "v:几帳面:きちょうめん"
+   ]
+  },
+  {
+   "id": "v:せっかち:せっかち",
+   "kana": "せっかち",
+   "kanji": "",
+   "hv": "",
+   "vi": "tính nóng vội, sốt sắng",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "父[ちち]はせっかちで、いつも約束[やくそく]の三十分[さんじゅっぷん]前[まえ]に着[つ]く。",
+     "vi": "Bố tôi tính nóng vội, lúc nào cũng tới trước giờ hẹn ba mươi phút.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "せっかちな人[ひと]ほど、手順[てじゅん]を飛[と]ばしてミスをしやすい。",
+     "vi": "Người càng nóng vội càng dễ bỏ bước rồi làm sai.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：まだ？早[はや]く行[い]こうよ。B：せっかちだなあ。あと五分[ごふん]待[ま]って。",
+     "vi": "A: Chưa xong à? Đi nhanh đi. B: Nóng vội thế. Đợi năm phút nữa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    },
+    {
+     "jp": "性格[せいかく]",
+     "vi": "tính cách"
+    }
+   ],
+   "ant": [
+    "v:のんびり:のんびり"
+   ],
+   "rel": [
+    "v:焦る:あせる"
+   ]
+  },
+  {
+   "id": "v:頑固:がんこ",
+   "kana": "がんこ",
+   "kanji": "頑固",
+   "hv": "NGOAN CỐ",
+   "vi": "ngoan cố, cứng đầu, bướng bỉnh",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "祖父[そふ]は頑固[がんこ]で、人[ひと]の意見[いけん]を聞[き]かない。",
+     "vi": "Ông tôi cứng đầu, không nghe ý người khác.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "頑固[がんこ]な汚[よご]れは、洗剤[せんざい]につけてから洗[あら]ってください。",
+     "vi": "Vết bẩn cứng đầu thì ngâm nước tẩy rồi mới rửa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：一度[いちど]決[き]めたら、絶対[ぜったい]に変[か]えないね。B：頑固[がんこ]なんじゃなくて、信念[しんねん]があるんです。",
+     "vi": "A: Đã quyết là nhất định không đổi nhỉ. B: Không phải cứng đầu, mà là có niềm tin.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    },
+    {
+     "jp": "汚[よご]れ",
+     "vi": "vết bẩn"
+    }
+   ],
+   "ant": [
+    "v:素直:すなお"
+   ],
+   "note": "頑固[がんこ]な汚[よご]れ = vết bẩn cứng đầu (quảng cáo nước tẩy). 頑固一徹[がんこいってつ] = cứng đầu đến cùng."
+  },
+  {
+   "id": "v:短気:たんき",
+   "kana": "たんき",
+   "kanji": "短気",
+   "hv": "ĐOẢN KHÍ",
+   "vi": "nóng tính",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は短気[たんき]で、すぐに怒[おこ]る。",
+     "vi": "Anh ấy nóng tính, dễ nổi giận.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "短気[たんき]を起[お]こすと、けがのもとになる。",
+     "vi": "Nổi nóng là mầm mống của tai nạn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：また大[おお]きい声[こえ]を出[だ]しちゃった。B：短気[たんき]は損気[そんき]だよ。",
+     "vi": "A: Tôi lại lỡ to tiếng rồi. B: Nóng tính thì thiệt thân đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    },
+    {
+     "jp": "性格[せいかく]",
+     "vi": "tính cách"
+    }
+   ],
+   "rel": [
+    "v:怒る:おこる"
+   ],
+   "note": "短気[たんき]は損気[そんき] = nóng tính thì thiệt (tục ngữ). 気[き]が短[みじか]い = nóng tính."
+  },
+  {
+   "id": "v:内気:うちき",
+   "kana": "うちき",
+   "kanji": "内気",
+   "hv": "NỘI KHÍ",
+   "vi": "nhút nhát, hướng nội",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "内気[うちき]な性格[せいかく]を直[なお]したい。",
+     "vi": "Tôi muốn sửa tính nhút nhát.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "内気[うちき]な新人[しんじん]も、だんだん自分[じぶん]から話[はな]すようになった。",
+     "vi": "Người mới nhút nhát cũng dần tự bắt chuyện.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：彼女[かのじょ]、あまり話[はな]さないね。B：内気[うちき]なだけで、仕事[しごと]はとても丁寧[ていねい]だよ。",
+     "vi": "A: Cô ấy ít nói nhỉ. B: Chỉ nhút nhát thôi, làm việc rất cẩn thận đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "性格[せいかく]",
+     "vi": "tính cách"
+    },
+    {
+     "jp": "子[こ]ども",
+     "vi": "đứa trẻ"
+    }
+   ],
+   "ant": [
+    "v:陽気:ようき"
+   ],
+   "rel": [
+    "v:人見知り:ひとみしり"
+   ]
+  },
+  {
+   "id": "v:陽気:ようき",
+   "kana": "ようき",
+   "kanji": "陽気",
+   "hv": "DƯƠNG KHÍ",
+   "vi": "vui tính, hồ hởi; (trời) ấm áp dễ chịu",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は陽気[ようき]で、いつも周[まわ]りを笑[わら]わせている。",
+     "vi": "Anh ấy vui tính, lúc nào cũng làm mọi người cười.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "春[はる]らしい陽気[ようき]になってきた。",
+     "vi": "Trời đã ấm áp đúng kiểu mùa xuân.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新[あたら]しい班[はん]長[ちょう]、どんな人[ひと]？B：明[あか]るくて陽気[ようき]な人[ひと]だよ。",
+     "vi": "A: Tổ trưởng mới là người thế nào? B: Người tươi tắn vui tính.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    },
+    {
+     "jp": "性格[せいかく]",
+     "vi": "tính cách"
+    }
+   ],
+   "ant": [
+    "v:内気:うちき"
+   ],
+   "rel": [
+    "v:明るい:あかるい"
+   ],
+   "note": "Danh từ 陽気[ようき] còn là tiết trời: いい陽気[ようき]ですね = trời đẹp nhỉ."
+  },
+  {
+   "id": "v:神経質:しんけいしつ",
+   "kana": "しんけいしつ",
+   "kanji": "神経質",
+   "hv": "THẦN KINH CHẤT",
+   "vi": "hay để ý quá mức, dễ căng thẳng",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼女[かのじょ]は神経質[しんけいしつ]で、少[すこ]しの音[おと]でも目[め]が覚[さ]める。",
+     "vi": "Cô ấy nhạy cảm, tiếng động nhỏ cũng tỉnh giấc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "食品[しょくひん]の衛生[えいせい]には、神経質[しんけいしつ]なくらい気[き]をつけたほうがいい。",
+     "vi": "Vệ sinh thực phẩm thì nên cẩn thận đến mức kỹ tính.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：何度[なんど]も鍵[かぎ]を確認[かくにん]するね。B：神経質[しんけいしつ]だって、よく言[い]われるんです。",
+     "vi": "A: Cậu kiểm tra chìa khóa mãi nhỉ. B: Tôi hay bị bảo là quá kỹ tính.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    },
+    {
+     "jp": "性格[せいかく]",
+     "vi": "tính cách"
+    }
+   ],
+   "ant": [
+    "v:大雑把:おおざっぱ"
+   ],
+   "note": "Có thể khen (cẩn thận) hoặc chê (khó chịu, hay lo). 神経[しんけい] = thần kinh."
+  },
+  {
+   "id": "v:悲観的:ひかんてき",
+   "kana": "ひかんてき",
+   "kanji": "悲観的",
+   "hv": "BI QUAN ĐÍCH",
+   "vi": "bi quan",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一度[いちど]の失敗[しっぱい]で、悲観的[ひかんてき]になる必要[ひつよう]はない。",
+     "vi": "Không cần bi quan vì một lần thất bại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "売[う]り上[あ]げについて、課長[かちょう]は悲観的[ひかんてき]な見方[みかた]をしている。",
+     "vi": "Về doanh thu, trưởng phòng có cái nhìn bi quan.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：どうせ試験[しけん]に落[お]ちるよ。B：そんなに悲観的[ひかんてき]にならないで。",
+     "vi": "A: Đằng nào cũng trượt thôi. B: Đừng bi quan thế.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "考[かんが]え",
+     "vi": "suy nghĩ"
+    },
+    {
+     "jp": "見方[みかた]",
+     "vi": "cách nhìn"
+    }
+   ],
+   "ant": [
+    {
+     "w": "楽観的[らっかんてき]",
+     "vi": "lạc quan"
+    }
+   ],
+   "rel": [
+    "v:後ろ向き:うしろむき"
+   ]
+  },
+  {
+   "id": "v:前向き:まえむき",
+   "kana": "まえむき",
+   "kanji": "前向き",
+   "kf": "前向[まえむ]き",
+   "hv": "TIỀN HƯỚNG",
+   "vi": "suy nghĩ tích cực, hướng về phía trước",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "失敗[しっぱい]しても、前向[まえむ]きに考[かんが]えるようにしている。",
+     "vi": "Dù thất bại tôi cũng cố nghĩ theo hướng tích cực.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい仕事[しごと]に前向[まえむ]きに取[と]り組[く]んでいる。",
+     "vi": "Đang hăng hái bắt tay vào công việc mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：班[はん]長[ちょう]の話[はなし]、どうするの？B：前向[まえむ]きに考[かんが]えています。",
+     "vi": "A: Chuyện làm tổ trưởng anh tính sao? B: Tôi đang cân nhắc theo hướng nhận.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "考[かんが]え方[かた]",
+     "vi": "cách nghĩ"
+    },
+    {
+     "jp": "姿勢[しせい]",
+     "vi": "thái độ"
+    }
+   ],
+   "ant": [
+    "v:後ろ向き:うしろむき"
+   ],
+   "rel": [
+    "v:積極的:せっきょくてき"
+   ],
+   "note": "前向[まえむ]きに検討[けんとう]する = xem xét theo hướng chấp nhận (lời trả lời lịch sự; đôi khi chỉ là từ chối khéo)."
+  },
+  {
+   "id": "v:人見知り:ひとみしり",
+   "kana": "ひとみしり",
+   "kanji": "人見知り",
+   "kf": "人見知[ひとみし]り",
+   "hv": "NHÂN KIẾN TRI",
+   "vi": "ngại người lạ",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "私[わたし]は人見知[ひとみし]りなので、初[はじ]めての人[ひと]と話[はな]すのが苦手[にがて]だ。",
+     "vi": "Tôi ngại người lạ nên không giỏi nói chuyện với người mới gặp.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "うちの子[こ]は人見知[ひとみし]りして、お客[きゃく]さんが来[く]ると隠[かく]れる。",
+     "vi": "Con tôi ngại người lạ, khách tới là trốn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "子[こ]どもが人見知[ひとみし]りする",
+     "vi": "trẻ ngại người lạ"
+    }
+   ],
+   "rel": [
+    "v:内気:うちき"
+   ]
+  },
+  {
+   "id": "v:気難しい:きむずかしい",
+   "kana": "きむずかしい",
+   "kanji": "気難しい",
+   "kf": "気難[きむずか]しい",
+   "hv": "KHÍ NAN",
+   "vi": "khó tính, khó chiều",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Tính cách",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工場長[こうじょうちょう]は気難[きむずか]しいが、仕事[しごと]は公平[こうへい]だ。",
+     "vi": "Giám đốc xưởng khó tính nhưng công bằng trong công việc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "大家[おおや]さんは少[すこ]し気難[きむずか]しい人[ひと]だ。",
+     "vi": "Chủ nhà hơi khó tính.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あのお客[きゃく]さん、気難[きむずか]しいことで有名[ゆうめい]なんだ。B：じゃあ、いつも以上[いじょう]に丁寧[ていねい]に対応[たいおう]します。",
+     "vi": "A: Vị khách đó nổi tiếng khó tính. B: Vậy tôi sẽ tiếp đón chu đáo hơn mọi khi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "人[ひと]",
+     "vi": "người"
+    },
+    {
+     "jp": "客[きゃく]",
+     "vi": "khách"
+    }
+   ],
+   "note": "Nói về tính cách khó làm vừa lòng."
+  }
+ ]
 }

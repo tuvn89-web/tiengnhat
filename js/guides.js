@@ -12,6 +12,7 @@ const JLPT = {
   N4: { parts: [['Kiến thức ngôn ngữ (chữ, từ vựng)', '25 phút'], ['Kiến thức ngôn ngữ (ngữ pháp) · Đọc hiểu', '55 phút'], ['Nghe hiểu', '35 phút']], pass: 'Đỗ khi tổng từ **90/180**, phần Kiến thức ngôn ngữ + Đọc hiểu từ 38/120 và Nghe từ 19/60.' },
   N3: { parts: [['Kiến thức ngôn ngữ (chữ, từ vựng)', '30 phút'], ['Kiến thức ngôn ngữ (ngữ pháp) · Đọc hiểu', '70 phút'], ['Nghe hiểu', '40 phút']], pass: 'Đỗ khi tổng từ **95/180** và mỗi phần (Kiến thức ngôn ngữ, Đọc hiểu, Nghe) từ 19/60.' },
   N2: { parts: [['Kiến thức ngôn ngữ (chữ, từ vựng, ngữ pháp) · Đọc hiểu', '105 phút'], ['Nghe hiểu', '50 phút']], pass: 'Đỗ khi tổng từ **90/180** và mỗi phần (Kiến thức ngôn ngữ, Đọc hiểu, Nghe) từ 19/60.' },
+  N1: { parts: [['Kiến thức ngôn ngữ (chữ, từ vựng, ngữ pháp) · Đọc hiểu', '110 phút'], ['Nghe hiểu', '55 phút']], pass: 'Đỗ khi tổng từ **100/180** và mỗi phần (Kiến thức ngôn ngữ, Đọc hiểu, Nghe) từ 19/60.' },
 };
 const exam = L => [['h', `Đề thi ${L}`], ['tb', [['Phần thi', 'Thời gian'], ...JLPT[L].parts]], ['p', JLPT[L].pass],
   ['p', 'Thi mỗi năm 2 lần ở Nhật (tháng 7 và tháng 12). Hạn đăng ký thường trước ngày thi khoảng 3–4 tháng — xem lịch chính thức trên trang jlpt.jp. Số liệu đề thi và điểm đỗ lấy theo jlpt.jp (tra ngày 12/10/2026).']];
@@ -95,10 +96,18 @@ export const GUIDES = [
   { id: 'n2', g: 'Theo cấp', t: 'Học N2 thế nào', b: [
     ['p', 'N2 là tiếng Nhật của văn bản: thông báo công ty, hợp đồng, giấy tờ hành chính, tin tức. Người có N2 thường được giao việc tổ trưởng, chỉ dẫn người mới.'],
     ['tb', [['Cần biết (thêm so với N3)', 'Khoảng'], ['Từ vựng', '2.500 từ'], ['Chữ Hán', '350 chữ'], ['Mẫu ngữ pháp', '150 mẫu'], ['Thời gian', '9–12 tháng']]],
-    ['p', 'Kho dữ liệu N2 của app đang được làm dần sau N3.'],
+    ['p', 'Kho N2 của app có đủ 40 bài học: mỗi bài gồm từ mới, chữ Hán, 3 mẫu ngữ pháp, luyện tập, bài mở đầu (hội thoại hoặc bài đọc) và kiểm tra cuối bài.'],
     ['h', 'Lỗi người Việt hay mắc'],
     ['ul', ['Lẫn các mẫu cứng của văn viết: 〜わけではない, 〜ものの, 〜に際して.', 'Từ Hán đồng âm: 機会[きかい] (cơ hội) / 機械[きかい] (máy móc).', 'Thiếu thời gian phần Đọc — tập chia giờ: đọc câu hỏi trước rồi mới đọc bài.']],
-    ...exam('N2')] },
+    ...exam('N2'), ['a', 'Thi vượt cấp N2', '#/trinhdo']] },
+  { id: 'n1', g: 'Theo cấp', t: 'Học N1 thế nào', b: [
+    ['p', 'N1 là tiếng Nhật của người đã đi làm lâu năm: đọc xã luận, báo cáo, văn bản quy định; nghe cuộc họp, bài phát biểu với tốc độ tự nhiên. Nhiều mẫu ngữ pháp N1 chỉ gặp trong văn viết và lời phát biểu trang trọng.'],
+    ['tb', [['Cần biết (thêm so với N2)', 'Khoảng'], ['Từ vựng', '3.000 từ'], ['Chữ Hán', '1.000 chữ'], ['Mẫu ngữ pháp', '150 mẫu (theo kho app)'], ['Thời gian', '12 tháng trở lên']]],
+    ['p', 'Kho N1 của app gồm 50 bài học theo một mạch truyện: anh Nguyễn lên 主任[しゅにん], lo việc ở xưởng và ôn thi N1. Các bài đang được làm dần và có thêm trong các bản cập nhật tới.'],
+    ['p', 'Ở N1, **âm Hán Việt** càng có ích: từ khó như 踏襲[とうしゅう] (ĐẠP TẬP — noi theo cách làm của người trước) hay 拙速[せっそく] (CHUYẾT TỐC — nhanh mà ẩu) đoán được nghĩa từ từng chữ.'],
+    ['h', 'Lỗi người Việt hay mắc'],
+    ['ul', ['Lẫn các mẫu gần nghĩa: 〜といえども / 〜とはいえ; 〜をもって / 〜によって; 〜ならでは / 〜らしい.', 'Từ Hán gần âm, gần nghĩa: 保証[ほしょう] (bảo đảm chất lượng, bảo lãnh) / 保障[ほしょう] (bảo vệ quyền lợi, an toàn) / 補償[ほしょう] (bồi thường thiệt hại).', 'Dùng mẫu văn viết trong lời nói thân mật — nghe rất cứng.', 'Phần Nghe: người nói đi vòng, ý thật nằm ở cuối câu hoặc sau 〜けど / 〜が — nghe hết câu rồi mới chọn.']],
+    ...exam('N1'), ['a', 'Thi vượt cấp N1', '#/trinhdo'], ['a', 'Đề thi thử JLPT', '#/thithu']] },
   // ---------- theo mục tiêu ----------
   { id: 'ssw2', g: 'Theo mục tiêu', t: '特定技能[とくていぎのう]2号[ごう] ngành thủy sản', b: [
     ['p', 'Theo trang của 出入国在留管理庁[しゅつにゅうこくざいりゅうかんりちょう] về ngành 飲食料品製造業[いんしょくりょうひんせいぞうぎょう] (nội dung tính đến 4/9/2026):'],

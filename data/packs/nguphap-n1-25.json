@@ -1,0 +1,737 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "nguphap-n1-25",
+  "title": "Ngữ pháp N1 25 – Không… thì không thể / không có… thì không / có… mới có: ことなしに・なくして（は）・あっての",
+  "type": "grammar",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
+ },
+ "items": [
+  {
+   "id": "g:〜ことなしに",
+   "pattern": "〜ことなしに",
+   "level": "N1",
+   "meaning": "không (làm)… thì không thể…; mà không (làm)…",
+   "structure": [
+    "Động từ thể từ điển + ことなしに: 努力[どりょく]することなしに (không nỗ lực mà…)",
+    "Vế sau thường là phủ định / \"không thể\": 〜ことなしに + 〜ない / 〜できない / 〜ありえない",
+    "Danh từ thì không dùng ことなしに mà dùng 〜なくして: 努力[どりょく]なくして"
+   ],
+   "explain": "〜ことなしに = KHÔNG LÀM A THÌ KHÔNG THỂ B: việc A là điều kiện bắt buộc, thiếu nó thì B không xảy ra được. 努力[どりょく]することなしに、成功[せいこう]はありえない = không nỗ lực thì không thể thành công. 現場[げんば]を見[み]ることなしに、正[ただ]しい判断[はんだん]はできない = không tận mắt xem hiện trường thì không thể phán đoán đúng. Ngoài ra mẫu này còn có nghĩa \"mà không…\" giống ことなく: 契約書[けいやくしょ]をよく読[よ]むことなしにサインしてはいけない = không được ký mà không đọc kỹ hợp đồng.\n\nCách ghép: động từ THỂ TỪ ĐIỂN + ことなしに (không dùng thể ない, vì なし đã mang nghĩa \"không\"). Vế sau hay là phủ định hoặc ý \"không thể\": 〜ない, 〜できない, 〜ありえない, 〜べきではない. Muốn nói với danh từ thì đổi sang 〜なくして (mẫu thứ hai của bài này): 努力[どりょく]なくして成功[せいこう]はない.\n\nVăn phong: văn viết, rất trang trọng — bài phát biểu, xã luận, phương châm kinh doanh của công ty, lời huấn thị của cấp trên trong cuộc họp. Nghe như nêu một nguyên tắc chung, một chân lý. Nói chuyện thường: 〜しないと〜できない, 〜しなきゃ〜ない.\n\nSo với mẫu đã học: 〜ことなく (N2-26) = \"mà không…\" (休[やす]むことなく働[はたら]いた), chủ yếu tả hành động, giọng trung tính; ことなしに cứng hơn và hay dùng kiểu điều kiện \"không A thì không thể B\". 〜ないことには (N2-26) = \"nếu chưa… thì (chưa)…\", gắn sau THỂ ない và nói được hằng ngày (食[た]べてみないことには分[わ]からない); ことなしに gắn sau THỂ TỪ ĐIỂN, là văn viết.\n\nMẹo nhớ: こと (việc) + なし (không có) + に → \"trong tình trạng không có việc A\" thì B không thể thành.",
+   "casual": "Nói thường: 〜しないと〜できない / 〜しなきゃ: 練習[れんしゅう]せんと、うまくならへんで (Kansai: せんと = しないと; へん = ない; で = よ).",
+   "compare": [
+    {
+     "pattern": "〜ことなく（N2-26）",
+     "diff": "Mà không… (tả hành động diễn ra không kèm A: 休[やす]むことなく働[はたら]いた), giọng trung tính. ことなしに: trang trọng hơn, hay dùng kiểu \"không A thì không thể B\" với vế sau phủ định."
+    },
+    {
+     "pattern": "〜ないことには（N2-26）",
+     "diff": "Nếu chưa… thì (chưa)…, gắn sau thể ない, nói được hằng ngày: やってみないことには分[わ]からない. ことなしに: gắn sau thể từ điển, văn viết, nêu nguyên tắc chung."
+    }
+   ],
+   "mistakes": [
+    "Gắn sau thể ない (phủ định hai lần): 努力[どりょく]しないことなしに成功[せいこう]はない ✗ → 努力[どりょく]することなしに成功[せいこう]はない.",
+    "Gắn thẳng sau danh từ: 努力[どりょく]ことなしに ✗ → 努力[どりょく]することなしに / 努力[どりょく]なくして."
+   ],
+   "ex": [
+    {
+     "jp": "努力[どりょく]する[[ことなしに]]、夢[ゆめ]はかなわない。",
+     "vi": "Không nỗ lực thì ước mơ không thể thành hiện thực.",
+     "ctx": "doisong",
+     "chunks": [
+      "努力[どりょく]",
+      "する",
+      "ことなしに、",
+      "夢[ゆめ]は",
+      "かなわない"
+     ],
+     "wrong": [
+      "ことなしを",
+      "ことないに"
+     ]
+    },
+    {
+     "jp": "人[ひと]は他人[たにん]と関[かか]わる[[ことなしに]]生[い]きていくことはできない。",
+     "vi": "Con người không thể sống mà không gắn bó với người khác.",
+     "ctx": "doisong",
+     "chunks": [
+      "人[ひと]は他人[たにん]と",
+      "関[かか]わる",
+      "ことなしに",
+      "生[い]きていく",
+      "ことは",
+      "できない"
+     ],
+     "wrong": [
+      "ことなしが",
+      "ことだけに"
+     ]
+    },
+    {
+     "jp": "毎日[まいにち]練習[れんしゅう]を続[つづ]ける[[ことなしに]]、楽器[がっき]が上達[じょうたつ]することはない。",
+     "vi": "Không luyện tập đều đặn mỗi ngày thì chẳng thể chơi nhạc cụ giỏi lên.",
+     "ctx": "doisong",
+     "chunks": [
+      "毎日[まいにち]練習[れんしゅう]を",
+      "続[つづ]ける",
+      "ことなしに、",
+      "楽器[がっき]が",
+      "上達[じょうたつ]する",
+      "ことはない"
+     ],
+     "wrong": [
+      "ことなしを",
+      "ことだけに"
+     ]
+    },
+    {
+     "jp": "子[こ]どもは失敗[しっぱい]を経験[けいけん]する[[ことなしに]]、本当[ほんとう]の意味[いみ]で成長[せいちょう]することはできないだろう。",
+     "vi": "Trẻ con nếu không trải qua thất bại thì có lẽ không thể trưởng thành theo đúng nghĩa.",
+     "ctx": "doisong",
+     "chunks": [
+      "子[こ]どもは失敗[しっぱい]を",
+      "経験[けいけん]する",
+      "ことなしに、",
+      "本当[ほんとう]の意味[いみ]で",
+      "成長[せいちょう]することは",
+      "できないだろう"
+     ],
+     "wrong": [
+      "ことなしが",
+      "ことないに"
+     ]
+    },
+    {
+     "jp": "包丁[ほうちょう]の基本[きほん]を身[み]につける[[ことなしに]]、きれいな刺身[さしみ]は引[ひ]けない。",
+     "vi": "Không nắm vững kỹ thuật dao cơ bản thì không thể thái được lát sashimi đẹp.",
+     "ctx": "xuong",
+     "chunks": [
+      "包丁[ほうちょう]の",
+      "基本[きほん]を身[み]に",
+      "つける",
+      "ことなしに、",
+      "きれいな刺身[さしみ]は",
+      "引[ひ]けない"
+     ],
+     "wrong": [
+      "ことなしを",
+      "ことないに"
+     ]
+    },
+    {
+     "jp": "現場[げんば]の声[こえ]に耳[みみ]を傾[かたむ]ける[[ことなしに]]、作業[さぎょう]の改善[かいぜん]は進[すす]まない。",
+     "vi": "Không lắng nghe tiếng nói của người ở hiện trường thì việc cải tiến công việc không thể tiến triển.",
+     "ctx": "xuong",
+     "chunks": [
+      "現場[げんば]の",
+      "声[こえ]に耳[みみ]を",
+      "傾[かたむ]ける",
+      "ことなしに、",
+      "作業[さぎょう]の改善[かいぜん]は",
+      "進[すす]まない"
+     ],
+     "wrong": [
+      "ことなしが",
+      "ことだけに"
+     ]
+    },
+    {
+     "jp": "工場長[こうじょうちょう]は朝礼[ちょうれい]で「一人[ひとり]一人[ひとり]が衛生[えいせい]ルールを徹底[てってい]する[[ことなしに]]、お客様[きゃくさま]の信頼[しんらい]を得[え]ることはできない」と述[の]べた。",
+     "vi": "Ở buổi họp đầu giờ, xưởng trưởng nói: \"Nếu từng người không thực hiện triệt để quy tắc vệ sinh thì không thể có được lòng tin của khách hàng.\"",
+     "ctx": "xuong",
+     "chunks": [
+      "工場長[こうじょうちょう]は朝礼[ちょうれい]で「",
+      "一人[ひとり]一人[ひとり]が",
+      "衛生[えいせい]ルールを徹底[てってい]する",
+      "ことなしに、お客様[きゃくさま]の",
+      "信頼[しんらい]を得[え]ることは",
+      "できない」と述[の]べた"
+     ],
+     "wrong": [
+      "ことなしを",
+      "ことだけに"
+     ]
+    },
+    {
+     "jp": "書類[しょるい]の中身[なかみ]をよく読[よ]む[[ことなしに]]、契約書[けいやくしょ]に印鑑[いんかん]を押[お]すべきではない。",
+     "vi": "Không nên đóng dấu vào hợp đồng khi chưa đọc kỹ nội dung giấy tờ.",
+     "ctx": "thutuc",
+     "chunks": [
+      "書類[しょるい]の中身[なかみ]を",
+      "よく読[よ]む",
+      "ことなしに、",
+      "契約書[けいやくしょ]に",
+      "印鑑[いんかん]を",
+      "押[お]すべきではない"
+     ],
+     "wrong": [
+      "ことなしが",
+      "ことないに"
+     ]
+    },
+    {
+     "jp": "必要[ひつよう]な書類[しょるい]をすべてそろえる[[ことなしに]]、在留[ざいりゅう]期間[きかん]の更新[こうしん]手続[てつづ]きを進[すす]めることはできない。",
+     "vi": "Không chuẩn bị đầy đủ giấy tờ cần thiết thì không thể tiến hành thủ tục gia hạn thời gian lưu trú.",
+     "ctx": "thutuc",
+     "chunks": [
+      "必要[ひつよう]な書類[しょるい]を",
+      "すべてそろえる",
+      "ことなしに、",
+      "在留[ざいりゅう]期間[きかん]の",
+      "更新[こうしん]手続[てつづ]きを",
+      "進[すす]めることはできない"
+     ],
+     "wrong": [
+      "ことなしを",
+      "ことだけに"
+     ]
+    },
+    {
+     "jp": "A：新[あたら]しい衛生管理[えいせいかんり]の仕組[しく]み、現場[げんば]に定着[ていちゃく]しますかね。B：現場[げんば]の協力[きょうりょく]を得[え]る[[ことなしに]]、どんな仕組[しく]みも定着[ていちゃく]しませんよ。まずはみんなに目的[もくてき]を説明[せつめい]しましょう。",
+     "vi": "A: Cơ chế quản lý vệ sinh mới liệu có bám rễ được ở hiện trường không nhỉ. B: Không có được sự hợp tác của hiện trường thì cơ chế nào cũng không bám rễ được đâu. Trước hết hãy giải thích mục đích cho mọi người.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "ことなしが",
+      "ことないに"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "毎日[まいにち]練習[れんしゅう]しないことなしに",
+      "上達[じょうたつ]は",
+      "ありえない"
+     ],
+     "vi": "Không luyện tập mỗi ngày thì không thể tiến bộ.",
+     "bad": 0,
+     "fix": "毎日[まいにち]練習[れんしゅう]することなしに",
+     "why": "ことなしに đã mang nghĩa \"không\"; phía trước dùng thể từ điển (する), không dùng thể ない."
+    },
+    {
+     "chunks": [
+      "努力[どりょく]ことなしに",
+      "成功[せいこう]は",
+      "ありえない"
+     ],
+     "vi": "Không nỗ lực thì không thể thành công.",
+     "bad": 0,
+     "fix": "努力[どりょく]することなしに",
+     "why": "ことなしに gắn sau ĐỘNG TỪ thể từ điển. Với danh từ thì dùng 努力[どりょく]なくして."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Bạn viết bài phát biểu cho buổi họp tổng kết của tổ: nếu từng người không hợp tác thì không thể đạt mục tiêu \"không có hàng lỗi\".",
+     "opts": [
+      "一人[ひとり]一人[ひとり]が協力[きょうりょく]することなしに、不良[ふりょう]ゼロの目標[もくひょう]は達成[たっせい]できません。",
+      "一人[ひとり]一人[ひとり]が協力[きょうりょく]しないことなしに、不良[ふりょう]ゼロの目標[もくひょう]は達成[たっせい]できません。",
+      "一人[ひとり]一人[ひとり]が協力[きょうりょく]することなしに、不良[ふりょう]ゼロの目標[もくひょう]は達成[たっせい]できます。"
+     ],
+     "ans": 0,
+     "why": "ことなしに + thể từ điển, vế sau phủ định (できません). Thể ない trước ことなしに là phủ định hai lần (sai); vế sau khẳng định thì ngược ý."
+    }
+   ],
+   "shift": [
+    {
+     "from": "練習[れんしゅう]せんと、うまくならへんで。",
+     "to": "練習[れんしゅう]することなしに、上達[じょうたつ]はありえません。",
+     "kind": "kansai",
+     "note": "Kansai: せんと = しないと; ならへん = ならない; で = よ. Văn trang trọng: 〜することなしに、〜はありえません.",
+     "wrong": [
+      "練習[れんしゅう]しないことなしに、上達[じょうたつ]はありえません。",
+      "練習[れんしゅう]ことなしに、上達[じょうたつ]はありえません。"
+     ]
+    }
+   ],
+   "tpl": [
+    {
+     "f": "dict",
+     "tail": [
+      "ことなしに",
+      "上達[じょうたつ]はありえません"
+     ],
+     "vi": "Không {VP} thì không thể tiến bộ."
+    }
+   ]
+  },
+  {
+   "id": "g:〜なくして（は）",
+   "pattern": "〜なくして（は）",
+   "level": "N1",
+   "meaning": "nếu không có… thì không thể…; thiếu… thì không…",
+   "structure": [
+    "Danh từ + なくして（は） + vế phủ định: 努力[どりょく]なくして成功[せいこう]はない",
+    "Danh từ hay gặp: 協力[きょうりょく], 努力[どりょく], 信頼[しんらい], 理解[りかい], 支[ささ]え, 健康[けんこう], 愛情[あいじょう]",
+    "Vế sau: 〜ない / 〜ありえない / 〜できない / 〜（ら）れない; có は thì nhấn mạnh hơn"
+   ],
+   "explain": "〜なくして（は） = NẾU KHÔNG CÓ A THÌ KHÔNG THỂ CÓ B: A là điều kiện không thể thiếu. お客様[きゃくさま]の信頼[しんらい]なくして、商売[しょうばい]は成[な]り立[た]たない = không có lòng tin của khách hàng thì việc kinh doanh không đứng vững. 家族[かぞく]の支[ささ]えなくしては、ここまで来[こ]られなかった = không có sự nâng đỡ của gia đình thì tôi đã không đi được đến đây.\n\nCách ghép: DANH TỪ + なくして / なくしては (không chen の hay が). Có は thì giọng nhấn mạnh hơn. Vế sau luôn là phủ định hoặc ý \"không thể\": 〜ない, 〜ありえない, 〜できない, 〜られない. Danh từ thường là thứ trừu tượng, quý giá: 努力[どりょく], 協力[きょうりょく], 信頼[しんらい], 理解[りかい], 支[ささ]え, 健康[けんこう]. Với động từ thì dùng 〜ことなしに (mẫu đầu của bài). Câu châm ngôn hay gặp: 努力[どりょく]なくして成功[せいこう]なし.\n\nVăn phong: trang trọng — văn viết và lời phát biểu (lễ khen thưởng, chào mừng, kế hoạch kinh doanh). Rất hay dùng trong lời cảm ơn: 皆様[みなさま]のご協力[きょうりょく]なくしては、この成果[せいか]はありませんでした. Nói chuyện thường: 〜がなかったら / 〜がないと. Đừng nhầm với động từ なくす (làm mất) ở thể て: 財布[さいふ]をなくして困[こま]った = làm mất ví nên khổ.\n\nSo với mẫu đã học: 〜抜[ぬ]きで・〜抜[ぬ]きにして (N2-18) = \"bỏ… ra, không kèm…\" (朝食[ちょうしょく]抜[ぬ]きで, 冗談[じょうだん]は抜[ぬ]きにして), vế sau không nhất thiết phủ định; なくして thì luôn là \"không có A thì KHÔNG THỂ B\". 〜ないことには (N2-26) gắn sau động từ thể ない và nói được hằng ngày; なくして gắn sau danh từ, trang trọng. Sau này sẽ gặp 〜なしに（は）(N1-38) gần nghĩa nhưng còn có nghĩa \"mà không\" (断[ことわ]りなしに = không xin phép).\n\nMẹo nhớ: なくして = \"thiếu (なく) A mà làm (して)\" → làm không nổi.",
+   "casual": "Nói thường: 〜がなかったら / 〜がないと: みんなの協力[きょうりょく]がなかったら、無理[むり]やったわ (Kansai: やった = だった; わ = cảm thán).",
+   "compare": [
+    {
+     "pattern": "〜抜[ぬ]きで・〜抜[ぬ]きにして（N2-18）",
+     "diff": "Bỏ… ra, không kèm… (朝食[ちょうしょく]抜[ぬ]きで, 冗談[じょうだん]は抜[ぬ]きにして) — vế sau không nhất thiết phủ định. なくして: \"không có A thì KHÔNG THỂ B\", vế sau luôn phủ định, giọng trang trọng."
+    },
+    {
+     "pattern": "〜ないことには（N2-26）",
+     "diff": "Gắn sau động từ thể ない, nói được hằng ngày: やってみないことには分[わ]からない. なくして: gắn sau DANH TỪ, văn viết, phát biểu: 努力[どりょく]なくして成功[せいこう]なし."
+    }
+   ],
+   "mistakes": [
+    "Chen の trước なくして: 協力[きょうりょく]のなくして ✗ → 協力[きょうりょく]なくして (danh từ + なくして trực tiếp).",
+    "Vế sau khẳng định: 努力[どりょく]なくして成功[せいこう]できる ✗ → 努力[どりょく]なくして成功[せいこう]はありえない."
+   ],
+   "ex": [
+    {
+     "jp": "努力[どりょく][[なくして]]、夢[ゆめ]をかなえることはできない。",
+     "vi": "Không có nỗ lực thì không thể biến ước mơ thành hiện thực.",
+     "ctx": "doisong",
+     "chunks": [
+      "努力[どりょく]なくして、",
+      "夢[ゆめ]を",
+      "かなえる",
+      "ことは",
+      "できない"
+     ],
+     "wrong": [
+      "のなくして",
+      "ないして"
+     ]
+    },
+    {
+     "jp": "家族[かぞく]の支[ささ]え[[なくして]]、今[いま]の私[わたし]はなかった。",
+     "vi": "Nếu không có sự nâng đỡ của gia đình thì đã không có tôi của ngày hôm nay.",
+     "ctx": "doisong",
+     "chunks": [
+      "家族[かぞく]の",
+      "支[ささ]えなくして、",
+      "今[いま]の",
+      "私[わたし]はなかった"
+     ],
+     "wrong": [
+      "のなくして",
+      "ならでは"
+     ]
+    },
+    {
+     "jp": "健康[けんこう][[なくして]]、幸[しあわ]せな生活[せいかつ]は送[おく]れない。",
+     "vi": "Không có sức khỏe thì không thể sống hạnh phúc.",
+     "ctx": "doisong",
+     "chunks": [
+      "健康[けんこう]なくして、",
+      "幸[しあわ]せな",
+      "生活[せいかつ]は",
+      "送[おく]れない"
+     ],
+     "wrong": [
+      "ないして",
+      "ならでは"
+     ]
+    },
+    {
+     "jp": "相手[あいて]への思[おも]いやり[[なくしては]]、どんな人間関係[にんげんかんけい]も長[なが]くは続[つづ]かない。",
+     "vi": "Không có sự quan tâm, thấu hiểu dành cho người kia thì mối quan hệ nào cũng không bền lâu.",
+     "ctx": "doisong",
+     "chunks": [
+      "相手[あいて]への",
+      "思[おも]いやりなくしては、",
+      "どんな",
+      "人間関係[にんげんかんけい]も",
+      "長[なが]くは",
+      "続[つづ]かない"
+     ],
+     "wrong": [
+      "のなくしては",
+      "ないしては"
+     ]
+    },
+    {
+     "jp": "チームワーク[[なくして]]、安全[あんぜん]な職場[しょくば]は作[つく]れない。",
+     "vi": "Không có tinh thần đồng đội thì không thể tạo ra nơi làm việc an toàn.",
+     "ctx": "xuong",
+     "chunks": [
+      "チームワークなくして、",
+      "安全[あんぜん]な",
+      "職場[しょくば]は",
+      "作[つく]れない"
+     ],
+     "wrong": [
+      "のなくして",
+      "ないして"
+     ]
+    },
+    {
+     "jp": "お客様[きゃくさま]の信頼[しんらい][[なくして]]、商売[しょうばい]は成[な]り立[た]たない。",
+     "vi": "Không có lòng tin của khách hàng thì việc kinh doanh không thể đứng vững.",
+     "ctx": "xuong",
+     "chunks": [
+      "お客様[きゃくさま]の",
+      "信頼[しんらい]なくして、",
+      "商売[しょうばい]は",
+      "成[な]り立[た]たない"
+     ],
+     "wrong": [
+      "ないして",
+      "ならでは"
+     ]
+    },
+    {
+     "jp": "主任[しゅにん]は「現場[げんば]の皆[みな]さんの協力[きょうりょく][[なくしては]]、今回[こんかい]の保健所[ほけんじょ]の立[た]ち入[い]り検査[けんさ]を無事[ぶじ]に終[お]えることはできませんでした」と頭[あたま]を下[さ]げた。",
+     "vi": "Chủ nhiệm cúi đầu nói: \"Nếu không có sự hợp tác của mọi người ở hiện trường thì đợt kiểm tra tại chỗ của trung tâm y tế lần này đã không thể kết thúc suôn sẻ.\"",
+     "ctx": "xuong",
+     "chunks": [
+      "主任[しゅにん]は「現場[げんば]の皆[みな]さんの",
+      "協力[きょうりょく]なくしては、今回[こんかい]の保健所[ほけんじょ]の",
+      "立[た]ち入[い]り検査[けんさ]を無事[ぶじ]に",
+      "終[お]えることは",
+      "できませんでした」と",
+      "頭[あたま]を下[さ]げた"
+     ],
+     "wrong": [
+      "のなくしては",
+      "ないしては"
+     ]
+    },
+    {
+     "jp": "正確[せいかく]な書類[しょるい][[なくして]]、在留資格[ざいりゅうしかく]の審査[しんさ]は進[すす]まない。",
+     "vi": "Không có giấy tờ chính xác thì việc thẩm tra tư cách lưu trú không thể tiến triển.",
+     "ctx": "thutuc",
+     "chunks": [
+      "正確[せいかく]な",
+      "書類[しょるい]なくして、",
+      "在留資格[ざいりゅうしかく]の",
+      "審査[しんさ]は",
+      "進[すす]まない"
+     ],
+     "wrong": [
+      "のなくして",
+      "ないして"
+     ]
+    },
+    {
+     "jp": "市[し]の担当者[たんとうしゃ]は「住民[じゅうみん]の皆[みな]さんのご理解[りかい][[なくして]]、この制度[せいど]は成[な]り立[た]ちません」と説明[せつめい]した。",
+     "vi": "Cán bộ phụ trách của thành phố giải thích: \"Nếu không có sự thấu hiểu của bà con cư dân thì chế độ này không thể đứng vững.\"",
+     "ctx": "thutuc",
+     "chunks": [
+      "市[し]の担当者[たんとうしゃ]は「",
+      "住民[じゅうみん]の皆[みな]さんの",
+      "ご理解[りかい]なくして、",
+      "この制度[せいど]は",
+      "成[な]り立[た]ちません」と",
+      "説明[せつめい]した"
+     ],
+     "wrong": [
+      "ないして",
+      "ならでは"
+     ]
+    },
+    {
+     "jp": "A：グエンさん、社長[しゃちょう]賞[しょう]の受賞[じゅしょう]、おめでとうございます。一言[ひとこと]お願[ねが]いします。B：ありがとうございます。班[はん]のみんなの支[ささ]え[[なくしては]]、この賞[しょう]はいただけませんでした。",
+     "vi": "A: Anh Nguyễn, chúc mừng anh nhận giải thưởng của giám đốc. Xin anh nói đôi lời. B: Cảm ơn ạ. Nếu không có sự hỗ trợ của mọi người trong tổ thì tôi đã không nhận được giải này.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "のなくしては",
+      "ないしては"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "皆[みな]さんの協力[きょうりょく]のなくして",
+      "この成果[せいか]は",
+      "ありませんでした"
+     ],
+     "vi": "Nếu không có sự hợp tác của mọi người thì đã không có thành quả này.",
+     "bad": 0,
+     "fix": "皆[みな]さんの協力[きょうりょく]なくして",
+     "why": "Danh từ + なくして trực tiếp, không chen の."
+    },
+    {
+     "chunks": [
+      "お客様[きゃくさま]の信頼[しんらい]なくして",
+      "商売[しょうばい]は",
+      "成[な]り立[た]つ",
+      "。"
+     ],
+     "vi": "Không có lòng tin của khách hàng thì việc kinh doanh không đứng vững.",
+     "bad": 2,
+     "fix": "成[な]り立[た]たない",
+     "why": "Vế sau của なくして luôn là phủ định / \"không thể\"."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Bạn phát biểu cảm ơn ở tiệc cuối năm của xưởng: nếu không có sự giúp đỡ của mọi người thì năm nay tổ đã không đạt được mục tiêu.",
+     "opts": [
+      "皆様[みなさま]のご協力[きょうりょく]なくしては、今年[ことし]の目標[もくひょう]は達成[たっせい]できませんでした。",
+      "皆様[みなさま]のご協力[きょうりょく]のなくしては、今年[ことし]の目標[もくひょう]は達成[たっせい]できませんでした。",
+      "皆様[みなさま]のご協力[きょうりょく]なくしては、今年[ことし]の目標[もくひょう]を達成[たっせい]できました。"
+     ],
+     "ans": 0,
+     "why": "Danh từ + なくしては + vế phủ định (できませんでした). Không chen の; vế sau khẳng định thì sai mẫu và ngược ý."
+    }
+   ],
+   "shift": [
+    {
+     "from": "みんながおらんかったら、無理[むり]やったわ。",
+     "to": "皆様[みなさま]のご協力[きょうりょく]なくしては、実現[じつげん]できませんでした。",
+     "kind": "kansai",
+     "note": "Kansai: おらん = いない (おらんかったら = いなかったら); やった = だった; わ = cảm thán. Phát biểu trang trọng: danh từ + なくしては + 〜ませんでした.",
+     "wrong": [
+      "皆様[みなさま]のご協力[きょうりょく]のなくしては、実現[じつげん]できませんでした。",
+      "皆様[みなさま]のご協力[きょうりょく]なくしては、実現[じつげん]できました。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g:〜あっての",
+   "pattern": "〜あっての",
+   "level": "N1",
+   "meaning": "có… thì mới có…; nhờ có… mới có…",
+   "structure": [
+    "Danh từ A + あっての + danh từ B: お客様[きゃくさま]あっての商売[しょうばい] (có khách mới có buôn bán)",
+    "Kết câu: 〜は A あってのことだ (là nhờ có A): 今日[きょう]の成功[せいこう]は皆[みな]さんの努力[どりょく]あってのことだ",
+    "Danh từ hay gặp: お客様[きゃくさま], 健康[けんこう], 命[いのち], 信頼[しんらい], 家族[かぞく], 安全[あんぜん], 支[ささ]え"
+   ],
+   "explain": "〜あっての = CÓ A THÌ MỚI CÓ B: A là nền tảng, là điều kiện không thể thiếu để B tồn tại. お客様[きゃくさま]あっての商売[しょうばい]だ = có khách hàng thì mới có việc kinh doanh. 健康[けんこう]あっての仕事[しごと] = có sức khỏe mới làm việc được. Người nói nhấn vai trò, giá trị của A, thường kèm lòng biết ơn hoặc lời nhắc nhở \"đừng quên điều căn bản\".\n\nCách ghép: DANH TỪ A + あっての + DANH TỪ B (cả A và B đều là danh từ). Hai kiểu câu hay gặp: \"B は A あっての B だ\" (lặp lại B cho chắc ý) và \"〜は A あってのことだ\" (là nhờ có A): 今日[きょう]の成功[せいこう]は、皆[みな]さんの努力[どりょく]あってのことです. Không gắn sau động từ (✗ 努力[どりょく]したあっての). Thứ tự quan trọng: A là nền tảng đứng trước, B là thứ có được nhờ A.\n\nVăn phong: hơi trang trọng nhưng dùng được cả trong lời nói — phát biểu, lời cảm ơn, câu châm ngôn của cửa hàng, lời ông chủ dặn nhân viên. Nghe gọn như khẩu hiệu. Lịch sự: 〜あってのことです. Nói thường: 〜があるから〜できる / 〜のおかげ.\n\nSo với mẫu đã học: 〜からこそ (N2-07) = \"chính vì… nên mới…\", gắn sau câu để nêu lý do (練習[れんしゅう]したからこそ勝[か]てた); あっての gắn sau DANH TỪ, nhấn \"A là nền tảng của B\". 〜おかげで (N3-07) = \"nhờ… mà\" một kết quả cụ thể; あっての nêu quan hệ nền tảng mang tính chân lý. Trong bài này, なくして là mặt trái của あっての: お客様[きゃくさま]なくして商売[しょうばい]なし ⇔ お客様[きゃくさま]あっての商売[しょうばい].\n\nMẹo nhớ: あって = \"có\", の nối hai danh từ → \"B có được là nhờ CÓ A\".",
+   "casual": "Nói thường: 〜があるから〜 / 〜のおかげ: お客[きゃく]さんがおるから商売[しょうばい]できるんや (Kansai: おる = いる; んや = のだ).",
+   "compare": [
+    {
+     "pattern": "〜からこそ（N2-07）",
+     "diff": "Chính vì… nên mới… (gắn sau câu, nêu lý do): 練習[れんしゅう]したからこそ勝[か]てた. あっての: gắn sau DANH TỪ, nhấn A là nền tảng để B tồn tại: お客様[きゃくさま]あっての商売[しょうばい]."
+    },
+    {
+     "pattern": "〜おかげで（N3-07）",
+     "diff": "Nhờ… mà (một kết quả cụ thể): 先輩[せんぱい]のおかげで合格[ごうかく]できた. あっての: nêu quan hệ nền tảng mang tính chân lý, giọng châm ngôn: 健康[けんこう]あっての仕事[しごと]."
+    }
+   ],
+   "mistakes": [
+    "Gắn sau động từ: 努力[どりょく]したあっての成功[せいこう] ✗ → 努力[どりょく]あっての成功[せいこう] (hoặc 努力[どりょく]したからこその成功[せいこう]).",
+    "Đảo vị trí A và B: 商売[しょうばい]あってのお客様[きゃくさま] ✗ (thành \"có buôn bán mới có khách\") → お客様[きゃくさま]あっての商売[しょうばい]."
+   ],
+   "ex": [
+    {
+     "jp": "何[なに]をするにも、健康[けんこう][[あっての]]ことだ。",
+     "vi": "Làm gì thì cũng phải có sức khỏe mới làm được.",
+     "ctx": "doisong",
+     "chunks": [
+      "何[なに]を",
+      "するにも、",
+      "健康[けんこう]",
+      "あっての",
+      "ことだ"
+     ],
+     "wrong": [
+      "あるの",
+      "あっては"
+     ]
+    },
+    {
+     "jp": "家族[かぞく][[あっての]]私[わたし]です。家族[かぞく]のためなら、どんなに大変[たいへん]な仕事[しごと]でも頑張[がんば]れます。",
+     "vi": "Có gia đình mới có tôi. Vì gia đình thì việc vất vả đến đâu tôi cũng cố được.",
+     "ctx": "doisong",
+     "chunks": [
+      "家族[かぞく]あっての",
+      "私[わたし]です。家族[かぞく]の",
+      "ためなら、",
+      "どんなに大変[たいへん]な",
+      "仕事[しごと]でも",
+      "頑張[がんば]れます"
+     ],
+     "wrong": [
+      "あるの",
+      "あっては"
+     ]
+    },
+    {
+     "jp": "今[いま]になってよく分[わ]かるが、あの留学[りゅうがく]は親[おや]の支[ささ]え[[あっての]]ものだった。",
+     "vi": "Đến giờ tôi mới hiểu rõ: chuyến du học ấy có được là nhờ có sự hỗ trợ của bố mẹ.",
+     "ctx": "doisong",
+     "chunks": [
+      "今[いま]になってよく",
+      "分[わ]かるが、",
+      "あの留学[りゅうがく]は",
+      "親[おや]の",
+      "支[ささ]えあっての",
+      "ものだった"
+     ],
+     "wrong": [
+      "あったの",
+      "あっても"
+     ]
+    },
+    {
+     "jp": "選手[せんしゅ]たちは「ファンの応援[おうえん][[あっての]]優勝[ゆうしょう]です」と口[くち]をそろえた。",
+     "vi": "Các cầu thủ đồng thanh nói: \"Chức vô địch có được là nhờ sự cổ vũ của người hâm mộ.\"",
+     "ctx": "doisong",
+     "chunks": [
+      "選手[せんしゅ]たちは「",
+      "ファンの応援[おうえん]",
+      "あっての",
+      "優勝[ゆうしょう]です」と",
+      "口[くち]を",
+      "そろえた"
+     ],
+     "wrong": [
+      "あるの",
+      "あっては"
+     ]
+    },
+    {
+     "jp": "お客様[きゃくさま][[あっての]]商売[しょうばい]だということを忘[わす]れてはいけない。",
+     "vi": "Không được quên rằng có khách hàng thì mới có việc kinh doanh.",
+     "ctx": "xuong",
+     "chunks": [
+      "お客様[きゃくさま]",
+      "あっての",
+      "商売[しょうばい]だと",
+      "いうことを",
+      "忘[わす]れては",
+      "いけない"
+     ],
+     "wrong": [
+      "あったの",
+      "あっても"
+     ]
+    },
+    {
+     "jp": "安全[あんぜん][[あっての]]生産[せいさん]だ。急[いそ]いでいても、安全[あんぜん]確認[かくにん]は省略[しょうりゃく]しないこと。",
+     "vi": "Có an toàn mới có sản xuất. Dù vội cũng không được bỏ bước kiểm tra an toàn.",
+     "ctx": "xuong",
+     "chunks": [
+      "安全[あんぜん]あっての",
+      "生産[せいさん]だ。",
+      "急[いそ]いでいても、",
+      "安全[あんぜん]確認[かくにん]は",
+      "省略[しょうりゃく]しない",
+      "こと"
+     ],
+     "wrong": [
+      "あるの",
+      "あっては"
+     ]
+    },
+    {
+     "jp": "工場長[こうじょうちょう]は「この工場[こうじょう]の品質[ひんしつ]は、現場[げんば]の一人[ひとり]一人[ひとり]の丁寧[ていねい]な仕事[しごと][[あっての]]ものだ」と取引先[とりひきさき]に説明[せつめい]した。",
+     "vi": "Xưởng trưởng giải thích với đối tác: \"Chất lượng của xưởng này có được là nhờ công việc cẩn thận của từng người ở hiện trường.\"",
+     "ctx": "xuong",
+     "chunks": [
+      "工場長[こうじょうちょう]は「この工場[こうじょう]の",
+      "品質[ひんしつ]は、現場[げんば]の",
+      "一人[ひとり]一人[ひとり]の",
+      "丁寧[ていねい]な仕事[しごと]あっての",
+      "ものだ」と",
+      "取引先[とりひきさき]に説明[せつめい]した"
+     ],
+     "wrong": [
+      "あったの",
+      "あっても"
+     ]
+    },
+    {
+     "jp": "年金[ねんきん]は、現役世代[げんえきせだい]が納[おさ]める保険料[ほけんりょう][[あっての]]制度[せいど]だ。",
+     "vi": "Lương hưu là chế độ có được nhờ phí bảo hiểm mà thế hệ đang đi làm đóng góp.",
+     "ctx": "thutuc",
+     "chunks": [
+      "年金[ねんきん]は、",
+      "現役世代[げんえきせだい]が",
+      "納[おさ]める",
+      "保険料[ほけんりょう]",
+      "あっての",
+      "制度[せいど]だ"
+     ],
+     "wrong": [
+      "あるの",
+      "あっては"
+     ]
+    },
+    {
+     "jp": "在留資格[ざいりゅうしかく]の更新[こうしん]がスムーズに進[すす]んだのも、会社[かいしゃ]のサポート[[あっての]]ことだ。",
+     "vi": "Việc gia hạn tư cách lưu trú suôn sẻ cũng là nhờ có sự hỗ trợ của công ty.",
+     "ctx": "thutuc",
+     "chunks": [
+      "在留資格[ざいりゅうしかく]の",
+      "更新[こうしん]が",
+      "スムーズに",
+      "進[すす]んだのも、",
+      "会社[かいしゃ]のサポート",
+      "あってのことだ"
+     ],
+     "wrong": [
+      "あったの",
+      "あっても"
+     ]
+    },
+    {
+     "jp": "A：グエンさん、主任[しゅにん]への昇格[しょうかく]、おめでとう。B：ありがとうございます。でも、これも班[はん]のみんな[[あっての]]ことですから。",
+     "vi": "A: Anh Nguyễn, chúc mừng anh được thăng chức chủ nhiệm. B: Cảm ơn anh. Nhưng chuyện này cũng là nhờ có mọi người trong tổ cả.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "あるの",
+      "あっては"
+     ]
+    }
+   ],
+   "topics": [],
+   "errs": [
+    {
+     "chunks": [
+      "毎日[まいにち]努力[どりょく]した",
+      "あっての",
+      "成功[せいこう]だ"
+     ],
+     "vi": "Thành công có được là nhờ nỗ lực mỗi ngày.",
+     "bad": 0,
+     "fix": "毎日[まいにち]の努力[どりょく]",
+     "why": "あっての gắn sau DANH TỪ (努力[どりょく]), không gắn sau động từ (努力[どりょく]した)."
+    },
+    {
+     "chunks": [
+      "お客様[きゃくさま]あるの",
+      "商売[しょうばい]だということを",
+      "忘[わす]れてはいけない"
+     ],
+     "vi": "Không được quên rằng có khách hàng mới có việc kinh doanh.",
+     "bad": 0,
+     "fix": "お客様[きゃくさま]あっての",
+     "why": "Dạng cố định: danh từ + あっての + danh từ (あって là thể て của ある)."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Khách hàng lâu năm khen chất lượng cá của xưởng. Bạn (tổ trưởng) đáp lại khiêm tốn: chất lượng này có được là nhờ những góp ý nghiêm khắc của quý công ty.",
+     "opts": [
+      "この品質[ひんしつ]も、御社[おんしゃ]の厳[きび]しいご指摘[してき]あってのことです。",
+      "この品質[ひんしつ]も、御社[おんしゃ]の厳[きび]しいご指摘[してき]あるのことです。",
+      "この品質[ひんしつ]も、御社[おんしゃ]の厳[きび]しいご指摘[してき]したあってのことです。"
+     ],
+     "ans": 0,
+     "why": "Danh từ + あってのことです = có được là nhờ…. あるの sai dạng; あっての không gắn sau động từ (指摘[してき]した)."
+    }
+   ],
+   "shift": [
+    {
+     "from": "お客[きゃく]さんがおるから、商売[しょうばい]できるんやで。",
+     "to": "お客様[きゃくさま]あっての商売[しょうばい]です。",
+     "kind": "kansai",
+     "note": "Kansai: おる = いる; んや = のだ; で = よ. Trang trọng, gọn như châm ngôn: A あっての B.",
+     "wrong": [
+      "お客様[きゃくさま]あるの商売[しょうばい]です。",
+      "商売[しょうばい]あってのお客様[きゃくさま]です。"
+     ]
+    }
+   ]
+  }
+ ]
+}

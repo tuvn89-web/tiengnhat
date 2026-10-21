@@ -1,0 +1,2030 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n1-17",
+  "title": "JLPT N1 17 – Lựa chọn, giải pháp, thi đấu & giằng co",
+  "type": "vocab",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:二者択一:にしゃたくいつ",
+   "kana": "にしゃたくいつ",
+   "kanji": "二者択一",
+   "hv": "NHỊ GIẢ TRẠCH NHẤT",
+   "vi": "chọn một trong hai",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn & phân vân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "残業[ざんぎょう]を減[へ]らすか人[ひと]を増[ふ]やすか、二者[にしゃ]択一[たくいつ]を迫[せま]られている。",
+     "vi": "Đang bị buộc phải chọn một trong hai: giảm làm thêm hay tăng người.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "仕事[しごと]か家庭[かてい]かという二者[にしゃ]択一[たくいつ]ではなく、両立[りょうりつ]できる方法[ほうほう]を考[かんが]えたい。",
+     "vi": "Tôi muốn nghĩ cách cân bằng được cả hai, chứ không phải chọn một giữa công việc và gia đình.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "二者[にしゃ]択一[たくいつ]を迫[せま]られる",
+     "vi": "bị buộc chọn một trong hai"
+    }
+   ],
+   "rel": [
+    "v:選択肢:せんたくし",
+    "v:両立:りょうりつ"
+   ],
+   "note": "二者[にしゃ]択一[たくいつ] = chọn một trong hai phương án (択一[たくいつ] = chọn một). Hay gặp: 二者[にしゃ]択一[たくいつ]を迫[せま]られる / 二者[にしゃ]択一[たくいつ]の問題[もんだい]. 択一[たくいつ]式[しき] = dạng câu hỏi chọn một đáp án."
+  },
+  {
+   "id": "v:取捨選択:しゅしゃせんたく",
+   "kana": "しゅしゃせんたく",
+   "kanji": "取捨選択",
+   "hv": "THỦ XẢ TUYỂN TRẠCH",
+   "vi": "chọn lọc (giữ cái cần, bỏ cái không cần)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn & phân vân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ネットの情報[じょうほう]は多[おお]すぎるので、取捨[しゅしゃ]選択[せんたく]する力[ちから]が必要[ひつよう]だ。",
+     "vi": "Thông tin trên mạng quá nhiều nên cần có năng lực chọn lọc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "報告書[ほうこくしょ]には全部[ぜんぶ]を書[か]くのではなく、必要[ひつよう]な情報[じょうほう]を取捨[しゅしゃ]選択[せんたく]して載[の]せること。",
+     "vi": "Báo cáo không phải viết hết, hãy chọn lọc thông tin cần thiết để đưa vào.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：引[ひ]っ越[こ]しの荷物[にもつ]、多[おお]すぎない？B：うん。思[おも]い切[き]って取捨[しゅしゃ]選択[せんたく]しないとね。",
+     "vi": "A: Đồ chuyển nhà không quá nhiều à? B: Ừ. Phải mạnh tay chọn lọc thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "情報[じょうほう]を取捨[しゅしゃ]選択[せんたく]する",
+     "vi": "chọn lọc thông tin"
+    },
+    {
+     "jp": "荷物[にもつ]を取捨[しゅしゃ]選択[せんたく]する",
+     "vi": "chọn lọc đồ đạc"
+    }
+   ],
+   "rel": [
+    "v:選択:せんたく",
+    "v:絞り込む:しぼりこむ"
+   ],
+   "note": "取捨[しゅしゃ] = lấy và bỏ. 取捨[しゅしゃ]選択[せんたく] = chọn ra cái cần, bỏ cái không cần (thông tin, đồ đạc, việc cần làm)."
+  },
+  {
+   "id": "v:躊躇:ちゅうちょ",
+   "kana": "ちゅうちょ",
+   "kanji": "躊躇",
+   "hv": "TRÙ TRỪ",
+   "vi": "chần chừ, ngần ngại (trước khi làm)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn & phân vân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "危険[きけん]を感[かん]じたら、躊躇[ちゅうちょ]せずにラインを止[と]めてください。",
+     "vi": "Thấy nguy hiểm thì đừng chần chừ, hãy dừng dây chuyền.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "値段[ねだん]を見[み]て、買[か]うのを一瞬[いっしゅん]躊躇[ちゅうちょ]した。",
+     "vi": "Nhìn giá, tôi thoáng do dự chuyện mua.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：主任[しゅにん]の話[はなし]、受[う]けるの？B：正直[しょうじき]、まだ躊躇[ちゅうちょ]してるんだ。責任[せきにん]が重[おも]くなるからね。",
+     "vi": "A: Chuyện lên chủ nhiệm, anh nhận chứ? B: Thật lòng tôi vẫn còn do dự. Trách nhiệm nặng hơn mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "発言[はつげん]を躊躇[ちゅうちょ]する",
+     "vi": "ngần ngại phát biểu"
+    },
+    {
+     "jp": "購入[こうにゅう]を躊躇[ちゅうちょ]する",
+     "vi": "chần chừ chuyện mua"
+    }
+   ],
+   "confuse": [
+    "v:ためらう:ためらう",
+    "v:逡巡:しゅんじゅん"
+   ],
+   "note": "躊躇[ちゅうちょ] = do dự trước một hành động (văn viết; văn nói: ためらう). 躊躇[ちゅうちょ]なく / 躊躇[ちゅうちょ]せずに = không chần chừ. 逡巡[しゅんじゅん] = lưỡng lự kéo dài, tới lui mãi (văn viết hơn)."
+  },
+  {
+   "id": "v:葛藤:かっとう",
+   "kana": "かっとう",
+   "kanji": "葛藤",
+   "hv": "CÁT ĐẰNG",
+   "vi": "giằng xé nội tâm, mâu thuẫn trong lòng",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn & phân vân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "故郷[こきょう]に帰[かえ]るか日本[にほん]に残[のこ]るか、長[なが]い間[あいだ]葛藤[かっとう]していた。",
+     "vi": "Về quê hay ở lại Nhật, tôi đã giằng xé trong lòng một thời gian dài.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "部下[ぶか]を守[まも]りたい気持[きも]ちと会社[かいしゃ]の方針[ほうしん]との間[あいだ]で、葛藤[かっとう]を抱[かか]える管理職[かんりしょく]は多[おお]い。",
+     "vi": "Nhiều người quản lý phải mang giằng xé giữa mong muốn bảo vệ cấp dưới và chủ trương công ty.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：本当[ほんとう]は辞[や]めたいって言[い]ってたよね。B：うん。でも家族[かぞく]のことを考[かんが]えると…。毎日[まいにち]葛藤[かっとう]してるよ。",
+     "vi": "A: Anh từng nói thật ra muốn nghỉ việc nhỉ. B: Ừ. Nhưng nghĩ đến gia đình thì… Ngày nào cũng giằng xé.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "心[こころ]の中[なか]で葛藤[かっとう]する",
+     "vi": "giằng xé trong lòng"
+    }
+   ],
+   "rel": [
+    "v:板挟み:いたばさみ",
+    "v:迷い:まよい"
+   ],
+   "note": "葛藤[かっとう] = hai mong muốn, hai giá trị đối lập giằng co trong lòng (心[こころ]の葛藤[かっとう], 葛藤[かっとう]を抱[かか]える). Nghĩa gốc: dây sắn và dây tử đằng quấn vào nhau. Cũng chỉ mâu thuẫn giữa người với người."
+  },
+  {
+   "id": "v:一長一短:いっちょういったん",
+   "kana": "いっちょういったん",
+   "kanji": "一長一短",
+   "hv": "NHẤT TRƯỜNG NHẤT ĐOẢN",
+   "vi": "mỗi bên có ưu có nhược",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn & phân vân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手作業[てさぎょう]と機械[きかい]には一長[いっちょう]一短[いったん]があり、どちらがいいとは言[い]い切[き]れない。",
+     "vi": "Làm tay và máy móc mỗi bên đều có ưu nhược, không thể khẳng định cái nào hơn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "駅[えき]に近[ちか]い部屋[へや]は便利[べんり]だが家賃[やちん]が高[たか]く、一長[いっちょう]一短[いったん]だ。",
+     "vi": "Phòng gần ga thì tiện nhưng tiền thuê đắt, có cái được có cái mất.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:長所:ちょうしょ",
+    "v:短所:たんしょ",
+    "v:優劣:ゆうれつ"
+   ],
+   "note": "一長[いっちょう]一短[いったん]がある / 一長[いっちょう]一短[いったん]だ = có ưu điểm cũng có nhược điểm, khó nói bên nào hơn."
+  },
+  {
+   "id": "v:甲乙:こうおつ",
+   "kana": "こうおつ",
+   "kanji": "甲乙",
+   "hv": "GIÁP ẤT",
+   "vi": "hơn kém giữa hai bên; bên A bên B (hợp đồng)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn & phân vân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "どちらの案[あん]もよくできていて、甲乙[こうおつ]つけがたい。",
+     "vi": "Phương án nào cũng hay, khó phân hơn kém.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "二人[ふたり]の料理[りょうり]の腕[うで]は甲乙[こうおつ]つけがたく、審査員[しんさいん]も迷[まよ]っていた。",
+     "vi": "Tay nghề nấu ăn của hai người khó phân cao thấp, giám khảo cũng phân vân.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "甲乙[こうおつ]をつける",
+     "vi": "phân hơn kém"
+    }
+   ],
+   "rel": [
+    "v:優劣:ゆうれつ"
+   ],
+   "note": "Hầu như dùng trong cụm 甲乙[こうおつ]つけがたい = khó phân hơn kém (cả hai đều tốt). Nghĩa gốc: thứ nhất và thứ nhì; trong hợp đồng 甲[こう] = bên A, 乙[おつ] = bên B."
+  },
+  {
+   "id": "v:折衷:せっちゅう",
+   "kana": "せっちゅう",
+   "kanji": "折衷",
+   "hv": "CHIẾT TRUNG",
+   "vi": "dung hòa, kết hợp (hai bên, hai kiểu)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn & phân vân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "両方[りょうほう]の意見[いけん]を折衷[せっちゅう]して、新[あたら]しい作業[さぎょう]手順[てじゅん]をまとめた。",
+     "vi": "Dung hòa ý kiến hai bên, tổng hợp thành quy trình làm việc mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "私[わたし]たちは、和洋[わよう]折衷[せっちゅう]の家[いえ]に住[す]んでいる。",
+     "vi": "Chúng tôi sống trong căn nhà kết hợp kiểu Nhật và kiểu Tây.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：夕飯[ゆうはん]、和食[わしょく]と洋食[ようしょく]、どっちにする？B：じゃあ折衷[せっちゅう]案[あん]で、和風[わふう]のパスタはどう？",
+     "vi": "A: Bữa tối ăn món Nhật hay món Tây? B: Vậy chọn phương án dung hòa, mì Ý kiểu Nhật thì sao?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "意見[いけん]を折衷[せっちゅう]する",
+     "vi": "dung hòa ý kiến"
+    },
+    {
+     "jp": "両案[りょうあん]を折衷[せっちゅう]する",
+     "vi": "kết hợp hai phương án"
+    }
+   ],
+   "confuse": [
+    "v:妥協:だきょう"
+   ],
+   "note": "折衷[せっちゅう] = lấy phần tốt của hai bên kết hợp lại. 折衷[せっちゅう]案[あん] = phương án dung hòa; 和洋折衷[わようせっちゅう] = kết hợp Nhật – Tây. 妥協[だきょう] = nhượng bộ nhau để đi đến thống nhất."
+  },
+  {
+   "id": "v:逡巡:しゅんじゅん",
+   "kana": "しゅんじゅん",
+   "kanji": "逡巡",
+   "hv": "THUÂN TUẦN",
+   "vi": "lưỡng lự, chần chừ mãi (không quyết được)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn & phân vân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]は長[なが]い間[あいだ]逡巡[しゅんじゅん]した末[すえ]、独立[どくりつ]する道[みち]を選[えら]んだ。",
+     "vi": "Sau một thời gian dài lưỡng lự, anh ấy chọn con đường tự lập.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい設備[せつび]への投資[とうし]を、経営[けいえい]陣[じん]はいまだに逡巡[しゅんじゅん]している。",
+     "vi": "Ban lãnh đạo đến giờ vẫn còn chần chừ chuyện đầu tư thiết bị mới.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "決断[けつだん]を前[まえ]に逡巡[しゅんじゅん]する",
+     "vi": "lưỡng lự trước quyết định"
+    }
+   ],
+   "confuse": [
+    "v:躊躇:ちゅうちょ"
+   ],
+   "rel": [
+    "v:迷う:まよう"
+   ],
+   "note": "逡巡[しゅんじゅん] = đi tới lui, không quyết được (văn viết, báo chí). Hay dùng: 逡巡[しゅんじゅん]の末[すえ] = sau hồi lưỡng lự. 躊躇[ちゅうちょ] = do dự trước một hành động cụ thể."
+  },
+  {
+   "id": "v:優柔不断:ゆうじゅうふだん",
+   "kana": "ゆうじゅうふだん",
+   "kanji": "優柔不断",
+   "hv": "ƯU NHU BẤT ĐOẠN",
+   "vi": "thiếu quyết đoán, nhu nhược",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn & phân vân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "優柔[ゆうじゅう]不断[ふだん]な性格[せいかく]で、レストランでもなかなか注文[ちゅうもん]が決[き]まらない。",
+     "vi": "Tính tôi thiếu quyết đoán, vào nhà hàng cũng mãi không chọn được món.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "リーダーが優柔[ゆうじゅう]不断[ふだん]だと、現場[げんば]が混乱[こんらん]する。",
+     "vi": "Người lãnh đạo mà thiếu quyết đoán thì hiện trường rối loạn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：まだ迷[まよ]ってるの？B：うん、どっちもいいんだよね。A：優柔[ゆうじゅう]不断[ふだん]だなあ。もうコインで決[き]めたら？",
+     "vi": "A: Vẫn còn phân vân à? B: Ừ, cái nào cũng được cả. A: Thiếu quyết đoán quá. Thôi tung đồng xu mà quyết đi?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "性格[せいかく]",
+     "vi": "tính cách"
+    },
+    {
+     "jp": "態度[たいど]",
+     "vi": "thái độ"
+    }
+   ],
+   "ant": [
+    {
+     "w": "即断[そくだん]即決[そっけつ]",
+     "vi": "quyết ngay tức khắc"
+    }
+   ],
+   "rel": [
+    "v:迷う:まよう",
+    "v:煮え切らない:にえきらない"
+   ],
+   "note": "優柔[ゆうじゅう]不断[ふだん] = do dự, không tự quyết được (thường chê tính cách). Trái nghĩa: 即断即決[そくだんそっけつ] (quyết nhanh), 決断力[けつだんりょく]がある."
+  },
+  {
+   "id": "v:兼ね合い:かねあい",
+   "kana": "かねあい",
+   "kanji": "兼ね合い",
+   "kf": "兼[か]ね合[あ]い",
+   "hv": "KIÊM HỢP",
+   "vi": "sự cân đối, hài hòa (giữa các yếu tố)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn & phân vân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "品質[ひんしつ]とコストの兼[か]ね合[あ]いを考[かんが]えて、仕入[しい]れ先[さき]を決[き]める。",
+     "vi": "Cân nhắc sự cân đối giữa chất lượng và chi phí để chọn nhà cung cấp.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "仕事[しごと]と育児[いくじ]の兼[か]ね合[あ]いが難[むずか]しく、夫婦[ふうふ]でよく話[はな]し合[あ]っている。",
+     "vi": "Cân đối giữa công việc và nuôi con khó, vợ chồng tôi thường bàn bạc.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：来週[らいしゅう]のシフト、どう組[く]む？B：休[やす]みの希望[きぼう]との兼[か]ね合[あ]いもあるから、少[すこ]し待[ま]ってくれる？",
+     "vi": "A: Ca tuần sau xếp thế nào? B: Còn phải cân đối với nguyện vọng nghỉ nữa, chờ tôi chút nhé?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:両立:りょうりつ"
+   ],
+   "note": "AとBの兼[か]ね合[あ]い = sự cân bằng giữa A và B (tính sao cho cả hai đều ổn). 〜との兼[か]ね合[あ]いで = do phải cân đối với…. Động từ: 兼[か]ね合[あ]う."
+  },
+  {
+   "id": "v:悩ましい:なやましい",
+   "kana": "なやましい",
+   "kanji": "悩ましい",
+   "kf": "悩[なや]ましい",
+   "hv": "NÃO",
+   "vi": "nan giải, khó xử (vì bên nào cũng có lý)",
+   "pos": "adj-i",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn & phân vân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人手[ひとで]は足[た]りないが、予算[よさん]もない。悩[なや]ましい問題[もんだい]だ。",
+     "vi": "Thiếu người mà cũng không có ngân sách. Vấn đề nan giải.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "旅行先[りょこうさき]を海[うみ]にするか山[やま]にするか、悩[なや]ましいところだ。",
+     "vi": "Đi biển hay đi núi, đúng là khó chọn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新[あたら]しい冷凍庫[れいとうこ]、A社[しゃ]とB社[しゃ]、どっちにします？B：性能[せいのう]はA社[しゃ]、値段[ねだん]はB社[しゃ]…。悩[なや]ましいね。",
+     "vi": "A: Tủ đông mới chọn hãng A hay hãng B ạ? B: Tính năng thì A, giá thì B… Khó xử thật.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "問題[もんだい]",
+     "vi": "vấn đề"
+    },
+    {
+     "jp": "選択[せんたく]",
+     "vi": "lựa chọn"
+    }
+   ],
+   "rel": [
+    "v:悩む:なやむ",
+    "v:悩み:なやみ"
+   ],
+   "note": "悩[なや]ましい = khiến người ta phải đau đầu suy nghĩ (khó quyết vì bên nào cũng có lý). Hay dùng: 悩[なや]ましい問題[もんだい] / 悩[なや]ましいところだ. Nghĩa cũ: khêu gợi."
+  },
+  {
+   "id": "v:煮え切らない:にえきらない",
+   "kana": "にえきらない",
+   "kanji": "煮え切らない",
+   "kf": "煮[に]え切[き]らない",
+   "hv": "CHỬ THIẾT",
+   "vi": "lửng lơ, không dứt khoát (thái độ, câu trả lời)",
+   "pos": "adj-i",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Lựa chọn & phân vân",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "彼[かれ]の煮[に]え切[き]らない返事[へんじ]に、相手[あいて]はいらいらしていた。",
+     "vi": "Đối phương sốt ruột vì câu trả lời lửng lơ của anh ta.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "課長[かちょう]は、導入[どうにゅう]するのかしないのか、煮[に]え切[き]らない態度[たいど]のままだ。",
+     "vi": "Trưởng phòng vẫn giữ thái độ lửng lơ, chẳng rõ có đưa vào hay không.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：結局[けっきょく]、来[く]るの？来[こ]ないの？B：うーん、まだわからない…。A：煮[に]え切[き]らないなあ。今日中[きょうじゅう]に決[き]めてよ。",
+     "vi": "A: Rốt cuộc có đến hay không? B: Ừm, chưa biết nữa… A: Lửng lơ thế. Trong hôm nay quyết đi đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "態度[たいど]",
+     "vi": "thái độ"
+    },
+    {
+     "jp": "返事[へんじ]",
+     "vi": "câu trả lời"
+    }
+   ],
+   "rel": [
+    "v:優柔不断:ゆうじゅうふだん"
+   ],
+   "note": "Gốc: 煮[に]え切[き]る (nấu chín hẳn) + phủ định → (thái độ, câu trả lời) nửa vời, không rõ ràng. Thường dùng: 煮[に]え切[き]らない態度[たいど] / 返事[へんじ] / 人[ひと]."
+  },
+  {
+   "id": "v:方策:ほうさく",
+   "kana": "ほうさく",
+   "kanji": "方策",
+   "hv": "PHƯƠNG SÁCH",
+   "vi": "phương sách, cách giải quyết",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải pháp & hướng xử lý",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人手不足[ひとでふそく]を補[おぎな]う方策[ほうさく]として、機械化[きかいか]を進[すす]めることになった。",
+     "vi": "Như một phương sách bù đắp thiếu hụt nhân lực, đã quyết định đẩy mạnh cơ giới hóa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "市[し]は、空[あ]き家[や]を減[へ]らすための方策[ほうさく]を検討[けんとう]している。",
+     "vi": "Thành phố đang xem xét phương sách giảm nhà bỏ trống.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "方策[ほうさく]を講[こう]じる",
+     "vi": "đề ra phương sách"
+    },
+    {
+     "jp": "方策[ほうさく]を練[ね]る",
+     "vi": "nghiền ngẫm cách giải quyết"
+    }
+   ],
+   "confuse": [
+    "v:対策:たいさく",
+    "v:手立て:てだて"
+   ],
+   "note": "方策[ほうさく] = cách thức, kế sách để đạt mục đích (văn viết). 対策[たいさく] = biện pháp đối phó một vấn đề cụ thể. 手立[てだ]て = cách, phương tiện (văn nói hơn)."
+  },
+  {
+   "id": "v:善後策:ぜんごさく",
+   "kana": "ぜんごさく",
+   "kanji": "善後策",
+   "hv": "THIỆN HẬU SÁCH",
+   "vi": "biện pháp khắc phục hậu quả",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải pháp & hướng xử lý",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不良品[ふりょうひん]が出荷[しゅっか]されてしまい、関係者[かんけいしゃ]が集[あつ]まって善後策[ぜんごさく]を話[はな]し合[あ]った。",
+     "vi": "Hàng lỗi lỡ bị xuất đi, những người liên quan họp lại bàn cách khắc phục.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台風[たいふう]で屋根[やね]が壊[こわ]れ、家族[かぞく]で善後策[ぜんごさく]を考[かんが]えた。",
+     "vi": "Bão làm hỏng mái nhà, cả nhà ngồi nghĩ cách khắc phục.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "善後策[ぜんごさく]を講[こう]じる",
+     "vi": "lập biện pháp khắc phục"
+    },
+    {
+     "jp": "善後策[ぜんごさく]を協議[きょうぎ]する",
+     "vi": "bàn biện pháp xử lý"
+    }
+   ],
+   "rel": [
+    "v:対策:たいさく",
+    "v:打開:だかい"
+   ],
+   "note": "善後策[ぜんごさく] = biện pháp xử lý cho ổn thỏa SAU KHI sự việc xấu đã xảy ra (善後[ぜんご] = làm tốt phần sau). Hay đi với 講[こう]じる, 協議[きょうぎ]する, 練[ね]る."
+  },
+  {
+   "id": "v:暫定:ざんてい",
+   "kana": "ざんてい",
+   "kanji": "暫定",
+   "hv": "TẠM ĐỊNH",
+   "vi": "tạm định (trước khi có quyết định chính thức)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải pháp & hướng xử lý",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい機械[きかい]が届[とど]くまで、暫定的[ざんていてき]に手作業[てさぎょう]で対応[たいおう]する。",
+     "vi": "Cho tới khi máy mới đến, tạm thời xử lý bằng tay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "正式[せいしき]な結果[けっか]が出[で]るまで、この順位[じゅんい]はあくまで暫定[ざんてい]だ。",
+     "vi": "Cho đến khi có kết quả chính thức, thứ hạng này chỉ là tạm thời.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このやり方[かた]で決[き]まりですか。B：いや、暫定[ざんてい]の手順[てじゅん]だよ。来月[らいげつ]正式[せいしき]に決[き]めるから。",
+     "vi": "A: Làm theo cách này là chốt rồi ạ? B: Không, đây là quy trình tạm thời. Tháng sau mới quyết chính thức.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:代替:だいたい"
+   ],
+   "note": "暫定[ざんてい] = tạm định ra trong lúc chờ cái chính thức (暫定的[ざんていてき] = mang tính tạm thời, 暫定[ざんてい]措置[そち] = biện pháp tạm thời, 暫定[ざんてい]順位[じゅんい] = thứ hạng tạm thời). Khác 一時[いちじ]的[てき] = chỉ trong một lúc."
+  },
+  {
+   "id": "v:苦肉の策:くにくのさく",
+   "kana": "くにくのさく",
+   "kanji": "苦肉の策",
+   "kf": "苦肉[くにく]の策[さく]",
+   "hv": "KHỔ NHỤC SÁCH",
+   "vi": "kế sách bất đắc dĩ (cùng đường mới dùng)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải pháp & hướng xử lý",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人手[ひとで]が足[た]りず、苦肉[くにく]の策[さく]として事務[じむ]の人[ひと]にもラインに入[はい]ってもらった。",
+     "vi": "Thiếu người, đành bất đắc dĩ nhờ cả người bên văn phòng vào dây chuyền.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "部屋[へや]が狭[せま]いので、苦肉[くにく]の策[さく]でベッドの下[した]を収納[しゅうのう]にしている。",
+     "vi": "Phòng chật nên bất đắc dĩ phải tận dụng gầm giường làm chỗ chứa đồ.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:打つ手:うつて",
+    "v:一か八か:いちかばちか"
+   ],
+   "note": "苦肉[くにく]の策[さく] = cách làm chẳng hay ho gì nhưng cùng đường nên đành dùng (nghĩa gốc: kế khổ nhục — tự làm khổ mình để lừa địch). Hay dùng: 苦肉[くにく]の策[さく]として / 苦肉[くにく]の策[さく]だ."
+  },
+  {
+   "id": "v:糸口:いとぐち",
+   "kana": "いとぐち",
+   "kanji": "糸口",
+   "hv": "MỊCH KHẨU",
+   "vi": "đầu mối gỡ rối, điểm khởi đầu (giải quyết, câu chuyện)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải pháp & hướng xử lý",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "記録[きろく]を細[こま]かく見直[みなお]したことが、問題解決[もんだいかいけつ]の糸口[いとぐち]になった。",
+     "vi": "Việc xem lại kỹ sổ ghi chép đã trở thành đầu mối để giải quyết vấn đề.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "共通[きょうつう]の趣味[しゅみ]が話[はなし]の糸口[いとぐち]になって、隣[となり]の席[せき]の人[ひと]と仲良[なかよ]くなった。",
+     "vi": "Sở thích chung thành cái cớ bắt chuyện, tôi thân với người ngồi bên cạnh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：異物[いぶつ]の原因[げんいん]、何[なに]かわかった？B：まだだけど、糸口[いとぐち]は見[み]えてきたよ。",
+     "vi": "A: Nguyên nhân dị vật biết gì chưa? B: Chưa, nhưng đã thấy manh mối rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "解決[かいけつ]の糸口[いとぐち]をつかむ",
+     "vi": "nắm được đầu mối giải quyết"
+    },
+    {
+     "jp": "糸口[いとぐち]を探[さぐ]る",
+     "vi": "dò tìm manh mối"
+    }
+   ],
+   "confuse": [
+    "v:突破口:とっぱこう"
+   ],
+   "note": "Nghĩa gốc: đầu sợi chỉ. 糸口[いとぐち] = điểm bắt đầu để lần ra (lời giải, câu chuyện). 突破口[とっぱこう] = chỗ để phá vỡ thế bế tắc."
+  },
+  {
+   "id": "v:突破口:とっぱこう",
+   "kana": "とっぱこう",
+   "kanji": "突破口",
+   "hv": "ĐỘT PHÁ KHẨU",
+   "vi": "lối thoát, chỗ đột phá (khỏi bế tắc)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải pháp & hướng xử lý",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新商品[しんしょうひん]の開発[かいはつ]が、売[う]り上[あ]げ低迷[ていめい]の突破口[とっぱこう]になるかもしれない。",
+     "vi": "Việc phát triển sản phẩm mới có lẽ sẽ là lối thoát khỏi tình trạng doanh số trì trệ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "相手[あいて]の守[まも]りが固[かた]く、なかなか突破口[とっぱこう]が見[み]つからなかった。",
+     "vi": "Hàng phòng thủ đối phương chắc chắn, mãi không tìm được chỗ đột phá.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "突破口[とっぱこう]を開[ひら]く",
+     "vi": "mở ra lối thoát"
+    },
+    {
+     "jp": "突破口[とっぱこう]を見[み]いだす",
+     "vi": "tìm ra chỗ đột phá"
+    }
+   ],
+   "confuse": [
+    "v:糸口:いとぐち"
+   ],
+   "rel": [
+    "v:打開:だかい"
+   ],
+   "note": "突破口[とっぱこう] = chỗ chọc thủng được để vượt qua tình thế khó (突破口[とっぱこう]を開[ひら]く / 見[み]いだす). 打開[だかい] = phá vỡ thế bế tắc."
+  },
+  {
+   "id": "v:模索:もさく",
+   "kana": "もさく",
+   "kanji": "模索",
+   "hv": "MÔ SÁCH",
+   "vi": "tìm tòi, mò mẫm (tìm cách khi chưa có lời giải)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải pháp & hướng xử lý",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "廃棄[はいき]を減[へ]らす方法[ほうほう]を、現場[げんば]と一緒[いっしょ]に模索[もさく]している。",
+     "vi": "Đang cùng hiện trường mày mò tìm cách giảm hàng phải hủy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "定年後[ていねんご]の生[い]き方[かた]を模索[もさく]する人[ひと]が増[ふ]えている。",
+     "vi": "Ngày càng nhiều người tìm tòi cách sống sau tuổi nghỉ hưu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新[あたら]しいライン、うまく回[まわ]ってる？B：まだ試行錯誤[しこうさくご]だね。いい配置[はいち]を模索[もさく]中[ちゅう]だよ。",
+     "vi": "A: Dây chuyền mới chạy ổn không? B: Vẫn đang thử và sai. Đang mò tìm cách bố trí tốt.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "解決策[かいけつさく]を模索[もさく]する",
+     "vi": "tìm tòi giải pháp"
+    },
+    {
+     "jp": "打開[だかい]策[さく]を模索[もさく]する",
+     "vi": "tìm cách phá thế bế tắc"
+    }
+   ],
+   "rel": [
+    "v:試行錯誤:しこうさくご"
+   ],
+   "note": "模索[もさく] = tìm cách khi chưa có lời giải rõ (nghĩa gốc: sờ soạng trong bóng tối). 暗中模索[あんちゅうもさく] = mò mẫm trong bóng tối. 模索[もさく]中[ちゅう] = đang tìm tòi."
+  },
+  {
+   "id": "v:妥結:だけつ",
+   "kana": "だけつ",
+   "kanji": "妥結",
+   "hv": "THỎA KẾT",
+   "vi": "đi tới thỏa thuận (sau thương lượng)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải pháp & hướng xử lý",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "労使[ろうし]の交渉[こうしょう]が妥結[だけつ]し、来月[らいげつ]から賃金[ちんぎん]が上[あ]がることになった。",
+     "vi": "Thương lượng giữa chủ và thợ đã đi tới thỏa thuận, từ tháng sau lương sẽ tăng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "長[なが]い話[はな]し合[あ]いの末[すえ]、価格[かかく]の面[めん]で妥結[だけつ]した。",
+     "vi": "Sau buổi bàn bạc dài, hai bên đã thỏa thuận được về mặt giá cả.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "交渉[こうしょう]が妥結[だけつ]する",
+     "vi": "cuộc đàm phán đi tới thỏa thuận"
+    },
+    {
+     "jp": "価格[かかく]で妥結[だけつ]する",
+     "vi": "thỏa thuận về giá"
+    }
+   ],
+   "confuse": [
+    "v:妥協:だきょう",
+    "v:合意:ごうい"
+   ],
+   "note": "妥結[だけつ] = hai bên nhượng bộ rồi đi đến thống nhất, kết thúc đàm phán (báo chí: 交渉[こうしょう]が妥結[だけつ]する). 妥協[だきょう] = nhượng bộ. 合意[ごうい] = đồng ý chung."
+  },
+  {
+   "id": "v:落としどころ:おとしどころ",
+   "kana": "おとしどころ",
+   "kanji": "落としどころ",
+   "kf": "落[お]としどころ",
+   "hv": "LẠC",
+   "vi": "điểm dung hòa (cả hai bên chấp nhận được)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giải pháp & hướng xử lý",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "双方[そうほう]の要求[ようきゅう]には差[さ]があるが、どこかに落[お]としどころを見[み]つけたい。",
+     "vi": "Yêu cầu hai bên còn chênh nhau, nhưng muốn tìm được điểm dung hòa ở đâu đó.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "夫婦[ふうふ]げんかも、お互[たが]いが納得[なっとく]できる落[お]としどころが大切[たいせつ]だ。",
+     "vi": "Cãi nhau vợ chồng thì điều quan trọng là chỗ dung hòa mà cả hai cùng chấp nhận.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：値下[ねさ]げの件[けん]、どうなった？B：五[ご]パーセントあたりが落[お]としどころかな。",
+     "vi": "A: Vụ giảm giá thế nào rồi? B: Chắc khoảng năm phần trăm là điểm dung hòa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "落[お]としどころを探[さぐ]る",
+     "vi": "dò tìm điểm dung hòa"
+    }
+   ],
+   "rel": [
+    "v:妥協:だきょう",
+    "v:歩み寄る:あゆみよる"
+   ],
+   "note": "落[お]としどころ = kết luận mà các bên có thể chấp nhận (khẩu ngữ trong đàm phán, họp). Cũng viết 落[お]とし所[どころ]."
+  },
+  {
+   "id": "v:拮抗:きっこう",
+   "kana": "きっこう",
+   "kanji": "拮抗",
+   "hv": "KIẾT KHÁNG",
+   "vi": "ngang ngửa, cân bằng giằng co",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thi đấu & thế trận",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "両[りょう]チームの実力[じつりょく]は拮抗[きっこう]していて、最後[さいご]まで目[め]が離[はな]せなかった。",
+     "vi": "Thực lực hai đội ngang ngửa, không rời mắt được tới phút cuối.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "賛成[さんせい]と反対[はんたい]の意見[いけん]が拮抗[きっこう]し、会議[かいぎ]では結論[けつろん]が出[で]なかった。",
+     "vi": "Ý kiến tán thành và phản đối cân bằng nhau, cuộc họp không ra được kết luận.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：今度[こんど]の品質[ひんしつ]コンテスト、どこが勝[か]ちそう？B：うちと二班[にはん]の点数[てんすう]が拮抗[きっこう]してるから、最後[さいご]までわからないよ。",
+     "vi": "A: Cuộc thi chất lượng lần này tổ nào có vẻ thắng? B: Điểm tổ mình với tổ 2 ngang ngửa nên chưa biết được tới phút cuối.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "実力[じつりょく]が拮抗[きっこう]する",
+     "vi": "thực lực ngang ngửa"
+    },
+    {
+     "jp": "意見[いけん]が拮抗[きっこう]する",
+     "vi": "ý kiến cân bằng nhau"
+    }
+   ],
+   "confuse": [
+    "v:互角:ごかく",
+    "v:伯仲:はくちゅう"
+   ],
+   "note": "拮抗[きっこう] = hai lực ngang nhau giằng co, không bên nào lấn được (văn viết). 互角[ごかく] = ngang tài ngang sức. 伯仲[はくちゅう] = sàn sàn nhau, khó phân anh em."
+  },
+  {
+   "id": "v:互角:ごかく",
+   "kana": "ごかく",
+   "kanji": "互角",
+   "hv": "HỖ GIÁC",
+   "vi": "ngang tài ngang sức",
+   "pos": "adj-na",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thi đấu & thế trận",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "前半[ぜんはん]は互角[ごかく]の戦[たたか]いだったが、後半[こうはん]に入[はい]って差[さ]がついた。",
+     "vi": "Hiệp một là trận đấu ngang tài ngang sức, nhưng sang hiệp hai thì có chênh lệch.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]ながら、ベテランと互角[ごかく]に渡[わた]り合[あ]える技術[ぎじゅつ]を持[も]っている。",
+     "vi": "Tuy là người mới nhưng có kỹ thuật đọ ngang được với người lâu năm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：将棋[しょうぎ]、お父[とう]さんに勝[か]てた？B：最近[さいきん]は、ほぼ互角[ごかく]だよ。",
+     "vi": "A: Cờ shogi đã thắng được bố chưa? B: Dạo này gần như ngang ngửa rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "戦[たたか]い",
+     "vi": "trận đấu"
+    },
+    {
+     "jp": "勝負[しょうぶ]",
+     "vi": "cuộc đọ sức"
+    }
+   ],
+   "rel": [
+    "v:拮抗:きっこう",
+    "v:伯仲:はくちゅう"
+   ],
+   "note": "互角[ごかく] = ngang tài ngang sức (互角[ごかく]の勝負[しょうぶ] / 互角[ごかく]に戦[たたか]う / 互角[ごかく]に渡[わた]り合[あ]う). Nghĩa gốc: hai sừng trâu dài bằng nhau."
+  },
+  {
+   "id": "v:伯仲:はくちゅう",
+   "kana": "はくちゅう",
+   "kanji": "伯仲",
+   "hv": "BÁ TRỌNG",
+   "vi": "sàn sàn nhau, khó phân trên dưới",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thi đấu & thế trận",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "両者[りょうしゃ]の実力[じつりょく]は伯仲[はくちゅう]しており、どちらが勝[か]ってもおかしくない。",
+     "vi": "Thực lực hai bên sàn sàn nhau, bên nào thắng cũng không lạ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今年[ことし]の生産量[せいさんりょう]は、隣[となり]の工場[こうじょう]とほぼ伯仲[はくちゅう]している。",
+     "vi": "Sản lượng năm nay gần như sàn sàn với xưởng bên cạnh.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "実力[じつりょく]が伯仲[はくちゅう]する",
+     "vi": "thực lực ngang nhau"
+    }
+   ],
+   "confuse": [
+    "v:拮抗:きっこう"
+   ],
+   "rel": [
+    "v:互角:ごかく"
+   ],
+   "note": "伯[はく] = anh cả, 仲[ちゅう] = em thứ → anh em khó phân trên dưới. Hay dùng: 実力[じつりょく]伯仲[はくちゅう] / 伯仲[はくちゅう]した戦[たたか]い (văn viết, báo chí)."
+  },
+  {
+   "id": "v:接戦:せっせん",
+   "kana": "せっせん",
+   "kanji": "接戦",
+   "hv": "TIẾP CHIẾN",
+   "vi": "trận đấu sát nút, cuộc đua sát sao",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thi đấu & thế trận",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "決勝[けっしょう]は最後[さいご]まで接戦[せっせん]となり、延長戦[えんちょうせん]にもつれ込[こ]んだ。",
+     "vi": "Trận chung kết giằng co sát nút tới phút cuối, kéo sang cả hiệp phụ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "技能[ぎのう]コンテストは接戦[せっせん]の末[すえ]、うちの班[はん]が一点[いってん]差[さ]で優勝[ゆうしょう]した。",
+     "vi": "Cuộc thi tay nghề sau một hồi sát sao, tổ chúng tôi vô địch với cách biệt một điểm.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "接戦[せっせん]を制[せい]する",
+     "vi": "thắng trận sát nút"
+    },
+    {
+     "jp": "接戦[せっせん]になる",
+     "vi": "thành cuộc đua sát sao"
+    }
+   ],
+   "rel": [
+    "v:僅差:きんさ",
+    "v:拮抗:きっこう"
+   ],
+   "note": "接戦[せっせん] = trận đấu mà hai bên bám đuổi sát (大[だい]接戦[せっせん] = cực kỳ sát nút). 接戦[せっせん]を制[せい]する = thắng trận sát nút. 僅差[きんさ] = khoảng cách sít sao (kết quả)."
+  },
+  {
+   "id": "v:劣勢:れっせい",
+   "kana": "れっせい",
+   "kanji": "劣勢",
+   "hv": "LIỆT THẾ",
+   "vi": "thế yếu, thế bất lợi",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thi đấu & thế trận",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "序盤[じょばん]は劣勢[れっせい]だったが、後半[こうはん]に逆転[ぎゃくてん]した。",
+     "vi": "Đầu trận ở thế yếu nhưng hiệp sau đã lội ngược dòng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "価格競争[かかくきょうそう]で劣勢[れっせい]に立[た]たされ、品質[ひんしつ]で勝負[しょうぶ]することにした。",
+     "vi": "Rơi vào thế bất lợi trong cạnh tranh giá nên quyết định đọ bằng chất lượng.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "劣勢[れっせい]に立[た]たされる",
+     "vi": "bị đẩy vào thế yếu"
+    },
+    {
+     "jp": "劣勢[れっせい]を挽回[ばんかい]する",
+     "vi": "gỡ lại thế yếu"
+    }
+   ],
+   "ant": [
+    {
+     "w": "優勢[ゆうせい]",
+     "vi": "thế mạnh, thế trên"
+    }
+   ],
+   "rel": [
+    "v:形勢:けいせい",
+    "v:挽回:ばんかい"
+   ],
+   "note": "劣勢[れっせい]に立[た]つ / 立[た]たされる = ở thế yếu; 劣勢[れっせい]を挽回[ばんかい]する = gỡ lại thế yếu. Trái nghĩa: 優勢[ゆうせい]."
+  },
+  {
+   "id": "v:形勢:けいせい",
+   "kana": "けいせい",
+   "kanji": "形勢",
+   "hv": "HÌNH THẾ",
+   "vi": "thế trận, chiều hướng hơn thua",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thi đấu & thế trận",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一人[ひとり]が退場[たいじょう]して、試合[しあい]の形勢[けいせい]が一気[いっき]に変[か]わった。",
+     "vi": "Một cầu thủ bị đuổi khỏi sân, cục diện trận đấu thay đổi ngay.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "会議[かいぎ]の形勢[けいせい]は、現場[げんば]の意見[いけん]を重視[じゅうし]する方向[ほうこう]に傾[かたむ]いた。",
+     "vi": "Cục diện cuộc họp nghiêng về hướng coi trọng ý kiến hiện trường.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：交渉[こうしょう]、どんな感[かん]じ？B：最初[さいしょ]は不利[ふり]だったけど、データを見[み]せたら形勢[けいせい]が逆転[ぎゃくてん]したよ。",
+     "vi": "A: Đàm phán thế nào rồi? B: Lúc đầu bất lợi nhưng đưa số liệu ra là thế trận đảo ngược.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "形勢[けいせい]が逆転[ぎゃくてん]する",
+     "vi": "thế trận đảo ngược"
+    },
+    {
+     "jp": "形勢[けいせい]をうかがう",
+     "vi": "dò xét tình thế"
+    }
+   ],
+   "rel": [
+    "v:劣勢:れっせい",
+    "v:逆転:ぎゃくてん"
+   ],
+   "note": "形勢[けいせい] = tình thế, chiều hướng hơn thua lúc đó (形勢[けいせい]が有利[ゆうり] / 不利[ふり], 形勢[けいせい]逆転[ぎゃくてん]). 形勢[けいせい]をうかがう = dò xét tình thế, chờ xem bên nào thắng."
+  },
+  {
+   "id": "v:惜敗:せきはい",
+   "kana": "せきはい",
+   "kanji": "惜敗",
+   "hv": "TÍCH BẠI",
+   "vi": "thua tiếc nuối (cách biệt nhỏ)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thi đấu & thế trận",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地元[じもと]の高校[こうこう]は、決勝[けっしょう]で惜敗[せきはい]した。",
+     "vi": "Trường cấp ba địa phương thua tiếc nuối ở trận chung kết.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "うちの班[はん]は惜敗[せきはい]したが、来年[らいねん]こそ優勝[ゆうしょう]を目指[めざ]す。",
+     "vi": "Tổ chúng tôi thua tiếc nuối, nhưng sang năm nhất định nhắm chức vô địch.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：昨日[きのう]の試合[しあい]、どうだった？B：一点[いってん]差[さ]で惜敗[せきはい]だったよ。悔[くや]しい！",
+     "vi": "A: Trận hôm qua thế nào? B: Thua tiếc một điểm. Ức thật!",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "強豪[きょうごう]に惜敗[せきはい]する",
+     "vi": "thua sát nút trước đối thủ mạnh"
+    },
+    {
+     "jp": "決勝[けっしょう]で惜敗[せきはい]する",
+     "vi": "thua tiếc ở chung kết"
+    }
+   ],
+   "rel": [
+    "v:僅差:きんさ",
+    "v:圧勝:あっしょう"
+   ],
+   "note": "惜敗[せきはい] = thua với cách biệt nhỏ, đáng tiếc (từ báo chí thể thao). So sánh: 完敗[かんぱい] = thua hoàn toàn; 圧勝[あっしょう] = thắng áp đảo."
+  },
+  {
+   "id": "v:圧勝:あっしょう",
+   "kana": "あっしょう",
+   "kanji": "圧勝",
+   "hv": "ÁP THẮNG",
+   "vi": "thắng áp đảo",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thi đấu & thế trận",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "地元[じもと]のチームが、大差[たいさ]で圧勝[あっしょう]した。",
+     "vi": "Đội nhà thắng áp đảo với cách biệt lớn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "品質[ひんしつ]コンテストで、うちの班[はん]は衛生管理[えいせいかんり]の点数[てんすう]でほかの班[はん]に圧勝[あっしょう]した。",
+     "vi": "Ở cuộc thi chất lượng, tổ chúng tôi thắng áp đảo các tổ khác về điểm quản lý vệ sinh.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：投票[とうひょう]の結果[けっか]、どうだった？B：社員旅行[しゃいんりょこう]は、温泉[おんせん]の案[あん]の圧勝[あっしょう]だったよ。",
+     "vi": "A: Kết quả bỏ phiếu thế nào? B: Du lịch công ty thì phương án suối nước nóng thắng áp đảo.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "大差[たいさ]で圧勝[あっしょう]する",
+     "vi": "thắng áp đảo với cách biệt lớn"
+    }
+   ],
+   "rel": [
+    "v:惜敗:せきはい",
+    "v:優勝:ゆうしょう"
+   ],
+   "note": "圧勝[あっしょう] = thắng đè bẹp, bỏ xa đối thủ. Gần nghĩa: 大勝[たいしょう], 快勝[かいしょう] (thắng giòn giã). Trái nghĩa: 惨敗[ざんぱい] (thua thảm hại)."
+  },
+  {
+   "id": "v:番狂わせ:ばんくるわせ",
+   "kana": "ばんくるわせ",
+   "kanji": "番狂わせ",
+   "kf": "番狂[ばんくる]わせ",
+   "hv": "PHIÊN CUỒNG",
+   "vi": "kết quả bất ngờ (bên yếu thắng bên mạnh)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thi đấu & thế trận",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "優勝[ゆうしょう]候補[こうほ]が一回[いっかい]戦[せん]で負[ま]けるという番狂[ばんくる]わせが起[お]きた。",
+     "vi": "Đã xảy ra bất ngờ: ứng viên vô địch thua ngay vòng một.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新人[しんじん]ばかりの班[はん]が一位[いちい]になるという番狂[ばんくる]わせに、工場[こうじょう]のみんなが驚[おどろ]いた。",
+     "vi": "Cả xưởng kinh ngạc trước bất ngờ: tổ toàn người mới giành hạng nhất.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:逆転:ぎゃくてん"
+   ],
+   "note": "番狂[ばんくる]わせ = diễn biến khác hẳn dự đoán, đặc biệt khi bên yếu thắng bên mạnh (thể thao, bình chọn). Nghĩa gốc: thứ tự (番[ばん]) bị đảo lộn. Hay dùng: 番狂[ばんくる]わせが起[お]きる / 大番狂[おおばんくる]わせ."
+  },
+  {
+   "id": "v:追い上げる:おいあげる",
+   "kana": "おいあげる",
+   "kanji": "追い上げる",
+   "kf": "追[お]い上[あ]げる",
+   "hv": "TRUY THƯỢNG",
+   "vi": "bám đuổi, rút ngắn khoảng cách (từ phía sau)",
+   "pos": "v1",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thi đấu & thế trận",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "後半[こうはん]に入[はい]って、相手[あいて]チームが猛烈[もうれつ]に追[お]い上[あ]げてきた。",
+     "vi": "Sang hiệp hai, đội đối phương bám đuổi dữ dội.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "他社[たしゃ]が品質[ひんしつ]で追[お]い上[あ]げてきているので、うちも油断[ゆだん]できない。",
+     "vi": "Các công ty khác đang bám đuổi về chất lượng nên chúng ta cũng không thể lơ là.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：マラソン、何位[なんい]だった？B：途中[とちゅう]は抜[ぬ]きつ抜[ぬ]かれつだったけど、最後[さいご]に追[お]い上[あ]げて三位[さんい]になったよ。",
+     "vi": "A: Chạy marathon được hạng mấy? B: Giữa chừng cứ vượt lên rồi bị vượt, nhưng cuối cùng bám đuổi lên được hạng ba.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "首位[しゅい]を追[お]い上[あ]げる",
+     "vi": "bám đuổi đội đầu bảng"
+    },
+    {
+     "jp": "猛烈[もうれつ]に追[お]い上[あ]げる",
+     "vi": "bám đuổi dữ dội"
+    }
+   ],
+   "rel": [
+    "v:巻き返す:まきかえす",
+    "v:逆転:ぎゃくてん"
+   ],
+   "note": "追[お]い上[あ]げる = từ phía sau rút ngắn dần khoảng cách với bên dẫn đầu. Danh từ: 追[お]い上[あ]げ (終盤[しゅうばん]の追[お]い上[あ]げ = cú bám đuổi cuối trận)."
+  },
+  {
+   "id": "v:巻き返す:まきかえす",
+   "kana": "まきかえす",
+   "kanji": "巻き返す",
+   "kf": "巻[ま]き返[かえ]す",
+   "hv": "QUYỂN PHẢN",
+   "vi": "lấy lại thế, gỡ lại (sau khi bị dẫn, bị chậm)",
+   "pos": "v5",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thi đấu & thế trận",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "前半[ぜんはん]は押[お]されていたが、後半[こうはん]で一気[いっき]に巻[ま]き返[かえ]した。",
+     "vi": "Hiệp một bị lấn át nhưng hiệp hai lấy lại thế một mạch.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "先月[せんげつ]は目標[もくひょう]に届[とど]かなかったが、今月[こんげつ]こそ巻[ま]き返[かえ]したい。",
+     "vi": "Tháng trước không đạt mục tiêu, tháng này nhất định phải gỡ lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：今週[こんしゅう]は出荷[しゅっか]が遅[おく]れ気味[ぎみ]だね。B：はい。でも週末[しゅうまつ]までには巻[ま]き返[かえ]します。",
+     "vi": "A: Tuần này xuất hàng hơi chậm nhỉ. B: Vâng. Nhưng tới cuối tuần sẽ gỡ lại ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "劣勢[れっせい]を巻[ま]き返[かえ]す",
+     "vi": "lật lại thế yếu"
+    },
+    {
+     "jp": "遅[おく]れを巻[ま]き返[かえ]す",
+     "vi": "gỡ lại phần chậm trễ"
+    }
+   ],
+   "confuse": [
+    "v:挽回:ばんかい"
+   ],
+   "rel": [
+    "v:追い上げる:おいあげる",
+    "v:劣勢:れっせい"
+   ],
+   "note": "巻[ま]き返[かえ]す = từ thế bị lấn át, phản công giành lại thế (danh từ 巻[ま]き返[かえ]し). 挽回[ばんかい] = gỡ lại cái đã mất (名誉[めいよ]挽回[ばんかい], 遅[おく]れを挽回[ばんかい]する). Nghĩa gốc: cuộn ngược lại."
+  },
+  {
+   "id": "v:白熱:はくねつ",
+   "kana": "はくねつ",
+   "kanji": "白熱",
+   "hv": "BẠCH NHIỆT",
+   "vi": "trở nên sôi nổi, nảy lửa (tranh luận, trận đấu)",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Thi đấu & thế trận",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい作業[さぎょう]手順[てじゅん]をめぐって、会議[かいぎ]の議論[ぎろん]が白熱[はくねつ]した。",
+     "vi": "Xoay quanh quy trình làm việc mới, cuộc tranh luận trong họp trở nên nảy lửa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "白熱[はくねつ]した試合[しあい]に、観客[かんきゃく]は総立[そうだ]ちになった。",
+     "vi": "Trận đấu nảy lửa khiến khán giả đứng cả dậy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：昨日[きのう]の綱引[つなひ]き大会[たいかい]、盛[も]り上[あ]がったね。B：うん。最後[さいご]まで白熱[はくねつ]して、声[こえ]がかれちゃったよ。",
+     "vi": "A: Hội kéo co hôm qua sôi nổi nhỉ. B: Ừ. Nảy lửa tới phút cuối, tôi hò khản cả giọng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "議論[ぎろん]が白熱[はくねつ]する",
+     "vi": "tranh luận trở nên sôi nổi"
+    },
+    {
+     "jp": "試合[しあい]が白熱[はくねつ]する",
+     "vi": "trận đấu trở nên nảy lửa"
+    }
+   ],
+   "note": "Nghĩa gốc: (kim loại) nóng trắng. Nghĩa thường: tranh luận, thi đấu hết sức sôi nổi (白熱[はくねつ]した議論[ぎろん] / 試合[しあい]). 白熱[はくねつ]電球[でんきゅう] = bóng đèn sợi đốt."
+  },
+  {
+   "id": "v:食い下がる:くいさがる",
+   "kana": "くいさがる",
+   "kanji": "食い下がる",
+   "kf": "食[く]い下[さ]がる",
+   "hv": "THỰC HẠ",
+   "vi": "bám riết, không chịu buông (khi tranh luận, thi đấu)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giằng co & bế tắc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "断[ことわ]られても、彼[かれ]は諦[あきら]めずに何度[なんど]も食[く]い下[さ]がった。",
+     "vi": "Bị từ chối nhưng anh ấy không bỏ cuộc, bám riết hết lần này tới lần khác.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "取引先[とりひきさき]から値上[ねあ]げを求[もと]められたが、課長[かちょう]は粘[ねば]り強[づよ]く食[く]い下[さ]がった。",
+     "vi": "Bị đối tác đòi tăng giá, trưởng phòng kiên trì bám riết thương lượng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あの記者[きしゃ]、しつこかったね。B：うん。説明[せつめい]しても納得[なっとく]しないで、最後[さいご]まで食[く]い下[さ]がってきた。",
+     "vi": "A: Phóng viên đó dai dẳng nhỉ. B: Ừ. Giải thích rồi vẫn không chịu, bám riết tới cùng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "相手[あいて]に食[く]い下[さ]がる",
+     "vi": "bám riết đối phương"
+    },
+    {
+     "jp": "最後[さいご]まで食[く]い下[さ]がる",
+     "vi": "bám đến cùng"
+    }
+   ],
+   "rel": [
+    "v:粘る:ねばる",
+    "v:粘り強い:ねばりづよい"
+   ],
+   "note": "食[く]い下[さ]がる = không chịu lùi, cứ bám lấy đối phương (hỏi dồn, thương lượng, đấu với đối thủ mạnh). Hay dùng: 〜に食[く]い下[さ]がる."
+  },
+  {
+   "id": "v:競り合う:せりあう",
+   "kana": "せりあう",
+   "kanji": "競り合う",
+   "kf": "競[せ]り合[あ]う",
+   "hv": "CẠNH HỢP",
+   "vi": "tranh nhau sát nút, đua sát sao",
+   "pos": "v5",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giằng co & bế tắc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ゴール前[まえ]で、三人[さんにん]が激[はげ]しく競[せ]り合[あ]った。",
+     "vi": "Trước vạch đích, ba người tranh nhau quyết liệt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "市場[いちば]では、仲買人[なかがいにん]たちがいい魚[さかな]を競[せ]り合[あ]って買[か]う。",
+     "vi": "Ở chợ, những người buôn tranh nhau trả giá mua cá ngon.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：ライバル会社[かいしゃ]と、また競[せ]り合[あ]いになりそうだね。B：うん。価格[かかく]だけじゃなく、品質[ひんしつ]で勝負[しょうぶ]しよう。",
+     "vi": "A: Có vẻ lại thành cuộc đua sát sao với công ty đối thủ nhỉ. B: Ừ. Đừng chỉ đọ giá, hãy đọ bằng chất lượng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "首位[しゅい]を競[せ]り合[あ]う",
+     "vi": "tranh ngôi đầu sát nút"
+    },
+    {
+     "jp": "激[はげ]しく競[せ]り合[あ]う",
+     "vi": "tranh nhau quyết liệt"
+    }
+   ],
+   "confuse": [
+    "v:張り合う:はりあう"
+   ],
+   "rel": [
+    "v:接戦:せっせん"
+   ],
+   "note": "競[せ]り合[あ]う = hai bên ngang nhau, tranh nhau từng chút (thi đấu, đấu giá). Danh từ 競[せ]り合[あ]い. 競[せ]り = đấu giá ở chợ cá. 張[は]り合[あ]う = ganh đua vì không muốn thua (tâm lý)."
+  },
+  {
+   "id": "v:張り合う:はりあう",
+   "kana": "はりあう",
+   "kanji": "張り合う",
+   "kf": "張[は]り合[あ]う",
+   "hv": "TRƯƠNG HỢP",
+   "vi": "ganh đua, kình nhau (không chịu thua)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giằng co & bế tắc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "二人[ふたり]の班長[はんちょう]は、何[なに]かと張[は]り合[あ]っている。",
+     "vi": "Hai tổ trưởng chuyện gì cũng ganh nhau.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "兄弟[きょうだい]で張[は]り合[あ]って、どちらが先[さき]に宿題[しゅくだい]を終[お]えるか競争[きょうそう]している。",
+     "vi": "Hai anh em ganh nhau, thi xem ai làm xong bài tập trước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：隣[となり]の家[いえ]、また新[あたら]しい車[くるま]を買[か]ったみたい。B：うちは張[は]り合[あ]うつもりはないよ。",
+     "vi": "A: Nhà bên cạnh hình như lại mua xe mới. B: Nhà mình không có ý đua theo đâu.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ライバルと張[は]り合[あ]う",
+     "vi": "ganh đua với đối thủ"
+    },
+    {
+     "jp": "意地[いじ]を張[は]り合[あ]う",
+     "vi": "cùng cố chấp không chịu nhau"
+    }
+   ],
+   "confuse": [
+    "v:競り合う:せりあう"
+   ],
+   "rel": [
+    "v:競争:きょうそう"
+   ],
+   "note": "張[は]り合[あ]う = vì không muốn thua mà cạnh tranh, đối đầu với nhau (thường chuyện tâm lý, sĩ diện; 〜と張[は]り合[あ]う). 競[せ]り合[あ]う = tranh nhau sát nút về kết quả."
+  },
+  {
+   "id": "v:一進一退:いっしんいったい",
+   "kana": "いっしんいったい",
+   "kanji": "一進一退",
+   "hv": "NHẤT TIẾN NHẤT THOÁI",
+   "vi": "lúc tiến lúc lùi, giằng co (tình hình, bệnh)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giằng co & bế tắc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "試合[しあい]は一進[いっしん]一退[いったい]の攻防[こうぼう]が続[つづ]いた。",
+     "vi": "Trận đấu giằng co, công thủ qua lại lúc tiến lúc lùi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "祖父[そふ]の病状[びょうじょう]は一進[いっしん]一退[いったい]で、家族[かぞく]は気[き]が抜[ぬ]けない。",
+     "vi": "Bệnh tình ông lúc khá lúc yếu, gia đình không lúc nào yên lòng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "価格[かかく]の交渉[こうしょう]は、一進[いっしん]一退[いったい]を繰[く]り返[かえ]している。",
+     "vi": "Cuộc thương lượng giá cứ tiến rồi lại lùi.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:駆け引き:かけひき",
+    "v:膠着:こうちゃく"
+   ],
+   "note": "一進[いっしん]一退[いったい] = khi tiến khi lùi, không tiến triển rõ (trận đấu, bệnh tình, đàm phán). Gần với mẫu 〜つ〜つ (行[い]きつ戻[もど]りつ = đi tới đi lui)."
+  },
+  {
+   "id": "v:駆け引き:かけひき",
+   "kana": "かけひき",
+   "kanji": "駆け引き",
+   "kf": "駆[か]け引[ひ]き",
+   "hv": "KHU DẪN",
+   "vi": "đấu trí, mặc cả (để giành lợi thế)",
+   "pos": "n-suru",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giằng co & bế tắc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "価格[かかく]交渉[こうしょう]では、相手[あいて]との駆[か]け引[ひ]きが欠[か]かせない。",
+     "vi": "Trong thương lượng giá, không thể thiếu việc đấu trí với đối phương.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "恋愛[れんあい]に駆[か]け引[ひ]きは必要[ひつよう]ないと思[おも]う。",
+     "vi": "Tôi nghĩ yêu đương không cần chiến thuật đấu trí.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最初[さいしょ]から本当[ほんとう]の予算[よさん]を言[い]っちゃっていいの？B：駆[か]け引[ひ]きは苦手[にがて]なんだ。正直[しょうじき]に話[はな]したほうが、長[なが]い付[つ]き合[あ]いになるよ。",
+     "vi": "A: Nói luôn ngân sách thật từ đầu có được không? B: Tôi dở khoản đấu trí. Nói thật thì quan hệ mới lâu dài.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "相手[あいて]と駆[か]け引[ひ]きする",
+     "vi": "đấu trí với đối phương"
+    }
+   ],
+   "rel": [
+    "v:一進一退:いっしんいったい",
+    "v:粘る:ねばる"
+   ],
+   "note": "駆[か]け引[ひ]き = tùy tình hình mà tiến lùi, nhử, giữ bài để giành lợi thế (đàm phán, thi đấu, tình cảm). Nghĩa gốc: trên chiến trường, lúc xông lên (駆[か]け) lúc rút (引[ひ]き)."
+  },
+  {
+   "id": "v:膠着:こうちゃく",
+   "kana": "こうちゃく",
+   "kanji": "膠着",
+   "hv": "GIAO TRƯỚC",
+   "vi": "giậm chân tại chỗ, thế giằng co bất động",
+   "pos": "n-suru",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giằng co & bế tắc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "交渉[こうしょう]は膠着[こうちゃく]状態[じょうたい]に陥[おちい]り、一[いっ]か月[げつ]近[ちか]く進展[しんてん]がない。",
+     "vi": "Đàm phán rơi vào bế tắc, gần một tháng chẳng tiến triển gì.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "試合[しあい]は両[りょう]チーム無得点[むとくてん]のまま膠着[こうちゃく]した。",
+     "vi": "Trận đấu giậm chân tại chỗ, hai đội đều chưa ghi bàn.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "交渉[こうしょう]が膠着[こうちゃく]する",
+     "vi": "đàm phán bế tắc"
+    },
+    {
+     "jp": "試合[しあい]が膠着[こうちゃく]する",
+     "vi": "trận đấu giằng co bất phân"
+    }
+   ],
+   "rel": [
+    "v:平行線:へいこうせん",
+    "v:一進一退:いっしんいったい"
+   ],
+   "note": "膠着[こうちゃく] = dính chặt như keo, không nhúc nhích → tình hình không tiến không lùi (膠着[こうちゃく]状態[じょうたい] = thế bế tắc). Hay dùng khi nói về đàm phán, thi đấu."
+  },
+  {
+   "id": "v:平行線:へいこうせん",
+   "kana": "へいこうせん",
+   "kanji": "平行線",
+   "hv": "BÌNH HÀNH TUYẾN",
+   "vi": "(ý kiến) không gặp nhau, bất đồng kéo dài; đường song song",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giằng co & bế tắc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "話[はな]し合[あ]いは平行線[へいこうせん]をたどり、結論[けつろん]は来週[らいしゅう]に持[も]ち越[こ]された。",
+     "vi": "Cuộc bàn bạc cứ không gặp nhau, kết luận dời sang tuần sau.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "引[ひ]っ越[こ]すかどうかで、夫婦[ふうふ]の意見[いけん]は平行線[へいこうせん]のままだ。",
+     "vi": "Chuyện có chuyển nhà hay không, ý kiến vợ chồng vẫn chưa gặp nhau.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "平行線[へいこうせん]をたどる",
+     "vi": "mãi không gặp nhau"
+    },
+    {
+     "jp": "平行線[へいこうせん]に終[お]わる",
+     "vi": "kết thúc trong bất đồng"
+    }
+   ],
+   "rel": [
+    "v:膠着:こうちゃく",
+    "v:物別れ:ものわかれ"
+   ],
+   "note": "Nghĩa gốc: đường song song (toán học). Nghĩa bóng: hai bên giữ quan điểm, không bao giờ gặp nhau. Cụm cố định: 議論[ぎろん]が平行線[へいこうせん]をたどる / 平行線[へいこうせん]に終[お]わる."
+  },
+  {
+   "id": "v:物別れ:ものわかれ",
+   "kana": "ものわかれ",
+   "kanji": "物別れ",
+   "kf": "物別[ものわか]れ",
+   "hv": "VẬT BIỆT",
+   "vi": "tan họp không đi đến thống nhất",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giằng co & bế tắc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "二回[にかい]目[め]の話[はな]し合[あ]いも、物別[ものわか]れに終[お]わった。",
+     "vi": "Lần bàn bạc thứ hai cũng kết thúc mà không thống nhất được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "騒音[そうおん]の問題[もんだい]で住民[じゅうみん]の集会[しゅうかい]が開[ひら]かれたが、物別[ものわか]れに終[お]わった。",
+     "vi": "Có buổi họp cư dân về chuyện tiếng ồn, nhưng tan mà chẳng ngã ngũ.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "物別[ものわか]れに終[お]わる",
+     "vi": "kết thúc không thống nhất"
+    }
+   ],
+   "rel": [
+    "v:平行線:へいこうせん",
+    "v:合意:ごうい"
+   ],
+   "note": "物別[ものわか]れ = cuộc đàm phán, cuộc họp tan mà không đạt thỏa thuận (gần như chỉ dùng 物別[ものわか]れに終[お]わる / 物別[ものわか]れになる)."
+  },
+  {
+   "id": "v:堂々巡り:どうどうめぐり",
+   "kana": "どうどうめぐり",
+   "kanji": "堂々巡り",
+   "kf": "堂々巡[どうどうめぐ]り",
+   "hv": "ĐƯỜNG ĐƯỜNG TUẦN",
+   "vi": "lẩn quẩn, luẩn quẩn (bàn mãi không ra)",
+   "pos": "n",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giằng co & bế tắc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "誰[だれ]も責任[せきにん]を取[と]ろうとしないので、議論[ぎろん]が堂々[どうどう]巡[めぐ]りになっている。",
+     "vi": "Không ai chịu nhận trách nhiệm nên cuộc tranh luận cứ luẩn quẩn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一人[ひとり]で悩[なや]んでいると、考[かんが]えが堂々[どうどう]巡[めぐ]りしてしまう。",
+     "vi": "Cứ một mình buồn phiền thì suy nghĩ cứ quẩn quanh.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "議論[ぎろん]が堂々[どうどう]巡[めぐ]りする",
+     "vi": "tranh luận cứ lẩn quẩn"
+    }
+   ],
+   "rel": [
+    "v:平行線:へいこうせん"
+   ],
+   "note": "堂々[どうどう]巡[めぐ]り = đi vòng tròn mà không tiến lên (bàn bạc, suy nghĩ quay về điểm xuất phát). Nghĩa gốc: đi vòng quanh điện thờ để cầu nguyện."
+  },
+  {
+   "id": "v:揺れ動く:ゆれうごく",
+   "kana": "ゆれうごく",
+   "kanji": "揺れ動く",
+   "kf": "揺[ゆ]れ動[うご]く",
+   "hv": "DAO ĐỘNG",
+   "vi": "dao động, lay chuyển (lòng người, tình hình)",
+   "pos": "v5",
+   "level": "N1",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Giằng co & bế tắc",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "帰国[きこく]するかどうか、気持[きも]ちが揺[ゆ]れ動[うご]いている。",
+     "vi": "Về nước hay không, lòng tôi cứ dao động.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "為替[かわせ]が大[おお]きく揺[ゆ]れ動[うご]き、輸出[ゆしゅつ]の採算[さいさん]が読[よ]みにくい。",
+     "vi": "Tỷ giá biến động mạnh, khó lường lời lỗ khi xuất khẩu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：転職[てんしょく]の話[はなし]、決[き]めたの？B：まだ。行[い]きつ戻[もど]りつ、気持[きも]ちが揺[ゆ]れ動[うご]いてるんだ。",
+     "vi": "A: Chuyện chuyển việc quyết chưa? B: Chưa. Cứ đi tới đi lui, lòng còn dao động lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "心[こころ]が揺[ゆ]れ動[うご]く",
+     "vi": "lòng dao động"
+    },
+    {
+     "jp": "気持[きも]ちが揺[ゆ]れ動[うご]く",
+     "vi": "tâm trạng chao đảo"
+    }
+   ],
+   "rel": [
+    "v:揺らぐ:ゆらぐ",
+    "v:迷う:まよう"
+   ],
+   "note": "揺[ゆ]れ動[うご]く = lắc qua lắc lại, không yên (tâm trạng, ý kiến, tình hình, thị trường). 揺[ゆ]らぐ = lung lay (niềm tin, nền tảng)."
+  },
+  {
+   "id": "v:否応なしに:いやおうなしに",
+   "kana": "いやおうなしに",
+   "kanji": "否応なしに",
+   "kf": "否応[いやおう]なしに",
+   "hv": "PHỦ ỨNG",
+   "vi": "dù muốn hay không, bắt buộc phải",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "取引先[とりひきさき]の都合[つごう]で、否応[いやおう]なしに納期[のうき]を早[はや]めることになった。",
+     "vi": "Vì hoàn cảnh của đối tác, dù muốn hay không cũng phải đẩy sớm hạn giao hàng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "引[ひ]っ越[こ]してきた当初[とうしょ]は、否応[いやおう]なしに日本語[にほんご]を使[つか]う生活[せいかつ]だった。",
+     "vi": "Hồi mới chuyển đến, cuộc sống buộc phải dùng tiếng Nhật dù muốn hay không.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新[あたら]しいシステム、使[つか]いにくいね。B：うん。でも来月[らいげつ]から全部[ぜんぶ]これになるから、否応[いやおう]なしに覚[おぼ]えるしかないよ。",
+     "vi": "A: Hệ thống mới khó dùng nhỉ. B: Ừ. Nhưng từ tháng sau toàn bộ chuyển sang cái này, nên muốn hay không cũng phải học thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:やむを得ない:やむをえない",
+    "v:やむなく:やむなく"
+   ],
+   "note": "否応[いやおう] = có hay không, đồng ý hay không (否[いや] = không, 応[おう] = vâng). 否応[いやおう]なしに / 否応[いやおう]なく = không cho chọn, bất kể có muốn hay không. 否応[いやおう]を言[い]わせない = không cho phép từ chối."
+  },
+  {
+   "id": "v:辛くも:からくも",
+   "kana": "からくも",
+   "kanji": "辛くも",
+   "kf": "辛[から]くも",
+   "hv": "TÂN",
+   "vi": "khó khăn lắm mới (thắng, thoát)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "延長戦[えんちょうせん]の末[すえ]、辛[から]くも勝利[しょうり]を収[おさ]めた。",
+     "vi": "Sau hiệp phụ, khó khăn lắm mới giành được chiến thắng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "停電[ていでん]したが、予備[よび]の電源[でんげん]のおかげで、冷凍庫[れいとうこ]の温度[おんど]は辛[から]くも保[たも]たれた。",
+     "vi": "Bị mất điện nhưng nhờ nguồn điện dự phòng, nhiệt độ tủ đông vừa vặn giữ được.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:辛うじて:かろうじて"
+   ],
+   "rel": [
+    "v:危うく:あやうく"
+   ],
+   "note": "辛[から]くも = khó khăn lắm mới (thoát nạn, thắng) — văn viết, báo chí. Gần nghĩa 辛[かろ]うじて. Chú ý cách đọc: からくも, khác 辛[つら]い."
+  },
+  {
+   "id": "v:惜しくも:おしくも",
+   "kana": "おしくも",
+   "kanji": "惜しくも",
+   "kf": "惜[お]しくも",
+   "hv": "TÍCH",
+   "vi": "tiếc thay (chỉ thiếu chút nữa là được)",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "惜[お]しくも優勝[ゆうしょう]は逃[のが]したが、選手[せんしゅ]たちはよく頑張[がんば]った。",
+     "vi": "Đáng tiếc là để vuột chức vô địch, nhưng các tuyển thủ đã cố gắng hết sức.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "後輩[こうはい]の田中[たなか]さんは、惜[お]しくも一点[いってん]届[とど]かず、技能[ぎのう]検定[けんてい]に落[お]ちた。",
+     "vi": "Cậu Tanaka đàn em tiếc là thiếu một điểm, trượt kỳ kiểm định tay nghề.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:惜しい:おしい",
+    "v:惜敗:せきはい"
+   ],
+   "note": "惜[お]しくも + kết quả thua, trượt sát nút (惜[お]しくも敗[やぶ]れる / 逃[のが]す / 届[とど]かない). Báo chí thể thao hay dùng."
+  },
+  {
+   "id": "v:まんまと:まんまと",
+   "kana": "まんまと",
+   "kanji": "",
+   "hv": "",
+   "vi": "(lừa, bị lừa) trót lọt, ngon ơ",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "電話[でんわ]で息子[むすこ]を名乗[なの]る男[おとこ]に、まんまとだまされてしまった。",
+     "vi": "Bị gã đàn ông xưng là con trai qua điện thoại lừa trót lọt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "相手[あいて]の作戦[さくせん]にまんまと乗[の]せられ、安[やす]い値段[ねだん]で契約[けいやく]してしまった。",
+     "vi": "Bị đối phương dẫn vào bẫy ngon ơ, lỡ ký hợp đồng với giá rẻ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：あれ、ケーキがない！B：ごめん、弟[おとうと]にまんまと食[た]べられちゃった。",
+     "vi": "A: Ủa, bánh đâu rồi! B: Xin lỗi, bị em trai ăn mất ngon ơ rồi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "note": "まんまと = (lừa / bị lừa, lọt bẫy) một cách trót lọt, đúng như kẻ kia tính (まんまとだます / だまされる / 逃[に]げられる). Sắc thái: cay cú khi mình bị qua mặt."
+  },
+  {
+   "id": "v:代わる代わる:かわるがわる",
+   "kana": "かわるがわる",
+   "kanji": "代わる代わる",
+   "kf": "代[か]わる代[が]わる",
+   "hv": "ĐẠI ĐẠI",
+   "vi": "lần lượt thay nhau",
+   "pos": "adv",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Phó từ",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夜勤[やきん]では、三人[さんにん]が代[か]わる代[が]わる休憩[きゅうけい]を取[と]る。",
+     "vi": "Ca đêm, ba người lần lượt thay nhau nghỉ giải lao.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "子[こ]どもたちが、代[か]わる代[が]わるブランコに乗[の]っている。",
+     "vi": "Bọn trẻ thay nhau đánh đu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新人研修[しんじんけんしゅう]、誰[だれ]が担当[たんとう]するの？B：班[はん]長[ちょう]たちが代[か]わる代[が]わる教[おし]えることになってるよ。",
+     "vi": "A: Đào tạo người mới ai phụ trách? B: Các tổ trưởng sẽ lần lượt thay nhau dạy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "confuse": [
+    {
+     "w": "交互[こうご]",
+     "vi": "xen kẽ, luân phiên (hai thứ)"
+    }
+   ],
+   "rel": [
+    "v:交代:こうたい",
+    "v:順番:じゅんばん"
+   ],
+   "note": "代[か]わる代[が]わる = nhiều người lần lượt thay nhau làm cùng một việc. 交互[こうご]に = xen kẽ A–B–A–B. Văn nói trẻ con: かわりばんこ."
+  }
+ ]
+}
