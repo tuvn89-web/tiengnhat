@@ -44,6 +44,8 @@ const PAGES = [
   [/^nguphap\/luyen\?t=(\w+)$/, m => 'Luyện ngữ pháp · ' + (GT[m[1]] || ''), ['nguphap']],
   [/^nguphap\/luyen(\?g=.*)?$/, () => 'Luyện ngữ pháp', ['nguphap']],
   [/^nguphap\/thithu$/, () => 'Thi thử', ['nguphap']],
+  [/^nguphap\/hieu\?g=.+$/, () => 'Hiểu: chọn nghĩa', ['nguphap']],
+  [/^nguphap\/tron\?g=.+$/, () => 'Luyện trộn mẫu dễ nhầm', ['nguphap']],
   [/^nguphap\/(.+)$/, m => { const g = D.items.get(decodeURIComponent(m[1])); return g ? g.pattern : 'Mẫu ngữ pháp'; }, ['nguphap']],
   [/^kho$/, () => 'Kho từ', []],
   [/^trinhdo$/, () => 'Kiểm tra trình độ', []],

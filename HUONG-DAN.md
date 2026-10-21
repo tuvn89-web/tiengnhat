@@ -1064,3 +1064,26 @@ Bản này làm theo đề xuất "Lộ trình học hiệu quả cho người V
 - Dữ liệu (sửa): các gói từ vựng có danh từ + する (thêm tự / tha), `jlpt-n2-05` (工夫) — xem danh sách trong gói cập nhật.
 - `data/manifest.json`.
 - Bài hướng dẫn trong app: thêm "Một bài học: 7 bước và nút Học lại"; "Học N4 thế nào" có phần 6 bài cầu nối; "Học N3 thế nào" có phần bẫy Hán Việt.
+
+## 60. Bản v51 (21/10/2026): Ngữ pháp "hiểu → dùng"; đọc vừa sức; bài mở đầu cho 6 bài cầu nối
+
+**Ngữ pháp: hiểu → dùng** (trang mẫu ngữ pháp và tab Ngữ pháp của bài):
+- Thứ tự: ① đọc bài giảng → ② **Hiểu** — 4 câu chọn nghĩa mỗi mẫu: "phần tô màu nghĩa là gì trong câu này", "câu này nghĩa là gì" → ③ **Dùng** — điền, sắp xếp, ghép câu… như trước. Làm ② hoặc ③ thì mẫu được tính là đã học.
+- Hiểu trước rồi mới dùng: gặp mẫu trong câu, phải xử lý đúng mẫu mới ra nghĩa — cách này giúp nắm nghĩa chắc hơn so với vào thẳng bài điền chỗ trống.
+- **Ôn trộn mẫu dễ nhầm:** lượt Dùng của bài trộn thêm tối đa 3 mẫu dễ nhầm bạn đã học (lấy từ mục "Dễ nhầm với" của mẫu); trang mẫu có nút "③ Luyện trộn với mẫu dễ nhầm". App báo trước: lúc luyện trộn sai nhiều hơn là bình thường — nhờ vậy phân biệt được và nhớ lâu hơn.
+- Phần Luyện ngữ pháp có thêm dạng bài **Chọn nghĩa (hiểu)**; dạng "Trộn các dạng" cũng có câu chọn nghĩa.
+
+**Đọc vừa sức** (Hội thoại & bài đọc, trang đọc, tab Đọc hiểu của bài):
+- Mỗi bài có số **% từ trong bài bạn đã học**: từ 95% trở lên — đọc trôi; 85–94% — đọc có chú giải, vừa sức để học; dưới 85% — còn nhiều từ mới, nên học từ của bài trước. (Tính trên từ có trong kho từ của app; ngưỡng là ước lượng.)
+- Trang đọc liệt kê từ trong bài bạn chưa học và có nút **"Đưa N từ này vào lịch ôn"** (hỏi lại từ ngày mai). Khi chạm vào câu, từ chưa học có nút **+ Ôn**.
+
+**Bài mở đầu cho 6 bài cầu nối** (chặng N4, bài 28–33 — tab Mở đầu và Đọc hiểu nay có bài):
+- 28 "Một tuần nhiều chuyện" (đuôi câu nhiều tầng) · 29 "Thứ Bảy: ngân hàng, phòng khám, hiệu thuốc" (phần bổ nghĩa trước danh từ) · 30 "Ngày tổng vệ sinh và giờ dự đoán nguy hiểm" (洗わせた / 洗わされた) · 31 "Một ca làm: ai nhờ ai?" (trợ từ báo trước vai) · 32 bài đọc "Thông báo: an toàn và phiếu lương" (câu hai vế cách xa) · 33 "Kèm người mới: bị, được, nhờ, cho" — người mới リン nói câu dịch từ tiếng Việt, anh Nguyễn và chị Hoa sửa.
+- Câu nói sai cố ý (bài 33) có nhãn **✗ Câu nói sai**, chạm vào để xem vì sao; các câu này không đưa vào bài Luyện dịch.
+- Bài 30 thêm 3 từ: バケツ, スポンジ, マスク.
+
+**Tệp:**
+- Mã: `js/gdrill.js`, `js/grammar.js`, `js/lesson.js`, `js/reader.js`, `js/explain.js`, `js/dich.js`, `js/docfit.js` (mới), `js/guides.js`, `js/nav.js`, `js/app.js`, `js/util.js`, `css/app.css`, `sw.js`.
+- Dữ liệu riêng của app (mới): `data/docwords.json` (từ của từng bài đọc, để tính %).
+- Dữ liệu (mới): `modau-n4-28` … `modau-n4-33`. Dữ liệu (sửa): `baihoc-caunoi`.
+- `data/manifest.json`.

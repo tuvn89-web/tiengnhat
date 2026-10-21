@@ -3,7 +3,7 @@ import { appendChunks } from './lazy.js';
 import { D, LEVELS, CTX } from './data.js';
 import { status, dueDirs, errCount, stats, setLearned } from './srs.js';
 import { bindSay, sayBtn, emptyState } from './ui.js';
-import { gtabs } from './gdrill.js';
+import { gtabs, simLearned } from './gdrill.js';
 import { formsForGrammar } from './forms.js';
 import { grammarTemplates } from './practice.js';
 
@@ -35,6 +35,7 @@ const formsBtn = (g, block) => (formsForGrammar(g).length || grammarTemplates(g)
 export function renderGrammar(view, id) {
   const g = D.items.get(id);
   if (!g) { view.innerHTML = emptyState('Không tìm thấy mẫu ngữ pháp này.', '<a class="btn btn-ghost" href="#/nguphap">Về danh sách</a>'); return; }
+  const sim = simLearned([g], 3); // v51: mẫu dễ nhầm đã học → luyện trộn
   view.innerHTML = `<article class="gram">
     <a class="back" href="#/nguphap">Danh sách ngữ pháp</a>
     <header class="gram-head">
@@ -60,8 +61,14 @@ export function renderGrammar(view, id) {
     <ol class="gram-ex">${(g.ex || []).map(e => `<li>
       <div class="ex-row"><p class="ex-jp" lang="ja">${rubyHTML(e.jp, true)}</p>${sayBtn(reading(e.jp))}</div>
       <p class="ex-vi">${esc(e.vi)} <span class="tag">${esc(CTX[e.ctx] || e.ctx || '')}</span></p></li>`).join('')}</ol>
-    <div class="row-btns stack">${status(g) === 'new' ? '<button type="button" class="btn btn-primary btn-block" data-act="glearned">Đã học xong bài này</button>' : '<p class="small muted gdone">✓ Đã học mẫu này — sẽ ôn theo lịch.</p>'}
-      <a class="btn ${status(g) === 'new' ? 'btn-ghost' : 'btn-primary'} btn-block" href="#/nguphap/luyen?g=${encodeURIComponent(g.id)}">Luyện mẫu này</a>${formsBtn(g, true)}</div>
+    <section class="card g-next">
+      <p class="sub-label">Đọc xong bài giảng thì làm tiếp</p>
+      <div class="row-btns stack">
+        <a class="btn btn-primary btn-block" href="#/nguphap/hieu?g=${encodeURIComponent(g.id)}">① Hiểu: 4 câu chọn nghĩa</a>
+        <a class="btn btn-ghost btn-block" href="#/nguphap/luyen?g=${encodeURIComponent(g.id)}">② Dùng: luyện mẫu này</a>
+        ${sim.length ? `<a class="btn btn-ghost btn-block" href="#/nguphap/tron?g=${encodeURIComponent(g.id)}">③ Luyện trộn với mẫu dễ nhầm: <span lang="ja">${sim.map(x => rich(x.pattern)).join('、')}</span></a><p class="small muted">Trộn mẫu gần nghĩa thì lúc luyện sai nhiều hơn — là bình thường; nhờ vậy phân biệt được và nhớ lâu hơn.</p>` : ''}
+        ${formsBtn(g, true)}</div>
+      ${status(g) === 'new' ? '<button type="button" class="btn btn-ghost btn-sm" data-act="glearned">Đánh dấu đã học (không làm bài)</button>' : '<p class="small muted gdone">✓ Đã học mẫu này — sẽ ôn theo lịch.</p>'}</section>
   </article>`;
   bindSay(view);
   const gl = view.querySelector('[data-act=glearned]');

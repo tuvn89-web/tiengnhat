@@ -8,6 +8,7 @@ import { runDrill, opt } from './drill.js';
 import { sentences, sentQ, judgeJa } from './dich.js';
 import { jaVoices, pickVoice, ttsReady } from './tts.js';
 import { openExplain } from './explain.js';
+import { loadDocWords, docWordsReady, docFit, fitBadgeHTML, fitNoteHTML, bindFitNote } from './docfit.js';
 
 const KIND = { thongbao: 'Thông báo', tinnhan: 'Tin nhắn', email: 'Email', bienbao: 'Biển báo', giayto: 'Giấy tờ', doanvan: 'Đoạn văn' };
 const MEDIUM = { tructiep: 'Nói trực tiếp', dienthoai: 'Gọi điện', line: 'Tin nhắn LINE' };
@@ -19,10 +20,12 @@ const docDone = id => !!D.lessons[id]?.done;
 
 // ---------- danh sách ----------
 export function renderDocList(view) {
+  // v51: % từ đã học của từng bài — chờ tệp tính sẵn (thường đã tải xong lúc mở app) rồi vẽ lại
+  if (!docWordsReady()) loadDocWords().then(() => { if (view.isConnected && location.hash === '#/doc') renderDocList(view); });
   const all = [...D.dialog, ...D.text];
   if (!all.length) { view.innerHTML = `<a class="back" href="#/luyen">Các dạng bài</a><h1 class="h1">Hội thoại & bài đọc</h1>` + emptyState('Chưa có bài hội thoại / bài đọc nào. Skill đang soạn — có gói mới là bài hiện ở đây và trong từng bài học của Lộ trình.'); return; }
   // v43: mỗi cấp — bài luyện thêm (không gắn bài học) hiện trước; bài mở đầu của các bài học gom vào một mục thu gọn
-  const row = x => `<li><a class="row" href="#/doc/${encodeURIComponent(x.id)}"><span class="row-jp">${icon(isDialog(x) ? 'chat' : 'book')} <b>${esc(x.title)}</b></span><span class="row-vi small">${esc(isDialog(x) ? MEDIUM[x.medium] || 'Hội thoại' : KIND[x.kind] || 'Bài đọc')} · ${esc(CTX[x.ctx] || '')}${docDone(x.id) ? ' · ✓' : ''}</span></a></li>`;
+  const row = x => `<li><a class="row" href="#/doc/${encodeURIComponent(x.id)}"><span class="row-jp">${icon(isDialog(x) ? 'chat' : 'book')} <b>${esc(x.title)}</b></span><span class="row-vi small">${esc(isDialog(x) ? MEDIUM[x.medium] || 'Hội thoại' : KIND[x.kind] || 'Bài đọc')} · ${esc(CTX[x.ctx] || '')}${docDone(x.id) ? ' · ✓' : ''}${docWordsReady() ? fitBadgeHTML(docFit(x)) : ''}</span></a></li>`;
   const block = L => {
     const xs = all.filter(x => x.level === L), free = xs.filter(x => !x.intro), intro = xs.filter(x => x.intro);
     const done = a => a.filter(x => docDone(x.id)).length;
@@ -30,7 +33,7 @@ export function renderDocList(view) {
       ${intro.length ? `<details class="doc-intros"${free.length ? '' : ' open'}><summary class="small">Bài mở đầu của các bài học (${intro.length}) · đã làm ${done(intro)}</summary><ul class="rows">${intro.map(row).join('')}</ul></details>` : ''}`;
   };
   view.innerHTML = `<a class="back" href="#/luyen">Các dạng bài</a><h1 class="h1">Hội thoại & bài đọc</h1>
-    <p class="muted small">${D.dialog.length} bài hội thoại · ${D.text.length} bài đọc. Bài luyện thêm có câu hỏi kiểu đề thi (từ N3 hỏi bằng tiếng Nhật) và được dùng trong Đề thi thử JLPT. Bài mở đầu gắn với bài học nào thì cũng có trong trang bài học đó (bước 7).</p>
+    <p class="muted small">${D.dialog.length} bài hội thoại · ${D.text.length} bài đọc. Số % là phần từ trong bài bạn đã học: <span class="fit fit-troi">≥ 95%</span> đọc trôi · <span class="fit fit-chugiai">85–94%</span> đọc có chú giải — vừa sức để học · <span class="fit fit-kho">dưới 85%</span> nhiều từ mới. Bài luyện thêm có câu hỏi kiểu đề thi (từ N3 hỏi bằng tiếng Nhật) và được dùng trong Đề thi thử JLPT. Bài mở đầu gắn với bài học nào thì cũng có trong trang bài học đó (tab Mở đầu và Đọc hiểu).</p>
     ${LEVELS.filter(L => all.some(x => x.level === L)).map(block).join('')}`;
 }
 
@@ -47,10 +50,12 @@ export function renderDoc(view, ctx, id, mode = 'doc') {
     <h1 class="h1">${esc(it.title)}${docDone(id) ? ' <small class="muted">✓</small>' : ''}</h1>
     <p class="small muted">${esc(it.level)} · ${esc(isDialog(it) ? MEDIUM[it.medium] || 'Hội thoại' : KIND[it.kind] || 'Bài đọc')} · ${esc(CTX[it.ctx] || '')}</p>
     ${it.setting ? `<p class="doc-set">${rich(it.setting)}</p>` : ''}
+    ${mode === 'doc' ? fitNoteHTML(it) : ''}
     <div class="tabs doc-tabs" role="tablist">${modes.map(([m, l]) => `<a role="tab" href="#/doc/${encodeURIComponent(id)}${m === 'doc' ? '' : '?m=' + m}" aria-selected="${m === mode}">${l}</a>`).join('')}</div>
     <div class="doc-body"></div>`;
   const body = view.querySelector('.doc-body');
   bindSay(view);
+  bindFitNote(view, it, n => toast(`Đã đưa ${n} từ vào lịch ôn — ngày mai bắt đầu hỏi lại.`));
   ({ doc: readMode, dich: dichMode, vai: vaiMode, khoa: khoaMode, hoi: hoiMode, nghe: ngheMode }[mode])(body, ctx, it, view);
 }
 
@@ -62,6 +67,7 @@ function lineHTML(it, t, i, { vi = false, cut = 0 } = {}) {
   const fc = !cut ? '' : i >= cut ? ' fold-x' : i === cut - 1 ? ' fold-last' : '';
   return `<div class="${cls}${fc}" data-i="${i}" data-nokj role="button" tabindex="0" aria-label="Giải thích câu ${i + 1}">
     ${r ? `<span class="dl-who">${rich(r.name)}${r.vi ? ` <small>${esc(r.vi)}</small>` : ''}</span>` : ''}
+    ${/^✗/.test(t.note || '') ? '<span class="dl-bad">✗ Câu nói sai — chạm để xem vì sao</span>' : ''}
     <div class="dl-line"><p class="dl-jp" lang="ja">${rich(t.jp)}</p>${sayBtn(reading(t.jp))}</div>
     <p class="dl-vi" ${vi ? '' : 'hidden'}>${esc(t.vi)}</p>
     ${t.std ? `<p class="dl-std small" ${vi ? '' : 'hidden'}><b>Nói chuẩn:</b> <span lang="ja">${rich(t.std)}</span></p>` : ''}</div>`;

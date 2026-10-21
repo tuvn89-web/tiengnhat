@@ -86,6 +86,8 @@ const ROUTES = [
   [/^nguphap\/luyen(?:\?g=(.+))?$/, (v, m) => renderGrammarPractice(v, ctx, m[1] ? decodeURIComponent(m[1]) : null)],
   [/^nguphap\/luyen\?t=(\w+)$/, (v, m) => renderGrammarPractice(v, ctx, null, m[1])],
   [/^nguphap\/thithu$/, v => renderMockSetup(v, ctx)],
+  [/^nguphap\/hieu\?g=(.+)$/, async (v, m) => (await import('./gdrill.js')).runGrammarHieu(v, ctx, decodeURIComponent(m[1]).split(','))],
+  [/^nguphap\/tron\?g=(.+)$/, async (v, m) => (await import('./gdrill.js')).runGrammarMix(v, ctx, decodeURIComponent(m[1]))],
   [/^onngu$/, v => quickGrammar(v)],
   [/^nguphap\/(.+)$/, (v, m) => renderGrammar(v, decodeURIComponent(m[1]))],
   [/^kho$/, v => renderWordList(v, ctx)],
@@ -391,6 +393,7 @@ async function init() {
   addEventListener('scroll', tbSync, { passive: true }); tbSync();
   view.innerHTML = '<p class="muted loading">Đang tải dữ liệu…</p>';
   import('./hvbay.js').then(m => m.loadHvBay()); // v50: nhãn "bẫy Hán Việt" (tải song song, không chặn mở app)
+  import('./docfit.js').then(m => m.loadDocWords()); // v51: % từ đã học của từng bài đọc
   try { await loadAll(); } catch (e) { D.errors.push('Lỗi tải dữ liệu: ' + (e?.message || e)); }
   await loadProgress();
   window.addEventListener('hashchange', route);

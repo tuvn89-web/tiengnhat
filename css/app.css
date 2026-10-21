@@ -1153,3 +1153,14 @@ html:not(.calm) .tn-in { animation: tnFadeIn .22s ease-out backwards; }
 .gc-h { color: var(--ok); }
 .gc-undo { margin: 8px 0 0; padding: 8px 10px; border-radius: 8px; background: var(--surface-2); line-height: 1.7; }
 .gc-n { font-size: .78em; font-weight: 700; padding: 1px 6px; border-radius: 6px; background: var(--blue-soft); color: var(--blue); }
+/* v51: Đọc vừa sức — % từ đã học của bài; nút "+ Ôn" ở từ chưa học */
+.fit { display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: .75em; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; vertical-align: middle; }
+.fit-troi { background: var(--ok-soft); color: var(--ok); }
+.fit-chugiai { background: var(--blue-soft); color: var(--blue); }
+.fit-kho { background: var(--ng-soft); color: var(--ng); }
+.fitbox { margin: 8px 0 12px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); }
+.fitbox p { margin: 0 0 4px; }
+.fitbox-troi { border-left: 4px solid var(--ok); } .fitbox-chugiai { border-left: 4px solid var(--blue); } .fitbox-kho { border-left: 4px solid var(--ng); }
+.fit-new summary { cursor: pointer; margin-top: 4px; }
+.xw-add { flex: none; margin-left: 4px; }
+.dl-bad { display: inline-block; margin: 2px 0; padding: 1px 8px; border-radius: 999px; font-size: .75em; font-weight: 700; background: var(--ng-soft); color: var(--ng); }

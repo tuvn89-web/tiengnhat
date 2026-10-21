@@ -30,7 +30,8 @@ export function sentences() {
   for (const v of D.vocab) if (v.reg !== 'kansai') for (const ex of v.ex || []) add(v, ex, 'v');
   // lượt hội thoại, câu bài đọc (bỏ câu quá ngắn như はい。; câu Kansai / khẩu ngữ chỉ dịch Nhật → Việt)
   for (const d of [...D.dialog, ...D.text]) for (const t of d.turns || d.sents || []) {
-    if (!t.jp || !t.vi || plain(t.jp).replace(/[。、！？…\s]/g, '').length < 4 || t.fmt) continue;
+    // v51: câu sai cố ý (ghi chú bắt đầu bằng ✗ — người mới nói sai rồi được sửa) không làm câu mẫu để dịch
+    if (!t.jp || !t.vi || plain(t.jp).replace(/[。、！？…\s]/g, '').length < 4 || t.fmt || /^✗/.test(t.note || '')) continue;
     add(d, { jp: t.jp, vi: t.vi, alt: t.alt, ctx: d.ctx }, 'd');
     const s = seen.get(plain(stripHL(t.jp))); if (s && s.src === d) Object.assign(s, { casual: !!t.std, gram: t.grammar || [], gloss: t.gloss, phr: t.phr, words: t.words });
   }

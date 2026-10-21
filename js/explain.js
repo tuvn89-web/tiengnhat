@@ -3,6 +3,7 @@
 import { esc, rich, plain, parseJP, isKanjiCh, wordHTML, rubyHTML, reading, stripHL } from './util.js';
 import { D, POS } from './data.js';
 import { openSheet, sayBtn, bindSay } from './ui.js';
+import { status, setLearned } from './srs.js';
 
 // ---------- dò từ trong câu (giống scripts/validate_pack.py) ----------
 let _idx = null, _ik = '';
@@ -173,7 +174,8 @@ export function detectGrammar(jp) {
 // ---------- HTML ----------
 const posName = it => POS[it.pos] || '';
 function wordRow(it) {
-  return `<li class="xw"><button type="button" class="xw-b" data-wopen="${esc(it.id)}"><span class="xw-jp" lang="ja">${wordHTML(it, 'furi')}</span><span class="xw-vi">${esc(it.vi)}<small class="muted"> · ${esc(posName(it))}${it.level ? ' · ' + esc(it.level) : ''}</small></span></button></li>`;
+  // v51: từ chưa học gặp khi đọc → nút "+ Ôn" đưa vào lịch ôn
+  return `<li class="xw"><button type="button" class="xw-b" data-wopen="${esc(it.id)}"><span class="xw-jp" lang="ja">${wordHTML(it, 'furi')}</span><span class="xw-vi">${esc(it.vi)}<small class="muted"> · ${esc(posName(it))}${it.level ? ' · ' + esc(it.level) : ''}</small></span></button>${status(it) === 'new' ? `<button type="button" class="btn btn-ghost btn-sm xw-add" data-addrev="${esc(it.id)}" aria-label="Đưa từ này vào lịch ôn">+ Ôn</button>` : ''}</li>`;
 }
 const refRow = (w, vi, cls = '') => `<li class="xw ${cls}"><span class="xw-b"><span class="xw-jp" lang="ja">${rich(w)}</span><span class="xw-vi">${esc(vi || '')}</span></span></li>`;
 function gramRow(g) {
@@ -205,7 +207,18 @@ export function explainHTML(line, { head = true } = {}) {
 export function openExplain(line) {
   const s = openSheet(`<h2 class="h2">Giải thích câu</h2>${explainHTML(line)}`, { label: 'Giải thích câu' });
   bindSay(s.el);
+  bindAddRev(s.el);
   return s;
+}
+export function bindAddRev(root) {
+  root.addEventListener('click', async e => {
+    const b = e.target.closest('[data-addrev]');
+    if (!b) return;
+    e.stopPropagation();
+    const it = D.items.get(b.dataset.addrev);
+    if (it) await setLearned(it, 'learned');
+    b.disabled = true; b.textContent = 'Đã thêm ✓';
+  });
 }
 // Câu (dạng 漢字[よみ]) lấy lại từ HTML đã có furigana (<ruby>漢字<rt>よみ</rt></ruby>)
 function markupFrom(el) {

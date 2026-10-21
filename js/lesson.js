@@ -11,6 +11,8 @@ import { practiceItems } from './notes.js';
 import { heartBtnHTML, heartCount, toggleHeart, hearted, clearHearts, runHeart } from './heart.js';
 import { runDrill, opt } from './drill.js';
 import { buildPoolQs, buildPoolQsAsync } from './level.js';
+import { simLearned } from './gdrill.js';
+import { docFit, fitBadgeHTML } from './docfit.js';
 import { answerExplainHTML } from './explain.js';
 import { passageHTML, bindPassage, viToggleHTML, bindViToggle } from './reader.js';
 import { attachRomaji, romajiToKana } from './romaji.js';
@@ -250,6 +252,7 @@ export function renderLesson(view, ctx, id, openStep) {
   const list = lessonsOf(x.level), prev = list[x.n - 2], next = list[x.n];
   const rel = relatedWords(x);
   const sv = stats(p.vocab), sk = stats(p.kanji), sg = stats(p.grammar);
+  const gsim = simLearned(p.grammar, 3); // v51: mẫu dễ nhầm đã học — trộn vào lượt Dùng
   const here = '#/bai/' + encodeURIComponent(x.id);
   const wRow = it => `<li><button type="button" class="row" data-wopen="${esc(it.id)}"><span class="row-jp" lang="ja">${wordHTML(it, 'furi')}</span><span class="row-vi">${esc(it.vi)}</span><span class="dot dot-${status(it)}"></span></button>${heartBtnHTML(x.id, it.id)}</li>`;
   // v50: trang bài chia tab — 1–7 bảy bước (1 Mở đầu) · 8 Từ liên quan (không phải bước) · 9 Viết 3 câu; tab nằm trên địa chỉ (?b=N)
@@ -300,8 +303,9 @@ export function renderLesson(view, ctx, id, openStep) {
       <div class="row-btns"><button class="btn btn-ghost" data-p="kanji">Ôn ${p.kanji.length} chữ của bài</button></div>` : '<p class="small">Bài này chưa có thẻ chữ Hán.</p>', p.kanji.length ? `${sk.total - sk.new}/${sk.total}` : '')}
 
     ${step(3, p.grammar.length ? `<ul class="rows lrows">${p.grammar.map(g => `<li><a class="row" href="#/nguphap/${encodeURIComponent(g.id)}"><span class="row-jp" lang="ja">${rich(g.pattern)}</span><span class="row-vi">${rich(g.meaning || '')}</span><span class="dot dot-${status(g)}"></span></a></li>`).join('')}</ul>
-      <p class="small muted">Bấm vào mẫu để học bài giảng (mẫu được tính là đã học khi luyện mẫu đó).</p>
-      <div class="row-btns"><button class="btn btn-ghost" data-p="gram">Luyện ${p.grammar.length} mẫu của bài</button></div>` : '<p class="small">Bài này không có mẫu ngữ pháp mới.</p>', p.grammar.length ? `${sg.total - sg.new}/${sg.total}` : '')}
+      <p class="small muted">① Bấm vào mẫu đọc bài giảng → ② <b>Hiểu</b>: chọn nghĩa câu có mẫu → ③ <b>Dùng</b>: luyện điền, sắp xếp, ghép câu. Mẫu được tính là đã học khi làm ② hoặc ③.</p>
+      <div class="row-btns wrap"><button class="btn ${sg.new ? 'btn-primary' : 'btn-ghost'}" data-p="ghieu">② Hiểu: chọn nghĩa</button><button class="btn ${sg.new ? 'btn-ghost' : 'btn-primary'}" data-p="gram">③ Dùng: luyện ${p.grammar.length} mẫu${gsim.length ? ` + ${gsim.length} mẫu dễ nhầm` : ''}</button></div>
+      ${gsim.length ? `<p class="small muted">Lượt Dùng có trộn thêm mẫu dễ nhầm đã học (<span lang="ja">${gsim.map(x => rich(x.pattern)).join('、')}</span>). Lúc luyện sai nhiều hơn là bình thường — nhờ vậy phân biệt được và nhớ lâu hơn.</p>` : ''}` : '<p class="small">Bài này không có mẫu ngữ pháp mới.</p>', p.grammar.length ? `${sg.total - sg.new}/${sg.total}` : '')}
 
     ${step(4, `<p class="small muted">Một lượt trộn: nghĩa từ, đọc chữ Hán, ngữ pháp, hiểu câu${ttsReady() ? ', nghe' : ''} — chỉ dùng từ và mẫu của bài. Trộn nhiều loại câu thì lúc làm khó hơn, nhưng nhớ lâu hơn.</p>
       <div class="row-btns wrap"><button class="btn btn-primary" data-p="mix">Luyện trộn 15 câu</button>${p.grammar.some(g => GOCAU.has(g._pack)) ? '<button class="btn btn-primary" data-p="gocau">Gỡ câu 2 bước</button>' : ''}</div>
@@ -309,8 +313,8 @@ export function renderLesson(view, ctx, id, openStep) {
       <div class="row-btns wrap"><button class="btn btn-ghost" data-p="quiz">Trắc nghiệm từ</button>${p.vocab.length >= 3 ? '<button class="btn btn-ghost" data-p="match">Ghép cặp</button>' : ''}<button class="btn btn-ghost" data-p="type">Gõ từ</button><button class="btn btn-ghost" data-p="cau">Ghép câu</button>${p.vocab.some(it => ['v1', 'v5', 'v3'].includes(it.pos)) ? '<button class="btn btn-ghost" data-p="the">Thể động từ trong câu</button>' : ''}<button class="btn btn-ghost" data-p="dich">Dịch Việt ↔ Nhật</button></div>`)}
 
     ${step(5, `${intro ? `<p class="small">Đọc lại <b>bài mở đầu</b> khi đã biết từ và mẫu của bài, rồi trả lời câu hỏi hiểu bài (đạt từ 50% là xong bước này).</p>
-      <div class="row-btns wrap"><a class="btn btn-primary" href="#/doc/${encodeURIComponent(intro.id)}?m=hoi">Câu hỏi hiểu bài${introRec.pct != null ? ` · lần trước ${introRec.pct}%` : ''}</a><a class="btn btn-ghost" href="${here}?b=1" data-goto="1">Đọc lại bài mở đầu</a></div>` : ''}
-      ${texts.length ? `<p class="sub-label">Bài đọc / hội thoại thêm</p><ul class="rows lrows">${texts.map(t => `<li><a class="row" href="#/doc/${encodeURIComponent(t.id)}"><span class="row-jp">${icon(t._type === 'dialog' ? 'chat' : 'book')} <b>${esc(t.title)}</b></span><span class="row-vi small">${esc(t._type === 'dialog' ? 'Hội thoại' : 'Bài đọc')}${D.lessons[t.id]?.done ? ' · ✓' : ''}</span></a></li>`).join('')}</ul>` : ''}
+      <div class="row-btns wrap"><a class="btn btn-primary" href="#/doc/${encodeURIComponent(intro.id)}?m=hoi">Câu hỏi hiểu bài${introRec.pct != null ? ` · lần trước ${introRec.pct}%` : ''}</a><a class="btn btn-ghost" href="#/doc/${encodeURIComponent(intro.id)}">Đọc lại ${fitBadgeHTML(docFit(intro))}</a><a class="btn btn-ghost" href="${here}?b=1" data-goto="1">Đọc lại bài mở đầu</a></div>` : ''}
+      ${texts.length ? `<p class="sub-label">Bài đọc / hội thoại thêm</p><ul class="rows lrows">${texts.map(t => `<li><a class="row" href="#/doc/${encodeURIComponent(t.id)}"><span class="row-jp">${icon(t._type === 'dialog' ? 'chat' : 'book')} <b>${esc(t.title)}</b></span><span class="row-vi small">${esc(t._type === 'dialog' ? 'Hội thoại' : 'Bài đọc')}${D.lessons[t.id]?.done ? ' · ✓' : ''}${fitBadgeHTML(docFit(t))}</span></a></li>`).join('')}</ul>` : ''}
       ${!intro && !texts.length ? '<p class="small muted">Bài đọc / hội thoại cho bài này đang được soạn. Trong lúc chờ: đọc và nghe các câu ví dụ của bài.</p>' : ''}
       <div class="row-btns wrap"><a class="btn btn-ghost" href="${here}/cau">Đọc câu của bài</a><button class="btn ${intro || texts.length ? 'btn-ghost' : 'btn-primary'}" data-p="hieu">Nghe – hiểu 10 câu</button></div>`)}
 
@@ -371,7 +375,8 @@ export function renderLesson(view, ctx, id, openStep) {
     }
     if (k === 'relquiz') return practiceItems(view, ctx, 'quiz', { vocab: rel.map(r => r.it), kanji: [], grammar: [] }, { title: 'Từ liên quan', again, onDone: mark('rel') });
     if (k === 'kanji') return practiceItems(view, ctx, 'kanji', p, { title: 'Chữ Hán của bài', again, onDone: mark('k') });
-    if (k === 'gram') return practiceItems(view, ctx, 'gram', p, { title: 'Ngữ pháp của bài', again, onDone: mark('g') });
+    if (k === 'gram') return practiceItems(view, ctx, 'gram', { ...p, grammar: [...p.grammar, ...gsim] }, { title: 'Ngữ pháp của bài', again, onDone: mark('g') });
+    if (k === 'ghieu') { const { buildHieuQs } = await import('./gdrill.js'); return runDrill(view, buildHieuQs(p.grammar, p.grammar.length > 3 ? 3 : 4), ctx, { title: `Hiểu: ngữ pháp bài ${x.n}`, again, onDone: mark('g') }); }
     if (k === 'wre') return practiceItems(view, ctx, 'quiz', { ...p, vocab }, { title: 'Ôn lại từ của bài', again, onDone: mark('w') });
     if (k === 'redooff') {
       const sr = D.lessons['lv:' + x.level]?.redo;

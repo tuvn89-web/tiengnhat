@@ -13,9 +13,9 @@ import { recForm } from './fstat.js';
 export const GTYPES = [
   ['blank', 'Điền chỗ trống'], ['conj', 'Chia động từ'], ['order', 'Sắp xếp câu'], ['star', 'Câu ★ (kiểu JLPT)'],
   ['spot', 'Tìm chỗ sai'], ['situ', 'Chọn cách nói hợp hoàn cảnh'], ['build', 'Ghép câu Việt → Nhật'],
-  ['listen', 'Nghe → chọn'], ['shift', 'Đổi lối nói'], ['mix', 'Trộn các dạng'],
+  ['listen', 'Nghe → chọn'], ['shift', 'Đổi lối nói'], ['mean', 'Chọn nghĩa (hiểu)'], ['mix', 'Trộn các dạng'],
 ];
-const TAG = Object.fromEntries(GTYPES);
+const TAG = { ...Object.fromEntries(GTYPES), sense: 'Hiểu câu' };
 const END_RE = /[。！？!?]$/;
 const JP_RE = /[\u3040-\u30FF\u4E00-\u9FFF]/; // lựa chọn viết tiếng Việt thì không gắn lang=ja
 
@@ -77,7 +77,55 @@ function autoGrammarChunks(jp) {
 }
 
 // ---------- từng dạng bài ----------
+// v51: mẫu dễ nhầm (mục compare của mẫu) → mẫu ngữ pháp có trong kho. Tên trong compare hay kèm chú thích: 〜前に（N5）, 〜ばかり（chỉ toàn）, A / B
+const gkeys = p => { const s = plain(p).replace(/\s*[（(][^）)]*[）)]\s*$/, '').trim(); return [...new Set(s.split(/\s*\/\s*|・|、/).map(a => a.replace(/[（(][^）)]*[）)]/g, '').replace(/[〜～\s]/g, '')).filter(Boolean))]; };
+let _gi = null, _gk = '';
+function gIndex() {
+  const key = `${D.grammar.length}:${D.items.size}`;
+  if (_gi && _gk === key) return _gi;
+  _gi = new Map(); _gk = key;
+  for (const g of D.grammar) for (const k of gkeys(g.pattern)) { if (!_gi.has(k)) _gi.set(k, []); _gi.get(k).push(g); }
+  return _gi;
+}
+export function simGrammar(g) {
+  const out = [];
+  for (const c of g.compare || []) for (const k of gkeys(c.pattern)) for (const x of gIndex().get(k) || []) if (x !== g && !out.includes(x)) out.push(x);
+  return out;
+}
+// mẫu dễ nhầm đã học của một nhóm mẫu (để ôn trộn) — tối đa n mẫu
+export const simLearned = (gs, n = 3) => [...new Set(gs.flatMap(simGrammar))].filter(x => !gs.includes(x) && status(x) !== 'new').slice(0, n);
+const exOK = ex => ex?.jp && ex.vi && !/[AB]：/.test(ex.jp);
+const isSkill = g => /^caunoi-/.test(g?._pack || ''); // "mục" của bài cầu nối là kỹ năng đọc câu, không phải mẫu có nghĩa riêng
 const Q = {
+  // v51 "hiểu → dùng": phần tô màu ([[ ]]) nghĩa là gì — phương án nhiễu là nghĩa của mẫu dễ nhầm, mẫu cùng bài, mẫu cùng cấp
+  mean(g, ex) {
+    if (!exOK(ex) || !/\[\[/.test(ex.jp) || !g.meaning || isSkill(g)) return null;
+    const right = plain(g.meaning), seen = new Set([right]), ds = [];
+    // nghĩa gần trùng (〜ことができる / thể khả năng đều "có thể làm") thì không làm phương án nhiễu — hai đáp án đúng
+    const head = m => new Set(m.split(/\s+[—–-]\s+|;/)[0].toLowerCase().replace(/[(),.…/~〜]/g, ' ').split(/\s+/).filter(w => w.length > 1));
+    const hr = head(right), close = m => { const h = head(m); let n = 0; for (const w of h) if (hr.has(w)) n++; return n >= 2 || (n >= 1 && Math.min(h.size, hr.size) <= 2); };
+    const add = x => { const m = !isSkill(x) && x.meaning && plain(x.meaning); if (m && !seen.has(m) && ds.length < 3 && !close(m)) { seen.add(m); ds.push(x.meaning); } };
+    simGrammar(g).forEach(add);
+    shuffle(D.grammar.filter(x => x._pack === g._pack && x !== g)).forEach(add);
+    if (ds.length < 3) shuffle(D.grammar.filter(x => x.level === g.level && x !== g)).slice(0, 40).forEach(add);
+    if (ds.length < 3) return null;
+    return { kind: 'choice', tag: TAG.mean, level: g.level, prompt: `<p class="prompt-sent" lang="ja">${rubyHTML(ex.jp, true)}</p>`, hint: 'Phần tô màu nghĩa là gì trong câu này?',
+      opts: shuffle([g.meaning, ...ds]).map((m, i) => opt(m === g.meaning ? 'ok' : 'x' + i, rich(m), false)), answer: 'ok', noSlow: true,
+      after: `<p class="muted">${esc(ex.vi)}</p>` + gHead(g), review: { id: g.id, dir: 'gp' } };
+  },
+  // hiểu cả câu: nghĩa đúng của câu — phương án nhiễu là câu của mẫu dễ nhầm / mẫu cùng bài
+  sense(g, ex) {
+    if (!exOK(ex)) return null;
+    const seen = new Set([ex.vi]), ds = [];
+    for (const x of [...simGrammar(g), ...shuffle(D.grammar.filter(y => y._pack === g._pack && y !== g)), g]) {
+      for (const e of shuffle((x.ex || []).filter(exOK))) { if (ds.length >= 3) break; if (!seen.has(e.vi)) { seen.add(e.vi); ds.push(e.vi); if (x !== g) break; } }
+      if (ds.length >= 3) break;
+    }
+    if (ds.length < 3) return null;
+    return { kind: 'choice', tag: TAG.sense || 'Hiểu câu', level: g.level, prompt: `<p class="prompt-sent" lang="ja">${rubyHTML(ex.jp, true)}</p>`, hint: 'Câu này nghĩa là gì?',
+      opts: shuffle([ex.vi, ...ds]).map((v, i) => opt(v === ex.vi ? 'ok' : 'x' + i, esc(v), false)), answer: 'ok', noSlow: true,
+      after: fullSent(ex) + gHead(g), review: { id: g.id, dir: 'gp' } };
+  },
   blank(g, ex) {
     const opts = blankOpts(g, ex); if (!opts) return null;
     return { kind: 'choice', tag: TAG.blank, level: g.level, prompt: `<p class="prompt-sent" lang="ja">${blankHTML(ex.jp)}</p><p class="prompt-vi-s">${esc(ex.vi)}</p>`,
@@ -183,7 +231,7 @@ export function pickGrammar({ source = 'all', levels = [], ids = [] } = {}) {
   else if (source === 'star') pool = pool.filter(g => isStar(g.id));
   return pool;
 }
-const EX_TYPES = ['blank', 'listen', 'order', 'build', 'star'];
+const EX_TYPES = ['blank', 'listen', 'order', 'build', 'star', 'mean'];
 export function buildGrammarQs({ type = 'mix', source = 'all', levels = [], ids = [], count = 20, forms = ['te', 'nai', 'masu', 'ta'] } = {}) {
   if (type === 'conj') {
     const fs = forms.length ? forms : [];
@@ -197,7 +245,7 @@ export function buildGrammarQs({ type = 'mix', source = 'all', levels = [], ids 
     return shuffle(pool).map(p => shiftQ(p, pool)).filter(Boolean).slice(0, count);
   }
   const gs = pickGrammar({ source, levels, ids });
-  const types = type === 'mix' ? ['blank', 'order', 'build', 'star', 'spot', 'situ', ...(ttsReady() ? ['listen'] : [])] : [type];
+  const types = type === 'mix' ? ['blank', 'order', 'build', 'star', 'spot', 'situ', 'mean', ...(ttsReady() ? ['listen'] : [])] : [type];
   const cands = [];
   for (const g of gs) {
     for (const t of types) {
@@ -216,6 +264,34 @@ export function buildGrammarQs({ type = 'mix', source = 'all', levels = [], ids 
   const lanes = shuffle([...byKey.values()]), out = [];
   while (out.length < count && lanes.some(l => l.length)) for (const l of lanes) { if (l.length && out.length < count) out.push(l.shift()); }
   return out;
+}
+
+// v51 "hiểu → dùng": vòng Hiểu — mỗi mẫu 2 câu "phần tô màu nghĩa là gì" + 2 câu "câu này nghĩa là gì" (câu dễ trước), theo từng mẫu
+export function buildHieuQs(gs, per = 4) {
+  const out = [];
+  for (const g of gs) {
+    const exs = (g.ex || []).filter(exOK), qs = [];
+    for (const ex of isSkill(g) ? [] : exs) { if (qs.filter(q => q.tag === TAG.mean).length >= Math.ceil(per / 2)) break; const q = Q.mean(g, ex); if (q) { qs.push(q); q._ex = ex; } }
+    for (const ex of exs.filter(e => !qs.some(q => q._ex === e))) { if (qs.length >= per) break; const q = Q.sense(g, ex); if (q) qs.push(q); }
+    out.push(...qs);
+  }
+  return out;
+}
+
+// #/nguphap/hieu?g=<mã,mã> — vòng Hiểu; #/nguphap/tron?g=<mã> — luyện trộn với mẫu dễ nhầm đã học
+export function runGrammarHieu(view, ctx, ids) {
+  const gs = ids.map(id => D.items.get(id)).filter(g => g?._type === 'grammar');
+  const qs = buildHieuQs(gs);
+  if (!qs.length) { view.innerHTML = emptyState('Mẫu này chưa đủ câu ví dụ để làm bài chọn nghĩa.', '<a class="btn btn-ghost" href="#/nguphap">Về danh sách ngữ pháp</a>'); return; }
+  if (gs.length === 1) ctx.backTo = '#/nguphap/' + encodeURIComponent(gs[0].id);
+  runDrill(view, qs, ctx, { title: gs.length === 1 ? 'Hiểu: ' + plain(gs[0].pattern) : 'Hiểu: chọn nghĩa', again: () => ctx.go('#/nguphap/hieu?g=' + encodeURIComponent(ids.join(',')), true) });
+}
+export function runGrammarMix(view, ctx, id) {
+  const g = D.items.get(id);
+  if (!g) return ctx.go('#/nguphap');
+  const sim = simLearned([g], 3);
+  ctx.backTo = '#/nguphap/' + encodeURIComponent(id);
+  runDrill(view, buildGrammarQs({ type: 'mix', ids: [id, ...sim.map(x => x.id)], count: 20 }), ctx, { title: `Trộn: ${plain(g.pattern)}${sim.length ? ' + ' + sim.map(x => plain(x.pattern)).join(', ') : ''}`, again: () => ctx.go('#/nguphap/tron?g=' + encodeURIComponent(id), true) });
 }
 
 // Thi thử theo cấp: 40% từ vựng (đọc kanji, nghĩa), 60% ngữ pháp (điền, câu ★, cách nói)
