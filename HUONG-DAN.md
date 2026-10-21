@@ -969,3 +969,21 @@ Máy chưa có giọng đọc tiếng Nhật thì đề bỏ phần nghe và kh�
 - Dữ liệu (mới): `jlpt-n1-37`, `jlpt-n1-38`, `jlpt-n1-39`, `modau-n1-34`, `modau-n1-35`, `modau-n1-36`, `baidoc-n1-01`.
 - Dữ liệu (sửa): `baihoc-n1`, `jlpt-n1-33`, `jlpt-n2-06`, `modau-n1-17`, `modau-n1-20`, `modau-n1-21`, `modau-n1-22`.
 - `data/manifest.json`.
+
+## 56. Bản v47 (21/10/2026): Cài đặt chia tab; N1 thêm bài mở đầu 37–39 và 60 thẻ chữ Hán
+
+**Cài đặt chia thành 6 tab:** Giao diện · Hiệu ứng · Hiển thị · Học · Giọng đọc · Máy này.
+- Mỗi lần chỉ hiện một nhóm, đỡ phải cuộn dài. Điện thoại: tab xếp 2 hàng × 3; máy tính: 1 hàng.
+- Tab **Học** gồm cả "Nhịp học mỗi ngày".
+- App **nhớ tab vừa xem**: lần sau bấm nút mặt trời (góc trên bên phải trên điện thoại) hay mục Cài đặt là mở lại đúng tab đó. Lần đầu mở tab Giao diện.
+- Tab nằm trên địa chỉ (`#/caidat/hieuung`, `#/caidat/giongdoc`…): nút "Mở Cài đặt" trong bài hướng dẫn hiệu ứng và luyện nghe mở thẳng tab Hiệu ứng, Giọng đọc. Trên máy tính dùng phím ← → để đổi tab.
+
+**Giáo trình N1:**
+- Bài mở đầu 37–39 (những ngày ngay trước kỳ thi lần hai). Nay cả 39 bài N1 đều có bài mở đầu.
+- **60 thẻ chữ Hán N1 mới** (gói `chuhan-60`, `chuhan-61`): chữ dùng trong từ N1 mà trước chưa có thẻ, kèm thơ lục bát nhớ mặt chữ (vd. 忍: "Dao (刃) kề tim (心) vẫn lặng im / Cắn răng chữ NHẪN (忍), nén chìm nỗi đau").
+
+**Tệp:**
+- Mã: `js/settingspage.js`, `js/app.js`, `js/nav.js`, `js/guides.js`, `css/app.css`, `js/util.js`, `sw.js`.
+- Dữ liệu (mới): `modau-n1-37`, `modau-n1-38`, `modau-n1-39`, `chuhan-60`, `chuhan-61`.
+- Dữ liệu (sửa): `baihoc-n1`.
+- `data/manifest.json`.

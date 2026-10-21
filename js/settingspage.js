@@ -26,13 +26,23 @@ function fontPicker(kind, cur, legend) {
   </details>`;
 }
 
-export function renderSettings(view, ctx) {
+// v47: các mục Cài đặt chia thành tab; tab đang mở nằm trên địa chỉ (#/caidat/hieuung…) và được nhớ cho lần mở sau
+export const SET_TABS = [['giaodien', 'Giao diện'], ['hieuung', 'Hiệu ứng'], ['hienthi', 'Hiển thị'], ['hoc', 'Học'], ['giongdoc', 'Giọng đọc'], ['may', 'Máy này']];
+const TAB_KEY = 'tn-settab';
+const lastTab = () => { try { return localStorage.getItem(TAB_KEY) || ''; } catch { return ''; } };
+
+export function renderSettings(view, ctx, tab) {
   const voices = jaVoices();
+  const ok = k => SET_TABS.some(t => t[0] === k);
+  const cur = ok(tab) ? tab : ok(lastTab()) ? lastTab() : 'giaodien';
+  try { localStorage.setItem(TAB_KEY, cur); } catch { }
+  const sec = k => `data-tab="${k}" id="set-${k}" role="tabpanel" aria-labelledby="tab-${k}"${k === cur ? '' : ' hidden'}`;
   view.innerHTML = `
     <h1 class="h1">Cài đặt</h1>
     <p class="muted small">Cài đặt lưu riêng trên từng máy, vì máy tính và điện thoại thường cần cỡ chữ khác nhau.</p>
+    <div class="tabs set-tabs" role="tablist" aria-label="Nhóm cài đặt">${SET_TABS.map(([k, t]) => `<button type="button" class="tab" role="tab" id="tab-${k}" data-settab="${k}" aria-controls="set-${k}" aria-selected="${k === cur}">${t}</button>`).join('')}</div>
 
-    <section class="card">
+    <section class="card" ${sec('giaodien')}>
       <h2 class="h2">Giao diện</h2>
       <fieldset><legend>Màu nền</legend>${chips('theme', [['auto', 'Theo máy'], ['light', 'Sáng'], ['dark', 'Tối']], S.theme, false)}</fieldset>
       ${field('Cỡ chữ tiếng Nhật', `<input type="range" min="20" max="56" step="2" name="fsJp" value="${S.fsJp}">`)}
@@ -49,7 +59,7 @@ export function renderSettings(view, ctx) {
       </div>
     </section>
 
-    <section class="card fxcard">
+    <section class="card fxcard" ${sec('hieuung')}>
       <h2 class="h2">Giao diện mùa & hiệu ứng</h2>
       <p class="muted small">Mỗi tháng một họa tiết (hoa anh đào, mưa, pháo hoa, lá phong, tuyết…), trời đổi theo giờ, ngày lễ Nhật và Việt Nam. Hiệu ứng nằm phía sau thẻ. Máy yếu hoặc muốn đỡ tốn pin thì giảm mật độ hoặc tắt bớt.</p>
       <fieldset><legend>Giao diện mùa</legend>${chips('season', [['auto', 'Theo tháng'], ['off', 'Tắt'], ...Array.from({ length: 12 }, (_, i) => [String(i + 1), `T${i + 1}`])], S.season, false)}</fieldset>
@@ -71,7 +81,7 @@ export function renderSettings(view, ctx) {
       <div class="fx-try">${[['meteor', 'Sao băng'], ['shower', 'Mưa sao băng'], ['plane', 'Máy bay'], ['hole', 'Hố đen'], ['fw', 'Pháo hoa'], ['bolt', 'Chớp'], ['gust', 'Cơn gió'], ['lantern', 'Đèn lồng'], ['koi', 'Cá chép'], ['burst', 'Chùm hạt']].map(([k, t]) => `<button type="button" class="btn btn-ghost btn-sm" data-fxtry="${k}">${t}</button>`).join('')}</div>
     </section>
 
-    <section class="card">
+    <section class="card" ${sec('hienthi')}>
       <h2 class="h2">Hiển thị</h2>
       <fieldset><legend>Chế độ chữ mặc định</legend>${chips('script', SCRIPTS, S.script, false)}</fieldset>
       <p class="muted small">Chữ kanji luôn có furigana nhỏ bên trên, trừ câu chữ Hán để trần (dưới đây) và các bài luyện mặt chữ (thẻ chữ Hán, chữ trông giống, Đếm số, ghép Kana – Kanji).</p>
@@ -81,7 +91,7 @@ export function renderSettings(view, ctx) {
       <label class="check"><input type="checkbox" name="showHv" ${S.showHv ? 'checked' : ''}> Hiện âm Hán Việt</label>
     </section>
 
-    <section class="card">
+    <section class="card" ${sec('hoc')}>
       <h2 class="h2">Học</h2>
       <fieldset><legend>Số câu mỗi lượt trắc nghiệm</legend>${chips('qCount', [10, 20, 30, 50].map(n => [String(n), String(n)]), String(S.qCount), false)}</fieldset>
       <fieldset><legend>Số màn ghép cặp</legend>${chips('matchRounds', [1, 2, 3, 4, 5].map(n => [String(n), String(n)]), String(S.matchRounds), false)}</fieldset>
@@ -94,13 +104,13 @@ export function renderSettings(view, ctx) {
       <label class="check"><input type="checkbox" name="romaji" ${S.romaji ? 'checked' : ''}> Ô gõ tiếng Nhật: gõ romaji tự đổi sang kana (kakareru → かかれる; chữ IN HOA → katakana)</label>
     </section>
 
-    <section class="card" data-pace>
+    <section class="card" data-pace data-tab="hoc"${cur === 'hoc' ? '' : ' hidden'}>
       <h2 class="h2">Nhịp học mỗi ngày</h2>
       <p class="muted small">Dùng cho "Kế hoạch hôm nay" và dự báo ngày học xong. Phần này đồng bộ giữa các máy.</p>
       ${paceFieldsHTML()}
     </section>
 
-    <section class="card">
+    <section class="card" ${sec('giongdoc')}>
       <h2 class="h2">Giọng đọc</h2>
       ${voices.length ? field('Giọng tiếng Nhật', `<select class="input" name="voice"><option value="">Tự chọn (ưu tiên giọng cài trong máy)</option>${voices.map(v => `<option value="${esc(v.name)}" ${v.name === S.voice ? 'selected' : ''}>${esc(v.name)}${v.localService ? '' : ' — cần mạng'}</option>`).join('')}</select>`)
       : `<div class="warn">Máy chưa có giọng đọc tiếng Nhật. Android: Cài đặt → Hệ thống → Ngôn ngữ → Chuyển văn bản thành giọng nói → Dịch vụ của Google → tải dữ liệu giọng nói Tiếng Nhật. Windows: Cài đặt → Thời gian và ngôn ngữ → Giọng nói → thêm giọng Tiếng Nhật. Xong mở lại app.</div>`}
@@ -110,7 +120,7 @@ export function renderSettings(view, ctx) {
       <p class="muted small">${ttsReady() ? `Đang dùng: ${esc(pickVoice()?.name || '')}` : ''}</p>
     </section>
 
-    <section class="card">
+    <section class="card" ${sec('may')}>
       <h2 class="h2">Máy này</h2>
       ${field('Tên máy (hiện trong lịch sử đồng bộ)', `<input class="input" name="deviceName" value="${esc(S.deviceName)}">`)}
       <p class="small">Phiên bản app: <b>${esc(APP_VERSION)}</b></p>
@@ -120,6 +130,19 @@ export function renderSettings(view, ctx) {
       </div>
     </section>`;
 
+  view.querySelector('.set-tabs').addEventListener('click', e => {
+    const b = e.target.closest('[data-settab]'); if (!b) return;
+    const k = b.dataset.settab;
+    view.querySelectorAll('[data-settab]').forEach(x => x.setAttribute('aria-selected', String(x === b)));
+    view.querySelectorAll('section[data-tab]').forEach(x => { x.hidden = x.dataset.tab !== k; });
+    try { localStorage.setItem(TAB_KEY, k); history.replaceState(history.state, '', '#/caidat/' + k); } catch { }
+    const t = view.querySelector('.set-tabs'); if (t.getBoundingClientRect().top < 0) t.scrollIntoView({ block: 'start' });
+  });
+  view.querySelector('.set-tabs').addEventListener('keydown', e => {
+    if (!['ArrowLeft', 'ArrowRight'].includes(e.key)) return;
+    const bs = [...view.querySelectorAll('[data-settab]')], i = bs.indexOf(document.activeElement); if (i < 0) return;
+    const n = bs[(i + (e.key === 'ArrowRight' ? 1 : bs.length - 1)) % bs.length]; n.focus(); n.click(); e.preventDefault();
+  });
   const save = () => saveSettings();
   bindChips(view, name => {
     if (name === 'minsq') return; // nút phút nhanh: phần Nhịp học tự lo
@@ -173,5 +196,5 @@ export function renderSettings(view, ctx) {
     toast(await checkUpdate());
     b.disabled = false;
   };
-  view.querySelector('[data-act=reset]').onclick = async () => { await resetSettings(); ctx.go('#/caidat', true); toast('Đã đặt lại.'); };
+  view.querySelector('[data-act=reset]').onclick = async () => { await resetSettings(); ctx.go('#/caidat/' + (lastTab() || cur), true); toast('Đã đặt lại.'); };
 }

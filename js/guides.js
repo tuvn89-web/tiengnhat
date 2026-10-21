@@ -53,21 +53,21 @@ export const GUIDES = [
   { id: 'mua', g: 'Cho người mới', t: 'Giao diện mùa và hiệu ứng', b: [
     ['p', 'Mỗi tháng app có một họa tiết riêng theo mùa ở Nhật: tháng 4 hoa anh đào, tháng 6 mưa và cẩm tú cầu, tháng 8 pháo hoa và đom đóm, tháng 11 lá phong, tháng 12 tuyết… Trời đổi theo giờ của máy (bình minh, ngày, hoàng hôn, đêm có sao và trăng đúng ngày âm lịch). Ngày lễ Nhật và Việt Nam (Tết Nguyên Đán, Trung thu…) có trang trí riêng; đêm có mưa sao băng thì sao băng rơi nhiều.'],
     ['p', 'Thỉnh thoảng có máy bay bay qua để lại vệt khói, và hiếm hơn nữa là một hố đen hút các cánh hoa, chiếc lá ở gần.'],
-    ['p', 'Vào **Cài đặt → Giao diện mùa & hiệu ứng** để chọn tháng, tắt giao diện mùa, chỉnh mật độ và tốc độ rơi, bật / tắt riêng từng hiệu ứng, cho mưa theo thời tiết thật ở thành phố của bạn, và bấm "Thử ngay" để xem từng hiệu ứng. Máy bật "giảm chuyển động" thì app tự tắt hiệu ứng.'],
-    ['p', 'Mọi chỉnh sửa hiệu ứng nằm ở một chỗ: **Cài đặt → Giao diện mùa & hiệu ứng** (trên điện thoại: nút hình mặt trời ở góc trên bên phải, cạnh nút đồng bộ). Ở đó còn giữ cố định được **buổi** (bình minh, ngày, hoàng hôn, đêm), **ngày lễ** và **mưa** (cả mưa to có giông) — app **nhớ lại** mỗi lần mở; bấm "Về như thật" để trời và ngày lễ đổi theo thực tế.'],
+    ['p', 'Vào **Cài đặt → tab Hiệu ứng** để chọn tháng, tắt giao diện mùa, chỉnh mật độ và tốc độ rơi, bật / tắt riêng từng hiệu ứng, cho mưa theo thời tiết thật ở thành phố của bạn, và bấm "Thử ngay" để xem từng hiệu ứng. Máy bật "giảm chuyển động" thì app tự tắt hiệu ứng.'],
+    ['p', 'Mọi chỉnh sửa hiệu ứng nằm ở một chỗ: **Cài đặt → tab Hiệu ứng** (trên điện thoại: nút hình mặt trời ở góc trên bên phải, cạnh nút đồng bộ). Ở đó còn giữ cố định được **buổi** (bình minh, ngày, hoàng hôn, đêm), **ngày lễ** và **mưa** (cả mưa to có giông) — app **nhớ lại** mỗi lần mở; bấm "Về như thật" để trời và ngày lễ đổi theo thực tế.'],
     ['p', 'Nút tròn **‹** ở góc dưới bên trái (mọi trang trừ Trang chủ) để quay lại màn hình trước, giống nút Back của điện thoại: đang làm bài thì app hỏi "Dừng lượt này?". Nút che chữ thì **giữ ngón tay 0,7 giây** (máy rung nhẹ) rồi kéo sang chỗ khác; app nhớ chỗ đó.'],
     ['p', '**Cài đặt → Giao diện → Phông chữ Nhật / Phông chữ Việt**: chọn kiểu chữ thường, viết tay, thư pháp, mềm mại. Phông ngoài tải lần đầu khi có mạng, sau đó dùng được khi không có mạng. Mới học chữ Hán thì nên để Gothic hoặc Viết tay chuẩn cho dễ nhận mặt chữ.'],
-    ['a', 'Mở Cài đặt', '#/caidat']] },
+    ['a', 'Mở Cài đặt', '#/caidat/hieuung']] },
   { id: 'ngay', g: 'Cho người mới', t: 'Ôn mỗi ngày thế nào', b: [
     ['ul', ['1. **Ôn hỗn hợp** — làm hết phần đến hạn trước (từ, chữ Hán, ngữ pháp trộn chung).', '2. **Học từ mới** — 5 đến 20 từ tùy thời gian; đừng học quá sức, vì mỗi từ mới sẽ quay lại 5 lần trong 1 tháng.', '3. **Một mẫu ngữ pháp** — đọc bài, rồi bấm Luyện mẫu này.', '4. **Một bài luyện** — ghép câu, thể động từ, đếm số… để dùng được từ đã học.']],
     ['p', 'Nghỉ một ngày thì hôm sau phần đến hạn sẽ dồn lại. Không sao — cứ ôn hết phần dồn rồi mới học từ mới.'],
     ['p', '**Kế hoạch hôm nay** trên Trang chủ tự xếp các việc này theo số phút bạn chọn ở màn Bắt đầu.'],
     ['a', 'Đổi số phút mỗi ngày', '#/batdau']] },
   { id: 'nghe', g: 'Cho người mới', t: 'Luyện nghe', b: [
-    ['p', 'App đọc tiếng Nhật bằng giọng đọc có sẵn của máy. Vào **Cài đặt → Giọng đọc** để chọn giọng tiếng Nhật và tốc độ. Máy chưa có giọng tiếng Nhật thì cài thêm trong cài đặt ngôn ngữ của điện thoại.'],
+    ['p', 'App đọc tiếng Nhật bằng giọng đọc có sẵn của máy. Vào **Cài đặt → tab Giọng đọc** để chọn giọng tiếng Nhật và tốc độ. Máy chưa có giọng tiếng Nhật thì cài thêm trong cài đặt ngôn ngữ của điện thoại.'],
     ['ul', ['Bấm biểu tượng loa ở mọi thẻ từ và câu ví dụ để nghe.', 'Trắc nghiệm có kiểu **Nghe → nghĩa**; ngữ pháp có **Nghe → chọn**.', 'Mẹo "nói đuổi": nghe một câu ví dụ, dừng, nói to lại đúng nhịp — mỗi ngày 5 câu.']],
     ['p', 'Bài **hội thoại, bài đọc** và **bài mở đầu** dài thì mặc định chỉ hiện 5 câu đầu: bấm **Xem cả bài** để đọc tiếp, **Thu gọn** để gấp lại. Ở **Nghe cả bài**, khi giọng đọc tới phần đang ẩn thì bài tự mở ra.'],
-    ['a', 'Mở Cài đặt', '#/caidat']] },
+    ['a', 'Mở Cài đặt', '#/caidat/giongdoc']] },
   { id: 'dongbo', g: 'Cho người mới', t: 'Học trên nhiều máy', b: [
     ['p', 'Tiến độ lưu trong máy. Muốn dùng cả điện thoại và máy tính, vào **Dữ liệu → Đồng bộ** và điền kho GitHub riêng tư theo hướng dẫn. App tự đồng bộ khi mở, sau mỗi lượt học và khi có mạng trở lại.'],
     ['p', 'Máy thứ hai không cần điền lại: ở máy đã cài, bấm **Chuyển sang máy khác** rồi quét mã QR bằng máy kia.'],

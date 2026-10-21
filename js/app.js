@@ -52,7 +52,7 @@ const NAV = [
   ['#/nguphap', 'book', 'Ngữ pháp', /^(nguphap|onngu)/],
   ['#/kho', 'list', 'Kho từ', /^(kho|them|sua)/],
   ['#/dulieu', 'box', 'Dữ liệu', /^(dulieu|nhan)/, 'rail'],
-  ['#/caidat', 'gear', 'Cài đặt', /^caidat$/, 'rail'],
+  ['#/caidat', 'gear', 'Cài đặt', /^caidat(\/|$)/, 'rail'],
 ];
 
 const ROUTES = [
@@ -93,7 +93,7 @@ const ROUTES = [
   [/^sua\/(.+)$/, (v, m) => renderWordForm(v, ctx, decodeURIComponent(m[1]))],
   [/^dulieu$/, v => renderData(v, ctx)],
   [/^nhan\?c=([A-Za-z0-9_-]+)$/, (v, m) => receiveSetup(v, ctx, m[1])],
-  [/^caidat$/, v => renderSettings(v, ctx)],
+  [/^caidat(?:\/([a-z]+))?$/, (v, m) => renderSettings(v, ctx, m[1])],
   [/^dich$/, v => renderDich(v, ctx)],
   [/^dich\?on$/, v => renderDich(v, ctx, { src: 'due', learned: false })],
   [/^trinhdo$/, v => renderLevelHub(v, ctx)],
