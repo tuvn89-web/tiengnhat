@@ -1011,3 +1011,20 @@ Máy chưa có giọng đọc tiếng Nhật thì đề bỏ phần nghe và kh�
 - Dữ liệu (mới): `jlpt-n1-40` … `jlpt-n1-48`, `modau-n1-40`, `modau-n1-41`, `modau-n1-42`, `chuhan-62` … `chuhan-66`.
 - Dữ liệu (sửa): `baihoc-n1` và các gói sửa cách đọc / âm Hán Việt (xem danh sách trong gói cập nhật).
 - `data/manifest.json`.
+
+## 58. Bản v49 (21/10/2026): Giáo trình N1 đủ 50 bài
+
+**Giáo trình N1 hoàn chỉnh** (Lộ trình → Chặng N1):
+- **50 bài**, mỗi bài: khoảng 50 từ mới N1 (tổng khoảng 2.470 từ), 3 mẫu ngữ pháp N1 (đủ 150 mẫu), chữ Hán, luyện tập, kiểm tra cuối bài.
+- **50 bài mở đầu** — hội thoại dài hoặc bài đọc (báo cáo, xã luận, bài luận, tổng kết), câu hỏi tiếng Nhật kiểu đề JLPT. Nối thành một mạch truyện: anh Nguyễn lên 主任, lo việc ở xưởng, trượt sát nút kỳ thi tháng 7, ôn lại, thi kỳ tháng 12, Tết Nhật, và **bài 50: bài tổng kết hành trình từ N5 tới N1, nhận tin đỗ N1**.
+- Bài mới trong bản này: từ vựng bài 49–50; bài mở đầu 43–50 (thủy cung, mùa おせち và tiệc tiễn bác 浜口, bài luận số Tết, giao thừa và đi lễ đầu năm, hàng bán ở Singapore, bà của リン, những ngày chờ kết quả, bài tổng kết).
+- **Thẻ chữ Hán:** thêm 42 thẻ (gói `chuhan-67`, `chuhan-68`). Nay **mọi chữ Hán trong 7.623 từ của kho đều có thẻ** — đợt N1 làm thêm 252 thẻ, mỗi thẻ có thơ lục bát nhớ mặt chữ.
+- Bài hướng dẫn "Học N1 thế nào" cập nhật: kho N1 đủ 50 bài.
+
+**Sửa:** cách đọc 今週中 / 今月中 (こんしゅうちゅう, こんげつちゅう — bản trước đổi nhầm thành じゅう), 四十がらみ (しじゅう), 金ずく (かね)…; ghi chú chữ 辣 (có trong bảng thường dùng từ 2010).
+
+**Tệp:**
+- Mã: `js/guides.js`, `js/util.js`, `sw.js`.
+- Dữ liệu (mới): `jlpt-n1-49`, `jlpt-n1-50`, `modau-n1-43` … `modau-n1-50`, `chuhan-67`, `chuhan-68`.
+- Dữ liệu (sửa): `baihoc-n1`, `chuhan-66` và vài gói sửa cách đọc (xem danh sách trong gói cập nhật).
+- `data/manifest.json`.

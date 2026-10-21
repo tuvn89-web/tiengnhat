@@ -103,7 +103,7 @@ export const GUIDES = [
   { id: 'n1', g: 'Theo cấp', t: 'Học N1 thế nào', b: [
     ['p', 'N1 là tiếng Nhật của người đã đi làm lâu năm: đọc xã luận, báo cáo, văn bản quy định; nghe cuộc họp, bài phát biểu với tốc độ tự nhiên. Nhiều mẫu ngữ pháp N1 chỉ gặp trong văn viết và lời phát biểu trang trọng.'],
     ['tb', [['Cần biết (thêm so với N2)', 'Khoảng'], ['Từ vựng', '3.000 từ'], ['Chữ Hán', '1.000 chữ'], ['Mẫu ngữ pháp', '150 mẫu (theo kho app)'], ['Thời gian', '12 tháng trở lên']]],
-    ['p', 'Kho N1 của app gồm 50 bài học theo một mạch truyện: anh Nguyễn lên 主任[しゅにん], lo việc ở xưởng và ôn thi N1. Các bài đang được làm dần và có thêm trong các bản cập nhật tới.'],
+    ['p', 'Kho N1 của app gồm 50 bài học theo một mạch truyện: anh Nguyễn lên 主任[しゅにん], lo việc ở xưởng và ôn thi N1. Đủ 50 bài; mỗi bài có bài mở đầu (hội thoại hoặc bài đọc), câu hỏi kiểu đề JLPT bằng tiếng Nhật.'],
     ['p', 'Ở N1, **âm Hán Việt** càng có ích: từ khó như 踏襲[とうしゅう] (ĐẠP TẬP — noi theo cách làm của người trước) hay 拙速[せっそく] (CHUYẾT TỐC — nhanh mà ẩu) đoán được nghĩa từ từng chữ.'],
     ['h', 'Lỗi người Việt hay mắc'],
     ['ul', ['Lẫn các mẫu gần nghĩa: 〜といえども / 〜とはいえ; 〜をもって / 〜によって; 〜ならでは / 〜らしい.', 'Từ Hán gần âm, gần nghĩa: 保証[ほしょう] (bảo đảm chất lượng, bảo lãnh) / 保障[ほしょう] (bảo vệ quyền lợi, an toàn) / 補償[ほしょう] (bồi thường thiệt hại).', 'Dùng mẫu văn viết trong lời nói thân mật — nghe rất cứng.', 'Phần Nghe: người nói đi vòng, ý thật nằm ở cuối câu hoặc sau 〜けど / 〜が — nghe hết câu rồi mới chọn.']],

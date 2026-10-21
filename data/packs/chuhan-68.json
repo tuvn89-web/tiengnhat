@@ -1,0 +1,586 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "chuhan-68",
+  "title": "Chữ Hán 68 – Chữ trong từ N1 (9)",
+  "type": "kanji",
+  "level": "N1",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 1,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Các chữ đã dùng trong từ vựng N1 của app mà chưa có thẻ (phần 9, gói cuối của đợt N1). Ghi chú mỗi thẻ ưu tiên đúng từ có trong các gói từ N1, kèm một hai từ thông dụng. 琢, 磋, 餞, 駁, 驕 là chữ ngoài bảng thường dùng (琢 được phép dùng đặt tên người), báo chí hay viết bằng kana hoặc có furigana. Âm Hán Việt lấy theo âm của từ N1: 嘱 lấy CHÚC (như di chúc), 磋 lấy THA, 翼 lấy DỰC, 襟 lấy KHÂM, 餞 lấy TIỄN, 駁 lấy BÁC. Bên phải của 琢 viết theo dạng Nhật là 豕. Âm On/Kun chỉ giữ âm thường dùng. Câu lục bát là mẹo nhớ, không phải nguồn gốc chữ."
+ },
+ "items": [
+  {
+   "id": "k:嘱",
+   "char": "嘱",
+   "hv": "CHÚC",
+   "nghia": "dặn dò, gửi gắm, ủy thác",
+   "on": [
+    "ショク"
+   ],
+   "kun": [],
+   "strokes": 15,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "giayto"
+   ],
+   "parts": [
+    {
+     "c": "口",
+     "hv": "KHẨU",
+     "nghia": "miệng"
+    },
+    {
+     "c": "属",
+     "hv": "THUỘC",
+     "nghia": "thuộc về"
+    }
+   ],
+   "tho": [
+    "Miệng (口) truyền kẻ thuộc (属) dưới tay",
+    "Dặn dò chữ CHÚC (嘱), việc này nhờ anh."
+   ],
+   "viet": [
+    "di chúc",
+    "chúc thác (gửi gắm, ủy thác)"
+   ],
+   "similar": [
+    {
+     "c": "属",
+     "note": "THUỘC (thuộc về; 所属) — không có 口 bên trái."
+    },
+    {
+     "c": "触",
+     "note": "XÚC (chạm; 接触) — 角 bên trái, 虫 bên phải; cùng đọc ショク."
+    }
+   ],
+   "note": "嘱望[しょくぼう] = đặt kỳ vọng (vào người có tài): 将来[しょうらい]を嘱望[しょくぼう]される若手[わかて] = người trẻ được kỳ vọng ở tương lai; 嘱託[しょくたく] = (nhân viên) hợp đồng, nhận việc được ủy thác: 定年後[ていねんご]も嘱託[しょくたく]社員[しゃいん]として働[はたら]く = qua tuổi nghỉ hưu vẫn làm tiếp với tư cách nhân viên hợp đồng; 委嘱[いしょく] = ủy nhiệm, mời giữ một việc ngoài biên chế."
+  },
+  {
+   "id": "k:抹",
+   "char": "抹",
+   "hv": "MẠT",
+   "nghia": "xóa, gạch bỏ; bôi, quệt; nghiền thành bột",
+   "on": [
+    "マツ"
+   ],
+   "kun": [],
+   "strokes": 8,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "giayto"
+   ],
+   "parts": [
+    {
+     "c": "扌",
+     "hv": "THỦ",
+     "nghia": "tay"
+    },
+    {
+     "c": "末",
+     "hv": "MẠT",
+     "nghia": "cuối, ngọn"
+    }
+   ],
+   "tho": [
+    "Tay (扌) đưa tận ngọn (末) quệt ngang",
+    "Xóa đi chữ MẠT (抹), nhẹ nhàng như không."
+   ],
+   "viet": [
+    "mạt sát",
+    "mạt trà (trà xanh bột)"
+   ],
+   "similar": [
+    {
+     "c": "末",
+     "note": "MẠT (cuối) — không có 扌."
+    },
+    {
+     "c": "沫",
+     "note": "MẠT (bọt; 飛沫) — 氵 thay cho 扌."
+    }
+   ],
+   "note": "一抹[いちまつ] = thoáng chút (đứng trước từ chỉ cảm xúc): 一抹[いちまつ]の不安[ふあん]が残[のこ]る = vẫn còn thoáng chút lo âu; 抹茶[まっちゃ] = trà xanh bột (matcha); 抹消[まっしょう] = xóa (khỏi sổ, danh sách): 登録[とうろく]を抹消[まっしょう]する = xóa đăng ký."
+  },
+  {
+   "id": "k:琢",
+   "char": "琢",
+   "hv": "TRÁC",
+   "nghia": "mài giũa (ngọc); trau chuốt",
+   "on": [
+    "タク"
+   ],
+   "kun": [],
+   "strokes": 11,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "王",
+     "hv": "NGỌC",
+     "nghia": "ngọc (dạng 王)"
+    },
+    {
+     "c": "豕",
+     "hv": "THỈ",
+     "nghia": "con lợn"
+    }
+   ],
+   "tho": [
+    "Ngọc (王) thô lợn (豕) ủi mang ra",
+    "Dày công chữ TRÁC (琢), ngọc ngà sáng trong."
+   ],
+   "viet": [
+    "thiết tha trác ma (cùng mài giũa)",
+    "điêu trác (chạm trổ, gọt giũa)"
+   ],
+   "similar": [
+    {
+     "c": "啄",
+     "note": "TRÁC (mổ; 啄木鳥 = chim gõ kiến) — 口 thay cho 王."
+    },
+    {
+     "c": "逐",
+     "note": "TRỤC (đuổi theo) — 辶 thay cho 王."
+    }
+   ],
+   "note": "切磋琢磨[せっさたくま] = cùng nhau rèn giũa, thi đua tiến bộ: 同期[どうき]と切磋琢磨[せっさたくま]して腕[うで]を磨[みが]く = thi đua với bạn cùng đợt để lên tay nghề; 琢磨[たくま] = tên con trai thông dụng (Takuma). Chữ ngoài bảng thường dùng (được phép dùng đặt tên người), hầu như chỉ gặp trong từ này và trong tên."
+  },
+  {
+   "id": "k:磋",
+   "char": "磋",
+   "hv": "THA",
+   "nghia": "mài (đá, ngà); rèn giũa lẫn nhau",
+   "on": [
+    "サ"
+   ],
+   "kun": [],
+   "strokes": 15,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "石",
+     "hv": "THẠCH",
+     "nghia": "đá"
+    },
+    {
+     "c": "差",
+     "hv": "SAI",
+     "nghia": "chênh lệch, sai khác"
+    }
+   ],
+   "tho": [
+    "Đá (石) mài cho hết lệch sai (差)",
+    "Chữ THA (磋) mài giũa, ngày mai sáng ngời."
+   ],
+   "viet": [
+    "thiết tha trác ma (cùng mài giũa)"
+   ],
+   "similar": [
+    {
+     "c": "差",
+     "note": "SAI (chênh lệch) — không có 石."
+    },
+    {
+     "c": "蹉",
+     "note": "THA (vấp ngã; 蹉跌 = thất bại) — 足 thay cho 石."
+    }
+   ],
+   "note": "切磋琢磨[せっさたくま] = cùng nhau rèn giũa (gốc: cắt, giũa, đục, mài ngọc đá): ライバルと切磋琢磨[せっさたくま]する = cùng đối thủ thi đua tiến bộ; 職場[しょくば]の仲間[なかま]と切磋琢磨[せっさたくま]する = cùng đồng nghiệp rèn giũa nhau. Chữ ngoài bảng thường dùng, hầu như chỉ gặp trong thành ngữ này."
+  },
+  {
+   "id": "k:翼",
+   "char": "翼",
+   "hv": "DỰC",
+   "nghia": "cánh (chim, máy bay); cánh, phe",
+   "on": [
+    "ヨク"
+   ],
+   "kun": [
+    "つばさ"
+   ],
+   "strokes": 17,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "羽",
+     "hv": "VŨ",
+     "nghia": "lông cánh"
+    },
+    {
+     "c": "異",
+     "hv": "DỊ",
+     "nghia": "khác lạ"
+    }
+   ],
+   "tho": [
+    "Lông (羽) chim mọc lạ (異) hai bên",
+    "Dang ra chữ DỰC (翼), bay lên mây trời."
+   ],
+   "viet": [
+    "vũ dực (lông cánh; người phò tá)",
+    "hữu dực (cánh hữu)"
+   ],
+   "similar": [
+    {
+     "c": "異",
+     "note": "DỊ (khác) — không có 羽 trên đầu."
+    },
+    {
+     "c": "翌",
+     "note": "DỰC (hôm sau; 翌日) — 羽 trên 立, không phải 異; cùng âm DỰC."
+    }
+   ],
+   "note": "一翼[いちよく]を担[にな]う = gánh một phần vai trò quan trọng: 外国人[がいこくじん]労働者[ろうどうしゃ]が地域[ちいき]の水産業[すいさんぎょう]の一翼[いちよく]を担[にな]っている = lao động nước ngoài đang gánh một phần quan trọng của ngành thủy sản địa phương; 翼[つばさ] = cánh (chim, máy bay); 右翼[うよく] / 左翼[さよく] = cánh hữu / cánh tả."
+  },
+  {
+   "id": "k:襟",
+   "char": "襟",
+   "hv": "KHÂM",
+   "nghia": "cổ áo, ve áo; lòng dạ",
+   "on": [
+    "キン"
+   ],
+   "kun": [
+    "えり"
+   ],
+   "strokes": 18,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "衤",
+     "hv": "Y",
+     "nghia": "áo"
+    },
+    {
+     "c": "禁",
+     "hv": "CẤM",
+     "nghia": "cấm"
+    }
+   ],
+   "tho": [
+    "Áo (衤) cài, cấm (禁) hở, nghiêm trang",
+    "Chữ KHÂM (襟) cổ áo, sửa sang chỉnh tề."
+   ],
+   "viet": [
+    "hung khâm (tấm lòng, độ lượng)"
+   ],
+   "similar": [
+    {
+     "c": "禁",
+     "note": "CẤM (cấm) — không có 衤."
+    },
+    {
+     "c": "衿",
+     "note": "KHÂM (cổ áo; cũng đọc えり) — bên phải là 今; nghề may hay viết chữ này."
+    }
+   ],
+   "note": "襟[えり]を正[ただ]す = chỉnh đốn bản thân, nghiêm túc lại: 事故[じこ]を機[き]に全員[ぜんいん]で襟[えり]を正[ただ]す = nhân vụ tai nạn, mọi người cùng chấn chỉnh lại mình; 襟[えり] = cổ áo: 襟[えり]の汚[よご]れ = vết bẩn ở cổ áo; 胸襟[きょうきん]を開[ひら]く = mở lòng, nói thật lòng."
+  },
+  {
+   "id": "k:陣",
+   "char": "陣",
+   "hv": "TRẬN",
+   "nghia": "trận, thế trận; đoàn, toán người; đợt, cơn (gió, đau)",
+   "on": [
+    "ジン"
+   ],
+   "kun": [],
+   "strokes": 10,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "阝",
+     "hv": "PHỤ",
+     "nghia": "gò đất"
+    },
+    {
+     "c": "車",
+     "hv": "XA",
+     "nghia": "xe"
+    }
+   ],
+   "tho": [
+    "Gò (阝) cao xe (車) ngựa dàn hàng",
+    "Bày binh chữ TRẬN (陣), sẵn sàng giao tranh."
+   ],
+   "viet": [
+    "trận địa",
+    "trận tuyến",
+    "bày binh bố trận"
+   ],
+   "similar": [
+    {
+     "c": "陳",
+     "note": "TRẦN (bày ra; 陳列) — 東 thay cho 車."
+    },
+    {
+     "c": "連",
+     "note": "LIÊN (nối liền) — 辶 thay cho 阝."
+    }
+   ],
+   "note": "背水[はいすい]の陣[じん] = thế \"bối thủy\", dồn mình vào chỗ không đường lui: 背水[はいすい]の陣[じん]で試験[しけん]に臨[のぞ]む = đi thi với quyết tâm không còn đường lui; 円陣[えんじん]を組[く]む = đứng quây thành vòng tròn (cả nhóm hô hào trước khi làm); 報道陣[ほうどうじん] = đoàn phóng viên."
+  },
+  {
+   "id": "k:餞",
+   "char": "餞",
+   "hv": "TIỄN",
+   "nghia": "tiễn đưa; quà tiễn người đi xa",
+   "on": [
+    "セン"
+   ],
+   "kun": [
+    "はなむけ"
+   ],
+   "strokes": 17,
+   "level": "N1",
+   "groups": [
+    "coban",
+    "xuong"
+   ],
+   "parts": [
+    {
+     "c": "飠",
+     "hv": "THỰC",
+     "nghia": "ăn"
+    },
+    {
+     "c": "戔",
+     "hv": "TIÊN",
+     "nghia": "mảnh nhỏ"
+    }
+   ],
+   "tho": [
+    "Bữa ăn (飠) nho nhỏ (戔) bên đường",
+    "Quà trao chữ TIỄN (餞), dặm trường bình an."
+   ],
+   "viet": [
+    "tiễn biệt",
+    "tiễn hành (tiễn người lên đường)"
+   ],
+   "similar": [
+    {
+     "c": "銭",
+     "note": "TIỀN (tiền xu) — 金 thay cho 飠; bên phải viết gọn là 戋."
+    },
+    {
+     "c": "践",
+     "note": "TIỄN (thực tiễn) — 足 thay cho 飠."
+    }
+   ],
+   "note": "餞別[せんべつ] = quà tiễn (người chuyển đi, nghỉ việc, về nước): 帰国[きこく]する実習生[じっしゅうせい]に餞別[せんべつ]を渡[わた]す = tặng quà tiễn bạn thực tập sinh về nước; 餞[はなむけ]の言葉[ことば] = lời chúc tiễn đưa (lễ tốt nghiệp, buổi chia tay). Chữ ngoài bảng thường dùng, hầu như chỉ gặp trong hai từ này."
+  },
+  {
+   "id": "k:駁",
+   "char": "駁",
+   "hv": "BÁC",
+   "nghia": "bác bỏ, phản bác; lốm đốm, lẫn màu",
+   "on": [
+    "バク"
+   ],
+   "kun": [],
+   "strokes": 14,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "馬",
+     "hv": "MÃ",
+     "nghia": "ngựa"
+    },
+    {
+     "c": "爻",
+     "hv": "HÀO",
+     "nghia": "nét đan chéo"
+    }
+   ],
+   "tho": [
+    "Ngựa (馬) phi vó đá chéo (爻) ngang",
+    "Phản lời chữ BÁC (駁), rõ ràng đúng sai."
+   ],
+   "viet": [
+    "phản bác",
+    "bác bỏ",
+    "biện bác"
+   ],
+   "similar": [
+    {
+     "c": "駄",
+     "note": "ĐÀ (vô ích; 無駄) — 大 thay cho 爻."
+    },
+    {
+     "c": "駅",
+     "note": "DỊCH (nhà ga) — 尺 thay cho 爻."
+    }
+   ],
+   "note": "反駁[はんばく] = bác bỏ lại (luận điểm đối phương, văn viết): 相手[あいて]の主張[しゅちょう]に反駁[はんばく]する = phản bác lập luận của đối phương; 論駁[ろんばく] = dùng lý lẽ bác bỏ. Chữ ngoài bảng thường dùng; nói chuyện hằng ngày thường dùng 反論[はんろん]."
+  },
+  {
+   "id": "k:驕",
+   "char": "驕",
+   "hv": "KIÊU",
+   "nghia": "kiêu căng, kiêu ngạo, tự mãn",
+   "on": [
+    "キョウ"
+   ],
+   "kun": [
+    "おご.る"
+   ],
+   "strokes": 22,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "馬",
+     "hv": "MÃ",
+     "nghia": "ngựa"
+    },
+    {
+     "c": "喬",
+     "hv": "KIỀU",
+     "nghia": "cao"
+    }
+   ],
+   "tho": [
+    "Ngựa (馬) phi đầu ngẩng cao (喬) vời",
+    "Chữ KIÊU (驕) ngạo mạn, coi trời bằng vung."
+   ],
+   "viet": [
+    "kiêu ngạo",
+    "kiêu căng",
+    "kiêu binh"
+   ],
+   "similar": [
+    {
+     "c": "橋",
+     "note": "KIỀU (cây cầu) — 木 thay cho 馬."
+    },
+    {
+     "c": "矯",
+     "note": "KIỂU (uốn nắn; 矯正) — 矢 thay cho 馬."
+    }
+   ],
+   "note": "驕[おご]る = kiêu ngạo, tự mãn (vì thành công, địa vị): 驕[おご]る平家[へいけ]は久[ひさ]しからず = kẻ kiêu căng chẳng giữ được lâu (tục ngữ); 驕[おご]り = sự tự mãn: 驕[おご]りが油断[ゆだん]を生[う]む = tự mãn sinh ra lơ là. Chữ ngoài bảng thường dùng, báo chí hay viết おごる; đừng nhầm với 奢[おご]る = khao, bao (今日[きょう]は奢[おご]るよ = hôm nay để tôi bao)."
+  },
+  {
+   "id": "k:骸",
+   "char": "骸",
+   "hv": "HÀI",
+   "nghia": "xương, hài cốt; xác, thân xác",
+   "on": [
+    "ガイ"
+   ],
+   "kun": [],
+   "strokes": 16,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "骨",
+     "hv": "CỐT",
+     "nghia": "xương"
+    },
+    {
+     "c": "亥",
+     "hv": "HỢI",
+     "nghia": "chi Hợi"
+    }
+   ],
+   "tho": [
+    "Xương (骨) khô tuổi Hợi (亥) vùi sâu",
+    "Chữ HÀI (骸) thân xác, hồn đâu chẳng còn."
+   ],
+   "viet": [
+    "hài cốt",
+    "thi hài",
+    "hình hài"
+   ],
+   "similar": [
+    {
+     "c": "核",
+     "note": "HẠCH (hạt nhân; 核心) — 木 thay cho 骨."
+    },
+    {
+     "c": "該",
+     "note": "CAI (đúng với, thuộc vào; 該当) — 言 thay cho 骨."
+    }
+   ],
+   "note": "形骸化[けいがいか] = chỉ còn là hình thức, mất thực chất: 安全[あんぜん]点検[てんけん]が形骸化[けいがいか]している = kiểm tra an toàn chỉ còn làm cho có; 残骸[ざんがい] = xác, mảnh vụn còn lại (xe, máy bay sau tai nạn); 亡骸[なきがら] = thi hài (cách đọc đặc biệt)."
+  },
+  {
+   "id": "k:魂",
+   "char": "魂",
+   "hv": "HỒN",
+   "nghia": "hồn, linh hồn; tinh thần, khí phách",
+   "on": [
+    "コン"
+   ],
+   "kun": [
+    "たましい"
+   ],
+   "strokes": 14,
+   "level": "N1",
+   "groups": [
+    "coban"
+   ],
+   "parts": [
+    {
+     "c": "云",
+     "hv": "VÂN",
+     "nghia": "mây"
+    },
+    {
+     "c": "鬼",
+     "hv": "QUỶ",
+     "nghia": "quỷ"
+    }
+   ],
+   "tho": [
+    "Mây (云) bay, quỷ (鬼) hiện lờ mờ",
+    "Chữ HỒN (魂) hồn vía, vật vờ đêm thâu."
+   ],
+   "viet": [
+    "linh hồn",
+    "tâm hồn",
+    "hồn phách"
+   ],
+   "similar": [
+    {
+     "c": "塊",
+     "note": "KHỐI (cục, khối) — 土 thay cho 云."
+    },
+    {
+     "c": "魅",
+     "note": "MỊ (quyến rũ; 魅力) — 鬼 bên trái, 未 bên phải; 魂 thì 云 bên trái, 鬼 bên phải."
+    }
+   ],
+   "note": "魂胆[こんたん] = mưu đồ giấu trong bụng: 何[なに]か魂胆[こんたん]があるに違[ちが]いない = chắc hẳn có ý đồ gì đây; 魂[たましい] = linh hồn; 職人[しょくにん]魂[だましい] = tinh thần, khí phách người thợ (たましい đọc thành だましい khi đứng sau từ khác)."
+  }
+ ]
+}

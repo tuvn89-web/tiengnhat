@@ -272,8 +272,8 @@
     "jlpt"
    ],
    "count": 50,
-   "version": 1,
-   "hash": "d062cc6d2c"
+   "version": 2,
+   "hash": "85dcf71a02"
   },
   {
    "id": "jlpt-n1-21",
@@ -640,6 +640,32 @@
    "hash": "4c85b86ccd"
   },
   {
+   "id": "jlpt-n1-49",
+   "file": "jlpt-n1-49.json",
+   "title": "JLPT N1 49 – Chuẩn bị, cho phép, ân huệ, lời mời & xuất hàng",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "042d32b73f"
+  },
+  {
+   "id": "jlpt-n1-50",
+   "file": "jlpt-n1-50.json",
+   "title": "JLPT N1 50 – Tổng kết, tương lai, nghĩa vụ, quyết định & thi N1",
+   "type": "vocab",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 50,
+   "version": 1,
+   "hash": "f9fbf1874e"
+  },
+  {
    "id": "jlpt-n2-01",
    "file": "jlpt-n2-01.json",
    "title": "JLPT N2 01 – Thủ tục & hợp đồng",
@@ -974,8 +1000,8 @@
     "jlpt"
    ],
    "count": 48,
-   "version": 3,
-   "hash": "7b296a9b64"
+   "version": 4,
+   "hash": "77c2079767"
   },
   {
    "id": "jlpt-n2-27",
@@ -2931,8 +2957,8 @@
     "jlpt"
    ],
    "count": 3,
-   "version": 1,
-   "hash": "852ca6e1c7"
+   "version": 2,
+   "hash": "8cbb19d0a4"
   },
   {
    "id": "nguphap-n1-45",
@@ -3958,8 +3984,8 @@
     "jlpt"
    ],
    "count": 3,
-   "version": 2,
-   "hash": "0bae3816bb"
+   "version": 3,
+   "hash": "dc94a30c9c"
   },
   {
    "id": "nguphap-n3-34",
@@ -5390,8 +5416,34 @@
     "jlpt"
    ],
    "count": 30,
+   "version": 2,
+   "hash": "e9accd6613"
+  },
+  {
+   "id": "chuhan-67",
+   "file": "chuhan-67.json",
+   "title": "Chữ Hán 67 – Chữ trong từ N1 (8)",
+   "type": "kanji",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 30,
    "version": 1,
-   "hash": "bc2922bb3f"
+   "hash": "f77895fca6"
+  },
+  {
+   "id": "chuhan-68",
+   "file": "chuhan-68.json",
+   "title": "Chữ Hán 68 – Chữ trong từ N1 (9)",
+   "type": "kanji",
+   "level": "N1",
+   "topics": [
+    "jlpt"
+   ],
+   "count": 12,
+   "version": 1,
+   "hash": "69a09b96af"
   },
   {
    "id": "baihoc-n1",
@@ -5402,9 +5454,9 @@
    "topics": [
     "jlpt"
    ],
-   "count": 48,
-   "version": 4,
-   "hash": "1c4ae82ce2"
+   "count": 50,
+   "version": 5,
+   "hash": "5a7c921310"
   },
   {
    "id": "baihoc-n2",
@@ -5486,8 +5538,8 @@
     "xuong"
    ],
    "count": 8,
-   "version": 18,
-   "hash": "a98a5fcf91",
+   "version": 19,
+   "hash": "dda2615173",
    "turns": 125
   },
   {
@@ -6088,6 +6140,95 @@
    "version": 1,
    "hash": "7b32b697d9",
    "turns": 41
+  },
+  {
+   "id": "modau-n1-43",
+   "file": "modau-n1-43.json",
+   "title": "Bài mở đầu N1 – bài 43: Thủy cung và lời dặn của người thầy",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "41da8bfe99",
+   "turns": 41
+  },
+  {
+   "id": "modau-n1-44",
+   "file": "modau-n1-44.json",
+   "title": "Bài mở đầu N1 – bài 44: Cả khu phố tiễn bác Hamaguchi",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "af8f4703e0",
+   "turns": 41
+  },
+  {
+   "id": "modau-n1-46",
+   "file": "modau-n1-46.json",
+   "title": "Bài mở đầu N1 – bài 46: Đêm giao thừa và buổi lễ đầu năm",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "89c00e3e9a",
+   "turns": 45
+  },
+  {
+   "id": "modau-n1-47",
+   "file": "modau-n1-47.json",
+   "title": "Bài mở đầu N1 – bài 47: Đi trước một bước",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "thuysan",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "719beabce2",
+   "turns": 43
+  },
+  {
+   "id": "modau-n1-48",
+   "file": "modau-n1-48.json",
+   "title": "Bài mở đầu N1 – bài 48: Không nỡ để em ấy ở lại",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "1944322bdc",
+   "turns": 41
+  },
+  {
+   "id": "modau-n1-49",
+   "file": "modau-n1-49.json",
+   "title": "Bài mở đầu N1 – bài 49: Chỉ còn chờ ngày xuất hàng",
+   "type": "dialog",
+   "level": "N1",
+   "topics": [
+    "thuysan",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "7ea2ec2c44",
+   "turns": 44
   },
   {
    "id": "modau-n2-01",
@@ -7846,6 +7987,36 @@
    "count": 1,
    "version": 1,
    "hash": "3050765dc7",
+   "sents": 44
+  },
+  {
+   "id": "modau-n1-45",
+   "file": "modau-n1-45.json",
+   "title": "Bài mở đầu N1 – bài 45: Tiểu luận: Cảm giác tay hay sổ tay quy trình?",
+   "type": "text",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "a7b999d7d7",
+   "sents": 42
+  },
+  {
+   "id": "modau-n1-50",
+   "file": "modau-n1-50.json",
+   "title": "Bài mở đầu N1 – bài 50: Sớm muộn gì, nỗ lực cũng kết trái",
+   "type": "text",
+   "level": "N1",
+   "topics": [
+    "doisong",
+    "xuong"
+   ],
+   "count": 1,
+   "version": 1,
+   "hash": "074ff518e6",
    "sents": 44
   },
   {
