@@ -543,6 +543,9 @@ export function renderHub(view) {
       ${card('#/luyen/trotu', 'quiz', 'Trợ từ đi theo động từ', 'を / に / で / が theo từng động từ: 電車[でんしゃ]に乗[の]る, 部屋[へや]を出[で]る')}
       ${card('#/luyen/katakana', 'quiz', 'Từ katakana: đoán từ gốc', 'シフト = shift, クレーム = claim; viết đúng ー, ッ')}
       ${card('#/luyen/truongam', 'quiz', 'Nghe: trường âm, âm ngắt', 'おばさん / おばあさん, きて / きって, びよういん / びょういん')}
+      ${card('#/luyen/dongtu', 'list', 'Một chữ Việt – nhiều động từ Nhật', '"mặc" áo 着[き]る / quần はく / mũ かぶる; "đeo", "mở", "tắt", "bị"…')}
+      ${card('#/luyen/khaungu', 'chat', 'Nghe khẩu ngữ rút gọn', '〜てる, 〜とく, 〜ちゃう, 〜なきゃ, って; Kansai 〜へん, 〜や, めっちゃ')}
+      ${card('#/luyen/tiento', 'han', 'Tiền tố – hậu tố Hán', '未[み] chưa · 無[む] không có; 〜代[だい] / 〜料[りょう] / 〜費[ひ] / 〜賃[ちん] đều là "tiền"')}
       ${card('#/giayto', 'book', 'Đọc giấy tờ thật', 'Phiếu lương, bảng ca, hợp đồng, thuế cư trú, nhãn hàng — bấm từng ô để xem nghĩa')}
       ${card('#/nguphap/nhom', 'list', 'Ngữ pháp theo nhóm', 'Các mẫu cùng nghĩa "vì", "hình như"… đặt cạnh nhau, chọn đúng sắc thái')}
     </nav>

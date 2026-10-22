@@ -1013,6 +1013,8 @@ html:not(.calm) .back-fab:not(.is-drag):active { transform: scale(.92); }
 .topbar { background: transparent; border-bottom-color: transparent; }
 .topbar.is-scrolled {
   background: var(--bg); background: color-mix(in srgb, var(--bg) 68%, transparent);
+  /* v55: mép trên cùng màu với thanh trạng thái của máy (--top-edge do app tính), nhạt dần xuống — nhìn liền một mảng */
+  background: linear-gradient(to bottom, var(--top-edge, var(--bg)) 0, var(--top-edge, var(--bg)) env(safe-area-inset-top, 0px), color-mix(in srgb, var(--bg) 68%, transparent) calc(env(safe-area-inset-top, 0px) + 46px));
   -webkit-backdrop-filter: blur(14px) saturate(1.15); backdrop-filter: blur(14px) saturate(1.15);
   border-bottom-color: color-mix(in srgb, var(--line) 55%, transparent);
 }
@@ -1166,33 +1168,6 @@ html:not(.calm) .tn-in { animation: tnFadeIn .22s ease-out backwards; }
 .dl-bad { display: inline-block; margin: 2px 0; padding: 1px 8px; border-radius: 999px; font-size: .75em; font-weight: 700; background: var(--ng-soft); color: var(--ng); }
 
 /* ---------- v53: đồng hồ lộ cơ nổi — giữ 0,7 giây rồi kéo để đổi chỗ; bấm để xem lớn ---------- */
-.watch-fab {
-  position: fixed; z-index: 29; padding: 0; border-radius: 50%; line-height: 0; cursor: pointer;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, .35), 0 1px 2px rgba(0, 0, 0, .4);
-  touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent;
-}
-.watch-fab[hidden] { display: none; }
-.watch-fab canvas { display: block; border-radius: 50%; }
-html:not(.calm) .watch-fab { transition: transform .15s ease, box-shadow .15s ease; }
-.watch-fab.is-drag { z-index: 55; transform: scale(1.15); box-shadow: 0 14px 32px rgba(0, 0, 0, .45); }
-.watch-fab:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
-@media print { .watch-fab { display: none; } }
-.wbig { position: relative; margin: 6px auto 10px; }
-.wbig canvas { display: block; }
-.wlabels { position: absolute; inset: 0; pointer-events: none; }
-.wlabels[hidden], .wleg[hidden] { display: none; }
-.wl { position: absolute; transform: translate(-50%, -50%); width: 24px; height: 24px; padding: 0; display: grid; place-items: center; border-radius: 50%; border: 1.5px solid #e8c56a; background: rgba(8, 10, 14, .8); color: #fff; font: 700 12px/1 system-ui, sans-serif; pointer-events: auto; cursor: pointer; }
-.wl.on { background: #e8c56a; color: #14110a; box-shadow: 0 0 0 5px rgba(232, 197, 106, .35); }
-.wleg { list-style: none; padding: 0; margin: 0 0 12px; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 6px; }
-.wleg button { width: 100%; display: flex; align-items: center; gap: 8px; padding: 6px 8px; text-align: left; background: none; color: inherit; border: 1px solid var(--line); border-radius: 10px; font: inherit; cursor: pointer; }
-.wleg button.on { border-color: #c9a227; background: rgba(232, 197, 106, .16); }
-.wleg .wn { flex: none; width: 22px; height: 22px; display: grid; place-items: center; border-radius: 50%; background: #14110a; color: #e8c56a; font-weight: 700; font-size: 12px; }
-.wleg b { display: block; font-size: 1.05em; }
-.wcap { text-align: center; margin: -4px 0 6px; line-height: 1.6; }
-.wcap[hidden] { display: none; }
-.wcap .wn { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: #e8c56a; color: #14110a; font-weight: 700; font-size: 12px; vertical-align: middle; }
-.wleg small { display: block; color: var(--ink-2); line-height: 1.3; }
-.wtime { text-align: center; font-variant-numeric: tabular-nums; font-weight: 600; margin: 0 0 8px; }
 
 /* ---------- v54 · đợt 7: lợi thế của người Việt ---------- */
 .am-note { margin: 6px 0 2px; font-size: .92em; }
@@ -1260,3 +1235,18 @@ html.ff-doc :is(.doc-body, .gt-paper, .dl-line) ruby.rf:not(.show), html.ff-all 
 .gn-rows .gn-m, .gn-rows .gn-n { grid-column: 1 / -1; }
 .gn-rows .gn-n { font-size: .9em; color: var(--ink-2); }
 .gn-rows li.is-new { opacity: .55; }
+.wd-dao { margin: 6px 0; padding: 8px 10px; border-radius: 8px; background: var(--blue-soft); font-size: .92em; line-height: 1.45; }
+.kfam-snd { margin: 2px 0 6px; font-size: .88em; padding: 4px 8px; border-left: 3px solid var(--blue); background: var(--blue-soft); border-radius: 4px; }
+/* v55: nghe 3 lượt, đọc bấm giờ */
+.n3-steps { list-style: none; display: flex; gap: 6px; padding: 0; margin: 8px 0; flex-wrap: wrap; }
+.n3-steps li { padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); font-size: .85em; color: var(--ink-2); }
+.n3-steps li.is-cur { border-color: var(--blue); color: var(--blue); font-weight: 600; }
+.n3-steps li.is-done { background: var(--ok-soft); border-color: var(--ok); color: var(--ok); }
+.n3-hide .dl-jp, .n3-hide .dl-vi, .n3-hide .dl-std { visibility: hidden; }
+.n3-hide .dl-jp { height: 1.2em; overflow: hidden; }
+.n3-q { margin: 6px 0 12px; }
+.rr-time { position: sticky; top: 64px; z-index: 5; display: inline-block; margin: 6px 0; padding: 3px 12px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); font-variant-numeric: tabular-nums; font-weight: 700; }
+.vv-g { border-bottom: 1px solid var(--line); padding: 6px 0; }
+.vv-g summary { cursor: pointer; }
+.vv-v p { margin: 6px 0 2px; }
+.vv-tbl td[lang=ja] { white-space: nowrap; }

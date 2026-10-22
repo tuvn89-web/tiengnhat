@@ -51,11 +51,6 @@ export function renderSettings(view, ctx, tab) {
       ${fontPicker('jp', S.jpFont, 'Phông chữ Nhật')}
       ${fontPicker('vi', S.viFont, 'Phông chữ Việt')}
       <p class="small muted">Phông "mặc định" có sẵn trong máy. Phông khác tải từ Google Fonts lần đầu chọn (cần mạng; Google thấy địa chỉ mạng của máy), sau đó dùng được khi không có mạng. Chữ Hán hiếm mà phông không có thì hiện bằng phông của máy. Thư pháp, viết tay đẹp nhưng nhận mặt chữ khó hơn — lúc mới học chữ nên dùng Gothic hoặc Viết tay chuẩn.</p>
-      <fieldset><legend>Đồng hồ lộ cơ nổi</legend>
-        <label class="check"><input type="checkbox" name="watch" ${S.watch !== false ? 'checked' : ''}> <span>Hiện đồng hồ cơ lộ máy ở góc màn hình — thấy bánh xe, bánh lắc, dây tóc chạy như thật. Bấm vào để xem lớn; giữ 0,7 giây rồi kéo để đổi chỗ.</span></label>
-        ${chips('watchSize', [['sm', 'Nhỏ'], ['md', 'Vừa'], ['lg', 'Lớn']], S.watchSize || 'sm', false)}
-        <label class="check"><input type="checkbox" name="watchFull" ${S.watchFull !== false ? 'checked' : ''}> <span>Chuyển động đầy đủ (bánh lắc 3 nhịp mỗi giây). Tắt thì đồng hồ chỉ nhảy mỗi giây một lần cho đỡ tốn pin.</span></label>
-      </fieldset>
       <div class="preview label-card">
         <div class="label-head"><span class="label-tag">Xem trước</span><span class="label-lv">N2</span></div>
         <p class="prompt-jp" lang="ja"><ruby>解凍<rt>かいとう</rt></ruby></p>

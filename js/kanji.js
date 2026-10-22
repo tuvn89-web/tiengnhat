@@ -52,13 +52,23 @@ function famIndex() {
 export const familyOfPart = c => famIndex().get(c)?.ks || [];
 const kchip = k => `<button type="button" class="kchip kfam-c" data-kopen="${esc(k.char)}"><b lang="ja">${esc(k.char)}</b><small>${esc(k.hv)}</small></button>`;
 const chipsMax = (ks, n = 12) => ks.slice(0, n).map(kchip).join('') + (ks.length > n ? `<span class="muted small kfam-more">và ${ks.length - n} chữ khác</span>` : '');
+// v55 (đợt 8, mục 7): phần CHỈ ÂM — trong nhóm chữ chung một bộ phận, từ 3 chữ trở lên (kể cả chữ đang xem) cùng một âm On
+// → bộ phận đó nhiều khả năng chỉ âm: 青 → 清, 晴, 精, 請 đều đọc セイ
+function soundNote(comp, k, os) {
+  const all = [k, ...os], cnt = new Map();
+  for (const x of all) for (const o of new Set(x.on || [])) cnt.set(o, (cnt.get(o) || 0) + 1);
+  const best = [...cnt].filter(([o, n]) => n >= 3 && n / all.length >= 0.5 && (k.on || []).includes(o)).sort((a, b) => b[1] - a[1])[0]; // bộ chỉ nghĩa (口, 氵, 言…) có hàng trăm chữ nên tỉ lệ thấp → bỏ
+  if (!best) return '';
+  const xs = all.filter(x => (x.on || []).includes(best[0]));
+  return `<p class="kfam-snd">Phần <b lang="ja">${esc(comp)}</b> chỉ âm: <b lang="ja">${esc(best[0])}</b> — ${xs.length}/${all.length} chữ cùng đọc như vậy (${xs.slice(0, 8).map(x => `<span lang="ja">${esc(x.char)}</span> ${esc(String(x.hv || '').split(/[\s/]/)[0])}`).join(', ')}). Gặp chữ lạ có phần này thì thử đọc <span lang="ja">${esc(best[0])}</span> trước.</p>`;
+}
 function familyHTML(k) {
   const rows = [];
   const inMe = familyOfPart(k.char).filter(o => o !== k);
-  if (inMe.length) rows.push(`<div class="kfam-row"><p class="kfam-h">Chữ có chứa <b lang="ja">${esc(k.char)}</b></p><div class="kfam-l">${chipsMax(inMe)}</div></div>`);
+  if (inMe.length) rows.push(`<div class="kfam-row"><p class="kfam-h">Chữ có chứa <b lang="ja">${esc(k.char)}</b></p>${soundNote(k.char, k, inMe)}<div class="kfam-l">${chipsMax(inMe)}</div></div>`);
   for (const p of k.parts || []) {
     const os = familyOfPart(p.c).filter(o => o !== k);
-    if (os.length) rows.push(`<div class="kfam-row"><p class="kfam-h">Cùng bộ phận <b lang="ja">${esc(p.c)}</b> ${esc(p.hv || '')}${p.nghia ? ` — ${esc(p.nghia)}` : ''}</p><div class="kfam-l">${chipsMax(os)}</div></div>`);
+    if (os.length) rows.push(`<div class="kfam-row"><p class="kfam-h">Cùng bộ phận <b lang="ja">${esc(p.c)}</b> ${esc(p.hv || '')}${p.nghia ? ` — ${esc(p.nghia)}` : ''}</p>${soundNote(p.c, k, os)}<div class="kfam-l">${chipsMax(os)}</div></div>`);
   }
   return rows.length ? `<h3 class="h3">Gia đình chữ</h3><div class="kfam">${rows.join('')}</div>` : '';
 }

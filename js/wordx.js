@@ -8,7 +8,7 @@ import { FORMS, FORM_LEVEL, verbInfo, conjugate, formVi, GROUP_VI, hasForm } fro
 import { AFORMS, adjInfo, adjConj, adjVi } from './adj.js';
 import { COUNTERS, counterOf, numKanji, counterMark, SCALES, NEG_ADV } from './counters.js';
 import { markBtnHTML } from './marks.js';
-import { hvTrapHTML } from './hvbay.js';
+import { hvTrapHTML, hvDaoHTML } from './hvbay.js';
 
 const sayBtn = (text, label = 'Nghe') => `<button type="button" class="icon-btn say" data-say="${esc(text)}" aria-label="${label}">${icon('speaker')}</button>`;
 export const hira = s => String(s || '').replace(/[ァ-ヶ]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60));
@@ -180,7 +180,7 @@ export function wordDetailHTML(it, { compact = false, lazyRest = false } = {}) {
     </div>
     ${it.kanji ? `<p class="wd-kana" lang="ja">${esc(it.kana)}</p>` : ''}
     ${S.showHv && it.hv ? `<p class="wd-hv">Hán Việt: <b>${esc(it.hv)}</b></p>` : ''}
-    ${hvTrapHTML(it)}`;
+    ${hvTrapHTML(it)}${hvDaoHTML(it)}`;
   if (compact) return `<div class="wd">${head}
     <p class="wd-vi">${esc(it.vi)}</p>
     ${it.std ? `<p class="wd-std">Tiếng chuẩn: <span lang="ja">${rich(it.std)}</span></p>` : ''}

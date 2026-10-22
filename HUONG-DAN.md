@@ -1165,3 +1165,37 @@ Bấm từng ô để xem cách đọc, âm Hán Việt, nghĩa và **cần đ�
 **9. Từ mới:** 開く (mở họp, mở sách, mở tiệm, mở tệp) — gói JLPT N4 05.
 
 **Tệp:** `js/dot7.js`, `js/amon.js`, `js/gnhom.js`, `js/giayto.js` (mới), `data/gnhom.json`, `data/giayto.json`, `data/truongam.json` (mới), `data/packs/jlpt-n4-05.json`, `js/app.js`, `js/practice.js`, `js/kanji.js`, `js/grammar.js`, `js/gdrill.js`, `js/srs.js`, `js/roadmap.js`, `js/guides.js`, `js/util.js`, `js/settings.js`, `js/settingspage.js`, `css/app.css`, `sw.js`.
+
+## 64. Bản v55 (22/10/2026): Thêm cách giúp người Việt học nhanh (đợt 8)
+
+**Giao diện**
+- **Thanh trạng thái trong suốt:** thanh trạng thái của điện thoại (giờ, thông báo, pin, sóng vẫn hiện) nay tô đúng màu mép trên của app — theo mùa, theo buổi trong ngày, chế độ tối, khi cuộn trang và khi mở bảng — nên nhìn liền một mảng với nền app. Để làm được việc này, dải màu bầu trời ở đầu trang đổi thành dải ngang đều (không còn loang tròn ở giữa).
+  - Android không cho ứng dụng web vẽ xuyên ra sau thanh trạng thái; app tô thanh đó cùng màu nên nhìn như trong suốt. Hạt rơi, mây không chạy lên vùng thanh trạng thái.
+- **Bỏ đồng hồ cơ nổi** (cả mục trong Cài đặt). Trên kho GitHub xoá tệp `js/watch.js`.
+
+Luyện tập → **"Lợi thế của người Việt"** có thêm 3 bài; Hướng dẫn → **"Mẹo cho người Việt"** có thêm 4 bài (một chữ Việt – nhiều động từ, khẩu ngữ rút gọn, đọc nhanh, tiền tố – hậu tố). Mọi bài mới không đổi lịch ôn.
+
+**1. Một chữ Việt – nhiều động từ Nhật** (`#/luyen/dongtu`)
+- 35 động từ Việt (128 động từ Nhật, 353 cụm): "mặc" áo 着る / quần はく / mũ かぶる; "đeo", "mở", "tắt", "đánh", "bị", "đổ", "giữ", "tắm"…
+- Câu luyện: cụm có chỗ trống + nghĩa Việt → chọn động từ đúng; sai thì hiện bảng cả nhóm. Chỗ hai động từ cùng đúng (マスクを する / つける) thì chỉ để một cái trong phương án.
+- Có **Bảng tra** từng nhóm ngay dưới trang.
+
+**2. Nghe hiểu khẩu ngữ rút gọn** (`#/luyen/khaungu`)
+- 1.740 câu: câu ví dụ trong kho được tự đổi sang cách nói ở xưởng — 〜てる, 〜とく, 〜ちゃう, 〜てく, 〜なきゃ, 〜ちゃいけない, じゃ, って, んです; và Kansai 〜へん, や, ほんまに, めっちゃ.
+- Ba dạng: nghe câu nói nhanh → nghĩa (máy không có giọng đọc thì thành đọc); câu đầy đủ → chọn cách nói đúng (bẫy てる / とく / ちゃう lẫn nhau); Kansai → nghĩa.
+
+**3. Đọc bấm giờ** (tab mới trong mỗi bài hội thoại / bài đọc)
+- Đọc lặp lại 3 lượt, mỗi lượt bấm giờ → số chữ / phút; lượt 2 có thể bật giọng máy đọc kèm. Bấm "Xong" ngay (nhanh quá sức người) thì lượt đó không tính.
+- Danh sách "Hội thoại & bài đọc" hiện tốc độ đọc trung bình các bài gần đây. Chỉ so với chính mình.
+
+**4. Âm biến khi ghép từ Hán** — bài "Âm On từ âm Hán Việt" có dạng mới **"Từ ghép có âm biến"** (202 từ): 学校 がっこう, 発表 はっぴょう, 散歩 さんぽ. Phương án sai là lỗi thật: ghép thẳng không biến, quên một âm biến, nhầm パ / バ. Trang Quy luật có thêm bảng âm biến.
+
+**5. Từ Hán Việt đảo chữ** — thẻ từ có nhãn **"↔ Đảo chữ"** (24 từ, app tự nhận ra): 紹介 THIỆU GIỚI → giới thiệu, 平和 → hòa bình, 制限 → hạn chế, 段階 → giai đoạn… Bài "Đoán nghĩa từ Hán Việt" hỏi các từ này trước.
+
+**6. Tiền tố – hậu tố Hán** (`#/luyen/tiento`) — 32 chữ trong 6 nhóm (phủ định 不 / 無 / 未 / 非; các loại "tiền" 代 / 料 / 費 / 賃 / 金; chỉ người; tính chất; nơi chốn; giấy tờ). Câu luyện: nghĩa + phần gốc có furigana → chọn tiền tố / hậu tố. Có Bảng tra kèm số từ trong kho.
+
+**7. Chữ cùng phần chỉ âm** — thẻ chữ Hán, mục Gia đình chữ: khi phần lớn chữ chung một bộ phận cùng một âm On, app ghi "Phần 交 chỉ âm: コウ — 6/6 chữ cùng đọc như vậy (校, 効, 郊…)". Khoảng 300 chữ có dòng này.
+
+**8. Nghe 3 lượt** (tab mới trong mỗi bài, cần giọng đọc): lượt 1 chỉ nghe → câu hỏi ý chính; lượt 2 nghe và nhìn chữ có nghĩa; lượt 3 lại chỉ nghe, tốc độ thường → trả lời câu hỏi.
+
+**Tệp:** `js/dot8.js` (mới), `data/viverb.json`, `data/kougo.json` (mới), xoá `js/watch.js`, `js/season.js`, `js/settings.js`, `js/settingspage.js`, `js/dot7.js`, `js/reader.js`, `js/kanji.js`, `js/hvbay.js`, `js/wordx.js`, `js/dot6.js`, `js/guides.js`, `js/app.js`, `js/practice.js`, `js/util.js`, `css/app.css`, `sw.js`.

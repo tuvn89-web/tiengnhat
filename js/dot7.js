@@ -91,20 +91,95 @@ function tuQ(w) {
     opts: shuffle([right, ...bad]).map(o => opt(o, esc(o))), answer: right,
     after: `<p class="small"><span lang="ja">${wordHTML(w, 'furi')}</span> — ${esc(w.vi)}</p>${c.ks.map((k, i) => `<p class="small am-line"><span lang="ja">${esc(k.char)}</span> ${ruleLine(k, c.ons[i])}</p>`).join('')}` };
 }
+// v55 (đợt 8, mục 4): ÂM BIẾN KHI GHÉP — 学[がく] + 校[こう] = がっこう; 発[はつ] + 表[ひょう] = はっぴょう; 散[さん] + 歩[ほ] = さんぽ
+const HA = 'はひふへほ', PA = 'ぱぴぷぺぽ', BA = 'ばびぶべぼ';
+const VL = /^[かきくけこさしすせそたちつてとはひふへほぱぴぷぺぽ]/; // vô thanh (đứng sau っ được)
+const CH = { soku: '-ク / -キ / -ツ / -チ đứng trước hàng カ, サ, タ, ハ → thành っ (âm ngắt)', pa: 'sau っ hoặc ん, hàng ハ → パ (ぱ, ぴ, ぷ, ぺ, ぽ)', ba: 'sau ん, hàng ハ đôi khi → バ' };
+function forms(h, i, n) {
+  const out = [{ s: h, ch: [] }];
+  const soku = i < n - 1 && /[くきつち]$/.test(h);
+  const k = HA.indexOf(h[0]);
+  const heads = i > 0 && k >= 0 ? [{ s: PA[k] + h.slice(1), ch: ['pa'] }, { s: BA[k] + h.slice(1), ch: ['ba'] }] : [];
+  for (const x of heads) out.push(x);
+  if (soku) for (const x of [...out]) out.push({ s: x.s.slice(0, -1) + 'っ', ch: [...x.ch, 'soku'] });
+  return out;
+}
+const _cb = new WeakMap();
+function compoundBien(w) {
+  if (_cb.has(w)) return _cb.get(w);
+  let r = null;
+  const ch = [...(w.kanji || '')];
+  if (!compound(w) && ch.length >= 2 && ch.length <= 3 && /^[\u4E00-\u9FFF]+$/.test(w.kanji) && ch.every(c => D.kanjiByChar.get(c)?.hv)) {
+    const ks = ch.map(c => D.kanjiByChar.get(c)), t = w.kana, res = [];
+    const rec = (i, pos, acc) => {
+      if (res.length) return;
+      if (i === ks.length) { if (pos === t.length) res.push(acc); return; }
+      for (const o of ks[i].on || []) {
+        const f0 = fits(ks[i].hv, o);
+        if (!f0.ini || !f0.fin) continue;
+        for (const f of forms(toHira(o), i, ks.length)) {
+          if (!t.startsWith(f.s, pos)) continue;
+          const prev = acc[acc.length - 1];
+          if (f.ch.includes('pa') && !(prev && /[っん]$/.test(prev.s))) continue;
+          if (f.ch.includes('ba') && !(prev && /ん$/.test(prev.s))) continue;
+          if (prev?.ch.includes('soku') && !VL.test(f.s)) continue;
+          rec(i + 1, pos + f.s.length, [...acc, { o, s: f.s, ch: f.ch }]);
+        }
+      }
+    };
+    rec(0, 0, []);
+    if (res[0] && res[0].some(p => p.ch.length)) r = { ks, parts: res[0] };
+  }
+  _cb.set(w, r);
+  return r;
+}
+function bienQ(w) {
+  const c = compoundBien(w);
+  if (!c) return null;
+  const right = w.kana, naive = c.parts.map(p => toHira(p.o)).join(''), bad = new Set([naive]);
+  // lỗi thật hay gặp: quên một âm biến (はつぴょう), đổi nhầm パ ↔ バ (さんぼ)
+  c.parts.forEach((p, i) => {
+    const swap = (q, f) => c.parts.map((x, j) => (j === i ? f(x) : x.s)).join('');
+    if (p.ch.includes('soku')) bad.add(swap(p, x => x.s.slice(0, -1) + toHira(x.o).slice(-1)));
+    const k = PA.indexOf(p.s[0]), kb = BA.indexOf(p.s[0]);
+    if (k >= 0) bad.add(swap(p, x => BA[k] + x.s.slice(1)));
+    if (kb >= 0) bad.add(swap(p, x => PA[kb] + x.s.slice(1)));
+  });
+  bad.delete(right);
+  for (const i of shuffle(c.ks.map((_, i) => i).concat(c.ks.map((_, i) => i)))) {
+    if (bad.size >= 3) break;
+    const b = shuffle(badOns(c.ks[i], c.parts[i].o))[0];
+    if (!b) continue;
+    const s = c.parts.map((p, j) => toHira(j === i ? b : p.o)).join(''); // ghép thẳng, không biến — sai âm một chữ
+    if (s !== right) bad.add(s);
+  }
+  while (bad.size > 3) bad.delete([...bad].pop());
+  if (bad.size < 3 || bad.has(right)) return null;
+  const used = [...new Set(c.parts.flatMap(p => p.ch))];
+  return { kind: 'choice', tag: 'Từ ghép có âm biến', level: w.level, promptBare: true,
+    prompt: `<p class="prompt-jp" lang="ja" data-bare>${esc(w.kanji)}</p><p class="guess-hv">${esc(c.ks.map(k => hvFirst(k.hv)).join(' '))}</p><p class="prompt-hint">${esc(w.vi)}</p>`,
+    hint: 'Ghép âm từng chữ rồi nhớ âm biến', noCmp: true,
+    opts: shuffle([right, ...bad]).map(o => opt(o, esc(o))), answer: right,
+    after: `<p class="small"><span lang="ja">${wordHTML(w, 'furi')}</span> — ${esc(w.vi)}</p>
+      <p class="small am-line"><span lang="ja">${c.parts.map((p, i) => `${esc(c.ks[i].char)} ${esc(toHira(p.o))}`).join(' + ')}</span> → <b lang="ja">${esc(right)}</b> (không phải <span lang="ja">${esc(naive)}</span>)</p>
+      <ul class="small">${used.map(x => `<li>${esc(CH[x])}</li>`).join('')}</ul>` };
+}
 export function buildAmOn(o) {
   const n = Math.min(o.count, 400), kind = o.kind || 'tron';
   const ks = shuffle(D.kanji.filter(k => inLv(o, k) && srcOK(o, k) && regularOn(k)));
   const ws = kind === 'chu' ? [] : shuffle(D.vocab.filter(w => inLv(o, w) && srcOK(o, w) && compound(w)));
   if (kind === 'chu') return take(ks, amonQ, n);
   if (kind === 'tu') return take(ws, tuQ, n);
-  const a = take(ks, amonQ, Math.ceil(n / 2)), b = take(ws, tuQ, n - a.length);
-  return shuffle([...a, ...b, ...take(ks.slice(a.length * 2), amonQ, n - a.length - b.length)]).slice(0, n);
+  if (kind === 'bien') return take(shuffle(D.vocab.filter(w => inLv(o, w) && srcOK(o, w) && compoundBien(w))), bienQ, n);
+  const bs = shuffle(D.vocab.filter(w => inLv(o, w) && srcOK(o, w) && compoundBien(w)));
+  const a = take(ks, amonQ, Math.ceil(n * 0.4)), c = take(bs, bienQ, Math.ceil(n * 0.25)), b = take(ws, tuQ, n - a.length - c.length);
+  return shuffle([...a, ...b, ...c, ...take(ks.slice(a.length * 2), amonQ, n - a.length - b.length - c.length)]).slice(0, n);
 }
 export async function renderAmOn(view, ctx) {
   const o = { kind: 'tron', source: 'learned', levels: [], ...(await kvGet('pAO', {})) };
   setupPage(view, ctx, { key: 'pAO', title: 'Âm On từ âm Hán Việt', route: '#/luyen/amon',
     intro: T('Âm Hán Việt cho biết "khung" của âm On: phụ âm đầu → hàng kana đầu (HỌC: h → hàng カ), vần cuối → đuôi (HỌC: -c → ク/キ) ⇒ ガク. Ba phương án sai đều phạm quy luật — giải được bằng quy luật, không cần nhớ mò. Đây là bài đọc chữ nên chữ trong câu hỏi không có furigana. Bài này không đổi lịch ôn.') + ' <a href="#/huongdan/amon">Xem bảng quy luật</a>',
-    fields: `<fieldset><legend>Dạng câu</legend>${chips('kind', [['tron', 'Trộn'], ['chu', 'Từng chữ'], ['tu', 'Từ ghép']], o.kind, false)}</fieldset>${srcField(o, 'Chữ / từ đã học')}${lvField(o)}`,
+    fields: `<fieldset><legend>Dạng câu</legend>${chips('kind', [['tron', 'Trộn'], ['chu', 'Từng chữ'], ['tu', 'Từ ghép'], ['bien', 'Từ ghép có âm biến']], o.kind, false)}</fieldset>${srcField(o, 'Chữ / từ đã học')}${lvField(o)}`,
     read: f => ({ kind: readChip(f, 'kind'), source: readChip(f, 'source'), levels: readChips(f, 'levels') }), build: buildAmOn,
     drillOpts: { noReview: true }, empty: 'Chưa có chữ nào phù hợp. Chọn "Tất cả" hoặc thêm cấp độ.' });
 }

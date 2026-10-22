@@ -14,6 +14,7 @@ import { kvGet } from './db.js';
 import { setupPage, vocabChoiceQ } from './practice.js';
 import { confuseCmpHTML, confuseOf } from './wordx.js';
 import { kanjiQuestion, similarCmpHTML } from './kanji.js';
+import { hvDao, hvDaoHTML } from './hvbay.js';
 import { buildGrammarQs } from './gdrill.js';
 
 const backLink = '<a class="back" href="#/luyen">Các dạng bài</a>';
@@ -35,9 +36,10 @@ function hvQ(it) {
   return { kind: 'choice', tag: 'Đoán nghĩa từ Hán Việt', level: it.level,
     prompt: `<p class="prompt-jp" lang="ja">${wordHTML(it, 'furi')}</p><p class="guess-hv">${esc(it.hv)}</p>`, hint: 'Nhìn âm Hán Việt, chọn nghĩa',
     opts: shuffle([right, ...ds]).map(a => opt(a.key, a.html, false)), answer: right.key,
-    cmpOf: Object.fromEntries(ds.filter(a => a.it).map(a => [a.key, a.it.id])), cmpRight: it.id, after: hvBreakdownHTML(it) };
+    cmpOf: Object.fromEntries(ds.filter(a => a.it).map(a => [a.key, a.it.id])), cmpRight: it.id, after: hvBreakdownHTML(it) + hvDaoHTML(it) };
 }
-export const buildHanViet = o => shuffle(selectItems(o).filter(canGuess)).slice(0, Math.min(o.count * 2, 400)).map(hvQ).filter(Boolean).slice(0, o.count);
+// v55: từ đảo chữ (紹介 = THIỆU GIỚI → giới thiệu) được hỏi trước — chỗ đoán theo Hán Việt dễ bí nhất
+export const buildHanViet = o => { const L = shuffle(selectItems(o).filter(canGuess)); return [...L.filter(hvDao), ...L.filter(it => !hvDao(it))].slice(0, Math.min(o.count * 2, 400)).map(hvQ).filter(Boolean).slice(0, o.count); };
 export async function renderHanViet(view, ctx) {
   const o = { source: 'new', levels: [], ...(await kvGet('pHV', {})) };
   setupPage(view, ctx, { key: 'pHV', title: 'Đoán nghĩa từ Hán Việt', route: '#/luyen/hanviet',

@@ -35,16 +35,24 @@ export function renderDocList(view) {
   };
   view.innerHTML = `<a class="back" href="#/luyen">Các dạng bài</a><h1 class="h1">Hội thoại & bài đọc</h1>
     <p class="muted small">${D.dialog.length} bài hội thoại · ${D.text.length} bài đọc. Số % là phần từ trong bài bạn đã học: <span class="fit fit-troi">≥ 95%</span> đọc trôi · <span class="fit fit-chugiai">85–94%</span> đọc có chú giải — vừa sức để học · <span class="fit fit-kho">dưới 85%</span> nhiều từ mới. Bài luyện thêm có câu hỏi kiểu đề thi (từ N3 hỏi bằng tiếng Nhật) và được dùng trong Đề thi thử JLPT. Bài mở đầu gắn với bài học nào thì cũng có trong trang bài học đó (tab Mở đầu và Đọc hiểu).</p>
+    ${speedLine()}
     ${LEVELS.filter(L => all.some(x => x.level === L)).map(block).join('')}`;
+}
+// v55: tốc độ đọc gần đây (chế độ Đọc bấm giờ)
+function speedLine() {
+  const h = readSpeedHist().slice(0, 5);
+  if (!h.length) return '<p class="small muted">Mới: mỗi bài có thêm chế độ <b>Đọc bấm giờ</b> (đọc lặp lại 3 lượt, đo số chữ / phút) và <b>Nghe 3 lượt</b>.</p>';
+  const avg = a => Math.round(a.reduce((s, x) => s + x, 0) / a.length);
+  return `<p class="small">Tốc độ đọc ${h.length} bài gần đây: lượt 1 trung bình <b>${avg(h.map(x => cpm(x.c, x.s[0])))}</b> chữ/phút, lượt 3 <b>${avg(h.map(x => cpm(x.c, x.s[x.s.length - 1])))}</b> chữ/phút.</p>`;
 }
 
 // ---------- trang một bài ----------
-const MODES = [['doc', 'Đọc'], ['dich', 'Dịch'], ['vai', 'Đóng vai'], ['khoa', 'Từ khóa'], ['hoi', 'Câu hỏi'], ['nghe', 'Nghe cả bài']];
+const MODES = [['doc', 'Đọc'], ['dich', 'Dịch'], ['vai', 'Đóng vai'], ['khoa', 'Từ khóa'], ['hoi', 'Câu hỏi'], ['nghe', 'Nghe cả bài'], ['nghe3', 'Nghe 3 lượt'], ['gio', 'Đọc bấm giờ']];
 export function renderDoc(view, ctx, id, mode = 'doc') {
   const it = D.items.get(id);
   if (!it || !['dialog', 'text'].includes(it._type)) { view.innerHTML = emptyState('Không có bài này.', '<a class="btn btn-ghost" href="#/doc">Hội thoại & bài đọc</a>'); return; }
   const L = it.lesson && D.items.get(it.lesson);
-  const modes = MODES.filter(([m]) => (m !== 'vai' || isDialog(it)) && (m !== 'khoa' || linesOf(it).some(t => t.key)) && (m !== 'nghe' || ttsReady()));
+  const modes = MODES.filter(([m]) => (m !== 'vai' || isDialog(it)) && (m !== 'khoa' || linesOf(it).some(t => t.key)) && (!['nghe', 'nghe3'].includes(m) || ttsReady()));
   if (!modes.some(([m]) => m === mode)) mode = 'doc';
   const back = L ? `#/bai/${encodeURIComponent(L.id)}?b=${it.intro ? 1 : 6}` : '#/doc';
   view.innerHTML = `<a class="back" href="${back}">${L ? `Bài ${L.order}: ${esc(L.title)}` : 'Hội thoại & bài đọc'}</a>
@@ -57,7 +65,7 @@ export function renderDoc(view, ctx, id, mode = 'doc') {
   const body = view.querySelector('.doc-body');
   bindSay(view);
   bindFitNote(view, it, n => toast(`Đã đưa ${n} từ vào lịch ôn — ngày mai bắt đầu hỏi lại.`));
-  ({ doc: readMode, dich: dichMode, vai: vaiMode, khoa: khoaMode, hoi: hoiMode, nghe: ngheMode }[mode])(body, ctx, it, view);
+  ({ doc: readMode, dich: dichMode, vai: vaiMode, khoa: khoaMode, hoi: hoiMode, nghe: ngheMode, nghe3: nghe3Mode, gio: gioMode }[mode])(body, ctx, it, view);
 }
 
 // ---------- 1. Đọc song ngữ ----------
@@ -282,4 +290,129 @@ function ngheMode(body, ctx, it) {
     };
     step(0);
   };
+}
+
+// ---------- v55 (đợt 8, mục 8): Nghe 3 lượt ----------
+// Lượt 1 không nhìn chữ → câu hỏi ý chính · lượt 2 nhìn chữ + nghĩa, chậm hơn · lượt 3 lại không nhìn chữ, tốc độ thường → câu hỏi.
+function playLines(it, docEl, rate, onEnd, alive) {
+  const ls = linesOf(it), vs = jaVoices(), roles = (it.roles || []).map(r => r.key);
+  const step = i => {
+    if (!alive()) return;
+    docEl.querySelectorAll('.is-say').forEach(e => e.classList.remove('is-say'));
+    if (i >= ls.length) { onEnd(); return; }
+    const el = docEl.querySelector(`[data-i="${i}"]`);
+    el?.classList.add('is-say'); if (!docEl.classList.contains('hide-jp')) el?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    const u = new SpeechSynthesisUtterance(reading(ls[i].jp));
+    u.lang = 'ja-JP'; u.rate = rate;
+    const k = isDialog(it) ? roles.indexOf(ls[i].who) : 0;
+    try { u.voice = vs.length > 1 && k > 0 ? vs[k % vs.length] : pickVoice(); } catch { }
+    u.onend = () => setTimeout(() => step(i + 1), 450);
+    u.onerror = () => step(i + 1);
+    try { speechSynthesis.speak(u); } catch { step(i + 1); }
+  };
+  step(0);
+}
+const inlineQ = (x, n) => `<div class="n3-q" data-n="${n}"><p>${rich(x.q)}</p><div class="gt-opts">${shuffle(x.opts.map((o, k) => k)).map(k => `<button type="button" class="btn btn-ghost gt-o" data-k="${k}"><span>${rich(x.opts[k])}</span></button>`).join('')}</div><p class="small n3-why" hidden>${x.why ? rich(x.why) : ''}</p></div>`;
+function nghe3Mode(body, ctx, it) {
+  const ls = linesOf(it), qs = (it.questions || []).filter(x => (x.opts || []).length >= 2);
+  const STEP = [
+    ['Lượt 1 — chỉ nghe, không nhìn chữ', 'Nghe để nắm ý chính: ai nói với ai, chuyện gì. Nghe xong trả lời một câu hỏi.', 0.9, true, false],
+    ['Lượt 2 — nghe và nhìn chữ, có nghĩa', 'Nhìn chữ chạy theo tiếng; chỗ nào lượt 1 nghe không ra thì để ý. Chạm vào câu để xem giải thích.', 0.8, false, true],
+    ['Lượt 3 — lại chỉ nghe, tốc độ thường', 'Nghe lại không nhìn chữ. Lần này phần lớn câu sẽ nghe ra — đó là lúc tai quen tiếng.', 1, true, false],
+  ];
+  let s = 0, run = 0;
+  const stop = () => { run++; try { speechSynthesis.cancel(); } catch { } };
+  ctx.onLeave(stop);
+  const draw = () => {
+    const [t, d, , hide, vi] = STEP[s];
+    body.innerHTML = `<p class="small muted">Nghe đúng cách: không nhìn chữ → nhìn chữ → lại không nhìn chữ. Nghe kèm chữ cùng ngôn ngữ ở lượt giữa giúp nhận ra từ và hiểu bài.</p>
+      <ol class="n3-steps">${STEP.map((x, i) => `<li class="${i < s ? 'is-done' : i === s ? 'is-cur' : ''}">${esc(x[0].split(' — ')[0])}</li>`).join('')}</ol>
+      <h2 class="h2">${esc(t)}</h2><p class="small">${esc(d)}</p>
+      <div class="row-btns"><button class="btn btn-primary" data-act="play">${icon('speaker')} Nghe</button><button class="btn btn-ghost" data-act="stop">Dừng</button></div>
+      <div class="${isDialog(it) ? 'dlg' : 'txt'} listen-doc passage${hide ? ' hide-jp n3-hide' : ''}">${ls.map((x, i) => lineHTML(it, x, i, { vi })).join('')}</div>
+      <div class="n3-after"></div>`;
+    if (!hide) bindPassage(body, it);
+    const docEl = body.querySelector('.listen-doc'), after = body.querySelector('.n3-after');
+    const next = () => {
+      if (s === 0 && qs[0]) after.innerHTML = `<h3 class="h3">Câu hỏi ý chính</h3>${inlineQ(qs[0], 0)}<div class="row-btns"><button class="btn btn-primary" data-act="next">Sang lượt 2</button></div>`;
+      else if (s < 2) after.innerHTML = `<div class="row-btns"><button class="btn btn-primary" data-act="next">Sang lượt ${s + 2}</button></div>`;
+      else after.innerHTML = `<p>Xong 3 lượt nghe.</p><div class="row-btns">${qs.length ? `<a class="btn btn-primary" href="#/doc/${encodeURIComponent(it.id)}?m=hoi">Trả lời ${qs.length} câu hỏi</a>` : ''}<button class="btn btn-ghost" data-act="again">Nghe lại từ lượt 1</button></div>`;
+    };
+    body.querySelector('[data-act=play]').onclick = () => { stop(); const me = ++run; playLines(it, docEl, STEP[s][2] * ((S.rate || 0.9) / 0.9), next, () => me === run); };
+    body.querySelector('[data-act=stop]').onclick = () => { stop(); next(); };
+    after.onclick = e => {
+      if (e.target.closest('[data-act=next]')) { stop(); s++; draw(); window.scrollTo(0, 0); return; }
+      if (e.target.closest('[data-act=again]')) { stop(); s = 0; draw(); window.scrollTo(0, 0); return; }
+      const o = e.target.closest('.gt-o'), q = e.target.closest('.n3-q');
+      if (o && q && !q.dataset.done) {
+        q.dataset.done = '1';
+        const x = qs[+q.dataset.n];
+        q.querySelectorAll('.gt-o').forEach(b => { b.disabled = true; if (+b.dataset.k === x.ans) b.classList.add('is-ok'); });
+        if (+o.dataset.k !== x.ans) o.classList.add('is-bad');
+        q.querySelector('.n3-why').hidden = false;
+      }
+    };
+  };
+  draw();
+}
+
+// ---------- v55 (đợt 8, mục 3): Đọc lặp lại có bấm giờ ----------
+// Đọc một bài 3 lượt, mỗi lượt bấm giờ → số chữ / phút. Lượt 2 có thể bật giọng máy đọc kèm. Không đặt "chuẩn" — chỉ so với chính mình.
+const JPCH = /[ぁ-ゖァ-ヺー一-龯々〆0-9０-９A-Za-zＡ-Ｚａ-ｚ]/g;
+export const charCount = it => linesOf(it).reduce((n, t) => n + (plain(t.jp).match(JPCH) || []).length, 0);
+export function readSpeedHist() {
+  return Object.entries(D.lessons).filter(([, r]) => r?.rr?.s?.length).map(([id, r]) => ({ id, ...r.rr })).sort((a, b) => b.t - a.t);
+}
+const cpm = (c, sec) => Math.round(c / Math.max(1, sec) * 60);
+function gioMode(body, ctx, it) {
+  const C = charCount(it);
+  const hist = readSpeedHist().filter(h => h.id !== it.id).slice(0, 8);
+  const prev = D.lessons[it.id]?.rr;
+  const sec = [];
+  let t0 = 0, run = 0, tick = 0;
+  const stop = () => { run++; clearInterval(tick); try { speechSynthesis.cancel(); } catch { } };
+  ctx.onLeave(stop);
+  const lap = () => sec.length + 1;
+  const draw = () => {
+    const done = sec.length >= 3;
+    body.innerHTML = `<p class="small muted">Đọc lặp lại cùng một bài 3 lần, mỗi lần bấm giờ — đọc trôi dần, tốc độ đọc tăng (cách này đã được thử trên chính người Việt học ngoại ngữ). Bài có <b>${C}</b> chữ. Đọc thầm, hiểu tới đâu đọc tới đó, không tra từ.</p>
+      ${prev ? `<p class="small">Lần trước (${new Date(prev.t).toLocaleDateString('vi-VN')}): ${prev.s.map((x, i) => `lượt ${i + 1}: <b>${cpm(prev.c, x)}</b>`).join(' · ')} chữ/phút.</p>` : ''}
+      <ol class="n3-steps">${[1, 2, 3].map(i => `<li class="${i <= sec.length ? 'is-done' : i === lap() ? 'is-cur' : ''}">Lượt ${i}${sec[i - 1] ? ` · ${cpm(C, sec[i - 1])} chữ/phút` : ''}</li>`).join('')}</ol>
+      ${done ? '' : `<div class="row-btns"><button class="btn btn-primary" data-act="start">Bắt đầu lượt ${lap()}</button>
+        ${lap() === 2 && ttsReady() ? '<label class="check small"><input type="checkbox" data-o="tts"> Lượt 2: bật giọng máy đọc kèm, mắt đọc theo</label>' : ''}</div>`}
+      <div class="rr-doc" hidden><p class="rr-time" aria-live="off">0:00</p>${passageHTML(it, { vi: false })}<div class="row-btns"><button class="btn btn-primary btn-block" data-act="end">Xong lượt ${lap()}</button></div></div>
+      <div class="rr-sum">${done ? sumHTML() : ''}</div>
+      ${hist.length ? `<details class="small"><summary>Tốc độ đọc các bài gần đây (lượt 1 → lượt 3)</summary><ul>${hist.map(h => { const x = D.items.get(h.id); return `<li>${esc(x?.title || h.id)}: ${cpm(h.c, h.s[0])} → ${cpm(h.c, h.s[h.s.length - 1])} chữ/phút</li>`; }).join('')}</ul></details>` : ''}`;
+    const box = body.querySelector('.rr-doc');
+    bindPassage(body, it);
+    // mở cả bài, không gập
+    box.querySelector('.passage')?.classList.remove('fold-on'); box.querySelector('.fold-bar')?.remove();
+    body.querySelector('[data-act=start]')?.addEventListener('click', () => {
+      const tts = body.querySelector('[data-o=tts]')?.checked;
+      box.hidden = false; body.querySelector('[data-act=start]').closest('.row-btns').hidden = true;
+      t0 = Date.now();
+      const tEl = box.querySelector('.rr-time');
+      tick = setInterval(() => { const s = Math.floor((Date.now() - t0) / 1000); tEl.textContent = `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; }, 500);
+      box.scrollIntoView({ block: 'start' });
+      if (tts) { const me = ++run; playLines(it, box.querySelector('.passage'), 0.9, () => { }, () => me === run); }
+    });
+    body.querySelector('[data-act=end]')?.addEventListener('click', async () => {
+      stop();
+      const s1 = Math.max(1, Math.round((Date.now() - t0) / 1000));
+      // nhanh quá sức người (trên 1.500 chữ/phút) → chắc bấm nhầm: không tính lượt này
+      if (cpm(C, s1) > 1500) { toast(`Lượt này ${cpm(C, s1)} chữ/phút — nhanh quá, chắc bấm nhầm. Đọc lại lượt ${lap()}.`); draw(); return; }
+      sec.push(s1);
+      if (sec.length >= 3) await saveLesson(it.id, { rr: { t: Date.now(), c: C, s: sec.slice() } });
+      draw();
+      if (sec.length >= 3) body.querySelector('.rr-sum')?.scrollIntoView({ block: 'start' });
+    });
+  };
+  const sumHTML = () => {
+    const v = sec.map(x => cpm(C, x)), up = v[0] ? Math.round((v[2] / v[0] - 1) * 100) : 0;
+    return `<div class="note"><p><b>Tốc độ đọc:</b> ${v.map((x, i) => `lượt ${i + 1}: <b>${x}</b>`).join(' · ')} chữ/phút${up > 0 ? ` — lượt 3 nhanh hơn lượt 1 khoảng <b>${up}%</b>` : ''}.</p>
+      <p class="small">Đọc lặp lại giúp mắt quen mặt chữ và cách nối câu; lần sau gặp bài mới, lượt 1 sẽ nhanh dần. So tốc độ với chính mình, không cần so với người khác.</p></div>
+      <div class="row-btns">${(it.questions || []).length ? `<a class="btn btn-primary" href="#/doc/${encodeURIComponent(it.id)}?m=hoi">Trả lời câu hỏi</a>` : ''}<button class="btn btn-ghost" data-act="redo">Đọc lại từ đầu</button></div>`;
+  };
+  body.addEventListener('click', e => { if (e.target.closest('[data-act=redo]')) { sec.length = 0; draw(); } });
+  draw();
 }

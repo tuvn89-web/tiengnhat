@@ -77,6 +77,10 @@ const ROUTES = [
   [/^luyen\/trotu$/, async v => (await import('./dot7.js')).renderTroTu(v, ctx)],
   [/^luyen\/katakana$/, async v => (await import('./dot7.js')).renderKata(v, ctx)],
   [/^luyen\/truongam$/, async v => (await import('./dot7.js')).renderTruongAm(v, ctx)],
+  // v55 (đợt 8)
+  [/^luyen\/dongtu$/, async v => (await import('./dot8.js')).renderViVerb(v, ctx)],
+  [/^luyen\/khaungu$/, async v => (await import('./dot8.js')).renderKhauNgu(v, ctx)],
+  [/^luyen\/tiento$/, async v => (await import('./dot8.js')).renderTienTo(v, ctx)],
   [/^giayto$/, async v => (await import('./giayto.js')).renderDocs(v, ctx)],
   [/^giayto\/([^/?]+)(?:\/(hoi))?$/, async (v, m) => { const G = await import('./giayto.js'); return m[2] ? G.runDocQuiz(v, ctx, decodeURIComponent(m[1])) : G.renderPaper(v, ctx, decodeURIComponent(m[1])); }],
   [/^nhanh3$/, v => runQuick3(v, ctx)],
@@ -398,7 +402,6 @@ async function init() {
   initTapFx();
   chrome();
   try { initBackFab(ctx); } catch (e) { console.warn('backfab', e); }
-  import('./watch.js').then(m => m.initWatch()).catch(e => console.warn('watch', e)); // v53: đồng hồ lộ cơ nổi
   initThemeColor();
   initFuriFade();
   // v32: thanh trên trong suốt; cuộn xuống thì thành kính mờ để chữ trang không đè tiêu đề
@@ -466,28 +469,39 @@ function initFuriFade() {
     r.classList.add('show'); e.stopPropagation(); e.preventDefault();
   }, true);
 }
+// v53–v55: thanh trạng thái của điện thoại (giờ, pin, sóng vẫn hiện) tô ĐÚNG màu mép trên của app → nhìn như trong suốt, liền với nền.
+// Màu mép trên = màu nền trang + dải bầu trời (đều theo chiều ngang) + thanh trên khi đã cuộn (nửa trong suốt) + lớp tối khi mở bảng.
 function initThemeColor() {
   const meta = document.querySelector('meta[name=theme-color]');
   if (!meta) return;
+  const rgba = s => {
+    s = String(s || '');
+    const k = s.match(/color\(srgb\s+([^)]+)\)/); // color-mix() trả về dạng color(srgb r g b / a), số 0–1
+    if (k) { const v = k[1].split(/[\s/]+/).filter(Boolean).map(Number); return v.length >= 3 ? [v[0] * 255, v[1] * 255, v[2] * 255, v.length > 3 ? v[3] : 1] : null; }
+    const m = s.match(/rgba?\(([^)]+)\)/); if (!m) return null;
+    const v = m[1].split(/[\s,/]+/).filter(Boolean).map(Number); return v.length >= 3 ? [v[0], v[1], v[2], v.length > 3 ? v[3] : 1] : null;
+  };
+  const over = (base, top) => (top && top[3] > 0 ? base.map((c, i) => c * (1 - top[3]) + top[i] * top[3]) : base);
   let q = 0;
   const sync = () => {
     q = 0;
-    const tb = document.getElementById('topbar'); if (!tb) return;
-    const m = (getComputedStyle(tb).backgroundColor.match(/[\d.]+/g) || []).map(Number);
-    if (m.length < 3) return;
-    let [r, g, b, a = 1] = m;
-    if (a < 1) { // thanh trên trong suốt (nằm trên cảnh nền): trộn với màu nền trang
-      const bm = (getComputedStyle(document.documentElement).backgroundColor.match(/[\d.]+/g) || [235, 240, 243]).map(Number);
-      r = r * a + bm[0] * (1 - a); g = g * a + bm[1] * (1 - a); b = b * a + bm[2] * (1 - a);
-    }
-    const c = `rgb(${Math.round(r)}, ${Math.round(g)}, ${Math.round(b)})`;
-    if (meta.content !== c) meta.content = c;
+    const root = document.documentElement, cs = getComputedStyle(root);
+    let c = (rgba(cs.backgroundColor) || [235, 240, 243, 1]).slice(0, 3);
+    c = over(c, rgba(cs.getPropertyValue('--season-sky'))); // điểm đầu của dải bầu trời (ở mép trên)
+    // thanh trên khi đã cuộn: mép trên của nó tô đúng màu này (CSS --top-edge) nên thanh trạng thái luôn liền màu
+    const edge = `rgb(${c.map(x => Math.round(x)).join(', ')})`;
+    if (root.style.getPropertyValue('--top-edge') !== edge) root.style.setProperty('--top-edge', edge);
+    const sh = document.querySelector('.sheet-wrap');
+    if (sh) c = over(c, rgba(getComputedStyle(sh).backgroundColor));
+    const v = `rgb(${c.map(x => Math.round(x)).join(', ')})`;
+    if (meta.content !== v) meta.content = v;
   };
-  const later = () => { if (!q) q = requestAnimationFrame(sync); setTimeout(later2, 320); }; // thanh trên đổi màu có chuyển tiếp .25 s
+  const later = () => { if (!q) q = requestAnimationFrame(sync); setTimeout(later2, 340); }; // các lớp đổi màu có chuyển tiếp ~.25–.3 s
   const later2 = () => { if (!q) q = requestAnimationFrame(sync); };
   const mo = new MutationObserver(later);
-  mo.observe(document.documentElement, { attributes: true, attributeFilter: ['style', 'class', 'data-theme'] });
+  mo.observe(document.documentElement, { attributes: true, attributeFilter: ['style', 'class', 'data-theme', 'data-sky', 'data-season'] });
   const tb = document.getElementById('topbar'); if (tb) mo.observe(tb, { attributes: true, attributeFilter: ['class'] });
+  mo.observe(document.body, { childList: true }); // mở / đóng bảng (sheet)
   addEventListener('tn-settings', later);
   matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', later);
   later();

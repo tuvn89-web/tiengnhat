@@ -211,11 +211,12 @@ function applyTheme() {
     set('--line', mix('#C3D1D9', acc, 0.18)); set('--blue', mix(acc, '#000000', 0.48)); set('--blue-ink', '#FFFFFF'); set('--blue-soft', mix('#FFFFFF', acc, 0.2));
   }
   set('--season-pat', `url("data:image/svg+xml,${encodeURIComponent(patSVG(M[st.month].pat, acc, dark ? 0.11 : 0.16))}")`);
+  // v55: bầu trời là dải màu ngang (đều theo chiều ngang) để mép trên màn hình một màu — thanh trạng thái của máy tô đúng màu đó, nhìn như trong suốt
   const sky = !S.fxDayNight ? 'none' : {
-    dawn: dark ? 'radial-gradient(130% 55% at 50% 0%, rgba(255,150,120,.20), transparent 70%)' : 'radial-gradient(130% 55% at 50% 0%, rgba(255,170,140,.35), transparent 70%)',
-    day: dark ? 'radial-gradient(130% 50% at 50% 0%, rgba(120,180,255,.10), transparent 70%)' : 'radial-gradient(130% 50% at 50% 0%, rgba(150,200,255,.35), transparent 70%)',
-    dusk: dark ? 'radial-gradient(130% 55% at 50% 0%, rgba(255,120,80,.22), rgba(120,60,140,.10) 45%, transparent 75%)' : 'radial-gradient(130% 55% at 50% 0%, rgba(255,150,100,.35), rgba(190,140,220,.18) 45%, transparent 75%)',
-    night: dark ? 'radial-gradient(130% 60% at 50% 0%, rgba(40,70,140,.30), transparent 72%)' : 'radial-gradient(130% 55% at 50% 0%, rgba(90,100,170,.22), transparent 72%)',
+    dawn: dark ? 'linear-gradient(to bottom, rgba(255,150,120,.18) 0, transparent 42%)' : 'linear-gradient(to bottom, rgba(255,170,140,.30) 0, transparent 42%)',
+    day: dark ? 'linear-gradient(to bottom, rgba(120,180,255,.10) 0, transparent 40%)' : 'linear-gradient(to bottom, rgba(150,200,255,.30) 0, transparent 40%)',
+    dusk: dark ? 'linear-gradient(to bottom, rgba(255,120,80,.20) 0, rgba(120,60,140,.10) 20%, transparent 45%)' : 'linear-gradient(to bottom, rgba(255,150,100,.30) 0, rgba(190,140,220,.15) 20%, transparent 45%)',
+    night: dark ? 'linear-gradient(to bottom, rgba(40,70,140,.28) 0, transparent 45%)' : 'linear-gradient(to bottom, rgba(90,100,170,.20) 0, transparent 45%)',
   }[st.phase];
   set('--season-sky', sky);
   r.dataset.season = String(st.month);
