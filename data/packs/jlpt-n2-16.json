@@ -1,1630 +1,1655 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n2-16",
-    "title": "JLPT N2 16 – Dựa trên số liệu",
-    "type": "vocab",
-    "level": "N2",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 1,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-16",
+  "title": "JLPT N2 16 – Dựa trên số liệu",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 2,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:統計:とうけい",
+   "kana": "とうけい",
+   "kanji": "統計",
+   "hv": "THỐNG KẾ",
+   "vi": "thống kê",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:統計:とうけい",
-      "kana": "とうけい",
-      "kanji": "統計",
-      "hv": "THỐNG KẾ",
-      "vi": "thống kê",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "国[くに]の統計[とうけい]によると、外国人労働者[がいこくじんろうどうしゃ]は年々[ねんねん]増[ふ]えています。",
-          "vi": "Theo thống kê của nhà nước, lao động nước ngoài tăng lên qua từng năm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "一年[いちねん]分[ぶん]の事故[じこ]の統計[とうけい]を取[と]って、原因[げんいん]を調[しら]べました。",
-          "vi": "Chúng tôi lấy thống kê tai nạn của một năm rồi tìm nguyên nhân.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "統計[とうけい]を取[と]る = lấy số liệu thống kê; 統計的[とうけいてき] = mang tính thống kê."
+     "jp": "国[くに]の統計[とうけい]によると、外国人労働者[がいこくじんろうどうしゃ]は年々[ねんねん]増[ふ]えています。",
+     "vi": "Theo thống kê của nhà nước, lao động nước ngoài tăng lên qua từng năm.",
+     "ctx": "doisong"
     },
     {
-      "id": "v:数値:すうち",
-      "kana": "すうち",
-      "kanji": "数値",
-      "hv": "SỐ TRỊ",
-      "vi": "trị số (con số đo, tính được)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "温度計[おんどけい]の数値[すうち]を、一時間[いちじかん]ごとに記録[きろく]してください。",
-          "vi": "Hãy ghi lại trị số trên nhiệt kế mỗi giờ một lần.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "健康診断[けんこうしんだん]の数値[すうち]が、去年[きょねん]より良[よ]くなりました。",
-          "vi": "Các chỉ số khám sức khỏe đã tốt hơn năm ngoái.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:数字:すうじ"
-      ],
-      "note": "数値[すうち] = giá trị đo hoặc tính được (nhiệt độ, cân nặng, chỉ số máu); 数字[すうじ] = chữ số, con số nói chung."
-    },
-    {
-      "id": "v:比率:ひりつ",
-      "kana": "ひりつ",
-      "kanji": "比率",
-      "hv": "TỈ SUẤT",
-      "vi": "tỉ số (so giữa hai lượng)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "塩[しお]と水[みず]の比率[ひりつ]は、一対[いったい]十[じゅう]です。",
-          "vi": "Tỉ lệ muối và nước là một trên mười.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "日本[にほん]では、高齢者[こうれいしゃ]の比率[ひりつ]が年々[ねんねん]高[たか]くなっている。",
-          "vi": "Ở Nhật, tỉ lệ người cao tuổi ngày càng cao.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:割合:わりあい"
-      ],
-      "note": "比率[ひりつ] hay dùng trong văn bản, số liệu; nói chuyện thường ngày hay dùng 割合[わりあい]."
-    },
-    {
-      "id": "v:推移:すいい",
-      "kana": "すいい",
-      "kanji": "推移",
-      "hv": "THÔI DI",
-      "vi": "diễn biến (con số theo thời gian)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "過去[かこ]五年[ごねん]の売上[うりあげ]の推移[すいい]を、グラフにしました。",
-          "vi": "Tôi vẽ biểu đồ diễn biến doanh thu năm năm qua.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "為替[かわせ]レートの推移[すいい]を見[み]て、国[くに]に送金[そうきん]する日[ひ]を決[き]めています。",
-          "vi": "Tôi xem diễn biến tỉ giá rồi chọn ngày gửi tiền về nước.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "町[まち]の人口[じんこう]は、ここ十年[じゅうねん]ほぼ横[よこ]ばいで推移[すいい]している。",
-          "vi": "Dân số của thị trấn mười năm nay gần như đi ngang.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "横[よこ]ばいで推移[すいい]する",
-          "vi": "đi ngang (số liệu)"
-        },
-        {
-          "jp": "高[たか]い水準[すいじゅん]で推移[すいい]する",
-          "vi": "duy trì ở mức cao"
-        }
-      ]
-    },
-    {
-      "id": "v:増減:ぞうげん",
-      "kana": "ぞうげん",
-      "kanji": "増減",
-      "hv": "TĂNG GIẢM",
-      "vi": "tăng giảm",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "注文[ちゅうもん]の増減[ぞうげん]に合[あ]わせて、シフトの人数[にんずう]を変[か]えます。",
-          "vi": "Thay đổi số người trong ca theo mức tăng giảm của đơn hàng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "体重[たいじゅう]の増減[ぞうげん]を、毎朝[まいあさ]チェックしています。",
-          "vi": "Mỗi sáng tôi kiểm tra cân nặng tăng hay giảm.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "人数[にんずう]が増減[ぞうげん]する",
-          "vi": "số người tăng giảm"
-        },
-        {
-          "jp": "季節[きせつ]によって増減[ぞうげん]する",
-          "vi": "tăng giảm theo mùa"
-        }
-      ]
-    },
-    {
-      "id": "v:前年:ぜんねん",
-      "kana": "ぜんねん",
-      "kanji": "前年",
-      "hv": "TIỀN NIÊN",
-      "vi": "năm trước (trong báo cáo, văn bản)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今年[ことし]の売上[うりあげ]は、前年[ぜんねん]を上回[うわまわ]りました。",
-          "vi": "Doanh thu năm nay đã vượt năm trước.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "住民税[じゅうみんぜい]は、前年[ぜんねん]の所得[しょとく]をもとに計算[けいさん]されます。",
-          "vi": "Thuế cư trú được tính dựa trên thu nhập của năm trước.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "Nói chuyện thường dùng 去年[きょねん]; văn bản dùng 昨年[さくねん] hoặc 前年[ぜんねん] (năm liền trước năm đang nói tới)."
-    },
-    {
-      "id": "v:前年比:ぜんねんひ",
-      "kana": "ぜんねんひ",
-      "kanji": "前年比",
-      "hv": "TIỀN NIÊN TỈ",
-      "vi": "so với năm trước (tỉ lệ)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今月[こんげつ]の出荷量[しゅっかりょう]は、前年比[ぜんねんひ]で一割[いちわり]増[ふ]えました。",
-          "vi": "Lượng xuất hàng tháng này tăng một phần mười so với năm trước.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "電気代[でんきだい]が前年比[ぜんねんひ]で二割[にわり]も上[あ]がって、生活[せいかつ]が苦[くる]しい。",
-          "vi": "Tiền điện tăng tới hai mươi phần trăm so với năm trước, sống chật vật.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "前年比[ぜんねんひ]110％ = bằng 110% năm trước. Tương tự: 前月比[ぜんげつひ] = so với tháng trước."
-    },
-    {
-      "id": "v:集計:しゅうけい",
-      "kana": "しゅうけい",
-      "kanji": "集計",
-      "hv": "TẬP KẾ",
-      "vi": "tổng hợp số liệu, cộng sổ",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "毎日[まいにち]の生産量[せいさんりょう]を集計[しゅうけい]して、班長[はんちょう]に報告[ほうこく]します。",
-          "vi": "Tổng hợp sản lượng mỗi ngày rồi báo cáo tổ trưởng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "町内会[ちょうないかい]のアンケートの結果[けっか]は、来週[らいしゅう]集計[しゅうけい]するそうです。",
-          "vi": "Nghe nói kết quả phiếu khảo sát của hội khu phố sẽ được tổng hợp vào tuần sau.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：今月[こんげつ]の残業時間[ざんぎょうじかん]、集計[しゅうけい]できた？ B：はい、表[ひょう]にまとめておきました。",
-          "vi": "A: Tổng hợp giờ tăng ca tháng này xong chưa? B: Vâng, tôi đã tóm vào bảng rồi ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "データを集計[しゅうけい]する",
-          "vi": "tổng hợp dữ liệu"
-        },
-        {
-          "jp": "結果[けっか]を集計[しゅうけい]する",
-          "vi": "tổng hợp kết quả"
-        }
-      ]
-    },
-    {
-      "id": "v:算出:さんしゅつ",
-      "kana": "さんしゅつ",
-      "kanji": "算出",
-      "hv": "TOÁN XUẤT",
-      "vi": "tính ra (con số)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一時間[いちじかん]あたりの作業量[さぎょうりょう]を算出[さんしゅつ]します。",
-          "vi": "Tính ra khối lượng công việc trong mỗi giờ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "保険料[ほけんりょう]は、給料[きゅうりょう]の額[がく]をもとに算出[さんしゅつ]されます。",
-          "vi": "Phí bảo hiểm được tính ra dựa trên mức lương.",
-          "ctx": "thutuc"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "費用[ひよう]を算出[さんしゅつ]する",
-          "vi": "tính ra chi phí"
-        },
-        {
-          "jp": "平均[へいきん]を算出[さんしゅつ]する",
-          "vi": "tính ra số trung bình"
-        }
-      ]
-    },
-    {
-      "id": "v:横ばい:よこばい",
-      "kana": "よこばい",
-      "kanji": "横ばい",
-      "kf": "横[よこ]ばい",
-      "hv": "HOÀNH",
-      "vi": "đi ngang (không tăng không giảm)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ここ数ヶ月[すうかげつ]、売上[うりあげ]は横[よこ]ばいです。",
-          "vi": "Mấy tháng nay doanh thu đi ngang.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "野菜[やさい]の値段[ねだん]は、先月[せんげつ]から横[よこ]ばいが続[つづ]いている。",
-          "vi": "Giá rau từ tháng trước vẫn đi ngang.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "横[よこ]ばいが続[つづ]く = tiếp tục đi ngang; 横[よこ]ばいで推移[すいい]する = (con số) đi ngang."
-    },
-    {
-      "id": "v:指標:しひょう",
-      "kana": "しひょう",
-      "kanji": "指標",
-      "hv": "CHỈ TIÊU",
-      "vi": "chỉ số (thước đo để đánh giá)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "不良品[ふりょうひん]の数[かず]は、品質[ひんしつ]を見[み]る大事[だいじ]な指標[しひょう]です。",
-          "vi": "Số hàng lỗi là thước đo quan trọng để xem chất lượng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "失業率[しつぎょうりつ]は、景気[けいき]を表[あらわ]す指標[しひょう]の一[ひと]つだ。",
-          "vi": "Tỉ lệ thất nghiệp là một chỉ số thể hiện tình hình kinh tế.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:件数:けんすう",
-      "kana": "けんすう",
-      "kanji": "件数",
-      "hv": "KIỆN SỐ",
-      "vi": "số vụ, số trường hợp",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今月[こんげつ]は、クレームの件数[けんすう]が減[へ]りました。",
-          "vi": "Tháng này số vụ khiếu nại đã giảm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "三月[さんがつ]は、市役所[しやくしょ]への問[と]い合[あ]わせの件数[けんすう]が多[おお]い。",
-          "vi": "Tháng ba có nhiều lượt hỏi đến tòa thị chính.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "〜件[けん] = đếm vụ việc, hồ sơ, email."
-    },
-    {
-      "id": "v:頻度:ひんど",
-      "kana": "ひんど",
-      "kanji": "頻度",
-      "hv": "TẦN ĐỘ",
-      "vi": "tần suất",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "機械[きかい]を掃除[そうじ]する頻度[ひんど]を、週[しゅう]一回[いっかい]から毎日[まいにち]に増[ふ]やした。",
-          "vi": "Tần suất vệ sinh máy được tăng từ tuần một lần lên mỗi ngày.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "使[つか]う頻度[ひんど]が高[たか]い言葉[ことば]から覚[おぼ]えましょう。",
-          "vi": "Hãy học trước những từ có tần suất dùng cao.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "頻度[ひんど]が高[たか]い / 低[ひく]い = tần suất cao / thấp."
-    },
-    {
-      "id": "v:内訳:うちわけ",
-      "kana": "うちわけ",
-      "kanji": "内訳",
-      "hv": "NỘI DỊCH",
-      "vi": "các khoản chi tiết (của một tổng số)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "給料明細[きゅうりょうめいさい]で、控除[こうじょ]の内訳[うちわけ]を確認[かくにん]しました。",
-          "vi": "Tôi xem các khoản khấu trừ chi tiết trên phiếu lương.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "不良品[ふりょうひん]の内訳[うちわけ]は、傷[きず]が六割[ろくわり]、異物[いぶつ]が三割[さんわり]です。",
-          "vi": "Trong số hàng lỗi, trầy xước chiếm sáu phần mười, dị vật ba phần mười.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "内訳[うちわけ]を見[み]る / 出[だ]す = xem / đưa ra bảng chi tiết các khoản."
-    },
-    {
-      "id": "v:ばらつき:ばらつき",
-      "kana": "ばらつき",
-      "kanji": "",
-      "hv": "",
-      "vi": "độ chênh, sự không đều (giữa các lần, các sản phẩm)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "切[き]り身[み]の重[おも]さに、ばらつきがあります。",
-          "vi": "Trọng lượng các miếng phi lê không đều nhau.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "店[みせ]によって、値段[ねだん]にかなりばらつきがある。",
-          "vi": "Tùy cửa hàng mà giá cả chênh nhau khá nhiều.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "ばらつきが出[で]る = bị chênh; ばらつきをなくす = làm cho đều. Động từ: ばらつく."
-    },
-    {
-      "id": "v:歩留まり:ぶどまり",
-      "kana": "ぶどまり",
-      "kanji": "歩留まり",
-      "kf": "歩留[ぶど]まり",
-      "hv": "BỘ LƯU",
-      "vi": "tỉ lệ thành phẩm (phần dùng được sau chế biến)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "身[み]を骨[ほね]に残[のこ]さないように切[き]ると、歩留[ぶど]まりが上[あ]がります。",
-          "vi": "Cắt sao cho không để sót thịt bám xương thì tỉ lệ thành phẩm tăng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "料理[りょうり]でも、皮[かわ]を厚[あつ]くむくと歩留[ぶど]まりが悪[わる]い。",
-          "vi": "Nấu ăn cũng vậy, gọt vỏ dày thì phần ăn được còn ít.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Từ chuyên ngành chế biến, sản xuất, hay gặp ở xưởng thủy sản: 歩留[ぶど]まりが良[よ]い / 悪[わる]い."
-    },
-    {
-      "id": "v:一定:いってい",
-      "kana": "いってい",
-      "kanji": "一定",
-      "hv": "NHẤT ĐỊNH",
-      "vi": "cố định, không đổi; một mức nhất định nào đó",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "冷凍庫[れいとうこ]の温度[おんど]を、一定[いってい]に保[たも]ってください。",
-          "vi": "Hãy giữ nhiệt độ tủ đông ở mức không đổi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "一定[いってい]の条件[じょうけん]を満[み]たせば、税金[ぜいきん]が安[やす]くなります。",
-          "vi": "Nếu đáp ứng một số điều kiện nhất định thì thuế được giảm.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "一定[いってい]の〜 = 〜 nhất định (nào đó); 一定[いってい]に保[たも]つ = giữ ổn định."
-    },
-    {
-      "id": "v:グラフ:グラフ",
-      "kana": "グラフ",
-      "kanji": "",
-      "hv": "",
-      "vi": "biểu đồ",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Số liệu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "一週間[いっしゅうかん]の出荷量[しゅっかりょう]を、グラフにしました。",
-          "vi": "Tôi vẽ biểu đồ lượng xuất hàng trong một tuần.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "このグラフを見[み]ると、物価[ぶっか]が上[あ]がっているのが分[わ]かる。",
-          "vi": "Nhìn biểu đồ này thì thấy vật giá đang tăng.",
-          "ctx": "doisong"
-        }
-      ],
-      "goc": "graph (tiếng Anh)",
-      "note": "棒[ぼう]グラフ = biểu đồ cột; 折[お]れ線[せん]グラフ = biểu đồ đường; 円[えん]グラフ = biểu đồ tròn."
-    },
-    {
-      "id": "v:資料:しりょう",
-      "kana": "しりょう",
-      "kanji": "資料",
-      "hv": "TƯ LIỆU",
-      "vi": "tài liệu (để tham khảo, họp)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Báo cáo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "会議[かいぎ]の資料[しりょう]を、十[じゅう]部[ぶ]コピーしてください。",
-          "vi": "Hãy photo tài liệu họp mười bản.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "ハローワークで、仕事探[しごとさが]しの資料[しりょう]をもらいました。",
-          "vi": "Tôi nhận tài liệu tìm việc ở Hello Work.",
-          "ctx": "thutuc"
-        }
-      ],
-      "confuse": [
-        "v:書類:しょるい"
-      ],
-      "note": "資料[しりょう] = tài liệu để đọc, tham khảo; 書類[しょるい] = giấy tờ để điền, nộp."
-    },
-    {
-      "id": "v:日報:にっぽう",
-      "kana": "にっぽう",
-      "kanji": "日報",
-      "hv": "NHẬT BÁO",
-      "vi": "báo cáo ngày (công việc)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Báo cáo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "仕事[しごと]が終[お]わったら、日報[にっぽう]を書[か]いて班長[はんちょう]に出[だ]します。",
-          "vi": "Hết giờ làm thì viết báo cáo ngày nộp tổ trưởng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：今日[きょう]の日報[にっぽう]、もう出[だ]した？ B：あ、まだです。すぐ書[か]きます。",
-          "vi": "A: Báo cáo ngày hôm nay nộp chưa? B: À, chưa ạ. Tôi viết ngay đây.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "rel": [
-        "v:月報:げっぽう"
-      ]
-    },
-    {
-      "id": "v:月報:げっぽう",
-      "kana": "げっぽう",
-      "kanji": "月報",
-      "hv": "NGUYỆT BÁO",
-      "vi": "báo cáo tháng",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Báo cáo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "月報[げっぽう]で、一[いっ]か月[げつ]の生産量[せいさんりょう]と不良[ふりょう]率[りつ]をまとめます。",
-          "vi": "Báo cáo tháng tổng hợp sản lượng và tỉ lệ hàng lỗi của cả tháng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "月報[げっぽう]の締[し]め切[き]りは、毎月[まいつき]五日[いつか]です。",
-          "vi": "Hạn nộp báo cáo tháng là ngày mùng năm hằng tháng.",
-          "ctx": "thutuc"
-        }
-      ],
-      "rel": [
-        "v:日報:にっぽう"
-      ]
-    },
-    {
-      "id": "v:根拠:こんきょ",
-      "kana": "こんきょ",
-      "kanji": "根拠",
-      "hv": "CĂN CỨ",
-      "vi": "căn cứ (để nói, để tin)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Báo cáo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "「たぶん大丈夫[だいじょうぶ]」ではなく、根拠[こんきょ]を示[しめ]してください。",
-          "vi": "Đừng nói \"chắc là ổn\", hãy đưa ra căn cứ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "その噂[うわさ]には、何[なん]の根拠[こんきょ]もない。",
-          "vi": "Tin đồn đó chẳng có căn cứ gì.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "根拠[こんきょ]を示[しめ]す = đưa ra căn cứ; 根拠[こんきょ]のない噂[うわさ] = tin đồn vô căn cứ."
-    },
-    {
-      "id": "v:概要:がいよう",
-      "kana": "がいよう",
-      "kanji": "概要",
-      "hv": "KHÁI YẾU",
-      "vi": "nội dung khái quát, sơ lược",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Báo cáo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "まず、新[あたら]しい作業[さぎょう]の概要[がいよう]を説明[せつめい]します。",
-          "vi": "Trước tiên tôi giải thích khái quát về công việc mới.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "説明会[せつめいかい]では、制度[せいど]の概要[がいよう]だけを聞[き]きました。",
-          "vi": "Ở buổi thuyết minh tôi chỉ nghe sơ lược về chế độ.",
-          "ctx": "thutuc"
-        }
-      ],
-      "rel": [
-        "v:詳細:しょうさい"
-      ]
-    },
-    {
-      "id": "v:詳細:しょうさい",
-      "kana": "しょうさい",
-      "kanji": "詳細",
-      "hv": "TƯỜNG TẾ",
-      "vi": "chi tiết cụ thể (từng điểm)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Báo cáo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "詳細[しょうさい]は、後[あと]で資料[しりょう]を送[おく]ります。",
-          "vi": "Chi tiết thì lát nữa tôi sẽ gửi tài liệu.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "詳細[しょうさい]については、市役所[しやくしょ]の窓口[まどぐち]でお尋[たず]ねください。",
-          "vi": "Về chi tiết, xin hỏi tại quầy của tòa thị chính.",
-          "ctx": "thutuc"
-        }
-      ],
-      "rel": [
-        "v:概要:がいよう"
-      ],
-      "note": "詳細[しょうさい]な説明[せつめい] = lời giải thích chi tiết (dùng như tính từ な). Nói chuyện thường dùng 詳[くわ]しい."
-    },
-    {
-      "id": "v:要約:ようやく",
-      "kana": "ようやく",
-      "kanji": "要約",
-      "hv": "YẾU ƯỚC",
-      "vi": "tóm tắt (nội dung)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Báo cáo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "会議[かいぎ]の内容[ないよう]を、三[さん]行[ぎょう]で要約[ようやく]してください。",
-          "vi": "Hãy tóm tắt nội dung cuộc họp trong ba dòng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "日本語[にほんご]のニュースを読[よ]んで、要約[ようやく]する練習[れんしゅう]をしています。",
-          "vi": "Tôi luyện đọc tin tiếng Nhật rồi tóm tắt lại.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "内容[ないよう]を要約[ようやく]する",
-          "vi": "tóm tắt nội dung"
-        },
-        {
-          "jp": "話[はなし]を要約[ようやく]する",
-          "vi": "tóm lại câu chuyện"
-        }
-      ],
-      "note": "要[よう]するに = tóm lại là (phó từ cùng gốc)."
-    },
-    {
-      "id": "v:一覧:いちらん",
-      "kana": "いちらん",
-      "kanji": "一覧",
-      "hv": "NHẤT LÃM",
-      "vi": "bảng liệt kê (để xem một lượt)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Báo cáo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "必要[ひつよう]な書類[しょるい]の一覧[いちらん]を、プリントしておきました。",
-          "vi": "Tôi đã in sẵn bảng liệt kê các giấy tờ cần thiết.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "アレルギーの原因[げんいん]になる食品[しょくひん]の一覧[いちらん]が、壁[かべ]に貼[は]ってある。",
-          "vi": "Bảng liệt kê thực phẩm gây dị ứng được dán trên tường.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "一覧表[いちらんひょう] = bảng liệt kê; 料金[りょうきん]一覧[いちらん] = bảng giá."
-    },
-    {
-      "id": "v:具体的:ぐたいてき",
-      "kana": "ぐたいてき",
-      "kanji": "具体的",
-      "hv": "CỤ THỂ ĐÍCH",
-      "vi": "cụ thể",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Báo cáo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "もっと具体的[ぐたいてき]に説明[せつめい]してください。",
-          "vi": "Hãy giải thích cụ thể hơn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "将来[しょうらい]の具体的[ぐたいてき]な計画[けいかく]を立[た]てました。",
-          "vi": "Tôi đã lập kế hoạch cụ thể cho tương lai.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：作業[さぎょう]を早[はや]くする方法[ほうほう]、何[なに]かある？ B：具体的[ぐたいてき]には、道具[どうぐ]の置[お]き場所[ばしょ]を変[か]えたらどうでしょう。",
-          "vi": "A: Có cách nào làm nhanh hơn không? B: Cụ thể là thử đổi chỗ để dụng cụ xem sao ạ?",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "例[れい]",
-          "vi": "ví dụ"
-        },
-        {
-          "jp": "計画[けいかく]",
-          "vi": "kế hoạch"
-        },
-        {
-          "jp": "説明[せつめい]",
-          "vi": "lời giải thích"
-        }
-      ],
-      "ant": [
-        {
-          "w": "抽象的[ちゅうしょうてき]",
-          "vi": "trừu tượng"
-        }
-      ],
-      "syn": [
-        "v:具体:ぐたい"
-      ]
-    },
-    {
-      "id": "v:裏付ける:うらづける",
-      "kana": "うらづける",
-      "kanji": "裏付ける",
-      "kf": "裏付[うらづ]ける",
-      "hv": "LÝ PHÓ",
-      "vi": "chứng minh, củng cố (bằng chứng cứ)",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Báo cáo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "先月[せんげつ]のデータが、班[はん]長[ちょう]の考[かんが]えを裏付[うらづ]けました。",
-          "vi": "Dữ liệu tháng trước đã chứng minh suy nghĩ của tổ trưởng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "その話[はなし]を裏付[うらづ]ける証拠[しょうこ]は、まだない。",
-          "vi": "Chưa có bằng chứng xác nhận câu chuyện đó.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：この方法[ほうほう]で、本当[ほんとう]にミスが減[へ]るの？ B：はい、先月[せんげつ]の記録[きろく]がそれを裏付[うらづ]けています。",
-          "vi": "A: Cách này thật sự giảm được lỗi à? B: Vâng, hồ sơ tháng trước chứng minh điều đó.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "データで裏付[うらづ]ける",
-          "vi": "chứng minh bằng dữ liệu"
-        },
-        {
-          "jp": "事実[じじつ]を裏付[うらづ]ける",
-          "vi": "xác nhận sự thật"
-        }
-      ],
-      "note": "裏付[うらづ]け = căn cứ xác nhận, bằng chứng."
-    },
-    {
-      "id": "v:踏まえる:ふまえる",
-      "kana": "ふまえる",
-      "kanji": "踏まえる",
-      "kf": "踏[ふ]まえる",
-      "hv": "ĐẠP",
-      "vi": "cân nhắc (kết quả, ý kiến) rồi lấy làm cơ sở",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Báo cáo",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "去年[きょねん]の反省[はんせい]を踏[ふ]まえて、今年[ことし]の計画[けいかく]を作[つく]りました。",
-          "vi": "Rút kinh nghiệm năm ngoái rồi chúng tôi lập kế hoạch năm nay.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "町内会[ちょうないかい]は、住民[じゅうみん]の声[こえ]を踏[ふ]まえて、ごみの日[ひ]を変[か]えた。",
-          "vi": "Hội khu phố đã xem xét ý kiến người dân rồi đổi ngày đổ rác.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：新[あたら]しいマニュアル、どうやって作[つく]る？ B：今[いま]までのミスを踏[ふ]まえて、注意点[ちゅういてん]を増[ふ]やしましょう。",
-          "vi": "A: Sổ tay mới làm thế nào đây? B: Dựa trên những lỗi từ trước tới giờ, ta thêm các điểm cần chú ý nhé.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "結果[けっか]を踏[ふ]まえる",
-          "vi": "dựa trên kết quả"
-        },
-        {
-          "jp": "経験[けいけん]を踏[ふ]まえる",
-          "vi": "dựa trên kinh nghiệm"
-        }
-      ],
-      "confuse": [
-        "v:基づく:もとづく"
-      ],
-      "note": "〜を踏[ふ]まえて = đã xem xét kỹ (kết quả, ý kiến) rồi mới…; 〜に基[もと]づいて = căn cứ đúng theo (quy định, số liệu)."
-    },
-    {
-      "id": "v:マニュアル:マニュアル",
-      "kana": "マニュアル",
-      "kanji": "",
-      "hv": "",
-      "vi": "sổ tay hướng dẫn",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Quy trình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "分[わ]からないときは、まずマニュアルを見[み]てください。",
-          "vi": "Khi không hiểu thì trước hết hãy xem sổ tay hướng dẫn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "新[あたら]しい洗濯機[せんたくき]のマニュアルが全部[ぜんぶ]日本語[にほんご]で、困[こま]った。",
-          "vi": "Sổ hướng dẫn của máy giặt mới toàn tiếng Nhật, tôi khổ sở.",
-          "ctx": "doisong"
-        }
-      ],
-      "goc": "manual (tiếng Anh)",
-      "note": "マニュアル通[どお]り = đúng như sổ tay."
-    },
-    {
-      "id": "v:手順書:てじゅんしょ",
-      "kana": "てじゅんしょ",
-      "kanji": "手順書",
-      "hv": "THỦ THUẬN THƯ",
-      "vi": "bản quy trình thao tác (từng bước)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Quy trình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "手順[てじゅん]書[しょ]の通[とお]りに、機械[きかい]を止[と]めてください。",
-          "vi": "Hãy dừng máy theo đúng bản quy trình.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "新人[しんじん]のために、写真[しゃしん]付[つ]きの手順[てじゅん]書[しょ]を作[つく]った。",
-          "vi": "Tôi làm bản quy trình có kèm ảnh cho người mới.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:手順:てじゅん",
-        "v:マニュアル:マニュアル"
-      ]
-    },
-    {
-      "id": "v:手引き:てびき",
-      "kana": "てびき",
-      "kanji": "手引き",
-      "kf": "手引[てび]き",
-      "hv": "THỦ DẪN",
-      "vi": "sách hướng dẫn (cho người mới); sự dẫn dắt",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Quy trình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "確定申告[かくていしんこく]の手引[てび]きを、税務署[ぜいむしょ]でもらいました。",
-          "vi": "Tôi nhận sách hướng dẫn khai thuế cuối năm ở sở thuế.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "先輩[せんぱい]の手引[てび]きで、仕事[しごと]にすぐ慣[な]れた。",
-          "vi": "Nhờ đàn anh dẫn dắt, tôi quen việc rất nhanh.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "Tài liệu của cơ quan hay có tên 「〜の手引[てび]き」 (sách hướng dẫn về …)."
-    },
-    {
-      "id": "v:工程:こうてい",
-      "kana": "こうてい",
-      "kanji": "工程",
-      "hv": "CÔNG TRÌNH",
-      "vi": "công đoạn (trong sản xuất)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Quy trình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この工程[こうてい]では、骨[ほね]が残[のこ]っていないか確認[かくにん]します。",
-          "vi": "Ở công đoạn này kiểm tra xem còn sót xương không.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "工事[こうじ]の工程[こうてい]が遅[おく]れて、通行止[つうこうど]めが延[の]びた。",
-          "vi": "Tiến độ công trình bị chậm nên việc cấm đường bị kéo dài.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "工程表[こうていひょう] = bảng tiến độ; 前[まえ]の工程[こうてい] / 次[つぎ]の工程[こうてい] = công đoạn trước / sau."
-    },
-    {
-      "id": "v:段階:だんかい",
-      "kana": "だんかい",
-      "kanji": "段階",
-      "hv": "ĐOẠN GIAI",
-      "vi": "giai đoạn, nấc",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Quy trình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "計画[けいかく]は、まだ話[はな]し合[あ]いの段階[だんかい]です。",
-          "vi": "Kế hoạch vẫn đang ở giai đoạn bàn bạc.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "日本語[にほんご]の勉強[べんきょう]は、段階[だんかい]を踏[ふ]んで進[すす]めましょう。",
-          "vi": "Học tiếng Nhật thì hãy tiến lên từng nấc một.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "段階的[だんかいてき]に = từng bước; 段階[だんかい]を踏[ふ]む = đi theo từng bước."
-    },
-    {
-      "id": "v:基礎:きそ",
-      "kana": "きそ",
-      "kanji": "基礎",
-      "hv": "CƠ SỞ",
-      "vi": "nền tảng, nền móng (kiến thức, công trình)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Quy trình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "基礎[きそ]ができていないと、応用[おうよう]はできない。",
-          "vi": "Chưa vững nền tảng thì không ứng dụng được.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "包丁[ほうちょう]の使[つか]い方[かた]は、この仕事[しごと]の基礎[きそ]です。",
-          "vi": "Cách dùng dao là nền tảng của công việc này.",
-          "ctx": "xuong"
-        }
-      ],
-      "confuse": [
-        "v:基本:きほん"
-      ],
-      "note": "基礎[きそ] = phần nền phải có trước (kiến thức, móng nhà); 基本[きほん] = điều cơ bản, chuẩn mực. 基礎知識[きそちしき] = kiến thức nền."
-    },
-    {
-      "id": "v:目安:めやす",
-      "kana": "めやす",
-      "kanji": "目安",
-      "hv": "MỤC AN",
-      "vi": "mức tham khảo, mốc ước chừng",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Quy trình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "解凍[かいとう]時間[じかん]は、三十分[さんじゅっぷん]を目安[めやす]にしてください。",
-          "vi": "Thời gian rã đông hãy lấy khoảng ba mươi phút làm mốc.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "一[いっ]か月[げつ]の食費[しょくひ]は、三万円[さんまんえん]が目安[めやす]です。",
-          "vi": "Tiền ăn một tháng tham khảo khoảng ba vạn yên.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "〜を目安[めやす]に = lấy … làm mốc; 目安[めやす]をつける = ước chừng."
-    },
-    {
-      "id": "v:照合:しょうごう",
-      "kana": "しょうごう",
-      "kanji": "照合",
-      "hv": "CHIẾU HỢP",
-      "vi": "đối chiếu (cho khớp)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Quy trình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "ラベルと伝票[でんぴょう]を照合[しょうごう]してから、出荷[しゅっか]します。",
-          "vi": "Đối chiếu nhãn với phiếu rồi mới xuất hàng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "窓口[まどぐち]で、在留[ざいりゅう]カードの写真[しゃしん]と顔[かお]を照合[しょうごう]された。",
-          "vi": "Ở quầy, họ đối chiếu ảnh trên thẻ cư trú với mặt tôi.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：数[かず]が合[あ]わないんですが。 B：じゃあ、もう一度[いちど]リストと照合[しょうごう]してみて。",
-          "vi": "A: Số lượng không khớp ạ. B: Thế thử đối chiếu lại với danh sách một lần nữa xem.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "伝票[でんぴょう]と照合[しょうごう]する",
-          "vi": "đối chiếu với phiếu"
-        },
-        {
-          "jp": "データを照合[しょうごう]する",
-          "vi": "đối chiếu dữ liệu"
-        }
-      ]
-    },
-    {
-      "id": "v:見落とす:みおとす",
-      "kana": "みおとす",
-      "kanji": "見落とす",
-      "kf": "見落[みお]とす",
-      "hv": "KIẾN LẠC",
-      "vi": "bỏ sót (khi xem, kiểm tra)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Quy trình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "小[ちい]さな骨[ほね]を見落[みお]とさないように、よく見[み]てください。",
-          "vi": "Hãy nhìn kỹ để không bỏ sót xương nhỏ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "メールの大事[だいじ]な連絡[れんらく]を見落[みお]としていた。",
-          "vi": "Tôi đã bỏ sót một liên lạc quan trọng trong email.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：書類[しょるい]、全部[ぜんぶ]確認[かくにん]した？ B：はい。でも、見落[みお]としがあるかもしれないので、もう一度[いちど]見[み]ます。",
-          "vi": "A: Kiểm hết giấy tờ chưa? B: Rồi ạ. Nhưng có thể còn chỗ sót nên tôi xem lại lần nữa.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "ミスを見落[みお]とす",
-          "vi": "bỏ sót lỗi"
-        },
-        {
-          "jp": "異物[いぶつ]を見落[みお]とす",
-          "vi": "bỏ sót dị vật"
-        }
-      ],
-      "fx": [
-        {
-          "f": "ukemi",
-          "jp": "検査[けんさ]で[[見落[みお]とされ]]た骨[ほね]が、お客様[きゃくさま]のところで見[み]つかった。",
-          "vi": "Cái xương bị bỏ sót lúc kiểm tra đã bị phát hiện ở chỗ khách hàng."
-        }
-      ],
-      "note": "見落[みお]とし = chỗ bỏ sót."
-    },
-    {
-      "id": "v:是正:ぜせい",
-      "kana": "ぜせい",
-      "kanji": "是正",
-      "hv": "THỊ CHÍNH",
-      "vi": "chấn chỉnh, sửa cho đúng (chỗ sai lệch)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Quy trình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "監査[かんさ]で指摘[してき]された点[てん]を、すぐに是正[ぜせい]しました。",
-          "vi": "Chúng tôi đã chấn chỉnh ngay những điểm bị chỉ ra khi thanh tra.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "男女[だんじょ]の給料[きゅうりょう]の差[さ]を是正[ぜせい]する必要[ひつよう]がある。",
-          "vi": "Cần chấn chỉnh chênh lệch lương giữa nam và nữ.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "問題[もんだい]を是正[ぜせい]する",
-          "vi": "chấn chỉnh vấn đề"
-        },
-        {
-          "jp": "格差[かくさ]を是正[ぜせい]する",
-          "vi": "thu hẹp chênh lệch"
-        }
-      ],
-      "note": "是正措置[ぜせいそち] = biện pháp khắc phục (hay gặp trong quản lý chất lượng, vệ sinh thực phẩm)."
-    },
-    {
-      "id": "v:改訂:かいてい",
-      "kana": "かいてい",
-      "kanji": "改訂",
-      "hv": "CẢI ĐÍNH",
-      "vi": "sửa đổi, ra bản mới (tài liệu, sách)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Quy trình",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "マニュアルが改訂[かいてい]されたので、もう一度[いちど]読[よ]んでください。",
-          "vi": "Sổ tay đã được sửa đổi, hãy đọc lại một lần nữa.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "この教科書[きょうかしょ]は、去年[きょねん]改訂[かいてい]された新[あたら]しい版[ばん]です。",
-          "vi": "Cuốn giáo trình này là bản mới được sửa đổi năm ngoái.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "マニュアルを改訂[かいてい]する",
-          "vi": "sửa đổi sổ tay"
-        },
-        {
-          "jp": "手順[てじゅん]書[しょ]を改訂[かいてい]する",
-          "vi": "sửa đổi bản quy trình"
-        }
-      ],
-      "confuse": [
-        "v:改正:かいせい"
-      ],
-      "note": "改訂[かいてい] = sửa nội dung tài liệu, sách (ra bản mới); 改正[かいせい] = sửa luật, quy định; 改定[かいてい] = đổi mức đã định (giá, phí)."
-    },
-    {
-      "id": "v:見直し:みなおし",
-      "kana": "みなおし",
-      "kanji": "見直し",
-      "kf": "見直[みなお]し",
-      "hv": "KIẾN TRỰC",
-      "vi": "sự rà soát lại (kế hoạch, cách làm)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đánh giá",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "事故[じこ]のあと、作業[さぎょう]手順[てじゅん]の見直[みなお]しが行[おこな]われた。",
-          "vi": "Sau tai nạn, trình tự thao tác đã được rà soát lại.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "家計[かけい]の見直[みなお]しをして、スマホの料金[りょうきん]プランを変[か]えた。",
-          "vi": "Tôi rà soát lại chi tiêu gia đình và đổi gói cước điện thoại.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:見直す:みなおす"
-      ]
-    },
-    {
-      "id": "v:振り返り:ふりかえり",
-      "kana": "ふりかえり",
-      "kanji": "振り返り",
-      "kf": "振[ふ]り返[かえ]り",
-      "hv": "CHẤN PHẢN",
-      "vi": "buổi nhìn lại, tổng kết (rút kinh nghiệm)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đánh giá",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "毎週[まいしゅう]金曜日[きんようび]に、班[はん]で一週間[いっしゅうかん]の振[ふ]り返[かえ]りをします。",
-          "vi": "Mỗi thứ sáu, cả tổ cùng nhìn lại công việc một tuần.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "一年[いちねん]の振[ふ]り返[かえ]りを、日記[にっき]に書[か]いた。",
-          "vi": "Tôi viết bài tổng kết một năm vào nhật ký.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "Động từ: 振[ふ]り返[かえ]る = ngoảnh lại; nhìn lại (quá khứ)."
-    },
-    {
-      "id": "v:反省点:はんせいてん",
-      "kana": "はんせいてん",
-      "kanji": "反省点",
-      "hv": "PHẢN TỈNH ĐIỂM",
-      "vi": "điểm cần rút kinh nghiệm",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đánh giá",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今回[こんかい]の反省[はんせい]点[てん]を、次[つぎ]の作業[さぎょう]に生[い]かしましょう。",
-          "vi": "Hãy vận dụng những điểm rút kinh nghiệm lần này cho công việc lần sau.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "面接[めんせつ]の反省[はんせい]点[てん]は、緊張[きんちょう]して早口[はやくち]になったことです。",
-          "vi": "Điểm cần rút kinh nghiệm ở buổi phỏng vấn là tôi run nên nói nhanh.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:反省:はんせい"
-      ]
-    },
-    {
-      "id": "v:問題点:もんだいてん",
-      "kana": "もんだいてん",
-      "kanji": "問題点",
-      "hv": "VẤN ĐỀ ĐIỂM",
-      "vi": "điểm bất cập, chỗ có vấn đề",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đánh giá",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新[あたら]しいラインの問題点[もんだいてん]を、三[みっ]つ挙[あ]げてください。",
-          "vi": "Hãy nêu ba điểm bất cập của dây chuyền mới.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "この制度[せいど]の問題点[もんだいてん]は、手続[てつづ]きが複雑[ふくざつ]なことだ。",
-          "vi": "Điểm bất cập của chế độ này là thủ tục phức tạp.",
-          "ctx": "thutuc"
-        }
-      ]
-    },
-    {
-      "id": "v:目標値:もくひょうち",
-      "kana": "もくひょうち",
-      "kanji": "目標値",
-      "hv": "MỤC TIÊU TRỊ",
-      "vi": "con số mục tiêu",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đánh giá",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "不良[ふりょう]率[りつ]の目標値[もくひょうち]は、一[いっ]パーセント以下[いか]です。",
-          "vi": "Con số mục tiêu của tỉ lệ hàng lỗi là dưới một phần trăm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "健康診断[けんこうしんだん]で、血圧[けつあつ]の目標値[もくひょうち]を教[おし]えてもらった。",
-          "vi": "Khi khám sức khỏe, tôi được cho biết con số huyết áp cần đạt.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:目標:もくひょう"
-      ]
-    },
-    {
-      "id": "v:達成:たっせい",
-      "kana": "たっせい",
-      "kanji": "達成",
-      "hv": "ĐẠT THÀNH",
-      "vi": "đạt được (mục tiêu)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đánh giá",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今月[こんげつ]は、生産[せいさん]目標[もくひょう]を達成[たっせい]できました。",
-          "vi": "Tháng này chúng tôi đã đạt mục tiêu sản xuất.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "N2合格[ごうかく]という目標[もくひょう]を達成[たっせい]するまで、毎日[まいにち]勉強[べんきょう]します。",
-          "vi": "Tôi sẽ học mỗi ngày cho đến khi đạt mục tiêu đỗ N2.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：目標[もくひょう]、達成[たっせい]できそう？ B：あと少[すこ]しです。最後[さいご]まで頑張[がんば]ります。",
-          "vi": "A: Có vẻ đạt mục tiêu không? B: Còn chút nữa thôi ạ. Tôi sẽ cố đến cùng.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "目標[もくひょう]を達成[たっせい]する",
-          "vi": "đạt mục tiêu"
-        },
-        {
-          "jp": "ノルマを達成[たっせい]する",
-          "vi": "đạt chỉ tiêu"
-        }
-      ],
-      "rel": [
-        "v:達する:たっする"
-      ],
-      "note": "達成感[たっせいかん] = cảm giác thành tựu."
-    },
-    {
-      "id": "v:達成率:たっせいりつ",
-      "kana": "たっせいりつ",
-      "kanji": "達成率",
-      "hv": "ĐẠT THÀNH SUẤT",
-      "vi": "tỉ lệ hoàn thành (mục tiêu)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đánh giá",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今月[こんげつ]の達成率[たっせいりつ]は、九十五[きゅうじゅうご]パーセントでした。",
-          "vi": "Tỉ lệ hoàn thành tháng này là chín mươi lăm phần trăm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "貯金[ちょきん]の達成率[たっせいりつ]は、まだ半分[はんぶん]くらいだ。",
-          "vi": "Mục tiêu tiết kiệm mới hoàn thành được khoảng một nửa.",
-          "ctx": "doisong"
-        }
-      ]
-    },
-    {
-      "id": "v:妥当:だとう",
-      "kana": "だとう",
-      "kanji": "妥当",
-      "hv": "THỎA ĐÁNG",
-      "vi": "thỏa đáng, hợp lẽ",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đánh giá",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "品質[ひんしつ]を考[かんが]えれば、その値段[ねだん]は妥当[だとう]だと思[おも]う。",
-          "vi": "Xét chất lượng thì giá đó là thỏa đáng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "班[はん]長[ちょう]の判断[はんだん]は、妥当[だとう]だったと思[おも]います。",
-          "vi": "Tôi nghĩ phán đoán của tổ trưởng là thỏa đáng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：この目標[もくひょう]、高[たか]すぎない？ B：去年[きょねん]の実績[じっせき]から見[み]ると、妥当[だとう]な数字[すうじ]だよ。",
-          "vi": "A: Mục tiêu này có cao quá không? B: Nhìn từ thành tích năm ngoái thì là con số hợp lẽ mà.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "判断[はんだん]",
-          "vi": "phán đoán"
-        },
-        {
-          "jp": "値段[ねだん]",
-          "vi": "giá"
-        },
-        {
-          "jp": "方法[ほうほう]",
-          "vi": "cách làm"
-        }
-      ],
-      "ant": [
-        {
-          "w": "不当[ふとう]",
-          "vi": "bất hợp lý, không chính đáng"
-        }
-      ],
-      "note": "妥当性[だとうせい] = tính thỏa đáng."
-    },
-    {
-      "id": "v:的確:てきかく",
-      "kana": "てきかく",
-      "kanji": "的確",
-      "hv": "ĐÍCH XÁC",
-      "vi": "xác đáng, trúng trọng tâm",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Đánh giá",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "班長[はんちょう]は、いつも的確[てきかく]な指示[しじ]を出[だ]してくれる。",
-          "vi": "Tổ trưởng luôn đưa ra chỉ thị xác đáng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "医者[いしゃ]の的確[てきかく]なアドバイスのおかげで、すぐ治[なお]った。",
-          "vi": "Nhờ lời khuyên trúng bệnh của bác sĩ mà tôi khỏi nhanh.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：グエンさんの説明[せつめい]、分[わ]かりやすかったね。 B：うん、短[みじか]くて的確[てきかく]だった。",
-          "vi": "A: Lời giải thích của anh Nguyễn dễ hiểu nhỉ. B: Ừ, ngắn mà trúng ý.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "指示[しじ]",
-          "vi": "chỉ thị"
-        },
-        {
-          "jp": "判断[はんだん]",
-          "vi": "phán đoán"
-        },
-        {
-          "jp": "答[こた]え",
-          "vi": "câu trả lời"
-        }
-      ],
-      "confuse": [
-        "v:正確:せいかく"
-      ],
-      "note": "的確[てきかく] = đúng chỗ, trúng trọng tâm (chỉ thị, phán đoán); 正確[せいかく] = chính xác, không sai lệch (số liệu, giờ giấc)."
+     "jp": "一年[いちねん]分[ぶん]の事故[じこ]の統計[とうけい]を取[と]って、原因[げんいん]を調[しら]べました。",
+     "vi": "Chúng tôi lấy thống kê tai nạn của một năm rồi tìm nguyên nhân.",
+     "ctx": "xuong"
     }
-  ]
+   ],
+   "note": "統計[とうけい]を取[と]る = lấy số liệu thống kê; 統計的[とうけいてき] = mang tính thống kê."
+  },
+  {
+   "id": "v:数値:すうち",
+   "kana": "すうち",
+   "kanji": "数値",
+   "hv": "SỐ TRỊ",
+   "vi": "trị số (con số đo, tính được)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "温度計[おんどけい]の数値[すうち]を、一時間[いちじかん]ごとに記録[きろく]してください。",
+     "vi": "Hãy ghi lại trị số trên nhiệt kế mỗi giờ một lần.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "健康診断[けんこうしんだん]の数値[すうち]が、去年[きょねん]より良[よ]くなりました。",
+     "vi": "Các chỉ số khám sức khỏe đã tốt hơn năm ngoái.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:数字:すうじ"
+   ],
+   "note": "数値[すうち] = giá trị đo hoặc tính được (nhiệt độ, cân nặng, chỉ số máu); 数字[すうじ] = chữ số, con số nói chung."
+  },
+  {
+   "id": "v:比率:ひりつ",
+   "kana": "ひりつ",
+   "kanji": "比率",
+   "hv": "TỈ SUẤT",
+   "vi": "tỉ số (so giữa hai lượng)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "塩[しお]と水[みず]の比率[ひりつ]は、一対[いったい]十[じゅう]です。",
+     "vi": "Tỉ lệ muối và nước là một trên mười.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本[にほん]では、高齢者[こうれいしゃ]の比率[ひりつ]が年々[ねんねん]高[たか]くなっている。",
+     "vi": "Ở Nhật, tỉ lệ người cao tuổi ngày càng cao.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:割合:わりあい"
+   ],
+   "note": "比率[ひりつ] hay dùng trong văn bản, số liệu; nói chuyện thường ngày hay dùng 割合[わりあい]."
+  },
+  {
+   "id": "v:推移:すいい",
+   "kana": "すいい",
+   "kanji": "推移",
+   "hv": "THÔI DI",
+   "vi": "diễn biến (con số theo thời gian)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "過去[かこ]五年[ごねん]の売上[うりあげ]の推移[すいい]を、グラフにしました。",
+     "vi": "Tôi vẽ biểu đồ diễn biến doanh thu năm năm qua.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "為替[かわせ]レートの推移[すいい]を見[み]て、国[くに]に送金[そうきん]する日[ひ]を決[き]めています。",
+     "vi": "Tôi xem diễn biến tỉ giá rồi chọn ngày gửi tiền về nước.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "町[まち]の人口[じんこう]は、ここ十年[じゅうねん]ほぼ横[よこ]ばいで推移[すいい]している。",
+     "vi": "Dân số của thị trấn mười năm nay gần như đi ngang.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "横[よこ]ばいで推移[すいい]する",
+     "vi": "đi ngang (số liệu)"
+    },
+    {
+     "jp": "高[たか]い水準[すいじゅん]で推移[すいい]する",
+     "vi": "duy trì ở mức cao"
+    }
+   ]
+  },
+  {
+   "id": "v:増減:ぞうげん",
+   "kana": "ぞうげん",
+   "kanji": "増減",
+   "hv": "TĂNG GIẢM",
+   "vi": "tăng giảm",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "注文[ちゅうもん]の増減[ぞうげん]に合[あ]わせて、シフトの人数[にんずう]を変[か]えます。",
+     "vi": "Thay đổi số người trong ca theo mức tăng giảm của đơn hàng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "体重[たいじゅう]の増減[ぞうげん]を、毎朝[まいあさ]チェックしています。",
+     "vi": "Mỗi sáng tôi kiểm tra cân nặng tăng hay giảm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "収入[しゅうにゅう]の増減[ぞうげん]によって、翌年[よくねん]の住民税[じゅうみんぜい]の額[がく]も変[か]わる。",
+     "vi": "Tùy theo thu nhập tăng hay giảm mà số thuế cư trú năm sau cũng thay đổi.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "人数[にんずう]が増減[ぞうげん]する",
+     "vi": "số người tăng giảm"
+    },
+    {
+     "jp": "季節[きせつ]によって増減[ぞうげん]する",
+     "vi": "tăng giảm theo mùa"
+    }
+   ]
+  },
+  {
+   "id": "v:前年:ぜんねん",
+   "kana": "ぜんねん",
+   "kanji": "前年",
+   "hv": "TIỀN NIÊN",
+   "vi": "năm trước (trong báo cáo, văn bản)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今年[ことし]の売上[うりあげ]は、前年[ぜんねん]を上回[うわまわ]りました。",
+     "vi": "Doanh thu năm nay đã vượt năm trước.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "住民税[じゅうみんぜい]は、前年[ぜんねん]の所得[しょとく]をもとに計算[けいさん]されます。",
+     "vi": "Thuế cư trú được tính dựa trên thu nhập của năm trước.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "Nói chuyện thường dùng 去年[きょねん]; văn bản dùng 昨年[さくねん] hoặc 前年[ぜんねん] (năm liền trước năm đang nói tới)."
+  },
+  {
+   "id": "v:前年比:ぜんねんひ",
+   "kana": "ぜんねんひ",
+   "kanji": "前年比",
+   "hv": "TIỀN NIÊN TỈ",
+   "vi": "so với năm trước (tỉ lệ)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今月[こんげつ]の出荷量[しゅっかりょう]は、前年比[ぜんねんひ]で一割[いちわり]増[ふ]えました。",
+     "vi": "Lượng xuất hàng tháng này tăng một phần mười so với năm trước.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "電気代[でんきだい]が前年比[ぜんねんひ]で二割[にわり]も上[あ]がって、生活[せいかつ]が苦[くる]しい。",
+     "vi": "Tiền điện tăng tới hai mươi phần trăm so với năm trước, sống chật vật.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "前年比[ぜんねんひ]110％ = bằng 110% năm trước. Tương tự: 前月比[ぜんげつひ] = so với tháng trước."
+  },
+  {
+   "id": "v:集計:しゅうけい",
+   "kana": "しゅうけい",
+   "kanji": "集計",
+   "hv": "TẬP KẾ",
+   "vi": "tổng hợp số liệu, cộng sổ",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎日[まいにち]の生産量[せいさんりょう]を集計[しゅうけい]して、班長[はんちょう]に報告[ほうこく]します。",
+     "vi": "Tổng hợp sản lượng mỗi ngày rồi báo cáo tổ trưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "町内会[ちょうないかい]のアンケートの結果[けっか]は、来週[らいしゅう]集計[しゅうけい]するそうです。",
+     "vi": "Nghe nói kết quả phiếu khảo sát của hội khu phố sẽ được tổng hợp vào tuần sau.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今月[こんげつ]の残業時間[ざんぎょうじかん]、集計[しゅうけい]できた？ B：はい、表[ひょう]にまとめておきました。",
+     "vi": "A: Tổng hợp giờ tăng ca tháng này xong chưa? B: Vâng, tôi đã tóm vào bảng rồi ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "データを集計[しゅうけい]する",
+     "vi": "tổng hợp dữ liệu"
+    },
+    {
+     "jp": "結果[けっか]を集計[しゅうけい]する",
+     "vi": "tổng hợp kết quả"
+    }
+   ]
+  },
+  {
+   "id": "v:算出:さんしゅつ",
+   "kana": "さんしゅつ",
+   "kanji": "算出",
+   "hv": "TOÁN XUẤT",
+   "vi": "tính ra (con số)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一時間[いちじかん]あたりの作業量[さぎょうりょう]を算出[さんしゅつ]します。",
+     "vi": "Tính ra khối lượng công việc trong mỗi giờ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "保険料[ほけんりょう]は、給料[きゅうりょう]の額[がく]をもとに算出[さんしゅつ]されます。",
+     "vi": "Phí bảo hiểm được tính ra dựa trên mức lương.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "家計簿[かけいぼ]アプリで、一[いっ]か月[げつ]の食費[しょくひ]を算出[さんしゅつ]してみた。",
+     "vi": "Tôi thử tính ra tiền ăn một tháng bằng ứng dụng sổ chi tiêu.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "費用[ひよう]を算出[さんしゅつ]する",
+     "vi": "tính ra chi phí"
+    },
+    {
+     "jp": "平均[へいきん]を算出[さんしゅつ]する",
+     "vi": "tính ra số trung bình"
+    }
+   ]
+  },
+  {
+   "id": "v:横ばい:よこばい",
+   "kana": "よこばい",
+   "kanji": "横ばい",
+   "kf": "横[よこ]ばい",
+   "hv": "HOÀNH",
+   "vi": "đi ngang (không tăng không giảm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ここ数ヶ月[すうかげつ]、売上[うりあげ]は横[よこ]ばいです。",
+     "vi": "Mấy tháng nay doanh thu đi ngang.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "野菜[やさい]の値段[ねだん]は、先月[せんげつ]から横[よこ]ばいが続[つづ]いている。",
+     "vi": "Giá rau từ tháng trước vẫn đi ngang.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "横[よこ]ばいが続[つづ]く = tiếp tục đi ngang; 横[よこ]ばいで推移[すいい]する = (con số) đi ngang."
+  },
+  {
+   "id": "v:指標:しひょう",
+   "kana": "しひょう",
+   "kanji": "指標",
+   "hv": "CHỈ TIÊU",
+   "vi": "chỉ số (thước đo để đánh giá)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不良品[ふりょうひん]の数[かず]は、品質[ひんしつ]を見[み]る大事[だいじ]な指標[しひょう]です。",
+     "vi": "Số hàng lỗi là thước đo quan trọng để xem chất lượng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "失業率[しつぎょうりつ]は、景気[けいき]を表[あらわ]す指標[しひょう]の一[ひと]つだ。",
+     "vi": "Tỉ lệ thất nghiệp là một chỉ số thể hiện tình hình kinh tế.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:件数:けんすう",
+   "kana": "けんすう",
+   "kanji": "件数",
+   "hv": "KIỆN SỐ",
+   "vi": "số vụ, số trường hợp",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今月[こんげつ]は、クレームの件数[けんすう]が減[へ]りました。",
+     "vi": "Tháng này số vụ khiếu nại đã giảm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "三月[さんがつ]は、市役所[しやくしょ]への問[と]い合[あ]わせの件数[けんすう]が多[おお]い。",
+     "vi": "Tháng ba có nhiều lượt hỏi đến tòa thị chính.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "〜件[けん] = đếm vụ việc, hồ sơ, email."
+  },
+  {
+   "id": "v:頻度:ひんど",
+   "kana": "ひんど",
+   "kanji": "頻度",
+   "hv": "TẦN ĐỘ",
+   "vi": "tần suất",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]を掃除[そうじ]する頻度[ひんど]を、週[しゅう]一回[いっかい]から毎日[まいにち]に増[ふ]やした。",
+     "vi": "Tần suất vệ sinh máy được tăng từ tuần một lần lên mỗi ngày.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "使[つか]う頻度[ひんど]が高[たか]い言葉[ことば]から覚[おぼ]えましょう。",
+     "vi": "Hãy học trước những từ có tần suất dùng cao.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "頻度[ひんど]が高[たか]い / 低[ひく]い = tần suất cao / thấp."
+  },
+  {
+   "id": "v:内訳:うちわけ",
+   "kana": "うちわけ",
+   "kanji": "内訳",
+   "hv": "NỘI DỊCH",
+   "vi": "các khoản chi tiết (của một tổng số)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "給料明細[きゅうりょうめいさい]で、控除[こうじょ]の内訳[うちわけ]を確認[かくにん]しました。",
+     "vi": "Tôi xem các khoản khấu trừ chi tiết trên phiếu lương.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "不良品[ふりょうひん]の内訳[うちわけ]は、傷[きず]が六割[ろくわり]、異物[いぶつ]が三割[さんわり]です。",
+     "vi": "Trong số hàng lỗi, trầy xước chiếm sáu phần mười, dị vật ba phần mười.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "内訳[うちわけ]を見[み]る / 出[だ]す = xem / đưa ra bảng chi tiết các khoản."
+  },
+  {
+   "id": "v:ばらつき:ばらつき",
+   "kana": "ばらつき",
+   "kanji": "",
+   "hv": "",
+   "vi": "độ chênh, sự không đều (giữa các lần, các sản phẩm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "切[き]り身[み]の重[おも]さに、ばらつきがあります。",
+     "vi": "Trọng lượng các miếng phi lê không đều nhau.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "店[みせ]によって、値段[ねだん]にかなりばらつきがある。",
+     "vi": "Tùy cửa hàng mà giá cả chênh nhau khá nhiều.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "ばらつきが出[で]る = bị chênh; ばらつきをなくす = làm cho đều. Động từ: ばらつく."
+  },
+  {
+   "id": "v:歩留まり:ぶどまり",
+   "kana": "ぶどまり",
+   "kanji": "歩留まり",
+   "kf": "歩留[ぶど]まり",
+   "hv": "BỘ LƯU",
+   "vi": "tỉ lệ thành phẩm (phần dùng được sau chế biến)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "身[み]を骨[ほね]に残[のこ]さないように切[き]ると、歩留[ぶど]まりが上[あ]がります。",
+     "vi": "Cắt sao cho không để sót thịt bám xương thì tỉ lệ thành phẩm tăng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "料理[りょうり]でも、皮[かわ]を厚[あつ]くむくと歩留[ぶど]まりが悪[わる]い。",
+     "vi": "Nấu ăn cũng vậy, gọt vỏ dày thì phần ăn được còn ít.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Từ chuyên ngành chế biến, sản xuất, hay gặp ở xưởng thủy sản: 歩留[ぶど]まりが良[よ]い / 悪[わる]い."
+  },
+  {
+   "id": "v:一定:いってい",
+   "kana": "いってい",
+   "kanji": "一定",
+   "hv": "NHẤT ĐỊNH",
+   "vi": "cố định, không đổi; một mức nhất định nào đó",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "冷凍庫[れいとうこ]の温度[おんど]を、一定[いってい]に保[たも]ってください。",
+     "vi": "Hãy giữ nhiệt độ tủ đông ở mức không đổi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一定[いってい]の条件[じょうけん]を満[み]たせば、税金[ぜいきん]が安[やす]くなります。",
+     "vi": "Nếu đáp ứng một số điều kiện nhất định thì thuế được giảm.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "一定[いってい]の〜 = 〜 nhất định (nào đó); 一定[いってい]に保[たも]つ = giữ ổn định."
+  },
+  {
+   "id": "v:グラフ:グラフ",
+   "kana": "グラフ",
+   "kanji": "",
+   "hv": "",
+   "vi": "biểu đồ",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Số liệu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "一週間[いっしゅうかん]の出荷量[しゅっかりょう]を、グラフにしました。",
+     "vi": "Tôi vẽ biểu đồ lượng xuất hàng trong một tuần.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "このグラフを見[み]ると、物価[ぶっか]が上[あ]がっているのが分[わ]かる。",
+     "vi": "Nhìn biểu đồ này thì thấy vật giá đang tăng.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "graph (tiếng Anh)",
+   "note": "棒[ぼう]グラフ = biểu đồ cột; 折[お]れ線[せん]グラフ = biểu đồ đường; 円[えん]グラフ = biểu đồ tròn."
+  },
+  {
+   "id": "v:資料:しりょう",
+   "kana": "しりょう",
+   "kanji": "資料",
+   "hv": "TƯ LIỆU",
+   "vi": "tài liệu (để tham khảo, họp)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Báo cáo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会議[かいぎ]の資料[しりょう]を、十[じゅう]部[ぶ]コピーしてください。",
+     "vi": "Hãy photo tài liệu họp mười bản.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "ハローワークで、仕事探[しごとさが]しの資料[しりょう]をもらいました。",
+     "vi": "Tôi nhận tài liệu tìm việc ở Hello Work.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:書類:しょるい"
+   ],
+   "note": "資料[しりょう] = tài liệu để đọc, tham khảo; 書類[しょるい] = giấy tờ để điền, nộp."
+  },
+  {
+   "id": "v:日報:にっぽう",
+   "kana": "にっぽう",
+   "kanji": "日報",
+   "hv": "NHẬT BÁO",
+   "vi": "báo cáo ngày (công việc)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Báo cáo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "仕事[しごと]が終[お]わったら、日報[にっぽう]を書[か]いて班長[はんちょう]に出[だ]します。",
+     "vi": "Hết giờ làm thì viết báo cáo ngày nộp tổ trưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：今日[きょう]の日報[にっぽう]、もう出[だ]した？ B：あ、まだです。すぐ書[か]きます。",
+     "vi": "A: Báo cáo ngày hôm nay nộp chưa? B: À, chưa ạ. Tôi viết ngay đây.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:月報:げっぽう"
+   ]
+  },
+  {
+   "id": "v:月報:げっぽう",
+   "kana": "げっぽう",
+   "kanji": "月報",
+   "hv": "NGUYỆT BÁO",
+   "vi": "báo cáo tháng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Báo cáo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "月報[げっぽう]で、一[いっ]か月[げつ]の生産量[せいさんりょう]と不良[ふりょう]率[りつ]をまとめます。",
+     "vi": "Báo cáo tháng tổng hợp sản lượng và tỉ lệ hàng lỗi của cả tháng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "月報[げっぽう]の締[し]め切[き]りは、毎月[まいつき]五日[いつか]です。",
+     "vi": "Hạn nộp báo cáo tháng là ngày mùng năm hằng tháng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:日報:にっぽう"
+   ]
+  },
+  {
+   "id": "v:根拠:こんきょ",
+   "kana": "こんきょ",
+   "kanji": "根拠",
+   "hv": "CĂN CỨ",
+   "vi": "căn cứ (để nói, để tin)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Báo cáo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "「たぶん大丈夫[だいじょうぶ]」ではなく、根拠[こんきょ]を示[しめ]してください。",
+     "vi": "Đừng nói \"chắc là ổn\", hãy đưa ra căn cứ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "その噂[うわさ]には、何[なん]の根拠[こんきょ]もない。",
+     "vi": "Tin đồn đó chẳng có căn cứ gì.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "根拠[こんきょ]を示[しめ]す = đưa ra căn cứ; 根拠[こんきょ]のない噂[うわさ] = tin đồn vô căn cứ."
+  },
+  {
+   "id": "v:概要:がいよう",
+   "kana": "がいよう",
+   "kanji": "概要",
+   "hv": "KHÁI YẾU",
+   "vi": "nội dung khái quát, sơ lược",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Báo cáo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "まず、新[あたら]しい作業[さぎょう]の概要[がいよう]を説明[せつめい]します。",
+     "vi": "Trước tiên tôi giải thích khái quát về công việc mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "説明会[せつめいかい]では、制度[せいど]の概要[がいよう]だけを聞[き]きました。",
+     "vi": "Ở buổi thuyết minh tôi chỉ nghe sơ lược về chế độ.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:詳細:しょうさい"
+   ]
+  },
+  {
+   "id": "v:詳細:しょうさい",
+   "kana": "しょうさい",
+   "kanji": "詳細",
+   "hv": "TƯỜNG TẾ",
+   "vi": "chi tiết cụ thể (từng điểm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Báo cáo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "詳細[しょうさい]は、後[あと]で資料[しりょう]を送[おく]ります。",
+     "vi": "Chi tiết thì lát nữa tôi sẽ gửi tài liệu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "詳細[しょうさい]については、市役所[しやくしょ]の窓口[まどぐち]でお尋[たず]ねください。",
+     "vi": "Về chi tiết, xin hỏi tại quầy của tòa thị chính.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:概要:がいよう"
+   ],
+   "note": "詳細[しょうさい]な説明[せつめい] = lời giải thích chi tiết (dùng như tính từ な). Nói chuyện thường dùng 詳[くわ]しい."
+  },
+  {
+   "id": "v:要約:ようやく",
+   "kana": "ようやく",
+   "kanji": "要約",
+   "hv": "YẾU ƯỚC",
+   "vi": "tóm tắt (nội dung)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Báo cáo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会議[かいぎ]の内容[ないよう]を、三[さん]行[ぎょう]で要約[ようやく]してください。",
+     "vi": "Hãy tóm tắt nội dung cuộc họp trong ba dòng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本語[にほんご]のニュースを読[よ]んで、要約[ようやく]する練習[れんしゅう]をしています。",
+     "vi": "Tôi luyện đọc tin tiếng Nhật rồi tóm tắt lại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この長[なが]いお知[し]らせ、何[なん]て書[か]いてあるんですか。 B：要約[ようやく]すると、来月[らいげつ]から駐車場[ちゅうしゃじょう]が有料[ゆうりょう]になるってことだよ。",
+     "vi": "A: Thông báo dài này viết gì vậy ạ? B: Tóm lại là từ tháng sau bãi đỗ xe sẽ thu phí.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "内容[ないよう]を要約[ようやく]する",
+     "vi": "tóm tắt nội dung"
+    },
+    {
+     "jp": "話[はなし]を要約[ようやく]する",
+     "vi": "tóm lại câu chuyện"
+    }
+   ],
+   "note": "要[よう]するに = tóm lại là (phó từ cùng gốc)."
+  },
+  {
+   "id": "v:一覧:いちらん",
+   "kana": "いちらん",
+   "kanji": "一覧",
+   "hv": "NHẤT LÃM",
+   "vi": "bảng liệt kê (để xem một lượt)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Báo cáo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "必要[ひつよう]な書類[しょるい]の一覧[いちらん]を、プリントしておきました。",
+     "vi": "Tôi đã in sẵn bảng liệt kê các giấy tờ cần thiết.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "アレルギーの原因[げんいん]になる食品[しょくひん]の一覧[いちらん]が、壁[かべ]に貼[は]ってある。",
+     "vi": "Bảng liệt kê thực phẩm gây dị ứng được dán trên tường.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "一覧表[いちらんひょう] = bảng liệt kê; 料金[りょうきん]一覧[いちらん] = bảng giá."
+  },
+  {
+   "id": "v:具体的:ぐたいてき",
+   "kana": "ぐたいてき",
+   "kanji": "具体的",
+   "hv": "CỤ THỂ ĐÍCH",
+   "vi": "cụ thể",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Báo cáo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "もっと具体的[ぐたいてき]に説明[せつめい]してください。",
+     "vi": "Hãy giải thích cụ thể hơn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "将来[しょうらい]の具体的[ぐたいてき]な計画[けいかく]を立[た]てました。",
+     "vi": "Tôi đã lập kế hoạch cụ thể cho tương lai.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：作業[さぎょう]を早[はや]くする方法[ほうほう]、何[なに]かある？ B：具体的[ぐたいてき]には、道具[どうぐ]の置[お]き場所[ばしょ]を変[か]えたらどうでしょう。",
+     "vi": "A: Có cách nào làm nhanh hơn không? B: Cụ thể là thử đổi chỗ để dụng cụ xem sao ạ?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "例[れい]",
+     "vi": "ví dụ"
+    },
+    {
+     "jp": "計画[けいかく]",
+     "vi": "kế hoạch"
+    },
+    {
+     "jp": "説明[せつめい]",
+     "vi": "lời giải thích"
+    }
+   ],
+   "ant": [
+    {
+     "w": "抽象的[ちゅうしょうてき]",
+     "vi": "trừu tượng"
+    }
+   ],
+   "syn": [
+    "v:具体:ぐたい"
+   ]
+  },
+  {
+   "id": "v:裏付ける:うらづける",
+   "kana": "うらづける",
+   "kanji": "裏付ける",
+   "kf": "裏付[うらづ]ける",
+   "hv": "LÝ PHÓ",
+   "vi": "chứng minh, củng cố (bằng chứng cứ)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Báo cáo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "先月[せんげつ]のデータが、班[はん]長[ちょう]の考[かんが]えを裏付[うらづ]けました。",
+     "vi": "Dữ liệu tháng trước đã chứng minh suy nghĩ của tổ trưởng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "その話[はなし]を裏付[うらづ]ける証拠[しょうこ]は、まだない。",
+     "vi": "Chưa có bằng chứng xác nhận câu chuyện đó.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この方法[ほうほう]で、本当[ほんとう]にミスが減[へ]るの？ B：はい、先月[せんげつ]の記録[きろく]がそれを裏付[うらづ]けています。",
+     "vi": "A: Cách này thật sự giảm được lỗi à? B: Vâng, hồ sơ tháng trước chứng minh điều đó.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "データで裏付[うらづ]ける",
+     "vi": "chứng minh bằng dữ liệu"
+    },
+    {
+     "jp": "事実[じじつ]を裏付[うらづ]ける",
+     "vi": "xác nhận sự thật"
+    }
+   ],
+   "note": "裏付[うらづ]け = căn cứ xác nhận, bằng chứng."
+  },
+  {
+   "id": "v:踏まえる:ふまえる",
+   "kana": "ふまえる",
+   "kanji": "踏まえる",
+   "kf": "踏[ふ]まえる",
+   "hv": "ĐẠP",
+   "vi": "cân nhắc (kết quả, ý kiến) rồi lấy làm cơ sở",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Báo cáo",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "去年[きょねん]の反省[はんせい]を踏[ふ]まえて、今年[ことし]の計画[けいかく]を作[つく]りました。",
+     "vi": "Rút kinh nghiệm năm ngoái rồi chúng tôi lập kế hoạch năm nay.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "町内会[ちょうないかい]は、住民[じゅうみん]の声[こえ]を踏[ふ]まえて、ごみの日[ひ]を変[か]えた。",
+     "vi": "Hội khu phố đã xem xét ý kiến người dân rồi đổi ngày đổ rác.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：新[あたら]しいマニュアル、どうやって作[つく]る？ B：今[いま]までのミスを踏[ふ]まえて、注意点[ちゅういてん]を増[ふ]やしましょう。",
+     "vi": "A: Sổ tay mới làm thế nào đây? B: Dựa trên những lỗi từ trước tới giờ, ta thêm các điểm cần chú ý nhé.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "結果[けっか]を踏[ふ]まえる",
+     "vi": "dựa trên kết quả"
+    },
+    {
+     "jp": "経験[けいけん]を踏[ふ]まえる",
+     "vi": "dựa trên kinh nghiệm"
+    }
+   ],
+   "confuse": [
+    "v:基づく:もとづく"
+   ],
+   "note": "〜を踏[ふ]まえて = đã xem xét kỹ (kết quả, ý kiến) rồi mới…; 〜に基[もと]づいて = căn cứ đúng theo (quy định, số liệu)."
+  },
+  {
+   "id": "v:マニュアル:マニュアル",
+   "kana": "マニュアル",
+   "kanji": "",
+   "hv": "",
+   "vi": "sổ tay hướng dẫn",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quy trình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "分[わ]からないときは、まずマニュアルを見[み]てください。",
+     "vi": "Khi không hiểu thì trước hết hãy xem sổ tay hướng dẫn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "新[あたら]しい洗濯機[せんたくき]のマニュアルが全部[ぜんぶ]日本語[にほんご]で、困[こま]った。",
+     "vi": "Sổ hướng dẫn của máy giặt mới toàn tiếng Nhật, tôi khổ sở.",
+     "ctx": "doisong"
+    }
+   ],
+   "goc": "manual (tiếng Anh)",
+   "note": "マニュアル通[どお]り = đúng như sổ tay."
+  },
+  {
+   "id": "v:手順書:てじゅんしょ",
+   "kana": "てじゅんしょ",
+   "kanji": "手順書",
+   "hv": "THỦ THUẬN THƯ",
+   "vi": "bản quy trình thao tác (từng bước)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quy trình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "手順[てじゅん]書[しょ]の通[とお]りに、機械[きかい]を止[と]めてください。",
+     "vi": "Hãy dừng máy theo đúng bản quy trình.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "新人[しんじん]のために、写真[しゃしん]付[つ]きの手順[てじゅん]書[しょ]を作[つく]った。",
+     "vi": "Tôi làm bản quy trình có kèm ảnh cho người mới.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:手順:てじゅん",
+    "v:マニュアル:マニュアル"
+   ]
+  },
+  {
+   "id": "v:手引き:てびき",
+   "kana": "てびき",
+   "kanji": "手引き",
+   "kf": "手引[てび]き",
+   "hv": "THỦ DẪN",
+   "vi": "sách hướng dẫn (cho người mới); sự dẫn dắt",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quy trình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "確定申告[かくていしんこく]の手引[てび]きを、税務署[ぜいむしょ]でもらいました。",
+     "vi": "Tôi nhận sách hướng dẫn khai thuế cuối năm ở sở thuế.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "先輩[せんぱい]の手引[てび]きで、仕事[しごと]にすぐ慣[な]れた。",
+     "vi": "Nhờ đàn anh dẫn dắt, tôi quen việc rất nhanh.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Tài liệu của cơ quan hay có tên 「〜の手引[てび]き」 (sách hướng dẫn về …)."
+  },
+  {
+   "id": "v:工程:こうてい",
+   "kana": "こうてい",
+   "kanji": "工程",
+   "hv": "CÔNG TRÌNH",
+   "vi": "công đoạn (trong sản xuất)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quy trình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この工程[こうてい]では、骨[ほね]が残[のこ]っていないか確認[かくにん]します。",
+     "vi": "Ở công đoạn này kiểm tra xem còn sót xương không.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "工事[こうじ]の工程[こうてい]が遅[おく]れて、通行止[つうこうど]めが延[の]びた。",
+     "vi": "Tiến độ công trình bị chậm nên việc cấm đường bị kéo dài.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "工程表[こうていひょう] = bảng tiến độ; 前[まえ]の工程[こうてい] / 次[つぎ]の工程[こうてい] = công đoạn trước / sau."
+  },
+  {
+   "id": "v:段階:だんかい",
+   "kana": "だんかい",
+   "kanji": "段階",
+   "hv": "ĐOẠN GIAI",
+   "vi": "giai đoạn, nấc",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quy trình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "計画[けいかく]は、まだ話[はな]し合[あ]いの段階[だんかい]です。",
+     "vi": "Kế hoạch vẫn đang ở giai đoạn bàn bạc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本語[にほんご]の勉強[べんきょう]は、段階[だんかい]を踏[ふ]んで進[すす]めましょう。",
+     "vi": "Học tiếng Nhật thì hãy tiến lên từng nấc một.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "段階的[だんかいてき]に = từng bước; 段階[だんかい]を踏[ふ]む = đi theo từng bước."
+  },
+  {
+   "id": "v:基礎:きそ",
+   "kana": "きそ",
+   "kanji": "基礎",
+   "hv": "CƠ SỞ",
+   "vi": "nền tảng, nền móng (kiến thức, công trình)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quy trình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "基礎[きそ]ができていないと、応用[おうよう]はできない。",
+     "vi": "Chưa vững nền tảng thì không ứng dụng được.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "包丁[ほうちょう]の使[つか]い方[かた]は、この仕事[しごと]の基礎[きそ]です。",
+     "vi": "Cách dùng dao là nền tảng của công việc này.",
+     "ctx": "xuong"
+    }
+   ],
+   "confuse": [
+    "v:基本:きほん"
+   ],
+   "note": "基礎[きそ] = phần nền phải có trước (kiến thức, móng nhà); 基本[きほん] = điều cơ bản, chuẩn mực. 基礎知識[きそちしき] = kiến thức nền."
+  },
+  {
+   "id": "v:目安:めやす",
+   "kana": "めやす",
+   "kanji": "目安",
+   "hv": "MỤC AN",
+   "vi": "mức tham khảo, mốc ước chừng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quy trình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "解凍[かいとう]時間[じかん]は、三十分[さんじゅっぷん]を目安[めやす]にしてください。",
+     "vi": "Thời gian rã đông hãy lấy khoảng ba mươi phút làm mốc.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一[いっ]か月[げつ]の食費[しょくひ]は、三万円[さんまんえん]が目安[めやす]です。",
+     "vi": "Tiền ăn một tháng tham khảo khoảng ba vạn yên.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "〜を目安[めやす]に = lấy … làm mốc; 目安[めやす]をつける = ước chừng."
+  },
+  {
+   "id": "v:照合:しょうごう",
+   "kana": "しょうごう",
+   "kanji": "照合",
+   "hv": "CHIẾU HỢP",
+   "vi": "đối chiếu (cho khớp)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quy trình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "ラベルと伝票[でんぴょう]を照合[しょうごう]してから、出荷[しゅっか]します。",
+     "vi": "Đối chiếu nhãn với phiếu rồi mới xuất hàng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "窓口[まどぐち]で、在留[ざいりゅう]カードの写真[しゃしん]と顔[かお]を照合[しょうごう]された。",
+     "vi": "Ở quầy, họ đối chiếu ảnh trên thẻ cư trú với mặt tôi.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：数[かず]が合[あ]わないんですが。 B：じゃあ、もう一度[いちど]リストと照合[しょうごう]してみて。",
+     "vi": "A: Số lượng không khớp ạ. B: Thế thử đối chiếu lại với danh sách một lần nữa xem.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "伝票[でんぴょう]と照合[しょうごう]する",
+     "vi": "đối chiếu với phiếu"
+    },
+    {
+     "jp": "データを照合[しょうごう]する",
+     "vi": "đối chiếu dữ liệu"
+    }
+   ]
+  },
+  {
+   "id": "v:見落とす:みおとす",
+   "kana": "みおとす",
+   "kanji": "見落とす",
+   "kf": "見落[みお]とす",
+   "hv": "KIẾN LẠC",
+   "vi": "bỏ sót (khi xem, kiểm tra)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quy trình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "小[ちい]さな骨[ほね]を見落[みお]とさないように、よく見[み]てください。",
+     "vi": "Hãy nhìn kỹ để không bỏ sót xương nhỏ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "メールの大事[だいじ]な連絡[れんらく]を見落[みお]としていた。",
+     "vi": "Tôi đã bỏ sót một liên lạc quan trọng trong email.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：書類[しょるい]、全部[ぜんぶ]確認[かくにん]した？ B：はい。でも、見落[みお]としがあるかもしれないので、もう一度[いちど]見[み]ます。",
+     "vi": "A: Kiểm hết giấy tờ chưa? B: Rồi ạ. Nhưng có thể còn chỗ sót nên tôi xem lại lần nữa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "ミスを見落[みお]とす",
+     "vi": "bỏ sót lỗi"
+    },
+    {
+     "jp": "異物[いぶつ]を見落[みお]とす",
+     "vi": "bỏ sót dị vật"
+    }
+   ],
+   "fx": [
+    {
+     "f": "ukemi",
+     "jp": "検査[けんさ]で[[見落[みお]とされ]]た骨[ほね]が、お客様[きゃくさま]のところで見[み]つかった。",
+     "vi": "Cái xương bị bỏ sót lúc kiểm tra đã bị phát hiện ở chỗ khách hàng."
+    }
+   ],
+   "note": "見落[みお]とし = chỗ bỏ sót."
+  },
+  {
+   "id": "v:是正:ぜせい",
+   "kana": "ぜせい",
+   "kanji": "是正",
+   "hv": "THỊ CHÍNH",
+   "vi": "chấn chỉnh, sửa cho đúng (chỗ sai lệch)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quy trình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "監査[かんさ]で指摘[してき]された点[てん]を、すぐに是正[ぜせい]しました。",
+     "vi": "Chúng tôi đã chấn chỉnh ngay những điểm bị chỉ ra khi thanh tra.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "男女[だんじょ]の給料[きゅうりょう]の差[さ]を是正[ぜせい]する必要[ひつよう]がある。",
+     "vi": "Cần chấn chỉnh chênh lệch lương giữa nam và nữ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "給与明細[きゅうよめいさい]の計算[けいさん]に誤[あやま]りがあったので、会社[かいしゃ]に是正[ぜせい]を求[もと]めた。",
+     "vi": "Phiếu lương tính sai nên tôi đã yêu cầu công ty sửa lại cho đúng.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "問題[もんだい]を是正[ぜせい]する",
+     "vi": "chấn chỉnh vấn đề"
+    },
+    {
+     "jp": "格差[かくさ]を是正[ぜせい]する",
+     "vi": "thu hẹp chênh lệch"
+    }
+   ],
+   "note": "是正措置[ぜせいそち] = biện pháp khắc phục (hay gặp trong quản lý chất lượng, vệ sinh thực phẩm)."
+  },
+  {
+   "id": "v:改訂:かいてい",
+   "kana": "かいてい",
+   "kanji": "改訂",
+   "hv": "CẢI ĐÍNH",
+   "vi": "sửa đổi, ra bản mới (tài liệu, sách)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Quy trình",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "マニュアルが改訂[かいてい]されたので、もう一度[いちど]読[よ]んでください。",
+     "vi": "Sổ tay đã được sửa đổi, hãy đọc lại một lần nữa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この教科書[きょうかしょ]は、去年[きょねん]改訂[かいてい]された新[あたら]しい版[ばん]です。",
+     "vi": "Cuốn giáo trình này là bản mới được sửa đổi năm ngoái.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "在留[ざいりゅう]手続[てつづ]きの案内[あんない]パンフレットが改訂[かいてい]されて、ベトナム語[ご]版[ばん]もできた。",
+     "vi": "Tờ hướng dẫn thủ tục lưu trú được sửa đổi, ra bản mới, có cả bản tiếng Việt.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "マニュアルを改訂[かいてい]する",
+     "vi": "sửa đổi sổ tay"
+    },
+    {
+     "jp": "手順[てじゅん]書[しょ]を改訂[かいてい]する",
+     "vi": "sửa đổi bản quy trình"
+    }
+   ],
+   "confuse": [
+    "v:改正:かいせい"
+   ],
+   "note": "改訂[かいてい] = sửa nội dung tài liệu, sách (ra bản mới); 改正[かいせい] = sửa luật, quy định; 改定[かいてい] = đổi mức đã định (giá, phí)."
+  },
+  {
+   "id": "v:見直し:みなおし",
+   "kana": "みなおし",
+   "kanji": "見直し",
+   "kf": "見直[みなお]し",
+   "hv": "KIẾN TRỰC",
+   "vi": "sự rà soát lại (kế hoạch, cách làm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "事故[じこ]のあと、作業[さぎょう]手順[てじゅん]の見直[みなお]しが行[おこな]われた。",
+     "vi": "Sau tai nạn, trình tự thao tác đã được rà soát lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "家計[かけい]の見直[みなお]しをして、スマホの料金[りょうきん]プランを変[か]えた。",
+     "vi": "Tôi rà soát lại chi tiêu gia đình và đổi gói cước điện thoại.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:見直す:みなおす"
+   ]
+  },
+  {
+   "id": "v:振り返り:ふりかえり",
+   "kana": "ふりかえり",
+   "kanji": "振り返り",
+   "kf": "振[ふ]り返[かえ]り",
+   "hv": "CHẤN PHẢN",
+   "vi": "buổi nhìn lại, tổng kết (rút kinh nghiệm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "毎週[まいしゅう]金曜日[きんようび]に、班[はん]で一週間[いっしゅうかん]の振[ふ]り返[かえ]りをします。",
+     "vi": "Mỗi thứ sáu, cả tổ cùng nhìn lại công việc một tuần.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一年[いちねん]の振[ふ]り返[かえ]りを、日記[にっき]に書[か]いた。",
+     "vi": "Tôi viết bài tổng kết một năm vào nhật ký.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "Động từ: 振[ふ]り返[かえ]る = ngoảnh lại; nhìn lại (quá khứ)."
+  },
+  {
+   "id": "v:反省点:はんせいてん",
+   "kana": "はんせいてん",
+   "kanji": "反省点",
+   "hv": "PHẢN TỈNH ĐIỂM",
+   "vi": "điểm cần rút kinh nghiệm",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今回[こんかい]の反省[はんせい]点[てん]を、次[つぎ]の作業[さぎょう]に生[い]かしましょう。",
+     "vi": "Hãy vận dụng những điểm rút kinh nghiệm lần này cho công việc lần sau.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "面接[めんせつ]の反省[はんせい]点[てん]は、緊張[きんちょう]して早口[はやくち]になったことです。",
+     "vi": "Điểm cần rút kinh nghiệm ở buổi phỏng vấn là tôi run nên nói nhanh.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:反省:はんせい"
+   ]
+  },
+  {
+   "id": "v:問題点:もんだいてん",
+   "kana": "もんだいてん",
+   "kanji": "問題点",
+   "hv": "VẤN ĐỀ ĐIỂM",
+   "vi": "điểm bất cập, chỗ có vấn đề",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しいラインの問題点[もんだいてん]を、三[みっ]つ挙[あ]げてください。",
+     "vi": "Hãy nêu ba điểm bất cập của dây chuyền mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この制度[せいど]の問題点[もんだいてん]は、手続[てつづ]きが複雑[ふくざつ]なことだ。",
+     "vi": "Điểm bất cập của chế độ này là thủ tục phức tạp.",
+     "ctx": "thutuc"
+    }
+   ]
+  },
+  {
+   "id": "v:目標値:もくひょうち",
+   "kana": "もくひょうち",
+   "kanji": "目標値",
+   "hv": "MỤC TIÊU TRỊ",
+   "vi": "con số mục tiêu",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不良[ふりょう]率[りつ]の目標値[もくひょうち]は、一[いっ]パーセント以下[いか]です。",
+     "vi": "Con số mục tiêu của tỉ lệ hàng lỗi là dưới một phần trăm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "健康診断[けんこうしんだん]で、血圧[けつあつ]の目標値[もくひょうち]を教[おし]えてもらった。",
+     "vi": "Khi khám sức khỏe, tôi được cho biết con số huyết áp cần đạt.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:目標:もくひょう"
+   ]
+  },
+  {
+   "id": "v:達成:たっせい",
+   "kana": "たっせい",
+   "kanji": "達成",
+   "hv": "ĐẠT THÀNH",
+   "vi": "đạt được (mục tiêu)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今月[こんげつ]は、生産[せいさん]目標[もくひょう]を達成[たっせい]できました。",
+     "vi": "Tháng này chúng tôi đã đạt mục tiêu sản xuất.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "N2合格[ごうかく]という目標[もくひょう]を達成[たっせい]するまで、毎日[まいにち]勉強[べんきょう]します。",
+     "vi": "Tôi sẽ học mỗi ngày cho đến khi đạt mục tiêu đỗ N2.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：目標[もくひょう]、達成[たっせい]できそう？ B：あと少[すこ]しです。最後[さいご]まで頑張[がんば]ります。",
+     "vi": "A: Có vẻ đạt mục tiêu không? B: Còn chút nữa thôi ạ. Tôi sẽ cố đến cùng.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "目標[もくひょう]を達成[たっせい]する",
+     "vi": "đạt mục tiêu"
+    },
+    {
+     "jp": "ノルマを達成[たっせい]する",
+     "vi": "đạt chỉ tiêu"
+    }
+   ],
+   "rel": [
+    "v:達する:たっする"
+   ],
+   "note": "達成感[たっせいかん] = cảm giác thành tựu."
+  },
+  {
+   "id": "v:達成率:たっせいりつ",
+   "kana": "たっせいりつ",
+   "kanji": "達成率",
+   "hv": "ĐẠT THÀNH SUẤT",
+   "vi": "tỉ lệ hoàn thành (mục tiêu)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今月[こんげつ]の達成率[たっせいりつ]は、九十五[きゅうじゅうご]パーセントでした。",
+     "vi": "Tỉ lệ hoàn thành tháng này là chín mươi lăm phần trăm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "貯金[ちょきん]の達成率[たっせいりつ]は、まだ半分[はんぶん]くらいだ。",
+     "vi": "Mục tiêu tiết kiệm mới hoàn thành được khoảng một nửa.",
+     "ctx": "doisong"
+    }
+   ]
+  },
+  {
+   "id": "v:妥当:だとう",
+   "kana": "だとう",
+   "kanji": "妥当",
+   "hv": "THỎA ĐÁNG",
+   "vi": "thỏa đáng, hợp lẽ",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "品質[ひんしつ]を考[かんが]えれば、その値段[ねだん]は妥当[だとう]だと思[おも]う。",
+     "vi": "Xét chất lượng thì giá đó là thỏa đáng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "班[はん]長[ちょう]の判断[はんだん]は、妥当[だとう]だったと思[おも]います。",
+     "vi": "Tôi nghĩ phán đoán của tổ trưởng là thỏa đáng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この目標[もくひょう]、高[たか]すぎない？ B：去年[きょねん]の実績[じっせき]から見[み]ると、妥当[だとう]な数字[すうじ]だよ。",
+     "vi": "A: Mục tiêu này có cao quá không? B: Nhìn từ thành tích năm ngoái thì là con số hợp lẽ mà.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "判断[はんだん]",
+     "vi": "phán đoán"
+    },
+    {
+     "jp": "値段[ねだん]",
+     "vi": "giá"
+    },
+    {
+     "jp": "方法[ほうほう]",
+     "vi": "cách làm"
+    }
+   ],
+   "ant": [
+    {
+     "w": "不当[ふとう]",
+     "vi": "bất hợp lý, không chính đáng"
+    }
+   ],
+   "note": "妥当性[だとうせい] = tính thỏa đáng."
+  },
+  {
+   "id": "v:的確:てきかく",
+   "kana": "てきかく",
+   "kanji": "的確",
+   "hv": "ĐÍCH XÁC",
+   "vi": "xác đáng, trúng trọng tâm",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Đánh giá",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "班長[はんちょう]は、いつも的確[てきかく]な指示[しじ]を出[だ]してくれる。",
+     "vi": "Tổ trưởng luôn đưa ra chỉ thị xác đáng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "医者[いしゃ]の的確[てきかく]なアドバイスのおかげで、すぐ治[なお]った。",
+     "vi": "Nhờ lời khuyên trúng bệnh của bác sĩ mà tôi khỏi nhanh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：グエンさんの説明[せつめい]、分[わ]かりやすかったね。 B：うん、短[みじか]くて的確[てきかく]だった。",
+     "vi": "A: Lời giải thích của anh Nguyễn dễ hiểu nhỉ. B: Ừ, ngắn mà trúng ý.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "指示[しじ]",
+     "vi": "chỉ thị"
+    },
+    {
+     "jp": "判断[はんだん]",
+     "vi": "phán đoán"
+    },
+    {
+     "jp": "答[こた]え",
+     "vi": "câu trả lời"
+    }
+   ],
+   "confuse": [
+    "v:正確:せいかく"
+   ],
+   "note": "的確[てきかく] = đúng chỗ, trúng trọng tâm (chỉ thị, phán đoán); 正確[せいかく] = chính xác, không sai lệch (số liệu, giờ giấc)."
+  }
+ ]
 }

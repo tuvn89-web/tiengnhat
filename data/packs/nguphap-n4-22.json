@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -233,6 +233,16 @@
      ],
      "ans": 0,
      "why": "Hướng dẫn xử lý tình huống (trang trọng) → 場合[ばあい]は."
+    },
+    {
+     "q": "Trong buổi tập huấn phòng cháy, anh Nguyễn phổ biến cho người mới: nếu có động đất thì tập trung ở bãi đỗ xe.",
+     "opts": [
+      "地震[じしん]場合[ばあい]は、駐車場[ちゅうしゃじょう]に集[あつ]まってください。",
+      "地震[じしん]の場合[ばあい]は、駐車場[ちゅうしゃじょう]に集[あつ]まってください。",
+      "地震[じしん]な場合[ばあい]は、駐車場[ちゅうしゃじょう]に集[あつ]まってください。"
+     ],
+     "ans": 1,
+     "why": "Trường hợp có thể xảy ra, lời dặn trang trọng → danh từ + の + 場合[ばあい]は. Danh từ không nối thẳng, cũng không thêm な."
     }
    ],
    "shift": [
@@ -467,6 +477,16 @@
      ],
      "ans": 0,
      "why": "Xin phép người trên → lý do bằng ので + 〜させていただけませんか."
+    },
+    {
+     "q": "Anh Nguyễn gọi điện cho phòng khám xin đổi lịch hẹn, nói lịch sự: thứ bảy tôi phải đi làm nên xin đổi lịch.",
+     "opts": [
+      "土曜日[どようび]は仕事[しごと]だので、予約[よやく]を変[か]えていただけませんか。",
+      "土曜日[どようび]は仕事[しごと]なのに、予約[よやく]を変[か]えていただけませんか。",
+      "土曜日[どようび]は仕事[しごと]なので、予約[よやく]を変[か]えていただけませんか。"
+     ],
+     "ans": 2,
+     "why": "Nêu lý do mềm, lịch sự → ので; danh từ + なので. 仕事[しごと]だので sai cách nối; のに là \"thế mà\", không dùng để nêu lý do."
     }
    ],
    "shift": [
@@ -685,6 +705,16 @@
      ],
      "ans": 0,
      "why": "Chưa chắc → かもしれません."
+    },
+    {
+     "q": "Trong phòng thay đồ có một chiếc ô ai đó để quên. Anh Nguyễn nói với tổ trưởng: có lẽ là của chị Tanaka.",
+     "opts": [
+      "この傘[かさ]、田中[たなか]さんのだかもしれません。",
+      "この傘[かさ]、田中[たなか]さんのかもしれません。",
+      "この傘[かさ]、田中[たなか]さんのかもしれます。"
+     ],
+     "ans": 1,
+     "why": "Không chắc, chỉ là khả năng → かもしれません; danh từ nối thẳng, không thêm だ. Không có dạng かもしれます."
     }
    ],
    "shift": [

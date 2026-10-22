@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 3,
+  "version": 4,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -216,6 +216,16 @@
      ],
      "ans": 0,
      "why": "Chuyển lời trong công việc → とのことです."
+    },
+    {
+     "q": "Anh Nguyễn cùng bạn cùng phòng xem lịch: thứ hai tuần sau là ngày lễ. Anh kết luận: tức là mình được nghỉ ba ngày liền nhỉ.",
+     "opts": [
+      "来週[らいしゅう]の月曜日[げつようび]は祝日[しゅくじつ]だから、三連休[さんれんきゅう]とのことだね。",
+      "来週[らいしゅう]の月曜日[げつようび]は祝日[しゅくじつ]だから、三連休[さんれんきゅう]というものだね。",
+      "来週[らいしゅう]の月曜日[げつようび]は祝日[しゅくじつ]だから、三連休[さんれんきゅう]ということだね。"
+     ],
+     "ans": 2,
+     "why": "Nghĩa \"tức là\" (tự kết luận) → ということだ. とのことだ chỉ dùng để chuyển lời người khác; というものだ là nghĩa khác."
     }
    ],
    "shift": [
@@ -434,6 +444,16 @@
      ],
      "ans": 0,
      "why": "Hỏi định nghĩa → って."
+    },
+    {
+     "q": "Tan ca, anh Nguyễn chuyển lời cho bạn cùng phòng (thân): tổ trưởng bảo mai được nghỉ đấy.",
+     "opts": [
+      "班長[はんちょう]が、明日[あした]は休[やす]みだっけ。",
+      "班長[はんちょう]が、明日[あした]は休[やす]みだって。",
+      "班長[はんちょう]が、明日[あした]は休[やす]みとのことでございます。"
+     ],
+     "ans": 1,
+     "why": "Chuyển lời nghe được, nói thân → thể thường + って: 休[やす]みだって. だっけ là hỏi lại điều mình quên; とのことでございます quá trang trọng với bạn."
     }
    ],
    "shift": [
@@ -646,6 +666,16 @@
      ],
      "ans": 0,
      "why": "Hỏi lại điều đã biết, lịch sự → でしたっけ."
+    },
+    {
+     "q": "Anh Nguyễn hỏi bạn cùng phòng (thân): ngày đổ rác nhựa là thứ mấy ấy nhỉ? Anh đã biết rồi nhưng quên mất.",
+     "opts": [
+      "プラスチックごみの日[ひ]って、何曜日[なんようび]だっけ。",
+      "プラスチックごみの日[ひ]って、何曜日[なんようび]っけ。",
+      "プラスチックごみの日[ひ]って、何曜日[なんようび]よね。"
+     ],
+     "ans": 0,
+     "why": "Hỏi lại điều đã biết mà quên → だっけ. Danh từ phải có だ trước っけ; よね dùng khi mình đã khá chắc."
     }
    ],
    "shift": [

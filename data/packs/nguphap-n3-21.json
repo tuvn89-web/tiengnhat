@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -218,6 +218,16 @@
      ],
      "ans": 0,
      "why": "Lẽ phải, mạnh → thể từ điển + べきだ."
+    },
+    {
+     "q": "Kho lạnh bị hỏng nhiệt độ, một thùng cá phải bỏ. Anh Nguyễn nhận lỗi với tổ trưởng: lẽ ra tôi phải kiểm tra nhiệt độ sớm hơn.",
+     "opts": [
+      "もっと早[はや]く温度[おんど]を確認[かくにん]したべきでした。",
+      "もっと早[はや]く温度[おんど]を確認[かくにん]しべきでした。",
+      "もっと早[はや]く温度[おんど]を確認[かくにん]するべきでした。"
+     ],
+     "ans": 2,
+     "why": "Lẽ ra nên (tiếc vì đã không làm) → thể từ điển + べきでした. Không dùng thể た hay thân ます trước べき."
     }
    ],
    "shift": [
@@ -447,6 +457,16 @@
      ],
      "ans": 0,
      "why": "Trả lời khéo, miễn cưỡng → ないことはない."
+    },
+    {
+     "q": "Bạn người Nhật ở lớp tiếng Nhật hỏi anh Nguyễn ăn natto được không. Anh trả lời khéo: không phải là không ăn được, nhưng không thích lắm.",
+     "opts": [
+      "食[た]べられないわけがないけど、あまり好[す]きじゃないんだ。",
+      "食[た]べられることはないけど、あまり好[す]きじゃないんだ。",
+      "食[た]べられないことはないけど、あまり好[す]きじゃないんだ。"
+     ],
+     "ans": 2,
+     "why": "Không phải không… (miễn cưỡng) → thể ない + ことはない. 食[た]べられることはない là \"chẳng bao giờ ăn được\"; わけがない là \"không đời nào\", quá mạnh."
     }
    ],
    "shift": [
@@ -675,6 +695,16 @@
      ],
      "ans": 0,
      "why": "May mà khỏi phải → 〜ずに済[す]んだ."
+    },
+    {
+     "q": "Bị trượt ngã ở xưởng, anh Nguyễn đi khám về rồi báo tổ trưởng: vết thương nhẹ nên may là không phải nhập viện.",
+     "opts": [
+      "けがは軽[かる]かったので、入院[にゅういん]せずに済[す]みました。",
+      "けがは軽[かる]かったので、入院[にゅういん]しずに済[す]みました。",
+      "けがは軽[かる]かったので、入院[にゅういん]しないずに済[す]みました。"
+     ],
+     "ans": 0,
+     "why": "May mà không phải làm → ずに済[す]む; する đổi thành せずに. しずに chia sai; không giữ ない trước ずに."
     }
    ],
    "shift": [

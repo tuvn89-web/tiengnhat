@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -235,6 +235,16 @@
      ],
      "ans": 0,
      "why": "Cụm khiêm tốn cố định trong phát biểu → 微力[びりょく]ながら. のに mang ý trách móc, bất mãn (không hợp lời khiêm tốn); なながら sai dạng."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) viết bài cho bản tin nội bộ khen một nhân viên: tuy là người mới, cậu Minh đã đề xuất cách cải tiến quy trình.",
+     "opts": [
+      "ミンさんは新人[しんじん]のながらも、作業[さぎょう]手順[てじゅん]の改善案[かいぜんあん]を提案[ていあん]した。",
+      "ミンさんは新人[しんじん]ながらも、作業[さぎょう]手順[てじゅん]の改善案[かいぜんあん]を提案[ていあん]した。",
+      "ミンさんは新人[しんじん]なながらも、作業[さぎょう]手順[てじゅん]の改善案[かいぜんあん]を提案[ていあん]した。"
+     ],
+     "ans": 1,
+     "why": "Tuy… nhưng (văn viết, cùng chủ ngữ) → Danh từ + ながらも, gắn thẳng. Không thêm の hay な trước ながらも."
     }
    ],
    "shift": [
@@ -485,6 +495,16 @@
      ],
      "ans": 0,
      "why": "Thừa nhận A (đơn ít) rồi nhắc B ngược kỳ vọng → thể thường + とはいえ. とはいえば / とはいって sai dạng (いえ không chia)."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) nhắc một thực tập sinh năm thứ ba: tuy đã quen việc rồi, nhưng không được chủ quan.",
+     "opts": [
+      "仕事[しごと]に慣[な]れましたとはいえ、油断[ゆだん]は禁物[きんもつ]です。",
+      "仕事[しごと]に慣[な]れたとはいえ、油断[ゆだん]は禁物[きんもつ]です。",
+      "仕事[しごと]に慣[な]れたとはいえ、もう安心[あんしん]です。"
+     ],
+     "ans": 1,
+     "why": "Thừa nhận A rồi nói ý ngược → thể thường + とはいえ. Không dùng thể ます trước とはいえ; vế sau phải trái chiều với điều suy ra từ A."
     }
    ],
    "shift": [
@@ -731,6 +751,16 @@
      ],
      "ans": 0,
      "why": "Nội quy văn viết, \"dù là A cũng phải…\" → danh từ + といえども. というども sai dạng; だけあって = quả đúng là… (khen, sai nghĩa)."
+    },
+    {
+     "q": "Trong buổi đào tạo an toàn, anh Nguyễn (chủ nhiệm) nói trang trọng: dù là người lâu năm cũng có lúc mắc lỗi, vì vậy cần kiểm tra chéo.",
+     "opts": [
+      "ベテランといえども、ミスをするはずがありません。だからダブルチェックが必要[ひつよう]です。",
+      "ベテランだけあって、ミスをすることはあります。だからダブルチェックが必要[ひつよう]です。",
+      "ベテランといえども、ミスをすることはあります。だからダブルチェックが必要[ひつよう]です。"
+     ],
+     "ans": 2,
+     "why": "Dù là A (tưởng là ngoại lệ) cũng… → Danh từ + といえども + vế trái chiều. Vế sau cùng chiều (はずがない) là sai mẫu; だけあって dùng để khen."
     }
    ],
    "shift": [

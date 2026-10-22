@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -230,6 +230,16 @@
      ],
      "ans": 0,
      "why": "Giả định → としたら."
+    },
+    {
+     "q": "Giờ nghỉ, đồng nghiệp kể nghe đồn sang năm được tăng lương. Anh Nguyễn nói: nếu chuyện đó là thật thì vui quá nhỉ.",
+     "opts": [
+      "その話[はなし]が本当[ほんとう]だとしても、うれしいですね。",
+      "その話[はなし]が本当[ほんとう]だとしたら、うれしいですね。",
+      "その話[はなし]が本当[ほんとう]だとしては、うれしいですね。"
+     ],
+     "ans": 1,
+     "why": "Giả sử… thì (hệ quả) → 本当[ほんとう]だとしたら. としても là \"dù giả sử… vẫn\", ngược ý; としては là \"với tư cách / về phía\"."
     }
    ],
    "shift": [
@@ -456,6 +466,16 @@
      ],
      "ans": 0,
      "why": "Điều kiện tối thiểu → さえ〜ば."
+    },
+    {
+     "q": "Anh Nguyễn chỉ người mới cách dùng máy hút chân không mới: chỉ cần bấm nút này là máy tự làm hết phần còn lại.",
+     "opts": [
+      "このボタンを押[お]しさえすれば、あとは機械[きかい]が全部[ぜんぶ]やってくれます。",
+      "このボタンを押[お]すさえすれば、あとは機械[きかい]が全部[ぜんぶ]やってくれます。",
+      "このボタンを押[お]しさえなら、あとは機械[きかい]が全部[ぜんぶ]やってくれます。"
+     ],
+     "ans": 0,
+     "why": "Điều kiện tối thiểu với động từ → thân ます + さえすれば: 押[お]しさえすれば. Không dùng thể từ điển trước さえ; vế điều kiện phải ở thể ば."
     }
    ],
    "shift": [
@@ -649,6 +669,16 @@
      ],
      "ans": 0,
      "why": "Tiếc nuối việc đã qua → ばよかった."
+    },
+    {
+     "q": "Sáng sau tiệc, anh Nguyễn đau đầu, than với đồng nghiệp: giá mà tối qua đừng uống nhiều như thế.",
+     "opts": [
+      "昨日[きのう]、あんなに飲[の]めばよかった。",
+      "昨日[きのう]、あんなに飲[の]まないければよかった。",
+      "昨日[きのう]、あんなに飲[の]まなければよかった。"
+     ],
+     "ans": 2,
+     "why": "Tiếc vì đã làm → thể ない chia ば: 飲[の]まなければよかった. 飲[の]めばよかった là \"giá mà uống\", ngược ý; 飲[の]まないければ chia sai."
     }
    ],
    "shift": [

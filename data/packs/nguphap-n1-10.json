@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -236,6 +236,16 @@
      ],
      "ans": 0,
      "why": "Hễ việc xấu xảy ra là mọi thứ coi như hết → thể ば + それまでです. 置[お]くば sai cách chia; それからです = rồi từ đó mới bắt đầu (sai nghĩa)."
+    },
+    {
+     "q": "Cậu em khoe vừa lấy được chứng chỉ N2. Anh Nguyễn khuyên: có bằng gì đi nữa, không dùng thì cũng coi như bỏ.",
+     "opts": [
+      "いくら資格[しかく]を取[と]っても、使[つか]わないばそれまでだよ。",
+      "いくら資格[しかく]を取[と]っても、使[つか]わないまでだよ。",
+      "いくら資格[しかく]を取[と]っても、使[つか]わなければそれまでだよ。"
+     ],
+     "ans": 2,
+     "why": "Hễ chuyện xấu A xảy ra là công sức coi như mất → thể ば + それまでだ: 使[つか]わなければ. 使[つか]わないば chia sai; 使[つか]わないまでだ = \"chỉ việc không dùng\", sai nghĩa."
     }
    ],
    "shift": [
@@ -485,6 +495,16 @@
      ],
      "ans": 0,
      "why": "Đáp lời cảm ơn, \"chỉ là đã làm… thôi\" → た形[けい] + までです. するまでもない = không cần làm (sai nghĩa); までにです sai dạng."
+    },
+    {
+     "q": "Trưởng phòng hỏi nếu lần này không đạt chứng nhận vệ sinh thì sao. Anh Nguyễn (chủ nhiệm) đáp dứt khoát: thì chúng tôi chỉ việc chuẩn bị lại và thử lần nữa.",
+     "opts": [
+      "今回[こんかい]だめなら、また準備[じゅんび]して挑戦[ちょうせん]するまでです。",
+      "今回[こんかい]だめなら、また準備[じゅんび]して挑戦[ちょうせん]したまでです。",
+      "今回[こんかい]だめなら、また準備[じゅんび]して挑戦[ちょうせん]するまでもないです。"
+     ],
+     "ans": 0,
+     "why": "Không được thì chỉ việc… (dứt khoát) → thể từ điển + までだ. Thể た + までだ là \"chỉ là đã làm…\"; までもない = \"không cần đến mức\", sai nghĩa."
     }
    ],
    "shift": [
@@ -744,6 +764,16 @@
      ],
      "ans": 0,
      "why": "Đương nhiên đáng được… → て形[けい] + しかるべきだ. Không gắn sau 辞書形[じしょけい]; しかるべく là dạng trạng từ (= một cách thích đáng), không đi với だ."
+    },
+    {
+     "q": "Trong buổi họp xét khen thưởng, anh Nguyễn tiến cử một đàn em: cậu ấy chính là người đáng được đánh giá cao hơn nữa.",
+     "opts": [
+      "彼[かれ]こそ、もっと評価[ひょうか]されてしかるべきの人[ひと]です。",
+      "彼[かれ]こそ、もっと評価[ひょうか]されてしかるべき人[ひと]です。",
+      "彼[かれ]こそ、もっと評価[ひょうか]されるしかるべき人[ひと]です。"
+     ],
+     "ans": 1,
+     "why": "Đáng được…, đứng trước danh từ → thể て + しかるべき + Danh từ. Không thêm の; phải nối bằng thể て, không phải thể từ điển."
     }
    ],
    "shift": [

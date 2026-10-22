@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -223,6 +223,16 @@
      ],
      "ans": 0,
      "why": "Câu hỏi có/không lồng vào → thể thường + かどうか."
+    },
+    {
+     "q": "Ở quầy lễ tân bệnh viện, anh Nguyễn đưa thẻ bảo hiểm và nói: tôi không biết thẻ này còn dùng được hay không.",
+     "opts": [
+      "この保険証[ほけんしょう]がまだ使[つか]えますかどうか、分[わ]からないんですが。",
+      "この保険証[ほけんしょう]がまだ使[つか]えるかどうか、分[わ]からないんですが。",
+      "この保険証[ほけんしょう]がまだ何[なに]が使[つか]えるかどうか、分[わ]からないんですが。"
+     ],
+     "ans": 1,
+     "why": "Câu hỏi có/không lồng vào câu → thể thường + かどうか. Không dùng thể ます trước かどうか; có từ để hỏi (何[なに]) thì không dùng かどうか."
     }
    ],
    "shift": [
@@ -452,6 +462,16 @@
      ],
      "ans": 0,
      "why": "Câu hỏi có từ hỏi lồng vào → 〜か + 教[おし]えていただけませんか."
+    },
+    {
+     "q": "Trong phòng thay đồ, tổ trưởng hỏi sao anh Nguyễn chưa thay đồ. Anh nói: tôi không nhớ đã để chìa khóa tủ ở đâu.",
+     "opts": [
+      "ロッカーの鍵[かぎ]をどこに置[お]いたか、覚[おぼ]えていません。",
+      "ロッカーの鍵[かぎ]をどこに置[お]いたかどうか、覚[おぼ]えていません。",
+      "ロッカーの鍵[かぎ]をどこに置[お]きましたか、覚[おぼ]えていません。"
+     ],
+     "ans": 0,
+     "why": "Có từ để hỏi (どこ) lồng vào câu → thể thường + か. Có từ để hỏi thì không dùng かどうか; câu lồng không giữ thể ます."
     }
    ],
    "shift": [

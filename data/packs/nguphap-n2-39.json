@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Văn bản nội quy → động từ thể từ điển + ものとする."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) soạn thông báo về buổi tập huấn an toàn: người không trả lời trước hạn sẽ được coi là vắng mặt.",
+     "opts": [
+      "期限[きげん]までに返事[へんじ]がない場合[ばあい]は、欠席[けっせき]したものの。",
+      "期限[きげん]までに返事[へんじ]がない場合[ばあい]は、欠席[けっせき]したものとします。",
+      "期限[きげん]までに返事[へんじ]がない場合[ばあい]は、欠席[けっせき]したものなら。"
+     ],
+     "ans": 1,
+     "why": "Quy định \"coi như đã…\" trong văn bản → thể た + ものとします. ものの = \"tuy… nhưng\", ものなら = \"nếu mà…\", đều không kết câu quy định được."
     }
    ],
    "shift": [
@@ -486,6 +496,16 @@
      ],
      "ans": 0,
      "why": "Thông báo quyết định chính thức của tổ chức → こととします."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) viết thông báo gửi cả tổ: năm nay tiệc tất niên đã được quyết định hủy.",
+     "opts": [
+      "今年[ことし]の忘年会[ぼうねんかい]は、中止[ちゅうし]することにといたしました。",
+      "今年[ことし]の忘年会[ぼうねんかい]は、中止[ちゅうし]することでいたしました。",
+      "今年[ことし]の忘年会[ぼうねんかい]は、中止[ちゅうし]することといたしました。"
+     ],
+     "ans": 2,
+     "why": "Thông báo quyết định chính thức → thể từ điển + こととする (lịch sự: ことといたしました). Không trộn に với と; không dùng で."
     }
    ],
    "shift": [
@@ -729,6 +749,16 @@
      ],
      "ans": 0,
      "why": "Mốc kết thúc chính thức → danh từ + をもって (rất lịch sự: をもちまして)."
+    },
+    {
+     "q": "Anh Nguyễn viết email gửi khách hàng: kết quả kiểm tra vi sinh sẽ được thông báo bằng văn bản.",
+     "opts": [
+      "検査[けんさ]の結果[けっか]は、書面[しょめん]をもってお知[し]らせいたします。",
+      "検査[けんさ]の結果[けっか]は、書面[しょめん]にもってお知[し]らせいたします。",
+      "検査[けんさ]の結果[けっか]は、書面[しょめん]をもとにお知[し]らせいたします。"
+     ],
+     "ans": 0,
+     "why": "Bằng (phương tiện), rất trang trọng → Danh từ + をもって. Trợ từ là を, không phải に; をもとに = \"dựa trên\", sai nghĩa."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "Đi trước toàn ngành, giọng tự hào trong văn bản → 業界[ぎょうかい]に先駆[さきが]けて + động từ. Trợ từ phải là に; 先駆[さきが]けると sai dạng."
+    },
+    {
+     "q": "Anh Nguyễn viết bài cho bản tin công ty: xưởng chúng ta đã đưa vào hệ thống ghi nhiệt độ tự động, đi trước các xưởng khác trong tỉnh.",
+     "opts": [
+      "当[とう]工場[こうじょう]は県[けん]内[ない]の他[た]工場[こうじょう]を先駆[さきが]けて、温度[おんど]の自動[じどう]記録[きろく]システムを導入[どうにゅう]した。",
+      "当[とう]工場[こうじょう]は県[けん]内[ない]の他[た]工場[こうじょう]に先立[さきだ]って、温度[おんど]の自動[じどう]記録[きろく]システムを導入[どうにゅう]した。",
+      "当[とう]工場[こうじょう]は県[けん]内[ない]の他[た]工場[こうじょう]に先駆[さきが]けて、温度[おんど]の自動[じどう]記録[きろく]システムを導入[どうにゅう]した。"
+     ],
+     "ans": 2,
+     "why": "Đi trước, tiên phong so với nơi khác → Danh từ + に先駆[さきが]けて (tự động từ, đi với に). に先立[さきだ]って = \"trước khi (một sự kiện)\", không có ý so với người khác."
     }
    ],
    "shift": [
@@ -476,6 +486,16 @@
      ],
      "ans": 0,
      "why": "Trước danh từ (商品[しょうひん]) → を前提[ぜんてい]とした; trợ từ phải là を. を前提[ぜんてい]として không đứng trực tiếp trước danh từ."
+    },
+    {
+     "q": "Phỏng vấn tuyển người, anh Nguyễn (chủ nhiệm) giải thích với ứng viên: chúng tôi tuyển với tiền đề là anh sẽ làm việc lâu dài.",
+     "opts": [
+      "長[なが]く働[はたら]いてもらうを前提[ぜんてい]として、採用[さいよう]しています。",
+      "長[なが]く働[はたら]いてもらうことを前提[ぜんてい]として、採用[さいよう]しています。",
+      "長[なが]く働[はたら]いてもらうことに前提[ぜんてい]として、採用[さいよう]しています。"
+     ],
+     "ans": 1,
+     "why": "Lấy… làm tiền đề → động từ + ことを前提[ぜんてい]として. Không gắn thẳng động từ; trợ từ là を, không phải に."
     }
    ],
    "shift": [
@@ -725,6 +745,16 @@
      ],
      "ans": 0,
      "why": "Lợi dụng hoàn cảnh để làm việc sai → 〜のをいいことに. Sau mệnh đề phải có の; trợ từ là を, không phải に."
+    },
+    {
+     "q": "Anh Nguyễn kể với vợ về cậu con nhà hàng xóm: lợi dụng lúc bố mẹ đi vắng, nó rủ bạn về ồn ào đến nửa đêm.",
+     "opts": [
+      "隣[となり]の息子[むすこ]さん、親[おや]の留守[るす]をいいことに、夜中[よなか]まで友達[ともだち]と騒[さわ]いでいたよ。",
+      "隣[となり]の息子[むすこ]さん、親[おや]の留守[るす]にいいことに、夜中[よなか]まで友達[ともだち]と騒[さわ]いでいたよ。",
+      "隣[となり]の息子[むすこ]さん、親[おや]の留守[るす]をいいことに、家[いえ]の掃除[そうじ]を手伝[てつだ]っていたよ。"
+     ],
+     "ans": 0,
+     "why": "Lợi dụng hoàn cảnh để làm việc xấu → Danh từ + をいいことに. Trợ từ là を; vế sau là việc tốt thì không hợp mẫu."
     }
    ],
    "shift": [

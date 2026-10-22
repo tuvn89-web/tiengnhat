@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Gác chuyện đùa để vào chuyện chính → 冗談[じょうだん]はさておき. Không dùng が; はおろか = \"đừng nói A, ngay cả B cũng…\", sai nghĩa."
+    },
+    {
+     "q": "Ngày đầu tiên của lứa thực tập sinh mới, anh Nguyễn (chủ nhiệm) dặn: trước hết, việc gì cũng để sau, các bạn phải thuộc quy tắc an toàn đã.",
+     "opts": [
+      "何[なに]がさておき、まず安全[あんぜん]のルールを覚[おぼ]えてください。",
+      "何[なに]はさておき、まず安全[あんぜん]のルールを覚[おぼ]えてください。",
+      "何[なに]はさておく、まず安全[あんぜん]のルールを覚[おぼ]えてください。"
+     ],
+     "ans": 1,
+     "why": "Trước hết, trên hết mọi việc → cụm cố định 何[なに]はさておき. Không dùng が; giữa câu dùng さておき, không dùng thể kết thúc さておく."
     }
    ],
    "shift": [
@@ -472,6 +482,16 @@
      ],
      "ans": 0,
      "why": "としたところで + vế tiêu cực (lỗi không giảm). Vế sau tích cực \"chắc chắn giảm\" không hợp với mẫu; ところに = đúng lúc, sai nghĩa."
+    },
+    {
+     "q": "Đàn em nhờ anh Nguyễn đổi ca giúp ngay trong ngày. Anh giải thích: dù tôi là chủ nhiệm đi nữa cũng không thể tự ý đổi ca được.",
+     "opts": [
+      "主任[しゅにん]の私[わたし]としたところで、勝手[かって]にシフトを変[か]えることはできないんだ。",
+      "主任[しゅにん]の私[わたし]としたところに、勝手[かって]にシフトを変[か]えることはできないんだ。",
+      "主任[しゅにん]の私[わたし]としたところで、自由[じゆう]にシフトを変[か]えられるよ。"
+     ],
+     "ans": 0,
+     "why": "Dù là (lập trường) … thì cũng không… → Danh từ + としたところで + vế tiêu cực. ところに = \"đúng lúc\", sai nghĩa; vế sau tích cực là sai mẫu."
     }
    ],
    "shift": [
@@ -721,6 +741,16 @@
      ],
      "ans": 0,
      "why": "Khuynh hướng dễ xảy ra → ともすると + 〜がちです. ともなると phải đứng sau danh từ; ともすると không đi với ý định chắc chắn (必[かなら]ず〜つもりです)."
+    },
+    {
+     "q": "Anh Nguyễn viết bài cho bản tin của hội người Việt: sống ở Nhật lâu, trẻ con dễ có xu hướng quên tiếng Việt.",
+     "opts": [
+      "日本[にほん]に長[なが]く住[す]んでいると、子[こ]どもはともなるとベトナム語[ご]を忘[わす]れがちになる。",
+      "日本[にほん]に長[なが]く住[す]んでいると、子[こ]どもはともするとベトナム語[ご]を必[かなら]ず覚[おぼ]えるつもりだ。",
+      "日本[にほん]に長[なが]く住[す]んでいると、子[こ]どもはともするとベトナム語[ご]を忘[わす]れがちになる。"
+     ],
+     "ans": 2,
+     "why": "Dễ có khuynh hướng (xấu) → phó từ ともすると + 〜がちだ. ともなると = \"đã đến mức…\", sai từ; vế sau không được là ý định chắc chắn."
     }
    ],
    "shift": [

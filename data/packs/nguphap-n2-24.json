@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -232,6 +232,16 @@
      ],
      "ans": 0,
      "why": "Buộc phải (do hoàn cảnh, bất đắc dĩ) → ざるを得[え]ません. ずにはいられない = không kìm được cảm xúc — sai nghĩa; 止[と]めるざる: sai thể."
+    },
+    {
+     "q": "Bạn rủ anh Nguyễn đi câu cá cuối tuần. Anh tiếc nuối: công ty yêu cầu nên tôi buộc phải đi công tác cuối tuần này.",
+     "opts": [
+      "会社[かいしゃ]の命令[めいれい]だから、週末[しゅうまつ]も出張[しゅっちょう]しざるを得[え]ないんだ。",
+      "会社[かいしゃ]の命令[めいれい]だから、週末[しゅうまつ]も出張[しゅっちょう]せざるを得[え]ないんだ。",
+      "会社[かいしゃ]の命令[めいれい]だから、週末[しゅうまつ]も出張[しゅっちょう]せずにはいられないんだ。"
+     ],
+     "ans": 1,
+     "why": "Buộc phải (do hoàn cảnh, trái ý) → する đổi thành せざるを得[え]ない. しざる là chia sai; ずにはいられない = \"không kìm được (cảm xúc)\", sai nghĩa."
     }
    ],
    "shift": [
@@ -464,6 +474,16 @@
      ],
      "ans": 0,
      "why": "Không kìm được (cảm xúc) → せずにはいられない (する → せず)."
+    },
+    {
+     "q": "Anh Nguyễn kể với đồng nghiệp: thấy người mới cầm dao rất nguy hiểm, tôi không kìm được mà phải nhắc ngay.",
+     "opts": [
+      "新人[しんじん]の危[あぶ]ない包丁[ほうちょう]の使[つか]い方[かた]を見[み]て、注意[ちゅうい]しないにはいられなかった。",
+      "新人[しんじん]の危[あぶ]ない包丁[ほうちょう]の使[つか]い方[かた]を見[み]て、注意[ちゅうい]しずにはいられなかった。",
+      "新人[しんじん]の危[あぶ]ない包丁[ほうちょう]の使[つか]い方[かた]を見[み]て、注意[ちゅうい]せずにはいられなかった。"
+     ],
+     "ans": 2,
+     "why": "Không kìm được → する đổi thành せずにはいられない. しず là chia sai; không ghép ない với には (lẫn hai mẫu)."
     }
    ],
    "shift": [
@@ -701,6 +721,16 @@
      ],
      "ans": 0,
      "why": "Không thể không (cảm xúc) → thể ない + ではいられない. ないには: sai trợ từ; bỏ ない: sai thể."
+    },
+    {
+     "q": "Ở tiệc chia tay, anh Nguyễn kể với giám đốc xưởng (lịch sự): nghe anh Tanaka kể chuyện hồi mới vào nghề, tôi không nhịn được cười.",
+     "opts": [
+      "田中[たなか]さんの話[はなし]を聞[き]いて、笑[わら]わないではいられませんでした。",
+      "田中[たなか]さんの話[はなし]を聞[き]いて、笑[わら]わずではいられませんでした。",
+      "田中[たなか]さんの話[はなし]を聞[き]いて、笑[わら]わではいられませんでした。"
+     ],
+     "ans": 0,
+     "why": "Không nhịn được → thể ない giữ nguyên + ではいられない: 笑[わら]わないでは. Không ghép ず với では; không bỏ ない."
     }
    ],
    "shift": [

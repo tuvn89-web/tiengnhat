@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Xác nhận xong rồi mới → の上[うえ]で (trang trọng)."
+    },
+    {
+     "q": "Anh Nguyễn đi thuê nhà mới. Nhân viên công ty bất động sản đưa hợp đồng, anh nói: tôi sẽ đọc kỹ hợp đồng rồi mới ký.",
+     "opts": [
+      "契約書[けいやくしょ]をよく読[よ]む上[うえ]で、サインします。",
+      "契約書[けいやくしょ]をよく読[よ]んだ上[うえ]で、サインします。",
+      "契約書[けいやくしょ]をよく読[よ]んだ上[うえ]に、サインします。"
+     ],
+     "ans": 1,
+     "why": "Làm xong A (cẩn thận) rồi mới B → thể た + 上[うえ]で: 読[よ]んだ上[うえ]で. 読[よ]む上[うえ]で (thể từ điển) = \"trong việc đọc\"; 上[うえ]に = \"hơn nữa\"."
     }
    ],
    "shift": [
@@ -485,6 +495,16 @@
      ],
      "ans": 0,
      "why": "Thêm ưu điểm cùng chiều → 上[うえ]に. ので = vì… nên (gần ga nên rẻ: vô lý)."
+    },
+    {
+     "q": "Trong buổi họp xưởng, anh Nguyễn (tổ trưởng) báo cáo với trưởng phòng: máy đóng gói đã cũ, lại còn hay hỏng.",
+     "opts": [
+      "包装[ほうそう]機[き]は古[ふる]いのに、よく故障[こしょう]します。",
+      "包装[ほうそう]機[き]は古[ふる]い上[うえ]で、よく故障[こしょう]します。",
+      "包装[ほうそう]機[き]は古[ふる]い上[うえ]に、よく故障[こしょう]します。"
+     ],
+     "ans": 2,
+     "why": "Cộng thêm một ý cùng chiều (cũ + hay hỏng) → 上[うえ]に. のに = \"mặc dù\" (ý ngược, không hợp); 上[うえ]で = \"rồi mới / trong việc\"."
     }
    ],
    "shift": [
@@ -722,6 +742,16 @@
      ],
      "ans": 0,
      "why": "Một khi đã… thì phải → た上[うえ]は."
+    },
+    {
+     "q": "Vừa được bổ nhiệm làm chủ nhiệm, anh Nguyễn phát biểu trước cả tổ: một khi đã được giao vị trí này, tôi quyết tâm dốc hết sức.",
+     "opts": [
+      "主任[しゅにん]に任命[にんめい]された上[うえ]に、全力[ぜんりょく]を尽[つ]くすつもりです。",
+      "主任[しゅにん]に任命[にんめい]された上[うえ]は、全力[ぜんりょく]を尽[つ]くすつもりです。",
+      "主任[しゅにん]に任命[にんめい]される上[うえ]で、全力[ぜんりょく]を尽[つ]くすつもりです。"
+     ],
+     "ans": 1,
+     "why": "Một khi đã… thì (quyết tâm) → thể た + 上[うえ]は. 上[うえ]に = \"hơn nữa\"; 任命[にんめい]される上[うえ]で = \"trong việc được bổ nhiệm\", không phải \"một khi đã\"."
     }
    ],
    "shift": [

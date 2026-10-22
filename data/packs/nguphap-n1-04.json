@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Mốc chấm dứt → を限[かぎ]りに + 終了[しゅうりょう]. に限[かぎ]り = chỉ riêng (nghe như chỉ cuối tháng mới ngừng). を限[かぎ]りに không đi với 開始[かいし] (bắt đầu)."
+    },
+    {
+     "q": "Sau lần khám sức khỏe định kỳ, anh Nguyễn tuyên bố với đồng nghiệp: hết hôm nay là tôi bỏ thuốc lá.",
+     "opts": [
+      "今日[きょう]を限[かぎ]りに、たばこをやめる！",
+      "今日[きょう]に限[かぎ]り、たばこをやめる！",
+      "今日[きょう]に限[かぎ]りに、たばこをやめる！"
+     ],
+     "ans": 0,
+     "why": "Lấy làm mốc chấm dứt → Danh từ + を限[かぎ]りに. に限[かぎ]り = \"chỉ riêng hôm nay\" (mai lại hút); に限[かぎ]りに là ghép sai trợ từ."
     }
    ],
    "shift": [
@@ -477,6 +487,16 @@
      ],
      "ans": 0,
      "why": "Mốc chia trước – sau, vế sau là thay đổi → のを境[さかい]に. を最後[さいご]に = lần cuối (sau đó không còn) — sai nghĩa; động từ phải có の trước を境[さかい]に."
+    },
+    {
+     "q": "Bạn hỏi dạo này sao anh Nguyễn về nhà muộn. Anh đáp: từ khi lên chủ nhiệm, giờ về muộn hẳn.",
+     "opts": [
+      "主任[しゅにん]になったを境[さかい]に、帰[かえ]りがずっと遅[おそ]くなったんだ。",
+      "主任[しゅにん]になったのを限[かぎ]りに、帰[かえ]りがずっと遅[おそ]くなったんだ。",
+      "主任[しゅにん]になったのを境[さかい]に、帰[かえ]りがずっと遅[おそ]くなったんだ。"
+     ],
+     "ans": 2,
+     "why": "Mốc chia trước – sau, vế sau là thay đổi → động từ thể た + の + を境[さかい]に. Không bỏ の; を限[かぎ]りに là \"mốc chấm dứt\", sai nghĩa."
     }
    ],
    "shift": [
@@ -725,6 +745,16 @@
      ],
      "ans": 0,
      "why": "Lần cuối → を最後[さいご]に. を皮切[かわき]りに = mở màn cho một loạt việc (ngược nghĩa); trợ từ phải là を."
+    },
+    {
+     "q": "Đồng nghiệp hỏi thăm cậu bạn thực tập sinh đã về nước. Anh Nguyễn đáp: lần gặp ở sân bay năm ngoái là lần cuối, từ đó không liên lạc được.",
+     "opts": [
+      "去年[きょねん]空港[くうこう]で会[あ]ったのを最後[さいご]に、彼[かれ]とは連絡[れんらく]が取[と]れていない。",
+      "去年[きょねん]空港[くうこう]で会[あ]ったを最後[さいご]に、彼[かれ]とは連絡[れんらく]が取[と]れていない。",
+      "去年[きょねん]空港[くうこう]で会[あ]ったのを皮切[かわき]りに、彼[かれ]とは連絡[れんらく]が取[と]れていない。"
+     ],
+     "ans": 0,
+     "why": "Lần đó là lần cuối → thể た + の + を最後[さいご]に. Không bỏ の; を皮切[かわき]りに = \"mở đầu cho một chuỗi\", ngược nghĩa."
     }
    ],
    "shift": [

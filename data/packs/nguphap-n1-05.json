@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Đã đến vị trí cao ấy thì đương nhiên… → ともなると. にしては = so với… thì lại (trái mong đợi); ともすると = có khuynh hướng dễ… (đứng đầu câu, không gắn sau danh từ)."
+    },
+    {
+     "q": "Vợ hỏi sao tháng Mười Hai anh Nguyễn về muộn thế. Anh giải thích: đã đến cuối năm thì xưởng bận gấp đôi ngày thường.",
+     "opts": [
+      "年末[ねんまつ]にしては、工場[こうじょう]は普段[ふだん]の倍[ばい]忙[いそが]しくなるんだ。",
+      "年末[ねんまつ]ともすると、工場[こうじょう]は普段[ふだん]の倍[ばい]忙[いそが]しくなるんだ。",
+      "年末[ねんまつ]ともなると、工場[こうじょう]は普段[ふだん]の倍[ばい]忙[いそが]しくなるんだ。"
+     ],
+     "ans": 2,
+     "why": "Đã đến thời điểm đặc biệt thì đương nhiên… → Danh từ + ともなると. にしては = \"so với… thì lại\"; ともすると = \"dễ có khuynh hướng\", khác nghĩa."
     }
    ],
    "shift": [
@@ -485,6 +495,16 @@
      ],
      "ans": 0,
      "why": "Phát biểu trang trọng, nêu chuẩn mực của danh phận → たるもの. にしては = so với… thì lại; ならでは = chỉ… mới có (phải đi với の hoặc だ)."
+    },
+    {
+     "q": "Một nhân viên trẻ lại đi làm muộn. Anh Nguyễn (chủ nhiệm) nhắc với giọng răn dạy: đã là người đi làm thì phải giữ đúng giờ.",
+     "opts": [
+      "社会人[しゃかいじん]であるたるもの、時間[じかん]は守[まも]るべきだ。",
+      "社会人[しゃかいじん]たるもの、時間[じかん]は守[まも]るべきだ。",
+      "社会人[しゃかいじん]のたるもの、時間[じかん]は守[まも]るべきだ。"
+     ],
+     "ans": 1,
+     "why": "Đã mang danh phận ấy thì phải đạt chuẩn mực → Danh từ + たるもの. たる đã có nghĩa \"là\", nên không thêm である hay の."
     }
    ],
    "shift": [
@@ -720,6 +740,16 @@
      ],
      "ans": 0,
      "why": "Chỉ chúng tôi mới có → ならではの + danh từ. らしい không đi với の; thiếu の trước danh từ là sai."
+    },
+    {
+     "q": "Bạn ở Việt Nam sang chơi, anh Nguyễn dẫn đi ăn akashiyaki và giới thiệu: đây là đặc sản chỉ Akashi mới có.",
+     "opts": [
+      "明石焼[あかしや]きは、明石[あかし]ならでは名物[めいぶつ]だよ。",
+      "明石焼[あかしや]きは、明石[あかし]ならではの名物[めいぶつ]だよ。",
+      "明石焼[あかしや]きは、明石[あかし]で作[つく]るならではの名物[めいぶつ]だよ。"
+     ],
+     "ans": 1,
+     "why": "Thứ riêng chỉ A mới có → Danh từ + ならではの + Danh từ. Không bỏ の; ならでは chỉ gắn sau danh từ, không gắn sau động từ."
     }
    ],
    "shift": [

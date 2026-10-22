@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Cả tập thể cùng tham gia → ぐるみで. ずくで = bằng sức, bằng tiền (sai nghĩa); ぐるみ không có dạng ぐるみな."
+    },
+    {
+     "q": "Đàn em hỏi sao anh Nguyễn thân với nhà anh Tanaka thế. Anh đáp: hai nhà chơi thân với nhau cả gia đình.",
+     "opts": [
+      "田中[たなか]さんとは、家族[かぞく]ぐるみな付[つ]き合[あ]いをしているんだ。",
+      "田中[たなか]さんとは、家族[かぞく]ごとの付[つ]き合[あ]いをしているんだ。",
+      "田中[たなか]さんとは、家族[かぞく]ぐるみの付[つ]き合[あ]いをしているんだ。"
+     ],
+     "ans": 2,
+     "why": "Cả tập thể cùng tham gia, đứng trước danh từ → 家族[かぞく]ぐるみの + Danh từ. Không dùng な; 家族[かぞく]ごと = \"từng gia đình\", sai nghĩa."
     }
    ],
    "shift": [
@@ -477,6 +487,16 @@
      ],
      "ans": 0,
      "why": "Dùng sức ép, cưỡng ép → 力[ちから]ずくで. ぐるみ = cả tập thể; ずくめ = toàn là — đều sai nghĩa."
+    },
+    {
+     "q": "Anh Nguyễn kể với vợ chuyện cũ: chủ nhà trước định dùng tiền để ép gia đình mình dọn đi.",
+     "opts": [
+      "前[まえ]の大家[おおや]さんは、金[かね]ずくめで私[わたし]たちを追[お]い出[だ]そうとしたんだ。",
+      "前[まえ]の大家[おおや]さんは、金[かね]ずくで私[わたし]たちを追[お]い出[だ]そうとしたんだ。",
+      "前[まえ]の大家[おおや]さんは、金[かね]ぐるみで私[わたし]たちを追[お]い出[だ]そうとしたんだ。"
+     ],
+     "ans": 1,
+     "why": "Chỉ dựa vào tiền để ép buộc → 金[かね]ずくで. ずくめ = \"toàn là…\", ぐるみ = \"cả tập thể\", đều sai nghĩa."
     }
    ],
    "shift": [
@@ -714,6 +734,16 @@
      ],
      "ans": 0,
      "why": "Khoảng tuổi (số tròn) → 〜がらみの + người. ぐるみ = cả tập thể (sai nghĩa); trước danh từ không dùng な."
+    },
+    {
+     "q": "Anh Nguyễn khuyên cậu em đồng hương mới sang: nên cẩn thận với rắc rối dính đến tiền bạc giữa người quen.",
+     "opts": [
+      "知[し]り合[あ]い同士[どうし]の金[かね]がらみなトラブルには、気[き]をつけたほうがいいよ。",
+      "知[し]り合[あ]い同士[どうし]の金[かね]がらみのトラブルには、気[き]をつけたほうがいいよ。",
+      "知[し]り合[あ]い同士[どうし]の金[かね]ぐるみのトラブルには、気[き]をつけたほうがいいよ。"
+     ],
+     "ans": 1,
+     "why": "Dính líu đến tiền, đứng trước danh từ → 金[かね]がらみの + Danh từ. Không dùng な; ぐるみ = \"cả tập thể\", sai nghĩa."
     }
    ],
    "shift": [

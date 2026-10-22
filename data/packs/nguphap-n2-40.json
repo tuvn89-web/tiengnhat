@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -231,6 +231,16 @@
      ],
      "ans": 0,
      "why": "Động từ thể ます bỏ ます + がてら (行[い]きがてら)."
+    },
+    {
+     "q": "Chiều chủ nhật, anh Nguyễn nói với vợ: anh đi dạo, tiện thể ghé siêu thị mua sữa về.",
+     "opts": [
+      "散歩[さんぽ]がてら、スーパーで牛乳[ぎゅうにゅう]を買[か]ってくるよ。",
+      "散歩[さんぽ]するがてら、スーパーで牛乳[ぎゅうにゅう]を買[か]ってくるよ。",
+      "散歩[さんぽ]のがてら、スーパーで牛乳[ぎゅうにゅう]を買[か]ってくるよ。"
+     ],
+     "ans": 0,
+     "why": "Tiện thể (một chuyến đi làm luôn việc khác) → Danh từ hành động + がてら: 散歩[さんぽ]がてら. Không gắn thể từ điển; không chen の."
     }
    ],
    "shift": [
@@ -464,6 +474,16 @@
      ],
      "ans": 0,
      "why": "Tình hình gấp, không thể tiếp tục thong thả → thể て + はいられない."
+    },
+    {
+     "q": "Còn một tháng nữa là thi N2. Anh Nguyễn nói với bạn cùng phòng: không thể cứ chơi game mãi được nữa.",
+     "opts": [
+      "試験[しけん]まであと一[いっ]か月[げつ]だから、ゲームばかりしてはいらない。",
+      "試験[しけん]まであと一[いっ]か月[げつ]だから、ゲームばかりしてはいられない。",
+      "試験[しけん]まであと一[いっ]か月[げつ]だから、ゲームばかりせずにはいられない。"
+     ],
+     "ans": 1,
+     "why": "Tình hình không cho phép cứ… mãi → thể て + はいられない. いらない = \"không cần\" (sai từ); ずにはいられない = \"không nhịn được mà…\", ngược ý."
     }
    ],
    "shift": [
@@ -703,6 +723,16 @@
      ],
      "ans": 0,
      "why": "Từ chối lịch sự lời đề nghị → thể từ điển + には及[およ]びません."
+    },
+    {
+     "q": "Khách hàng gọi điện lo lắng hàng giao trễ. Hàng thật ra đã đến đúng hẹn, anh Nguyễn trấn an lịch sự: quý khách không cần phải lo ạ.",
+     "opts": [
+      "心配[しんぱい]することはないよ。予定[よてい]どおり届[とど]いているから。",
+      "心配[しんぱい]しないには及[およ]びません。予定[よてい]どおり届[とど]いております。",
+      "ご心配[しんぱい]には及[およ]びません。予定[よてい]どおり届[とど]いております。"
+     ],
+     "ans": 2,
+     "why": "Không cần (lịch sự với khách) → ご心配[しんぱい]には及[およ]びません. Không dùng thể ない trước には及[およ]ばない; câu thể thường \"心配[しんぱい]することはないよ\" không được nói với khách."
     }
    ],
    "shift": [

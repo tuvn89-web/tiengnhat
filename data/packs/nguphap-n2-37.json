@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Khen tài về một lĩnh vực → danh từ + にかけては + 誰[だれ]にも負[ま]けない."
+    },
+    {
+     "q": "Trưởng phòng hỏi ai trong tổ có thể phiên dịch khi khách nước ngoài đến. Anh Nguyễn (chủ nhiệm) đáp: về khoản hội thoại tiếng Nhật thì Minh giỏi nhất tổ.",
+     "opts": [
+      "日本語[にほんご]の会話[かいわ]をかけては、ミンさんが班[はん]で一番[いちばん]です。",
+      "日本語[にほんご]の会話[かいわ]にかけて、ミンさんが班[はん]で一番[いちばん]です。",
+      "日本語[にほんご]の会話[かいわ]にかけては、ミンさんが班[はん]で一番[いちばん]です。"
+     ],
+     "ans": 2,
+     "why": "Xét riêng về một khả năng (khen) → Danh từ + にかけては. Trợ từ là に, không phải を; にかけて (không は) là \"từ… đến…\" (phạm vi), sai nghĩa."
     }
    ],
    "shift": [
@@ -476,6 +486,16 @@
      ],
      "ans": 0,
      "why": "Đoán từ dấu hiệu nhìn thấy (ngáp) → thể thường + とみえて."
+    },
+    {
+     "q": "Anh Nguyễn báo với trưởng phòng: khách hàng có vẻ rất thích sản phẩm mới, nên đã đặt thêm hàng.",
+     "opts": [
+      "お客様[きゃくさま]は新商品[しんしょうひん]がよほど気[き]に入[い]ったにみえて、追加[ついか]で注文[ちゅうもん]してくださいました。",
+      "お客様[きゃくさま]は新商品[しんしょうひん]がよほど気[き]に入[い]ったとみえて、追加[ついか]で注文[ちゅうもん]してくださいました。",
+      "お客様[きゃくさま]は新商品[しんしょうひん]がよほど気[き]に入[い]ったをみえて、追加[ついか]で注文[ちゅうもん]してくださいました。"
+     ],
+     "ans": 1,
+     "why": "Đoán người khác từ dấu hiệu thấy được → thể thường + とみえて. Sau thể thường dùng と, không dùng に hay を."
     }
    ],
    "shift": [
@@ -711,6 +731,16 @@
      ],
      "ans": 0,
      "why": "Báo cáo (văn viết), phán đoán chắc chắn → danh từ (こと) + に相違[そうい]ない."
+    },
+    {
+     "q": "Anh Nguyễn điền tờ khai nộp cho Cục xuất nhập cảnh. Cuối tờ khai cần ghi câu cam đoan: nội dung trên là đúng sự thật.",
+     "opts": [
+      "上記[じょうき]の内容[ないよう]は、事実[じじつ]に相違[そうい]ありません。",
+      "上記[じょうき]の内容[ないよう]は、事実[じじつ]だに相違[そうい]ありません。",
+      "上記[じょうき]の内容[ないよう]は、事実[じじつ]を相違[そうい]ありません。"
+     ],
+     "ans": 0,
+     "why": "Cam đoan trên giấy tờ → Danh từ + に相違[そうい]ありません. Không thêm だ sau danh từ; trợ từ là に, không phải を."
     }
    ],
    "shift": [

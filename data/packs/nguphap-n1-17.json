@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "Nội quy áp dụng cho mọi trường hợp → A であれ B であれ. といい〜といい dùng để đánh giá; やら〜やら để than vãn, liệt kê bề bộn — không hợp với nội quy."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) giảng cho thực tập sinh mới: dù là cá hay tôm thì nguyên tắc cơ bản về quản lý nhiệt độ cũng như nhau.",
+     "opts": [
+      "魚[さかな]といいエビといい、温度[おんど]管理[かんり]の基本[きほん]は同[おな]じだ。",
+      "魚[さかな]であれエビであれ、温度[おんど]管理[かんり]の基本[きほん]は同[おな]じだ。",
+      "魚[さかな]であれエビであれ、魚[さかな]のほうが温度[おんど]管理[かんり]が難[むずか]しい。"
+     ],
+     "ans": 1,
+     "why": "Dù là A hay B thì vế sau đúng cho cả hai → A であれ B であれ. といい〜といい dùng để đánh giá một đối tượng; vế sau chọn một bên (魚[さかな]のほうが) là sai mẫu."
     }
    ],
    "shift": [
@@ -479,6 +489,16 @@
      ],
      "ans": 0,
      "why": "Khuyên chọn một trong các cách → thể từ điển + なり, hai vế cùng dạng. Không trộn たり với なり; なりに = theo cách riêng của… (sai nghĩa)."
+    },
+    {
+     "q": "Cậu em đồng hương than nhà thuê bị dột mà chủ nhà chưa sửa. Anh Nguyễn khuyên: gọi điện cho công ty quản lý hoặc đến thẳng văn phòng mà hỏi xem.",
+     "opts": [
+      "管理[かんり]会社[かいしゃ]に電話[でんわ]したなり、直接[ちょくせつ]事務所[じむしょ]に行[い]ったなりして聞[き]いてみたら？",
+      "管理[かんり]会社[かいしゃ]に電話[でんわ]するなり、直接[ちょくせつ]事務所[じむしょ]に行[い]ったりして聞[き]いてみたら？",
+      "管理[かんり]会社[かいしゃ]に電話[でんわ]するなり、直接[ちょくせつ]事務所[じむしょ]に行[い]くなりして聞[き]いてみたら？"
+     ],
+     "ans": 2,
+     "why": "Hoặc… hoặc… (khuyên, chọn cách nào cũng được) → thể từ điển + なり, lặp hai lần. Không dùng thể た trước なり; không trộn なり với たり."
     }
    ],
    "shift": [
@@ -728,6 +748,16 @@
      ],
      "ans": 0,
      "why": "Luân phiên vượt – bị vượt → thân ます + つ: 抜[ぬ]きつ抜[ぬ]かれつ. Không dùng thể từ điển; つつ là mẫu khác (vừa… vừa…)."
+    },
+    {
+     "q": "Anh Nguyễn viết bài cảm nghĩ cho bản tin công ty: hôm định xin nghỉ phép dài về quê, tôi cứ đi tới đi lui trước phòng giám đốc xưởng, mãi không dám gõ cửa.",
+     "opts": [
+      "工場長室[こうじょうちょうしつ]の前[まえ]を行[い]くつ戻[もど]るつして、なかなかノックできなかった。",
+      "工場長室[こうじょうちょうしつ]の前[まえ]を行[い]きつ戻[もど]りつして、なかなかノックできなかった。",
+      "工場長室[こうじょうちょうしつ]の前[まえ]を行[い]ったり戻[もど]りつして、なかなかノックできなかった。"
+     ],
+     "ans": 1,
+     "why": "Hai hành động ngược nhau thay phiên → thân ます + つ, lặp hai lần: 行[い]きつ戻[もど]りつ. Không dùng thể từ điển; không trộn たり với つ."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -230,6 +230,16 @@
      ],
      "ans": 0,
      "why": "Khiêm tốn \"theo cách, theo sức của tôi\" → 私[わたし]なりに + động từ. Không chen の; ごとく là \"như…\" (văn viết) và phải có の (のごとく), không mang nghĩa \"theo cách của tôi\"."
+    },
+    {
+     "q": "Người mới lo vì chưa làm được nhiều như các anh chị. Anh Nguyễn (chủ nhiệm) động viên: người mới thì cứ cố gắng theo sức của người mới, làm được gì thì làm.",
+     "opts": [
+      "新人[しんじん]は新人[しんじん]のなりに、できることをやればいいんだよ。",
+      "新人[しんじん]は新人[しんじん]にしては、できることをやればいいんだよ。",
+      "新人[しんじん]は新人[しんじん]なりに、できることをやればいいんだよ。"
+     ],
+     "ans": 2,
+     "why": "Theo sức, theo cách riêng (trong giới hạn) → AはAなりに. Không chen の; にしては = \"so với… thì bất ngờ\", sai nghĩa."
     }
    ],
    "shift": [
@@ -470,6 +480,16 @@
      ],
      "ans": 0,
      "why": "\"Cách làm y như xưa\" → 昔[むかし]ながらの + danh từ. Trước danh từ không dùng ながらに, và không có dạng ながらな."
+    },
+    {
+     "q": "Anh Nguyễn viết bài cho bản tin công ty về tiệc chia tay: cậu thực tập sinh Minh vừa khóc vừa nói lời cảm ơn mọi người.",
+     "opts": [
+      "実習生[じっしゅうせい]のミンさんは、泣[な]きながらに感謝[かんしゃ]の言葉[ことば]を述[の]べた。",
+      "実習生[じっしゅうせい]のミンさんは、涙[なみだ]ながらに感謝[かんしゃ]の言葉[ことば]を述[の]べた。",
+      "実習生[じっしゅうせい]のミンさんは、涙[なみだ]ながらで感謝[かんしゃ]の言葉[ことば]を述[の]べた。"
+     ],
+     "ans": 1,
+     "why": "Trong nước mắt (cụm cố định) → 涙[なみだ]ながらに. ながらに không ghép tự do với động từ thường (泣[な]きながらに ✗); không dùng で thay に."
     }
    ],
    "shift": [
@@ -709,6 +729,16 @@
      ],
      "ans": 0,
      "why": "Văn viết \"như…\" + vế câu → Nのごとく. Không bỏ の; ごとき chỉ đứng trước danh từ."
+    },
+    {
+     "q": "Phát biểu khi được bổ nhiệm chủ nhiệm, anh Nguyễn nói rất khiêm tốn: một người như tôi mà được giao trọng trách này, tôi thật áy náy.",
+     "opts": [
+      "私[わたし]ごときが主任[しゅにん]という大役[たいやく]をいただき、恐縮[きょうしゅく]しております。",
+      "私[わたし]ごとくが主任[しゅにん]という大役[たいやく]をいただき、恐縮[きょうしゅく]しております。",
+      "私[わたし]なりが主任[しゅにん]という大役[たいやく]をいただき、恐縮[きょうしゅく]しております。"
+     ],
+     "ans": 0,
+     "why": "Hạ thấp bản thân (khiêm tốn) → Người + ごとき (không の): 私[わたし]ごときが. ごとく là dạng trạng từ, không làm chủ ngữ; なり = \"theo sức mình\", không dùng như vậy."
     }
    ],
    "shift": [

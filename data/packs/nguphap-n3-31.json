@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -193,6 +193,16 @@
      ],
      "ans": 0,
      "why": "Hành động của khách (tôn kính) → お〜です."
+    },
+    {
+     "q": "Trước khi dẫn đoàn khách tham quan vào kho lạnh, anh Nguyễn hỏi rất lịch sự: quý khách có mang theo áo khoác không ạ?",
+     "opts": [
+      "上着[うわぎ]はお持[も]ちしますか。",
+      "上着[うわぎ]はお持[も]ちですか。",
+      "上着[うわぎ]はご持[も]ちですか。"
+     ],
+     "ans": 1,
+     "why": "Trạng thái của khách, tôn kính gọn → お + thân ます + です: お持[も]ちですか. お持[も]ちします là khiêm nhường (\"để tôi cầm giúp\"); từ thuần Nhật dùng お, không dùng ご."
     }
    ],
    "shift": [
@@ -419,6 +429,16 @@
      ],
      "ans": 0,
      "why": "Nhờ khách lịch sự → お〜いただけますか."
+    },
+    {
+     "q": "Anh Nguyễn viết email trả lời khách hàng đã kiểm tra lại đơn đặt hàng: cảm ơn quý khách đã xác nhận.",
+     "opts": [
+      "お確認[かくにん]いただき、ありがとうございます。",
+      "ご確認[かくにん]させていただき、ありがとうございます。",
+      "ご確認[かくにん]いただき、ありがとうございます。"
+     ],
+     "ans": 2,
+     "why": "Được khách làm cho, từ Hán → ご + danh từ + いただく: ご確認[かくにん]いただき. Từ Hán dùng ご, không dùng お; ご確認[かくにん]させていただき là \"tôi được phép xác nhận\", sai người làm."
     }
    ],
    "shift": [
@@ -622,6 +642,16 @@
      ],
      "ans": 0,
      "why": "Nói về phía mình, rất lịch sự → でございます."
+    },
+    {
+     "q": "Khách tham quan hỏi nhà vệ sinh ở đâu. Anh Nguyễn trả lời rất lịch sự: nhà vệ sinh ở tầng hai ạ.",
+     "opts": [
+      "お手洗[てあら]いは二階[にかい]にございます。",
+      "お手洗[てあら]いは二階[にかい]にいらっしゃいます。",
+      "お手洗[てあら]いは二階[にかい]におります。"
+     ],
+     "ans": 0,
+     "why": "Chỉ vị trí đồ vật, rất lịch sự → にございます (= にあります). いらっしゃいます là tôn kính cho người; おります là khiêm nhường cho người phía mình."
     }
    ],
    "shift": [

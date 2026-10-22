@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "Dù có… hay không → しようがしまいが (する → しまい). しないまい sai dạng; 〜まいか dùng khi phân vân \"nên làm hay không\" (しようかしまいか), không phải \"dù… hay không\"."
+    },
+    {
+     "q": "Đồng nghiệp hỏi mai mưa to thì có phải ra cảng nhận cá không. Anh Nguyễn (chủ nhiệm) đáp dứt khoát: mưa hay không mưa thì sáng mai vẫn phải đi.",
+     "opts": [
+      "雨[あめ]が降[ふ]ろうが降[ふ]らないまいが、明日[あした]の朝[あさ]は港[みなと]に魚[さかな]を受[う]け取[と]りに行[い]くよ。",
+      "雨[あめ]が降[ふ]ろうが降[ふ]るまいが、明日[あした]の朝[あさ]は港[みなと]に魚[さかな]を受[う]け取[と]りに行[い]くよ。",
+      "雨[あめ]が降[ふ]ろうが降[ふ]るまいが、雨[あめ]なら明日[あした]は行[い]かないよ。"
+     ],
+     "ans": 1,
+     "why": "Dù có… hay không → thể ý chí + が + thể từ điển + まいが: 降[ふ]ろうが降[ふ]るまいが. Không gắn まい sau thể ない; vế sau không được lại phụ thuộc vào chuyện mưa."
     }
    ],
    "shift": [
@@ -487,6 +497,16 @@
      ],
      "ans": 0,
      "why": "Thông báo, không có ngoại lệ → いかなる〜であろうと (văn viết; いかなる = どんな). であろうか = phỏng đoán dạng hỏi; không thêm だ trước であろうと."
+    },
+    {
+     "q": "Khách hàng lớn yêu cầu bỏ qua một bước kiểm tra để giao sớm. Anh Nguyễn (chủ nhiệm) dặn tổ: dù là khách hàng quan trọng đi nữa, yêu cầu trái tiêu chuẩn vệ sinh thì không nhận.",
+     "opts": [
+      "たとえ大切[たいせつ]なお客様[きゃくさま]であろうか、衛生[えいせい]基準[きじゅん]に反[はん]する依頼[いらい]はお受[う]けできません。",
+      "たとえ大切[たいせつ]なお客様[きゃくさま]だであろうと、衛生[えいせい]基準[きじゅん]に反[はん]する依頼[いらい]はお受[う]けできません。",
+      "たとえ大切[たいせつ]なお客様[きゃくさま]であろうと、衛生[えいせい]基準[きじゅん]に反[はん]する依頼[いらい]はお受[う]けできません。"
+     ],
+     "ans": 2,
+     "why": "Dù là… đi nữa (không ngoại lệ) → Danh từ + であろうと. であろうか = \"có lẽ là… chăng\"; không thêm だ trước であろうと."
     }
    ],
    "shift": [
@@ -727,6 +747,16 @@
      ],
      "ans": 0,
      "why": "Tả tình trạng phủ khắp → A といわず B といわず, hai vế cùng dạng. といえば = nhắc đến… thì (sai nghĩa); không trộn といわず với といい."
+    },
+    {
+     "q": "Thằng con chơi ngoài công viên về. Anh Nguyễn nói với vợ: nhìn kìa, cả mặt lẫn tay toàn là bùn.",
+     "opts": [
+      "見[み]て、顔[かお]といわず手[て]といわず泥[どろ]だらけだよ。",
+      "見[み]て、顔[かお]といい手[て]といい泥[どろ]だらけだよ。",
+      "見[み]て、顔[かお]といわず手[て]といい泥[どろ]だらけだよ。"
+     ],
+     "ans": 0,
+     "why": "Phủ khắp mọi chỗ → A といわず B といわず. といい〜といい dùng để đánh giá (khen / chê) một đối tượng; không trộn hai mẫu."
     }
    ],
    "shift": [

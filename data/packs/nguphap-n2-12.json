@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Chẳng những không A mà còn B (tệ hơn) → ないばかりか. ばかりに = chỉ vì; 謝[あやま]るばかりか = không những xin lỗi mà còn nổi cáu (vô lý)."
+    },
+    {
+     "q": "Vừa chuyển nhà, anh Nguyễn khoe với vợ qua điện thoại: căn hộ mới chẳng những gần ga, tiện lợi mà còn có cả chỗ đậu xe.",
+     "opts": [
+      "新[あたら]しい部屋[へや]は駅[えき]に近[ちか]くて便利[べんり]ばかりか、駐車場[ちゅうしゃじょう]まで付[つ]いているんだ。",
+      "新[あたら]しい部屋[へや]は駅[えき]に近[ちか]くて便利[べんり]なばかりか、駐車場[ちゅうしゃじょう]まで付[つ]いているんだ。",
+      "新[あたら]しい部屋[へや]は駅[えき]に近[ちか]くて便利[べんり]どころか、駐車場[ちゅうしゃじょう]まで付[つ]いているんだ。"
+     ],
+     "ans": 1,
+     "why": "A đúng, lại thêm B → ばかりか; tính từ な giữ な: 便利[べんり]なばかりか. どころか = \"đừng nói A, thực tế ngược lại\", sai nghĩa."
     }
    ],
    "shift": [
@@ -487,6 +497,16 @@
      ],
      "ans": 0,
      "why": "Văn viết, \"không chỉ… mà cả…\" → danh từ + のみならず (không thêm の). のみで = chỉ trong tỉnh (mâu thuẫn với も)."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) viết trong bản tin nội bộ của xưởng: quản lý vệ sinh không chỉ là trách nhiệm của tổ trưởng mà là của toàn thể nhân viên.",
+     "opts": [
+      "衛生管理[えいせいかんり]は班長[はんちょう]に限[かぎ]り、全従業員[ぜんじゅうぎょういん]の責任[せきにん]です。",
+      "衛生管理[えいせいかんり]は班長[はんちょう]ののみならず、全従業員[ぜんじゅうぎょういん]の責任[せきにん]です。",
+      "衛生管理[えいせいかんり]は班長[はんちょう]のみならず、全従業員[ぜんじゅうぎょういん]の責任[せきにん]です。"
+     ],
+     "ans": 2,
+     "why": "Không chỉ… mà còn… (văn viết) → Danh từ + のみならず. Không chen の; に限[かぎ]り = \"chỉ riêng\", mâu thuẫn với \"toàn thể\"."
     }
    ],
    "shift": [
@@ -731,6 +751,16 @@
      ],
      "ans": 0,
      "why": "Ngược với mong đợi → どころか. ばかりか = cộng thêm (vô lý ở đây); うちに = trong lúc (sai nghĩa)."
+    },
+    {
+     "q": "Ở phòng khám, anh Nguyễn nói với bác sĩ: uống thuốc rồi mà chẳng những không đỡ, còn sốt cao hơn.",
+     "opts": [
+      "薬[くすり]を飲[の]んだら、よくなるのみならず、熱[ねつ]が上[あ]がってしまいました。",
+      "薬[くすり]を飲[の]んだら、よくなるどころか、熱[ねつ]が上[あ]がってしまいました。",
+      "薬[くすり]を飲[の]んだら、よくなるばかりか、熱[ねつ]が上[あ]がってしまいました。"
+     ],
+     "ans": 1,
+     "why": "Chẳng những không A mà ngược lại B → どころか. ばかりか / のみならず là cộng dồn (A đúng + thêm B), không dùng khi sự thật trái với mong đợi."
     }
    ],
    "shift": [

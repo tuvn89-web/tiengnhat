@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -235,6 +235,16 @@
      ],
      "ans": 0,
      "why": "Hai mặt của cùng công việc → 反面[はんめん]."
+    },
+    {
+     "q": "Người mới hỏi nên ở ký túc xá công ty hay thuê nhà ngoài. Anh Nguyễn nói khách quan: ký túc xá tiền nhà rẻ, nhưng mặt khác lại xa ga.",
+     "opts": [
+      "寮[りょう]は家賃[やちん]が安[やす]いの反面[はんめん]、駅[えき]から遠[とお]いです。",
+      "寮[りょう]は家賃[やちん]が安[やす]い反面[はんめん]、駅[えき]から遠[とお]いです。",
+      "寮[りょう]は家賃[やちん]が安[やす]くて反面[はんめん]、駅[えき]から遠[とお]いです。"
+     ],
+     "ans": 1,
+     "why": "Hai mặt của cùng một thứ → tính từ い + 反面[はんめん]: 安[やす]い反面[はんめん]. Không chen の; không dùng thể て trước 反面[はんめん]."
     }
    ],
    "shift": [
@@ -475,6 +485,16 @@
      ],
      "ans": 0,
      "why": "Đối chiếu hai việc → 一方[いっぽう]で."
+    },
+    {
+     "q": "Ở lớp tiếng Nhật, anh Nguyễn trình bày về giao thông: ở Việt Nam nhiều người đi làm bằng xe máy, trong khi ở Nhật nhiều người đi tàu.",
+     "opts": [
+      "ベトナムではバイクで通勤[つうきん]する人[ひと]が多[おお]い一方[いっぽう]で、日本[にほん]では電車[でんしゃ]で通[かよ]う人[ひと]が多[おお]いです。",
+      "ベトナムではバイクで通勤[つうきん]する人[ひと]が多[おお]い反面[はんめん]、日本[にほん]では電車[でんしゃ]で通[かよ]う人[ひと]が多[おお]いです。",
+      "ベトナムではバイクで通勤[つうきん]する人[ひと]が多[おお]い一方[いっぽう]だ、日本[にほん]では電車[でんしゃ]で通[かよ]う人[ひと]が多[おお]いです。"
+     ],
+     "ans": 0,
+     "why": "Đối chiếu hai việc khác nhau → 〜一方[いっぽう]で. 反面[はんめん] chỉ dùng cho hai mặt của cùng một thứ; 一方[いっぽう]だ là \"ngày càng…\", đứng cuối câu."
     }
    ],
    "shift": [
@@ -698,6 +718,16 @@
      ],
      "ans": 0,
      "why": "Chỉnh lại cách nói → というより."
+    },
+    {
+     "q": "Người mới hỏi chị Tanaka là người thế nào. Anh Nguyễn nói: chị ấy không hẳn là tổ trưởng, nói là \"mẹ\" của cả tổ thì đúng hơn.",
+     "opts": [
+      "田中[たなか]さんは班長[はんちょう]より、みんなのお母[かあ]さんみたいな人[ひと]です。",
+      "田中[たなか]さんは班長[はんちょう]というより、みんなのお母[かあ]さんみたいな人[ひと]です。",
+      "田中[たなか]さんは班長[はんちょう]にとって、みんなのお母[かあ]さんみたいな人[ひと]です。"
+     ],
+     "ans": 1,
+     "why": "Chỉnh lại cách gọi cho đúng hơn → A というより B. より đơn thuần là so sánh hơn kém; にとって là \"đối với\"."
     }
    ],
    "shift": [

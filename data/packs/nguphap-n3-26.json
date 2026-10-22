@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -224,6 +224,16 @@
      ],
      "ans": 0,
      "why": "Như trẻ con (chê) → っぽい (らしい = đúng chất trẻ con, khen trẻ em)."
+    },
+    {
+     "q": "Anh Nguyễn lại quên chìa khóa phòng. Anh than với bạn cùng phòng: dạo này mình hay quên quá, khổ ghê.",
+     "opts": [
+      "最近[さいきん]、忘[わす]れるっぽくて困[こま]るよ。",
+      "最近[さいきん]、忘[わす]れっぽくて困[こま]るよ。",
+      "最近[さいきん]、忘[わす]れっぽいで困[こま]るよ。"
+     ],
+     "ans": 1,
+     "why": "Hay (quên) → thân ます + っぽい: 忘[わす]れっぽい, chia như tính từ い → 忘[わす]れっぽくて. Không dùng thể từ điển trước っぽい; っぽい không nối bằng で."
     }
    ],
    "shift": [
@@ -448,6 +458,16 @@
      ],
      "ans": 0,
      "why": "Khuynh hướng xấu → thân ます + がち."
+    },
+    {
+     "q": "Ở buổi khám sức khỏe, bác sĩ hỏi anh Nguyễn có hay ốm không. Anh nói: mùa đông tôi hay bị cảm.",
+     "opts": [
+      "冬[ふゆ]は、どうしても風邪[かぜ]をひくがちです。",
+      "冬[ふゆ]は、どうしても風邪[かぜ]をひきっぽいです。",
+      "冬[ふゆ]は、どうしても風邪[かぜ]をひきがちです。"
+     ],
+     "ans": 2,
+     "why": "Hay xảy ra (khuynh hướng xấu) → thân ます + がち: ひきがち. Không dùng thể từ điển trước がち; ひきっぽい sai — muốn nói \"có vẻ bị cảm\" thì là 風邪[かぜ]っぽい."
     }
    ],
    "shift": [
@@ -688,6 +708,16 @@
      ],
      "ans": 0,
      "why": "Hơi (trạng thái), lịch sự → 気味[ぎみ]."
+    },
+    {
+     "q": "Ở buổi khám sức khỏe định kỳ, anh Nguyễn nói với bác sĩ (lịch sự): dạo này tôi hơi tăng cân.",
+     "opts": [
+      "最近[さいきん]、少[すこ]し太[ふと]り気味[ぎみ]です。",
+      "最近[さいきん]、少[すこ]し太[ふと]る気味[ぎみ]です。",
+      "最近[さいきん]、少[すこ]し太[ふと]った気味[ぎみ]です。"
+     ],
+     "ans": 0,
+     "why": "Đang hơi (trạng thái không tốt) → thân ます + 気味[ぎみ]: 太[ふと]り気味[ぎみ]. Không dùng thể từ điển hay thể た trước 気味[ぎみ]."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Một chuyến thăm kiêm hai mục đích, giọng thư công việc → N + かたがた + 伺[うかが]う. Không chen の; かたわら = bên cạnh việc chính (lâu dài), lại cần の sau danh từ."
+    },
+    {
+     "q": "Khách hàng vừa giới thiệu thêm một đối tác mới cho xưởng. Anh Nguyễn (chủ nhiệm) gọi điện: nhân tiện cảm ơn chuyện hôm trước, tôi muốn đến chào hỏi quý công ty một lần.",
+     "opts": [
+      "先日[せんじつ]のお礼[れい]のかたがた、一度[いちど]ご挨拶[あいさつ]に伺[うかが]いたいのですが。",
+      "先日[せんじつ]のお礼[れい]かたがた、一度[いちど]ご挨拶[あいさつ]に伺[うかが]いたいのですが。",
+      "先日[せんじつ]のお礼[れい]しかたがた、一度[いちど]ご挨拶[あいさつ]に伺[うかが]いたいのですが。"
+     ],
+     "ans": 1,
+     "why": "Một lần đến thăm, kiêm hai mục đích (lịch sự) → Danh từ + かたがた, nối thẳng. Không chen の; không gắn sau động từ."
     }
    ],
    "shift": [
@@ -475,6 +485,16 @@
      ],
      "ans": 0,
      "why": "Việc chính + việc học kéo dài, văn viết giới thiệu → N + のかたわら. Thiếu の là sai; かたがた = một chuyến hai mục đích, không dùng cho việc kéo dài."
+    },
+    {
+     "q": "Anh Nguyễn viết bài giới thiệu bác Sato cho bản tin công ty: bên cạnh công việc ở xưởng, bác còn dạy tiếng Nhật tình nguyện cho người nước ngoài.",
+     "opts": [
+      "佐藤[さとう]さんは工場[こうじょう]で働[はたら]くかたわら、外国人[がいこくじん]に日本語[にほんご]を教[おし]えるボランティアをしている。",
+      "佐藤[さとう]さんは工場[こうじょう]で働[はたら]くのかたわら、外国人[がいこくじん]に日本語[にほんご]を教[おし]えるボランティアをしている。",
+      "佐藤[さとう]さんは工場[こうじょう]で働[はたら]くかたがた、外国人[がいこくじん]に日本語[にほんご]を教[おし]えるボランティアをしている。"
+     ],
+     "ans": 0,
+     "why": "Bên cạnh việc chính còn làm việc khác lâu dài → thể từ điển + かたわら. Sau động từ không thêm の; かたがた = \"nhân tiện (một chuyến)\", sai nghĩa."
     }
    ],
    "shift": [
@@ -727,6 +747,16 @@
      ],
      "ans": 0,
      "why": "Ăn qua loa rồi vội làm việc tiếp → N + もそこそこに. Không dùng が; không đặt động từ trước もそこそこに."
+    },
+    {
+     "q": "Anh Nguyễn ghi biên bản cuộc gặp khách hàng: vị khách chào hỏi qua loa rồi vào ngay chuyện khiếu nại.",
+     "opts": [
+      "お客様[きゃくさま]は挨拶[あいさつ]もろくに、クレームの話[はなし]を始[はじ]めた。",
+      "お客様[きゃくさま]は挨拶[あいさつ]もそこそこに、クレームの話[はなし]を始[はじ]めた。",
+      "お客様[きゃくさま]は挨拶[あいさつ]するもそこそこに、クレームの話[はなし]を始[はじ]めた。"
+     ],
+     "ans": 1,
+     "why": "Làm A qua loa rồi làm ngay B → Danh từ + もそこそこに. ろくに phải đi với phủ định (ろくに〜ずに); mẫu đi sau danh từ, không sau động từ."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "thuevisa"
   ],
-  "version": 6,
+  "version": 7,
   "created": "2026-10-08",
   "verified_on": "2026-10-08",
   "note": "Gói mẫu. Thông tin thủ tục và lệ phí đúng tới ngày verified_on — tra lại trang 出入国在留管理庁[しゅつにゅうこくざいりゅうかんりちょう] và trang thành phố trước khi đi làm thủ tục. Kiến thức tham khảo, không thay tư vấn của công ty hay hành chính thư sĩ."
@@ -78,7 +78,18 @@
    "ex": [
     {
      "jp": "ビザの更新[こうしん]に行[い]きます。",
-     "vi": "Tôi đi gia hạn visa."
+     "vi": "Tôi đi gia hạn visa.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：ビザの更新[こうしん]、いつまで？ B：来月[らいげつ]の十日[とおか]までだから、そろそろ準備[じゅんび]しないと。",
+     "vi": "A: Hạn gia hạn visa đến bao giờ? B: Đến ngày 10 tháng sau, nên phải chuẩn bị dần thôi.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "在留[ざいりゅう]カードを更新[こうしん]したら、会社[かいしゃ]にも新[あたら]しいカードのコピーを出[だ]してください。",
+     "vi": "Gia hạn thẻ cư trú xong thì hãy nộp cho công ty bản sao thẻ mới.",
+     "ctx": "xuong"
     }
    ],
    "note": "在留期間更新許可申請[ざいりゅうきかんこうしんきょかしんせい] = đơn xin gia hạn thời hạn lưu trú.",
@@ -100,7 +111,18 @@
    "ex": [
     {
      "jp": "オンラインで申請[しんせい]できます。",
-     "vi": "Có thể nộp đơn online."
+     "vi": "Có thể nộp đơn online.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：在留[ざいりゅう]期間[きかん]の更新[こうしん]は、もう申請[しんせい]した？ B：うん、先週[せんしゅう]、入管[にゅうかん]に書類[しょるい]を出[だ]してきたよ。",
+     "vi": "A: Đã nộp đơn gia hạn thời gian lưu trú chưa? B: Rồi, tuần trước tôi đã nộp giấy tờ ở cục xuất nhập cảnh.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "有給休暇[ゆうきゅうきゅうか]を申請[しんせい]したいので、班長[はんちょう]から用紙[ようし]をもらった。",
+     "vi": "Tôi muốn xin nghỉ phép có lương nên đã lấy mẫu đơn từ tổ trưởng.",
+     "ctx": "xuong"
     }
    ],
    "vt": "tha"
@@ -654,7 +676,18 @@
    "ex": [
     {
      "jp": "保険料[ほけんりょう]を滞納[たいのう]しないように注意[ちゅうい]してください。",
-     "vi": "Chú ý đừng để nợ đọng phí bảo hiểm."
+     "vi": "Chú ý đừng để nợ đọng phí bảo hiểm.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "友達[ともだち]は携帯[けいたい]の料金[りょうきん]を滞納[たいのう]して、電話[でんわ]を止[と]められてしまった。",
+     "vi": "Bạn tôi nợ cước điện thoại nên bị cắt máy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：家賃[やちん]、二[に]か月[げつ]も滞納[たいのう]してるの？ B：うん…。来週[らいしゅう]の給料[きゅうりょう]で必[かなら]ず払[はら]うよ。",
+     "vi": "A: Cậu nợ tiền nhà những hai tháng à? B: Ừ… Lương tuần sau tôi nhất định trả.",
+     "ctx": "hoithoai"
     }
    ],
    "confuse": [

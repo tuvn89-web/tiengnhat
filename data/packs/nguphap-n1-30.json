@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "Hai yếu tố cộng hưởng → A に B も相[あい]まって (văn viết, báo cáo). Không dùng を hay に ngay trước 相[あい]まって."
+    },
+    {
+     "q": "Anh Nguyễn viết báo cáo tháng gửi giám đốc xưởng: nắng nóng gay gắt cộng với thiếu người đã làm năng suất giảm.",
+     "opts": [
+      "猛暑[もうしょ]と人手不足[ひとでぶそく]を相[あい]まって、生産性[せいさんせい]が落[お]ちました。",
+      "猛暑[もうしょ]と人手不足[ひとでぶそく]が相[あい]まって、生産性[せいさんせい]が落[お]ちました。",
+      "猛暑[もうしょ]が人手不足[ひとでぶそく]に相[あい]まって、生産性[せいさんせい]が落[お]ちました。"
+     ],
+     "ans": 1,
+     "why": "Hai yếu tố cộng hưởng → A と B が相[あい]まって (hoặc A に B も相[あい]まって). Không dùng を; 猛暑[もうしょ]が〜に相[あい]まって là ghép sai trợ từ."
     }
    ],
    "shift": [
@@ -477,6 +487,16 @@
      ],
      "ans": 0,
      "why": "Bám sát thực tế → に即[そく]して (trợ từ に). に反[はん]して = trái với (ngược nghĩa)."
+    },
+    {
+     "q": "Trong buổi họp với trưởng phòng, anh Nguyễn (chủ nhiệm) đề xuất: cần có chương trình đào tạo sát với tình hình thực tế ở hiện trường.",
+     "opts": [
+      "現場[げんば]の実情[じつじょう]に即[そく]して研修[けんしゅう]が必要[ひつよう]です。",
+      "現場[げんば]の実情[じつじょう]を即[そく]した研修[けんしゅう]が必要[ひつよう]です。",
+      "現場[げんば]の実情[じつじょう]に即[そく]した研修[けんしゅう]が必要[ひつよう]です。"
+     ],
+     "ans": 2,
+     "why": "Bám sát thực tế, đứng trước danh từ → に即[そく]した + Danh từ. Trước danh từ không dùng 即[そく]して; trợ từ là に, không phải を."
     }
    ],
    "shift": [
@@ -716,6 +736,16 @@
      ],
      "ans": 0,
      "why": "Đối chiếu với chuẩn để phán đoán → に照[て]らして (trợ từ に, thể chủ động)."
+    },
+    {
+     "q": "Đàn em định rã đông cá bằng nước nóng cho nhanh. Anh Nguyễn ngăn lại: soi vào kinh nghiệm của tôi thì làm thế là nguy hiểm.",
+     "opts": [
+      "私[わたし]の経験[けいけん]を照[て]らせば、そのやり方[かた]は危[あぶ]ないと思[おも]う。",
+      "私[わたし]の経験[けいけん]に比[くら]べれば、そのやり方[かた]は危[あぶ]ないと思[おも]う。",
+      "私[わたし]の経験[けいけん]に照[て]らせば、そのやり方[かた]は危[あぶ]ないと思[おも]う。"
+     ],
+     "ans": 2,
+     "why": "Đối chiếu với một chuẩn (kinh nghiệm) để phán đoán → に照[て]らせば. Chuẩn đi với に, không phải を; に比[くら]べれば dùng để so hai thứ ngang hàng."
     }
    ],
    "shift": [

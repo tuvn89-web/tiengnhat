@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "Tả cử chỉ bộc lộ ý nghĩ của người khác, văn báo cáo → 「…」とばかりに. Thiếu と là sai; とばかりか không phải mẫu này."
+    },
+    {
+     "q": "Anh Nguyễn kể với vợ về buổi họp tổ: vừa được hỏi ý kiến, cậu Tanaka như chộp được thời cơ, tuôn ra một tràng bất mãn.",
+     "opts": [
+      "意見[いけん]を聞[き]かれると、田中[たなか]さんはここぞとばかりに不満[ふまん]を並[なら]べたんだ。",
+      "意見[いけん]を聞[き]かれると、田中[たなか]さんはここぞばかりに不満[ふまん]を並[なら]べたんだ。",
+      "意見[いけん]を聞[き]かれると、田中[たなか]さんはここぞとばかりで不満[ふまん]を並[なら]べたんだ。"
+     ],
+     "ans": 0,
+     "why": "Như thể nghĩ \"chính lúc này đây\" (chộp thời cơ) → cụm cố định ここぞとばかりに. Không bỏ と; không đổi に thành で."
     }
    ],
    "shift": [
@@ -492,6 +502,16 @@
      ],
      "ans": 0,
      "why": "Như thể muốn nói \"…\" → と言[い]わんばかりに (言[い]わ + ん). 言[い]うん sai cách chia; 言[い]ったばかりに = chỉ vì đã nói (N2-08), sai nghĩa. Mẫu này không phải lúc nào cũng tiêu cực."
+    },
+    {
+     "q": "Anh Nguyễn kể với đồng nghiệp: lúc chờ đóng gói, ông khách cứ liên tục nhìn đồng hồ như thể muốn nói \"nhanh lên\".",
+     "opts": [
+      "お客[きゃく]さんは「早[はや]くしろ」と言[い]いんばかりに、何度[なんど]も時計[とけい]を見[み]ていた。",
+      "お客[きゃく]さんは「早[はや]くしろ」言[い]わんばかりに、何度[なんど]も時計[とけい]を見[み]ていた。",
+      "お客[きゃく]さんは「早[はや]くしろ」と言[い]わんばかりに、何度[なんど]も時計[とけい]を見[み]ていた。"
+     ],
+     "ans": 2,
+     "why": "Như thể muốn nói \"…\" → câu trích dẫn + と言[い]わんばかりに (言[い]う → 言[い]わ + ん). 言[い]いん là chia sai; không bỏ と."
     }
    ],
    "shift": [
@@ -742,6 +762,16 @@
      ],
      "ans": 0,
      "why": "Không chỉ… mà cả… (văn thông báo) → ただ〜のみならず、〜も. ただ〜のみ = chỉ có (mâu thuẫn với も); しか phải đi với phủ định."
+    },
+    {
+     "q": "Trước giờ công bố kết quả cuộc thi tay nghề, anh Nguyễn (chủ nhiệm) nói với cả tổ: chuẩn bị đã xong hết, giờ chỉ còn chờ kết quả thôi.",
+     "opts": [
+      "準備[じゅんび]はすべて終[お]わりました。あとはただ結果[けっか]を待[ま]ちますのみです。",
+      "準備[じゅんび]はすべて終[お]わりました。あとはただ結果[けっか]を待[ま]つのみです。",
+      "準備[じゅんび]はすべて終[お]わりました。あとはただ結果[けっか]を待[ま]つのみならずです。"
+     ],
+     "ans": 1,
+     "why": "Chỉ còn… thôi → ただ + thể từ điển + のみです. Không gắn のみ sau thể ます; のみならず = \"không chỉ… mà còn\", phải có vế sau, nghĩa khác."
     }
    ],
    "shift": [

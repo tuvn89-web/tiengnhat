@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "差[さ]し出[で]がましいようですが = cụm khiêm tốn khi góp ý với người trên. がましい là tính từ い nên trước ようです giữ nguyên い; 晴[は]れがましい = rạng rỡ, vẻ vang (sai nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn than với vợ về một người quen: giúp một chút rồi cứ kể ơn mãi, cái giọng đó khó chịu thật.",
+     "opts": [
+      "あの人[ひと]の恩着[おんき]せがましいな言[い]い方[かた]が嫌[いや]なんだ。",
+      "あの人[ひと]の恩着[おんき]せがましく言[い]い方[かた]が嫌[いや]なんだ。",
+      "あの人[ひと]の恩着[おんき]せがましい言[い]い方[かた]が嫌[いや]なんだ。"
+     ],
+     "ans": 2,
+     "why": "Lời nói mang tính kể ơn → 恩着[おんき]せがましい + Danh từ (chia như tính từ い). Không thêm な; trước danh từ không dùng dạng く."
     }
    ],
    "shift": [
@@ -478,6 +488,16 @@
      ],
      "ans": 0,
      "why": "子[こ]どもじみた = trẻ con, ấu trĩ (chê). 年寄[としよ]りじみた = như người già (sai ý); じみる chia nhóm 2 → じみた, không phải じみった."
+    },
+    {
+     "q": "Tối về, anh Nguyễn cười kể với vợ: hôm nay trưởng phòng nói chuyện nghe như giảng đạo, dài ơi là dài.",
+     "opts": [
+      "今日[きょう]の課長[かちょう]の話[はなし]は、説教[せっきょう]じみった話[はなし]で長[なが]かったよ。",
+      "今日[きょう]の課長[かちょう]の話[はなし]は、説教[せっきょう]じみた話[はなし]で長[なが]かったよ。",
+      "今日[きょう]の課長[かちょう]の話[はなし]は、説教[せっきょう]じみな話[はなし]で長[なが]かったよ。"
+     ],
+     "ans": 1,
+     "why": "Nhuốm vẻ (chê) → Danh từ + じみた + Danh từ (じみる chia như 見[み]る → 見[み]た). じみった là chia sai; không dùng な."
     }
    ],
    "shift": [
@@ -716,6 +736,16 @@
      ],
      "ans": 0,
      "why": "Ra vẻ đàn anh → 先輩[せんぱい]ぶる → 先輩[せんぱい]ぶって (chia như 取[と]る). ぶりて sai cách chia; 先輩[せんぱい]ぶり là danh từ, không nối với vế sau như vậy được."
+    },
+    {
+     "q": "Anh Nguyễn viết bài cho bản tin công ty về giám đốc xưởng: dù ở vị trí cao, ông ấy không hề ra vẻ ta đây.",
+     "opts": [
+      "工場長[こうじょうちょう]は、少[すこ]しも偉[えら]ぶらない人[ひと]だ。",
+      "工場長[こうじょうちょう]は、少[すこ]しも偉[えら]いぶらない人[ひと]だ。",
+      "工場長[こうじょうちょう]は、少[すこ]しも偉[えら]ぶりない人[ひと]だ。"
+     ],
+     "ans": 0,
+     "why": "Ra vẻ, làm bộ → tính từ bỏ い + ぶる: 偉[えら]ぶる; phủ định 偉[えら]ぶらない (chia như 取[と]る). Không giữ い; ぶりない là chia sai."
     }
    ],
    "shift": [

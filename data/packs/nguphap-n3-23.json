@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -220,6 +220,16 @@
      ],
      "ans": 0,
      "why": "Mức độ cực mạnh → ほど."
+    },
+    {
+     "q": "Bạn cùng phòng mới chuyển đến mà chưa chào bà chủ nhà. Anh Nguyễn nhắc (thân): ít nhất thì cũng phải chào hỏi bà ấy chứ.",
+     "opts": [
+      "大家[おおや]さんに挨拶[あいさつ]ほどしなよ。",
+      "大家[おおや]さんに挨拶[あいさつ]くらいしなよ。",
+      "大家[おおや]さんに挨拶[あいさつ]のくらいしなよ。"
+     ],
+     "ans": 1,
+     "why": "Mức tối thiểu (ít nhất cũng…) → くらい. ほど không dùng cho mức tối thiểu; danh từ nối thẳng くらい, không thêm の."
     }
    ],
    "shift": [
@@ -432,6 +442,16 @@
      ],
      "ans": 0,
      "why": "Càng… càng… → ば〜ほど."
+    },
+    {
+     "q": "Anh Nguyễn giải thích cho người mới vì sao phải làm nhanh: cá càng tươi thì sashimi càng ngon.",
+     "opts": [
+      "魚[さかな]は新鮮[しんせん]ければ新鮮[しんせん]なほど、刺身[さしみ]がおいしくなります。",
+      "魚[さかな]は新鮮[しんせん]なほど新鮮[しんせん]であれば、刺身[さしみ]がおいしくなります。",
+      "魚[さかな]は新鮮[しんせん]であればあるほど、刺身[さしみ]がおいしくなります。"
+     ],
+     "ans": 2,
+     "why": "Càng… càng… với tính từ な → 新鮮[しんせん]であればあるほど (hoặc 新鮮[しんせん]なら新鮮[しんせん]なほど). Tính từ な không chia ければ; vế ば phải đứng trước vế ほど."
     }
    ],
    "shift": [
@@ -657,6 +677,16 @@
      ],
      "ans": 0,
      "why": "Không gì bằng → ほど〜はない."
+    },
+    {
+     "q": "Ở tiệc chia tay tổ trưởng nghỉ hưu, anh Nguyễn phát biểu: không có ai tốt bụng bằng tổ trưởng.",
+     "opts": [
+      "班長[はんちょう]ほど優[やさ]しい人[ひと]はいません。",
+      "班長[はんちょう]ほど優[やさ]しいものはいません。",
+      "班長[はんちょう]ほど優[やさ]しい人[ひと]がいます。"
+     ],
+     "ans": 0,
+     "why": "A là … nhất → A ほど + tính từ + 人[ひと]はいない. Với người dùng 人[ひと], không dùng もの; vế sau phải là phủ định."
     }
    ],
    "shift": [

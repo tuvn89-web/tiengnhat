@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 6,
+  "version": 7,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -65,6 +65,11 @@
      "jp": "宿泊[しゅくはく]のお客様[きゃくさま]は、こちらへどうぞ。",
      "vi": "Khách lưu trú xin mời lối này.",
      "ctx": "hoithoai"
+    },
+    {
+     "jp": "出張[しゅっちょう]の時[とき]は、会社[かいしゃ]が宿泊[しゅくはく]のホテルを予約[よやく]してくれる。",
+     "vi": "Khi đi công tác, công ty đặt khách sạn lưu trú giúp.",
+     "ctx": "xuong"
     }
    ],
    "note": "宿泊料[しゅくはくりょう] = tiền phòng.",
@@ -204,6 +209,11 @@
      "jp": "歓迎会[かんげいかい]は、金曜日[きんようび]です。",
      "vi": "Tiệc chào mừng vào thứ Sáu.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "近所[きんじょ]の人[ひと]たちが、引[ひ]っ越[こ]してきた私[わたし]を温[あたた]かく歓迎[かんげい]してくれた。",
+     "vi": "Hàng xóm đã nồng nhiệt chào đón tôi khi tôi mới chuyển đến.",
+     "ctx": "doisong"
     }
    ],
    "note": "歓迎会[かんげいかい] = tiệc chào mừng.",
@@ -440,6 +450,11 @@
      "jp": "営業[えいぎょう]の人[ひと]が、お客様[きゃくさま]を連[つ]れてきました。",
      "vi": "Người bộ phận kinh doanh dẫn khách đến.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：この店[みせ]、日曜日[にちようび]も営業[えいぎょう]してますか。 B：はい、年中[ねんじゅう]無休[むきゅう]です。",
+     "vi": "A: Cửa hàng này Chủ nhật có mở cửa không? B: Có, chúng tôi mở quanh năm.",
+     "ctx": "hoithoai"
     }
    ],
    "note": "営業中[えいぎょうちゅう] = đang mở cửa.",
@@ -468,6 +483,11 @@
      "jp": "商売[しょうばい]が、うまくいっています。",
      "vi": "Việc buôn bán thuận lợi.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、商売[しょうばい]はどう？ B：まあ、ぼちぼちやな。",
+     "vi": "A: Dạo này buôn bán thế nào? B: À, cũng tàm tạm.",
+     "ctx": "kansai"
     }
    ],
    "vt": "tu"
@@ -525,6 +545,11 @@
      "jp": "訪問[ほうもん]の前[まえ]に、電話[でんわ]で予約[よやく]します。",
      "vi": "Gọi điện hẹn trước khi đến thăm.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：明日[あした]、ガスの点検[てんけん]でお宅[たく]を訪問[ほうもん]します。 B：はい、午前中[ごぜんちゅう]なら家[いえ]にいます。",
+     "vi": "A: Mai chúng tôi sẽ đến nhà anh để kiểm tra ga. B: Vâng, buổi sáng thì tôi ở nhà.",
+     "ctx": "hoithoai"
     }
    ],
    "vt": "tha"
@@ -552,6 +577,11 @@
      "jp": "荷物[にもつ]の到着[とうちゃく]は、明日[あした]です。",
      "vi": "Hàng đến vào ngày mai.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：今[いま]どこ？ B：もうすぐ到着[とうちゃく]するよ。あと五分[ごふん]。",
+     "vi": "A: Đang ở đâu đấy? B: Sắp tới rồi. Năm phút nữa.",
+     "ctx": "hoithoai"
     }
    ],
    "ant": [
@@ -582,6 +612,11 @@
      "jp": "発車[はっしゃ]の時間[じかん]に、遅[おく]れました。",
      "vi": "Tôi trễ giờ xe chạy.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "A：急[いそ]いで！バスが発車[はっしゃ]しちゃうよ！ B：待[ま]って、すぐ行[い]く！",
+     "vi": "A: Nhanh lên! Xe buýt sắp chạy rồi! B: Đợi đã, tôi ra ngay!",
+     "ctx": "hoithoai"
     }
    ],
    "vt": "tu"
@@ -609,6 +644,11 @@
      "jp": "台風[たいふう]が、兵庫県[ひょうごけん]を通過[つうか]しました。",
      "vi": "Bão đã đi qua Hyogo.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "トラックが工場[こうじょう]の前[まえ]を通過[つうか]してから、道[みち]を渡[わた]ってください。",
+     "vi": "Đợi xe tải chạy qua trước xưởng rồi hãy sang đường.",
+     "ctx": "xuong"
     }
    ],
    "note": "通過駅[つうかえき] = ga tàu chạy thẳng không dừng.",
@@ -637,6 +677,11 @@
      "jp": "成田[なりた]経由[けいゆ]の飛行機[ひこうき]に、乗[の]りました。",
      "vi": "Tôi đi máy bay quá cảnh Narita.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "A：ベトナムに帰[かえ]る時[とき]は、直行便[ちょっこうびん]？ B：いや、ソウル経由[けいゆ]のほうが安[やす]いんだ。",
+     "vi": "A: Về Việt Nam bay thẳng à? B: Không, quá cảnh Seoul rẻ hơn.",
+     "ctx": "hoithoai"
     }
    ],
    "vt": "tu"
@@ -951,6 +996,11 @@
      "jp": "選手[せんしゅ]が、入場[にゅうじょう]しました。",
      "vi": "Các vận động viên đã vào sân.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "A：入場券[にゅうじょうけん]は、どこで買[か]えますか。 B：あちらの窓口[まどぐち]でお求[もと]めください。",
+     "vi": "A: Vé vào cửa mua ở đâu ạ? B: Xin mời mua ở quầy đằng kia.",
+     "ctx": "hoithoai"
     }
    ],
    "note": "入場料[にゅうじょうりょう] = phí vào cửa.",
@@ -979,6 +1029,11 @@
      "jp": "ノックの音[おと]が、しました。",
      "vi": "Có tiếng gõ cửa.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "A：部屋[へや]に入[はい]る時[とき]は、ノックしてよ。 B：ごめん、忘[わす]れてた。",
+     "vi": "A: Vào phòng thì gõ cửa đi chứ. B: Xin lỗi, tôi quên mất.",
+     "ctx": "hoithoai"
     }
    ],
    "goc": "knock (tiếng Anh)",

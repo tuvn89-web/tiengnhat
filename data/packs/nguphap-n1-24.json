@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -231,6 +231,16 @@
      ],
      "ans": 0,
      "why": "Nhấn lý do thật, tốt đẹp đằng sau sự nghiêm khắc → 〜ていればこそ. くせに = \"mà lại\" (chê trách, sai nghĩa); \"kỳ vọng nên chẳng nói gì\" không khớp với ý giải thích."
+    },
+    {
+     "q": "Thằng con trai trách bố tối nào cũng về muộn. Anh Nguyễn giải thích: bố làm vất vả như thế chính là vì thương cả nhà đấy.",
+     "opts": [
+      "家族[かぞく]を思[おも]うこそ、父[とう]さんは毎日[まいにち]遅[おそ]くまで働[はたら]いているんだよ。",
+      "家族[かぞく]を思[おも]えばこそ、父[とう]さんは毎日[まいにち]遅[おそ]くまで働[はたら]いているんだよ。",
+      "家族[かぞく]を思[おも]ったばこそ、父[とう]さんは毎日[まいにち]遅[おそ]くまで働[はたら]いているんだよ。"
+     ],
+     "ans": 1,
+     "why": "Chính vì (lý do tốt, sâu xa) → thể ば + こそ: 思[おも]えばこそ. Không gắn こそ thẳng sau thể từ điển; không dùng thể た trước ばこそ."
     }
    ],
    "shift": [
@@ -267,7 +277,7 @@
     "Vế sau: 〜わけにはいかない, 〜なければならない, 〜しかない (việc buộc phải làm / không thể làm vì giữ thể diện)"
    ],
    "explain": "〜手前[てまえ] = VÌ ĐÃ… / TRƯỚC MẶT… NÊN (VÌ SĨ DIỆN) PHẢI / KHÔNG THỂ…: người nói bị ràng buộc bởi lời mình đã nói, việc mình đã làm, hoặc ánh mắt của người khác — nếu làm khác đi sẽ mất mặt, mất uy tín. 「禁煙[きんえん]する」と宣言[せんげん]した手前[てまえ]、今[いま]さら吸[す]うわけにはいかない = đã tuyên bố bỏ thuốc nên giờ không thể hút lại. 部下[ぶか]の手前[てまえ]、班長[はんちょう]が遅刻[ちこく]するわけにはいかない = trước mặt cấp dưới, tổ trưởng không thể đi muộn.\n\nCách ghép: động từ thể た + 手前[てまえ] (言[い]った手前[てまえ], 約束[やくそく]した手前[てまえ], 引[ひ]き受[う]けた手前[てまえ]) là dạng hay gặp nhất; cũng gặp thể từ điển / 〜ている (教[おし]えている手前[てまえ]); danh từ + の + 手前[てまえ] (子[こ]どもの手前[てまえ], 部下[ぶか]の手前[てまえ], 近所[きんじょ]の手前[てまえ], 世間[せけん]の手前[てまえ]). Sau 手前[てまえ] KHÔNG có に (✗ 部下[ぶか]の手前[てまえ]に) — 手前[てまえ]に là nghĩa vị trí \"phía trước, gần tới\" (駅[えき]の手前[てまえ]に交番[こうばん]がある). Vế sau: 〜わけにはいかない, 〜なければならない, 〜しかない, 〜ざるを得[え]ない.\n\nMức độ: dùng được cả nói lẫn viết, từ trung tính đến trang trọng — là mẫu N1 hay gặp trong hội thoại đời thường nhất của bài này. Sắc thái: thành thật thừa nhận \"vì sĩ diện\", đôi khi hơi tự giễu; thường nói về bản thân hoặc người trong cuộc. Đừng lẫn với 手前[てまえ] = \"phía trước\" (vị trí) và 手前[てまえ]ども = \"chúng tôi\" (cách nói khiêm tốn cũ của người buôn bán).\n\nSo với mẫu đã học: 〜以上[いじょう]（は）, 〜からには (N2-07) và 〜上[うえ]は (N2-01) cũng là \"một khi đã… thì phải…\" nhưng nhấn trách nhiệm, lẽ phải. 手前[てまえ] nhấn THỂ DIỆN — sợ bị người khác coi là người nói một đằng làm một nẻo. Và chỉ 手前[てまえ] mới đi được với danh từ chỉ người đang nhìn mình: 子[こ]どもの手前[てまえ], 部下[ぶか]の手前[てまえ].\n\nMẹo nhớ: 手前[てまえ] = \"phía trước tay mình\" → đang đứng ngay trước mặt người ta thì phải giữ thể diện.",
-   "casual": "Nói thường: 〜って言[い]っちゃったから / 〜の前[まえ]だから: やるって言[い]っちゃったし、やめられないよ. Kansai: やる言[い]うてもうたし、やめられへんわ (言[い]うてもうた = 言[い]ってしまった; やめられへん = やめられない).",
+   "casual": "Nói thường: 〜って言[い]っちゃったから / 〜の前[まえ]だから: やるって言[い]っちゃったし、やめられないよ. Kansai: やる言[ゆ]うてもうたし、やめられへんわ (言[ゆ]うてもうた = 言[い]ってしまった; やめられへん = やめられない).",
    "compare": [
     {
      "pattern": "〜以上[いじょう]（は）・〜からには（N2-07）",
@@ -481,6 +491,16 @@
      ],
      "ans": 0,
      "why": "Vì đã lỡ nói trước mọi người (thể diện) → た + 手前[てまえ]. 手前[てまえ]に = vị trí; くせに = \"mà lại\" (chê trách) — đều sai nghĩa."
+    },
+    {
+     "q": "Hai vợ chồng đang to tiếng thì bọn trẻ đi vào phòng. Anh Nguyễn nói nhỏ với vợ: trước mặt con, mình không thể cãi nhau được.",
+     "opts": [
+      "子[こ]どもの手前[てまえ]に、けんかはできないよ。",
+      "子[こ]どものくせに、けんかはできないよ。",
+      "子[こ]どもの手前[てまえ]、けんかはできないよ。"
+     ],
+     "ans": 2,
+     "why": "Vì thể diện trước người khác → Danh từ + の手前[てまえ] (không có に). のくせに = \"đã là… mà còn\", nghĩa khác hẳn."
     }
    ],
    "shift": [
@@ -730,6 +750,16 @@
      ],
      "ans": 0,
      "why": "Giả định + sự sẵn lòng → とあれば. とあって dùng cho sự thật đã xảy ra, vế sau không là ý chí; とあれば mang ý \"sẵn sàng làm\", không đi với lời từ chối."
+    },
+    {
+     "q": "Đồng nghiệp hỏi anh Nguyễn có nhận ca đêm tháng này không. Anh đáp: nếu là vì gia đình thì đến ca đêm tôi cũng nhận.",
+     "opts": [
+      "家族[かぞく]のためとあれば、夜勤[やきん]だって引[ひ]き受[う]けるよ。",
+      "家族[かぞく]のためとあって、夜勤[やきん]だって引[ひ]き受[う]けるよ。",
+      "家族[かぞく]のためとあれば、昨日[きのう]も夜勤[やきん]を引[ひ]き受[う]けたよ。"
+     ],
+     "ans": 0,
+     "why": "Nếu là (lý do đặc biệt) thì sẵn sàng… → とあれば + ý chí. とあって nêu sự thật đã xảy ra; とあれば không dùng cho việc đã qua."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Tả khoảnh khắc sắp xảy ra, văn viết → thể ない bỏ ない + んとする: 出[で]る → 出[で] + んとする. 出[で]るんとする (thể từ điển) và 出[だ]しんとする (thân ます của 出[だ]す) đều sai."
+    },
+    {
+     "q": "Anh Nguyễn viết hồi ký ngắn cho số kỷ niệm của bản tin công ty: đúng lúc chúng tôi sắp sửa cho chạy dây chuyền mới thì động đất xảy ra.",
+     "opts": [
+      "新[しん]ラインを稼働[かどう]しんとする矢先[やさき]に、地震[じしん]が起[お]きた。",
+      "新[しん]ラインを稼働[かどう]せんとする矢先[やさき]に、地震[じしん]が起[お]きた。",
+      "新[しん]ラインを稼働[かどう]するんとする矢先[やさき]に、地震[じしん]が起[お]きた。"
+     ],
+     "ans": 1,
+     "why": "Sắp sửa… (văn viết cổ) → thể ない bỏ ない + んとする; する → せんとする. しんとする, するんとする đều chia sai."
     }
    ],
    "shift": [
@@ -477,6 +487,16 @@
      ],
      "ans": 0,
      "why": "Nhận ra tình hình rồi phản ứng tức thì, văn báo cáo → thể thường + と見[み]るや. Trợ từ là と; 見[み]る luôn ở thể từ điển (見[み]たや ✗)."
+    },
+    {
+     "q": "Anh Nguyễn viết bài cho bản tin công ty về buổi đấu giá ở chợ cá: vừa nhận ra đó là con cá ngừ chất lượng tốt, người môi giới lập tức trả giá cao.",
+     "opts": [
+      "仲買人[なかがいにん]は質[しつ]のいいマグロだに見[み]るや、すぐに高値[たかね]をつけた。",
+      "仲買人[なかがいにん]は質[しつ]のいいマグロだと見[み]るや、すぐに高値[たかね]をつけた。",
+      "仲買人[なかがいにん]は質[しつ]のいいマグロだと見[み]るや、すぐに高値[たかね]をつけなさい。"
+     ],
+     "ans": 1,
+     "why": "Vừa nhận ra tình hình là phản ứng ngay (việc đã xảy ra) → nội dung phán đoán + と見[み]るや. Trợ từ là と, không phải に; vế sau không được là mệnh lệnh."
     }
    ],
    "shift": [
@@ -730,6 +750,16 @@
      ],
      "ans": 0,
      "why": "Không rõ ai bắt đầu → từ để hỏi + から + ともなく: 誰[だれ]からともなく. 誰[だれ]からでもなく sai dạng; ともなると = \"đã đến mức… thì\", không hợp nghĩa."
+    },
+    {
+     "q": "Anh Nguyễn viết nhật ký (văn viết): đang lơ đãng nhìn ra cửa sổ tàu thì biển Akashi hiện ra.",
+     "opts": [
+      "電車[でんしゃ]の窓[まど]から見[み]たともなく外[そと]を眺[なが]めていると、明石[あかし]の海[うみ]が見[み]えてきた。",
+      "電車[でんしゃ]の窓[まど]から見[み]るともなると外[そと]を眺[なが]めていると、明石[あかし]の海[うみ]が見[み]えてきた。",
+      "電車[でんしゃ]の窓[まど]から見[み]るともなく外[そと]を眺[なが]めていると、明石[あかし]の海[うみ]が見[み]えてきた。"
+     ],
+     "ans": 2,
+     "why": "Làm một cách vô thức → thể từ điển + ともなく: 見[み]るともなく. Không dùng thể た; ともなると = \"đã đến mức…\", nghĩa khác hẳn."
     }
    ],
    "shift": [

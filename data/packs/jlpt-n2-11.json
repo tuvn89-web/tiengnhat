@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -37,6 +37,11 @@
      "jp": "会員[かいいん]カードを見[み]せると、一割[いちわり]引[びき]してもらえます。",
      "vi": "Xuất trình thẻ hội viên thì được giảm 10%.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "社員[しゃいん]は、自社[じしゃ]の商品[しょうひん]を二割[にわり]引[びき]で買[か]うことができる。",
+     "vi": "Nhân viên được mua sản phẩm của công ty với giá giảm 20%.",
+     "ctx": "xuong"
     }
    ],
    "coll": [
@@ -75,6 +80,11 @@
      "jp": "箱[はこ]に傷[きず]があったので、百円[ひゃくえん]値引[ねび]きしてもらいました。",
      "vi": "Thùng bị trầy nên tôi được bớt 100 yên.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "これ、ちょっと傷[きず]あるやん。もうちょっと値引[ねび]きしてくれへん？",
+     "vi": "Cái này hơi xước mà. Bớt thêm cho tôi chút được không?",
+     "ctx": "kansai"
     }
    ],
    "coll": [
@@ -491,6 +501,11 @@
      "jp": "見学[けんがく]できる人[ひと]を、社員[しゃいん]に限定[げんてい]します。",
      "vi": "Chỉ cho nhân viên công ty tham quan.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：このビール、見[み]たことないね。 B：夏[なつ]限定[げんてい]の味[あじ]なんだって。",
+     "vi": "A: Bia này chưa thấy bao giờ nhỉ. B: Nghe nói là vị chỉ bán vào mùa hè.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [
@@ -763,6 +778,11 @@
      "jp": "抽選[ちゅうせん]で、十名[じゅうめい]様[さま]に旅行券[りょこうけん]が当[あ]たります。",
      "vi": "Quay số, 10 vị sẽ trúng phiếu du lịch.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "A：忘年会[ぼうねんかい]の抽選[ちゅうせん]、何[なに]が当[あ]たった？ B：お米[こめ]五[ご]キロ！すごくうれしい。",
+     "vi": "A: Bốc thăm tiệc tất niên trúng gì? B: 5 cân gạo! Vui lắm.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [
@@ -797,6 +817,11 @@
      "jp": "当選[とうせん]した方[かた]には、メールでお知[し]らせします。",
      "vi": "Người trúng sẽ được báo qua email.",
      "ctx": "thutuc"
+    },
+    {
+     "jp": "A：もし宝[たから]くじに当選[とうせん]したらどうする？ B：まず国[くに]の家族[かぞく]に家[いえ]を建[た]てたいな。",
+     "vi": "A: Nếu trúng xổ số thì cậu làm gì? B: Trước tiên tôi muốn xây nhà cho gia đình ở quê.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [
@@ -1072,6 +1097,11 @@
      "jp": "今朝[けさ]入荷[にゅうか]した魚[さかな]を、すぐに検品[けんぴん]してください。",
      "vi": "Hãy kiểm ngay cá về sáng nay.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "今日[きょう]はええカツオが入荷[にゅうか]してるで。刺身[さしみ]にしたらうまいわ。",
+     "vi": "Hôm nay có cá ngừ vằn ngon mới về đấy. Làm sashimi thì ngon lắm.",
+     "ctx": "kansai"
     }
    ],
    "coll": [
@@ -1108,6 +1138,11 @@
      "jp": "春[はる]の新商品[しんしょうひん]の発売日[はつばいび]が、決[き]まりました。",
      "vi": "Đã chốt ngày bán sản phẩm mới mùa xuân.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：新[あたら]しいスマホ、いつ発売[はつばい]？ B：来月[らいげつ]の十日[とおか]だって。予約[よやく]しようかな。",
+     "vi": "A: Điện thoại mới bao giờ bán? B: Nghe nói ngày 10 tháng sau. Hay là đặt trước nhỉ.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [
@@ -1259,6 +1294,11 @@
      "jp": "来店[らいてん]の際[さい]は、予約[よやく]番号[ばんごう]をお伝[つた]えください。",
      "vi": "Khi đến cửa hàng xin cho biết số đặt chỗ.",
      "ctx": "thutuc"
+    },
+    {
+     "jp": "直売所[ちょくばいじょ]では、来店[らいてん]したお客様[きゃくさま]に、その朝[あさ]加工[かこう]した刺身[さしみ]を試食[ししょく]してもらっている。",
+     "vi": "Ở quầy bán trực tiếp, khách đến cửa hàng được nếm thử sashimi chế biến ngay sáng hôm đó.",
+     "ctx": "xuong"
     }
    ],
    "coll": [
@@ -1462,6 +1502,11 @@
      "jp": "セール品[ひん]の返品[へんぴん]は、受[う]け付[つ]けておりません。",
      "vi": "Hàng giảm giá không nhận trả lại.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "温度[おんど]管理[かんり]に問題[もんだい]があったとして、取引先[とりひきさき]から商品[しょうひん]が返品[へんぴん]されてきた。",
+     "vi": "Đối tác trả lại hàng vì cho rằng có vấn đề trong quản lý nhiệt độ.",
+     "ctx": "xuong"
     }
    ],
    "coll": [
@@ -1499,6 +1544,11 @@
      "jp": "返金[へんきん]は、カード会社[かいしゃ]を通[とお]して行[おこな]います。",
      "vi": "Việc hoàn tiền thực hiện qua công ty thẻ.",
      "ctx": "thutuc"
+    },
+    {
+     "jp": "A：コンサート、中止[ちゅうし]になったんだって。 B：チケット代[だい]は返金[へんきん]してもらえるのかな。",
+     "vi": "A: Nghe nói buổi hòa nhạc bị hủy rồi. B: Không biết tiền vé có được hoàn lại không.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [

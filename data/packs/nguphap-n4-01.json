@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -245,6 +245,16 @@
      ],
      "ans": 0,
      "why": "Hỏi khả năng/điều kiện cho phép → 取[と]れますか."
+    },
+    {
+     "q": "Ở tiệc tất niên (忘年会[ぼうねんかい]) của công ty, giám đốc rót rượu mời anh Nguyễn. Anh lái ô tô đến nên muốn nói lịch sự: hôm nay tôi không uống rượu được.",
+     "opts": [
+      "車[くるま]で来[き]たので、お酒[さけ]は飲[の]まれません。",
+      "車[くるま]で来[き]たので、お酒[さけ]は飲[の]めません。",
+      "車[くるま]で来[き]たので、お酒[さけ]は飲[の]みられません。"
+     ],
+     "ans": 1,
+     "why": "Nhóm 1 飲[の]む → 飲[の]める (hàng え + る). 飲[の]まれる là thể bị động/kính ngữ, không phải \"uống được\"; 飲[の]みられる chia nhầm như nhóm 2."
     }
    ],
    "shift": [
@@ -491,6 +501,16 @@
      ],
      "ans": 0,
      "why": "〜ことができません = không được / không thể. 関係者[かんけいしゃ]以外[いがい] = ngoài người liên quan."
+    },
+    {
+     "q": "Anh Nguyễn ra ngân hàng, hỏi nhân viên quầy một cách trang trọng: máy ATM này có gửi tiền ra nước ngoài được không.",
+     "opts": [
+      "このATMで海外[かいがい]に送金[そうきん]しますことができますか。",
+      "このATMで海外[かいがい]に送金[そうきん]することをできますか。",
+      "このATMで海外[かいがい]に送金[そうきん]することができますか。"
+     ],
+     "ans": 2,
+     "why": "Thể từ điển + ことができますか. Không dùng thể ます trước こと (送金[そうきん]しますこと ✗); sau こと dùng が, không dùng を (ことをできます ✗)."
     }
    ],
    "shift": [

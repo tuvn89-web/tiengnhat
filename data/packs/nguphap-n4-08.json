@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -227,6 +227,16 @@
      ],
      "ans": 0,
      "why": "Dù… cũng → 〜ても + yêu cầu."
+    },
+    {
+     "q": "Tối ở ký túc xá, anh Nguyễn than với bạn cùng phòng: chữ Hán này viết bao nhiêu lần cũng không nhớ nổi.",
+     "opts": [
+      "この漢字[かんじ]、何回[なんかい]書[か]きても覚[おぼ]えられないよ。",
+      "この漢字[かんじ]、何回[なんかい]書[か]いても覚[おぼ]えられないよ。",
+      "この漢字[かんじ]、何回[なんかい]書[か]いたら覚[おぼ]えられないよ。"
+     ],
+     "ans": 1,
+     "why": "Từ để hỏi + ても = \"bao nhiêu lần cũng…\"; 書[か]く → 書[か]いて → 書[か]いても. 書[か]きても chia sai thể て; 書[か]いたら là \"nếu viết thì…\", không hợp."
     }
    ],
    "shift": [
@@ -467,14 +477,24 @@
      ],
      "ans": 0,
      "why": "Sự thật trái mong đợi, kèm than phiền → のに."
+    },
+    {
+     "q": "Giờ nghỉ, anh Nguyễn kể với đồng nghiệp người Nhật, giọng hơi bực: hôm qua là ngày nghỉ của tôi vậy mà bị gọi đi làm gấp.",
+     "opts": [
+      "昨日[きのう]は休[やす]みのに、急[きゅう]に仕事[しごと]に呼[よ]ばれたんですよ。",
+      "昨日[きのう]は休[やす]みでも、急[きゅう]に仕事[しごと]に呼[よ]ばれたんですよ。",
+      "昨日[きのう]は休[やす]みなのに、急[きゅう]に仕事[しごと]に呼[よ]ばれたんですよ。"
+     ],
+     "ans": 2,
+     "why": "Chuyện đã xảy ra, trái mong đợi, kèm bực → のに; danh từ + なのに. 休[やす]みのに thiếu な; 休[やす]みでも là \"dù là ngày nghỉ đi nữa\" (giả định)."
     }
    ],
    "shift": [
     {
-     "from": "言[い]うてくれたらよかったのに。",
+     "from": "言[ゆ]うてくれたらよかったのに。",
      "to": "言[い]ってくだされば良[よ]かったのですが。",
      "kind": "lichsu",
-     "note": "Kansai: 言[い]うて = 言[い]って. Với cấp trên, đổi のに (nghe như trách) thành 〜ば良[よ]かったのですが.",
+     "note": "Kansai: 言[ゆ]うて = 言[い]って. Với cấp trên, đổi のに (nghe như trách) thành 〜ば良[よ]かったのですが.",
      "wrong": [
       "言[い]ってくれなくてもいいです。",
       "言[い]ってくださってありがとうございます。"

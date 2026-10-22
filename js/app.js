@@ -388,6 +388,8 @@ async function init() {
   initTapFx();
   chrome();
   try { initBackFab(ctx); } catch (e) { console.warn('backfab', e); }
+  import('./watch.js').then(m => m.initWatch()).catch(e => console.warn('watch', e)); // v53: đồng hồ lộ cơ nổi
+  initThemeColor();
   // v32: thanh trên trong suốt; cuộn xuống thì thành kính mờ để chữ trang không đè tiêu đề
   const tb = $('#topbar'), tbSync = () => tb.classList.toggle('is-scrolled', scrollY > 4);
   addEventListener('scroll', tbSync, { passive: true }); tbSync();
@@ -427,3 +429,31 @@ async function init() {
   });
 }
 init();
+
+// v53: app không còn chạy toàn màn hình → thanh trạng thái của điện thoại (giờ, pin) hiện lại; cho nó cùng màu thanh trên cùng của app
+function initThemeColor() {
+  const meta = document.querySelector('meta[name=theme-color]');
+  if (!meta) return;
+  let q = 0;
+  const sync = () => {
+    q = 0;
+    const tb = document.getElementById('topbar'); if (!tb) return;
+    const m = (getComputedStyle(tb).backgroundColor.match(/[\d.]+/g) || []).map(Number);
+    if (m.length < 3) return;
+    let [r, g, b, a = 1] = m;
+    if (a < 1) { // thanh trên trong suốt (nằm trên cảnh nền): trộn với màu nền trang
+      const bm = (getComputedStyle(document.documentElement).backgroundColor.match(/[\d.]+/g) || [235, 240, 243]).map(Number);
+      r = r * a + bm[0] * (1 - a); g = g * a + bm[1] * (1 - a); b = b * a + bm[2] * (1 - a);
+    }
+    const c = `rgb(${Math.round(r)}, ${Math.round(g)}, ${Math.round(b)})`;
+    if (meta.content !== c) meta.content = c;
+  };
+  const later = () => { if (!q) q = requestAnimationFrame(sync); setTimeout(later2, 320); }; // thanh trên đổi màu có chuyển tiếp .25 s
+  const later2 = () => { if (!q) q = requestAnimationFrame(sync); };
+  const mo = new MutationObserver(later);
+  mo.observe(document.documentElement, { attributes: true, attributeFilter: ['style', 'class', 'data-theme'] });
+  const tb = document.getElementById('topbar'); if (tb) mo.observe(tb, { attributes: true, attributeFilter: ['class'] });
+  addEventListener('tn-settings', later);
+  matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', later);
+  later();
+}

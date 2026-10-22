@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "ことなしに + thể từ điển, vế sau phủ định (できません). Thể ない trước ことなしに là phủ định hai lần (sai); vế sau khẳng định thì ngược ý."
+    },
+    {
+     "q": "Anh Nguyễn viết bài luận cho cuộc thi viết của công ty: không học tiếng Nhật thì không thể hiểu sâu văn hóa Nhật.",
+     "opts": [
+      "日本語[にほんご]を学[まな]ばないことなしに、日本[にほん]の文化[ぶんか]を深[ふか]く理解[りかい]することはできない。",
+      "日本語[にほんご]を学[まな]ぶことなしに、日本[にほん]の文化[ぶんか]を深[ふか]く理解[りかい]することができる。",
+      "日本語[にほんご]を学[まな]ぶことなしに、日本[にほん]の文化[ぶんか]を深[ふか]く理解[りかい]することはできない。"
+     ],
+     "ans": 2,
+     "why": "Không làm A thì không thể B → thể từ điển + ことなしに + vế phủ định. Gắn sau thể ない là phủ định hai lần; vế sau khẳng định là sai."
     }
    ],
    "shift": [
@@ -479,6 +489,16 @@
      ],
      "ans": 0,
      "why": "Danh từ + なくしては + vế phủ định (できませんでした). Không chen の; vế sau khẳng định thì sai mẫu và ngược ý."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) soạn khẩu hiệu cho tháng an toàn lao động của xưởng: không có an toàn thì không thể có sản xuất.",
+     "opts": [
+      "安全[あんぜん]のなくして、生産[せいさん]はありえない。",
+      "安全[あんぜん]なくして、生産[せいさん]はありえない。",
+      "安全[あんぜん]なくして、生産[せいさん]はできる。"
+     ],
+     "ans": 1,
+     "why": "Không có A thì không thể B → Danh từ + なくして + vế phủ định. Không chen の; vế sau khẳng định là sai."
     }
    ],
    "shift": [
@@ -718,6 +738,16 @@
      ],
      "ans": 0,
      "why": "Danh từ + あってのことです = có được là nhờ…. あるの sai dạng; あっての không gắn sau động từ (指摘[してき]した)."
+    },
+    {
+     "q": "Một đàn em cứ tăng ca liên tục đến kiệt sức. Anh Nguyễn khuyên: có sức khỏe thì mới có công việc, đừng cố quá.",
+     "opts": [
+      "仕事[しごと]あっての健康[けんこう]だから、無理[むり]するなよ。",
+      "健康[けんこう]のあっての仕事[しごと]だから、無理[むり]するなよ。",
+      "健康[けんこう]あっての仕事[しごと]だから、無理[むり]するなよ。"
+     ],
+     "ans": 2,
+     "why": "Có A (nền tảng) mới có B → A あっての B: 健康[けんこう]あっての仕事[しごと]. Đảo A – B là sai logic; không chen の trước あっての."
     }
    ],
    "shift": [

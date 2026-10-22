@@ -1087,3 +1087,34 @@ Bản này làm theo đề xuất "Lộ trình học hiệu quả cho người V
 - Dữ liệu riêng của app (mới): `data/docwords.json` (từ của từng bài đọc, để tính %).
 - Dữ liệu (mới): `modau-n4-28` … `modau-n4-33`. Dữ liệu (sửa): `baihoc-caunoi`.
 - `data/manifest.json`.
+
+## 61. Bản v52 (22/10/2026): Bổ sung bài tập N4–N1 — Tình huống thật, câu ví dụ, câu tình huống ngữ pháp
+
+**Tình huống thật sau mỗi 5 bài** (Lộ trình → danh sách bài, mục "Tình huống thật · bài a–b"; cũng có trong Hội thoại & bài đọc):
+- 31 hội thoại mới: N4 6 · N3 7 · N2 8 · N1 10. Mỗi bài 19–24 lượt, một cảnh đời thật nơi từ và mẫu ngữ pháp của cả 5 bài gặp lại nhau (10–15 mẫu, 15–27 từ của khối), kèm 5 câu hỏi. N4 hỏi bằng tiếng Việt; N3–N1 hỏi bằng tiếng Nhật kiểu đề JLPT.
+- Ví dụ: N4 "Chuyến câu cá của tổ", "Mất điện giữa ca chiều"; N3 "Đơn hàng kịp giờ sau cơn giông", "Tổ trưởng mới đón khách xem xưởng"; N2 "Ngày bão vào gần", "Sau khi đỗ N2: tòa thị chính và nội quy mới"; N1 "Họp tổ sửa sổ tay quy trình", "Trưa 27/1: mở kết quả N1".
+- Mục này trước đây chỉ có 20 câu ôn do app tự soạn; nay mở thẳng hội thoại (làm xong câu hỏi thì mục có ✓). Trang Hội thoại & bài đọc gom các bài này thành mục riêng.
+
+**Câu ví dụ:** 867 câu mới — mọi động từ, tính từ, danh từ + する cấp N4–N1 nay có ít nhất 3 câu, mỗi câu một tình huống khác (đời sống, xưởng, thủ tục, hội thoại, Kansai). Bài Ghép câu, Thể động từ, Dịch, Trắc nghiệm có thêm câu mới.
+
+**Câu tình huống ngữ pháp** (bài "Chọn cách nói hợp hoàn cảnh", cũng có trong Luyện ngữ pháp → Trộn các dạng): 442 câu mới — mỗi mẫu N4–N1 thêm 1 tình huống khác hẳn cái đã có (khác người nói, người nghe, nơi chốn). N2–N1 có nhiều cảnh công việc của tổ trưởng / chủ nhiệm: họp, báo cáo, email khách hàng, phát biểu.
+
+**Sửa:** cách đọc 今 trong 今外出 / 今料理中 (いま); giọng Kansai 言うて / 言うた đọc ゆうて / ゆうた; nghĩa của vài câu cũ thiếu bối cảnh.
+
+**Tệp:**
+- Mã: `js/lesson.js`, `js/reader.js`, `js/guides.js`, `js/util.js`, `sw.js`.
+- Dữ liệu (mới): `tonghop-n4-05` … `tonghop-n1-50` (31 gói).
+- Dữ liệu (sửa): gói từ vựng N3–N1 và vài gói N4, gói chủ đề (thêm câu ví dụ); `nguphap-n4-*` … `nguphap-n1-*` (thêm tình huống); vài gói sửa cách đọc. `data/docwords.json`, `data/manifest.json`.
+
+## 62. Bản v53 (22/10/2026): Bỏ chế độ toàn màn hình; đồng hồ lộ cơ nổi
+
+**Không còn toàn màn hình:** app cài trên màn hình chính nay mở như ứng dụng thường — thanh trạng thái của điện thoại (giờ, pin, sóng) hiện lại ở trên cùng, cùng màu nền của app.
+- Điện thoại Android tự cập nhật kiểu hiển thị trong vòng khoảng một ngày sau khi app có bản mới. Nếu vẫn còn toàn màn hình: gỡ biểu tượng app khỏi màn hình chính rồi mở trang web và thêm lại (tiến độ không mất — dữ liệu nằm trong trình duyệt và đã đồng bộ).
+
+**Đồng hồ lộ cơ nổi** (góc trên bên phải, dưới thanh trên cùng):
+- Mặt kính nhìn thấu cả bộ máy cơ lên dây tay: hộp cót và dây cót, bánh xe giữa, bánh thứ ba, bánh thứ tư, bánh thoát 15 răng, càng hãm có đá hồng ngọc, bánh lắc có vít chỉnh và dây tóc, các cầu khoét, chân kính đỏ, vít thép xanh.
+- Chạy như đồng hồ cơ thật, theo tỉ số răng thật: bánh lắc dao động 3 lần mỗi giây (21.600 dao động/giờ, biên độ khoảng ±280°), bánh thoát nhả từng nấc nên kim giây ở ô số 6 nhảy 6 bước mỗi giây; bánh thứ tư 1 vòng / phút, bánh xe giữa (kim phút) 1 vòng / giờ, hộp cót 1 vòng / 6 giờ. Kim chỉ đúng giờ của máy.
+- **Bấm** vào đồng hồ để xem lớn: giờ số, ngày (kèm cách viết tiếng Nhật 10月22日（木）), các bộ phận được **đánh số 1–9** ngay trên máy, bên dưới là bảng tên tiếng Nhật có furigana + nghĩa tiếng Việt; bấm một số thì tên bộ phận hiện ngay dưới đồng hồ và dòng tương ứng sáng lên (香箱 hộp cót, 二番車, 三番車, 四番車, ガンギ車 bánh thoát, アンクル càng hãm, テンプ bánh lắc, ヒゲゼンマイ dây tóc, 角穴車 bánh lên dây).
+- **Giữ 0,7 giây** rồi kéo để đổi chỗ (app nhớ chỗ). **Cài đặt → Giao diện → Đồng hồ lộ cơ nổi**: bật / tắt, cỡ Nhỏ / Vừa / Lớn, "Chuyển động đầy đủ" (tắt thì đồng hồ chỉ nhảy mỗi giây một lần cho đỡ tốn pin; máy bật "giảm chuyển động" cũng vậy).
+
+**Tệp:** `manifest.webmanifest`, `js/watch.js` (mới), `js/app.js`, `js/settings.js`, `js/settingspage.js`, `js/guides.js`, `js/util.js`, `css/app.css`, `sw.js`.

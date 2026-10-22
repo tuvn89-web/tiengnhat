@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 3,
+  "version": 4,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -228,6 +228,16 @@
      ],
      "ans": 0,
      "why": "Đôi khi → thể từ điển + こともある."
+    },
+    {
+     "q": "Người mới hỏi đi xe buýt buổi sáng đến xưởng có ổn không. Anh Nguyễn dặn: xe buýt sáng cũng có khi không đến đúng giờ đâu, nên đi sớm.",
+     "opts": [
+      "朝[あさ]のバスは、時間[じかん]どおりに来[こ]ないのこともあるよ。",
+      "朝[あさ]のバスは、時間[じかん]どおりに来[こ]ないこともあるよ。",
+      "朝[あさ]のバスは、時間[じかん]どおりに来[く]ることもないよ。"
+     ],
+     "ans": 1,
+     "why": "Cũng có khi (không)… → thể ない + こともある. Không chen の; 来[く]ることもない là \"cũng chẳng cần đến\", nghĩa khác."
     }
    ],
    "shift": [
@@ -442,6 +452,16 @@
      ],
      "ans": 0,
      "why": "Biển báo, lý do → につき."
+    },
+    {
+     "q": "Anh Nguyễn viết thông báo tiệc tất niên của tổ dán ở phòng nghỉ (văn thông báo): phí tham gia mỗi người 3000 yên.",
+     "opts": [
+      "参加費[さんかひ]は、一人[ひとり]のにつき3000円[えん]です。",
+      "参加費[さんかひ]は、一人[ひとり]について3000円[えん]です。",
+      "参加費[さんかひ]は、一人[ひとり]につき3000円[えん]です。"
+     ],
+     "ans": 2,
+     "why": "Mỗi (đơn vị tính), văn thông báo → số lượng + につき: 一人[ひとり]につき. Không thêm の; について là \"về (nội dung)\"."
     }
    ],
    "shift": [
@@ -662,6 +682,16 @@
      ],
      "ans": 0,
      "why": "Đi rồi không về → たきり."
+    },
+    {
+     "q": "Tổ trưởng hỏi anh Nguyễn có biết rõ trưởng phòng mới không. Anh nói: tôi mới gặp ông ấy đúng một lần thôi ạ.",
+     "opts": [
+      "新[あたら]しい部長[ぶちょう]には、一度[いちど]きりしか会[あ]ったことがありません。",
+      "新[あたら]しい部長[ぶちょう]には、一度[いちど]のきりしか会[あ]ったことがありません。",
+      "新[あたら]しい部長[ぶちょう]には、一度[いちど]きりも会[あ]ったことがありません。"
+     ],
+     "ans": 0,
+     "why": "Chỉ (duy nhất) → số lượng + きり (thường kèm しか〜ない). Không chen の trước きり; きりも + phủ định thành \"không lần nào\", sai ý."
     }
    ],
    "shift": [

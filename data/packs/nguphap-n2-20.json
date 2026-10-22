@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -233,6 +233,16 @@
      ],
      "ans": 0,
      "why": "Khẳng định mạnh, đề cao công sức mọi người → にほかなりません. にすぎません = chỉ là (coi nhẹ — thất lễ); ほかありません sai dạng."
+    },
+    {
+     "q": "Trong buổi họp rút kinh nghiệm, anh Nguyễn (chủ nhiệm) nói thẳng: sự cố lần này xảy ra chính là vì đã không kiểm tra lại, không gì khác.",
+     "opts": [
+      "今回[こんかい]のミスが起[お]きたのは、確認[かくにん]しなかったにほかなりません。",
+      "今回[こんかい]のミスが起[お]きたのは、確認[かくにん]しなかったからにすぎません。",
+      "今回[こんかい]のミスが起[お]きたのは、確認[かくにん]しなかったからにほかなりません。"
+     ],
+     "ans": 2,
+     "why": "Khẳng định \"chính là vì…\" → 〜からにほかならない. Không gắn thẳng động từ vào にほかならない; にすぎない = \"chỉ là… thôi\" (coi nhẹ), không hợp khi muốn nhấn nguyên nhân."
     }
    ],
    "shift": [
@@ -477,6 +487,16 @@
      ],
      "ans": 0,
      "why": "Chỉ là… (coi nhẹ) → danh từ + にすぎません. Không thêm だ, trợ từ luôn là に."
+    },
+    {
+     "q": "Khách hàng khen anh Nguyễn xử lý sự cố rất giỏi. Anh khiêm tốn đáp: tôi chỉ làm theo sổ hướng dẫn thôi ạ.",
+     "opts": [
+      "私[わたし]はマニュアル通[とお]りにやったにすぎません。",
+      "私[わたし]はマニュアル通[とお]りにやりましたにすぎません。",
+      "私[わたし]はマニュアル通[とお]りにやったにほかなりません。"
+     ],
+     "ans": 0,
+     "why": "Chỉ là… mà thôi (hạ thấp, khiêm tốn) → thể thường + にすぎません. Không dùng thể ます trước にすぎない; にほかならない = \"chính là\", nhấn mạnh, không khiêm tốn."
     }
    ],
    "shift": [
@@ -718,6 +738,16 @@
      ],
      "ans": 0,
      "why": "Bạn thân, khẳng định chắc chắn → thể thường + に決[き]まってる (khẩu ngữ). Không thêm だ; に決[き]めてる sai dạng."
+    },
+    {
+     "q": "Đồng nghiệp thân định một mình làm hết chỗ hàng này trong buổi sáng. Anh Nguyễn gạt đi: làm sao nổi, chắc chắn là không được đâu.",
+     "opts": [
+      "一人[ひとり]で午前中[ごぜんちゅう]に全部[ぜんぶ]やるなんて、無理[むり]だに決[き]まってるよ。",
+      "一人[ひとり]で午前中[ごぜんちゅう]に全部[ぜんぶ]やるなんて、無理[むり]なに決[き]まってるよ。",
+      "一人[ひとり]で午前中[ごぜんちゅう]に全部[ぜんぶ]やるなんて、無理[むり]に決[き]まってるよ。"
+     ],
+     "ans": 2,
+     "why": "Tin chắc (khẩu ngữ) → tính từ な bỏ だ + に決[き]まってる: 無理[むり]に決[き]まってる. Không thêm だ hay な trước に決[き]まっている."
     }
    ],
    "shift": [

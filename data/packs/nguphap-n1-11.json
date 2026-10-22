@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "Văn viết, nêu mục đích → 辞書形[じしょけい] + べく (する → すべく / するべく). べき không nối câu; しべく sai dạng."
+    },
+    {
+     "q": "Anh Nguyễn viết bài giới thiệu bản thân cho bản tin công ty (văn viết): để đỗ N1, mỗi sáng tôi dậy sớm hơn một tiếng để học.",
+     "opts": [
+      "N1に合格[ごうかく]できるべく、毎朝[まいあさ]一時間[いちじかん]早[はや]く起[お]きて勉強[べんきょう]している。",
+      "N1に合格[ごうかく]すべく、毎朝[まいあさ]一時間[いちじかん]早[はや]く起[お]きて勉強[べんきょう]している。",
+      "N1に合格[ごうかく]すべく、毎朝[まいあさ]一時間[いちじかん]早[はや]く起[お]きて勉強[べんきょう]しなさい。"
+     ],
+     "ans": 1,
+     "why": "Mục đích kèm nỗ lực (văn viết) → động từ ý chí thể từ điển + べく: 合格[ごうかく]すべく. べく không đi với thể khả năng (dùng ように); vế sau không được là mệnh lệnh."
     }
    ],
    "shift": [
@@ -490,6 +500,16 @@
      ],
      "ans": 0,
      "why": "Thể ない bỏ ない + ん: 売[う]ら(ない) → 売[う]らんがため. 売[う]るん / 売[う]りん là chia sai."
+    },
+    {
+     "q": "Anh Nguyễn viết bài phóng sự cho bản tin nội bộ: để quyết giành chức vô địch cuộc thi tay nghề của tỉnh, tổ cấp đông luyện tập mỗi ngày sau giờ làm.",
+     "opts": [
+      "県[けん]大会[たいかい]で優勝[ゆうしょう]しんがために、冷凍[れいとう]班[はん]は毎日[まいにち]仕事[しごと]の後[あと]も練習[れんしゅう]を重[かさ]ねた。",
+      "県[けん]大会[たいかい]で優勝[ゆうしょう]するんがために、冷凍[れいとう]班[はん]は毎日[まいにち]仕事[しごと]の後[あと]も練習[れんしゅう]を重[かさ]ねた。",
+      "県[けん]大会[たいかい]で優勝[ゆうしょう]せんがために、冷凍[れいとう]班[はん]は毎日[まいにち]仕事[しごと]の後[あと]も練習[れんしゅう]を重[かさ]ねた。"
+     ],
+     "ans": 2,
+     "why": "Khao khát mãnh liệt (văn viết) → thể ない bỏ ない + ん: する → せんがために. しんがため, するんがため đều chia sai."
     }
    ],
    "shift": [
@@ -729,6 +749,16 @@
      ],
      "ans": 0,
      "why": "Như thể muốn nói \"…\" → 言[い]わんばかりに (thể ない bỏ ない + ん). 言[い]うん sai cách chia; 言[い]ったばかりに = chỉ vì đã nói (sai nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn viết bài cho bản tin về lễ trao giải: khi công bố kết quả, cả hội trường vang lên tràng pháo tay như muốn vỡ tung.",
+     "opts": [
+      "結果[けっか]が発表[はっぴょう]されると、会場[かいじょう]は割[わ]れたばかりの拍手[はくしゅ]に包[つつ]まれた。",
+      "結果[けっか]が発表[はっぴょう]されると、会場[かいじょう]は割[わ]れんばかりの拍手[はくしゅ]に包[つつ]まれた。",
+      "結果[けっか]が発表[はっぴょう]されると、会場[かいじょう]は割[わ]れるんばかりの拍手[はくしゅ]に包[つつ]まれた。"
+     ],
+     "ans": 1,
+     "why": "Như sắp… đến nơi, trước danh từ → thể ない bỏ ない + んばかりの: 割[わ]れんばかりの拍手[はくしゅ]. 割[わ]れるん là chia sai; たばかり = \"vừa mới\", sai nghĩa."
     }
    ],
    "shift": [

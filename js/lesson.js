@@ -134,7 +134,7 @@ export function reviewDue(x) {
 }
 export const dueReviews = () => allLessons().filter(x => reviewDue(x));
 
-// ---------- từ liên quan (bước 2) ----------
+// ---------- từ liên quan (tab Liên quan) ----------
 const REL = { pair: 'cặp tự – tha', ant: 'trái nghĩa', syn: 'đồng nghĩa', confuse: 'dễ nhầm', rel: 'cùng gốc' };
 // v39: chỉ mục chữ Hán → các từ có chữ đó (dựng một lần) — trước đây mỗi chữ quét lại cả 5.000 từ, mở Lộ trình mất vài giây
 let _kIdx = null, _kKey = '';
@@ -209,10 +209,10 @@ export function lessonListHTML(L, { limit } = {}) {
   return `<ol class="lessons">${rows.join('')}</ol>`;
 }
 function thRowHTML(x) {
-  const d = realDialog(x), r = D.lessons[x.id]?.th;
+  const d = realDialog(x), r = D.lessons[x.id]?.th, ok = d ? !!D.lessons[d.id]?.done || !!r?.ok : !!r?.ok;
   const from = x.n - 4;
-  return `<li class="ls ls-th${r?.ok ? ' is-done' : ''}"><a href="${d ? `#/doc/${encodeURIComponent(d.id)}` : `#/tonghop/${encodeURIComponent(x.id)}`}"><span class="ls-n">${icon('chat')}</span>
-    <span class="ls-t"><b>Tình huống thật · bài ${from}–${x.n}</b><small>${d ? rich(d.title) : 'Ôn tổng hợp 20 câu từ 5 bài vừa học'}</small></span><span class="ls-p">${r?.ok ? '✓' : ''}</span></a></li>`;
+  return `<li class="ls ls-th${ok ? ' is-done' : ''}"><a href="${d ? `#/doc/${encodeURIComponent(d.id)}` : `#/tonghop/${encodeURIComponent(x.id)}`}"><span class="ls-n">${icon('chat')}</span>
+    <span class="ls-t"><b>Tình huống thật · bài ${from}–${x.n}</b><small>${d ? rich(d.title) : 'Ôn tổng hợp 20 câu từ 5 bài vừa học'}</small></span><span class="ls-p">${ok ? '✓' : ''}</span></a></li>`;
 }
 const realDialog = x => D.dialog.find(d => d.tonghop && d.lesson === x.id);
 

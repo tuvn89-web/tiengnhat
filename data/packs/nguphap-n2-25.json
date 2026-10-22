@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -229,6 +229,16 @@
      ],
      "ans": 0,
      "why": "Chỉ còn cách → thể từ điển + しかない. 借[か]りないしかない: sai thể; までもない = không cần đến mức… (sai nghĩa)."
+    },
+    {
+     "q": "Hồ sơ gia hạn visa bị trả lại vì thiếu một giấy xác nhận. Anh Nguyễn nói với vợ: chỉ còn cách nhờ công ty làm lại thôi.",
+     "opts": [
+      "書類[しょるい]が足[た]りないから、会社[かいしゃ]にもう一度[いちど]頼[たの]むまでもない。",
+      "書類[しょるい]が足[た]りないから、会社[かいしゃ]にもう一度[いちど]頼[たの]むほかない。",
+      "書類[しょるい]が足[た]りないから、会社[かいしゃ]にもう一度[いちど]頼[たの]みほかない。"
+     ],
+     "ans": 1,
+     "why": "Chỉ còn cách → thể từ điển + ほかない: 頼[たの]むほかない. Không dùng thân ます; までもない = \"không cần phải\", ngược nghĩa."
     }
    ],
    "shift": [
@@ -463,6 +473,16 @@
      ],
      "ans": 0,
      "why": "Hết cách, chỉ còn đường này (trang trọng) → thể từ điển + よりほかありません. 借[か]りない: sai thể; までもない = không cần đến mức… (sai nghĩa)."
+    },
+    {
+     "q": "Tuyết làm tàu ngừng chạy. Anh Nguyễn gọi điện báo trưởng phòng (lịch sự): không còn cách nào khác ngoài chờ tàu chạy lại.",
+     "opts": [
+      "電車[でんしゃ]が止[と]まっているので、動[うご]くまで待[ま]ちよりほかありません。",
+      "電車[でんしゃ]が止[と]まっているので、動[うご]くまで待[ま]たないよりほかありません。",
+      "電車[でんしゃ]が止[と]まっているので、動[うご]くまで待[ま]つよりほかありません。"
+     ],
+     "ans": 2,
+     "why": "Không còn cách nào khác → thể từ điển + よりほかない: 待[ま]つよりほかありません. Không dùng thân ます hay thể ない."
     }
    ],
    "shift": [
@@ -701,6 +721,16 @@
      ],
      "ans": 0,
      "why": "Không cần đến mức đó (vì đã rõ) → thể từ điển + までもない. しかない = chỉ còn cách (ngược nghĩa); 聞[き]かない: sai thể."
+    },
+    {
+     "q": "Mở đầu buổi họp an toàn, anh Nguyễn (chủ nhiệm) nói: khỏi phải nói, an toàn là trên hết.",
+     "opts": [
+      "言[い]うまでもなく、安全[あんぜん]が第一[だいいち]です。",
+      "言[い]うまでになく、安全[あんぜん]が第一[だいいち]です。",
+      "言[い]わないまでもなく、安全[あんぜん]が第一[だいいち]です。"
+     ],
+     "ans": 0,
+     "why": "Khỏi phải nói → 言[い]うまでもなく. までに là hạn chót, không dùng ở đây; không chia thể ない trước までもない."
     }
    ],
    "shift": [

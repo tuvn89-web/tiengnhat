@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -232,6 +232,16 @@
      ],
      "ans": 0,
      "why": "Vấn đề gây tranh cãi, nhiều bên → をめぐって (trợ từ を). にとって = đối với (góc nhìn của ai)."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) mở đầu buổi họp tổ: hôm nay tôi muốn bàn về chuyện xoay quanh việc chia ca cuối năm (đang có nhiều ý kiến trái chiều).",
+     "opts": [
+      "今日[きょう]は、年末[ねんまつ]のシフトをめぐる問題[もんだい]について話[はな]し合[あ]いたいと思[おも]います。",
+      "今日[きょう]は、年末[ねんまつ]のシフトをめぐって問題[もんだい]について話[はな]し合[あ]いたいと思[おも]います。",
+      "今日[きょう]は、年末[ねんまつ]のシフトにめぐる問題[もんだい]について話[はな]し合[あ]いたいと思[おも]います。"
+     ],
+     "ans": 0,
+     "why": "Vấn đề gây tranh cãi, đứng trước danh từ → をめぐる + Danh từ. Trước danh từ không dùng めぐって; trợ từ là を, không phải に."
     }
    ],
    "shift": [
@@ -462,6 +472,16 @@
      ],
      "ans": 0,
      "why": "Động từ + の + をきっかけに. をめぐって = xoay quanh chuyện tranh cãi — không hợp."
+    },
+    {
+     "q": "Bạn hỏi anh Nguyễn sao dạo này không thấy hút thuốc. Anh kể: nhân lần nằm viện năm ngoái mà tôi bỏ thuốc luôn.",
+     "opts": [
+      "去年[きょねん]の入院[にゅういん]にきっかけで、たばこをやめたんだ。",
+      "去年[きょねん]の入院[にゅういん]をめぐって、たばこをやめたんだ。",
+      "去年[きょねん]の入院[にゅういん]をきっかけに、たばこをやめたんだ。"
+     ],
+     "ans": 2,
+     "why": "Sự việc là cú hích để thay đổi → Danh từ + をきっかけに (hoặc がきっかけで). Không ghép に với きっかけで; をめぐって = \"xoay quanh tranh cãi\"."
     }
    ],
    "shift": [
@@ -707,6 +727,16 @@
      ],
      "ans": 0,
      "why": "Phát biểu trang trọng, sự kiện lớn làm bước ngoặt → を契機[けいき]に. にとって = đối với; に反[はん]して = trái với."
+    },
+    {
+     "q": "Thông báo của ban giám đốc gửi toàn công ty (văn bản trang trọng): nhân việc sáp nhập với công ty khác, công ty sẽ đổi tên.",
+     "opts": [
+      "他社[たしゃ]と合併[がっぺい]したのを契機[けいき]に、社名[しゃめい]を変更[へんこう]いたします。",
+      "他社[たしゃ]と合併[がっぺい]したを契機[けいき]に、社名[しゃめい]を変更[へんこう]いたします。",
+      "他社[たしゃ]と合併[がっぺい]したのをめぐって、社名[しゃめい]を変更[へんこう]いたします。"
+     ],
+     "ans": 0,
+     "why": "Sự kiện lớn thành bước ngoặt (văn bản) → động từ thể た + の + を契機[けいき]に. Không bỏ の sau động từ; をめぐって = \"xoay quanh tranh cãi\", sai nghĩa."
     }
    ],
    "shift": [

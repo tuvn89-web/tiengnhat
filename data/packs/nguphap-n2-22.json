@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -235,6 +235,16 @@
      ],
      "ans": 0,
      "why": "Từ chối lịch sự với khách → お〜しかねます. かねません = có thể sẽ… (nghĩa khác); がち = hay… (sai nghĩa)."
+    },
+    {
+     "q": "Khách hàng đề nghị giảm giá thêm. Anh Nguyễn (chủ nhiệm) từ chối lịch sự: việc này một mình tôi không thể quyết được.",
+     "opts": [
+      "悪[わる]いけど、私[わたし]だけじゃ決[き]められないよ。",
+      "申[もう]し訳[わけ]ありませんが、私[わたし]だけでは判断[はんだん]しかねます。",
+      "申[もう]し訳[わけ]ありませんが、私[わたし]だけでは判断[はんだん]しかねません。"
+     ],
+     "ans": 1,
+     "why": "Từ chối lịch sự với khách → thân ます + かねます. しかねません lại thành \"có thể sẽ phán đoán\" (ngược ý); câu thể thường \"決[き]められないよ\" không được nói với khách."
     }
    ],
    "shift": [
@@ -475,6 +485,16 @@
      ],
      "ans": 0,
      "why": "Cảnh báo kết quả xấu có thể xảy ra → thân ます + かねない. かねる = không thể làm (từ chối); なるかねない: sai thể."
+    },
+    {
+     "q": "Anh Nguyễn viết báo cáo gửi trưởng phòng về việc nhãn hay dán lệch: nếu cứ để thế này, có thể dẫn đến khiếu nại từ khách hàng.",
+     "opts": [
+      "このままでは、お客様[きゃくさま]からのクレームにつながるかねません。",
+      "このままでは、お客様[きゃくさま]からのクレームにつながりかねます。",
+      "このままでは、お客様[きゃくさま]からのクレームにつながりかねません。"
+     ],
+     "ans": 2,
+     "why": "Có nguy cơ xảy ra chuyện xấu (lịch sự) → thân ます + かねません. Không gắn sau thể từ điển; かねます = \"không thể (làm)\", nghĩa khác hẳn."
     }
    ],
    "shift": [
@@ -716,6 +736,16 @@
      ],
      "ans": 0,
      "why": "Có thể xảy ra → あり得[う]る. あり得[え]ない = không thể có (ngược nghĩa); ありかねる: sai (かねる không đi với ある)."
+    },
+    {
+     "q": "Trong cuộc họp với khách hàng về một lô hàng bị khiếu nại, anh Nguyễn báo cáo: chúng tôi đã thực hiện mọi biện pháp có thể nghĩ ra.",
+     "opts": [
+      "考[かんが]え得[う]る対策[たいさく]は、すべて行[おこな]いました。",
+      "考[かんが]える得[う]る対策[たいさく]は、すべて行[おこな]いました。",
+      "考[かんが]えかねない対策[たいさく]は、すべて行[おこな]いました。"
+     ],
+     "ans": 0,
+     "why": "Có thể (khả năng khách quan) → thân ます + 得[う]る: 考[かんが]え得[う]る. Không gắn sau thể từ điển; かねない chỉ nguy cơ xấu, sai nghĩa."
     }
    ],
    "shift": [

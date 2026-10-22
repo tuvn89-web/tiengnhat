@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -225,6 +225,16 @@
      ],
      "ans": 0,
      "why": "Căn cứ vào ghi chép (số liệu chắc chắn) → に基[もと]づいて (trợ từ に). にとって = đối với (sai nghĩa)."
+    },
+    {
+     "q": "Trong buổi họp với trưởng phòng, anh Nguyễn (chủ nhiệm) trình bày bản kế hoạch sản xuất: đây là kế hoạch dựa trên số liệu thực tế.",
+     "opts": [
+      "これは実際[じっさい]のデータを基[もと]づいた計画[けいかく]です。",
+      "これは実際[じっさい]のデータに基[もと]づいた計画[けいかく]です。",
+      "これは実際[じっさい]のデータに基[もと]づいて計画[けいかく]です。"
+     ],
+     "ans": 1,
+     "why": "Căn cứ chặt chẽ, đứng trước danh từ → に基[もと]づいた + Danh từ. 基[もと]づく đi với に, không đi với を; trước danh từ không dùng thể て."
     }
    ],
    "shift": [
@@ -454,6 +464,16 @@
      ],
      "ans": 0,
      "why": "Lấy A làm cơ sở để tạo ra B → をもとに (trợ từ を). はもとより = A đương nhiên, B cũng (sai nghĩa)."
+    },
+    {
+     "q": "Gọi video với mẹ ở quê, anh Nguyễn khoe: con đã thử nấu món Việt dựa theo công thức của mẹ.",
+     "opts": [
+      "母[はは]のレシピはもとより、ベトナム料理[りょうり]を作[つく]ってみたよ。",
+      "母[はは]のレシピにもとにして、ベトナム料理[りょうり]を作[つく]ってみたよ。",
+      "母[はは]のレシピをもとにして、ベトナム料理[りょうり]を作[つく]ってみたよ。"
+     ],
+     "ans": 2,
+     "why": "Lấy A làm chất liệu để tạo ra cái mới → をもとにして (trợ từ を). にもとに sai trợ từ; はもとより = \"A đương nhiên, B cũng\", khác hẳn nghĩa."
     }
    ],
    "shift": [
@@ -691,6 +711,16 @@
      ],
      "ans": 0,
      "why": "Rút kinh nghiệm việc đã xảy ra → を踏[ふ]まえて (trợ từ を). にとって = đối với (sai nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn viết email gửi trưởng phòng: tôi đã làm lại bảng phân ca trên cơ sở xem xét ý kiến của các thành viên trong tổ.",
+     "opts": [
+      "班員[はんいん]の意見[いけん]を踏[ふ]まえて、シフト表[ひょう]を作[つく]り直[なお]しました。",
+      "班員[はんいん]の意見[いけん]に踏[ふ]まえて、シフト表[ひょう]を作[つく]り直[なお]しました。",
+      "班員[はんいん]の意見[いけん]をめぐって、シフト表[ひょう]を作[つく]り直[なお]しました。"
+     ],
+     "ans": 0,
+     "why": "Xem xét, rút từ ý kiến đã có rồi làm B → を踏[ふ]まえて (trợ từ を). をめぐって = \"xoay quanh (chuyện tranh cãi)\", sai nghĩa."
     }
    ],
    "shift": [

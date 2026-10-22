@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Tuy A nhưng B chưa như mong đợi → ものの. ものなら = nếu mà được; もので = vì (sai logic)."
+    },
+    {
+     "q": "Anh Nguyễn báo với trưởng phòng về người mới vào: tuy anh ấy là người có kinh nghiệm, nhưng có vẻ chưa quen quy tắc vệ sinh của Nhật.",
+     "opts": [
+      "彼[かれ]は経験者[けいけんしゃ]ものの、日本[にほん]の衛生[えいせい]ルールにはまだ慣[な]れていないようです。",
+      "彼[かれ]は経験者[けいけんしゃ]であるもので、日本[にほん]の衛生[えいせい]ルールにはまだ慣[な]れていないようです。",
+      "彼[かれ]は経験者[けいけんしゃ]であるものの、日本[にほん]の衛生[えいせい]ルールにはまだ慣[な]れていないようです。"
+     ],
+     "ans": 2,
+     "why": "Tuy A nhưng thực tế chưa như mong đợi → Danh từ + であるものの. Danh từ không gắn thẳng (経験者[けいけんしゃ]ものの ✗); もので = \"vì… nên\", sai logic."
     }
    ],
    "shift": [
@@ -488,6 +498,16 @@
      ],
      "ans": 0,
      "why": "Việc khó, mong muốn → thể khả năng + ものなら. ものの = tuy… nhưng; thể từ điển 変[か]わる là sai."
+    },
+    {
+     "q": "Anh Nguyễn (tổ trưởng) dặn người mới ở khâu đóng gói: nếu lỡ mà dù chỉ một sợi tóc lọt vào sản phẩm thì sẽ thành chuyện lớn đấy.",
+     "opts": [
+      "髪[かみ]の毛[け]が一本[いっぽん]でも製品[せいひん]に入[はい]ろうものなら、大[だい]問題[もんだい]になるよ。",
+      "髪[かみ]の毛[け]が一本[いっぽん]でも製品[せいひん]に入[はい]れるものなら、大[だい]問題[もんだい]になるよ。",
+      "髪[かみ]の毛[け]が一本[いっぽん]でも製品[せいひん]に入[はい]るものの、大[だい]問題[もんだい]になるよ。"
+     ],
+     "ans": 0,
+     "why": "Nếu lỡ mà… thì hậu quả nặng → thể ý chí + ものなら: 入[はい]ろうものなら. Thể khả năng + ものなら là \"nếu mà làm được thì\"; ものの = \"tuy… nhưng\"."
     }
    ],
    "shift": [
@@ -745,6 +765,16 @@
      ],
      "ans": 0,
      "why": "Giải thích lý do + xin lỗi cấp trên → もので. ものの = tuy… nhưng (sai logic); ものなら = nếu mà."
+    },
+    {
+     "q": "Lần đầu được giao tiếp khách, anh Nguyễn nói với khách hàng: vì tôi còn chưa quen nên có thể có chỗ thất lễ, mong anh thông cảm.",
+     "opts": [
+      "まだ不慣[ふな]れなもので、失礼[しつれい]な点[てん]があるかもしれません。",
+      "まだ不慣[ふな]れもので、失礼[しつれい]な点[てん]があるかもしれません。",
+      "まだ不慣[ふな]れなものなら、失礼[しつれい]な点[てん]があるかもしれません。"
+     ],
+     "ans": 0,
+     "why": "Nêu lý do xin thông cảm → tính từ な + な + もので: 不慣[ふな]れなもので. Thiếu な là sai; ものなら = \"nếu mà…\", sai nghĩa."
     }
    ],
    "shift": [

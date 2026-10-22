@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Dù có… cũng chẳng được gì → thể た + ところで. たところ = làm thì thấy (kể kết quả đã xảy ra)."
+    },
+    {
+     "q": "Người mới bị mắng vì cắt sai quy cách, cứ ngồi buồn. Anh Nguyễn an ủi: giờ có hối hận thì cũng chẳng thay đổi được gì, lần sau cẩn thận là được.",
+     "opts": [
+      "今[いま]さら後悔[こうかい]するところで、どうにもならないよ。次[つぎ]から気[き]をつければいい。",
+      "今[いま]さら後悔[こうかい]したところ、どうにもならないよ。次[つぎ]から気[き]をつければいい。",
+      "今[いま]さら後悔[こうかい]したところで、どうにもならないよ。次[つぎ]から気[き]をつければいい。"
+     ],
+     "ans": 2,
+     "why": "Dù có làm cũng vô ích → thể た + ところで. Thể từ điển là sai cách nối; たところ (không で) = \"thử làm thì thấy\", kể kết quả."
     }
    ],
    "shift": [
@@ -480,6 +490,16 @@
      ],
      "ans": 0,
      "why": "Suýt nữa (may mà không) → thể từ điển + ところでした (lịch sự)."
+    },
+    {
+     "q": "Anh Nguyễn kể với đồng nghiệp: nếu chị Tanaka không nhắc thì suýt nữa thẻ cư trú của tôi đã quá hạn.",
+     "opts": [
+      "田中[たなか]さんが教[おし]えてくれなかったら、在留[ざいりゅう]カードの期限[きげん]が切[き]れるところだったよ。",
+      "田中[たなか]さんが教[おし]えてくれなかったら、在留[ざいりゅう]カードの期限[きげん]が切[き]れたところだったよ。",
+      "田中[たなか]さんが教[おし]えてくれなかったら、在留[ざいりゅう]カードの期限[きげん]が切[き]れるところだよ。"
+     ],
+     "ans": 0,
+     "why": "Suýt nữa (may mà không xảy ra) → thể từ điển + ところだった. Không dùng thể た trước ところだった; ところだ (hiện tại) không dùng để kể chuyện đã qua."
     }
    ],
    "shift": [
@@ -732,6 +752,16 @@
      ],
      "ans": 0,
      "why": "Văn báo cáo, nêu căn cứ dẫn tới biện pháp → thể thường + ことから."
+    },
+    {
+     "q": "Anh Nguyễn dẫn đoàn khách hàng đi tham quan, giới thiệu trang trọng: vì bạch tuộc ở đây nổi tiếng nên Akashi được gọi là \"thành phố bạch tuộc\".",
+     "opts": [
+      "タコが有名[ゆうめい]なことだから、明石[あかし]は「タコの町[まち]」と呼[よ]ばれています。",
+      "タコが有名[ゆうめい]であることから、明石[あかし]は「タコの町[まち]」と呼[よ]ばれています。",
+      "タコが有名[ゆうめい]ことから、明石[あかし]は「タコの町[まち]」と呼[よ]ばれています。"
+     ],
+     "ans": 1,
+     "why": "Căn cứ khách quan để đặt tên → ことから; tính từ な nối bằng である / な. 有名[ゆうめい]ことから thiếu な; ことだから dùng để đoán theo tính cách một người, sai nghĩa."
     }
    ],
    "shift": [

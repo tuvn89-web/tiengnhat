@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -212,6 +212,16 @@
      ],
      "ans": 0,
      "why": "Làm cho mỏng → 薄[うす]く + động từ."
+    },
+    {
+     "q": "Bà chủ nhà báo cuối tuần sẽ đến kiểm tra phòng. Anh Nguyễn nói với bạn cùng phòng: dọn phòng cho sạch sẽ đi.",
+     "opts": [
+      "週末[しゅうまつ]までに、部屋[へや]をきれいくしよう。",
+      "週末[しゅうまつ]までに、部屋[へや]がきれいにしよう。",
+      "週末[しゅうまつ]までに、部屋[へや]をきれいにしよう。"
+     ],
+     "ans": 2,
+     "why": "Chủ động làm cho sạch → đối tượng + を + tính từ な + にする. きれい là tính từ な nên không dùng く; đối tượng đi với を, không phải が."
     }
    ],
    "shift": [
@@ -431,6 +441,16 @@
      ],
      "ans": 0,
      "why": "Đi nguyên ủng → 履[は]いたまま."
+    },
+    {
+     "q": "Về đến nhà, anh Nguyễn gọi cho tổ trưởng xin lỗi: tôi đã để nguyên điều hòa phòng nghỉ đang bật mà về mất.",
+     "opts": [
+      "すみません、休憩室[きゅうけいしつ]のエアコンをつけるまま帰[かえ]ってしまいました。",
+      "すみません、休憩室[きゅうけいしつ]のエアコンをつけたまま帰[かえ]ってしまいました。",
+      "すみません、休憩室[きゅうけいしつ]のエアコンをつけないで帰[かえ]ってしまいました。"
+     ],
+     "ans": 1,
+     "why": "Để nguyên trạng thái → thể た + まま. つけるまま sai cách nối; つけないで là \"không bật mà về\", ngược ý."
     }
    ],
    "shift": [
@@ -654,6 +674,16 @@
      ],
      "ans": 0,
      "why": "Dùng xong → 使[つか]い終[お]わったら."
+    },
+    {
+     "q": "Trong buổi nói chuyện về gia hạn hợp đồng, giám đốc hỏi dự định của anh Nguyễn. Anh nói: tôi muốn tiếp tục làm ở công ty này.",
+     "opts": [
+      "この会社[かいしゃ]で働[はたら]く続[つづ]けたいです。",
+      "この会社[かいしゃ]で働[はたら]いて続[つづ]けたいです。",
+      "この会社[かいしゃ]で働[はたら]き続[つづ]けたいです。"
+     ],
+     "ans": 2,
+     "why": "Tiếp tục làm → thân ます + 続[つづ]ける: 働[はたら]き続[つづ]けたい. Không nối 続[つづ]ける với thể từ điển hay thể て."
     }
    ],
    "shift": [

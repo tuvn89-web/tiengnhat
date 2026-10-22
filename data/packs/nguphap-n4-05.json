@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -222,6 +222,16 @@
      ],
      "ans": 0,
      "why": "Tin chưa chắc, nghe phong thanh → らしい."
+    },
+    {
+     "q": "Trong phòng thay đồ, anh Nguyễn kể với đồng nghiệp thân điều nghe phong thanh: quán ramen trước ga tuần này hình như nghỉ.",
+     "opts": [
+      "駅前[えきまえ]のラーメン屋[や]、今週[こんしゅう]は休[やす]みだらしいよ。",
+      "駅前[えきまえ]のラーメン屋[や]、今週[こんしゅう]は休[やす]みらしいよ。",
+      "駅前[えきまえ]のラーメン屋[や]、今週[こんしゅう]は休[やす]みのらしいよ。"
+     ],
+     "ans": 1,
+     "why": "Tin nghe được, chưa chắc → らしい; danh từ nối thẳng らしい, không có だ hay の."
     }
    ],
    "shift": [
@@ -439,6 +449,16 @@
      ],
      "ans": 0,
      "why": "Tự mình quan sát, báo mềm → ようです. らしい nghe như mình chỉ nghe người khác nói."
+    },
+    {
+     "q": "Anh Nguyễn gọi điện cho công ty quản lý nhà: phòng anh không ra nước nóng. Anh muốn nói lịch sự, chưa khẳng định: hình như máy nước nóng bị hỏng.",
+     "opts": [
+      "お湯[ゆ]が出[で]ないんですが、給湯器[きゅうとうき]が故障[こしょう]しているそうです。",
+      "お湯[ゆ]が出[で]ないんですが、給湯器[きゅうとうき]が故障[こしょう]しているのようです。",
+      "お湯[ゆ]が出[で]ないんですが、給湯器[きゅうとうき]が故障[こしょう]しているようです。"
+     ],
+     "ans": 2,
+     "why": "Tự mình thấy rồi đoán, nói lịch sự → 〜ているようです. そうです là \"nghe nói\"; sau động từ không thêm の."
     }
    ],
    "shift": [
@@ -660,6 +680,16 @@
      ],
      "ans": 0,
      "why": "Nói chuyện thân mật → みたい. Câu thứ hai quá trang trọng cho tình huống này."
+    },
+    {
+     "q": "Ở ký túc xá, anh Nguyễn gõ cửa phòng một bạn mà không ai trả lời, đèn cũng tắt. Anh nói với bạn đứng cạnh: hình như cậu ấy đi vắng rồi.",
+     "opts": [
+      "あいつ、留守[るす]のみたいだね。",
+      "あいつ、留守[るす]みたいだね。",
+      "あいつ、留守[るす]なみたいだね。"
+     ],
+     "ans": 1,
+     "why": "Nói chuyện thân → みたいだ; danh từ nối thẳng みたい, không thêm の hay な như ようだ."
     }
    ],
    "shift": [

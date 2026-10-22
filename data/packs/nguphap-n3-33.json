@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 3,
+  "version": 4,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -210,6 +210,16 @@
      ],
      "ans": 0,
      "why": "Phải (khẩu ngữ) → なきゃ."
+    },
+    {
+     "q": "Tối chủ nhật ở ký túc xá, anh Nguyễn nói với bạn cùng phòng: mai mình phải đi nộp giấy gia hạn visa.",
+     "opts": [
+      "明日[あした]、ビザの書類[しょるい]を出[だ]しに行[い]かないくちゃ。",
+      "明日[あした]、ビザの書類[しょるい]を出[だ]しに行[い]かなくちゃ。",
+      "明日[あした]、ビザの書類[しょるい]を出[だ]しに行[い]くなくちゃ。"
+     ],
+     "ans": 1,
+     "why": "Phải (khẩu ngữ) → thể ない bỏ い + くちゃ: 行[い]かなくちゃ (= 行[い]かなくては). 行[い]かないくちゃ, 行[い]くなくちゃ đều chia sai."
     }
    ],
    "shift": [
@@ -433,6 +443,16 @@
      ],
      "ans": 0,
      "why": "Cấm (khẩu ngữ) → ちゃだめ."
+    },
+    {
+     "q": "Ở ký túc xá, cậu bạn mới bị sốt định uống thuốc cảm của người khác để trên bàn. Anh Nguyễn nhắc (thân): thuốc của người khác thì không được uống đâu.",
+     "opts": [
+      "人[ひと]の薬[くすり]を飲[の]んちゃいけないよ。",
+      "人[ひと]の薬[くすり]を飲[の]んじゃったよ。",
+      "人[ひと]の薬[くすり]を飲[の]んじゃいけないよ。"
+     ],
+     "ans": 2,
+     "why": "Không được (khẩu ngữ) → 飲[の]んでは → 飲[の]んじゃいけない (で đổi thành じゃ). 飲[の]んちゃ rút gọn sai; 飲[の]んじゃった là \"lỡ uống mất rồi\"."
     }
    ],
    "shift": [
@@ -640,6 +660,16 @@
      ],
      "ans": 0,
      "why": "Làm sẵn (khẩu ngữ) → とく."
+    },
+    {
+     "q": "Trước buổi họp tổ chiều nay, anh Nguyễn nói với đồng nghiệp thân: tài liệu họp để mình đọc trước cho.",
+     "opts": [
+      "会議[かいぎ]の資料[しりょう]、読[よ]んとくね。",
+      "会議[かいぎ]の資料[しりょう]、読[よ]んどくね。",
+      "会議[かいぎ]の資料[しりょう]、読[よ]んでるね。"
+     ],
+     "ans": 1,
+     "why": "Làm sẵn (ておく) với động từ có thể て là んで → でおく rút thành どく: 読[よ]んどく. 読[よ]んとく rút sai; 読[よ]んでる là \"đang đọc\"."
     }
    ],
    "shift": [

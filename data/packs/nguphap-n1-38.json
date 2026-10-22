@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -235,6 +235,16 @@
      ],
      "ans": 0,
      "why": "Đến mức phải (làm việc quá đáng) → thể て + まで. するまで = \"cho đến khi\" (sai nghĩa); したまで sai thể."
+    },
+    {
+     "q": "Đồng nghiệp rủ đi ăn ở quán ramen nổi tiếng phải xếp hàng hai tiếng. Anh Nguyễn cười từ chối: tôi không muốn đến mức xếp hàng hai tiếng chỉ để ăn ramen.",
+     "opts": [
+      "二時間[にじかん]も並[なら]ぶまでラーメンを食[た]べたくないよ。",
+      "二時間[にじかん]も並[なら]んでまでラーメンを食[た]べたくないよ。",
+      "二時間[にじかん]も並[なら]んででもラーメンを食[た]べたくないよ。"
+     ],
+     "ans": 1,
+     "why": "Đến mức phải (làm việc quá đáng) thì không đáng → thể て + まで + phủ định. 並[なら]ぶまで = \"cho đến khi xếp hàng\"; てでも đi với ý chí khẳng định, không hợp với 食[た]べたくない."
     }
    ],
    "shift": [
@@ -485,6 +495,16 @@
      ],
      "ans": 0,
      "why": "Danh từ + までして = làm đến cả việc ấy (ngạc nhiên, phê phán). Không chen を; không gắn sau thể từ điển."
+    },
+    {
+     "q": "Anh Nguyễn báo cáo trưởng phòng: cả tổ đã phải đi làm cả ngày nghỉ, nhờ vậy mới kịp hạn giao hàng.",
+     "opts": [
+      "休日出勤[きゅうじつしゅっきん]をまでして、何[なん]とか納期[のうき]に間[ま]に合[あ]わせました。",
+      "休日出勤[きゅうじつしゅっきん]までして、何[なん]とか納期[のうき]に間[ま]に合[あ]わせました。",
+      "休日出勤[きゅうじつしゅっきん]するまでして、何[なん]とか納期[のうき]に間[ま]に合[あ]わせました。"
+     ],
+     "ans": 1,
+     "why": "Làm đến cả việc quá mức → Danh từ + までして. Không chen を (まで đã thay cho を); không gắn sau động từ thể từ điển."
     }
    ],
    "shift": [
@@ -511,7 +531,7 @@
     "Động từ hay gặp: 考[かんが]える, 思[おも]う, 心配[しんぱい]する, 案[あん]じる, 踏[ふ]まえる, 考慮[こうりょ]する, 見据[みす]える, 恐[おそ]れる"
    ],
    "explain": "〜てのことだ = VIỆC ĐÓ LÀ VÌ ĐÃ (suy nghĩ, lo lắng, cân nhắc A) — có lý do, có động cơ, chứ không phải làm bừa. Mẫu này dùng để GIẢI THÍCH ĐỘNG CƠ của một hành động mà người nghe có thể thấy khó hiểu hoặc khó chịu. 厳[きび]しく言[い]ったのは、君[きみ]の将来[しょうらい]を思[おも]ってのことだ = tôi nói nghiêm khắc là vì nghĩ cho tương lai của cậu. 主任[しゅにん]がラインを止[と]めたのは、安全[あんぜん]を考[かんが]えてのことだ = chủ nhiệm dừng dây chuyền là vì nghĩ đến an toàn.\n\nCách ghép: ĐỘNG TỪ THỂ て + のことだ (のことです, のことだった, のことなので, のことで…). Câu hay có dạng \"X のは、A てのことだ\" — X là hành động, A là suy nghĩ, động cơ đằng sau. Động từ thường là động từ chỉ suy nghĩ, tình cảm, cân nhắc: 考[かんが]える, 思[おも]う, 心配[しんぱい]する, 案[あん]じる (lo lắng), 踏[ふ]まえる (dựa trên, tính đến), 考慮[こうりょ]する (cân nhắc), 見据[みす]える (nhìn xa tới), 恐[おそ]れる (e ngại), 受[う]ける (đón nhận). Không bỏ の (考[かんが]えてことだ ✗) và không dùng thể た (考[かんが]えたのことだ ✗). Trước danh từ: 〜ての + N: よく考[かんが]えての決断[けつだん] = quyết định đã suy nghĩ kỹ.\n\nVăn phong: hơi trang trọng, hay dùng khi giải thích, thanh minh một cách nghiêm túc — trong cuộc họp, khi nói với cấp dưới, với khách hàng, trong văn viết. Giọng bình tĩnh, nhấn \"có lý do chính đáng\". Nói chuyện thường: 〜と思[おも]って言[い]ってるんだよ, 〜からだよ.\n\nSo với mẫu đã học: 〜から (N5) chỉ nêu lý do trực tiếp; てのことだ nhấn động cơ, sự cân nhắc phía sau. 〜からこそ (N2-07) = \"chính vì… nên mới…\", nhấn mạnh lý do. 〜あってのことだ (N1-25) = \"có được là NHỜ CÓ (danh từ)\": 皆[みな]さんの努力[どりょく]あってのことだ; てのことだ = \"làm như vậy là VÌ ĐÃ (động từ)…\": 皆[みな]さんのことを考[かんが]えてのことだ. Hai mẫu trông giống nhau; nhớ: あって đi sau danh từ, て là đuôi của động từ.\n\nMẹo nhớ: て (đã làm A) + のこと (chuyện xảy ra từ đó) → \"chuyện này bắt nguồn từ việc đã A\".",
-   "casual": "Nói thường: 〜と思[おも]って言[い]ってるんだよ / 〜からだよ: 君[きみ]のこと思[おも]って言[い]ってるんだよ. Kansai: あんたのこと思[おも]うて言[い]うてんねんで (思[おも]うて = 思[おも]って; 言[い]うてんねん = 言[い]っているんだ).",
+   "casual": "Nói thường: 〜と思[おも]って言[い]ってるんだよ / 〜からだよ: 君[きみ]のこと思[おも]って言[い]ってるんだよ. Kansai: あんたのこと思[おも]うて言[ゆ]うてんねんで (思[おも]うて = 思[おも]って; 言[ゆ]うてんねん = 言[い]っているんだ).",
    "compare": [
     {
      "pattern": "〜からこそ（N2-07）",
@@ -725,14 +745,24 @@
      ],
      "ans": 0,
      "why": "Giải thích động cơ của hành động → thể て + のことです. Thể た / thể từ điển + のこと là sai."
+    },
+    {
+     "q": "Vợ hỏi sao anh Nguyễn từ chối đợt chuyển công tác có tăng lương. Anh giải thích: anh từ chối là vì đã nghĩ đến chuyện học hành của con.",
+     "opts": [
+      "転勤[てんきん]を断[ことわ]ったのは、子[こ]どもの学校[がっこう]のことを考[かんが]えてのことだよ。",
+      "転勤[てんきん]を断[ことわ]ったのは、子[こ]どもの学校[がっこう]のことを考[かんが]えたのことだよ。",
+      "転勤[てんきん]を断[ことわ]ったのは、子[こ]どもの学校[がっこう]のことを考[かんが]えてことだよ。"
+     ],
+     "ans": 0,
+     "why": "Giải thích động cơ của việc đã làm → thể て + のことだ. Không dùng thể た; không bỏ の."
     }
    ],
    "shift": [
     {
-     "from": "あんたのこと思[おも]うて言[い]うてんねんで。",
+     "from": "あんたのこと思[おも]うて言[ゆ]うてんねんで。",
      "to": "厳[きび]しく言[い]うのは、あなたのためを思[おも]ってのことです。",
      "kind": "kansai",
-     "note": "Kansai: あんた = あなた; 思[おも]うて = 思[おも]って; 言[い]うてんねん = 言[い]っているんだ; で = よ. Trang trọng: 〜のは、〜てのことです.",
+     "note": "Kansai: あんた = あなた; 思[おも]うて = 思[おも]って; 言[ゆ]うてんねん = 言[い]っているんだ; で = よ. Trang trọng: 〜のは、〜てのことです.",
      "wrong": [
       "厳[きび]しく言[い]うのは、あなたのためを思[おも]ったのことです。",
       "厳[きび]しく言[い]うのは、あなたのためを思[おも]うのことです。"

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Một khi đã nhận → た以上[いじょう] + quyết tâm. うちに không đi sau thể た; vế sau của 以上[いじょう] không thể là \"không cần\"."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) nghiêm giọng nhắc một nhân viên hay quên đội mũ trùm tóc: đã là một thành viên của xưởng thì phải giữ quy tắc vệ sinh.",
+     "opts": [
+      "工場[こうじょう]の一員[いちいん]だからといって、衛生[えいせい]のルールは守[まも]らなければなりません。",
+      "工場[こうじょう]の一員[いちいん]の以上[いじょう]、衛生[えいせい]のルールは守[まも]らなければなりません。",
+      "工場[こうじょう]の一員[いちいん]である以上[いじょう]、衛生[えいせい]のルールは守[まも]らなければなりません。"
+     ],
+     "ans": 2,
+     "why": "Đã là… thì phải… → Danh từ + である以上[いじょう]. Danh từ không nối bằng の (一員[いちいん]の以上[いじょう] ✗); からといって = \"không phải cứ vì… mà\", sai nghĩa."
     }
    ],
    "shift": [
@@ -484,6 +494,16 @@
      ],
      "ans": 0,
      "why": "Đã… thì cố… → たからには + ý chí. からといって cần vế sau phủ định; くせに là trách móc."
+    },
+    {
+     "q": "Gọi điện về nhà, anh Nguyễn nói với vợ: đã sang Nhật rồi thì anh muốn đi Hokkaido một lần cho biết.",
+     "opts": [
+      "日本[にほん]に来[き]たからには、一度[いちど]は北海道[ほっかいどう]に行[い]ってみたいな。",
+      "日本[にほん]に来[き]たからといって、一度[いちど]は北海道[ほっかいどう]に行[い]ってみたいな。",
+      "日本[にほん]に来[き]たばかりに、一度[いちど]は北海道[ほっかいどう]に行[い]ってみたいな。"
+     ],
+     "ans": 0,
+     "why": "Đã… thì (mong muốn, quyết tâm) → からには. からといって = \"không phải cứ vì…\"; ばかりに = \"chỉ vì… mà (kết quả xấu)\"."
     }
    ],
    "shift": [
@@ -726,6 +746,16 @@
      ],
      "ans": 0,
      "why": "Chính vì… nên → からこそ (không dùng ので). くせに là trách móc, sai ý."
+    },
+    {
+     "q": "Ở tiệc tất niên, anh Nguyễn (chủ nhiệm) phát biểu cảm ơn cả tổ: chính vì có sự hợp tác của mọi người nên năm nay mới đạt được mục tiêu.",
+     "opts": [
+      "皆[みな]さんの協力[きょうりょく]があったのでこそ、今年[ことし]の目標[もくひょう]を達成[たっせい]できました。",
+      "皆[みな]さんの協力[きょうりょく]があったからこそ、今年[ことし]の目標[もくひょう]を達成[たっせい]できました。",
+      "皆[みな]さんの協力[きょうりょく]があったからには、今年[ことし]の目標[もくひょう]を達成[たっせい]できました。"
+     ],
+     "ans": 1,
+     "why": "Chính vì… nên mới… → からこそ. Không ghép ので với こそ; からには đòi vế sau là quyết tâm / nghĩa vụ, không dùng để nêu kết quả đã đạt."
     }
    ],
    "shift": [

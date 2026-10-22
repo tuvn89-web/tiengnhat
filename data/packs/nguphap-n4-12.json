@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 3,
+  "version": 4,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -221,6 +221,16 @@
      ],
      "ans": 0,
      "why": "Tả trạng thái vật đã được dán sẵn → 〜てあります."
+    },
+    {
+     "q": "Sắp có khách đến thăm xưởng, giám đốc hỏi phòng họp đã chuẩn bị chưa. Anh Nguyễn báo: điều hòa đã được bật sẵn rồi ạ.",
+     "opts": [
+      "はい、エアコンがついてあります。",
+      "はい、エアコンがつけてあります。",
+      "はい、エアコンがつけておきます。"
+     ],
+     "ans": 1,
+     "why": "Trạng thái do người làm sẵn → tha động từ つける + てあります. ついてある sai vì つく là tự động từ; がつけておきます sai trợ từ và thời điểm."
     }
    ],
    "shift": [
@@ -431,6 +441,16 @@
      ],
      "ans": 0,
      "why": "Khuyến khích thử → 〜てみて."
+    },
+    {
+     "q": "Ở cửa hàng quần áo, anh Nguyễn muốn hỏi nhân viên: tôi mặc thử chiếc áo khoác này được không.",
+     "opts": [
+      "このジャケット、着[き]てみてもいいですか。",
+      "このジャケット、着[き]てしまってもいいですか。",
+      "このジャケット、着[き]みてもいいですか。"
+     ],
+     "ans": 0,
+     "why": "Thử làm → thể て + みる: 着[き]る → 着[き]て → 着[き]てみても. 着[き]てしまって là \"lỡ mặc / mặc luôn\"; 着[き]みて sai thể て."
     }
    ],
    "shift": [

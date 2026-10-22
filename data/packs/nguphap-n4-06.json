@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -241,6 +241,16 @@
      ],
      "ans": 0,
      "why": "Vế sau là lời nhờ → dùng たら. と không dùng được với lời nhờ."
+    },
+    {
+     "q": "Anh Nguyễn dặn cậu người mới hay đi xe đạp đến xưởng: nếu mai trời mưa thì đi xe buýt mà đến.",
+     "opts": [
+      "明日[あした]、雨[あめ]かったら、バスで来[き]てね。",
+      "明日[あした]、雨[あめ]だったら、バスで来[き]てね。",
+      "明日[あした]、雨[あめ]たら、バスで来[き]てね。"
+     ],
+     "ans": 1,
+     "why": "Danh từ + だったら. 雨[あめ]かったら chia như tính từ い (sai); 雨[あめ]たら thiếu だっ."
     }
    ],
    "shift": [
@@ -475,6 +485,16 @@
      ],
      "ans": 0,
      "why": "Hỏi cách làm → 〜ばいいですか."
+    },
+    {
+     "q": "Anh Nguyễn mang bánh từ Việt Nam sang, đặt lên bàn phòng nghỉ và nói với mọi người: nếu được thì mời ăn.",
+     "opts": [
+      "よければ、食[た]べてください。",
+      "いければ、食[た]べてください。",
+      "いいれば、食[た]べてください。"
+     ],
+     "ans": 0,
+     "why": "いい chia thể ば thành よければ. いければ, いいれば là lỗi hay gặp khi quên いい → よい."
     }
    ],
    "shift": [

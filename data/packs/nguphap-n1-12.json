@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Tuyên bố quyết làm → thể ない bỏ ない + ずにはおかない; する → せず. しずに, しないずに đều là chia sai."
+    },
+    {
+     "q": "Anh Nguyễn viết cảm nhận về một bộ phim tài liệu cho bản tin công ty: bộ phim này chắc chắn khiến người xem phải suy nghĩ về giá trị của thực phẩm.",
+     "opts": [
+      "この映画[えいが]は、見[み]る人[ひと]に食[た]べ物[もの]の大切[たいせつ]さを考[かんが]えさせずにはおかない。",
+      "この映画[えいが]は、見[み]る人[ひと]に食[た]べ物[もの]の大切[たいせつ]さを考[かんが]えさせずにはいられない。",
+      "この映画[えいが]は、見[み]る人[ひと]に食[た]べ物[もの]の大切[たいせつ]さを考[かんが]えさせないずにはおかない。"
+     ],
+     "ans": 0,
+     "why": "Sự việc chắc chắn gây tác động lên người khác → thể sai khiến + ずにはおかない. ずにはいられない là cảm xúc của chính người nói; không giữ ない trước ず."
     }
    ],
    "shift": [
@@ -473,6 +483,16 @@
      ],
      "ans": 0,
      "why": "Trách nhiệm buộc phải làm → せずにはすまない. せずにすむ = may mà khỏi phải bồi thường (nghĩa ngược); しずに là chia sai."
+    },
+    {
+     "q": "Anh Nguyễn lỡ làm vỡ chậu cây nhà hàng xóm. Anh nói với vợ: chuyện này thì không thể không sang xin lỗi.",
+     "opts": [
+      "隣[となり]の植木鉢[うえきばち]を割[わ]っちゃったから、謝[あやま]りに行[い]かずにすむよ。",
+      "隣[となり]の植木鉢[うえきばち]を割[わ]っちゃったから、謝[あやま]りに行[い]かないずにはすまないよ。",
+      "隣[となり]の植木鉢[うえきばち]を割[わ]っちゃったから、謝[あやま]りに行[い]かずにはすまないよ。"
+     ],
+     "ans": 2,
+     "why": "Lẽ thường bắt buộc, không làm không xong → thể ない bỏ ない + ずにはすまない. ずにすむ (không には) = \"may mà khỏi phải\", ngược nghĩa; không giữ ない trước ず."
     }
    ],
    "shift": [
@@ -707,6 +727,16 @@
      ],
      "ans": 0,
      "why": "Lời bào chữa + ではすまされません. Trợ từ là で (bằng…); すまされない là bị động của すます — không có すまれない."
+    },
+    {
+     "q": "Thấy hai nhân viên trẻ cầm dao đùa nhau, anh Nguyễn (chủ nhiệm) quát: đùa với dao không thể coi là chuyện đùa được.",
+     "opts": [
+      "包丁[ほうちょう]でふざけるのは、冗談[じょうだん]ではすまれないよ。",
+      "包丁[ほうちょう]でふざけるのは、冗談[じょうだん]ではすまされないよ。",
+      "包丁[ほうちょう]でふざけるのは、冗談[じょうだん]をすまされないよ。"
+     ],
+     "ans": 1,
+     "why": "Không thể cho qua bằng… → Danh từ + ではすまされない. すまれない là chia sai (bị động của すます là すまされる); trợ từ là では, không phải を."
     }
    ],
    "shift": [

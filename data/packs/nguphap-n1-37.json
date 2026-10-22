@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Hơn cả (mốc vốn đã cao) → N + にもまして. にもかかわらず = mặc dù (sai nghĩa); 増[ま]す ở đây đi với に, không đi với を."
+    },
+    {
+     "q": "Mở đầu buổi họp an toàn, anh Nguyễn (chủ nhiệm) nói: hơn bất cứ điều gì, điều quan trọng nhất là an toàn của mọi người.",
+     "opts": [
+      "何[なに]にも増[ふ]えて大切[たいせつ]なのは、皆[みな]さんの安全[あんぜん]です。",
+      "何[なに]にもかかわらず大切[たいせつ]なのは、皆[みな]さんの安全[あんぜん]です。",
+      "何[なに]にもまして大切[たいせつ]なのは、皆[みな]さんの安全[あんぜん]です。"
+     ],
+     "ans": 2,
+     "why": "Hơn hết thảy → cụm cố định 何[なに]にもまして. Không dùng 増[ふ]えて; にもかかわらず = \"mặc dù\", sai nghĩa."
     }
    ],
    "shift": [
@@ -477,6 +487,16 @@
      ],
      "ans": 0,
      "why": "Khó khăn có là gì, vẫn hăng hái làm → N + もなんのその (giọng vui, sinh động). Không dùng を; 何[なん]のその đọc là \"なんのその\", không phải \"なにのその\"."
+    },
+    {
+     "q": "Anh Nguyễn kể với đồng nghiệp về bà cụ hàng xóm: tuổi tác có là gì, sáng nào bà cũng chạy bộ.",
+     "opts": [
+      "隣[となり]のおばあさんは年齢[ねんれい]をなんのその、毎朝[まいあさ]ジョギングしているんだ。",
+      "隣[となり]のおばあさんは年齢[ねんれい]もなんのその、毎朝[まいあさ]ジョギングしているんだ。",
+      "隣[となり]のおばあさんは年齢[ねんれい]もなんのその、毎朝[まいあさ]家[いえ]にこもっているんだ。"
+     ],
+     "ans": 1,
+     "why": "Khó khăn có là gì, vẫn hăng hái → Danh từ + もなんのその (cụm cố định với も). Không dùng を; vế sau không được là chuyện chịu thua."
     }
    ],
    "shift": [
@@ -716,6 +736,16 @@
      ],
      "ans": 0,
      "why": "Gắng vượt bệnh để làm → N + をおして (trang trọng, cảm kích). に sai trợ từ; のおかげで = \"nhờ (bệnh)\" — sai nghĩa và thất lễ."
+    },
+    {
+     "q": "Anh Nguyễn viết bài cho bản tin công ty: dù đang sốt, bác Sato vẫn gắng đến xưởng để hướng dẫn thực tập sinh.",
+     "opts": [
+      "佐藤[さとう]さんは熱[ねつ]がおして出勤[しゅっきん]し、実習生[じっしゅうせい]の指導[しどう]にあたった。",
+      "佐藤[さとう]さんは熱[ねつ]におして出勤[しゅっきん]し、実習生[じっしゅうせい]の指導[しどう]にあたった。",
+      "佐藤[さとう]さんは熱[ねつ]をおして出勤[しゅっきん]し、実習生[じっしゅうせい]の指導[しどう]にあたった。"
+     ],
+     "ans": 2,
+     "why": "Dù đang bệnh vẫn gắng gượng → Danh từ + をおして (押[お]す đi với を). Không dùng に hay が."
     }
    ],
    "shift": [

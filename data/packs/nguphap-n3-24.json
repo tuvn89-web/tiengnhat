@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -227,6 +227,16 @@
      ],
      "ans": 0,
      "why": "Ngay cả (trường hợp cơ bản) → さえ."
+    },
+    {
+     "q": "Người mới chán nản vì lọc xương cá mãi không đẹp. Anh Nguyễn động viên: công đoạn này ngay cả tổ trưởng cũng bảo là khó đấy.",
+     "opts": [
+      "この作業[さぎょう]は、班長[はんちょう]こそ難[むずか]しいと言[い]っていますよ。",
+      "この作業[さぎょう]は、班長[はんちょう]をさえ難[むずか]しいと言[い]っていますよ。",
+      "この作業[さぎょう]は、班長[はんちょう]でさえ難[むずか]しいと言[い]っていますよ。"
+     ],
+     "ans": 2,
+     "why": "Ngay cả (người làm chủ ngữ) → danh từ + でさえ. こそ là \"chính… mới\"; さえ không đi kèm を."
     }
    ],
    "shift": [
@@ -439,6 +449,16 @@
      ],
      "ans": 0,
      "why": "Đáp lời cảm ơn → こちらこそ."
+    },
+    {
+     "q": "Ở lớp tiếng Nhật, cô giáo hỏi mục tiêu năm nay. Anh Nguyễn năm ngoái thi trượt, quyết tâm nói: năm nay nhất định tôi muốn đỗ N2.",
+     "opts": [
+      "今年[ことし]こそ、N2に合格[ごうかく]したいです。",
+      "今年[ことし]さえ、N2に合格[ごうかく]したいです。",
+      "今年[ことし]をこそ、N2に合格[ごうかく]したいです。"
+     ],
+     "ans": 0,
+     "why": "Nhấn \"chính lần này mới…\" → danh từ + こそ: 今年[ことし]こそ. さえ là \"ngay cả\"; こそ không đi kèm を."
     }
    ],
    "shift": [
@@ -659,6 +679,16 @@
      ],
      "ans": 0,
      "why": "Đến cả (vượt mức) → まで."
+    },
+    {
+     "q": "Anh Nguyễn kể với tổ trưởng: hôm tôi bị cảm, bà chủ nhà còn làm cả cơm hộp cho tôi.",
+     "opts": [
+      "風邪[かぜ]をひいた日[ひ]、大家[おおや]さんがお弁当[べんとう]をまで作[つく]ってくれました。",
+      "風邪[かぜ]をひいた日[ひ]、大家[おおや]さんがお弁当[べんとう]まで作[つく]ってくれました。",
+      "風邪[かぜ]をひいた日[ひ]、大家[おおや]さんがお弁当[べんとう]こそ作[つく]ってくれました。"
+     ],
+     "ans": 1,
+     "why": "Đến cả (vượt mong đợi) → danh từ + まで, thay cho を. Không giữ を trước まで; こそ là \"chính… mới\", không hợp."
     }
    ],
    "shift": [

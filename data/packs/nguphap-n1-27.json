@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -235,6 +235,16 @@
      ],
      "ans": 0,
      "why": "Thư trang trọng, đánh giá tốt → 〜に足[た]る + danh từ. Trợ từ là に; に足[た]りない = không đáng (ngược ý)."
+    },
+    {
+     "q": "Một đàn em lo sốt vó vì bị khách nhắc nhở một chuyện rất nhỏ. Anh Nguyễn an ủi: chuyện đó vặt vãnh, không đáng bận tâm đâu.",
+     "opts": [
+      "そんなのは取[と]るに足[た]ることだから、気[き]にするな。",
+      "そんなのは取[と]るに足[た]りないことだから、気[き]にするな。",
+      "そんなのは取[と]るに足[た]るないことだから、気[き]にするな。"
+     ],
+     "ans": 1,
+     "why": "Chẳng đáng (chuyện vặt) → 取[と]るに足[た]りない. 取[と]るに足[た]る = \"đáng để bận tâm\", ngược ý; 足[た]るない là chia sai (phủ định là 足[た]りない / 足[た]らない)."
     }
    ],
    "shift": [
@@ -472,6 +482,16 @@
      ],
      "ans": 0,
      "why": "Thư trang trọng → 感謝[かんしゃ]の念[ねん]に堪[た]えません. Trợ từ là に; ghép thêm てたまらない (khẩu ngữ) là sai."
+    },
+    {
+     "q": "Anh Nguyễn viết báo cáo sau khi kiểm tra kho cũ sắp sửa chữa: tình trạng vệ sinh ở đó tệ đến mức không nỡ nhìn.",
+     "opts": [
+      "旧[きゅう]倉庫[そうこ]の衛生状態[えいせいじょうたい]は、見[み]たに堪[た]えないものだった。",
+      "旧[きゅう]倉庫[そうこ]の衛生状態[えいせいじょうたい]は、見[み]ますに堪[た]えないものだった。",
+      "旧[きゅう]倉庫[そうこ]の衛生状態[えいせいじょうたい]は、見[み]るに堪[た]えないものだった。"
+     ],
+     "ans": 2,
+     "why": "Tệ đến mức không chịu nổi để nhìn → thể từ điển 見[み]る + に堪[た]えない. Không dùng thể た hay thể ます trước に堪[た]えない."
     }
    ],
    "shift": [
@@ -712,6 +732,16 @@
      ],
      "ans": 0,
      "why": "Văn viết, \"không khó hình dung\" → 想像[そうぞう]にかたくない. Trợ từ là に; 想像[そうぞう]しがたい = khó mà hình dung (ngược ý)."
+    },
+    {
+     "q": "Ở lễ đón thực tập sinh, anh Nguyễn (chủ nhiệm) phát biểu: nỗi vất vả của các bạn khi sống xa gia đình, tôi dễ dàng thấu hiểu.",
+     "opts": [
+      "家族[かぞく]と離[はな]れて暮[く]らす皆[みな]さんの苦労[くろう]は、察[さっ]するにかたくありません。",
+      "家族[かぞく]と離[はな]れて暮[く]らす皆[みな]さんの苦労[くろう]は、察[さっ]しがたいです。",
+      "家族[かぞく]と離[はな]れて暮[く]らす皆[みな]さんの苦労[くろう]は、察[さっ]するをかたくありません。"
+     ],
+     "ans": 0,
+     "why": "Dễ dàng thấu hiểu → 察[さっ]する + にかたくない. 察[さっ]しがたい = \"khó mà thấu hiểu\", ngược nghĩa; trợ từ là に, không phải を."
     }
    ],
    "shift": [

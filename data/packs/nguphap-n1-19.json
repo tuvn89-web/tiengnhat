@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "Phê phán hành vi trái tư cách, văn viết → として + あるまじき + danh từ. あるべき = nên có (ngược nghĩa); まじき không kết câu trực tiếp với です."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) viết báo cáo về một nhân viên cố tình giấu hàng lỗi: đây là hành vi tuyệt đối không thể tha thứ.",
+     "opts": [
+      "不良品[ふりょうひん]を隠[かく]すのは、決[けっ]して許[ゆる]さないまじき行為[こうい]だ。",
+      "不良品[ふりょうひん]を隠[かく]すのは、決[けっ]して許[ゆる]すまじき行為[こうい]だ。",
+      "不良品[ふりょうひん]を隠[かく]すのは、決[けっ]して許[ゆる]すまじきだ。"
+     ],
+     "ans": 1,
+     "why": "Không thể chấp nhận, đứng trước danh từ → thể từ điển + まじき + Danh từ. まじき đã mang nghĩa phủ định nên không dùng thể ない; まじき không đứng một mình cuối câu."
     }
    ],
    "shift": [
@@ -491,6 +501,16 @@
      ],
      "ans": 0,
      "why": "Biển cấm, cuối câu → thể từ điển + べからず. べからざる phải đứng trước danh từ; không dùng thể ない trước べからず."
+    },
+    {
+     "q": "Ở lễ đón thực tập sinh mới, anh Nguyễn (chủ nhiệm) phát biểu: các bạn thực tập sinh là lực lượng không thể thiếu đối với xưởng chúng tôi.",
+     "opts": [
+      "実習生[じっしゅうせい]の皆[みな]さんは、この工場[こうじょう]にとって欠[か]かないべからざる存在[そんざい]です。",
+      "実習生[じっしゅうせい]の皆[みな]さんは、この工場[こうじょう]にとって欠[か]くべからず存在[そんざい]です。",
+      "実習生[じっしゅうせい]の皆[みな]さんは、この工場[こうじょう]にとって欠[か]くべからざる存在[そんざい]です。"
+     ],
+     "ans": 2,
+     "why": "Không thể (thiếu), đứng trước danh từ → thể từ điển + べからざる + Danh từ. Trước danh từ không dùng べからず; không dùng thể ない."
     }
    ],
    "shift": [
@@ -741,6 +761,16 @@
      ],
      "ans": 0,
      "why": "Điều ngoài tầm với, không thể mong → 辞書形[じしょけい] + べくもない. Không dùng thể ない trước; べからず = cấm (sai nghĩa, sai dạng)."
+    },
+    {
+     "q": "Ở tiệc tiễn bác Sato nghỉ hưu, có người khen tay nghề anh Nguyễn. Anh khiêm tốn: tay nghề của tôi không thể nào so được với bác Sato.",
+     "opts": [
+      "私[わたし]の技術[ぎじゅつ]は、佐藤[さとう]さんとは比[くら]べるべくもありません。",
+      "私[わたし]の技術[ぎじゅつ]は、佐藤[さとう]さんとは比[くら]べないべくもありません。",
+      "私[わたし]の技術[ぎじゅつ]は、佐藤[さとう]さんとは比[くら]べるべからずです。"
+     ],
+     "ans": 0,
+     "why": "Vốn ngoài tầm với, không thể nào… → thể từ điển + べくもない. Không dùng thể ない trước べくもない; べからず là lệnh cấm, sai nghĩa."
     }
    ],
    "shift": [

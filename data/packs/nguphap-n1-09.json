@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "A (trường hợp nhẹ, còn thông cảm) + ならまだしも, B (thực tế đáng trách). ならでは = chỉ… mới có (sai nghĩa); câu 3 đảo ngược A – B."
+    },
+    {
+     "q": "Anh Nguyễn bực bội kể với vợ về một đồng nghiệp: đến muộn một lần thì còn thông cảm được, đằng này tuần này đã ba lần rồi.",
+     "opts": [
+      "一度[いちど]ならまだしも、今週[こんしゅう]もう三回[さんかい]も遅刻[ちこく]するなんて。",
+      "三回[さんかい]ならまだしも、今週[こんしゅう]もう一度[いちど]も遅刻[ちこく]するなんて。",
+      "一度[いちど]ならまだしも、今週[こんしゅう]もう三回[さんかい]も時間[じかん]どおりに来[き]たなんて。"
+     ],
+     "ans": 0,
+     "why": "A (mức nhẹ) còn chấp nhận được, B tệ hơn → 一度[いちど]ならまだしも、三回[さんかい]も…. Đảo A – B là sai logic; vế sau phải là điều tệ hơn, không phải lời khen."
     }
    ],
    "shift": [
@@ -492,6 +502,16 @@
      ],
      "ans": 0,
      "why": "A (hoàn cảnh khác hẳn: ngày xưa) + ならいざしらず, B (hiện nay). Câu 2 sai dạng; câu 3 đảo A – B nên vô lý."
+    },
+    {
+     "q": "Trong cuộc họp, anh Nguyễn (chủ nhiệm) phê bình nhà vận chuyển: người nghiệp dư thì không nói, chứ một công ty chuyên nghiệp mà chở cá ở nhiệt độ thường thì không thể tin được.",
+     "opts": [
+      "プロならいざしらず、素人[しろうと]の業者[ぎょうしゃ]が魚[さかな]を常温[じょうおん]で運[はこ]ぶとは考[かんが]えられません。",
+      "素人[しろうと]ならいざしらず、プロの業者[ぎょうしゃ]が魚[さかな]を常温[じょうおん]で運[はこ]ぶとは考[かんが]えられません。",
+      "素人[しろうと]ならいざしらない、プロの業者[ぎょうしゃ]が魚[さかな]を常温[じょうおん]で運[はこ]ぶとは考[かんが]えられません。"
+     ],
+     "ans": 1,
+     "why": "A là trường hợp có thể bỏ qua, B thì không → 素人[しろうと]ならいざしらず、プロが…. Đảo A – B là sai logic; dạng nối câu cố định là いざしらず, không phải いざしらない."
     }
    ],
    "shift": [
@@ -745,6 +765,16 @@
      ],
      "ans": 0,
      "why": "A khỏi nói, mở rộng sang B (giới thiệu trang trọng) → は言[い]うに及[およ]ばず、B も…. 及[およ]ばない、 sai dạng nối câu; には及[およ]ばず = không bằng, không tới (sai nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn phát biểu khi đón đoàn khách hàng: sản phẩm của công ty chúng tôi được đánh giá cao trong nước thì khỏi phải nói, cả ở nước ngoài cũng vậy.",
+     "opts": [
+      "当社[とうしゃ]の製品[せいひん]は、国内[こくない]は言[い]うに及[およ]ばず、海外[かいがい]でも高[たか]く評価[ひょうか]されています。",
+      "当社[とうしゃ]の製品[せいひん]は、国内[こくない]は言[い]うまでもない、海外[かいがい]でも高[たか]く評価[ひょうか]されています。",
+      "当社[とうしゃ]の製品[せいひん]は、国内[こくない]は言[い]うに及[およ]ばない、海外[かいがい]でも高[たか]く評価[ひょうか]されています。"
+     ],
+     "ans": 0,
+     "why": "A thì khỏi nói, B cũng… → は言[い]うに及[およ]ばず (dạng nối câu). 言[い]うまでもない / 言[い]うに及[およ]ばない là dạng kết câu, không nối tiếp sang vế sau được."
     }
    ],
    "shift": [

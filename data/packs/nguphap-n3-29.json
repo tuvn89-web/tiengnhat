@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -201,6 +201,16 @@
      ],
      "ans": 0,
      "why": "Cảm xúc mạnh → 〜たくてたまらない."
+    },
+    {
+     "q": "Sắp có kết quả thi năng lực tiếng Nhật, anh Nguyễn nói với bạn người Nhật: mình lo cho kết quả quá, không chịu nổi.",
+     "opts": [
+      "試験[しけん]の結果[けっか]が心配[しんぱい]でたまらないよ。",
+      "試験[しけん]の結果[けっか]が心配[しんぱい]くてたまらないよ。",
+      "試験[しけん]の結果[けっか]が心配[しんぱい]なくてたまらないよ。"
+     ],
+     "ans": 0,
+     "why": "Cảm xúc mạnh với tính từ な → 心配[しんぱい]でたまらない. Tính từ な không chia くて; 心配[しんぱい]なくて lại thành \"không lo\"."
     }
    ],
    "shift": [
@@ -412,6 +422,16 @@
      ],
      "ans": 0,
      "why": "Cảm giác mạnh → 〜くてしょうがない."
+    },
+    {
+     "q": "Đang làm ở xưởng, anh Nguyễn nói nhỏ với đồng nghiệp: không biết sáng nay đã tắt bếp ga ở nhà chưa, cứ lo mãi không yên.",
+     "opts": [
+      "家[いえ]のガスを消[け]したかどうか、気[き]になりてしょうがないです。",
+      "家[いえ]のガスを消[け]したかどうか、気[き]になってしょうがないです。",
+      "家[いえ]のガスを消[け]したかどうか、気[き]になるてしょうがないです。"
+     ],
+     "ans": 1,
+     "why": "Cảm giác cứ thế mãi không dứt → thể て + しょうがない: 気[き]になってしょうがない. 気[き]になりて, 気[き]になるて đều chia sai thể て."
     }
    ],
    "shift": [
@@ -644,6 +664,16 @@
      ],
      "ans": 0,
      "why": "Nhớ lại thói quen xưa → 〜たものだ."
+    },
+    {
+     "q": "Người mới (thân) hay nói xấu đồng nghiệp sau lưng. Anh Nguyễn nhắc theo lẽ thường: chuyện nói xấu người khác thì không nên làm đâu.",
+     "opts": [
+      "人[ひと]の悪口[わるぐち]は、言[い]うわけじゃないよ。",
+      "人[ひと]の悪口[わるぐち]は、言[い]うはずじゃないよ。",
+      "人[ひと]の悪口[わるぐち]は、言[い]うものじゃないよ。"
+     ],
+     "ans": 2,
+     "why": "Khuyên theo lẽ thường xã hội → thể từ điển + ものではない (khẩu ngữ ものじゃない). わけじゃない là \"không hẳn\"; はずじゃない là \"lẽ ra không\"."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Khen, cảm nhận sâu → thể từ điển + ものがある. ものですか = phản bác \"làm sao mà…\" (ngược ý khen); thể た là sai."
+    },
+    {
+     "q": "Tối mùng Một Tết, anh Nguyễn nói với đồng nghiệp người Việt ở ký túc xá: đón Tết xa gia đình, quả thật có cái gì đó buồn buồn.",
+     "opts": [
+      "お正月[しょうがつ]を家族[かぞく]と離[はな]れて過[す]ごすのは、寂[さび]しいものがあるね。",
+      "お正月[しょうがつ]を家族[かぞく]と離[はな]れて過[す]ごすのは、寂[さび]しかったものがあるね。",
+      "お正月[しょうがつ]を家族[かぞく]と離[はな]れて過[す]ごすのは、寂[さび]しいところがあるね。"
+     ],
+     "ans": 0,
+     "why": "Cảm nhận sâu về một hoàn cảnh → tính từ い + ものがある. Không dùng thể た; ところがある dùng để nói nét tính cách của người."
     }
    ],
    "shift": [
@@ -474,6 +484,16 @@
      ],
      "ans": 0,
      "why": "Quyết tâm, phản bác mạnh → thể từ điển + もんか (khẩu ngữ của ものか)."
+    },
+    {
+     "q": "Bị khách hàng mắng nặng lời, anh Nguyễn nói với đồng nghiệp thân: chuyện này thì đời nào tôi bỏ cuộc.",
+     "opts": [
+      "こんなことで諦[あきら]めないもんか。",
+      "こんなことで諦[あきら]めるもんか。",
+      "こんなことで諦[あきら]めることか。"
+     ],
+     "ans": 1,
+     "why": "Quyết tâm phủ định mạnh → thể từ điển + もんか: 諦[あきら]めるもんか (= nhất định không bỏ). Thêm ない làm sai nghĩa; ことか là cảm thán \"biết bao\"."
     }
    ],
    "shift": [
@@ -718,6 +738,16 @@
      ],
      "ans": 0,
      "why": "Khẳng định lẽ thường → Danh từ + というものだ (không thêm だ)."
+    },
+    {
+     "q": "Anh Nguyễn bực mình kể với vợ: có người mượn tiền đồng hương rồi về nước luôn không trả. Anh nói: thế thì đúng là vô trách nhiệm.",
+     "opts": [
+      "借[か]りたお金[かね]を返[かえ]さないなんて、無責任[むせきにん]だというものだよ。",
+      "借[か]りたお金[かね]を返[かえ]さないなんて、無責任[むせきにん]というものではないよ。",
+      "借[か]りたお金[かね]を返[かえ]さないなんて、無責任[むせきにん]というものだよ。"
+     ],
+     "ans": 2,
+     "why": "Đánh giá bản chất một việc cụ thể → Danh từ / tính từ な (bỏ だ) + というものだ. Không thêm だ; というものではない là phủ định, ngược ý."
     }
    ],
    "shift": [

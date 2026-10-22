@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -235,6 +235,16 @@
      ],
      "ans": 0,
      "why": "Đúng lúc… thì lại… (xui) → 〜日[ひ]に限[かぎ]って."
+    },
+    {
+     "q": "Trưởng phòng nghi bác Sato (rất nghiêm túc) bỏ qua bước đo nhiệt độ. Anh Nguyễn (chủ nhiệm) khẳng định: riêng bác Sato thì không đời nào làm thế.",
+     "opts": [
+      "まじめな佐藤[さとう]さん限[かぎ]って、温度[おんど]の確認[かくにん]を飛[と]ばすはずがありません。",
+      "まじめな佐藤[さとう]さんに限[かぎ]って、温度[おんど]の確認[かくにん]を飛[と]ばすに違[ちが]いありません。",
+      "まじめな佐藤[さとう]さんに限[かぎ]って、温度[おんど]の確認[かくにん]を飛[と]ばすはずがありません。"
+     ],
+     "ans": 2,
+     "why": "Riêng người đó thì không đời nào → Người + に限[かぎ]って + はずがない. Không bỏ に; vế sau khẳng định (に違[ちが]いない) là ngược nghĩa."
     }
    ],
    "shift": [
@@ -472,6 +482,16 @@
      ],
      "ans": 0,
      "why": "Không chỉ… mà tất cả → に限[かぎ]らず. に限[かぎ]り / に限[かぎ]って khoanh vào một nhóm, mâu thuẫn với 全員[ぜんいん]."
+    },
+    {
+     "q": "Khách hàng gọi điện hỏi có phải chỉ đặt hàng được vào cuối tuần không. Anh Nguyễn trả lời: không chỉ cuối tuần, ngày thường cũng đặt được.",
+     "opts": [
+      "週末[しゅうまつ]に限[かぎ]り、平日[へいじつ]もご注文[ちゅうもん]いただけます。",
+      "週末[しゅうまつ]に限[かぎ]らず、平日[へいじつ]もご注文[ちゅうもん]いただけます。",
+      "週末[しゅうまつ]にかかわらず、平日[へいじつ]もご注文[ちゅうもん]いただけます。"
+     ],
+     "ans": 1,
+     "why": "Không chỉ… (mà cả…) → Danh từ + に限[かぎ]らず + も. に限[かぎ]り = \"chỉ riêng\" (mâu thuẫn với 平日[へいじつ]も); にかかわらず cần danh từ có nhiều mức (天候[てんこう], 年齢[ねんれい]…), không dùng với 週末[しゅうまつ]."
     }
    ],
    "shift": [
@@ -701,6 +721,16 @@
      ],
      "ans": 0,
      "why": "Thông báo ưu đãi, giới hạn thời gian → に限[かぎ]り."
+    },
+    {
+     "q": "Bảng nội quy dán ở kho lạnh: \"Chỉ những người có chứng chỉ mới được lái xe nâng.\"",
+     "opts": [
+      "資格[しかく]を持[も]っている人[ひと]に限[かぎ]り、フォークリフトを運転[うんてん]できます。",
+      "資格[しかく]を持[も]っている人[ひと]の限[かぎ]り、フォークリフトを運転[うんてん]できます。",
+      "資格[しかく]を持[も]っている人[ひと]に限[かぎ]らず、フォークリフトを運転[うんてん]できます。"
+     ],
+     "ans": 0,
+     "why": "Chỉ riêng (giới hạn đối tượng, giọng nội quy) → Danh từ + に限[かぎ]り. Không chen の; に限[かぎ]らず = \"không chỉ\", ngược nghĩa."
     }
    ],
    "shift": [

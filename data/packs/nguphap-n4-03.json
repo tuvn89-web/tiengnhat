@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -225,6 +225,16 @@
      ],
      "ans": 0,
      "why": "Hai việc cùng lúc của một người → ながら."
+    },
+    {
+     "q": "Bạn cùng phòng ở ký túc xá hỏi anh Nguyễn học từ vựng lúc nào. Anh nói: mình vừa đi bộ đến xưởng vừa nghe file âm thanh từ vựng.",
+     "opts": [
+      "歩[ある]くながら、単語[たんご]の音声[おんせい]を聞[き]いているよ。",
+      "歩[ある]いてから、単語[たんご]の音声[おんせい]を聞[き]いているよ。",
+      "歩[ある]きながら、単語[たんご]の音声[おんせい]を聞[き]いているよ。"
+     ],
+     "ans": 2,
+     "why": "Cùng lúc làm hai việc → thể ます bỏ ます + ながら: 歩[ある]きながら. 歩[ある]くながら sai cách nối; 歩[ある]いてから là \"đi bộ xong rồi mới nghe\"."
     }
    ],
    "shift": [
@@ -468,6 +478,16 @@
      ],
      "ans": 0,
      "why": "Nêu một lý do + し rồi bỏ lửng là cách từ chối nhẹ nhàng kiểu Nhật."
+    },
+    {
+     "q": "Ở lớp tiếng Nhật tình nguyện, cô giáo hỏi anh Nguyễn thích công ty hiện tại ở điểm nào. Anh kể hai lý do: gần ký túc xá, tổ trưởng lại hiền.",
+     "opts": [
+      "寮[りょう]から近[ちか]いし、班長[はんちょう]も優[やさ]しいだし、いい会社[かいしゃ]です。",
+      "寮[りょう]から近[ちか]いし、班長[はんちょう]も優[やさ]しいし、いい会社[かいしゃ]です。",
+      "寮[りょう]から近[ちか]いし、班長[はんちょう]も優[やさ]しくないし、いい会社[かいしゃ]です。"
+     ],
+     "ans": 1,
+     "why": "Kể nhiều lý do cùng chiều → 〜し、〜し. Tính từ い nối thẳng し, không thêm だ; 優[やさ]しくないし ngược chiều với \"công ty tốt\"."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -236,6 +236,16 @@
      ],
      "ans": 0,
      "why": "Khả năng còn mở, có điều kiện → 〜ば + thể ない + ものでもありません. Không chen の; 引[ひ]き受[う]けられるものでもありません = \"cũng không phải thứ nhận được\" (ngược ý)."
+    },
+    {
+     "q": "Khách hàng hỏi có giảm giá được không. Anh Nguyễn (chủ nhiệm) trả lời dè dặt: tùy số lượng đặt, cũng không phải là không giảm được.",
+     "opts": [
+      "ご注文[ちゅうもん]の数量[すうりょう]次第[しだい]では、値引[ねび]きできないものでもありません。",
+      "ご注文[ちゅうもん]の数量[すうりょう]次第[しだい]では、値引[ねび]きできるものでもありません。",
+      "ご注文[ちゅうもん]の数量[すうりょう]次第[しだい]では、値引[ねび]きできないものありません。"
+     ],
+     "ans": 0,
+     "why": "Khẳng định dè dặt \"cũng không phải là không…\" → thể ない + ものでもない. Thể khả năng khẳng định + ものでもない lại thành \"cũng chẳng phải là giảm được\" (ngược ý); không bỏ でも."
     }
    ],
    "shift": [
@@ -487,6 +497,16 @@
      ],
      "ans": 0,
      "why": "Đánh giá khách quan \"không đáng phải…\" → động từ đánh giá (懸念[けねん]する) + にはあたらない. Trợ từ là には; dạng khẳng định にはあたる không dùng như thế."
+    },
+    {
+     "q": "Trưởng phòng lo vì người mới mắc lỗi trong tuần đầu. Anh Nguyễn (chủ nhiệm) trả lời trang trọng: người mới mắc lỗi tuần đầu thì chẳng có gì đáng ngạc nhiên.",
+     "opts": [
+      "新人[しんじん]が最初[さいしょ]の週[しゅう]にミスをするのは、驚[おどろ]くをあたらないと思[おも]います。",
+      "新人[しんじん]が最初[さいしょ]の週[しゅう]にミスをするのは、驚[おどろ]くにはあたらないと思[おも]います。",
+      "新人[しんじん]が最初[さいしょ]の週[しゅう]にミスをするのは、驚[おどろ]くではあたらないと思[おも]います。"
+     ],
+     "ans": 1,
+     "why": "Không đáng phải (phản ứng như thế) → thể từ điển + にはあたらない. Trợ từ đúng là には, không phải を hay では."
     }
    ],
    "shift": [
@@ -724,6 +744,16 @@
      ],
      "ans": 0,
      "why": "Nhắc khả năng xấu để phòng ngừa → thể ない + とも限[かぎ]らない. Thể từ điển thì thành \"chưa chắc đã rơi\" (ngược ý); trợ từ là と + も, không phải に + も."
+    },
+    {
+     "q": "Anh Nguyễn nói với vợ khi đi siêu thị: biết đâu lại có động đất, mình mua sẵn nước và đồ ăn để dự trữ đi.",
+     "opts": [
+      "地震[じしん]が来[こ]ないとも限[かぎ]らないから、水[みず]と食料[しょくりょう]を用意[ようい]しておこう。",
+      "地震[じしん]が来[く]るとも限[かぎ]らないから、水[みず]と食料[しょくりょう]を用意[ようい]しておこう。",
+      "地震[じしん]が来[こ]ないとも限[かぎ]らないから、もう安心[あんしん]だね。"
+     ],
+     "ans": 0,
+     "why": "Biết đâu lại xảy ra (cần đề phòng) → thể ない + とも限[かぎ]らない. 来[く]るとも限[かぎ]らない = \"chưa chắc đã đến\", ngược ý; vế sau phải là phòng ngừa, không phải yên tâm."
     }
    ],
    "shift": [

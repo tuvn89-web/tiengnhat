@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Nhận xét khuynh hướng xấu, văn viết → V-る + きらいがある. Không chen の; không có dạng きらいがする (nhầm với 気[き]がする)."
+    },
+    {
+     "q": "Trong buổi phỏng vấn lên chủ nhiệm, giám đốc hỏi điểm yếu của anh Nguyễn. Anh thành thật: tôi có xu hướng việc gì cũng ôm hết một mình.",
+     "opts": [
+      "私[わたし]は、何[なん]でも一人[ひとり]で抱[かか]え込[こ]むのが嫌[きら]いです。",
+      "私[わたし]は、何[なん]でも一人[ひとり]で抱[かか]え込[こ]むきらいがあります。",
+      "私[わたし]は、何[なん]でも一人[ひとり]で抱[かか]え込[こ]むのきらいがあります。"
+     ],
+     "ans": 1,
+     "why": "Có tật, xu hướng xấu → thể từ điển + きらいがある. 抱[かか]え込[こ]むのが嫌[きら]い = \"ghét ôm việc\", nghĩa ngược hẳn; không chen の trước きらいがある."
     }
    ],
    "shift": [
@@ -491,11 +501,21 @@
      ],
      "ans": 0,
      "why": "Kể kết cục tệ, giọng than phiền → V-る + 始末[しまつ]だ (dù việc đã xảy ra hôm qua). Không chen の; 始末[しまつ]する là \"dọn dẹp, xử lý\" — nghĩa khác."
+    },
+    {
+     "q": "Anh Nguyễn than với vợ về thằng con trai: đã không chịu học, rốt cuộc còn trốn cả buổi học thêm.",
+     "opts": [
+      "勉強[べんきょう]しないどころか、とうとう塾[じゅく]までさぼる始末[しまつ]した。",
+      "勉強[べんきょう]しないどころか、とうとう塾[じゅく]までさぼるの始末[しまつ]だ。",
+      "勉強[べんきょう]しないどころか、とうとう塾[じゅく]までさぼる始末[しまつ]だ。"
+     ],
+     "ans": 2,
+     "why": "Rốt cuộc đến mức (kết cục tệ) → thể từ điển + 始末[しまつ]だ. Không chen の; 始末[しまつ]する là \"xử lý, dọn dẹp\", nghĩa khác."
     }
    ],
    "shift": [
     {
-     "from": "何[なん]べん言[い]うても聞[き]かへんし、最後[さいご]は泣[な]き出[だ]しよった。",
+     "from": "何[なん]べん言[ゆ]うても聞[き]かへんし、最後[さいご]は泣[な]き出[だ]しよった。",
      "to": "何度[なんど]言[い]っても聞[き]かず、最後[さいご]には泣[な]き出[だ]す始末[しまつ]でした。",
      "kind": "kansai",
      "note": "Kansai: 何[なん]べん = 何度[なんど]; 言[ゆ]うても = 言[い]っても; 聞[き]かへん = 聞[き]かない; 〜よった = 〜た (giọng chê). Trang trọng: V-る + 始末[しまつ]だ.",
@@ -738,6 +758,16 @@
      ],
      "ans": 0,
      "why": "Than phiền điều khó chịu → tính từ い bỏ い + くてかなわない. うるさいで sai cách chia; かなう (khẳng định) không dùng trong mẫu này."
+    },
+    {
+     "q": "Anh Nguyễn than với đồng nghiệp về đường đi làm ca đêm: xe buýt khuya ít quá, bất tiện chịu không nổi.",
+     "opts": [
+      "夜[よる]のバスが少[すく]なくて、不便[ふべん]でかなわないよ。",
+      "夜[よる]のバスが少[すく]なくて、不便[ふべん]くてかなわないよ。",
+      "夜[よる]のバスが少[すく]なくて、不便[ふべん]なでかなわないよ。"
+     ],
+     "ans": 0,
+     "why": "Khó chịu không chịu nổi → tính từ な + でかなわない: 不便[ふべん]でかなわない. Tính từ な không chia くて; không giữ な trước で."
     }
    ],
    "shift": [

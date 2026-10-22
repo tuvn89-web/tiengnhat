@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -212,6 +212,16 @@
      ],
      "ans": 0,
      "why": "Mong người khác đừng làm → 〜ないでほしい."
+    },
+    {
+     "q": "Tổ trưởng hỏi anh Nguyễn nên dạy người mới cái gì trước. Anh nói: tôi muốn cậu ấy nhớ kỹ quy tắc vệ sinh trước tiên.",
+     "opts": [
+      "新人[しんじん]には、まず衛生[えいせい]のルールを覚[おぼ]えたいです。",
+      "新人[しんじん]には、まず衛生[えいせい]のルールを覚[おぼ]えてほしいです。",
+      "新人[しんじん]には、まず衛生[えいせい]のルールを覚[おぼ]えてほしがります。"
+     ],
+     "ans": 1,
+     "why": "Muốn NGƯỜI KHÁC làm → 〜てほしいです. 覚[おぼ]えたい là chính mình muốn nhớ; ほしがる dùng tả mong muốn của người thứ ba, không phải của mình."
     }
    ],
    "shift": [
@@ -450,6 +460,16 @@
      ],
      "ans": 0,
      "why": "Mình làm người khác phải chờ → 待[ま]たせる (sai khiến)."
+    },
+    {
+     "q": "Giờ nghỉ, anh Nguyễn kể với đồng nghiệp lớn tuổi về tuổi thơ: hồi nhỏ ngày nào mẹ cũng bắt tôi phụ việc nhà.",
+     "opts": [
+      "子供[こども]のころ、母[はは]は毎日[まいにち]私[わたし]に家[いえ]の仕事[しごと]を手伝[てつだ]いさせました。",
+      "子供[こども]のころ、母[はは]は毎日[まいにち]私[わたし]に家[いえ]の仕事[しごと]を手伝[てつだ]あせました。",
+      "子供[こども]のころ、母[はは]は毎日[まいにち]私[わたし]に家[いえ]の仕事[しごと]を手伝[てつだ]わせました。"
+     ],
+     "ans": 2,
+     "why": "Bắt người khác làm → sai khiến. Nhóm 1 手伝[てつだ]う: う → わ + せる = 手伝[てつだ]わせる. 手伝[てつだ]いさせる chia như danh từ + させる; 手伝[てつだ]あせる quên う → わ."
     }
    ],
    "shift": [
@@ -666,6 +686,16 @@
      ],
      "ans": 0,
      "why": "Xin phép nghỉ lịch sự → 休[やす]ませてください."
+    },
+    {
+     "q": "Trong buổi họp sáng, tổ trưởng hỏi ai làm được công đoạn lọc xương cá mới. Anh Nguyễn muốn xin: xin để tôi làm việc đó.",
+     "opts": [
+      "その作業[さぎょう]、私[わたし]にやってください。",
+      "その作業[さぎょう]、私[わたし]にやらせてください。",
+      "その作業[さぎょう]、私[わたし]にやりさせてください。"
+     ],
+     "ans": 1,
+     "why": "Xin cho mình được làm → やらせてください. やってください là nhờ người khác làm; やりさせて chia sai thể sai khiến."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -222,6 +222,16 @@
      ],
      "ans": 0,
      "why": "Đầy (bẩn, tiêu cực) → だらけ."
+    },
+    {
+     "q": "Cô giáo lớp tiếng Nhật trả bài kiểm tra chữ Hán. Anh Nguyễn ngượng ngùng nói: bài của em toàn lỗi sai ạ.",
+     "opts": [
+      "漢字[かんじ]のテスト、間違[まちが]いのだらけでした。",
+      "漢字[かんじ]のテスト、間違[まちが]いがだらけでした。",
+      "漢字[かんじ]のテスト、間違[まちが]いだらけでした。"
+     ],
+     "ans": 2,
+     "why": "Đầy thứ không mong muốn → danh từ + だらけ. Không chen の hay が giữa danh từ và だらけ."
     }
    ],
    "shift": [
@@ -446,6 +456,16 @@
      ],
      "ans": 0,
      "why": "Vừa mới (tươi) → thân ます + たて."
+    },
+    {
+     "q": "Tổ trưởng nhờ anh Nguyễn viết giấy dán lên cánh cửa phòng nghỉ vừa sơn xong: sơn mới, xin đừng chạm vào.",
+     "opts": [
+      "ペンキ塗[ぬ]ったてです。触[さわ]らないでください。",
+      "ペンキ塗[ぬ]りたてです。触[さわ]らないでください。",
+      "ペンキ塗[ぬ]るたてです。触[さわ]らないでください。"
+     ],
+     "ans": 1,
+     "why": "Vừa mới làm xong, còn mới → thân ます + たて: 塗[ぬ]りたて. Không dùng thể た hay thể từ điển trước たて."
     }
    ],
    "shift": [
@@ -670,6 +690,16 @@
      ],
      "ans": 0,
      "why": "Làm ra cho (thị trường) → 向[む]け."
+    },
+    {
+     "q": "Bạn cùng phòng mới tập leo núi, hỏi anh Nguyễn núi Rokko có khó không. Anh nói: núi đó hợp với người mới leo đấy.",
+     "opts": [
+      "六甲山[ろっこうさん]は初心者[しょしんしゃ]に向[む]かってだよ。",
+      "六甲山[ろっこうさん]は初心者[しょしんしゃ]向[む]きだよ。",
+      "六甲山[ろっこうさん]は初心者[しょしんしゃ]の向[む]きだよ。"
+     ],
+     "ans": 1,
+     "why": "Hợp với (đối tượng) → danh từ + 向[む]き. に向[む]かって là \"hướng về phía\"; không chen の giữa danh từ và 向[む]き."
     }
    ],
    "shift": [

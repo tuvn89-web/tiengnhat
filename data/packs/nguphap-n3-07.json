@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -234,6 +234,16 @@
      ],
      "ans": 0,
      "why": "Kết quả tốt, biết ơn → おかげです."
+    },
+    {
+     "q": "Anh Nguyễn kể với bạn người Nhật: lần này đi tòa thị chính, nhờ có ứng dụng dịch nên thủ tục xong suôn sẻ.",
+     "opts": [
+      "翻訳[ほんやく]アプリおかげで、手続[てつづ]きがスムーズにできました。",
+      "翻訳[ほんやく]アプリのせいで、手続[てつづ]きがスムーズにできました。",
+      "翻訳[ほんやく]アプリのおかげで、手続[てつづ]きがスムーズにできました。"
+     ],
+     "ans": 2,
+     "why": "Nhờ… mà kết quả tốt → danh từ + の + おかげで. Danh từ thiếu の là sai; せいで dùng cho kết quả xấu."
     }
    ],
    "shift": [
@@ -479,6 +489,16 @@
      ],
      "ans": 0,
      "why": "Kết quả xấu do mình → 〜のせいで."
+    },
+    {
+     "q": "Ở phòng khám, anh Nguyễn nói với bác sĩ, không chắc nguyên nhân: có lẽ do thiếu ngủ mà tôi hay bị đau đầu.",
+     "opts": [
+      "寝不足[ねぶそく]のせいか、よく頭[あたま]が痛[いた]くなります。",
+      "寝不足[ねぶそく]のおかげか、よく頭[あたま]が痛[いた]くなります。",
+      "寝不足[ねぶそく]せいか、よく頭[あたま]が痛[いた]くなります。"
+     ],
+     "ans": 0,
+     "why": "Nguyên nhân không chắc, kết quả xấu → danh từ + の + せいか. おかげ dùng cho kết quả tốt; danh từ thiếu の là sai."
     }
    ],
    "shift": [
@@ -706,6 +726,16 @@
      ],
      "ans": 0,
      "why": "Tùy theo → によって."
+    },
+    {
+     "q": "Trong buổi họp tổ, chưa ai nhận làm ca chủ nhật. Anh Nguyễn đề xuất: chúng ta quyết bằng cách bàn bạc với nhau nhé.",
+     "opts": [
+      "日曜日[にちようび]の担当[たんとう]は、話[はな]し合[あ]いによると決[き]めましょう。",
+      "日曜日[にちようび]の担当[たんとう]は、話[はな]し合[あ]いによって決[き]めましょう。",
+      "日曜日[にちようび]の担当[たんとう]は、話[はな]し合[あ]いにとって決[き]めましょう。"
+     ],
+     "ans": 1,
+     "why": "Bằng phương pháp nào → によって: 話[はな]し合[あ]いによって決[き]める. によると là \"theo (nguồn tin)\"; にとって là \"đối với\"."
     }
    ],
    "shift": [

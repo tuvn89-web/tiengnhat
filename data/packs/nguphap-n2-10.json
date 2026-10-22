@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Chừng nào còn (trạng thái) → ている限[かぎ]り. ない限[かぎ]り = nếu không… (ngược nghĩa); とたん = vừa… thì."
+    },
+    {
+     "q": "Khách hàng gọi điện xin giao gấp một đơn hàng. Anh Nguyễn (chủ nhiệm) trả lời lịch sự: chúng tôi sẽ cố gắng đáp ứng sớm nhất có thể.",
+     "opts": [
+      "できるうちに早[はや]く対応[たいおう]いたします。",
+      "できる限[かぎ]り早[はや]く対応[たいおう]いたします。",
+      "できない限[かぎ]り早[はや]く対応[たいおう]いたします。"
+     ],
+     "ans": 1,
+     "why": "Hết mức có thể → cụm cố định できる限[かぎ]り. できるうちに = \"trong lúc còn làm được\"; できない限[かぎ]り = \"nếu không làm được thì…\", ngược nghĩa."
     }
    ],
    "shift": [
@@ -484,6 +494,16 @@
      ],
      "ans": 0,
      "why": "Nếu không… thì không… → ない限[かぎ]り + phủ định. Vế sau khẳng định là sai ý; た限[かぎ]り không dùng cho điều kiện."
+    },
+    {
+     "q": "Trưởng phòng hỏi lịch tháng sau. Anh Nguyễn (tổ trưởng) trả lời: trừ khi có đơn hàng gấp, thứ Bảy tổ sẽ nghỉ.",
+     "opts": [
+      "よほど急[きゅう]な注文[ちゅうもん]がある限[かぎ]り、土曜日[どようび]は休[やす]みにする予定[よてい]です。",
+      "よほど急[きゅう]な注文[ちゅうもん]がない限[かぎ]り、土曜日[どようび]は休[やす]みにする予定[よてい]です。",
+      "よほど急[きゅう]な注文[ちゅうもん]がないうちに、土曜日[どようび]は休[やす]みにする予定[よてい]です。"
+     ],
+     "ans": 1,
+     "why": "Trừ khi… → thể ない + 限[かぎ]り. がある限[かぎ]り = \"chừng nào còn đơn gấp thì nghỉ\", ngược logic; ないうちに = \"trước khi có…\", sai nghĩa."
     }
    ],
    "shift": [
@@ -734,6 +754,16 @@
      ],
      "ans": 0,
      "why": "Giới hạn phạm vi thông tin, báo cáo thận trọng → た限[かぎ]りでは."
+    },
+    {
+     "q": "Một khách hàng đến tham quan hỏi xưởng đã từng có tai nạn lớn chưa. Anh Nguyễn trả lời thận trọng: theo chỗ tôi biết thì chưa lần nào.",
+     "opts": [
+      "私[わたし]が知[し]っている以上[いじょう]は、この工場[こうじょう]で大[おお]きな事故[じこ]は一度[いちど]もありません。",
+      "私[わたし]が知[し]っている限[かぎ]りでは、この工場[こうじょう]で大[おお]きな事故[じこ]は一度[いちど]もありません。",
+      "私[わたし]が知[し]っているの限[かぎ]りでは、この工場[こうじょう]で大[おお]きな事故[じこ]は一度[いちど]もありません。"
+     ],
+     "ans": 1,
+     "why": "Giới hạn phạm vi hiểu biết của mình → 知[し]っている限[かぎ]りでは. Không thêm の sau động từ; 以上[いじょう]は = \"một khi đã…\", sai nghĩa."
     }
    ],
    "shift": [

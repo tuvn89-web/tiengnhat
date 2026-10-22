@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 3,
+  "version": 4,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -220,6 +220,16 @@
      ],
      "ans": 0,
      "why": "Bổ nghĩa cả câu hỏi → 的[てき]に."
+    },
+    {
+     "q": "Tổ trưởng hỏi anh Nguyễn muốn làm ca sáng hay ca chiều. Anh trả lời lịch sự: riêng cá nhân tôi thì thích ca sáng hơn.",
+     "opts": [
+      "個人的[こじんてき]なは、早番[はやばん]のほうが好[す]きです。",
+      "個人[こじん]らしくは、早番[はやばん]のほうが好[す]きです。",
+      "個人的[こじんてき]には、早番[はやばん]のほうが好[す]きです。"
+     ],
+     "ans": 2,
+     "why": "Về mặt cá nhân, bổ nghĩa cho cả câu → 個人的[こじんてき]に(は). 的[てき]な chỉ đứng trước danh từ; らしい là \"đúng chất\", không dùng ở đây."
     }
    ],
    "shift": [
@@ -444,6 +454,16 @@
      ],
      "ans": 0,
      "why": "Để mặc (chê) → thân ます + っぱなし."
+    },
+    {
+     "q": "Ở phòng khám, bác sĩ hỏi vì sao anh Nguyễn đau chân. Anh nói: ở xưởng tôi phải đứng suốt cả ngày.",
+     "opts": [
+      "工場[こうじょう]では一日[いちにち]中[じゅう]立[た]ちっぱなしなので、足[あし]が痛[いた]いんです。",
+      "工場[こうじょう]では一日[いちにち]中[じゅう]立[た]ってっぱなしなので、足[あし]が痛[いた]いんです。",
+      "工場[こうじょう]では一日[いちにち]中[じゅう]立[た]ち続[つづ]けっぱなしなので、足[あし]が痛[いた]いんです。"
+     ],
+     "ans": 0,
+     "why": "Trạng thái kéo dài suốt, không mong muốn → thân ます + っぱなし: 立[た]ちっぱなし. Không dùng thể て; không ghép thêm 続[つづ]ける."
     }
    ],
    "shift": [
@@ -661,6 +681,16 @@
      ],
      "ans": 0,
      "why": "Câu chào lâu ngày → お久[ひさ]しぶりです."
+    },
+    {
+     "q": "Anh Nguyễn xin nghỉ phép, nói với tổ trưởng: tháng sau tôi về Việt Nam, đã ba năm rồi mới được về.",
+     "opts": [
+      "来月[らいげつ]、三年[さんねん]後[ご]にベトナムに帰[かえ]ります。",
+      "来月[らいげつ]、三年[さんねん]ぶりにベトナムに帰[かえ]ります。",
+      "来月[らいげつ]、三年[さんねん]ぶりベトナムに帰[かえ]ります。"
+     ],
+     "ans": 1,
+     "why": "Sau một khoảng lâu mới lại làm → khoảng thời gian + ぶりに. 三年[さんねん]後[ご]に là \"ba năm sau (kể từ bây giờ)\"; thiếu に là sai."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Văn viết, \"dù nghĩ… nhưng\" → thân ます + つつも. つつある = đang dần thay đổi."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) viết email trả lời khách hàng (văn viết): chúng tôi sẽ vừa tham khảo ý kiến của quý khách vừa cải tiến quy trình.",
+     "opts": [
+      "お客様[きゃくさま]のご意見[いけん]を参考[さんこう]にしつつも、手順[てじゅん]を改善[かいぜん]してまいります。",
+      "お客様[きゃくさま]のご意見[いけん]を参考[さんこう]にしつつ、手順[てじゅん]を改善[かいぜん]してまいります。",
+      "お客様[きゃくさま]のご意見[いけん]を参考[さんこう]にするつつ、手順[てじゅん]を改善[かいぜん]してまいります。"
+     ],
+     "ans": 1,
+     "why": "Vừa… vừa… (văn viết) → thân ます + つつ: 参考[さんこう]にしつつ. つつも = \"dù… nhưng vẫn\", sai logic; không gắn sau thể từ điển."
     }
    ],
    "shift": [
@@ -441,7 +451,7 @@
      "vi": "A: Cậu người mới lúc nãy trông như muốn nói gì đó nhỉ. B: Ừ, lát nữa thử hỏi chuyện xem.",
      "ctx": "hoithoai",
      "wrong": [
-      "言[い]うたげだった",
+      "言[ゆ]うたげだった",
       "言[い]いたいげだった"
      ]
     }
@@ -481,6 +491,16 @@
      ],
      "ans": 0,
      "why": "Tính từ な bỏ な + げ; trước danh từ dùng げな."
+    },
+    {
+     "q": "Anh Nguyễn ghi nhật ký (văn viết): tối nay đứa con trai cứ nhìn mình với vẻ như muốn nói điều gì.",
+     "opts": [
+      "息子[むすこ]は何[なに]か言[い]いたいげな顔[かお]でこちらを見[み]ていた。",
+      "息子[むすこ]は何[なに]か言[い]いたげの顔[かお]でこちらを見[み]ていた。",
+      "息子[むすこ]は何[なに]か言[い]いたげな顔[かお]でこちらを見[み]ていた。"
+     ],
+     "ans": 2,
+     "why": "Vẻ cảm xúc lộ ra → 言[い]いたい bỏ い + げ, dùng như tính từ な: 言[い]いたげな顔[かお]. Không giữ い; trước danh từ dùng な, không dùng の."
     }
    ],
    "shift": [
@@ -714,6 +734,16 @@
      ],
      "ans": 0,
      "why": "Ý chí phủ định (văn viết) → 忘[わす]れまい / 忘[わす]れるまい. Không gắn まい sau thể ない hay thể ý chí."
+    },
+    {
+     "q": "Anh Nguyễn ghi vào sổ tay (văn viết) khi thấy gió bão: trời thế này, chắc ngày mai tàu cá không ra khơi được.",
+     "opts": [
+      "この天気[てんき]では、明日[あした]は船[ふね]が出[で]ることはあるまい。",
+      "この天気[てんき]では、明日[あした]は船[ふね]が出[で]ることはないまい。",
+      "この天気[てんき]では、明日[あした]は船[ふね]が出[で]ることはあるまいだ。"
+     ],
+     "ans": 0,
+     "why": "Phỏng đoán phủ định (văn viết) → 〜ことはあるまい. Không gắn まい sau ない; không thêm だ sau まい."
     }
    ],
    "shift": [

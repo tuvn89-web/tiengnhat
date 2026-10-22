@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Mọi thứ đã sẵn sàng, chỉ còn bước cuối → thể từ điển + ばかりになっている. 積[つ]み込[こ]んだばかり = vừa chất xong (mâu thuẫn với あとは); なる là tự động từ nên không có なってある."
+    },
+    {
+     "q": "Hôm trước ngày chuyển nhà, anh Nguyễn nhắn cho vợ: đồ đạc đóng thùng xong cả rồi, giờ chỉ còn chờ xe tải chuyển nhà đến.",
+     "opts": [
+      "荷物[にもつ]は全部[ぜんぶ]箱[はこ]に詰[つ]めたから、あとはトラックを待[ま]ったばかりになっているよ。",
+      "荷物[にもつ]は全部[ぜんぶ]箱[はこ]に詰[つ]めたから、あとはトラックを待[ま]つばかりになっているよ。",
+      "荷物[にもつ]は全部[ぜんぶ]箱[はこ]に詰[つ]めたから、あとはトラックを待[ま]つばかりになってあるよ。"
+     ],
+     "ans": 1,
+     "why": "Mọi thứ sẵn sàng, chỉ còn chờ → thể từ điển + ばかりになっている. Thể た + ばかり là \"vừa mới\"; なる là tự động từ nên không dùng てある."
     }
    ],
    "shift": [
@@ -485,6 +495,16 @@
      ],
      "ans": 0,
      "why": "Cho phép một cách trang trọng → thể て + もさしつかえございません. ては đi với nghĩa cấm; trước も phải là thể て, không phải thể từ điển."
+    },
+    {
+     "q": "Ở quầy tòa thị chính, anh Nguyễn hỏi nhân viên rất lịch sự: thay vì bản gốc, tôi nộp bản sao có được không ạ?",
+     "opts": [
+      "原本[げんぽん]ではなく、コピーを提出[ていしゅつ]してはさしつかえないでしょうか。",
+      "原本[げんぽん]ではなく、コピーを提出[ていしゅつ]してもさしつかえないでしょうか。",
+      "原本[げんぽん]ではなく、コピーを提出[ていしゅつ]してもさしつかえるでしょうか。"
+     ],
+     "ans": 1,
+     "why": "Xin phép trang trọng → thể て + もさしつかえないでしょうか. Không dùng ては (đi với いけない); さしつかえる (khẳng định) lại là \"có trở ngại\", sai ý."
     }
    ],
    "shift": [
@@ -732,6 +752,16 @@
      ],
      "ans": 0,
      "why": "Được mời (khiêm nhường, trang trọng) → お招[まね]きにあずかる. Không dùng を; あずける = gửi giữ, sai nghĩa."
+    },
+    {
+     "q": "Được mời phát biểu ở hội nghị của hội doanh nghiệp, anh Nguyễn bước lên sau lời giới thiệu của người dẫn chương trình và mở đầu: tôi là Nguyễn, người vừa được giới thiệu.",
+     "opts": [
+      "ただいまご紹介[しょうかい]をあずかりました、グエンと申[もう]します。",
+      "ただいまご紹介[しょうかい]にあずけました、グエンと申[もう]します。",
+      "ただいまご紹介[しょうかい]にあずかりました、グエンと申[もう]します。"
+     ],
+     "ans": 2,
+     "why": "Được (giới thiệu) — khiêm nhường → ご紹介[しょうかい]にあずかる (luôn là に). あずける = \"gửi, giao\", sai từ."
     }
    ],
    "shift": [

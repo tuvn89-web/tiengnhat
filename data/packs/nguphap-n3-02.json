@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -233,6 +233,16 @@
      ],
      "ans": 0,
      "why": "Vừa làm thì việc bất ngờ xảy ra → 〜たとたん."
+    },
+    {
+     "q": "Anh Nguyễn về ký túc xá ướt sũng, kể với bạn cùng phòng: vừa bước ra khỏi ga thì trời đổ mưa.",
+     "opts": [
+      "駅[えき]を出[で]るとたん、雨[あめ]が降[ふ]ってきたんだ。",
+      "駅[えき]を出[で]次第[しだい]、雨[あめ]が降[ふ]ってきたんだ。",
+      "駅[えき]を出[で]たとたん、雨[あめ]が降[ふ]ってきたんだ。"
+     ],
+     "ans": 2,
+     "why": "Vừa làm A thì B bất ngờ xảy ra → thể た + とたん. Không dùng thể từ điển; 次第[しだい] dùng cho việc sẽ làm có chủ ý."
     }
    ],
    "shift": [
@@ -481,6 +491,16 @@
      ],
      "ans": 0,
      "why": "Mỗi lần → thể từ điển + たびに."
+    },
+    {
+     "q": "Ở lớp tiếng Nhật, cô giáo hỏi anh Nguyễn có lo gì không. Anh nói: mỗi lần gia hạn visa, tôi lại thấy lo.",
+     "opts": [
+      "ビザの更新[こうしん]たびに、心配[しんぱい]になります。",
+      "ビザの更新[こうしん]のたびに、心配[しんぱい]になります。",
+      "ビザを更新[こうしん]したたびに、心配[しんぱい]になります。"
+     ],
+     "ans": 1,
+     "why": "Mỗi lần sự việc lặp lại → danh từ + の + たびに (hoặc thể từ điển + たびに). Danh từ thiếu の là sai; không dùng thể た trước たびに."
     }
    ],
    "shift": [
@@ -725,6 +745,16 @@
      ],
      "ans": 0,
      "why": "Nhờ làm thêm nhân dịp → ついでに."
+    },
+    {
+     "q": "Anh Nguyễn báo với tổ trưởng: nhân tiện đi tòa thị chính nộp giấy, tôi đã lấy luôn giấy chứng nhận cư trú.",
+     "opts": [
+      "市役所[しやくしょ]に書類[しょるい]を出[だ]しに行[い]ったついでに、住民票[じゅうみんひょう]ももらってきました。",
+      "市役所[しやくしょ]に書類[しょるい]を出[だ]しに行[い]ったかわりに、住民票[じゅうみんひょう]ももらってきました。",
+      "市役所[しやくしょ]に書類[しょるい]を出[だ]しに行[い]きましたついでに、住民票[じゅうみんひょう]ももらってきました。"
+     ],
+     "ans": 0,
+     "why": "Nhân dịp việc chính làm thêm việc phụ → 行[い]ったついでに. かわりに là \"thay vì\"; không dùng thể ます trước ついでに."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -234,6 +234,16 @@
      ],
      "ans": 0,
      "why": "Động từ thể từ điển + あまり (không thêm の); vế sau là kết quả đã xảy ra, không phải lời nhờ."
+    },
+    {
+     "q": "Anh Nguyễn kể với tổ trưởng (lịch sự): khi biết mình đỗ N2, vì quá vui mà tôi đã bật khóc.",
+     "opts": [
+      "合格[ごうかく]を知[し]って、うれしいのあまり泣[な]いてしまいました。",
+      "合格[ごうかく]を知[し]って、うれしさのあまり泣[な]いてしまいました。",
+      "合格[ごうかく]を知[し]って、うれしさあまり泣[な]いてしまいました。"
+     ],
+     "ans": 1,
+     "why": "Vì quá (cảm xúc) nên… → danh từ cảm xúc + の + あまり: うれしさのあまり. Tính từ không gắn の (うれしいのあまり ✗); danh từ phải có の."
     }
    ],
    "shift": [
@@ -480,6 +490,16 @@
      ],
      "ans": 0,
      "why": "Đoán nguyên nhân, giọng nhẹ → せいか. せいに sai trợ từ; おかげ dùng cho kết quả tốt."
+    },
+    {
+     "q": "Ở phòng khám, anh Nguyễn nói với bác sĩ: dạo này lưng tôi hay đau, không biết có phải tại trời lạnh không.",
+     "opts": [
+      "寒[さむ]さのおかげか、最近[さいきん]腰[こし]が痛[いた]いんです。",
+      "寒[さむ]させいか、最近[さいきん]腰[こし]が痛[いた]いんです。",
+      "寒[さむ]さのせいか、最近[さいきん]腰[こし]が痛[いた]いんです。"
+     ],
+     "ans": 2,
+     "why": "Đoán nguyên nhân (không chắc) → Danh từ + の + せいか. Danh từ phải có の; おかげ dùng cho kết quả tốt, không hợp với \"đau lưng\"."
     }
    ],
    "shift": [
@@ -730,6 +750,16 @@
      ],
      "ans": 0,
      "why": "Dựa vào tính cách → のことだから + phán đoán (はずだ). くせに là trách móc; vế sau không phải lời nhờ."
+    },
+    {
+     "q": "Vợ hỏi bạn Minh của anh Nguyễn có đến kịp bữa tiệc không. Anh nói: Minh lúc nào cũng trễ, nên chắc hôm nay cũng đến muộn thôi.",
+     "opts": [
+      "いつも遅[おく]れるミンさんのことだから、今日[きょう]も遅[おく]れて来[く]るよ。",
+      "いつも遅[おく]れるミンさんことだから、今日[きょう]も遅[おく]れて来[く]るよ。",
+      "いつも遅[おく]れるミンさんのことだから、今日[きょう]も遅[おく]れて来[き]てね。"
+     ],
+     "ans": 0,
+     "why": "Đoán theo tính cách quen thuộc của một người → Người + の + ことだから + phán đoán. Thiếu の là sai; vế sau là lời nhờ (来[き]てね) thì không hợp."
     }
    ],
    "shift": [

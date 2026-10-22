@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "Cảm xúc mạnh trong thư → どれほど + 〜ことか."
+    },
+    {
+     "q": "Ngồi uống trà với bạn thân, anh Nguyễn nhớ lại: hồi mới sang Nhật, tôi đã khóc không biết bao nhiêu lần.",
+     "opts": [
+      "日本[にほん]に来[き]たばかりの頃[ころ]、何度[なんど]泣[な]いたことだ。",
+      "日本[にほん]に来[き]たばかりの頃[ころ]、何度[なんど]泣[な]いたものか。",
+      "日本[にほん]に来[き]たばかりの頃[ころ]、何度[なんど]泣[な]いたことか。"
+     ],
+     "ans": 2,
+     "why": "Cảm thán \"biết bao\" → 何度[なんど] + thể thường + ことか. Kết bằng ことだ là sai; ものか là phản bác \"đời nào…\", ngược nghĩa."
     }
    ],
    "shift": [
@@ -491,6 +501,16 @@
      ],
      "ans": 0,
      "why": "Cảm xúc đặt đầu câu (văn báo cáo) → 幸[さいわ]いなことに. ことか là cảm thán cuối câu; tính từ な cần な."
+    },
+    {
+     "q": "Anh Nguyễn báo cáo với trưởng phòng trong buổi họp tháng: thật đáng ngạc nhiên là đơn hàng từ nước ngoài đã tăng gấp đôi.",
+     "opts": [
+      "驚[おどろ]いたことに、海外[かいがい]からの注文[ちゅうもん]が二倍[にばい]になりました。",
+      "見[み]たことに、海外[かいがい]からの注文[ちゅうもん]が二倍[にばい]になりました。",
+      "驚[おどろ]いたことか、海外[かいがい]からの注文[ちゅうもん]が二倍[にばい]になりました。"
+     ],
+     "ans": 0,
+     "why": "Nêu cảm xúc trước rồi kể sự việc → từ chỉ cảm xúc + ことに: 驚[おどろ]いたことに. 見[み]る không phải từ chỉ cảm xúc; ことか là cảm thán cuối câu."
     }
    ],
    "shift": [
@@ -729,6 +749,16 @@
      ],
      "ans": 0,
      "why": "Thừa nhận \"đọc thì có đọc\" rồi nói điều chưa trọn → lặp cùng một từ: 読[よ]んだことは読[よ]んだんですが."
+    },
+    {
+     "q": "Vợ hỏi căn hộ mới thế nào. Anh Nguyễn đáp: tiện thì có tiện, nhưng hơi chật.",
+     "opts": [
+      "便利[べんり]なことは便利[べんり]けど、ちょっと狭[せま]いんだ。",
+      "便利[べんり]なことは便利[べんり]だけど、ちょっと狭[せま]いんだ。",
+      "便利[べんり]なことは安[やす]いけど、ちょっと狭[せま]いんだ。"
+     ],
+     "ans": 1,
+     "why": "Thừa nhận dè dặt → lặp CÙNG một từ: 便利[べんり]なことは便利[べんり]だけど (tính từ な cần だ ở vế sau). Thiếu だ là sai; đổi sang từ khác (安[やす]い) là sai mẫu."
     }
    ],
    "shift": [

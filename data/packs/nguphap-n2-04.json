@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -236,6 +236,16 @@
      ],
      "ans": 0,
      "why": "Cùng một động từ: thể た / từ điển + か + thể ない + かのうちに."
+    },
+    {
+     "q": "Tối gọi video, anh Nguyễn kể với vợ: hôm qua mệt quá, vừa đặt lưng xuống chưa kịp nằm hẳn thì đã ngủ mất.",
+     "opts": [
+      "横[よこ]になったかと思[おも]うと、寝[ね]てしまったよ。",
+      "横[よこ]になるかならないかのうちに、寝[ね]てしまったよ。",
+      "横[よこ]になるか寝[ね]ないかのうちに、寝[ね]てしまったよ。"
+     ],
+     "ans": 1,
+     "why": "Chưa kịp xong A thì B đã xảy ra → 横[よこ]になるかならないかのうちに (lặp CÙNG động từ). Đổi động từ ở vế ない là sai; かと思[おも]うと không dùng cho hành động của chính mình."
     }
    ],
    "shift": [
@@ -472,6 +482,16 @@
      ],
      "ans": 0,
      "why": "Quan sát người khác: thể た + かと思[おも]うと, vế sau là việc đổi ngay."
+    },
+    {
+     "q": "Giờ nghỉ trưa ở cảng cá, anh Nguyễn nói với đồng nghiệp: trời vừa mới hửng nắng thì đã đổ mưa ngay.",
+     "opts": [
+      "さっき晴[は]れるかと思[おも]うと、急[きゅう]に雨[あめ]が降[ふ]り出[だ]した。",
+      "さっき晴[は]れたかと思[おも]うと、急[きゅう]に雨[あめ]が降[ふ]り出[だ]した。",
+      "さっき晴[は]れたかと思[おも]ったので、急[きゅう]に雨[あめ]が降[ふ]り出[だ]した。"
+     ],
+     "ans": 1,
+     "why": "Vừa A thì B đổi ngược ngay (quan sát sự vật) → thể た + かと思[おも]うと. 晴[は]れるかと思[おも]うと (thể từ điển) sai cách nối; かと思[おも]ったので = \"vì tôi tưởng…\", sai nghĩa."
     }
    ],
    "shift": [
@@ -721,6 +741,16 @@
      ],
      "ans": 0,
      "why": "Tùy vào → Danh từ + 次第[しだい]です. 次第[しだい]に = dần dần (phó từ); không có の."
+    },
+    {
+     "q": "Người mới hỏi anh Nguyễn (tổ trưởng) năm sau có được tăng lương không. Anh nói thân mật: có tăng hay không là tùy vào sự cố gắng của em.",
+     "opts": [
+      "給料[きゅうりょう]が上[あ]がるかどうかは、頑張[がんば]りの次第[しだい]だよ。",
+      "給料[きゅうりょう]が上[あ]がるかどうかは、頑張[がんば]る次第[しだい]だよ。",
+      "給料[きゅうりょう]が上[あ]がるかどうかは、頑張[がんば]り次第[しだい]だよ。"
+     ],
+     "ans": 2,
+     "why": "Tùy vào → Danh từ + 次第[しだい]だ: 頑張[がんば]り次第[しだい]. Không chen の (頑張[がんば]りの次第[しだい] ✗); không gắn động từ thể từ điển (頑張[がんば]る次第[しだい] ✗)."
     }
    ],
    "shift": [

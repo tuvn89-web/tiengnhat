@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -224,6 +224,16 @@
      ],
      "ans": 0,
      "why": "〜ようと思[おも]っています nói ý định mềm mỏng. 帰[かえ]ると思[おも]います lại thành \"tôi đoán là (ai đó) sẽ về\"."
+    },
+    {
+     "q": "Giờ nghỉ trưa, đồng nghiệp người Nhật hỏi anh Nguyễn có thi tiếng Nhật không. Anh vừa mới tính, muốn nói mềm: tôi định thi kỳ tháng 12.",
+     "opts": [
+      "12月[がつ]の試験[しけん]を受[う]けると思[おも]っています。",
+      "12月[がつ]の試験[しけん]を受[う]けようと思[おも]っています。",
+      "12月[がつ]の試験[しけん]を受[う]けろうと思[おも]っています。"
+     ],
+     "ans": 1,
+     "why": "受[う]ける nhóm 2 → thể ý chí 受[う]けよう + と思[おも]っています. 受[う]けると思[おも]っています thành \"tôi nghĩ là (ai đó) sẽ thi\"; 受[う]けろう chia nhầm như nhóm 1."
     }
    ],
    "shift": [
@@ -456,6 +466,16 @@
      ],
      "ans": 0,
      "why": "Hỏi kế hoạch của cấp trên dùng 予定[よてい] (và kính ngữ ご). 〜つもりですか nghe như chất vấn."
+    },
+    {
+     "q": "Nhân viên công ty bất động sản (不動産屋[ふどうさんや]) gọi hỏi anh Nguyễn có gia hạn hợp đồng thuê nhà không. Anh đã quyết là không gia hạn.",
+     "opts": [
+      "契約[けいやく]は更新[こうしん]しませんつもりです。",
+      "契約[けいやく]は更新[こうしん]しなかったつもりです。",
+      "契約[けいやく]は更新[こうしん]しないつもりです。"
+     ],
+     "ans": 2,
+     "why": "Ý định đã quyết là KHÔNG làm → thể ない + つもりです. Không dùng thể ます trước つもり; しなかったつもり lại thành \"tưởng là mình đã không gia hạn\"."
     }
    ],
    "shift": [
@@ -692,6 +712,16 @@
      ],
      "ans": 0,
      "why": "Lịch đã sắp xếp, khách quan → 予定[よてい]. つもり/ようと思[おも]う chỉ dùng cho ý định của người nói."
+    },
+    {
+     "q": "Chiều nay anh Nguyễn dặn người mới vào xưởng: theo lịch, sáng mai 9 giờ trung tâm y tế công cộng (保健所[ほけんじょ]) đến kiểm tra.",
+     "opts": [
+      "明日[あした]は9時[じ]から、保健所[ほけんじょ]の検査[けんさ]があるつもりです。",
+      "明日[あした]は9時[じ]から、保健所[ほけんじょ]の検査[けんさ]がある予定[よてい]です。",
+      "明日[あした]は9時[じ]から、保健所[ほけんじょ]の検査[けんさ]があります予定[よてい]です。"
+     ],
+     "ans": 1,
+     "why": "Lịch đã sắp xếp, do người khác quyết → thể từ điển + 予定[よてい]です. つもり chỉ nói ý định của chính người nói; không dùng thể ます trước 予定[よてい]."
     }
    ],
    "shift": [

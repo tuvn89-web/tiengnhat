@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -234,6 +234,16 @@
      ],
      "ans": 0,
      "why": "Khó chấp nhận (tâm lý), văn viết trang trọng → thân ます + がたい. 受[う]け入[い]れるがたい: sai thể; やすい = dễ (ngược nghĩa)."
+    },
+    {
+     "q": "Nhà cung cấp giải thích lý do giao cá không đạt nhiệt độ. Sau đó anh Nguyễn báo với trưởng phòng: lời giải thích của họ thật khó tin.",
+     "opts": [
+      "仕入[しい]れ先[さき]の説明[せつめい]は、信[しん]じるがたい内容[ないよう]でした。",
+      "仕入[しい]れ先[さき]の説明[せつめい]は、信[しん]じかねない内容[ないよう]でした。",
+      "仕入[しい]れ先[さき]の説明[せつめい]は、信[しん]じがたい内容[ないよう]でした。"
+     ],
+     "ans": 2,
+     "why": "Khó (về tâm lý) tin → thân ます + がたい: 信[しん]じがたい. Không gắn sau thể từ điển; かねない = \"có thể sẽ (xấu)\", sai nghĩa."
     }
    ],
    "shift": [
@@ -458,6 +468,16 @@
      ],
      "ans": 0,
      "why": "Nói thân mật \"không đời nào\" → thân ます (thể khả năng 読[よ]め) + っこない. 読[よ]めるっこない: sai thể; かねない = có thể sẽ (chuyện xấu) — sai nghĩa."
+    },
+    {
+     "q": "Vợ đùa bảo anh Nguyễn mua vé số, biết đâu trúng. Anh cười: làm gì có chuyện trúng.",
+     "opts": [
+      "宝[たから]くじなんて、当[あ]たるっこないよ。",
+      "宝[たから]くじなんて、当[あ]たりっこないよ。",
+      "宝[たから]くじなんて、当[あ]たりかねないよ。"
+     ],
+     "ans": 1,
+     "why": "Không đời nào (khẩu ngữ) → thân ます + っこない: 当[あ]たりっこない. Không gắn sau thể từ điển; かねない = \"có thể sẽ (xấu)\", ngược ý."
     }
    ],
    "shift": [
@@ -698,6 +718,16 @@
      ],
      "ans": 0,
      "why": "Không có cách nào (khách quan) + lịch sự với khách → 〜ようがありません. ようにありません: sai trợ từ; っこない là khẩu ngữ, không dùng với khách."
+    },
+    {
+     "q": "Đồng nghiệp hỏi anh Nguyễn sao chưa báo cho cậu bạn cũ biết tin. Anh nói: tôi mất số điện thoại của cậu ấy rồi, không có cách nào liên lạc.",
+     "opts": [
+      "電話番号[でんわばんごう]がわからないから、連絡[れんらく]ようがないんだ。",
+      "電話番号[でんわばんごう]がわからないから、連絡[れんらく]のしようがないんだ。",
+      "電話番号[でんわばんごう]がわからないから、連絡[れんらく]するようがないんだ。"
+     ],
+     "ans": 1,
+     "why": "Không có cách nào → 連絡[れんらく]のしようがない (hoặc 連絡[れんらく]しようがない). Danh từ する không bỏ し / の; không gắn sau thể từ điển."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "Đoán danh tính dị vật, văn báo cáo → N + とおぼしき + N. Trợ từ là と; とおぼしき không đứng cuối câu."
+    },
+    {
+     "q": "Anh Nguyễn viết báo cáo an ninh gửi phòng tổng vụ: một người đàn ông có vẻ là nhân viên giao hàng đã đi vào kho mà không đăng ký ở lễ tân.",
+     "opts": [
+      "配達員[はいたついん]らしいの男性[だんせい]が、受付[うけつけ]をせずに倉庫[そうこ]に入[はい]っていった。",
+      "配達員[はいたついん]のおぼしき男性[だんせい]が、受付[うけつけ]をせずに倉庫[そうこ]に入[はい]っていった。",
+      "配達員[はいたついん]とおぼしき男性[だんせい]が、受付[うけつけ]をせずに倉庫[そうこ]に入[はい]っていった。"
+     ],
+     "ans": 2,
+     "why": "Có vẻ là (văn báo cáo), đứng trước danh từ → Danh từ + とおぼしき + Danh từ. Trợ từ là と, không phải の; らしい không đi với の trước danh từ."
     }
    ],
    "shift": [
@@ -492,6 +502,16 @@
      ],
      "ans": 0,
      "why": "Chọn cách gọi mang tính ví von, giọng trang trọng → N + とでもいうべき + N. Trợ từ là と; trước danh từ dùng いうべき, không dùng べく."
+    },
+    {
+     "q": "Anh Nguyễn viết bài cho bản tin công ty nhân dịp mười năm ở Nhật: Akashi là nơi có thể gọi là quê hương thứ hai của tôi.",
+     "opts": [
+      "明石[あかし]は、私[わたし]にとって第[だい]二[に]の故郷[こきょう]とでもいうべき町[まち]です。",
+      "明石[あかし]は、私[わたし]にとって第[だい]二[に]の故郷[こきょう]にでもいうべき町[まち]です。",
+      "明石[あかし]は、私[わたし]にとって第[だい]二[に]の故郷[こきょう]とでもいうの町[まち]です。"
+     ],
+     "ans": 0,
+     "why": "Chọn cách gọi ví von, đứng trước danh từ → Danh từ + とでもいうべき + Danh từ. Trợ từ là と, không phải に; không thay べき bằng の."
     }
    ],
    "shift": [
@@ -730,6 +750,16 @@
      ],
      "ans": 0,
      "why": "Nêu suy đoán của mình một cách dè dặt, văn viết → ではあるまいか. Bỏ か (ではあるまい) thành \"chắc không phải là…\" — ngược nghĩa; じゃあるまいし = \"có phải… đâu mà\" (khẩu ngữ, trách móc)."
+    },
+    {
+     "q": "Anh Nguyễn viết báo cáo dự báo gửi trưởng phòng, nêu ý kiến dè dặt: phải chăng giá nguyên liệu từ nay còn tăng nữa.",
+     "opts": [
+      "原料[げんりょう]の価格[かかく]は、今後[こんご]もさらに上[あ]がるのではあるまいか。",
+      "原料[げんりょう]の価格[かかく]は、今後[こんご]もさらに上[あ]がるではあるまいか。",
+      "原料[げんりょう]の価格[かかく]は、今後[こんご]もさらに上[あ]がるのじゃあるまいし。"
+     ],
+     "ans": 0,
+     "why": "Suy đoán dè dặt (văn viết) → động từ + のではあるまいか (động từ cần の). じゃあるまいし là \"đâu phải… mà\", nghĩa khác hẳn."
     }
    ],
    "shift": [

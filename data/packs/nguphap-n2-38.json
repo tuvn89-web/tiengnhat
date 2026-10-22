@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -222,6 +222,16 @@
      ],
      "ans": 0,
      "why": "Trừ… → danh từ + を除[のぞ]いて (thể て: 除[のぞ]いて)."
+    },
+    {
+     "q": "Khách hàng gọi điện hỏi xưởng làm việc những ngày nào. Anh Nguyễn trả lời lịch sự: chúng tôi làm việc hằng ngày, trừ chủ nhật.",
+     "opts": [
+      "日曜日[にちようび]を含[ふく]めて、毎日[まいにち]営業[えいぎょう]しております。",
+      "日曜日[にちようび]に除[のぞ]いて、毎日[まいにち]営業[えいぎょう]しております。",
+      "日曜日[にちようび]を除[のぞ]いて、毎日[まいにち]営業[えいぎょう]しております。"
+     ],
+     "ans": 2,
+     "why": "Ngoại trừ → Danh từ + を除[のぞ]いて (trợ từ を). を含[ふく]めて = \"bao gồm cả\", ngược nghĩa."
     }
    ],
    "shift": [
@@ -458,6 +468,16 @@
      ],
      "ans": 0,
      "why": "Dành cho đối tượng… → danh từ + を対象[たいしょう]に."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) soạn thông báo nội bộ: công ty sẽ tiến hành một cuộc khảo sát dành cho nhân viên người nước ngoài.",
+     "opts": [
+      "外国人社員[がいこくじんしゃいん]を対象[たいしょう]としたアンケートを実施[じっし]します。",
+      "外国人社員[がいこくじんしゃいん]を対象[たいしょう]したアンケートを実施[じっし]します。",
+      "外国人社員[がいこくじんしゃいん]に対[たい]したアンケートを実施[じっし]します。"
+     ],
+     "ans": 0,
+     "why": "Đối tượng của khảo sát, đứng trước danh từ → を対象[たいしょう]とした + N. Không bỏ と; に対[たい]して là \"hướng tới (thái độ)\", không dùng cho đối tượng khảo sát."
     }
    ],
    "shift": [
@@ -694,6 +714,16 @@
      ],
      "ans": 0,
      "why": "Ảnh hưởng tới điều quan trọng (sức khỏe) → danh từ + にかかわる."
+    },
+    {
+     "q": "Ở Cục xuất nhập cảnh, anh Nguyễn hỏi nhân viên: giấy tờ liên quan đến việc gia hạn visa thì nộp ở quầy nào ạ?",
+     "opts": [
+      "ビザの更新[こうしん]にかかわらず書類[しょるい]は、どの窓口[まどぐち]に出[だ]せばいいですか。",
+      "ビザの更新[こうしん]にかかわる書類[しょるい]は、どの窓口[まどぐち]に出[だ]せばいいですか。",
+      "ビザの更新[こうしん]をかかわる書類[しょるい]は、どの窓口[まどぐち]に出[だ]せばいいですか。"
+     ],
+     "ans": 1,
+     "why": "Liên quan đến, đứng trước danh từ → にかかわる + N. にかかわらず = \"bất kể\", gần như ngược nghĩa; trợ từ là に, không phải を."
     }
    ],
    "shift": [

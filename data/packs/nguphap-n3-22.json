@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -225,6 +225,16 @@
      ],
      "ans": 0,
      "why": "Định làm thì → ようとした時[とき]."
+    },
+    {
+     "q": "Ở ký túc xá, anh Nguyễn than với bạn cùng phòng về cậu người mới: cậu ta hoàn toàn không chịu nghe lời khuyên của ai cả.",
+     "opts": [
+      "あいつ、人[ひと]のアドバイスを全然[ぜんぜん]聞[き]くようとしないんだ。",
+      "あいつ、人[ひと]のアドバイスを全然[ぜんぜん]聞[き]こうとしないんだ。",
+      "あいつ、人[ひと]のアドバイスを全然[ぜんぜん]聞[き]かないようとするんだ。"
+     ],
+     "ans": 1,
+     "why": "Không chịu làm → thể ý chí + としない: 聞[き]こうとしない. 聞[き]くよう sai thể ý chí; không ghép thể ない với ようとする."
     }
    ],
    "shift": [
@@ -465,6 +475,16 @@
      ],
      "ans": 0,
      "why": "Giả vờ → ふりをする."
+    },
+    {
+     "q": "Giờ nghỉ, đồng nghiệp người Nhật nói về phép lịch sự trên tàu. Anh Nguyễn nói: có người giả vờ ngủ để khỏi phải nhường ghế.",
+     "opts": [
+      "席[せき]を譲[ゆず]らないように、寝[ね]ているふりがする人[ひと]もいますね。",
+      "席[せき]を譲[ゆず]らないように、寝[ね]ているのふりをする人[ひと]もいますね。",
+      "席[せき]を譲[ゆず]らないように、寝[ね]ているふりをする人[ひと]もいますね。"
+     ],
+     "ans": 2,
+     "why": "Cố ý giả vờ → thể thường + ふりをする. ふり đi với を する, không dùng が; động từ nối thẳng, không thêm の."
     }
    ],
    "shift": [
@@ -702,6 +722,16 @@
      ],
      "ans": 0,
      "why": "Lỡ làm → つい〜てしまいました."
+    },
+    {
+     "q": "Bác sĩ khuyên anh Nguyễn bớt ăn mì ăn liền. Anh thú thật: biết là không tốt cho sức khỏe nhưng tôi cứ lỡ ăn.",
+     "opts": [
+      "体[からだ]に悪[わる]いと分[わ]かっていても、ついカップラーメンを食[た]べてしまいます。",
+      "体[からだ]に悪[わる]いと分[わ]かっていても、わざとカップラーメンを食[た]べてしまいます。",
+      "体[からだ]に悪[わる]いと分[わ]かっていても、ついカップラーメンを食[た]べようとします。"
+     ],
+     "ans": 0,
+     "why": "Không định mà vẫn làm (vì thói quen) → つい〜てしまう. わざと là \"cố ý\", mâu thuẫn với てしまう; ようとします là \"định làm\"."
     }
    ],
    "shift": [

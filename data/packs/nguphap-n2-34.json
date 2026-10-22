@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -233,6 +233,16 @@
      ],
      "ans": 0,
      "why": "Kêu gọi tập thể → thể ý chí + ではないか. 減[へ]らしたではないか = chẳng phải đã giảm rồi sao."
+    },
+    {
+     "q": "Anh Nguyễn phát biểu ở buổi họp mặt của hội lao động Việt Nam tại Hyogo: chúng ta hãy cùng nhau giúp đỡ những anh em mới sang!",
+     "opts": [
+      "新[あたら]しく来[き]た仲間[なかま]を、みんなで支[ささ]えましょうではありませんか。",
+      "新[あたら]しく来[き]た仲間[なかま]を、みんなで支[ささ]えようではありませんか。",
+      "新[あたら]しく来[き]た仲間[なかま]を、みんなで支[ささ]えるではありませんか。"
+     ],
+     "ans": 1,
+     "why": "Kêu gọi tập thể → thể ý chí + ではありませんか: 支[ささ]えようでは…. Không ghép ましょう; thể từ điển + ではないか lại thành \"chẳng phải đang… sao\"."
     }
    ],
    "shift": [
@@ -471,6 +481,16 @@
      ],
      "ans": 0,
      "why": "Biện minh kiểu trẻ con → 〜んだもん. 苦[にが]いだもん sai (tính từ い không thêm だ); 苦[にが]いものだ = lẽ thường (rau thì đắng là chuyện thường)."
+    },
+    {
+     "q": "Chủ nhật, vợ trách anh Nguyễn ngủ đến trưa. Anh cười biện minh: tại hôm nay là chủ nhật mà.",
+     "opts": [
+      "だって、今日[きょう]は日曜日[にちようび]もん。",
+      "だって、今日[きょう]は日曜日[にちようび]だものか。",
+      "だって、今日[きょう]は日曜日[にちようび]だもん。"
+     ],
+     "ans": 2,
+     "why": "Biện minh cuối câu (thân mật) → Danh từ + だもん. Danh từ thiếu だ là sai; ものか là phản bác \"làm sao mà…\", ngược nghĩa."
     }
    ],
    "shift": [
@@ -715,6 +735,16 @@
      ],
      "ans": 0,
      "why": "Đâu phải… mà (trách, khuyên) → N + じゃあるまいし."
+    },
+    {
+     "q": "Một thực tập sinh sắp về nước cứ khóc ở tiệc chia tay. Anh Nguyễn an ủi (thân mật): có phải cả đời không gặp lại nhau đâu, đừng khóc nữa.",
+     "opts": [
+      "一生[いっしょう]会[あ]えないじゃあるまいし、もう泣[な]くなよ。",
+      "一生[いっしょう]会[あ]えないわけじゃないまいし、もう泣[な]くなよ。",
+      "一生[いっしょう]会[あ]えないわけじゃあるまいし、もう泣[な]くなよ。"
+     ],
+     "ans": 2,
+     "why": "Đâu phải… mà (khuyên) → động từ + わけじゃあるまいし. Động từ không gắn thẳng じゃあるまいし; không đổi あるまい thành ないまい."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 4,
+  "version": 5,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -37,6 +37,11 @@
      "jp": "意見[いけん]が衝突[しょうとつ]して、話[はな]し合[あ]いが長[なが]くなりました。",
      "vi": "Ý kiến va chạm nên cuộc bàn bạc kéo dài.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "交差点[こうさてん]で、車[くるま]と自転車[じてんしゃ]が衝突[しょうとつ]した。",
+     "vi": "Ở ngã tư, ô tô và xe đạp đâm nhau.",
+     "ctx": "doisong"
     }
    ],
    "coll": [
@@ -71,6 +76,11 @@
      "jp": "スプレー缶[かん]を、火[ひ]の近[ちか]くに置[お]くと爆発[ばくはつ]します。",
      "vi": "Để bình xịt gần lửa sẽ nổ.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "A：電子[でんし]レンジで卵[たまご]を温[あたた]めたら、爆発[ばくはつ]しちゃった。 B：殻[から]のまま入[い]れちゃだめだよ。",
+     "vi": "A: Hâm trứng bằng lò vi sóng thì nó nổ mất. B: Không được cho cả vỏ vào đâu.",
+     "ctx": "hoithoai"
     }
    ],
    "note": "Nghĩa bóng: 怒[いか]りが爆発[ばくはつ]する = cơn giận bùng nổ.",
@@ -132,6 +142,11 @@
      "jp": "警告[けいこく]を無視[むし]すると、危[あぶ]ないです。",
      "vi": "Phớt lờ cảnh báo là nguy hiểm.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "パソコンの画面[がめん]に、ウイルスの警告[けいこく]が出[で]た。",
+     "vi": "Trên màn hình máy tính hiện cảnh báo vi-rút.",
+     "ctx": "doisong"
     }
    ],
    "vt": "tha"
@@ -159,6 +174,11 @@
      "jp": "夜道[よみち]は、用心[ようじん]してください。",
      "vi": "Đi đường đêm hãy cảnh giác.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "床[ゆか]がぬれているので、滑[すべ]らないように用心[ようじん]してください。",
+     "vi": "Sàn đang ướt, hãy cẩn thận kẻo trượt.",
+     "ctx": "xuong"
     }
    ],
    "note": "火[ひ]の用心[ようじん] = cẩn thận lửa (khẩu hiệu mùa đông).",
@@ -187,6 +207,11 @@
      "jp": "事故[じこ]を予防[よぼう]するために、訓練[くんれん]をします。",
      "vi": "Huấn luyện để phòng ngừa tai nạn.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "市役所[しやくしょ]から、インフルエンザの予防接種[よぼうせっしゅ]のお知[し]らせが届[とど]いた。",
+     "vi": "Tòa thị chính gửi thông báo tiêm phòng cúm.",
+     "ctx": "thutuc"
     }
    ],
    "syn": [
@@ -624,6 +649,11 @@
      "jp": "異物[いぶつ]の混入[こんにゅう]を、防止[ぼうし]します。",
      "vi": "Ngăn dị vật lẫn vào.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "盗難[とうなん]防止[ぼうし]のために、自転車[じてんしゃ]に鍵[かぎ]を二[ふた]つつけている。",
+     "vi": "Để chống trộm, tôi gắn hai cái khóa cho xe đạp.",
+     "ctx": "doisong"
     }
    ],
    "syn": [
@@ -655,6 +685,11 @@
      "jp": "新[あたら]しい機械[きかい]に、みんなが注目[ちゅうもく]しています。",
      "vi": "Mọi người đang để mắt tới máy mới.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "今[いま]、世界中[せかいじゅう]がこの選手[せんしゅ]に注目[ちゅうもく]している。",
+     "vi": "Bây giờ cả thế giới đang dõi theo vận động viên này.",
+     "ctx": "doisong"
     }
    ],
    "confuse": [
@@ -685,6 +720,11 @@
      "jp": "温度[おんど]の管理[かんり]を徹底[てってい]します。",
      "vi": "Quản lý nhiệt độ chặt chẽ triệt để.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "節約[せつやく]を徹底[てってい]して、毎月[まいつき]三万円[さんまんえん]貯金[ちょきん]している。",
+     "vi": "Tôi tiết kiệm triệt để, mỗi tháng để dành 30.000 yên.",
+     "ctx": "doisong"
     }
    ],
    "note": "徹底的[てっていてき]に = một cách triệt để."
@@ -864,6 +904,11 @@
      "jp": "新人[しんじん]を、訓練[くんれん]しています。",
      "vi": "Đang huấn luyện người mới.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "日曜日[にちようび]、近所[きんじょ]の人[ひと]といっしょに町[まち]の防災[ぼうさい]訓練[くんれん]に参加[さんか]した。",
+     "vi": "Chủ nhật, tôi cùng hàng xóm tham gia diễn tập phòng chống thiên tai của khu phố.",
+     "ctx": "doisong"
     }
    ],
    "note": "避難訓練[ひなんくんれん] = diễn tập sơ tán.",

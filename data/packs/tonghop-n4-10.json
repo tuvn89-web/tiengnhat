@@ -1,0 +1,452 @@
+{
+ "schema": 1,
+ "pack": {
+  "id": "tonghop-n4-10",
+  "title": "Tình huống thật N4 – bài 6–10: Ngày đi thi tiếng Nhật",
+  "type": "dialog",
+  "level": "N4",
+  "topics": [
+   "doisong"
+  ],
+  "version": 1,
+  "created": "2026-10-22",
+  "note": "Hội thoại ôn tổng hợp từ và mẫu của bài 6–10 chặng N4 (gắn vào bài 10)."
+ },
+ "items": [
+  {
+   "id": "d:th-n4-10",
+   "title": "Ngày đi thi tiếng Nhật",
+   "level": "N4",
+   "topics": [
+    "doisong"
+   ],
+   "ctx": "doisong",
+   "lesson": "l:n4-10",
+   "setting": "Chủ nhật, anh Nguyễn và Hoa đi thi tiếng Nhật ở một trường đại học. Tàu trễ, hai người phải đổi sang tàu nhanh rồi hỏi đường đến hội trường; cô Kobayashi đến cổ vũ, thi xong cả ba nói chuyện kết quả và hẹn ăn mừng.",
+   "medium": "tructiep",
+   "roles": [
+    {
+     "key": "B",
+     "name": "グエン",
+     "vi": "Bạn",
+     "me": true
+    },
+    {
+     "key": "H",
+     "name": "ホア",
+     "vi": "Bạn cùng lớp"
+    },
+    {
+     "key": "P",
+     "name": "係[かかり]の人[ひと]",
+     "vi": "Nhân viên hướng dẫn"
+    },
+    {
+     "key": "T",
+     "name": "小林[こばやし]先生[せんせい]",
+     "vi": "Cô giáo"
+    }
+   ],
+   "turns": [
+    {
+     "who": "H",
+     "jp": "グエンさん、大変[たいへん]です。電車[でんしゃ]が十分[じゅっぷん]遅[おく]れているそうです。",
+     "vi": "Anh Nguyễn, gay rồi. Nghe nói tàu đang trễ 10 phút.",
+     "key": "遅[おく]れて",
+     "grammar": [
+      "g:〜そうだ（伝聞）",
+      "g:〜ています"
+     ],
+     "gloss": [
+      {
+       "w": "遅[おく]れている",
+       "vi": "đang bị trễ"
+      },
+      {
+       "w": "電車[でんしゃ]",
+       "vi": "tàu điện"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "えっ、試験[しけん]に間[ま]に合[あ]うかな……。",
+     "vi": "Hả, không biết có kịp giờ thi không……",
+     "key": "間[ま]に合[あ]う",
+     "grammar": []
+    },
+    {
+     "who": "H",
+     "jp": "急行[きゅうこう]に乗[の]れば、間[ま]に合[あ]いますよ。次[つぎ]の駅[えき]で乗[の]り換[か]えましょう。",
+     "vi": "Nếu đi tàu nhanh thì kịp đấy. Mình đổi tàu ở ga sau đi.",
+     "key": "急行[きゅうこう]",
+     "grammar": [
+      "g:〜ば",
+      "g:〜ましょう"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "よかった。遅[おく]れないように、早[はや]く家[いえ]を出[で]ましたから。",
+     "vi": "May quá. Tôi đã ra khỏi nhà sớm để không bị trễ mà.",
+     "alt": [
+      "遅[おく]れないように、早[はや]く出発[しゅっぱつ]しましたから。"
+     ],
+     "grammar": [
+      "g:〜ように（目的）",
+      "g:〜から"
+     ],
+     "gloss": [
+      {
+       "w": "遅[おく]れない",
+       "vi": "không bị trễ"
+      },
+      {
+       "w": "よかった",
+       "vi": "may quá, tốt quá"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "すみません。試験[しけん]の会場[かいじょう]はどこですか。",
+     "vi": "Xin lỗi. Hội trường thi ở đâu ạ?",
+     "grammar": [],
+     "gloss": [
+      {
+       "w": "会場[かいじょう]",
+       "vi": "hội trường, nơi tổ chức"
+      }
+     ]
+    },
+    {
+     "who": "P",
+     "jp": "この通[とお]りをまっすぐ行[い]って、二[ふた]つ目[め]の角[かど]を右[みぎ]に曲[ま]がると、講堂[こうどう]があります。そこが会場[かいじょう]です。",
+     "vi": "Anh đi thẳng con đường này, rẽ phải ở góc thứ hai là thấy giảng đường. Đó là hội trường thi.",
+     "key": "講堂[こうどう]",
+     "grammar": [
+      "g:〜て、〜",
+      "g:〜と（条件）"
+     ],
+     "gloss": [
+      {
+       "w": "会場[かいじょう]",
+       "vi": "hội trường, nơi tổ chức"
+      },
+      {
+       "w": "曲[ま]がる",
+       "vi": "rẽ"
+      }
+     ]
+    },
+    {
+     "who": "P",
+     "jp": "受験票[じゅけんひょう]を忘[わす]れた方[かた]は、受付[うけつけ]に寄[よ]ってください。",
+     "vi": "Ai quên phiếu dự thi thì ghé quầy tiếp tân nhé.",
+     "key": "寄[よ]って",
+     "grammar": [
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "方[ほう]",
+       "vi": "người (cách nói lịch sự)"
+      },
+      {
+       "w": "受験票[じゅけんひょう]",
+       "vi": "phiếu dự thi"
+      },
+      {
+       "w": "受付[うけつけ]",
+       "vi": "quầy tiếp tân"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "グエンさん、受験票[じゅけんひょう]、ありますか。",
+     "vi": "Anh Nguyễn có phiếu dự thi chưa?",
+     "grammar": [
+      "g:〜があります・〜がいます"
+     ],
+     "gloss": [
+      {
+       "w": "受験票[じゅけんひょう]",
+       "vi": "phiếu dự thi"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい、ここにあります。必[かなら]ず持[も]っていくように、昨日[きのう]の夜[よる]、かばんに入[い]れました。",
+     "vi": "Có đây rồi. Để nhất định mang theo, tối qua tôi đã bỏ vào cặp.",
+     "key": "必[かなら]ず",
+     "grammar": [
+      "g:〜ように（目的）"
+     ],
+     "gloss": [
+      {
+       "w": "昨日[きのう]の夜[よる]",
+       "vi": "tối hôm qua"
+      }
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "おはようございます。二人[ふたり]とも、昨日[きのう]はよく眠[ねむ]れましたか。",
+     "vi": "Chào hai em. Hôm qua hai em ngủ được ngon không?",
+     "key": "眠[ねむ]れ",
+     "grammar": [
+      "g:可能形（〜られる・〜える）"
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。この頃[ごろ]は、毎晩[まいばん]早[はや]く寝[ね]るようにしています。",
+     "vi": "Vâng. Dạo này tối nào em cũng cố đi ngủ sớm.",
+     "key": "この頃[ごろ]",
+     "alt": [
+      "はい。最近[さいきん]は、毎晩[まいばん]早[はや]く寝[ね]るようにしています。"
+     ],
+     "grammar": [
+      "g:〜ようにする"
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "私[わたし]は心配[しんぱい]で、ちっとも眠[ねむ]れませんでした。",
+     "vi": "Em thì lo quá, chẳng ngủ được chút nào.",
+     "key": "心配[しんぱい]",
+     "grammar": [
+      "g:可能形（〜られる・〜える）"
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "大丈夫[だいじょうぶ]ですよ。ホアさんは一生懸命[いっしょうけんめい]復習[ふくしゅう]しましたから。分[わ]からない問題[もんだい]があっても、あわてないでくださいね。",
+     "vi": "Không sao đâu. Hoa đã ôn bài hết sức rồi. Dù có câu không hiểu thì cũng đừng cuống nhé.",
+     "key": "一生懸命[いっしょうけんめい]",
+     "grammar": [
+      "g:〜から",
+      "g:〜ても",
+      "g:〜ないでください"
+     ],
+     "gloss": [
+      {
+       "w": "あわてないで",
+       "vi": "đừng cuống"
+      },
+      {
+       "w": "問題[もんだい]",
+       "vi": "câu hỏi, bài"
+      },
+      {
+       "w": "分[わ]からない",
+       "vi": "không hiểu, không biết"
+      }
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "どうでしたか。",
+     "vi": "Thế nào rồi?",
+     "grammar": []
+    },
+    {
+     "who": "B",
+     "jp": "漢字[かんじ]は、前[まえ]よりずっと読[よ]めるようになりました。でも、聴解[ちょうかい]は難[むずか]しかったです。毎日[まいにち]聞[き]いていたのに……。",
+     "vi": "Kanji thì em đọc được hơn trước nhiều rồi. Nhưng phần nghe khó quá. Ngày nào cũng nghe thế mà……",
+     "alt": [
+      "漢字[かんじ]は読[よ]めるようになりました。でも、毎日[まいにち]聞[き]いていたのに、聴解[ちょうかい]は難[むずか]しかったです。"
+     ],
+     "grammar": [
+      "g:〜ようになる",
+      "g:〜のに"
+     ],
+     "gloss": [
+      {
+       "w": "聴解[ちょうかい]",
+       "vi": "phần nghe hiểu"
+      },
+      {
+       "w": "ずっと",
+       "vi": "suốt; hơn hẳn"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "私[わたし]は、文法[ぶんぽう]の問題[もんだい]がやっと分[わ]かるようになりました。うれしいです。",
+     "vi": "Em thì cuối cùng cũng hiểu được câu ngữ pháp rồi. Vui quá.",
+     "key": "文法[ぶんぽう]",
+     "grammar": [
+      "g:〜ようになる"
+     ],
+     "gloss": [
+      {
+       "w": "問題[もんだい]",
+       "vi": "câu hỏi, bài"
+      },
+      {
+       "w": "分[わ]かる",
+       "vi": "hiểu"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "もし結果[けっか]がだめでも、今度[こんど]の試験[しけん]をまた受[う]けるつもりです。",
+     "vi": "Dù kết quả có không tốt, em vẫn định thi lại kỳ tới.",
+     "key": "今度[こんど]",
+     "grammar": [
+      "g:〜ても",
+      "g:〜つもりだ"
+     ],
+     "gloss": [
+      {
+       "w": "結果[けっか]",
+       "vi": "kết quả"
+      },
+      {
+       "w": "つもり",
+       "vi": "ý định"
+      }
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "その気持[きも]ちが大切[たいせつ]です。合格[ごうかく]したら、みんなでお祝[いわ]いをしましょう。",
+     "vi": "Tinh thần đó mới quan trọng. Nếu đỗ thì cả lớp cùng ăn mừng nhé.",
+     "key": "気持[きも]ち",
+     "grammar": [
+      "g:〜たら",
+      "g:〜ましょう"
+     ],
+     "gloss": [
+      {
+       "w": "合格[ごうかく]",
+       "vi": "thi đỗ"
+      },
+      {
+       "w": "お祝[いわ]い",
+       "vi": "ăn mừng"
+      }
+     ]
+    },
+    {
+     "who": "H",
+     "jp": "お祝[いわ]いなら、駅[えき]の近[ちか]くのベトナム料理[りょうり]の店[みせ]がいいです。",
+     "vi": "Ăn mừng thì quán món Việt gần ga hay đấy ạ.",
+     "note": "お祝[いわ]いなら = (nếu nói chuyện) ăn mừng thì… — なら nhặt lại chủ đề người kia vừa nói rồi đưa ý kiến của mình.",
+     "grammar": [
+      "g:〜なら"
+     ],
+     "gloss": [
+      {
+       "w": "お祝[いわ]い",
+       "vi": "ăn mừng"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "あの店[みせ]なら、安[やす]いし、おいしいし、先生[せんせい]も是非[ぜひ]来[き]てください。",
+     "vi": "Quán đó thì vừa rẻ vừa ngon, cô nhất định đến nhé.",
+     "key": "是非[ぜひ]",
+     "grammar": [
+      "g:〜なら",
+      "g:〜し、〜し",
+      "g:〜てください"
+     ]
+    },
+    {
+     "who": "T",
+     "jp": "ありがとう。じゃあ、結果[けっか]が出[で]たら、すぐ連絡[れんらく]してくださいね。",
+     "vi": "Cảm ơn em. Vậy có kết quả thì báo cô ngay nhé.",
+     "grammar": [
+      "g:〜たら",
+      "g:〜てください"
+     ],
+     "gloss": [
+      {
+       "w": "結果[けっか]",
+       "vi": "kết quả"
+      },
+      {
+       "w": "連絡[れんらく]",
+       "vi": "liên lạc"
+      }
+     ]
+    },
+    {
+     "who": "B",
+     "jp": "はい。次[つぎ]の試験[しけん]のために、明日[あした]からまた毎日[まいにち]勉強[べんきょう]するようにします。",
+     "vi": "Vâng. Để chuẩn bị cho kỳ thi sau, từ mai em lại cố học mỗi ngày.",
+     "key": "試験[しけん]",
+     "grammar": [
+      "g:〜ために（目的）",
+      "g:〜ようにする"
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "q": "Vì sao anh Nguyễn và Hoa đổi sang tàu nhanh?",
+     "opts": [
+      "Vì tàu đang trễ",
+      "Vì tàu nhanh rẻ hơn",
+      "Vì ga gần nhà đóng cửa",
+      "Vì cô giáo dặn"
+     ],
+     "ans": 0,
+     "why": "電車[でんしゃ]が十分[じゅっぷん]遅[おく]れているそうです。…急行[きゅうこう]に乗[の]れば、間[ま]に合[あ]いますよ。"
+    },
+    {
+     "q": "Muốn đến hội trường thi thì đi thế nào?",
+     "opts": [
+      "Đi thẳng, rẽ phải ở góc thứ hai",
+      "Đi thẳng, rẽ trái ở góc đầu tiên",
+      "Rẽ phải ngay góc đầu tiên",
+      "Đi qua quầy tiếp tân rồi lên tầng hai"
+     ],
+     "ans": 0,
+     "why": "この通[とお]りをまっすぐ行[い]って、二[ふた]つ目[め]の角[かど]を右[みぎ]に曲[ま]がると、講堂[こうどう]があります。"
+    },
+    {
+     "q": "Đêm trước ngày thi, Hoa thế nào?",
+     "opts": [
+      "Lo quá, không ngủ được",
+      "Ngủ rất ngon",
+      "Thức khuya ôn bài",
+      "Ngủ quên"
+     ],
+     "ans": 0,
+     "why": "私[わたし]は心配[しんぱい]で、ちっとも眠[ねむ]れませんでした。"
+    },
+    {
+     "q": "Phần nào anh Nguyễn thấy khó?",
+     "opts": [
+      "Phần nghe",
+      "Phần kanji",
+      "Phần ngữ pháp",
+      "Phần đọc"
+     ],
+     "ans": 0,
+     "why": "でも、聴解[ちょうかい]は難[むずか]しかったです。毎日[まいにち]聞[き]いていたのに……。"
+    },
+    {
+     "q": "Nếu kết quả không tốt, anh Nguyễn định làm gì?",
+     "opts": [
+      "Thi lại kỳ tới",
+      "Thôi không học nữa",
+      "Đổi sang lớp khác",
+      "Về Việt Nam học"
+     ],
+     "ans": 0,
+     "why": "もし結果[けっか]がだめでも、今度[こんど]の試験[しけん]をまた受[う]けるつもりです。"
+    }
+   ],
+   "tonghop": true
+  }
+ ]
+}

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "Hậu quả xấu không cứu vãn → thể た + たら最後[さいご]. 付[つ]くが最後[さいご] sai thể (phải là 付[つ]いたが最後[さいご]); \"rửa kỹ là trở lại như cũ\" mâu thuẫn với nghĩa \"hết đường cứu\"."
+    },
+    {
+     "q": "Anh Nguyễn than với vợ về thằng con: nó mà đã bắt đầu chơi game là chơi mấy tiếng liền không chịu dừng.",
+     "opts": [
+      "息子[むすこ]はゲームを始[はじ]めるが最後[さいご]、何時間[なんじかん]でもやめない。",
+      "息子[むすこ]はゲームを始[はじ]めたら最後[さいご]、何時間[なんじかん]でもやめない。",
+      "息子[むすこ]はゲームを始[はじ]めたが最後[さいご]に、何時間[なんじかん]でもやめない。"
+     ],
+     "ans": 1,
+     "why": "Hễ đã… là cứ thế mãi → thể た + ら最後[さいご] (hoặc thể た + が最後[さいご]). Không dùng thể từ điển; không thêm に sau 最後[さいご]."
     }
    ],
    "shift": [
@@ -489,6 +499,16 @@
      ],
      "ans": 0,
      "why": "Thể ý chí + ものなら + hậu quả xấu. Thể khả năng + ものなら = \"nếu mà làm được thì\" (sai nghĩa); vế sau không dùng lời rủ, lời khuyên."
+    },
+    {
+     "q": "Anh Nguyễn dặn cậu thực tập sinh mới về ký túc xá: nếu lỡ về quá giờ giới nghiêm dù chỉ một phút thì sẽ bị quản lý mắng to đấy.",
+     "opts": [
+      "門限[もんげん]を一分[いっぷん]でも過[す]ぎるものなら、寮[りょう]の管理人[かんりにん]にひどく叱[しか]られるよ。",
+      "門限[もんげん]を一分[いっぷん]でも過[す]ぎようものなら、気[き]をつけよう。",
+      "門限[もんげん]を一分[いっぷん]でも過[す]ぎようものなら、寮[りょう]の管理人[かんりにん]にひどく叱[しか]られるよ。"
+     ],
+     "ans": 2,
+     "why": "Nếu lỡ… thì hậu quả nặng → thể ý chí + ものなら: 過[す]ぎようものなら. Không dùng thể từ điển; vế sau phải là hậu quả, không phải lời rủ."
     }
    ],
    "shift": [
@@ -730,6 +750,16 @@
      ],
      "ans": 0,
      "why": "Muốn làm mà bị trở ngại khách quan → thể ý chí + にも + thể khả năng phủ định (確認[かくにん]できない). 確認[かくにん]しない = không làm (vô lý khi xin lỗi); trước にも phải là thể ý chí."
+    },
+    {
+     "q": "Đồng nghiệp gọi hỏi sao anh Nguyễn chưa về. Anh đáp: tuyết dày làm tàu dừng, muốn về cũng không về được.",
+     "opts": [
+      "大雪[おおゆき]で電車[でんしゃ]が止[と]まって、帰[かえ]ろうにも帰[かえ]らないんだ。",
+      "大雪[おおゆき]で電車[でんしゃ]が止[と]まって、帰[かえ]ろうにも帰[かえ]れないんだ。",
+      "大雪[おおゆき]で電車[でんしゃ]が止[と]まって、帰[かえ]ろうとも帰[かえ]れないんだ。"
+     ],
+     "ans": 1,
+     "why": "Muốn… cũng không thể (vì trở ngại) → thể ý chí + にも + thể khả năng phủ định: 帰[かえ]ろうにも帰[かえ]れない. 帰[かえ]らない là \"không về\" (ý mình); không dùng とも thay にも."
     }
    ],
    "shift": [

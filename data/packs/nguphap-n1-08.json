@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "Thừa nhận A, nhấn mạnh B (giới thiệu trang trọng) → danh từ + もさることながら. Không dùng は, không đặt sau tính từ 新鮮[しんせん]な."
+    },
+    {
+     "q": "Phỏng vấn tuyển người, anh Nguyễn (chủ nhiệm) nói với ứng viên: tay nghề thì đã đành, nhưng điều quan trọng nhất là thái độ làm việc nghiêm túc.",
+     "opts": [
+      "技術[ぎじゅつ]さることながら、何[なに]より大切[たいせつ]なのはまじめな姿勢[しせい]です。",
+      "技術[ぎじゅつ]はさることながら、何[なに]より大切[たいせつ]なのはまじめな姿勢[しせい]です。",
+      "技術[ぎじゅつ]もさることながら、何[なに]より大切[たいせつ]なのはまじめな姿勢[しせい]です。"
+     ],
+     "ans": 2,
+     "why": "Thừa nhận A nhưng nhấn B → Danh từ + もさることながら (luôn có も). Bỏ も hay đổi thành は đều sai."
     }
    ],
    "shift": [
@@ -478,6 +488,16 @@
      ],
      "ans": 0,
      "why": "A はおろか B さえ: A là điều lớn hơn (nghỉ giải lao), B là mức tối thiểu (uống nước). Câu 2 sai trợ từ; câu 3 đảo ngược A – B."
+    },
+    {
+     "q": "Anh Nguyễn than với đồng nghiệp về cậu thực tập sinh mới sang: đừng nói chữ Hán, đến katakana cậu ấy còn chưa đọc được.",
+     "opts": [
+      "あの子[こ]はカタカナはおろか、漢字[かんじ]もまだ読[よ]めないんだ。",
+      "あの子[こ]は漢字[かんじ]はおろか、カタカナもまだ読[よ]めないんだ。",
+      "あの子[こ]は漢字[かんじ]をおろか、カタカナもまだ読[よ]めないんだ。"
+     ],
+     "ans": 1,
+     "why": "Đừng nói A (khó), ngay cả B (dễ) cũng không → A はおろか B も + phủ định; A phải là cái khó hơn (漢字[かんじ]). Đảo vị trí là sai logic; trợ từ là は, không phải を."
     }
    ],
    "shift": [
@@ -718,6 +738,16 @@
      ],
      "ans": 0,
      "why": "Ảnh hưởng lan ra ngoài phạm vi ban đầu → N + にとどまらず (trợ từ に, thể phủ định ず)."
+    },
+    {
+     "q": "Anh Nguyễn viết bài cho bản tin công ty: hoạt động tình nguyện của nhân viên người Việt không chỉ dừng trong công ty mà đã lan ra cả khu phố.",
+     "opts": [
+      "ベトナム人[じん]社員[しゃいん]のボランティア活動[かつどう]は、社内[しゃない]にとどまって、地域[ちいき]にまで広[ひろ]がっている。",
+      "ベトナム人[じん]社員[しゃいん]のボランティア活動[かつどう]は、社内[しゃない]にとどまらず、地域[ちいき]にまで広[ひろ]がっている。",
+      "ベトナム人[じん]社員[しゃいん]のボランティア活動[かつどう]は、社内[しゃない]をとどまらず、地域[ちいき]にまで広[ひろ]がっている。"
+     ],
+     "ans": 1,
+     "why": "Vượt khỏi phạm vi A, lan rộng ra → Danh từ + にとどまらず. とどまって = \"dừng lại\", ngược nghĩa; trợ từ là に, không phải を."
     }
    ],
    "shift": [

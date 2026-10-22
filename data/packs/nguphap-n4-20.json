@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -218,6 +218,16 @@
      ],
      "ans": 0,
      "why": "Tin chắc dựa vào lịch → 〜のはずです."
+    },
+    {
+     "q": "Khách hàng gọi điện hỏi hàng đâu rồi. Anh Nguyễn biết hàng đã gửi đi hôm qua, muốn trả lời có căn cứ: hôm nay chắc chắn hàng sẽ đến.",
+     "opts": [
+      "昨日[きのう]発送[はっそう]しましたので、今日[きょう]届[とど]くつもりです。",
+      "昨日[きのう]発送[はっそう]しましたので、今日[きょう]届[とど]きますはずです。",
+      "昨日[きのう]発送[はっそう]しましたので、今日[きょう]届[とど]くはずです。"
+     ],
+     "ans": 2,
+     "why": "Suy luận chắc chắn có căn cứ → thể thường + はずです. つもり là ý định của người nói, không dùng cho hàng hóa; không dùng thể ます trước はず."
     }
    ],
    "shift": [
@@ -439,6 +449,16 @@
      ],
      "ans": 0,
      "why": "Đang làm dở → 〜ているところです."
+    },
+    {
+     "q": "Bạn cùng phòng gọi điện rủ đi ăn tối. Anh Nguyễn đang định bắt đầu nấu cơm, trả lời: mình chuẩn bị nấu bây giờ đây.",
+     "opts": [
+      "ごめん、今[いま]からご飯[はん]を作[つく]ったところだよ。",
+      "ごめん、今[いま]からご飯[はん]を作[つく]るところだよ。",
+      "ごめん、今[いま]からご飯[はん]を作[つく]るばかりだよ。"
+     ],
+     "ans": 1,
+     "why": "Sắp làm → thể từ điển + ところだ. 作[つく]ったところ là \"vừa nấu xong\"; 作[つく]るばかり không phải nghĩa \"sắp làm\"."
     }
    ],
    "shift": [
@@ -654,6 +674,16 @@
      ],
      "ans": 0,
      "why": "Mới vào (cảm giác) → 入[はい]ったばかりなので."
+    },
+    {
+     "q": "Ở cửa hàng điện thoại, anh Nguyễn nói với nhân viên: chiếc điện thoại tôi mới mua tuần trước đã không lên nguồn.",
+     "opts": [
+      "先週[せんしゅう]買[か]ったところのスマホなんですが、電源[でんげん]が入[はい]りません。",
+      "先週[せんしゅう]買[か]ったばかりスマホなんですが、電源[でんげん]が入[はい]りません。",
+      "先週[せんしゅう]買[か]ったばかりのスマホなんですが、電源[でんげん]が入[はい]りません。"
+     ],
+     "ans": 2,
+     "why": "Mới đây (vài ngày) và bổ nghĩa danh từ → 〜たばかりの + danh từ. たところ chỉ dùng cho việc vừa xong vài phút; thiếu の trước danh từ là sai."
     }
    ],
    "shift": [

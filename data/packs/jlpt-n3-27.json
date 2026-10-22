@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 7,
+  "version": 8,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -400,6 +400,11 @@
      "jp": "会社[かいしゃ]の駐車場[ちゅうしゃじょう]は、無料[むりょう]です。",
      "vi": "Bãi đỗ xe công ty miễn phí.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：市役所[しやくしょ]に駐車[ちゅうしゃ]するところはありますか。 B：はい、建物[たてもの]の地下[ちか]にあります。",
+     "vi": "A: Tòa thị chính có chỗ đỗ xe không ạ? B: Có, ở tầng hầm tòa nhà.",
+     "ctx": "hoithoai"
     }
    ],
    "rel": [
@@ -431,6 +436,11 @@
      "jp": "右側[みぎがわ]を通行[つうこう]してください。",
      "vi": "Hãy đi bên phải.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "この先[さき]、通行止[つうこうど]めやて。違[ちが]う道[みち]で行[い]こか。",
+     "vi": "Nghe nói phía trước cấm đi qua. Đi đường khác nhé.",
+     "ctx": "kansai"
     }
    ],
    "note": "通行止[つうこうど]め = cấm đường, cấm lưu thông.",
@@ -459,6 +469,11 @@
      "jp": "横断[おうだん]歩道[ほどう]で、止[と]まってください。",
      "vi": "Hãy dừng ở vạch qua đường.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "倉庫[そうこ]の中[なか]を横断[おうだん]する時[とき]は、フォークリフトに気[き]をつけてください。",
+     "vi": "Khi đi ngang qua trong kho, hãy cẩn thận xe nâng.",
+     "ctx": "xuong"
     }
    ],
    "coll": [
@@ -819,6 +834,11 @@
      "jp": "今年[ことし]は、収穫[しゅうかく]が少[すく]なかったそうです。",
      "vi": "Nghe nói năm nay thu hoạch ít.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "A：ベランダでトマトを育[そだ]ててるの？ B：うん、昨日[きのう]初[はじ]めて収穫[しゅうかく]したよ。",
+     "vi": "A: Cậu trồng cà chua ngoài ban công à? B: Ừ, hôm qua lần đầu thu hoạch đấy.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [
@@ -1133,6 +1153,11 @@
      "jp": "箱[はこ]を、隣[となり]の部屋[へや]に移動[いどう]してください。",
      "vi": "Hãy chuyển thùng sang phòng bên.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：この机[つくえ]、ちょっと窓[まど]のほうに移動[いどう]してくれる？ B：はい、分[わ]かりました。",
+     "vi": "A: Chuyển cái bàn này sang phía cửa sổ một chút được không? B: Vâng, tôi hiểu rồi.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [
@@ -1287,6 +1312,11 @@
      "jp": "年末[ねんまつ]は、道路[どうろ]が混雑[こんざつ]します。",
      "vi": "Cuối năm đường đông nghẹt.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "月曜日[げつようび]の朝[あさ]は、市役所[しやくしょ]の窓口[まどぐち]が混雑[こんざつ]します。",
+     "vi": "Sáng thứ Hai, các quầy ở tòa thị chính rất đông.",
+     "ctx": "thutuc"
     }
    ],
    "syn": [

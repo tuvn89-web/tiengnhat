@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -229,6 +229,16 @@
      ],
      "ans": 0,
      "why": "Phán đoán chắc chắn → に違[ちが]いありません."
+    },
+    {
+     "q": "Anh Nguyễn nhặt được một chiếc ví trong phòng thay đồ, bên trong có thẻ nhân viên của anh Sato. Anh nói với đồng nghiệp: chắc chắn là ví của anh Sato.",
+     "opts": [
+      "社員証[しゃいんしょう]が入[はい]っているから、佐藤[さとう]さんの財布[さいふ]だに違[ちが]いないよ。",
+      "社員証[しゃいんしょう]が入[はい]っているから、佐藤[さとう]さんの財布[さいふ]に違[ちが]いないよ。",
+      "社員証[しゃいんしょう]が入[はい]っているから、佐藤[さとう]さんの財布[さいふ]とは限[かぎ]らないよ。"
+     ],
+     "ans": 1,
+     "why": "Tin chắc → danh từ + に違[ちが]いない (không có だ). とは限[かぎ]らない là \"chưa chắc\", ngược ý."
     }
    ],
    "shift": [
@@ -459,6 +469,16 @@
      ],
      "ans": 0,
      "why": "Nhãn cảnh báo việc xấu → おそれがあります."
+    },
+    {
+     "q": "Bão sắp đến, anh Nguyễn viết thông báo dán ở ký túc xá (văn trang trọng): có nguy cơ mất điện, mọi người hãy chuẩn bị đèn pin.",
+     "opts": [
+      "停電[ていでん]のおそれがありますので、懐中電灯[かいちゅうでんとう]を用意[ようい]してください。",
+      "停電[ていでん]おそれがありますので、懐中電灯[かいちゅうでんとう]を用意[ようい]してください。",
+      "停電[ていでん]に違[ちが]いありませんので、懐中電灯[かいちゅうでんとう]を用意[ようい]してください。"
+     ],
+     "ans": 0,
+     "why": "Nguy cơ xấu, văn thông báo → danh từ + の + おそれがある. Danh từ thiếu の là sai; に違[ちが]いない là \"chắc chắn\", quá khẳng định."
     }
    ],
    "shift": [
@@ -690,6 +710,16 @@
      ],
      "ans": 0,
      "why": "Phản bác suy nghĩ thông thường → とは限[かぎ]らない."
+    },
+    {
+     "q": "Người mới định mua natto làm quà cho bà chủ nhà vì nghĩ người Nhật ai cũng thích. Anh Nguyễn nhắc: người Nhật chưa chắc ai cũng thích natto đâu.",
+     "opts": [
+      "日本人[にほんじん]なら誰[だれ]でも納豆[なっとう]が好[す]きなわけがないよ。",
+      "日本人[にほんじん]なら誰[だれ]でも納豆[なっとう]が好[す]きを限[かぎ]らないよ。",
+      "日本人[にほんじん]なら誰[だれ]でも納豆[なっとう]が好[す]きだとは限[かぎ]らないよ。"
+     ],
+     "ans": 2,
+     "why": "Không phải lúc nào cũng đúng → thể thường + とは限[かぎ]らない. わけがない là \"không đời nào\", quá mạnh; trước 限[かぎ]らない phải là とは, không phải を."
     }
    ],
    "shift": [

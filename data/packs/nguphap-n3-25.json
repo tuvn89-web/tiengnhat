@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 3,
+  "version": 4,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -219,6 +219,16 @@
      ],
      "ans": 0,
      "why": "Khiêm tốn, coi nhẹ mình → なんか."
+    },
+    {
+     "q": "Giờ nghỉ, đồng nghiệp báo tin tổ trưởng sắp nghỉ việc. Anh Nguyễn ngạc nhiên: tổ trưởng mà nghỉ việc thì thật không tin nổi.",
+     "opts": [
+      "班長[はんちょう]が辞[や]めるなんか、信[しん]じられない。",
+      "班長[はんちょう]が辞[や]めるなんて、信[しん]じられない。",
+      "班長[はんちょう]が辞[や]めるばかり、信[しん]じられない。"
+     ],
+     "ans": 1,
+     "why": "Ngạc nhiên về một sự việc → thể thường + なんて. なんか không đứng sau động từ với nghĩa này; ばかり là \"chỉ toàn\"."
     }
    ],
    "shift": [
@@ -446,6 +456,16 @@
      ],
      "ans": 0,
      "why": "Rủ bạn thân, khẩu ngữ → とか〜とか."
+    },
+    {
+     "q": "Người mới (thân) hỏi anh Nguyễn làm sao giỏi nghe tiếng Nhật. Anh gợi ý vài cách: như là xem anime, nói chuyện với người Nhật chẳng hạn.",
+     "opts": [
+      "アニメを見[み]るとか、日本人[にほんじん]と話[はな]すとかしたらいいよ。",
+      "アニメを見[み]るや、日本人[にほんじん]と話[はな]すやしたらいいよ。",
+      "アニメを見[み]てとか、日本人[にほんじん]と話[はな]してとかしたらいいよ。"
+     ],
+     "ans": 0,
+     "why": "Liệt kê ví dụ trong khẩu ngữ, cả với động từ → thể từ điển + とか. や chỉ nối danh từ; không dùng thể て trước とか."
     }
    ],
    "shift": [
@@ -659,6 +679,16 @@
      ],
      "ans": 0,
      "why": "Nói đến A là nghĩ tới B → といえば."
+    },
+    {
+     "q": "Tổ trưởng dặn: 「明日[あした]は早番[はやばん]で頼[たの]むね」. Anh Nguyễn muốn hỏi lại cho chắc: nói ca sớm, tức là từ 6 giờ phải không ạ?",
+     "opts": [
+      "早番[はやばん]にとって、6時[じ]からですか。",
+      "早番[はやばん]をというと、6時[じ]からですか。",
+      "早番[はやばん]というと、6時[じ]からですか。"
+     ],
+     "ans": 2,
+     "why": "Nhắc lại từ người kia vừa nói để hỏi rõ → danh từ + というと. にとって là \"đối với\"; というと không đi kèm を."
     }
    ],
    "shift": [

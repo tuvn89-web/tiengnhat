@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -221,6 +221,16 @@
      ],
      "ans": 0,
      "why": "Về phần mình (lập trường) → 私[わたし]としては."
+    },
+    {
+     "q": "Trong buổi họp sáng, anh Nguyễn được giao kèm cặp thực tập sinh mới. Anh phát biểu: với tư cách người hướng dẫn, tôi sẽ cố gắng hết sức.",
+     "opts": [
+      "実習生[じっしゅうせい]の指導係[しどうがかり]にとって、精一杯[せいいっぱい]頑張[がんば]ります。",
+      "実習生[じっしゅうせい]の指導係[しどうがかり]として、精一杯[せいいっぱい]頑張[がんば]ります。",
+      "実習生[じっしゅうせい]の指導係[しどうがかり]にしては、精一杯[せいいっぱい]頑張[がんば]ります。"
+     ],
+     "ans": 1,
+     "why": "Với tư cách, vai trò → として. にとって là \"đối với (góc nhìn)\"; にしては là \"so với… thì\"."
     }
    ],
    "shift": [
@@ -452,14 +462,24 @@
      ],
      "ans": 0,
      "why": "Dẫn nguồn tin → によると."
+    },
+    {
+     "q": "Sáng sớm, anh Nguyễn xem điện thoại rồi báo bạn cùng phòng: theo trang web của nhà ga, tàu đang dừng chạy.",
+     "opts": [
+      "駅[えき]のホームページによると、電車[でんしゃ]が止[と]まっているらしいよ。",
+      "駅[えき]のホームページによって、電車[でんしゃ]が止[と]まっているらしいよ。",
+      "駅[えき]のホームページに対[たい]して、電車[でんしゃ]が止[と]まっているらしいよ。"
+     ],
+     "ans": 0,
+     "why": "Nêu nguồn tin → によると + らしい / そうだ. によって là \"do / bằng / tùy\"; に対[たい]して là \"hướng tới\"."
     }
    ],
    "shift": [
     {
-     "from": "ニュースで言[い]うてたけど、明日[あした]雨[あめ]やって。",
+     "from": "ニュースで言[ゆ]うてたけど、明日[あした]雨[あめ]やって。",
      "to": "ニュースによると、明日[あした]は雨[あめ]だそうです。",
      "kind": "kansai",
-     "note": "Kansai: 言[い]うてた = 言[い]っていた; やって = だって (nghe nói).",
+     "note": "Kansai: 言[ゆ]うてた = 言[い]っていた; やって = だって (nghe nói).",
      "wrong": [
       "ニュースによって、明日[あした]は雨[あめ]だそうです。",
       "ニュースにとって、明日[あした]は雨[あめ]だそうです。"
@@ -675,6 +695,16 @@
      ],
      "ans": 0,
      "why": "So sánh trong báo cáo → に比[くら]べて."
+    },
+    {
+     "q": "Người mới hỏi anh Nguyễn nên đi đến Cục xuất nhập cảnh ở Kobe bằng gì. Anh nói: so với đi xe buýt, đi tàu nhanh hơn nhiều.",
+     "opts": [
+      "バスで行[い]くに比[くら]べて、電車[でんしゃ]のほうがずっと速[はや]いですよ。",
+      "バスで行[い]くのを比[くら]べて、電車[でんしゃ]のほうがずっと速[はや]いですよ。",
+      "バスで行[い]くのに比[くら]べて、電車[でんしゃ]のほうがずっと速[はや]いですよ。"
+     ],
+     "ans": 2,
+     "why": "So với một hành động → động từ + の + に比[くら]べて. Động từ thiếu の là sai; không dùng を với 比[くら]べて ở mẫu này."
     }
    ],
    "shift": [

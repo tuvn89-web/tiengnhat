@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Phát biểu trang trọng, cảm xúc không nén được → danh từ cảm xúc + を禁[きん]じ得[え]ません. に: sai trợ từ; 禁[きん]じ得[え]ます = nén được (ngược nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn viết thư thăm hỏi gửi một công ty đối tác ở vùng vừa bị động đất (văn viết trang trọng): nghĩ đến nỗi vất vả của những người bị nạn, tôi không khỏi xót thương.",
+     "opts": [
+      "被災[ひさい]された方々[かたがた]のご苦労[くろう]を思[おも]うと、同情[どうじょう]を禁[きん]じ得[え]ません。",
+      "被災[ひさい]された方々[かたがた]のご苦労[くろう]を思[おも]うと、同情[どうじょう]するを禁[きん]じ得[え]ません。",
+      "被災[ひさい]された方々[かたがた]のご苦労[くろう]を思[おも]うと、同情[どうじょう]を禁[きん]じ得[え]ます。"
+     ],
+     "ans": 0,
+     "why": "Không nén được cảm xúc (văn viết) → danh từ cảm xúc + を禁[きん]じ得[え]ません. Không đặt sau động từ; 禁[きん]じ得[え]ます (khẳng định) là sai nghĩa."
     }
    ],
    "shift": [
@@ -474,6 +484,16 @@
      ],
      "ans": 0,
      "why": "Nhà máy là bên chịu ảnh hưởng → を余儀[よぎ]なくされました. させました = khiến người khác buộc phải (sai chủ ngữ); 停止[ていし]する: phải dùng danh từ 停止[ていし]."
+    },
+    {
+     "q": "Anh Nguyễn viết báo cáo về đợt tuyết lớn (văn viết): trận tuyết đã buộc công ty vận chuyển phải ngừng giao hàng.",
+     "opts": [
+      "大雪[おおゆき]が運送[うんそう]会社[かいしゃ]に配送[はいそう]の停止[ていし]を余儀[よぎ]なくされた。",
+      "大雪[おおゆき]が運送[うんそう]会社[かいしゃ]に配送[はいそう]の停止[ていし]を余儀[よぎ]なくさせた。",
+      "大雪[おおゆき]が運送[うんそう]会社[かいしゃ]に配送[はいそう]の停止[ていし]するを余儀[よぎ]なくさせた。"
+     ],
+     "ans": 1,
+     "why": "Nguyên nhân làm chủ ngữ, khiến người khác buộc phải… → 〜が〜に〜を余儀[よぎ]なくさせた. Chủ ngữ là 大雪[おおゆき] nên không dùng bị động される; không đặt sau động từ."
     }
    ],
    "shift": [
@@ -710,6 +730,16 @@
      ],
      "ans": 0,
      "why": "Lời chúc trang trọng, mong mỏi tha thiết → 願[ねが]ってやみません. やめません: nhầm やめる; てたまりません: khẩu ngữ, cảm giác chịu không nổi — không hợp với lời chúc trong thư."
+    },
+    {
+     "q": "Ở tiệc chia tay các thực tập sinh về nước, anh Nguyễn (chủ nhiệm) phát biểu: tôi luôn mong các bạn sẽ thành công khi về quê.",
+     "opts": [
+      "皆[みな]さんの帰国後[きこくご]のご活躍[かつやく]を、心[こころ]から願[ねが]ってやめません。",
+      "皆[みな]さんの帰国後[きこくご]のご活躍[かつやく]を、心[こころ]から願[ねが]ってなりません。",
+      "皆[みな]さんの帰国後[きこくご]のご活躍[かつやく]を、心[こころ]から願[ねが]ってやみません。"
+     ],
+     "ans": 2,
+     "why": "Mong ước từ đáy lòng (trang trọng) → 願[ねが]ってやみません (やむ, không phải やめる). てならない dùng cho cảm giác tự trào lên, không đi với 願[ねが]う trong lời chúc."
     }
    ],
    "shift": [

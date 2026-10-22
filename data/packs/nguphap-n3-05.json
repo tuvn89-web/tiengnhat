@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -207,6 +207,16 @@
      ],
      "ans": 0,
      "why": "Ngày càng (xấu đi) → thể từ điển + ばかりだ."
+    },
+    {
+     "q": "Ở phòng khám, bác sĩ hỏi anh Nguyễn ngủ thế nào. Anh than: từ khi chuyển sang ca đêm, giấc ngủ cứ ngày càng chập chờn.",
+     "opts": [
+      "夜勤[やきん]を始[はじ]めてから、眠[ねむ]りが浅[あさ]くなったばかりです。",
+      "夜勤[やきん]を始[はじ]めてから、眠[ねむ]りが浅[あさ]いばかりです。",
+      "夜勤[やきん]を始[はじ]めてから、眠[ねむ]りが浅[あさ]くなるばかりです。"
+     ],
+     "ans": 2,
+     "why": "Ngày càng xấu đi → động từ thay đổi thể từ điển + ばかりだ: 浅[あさ]くなるばかり. 浅[あさ]くなったばかり là \"vừa mới\"; tính từ phải đi qua なる."
     }
    ],
    "shift": [
@@ -445,6 +455,16 @@
      ],
      "ans": 0,
      "why": "Xu hướng khách quan → 一方[いっぽう]です."
+    },
+    {
+     "q": "Trong bài phát biểu ở buổi kỷ niệm lớp tiếng Nhật tình nguyện, anh Nguyễn nói khách quan: số học viên của lớp không ngừng tăng.",
+     "opts": [
+      "この教室[きょうしつ]の生徒[せいと]の数[かず]は、多[おお]い一方[いっぽう]です。",
+      "この教室[きょうしつ]の生徒[せいと]の数[かず]は、増[ふ]える一方[いっぽう]です。",
+      "この教室[きょうしつ]の生徒[せいと]の数[かず]は、増[ふ]えた一方[いっぽう]です。"
+     ],
+     "ans": 1,
+     "why": "Xu hướng một chiều, nói khách quan → động từ thay đổi thể từ điển + 一方[いっぽう]です. Không gắn tính từ trực tiếp (多[おお]い一方[いっぽう]); không dùng thể た."
     }
    ],
    "shift": [
@@ -667,6 +687,16 @@
      ],
      "ans": 0,
      "why": "Quá trình thay đổi, văn viết → 〜つつあります."
+    },
+    {
+     "q": "Trong buổi họp tổ cuối tháng, anh Nguyễn báo cáo: ba người mới đang dần quen với công việc.",
+     "opts": [
+      "新[あたら]しく入[はい]った三人[さんにん]は、仕事[しごと]に慣[な]れつつあります。",
+      "新[あたら]しく入[はい]った三人[さんにん]は、仕事[しごと]に慣[な]れるつつあります。",
+      "新[あたら]しく入[はい]った三人[さんにん]は、仕事[しごと]に慣[な]れていつつあります。"
+     ],
+     "ans": 0,
+     "why": "Quá trình thay đổi đang diễn ra → thân ます + つつあります: 慣[な]れつつ. Không dùng thể từ điển hay thể て trước つつある."
     }
    ],
    "shift": [

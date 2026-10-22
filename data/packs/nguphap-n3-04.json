@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -233,6 +233,16 @@
      ],
      "ans": 0,
      "why": "Việc sẽ làm, lịch sự → thân ます + 次第[しだい]."
+    },
+    {
+     "q": "Tàu bị dừng vì sự cố, anh Nguyễn gọi báo tổ trưởng sẽ đến muộn: tàu chạy lại là tôi đến xưởng ngay.",
+     "opts": [
+      "電車[でんしゃ]が動[うご]いたとたん、すぐにそちらに向[む]かいます。",
+      "電車[でんしゃ]が動[うご]く次第[しだい]、すぐにそちらに向[む]かいます。",
+      "電車[でんしゃ]が動[うご]き次第[しだい]、すぐにそちらに向[む]かいます。"
+     ],
+     "ans": 2,
+     "why": "Ngay khi A xong sẽ chủ động làm B, nói lịch sự → thân ます + 次第[しだい]: 動[うご]き次第[しだい]. たとたん dùng cho việc bất ngờ đã xảy ra; không dùng thể từ điển trước 次第[しだい]."
     }
    ],
    "shift": [
@@ -478,6 +488,16 @@
      ],
      "ans": 0,
      "why": "Câu cố định lịch sự: お忙[いそが]しいところを（すみません）."
+    },
+    {
+     "q": "Anh Nguyễn kể với tổ trưởng: hôm qua đúng lúc tôi đang dọn khu đóng gói thì giám đốc dẫn khách vào.",
+     "opts": [
+      "片付[かたづ]けているところを、社長[しゃちょう]がお客[きゃく]さんを連[つ]れて来[き]ました。",
+      "片付[かたづ]けているところに、社長[しゃちょう]がお客[きゃく]さんを連[つ]れて来[き]ました。",
+      "片付[かたづ]けるところを、社長[しゃちょう]がお客[きゃく]さんを連[つ]れて来[き]ました。"
+     ],
+     "ans": 1,
+     "why": "Đúng lúc đang làm thì có người đến → 〜ているところに. ところを đi với bị động hoặc 見[み]る (bị bắt gặp), không dùng cho việc ai đó đến."
     }
    ],
    "shift": [
@@ -701,6 +721,16 @@
      ],
      "ans": 0,
      "why": "Đều đặn theo thời gian → 時間[じかん] + ごとに."
+    },
+    {
+     "q": "Anh Nguyễn giải thích cho người mới vào ký túc xá: phiên trực dọn nhà vệ sinh cứ mỗi tuần lại đổi người.",
+     "opts": [
+      "トイレ掃除[そうじ]の当番[とうばん]は、一週間[いっしゅうかん]ごとに替[か]わります。",
+      "トイレ掃除[そうじ]の当番[とうばん]は、一週間[いっしゅうかん]のごとに替[か]わります。",
+      "トイレ掃除[そうじ]の当番[とうばん]は、一週間[いっしゅうかん]たびに替[か]わります。"
+     ],
+     "ans": 0,
+     "why": "Đều đặn theo đơn vị thời gian → 一週間[いっしゅうかん]ごとに. ごとに không thêm の; たびに đi với sự việc (danh từ + の / động từ), không đi thẳng với khoảng thời gian."
     }
    ],
    "shift": [

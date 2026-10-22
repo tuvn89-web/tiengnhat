@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Lấy A làm tiền đề định sẵn (ý phê phán) → N + ありきで. Không chen が; không dùng ある thường."
+    },
+    {
+     "q": "Sau buổi họp, anh Nguyễn nói nhỏ với đồng nghiệp: hôm nay là cuộc họp đã có sẵn kết luận từ đầu, bàn bạc chẳng để làm gì.",
+     "opts": [
+      "今日[きょう]のは結論[けつろん]がありきの会議[かいぎ]だったね。話[はな]し合[あ]う意味[いみ]がなかったよ。",
+      "今日[きょう]のは結論[けつろん]ありき会議[かいぎ]だったね。話[はな]し合[あ]う意味[いみ]がなかったよ。",
+      "今日[きょう]のは結論[けつろん]ありきの会議[かいぎ]だったね。話[はな]し合[あ]う意味[いみ]がなかったよ。"
+     ],
+     "ans": 2,
+     "why": "Định sẵn từ đầu, đứng trước danh từ → Danh từ + ありきの + Danh từ. Không chen が; không bỏ の trước danh từ."
     }
    ],
    "shift": [
@@ -478,6 +488,16 @@
      ],
      "ans": 0,
      "why": "Làm mà không có (sự cho phép) → N + なしに, gắn thẳng sau danh từ. Không chen の; ないに là dạng sai."
+    },
+    {
+     "q": "Phát biểu ở buổi họp đầu năm, anh Nguyễn (chủ nhiệm) nói: không có lòng tin của khách hàng thì công ty không thể đứng vững.",
+     "opts": [
+      "お客様[きゃくさま]の信頼[しんらい]のなしには、会社[かいしゃ]は成[な]り立[た]ちません。",
+      "お客様[きゃくさま]の信頼[しんらい]なしには、会社[かいしゃ]は成[な]り立[た]ちません。",
+      "お客様[きゃくさま]の信頼[しんらい]なしには、会社[かいしゃ]は成[な]り立[た]ちます。"
+     ],
+     "ans": 1,
+     "why": "Không có A thì không thể B → Danh từ + なしには + vế phủ định. Không chen の; vế sau khẳng định là sai."
     }
    ],
    "shift": [
@@ -718,6 +738,16 @@
      ],
      "ans": 0,
      "why": "Nêu quan điểm riêng (thường mang tính phê bình) → 私[わたし]に言[い]わせれば. を sai trợ từ; によると dùng để dẫn nguồn tin, không dùng cho chính mình."
+    },
+    {
+     "q": "Anh Nguyễn kể với đồng nghiệp: theo lời vợ tôi thì tôi làm việc quá sức.",
+     "opts": [
+      "妻[つま]が言[い]わせれば、私[わたし]は働[はたら]きすぎだそうだ。",
+      "妻[つま]に言[い]わせれば、私[わたし]は働[はたら]きすぎだそうだ。",
+      "妻[つま]を言[い]わせれば、私[わたし]は働[はたら]きすぎだそうだ。"
+     ],
+     "ans": 1,
+     "why": "Quan điểm riêng của một người → Người + に言[い]わせれば (người được \"cho nói\" đi với に). Không dùng が hay を."
     }
    ],
    "shift": [

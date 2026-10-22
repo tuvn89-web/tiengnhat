@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -235,6 +235,16 @@
      ],
      "ans": 0,
      "why": "Mình bị người khác làm → bị động, người làm + に."
+    },
+    {
+     "q": "Sáng đến xưởng, anh Nguyễn kể với đồng nghiệp vì sao đi khập khiễng: trên tàu đông, tôi bị người bên cạnh giẫm vào chân.",
+     "opts": [
+      "満員[まんいん]電車[でんしゃ]で、隣[となり]の人[ひと]が足[あし]を踏[ふ]まれました。",
+      "満員[まんいん]電車[でんしゃ]で、隣[となり]の人[ひと]に足[あし]を踏[ふ]ませました。",
+      "満員[まんいん]電車[でんしゃ]で、隣[となり]の人[ひと]に足[あし]を踏[ふ]まれました。"
+     ],
+     "ans": 2,
+     "why": "Mình bị người khác làm → bị động, người làm đi với に: 隣[となり]の人[ひと]に足[あし]を踏[ふ]まれました. 隣[となり]の人[ひと]が踏[ふ]まれました thành người kia bị giẫm; 踏[ふ]ませました là \"bắt người ta giẫm\"."
     }
    ],
    "shift": [
@@ -469,6 +479,16 @@
      ],
      "ans": 0,
      "why": "Vật làm chủ ngữ, không nói ai gửi → bị động."
+    },
+    {
+     "q": "Ở quán ăn Việt, bạn người Nhật hỏi nước mắm dùng để làm gì. Anh Nguyễn giải thích: ở Việt Nam, nước mắm được dùng trong rất nhiều món.",
+     "opts": [
+      "ベトナムでは、ヌクマムがいろいろな料理[りょうり]を使[つか]っています。",
+      "ベトナムでは、ヌクマムがいろいろな料理[りょうり]に使[つか]われています。",
+      "ベトナムでは、ヌクマムにいろいろな料理[りょうり]が使[つか]われています。"
+     ],
+     "ans": 1,
+     "why": "Vật làm chủ ngữ, không nói ai làm → bị động: ヌクマムが料理[りょうり]に使[つか]われています. Câu chủ động thành \"nước mắm dùng các món ăn\"; câu cuối đảo vai."
     }
    ],
    "shift": [

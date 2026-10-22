@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 8,
+  "version": 9,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -315,6 +315,11 @@
      "jp": "今日[きょう]の作業時間[さぎょうじかん]を合計[ごうけい]してください。",
      "vi": "Hãy cộng tổng giờ làm hôm nay.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "給料明細[きゅうりょうめいさい]の合計[ごうけい]の金額[きんがく]を、通帳[つうちょう]と比[くら]べて確認[かくにん]した。",
+     "vi": "Tôi so tổng số tiền trên phiếu lương với sổ ngân hàng để kiểm tra.",
+     "ctx": "thutuc"
     }
    ],
    "coll": [
@@ -402,6 +407,11 @@
      "jp": "空港[くうこう]で、ドンを円[えん]に両替[りょうがえ]しました。",
      "vi": "Tôi đổi tiền đồng sang yên ở sân bay.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "A：すみません、一万円[いちまんえん]札[さつ]を両替[りょうがえ]できますか。 B：申[もう]し訳[わけ]ありません、両替[りょうがえ]はしていないんです。",
+     "vi": "A: Xin lỗi, đổi giúp tôi tờ 10.000 yên được không? B: Xin lỗi, chúng tôi không đổi tiền ạ.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [
@@ -602,6 +612,11 @@
      "jp": "出張[しゅっちょう]の交通費[こうつうひ]を、会社[かいしゃ]で精算[せいさん]します。",
      "vi": "Quyết toán tiền đi lại công tác ở công ty.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "アパートを出[で]る前[まえ]に、水道代[すいどうだい]を精算[せいさん]しました。",
+     "vi": "Trước khi dọn khỏi căn hộ, tôi đã thanh toán dứt tiền nước.",
+     "ctx": "thutuc"
     }
    ],
    "coll": [
@@ -725,6 +740,11 @@
      "jp": "新[あたら]しい商品[しょうひん]の販売[はんばい]が始[はじ]まりました。",
      "vi": "Mặt hàng mới đã bắt đầu bán.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：このお菓子[かし]、どこで販売[はんばい]していますか。 B：駅前[えきまえ]のスーパーで売[う]っていますよ。",
+     "vi": "A: Bánh kẹo này bán ở đâu vậy? B: Siêu thị trước ga có bán đấy.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [
@@ -759,6 +779,11 @@
      "jp": "店[みせ]の宣伝[せんでん]のために、チラシを配[くば]りました。",
      "vi": "Để quảng bá cửa hàng, chúng tôi phát tờ rơi.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "うちの会社[かいしゃ]の刺身[さしみ]を、地元[じもと]のテレビで宣伝[せんでん]してもらった。",
+     "vi": "Sashimi của công ty tôi được quảng cáo trên đài truyền hình địa phương.",
+     "ctx": "xuong"
     }
    ],
    "coll": [
@@ -849,6 +874,11 @@
      "jp": "インフルエンザが流行[りゅうこう]しています。",
      "vi": "Cúm đang lây lan.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "工場[こうじょう]でかぜが流行[りゅうこう]して、休[やす]む人[ひと]が多[おお]い。",
+     "vi": "Ở xưởng đang lây lan cảm cúm, nhiều người phải nghỉ.",
+     "ctx": "xuong"
     }
    ],
    "coll": [
@@ -1299,6 +1329,11 @@
      "jp": "お金[かね]を勘定[かんじょう]してから、レジを閉[し]めます。",
      "vi": "Đếm tiền xong rồi đóng quầy.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "今日[きょう]のお勘定[かんじょう]は、俺[おれ]が払[はら]っとくわ。",
+     "vi": "Hôm nay để tôi trả tiền cho.",
+     "ctx": "kansai"
     }
    ],
    "coll": [
@@ -1393,6 +1428,11 @@
      "jp": "タイマーを十分[じゅっぷん]にセットしてください。",
      "vi": "Hãy cài hẹn giờ 10 phút.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：目覚[めざ]まし、何時[なんじ]にセットした？ B：五時[ごじ]。早番[はやばん]だから。",
+     "vi": "A: Báo thức đặt mấy giờ? B: 5 giờ. Vì ca sớm mà.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [
@@ -1481,6 +1521,11 @@
      "jp": "お客様[きゃくさま]から、追加[ついか]の注文[ちゅうもん]が来[き]ました。",
      "vi": "Khách đặt thêm hàng.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：ご注文[ちゅうもん]はお決[き]まりですか。 B：はい、焼[や]き魚[ざかな]定食[ていしょく]をお願[ねが]いします。",
+     "vi": "A: Quý khách đã chọn món chưa ạ? B: Rồi, cho tôi suất cơm cá nướng.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [
@@ -1619,6 +1664,11 @@
      "jp": "新[あたら]しいラベルをデザインしました。",
      "vi": "Tôi đã thiết kế nhãn mới.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "このシャツ、デザインがええなあ。どこで買[こ]うたん？",
+     "vi": "Cái áo sơ mi này kiểu dáng đẹp ghê. Mua ở đâu thế?",
+     "ctx": "kansai"
     }
    ],
    "coll": [

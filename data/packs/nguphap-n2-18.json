@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -233,6 +233,16 @@
      ],
      "ans": 0,
      "why": "Gửi gắm tình cảm → を込[こ]めて (込[こ]める). 込[こ]んで là của 込[こ]む (đông đúc); にとって = đối với (không hợp)."
+    },
+    {
+     "q": "Dẫn đoàn khách hàng tham quan dây chuyền sashimi, anh Nguyễn giới thiệu: chúng tôi chế biến từng miếng một bằng cả tấm lòng.",
+     "opts": [
+      "ひとつひとつ、手間[てま]を込[こ]めて加工[かこう]しております。",
+      "ひとつひとつ、心[こころ]を込[こ]めて加工[かこう]しております。",
+      "ひとつひとつ、心[こころ]を込[こ]んで加工[かこう]しております。"
+     ],
+     "ans": 1,
+     "why": "Gửi gắm tình cảm → 心[こころ]を込[こ]めて (tha động từ 込[こ]める). 込[こ]む là tự động từ (đông, chật); công sức thì nói 手間[てま]をかける, không \"込[こ]める\"."
     }
    ],
    "shift": [
@@ -465,6 +475,16 @@
      ],
      "ans": 0,
      "why": "Gác sang một bên → (danh từ) は / を抜[ぬ]きにして. 抜[ぬ]くにして sai dạng; を込[こ]めて = gửi gắm (không hợp)."
+    },
+    {
+     "q": "Ở tiệc chia tay một thực tập sinh, anh Nguyễn (chủ nhiệm) phát biểu: không có sự hợp tác của các bạn thì không thể nói đến thành công của xưởng.",
+     "opts": [
+      "皆[みな]さんの協力[きょうりょく]を抜[ぬ]きにしては、この工場[こうじょう]の成功[せいこう]は語[かた]れません。",
+      "皆[みな]さんの協力[きょうりょく]を抜[ぬ]きにしては、この工場[こうじょう]は成功[せいこう]できました。",
+      "皆[みな]さんの協力[きょうりょく]にかかわらず、この工場[こうじょう]の成功[せいこう]は語[かた]れません。"
+     ],
+     "ans": 0,
+     "why": "Không có A thì không thể… → を抜[ぬ]きにしては + vế PHỦ ĐỊNH. Vế sau khẳng định (成功[せいこう]できました) là sai logic; にかかわらず = \"bất kể\", sai nghĩa."
     }
    ],
    "shift": [
@@ -701,6 +721,16 @@
      ],
      "ans": 0,
      "why": "Làm đến cùng → thân động từ + 抜[ぬ]く: やり抜[ぬ]こう. 手[て]を抜[ぬ]く = làm ẩu, qua loa."
+    },
+    {
+     "q": "Anh Nguyễn kể với tổ trưởng (lịch sự): ở giải chạy của thành phố, mệt lắm nhưng tôi đã chạy đến đích, không bỏ cuộc.",
+     "opts": [
+      "市民[しみん]マラソンで、最後[さいご]まで走[はし]る抜[ぬ]きました。",
+      "市民[しみん]マラソンで、最後[さいご]まで手[て]を抜[ぬ]きました。",
+      "市民[しみん]マラソンで、最後[さいご]まで走[はし]り抜[ぬ]きました。"
+     ],
+     "ans": 2,
+     "why": "Vượt khó làm đến cùng → thân ます + 抜[ぬ]く: 走[はし]り抜[ぬ]く. Không gắn sau thể từ điển; 手[て]を抜[ぬ]く = làm qua loa, ngược nghĩa."
     }
    ],
    "shift": [

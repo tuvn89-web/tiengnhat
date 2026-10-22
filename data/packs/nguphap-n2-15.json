@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -225,6 +225,16 @@
      ],
      "ans": 0,
      "why": "Điều chỉnh theo yêu cầu → に応[おう]じて (trợ từ に). にとって = đối với (sai nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) hướng dẫn người mới ở bàn lọc cá: tùy theo kích cỡ con cá mà đổi cách cắt.",
+     "opts": [
+      "魚[さかな]の大[おお]きさを応[おう]じて、切[き]り方[かた]を変[か]えてください。",
+      "魚[さかな]の大[おお]きさに沿[そ]って、切[き]り方[かた]を変[か]えてください。",
+      "魚[さかな]の大[おお]きさに応[おう]じて、切[き]り方[かた]を変[か]えてください。"
+     ],
+     "ans": 2,
+     "why": "Điều chỉnh tùy theo mức độ → Danh từ + に応[おう]じて (trợ từ に, không phải を). に沿[そ]って = bám theo một khuôn / đường cố định, không hợp \"tùy kích cỡ\"."
     }
    ],
    "shift": [
@@ -462,6 +472,16 @@
      ],
      "ans": 0,
      "why": "Đáp lại kỳ vọng → 期待[きたい]に応[こた]える (trợ từ に). 代[か]える = thay thế (sai nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn viết thông báo gửi khách hàng: đáp lại mong muốn của quý khách, chúng tôi đã bắt đầu bán loại gói nhỏ.",
+     "opts": [
+      "お客様[きゃくさま]のご要望[ようぼう]をお応[こた]えして、小[ちい]さいパックの販売[はんばい]を始[はじ]めました。",
+      "お客様[きゃくさま]のご要望[ようぼう]にお応[こた]えして、小[ちい]さいパックの販売[はんばい]を始[はじ]めました。",
+      "お客様[きゃくさま]のご要望[ようぼう]にとって、小[ちい]さいパックの販売[はんばい]を始[はじ]めました。"
+     ],
+     "ans": 1,
+     "why": "Đáp lại yêu cầu (khiêm nhường, kinh doanh) → ご要望[ようぼう]にお応[こた]えして; trợ từ là に. にとって = \"đối với\", sai nghĩa."
     }
    ],
    "shift": [
@@ -692,6 +712,16 @@
      ],
      "ans": 0,
      "why": "Làm theo đúng sổ hướng dẫn → に沿[そ]って (trợ từ に). にとって = đối với (sai nghĩa)."
+    },
+    {
+     "q": "Dẫn đoàn khách hàng vào khu sản xuất, anh Nguyễn nói lịch sự: xin quý khách đi theo vạch kẻ màu xanh trên sàn.",
+     "opts": [
+      "床[ゆか]の緑[みどり]の線[せん]に沿[そ]ってお進[すす]みください。",
+      "床[ゆか]の緑[みどり]の線[せん]を沿[そ]ってお進[すす]みください。",
+      "床[ゆか]の緑[みどり]の線[せん]に応[おう]じてお進[すす]みください。"
+     ],
+     "ans": 0,
+     "why": "Men theo một đường → Danh từ + に沿[そ]って (không dùng を). に応[おう]じて = \"tùy theo\", không phải \"đi theo vạch\"."
     }
    ],
    "shift": [

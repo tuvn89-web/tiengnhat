@@ -1,1871 +1,1921 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "jlpt-n2-19",
-    "title": "JLPT N2 19 – Trái với dự đoán",
-    "type": "vocab",
-    "level": "N2",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 2,
-    "created": "2026-10-12",
-    "verified_on": "",
-    "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "jlpt-n2-19",
+  "title": "JLPT N2 19 – Trái với dự đoán",
+  "type": "vocab",
+  "level": "N2",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 3,
+  "created": "2026-10-12",
+  "verified_on": "",
+  "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
+ },
+ "items": [
+  {
+   "id": "v:売上:うりあげ",
+   "kana": "うりあげ",
+   "kanji": "売上",
+   "hv": "MẠI THƯỢNG",
+   "vi": "doanh thu (tiền bán hàng)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
     {
-      "id": "v:売上:うりあげ",
-      "kana": "うりあげ",
-      "kanji": "売上",
-      "hv": "MẠI THƯỢNG",
-      "vi": "doanh thu (tiền bán hàng)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今月[こんげつ]の売上[うりあげ]は、目標[もくひょう]を上回[うわまわ]った。",
-          "vi": "Doanh thu tháng này đã vượt mục tiêu.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "コンビニは、夏[なつ]になると飲[の]み物[もの]の売上[うりあげ]が伸[の]びる。",
-          "vi": "Cửa hàng tiện lợi cứ vào hè là doanh thu đồ uống tăng.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:利益:りえき"
-      ],
-      "note": "Cũng viết 売[う]り上[あ]げ. 売上[うりあげ] = tổng tiền bán được; 利益[りえき] = phần lãi còn lại sau khi trừ chi phí. 売上高[うりあげだか] = doanh số."
+     "jp": "今月[こんげつ]の売上[うりあげ]は、目標[もくひょう]を上回[うわまわ]った。",
+     "vi": "Doanh thu tháng này đã vượt mục tiêu.",
+     "ctx": "xuong"
     },
     {
-      "id": "v:収益:しゅうえき",
-      "kana": "しゅうえき",
-      "kanji": "収益",
-      "hv": "THU ÍCH",
-      "vi": "khoản thu lãi (từ hoạt động kinh doanh)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新[あたら]しい商品[しょうひん]のおかげで、会社[かいしゃ]の収益[しゅうえき]が増[ふ]えた。",
-          "vi": "Nhờ sản phẩm mới mà khoản thu lãi của công ty tăng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "お祭[まつ]りの収益[しゅうえき]は、全部[ぜんぶ]町[まち]に寄付[きふ]されます。",
-          "vi": "Toàn bộ tiền thu được từ lễ hội sẽ được quyên góp cho thị trấn.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:利益:りえき"
-      ],
-      "note": "収益性[しゅうえきせい] = khả năng sinh lời."
-    },
-    {
-      "id": "v:赤字:あかじ",
-      "kana": "あかじ",
-      "kanji": "赤字",
-      "hv": "XÍCH TỰ",
-      "vi": "thâm hụt, làm ăn lỗ (chi nhiều hơn thu)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今月[こんげつ]は出費[しゅっぴ]が多[おお]くて、家計[かけい]が赤字[あかじ]だ。",
-          "vi": "Tháng này chi nhiều quá, sổ chi tiêu gia đình bị âm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "あの工場[こうじょう]は、三年[さんねん]続[つづ]けて赤字[あかじ]になっている。",
-          "vi": "Nhà máy đó đã lỗ ba năm liền.",
-          "ctx": "xuong"
-        }
-      ],
-      "ant": [
-        "v:黒字:くろじ"
-      ],
-      "note": "赤字[あかじ]になる / 赤字[あかじ]を出[だ]す = bị lỗ. Nghĩa gốc: chữ màu đỏ (sổ sách ghi số âm bằng mực đỏ)."
-    },
-    {
-      "id": "v:黒字:くろじ",
-      "kana": "くろじ",
-      "kanji": "黒字",
-      "hv": "HẮC TỰ",
-      "vi": "có lãi, thặng dư (thu nhiều hơn chi)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新[あたら]しい商品[しょうひん]が売[う]れて、会社[かいしゃ]は黒字[くろじ]になった。",
-          "vi": "Sản phẩm mới bán chạy nên công ty đã có lãi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "今月[こんげつ]は節約[せつやく]したので、家計[かけい]は黒字[くろじ]だ。",
-          "vi": "Tháng này tiết kiệm nên chi tiêu gia đình còn dư.",
-          "ctx": "doisong"
-        }
-      ],
-      "ant": [
-        "v:赤字:あかじ"
-      ],
-      "note": "黒字化[くろじか] = chuyển sang có lãi."
-    },
-    {
-      "id": "v:損失:そんしつ",
-      "kana": "そんしつ",
-      "kanji": "損失",
-      "hv": "TỔN THẤT",
-      "vi": "tổn thất (tiền, của cải)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "停電[ていでん]で冷凍庫[れいとうこ]が止[と]まり、大[おお]きな損失[そんしつ]が出[で]た。",
-          "vi": "Mất điện làm tủ đông ngừng chạy, gây tổn thất lớn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "台風[たいふう]による農業[のうぎょう]の損失[そんしつ]は、数[すう]億[おく]円[えん]にのぼった。",
-          "vi": "Tổn thất nông nghiệp do bão lên tới vài trăm triệu yên.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:損:そん"
-      ],
-      "note": "損失[そんしつ]が出[で]る / 損失[そんしつ]を出[だ]す = bị tổn thất."
-    },
-    {
-      "id": "v:増収:ぞうしゅう",
-      "kana": "ぞうしゅう",
-      "kanji": "増収",
-      "hv": "TĂNG THU",
-      "vi": "tăng thu (doanh thu, thu nhập tăng)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今年[ことし]は円安[えんやす]の影響[えいきょう]で、増収[ぞうしゅう]になった。",
-          "vi": "Năm nay do ảnh hưởng đồng yên yếu nên doanh thu tăng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "増収[ぞうしゅう]でも、経費[けいひ]が増[ふ]えれば利益[りえき]は減[へ]る。",
-          "vi": "Dù doanh thu tăng, nếu chi phí tăng thì lãi vẫn giảm.",
-          "ctx": "doisong"
-        }
-      ],
-      "ant": [
-        "v:減収:げんしゅう"
-      ],
-      "note": "増収増益[ぞうしゅうぞうえき] = tăng doanh thu, tăng lãi."
-    },
-    {
-      "id": "v:減収:げんしゅう",
-      "kana": "げんしゅう",
-      "kanji": "減収",
-      "hv": "GIẢM THU",
-      "vi": "giảm thu (doanh thu, thu nhập giảm)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "不漁[ふりょう]が続[つづ]いて、漁師[りょうし]の多[おお]くが減収[げんしゅう]になった。",
-          "vi": "Mất mùa cá kéo dài nên nhiều ngư dân bị giảm thu nhập.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "残業[ざんぎょう]がなくなって、月[つき]に二万円[にまんえん]ほど減収[げんしゅう]になった。",
-          "vi": "Không còn tăng ca, thu nhập mỗi tháng giảm khoảng hai vạn yên.",
-          "ctx": "xuong"
-        }
-      ],
-      "ant": [
-        "v:増収:ぞうしゅう"
-      ]
-    },
-    {
-      "id": "v:経費:けいひ",
-      "kana": "けいひ",
-      "kanji": "経費",
-      "hv": "KINH PHÍ",
-      "vi": "kinh phí, chi phí hoạt động (kinh doanh)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "電気代[でんきだい]が上[あ]がって、工場[こうじょう]の経費[けいひ]が増[ふ]えた。",
-          "vi": "Tiền điện tăng nên chi phí hoạt động của nhà máy tăng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "出張[しゅっちょう]の交通費[こうつうひ]は、経費[けいひ]で落[お]とせます。",
-          "vi": "Tiền tàu xe đi công tác được tính vào chi phí công ty.",
-          "ctx": "thutuc"
-        }
-      ],
-      "rel": [
-        "v:費用:ひよう"
-      ],
-      "note": "経費[けいひ]で落[お]とす = tính vào chi phí công ty; 経費削減[けいひさくげん] = cắt giảm chi phí."
-    },
-    {
-      "id": "v:採算:さいさん",
-      "kana": "さいさん",
-      "kanji": "採算",
-      "hv": "THẢI TOÁN",
-      "vi": "sự tính lời lỗ; khả năng có lãi",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この値段[ねだん]では、とても採算[さいさん]が取[と]れない。",
-          "vi": "Với giá này thì không thể nào có lãi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "採算[さいさん]が合[あ]わない店[みせ]は、閉[し]めることになった。",
-          "vi": "Các cửa hàng làm ăn không có lãi sẽ bị đóng cửa.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "採算[さいさん]が取[と]れる / 合[あ]う = có lãi, bù được chi phí; 不採算[ふさいさん] = làm ăn không có lãi."
-    },
-    {
-      "id": "v:売れ行き:うれゆき",
-      "kana": "うれゆき",
-      "kanji": "売れ行き",
-      "kf": "売[う]れ行[ゆ]き",
-      "hv": "MẠI HÀNH",
-      "vi": "tình hình bán ra, sức bán",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新[あたら]しい商品[しょうひん]の売[う]れ行[ゆ]きは、好調[こうちょう]です。",
-          "vi": "Sức bán của sản phẩm mới đang rất tốt.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "暑[あつ]い日[ひ]は、アイスの売[う]れ行[ゆ]きがいい。",
-          "vi": "Ngày nóng thì kem bán chạy.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:売れる:うれる"
-      ],
-      "note": "売[う]れ行[ゆ]きがいい / 悪[わる]い = bán chạy / ế."
-    },
-    {
-      "id": "v:客足:きゃくあし",
-      "kana": "きゃくあし",
-      "kanji": "客足",
-      "hv": "KHÁCH TÚC",
-      "vi": "lượng khách ghé (cửa hàng)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "雨[あめ]の日[ひ]は、店[みせ]の客足[きゃくあし]が落[お]ちる。",
-          "vi": "Ngày mưa khách đến quán ít đi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "近[ちか]くに大型[おおがた]店[てん]ができて、商店街[しょうてんがい]の客足[きゃくあし]が遠[とお]のいた。",
-          "vi": "Gần đó mở cửa hàng lớn nên khu phố mua sắm vắng khách dần.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "客足[きゃくあし]が遠[とお]のく = khách thưa dần; 客足[きゃくあし]が戻[もど]る = khách quay lại."
-    },
-    {
-      "id": "v:単価:たんか",
-      "kana": "たんか",
-      "kanji": "単価",
-      "hv": "ĐƠN GIÁ",
-      "vi": "đơn giá",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "サーモンの単価[たんか]が、去年[きょねん]より上[あ]がった。",
-          "vi": "Đơn giá cá hồi đã tăng so với năm ngoái.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "客単価[きゃくたんか]を上[あ]げるために、セットメニューを作[つく]った。",
-          "vi": "Để tăng số tiền mỗi khách chi, quán làm thực đơn combo.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "客単価[きゃくたんか] = số tiền trung bình một khách chi; 時間単価[じかんたんか] = đơn giá theo giờ."
-    },
-    {
-      "id": "v:儲かる:もうかる",
-      "kana": "もうかる",
-      "kanji": "儲かる",
-      "kf": "儲[もう]かる",
-      "hv": "TRỮ",
-      "vi": "có lời, kiếm được (tiền)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "夏[なつ]は、かき氷[ごおり]の店[みせ]がよく儲[もう]かる。",
-          "vi": "Mùa hè quán đá bào làm ăn có lời.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "楽[らく]をして儲[もう]かる仕事[しごと]なんて、ない。",
-          "vi": "Chẳng có việc nào nhàn mà kiếm được tiền đâu.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：お兄[にい]さんの店[みせ]、どう？ B：おかげさまで、少[すこ]しは儲[もう]かっているみたいです。",
-          "vi": "A: Quán của anh trai cậu thế nào? B: Nhờ trời, hình như cũng có lời chút ít ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "商売[しょうばい]が儲[もう]かる",
-          "vi": "buôn bán có lời"
-        },
-        {
-          "jp": "お金[かね]が儲[もう]かる",
-          "vi": "kiếm được tiền"
-        }
-      ],
-      "rel": [
-        "v:稼ぐ:かせぐ"
-      ],
-      "pair": {
-        "w": "儲[もう]ける",
-        "vi": "kiếm lời (tha động từ)"
-      },
-      "note": "儲[もう]け = tiền lời. Ở Osaka có câu chào vui: 「儲[もう]かりまっか」「ぼちぼちでんな」 (Làm ăn thế nào? – Cũng tàm tạm)."
-    },
-    {
-      "id": "v:業績:ぎょうせき",
-      "kana": "ぎょうせき",
-      "kanji": "業績",
-      "hv": "NGHIỆP TÍCH",
-      "vi": "kết quả kinh doanh (của công ty)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Doanh thu",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "会社[かいしゃ]の業績[ぎょうせき]が良[よ]くて、ボーナスが増[ふ]えた。",
-          "vi": "Kết quả kinh doanh của công ty tốt nên tiền thưởng tăng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "業績[ぎょうせき]が悪化[あっか]して、工場[こうじょう]の一部[いちぶ]が閉鎖[へいさ]された。",
-          "vi": "Kết quả kinh doanh xấu đi nên một phần nhà máy bị đóng cửa.",
-          "ctx": "doisong"
-        }
-      ],
-      "confuse": [
-        "v:実績:じっせき"
-      ],
-      "note": "業績[ぎょうせき]が伸[の]びる / 悪化[あっか]する. Còn nghĩa: thành tựu nghiên cứu (của học giả)."
-    },
-    {
-      "id": "v:予想外:よそうがい",
-      "kana": "よそうがい",
-      "kanji": "予想外",
-      "hv": "DỰ TƯỞNG NGOẠI",
-      "vi": "không lường trước được, nằm ngoài dự đoán",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Dự đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "予想外[よそうがい]の大雪[おおゆき]で、出荷[しゅっか]が遅[おく]れた。",
-          "vi": "Tuyết rơi dày ngoài dự tính nên việc xuất hàng bị chậm.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "試験[しけん]の結果[けっか]は、予想外[よそうがい]によかった。",
-          "vi": "Kết quả thi tốt ngoài dự tính.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：売上[うりあげ]、どうだった？ B：それが、予想外[よそうがい]に伸[の]びたんです。",
-          "vi": "A: Doanh thu thế nào? B: Chuyện là tăng vượt cả dự tính ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "結果[けっか]",
-          "vi": "kết quả"
-        },
-        {
-          "jp": "出来事[できごと]",
-          "vi": "sự việc"
-        }
-      ],
-      "confuse": [
-        "v:意外:いがい"
-      ],
-      "rel": [
-        "v:予想:よそう"
-      ],
-      "note": "予想外[よそうがい] = nằm ngoài những gì đã tính trước; 意外[いがい] = bất ngờ, khác với mình nghĩ."
-    },
-    {
-      "id": "v:期待外れ:きたいはずれ",
-      "kana": "きたいはずれ",
-      "kanji": "期待外れ",
-      "kf": "期待外[きたいはず]れ",
-      "hv": "KỲ ĐÃI NGOẠI",
-      "vi": "không như kỳ vọng, đáng thất vọng",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Dự đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "楽[たの]しみにしていた映画[えいが]は、期待[きたい]外[はず]れだった。",
-          "vi": "Bộ phim tôi mong chờ hóa ra không như kỳ vọng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "新[あたら]しい機械[きかい]は期待[きたい]外[はず]れで、作業[さぎょう]はあまり速[はや]くならなかった。",
-          "vi": "Máy mới không như kỳ vọng, công việc chẳng nhanh hơn mấy.",
-          "ctx": "xuong"
-        }
-      ],
-      "rel": [
-        "v:期待:きたい"
-      ],
-      "note": "期待外[きたいはず]れの結果[けっか] = kết quả đáng thất vọng."
-    },
-    {
-      "id": "v:見込み:みこみ",
-      "kana": "みこみ",
-      "kanji": "見込み",
-      "kf": "見込[みこ]み",
-      "hv": "KIẾN NHẬP",
-      "vi": "dự kiến, khả năng (sẽ xảy ra); triển vọng (của người)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Dự đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "工事[こうじ]は、来月[らいげつ]終[お]わる見込[みこ]みです。",
-          "vi": "Công trình dự kiến xong vào tháng sau.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "今年[ことし]の売上[うりあげ]は、前年[ぜんねん]より一割[いちわり]増[ふ]える見込[みこ]みだ。",
-          "vi": "Doanh thu năm nay dự kiến tăng một phần mười so với năm trước.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：新人[しんじん]のグエンさん、どう？ B：まじめだし、見込[みこ]みがありますよ。",
-          "vi": "A: Người mới, anh Nguyễn ấy, thế nào? B: Chăm chỉ lắm, có triển vọng đấy ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "rel": [
-        "v:見込む:みこむ"
-      ],
-      "flag": true,
-      "note": "〜見込[みこ]みだ = dự kiến …; 見込[みこ]みがある / ない = có / không có triển vọng. Âm Hán Việt của chữ thứ 2 (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
-    },
-    {
-      "id": "v:見込む:みこむ",
-      "kana": "みこむ",
-      "kanji": "見込む",
-      "kf": "見込[みこ]む",
-      "hv": "KIẾN NHẬP",
-      "vi": "tính trước (vào kế hoạch); tin tưởng vào (năng lực ai)",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Dự đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "渋滞[じゅうたい]を見込[みこ]んで、早[はや]めに家[いえ]を出[で]た。",
-          "vi": "Tính trước cả chuyện tắc đường nên tôi ra khỏi nhà sớm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "年末[ねんまつ]は、いつもの二倍[にばい]の注文[ちゅうもん]を見込[みこ]んでいる。",
-          "vi": "Cuối năm dự tính đơn hàng gấp đôi mọi khi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：どうして私[わたし]に頼[たの]むんですか。 B：君[きみ]の腕[うで]を見込[みこ]んで頼[たの]んでいるんだよ。",
-          "vi": "A: Sao anh lại nhờ tôi ạ? B: Vì tin vào tay nghề của cậu nên tôi mới nhờ đấy.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "売上[うりあげ]を見込[みこ]む",
-          "vi": "dự tính doanh thu"
-        },
-        {
-          "jp": "渋滞[じゅうたい]を見込[みこ]む",
-          "vi": "tính trước chuyện tắc đường"
-        }
-      ],
-      "rel": [
-        "v:見込み:みこみ"
-      ],
-      "flag": true,
-      "note": "Âm Hán Việt của chữ thứ 2 (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
-    },
-    {
-      "id": "v:上回る:うわまわる",
-      "kana": "うわまわる",
-      "kanji": "上回る",
-      "kf": "上回[うわまわ]る",
-      "hv": "THƯỢNG HỒI",
-      "vi": "vượt trên (mức, con số)",
-      "pos": "v5",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Dự đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今月[こんげつ]の売上[うりあげ]は、目標[もくひょう]を上回[うわまわ]った。",
-          "vi": "Doanh thu tháng này vượt trên mục tiêu.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "今年[ことし]の夏[なつ]は、気温[きおん]が平年[へいねん]を大[おお]きく上回[うわまわ]った。",
-          "vi": "Hè năm nay nhiệt độ cao hơn hẳn mọi năm.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：応募[おうぼ]は何人[なんにん]来[き]た？ B：予想[よそう]を上回[うわまわ]る五十人[ごじゅうにん]です。",
-          "vi": "A: Có bao nhiêu người ứng tuyển? B: Năm mươi người, vượt cả dự đoán ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "予想[よそう]を上回[うわまわ]る",
-          "vi": "vượt dự đoán"
-        },
-        {
-          "jp": "目標[もくひょう]を上回[うわまわ]る",
-          "vi": "vượt mục tiêu"
-        }
-      ],
-      "ant": [
-        "v:下回る:したまわる"
-      ]
-    },
-    {
-      "id": "v:下回る:したまわる",
-      "kana": "したまわる",
-      "kanji": "下回る",
-      "kf": "下回[したまわ]る",
-      "hv": "HẠ HỒI",
-      "vi": "xuống dưới (mức, con số), thấp hơn",
-      "pos": "v5",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Dự đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今月[こんげつ]の売上[うりあげ]は、去年[きょねん]を下回[したまわ]った。",
-          "vi": "Doanh thu tháng này thấp hơn năm ngoái.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "気温[きおん]が0度[ど]を下回[したまわ]ると、道路[どうろ]が凍[こお]ることがある。",
-          "vi": "Nhiệt độ xuống dưới 0 độ thì đường có thể đóng băng.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：検査[けんさ]の数値[すうち]、大丈夫[だいじょうぶ]でした？ B：はい、基準値[きじゅんち]を下回[したまわ]っていました。",
-          "vi": "A: Chỉ số kiểm tra có ổn không? B: Vâng, thấp hơn mức chuẩn ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "平均[へいきん]を下回[したまわ]る",
-          "vi": "thấp hơn trung bình"
-        },
-        {
-          "jp": "目標[もくひょう]を下回[したまわ]る",
-          "vi": "không đạt mục tiêu"
-        }
-      ],
-      "ant": [
-        "v:上回る:うわまわる"
-      ]
-    },
-    {
-      "id": "v:楽観的:らっかんてき",
-      "kana": "らっかんてき",
-      "kanji": "楽観的",
-      "hv": "LẠC QUAN ĐÍCH",
-      "vi": "lạc quan",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Dự đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "社長[しゃちょう]は、来年[らいねん]の売上[うりあげ]について楽観的[らっかんてき]だ。",
-          "vi": "Giám đốc lạc quan về doanh thu năm sau.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "楽観的[らっかんてき]に考[かんが]えすぎて、準備[じゅんび]が足[た]りなかった。",
-          "vi": "Nghĩ quá lạc quan nên chuẩn bị không đủ.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：試験[しけん]、たぶん大丈夫[だいじょうぶ]だよ。 B：そんなに楽観的[らっかんてき]で大丈夫[だいじょうぶ]？",
-          "vi": "A: Kỳ thi chắc ổn thôi. B: Lạc quan thế có ổn không đấy?",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "見方[みかた]",
-          "vi": "cách nhìn"
-        },
-        {
-          "jp": "考[かんが]え",
-          "vi": "suy nghĩ"
-        }
-      ],
-      "ant": [
-        {
-          "w": "悲観的[ひかんてき]",
-          "vi": "bi quan"
-        }
-      ],
-      "note": "楽観[らっかん]する = lạc quan."
-    },
-    {
-      "id": "v:一時的:いちじてき",
-      "kana": "いちじてき",
-      "kanji": "一時的",
-      "hv": "NHẤT THỜI ĐÍCH",
-      "vi": "nhất thời, mang tính tạm thời",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Dự đoán",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "円安[えんやす]で、一時[いちじ]的[てき]に売上[うりあげ]が伸[の]びた。",
-          "vi": "Nhờ đồng yên yếu, doanh thu tăng tạm thời.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "この痛[いた]みは、一時[いちじ]的[てき]なものです。",
-          "vi": "Cơn đau này chỉ là nhất thời.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：この道[みち]、もう通[とお]れないんですか。 B：工事中[こうじちゅう]なので、一時[いちじ]的[てき]に通行止[つうこうど]めになっているだけですよ。",
-          "vi": "A: Đường này không đi được nữa ạ? B: Đang thi công nên chỉ tạm thời cấm đường thôi.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "変化[へんか]",
-          "vi": "thay đổi"
-        },
-        {
-          "jp": "措置[そち]",
-          "vi": "biện pháp"
-        }
-      ],
-      "ant": [
-        {
-          "w": "恒久[こうきゅう]的[てき]",
-          "vi": "lâu dài, vĩnh viễn"
-        }
-      ]
-    },
-    {
-      "id": "v:好調:こうちょう",
-      "kana": "こうちょう",
-      "kanji": "好調",
-      "hv": "HẢO ĐIỀU",
-      "vi": "phát đạt, đang tốt (kinh doanh, phong độ)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新商品[しんしょうひん]の売[う]れ行[ゆ]きは、好調[こうちょう]です。",
-          "vi": "Sản phẩm mới đang bán rất chạy.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "今[こん]シーズン、阪神[はんしん]タイガースは好調[こうちょう]だ。",
-          "vi": "Mùa này đội Hanshin Tigers đang có phong độ tốt.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：最近[さいきん]、体[からだ]の調子[ちょうし]はどう？ B：おかげさまで、絶好調[ぜっこうちょう]です！",
-          "vi": "A: Dạo này sức khỏe thế nào? B: Nhờ trời, đang sung sức nhất ạ!",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "売[う]れ行[ゆ]き",
-          "vi": "sức bán"
-        },
-        {
-          "jp": "景気[けいき]",
-          "vi": "kinh tế"
-        },
-        {
-          "jp": "体調[たいちょう]",
-          "vi": "sức khỏe"
-        }
-      ],
-      "ant": [
-        "v:不調:ふちょう"
-      ],
-      "rel": [
-        "v:順調:じゅんちょう"
-      ],
-      "note": "絶好調[ぜっこうちょう] = cực kỳ phong độ."
-    },
-    {
-      "id": "v:不調:ふちょう",
-      "kana": "ふちょう",
-      "kanji": "不調",
-      "hv": "BẤT ĐIỀU",
-      "vi": "không tốt, trục trặc (máy, cơ thể, kinh doanh)",
-      "pos": "adj-na",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "機械[きかい]の不調[ふちょう]で、ラインが一時間[いちじかん]止[と]まった。",
-          "vi": "Máy trục trặc nên dây chuyền dừng một tiếng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "最近[さいきん]、体[からだ]が不調[ふちょう]で、よく眠[ねむ]れない。",
-          "vi": "Dạo này người không khỏe, ngủ không ngon.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：今月[こんげつ]の売上[うりあげ]は？ B：不調[ふちょう]ですね。雨[あめ]の日[ひ]が多[おお]かったので。",
-          "vi": "A: Doanh thu tháng này thế nào? B: Không tốt ạ. Vì nhiều ngày mưa.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "機械[きかい]",
-          "vi": "máy"
-        },
-        {
-          "jp": "体[からだ]",
-          "vi": "cơ thể"
-        },
-        {
-          "jp": "売上[うりあげ]",
-          "vi": "doanh thu"
-        }
-      ],
-      "ant": [
-        "v:好調:こうちょう"
-      ],
-      "confuse": [
-        "v:故障:こしょう"
-      ],
-      "note": "不調[ふちょう] = chạy không tốt, kém đi; 故障[こしょう] = hỏng hẳn."
-    },
-    {
-      "id": "v:悪化:あっか",
-      "kana": "あっか",
-      "kanji": "悪化",
-      "hv": "ÁC HÓA",
-      "vi": "xấu đi, trở nặng",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "円安[えんやす]で、会社[かいしゃ]の業績[ぎょうせき]が悪化[あっか]した。",
-          "vi": "Do đồng yên yếu, kết quả kinh doanh công ty xấu đi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "無理[むり]をすると、けがが悪化[あっか]しますよ。",
-          "vi": "Cố quá thì vết thương sẽ nặng thêm đấy.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：天気[てんき]、どうなりそう？ B：午後[ごご]から悪化[あっか]するらしいです。",
-          "vi": "A: Thời tiết có vẻ thế nào? B: Nghe nói từ chiều sẽ xấu đi ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "景気[けいき]が悪化[あっか]する",
-          "vi": "kinh tế xấu đi"
-        },
-        {
-          "jp": "病状[びょうじょう]が悪化[あっか]する",
-          "vi": "bệnh trở nặng"
-        }
-      ],
-      "ant": [
-        "v:改善:かいぜん"
-      ]
-    },
-    {
-      "id": "v:変動:へんどう",
-      "kana": "へんどう",
-      "kanji": "変動",
-      "hv": "BIẾN ĐỘNG",
-      "vi": "biến động, dao động (giá, số liệu)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "魚[さかな]の値段[ねだん]は、季節[きせつ]によって大[おお]きく変動[へんどう]する。",
-          "vi": "Giá cá biến động mạnh theo mùa.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "為替[かわせ]の変動[へんどう]で、国[くに]に送[おく]る金額[きんがく]が変[か]わる。",
-          "vi": "Tỉ giá dao động nên số tiền gửi về nước thay đổi.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "価格[かかく]が変動[へんどう]する",
-          "vi": "giá cả biến động"
-        },
-        {
-          "jp": "大[おお]きく変動[へんどう]する",
-          "vi": "dao động mạnh"
-        }
-      ],
-      "rel": [
-        "v:変化:へんか"
-      ]
-    },
-    {
-      "id": "v:低迷:ていめい",
-      "kana": "ていめい",
-      "kanji": "低迷",
-      "hv": "ĐÊ MÊ",
-      "vi": "ì ạch, trì trệ (ở mức thấp)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "売上[うりあげ]が低迷[ていめい]しているので、新[あたら]しい商品[しょうひん]を考[かんが]えることになった。",
-          "vi": "Doanh thu ì ạch nên đã quyết định nghĩ sản phẩm mới.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "景気[けいき]の低迷[ていめい]が、長[なが]く続[つづ]いている。",
-          "vi": "Kinh tế trì trệ kéo dài đã lâu.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "売上[うりあげ]が低迷[ていめい]する",
-          "vi": "doanh thu ì ạch"
-        },
-        {
-          "jp": "景気[けいき]が低迷[ていめい]する",
-          "vi": "kinh tế trì trệ"
-        }
-      ]
-    },
-    {
-      "id": "v:伸び悩む:のびなやむ",
-      "kana": "のびなやむ",
-      "kanji": "伸び悩む",
-      "kf": "伸[の]び悩[なや]む",
-      "hv": "THÂN NÃO",
-      "vi": "chững lại, khó tăng thêm",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "今年[ことし]は、輸出[ゆしゅつ]が伸[の]び悩[なや]んでいる。",
-          "vi": "Năm nay xuất khẩu đang chững lại.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "日本語[にほんご]の点数[てんすう]が伸[の]び悩[なや]んで、少[すこ]し焦[あせ]っている。",
-          "vi": "Điểm tiếng Nhật mãi không lên nên tôi hơi sốt ruột.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：最近[さいきん]、売上[うりあげ]どう？ B：悪[わる]くはないんですが、伸[の]び悩[なや]んでいますね。",
-          "vi": "A: Dạo này doanh thu thế nào? B: Không tệ nhưng chẳng tăng thêm được ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "売上[うりあげ]が伸[の]び悩[なや]む",
-          "vi": "doanh thu chững lại"
-        },
-        {
-          "jp": "成績[せいせき]が伸[の]び悩[なや]む",
-          "vi": "kết quả dậm chân tại chỗ"
-        }
-      ],
-      "rel": [
-        "v:伸びる:のびる"
-      ]
-    },
-    {
-      "id": "v:急増:きゅうぞう",
-      "kana": "きゅうぞう",
-      "kanji": "急増",
-      "hv": "CẤP TĂNG",
-      "vi": "tăng nhanh đột ngột (số lượng)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "年末[ねんまつ]は、注文[ちゅうもん]が急増[きゅうぞう]する。",
-          "vi": "Cuối năm đơn hàng tăng nhanh đột ngột.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "外国人[がいこくじん]観光客[かんこうきゃく]が、急増[きゅうぞう]している。",
-          "vi": "Khách du lịch nước ngoài đang tăng nhanh.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "注文[ちゅうもん]が急増[きゅうぞう]する",
-          "vi": "đơn hàng tăng đột ngột"
-        },
-        {
-          "jp": "人口[じんこう]が急増[きゅうぞう]する",
-          "vi": "dân số tăng nhanh"
-        }
-      ],
-      "rel": [
-        "v:増加:ぞうか"
-      ]
-    },
-    {
-      "id": "v:上昇:じょうしょう",
-      "kana": "じょうしょう",
-      "kanji": "上昇",
-      "hv": "THƯỢNG THĂNG",
-      "vi": "sự tăng lên (văn viết: nhiệt độ, giá, tỉ lệ)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "気温[きおん]の上昇[じょうしょう]で、魚[さかな]が傷[いた]みやすくなる。",
-          "vi": "Nhiệt độ tăng làm cá dễ bị hỏng.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "物価[ぶっか]の上昇[じょうしょう]に、給料[きゅうりょう]が追[お]いつかない。",
-          "vi": "Lương không theo kịp đà tăng của vật giá.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "気温[きおん]が上昇[じょうしょう]する",
-          "vi": "nhiệt độ tăng"
-        },
-        {
-          "jp": "物価[ぶっか]が上昇[じょうしょう]する",
-          "vi": "vật giá tăng"
-        }
-      ],
-      "ant": [
-        "v:低下:ていか"
-      ],
-      "rel": [
-        "v:上がる:あがる"
-      ]
-    },
-    {
-      "id": "v:低下:ていか",
-      "kana": "ていか",
-      "kanji": "低下",
-      "hv": "ĐÊ HẠ",
-      "vi": "giảm sút, đi xuống (mức độ, chất lượng)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "疲[つか]れがたまると、集中力[しゅうちゅうりょく]が低下[ていか]する。",
-          "vi": "Mệt mỏi tích lại thì khả năng tập trung giảm sút.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "温度[おんど]の管理[かんり]が悪[わる]いと、品質[ひんしつ]が低下[ていか]する。",
-          "vi": "Quản lý nhiệt độ kém thì chất lượng giảm sút.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "年[とし]をとると、体力[たいりょく]が低下[ていか]する。",
-          "vi": "Có tuổi thì thể lực đi xuống.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "品質[ひんしつ]が低下[ていか]する",
-          "vi": "chất lượng giảm sút"
-        },
-        {
-          "jp": "体力[たいりょく]が低下[ていか]する",
-          "vi": "thể lực giảm"
-        }
-      ],
-      "ant": [
-        "v:上昇:じょうしょう"
-      ]
-    },
-    {
-      "id": "v:転じる:てんじる",
-      "kana": "てんじる",
-      "kanji": "転じる",
-      "kf": "転[てん]じる",
-      "hv": "CHUYỂN",
-      "vi": "chuyển sang (trạng thái khác)",
-      "pos": "v1",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "三年[さんねん]ぶりに、会社[かいしゃ]は黒字[くろじ]に転[てん]じた。",
-          "vi": "Sau ba năm, công ty đã chuyển sang có lãi.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "雨[あめ]は夕方[ゆうがた]から雪[ゆき]に転[てん]じるでしょう。",
-          "vi": "Mưa có lẽ sẽ chuyển sang tuyết từ chiều tối.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：町[まち]の人口[じんこう]、まだ減[へ]ってるの？ B：いえ、去年[きょねん]から増加[ぞうか]に転[てん]じたそうです。",
-          "vi": "A: Dân số thị trấn vẫn đang giảm à? B: Không, nghe nói từ năm ngoái đã chuyển sang tăng rồi ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "黒字[くろじ]に転[てん]じる",
-          "vi": "chuyển sang có lãi"
-        },
-        {
-          "jp": "増加[ぞうか]に転[てん]じる",
-          "vi": "chuyển sang tăng"
-        }
-      ],
-      "note": "Văn viết, tin tức. Cũng nói 転[てん]ずる."
-    },
-    {
-      "id": "v:持ち直す:もちなおす",
-      "kana": "もちなおす",
-      "kanji": "持ち直す",
-      "kf": "持[も]ち直[なお]す",
-      "hv": "TRÌ TRỰC",
-      "vi": "khá lên lại, hồi lại (sau khi xấu đi)",
-      "pos": "v5",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "秋[あき]になって、売上[うりあげ]が持[も]ち直[なお]してきた。",
-          "vi": "Sang thu, doanh thu đã khá lên lại.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "一時[いちじ]は危[あぶ]なかった祖父[そふ]の容態[ようたい]が、持[も]ち直[なお]した。",
-          "vi": "Tình trạng của ông, có lúc nguy kịch, đã hồi lại.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：天気[てんき]、持[も]ち直[なお]しそう？ B：午後[ごご]には晴[は]れるみたいですよ。",
-          "vi": "A: Thời tiết có vẻ khá lên không? B: Hình như chiều sẽ nắng ạ.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "景気[けいき]が持[も]ち直[なお]す",
-          "vi": "kinh tế khá lên"
-        },
-        {
-          "jp": "天気[てんき]が持[も]ち直[なお]す",
-          "vi": "thời tiết khá lên"
-        }
-      ],
-      "rel": [
-        "v:回復:かいふく"
-      ],
-      "note": "Nghĩa gốc: cầm lại, đổi tay cầm (箸[はし]を持[も]ち直[なお]す)."
-    },
-    {
-      "id": "v:高騰:こうとう",
-      "kana": "こうとう",
-      "kanji": "高騰",
-      "hv": "CAO ĐẰNG",
-      "vi": "(giá) tăng vọt",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "燃料費[ねんりょうひ]の高騰[こうとう]で、漁[りょう]に出[で]られない船[ふね]もある。",
-          "vi": "Vì tiền nhiên liệu tăng vọt, có tàu không ra khơi được.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "野菜[やさい]の値段[ねだん]が高騰[こうとう]して、家計[かけい]が苦[くる]しい。",
-          "vi": "Giá rau tăng vọt, chi tiêu gia đình chật vật.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "価格[かかく]が高騰[こうとう]する",
-          "vi": "giá tăng vọt"
-        },
-        {
-          "jp": "燃料費[ねんりょうひ]が高騰[こうとう]する",
-          "vi": "tiền nhiên liệu tăng vọt"
-        }
-      ],
-      "rel": [
-        "v:上昇:じょうしょう"
-      ]
-    },
-    {
-      "id": "v:円安:えんやす",
-      "kana": "えんやす",
-      "kanji": "円安",
-      "hv": "VIÊN AN",
-      "vi": "đồng yên yếu (mất giá)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "円安[えんやす]で、国[くに]に送[おく]るお金[かね]が減[へ]ってしまった。",
-          "vi": "Vì đồng yên yếu, số tiền gửi về nước bị hụt đi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "円安[えんやす]の影響[えいきょう]で、輸入[ゆにゅう]の魚[さかな]が高[たか]くなった。",
-          "vi": "Do ảnh hưởng đồng yên yếu, cá nhập khẩu đắt lên.",
-          "ctx": "xuong"
-        }
-      ],
-      "ant": [
-        {
-          "w": "円高[えんだか]",
-          "vi": "đồng yên mạnh (lên giá)"
-        }
-      ]
-    },
-    {
-      "id": "v:様変わり:さまがわり",
-      "kana": "さまがわり",
-      "kanji": "様変わり",
-      "kf": "様変[さまが]わり",
-      "hv": "DẠNG BIẾN",
-      "vi": "thay đổi hẳn diện mạo",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "十年[じゅうねん]ぶりに来[き]たら、駅前[えきまえ]がすっかり様変[さまが]わりしていた。",
-          "vi": "Mười năm mới quay lại, khu trước ga đã thay đổi hoàn toàn.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "スマホの普及[ふきゅう]で、買[か]い物[もの]の仕方[しかた]が様変[さまが]わりした。",
-          "vi": "Nhờ điện thoại thông minh phổ biến, cách mua sắm đã thay đổi hẳn.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "町[まち]が様変[さまが]わりする",
-          "vi": "thị trấn thay đổi hẳn"
-        },
-        {
-          "jp": "すっかり様変[さまが]わりする",
-          "vi": "thay đổi hoàn toàn"
-        }
-      ]
-    },
-    {
-      "id": "v:移り変わり:うつりかわり",
-      "kana": "うつりかわり",
-      "kanji": "移り変わり",
-      "kf": "移[うつ]り変[か]わり",
-      "hv": "DI BIẾN",
-      "vi": "sự đổi thay (theo thời gian, mùa)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Biến động",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "日本[にほん]では、季節[きせつ]の移[うつ]り変[か]わりがはっきりしている。",
-          "vi": "Ở Nhật, sự chuyển mùa rất rõ rệt.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "時代[じだい]の移[うつ]り変[か]わりとともに、仕事[しごと]のやり方[かた]も変[か]わる。",
-          "vi": "Cùng với sự đổi thay của thời đại, cách làm việc cũng thay đổi.",
-          "ctx": "xuong"
-        }
-      ],
-      "note": "Động từ: 移[うつ]り変[か]わる = đổi thay dần."
-    },
-    {
-      "id": "v:事業:じぎょう",
-      "kana": "じぎょう",
-      "kanji": "事業",
-      "hv": "SỰ NGHIỆP",
-      "vi": "công việc kinh doanh, dự án (quy mô lớn)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kinh doanh",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "会社[かいしゃ]は、冷凍食品[れいとうしょくひん]の新[あたら]しい事業[じぎょう]を始[はじ]めた。",
-          "vi": "Công ty đã bắt đầu mảng kinh doanh thực phẩm đông lạnh mới.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "市[し]の事業[じぎょう]で、公園[こうえん]が新[あたら]しくなった。",
-          "vi": "Nhờ dự án của thành phố, công viên được làm mới.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "事業主[じぎょうぬし] = chủ cơ sở kinh doanh; 個人事業[こじんじぎょう] = kinh doanh cá thể."
-    },
-    {
-      "id": "v:新規:しんき",
-      "kana": "しんき",
-      "kanji": "新規",
-      "hv": "TÂN QUY",
-      "vi": "mở mới (khách, hợp đồng, đăng ký)",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kinh doanh",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新規[しんき]のお客様[きゃくさま]には、割引[わりびき]があります。",
-          "vi": "Khách mới có giảm giá.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "銀行[ぎんこう]の口座[こうざ]を新規[しんき]で作[つく]るには、在留[ざいりゅう]カードが必要[ひつよう]です。",
-          "vi": "Để mở mới tài khoản ngân hàng cần thẻ cư trú.",
-          "ctx": "thutuc"
-        }
-      ],
-      "note": "新規登録[しんきとうろく] = đăng ký mới; 新規事業[しんきじぎょう] = mảng kinh doanh mới; 新規採用[しんきさいよう] = tuyển mới."
-    },
-    {
-      "id": "v:撤退:てったい",
-      "kana": "てったい",
-      "kanji": "撤退",
-      "hv": "TRIỆT THOÁI",
-      "vi": "rút khỏi (thị trường, nơi đang hoạt động)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kinh doanh",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "売上[うりあげ]が伸[の]びず、その会社[かいしゃ]は日本[にほん]から撤退[てったい]した。",
-          "vi": "Doanh thu không tăng, công ty đó đã rút khỏi Nhật.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "近[ちか]くのスーパーが撤退[てったい]して、買[か]い物[もの]が不便[ふべん]になった。",
-          "vi": "Siêu thị gần nhà rút đi nên mua sắm bất tiện.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "市場[しじょう]から撤退[てったい]する",
-          "vi": "rút khỏi thị trường"
-        },
-        {
-          "jp": "事業[じぎょう]から撤退[てったい]する",
-          "vi": "rút khỏi mảng kinh doanh"
-        }
-      ]
-    },
-    {
-      "id": "v:導入:どうにゅう",
-      "kana": "どうにゅう",
-      "kanji": "導入",
-      "hv": "ĐẠO NHẬP",
-      "vi": "đưa vào sử dụng (máy, chế độ mới)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kinh doanh",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "新[あたら]しい機械[きかい]を導入[どうにゅう]して、作業[さぎょう]が楽[らく]になった。",
-          "vi": "Đưa máy mới vào dùng nên công việc nhẹ hơn.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "この会社[かいしゃ]は、フレックスタイム制[せい]を導入[どうにゅう]している。",
-          "vi": "Công ty này áp dụng chế độ giờ làm linh hoạt.",
-          "ctx": "thutuc"
-        },
-        {
-          "jp": "A：来月[らいげつ]から、新[あたら]しいシステムを導入[どうにゅう]します。 B：使[つか]い方[かた]の説明会[せつめいかい]はありますか。",
-          "vi": "A: Từ tháng sau sẽ đưa hệ thống mới vào sử dụng. B: Có buổi hướng dẫn cách dùng không ạ?",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "機械[きかい]を導入[どうにゅう]する",
-          "vi": "đưa máy vào dùng"
-        },
-        {
-          "jp": "制度[せいど]を導入[どうにゅう]する",
-          "vi": "áp dụng chế độ"
-        }
-      ]
-    },
-    {
-      "id": "v:普及:ふきゅう",
-      "kana": "ふきゅう",
-      "kanji": "普及",
-      "hv": "PHỔ CẬP",
-      "vi": "phổ cập, trở nên phổ biến",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kinh doanh",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "キャッシュレス決済[けっさい]が、日本[にほん]でも普及[ふきゅう]してきた。",
-          "vi": "Thanh toán không dùng tiền mặt đã trở nên phổ biến cả ở Nhật.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "インターネットの普及[ふきゅう]で、働[はたら]き方[かた]が変[か]わった。",
-          "vi": "Internet phổ cập làm cách làm việc thay đổi.",
-          "ctx": "xuong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "スマホが普及[ふきゅう]する",
-          "vi": "điện thoại thông minh phổ biến"
-        },
-        {
-          "jp": "広[ひろ]く普及[ふきゅう]する",
-          "vi": "phổ cập rộng rãi"
-        }
-      ],
-      "note": "普及率[ふきゅうりつ] = tỉ lệ phổ cập."
-    },
-    {
-      "id": "v:進展:しんてん",
-      "kana": "しんてん",
-      "kanji": "進展",
-      "hv": "TIẾN TRIỂN",
-      "vi": "tiến triển, có bước tiến (sự việc, đàm phán)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kinh doanh",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "給料[きゅうりょう]の交渉[こうしょう]に、少[すこ]し進展[しんてん]があった。",
-          "vi": "Cuộc thương lượng lương đã có chút bước tiến.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "事件[じけん]の捜査[そうさ]は、まだ進展[しんてん]していない。",
-          "vi": "Cuộc điều tra vụ án vẫn chưa có tiến triển.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "話[はな]し合[あ]いが進展[しんてん]する",
-          "vi": "cuộc bàn bạc có tiến triển"
-        },
-        {
-          "jp": "調査[ちょうさ]が進展[しんてん]する",
-          "vi": "cuộc điều tra có tiến triển"
-        }
-      ],
-      "rel": [
-        "v:進む:すすむ"
-      ]
-    },
-    {
-      "id": "v:縮小:しゅくしょう",
-      "kana": "しゅくしょう",
-      "kanji": "縮小",
-      "hv": "SÚC TIỂU",
-      "vi": "thu hẹp (quy mô); thu nhỏ (bản sao)",
-      "pos": "n-suru",
-      "level": "N2",
-      "vt": "tha",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kinh doanh",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "不景気[ふけいき]で、工場[こうじょう]は生産[せいさん]を縮小[しゅくしょう]した。",
-          "vi": "Kinh tế khó khăn nên nhà máy thu hẹp sản xuất.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A3の資料[しりょう]を、A4に縮小[しゅくしょう]してコピーした。",
-          "vi": "Tôi thu nhỏ tài liệu khổ A3 xuống A4 rồi photo.",
-          "ctx": "doisong"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "規模[きぼ]を縮小[しゅくしょう]する",
-          "vi": "thu hẹp quy mô"
-        },
-        {
-          "jp": "事業[じぎょう]を縮小[しゅくしょう]する",
-          "vi": "thu hẹp kinh doanh"
-        }
-      ],
-      "ant": [
-        "v:拡大:かくだい"
-      ]
-    },
-    {
-      "id": "v:伴う:ともなう",
-      "kana": "ともなう",
-      "kanji": "伴う",
-      "kf": "伴[ともな]う",
-      "hv": "BẠN",
-      "vi": "kèm theo, đi cùng với",
-      "pos": "v5",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Kinh doanh",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "人口[じんこう]の減少[げんしょう]に伴[ともな]って、商店街[しょうてんがい]の店[みせ]も減[へ]っている。",
-          "vi": "Cùng với dân số giảm, cửa hàng ở khu mua sắm cũng ít đi.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "この作業[さぎょう]は危険[きけん]を伴[ともな]うので、必[かなら]ず保護[ほご]具[ぐ]をつけてください。",
-          "vi": "Công việc này kèm theo nguy hiểm nên nhất định phải đeo đồ bảo hộ.",
-          "ctx": "xuong"
-        },
-        {
-          "jp": "A：引[ひ]っ越[こ]しに伴[ともな]う手続[てつづ]きって、何[なに]がありますか。 B：まず、市役所[しやくしょ]で住所[じゅうしょ]の変更[へんこう]をしてください。",
-          "vi": "A: Chuyển nhà thì đi kèm những thủ tục gì ạ? B: Trước hết anh làm thay đổi địa chỉ ở tòa thị chính.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "危険[きけん]を伴[ともな]う",
-          "vi": "kèm theo nguy hiểm"
-        },
-        {
-          "jp": "痛[いた]みを伴[ともな]う",
-          "vi": "có kèm đau"
-        }
-      ],
-      "note": "〜に伴[ともな]って = cùng với … (thay đổi kéo theo); 〜に伴[ともな]う〜 = … đi kèm với …."
-    },
-    {
-      "id": "v:懐かしい:なつかしい",
-      "kana": "なつかしい",
-      "kanji": "懐かしい",
-      "kf": "懐[なつ]かしい",
-      "hv": "HOÀI",
-      "vi": "thân thương, gợi nhớ ngày xưa",
-      "pos": "adj-i",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Ký ức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この歌[うた]を聞[き]くと、国[くに]が懐[なつ]かしくなる。",
-          "vi": "Nghe bài hát này là tôi nhớ quê.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "昔[むかし]の写真[しゃしん]を見[み]て、懐[なつ]かしい気持[きも]ちになった。",
-          "vi": "Xem ảnh ngày xưa, lòng thấy bồi hồi nhớ lại.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：これ、ベトナムのお菓子[かし]だよ。 B：わあ、懐[なつ]かしい！子供[こども]のころ、よく食[た]べました。",
-          "vi": "A: Cái này là bánh kẹo Việt Nam đấy. B: Ôi, nhớ quá! Hồi nhỏ tôi hay ăn lắm.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "subj": [
-        {
-          "jp": "写真[しゃしん]",
-          "vi": "ảnh"
-        },
-        {
-          "jp": "歌[うた]",
-          "vi": "bài hát"
-        },
-        {
-          "jp": "味[あじ]",
-          "vi": "hương vị"
-        }
-      ],
-      "rel": [
-        "v:思い出:おもいで"
-      ],
-      "note": "懐[なつ]かしむ = hoài niệm (động từ)."
-    },
-    {
-      "id": "v:かつて:かつて",
-      "kana": "かつて",
-      "kanji": "",
-      "hv": "",
-      "vi": "đã từng (một thời, văn viết)",
-      "pos": "adv",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Ký ức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この町[まち]は、かつて漁業[ぎょぎょう]で栄[さか]えていた。",
-          "vi": "Thị trấn này một thời từng phồn thịnh nhờ nghề cá.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "今年[ことし]は、かつてない大雨[おおあめ]で川[かわ]があふれた。",
-          "vi": "Năm nay mưa lớn chưa từng có làm sông tràn bờ.",
-          "ctx": "doisong"
-        }
-      ],
-      "rel": [
-        "v:以前:いぜん"
-      ],
-      "note": "かつてない = chưa từng có. Chữ Hán: 嘗[かつ]て (ít dùng)."
-    },
-    {
-      "id": "v:面影:おもかげ",
-      "kana": "おもかげ",
-      "kanji": "面影",
-      "hv": "DIỆN ẢNH",
-      "vi": "hình bóng xưa, nét gợi nhớ",
-      "pos": "n",
-      "level": "N2",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Ký ức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "この町[まち]には、昔[むかし]の面影[おもかげ]が残[のこ]っている。",
-          "vi": "Thị trấn này vẫn còn giữ hình bóng ngày xưa.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "息子[むすこ]の顔[かお]には、亡[な]くなった父[ちち]の面影[おもかげ]がある。",
-          "vi": "Gương mặt con trai tôi có nét của người bố đã khuất.",
-          "ctx": "doisong"
-        }
-      ],
-      "note": "面影[おもかげ]が残[のこ]る = còn lưu dấu vết xưa."
-    },
-    {
-      "id": "v:よみがえる:よみがえる",
-      "kana": "よみがえる",
-      "kanji": "",
-      "hv": "",
-      "vi": "sống lại, hồi sinh; (ký ức) ùa về",
-      "pos": "v5",
-      "level": "N2",
-      "vt": "tu",
-      "topics": [
-        "jlpt"
-      ],
-      "sub": "Ký ức",
-      "reg": "thuong",
-      "ex": [
-        {
-          "jp": "古[ふる]い写真[しゃしん]を見[み]て、子供[こども]のころの記憶[きおく]がよみがえった。",
-          "vi": "Xem ảnh cũ, ký ức tuổi thơ ùa về.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "震災[しんさい]から二十年[にじゅうねん]、町[まち]はすっかりよみがえった。",
-          "vi": "Hai mươi năm sau thảm họa động đất, thị trấn đã hoàn toàn hồi sinh.",
-          "ctx": "doisong"
-        },
-        {
-          "jp": "A：この匂[にお]い、懐[なつ]かしいね。 B：うん、田舎[いなか]の夏[なつ]の思[おも]い出[で]がよみがえるよ。",
-          "vi": "A: Mùi này gợi nhớ quá nhỉ. B: Ừ, kỷ niệm mùa hè ở quê ùa về.",
-          "ctx": "hoithoai"
-        }
-      ],
-      "coll": [
-        {
-          "jp": "記憶[きおく]がよみがえる",
-          "vi": "ký ức ùa về"
-        },
-        {
-          "jp": "町[まち]がよみがえる",
-          "vi": "thị trấn hồi sinh"
-        }
-      ],
-      "note": "Chữ Hán: 蘇[よみがえ]る."
+     "jp": "コンビニは、夏[なつ]になると飲[の]み物[もの]の売上[うりあげ]が伸[の]びる。",
+     "vi": "Cửa hàng tiện lợi cứ vào hè là doanh thu đồ uống tăng.",
+     "ctx": "doisong"
     }
-  ]
+   ],
+   "confuse": [
+    "v:利益:りえき"
+   ],
+   "note": "Cũng viết 売[う]り上[あ]げ. 売上[うりあげ] = tổng tiền bán được; 利益[りえき] = phần lãi còn lại sau khi trừ chi phí. 売上高[うりあげだか] = doanh số."
+  },
+  {
+   "id": "v:収益:しゅうえき",
+   "kana": "しゅうえき",
+   "kanji": "収益",
+   "hv": "THU ÍCH",
+   "vi": "khoản thu lãi (từ hoạt động kinh doanh)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい商品[しょうひん]のおかげで、会社[かいしゃ]の収益[しゅうえき]が増[ふ]えた。",
+     "vi": "Nhờ sản phẩm mới mà khoản thu lãi của công ty tăng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "お祭[まつ]りの収益[しゅうえき]は、全部[ぜんぶ]町[まち]に寄付[きふ]されます。",
+     "vi": "Toàn bộ tiền thu được từ lễ hội sẽ được quyên góp cho thị trấn.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:利益:りえき"
+   ],
+   "note": "収益性[しゅうえきせい] = khả năng sinh lời."
+  },
+  {
+   "id": "v:赤字:あかじ",
+   "kana": "あかじ",
+   "kanji": "赤字",
+   "hv": "XÍCH TỰ",
+   "vi": "thâm hụt, làm ăn lỗ (chi nhiều hơn thu)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今月[こんげつ]は出費[しゅっぴ]が多[おお]くて、家計[かけい]が赤字[あかじ]だ。",
+     "vi": "Tháng này chi nhiều quá, sổ chi tiêu gia đình bị âm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "あの工場[こうじょう]は、三年[さんねん]続[つづ]けて赤字[あかじ]になっている。",
+     "vi": "Nhà máy đó đã lỗ ba năm liền.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:黒字:くろじ"
+   ],
+   "note": "赤字[あかじ]になる / 赤字[あかじ]を出[だ]す = bị lỗ. Nghĩa gốc: chữ màu đỏ (sổ sách ghi số âm bằng mực đỏ)."
+  },
+  {
+   "id": "v:黒字:くろじ",
+   "kana": "くろじ",
+   "kanji": "黒字",
+   "hv": "HẮC TỰ",
+   "vi": "có lãi, thặng dư (thu nhiều hơn chi)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい商品[しょうひん]が売[う]れて、会社[かいしゃ]は黒字[くろじ]になった。",
+     "vi": "Sản phẩm mới bán chạy nên công ty đã có lãi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今月[こんげつ]は節約[せつやく]したので、家計[かけい]は黒字[くろじ]だ。",
+     "vi": "Tháng này tiết kiệm nên chi tiêu gia đình còn dư.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:赤字:あかじ"
+   ],
+   "note": "黒字化[くろじか] = chuyển sang có lãi."
+  },
+  {
+   "id": "v:損失:そんしつ",
+   "kana": "そんしつ",
+   "kanji": "損失",
+   "hv": "TỔN THẤT",
+   "vi": "tổn thất (tiền, của cải)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "停電[ていでん]で冷凍庫[れいとうこ]が止[と]まり、大[おお]きな損失[そんしつ]が出[で]た。",
+     "vi": "Mất điện làm tủ đông ngừng chạy, gây tổn thất lớn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "台風[たいふう]による農業[のうぎょう]の損失[そんしつ]は、数[すう]億[おく]円[えん]にのぼった。",
+     "vi": "Tổn thất nông nghiệp do bão lên tới vài trăm triệu yên.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:損:そん"
+   ],
+   "note": "損失[そんしつ]が出[で]る / 損失[そんしつ]を出[だ]す = bị tổn thất."
+  },
+  {
+   "id": "v:増収:ぞうしゅう",
+   "kana": "ぞうしゅう",
+   "kanji": "増収",
+   "hv": "TĂNG THU",
+   "vi": "tăng thu (doanh thu, thu nhập tăng)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今年[ことし]は円安[えんやす]の影響[えいきょう]で、増収[ぞうしゅう]になった。",
+     "vi": "Năm nay do ảnh hưởng đồng yên yếu nên doanh thu tăng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "増収[ぞうしゅう]でも、経費[けいひ]が増[ふ]えれば利益[りえき]は減[へ]る。",
+     "vi": "Dù doanh thu tăng, nếu chi phí tăng thì lãi vẫn giảm.",
+     "ctx": "doisong"
+    }
+   ],
+   "ant": [
+    "v:減収:げんしゅう"
+   ],
+   "note": "増収増益[ぞうしゅうぞうえき] = tăng doanh thu, tăng lãi."
+  },
+  {
+   "id": "v:減収:げんしゅう",
+   "kana": "げんしゅう",
+   "kanji": "減収",
+   "hv": "GIẢM THU",
+   "vi": "giảm thu (doanh thu, thu nhập giảm)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不漁[ふりょう]が続[つづ]いて、漁師[りょうし]の多[おお]くが減収[げんしゅう]になった。",
+     "vi": "Mất mùa cá kéo dài nên nhiều ngư dân bị giảm thu nhập.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "残業[ざんぎょう]がなくなって、月[つき]に二万円[にまんえん]ほど減収[げんしゅう]になった。",
+     "vi": "Không còn tăng ca, thu nhập mỗi tháng giảm khoảng hai vạn yên.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    "v:増収:ぞうしゅう"
+   ]
+  },
+  {
+   "id": "v:経費:けいひ",
+   "kana": "けいひ",
+   "kanji": "経費",
+   "hv": "KINH PHÍ",
+   "vi": "kinh phí, chi phí hoạt động (kinh doanh)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "電気代[でんきだい]が上[あ]がって、工場[こうじょう]の経費[けいひ]が増[ふ]えた。",
+     "vi": "Tiền điện tăng nên chi phí hoạt động của nhà máy tăng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "出張[しゅっちょう]の交通費[こうつうひ]は、経費[けいひ]で落[お]とせます。",
+     "vi": "Tiền tàu xe đi công tác được tính vào chi phí công ty.",
+     "ctx": "thutuc"
+    }
+   ],
+   "rel": [
+    "v:費用:ひよう"
+   ],
+   "note": "経費[けいひ]で落[お]とす = tính vào chi phí công ty; 経費削減[けいひさくげん] = cắt giảm chi phí."
+  },
+  {
+   "id": "v:採算:さいさん",
+   "kana": "さいさん",
+   "kanji": "採算",
+   "hv": "THẢI TOÁN",
+   "vi": "sự tính lời lỗ; khả năng có lãi",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この値段[ねだん]では、とても採算[さいさん]が取[と]れない。",
+     "vi": "Với giá này thì không thể nào có lãi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "採算[さいさん]が合[あ]わない店[みせ]は、閉[し]めることになった。",
+     "vi": "Các cửa hàng làm ăn không có lãi sẽ bị đóng cửa.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "採算[さいさん]が取[と]れる / 合[あ]う = có lãi, bù được chi phí; 不採算[ふさいさん] = làm ăn không có lãi."
+  },
+  {
+   "id": "v:売れ行き:うれゆき",
+   "kana": "うれゆき",
+   "kanji": "売れ行き",
+   "kf": "売[う]れ行[ゆ]き",
+   "hv": "MẠI HÀNH",
+   "vi": "tình hình bán ra, sức bán",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい商品[しょうひん]の売[う]れ行[ゆ]きは、好調[こうちょう]です。",
+     "vi": "Sức bán của sản phẩm mới đang rất tốt.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "暑[あつ]い日[ひ]は、アイスの売[う]れ行[ゆ]きがいい。",
+     "vi": "Ngày nóng thì kem bán chạy.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:売れる:うれる"
+   ],
+   "note": "売[う]れ行[ゆ]きがいい / 悪[わる]い = bán chạy / ế."
+  },
+  {
+   "id": "v:客足:きゃくあし",
+   "kana": "きゃくあし",
+   "kanji": "客足",
+   "hv": "KHÁCH TÚC",
+   "vi": "lượng khách ghé (cửa hàng)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "雨[あめ]の日[ひ]は、店[みせ]の客足[きゃくあし]が落[お]ちる。",
+     "vi": "Ngày mưa khách đến quán ít đi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "近[ちか]くに大型[おおがた]店[てん]ができて、商店街[しょうてんがい]の客足[きゃくあし]が遠[とお]のいた。",
+     "vi": "Gần đó mở cửa hàng lớn nên khu phố mua sắm vắng khách dần.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "客足[きゃくあし]が遠[とお]のく = khách thưa dần; 客足[きゃくあし]が戻[もど]る = khách quay lại."
+  },
+  {
+   "id": "v:単価:たんか",
+   "kana": "たんか",
+   "kanji": "単価",
+   "hv": "ĐƠN GIÁ",
+   "vi": "đơn giá",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "サーモンの単価[たんか]が、去年[きょねん]より上[あ]がった。",
+     "vi": "Đơn giá cá hồi đã tăng so với năm ngoái.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "客単価[きゃくたんか]を上[あ]げるために、セットメニューを作[つく]った。",
+     "vi": "Để tăng số tiền mỗi khách chi, quán làm thực đơn combo.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "客単価[きゃくたんか] = số tiền trung bình một khách chi; 時間単価[じかんたんか] = đơn giá theo giờ."
+  },
+  {
+   "id": "v:儲かる:もうかる",
+   "kana": "もうかる",
+   "kanji": "儲かる",
+   "kf": "儲[もう]かる",
+   "hv": "TRỮ",
+   "vi": "có lời, kiếm được (tiền)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "夏[なつ]は、かき氷[ごおり]の店[みせ]がよく儲[もう]かる。",
+     "vi": "Mùa hè quán đá bào làm ăn có lời.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "楽[らく]をして儲[もう]かる仕事[しごと]なんて、ない。",
+     "vi": "Chẳng có việc nào nhàn mà kiếm được tiền đâu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：お兄[にい]さんの店[みせ]、どう？ B：おかげさまで、少[すこ]しは儲[もう]かっているみたいです。",
+     "vi": "A: Quán của anh trai cậu thế nào? B: Nhờ trời, hình như cũng có lời chút ít ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "商売[しょうばい]が儲[もう]かる",
+     "vi": "buôn bán có lời"
+    },
+    {
+     "jp": "お金[かね]が儲[もう]かる",
+     "vi": "kiếm được tiền"
+    }
+   ],
+   "rel": [
+    "v:稼ぐ:かせぐ"
+   ],
+   "pair": {
+    "w": "儲[もう]ける",
+    "vi": "kiếm lời (tha động từ)"
+   },
+   "note": "儲[もう]け = tiền lời. Ở Osaka có câu chào vui: 「儲[もう]かりまっか」「ぼちぼちでんな」 (Làm ăn thế nào? – Cũng tàm tạm)."
+  },
+  {
+   "id": "v:業績:ぎょうせき",
+   "kana": "ぎょうせき",
+   "kanji": "業績",
+   "hv": "NGHIỆP TÍCH",
+   "vi": "kết quả kinh doanh (của công ty)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Doanh thu",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]の業績[ぎょうせき]が良[よ]くて、ボーナスが増[ふ]えた。",
+     "vi": "Kết quả kinh doanh của công ty tốt nên tiền thưởng tăng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "業績[ぎょうせき]が悪化[あっか]して、工場[こうじょう]の一部[いちぶ]が閉鎖[へいさ]された。",
+     "vi": "Kết quả kinh doanh xấu đi nên một phần nhà máy bị đóng cửa.",
+     "ctx": "doisong"
+    }
+   ],
+   "confuse": [
+    "v:実績:じっせき"
+   ],
+   "note": "業績[ぎょうせき]が伸[の]びる / 悪化[あっか]する. Còn nghĩa: thành tựu nghiên cứu (của học giả)."
+  },
+  {
+   "id": "v:予想外:よそうがい",
+   "kana": "よそうがい",
+   "kanji": "予想外",
+   "hv": "DỰ TƯỞNG NGOẠI",
+   "vi": "không lường trước được, nằm ngoài dự đoán",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dự đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "予想外[よそうがい]の大雪[おおゆき]で、出荷[しゅっか]が遅[おく]れた。",
+     "vi": "Tuyết rơi dày ngoài dự tính nên việc xuất hàng bị chậm.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "試験[しけん]の結果[けっか]は、予想外[よそうがい]によかった。",
+     "vi": "Kết quả thi tốt ngoài dự tính.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：売上[うりあげ]、どうだった？ B：それが、予想外[よそうがい]に伸[の]びたんです。",
+     "vi": "A: Doanh thu thế nào? B: Chuyện là tăng vượt cả dự tính ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "結果[けっか]",
+     "vi": "kết quả"
+    },
+    {
+     "jp": "出来事[できごと]",
+     "vi": "sự việc"
+    }
+   ],
+   "confuse": [
+    "v:意外:いがい"
+   ],
+   "rel": [
+    "v:予想:よそう"
+   ],
+   "note": "予想外[よそうがい] = nằm ngoài những gì đã tính trước; 意外[いがい] = bất ngờ, khác với mình nghĩ."
+  },
+  {
+   "id": "v:期待外れ:きたいはずれ",
+   "kana": "きたいはずれ",
+   "kanji": "期待外れ",
+   "kf": "期待外[きたいはず]れ",
+   "hv": "KỲ ĐÃI NGOẠI",
+   "vi": "không như kỳ vọng, đáng thất vọng",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dự đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "楽[たの]しみにしていた映画[えいが]は、期待[きたい]外[はず]れだった。",
+     "vi": "Bộ phim tôi mong chờ hóa ra không như kỳ vọng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい機械[きかい]は期待[きたい]外[はず]れで、作業[さぎょう]はあまり速[はや]くならなかった。",
+     "vi": "Máy mới không như kỳ vọng, công việc chẳng nhanh hơn mấy.",
+     "ctx": "xuong"
+    }
+   ],
+   "rel": [
+    "v:期待:きたい"
+   ],
+   "note": "期待外[きたいはず]れの結果[けっか] = kết quả đáng thất vọng."
+  },
+  {
+   "id": "v:見込み:みこみ",
+   "kana": "みこみ",
+   "kanji": "見込み",
+   "kf": "見込[みこ]み",
+   "hv": "KIẾN NHẬP",
+   "vi": "dự kiến, khả năng (sẽ xảy ra); triển vọng (của người)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dự đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "工事[こうじ]は、来月[らいげつ]終[お]わる見込[みこ]みです。",
+     "vi": "Công trình dự kiến xong vào tháng sau.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今年[ことし]の売上[うりあげ]は、前年[ぜんねん]より一割[いちわり]増[ふ]える見込[みこ]みだ。",
+     "vi": "Doanh thu năm nay dự kiến tăng một phần mười so với năm trước.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：新人[しんじん]のグエンさん、どう？ B：まじめだし、見込[みこ]みがありますよ。",
+     "vi": "A: Người mới, anh Nguyễn ấy, thế nào? B: Chăm chỉ lắm, có triển vọng đấy ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "rel": [
+    "v:見込む:みこむ"
+   ],
+   "flag": true,
+   "note": "〜見込[みこ]みだ = dự kiến …; 見込[みこ]みがある / ない = có / không có triển vọng. Âm Hán Việt của chữ thứ 2 (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:見込む:みこむ",
+   "kana": "みこむ",
+   "kanji": "見込む",
+   "kf": "見込[みこ]む",
+   "hv": "KIẾN NHẬP",
+   "vi": "tính trước (vào kế hoạch); tin tưởng vào (năng lực ai)",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dự đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "渋滞[じゅうたい]を見込[みこ]んで、早[はや]めに家[いえ]を出[で]た。",
+     "vi": "Tính trước cả chuyện tắc đường nên tôi ra khỏi nhà sớm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "年末[ねんまつ]は、いつもの二倍[にばい]の注文[ちゅうもん]を見込[みこ]んでいる。",
+     "vi": "Cuối năm dự tính đơn hàng gấp đôi mọi khi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：どうして私[わたし]に頼[たの]むんですか。 B：君[きみ]の腕[うで]を見込[みこ]んで頼[たの]んでいるんだよ。",
+     "vi": "A: Sao anh lại nhờ tôi ạ? B: Vì tin vào tay nghề của cậu nên tôi mới nhờ đấy.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "売上[うりあげ]を見込[みこ]む",
+     "vi": "dự tính doanh thu"
+    },
+    {
+     "jp": "渋滞[じゅうたい]を見込[みこ]む",
+     "vi": "tính trước chuyện tắc đường"
+    }
+   ],
+   "rel": [
+    "v:見込み:みこみ"
+   ],
+   "flag": true,
+   "note": "Âm Hán Việt của chữ thứ 2 (chữ Nhật tự đặt hoặc ít gặp) cần soát lại."
+  },
+  {
+   "id": "v:上回る:うわまわる",
+   "kana": "うわまわる",
+   "kanji": "上回る",
+   "kf": "上回[うわまわ]る",
+   "hv": "THƯỢNG HỒI",
+   "vi": "vượt trên (mức, con số)",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dự đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今月[こんげつ]の売上[うりあげ]は、目標[もくひょう]を上回[うわまわ]った。",
+     "vi": "Doanh thu tháng này vượt trên mục tiêu.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今年[ことし]の夏[なつ]は、気温[きおん]が平年[へいねん]を大[おお]きく上回[うわまわ]った。",
+     "vi": "Hè năm nay nhiệt độ cao hơn hẳn mọi năm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：応募[おうぼ]は何人[なんにん]来[き]た？ B：予想[よそう]を上回[うわまわ]る五十人[ごじゅうにん]です。",
+     "vi": "A: Có bao nhiêu người ứng tuyển? B: Năm mươi người, vượt cả dự đoán ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "予想[よそう]を上回[うわまわ]る",
+     "vi": "vượt dự đoán"
+    },
+    {
+     "jp": "目標[もくひょう]を上回[うわまわ]る",
+     "vi": "vượt mục tiêu"
+    }
+   ],
+   "ant": [
+    "v:下回る:したまわる"
+   ]
+  },
+  {
+   "id": "v:下回る:したまわる",
+   "kana": "したまわる",
+   "kanji": "下回る",
+   "kf": "下回[したまわ]る",
+   "hv": "HẠ HỒI",
+   "vi": "xuống dưới (mức, con số), thấp hơn",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dự đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今月[こんげつ]の売上[うりあげ]は、去年[きょねん]を下回[したまわ]った。",
+     "vi": "Doanh thu tháng này thấp hơn năm ngoái.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "気温[きおん]が0度[ど]を下回[したまわ]ると、道路[どうろ]が凍[こお]ることがある。",
+     "vi": "Nhiệt độ xuống dưới 0 độ thì đường có thể đóng băng.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：検査[けんさ]の数値[すうち]、大丈夫[だいじょうぶ]でした？ B：はい、基準値[きじゅんち]を下回[したまわ]っていました。",
+     "vi": "A: Chỉ số kiểm tra có ổn không? B: Vâng, thấp hơn mức chuẩn ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "平均[へいきん]を下回[したまわ]る",
+     "vi": "thấp hơn trung bình"
+    },
+    {
+     "jp": "目標[もくひょう]を下回[したまわ]る",
+     "vi": "không đạt mục tiêu"
+    }
+   ],
+   "ant": [
+    "v:上回る:うわまわる"
+   ]
+  },
+  {
+   "id": "v:楽観的:らっかんてき",
+   "kana": "らっかんてき",
+   "kanji": "楽観的",
+   "hv": "LẠC QUAN ĐÍCH",
+   "vi": "lạc quan",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dự đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "社長[しゃちょう]は、来年[らいねん]の売上[うりあげ]について楽観的[らっかんてき]だ。",
+     "vi": "Giám đốc lạc quan về doanh thu năm sau.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "楽観的[らっかんてき]に考[かんが]えすぎて、準備[じゅんび]が足[た]りなかった。",
+     "vi": "Nghĩ quá lạc quan nên chuẩn bị không đủ.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：試験[しけん]、たぶん大丈夫[だいじょうぶ]だよ。 B：そんなに楽観的[らっかんてき]で大丈夫[だいじょうぶ]？",
+     "vi": "A: Kỳ thi chắc ổn thôi. B: Lạc quan thế có ổn không đấy?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "見方[みかた]",
+     "vi": "cách nhìn"
+    },
+    {
+     "jp": "考[かんが]え",
+     "vi": "suy nghĩ"
+    }
+   ],
+   "ant": [
+    {
+     "w": "悲観的[ひかんてき]",
+     "vi": "bi quan"
+    }
+   ],
+   "note": "楽観[らっかん]する = lạc quan."
+  },
+  {
+   "id": "v:一時的:いちじてき",
+   "kana": "いちじてき",
+   "kanji": "一時的",
+   "hv": "NHẤT THỜI ĐÍCH",
+   "vi": "nhất thời, mang tính tạm thời",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Dự đoán",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "円安[えんやす]で、一時[いちじ]的[てき]に売上[うりあげ]が伸[の]びた。",
+     "vi": "Nhờ đồng yên yếu, doanh thu tăng tạm thời.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この痛[いた]みは、一時[いちじ]的[てき]なものです。",
+     "vi": "Cơn đau này chỉ là nhất thời.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この道[みち]、もう通[とお]れないんですか。 B：工事中[こうじちゅう]なので、一時[いちじ]的[てき]に通行止[つうこうど]めになっているだけですよ。",
+     "vi": "A: Đường này không đi được nữa ạ? B: Đang thi công nên chỉ tạm thời cấm đường thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "変化[へんか]",
+     "vi": "thay đổi"
+    },
+    {
+     "jp": "措置[そち]",
+     "vi": "biện pháp"
+    }
+   ],
+   "ant": [
+    {
+     "w": "恒久[こうきゅう]的[てき]",
+     "vi": "lâu dài, vĩnh viễn"
+    }
+   ]
+  },
+  {
+   "id": "v:好調:こうちょう",
+   "kana": "こうちょう",
+   "kanji": "好調",
+   "hv": "HẢO ĐIỀU",
+   "vi": "phát đạt, đang tốt (kinh doanh, phong độ)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新商品[しんしょうひん]の売[う]れ行[ゆ]きは、好調[こうちょう]です。",
+     "vi": "Sản phẩm mới đang bán rất chạy.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "今[こん]シーズン、阪神[はんしん]タイガースは好調[こうちょう]だ。",
+     "vi": "Mùa này đội Hanshin Tigers đang có phong độ tốt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、体[からだ]の調子[ちょうし]はどう？ B：おかげさまで、絶好調[ぜっこうちょう]です！",
+     "vi": "A: Dạo này sức khỏe thế nào? B: Nhờ trời, đang sung sức nhất ạ!",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "売[う]れ行[ゆ]き",
+     "vi": "sức bán"
+    },
+    {
+     "jp": "景気[けいき]",
+     "vi": "kinh tế"
+    },
+    {
+     "jp": "体調[たいちょう]",
+     "vi": "sức khỏe"
+    }
+   ],
+   "ant": [
+    "v:不調:ふちょう"
+   ],
+   "rel": [
+    "v:順調:じゅんちょう"
+   ],
+   "note": "絶好調[ぜっこうちょう] = cực kỳ phong độ."
+  },
+  {
+   "id": "v:不調:ふちょう",
+   "kana": "ふちょう",
+   "kanji": "不調",
+   "hv": "BẤT ĐIỀU",
+   "vi": "không tốt, trục trặc (máy, cơ thể, kinh doanh)",
+   "pos": "adj-na",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "機械[きかい]の不調[ふちょう]で、ラインが一時間[いちじかん]止[と]まった。",
+     "vi": "Máy trục trặc nên dây chuyền dừng một tiếng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "最近[さいきん]、体[からだ]が不調[ふちょう]で、よく眠[ねむ]れない。",
+     "vi": "Dạo này người không khỏe, ngủ không ngon.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今月[こんげつ]の売上[うりあげ]は？ B：不調[ふちょう]ですね。雨[あめ]の日[ひ]が多[おお]かったので。",
+     "vi": "A: Doanh thu tháng này thế nào? B: Không tốt ạ. Vì nhiều ngày mưa.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "機械[きかい]",
+     "vi": "máy"
+    },
+    {
+     "jp": "体[からだ]",
+     "vi": "cơ thể"
+    },
+    {
+     "jp": "売上[うりあげ]",
+     "vi": "doanh thu"
+    }
+   ],
+   "ant": [
+    "v:好調:こうちょう"
+   ],
+   "confuse": [
+    "v:故障:こしょう"
+   ],
+   "note": "不調[ふちょう] = chạy không tốt, kém đi; 故障[こしょう] = hỏng hẳn."
+  },
+  {
+   "id": "v:悪化:あっか",
+   "kana": "あっか",
+   "kanji": "悪化",
+   "hv": "ÁC HÓA",
+   "vi": "xấu đi, trở nặng",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "円安[えんやす]で、会社[かいしゃ]の業績[ぎょうせき]が悪化[あっか]した。",
+     "vi": "Do đồng yên yếu, kết quả kinh doanh công ty xấu đi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "無理[むり]をすると、けがが悪化[あっか]しますよ。",
+     "vi": "Cố quá thì vết thương sẽ nặng thêm đấy.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：天気[てんき]、どうなりそう？ B：午後[ごご]から悪化[あっか]するらしいです。",
+     "vi": "A: Thời tiết có vẻ thế nào? B: Nghe nói từ chiều sẽ xấu đi ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "景気[けいき]が悪化[あっか]する",
+     "vi": "kinh tế xấu đi"
+    },
+    {
+     "jp": "病状[びょうじょう]が悪化[あっか]する",
+     "vi": "bệnh trở nặng"
+    }
+   ],
+   "ant": [
+    "v:改善:かいぜん"
+   ]
+  },
+  {
+   "id": "v:変動:へんどう",
+   "kana": "へんどう",
+   "kanji": "変動",
+   "hv": "BIẾN ĐỘNG",
+   "vi": "biến động, dao động (giá, số liệu)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "魚[さかな]の値段[ねだん]は、季節[きせつ]によって大[おお]きく変動[へんどう]する。",
+     "vi": "Giá cá biến động mạnh theo mùa.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "為替[かわせ]の変動[へんどう]で、国[くに]に送[おく]る金額[きんがく]が変[か]わる。",
+     "vi": "Tỉ giá dao động nên số tiền gửi về nước thay đổi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：電気代[でんきだい]って、毎月[まいつき]同[おな]じじゃないの？ B：使[つか]った量[りょう]で変動[へんどう]するんだよ。夏[なつ]は高[たか]くなるよ。",
+     "vi": "A: Tiền điện không phải tháng nào cũng như nhau à? B: Nó dao động theo lượng dùng đấy. Mùa hè sẽ cao hơn.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "価格[かかく]が変動[へんどう]する",
+     "vi": "giá cả biến động"
+    },
+    {
+     "jp": "大[おお]きく変動[へんどう]する",
+     "vi": "dao động mạnh"
+    }
+   ],
+   "rel": [
+    "v:変化:へんか"
+   ]
+  },
+  {
+   "id": "v:低迷:ていめい",
+   "kana": "ていめい",
+   "kanji": "低迷",
+   "hv": "ĐÊ MÊ",
+   "vi": "ì ạch, trì trệ (ở mức thấp)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "売上[うりあげ]が低迷[ていめい]しているので、新[あたら]しい商品[しょうひん]を考[かんが]えることになった。",
+     "vi": "Doanh thu ì ạch nên đã quyết định nghĩ sản phẩm mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "景気[けいき]の低迷[ていめい]が、長[なが]く続[つづ]いている。",
+     "vi": "Kinh tế trì trệ kéo dài đã lâu.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、阪神[はんしん]の成績[せいせき]が低迷[ていめい]してるね。 B：うん、ピッチャーの調子[ちょうし]がいまいちなんだよ。",
+     "vi": "A: Dạo này thành tích của Hanshin ì ạch nhỉ. B: Ừ, phong độ các tay ném không được tốt lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "売上[うりあげ]が低迷[ていめい]する",
+     "vi": "doanh thu ì ạch"
+    },
+    {
+     "jp": "景気[けいき]が低迷[ていめい]する",
+     "vi": "kinh tế trì trệ"
+    }
+   ]
+  },
+  {
+   "id": "v:伸び悩む:のびなやむ",
+   "kana": "のびなやむ",
+   "kanji": "伸び悩む",
+   "kf": "伸[の]び悩[なや]む",
+   "hv": "THÂN NÃO",
+   "vi": "chững lại, khó tăng thêm",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "今年[ことし]は、輸出[ゆしゅつ]が伸[の]び悩[なや]んでいる。",
+     "vi": "Năm nay xuất khẩu đang chững lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "日本語[にほんご]の点数[てんすう]が伸[の]び悩[なや]んで、少[すこ]し焦[あせ]っている。",
+     "vi": "Điểm tiếng Nhật mãi không lên nên tôi hơi sốt ruột.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、売上[うりあげ]どう？ B：悪[わる]くはないんですが、伸[の]び悩[なや]んでいますね。",
+     "vi": "A: Dạo này doanh thu thế nào? B: Không tệ nhưng chẳng tăng thêm được ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "売上[うりあげ]が伸[の]び悩[なや]む",
+     "vi": "doanh thu chững lại"
+    },
+    {
+     "jp": "成績[せいせき]が伸[の]び悩[なや]む",
+     "vi": "kết quả dậm chân tại chỗ"
+    }
+   ],
+   "rel": [
+    "v:伸びる:のびる"
+   ]
+  },
+  {
+   "id": "v:急増:きゅうぞう",
+   "kana": "きゅうぞう",
+   "kanji": "急増",
+   "hv": "CẤP TĂNG",
+   "vi": "tăng nhanh đột ngột (số lượng)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "年末[ねんまつ]は、注文[ちゅうもん]が急増[きゅうぞう]する。",
+     "vi": "Cuối năm đơn hàng tăng nhanh đột ngột.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "外国人[がいこくじん]観光客[かんこうきゃく]が、急増[きゅうぞう]している。",
+     "vi": "Khách du lịch nước ngoài đang tăng nhanh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、寮[りょう]にベトナム人[じん]が急増[きゅうぞう]したね。 B：うん、今年[ことし]だけで十人[じゅうにん]以上[いじょう]入[はい]ったらしいよ。",
+     "vi": "A: Gần đây người Việt trong ký túc xá tăng nhanh nhỉ. B: Ừ, nghe nói riêng năm nay đã vào hơn mười người.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "注文[ちゅうもん]が急増[きゅうぞう]する",
+     "vi": "đơn hàng tăng đột ngột"
+    },
+    {
+     "jp": "人口[じんこう]が急増[きゅうぞう]する",
+     "vi": "dân số tăng nhanh"
+    }
+   ],
+   "rel": [
+    "v:増加:ぞうか"
+   ]
+  },
+  {
+   "id": "v:上昇:じょうしょう",
+   "kana": "じょうしょう",
+   "kanji": "上昇",
+   "hv": "THƯỢNG THĂNG",
+   "vi": "sự tăng lên (văn viết: nhiệt độ, giá, tỉ lệ)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "気温[きおん]の上昇[じょうしょう]で、魚[さかな]が傷[いた]みやすくなる。",
+     "vi": "Nhiệt độ tăng làm cá dễ bị hỏng.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "物価[ぶっか]の上昇[じょうしょう]に、給料[きゅうりょう]が追[お]いつかない。",
+     "vi": "Lương không theo kịp đà tăng của vật giá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "家賃[やちん]の上昇[じょうしょう]が続[つづ]いているので、契約[けいやく]の更新[こうしん]のときに大家[おおや]さんと相談[そうだん]した。",
+     "vi": "Tiền thuê nhà cứ tăng mãi nên khi gia hạn hợp đồng tôi đã trao đổi với chủ nhà.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "気温[きおん]が上昇[じょうしょう]する",
+     "vi": "nhiệt độ tăng"
+    },
+    {
+     "jp": "物価[ぶっか]が上昇[じょうしょう]する",
+     "vi": "vật giá tăng"
+    }
+   ],
+   "ant": [
+    "v:低下:ていか"
+   ],
+   "rel": [
+    "v:上がる:あがる"
+   ]
+  },
+  {
+   "id": "v:低下:ていか",
+   "kana": "ていか",
+   "kanji": "低下",
+   "hv": "ĐÊ HẠ",
+   "vi": "giảm sút, đi xuống (mức độ, chất lượng)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "疲[つか]れがたまると、集中力[しゅうちゅうりょく]が低下[ていか]する。",
+     "vi": "Mệt mỏi tích lại thì khả năng tập trung giảm sút.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "温度[おんど]の管理[かんり]が悪[わる]いと、品質[ひんしつ]が低下[ていか]する。",
+     "vi": "Quản lý nhiệt độ kém thì chất lượng giảm sút.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "年[とし]をとると、体力[たいりょく]が低下[ていか]する。",
+     "vi": "Có tuổi thì thể lực đi xuống.",
+     "ctx": "doisong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "品質[ひんしつ]が低下[ていか]する",
+     "vi": "chất lượng giảm sút"
+    },
+    {
+     "jp": "体力[たいりょく]が低下[ていか]する",
+     "vi": "thể lực giảm"
+    }
+   ],
+   "ant": [
+    "v:上昇:じょうしょう"
+   ]
+  },
+  {
+   "id": "v:転じる:てんじる",
+   "kana": "てんじる",
+   "kanji": "転じる",
+   "kf": "転[てん]じる",
+   "hv": "CHUYỂN",
+   "vi": "chuyển sang (trạng thái khác)",
+   "pos": "v1",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "三年[さんねん]ぶりに、会社[かいしゃ]は黒字[くろじ]に転[てん]じた。",
+     "vi": "Sau ba năm, công ty đã chuyển sang có lãi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "雨[あめ]は夕方[ゆうがた]から雪[ゆき]に転[てん]じるでしょう。",
+     "vi": "Mưa có lẽ sẽ chuyển sang tuyết từ chiều tối.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：町[まち]の人口[じんこう]、まだ減[へ]ってるの？ B：いえ、去年[きょねん]から増加[ぞうか]に転[てん]じたそうです。",
+     "vi": "A: Dân số thị trấn vẫn đang giảm à? B: Không, nghe nói từ năm ngoái đã chuyển sang tăng rồi ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "黒字[くろじ]に転[てん]じる",
+     "vi": "chuyển sang có lãi"
+    },
+    {
+     "jp": "増加[ぞうか]に転[てん]じる",
+     "vi": "chuyển sang tăng"
+    }
+   ],
+   "note": "Văn viết, tin tức. Cũng nói 転[てん]ずる."
+  },
+  {
+   "id": "v:持ち直す:もちなおす",
+   "kana": "もちなおす",
+   "kanji": "持ち直す",
+   "kf": "持[も]ち直[なお]す",
+   "hv": "TRÌ TRỰC",
+   "vi": "khá lên lại, hồi lại (sau khi xấu đi)",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "秋[あき]になって、売上[うりあげ]が持[も]ち直[なお]してきた。",
+     "vi": "Sang thu, doanh thu đã khá lên lại.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "一時[いちじ]は危[あぶ]なかった祖父[そふ]の容態[ようたい]が、持[も]ち直[なお]した。",
+     "vi": "Tình trạng của ông, có lúc nguy kịch, đã hồi lại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：天気[てんき]、持[も]ち直[なお]しそう？ B：午後[ごご]には晴[は]れるみたいですよ。",
+     "vi": "A: Thời tiết có vẻ khá lên không? B: Hình như chiều sẽ nắng ạ.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "景気[けいき]が持[も]ち直[なお]す",
+     "vi": "kinh tế khá lên"
+    },
+    {
+     "jp": "天気[てんき]が持[も]ち直[なお]す",
+     "vi": "thời tiết khá lên"
+    }
+   ],
+   "rel": [
+    "v:回復:かいふく"
+   ],
+   "note": "Nghĩa gốc: cầm lại, đổi tay cầm (箸[はし]を持[も]ち直[なお]す)."
+  },
+  {
+   "id": "v:高騰:こうとう",
+   "kana": "こうとう",
+   "kanji": "高騰",
+   "hv": "CAO ĐẰNG",
+   "vi": "(giá) tăng vọt",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "燃料費[ねんりょうひ]の高騰[こうとう]で、漁[りょう]に出[で]られない船[ふね]もある。",
+     "vi": "Vì tiền nhiên liệu tăng vọt, có tàu không ra khơi được.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "野菜[やさい]の値段[ねだん]が高騰[こうとう]して、家計[かけい]が苦[くる]しい。",
+     "vi": "Giá rau tăng vọt, chi tiêu gia đình chật vật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：最近[さいきん]、卵[たまご]が高[たか]いね。 B：うん、えさ代[だい]の高騰[こうとう]が原因[げんいん]らしいよ。",
+     "vi": "A: Dạo này trứng đắt nhỉ. B: Ừ, nghe nói nguyên nhân là giá thức ăn chăn nuôi tăng vọt.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "価格[かかく]が高騰[こうとう]する",
+     "vi": "giá tăng vọt"
+    },
+    {
+     "jp": "燃料費[ねんりょうひ]が高騰[こうとう]する",
+     "vi": "tiền nhiên liệu tăng vọt"
+    }
+   ],
+   "rel": [
+    "v:上昇:じょうしょう"
+   ]
+  },
+  {
+   "id": "v:円安:えんやす",
+   "kana": "えんやす",
+   "kanji": "円安",
+   "hv": "VIÊN AN",
+   "vi": "đồng yên yếu (mất giá)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "円安[えんやす]で、国[くに]に送[おく]るお金[かね]が減[へ]ってしまった。",
+     "vi": "Vì đồng yên yếu, số tiền gửi về nước bị hụt đi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "円安[えんやす]の影響[えいきょう]で、輸入[ゆにゅう]の魚[さかな]が高[たか]くなった。",
+     "vi": "Do ảnh hưởng đồng yên yếu, cá nhập khẩu đắt lên.",
+     "ctx": "xuong"
+    }
+   ],
+   "ant": [
+    {
+     "w": "円高[えんだか]",
+     "vi": "đồng yên mạnh (lên giá)"
+    }
+   ]
+  },
+  {
+   "id": "v:様変わり:さまがわり",
+   "kana": "さまがわり",
+   "kanji": "様変わり",
+   "kf": "様変[さまが]わり",
+   "hv": "DẠNG BIẾN",
+   "vi": "thay đổi hẳn diện mạo",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "十年[じゅうねん]ぶりに来[き]たら、駅前[えきまえ]がすっかり様変[さまが]わりしていた。",
+     "vi": "Mười năm mới quay lại, khu trước ga đã thay đổi hoàn toàn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "スマホの普及[ふきゅう]で、買[か]い物[もの]の仕方[しかた]が様変[さまが]わりした。",
+     "vi": "Nhờ điện thoại thông minh phổ biến, cách mua sắm đã thay đổi hẳn.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "新[あたら]しい機械[きかい]が入[はい]って、包装[ほうそう]ラインの様子[ようす]はすっかり様変[さまが]わりした。",
+     "vi": "Có máy mới về, diện mạo dây chuyền đóng gói đã thay đổi hẳn.",
+     "ctx": "xuong"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "町[まち]が様変[さまが]わりする",
+     "vi": "thị trấn thay đổi hẳn"
+    },
+    {
+     "jp": "すっかり様変[さまが]わりする",
+     "vi": "thay đổi hoàn toàn"
+    }
+   ]
+  },
+  {
+   "id": "v:移り変わり:うつりかわり",
+   "kana": "うつりかわり",
+   "kanji": "移り変わり",
+   "kf": "移[うつ]り変[か]わり",
+   "hv": "DI BIẾN",
+   "vi": "sự đổi thay (theo thời gian, mùa)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Biến động",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "日本[にほん]では、季節[きせつ]の移[うつ]り変[か]わりがはっきりしている。",
+     "vi": "Ở Nhật, sự chuyển mùa rất rõ rệt.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "時代[じだい]の移[うつ]り変[か]わりとともに、仕事[しごと]のやり方[かた]も変[か]わる。",
+     "vi": "Cùng với sự đổi thay của thời đại, cách làm việc cũng thay đổi.",
+     "ctx": "xuong"
+    }
+   ],
+   "note": "Động từ: 移[うつ]り変[か]わる = đổi thay dần."
+  },
+  {
+   "id": "v:事業:じぎょう",
+   "kana": "じぎょう",
+   "kanji": "事業",
+   "hv": "SỰ NGHIỆP",
+   "vi": "công việc kinh doanh, dự án (quy mô lớn)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "会社[かいしゃ]は、冷凍食品[れいとうしょくひん]の新[あたら]しい事業[じぎょう]を始[はじ]めた。",
+     "vi": "Công ty đã bắt đầu mảng kinh doanh thực phẩm đông lạnh mới.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "市[し]の事業[じぎょう]で、公園[こうえん]が新[あたら]しくなった。",
+     "vi": "Nhờ dự án của thành phố, công viên được làm mới.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "事業主[じぎょうぬし] = chủ cơ sở kinh doanh; 個人事業[こじんじぎょう] = kinh doanh cá thể."
+  },
+  {
+   "id": "v:新規:しんき",
+   "kana": "しんき",
+   "kanji": "新規",
+   "hv": "TÂN QUY",
+   "vi": "mở mới (khách, hợp đồng, đăng ký)",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新規[しんき]のお客様[きゃくさま]には、割引[わりびき]があります。",
+     "vi": "Khách mới có giảm giá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "銀行[ぎんこう]の口座[こうざ]を新規[しんき]で作[つく]るには、在留[ざいりゅう]カードが必要[ひつよう]です。",
+     "vi": "Để mở mới tài khoản ngân hàng cần thẻ cư trú.",
+     "ctx": "thutuc"
+    }
+   ],
+   "note": "新規登録[しんきとうろく] = đăng ký mới; 新規事業[しんきじぎょう] = mảng kinh doanh mới; 新規採用[しんきさいよう] = tuyển mới."
+  },
+  {
+   "id": "v:撤退:てったい",
+   "kana": "てったい",
+   "kanji": "撤退",
+   "hv": "TRIỆT THOÁI",
+   "vi": "rút khỏi (thị trường, nơi đang hoạt động)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "売上[うりあげ]が伸[の]びず、その会社[かいしゃ]は日本[にほん]から撤退[てったい]した。",
+     "vi": "Doanh thu không tăng, công ty đó đã rút khỏi Nhật.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "近[ちか]くのスーパーが撤退[てったい]して、買[か]い物[もの]が不便[ふべん]になった。",
+     "vi": "Siêu thị gần nhà rút đi nên mua sắm bất tiện.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：あの携帯[けいたい]会社[かいしゃ]、格安[かくやす]プランから撤退[てったい]するらしいよ。 B：えっ、じゃあ別[べつ]の会社[かいしゃ]に乗[の]り換[か]えないと。",
+     "vi": "A: Nghe nói nhà mạng đó sẽ rút khỏi mảng gói cước giá rẻ. B: Hả, vậy phải chuyển sang nhà mạng khác thôi.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "市場[しじょう]から撤退[てったい]する",
+     "vi": "rút khỏi thị trường"
+    },
+    {
+     "jp": "事業[じぎょう]から撤退[てったい]する",
+     "vi": "rút khỏi mảng kinh doanh"
+    }
+   ]
+  },
+  {
+   "id": "v:導入:どうにゅう",
+   "kana": "どうにゅう",
+   "kanji": "導入",
+   "hv": "ĐẠO NHẬP",
+   "vi": "đưa vào sử dụng (máy, chế độ mới)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "新[あたら]しい機械[きかい]を導入[どうにゅう]して、作業[さぎょう]が楽[らく]になった。",
+     "vi": "Đưa máy mới vào dùng nên công việc nhẹ hơn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この会社[かいしゃ]は、フレックスタイム制[せい]を導入[どうにゅう]している。",
+     "vi": "Công ty này áp dụng chế độ giờ làm linh hoạt.",
+     "ctx": "thutuc"
+    },
+    {
+     "jp": "A：来月[らいげつ]から、新[あたら]しいシステムを導入[どうにゅう]します。 B：使[つか]い方[かた]の説明会[せつめいかい]はありますか。",
+     "vi": "A: Từ tháng sau sẽ đưa hệ thống mới vào sử dụng. B: Có buổi hướng dẫn cách dùng không ạ?",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "機械[きかい]を導入[どうにゅう]する",
+     "vi": "đưa máy vào dùng"
+    },
+    {
+     "jp": "制度[せいど]を導入[どうにゅう]する",
+     "vi": "áp dụng chế độ"
+    }
+   ]
+  },
+  {
+   "id": "v:普及:ふきゅう",
+   "kana": "ふきゅう",
+   "kanji": "普及",
+   "hv": "PHỔ CẬP",
+   "vi": "phổ cập, trở nên phổ biến",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "キャッシュレス決済[けっさい]が、日本[にほん]でも普及[ふきゅう]してきた。",
+     "vi": "Thanh toán không dùng tiền mặt đã trở nên phổ biến cả ở Nhật.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "インターネットの普及[ふきゅう]で、働[はたら]き方[かた]が変[か]わった。",
+     "vi": "Internet phổ cập làm cách làm việc thay đổi.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "マイナンバーカードの普及[ふきゅう]で、市役所[しやくしょ]に行[い]かなくても住民票[じゅうみんひょう]が取[と]れるようになった。",
+     "vi": "Nhờ thẻ My Number phổ biến mà không cần đến tòa thị chính cũng lấy được phiếu cư trú.",
+     "ctx": "thutuc"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "スマホが普及[ふきゅう]する",
+     "vi": "điện thoại thông minh phổ biến"
+    },
+    {
+     "jp": "広[ひろ]く普及[ふきゅう]する",
+     "vi": "phổ cập rộng rãi"
+    }
+   ],
+   "note": "普及率[ふきゅうりつ] = tỉ lệ phổ cập."
+  },
+  {
+   "id": "v:進展:しんてん",
+   "kana": "しんてん",
+   "kanji": "進展",
+   "hv": "TIẾN TRIỂN",
+   "vi": "tiến triển, có bước tiến (sự việc, đàm phán)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "給料[きゅうりょう]の交渉[こうしょう]に、少[すこ]し進展[しんてん]があった。",
+     "vi": "Cuộc thương lượng lương đã có chút bước tiến.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "事件[じけん]の捜査[そうさ]は、まだ進展[しんてん]していない。",
+     "vi": "Cuộc điều tra vụ án vẫn chưa có tiến triển.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：例[れい]の部屋[へや]探[さが]し、何[なに]か進展[しんてん]あった？ B：うん、昨日[きのう]いい物件[ぶっけん]が見[み]つかったんだ。",
+     "vi": "A: Vụ tìm nhà ấy có tiến triển gì chưa? B: Có, hôm qua tìm được một căn ưng ý.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "話[はな]し合[あ]いが進展[しんてん]する",
+     "vi": "cuộc bàn bạc có tiến triển"
+    },
+    {
+     "jp": "調査[ちょうさ]が進展[しんてん]する",
+     "vi": "cuộc điều tra có tiến triển"
+    }
+   ],
+   "rel": [
+    "v:進む:すすむ"
+   ]
+  },
+  {
+   "id": "v:縮小:しゅくしょう",
+   "kana": "しゅくしょう",
+   "kanji": "縮小",
+   "hv": "SÚC TIỂU",
+   "vi": "thu hẹp (quy mô); thu nhỏ (bản sao)",
+   "pos": "n-suru",
+   "level": "N2",
+   "vt": "tha",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "不景気[ふけいき]で、工場[こうじょう]は生産[せいさん]を縮小[しゅくしょう]した。",
+     "vi": "Kinh tế khó khăn nên nhà máy thu hẹp sản xuất.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A3の資料[しりょう]を、A4に縮小[しゅくしょう]してコピーした。",
+     "vi": "Tôi thu nhỏ tài liệu khổ A3 xuống A4 rồi photo.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：今年[ことし]の花火[はなび]大会[たいかい]、規模[きぼ]を縮小[しゅくしょう]するんだって。 B：えー、楽[たの]しみにしてたのに。",
+     "vi": "A: Nghe nói lễ hội pháo hoa năm nay sẽ thu hẹp quy mô. B: Ơ, thế mà mình mong lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "規模[きぼ]を縮小[しゅくしょう]する",
+     "vi": "thu hẹp quy mô"
+    },
+    {
+     "jp": "事業[じぎょう]を縮小[しゅくしょう]する",
+     "vi": "thu hẹp kinh doanh"
+    }
+   ],
+   "ant": [
+    "v:拡大:かくだい"
+   ]
+  },
+  {
+   "id": "v:伴う:ともなう",
+   "kana": "ともなう",
+   "kanji": "伴う",
+   "kf": "伴[ともな]う",
+   "hv": "BẠN",
+   "vi": "kèm theo, đi cùng với",
+   "pos": "v5",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Kinh doanh",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "人口[じんこう]の減少[げんしょう]に伴[ともな]って、商店街[しょうてんがい]の店[みせ]も減[へ]っている。",
+     "vi": "Cùng với dân số giảm, cửa hàng ở khu mua sắm cũng ít đi.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "この作業[さぎょう]は危険[きけん]を伴[ともな]うので、必[かなら]ず保護[ほご]具[ぐ]をつけてください。",
+     "vi": "Công việc này kèm theo nguy hiểm nên nhất định phải đeo đồ bảo hộ.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：引[ひ]っ越[こ]しに伴[ともな]う手続[てつづ]きって、何[なに]がありますか。 B：まず、市役所[しやくしょ]で住所[じゅうしょ]の変更[へんこう]をしてください。",
+     "vi": "A: Chuyển nhà thì đi kèm những thủ tục gì ạ? B: Trước hết anh làm thay đổi địa chỉ ở tòa thị chính.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "危険[きけん]を伴[ともな]う",
+     "vi": "kèm theo nguy hiểm"
+    },
+    {
+     "jp": "痛[いた]みを伴[ともな]う",
+     "vi": "có kèm đau"
+    }
+   ],
+   "note": "〜に伴[ともな]って = cùng với … (thay đổi kéo theo); 〜に伴[ともな]う〜 = … đi kèm với …."
+  },
+  {
+   "id": "v:懐かしい:なつかしい",
+   "kana": "なつかしい",
+   "kanji": "懐かしい",
+   "kf": "懐[なつ]かしい",
+   "hv": "HOÀI",
+   "vi": "thân thương, gợi nhớ ngày xưa",
+   "pos": "adj-i",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ký ức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この歌[うた]を聞[き]くと、国[くに]が懐[なつ]かしくなる。",
+     "vi": "Nghe bài hát này là tôi nhớ quê.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "昔[むかし]の写真[しゃしん]を見[み]て、懐[なつ]かしい気持[きも]ちになった。",
+     "vi": "Xem ảnh ngày xưa, lòng thấy bồi hồi nhớ lại.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：これ、ベトナムのお菓子[かし]だよ。 B：わあ、懐[なつ]かしい！子供[こども]のころ、よく食[た]べました。",
+     "vi": "A: Cái này là bánh kẹo Việt Nam đấy. B: Ôi, nhớ quá! Hồi nhỏ tôi hay ăn lắm.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "subj": [
+    {
+     "jp": "写真[しゃしん]",
+     "vi": "ảnh"
+    },
+    {
+     "jp": "歌[うた]",
+     "vi": "bài hát"
+    },
+    {
+     "jp": "味[あじ]",
+     "vi": "hương vị"
+    }
+   ],
+   "rel": [
+    "v:思い出:おもいで"
+   ],
+   "note": "懐[なつ]かしむ = hoài niệm (động từ)."
+  },
+  {
+   "id": "v:かつて:かつて",
+   "kana": "かつて",
+   "kanji": "",
+   "hv": "",
+   "vi": "đã từng (một thời, văn viết)",
+   "pos": "adv",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ký ức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この町[まち]は、かつて漁業[ぎょぎょう]で栄[さか]えていた。",
+     "vi": "Thị trấn này một thời từng phồn thịnh nhờ nghề cá.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "今年[ことし]は、かつてない大雨[おおあめ]で川[かわ]があふれた。",
+     "vi": "Năm nay mưa lớn chưa từng có làm sông tràn bờ.",
+     "ctx": "doisong"
+    }
+   ],
+   "rel": [
+    "v:以前:いぜん"
+   ],
+   "note": "かつてない = chưa từng có. Chữ Hán: 嘗[かつ]て (ít dùng)."
+  },
+  {
+   "id": "v:面影:おもかげ",
+   "kana": "おもかげ",
+   "kanji": "面影",
+   "hv": "DIỆN ẢNH",
+   "vi": "hình bóng xưa, nét gợi nhớ",
+   "pos": "n",
+   "level": "N2",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ký ức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "この町[まち]には、昔[むかし]の面影[おもかげ]が残[のこ]っている。",
+     "vi": "Thị trấn này vẫn còn giữ hình bóng ngày xưa.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "息子[むすこ]の顔[かお]には、亡[な]くなった父[ちち]の面影[おもかげ]がある。",
+     "vi": "Gương mặt con trai tôi có nét của người bố đã khuất.",
+     "ctx": "doisong"
+    }
+   ],
+   "note": "面影[おもかげ]が残[のこ]る = còn lưu dấu vết xưa."
+  },
+  {
+   "id": "v:よみがえる:よみがえる",
+   "kana": "よみがえる",
+   "kanji": "",
+   "hv": "",
+   "vi": "sống lại, hồi sinh; (ký ức) ùa về",
+   "pos": "v5",
+   "level": "N2",
+   "vt": "tu",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Ký ức",
+   "reg": "thuong",
+   "ex": [
+    {
+     "jp": "古[ふる]い写真[しゃしん]を見[み]て、子供[こども]のころの記憶[きおく]がよみがえった。",
+     "vi": "Xem ảnh cũ, ký ức tuổi thơ ùa về.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "震災[しんさい]から二十年[にじゅうねん]、町[まち]はすっかりよみがえった。",
+     "vi": "Hai mươi năm sau thảm họa động đất, thị trấn đã hoàn toàn hồi sinh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：この匂[にお]い、懐[なつ]かしいね。 B：うん、田舎[いなか]の夏[なつ]の思[おも]い出[で]がよみがえるよ。",
+     "vi": "A: Mùi này gợi nhớ quá nhỉ. B: Ừ, kỷ niệm mùa hè ở quê ùa về.",
+     "ctx": "hoithoai"
+    }
+   ],
+   "coll": [
+    {
+     "jp": "記憶[きおく]がよみがえる",
+     "vi": "ký ức ùa về"
+    },
+    {
+     "jp": "町[まち]がよみがえる",
+     "vi": "thị trấn hồi sinh"
+    }
+   ],
+   "note": "Chữ Hán: 蘇[よみがえ]る."
+  }
+ ]
 }

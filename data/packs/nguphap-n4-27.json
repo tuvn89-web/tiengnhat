@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -199,6 +199,16 @@
      ],
      "ans": 0,
      "why": "Không… như tưởng → 思[おも]ったほど〜なかった."
+    },
+    {
+     "q": "Người mới vừa sang Nhật lo vì nghe nói mùa đông rất lạnh. Anh Nguyễn trấn an: ở Hyogo không lạnh bằng Hokkaido đâu.",
+     "opts": [
+      "北海道[ほっかいどう]は兵庫[ひょうご]ほど寒[さむ]くないですよ。",
+      "兵庫[ひょうご]は北海道[ほっかいどう]ほど寒[さむ]いですよ。",
+      "兵庫[ひょうご]は北海道[ほっかいどう]ほど寒[さむ]くないですよ。"
+     ],
+     "ans": 2,
+     "why": "A は B ほど + phủ định = A không… bằng B: 兵庫[ひょうご]は北海道[ほっかいどう]ほど寒[さむ]くない. Câu đầu đảo A/B; ほど ở đây phải đi với phủ định."
     }
    ],
    "shift": [
@@ -423,6 +433,16 @@
      ],
      "ans": 0,
      "why": "Thay vì A làm B → ないで."
+    },
+    {
+     "q": "Ở buổi khám sức khỏe định kỳ của công ty, nhân viên y tế hỏi anh Nguyễn đã ăn sáng chưa. Anh trả lời: sáng nay tôi không ăn sáng mà đến luôn.",
+     "opts": [
+      "はい、今朝[けさ]は朝[あさ]ご飯[はん]を食[た]べないで来[き]ました。",
+      "はい、今朝[けさ]は朝[あさ]ご飯[はん]を食[た]べなくて来[き]ました。",
+      "はい、今朝[けさ]は朝[あさ]ご飯[はん]を食[た]べずにで来[き]ました。"
+     ],
+     "ans": 0,
+     "why": "Không làm A mà làm B → thể ない + で: 食[た]べないで来[き]ました (= 食[た]べずに来[き]ました). なくて là \"vì không…\"; ずに không thêm で."
     }
    ],
    "shift": [
@@ -653,6 +673,16 @@
      ],
      "ans": 0,
      "why": "Ngửi thấy mùi → においがする."
+    },
+    {
+     "q": "Ở xưởng, tổ trưởng cho anh Nguyễn nếm thử loại nước ướp cá mới và hỏi vị thế nào. Anh nói: có vị hơi ngọt.",
+     "opts": [
+      "少[すこ]し甘[あま]い味[あじ]をします。",
+      "少[すこ]し甘[あま]い味[あじ]がします。",
+      "少[すこ]し甘[あま]そうです。"
+     ],
+     "ans": 1,
+     "why": "Cảm nhận vị → 味[あじ]がします. Không dùng を; 甘[あま]そうです là \"nhìn có vẻ ngọt\", trong khi anh đã nếm rồi."
     }
    ],
    "shift": [

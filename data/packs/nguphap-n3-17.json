@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -233,6 +233,16 @@
      ],
      "ans": 0,
      "why": "Thay cho người khác → のかわりに (として = chính bạn là tổ trưởng)."
+    },
+    {
+     "q": "Anh Nguyễn đề nghị trao đổi với bạn người Nhật ở lớp tiếng Nhật: mình dạy cậu tiếng Việt, đổi lại cậu dạy mình tiếng Kansai nhé?",
+     "opts": [
+      "ベトナム語[ご]を教[おし]えるとして、関西弁[かんさいべん]を教[おし]えてくれない？",
+      "ベトナム語[ご]を教[おし]えるかわりに、関西弁[かんさいべん]を教[おし]えてくれない？",
+      "ベトナム語[ご]を教[おし]えるに加[くわ]えて、関西弁[かんさいべん]を教[おし]えてくれない？"
+     ],
+     "ans": 1,
+     "why": "Đổi lại, trao đổi → thể thường + かわりに. として là \"với tư cách\"; に加[くわ]えて không đứng thẳng sau động từ và mang nghĩa \"thêm vào\"."
     }
    ],
    "shift": [
@@ -452,6 +462,16 @@
      ],
      "ans": 0,
      "why": "Thêm vào (trang trọng) → に加[くわ]えて."
+    },
+    {
+     "q": "Trong buổi họp đầu ca, anh Nguyễn đọc kế hoạch cho tổ: ngoài cá hồi, hôm nay còn có thêm cá cam.",
+     "opts": [
+      "今日[きょう]はサーモンのかわりに、ブリもあります。",
+      "今日[きょう]はサーモンに加[くわ]わって、ブリもあります。",
+      "今日[きょう]はサーモンに加[くわ]えて、ブリもあります。"
+     ],
+     "ans": 2,
+     "why": "Liệt kê thêm, trang trọng → danh từ + に加[くわ]えて, vế sau có も. のかわりに là \"thay cho\" (bỏ cá hồi); 加[くわ]わって là tự động từ, không dùng ở mẫu này."
     }
    ],
    "shift": [
@@ -676,6 +696,16 @@
      ],
      "ans": 0,
      "why": "A đương nhiên, B cũng → はもちろん."
+    },
+    {
+     "q": "Anh Nguyễn giới thiệu cậu thực tập sinh mới với tổ trưởng: tiếng Nhật thì đương nhiên rồi, cậu ấy còn nói được cả tiếng Anh.",
+     "opts": [
+      "彼[かれ]は日本語[にほんご]はもちろん、英語[えいご]も話[はな]せます。",
+      "彼[かれ]は日本語[にほんご]をもちろん、英語[えいご]も話[はな]せます。",
+      "彼[かれ]は日本語[にほんご]のもちろん、英語[えいご]も話[はな]せます。"
+     ],
+     "ans": 0,
+     "why": "A là đương nhiên, B cũng → A はもちろん、B も. はもちろん đi với trợ từ は, không dùng を hay の."
     }
    ],
    "shift": [

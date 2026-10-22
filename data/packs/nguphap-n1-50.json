@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Sớm muộn gì cũng… → cụm cố định 遅[おそ]かれ早[はや]かれ (thân tính từ + かれ). Không giữ い; 〜ければ〜ければ không phải cách nói này."
+    },
+    {
+     "q": "Cậu thực tập sinh mới than nhớ nhà. Anh Nguyễn an ủi: ai sống xa quê cũng ít nhiều thấy cô đơn thôi.",
+     "opts": [
+      "外国[がいこく]で暮[く]らす人[ひと]は、多[おお]いかれ少[すく]ないかれ寂[さび]しさを感[かん]じるものだよ。",
+      "外国[がいこく]で暮[く]らす人[ひと]は、多[おお]ければ少[すく]なければ寂[さび]しさを感[かん]じるものだよ。",
+      "外国[がいこく]で暮[く]らす人[ひと]は、多[おお]かれ少[すく]なかれ寂[さび]しさを感[かん]じるものだよ。"
+     ],
+     "ans": 2,
+     "why": "Ít nhiều (cụm cố định) → 多[おお]かれ少[すく]なかれ (bỏ い rồi thêm かれ). Không giữ い; 多[おお]ければ少[すく]なければ không phải cách nói."
     }
    ],
    "shift": [
@@ -477,6 +487,16 @@
      ],
      "ans": 0,
      "why": "Khẩu hiệu \"phải…\" ở cuối câu → thể từ điển + べし (する → すべし). べく = để mà (phải có vế sau); べからず = cấm (ngược nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) viết khẩu hiệu ngắn, giọng răn, dán cạnh khu để dao: \"Dao dùng xong phải rửa ngay.\"",
+     "opts": [
+      "使用[しよう]後[ご]の包丁[ほうちょう]は、直[ただ]ちに洗浄[せんじょう]しますべし",
+      "使用[しよう]後[ご]の包丁[ほうちょう]は、直[ただ]ちに洗浄[せんじょう]すべし",
+      "使用[しよう]後[ご]の包丁[ほうちょう]は、直[ただ]ちに洗浄[せんじょう]すべからず"
+     ],
+     "ans": 1,
+     "why": "Phải… (khẩu hiệu, lời răn cổ) → thể từ điển + べし; する → すべし. Không dùng thể ます; べからず là \"cấm\", ngược nghĩa."
     }
    ],
    "shift": [
@@ -728,6 +748,16 @@
      ],
      "ans": 0,
      "why": "Văn bản trang trọng: thể thường + か否[いな]か (= かどうか). Không dùng thể ます trước か否[いな]か; か否[いな]や không phải cách nói đúng (lẫn với や否[いな]や = vừa… là ngay)."
+    },
+    {
+     "q": "Anh Nguyễn viết báo cáo nhập hàng gửi phòng quản lý chất lượng: cần xác nhận xem lô nguyên liệu này có phải hàng trong nước hay không.",
+     "opts": [
+      "この原料[げんりょう]が国産[こくさん]か否[いな]かを確認[かくにん]する必要[ひつよう]があります。",
+      "この原料[げんりょう]が国産[こくさん]だか否[いな]かを確認[かくにん]する必要[ひつよう]があります。",
+      "この原料[げんりょう]が国産[こくさん]や否[いな]やを確認[かくにん]する必要[ひつよう]があります。"
+     ],
+     "ans": 0,
+     "why": "Có… hay không (văn viết) → Danh từ (bỏ だ) + か否[いな]か. Không giữ だ; や否[いな]や = \"vừa… là ngay\", nghĩa khác hẳn."
     }
    ],
    "shift": [

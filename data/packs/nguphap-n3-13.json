@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -224,6 +224,16 @@
      ],
      "ans": 0,
      "why": "Đánh giá từ góc nhìn → にとって."
+    },
+    {
+     "q": "Tổ trưởng định giao cho người mới công đoạn lọc xương cá. Anh Nguyễn góp ý: đối với người mới, việc này có lẽ hơi khó.",
+     "opts": [
+      "新人[しんじん]に対[たい]して、この作業[さぎょう]は少[すこ]し難[むずか]しいかもしれません。",
+      "新人[しんじん]にとって、この作業[さぎょう]は少[すこ]し難[むずか]しいかもしれません。",
+      "新人[しんじん]について、この作業[さぎょう]は少[すこ]し難[むずか]しいかもしれません。"
+     ],
+     "ans": 1,
+     "why": "Đánh giá từ góc nhìn của ai → にとって. に対[たい]して là hướng hành động / thái độ tới ai; について là \"về (nội dung)\"."
     }
    ],
    "shift": [
@@ -448,6 +458,16 @@
      ],
      "ans": 0,
      "why": "Phản ứng hướng tới → に対[たい]して."
+    },
+    {
+     "q": "Anh Nguyễn viết email cho cô giáo lớp tiếng Nhật: cảm ơn cô đã trả lời câu hỏi của em.",
+     "opts": [
+      "先日[せんじつ]は、私[わたし]の質問[しつもん]に対[たい]するお返事[へんじ]をありがとうございました。",
+      "先日[せんじつ]は、私[わたし]の質問[しつもん]に対[たい]してお返事[へんじ]をありがとうございました。",
+      "先日[せんじつ]は、私[わたし]の質問[しつもん]にとってのお返事[へんじ]をありがとうございました。"
+     ],
+     "ans": 0,
+     "why": "Bổ nghĩa cho danh từ (お返事[へんじ]) → に対[たい]する + danh từ. に対[たい]して đứng trước động từ, không đứng thẳng trước danh từ; にとって là \"đối với (góc nhìn)\"."
     }
    ],
    "shift": [
@@ -674,6 +694,16 @@
      ],
      "ans": 0,
      "why": "Văn trang trọng, \"về\" → に関[かん]して."
+    },
+    {
+     "q": "Ở quầy thuế của tòa thị chính, anh Nguyễn hỏi nhân viên: có tài liệu về thuế cư trú viết bằng tiếng Việt không ạ?",
+     "opts": [
+      "住民税[じゅうみんぜい]に関[かん]して資料[しりょう]は、ベトナム語[ご]のものがありますか。",
+      "住民税[じゅうみんぜい]に対[たい]する資料[しりょう]は、ベトナム語[ご]のものがありますか。",
+      "住民税[じゅうみんぜい]に関[かん]する資料[しりょう]は、ベトナム語[ご]のものがありますか。"
+     ],
+     "ans": 2,
+     "why": "Bổ nghĩa cho danh từ (資料[しりょう]) về nội dung → に関[かん]する + danh từ. に関[かん]して không đứng thẳng trước danh từ; に対[たい]する là \"hướng tới (đối tượng)\"."
     }
    ],
    "shift": [

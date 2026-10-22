@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 5,
+  "version": 6,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Ví dụ về thuế, giấy tờ chỉ để học từ; không nêu số tiền, thời hạn cụ thể. Thủ tục thật hãy hỏi ở quầy hoặc xem trang chính thức."
@@ -37,6 +37,11 @@
      "jp": "新[あたら]しいルールを、掲示[けいじ]しました。",
      "vi": "Đã dán thông báo quy định mới.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "ゴミの出[だ]し方[かた]は、アパートの入口[いりぐち]に掲示[けいじ]してあります。",
+     "vi": "Cách đổ rác được dán ở lối vào khu chung cư.",
+     "ctx": "thutuc"
     }
    ],
    "note": "掲示板[けいじばん] = bảng thông báo.",
@@ -65,6 +70,11 @@
      "jp": "健康[けんこう]のために、禁煙[きんえん]しました。",
      "vi": "Vì sức khỏe tôi đã bỏ thuốc.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "A：たばこ、吸[す]わないの？ B：うん、先月[せんげつ]から禁煙[きんえん]してるんだ。",
+     "vi": "A: Không hút thuốc à? B: Ừ, tôi cai từ tháng trước.",
+     "ctx": "hoithoai"
     }
    ],
    "note": "喫煙所[きつえんじょ] = khu hút thuốc.",
@@ -93,6 +103,11 @@
      "jp": "空港[くうこう]で、荷物[にもつ]を申告[しんこく]しました。",
      "vi": "Tôi khai báo hành lý ở sân bay.",
      "ctx": "thutuc"
+    },
+    {
+     "jp": "A：去年[きょねん]、病院代[びょういんだい]がたくさんかかったんだ。 B：じゃあ、申告[しんこく]すると税金[ぜいきん]が少[すこ]し戻[もど]るかもしれないよ。",
+     "vi": "A: Năm ngoái tôi tốn nhiều tiền viện phí lắm. B: Vậy khai thuế thì có khi được hoàn lại một ít đấy.",
+     "ctx": "hoithoai"
     }
    ],
    "note": "確定申告[かくていしんこく] = quyết toán thuế (khai thuế cuối năm).",
@@ -121,6 +136,11 @@
      "jp": "記入[きにゅう]の仕方[しかた]が、分[わ]かりません。",
      "vi": "Tôi không biết cách điền.",
      "ctx": "thutuc"
+    },
+    {
+     "jp": "作業[さぎょう]が終[お]わったら、チェック表[ひょう]に時間[じかん]を記入[きにゅう]してください。",
+     "vi": "Làm xong việc hãy điền giờ vào bảng kiểm tra.",
+     "ctx": "xuong"
     }
    ],
    "note": "記入例[きにゅうれい] = mẫu điền sẵn để tham khảo.",
@@ -149,6 +169,11 @@
      "jp": "本人[ほんにん]の署名[しょめい]が、必要[ひつよう]です。",
      "vi": "Cần chữ ký của chính người đó.",
      "ctx": "thutuc"
+    },
+    {
+     "jp": "安全[あんぜん]のルールをよく読[よ]んで、最後[さいご]に署名[しょめい]してください。",
+     "vi": "Hãy đọc kỹ quy định an toàn rồi ký tên ở cuối.",
+     "ctx": "xuong"
     }
    ],
    "syn": [
@@ -261,6 +286,11 @@
      "jp": "本人[ほんにん]だと証明[しょうめい]してください。",
      "vi": "Hãy chứng minh là chính anh.",
      "ctx": "thutuc"
+    },
+    {
+     "jp": "A：これ、本当[ほんとう]に自分[じぶん]で作[つく]ったの？ B：うん、作[つく]っている時[とき]の写真[しゃしん]があるから証明[しょうめい]できるよ。",
+     "vi": "A: Cái này cậu tự làm thật à? B: Ừ, tôi có ảnh lúc làm nên chứng minh được.",
+     "ctx": "hoithoai"
     }
    ],
    "note": "証明書[しょうめいしょ] = giấy chứng nhận; 課税証明書[かぜいしょうめいしょ] = giấy chứng nhận thuế.",
@@ -289,6 +319,11 @@
      "jp": "会社[かいしゃ]が、ニュースを発行[はっこう]しています。",
      "vi": "Công ty phát hành bản tin.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "スーパーで、ポイントカードを発行[はっこう]してもらった。",
+     "vi": "Tôi được siêu thị làm cho thẻ tích điểm.",
+     "ctx": "doisong"
     }
    ],
    "note": "再発行[さいはっこう] = cấp lại.",
@@ -400,6 +435,11 @@
      "jp": "交通費[こうつうひ]を、会社[かいしゃ]に請求[せいきゅう]しました。",
      "vi": "Tôi đề nghị công ty thanh toán tiền đi lại.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "病院[びょういん]から、治療費[ちりょうひ]の請求書[せいきゅうしょ]が届[とど]いた。",
+     "vi": "Bệnh viện gửi giấy báo thanh toán tiền điều trị.",
+     "ctx": "thutuc"
     }
    ],
    "note": "請求書[せいきゅうしょ] = hóa đơn đòi tiền.",
@@ -428,6 +468,11 @@
      "jp": "滞在[たいざい]の目的[もくてき]を、書[か]いてください。",
      "vi": "Hãy ghi mục đích lưu trú.",
      "ctx": "thutuc"
+    },
+    {
+     "jp": "A：大阪[おおさか]には何日[なんにち]滞在[たいざい]するんですか。 B：三日[みっか]間[かん]です。",
+     "vi": "A: Anh ở Osaka mấy ngày? B: Ba ngày.",
+     "ctx": "hoithoai"
     }
    ],
    "note": "在留[ざいりゅう] = cư trú (từ dùng trong giấy tờ visa): 在留[ざいりゅう]カード.",
@@ -651,6 +696,11 @@
      "jp": "この条件[じょうけん]に、該当[がいとう]しますか。",
      "vi": "Anh có thuộc diện điều kiện này không?",
      "ctx": "thutuc"
+    },
+    {
+     "jp": "該当[がいとう]するロットの商品[しょうひん]は、すぐにラインから外[はず]してください。",
+     "vi": "Hàng thuộc lô liên quan hãy rút khỏi dây chuyền ngay.",
+     "ctx": "xuong"
     }
    ],
    "note": "該当[がいとう]なし = không thuộc diện nào.",
@@ -679,6 +729,11 @@
      "jp": "予定[よてい]が、変更[へんこう]になりました。",
      "vi": "Lịch đã bị thay đổi.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：パスワードを変更[へんこう]したら、ログインできなくなった。 B：もう一度[いちど]、リセットしてみて。",
+     "vi": "A: Đổi mật khẩu xong thì không đăng nhập được nữa. B: Thử đặt lại lần nữa xem.",
+     "ctx": "hoithoai"
     }
    ],
    "note": "変更届[へんこうとどけ] = đơn khai thay đổi.",
@@ -707,6 +762,11 @@
      "jp": "会議[かいぎ]を、来週[らいしゅう]に延期[えんき]します。",
      "vi": "Hoãn cuộc họp sang tuần sau.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：旅行[りょこう]、延期[えんき]になったの？ B：うん、台風[たいふう]のせいでね。",
+     "vi": "A: Chuyến du lịch bị hoãn à? B: Ừ, tại bão đấy.",
+     "ctx": "hoithoai"
     }
    ],
    "ant": [
@@ -874,6 +934,11 @@
      "jp": "新聞[しんぶん]を、配達[はいたつ]しています。",
      "vi": "Tôi đi giao báo.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "A：配達[はいたつ]の時間[じかん]、指定[してい]できますか。 B：はい、夜[よる]七時[しちじ]から九時[くじ]の間[あいだ]でも大丈夫[だいじょうぶ]です。",
+     "vi": "A: Tôi chọn giờ giao hàng được không? B: Được, từ 7 đến 9 giờ tối cũng được ạ.",
+     "ctx": "hoithoai"
     }
    ],
    "note": "再配達[さいはいたつ] = giao lại (khi vắng nhà).",
@@ -902,6 +967,11 @@
      "jp": "画面[がめん]に、エラーが表示[ひょうじ]されました。",
      "vi": "Màn hình hiện báo lỗi.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "スーパーで、値段[ねだん]が表示[ひょうじ]されていない商品[しょうひん]があった。",
+     "vi": "Ở siêu thị có món hàng không ghi giá.",
+     "ctx": "doisong"
     }
    ],
    "note": "食品表示[しょくひんひょうじ] = nhãn thông tin thực phẩm.",
@@ -930,6 +1000,11 @@
      "jp": "携帯電話[けいたいでんわ]の使用[しよう]は、禁止[きんし]です。",
      "vi": "Cấm dùng điện thoại di động.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "公園[こうえん]のトイレは、夜[よる]は使用[しよう]できません。",
+     "vi": "Nhà vệ sinh công viên buổi tối không sử dụng được.",
+     "ctx": "doisong"
     }
    ],
    "syn": [
@@ -963,6 +1038,11 @@
      "jp": "新[あたら]しいルールは、四月[しがつ]から実施[じっし]されます。",
      "vi": "Quy định mới áp dụng từ tháng 4.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "来週[らいしゅう]の日曜日[にちようび]に、町内[ちょうない]の清掃[せいそう]を実施[じっし]します。",
+     "vi": "Chủ nhật tuần sau sẽ tiến hành tổng vệ sinh khu phố.",
+     "ctx": "doisong"
     }
    ],
    "vt": "tha"
@@ -1017,6 +1097,11 @@
      "jp": "こちらに、サインをお願[ねが]いします。",
      "vi": "Xin ký vào đây.",
      "ctx": "hoithoai"
+    },
+    {
+     "jp": "賃貸[ちんたい]の契約書[けいやくしょ]の最後[さいご]に、サインしました。",
+     "vi": "Tôi đã ký vào cuối hợp đồng thuê nhà.",
+     "ctx": "thutuc"
     }
    ],
    "syn": [

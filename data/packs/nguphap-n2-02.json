@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -235,6 +235,16 @@
      ],
      "ans": 0,
      "why": "Thông báo trang trọng \"khi…\" → Danh từ + の + 際[さい]は. 際[さい]で sai trợ từ; とたん chỉ đi sau thể た (vừa… thì)."
+    },
+    {
+     "q": "Anh Nguyễn gọi điện cho khách hàng sắp đến thăm xưởng, dặn: khi đến công ty, xin báo tên ở quầy lễ tân.",
+     "opts": [
+      "来社[らいしゃ]する時[とき]は、受付[うけつけ]で名前[なまえ]を言[い]ってね。",
+      "ご来社[らいしゃ]際[さい]は、受付[うけつけ]でお名前[なまえ]をお伝[つた]えください。",
+      "ご来社[らいしゃ]の際[さい]は、受付[うけつけ]でお名前[なまえ]をお伝[つた]えください。"
+     ],
+     "ans": 2,
+     "why": "Hướng dẫn trang trọng cho khách → Danh từ + の + 際[さい]は: ご来社[らいしゃ]の際[さい]は. Thiếu の (来社[らいしゃ]際[さい]) là sai; câu thể thường \"言[い]ってね\" không được nói với khách."
     }
    ],
    "shift": [
@@ -482,6 +492,16 @@
      ],
      "ans": 0,
      "why": "Dịp đặc biệt, trang trọng → Danh từ + に際[さい]して (không の, không にとって)."
+    },
+    {
+     "q": "Phòng nhân sự soạn tờ hướng dẫn cho lao động nước ngoài sắp nghỉ việc về nước: \"Khi về nước, xin trả lại thẻ nhân viên và đồng phục.\"",
+     "opts": [
+      "帰国[きこく]の際[さい]して、社員[しゃいん]証[しょう]と制服[せいふく]を返却[へんきゃく]してください。",
+      "帰国[きこく]に際[さい]して、社員[しゃいん]証[しょう]と制服[せいふく]を返却[へんきゃく]してください。",
+      "帰国[きこく]にとって、社員[しゃいん]証[しょう]と制服[せいふく]を返却[へんきゃく]してください。"
+     ],
+     "ans": 1,
+     "why": "Dịp quan trọng, một lần → Danh từ + に際[さい]して: 帰国[きこく]に際[さい]して. Không chen の (帰国[きこく]の際[さい]して ✗ — muốn dùng の thì 帰国[きこく]の際[さい]に); にとって = \"đối với\"."
     }
    ],
    "shift": [
@@ -728,6 +748,16 @@
      ],
      "ans": 0,
      "why": "Trước thềm việc quan trọng, trang trọng → thể từ điển + にあたって. にとって sai nghĩa; thể た sai."
+    },
+    {
+     "q": "Trong buổi phỏng vấn lên chủ nhiệm, giám đốc xưởng hỏi anh Nguyễn đã chuẩn bị gì. Anh trả lời: để chuẩn bị cho việc làm chủ nhiệm, tôi đã đọc lại toàn bộ sổ tay vệ sinh.",
+     "opts": [
+      "主任[しゅにん]になるにあたって、衛生[えいせい]マニュアルを全部[ぜんぶ]読[よ]み直[なお]しました。",
+      "主任[しゅにん]になったにあたって、衛生[えいせい]マニュアルを全部[ぜんぶ]読[よ]み直[なお]しました。",
+      "主任[しゅにん]になるにとって、衛生[えいせい]マニュアルを全部[ぜんぶ]読[よ]み直[なお]しました。"
+     ],
+     "ans": 0,
+     "why": "Chuẩn bị trước việc quan trọng sắp làm → thể từ điển + にあたって. Không dùng thể た (なったにあたって ✗); にとって = \"đối với\", sai nghĩa."
     }
    ],
    "shift": [

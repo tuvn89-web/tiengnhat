@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -25,7 +25,7 @@
     "Cuối câu (bỏ lửng, tiếc nuối) hoặc giữa câu: 〜ものを、(thực tế trái ý)〜てしまった"
    ],
    "explain": "〜ものを = GIÁ MÀ… THÌ ĐÃ…, VẬY MÀ…: người nói tiếc nuối hoặc trách móc vì sự việc đã không diễn ra như lẽ ra nên thế. Câu thường có dạng \"nếu (đã) làm A thì đã có kết quả tốt B, vậy mà thực tế lại không như vậy\". 電話一本[いっぽん]くれれば駅[えき]まで迎[むか]えに行[い]ったものを = chỉ cần gọi một cuộc là tôi đã ra ga đón rồi, vậy mà (anh không gọi). 素直[すなお]に謝[あやま]ればすむものを、彼[かれ]は言[い]い訳[わけ]ばかりしている = chỉ cần thật lòng xin lỗi là xong, vậy mà anh ta toàn biện minh.\n\nCách ghép: thể thường của động từ, tính từ + ものを (tính từ な thì thêm な). Rất hay đi trong khuôn 〜ば / 〜たら + よかった / いい / 〜た + ものを. Có hai vị trí: (1) CUỐI CÂU, bỏ lửng, để lại dư âm tiếc nuối hoặc trách: 早[はや]く言[い]えばよかったものを…; (2) GIỮA CÂU, vế sau là sự thật trái ý, đáng tiếc: 〜ものを、(thực tế) 〜てしまった / 〜ばかりしている. Vế sau luôn là chuyện không như mong muốn.\n\nMức độ: hơi văn chương, hơi cũ; gặp trong văn viết, tiểu thuyết, và trong lời nói của người lớn tuổi hoặc khi nói nghiêm về lỗi của người khác. Vì mang ý trách, cẩn thận khi nói với cấp trên, khách hàng. Ở dạng rất lịch sự còn gặp 〜ましたものを mang ý tiếc nuối nhẹ nhàng, không trách: お知[し]らせくだされば、お迎[むか]えにあがりましたものを = nếu ngài báo trước thì tôi đã ra đón.\n\nSo với mẫu đã học: 〜のに (N4) cùng ý \"vậy mà\", trung tính, dùng thoải mái khi nói; ものを đậm cảm xúc tiếc / trách hơn và trang trọng hơn. 〜ばよかった (N3-10) chỉ là lời tiếc; ものを thêm ý \"vậy mà (thực tế lại…)\". Đừng nhầm với 〜ものの (N2-27) = \"tuy… nhưng\" (買[か]ったものの、使[つか]っていない).\n\nMẹo nhớ: ものを ≈ のに + tiếng thở dài. Thấy khuôn 〜ば…ものを thì hiểu ngay: \"giá mà…, vậy mà…\".",
-   "casual": "Nói thường: 〜のに / 〜ばよかったのに: 言[い]ってくれたら手伝[てつだ]ったのに. Kansai: 言[い]うてくれたらよかったのに (言[い]うて = 言[い]って).",
+   "casual": "Nói thường: 〜のに / 〜ばよかったのに: 言[い]ってくれたら手伝[てつだ]ったのに. Kansai: 言[ゆ]うてくれたらよかったのに (言[ゆ]うて = 言[い]って).",
    "compare": [
     {
      "pattern": "〜のに（N4）",
@@ -239,14 +239,24 @@
      ],
      "ans": 0,
      "why": "Trách nhẹ \"lẽ ra… vậy mà…\" → ものを, vế sau là điều trái ý. もので = vì… nên (sai nghĩa); ものを không đi với lời cảm ơn."
+    },
+    {
+     "q": "Anh Nguyễn tiếc nuối kể với bạn: giá mà đặt vé máy bay về quê sớm thì đã rẻ rồi, vậy mà tôi quên đến tận sát ngày.",
+     "opts": [
+      "早[はや]く予約[よやく]すれば安[やす]かったものだから、ぎりぎりまで忘[わす]れていた。",
+      "早[はや]く予約[よやく]すれば安[やす]かったものを、ぎりぎりまで忘[わす]れていた。",
+      "早[はや]く予約[よやく]すれば安[やす]かったものの、ぎりぎりまで忘[わす]れていた。"
+     ],
+     "ans": 1,
+     "why": "Giá mà… thì đã…, vậy mà (tiếc nuối) → 〜ば〜ものを. ものの = \"tuy… nhưng\"; ものだから = \"vì…\", đều sai ý."
     }
    ],
    "shift": [
     {
-     "from": "言[い]うてくれたら、駅[えき]まで迎[むか]えに行[い]ったのに。",
+     "from": "言[ゆ]うてくれたら、駅[えき]まで迎[むか]えに行[い]ったのに。",
      "to": "お知[し]らせくだされば、駅[えき]までお迎[むか]えにあがりましたものを。",
      "kind": "kansai",
-     "note": "Kansai: 言[い]うて = 言[い]って. Rất lịch sự, tiếc nuối nhẹ nhàng (chủ nhà nói với khách): 〜くだされば…ましたものを.",
+     "note": "Kansai: 言[ゆ]うて = 言[い]って. Rất lịch sự, tiếc nuối nhẹ nhàng (chủ nhà nói với khách): 〜くだされば…ましたものを.",
      "wrong": [
       "お知[し]らせくだされば、駅[えき]までお迎[むか]えにあがりましたもので。",
       "お知[し]らせくだされば、駅[えき]までお迎[むか]えにあがりましたものの。"
@@ -488,6 +498,16 @@
      ],
      "ans": 0,
      "why": "Khuôn cố định trong thư xin lỗi: 本来[ほんらい]ならば〜べきところを、〜にて失礼[しつれい]いたします. ところに = đúng lúc đó thì…; ところが = thế nhưng (liên từ đứng đầu câu) — đều sai ở đây."
+    },
+    {
+     "q": "Mở đầu buổi họp với khách hàng, anh Nguyễn (chủ nhiệm) cảm ơn: dù quý vị đang bận vẫn dành thời gian cho chúng tôi.",
+     "opts": [
+      "お忙[いそが]しいところに、お時間[じかん]をいただきありがとうございます。",
+      "お忙[いそが]しいところで、お時間[じかん]をいただきありがとうございます。",
+      "お忙[いそが]しいところを、お時間[じかん]をいただきありがとうございます。"
+     ],
+     "ans": 2,
+     "why": "Lời cảm ơn \"dù đang bận…\" → お忙[いそが]しいところを. Trong lời cảm ơn, xin lỗi không dùng ところに hay ところで."
     }
    ],
    "shift": [
@@ -740,6 +760,16 @@
      ],
      "ans": 0,
      "why": "Kết quả trái dự đoán, văn viết bản tin → と思[おも]いきや. と思[おも]って = vì nghĩ… nên (sai nghĩa); kết quả đúng như dự đoán thì không dùng と思[おも]いきや."
+    },
+    {
+     "q": "Anh Nguyễn viết báo cáo tuần (giọng bình luận) về đợt kiểm tra của trung tâm y tế: cứ tưởng năm nay sẽ kiểm tra gắt, ai ngờ xong rất nhanh.",
+     "opts": [
+      "今年[ことし]の検査[けんさ]は厳[きび]しいと思[おも]いきや、意外[いがい]にもすぐに終[お]わった。",
+      "今年[ことし]の検査[けんさ]は厳[きび]しいと思[おも]いきって、意外[いがい]にもすぐに終[お]わった。",
+      "今年[ことし]の検査[けんさ]は厳[きび]しいと思[おも]いきや、やはり厳[きび]しかった。"
+     ],
+     "ans": 0,
+     "why": "Tưởng… ai ngờ (trái dự đoán) → と思[おも]いきや. 思[おも]いきって = \"mạnh dạn\", khác từ; vế sau đúng như dự đoán là sai mẫu."
     }
    ],
    "shift": [

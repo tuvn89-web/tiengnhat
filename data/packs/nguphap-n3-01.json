@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "Trước khi điều xấu xảy ra → 〜ないうちに."
+    },
+    {
+     "q": "Tan ca chiều mùa đông, anh Nguyễn rủ đồng nghiệp đi xe đạp về cùng: đường tối nguy hiểm, mình về lúc trời còn sáng đi.",
+     "opts": [
+      "明[あか]るかったうちに帰[かえ]ろう。",
+      "明[あか]るいうちに帰[かえ]ろう。",
+      "明[あか]るいのうちに帰[かえ]ろう。"
+     ],
+     "ans": 1,
+     "why": "Tranh thủ lúc trạng thái còn đó → tính từ い + うちに: 明[あか]るいうちに. Không dùng thể た; tính từ い không thêm の."
     }
    ],
    "shift": [
@@ -484,6 +494,16 @@
      ],
      "ans": 0,
      "why": "Việc kéo dài suốt khoảng đó (trông máy) → 〜間[あいだ]."
+    },
+    {
+     "q": "Anh Nguyễn sắp về Việt Nam hai tuần nghỉ hè. Anh gọi cho công ty quản lý nhà nhờ: trong thời gian nghỉ hè, sửa giúp điều hòa trong phòng.",
+     "opts": [
+      "夏休[なつやす]み間[あいだ]に、エアコンを直[なお]していただけませんか。",
+      "夏休[なつやす]みの間[あいだ]に、エアコンを直[なお]していただけませんか。",
+      "夏休[なつやす]みの間[あいだ]を、エアコンを直[なお]していただけませんか。"
+     ],
+     "ans": 1,
+     "why": "Một việc làm xong trong khoảng thời gian → danh từ + の + 間[あいだ]に. Danh từ phải có の; không dùng trợ từ を sau 間[あいだ]."
     }
    ],
    "shift": [
@@ -726,6 +746,16 @@
      ],
      "ans": 0,
      "why": "Đang dở tay → 〜ている最中[さいちゅう]."
+    },
+    {
+     "q": "Tổ trưởng gọi hai cuộc mà anh Nguyễn không nghe máy. Gặp lại, anh xin lỗi: lúc đó tôi đang giữa buổi khám ở bệnh viện nên không nghe được.",
+     "opts": [
+      "すみません、病院[びょういん]で診察[しんさつ]の最中[さいちゅう]だったので、電話[でんわ]に出[で]られませんでした。",
+      "すみません、病院[びょういん]で診察[しんさつ]最中[さいちゅう]だったので、電話[でんわ]に出[で]られませんでした。",
+      "すみません、病院[びょういん]で診察[しんさつ]する最中[さいちゅう]だったので、電話[でんわ]に出[で]られませんでした。"
+     ],
+     "ans": 0,
+     "why": "Đang giữa chừng thì việc khác chen vào → danh từ + の + 最中[さいちゅう]. Danh từ phải có の; động từ phải ở thể ている (診察[しんさつ]を受[う]けている最中[さいちゅう]), không dùng thể từ điển."
     }
    ],
    "shift": [

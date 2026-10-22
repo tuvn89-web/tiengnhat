@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Đoán dựa vào căn cứ → N + からすると."
+    },
+    {
+     "q": "Trong buổi họp góp ý sổ hướng dẫn mới, anh Nguyễn (chủ nhiệm) nói với trưởng phòng: nhìn từ phía người nước ngoài thì sổ này có quá nhiều chữ Hán.",
+     "opts": [
+      "外国人[がいこくじん]からするば、このマニュアルは漢字[かんじ]が多[おお]すぎます。",
+      "外国人[がいこくじん]からすれば、このマニュアルは漢字[かんじ]が多[おお]すぎます。",
+      "外国人[がいこくじん]のからすれば、このマニュアルは漢字[かんじ]が多[おお]すぎます。"
+     ],
+     "ans": 1,
+     "why": "Nhìn từ lập trường của… → Danh từ + からすれば (thể ば của する là すれば). するば là chia sai; không chen の trước から."
     }
    ],
    "shift": [
@@ -473,6 +483,16 @@
      ],
      "ans": 0,
      "why": "Đoán cảm nghĩ, lập trường của người khác → N (người) + にしたら."
+    },
+    {
+     "q": "Bàn chuyện chuyển nhà với vợ, anh Nguyễn nói: đứng ở vị trí thằng bé mà nghĩ thì chuyển trường chắc lo lắm.",
+     "opts": [
+      "息子[むすこ]にしれば、転校[てんこう]は不安[ふあん]だろうね。",
+      "息子[むすこ]にするば、転校[てんこう]は不安[ふあん]だろうね。",
+      "息子[むすこ]にすれば、転校[てんこう]は不安[ふあん]だろうね。"
+     ],
+     "ans": 2,
+     "why": "Đoán cảm nghĩ của một người → Người + にすれば. Thể ば của する là すれば; しれば, するば đều chia sai."
     }
    ],
    "shift": [
@@ -706,6 +726,16 @@
      ],
      "ans": 0,
      "why": "Ngay từ cái cơ bản nhất đã… (chê) → N + からして."
+    },
+    {
+     "q": "Ăn trưa ở quán mì gần xưởng, đồng nghiệp gọi món \"激辛[げきから]ラーメン\". Anh Nguyễn cười: ngay từ cái tên đã thấy cay rồi.",
+     "opts": [
+      "名前[なまえ]のからして、辛[から]そうだね。",
+      "名前[なまえ]からして、辛[から]そうだね。",
+      "名前[なまえ]からには、辛[から]そうだね。"
+     ],
+     "ans": 1,
+     "why": "Ngay từ cái cơ bản nhất đã… → Danh từ + からして. Không chen の; からには = \"đã… thì phải…\", sai nghĩa."
     }
    ],
    "shift": [

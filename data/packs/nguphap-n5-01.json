@@ -1,514 +1,514 @@
 {
-  "schema": 1,
-  "pack": {
-    "id": "nguphap-n5-01",
-    "title": "Ngữ pháp N5 01 – Nhờ và nhờ đừng: てください・ないでください",
-    "type": "grammar",
-    "level": "N5",
-    "topics": [
-      "jlpt"
-    ],
-    "version": 5,
-    "created": "2026-10-08",
-    "verified_on": "",
-    "note": "Gói mẫu, có sẵn dữ liệu bài tập. Hai mẫu gặp nhiều nhất trong lời chỉ dẫn ở xưởng. Các mẫu xin phép, cấm, bắt buộc đã chuyển sang nguphap-n5-08 và nguphap-n5-12."
-  },
-  "items": [
+ "schema": 1,
+ "pack": {
+  "id": "nguphap-n5-01",
+  "title": "Ngữ pháp N5 01 – Nhờ và nhờ đừng: てください・ないでください",
+  "type": "grammar",
+  "level": "N5",
+  "topics": [
+   "jlpt"
+  ],
+  "version": 6,
+  "created": "2026-10-08",
+  "verified_on": "",
+  "note": "Gói mẫu, có sẵn dữ liệu bài tập. Hai mẫu gặp nhiều nhất trong lời chỉ dẫn ở xưởng. Các mẫu xin phép, cấm, bắt buộc đã chuyển sang nguphap-n5-08 và nguphap-n5-12."
+ },
+ "items": [
+  {
+   "id": "g:〜てください",
+   "pattern": "〜てください",
+   "level": "N5",
+   "meaning": "Hãy (làm gì) / làm ơn (làm gì) — nhờ hoặc yêu cầu một cách lịch sự",
+   "structure": [
+    "Động từ thể て + ください",
+    "洗[あら]う (rửa) → 洗[あら]って → 洗[あら]ってください",
+    "見[み]る (xem) → 見[み]て → 見[み]てください",
+    "する (làm) → して → してください"
+   ],
+   "explain": "〜てください dùng khi muốn người nghe làm một việc gì đó. Câu ở thể lịch sự (です/ます) nên dùng được với người lạ, khách hàng, đồng nghiệp. Trong xưởng, quản đốc, biển hướng dẫn và nhân viên quầy hành chính dùng mẫu này rất nhiều để chỉ dẫn từng bước: rửa tay, đội mũ, ghi chép, điền đơn.\n\nTuy lịch sự nhưng bản chất vẫn là YÊU CẦU. Người ở vị trí được quyền chỉ dẫn (cấp trên, nhân viên quầy, biển báo) dùng thoải mái. Còn khi chính mình muốn nhờ cấp trên hay người lớn tuổi làm giúp việc gì, nên dùng dạng mềm hơn: 〜ていただけませんか (Anh/chị có thể … giúp em được không ạ?).\n\nMấu chốt là chia đúng thể て. Nhóm 1: đuôi う・つ・る → って (洗[あら]う→洗[あら]って, 待[ま]つ→待[ま]って, 切[き]る→切[き]って); đuôi む・ぶ・ぬ → んで (読[よ]む→読[よ]んで); đuôi く → いて (書[か]く→書[か]いて, riêng 行[い]く→行[い]って); đuôi ぐ → いで (急[いそ]ぐ→急[いそ]いで); đuôi す → して (出[だ]す→出[だ]して). Nhóm 2: bỏ る thêm て (見[み]る→見[み]て, 入[い]れる→入[い]れて). Nhóm 3: する→して, 来[く]る→来[き]て.\n\nMẹo nhớ: nghe thấy tiếng cuối câu là ください thì đó là lời người ta muốn mình LÀM việc gì — hãy nghe kỹ động từ đứng ngay trước nó. Ngoài ra どうぞ〜てください còn là lời mời: どうぞ座[すわ]ってください = mời anh ngồi.",
+   "casual": "Bỏ ください, chỉ còn thể て — quản đốc nói gấp hay dùng: 洗[あら]って！ 早[はや]くして！ Thêm な/ね cho mềm: 片付[かたづ]けてな。 Kansai: はよして！ (nhanh lên).",
+   "compare": [
     {
-      "id": "g:〜てください",
-      "pattern": "〜てください",
-      "level": "N5",
-      "meaning": "Hãy (làm gì) / làm ơn (làm gì) — nhờ hoặc yêu cầu một cách lịch sự",
-      "structure": [
-        "Động từ thể て + ください",
-        "洗[あら]う (rửa) → 洗[あら]って → 洗[あら]ってください",
-        "見[み]る (xem) → 見[み]て → 見[み]てください",
-        "する (làm) → して → してください"
-      ],
-      "explain": "〜てください dùng khi muốn người nghe làm một việc gì đó. Câu ở thể lịch sự (です/ます) nên dùng được với người lạ, khách hàng, đồng nghiệp. Trong xưởng, quản đốc, biển hướng dẫn và nhân viên quầy hành chính dùng mẫu này rất nhiều để chỉ dẫn từng bước: rửa tay, đội mũ, ghi chép, điền đơn.\n\nTuy lịch sự nhưng bản chất vẫn là YÊU CẦU. Người ở vị trí được quyền chỉ dẫn (cấp trên, nhân viên quầy, biển báo) dùng thoải mái. Còn khi chính mình muốn nhờ cấp trên hay người lớn tuổi làm giúp việc gì, nên dùng dạng mềm hơn: 〜ていただけませんか (Anh/chị có thể … giúp em được không ạ?).\n\nMấu chốt là chia đúng thể て. Nhóm 1: đuôi う・つ・る → って (洗[あら]う→洗[あら]って, 待[ま]つ→待[ま]って, 切[き]る→切[き]って); đuôi む・ぶ・ぬ → んで (読[よ]む→読[よ]んで); đuôi く → いて (書[か]く→書[か]いて, riêng 行[い]く→行[い]って); đuôi ぐ → いで (急[いそ]ぐ→急[いそ]いで); đuôi す → して (出[だ]す→出[だ]して). Nhóm 2: bỏ る thêm て (見[み]る→見[み]て, 入[い]れる→入[い]れて). Nhóm 3: する→して, 来[く]る→来[き]て.\n\nMẹo nhớ: nghe thấy tiếng cuối câu là ください thì đó là lời người ta muốn mình LÀM việc gì — hãy nghe kỹ động từ đứng ngay trước nó. Ngoài ra どうぞ〜てください còn là lời mời: どうぞ座[すわ]ってください = mời anh ngồi.",
-      "casual": "Bỏ ください, chỉ còn thể て — quản đốc nói gấp hay dùng: 洗[あら]って！ 早[はや]くして！ Thêm な/ね cho mềm: 片付[かたづ]けてな。 Kansai: はよして！ (nhanh lên).",
-      "compare": [
-        {
-          "pattern": "〜ていただけませんか / 〜てくださいませんか",
-          "diff": "Lịch sự và mềm hơn nhiều, ở dạng câu hỏi. Dùng khi mình nhờ cấp trên, người lớn, nhân viên quầy."
-        },
-        {
-          "pattern": "〜なさい",
-          "diff": "Mệnh lệnh của người trên với người dưới (bố mẹ với con, giáo viên với học sinh). Không dùng với cấp trên hay khách."
-        }
-      ],
-      "mistakes": [
-        "Chia sai thể て: 洗[あら]う → ×洗[あら]いて, đúng là 洗[あら]って; 行[い]く → ×行[い]いて, đúng là 行[い]って.",
-        "Dùng 〜てください để nhờ cấp trên việc riêng — nghe như ra lệnh. Nên dùng 〜ていただけませんか.",
-        "Quên rằng どうぞ〜てください là lời mời, tưởng là bị yêu cầu."
-      ],
-      "ex": [
-        {
-          "jp": "ここに名前[なまえ]を[[書[か]いてください]]。",
-          "vi": "Hãy viết tên vào đây.",
-          "ctx": "doisong",
-          "chunks": [
-            "ここに",
-            "名前[なまえ]を",
-            "書[か]いてください"
-          ],
-          "wrong": [
-            "書[か]きてください",
-            "書[か]くてください",
-            "書[か]かないでください"
-          ]
-        },
-        {
-          "jp": "すみません、もう一度[いちど][[言[い]ってください]]。",
-          "vi": "Xin lỗi, xin hãy nói lại một lần nữa.",
-          "ctx": "doisong",
-          "chunks": [
-            "すみません、",
-            "もう一度[いちど]",
-            "言[い]ってください"
-          ],
-          "wrong": [
-            "言[い]いてください",
-            "言[い]うてください",
-            "言[い]わないでください"
-          ]
-        },
-        {
-          "jp": "駅[えき]まで[[行[い]ってください]]。",
-          "vi": "Cho tôi đến nhà ga. (nói với tài xế taxi)",
-          "ctx": "doisong",
-          "wrong": [
-            "行[い]きてください",
-            "行[い]いてください",
-            "行[い]かないでください"
-          ]
-        },
-        {
-          "jp": "ゴミは月曜日[げつようび]の朝[あさ]に[[出[だ]してください]]。",
-          "vi": "Hãy đổ rác vào sáng thứ Hai.",
-          "ctx": "doisong",
-          "chunks": [
-            "ゴミは",
-            "月曜日[げつようび]の",
-            "朝[あさ]に",
-            "出[だ]してください"
-          ],
-          "wrong": [
-            "出[だ]いてください",
-            "出[だ]すてください",
-            "出[だ]さないでください"
-          ]
-        },
-        {
-          "jp": "作業[さぎょう]の前[まえ]に手[て]を[[洗[あら]ってください]]。",
-          "vi": "Trước khi làm việc hãy rửa tay.",
-          "ctx": "xuong",
-          "chunks": [
-            "作業[さぎょう]の",
-            "前[まえ]に",
-            "手[て]を",
-            "洗[あら]ってください"
-          ],
-          "wrong": [
-            "洗[あら]いてください",
-            "洗[あら]うてください",
-            "洗[あら]わないでください"
-          ]
-        },
-        {
-          "jp": "帽子[ぼうし]とマスクを[[つけてください]]。",
-          "vi": "Hãy đội mũ và đeo khẩu trang.",
-          "ctx": "xuong",
-          "chunks": [
-            "帽子[ぼうし]と",
-            "マスクを",
-            "つけてください"
-          ],
-          "wrong": [
-            "つけってください",
-            "つけいてください",
-            "つけないでください"
-          ]
-        },
-        {
-          "jp": "冷蔵庫[れいぞうこ]の温度[おんど]を[[記録[きろく]してください]]。",
-          "vi": "Hãy ghi lại nhiệt độ tủ mát.",
-          "ctx": "xuong",
-          "chunks": [
-            "冷蔵庫[れいぞうこ]の",
-            "温度[おんど]を",
-            "記録[きろく]してください"
-          ],
-          "wrong": [
-            "記録[きろく]しいてください",
-            "記録[きろく]するてください",
-            "記録[きろく]しないでください"
-          ]
-        },
-        {
-          "jp": "在留[ざいりゅう]カードを[[見[み]せてください]]。",
-          "vi": "Vui lòng cho xem thẻ cư trú.",
-          "ctx": "thutuc",
-          "wrong": [
-            "見[み]せいてください",
-            "見[み]せるてください",
-            "見[み]せないでください"
-          ]
-        },
-        {
-          "jp": "この申請書[しんせいしょ]に住所[じゅうしょ]を[[記入[きにゅう]してください]]。",
-          "vi": "Hãy điền địa chỉ vào mẫu đơn này.",
-          "ctx": "thutuc",
-          "chunks": [
-            "この",
-            "申請書[しんせいしょ]に",
-            "住所[じゅうしょ]を",
-            "記入[きにゅう]してください"
-          ],
-          "wrong": [
-            "記入[きにゅう]しいてください",
-            "記入[きにゅう]するてください",
-            "記入[きにゅう]しないでください"
-          ]
-        },
-        {
-          "jp": "A：これ、どこに置[お]きますか。B：冷蔵庫[れいぞうこ]に[[入[い]れてください]]。",
-          "vi": "A: Cái này để đâu ạ? B: Hãy cho vào tủ mát.",
-          "ctx": "hoithoai",
-          "wrong": [
-            "入[い]りてください",
-            "入[い]れってください",
-            "入[い]れないでください"
-          ]
-        }
-      ],
-      "errs": [
-        {
-          "chunks": [
-            "ここに",
-            "名前[なまえ]を",
-            "書[か]きてください"
-          ],
-          "vi": "Hãy viết tên vào đây.",
-          "bad": 2,
-          "fix": "書[か]いてください",
-          "why": "Động từ nhóm 1 đuôi く đổi thành いて: 書[か]く → 書[か]いて. Không ghép thể ます 書[か]き với て."
-        },
-        {
-          "chunks": [
-            "ここで",
-            "少[すこ]し",
-            "待[ま]ちてください"
-          ],
-          "vi": "Hãy chờ ở đây một chút.",
-          "bad": 2,
-          "fix": "待[ま]ってください",
-          "why": "Đuôi つ đổi thành って: 待[ま]つ → 待[ま]って."
-        },
-        {
-          "chunks": [
-            "作業[さぎょう]の前[まえ]に",
-            "手[て]が",
-            "洗[あら]ってください"
-          ],
-          "vi": "Trước khi làm việc, hãy rửa tay.",
-          "bad": 1,
-          "fix": "手[て]を",
-          "why": "Tay là thứ bị rửa (đối tượng của hành động) → dùng を, không dùng が."
-        }
-      ],
-      "situ": [
-        {
-          "q": "Bạn muốn nhờ đồng nghiệp người Nhật nói chậm lại.",
-          "opts": [
-            "ゆっくり話[はな]してください。",
-            "ゆっくり話[はな]しなさい。",
-            "ゆっくり話[はな]さないでください。"
-          ],
-          "ans": 0,
-          "why": "〜てください là lời nhờ lịch sự. 〜なさい là mệnh lệnh của người trên với người dưới; 〜ないでください là \"đừng\"."
-        },
-        {
-          "q": "Bạn nhờ trưởng ca (cấp trên) kiểm tra giúp nhãn hàng, muốn nói thật lịch sự.",
-          "opts": [
-            "ラベルを確認[かくにん]していただけませんか。",
-            "ラベルを確認[かくにん]しろ。",
-            "ラベルを確認[かくにん]しなさい。"
-          ],
-          "ans": 0,
-          "why": "Với cấp trên, dạng hỏi 〜ていただけませんか mềm và lịch sự hơn 〜てください. 〜しろ và 〜なさい là ra lệnh — không dùng với cấp trên."
-        }
-      ],
-      "shift": [
-        {
-          "from": "ちょっと待[ま]って。",
-          "to": "ちょっと待[ま]ってください。",
-          "kind": "lichsu",
-          "note": "Bỏ ください là cách nhờ thân mật giữa bạn bè, người nhà. Ở chỗ làm, với cấp trên nên nói đủ 〜てください.",
-          "wrong": [
-            "ちょっと待[ま]ちてください。",
-            "ちょっと待[ま]ちなさい。"
-          ]
-        },
-        {
-          "from": "これ、見[み]て。",
-          "to": "これを見[み]てください。",
-          "kind": "lichsu",
-          "note": "見[み]て！ là nhờ thân mật. Lịch sự: 見[み]てください.",
-          "wrong": [
-            "これを見[み]るください。",
-            "これを見[み]ないでください。"
-          ]
-        }
-      ]
+     "pattern": "〜ていただけませんか / 〜てくださいませんか",
+     "diff": "Lịch sự và mềm hơn nhiều, ở dạng câu hỏi. Dùng khi mình nhờ cấp trên, người lớn, nhân viên quầy."
     },
     {
-      "id": "g:〜ないでください",
-      "pattern": "〜ないでください",
-      "level": "N5",
-      "meaning": "Đừng (làm gì) / xin đừng (làm gì) — cấm hoặc khuyên không làm, một cách lịch sự",
-      "structure": [
-        "Động từ thể ない + でください",
-        "触[さわ]る (chạm) → 触[さわ]らない → 触[さわ]らないでください",
-        "入[い]れる (cho vào) → 入[い]れない → 入[い]れないでください",
-        "する (làm) → しない → しないでください"
-      ],
-      "explain": "〜ないでください dùng khi muốn người nghe ĐỪNG làm việc gì. Đây là mẫu xuất hiện dày đặc trên biển báo trong xưởng, nơi công cộng và trong nội quy khu nhà ở: đừng chạm vào máy, đừng chạy, đừng vứt rác sai chỗ.\n\nMức độ: lịch sự, nhẹ nhàng, giống như lời nhắc. Khi là quy định bắt buộc, người Nhật hay dùng 〜てはいけません (không được phép) — mạnh và khách quan hơn. Khi nguy hiểm gấp, quản đốc có thể hét ngắn: 触[さわ]るな！ (đừng chạm!).\n\nMấu chốt là chia thể ない. Nhóm 1: đổi âm cuối hàng う sang hàng あ rồi thêm ない (触[さわ]る→触[さわ]らない, 書[か]く→書[か]かない, 待[ま]つ→待[ま]たない); RIÊNG đuôi う đổi thành わ chứ không phải あ (洗[あら]う→洗[あら]わない, 使[つか]う→使[つか]わない). Nhóm 2: bỏ る thêm ない (見[み]る→見[み]ない, 入[い]れる→入[い]れない). Nhóm 3: する→しない, 来[く]る→来[こ]ない.\n\nCẩn thận vài động từ trông như nhóm 2 nhưng là nhóm 1: 入[はい]る (đi vào) → 入[はい]らない; 帰[かえ]る → 帰[かえ]らない; 切[き]る (cắt) → 切[き]らない. Mẹo nhớ: đuôi câu nghe thấy ないで là lời CẤM — dừng tay lại trước, hỏi sau.",
-      "casual": "Bỏ ください: 触[さわ]らないで！ Mạnh và thô hơn (nam giới, lúc gấp): 触[さわ]るな！ Kansai: 触[さわ]ったらあかん！ (không được chạm!).",
-      "compare": [
-        {
-          "pattern": "〜てはいけません",
-          "diff": "Nói về quy định, điều cấm chung — mạnh và khách quan hơn. Nội quy, biển cấm hay dùng."
-        },
-        {
-          "pattern": "〜な (触[さわ]るな)",
-          "diff": "Cấm đoán ngắn, mạnh. Nghe khi có nguy hiểm gấp hoặc giữa nam giới thân nhau. Không dùng với cấp trên."
-        }
-      ],
-      "mistakes": [
-        "Chia sai thể ない với động từ đuôi う: 洗[あら]う → ×洗[あら]あない, đúng là 洗[あら]わない.",
-        "Tưởng 入[はい]る là nhóm 2 nên chia ×入[はい]ない; đúng là 入[はい]らない.",
-        "Nghe 〜ないで (bỏ ください) tưởng câu chưa nói hết — thật ra đó đã là lời cấm."
-      ],
-      "ex": [
-        {
-          "jp": "ここに自転車[じてんしゃ]を[[止[と]めないでください]]。",
-          "vi": "Đừng đỗ xe đạp ở đây.",
-          "ctx": "doisong",
-          "chunks": [
-            "ここに",
-            "自転車[じてんしゃ]を",
-            "止[と]めないでください"
-          ],
-          "wrong": [
-            "止[と]めるないでください",
-            "止[と]めなくてください",
-            "止[と]めてください"
-          ]
-        },
-        {
-          "jp": "電車[でんしゃ]の中[なか]で[[電話[でんわ]しないでください]]。",
-          "vi": "Đừng gọi điện trên tàu.",
-          "ctx": "doisong",
-          "chunks": [
-            "電車[でんしゃ]の",
-            "中[なか]で",
-            "電話[でんわ]しないでください"
-          ],
-          "wrong": [
-            "電話[でんわ]すないでください",
-            "電話[でんわ]しなくてください",
-            "電話[でんわ]してください"
-          ]
-        },
-        {
-          "jp": "夜[よる]遅[おそ]くに[[洗濯[せんたく]しないでください]]。",
-          "vi": "Đừng giặt đồ vào đêm muộn.",
-          "ctx": "doisong",
-          "chunks": [
-            "夜[よる]",
-            "遅[おそ]くに",
-            "洗濯[せんたく]しないでください"
-          ],
-          "wrong": [
-            "洗濯[せんたく]さないでください",
-            "洗濯[せんたく]しなくでください",
-            "洗濯[せんたく]してください"
-          ]
-        },
-        {
-          "jp": "燃[も]えるゴミに瓶[びん]を[[入[い]れないでください]]。",
-          "vi": "Đừng bỏ chai lọ vào rác cháy được.",
-          "ctx": "doisong",
-          "chunks": [
-            "燃[も]えるゴミに",
-            "瓶[びん]を",
-            "入[い]れないでください"
-          ],
-          "wrong": [
-            "入[い]れるないでください",
-            "入[い]らないでください",
-            "入[い]れてください"
-          ]
-        },
-        {
-          "jp": "作業場[さぎょうば]で[[走[はし]らないでください]]。",
-          "vi": "Đừng chạy trong khu làm việc.",
-          "ctx": "xuong",
-          "wrong": [
-            "走[はし]りないでください",
-            "走[はし]るないでください",
-            "走[はし]ってください"
-          ]
-        },
-        {
-          "jp": "機械[きかい]が動[うご]いている時[とき]は[[触[さわ]らないでください]]。",
-          "vi": "Khi máy đang chạy, đừng chạm vào.",
-          "ctx": "xuong",
-          "chunks": [
-            "機械[きかい]が",
-            "動[うご]いている",
-            "時[とき]は",
-            "触[さわ]らないでください"
-          ],
-          "wrong": [
-            "触[さわ]りないでください",
-            "触[さわ]るないでください",
-            "触[さわ]ってください"
-          ]
-        },
-        {
-          "jp": "生食用[せいしょくよう]と加熱用[かねつよう]を[[混[ま]ぜないでください]]。",
-          "vi": "Đừng để lẫn hàng ăn sống với hàng dùng để nấu chín.",
-          "ctx": "xuong",
-          "chunks": [
-            "生食用[せいしょくよう]と",
-            "加熱用[かねつよう]を",
-            "混[ま]ぜないでください"
-          ],
-          "wrong": [
-            "混[ま]ぜるないでください",
-            "混[ま]ざらないでください",
-            "混[ま]ぜてください"
-          ]
-        },
-        {
-          "jp": "書類[しょるい]を[[忘[わす]れないでください]]。",
-          "vi": "Đừng quên giấy tờ.",
-          "ctx": "thutuc",
-          "wrong": [
-            "忘[わす]らないでください",
-            "忘[わす]れなくてください",
-            "忘[わす]れてください"
-          ]
-        },
-        {
-          "jp": "太[ふと]い線[せん]の中[なか]には[[書[か]かないでください]]。",
-          "vi": "Đừng viết vào trong khung kẻ đậm.",
-          "ctx": "thutuc",
-          "chunks": [
-            "太[ふと]い",
-            "線[せん]の",
-            "中[なか]には",
-            "書[か]かないでください"
-          ],
-          "wrong": [
-            "書[か]きないでください",
-            "書[か]くないでください",
-            "書[か]いてください"
-          ]
-        },
-        {
-          "jp": "A：手袋[てぶくろ]、外[はず]してもいいですか。B：いいえ、[[外[はず]さないでください]]。",
-          "vi": "A: Tôi tháo găng tay được không? B: Không, đừng tháo.",
-          "ctx": "hoithoai",
-          "wrong": [
-            "外[はず]しないでください",
-            "外[はず]すないでください",
-            "外[はず]してください"
-          ]
-        }
-      ],
-      "errs": [
-        {
-          "chunks": [
-            "ここで",
-            "たばこを",
-            "吸[す]いないでください"
-          ],
-          "vi": "Đừng hút thuốc ở đây.",
-          "bad": 2,
-          "fix": "吸[す]わないでください",
-          "why": "Nhóm 1 đuôi う: う → わ rồi thêm ない: 吸[す]う → 吸[す]わない. Không phải 吸[す]いない."
-        },
-        {
-          "chunks": [
-            "ここに",
-            "荷物[にもつ]を",
-            "置[お]かなくでください"
-          ],
-          "vi": "Đừng để hành lý ở đây.",
-          "bad": 2,
-          "fix": "置[お]かないでください",
-          "why": "Mẫu là ない + で + ください. Dạng なくて dùng cho mẫu khác (〜なくてもいいです)."
-        },
-        {
-          "chunks": [
-            "動[うご]いている",
-            "機械[きかい]に",
-            "触[さわ]りないでください"
-          ],
-          "vi": "Đừng chạm vào máy đang chạy.",
-          "bad": 2,
-          "fix": "触[さわ]らないでください",
-          "why": "触[さわ]る là nhóm 1 (đuôi る nhưng chia như nhóm 1): る → ら + ない."
-        }
-      ],
-      "situ": [
-        {
-          "q": "Đồng nghiệp mới định đặt dao lên bàn để cá ăn sống. Bạn nhắc lịch sự: \"Đừng đặt ở đó.\"",
-          "opts": [
-            "そこに置[お]かないでください。",
-            "そこに置[お]いてください。",
-            "そこに置[お]きないでください。",
-            "そこに置[お]くな。"
-          ],
-          "ans": 0,
-          "why": "置[お]いてください là \"hãy đặt\"; 置[お]きないで chia sai; 置[お]くな là cấm rất mạnh, chỉ dùng khi nguy hiểm gấp."
-        },
-        {
-          "q": "Máy cắt đang chạy, một người sắp thò tay vào. Cần hét thật ngắn để ngăn ngay.",
-          "opts": [
-            "触[さわ]るな！",
-            "触[さわ]らないでいただけませんか。",
-            "触[さわ]ってもいいですか。"
-          ],
-          "ans": 0,
-          "why": "Lúc nguy hiểm gấp, câu cấm ngắn 〜な được dùng để cảnh báo. 〜ないでいただけませんか quá dài và mềm cho lúc khẩn cấp."
-        }
-      ],
-      "shift": [
-        {
-          "from": "触[さわ]らないで。",
-          "to": "触[さわ]らないでください。",
-          "kind": "lichsu",
-          "note": "Bỏ ください là cách nói thân mật. Với khách, cấp trên nói đủ 〜ないでください.",
-          "wrong": [
-            "触[さわ]ってください。",
-            "触[さわ]りないでください。"
-          ]
-        },
-        {
-          "from": "触[さわ]らんといて。",
-          "to": "触[さわ]らないでください。",
-          "kind": "kansai",
-          "note": "Kansai: 〜んといて = 〜ないで (đừng …). Rất hay nghe ở xưởng vùng Kansai.",
-          "wrong": [
-            "触[さわ]ってください。",
-            "触[さわ]ってもいいです。"
-          ]
-        }
-      ]
+     "pattern": "〜なさい",
+     "diff": "Mệnh lệnh của người trên với người dưới (bố mẹ với con, giáo viên với học sinh). Không dùng với cấp trên hay khách."
     }
-  ]
+   ],
+   "mistakes": [
+    "Chia sai thể て: 洗[あら]う → ×洗[あら]いて, đúng là 洗[あら]って; 行[い]く → ×行[い]いて, đúng là 行[い]って.",
+    "Dùng 〜てください để nhờ cấp trên việc riêng — nghe như ra lệnh. Nên dùng 〜ていただけませんか.",
+    "Quên rằng どうぞ〜てください là lời mời, tưởng là bị yêu cầu."
+   ],
+   "ex": [
+    {
+     "jp": "ここに名前[なまえ]を[[書[か]いてください]]。",
+     "vi": "Hãy viết tên vào đây.",
+     "ctx": "doisong",
+     "chunks": [
+      "ここに",
+      "名前[なまえ]を",
+      "書[か]いてください"
+     ],
+     "wrong": [
+      "書[か]きてください",
+      "書[か]くてください",
+      "書[か]かないでください"
+     ]
+    },
+    {
+     "jp": "すみません、もう一度[いちど][[言[い]ってください]]。",
+     "vi": "Xin lỗi, xin hãy nói lại một lần nữa.",
+     "ctx": "doisong",
+     "chunks": [
+      "すみません、",
+      "もう一度[いちど]",
+      "言[い]ってください"
+     ],
+     "wrong": [
+      "言[い]いてください",
+      "言[ゆ]うてください",
+      "言[い]わないでください"
+     ]
+    },
+    {
+     "jp": "駅[えき]まで[[行[い]ってください]]。",
+     "vi": "Cho tôi đến nhà ga. (nói với tài xế taxi)",
+     "ctx": "doisong",
+     "wrong": [
+      "行[い]きてください",
+      "行[い]いてください",
+      "行[い]かないでください"
+     ]
+    },
+    {
+     "jp": "ゴミは月曜日[げつようび]の朝[あさ]に[[出[だ]してください]]。",
+     "vi": "Hãy đổ rác vào sáng thứ Hai.",
+     "ctx": "doisong",
+     "chunks": [
+      "ゴミは",
+      "月曜日[げつようび]の",
+      "朝[あさ]に",
+      "出[だ]してください"
+     ],
+     "wrong": [
+      "出[だ]いてください",
+      "出[だ]すてください",
+      "出[だ]さないでください"
+     ]
+    },
+    {
+     "jp": "作業[さぎょう]の前[まえ]に手[て]を[[洗[あら]ってください]]。",
+     "vi": "Trước khi làm việc hãy rửa tay.",
+     "ctx": "xuong",
+     "chunks": [
+      "作業[さぎょう]の",
+      "前[まえ]に",
+      "手[て]を",
+      "洗[あら]ってください"
+     ],
+     "wrong": [
+      "洗[あら]いてください",
+      "洗[あら]うてください",
+      "洗[あら]わないでください"
+     ]
+    },
+    {
+     "jp": "帽子[ぼうし]とマスクを[[つけてください]]。",
+     "vi": "Hãy đội mũ và đeo khẩu trang.",
+     "ctx": "xuong",
+     "chunks": [
+      "帽子[ぼうし]と",
+      "マスクを",
+      "つけてください"
+     ],
+     "wrong": [
+      "つけってください",
+      "つけいてください",
+      "つけないでください"
+     ]
+    },
+    {
+     "jp": "冷蔵庫[れいぞうこ]の温度[おんど]を[[記録[きろく]してください]]。",
+     "vi": "Hãy ghi lại nhiệt độ tủ mát.",
+     "ctx": "xuong",
+     "chunks": [
+      "冷蔵庫[れいぞうこ]の",
+      "温度[おんど]を",
+      "記録[きろく]してください"
+     ],
+     "wrong": [
+      "記録[きろく]しいてください",
+      "記録[きろく]するてください",
+      "記録[きろく]しないでください"
+     ]
+    },
+    {
+     "jp": "在留[ざいりゅう]カードを[[見[み]せてください]]。",
+     "vi": "Vui lòng cho xem thẻ cư trú.",
+     "ctx": "thutuc",
+     "wrong": [
+      "見[み]せいてください",
+      "見[み]せるてください",
+      "見[み]せないでください"
+     ]
+    },
+    {
+     "jp": "この申請書[しんせいしょ]に住所[じゅうしょ]を[[記入[きにゅう]してください]]。",
+     "vi": "Hãy điền địa chỉ vào mẫu đơn này.",
+     "ctx": "thutuc",
+     "chunks": [
+      "この",
+      "申請書[しんせいしょ]に",
+      "住所[じゅうしょ]を",
+      "記入[きにゅう]してください"
+     ],
+     "wrong": [
+      "記入[きにゅう]しいてください",
+      "記入[きにゅう]するてください",
+      "記入[きにゅう]しないでください"
+     ]
+    },
+    {
+     "jp": "A：これ、どこに置[お]きますか。B：冷蔵庫[れいぞうこ]に[[入[い]れてください]]。",
+     "vi": "A: Cái này để đâu ạ? B: Hãy cho vào tủ mát.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "入[い]りてください",
+      "入[い]れってください",
+      "入[い]れないでください"
+     ]
+    }
+   ],
+   "errs": [
+    {
+     "chunks": [
+      "ここに",
+      "名前[なまえ]を",
+      "書[か]きてください"
+     ],
+     "vi": "Hãy viết tên vào đây.",
+     "bad": 2,
+     "fix": "書[か]いてください",
+     "why": "Động từ nhóm 1 đuôi く đổi thành いて: 書[か]く → 書[か]いて. Không ghép thể ます 書[か]き với て."
+    },
+    {
+     "chunks": [
+      "ここで",
+      "少[すこ]し",
+      "待[ま]ちてください"
+     ],
+     "vi": "Hãy chờ ở đây một chút.",
+     "bad": 2,
+     "fix": "待[ま]ってください",
+     "why": "Đuôi つ đổi thành って: 待[ま]つ → 待[ま]って."
+    },
+    {
+     "chunks": [
+      "作業[さぎょう]の前[まえ]に",
+      "手[て]が",
+      "洗[あら]ってください"
+     ],
+     "vi": "Trước khi làm việc, hãy rửa tay.",
+     "bad": 1,
+     "fix": "手[て]を",
+     "why": "Tay là thứ bị rửa (đối tượng của hành động) → dùng を, không dùng が."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Bạn muốn nhờ đồng nghiệp người Nhật nói chậm lại.",
+     "opts": [
+      "ゆっくり話[はな]してください。",
+      "ゆっくり話[はな]しなさい。",
+      "ゆっくり話[はな]さないでください。"
+     ],
+     "ans": 0,
+     "why": "〜てください là lời nhờ lịch sự. 〜なさい là mệnh lệnh của người trên với người dưới; 〜ないでください là \"đừng\"."
+    },
+    {
+     "q": "Bạn nhờ trưởng ca (cấp trên) kiểm tra giúp nhãn hàng, muốn nói thật lịch sự.",
+     "opts": [
+      "ラベルを確認[かくにん]していただけませんか。",
+      "ラベルを確認[かくにん]しろ。",
+      "ラベルを確認[かくにん]しなさい。"
+     ],
+     "ans": 0,
+     "why": "Với cấp trên, dạng hỏi 〜ていただけませんか mềm và lịch sự hơn 〜てください. 〜しろ và 〜なさい là ra lệnh — không dùng với cấp trên."
+    }
+   ],
+   "shift": [
+    {
+     "from": "ちょっと待[ま]って。",
+     "to": "ちょっと待[ま]ってください。",
+     "kind": "lichsu",
+     "note": "Bỏ ください là cách nhờ thân mật giữa bạn bè, người nhà. Ở chỗ làm, với cấp trên nên nói đủ 〜てください.",
+     "wrong": [
+      "ちょっと待[ま]ちてください。",
+      "ちょっと待[ま]ちなさい。"
+     ]
+    },
+    {
+     "from": "これ、見[み]て。",
+     "to": "これを見[み]てください。",
+     "kind": "lichsu",
+     "note": "見[み]て！ là nhờ thân mật. Lịch sự: 見[み]てください.",
+     "wrong": [
+      "これを見[み]るください。",
+      "これを見[み]ないでください。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g:〜ないでください",
+   "pattern": "〜ないでください",
+   "level": "N5",
+   "meaning": "Đừng (làm gì) / xin đừng (làm gì) — cấm hoặc khuyên không làm, một cách lịch sự",
+   "structure": [
+    "Động từ thể ない + でください",
+    "触[さわ]る (chạm) → 触[さわ]らない → 触[さわ]らないでください",
+    "入[い]れる (cho vào) → 入[い]れない → 入[い]れないでください",
+    "する (làm) → しない → しないでください"
+   ],
+   "explain": "〜ないでください dùng khi muốn người nghe ĐỪNG làm việc gì. Đây là mẫu xuất hiện dày đặc trên biển báo trong xưởng, nơi công cộng và trong nội quy khu nhà ở: đừng chạm vào máy, đừng chạy, đừng vứt rác sai chỗ.\n\nMức độ: lịch sự, nhẹ nhàng, giống như lời nhắc. Khi là quy định bắt buộc, người Nhật hay dùng 〜てはいけません (không được phép) — mạnh và khách quan hơn. Khi nguy hiểm gấp, quản đốc có thể hét ngắn: 触[さわ]るな！ (đừng chạm!).\n\nMấu chốt là chia thể ない. Nhóm 1: đổi âm cuối hàng う sang hàng あ rồi thêm ない (触[さわ]る→触[さわ]らない, 書[か]く→書[か]かない, 待[ま]つ→待[ま]たない); RIÊNG đuôi う đổi thành わ chứ không phải あ (洗[あら]う→洗[あら]わない, 使[つか]う→使[つか]わない). Nhóm 2: bỏ る thêm ない (見[み]る→見[み]ない, 入[い]れる→入[い]れない). Nhóm 3: する→しない, 来[く]る→来[こ]ない.\n\nCẩn thận vài động từ trông như nhóm 2 nhưng là nhóm 1: 入[はい]る (đi vào) → 入[はい]らない; 帰[かえ]る → 帰[かえ]らない; 切[き]る (cắt) → 切[き]らない. Mẹo nhớ: đuôi câu nghe thấy ないで là lời CẤM — dừng tay lại trước, hỏi sau.",
+   "casual": "Bỏ ください: 触[さわ]らないで！ Mạnh và thô hơn (nam giới, lúc gấp): 触[さわ]るな！ Kansai: 触[さわ]ったらあかん！ (không được chạm!).",
+   "compare": [
+    {
+     "pattern": "〜てはいけません",
+     "diff": "Nói về quy định, điều cấm chung — mạnh và khách quan hơn. Nội quy, biển cấm hay dùng."
+    },
+    {
+     "pattern": "〜な (触[さわ]るな)",
+     "diff": "Cấm đoán ngắn, mạnh. Nghe khi có nguy hiểm gấp hoặc giữa nam giới thân nhau. Không dùng với cấp trên."
+    }
+   ],
+   "mistakes": [
+    "Chia sai thể ない với động từ đuôi う: 洗[あら]う → ×洗[あら]あない, đúng là 洗[あら]わない.",
+    "Tưởng 入[はい]る là nhóm 2 nên chia ×入[はい]ない; đúng là 入[はい]らない.",
+    "Nghe 〜ないで (bỏ ください) tưởng câu chưa nói hết — thật ra đó đã là lời cấm."
+   ],
+   "ex": [
+    {
+     "jp": "ここに自転車[じてんしゃ]を[[止[と]めないでください]]。",
+     "vi": "Đừng đỗ xe đạp ở đây.",
+     "ctx": "doisong",
+     "chunks": [
+      "ここに",
+      "自転車[じてんしゃ]を",
+      "止[と]めないでください"
+     ],
+     "wrong": [
+      "止[と]めるないでください",
+      "止[と]めなくてください",
+      "止[と]めてください"
+     ]
+    },
+    {
+     "jp": "電車[でんしゃ]の中[なか]で[[電話[でんわ]しないでください]]。",
+     "vi": "Đừng gọi điện trên tàu.",
+     "ctx": "doisong",
+     "chunks": [
+      "電車[でんしゃ]の",
+      "中[なか]で",
+      "電話[でんわ]しないでください"
+     ],
+     "wrong": [
+      "電話[でんわ]すないでください",
+      "電話[でんわ]しなくてください",
+      "電話[でんわ]してください"
+     ]
+    },
+    {
+     "jp": "夜[よる]遅[おそ]くに[[洗濯[せんたく]しないでください]]。",
+     "vi": "Đừng giặt đồ vào đêm muộn.",
+     "ctx": "doisong",
+     "chunks": [
+      "夜[よる]",
+      "遅[おそ]くに",
+      "洗濯[せんたく]しないでください"
+     ],
+     "wrong": [
+      "洗濯[せんたく]さないでください",
+      "洗濯[せんたく]しなくでください",
+      "洗濯[せんたく]してください"
+     ]
+    },
+    {
+     "jp": "燃[も]えるゴミに瓶[びん]を[[入[い]れないでください]]。",
+     "vi": "Đừng bỏ chai lọ vào rác cháy được.",
+     "ctx": "doisong",
+     "chunks": [
+      "燃[も]えるゴミに",
+      "瓶[びん]を",
+      "入[い]れないでください"
+     ],
+     "wrong": [
+      "入[い]れるないでください",
+      "入[い]らないでください",
+      "入[い]れてください"
+     ]
+    },
+    {
+     "jp": "作業場[さぎょうば]で[[走[はし]らないでください]]。",
+     "vi": "Đừng chạy trong khu làm việc.",
+     "ctx": "xuong",
+     "wrong": [
+      "走[はし]りないでください",
+      "走[はし]るないでください",
+      "走[はし]ってください"
+     ]
+    },
+    {
+     "jp": "機械[きかい]が動[うご]いている時[とき]は[[触[さわ]らないでください]]。",
+     "vi": "Khi máy đang chạy, đừng chạm vào.",
+     "ctx": "xuong",
+     "chunks": [
+      "機械[きかい]が",
+      "動[うご]いている",
+      "時[とき]は",
+      "触[さわ]らないでください"
+     ],
+     "wrong": [
+      "触[さわ]りないでください",
+      "触[さわ]るないでください",
+      "触[さわ]ってください"
+     ]
+    },
+    {
+     "jp": "生食用[せいしょくよう]と加熱用[かねつよう]を[[混[ま]ぜないでください]]。",
+     "vi": "Đừng để lẫn hàng ăn sống với hàng dùng để nấu chín.",
+     "ctx": "xuong",
+     "chunks": [
+      "生食用[せいしょくよう]と",
+      "加熱用[かねつよう]を",
+      "混[ま]ぜないでください"
+     ],
+     "wrong": [
+      "混[ま]ぜるないでください",
+      "混[ま]ざらないでください",
+      "混[ま]ぜてください"
+     ]
+    },
+    {
+     "jp": "書類[しょるい]を[[忘[わす]れないでください]]。",
+     "vi": "Đừng quên giấy tờ.",
+     "ctx": "thutuc",
+     "wrong": [
+      "忘[わす]らないでください",
+      "忘[わす]れなくてください",
+      "忘[わす]れてください"
+     ]
+    },
+    {
+     "jp": "太[ふと]い線[せん]の中[なか]には[[書[か]かないでください]]。",
+     "vi": "Đừng viết vào trong khung kẻ đậm.",
+     "ctx": "thutuc",
+     "chunks": [
+      "太[ふと]い",
+      "線[せん]の",
+      "中[なか]には",
+      "書[か]かないでください"
+     ],
+     "wrong": [
+      "書[か]きないでください",
+      "書[か]くないでください",
+      "書[か]いてください"
+     ]
+    },
+    {
+     "jp": "A：手袋[てぶくろ]、外[はず]してもいいですか。B：いいえ、[[外[はず]さないでください]]。",
+     "vi": "A: Tôi tháo găng tay được không? B: Không, đừng tháo.",
+     "ctx": "hoithoai",
+     "wrong": [
+      "外[はず]しないでください",
+      "外[はず]すないでください",
+      "外[はず]してください"
+     ]
+    }
+   ],
+   "errs": [
+    {
+     "chunks": [
+      "ここで",
+      "たばこを",
+      "吸[す]いないでください"
+     ],
+     "vi": "Đừng hút thuốc ở đây.",
+     "bad": 2,
+     "fix": "吸[す]わないでください",
+     "why": "Nhóm 1 đuôi う: う → わ rồi thêm ない: 吸[す]う → 吸[す]わない. Không phải 吸[す]いない."
+    },
+    {
+     "chunks": [
+      "ここに",
+      "荷物[にもつ]を",
+      "置[お]かなくでください"
+     ],
+     "vi": "Đừng để hành lý ở đây.",
+     "bad": 2,
+     "fix": "置[お]かないでください",
+     "why": "Mẫu là ない + で + ください. Dạng なくて dùng cho mẫu khác (〜なくてもいいです)."
+    },
+    {
+     "chunks": [
+      "動[うご]いている",
+      "機械[きかい]に",
+      "触[さわ]りないでください"
+     ],
+     "vi": "Đừng chạm vào máy đang chạy.",
+     "bad": 2,
+     "fix": "触[さわ]らないでください",
+     "why": "触[さわ]る là nhóm 1 (đuôi る nhưng chia như nhóm 1): る → ら + ない."
+    }
+   ],
+   "situ": [
+    {
+     "q": "Đồng nghiệp mới định đặt dao lên bàn để cá ăn sống. Bạn nhắc lịch sự: \"Đừng đặt ở đó.\"",
+     "opts": [
+      "そこに置[お]かないでください。",
+      "そこに置[お]いてください。",
+      "そこに置[お]きないでください。",
+      "そこに置[お]くな。"
+     ],
+     "ans": 0,
+     "why": "置[お]いてください là \"hãy đặt\"; 置[お]きないで chia sai; 置[お]くな là cấm rất mạnh, chỉ dùng khi nguy hiểm gấp."
+    },
+    {
+     "q": "Máy cắt đang chạy, một người sắp thò tay vào. Cần hét thật ngắn để ngăn ngay.",
+     "opts": [
+      "触[さわ]るな！",
+      "触[さわ]らないでいただけませんか。",
+      "触[さわ]ってもいいですか。"
+     ],
+     "ans": 0,
+     "why": "Lúc nguy hiểm gấp, câu cấm ngắn 〜な được dùng để cảnh báo. 〜ないでいただけませんか quá dài và mềm cho lúc khẩn cấp."
+    }
+   ],
+   "shift": [
+    {
+     "from": "触[さわ]らないで。",
+     "to": "触[さわ]らないでください。",
+     "kind": "lichsu",
+     "note": "Bỏ ください là cách nói thân mật. Với khách, cấp trên nói đủ 〜ないでください.",
+     "wrong": [
+      "触[さわ]ってください。",
+      "触[さわ]りないでください。"
+     ]
+    },
+    {
+     "from": "触[さわ]らんといて。",
+     "to": "触[さわ]らないでください。",
+     "kind": "kansai",
+     "note": "Kansai: 〜んといて = 〜ないで (đừng …). Rất hay nghe ở xưởng vùng Kansai.",
+     "wrong": [
+      "触[さわ]ってください。",
+      "触[さわ]ってもいいです。"
+     ]
+    }
+   ]
+  }
+ ]
 }

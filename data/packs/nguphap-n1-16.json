@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -236,6 +236,16 @@
      ],
      "ans": 0,
      "why": "Phê phán việc không xứng với danh phận → ともあろう + danh từ (会社[かいしゃ]) + が. Không bỏ được danh từ sau ともあろう; ともある sai dạng."
+    },
+    {
+     "q": "Đi ngang bệnh viện, anh Nguyễn thấy một bác sĩ đứng hút thuốc ngay trước cổng. Anh nói với vợ: đường đường là bác sĩ mà lại hút thuốc ở đây, thật không ngờ.",
+     "opts": [
+      "医者[いしゃ]ともあろうが、病院[びょういん]の前[まえ]でたばこを吸[す]うなんて。",
+      "医者[いしゃ]ともあろう人[ひと]が、病院[びょういん]の前[まえ]でたばこを吸[す]うなんて。",
+      "医者[いしゃ]ともあろう人[ひと]に、病院[びょういん]の前[まえ]でたばこを吸[す]うなんて。"
+     ],
+     "ans": 1,
+     "why": "Đường đường là (danh phận cao) mà lại… → Danh từ + ともあろう + 人[ひと] / 者[もの] + が. Không bỏ danh từ chỉ người sau ともあろう; chủ ngữ của hành động phải đi với が, không phải に."
     }
    ],
    "shift": [
@@ -475,6 +485,16 @@
      ],
      "ans": 0,
      "why": "Khẩu hiệu cấm, phủ định tuyệt đối → 一瞬[いっしゅん]たりとも + 〜な / 〜てはならない. Vế sau không thể là khẳng định, rủ rê (しよう); ばかりか = không những… mà còn (sai nghĩa)."
+    },
+    {
+     "q": "Trước đợt kiểm tra của khách hàng, anh Nguyễn (chủ nhiệm) dặn cả tổ, giọng quyết liệt: không được để lọt dù chỉ một sản phẩm lỗi.",
+     "opts": [
+      "不良品[ふりょうひん]は、一[ひと]つたりとも出[だ]しましょう。",
+      "不良品[ふりょうひん]は、三[みっ]つたりとも出[だ]してはなりません。",
+      "不良品[ふりょうひん]は、一[ひと]つたりとも出[だ]してはなりません。"
+     ],
+     "ans": 2,
+     "why": "Dù chỉ một… cũng không → 一[いち]〜 + たりとも + phủ định / cấm. Vế sau khẳng định là sai; たりとも chỉ đi với số nhỏ nhất (一[ひと]つ), không đi với 三[みっ]つ."
     }
    ],
    "shift": [
@@ -714,6 +734,16 @@
      ],
      "ans": 0,
      "why": "Tuổi + にして = ở tuổi ấy mà đã… (văn viết). にしては cần vế sau là lời đánh giá trái mong đợi (二十八歳[にじゅうはっさい]にしては落[お]ち着[つ]いている); にとって = đối với (sai nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn viết bài cho bản tin công ty về bác Sato: kỹ thuật lọc cá này phải là người ba mươi năm trong nghề như bác mới làm được.",
+     "opts": [
+      "この技[わざ]は、この道[みち]三十年[さんじゅうねん]の佐藤[さとう]さんにして初[はじ]めてできるものだ。",
+      "この技[わざ]は、この道[みち]三十年[さんじゅうねん]の佐藤[さとう]さんにしては初[はじ]めてできるものだ。",
+      "この技[わざ]は、この道[みち]三十年[さんじゅうねん]の佐藤[さとう]さんにとって初[はじ]めてできるものだ。"
+     ],
+     "ans": 0,
+     "why": "Phải là… mới… → Danh từ (người tài) + にして初[はじ]めて. にしては = \"so với… thì lại\"; にとって初[はじ]めて = \"lần đầu đối với bác Sato\", sai nghĩa."
     }
    ],
    "shift": [

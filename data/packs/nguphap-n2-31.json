@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -235,6 +235,16 @@
      ],
      "ans": 0,
      "why": "Người trên khuyên người dưới → thể từ điển + ことだ."
+    },
+    {
+     "q": "Một đồng hương mới sang hỏi anh Nguyễn làm sao giỏi tiếng Nhật nhanh. Anh khuyên: muốn giỏi thì nên nói chuyện thật nhiều với người Nhật.",
+     "opts": [
+      "上手[じょうず]になりたければ、日本人[にほんじん]とたくさん話[はな]したことだ。",
+      "上手[じょうず]になりたければ、日本人[にほんじん]とたくさん話[はな]すことにしている。",
+      "上手[じょうず]になりたければ、日本人[にほんじん]とたくさん話[はな]すことだ。"
+     ],
+     "ans": 2,
+     "why": "Lời khuyên từ kinh nghiệm → thể từ điển + ことだ. Không dùng thể た; ことにしている là thói quen của chính mình, không phải lời khuyên."
     }
    ],
    "shift": [
@@ -490,6 +500,16 @@
      ],
      "ans": 0,
      "why": "Nói quy định với khách, từ chối khéo → thể từ điển + ことになっております (rất lịch sự)."
+    },
+    {
+     "q": "Người mới hỏi cách xin nghỉ phép. Anh Nguyễn (tổ trưởng) giải thích: theo quy định của công ty, phải nộp đơn trước một tuần.",
+     "opts": [
+      "有給休暇[ゆうきゅうきゅうか]を取[と]るときは、一週間[いっしゅうかん]前[まえ]に申請[しんせい]することになっています。",
+      "有給休暇[ゆうきゅうきゅうか]を取[と]るときは、一週間[いっしゅうかん]前[まえ]に申請[しんせい]することにしています。",
+      "有給休暇[ゆうきゅうきゅうか]を取[と]るときは、一週間[いっしゅうかん]前[まえ]に申請[しんせい]することがなっています。"
+     ],
+     "ans": 0,
+     "why": "Quy định do công ty đặt ra → ことになっています. ことにしている là thói quen mình tự đặt; trợ từ phải là に, không phải が."
     }
    ],
    "shift": [
@@ -736,6 +756,16 @@
      ],
      "ans": 0,
      "why": "Một lý do + rủ rê → 〜ことだし."
+    },
+    {
+     "q": "Vừa nhận lương, anh Nguyễn rủ vợ: lương cũng về rồi, cuối tuần đi Kobe ăn thịt bò nhé.",
+     "opts": [
+      "給料[きゅうりょう]も入[はい]ったことから、週末[しゅうまつ]は神戸[こうべ]に牛肉[ぎゅうにく]を食[た]べに行[い]こうか。",
+      "給料[きゅうりょう]も入[はい]ったことだし、週末[しゅうまつ]は神戸[こうべ]に牛肉[ぎゅうにく]を食[た]べに行[い]こうか。",
+      "給料[きゅうりょう]も入[はい]ったことか、週末[しゅうまつ]は神戸[こうべ]に牛肉[ぎゅうにく]を食[た]べに行[い]こうか。"
+     ],
+     "ans": 1,
+     "why": "Nêu một lý do nhẹ rồi rủ rê → ことだし. ことから dùng cho căn cứ khách quan, không đi với lời rủ; ことか là cảm thán."
     }
    ],
    "shift": [

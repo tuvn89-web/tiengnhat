@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Hai người trái ngược + tự trách mình → にひきかえ. と同[おな]じく = giống như (mâu thuẫn: hàng xóm nấu giỏi). Trợ từ luôn là に."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) than với đồng nghiệp: ca sớm lúc nào cũng dọn dẹp gọn gàng, trái hẳn với ca muộn để phòng thay đồ bừa bộn.",
+     "opts": [
+      "早番[はやばん]がきちんと片付[かたづ]けるのと同[おな]じく、遅番[おそばん]はいつも更衣室[こういしつ]を散[ち]らかしたままだ。",
+      "早番[はやばん]がきちんと片付[かたづ]けるのにひきかえ、遅番[おそばん]はいつも更衣室[こういしつ]を散[ち]らかしたままだ。",
+      "早番[はやばん]がきちんと片付[かたづ]けるにひきかえ、遅番[おそばん]はいつも更衣室[こういしつ]を散[ち]らかしたままだ。"
+     ],
+     "ans": 1,
+     "why": "So hai bên trái ngược kèm đánh giá → mệnh đề + の + にひきかえ. Không bỏ の sau mệnh đề; と同[おな]じく là \"giống như\", không có ý trái ngược."
     }
    ],
    "shift": [
@@ -491,6 +501,16 @@
      ],
      "ans": 0,
      "why": "Phớt lờ lời nhắc của người khác → をよそに (văn viết, báo cáo). にこたえて = đáp ứng (ngược nghĩa); trợ từ phải là を."
+    },
+    {
+     "q": "Anh Nguyễn kể với đồng nghiệp về cậu em trai ở quê: mặc kệ bố mẹ kỳ vọng, nó bỏ đại học đi làm.",
+     "opts": [
+      "両親[りょうしん]の期待[きたい]をよそに、弟[おとうと]は大学[だいがく]をやめて働[はたら]き始[はじ]めたんだ。",
+      "両親[りょうしん]の期待[きたい]にこたえて、弟[おとうと]は大学[だいがく]をやめて働[はたら]き始[はじ]めたんだ。",
+      "両親[りょうしん]の期待[きたい]によそに、弟[おとうと]は大学[だいがく]をやめて働[はたら]き始[はじ]めたんだ。"
+     ],
+     "ans": 0,
+     "why": "Phớt lờ kỳ vọng / lo lắng của người khác → Danh từ + をよそに. にこたえて = \"đáp ứng\", ngược nghĩa; trợ từ là を, không phải に."
     }
    ],
    "shift": [
@@ -731,6 +751,16 @@
      ],
      "ans": 0,
      "why": "Khen người khác vượt khó → をものともせず (văn viết, bản tin). のおかげで = nhờ có (vô lý: nhờ máy hỏng?); phủ định của する là せず."
+    },
+    {
+     "q": "Ở buổi tiễn bác Sato nghỉ hưu, anh Nguyễn phát biểu: bác chẳng hề nao núng trước chấn thương ở lưng, vẫn làm việc đến tận hôm nay.",
+     "opts": [
+      "佐藤[さとう]さんは腰[こし]のけがをよそに、今日[きょう]まで働[はたら]き続[つづ]けてこられました。",
+      "佐藤[さとう]さんは腰[こし]のけがをものともしず、今日[きょう]まで働[はたら]き続[つづ]けてこられました。",
+      "佐藤[さとう]さんは腰[こし]のけがをものともせず、今日[きょう]まで働[はたら]き続[つづ]けてこられました。"
+     ],
+     "ans": 2,
+     "why": "Không nao núng trước khó khăn (khen) → をものともせず (phủ định của する là せず). しず chia sai; をよそに là phớt lờ tâm trạng người khác, không dùng cho chấn thương."
     }
    ],
    "shift": [

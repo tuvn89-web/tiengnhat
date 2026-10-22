@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -229,6 +229,16 @@
      ],
      "ans": 0,
      "why": "Than phiền chuyện lặp lại \"vừa… xong là…\" → そばから. そばに sai trợ từ; ばかりか = không những… mà còn (không hợp nghĩa)."
+    },
+    {
+     "q": "Vợ con đã sang Nhật ở cùng. Anh Nguyễn than với đồng nghiệp: nhà vừa dọn xong là bọn trẻ lại bày bừa ra ngay.",
+     "opts": [
+      "片付[かたづ]けるそばに、子[こ]どもたちがすぐ散[ち]らかすんだよ。",
+      "片付[かたづ]けるそばから、子[こ]どもたちがすぐ散[ち]らかすんだよ。",
+      "片付[かたづ]けないうちに、子[こ]どもたちがすぐ散[ち]らかすんだよ。"
+     ],
+     "ans": 1,
+     "why": "Vừa làm xong là bị phá ngay, lặp đi lặp lại → thể từ điển + そばから (luôn là から, không phải に). ないうちに = \"trước khi kịp dọn\", sai ý \"vừa dọn xong\"."
     }
    ],
    "shift": [
@@ -478,6 +488,16 @@
      ],
      "ans": 0,
      "why": "Kể thay đổi kéo dài từ một mốc, giọng trang trọng → thể て + からというもの. Không dùng thể た + から; からといって = \"chỉ vì… mà\" (sai nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn viết bài cho bản tin nội bộ của công ty: kể từ khi vợ con sang Nhật, mỗi ngày của tôi trở nên vui hẳn.",
+     "opts": [
+      "家族[かぞく]が日本[にほん]に来[き]たからというもの、毎日[まいにち]が楽[たの]しくなりました。",
+      "家族[かぞく]が日本[にほん]に来[き]てからというもの、一度[いちど]大阪[おおさか]に行[い]きました。",
+      "家族[かぞく]が日本[にほん]に来[き]てからというもの、毎日[まいにち]が楽[たの]しくなりました。"
+     ],
+     "ans": 2,
+     "why": "Kể từ mốc đó, trạng thái mới kéo dài đến nay → thể て + からというもの. Không dùng thể た + から; vế sau không được là việc xảy ra một lần."
     }
    ],
    "shift": [
@@ -730,6 +750,16 @@
      ],
      "ans": 0,
      "why": "Điểm mở màn của một chuỗi việc → Danh từ + を皮切[かわき]りに. を最後[さいご]に = lấy… làm lần cuối (ngược nghĩa); trợ từ luôn là を."
+    },
+    {
+     "q": "Anh Nguyễn ghi biên bản họp đầu năm: mở đầu là lời chào của giám đốc xưởng, sau đó các tổ trưởng lần lượt báo cáo.",
+     "opts": [
+      "工場長[こうじょうちょう]が挨拶[あいさつ]したのを限[かぎ]りに、各[かく]班長[はんちょう]が順番[じゅんばん]に報告[ほうこく]した。",
+      "工場長[こうじょうちょう]が挨拶[あいさつ]したを皮切[かわき]りに、各[かく]班長[はんちょう]が順番[じゅんばん]に報告[ほうこく]した。",
+      "工場長[こうじょうちょう]が挨拶[あいさつ]したのを皮切[かわき]りに、各[かく]班長[はんちょう]が順番[じゅんばん]に報告[ほうこく]した。"
+     ],
+     "ans": 2,
+     "why": "A mở màn rồi lần lượt B, C → động từ thể た + の + を皮切[かわき]りに. Không bỏ の; を限[かぎ]りに là \"lấy làm mốc chấm dứt\", ngược nghĩa."
     }
    ],
    "shift": [

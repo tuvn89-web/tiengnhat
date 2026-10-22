@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -219,6 +219,16 @@
      ],
      "ans": 0,
      "why": "Với cấp trên: お〜しましょうか. 持[も]ってあげます nghe như ban ơn."
+    },
+    {
+     "q": "Tối về ký túc xá, anh Nguyễn kể với bạn cùng phòng: hôm nay ở ga mình đã chỉ đường cho một du khách nước ngoài bị lạc.",
+     "opts": [
+      "今日[きょう]、駅[えき]で外国人[がいこくじん]の観光客[かんこうきゃく]に道[みち]を教[おし]えてくれたよ。",
+      "今日[きょう]、駅[えき]で外国人[がいこくじん]の観光客[かんこうきゃく]に道[みち]を教[おし]えてもらったよ。",
+      "今日[きょう]、駅[えき]で外国人[がいこくじん]の観光客[かんこうきゃく]に道[みち]を教[おし]えてあげたよ。"
+     ],
+     "ans": 2,
+     "why": "Mình làm giúp người khác → 〜てあげた. 教[おし]えてくれた là người khác làm cho mình; 教[おし]えてもらった là mình được người khác chỉ."
     }
    ],
    "shift": [
@@ -452,6 +462,16 @@
      ],
      "ans": 0,
      "why": "Nhờ ai làm cho mình → 〜てくれませんか."
+    },
+    {
+     "q": "Anh Nguyễn bị ngã xe đạp. Hôm sau anh kể với chị đồng nghiệp: hôm qua tổ trưởng đã lái xe đưa tôi đến bệnh viện.",
+     "opts": [
+      "昨日[きのう]、班長[はんちょう]が病院[びょういん]まで車[くるま]で送[おく]ってくれたんです。",
+      "昨日[きのう]、班長[はんちょう]が病院[びょういん]まで車[くるま]で送[おく]ってあげたんです。",
+      "昨日[きのう]、班長[はんちょう]が病院[びょういん]まで車[くるま]で送[おく]ってもらったんです。"
+     ],
+     "ans": 0,
+     "why": "Người khác (tổ trưởng, chủ ngữ が) làm cho mình → 〜てくれた. てあげた là hướng ra người khác; 班長[はんちょう]が〜てもらった thành tổ trưởng là người được đưa."
     }
    ],
    "shift": [
@@ -680,6 +700,16 @@
      ],
      "ans": 0,
      "why": "Nhờ người lạ, nhân viên → 〜ていただけませんか."
+    },
+    {
+     "q": "Đi ngân hàng về, anh Nguyễn báo với tổ trưởng: tôi đã được nhân viên ngân hàng giải thích kỹ về chuyển khoản.",
+     "opts": [
+      "銀行[ぎんこう]の人[ひと]が振[ふ]り込[こ]みについて詳[くわ]しく説明[せつめい]してもらいました。",
+      "銀行[ぎんこう]の人[ひと]に振[ふ]り込[こ]みについて詳[くわ]しく説明[せつめい]してもらいました。",
+      "銀行[ぎんこう]の人[ひと]に振[ふ]り込[こ]みについて詳[くわ]しく説明[せつめい]してあげました。"
+     ],
+     "ans": 1,
+     "why": "Mình là người nhận, người làm đi với に → 銀行[ぎんこう]の人[ひと]に説明[せつめい]してもらいました. Người làm đi với が là sai; てあげました thành mình giải thích cho họ."
     }
    ],
    "shift": [

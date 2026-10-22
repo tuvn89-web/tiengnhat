@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -231,6 +231,16 @@
      ],
      "ans": 0,
      "why": "Văn thông báo, theo đúng quy định → N + に則[のっと]って + động từ. を則[のっと]って sai trợ từ; に則[のっと]った chỉ đứng trước danh từ."
+    },
+    {
+     "q": "Khách hàng mới hỏi cách xưởng quản lý vệ sinh. Anh Nguyễn (chủ nhiệm) trả lời trang trọng: chúng tôi quản lý vệ sinh theo đúng tiêu chuẩn HACCP.",
+     "opts": [
+      "当社[とうしゃ]では、HACCPを則[のっと]った衛生管理[えいせいかんり]を行[おこな]っております。",
+      "当社[とうしゃ]では、HACCPに則[のっと]りの衛生管理[えいせいかんり]を行[おこな]っております。",
+      "当社[とうしゃ]では、HACCPに則[のっと]った衛生管理[えいせいかんり]を行[おこな]っております。"
+     ],
+     "ans": 2,
+     "why": "Theo đúng chuẩn, đứng trước danh từ → に則[のっと]った + Danh từ. 則[のっと]る luôn đi với に, không với を; 則[のっと]りの là ghép sai."
     }
    ],
    "shift": [
@@ -471,6 +481,16 @@
      ],
      "ans": 0,
      "why": "Trước sự việc → có biện pháp đáp lại: N + を受[う]けて. に受[う]けて sai trợ từ; 受[う]かる là \"thi đỗ\" (tự động từ, không đi với を)."
+    },
+    {
+     "q": "Anh Nguyễn viết báo cáo gửi giám đốc xưởng: theo hướng dẫn của trung tâm y tế, tổ đã thay đổi quy trình rửa tay.",
+     "opts": [
+      "保健所[ほけんじょ]を受[う]けて、手洗[てあら]いの手順[てじゅん]を変更[へんこう]しました。",
+      "保健所[ほけんじょ]の指導[しどう]を受[う]けて、手洗[てあら]いの手順[てじゅん]を変更[へんこう]しました。",
+      "保健所[ほけんじょ]の指導[しどう]に受[う]けて、手洗[てあら]いの手順[てじゅん]を変更[へんこう]しました。"
+     ],
+     "ans": 1,
+     "why": "Trước một sự việc / chỉ thị mà phản ứng → Danh từ (指導[しどう], 決定[けってい]…) + を受[う]けて. Không đặt tên tổ chức trực tiếp trước mẫu; 受[う]ける đi với を, không với に."
     }
    ],
    "shift": [
@@ -710,6 +730,16 @@
      ],
      "ans": 0,
      "why": "Trải qua các bước rồi mới đến kết quả → N + を経[へ]て. 経[た]つ không đi với を; 経[へ]る đi với を, không đi với に."
+    },
+    {
+     "q": "Anh Nguyễn xin nghỉ phép về quê, báo lịch trình với trưởng phòng: lần này tôi sẽ bay qua Seoul rồi mới về Hà Nội.",
+     "opts": [
+      "今回[こんかい]はソウルを経[た]って、ハノイに帰[かえ]る予定[よてい]です。",
+      "今回[こんかい]はソウルに経[へ]て、ハノイに帰[かえ]る予定[よてい]です。",
+      "今回[こんかい]はソウルを経[へ]て、ハノイに帰[かえ]る予定[よてい]です。"
+     ],
+     "ans": 2,
+     "why": "Đi qua (nơi nào) để đến → Địa điểm + を経[へ]て. 経[た]って là từ 経[た]つ (thời gian trôi), sai từ; trợ từ là を, không phải に."
     }
    ],
    "shift": [

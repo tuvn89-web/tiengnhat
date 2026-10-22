@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -233,6 +233,16 @@
      ],
      "ans": 0,
      "why": "Xin lỗi cấp trên → 〜もので + 申[もう]し訳[わけ]ありません."
+    },
+    {
+     "q": "Ở quầy ngân hàng, anh Nguyễn viết mãi chưa xong tờ đơn. Anh xin thông cảm với nhân viên: tôi làm thủ tục này lần đầu nên không rõ cách ghi.",
+     "opts": [
+      "すみません、初[はじ]めてもので、書[か]き方[かた]がよく分[わ]からなくて…。",
+      "すみません、初[はじ]めてのせいで、書[か]き方[かた]がよく分[わ]からなくて…。",
+      "すみません、初[はじ]めてなもので、書[か]き方[かた]がよく分[わ]からなくて…。"
+     ],
+     "ans": 2,
+     "why": "Giải thích hoàn cảnh của mình, xin thông cảm → danh từ + な + もので. Thiếu な là sai; せいで mang ý đổ lỗi, không hợp."
     }
    ],
    "shift": [
@@ -478,6 +488,16 @@
      ],
      "ans": 0,
      "why": "Kết luận hợp lý → わけですね."
+    },
+    {
+     "q": "Anh Nguyễn cùng bạn cùng phòng tính giờ làm: mỗi ngày 8 tiếng, tuần làm 5 ngày. Anh kết luận: tức là một tuần làm 40 tiếng.",
+     "opts": [
+      "つまり、一週間[いっしゅうかん]に40時間[じかん]働[はたら]くわけではないね。",
+      "つまり、一週間[いっしゅうかん]に40時間[じかん]働[はたら]くわけだね。",
+      "つまり、一週間[いっしゅうかん]に40時間[じかん]働[はたら]くわけがないね。"
+     ],
+     "ans": 1,
+     "why": "Kết luận hợp lý từ dữ kiện (\"tức là\") → 〜わけだ. わけではない là \"không hẳn là\"; わけがない là \"không thể nào\"."
     }
    ],
    "shift": [
@@ -712,6 +732,16 @@
      ],
      "ans": 0,
      "why": "Phủ định một phần, từ chối khéo → わけではない."
+    },
+    {
+     "q": "Ở tiệc công ty, anh Nguyễn không động đũa vào đĩa sashimi. Tổ trưởng hỏi anh có ghét không. Anh nói: không phải tôi ghét, chỉ là hôm nay bụng không ổn.",
+     "opts": [
+      "刺身[さしみ]が嫌[きら]いなわけではないんですが、今日[きょう]はちょっとお腹[なか]の調子[ちょうし]が悪[わる]くて…。",
+      "刺身[さしみ]が嫌[きら]いわけではないんですが、今日[きょう]はちょっとお腹[なか]の調子[ちょうし]が悪[わる]くて…。",
+      "刺身[さしみ]が嫌[きら]いなわけがないんですが、今日[きょう]はちょっとお腹[なか]の調子[ちょうし]が悪[わる]くて…。"
+     ],
+     "ans": 0,
+     "why": "Phủ định một phần, sửa hiểu lầm → 嫌[きら]いなわけではない. Tính từ な phải có な; わけがない là \"không đời nào\", nghĩa khác."
     }
    ],
    "shift": [

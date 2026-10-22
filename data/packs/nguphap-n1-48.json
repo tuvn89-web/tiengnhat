@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -25,7 +25,7 @@
     "Chữ Hán: 〜て憚[はばか]らない; văn viết: 〜てはばからぬ; cụm liên quan: 人目[ひとめ]をはばからず (chẳng ngại ánh mắt người khác)"
    ],
    "explain": "〜てはばからない = KHÔNG NGẦN NGẠI…, THẲNG THỪNG…: chủ thể nói ra hoặc thể hiện công khai một điều mà người bình thường sẽ e dè, giữ ý (vì sợ bị đánh giá, sợ mất lòng, sợ bị cho là khoe khoang). はばかる (憚[はばか]る) = e ngại, kiêng dè; はばからない = không e ngại. 兄[あに]は、自分[じぶん]が家族[かぞく]の中[なか]で一番[いちばん]料理[りょうり]がうまいと言[い]ってはばからない = anh trai tôi chẳng ngại ngần nói mình nấu ăn giỏi nhất nhà. 新[あたら]しい工場長[こうじょうちょう]は「品質[ひんしつ]のためならコストは惜[お]しまない」と公言[こうげん]してはばからない = giám đốc xưởng mới công khai tuyên bố không chút ngại ngần \"vì chất lượng thì không tiếc chi phí\".\n\nCách ghép: động từ thể て + はばからない. Động từ phía trước hầu như là động từ NÓI, THỂ HIỆN: 言[い]う, 公言[こうげん]する, 断言[だんげん]する, 主張[しゅちょう]する, 口[くち]にする, 自称[じしょう]する, 豪語[ごうご]する, 批判[ひはん]する. Phần nội dung được nói thường đứng trước với と: 「…」と公言[こうげん]してはばからない. Mẫu này hay dùng để mô tả thái độ thường xuyên của người thứ ba (hiện tại: 〜てはばからない; quá khứ: 〜てはばからなかった; trước danh từ: 〜てはばからない人[ひと]). Tùy văn cảnh có thể là khen (thẳng thắn, tự tin) hoặc chê (trơ trẽn, không biết ngượng) — nhưng thường hàm ý người nghe thấy \"hơi quá\".\n\nMức độ: văn viết, cứng — báo chí, tiểu sử, bình luận, phóng sự, bài giới thiệu nhân vật. Khi nói chuyện: 平気[へいき]で言[い]う, 堂々[どうどう]と言[い]う, はっきり言[い]う. So với 〜ずにはいられない (N2-24): ずにはいられない = không kìm được (cảm xúc thúc đẩy, ngoài ý muốn); てはばからない = cố ý nói ra, không e dè. So với 〜てたまらない (N3-29): たまらない là cảm xúc, cảm giác không chịu nổi (悲[かな]しくてたまらない); はばからない là thái độ dám nói, dám làm công khai — hai mẫu chỉ giống nhau ở chỗ cùng đứng sau thể て, nên người học hay nhầm.\n\nMẹo nhớ: はばかる ≈ \"ngại, kiêng\" (người xưa gọi nhà vệ sinh là はばかり — nơi kín đáo, phải kiêng). はばからない = chẳng kiêng gì → nói toạc ra trước mọi người.",
-   "casual": "Nói thường: 平気[へいき]で〜 / 堂々[どうどう]と〜: あの人[ひと]、自分[じぶん]が一番[いちばん]やって平気[へいき]で言[い]うてるわ (Kansai: や = だ; 言[い]うてる = 言[い]っている).",
+   "casual": "Nói thường: 平気[へいき]で〜 / 堂々[どうどう]と〜: あの人[ひと]、自分[じぶん]が一番[いちばん]やって平気[へいき]で言[ゆ]うてるわ (Kansai: や = だ; 言[ゆ]うてる = 言[い]っている).",
    "compare": [
     {
      "pattern": "〜ずにはいられない（N2-24）",
@@ -237,14 +237,24 @@
      ],
      "ans": 0,
      "why": "Công khai tuyên bố, không e dè, văn viết → thể て + はばからない. 公言[こうげん]する + はばからない sai thể; てたまらない dùng cho cảm xúc, không dùng cho thái độ."
+    },
+    {
+     "q": "Anh Nguyễn kể với đồng nghiệp về cậu thực tập sinh Minh: cậu ấy chẳng ngần ngại nói thẳng với mọi người rằng một ngày nào đó sẽ mở công ty riêng.",
+     "opts": [
+      "ミンさんは「いつか自分[じぶん]の会社[かいしゃ]を作[つく]る」と言[い]うはばからない。",
+      "ミンさんは「いつか自分[じぶん]の会社[かいしゃ]を作[つく]る」と言[い]ってはばからない。",
+      "ミンさんは「いつか自分[じぶん]の会社[かいしゃ]を作[つく]る」と言[い]わずにはいられない。"
+     ],
+     "ans": 1,
+     "why": "Công khai nói, không ngần ngại → thể て + はばからない. Không dùng thể từ điển; ずにはいられない = \"không kìm được (cảm xúc)\", sai nghĩa."
     }
    ],
    "shift": [
     {
-     "from": "あの人[ひと]、自分[じぶん]が一番[いちばん]やって平気[へいき]で言[い]うてるわ。",
+     "from": "あの人[ひと]、自分[じぶん]が一番[いちばん]やって平気[へいき]で言[ゆ]うてるわ。",
      "to": "あの方[かた]は、自分[じぶん]が一番[いちばん]だと言[い]ってはばからない方[かた]です。",
      "kind": "kansai",
-     "note": "Kansai: や = だ; 言[い]うてる = 言[い]っている; わ cuối câu. 平気[へいき]で言[い]う (nói thường) → 言[い]ってはばからない (văn viết, trang trọng).",
+     "note": "Kansai: や = だ; 言[ゆ]うてる = 言[い]っている; わ cuối câu. 平気[へいき]で言[い]う (nói thường) → 言[い]ってはばからない (văn viết, trang trọng).",
      "wrong": [
       "あの方[かた]は、自分[じぶん]が一番[いちばん]だと言[い]うはばからない方[かた]です。",
       "あの方[かた]は、自分[じぶん]が一番[いちばん]だと言[い]ってたまらない方[かた]です。"
@@ -474,6 +484,16 @@
      ],
      "ans": 0,
      "why": "Không nỡ (vì gắn bó, tiếc nuối), văn viết → thể từ điển + に忍[しの]びない. Không dùng thể た; trợ từ là に."
+    },
+    {
+     "q": "Anh Nguyễn kể với đồng nghiệp: ông cụ hàng xóm nhờ đi nhờ lại việc sửa hàng rào, tôi không nỡ từ chối.",
+     "opts": [
+      "隣[となり]のおじいさんに何度[なんど]も頼[たの]まれて、断[ことわ]ったに忍[しの]びなかったんだ。",
+      "隣[となり]のおじいさんに何度[なんど]も頼[たの]まれて、断[ことわ]るに堪[た]えなかったんだ。",
+      "隣[となり]のおじいさんに何度[なんど]も頼[たの]まれて、断[ことわ]るに忍[しの]びなかったんだ。"
+     ],
+     "ans": 2,
+     "why": "Không nỡ (vì thương) → thể từ điển + に忍[しの]びない. Không dùng thể た; に堪[た]えない là \"tệ đến mức không chịu nổi\", sai nghĩa."
     }
    ],
    "shift": [
@@ -707,6 +727,16 @@
      ],
      "ans": 0,
      "why": "An ủi: tuy tệ nhưng còn có điểm đỡ → thể thường + だけまし. だけに = chính vì… nên càng… (không đứng cuối câu kiểu này); ばかりまし không có."
+    },
+    {
+     "q": "Xe nhà anh Nguyễn bị xe khác đâm móp. Anh an ủi vợ: xe hỏng thì hỏng, còn may là cả nhà đều bình an.",
+     "opts": [
+      "車[くるま]は壊[こわ]れたけど、みんなが無事[ぶじ]だけましだよ。",
+      "車[くるま]は壊[こわ]れたけど、みんなが無事[ぶじ]なだけましだよ。",
+      "車[くるま]は壊[こわ]れたけど、みんなが無事[ぶじ]なだけあって、よかったよ。"
+     ],
+     "ans": 1,
+     "why": "Còn may là… (an ủi) → tính từ な + な + だけましだ. Không bỏ な; だけあって = \"đúng là… có khác\" (khen), không dùng để an ủi."
     }
    ],
    "shift": [

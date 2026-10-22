@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -212,6 +212,16 @@
      ],
      "ans": 0,
      "why": "Chỉ toàn (than phiền) → N + ばかり."
+    },
+    {
+     "q": "Ở lớp tiếng Nhật, cô giáo hỏi cuối tuần anh Nguyễn làm gì. Anh hơi ngượng: cuối tuần tôi chỉ toàn ngủ thôi.",
+     "opts": [
+      "週末[しゅうまつ]は寝[ね]るばかりいます。",
+      "週末[しゅうまつ]は寝[ね]てばかりいます。",
+      "週末[しゅうまつ]は寝[ね]たばかりいます。"
+     ],
+     "ans": 1,
+     "why": "Chỉ toàn làm một việc (có ý chê) → thể て + ばかりいる: 寝[ね]てばかりいます. Không dùng thể từ điển; 寝[ね]たばかり là \"vừa mới ngủ\"."
     }
    ],
    "shift": [
@@ -416,6 +426,16 @@
      ],
      "ans": 0,
      "why": "Chỉ có (ít) → しか + phủ định."
+    },
+    {
+     "q": "Ở quầy thu ngân siêu thị, thẻ của anh Nguyễn bị lỗi. Anh nói với nhân viên: xin lỗi, tiền mặt tôi chỉ có 3000 yên thôi.",
+     "opts": [
+      "すみません、現金[げんきん]は3000円[えん]しかあります。",
+      "すみません、現金[げんきん]は3000円[えん]だけありません。",
+      "すみません、現金[げんきん]は3000円[えん]しかありません。"
+     ],
+     "ans": 2,
+     "why": "Chỉ có (ít, không đủ) → しか + phủ định. しか không đi với khẳng định; 3000円[えん]だけありません lại thành nghĩa khác."
     }
    ],
    "shift": [
@@ -647,6 +667,16 @@
      ],
      "ans": 0,
      "why": "Chia đều mỗi khay → ずつ."
+    },
+    {
+     "q": "Tổ trưởng giao anh Nguyễn phát khẩu trang mới cho cả tổ. Anh nói với mọi người: mỗi người lấy hai cái nhé.",
+     "opts": [
+      "マスクは一人[ひとり]二枚[にまい]ずつ取[と]ってください。",
+      "マスクは一人[ひとり]二枚[にまい]ごとに取[と]ってください。",
+      "マスクは人[ひと]ずつ二枚[にまい]取[と]ってください。"
+     ],
+     "ans": 0,
+     "why": "Chia đều số lượng → số lượng + ずつ: 一人[ひとり]二枚[にまい]ずつ. ごとに là \"cứ mỗi (khoảng)\"; ずつ không đứng sau danh từ trần 人[ひと]."
     }
    ],
    "shift": [

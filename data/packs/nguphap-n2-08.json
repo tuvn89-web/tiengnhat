@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -234,6 +234,16 @@
      ],
      "ans": 0,
      "why": "Kết quả xấu, đáng tiếc → たばかりに + てしまった. うちに không đi sau thể た; ばかりに không đi với kết quả tốt (切[き]らずに済[す]んだ)."
+    },
+    {
+     "q": "Anh Nguyễn than với đồng nghiệp: chỉ vì quên mang con dấu mà tôi phải lên tòa thị chính thêm một lần nữa.",
+     "opts": [
+      "印鑑[いんかん]を忘[わす]れたばかりで、市役所[しやくしょ]にもう一度[いちど]行[い]かなければならなかった。",
+      "印鑑[いんかん]を忘[わす]れたのに、市役所[しやくしょ]にもう一度[いちど]行[い]かなければならなかった。",
+      "印鑑[いんかん]を忘[わす]れたばかりに、市役所[しやくしょ]にもう一度[いちど]行[い]かなければならなかった。"
+     ],
+     "ans": 2,
+     "why": "Chỉ vì một sơ suất nhỏ mà kết quả xấu → thể た + ばかりに. たばかりで = \"vừa mới quên\"; のに = \"mặc dù\", ngược logic."
     }
    ],
    "shift": [
@@ -483,6 +493,16 @@
      ],
      "ans": 0,
      "why": "Chính vì… nên → danh từ + だけに. ばかりに cần である và chỉ dùng cho hậu quả xấu do lỗi nhỏ; くせに là trách móc."
+    },
+    {
+     "q": "Anh Nguyễn tâm sự với bạn thân: chính vì đã học rất chăm nên lần trượt N2 này càng thấy buồn.",
+     "opts": [
+      "頑張[がんば]って勉強[べんきょう]しただけあって、今回[こんかい]の不合格[ふごうかく]は余計[よけい]につらいよ。",
+      "頑張[がんば]って勉強[べんきょう]しただけに、今回[こんかい]の不合格[ふごうかく]は余計[よけい]につらいよ。",
+      "頑張[がんば]って勉強[べんきょう]したからといって、今回[こんかい]の不合格[ふごうかく]は余計[よけい]につらいよ。"
+     ],
+     "ans": 1,
+     "why": "Chính vì… nên càng (kết quả xấu) → だけに. だけあって chỉ dùng để khen \"đúng là… có khác\"; からといって = \"không phải cứ vì… mà\", sai nghĩa."
     }
    ],
    "shift": [
@@ -728,6 +748,16 @@
      ],
      "ans": 0,
      "why": "Khen, đúng như tiếng tăm → さすが〜だけあって. わりに / のに là trái với mong đợi."
+    },
+    {
+     "q": "Anh Nguyễn đứng xem bác thợ lâu năm lọc cá ngừ, quay sang nói với đồng nghiệp: đúng là dân kỳ cựu có khác, lọc nhanh thật.",
+     "opts": [
+      "さすがベテランばかりに、魚[さかな]をさばくのが速[はや]いね。",
+      "さすがベテランのわりに、魚[さかな]をさばくのが速[はや]いね。",
+      "さすがベテランだけあって、魚[さかな]をさばくのが速[はや]いね。"
+     ],
+     "ans": 2,
+     "why": "Khen \"đúng là… có khác\" → Danh từ + だけあって (hay đi với さすが). のわりに = \"so với… thì bất ngờ\"; ばかりに = \"chỉ vì… mà (xấu)\"."
     }
    ],
    "shift": [

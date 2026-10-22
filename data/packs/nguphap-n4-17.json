@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -220,6 +220,16 @@
      ],
      "ans": 0,
      "why": "離[はな]せ là mệnh lệnh của 離[はな]す (buông, rời ra)."
+    },
+    {
+     "q": "Thùng hàng trên xe nâng nghiêng sắp rơi, cậu người mới lại đứng ngay bên dưới. Anh Nguyễn phải hét thật ngắn: chạy ra mau!",
+     "opts": [
+      "逃[に]げれ！",
+      "逃[に]げろ！",
+      "逃[に]げていただけませんか！"
+     ],
+     "ans": 1,
+     "why": "Khẩn cấp → thể mệnh lệnh. 逃[に]げる nhóm 2: bỏ る + ろ = 逃[に]げろ. 逃[に]げれ chia nhầm sang hàng え; nhờ quá lịch sự lúc nguy hiểm là không hợp hoàn cảnh."
     }
    ],
    "shift": [
@@ -440,6 +450,16 @@
      ],
      "ans": 0,
      "why": "入[はい]るな = cấm vào; 無断[むだん]で = khi chưa xin phép."
+    },
+    {
+     "q": "Đi câu cá cùng bạn thân người Nhật, anh Nguyễn thấy bạn sắp cầm con cá có gai độc. Anh hét: đừng chạm vào!",
+     "opts": [
+      "その魚[さかな]、触[さわ]らないな！",
+      "その魚[さかな]、触[さわ]りなさい！",
+      "その魚[さかな]、触[さわ]るな！"
+     ],
+     "ans": 2,
+     "why": "Cấm mạnh, khẩn cấp → thể từ điển + な: 触[さわ]るな. Không ghép な với thể ない; 触[さわ]りなさい lại là \"hãy chạm vào\"."
     }
    ],
    "shift": [

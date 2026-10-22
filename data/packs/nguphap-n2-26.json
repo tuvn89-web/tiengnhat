@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -226,6 +226,16 @@
      ],
      "ans": 0,
      "why": "Điều kiện cần → thể ない + ことには, vế sau phủ định (できません). 検査[けんさ]することには: sai thể; vế sau khẳng định: sai."
+    },
+    {
+     "q": "Trong buổi họp, trưởng phòng hỏi máy lọc cá mới có tốt không. Anh Nguyễn (chủ nhiệm) đáp: chưa dùng thử thực tế thì chưa thể biết được.",
+     "opts": [
+      "実際[じっさい]に使[つか]ってみることには、良[よ]いかどうか分[わ]かりません。",
+      "実際[じっさい]に使[つか]ってみないことには、良[よ]いかどうか分[わ]かりません。",
+      "実際[じっさい]に使[つか]ってみないことには、良[よ]いと分[わ]かります。"
+     ],
+     "ans": 1,
+     "why": "Điều kiện cần: chưa làm A thì chưa B → thể ない + ことには + vế PHỦ ĐỊNH. Không dùng thể từ điển; vế sau khẳng định (分[わ]かります) là sai."
     }
    ],
    "shift": [
@@ -470,6 +480,16 @@
      ],
      "ans": 0,
      "why": "Văn viết, \"mà không xảy ra\" → thể từ điển + ことなく. 起[お]きないことなく: sai thể; ないことには = nếu không… thì chưa (sai nghĩa)."
+    },
+    {
+     "q": "Ở buổi tiễn bác Sato nghỉ hưu, anh Nguyễn phát biểu trang trọng: suốt bao năm, bác đã làm việc không nghỉ một ngày nào.",
+     "opts": [
+      "佐藤[さとう]さんは長年[ながねん]、一日[いちにち]も休[やす]まないことには働[はたら]いてこられました。",
+      "佐藤[さとう]さんは長年[ながねん]、一日[いちにち]も休[やす]まないことなく働[はたら]いてこられました。",
+      "佐藤[さとう]さんは長年[ながねん]、一日[いちにち]も休[やす]むことなく働[はたら]いてこられました。"
+     ],
+     "ans": 2,
+     "why": "Mà không hề… (trang trọng) → thể từ điển + ことなく: 休[やす]むことなく. 休[やす]まないことなく là phủ định hai lần; ないことには = \"nếu không… thì chưa\", sai nghĩa."
     }
    ],
    "shift": [
@@ -714,6 +734,16 @@
      ],
      "ans": 0,
      "why": "Định làm mà rốt cuộc không làm được (tiếc) → 行[い]けずじまい. 行[い]けないずじまい: sai thể; ずに済[す]んだ = may mà khỏi phải (sai nghĩa, sai cảm xúc)."
+    },
+    {
+     "q": "Anh Nguyễn kể với vợ: định gọi điện chúc mừng đám cưới cậu bạn cũ ở Osaka, nhưng bận quá, rốt cuộc không gọi được.",
+     "opts": [
+      "忙[いそが]しくて、結局[けっきょく]連絡[れんらく]せずじまいになってしまった。",
+      "忙[いそが]しくて、結局[けっきょく]連絡[れんらく]しずじまいになってしまった。",
+      "忙[いそが]しくて、結局[けっきょく]連絡[れんらく]しないずじまいになってしまった。"
+     ],
+     "ans": 0,
+     "why": "Định làm mà rốt cuộc không làm → する đổi thành せずじまい. しず là chia sai; không giữ ない trước ずじまい."
     }
    ],
    "shift": [

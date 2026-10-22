@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -224,6 +224,16 @@
      ],
      "ans": 0,
      "why": "Làm theo chỉ thị → に従[したが]って."
+    },
+    {
+     "q": "Anh Nguyễn giải thích cho người mới về mùa cao điểm: càng gần cuối năm thì đơn hàng càng tăng.",
+     "opts": [
+      "年末[ねんまつ]が近[ちか]づいたにしたがって、注文[ちゅうもん]が増[ふ]えていきます。",
+      "年末[ねんまつ]が近[ちか]づくにしたがって、注文[ちゅうもん]が増[ふ]えていきます。",
+      "年末[ねんまつ]が近[ちか]づくについて、注文[ちゅうもん]が増[ふ]えていきます。"
+     ],
+     "ans": 1,
+     "why": "Càng… càng (thay đổi theo) → thể từ điển + にしたがって. Không dùng thể た; について là \"về (nội dung)\"."
     }
    ],
    "shift": [
@@ -463,6 +473,16 @@
      ],
      "ans": 0,
      "why": "Thay đổi song song → thể từ điển + につれて."
+    },
+    {
+     "q": "Bạn người Nhật hỏi anh Nguyễn có còn nhớ nhà không. Anh nói: thời gian trôi qua thì nỗi buồn nhớ nhà cũng vơi dần.",
+     "opts": [
+      "時間[じかん]がたったにつれて、寂[さび]しさも少[すく]なくなってきました。",
+      "時間[じかん]がたつにつれて、寂[さび]しさを少[すく]なくしてください。",
+      "時間[じかん]がたつにつれて、寂[さび]しさも少[すく]なくなってきました。"
+     ],
+     "ans": 2,
+     "why": "Hai thay đổi song song, tự nhiên → thể từ điển + につれて, vế sau là thay đổi. Không dùng thể た; vế sau không phải lời nhờ, mệnh lệnh."
     }
    ],
    "shift": [
@@ -688,6 +708,16 @@
      ],
      "ans": 0,
      "why": "Cùng với (trang trọng) → とともに."
+    },
+    {
+     "q": "Ở tiệc tất niên, anh Nguyễn phát biểu trang trọng: năm sau tôi muốn tiếp tục cố gắng cùng với mọi người.",
+     "opts": [
+      "来年[らいねん]も皆様[みなさま]にとって、頑張[がんば]りたいと思[おも]います。",
+      "来年[らいねん]も皆様[みなさま]とともに、頑張[がんば]りたいと思[おも]います。",
+      "来年[らいねん]も皆様[みなさま]に対[たい]して、頑張[がんば]りたいと思[おも]います。"
+     ],
+     "ans": 1,
+     "why": "Cùng với ai, văn trang trọng → danh từ + とともに. にとって là \"đối với (góc nhìn)\"; に対[たい]して là \"hướng tới\"."
     }
    ],
    "shift": [

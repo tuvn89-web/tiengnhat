@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -218,6 +218,16 @@
      ],
      "ans": 0,
      "why": "〜てしまいました + すみません thể hiện biết lỗi, tiếc."
+    },
+    {
+     "q": "Về đến ký túc xá, anh Nguyễn than với bạn cùng phòng: chết, mình lỡ để quên ô trên tàu rồi.",
+     "opts": [
+      "あ、電車[でんしゃ]に傘[かさ]を忘[わす]れといた。",
+      "あ、電車[でんしゃ]に傘[かさ]を忘[わす]れちゃった。",
+      "あ、電車[でんしゃ]に傘[かさ]を忘[わす]れてあった。"
+     ],
+     "ans": 1,
+     "why": "Lỡ, tiếc → てしまう, khẩu ngữ 〜ちゃった. 忘[わす]れといた (= ておいた) là cố ý để sẵn; てある không dùng cho chuyện lỡ."
     }
    ],
    "shift": [
@@ -450,6 +460,16 @@
      ],
      "ans": 0,
      "why": "〜といて = 〜ておいて: làm sẵn giúp nhé."
+    },
+    {
+     "q": "Tổ trưởng báo mai có đơn hàng lớn. Anh Nguyễn chưa làm gì, muốn nói: chiều nay tôi sẽ chuẩn bị sẵn đá cho ngày mai.",
+     "opts": [
+      "今日[きょう]のうちに、明日[あした]の氷[こおり]を準備[じゅんび]してあります。",
+      "今日[きょう]のうちに、明日[あした]の氷[こおり]を準備[じゅんび]してみます。",
+      "今日[きょう]のうちに、明日[あした]の氷[こおり]を準備[じゅんび]しておきます。"
+     ],
+     "ans": 2,
+     "why": "Làm trước để chuẩn bị → 〜ておきます. 準備[じゅんび]してあります là đã làm xong rồi (trong khi chưa làm); 準備[じゅんび]してみます là \"làm thử\"."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -224,6 +224,16 @@
      ],
      "ans": 0,
      "why": "Hạn chót đến nơi → までに."
+    },
+    {
+     "q": "Ở quầy tòa thị chính, anh Nguyễn nhận tờ khai về nhà viết. Anh hỏi nhân viên: hạn chót nộp lại giấy này là khi nào?",
+     "opts": [
+      "この書類[しょるい]は、いつまで出[だ]せばいいですか。",
+      "この書類[しょるい]は、いつまでに出[だ]せばいいですか。",
+      "この書類[しょるい]は、いつ前[まえ]に出[だ]せばいいですか。"
+     ],
+     "ans": 1,
+     "why": "Hạn chót cho việc làm một lần (nộp) → いつまでに. まで là kéo dài đến lúc đó; いつ前[まえ]に không phải cách nói đúng."
     }
    ],
    "shift": [
@@ -444,6 +454,16 @@
      ],
      "ans": 0,
      "why": "Mình tự quyết → ことにしました."
+    },
+    {
+     "q": "Bạn người Nhật ở lớp tiếng Nhật rủ anh Nguyễn tối thứ năm đi nhậu. Anh từ chối: mình tự đặt nguyên tắc là trước ngày đi làm thì không uống rượu.",
+     "opts": [
+      "ごめん、仕事[しごと]の前[まえ]の日[ひ]はお酒[さけ]を飲[の]まないことになっているんだ。",
+      "ごめん、仕事[しごと]の前[まえ]の日[ひ]はお酒[さけ]を飲[の]みませんことにしているんだ。",
+      "ごめん、仕事[しごと]の前[まえ]の日[ひ]はお酒[さけ]を飲[の]まないことにしているんだ。"
+     ],
+     "ans": 2,
+     "why": "Tự mình quyết thành nguyên tắc → 〜ないことにしている. ことになっている là quy định do người khác đặt; không dùng thể ます trước こと."
     }
    ],
    "shift": [
@@ -671,6 +691,16 @@
      ],
      "ans": 0,
      "why": "Quy định → ことになっている."
+    },
+    {
+     "q": "Anh Nguyễn đến chào bà chủ nhà: công ty quyết định điều anh sang nhà máy ở Osaka, nên tháng sau anh chuyển đi.",
+     "opts": [
+      "来月[らいげつ]から、大阪[おおさか]の工場[こうじょう]で働[はたら]くことになりました。",
+      "来月[らいげつ]から、大阪[おおさか]の工場[こうじょう]で働[はたら]くことにしました。",
+      "来月[らいげつ]から、大阪[おおさか]の工場[こうじょう]で働[はたら]きますことになりました。"
+     ],
+     "ans": 0,
+     "why": "Do công ty quyết, không phải mình chọn → ことになりました. ことにしました nghe như tự mình quyết; không dùng thể ます trước こと."
     }
    ],
    "shift": [

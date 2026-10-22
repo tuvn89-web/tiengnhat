@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -222,6 +222,16 @@
      ],
      "ans": 0,
      "why": "Phủ định \"cứ nhanh là được\" → というものではない. というものだ: khẳng định (ngược ý); というものの = tuy nói là… nhưng."
+    },
+    {
+     "q": "Người mới làm sai cùng một lỗi lần thứ ba, chỉ biết cúi đầu xin lỗi. Anh Nguyễn (chủ nhiệm) nói: không phải cứ xin lỗi là xong, cùng tìm nguyên nhân đi.",
+     "opts": [
+      "謝[あやま]ればいいというものだよ。一緒[いっしょ]に原因[げんいん]を考[かんが]えよう。",
+      "謝[あやま]ればいいというものではないよ。一緒[いっしょ]に原因[げんいん]を考[かんが]えよう。",
+      "謝[あやま]ればというものではないよ。一緒[いっしょ]に原因[げんいん]を考[かんが]えよう。"
+     ],
+     "ans": 1,
+     "why": "Phê phán lối nghĩ \"cứ A là được\" → 〜ばいいというものではない. というものだ (khẳng định) ngược ý; không bỏ いい sau 〜ば."
     }
    ],
    "shift": [
@@ -455,6 +465,16 @@
      ],
      "ans": 0,
      "why": "Hạ bớt kỳ vọng của người nghe → Danh từ + といっても."
+    },
+    {
+     "q": "Bạn ở Việt Nam hỏi anh Nguyễn nghỉ hè có về quê không. Anh đáp: gọi là nghỉ hè nhưng chỉ có ba ngày thôi.",
+     "opts": [
+      "夏休[なつやす]みのといっても、三日[みっか]だけなんだ。",
+      "夏休[なつやす]みだからといって、三日[みっか]だけなんだ。",
+      "夏休[なつやす]みといっても、三日[みっか]だけなんだ。"
+     ],
+     "ans": 2,
+     "why": "Nói là… nhưng thực ra chỉ… → Danh từ + といっても. Không chen の; からといって = \"chỉ vì… mà (không nên)\", sai nghĩa."
     }
    ],
    "shift": [
@@ -702,6 +722,16 @@
      ],
      "ans": 0,
      "why": "Hỏi nghĩa từ lạ → Nとは何[なん]ですか (nói thường: Nって何[なん]ですか)."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) giải thích cho thực tập sinh mới ở kho: \"先入[さきい]れ先出[さきだ]し\" nghĩa là hàng nhập trước thì dùng trước.",
+     "opts": [
+      "「先入[さきい]れ先出[さきだ]し」とは、先[さき]に入[い]れた物[もの]から先[さき]に使[つか]うことです。",
+      "「先入[さきい]れ先出[さきだ]し」とは、先[さき]に入[い]れた物[もの]から先[さき]に使[つか]います。",
+      "「先入[さきい]れ先出[さきだ]し」のとは、先[さき]に入[い]れた物[もの]から先[さき]に使[つか]うことです。"
+     ],
+     "ans": 0,
+     "why": "Định nghĩa → Danh từ + とは、…ことです. Câu định nghĩa phải kết bằng こと (không kết bằng động từ trần); không chen の trước とは."
     }
    ],
    "shift": [

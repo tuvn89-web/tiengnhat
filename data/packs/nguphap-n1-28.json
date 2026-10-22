@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Ngay cả điều cơ bản nhất + phủ định, văn báo cáo → danh từ + すら. Không giữ が trước すら; すら không đi với 〜ば theo nghĩa \"chỉ cần\" (đó là さえ〜ば)."
+    },
+    {
+     "q": "Anh Nguyễn kể với vợ về ngày cao điểm cuối năm: bận đến mức ngay cả thời gian ăn trưa cũng không có.",
+     "opts": [
+      "忙[いそが]しくて、昼[ひる]ご飯[はん]を食[た]べる時間[じかん]がすらなかった。",
+      "忙[いそが]しくて、昼[ひる]ご飯[はん]を食[た]べる時間[じかん]すらなかった。",
+      "忙[いそが]しくて、昼[ひる]ご飯[はん]を食[た]べる時間[じかん]すらあれば、食[た]べられた。"
+     ],
+     "ans": 1,
+     "why": "Ngay cả (trường hợp tối thiểu) cũng không → Danh từ + すら, thay cho が. Không giữ が trước すら; すら không dùng với nghĩa \"chỉ cần… thì\" như さえ〜ば."
     }
    ],
    "shift": [
@@ -488,6 +498,16 @@
      ],
      "ans": 0,
      "why": "Chỉ nghĩ tới thôi cũng (sợ) → thể từ điển + だに + cảm xúc. Không dùng thể た trước だに; すら không gắn thẳng sau động từ (phải là 想像[そうぞう]することすら)."
+    },
+    {
+     "q": "Phát biểu ở tiệc mừng lên chức chủ nhiệm, anh Nguyễn nói: hồi mới sang Nhật, tôi chưa từng dám nghĩ tới việc làm chủ nhiệm.",
+     "opts": [
+      "来日[らいにち]した当時[とうじ]は、主任[しゅにん]になるなど想像[そうぞう]だにした。",
+      "来日[らいにち]した当時[とうじ]は、主任[しゅにん]になるなど想像[そうぞう]するだにしなかった。",
+      "来日[らいにち]した当時[とうじ]は、主任[しゅにん]になるなど想像[そうぞう]だにしなかった。"
+     ],
+     "ans": 2,
+     "why": "Ngay cả… cũng không (cụm cố định) → 想像[そうぞう]だにしなかった. だに ở nghĩa này đi với vế phủ định; 想像[そうぞう]するだに (thể từ điển) là nghĩa khác \"chỉ tưởng tượng thôi cũng…\", không ghép với しなかった."
     }
    ],
    "shift": [
@@ -728,6 +748,16 @@
      ],
      "ans": 0,
      "why": "Khen năng lực, vế sau là khả năng → をもってすれば. をもってしても đi với vế phủ định / khó; trợ từ là を, không phải に."
+    },
+    {
+     "q": "Anh Nguyễn viết báo cáo về đợt kiểm tra dị vật (văn viết): ngay cả với kỹ thuật mới nhất cũng không thể loại bỏ hoàn toàn dị vật.",
+     "opts": [
+      "最新[さいしん]の技術[ぎじゅつ]にもってしても、異物[いぶつ]を完全[かんぜん]になくすことはできない。",
+      "最新[さいしん]の技術[ぎじゅつ]をもってすれば、異物[いぶつ]を完全[かんぜん]になくすことはできない。",
+      "最新[さいしん]の技術[ぎじゅつ]をもってしても、異物[いぶつ]を完全[かんぜん]になくすことはできない。"
+     ],
+     "ans": 2,
+     "why": "Ngay cả với (phương tiện mạnh) cũng không → をもってしても + phủ định. をもってすれば đi với vế làm được; trợ từ là を, không phải に."
     }
    ],
    "shift": [

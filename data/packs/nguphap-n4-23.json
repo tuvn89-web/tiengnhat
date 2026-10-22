@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -213,6 +213,16 @@
      ],
      "ans": 0,
      "why": "Khuyên làm → thể た + ほうがいい."
+    },
+    {
+     "q": "Người mới sang Nhật hỏi anh Nguyễn về chuyện giữ tiền. Anh khuyên: không nên để nhiều tiền mặt trong ký túc xá đâu.",
+     "opts": [
+      "寮[りょう]に現金[げんきん]をたくさん置[お]かなかったほうがいいですよ。",
+      "寮[りょう]に現金[げんきん]をたくさん置[お]くないほうがいいですよ。",
+      "寮[りょう]に現金[げんきん]をたくさん置[お]かないほうがいいですよ。"
+     ],
+     "ans": 2,
+     "why": "Khuyên KHÔNG nên → thể ない + ほうがいい. Phủ định không dùng thể た (置[お]かなかったほうが); 置[お]くない chia sai thể ない."
     }
    ],
    "shift": [
@@ -432,6 +442,16 @@
      ],
      "ans": 0,
      "why": "Gợi ý nhẹ, lịch sự với người lớn hơn → 〜たらどうですか."
+    },
+    {
+     "q": "Bạn cùng phòng loay hoay với lá thư thuế không hiểu. Anh Nguyễn gợi ý nhẹ: thử hỏi ở quầy tòa thị chính xem sao?",
+     "opts": [
+      "市役所[しやくしょ]の窓口[まどぐち]で聞[き]いてみたらどう？",
+      "市役所[しやくしょ]の窓口[まどぐち]で聞[き]いてみるらどう？",
+      "市役所[しやくしょ]の窓口[まどぐち]で聞[き]いてみてらどう？"
+     ],
+     "ans": 0,
+     "why": "Gợi ý nhẹ, nói thân → thể た + らどう？: 聞[き]いてみたらどう. Không nối ら với thể từ điển hay thể て."
     }
    ],
    "shift": [
@@ -629,6 +649,16 @@
      ],
      "ans": 0,
      "why": "Hỏi lịch sự \"danh từ cũng được không\" → 〜でもかまいませんか."
+    },
+    {
+     "q": "Anh Nguyễn gọi điện cho phòng khám gần nhà, hỏi lễ tân: không đặt hẹn trước thì cũng được chứ ạ?",
+     "opts": [
+      "予約[よやく]しないてもかまいませんか。",
+      "予約[よやく]しなくてもかまいませんか。",
+      "予約[よやく]しなくてはかまいませんか。"
+     ],
+     "ans": 1,
+     "why": "Không làm cũng không sao → thể ない đổi ない → なくても + かまいません. しないても chia sai; なくては là vế của \"phải làm\", không đi với かまわない."
     }
    ],
    "shift": [

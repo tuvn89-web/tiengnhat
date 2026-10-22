@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -213,6 +213,16 @@
      ],
      "ans": 0,
      "why": "So với tiêu chuẩn (mới vào) → にしては."
+    },
+    {
+     "q": "Giữa tháng 12, anh Nguyễn ra cổng nhận hàng, nói chuyện xã giao với tài xế giao hàng: so với tháng 12 thì hôm nay ấm anh nhỉ.",
+     "opts": [
+      "12月[がつ]として、今日[きょう]は暖[あたた]かいですね。",
+      "12月[がつ]にしては、今日[きょう]は暖[あたた]かいですね。",
+      "12月[がつ]にとって、今日[きょう]は暖[あたた]かいですね。"
+     ],
+     "ans": 1,
+     "why": "So với tiêu chuẩn thường thấy (tháng 12 thì lạnh) → danh từ + にしては. として là \"với tư cách\"; にとって là \"đối với\"."
     }
    ],
    "shift": [
@@ -445,6 +455,16 @@
      ],
      "ans": 0,
      "why": "Sau tính từ → わりに."
+    },
+    {
+     "q": "Anh Nguyễn kể với đồng nghiệp về bà chủ nhà ngoài 80 tuổi vẫn tự đạp xe đi chợ: bà ấy so với tuổi thì khỏe thật.",
+     "opts": [
+      "大家[おおや]さんは年[とし]わりに、とても元気[げんき]ですね。",
+      "大家[おおや]さんは年[とし]としても、とても元気[げんき]ですね。",
+      "大家[おおや]さんは年[とし]のわりに、とても元気[げんき]ですね。"
+     ],
+     "ans": 2,
+     "why": "So với mức độ (tuổi) không tương xứng → danh từ + の + わりに: 年[とし]のわりに. Danh từ thiếu の là sai; としても là \"dù giả sử\"."
     }
    ],
    "shift": [
@@ -668,6 +688,16 @@
      ],
      "ans": 0,
      "why": "Lý do chưa đủ → からといって."
+    },
+    {
+     "q": "Bạn cùng phòng định mua chiếc xe đạp cũ rất rẻ trên mạng. Anh Nguyễn nhắc: không phải cứ rẻ là xe tốt đâu.",
+     "opts": [
+      "安[やす]いからといって、いい自転車[じてんしゃ]とは限[かぎ]らないよ。",
+      "安[やす]いからこそ、いい自転車[じてんしゃ]とは限[かぎ]らないよ。",
+      "安[やす]いせいで、いい自転車[じてんしゃ]とは限[かぎ]らないよ。"
+     ],
+     "ans": 0,
+     "why": "Lý do chưa đủ, vế sau phủ định → からといって〜とは限[かぎ]らない. からこそ là \"chính vì\"; せいで là đổ lỗi cho kết quả xấu đã xảy ra."
     }
    ],
    "shift": [

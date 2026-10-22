@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -223,6 +223,16 @@
      ],
      "ans": 0,
      "why": "Không chỉ… mà còn → だけじゃなくて."
+    },
+    {
+     "q": "Khách hàng mới gọi hỏi xưởng làm những gì. Anh Nguyễn giới thiệu lịch sự: công ty chúng tôi không chỉ cắt cá mà còn làm cả khâu đóng gói.",
+     "opts": [
+      "当社[とうしゃ]は、魚[さかな]を切[き]りだけでなく、包装[ほうそう]も行[おこな]っています。",
+      "当社[とうしゃ]は、魚[さかな]を切[き]るだけしか、包装[ほうそう]も行[おこな]っています。",
+      "当社[とうしゃ]は、魚[さかな]を切[き]るだけでなく、包装[ほうそう]も行[おこな]っています。"
+     ],
+     "ans": 2,
+     "why": "Không chỉ… mà còn → thể thường + だけでなく、〜も. Không dùng thân ます trước だけ; だけしか đi với phủ định, nghĩa \"chỉ có\"."
     }
    ],
    "shift": [
@@ -446,6 +456,16 @@
      ],
      "ans": 0,
      "why": "Như thể (thật ra không) + động từ → かのように."
+    },
+    {
+     "q": "Một buổi sáng tháng tư bỗng rét đậm. Anh Nguyễn nói với đồng nghiệp: sáng nay lạnh cứ như thể quay lại mùa đông.",
+     "opts": [
+      "今朝[けさ]は、まるで冬[ふゆ]に戻[もど]ったかのように寒[さむ]さですね。",
+      "今朝[けさ]は、まるで冬[ふゆ]に戻[もど]ったかのような寒[さむ]さですね。",
+      "今朝[けさ]は、まるで冬[ふゆ]に戻[もど]るかのよう寒[さむ]さですね。"
+     ],
+     "ans": 1,
+     "why": "Như thể…, bổ nghĩa cho danh từ (寒[さむ]さ) → 〜かのような + danh từ. かのように đứng trước động từ / tính từ; thiếu な trước danh từ là sai."
     }
    ],
    "shift": [
@@ -671,6 +691,16 @@
      ],
      "ans": 0,
      "why": "Hiếm khi → めったに + phủ định."
+    },
+    {
+     "q": "Ở buổi khám sức khỏe, bác sĩ hỏi anh Nguyễn có hay uống rượu không. Anh trả lời: tôi hiếm khi uống, chỉ dịp tiệc thôi.",
+     "opts": [
+      "お酒[さけ]はめったに飲[の]みます。忘年会[ぼうねんかい]くらいです。",
+      "お酒[さけ]はたまに飲[の]みません。忘年会[ぼうねんかい]くらいです。",
+      "お酒[さけ]はめったに飲[の]みません。忘年会[ぼうねんかい]くらいです。"
+     ],
+     "ans": 2,
+     "why": "Hiếm khi → めったに + phủ định. めったに không đi với khẳng định; たまに飲[の]みません là \"đôi khi không uống\", nghĩa khác."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -223,6 +223,16 @@
      ],
      "ans": 0,
      "why": "Thấy tận mắt, sắp xảy ra → thể ます bỏ ます + そう: 落[お]ちそう."
+    },
+    {
+     "q": "Trong phòng thay đồ, đồng nghiệp người Nhật khoe đôi ủng mới mua để đi trong kho lạnh. Anh Nguyễn nhìn và khen: trông có vẻ tốt đấy.",
+     "opts": [
+      "その長靴[ながぐつ]、いいそうですね。",
+      "その長靴[ながぐつ]、いさそうですね。",
+      "その長靴[ながぐつ]、よさそうですね。"
+     ],
+     "ans": 2,
+     "why": "Nhìn thấy mà đoán → そう (様態[ようたい]); riêng いい đổi thành よさそう. いいそう là \"nghe nói tốt\"; いさそう chia sai."
     }
    ],
    "shift": [
@@ -454,6 +464,16 @@
      ],
      "ans": 0,
      "why": "Truyền lại lời người khác → 〜だそうです."
+    },
+    {
+     "q": "Lúc tan ca, anh Nguyễn dặn người mới (nói lịch sự): anh vừa xem dự báo thời tiết, mai trời rất lạnh, nhớ mặc ấm.",
+     "opts": [
+      "天気予報[てんきよほう]によると、明日[あした]はとても寒[さむ]いそうです。",
+      "天気予報[てんきよほう]によると、明日[あした]はとても寒[さむ]そうです。",
+      "天気予報[てんきよほう]によると、明日[あした]はとても寒[さむ]いだそうです。"
+     ],
+     "ans": 0,
+     "why": "Truyền lại tin nghe/đọc được → giữ nguyên 寒[さむ]い + そうです. 寒[さむ]そう (bỏ い) là \"trông có vẻ lạnh\"; tính từ い không thêm だ."
     }
    ],
    "shift": [

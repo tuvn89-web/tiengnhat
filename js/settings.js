@@ -34,6 +34,8 @@ export const DEFAULTS = {
   fxHol: '',          // v46: ngày lễ — '' (theo ngày thật) | mã ngày lễ (giữ cố định cảnh ngày lễ đó)
   fxCity: '',         // thành phố lấy thời tiết thật
   fxBurst: true,      // chùm hạt khi trả lời đúng, ở màn kết quả
+  // v53: đồng hồ lộ cơ nổi ở góc màn hình
+  watch: true, watchSize: 'sm', watchFull: true, watchLabels: true,
   deviceName: '',
 };
 export const S = { ...DEFAULTS };

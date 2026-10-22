@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -226,6 +226,16 @@
      ],
      "ans": 0,
      "why": "Chỉ đường, kết quả tự nhiên → と + sự thật. Vế sau không là lời nhờ."
+    },
+    {
+     "q": "Anh Nguyễn chỉ cho thực tập sinh mới cách dùng máy cắt: hễ bấm cái nút đỏ này là máy dừng ngay.",
+     "opts": [
+      "この赤[あか]いボタンを押[お]したと、機械[きかい]が止[と]まります。",
+      "この赤[あか]いボタンを押[お]すと、機械[きかい]を止[と]めてください。",
+      "この赤[あか]いボタンを押[お]すと、機械[きかい]が止[と]まります。"
+     ],
+     "ans": 2,
+     "why": "Kết quả tất yếu của máy móc → thể từ điển + と. Không nối と với thể た; vế sau と không được là lời nhờ (止[と]めてください)."
     }
    ],
    "shift": [
@@ -460,6 +470,16 @@
      ],
      "ans": 0,
      "why": "Đáp lại chủ đề người kia vừa nói → 〜なら + lời khuyên."
+    },
+    {
+     "q": "Người mới nói với anh Nguyễn: 「明日[あした]、市役所[しやくしょ]に住所[じゅうしょ]の手続[てつづ]きに行[い]きます」. Anh muốn dặn: nếu định đi thì mang theo thẻ cư trú.",
+     "opts": [
+      "市役所[しやくしょ]に行[い]ったら、在留[ざいりゅう]カードを持[も]っていってください。",
+      "市役所[しやくしょ]に行[い]くなら、在留[ざいりゅう]カードを持[も]っていってください。",
+      "市役所[しやくしょ]に行[い]くだなら、在留[ざいりゅう]カードを持[も]っていってください。"
+     ],
+     "ans": 1,
+     "why": "Đáp lại việc người kia định làm, lời dặn trước khi đi → 行[い]くなら. 行[い]ったら là \"đến nơi rồi mới mang\" (sai thứ tự); động từ không thêm だ trước なら."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -235,6 +235,16 @@
      ],
      "ans": 0,
      "why": "Bất kể (nhiều khả năng) → にかかわらず. にもかかわらず = mặc dù (sai nghĩa); にとって = đối với (sai)."
+    },
+    {
+     "q": "Trong buổi họp đầu ca, anh Nguyễn (tổ trưởng) nhắc về tiệc tất niên: dù có tham gia hay không, mọi người hãy trả lời trước thứ Sáu.",
+     "opts": [
+      "参加[さんか]する・しないにもかかわらず、金曜日[きんようび]までに返事[へんじ]をください。",
+      "参加[さんか]する・しないにかかわらず、金曜日[きんようび]までに返事[へんじ]をください。",
+      "参加[さんか]するにかかわらず、金曜日[きんようび]までに返事[へんじ]をください。"
+     ],
+     "ans": 1,
+     "why": "Bất kể (nhiều khả năng) → cặp する・しない + にかかわらず. Thêm も thành \"mặc dù\" (sai nghĩa); một giá trị đơn (参加[さんか]する) không đi với にかかわらず."
     }
    ],
    "shift": [
@@ -468,6 +478,16 @@
      ],
      "ans": 0,
      "why": "Mặc dù (bận) vẫn… → にもかかわらず, trang trọng hợp với lời cảm ơn. にかかわらず = bất kể (sai nghĩa); おかげで = nhờ (sai nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn viết báo cáo gửi giám đốc xưởng: mặc dù đã nhắc nhở nhiều lần, lỗi dán nhãn vẫn lặp lại.",
+     "opts": [
+      "何度[なんど]も注意[ちゅうい]したにもかかわらず、表示[ひょうじ]ミスが繰[く]り返[かえ]されました。",
+      "何度[なんど]も注意[ちゅうい]したにかかわらず、表示[ひょうじ]ミスが繰[く]り返[かえ]されました。",
+      "何度[なんど]も注意[ちゅうい]したばかりに、表示[ひょうじ]ミスが繰[く]り返[かえ]されました。"
+     ],
+     "ans": 0,
+     "why": "Mặc dù (một sự việc cụ thể), văn báo cáo → にもかかわらず. Bỏ も thành \"bất kể\"; ばかりに = \"chỉ vì đã nhắc mà…\", sai nghĩa."
     }
    ],
    "shift": [
@@ -712,6 +732,16 @@
      ],
      "ans": 0,
      "why": "不問[ふもん] = を問[と]わず (không xét đến). Trợ từ phải là を; にもかかわらず = mặc dù (sai nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) viết tờ thông báo dán ở phòng nghỉ: bất kể ngày hay đêm, nếu có vấn đề an toàn thì liên lạc ngay.",
+     "opts": [
+      "昼夜[ちゅうや]に問[と]わず、安全[あんぜん]の問題[もんだい]があればすぐ連絡[れんらく]してください。",
+      "昼夜[ちゅうや]にもかかわらず、安全[あんぜん]の問題[もんだい]があればすぐ連絡[れんらく]してください。",
+      "昼夜[ちゅうや]を問[と]わず、安全[あんぜん]の問題[もんだい]があればすぐ連絡[れんらく]してください。"
+     ],
+     "ans": 2,
+     "why": "Không phân biệt (cặp đối nhau) → 昼夜[ちゅうや]を問[と]わず; 問[と]う đi với を, không dùng に. にもかかわらず = \"mặc dù\", sai nghĩa."
     }
    ],
    "shift": [

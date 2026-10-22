@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 7,
+  "version": 8,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -425,6 +425,11 @@
      "jp": "インフルエンザの注射[ちゅうしゃ]は、会社[かいしゃ]で受[う]けられます。",
      "vi": "Tiêm phòng cúm được tiêm ở công ty.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：注射[ちゅうしゃ]、痛[いた]かった？ B：ううん、ぜんぜん痛[いた]くなかったよ。",
+     "vi": "A: Tiêm có đau không? B: Không, chẳng đau chút nào.",
+     "ctx": "hoithoai"
     }
    ],
    "vt": "tha"
@@ -452,6 +457,11 @@
      "jp": "入院[にゅういん]する時[とき]は、保険証[ほけんしょう]を持[も]って行[い]きます。",
      "vi": "Khi nhập viện mang theo thẻ bảo hiểm.",
      "ctx": "thutuc"
+    },
+    {
+     "jp": "班長[はんちょう]が入院[にゅういん]したので、みんなでお見舞[みま]いに行[い]きました。",
+     "vi": "Tổ trưởng nhập viện nên cả tổ đi thăm.",
+     "ctx": "xuong"
     }
    ],
    "coll": [
@@ -488,6 +498,11 @@
      "jp": "退院[たいいん]したら、会社[かいしゃ]に連絡[れんらく]してください。",
      "vi": "Xuất viện thì liên lạc công ty.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：退院[たいいん]、おめでとうございます。 B：ありがとう。もう元気[げんき]になりました。",
+     "vi": "A: Chúc mừng anh xuất viện. B: Cảm ơn. Tôi khỏe lại rồi.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [
@@ -524,6 +539,11 @@
      "jp": "休[やす]みの日[ひ]は寝坊[ねぼう]します。",
      "vi": "Ngày nghỉ tôi ngủ nướng.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "また寝坊[ねぼう]したんか。はよ起[お]きや。",
+     "vi": "Lại ngủ quên à. Dậy mau đi.",
+     "ctx": "kansai"
     }
    ],
    "coll": [
@@ -704,6 +724,11 @@
      "jp": "反対[はんたい]の方向[ほうこう]に行[い]ってしまいました。",
      "vi": "Tôi lỡ đi ngược hướng.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "班[はん]長[ちょう]の意見[いけん]に反対[はんたい]する人[ひと]は、いませんでした。",
+     "vi": "Không ai phản đối ý kiến của tổ trưởng.",
+     "ctx": "xuong"
     }
    ],
    "coll": [
@@ -743,6 +768,11 @@
      "jp": "店[みせ]の競争[きょうそう]が激[はげ]しいです。",
      "vi": "Cạnh tranh giữa các cửa hàng gay gắt.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "A：駅[えき]まで競争[きょうそう]しよう！ B：いいよ。負[ま]けないよ。",
+     "vi": "A: Thi chạy đến ga nào! B: Được. Tôi không thua đâu.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [
@@ -852,6 +882,11 @@
      "jp": "時間[じかん]に遅[おく]れるのは失礼[しつれい]です。",
      "vi": "Đến muộn là thất lễ.",
      "ctx": "doisong"
+    },
+    {
+     "jp": "A：失礼[しつれい]ですが、お名前[なまえ]は？ B：グエンと申[もう]します。",
+     "vi": "A: Xin lỗi, anh tên là gì ạ? B: Tôi tên là Nguyễn.",
+     "ctx": "hoithoai"
     }
    ],
    "note": "Vào phòng: 失礼[しつれい]します; về trước: お先[さき]に失礼[しつれい]します.",
@@ -1095,6 +1130,11 @@
      "jp": "在留[ざいりゅう]カードを拝見[はいけん]します。",
      "vi": "Cho tôi xem thẻ cư trú ạ.",
      "ctx": "thutuc"
+    },
+    {
+     "jp": "お客様[きゃくさま]の注文書[ちゅうもんしょ]を拝見[はいけん]しました。すぐに準備[じゅんび]いたします。",
+     "vi": "Tôi đã xem đơn đặt hàng của quý khách. Chúng tôi sẽ chuẩn bị ngay.",
+     "ctx": "xuong"
     }
    ],
    "coll": [
@@ -1131,6 +1171,11 @@
      "jp": "トラックが出発[しゅっぱつ]する前[まえ]に、数[かず]を確認[かくにん]してください。",
      "vi": "Trước khi xe tải xuất phát hãy kiểm số lượng.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "A：明日[あした]は何時[なんじ]に出発[しゅっぱつ]しますか。 B：九時[くじ]です。遅[おく]れないでくださいね。",
+     "vi": "A: Mai mấy giờ xuất phát? B: 9 giờ. Đừng đến muộn nhé.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [

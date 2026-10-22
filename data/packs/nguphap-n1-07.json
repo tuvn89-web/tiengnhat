@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -239,6 +239,16 @@
      ],
      "ans": 0,
      "why": "Tùy vào… mà có khi (kết quả xấu) → いかんによっては. にとっては sai trợ từ; いかんにかかわらず = bất kể (ngược nghĩa)."
+    },
+    {
+     "q": "Trong buổi họp tổ, anh Nguyễn (chủ nhiệm) thông báo trang trọng: tiền thưởng năm sau sẽ được quyết định tùy vào kết quả đánh giá.",
+     "opts": [
+      "来年[らいねん]のボーナスは、評価[ひょうか]するいかんで決[き]まります。",
+      "来年[らいねん]のボーナスは、評価[ひょうか]の結果[けっか]いかんで決[き]まります。",
+      "来年[らいねん]のボーナスは、評価[ひょうか]の結果[けっか]いかんにかかわらず決[き]まります。"
+     ],
+     "ans": 1,
+     "why": "Tùy vào A mà B được quyết định → Danh từ + いかんで. いかん chỉ đứng sau danh từ, không sau động từ; いかんにかかわらず = \"bất kể\", ngược nghĩa."
     }
    ],
    "shift": [
@@ -477,6 +487,16 @@
      ],
      "ans": 0,
      "why": "Bất kể… → いかんにかかわらず. にもかかわらず = mặc dù (sai nghĩa); いかんによっては = tùy vào… mà có khi (ngược nghĩa với nội quy áp dụng cho mọi người)."
+    },
+    {
+     "q": "Anh Nguyễn soạn dòng lưu ý in trên phiếu giao hàng gửi khách: bất kể lý do gì, hàng đã mở bao bì thì không nhận trả lại.",
+     "opts": [
+      "理由[りゆう]のいかんにもかかわらず、開封[かいふう]後[ご]の返品[へんぴん]はお受[う]けできません。",
+      "理由[りゆう]のいかんによっては、開封[かいふう]後[ご]の返品[へんぴん]はお受[う]けできません。",
+      "理由[りゆう]のいかんにかかわらず、開封[かいふう]後[ご]の返品[へんぴん]はお受[う]けできません。"
+     ],
+     "ans": 2,
+     "why": "Bất kể A ra sao → のいかんにかかわらず. Thêm も thành \"mặc dù\"; いかんによっては = \"tùy lý do mà có khi…\", trái với ý \"bất kể\"."
     }
    ],
    "shift": [
@@ -717,6 +737,16 @@
      ],
      "ans": 0,
      "why": "Đề cử người phù hợp nhất → N + をおいてほかにいない (trợ từ を, vế sau phủ định)."
+    },
+    {
+     "q": "Cậu em đồng hương cứ lần lữa chưa đăng ký thi N1. Anh Nguyễn giục: muốn thi thì ngoài lúc này ra không còn cơ hội nào khác đâu.",
+     "opts": [
+      "受[う]けるなら、今[いま]をおいてほかにチャンスはないよ。",
+      "受[う]けるなら、今[いま]においてほかにチャンスはないよ。",
+      "受[う]けるなら、今[いま]をおいてほかにチャンスがあるよ。"
+     ],
+     "ans": 0,
+     "why": "Ngoài A ra không có → Danh từ + をおいて(ほかに) + phủ định. において là trợ từ khác (= で); vế sau khẳng định là sai."
     }
    ],
    "shift": [

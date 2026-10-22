@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -223,6 +223,16 @@
      ],
      "ans": 0,
      "why": "Đang bận việc gấp nên không thể → どころではない. どころか phải nối sang một vế trái ngược; ばかりではない = không chỉ (sai nghĩa)."
+    },
+    {
+     "q": "Bạn thân rủ anh Nguyễn đi du lịch dịp cuối năm. Anh từ chối thân mật: tháng này xưởng bận lắm, đâu phải lúc mà đi du lịch.",
+     "opts": [
+      "今月[こんげつ]は工場[こうじょう]が忙[いそが]しくて、旅行[りょこう]のどころじゃないんだ。",
+      "今月[こんげつ]は工場[こうじょう]が忙[いそが]しくて、旅行[りょこう]したどころじゃないんだ。",
+      "今月[こんげつ]は工場[こうじょう]が忙[いそが]しくて、旅行[りょこう]どころじゃないんだ。"
+     ],
+     "ans": 2,
+     "why": "Đâu phải lúc làm A → Danh từ + どころじゃない. Không chen の sau danh từ; không dùng thể た trước どころじゃない."
     }
    ],
    "shift": [
@@ -475,6 +485,16 @@
      ],
      "ans": 0,
      "why": "A đương nhiên, B cũng → はもとより + も. をもとに = dựa trên (sai nghĩa); \"quên cũng được\" thì mâu thuẫn với はもとより."
+    },
+    {
+     "q": "Dẫn khách hàng tham quan xưởng, anh Nguyễn giới thiệu trang trọng: hàng của chúng tôi giao trong tỉnh Hyogo là đương nhiên, còn đi cả Osaka và Kyoto.",
+     "opts": [
+      "兵庫[ひょうご]県内[けんない]はもとより、大阪[おおさか]や京都[きょうと]にも出荷[しゅっか]しています。",
+      "兵庫[ひょうご]県内[けんない]をもとより、大阪[おおさか]や京都[きょうと]にも出荷[しゅっか]しています。",
+      "兵庫[ひょうご]県内[けんない]はともかく、大阪[おおさか]や京都[きょうと]にも出荷[しゅっか]しています。"
+     ],
+     "ans": 0,
+     "why": "A đương nhiên, B cũng → Danh từ + はもとより + も. Không dùng を; はともかく = \"tạm gác A\", sai ý."
     }
    ],
    "shift": [
@@ -712,6 +732,16 @@
      ],
      "ans": 0,
      "why": "Tạm gác A, ưu tiên B → はともかく. はもとより = A đương nhiên cũng quan trọng (ngược ý động viên); のおかげで = nhờ (sai nghĩa)."
+    },
+    {
+     "q": "Trong buổi họp tổ bàn cách giảm hàng lỗi, có người lo không làm nổi. Anh Nguyễn (chủ nhiệm) nói: làm được hay không thì khoan bàn, trước hết cứ thử đã.",
+     "opts": [
+      "できるどうかはともかく、まずやってみましょう。",
+      "できるかどうかはもとより、まずやってみましょう。",
+      "できるかどうかはともかく、まずやってみましょう。"
+     ],
+     "ans": 2,
+     "why": "Tạm gác A, ưu tiên B → (câu hỏi) + はともかく; giữ か: できるかどうか. はもとより = \"A đương nhiên, B cũng\", sai ý."
     }
    ],
    "shift": [

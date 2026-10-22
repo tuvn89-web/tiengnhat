@@ -8,7 +8,7 @@
   "topics": [
    "thuysan"
   ],
-  "version": 8,
+  "version": 9,
   "created": "2026-10-08",
   "verified_on": "",
   "note": "Gói mẫu. Từ chuyên ngành chế biến không gia nhiệt (生食用[せいしょくよう]); cấp ước lượng."
@@ -32,6 +32,16 @@
      "jp": "冷凍[れいとう]マグロを流水[りゅうすい]で解凍[かいとう]します。",
      "vi": "Rã đông cá ngừ đông lạnh bằng nước chảy.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "冷凍[れいとう]の刺身[さしみ]は、冷蔵庫[れいぞうこ]でゆっくり解凍[かいとう]するとおいしい。",
+     "vi": "Sashimi đông lạnh rã đông từ từ trong tủ lạnh thì ngon.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このマグロのブロック、いつ解凍[かいとう]する？ B：明日[あした]使[つか]うから、今夜[こんや]冷蔵庫[れいぞうこ]に移[うつ]しておこう。",
+     "vi": "A: Khối cá ngừ này bao giờ rã đông? B: Mai dùng nên tối nay chuyển sang ngăn mát đi.",
+     "ctx": "hoithoai"
     }
    ],
    "confuse": [
@@ -64,6 +74,16 @@
      "jp": "サーモンを急速[きゅうそく]冷凍[れいとう]します。",
      "vi": "Cấp đông nhanh cá hồi.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "ご飯[はん]を多[おお]めに炊[た]いて、残[のこ]りは冷凍[れいとう]しておく。",
+     "vi": "Tôi nấu cơm nhiều một chút, phần thừa thì để đông lạnh.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このエビ、冷凍[れいとう]？ B：ううん、生[なま]だよ。今日中[きょうじゅう]に使[つか]ってね。",
+     "vi": "A: Tôm này đông lạnh à? B: Không, tôm tươi đấy. Dùng trong hôm nay nhé.",
+     "ctx": "hoithoai"
     }
    ],
    "confuse": [
@@ -96,6 +116,16 @@
      "jp": "刺身[さしみ]は冷蔵[れいぞう]で保存[ほぞん]します。",
      "vi": "Sashimi bảo quản ở ngăn mát.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "開[あ]けた牛乳[ぎゅうにゅう]は、冷蔵[れいぞう]して早[はや]めに飲[の]んでください。",
+     "vi": "Sữa đã mở thì để ngăn mát và uống sớm.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：このたれ、冷蔵[れいぞう]が必要[ひつよう]ですか。 B：はい、開[あ]けたら冷蔵庫[れいぞうこ]に入[い]れてください。",
+     "vi": "A: Nước sốt này có cần để ngăn mát không? B: Có, mở ra rồi thì cho vào tủ lạnh.",
+     "ctx": "hoithoai"
     }
    ],
    "confuse": [
@@ -146,7 +176,18 @@
    "ex": [
     {
      "jp": "一[ひと]パックずつ計量[けいりょう]します。",
-     "vi": "Cân từng gói một."
+     "vi": "Cân từng gói một.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：この荷物[にもつ]、郵便局[ゆうびんきょく]で計量[けいりょう]してもらった？ B：うん、二[に]キロちょっとだったよ。",
+     "vi": "A: Gói hàng này đã nhờ bưu điện cân chưa? B: Rồi, hơn 2 ký một chút.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "料理[りょうり]の時[とき]は、塩[しお]や砂糖[さとう]をきちんと計量[けいりょう]するようにしている。",
+     "vi": "Khi nấu ăn tôi cố gắng đong muối và đường cẩn thận.",
+     "ctx": "doisong"
     }
    ],
    "vt": "tha"
@@ -167,7 +208,18 @@
    "ex": [
     {
      "jp": "検品[けんぴん]が終[お]わったら包装[ほうそう]します。",
-     "vi": "Kiểm hàng xong thì đóng gói."
+     "vi": "Kiểm hàng xong thì đóng gói.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "A：ご自宅[じたく]用[よう]ですか。包装[ほうそう]しましょうか。 B：いえ、そのままで大丈夫[だいじょうぶ]です。",
+     "vi": "A: Anh mua dùng ở nhà ạ? Tôi gói lại nhé? B: Không, để vậy được rồi.",
+     "ctx": "hoithoai"
+    },
+    {
+     "jp": "プレゼントにするので、お店[みせ]できれいに包装[ほうそう]してもらった。",
+     "vi": "Vì để làm quà nên tôi nhờ cửa hàng gói đẹp.",
+     "ctx": "doisong"
     }
    ],
    "vt": "tha"
@@ -280,7 +332,18 @@
    "ex": [
     {
      "jp": "出荷[しゅっか]の前[まえ]に検品[けんぴん]します。",
-     "vi": "Kiểm hàng trước khi xuất."
+     "vi": "Kiểm hàng trước khi xuất.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "この箱[はこ]の検品[けんぴん]、もう終[お]わったん？はよ出[だ]さなあかんで。",
+     "vi": "Thùng này kiểm hàng xong chưa? Phải xuất nhanh lên đấy.",
+     "ctx": "kansai"
+    },
+    {
+     "jp": "A：この箱[はこ]、もう検品[けんぴん]した？ B：まだです。今[いま]からやります。",
+     "vi": "A: Thùng này kiểm hàng chưa? B: Chưa ạ. Tôi làm ngay bây giờ.",
+     "ctx": "hoithoai"
     }
    ],
    "vt": "tha"
@@ -376,6 +439,16 @@
      "jp": "まな板[いた]をアルコールで消毒[しょうどく]します。",
      "vi": "Khử trùng thớt bằng cồn.",
      "ctx": "xuong"
+    },
+    {
+     "jp": "店[みせ]に入[はい]る時[とき]、入口[いりぐち]で手[て]を消毒[しょうどく]した。",
+     "vi": "Lúc vào cửa hàng, tôi sát khuẩn tay ở lối vào.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "A：けがしたところ、消毒[しょうどく]した？ B：うん、薬[くすり]も塗[ぬ]ったよ。",
+     "vi": "A: Chỗ bị thương khử trùng chưa? B: Rồi, bôi thuốc rồi.",
+     "ctx": "hoithoai"
     }
    ],
    "coll": [

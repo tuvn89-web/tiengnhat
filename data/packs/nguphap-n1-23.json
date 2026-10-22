@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Kể sự thật đã xảy ra, văn bản tin → とあって + vế sau là tình trạng thực tế. とあれば dùng cho giả định; vế sau của とあって không được là lời mời, nhờ."
+    },
+    {
+     "q": "Anh Nguyễn viết bài cho bản tin công ty về buổi bán cá cho nhân viên: vì là đợt giảm nửa giá, từ sáng sớm đã có hàng dài người xếp hàng.",
+     "opts": [
+      "半額[はんがく]セールとあれば、朝[あさ]早[はや]くから長[なが]い行列[ぎょうれつ]ができた。",
+      "半額[はんがく]セールとあって、朝[あさ]早[はや]くから長[なが]い行列[ぎょうれつ]ができた。",
+      "半額[はんがく]セールとあって、朝[あさ]早[はや]くから並[なら]びましょう。"
+     ],
+     "ans": 1,
+     "why": "Vì hoàn cảnh đặc biệt nên (tình trạng đã xảy ra) → とあって. とあれば là giả định \"nếu là…\"; vế sau không được là lời rủ."
     }
    ],
    "shift": [
@@ -477,6 +487,16 @@
      ],
      "ans": 0,
      "why": "Phát biểu trang trọng, nêu nguyên nhân bản chất → động từ + がゆえに. Không chen の sau động từ; にもかかわらず = mặc dù (ngược nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) viết báo cáo phân tích sự cố (văn viết): nguyên nhân là sự chủ quan sinh ra do đã quen việc.",
+     "opts": [
+      "今回[こんかい]のミスは、慣[な]れゆえに油断[ゆだん]が原因[げんいん]です。",
+      "今回[こんかい]のミスは、慣[な]れゆえの油断[ゆだん]が原因[げんいん]です。",
+      "今回[こんかい]のミスは、慣[な]れゆえな油断[ゆだん]が原因[げんいん]です。"
+     ],
+     "ans": 1,
+     "why": "Bổ nghĩa danh từ → Danh từ + ゆえの + Danh từ: 慣[な]れゆえの油断[ゆだん]. Trước danh từ không dùng ゆえに; không dùng な."
     }
    ],
    "shift": [
@@ -727,6 +747,16 @@
      ],
      "ans": 0,
      "why": "Nêu lý do (chưa quen) để xin thông cảm → こととて + lời xin lỗi. ことには sai mẫu; vế sau của こととて phải là lời xin lỗi, không phải \"làm phiền cũng không sao\"."
+    },
+    {
+     "q": "Khách hàng đặt gấp một lô hàng mẫu. Khi giao, anh Nguyễn xin lỗi trang trọng: vì là việc gấp nên chúng tôi chưa chuẩn bị được chu đáo, mong quý khách thông cảm.",
+     "opts": [
+      "急[きゅう]なこととて、十分[じゅうぶん]な準備[じゅんび]ができず申[もう]し訳[わけ]ございません。",
+      "急[きゅう]なこととて、十分[じゅうぶん]な準備[じゅんび]ができて何[なに]よりです。",
+      "急[きゅう]なことには、十分[じゅうぶん]な準備[じゅんび]ができず申[もう]し訳[わけ]ございません。"
+     ],
+     "ans": 0,
+     "why": "Nêu lý do để xin thông cảm (rất trang trọng) → こととて + lời xin lỗi. Vế sau là chuyện tốt thì không hợp; ことには là \"điều đáng… là\", sai nghĩa."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -236,6 +236,16 @@
      ],
      "ans": 0,
      "why": "Thứ bám dính khắp người → danh từ + まみれ (+ だ). まみれる là động từ, phải có に (ウロコにまみれる); ずくめ = toàn là (không dùng cho thứ bám bẩn)."
+    },
+    {
+     "q": "Sau khi bảo dưỡng máy, anh Nguyễn bảo đàn em: áo bảo hộ dính đầy dầu mỡ rồi, thay ra đi.",
+     "opts": [
+      "その油[あぶら]まみれな作業着[さぎょうぎ]、着替[きが]えたほうがいいよ。",
+      "その油[あぶら]まみれの作業着[さぎょうぎ]、着替[きが]えたほうがいいよ。",
+      "その油[あぶら]ずくめの作業着[さぎょうぎ]、着替[きが]えたほうがいいよ。"
+     ],
+     "ans": 1,
+     "why": "Chất bẩn bám kín, đứng trước danh từ → Danh từ + まみれの + Danh từ. Không dùng な; ずくめ không dùng cho chất bẩn bám lên đồ."
     }
    ],
    "shift": [
@@ -473,6 +483,16 @@
      ],
      "ans": 0,
      "why": "Toàn chuyện vui → うれしいことずくめ + の + danh từ. まみれ = chất bẩn bám đầy người (sai nghĩa); ずくめ không đi với な."
+    },
+    {
+     "q": "Cậu bạn ở Việt Nam hỏi cuộc sống ký túc xá công ty thế nào. Anh Nguyễn đáp: toàn là quy định, hơi ngột ngạt.",
+     "opts": [
+      "寮[りょう]は規則[きそく]まみれの生活[せいかつ]で、ちょっと窮屈[きゅうくつ]だよ。",
+      "寮[りょう]は規則[きそく]ずくめな生活[せいかつ]で、ちょっと窮屈[きゅうくつ]だよ。",
+      "寮[りょう]は規則[きそく]ずくめの生活[せいかつ]で、ちょっと窮屈[きゅうくつ]だよ。"
+     ],
+     "ans": 2,
+     "why": "Toàn là… (phủ kín) → 規則[きそく]ずくめの + Danh từ. まみれ chỉ dùng cho chất bẩn, chất lỏng bám kín; trước danh từ dùng の, không dùng な."
     }
    ],
    "shift": [
@@ -713,6 +733,16 @@
      ],
      "ans": 0,
      "why": "Thư trang trọng hay mở đầu bằng 春[はる]めいてまいりました. めく chia như 書[か]く → めいて; めく là động từ nên không có dạng めくなって."
+    },
+    {
+     "q": "Sau buổi họp, anh Nguyễn nói nhỏ với đồng nghiệp: lúc nãy trưởng phòng nói một câu nghe có vẻ mỉa mai.",
+     "opts": [
+      "さっき課長[かちょう]が皮肉[ひにく]めくなことを言[い]ってたね。",
+      "さっき課長[かちょう]が皮肉[ひにく]めいたことを言[い]ってたね。",
+      "さっき課長[かちょう]が皮肉[ひにく]めきたことを言[い]ってたね。"
+     ],
+     "ans": 1,
+     "why": "Có hơi hướng…, đứng trước danh từ → めいた + Danh từ (めく chia như 書[か]く → 書[か]いた). めくな, めきた đều sai."
     }
    ],
    "shift": [

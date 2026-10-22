@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 3,
+  "version": 4,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -227,6 +227,16 @@
      ],
      "ans": 0,
      "why": "Bị bắt làm → 使役受身[させられる]."
+    },
+    {
+     "q": "Đi gia hạn visa về, anh Nguyễn kể với tổ trưởng: ở Cục xuất nhập cảnh tôi bị bắt chờ những ba tiếng.",
+     "opts": [
+      "入管[にゅうかん]で三時間[さんじかん]も待[ま]たれました。",
+      "入管[にゅうかん]で三時間[さんじかん]も待[ま]たせました。",
+      "入管[にゅうかん]で三時間[さんじかん]も待[ま]たされました。"
+     ],
+     "ans": 2,
+     "why": "Bị bắt chờ (không muốn mà phải chờ) → sai khiến bị động 待[ま]たされる. 待[ま]たれる là bị động thường (người khác chờ mình); 待[ま]たせました là \"bắt người khác chờ\"."
     }
    ],
    "shift": [
@@ -454,6 +464,16 @@
      ],
      "ans": 0,
      "why": "Xin phép mình làm → 〜させていただけませんか."
+    },
+    {
+     "q": "Trong buổi họp tổ, anh Nguyễn được giao trình bày quy trình mới. Anh mở đầu khiêm nhường: hôm nay tôi xin phép giải thích về quy trình mới.",
+     "opts": [
+      "本日[ほんじつ]は、新[あたら]しい手順[てじゅん]について説明[せつめい]させていただきます。",
+      "本日[ほんじつ]は、新[あたら]しい手順[てじゅん]について説明[せつめい]していただきます。",
+      "本日[ほんじつ]は、新[あたら]しい手順[てじゅん]について説明[せつめい]させられます。"
+     ],
+     "ans": 0,
+     "why": "Thông báo việc mình làm một cách khiêm nhường → させていただきます. していただきます là nhờ người khác giải thích; させられます là \"bị bắt giải thích\"."
     }
    ],
    "shift": [
@@ -672,6 +692,16 @@
      ],
      "ans": 0,
      "why": "Nhờ người khác, rất lịch sự → ていただけないでしょうか."
+    },
+    {
+     "q": "Chủ nhật anh Nguyễn phải đi tòa thị chính, muốn nhờ đồng nghiệp ngang tuổi (thân) làm thay ca của anh.",
+     "opts": [
+      "日曜日[にちようび]のシフト、代[か]わらせてもらえない？",
+      "日曜日[にちようび]のシフト、代[か]わってもらえない？",
+      "日曜日[にちようび]のシフト、代[か]わっていただけますでしょうか。"
+     ],
+     "ans": 1,
+     "why": "Nhờ người khác làm, nói với bạn thân → 〜てもらえない？. 代[か]わらせてもらえない là \"để mình làm thay cậu\" (ngược ý); ていただけますでしょうか quá khách sáo với bạn."
     }
    ],
    "shift": [

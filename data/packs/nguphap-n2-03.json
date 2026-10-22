@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -232,6 +232,16 @@
      ],
      "ans": 0,
      "why": "Làm trước một sự kiện (văn thông báo) → Danh từ + に先立[さきだ]って. に比[くら]べて = so với."
+    },
+    {
+     "q": "Trong buổi họp đầu ca, anh Nguyễn (tổ trưởng) thông báo: trước khi bắt đầu sản xuất mặt hàng mới, tổ sẽ có buổi tập huấn vệ sinh.",
+     "opts": [
+      "新商品[しんしょうひん]の生産[せいさん]の先立[さきだ]って、衛生[えいせい]研修[けんしゅう]を行[おこな]います。",
+      "新商品[しんしょうひん]の生産[せいさん]を始[はじ]めたに先立[さきだ]って、衛生[えいせい]研修[けんしゅう]を行[おこな]います。",
+      "新商品[しんしょうひん]の生産[せいさん]に先立[さきだ]って、衛生[えいせい]研修[けんしゅう]を行[おこな]います。"
+     ],
+     "ans": 2,
+     "why": "Việc chuẩn bị làm trước sự kiện lớn → Danh từ + に先立[さきだ]って. Không chen の như 〜の前[まえ]に; không dùng thể た trước に先立[さきだ]って."
     }
    ],
    "shift": [
@@ -472,6 +482,16 @@
      ],
      "ans": 0,
      "why": "Sự kiện đang đến gần → Danh từ + を前[まえ]に (không の, không で)."
+    },
+    {
+     "q": "Khách hàng đến thăm xưởng vào tháng Mười Hai. Anh Nguyễn giới thiệu: trước thềm Tết, xưởng đang chạy hết công suất mỗi ngày.",
+     "opts": [
+      "お正月[しょうがつ]を迎[むか]えるを前[まえ]に、工場[こうじょう]は毎日[まいにち]フル稼働[かどう]しています。",
+      "お正月[しょうがつ]を前[まえ]に、工場[こうじょう]は毎日[まいにち]フル稼働[かどう]しています。",
+      "お正月[しょうがつ]の前[まえ]にして、工場[こうじょう]は毎日[まいにち]フル稼働[かどう]しています。"
+     ],
+     "ans": 1,
+     "why": "Sự kiện đang tới gần → Danh từ + を前[まえ]に: お正月[しょうがつ]を前[まえ]に. を前[まえ]に chỉ đi với danh từ (迎[むか]えるを前[まえ]に ✗); dùng の thì phải là の前[まえ]に, không phải の前[まえ]にして."
     }
    ],
    "shift": [
@@ -704,6 +724,16 @@
      ],
      "ans": 0,
      "why": "Suốt một khoảng thời gian → Danh từ + にわたって (không の; にあたって = khi bắt đầu)."
+    },
+    {
+     "q": "Anh Nguyễn viết báo cáo gửi giám đốc xưởng sau đợt kiểm tra của khách hàng: \"Việc kiểm tra đã được tiến hành trên toàn bộ các công đoạn của xưởng.\"",
+     "opts": [
+      "お客様[きゃくさま]の検査[けんさ]は、工場[こうじょう]の全[ぜん]工程[こうてい]にわたって行[おこな]われました。",
+      "お客様[きゃくさま]の検査[けんさ]は、工場[こうじょう]の全[ぜん]工程[こうてい]にあたって行[おこな]われました。",
+      "お客様[きゃくさま]の検査[けんさ]は、工場[こうじょう]の全[ぜん]工程[こうてい]のにわたって行[おこな]われました。"
+     ],
+     "ans": 0,
+     "why": "Trải khắp cả một phạm vi rộng → Danh từ + にわたって. にあたって (nghe giống) = \"nhân dịp / khi bắt đầu\", sai nghĩa; không thêm の trước にわたって."
     }
    ],
    "shift": [

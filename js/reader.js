@@ -27,9 +27,10 @@ export function renderDocList(view) {
   // v43: mỗi cấp — bài luyện thêm (không gắn bài học) hiện trước; bài mở đầu của các bài học gom vào một mục thu gọn
   const row = x => `<li><a class="row" href="#/doc/${encodeURIComponent(x.id)}"><span class="row-jp">${icon(isDialog(x) ? 'chat' : 'book')} <b>${esc(x.title)}</b></span><span class="row-vi small">${esc(isDialog(x) ? MEDIUM[x.medium] || 'Hội thoại' : KIND[x.kind] || 'Bài đọc')} · ${esc(CTX[x.ctx] || '')}${docDone(x.id) ? ' · ✓' : ''}${docWordsReady() ? fitBadgeHTML(docFit(x)) : ''}</span></a></li>`;
   const block = L => {
-    const xs = all.filter(x => x.level === L), free = xs.filter(x => !x.intro), intro = xs.filter(x => x.intro);
+    const xs = all.filter(x => x.level === L), free = xs.filter(x => !x.intro && !x.tonghop), intro = xs.filter(x => x.intro), th = xs.filter(x => x.tonghop);
     const done = a => a.filter(x => docDone(x.id)).length;
     return `<h2 class="h2">${esc(L)}</h2>${free.length ? `<p class="small muted">Bài luyện thêm · đã làm ${done(free)}/${free.length}</p><ul class="rows">${free.map(row).join('')}</ul>` : ''}
+      ${th.length ? `<details class="doc-intros"><summary class="small">Tình huống thật — ôn sau mỗi 5 bài (${th.length}) · đã làm ${done(th)}</summary><ul class="rows">${th.map(row).join('')}</ul></details>` : ''}
       ${intro.length ? `<details class="doc-intros"${free.length ? '' : ' open'}><summary class="small">Bài mở đầu của các bài học (${intro.length}) · đã làm ${done(intro)}</summary><ul class="rows">${intro.map(row).join('')}</ul></details>` : ''}`;
   };
   view.innerHTML = `<a class="back" href="#/luyen">Các dạng bài</a><h1 class="h1">Hội thoại & bài đọc</h1>
@@ -223,7 +224,7 @@ function hoiMode(body, ctx, it) {
   }));
   if (!qs.length) { body.innerHTML = '<p class="small">Bài này chưa có câu hỏi.</p>'; return; }
   const r = D.lessons[it.id];
-  body.innerHTML = `<p>${qs.length} câu hỏi về nội dung bài. Làm xong là bài có ✓${it.lesson ? ' (bước 7 của bài học)' : ''}.</p>
+  body.innerHTML = `<p>${qs.length} câu hỏi về nội dung bài. Làm xong là bài có ✓${it.tonghop ? ' (mục Tình huống thật trong Lộ trình)' : it.intro ? ' (đạt từ 50% là xong bước Đọc hiểu của bài học)' : ''}.</p>
     ${r?.done ? `<p class="small muted">Lần trước: ${r.pct}% đúng.</p>` : ''}
     <label class="check small"><input type="checkbox" data-o="show" checked> Xem bài trong lúc làm</label>
     <button class="btn btn-primary btn-block" data-act="go">Bắt đầu</button>`;

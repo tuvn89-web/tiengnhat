@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -224,6 +224,16 @@
      ],
      "ans": 0,
      "why": "Quá mức → thân ます + すぎる."
+    },
+    {
+     "q": "Nhân viên công ty bất động sản giới thiệu một căn hộ. Anh Nguyễn thấy tiền thuê vượt quá khả năng, muốn nói: tiền nhà phòng này đắt quá.",
+     "opts": [
+      "この部屋[へや]は家賃[やちん]が高[たか]いすぎますね。",
+      "この部屋[へや]は家賃[やちん]が高[たか]くすぎますね。",
+      "この部屋[へや]は家賃[やちん]が高[たか]すぎますね。"
+     ],
+     "ans": 2,
+     "why": "Quá mức → tính từ い bỏ い + すぎる: 高[たか]すぎます. Không giữ い (高[たか]いすぎ) và không đổi sang く (高[たか]くすぎ)."
     }
    ],
    "shift": [
@@ -455,6 +465,16 @@
      ],
      "ans": 0,
      "why": "Dễ dùng → 使[つか]いやすい."
+    },
+    {
+     "q": "Anh Nguyễn góp ý với tổ trưởng về nhãn dán mới trên hộp cá: chữ nhỏ quá, khó đọc.",
+     "opts": [
+      "このラベルは字[じ]が小[ちい]さくて読[よ]みにくいです。",
+      "このラベルは字[じ]が小[ちい]さくて読[よ]むにくいです。",
+      "このラベルは字[じ]が小[ちい]さくて読[よ]みやすいです。"
+     ],
+     "ans": 0,
+     "why": "Khó (làm) → thân ます + にくい: 読[よ]みにくい. 読[よ]むにくい nối sai thể từ điển; 読[よ]みやすい là \"dễ đọc\", ngược ý."
     }
    ],
    "shift": [
@@ -688,6 +708,16 @@
      ],
      "ans": 0,
      "why": "Hỏi cách dùng → 〜の使[つか]い方[かた]; nhờ lịch sự → 〜ていただけませんか."
+    },
+    {
+     "q": "Ở bưu điện, anh Nguyễn muốn gửi đồ về Việt Nam lần đầu. Anh nói với nhân viên: tôi muốn gửi hàng về Việt Nam nhưng không biết cách gửi.",
+     "opts": [
+      "ベトナムに荷物[にもつ]を送[おく]りたいんですが、送[おく]る方[かた]が分[わ]かりません。",
+      "ベトナムに荷物[にもつ]を送[おく]りたいんですが、送[おく]り方[かた]が分[わ]かりません。",
+      "ベトナムに荷物[にもつ]を送[おく]りたいんですが、送[おく]りの方[かた]が分[わ]かりません。"
+     ],
+     "ans": 1,
+     "why": "Cách làm → thân ます + 方[かた]: 送[おく]り方[かた]. 送[おく]る方[かた] nghe thành \"người gửi\"; không chen の giữa thân ます và 方[かた]."
     }
    ],
    "shift": [

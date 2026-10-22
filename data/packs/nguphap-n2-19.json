@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -235,6 +235,16 @@
      ],
      "ans": 0,
      "why": "Kết quả ngược với dự đoán → に反[はん]して. にとって = đối với; に伴[ともな]って = kéo theo."
+    },
+    {
+     "q": "Thấy người mới mang điện thoại vào khu sản xuất, anh Nguyễn (chủ nhiệm) nhắc: đó là hành vi trái với quy định.",
+     "opts": [
+      "製造[せいぞう]エリアにスマホを持[も]ち込[こ]むのは、規則[きそく]に対[たい]する行為[こうい]です。",
+      "製造[せいぞう]エリアにスマホを持[も]ち込[こ]むのは、規則[きそく]に反[はん]する行為[こうい]です。",
+      "製造[せいぞう]エリアにスマホを持[も]ち込[こ]むのは、規則[きそく]に反[はん]して行為[こうい]です。"
+     ],
+     "ans": 1,
+     "why": "Vi phạm quy định, đứng trước danh từ → に反[はん]する + Danh từ. Trước danh từ không dùng 反[はん]して; に対[たい]する = \"đối với\", sai nghĩa."
     }
    ],
    "shift": [
@@ -469,6 +479,16 @@
      ],
      "ans": 0,
      "why": "Thông báo: sự kiện A kéo theo thay đổi B → に伴[ともな]い. にとって = đối với; に反[はん]して = trái với."
+    },
+    {
+     "q": "Ở tòa thị chính, anh Nguyễn hỏi nhân viên: những thủ tục đi kèm với việc chuyển nhà thì cần những gì ạ?",
+     "opts": [
+      "引[ひ]っ越[こ]しに伴[ともな]って手続[てつづ]きは、何[なに]が必要[ひつよう]ですか。",
+      "引[ひ]っ越[こ]しに反[はん]する手続[てつづ]きは、何[なに]が必要[ひつよう]ですか。",
+      "引[ひ]っ越[こ]しに伴[ともな]う手続[てつづ]きは、何[なに]が必要[ひつよう]ですか。"
+     ],
+     "ans": 2,
+     "why": "Đi kèm một sự việc, đứng trước danh từ → に伴[ともな]う + Danh từ. Trước danh từ không dùng 伴[ともな]って; に反[はん]する = \"trái với\", sai nghĩa."
     }
    ],
    "shift": [
@@ -708,6 +728,16 @@
      ],
      "ans": 0,
      "why": "Văn viết, nghe A thì cảm xúc B trào lên → thể từ điển + につけ."
+    },
+    {
+     "q": "Ở tiệc chia tay anh Tanaka (đàn anh sắp chuyển công tác), anh Nguyễn phát biểu: hễ có chuyện gì là anh Tanaka lại giúp đỡ tôi.",
+     "opts": [
+      "田中[たなか]さんには、何[なに]かにつけて助[たす]けていただきました。",
+      "田中[たなか]さんには、何[なに]かにつき助[たす]けていただきました。",
+      "田中[たなか]さんには、何[なに]かにつれて助[たす]けていただきました。"
+     ],
+     "ans": 0,
+     "why": "Hễ có dịp gì là… → cụm cố định 何[なに]かにつけて. につき = \"vì / mỗi (đơn vị)\"; につれて = \"càng… càng…\", sai nghĩa."
     }
    ],
    "shift": [

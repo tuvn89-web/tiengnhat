@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -236,6 +236,16 @@
      ],
      "ans": 0,
      "why": "Cân nặng, nhấn \"đến hơn\" → からある. からする chỉ dùng cho giá tiền; からなる = gồm có, được cấu thành từ (khác nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn kể với đồng nghiệp: nghe nói con dao lọc cá của bác Sato giá đến cả trăm nghìn yên.",
+     "opts": [
+      "佐藤[さとう]さんの包丁[ほうちょう]は、十万円[じゅうまんえん]からするらしいよ。",
+      "佐藤[さとう]さんの包丁[ほうちょう]は、十万円[じゅうまんえん]からあるらしいよ。",
+      "佐藤[さとう]さんの包丁[ほうちょう]は、十万円[じゅうまんえん]からなるらしいよ。"
+     ],
+     "ans": 0,
+     "why": "Nhấn giá tiền lớn → số tiền + からする. からある dùng cho cân nặng, chiều dài, khoảng cách; からなる = \"gồm có\", sai nghĩa."
     }
    ],
    "shift": [
@@ -472,6 +482,16 @@
      ],
      "ans": 0,
      "why": "Ước chừng, nhấn \"mới chỉ đến mức đó\" → といったところです. からある = có đến… (nhấn nhiều); といったらない = … hết chỗ nói (cảm thán) — đều sai nghĩa."
+    },
+    {
+     "q": "Cậu em đồng hương hỏi anh Nguyễn họp bằng tiếng Nhật có hiểu hết không. Anh khiêm tốn: cùng lắm cũng chỉ nghe được khoảng một nửa thôi.",
+     "opts": [
+      "会議[かいぎ]の日本語[にほんご]は、まだ半分[はんぶん]聞[き]き取[と]れるといったらないよ。",
+      "会議[かいぎ]の日本語[にほんご]は、まだ半分[はんぶん]聞[き]き取[と]れるからあるよ。",
+      "会議[かいぎ]の日本語[にほんご]は、まだ半分[はんぶん]聞[き]き取[と]れるといったところだよ。"
+     ],
+     "ans": 2,
+     "why": "Cùng lắm chỉ khoảng… (mức không cao) → といったところだ. といったらない = \"… hết chỗ nói\"; からある dùng để nhấn con số lớn, ngược chiều."
     }
    ],
    "shift": [
@@ -711,6 +731,16 @@
      ],
      "ans": 0,
      "why": "Bày tỏ cảm xúc của chính mình, trang trọng → tính từ い + 限[かぎ]りです. Không qua thể て; 〜に限[かぎ]る = \"… là tốt nhất\" (khác nghĩa)."
+    },
+    {
+     "q": "Ở buổi họp tổng kết, anh Nguyễn (chủ nhiệm) nói về lứa nhân viên trẻ: có nhiều bạn trẻ đáng tin cậy thế này, tôi thấy vững dạ vô cùng.",
+     "opts": [
+      "頼[たの]もしい若手[わかて]がたくさんいて、心強[こころづよ]いに限[かぎ]ります。",
+      "頼[たの]もしい若手[わかて]がたくさんいて、心強[こころづよ]い限[かぎ]りです。",
+      "頼[たの]もしい若手[わかて]がたくさんいて、心強[こころづよ]いな限[かぎ]りです。"
+     ],
+     "ans": 1,
+     "why": "Cảm xúc mạnh của người nói → tính từ cảm xúc + 限[かぎ]りです. に限[かぎ]る = \"… là tốt nhất\"; tính từ い không thêm な."
     }
    ],
    "shift": [

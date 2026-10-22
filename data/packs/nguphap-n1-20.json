@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "\"Dù không… cũng\" (văn trang trọng) → thể ない bỏ ない + ずとも: 言[い]われない → 言[い]われずとも. Hai câu kia sai cách chia."
+    },
+    {
+     "q": "Trong buổi họp tổ, anh Nguyễn (chủ nhiệm) nói trang trọng về mục tiêu năm tới: tôi mong mọi người dù tổ trưởng không chỉ thị cũng tự phán đoán mà hành động được.",
+     "opts": [
+      "班長[はんちょう]が指示[しじ]しずとも、自分[じぶん]で判断[はんだん]して動[うご]けるようになってほしい。",
+      "班長[はんちょう]が指示[しじ]せずとも、自分[じぶん]で判断[はんだん]して動[うご]けるようになってほしい。",
+      "班長[はんちょう]が指示[しじ]しないずとも、自分[じぶん]で判断[はんだん]して動[うご]けるようになってほしい。"
+     ],
+     "ans": 1,
+     "why": "Dù không… cũng (văn viết) → する đổi thành せずとも. しずとも là chia sai; không gắn ずとも sau nguyên thể ない."
     }
    ],
    "shift": [
@@ -476,6 +486,16 @@
      ],
      "ans": 0,
      "why": "Hạ mức kỳ vọng: không đến mức A, ít nhất B → 〜とは言[い]わないまでも、せめて〜. 言[い]うまでもなく = khỏi phải nói (sai nghĩa); までに = trước hạn (sai)."
+    },
+    {
+     "q": "Anh Nguyễn nói với vợ: không đến mức tuần nào cũng gọi, nhưng ít nhất mỗi tháng anh định gọi về cho bố mẹ một lần.",
+     "opts": [
+      "月[つき]に一度[いちど]とは言[い]わないまでも、せめて毎週[まいしゅう]は両親[りょうしん]に電話[でんわ]しようと思[おも]う。",
+      "毎週[まいしゅう]とは言[い]うまでもなく、せめて月[つき]に一度[いちど]は両親[りょうしん]に電話[でんわ]しようと思[おも]う。",
+      "毎週[まいしゅう]とは言[い]わないまでも、せめて月[つき]に一度[いちど]は両親[りょうしん]に電話[でんわ]しようと思[おも]う。"
+     ],
+     "ans": 2,
+     "why": "Không đến mức A thì ít nhất B (B thấp hơn A) → 毎週[まいしゅう]とは言[い]わないまでも、せめて月[つき]に一度[いちど]は…. Đảo mức cao – thấp là sai; 言[い]うまでもなく = \"khỏi phải nói\", khác nghĩa."
     }
    ],
    "shift": [
@@ -724,6 +744,16 @@
      ],
      "ans": 0,
      "why": "Khẳng định dè dặt \"không phải là không…\" → thể ない bỏ い + くもない. 間[ま]に合[あ]わないくもない sai cách chia; 間[ま]に合[あ]うことはない = không có chuyện kịp (ngược nghĩa)."
+    },
+    {
+     "q": "Người mới than công việc vất vả quá. Sau đó anh Nguyễn nói với đồng nghiệp: cảm giác của cậu ấy thì tôi cũng không phải là không hiểu.",
+     "opts": [
+      "新人[しんじん]の気持[きも]ちも、分[わ]からないくもないけどね。",
+      "新人[しんじん]の気持[きも]ちも、分[わ]かるなくもないけどね。",
+      "新人[しんじん]の気持[きも]ちも、分[わ]からなくもないけどね。"
+     ],
+     "ans": 2,
+     "why": "Khẳng định dè dặt \"không phải là không…\" → thể ない bỏ い + くもない: 分[わ]からなくもない. 分[わ]からないくもない, 分[わ]かるなくもない đều chia sai."
     }
    ],
    "shift": [

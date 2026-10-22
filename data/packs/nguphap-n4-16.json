@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -207,6 +207,16 @@
      ],
      "ans": 0,
      "why": "Hành động của khách → tôn kính 召[め]し上[あ]がる. いただく là khiêm nhường (cho mình)."
+    },
+    {
+     "q": "Khách hàng đến mua cá nói nhanh, anh Nguyễn nghe không kịp. Anh muốn hỏi lại thật lễ phép: xin lỗi, quý khách vừa nói gì ạ?",
+     "opts": [
+      "すみません、今[いま]、何[なん]と申[もう]しましたか。",
+      "すみません、今[いま]、何[なん]とおっしゃりましたか。",
+      "すみません、今[いま]、何[なん]とおっしゃいましたか。"
+     ],
+     "ans": 2,
+     "why": "Hành động của khách → tôn kính ngữ おっしゃる, chia おっしゃいました. 申[もう]す là khiêm nhường, chỉ dùng cho mình; おっしゃりました chia sai."
     }
    ],
    "shift": [
@@ -402,6 +412,16 @@
      ],
      "ans": 0,
      "why": "Hành động của mình với khách → ご〜します."
+    },
+    {
+     "q": "Anh Nguyễn gọi điện cho công ty bất động sản để hẹn ký hợp đồng. Anh muốn nói khiêm tốn: ngày mai 3 giờ tôi sẽ đến văn phòng.",
+     "opts": [
+      "では、明日[あした]の3時[じ]に参[まい]ります。",
+      "では、明日[あした]の3時[じ]にいらっしゃいます。",
+      "では、明日[あした]の3時[じ]にお行[い]きします。"
+     ],
+     "ans": 0,
+     "why": "Hành động của mình → khiêm nhường 参[まい]ります. いらっしゃいます là tôn kính, không dùng cho mình; 行[い]く không có dạng お行[い]きします."
     }
    ],
    "shift": [

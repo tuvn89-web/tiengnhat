@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -230,6 +230,16 @@
      ],
      "ans": 0,
      "why": "Lạnh không tả nổi (việc đã qua) → danh từ さ + といったらなかった. といえば là mẫu khác; không chia quá khứ ở trước といったらない."
+    },
+    {
+     "q": "Anh Nguyễn kể với bạn thân: hôm phát biểu trước toàn công ty, tôi quên mất lời, xấu hổ hết chỗ nói.",
+     "opts": [
+      "全社員[ぜんしゃいん]の前[まえ]でスピーチの内容[ないよう]を忘[わす]れて、恥[は]ずかしかったといったらないよ。",
+      "全社員[ぜんしゃいん]の前[まえ]でスピーチの内容[ないよう]を忘[わす]れて、恥[は]ずかしさといったらなかったよ。",
+      "全社員[ぜんしゃいん]の前[まえ]でスピーチの内容[ないよう]を忘[わす]れて、恥[は]ずかしさといえばなかったよ。"
+     ],
+     "ans": 1,
+     "why": "… hết chỗ nói → danh từ (tính từ + さ) + といったらない; chuyện đã qua thì chia quá khứ ở ない: といったらなかった. Không chia quá khứ ở phía trước; といえば = \"nhắc đến\", sai nghĩa."
     }
    ],
    "shift": [
@@ -468,6 +478,16 @@
      ],
      "ans": 0,
      "why": "Tính từ な + なことこの上[うえ]ない. Thiếu な: sai; この上[うえ]なく là trạng từ, không kết thúc câu được."
+    },
+    {
+     "q": "Anh Nguyễn viết thư cảm ơn tổ trưởng cũ đã chuyển công tác (văn viết): được anh chỉ bảo tận tình suốt ba năm, tôi biết ơn vô cùng.",
+     "opts": [
+      "三年[さんねん]間[かん]、温[あたた]かくご指導[しどう]いただき、ありがたいなことこの上[うえ]ありません。",
+      "三年[さんねん]間[かん]、温[あたた]かくご指導[しどう]いただき、ありがたいことこの上[うえ]ありません。",
+      "三年[さんねん]間[かん]、温[あたた]かくご指導[しどう]いただき、ありがたいこの上[うえ]ありません。"
+     ],
+     "ans": 1,
+     "why": "Vô cùng (văn viết) → tính từ い + ことこの上[うえ]ない. Tính từ い không thêm な; không bỏ こと."
     }
    ],
    "shift": [
@@ -707,6 +727,16 @@
      ],
      "ans": 0,
      "why": "Than phiền về vật quen thuộc → danh từ + ときたら + lời chê. にきたら: sai trợ từ; ときたら không dùng để khen."
+    },
+    {
+     "q": "Giờ nghỉ trưa, anh Nguyễn than với đồng nghiệp về thằng con trai: nói đến nó thì thôi, suốt ngày chỉ chơi game.",
+     "opts": [
+      "うちの息子[むすこ]にきたら、毎日[まいにち]ゲームばかりしているんだ。",
+      "うちの息子[むすこ]ときたら、毎日[まいにち]ゲームばかりしているんだ。",
+      "うちの息子[むすこ]ときたら、毎日[まいにち]よく勉強[べんきょう]して自慢[じまん]の息子[むすこ]なんだ。"
+     ],
+     "ans": 1,
+     "why": "Nêu người quen thuộc để than phiền → Danh từ + ときたら. Trợ từ là と, không phải に; ときたら không dùng để khen."
     }
    ],
    "shift": [

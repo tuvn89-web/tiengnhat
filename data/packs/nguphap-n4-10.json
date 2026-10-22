@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -229,6 +229,16 @@
      ],
      "ans": 0,
      "why": "Dặn tạo thói quen → 〜ようにしてください."
+    },
+    {
+     "q": "Ở phòng khám, bác sĩ khuyên anh Nguyễn bớt uống rượu. Anh hứa: từ nay tôi sẽ cố gắng không uống rượu ngày thường.",
+     "opts": [
+      "これからは、平日[へいじつ]はお酒[さけ]を飲[の]まないようにします。",
+      "これからは、平日[へいじつ]はお酒[さけ]を飲[の]まないようになります。",
+      "これからは、平日[へいじつ]はお酒[さけ]を飲[の]みませんようにします。"
+     ],
+     "ans": 0,
+     "why": "Chủ động cố gắng tạo thói quen → thể ない + ようにします. ようになります là thay đổi tự nhiên, không phải lời hứa; không dùng thể ます trước ように."
     }
    ],
    "shift": [
@@ -455,6 +465,16 @@
      ],
      "ans": 0,
      "why": "Báo sự thay đổi, đã làm được → 〜ようになりました."
+    },
+    {
+     "q": "Bà hàng xóm người Nhật khen anh Nguyễn nói tiếng Nhật giỏi. Anh muốn nói: dạo này tôi đã nghe hiểu được một chút tiếng Kansai.",
+     "opts": [
+      "最近[さいきん]、関西弁[かんさいべん]が少[すこ]し分[わ]かるようにしました。",
+      "最近[さいきん]、関西弁[かんさいべん]が少[すこ]し分[わ]かるようになりました。",
+      "最近[さいきん]、関西弁[かんさいべん]が少[すこ]し分[わ]かるなりました。"
+     ],
+     "ans": 1,
+     "why": "Thay đổi dần, nay đã có thể → 分[わ]かるようになりました. ようにしました là \"đã cố gắng\"; động từ không ghép thẳng với なる."
     }
    ],
    "shift": [

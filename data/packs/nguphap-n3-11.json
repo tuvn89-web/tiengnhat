@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -231,6 +231,16 @@
      ],
      "ans": 0,
      "why": "Trách / trêu bạn thân → くせに."
+    },
+    {
+     "q": "Anh Nguyễn than với bạn thân về một người ở ký túc xá: cậu ta biết rõ quy tắc phân loại rác thế mà lại vứt sai nữa rồi.",
+     "opts": [
+      "あいつ、ゴミのルールを知[し]っているのくせに、また間違[まちが]えて出[だ]したんだよ。",
+      "あいつ、ゴミのルールを知[し]っているおかげで、また間違[まちが]えて出[だ]したんだよ。",
+      "あいつ、ゴミのルールを知[し]っているくせに、また間違[まちが]えて出[だ]したんだよ。"
+     ],
+     "ans": 2,
+     "why": "Trách người khác \"biết mà vẫn…\" → thể thường + くせに. Động từ nối thẳng, không thêm の; おかげで dùng cho kết quả tốt."
     }
    ],
    "shift": [
@@ -456,6 +466,16 @@
      ],
      "ans": 0,
      "why": "Văn trang trọng → 残念[ざんねん]ながら."
+    },
+    {
+     "q": "Anh Nguyễn viết bài giới thiệu bản thân cho bản tin công ty (văn trang trọng): căn phòng tôi tuy chật nhưng tôi sống thoải mái.",
+     "opts": [
+      "部屋[へや]は狭[せま]くながらも、快適[かいてき]に暮[く]らしています。",
+      "部屋[へや]は狭[せま]いながらも、快適[かいてき]に暮[く]らしています。",
+      "部屋[へや]は狭[せま]いなながらも、快適[かいてき]に暮[く]らしています。"
+     ],
+     "ans": 1,
+     "why": "Nhượng bộ, văn viết → tính từ い + ながらも: 狭[せま]いながらも. Không đổi sang く; tính từ い không thêm な."
     }
    ],
    "shift": [
@@ -685,6 +705,16 @@
      ],
      "ans": 0,
      "why": "Cho dù → としても."
+    },
+    {
+     "q": "Giờ nghỉ, đồng nghiệp hỏi đùa nếu trúng xổ số anh Nguyễn có bỏ việc không. Anh nói: dù có trúng xổ số thì tôi vẫn đi làm.",
+     "opts": [
+      "宝[たから]くじが当[あ]たったとしても、仕事[しごと]は続[つづ]けますよ。",
+      "宝[たから]くじが当[あ]たったとしては、仕事[しごと]は続[つづ]けますよ。",
+      "宝[たから]くじが当[あ]たったからといって、仕事[しごと]は続[つづ]けますよ。"
+     ],
+     "ans": 0,
+     "why": "Dù giả sử… vẫn → としても. としては là \"với tư cách\"; からといって cần vế sau phủ định."
     }
    ],
    "shift": [

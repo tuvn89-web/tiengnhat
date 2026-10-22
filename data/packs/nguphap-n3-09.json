@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -231,6 +231,16 @@
      ],
      "ans": 0,
      "why": "Phủ định mạnh, thân mật → わけない."
+    },
+    {
+     "q": "Đồng nghiệp đề nghị để người mới đứng một mình ở dây chuyền đóng gói, một tiếng làm 300 hộp. Anh Nguyễn phản đối: người mới thì không thể nào làm nổi.",
+     "opts": [
+      "新人[しんじん]が一人[ひとり]で、一時間[いちじかん]に300パックも詰[つ]められるわけではないですよ。",
+      "新人[しんじん]が一人[ひとり]で、一時間[いちじかん]に300パックも詰[つ]められるわけにはいかないですよ。",
+      "新人[しんじん]が一人[ひとり]で、一時間[いちじかん]に300パックも詰[つ]められるわけがないですよ。"
+     ],
+     "ans": 2,
+     "why": "Phủ định hoàn toàn, quả quyết → わけがない. わけではない chỉ là \"không hẳn\"; わけにはいかない là \"không được phép làm\"."
     }
    ],
    "shift": [
@@ -463,6 +473,16 @@
      ],
      "ans": 0,
      "why": "Không thể vì lý do (luật, trách nhiệm) → わけにはいかない."
+    },
+    {
+     "q": "Bạn cùng phòng hỏi đám cưới tổ trưởng ở xa, tốn kém, anh Nguyễn có đi không. Anh nói: đám cưới của tổ trưởng thì không thể không đi.",
+     "opts": [
+      "班長[はんちょう]の結婚式[けっこんしき]だから、行[い]かないわけにはいかないよ。",
+      "班長[はんちょう]の結婚式[けっこんしき]だから、行[い]かないわけではないよ。",
+      "班長[はんちょう]の結婚式[けっこんしき]だから、行[い]けるわけにはいかないよ。"
+     ],
+     "ans": 0,
+     "why": "Vì nghĩa vụ, tình nghĩa mà buộc phải làm → thể ない + わけにはいかない. わけではない là \"không hẳn là không đi\"; không ghép thể khả năng với わけにはいかない."
     }
    ],
    "shift": [
@@ -703,6 +723,16 @@
      ],
      "ans": 0,
      "why": "Trấn an → thể từ điển + ことはない."
+    },
+    {
+     "q": "Ông bạn người Nhật ở lớp tiếng Nhật gọi điện, định ra ga đón anh Nguyễn. Anh nói: bác không cần phải cất công ra tận ga đón đâu ạ.",
+     "opts": [
+      "わざわざ駅[えき]まで迎[むか]えに来[き]たことはないですよ。",
+      "わざわざ駅[えき]まで迎[むか]えに来[く]ることはないですよ。",
+      "わざわざ駅[えき]まで迎[むか]えに来[く]るわけにはいかないですよ。"
+     ],
+     "ans": 1,
+     "why": "Không cần phải làm → thể từ điển + ことはない. 来[き]たことはない là \"chưa từng đến\"; わけにはいかない là \"không được phép\"."
     }
    ],
    "shift": [

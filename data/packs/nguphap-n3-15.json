@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -233,6 +233,16 @@
      ],
      "ans": 0,
      "why": "Lời cảm ơn trang trọng, nêu người tiêu biểu → をはじめ."
+    },
+    {
+     "q": "Anh Nguyễn giới thiệu xưởng cho đoàn khách tham quan: xưởng chúng tôi chế biến nhiều loại cá, tiêu biểu là cá ngừ.",
+     "opts": [
+      "当工場[とうこうじょう]では、マグロをはじめるいろいろな魚[さかな]を加工[かこう]しています。",
+      "当工場[とうこうじょう]では、マグロをはじめのいろいろな魚[さかな]を加工[かこう]しています。",
+      "当工場[とうこうじょう]では、マグロをはじめとするいろいろな魚[さかな]を加工[かこう]しています。"
+     ],
+     "ans": 2,
+     "why": "Nêu cái tiêu biểu rồi bổ nghĩa cho danh từ → をはじめとする + danh từ. Không dùng động từ はじめる hay はじめの ở đây."
     }
    ],
    "shift": [
@@ -458,6 +468,16 @@
      ],
      "ans": 0,
      "why": "Chủ yếu là → を中心[ちゅうしん]に."
+    },
+    {
+     "q": "Đồng nghiệp người Nhật hỏi anh Nguyễn mua đồ ăn Việt ở đâu. Anh nói: các cửa hàng Việt Nam tập trung chủ yếu quanh nhà ga.",
+     "opts": [
+      "ベトナムのお店[みせ]は、駅[えき]を中心[ちゅうしん]で集[あつ]まっています。",
+      "ベトナムのお店[みせ]は、駅[えき]を中心[ちゅうしん]に集[あつ]まっています。",
+      "ベトナムのお店[みせ]は、駅[えき]の中心[ちゅうしん]に集[あつ]まっています。"
+     ],
+     "ans": 1,
+     "why": "Lấy một nơi làm trung tâm → を中心[ちゅうしん]に. Không dùng で sau 中心[ちゅうしん]; 駅[えき]の中心[ちゅうしん]に là \"ở giữa nhà ga\", nghĩa khác."
     }
    ],
    "shift": [
@@ -683,6 +703,16 @@
      ],
      "ans": 0,
      "why": "Thông qua → を通[つう]じて."
+    },
+    {
+     "q": "Người mới hỏi mùa hè có cần mặc áo ấm trong xưởng không. Anh Nguyễn nói: trong xưởng suốt cả năm đều lạnh đấy.",
+     "opts": [
+      "この工場[こうじょう]の中[なか]は、一年[いちねん]を通[つう]じて寒[さむ]いですよ。",
+      "この工場[こうじょう]の中[なか]は、一年[いちねん]が通[つう]じて寒[さむ]いですよ。",
+      "この工場[こうじょう]の中[なか]は、一年[いちねん]によって寒[さむ]いですよ。"
+     ],
+     "ans": 0,
+     "why": "Suốt cả khoảng thời gian → 一年[いちねん]を通[つう]じて. Không dùng が; によって là \"tùy theo / do\", không hợp."
     }
    ],
    "shift": [

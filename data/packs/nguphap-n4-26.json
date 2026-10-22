@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -213,6 +213,16 @@
      ],
      "ans": 0,
      "why": "Đi làm việc rồi quay lại → 〜てきます."
+    },
+    {
+     "q": "Đầu tháng 11, lúc tan ca, anh Nguyễn nói với chị đồng nghiệp: dạo này trời lạnh dần lên rồi nhỉ.",
+     "opts": [
+      "最近[さいきん]、だんだん寒[さむ]くなっていきましたね。",
+      "最近[さいきん]、だんだん寒[さむ]くなってきましたね。",
+      "最近[さいきん]、だんだん寒[さむ]いになってきましたね。"
+     ],
+     "ans": 1,
+     "why": "Thay đổi dần đến bây giờ → 〜てきました. 〜ていく là thay đổi từ nay về sau; tính từ い đổi thành 寒[さむ]く, không dùng 寒[さむ]いに."
     }
    ],
    "shift": [
@@ -437,6 +447,16 @@
      ],
      "ans": 0,
      "why": "Việc làm → động từ + のが."
+    },
+    {
+     "q": "Ở tiệc chào mừng nhân viên mới, anh Nguyễn tự giới thiệu: sở thích của tôi là câu cá.",
+     "opts": [
+      "私[わたし]の趣味[しゅみ]は、魚[さかな]を釣[つ]るです。",
+      "私[わたし]の趣味[しゅみ]は、魚[さかな]を釣[つ]るのです。",
+      "私[わたし]の趣味[しゅみ]は、魚[さかな]を釣[つ]ることです。"
+     ],
+     "ans": 2,
+     "why": "Trước です phải danh từ hóa bằng こと: 趣味[しゅみ]は〜ことです. Động từ không đứng thẳng trước です; 釣[つ]るのです là kiểu giải thích, nghĩa khác."
     }
    ],
    "shift": [
@@ -671,6 +691,16 @@
      ],
      "ans": 0,
      "why": "Hỏi nghĩa → どういう意味[いみ]ですか / 何[なん]という意味[いみ]ですか."
+    },
+    {
+     "q": "Anh Nguyễn lên taxi ở ga, nói với tài xế: cho tôi đến khu căn hộ tên là \"Sunny Heights\".",
+     "opts": [
+      "すみません、「サニーハイツ」というアパートまでお願[ねが]いします。",
+      "すみません、「サニーハイツ」と言[い]いましたアパートまでお願[ねが]いします。",
+      "すみません、「サニーハイツ」というのアパートまでお願[ねが]いします。"
+     ],
+     "ans": 0,
+     "why": "Gọi tên → N1 + という + N2. と言[い]いました là \"ai đó đã nói\"; giữa という và danh từ không có の."
     }
    ],
    "shift": [

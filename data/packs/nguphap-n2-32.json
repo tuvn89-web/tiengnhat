@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -231,6 +231,16 @@
      ],
      "ans": 0,
      "why": "Cảm xúc không kìm được (văn viết) → danh từ / tính từ な + でならない. 〜てはならない = cấm."
+    },
+    {
+     "q": "Trên đường về sau ca đêm, anh Nguyễn nói với đồng nghiệp: tôi cứ có cảm giác là mình quên tắt máy.",
+     "opts": [
+      "機械[きかい]のスイッチを切[き]り忘[わす]れたような気[き]がしなければならない。",
+      "機械[きかい]のスイッチを切[き]り忘[わす]れたような気[き]がしてならない。",
+      "機械[きかい]のスイッチを切[き]り忘[わす]れたような気[き]がしてはならない。"
+     ],
+     "ans": 1,
+     "why": "Cảm giác cứ tự trào lên, không gạt đi được → 気[き]がしてならない. しなければならない = \"phải\"; てはならない = \"không được (cấm)\"."
     }
    ],
    "shift": [
@@ -467,6 +477,16 @@
      ],
      "ans": 0,
      "why": "Dù phải làm việc vất vả (tăng ca) cũng… → thể て + でも."
+    },
+    {
+     "q": "Ngồi tính chuyện tương lai với vợ, anh Nguyễn nói: dù phải vay tiền anh cũng muốn cho con học đại học.",
+     "opts": [
+      "借金[しゃっきん]するでも、子[こ]どもを大学[だいがく]に行[い]かせたい。",
+      "借金[しゃっきん]したでも、子[こ]どもを大学[だいがく]に行[い]かせたい。",
+      "借金[しゃっきん]してでも、子[こ]どもを大学[だいがく]に行[い]かせたい。"
+     ],
+     "ans": 2,
+     "why": "Chủ động chấp nhận cách khó để đạt mục tiêu → thể て + でも: 借金[しゃっきん]してでも. Không dùng thể từ điển hay thể た trước でも."
     }
    ],
    "shift": [
@@ -708,6 +728,16 @@
      ],
      "ans": 0,
      "why": "Quyết tâm chứng minh → thể て + みせます. てみえます = trông có vẻ (sai nghĩa)."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) hướng dẫn người mới cách mài dao: tôi làm mẫu một lần, cậu xem kỹ nhé.",
+     "opts": [
+      "一度[いちど]やってみせるから、よく見[み]ていてね。",
+      "一度[いちど]やってみるから、よく見[み]ていてね。",
+      "一度[いちど]やってみえるから、よく見[み]ていてね。"
+     ],
+     "ans": 0,
+     "why": "Làm mẫu cho người khác xem → てみせる. てみる = \"thử làm\" (không phải làm mẫu); みえる = \"trông thấy\", sai từ."
     }
    ],
    "shift": [

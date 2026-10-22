@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Nào là… nào là… (vất vả) → N やら N やら. Không trộn たり với やら."
+    },
+    {
+     "q": "Được giám đốc khen trước toàn xưởng, tối về anh Nguyễn kể với vợ: vừa vui lại vừa ngượng, đỏ cả mặt.",
+     "opts": [
+      "うれしいやら恥[は]ずかしかったりで、顔[かお]が真[ま]っ赤[か]になったよ。",
+      "うれしいやら恥[は]ずかしいやらで、顔[かお]が真[ま]っ赤[か]になったよ。",
+      "うれしくやら恥[は]ずかしくやらで、顔[かお]が真[ま]っ赤[か]になったよ。"
+     ],
+     "ans": 1,
+     "why": "Cảm xúc lẫn lộn → tính từ thể từ điển + やら, lặp hai lần: うれしいやら恥[は]ずかしいやら. Không trộn たり với やら; không chia く trước やら."
     }
    ],
    "shift": [
@@ -466,6 +476,16 @@
      ],
      "ans": 0,
      "why": "Cũng… mà cũng… → も + 〜ければ + も (速[はや]い → 速[はや]ければ)."
+    },
+    {
+     "q": "Khách hàng đến xem hàng. Anh Nguyễn giới thiệu cá tráp Akashi: con cá này màu đã đẹp mà vị lại ngon.",
+     "opts": [
+      "この明石[あかし]の鯛[たい]は、色[いろ]もいければ味[あじ]もいいです。",
+      "この明石[あかし]の鯛[たい]は、色[いろ]もいいば味[あじ]もいいです。",
+      "この明石[あかし]の鯛[たい]は、色[いろ]もよければ味[あじ]もいいです。"
+     ],
+     "ans": 2,
+     "why": "\"Đã… lại còn…\" → N + も + thể ば + N + も; いい chia thể ば là よければ. いければ và いいば đều chia sai."
     }
    ],
    "shift": [
@@ -706,6 +726,16 @@
      ],
      "ans": 0,
      "why": "Đánh giá chung hai mặt → N といい N といい."
+    },
+    {
+     "q": "Trưởng phòng hỏi về người mới. Anh Nguyễn (chủ nhiệm) đánh giá: cả thái độ làm việc lẫn tay nghề đều không chê vào đâu được.",
+     "opts": [
+      "彼[かれ]は仕事[しごと]ぶりといい技術[ぎじゅつ]といい、申[もう]し分[ぶん]ありません。",
+      "彼[かれ]は仕事[しごと]ぶりといい、申[もう]し分[ぶん]ありません。",
+      "彼[かれ]は仕事[しごと]ぶりやら技術[ぎじゅつ]やら、申[もう]し分[ぶん]ありません。"
+     ],
+     "ans": 0,
+     "why": "Đánh giá chung hai mặt của một người → N1 といい N2 といい. Phải đủ hai lần といい; やら〜やら mang ý bộn bề, than vãn, không dùng để khen."
     }
    ],
    "shift": [

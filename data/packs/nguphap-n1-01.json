@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -238,6 +238,16 @@
      ],
      "ans": 0,
      "why": "Kể việc đã xảy ra, văn viết → 辞書形[じしょけい] + が早[はや]いか + vế sau thể た. Vế sau không được là mệnh lệnh; が早[はや]くて sai dạng."
+    },
+    {
+     "q": "Tối gọi điện, anh Nguyễn kể với bố mẹ ở quê về thằng con trai: nó vừa về đến nhà là quẳng cặp chạy đi chơi ngay.",
+     "opts": [
+      "息子[むすこ]は家[いえ]に帰[かえ]りますが早[はや]いか、かばんを放[ほう]り出[だ]して遊[あそ]びに行[い]った。",
+      "息子[むすこ]は家[いえ]に帰[かえ]るが早[はや]いか、かばんを放[ほう]り出[だ]して遊[あそ]びに行[い]った。",
+      "息子[むすこ]は家[いえ]に帰[かえ]るが早[はや]いか、かばんを置[お]いて遊[あそ]びに行[い]きなさい。"
+     ],
+     "ans": 1,
+     "why": "Vừa A là B xảy ra ngay (kể việc đã qua) → thể từ điển + が早[はや]いか, vế sau thể た. Không dùng thể ます; vế sau không được là mệnh lệnh."
     }
    ],
    "shift": [
@@ -492,6 +502,16 @@
      ],
      "ans": 0,
      "why": "Kể việc đã xảy ra, văn viết → 辞書形[じしょけい] + や否[いな]や + vế sau thể た. か否[いな]か = có hay không; vế sau của や否[いな]や không được là lời nhờ."
+    },
+    {
+     "q": "Anh Nguyễn viết báo cáo nhập hàng: vừa mở cửa thùng xe tải là mùi lạ bốc ra ngay.",
+     "opts": [
+      "荷台[にだい]の扉[とびら]を開[あ]けるや否[いな]や、異臭[いしゅう]がした。",
+      "荷台[にだい]の扉[とびら]を開[あ]けるか否[いな]か、異臭[いしゅう]がした。",
+      "荷台[にだい]の扉[とびら]を開[あ]けたや否[いな]や、異臭[いしゅう]がした。"
+     ],
+     "ans": 0,
+     "why": "Vừa… là ngay (việc đã xảy ra) → thể từ điển + や否[いな]や. か否[いな]か = \"có… hay không\", sai nghĩa; không dùng thể た trước や否[いな]や."
     }
    ],
    "shift": [
@@ -743,6 +763,16 @@
      ],
      "ans": 0,
      "why": "Cùng một người, vừa làm A là làm ngay B (đã xảy ra) → 辞書形[じしょけい] + なり. なりに = theo cách riêng; なら = nếu (không đi với việc đã xảy ra)."
+    },
+    {
+     "q": "Anh Nguyễn kể với đồng nghiệp: ông khách đến kiểm hàng vừa nếm một miếng sashimi là nhăn mặt ngay.",
+     "opts": [
+      "お客[きゃく]さんは刺身[さしみ]を一口[ひとくち]食[た]べるとたん、顔[かお]をしかめたんだ。",
+      "お客[きゃく]さんは刺身[さしみ]を一口[ひとくち]食[た]べるなり、顔[かお]をしかめたんだ。",
+      "お客[きゃく]さんは刺身[さしみ]を一口[ひとくち]食[た]べたなり、顔[かお]をしかめたんだ。"
+     ],
+     "ans": 1,
+     "why": "Cùng một người vừa làm A là làm ngay B → thể từ điển + なり. とたん phải đi với thể た (食[た]べたとたん); たなり là cách nói khác nghĩa (\"rồi cứ thế…\")."
     }
    ],
    "shift": [

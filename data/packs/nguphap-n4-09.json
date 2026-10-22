@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -229,6 +229,16 @@
      ],
      "ans": 0,
      "why": "Danh từ chỉ mục đích → のために."
+    },
+    {
+     "q": "Ở quầy ngân hàng, anh Nguyễn nói với nhân viên: tôi muốn mở tài khoản để nhận lương.",
+     "opts": [
+      "給料[きゅうりょう]を受[う]け取[と]りますために、口座[こうざ]を作[つく]りたいんです。",
+      "給料[きゅうりょう]を受[う]け取[と]るために、口座[こうざ]を作[つく]りたいんです。",
+      "給料[きゅうりょう]を受[う]け取[と]れるために、口座[こうざ]を作[つく]りたいんです。"
+     ],
+     "ans": 1,
+     "why": "Mục đích chủ động → thể từ điển + ために. Không dùng thể ます trước ために; thể khả năng phải đi với ように, không đi với ために."
     }
    ],
    "shift": [
@@ -476,6 +486,16 @@
      ],
      "ans": 0,
      "why": "Mục đích phủ định \"để không quên\" → 忘[わす]れないように."
+    },
+    {
+     "q": "Bà chủ nhà thấy anh Nguyễn có nhiều sách, hỏi anh học gì. Anh nói: tôi học mỗi tối để đọc được giấy tờ của tòa thị chính.",
+     "opts": [
+      "市役所[しやくしょ]の書類[しょるい]が読[よ]めるために、毎晩[まいばん]勉強[べんきょう]しています。",
+      "市役所[しやくしょ]の書類[しょるい]が読[よ]めますように、毎晩[まいばん]勉強[べんきょう]しています。",
+      "市役所[しやくしょ]の書類[しょるい]が読[よ]めるように、毎晩[まいばん]勉強[べんきょう]しています。"
+     ],
+     "ans": 2,
+     "why": "Mục đích là một khả năng → thể khả năng + ように. 読[よ]めるために sai kết hợp; 〜ますように chỉ dùng khi cầu mong."
     }
    ],
    "shift": [

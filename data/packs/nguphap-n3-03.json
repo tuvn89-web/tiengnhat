@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 2,
+  "version": 3,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -236,6 +236,16 @@
      ],
      "ans": 0,
      "why": "Từ mốc quá khứ đến nay → 〜以来[いらい]."
+    },
+    {
+     "q": "Ở phòng khám chỉnh hình, bác sĩ hỏi anh Nguyễn đau từ bao giờ. Anh nói: từ hồi bị ngã tháng trước, đầu gối cứ đau suốt.",
+     "opts": [
+      "先月[せんげつ]転[ころ]んだ以来[いらい]、ずっと膝[ひざ]が痛[いた]いんです。",
+      "先月[せんげつ]転[ころ]んで以来[いらい]、ずっと膝[ひざ]が痛[いた]いんです。",
+      "先月[せんげつ]転[ころ]んで初[はじ]めて、ずっと膝[ひざ]が痛[いた]いんです。"
+     ],
+     "ans": 1,
+     "why": "Từ mốc quá khứ, trạng thái kéo dài đến nay → thể て + 以来[いらい]. Không dùng thể た; て初[はじ]めて là \"phải đến khi… mới nhận ra\"."
     }
    ],
    "shift": [
@@ -482,6 +492,16 @@
      ],
      "ans": 0,
      "why": "Sau trải nghiệm mới nhận ra → て初[はじ]めて."
+    },
+    {
+     "q": "Trong buổi họp an toàn của tổ, anh Nguyễn chia sẻ: phải đến khi bị đứt tay, tôi mới hiểu găng tay chống cắt quan trọng thế nào.",
+     "opts": [
+      "けがをした初[はじ]めて、手袋[てぶくろ]の大切[たいせつ]さが分[わ]かりました。",
+      "けがをして以来[いらい]、手袋[てぶくろ]の大切[たいせつ]さが分[わ]かりました。",
+      "けがをして初[はじ]めて、手袋[てぶくろ]の大切[たいせつ]さが分[わ]かりました。"
+     ],
+     "ans": 2,
+     "why": "Sau trải nghiệm mới nhận ra → thể て + 初[はじ]めて + 分[わ]かる. Không dùng thể た; て以来[いらい] dùng cho trạng thái kéo dài, không hợp với \"hiểu ra\" một lần."
     }
    ],
    "shift": [
@@ -706,6 +726,16 @@
      ],
      "ans": 0,
      "why": "Điều kiện bắt buộc trước → てからでないと + phủ định."
+    },
+    {
+     "q": "Nhân viên công ty bạn hàng gọi hỏi tuần sau có giao thêm 50 thùng được không. Anh Nguyễn chưa thể tự quyết, muốn nói: phải hỏi tổ trưởng rồi tôi mới trả lời được.",
+     "opts": [
+      "班長[はんちょう]に確認[かくにん]したからでないと、お答[こた]えできません。",
+      "班長[はんちょう]に確認[かくにん]してからでないと、お答[こた]えできません。",
+      "班長[はんちょう]に確認[かくにん]してからでないと、お答[こた]えします。"
+     ],
+     "ans": 1,
+     "why": "Chưa làm A thì không thể B → thể て + からでないと + vế phủ định. Không dùng thể た; vế sau phải là \"không thể\", không phải khẳng định."
     }
    ],
    "shift": [

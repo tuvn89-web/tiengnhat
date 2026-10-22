@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -237,6 +237,16 @@
      ],
      "ans": 0,
      "why": "Đợi mãi, rốt cuộc kết quả xấu → thể た + あげく."
+    },
+    {
+     "q": "Giờ nghỉ, anh Nguyễn than với đồng nghiệp: cậu người mới loay hoay sửa máy cả tiếng đồng hồ, rốt cuộc lại làm hỏng luôn.",
+     "opts": [
+      "新人[しんじん]は一時間[いちじかん]もいじってあげく、機械[きかい]を壊[こわ]してしまった。",
+      "新人[しんじん]は一時間[いちじかん]もいじったあげく、機械[きかい]を壊[こわ]してしまった。",
+      "新人[しんじん]は一時間[いちじかん]もいじるあげく、機械[きかい]を壊[こわ]してしまった。"
+     ],
+     "ans": 1,
+     "why": "Loay hoay mãi, rốt cuộc kết quả xấu → thể た + あげく: いじったあげく. Không nối bằng thể て hay thể từ điển."
     }
    ],
    "shift": [
@@ -490,6 +500,16 @@
      ],
      "ans": 0,
      "why": "Kết quả tốt sau quá trình dài, văn trang trọng → thể た + 末[すえ]に."
+    },
+    {
+     "q": "Anh Nguyễn báo với trưởng phòng (giọng trang trọng): sau khi đắn đo rất lâu, tôi đã quyết định đón vợ con sang Nhật.",
+     "opts": [
+      "さんざん悩[なや]んだ末[すえ]に、家族[かぞく]を日本[にほん]に呼[よ]ぶことにしました。",
+      "さんざん悩[なや]む末[すえ]に、家族[かぞく]を日本[にほん]に呼[よ]ぶことにしました。",
+      "さんざん悩[なや]んだところ、家族[かぞく]を日本[にほん]に呼[よ]ぶことにしました。"
+     ],
+     "ans": 0,
+     "why": "Đắn đo lâu, cuối cùng đi đến quyết định → thể た + 末[すえ]に. Không dùng thể từ điển; たところ là \"thử làm thì thấy\", vế sau không được là quyết định của mình."
     }
    ],
    "shift": [
@@ -742,6 +762,16 @@
      ],
      "ans": 0,
      "why": "Báo cáo \"làm thì thấy\" → thể た + ところ (trang trọng, hợp báo cáo)."
+    },
+    {
+     "q": "Anh Nguyễn viết email báo cáo trưởng phòng: tôi đã liên hệ hỏi nhà cung cấp thì được biết hàng sẽ giao trễ một ngày.",
+     "opts": [
+      "仕入[しい]れ先[さき]に問[と]い合[あ]わせるところ、納品[のうひん]が一日[いちにち]遅[おく]れるとのことでした。",
+      "仕入[しい]れ先[さき]に問[と]い合[あ]わせたばかりに、納品[のうひん]が一日[いちにち]遅[おく]れるとのことでした。",
+      "仕入[しい]れ先[さき]に問[と]い合[あ]わせたところ、納品[のうひん]が一日[いちにち]遅[おく]れるとのことでした。"
+     ],
+     "ans": 2,
+     "why": "Làm một việc rồi biết ra kết quả (văn báo cáo) → thể た + ところ. Thể từ điển (問[と]い合[あ]わせるところ) là \"sắp hỏi\"; たばかりに = \"chỉ vì đã hỏi mà…\", sai nghĩa."
     }
    ],
    "shift": [

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -231,6 +231,16 @@
      ],
      "ans": 0,
      "why": "Quy định viết → 〜ないこと."
+    },
+    {
+     "q": "Anh Nguyễn viết tờ dặn dò dán ở bàn ca đêm (văn quy định): trước khi về phải kiểm tra nhiệt độ kho lạnh.",
+     "opts": [
+      "帰[かえ]る前[まえ]に、冷蔵庫[れいぞうこ]の温度[おんど]を確認[かくにん]しますこと。",
+      "帰[かえ]る前[まえ]に、冷蔵庫[れいぞうこ]の温度[おんど]を確認[かくにん]すること。",
+      "帰[かえ]る前[まえ]に、冷蔵庫[れいぞうこ]の温度[おんど]を確認[かくにん]したこと。"
+     ],
+     "ans": 1,
+     "why": "Chỉ thị viết, quy định → thể từ điển + こと. Không dùng thể ます; 確認[かくにん]したこと là \"việc đã kiểm tra\", không phải lời dặn."
     }
    ],
    "shift": [
@@ -468,6 +478,16 @@
      ],
      "ans": 0,
      "why": "Truyền lại chỉ thị → 〜ように言[い]われた."
+    },
+    {
+     "q": "Bà chủ nhà hỏi chuyện hàng xóm ồn ban đêm đã ổn chưa. Anh Nguyễn nói: tôi đã nhờ người phòng bên buổi tối vặn nhỏ nhạc rồi ạ.",
+     "opts": [
+      "隣[となり]の人[ひと]に、夜[よる]は音楽[おんがく]を小[ちい]さくしようと頼[たの]みました。",
+      "隣[となり]の人[ひと]に、夜[よる]は音楽[おんがく]を小[ちい]さくしますように頼[たの]みました。",
+      "隣[となり]の人[ひと]に、夜[よる]は音楽[おんがく]を小[ちい]さくするように頼[たの]みました。"
+     ],
+     "ans": 2,
+     "why": "Truyền yêu cầu gián tiếp → thể từ điển + ように頼[たの]む. しようと là thể ý chí (ý định của mình); không dùng thể ます trước ように."
     }
    ],
    "shift": [
@@ -702,14 +722,24 @@
      ],
      "ans": 0,
      "why": "Đúng như (sau động từ) → とおりに."
+    },
+    {
+     "q": "Cuối ca, anh Nguyễn báo cáo với tổ trưởng: công việc hôm nay đã xong đúng như kế hoạch.",
+     "opts": [
+      "今日[きょう]の作業[さぎょう]は、予定[よてい]どおりに終[お]わりました。",
+      "今日[きょう]の作業[さぎょう]は、予定[よてい]のどおりに終[お]わりました。",
+      "今日[きょう]の作業[さぎょう]は、予定[よてい]ように終[お]わりました。"
+     ],
+     "ans": 0,
+     "why": "Theo đúng → danh từ + どおりに (hoặc 予定[よてい]のとおりに). Không dùng の + どおり; danh từ không nối thẳng với ように."
     }
    ],
    "shift": [
     {
-     "from": "言[い]うた通[とお]りにやってや。",
+     "from": "言[ゆ]うた通[とお]りにやってや。",
      "to": "私[わたし]が言[い]ったとおりにしてください。",
      "kind": "kansai",
-     "note": "Kansai: 言[い]うた = 言[い]った; 〜てや = 〜てね.",
+     "note": "Kansai: 言[ゆ]うた = 言[い]った; 〜てや = 〜てね.",
      "wrong": [
       "私[わたし]が言[い]ったばかりにしてください。",
       "私[わたし]が言[い]ったのとおりにしてください。"

@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -223,6 +223,16 @@
      ],
      "ans": 0,
      "why": "Đang làm dở → thân ます + かけ."
+    },
+    {
+     "q": "Ở ký túc xá, bạn cùng phòng định dọn chai trà trên bàn. Anh Nguyễn vội nói: đó là chai trà mình đang uống dở, đừng vứt.",
+     "opts": [
+      "それ、僕[ぼく]の飲[の]んでかけのお茶[ちゃ]だから、捨[す]てないで。",
+      "それ、僕[ぼく]の飲[の]みかけるのお茶[ちゃ]だから、捨[す]てないで。",
+      "それ、僕[ぼく]の飲[の]みかけのお茶[ちゃ]だから、捨[す]てないで。"
+     ],
+     "ans": 2,
+     "why": "Đồ đang dở → thân ます + かけの + danh từ: 飲[の]みかけのお茶[ちゃ]. Không dùng thể て; không nối かける + の trước danh từ."
     }
    ],
    "shift": [
@@ -468,6 +478,16 @@
      ],
      "ans": 0,
      "why": "Không thể làm hết → thân ます + きれない."
+    },
+    {
+     "q": "Anh Nguyễn dặn người mới: cá dùng làm đồ ăn sống không để qua đêm, số cá này phải dùng hết trong hôm nay.",
+     "opts": [
+      "この魚[さかな]は、今日中[きょうじゅう]に使[つか]ってきらないといけません。",
+      "この魚[さかな]は、今日中[きょうじゅう]に使[つか]いきらないといけません。",
+      "この魚[さかな]は、今日中[きょうじゅう]に使[つか]うきらないといけません。"
+     ],
+     "ans": 1,
+     "why": "Làm đến hết toàn bộ → thân ます + きる: 使[つか]いきる. Không nối きる với thể て hay thể từ điển."
     }
    ],
    "shift": [
@@ -709,6 +729,16 @@
      ],
      "ans": 0,
      "why": "Bất chợt kêu → 鳴[な]り出[だ]す."
+    },
+    {
+     "q": "Ở lớp tiếng Nhật, anh Nguyễn kể: hôm tiệc công ty tôi thử nói giọng Kansai, thế là mọi người bỗng phá lên cười.",
+     "opts": [
+      "私[わたし]が関西弁[かんさいべん]で話[はな]したら、みんなが急[きゅう]に笑[わら]って出[だ]しました。",
+      "私[わたし]が関西弁[かんさいべん]で話[はな]したら、みんなが急[きゅう]に笑[わら]い出[だ]しました。",
+      "私[わたし]が関西弁[かんさいべん]で話[はな]したら、みんなが急[きゅう]に笑[わら]う出[だ]しました。"
+     ],
+     "ans": 1,
+     "why": "Bất chợt bắt đầu → thân ます + 出[だ]す: 笑[わら]い出[だ]しました. Không dùng thể て hay thể từ điển trước 出[だ]す."
     }
    ],
    "shift": [

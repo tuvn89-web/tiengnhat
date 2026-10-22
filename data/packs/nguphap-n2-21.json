@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -235,6 +235,16 @@
      ],
      "ans": 0,
      "why": "Dù… thì vẫn phải… → にしても. にしては = so với… thì; にとって = đối với."
+    },
+    {
+     "q": "Anh Nguyễn (tổ trưởng) nhắc người mới vừa vào làm: dù là lần đầu thì cũng phải ghi sổ nhiệt độ đầy đủ.",
+     "opts": [
+      "初[はじ]めてにしては、温度[おんど]の記録[きろく]は必[かなら]ずつけてください。",
+      "初[はじ]めてにしても、温度[おんど]の記録[きろく]は必[かなら]ずつけてください。",
+      "初[はじ]めてだにしても、温度[おんど]の記録[きろく]は必[かなら]ずつけてください。"
+     ],
+     "ans": 1,
+     "why": "Dù là A thì vẫn phải B → Danh từ + にしても. にしては = \"so với A thì (bất ngờ)\", sai nghĩa; không thêm だ sau danh từ."
     }
    ],
    "shift": [
@@ -480,6 +490,16 @@
      ],
      "ans": 0,
      "why": "Văn viết, dù A hay B → AにせよBにせよ. にしては = so với…; とせよ sai dạng."
+    },
+    {
+     "q": "Anh Nguyễn (chủ nhiệm) dặn cả tổ, giọng dứt khoát: dù chỉ là vết thương nhỏ thì cũng phải báo ngay.",
+     "opts": [
+      "小[ちい]さなけがとせよ、すぐに報告[ほうこく]してください。",
+      "小[ちい]さなけがにしては、すぐに報告[ほうこく]してください。",
+      "小[ちい]さなけがにせよ、すぐに報告[ほうこく]してください。"
+     ],
+     "ans": 2,
+     "why": "Dù là A thì cũng… (cứng, dứt khoát) → Danh từ + にせよ. Không dùng と thay に; にしては = \"so với… thì\", sai nghĩa."
     }
    ],
    "shift": [
@@ -717,6 +737,16 @@
      ],
      "ans": 0,
      "why": "Lời khuyên \"tốt nhất là\" → thể từ điển + に越[こ]したことはない (trợ từ に, không dùng thể た)."
+    },
+    {
+     "q": "Một đồng hương mới sang hỏi anh Nguyễn kinh nghiệm thuê nhà. Anh nói: tiền nhà rẻ thì tốt nhất, nhưng khoảng cách đến ga cũng quan trọng.",
+     "opts": [
+      "家賃[やちん]は安[やす]いに越[こ]したことはないけど、駅[えき]からの距離[きょり]も大事[だいじ]だよ。",
+      "家賃[やちん]は安[やす]かったに越[こ]したことはないけど、駅[えき]からの距離[きょり]も大事[だいじ]だよ。",
+      "家賃[やちん]は安[やす]いに越[こ]すことはないけど、駅[えき]からの距離[きょり]も大事[だいじ]だよ。"
+     ],
+     "ans": 0,
+     "why": "Lẽ thường \"… thì tốt nhất\" → tính từ い (thể hiện tại) + に越[こ]したことはない. Không dùng thể た; cụm cố định là 越[こ]した, không phải 越[こ]す."
     }
    ],
    "shift": [

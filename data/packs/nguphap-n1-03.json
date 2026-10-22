@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 1,
+  "version": 2,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp theo các nguồn luyện thi phổ biến (JLPT không công bố danh sách ngữ pháp chính thức). Có dữ liệu bài tập."
@@ -240,6 +240,16 @@
      ],
      "ans": 0,
      "why": "Nêu hoàn cảnh đặc biệt, văn trang trọng → Danh từ + にあって. にとって = đối với ai; について = về (chủ đề) — đều không hợp."
+    },
+    {
+     "q": "Phát biểu nhận chức chủ nhiệm, anh Nguyễn nói: ở cương vị chủ nhiệm, tôi không thể chỉ nghĩ cho riêng mình.",
+     "opts": [
+      "主任[しゅにん]という立場[たちば]にあたって、自分[じぶん]のことだけを考[かんが]えるわけにはいきません。",
+      "主任[しゅにん]という立場[たちば]にあって、自分[じぶん]のことだけを考[かんが]えるわけにはいきません。",
+      "主任[しゅにん]という立場[たちば]にとって、自分[じぶん]のことだけを考[かんが]えるわけにはいきません。"
+     ],
+     "ans": 1,
+     "why": "Ở trong một cương vị, hoàn cảnh kéo dài → にあって. にあたって = \"khi bắt đầu (một việc)\"; にとって = \"đối với (ai)\"."
     }
    ],
    "shift": [
@@ -482,6 +492,16 @@
      ],
      "ans": 0,
      "why": "Phải đến mức nghiêm trọng mới… → に至[いた]って、ようやく…. にとって = đối với; に至[いた]っても (dù vậy vẫn không) mâu thuẫn với ようやく."
+    },
+    {
+     "q": "Trưởng phòng hỏi tiến độ tổng vệ sinh. Anh Nguyễn báo cáo: tổ A vẫn chưa xong, còn riêng tổ C thì thậm chí chưa động tay vào.",
+     "opts": [
+      "A班[はん]はまだ終[お]わっておらず、C班[はん]に至[いた]っても、まだ手[て]もつけていません。",
+      "A班[はん]はまだ終[お]わっておらず、C班[はん]に至[いた]っては、まだ手[て]もつけていません。",
+      "A班[はん]はまだ終[お]わっておらず、C班[はん]にとっては、まだ手[て]もつけていません。"
+     ],
+     "ans": 1,
+     "why": "Nêu ví dụ cực đoan nhất (riêng… thì còn tệ hơn) → に至[いた]っては. に至[いた]っても = \"dù đến mức… vẫn\"; にとっては = \"đối với\"."
     }
    ],
    "shift": [
@@ -734,6 +754,16 @@
      ],
      "ans": 0,
      "why": "Phạm vi \"từ A đến tận B\" → A から B に至[いた]るまで. に至[いた]っては = riêng đến… thì (nêu ví dụ cực đoan); trợ từ trước 至[いた]る luôn là に."
+    },
+    {
+     "q": "Anh Nguyễn kể với bạn ở Việt Nam về sự tỉ mỉ ở Nhật: có quy tắc chi li đến tận cả cách đặt đũa.",
+     "opts": [
+      "箸[はし]の置[お]き方[かた]に至[いた]って、細[こま]かいルールがあるんだ。",
+      "箸[はし]の置[お]き方[かた]を至[いた]るまで、細[こま]かいルールがあるんだ。",
+      "箸[はし]の置[お]き方[かた]に至[いた]るまで、細[こま]かいルールがあるんだ。"
+     ],
+     "ans": 2,
+     "why": "Đến tận cả cái nhỏ nhất → Danh từ + に至[いた]るまで. Không bỏ まで; trợ từ luôn là に, không phải を."
     }
    ],
    "shift": [
