@@ -71,6 +71,7 @@ export function renderGrammar(view, id) {
       ${status(g) === 'new' ? '<button type="button" class="btn btn-ghost btn-sm" data-act="glearned">Đánh dấu đã học (không làm bài)</button>' : '<p class="small muted gdone">✓ Đã học mẫu này — sẽ ôn theo lịch.</p>'}</section>
   </article>`;
   bindSay(view);
+  import('./gnhom.js').then(m => m.groupChip(view, g)).catch(() => { }); // v54: nhóm chức năng của mẫu
   const gl = view.querySelector('[data-act=glearned]');
   if (gl) gl.onclick = async () => { await setLearned(g, 'learned'); gl.replaceWith(Object.assign(document.createElement('p'), { className: 'small muted gdone', textContent: '✓ Đã học mẫu này — sẽ ôn theo lịch.' })); };
 }

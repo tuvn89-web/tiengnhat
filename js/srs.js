@@ -4,13 +4,17 @@ import { DAY, startOfDay } from './util.js';
 // Lặp lại ngắt quãng 7 hộp (v31): 1 → 2 → 4 → 8 → 16 → 35 → 90 ngày. Hộp 0 = chưa học.
 // Đúng → lên hộp. Đúng mà chậm (quá S.slowSec giây, câu chọn đáp án) → giữ hộp, hỏi lại sau đúng khoảng của hộp đó.
 // Sai → hộp 1–3 về hộp 1; hộp 4 trở lên lùi 2 hộp (v31).
-// Đang ở hộp 7 mà đến hạn vẫn đúng → "thuộc nhuần nhuyễn" (cờ m): không bao giờ đến hạn ôn nữa.
+// Đang ở hộp 7 mà đến hạn vẫn đúng → "thuộc nhuần nhuyễn" (cờ m): thôi ôn theo hộp; v54: khoảng 6 tháng (RECHECK ngày) hỏi lại
+// một lần cho chắc — trừ mục bấm tay "Đã thuộc" (cờ mm, hoặc hộp 5 + cờ m của bản cũ): không bao giờ hỏi lại.
 // Mục vào thẳng hộp 5 bằng "Biết rồi" / xếp lớp (cờ k, hoặc hộp 5 chưa từng ôn) → đúng ở lần ôn 16 ngày là thuộc hẳn như trước.
 // Làm sai một mục đã thuộc nhuần nhuyễn (khi tự luyện) → bỏ cờ, lùi hộp như thường.
 // Từ vựng: vj (Việt→Nhật), jv (Nhật→Việt, kể cả nghe), kr (kanji→cách đọc).
 // Chữ Hán: kh (chữ → Hán Việt), hk (Hán Việt → chọn chữ).   Ngữ pháp: gp (mọi bài tập của mẫu đó).
 export const IV = [0, 1, 2, 4, 8, 16, 35, 90];
 export const TOP = IV.length - 1;
+export const RECHECK = 180; // v54: mục thuộc nhuần nhuyễn tự động → hỏi lại sau ~6 tháng
+// hạn ôn thật của một chiều học (mục thuộc nhuần nhuyễn tính từ lần trả lời cuối; bấm tay "Đã thuộc" → không bao giờ)
+export const dueAt = x => (!x?.m ? x?.due || 0 : x.mm || x.b < 6 ? Infinity : startOfDay(x.t || 0) + RECHECK * DAY);
 // Chiều có tính "đúng mà chậm" (câu chọn đáp án ngắn): từ vựng, chữ Hán. Nghe, ngữ pháp, câu dịch không tính.
 export const SLOW_DIRS = new Set(['jv', 'vj', 'kr', 'kh', 'hk']);
 const fastTrack = x => !!x.k || (x.b >= 5 && !x.ok && !x.ng);
@@ -41,7 +45,7 @@ export async function review(id, dir, ok, { onlyIfDue = false, slow = false } = 
     if (!slow && x.due <= now && (x.b >= TOP || (x.b >= 5 && fastTrack(x)))) x.m = 1;
     if (!slow || !x.b) x.b = Math.min(TOP, x.b + 1);
     x.ok++;
-  } else { x.b = x.b >= 4 ? x.b - 2 : 1; x.ng++; delete x.m; delete x.k; }
+  } else { x.b = x.b >= 4 ? x.b - 2 : 1; x.ng++; delete x.m; delete x.k; delete x.mm; }
   x.due = startOfDay(now) + IV[x.b] * DAY;
   x.t = now;
   r.d[d] = x; r.t = now;
@@ -136,7 +140,7 @@ export async function setLearned(it, level = 'learned') {
     if (d === 'kr' && !it.kanji) continue;
     const x = r.d[d] || { b: 0, due: 0, ok: 0, ng: 0, t: 0 };
     x.b = Math.max(x.b, b); x.due = startOfDay(now) + IV[x.b] * DAY; x.t = now;
-    if (level === 'mastered') x.m = 1;
+    if (level === 'mastered') { x.m = 1; x.mm = 1; }
     if (level === 'known' && !x.ok && !x.ng) x.k = 1;
     r.d[d] = x;
   }
@@ -250,7 +254,7 @@ export function dueDirs(it, now = Date.now()) {
   if (!r) return [];
   return TYPE_DIRS[itemType(it)].filter(d => {
     const x = r.d?.[d];
-    if (!x || x.b === 0 || x.m || x.due > now) return false;
+    if (!x || x.b === 0 || dueAt(x) > now) return false;
     return d !== 'kr' || (!!it.kanji && (!dirOK || dirOK(it, d)));
   });
 }
@@ -262,7 +266,7 @@ export const isLeech = it => !!it && ['vocab', 'kanji'].includes(itemType(it)) &
 export function overdueMs(it, now = Date.now()) {
   const r = P.get(it.id);
   let m = -Infinity;
-  for (const d of dueDirs(it, now)) m = Math.max(m, now - (r.d[d].due || 0));
+  for (const d of dueDirs(it, now)) m = Math.max(m, now - dueAt(r.d[d]));
   return m;
 }
 

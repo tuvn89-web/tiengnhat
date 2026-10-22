@@ -1118,3 +1118,50 @@ Bản này làm theo đề xuất "Lộ trình học hiệu quả cho người V
 - **Giữ 0,7 giây** rồi kéo để đổi chỗ (app nhớ chỗ). **Cài đặt → Giao diện → Đồng hồ lộ cơ nổi**: bật / tắt, cỡ Nhỏ / Vừa / Lớn, "Chuyển động đầy đủ" (tắt thì đồng hồ chỉ nhảy mỗi giây một lần cho đỡ tốn pin; máy bật "giảm chuyển động" cũng vậy).
 
 **Tệp:** `manifest.webmanifest`, `js/watch.js` (mới), `js/app.js`, `js/settings.js`, `js/settingspage.js`, `js/guides.js`, `js/util.js`, `css/app.css`, `sw.js`.
+
+## 63. Bản v54 (22/10/2026): Lợi thế của người Việt (đợt 7)
+
+Luyện tập → mục mới **"Lợi thế của người Việt"**; Hướng dẫn → nhóm mới **"Mẹo cho người Việt"** (6 bài: lợi thế, quy luật Hán Việt → âm On, trợ từ, katakana, trường âm, giấy tờ).
+
+**1. Âm On từ âm Hán Việt** (`#/luyen/amon`)
+- Âm Hán Việt cho biết khung của âm On: phụ âm đầu → hàng kana đầu, vần cuối → đuôi. HỌC: h → hàng カ, -c → ク/キ ⇒ ガク. QUẢN LÝ ⇒ かんり.
+- Đếm trên 1.984 thẻ chữ của kho: vần cuối khớp 99%; khoảng 96% chữ khớp cả đầu lẫn cuối, còn lại là ngoại lệ (thẻ chữ ghi rõ).
+- Dạng luyện: từng chữ, hoặc từ ghép; ba phương án sai đều phạm quy luật. Không đổi lịch ôn.
+- **Thẻ chữ Hán** có thêm dòng "Từ âm Hán Việt: HỌC → ガク: h → hàng カ · -c → ク / キ".
+
+**2. Trợ từ đi theo động từ** (`#/luyen/trotu`)
+- Che trợ từ trong 4.995 cụm động từ có sẵn (電車に乗る, 部屋を出る) và trong câu ví dụ.
+- Sai thì app giải thích kèm đối chiếu tiếng Việt (nơi có mặt に / nơi làm việc で, tha động từ を / tự động từ が…).
+- Chỗ hai trợ từ cùng đúng (に / へ khi đi đến, を / から khi rời đi…) chỉ để một cái trong phương án.
+
+**3. Từ katakana: đoán từ gốc** (`#/luyen/katakana`)
+- Nghe / đọc katakana → chọn từ gốc + nghĩa; thấy nghĩa → chọn cách viết đúng (bẫy ở ー, ッ, âm đục).
+- Từ "Nhật chế" có nhãn riêng. Hướng dẫn có bảng quy luật đổi âm.
+
+**4. Furigana mờ dần** (Cài đặt → Hiển thị, **mặc định tắt**)
+- Chữ Hán đã thuộc (thẻ chữ lên hộp 5 trở lên) không hiện furigana — ở "Bài đọc, hội thoại, giấy tờ" hoặc "Mọi nơi".
+- Chạm vào chữ để hiện lại furigana, chạm lần nữa mở thẻ chữ. Chữ chưa thuộc vẫn có furigana.
+
+**5. Ngữ pháp theo nhóm chức năng** (Ngữ pháp → tab **Theo nhóm**)
+- 486 mẫu N5–N1 xếp vào 25 nhóm (lý do, mục đích, điều kiện, tương phản, phỏng đoán…).
+- Mỗi nhóm: giới thiệu, câu hỏi nên tự hỏi khi chọn mẫu, rồi danh sách mẫu kèm văn nói / viết và "khác ở chỗ".
+- Bài **"Luyện chọn mẫu đúng"** chỉ lấy mẫu đã học (học các mẫu gần nghĩa cùng lúc lần đầu dễ nhiễu).
+- Trang từng mẫu có dòng "Nhóm chức năng".
+
+**6. Đọc giấy tờ thật** (`#/giayto`) — 9 giấy tờ mẫu trình bày như bản thật:
+- **Ở chỗ làm:** phiếu lương, bảng phân ca, bảng tự kiểm sức khỏe – vệ sinh, nhãn hộp cá ăn sống, giấy điều kiện lao động.
+- **Thuế, nhà ở, lưu trú:** phiếu khấu trừ thuế cuối năm (源泉徴収票), giấy báo thuế cư trú trích từ lương, thông báo của công ty quản lý chung cư, đơn xin gia hạn lưu trú (特定技能).
+
+Bấm từng ô để xem cách đọc, âm Hán Việt, nghĩa và **cần để ý gì**; cuối trang 5 câu hỏi; nút "Đọc như giấy thật" ẩn furigana. Tên, mã số hư cấu; số tiền chỉ để minh họa; có ngày tra và nguồn chính thức. Đây là kiến thức tham khảo, không phải tư vấn thuế, pháp lý.
+
+**7. Nghe trường âm, âm ngắt, âm ghép** (`#/luyen/truongam`, cần giọng đọc tiếng Nhật trong máy)
+- 217 cặp: おばさん / おばあさん, きて / きって, びよういん / びょういん…
+- App đọc một từ, bạn chọn từ nghe thấy; sau câu nghe lại cả hai để so.
+
+**8. Nút Học lại — 2 bổ sung**
+- **Kế hoạch hôm nay** gợi ý "Kiểm tra nhanh chặng …" khi chặng đã qua hơn 30 ngày chưa kiểm và có từ 15 mục quá hạn — tối đa một lần mỗi tuần.
+- Mục **thuộc nhuần nhuyễn** (tự lên qua lần ôn 90 ngày) nay khoảng **6 tháng hỏi lại một lần**; mục bạn tự bấm "Đã thuộc" vẫn không bao giờ hỏi lại.
+
+**9. Từ mới:** 開く (mở họp, mở sách, mở tiệm, mở tệp) — gói JLPT N4 05.
+
+**Tệp:** `js/dot7.js`, `js/amon.js`, `js/gnhom.js`, `js/giayto.js` (mới), `data/gnhom.json`, `data/giayto.json`, `data/truongam.json` (mới), `data/packs/jlpt-n4-05.json`, `js/app.js`, `js/practice.js`, `js/kanji.js`, `js/grammar.js`, `js/gdrill.js`, `js/srs.js`, `js/roadmap.js`, `js/guides.js`, `js/util.js`, `js/settings.js`, `js/settingspage.js`, `css/app.css`, `sw.js`.

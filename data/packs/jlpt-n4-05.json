@@ -8,7 +8,7 @@
   "topics": [
    "jlpt"
   ],
-  "version": 3,
+  "version": 4,
   "created": "2026-10-12",
   "verified_on": "",
   "note": "Cấp là ước lượng theo các danh sách luyện thi phổ biến (JLPT không công bố danh sách từ chính thức)."
@@ -856,6 +856,72 @@
      "vi": "Tôi bị trộm xe đạp ở ga."
     }
    ]
+  },
+  {
+   "id": "v:開く:ひらく",
+   "kana": "ひらく",
+   "kanji": "開く",
+   "kf": "開[ひら]く",
+   "hv": "KHAI",
+   "vi": "mở (họp, sách, tiệm, tệp); tổ chức (cuộc họp, buổi tiệc)",
+   "pos": "v5",
+   "level": "N4",
+   "topics": [
+    "jlpt"
+   ],
+   "sub": "Mở, đóng",
+   "reg": "thuong",
+   "note": "Cùng chữ với 開[あ]く (tự mở ra: ドアが開[あ]く). 開[ひら]く dùng khi mở cái gì đó ra cho rộng (本[ほん]を開[ひら]く, ファイルを開[ひら]く) hoặc mở / tổ chức một sự kiện (会議[かいぎ]を開[ひら]く, 店[みせ]を開[ひら]く). Cũng dùng như tự động từ: 花[はな]が開[ひら]く (hoa nở).",
+   "ex": [
+    {
+     "jp": "教科書[きょうかしょ]の二十[にじゅう]ページを開[ひら]いてください。",
+     "vi": "Hãy mở sách giáo khoa trang 20.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "明日[あした]の朝[あさ]、班長[はんちょう]が安全会議[あんぜんかいぎ]を開[ひら]きます。",
+     "vi": "Sáng mai tổ trưởng sẽ mở cuộc họp an toàn.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "パソコンで作業表[さぎょうひょう]のファイルを開[ひら]いてください。",
+     "vi": "Hãy mở tệp bảng công việc trên máy tính.",
+     "ctx": "xuong"
+    },
+    {
+     "jp": "友[とも]だちが神戸[こうべ]でベトナム料理[りょうり]の店[みせ]を開[ひら]きました。",
+     "vi": "Bạn tôi đã mở một quán ăn Việt Nam ở Kobe.",
+     "ctx": "doisong"
+    },
+    {
+     "jp": "市役所[しやくしょ]で外国人[がいこくじん]のための相談会[そうだんかい]が開[ひら]かれます。",
+     "vi": "Ở tòa thị chính sẽ có buổi tư vấn dành cho người nước ngoài.",
+     "ctx": "thutuc"
+    }
+   ],
+   "confuse": [
+    "v:開く:あく",
+    "v:開ける:あける"
+   ],
+   "coll": [
+    {
+     "jp": "会議[かいぎ]を開[ひら]く",
+     "vi": "mở cuộc họp"
+    },
+    {
+     "jp": "本[ほん]を開[ひら]く",
+     "vi": "mở sách"
+    },
+    {
+     "jp": "店[みせ]を開[ひら]く",
+     "vi": "mở cửa hàng (kinh doanh)"
+    },
+    {
+     "jp": "ファイルを開[ひら]く",
+     "vi": "mở tệp"
+    }
+   ],
+   "vt": "tha"
   }
  ]
 }

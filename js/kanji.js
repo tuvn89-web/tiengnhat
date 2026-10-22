@@ -9,6 +9,7 @@ import { markBtnHTML } from './marks.js';
 import { chips, bindChips, readChip, readChips, openSheet, emptyState, field } from './ui.js';
 import { runDrill, opt } from './drill.js';
 import { kvGet, kvSet } from './db.js';
+import { amonNoteHTML } from './amon.js';
 
 const ST_LABEL = { new: 'Chưa học', learning: 'Đang học', known: 'Đã thuộc' };
 // やす.む → やす(む)
@@ -99,6 +100,7 @@ export function kanjiCardHTML(ch) {
       ${(k.on || []).length ? `<dt>Âm On</dt><dd>${k.on.map((x, i) => `<span class="${i === 0 ? 'main' : ''}">${esc(x)}</span>`).join('、')}</dd>` : ''}
       ${(k.kun || []).length ? `<dt>Âm Kun</dt><dd>${k.kun.map((x, i) => `<span class="${i === 0 ? 'main' : ''}">${esc(kunText(x))}</span>`).join('、')}</dd>` : ''}
     </dl>
+    ${amonNoteHTML(k)}
     ${famHTML}
     ${(k.viet || []).length ? `<h3 class="h3">Từ Hán Việt cùng chữ</h3><p class="kviet">${k.viet.map(esc).join(' · ')}</p>` : ''}
     ${(k.similar || []).length ? `<h3 class="h3">Chữ trông giống, dễ nhầm</h3><ul class="ksim">${k.similar.map(s => `<li>${D.kanjiByChar.has(s.c) ? `<button type="button" class="ksim-c" data-kopen="${esc(s.c)}" lang="ja">${esc(s.c)}</button>` : `<span class="ksim-c" lang="ja">${esc(s.c)}</span>`}<span>${rich(s.note || '')}</span></li>`).join('')}</ul>` : ''}

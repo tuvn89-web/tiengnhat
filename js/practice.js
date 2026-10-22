@@ -537,6 +537,15 @@ export function renderHub(view) {
       ${card('#/luyen/denham', 'list', 'Phân biệt từ dễ nhầm', 'Đặt các từ, mẫu ngữ pháp dễ nhầm cạnh nhau rồi chọn đúng theo câu', 'conf')}
       ${card('#/luyen/cungdau', 'quiz', 'Đánh từ cứng đầu', 'Từ và chữ Hán sai từ 4 lần trở lên: xem lại thẻ đầy đủ rồi luyện', 'leech')}
     </nav>
+    <h2 class="h2">Lợi thế của người Việt</h2>
+    <nav class="modes">
+      ${card('#/luyen/amon', 'han', 'Âm On từ âm Hán Việt', 'HỌC → ガク, QUẢN LÝ → かんり: phụ âm đầu → hàng kana, vần cuối → đuôi âm On')}
+      ${card('#/luyen/trotu', 'quiz', 'Trợ từ đi theo động từ', 'を / に / で / が theo từng động từ: 電車[でんしゃ]に乗[の]る, 部屋[へや]を出[で]る')}
+      ${card('#/luyen/katakana', 'quiz', 'Từ katakana: đoán từ gốc', 'シフト = shift, クレーム = claim; viết đúng ー, ッ')}
+      ${card('#/luyen/truongam', 'quiz', 'Nghe: trường âm, âm ngắt', 'おばさん / おばあさん, きて / きって, びよういん / びょういん')}
+      ${card('#/giayto', 'book', 'Đọc giấy tờ thật', 'Phiếu lương, bảng ca, hợp đồng, thuế cư trú, nhãn hàng — bấm từng ô để xem nghĩa')}
+      ${card('#/nguphap/nhom', 'list', 'Ngữ pháp theo nhóm', 'Các mẫu cùng nghĩa "vì", "hình như"… đặt cạnh nhau, chọn đúng sắc thái')}
+    </nav>
     <h2 class="h2">Động từ và tính từ</h2>
     <nav class="modes">
       ${card('#/luyen/chia', 'list', 'Luyện thể', 'Gõ thể, chuỗi biến đổi, nhận diện ngược, đổi câu, tự – tha, kính ngữ; tính từ, danh từ + だ; 60 giây tốc độ', 'lverbs')}
@@ -554,6 +563,7 @@ export function renderHub(view) {
       ${card('#/luyen/ngphap', 'quiz', 'Ghép câu theo ngữ pháp', 'Mẫu ngữ pháp + động từ đã học → câu mới có câu dịch', 'tpl')}
       ${card('#/nguphap/luyen', 'list', 'Bài tập ngữ pháp', '10 dạng: điền, sắp xếp, câu ★, tìm chỗ sai…')}
       ${card('#/nguphap/thithu', 'book', 'Thi thử', 'Đề ngắn theo cấp, tính giờ')}
+      ${card('#/nguphap/nhom', 'list', 'Ngữ pháp theo nhóm chức năng', 'Mẫu gần nghĩa đặt cạnh nhau: bảng so sánh + chọn mẫu đúng sắc thái')}
     </nav>
     <h2 class="h2">Khác</h2>
     <nav class="modes">

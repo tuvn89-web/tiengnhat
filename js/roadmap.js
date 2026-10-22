@@ -1,8 +1,8 @@
 // Hướng dẫn & lộ trình (đợt 5a, Đ7): màn Bắt đầu · Lộ trình theo chặng · Kế hoạch hôm nay + dự báo.
 import { esc, rich, plain, DAY, startOfDay } from './util.js';
 import { recapState } from './dot6.js';
-import { D, LEVELS, setPrefs, actToday } from './data.js';
-import { status, stats, P, progVersion } from './srs.js';
+import { D, LEVELS, setPrefs, actToday, saveLesson } from './data.js';
+import { status, stats, P, progVersion, dueDirs, overdueMs } from './srs.js';
 import { chips, bindChips, readChip } from './ui.js';
 import { kvGet, kvSet } from './db.js';
 import { passedLevels, thresholds } from './level.js';
@@ -276,6 +276,28 @@ function forecastNow() {
   const when = days < 45 ? `khoảng ${days} ngày nữa` : `khoảng tháng ${d.getMonth() + 1}/${d.getFullYear()}`;
   return `${useReal ? `Giữ nhịp 14 ngày qua (khoảng ${Math.round(pc.vocab)} từ mới/ngày)` : `Học ${mins()} phút mỗi ngày (khoảng ${plan.v} từ mới/ngày)`}, bạn học hết khối lượng ${esc(G)} ${when}. Còn khoảng ${rem.vocab} từ, ${rem.grammar} mẫu ngữ pháp, ${rem.kanji} chữ Hán (ước tính).`;
 }
+// v54: gợi ý "Kiểm tra nhanh chặng" — chặng đã qua, hơn 30 ngày chưa kiểm nhanh, có từ 15 mục quá hạn ≥ 3 ngày.
+// Tối đa một lần mỗi tuần (không phải chuỗi ngày): ngày gợi ý lưu ở D.lessons['lv:sug'].day; trong ngày đó giữ nguyên gợi ý.
+let _sg = null, _sgKey = '';
+export function stageSuggest(cur) {
+  const sod = startOfDay(), key = `${progVersion()}:${sod}:${cur}`;
+  if (_sgKey === key) return _sg;
+  _sgKey = key; _sg = null;
+  const last = D.lessons['lv:sug'];
+  if (last?.day === sod) return (_sg = last.L);
+  if (last?.day && sod - last.day < 7 * DAY) return null;
+  const ci = LEVELS.indexOf(cur), done = ci > 0 ? LEVELS.slice(0, ci) : cur === 'kana' ? [] : ci < 0 ? LEVELS.slice() : [];
+  let best = null;
+  for (const L of done) {
+    const rq = D.lessons['lv:' + L]?.rq;
+    if (rq && sod - rq.t < 30 * DAY) continue;
+    let n = 0;
+    for (const list of [D.vocab, D.kanji, D.grammar]) for (const it of list) if (it.level === L && dueDirs(it).length && overdueMs(it) >= 3 * DAY) n++;
+    if (n >= 15 && (!best || n > best.n)) best = { L, n };
+  }
+  if (best) { saveLesson('lv:sug', { day: sod, L: best.L, n: best.n }); _sg = best.L; }
+  return _sg;
+}
 // Danh sách việc hôm nay, theo số phút đã chọn
 export function planToday() {
   const m = mins(), plan = pace();
@@ -292,6 +314,8 @@ export function planToday() {
   }
   const didOn = actToday('on');
   out.push({ done: nDue === 0 || didOn > 0, label: nDue && !didOn ? `Ôn ${nDue} mục đến hạn` : 'Ôn đến hạn — xong', sub: didOn && nDue ? `Đã ôn hôm nay · còn ${nDue} mục, ôn thêm nếu còn thời gian` : 'Từ vựng, chữ Hán, ngữ pháp', href: '#/onhon', btn: 'Ôn', more: !!(didOn && nDue) });
+  const sg = stageSuggest(cur);
+  if (sg) { const q = D.lessons['lv:' + sg]?.rq; out.push({ done: !!q && q.t >= sod, label: `Kiểm tra nhanh chặng ${sg} (khoảng 10 phút)`, sub: q && q.t >= sod ? `Đã kiểm hôm nay: ${q.pct}%` : 'Chặng đã qua, lâu chưa kiểm — chỉ học lại phần đã quên', href: `#/hoclai/${sg}/kt`, btn: 'Kiểm tra' }); }
   // ôn bài cũ theo lịch 1–3–7–14 ngày (tối đa 2 bài mỗi ngày)
   for (const l of allLessons().filter(x => (D.lessons[x.id]?.rev || []).some(t => t >= sod))) out.push({ done: true, label: `Ôn bài cũ: bài ${l.n} (${l.level})`, sub: 'Đã ôn hôm nay', href: `#/bai/${encodeURIComponent(l.id)}`, btn: 'Xem' });
   for (const l of dueReviews().slice(0, 2)) out.push({ done: false, label: `Ôn bài cũ: bài ${l.n} (${l.level})`, sub: `Lần ${reviewDue(l).k + 1}/4 · ${plain(l.title)}`, href: `#/onbai/${encodeURIComponent(l.id)}`, btn: 'Ôn' });

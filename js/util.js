@@ -13,7 +13,7 @@ export function isKanjiCh(ch) {
 }
 export const hasKanji = s => [...(s || '')].some(isKanjiCh);
 
-export const APP_VERSION = 'v53 · 22/10/2026'; // đổi cùng lúc với VERSION trong sw.js
+export const APP_VERSION = 'v54 · 22/10/2026'; // đổi cùng lúc với VERSION trong sw.js
 
 // Cú pháp: 漢字[よみ] — phần gắn cách đọc là chuỗi kanji liền trước "[".  [[...]] = phần ngữ pháp.
 // Dấu [ ] không đứng sau kanji, hoặc bên trong không phải kana, thì giữ nguyên như chữ thường.
@@ -53,12 +53,15 @@ export const reading = s => parseJP(s).map(x => x.r || x.t).join('');
 const KJ_RE = /[\u4E00-\u9FFF\u3400-\u4DBF々]/g;
 export const kj = html => html.replace(KJ_RE, c => (c === '々' ? c : `<span class="kj">${c}</span>`));
 
+// v54: furigana mờ dần — app đặt hàm f(chữ) → true khi mọi chữ Hán trong cụm đã thuộc; cụm đó gắn class "rf" (CSS ẩn furigana tùy chế độ)
+let _fade = null;
+export const setFuriFade = f => { _fade = f; };
 export function rubyHTML(s, furi = true) {
   let out = '', open = false;
   for (const g of parseJP(s)) {
     if (g.hl && !open) { out += '<mark class="gp">'; open = true; }
     if (!g.hl && open) { out += '</mark>'; open = false; }
-    out += g.r && furi ? `<ruby>${kj(esc(g.t))}<rt>${esc(g.r)}</rt></ruby>` : kj(esc(g.t));
+    out += g.r && furi ? `<ruby${_fade && _fade(g.t) ? ' class="rf"' : ''}>${kj(esc(g.t))}<rt>${esc(g.r)}</rt></ruby>` : kj(esc(g.t));
   }
   if (open) out += '</mark>';
   return out;

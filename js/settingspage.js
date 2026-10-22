@@ -94,6 +94,8 @@ export function renderSettings(view, ctx, tab) {
       <p class="muted small">Câu "Kanji → cách đọc" hiện từ bằng chữ Hán không furigana. <b>Theo trình độ</b>: chỉ hỏi từ thuộc cấp đã qua hoặc đang học <i>và</i> mọi chữ Hán trong từ đã học thẻ chữ (Đếm số, ghép Kana – Kanji cũng chỉ lấy chữ đã học). <b>Tắt</b>: không hỏi để trần ở các bài app tự trộn; lịch ôn hướng đọc tạm chờ, bật lại thì chạy tiếp. Tự chọn kiểu "Kanji → cách đọc" trong Trắc nghiệm vẫn làm được. Xếp lớp, Thi vượt cấp, Thi thử luôn như đề thật. Phần này đồng bộ giữa các máy.</p>
       <label class="check"><input type="checkbox" name="bareHint" ${bareHintOn() ? 'checked' : ''}> Hiện nghĩa tiếng Việt dưới chữ để trần (gợi ý)</label>
       <label class="check"><input type="checkbox" name="showHv" ${S.showHv ? 'checked' : ''}> Hiện âm Hán Việt</label>
+      <fieldset><legend>Furigana mờ dần (chữ đã thuộc)</legend>${chips('furiFade', [['off', 'Tắt'], ['doc', 'Bài đọc, hội thoại, giấy tờ'], ['all', 'Mọi nơi']], S.furiFade || 'off', false)}</fieldset>
+      <p class="muted small">Chữ Hán mà thẻ chữ đã lên hộp 5 trở lên (đã thuộc) thì ẩn furigana — mỗi lần đọc thành một lần tự kiểm tra cách đọc, quen dần với giấy tờ, thông báo thật (không có furigana). Chữ chưa thuộc vẫn có furigana. Chạm vào chữ để hiện lại furigana, chạm lần nữa mở thẻ chữ. Mặc định tắt.</p>
     </section>
 
     <section class="card" ${sec('hoc')}>

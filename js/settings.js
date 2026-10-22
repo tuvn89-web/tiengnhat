@@ -11,6 +11,7 @@ export const DEFAULTS = {
   viFont: 'system',   // v32: phông chữ tiếng Việt (xem fonts.js)
   script: 'furi',     // kana | furi  (kanji luôn kèm furigana)
   showHv: true,       // hiện âm Hán Việt
+  furiFade: 'off',    // v54: ẩn furigana chữ đã thuộc: off | doc (bài đọc, hội thoại, giấy tờ) | all
   qCount: 20,
   matchRounds: 3,
   introNew: true,

@@ -26,7 +26,7 @@ export const GUIDES = [
     ['p', '**Đúng mà chậm:** ở câu chọn đáp án của từ vựng và chữ Hán, trả lời đúng nhưng nghĩ lâu hơn 8 giây thì từ giữ nguyên hộp (phải nghĩ lâu là dấu hiệu sắp quên). Chỉnh số giây hoặc tắt ở Cài đặt → Học.'],
     ['p', 'Não nhớ lâu nhất khi được hỏi lại đúng lúc sắp quên. Vì vậy mỗi ngày chỉ cần làm phần **đến hạn** — thường 10–20 phút.'],
     ['p', 'Từ vựng có 3 chiều học riêng: Nhật → Việt, Việt → Nhật và đọc chữ Hán. Từ chỉ tính "đã thuộc" khi cả chiều Nhật → Việt và Việt → Nhật lên hộp 5.'],
-    ['p', '**Thuộc nhuần nhuyễn:** đã ở hộp 7 mà đến lần ôn sau 90 ngày vẫn trả lời đúng thì chiều đó không bao giờ đến hạn ôn nữa. Từ bấm "Biết rồi" lúc học (vào thẳng hộp 5) thì chỉ cần đúng ở lần ôn 16 ngày là thuộc hẳn. Nếu sau này tự luyện mà làm sai, mục đó lùi hộp như thường.'],
+    ['p', '**Thuộc nhuần nhuyễn:** đã ở hộp 7 mà đến lần ôn sau 90 ngày vẫn trả lời đúng thì chiều đó thôi ôn theo hộp — chỉ **khoảng 6 tháng hỏi lại một lần** cho chắc (đúng thì 6 tháng sau hỏi tiếp, sai thì lùi hộp như thường). Từ bấm "Biết rồi" lúc học (vào thẳng hộp 5) thì chỉ cần đúng ở lần ôn 16 ngày là thuộc nhuần nhuyễn. Mục bạn tự bấm **"Đã thuộc"** thì không bao giờ hỏi lại.'],
     ['p', '**Từ cứng đầu:** từ hoặc chữ Hán sai từ 4 lần trở lên mà chưa thuộc. Lần ôn sau, app hiện thẻ đầy đủ (âm Hán Việt, thơ nhớ chữ, câu ví dụ, từ dễ nhầm) trước khi hỏi — mỗi mục một lần mỗi ngày. Luyện riêng ở Luyện tập → **Đánh từ cứng đầu**; lọc ở Kho từ → Bộ lọc → Cứng đầu.'],
     ['p', '**Nhắc lại cuối ngày:** từ học mới hôm nay, sau ít nhất 4 giờ, có dòng "Nhắc lại … từ mới hôm nay" trong Kế hoạch hôm nay. Đây chỉ là lượt nhắc, không đổi lịch ôn — giúp từ mới không rơi mất qua đêm đầu tiên.'],
     ['p', '**Luyện từ đã tim** (trong bài học): câu đúng làm mới lịch ôn của từ — từ mới hoặc đã đến hạn thì lên một hộp (mỗi chiều một lần mỗi lượt), còn lại dời hạn ôn tính từ hôm nay. Câu sai không làm tụt hộp.'],
@@ -123,6 +123,42 @@ export const GUIDES = [
     ['h', 'Lỗi người Việt hay mắc'],
     ['ul', ['Lẫn các mẫu gần nghĩa: 〜といえども / 〜とはいえ; 〜をもって / 〜によって; 〜ならでは / 〜らしい.', 'Từ Hán gần âm, gần nghĩa: 保証[ほしょう] (bảo đảm chất lượng, bảo lãnh) / 保障[ほしょう] (bảo vệ quyền lợi, an toàn) / 補償[ほしょう] (bồi thường thiệt hại).', 'Dùng mẫu văn viết trong lời nói thân mật — nghe rất cứng.', 'Phần Nghe: người nói đi vòng, ý thật nằm ở cuối câu hoặc sau 〜けど / 〜が — nghe hết câu rồi mới chọn.']],
     ...exam('N1'), ['a', 'Thi vượt cấp N1', '#/trinhdo'], ['a', 'Đề thi thử JLPT', '#/thithu']] },
+  // ---------- v54: lợi thế của người Việt ----------
+  { id: 'loithe', g: 'Mẹo cho người Việt', t: 'Lợi thế của người Việt khi học tiếng Nhật', b: [
+    ['p', 'Người Việt có lợi thế lớn: **âm Hán Việt**. Phần lớn từ vựng N3 – N1 là từ Hán; biết âm Hán Việt thì đoán được cả **nghĩa** lẫn **cách đọc**. Nhưng nghiên cứu cho thấy người Việt không tự dùng lợi thế này nếu không được chỉ cách — app có sẵn các bài luyện dưới đây.'],
+    ['ul', ['**Đoán nghĩa từ Hán Việt**: 冷凍[れいとう] = LÃNH ĐÔNG → đông lạnh.', '**Âm On từ âm Hán Việt**: HỌC → ガク, QUẢN LÝ → かんり — xem bài "Quy luật Hán Việt → âm On".', '**Bẫy Hán Việt**: chữ giống mà nghĩa khác (勉強[べんきょう] MIỄN CƯỠNG = học).'],],
+    ['p', 'Và vài chỗ người Việt hay vấp vì tiếng Việt không có:'],
+    ['ul', ['**Trợ từ** (を, に, で, が…) — học theo từng động từ: bài "Trợ từ đi theo động từ".', '**Trường âm, âm ngắt** (おばさん / おばあさん, きて / きって) — bài nghe "Trường âm, âm ngắt".', '**Từ katakana** gốc tiếng Anh — bài "Từ katakana: đoán từ gốc".', '**Nhiều mẫu ngữ pháp cùng một nghĩa Việt** ("vì", "hình như") — Ngữ pháp → **Theo nhóm**.', '**Chữ Hán không có furigana** ở giấy tờ thật — **Đọc giấy tờ thật** và Cài đặt → Hiển thị → **Furigana mờ dần**.']],
+    ['a', 'Âm On từ âm Hán Việt', '#/luyen/amon'], ['a', 'Trợ từ đi theo động từ', '#/luyen/trotu'], ['a', 'Đọc giấy tờ thật', '#/giayto']] },
+  { id: 'amon', g: 'Mẹo cho người Việt', t: 'Quy luật Hán Việt → âm On', b: [
+    ['p', 'Âm Hán Việt và âm On cùng gốc từ tiếng Hán cổ, nên đổi qua lại theo quy luật. Âm Hán Việt cho biết **khung** của âm On: **phụ âm đầu → hàng kana đầu**, **vần cuối → đuôi**. Ví dụ HỌC: h → hàng カ, -c → ク/キ ⇒ **ガク**. QUẢN LÝ: qu → カ, -n → ン; l → ラ ⇒ **かんり**.'],
+    ['h', 'Vần cuối → đuôi âm On (khớp 99% chữ trong kho)'],
+    ['tb', [['Vần cuối Hán Việt', 'Đuôi âm On', 'Ví dụ'], ['-m, -n', 'ン', '三[さん] TAM · 心[しん] TÂM · 安[あん] AN · 運[うん] VẬN'], ['-c, -ch', 'ク / キ (2 nhịp)', '学[がく] HỌC · 力[りょく] LỰC · 歴[れき] LỊCH · 石[せき] THẠCH'], ['-t', 'ツ / チ', '一[いち] NHẤT · 発[はつ] PHÁT · 日[にち] NHẬT · 決[けつ] QUYẾT'], ['-p', 'ウ (kéo dài) / ツ', '協[きょう] HIỆP · 十[じゅう] THẬP · 入[にゅう] NHẬP · 立[りつ] LẬP'], ['-ng, -nh', 'ウ / イ (kéo dài)', '東[とう] ĐÔNG · 公[こう] CÔNG · 生[せい] SINH · 京[きょう] KINH'], ['vần mở (-a, -i, -o, -u…)', 'một nhịp, hoặc kéo dài ウ / イ', '化[か] HÓA · 気[き] KHÍ · 高[こう] CAO · 海[かい] HẢI']]],
+    ['h', 'Phụ âm đầu → hàng kana'],
+    ['tb', [['Phụ âm đầu', 'Hàng kana', 'Ví dụ'], ['c, k, qu, kh, g, gi, h, ng, ngh', 'hàng カ (カ / ガ)', '公[こう] CÔNG · 金[きん] KIM · 国[こく] QUỐC · 加[か] GIA · 外[がい] NGOẠI'], ['đ', 'hàng タ (タ / ダ)', '電[でん] ĐIỆN · 大[だい] ĐẠI · 東[とう] ĐÔNG'], ['t, ch, s, x', 'hàng サ (サ / ザ)', '三[さん] TAM · 主[しゅ] CHỦ · 生[せい] SINH · 車[しゃ] XA'], ['th', 'hàng サ, đôi khi タ', '水[すい] THỦY · 天[てん] THIÊN'], ['tr', 'hàng タ, đôi khi サ', '中[ちゅう] TRUNG · 重[じゅう] TRỌNG'], ['l', 'hàng ラ', '理[り] LÝ · 料[りょう] LIỆU'], ['b, ph', 'hàng ハ (ハ / バ / パ)', '半[はん] BÁN · 発[はつ] PHÁT · 方[ほう] PHƯƠNG'], ['m', 'hàng マ hoặc バ', '毎[まい] MỖI · 木[もく] MỘC'], ['v', 'ア / ワ, hoặc バ / マ', '運[うん] VẬN · 文[ぶん] VĂN · 万[まん] VẠN'], ['d', 'hàng ヤ hoặc ア', '用[よう] DỤNG · 遊[ゆう] DU · 易[えき] DỊCH'], ['nh', 'ニ / ジ, đôi khi ガ', '人[じん] NHÂN · 日[にち] NHẬT · 顔[がん] NHAN'], ['n', 'ナ hoặc ダ', '内[ない] NỘI · 男[だん] NAM'], ['nguyên âm (a, ă, â, e, i, o, u…)', 'hàng ア hoặc ヤ', '安[あん] AN · 意[い] Ý · 英[えい] ANH']]],
+    ['p', 'Quy luật cho biết **khung**, chưa cho biết chính xác nguyên âm (ĐÔNG → トウ chứ không phải タウ). Nhưng khi phải chọn giữa vài cách đọc, khung là đủ loại phần lớn phương án sai. Khoảng 4% chữ trong kho là **ngoại lệ** — thẻ chữ ghi rõ "ngoại lệ", nhớ riêng những chữ này.'],
+    ['p', 'Mỗi thẻ chữ Hán có dòng **"Từ âm Hán Việt"** giải thích chữ đó theo quy luật. Bài luyện hỏi cả từng chữ lẫn từ ghép (安全[あんぜん] AN TOÀN, 冷凍[れいとう] LÃNH ĐÔNG); ba phương án sai đều phạm quy luật.'],
+    ['a', 'Luyện: Âm On từ âm Hán Việt', '#/luyen/amon']] },
+  { id: 'trotu', g: 'Mẹo cho người Việt', t: 'Trợ từ: đối chiếu với tiếng Việt', b: [
+    ['p', 'Tiếng Việt dùng **trật tự từ** để biết ai làm gì; tiếng Nhật dùng **trợ từ** đứng sau danh từ. Nhiều trợ từ không có chữ Việt tương ứng (を, が), nhiều trợ từ cùng dịch là "ở" (に, で). Cách học nhanh nhất: nhớ trợ từ **theo từng động từ** như một cụm (電車[でんしゃ]に乗[の]る, 部屋[へや]を出[で]る), rồi mới khái quát thành luật.'],
+    ['tb', [['Trợ từ', 'Dùng khi', 'Tiếng Việt', 'Ví dụ'], ['を', 'đối tượng của tha động từ · nơi rời khỏi · nơi đi qua', '(không có) · ra khỏi · qua', '手[て]を洗[あら]う · 家[いえ]を出[で]る · 橋[はし]を渡[わた]る'], ['が', 'chủ thể của tự động từ · đối tượng của 好[す]き, 分[わ]かる, できる, 欲[ほ]しい, ある', '(không có)', 'ドアが開[あ]く · 日本語[にほんご]が分[わ]かる'], ['に', 'nơi có mặt · chỗ đặt vào · điểm đến · thời điểm · người nhận · kết quả', 'ở · vào · đến · lúc · cho · thành', '寮[りょう]に住[す]む · 箱[はこ]に入[い]れる · 先輩[せんぱい]に聞[き]く'], ['で', 'nơi diễn ra hành động · phương tiện, công cụ · nguyên nhân · phạm vi', 'ở · bằng · vì', '工場[こうじょう]で働[はたら]く · 包丁[ほうちょう]で切[き]る · 風邪[かぜ]で休[やす]む'], ['と', 'cùng với ai (hai bên cùng làm) · trích dẫn', 'với · rằng', '友[とも]だちと話[はな]す · 「はい」と言[い]う'], ['から', 'điểm xuất phát · nguồn · nguyên liệu biến đổi', 'từ', '駅[えき]から歩[ある]く · 米[こめ]から作[つく]る'], ['へ', 'hướng đi', 'về phía', '国[くに]へ帰[かえ]る'], ['まで', 'điểm cuối', 'đến tận', '五時[ごじ]まで働[はたら]く']]],
+    ['h', 'Ba cặp hay nhầm nhất'],
+    ['ul', ['**に** (có mặt, đặt vào) ↔ **で** (làm việc gì ở đó): 工場[こうじょう]に**いる** / 工場[こうじょう]で**働[はたら]く**.', '**を** (tha động từ: ai đó làm) ↔ **が** (tự động từ: tự xảy ra): 電気[でんき]を**つける** / 電気[でんき]が**つく**.', '**に** (một chiều, hướng về người đó) ↔ **と** (hai bên cùng làm): 先生[せんせい]に会[あ]う / 友[とも]だちと会[あ]う.']],
+    ['a', 'Luyện: Trợ từ đi theo động từ', '#/luyen/trotu']] },
+  { id: 'katakana', g: 'Mẹo cho người Việt', t: 'Từ katakana: quy luật đổi âm', b: [
+    ['p', 'Từ N3 trở lên, từ katakana tăng nhanh, ở xưởng cũng nhiều (シフト, クレーム, マニュアル). Phần lớn gốc tiếng Anh, bị đổi âm cho hợp tiếng Nhật: mỗi phụ âm phải đi với một nguyên âm. **Mẹo:** đọc to, bỏ bớt ー và ッ trong đầu, thử nghĩ từ tiếng Anh nghe gần như vậy.'],
+    ['tb', [['Tiếng Anh', 'Katakana', 'Ví dụ'], ['-tion / -sion', 'ション / ジョン', 'station → ステーション · television → テレビジョン'], ['-er, -or, -ar cuối từ', 'kéo dài ー', 'computer → コンピューター · elevator → エレベーター'], ['nguyên âm dài (ee, ea, oo, ar, or…)', 'ー', 'cheese → チーズ · card → カード · room → ルーム'], ['l và r', 'đều thành hàng ラ', 'lamp → ランプ · rice → ライス'], ['v', 'hàng バ', 'video → ビデオ · service → サービス'], ['th', 'hàng サ / ザ', 'three → スリー · mother → マザー'], ['phụ âm cuối từ', 'thêm ウ (t, d → ト, ド)', 'desk → デスク · bed → ベッド · net → ネット'], ['nguyên âm ngắn + phụ âm tắc', 'thêm ッ', 'cup → カップ · check → チェック · bag → バッグ'], ['ti, di · fa, fi, fe, fo', 'ティ, ディ · ファ, フィ, フェ, フォ', 'party → パーティー · fork → フォーク']]],
+    ['p', '**Từ "Nhật chế" và nói tắt** — không đoán theo tiếng Anh được, nhớ riêng: サラリーマン (người làm công ăn lương), ノートパソコン (máy tính xách tay), ガソリンスタンド (cây xăng), コンセント (ổ điện), クレーム (lời khiếu nại), スーパー, エアコン, パソコン, リモコン. Một số từ gốc tiếng Đức, Hà Lan, Bồ Đào Nha: アルバイト, ガラス, パン.'],
+    ['a', 'Luyện: Từ katakana', '#/luyen/katakana']] },
+  { id: 'truongam', g: 'Mẹo cho người Việt', t: 'Nghe trường âm, âm ngắt, âm ghép', b: [
+    ['p', 'Tiếng Nhật đếm theo **nhịp** (mora): mỗi chữ kana dài bằng nhau. Tiếng Việt không phân biệt nguyên âm dài / ngắn, nên tai người Việt hay bỏ qua — và nghiên cứu trên sinh viên Việt Nam cho thấy phần này **không tự tiến bộ** theo số năm học, phải luyện riêng.'],
+    ['ul', ['**Trường âm** = thêm 1 nhịp: お・ば・さ・ん (4 nhịp, cô) / お・ば・あ・さ・ん (5 nhịp, bà). Cách viết: あ+あ, い+い, う+う, え+い (thường), お+う (thường); katakana dùng ー.', '**Âm ngắt っ** = 1 nhịp im lặng: き・て (đến) / き・っ・て (cắt; con tem). Nghe như ngừng hơi một chút trước phụ âm.', '**Âm ghép ゃゅょ nhỏ** = không thêm nhịp: びょ・う・い・ん (4 nhịp, bệnh viện) / び・よ・う・い・ん (5 nhịp, tiệm làm tóc).', '**ん** cũng là 1 nhịp riêng.']],
+    ['p', '**Mẹo:** vỗ tay theo nhịp khi đọc to; khi nghe số giờ, giá tiền ở xưởng hay quầy, để ý nhịp kéo dài (ví dụ 十[じゅう] mười / 自由[じゆう] tự do).'],
+    ['a', 'Luyện nghe: trường âm, âm ngắt', '#/luyen/truongam']] },
+  { id: 'giayto', g: 'Mẹo cho người Việt', t: 'Đọc giấy tờ thật', b: [
+    ['p', 'Giấy tờ thật (phiếu lương, bảng ca, hợp đồng, thông báo thuế cư trú, phiếu khấu trừ thuế, nhãn hàng, thông báo của công ty quản lý nhà, đơn gia hạn lưu trú) không có furigana và dùng nhiều từ Hán khó. Mục **Đọc giấy tờ thật** có các mẫu trình bày như bản thật: bấm từng ô để xem cách đọc, âm Hán Việt, nghĩa và **cần để ý gì**; cuối trang có 5 câu hỏi. Nút "Đọc như giấy thật" ẩn furigana.'],
+    ['p', 'Tên công ty, tên người, mã số trong mẫu là hư cấu; số tiền chỉ để minh họa. Đây là kiến thức tham khảo để đọc hiểu và hỏi đúng chỗ — khi cần, hỏi phòng nhân sự hoặc quầy của 市役所[しやくしょ].'],
+    ['a', 'Mở Đọc giấy tờ thật', '#/giayto']] },
   // ---------- theo mục tiêu ----------
   { id: 'ssw2', g: 'Theo mục tiêu', t: '特定技能[とくていぎのう]2号[ごう] ngành thủy sản', b: [
     ['p', 'Theo trang của 出入国在留管理庁[しゅつにゅうこくざいりゅうかんりちょう] về ngành 飲食料品製造業[いんしょくりょうひんせいぞうぎょう] (nội dung tính đến 4/9/2026):'],
@@ -137,11 +173,11 @@ export const GUIDES = [
     ['p', 'Danh sách giấy tờ cụ thể thay đổi theo tư cách lưu trú và theo thời gian — luôn tải danh sách mới nhất trên trang 出入国在留管理庁 trước khi đi xin giấy.'],
     ['p', 'Ở quầy, câu hay dùng: 「課税証明書[かぜいしょうめいしょ]と納税証明書[のうぜいしょうめいしょ]を一部[いちぶ]ずつお願[ねが]いします。」 (Cho tôi mỗi loại một bản giấy chứng nhận thuế và giấy chứng nhận đã nộp thuế.)'],
     ['p', 'Học từ của gói **Thuế & visa** và câu thực chiến ở quầy để tự đi xin giấy được.'],
-    ['a', 'Mở Kho từ', '#/kho']] },
+    ['a', 'Mở Kho từ', '#/kho'], ['a', 'Đọc giấy tờ mẫu: thuế cư trú, khấu trừ thuế, đơn gia hạn', '#/giayto']] },
   { id: 'song', g: 'Theo mục tiêu', t: 'Sống ở Nhật', b: [
     ['p', 'Những tình huống cần tiếng Nhật nhất: phân loại rác, ngân hàng, bệnh viện, thiên tai, nói chuyện với hàng xóm và người Kansai.'],
     ['ul', ['Gói **Đời sống**: rác, ngân hàng, bệnh viện, thiên tai.', 'Gói **Kansai-ben**: ở Hyogo sẽ nghe めっちゃ, あかん, ほんま… — app cho biết cách nói chuẩn tương ứng.', 'Bài **Đổi lối nói** (Ngữ pháp → Luyện tập): chuyển câu nói tắt, Kansai sang câu chuẩn lịch sự.']],
-    ['a', 'Luyện đổi lối nói', '#/nguphap/luyen?t=shift']] },
+    ['a', 'Luyện đổi lối nói', '#/nguphap/luyen?t=shift'], ['a', 'Đọc giấy tờ thật', '#/giayto']] },
 ];
 
 export function renderGuides(view) {

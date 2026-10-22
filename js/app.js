@@ -1,8 +1,8 @@
 import { heartRoute } from './heart.js';
-import { $, esc, icon, toast, toastNewPage, debounce, fmtDate } from './util.js';
+import { $, esc, icon, toast, toastNewPage, debounce, fmtDate, setFuriFade } from './util.js';
 import { loadSettings, S } from './settings.js';
 import { D, loadAll, TOPICS } from './data.js';
-import { loadProgress, stats } from './srs.js';
+import { loadProgress, stats, status as stStatus, progVersion } from './srs.js';
 import { renderQuizSetup, runQuiz, buildQuestions, selectItems } from './quiz.js';
 import { runLearn } from './learn.js';
 import { renderHub, renderCau, renderNgPhap, renderThe, renderTinhTu, renderDem, renderMixed, mixedDue } from './practice.js';
@@ -47,7 +47,7 @@ const ctx = {
 
 const NAV = [
   ['#/', 'home', 'Trang chủ', /^(?:|trinhdo|thithu|lotrinh|batdau|kana|noiduoc|nhanh3|nhaclai|huongdan(?:\/.*)?|(?:bai|onbai|tonghop)\/.*)$/],
-  ['#/luyen', 'quiz', 'Luyện tập', /^(luyen|hoc|on$|moi|ghep|onhon|dich|doc)/],
+  ['#/luyen', 'quiz', 'Luyện tập', /^(luyen|hoc|on$|moi|ghep|onhon|dich|doc|giayto)/],
   ['#/chuhan', 'han', 'Chữ Hán', /^(chuhan|onchu)/],
   ['#/nguphap', 'book', 'Ngữ pháp', /^(nguphap|onngu)/],
   ['#/kho', 'list', 'Kho từ', /^(kho|them|sua)/],
@@ -72,6 +72,13 @@ const ROUTES = [
   [/^luyen\/denham$/, v => renderDenHam(v, ctx)],
   [/^luyen\/giongchu$/, v => renderGiongChu(v, ctx)],
   [/^luyen\/cungdau$/, v => renderCungDau(v, ctx)],
+  // v54 (đợt 7): lợi thế của người Việt — tải khi mở
+  [/^luyen\/amon$/, async v => (await import('./dot7.js')).renderAmOn(v, ctx)],
+  [/^luyen\/trotu$/, async v => (await import('./dot7.js')).renderTroTu(v, ctx)],
+  [/^luyen\/katakana$/, async v => (await import('./dot7.js')).renderKata(v, ctx)],
+  [/^luyen\/truongam$/, async v => (await import('./dot7.js')).renderTruongAm(v, ctx)],
+  [/^giayto$/, async v => (await import('./giayto.js')).renderDocs(v, ctx)],
+  [/^giayto\/([^/?]+)(?:\/(hoi))?$/, async (v, m) => { const G = await import('./giayto.js'); return m[2] ? G.runDocQuiz(v, ctx, decodeURIComponent(m[1])) : G.renderPaper(v, ctx, decodeURIComponent(m[1])); }],
   [/^nhanh3$/, v => runQuick3(v, ctx)],
   [/^nhaclai$/, v => runRecap(v, ctx)],
   [/^moi$/, v => runLearn(v, selectItems({ source: 'new' }).slice(0, S.qCount), ctx, { again: () => ctx.go('#/moi', true) })],
@@ -89,6 +96,9 @@ const ROUTES = [
   [/^nguphap\/hieu\?g=(.+)$/, async (v, m) => (await import('./gdrill.js')).runGrammarHieu(v, ctx, decodeURIComponent(m[1]).split(','))],
   [/^nguphap\/tron\?g=(.+)$/, async (v, m) => (await import('./gdrill.js')).runGrammarMix(v, ctx, decodeURIComponent(m[1]))],
   [/^onngu$/, v => quickGrammar(v)],
+  [/^nguphap\/nhom$/, async v => (await import('./gnhom.js')).renderGroups(v, ctx)],
+  [/^nguphap\/nhom\/([a-z]+)$/, async (v, m) => (await import('./gnhom.js')).renderGroup(v, ctx, m[1])],
+  [/^nguphap\/nhom\/([a-z]+)\/luyen$/, async (v, m) => (await import('./gnhom.js')).runGroupDrill(v, ctx, m[1])],
   [/^nguphap\/(.+)$/, (v, m) => renderGrammar(v, decodeURIComponent(m[1]))],
   [/^kho$/, v => renderWordList(v, ctx)],
   [/^them$/, v => renderWordForm(v, ctx)],
@@ -390,6 +400,7 @@ async function init() {
   try { initBackFab(ctx); } catch (e) { console.warn('backfab', e); }
   import('./watch.js').then(m => m.initWatch()).catch(e => console.warn('watch', e)); // v53: đồng hồ lộ cơ nổi
   initThemeColor();
+  initFuriFade();
   // v32: thanh trên trong suốt; cuộn xuống thì thành kính mờ để chữ trang không đè tiêu đề
   const tb = $('#topbar'), tbSync = () => tb.classList.toggle('is-scrolled', scrollY > 4);
   addEventListener('scroll', tbSync, { passive: true }); tbSync();
@@ -431,6 +442,30 @@ async function init() {
 init();
 
 // v53: app không còn chạy toàn màn hình → thanh trạng thái của điện thoại (giờ, pin) hiện lại; cho nó cùng màu thanh trên cùng của app
+// v54: furigana mờ dần — chữ Hán đã thuộc (thẻ chữ ở hộp 5 trở lên) không hiện furigana; chạm để hiện lại
+function initFuriFade() {
+  let pv = -1, known = new Set();
+  const isKnown = c => {
+    if (pv !== progVersion()) { pv = progVersion(); known = new Set(D.kanji.filter(k => stStatus(k) === 'known').map(k => k.char)); }
+    return known.has(c);
+  };
+  const KJ = /[\u4E00-\u9FFF\u3400-\u4DBF]/g;
+  const apply = () => {
+    const m = S.furiFade || 'off', r = document.documentElement;
+    r.classList.toggle('ff-doc', m === 'doc'); r.classList.toggle('ff-all', m === 'all');
+    setFuriFade(m === 'off' ? null : t => { const ks = String(t).match(KJ); return !!ks && ks.every(isKnown); });
+  };
+  apply();
+  addEventListener('tn-settings', apply);
+  // chạm lần đầu vào chữ đang ẩn furigana: chỉ hiện furigana (lần sau mới mở thẻ chữ); nút, đáp án thì để nguyên
+  document.addEventListener('click', e => {
+    const r = e.target.closest?.('ruby.rf:not(.show)');
+    if (!r || r.closest('button, a, label, [role=button]')) return;
+    const rt = r.querySelector('rt');
+    if (!rt || getComputedStyle(rt).visibility !== 'hidden') return;
+    r.classList.add('show'); e.stopPropagation(); e.preventDefault();
+  }, true);
+}
 function initThemeColor() {
   const meta = document.querySelector('meta[name=theme-color]');
   if (!meta) return;

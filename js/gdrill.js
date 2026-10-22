@@ -317,6 +317,7 @@ export function buildMockTest(level, n = 20) {
 export const gtabs = cur => `<div class="tabs" role="tablist">
   <a role="tab" href="#/nguphap" aria-selected="${cur === 'list'}">Bài học</a>
   <a role="tab" href="#/nguphap/luyen" aria-selected="${cur === 'luyen'}">Luyện tập</a>
+  <a role="tab" href="#/nguphap/nhom" aria-selected="${cur === 'nhom'}">Theo nhóm</a>
   <a role="tab" href="#/nguphap/thithu" aria-selected="${cur === 'thi'}">Thi thử</a></div>`;
 
 export async function renderGrammarPractice(view, ctx, onlyId, preset) {
