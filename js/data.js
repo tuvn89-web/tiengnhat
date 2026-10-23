@@ -51,6 +51,7 @@ export async function loadAll() {
     if (!r.ok) throw new Error(r.status);
     D.manifest = await r.json();
     kvSet('manifestCache', D.manifest);
+    if (D.manifest.lock) pruneDataCache(D.manifest).catch(() => { }); // v60: bản dữ liệu đã tách → bỏ các gói cũ không còn trong danh mục
   } catch {
     D.manifest = await kvGet('manifestCache', { packs: [] });
     if (!D.manifest.packs.length) D.errors.push('Không tải được danh mục gói. Mở app khi có mạng một lần để tải dữ liệu.');
@@ -78,6 +79,18 @@ export async function loadAll() {
   assemblePacks();
   D.user = new Map((await all('user')).map(x => [x.id, x]));
   rebuild();
+}
+
+// v60: xoá khỏi bộ nhớ đệm của app các gói không còn trong danh mục (vd. gói N3–N1 đầy đủ tải từ trước khi khóa lộ trình)
+export async function pruneDataCache(m) {
+  if (!globalThis.caches) return 0;
+  const keep = new Set((m.packs || []).map(p => p.file)), c = await caches.open('tnt-data');
+  let n = 0;
+  for (const k of await c.keys()) {
+    const p = new URL(k.url).pathname, i = p.indexOf('/data/packs/');
+    if (i >= 0 && !keep.has(decodeURIComponent(p.slice(i + 12)))) { await c.delete(k); n++; }
+  }
+  return n;
 }
 
 // ---------- v57: lộ trình khóa (N3–N1) ----------

@@ -1285,3 +1285,24 @@ Chạy khi đã bật tài khoản. Trang Quản trị giờ có 8 tab (điện 
 - Trang Quyền riêng tư ghi thêm phần báo sai.
 
 **Tệp:** sửa `js/data.js`, `js/cloud.js`, `js/app.js`, `js/admin.js`, `js/nav.js`, `js/util.js`, `css/app.css`, `sw.js`, `firestore.rules`, `trang/riengtu.html`, `HUONG-DAN.md`.
+
+## 69. Bản v60 (23/10/2026): Bật tài khoản (đợt 9, phần 5)
+
+Bản này điền cấu hình dự án Firebase `tiengnhat-app` vào `js/cloudcfg.js`: thanh trên có nút hình người, đăng nhập Google, trang Quản trị, hồ sơ, bảng xếp hạng, báo sai chung, thông báo chạy thật. **N3–N1 chưa khóa**: dữ liệu trên kho vẫn đủ, nên mọi người học như cũ cho tới khi đưa lên bản dữ liệu đã tách (bước 9).
+
+**Thứ tự làm (lần đầu, trên máy tính):**
+1. Đưa gói `capnhat-v60-capnhat.zip` lên kho như mọi lần (chép đè vào thư mục kho → Commit → Push). Nếu trên kho còn `js/watch.js` thì xoá. Đợi 1–2 phút.
+2. Firebase → **Databases & Storage → Firestore** → thẻ **Rules** → xoá hết nội dung cũ → dán toàn bộ tệp `firestore.rules` (ở thư mục gốc kho) → **Publish**. Có dòng báo lỗi đỏ thì chụp màn hình gửi lại, đừng Publish.
+3. Mở app bằng Chrome khi có mạng. **Cài đặt → Máy này → Phiên bản app** phải là **v60** (chưa thấy thì bấm Kiểm tra bản mới, hoặc tải lại trang).
+4. Bấm nút hình người ở thanh trên → **Đăng nhập bằng Google** → chọn tài khoản Google làm quản trị viên. Máy chặn cửa sổ bật lên thì cho phép rồi bấm lại.
+5. Trang Tài khoản → dòng **Mã tài khoản** → bấm **Chép mã**.
+6. Firebase → Firestore → thẻ **Data** → **Start collection** → Collection ID: `admins` → Next → Document ID: dán mã vừa chép → thêm trường: tên `role`, kiểu `string`, giá trị `owner` → **Save**.
+7. Tải lại app → trang Tài khoản có nút **Quản trị** → **Người dùng** → bấm vào tài khoản của mình → ở N3, N2, N1 lần lượt bấm **Không thời hạn**.
+8. Quản trị → **Nội dung** → chọn tệp **`noidung-khoa-v60.zip`** → chờ ba dòng N3, N2, N1 đều hiện "Bản … · đẩy lên …". Quản trị → **Liên hệ**: điền kênh liên hệ người học thấy ở trang Tài khoản (Zalo, Facebook…).
+9. Báo lại khi bước 8 xong → nhận **gói dữ liệu đã tách** (xoá N3–N1 khỏi kho). Từ lúc đưa gói đó lên, N3–N1 cần được mở mới học được; tài khoản quản trị đã mở ở bước 7 nên tự tải nội dung về.
+
+**Lần chạy thật đầu tiên:** phần tài khoản mới được kiểm bằng máy chủ giả. Gặp lỗi ở bước nào (thông báo đỏ, nút bấm không chạy, trang trắng) thì chụp màn hình gửi lại.
+
+- Khi bản dữ liệu đã tách lên kho, máy nào mở app có mạng sẽ tự xoá khỏi bộ nhớ các gói N3–N1 đầy đủ đã tải từ trước (chỉ giữ gói có trong danh mục mới); nội dung của cấp đã mở thì tải lại từ máy chủ.
+
+**Tệp:** sửa `js/cloudcfg.js`, `js/data.js`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.
