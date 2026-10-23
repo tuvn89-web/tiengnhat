@@ -1,7 +1,6 @@
-import { esc, toast, download, fmtDate, icon, rich, APP_VERSION } from './util.js';
+import { esc, toast, fmtDate, icon, rich, APP_VERSION } from './util.js';
 import { appendChunks } from './lazy.js';
-import { missingKanji } from './kanji.js';
-import { TYPE_NAME, D, setPacksEnabled, removeImported, activeReports } from './data.js';
+import { TYPE_NAME, D, setPacksEnabled, removeImported } from './data.js';
 import { confirmBox } from './ui.js';
 import { cloudEnabled, cloudUser, cloudSyncInfo } from './cloud.js';
 
@@ -31,8 +30,6 @@ const ORDER = [...GROUPS.map(g => g[0]), 'nhaptay', 'khac'];
 export async function renderData(view, ctx) {
   // v61: đồng bộ giữa các máy đi theo tài khoản Google (bỏ đồng bộ qua kho GitHub, sao lưu qua file, nhập gói)
   const u = cloudEnabled() ? cloudUser() : null, ci = u ? await cloudSyncInfo() : null;
-  const reps = activeReports();
-  const mine = [...D.user.values()].filter(x => !x._del);
   const builtinIds = new Set(D.builtin.map(p => p.id));
   const dupImp = D.imported.filter(p => builtinIds.has(p.id));
   const groups = new Map();
@@ -78,11 +75,6 @@ export async function renderData(view, ctx) {
       ${D.errors.length ? `<div class="warn">${D.errors.map(esc).join('<br>')}</div>` : ''}
     </section>
 
-    <section class="card">
-      <h2 class="h2">Gửi cho skill</h2>
-      <p class="muted small">File gồm ${reps.length} mục bạn đã báo sai, ${mine.length} từ tự thêm/sửa, ${missingKanji().length} chữ Hán chưa có thẻ, và danh sách mã đang có để skill không làm trùng.</p>
-      <button class="btn btn-ghost" data-act="forskill">Tải file gửi skill</button>
-    </section>
 `;
 
   // công tắc nhóm: bật hết / tắt hết; bật một phần thì hiện gạch ngang
@@ -132,17 +124,4 @@ export async function renderData(view, ctx) {
     if (!(await confirmBox('Xoá gói nhập tay này khỏi máy? Tiến độ học các từ vẫn giữ.', 'Xoá gói'))) return;
     await removeImported(b.dataset.rm); toast('Đã xoá gói.'); renderData(view, ctx);
   });
-
-  // gửi skill
-  view.querySelector('[data-act=forskill]').onclick = () => {
-    const out = {
-      app: 'tiengnhat', kind: 'gui-skill', created: new Date().toISOString(),
-      reports: reps.map(([id, r]) => ({ id, note: r.note, item: D.items.get(id) || null })),
-      userItems: mine,
-      packs: [...D.packs, ...D.shadow].map(p => ({ id: p.id, title: p.title, type: p.type, version: p.version, src: p.src })),
-      items: [...D.items.keys()].map(id => ({ id })),
-      kanjiMissing: missingKanji(),
-    };
-    download(`gui-skill-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(out, null, 1));
-  };
 }

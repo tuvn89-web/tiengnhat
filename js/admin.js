@@ -348,7 +348,20 @@ export async function renderAdminContent(view) {
         <p class="small muted">Nội dung N3, N2, N1 nằm trên máy chủ; người được mở lộ trình mới tải về được. Mỗi khi có bản dữ liệu mới, chọn tệp <b>noidung-khoa-vNN.zip</b> gửi kèm bản cập nhật. Bản trùng bản đang có thì tự bỏ qua.</p>
         <ul class="grant-l">${LOCKED.map(L => { const m = metas[L]; return `<li><b>${L}</b><span class="gs ${m ? 'gs-on' : 'gs-none'}">${m ? `Bản ${esc(m.ver)} · ${(m.size / 1e6).toFixed(1)} MB nén · đẩy lên ${dmy(m.t)}` : 'Chưa có'}</span></li>`; }).join('')}</ul>
         <label class="field"><span class="field-l">Chọn tệp nội dung (.zip hoặc N3.json, N2.json, N1.json)</span><input class="input" type="file" accept=".zip,.json,application/zip,application/json" multiple data-in="up"></label>
-        <ul class="adm-up small"></ul></section>`;
+        <ul class="adm-up small"></ul></section>
+      <section class="card"><h2 class="h2">Gửi cho skill</h2>
+        <p class="small muted">Một file cho skill <b>jp-v01-data</b>: các báo sai <b>Mới</b> trong hộp chung và báo sai trên máy này, từ tự thêm / sửa trên máy này, ${(await import('./kanji.js')).missingKanji().length} chữ Hán chưa có thẻ, và danh sách mã đang có để skill không làm trùng. Gửi file cho Claude kèm yêu cầu (ví dụ "sửa các mục báo sai").</p>
+        <button type="button" class="btn btn-ghost" data-act="skillall">Tải file gửi skill</button></section>`;
+    box.querySelector('[data-act=skillall]').onclick = async e => {
+      const b = e.currentTarget; b.disabled = true;
+      try {
+        const reps = (await A.reports()).filter(r => r.st === 'moi');
+        const { out, missing } = await skillFile(reps);
+        saveSkillFile(out);
+        toast(`Đã tải: ${out.reports.length} báo sai, ${out.kanjiMissing.length} chữ Hán thiếu thẻ.${missing.length ? ` Máy này chưa có nội dung ${missing.join(', ')} nên danh sách mã thiếu phần đó.` : ''}`);
+      } catch (er) { toast(er.message); }
+      b.disabled = false;
+    };
     const log = t => { const li = document.createElement('li'); li.textContent = t; box.querySelector('.adm-up').appendChild(li); return li; };
     box.querySelector('[data-in=up]').onchange = async e => {
       const files = [...e.target.files]; e.target.disabled = true;
@@ -372,6 +385,20 @@ export async function renderAdminContent(view) {
   draw();
 }
 
+// ---------- v62: file gửi skill (chuyển từ trang Dữ liệu vào đây) ----------
+// reports: báo sai từ hộp chung (máy chủ); local: thêm báo sai, từ tự thêm / sửa trên máy này.
+async function skillFile(reports, { local = true } = {}) {
+  const [{ D, activeReports, lockLevels, hasLockContent }, { missingKanji }] = await Promise.all([import('./data.js'), import('./kanji.js')]);
+  const rep = reports.map(r => ({ id: r.item, note: r.note, item: D.items.get(r.item) || null, t: r.t, from: r.nick || 'nguoi-hoc' }));
+  if (local) for (const [id, r] of activeReports()) if (!rep.some(x => x.id === id)) rep.push({ id, note: r.note, item: D.items.get(id) || null, t: r.t, from: 'may-nay' });
+  const out = { app: 'tiengnhat', kind: 'gui-skill', created: new Date().toISOString(), from: 'quan-tri', reports: rep,
+    userItems: local ? [...D.user.values()].filter(x => !x._del) : [],
+    packs: [...D.packs, ...D.shadow].map(p => ({ id: p.id, title: p.title, type: p.type, version: p.version, src: p.src })),
+    items: [...D.items.keys()].map(id => ({ id })), kanjiMissing: missingKanji() };
+  return { out, missing: lockLevels().filter(L => !hasLockContent(L)) };
+}
+const saveSkillFile = async (out, tag) => (await import('./util.js')).download(`gui-skill${tag ? '-' + tag : ''}-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(out, null, 1));
+
 // ---------- v59: hộp báo sai chung ----------
 export async function renderAdminReports(view) {
   const box = await guard(view); if (!box) return;
@@ -390,13 +417,7 @@ export async function renderAdminReports(view) {
       <ul class="adm-log adm-rep">${list.map(r => `<li data-r="${esc(r.id)}"><b lang="ja">${esc(what(r.item))}</b> <span class="muted small mono">${esc(r.item)}</span>
         <p>${esc(r.note || '(không ghi chú)')}</p><span class="small muted">${esc(r.nick || userName(names.get(r.uid)))} · ${dmy(r.t)} · ${esc(r.ver || '')}${r.st !== 'moi' ? ` · ${r.st === 'xong' ? 'đã sửa' : 'bỏ qua'}` : ''}</span>
         <span class="adm-cb">${r.st === 'moi' ? '<button type="button" class="btn btn-ghost btn-sm" data-st="xong">Đã sửa</button><button type="button" class="btn btn-ghost btn-sm" data-st="bo">Bỏ qua</button>' : '<button type="button" class="btn btn-ghost btn-sm" data-st="moi">Đưa về Mới</button>'}</span></li>`).join('') || '<li class="muted">Không có.</li>'}</ul></section>`;
-    box.querySelector('[data-act=skill]').onclick = async () => {
-      const { download } = await import('./util.js');
-      const out = { app: 'tiengnhat', kind: 'gui-skill', created: new Date().toISOString(), from: 'quan-tri',
-        reports: list.map(r => ({ id: r.item, note: r.note, item: D.items.get(r.item) || null, t: r.t })),
-        userItems: [], packs: [...D.packs].map(p => ({ id: p.id, title: p.title, type: p.type, version: p.version, src: p.src })), items: [...D.items.keys()].map(id => ({ id })), kanjiMissing: [] };
-      download(`gui-skill-baosai-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(out, null, 1));
-    };
+    box.querySelector('[data-act=skill]').onclick = async () => { const { out } = await skillFile(list, { local: false }); saveSkillFile(out, 'baosai'); };
     box.querySelector('.adm-rep').onclick = async e => {
       const b = e.target.closest('[data-st]'), id = e.target.closest('[data-r]')?.dataset.r; if (!b || !id) return;
       b.disabled = true;

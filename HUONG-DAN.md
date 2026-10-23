@@ -55,7 +55,7 @@ Skill giao các file gói `.json` và một file `manifest.json` mới.
 - Từ v60, dữ liệu N3–N1 nằm trên máy chủ: mỗi bản dữ liệu mới gồm **phần công khai** (đưa lên kho như trên) và tệp **`noidung-khoa-vNN.zip`** (Quản trị → Nội dung).
 - Trang Dữ liệu không còn ô nhập gói từ skill (bỏ ở v61).
 
-Muốn skill sửa từ sai, làm tiếp mà không trùng từ cũ, hoặc làm thẻ cho các chữ Hán còn thiếu: app → **Dữ liệu → Tải file gửi skill**, rồi gửi file đó cho Claude kèm yêu cầu (ví dụ "làm thẻ chữ Hán cho 25 chữ còn thiếu").
+Muốn skill sửa từ sai, làm tiếp mà không trùng từ cũ, hoặc làm thẻ cho các chữ Hán còn thiếu: app → **Quản trị → Nội dung → Gửi cho skill → Tải file gửi skill** (từ v62; trước đó ở trang Dữ liệu), rồi gửi file đó cho Claude kèm yêu cầu (ví dụ "làm thẻ chữ Hán cho 25 chữ còn thiếu").
 
 ## 5. Giọng đọc tiếng Nhật (để nghe phát âm, chơi kiểu "Nghe → nghĩa")
 
@@ -1268,3 +1268,12 @@ Bản này điền cấu hình dự án Firebase `tiengnhat-app` vào `js/cloudc
 - Cài đặt → Máy này: bỏ ô "Tên máy" (chỉ dùng cho lịch sử đồng bộ GitHub).
 
 **Tệp:** sửa `js/sync.js`, `js/datapage.js`, `js/data.js`, `js/app.js`, `js/account.js`, `js/relearn.js`, `js/guides.js`, `js/settingspage.js`, `js/level.js`, `js/quiz.js`, `js/match.js`, `js/grammar.js`, `js/kanji.js`, `js/util.js`, `css/app.css`, `sw.js`, `trang/riengtu.html`, `HUONG-DAN.md`.
+
+## 71. Bản v62 (24/10/2026): "Gửi cho skill" chuyển vào trang Quản trị
+
+- Trang **Dữ liệu** bỏ mục "Gửi cho skill"; người học chỉ còn thấy **Học trên nhiều máy** và **Gói dữ liệu**.
+- **Quản trị → Nội dung → Gửi cho skill → Tải file gửi skill:** một file gồm các báo sai **Mới** trong hộp chung, báo sai và từ tự thêm / sửa trên máy đang dùng, chữ Hán chưa có thẻ, danh sách gói và mã đang có (để skill không làm trùng). Máy quản trị chưa tải nội dung cấp nào (N3 / N2 / N1) thì app báo để biết danh sách mã thiếu phần đó.
+- **Quản trị → Báo sai → Tải file gửi skill** giữ như cũ (chỉ các báo sai đang lọc), nay kèm cả chữ Hán chưa có thẻ.
+
+**Tệp:** sửa `js/admin.js`, `js/datapage.js`, `js/app.js`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.
+

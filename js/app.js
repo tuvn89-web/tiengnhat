@@ -371,7 +371,7 @@ function renderHome(v) {
       ['#/nguphap', 'book', 'Ngữ pháp', `${D.grammar.length} mẫu — bài học, luyện tập, thi thử`],
       ['#/kho', 'list', 'Kho từ', `${st.total} từ — tìm, sửa, thêm từ mới`],
       ['#/noiduoc', 'chat', 'Nói được gì', 'Những việc đã làm được bằng tiếng Nhật sau mỗi bài'],
-      ['#/dulieu', 'box', 'Dữ liệu', 'Bật / tắt nhóm gói, đồng bộ, gửi skill'],
+      ['#/dulieu', 'box', 'Dữ liệu', 'Bật / tắt nhóm gói, đồng bộ'],
       ['#/huongdan', 'help', 'Hướng dẫn học', 'Cho người mới, theo cấp, 特定技能2号, giấy tờ thuế'],
       ['#/caidat', 'gear', 'Cài đặt', 'Cỡ chữ, cỡ nút, màu nền, giọng đọc'],
     ].map(([h, ic, t, d]) => `<a class="mode" href="${h}">${icon(ic)}<span><b>${t}</b><small ${/[一-龯]/.test(d) ? 'lang="ja"' : ''}>${esc(d)}</small></span></a>`).join('')}
