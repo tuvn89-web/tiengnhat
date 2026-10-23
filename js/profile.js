@@ -239,6 +239,16 @@ export async function renderRanks(view, ctx, tab = 'all') {
 }
 
 // thanh trên: ảnh + khung đang dùng (bản đứng yên, cỡ nhỏ)
+// v63: đầu trang Tài khoản — ảnh trong khung (bản đứng yên) + biệt danh + hàng huy hiệu
+export async function accountHeroHTML(u) {
+  const p = { ...((await cachedProfile()) || {}), photo: u.photo, name: u.name };
+  const st = await myStats(), earned = earnedFrames(st), frame = earned.includes(p.frame) ? p.frame : earned[earned.length - 1];
+  const show = { ...p, frame, ak: frame !== 'khoidau' && st.badges[frame] >= 3 };
+  return `<div class="acct-head">${frameHTML(show, 88, { label: `Khung ${FRAMES.find(f => f[0] === frame)?.[1] || frame}` })}<div>
+      <b ${p.nick ? 'lang="ja"' : ''}>${esc(p.nick || u.name || 'Tài khoản Google')}</b>
+      ${p.nick ? `<span class="small muted">${esc(u.name || '')}</span>` : ''}<span class="small muted">${esc(u.email)}</span></div></div>
+    <a class="hh-row acct-hh" href="#/hoso" aria-label="Huy hiệu — mở Hồ sơ">${['kana', ...LEVELS].map(k => badgeHTML(k, st.badges[k] || 0, 40)).join('')}</a>`;
+}
 export async function topAvatarHTML(user) {
   const p = await cachedProfile();
   if (!p) return null;

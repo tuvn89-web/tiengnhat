@@ -1416,3 +1416,7 @@ html.ff-doc :is(.doc-body, .gt-paper, .dl-line) ruby.rf:not(.show), html.ff-all 
 .switch input:indeterminate + span { background: var(--blue); border-color: var(--blue); opacity: .55; }
 .switch input:indeterminate + span::after { transform: translateX(9.5px); background: var(--blue-ink); }
 @media (max-width: 480px) { .pg-b { padding-left: 0; } }
+
+/* v63: đầu trang Tài khoản — ảnh trong khung + hàng huy hiệu */
+.acct-head .fr { margin: -6px -4px -6px -8px; }
+.acct-hh { margin: 12px 0 4px; text-decoration: none; color: inherit; }

@@ -1277,3 +1277,10 @@ Bản này điền cấu hình dự án Firebase `tiengnhat-app` vào `js/cloudc
 
 **Tệp:** sửa `js/admin.js`, `js/datapage.js`, `js/app.js`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.
 
+## 72. Bản v63 (24/10/2026): Trang Tài khoản có ảnh trong khung và huy hiệu
+
+- Đầu trang **Tài khoản**: ảnh đại diện nằm trong **khung đang dùng** (bản đứng yên, như thanh trên; chưa chọn khung thì dùng khung cao nhất đã đạt; đạt ★★★ thì có ánh kim), **biệt danh** đứng đầu (chưa đặt thì hiện tên Google), dưới là tên Google và email.
+- Ngay dưới là **hàng 6 huy hiệu** (Bảng chữ cái, N5 → N1, kèm số sao); bấm vào hàng huy hiệu để mở trang Hồ sơ.
+
+**Tệp:** sửa `js/account.js`, `js/profile.js`, `css/app.css`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.
+

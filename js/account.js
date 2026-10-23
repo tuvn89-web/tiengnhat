@@ -77,9 +77,11 @@ export async function renderAccount(view, ctx, q = '') {
     const [g, si, adm] = await Promise.all([myGrants(), cloudSyncInfo(), isAdmin()]);
     const pub = await publicSettings().catch(() => ({}));
     if (!box.isConnected || my !== seq) return;
+    const hero = await (await import('./profile.js')).accountHeroHTML(u).catch(() => `<div class="acct-head">${avatarHTML(u)}<div><b>${esc(u.name || 'Tài khoản Google')}</b><span class="small muted">${esc(u.email)}</span></div></div>`);
+    if (!box.isConnected || my !== seq) return;
     const typed = box.querySelector('.acct-code [name=code]'), keep = typed && typed.value, hadFocus = typed && document.activeElement === typed; // giữ mã đang gõ khi trang vẽ lại
     box.innerHTML = `<section class="card acct-me">
-        <div class="acct-head">${avatarHTML(u)}<div><b>${esc(u.name || 'Tài khoản Google')}</b><span class="small muted">${esc(u.email)}</span></div></div>
+        ${hero}
         <p class="small muted acct-uid">Mã tài khoản: <span class="mono">${esc(u.uid.slice(0, 6))}…${esc(u.uid.slice(-4))}</span>
           <button type="button" class="btn btn-ghost btn-sm" data-act="cpuid">Chép mã</button></p>
       </section>
