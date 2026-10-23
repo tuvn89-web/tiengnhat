@@ -152,7 +152,7 @@ export async function renderLevelHub(view, ctx) {
   const packs = packsForCheck();
   view.innerHTML = `<h1 class="h1">Kiểm tra trình độ</h1>
     ${undo ? `<div class="note">Lần áp dụng kết quả ${esc(KIND[undo.kind] || '')} lúc ${fmtDate(undo.t)} đã đổi ${undo.n} mục. <button type="button" class="btn btn-ghost btn-sm" data-act="undo">Hoàn tác</button> <span class="small muted">(còn ${Math.max(1, Math.ceil((undo.t + 7 * DAY - Date.now()) / DAY))} ngày)</span></div>` : ''}
-    ${lv.length ? '' : emptyState('Kho chưa đủ dữ liệu để ra đề. Nhập gói từ, ngữ pháp ở trang Dữ liệu.')}
+    ${lv.length ? '' : emptyState('Kho chưa đủ dữ liệu để ra đề. Mở app khi có mạng để tải dữ liệu, hoặc bật lại nhóm gói đã tắt ở trang Dữ liệu.')}
     <section class="card lv-card">
       <h2 class="h2">Xếp lớp nhanh</h2>
       <p class="small muted">Bắt đầu từ ${esc(lv[0] || 'N5')}, mỗi cấp 12 câu (từ vựng, đọc chữ Hán, ngữ pháp). Đạt từ ${lo}% thì lên cấp kế; dưới ${lo}% thì dừng. Khoảng 10–15 phút, không tính giờ. Chữ Hán ở câu đọc để trần như đề thật.</p>

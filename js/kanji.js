@@ -165,7 +165,7 @@ const tabs = cur => `<div class="tabs" role="tablist">
 
 export function renderKanjiList(view) {
   const miss = missingKanji();
-  if (!D.kanji.length && !miss.length) { view.innerHTML = `<h1 class="h1">Chữ Hán</h1>${tabs('list')}` + emptyState('Chưa có gói chữ Hán nào. Nhờ skill jp-v01-data làm gói rồi nhập vào.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
+  if (!D.kanji.length && !miss.length) { view.innerHTML = `<h1 class="h1">Chữ Hán</h1>${tabs('list')}` + emptyState('Chưa có gói chữ Hán nào. Mở app khi có mạng để tải dữ liệu, hoặc bật lại nhóm gói đã tắt ở trang Dữ liệu.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
   const st = stats(D.kanji);
   const usedG = Object.keys(KGROUPS).filter(g => D.kanji.some(k => (k.groups || []).includes(g)));
   view.innerHTML = `<h1 class="h1">Chữ Hán</h1>${tabs('list')}

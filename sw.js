@@ -1,6 +1,6 @@
 // Service worker: chạy offline.
 // Sửa bất kỳ file nào của app (html/css/js) thì TĂNG số phiên bản dưới đây để máy tải bản mới.
-const VERSION = 'tnt-v60';
+const VERSION = 'tnt-v61';
 const DATA = 'tnt-data';
 const FONTS = 'tnt-fonts'; // v32: phông chữ tải từ Google Fonts — giữ lại để dùng khi không có mạng (không xoá khi đổi phiên bản)
 const SHELL = [

@@ -73,13 +73,12 @@ export async function renderRelearn(view, ctx, key) {
 
     <section class="card rl-opt rl-c"><h2 class="h2">C. Học lại từ đầu (xoá tiến độ)</h2>
       <p>Chỉ dùng khi thật cần: bỏ học rất lâu, hoặc muốn làm lại như mới. Từ, ngữ pháp, chữ Hán của ${esc(sc.name)} về "chưa học"; ✓ các bước, kết quả kiểm tra và lịch ôn bài bị xoá. Câu đã tự viết giữ lại.${sc.stage ? ` Kết quả Thi vượt cấp ${esc(sc.L)} trước đây không tính nữa — chặng về "Đang học".` : ''}</p>
-      <p class="small muted">App giữ một bản sao tiến độ ngay trước khi xoá để khôi phục được ở trang này. Muốn chắc hơn thì tải file sao lưu trước.</p>
-      <div class="row-btns wrap"><button type="button" class="btn btn-ghost btn-sm" data-act="bak">Tải file sao lưu</button><button type="button" class="btn btn-danger" data-act="reset">Học lại từ đầu…</button></div>
+      <p class="small muted">App giữ một bản sao tiến độ ngay trước khi xoá để khôi phục được ở trang này.</p>
+      <div class="row-btns wrap"><button type="button" class="btn btn-danger" data-act="reset">Học lại từ đầu…</button></div>
       ${undo ? `<p class="small">Lần xoá gần nhất: ${fmtDate(undo.t)}. <button type="button" class="btn btn-ghost btn-sm" data-act="undo">Khôi phục tiến độ trước lần xoá</button></p>` : ''}</section>`;
   view.onclick = async e => {
     const a = e.target.closest('[data-act]')?.dataset.act;
     if (!a) return;
-    if (a === 'bak') return download(`saoluu-tiengnhat-${new Date().toISOString().slice(0, 10)}.json`, await backupJSON());
     if (a === 'redo') {
       const now = Date.now();
       if (sc.stage) { await saveLesson('lv:' + sc.L, { redo: { t: now } }); toast(`Bắt đầu đi lại chặng ${sc.L}.`); return ctx.go(`#/bai/${encodeURIComponent(sc.lessons[0].id)}`); }

@@ -54,7 +54,7 @@ export const GUIDES = [
     ['p', 'Mỗi tháng app có một họa tiết riêng theo mùa ở Nhật: tháng 4 hoa anh đào, tháng 6 mưa và cẩm tú cầu, tháng 8 pháo hoa và đom đóm, tháng 11 lá phong, tháng 12 tuyết… Trời đổi theo giờ của máy (bình minh, ngày, hoàng hôn, đêm có sao và trăng đúng ngày âm lịch). Ngày lễ Nhật và Việt Nam (Tết Nguyên Đán, Trung thu…) có trang trí riêng; đêm có mưa sao băng thì sao băng rơi nhiều.'],
     ['p', 'Thỉnh thoảng có máy bay bay qua để lại vệt khói, và hiếm hơn nữa là một hố đen hút các cánh hoa, chiếc lá ở gần.'],
     ['p', 'Vào **Cài đặt → tab Hiệu ứng** để chọn tháng, tắt giao diện mùa, chỉnh mật độ và tốc độ rơi, bật / tắt riêng từng hiệu ứng, cho mưa theo thời tiết thật ở thành phố của bạn, và bấm "Thử ngay" để xem từng hiệu ứng. Máy bật "giảm chuyển động" thì app tự tắt hiệu ứng.'],
-    ['p', 'Mọi chỉnh sửa hiệu ứng nằm ở một chỗ: **Cài đặt → tab Hiệu ứng** (trên điện thoại: nút hình mặt trời ở góc trên bên phải, cạnh nút đồng bộ). Ở đó còn giữ cố định được **buổi** (bình minh, ngày, hoàng hôn, đêm), **ngày lễ** và **mưa** (cả mưa to có giông) — app **nhớ lại** mỗi lần mở; bấm "Về như thật" để trời và ngày lễ đổi theo thực tế.'],
+    ['p', 'Mọi chỉnh sửa hiệu ứng nằm ở một chỗ: **Cài đặt → tab Hiệu ứng** (trên điện thoại: nút hình mặt trời ở góc trên bên phải). Ở đó còn giữ cố định được **buổi** (bình minh, ngày, hoàng hôn, đêm), **ngày lễ** và **mưa** (cả mưa to có giông) — app **nhớ lại** mỗi lần mở; bấm "Về như thật" để trời và ngày lễ đổi theo thực tế.'],
     ['p', 'Nút tròn **‹** ở góc dưới bên trái (mọi trang trừ Trang chủ) để quay lại màn hình trước, giống nút Back của điện thoại: đang làm bài thì app hỏi "Dừng lượt này?". Nút che chữ thì **giữ ngón tay 0,7 giây** (máy rung nhẹ) rồi kéo sang chỗ khác; app nhớ chỗ đó.'],
     ['p', '**Cài đặt → Giao diện → Phông chữ Nhật / Phông chữ Việt**: chọn kiểu chữ thường, viết tay, thư pháp, mềm mại. Phông ngoài tải lần đầu khi có mạng, sau đó dùng được khi không có mạng. Mới học chữ Hán thì nên để Gothic hoặc Viết tay chuẩn cho dễ nhận mặt chữ.'],
     ['a', 'Mở Cài đặt', '#/caidat/hieuung']] },
@@ -81,9 +81,9 @@ export const GUIDES = [
     ['p', 'Bài **hội thoại, bài đọc** và **bài mở đầu** dài thì mặc định chỉ hiện 5 câu đầu: bấm **Xem cả bài** để đọc tiếp, **Thu gọn** để gấp lại. Ở **Nghe cả bài**, khi giọng đọc tới phần đang ẩn thì bài tự mở ra.'],
     ['a', 'Mở Cài đặt', '#/caidat/giongdoc']] },
   { id: 'dongbo', g: 'Cho người mới', t: 'Học trên nhiều máy', b: [
-    ['p', 'Tiến độ lưu trong máy. Muốn dùng cả điện thoại và máy tính, vào **Dữ liệu → Đồng bộ** và điền kho GitHub riêng tư theo hướng dẫn. App tự đồng bộ khi mở, sau mỗi lượt học và khi có mạng trở lại.'],
-    ['p', 'Máy thứ hai không cần điền lại: ở máy đã cài, bấm **Chuyển sang máy khác** rồi quét mã QR bằng máy kia.'],
-    ['a', 'Mở Dữ liệu', '#/dulieu']] },
+    ['p', 'Tiến độ lưu trong máy. Muốn dùng cả điện thoại và máy tính, bấm **nút hình người** ở thanh trên → **Đăng nhập bằng Google** trên từng máy, dùng cùng một tài khoản. Tiến độ đang có trên máy được giữ và gộp vào tài khoản; từ đó app tự đồng bộ khi mở, sau mỗi lượt học và khi có mạng trở lại.'],
+    ['p', 'Không muốn đăng nhập thì vẫn học bình thường, nhưng tiến độ chỉ nằm trên máy đó.'],
+    ['a', 'Mở Tài khoản', '#/taikhoan']] },
   // ---------- theo cấp ----------
   { id: 'n5', g: 'Theo cấp', t: 'Học N5 thế nào', b: [
     ['p', 'N5 là nền móng: hiểu câu ngắn về đời sống hằng ngày viết bằng hiragana, katakana và chữ Hán cơ bản.'],

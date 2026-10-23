@@ -13,7 +13,7 @@ const row = g => `<li><a class="row" href="#/nguphap/${encodeURIComponent(g.id)}
   <span class="dot dot-${status(g)}" title="${ST[status(g)]}${dueDirs(g).length ? ' · đến hạn ôn' : ''}"></span></a></li>`;
 
 export function renderGrammarList(view) {
-  if (!D.grammar.length) { view.innerHTML = `<h1 class="h1">Ngữ pháp</h1>${gtabs('list')}` + emptyState('Chưa có gói ngữ pháp nào. Nhờ skill jp-v01-data làm gói rồi nhập vào.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
+  if (!D.grammar.length) { view.innerHTML = `<h1 class="h1">Ngữ pháp</h1>${gtabs('list')}` + emptyState('Chưa có gói ngữ pháp nào. Mở app khi có mạng để tải dữ liệu, hoặc bật lại nhóm gói đã tắt ở trang Dữ liệu.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
   const st = stats(D.grammar);
   const hard = D.grammar.filter(g => errCount(g) > 0).sort((a, b) => errCount(b) - errCount(a)).slice(0, 5);
   const by = LEVELS.map(l => [l, D.grammar.filter(g => g.level === l)]).filter(([, a]) => a.length);

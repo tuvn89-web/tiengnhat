@@ -66,7 +66,7 @@ export function buildRounds(pool, type, rounds) {
 
 export async function renderMatchSetup(view, ctx) {
   const o = { type: 'vi-kana', source: 'learned', levels: [], topics: [], rounds: S.matchRounds, ...(await kvGet('matchSetup', {})) };
-  if (!D.vocab.length) { view.innerHTML = emptyState('Chưa có từ vựng nào. Vào Dữ liệu để nhập gói từ.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
+  if (!D.vocab.length) { view.innerHTML = emptyState('Chưa có từ vựng nào. Mở app khi có mạng để tải dữ liệu, hoặc bật lại nhóm gói đã tắt ở trang Dữ liệu.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
   const st = stats(D.vocab);
   view.innerHTML = `
     <h1 class="h1">Luyện tập</h1>${wtabs('match')}

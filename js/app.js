@@ -12,9 +12,9 @@ import { renderGrammarPractice, renderMockSetup, buildGrammarQs } from './gdrill
 import { renderKanjiList, renderKanjiQuizSetup, openKanji, kanjiOfDay, buildKanjiQs, poemHTML } from './kanji.js';
 import { runDrill } from './drill.js';
 import { renderWordList, renderWordForm, showWord } from './words.js';
-import { renderData, receiveSetup } from './datapage.js';
+import { renderData } from './datapage.js';
 import { renderSettings } from './settingspage.js';
-import { syncNow, getSyncCfg, lastSync, lastSyncError } from './sync.js';
+import { forgetGitHub } from './sync.js';
 import { emptyState } from './ui.js';
 import { initNav, pageName } from './nav.js';
 import { renderLevelHub, remindHTML } from './level.js';
@@ -112,7 +112,8 @@ const ROUTES = [
   [/^them$/, v => renderWordForm(v, ctx)],
   [/^sua\/(.+)$/, (v, m) => renderWordForm(v, ctx, decodeURIComponent(m[1]))],
   [/^dulieu$/, v => renderData(v, ctx)],
-  [/^nhan\?c=([A-Za-z0-9_-]+)$/, (v, m) => receiveSetup(v, ctx, m[1])],
+  // v61: mã QR / đường link chuyển cài đặt GitHub cũ → không dùng nữa, đưa sang trang Tài khoản
+  [/^nhan\?c=([A-Za-z0-9_-]+)$/, () => { history.replaceState(null, '', location.pathname + location.search + '#/taikhoan'); toast('Đồng bộ qua GitHub đã bỏ. Đăng nhập cùng tài khoản Google trên máy này để lấy tiến độ.'); route(); }],
   [/^caidat(?:\/([a-z]+))?$/, (v, m) => renderSettings(v, ctx, m[1])],
   [/^dich$/, v => renderDich(v, ctx)],
   [/^dich\?on$/, v => renderDich(v, ctx, { src: 'due', learned: false })],
@@ -370,7 +371,7 @@ function renderHome(v) {
       ['#/nguphap', 'book', 'Ngữ pháp', `${D.grammar.length} mẫu — bài học, luyện tập, thi thử`],
       ['#/kho', 'list', 'Kho từ', `${st.total} từ — tìm, sửa, thêm từ mới`],
       ['#/noiduoc', 'chat', 'Nói được gì', 'Những việc đã làm được bằng tiếng Nhật sau mỗi bài'],
-      ['#/dulieu', 'box', 'Dữ liệu & đồng bộ', 'Nhập gói từ skill, sao lưu, GitHub'],
+      ['#/dulieu', 'box', 'Dữ liệu', 'Bật / tắt nhóm gói, đồng bộ, gửi skill'],
       ['#/huongdan', 'help', 'Hướng dẫn học', 'Cho người mới, theo cấp, 特定技能2号, giấy tờ thuế'],
       ['#/caidat', 'gear', 'Cài đặt', 'Cỡ chữ, cỡ nút, màu nền, giọng đọc'],
     ].map(([h, ic, t, d]) => `<a class="mode" href="${h}">${icon(ic)}<span><b>${t}</b><small ${/[一-龯]/.test(d) ? 'lang="ja"' : ''}>${esc(d)}</small></span></a>`).join('')}
@@ -389,7 +390,7 @@ function renderHome(v) {
 function chrome() {
   $('#nav').innerHTML = NAV.map(([h, ic, t, , only]) => `<a href="${h}" class="${only === 'rail' ? 'rail-only' : ''}">${icon(ic)}<span>${t}</span></a>`).join('');
   $('#topbar').innerHTML = `<a class="brand" href="#/"><span class="brand-mark" lang="ja">実</span><span>Tiếng Nhật Thực Chiến</span></a>
-    <div class="top-actions">${cloudEnabled() ? `<a class="icon-btn acct-btn" href="#/taikhoan" aria-label="Tài khoản">${icon('user')}</a>` : ''}<a class="icon-btn sync-badge" href="#/dulieu" aria-label="Đồng bộ">${icon('sync')}</a><a class="icon-btn mob-only" href="#/caidat" aria-label="Cài đặt">${icon('gear')}</a></div>`;
+    <div class="top-actions">${cloudEnabled() ? `<a class="icon-btn acct-btn" href="#/taikhoan" aria-label="Tài khoản">${icon('user')}</a>` : ''}<a class="icon-btn sync-badge" href="#/taikhoan" aria-label="Đồng bộ" hidden>${icon('sync')}</a><a class="icon-btn mob-only" href="#/caidat" aria-label="Cài đặt">${icon('gear')}</a></div>`;
 }
 // v56: nút tài khoản trên thanh trên — đã đăng nhập thì hiện ảnh tài khoản Google
 async function acctBtn() {
@@ -405,24 +406,19 @@ async function acctBtn() {
 async function syncBadge() {
   acctBtn();
   const b = $('.sync-badge'); if (!b) return;
-  const c = await getSyncCfg(), err = await lastSyncError(), ls = await lastSync();
-  // v56: đã đăng nhập tài khoản → đồng bộ theo tài khoản là chính
-  b.setAttribute('href', cloudUser() ? '#/taikhoan' : '#/dulieu');
-  if (cloudUser()) {
-    const ci = await cloudSyncInfo();
-    b.dataset.state = ci.err ? 'err' : 'ok';
-    b.title = ci.err ? `Lỗi đồng bộ tài khoản: ${ci.err}` : `Đồng bộ tài khoản lần cuối ${fmtDate(ci.t)}`;
-  } else {
-    b.dataset.state = !c.token ? 'off' : err ? 'err' : 'ok';
-    b.title = !c.token ? 'Máy này chưa lưu token đồng bộ' : err ? `Lỗi đồng bộ: ${err}` : `Đồng bộ lần cuối ${fmtDate(ls)}`;
-  }
+  // v61: chỉ còn đồng bộ theo tài khoản → nút đồng bộ chỉ hiện khi đã đăng nhập (chấm xanh / đỏ cho biết lần đồng bộ cuối)
+  const u = cloudUser();
+  b.hidden = !u;
+  if (!u) return;
+  const ci = await cloudSyncInfo();
+  b.dataset.state = ci.err ? 'err' : 'ok';
+  b.title = ci.err ? `Lỗi đồng bộ tài khoản: ${ci.err}` : `Đồng bộ tài khoản lần cuối ${fmtDate(ci.t)}`;
   b.setAttribute('aria-label', b.title);
 }
-// GitHub (nếu đã cài) + tài khoản (nếu đã đăng nhập)
+// v61: đồng bộ theo tài khoản (nếu đã đăng nhập)
 async function syncAll() {
-  const r = await syncNow();
   const c = cloudUser() ? await cloudSync() : null;
-  return { ok: r.ok || c?.ok, error: c?.error || r.error };
+  return { ok: !!c?.ok, error: c?.error };
 }
 const scheduleSync = debounce(async () => { const r = await syncAll(); syncBadge(); if (r.error) toast('Chưa đồng bộ được: ' + r.error); }, 1500);
 
@@ -527,11 +523,11 @@ async function init() {
     onCloud(() => syncBadge());
     if (await kvGet('cloudOn', 0)) bootCloud().catch(e => console.warn('cloud', e));
   }
-  const r = await syncNow();
+  forgetGitHub(); // v61: xoá token GitHub cũ khỏi máy
   let rc = null;
   if (cloudEnabled() && await kvGet('cloudOn', 0)) { try { await bootCloud(); if (cloudUser()) rc = await cloudSync(); } catch { } }
   syncBadge();
-  if ((r.ok || rc?.ok) && /^#?\/?$/.test(location.hash)) route();
+  if (rc?.ok && /^#?\/?$/.test(location.hash)) route();
   window.addEventListener('online', scheduleSync);
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'hidden') syncAll().then(syncBadge);

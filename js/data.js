@@ -217,6 +217,14 @@ export async function setPackEnabled(id, on) {
   await kvSet('disabled', D.disabled);
   rebuild();
 }
+// v61: bật / tắt cả một nhóm gói một lần (trang Dữ liệu)
+export async function setPacksEnabled(ids, on) {
+  const s = new Set(D.disabled.list);
+  for (const id of ids) on ? s.delete(id) : s.add(id);
+  D.disabled = { list: [...s], t: Date.now() };
+  await kvSet('disabled', D.disabled);
+  rebuild();
+}
 
 // ---- mục tự thêm / sửa ----
 export async function saveUserItem(it) {

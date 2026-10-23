@@ -70,6 +70,7 @@ code { font-size: .9em; background: var(--surface-2); padding: 1px 5px; border-r
 .brand-mark { display: grid; place-items: center; width: 30px; height: 30px; border: 2px solid var(--ng); color: var(--ng); border-radius: 6px; font-weight: 700; font-size: 18px; line-height: 1; }
 .top-actions { display: flex; gap: 4px; }
 .sync-badge { position: relative; }
+.sync-badge[hidden] { display: none; } /* v61: chỉ hiện khi đã đăng nhập */
 .sync-badge::after { content: ""; position: absolute; right: 9px; top: 9px; width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
 .sync-badge[data-state="ok"]::after { background: var(--ok); }
 .sync-badge[data-state="err"]::after { background: var(--ng); }
@@ -1252,7 +1253,7 @@ html.ff-doc :is(.doc-body, .gt-paper, .dl-line) ruby.rf:not(.show), html.ff-all 
 .vv-tbl td[lang=ja] { white-space: nowrap; }
 
 /* v56: tài khoản + quản trị */
-.acct-btn img, .acct-btn .acct-ini { width: 30px; height: 30px; border-radius: 50%; object-fit: cover; display: grid; place-items: center; }
+.acct-btn > img, .acct-btn > .acct-ini { width: 30px; height: 30px; border-radius: 50%; object-fit: cover; display: grid; place-items: center; }
 .acct-btn .acct-ini { background: var(--blue); color: var(--blue-ink); font-weight: 700; font-size: 15px; }
 .acct-head { display: flex; align-items: center; gap: 14px; margin-top: 14px; }
 .acct-head > div { display: grid; gap: 2px; min-width: 0; }
@@ -1401,3 +1402,17 @@ html.ff-doc :is(.doc-body, .gt-paper, .dl-line) ruby.rf:not(.show), html.ff-all 
 .notice-c p { margin: 0; }
 .notice-c .ic { width: 18px; height: 18px; vertical-align: -3px; }
 .notice-c .btn { justify-self: start; }
+
+/* v61: trang Dữ liệu — gói gom theo nhóm */
+.pgroups { list-style: none; padding: 0; margin: 8px 0 0; }
+.pg { border-bottom: 1px solid var(--line); }
+.pg-h { display: flex; align-items: center; gap: 12px; }
+.pg-t { flex: 1; display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 56px; padding: 8px 0; border: 0; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.pg-t > span { display: grid; gap: 2px; }
+.pg-chev { width: 10px; height: 10px; flex: none; margin-right: 6px; border-right: 2px solid var(--ink-2); border-bottom: 2px solid var(--ink-2); transform: rotate(45deg) translateY(-3px); transition: transform .15s; }
+.pg-t[aria-expanded="true"] .pg-chev { transform: rotate(-135deg) translateY(-3px); }
+.pg-b { padding: 0 0 8px 60px; }
+.pg-lv { margin: 12px 0 2px; }
+.switch input:indeterminate + span { background: var(--blue); border-color: var(--blue); opacity: .55; }
+.switch input:indeterminate + span::after { transform: translateX(9.5px); background: var(--blue-ink); }
+@media (max-width: 480px) { .pg-b { padding-left: 0; } }

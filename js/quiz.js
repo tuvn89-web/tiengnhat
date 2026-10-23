@@ -226,7 +226,7 @@ export async function renderQuizSetup(view, ctx) {
   const saved = await kvGet('quizSetup', {});
   const o = { dir: 'jv', script: S.script, source: 'due', levels: [], topics: [], count: S.qCount, ...saved };
   o.script = fixScript(o.script);
-  if (!D.vocab.length) { view.innerHTML = emptyState('Chưa có từ vựng nào. Vào Dữ liệu để nhập gói từ.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
+  if (!D.vocab.length) { view.innerHTML = emptyState('Chưa có từ vựng nào. Mở app khi có mạng để tải dữ liệu, hoặc bật lại nhóm gói đã tắt ở trang Dữ liệu.', '<a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>'); return; }
   const st = stats(D.vocab);
   view.innerHTML = `
     <h1 class="h1">Luyện tập</h1>${wtabs('quiz')}

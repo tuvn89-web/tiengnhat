@@ -45,7 +45,7 @@ export async function renderAccount(view, ctx, q = '') {
   view.innerHTML = `<h1 class="h1">Tài khoản</h1><div class="acct"><p class="muted loading">Đang tải…</p></div>`;
   const box = view.querySelector('.acct');
   if (!cloudEnabled()) {
-    box.innerHTML = emptyState('Bản app này chưa bật tài khoản. Mọi phần học vẫn dùng bình thường; tiến độ đồng bộ qua GitHub ở trang Dữ liệu.', '<a class="btn btn-ghost" href="#/dulieu">Mở Dữ liệu</a>');
+    box.innerHTML = emptyState('Bản app này chưa bật tài khoản. Mọi phần học vẫn dùng bình thường; tiến độ lưu trong máy này.', '<a class="btn btn-ghost" href="#/dulieu">Mở Dữ liệu</a>');
     return;
   }
   let off = null, seq = 0, scrolled = false;

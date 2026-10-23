@@ -124,7 +124,6 @@ export function renderSettings(view, ctx, tab) {
 
     <section class="card" ${sec('may')}>
       <h2 class="h2">Máy này</h2>
-      ${field('Tên máy (hiện trong lịch sử đồng bộ)', `<input class="input" name="deviceName" value="${esc(S.deviceName)}">`)}
       <p class="small">Phiên bản app: <b>${esc(APP_VERSION)}</b></p>
       <div class="row-btns wrap">
         <button type="button" class="btn btn-ghost" data-act="upd">Kiểm tra bản mới</button>
