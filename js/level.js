@@ -2,7 +2,7 @@
 // Kết quả đổi tiến độ theo ngưỡng (mặc định 85% / 70%), chỉ đổi khi bấm Áp dụng, hoàn tác được trong 7 ngày.
 import { esc, rich, plain, rubyHTML, stripHL, reading, shuffle, wordHTML, fmtDate, toast, DAY } from './util.js';
 import { bareOK, bareHintHTML } from './bare.js';
-import { D, LEVELS, saveTest, testList, setPrefs } from './data.js';
+import { D, LEVELS, saveTest, testList, setPrefs, levelOpen } from './data.js';
 import { status, bulkApply, progSnapshot, progRestore } from './srs.js';
 import { answerOf, distractors, readHint } from './quiz.js';
 import { kanjiQuestion } from './kanji.js';
@@ -139,7 +139,7 @@ function* poolQsGen(pool, spec, L) {
   return order.flatMap(s => shuffle(out.filter(q => q.sk === s)));
 }
 // Cấp đủ dữ liệu để ra đề: có ít nhất 3 mẫu ngữ pháp và 20 từ vựng chung
-export const levelsWithData = () => LEVELS.filter(L => D.grammar.filter(g => g.level === L).length >= 3 && vocabOf(L).filter(v => !isSpec(v)).length >= 20);
+export const levelsWithData = () => LEVELS.filter(L => levelOpen(L) && D.grammar.filter(g => g.level === L).length >= 3 && vocabOf(L).filter(v => !isSpec(v)).length >= 20);
 
 // ---------- trang Kiểm tra trình độ ----------
 export async function renderLevelHub(view, ctx) {

@@ -16,6 +16,7 @@ import { docFit, fitBadgeHTML } from './docfit.js';
 import { answerExplainHTML } from './explain.js';
 import { passageHTML, bindPassage, viToggleHTML, bindViToggle } from './reader.js';
 import { attachRomaji, romajiToKana } from './romaji.js';
+import { lessonLocked, lockCardHTML, lockTagHTML, isTrialLesson } from './lock.js';
 import { ttsReady } from './tts.js';
 import { goBack, crumbHTML, resultNavHTML, bindResultNav, beginSession } from './nav.js';
 
@@ -189,10 +190,12 @@ export function needRelearn(x) {
   return [...p.vocab, ...p.grammar, ...p.kanji].filter(it => isRelearn(it.id)).length;
 }
 export function lessonRowHTML(x, cur) {
+  if (lessonLocked(x)) return `<li class="ls is-locked"><a href="#/bai/${encodeURIComponent(x.id)}"><span class="ls-n">${x.n}</span>
+    <span class="ls-t"><b>${rich(x.title)}</b><small>${rich(x.goal)}</small></span><span class="ls-p">${lockTagHTML()}</span></a></li>`;
   const s = lessonState(x), due = reviewDue(x), nr = s.done ? needRelearn(x) : 0;
   const cls = s.redo ? 'is-cur' : s.done ? 'is-done' : x === cur ? 'is-cur' : '';
   return `<li class="ls ${cls}"><a href="#/bai/${encodeURIComponent(x.id)}"><span class="ls-n">${s.done && !s.redo ? '✓' : x.n}</span>
-    <span class="ls-t"><b>${rich(x.title)}</b><small>${rich(x.goal)}</small></span>
+    <span class="ls-t"><b>${rich(x.title)}</b><small>${rich(x.goal)}</small>${isTrialLesson(x) ? '<small class="ls-trial">Học thử</small>' : ''}</span>
     <span class="ls-p">${s.redo ? `<span class="ls-rl">↺ ${s.nDone}/${NS}</span>` : nr ? '<span class="ls-rl">↺ Học lại</span>' : due ? '<span class="ls-due">Ôn lại</span>' : s.done ? '' : `${s.nDone}/${NS}`}</span></a></li>`;
 }
 // v40: từng dòng của danh sách bài (để Lộ trình ghép dần từng mẻ)
@@ -219,6 +222,8 @@ const realDialog = x => D.dialog.find(d => d.tonghop && d.lesson === x.id);
 // Thẻ "Bài đang học" (Trang chủ, Lộ trình)
 export function lessonCardHTML(x) {
   if (!x) return '';
+  if (lessonLocked(x)) return `<div class="lcard"><p class="small muted">Bài tiếp theo · ${esc(x.level)} bài ${x.n}/${x.total}</p>
+    <p class="lcard-t"><b>${rich(x.title)}</b></p>${lockCardHTML(x.level, { compact: true })}</div>`;
   const s = lessonState(x), nx = s.next >= 0 ? s.next : NS - 1;
   return `<div class="lcard"><p class="small muted">${s.redo ? '↺ Đang đi lại' : 'Bài đang học'} · ${esc(x.level)} bài ${x.n}/${x.total}</p>
     <p class="lcard-t"><b>${rich(x.title)}</b></p>

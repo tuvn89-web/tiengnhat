@@ -4,7 +4,7 @@ import { esc, rich } from './util.js';
 
 let M = null, P = null;
 export function loadHvBay() {
-  if (!P) P = fetch('data/hvbay.json').then(r => (r.ok ? r.json() : {})).then(j => { M = new Map(Object.entries(j.items || {})); }).catch(() => { M = new Map(); });
+  if (!P) P = import('./lock.js').then(m => m.appData('hvbay', {})).then(j => { M = new Map(Object.entries(j.items || {})); }).catch(() => { M = new Map(); }); // v57
   return P;
 }
 export const hvTrap = it => (it?.id && M?.get(it.id)) || null;

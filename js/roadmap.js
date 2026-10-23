@@ -2,6 +2,8 @@
 import { esc, rich, plain, DAY, startOfDay } from './util.js';
 import { recapState } from './dot6.js';
 import { D, LEVELS, setPrefs, actToday, saveLesson } from './data.js';
+import { levelLocked, lockCardHTML } from './lock.js';
+import { cloudEnabled as cloudOn } from './cloud.js';
 import { status, stats, P, progVersion, dueDirs, overdueMs } from './srs.js';
 import { chips, bindChips, readChip } from './ui.js';
 import { kvGet, kvSet } from './db.js';
@@ -180,9 +182,10 @@ export function renderRoadmap(view, ctx) {
       <div class="stage-h"><h2 class="h2">Chặng ${esc(x.L)}${i > gi ? ' <small>(ngoài mục tiêu)</small>' : ''}</h2><span class="stage-b">${state === 'done' ? 'Đã qua' : state === 'cur' ? 'Đang học' : 'Sắp tới'}</span></div>
       ${x.total ? `<div class="stack-bar" role="img" aria-label="Đã thuộc ${x.known}, đang học ${x.learned - x.known}, tổng ${x.total}"><i class="sb-known" style="width:${(x.known / x.total) * 100}%"></i><i class="sb-learning" style="width:${((x.learned - x.known) / x.total) * 100}%"></i></div>
         <p class="small muted">${x.learned}/${x.total} mục đã học (${x.known} đã thuộc) · ${x.packs.length} gói</p>` : '<p class="small muted">Kho chưa có dữ liệu chặng này — sẽ có trong các đợt dữ liệu tới.</p>'}
+      ${levelLocked(x.L) ? lockCardHTML(x.L) : ''}
       ${lessons()}
       ${packs()}
-      ${x.total ? `<p class="small">${x.passed ? `Đã qua: Thi vượt cấp ${esc(x.L)} đạt từ ${lo}%.` : `Qua chặng khi <b>Thi vượt cấp ${esc(x.L)}</b> đạt từ ${lo}%.`} <button type="button" class="btn btn-ghost btn-sm" data-test="${esc(x.L)}">Thi vượt cấp ${esc(x.L)}</button></p>` : ''}
+      ${x.total && !levelLocked(x.L) ? `<p class="small">${x.passed ? `Đã qua: Thi vượt cấp ${esc(x.L)} đạt từ ${lo}%.` : `Qua chặng khi <b>Thi vượt cấp ${esc(x.L)}</b> đạt từ ${lo}%.`} <button type="button" class="btn btn-ghost btn-sm" data-test="${esc(x.L)}">Thi vượt cấp ${esc(x.L)}</button></p>` : ''}
     </section>`;
   };
   const kanaSec = `<section class="card stage ${kanaDone() ? 'stage-done' : 'stage-cur'}">
@@ -205,7 +208,7 @@ export function renderRoadmap(view, ctx) {
     <p class="lv-goal">Mục tiêu <b>${esc(GOALS.find(g => g[0] === G)?.[1] || G)}</b> · ${mins()} phút/ngày <a class="btn btn-ghost btn-sm" href="#/batdau">Đổi</a></p>
     ${slotHTML('fc', 'Đang tính dự báo…', 44)}
     <p class="small muted">Mỗi chặng chia thành bài học: từ mới, chữ Hán, ngữ pháp, luyện tập, đọc & hội thoại, kiểm tra cuối bài. Chặng đang học ở trên cùng, chặng đã qua ở cuối trang; bài và chặng sau vẫn mở được (không khóa).</p>
-    <div class="row-btns wrap"><a class="btn btn-ghost btn-sm" href="#/noiduoc">Nói được gì</a><a class="btn btn-ghost btn-sm" href="#/doc">Hội thoại & bài đọc</a></div>
+    <div class="row-btns wrap"><a class="btn btn-ghost btn-sm" href="#/noiduoc">Nói được gì</a><a class="btn btn-ghost btn-sm" href="#/doc">Hội thoại & bài đọc</a>${cloudOn() ? '<a class="btn btn-ghost btn-sm" href="#/xephang">Bảng xếp hạng</a>' : ''}</div>
     ${top}
     ${bottom ? `<h2 class="h2 stage-sep">Chặng đã qua</h2>${bottom}` : ''}
     <p class="small muted"><a href="#/huongdan">Xem bài hướng dẫn học theo từng cấp</a>.</p>`;
@@ -236,7 +239,7 @@ export function roadmapCardHTML() {
   return `<section class="card rm-card"><div class="stage-h"><h2 class="h2">Lộ trình · Chặng ${esc(x.L)}</h2><span class="stage-b">Đang học</span></div>
     ${x.total ? `<div class="stack-bar" role="img" aria-label="Đã thuộc ${x.known}, đang học ${x.learned - x.known}, tổng ${x.total}"><i class="sb-known" style="width:${(x.known / x.total) * 100}%"></i><i class="sb-learning" style="width:${((x.learned - x.known) / x.total) * 100}%"></i></div>
       <p class="small muted">${ls.length ? `Xong ${nd}/${ls.length} bài · ` : ''}${x.learned}/${x.total} mục đã học · qua chặng khi Thi vượt cấp ${esc(x.L)} đạt từ ${lo}%</p>` : ''}
-    ${cl ? lessonCardHTML(cl) : ls.length ? '<p class="small">Đã xong mọi bài của chặng này — làm Thi vượt cấp để qua chặng.</p>' : ''}
+    ${levelLocked(x.L) && !cl ? lockCardHTML(x.L, { compact: true }) : cl ? lessonCardHTML(cl) : ls.length ? '<p class="small">Đã xong mọi bài của chặng này — làm Thi vượt cấp để qua chặng.</p>' : ''}
     ${next.length ? `<p class="sub-label">Bài tiếp theo</p><ol class="lessons">${next.map(n => `<li class="ls"><a href="#/bai/${encodeURIComponent(n.id)}"><span class="ls-n">${n.n}</span><span class="ls-t"><b>${rich(n.title)}</b><small>${rich(n.goal)}</small></span></a></li>`).join('')}</ol>` : ''}
     <div class="row-btns wrap"><a class="btn btn-ghost btn-sm" href="#/lotrinh">Xem cả lộ trình →</a><a class="btn btn-ghost btn-sm" href="#/noiduoc">Nói được gì</a><a class="btn btn-ghost btn-sm" href="#/trinhdo">Thi vượt cấp ${esc(x.L)}</a></div></section>`;
 }

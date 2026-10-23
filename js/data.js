@@ -16,6 +16,7 @@ export const D = {
   packs: [],          // gói đang dùng: {id, title, type, level, topics, count, version, src:'builtin'|'imported', items}
   builtin: [],        // mọi gói trên kho (theo manifest)
   imported: [],       // mọi gói nhập tay
+  locked: [],         // v57: gói của lộ trình N3–N1 đã mở cho tài khoản (tải từ máy chủ, giữ trong máy)
   shadow: [],         // gói bị bỏ qua vì trùng tên với gói khác mới hơn
   prefs: { forms: ['masu', 'masen', 'mashita', 'te', 'ta', 'nai', 'nakatta', 'tai', 'teiru'], t: 0 }, // cài đặt học có đồng bộ: các thể động từ đã học
   user: new Map(),    // id -> mục tự thêm/sửa (có _t, có thể _del)
@@ -73,9 +74,43 @@ export async function loadAll() {
   }));
   D.builtin = builtin.filter(Boolean);
   D.imported = (await all('imported')).filter(x => !x._del).map(x => packEntry(x.pack, x.items, 'imported', x._t));
+  await loadLocked();
   assemblePacks();
   D.user = new Map((await all('user')).map(x => [x.id, x]));
   rebuild();
+}
+
+// ---------- v57: lộ trình khóa (N3–N1) ----------
+// Danh mục công khai có "lock": { levels, trial, bundles } khi nội dung các cấp đó đã chuyển lên máy chủ.
+// Nội dung một cấp đã mở nằm ở kv 'lock:<cấp>' = { ver, level, packs, appdata }; quyền + hạn ở kv 'cloudGrants' (cloud.js ghi).
+// Hết hạn (qua 1 ngày ân hạn) → xoá nội dung cấp đó khỏi máy, ghi mốc 'lockGap:<cấp>' để lúc mở lại giãn lịch ôn.
+export const GRACE = 864e5;
+export const lockLevels = () => D.manifest.lock?.levels || [];
+export const isLockLevel = L => lockLevels().includes(L);
+export const trialCount = () => D.manifest.lock?.trial ?? 2;
+export const hasLockContent = L => D.locked.some(p => p.level === L);
+export const levelOpen = L => !isLockLevel(L) || hasLockContent(L);
+export async function grantUsable(L, now) {
+  const c = await kvGet('cloudGrants', null), g = c?.g?.[L];
+  if (!g || g.start == null || !(g.days > 0)) return false;
+  now = now ?? Date.now() + (await kvGet('srvOff', 0));
+  return now < g.start + g.days * 864e5 + GRACE;
+}
+export async function loadLocked() {
+  D.locked = [];
+  for (const L of lockLevels()) {
+    const c = await kvGet('lock:' + L, null);
+    if (!c) continue;
+    if (!(await grantUsable(L))) { await kvSet('lock:' + L, null); await kvSet('lockGap:' + L, Date.now()); continue; }
+    for (const p of c.packs || []) D.locked.push(packEntry({ ...p.pack, level: p.pack.level || L }, p.items || [], 'locked'));
+  }
+}
+// gọi sau khi nội dung khóa thay đổi (tải về / hết hạn)
+export async function reloadLocked() {
+  await loadLocked();
+  assemblePacks();
+  rebuild();
+  try { dispatchEvent(new CustomEvent('tn-data')); } catch { }
 }
 
 // Gói trên kho và gói nhập tay trùng tên: dùng bản có số phiên bản cao hơn (bằng nhau thì dùng bản nhập tay).
@@ -86,7 +121,7 @@ export function assemblePacks() {
   D.shadow = [];
   for (const p of D.imported) { const b = bi.get(p.id); if (b && (b.version || 1) > (p.version || 1)) D.shadow.push({ ...p, by: b }); else useI.push(p); }
   for (const p of D.builtin) { const i = im.get(p.id); if (i && (i.version || 1) >= (p.version || 1)) D.shadow.push({ ...p, by: i }); else useB.push(p); }
-  D.packs = [...useI, ...useB];
+  D.packs = [...useI, ...useB, ...D.locked]; // v57: gói khóa đứng sau cùng → bản đầy đủ thay bản xem trước cùng mã
 }
 export async function setPrefs(patch) {
   D.prefs = { ...D.prefs, ...patch, t: Date.now() };
@@ -191,6 +226,7 @@ export async function deleteUserItem(id) {
 export async function report(id, note) {
   D.reports[id] = { note: note || '', t: Date.now() };
   await kvSet('reports', D.reports);
+  try { dispatchEvent(new CustomEvent('tn-report', { detail: { id, note: note || '' } })); } catch { } // v59: gửi về hộp báo sai chung
 }
 export async function unreport(id) {
   D.reports[id] = { _del: true, t: Date.now() };

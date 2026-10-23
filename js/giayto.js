@@ -6,7 +6,7 @@ import { esc, rich, plain, shuffle } from './util.js';
 import { emptyState, openSheet } from './ui.js';
 
 let P = null, DOCS = [];
-const load = () => P || (P = fetch('data/giayto.json').then(r => (r.ok ? r.json() : { docs: [] })).catch(() => ({ docs: [] })).then(j => { DOCS = j.docs || []; return DOCS; }));
+const load = () => P || (P = import('./lock.js').then(m => m.appData('giayto', { docs: [] })).catch(() => ({ docs: [] })).then(j => { DOCS = j.docs || []; return DOCS; })); // v57
 const KIND = { xuong: 'Ở chỗ làm', thue: 'Thuế, bảo hiểm', nha: 'Nhà ở, đời sống', visa: 'Lưu trú' };
 const BAREKEY = 'tn-gt-bare';
 const getBare = () => { try { return localStorage.getItem(BAREKEY) === '1'; } catch { return false; } };

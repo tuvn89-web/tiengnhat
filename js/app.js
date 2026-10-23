@@ -35,6 +35,10 @@ import { bumpGen } from './lazy.js';
 import { relearnKanji } from './bare.js';
 import { setRelearn } from './srs.js';
 import { renderGuessLearn, renderHanViet, renderDenHam, renderGiongChu, renderCungDau, runQuick3, runRecap } from './dot6.js';
+import { cloudEnabled, bootCloud, cloudUser, onCloud, cloudSync, cloudSyncInfo } from './cloud.js';
+import { kvGet, kvSet } from './db.js';
+import { lessonLocked, levelLocked, renderLockedLesson, renderLockedLevel, expiryNoticeHTML } from './lock.js';
+import { lessonById } from './lesson.js';
 
 const view = $('#view');
 let leave = [];
@@ -119,19 +123,39 @@ const ROUTES = [
   [/^kana$/, v => renderKana(v, ctx)],
   [/^huongdan$/, v => renderGuides(v)],
   [/^huongdan\/(.+)$/, (v, m) => renderGuide(v, decodeURIComponent(m[1]))],
-  [/^bai\/([^/?]+)(?:\?b=(\d))?$/, (v, m) => renderLesson(v, ctx, decodeURIComponent(m[1]), m[2] != null ? +m[2] : null)],
-  [/^bai\/([^/?]+)\/hoc$/, (v, m) => learnLesson(v, ctx, decodeURIComponent(m[1]))],
-  [/^bai\/([^/?]+)\/cau$/, (v, m) => renderLessonSents(v, ctx, decodeURIComponent(m[1]))],
-  [/^bai\/([^/?]+)\/kiemtra$/, (v, m) => runLessonTest(v, ctx, decodeURIComponent(m[1]))],
-  [/^onbai\/([^/?]+)$/, (v, m) => runLessonReview(v, ctx, decodeURIComponent(m[1]))],
+  [/^bai\/([^/?]+)(?:\?b=(\d))?$/, (v, m) => lockGuard(v, m[1], () => renderLesson(v, ctx, decodeURIComponent(m[1]), m[2] != null ? +m[2] : null))],
+  [/^bai\/([^/?]+)\/hoc$/, (v, m) => lockGuard(v, m[1], () => learnLesson(v, ctx, decodeURIComponent(m[1])))],
+  [/^bai\/([^/?]+)\/cau$/, (v, m) => lockGuard(v, m[1], () => renderLessonSents(v, ctx, decodeURIComponent(m[1])))],
+  [/^bai\/([^/?]+)\/kiemtra$/, (v, m) => lockGuard(v, m[1], () => runLessonTest(v, ctx, decodeURIComponent(m[1])))],
+  [/^onbai\/([^/?]+)$/, (v, m) => lockGuard(v, m[1], () => runLessonReview(v, ctx, decodeURIComponent(m[1])))],
   [/^gocau\/([^/?]+)$/, async (v, m) => (await import('./gocau.js')).runGoCau(v, ctx, decodeURIComponent(m[1]))],
-  [/^hoclai\/([^/?]+)(?:\/(kt|hoc))?$/, async (v, m) => { const R = await import('./relearn.js'); const k = decodeURIComponent(m[1]); return m[2] === 'kt' ? R.runQuickCheck(v, ctx, k) : m[2] === 'hoc' ? R.runRelearnItems(v, ctx, k) : R.renderRelearn(v, ctx, k); }],
-  [/^tonghop\/([^/?]+)$/, (v, m) => runTongHop(v, ctx, decodeURIComponent(m[1]))],
+  [/^hoclai\/([^/?]+)(?:\/(kt|hoc))?$/, async (v, m) => { if (levelLocked(decodeURIComponent(m[1]))) return renderLockedLevel(v, decodeURIComponent(m[1])); if (lessonLocked(lessonById(decodeURIComponent(m[1])))) return renderLockedLesson(v, ctx, lessonById(decodeURIComponent(m[1]))); const R = await import('./relearn.js'); const k = decodeURIComponent(m[1]); return m[2] === 'kt' ? R.runQuickCheck(v, ctx, k) : m[2] === 'hoc' ? R.runRelearnItems(v, ctx, k) : R.renderRelearn(v, ctx, k); }],
+  [/^tonghop\/([^/?]+)$/, (v, m) => lockGuard(v, m[1], () => runTongHop(v, ctx, decodeURIComponent(m[1])))],
   [/^noiduoc$/, v => renderCanDo(v)],
   [/^doc$/, v => renderDocList(v)],
   [/^doc\/([^/?]+)(?:\?m=(\w+))?$/, (v, m) => renderDoc(v, ctx, decodeURIComponent(m[1]), m[2] || 'doc')],
+  // v56: tài khoản Google + trang quản trị (tải khi mở)
+  [/^taikhoan(?:\?(.*))?$/, async (v, m) => (await import('./account.js')).renderAccount(v, ctx, m[1] || '')],
+  [/^quantri$/, async v => (await import('./admin.js')).renderAdmin(v, ctx)],
+  [/^quantri\/ma$/, async v => (await import('./admin.js')).renderAdminCodes(v, ctx)],
+  [/^quantri\/nhatky$/, async v => (await import('./admin.js')).renderAdminLogs(v, ctx)],
+  [/^quantri\/noidung$/, async v => (await import('./admin.js')).renderAdminContent(v, ctx)],
+  [/^quantri\/baosai$/, async v => (await import('./admin.js')).renderAdminReports(v, ctx)],
+  [/^quantri\/thongbao$/, async v => (await import('./admin.js')).renderAdminNotice(v, ctx)],
+  [/^quantri\/thongke$/, async v => (await import('./admin.js')).renderAdminStats(v, ctx)],
+  [/^quantri\/caidat$/, async v => (await import('./admin.js')).renderAdminSettings(v, ctx)],
+  [/^quantri\/u\/([A-Za-z0-9_-]+)$/, async (v, m) => (await import('./admin.js')).renderAdminUser(v, ctx, m[1])],
+  // v58: hồ sơ, bảng xếp hạng
+  [/^hoso$/, async v => (await import('./profile.js')).renderProfile(v, ctx)],
+  [/^hoso\/sua$/, async v => (await import('./profile.js')).renderProfileEdit(v, ctx)],
+  [/^xephang(?:\?l=(\w+))?$/, async (v, m) => (await import('./profile.js')).renderRanks(v, ctx, m[1] || 'all')],
 ];
 
+// v57: bài của lộ trình chưa mở (ngoài số bài học thử) → trang xem trước + nút Mở khóa
+function lockGuard(v, rawId, f) {
+  const x = lessonById(decodeURIComponent(rawId));
+  return lessonLocked(x) ? renderLockedLesson(v, ctx, x) : f();
+}
 // v39: trang dựng lâu (lần trước ≥ 35 ms, hoặc trang vốn nặng) → hiện ngay khung trang + thanh tiến trình mảnh ở mép trên,
 // nhường trình duyệt vẽ khung đó rồi mới dựng nội dung (khung hình sau). Trang nhanh dựng thẳng, không nhấp nháy.
 const COST = new Map();
@@ -293,6 +317,7 @@ function renderHome(v) {
   v.innerHTML = `
     ${needsOnboard() ? `<section class="card onboard"><h2 class="h2">Chào bạn!</h2><p>Trả lời 3 câu (mục tiêu, mỗi ngày học bao lâu, đang ở đâu) để app xếp kế hoạch hằng ngày và lộ trình.</p>
       <div class="row-btns"><button type="button" class="btn btn-ghost" data-act="skipob">Để sau</button><a class="btn btn-primary" href="#/batdau">Bắt đầu</a></div></section>` : ''}
+    <div class="notice-slot"></div>
     <section class="today">
       ${seasonChipHTML()}
       <p class="today-l">Hôm nay${S_mins()}</p>
@@ -304,6 +329,7 @@ function renderHome(v) {
         : `<p class="today-n">Chưa có dữ liệu.</p><a class="btn btn-primary" href="#/dulieu">Mở Dữ liệu</a>`}
       ${st.newToday ? `<p class="small muted">Hôm nay đã học ${st.newToday} từ mới.</p>` : ''}
       ${remindHTML()}
+      <div class="lock-slot"></div>
     </section>
 
     ${st.total || sk.total || sg.total ? roadmapCardHTML() : ''}
@@ -349,6 +375,12 @@ function renderHome(v) {
       ['#/caidat', 'gear', 'Cài đặt', 'Cỡ chữ, cỡ nút, màu nền, giọng đọc'],
     ].map(([h, ic, t, d]) => `<a class="mode" href="${h}">${icon(ic)}<span><b>${t}</b><small ${/[一-龯]/.test(d) ? 'lang="ja"' : ''}>${esc(d)}</small></span></a>`).join('')}
     </nav>`;
+  expiryNoticeHTML().then(h => { const s = v.querySelector('.lock-slot'); if (s && h) s.innerHTML = h; }).catch(() => { });
+  noticeHTML().then(h => {
+    const s = v.querySelector('.notice-slot'); if (!s || !h) return;
+    s.innerHTML = h;
+    s.querySelector('[data-act=noticeoff]').onclick = async () => { await kvSet('noticeOff', s.querySelector('[data-nid]').dataset.nid); s.innerHTML = ''; };
+  }).catch(() => { });
   const sk0 = v.querySelector('[data-act=skipob]');
   if (sk0) sk0.onclick = async () => { await setPrefs({ onboard: -1 }); scheduleSync(); route(); };
 }
@@ -357,16 +389,42 @@ function renderHome(v) {
 function chrome() {
   $('#nav').innerHTML = NAV.map(([h, ic, t, , only]) => `<a href="${h}" class="${only === 'rail' ? 'rail-only' : ''}">${icon(ic)}<span>${t}</span></a>`).join('');
   $('#topbar').innerHTML = `<a class="brand" href="#/"><span class="brand-mark" lang="ja">実</span><span>Tiếng Nhật Thực Chiến</span></a>
-    <div class="top-actions"><a class="icon-btn sync-badge" href="#/dulieu" aria-label="Đồng bộ">${icon('sync')}</a><a class="icon-btn mob-only" href="#/caidat" aria-label="Cài đặt">${icon('gear')}</a></div>`;
+    <div class="top-actions">${cloudEnabled() ? `<a class="icon-btn acct-btn" href="#/taikhoan" aria-label="Tài khoản">${icon('user')}</a>` : ''}<a class="icon-btn sync-badge" href="#/dulieu" aria-label="Đồng bộ">${icon('sync')}</a><a class="icon-btn mob-only" href="#/caidat" aria-label="Cài đặt">${icon('gear')}</a></div>`;
+}
+// v56: nút tài khoản trên thanh trên — đã đăng nhập thì hiện ảnh tài khoản Google
+async function acctBtn() {
+  const a = $('.acct-btn'); if (!a) return;
+  const u = cloudUser();
+  a.classList.toggle('is-in', !!u);
+  a.setAttribute('aria-label', u ? `Tài khoản: ${u.name || u.email}` : 'Tài khoản (chưa đăng nhập)');
+  // v58: ảnh + khung đang dùng (bản đứng yên, cỡ nhỏ)
+  const fr = u ? await (await import('./profile.js')).topAvatarHTML(u).catch(() => null) : null;
+  a.classList.toggle('has-fr', !!fr);
+  a.innerHTML = fr || (u?.photo ? `<img src="${esc(u.photo)}" alt="" referrerpolicy="no-referrer">` : u ? `<span class="acct-ini" aria-hidden="true">${esc((u.name || u.email || '?').charAt(0).toUpperCase())}</span>` : icon('user'));
 }
 async function syncBadge() {
+  acctBtn();
   const b = $('.sync-badge'); if (!b) return;
   const c = await getSyncCfg(), err = await lastSyncError(), ls = await lastSync();
-  b.dataset.state = !c.token ? 'off' : err ? 'err' : 'ok';
-  b.title = !c.token ? 'Máy này chưa lưu token đồng bộ' : err ? `Lỗi đồng bộ: ${err}` : `Đồng bộ lần cuối ${fmtDate(ls)}`;
+  // v56: đã đăng nhập tài khoản → đồng bộ theo tài khoản là chính
+  b.setAttribute('href', cloudUser() ? '#/taikhoan' : '#/dulieu');
+  if (cloudUser()) {
+    const ci = await cloudSyncInfo();
+    b.dataset.state = ci.err ? 'err' : 'ok';
+    b.title = ci.err ? `Lỗi đồng bộ tài khoản: ${ci.err}` : `Đồng bộ tài khoản lần cuối ${fmtDate(ci.t)}`;
+  } else {
+    b.dataset.state = !c.token ? 'off' : err ? 'err' : 'ok';
+    b.title = !c.token ? 'Máy này chưa lưu token đồng bộ' : err ? `Lỗi đồng bộ: ${err}` : `Đồng bộ lần cuối ${fmtDate(ls)}`;
+  }
   b.setAttribute('aria-label', b.title);
 }
-const scheduleSync = debounce(async () => { const r = await syncNow(); syncBadge(); if (r.error) toast('Chưa đồng bộ được: ' + r.error); }, 1500);
+// GitHub (nếu đã cài) + tài khoản (nếu đã đăng nhập)
+async function syncAll() {
+  const r = await syncNow();
+  const c = cloudUser() ? await cloudSync() : null;
+  return { ok: r.ok || c?.ok, error: c?.error || r.error };
+}
+const scheduleSync = debounce(async () => { const r = await syncAll(); syncBadge(); if (r.error) toast('Chưa đồng bộ được: ' + r.error); }, 1500);
 
 function registerSW() {
   if (!('serviceWorker' in navigator) || !location.protocol.startsWith('http')) return;
@@ -390,7 +448,33 @@ function registerSW() {
 function announceUpdate() {
   try {
     if (sessionStorage.getItem('tn-updated')) { sessionStorage.removeItem('tn-updated'); toast('Đã cập nhật app lên bản mới.'); }
+    const lk = sessionStorage.getItem('tn-lock');
+    if (lk) { sessionStorage.removeItem('tn-lock'); toast(lk); }
   } catch { }
+}
+// v57: nội dung lộ trình khóa vừa tải về / vừa hết hạn → nạp lại app cho mọi trang dùng dữ liệu mới
+// v59: báo sai → hộp báo sai chung (đã đăng nhập); không đăng nhập thì vẫn ghi trong máy như cũ
+function onReport() {
+  addEventListener('tn-report', e => {
+    if (!cloudUser()) return;
+    import('./cloud.js').then(C => C.sendReport(e.detail.id, e.detail.note)).then(ok => { if (ok) toast('Đã gửi báo sai cho quản trị viên.'); }).catch(() => { });
+  });
+}
+// v59: thông báo chung của quản trị viên (đọc lúc mở app khi có mạng; tắt rồi thì thôi hiện thông báo đó)
+async function noticeHTML() {
+  if (!cloudEnabled()) return '';
+  const n = await kvGet('notice', null), off = await kvGet('noticeOff', '');
+  if (!n?.text || n.id === off) return '';
+  const esc2 = s => esc(s).replace(/https?:\/\/[^\s<]+/g, u => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`).replace(/\n/g, '<br>');
+  return `<div class="note notice-c" data-nid="${esc(n.id || '')}"><p>${icon('chat')} <b>Thông báo</b></p><p class="small">${esc2(n.text)}</p><button type="button" class="btn btn-ghost btn-sm" data-act="noticeoff">Đã đọc</button></div>`;
+}
+function onLockData() {
+  addEventListener('tn-data', () => {
+    const msg = D.locked.length ? `Đã tải nội dung lộ trình ${[...new Set(D.locked.map(p => p.level))].join(', ')}.` : 'Lộ trình đã hết hạn — nội dung đã gỡ khỏi máy, tiến độ vẫn giữ.';
+    try { sessionStorage.setItem('tn-lock', msg); } catch { }
+    const go = () => location.reload();
+    if (document.querySelector('.run')) window.addEventListener('hashchange', go, { once: true }); else go();
+  });
 }
 
 async function init() {
@@ -408,9 +492,9 @@ async function init() {
   const tb = $('#topbar'), tbSync = () => tb.classList.toggle('is-scrolled', scrollY > 4);
   addEventListener('scroll', tbSync, { passive: true }); tbSync();
   view.innerHTML = '<p class="muted loading">Đang tải dữ liệu…</p>';
-  import('./hvbay.js').then(m => m.loadHvBay()); // v50: nhãn "bẫy Hán Việt" (tải song song, không chặn mở app)
   import('./docfit.js').then(m => m.loadDocWords()); // v51: % từ đã học của từng bài đọc
   try { await loadAll(); } catch (e) { D.errors.push('Lỗi tải dữ liệu: ' + (e?.message || e)); }
+  import('./hvbay.js').then(m => m.loadHvBay()); // v50: nhãn "bẫy Hán Việt"; v57: sau khi nạp dữ liệu (gộp phần của cấp đã mở)
   await loadProgress();
   window.addEventListener('hashchange', route);
   initNav(ctx);
@@ -429,15 +513,28 @@ async function init() {
   // v40: tính sẵn lúc rảnh SAU khi đã tải xong dữ liệu (v39 hẹn 1,2 giây từ lúc mở app — trên điện thoại dữ liệu chưa tải xong nên tính sẵn trên kho rỗng)
   setTimeout(warmUp, 1200);
   announceUpdate();
+  onLockData();
+  onReport();
+  // v59: thông báo chung — mở app khi có mạng thì hỏi máy chủ (khách cũng thấy); có thông báo mới thì vẽ lại Trang chủ
+  if (cloudEnabled() && navigator.onLine) setTimeout(() => import('./cloud.js').then(C => C.fetchNotice()).then(async n => {
+    if (n?.id && n.id !== (await kvGet('noticeOff', '')) && /^#?\/?$/.test(location.hash) && !document.querySelector('.notice-c')) route();
+  }).catch(() => { }), 2500);
   registerSW();
   try { navigator.storage?.persist?.(); } catch { }
   syncBadge();
+  // v56: máy này đã đăng nhập tài khoản → nạp phần tài khoản (chạy được cả khi không có mạng) rồi đồng bộ theo tài khoản
+  if (cloudEnabled()) {
+    onCloud(() => syncBadge());
+    if (await kvGet('cloudOn', 0)) bootCloud().catch(e => console.warn('cloud', e));
+  }
   const r = await syncNow();
+  let rc = null;
+  if (cloudEnabled() && await kvGet('cloudOn', 0)) { try { await bootCloud(); if (cloudUser()) rc = await cloudSync(); } catch { } }
   syncBadge();
-  if (r.ok && /^#?\/?$/.test(location.hash)) route();
+  if ((r.ok || rc?.ok) && /^#?\/?$/.test(location.hash)) route();
   window.addEventListener('online', scheduleSync);
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'hidden') syncNow().then(syncBadge);
+    if (document.visibilityState === 'hidden') syncAll().then(syncBadge);
     // mở lại app từ nền (không tải lại trang) → hỏi xem có bản app mới không
     else navigator.serviceWorker?.getRegistration().then(r => r?.update()).catch(() => { });
   });

@@ -13,7 +13,7 @@ export function isKanjiCh(ch) {
 }
 export const hasKanji = s => [...(s || '')].some(isKanjiCh);
 
-export const APP_VERSION = 'v55 · 22/10/2026'; // đổi cùng lúc với VERSION trong sw.js
+export const APP_VERSION = 'v59 · 23/10/2026'; // đổi cùng lúc với VERSION trong sw.js
 
 // Cú pháp: 漢字[よみ] — phần gắn cách đọc là chuỗi kanji liền trước "[".  [[...]] = phần ngữ pháp.
 // Dấu [ ] không đứng sau kanji, hoặc bên trong không phải kana, thì giữ nguyên như chữ thường.
@@ -329,6 +329,10 @@ export async function checkUpdate() {
 export function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
 
 export const ICON = {
+  user: '<circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/>',
+  shield: '<path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/>',
+  camera: '<path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/>',
+  lock: '<rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/>',
   home: '<path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/>',
   quiz: '<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/>',
   match: '<rect x="3" y="4" width="7" height="6" rx="1.5"/><rect x="14" y="14" width="7" height="6" rx="1.5"/><path d="M10 7h4v10"/>',

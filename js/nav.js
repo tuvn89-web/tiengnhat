@@ -65,6 +65,13 @@ const PAGES = [
   [/^noiduoc$/, () => 'Nói được gì', ['lotrinh']],
   [/^doc$/, () => 'Hội thoại & bài đọc', ['luyen']],
   [/^doc\/([^/?]+)(\?m=\w+)?$/, m => D.items.get(decodeURIComponent(m[1]))?.title || 'Bài đọc', ['doc']],
+  [/^taikhoan(\?.*)?$/, () => 'Tài khoản', []],
+  [/^quantri$/, () => 'Quản trị', ['taikhoan']],
+  [/^quantri\/(ma|noidung|baosai|thongbao|thongke|nhatky|caidat)$/, () => 'Quản trị', ['quantri']],
+  [/^quantri\/u\/.+$/, () => 'Người dùng', ['quantri']],
+  [/^hoso$/, () => 'Hồ sơ', ['taikhoan']],
+  [/^hoso\/sua$/, () => 'Sửa hồ sơ', ['hoso']],
+  [/^xephang(\?.*)?$/, () => 'Bảng xếp hạng', ['hoso']],
 ];
 function page(hash) {
   const h = norm(hash);

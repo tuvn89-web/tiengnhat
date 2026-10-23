@@ -11,7 +11,7 @@ import { gtabs, buildGrammarQs } from './gdrill.js';
 
 let P = null, G = null;
 export function loadGN() {
-  if (!P) P = fetch('data/gnhom.json').then(r => (r.ok ? r.json() : { groups: [], items: {} })).catch(() => ({ groups: [], items: {} })).then(j => { G = j; return j; });
+  if (!P) P = import('./lock.js').then(m => m.appData('gnhom', { groups: [], items: {} })).catch(() => ({ groups: [], items: {} })).then(j => { G = j; return j; }); // v57
   return P;
 }
 const REG = { noi: 'khẩu ngữ', ca: 'nói & viết', viet: 'văn viết', trang: 'trang trọng' };

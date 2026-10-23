@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quyền riêng tư — Tiếng Nhật Thực Chiến</title>
+<meta name="description" content="App Tiếng Nhật Thực Chiến thu thập và dùng dữ liệu của bạn thế nào.">
+<link rel="icon" href="../icons/icon-192.png">
+<style>
+:root { --bg: #EAF0F3; --surface: #fff; --ink: #15242E; --ink-2: #4F6573; --line: #C3D1D9; --blue: #2361C9; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0D161C; --surface: #15212A; --ink: #E3EBF0; --ink-2: #93A7B4; --line: #2A3C48; --blue: #79A6F5; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 4px 20px 16px; margin: 16px 0; }
+h1 { font-size: 1.7em; line-height: 1.25; margin: 8px 0; }
+h2 { font-size: 1.15em; margin: 18px 0 6px; }
+a { color: var(--blue); }
+.muted { color: var(--ink-2); font-size: .9em; }
+nav { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: .95em; }
+.btn { display: inline-block; padding: 12px 20px; border-radius: 12px; background: var(--blue); color: #fff; text-decoration: none; font-weight: 700; }
+@media (prefers-color-scheme: dark) { .btn { color: #0D161C; } }
+ul { padding-left: 22px; } li { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+<nav aria-label="Các trang"><a href="../">Mở app</a><a href="gioithieu.html">Giới thiệu</a><a href="riengtu.html">Quyền riêng tư</a><a href="dieukhoan.html">Điều khoản</a></nav>
+
+<h1>Quyền riêng tư</h1>
+<p>Trang này nói rõ app Tiếng Nhật Thực Chiến lưu gì, ở đâu, ai xem được, và cách xoá.</p>
+<section class="card">
+<h2>Khi không đăng nhập</h2>
+<p>Mọi tiến độ học, cài đặt và ghi chú chỉ lưu trong bộ nhớ trình duyệt trên máy của bạn. App không gửi chúng đi đâu, trừ khi bạn tự cài đồng bộ qua kho GitHub của chính bạn (trang Dữ liệu).</p>
+</section>
+<section class="card">
+<h2>Khi đăng nhập bằng Google</h2>
+<p>Google gửi cho app: tên, địa chỉ email, ảnh đại diện và mã tài khoản. App không bao giờ nhận mật khẩu của bạn.</p>
+<p>App lưu trên máy chủ Firebase (Cloud Firestore) của Google:</p>
+<ul>
+<li><b>Hồ sơ:</b> tên, email, ảnh, ngày tham gia, lần dùng gần nhất, một mã ngẫu nhiên cho từng máy bạn dùng, và bản tóm tắt tiến độ (cấp đang học, số mục đã thuộc, số bài đã xong mỗi cấp).</li>
+<li><b>Tiến độ học đầy đủ</b> (đã nén), để đồng bộ giữa các máy của bạn.</li>
+<li><b>Quyền mở lộ trình</b> N3 trở lên và thời hạn; mã kích hoạt bạn đã dùng.</li>
+<li><b>Hồ sơ công khai</b> (khi bạn đặt biệt danh): biệt danh, ảnh đại diện bạn chọn, khung, huy hiệu và số bài đã xong mỗi cấp.</li>
+<li><b>Báo sai</b> (khi bạn bấm "Báo sai" lúc đang đăng nhập): mã mục bị báo, ghi chú của bạn, biệt danh và phiên bản app — chỉ quản trị viên đọc, để sửa dữ liệu.</li>
+</ul>
+</section>
+<section class="card">
+<h2>Ai xem được</h2>
+<ul>
+<li>Bạn xem và sửa được dữ liệu của mình.</li>
+<li>Quản trị viên app xem được hồ sơ và bản tóm tắt tiến độ để mở, gia hạn lộ trình và hỗ trợ. Quản trị viên không đọc được tiến độ học chi tiết.</li>
+<li><b>Bảng xếp hạng:</b> người dùng app thấy biệt danh, ảnh đại diện, khung, huy hiệu và số bài đã xong của bạn — không bao giờ thấy email hay tên tài khoản Google. Nếu bạn để ảnh tài khoản Google làm ảnh đại diện thì ảnh đó hiện trên bảng. Tắt "Hiện tôi trên bảng xếp hạng" ở trang Hồ sơ là dòng của bạn bị xoá khỏi bảng.</li>
+<li>Google lưu trữ dữ liệu thay cho app. App không bán, không cho thuê, không chia sẻ dữ liệu của bạn với ai khác.</li>
+</ul>
+</section>
+<section class="card">
+<h2>Không quảng cáo, không theo dõi</h2>
+<p>App không có quảng cáo và không dùng công cụ thống kê hay theo dõi người dùng. Phông chữ được tải từ Google Fonts; giọng đọc dùng giọng có sẵn trên máy bạn.</p>
+</section>
+<section class="card">
+<h2>Xoá dữ liệu</h2>
+<p>Trong app: <b>Tài khoản → Xoá tài khoản</b>. App xoá hồ sơ và tiến độ đã lưu trên máy chủ, rồi xoá tài khoản đăng nhập. Tiến độ trên máy của bạn vẫn giữ; muốn xoá thì xoá dữ liệu trang web trong cài đặt trình duyệt.</p>
+<p>Nhật ký mở, gia hạn lộ trình, mã kích hoạt đã dùng và các báo sai bạn đã gửi được quản trị viên giữ lại để đối chiếu và sửa dữ liệu.</p>
+</section>
+<section class="card">
+<h2>Liên hệ và thay đổi</h2>
+<p>Liên hệ quản trị viên qua kênh ghi ở trang Tài khoản trong app. Khi chính sách thay đổi, trang này được cập nhật kèm ngày.</p>
+</section>
+<p class="muted">Cập nhật ngày 23/10/2026 (thêm hồ sơ công khai, bảng xếp hạng và báo sai).</p>
+</main>
+</body>
+</html>

@@ -16,7 +16,7 @@ const inLv = (o, x) => !o.levels?.length || o.levels.includes(x.level || x.lv);
 const take = (arr, f, n) => { const out = []; for (const x of arr) { const q = f(x); if (q) out.push(q); if (out.length >= n) break; } return out; };
 const back = '<a class="back" href="#/luyen">Các dạng bài</a>';
 const cache = {};
-const load = f => cache[f] || (cache[f] = fetch(`data/${f}.json`).then(r => (r.ok ? r.json() : {})).catch(() => ({})));
+const load = f => cache[f] || (cache[f] = import('./lock.js').then(m => m.appData(f, {})).catch(() => ({}))); // v57: + phần của cấp đã mở
 
 // ======================================================================
 // 1. MỘT CHỮ VIỆT – NHIỀU ĐỘNG TỪ NHẬT

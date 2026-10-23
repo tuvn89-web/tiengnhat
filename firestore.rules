@@ -1,0 +1,143 @@
+rules_version = '2';
+// Quy tắc bảo mật Firestore của app Tiếng Nhật Thực Chiến (v59).
+// Dán toàn bộ tệp này vào Firebase → Firestore → thẻ Rules → Publish.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function me(uid) { return signedIn() && request.auth.uid == uid; }
+    function isAdmin() { return signedIn() && exists(/databases/$(database)/documents/admins/$(request.auth.uid)); }
+
+    // Danh sách admin: chỉ tạo tay trong bảng điều khiển Firebase.
+    match /admins/{uid} {
+      allow read: if me(uid) || isAdmin();
+      allow write: if false;
+    }
+
+    // Hồ sơ người học: chủ tài khoản ghi các trường của mình; admin xem và sửa.
+    match /users/{uid} {
+      allow read: if me(uid) || isAdmin();
+      allow create, update: if isAdmin() || (me(uid)
+        && request.resource.data.keys().hasOnly(['name', 'email', 'photo', 'created', 'lastSeen', 'dev', 'stats', 'nick', 'av', 'frame', 'hideRank'])
+        && request.resource.data.get('name', '') is string && request.resource.data.get('name', '').size() <= 200
+        && request.resource.data.get('nick', '') is string && request.resource.data.get('nick', '').size() <= 60
+        && request.resource.data.get('av', '') is string && request.resource.data.get('av', '').size() <= 12000);
+      allow delete: if me(uid) || isAdmin();
+    }
+
+    // Tiến độ học (nén, chia mảnh): chỉ chủ tài khoản.
+    match /progress/{uid} {
+      allow read, write: if me(uid);
+      match /c/{cid} {
+        allow read, write: if me(uid);
+      }
+    }
+
+    // Quyền mở lộ trình: { N3: { start, days, by, at, note?, code? }, N2: …, N1: … }
+    // Hết hạn = start + days ngày; ân hạn thêm 1 ngày. Chỉ admin ghi — trừ khi người học nhập mã kích hoạt hợp lệ.
+    function redeemGrant(uid, L) {
+      let g = request.resource.data[L];
+      let c = get(/databases/$(database)/documents/codes/$(g.code)).data;
+      let old = resource == null ? null : resource.data.get(L, null);
+      let active = old != null && old.start + duration.value(old.days, 'd') > request.time;
+      return c.level == L && c.usedBy == null && c.revoked == false
+        && getAfter(/databases/$(database)/documents/codes/$(g.code)).data.usedBy == uid
+        && g.keys().hasOnly(['start', 'days', 'by', 'code', 'at'])
+        && g.by == 'code' && g.at == request.time && g.days is int
+        && (active ? (g.start == old.start && g.days == old.days + c.days)
+                   : (g.start == request.time && g.days == c.days));
+    }
+    match /grants/{uid} {
+      allow read: if me(uid) || isAdmin();
+      allow create: if isAdmin() || (me(uid) && (
+           (request.resource.data.keys().hasOnly(['N3']) && redeemGrant(uid, 'N3'))
+        || (request.resource.data.keys().hasOnly(['N2']) && redeemGrant(uid, 'N2'))
+        || (request.resource.data.keys().hasOnly(['N1']) && redeemGrant(uid, 'N1'))));
+      allow update: if isAdmin() || (me(uid) && (
+           (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['N3']) && redeemGrant(uid, 'N3'))
+        || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['N2']) && redeemGrant(uid, 'N2'))
+        || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['N1']) && redeemGrant(uid, 'N1'))));
+      allow delete: if isAdmin();
+    }
+
+    // Mã kích hoạt: biết mã thì đọc được đúng mã đó; dùng mã = ghi usedBy/usedAt cùng lúc với quyền ở /grants.
+    match /codes/{code} {
+      allow get: if signedIn();
+      allow list, create, delete: if isAdmin();
+      allow update: if isAdmin() || (signedIn()
+        && resource.data.usedBy == null && resource.data.revoked == false
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['usedBy', 'usedAt'])
+        && request.resource.data.usedBy == request.auth.uid
+        && request.resource.data.usedAt == request.time
+        && getAfter(/databases/$(database)/documents/grants/$(request.auth.uid)).data[resource.data.level].code == code);
+    }
+
+    // v57: nội dung lộ trình khóa — chỉ tải được khi tài khoản còn quyền cấp đó (hạn + 1 ngày ân hạn); admin đẩy lên.
+    function granted(L) {
+      let p = /databases/$(database)/documents/grants/$(request.auth.uid);
+      let g = exists(p) ? get(p).data.get(L, null) : null;
+      return g != null && g.start + duration.value(g.days + 1, 'd') > request.time;
+    }
+    match /content/{L} {
+      allow read: if isAdmin() || (signedIn() && granted(L));
+      allow write: if isAdmin();
+      match /c/{cid} {
+        allow read: if isAdmin() || (signedIn() && granted(L));
+        allow write: if isAdmin();
+      }
+    }
+
+    // v58: bảng xếp hạng — ai cũng xem; mỗi người chỉ ghi dòng của mình, số liệu phải hợp lý; bị gỡ (bans) thì không ghi được.
+    // Điểm s_<cấp> = (số bài · 8192 + số đã thuộc) · 2^25 + phần "ai xong trước"; s_all tương tự với tổng số bài.
+    function lvOK(d, L) {
+      let n = d.ls[L]; let k = d.kn[L]; let s = d['s_' + L];
+      return n is int && n >= 0 && n <= 80 && k is int && k >= 0 && k < 8192 && s is int
+        && s >= (n * 8192 + k) * 33554432 && s < (n * 8192 + k + 1) * 33554432;
+    }
+    function rankOK(uid) {
+      let d = request.resource.data;
+      let kt = d.kn.N5 + d.kn.N4 + d.kn.N3 + d.kn.N2 + d.kn.N1;
+      let ktc = kt < 32767 ? kt : 32767;
+      return d.keys().hasOnly(['nick', 'av', 'frame', 'ak', 'badges', 'ls', 'kn', 'tot', 's_all', 's_N5', 's_N4', 's_N3', 's_N2', 's_N1', 't'])
+        && d.nick is string && d.nick.size() >= 1 && d.nick.size() <= 60
+        && d.av is string && d.av.size() <= 12000 && d.frame is string && d.ak is bool && d.badges is map
+        && lvOK(d, 'N5') && lvOK(d, 'N4') && lvOK(d, 'N3') && lvOK(d, 'N2') && lvOK(d, 'N1')
+        && d.tot == d.ls.N5 + d.ls.N4 + d.ls.N3 + d.ls.N2 + d.ls.N1
+        && d.s_all is int && d.s_all >= (d.tot * 32768 + ktc) * 33554432 && d.s_all < (d.tot * 32768 + ktc + 1) * 33554432
+        && (resource == null || d.tot <= resource.data.tot + 30)
+        && d.t == request.time
+        && !exists(/databases/$(database)/documents/bans/$(uid));
+    }
+    match /ranks/{uid} {
+      allow read: if true;
+      allow create, update: if (me(uid) && rankOK(uid)) || isAdmin();
+      allow delete: if me(uid) || isAdmin();
+    }
+    match /bans/{uid} {
+      allow read: if me(uid) || isAdmin();
+      allow write: if isAdmin();
+    }
+
+    // v59: hộp báo sai chung — người đã đăng nhập gửi báo sai của chính mình; admin đọc, đánh dấu, xoá.
+    match /reports/{id} {
+      allow create: if signedIn() && request.resource.data.uid == request.auth.uid
+        && request.resource.data.keys().hasOnly(['uid', 'nick', 'item', 'note', 't', 'st', 'ver'])
+        && request.resource.data.st == 'moi' && request.resource.data.t == request.time
+        && request.resource.data.item is string && request.resource.data.item.size() <= 200
+        && request.resource.data.note is string && request.resource.data.note.size() <= 500
+        && request.resource.data.nick is string && request.resource.data.nick.size() <= 60;
+      allow read, update, delete: if isAdmin();
+    }
+
+    // Nhật ký mở / gia hạn: chỉ admin.
+    match /logs/{id} {
+      allow read, create: if isAdmin();
+      allow update, delete: if false;
+    }
+
+    // Cài đặt công khai (kênh liên hệ…): ai cũng đọc, admin sửa.
+    match /settings/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+  }
+}

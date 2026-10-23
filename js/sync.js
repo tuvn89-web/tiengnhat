@@ -174,7 +174,7 @@ function httpMsg(st) {
   }[st] || `GitHub trả lỗi ${st}.`;
 }
 
-async function snapshot() {
+export async function snapshot() {
   const imported = {};
   for (const x of await all('imported')) imported[x.id] = x;
   return {

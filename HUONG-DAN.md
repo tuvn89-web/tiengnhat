@@ -1,6 +1,6 @@
 # Tiếng Nhật Thực Chiến — hướng dẫn cài đặt
 
-App là một trang web cài được như ứng dụng (PWA). Mở một lần khi có mạng, từ đó dùng offline trên điện thoại Android và máy tính. Tất cả miễn phí.
+App là một trang web cài được như ứng dụng (PWA). Mở một lần khi có mạng, từ đó dùng offline trên điện thoại Android và máy tính.
 
 Gồm hai kho trên GitHub:
 
@@ -410,7 +410,7 @@ Nhân vật dùng lại từ N5; thêm bà chủ nhà (大家[おおや]さん) 
 
 ## 26. Bản v17 (17/10/2026): bỏ biệt danh trong app, giáo trình N3 bài 1–15
 
-- **App không còn gọi "Cậu Cả".** Giao diện xưng "bạn". Trong hội thoại, vai của người học là グエン (ghi chú "Bạn"); lời kể và câu hỏi đọc hiểu gọi là "anh Nguyễn".
+- **Cách xưng hô trong app:** giao diện xưng "bạn". Trong hội thoại, vai của người học là グエン (ghi chú "Bạn"); lời kể và câu hỏi đọc hiểu gọi là "anh Nguyễn".
 - **Giáo trình N3** (`baihoc-n3`): đủ 35 bài, bài NN ứng với gói ngữ pháp `nguphap-n3-NN`.
   - Bài 1–15 đã đủ: 613 từ mới (`jlpt-n3-10` … `24`) cộng động từ N3, và bài mở đầu (`modau-n3-01` … `15`: 12 hội thoại, 3 bài đọc, tổng 655 câu, mỗi câu có nghĩa và giải thích từng từ, mẫu ngữ pháp).
   - Bài 16–35 tạm có ngữ pháp và động từ N3; từ mới và bài mở đầu sẽ có ở bản sau. Khi bổ sung, tiến độ các từ đã học vẫn giữ nguyên.
@@ -1199,3 +1199,89 @@ Luyện tập → **"Lợi thế của người Việt"** có thêm 3 bài; Hư�
 **8. Nghe 3 lượt** (tab mới trong mỗi bài, cần giọng đọc): lượt 1 chỉ nghe → câu hỏi ý chính; lượt 2 nghe và nhìn chữ có nghĩa; lượt 3 lại chỉ nghe, tốc độ thường → trả lời câu hỏi.
 
 **Tệp:** `js/dot8.js` (mới), `data/viverb.json`, `data/kougo.json` (mới), xoá `js/watch.js`, `js/season.js`, `js/settings.js`, `js/settingspage.js`, `js/dot7.js`, `js/reader.js`, `js/kanji.js`, `js/hvbay.js`, `js/wordx.js`, `js/dot6.js`, `js/guides.js`, `js/app.js`, `js/practice.js`, `js/util.js`, `css/app.css`, `sw.js`.
+
+## 65. Bản v56 (23/10/2026): Tài khoản Google, trang quản trị (đợt 9, phần 1)
+
+Bản này đưa **toàn bộ phần tài khoản và quản trị** lên kho nhưng **chưa bật**: `js/cloudcfg.js` đang để `FIREBASE = null`, nên app chạy y như v55 (không có nút tài khoản). Khi đã có đoạn `firebaseConfig` của dự án Firebase, bản sau chỉ cần thay **một tệp** `js/cloudcfg.js` là bật.
+
+**Việc cần làm trên Firebase** (làm trên máy tính, bằng tài khoản Google sẽ làm quản trị viên):
+1. Tạo dự án, **tắt** Google Analytics, không nâng gói Blaze.
+2. Security → Authentication → bật **Google**; Settings → Authorized domains → thêm `tuvn89-web.github.io`.
+3. Databases & Storage → Firestore → Create database → `asia-northeast1 (Tokyo)` → **Production mode**.
+4. Project settings → Your apps → **Web** → gửi đoạn `firebaseConfig`.
+5. Firestore → **Rules** → dán toàn bộ tệp `firestore.rules` (ở thư mục gốc kho) → Publish.
+6. Sau khi bản có cấu hình chạy: đăng nhập app → Tài khoản → **Chép mã** → Firestore → Data → Start collection `admins` → Document ID = mã vừa chép → trường `role` = `owner` → Save. Tải lại app là có **Trang quản trị**.
+
+**Người học** (`#/taikhoan`, nút hình người trên thanh trên)
+- Đăng nhập Google **không bắt buộc**. Chưa đăng nhập vẫn học và lưu tiến độ trên máy như cũ; đăng nhập lúc nào thì tiến độ trên máy và trên tài khoản **tự gộp**, không mất bên nào. Từ đó app tự đồng bộ khi mở, sau mỗi lượt học, khi có mạng lại.
+- Mục **Lộ trình N3 trở lên**: trạng thái từng cấp (chưa mở / mở đến ngày… còn N ngày / đang ân hạn / hết hạn), nút **Hiện mã QR cho quản trị viên**, ô **Nhập mã kích hoạt** (gõ chữ thường hay có gạch đều được), kênh liên hệ do quản trị viên điền.
+- Mã thứ hai khi còn hạn thì **cộng nối** vào hạn cũ.
+- Đăng xuất (tiến độ trên máy vẫn giữ); **Xoá tài khoản**: xoá hồ sơ và tiến độ trên máy chủ rồi xoá tài khoản đăng nhập.
+- Ở bản này N3 trở lên **chưa bị khóa** — việc khóa nội dung làm ở v57.
+
+**Quản trị viên** (`#/quantri`, chỉ tài khoản có trong `admins`; quyền kiểm ở máy chủ)
+- **Người dùng:** danh sách (ảnh, tên, email, đang học cấp nào, vào lần cuối, các cấp đã mở và hạn), ô tìm, **Sắp hết hạn · 7 ngày tới**, **Đã hết hạn** (mỗi dòng có nút +1 tháng), chọn nhiều người → **gia hạn hàng loạt** một cấp.
+- **Quét mã QR:** mở camera, đưa vào mã QR trong trang Tài khoản của người học → mở thẳng hồ sơ người đó. Máy không mở được camera thì dán mã / đường link.
+- **Trang một người:** số máy dùng trong 30 ngày, số bài đã xong mỗi cấp; với N3 / N2 / N1: +1 / +3 / +6 / +12 tháng (còn hạn thì cộng nối), **Không thời hạn**, **mở đến ngày…**, **Khóa lại**, ghi chú; nhật ký riêng của người đó.
+- **Mã kích hoạt:** chọn cấp, thời hạn (tính từ lúc người học nhập mã), số mã (1–50), ghi chú → hiện mã kèm QR (quét bằng camera điện thoại là mở app, mã điền sẵn); chép tất cả, in; danh sách chưa dùng / đã dùng (ai dùng, ngày nào) / đã thu hồi; thu hồi mã.
+- **Nhật ký:** 300 lần mở / gia hạn / khóa gần nhất. **Liên hệ:** kênh liên hệ hiện cho người học.
+- Không có ô số tiền ở bất cứ đâu.
+
+**Trang công khai** (Google cần khi xác minh màn hình đăng nhập): `trang/gioithieu.html`, `trang/riengtu.html` (quyền riêng tư), `trang/dieukhoan.html`. Không nhắc tiền.
+
+**Giới hạn:** máy dùng để làm app không vào được máy chủ Google, nên phần tài khoản mới được kiểm bằng máy chủ giả (đăng nhập, gộp tiến độ hai máy, mã kích hoạt, gia hạn, khóa, quét, xoá tài khoản). Lần chạy thật đầu tiên cần thử trên điện thoại; lỗi gì ghi lại để sửa.
+
+**Tệp:** mới `js/cloud.js`, `js/cloudcfg.js`, `js/cloudfb.js`, `js/account.js`, `js/admin.js`, `js/vendor/firebase.js`, `js/vendor/jsqr.js`, `firestore.rules`, `trang/gioithieu.html`, `trang/riengtu.html`, `trang/dieukhoan.html`; sửa `js/app.js`, `js/nav.js`, `js/sync.js`, `js/util.js`, `css/app.css`, `sw.js`, `HUONG-DAN.md`.
+
+## 66. Bản v57 (23/10/2026): Khóa lộ trình N3–N1 (đợt 9, phần 2)
+
+Như v56, phần này **chưa chạy** cho tới khi bật tài khoản; dữ liệu trên kho vẫn đủ N5–N1 nên mọi người học như cũ.
+
+**Khi đã bật (có trường `"lock"` trong `data/manifest.json`):**
+- **N5, N4 mở cho mọi người.** N3, N2, N1 mỗi cấp do quản trị viên mở riêng cho từng tài khoản.
+- **Học thử 2 bài đầu** mỗi cấp (đủ từ, chữ Hán, ngữ pháp, bài mở đầu, tình huống thật của 2 bài đó) — dòng bài có nhãn "Học thử".
+- **Xem trước mọi bài** của cấp chưa mở: tên bài, mục tiêu, **đoạn hội thoại / đoạn văn tiếng Nhật** có furigana và giọng đọc ("Nghe cả bài"). Nghĩa tiếng Việt, câu hỏi, các tab luyện, từ và ngữ pháp của bài vẫn khóa. Dòng bài có ổ khóa; trang bài có thẻ **"Lộ trình N3 do quản trị viên mở cho từng tài khoản"** + nút **Mở khóa** (sang trang Tài khoản). Trang Hội thoại & bài đọc ghi "xem trước" ở bài của cấp khóa.
+- **Mở xong** (quản trị viên mở / nhập mã): app tự tải nội dung cấp đó từ máy chủ (một lần, dùng được khi không có mạng) rồi tự nạp lại, báo "Đã tải nội dung lộ trình N3". Trang Tài khoản ghi trạng thái nội dung từng cấp.
+- **Nhắc hạn** trên Trang chủ: còn ≤ 7 ngày; đang **ân hạn 1 ngày** sau ngày hết hạn. Không nhắc tiền.
+- **Hết hạn quá ân hạn:** nội dung cấp đó **xoá khỏi máy**, thẻ của cấp đó tạm dừng ôn, tiến độ giữ nguyên. Không có mạng thì xoá ở lần mở app sau (theo hạn đã lưu). Mở lại → tự tải về, **lịch ôn giãn đúng bằng thời gian bị khóa** để không dồn bài.
+- Hạn tính theo **giờ máy chủ** (đo lúc đồng bộ), chỉnh giờ trên máy không kéo dài được.
+- Dữ liệu riêng của app cũng tách theo cấp: câu khẩu ngữ, trường âm, giấy tờ, nhóm ngữ pháp, bẫy Hán Việt.
+
+**Quản trị → tab Nội dung:** trạng thái N3 / N2 / N1 trên máy chủ (bản, dung lượng, ngày đẩy); chọn tệp **`noidung-khoa-vNN.zip`** (gửi kèm mỗi bản dữ liệu mới) → app đẩy từng cấp lên, bản trùng thì bỏ qua.
+
+**Thứ tự bật (lần đầu):**
+1. Bản có `js/cloudcfg.js` đã điền → đăng nhập, tự đặt làm quản trị viên (mục 65).
+2. Quản trị → Người dùng → tài khoản của mình → N3, N2, N1 **Không thời hạn** (quản trị viên cũng cần quyền mới tải được nội dung).
+3. Quản trị → **Nội dung** → chọn `noidung-khoa-v57.zip`.
+4. Đưa lên kho **bản dữ liệu đã tách** (gửi riêng): xoá thư mục `data/packs` cũ, chép thư mục mới, thay `data/manifest.json` và các tệp `data/*.json`. Từ lúc này N3–N1 cần được mở.
+5. Firestore → Rules → dán lại `firestore.rules` (bản này có thêm phần `content`).
+
+**Tệp:** mới `js/lock.js`; sửa `js/data.js`, `js/cloud.js`, `js/account.js`, `js/admin.js`, `js/app.js`, `js/nav.js`, `js/lesson.js`, `js/roadmap.js`, `js/reader.js`, `js/level.js`, `js/dot7.js`, `js/dot8.js`, `js/giayto.js`, `js/gnhom.js`, `js/hvbay.js`, `js/util.js`, `css/app.css`, `sw.js`, `firestore.rules`, `HUONG-DAN.md`.
+
+## 67. Bản v58 (23/10/2026): Hồ sơ, khung ảnh đại diện, huy hiệu, bảng xếp hạng (đợt 9, phần 3)
+
+Chạy khi đã bật tài khoản. Vào **Tài khoản → Hồ sơ & bảng xếp hạng** (`#/hoso`); thanh trên hiện ảnh + khung đang dùng.
+
+- **Biệt danh** 2–20 ký tự: chữ Việt, chữ Nhật, số, ký hiệu; có hàng nút chèn nhanh ★ ☆ ♪ ♡ ✿ ・ 〆 ∞ ツ 彡. App chặn ký tự vô hình, ký tự điều khiển, ký tự đảo chiều chữ, chồng dấu quá nhiều. Không bắt trùng.
+- **Ảnh đại diện:** ảnh tài khoản Google, **tải ảnh từ máy** (app cắt vuông giữa ảnh, thu nhỏ còn khoảng 2–11 KB), hoặc 8 ảnh chữ Hán có sẵn (魚 桜 山 星 竹 鶴 雪 侍).
+- **Khung (hướng B, bản chi tiết):** Khởi đầu · N5 Tre · N4 Anh đào · N3 Sóng · N2 Hạc · N1 Mây vàng. Khung cấp nào mở khi **xong cả lộ trình** cấp đó (★★); **vượt bài kiểm tra trình độ** (★★★) thì khung có thêm **lớp ánh kim**. Trang Hồ sơ dùng bản có **chuyển động nhẹ** (lá tre lay, cánh hoa rơi, sóng gợn, cánh hạc đập, sao lấp lánh) — tắt khi bật giảm chuyển động; thanh trên và bảng xếp hạng dùng bản đứng yên.
+- **Huy hiệu:** Bảng chữ cái + N5 → N1, mỗi cấp 3 sao: ★ xong bài 1 · ★★ xong cả lộ trình · ★★★ vượt kiểm tra trình độ.
+- **Bảng xếp hạng lộ trình** (`#/xephang`): thẻ Tất cả · N5 … N1; cấp: số bài đã xong → số mục đã thuộc → ai xong trước; Tất cả: tổng số bài. Bục 3 người đầu, top 50, dòng của mình tô màu (ngoài top 50 thì ghim ở dưới kèm hạng). Không bao giờ hiện email. Chỉ người đã đặt biệt danh mới có tên; tắt **"Hiện tôi trên bảng xếp hạng"** ở trang Hồ sơ là dòng bị xoá.
+- **Quản trị → trang một người → Hồ sơ công khai:** Đặt lại biệt danh · Gỡ ảnh · **Gỡ khỏi bảng xếp hạng** (người đó không tự lên lại được) / Cho lên bảng lại.
+- Máy chủ kiểm số liệu gửi lên bảng (số bài, số đã thuộc, điểm khớp nhau; mỗi lần tăng tối đa 30 bài) — người rành kỹ thuật vẫn có thể khai khống trong giới hạn đó; quản trị viên gỡ được.
+- **Firestore → Rules:** dán lại `firestore.rules` (bản này thêm `ranks`, `bans` và các trường hồ sơ).
+- Trang Quyền riêng tư và Điều khoản đã ghi thêm phần hồ sơ công khai, bảng xếp hạng.
+
+**Tệp:** mới `js/profile.js`, `icons/khung/*.svg` (19 tệp); sửa `js/cloud.js`, `js/cloudfb.js`, `js/vendor/firebase.js`, `js/app.js`, `js/nav.js`, `js/account.js`, `js/admin.js`, `js/roadmap.js`, `js/util.js`, `css/app.css`, `sw.js`, `firestore.rules`, `trang/riengtu.html`, `trang/dieukhoan.html`, `HUONG-DAN.md`.
+
+## 68. Bản v59 (23/10/2026): Hộp báo sai chung, thông báo chung, thống kê (đợt 9, phần 4)
+
+Chạy khi đã bật tài khoản. Trang Quản trị giờ có 8 tab (điện thoại: 2 hàng × 4): Người dùng · Mã · Nội dung · **Báo sai** · **Thông báo** · **Thống kê** · Nhật ký · Liên hệ.
+
+- **Báo sai chung** (`#/quantri/baosai`): người học bấm "Báo sai" ở thẻ từ / thẻ chữ Hán khi **đang đăng nhập** → báo sai vẫn ghi trong máy như cũ **và** gửi về hộp chung (mã mục, ghi chú, biệt danh, phiên bản app — không có email). Chưa đăng nhập thì chỉ ghi trong máy. Quản trị viên lọc Mới / Đã xử lý / Tất cả, bấm **Đã sửa** hoặc **Bỏ qua** (bấm nhầm thì **Đưa về Mới**), và **Tải file gửi skill** — file cùng khuôn với file gửi skill ở trang Dữ liệu, gửi skill để sửa các mục bị báo.
+- **Thông báo chung** (`#/quantri/thongbao`): gõ nội dung (tối đa 600 ký tự, đường link tự bấm được) → **Đăng thông báo**. Mọi người — kể cả người chưa đăng nhập — thấy ở đầu Trang chủ khi mở app có mạng; mỗi người bấm **Đã đọc** là thôi hiện thông báo đó. Đăng thông báo mới là hiện lại với mọi người. **Gỡ thông báo** để tắt.
+- **Thống kê** (`#/quantri/thongke`): tổng số tài khoản, số người vào app trong 7 / 30 ngày, đang học cấp nào, số người đang mở N3 / N2 / N1 (kèm số sắp hết hạn trong 7 ngày), số mã chưa dùng / đã dùng / đã thu hồi. Chỉ đếm từ dữ liệu đã có (hồ sơ, quyền mở, mã) — app không thêm công cụ theo dõi nào.
+- **Firestore → Rules:** dán lại `firestore.rules` (bản này thêm `reports`: người đã đăng nhập gửi báo sai của chính mình, chỉ quản trị viên đọc / sửa / xoá).
+- Trang Quyền riêng tư ghi thêm phần báo sai.
+
+**Tệp:** sửa `js/data.js`, `js/cloud.js`, `js/app.js`, `js/admin.js`, `js/nav.js`, `js/util.js`, `css/app.css`, `sw.js`, `firestore.rules`, `trang/riengtu.html`, `HUONG-DAN.md`.

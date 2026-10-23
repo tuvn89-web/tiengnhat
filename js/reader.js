@@ -25,7 +25,7 @@ export function renderDocList(view) {
   const all = [...D.dialog, ...D.text];
   if (!all.length) { view.innerHTML = `<a class="back" href="#/luyen">Các dạng bài</a><h1 class="h1">Hội thoại & bài đọc</h1>` + emptyState('Chưa có bài hội thoại / bài đọc nào. Skill đang soạn — có gói mới là bài hiện ở đây và trong từng bài học của Lộ trình.'); return; }
   // v43: mỗi cấp — bài luyện thêm (không gắn bài học) hiện trước; bài mở đầu của các bài học gom vào một mục thu gọn
-  const row = x => `<li><a class="row" href="#/doc/${encodeURIComponent(x.id)}"><span class="row-jp">${icon(isDialog(x) ? 'chat' : 'book')} <b>${esc(x.title)}</b></span><span class="row-vi small">${esc(isDialog(x) ? MEDIUM[x.medium] || 'Hội thoại' : KIND[x.kind] || 'Bài đọc')} · ${esc(CTX[x.ctx] || '')}${docDone(x.id) ? ' · ✓' : ''}${docWordsReady() ? fitBadgeHTML(docFit(x)) : ''}</span></a></li>`;
+  const row = x => `<li><a class="row" href="#/doc/${encodeURIComponent(x.id)}"><span class="row-jp">${icon(x.preview ? 'lock' : isDialog(x) ? 'chat' : 'book')} <b>${esc(x.title)}</b>${x.preview ? ' <small class="muted">xem trước</small>' : ''}</span><span class="row-vi small">${esc(isDialog(x) ? MEDIUM[x.medium] || 'Hội thoại' : KIND[x.kind] || 'Bài đọc')} · ${esc(CTX[x.ctx] || '')}${docDone(x.id) ? ' · ✓' : ''}${docWordsReady() ? fitBadgeHTML(docFit(x)) : ''}</span></a></li>`;
   const block = L => {
     const xs = all.filter(x => x.level === L), free = xs.filter(x => !x.intro && !x.tonghop), intro = xs.filter(x => x.intro), th = xs.filter(x => x.tonghop);
     const done = a => a.filter(x => docDone(x.id)).length;
@@ -51,6 +51,7 @@ const MODES = [['doc', 'Đọc'], ['dich', 'Dịch'], ['vai', 'Đóng vai'], ['k
 export function renderDoc(view, ctx, id, mode = 'doc') {
   const it = D.items.get(id);
   if (!it || !['dialog', 'text'].includes(it._type)) { view.innerHTML = emptyState('Không có bài này.', '<a class="btn btn-ghost" href="#/doc">Hội thoại & bài đọc</a>'); return; }
+  if (it.preview) return import('./lock.js').then(m => m.renderPreviewDoc(view, ctx, it)); // v57: bài của lộ trình chưa mở
   const L = it.lesson && D.items.get(it.lesson);
   const modes = MODES.filter(([m]) => (m !== 'vai' || isDialog(it)) && (m !== 'khoa' || linesOf(it).some(t => t.key)) && (!['nghe', 'nghe3'].includes(m) || ttsReady()));
   if (!modes.some(([m]) => m === mode)) mode = 'doc';
@@ -294,7 +295,7 @@ function ngheMode(body, ctx, it) {
 
 // ---------- v55 (đợt 8, mục 8): Nghe 3 lượt ----------
 // Lượt 1 không nhìn chữ → câu hỏi ý chính · lượt 2 nhìn chữ + nghĩa, chậm hơn · lượt 3 lại không nhìn chữ, tốc độ thường → câu hỏi.
-function playLines(it, docEl, rate, onEnd, alive) {
+export function playLines(it, docEl, rate, onEnd, alive) {
   const ls = linesOf(it), vs = jaVoices(), roles = (it.roles || []).map(r => r.key);
   const step = i => {
     if (!alive()) return;

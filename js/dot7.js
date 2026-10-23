@@ -387,7 +387,7 @@ export async function renderKata(view, ctx) {
 // 7. NGHE PHÂN BIỆT TRƯỜNG ÂM / ÂM NGẮT / ÂM GHÉP
 // ======================================================================
 let _ta = null;
-const loadTA = () => _ta || (_ta = fetch('data/truongam.json').then(r => (r.ok ? r.json() : { pairs: [] })).catch(() => ({ pairs: [] })));
+const loadTA = () => _ta || (_ta = import('./lock.js').then(m => m.appData('truongam', { pairs: [] })).catch(() => ({ pairs: [] }))); // v57: + phần của cấp đã mở
 const KIND = { truong: ['Trường âm', 'Nguyên âm kéo dài (ー, おう, えい…) dài gấp đôi — một nhịp riêng. Tiếng Việt không phân biệt dài / ngắn nên rất dễ bỏ qua.'],
   ngat: ['Âm ngắt っ', 'っ là một nhịp im lặng ngắn trước phụ âm (きって = き・(nín)・て). Thiếu nhịp này là thành từ khác.'],
   ghep: ['Âm ghép ゃゅょ', 'ゃ ゅ ょ nhỏ ghép vào chữ trước thành một nhịp (きょ = 1 nhịp); や ゆ よ to là một nhịp riêng (きよ = 2 nhịp).'] };
