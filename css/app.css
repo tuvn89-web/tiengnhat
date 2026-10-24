@@ -1506,4 +1506,32 @@ html.ff-doc :is(.doc-body, .gt-paper, .dl-line) ruby.rf:not(.show), html.ff-all 
 .hrt-fcard .prompt-row { padding-right: 64px; }
 .hrt-fcard .prompt-jp { font-size: 1.9em; white-space: nowrap; }
 @media (max-width: 360px) { .hrt-fcard .prompt-vi { padding: 0 64px 0 0; text-align: left; } .hrt-fcard .prompt-jp { font-size: 1.6em; } }
-.hrt-flv { margin-top: -4px; }
+/* v67: dạng ghép dài (踏まれていました, 投げさせられませんでした) thu nhỏ chữ cho vừa thẻ */
+.hrt-fcard .prompt-jp.pj-m { font-size: 1.55em; }
+.hrt-fcard .prompt-jp.pj-l { font-size: 1.25em; }
+.hrt-fcard .prompt-jp.pj-xl { font-size: 1.05em; }
+@media (max-width: 360px) { .hrt-fcard .prompt-jp.pj-m { font-size: 1.3em; } .hrt-fcard .prompt-jp.pj-l { font-size: 1.08em; } .hrt-fcard .prompt-jp.pj-xl { font-size: .95em; } }
+.hrt-steps { margin: 4px 0 0; overflow-wrap: anywhere; }
+/* v67: tên thể trong bảng chia chạm được → các mẫu ngữ pháp dùng thể đó */
+.ctab-f { all: unset; display: grid; gap: 1px; cursor: pointer; color: inherit; font: inherit; text-align: left; }
+.ctab-f:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; border-radius: 4px; }
+.ctab-f small { display: block; }
+.ctab-f .ctab-g { color: var(--blue); font-weight: 600; font-size: .78em; }
+@media (hover: hover) { .ctab-f:hover .ctab-g { text-decoration: underline; } }
+.hrt-dirs + .hrt-fpick { margin-top: -4px; }
+/* v67: chọn thể muốn luyện — danh sách gọn, 3 tab N5 / N4 / N3 */
+.hrt-fpick { border: 1px solid var(--line); border-radius: 12px; padding: 0 10px; margin: 0 0 12px; background: var(--surface); }
+.hrt-fpick > summary { cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 9px 2px; min-height: 44px; box-sizing: border-box; }
+.hrt-fpick > summary::-webkit-details-marker { display: none; }
+.hrt-fpick > summary::after { content: '▾'; color: var(--ink-2); flex: none; }
+.hrt-fpick[open] > summary::after { content: '▴'; }
+.hrt-fpick > summary small { overflow-wrap: anywhere; }
+.hrt-ftabs { margin: 2px 0 8px; }
+.hrt-ftabs .tab { flex: 1; padding: 8px 6px; border: 0; border-radius: 9px; background: none; color: var(--ink-2); font: inherit; font-weight: 600; font-size: .95em; cursor: pointer; }
+.hrt-ftabs .tab[aria-selected="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 0 var(--line); }
+.hrt-ftabs .tab small { font-weight: 500; color: var(--ink-2); margin-left: 2px; }
+.hrt-fpick .sub-label { margin: 4px 0 2px; }
+.hrt-fks { margin: 2px 0 6px; gap: 5px; }
+.hrt-fks .chip { font-size: .82em; min-height: 34px; padding: 3px 10px; }
+.hrt-fpick .row-btns { margin: 2px 0 10px; }
+.hrt-none { margin: 18px 0; }

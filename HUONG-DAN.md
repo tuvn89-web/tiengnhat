@@ -1335,3 +1335,34 @@ Bản này điền cấu hình dự án Firebase `tiengnhat-app` vào `js/cloudc
 - **Bảng xếp hạng:** chạm một người → ảnh lớn, biệt danh, khung (có ánh kim hay không), huy hiệu. **Không bao giờ có email.**
 
 **Tệp:** mới `js/tap.js` (chồng bảng, bảng câu, bảng từ gọn, bảng cụm), `js/inform.js` (gọi tên thể trong câu), `js/avatar.js` (xem / đổi ảnh, màn chỉnh, thẻ người trên bảng xếp hạng); sửa `js/explain.js`, `js/app.js`, `js/ui.js`, `js/reader.js`, `js/giayto.js`, `js/words.js`, `js/wordx.js`, `js/grammar.js`, `js/lesson.js`, `js/kanji.js`, `js/dot6.js`, `js/dot7.js`, `js/leech.js`, `js/profile.js`, `js/guides.js`, `js/settingspage.js`, `js/util.js`, `css/app.css`, `sw.js`, `HUONG-DAN.md`. Không đổi dữ liệu, không đổi quy tắc Firestore.
+
+## 76. Bản v67 (24/10/2026): Chuyển thể — chọn từng thể, ghép nhiều thể + thì, không tự sang câu sau; thể → mẫu ngữ pháp
+
+Bài học → tab Từ mới → **Luyện từ đã tim → tab "Chuyển thể"**:
+- **Chọn từng thể muốn luyện.** Ba nút cũ "Thể N5 / Thể đến N4 / Thể đến N3" thay bằng **một danh sách gọn**:
+  - Lúc đóng chỉ là một dòng "Thể đang luyện: N · … · ghép N thì". Chạm để mở.
+  - **3 tab N5 / N4 / N3**, mỗi tab ghi số thể đã chọn / tổng số (vd. N4 3/19).
+  - Trong mỗi tab có các nhóm: Động từ · thể chính (ます, て, bị động, sai khiến…), Động từ · thể ghép và nói tắt (〜そう, 〜てしまう, 〜ちゃう, 〜ておく…), Tính từ (khi có tim tính từ).
+  - Chạm từng thể để bật / tắt; có nút **Chọn cả / Bỏ cả** cấp đang xem.
+  - Mặc định giống bản cũ "Thể đến N4". Lựa chọn được nhớ trong máy.
+- **Câu hỏi ghép nhiều thể + thì.** Hàng **"Ghép với thì"** trong cùng danh sách: nguyên dạng, ます, ません, ました, ませんでした, た, ない, なかった, て, ば, たら. Mặc định chọn nguyên dạng, ます, た, ない, ました.
+  - Các thể ghép được: khả năng, bị động, sai khiến, sai khiến bị động, ている, てしまう, ておく, たい.
+  - **Một thể + thì:** 投[な]げられた (bị động · quá khứ), 投[な]げさせられました (sai khiến bị động · quá khứ lịch sự), 書[か]きたくなかった (muốn · quá khứ phủ định).
+  - **Hai thể + thì:** 踏[ふ]まれていました (bị động · đang · quá khứ lịch sự → "lúc đó đang bị giẫm").
+  - Nghĩa ghép theo luật tiếng Việt: không thể…, chưa / không…, lúc đó đang…, đã không muốn…
+  - Động từ nhóm 2 (〜られる) ghi cả hai cách hiểu "bị động hoặc khả năng". Thể khả năng không ghép với ている / てしまう / ておく / たい (dạng hiếm).
+  - Thể ghép được mà bỏ "nguyên dạng" thì chỉ hỏi dạng đã ghép thì.
+  - Mỗi thể đang chọn có cơ hội như nhau. Thỉnh thoảng có câu ghép hai thể khi chọn cả thái (bị động…) lẫn thể ghép (ている…).
+- Phương án nhiễu ưu tiên dạng gần với câu hỏi: chung thể khác thì, chung thì khác thể. Nghĩa chỉ khác nhãn "(lịch sự)" không làm phương án của câu chọn nghĩa. Các cặp gần nghĩa (ば / たら, ない / ません, た / ました, nói tắt / dạng đủ) không làm phương án của nhau.
+- Việt → Nhật với dạng ghép: phương án sai có lỗi chia hay gặp đã ghép cùng thì (投[な]げれた…).
+- Đáp án dạng ghép hiện **tên các thể** và **cách chia từng bước**: 踏[ふ]む → 踏[ふ]まれる → 踏[ふ]まれている → 踏[ふ]まれていました.
+- Dạng dài tự thu nhỏ chữ cho vừa thẻ.
+- **Không tự sang câu sau** (trắc nghiệm và chuyển thể của Luyện từ đã tim): trả lời xong, kể cả khi đúng, bấm **Tiếp**, Enter hoặc phím cách để sang câu sau. Muốn tự sang thì bật ở Cài đặt → "Tự sang câu sau khi trả lời đúng", như các bài luyện khác.
+
+**Thẻ từ → bảng "Chia thể": chạm tên thể → các mẫu ngữ pháp dùng thể đó**
+- Tên thể có mẫu ngữ pháp dùng nó thì có dòng xanh **"N mẫu ngữ pháp ›"** (thể た, thể て, thể ない, thể ý chí, điều kiện ば, bị động…). Bảng dạng tính từ cũng có (〜そう, 〜すぎる, 〜くなる…).
+- Chạm vào thì mở bảng **"Ngữ pháp dùng thể た"**: dạng đã chia của từ đang xem (投[な]げた), số mẫu, các mẫu xếp từ N5 tới N1 (〜たことがある, 〜たばかり, 〜たら…), mẫu đã học ghi "đã học".
+- **Chạm một mẫu → bài ngữ pháp của mẫu** (bảng trượt, có "Mở trang riêng của mẫu này"). Nút ‹ về bảng các mẫu, rồi về thẻ từ.
+- App tìm mẫu theo tên mẫu (〜てから → thể て) và phần "Cấu trúc" của mẫu ("Động từ thể た + ことがある"). Chỉ tính các mẫu đang có trong máy (lộ trình N3–N1 chưa mở thì chưa có mẫu của cấp đó).
+
+**Tệp:** mới `js/formgram.js` (thể ↔ mẫu ngữ pháp; bảng G2F chuyển từ `js/forms.js` sang); sửa `js/heart.js`, `js/wordx.js`, `js/tap.js`, `js/forms.js`, `css/app.css`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.

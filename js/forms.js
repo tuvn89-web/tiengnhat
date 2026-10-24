@@ -8,6 +8,7 @@ import { adjInfo, adjConj, adjWrong, AFORMS, adjVi, NFORMS, nounConj, nounWrong 
 import { runDrill, opt } from './drill.js';
 import { chips, bindChips, readChip, readChips } from './ui.js';
 import { kvGet, kvSet } from './db.js';
+import { G2F } from './formgram.js';
 import { ttsReady } from './tts.js';
 import { recForm, formScore } from './fstat.js';
 import { buildThe, buildNgPhap, verbPhrases, grammarTemplates, makeSent, FTPL } from './practice.js';
@@ -19,17 +20,7 @@ const sentHTML = jp => `<p class="after-sent" lang="ja">${rubyHTML(jp, true)}</p
 const rec = (f, g) => ok => recForm(f, g, ok);
 const uniqBy = (arr, key) => { const s = new Set(); return arr.filter(x => { const k = key(x); if (s.has(k)) return false; s.add(k); return true; }); };
 
-// ---------- mẫu ngữ pháp → thể (B1) ----------
-const G2F = [
-  [/使役受身形/, ['shiekiukemi']], [/使役形/, ['shieki']], [/受身形/, ['ukemi']], [/可能形/, ['kano']], [/命令形/, ['meirei']], [/禁止形/, ['kinshi']],
-  [/^〜ないでください$/, ['nai']], [/^〜てください$/, ['te']], [/〜ます・〜ません/, ['masu', 'masen']], [/〜ました・〜ませんでした/, ['mashita']], [/^〜たい$/, ['tai']],
-  [/^〜ています$/, ['teiru']], [/〜てもいいですか/, ['te']], [/〜てはいけません/, ['tewa']], [/〜てから$/, ['te']], [/〜たり〜たりする/, ['tari']],
-  [/〜たことがある/, ['ta']], [/〜なければならない/, ['nakereba']], [/〜なくてもいい/, ['nai']], [/〜ようと思う/, ['ikou']], [/〜ようとする/, ['ikou']],
-  [/^〜ながら$/, ['nagara']], [/〜そうだ（様態/, ['sou']], [/^〜たら$/, ['tara']], [/^〜ば$/, ['ba']], [/〜てしまう$/, ['teshimau', 'chau']],
-  [/^〜ておく$/, ['teoku', 'toku']], [/〜させてください/, ['sasete']], [/〜すぎる/, ['sugiru']], [/〜やすい・〜にくい/, ['yasui', 'nikui']],
-  [/^〜方$/, ['kata']], [/〜ないで・〜ずに/, ['zu']], [/〜ずに済む/, ['zu']], [/〜なきゃ/, ['nakya']], [/〜ちゃいけない・〜ちゃだめ/, ['chadame']],
-  [/〜とく・〜てる/, ['toku', 'teru']], [/〜たらどうですか/, ['tara']], [/〜たばかり/, ['ta']], [/〜ほうがいい/, ['ta']],
-];
+// ---------- mẫu ngữ pháp → thể (B1) — bảng G2F chuyển sang formgram.js (v67) ----------
 export function formsForGrammar(g) {
   if (!g) return [];
   const p = plain(g.pattern).replace(/[（(].*$/, m => m); // giữ cả chú thích trong ngoặc (様態…)

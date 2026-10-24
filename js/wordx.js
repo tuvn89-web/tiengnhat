@@ -9,6 +9,7 @@ import { AFORMS, adjInfo, adjConj, adjVi } from './adj.js';
 import { COUNTERS, counterOf, numKanji, counterMark, SCALES, NEG_ADV } from './counters.js';
 import { markBtnHTML } from './marks.js';
 import { hvTrapHTML, hvDaoHTML } from './hvbay.js';
+import { gramsForForm } from './formgram.js';
 
 const sayBtn = (text, label = 'Nghe') => `<button type="button" class="icon-btn say" data-say="${esc(text)}" aria-label="${label}">${icon('speaker')}</button>`;
 export const hira = s => String(s || '').replace(/[ァ-ヶ]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60));
@@ -70,13 +71,19 @@ function verbTagHTML(it) {
   const vt = it.vt === 'tu' ? 'tự động từ (〜が …)' : it.vt === 'tha' ? 'tha động từ (〜を …)' : '';
   return `<p class="wd-tags"><span class="tag">${GROUP_VI[v.group]}</span>${vt ? `<span class="tag">${esc(vt)}</span>` : ''}</p>`;
 }
+// v67: tên thể trong bảng chia — có mẫu ngữ pháp dùng thể này thì chạm được (mở bảng các mẫu, chạm mẫu → bài của mẫu)
+function fHead(key, name, lv, mark) {
+  const n = gramsForForm(key).length;
+  const inner = `${esc(name)}${lv ? `<small>${lv}</small>` : ''}`;
+  return n ? `<button type="button" class="ctab-f" data-fgram="${esc(key)}" data-fmark="${esc(mark)}" aria-label="${esc(name)} — ${n} mẫu ngữ pháp dùng thể này">${inner}<small class="ctab-g">${n} mẫu ngữ pháp ›</small></button>` : inner;
+}
 function conjTableHTML(it) {
   const v = verbInfo(it);
   if (!v) return '';
   const learned = learnedForms();
   const row = f => {
     const c = conjugate(v, f);
-    return c ? `<tr><th scope="row">${esc(FORMS[f])}<small>${FORM_LEVEL[f]}</small></th><td lang="ja">${rich(c.mark)}</td><td>${esc(formVi(f, it))}</td></tr>` : '';
+    return c ? `<tr><th scope="row">${fHead(f, FORMS[f], FORM_LEVEL[f], c.mark)}</th><td lang="ja">${rich(c.mark)}</td><td>${esc(formVi(f, it))}</td></tr>` : '';
   };
   const fs = Object.keys(FORMS).filter(f => hasForm(v, f));
   const a = fs.filter(f => learned.has(f)), b = fs.filter(f => !learned.has(f));
@@ -106,7 +113,7 @@ function adjTableHTML(it) {
   if (!a) return '';
   const rows = Object.keys(AFORMS).map(f => {
     const c = adjConj(a, f);
-    return c ? `<tr><th scope="row">${esc(AFORMS[f])}</th><td lang="ja">${rich(c.mark)}${c.pol && c.pol !== c.mark ? `<small class="pol">${rich(c.pol)}</small>` : ''}</td><td>${esc(adjVi(f, it.vi))}</td></tr>` : '';
+    return c ? `<tr><th scope="row">${fHead('adj:' + f, AFORMS[f], '', c.mark)}</th><td lang="ja">${rich(c.mark)}${c.pol && c.pol !== c.mark ? `<small class="pol">${rich(c.pol)}</small>` : ''}</td><td>${esc(adjVi(f, it.vi))}</td></tr>` : '';
   }).join('');
   return `<h3 class="h3">Các dạng <small class="muted">(app tự chia)</small></h3><table class="ctab"><tbody>${rows}</tbody></table>`;
 }
