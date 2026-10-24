@@ -1427,3 +1427,44 @@ Bài học → tab Từ mới → **Luyện từ đã tim → tab "Chuyển th�
 - Sửa kèm: trả lời đúng thì khung đáp án nền xanh (trước đây luôn nền đỏ như khi sai).
 
 **Tệp:** sửa `js/vidu.js`, `js/heart.js`, `js/inform.js`, `js/practice.js`, `css/app.css`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.
+
+## 80. Bản v71 (25/10/2026): Câu thật cho từng dạng chia (N5, N4) — Chuyển thể, thẻ từ, bài luyện thể
+
+**Dữ liệu mới: câu theo dạng (`data/cauthe/n5.json`, `data/cauthe/n4.json`)**
+- Mỗi **dạng tự nhiên** của từng động từ / tính từ có **1 câu** thật, kèm câu dịch và nhãn tình huống.
+- **N5: 6.369 câu** cho **170 từ** (97 động từ, 73 tính từ):
+  - đời sống 3.819 · xưởng 1.428 · hội thoại 739 · thủ tục 337 · Kansai 46;
+  - có câu cho 3.615 / 4.306 dạng đơn (thể ます, bị động, 〜そう…) và 2.754 / 18.456 dạng ghép (bị động + thì, ている + ました, たい + なかった…).
+- **N4: 7.335 câu** cho **274 từ** (229 động từ, kể cả danh từ + する; 45 tính từ), kể cả kính ngữ (おっしゃる, 伺[うかが]う…) và cho – nhận (あげる, くれる, もらう…):
+  - đời sống 4.155 · xưởng 1.893 · hội thoại 859 · thủ tục 412 · Kansai 16;
+  - có câu cho 4.631 dạng đơn và 2.704 dạng ghép.
+- Dạng ghép gượng hoặc hiếm, người Nhật gần như không nói (vd. 見[み]せさせられたければ), thì không viết câu.
+- **Kiểm từng câu:**
+  - Bằng máy: đúng dạng của đúng từ (dạng dài hơn như 食[た]べたい, 食[た]べている không tính là 食[た]べた, 食[た]べて), đủ furigana, có câu dịch, có tình huống, không thời sự.
+  - Rồi một lượt người soát độc lập đọc lại từng câu: sửa khoảng 340 câu N5 và 240 câu N4 về ngữ pháp, nghĩa của dạng, câu dịch, từ vượt trình độ, an toàn thực phẩm, luật cư trú.
+- **Tải khi cần:** tải lần đầu khoảng 750 KB (nén, cả hai cấp) lúc app rảnh, rồi giữ trong máy để dùng khi không có mạng. Các cấp N3 trở lên sẽ có ở các bản sau, làm dần theo lộ trình.
+
+**Chuyển thể**
+- Từ của cấp đã có câu (hiện là N5, N4) thì **chỉ hỏi dạng có câu thật**. Dạng gượng không bị hỏi nữa. Từ của cấp chưa có câu thì hỏi như cũ.
+- **Câu ví dụ đầu tiên** sau mỗi câu hỏi là câu viết sẵn cho đúng dạng đó.
+- **Hướng mới "Điền vào câu":** câu thật có chỗ trống, kèm câu dịch. Chọn dạng đúng của từ trong 4 phương án; phương án sai là dạng khác của cùng từ và lỗi chia hay gặp. "Trộn" cũng xen câu điền.
+- Nếu chỉ chọn những thể chưa có câu, app báo "không còn dạng nào để hỏi" kèm lý do.
+
+**Thẻ từ → bảng Chia thể / Các dạng**
+- Dạng có câu thì có nút **"Câu ví dụ ›"**. Chạm vào thì câu hiện ngay dưới hàng; chạm câu để mở bảng giải thích câu; chạm nút lần nữa để ẩn.
+- Chạm **tên thể** mở bảng "Ngữ pháp dùng thể X". Đầu bảng nay có **câu của chính từ đang xem** ở thể đó.
+
+**Luyện tập**
+- **Thể động từ trong câu:** từ đã có câu theo dạng thì dùng câu thật thay câu ghép theo khuôn.
+  - Điền dạng.
+  - Việt → chọn câu Nhật: cùng câu, chỉ khác dạng.
+  - Nhật → chọn nghĩa.
+  - Hai dạng gần nghĩa (た / ました, ない / ません…) không làm phương án của nhau.
+- **Luyện thể → Thể trong câu:** cũng dùng câu thật của từ đó. Dạng chưa có câu thì không hỏi.
+
+**Sửa kèm**
+- かわいい từng bị chia như いい (かわよくない). Nay chia đúng: かわいくない, かわいかった. Bỏ dạng sai かわいさそう.
+- Tính từ 〜くて đứng trước お… (安[やす]くておいしい) không còn bị nhận nhầm là 〜ておく khi tìm câu ví dụ.
+- Động từ kính ngữ (おっしゃる, なさる, くださる, いらっしゃる) ghép 〜そう / 〜ながら dùng thân り: おっしゃりながら, なさりそう (trước đây ra おっしゃいながら — sai).
+
+**Tệp:** mới `js/cauthe.js`, `data/cauthe/n5.json`, `data/cauthe/n4.json`; sửa `js/heart.js`, `js/conj.js`, `js/vidu.js`, `js/wordx.js`, `js/tap.js`, `js/practice.js`, `js/forms.js`, `js/adj.js`, `js/app.js`, `css/app.css`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.

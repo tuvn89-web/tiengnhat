@@ -81,20 +81,32 @@ const PREV_OK = /[\s、。，．「」『』（）()！？!?・…〜をがに�
 // (沸かしたい, 沸かしている, 沸かしたら dài hơn 沸かした / 沸かして → là dạng khác). 〜ないで = thể ない + で, 〜です (lịch sự) → vẫn tính.
 // chữ ngay sau dạng cho thấy câu dùng dạng khác: 食べた|い, 食べた|く, 食べた|かった, 食べた|ら, 食べた|り · 食べて|いる, 食べて|る, 食べて|おく,
 // 食べて|しまう · 食べない|く(て), 食べない|かった, 食べない|ければ, 食べない|さそう (食べたか？, 食べたけど, 食べないで vẫn là đúng dạng)
-function nextOK(sub, rest) {
+function nextOK(sub, rest, adj = false) {
   const e = sub.slice(-1);
   if (e === 'た' || e === 'だ') return !/^(い|く|かっ|けれ|ら|り|ろう)/.test(rest);
-  if (e === 'て' || e === 'で') return !/^(い|る|お|しま)/.test(rest);
+  if (e === 'て' || e === 'で') return adj || !/^(い|る|お[くきいかけこっ]|しま)/.test(rest); // tính từ 〜くて không có ている / ておく (安くておいしい)
   if (e === 'い') return !/^(く|かっ|けれ|さ)/.test(rest);
   return true;
 }
-function exactAt(it, p, i, sub) {
-  if (isKana(sub[0]) && i > 0 && !PREV_OK.test(p[i - 1])) return false;
-  if (!nextOK(sub, p.slice(i + sub.length, i + sub.length + 2))) return false;
+function exactAt(it, p, i, sub, left = true) {
+  if (left && isKana(sub[0]) && i > 0 && !PREV_OK.test(p[i - 1])) return false;
+  if (!nextOK(sub, p.slice(i + sub.length, i + sub.length + 2), /^adj/.test(it?.pos || ''))) return false;
   if (!it) return true;
   const f = formAt(it, p, i);
   if (!f || !f.len || f.len <= sub.length) return true;
   return /^(で|です)$/.test(p.slice(i + sub.length, i + f.len)); // 〜ないで; 高くないです, 食べたいです = cùng dạng, nói lịch sự
+}
+// v71: kiểm một câu viết sẵn cho dạng chia (dữ liệu câu theo dạng): đúng 1 cặp [[ ]] bọc đúng dạng đó (kể cả furigana), không phải dạng dài hơn
+export function checkFormSent(it, jp, mark) {
+  const m = String(jp || '').match(/\[\[(.+?)\]\](?!\])/g) || [];
+  if (m.length !== 1) return 'cần đúng 1 cặp [[ ]]';
+  const inner = m[0].slice(2, -2);
+  if (inner !== mark) return `[[ ]] phải bọc đúng ${mark} (đang là ${inner})`;
+  const p = plain(stripHL(jp)).replace(/[\s　]/g, ''), surf = plain(mark);
+  const pre = plain(stripHL(String(jp).slice(0, String(jp).indexOf('[[')))).replace(/[\s　]/g, '');
+  if (p.slice(pre.length, pre.length + surf.length) !== surf) return 'không tìm thấy dạng trong câu';
+  // câu viết sẵn: [[ ]] đã chỉ rõ chỗ của từ → không cần kiểm chữ đứng trước (もう[[した]] vẫn đúng)
+  return exactAt(it, p, pre.length, surf, false) ? '' : 'chữ sau [[ ]] biến dạng thành dạng khác (vd. 〜たい, 〜ている)';
 }
 // it: từ đang hỏi; surf: dạng đúng (chữ trơn); kana: cách đọc (chỉ dùng khi từ viết bằng kana); made: câu ghép theo khuôn [{jp, vi}]
 // onlyOwn: dạng trùng chữ với một từ khác (切る → 切れる "có thể cắt" = động từ 切れる "đứt, hết") → chỉ lấy câu ví dụ của chính từ này

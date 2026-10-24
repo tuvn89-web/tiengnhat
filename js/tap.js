@@ -18,6 +18,7 @@ import { openKanji } from './kanji.js';
 import { gramsForForm } from './formgram.js';
 import { FORMS, FORM_LEVEL } from './conj.js';
 import { AFORMS } from './adj.js';
+import { loadCT, ctGet, ctSentHTML, toggleCTRow } from './cauthe.js';
 
 // phần tử là một câu tiếng Nhật chạm được
 export const SENT_SEL = '.ex-jp, .after-sent, .dl-jp, .rd-jp, .prompt-sent, .snt';
@@ -140,14 +141,21 @@ export function openPhraseSheet(w, vi, origin = null) {
 }
 
 // ---------- v67: thể → các mẫu ngữ pháp dùng thể đó (bảng chia của thẻ từ) ----------
-export function openFormGram(key, mark = '', origin = null) {
+// v71: id + kana của dạng → đầu bảng có câu thật của chính từ đó ở thể này (câu theo dạng), tải xong thì điền
+export function openFormGram(key, mark = '', origin = null, id = '', kana = '') {
   const gs = gramsForForm(key);
   if (!gs.length) return null;
   const name = key.startsWith('adj:') ? AFORMS[key.slice(4)] : FORMS[key];
   const host = sheetOf(origin);
   if (host) adopt(host);
+  const it = id && D.items.get(id);
+  if (it && kana) loadCT([it.level]).then(() => {
+    const o = ctGet(id, kana), box = document.querySelector(`.fg-ct[data-ctk="${CSS.escape(kana)}"]`);
+    if (o && box) box.innerHTML = `<p class="sub-label">Câu ví dụ của <span lang="ja">${rich(mark)}</span></p>${ctSentHTML(o)}`;
+  });
   return adopt(openSheet(`<h2 class="h2">Ngữ pháp dùng ${esc(name)}</h2>
     <p class="small muted">${mark ? `<span lang="ja">${rich(mark)}</span> · ` : ''}${gs.length} mẫu${key.startsWith('adj:') ? '' : ` · thể này học ở ${esc(FORM_LEVEL[key] || '')}`} — chạm một mẫu để mở bài</p>
+    ${it && kana ? `<div class="fg-ct" data-ctk="${esc(kana)}"></div>` : ''}
     <ul class="xl">${gs.map(g => `<li class="xg"><button type="button" class="xw-b" data-gopen="${esc(g.id)}"><span class="xw-jp" lang="ja">${rich(g.pattern)}</span><span class="xw-vi">${rich(g.meaning || '')}<small class="muted"> · ${esc(g.level || '')}${status(g) === 'new' ? '' : ' · đã học'}</small></span></button></li>`).join('')}</ul>`, { label: `Ngữ pháp dùng ${name}` }));
 }
 
@@ -157,7 +165,9 @@ export function tapClick(e) {
   const ws = t.closest('[data-wsheet]');
   if (ws) { e.preventDefault(); openWordSheet(ws.dataset.wsheet, ws.dataset.tail || '', ws); return true; }
   const fg = t.closest('[data-fgram]');
-  if (fg) { e.preventDefault(); openFormGram(fg.dataset.fgram, fg.dataset.fmark || '', fg); return true; }
+  if (fg) { e.preventDefault(); openFormGram(fg.dataset.fgram, fg.dataset.fmark || '', fg, fg.dataset.fid || '', fg.dataset.fkana || ''); return true; }
+  const cx = t.closest('[data-ctex]'); // v71: thẻ từ → bảng Chia thể → "Câu ví dụ" của một dạng
+  if (cx) { e.preventDefault(); toggleCTRow(cx); return true; }
   const ps = t.closest('[data-psheet]');
   if (ps) { e.preventDefault(); openPhraseSheet(ps.dataset.psheet, ps.dataset.vi || '', ps); return true; }
   const k = t.closest('.kj');

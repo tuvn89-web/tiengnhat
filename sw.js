@@ -1,13 +1,13 @@
 // Service worker: chạy offline.
 // Sửa bất kỳ file nào của app (html/css/js) thì TĂNG số phiên bản dưới đây để máy tải bản mới.
-const VERSION = 'tnt-v70';
+const VERSION = 'tnt-v71';
 const DATA = 'tnt-data';
 const FONTS = 'tnt-fonts'; // v32: phông chữ tải từ Google Fonts — giữ lại để dùng khi không có mạng (không xoá khi đổi phiên bản)
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest', 'css/app.css',
   'js/app.js', 'js/util.js', 'js/db.js', 'js/settings.js', 'js/tts.js', 'js/data.js', 'js/srs.js', 'js/sync.js',
   'js/vendor/qrcode.js', 'js/vendor/firebase.js', 'js/cloud.js', 'js/cloudcfg.js', 'js/cloudfb.js', 'js/account.js', 'js/admin.js', 'js/lock.js', 'js/profile.js', 'icons/khung/khoidau.svg', 'icons/khung/n5.svg', 'icons/khung/n4.svg', 'icons/khung/n3.svg', 'icons/khung/n2.svg', 'icons/khung/n1.svg', 'icons/khung/n5-dong.svg', 'icons/khung/n4-dong.svg', 'icons/khung/n3-dong.svg', 'icons/khung/n2-dong.svg', 'icons/khung/n1-dong.svg', 'icons/khung/anhkim.svg', 'icons/khung/anhkim-dong.svg', 'icons/khung/huyhieu-kana.svg', 'icons/khung/huyhieu-n5.svg', 'icons/khung/huyhieu-n4.svg', 'icons/khung/huyhieu-n3.svg', 'icons/khung/huyhieu-n2.svg', 'icons/khung/huyhieu-n1.svg', 'js/lazy.js', 'js/fxcore.js', 'js/fxworker.js', 'js/bare.js', 'js/jlpt.js', 'js/ui.js', 'js/wordx.js', 'js/adj.js', 'js/counters.js', 'js/learn.js', 'js/practice.js', 'js/drill.js', 'js/kanji.js', 'js/conj.js', 'js/gdrill.js', 'js/quiz.js', 'js/match.js', 'js/grammar.js', 'js/words.js', 'js/datapage.js', 'js/settingspage.js', 'js/nav.js',
-  'js/level.js', 'js/kana.js', 'js/roadmap.js', 'js/guides.js', 'js/romaji.js', 'js/forms.js', 'js/fstat.js', 'js/dich.js', 'js/notes.js', 'js/heart.js', 'js/lesson.js', 'js/reader.js', 'js/explain.js', 'js/tap.js', 'js/inform.js', 'js/avatar.js', 'js/formgram.js', 'js/cthe.js', 'js/vidu.js', 'js/leech.js', 'js/dot6.js', 'js/season.js', 'js/backfab.js', 'js/fonts.js', 'js/pairs8.js', 'js/marks.js', 'js/relearn.js', 'js/hvbay.js', 'js/gocau.js', 'js/docfit.js', 'js/dot7.js', 'js/amon.js', 'js/gnhom.js', 'js/giayto.js', 'js/dot8.js', 'data/docwords.json', 'data/hvbay.json', 'data/gnhom.json', 'data/giayto.json', 'data/truongam.json', 'data/viverb.json', 'data/kougo.json',
+  'js/level.js', 'js/kana.js', 'js/roadmap.js', 'js/guides.js', 'js/romaji.js', 'js/forms.js', 'js/fstat.js', 'js/dich.js', 'js/notes.js', 'js/heart.js', 'js/lesson.js', 'js/reader.js', 'js/explain.js', 'js/tap.js', 'js/inform.js', 'js/avatar.js', 'js/formgram.js', 'js/cthe.js', 'js/vidu.js', 'js/cauthe.js', 'js/leech.js', 'js/dot6.js', 'js/season.js', 'js/backfab.js', 'js/fonts.js', 'js/pairs8.js', 'js/marks.js', 'js/relearn.js', 'js/hvbay.js', 'js/gocau.js', 'js/docfit.js', 'js/dot7.js', 'js/amon.js', 'js/gnhom.js', 'js/giayto.js', 'js/dot8.js', 'data/docwords.json', 'data/hvbay.json', 'data/gnhom.json', 'data/giayto.json', 'data/truongam.json', 'data/viverb.json', 'data/kougo.json',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable.png',
 ];
 
@@ -35,6 +35,7 @@ self.addEventListener('fetch', e => {
   if (url.pathname.endsWith('/data/manifest.json')) return e.respondWith(networkFirst(req));
   if (url.pathname.includes('/data/packs/')) return e.respondWith(cacheFirst(req, DATA, false, true));
   if (url.pathname.includes('/data/bundles/')) return e.respondWith(cacheFirst(req, DATA, false)); // v64: tệp nhóm — tên có mã nội dung, không đổi
+  if (url.pathname.includes('/data/cauthe/')) return e.respondWith(cacheFirst(req, DATA, false, true)); // v71: câu theo dạng — ?v=mã nội dung, bản cũ bỏ
   if (url.pathname.includes('/trang/')) return e.respondWith(fetch(req).catch(async () => (await caches.match(req)) || Response.error())); // v56: trang giới thiệu / quyền riêng tư / điều khoản
   if (req.mode === 'navigate') return e.respondWith(caches.match('index.html').then(r => r || fetch(req)));
   e.respondWith(cacheFirst(req, VERSION, true));

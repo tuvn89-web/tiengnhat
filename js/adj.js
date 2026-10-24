@@ -26,8 +26,8 @@ export function adjInfo(it) {
   const mark = it.kf || (it.kanji && /^[一-鿿々]+$/.test(it.kanji) ? `${it.kanji}[${it.kana}]` : it.kanji || it.kana);
   if (it.pos === 'adj-i') {
     if (!it.kana.endsWith('い') || !mark.endsWith('い')) return null;
-    // いい / かっこいい: chia theo よい (よくない, よかった)
-    if (it.kana.endsWith('いい') && mark.endsWith('いい')) return { type: 'i', base: mark, stem: mark.slice(0, -2) + 'よ', stemKana: it.kana.slice(0, -2) + 'よ' };
+    // いい / かっこいい: chia theo よい (よくない, よかった) — v71: trừ かわいい (không phải từ ghép với いい: かわいくない)
+    if (it.kana.endsWith('いい') && mark.endsWith('いい') && !/かわいい$/.test(it.kana)) return { type: 'i', base: mark, stem: mark.slice(0, -2) + 'よ', stemKana: it.kana.slice(0, -2) + 'よ' };
     return { type: 'i', base: mark, stem: mark.slice(0, -1), stemKana: it.kana.slice(0, -1) };
   }
   if (it.pos === 'adj-na') return { type: 'na', base: mark.replace(/な$/, ''), baseKana: it.kana.replace(/な$/, '') };
@@ -41,11 +41,12 @@ export function adjConj(it, form) {
   if (a.type === 'i') {
     const s = a.stem;
     // 〜そう: ない → なさそう, いい → よさそう; còn lại bỏ い thêm そう (少ない → 少なそう)
-    const sou = a.stemKana === 'な' || a.base.endsWith('いい') ? s + 'さそう' : s + 'そう';
+    // v71: かわいい không có 〜そう (かわいそう là từ khác: "đáng thương") → bỏ dạng này
+    const sou = /かわい$/.test(a.stemKana || '') ? null : a.stemKana === 'な' || (a.base.endsWith('いい') && s.endsWith('よ')) ? s + 'さそう' : s + 'そう';
     const M = {
       desu: [a.base, a.base + 'です'], nai: [s + 'くない', s + 'くないです'], ta: [s + 'かった', s + 'かったです'], nakatta: [s + 'くなかった', s + 'くなかったです'],
       te: [s + 'くて'], ba: [s + 'ければ'], adv: [s + 'く'], naru: [s + 'くなる', s + 'くなります'], attr: [a.base],
-      sa: [s + 'さ'], sou: [sou, sou + 'です'], sugi: [s + 'すぎる', s + 'すぎます'],
+      sa: [s + 'さ'], sou: sou ? [sou, sou + 'です'] : null, sugi: [s + 'すぎる', s + 'すぎます'],
       suru: [s + 'くする', s + 'くします'], mi: MI.includes(a.stemKana + 'い') ? [s + 'み'] : null,
     }[form];
     return M ? { mark: M[0], pol: M[1] || '' } : null;

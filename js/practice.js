@@ -5,7 +5,8 @@ import { bareHintHTML, charsOK } from './bare.js';
 import { D, LEVELS, setPrefs } from './data.js';
 import { S } from './settings.js';
 import { selectItems, SOURCES, answerOf, distractors, readHint } from './quiz.js';
-import { verbInfo, conjPart, FORMS, FORM_LEVEL, shortVi, verbVi, DERIVED, hasForm } from './conj.js';
+import { verbInfo, conjPart, conjugate, FORMS, FORM_LEVEL, shortVi, verbVi, DERIVED, hasForm } from './conj.js';
+import { loadCT, ctGate, ctOf, ctFrame } from './cauthe.js';
 import { adjInfo, adjConj } from './adj.js';
 import { COUNTERS, countWrong, counterMark } from './counters.js';
 import { countMark, learnedForms } from './wordx.js';
@@ -296,13 +297,50 @@ function fxQs(o, forms) {
   }
   return out;
 }
+// v71: từ đã có câu theo dạng (cauthe.js) → dùng câu thật thay câu ghép theo khuôn. Phương án là CÙNG câu đó với dạng khác của
+// cùng động từ (Việt → câu Nhật, điền dạng), hoặc nghĩa của câu thật khác của cùng từ (Nhật → nghĩa). Cặp gần nghĩa không làm phương án của nhau.
+const NEARF = { ba: ['tara'], tara: ['ba'], masen: ['nai'], nai: ['masen', 'zu'], mashita: ['ta'], ta: ['mashita', 'te'], te: ['ta'], teiru: ['teru'], teru: ['teiru'], teshimau: ['chau'], chau: ['teshimau'], teoku: ['toku'], toku: ['teoku'], tewa: ['chadame', 'kinshi'], chadame: ['tewa', 'kinshi'], kinshi: ['tewa', 'chadame'], shieki: ['shiekiS'], shiekiS: ['shieki'], zu: ['nai'] };
+const HLM = /\[\[(.+?)\]\](?!\])/;
+function ctTheQ(it, forms, qt, used) {
+  const v = verbInfo(it), rows = [...(ctOf(it.id)?.values() || [])].filter(x => forms.includes(x.f));
+  const s = shuffle(rows.filter(x => !used.has(x.k)))[0];
+  if (!v || !s) return null;
+  used.add(s.k);
+  const right = s.jp.match(HLM)[1], frame = ctFrame(s.jp), near = new Set([s.f, ...(NEARF[s.f] || [])]);
+  const seen = new Set([plain(right)]);
+  const alts = shuffle(forms.filter(f => !near.has(f))).map(f => conjugate(v, f)?.mark).filter(m => m && !seen.has(plain(m)) && seen.add(plain(m)));
+  const lab = 'Thể động từ — ' + FORMS[s.f], onAnswer = ok => recForm(s.f, v.group, ok);
+  const after = sentHTML(s.jp.replace(/\[\[|\]\]/g, '')) + `<p class="muted small">${esc(FORMS[s.f])} của <span lang="ja">${rich(v.dict)}</span>: <span lang="ja">${rich(right)}</span></p>`;
+  if (qt === 'nv') {
+    const sv = new Set([s.vi]), others = shuffle(rows.filter(x => x !== s && !near.has(x.f) && !sv.has(x.vi) && sv.add(x.vi))).slice(0, 3);
+    if (others.length < 2) return null;
+    return { kind: 'choice', tag: lab, level: FORM_LEVEL[s.f], prompt: `<p class="prompt-sent" lang="ja">${rubyHTML(s.jp.replace(/\[\[|\]\]/g, ''), true)}</p>`, hint: 'Chọn nghĩa đúng', opts: shuffle([s, ...others]).map((x, i) => opt(x === s ? 'ok' : 'x' + i, esc(x.vi), false)), answer: 'ok', after, onAnswer };
+  }
+  if (alts.length < 2) return null;
+  const opts = alts.slice(0, 3);
+  if (qt === 'vn') {
+    const full = m => frame.replace('\u0000', m);
+    return { kind: 'choice', tag: lab, level: FORM_LEVEL[s.f], prompt: `<p class="prompt-vi">${esc(s.vi)}</p>`, hint: 'Chọn câu tiếng Nhật đúng nghĩa', opts: shuffle([right, ...opts]).map((m, i) => opt(m === right ? 'ok' : 'x' + i, rich(full(m)))), answer: 'ok', after, onAnswer };
+  }
+  return { kind: 'choice', tag: lab, level: FORM_LEVEL[s.f],
+    prompt: `<p class="prompt-sent" lang="ja">${rubyHTML(frame, true).replace('\u0000', '<span class="blank">　　　</span>')}</p><p class="prompt-vi-s">${esc(s.vi)}</p><p class="prompt-hint">Động từ: <span lang="ja">${rich(v.dict)}</span></p>`,
+    opts: shuffle([right, ...opts]).map((m, i) => opt(m === right ? 'ok' : 'x' + i, rich(m))), answer: 'ok', after, onAnswer };
+}
 export function buildThe(o) {
   const forms = o.forms?.length ? o.forms : [...learnedForms()];
   const T = FTPL.filter(t => forms.includes(t.form));
   if (T.length < 2) return [];
   const out = [];
   const types = o.qt === 'mix' || !o.qt ? ['vn', 'nv', 'dien'] : [o.qt];
+  const used = new Map();
   for (const ph of phrasesFrom(o)) {
+    if (ctGate(ph.it)) { // v71: từ đã có câu theo dạng — chỉ dùng câu thật (không ghép khuôn)
+      if (!used.has(ph.it.id)) used.set(ph.it.id, new Set());
+      const q = ctTheQ(ph.it, forms, types[Math.floor(Math.random() * types.length)], used.get(ph.it.id));
+      if (q) out.push(q);
+      if (out.length >= o.count) break;
+      continue;
+    }
     const mine = shuffle(T).map(t => makeSent(ph, t)).filter(Boolean);
     if (mine.length < 3) continue;
     const s = mine[0], others = mine.slice(1);
@@ -334,6 +372,7 @@ export function buildThe(o) {
 }
 export async function renderThe(view, ctx) {
   const o = { source: 'learned', qt: 'mix', ...(await kvGet('pThe', {})) };
+  await loadCT(); // v71: câu thật theo dạng (lỗi / không mạng thì dùng câu ghép theo khuôn như cũ)
   const lf = [...learnedForms()];
   const f = await setupPage(view, ctx, {
     key: 'pThe', title: 'Thể động từ trong câu', route: '#/luyen/the',

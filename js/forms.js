@@ -12,6 +12,7 @@ import { G2F } from './formgram.js';
 import { ttsReady } from './tts.js';
 import { recForm, formScore } from './fstat.js';
 import { buildThe, buildNgPhap, verbPhrases, grammarTemplates, makeSent, FTPL } from './practice.js';
+import { loadCT, ctGate, ctByForm, ctFrame } from './cauthe.js';
 import { learnedForms } from './wordx.js';
 import { viClash } from './quiz.js';
 import { beginSession, goBack, crumbHTML, resultNavHTML, bindResultNav } from './nav.js';
@@ -210,12 +211,21 @@ function keigoQ(k, list) {
 }
 
 // Thể trong câu: khung câu của thể đó, chỗ trống là động từ đã chia (chọn hoặc tự gõ)
+// v71: từ đã có câu theo dạng (cauthe.js) → câu thật của chính từ đó ở thể f; dạng không có câu (gượng) thì bỏ, không ghép khuôn
 function sentFormQ(ph, f, typed) {
-  const t = shuffle(FTPL.filter(x => x.form === f && x.f === f && !x.mod && !x.suf))[0];
-  if (!t) return null;
-  const s = makeSent(ph, t);
-  if (!s) return null;
-  const frame = s.chunks.map(c => (c === s.verb ? '\u0000' : c)).join('') + (/[！？。]$/.test(plain(s.chunks.at(-1))) ? '' : '。');
+  let s, frame;
+  if (ctGate(ph.it)) {
+    const o = ctByForm(ph.it.id, f);
+    if (!o) return null;
+    s = { jp: o.jp.replace(/\[\[|\]\]/g, ''), vi: o.vi, verb: o.jp.match(/\[\[(.+?)\]\](?!\])/)[1] };
+    frame = ctFrame(o.jp);
+  } else {
+    const t = shuffle(FTPL.filter(x => x.form === f && x.f === f && !x.mod && !x.suf))[0];
+    if (!t) return null;
+    s = makeSent(ph, t);
+    if (!s) return null;
+    frame = s.chunks.map(c => (c === s.verb ? '\u0000' : c)).join('') + (/[！？。]$/.test(plain(s.chunks.at(-1))) ? '' : '。');
+  }
   const prompt = `<p class="prompt-sent" lang="ja">${rubyHTML(frame, true).replace('\u0000', '<span class="blank">　　　</span>')}</p><p class="prompt-vi-s">${esc(s.vi)}</p><p class="prompt-hint">Động từ: <span lang="ja">${rich(ph.v.dict)}</span> → <b>${esc(FORMS[f])}</b></p>`;
   const after = sentHTML(s.jp) + `<p class="muted small">${rich(ruleText(ph.it, f))}</p>`;
   if (typed) return { kind: 'type', tag: 'Gõ thể trong câu — ' + FORMS[f], level: FORM_LEVEL[f], prompt, accept: [reading(s.verb), plain(s.verb)], answerHTML: rich(s.verb), after, onAnswer: rec(f, ph.v.group) };
@@ -361,6 +371,7 @@ const formChips = sel => {
     <details class="f-ext" ${openExt ? 'open' : ''}><summary>${groups[1][0]} (${EXT_FORMS.length})</summary>${chips('forms', groups[1][1].map(f => [f, `${FORMS[f]} · ${lv(f)}`]), sel)}</details>`;
 };
 export async function renderForms(view, ctx, gid) {
+  await loadCT(); // v71: câu thật theo dạng cho "Thể trong câu"
   const g = gid ? D.items.get(gid) : null;
   const gForms = formsForGrammar(g);
   const saved = await kvGet('pForms', {});

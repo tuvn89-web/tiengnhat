@@ -12,12 +12,15 @@
 // từng dạng (cthe.js); ưu tiên chỗ yếu; Nghe → chọn nghĩa (có công tắc "Không nghe được"); 5–10 câu ví dụ sau mỗi câu (vidu.js);
 // lượt 3 phút như Ôn nhanh, hết giờ có màn kết quả, "Luyện lại câu sai", "Thêm 3 phút".
 // v70: câu ví dụ chỉ lấy câu có đúng dạng đang hỏi của chính từ đó (không lấy từ khác, không lấy thể / thì khác).
+// v71: câu thật viết sẵn cho từng dạng (cauthe.js): cấp đã có dữ liệu thì CHỈ hỏi dạng có câu (dạng gượng không hỏi);
+// câu đó đứng đầu phần câu ví dụ; hướng mới "Điền vào câu" (câu có chỗ trống → chọn dạng đúng).
 import { esc, icon, wordHTML, shuffle, beep, buzz, toast, rubyHTML, reading, plain, activeNow } from './util.js';
 import { kvGet } from './db.js';
 import { FORMS, FORM_LEVEL, BASE_FORMS, verbInfo, conjugate, formVi, wrongForms, ruleText, shortVi, verbVi } from './conj.js';
 import { AFORMS, adjInfo, adjConj, adjVi, adjWrong } from './adj.js';
 import { recForm } from './fstat.js';
 import { D, setPrefs } from './data.js';
+import { loadCT, ctGate, ctGet, ctFrame, ctSitu } from './cauthe.js';
 import { S } from './settings.js';
 import { review, refreshDue, dirRec, status, isStar } from './srs.js';
 import { crec, recCthe, isMastered, wrongRecs, masteredCount, MASTER, fmtDay } from './cthe.js';
@@ -248,7 +251,7 @@ export function runHeart(view, ctx, items, pool, { onDone, formOnly = false } = 
   // hướng hỏi; chuyển thể có thêm "Nghe" và công tắc "Không nghe được" (chỗ đông người, trên tàu)
   const canListen = () => st.mode === 'form' && ttsReady();
   function dirsHTML() {
-    const ds = [...DIRS.slice(0, 2), ...(canListen() ? [['nghe', 'Nghe']] : []), DIRS[2]];
+    const ds = [...DIRS.slice(0, 2), ...(canListen() ? [['nghe', 'Nghe']] : []), ...(st.mode === 'form' ? [['dien', 'Điền vào câu']] : []), DIRS[2]];
     return `<div class="chips hrt-dirs" role="group">${ds.map(([k, l]) => `<button type="button" class="chip" data-dir="${k}" aria-pressed="${st.dir === k}" ${k === 'nghe' && st.quiet ? 'disabled' : ''}>${l}</button>`).join('')}${st.mode === 'form' ? `<button type="button" class="chip hrt-quiet" data-quiet aria-pressed="${st.quiet}" title="Không hỏi câu nghe, không tự đọc">${st.quiet ? '🔇' : '🔈'} Không nghe được</button>` : ''}</div>`;
   }
   // v67: chọn thể — một danh sách gọn, 3 tab N5 / N4 / N3; mỗi tab: thể động từ, dạng tính từ (chạm để bật / tắt)
@@ -468,7 +471,7 @@ export function runHeart(view, ctx, items, pool, { onDone, formOnly = false } = 
     st.fopen = true; st.curIt = null; st.lock = false;
     const msg = why === 'sel' ? 'Chọn ít nhất một thể ở danh sách trên để bắt đầu.'
       : why === 'src' ? 'Chưa có từ nào ở nguồn đang chọn — chọn thêm ở hàng "Lấy từ" phía trên.'
-      : 'Không còn dạng nào để hỏi: các dạng đang chọn của những từ này đã thuộc nhuần nhuyễn, hoặc từ không chia được theo những thể / thì đó. Chọn thêm thể / thì, thêm nguồn từ, hoặc bật "Hỏi cả dạng đã thuộc nhuần nhuyễn".';
+      : 'Không còn dạng nào để hỏi: các dạng đang chọn của những từ này đã thuộc nhuần nhuyễn, chưa có câu ví dụ thật (app chỉ hỏi dạng có câu), hoặc từ không chia được theo những thể / thì đó. Chọn thêm thể / thì, thêm nguồn từ, hoặc bật "Hỏi cả dạng đã thuộc nhuần nhuyễn".';
     view.innerHTML = `<div class="run${RL} hrt">${head()}<p class="empty hrt-none">${esc(msg)}</p></div>`;
     bindHead(); setKeys(null);
   }
@@ -501,12 +504,16 @@ export function runHeart(view, ctx, items, pool, { onDone, formOnly = false } = 
       const mine = new Set(askOf(it).map(x => x.kana));
       if (st.src.has('sai')) for (const w of wrongRecs()) if (w.id === it.id) mine.add(w.kana);
       ask = cs.filter(x => mine.has(x.kana) && (st.inclM || !isMastered(crec(it.id, x.kana))));
+      // v71: cấp đã có câu theo dạng → chỉ hỏi dạng có câu thật (dạng gượng, hiếm thì không hỏi)
+      if (ctGate(it)) ask = ask.filter(x => ctGet(it.id, x.kana));
     }
     if (!ask.length) return false;
-    const listenOK = canListen() && !st.quiet;
-    const dir = st.dir === 'mix' ? shuffle(['vj', 'jv', ...(listenOK ? ['nghe'] : [])])[0] : st.dir === 'nghe' && !listenOK ? (Math.random() < .5 ? 'vj' : 'jv') : st.dir;
     const pool0 = ask.filter(x => x.kana !== st.last[it.id]);
     const c = pickForm(it, pool0.length ? pool0 : ask);
+    const ct = ctGet(it.id, c.kana);
+    const listenOK = canListen() && !st.quiet;
+    let dir = st.dir === 'mix' ? shuffle(['vj', 'jv', ...(listenOK ? ['nghe'] : []), ...(ct ? ['dien'] : [])])[0] : st.dir === 'nghe' && !listenOK ? (Math.random() < .5 ? 'vj' : 'jv') : st.dir;
+    if (dir === 'dien' && !ct) dir = 'vj'; // dạng chưa có câu thì hỏi Việt → Nhật
     st.last[it.id] = c.kana; st.curIt = it; st.curKana = c.kana; st.curDir = dir; st.qid++;
     const near = new Set(c.fs.flatMap(f => NEAR[f] || []));
     const core = x => x.vi.replace(/\s*\((lịch sự|thể thường|nói tắt)\)/g, '').trim();
@@ -516,7 +523,8 @@ export function runHeart(view, ctx, items, pool, { onDone, formOnly = false } = 
     const sc = x => x.fs.filter(f => c.fs.includes(f)).length * 2 + (x.fs.some(f => st.sel.has(f) || st.tails.has(f)) ? 1 : 0);
     others.sort((a, b) => sc(b) - sc(a));
     let opts;
-    if (dir !== 'vj') opts = shuffle([c, ...others.slice(0, 3)]).map(x => ({ key: x.kana, html: esc(x.vi) }));
+    const jpOpts = dir === 'vj' || dir === 'dien';
+    if (!jpOpts) opts = shuffle([c, ...others.slice(0, 3)]).map(x => ({ key: x.kana, html: esc(x.vi) }));
     else {
       // phương án "lỗi chia": bỏ mọi dạng ĐÚNG của từ (kể cả thể ngoài cấp đang chọn, vd. 打ってはいけない gần nghĩa với 打つな)
       const vi0 = verbInfo(it), ai = adjInfo(it);
@@ -534,10 +542,12 @@ export function runHeart(view, ctx, items, pool, { onDone, formOnly = false } = 
         ? `<div class="prompt-row hrt-listen"><button type="button" class="icon-btn say say-big" data-say="${esc(c.kana)}" aria-label="Nghe lại">${icon('speaker')}</button></div>
           <p class="prompt-jp hrt-reveal${pjSize(c)}" lang="ja" hidden>${jpOf(c)}</p>
           <p class="prompt-hint">Nghe dạng đã chia của ${base} · chọn nghĩa <button type="button" class="btn btn-ghost btn-sm" data-act="reveal">Hiện chữ</button></p>`
-        : `<p class="prompt-vi">${esc(c.vi)}</p><p class="prompt-hint">Chia từ ${base} · chọn dạng tiếng Nhật đúng</p>`;
+        : dir === 'dien'
+          ? `<p class="prompt-sent" lang="ja">${rubyHTML(ctFrame(ct.jp), true).replace('\u0000', '<span class="blank">　　　</span>')}</p><p class="prompt-vi-s">${esc(ct.vi)}</p><p class="prompt-hint">Chia từ ${base} · chọn dạng điền vào chỗ trống</p>`
+          : `<p class="prompt-vi">${esc(c.vi)}</p><p class="prompt-hint">Chia từ ${base} · chọn dạng tiếng Nhật đúng</p>`;
     view.innerHTML = `<div class="run${RL} hrt">${head()}
-      <article class="label-card hrt-fcard" data-nokj><div class="label-head"><span class="label-tag">Chuyển thể · ${dir === 'vj' ? 'Việt → Nhật' : dir === 'nghe' ? 'Nghe' : 'Nhật → Việt'}<small class="hrt-prog">${prog}</small></span><span class="label-lv">${esc(it.level || '')}</span></div>${prompt}<div class="stamp" aria-hidden="true"></div></article>
-      <div class="opts ${dir === 'vj' ? 'opts-jp' : ''}">${opts.map((o, k) => `<button type="button" class="opt" data-k="${esc(o.key)}"><span class="opt-n">${k + 1}</span><span class="opt-t" ${o.jp ? 'lang="ja"' : ''}>${o.html}</span></button>`).join('')}</div>
+      <article class="label-card hrt-fcard" data-nokj data-qdir="${dir}"><div class="label-head"><span class="label-tag">Chuyển thể · ${{ vj: 'Việt → Nhật', nghe: 'Nghe', dien: 'Điền vào câu' }[dir] || 'Nhật → Việt'}<small class="hrt-prog">${prog}</small></span><span class="label-lv">${esc(it.level || '')}</span></div>${prompt}<div class="stamp" aria-hidden="true"></div></article>
+      <div class="opts ${jpOpts ? 'opts-jp' : ''}">${opts.map((o, k) => `<button type="button" class="opt" data-k="${esc(o.key)}"><span class="opt-n">${k + 1}</span><span class="opt-t" ${o.jp ? 'lang="ja"' : ''}>${o.html}</span></button>`).join('')}</div>
       <div class="after" hidden></div></div>`;
     bindHead(); bindSay(view);
     const rv = view.querySelector('[data-act=reveal]');
@@ -566,7 +576,7 @@ export function runHeart(view, ctx, items, pool, { onDone, formOnly = false } = 
     if (st.retry) { const r = st.retry.shift(); if (!ok) st.retry.push(r); }
     else if (!ok) { if (st.queue.length < 2) { st.round++; resetPool(); st.queue.push(...weighted(wordPool().filter(x => x.id !== it.id))); } st.queue.splice(Math.min(2, st.queue.length), 0, it); }
     updCount();
-    if (dir === 'vj' && S.autoSpeak && !st.quiet) speak(c.kana);
+    if ((dir === 'vj' || dir === 'dien') && S.autoSpeak && !st.quiet) speak(c.kana);
     const chosen = cs.find(x => x.kana === key);
     const rule = c.combo ? '' : c.fs.filter(f => !f.startsWith('adj:')).map(f => ruleText(it, f)).filter(Boolean)[0] || '';
     const mline = m.newly ? `✓ Thuộc nhuần nhuyễn dạng này — 6 tháng sau (${fmtDay(m.r.due)}) mới hỏi lại.`
@@ -577,7 +587,7 @@ export function runHeart(view, ctx, items, pool, { onDone, formOnly = false } = 
     after.hidden = false;
     after.innerHTML = `<p class="after-msg${ok ? ' is-ok' : ''}"><b lang="ja">${jpOf(c)}</b> = <span lang="ja">${wordHTML(it, 'furi')}</span>${c.names ? ` · ${esc(c.names.join(' · '))}` : ''} · ${esc(c.vi)}</p>
       ${c.steps ? `<p class="small hrt-steps">Cách chia: <span lang="ja">${c.steps.map(m => rubyHTML(m)).join(' → ')}</span></p>` : ''}
-      ${!ok && chosen ? `<p class="small">Bạn chọn <b lang="ja">${jpOf(chosen)}</b>: ${esc(chosen.vi)}.</p>` : !ok && dir === 'vj' ? '<p class="small">Phương án bạn chọn là lỗi chia hay gặp.</p>' : ''}
+      ${!ok && chosen ? `<p class="small">Bạn chọn <b lang="ja">${jpOf(chosen)}</b>: ${esc(chosen.vi)}.</p>` : !ok && (dir === 'vj' || dir === 'dien') ? '<p class="small">Phương án bạn chọn là lỗi chia hay gặp.</p>' : ''}
       ${rule ? `<p class="small muted">${esc(rule)}</p>` : ''}
       <p class="small hrt-m${m.newly || m.kept ? ' is-ok' : ''}">${esc(mline)}</p>
       <details class="hrt-vd" open><summary>Câu ví dụ</summary><ul class="hrt-vdl"><li class="small muted">Đang tìm câu ví dụ…</li></ul></details>`;
@@ -606,7 +616,10 @@ export function runHeart(view, ctx, items, pool, { onDone, formOnly = false } = 
       // thể khả năng trùng chữ với động từ khác (切れる, 割れる, 売れる…): câu trong dữ liệu có thể là của từ kia → chỉ lấy câu của chính từ này
       const kn = verbInfo(it) && c.fs.includes('kano') && conjugate(verbInfo(it), 'kano');
       const onlyOwn = !!kn && D.vocab.some(o => o.id !== it.id && plain(o.kanji || o.kana) === plain(kn.mark));
-      const list = await V.examplesFor({ it, surf, kana: c.kana, made: shuffle(made), max: 10, onlyOwn });
+      const ct = ctGet(it.id, c.kana);
+      const list0 = await V.examplesFor({ it, surf, kana: c.kana, made: ct ? [] : shuffle(made), max: ct ? 9 : 10, onlyOwn });
+      const pk = x => plain(x.jp.replace(/\[\[|\]\]/g, '')).replace(/[\s　]/g, '');
+      const list = ct ? [{ jp: ct.jp, vi: ct.vi, situ: ctSitu(ct) || 'Câu theo dạng', kind: 'ct' }, ...list0.filter(x => pk(x) !== pk(ct))] : list0;
       const b = box(); if (!b) return;
       b.innerHTML = list.length ? list.map(x => `<li><p class="snt hrt-vj" lang="ja" data-jp="${esc(x.jp)}" data-vi="${esc(x.vi)}">${rubyHTML(x.jp)}</p><p class="small muted">${esc(x.vi)} <span class="tag">${esc(x.situ)}</span></p></li>`).join('')
         : `<li class="small muted">Chưa có câu nào có đúng dạng <span lang="ja">${rubyHTML(c.mark)}</span> trong dữ liệu.</li>`;
@@ -646,7 +659,8 @@ export function runHeart(view, ctx, items, pool, { onDone, formOnly = false } = 
     if (Array.isArray(h.src) && formOnly) { const s2 = h.src.filter(k => SRC_WORDS[k] && k !== 'tim'); if (s2.length) st.src = new Set(s2); }
     st.quiet = !!h.q; st.inclM = !!h.im;
   };
-  const start = () => { if (st.mode === 'form') startRound(); next(); };
+  // v71: chờ tải câu theo dạng (nhanh — đã có trong máy sau lần đầu) trước câu chuyển thể đầu tiên; lỗi / không mạng thì hỏi như cũ
+  const start = () => { const go = () => { if (st.mode === 'form') startRound(); next(); }; if (st.mode === 'form') loadCT().finally(go); else { go(); loadCT(); } };
   if (D.prefs.hrt) { useSel(D.prefs.hrt.f, D.prefs.hrt.t, D.prefs.hrt); start(); }
   else Promise.all([kvGet('hrtForms', null), kvGet('hrtTails', null)]).then(([v, t]) => {
     if (Array.isArray(v) || Array.isArray(t)) { useSel(v, t); saveSel(); }

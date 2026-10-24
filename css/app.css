@@ -1566,3 +1566,11 @@ html.ff-doc :is(.doc-body, .gt-paper, .dl-line) ruby.rf:not(.show), html.ff-all 
 /* v69 (C7): thẻ từ — bảng Chia thể ghi tiến độ thuộc nhuần nhuyễn của từng dạng */
 .ctab-m { display: table; margin-top: 2px; font-size: .74em; font-weight: 600; color: var(--ink-2); border: 1px solid var(--line); border-radius: 999px; padding: 0 6px; line-height: 1.6; }
 .ctab-m.is-ok { color: var(--ok); border-color: var(--ok); }
+
+/* v71: câu theo dạng — thẻ từ (bảng Chia thể: "Câu ví dụ"), bảng "Ngữ pháp dùng thể X" */
+.ctab-exb { display: table; margin-top: 3px; padding: 0; border: 0; background: none; color: var(--blue); font: inherit; font-size: .78em; font-weight: 600; cursor: pointer; }
+.ctab-exrow td { padding: 4px 6px 10px; background: var(--surface-2); }
+.ctab-exrow .ct-s, .fg-ct .ct-s { margin: 0; font-size: 1.05em; line-height: 2; }
+.ct-vi { margin: 0; }
+.fg-ct { margin: 4px 0 12px; padding: 8px 10px; border-radius: 10px; background: var(--surface-2); }
+.fg-ct:empty { display: none; }

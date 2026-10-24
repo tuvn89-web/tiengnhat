@@ -180,6 +180,8 @@ function conjExt(v, form) {
   let b = from === 'stem' ? conjugate(v, 'masu') : conjugate(v, from);
   if (!b) return null;
   if (from === 'stem') b = { mark: b.mark.replace(/ます$/, ''), kana: b.kana.replace(/ます$/, '') };
+  // v71: động từ kính ngữ chỉ đổi り → い trước ます / mệnh lệnh; ghép そう, ながら, 方… dùng thân り (おっしゃりながら, なさりそう)
+  if (from === 'stem' && v.hon) b = { mark: b.mark.replace(/い$/, 'り'), kana: b.kana.replace(/い$/, 'り') };
   if (form === 'zu' && v.group === 'suru') return { mark: v.base + 'せずに', kana: v.baseKana + 'せずに' };
   const mark = fn(b.mark), kana = addKana ? b.kana + addKana : fn(b.kana);
   return mark && kana ? { mark, kana } : null;

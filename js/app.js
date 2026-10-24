@@ -217,6 +217,8 @@ async function warmUp() {
   await warmMeanings(nextFrame); // v40: tách nghĩa cả kho từng mẻ nhỏ → câu hỏi đầu tiên của lượt không phải chờ
   await (await import('./practice.js')).warmCau(nextFrame);
   window.__tnWarm = true; // đã tính sẵn xong (bài kiểm tự động chờ cờ này)
+  // v71: tải sẵn câu theo dạng (N5…) lúc rảnh → Chuyển thể, thẻ từ dùng được cả khi sau này không có mạng
+  idle(() => import('./cauthe.js').then(m => m.loadCT()).catch(() => { }));
 }
 
 function routeBody() {
