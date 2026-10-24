@@ -21,6 +21,7 @@ const PAGES = [
   [/^luyen\/dem$/, () => 'Đếm số', ['luyen']],
   [/^luyen\/chia\?g=(.+)$/, m => { const g = D.items.get(decodeURIComponent(m[1])); return 'Luyện thể · ' + (g ? g.pattern : ''); }, ['nguphap']],
   [/^luyen\/chia$/, () => 'Luyện thể', ['luyen']],
+  [/^luyen\/chuyenthe$/, () => 'Chuyển thể', ['luyen']],
   [/^hoc$/, () => 'Trắc nghiệm', ['luyen']],
   [/^ghep$/, () => 'Ghép 6 cặp', ['luyen']],
   [/^danhdau$/, () => 'Đã đánh dấu ★', ['luyen']],
@@ -92,7 +93,7 @@ export function trail(hash) {
 }
 
 // Trang tự bắt đầu lượt học khi mở (từ Trang chủ…) → quay lại trang đã mở nó
-const AUTO = /^(moi|moi\/doan|on|onchu|onngu|onhon|nhanh3|nhaclai|chuhan\/moi|onbai\/.+)$/;
+const AUTO = /^(moi|moi\/doan|luyen\/chuyenthe|on|onchu|onngu|onhon|nhanh3|nhaclai|chuhan\/moi|onbai\/.+)$/;
 // tên bài học cho đường dẫn "← Về …" (lesson.js nạp sau nên đọc qua biến toàn cục)
 const lessonName = id => { const x = globalThis.__lessonById?.(id); return x ? `Bài ${x.n}: ${x.title}` : ''; };
 export function beginSession(ctx) {

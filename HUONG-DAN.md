@@ -1366,3 +1366,53 @@ Bài học → tab Từ mới → **Luyện từ đã tim → tab "Chuyển th�
 - App tìm mẫu theo tên mẫu (〜てから → thể て) và phần "Cấu trúc" của mẫu ("Động từ thể た + ことがある"). Chỉ tính các mẫu đang có trong máy (lộ trình N3–N1 chưa mở thì chưa có mẫu của cấp đó).
 
 **Tệp:** mới `js/formgram.js` (thể ↔ mẫu ngữ pháp; bảng G2F chuyển từ `js/forms.js` sang); sửa `js/heart.js`, `js/wordx.js`, `js/tap.js`, `js/forms.js`, `css/app.css`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.
+
+## 77. Bản v68 (24/10/2026): Thể / thì đang luyện nhớ theo tài khoản
+
+- **Luyện từ đã tim → Chuyển thể:** các thể và thì đang chọn (danh sách "Thể đang luyện") lưu vào **cài đặt học của tài khoản**. Đăng nhập trên máy khác, Chuyển thể dùng đúng lựa chọn đó.
+- Chưa đăng nhập thì vẫn nhớ trong máy như cũ. Lựa chọn bản v67 đã lưu riêng trong máy được chuyển sang cài đặt học ở lần mở đầu tiên.
+- **Gộp cài đặt khi đồng bộ:** cài đặt học vẫn lấy theo bản mới hơn. Riêng lựa chọn thể / thì mang mốc thời gian của chính nó, nên máy mới vừa làm bước đầu (cài đặt mới hơn) không đè mất lựa chọn đã lưu trên tài khoản.
+
+**Tệp:** sửa `js/heart.js`, `js/sync.js`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.
+
+## 78. Bản v69 (24/10/2026): Chuyển thể — nguồn từ, thuộc nhuần nhuyễn 6 tháng, nghe, câu ví dụ, lượt 3 phút
+
+**Lối vào**
+- **Luyện tập → Động từ và tính từ → Chuyển thể**: mở thẳng màn chuyển thể, mặc định lấy **từ đã học**.
+- Trong bài học vẫn vào như cũ: **Luyện từ đã tim → Chuyển thể** (mặc định lấy từ đã tim).
+
+**Lấy từ** (hàng đầu trong danh sách "Thể đang luyện", chọn được nhiều)
+- **Từ đã tim** (chỉ có khi vào từ bài học) · **Từ đã học** · **Đã đánh dấu ★** · **Hay sai**.
+- Mỗi nguồn ghi số từ chia được (động từ, tính từ).
+- "Hay sai" là các dạng đã trả lời sai ở Chuyển thể mà chưa thuộc nhuần nhuyễn. Chọn nguồn này thì hỏi thêm đúng những dạng đó, kể cả khi thể của dạng đó không nằm trong lựa chọn.
+- Nguồn, thể, thì, "Không nghe được", "Hỏi cả dạng đã thuộc nhuần nhuyễn" nhớ theo tài khoản như bản v68. Riêng "từ đã tim" không lưu (tim chỉ có trong một bài).
+
+**Thuộc nhuần nhuyễn**
+- Tính cho **từng dạng cụ thể** của từng từ: 投[な]げられた và 投[な]げられました là hai dạng riêng.
+- Trả lời đúng +1, sai −3 (không dưới 0). Đủ **10** thì dạng đó thuộc nhuần nhuyễn: **6 tháng** không hỏi.
+- Hết 6 tháng, dạng đó được hỏi lại. Đúng → thuộc thêm 6 tháng. Sai → mất "nhuần nhuyễn", về 7/10 (cần 3 lần đúng nữa).
+- Mỗi câu ghi tiến độ ở góc thẻ ("· 7/10", "· kiểm tra lại"). Sau khi trả lời có dòng "Dạng này: 7/10". Khi đạt có thông báo kèm ngày kiểm tra lại.
+- Công tắc **"Hỏi cả dạng đã thuộc nhuần nhuyễn"** (mặc định tắt) cho hỏi cả những dạng đó.
+- Lịch ôn của từ không đổi. Điểm theo thể (Luyện tập → Luyện thể) vẫn ghi như cũ.
+- **Thẻ từ → bảng Chia thể / Các dạng:** dạng đã luyện ghi **✓ nhuần nhuyễn** hoặc "6/10".
+
+**Ưu tiên chỗ yếu**
+- Từ có nhiều dạng hay sai được hỏi trước và nhiều hơn.
+- Trong một từ, dạng hay sai / điểm thấp ra nhiều hơn, dạng gần đủ 10 ra ít lại.
+
+**Nghe → chọn nghĩa**
+- Hàng hướng hỏi có thêm **Nghe** (khi máy có giọng tiếng Nhật): máy đọc dạng đã chia, không hiện chữ; chọn nghĩa. Có nút "Hiện chữ" và nút nghe lại. "Trộn" cũng xen câu nghe.
+- Công tắc **🔇 Không nghe được** (ở chỗ đông người, trên tàu): không hỏi câu nghe, không tự đọc. Bật lại khi nghe được.
+
+**Câu ví dụ sau mỗi câu** (5–10 câu, nhiều tình huống)
+- Tìm trong mọi câu có trong máy: ví dụ của từ, câu theo thể, ví dụ ngữ pháp, hội thoại, bài đọc, câu thực chiến.
+- Thứ tự: chính từ đó đúng dạng → chính từ đó cùng thể khác thì ("cùng thể") → câu ghép theo khuôn → từ khác cùng dạng ("từ khác"). Mỗi nhóm lấy xen kẽ các tình huống.
+- Dạng được tô màu. Chạm câu để xem bảng giải thích câu (chạm tiếp từ → chữ Hán như bản v66).
+
+**Lượt 3 phút** (như Ôn nhanh)
+- Đồng hồ ở góc trên, chỉ chạy khi app đang hiện. Hết giờ thì làm nốt câu đang dở, nút Tiếp thành **"Xem kết quả"**.
+- Màn kết quả: số câu đúng, số dạng vừa thuộc nhuần nhuyễn, các câu sai (dạng đúng + cách chia).
+- **Luyện lại câu sai**: hỏi lại lần lượt, sai thì xếp lại cuối, không tính giờ. **Thêm 3 phút**: lượt mới.
+- Mở từ Luyện tập thì nút Back của máy hỏi "Dừng lượt này?". Mở từ bài học thì vẫn chỉ nút ✕ mới thoát (để giữ tim).
+
+**Tệp:** mới `js/cthe.js`, `js/vidu.js`; sửa `js/heart.js`, `js/data.js`, `js/sync.js`, `js/wordx.js`, `js/app.js`, `js/nav.js`, `js/practice.js`, `js/util.js`, `css/app.css`, `sw.js`, `HUONG-DAN.md`.

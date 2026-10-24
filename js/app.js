@@ -69,6 +69,8 @@ const ROUTES = [
   [/^luyen\/tinhtu$/, v => renderTinhTu(v, ctx)],
   [/^luyen\/dem$/, v => renderDem(v, ctx)],
   [/^luyen\/chia(?:\?g=(.+))?$/, (v, m) => renderForms(v, ctx, m[1] ? decodeURIComponent(m[1]) : null)],
+  // v69: Chuyển thể (lối vào riêng, mặc định lấy từ đã học)
+  [/^luyen\/chuyenthe$/, v => import('./heart.js').then(m => m.runHeart(v, ctx, [], [], { formOnly: true }))],
   [/^onhon$/, v => renderMixed(v, ctx)],
   [/^hoc$/, v => renderQuizSetup(v, ctx)],
   [/^on$/, v => startQuick(v, 'due')],

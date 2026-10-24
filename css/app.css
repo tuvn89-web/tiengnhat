@@ -1535,3 +1535,33 @@ html.ff-doc :is(.doc-body, .gt-paper, .dl-line) ruby.rf:not(.show), html.ff-all 
 .hrt-fks .chip { font-size: .82em; min-height: 34px; padding: 3px 10px; }
 .hrt-fpick .row-btns { margin: 2px 0 10px; }
 .hrt-none { margin: 18px 0; }
+/* v69: Chuyển thể — nguồn từ, đồng hồ 3 phút, nghe, thuộc nhuần nhuyễn, câu ví dụ, kết quả lượt */
+.hrt-clock { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--ink); }
+.hrt-clock.is-over { color: var(--ng); }
+.hrt-quiet[aria-pressed="true"] { border-color: var(--ink-2); background: var(--surface-2); color: var(--ink); }
+.hrt-dirs .chip:disabled { opacity: .4; cursor: default; }
+.hrt-srcs .chip small { margin-left: 2px; }
+.hrt-im { margin: 2px 0 12px; align-items: flex-start; }
+.hrt-im small { display: block; }
+.hrt-prog { font-weight: 500; margin-left: 4px; letter-spacing: 0; }
+.hrt-listen { justify-content: center; padding-right: 0 !important; }
+.say-big { width: 72px; height: 72px; border: 2px solid var(--blue); background: var(--blue-soft); color: var(--blue); }
+.say-big .ic { width: 34px; height: 34px; }
+.hrt-reveal { text-align: center; }
+.hrt-m { margin: 6px 0 2px; color: var(--ink-2); }
+.hrt-m.is-ok { color: var(--ok); font-weight: 600; }
+.hrt-vd { margin-top: 8px; border-top: 1px dashed var(--line); padding-top: 4px; text-align: left; }
+.hrt-vd > summary { cursor: pointer; color: var(--blue); font-weight: 600; padding: 6px 0; }
+.hrt-vdl { list-style: none; padding: 0; margin: 0 0 8px; }
+.hrt-vdl > li { padding: 6px 0; border-bottom: 1px solid var(--line); }
+.hrt-vdl .hrt-vj { margin: 0; font-size: 1.08em; line-height: 2; }
+.hrt-vdl .small { margin: 0; }
+.hrt-vdl .tag { font-size: .78em; }
+.hrt-res .h1 { margin-top: 10px; }
+.hrt-sum { font-size: 1.1em; }
+.hrt-wl { list-style: none; padding: 0; margin: 0 0 8px; }
+.hrt-wl li { line-height: 1.9; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.hrt-res-btns { margin: 14px 0 24px; }
+/* v69 (C7): thẻ từ — bảng Chia thể ghi tiến độ thuộc nhuần nhuyễn của từng dạng */
+.ctab-m { display: table; margin-top: 2px; font-size: .74em; font-weight: 600; color: var(--ink-2); border: 1px solid var(--line); border-radius: 999px; padding: 0 6px; line-height: 1.6; }
+.ctab-m.is-ok { color: var(--ok); border-color: var(--ok); }

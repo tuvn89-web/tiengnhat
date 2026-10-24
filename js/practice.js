@@ -552,6 +552,7 @@ export function renderHub(view) {
     <h2 class="h2">Động từ và tính từ</h2>
     <nav class="modes">
       ${card('#/luyen/chia', 'list', 'Luyện thể', 'Gõ thể, chuỗi biến đổi, nhận diện ngược, đổi câu, tự – tha, kính ngữ; tính từ, danh từ + だ; 60 giây tốc độ', 'lverbs')}
+      ${card('#/luyen/chuyenthe', 'quiz', 'Chuyển thể', 'Từ đã học, đã đánh dấu ★, hay sai: chọn dạng đúng (投[な]げられていた), chọn nghĩa, nghe; lượt 3 phút; đúng 10 lần là thuộc nhuần nhuyễn')}
       ${card('#/luyen/the', 'quiz', 'Thể động từ trong câu', 'Bị động, sai khiến, khả năng… trong câu ngẫu nhiên', 'lverbs')}
       ${card('#/nguphap/luyen?t=conj', 'list', 'Chia động từ', 'Chọn thể đúng của từng động từ, có giải thích luật chia', 'verbs')}
       ${card('#/luyen/tinhtu', 'book', 'Tính từ trong câu', 'Không ~, đã ~, trông có vẻ ~, quá ~; 重[おも]い → 重[おも]さ; trái nghĩa', 'adjs')}

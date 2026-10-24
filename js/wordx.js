@@ -10,6 +10,7 @@ import { COUNTERS, counterOf, numKanji, counterMark, SCALES, NEG_ADV } from './c
 import { markBtnHTML } from './marks.js';
 import { hvTrapHTML, hvDaoHTML } from './hvbay.js';
 import { gramsForForm } from './formgram.js';
+import { crec, isMastered, MASTER, fmtDay } from './cthe.js';
 
 const sayBtn = (text, label = 'Nghe') => `<button type="button" class="icon-btn say" data-say="${esc(text)}" aria-label="${label}">${icon('speaker')}</button>`;
 export const hira = s => String(s || '').replace(/[ァ-ヶ]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60));
@@ -77,13 +78,20 @@ function fHead(key, name, lv, mark) {
   const inner = `${esc(name)}${lv ? `<small>${lv}</small>` : ''}`;
   return n ? `<button type="button" class="ctab-f" data-fgram="${esc(key)}" data-fmark="${esc(mark)}" aria-label="${esc(name)} — ${n} mẫu ngữ pháp dùng thể này">${inner}<small class="ctab-g">${n} mẫu ngữ pháp ›</small></button>` : inner;
 }
+// v69 (C7): dạng đã luyện ở Chuyển thể — ✓ nhuần nhuyễn (đúng đủ 10 lần, 6 tháng sau kiểm tra lại) hoặc "6/10"
+function mBadge(it, kana) {
+  const r = crec(it.id, kana);
+  if (!r || !r.n) return '';
+  if (isMastered(r)) return `<small class="ctab-m is-ok" title="Thuộc nhuần nhuyễn ở Chuyển thể — kiểm tra lại ${fmtDay(r.due)}">✓ nhuần nhuyễn</small>`;
+  return `<small class="ctab-m" title="Chuyển thể: đúng đủ ${MASTER} lần là thuộc nhuần nhuyễn">${r.m ? 'kiểm tra lại' : `${r.s}/${MASTER}`}</small>`;
+}
 function conjTableHTML(it) {
   const v = verbInfo(it);
   if (!v) return '';
   const learned = learnedForms();
   const row = f => {
     const c = conjugate(v, f);
-    return c ? `<tr><th scope="row">${fHead(f, FORMS[f], FORM_LEVEL[f], c.mark)}</th><td lang="ja">${rich(c.mark)}</td><td>${esc(formVi(f, it))}</td></tr>` : '';
+    return c ? `<tr><th scope="row">${fHead(f, FORMS[f], FORM_LEVEL[f], c.mark)}</th><td lang="ja">${rich(c.mark)}${mBadge(it, c.kana)}</td><td>${esc(formVi(f, it))}</td></tr>` : '';
   };
   const fs = Object.keys(FORMS).filter(f => hasForm(v, f));
   const a = fs.filter(f => learned.has(f)), b = fs.filter(f => !learned.has(f));
@@ -113,7 +121,7 @@ function adjTableHTML(it) {
   if (!a) return '';
   const rows = Object.keys(AFORMS).map(f => {
     const c = adjConj(a, f);
-    return c ? `<tr><th scope="row">${fHead('adj:' + f, AFORMS[f], '', c.mark)}</th><td lang="ja">${rich(c.mark)}${c.pol && c.pol !== c.mark ? `<small class="pol">${rich(c.pol)}</small>` : ''}</td><td>${esc(adjVi(f, it.vi))}</td></tr>` : '';
+    return c ? `<tr><th scope="row">${fHead('adj:' + f, AFORMS[f], '', c.mark)}</th><td lang="ja">${rich(c.mark)}${c.pol && c.pol !== c.mark ? `<small class="pol">${rich(c.pol)}</small>` : ''}${mBadge(it, reading(c.mark))}</td><td>${esc(adjVi(f, it.vi))}</td></tr>` : '';
   }).join('');
   return `<h3 class="h3">Các dạng <small class="muted">(app tự chia)</small></h3><table class="ctab"><tbody>${rows}</tbody></table>`;
 }

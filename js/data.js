@@ -25,6 +25,7 @@ export const D = {
   tests: {},          // id -> lần kiểm tra trình độ {id, t, kind, level, est, pct, levels, skills, applied, undone}
   kana: {},           // chữ kana -> {b (0–5), ok, ng, t} — Chặng 0
   fstat: {},          // thể -> {v5:[đúng, lần], v1, v3, i, na, n, t} — điểm theo thể (B4)
+  cthe: {},           // v69: '<mã từ>|<kana của dạng>' -> {s, w, n, m, due, t} — thuộc nhuần nhuyễn ở Chuyển thể (cthe.js)
   lessons: {},        // mã bài -> {steps:{n:t}, test:{pct,t}, done, rev:[t…], writes:[…], t} — tiến độ bài học (Đ9)
   nbooks: {},         // mã sổ -> {name, t, _del?} — Sổ tay (Đ10)
   nmarks: {},         // mã mục -> {b:{mã sổ:1}, t} — mục nằm trong sổ nào
@@ -43,6 +44,7 @@ export async function loadAll(onStep) {
   D.tests = await kvGet('tests', {});
   D.kana = await kvGet('kana', {});
   D.fstat = await kvGet('fstat', {});
+  D.cthe = await kvGet('cthe', {});
   D.lessons = await kvGet('lessons', {});
   D.nbooks = await kvGet('nbooks', {});
   D.nmarks = await kvGet('nmarks', {});
