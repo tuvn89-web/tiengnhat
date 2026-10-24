@@ -151,7 +151,7 @@ export function makeSent(ph, t) {
 }
 
 // ---------- F3: khuôn câu cho từng mẫu ngữ pháp ----------
-const GTPL = [
+export const GTPL = [
   { keys: ['てください'], f: 'te', tail: ['ください'], vi: 'Hãy {VP}.' },
   { keys: ['ないでください'], f: 'nai', suf: 'で', tail: ['ください'], vi: 'Đừng {VP}.' },
   { keys: ['てもいいですか', 'てもいい'], f: 'te', tail: ['もいいですか'], vi: 'Tôi {VP} có được không?' },
@@ -349,7 +349,7 @@ export async function renderThe(view, ctx) {
 }
 
 // ---------- F5: tính từ trong câu ----------
-const ATPL = [
+export const ATPL = [
   { f: 'desu', jp: (S2, a) => `${S2.jp}は${a.pol}`, vi: (S2, v) => `${S2.vi} ${v}.` },
   { f: 'nai', jp: (S2, a) => `${S2.jp}は${a.pol.split(' / ')[0]}`, vi: (S2, v) => `${S2.vi} không ${v}.` },
   { f: 'ta', jp: (S2, a) => `${S2.jp}は昨日[きのう]${a.pol}`, vi: (S2, v) => `${S2.vi} hôm qua ${v}.` },

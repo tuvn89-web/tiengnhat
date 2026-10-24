@@ -103,7 +103,7 @@ const candsOf = it => {
 };
 
 // text = câu (chữ trơn), i = chỗ bắt đầu của từ trong câu.
-// Trả về null (không phải động từ / tính từ, hoặc không khớp dạng nào) | { mark, names, vi, dict: true khi là dạng từ điển, unsure: true khi hai thể trùng chữ }
+// Trả về null (không phải động từ / tính từ, hoặc không khớp dạng nào) | { mark, names, vi, dict: true khi là dạng từ điển, unsure: true khi hai thể trùng chữ, len: số chữ khớp }
 export function formAt(it, text, i = 0) {
   if (!it || !text) return null;
   const cs = candsOf(it);
@@ -118,12 +118,12 @@ export function formAt(it, text, i = 0) {
   }
   if (!top.length) return null;
   const best = top[0];
-  if (top.length === 1) return { mark: best.mark, names: best.names, vi: best.vi, dict: !best.names.length };
+  if (top.length === 1) return { mark: best.mark, names: best.names, vi: best.vi, dict: !best.names.length, len };
   // nhóm 2: 〜られる vừa là thể khả năng vừa là bị động — ghi cả hai, không chọn thay người học
   const [a, b] = top;
   if (top.length === 2 && new Set([a.k0, b.k0]).size === 2 && [a.k0, b.k0].every(k => k === 'kano' || k === 'ukemi') && a.names.slice(1).join() === b.names.slice(1).join()) {
     const [ps, kn] = a.k0 === 'ukemi' ? [a, b] : [b, a];
-    return { mark: best.mark, names: ['bị động hoặc khả năng', ...a.names.slice(1)], vi: `${ps.vi} — hoặc: ${kn.vi} (tùy câu)`, both: true };
+    return { mark: best.mark, names: ['bị động hoặc khả năng', ...a.names.slice(1)], vi: `${ps.vi} — hoặc: ${kn.vi} (tùy câu)`, both: true, len };
   }
-  return { mark: best.mark, names: [], vi: '', unsure: true };
+  return { mark: best.mark, names: [], vi: '', unsure: true, len };
 }

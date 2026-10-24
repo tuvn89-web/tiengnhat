@@ -1416,3 +1416,14 @@ Bài học → tab Từ mới → **Luyện từ đã tim → tab "Chuyển th�
 - Mở từ Luyện tập thì nút Back của máy hỏi "Dừng lượt này?". Mở từ bài học thì vẫn chỉ nút ✕ mới thoát (để giữ tim).
 
 **Tệp:** mới `js/cthe.js`, `js/vidu.js`; sửa `js/heart.js`, `js/data.js`, `js/sync.js`, `js/wordx.js`, `js/app.js`, `js/nav.js`, `js/practice.js`, `js/util.js`, `css/app.css`, `sw.js`, `HUONG-DAN.md`.
+
+## 79. Bản v70 (24/10/2026): Câu ví dụ của Chuyển thể chỉ lấy đúng dạng đang hỏi
+
+- Câu hỏi / đáp án là 沸[わ]かそう thì câu ví dụ **chỉ có 沸[わ]かそう của chính từ 沸[わ]かす**. Không lấy câu của từ khác (閉[し]まろう, 見[み]せよう…), cũng không lấy thể / thì khác của cùng từ.
+- App kiểm từng câu có đúng dạng không. Câu có 食[た]べたい, 食[た]べたく, 食[た]べたかった, 食[た]べたら, 食[た]べたり không tính là ví dụ của 食[た]べた. Câu có 食[た]べている không tính là ví dụ của 食[た]べて. 〜ないで vẫn tính là ví dụ của thể ない.
+- Thể khả năng trùng chữ với một động từ khác: 切[き]れる vừa là "có thể cắt" (của 切[き]る) vừa là động từ 切[き]れる "đứt, hết". Khi đó chỉ lấy câu ví dụ của chính 切[き]る.
+- Thứ tự: câu thật trong dữ liệu (xen kẽ tình huống, câu ngắn trước), rồi câu ghép theo khuôn của chính từ đó, ví dụ お湯[ゆ]を沸[わ]かそうと思[おも]います. Tối đa 10 câu.
+- Dòng tiêu đề ghi "Câu ví dụ (N) · đúng dạng 沸[わ]かそう". Dạng chưa có câu nào trong dữ liệu thì ghi "Chưa có câu nào có đúng dạng … trong dữ liệu". Dạng ghép nhiều thể + thì (投[な]げられていた…) thường rơi vào trường hợp này.
+- Sửa kèm: trả lời đúng thì khung đáp án nền xanh (trước đây luôn nền đỏ như khi sai).
+
+**Tệp:** sửa `js/vidu.js`, `js/heart.js`, `js/inform.js`, `js/practice.js`, `css/app.css`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.

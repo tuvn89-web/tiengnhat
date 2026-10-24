@@ -11,6 +11,7 @@
 // v69: Chuyển thể lấy từ nhiều nguồn (từ đã tim · từ đã học · đã đánh dấu ★ · hay sai), có lối vào riêng ở Luyện tập; "thuộc nhuần nhuyễn"
 // từng dạng (cthe.js); ưu tiên chỗ yếu; Nghe → chọn nghĩa (có công tắc "Không nghe được"); 5–10 câu ví dụ sau mỗi câu (vidu.js);
 // lượt 3 phút như Ôn nhanh, hết giờ có màn kết quả, "Luyện lại câu sai", "Thêm 3 phút".
+// v70: câu ví dụ chỉ lấy câu có đúng dạng đang hỏi của chính từ đó (không lấy từ khác, không lấy thể / thì khác).
 import { esc, icon, wordHTML, shuffle, beep, buzz, toast, rubyHTML, reading, plain, activeNow } from './util.js';
 import { kvGet } from './db.js';
 import { FORMS, FORM_LEVEL, BASE_FORMS, verbInfo, conjugate, formVi, wrongForms, ruleText, shortVi, verbVi } from './conj.js';
@@ -574,7 +575,7 @@ export function runHeart(view, ctx, items, pool, { onDone, formOnly = false } = 
       : `Dạng này: ${m.r.s}/${MASTER}${ok ? '' : ' (sai trừ 3)'} — đủ ${MASTER} là thuộc nhuần nhuyễn.`;
     const after = view.querySelector('.after');
     after.hidden = false;
-    after.innerHTML = `<p class="after-msg"><b lang="ja">${jpOf(c)}</b> = <span lang="ja">${wordHTML(it, 'furi')}</span>${c.names ? ` · ${esc(c.names.join(' · '))}` : ''} · ${esc(c.vi)}</p>
+    after.innerHTML = `<p class="after-msg${ok ? ' is-ok' : ''}"><b lang="ja">${jpOf(c)}</b> = <span lang="ja">${wordHTML(it, 'furi')}</span>${c.names ? ` · ${esc(c.names.join(' · '))}` : ''} · ${esc(c.vi)}</p>
       ${c.steps ? `<p class="small hrt-steps">Cách chia: <span lang="ja">${c.steps.map(m => rubyHTML(m)).join(' → ')}</span></p>` : ''}
       ${!ok && chosen ? `<p class="small">Bạn chọn <b lang="ja">${jpOf(chosen)}</b>: ${esc(chosen.vi)}.</p>` : !ok && dir === 'vj' ? '<p class="small">Phương án bạn chọn là lỗi chia hay gặp.</p>' : ''}
       ${rule ? `<p class="small muted">${esc(rule)}</p>` : ''}
@@ -584,36 +585,33 @@ export function runHeart(view, ctx, items, pool, { onDone, formOnly = false } = 
     nextBar(ok);
     fillExamples(it, c, st.qid);
   }
-  // v69 (C5): 5–10 câu ví dụ, nhiều tình huống — chính từ này trước, rồi cùng thể khác thì, câu ghép theo khuôn, từ khác cùng dạng
+  // v69 (C5) / v70: câu ví dụ — CHỈ câu có đúng dạng đang hỏi của chính từ này (tối đa 10, xen kẽ tình huống, câu ngắn trước);
+  // thiếu câu thật thì thêm câu ghép theo khuôn của chính từ này (cũng phải đúng dạng đó)
   async function fillExamples(it, c, qid) {
     const box = () => (st.qid === qid ? view.querySelector('.hrt-vdl') : null);
+    const surf = plain(c.mark);
     try {
       const V = await import('./vidu.js');
-      const surf = plain(c.mark);
-      const stem = c.cv ? (c.cv[1] === 'tai' ? '' : plain(c.steps?.[1] || '').slice(0, -1)) : CHAIN.has(c.f) && c.f !== 'tai' && !c.fs[0].startsWith('adj:') ? surf.slice(0, -1) : '';
-      let made = [];
-      if (!c.combo && !c.fs[0].startsWith('adj:') && verbInfo(it)) {
+      const made = [];
+      if (!c.combo) {
         const P = await import('./practice.js');
-        for (const t of P.FTPL.filter(t => c.fs.includes(t.form))) for (const ph of P.verbPhrases(it).slice(0, 3)) { const x = P.makeSent(ph, t); if (x) made.push({ jp: x.jp, vi: x.vi, hl: plain(x.verb).replace(/[、！。]$/, '') }); }
-        made = shuffle(made);
+        const cap = x => (x ? x.charAt(0).toUpperCase() + x.slice(1) : x);
+        if (!c.fs[0].startsWith('adj:') && verbInfo(it)) {
+          for (const ph of P.verbPhrases(it)) for (const t of [...P.FTPL, ...P.GTPL]) { const x = P.makeSent(ph, t); if (x) made.push({ jp: x.jp, vi: x.vi }); }
+        } else if (adjInfo(it)) {
+          const a = adjInfo(it), v = shortVi(it.vi);
+          for (const sj of (it.subj || []).length ? it.subj : [{ jp: 'これ', vi: 'cái này' }]) for (const t of P.ATPL) { const x = adjConj(a, t.f); if (x?.pol) made.push({ jp: t.jp(sj, x) + '。', vi: cap(t.vi(sj, v)) }); }
+        }
       }
-      const adj = c.fs[0].startsWith('adj:');
-      const at = adj && adjInfo(it)?.type; // tính từ đuôi い / đuôi な chia khác nhau (高くする / 親切にする) → chỉ lấy cùng loại
-      const same = o => (adj ? !verbInfo(o) && adjInfo(o)?.type === at : verbInfo(o));
-      const cand = [...shuffle(wordPool().filter(o => o.id !== it.id && same(o))), ...shuffle(D.vocab.filter(o => o.id !== it.id && same(o))).slice(0, 300)];
-      const formOf = o => {
-        let x = null;
-        if (c.cv) x = comboForm(o, ...c.cv);
-        else if (adj) { const a = adjInfo(o); x = a && adjConj(a, c.f); }
-        else { const v = verbInfo(o); x = v && conjugate(v, c.f); }
-        const p = x && plain(x.mark);
-        return p && p.length >= 3 ? { surf: p } : null;
-      };
-      const list = await V.examplesFor({ surf, kana: c.kana, stem: stem.length >= 3 ? stem : '', made, others: cand.map(o => () => formOf(o)), max: 10, min: 5 });
+      // thể khả năng trùng chữ với động từ khác (切れる, 割れる, 売れる…): câu trong dữ liệu có thể là của từ kia → chỉ lấy câu của chính từ này
+      const kn = verbInfo(it) && c.fs.includes('kano') && conjugate(verbInfo(it), 'kano');
+      const onlyOwn = !!kn && D.vocab.some(o => o.id !== it.id && plain(o.kanji || o.kana) === plain(kn.mark));
+      const list = await V.examplesFor({ it, surf, kana: c.kana, made: shuffle(made), max: 10, onlyOwn });
       const b = box(); if (!b) return;
-      b.innerHTML = list.length ? list.map(x => `<li><p class="snt hrt-vj" lang="ja" data-jp="${esc(x.jp)}" data-vi="${esc(x.vi)}">${rubyHTML(x.jp)}</p><p class="small muted">${esc(x.vi)} <span class="tag">${esc(x.situ)}</span>${x.kind === 'other' ? ' <span class="tag">từ khác</span>' : x.kind === 'stem' ? ' <span class="tag">cùng thể</span>' : ''}</p></li>`).join('')
-        : '<li class="small muted">Chưa có câu ví dụ nào có dạng này trong dữ liệu.</li>';
-      const sm = view.querySelector('.hrt-vd summary'); if (sm && st.qid === qid) sm.textContent = `Câu ví dụ (${list.length}) · chạm câu để xem giải thích`;
+      b.innerHTML = list.length ? list.map(x => `<li><p class="snt hrt-vj" lang="ja" data-jp="${esc(x.jp)}" data-vi="${esc(x.vi)}">${rubyHTML(x.jp)}</p><p class="small muted">${esc(x.vi)} <span class="tag">${esc(x.situ)}</span></p></li>`).join('')
+        : `<li class="small muted">Chưa có câu nào có đúng dạng <span lang="ja">${rubyHTML(c.mark)}</span> trong dữ liệu.</li>`;
+      const sm = view.querySelector('.hrt-vd summary');
+      if (sm && st.qid === qid) sm.innerHTML = list.length ? `Câu ví dụ (${list.length}) · đúng dạng <span lang="ja">${rubyHTML(c.mark)}</span> · chạm câu để xem giải thích` : 'Câu ví dụ (0)';
     } catch { const b = box(); if (b) b.innerHTML = '<li class="small muted">Chưa tìm được câu ví dụ.</li>'; }
   }
 
