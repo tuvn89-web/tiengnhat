@@ -2,7 +2,7 @@
 import { esc, rich, plain, DAY, startOfDay } from './util.js';
 import { recapState } from './dot6.js';
 import { D, LEVELS, setPrefs, actToday, saveLesson } from './data.js';
-import { levelLocked, lockCardHTML } from './lock.js';
+import { levelLocked, lockCardHTML, lessonLocked } from './lock.js';
 import { cloudEnabled as cloudOn } from './cloud.js';
 import { status, stats, P, progVersion, dueDirs, overdueMs } from './srs.js';
 import { chips, bindChips, readChip } from './ui.js';
@@ -326,8 +326,12 @@ export function planToday() {
   const cl = currentLesson(cur);
   if (cl) { const s = lessonState(cl), nx = s.next >= 0 ? s.next : STEPS.length - 1, did = actToday('lesson'); out.push({ done: did > 0, label: `Bài ${cl.n}: ${plain(cl.title)}`, sub: `${s.nDone}/${STEPS.length} bước${did ? ` · hôm nay đã làm ${did} lượt` : ''} · tiếp: ${STEPS[nx][1]}`, href: `#/bai/${encodeURIComponent(cl.id)}?b=${nx + 1}`, btn: 'Học' }); }
   const hasNewV = D.vocab.some(it => status(it) === 'new');
-  const lnew = cl && cl.words.some(id => { const it = D.items.get(id); return it && status(it) === 'new'; });
-  if (hasNewV && plan.v > 0) out.push({ done: newV >= plan.v, label: `Học ${plan.v} từ mới`, sub: `Hôm nay đã học ${newV}${lnew ? ` · từ của bài ${cl.n}` : ''}`, href: lnew ? `#/bai/${encodeURIComponent(cl.id)}?b=2` : '#/moi', btn: 'Học' });
+  // v65: "Học N từ mới" luôn mở tab Từ mới của bài trong Lộ trình — bài đang học còn từ mới thì bài đó, hết thì bài kế tiếp còn từ mới
+  const newIn = l => l.words.some(id => { const it = D.items.get(id); return it && status(it) === 'new'; });
+  let wl = null;
+  if (cl) { const al = allLessons(), i = al.findIndex(x => x.id === cl.id); wl = al.slice(Math.max(0, i)).find(x => !lessonLocked(x) && newIn(x)) || null; }
+  const wTo = wl || cl;
+  if (hasNewV && plan.v > 0) out.push({ done: newV >= plan.v, label: `Học ${plan.v} từ mới`, sub: `Hôm nay đã học ${newV}${wl ? ` · từ của bài ${wl.n}${wl.level !== cl.level ? ` (${wl.level})` : ''}` : ''}`, href: wTo ? `#/bai/${encodeURIComponent(wTo.id)}?b=2` : '#/moi', btn: 'Học' });
   // v31 (N4): nhắc lại từ mới học hôm nay, sau ít nhất 4 giờ
   const rc = recapState();
   if (rc.ready.length) out.push({ done: false, label: `Nhắc lại ${rc.ready.length} từ mới hôm nay`, sub: 'Học từ 4 giờ trước — lượt ngắn, không đổi lịch ôn', href: '#/nhaclai', btn: 'Nhắc lại' });

@@ -477,7 +477,7 @@ export function renderLessonSents(view, ctx, id) {
     <div class="row-btns"><button class="btn btn-primary" data-act="ok">Đã đọc xong</button></div>`;
   bindSay(view);
   view.querySelector('[data-o=vi]').onchange = e => view.querySelectorAll('.rd-vi').forEach(v => { v.hidden = !e.target.checked; });
-  view.querySelector('.rd-sents').onclick = e => { const li = e.target.closest('li'); if (li && !e.target.closest('[data-say]')) { const v = li.querySelector('.rd-vi'); v.hidden = !v.hidden; } };
+  view.querySelector('.rd-sents').onclick = e => { const li = e.target.closest('li'); if (li && !e.target.closest('[data-say], .rd-jp')) { const v = li.querySelector('.rd-vi'); v.hidden = !v.hidden; } }; // v66: chạm câu → bảng câu; chạm dòng nghĩa → ẩn / hiện
   view.querySelector('[data-act=ok]').onclick = async () => {
     await markStep(x, 'read');
     ctx.sessionDone?.(); ctx.go('#/bai/' + encodeURIComponent(id) + '?b=6');

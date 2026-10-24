@@ -1,7 +1,7 @@
 import { heartRoute } from './heart.js';
 import { $, esc, icon, toast, toastNewPage, debounce, fmtDate, setFuriFade } from './util.js';
 import { loadSettings, S } from './settings.js';
-import { D, loadAll, TOPICS } from './data.js';
+import { D, loadAll, TOPICS, checkDataUpdate } from './data.js';
 import { loadProgress, stats, status as stStatus, progVersion } from './srs.js';
 import { renderQuizSetup, runQuiz, buildQuestions, selectItems } from './quiz.js';
 import { runLearn } from './learn.js';
@@ -28,6 +28,7 @@ import { setPrefs } from './data.js';
 import { renderLesson, learnLesson, renderLessonSents, runLessonTest, runLessonReview, runTongHop, renderCanDo } from './lesson.js';
 import { renderDocList, renderDoc } from './reader.js';
 import { openGrammarSheet } from './explain.js';
+import { tapClick, stackOpen, initTap } from './tap.js';
 import { initSeason, seasonChipHTML } from './season.js';
 import { initBackFab, backFabRoute } from './backfab.js';
 import { initMarks, renderMarked } from './marks.js';
@@ -337,7 +338,7 @@ function renderHome(v) {
 
     ${D.errors.length ? `<div class="warn">${D.errors.map(esc).join('<br>')}</div>` : ''}
 
-    ${kd ? `<section class="card kday" data-bare>
+    ${kd ? `<section class="card kday" data-bare data-kj-ok>
       <h2 class="h2">Chữ Hán hôm nay</h2>
       <button type="button" class="kday-btn" data-kopen="${esc(kd.char)}">
         <span class="kday-c" lang="ja">${esc(kd.char)}</span>
@@ -422,28 +423,62 @@ async function syncAll() {
 }
 const scheduleSync = debounce(async () => { const r = await syncAll(); syncBadge(); if (r.error) toast('Chưa đồng bộ được: ' + r.error); }, 1500);
 
+// v64: bản app mới cài ngầm rồi CHỜ. Áp dụng lúc mở app (trước khi nạp dữ liệu, xem swAtStart) hoặc khi app chuyển ra nền
+// ngoài lượt học (applyPending) — không còn tải lại trang ngay khi đang dùng. Dữ liệu mới cũng vậy (checkDataUpdate).
+const pending = { app: false, data: false };
+let swByUs = false;
 function registerSW() {
   if (!('serviceWorker' in navigator) || !location.protocol.startsWith('http')) return;
   const had = !!navigator.serviceWorker.controller;
+  const mark = w => { if (w && had) w.addEventListener('statechange', () => { if (w.state === 'installed') pending.app = true; }); };
   navigator.serviceWorker.register('sw.js').then(reg => {
-    if (reg.waiting) reg.waiting.postMessage('skipWaiting');
+    if (reg.waiting && had) pending.app = true;
+    mark(reg.installing);
+    reg.addEventListener('updatefound', () => mark(reg.installing));
   }).catch(() => { });
-  // Bản mới đã cài → tải lại trang. Đang giữa lượt học thì chờ xong lượt (về trang khác) mới tải lại.
-  let done = false;
-  const reload = () => {
-    if (done) return; done = true;
-    try { sessionStorage.setItem('tn-updated', '1'); } catch { }
-    location.reload();
-  };
+  // bản mới nhận quyền điều khiển (do app bảo, hoặc một thẻ khác của app đã áp dụng) → tải lại khi rảnh
   navigator.serviceWorker.addEventListener('controllerchange', () => {
     if (!had) return;
-    if (document.querySelector('.run')) window.addEventListener('hashchange', reload, { once: true });
-    else reload();
+    try { sessionStorage.setItem('tn-updated', '1'); } catch { }
+    if (swByUs) return location.reload();
+    pending.app = true;
+    window.addEventListener('hashchange', () => { if (!document.querySelector('.run')) location.reload(); });
   });
+}
+// lúc mở app: đang có bản mới chờ → áp dụng ngay (chưa nạp dữ liệu nên tải lại rất nhanh)
+function activateWaiting(w) {
+  swByUs = true;
+  let done = false;
+  const go = () => { if (!done) { done = true; location.reload(); } };
+  navigator.serviceWorker.addEventListener('controllerchange', go, { once: true });
+  w.addEventListener('statechange', () => { if (w.state === 'activated') go(); });
+  w.postMessage('skipWaiting');
+  setTimeout(go, 4000); // phòng khi không nhận được tín hiệu
+}
+async function swAtStart() {
+  try {
+    if (!('serviceWorker' in navigator) || !navigator.serviceWorker.controller) return false;
+    const reg = await navigator.serviceWorker.getRegistration();
+    let n = 0; try { n = +sessionStorage.getItem('tn-swtry') || 0; } catch { }
+    if (!reg?.waiting || n >= 2) { try { sessionStorage.removeItem('tn-swtry'); } catch { } return false; } // thử tối đa 2 lần mỗi lần mở, không lặp mãi
+    try { sessionStorage.setItem('tn-swtry', String(n + 1)); sessionStorage.setItem('tn-updated', '1'); } catch { }
+    activateWaiting(reg.waiting);
+    return true;
+  } catch { return false; }
+}
+// app chuyển ra nền (ngoài lượt học) → áp dụng bản app / dữ liệu mới đã tải sẵn; quay lại là bản mới
+async function applyPending() {
+  if (!(pending.app || pending.data) || document.querySelector('.run')) return;
+  if (pending.app) {
+    const reg = await navigator.serviceWorker?.getRegistration().catch(() => null);
+    if (reg?.waiting) { try { sessionStorage.setItem('tn-updated', '1'); } catch { } activateWaiting(reg.waiting); return; }
+  }
+  if (pending.data) { try { sessionStorage.setItem('tn-dataupd', '1'); } catch { } location.reload(); }
 }
 function announceUpdate() {
   try {
     if (sessionStorage.getItem('tn-updated')) { sessionStorage.removeItem('tn-updated'); toast('Đã cập nhật app lên bản mới.'); }
+    if (sessionStorage.getItem('tn-dataupd')) { sessionStorage.removeItem('tn-dataupd'); toast('Đã cập nhật dữ liệu mới.'); }
     const lk = sessionStorage.getItem('tn-lock');
     if (lk) { sessionStorage.removeItem('tn-lock'); toast(lk); }
   } catch { }
@@ -487,25 +522,47 @@ async function init() {
   // v32: thanh trên trong suốt; cuộn xuống thì thành kính mờ để chữ trang không đè tiêu đề
   const tb = $('#topbar'), tbSync = () => tb.classList.toggle('is-scrolled', scrollY > 4);
   addEventListener('scroll', tbSync, { passive: true }); tbSync();
-  view.innerHTML = '<p class="muted loading">Đang tải dữ liệu…</p>';
+  view.innerHTML = '<div class="boot"><p class="muted loading">Đang tải dữ liệu…</p><div class="boot-bar" aria-hidden="true"><i></i></div><p class="small muted boot-note"></p></div>';
+  if (await swAtStart()) { view.querySelector('.loading').textContent = 'Đang cập nhật app lên bản mới…'; return; }
   import('./docfit.js').then(m => m.loadDocWords()); // v51: % từ đã học của từng bài đọc
-  try { await loadAll(); } catch (e) { D.errors.push('Lỗi tải dữ liệu: ' + (e?.message || e)); }
+  // v64: màn chờ có tiến trình (số tệp đã tải / tổng); lần đầu ghi dung lượng cần tải
+  const bootStep = s => {
+    const L = view.querySelector('.boot .loading'); if (!L) return;
+    if (s.phase === 'data') {
+      L.textContent = s.total ? `Đang tải dữ liệu… ${s.done}/${s.total}` : 'Đang tải dữ liệu…';
+      view.querySelector('.boot-bar i').style.width = `${s.total ? (s.done / s.total) * 100 : 0}%`;
+      if (s.bytes) view.querySelector('.boot-note').textContent = `Lần đầu mở app: tải khoảng ${(s.bytes / 1e6).toFixed(1).replace('.', ',')} MB dữ liệu (một lần), các lần sau mở ngay.`;
+    } else if (s.phase === 'lock') L.textContent = 'Đang đọc nội dung lộ trình đã mở…';
+    else if (s.phase === 'build') L.textContent = 'Đang sắp xếp kho từ…';
+  };
+  let BT = null;
+  try { BT = await loadAll(bootStep); } catch (e) { D.errors.push('Lỗi tải dữ liệu: ' + (e?.message || e)); }
   import('./hvbay.js').then(m => m.loadHvBay()); // v50: nhãn "bẫy Hán Việt"; v57: sau khi nạp dữ liệu (gộp phần của cấp đã mở)
+  const tp = performance.now();
   await loadProgress();
+  if (BT) BT.prog = performance.now() - tp;
   window.addEventListener('hashchange', route);
   initNav(ctx);
+  // v66: chạm câu → bảng câu → bảng từ → thẻ chữ (tap.js); bảng mở từ trong bảng thì xếp chồng, có nút ‹ quay lại
+  initTap();
   document.addEventListener('click', e => {
     const ko = e.target.closest('[data-kopen]');
-    if (ko) { e.preventDefault(); openKanji(ko.dataset.kopen); return; }
+    if (ko) { e.preventDefault(); stackOpen(ko, () => openKanji(ko.dataset.kopen)); return; }
     const go = e.target.closest('[data-gopen]');
-    if (go) { e.preventDefault(); openGrammarSheet(go.dataset.gopen); return; }
+    if (go) { e.preventDefault(); stackOpen(go, () => openGrammarSheet(go.dataset.gopen)); return; }
     const wo = e.target.closest('[data-wopen]');
-    if (wo) { e.preventDefault(); showWord(wo.dataset.wopen, ctx, () => { }); return; }
-    const k = e.target.closest('.kj');
-    if (!k || k.closest('button, a, input, textarea, select, label, summary, [data-nokj]')) return;
-    openKanji(k.textContent);
+    if (wo) { e.preventDefault(); stackOpen(wo, () => showWord(wo.dataset.wopen, ctx, () => { })); return; }
+    const am = e.target.closest('[data-avmenu]'); // v66: chạm ảnh đại diện (Tài khoản, Hồ sơ) → Xem / Đổi
+    if (am) { e.preventDefault(); import('./avatar.js').then(m => m.avMenu()); return; }
+    tapClick(e);
   });
   route();
+  // v64: ghi thời gian mở app (Cài đặt → Máy này)
+  if (BT) requestAnimationFrame(() => setTimeout(async () => {
+    const log = (await kvGet('bootLog', [])).slice(-4);
+    log.push({ ...BT, t: Date.now(), total: performance.now() });
+    kvSet('bootLog', log).catch(() => { });
+  }, 0));
   // v40: tính sẵn lúc rảnh SAU khi đã tải xong dữ liệu (v39 hẹn 1,2 giây từ lúc mở app — trên điện thoại dữ liệu chưa tải xong nên tính sẵn trên kho rỗng)
   setTimeout(warmUp, 1200);
   announceUpdate();
@@ -516,6 +573,8 @@ async function init() {
     if (n?.id && n.id !== (await kvGet('noticeOff', '')) && /^#?\/?$/.test(location.hash) && !document.querySelector('.notice-c')) route();
   }).catch(() => { }), 2500);
   registerSW();
+  // v64: dữ liệu mới kiểm tra ở nền (app đã mở bằng danh mục lưu trong máy) → tải sẵn, áp dụng khi ra nền / lần mở sau
+  setTimeout(() => checkDataUpdate().then(r => { if (r) { pending.data = true; toast(`Đã tải dữ liệu mới${r.n ? ` (${r.n} gói)` : ''} — app dùng từ lần mở sau.`); } }).catch(() => { }), 3000);
   try { navigator.storage?.persist?.(); } catch { }
   syncBadge();
   // v56: máy này đã đăng nhập tài khoản → nạp phần tài khoản (chạy được cả khi không có mạng) rồi đồng bộ theo tài khoản
@@ -530,7 +589,7 @@ async function init() {
   if (rc?.ok && /^#?\/?$/.test(location.hash)) route();
   window.addEventListener('online', scheduleSync);
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'hidden') syncAll().then(syncBadge);
+    if (document.visibilityState === 'hidden') syncAll().then(syncBadge).catch(() => { }).finally(applyPending); // v64: đồng bộ xong mới áp dụng bản mới
     // mở lại app từ nền (không tải lại trang) → hỏi xem có bản app mới không
     else navigator.serviceWorker?.getRegistration().then(r => r?.update()).catch(() => { });
   });
@@ -553,7 +612,7 @@ function initFuriFade() {
   };
   apply();
   addEventListener('tn-settings', apply);
-  // chạm lần đầu vào chữ đang ẩn furigana: chỉ hiện furigana (lần sau mới mở thẻ chữ); nút, đáp án thì để nguyên
+  // chạm vào chữ đang ẩn furigana: chỉ hiện furigana (v66: không mở thẻ chữ nữa; chạm lần sau như chạm câu); nút, đáp án thì để nguyên
   document.addEventListener('click', e => {
     const r = e.target.closest?.('ruby.rf:not(.show)');
     if (!r || r.closest('button, a, label, [role=button]')) return;

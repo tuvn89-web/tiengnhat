@@ -1,5 +1,6 @@
 import { BARE_MODES, bareMode, bareHintOn, setBare } from './bare.js';
-import { esc, toast, APP_VERSION, checkUpdate } from './util.js';
+import { esc, toast, APP_VERSION, checkUpdate, fmtDate } from './util.js';
+import { kvGet } from './db.js';
 import { S, saveSettings, resetSettings } from './settings.js';
 import { jaVoices, speak, ttsReady, pickVoice } from './tts.js';
 import { chips, bindChips, readChip, field } from './ui.js';
@@ -90,7 +91,7 @@ export function renderSettings(view, ctx, tab) {
       <label class="check"><input type="checkbox" name="bareHint" ${bareHintOn() ? 'checked' : ''}> Hiện nghĩa tiếng Việt dưới chữ để trần (gợi ý)</label>
       <label class="check"><input type="checkbox" name="showHv" ${S.showHv ? 'checked' : ''}> Hiện âm Hán Việt</label>
       <fieldset><legend>Furigana mờ dần (chữ đã thuộc)</legend>${chips('furiFade', [['off', 'Tắt'], ['doc', 'Bài đọc, hội thoại, giấy tờ'], ['all', 'Mọi nơi']], S.furiFade || 'off', false)}</fieldset>
-      <p class="muted small">Chữ Hán mà thẻ chữ đã lên hộp 5 trở lên (đã thuộc) thì ẩn furigana — mỗi lần đọc thành một lần tự kiểm tra cách đọc, quen dần với giấy tờ, thông báo thật (không có furigana). Chữ chưa thuộc vẫn có furigana. Chạm vào chữ để hiện lại furigana, chạm lần nữa mở thẻ chữ. Mặc định tắt.</p>
+      <p class="muted small">Chữ Hán mà thẻ chữ đã lên hộp 5 trở lên (đã thuộc) thì ẩn furigana — mỗi lần đọc thành một lần tự kiểm tra cách đọc, quen dần với giấy tờ, thông báo thật (không có furigana). Chữ chưa thuộc vẫn có furigana. Chạm vào chữ để hiện lại furigana. Mặc định tắt.</p>
     </section>
 
     <section class="card" ${sec('hoc')}>
@@ -125,6 +126,7 @@ export function renderSettings(view, ctx, tab) {
     <section class="card" ${sec('may')}>
       <h2 class="h2">Máy này</h2>
       <p class="small">Phiên bản app: <b>${esc(APP_VERSION)}</b></p>
+      <div class="boot-log"></div>
       <div class="row-btns wrap">
         <button type="button" class="btn btn-ghost" data-act="upd">Kiểm tra bản mới</button>
         <button type="button" class="btn btn-ghost btn-danger" data-act="reset">Đặt lại cài đặt mặc định</button>
@@ -192,6 +194,8 @@ export function renderSettings(view, ctx, tab) {
   addEventListener('tn-settings', syncFx);
   const fpsT = setInterval(() => { const p = view.querySelector('.fx-fps'); if (!p || !p.isConnected) return clearInterval(fpsT); p.textContent = fpsText(); }, 500);
   view.querySelector('[data-act=test]').onclick = () => { if (!speak('作業の前に手を洗ってください。')) toast('Máy chưa có giọng đọc tiếng Nhật.'); };
+  // v64: thời gian mở app gần đây (đo trên chính máy này) — để biết chậm ở phần nào
+  kvGet('bootLog', []).then(log => { const box = view.querySelector('.boot-log'); if (box && log.length) box.innerHTML = bootLogHTML(log); }).catch(() => { });
   view.querySelector('[data-act=upd]').onclick = async e => {
     const b = e.currentTarget; b.disabled = true;
     toast(await checkUpdate());
@@ -199,3 +203,19 @@ export function renderSettings(view, ctx, tab) {
   };
   view.querySelector('[data-act=reset]').onclick = async () => { await resetSettings(); ctx.go('#/caidat/' + (lastTab() || cur), true); toast('Đã đặt lại.'); };
 }
+
+const sec = ms => (Math.max(0, ms || 0) / 1000).toFixed(1).replace('.', ',');
+function bootLogHTML(log) {
+  const L = log[log.length - 1], rest = (L.total || 0) - (L.man || 0) - (L.data || 0) - (L.lock || 0) - (L.build || 0) - (L.prog || 0);
+  return `<p class="small"><b>Lần mở app gần nhất</b> (${esc(fmtDate(L.t))}): <b>${sec(L.total)} giây</b>${L.first ? ' — lần đầu, tải dữ liệu qua mạng' : ''}</p>
+    <ul class="small muted boot-parts">
+      <li>Danh mục gói: ${sec(L.man)} giây (${L.first ? 'tải qua mạng' : 'có sẵn trong máy'})</li>
+      <li>Dữ liệu: ${sec(L.data)} giây · ${L.files || 0} tệp ${L.mode === 'nhom' ? 'nhóm' : 'gói'}</li>
+      <li>Nội dung lộ trình đã mở (N3–N1): ${sec(L.lock)} giây</li>
+      <li>Sắp xếp kho từ: ${sec(L.build)} giây</li>
+      <li>Tiến độ học: ${sec(L.prog)} giây</li>
+      <li>Mở trang, nạp mã app: ${sec(rest)} giây</li>
+    </ul>
+    ${log.length > 1 ? `<p class="small muted">Các lần trước: ${log.slice(0, -1).reverse().map(x => sec(x.total)).join(' · ')} giây</p>` : ''}`;
+}
+

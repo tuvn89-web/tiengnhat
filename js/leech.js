@@ -14,7 +14,7 @@ export const markLeech = id => seen.set(id, startOfDay());
 function poemsOf(it) {
   const ks = [...new Set([...(it.kanji || '')])].map(c => D.kanjiByChar.get(c)).filter(k => k && (k.tho || []).length);
   if (!ks.length) return '';
-  return `<section class="leech-poems" data-bare><p class="kc-label">Thơ nhớ chữ</p>${ks.map(k => `<div class="leech-poem"><span class="mini-k-c" lang="ja">${esc(k.char)}</span><p class="kc-poem small">${poemHTML(k.tho)}</p></div>`).join('')}</section>`;
+  return `<section class="leech-poems" data-bare data-kj-ok><p class="kc-label">Thơ nhớ chữ</p>${ks.map(k => `<div class="leech-poem"><span class="mini-k-c" lang="ja">${esc(k.char)}</span><p class="kc-poem small">${poemHTML(k.tho)}</p></div>`).join('')}</section>`;
 }
 
 export function leechCardHTML(it) {

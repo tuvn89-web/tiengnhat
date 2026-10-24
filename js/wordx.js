@@ -18,12 +18,12 @@ const CTX_ORDER = ['doisong', 'xuong', 'thutuc', 'hoithoai', 'kansai'];
 
 export function exampleHTML(ex, { ctx } = {}) {
   return `<div class="ex">
-    <div class="ex-row"><p class="ex-jp" lang="ja">${rubyHTML(ex.jp, true)}</p>${sayBtn(reading(ex.jp))}</div>
+    <div class="ex-row"><p class="ex-jp" lang="ja"${ex.vi ? ` data-vi="${esc(ex.vi)}"` : ''}>${rubyHTML(ex.jp, true)}</p>${sayBtn(reading(ex.jp))}</div>
     <p class="ex-vi">${esc(ex.vi)}${ctx ? ` <span class="tag">${esc(ctx)}</span>` : ''}</p>
   </div>`;
 }
 
-// Dải "Chữ Hán trong từ này" — chạm để mở thẻ chữ
+// Dải "Chữ Hán trong từ này" — chạm để mở thẻ chữ (v66: chữ ở đầu thẻ từ đầy đủ cũng chạm được — [data-kj-ok])
 export const kanjiStripHTML = it => {
   const cs = kanjiChars(it.kanji);
   if (!cs.length) return '';
@@ -175,7 +175,7 @@ export function wordDetailHTML(it, { compact = false, lazyRest = false } = {}) {
   const reg = it.reg && it.reg !== 'thuong' && !tn.includes(REG[it.reg]) ? REG[it.reg] : '';
   const meta = [POS[it.pos] || it.pos, it.level, tn, reg].filter(Boolean);
   const head = `<div class="wd-head">
-      <p class="wd-word" lang="ja">${wordHTML(it, 'furi')}${verbHeadExtra(it)}</p>
+      <p class="wd-word" lang="ja"${compact ? '' : ' data-kj-ok'}>${wordHTML(it, 'furi')}${verbHeadExtra(it)}</p>
       ${sayBtn(it.kana)}${it.id ? markBtnHTML(it.id) : ''}
     </div>
     ${it.kanji ? `<p class="wd-kana" lang="ja">${esc(it.kana)}</p>` : ''}

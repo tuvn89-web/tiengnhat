@@ -1,20 +1,21 @@
 // Service worker: chạy offline.
 // Sửa bất kỳ file nào của app (html/css/js) thì TĂNG số phiên bản dưới đây để máy tải bản mới.
-const VERSION = 'tnt-v63';
+const VERSION = 'tnt-v66';
 const DATA = 'tnt-data';
 const FONTS = 'tnt-fonts'; // v32: phông chữ tải từ Google Fonts — giữ lại để dùng khi không có mạng (không xoá khi đổi phiên bản)
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest', 'css/app.css',
   'js/app.js', 'js/util.js', 'js/db.js', 'js/settings.js', 'js/tts.js', 'js/data.js', 'js/srs.js', 'js/sync.js',
   'js/vendor/qrcode.js', 'js/vendor/firebase.js', 'js/cloud.js', 'js/cloudcfg.js', 'js/cloudfb.js', 'js/account.js', 'js/admin.js', 'js/lock.js', 'js/profile.js', 'icons/khung/khoidau.svg', 'icons/khung/n5.svg', 'icons/khung/n4.svg', 'icons/khung/n3.svg', 'icons/khung/n2.svg', 'icons/khung/n1.svg', 'icons/khung/n5-dong.svg', 'icons/khung/n4-dong.svg', 'icons/khung/n3-dong.svg', 'icons/khung/n2-dong.svg', 'icons/khung/n1-dong.svg', 'icons/khung/anhkim.svg', 'icons/khung/anhkim-dong.svg', 'icons/khung/huyhieu-kana.svg', 'icons/khung/huyhieu-n5.svg', 'icons/khung/huyhieu-n4.svg', 'icons/khung/huyhieu-n3.svg', 'icons/khung/huyhieu-n2.svg', 'icons/khung/huyhieu-n1.svg', 'js/lazy.js', 'js/fxcore.js', 'js/fxworker.js', 'js/bare.js', 'js/jlpt.js', 'js/ui.js', 'js/wordx.js', 'js/adj.js', 'js/counters.js', 'js/learn.js', 'js/practice.js', 'js/drill.js', 'js/kanji.js', 'js/conj.js', 'js/gdrill.js', 'js/quiz.js', 'js/match.js', 'js/grammar.js', 'js/words.js', 'js/datapage.js', 'js/settingspage.js', 'js/nav.js',
-  'js/level.js', 'js/kana.js', 'js/roadmap.js', 'js/guides.js', 'js/romaji.js', 'js/forms.js', 'js/fstat.js', 'js/dich.js', 'js/notes.js', 'js/heart.js', 'js/lesson.js', 'js/reader.js', 'js/explain.js', 'js/leech.js', 'js/dot6.js', 'js/season.js', 'js/backfab.js', 'js/fonts.js', 'js/pairs8.js', 'js/marks.js', 'js/relearn.js', 'js/hvbay.js', 'js/gocau.js', 'js/docfit.js', 'js/dot7.js', 'js/amon.js', 'js/gnhom.js', 'js/giayto.js', 'js/dot8.js', 'data/docwords.json', 'data/hvbay.json', 'data/gnhom.json', 'data/giayto.json', 'data/truongam.json', 'data/viverb.json', 'data/kougo.json',
+  'js/level.js', 'js/kana.js', 'js/roadmap.js', 'js/guides.js', 'js/romaji.js', 'js/forms.js', 'js/fstat.js', 'js/dich.js', 'js/notes.js', 'js/heart.js', 'js/lesson.js', 'js/reader.js', 'js/explain.js', 'js/tap.js', 'js/inform.js', 'js/avatar.js', 'js/leech.js', 'js/dot6.js', 'js/season.js', 'js/backfab.js', 'js/fonts.js', 'js/pairs8.js', 'js/marks.js', 'js/relearn.js', 'js/hvbay.js', 'js/gocau.js', 'js/docfit.js', 'js/dot7.js', 'js/amon.js', 'js/gnhom.js', 'js/giayto.js', 'js/dot8.js', 'data/docwords.json', 'data/hvbay.json', 'data/gnhom.json', 'data/giayto.json', 'data/truongam.json', 'data/viverb.json', 'data/kougo.json',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable.png',
 ];
 
 self.addEventListener('install', e => {
   // cache: 'reload' = tải thẳng từ mạng, bỏ qua bộ nhớ đệm của trình duyệt (tránh cài bản mới mà lại lấy file cũ)
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL.map(u => new Request(u, { cache: 'reload' })))));
-  self.skipWaiting(); // bản mới dùng ngay, không phải chờ đóng hết app
+  // v64: lần cài đầu thì dùng ngay; bản mới thì CHỜ — app tự áp dụng lúc mở (trước khi nạp dữ liệu) hoặc khi chuyển ra nền, không tải lại trang giữa chừng
+  if (!self.registration.active) self.skipWaiting();
 });
 self.addEventListener('activate', e => {
   e.waitUntil(
@@ -33,6 +34,7 @@ self.addEventListener('fetch', e => {
   if (url.origin !== location.origin) return; // GitHub API đi thẳng, không qua cache
   if (url.pathname.endsWith('/data/manifest.json')) return e.respondWith(networkFirst(req));
   if (url.pathname.includes('/data/packs/')) return e.respondWith(cacheFirst(req, DATA, false, true));
+  if (url.pathname.includes('/data/bundles/')) return e.respondWith(cacheFirst(req, DATA, false)); // v64: tệp nhóm — tên có mã nội dung, không đổi
   if (url.pathname.includes('/trang/')) return e.respondWith(fetch(req).catch(async () => (await caches.match(req)) || Response.error())); // v56: trang giới thiệu / quyền riêng tư / điều khoản
   if (req.mode === 'navigate') return e.respondWith(caches.match('index.html').then(r => r || fetch(req)));
   e.respondWith(cacheFirst(req, VERSION, true));

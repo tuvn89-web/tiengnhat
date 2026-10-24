@@ -52,7 +52,7 @@ function amonQ(k) {
     prompt: `<p class="prompt-jp kc-big" lang="ja" data-bare>${esc(k.char)}</p><p class="guess-hv">${esc(hvFirst(k.hv))}</p>`,
     hint: 'Nhìn âm Hán Việt, chọn âm On', noCmp: true,
     opts: shuffle([right, ...ds]).map(o => opt(o, esc(o))), answer: right,
-    after: `<p class="small am-line">${ruleLine(k, right)}</p>${more.length ? `<p class="small muted">Chữ này còn đọc: <span lang="ja">${more.map(esc).join('、')}</span></p>` : ''}${wordsOf(k.char).map(wordLine).join('')}<button type="button" class="btn btn-ghost btn-sm" data-kopen="${esc(k.char)}">Mở thẻ chữ</button>` };
+    after: `<div data-kj-ok><p class="small am-line">${ruleLine(k, right)}</p>${more.length ? `<p class="small muted">Chữ này còn đọc: <span lang="ja">${more.map(esc).join('、')}</span></p>` : ''}${wordsOf(k.char).map(wordLine).join('')}<button type="button" class="btn btn-ghost btn-sm" data-kopen="${esc(k.char)}">Mở thẻ chữ</button></div>` };
 }
 // từ ghép đọc toàn âm On "đều" (管理 = カン + リ = かんり)
 const _cp = new WeakMap();
@@ -89,7 +89,7 @@ function tuQ(w) {
     prompt: `<p class="prompt-jp" lang="ja" data-bare>${esc(w.kanji)}</p><p class="guess-hv">${esc(c.ks.map(k => hvFirst(k.hv)).join(' '))}</p><p class="prompt-hint">${esc(w.vi)}</p>`,
     hint: 'Từ âm Hán Việt từng chữ, chọn cách đọc', noCmp: true,
     opts: shuffle([right, ...bad]).map(o => opt(o, esc(o))), answer: right,
-    after: `<p class="small"><span lang="ja">${wordHTML(w, 'furi')}</span> — ${esc(w.vi)}</p>${c.ks.map((k, i) => `<p class="small am-line"><span lang="ja">${esc(k.char)}</span> ${ruleLine(k, c.ons[i])}</p>`).join('')}` };
+    after: `<div data-kj-ok><p class="small"><span lang="ja">${wordHTML(w, 'furi')}</span> — ${esc(w.vi)}</p>${c.ks.map((k, i) => `<p class="small am-line"><span lang="ja">${esc(k.char)}</span> ${ruleLine(k, c.ons[i])}</p>`).join('')}</div>` };
 }
 // v55 (đợt 8, mục 4): ÂM BIẾN KHI GHÉP — 学[がく] + 校[こう] = がっこう; 発[はつ] + 表[ひょう] = はっぴょう; 散[さん] + 歩[ほ] = さんぽ
 const HA = 'はひふへほ', PA = 'ぱぴぷぺぽ', BA = 'ばびぶべぼ';
@@ -160,9 +160,9 @@ function bienQ(w) {
     prompt: `<p class="prompt-jp" lang="ja" data-bare>${esc(w.kanji)}</p><p class="guess-hv">${esc(c.ks.map(k => hvFirst(k.hv)).join(' '))}</p><p class="prompt-hint">${esc(w.vi)}</p>`,
     hint: 'Ghép âm từng chữ rồi nhớ âm biến', noCmp: true,
     opts: shuffle([right, ...bad]).map(o => opt(o, esc(o))), answer: right,
-    after: `<p class="small"><span lang="ja">${wordHTML(w, 'furi')}</span> — ${esc(w.vi)}</p>
+    after: `<div data-kj-ok><p class="small"><span lang="ja">${wordHTML(w, 'furi')}</span> — ${esc(w.vi)}</p>
       <p class="small am-line"><span lang="ja">${c.parts.map((p, i) => `${esc(c.ks[i].char)} ${esc(toHira(p.o))}`).join(' + ')}</span> → <b lang="ja">${esc(right)}</b> (không phải <span lang="ja">${esc(naive)}</span>)</p>
-      <ul class="small">${used.map(x => `<li>${esc(CH[x])}</li>`).join('')}</ul>` };
+      <ul class="small">${used.map(x => `<li>${esc(CH[x])}</li>`).join('')}</ul></div>` };
 }
 export function buildAmOn(o) {
   const n = Math.min(o.count, 400), kind = o.kind || 'tron';

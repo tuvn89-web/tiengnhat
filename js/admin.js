@@ -350,8 +350,9 @@ export async function renderAdminContent(view) {
         <label class="field"><span class="field-l">Chọn tệp nội dung (.zip hoặc N3.json, N2.json, N1.json)</span><input class="input" type="file" accept=".zip,.json,application/zip,application/json" multiple data-in="up"></label>
         <ul class="adm-up small"></ul></section>
       <section class="card"><h2 class="h2">Gửi cho skill</h2>
-        <p class="small muted">Một file cho skill <b>jp-v01-data</b>: các báo sai <b>Mới</b> trong hộp chung và báo sai trên máy này, từ tự thêm / sửa trên máy này, ${(await import('./kanji.js')).missingKanji().length} chữ Hán chưa có thẻ, và danh sách mã đang có để skill không làm trùng. Gửi file cho Claude kèm yêu cầu (ví dụ "sửa các mục báo sai").</p>
+        <p class="small muted">Một file cho skill <b>jp-v01-data</b>: các báo sai <b>Mới</b> trong hộp chung và báo sai trên máy này, từ tự thêm / sửa trên máy này, <span class="skill-km">các</span> chữ Hán chưa có thẻ, và danh sách mã đang có để skill không làm trùng. Gửi file cho Claude kèm yêu cầu (ví dụ "sửa các mục báo sai").</p>
         <button type="button" class="btn btn-ghost" data-act="skillall">Tải file gửi skill</button></section>`;
+    setTimeout(() => import('./kanji.js').then(m => { const el = box.querySelector('.skill-km'); if (el) el.textContent = m.missingKanji().length; }).catch(() => { }), 300); // đếm sau khi trang đã hiện
     box.querySelector('[data-act=skillall]').onclick = async e => {
       const b = e.currentTarget; b.disabled = true;
       try {

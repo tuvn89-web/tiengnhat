@@ -105,7 +105,7 @@ export async function renderProfile(view, ctx) {
   const show = { ...p, frame, ak: frame !== 'khoidau' && st.badges[frame] >= 3 };
   const { levelLocked } = await import('./lock.js');
   box.innerHTML = `<div class="pf-top"><a class="btn btn-ghost btn-sm" href="#/hoso/sua">${icon('pen')} Sửa</a></div>
-    <div class="pf-hero">${frameHTML(show, 176, { anim: true, label: `Khung ${frame}` })}
+    <div class="pf-hero"><button type="button" class="av-tap" data-avmenu aria-label="Ảnh đại diện — xem hoặc đổi">${frameHTML(show, 176, { anim: true, label: `Khung ${frame}` })}</button>
       <p class="pf-nick" lang="ja">${p.nick ? esc(p.nick) : '<span class="muted">Chưa đặt biệt danh</span>'}</p>
       <p class="small muted">${st.cur === 'kana' ? 'Đang học bảng chữ cái' : `Đang học ${esc(L0)} · bài ${Math.min(st.ls[L0] + 1, st.tot[L0])}/${st.tot[L0]}`}</p></div>
     <section class="card"><h2 class="h2">Huy hiệu</h2><div class="hh-row">${['kana', ...LEVELS].map(k => badgeHTML(k, st.badges[k] || 0)).join('')}</div>
@@ -115,6 +115,9 @@ export async function renderProfile(view, ctx) {
         : `<div class="pf-lv"><b>${L}</b><span class="mini"><i style="width:${st.tot[L] ? (st.ls[L] / st.tot[L]) * 100 : 0}%"></i></span><span class="num small">${st.ls[L]}/${st.tot[L]}</span></div>`).join('')}</section>
     <a class="mode pf-rank" href="#/xephang?l=${esc(L0)}">${icon('star')}<span><b>Bảng xếp hạng</b><small class="pf-pos">${p.nick ? (p.hideRank ? 'Bạn đang ẩn khỏi bảng.' : 'Đang tính hạng…') : 'Đặt biệt danh để có tên trên bảng.'}</small></span></a>
     <label class="check pf-hide"><input type="checkbox" data-o="hide" ${p.hideRank ? '' : 'checked'}> Hiện tôi trên bảng xếp hạng</label>`;
+  // v66: đổi ảnh ở màn chỉnh (chạm ảnh → Đổi ảnh đại diện) → vẽ lại trang
+  const re = () => { if (box.isConnected) renderProfile(view, ctx); };
+  addEventListener('tn-avatar', re, { once: true }); ctx.onLeave?.(() => removeEventListener('tn-avatar', re));
   box.querySelector('[data-o=hide]').onchange = async e => {
     try { await saveProfile({ hideRank: !e.target.checked }); toast(e.target.checked ? 'Đã hiện trên bảng xếp hạng.' : 'Đã ẩn khỏi bảng xếp hạng.'); renderProfile(view, ctx); }
     catch (er) { toast(er.message); e.target.checked = !e.target.checked; }
@@ -131,21 +134,7 @@ export async function renderProfile(view, ctx) {
 }
 
 // ---------- sửa hồ sơ ----------
-async function shrinkImage(file) {
-  const url = URL.createObjectURL(file);
-  try {
-    const img = await new Promise((res, rej) => { const i = new Image(); i.onload = () => res(i); i.onerror = () => rej(new Error('Không đọc được ảnh này.')); i.src = url; });
-    for (const [n, q] of [[128, .82], [112, .72], [96, .62], [80, .55]]) {
-      const c = document.createElement('canvas'); c.width = c.height = n;
-      const s = Math.min(img.naturalWidth, img.naturalHeight), x = (img.naturalWidth - s) / 2, y = (img.naturalHeight - s) / 2;
-      c.getContext('2d').drawImage(img, x, y, s, s, 0, 0, n, n);
-      let d = c.toDataURL('image/webp', q);
-      if (!d.startsWith('data:image/webp')) d = c.toDataURL('image/jpeg', q);
-      if (d.length <= 11500) return d;
-    }
-    throw new Error('Ảnh quá chi tiết, chọn ảnh khác.');
-  } finally { URL.revokeObjectURL(url); }
-}
+// v66: ảnh đại diện đổi ở màn chỉnh (avatar.js) — tải ảnh, kéo / phóng to / xoay cho vừa khung
 export async function renderProfileEdit(view, ctx) {
   const box = await needUser(view, 'Sửa hồ sơ'); if (!box) return;
   ctx.backTo = '#/hoso';
@@ -161,9 +150,8 @@ export async function renderProfileEdit(view, ctx) {
       <p class="small pf-nick-st"></p>
       <p class="small muted">Chữ Việt, chữ Nhật, số và ký hiệu; 2–20 ký tự. Hiện trên bảng xếp hạng (không bao giờ hiện email).</p></section>
     <section class="card"><h2 class="h2">Ảnh đại diện</h2>
-      <div class="row-btns"><button type="button" class="btn btn-ghost" data-av="g">Ảnh tài khoản Google</button><button type="button" class="btn btn-ghost" data-act="up">Tải ảnh từ máy</button></div>
-      <input type="file" accept="image/*" hidden data-in="img">
-      <div class="pf-pres">${PRESETS.map(([k, a, b]) => `<button type="button" class="pf-pre" data-av="p:${k}" aria-label="Ảnh chữ ${k}" style="background:linear-gradient(160deg, ${a}, ${b})" lang="ja">${k}</button>`).join('')}</div></section>
+      <p class="small muted">Tải ảnh từ máy rồi kéo, phóng to, xoay cho vừa khung; hoặc dùng ảnh tài khoản Google, ảnh chữ Hán. Ảnh lưu ngay khi bấm Lưu ở màn chỉnh.</p>
+      <div class="row-btns"><button type="button" class="btn btn-ghost" data-act="avedit">${icon('image')} Đổi ảnh đại diện…</button></div></section>
     <section class="card"><h2 class="h2">Khung</h2><div class="pf-frames">${FRAMES.map(([f, n]) => {
       const ok = earned.includes(f);
       return `<button type="button" class="pf-fr" data-fr="${f}" ${ok ? '' : 'disabled'}><img src="icons/khung/${f === 'khoidau' ? 'khoidau' : f.toLowerCase()}.svg" alt="">${ok && f !== 'khoidau' && st.badges[f] >= 3 ? '<img class="pf-ak" src="icons/khung/anhkim.svg" alt="">' : ''}<span>${ok ? n : `Xong lộ trình ${f}`}</span></button>`;
@@ -172,7 +160,6 @@ export async function renderProfileEdit(view, ctx) {
   const inp = box.querySelector('[name=nick]'), stEl = box.querySelector('.pf-nick-st');
   const draw = () => {
     box.querySelector('.pf-prev').innerHTML = frameHTML({ ...cur, ak: cur.frame !== 'khoidau' && st.badges[cur.frame] >= 3 }, 140, { anim: true }) + `<p class="pf-nick" lang="ja">${esc(cleanNick(inp.value)) || '<span class="muted">…</span>'}</p>`;
-    box.querySelectorAll('[data-av]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.av === cur.av)));
     box.querySelectorAll('[data-fr]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.fr === cur.frame)));
     const bad = nickProblem(inp.value);
     stEl.innerHTML = `<span class="${bad ? 'err' : 'muted'}">${bad ? esc(bad) : 'Hợp lệ'}</span> <span class="muted">· ${nickLen(inp.value)}/20</span>`;
@@ -181,12 +168,10 @@ export async function renderProfileEdit(view, ctx) {
   box.addEventListener('click', async e => {
     const sym = e.target.closest('[data-sym]')?.dataset.sym;
     if (sym) { const a = inp.selectionStart ?? inp.value.length, b = inp.selectionEnd ?? a; inp.value = inp.value.slice(0, a) + sym + inp.value.slice(b); inp.focus(); inp.setSelectionRange(a + sym.length, a + sym.length); draw(); return; }
-    const av = e.target.closest('[data-av]')?.dataset.av;
-    if (av) { cur.av = av; draw(); return; }
     const fr = e.target.closest('[data-fr]')?.dataset.fr;
     if (fr) { cur.frame = fr; draw(); return; }
     const act = e.target.closest('[data-act]')?.dataset.act;
-    if (act === 'up') box.querySelector('[data-in=img]').click();
+    if (act === 'avedit') import('./avatar.js').then(m => m.avEditor());
     if (act === 'save') {
       const bad = nickProblem(inp.value); if (bad) { toast(bad); inp.focus(); return; }
       const btn = e.target.closest('button'); btn.disabled = true;
@@ -194,11 +179,9 @@ export async function renderProfileEdit(view, ctx) {
       catch (er) { toast(er.message); btn.disabled = false; }
     }
   });
-  box.querySelector('[data-in=img]').onchange = async e => {
-    const f = e.target.files?.[0]; if (!f) return;
-    try { cur.av = await shrinkImage(f); draw(); } catch (er) { toast(er.message); }
-    e.target.value = '';
-  };
+  // v66: lưu ở màn chỉnh ảnh → cập nhật khung xem trước (biệt danh đang gõ giữ nguyên)
+  const onAv = async () => { const q = await cachedProfile(); if (q) { cur.av = q.av || cur.av; if (earned.includes(q.frame)) cur.frame = q.frame; } if (box.isConnected) draw(); };
+  addEventListener('tn-avatar', onAv); ctx.onLeave?.(() => removeEventListener('tn-avatar', onAv));
   draw();
 }
 
@@ -221,8 +204,10 @@ export async function renderRanks(view, ctx, tab = 'all') {
   const f = tab === 'all' ? 's_all' : 's_' + tab, uid = cloudUser()?.uid;
   const score = r => (tab === 'all' ? `${r.tot || 0} bài` : `Bài ${r.ls?.[tab] || 0}/${tot}`);
   const mini = r => ['N5', 'N4', 'N3', 'N2', 'N1'].filter(L => r.badges?.[L]).map(L => `<img class="rk-hh" src="icons/khung/huyhieu-${L.toLowerCase()}.svg" alt="${L} ${r.badges[L]} sao" title="${L} · ${r.badges[L]}/3 sao">`).join('');
-  const pod = (r, i) => r ? `<div class="rk-pod rk-p${i + 1}${r.id === uid ? ' is-me' : ''}">${frameHTML(r, i === 0 ? 100 : 76)}<b class="rk-n">${i + 1}</b><span class="rk-nick" lang="ja">${esc(r.nick)}</span><small class="muted">${score(r)}</small></div>` : '<div class="rk-pod"></div>';
-  const line = (r, i) => `<li class="rk-row${r.id === uid ? ' is-me' : ''}"><b class="rk-n">${i + 1}</b>${frameHTML(r, 52)}<span class="rk-t"><span class="rk-nick" lang="ja">${esc(r.nick)}</span><span class="rk-b">${mini(r)}</span></span><span class="small">${score(r)}</span></li>`;
+  // v66: chạm một người → ảnh lớn, biệt danh, khung, huy hiệu (không có email)
+  const tap = (k, nick) => `data-rk="${k}" role="button" tabindex="0" aria-label="Xem ảnh của ${esc(nick || '')}"`;
+  const pod = (r, i) => r ? `<div class="rk-pod rk-p${i + 1}${r.id === uid ? ' is-me' : ''}" ${tap(i, r.nick)}>${frameHTML(r, i === 0 ? 100 : 76)}<b class="rk-n">${i + 1}</b><span class="rk-nick" lang="ja">${esc(r.nick)}</span><small class="muted">${score(r)}</small></div>` : '<div class="rk-pod"></div>';
+  const line = (r, i) => `<li class="rk-row${r.id === uid ? ' is-me' : ''}" ${tap(i, r.nick)}><b class="rk-n">${i + 1}</b>${frameHTML(r, 52)}<span class="rk-t"><span class="rk-nick" lang="ja">${esc(r.nick)}</span><span class="rk-b">${mini(r)}</span></span><span class="small">${score(r)}</span></li>`;
   const inTop = rows.findIndex(r => r.id === uid);
   let mine = '';
   if (!uid) mine = '<p class="small muted rk-me-note"><a href="#/taikhoan">Đăng nhập</a> và đặt biệt danh để có tên trên bảng.</p>';
@@ -231,11 +216,14 @@ export async function renderRanks(view, ctx, tab = 'all') {
     mine = `<p class="small muted rk-me-note">${p?.hideRank ? 'Bạn đang ẩn khỏi bảng xếp hạng.' : 'Bạn chưa có tên trên bảng.'} <a href="#/hoso">${p?.nick ? 'Mở Hồ sơ' : 'Đặt biệt danh'}</a></p>`;
   } else if (inTop < 0 && (me[f] || 0) > 0) {
     const pos = await rankPos(tab, me[f]).catch(() => '?');
-    mine = `<ul class="rk-l rk-mine"><li class="rk-row is-me"><b class="rk-n">${pos}</b>${frameHTML(me, 52)}<span class="rk-t"><span class="rk-nick" lang="ja">${esc(me.nick)}</span><small class="muted">Bạn</small></span><span class="small">${score(me)}</span></li></ul>`;
+    mine = `<ul class="rk-l rk-mine"><li class="rk-row is-me" ${tap('me', me.nick)}><b class="rk-n">${pos}</b>${frameHTML(me, 52)}<span class="rk-t"><span class="rk-nick" lang="ja">${esc(me.nick)}</span><small class="muted">Bạn</small></span><span class="small">${score(me)}</span></li></ul>`;
   }
   box.innerHTML = rows.length ? `<div class="rk-podium">${pod(rows[1], 1)}${pod(rows[0], 0)}${pod(rows[2], 2)}</div>
       <ol class="rk-l">${rows.slice(3).map((r, i) => line(r, i + 3)).join('')}</ol>${mine}`
     : `<p class="muted">Chưa có ai trên bảng ${tab === 'all' ? '' : tab}.</p>${mine}`;
+  const open = el => { const k = el.dataset.rk, r = k === 'me' ? me : rows[+k]; if (r) import('./avatar.js').then(m => m.rankCard(r)); };
+  box.onclick = e => { const el = e.target.closest('[data-rk]'); if (el) open(el); };
+  box.onkeydown = e => { const el = e.target.closest('[data-rk]'); if (el && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); open(el); } };
 }
 
 // thanh trên: ảnh + khung đang dùng (bản đứng yên, cỡ nhỏ)
@@ -244,7 +232,7 @@ export async function accountHeroHTML(u) {
   const p = { ...((await cachedProfile()) || {}), photo: u.photo, name: u.name };
   const st = await myStats(), earned = earnedFrames(st), frame = earned.includes(p.frame) ? p.frame : earned[earned.length - 1];
   const show = { ...p, frame, ak: frame !== 'khoidau' && st.badges[frame] >= 3 };
-  return `<div class="acct-head">${frameHTML(show, 88, { label: `Khung ${FRAMES.find(f => f[0] === frame)?.[1] || frame}` })}<div>
+  return `<div class="acct-head"><button type="button" class="av-tap" data-avmenu aria-label="Ảnh đại diện — xem hoặc đổi">${frameHTML(show, 88, { label: `Khung ${FRAMES.find(f => f[0] === frame)?.[1] || frame}` })}</button><div>
       <b ${p.nick ? 'lang="ja"' : ''}>${esc(p.nick || u.name || 'Tài khoản Google')}</b>
       ${p.nick ? `<span class="small muted">${esc(u.name || '')}</span>` : ''}<span class="small muted">${esc(u.email)}</span></div></div>
     <a class="hh-row acct-hh" href="#/hoso" aria-label="Huy hiệu — mở Hồ sơ">${['kana', ...LEVELS].map(k => badgeHTML(k, st.badges[k] || 0, 40)).join('')}</a>`;

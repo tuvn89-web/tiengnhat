@@ -81,7 +81,7 @@ export function kanjiCardHTML(ch) {
   const fam = familyOf(ch);
   const famHTML = fam.length ? `<h3 class="h3">Từ trong kho có chữ này</h3>
     <ul class="rows kfam">${fam.slice(0, 20).map(v => `<li><button type="button" class="row" data-wopen="${esc(v.id)}"><span class="row-jp" lang="ja">${wordHTML(v, 'furi')}</span><span class="row-vi">${esc(v.vi)}</span></button></li>`).join('')}</ul>` : '';
-  if (!k) return `<div class="kcard" data-bare>
+  if (!k) return `<div class="kcard" data-bare data-kj-ok>
       <div class="kc-head"><div class="kc-char" lang="ja">${esc(ch)}</div><div class="kc-meta"><p class="kc-vi">Chưa có thẻ cho chữ này.</p>
       <p class="muted small">Chữ này có trong kho từ. Tải "file gửi skill" ở trang Dữ liệu, skill sẽ làm thẻ cho mọi chữ còn thiếu.</p></div></div>
       ${famHTML}</div>`;
@@ -92,7 +92,7 @@ export function kanjiCardHTML(ch) {
     const has = D.kanjiByChar.has(p.c) && p.c !== ch;
     return `<${has ? `button type="button" data-kopen="${esc(p.c)}"` : 'span'} class="kpart"><b lang="ja">${esc(p.c)}</b><span>${esc(p.hv || '')}${p.nghia ? ' — ' + esc(p.nghia) : ''}</span></${has ? 'button' : 'span'}>`;
   };
-  return `<div class="kcard" data-bare>
+  return `<div class="kcard" data-bare data-kj-ok>
     <div class="kc-head">
       <div class="kc-char" lang="ja">${esc(k.char)}</div>
       <div class="kc-meta">
@@ -169,7 +169,7 @@ export function renderKanjiList(view) {
   const st = stats(D.kanji);
   const usedG = Object.keys(KGROUPS).filter(g => D.kanji.some(k => (k.groups || []).includes(g)));
   view.innerHTML = `<h1 class="h1">Chữ Hán</h1>${tabs('list')}
-    <p class="muted small">${D.kanji.length} thẻ chữ · đã thuộc ${st.known} · đang học ${st.learning}. Chạm vào chữ kanji ở bất kỳ đâu trong app để mở thẻ.</p>
+    <p class="muted small">${D.kanji.length} thẻ chữ · đã thuộc ${st.known} · đang học ${st.learning}. Chạm vào chữ để mở thẻ; trong câu thì chạm câu → chạm từ → chạm chữ ở hàng chữ Hán.</p>
     <input class="input search" type="search" placeholder="Tìm: chữ, Hán Việt, nghĩa" aria-label="Tìm chữ Hán">
     ${chips('kview', [['list', 'Từng chữ'], ['fam', 'Theo gia đình chữ']], 'list', false)}
     <details class="filters"><summary>Bộ lọc</summary>
@@ -251,7 +251,7 @@ function kOptsFor(k, dir) {
 export function kanjiQuestion(k, dir) {
   const others = kOptsFor(k, dir);
   if (others.length < 2) return null;
-  const after = `<div class="mini-k" data-bare><span class="mini-k-c" lang="ja">${esc(k.char)}</span><span><b>${esc(k.hv)}</b> — ${esc(k.nghia || '')}</span></div>${(k.tho || []).length ? `<p class="kc-poem small" data-bare>${poemHTML(k.tho)}</p>` : ''}<button type="button" class="btn btn-ghost btn-sm" data-kopen="${esc(k.char)}">Mở thẻ chữ</button>`;
+  const after = `<div data-kj-ok><div class="mini-k" data-bare><span class="mini-k-c" lang="ja">${esc(k.char)}</span><span><b>${esc(k.hv)}</b> — ${esc(k.nghia || '')}</span></div>${(k.tho || []).length ? `<p class="kc-poem small" data-bare>${poemHTML(k.tho)}</p>` : ''}<button type="button" class="btn btn-ghost btn-sm" data-kopen="${esc(k.char)}">Mở thẻ chữ</button></div>`;
   if (dir === 'kh') return {
     kind: 'choice', tag: 'Chữ → Hán Việt', level: k.level, promptBare: true,
     prompt: `<p class="prompt-jp kc-big" lang="ja" data-bare>${esc(k.char)}</p>`, hint: 'Chọn âm Hán Việt và nghĩa',

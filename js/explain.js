@@ -1,9 +1,10 @@
 // Giải thích câu (v15): nghĩa từng từ / cụm từ có trong câu + mẫu ngữ pháp dùng trong câu.
-// Chạm vào từ → thẻ từ; chạm vào mẫu → bài học của mẫu (bảng trượt). Dùng ở bài mở đầu, hội thoại, bài đọc và khi hiện đáp án.
+// v66: bảng câu = nghĩa câu → ngữ pháp → từ / cụm từ theo thứ tự trong câu; chạm từ → bảng từ gọn (tap.js), chạm mẫu → bài của mẫu.
 import { esc, rich, plain, parseJP, isKanjiCh, wordHTML, rubyHTML, reading, stripHL } from './util.js';
 import { D, POS } from './data.js';
-import { openSheet, sayBtn, bindSay } from './ui.js';
-import { status, setLearned } from './srs.js';
+import { openSheet, sayBtn } from './ui.js';
+import { status } from './srs.js';
+import { formAt } from './inform.js';
 
 // ---------- dò từ trong câu (giống scripts/validate_pack.py) ----------
 let _idx = null, _ik = '';
@@ -45,7 +46,9 @@ const NUM_GROUP = /^([〇一二三四五六七八九十百千万]+)(本|個|枚|
 const VSTEM_NEXT = /^(?:ます|まし|ませ|たい|たく|たか|たけ|ながら|なさい|やす|にく)/;
 const VERBISH = new Set(['v1', 'v5', 'v3', 'adj-i']);
 // Trả về mã từ theo thứ tự xuất hiện trong câu
-export function detectWords(jp) {
+export const detectWords = jp => [...new Set(detectSpans(jp).spans.map(x => x.id))];
+// v66: kèm vị trí — { text: câu chữ trơn, spans: [{ i, j, id }] } (i..j = phần chữ đã khớp; động từ / tính từ chỉ khớp phần thân)
+export function detectSpans(jp) {
   const segs = parseJP(stripHL(jp || ''));
   let text = ''; const groups = [];
   for (const s of segs) { const st = text.length; text += s.t; if (s.r) groups.push([st, text.length, s.r]); }
@@ -54,10 +57,10 @@ export function detectWords(jp) {
   for (const [g0, g1] of groups) {
     const m = text.slice(g0, g1).match(NUM_GROUP);
     if (!m) continue;
-    [...m[1]].forEach((ch, k) => { const id = NUM_ID[ch]; if (id && D.items.has(id)) { found.push([g0 + k, id]); used[g0 + k] = true; } });
+    [...m[1]].forEach((ch, k) => { const id = NUM_ID[ch]; if (id && D.items.has(id)) { found.push([g0 + k, id, g0 + k + 1]); used[g0 + k] = true; } });
     if (m[2]) {
       const c = D.vocab.find(x => x.kanji === m[2] && x.pos === 'ctr') || D.vocab.find(x => x.kanji === m[2]);
-      if (c) { found.push([g0 + m[1].length, c.id]); for (let k = g0 + m[1].length; k < g1; k++) used[k] = true; }
+      if (c) { found.push([g0 + m[1].length, c.id, g1]); for (let k = g0 + m[1].length; k < g1; k++) used[k] = true; }
     }
   }
   const spanRd = (i, j) => {
@@ -92,10 +95,10 @@ export function detectWords(jp) {
       }
       if (!ok.length) continue;
       for (let k = i; k < j; k++) used[k] = true;
-      found.push([i, ok[0].id]);
+      found.push([i, ok[0].id, j]);
     }
   }
-  return [...new Set(found.sort((a, b) => a[0] - b[0]).map(x => x[1]))];
+  return { text, spans: found.sort((a, b) => a[0] - b[0]).map(([i, id, j]) => ({ i, j, id })) };
 }
 
 // ---------- dò mẫu ngữ pháp trong câu ----------
@@ -173,60 +176,89 @@ export function detectGrammar(jp) {
 
 // ---------- HTML ----------
 const posName = it => POS[it.pos] || '';
-function wordRow(it) {
-  // v51: từ chưa học gặp khi đọc → nút "+ Ôn" đưa vào lịch ôn
-  return `<li class="xw"><button type="button" class="xw-b" data-wopen="${esc(it.id)}"><span class="xw-jp" lang="ja">${wordHTML(it, 'furi')}</span><span class="xw-vi">${esc(it.vi)}<small class="muted"> · ${esc(posName(it))}${it.level ? ' · ' + esc(it.level) : ''}</small></span></button>${status(it) === 'new' ? `<button type="button" class="btn btn-ghost btn-sm xw-add" data-addrev="${esc(it.id)}" aria-label="Đưa từ này vào lịch ôn">+ Ôn</button>` : ''}</li>`;
+// v66: hàng từ mở bảng từ gọn; mang theo đoạn câu từ chỗ của từ (data-tail) để bảng từ gọi đúng thể đang dùng
+function wordRow(it, text, at, f = at >= 0 ? formAt(it, text.slice(at, at + 30), 0) : null, ctxVi = '') {
+  const tail = at >= 0 ? text.slice(at, at + 30) : '';
+  const inS = f && !f.dict ? `<small class="xw-in">trong câu: <span lang="ja">${rich(f.mark)}</span>${ctxVi ? ` — ${rich(ctxVi)}` : ''}</small>` : '';
+  return `<li class="xw"><button type="button" class="xw-b" data-wsheet="${esc(it.id)}" data-tail="${esc(tail)}"><span class="xw-jp" lang="ja">${wordHTML(it, 'furi')}</span><span class="xw-vi">${esc(it.vi)}<small class="muted"> · ${esc(posName(it))}${it.level ? ' · ' + esc(it.level) : ''}</small>${inS}</span></button>${status(it) === 'new' ? `<button type="button" class="btn btn-ghost btn-sm xw-add" data-addrev="${esc(it.id)}" aria-label="Đưa từ này vào lịch ôn">+ Ôn</button>` : ''}</li>`;
 }
-const refRow = (w, vi, cls = '') => `<li class="xw ${cls}"><span class="xw-b"><span class="xw-jp" lang="ja">${rich(w)}</span><span class="xw-vi">${esc(vi || '')}</span></span></li>`;
+// cụm từ / chú thích: chạm → bảng cụm (nghĩa, từ trong cụm, chữ Hán)
+const refRow = (w, vi, cls = '') => `<li class="xw ${cls}"><button type="button" class="xw-b" data-psheet="${esc(w)}" data-vi="${esc(vi || '')}"><span class="xw-jp" lang="ja">${rich(w)}</span><span class="xw-vi">${rich(vi || '')}${cls === 'xp' ? '<small class="muted"> · cụm từ</small>' : ''}</span></button></li>`;
 function gramRow(g) {
   return `<li class="xg"><button type="button" class="xw-b" data-gopen="${esc(g.id)}"><span class="xw-jp" lang="ja">${rich(g.pattern)}</span><span class="xw-vi">${rich(g.meaning || '')}<small class="muted"> · ${esc(g.level || '')} · xem bài</small></span></button></li>`;
 }
 // line = {jp, vi, words, grammar, gloss, phr, std, note}; head = có hiện lại câu ở đầu không
 export function explainHTML(line, { head = true } = {}) {
   const jp = line.jp || '';
+  const { text, spans } = detectSpans(jp);
   const listed = (line.words || []).filter(w => typeof w === 'string');
-  const wid = [...new Set([...detectWords(jp), ...listed])].filter(id => D.items.get(id)?._type === 'vocab');
-  const phrPlain = new Set((line.phr || []).map(p => plain(p.w)));
+  const phr = line.phr || [], phrPlain = new Set(phr.map(p => plain(p.w)));
   // từ trùng hẳn với một cụm đã giải thích (おはようございます…) thì không lặp lại
-  const words = wid.map(id => D.items.get(id)).filter(it => !phrPlain.has(it.kanji || it.kana) && !phrPlain.has(it.kana) && !(it.kf && phrPlain.has(plain(it.kf))));
-  const inline = (line.words || []).filter(w => w && typeof w === 'object' && w.w);
+  const dupPhr = it => phrPlain.has(it.kanji || it.kana) || phrPlain.has(it.kana) || (it.kf && phrPlain.has(plain(it.kf)));
+  const rows = [], seen = new Set();
+  // chú thích của câu viết đúng dạng đã chia của từ (よろしく ← よろしい, 冷やして ← 冷やす): gộp nghĩa theo câu vào dòng từ, bỏ dòng chú thích
+  const glOf = new Map([...(line.gloss || []), ...(line.words || []).filter(w => w && typeof w === 'object' && w.w)].map(g => [plain(g.w), g]));
+  const used = new Set();
+  for (const sp of spans) {
+    const it = D.items.get(sp.id);
+    if (it?._type !== 'vocab' || seen.has(it.id) || dupPhr(it)) continue;
+    const f = formAt(it, text.slice(sp.i, sp.i + 30), 0);
+    const surf = f ? plain(f.mark) : text.slice(sp.i, sp.j), g = glOf.get(surf);
+    const ctxVi = g && ![it.kanji, it.kana, it.kf && plain(it.kf)].includes(surf) ? (used.add(surf), g.vi) : '';
+    seen.add(it.id); rows.push({ at: sp.i, html: wordRow(it, text, sp.i, f, ctxVi) });
+  }
+  for (const id of listed) {
+    const it = D.items.get(id);
+    if (it?._type !== 'vocab' || seen.has(id) || dupPhr(it)) continue;
+    seen.add(id);
+    const at = [it.kanji, it.kana].filter(Boolean).map(w => text.indexOf(w)).find(k => k >= 0) ?? -1;
+    rows.push({ at: at >= 0 ? at : 1e6, html: wordRow(it, text, at) });
+  }
+  // chú thích trùng với từ đã dò được trong kho thì bỏ (từ trong kho đã có dòng riêng)
+  const gl = (line.gloss || []).filter(g => !used.has(plain(g.w)) && !phr.some(p => plain(p.w) === plain(g.w)) && !(() => { const d = detectWords(g.w), it = d.length === 1 && D.items.get(d[0]); return it && seen.has(d[0]) && [it.kanji, it.kana, it.kf && plain(it.kf)].includes(plain(g.w)); })());
+  const inline = (line.words || []).filter(w => w && typeof w === 'object' && w.w && !used.has(plain(w.w)));
+  const posOf = w => { const k = text.indexOf(plain(w)); return k >= 0 ? k : 1e6; };
+  for (const p of phr) rows.push({ at: posOf(p.w), html: refRow(p.w, p.vi, 'xp') });
+  for (const g of [...gl, ...inline]) rows.push({ at: posOf(g.w), html: refRow(g.w, g.vi) });
+  rows.sort((a, b) => a.at - b.at);
   const gid = [...new Set([...(line.grammar || []), ...detectGrammar(jp)])].filter(id => D.items.has(id));
   const gs = gid.map(id => D.items.get(id));
-  // chú thích trùng với từ đã dò được trong kho thì bỏ (từ trong kho đã có dòng riêng)
-  const phr = line.phr || [], gl = (line.gloss || []).filter(g => !phr.some(p => plain(p.w) === plain(g.w)) && !(() => { const d = detectWords(g.w), it = d.length === 1 && D.items.get(d[0]); return it && wid.includes(d[0]) && [it.kanji, it.kana, it.kf && plain(it.kf)].includes(plain(g.w)); })());
   const parts = [];
-  if (head) parts.push(`<div class="xh"><p class="xh-jp" lang="ja">${rubyHTML(stripHL(jp), true)}</p>${sayBtn(reading(stripHL(jp)))}</div>${line.vi ? `<p class="xh-vi">${esc(line.vi)}</p>` : ''}`);
+  if (head) parts.push(`<div class="xh" data-nosent><p class="xh-jp" lang="ja">${rubyHTML(stripHL(jp), true)}</p>${sayBtn(reading(stripHL(jp)))}</div>${line.vi ? `<p class="xh-vi">${esc(line.vi)}</p>` : ''}`);
   if (line.std) parts.push(`<p class="small"><b>Nói chuẩn:</b> <span lang="ja">${rich(line.std)}</span></p>`);
-  if (phr.length) parts.push(`<p class="sub-label">Cụm từ</p><ul class="xl">${phr.map(p => refRow(p.w, p.vi, 'xp')).join('')}</ul>`);
-  if (words.length || gl.length || inline.length) parts.push(`<p class="sub-label">Từ trong câu</p><ul class="xl">${words.map(wordRow).join('')}${[...gl, ...inline].map(g => refRow(g.w, g.vi)).join('')}</ul>`);
   if (gs.length) parts.push(`<p class="sub-label">Ngữ pháp trong câu</p><ul class="xl">${gs.map(gramRow).join('')}</ul>`);
+  if (rows.length) parts.push(`<p class="sub-label">Từ, cụm từ trong câu <small class="muted">· chạm để xem</small></p><ul class="xl">${rows.map(r => r.html).join('')}</ul>`);
   if (line.note) parts.push(`<p class="small dl-note">💡 ${rich(line.note)}</p>`);
-  if (!words.length && !gs.length && !phr.length && !gl.length) parts.push('<p class="small muted">Câu này không có từ nào trong kho để giải thích thêm.</p>');
+  if (!rows.length && !gs.length) parts.push('<p class="small muted">Câu này không có từ nào trong kho để giải thích thêm.</p>');
   return `<div class="xpl-b">${parts.join('')}</div>`;
 }
-export function openExplain(line) {
-  const s = openSheet(`<h2 class="h2">Giải thích câu</h2>${explainHTML(line)}`, { label: 'Giải thích câu' });
-  bindSay(s.el);
-  bindAddRev(s.el);
-  return s;
+// v66: nút "+ Ôn" gắn chung một lần cho cả app (tap.js); giữ hàm để chỗ cũ gọi không lỗi
+export function bindAddRev() { }
+
+// v66: kho câu có sẵn trong dữ liệu (ví dụ của từ, của mẫu, câu hội thoại / bài đọc, câu thực chiến) — tra nghĩa, mẫu ngữ pháp, chú thích của câu được chạm
+let _si = null, _sk = '';
+const sk = s => plain(stripHL(String(s || ''))).replace(/[\s　]/g, '');
+function sentIndex() {
+  const key = `${D.items.size}:${D.vocab.length}`;
+  if (_si && _sk === key) return _si;
+  const m = new Map();
+  const put = (o, extra) => { if (!o?.jp) return; const k = sk(o.jp); if (k && !m.has(k)) m.set(k, extra ? { ...o, ...extra } : o); };
+  for (const it of [...D.dialog, ...D.text]) for (const t of it.turns || it.sents || []) put(t);
+  for (const g of D.grammar) for (const e of g.ex || []) put(e, { grammar: [g.id] });
+  for (const p of D.phrase) put(p);
+  for (const v of D.vocab) for (const k of ['ex', 'fx', 'reply']) for (const e of v[k] || []) put(e);
+  _si = m; _sk = key;
+  return m;
 }
-export function bindAddRev(root) {
-  root.addEventListener('click', async e => {
-    const b = e.target.closest('[data-addrev]');
-    if (!b) return;
-    e.stopPropagation();
-    const it = D.items.get(b.dataset.addrev);
-    if (it) await setLearned(it, 'learned');
-    b.disabled = true; b.textContent = 'Đã thêm ✓';
-  });
-}
+export const findLine = jp => sentIndex().get(sk(jp)) || null;
+
 // Câu (dạng 漢字[よみ]) lấy lại từ HTML đã có furigana (<ruby>漢字<rt>よみ</rt></ruby>)
-function markupFrom(el) {
+export function markupFrom(el) {
   let s = '';
   for (const n of el.childNodes) {
     if (n.nodeType === 3) s += n.textContent;
     else if (n.tagName === 'RUBY') { const rt = n.querySelector('rt')?.textContent || ''; const base = [...n.childNodes].filter(c => c.tagName !== 'RT' && c.tagName !== 'RP').map(c => c.textContent).join(''); s += base + (rt ? `[${rt}]` : ''); }
-    else if (n.tagName !== 'BUTTON' && n.tagName !== 'RT') s += markupFrom(n);
+    else if (n.tagName !== 'BUTTON' && n.tagName !== 'RT' && n.tagName !== 'SMALL') s += markupFrom(n);
   }
   return s;
 }
@@ -255,4 +287,5 @@ export async function openGrammarSheet(id) {
   renderGrammar(box, id);
   box.querySelector('.back')?.remove();
   box.insertAdjacentHTML('beforeend', `<p class="small"><a href="#/nguphap/${encodeURIComponent(id)}">Mở trang riêng của mẫu này →</a></p>`);
+  return s;
 }

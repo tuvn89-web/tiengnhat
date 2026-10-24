@@ -413,10 +413,19 @@ body:has(#view .run, #view .next-bar, #view .heart-bar) .toasts { bottom: calc(v
 section[data-tab][hidden] { display: none; }
 
 /* ---------- chạm vào chữ Hán ---------- */
-.kj { cursor: pointer; border-radius: 3px; }
-@media (hover: hover) { .kj:hover { background: var(--blue-soft); } }
+/* v66: chữ Hán chỉ chạm được ở đầu thẻ từ đầy đủ, thẻ chữ Hán, bài luyện chữ Hán ([data-kj-ok]); chỗ khác chạm câu → bảng câu */
+.kj { border-radius: 3px; }
+[data-kj-ok] .kj { cursor: pointer; }
+@media (hover: hover) { [data-kj-ok] .kj:hover { background: var(--blue-soft); } }
 [data-nokj] .kj { cursor: inherit; }
 @media (hover: hover) { [data-nokj] .kj:hover, button .kj:hover, a .kj:hover { background: none; } }
+/* v66: câu chạm được → bảng câu; câu đang xem tô sáng */
+:is(.ex-jp, .after-sent, .dl-jp, .rd-jp, .prompt-sent, .snt, .gt-s) { cursor: pointer; border-radius: 6px; transition: background-color .2s; }
+:is(.ex-jp, .after-sent, .rd-jp, .prompt-sent, .snt, .gt-s).snt-on, .passage .snt-on { background: var(--blue-soft); box-shadow: 0 0 0 3px var(--blue-soft); }
+.gt-paper .gt-s.snt-on { background: #DCE7FA; box-shadow: 0 0 0 2px #DCE7FA; }
+@media (hover: hover) { .gt-paper .gt-s:hover { background: rgba(35, 97, 201, .08); } }
+[data-nokj] :is(.ex-jp, .after-sent, .dl-jp, .rd-jp, .prompt-sent, .snt) { cursor: inherit; }
+.prompt-sent:has(.blank) { cursor: inherit; }
 
 /* ---------- trang chủ ---------- */
 .tasks { list-style: none; padding: 0; margin: 8px 0 4px; display: grid; gap: 8px; }
@@ -820,14 +829,42 @@ section.lpanel[hidden] { display: none; }
 .xh-vi { margin: 2px 0 8px; color: var(--ink-2); }
 .xl { list-style: none; padding: 0; margin: 4px 0 10px; }
 .xw, .xg { display: flex; align-items: center; border-bottom: 1px solid var(--line); }
-.xw-b { flex: 1; min-width: 0; display: grid; grid-template-columns: minmax(6.5em, auto) 1fr; gap: 10px; align-items: center; padding: 8px 4px; background: none; border: 0; text-align: left; color: var(--ink); cursor: pointer; min-height: 48px; }
+.xw-b { flex: 1; min-width: 0; display: grid; grid-template-columns: minmax(5.5em, max-content) minmax(48%, 1fr); gap: 10px; align-items: center; padding: 8px 4px; background: none; border: 0; text-align: left; color: var(--ink); cursor: pointer; min-height: 48px; }
+.xw-b > * { min-width: 0; }
+.xg .xw-b { grid-template-columns: 1fr; gap: 0; } /* v66: mẫu ngữ pháp dài (〜させられた・〜たくなかった) nằm trên, nghĩa nằm dưới */
 span.xw-b { cursor: default; }
-.xw-jp { font-size: 1.1em; line-height: 1.9; }
+.xw-jp { font-size: 1.1em; line-height: 1.9; overflow-wrap: anywhere; }
 .xw-vi { color: var(--ink-2); overflow-wrap: anywhere; }
 .xg .xw-b { color: var(--blue); }
 .xg .xw-vi { color: var(--ink); }
 .xp .xw-jp { font-weight: 650; }
+.xw-in { color: var(--ink); display: block; margin-top: 1px; }
 .xpl { margin-top: 10px; border-top: 1px dashed var(--line); padding-top: 6px; text-align: left; }
+/* ---- v66: chồng bảng (câu → từ → chữ): ‹ quay lại, bóng mờ chỉ một lớp, bảng dưới tạm ẩn ---- */
+.sheet-wrap.stk-up { background: transparent; }
+.sheet-wrap.stk-under .sheet { visibility: hidden; }
+.sheet-wrap.stk-up .sheet { padding-top: 58px; }
+.sheet-back { position: absolute; top: 10px; left: 10px; max-width: calc(100% - 80px); gap: 4px; padding-left: 8px; }
+.sheet-back span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sheet-back .ic { width: 18px; height: 18px; flex: none; }
+.stk .sheet { overscroll-behavior: contain; }
+/* bảng từ gọn */
+.ws-head { display: flex; align-items: center; gap: 4px; padding-right: 40px; }
+.ws-w { flex: 1; min-width: 0; margin: 0; font-size: 1.9em; line-height: 1.7; font-family: var(--jp); }
+.ws-vi { margin: 2px 0 2px; font-size: 1.12em; font-weight: 600; }
+.ws-meta { margin: 0 0 8px; color: var(--ink-2); font-size: .92em; }
+.ws-form { border-left: 4px solid var(--blue); background: var(--blue-soft); border-radius: 8px; padding: 6px 12px; margin: 10px 0; }
+.ws-form .sub-label { margin: 0; }
+.ws-form p { margin: 2px 0; line-height: 1.9; }
+.ws-form b[lang] { font-size: 1.15em; }
+.ws-fvi { color: var(--ink); font-weight: 600; }
+.ws-ks { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: 8px; margin: 6px 0 12px; }
+.ws-k { display: grid; justify-items: center; gap: 1px; padding: 8px 6px; border: 1.5px solid var(--blue); border-radius: 12px; background: var(--surface); color: var(--ink); cursor: pointer; font: inherit; min-height: 88px; }
+.ws-k.no { border-color: var(--line); border-style: dashed; }
+.ws-k b { font-family: var(--jp); font-size: 2em; font-weight: 600; line-height: 1.2; }
+.ws-khv { font-weight: 700; font-size: .85em; letter-spacing: .02em; }
+.ws-kvi { color: var(--ink-2); font-size: .78em; text-align: center; line-height: 1.3; }
+.ws-btns { margin-top: 4px; }
 .xpl > summary { cursor: pointer; color: var(--blue); font-weight: 600; padding: 6px 0; }
 .gsheet .gram { padding-bottom: 8px; }
 .gdone { text-align: center; }
@@ -1385,6 +1422,8 @@ html.ff-doc :is(.doc-body, .gt-paper, .dl-line) ruby.rf:not(.show), html.ff-all 
 .rk-l { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
 .rk-row { display: flex; align-items: center; gap: 10px; padding: 4px 12px 4px 8px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); }
 .rk-row.is-me { background: var(--blue-soft); border-color: var(--blue); }
+[data-rk] { cursor: pointer; }
+[data-rk]:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; border-radius: 12px; }
 .rk-row .rk-n { width: 26px; text-align: center; color: var(--ink-2); }
 .rk-t { flex: 1; display: grid; min-width: 0; }
 .rk-b { display: flex; gap: 2px; }
@@ -1419,4 +1458,52 @@ html.ff-doc :is(.doc-body, .gt-paper, .dl-line) ruby.rf:not(.show), html.ff-all 
 
 /* v63: đầu trang Tài khoản — ảnh trong khung + hàng huy hiệu */
 .acct-head .fr { margin: -6px -4px -6px -8px; }
+/* ---- v66: chạm ảnh đại diện → Xem / Đổi; màn chỉnh ảnh ---- */
+.av-tap { all: unset; display: inline-grid; cursor: pointer; border-radius: 50%; -webkit-tap-highlight-color: transparent; }
+.av-tap:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+.pf-hero .av-tap { justify-self: center; }
+.av-opts { display: grid; gap: 8px; margin-top: 6px; }
+.av-opt { display: flex; align-items: center; gap: 14px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--ink); font: inherit; text-align: left; cursor: pointer; min-height: 64px; }
+.av-opt .ic { width: 26px; height: 26px; flex: none; color: var(--blue); }
+.av-opt span { display: grid; gap: 2px; }
+.av-opt small { color: var(--ink-2); }
+.av-view { display: grid; place-items: center; padding: 20px 0 8px; }
+.av-big { width: min(84vw, 360px); height: min(84vw, 360px); border-radius: 22px; object-fit: cover; background: var(--surface-2); box-shadow: 0 6px 24px rgba(0, 0, 0, .18); }
+.av-big-pre { display: grid; place-items: center; color: #fff; font-family: var(--jp); font-weight: 700; font-size: min(36vw, 150px); line-height: 1; }
+.av-nick { text-align: center; }
+.av-fr { display: flex; align-items: center; justify-content: center; gap: 12px; margin: 6px 0 4px; }
+.av-fr > span:last-child { display: grid; gap: 1px; }
+.ave-stage { display: grid; place-items: center; margin: 4px auto 8px; width: var(--fs); height: var(--fs); }
+.ave-stage.is-crop { touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; }
+.ave-stage.is-crop:active { cursor: grabbing; }
+.ave-fr { overflow: visible; }
+.ave-hole { overflow: hidden; display: block; background: var(--surface-2); }
+.ave-hole img, .ave-ghost { position: absolute; max-width: none; max-height: none; transform-origin: 50% 50%; pointer-events: none; -webkit-user-drag: none; user-select: none; }
+.ave-ghost { opacity: .32; }
+.ave-zoom { display: flex; align-items: center; gap: 10px; margin: 2px 0 6px; }
+.ave-zoom input { flex: 1; accent-color: var(--blue); }
+.ave-tools .row-btns { justify-content: center; }
+.ave-hint { text-align: center; margin: 4px 0 0; }
+.ave-prev { display: flex; align-items: flex-end; justify-content: space-around; gap: 8px; margin: 4px 0 6px; }
+.ave-prev figure { margin: 0; display: grid; justify-items: center; gap: 4px; text-align: center; }
+.ave-prev figcaption { max-width: 96px; line-height: 1.3; }
+.ave-frames { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+.ave-frames .pf-fr { flex: 0 0 96px; }
+.ave-frames .pf-fr img { width: 60px; height: 60px; }
+.ave-act { position: sticky; bottom: -22px; z-index: 2; background: var(--surface-solid, var(--surface)); padding: 10px 0 6px; margin-top: 12px; }
+.ave [aria-pressed="true"].btn-ghost { border-color: var(--blue); }
 .acct-hh { margin: 12px 0 4px; text-decoration: none; color: inherit; }
+
+/* v64: màn chờ có tiến trình; thời gian mở app ở Cài đặt */
+.boot { display: grid; gap: 10px; max-width: 420px; margin: 24px auto; text-align: center; }
+.boot-bar { height: 6px; border-radius: 3px; background: var(--surface-2); overflow: hidden; }
+.boot-bar i { display: block; height: 100%; width: 0; background: var(--blue); transition: width .2s; }
+.boot-note:empty { display: none; }
+.boot-parts { margin: 4px 0 8px; padding-left: 20px; }
+
+/* v65: Luyện từ đã tim → Chuyển thể — chừa chỗ cho dấu chấm (○ ×) ở góc, nghĩa dài thì chữ nhỏ lại */
+.hrt-fcard .prompt-vi { padding: 0 72px; font-size: 1.25em; line-height: 1.35; }
+.hrt-fcard .prompt-row { padding-right: 64px; }
+.hrt-fcard .prompt-jp { font-size: 1.9em; white-space: nowrap; }
+@media (max-width: 360px) { .hrt-fcard .prompt-vi { padding: 0 64px 0 0; text-align: left; } .hrt-fcard .prompt-jp { font-size: 1.6em; } }
+.hrt-flv { margin-top: -4px; }

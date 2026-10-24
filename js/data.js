@@ -35,7 +35,7 @@ export const D = {
 };
 export const typeOfId = id => id.startsWith('g:') ? 'grammar' : id.startsWith('p:') ? 'phrase' : id.startsWith('k:') ? 'kanji' : id.startsWith('l:') ? 'lesson' : id.startsWith('d:') ? 'dialog' : id.startsWith('t:') ? 'text' : 'vocab';
 
-export async function loadAll() {
+export async function loadAll(onStep) {
   D.errors = [];
   D.disabled = await kvGet('disabled', { list: [], t: 0 });
   D.prefs = { ...D.prefs, ...(await kvGet('prefs', {})) };
@@ -46,49 +46,105 @@ export async function loadAll() {
   D.lessons = await kvGet('lessons', {});
   D.nbooks = await kvGet('nbooks', {});
   D.nmarks = await kvGet('nmarks', {});
-  try {
-    const r = await fetch('data/manifest.json', { cache: 'no-cache' });
-    if (!r.ok) throw new Error(r.status);
-    D.manifest = await r.json();
-    kvSet('manifestCache', D.manifest);
-    if (D.manifest.lock) pruneDataCache(D.manifest).catch(() => { }); // v60: bản dữ liệu đã tách → bỏ các gói cũ không còn trong danh mục
-  } catch {
-    D.manifest = await kvGet('manifestCache', { packs: [] });
-    if (!D.manifest.packs.length) D.errors.push('Không tải được danh mục gói. Mở app khi có mạng một lần để tải dữ liệu.');
+  // v64: mở ngay bằng danh mục đã lưu trong máy (không chờ mạng); bản mới kiểm tra ở nền (checkDataUpdate).
+  // Chỉ lần đầu (máy chưa có danh mục) mới tải danh mục qua mạng.
+  const T = { first: false }, now = () => performance.now();
+  let t0 = now();
+  D.manifest = await kvGet('manifestCache', null);
+  if (!D.manifest?.packs?.length) {
+    T.first = true;
+    try { D.manifest = await fetchManifest(); if (D.manifest.packs?.length) await kvSet('manifestCache', D.manifest); }
+    catch { D.manifest = null; }
+    if (!D.manifest?.packs?.length) { D.manifest = { packs: [] }; D.errors.push('Không tải được danh mục gói. Mở app khi có mạng một lần để tải dữ liệu.'); }
   }
-  const builtin = await Promise.all((D.manifest.packs || []).map(async m => {
-    try {
-      const r = await fetch(`data/packs/${m.file}?v=${m.version || 1}${m.hash ? '.' + m.hash : ''}`);
-      if (!r.ok) throw new Error(r.status);
-      const j = await r.json();
-      return { ...m, src: 'builtin', items: j.items || [] };
-    } catch (e) {
-      // Phân biệt: máy chủ trả 404 = trên GitHub chưa có tệp; mã lỗi khác = máy chủ lỗi; không có mã = mất mạng.
-      const st = Number(e && e.message);
-      D.errors.push(st === 404
-        ? `Gói "${m.title}" chưa có trên GitHub: thiếu tệp data/packs/${m.file} — tải tệp này lên kho rồi mở lại app.`
-        : st ? `Không tải được gói "${m.title}" (máy chủ báo lỗi ${st}) — thử mở lại app sau ít phút.`
-        : e instanceof SyntaxError ? `Gói "${m.title}" bị hỏng (tệp data/packs/${m.file} không đọc được) — tải lại tệp này lên kho.`
-        : `Không tải được gói "${m.title}" — máy đang mất mạng, cần mở app khi có mạng.`);
-      return null;
-    }
-  }));
+  T.man = now() - t0; t0 = now();
+  const builtin = await loadBuiltin(D.manifest, onStep, T);
+  T.data = now() - t0;
   D.builtin = builtin.filter(Boolean);
   D.imported = (await all('imported')).filter(x => !x._del).map(x => packEntry(x.pack, x.items, 'imported', x._t));
+  t0 = now(); onStep?.({ phase: 'lock' });
   await loadLocked();
+  T.lock = now() - t0; t0 = now(); onStep?.({ phase: 'build' });
   assemblePacks();
   D.user = new Map((await all('user')).map(x => [x.id, x]));
   rebuild();
+  T.build = now() - t0;
+  return T;
+}
+
+// ---------- v64: nạp gói (theo tệp nhóm nếu danh mục có "bundles", không thì từng gói) ----------
+const packUrl = m => `data/packs/${m.file}?v=${m.version || 1}${m.hash ? '.' + m.hash : ''}`;
+const bundleUrl = b => `data/bundles/${b.file}`;
+export const fetchManifest = async () => { const r = await fetch('data/manifest.json', { cache: 'no-cache' }); if (!r.ok) throw new Error(r.status); return r.json(); };
+function packErr(m, e) {
+  // Phân biệt: máy chủ trả 404 = trên GitHub chưa có tệp; mã lỗi khác = máy chủ lỗi; không có mã = mất mạng.
+  const st = Number(e && e.message);
+  D.errors.push(st === 404
+    ? `Gói "${m.title}" chưa có trên GitHub: thiếu tệp data/packs/${m.file} — tải tệp này lên kho rồi mở lại app.`
+    : st ? `Không tải được gói "${m.title}" (máy chủ báo lỗi ${st}) — thử mở lại app sau ít phút.`
+    : e instanceof SyntaxError ? `Gói "${m.title}" bị hỏng (tệp data/packs/${m.file} không đọc được) — tải lại tệp này lên kho.`
+    : `Không tải được gói "${m.title}" — máy đang mất mạng, cần mở app khi có mạng.`);
+}
+async function getJSON(u) { const r = await fetch(u); if (!r.ok) throw new Error(r.status); return r.json(); }
+async function loadBuiltin(man, onStep, T) {
+  const packs = man.packs || [], bundles = (man.bundles || []).filter(b => Array.isArray(b.packs));
+  const items = new Map(), inB = new Set(bundles.flatMap(b => b.packs));
+  const single = packs.filter(p => !inB.has(p.id));
+  const total = bundles.length + single.length; let done = 0;
+  const tick = () => onStep?.({ phase: 'data', done: ++done, total, bytes: T.first ? (bundles.reduce((a, b) => a + (b.gz || 0), 0) || null) : null });
+  T.files = total; T.mode = bundles.length ? 'nhom' : 'goi';
+  onStep?.({ phase: 'data', done: 0, total, bytes: T.first ? (bundles.reduce((a, b) => a + (b.gz || 0), 0) || null) : null });
+  const failed = [];
+  await Promise.all([
+    ...bundles.map(b => getJSON(bundleUrl(b)).then(j => { for (const x of j.packs || []) items.set(x.id, x.items || []); }).catch(() => failed.push(...b.packs)).finally(tick)),
+    ...single.map(m => getJSON(packUrl(m)).then(j => { items.set(m.id, j.items || []); }).catch(e => packErr(m, e)).finally(tick)),
+  ]);
+  // tệp nhóm không tải được (vd. mất mạng, bộ nhớ đệm bị xoá) → thử từng gói của nhóm đó
+  if (failed.length) {
+    const ids = new Set(failed);
+    await Promise.all(packs.filter(m => ids.has(m.id) && !items.has(m.id)).map(m => getJSON(packUrl(m)).then(j => { items.set(m.id, j.items || []); }).catch(e => packErr(m, e))));
+  }
+  return packs.filter(m => items.has(m.id)).map(m => ({ ...m, src: 'builtin', items: items.get(m.id) }));
+}
+// v64: kiểm tra dữ liệu mới ở nền. Có bản mới → tải trước vào bộ nhớ đệm rồi mới lưu danh mục → lần mở sau dùng ngay.
+const sigOf = m => JSON.stringify([(m.bundles || []).map(b => b.file), (m.packs || []).map(p => [p.id, p.version, p.hash]), m.lock || null]);
+async function cacheUrls(urls) {
+  const c = globalThis.caches ? await caches.open('tnt-data') : null;
+  for (let i = 0; i < urls.length; i += 6) {
+    await Promise.all(urls.slice(i, i + 6).map(async u => {
+      const abs = new URL(u, location.href).href;
+      if (c && await c.match(abs)) return;
+      const r = await fetch(abs, { cache: 'no-cache' });
+      if (!r.ok) throw new Error(r.status);
+      if (c) await c.put(abs, r);
+    }));
+  }
+}
+const dataUrls = m => { const inB = new Set((m.bundles || []).flatMap(b => b.packs)); return [...(m.bundles || []).map(bundleUrl), ...(m.packs || []).filter(p => !inB.has(p.id)).map(packUrl)]; };
+export async function checkDataUpdate() {
+  if (!navigator.onLine) return null;
+  let m; try { m = await fetchManifest(); } catch { return null; }
+  if (!m?.packs?.length) return null;
+  if (sigOf(m) === sigOf(D.manifest)) { cacheUrls(dataUrls(m)).then(() => pruneDataCache(m)).catch(() => { }); return null; } // lần đầu mở: đưa dữ liệu vào bộ nhớ đệm của app
+  await cacheUrls(dataUrls(m));
+  await kvSet('manifestCache', m);
+  pruneDataCache(m).catch(() => { });
+  const old = new Map((D.manifest.packs || []).map(p => [p.id, `${p.version}.${p.hash}`]));
+  return { n: m.packs.filter(p => old.get(p.id) !== `${p.version}.${p.hash}`).length };
 }
 
 // v60: xoá khỏi bộ nhớ đệm của app các gói không còn trong danh mục (vd. gói N3–N1 đầy đủ tải từ trước khi khóa lộ trình)
+// v64: cả tệp nhóm cũ; gói đã nằm trong tệp nhóm thì không giữ bản lẻ nữa
 export async function pruneDataCache(m) {
   if (!globalThis.caches) return 0;
-  const keep = new Set((m.packs || []).map(p => p.file)), c = await caches.open('tnt-data');
+  const inB = new Set((m.bundles || []).flatMap(b => b.packs || []));
+  const keepP = new Set((m.packs || []).filter(p => !inB.has(p.id)).map(p => p.file)), keepB = new Set((m.bundles || []).map(b => b.file));
+  const c = await caches.open('tnt-data');
   let n = 0;
   for (const k of await c.keys()) {
-    const p = new URL(k.url).pathname, i = p.indexOf('/data/packs/');
-    if (i >= 0 && !keep.has(decodeURIComponent(p.slice(i + 12)))) { await c.delete(k); n++; }
+    const p = new URL(k.url).pathname, i = p.indexOf('/data/packs/'), j = p.indexOf('/data/bundles/');
+    const drop = i >= 0 ? !keepP.has(decodeURIComponent(p.slice(i + 12))) : j >= 0 ? !keepB.has(decodeURIComponent(p.slice(j + 14))) : false;
+    if (drop) { await c.delete(k); n++; }
   }
   return n;
 }

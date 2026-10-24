@@ -141,7 +141,7 @@ function giongQ(k) {
     : `<p class="prompt-vi">${esc(k.hv)}</p><p class="prompt-hint">${esc(k.nghia || '')}</p>`;
   return { kind: 'choice', tag: 'Chữ trông giống', level: k.level, promptBare: true, prompt, hint: w ? 'Chọn chữ đúng cho ô trống' : 'Chọn đúng chữ',
     opts: shuffle(opts).map(o => opt(o.id, `<span class="kc-opt" data-bare>${esc(o.char)}</span>`)), answer: k.id, noCmp: true,
-    after: (w ? `<p class="small"><span lang="ja">${wordHTML(w, 'furi')}</span> — ${esc(w.vi)}</p>` : '') + similarCmpHTML([k, ...al], { focus: k.char, title: 'Các chữ trông giống' }) };
+    after: `<div data-kj-ok>${w ? `<p class="small"><span lang="ja">${wordHTML(w, 'furi')}</span> — ${esc(w.vi)}</p>` : ''}${similarCmpHTML([k, ...al], { focus: k.char, title: 'Các chữ trông giống' })}</div>` };
 }
 export const buildGiongChu = o => shuffle(D.kanji.filter(k => inLv(o, k) && (o.source !== 'learned' || status(k) !== 'new') && lookAlikes(k).length)).slice(0, Math.min(o.count * 2, 300)).map(giongQ).filter(Boolean).slice(0, o.count);
 export async function renderGiongChu(view, ctx) {

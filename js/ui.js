@@ -66,6 +66,7 @@ export function openSheet(html, { onClose, label = 'Chi tiết' } = {}) {
       wrap.addEventListener('animationend', e => { if (e.target === wrap) done(); });
       setTimeout(done, 340);
     }
+    wrap.dispatchEvent(new Event('sheetclose')); // v66: chồng bảng (tap.js) hiện lại bảng dưới trước khi trả lại tiêu điểm
     prev?.focus?.(); onClose?.();
   };
   const onKey = e => { if (e.key === 'Escape' && [...document.querySelectorAll('.sheet-wrap:not(.is-closing)')].pop() === wrap) close(); };
@@ -73,7 +74,9 @@ export function openSheet(html, { onClose, label = 'Chi tiết' } = {}) {
   wrap.addEventListener('click', e => { if (e.target === wrap || e.target.closest('.sheet-x')) close(); });
   bindSay(wrap);
   setTimeout(() => wrap.querySelector('.sheet-x').focus(), 0);
-  return { el: wrap, close, body: wrap.querySelector('.sheet-body') };
+  const h = { el: wrap, close, body: wrap.querySelector('.sheet-body') };
+  wrap.__sheet = h;
+  return h;
 }
 
 export function confirmBox(msg, okLabel = 'Đồng ý', cancelLabel = 'Huỷ') {

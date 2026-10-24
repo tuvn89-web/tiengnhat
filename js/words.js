@@ -92,6 +92,7 @@ export function showWord(id, ctx, refresh) {
       await deleteUserItem(id); s.close(); toast('Đã xoá.'); refresh?.();
     }
   });
+  return s;
 }
 
 // ---------- thêm / sửa ----------

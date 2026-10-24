@@ -7,7 +7,7 @@ import { emptyState, bindSay, sayBtn, chips, bindChips, readChip } from './ui.js
 import { runDrill, opt } from './drill.js';
 import { sentences, sentQ, judgeJa } from './dich.js';
 import { jaVoices, pickVoice, ttsReady } from './tts.js';
-import { openExplain } from './explain.js';
+import { openSentence } from './tap.js';
 import { loadDocWords, docWordsReady, docFit, fitBadgeHTML, fitNoteHTML, bindFitNote } from './docfit.js';
 
 const KIND = { thongbao: 'Thông báo', tinnhan: 'Tin nhắn', email: 'Email', bienbao: 'Biển báo', giayto: 'Giấy tờ', doanvan: 'Đoạn văn' };
@@ -120,7 +120,7 @@ export function bindPassage(root, it) {
   const box = root.querySelector('.passage');
   if (!box) return;
   bindFold(root, box, it);
-  const open = d => { const t = linesOf(it)[+d.dataset.i]; if (t) openExplain({ ...t, words: t.words, grammar: t.grammar }); };
+  const open = d => { const t = linesOf(it)[+d.dataset.i]; if (t) openSentence({ ...t }, { el: d }); };
   box.onclick = e => {
     if (e.target.closest('[data-say], [data-wopen], [data-gopen], a')) return;
     const d = e.target.closest('[data-i]');

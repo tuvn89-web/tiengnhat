@@ -41,7 +41,9 @@ export const GUIDES = [
   { id: 'furi', g: 'Cho người mới', t: 'Furigana, chữ Hán và âm Hán Việt', b: [
     ['p', 'Chữ Hán trong app luôn có furigana (chữ nhỏ ghi cách đọc phía trên), trừ kiểu bài "Kanji → cách đọc" và bài thi — vì đó là lúc kiểm tra bạn có đọc được chữ hay không.'],
     ['p', 'Mỗi từ có **âm Hán Việt**: 冷凍[れいとう] = LÃNH ĐÔNG, 確認[かくにん] = XÁC NHẬN. Người Việt đoán nghĩa từ Hán rất nhanh nhờ âm này — hãy đọc nó mỗi lần học từ mới.'],
-    ['p', 'Chạm vào một chữ Hán bất kỳ để mở **thẻ chữ**: âm Hán Việt, cách đọc, bộ phận, câu lục bát giúp nhớ mặt chữ và các từ có chữ đó.']] },
+    ['p', 'Chạm vào một **câu** (bài đọc, hội thoại, câu ví dụ, giấy tờ, câu trong bài luyện sau khi đã trả lời) để mở bảng giải thích: nghĩa câu, mẫu ngữ pháp, từng từ và cụm từ theo thứ tự trong câu.'],
+    ['p', 'Chạm một từ trong bảng đó: nghĩa, loại từ, **thể đang dùng trong câu** (ví dụ 投[な]げられた = 投[な]げる · bị động · quá khứ), âm Hán Việt và **hàng chữ Hán** của từ. Chạm chữ trong hàng đó mở **thẻ chữ**: âm Hán Việt, cách đọc, bộ phận, câu lục bát giúp nhớ mặt chữ và các từ có chữ đó.'],
+    ['p', 'Nút **‹** quay về bảng trước; ✕ hoặc vuốt xuống thì đóng hết. Đang làm câu hỏi thì chưa chạm được — trả lời xong mới xem.']] },
   { id: 'nhanh', g: 'Cho người mới', t: 'Học nhanh, nhớ lâu: các chế độ mới', b: [
     ['ul', ['**Ôn nhanh 3 phút** (Trang chủ): ôn đúng 3 phút phần đến hạn, mục quá hạn lâu nhất hỏi trước. Hết giờ thì làm nốt câu đang dở rồi dừng; bấm "Thêm 3 phút" để làm tiếp. Mỗi câu được ghi vào lịch ôn ngay, nên phải bỏ dở cũng không mất gì. Hợp với giờ nghỉ giữa ca.',
       '**Học từ mới — đoán nghĩa trước**: với từ Hán, app hiện âm Hán Việt (冷凍[れいとう] = LÃNH ĐÔNG) để bạn đoán nghĩa, rồi mới hiện thẻ. Đoán trước (kể cả đoán sai) giúp nhớ lâu hơn; rèn thói quen này thì gặp từ lạ trên giấy tờ cũng đoán được.',

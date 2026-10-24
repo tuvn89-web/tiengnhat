@@ -13,7 +13,7 @@ export function isKanjiCh(ch) {
 }
 export const hasKanji = s => [...(s || '')].some(isKanjiCh);
 
-export const APP_VERSION = 'v63 · 24/10/2026'; // đổi cùng lúc với VERSION trong sw.js
+export const APP_VERSION = 'v66 · 24/10/2026'; // đổi cùng lúc với VERSION trong sw.js
 
 // Cú pháp: 漢字[よみ] — phần gắn cách đọc là chuỗi kanji liền trước "[".  [[...]] = phần ngữ pháp.
 // Dấu [ ] không đứng sau kanji, hoặc bên trong không phải kana, thì giữ nguyên như chữ thường.
@@ -49,7 +49,7 @@ export const richParas = s => String(s || '').split(/\n\n+/).map(p => `<p>${rich
 export const plain = s => parseJP(s).map(x => x.t).join('');
 export const reading = s => parseJP(s).map(x => x.r || x.t).join('');
 
-// Mỗi chữ kanji bọc trong <span class="kj"> để chạm vào là mở thẻ chữ Hán.
+// Mỗi chữ kanji bọc trong <span class="kj">. v66: chỉ chạm được (mở thẻ chữ) trong vùng [data-kj-ok] — đầu thẻ từ đầy đủ, thẻ chữ Hán, bài luyện chữ Hán.
 const KJ_RE = /[\u4E00-\u9FFF\u3400-\u4DBF々]/g;
 export const kj = html => html.replace(KJ_RE, c => (c === '々' ? c : `<span class="kj">${c}</span>`));
 
@@ -314,6 +314,7 @@ export function beep(ok) {
 export function buzz() { try { navigator.vibrate?.(120); } catch { } }
 
 // Hỏi máy chủ xem có bản app mới không (bản mới tự cài rồi tải lại trang).
+// v64: nút "Kiểm tra bản mới" — có bản app / dữ liệu mới thì áp dụng ngay (bình thường app chờ lúc mở lại hoặc khi ra nền)
 export async function checkUpdate() {
   if (!('serviceWorker' in navigator)) return 'Trình duyệt này không hỗ trợ tự cập nhật.';
   if (!navigator.onLine) return 'Đang không có mạng — có mạng rồi thử lại.';
@@ -321,7 +322,21 @@ export async function checkUpdate() {
     const reg = await navigator.serviceWorker.getRegistration();
     if (!reg) return 'App chưa cài chế độ offline — mở lại app khi có mạng.';
     await reg.update();
-    if (reg.installing || reg.waiting) return 'Đang tải bản mới — app sẽ tự tải lại sau ít giây.';
+    const w = reg.installing || reg.waiting;
+    if (w && w.state !== 'installed') await new Promise(res => { w.addEventListener('statechange', () => { if (w.state === 'installed' || w.state === 'redundant') res(); }); setTimeout(res, 15000); });
+    if (reg.waiting) {
+      try { sessionStorage.setItem('tn-updated', '1'); } catch { }
+      navigator.serviceWorker.addEventListener('controllerchange', () => location.reload(), { once: true });
+      reg.waiting.postMessage('skipWaiting');
+      setTimeout(() => location.reload(), 3000);
+      return 'Có bản mới — đang cập nhật…';
+    }
+    const r = await (await import('./data.js')).checkDataUpdate().catch(() => null);
+    if (r) {
+      try { sessionStorage.setItem('tn-dataupd', '1'); } catch { }
+      setTimeout(() => location.reload(), 800);
+      return 'Có dữ liệu mới — đang nạp lại app…';
+    }
     return `Đang dùng bản mới nhất (${APP_VERSION}).`;
   } catch { return 'Không kiểm tra được — thử lại sau.'; }
 }
@@ -343,6 +358,10 @@ export const ICON = {
   speaker: '<path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"/>',
   star: '<path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>',
   close: '<path d="M6 6l12 12M18 6 6 18"/>',
+  back: '<path d="M15 5 8 12l7 7"/>',
+  rotate: '<path d="M20 12a8 8 0 1 1-2.4-5.7"/><path d="M20 4v5h-5"/>',
+  eye: '<path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+  image: '<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 17-5-5-9 8"/>',
   plus: '<path d="M12 5v14M5 12h14"/>',
   sync: '<path d="M20 11a8 8 0 0 0-14.3-4.9L4 8"/><path d="M4 4v4h4"/><path d="M4 13a8 8 0 0 0 14.3 4.9L20 16"/><path d="M20 20v-4h-4"/>',
   flag: '<path d="M5 21V4h11l-2 4 2 4H5"/>',

@@ -4,6 +4,7 @@
 // Dữ liệu riêng của app: data/giayto.json (tên, số liệu hư cấu; số tiền chỉ để minh họa; nguồn chính thức + ngày tra).
 import { esc, rich, plain, shuffle } from './util.js';
 import { emptyState, openSheet } from './ui.js';
+import { openSentence } from './tap.js';
 
 let P = null, DOCS = [];
 const load = () => P || (P = import('./lock.js').then(m => m.appData('giayto', { docs: [] })).catch(() => ({ docs: [] })).then(j => { DOCS = j.docs || []; return DOCS; })); // v57
@@ -28,13 +29,21 @@ function termHTML(mk, gl) {
 }
 const cellHTML = (mk, gl) => (String(mk || '').includes('{{') ? textHTML(mk, gl) : termHTML(mk, gl));
 const textHTML = (s, gl) => String(s || '').split(/\{\{(.+?)\}\}/).map((x, i) => (i % 2 ? termHTML(x, gl) : `<span lang="ja">${rich(x)}</span>`)).join('');
+// v66: đoạn văn chia theo câu; chạm một câu → bảng câu (các ô gạch chân trong câu thành "cụm từ" kèm nghĩa)
+const sents = s => String(s || '').match(/[^。！？]+[。！？]?/g) || [];
+const sentsHTML = (s, gl) => sents(s).map(x => `<span class="gt-s" data-jp="${esc(x)}">${textHTML(x, gl)}</span>`).join('');
+function openPaperSent(sp, gl) {
+  const raw = sp.dataset.jp || '';
+  const phr = [...new Set([...raw.matchAll(/\{\{(.+?)\}\}/g)].map(m => plain(m[1])))].map(t => gl[t]).filter(Boolean).map(x => ({ w: x.mk, vi: x.vi }));
+  openSentence({ jp: raw.replace(/\{\{|\}\}/g, ''), phr }, { el: sp });
+}
 function blockHTML(b, gl) {
   if (b.t === 'head') return `<div class="gt-head"><p class="gt-title" lang="ja">${textHTML(b.jp, gl)}</p>${b.sub ? `<p class="gt-sub" lang="ja">${textHTML(b.sub, gl)}</p>` : ''}</div>`;
   if (b.t === 'meta') return `<dl class="gt-meta">${b.rows.map(([, k, v]) => `<div><dt>${cellHTML(k, gl)}</dt><dd>${cellHTML(v, gl)}</dd></div>`).join('')}</dl>`;
   if (b.t === 'kv') return `<table class="gt-kv">${b.name ? `<caption>${cellHTML(b.nameJ, gl)}</caption>` : ''}<tbody>${b.rows.map(([, k, v]) => `<tr><th>${cellHTML(k, gl)}</th><td>${cellHTML(v, gl)}</td></tr>`).join('')}</tbody></table>`;
   if (b.t === 'table') return `<div class="tbl-wrap"><table class="gt-tb"><thead><tr>${b.head.map(([, m]) => `<th>${cellHTML(m, gl)}</th>`).join('')}</tr></thead><tbody>${b.rows.map(r => `<tr>${r.map(([, m]) => `<td>${cellHTML(m, gl)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
-  if (b.t === 'fine') return `<p class="gt-fine">${textHTML(b.jp, gl)}</p>`;
-  return `<p class="gt-p">${textHTML(b.jp, gl)}</p>`;
+  if (b.t === 'fine') return `<p class="gt-fine">${sentsHTML(b.jp, gl)}</p>`;
+  return `<p class="gt-p">${sentsHTML(b.jp, gl)}</p>`;
 }
 function openTerm(t, gl) {
   const x = gl[t];
@@ -71,6 +80,8 @@ export async function renderPaper(view, ctx, key, toQ = false) {
   view.addEventListener('click', e => {
     const t = e.target.closest('.gt-t');
     if (t) { openTerm(t.dataset.t, d.gl); return; }
+    const sp = e.target.closest('.gt-s');
+    if (sp) { e.preventDefault(); openPaperSent(sp, d.gl); return; }
     const b = e.target.closest('[data-gt=bare]');
     if (b) { const v = view.querySelector('.gt-paper').classList.toggle('bare'); setBare(v); b.setAttribute('aria-pressed', v); b.textContent = v ? 'Hiện furigana' : 'Đọc như giấy thật (ẩn furigana)'; return; }
     const o = e.target.closest('.gt-o');

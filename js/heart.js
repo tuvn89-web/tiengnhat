@@ -3,9 +3,13 @@
 // - Giữ tim khi: mở thẻ từ / chữ Hán / bảng giải thích trong trang bài; vào "Luyện từ đã tim" rồi bấm ✕ về bài.
 // - Mất tim khi: sang trang khác (router gọi heartRoute), bắt đầu bài luyện khác của bài, tải lại hay đóng app.
 // Màn luyện: ghép 8 cặp Việt – Nhật hoặc trắc nghiệm (Việt → Nhật, Nhật → Việt, trộn); không có hồi kết, chỉ nút ✕ mới thoát.
+// v65: thêm "Chuyển thể" (động từ, tính từ đã tim): 投げられる → "có thể ném, ném được"; "ném đi! (ra lệnh mạnh)" → 投げろ. Ghi điểm theo thể, không đổi lịch ôn của từ.
 // Lịch ôn: câu đúng làm mới lịch ôn (từ mới / đến hạn: lên một hộp, mỗi chiều một lần mỗi lượt; còn lại: dời hạn từ hôm nay).
 // Câu sai không làm tụt hộp.
-import { esc, icon, wordHTML, shuffle, beep, buzz, toast } from './util.js';
+import { esc, icon, wordHTML, shuffle, beep, buzz, toast, rubyHTML, reading } from './util.js';
+import { FORMS, FORM_LEVEL, BASE_FORMS, verbInfo, conjugate, formVi, wrongForms, ruleText, shortVi } from './conj.js';
+import { AFORMS, adjInfo, adjConj, adjVi, adjWrong } from './adj.js';
+import { recForm } from './fstat.js';
 import { D } from './data.js';
 import { S } from './settings.js';
 import { review, refreshDue, dirRec } from './srs.js';
@@ -35,12 +39,44 @@ export const heartBtnHTML = (lessonId, id) => {
 };
 
 const PAIRS = 8;
-const MODES = [['match', 'Ghép 8 cặp Việt – Nhật'], ['quiz', 'Trắc nghiệm']];
+const MODES = [['match', 'Ghép 8 cặp Việt – Nhật'], ['quiz', 'Trắc nghiệm'], ['form', 'Chuyển thể']];
 const DIRS = [['vj', 'Việt → Nhật'], ['jv', 'Nhật → Việt'], ['mix', 'Trộn']];
+// ---- v65: chuyển thể — các dạng của động từ / tính từ theo cấp thể đã chọn ----
+const LVN = { N5: 5, N4: 4, N3: 3, N2: 2, N1: 1 };
+const FLVS = [['N5', 'Thể N5'], ['N4', 'Thể đến N4'], ['N3', 'Thể đến N3']];
+// hai thể gần nghĩa (ば / たら "nếu…", ません / ない "không…", ました / た "đã…") không làm phương án của nhau
+const NEAR = { ba: ['tara'], tara: ['ba'], masen: ['nai'], nai: ['masen'], mashita: ['ta'], ta: ['mashita', 'te'], te: ['ta'] };
+const POLITE = { masen: 'không {v} (lịch sự)', mashita: 'đã {v} (lịch sự)' };
+const ADJ_F = { nai: 'N5', ta: 'N5', nakatta: 'N5', te: 'N5', adv: 'N5', naru: 'N5', ba: 'N4', sou: 'N4', sugi: 'N4', suru: 'N4', sa: 'N3', mi: 'N3' };
+// Một chữ dùng cho hai thể (投げられる: khả năng = bị động với động từ nhóm 2) → gộp nghĩa, không đưa thể kia làm phương án sai
+export function formsOf(it, lv = 'N3') {
+  const out = new Map(), lim = LVN[lv] ?? 3;
+  const put = (key, f, mark, kana, vi, group) => {
+    const o = out.get(kana);
+    if (o) { o.fs.push(key); if (!o.vi.split(' — hoặc: ').includes(vi)) o.vi += ' — hoặc: ' + vi; }
+    else out.set(kana, { fs: [key], f, mark, kana, vi, group });
+  };
+  const v = verbInfo(it);
+  if (v) {
+    for (const f of BASE_FORMS) {
+      if (LVN[FORM_LEVEL[f]] < lim) continue;
+      const c = conjugate(v, f); if (c) put(f, f, c.mark, c.kana, POLITE[f] ? POLITE[f].replaceAll('{v}', formVi('masu', it).replace(/ \(lịch sự\)$/, '')) : formVi(f, it), v.group);
+    }
+  } else {
+    const a = adjInfo(it);
+    if (a) for (const [f, L] of Object.entries(ADJ_F)) {
+      if (LVN[L] < lim) continue;
+      const c = adjConj(a, f); if (c) put('adj:' + f, f, c.mark, reading(c.mark), adjVi(f, it.vi), a.type);
+    }
+  }
+  return [...out.values()];
+}
 
 // items: các từ đã tim (≥ 2); pool: từ của bài (lấy thêm làm phương án nhiễu)
 export function runHeart(view, ctx, items, pool, { onDone } = {}) {
-  const st = { mode: 'match', dir: 'mix', round: 0, ok: 0, n: 0, promoted: new Set(), queue: [], lock: false };
+  const st = { mode: 'match', dir: 'mix', flv: 'N4', round: 0, ok: 0, n: 0, promoted: new Set(), queue: [], lock: false, last: {} };
+  const formItems = items.filter(it => formsOf(it, 'N3').length >= 4); // từ đã tim chia được (động từ, tính từ)
+  const modes = MODES.filter(([k]) => k !== 'form' || formItems.length);
   let keyHandler = null;
   const setKeys = h => { if (keyHandler) document.removeEventListener('keydown', keyHandler); keyHandler = h; if (h) document.addEventListener('keydown', h); };
   ctx.onLeave(() => setKeys(null));
@@ -65,17 +101,21 @@ export function runHeart(view, ctx, items, pool, { onDone } = {}) {
       <p class="hrt-count"><b>Màn ${st.round}</b> · đúng ${st.ok}/${st.n}</p>
       <span class="run-n hrt-n">${icon('heart')} ${items.length}</span>
     </div>
-    <div class="tabs hrt-tabs" role="tablist">${MODES.map(([k, l]) => `<button type="button" class="tab" role="tab" data-mode="${k}" aria-selected="${st.mode === k}">${l}</button>`).join('')}</div>
-    ${st.mode === 'quiz' ? `<div class="chips hrt-dirs" role="group">${DIRS.map(([k, l]) => `<button type="button" class="chip" data-dir="${k}" aria-pressed="${st.dir === k}">${l}</button>`).join('')}</div>` : ''}`;
+    <div class="tabs hrt-tabs" role="tablist">${modes.map(([k, l]) => `<button type="button" class="tab" role="tab" data-mode="${k}" aria-selected="${st.mode === k}">${l}</button>`).join('')}</div>
+    ${st.mode !== 'match' ? `<div class="chips hrt-dirs" role="group">${DIRS.map(([k, l]) => `<button type="button" class="chip" data-dir="${k}" aria-pressed="${st.dir === k}">${l}</button>`).join('')}</div>` : ''}
+    ${st.mode === 'form' ? `<div class="chips hrt-dirs hrt-flv" role="group" aria-label="Thể dùng trong câu hỏi">${FLVS.map(([k, l]) => `<button type="button" class="chip" data-flv="${k}" aria-pressed="${st.flv === k}">${l}</button>`).join('')}</div>` : ''}`;
   function bindHead() {
     view.querySelector('[data-act=quit]').onclick = exit;
     view.querySelectorAll('[data-mode]').forEach(b => b.onclick = () => { if (st.mode === b.dataset.mode) return; st.mode = b.dataset.mode; st.queue = []; next(true); });
     view.querySelectorAll('[data-dir]').forEach(b => b.onclick = () => { st.dir = b.dataset.dir; st.queue = []; next(true); });
+    view.querySelectorAll('[data-flv]').forEach(b => b.onclick = () => { st.flv = b.dataset.flv; st.queue = []; next(true); });
   }
   function next(newRound = false) {
     if (st.mode === 'match') { st.round++; return matchRound(); }
-    if (newRound || !st.queue.length) { st.round++; st.queue = shuffle([...items]); }
-    ask(st.queue.shift());
+    if (newRound || !st.queue.length) { st.round++; st.queue = shuffle([...(st.mode === 'form' ? formItems : items)]); }
+    const it = st.queue.shift();
+    if (st.mode === 'form') return askForm(it);
+    ask(it);
   }
 
   // ---- ghép cặp: mỗi màn tối đa 8 cặp, không để hai nghĩa đụng nhau trong cùng màn ----
@@ -182,6 +222,73 @@ export function runHeart(view, ctx, items, pool, { onDone } = {}) {
     after.hidden = false;
     after.innerHTML = `<p class="after-msg">Đáp án đúng: <b ${dir === 'vj' ? 'lang="ja"' : ''}>${dir === 'vj' ? wordHTML(it, 'furi') : esc(it.vi)}</b> — từ này sẽ hỏi lại sau 2 câu.</p>${wordDetailHTML(it, { compact: true })}`;
     bindSay(after);
+    const bar = document.createElement('div');
+    bar.className = 'next-bar';
+    bar.innerHTML = '<button type="button" class="btn btn-primary" data-act="next">Tiếp</button>';
+    view.querySelector('.run').appendChild(bar);
+    const nb = bar.querySelector('[data-act=next]');
+    nb.onclick = () => next();
+    nb.focus({ preventScroll: true });
+    setKeys(e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); next(); } });
+  }
+
+  // ---- v65: chuyển thể Nhật → Việt (nghĩa của dạng đã chia) / Việt → Nhật (chọn dạng đúng; có lỗi chia hay gặp làm phương án sai) ----
+  const jpOf = x => (S.script === 'kana' ? esc(x.kana) : rubyHTML(x.mark));
+  function askForm(it) {
+    const dir = st.dir === 'mix' ? (Math.random() < .5 ? 'vj' : 'jv') : st.dir;
+    const cs = formsOf(it, st.flv).length >= 4 ? formsOf(it, st.flv) : formsOf(it, 'N3');
+    const pool0 = cs.filter(x => x.kana !== st.last[it.id]);
+    const c = shuffle(pool0.length ? pool0 : cs)[0];
+    st.last[it.id] = c.kana;
+    const near = new Set(c.fs.flatMap(f => NEAR[f] || []));
+    const others = shuffle(cs.filter(x => x !== c && !x.fs.some(f => near.has(f))));
+    let opts;
+    if (dir === 'jv') opts = shuffle([c, ...others.slice(0, 3)]).map(x => ({ key: x.kana, html: esc(x.vi) }));
+    else {
+      // phương án "lỗi chia": bỏ mọi dạng ĐÚNG của từ (kể cả thể ngoài cấp đang chọn, vd. 打ってはいけない gần nghĩa với 打つな)
+      const vi0 = verbInfo(it), ai = adjInfo(it);
+      const valid = new Set([...cs.map(x => x.kana), ...(vi0 ? Object.keys(FORMS).map(f => conjugate(vi0, f)?.kana) : Object.keys(AFORMS).map(f => { const m = ai && adjConj(ai, f)?.mark; return m && reading(m); }))].filter(Boolean));
+      const wrong = (c.f === c.fs[0] && !c.fs[0].startsWith('adj:') ? wrongForms(verbInfo(it), c.f) : adjWrong(adjInfo(it), c.f))
+        .map(m => ({ mark: m, kana: reading(m) })).filter(w => !valid.has(w.kana));
+      const pick = [...shuffle(wrong).slice(0, 1), ...others].filter((x, i, a) => a.findIndex(y => y.kana === x.kana) === i).slice(0, 3);
+      opts = shuffle([c, ...pick]).map(x => ({ key: x.kana, html: jpOf(x), jp: true }));
+    }
+    const base = `<span lang="ja">${wordHTML(it, S.script === 'kana' ? 'kana' : 'furi')}</span> (${esc(shortVi(it.vi))})`;
+    const prompt = dir === 'jv'
+      ? `<div class="prompt-row"><p class="prompt-jp" lang="ja">${jpOf(c)}</p>${sayBtn(c.kana)}</div><p class="prompt-hint">Từ gốc ${base} · chọn nghĩa của dạng này</p>`
+      : `<p class="prompt-vi">${esc(c.vi)}</p><p class="prompt-hint">Chia từ ${base} · chọn dạng tiếng Nhật đúng</p>`;
+    view.innerHTML = `<div class="run run-lock hrt">${head()}
+      <article class="label-card hrt-fcard" data-nokj><div class="label-head"><span class="label-tag">Chuyển thể · ${dir === 'vj' ? 'Việt → Nhật' : 'Nhật → Việt'}</span><span class="label-lv">${esc(it.level || '')}</span></div>${prompt}<div class="stamp" aria-hidden="true"></div></article>
+      <div class="opts ${dir === 'vj' ? 'opts-jp' : ''}">${opts.map((o, k) => `<button type="button" class="opt" data-k="${esc(o.key)}"><span class="opt-n">${k + 1}</span><span class="opt-t" ${o.jp ? 'lang="ja"' : ''}>${o.html}</span></button>`).join('')}</div>
+      <div class="after" hidden></div></div>`;
+    bindHead(); bindSay(view);
+    if (dir === 'jv' && S.autoSpeak) setTimeout(() => speak(c.kana), 150);
+    st.lock = false;
+    view.querySelectorAll('.opt').forEach(b => b.onclick = () => answerForm(it, c, cs, dir, b.dataset.k));
+    setKeys(e => { if (st.lock) return; const n = +e.key; if (n >= 1 && n <= opts.length) view.querySelectorAll('.opt')[n - 1].click(); });
+  }
+  function answerForm(it, c, cs, dir, key) {
+    if (st.lock) return;
+    st.lock = true;
+    const ok = key === c.kana;
+    view.querySelectorAll('.opt').forEach(b => { b.disabled = true; if (b.dataset.k === c.kana) b.classList.add('is-ok'); else if (b.dataset.k === key) b.classList.add('is-ng'); });
+    view.querySelector('.stamp').className = 'stamp ' + (ok ? 'stamp-ok' : 'stamp-ng');
+    if (S.sound) beep(ok);
+    if (!ok && S.vibrate) buzz();
+    st.n++; if (ok) st.ok++;
+    for (const f of c.fs) recForm(f, c.group, ok); // điểm theo thể (Luyện tập → Luyện thể), không đổi lịch ôn của từ
+    if (!ok) { if (st.queue.length < 2) { st.round++; st.queue.push(...shuffle(formItems.filter(x => x.id !== it.id))); } st.queue.splice(Math.min(2, st.queue.length), 0, it); }
+    updCount();
+    if (dir === 'vj' && S.autoSpeak) speak(c.kana);
+    const chosen = cs.find(x => x.kana === key);
+    const rule = c.fs.filter(f => !f.startsWith('adj:')).map(f => ruleText(it, f)).filter(Boolean)[0] || '';
+    const after = view.querySelector('.after');
+    after.hidden = false;
+    after.innerHTML = `<p class="after-msg"><b lang="ja">${jpOf(c)}</b> = <span lang="ja">${wordHTML(it, 'furi')}</span> · ${esc(c.vi)}</p>
+      ${!ok && chosen ? `<p class="small">Bạn chọn <b lang="ja">${jpOf(chosen)}</b>: ${esc(chosen.vi)}.</p>` : !ok && dir === 'vj' ? '<p class="small">Phương án bạn chọn là lỗi chia hay gặp.</p>' : ''}
+      ${rule ? `<p class="small muted">${esc(rule)}</p>` : ''}`;
+    bindSay(after);
+    if (ok) { setTimeout(() => { if (view.querySelector('.hrt .opt')) next(); }, 1100); return; }
     const bar = document.createElement('div');
     bar.className = 'next-bar';
     bar.innerHTML = '<button type="button" class="btn btn-primary" data-act="next">Tiếp</button>';

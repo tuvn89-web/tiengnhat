@@ -70,13 +70,13 @@ Tải các file mới lên kho `tiengnhat`, ghi đè file cũ:
 - **Trên máy tính:** kho `tiengnhat` → **Add file → Upload files** → kéo cả thư mục (`js`, `css`) và các file lẻ (`sw.js`…) vào → **Commit changes**. GitHub tự đặt file vào đúng thư mục và ghi đè bản cũ.
 - **Trên điện thoại** (không kéo được thư mục): bấm vào thư mục `js` → **Add file → Upload files** → chọn các file `.js` → Commit. Làm tương tự với `css`. File ở ngoài cùng (`sw.js`) thì tải lên ở trang chính của kho.
 
-Đợi 1–2 phút rồi mở app khi có mạng. App **tự cập nhật** và tải lại trang, hiện thông báo *Đã cập nhật app lên bản mới*. Nếu đang giữa lượt học, app chờ học xong lượt mới tải lại.
+Đợi 1–2 phút rồi mở app khi có mạng. Từ v64, app **tải bản mới ngầm** rồi áp dụng khi app chuyển ra nền (ngoài lượt học) hoặc ở lần mở sau, kèm thông báo *Đã cập nhật app lên bản mới* — không còn tải lại trang giữa lúc đang dùng. Muốn áp dụng ngay: **Cài đặt → Máy này → Kiểm tra bản mới**.
 
 **Kiểm tra máy đang chạy bản nào:** **Cài đặt → Máy này → Phiên bản app** (cũng hiện ở cuối thẻ đồng bộ trong trang Dữ liệu). Chưa thấy số mới thì bấm **Kiểm tra bản mới**. Nếu vẫn chưa lên: trên Android, vuốt tắt hẳn app khỏi danh sách ứng dụng gần đây rồi mở lại.
 
 Người sửa code nhớ tăng `VERSION` trong `sw.js` (ví dụ `tnt-v2` → `tnt-v3`), thì máy mới nhận ra có bản mới.
 
-Chỉ thêm hoặc sửa gói dữ liệu thì **không cần** đổi `VERSION`: tăng `pack.version` trong gói là đủ, và skill tự làm việc này.
+Chỉ thêm hoặc sửa gói dữ liệu thì **không cần** đổi `VERSION`: tăng `pack.version` trong gói là đủ, và skill tự làm việc này. Từ v64, mỗi bản dữ liệu đưa lên kho gồm cả thư mục `data/bundles` (gói gộp theo nhóm) và `data/manifest.json` mới; gói cập nhật ghi rõ tệp nhóm cũ nào cần xoá.
 
 ## 7. Cấu trúc thư mục
 
@@ -1284,3 +1284,54 @@ Bản này điền cấu hình dự án Firebase `tiengnhat-app` vào `js/cloudc
 
 **Tệp:** sửa `js/account.js`, `js/profile.js`, `css/app.css`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.
 
+## 73. Bản v64 (24/10/2026): Mở app nhanh hơn
+
+- **Gói gộp theo nhóm:** 341 tệp gói công khai gom thành 9 tệp nhóm trong `data/bundles/` (Bài học & bài mở đầu, Từ vựng JLPT, Ngữ pháp, Chữ Hán, Hội thoại & bài đọc, Xưởng & thủy sản, Thuế – visa – thủ tục, Đời sống & Kansai, Học thử N3–N1). Tên tệp có mã nội dung: nhóm nào đổi thì máy chỉ tải lại nhóm đó. `data/manifest.json` có thêm trường `bundles`; nếu danh mục không có trường này (ví dụ chỉ đưa gói lẻ lên), app vẫn đọc từng gói như cũ. Thư mục `data/packs` vẫn giữ trên kho.
+- **Không chờ mạng lúc mở:** app mở ngay bằng danh mục gói đã lưu trong máy, rồi mới kiểm tra dữ liệu mới ở nền. Có bản mới thì tải sẵn, báo "Đã tải dữ liệu mới — app dùng từ lần mở sau", và áp dụng khi app chuyển ra nền (ngoài lượt học) hoặc ở lần mở sau. Chỉ lần đầu tiên (máy chưa có gì) mới phải chờ tải.
+- **Bản app mới không tải lại trang ngay:** cài ngầm; áp dụng lúc mở app (trước khi nạp dữ liệu nên rất nhanh) hoặc khi app chuyển ra nền ngoài lượt học. **Cài đặt → Máy này → Kiểm tra bản mới** áp dụng ngay cả bản app lẫn dữ liệu mới.
+- **Màn chờ có tiến trình:** "Đang tải dữ liệu… 3/9" kèm thanh; lần đầu mở app ghi dung lượng cần tải (khoảng 1,4 MB).
+- **Cài đặt → Máy này → Lần mở app gần nhất:** tổng thời gian và từng phần (danh mục gói, dữ liệu, nội dung lộ trình đã mở, sắp xếp kho, tiến độ học, mở trang); kèm thời gian 4 lần trước.
+- Đo trên máy làm app (CPU giả lập chậm 4 lần): mở lại app khi chưa đăng nhập 1,8 → 0,9 giây; đã mở N3–N1 3,2 → 2,1 giây; lần đầu mở trên mạng 4G chậm giả lập 13,7 → 7,8 giây (402 → 70 yêu cầu mạng).
+
+**Tệp:** mới `data/bundles/*.json`; sửa `data/manifest.json`, `js/data.js`, `js/app.js`, `js/util.js`, `js/settingspage.js`, `css/app.css`, `sw.js`, `HUONG-DAN.md`.
+
+## 74. Bản v65 (24/10/2026): "Học từ mới" mở tab Từ mới của bài; Luyện từ đã tim có Chuyển thể
+
+- **Trang chủ → Kế hoạch hôm nay → "Học N từ mới" → Học:** luôn mở **tab Từ mới của bài trong Lộ trình** (danh sách từ, nút tim, nút học). Bài đang học còn từ mới thì mở bài đó; đã học hết thì mở **bài kế tiếp còn từ mới** (dòng nhỏ ghi "từ của bài N"). Trước đây khi bài đang học hết từ, nút này mở lượt Học từ mới chung.
+- **Bài học → tab Từ mới → Luyện từ đã tim → tab "Chuyển thể"** (khi có động từ hoặc tính từ được tim):
+  - **Nhật → Việt:** thấy dạng đã chia (投げられる) → chọn nghĩa ("có thể ném, ném được — hoặc: bị / được ném").
+  - **Việt → Nhật:** thấy nghĩa ("ném đi! (ra lệnh mạnh)") → chọn dạng đúng (投げろ); phương án sai gồm dạng khác của cùng từ và **một lỗi chia hay gặp** (投げった, 踏みて…).
+  - Chọn **Thể N5 / Thể đến N4 / Thể đến N3**; hướng Việt → Nhật, Nhật → Việt hoặc Trộn.
+  - Một chữ dùng cho hai thể (động từ nhóm 2: khả năng = bị động) thì gộp nghĩa; hai thể gần nghĩa (ば / たら, ません / ない, ました / た) không làm phương án của nhau; dạng lịch sự ghi rõ "(lịch sự)".
+  - Sai thì hiện dạng đúng, nghĩa và luật chia, câu đó hỏi lại sau 2 câu. Kết quả ghi vào **điểm theo thể** (Luyện tập → Luyện thể), không đổi lịch ôn của từ.
+
+**Tệp:** sửa `js/roadmap.js`, `js/heart.js`, `js/admin.js` (đếm chữ Hán thiếu thẻ sau khi trang Nội dung đã hiện), `css/app.css`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.
+
+
+## 75. Bản v66 (24/10/2026): Chạm câu → từ → chữ Hán; xem / đổi ảnh đại diện
+
+**Chạm câu → từ → chữ Hán (3 tầng)**
+- **Tầng 1 — chạm một câu** ở bài đọc, hội thoại, bài mở đầu, câu ví dụ trong thẻ từ, ví dụ của mẫu ngữ pháp, giấy tờ (chạm câu nào giải thích câu đó), câu trong bài luyện **sau khi đã trả lời**, luyện dịch → bảng **Giải thích câu**: nghĩa cả câu → mẫu ngữ pháp trong câu (chạm để mở bài mẫu) → từ và cụm từ **theo thứ tự trong câu**. Câu đang xem được tô sáng.
+- **Tầng 2 — chạm một từ / cụm từ** trong bảng câu → **bảng từ gọn**: nghĩa, loại từ, cấp, Hán Việt; ô **"Trong câu"** gọi tên thể đang dùng (投[な]げさせられた = 投[な]げる · sai khiến bị động · quá khứ → đã bị bắt ném); **hàng chữ Hán** của từ (chữ, âm Hán Việt, nghĩa); nút nghe, ★, + Ôn, "Mở thẻ từ đầy đủ".
+  - Động từ nhóm 2 với 〜られる (vừa là khả năng vừa là bị động) ghi cả hai cách hiểu, không chọn thay người học. Dạng app không chắc thì chỉ ghi dạng từ điển.
+  - Cụm từ / chú thích (kể cả ô gạch chân trong giấy tờ) → bảng cụm: nghĩa, từ trong cụm, chữ Hán.
+- **Tầng 3 — chạm chữ Hán:** chỉ trong hàng chữ Hán của bảng từ và phần đầu thẻ từ đầy đủ → thẻ chữ Hán. **Chỗ khác chạm chữ Hán không mở gì nữa** (chạm vào câu thì mở bảng câu). Giữ nguyên: trang Chữ Hán, Ôn chữ Hán, thẻ chữ Hán, các bài luyện mặt chữ, chữ Hán hôm nay.
+- **Quay lại:** các bảng xếp chồng; nút **‹ (tên bảng trước)** hoặc phím Esc về bảng trước; **✕**, chạm ra ngoài hoặc **vuốt xuống** thì đóng hết.
+- **Đang làm câu hỏi (chưa trả lời):** chạm câu không mở gì, để khỏi lộ đáp án.
+- **Furigana mờ dần:** chạm chữ chỉ hiện lại furigana (không mở thẻ chữ nữa).
+- Kho từ: chạm một dòng vẫn mở **thẻ từ đầy đủ** như cũ.
+
+**Ảnh đại diện**
+- **Chạm ảnh** ở trang Tài khoản hoặc Hồ sơ → 2 lựa chọn:
+  - **Xem ảnh đại diện:** ảnh lớn, không khung, không huy hiệu (ảnh Google lấy bản lớn; ảnh tải lên hiện đúng ảnh đã lưu).
+  - **Đổi ảnh đại diện:** màn chỉnh.
+- **Màn chỉnh:** chọn **Tải ảnh từ máy** (điện thoại: thư viện ảnh hoặc chụp mới), ảnh tài khoản Google, hoặc 8 ảnh chữ Hán.
+  - Ảnh tải lên nằm sau lỗ tròn **đúng chỗ trong khung đang dùng**; phần mờ bên ngoài vòng tròn sẽ bị cắt.
+  - Kéo để dịch; chụm hai ngón hoặc kéo thanh để phóng to 1–5×; **Xoay 90°**; **Vừa khung** (đặt lại). Ảnh luôn phủ kín vòng tròn.
+  - **Xem trước 3 cỡ:** Hồ sơ, Tài khoản, thanh trên / bảng xếp hạng. Đổi khung (chỉ khung đã đạt) ngay trong màn chỉnh.
+  - **Lưu:** app cắt đúng vùng đã chỉnh, ảnh vẫn ≤ 11 500 ký tự như cũ — **không cần dán lại quy tắc Firestore**. Ảnh đã tải trước đây mở sẵn để chỉnh lại.
+  - Trang Sửa hồ sơ: nút "Đổi ảnh đại diện…" mở cùng màn chỉnh này.
+- Ảnh trên thanh trên vẫn mở trang Tài khoản.
+- **Bảng xếp hạng:** chạm một người → ảnh lớn, biệt danh, khung (có ánh kim hay không), huy hiệu. **Không bao giờ có email.**
+
+**Tệp:** mới `js/tap.js` (chồng bảng, bảng câu, bảng từ gọn, bảng cụm), `js/inform.js` (gọi tên thể trong câu), `js/avatar.js` (xem / đổi ảnh, màn chỉnh, thẻ người trên bảng xếp hạng); sửa `js/explain.js`, `js/app.js`, `js/ui.js`, `js/reader.js`, `js/giayto.js`, `js/words.js`, `js/wordx.js`, `js/grammar.js`, `js/lesson.js`, `js/kanji.js`, `js/dot6.js`, `js/dot7.js`, `js/leech.js`, `js/profile.js`, `js/guides.js`, `js/settingspage.js`, `js/util.js`, `css/app.css`, `sw.js`, `HUONG-DAN.md`. Không đổi dữ liệu, không đổi quy tắc Firestore.

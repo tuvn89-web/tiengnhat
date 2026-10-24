@@ -59,7 +59,7 @@ export function renderGrammar(view, id) {
 
     <h2 class="h2">${(g.ex || []).length} câu ví dụ <small>từ dễ đến khó</small></h2>
     <ol class="gram-ex">${(g.ex || []).map(e => `<li>
-      <div class="ex-row"><p class="ex-jp" lang="ja">${rubyHTML(e.jp, true)}</p>${sayBtn(reading(e.jp))}</div>
+      <div class="ex-row"><p class="ex-jp" lang="ja" data-vi="${esc(e.vi || '')}">${rubyHTML(e.jp, true)}</p>${sayBtn(reading(e.jp))}</div>
       <p class="ex-vi">${esc(e.vi)} <span class="tag">${esc(CTX[e.ctx] || e.ctx || '')}</span></p></li>`).join('')}</ol>
     <section class="card g-next">
       <p class="sub-label">Đọc xong bài giảng thì làm tiếp</p>
