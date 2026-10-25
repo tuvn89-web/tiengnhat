@@ -42,7 +42,7 @@ export function adjConj(it, form) {
     const s = a.stem;
     // 〜そう: ない → なさそう, いい → よさそう; còn lại bỏ い thêm そう (少ない → 少なそう)
     // v71: かわいい không có 〜そう (かわいそう là từ khác: "đáng thương") → bỏ dạng này
-    const sou = /かわい$/.test(a.stemKana || '') ? null : a.stemKana === 'な' || (a.base.endsWith('いい') && s.endsWith('よ')) ? s + 'さそう' : s + 'そう';
+    const sou = /かわい$/.test(a.stemKana || '') ? null : a.stemKana === 'な' || a.stemKana === 'よ' || a.base.endsWith('良い') || (a.base.endsWith('いい') && s.endsWith('よ')) ? s + 'さそう' : s + 'そう';
     const M = {
       desu: [a.base, a.base + 'です'], nai: [s + 'くない', s + 'くないです'], ta: [s + 'かった', s + 'かったです'], nakatta: [s + 'くなかった', s + 'くなかったです'],
       te: [s + 'くて'], ba: [s + 'ければ'], adv: [s + 'く'], naru: [s + 'くなる', s + 'くなります'], attr: [a.base],

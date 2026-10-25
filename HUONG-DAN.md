@@ -1468,3 +1468,28 @@ Bài học → tab Từ mới → **Luyện từ đã tim → tab "Chuyển th�
 - Động từ kính ngữ (おっしゃる, なさる, くださる, いらっしゃる) ghép 〜そう / 〜ながら dùng thân り: おっしゃりながら, なさりそう (trước đây ra おっしゃいながら — sai).
 
 **Tệp:** mới `js/cauthe.js`, `data/cauthe/n5.json`, `data/cauthe/n4.json`; sửa `js/heart.js`, `js/conj.js`, `js/vidu.js`, `js/wordx.js`, `js/tap.js`, `js/practice.js`, `js/forms.js`, `js/adj.js`, `js/app.js`, `css/app.css`, `js/util.js`, `sw.js`, `HUONG-DAN.md`.
+
+## 81. Bản v72 (25/10/2026): Câu thật cho từng dạng chia — N3 (nội dung khóa)
+
+**Dữ liệu mới: câu theo dạng N3**
+- **13.982 câu** cho **770 từ N3** (369 động từ, 277 danh từ + する, 124 tính từ):
+  - đời sống 7.932 · xưởng 3.809 · hội thoại 1.145 · thủ tục 1.034 · Kansai 62;
+  - có câu cho 9.911 dạng đơn và 4.071 dạng ghép. Dạng gượng không viết câu.
+- **Kiểm từng câu:**
+  - Máy kiểm: đúng dạng của đúng từ, đủ furigana, có câu dịch, có tình huống. Thêm một máy soát chỗ nối ngay sau dạng (bắt lỗi kiểu 〜ずにに, 〜なきゃから, lặp いけない).
+  - 13 lượt người soát độc lập đọc lại từng câu: sửa khoảng 460 câu, bỏ 7 câu.
+- **Nằm sau khóa** như các nội dung N3 khác: câu N3 nằm trong bó nội dung khóa N3, chỉ máy đã mở lộ trình N3 mới có. Máy chưa mở N3 không tải thêm gì.
+
+**Việc của quản trị viên khi lên bản này**
+- Quản trị → **Nội dung** → chọn tệp **`noidung-khoa-v72.zip`**. Chỉ bó N3 đổi (thêm câu theo dạng); N2, N1 trùng bản cũ nên app tự bỏ qua.
+- Người học đã mở N3: lần mở app sau (có mạng) app tự tải bó N3 mới.
+
+**App**
+- Chuyển thể, thẻ từ ("Câu ví dụ ›"), bảng "Ngữ pháp dùng thể X", Luyện thể → Thể trong câu, Thể động từ trong câu: dùng câu N3 như N5, N4.
+- **Chặn hỏi theo từng từ:** từ đã có câu thì chỉ hỏi dạng có câu; từ của cấp đã có dữ liệu nhưng chưa có câu nào thì hỏi như cũ (trước đây chặn theo cả cấp).
+
+**Sửa kèm**
+- 問[と]う (請[こ]う): thể て là 問[と]うて, 問[と]うた (trước đây ra 問[と]って — sai).
+- 良[よ]い + 〜そう: 良[よ]さそう (trước đây ra 良[よ]そう — sai).
+
+**Tệp:** sửa `js/cauthe.js`, `js/conj.js`, `js/adj.js`, `js/util.js`, `sw.js`, `HUONG-DAN.md`. Kèm `noidung-khoa-v72.zip` (đưa lên qua trang Quản trị, không đưa lên kho).

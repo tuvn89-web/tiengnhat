@@ -145,7 +145,7 @@ export function verbInfo(it) {
   const na = HONORIFIC.includes(kana) ? ['kano', 'ukemi', 'shieki', 'shiekiukemi', 'tai', 'ikou', 'teiru', ...HON_NO] : it.pos === 'v5' && kana === 'いる' ? [] : NO_FORMS[kana] || [];
   return {
     group: it.pos, u, stem: dictMark.slice(0, -1), stemKana: kana.slice(0, -1), dict: dictMark, dictKana: kana, na,
-    iku: it.pos === 'v5' && /(い|ゆ)く$/.test(kana) && kana.length <= 3, aru: it.pos === 'v5' && kana === 'ある', hon: HONORIFIC.includes(kana),
+    iku: it.pos === 'v5' && /(い|ゆ)く$/.test(kana) && kana.length <= 3, aru: it.pos === 'v5' && kana === 'ある', ou: it.pos === 'v5' && (kana === 'とう' || kana === 'こう'), hon: HONORIFIC.includes(kana),
   };
 }
 export const hasForm = (v, form) => !!v && !(v.na || []).includes(form);
@@ -199,6 +199,8 @@ export function conjugate(it, form) {
   if (v.group === 'v1') return { mark: v.stem + ICHI[form], kana: v.stemKana + ICHI[form] };
   let end = GODAN[form](v.u);
   if (v.iku && ['te', 'ta', 'tara', 'teiru'].includes(form)) end = { te: 'って', ta: 'った', tara: 'ったら', teiru: 'っている' }[form];
+  // v72: 問う, 請う / 乞う: thể て là 〜うて (問うて, 問うた), không phải 問って
+  if (v.ou && ['te', 'ta', 'tara', 'teiru'].includes(form)) end = { te: 'うて', ta: 'うた', tara: 'うたら', teiru: 'うている' }[form];
   if (v.aru && form === 'nai') return { mark: 'ない', kana: 'ない' };
   if (v.aru && form === 'nakatta') return { mark: 'なかった', kana: 'なかった' };
   if (v.hon && ['masu', 'masen', 'mashita', 'tai'].includes(form)) end = end.replace(/^り/, 'い');
